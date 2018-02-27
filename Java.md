@@ -1,6 +1,6 @@
-#Java笔记
+# Java笔记
 
-##Java获取当前时间加减
+## Java获取当前时间加减
 ```java
 Date date = new Date();//获取当前时间  
 Calendar calendar = Calendar.getInstance();
