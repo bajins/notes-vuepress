@@ -4,7 +4,7 @@
 [xshell.md](https://github.com/claer-ding/UseNotes/blob/master/xshell.md)
 
 ## idea
-[xshell.md](https://github.com/claer-ding/UseNotes/blob/master/idea.md)
+[idea.md](https://github.com/claer-ding/UseNotes/blob/master/idea.md)
 
 ## Java
-[xshell.md](https://github.com/claer-ding/UseNotes/blob/master/Java.md)
+[Java.md](https://github.com/claer-ding/UseNotes/blob/master/Java.md)
