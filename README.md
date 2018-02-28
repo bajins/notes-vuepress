@@ -9,5 +9,5 @@
 ## Java
 [Java.md](https://github.com/claer-ding/UseNotes/blob/master/Java.md)
 
-## NextCloudAndAria2
+## NextCloud And Aria2
 [NextCloudAndAria2.md](https://github.com/claer-ding/UseNotes/blob/master/NextCloudAndAria2.md)
