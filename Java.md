@@ -10,4 +10,13 @@
         calendar.getTime();//获取一年前的时间，或者一个月前的时间  
         int year =cal.get(Calendar.YEAR);//获取年
         int monthInt = cal.get(Calendar.MONTH )+1;//获取月，因为第一个月是0，所以要+1
+        int day = calendar.get(Calendar.DATE);//获取日
+        int first = c.getActualMinimum(Calendar.DAY_OF_MONTH);//获取本月最小天数
+        int last = c.getActualMaximum(Calendar.DAY_OF_MONTH);//获取本月最大天数
+        int time = c.get(Calendar.HOUR_OF_DAY);//获取当前小时
+        int min = c.get(Calendar.MINUTE);//获取当前分钟
+        int sec = c.get(Calendar.SECOND);//获取当前秒
+        
+        Calendar c = Calendar.getInstance(TimeZone.getTimeZone("GMT+08:00"));//获取东八区时间
+        
 ```
