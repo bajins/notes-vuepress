@@ -9,7 +9,7 @@
         calendar.add(Calendar.MONTH, -1);//当前时间前去一个月，即一个月前的时间  
         calendar.getTime();//获取一年前的时间，或者一个月前的时间  
         int year =cal.get(Calendar.YEAR);//获取年
-        int monthInt = cal.get(Calendar.MONTH )+1;//获取月，因为第一个月是0，所以要+1
+        int month = cal.get(Calendar.MONTH )+1;//获取月，因为第一个月是0，所以要+1
         int day = calendar.get(Calendar.DATE);//获取日
         int first = c.getActualMinimum(Calendar.DAY_OF_MONTH);//获取本月最小天数
         int last = c.getActualMaximum(Calendar.DAY_OF_MONTH);//获取本月最大天数
