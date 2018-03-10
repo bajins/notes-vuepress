@@ -9,8 +9,7 @@
 ## Java
 [Java](https://github.com/claer-ding/UseNotes/blob/master/Java.md)
 
-## NextCloud And Aria2
-[NextCloudAndAria2](https://github.com/claer-ding/UseNotes/blob/master/NextCloudAndAria2.md)
 
 ## VPS
 [宝塔面板](https://github.com/claer-ding/UseNotes/blob/master/VPS/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF.md)
+[NextCloudAndAria2](https://github.com/claer-ding/UseNotes/VPS/NextCloudAndAria2.md)
