@@ -1,4 +1,4 @@
-#OpenVZ魔改BBR的一键安装脚本
+# OpenVZ魔改BBR的一键安装脚本
 
 ## 安装命令
 ### Debian、Ubuntu 64 bit：
