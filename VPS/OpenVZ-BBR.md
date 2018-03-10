@@ -1,4 +1,6 @@
-# 安装命令
+#OpenVZ魔改BBR的一键安装脚本
+
+## 安装命令
 ### Debian、Ubuntu 64 bit：
 ```
 1.wget https://github.com/nanqinlang-tcp/tcp_nanqinlang/releases/download/rinetd/tcp_nanqinlang-rinetd-debian-ubuntu.sh
@@ -10,8 +12,8 @@
 1.wget https://github.com/nanqinlang-tcp/tcp_nanqinlang/releases/download/rinetd/tcp_nanqinlang-rinetd-centos.sh
 2.bash tcp_nanqinlang-rinetd-centos.sh
 ```
-# 使用说明
-## 运行安装命令后会出现以下三个选项：
+## 使用说明
+### 运行安装命令后会出现以下三个选项：
 ### 1、安装 rinetd-bbr
 
 #### 由于Rinetd OpenVZ魔改BBR一键安装脚本不能批量端口或端口段加速，所以在安装过程当中会提示需要输入端口号，我们根据自己需要输入即可，如果需要开启多个端口加速，那就用空格隔开。使用一键安装包安装完成后会自动开启rinetd-bbr，并且之后重启VPS后也会自动开启。
