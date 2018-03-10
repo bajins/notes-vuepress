@@ -14,3 +14,5 @@
 [宝塔面板](https://github.com/claer-ding/UseNotes/blob/master/VPS/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF.md)
 
 [NextCloudAndAria2](https://github.com/claer-ding/UseNotes/VPS/NextCloudAndAria2.md)
+
+[测试脚本](https://github.com/claer-ding/UseNotes/blob/master/VPS/%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC.md)
