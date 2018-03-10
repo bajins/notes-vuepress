@@ -13,4 +13,4 @@
 [NextCloudAndAria2.md](https://github.com/claer-ding/UseNotes/blob/master/NextCloudAndAria2.md)
 
 ## VPS
-[vps.md](https://github.com/claer-ding/UseNotes/blob/master/vps.md)
+[宝塔面板.md](https://github.com/claer-ding/UseNotes/blob/master/VPS/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF.md)
