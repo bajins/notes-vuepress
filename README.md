@@ -11,3 +11,6 @@
 
 ## NextCloud And Aria2
 [NextCloudAndAria2.md](https://github.com/claer-ding/UseNotes/blob/master/NextCloudAndAria2.md)
+
+## VPS
+[vps.md](https://github.com/claer-ding/UseNotes/blob/master/vps.md)
