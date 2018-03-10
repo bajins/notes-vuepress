@@ -3,14 +3,14 @@
 ## 安装命令
 ### Debian、Ubuntu 64 bit：
 ```
-1.wget https://github.com/nanqinlang-tcp/tcp_nanqinlang/releases/download/rinetd/tcp_nanqinlang-rinetd-debian-ubuntu.sh
-2.bash tcp_nanqinlang-rinetd-debian-ubuntu.sh
+1. wget https://github.com/nanqinlang-tcp/tcp_nanqinlang/releases/download/rinetd/tcp_nanqinlang-rinetd-debian-ubuntu.sh
+2. bash tcp_nanqinlang-rinetd-debian-ubuntu.sh
 ```
 
 ### CentOS 7 64 bit:
 ```
-1.wget https://github.com/nanqinlang-tcp/tcp_nanqinlang/releases/download/rinetd/tcp_nanqinlang-rinetd-centos.sh
-2.bash tcp_nanqinlang-rinetd-centos.sh
+1. wget https://github.com/nanqinlang-tcp/tcp_nanqinlang/releases/download/rinetd/tcp_nanqinlang-rinetd-centos.sh
+2. bash tcp_nanqinlang-rinetd-centos.sh
 ```
 ## 使用说明
 ### 运行安装命令后会出现以下三个选项：
