@@ -28,6 +28,14 @@
 
 
 
+# 一键安装最新内核并开启 BBR 脚本 by [秋水逸冰](https://teddysun.com/489.html)
+
+
+
+# 各类VPS网络加速软件一键安装脚本整理 by [荒岛](https://lala.im/638.html)
+
+
+
 
 
 
