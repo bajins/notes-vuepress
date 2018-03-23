@@ -6,3 +6,6 @@
 
 ## 设置去掉提示重复代码
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/20180227175329.png)
+
+## [idea无限indexing解决方法](https://github.com/tengj/IntelliJ-IDEA-Tutorial/blob/newMaster/IntelliJ-IDEA-cache.md)
+![](https://github.com/tengj/IntelliJ-IDEA-Tutorial/raw/newMaster/images/xii-a-invalidate-cache-1.jpg)
