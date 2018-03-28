@@ -16,3 +16,6 @@
 -Xms2048m -Xmx2048m -XX:MaxPermSize=4096m -Drebel.spring_plugin=true -Drebel.spring_mvc_plugin=true -Drebel.hibernate_plugin=true
 ```
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/20180323100217.png)
+
+## idea 去掉大小写敏感提示
+![](https://github.com/claer-ding/UseNotes/blob/master/images/IDEA%E5%8E%BB%E6%8E%89%E5%A4%A7%E5%B0%8F%E5%86%99%E5%8C%BA%E5%88%86%E6%8F%90%E7%A4%BA.png)
