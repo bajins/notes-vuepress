@@ -1,5 +1,6 @@
 # UseNotes
 个人使用笔记（VPS、建站、Java、PHP、NGINX、Tomcat、MySQL、Redis、Linux）
+[https://zd966.com](https://zd966.com)
 
 ## IntelliJ IDEA
 [idea设置](https://github.com/claer-ding/UseNotes/blob/master/IDEA/idea%E8%AE%BE%E7%BD%AE.md)
