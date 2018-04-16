@@ -5,7 +5,7 @@ sudo -u www aria2c --enable-rpc --rpc-listen-all --rpc-allow-origin-all -c --dir
 ```
 
 ## aria2项目地址
-[](https://github.com/aria2/aria2)
+[https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 
 
 ## aria2 angUI项目地址
