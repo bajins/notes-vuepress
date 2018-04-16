@@ -18,3 +18,9 @@ sudo -u www aria2c --enable-rpc --rpc-listen-all --rpc-allow-origin-all -c --dir
 ## BaiduExporter
 ### 可以方便的把百度网盘的下载地址导出到 aria2/aria2-rpc，支持 YAAW。
 [https://github.com/acgotaku/BaiduExporter](https://github.com/acgotaku/BaiduExporter)
+
+## webui-aria2
+[https://github.com/ziahamza/webui-aria2](https://github.com/ziahamza/webui-aria2)
+
+## Persepolis下载管理器
+[https://github.com/persepolisdm/persepolis](https://github.com/persepolisdm/persepolis)
