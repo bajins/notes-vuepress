@@ -1,5 +1,5 @@
 ```
--- 删除游标
+-- 删除存储过程
 drop procedure complete_order;
 DELIMITER $$
 CREATE PROCEDURE complete_order () 
