@@ -20,7 +20,7 @@ BEGIN
 	-- 赋值错误代码给code变量，赋值错误信息给msg变量
 	GET DIAGNOSTICS CONDITION 1 code = RETURNED_SQLSTATE, msg = MESSAGE_TEXT;
 	-- 保存错误信息到日志表中
-	INSERT INTO sql_log(code,description,create_time,message) VALUES(code,'触发器：complete_order',NOW(),msg);
+	INSERT INTO sql_log(code,description,create_time,message) VALUES(code,'存储过程：complete_order',NOW(),msg);
 
 	-- SELECT concat('[', code, '] ', msg) sqlerrm;
 		
