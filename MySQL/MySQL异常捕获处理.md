@@ -20,8 +20,8 @@ BEGIN
 	-- 赋值错误代码给code变量，赋值错误信息给msg变量
 		GET DIAGNOSTICS CONDITION 1 code = RETURNED_SQLSTATE, msg = MESSAGE_TEXT;
 		
-		INSERT INTO sql_log(code,create_time,message) VALUES(code,NOW(),msg);
-		COMMIT;
+		INSERT INTO sql_log(code,description,create_time,message) VALUES(code,'触发器：complete_order',NOW(),msg);
+		
 		SELECT concat('[', code, '] ', msg) sqlerrm;
 		
 	END;
