@@ -1,7 +1,7 @@
 ```
--- 删除存储过程
-drop procedure complete_order;
 DELIMITER $$
+-- 判断删除存储过程
+DROP PROCEDURE IF EXISTS complete_order;
 CREATE PROCEDURE complete_order () 
 BEGIN
 	DECLARE code VARCHAR(5) DEFAULT '00000';
