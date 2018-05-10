@@ -1,8 +1,8 @@
 ```
 DELIMITER $$
 -- 判断删除存储过程
-DROP PROCEDURE IF EXISTS complete_order;
-CREATE PROCEDURE complete_order () 
+DROP PROCEDURE IF EXISTS err;
+CREATE PROCEDURE err() 
 BEGIN
 	DECLARE code VARCHAR(5) DEFAULT '00000';
 	DECLARE msg TEXT;
@@ -21,7 +21,7 @@ BEGIN
 	-- 赋值错误代码给code变量，赋值错误信息给msg变量
 	GET DIAGNOSTICS CONDITION 1 code = RETURNED_SQLSTATE,errno = MYSQL_ERRNO, msg = MESSAGE_TEXT;
 	-- 保存错误信息到日志表中
-	-- INSERT INTO sql_log(code,description,create_time,message) VALUES(code,'存储过程：complete_order',NOW(),msg);
+	-- INSERT INTO sql_log(code,description,create_time,message) VALUES(code,'存储过程：err',NOW(),msg);
 	
 	SELECT CONCAT("ERROR ", errno,'[', code, '] ', msg) sqlerrm;
 		
