@@ -68,6 +68,13 @@ DROP FUNCTION IF EXISTS http_delete;
 select * from mysql.func; 
 ```
 
+### Description:
+```
+SELECT http_get('<url>');
+SELECT http_post('<url>', '<data>');
+SELECT http_put('<url>', '<data>');
+SELECT http_delete('<url>');
+```
 ### 实例：
 ```
 select http_get('http://10.10.3.199/dsideal_yy/kgdxpr') as res;
