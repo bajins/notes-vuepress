@@ -77,21 +77,19 @@ SELECT http_delete('<url>');
 ```
 ### 实例：
 ```
-select http_get('http://10.10.3.199/dsideal_yy/kgdxpr') as res;
-select http_post('http://10.10.3.199/dsideal_yy/kgdxpr','id=1&type=a') as res;
-
-/* Baidu Mobile Search */
-SELECT http_get('http://m.baidu.com/s?word=xoyo&pn=0');
-SELECT http_post('http://m.baidu.com/s','word=xoyo&pn=0');
-
-/* Sina Weibo Open Platform */
-SELECT http_get('http://api.t.sina.com.cn/statuses/user_timeline/103500.json?count=1&source=1561596835') AS data;
-SELECT http_post('http://your_sina_uid:your_password@api.t.sina.com.cn/statuses/update.xml?source=1561596835', 'status=Thins is sina weibo test information');
-
-/* Tokyo Tyrant */
-SELECT http_put('http://192.168.8.34:1978/key', 'This is value');
-SELECT http_get('http://192.168.8.34:1978/key');
-SELECT http_delete('http://192.168.8.34:1978/key');
+/* HTTP GET、POST方式提交关键词“xoyo”到百度移动搜索 */  
+SELECT http_get('http://m.baidu.com/s?word=xoyo&pn=0');  
+SELECT http_post('http://m.baidu.com/s','word=xoyo&pn=0');  
+  
+/* 新浪微博开放平台：获取新浪用户ID为103500的最近一条微博内容 */  
+SELECT http_get('http://api.t.sina.com.cn/statuses/user_timeline/103500.json?count=1&source=1561596835') AS data;  
+/* 新浪微博开放平台：发表一条微博 */  
+SELECT http_post('http://your_sina_uid:your_password@api.t.sina.com.cn/statuses/update.xml?source=1561596835', 'status=Thins is sina weibo test information');  
+  
+/* Tokyo Tyrant 写入、读取、删除操作 */  
+SELECT http_put('http://192.168.8.34:1978/key', 'This is value');  
+SELECT http_get('http://192.168.8.34:1978/key');  
+SELECT http_delete('http://192.168.8.34:1978/key');  
 ```
 
 # 二、mysql-udf-json
