@@ -32,5 +32,5 @@ END $$
 DELIMITER;
 ```
 ```
-call complete_order();
+CALL err();
 ```
