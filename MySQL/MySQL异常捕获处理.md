@@ -21,7 +21,7 @@ BEGIN
 	-- 赋值错误代码给code变量，赋值错误信息给msg变量
 	GET DIAGNOSTICS CONDITION 1 code = RETURNED_SQLSTATE,errno = MYSQL_ERRNO, msg = MESSAGE_TEXT;
 	-- 保存错误信息到日志表中
-	-- INSERT INTO sql_log(code,erron,description,create_time,message) VALUES(code,erron,'存储过程：err',NOW(),msg);
+	-- INSERT INTO sql_log(errno,code,description,create_time,message) VALUES(errno,code,'存储过程：err',NOW(),msg);
 	
 	SELECT CONCAT("ERROR ", errno,'[', code, '] ', msg) sqlerrm;
 		
