@@ -1,4 +1,4 @@
-# OpenVZ魔改BBR的一键安装脚本 by [南琴浪博客](https://sometimesnaive.org/category/linux/bash/)
+# OpenVZ魔改BBR的一键安装脚本 by [南琴浪博客](https://github.com/nanqinlang-tcp/tcp_nanqinlang-test)
 
 ## 安装命令
 ### Debian、Ubuntu 64 bit：
