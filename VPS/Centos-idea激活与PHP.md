@@ -4,7 +4,7 @@
 ```
 yum install -y gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-devel lrzsz lrzsz-devel p7zip p7zip-devel net-tools net-tools-devel vim vim-devel libaio libaio-devel unzip zip
 ```
-----------
+---
 
 把Linux的idea代理软件上传到服务器（我把文件名改为ideaServer64）：
 输入rz会自动弹出选择文件窗口，选择好文件之后点确认就可以了。
