@@ -43,6 +43,7 @@ autostart=true
 autorestart=true
 startsecs=3
 按Esc按键，再输入:wq保存并关闭（:q退出，:wq保存并关闭，:q!撤销编辑，:!q强制退出）
+
 ----------------------------------------------------------------------------------------------------------------------
 如果你安装了NGINX，操作如下,如果没有安装请往下看：
 接下来更改NGINX的nginx.conf配置信息：
@@ -546,7 +547,9 @@ proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 现在的$proxy_add_x_forwarded_for变量的"X-Forwarded-For"部分是空的，所以只有$remote_addr，而$remote_addr的值是用户的ip，于是赋值以后，X-Forwarded-For变量的值就是用户的真实的ip地址了。
 到了第二台nginx，使用
 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-#### 现在的$proxy_add_x_forwarded_for变量，X-Forwarded-For部分包含的是用户的真实ip，$remote_addr部分的值是上一台nginx的ip地址，于是通过这个赋值以后现在的X-Forwarded-For的值就变成了“用户的真实ip，第一台nginx的ip”，这样就清楚了吧。
+
+现在的$proxy_add_x_forwarded_for变量，X-Forwarded-For部分包含的是用户的真实ip，$remote_addr部分的值是上一台nginx的ip地址，于是通过这个赋值以后现在的X-Forwarded-For的值就变成了“用户的真实ip，第一台nginx的ip”，这样就清楚了吧。
+
 --------------------------------------------------------
 ```
 	server {
