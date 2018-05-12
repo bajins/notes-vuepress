@@ -145,9 +145,9 @@ sudo systemctl enable nginx.service
 Nginx全局配置：
 /etc/nginx/nginx.conf
 
-# config: /etc/nginx/nginx.conf 安装目录
-# config: /etc/sysconfig/nginx
-# pidfile: /var/run/nginx.pid
+#config: /etc/nginx/nginx.conf 安装目录
+#config: /etc/sysconfig/nginx
+#pidfile: /var/run/nginx.pid
 #log日志文件在var/log/nginx
 
 
@@ -291,7 +291,7 @@ flush privileges;
 
 -------------------------------------------------------------------------
 MariaDB 远程连接：
-# 针对ip
+#针对ip
 ```
 create user 'root'@'192.168.10.10' identified by 'password';
 ```
@@ -356,35 +356,43 @@ character-set-server=utf8
 ```
 ---------------------------------------------------------
 安装phpmyadmin：
+```
 yum -y install  phpMyAdmin
+```
 配置phpmyadmin：
+```
 cp /etc/phpMyAdmin/config.inc.php /usr/share/phpMyAdmin/
 ln -s /usr/share/phpMyAdmin  /usr/local/nginx/html/pma
-
+```
 有时候会安装不成功，提示没有可用软件包，则需要安装Remi源 ：
 yum install epel-release
 rpm -ivh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
 
 或者直接下载使用：
+```
 wget https://files.phpmyadmin.net/phpMyAdmin/4.7.7/phpMyAdmin-4.7.7-all-languages.tar.gz
 chown -R www:www /var/lib/php/session
+```
 ==========================================================
 
-
 rpm 安装 Php7 相应的 yum源：
+```
 rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+```
 安装php7.0：
+```
 yum install -y php70w
-
+```
 安装php扩展：
+```
 yum install -y php70w-mysql.x86_64 php70w-gd.x86_64 php70w-ldap.x86_64 php70w-mbstring.x86_64 php70w-mcrypt.x86_64
-
 yum -y install libxml2 libxml2-devel openssl openssl-devel bzip2 bzip2-devel libcurl libcurl-devel libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel gmp gmp-devel libmcrypt libmcrypt-devel readline readline-devel libxslt libxslt-devel
-
+```
 安装PHP FPM：
+```
 yum install -y php70w-fpm php70w-opcache
-
+```
 验证安装
 终端命令：php -v，显示当前PHP版本
 
