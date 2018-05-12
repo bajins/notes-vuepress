@@ -1,7 +1,9 @@
 本机以centOS为例：
 
 安装依赖，一条命令行全部都可以搞定：
-yum install -y gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-devel lrzsz lrzsz-devel p7zip p7zip-devel net-tools net-tools-devel vim vim-devel libaio libaio-devel
+```
+yum install -y gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-devel lrzsz lrzsz-devel p7zip p7zip-devel net-tools net-tools-devel vim vim-devel libaio libaio-devel unzip zip
+```
 ===================================================================
 
 把Linux的idea代理软件上传到服务器（我把文件名改为ideaServer64）：
@@ -12,7 +14,9 @@ ll
 
 
 接下来 需要把它运行起来，先加一个可执行权限：
+```
 chmod +x ideaServer64
+```
 
 开始运行，输入路径加文件名加命令，我把文件上传到/usr/local/src/目录下的：
 /usr/local/src/ideaServer64 -p 1027 -prolongationPeriod 999999999999
@@ -46,7 +50,7 @@ startsecs=3
 输入：
 vi /usr/local/nginx/nginx.conf
 在最后一个}前加入以下代码：
-
+```
 	server{
 		listen 80;
 		#自己的域名，没有的话就是自己的公网ip，域名一定要解析到这台服务器上
@@ -64,15 +68,18 @@ vi /usr/local/nginx/nginx.conf
 		access_log off; #access_log end
 		error_log /dev/null; #error_log end
 	}
+```
 按Esc按键，再输入:wq保存并关闭。
 重启nginx：
+```
 /usr/local/nginx/nginx -s reload
-
+```
 ================================================================================================
 如果你没有安装NGINX，操作如下：
 源码编译安装，继续往下看有更简单的方式！！！（yum安装）
 Nginx 一般有两个版本，分别是稳定版和开发版，您可以根据您的目的来选择这两个版本的其中一个，
 下面是把 Nginx 安装到 /usr/local/nginx 目录下的详细步骤：
+```
 cd /usr/local/src
 wget http://nginx.org/download/nginx-1.13.8.tar.gz
 tar -zxvf nginx-1.13.8.tar.gz
@@ -88,6 +95,7 @@ cd nginx-1.13.8
 
 make
 make install
+```
 
 安装成功后 /usr/local/nginx 目录下如下
 fastcgi.conf            koi-win             nginx.conf.default
@@ -100,26 +108,34 @@ koi-utf                 nginx.conf          win-utf
 
 6.启动
 确保系统的 80 端口没被其他程序占用，运行命令来启动Nginx：
+```
 /usr/local/nginx/nginx
+```
 
 查看占用端口：
+```
 netstat -ano|grep 80
+```
 
 如果出现：-bash: netstat: command not found
 可能是CentOS 7的最小化安装少了一些工具,比如 ifconfig 及 netstat
+```
 yum install net-tools
-
+```
 --------------------------------------------------------------------
 或者用yum安装：
 下载并安装nginx
+```
 yum install -y nginx
-
+```
 刚安装的Nginx不会自行启动。运行Nginx:
+```
 sudo systemctl start nginx.service
-
+```
 CentOS 7 开机启动Nginx：
+```
 sudo systemctl enable nginx.service
-
+```
 网站文件存放默认目录：
 /usr/share/nginx/html
 网站默认站点配置：
@@ -139,14 +155,18 @@ Nginx全局配置：
 
 启动直接输入nginx
 
-关闭nginx进程:
-pkill -9 nginx 强制停止Nginx
-
+关闭nginx进程,强制停止Nginx:
+```
+pkill -9 nginx
+```
 其他的停止nginx 方式： 
+```
 ps -ef | grep nginx
-kill -QUIT 主进程号 >>>>从容停止Nginx 
-kill -TERM 主进程号 >>>>快速停止Nginx 
-
+#主进程号 >>>>从容停止Nginx 
+kill -QUIT
+#主进程号 >>>>快速停止Nginx 
+kill -TERM
+```
 ---------------------------------------------------------------
 
 打开浏览器访问此机器的 IP，如果浏览器出现 Welcome to nginx! 则表示 Nginx 已经安装并运行成功。
@@ -164,7 +184,9 @@ ssh遇到port 22:No route to host问题的解决方法
 启动Nginx出现这个错误：
 nginx: [error] open() "/usr/local/var/run/nginx.pid" failed (2: No such file or directory)
 解决方法：找到你的nginx.conf的文件夹目录，然后运行这个命令：
+```
 nginx -c /etc/nginx/nginx.conf
+```
 再重启就可以了。
 
 Linux每个应用运行都会产生一个进程，那么我们就可以通过查看Nginx进程是否存在来判断它是否启动。
@@ -172,8 +194,9 @@ Linux每个应用运行都会产生一个进程，那么我们就可以通过查
 如： ps -ef | grep nginx 就可以看到Nginx进程是否存在了。
 
 第二种方法：直接查看进程id
+```
 ps -C nginx -o pid
-
+```
 第三种方法：使用netstat命令
 如果我们的Nginx运行在80端口，那么就可以通过netstat -anp | grep :80命令来判断Nginx是否启动。
 
@@ -184,15 +207,21 @@ lsof -i:80 也可以查到80端口进程是否有进程在运行。
 首先centos7 已经不支持mysql，因为收费了你懂得，所以内部集成了mariadb，
 而安装mysql的话会和mariadb的文件冲突，所以需要先卸载掉mariadb，以下为卸载mariadb，安装mysql的步骤。
 列出所有被安装的rpm package 
+```
 rpm -qa | grep mariadb
+```
 #卸载
+```
 rpm -e mariadb-libs-5.5.56-2.el7.x86_64
-
+```
 #强制卸载，因为没有--nodeps
+```
 rpm -e --nodeps mariadb-libs-5.5.56-2.el7.x86_64
+```
 安装mysql依赖
+```
 yum -y install vim libaio
-
+```
 安装MySQL
 下载yum源
 命令：wget https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm
@@ -328,6 +357,7 @@ yum install -y php70w-fpm php70w-opcache
 终端命令：php -v，显示当前PHP版本
 
 修改Nginx配置文件：
+```
 	server {
 	    listen       80;
 	    server_name  www.jostin.top;
@@ -353,7 +383,7 @@ yum install -y php70w-fpm php70w-opcache
 	        include fastcgi_params;
 	    }
 	}
-
+```
 修改php-fpm配置文件：
 php-fpm配置文件位置：（/etc/php-fpm.d/www.conf） 
 指定用户和组，必须要指定root以外的：
@@ -411,6 +441,7 @@ chmod -R 777 文件夹名
 
 
 ====================================================================================================
+```
 http{
 
     gzip on;
@@ -430,9 +461,9 @@ http{
     
     
  }
+```
 NGINX用ip代理其他NGINX服务器
-
-	代理NGINX
+```
 	upstream zml{#如果想对后端机器做负载均衡
 	#被代理IP
             server 193.112.13.35:8085;
@@ -453,7 +484,7 @@ NGINX用ip代理其他NGINX服务器
             }
 
 	}
-	
+```
 	
 proxy_set_header Host $host:$proxy_port;服务器名可以和后端服务器的端口一起传送：
 $host代表转发服务器，$host就是nginx代理服务器。
@@ -475,7 +506,7 @@ proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 现在的$proxy_add_x_forwarded_for变量，X-Forwarded-For部分包含的是用户的真实ip，$remote_addr部分的值是上一台nginx的ip地址，于是通过这个赋值以后现在的X-Forwarded-For的值就变成了“用户的真实ip，第一台nginx的ip”，这样就清楚了吧。
 --------------------------------------------------------
-	被代理NGINX
+```
 	server {
 	    listen       80;
 	    #公网IP,可以在ip后面加端口，要与listen端口号一致
@@ -487,3 +518,4 @@ proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 	        index index.php index.html;
 	    }
 	}
+```
