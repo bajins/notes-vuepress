@@ -34,7 +34,7 @@
 
 # 各类VPS网络加速软件一键安装脚本整理 by [荒岛](https://lala.im/638.html)
 
-
+https://github.com/shadowsocks/shadowsocks-windows/releases
 
 
 
