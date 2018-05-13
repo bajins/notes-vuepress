@@ -218,10 +218,15 @@ firewall-cmd --zone= public --remove-port=80/tcp --permanent
 
 --------------------------------------------------------------------
 CentOS7使用firewalld打开关闭防火墙与端口
+
 1、firewalld的基本使用
+
 启动： systemctl start firewalld
+
 查看状态： systemctl status firewalld 
+
 停止： systemctl disable firewalld
+
 禁用： systemctl stop firewalld
  
 2.systemctl是CentOS7的服务管理工具中主要的工具，它融合之前service和chkconfig的功能于一体。
@@ -247,18 +252,28 @@ CentOS7使用firewalld打开关闭防火墙与端口
 3.配置firewalld-cmd
 
 查看版本： firewall-cmd --version
+
 查看帮助： firewall-cmd --help
+
 显示状态： firewall-cmd --state
+
 查看所有打开的端口：firewall-cmd --zone=public --list-ports
+
 更新防火墙规则： firewall-cmd --reload
+
 查看区域信息:  firewall-cmd --get-active-zones
+
 查看指定接口所属区域： firewall-cmd --get-zone-of-interface=eth0
+
 拒绝所有包：firewall-cmd --panic-on
+
 取消拒绝状态： firewall-cmd --panic-off
+
 查看是否拒绝： firewall-cmd --query-panic
 
 -------------------------------------------------------------------
 查看本机关于IPTABLES的设置情况
+
 iptables -L -n
 
 
@@ -360,9 +375,11 @@ iptables -D INPUT -s ***.***.***.*** -j DROP
 
 ====================================================================
 查询已安装软件包的信息:
+
 rpm -qi 软件名
 
 查询已安装软件包都安装到何处:
+
 rpm -ql 软件名
 
 查看已安装软件所依赖的软件包及文件:
