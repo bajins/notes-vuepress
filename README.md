@@ -12,6 +12,14 @@
 [Java](https://github.com/claer-ding/UseNotes/blob/master/Java.md)
 
 
+## MySQL
+[mysql-udf安装](https://github.com/claer-ding/UseNotes/blob/master/MySQL/mysql-udf/mysql-udf%E5%AE%89%E8%A3%85.md)
+
+[mysql存储过程](https://github.com/claer-ding/UseNotes/blob/master/MySQL/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B.md)
+
+[mysql捕获异常处理](https://github.com/claer-ding/UseNotes/blob/master/MySQL/MySQL%E5%BC%82%E5%B8%B8%E6%8D%95%E8%8E%B7%E5%A4%84%E7%90%86.md)
+
+
 ## VPS
 [宝塔面板](https://github.com/claer-ding/UseNotes/blob/master/VPS/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF.md)
 
@@ -35,10 +43,3 @@
 
 [CentOS7安装配置svn服务](https://github.com/claer-ding/UseNotes/blob/master/VPS/CentOS7%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEsvn%E6%9C%8D%E5%8A%A1.md)
 
-
-## MySQL
-[mysql-udf安装](https://github.com/claer-ding/UseNotes/blob/master/MySQL/mysql-udf/mysql-udf%E5%AE%89%E8%A3%85.md)
-
-[mysql存储过程](https://github.com/claer-ding/UseNotes/blob/master/MySQL/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B.md)
-
-[mysql捕获异常处理](https://github.com/claer-ding/UseNotes/blob/master/MySQL/MySQL%E5%BC%82%E5%B8%B8%E6%8D%95%E8%8E%B7%E5%A4%84%E7%90%86.md)
