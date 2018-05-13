@@ -37,9 +37,9 @@
 
 [CentOS7安装mysql](https://github.com/claer-ding/UseNotes/blob/master/VPS/CentOS7%E5%AE%89%E8%A3%85mysql.md)
 
-[Centos-idea激活与PHP](https://github.com/claer-ding/UseNotes/blob/master/VPS/Centos-idea%E6%BF%80%E6%B4%BB%E4%B8%8EPHP.md)
+[CentOS-idea激活与PHP](https://github.com/claer-ding/UseNotes/blob/master/VPS/Centos-idea%E6%BF%80%E6%B4%BB%E4%B8%8EPHP.md)
 
-[centos7 配置多个Tomcat](https://github.com/claer-ding/UseNotes/blob/master/VPS/centos7%20%E9%85%8D%E7%BD%AE%E5%A4%9A%E4%B8%AATomcat.md)
+[CentOS7 配置多个Tomcat](https://github.com/claer-ding/UseNotes/blob/master/VPS/centos7%20%E9%85%8D%E7%BD%AE%E5%A4%9A%E4%B8%AATomcat.md)
 
 [CentOS7安装配置svn服务](https://github.com/claer-ding/UseNotes/blob/master/VPS/CentOS7%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEsvn%E6%9C%8D%E5%8A%A1.md)
 
