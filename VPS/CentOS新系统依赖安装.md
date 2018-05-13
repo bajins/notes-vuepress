@@ -5,39 +5,49 @@ du -h --max-depth=1 文件夹路径
 
 
 修改时区为亚洲上海
+```
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-
+```
 查看系当前语言包
+```
 locale
+```
 查看系统拥有语言包
+```
 locale -a
-
+```
 安装简体中文语言包
+```
 yum -y install kde-l10n-Chinese
 glibc-common软件包包括用于GNU libc库的常见二进制文件，以及国家语言（locale）支持。
 yum -y reinstall glibc-common
-
+```
 设置中文utf8编码（临时）：
+```
 export LANG=zh_CN.utf8
-
+```
 方法（一）修改vim /etc/locale.conf文件内容为（长久）：
+```
 LANG="zh_CN.utf8"
 LANGUAGE="zh_CN.UTF-8:zh_CN.utf8:zh_CN"
 SUPPORTED="zh_CN.utf8:zh_CN:zh:en_US.utf8:en_US:en"
 SYSFONT="lat0-sun16"
-
+```
 
 方法（二）（长久）:
+```
 localectl  set-locale LANG=zh_CN.utf8
-
+```
 
 
 vi /etc/motd这个文件，可以在里面加入自己喜欢的任何欢迎信息，这段信息将会在登录成功后显示！
 
 简单的修改下配置文件可以做到每次登陆服务器自动显示磁盘情况：
+```
 vi /root/.bash_profile
-
+```
 在末尾添加以下内容：
+```
 echo '=========================================================='
 cat /etc/redhat-release
 uname -sr
@@ -45,7 +55,7 @@ echo '=========================================================='
 df -lh
 echo '=========================================================='
 du -h --max-depth=1 /www/wwwroot/
-
+```
 
 
 配置文件
@@ -75,10 +85,14 @@ yum list installed | grep 包名（不支持*）：确认是否安装过包
 
 
 安装并启用 EPEL 源
+```
 yum -y install epel-release 
+```
 ------------------------------------------------------------
 更新yum源包
+```
 yum -y update
+```
 ------------------------------------------------------------
 which命令
 which命令 用于查找并显示给定命令的绝对路径，环境变量PATH中
@@ -123,60 +137,75 @@ yum -y install p7zip
 ------------------------------------------------------------
 openssl
 yum -y install openssl
+
 ------------------------------------------------------------
 ifconfig 及 netstat
 yum -y install net-tools
+
 ------------------------------------------------------------
 vim
 yum -y install vim
+
 ------------------------------------------------------------
 libaio
 yum -y install libaio
-------------------------------------------------------------
-
 
 ------------------------------------------------------------
 
-===================================================================
 以上全是安装依赖，其实一条命令行全部都可以搞定：
+```
 yum install -y which gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-devel lrzsz lrzsz-devel p7zip p7zip-devel net-tools net-tools-devel vim vim-devel libaio libaio-devel
-===================================================================
+```
+------------------------------------------------------------
+
 查看firewalld状态，发现当前是dead状态，即防火墙未开启。
+```
 systemctl status firewalld
-
+```
 开启防火墙，没有任何提示即开启成功。
+```
 systemctl start firewalld
-
+```
 1.查看已开放的端口(默认不开放任何端口)
+```
 firewall-cmd --list-ports
-
+```
 2.开启端口
 firewall-cmd --zone=public(作用域) --add-port=80/tcp(端口和访问类型) --permanent(永久生效)
 开启80端口
+```
 firewall-cmd --zone=public --add-port=80/tcp --permanent
 firewall-cmd --zone=public --add-port=8080-8089/tcp --permanent
+```
 开启3306端口
+```
 firewall-cmd --zone=public --add-port=3306/tcp --permanent
- 命令含义：
+```
+命令含义：
 --zone #作用域
 --add-port=80/tcp #添加端口，格式为：端口/通讯协议
 --permanent #永久生效，没有此参数重启后失效
 
 3.重启防火墙
+```
 firewall-cmd --reload
-
+```
 4.停止防火墙
+```
 systemctl stop firewalld.service
-
+```
 5.禁止防火墙开机启动
+```
 systemctl disable firewalld.service
-
+```
 6.开机禁止启动防火墙：
+```
 systemctl disable firewalld.service
-
+```
 7.删除端口
+```
 firewall-cmd --zone= public --remove-port=80/tcp --permanent
-
+```
 
 --------------------------------------------------------------------
 CentOS7使用firewalld打开关闭防火墙与端口
