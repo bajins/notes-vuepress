@@ -53,8 +53,11 @@ systemctl restart mysql
 ```
 查看mysql下root账号的默认密码
 mysql5.7安装完成之后，在/var/log/mysqld.log文件中给root生成了一个默认密码。通过下面的方式找到root默认密码，然后登录mysql。
+```
 grep 'temporary password' /var/log/mysqld.log
+```
 其中=号后面部分就是默认密码
+
 1、修改/etc/my.cnf，在 [mysqld] 小节下添加一行：skip-grant-tables=1
 这一行配置让 mysqld 启动时不对密码进行验证
 
