@@ -1,6 +1,7 @@
-新centOS需要安装的工具：
+# 新centOS需要安装的工具：
 
 查看当前文件夹下空间占用
+
 du -h --max-depth=1 文件夹路径
 
 
@@ -67,18 +68,24 @@ du -h --max-depth=1 /www/wwwroot/
 
 （4）~/.bashrc: 该文件包含专用于你的bash shell的bash信息,当登录时以及每次打开新的shell时,该该文件被读取。
 
-（5） ~/.bash_logout: 当每次退出系统(退出bash shell)时,执行该文件. 另外,/etc/profile中设定的变量(全局)的可以作用于任何用户,而~/.bashrc等中设定的变量(局部)只能继承 /etc/profile中的变量,他们是”父子”关系。
+（5）~/.bash_logout: 当每次退出系统(退出bash shell)时,执行该文件. 另外,/etc/profile中设定的变量(全局)的可以作用于任何用户,而~/.bashrc等中设定的变量(局部)只能继承 /etc/profile中的变量,他们是”父子”关系。
 
 （6）~/.bash_profile: 是交互式、login 方式进入 bash 运行的~/.bashrc 是交互式 non-login 方式进入 bash 运行的通常二者设置大致相同，所以通常前者会调用后者。
 
 ===================================================================
 
 yum 的安装方式
+
 yum -y install 包名（支持*） ：自动选择y，全自动
+
 yum install 包名（支持*） ：手动选择y or n
+
 yum remove 包名（不支持*）
+
 rpm -ivh 包名（支持*）：安装rpm包
+
 rpm -e 包名（不支持*）：卸载rpm包
+
 yum info nginx(查看当前版本可选)
 
 yum list installed | grep 包名（不支持*）：确认是否安装过包
@@ -114,20 +121,25 @@ yum  -y install lrzsz
 
 ------------------------------------------------------------
 安装make：
+
 yum -y install gcc automake autoconf libtool make
 
 ------------------------------------------------------------
 查看系统是否已安装gcc编译器：
+
 gcc -v
 
 gcc版本较老，我们可以使用yum命令对其进行升级对其进行升级：
+
 yum update gcc
 
 安装g++ 编译环境gcc g++ 开发库:
+
 yum -y install gcc gcc-c++
 
 ------------------------------------------------------------
 安装pcre 重写rewrite
+
 yum -y install pcre
 
 ------------------------------------------------------------
@@ -136,9 +148,11 @@ yum -y install zlib
 
 ------------------------------------------------------------
 7z 7z压缩软件
+
 yum -y install p7zip
 
 常用命令：
+
 7za e 文件名   解压到当前目录下,不保留原来的目录结构
 
 7za x 文件名   解压到当前目录下,但保留原来的目录结构
@@ -191,8 +205,11 @@ firewall-cmd --zone=public --add-port=8080-8089/tcp --permanent
 firewall-cmd --zone=public --add-port=3306/tcp --permanent
 ```
 命令含义：
+
 --zone #作用域
+
 --add-port=80/tcp #添加端口，格式为：端口/通讯协议
+
 --permanent #永久生效，没有此参数重启后失效
 
 3.重启防火墙
@@ -374,6 +391,7 @@ iptables -D INPUT -s ***.***.***.*** -j DROP
 
 
 ====================================================================
+
 查询已安装软件包的信息:
 
 rpm -qi 软件名
@@ -386,10 +404,13 @@ rpm -ql 软件名
 rpm -qR 软件名
 
 查看已安装软件的配置文件:
+
 rpm -qc 软件名
 
 查询已经安装的文件属于哪个软件包:
+
 rpm -qf 文件名的绝对路径
 
 共安装了多少个软件包:
+
 rpm -qa | wc -l 
