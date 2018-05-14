@@ -90,7 +90,7 @@ mkdir -p /home/svn/version/test2
 ```
 svnadmin create /svn/svnrepos/test2
 ```
-
+---------------------------------------------------
 
 4、启动SVN
 ```
