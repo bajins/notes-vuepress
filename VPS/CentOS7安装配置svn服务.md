@@ -38,9 +38,10 @@ cd /home/svn/svnrepos/test/conf
 ```
 vi passwd
 ```
-在[users]节点下添加以下内容：
+在[users]节点下添加以下内容(账户=密码)：
+```
 ichangg.com=ichangg.com
-
+```
 ---------------------------------------------------
 
 权限控制authz配置
