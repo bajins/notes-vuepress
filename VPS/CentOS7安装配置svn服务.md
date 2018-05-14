@@ -108,8 +108,13 @@ ps -ef|grep svn
 ```
 netstat -antlp|grep svnserve
 ```
-
-7、测试
+7、放开端口
+```
+firewall-cmd --zone=public --add-port=3690/tcp --permanent
+firewall-cmd --reload
+```
+ 
+8、测试
 SVN服务已经启动，使用客户端测试连接。
 
 客户端连接地址：svn://192.168.110.247/test
