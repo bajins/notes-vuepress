@@ -16,7 +16,7 @@ svnserve --version
 
 建立SVN版本库目录
 ```
-mkdir -p /home/svn/version/test
+mkdir -p /home/svn/svnrepos/test
 ```
 创建SVN版本库
 ```
