@@ -31,7 +31,7 @@ svnadmin create /home/svn/svnrepos/test
 
 进入上面生成的文件夹conf下，进行配置
 ```
-cd /svn/svnrepos/test/conf
+cd /home/svn/svnrepos/test/conf
 ```
 ---------------------------------------------------
 用户密码passwd配置
