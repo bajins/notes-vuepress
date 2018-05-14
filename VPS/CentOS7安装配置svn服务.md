@@ -39,7 +39,7 @@ cd /svn/svnrepos/test/conf
 vi passwd
 ```
 在[users]节点下添加以下内容：
-zd966.com=zd966.com
+ichangg.com=ichangg.com
 
 ---------------------------------------------------
 
@@ -110,7 +110,7 @@ netstat -antlp|grep svnserve
 SVN服务已经启动，使用客户端测试连接。
 客户端连接地址：svn://192.168.110.247/test
 
-用户名/密码： zd966.com/zd966.com
+用户名/密码： ichangg.com/ichangg.com
 
 
 
