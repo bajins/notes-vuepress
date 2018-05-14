@@ -22,7 +22,7 @@ mkdir -p /home/svn/svnrepos/test
 ```
 svnadmin create /home/svn/svnrepos/test
 ```
-执行上面的命令后，自动建立svndata库，查看/svn/svnrepos/test
+执行上面的命令后，自动建立svndata库，查看/home/svn/svnrepos/test
 
 文件夹发现包含了conf, db,format,hooks, locks, README.txt等文件，说明一个SVN库已经建立。
 
@@ -86,17 +86,17 @@ realm = This Is A Repository
 
 建立第2个SVN版本库目录
 ```
-mkdir -p /home/svn/version/test2
+mkdir -p /home/svn/svnrepos/test2
 ```
 创建第2个SVN版本库
 ```
-svnadmin create /svn/svnrepos/test2
+svnadmin create /home/svn/svnrepos/test2
 ```
 ---------------------------------------------------
 
 4、启动SVN
 ```
-svnserve -d -r /svn/svnrepos/
+svnserve -d -r /home/svn/svnrepos/
 ```
 
 5、查看SVN进程
