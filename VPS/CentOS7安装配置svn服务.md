@@ -81,7 +81,9 @@ realm = This Is A Repository
 ```
 ---------------------------------------------------
 如果需要创建多个库就需要重复做上面2、3步，并且test目录名是不一样的
+
 比如：
+
 建立第2个SVN版本库目录
 ```
 mkdir -p /home/svn/version/test2
@@ -109,6 +111,7 @@ netstat -antlp|grep svnserve
 
 7、测试
 SVN服务已经启动，使用客户端测试连接。
+
 客户端连接地址：svn://192.168.110.247/test
 
 用户名/密码： ichangg.com/ichangg.com
