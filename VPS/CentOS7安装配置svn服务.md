@@ -20,7 +20,7 @@ mkdir -p /home/svn/version/test
 ```
 创建SVN版本库
 ```
-svnadmin create /svn/svnrepos/test
+svnadmin create /home/svn/svnrepos/test
 ```
 执行上面的命令后，自动建立svndata库，查看/svn/svnrepos/test
 
