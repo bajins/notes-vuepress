@@ -12,6 +12,7 @@
 ## Java
 [Java](https://github.com/claer-ding/UseNotes/blob/master/Java.md)
 
+[项目收集](https://github.com/claer-ding/UseNotes/blob/master/JAVA/%E9%A1%B9%E7%9B%AE%E6%94%B6%E9%9B%86.md)
 
 ## MySQL
 [mysql-udf安装](https://github.com/claer-ding/UseNotes/blob/master/MySQL/mysql-udf/mysql-udf%E5%AE%89%E8%A3%85.md)
