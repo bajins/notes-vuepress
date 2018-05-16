@@ -4,7 +4,7 @@
 
 ## [Maven Helper](https://plugins.jetbrains.com/plugin/7179-maven-helper)
 #### 一键查看maven依赖，查看冲突的依赖，一键进行exclude依赖
-
+![](https://github.com/claer-ding/UseNotes/blob/master/images/Maven%20Helper.png)
 ## [GsonFormat](https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F7654-gsonformat)
 #### google出的一键根据json文本生成java类，非常方便
 
