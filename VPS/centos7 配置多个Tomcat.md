@@ -44,6 +44,11 @@ export PATH=$PATH:$JAVA_HOME/bin
 ```
 source /etc/profile
 ```
+查看变量是否生效
+```
+echo $JAVA_HOME & echo $CLASSPATH
+```
+
 查看Java版本信息
 ```
 java -version
