@@ -45,7 +45,7 @@ cp /usr/local/mysql-udf-http/lib/mysql-udf* /usr/local/mysql/lib/plugin/
 
 ### 重启mysql
 ```
-service mysql restart
+service mysqld restart
 ```
 #### 或者
 ```
