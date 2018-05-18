@@ -82,9 +82,9 @@ cp -r tomcat-8080 tomcat-8082
 第一个tomcat
 ```
 ########## tomcat 1###########
-CATALINA_BASE=/data/local/server/tomcat-8080
-CATALINA_HOME=/data/local/server/tomcat-8080
-TOMCAT_HOME=/data/local/server/tomcat-8080
+CATALINA_BASE=/home/tomcat-8080
+CATALINA_HOME=/home/tomcat-8080
+TOMCAT_HOME=/home/tomcat-8080
 export CATALINA_BASE CATALINA_HOME TOMCAT_HOME
 ########## tomcat 1############
 ```
@@ -92,9 +92,9 @@ export CATALINA_BASE CATALINA_HOME TOMCAT_HOME
 第二个tomcat
 ```
 ######### tomcat 2 ##########
-CATALINA_2_BASE=/data/local/server/tomcat-8082
-CATALINA_2_HOME=/data/local/server/tomcat-8082
-TOMCAT_2_HOME=/data/local/server/tomcat-8082
+CATALINA_2_BASE=/home/tomcat-8082
+CATALINA_2_HOME=/home/tomcat-8082
+TOMCAT_2_HOME=/home/tomcat-8082
 export CATALINA_2_BASE CATALINA_2_HOME TOMCAT_2_HOME
 ########## tomcat 2##########
 ```
@@ -109,7 +109,7 @@ source /etc/profile 或者. /etc/profile
 进入tomcat-8082的bin目录，修改startup.sh和shutdown.sh 两个文件，都添加如下内容
 ```
 ######### tomcat 2 ##########
-export JAVA_HOME=/usr/local/java/jdk1.7.0_181
+export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.181-2.6.14.5.el7.x86_64
 export PATH=$PATH:$JAVA_HOME/bin
 export CLASSPATH=$JAVA_HOME/lib
 export CATALINA_HOME=$CATALINA_2_HOME
