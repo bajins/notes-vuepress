@@ -101,7 +101,9 @@ export CATALINA_2_BASE CATALINA_2_HOME TOMCAT_2_HOME
 source命令也称为“点命令”，也就是一个点符号（.）。source命令通常用于重新执行刚修改的初始化文件，使之立即生效
 用法： 
 ```
-source /etc/profile 或者. /etc/profile
+source /etc/profile 
+或者
+. /etc/profile
 ```
 
 修改第二个tomcat文件
