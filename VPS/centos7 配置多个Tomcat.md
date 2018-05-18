@@ -81,22 +81,22 @@ cp -r tomcat-8080 tomcat-8082
 
 第一个tomcat
 ```
-##########first tomcat###########
+########## tomcat 1###########
 CATALINA_BASE=/data/local/server/tomcat-8080
 CATALINA_HOME=/data/local/server/tomcat-8080
 TOMCAT_HOME=/data/local/server/tomcat-8080
 export CATALINA_BASE CATALINA_HOME TOMCAT_HOME
-##########first tomcat############
+########## tomcat 1############
 ```
 
 第二个tomcat
 ```
-##########second tomcat##########
+######### tomcat 2 ##########
 CATALINA_2_BASE=/data/local/server/tomcat-8082
 CATALINA_2_HOME=/data/local/server/tomcat-8082
 TOMCAT_2_HOME=/data/local/server/tomcat-8082
 export CATALINA_2_BASE CATALINA_2_HOME TOMCAT_2_HOME
-##########second tomcat##########
+########## tomcat 2##########
 ```
 source命令也称为“点命令”，也就是一个点符号（.）。source命令通常用于重新执行刚修改的初始化文件，使之立即生效
 用法： 
@@ -108,11 +108,13 @@ source /etc/profile 或者. /etc/profile
 
 进入tomcat-8082的bin目录，修改startup.sh和shutdown.sh 两个文件，都添加如下内容
 ```
+######### tomcat 2 ##########
 export JAVA_HOME=/usr/local/java/jdk1.7.0_181
 export PATH=$PATH:$JAVA_HOME/bin
 export CLASSPATH=$JAVA_HOME/lib
 export CATALINA_HOME=$CATALINA_2_HOME
 export CATALINA_BASE=$CATALINA_2_BASE
+######### tomcat 2 ##########
 ```
 
 修改第二个tomcat端口,第一个不变
