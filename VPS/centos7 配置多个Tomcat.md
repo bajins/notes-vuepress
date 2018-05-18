@@ -38,11 +38,15 @@ yum  install java-1.7.0-openjdk java-1.7.0-openjdk-devel.x86_64
 export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.181-2.6.14.5.el7.x86_64
 export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export PATH=$PATH:$JAVA_HOME/bin
+########## jdk  environment ######################
 ```
-
 保存关闭,执行如下命令使设置生效
 ```
 source /etc/profile
+```
+查看Java版本信息
+```
+java -version
 ```
 
 2、安装多个Tomcat7
