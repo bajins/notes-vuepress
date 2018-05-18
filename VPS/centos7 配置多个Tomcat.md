@@ -58,13 +58,20 @@ java -version
 
 下载、安装 tomcat
 
-地址http://tomcat.apache.org/download-70.cgi
-把下载的apache-tomcat-7.0.65.tar.gz文件放入 /data/local/server解压  tar -zxvf apache-tomcat-7.0.65.tar.gz
-修改tomcat根目录为 tomcat-8080
+地址https://tomcat.apache.org/download-80.cgi
 
-复制tomcat-8080：  
-
+把下载的apache-tomcat-8.5.31.tar.gz文件解压  
+```
+tar -zxvf apache-tomcat-8.5.31.tar.gz
+```
+修改tomcat文件夹名为tomcat-8080
+```
+mv apache-tomcat-8.5.31 
+```
+复制tomcat-8080：  
+```
 cp -r tomcat-8080 tomcat-8181
+```
 
 修改配置文件
 
