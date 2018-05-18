@@ -68,7 +68,7 @@ tar -zxvf apache-tomcat-8.5.31.tar.gz
 ```
 修改tomcat文件夹名为tomcat-8080
 ```
-mv apache-tomcat-8.5.31 tomcat-8090
+mv apache-tomcat-8.5.31 tomcat-8080
 ```
 复制tomcat-8080：  
 ```
