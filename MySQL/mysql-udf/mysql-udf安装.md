@@ -18,6 +18,11 @@ cd mysql-udf-http-1.0
 ./configure --prefix=/usr/local/mysql-udf-http --with-mysql=/usr/local/mysql/bin/mysql_config
 make && make install
 ```
+#### 如果提示configure: error: no acceptable C compiler found in $PATH需要安装GCC编译器
+```
+yum install -y gcc
+```
+
 #### 如果没有mysql_config，请执行以下命令
 ```
 yum install -y mysql-devel
