@@ -25,6 +25,8 @@
 ## VPS
 [宝塔面板](https://github.com/claer-ding/UseNotes/blob/master/VPS/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF.md)
 
+[Linux命令](https://github.com/claer-ding/UseNotes/blob/master/VPS/linux%E5%91%BD%E4%BB%A4.md)
+
 [xshell](https://github.com/claer-ding/UseNotes/blob/master/VPS/xshell.md)
 
 [测试脚本](https://github.com/claer-ding/UseNotes/blob/master/VPS/%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC.md)
