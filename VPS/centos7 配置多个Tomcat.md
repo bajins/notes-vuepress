@@ -92,9 +92,9 @@ export CATALINA_BASE CATALINA_HOME TOMCAT_HOME
 第二个tomcat
 ```
 ##########second tomcat##########
-CATALINA_2_BASE=/data/local/server/tomcat-8181
-CATALINA_2_HOME=/data/local/server/tomcat-8181
-TOMCAT_2_HOME=/data/local/server/tomcat-8181
+CATALINA_2_BASE=/data/local/server/tomcat-8082
+CATALINA_2_HOME=/data/local/server/tomcat-8082
+TOMCAT_2_HOME=/data/local/server/tomcat-8082
 export CATALINA_2_BASE CATALINA_2_HOME TOMCAT_2_HOME
 ##########second tomcat##########
 ```
@@ -106,9 +106,9 @@ source /etc/profile 或者. /etc/profile
 
 修改第二个tomcat文件
 
-进入tomcat-8181的bin目录，修改startup.sh和shutdown.sh 两个文件，都添加如下内容
+进入tomcat-8082的bin目录，修改startup.sh和shutdown.sh 两个文件，都添加如下内容
 ```
-export JAVA_HOME=/usr/local/java/jdk1.7.0_79
+export JAVA_HOME=/usr/local/java/jdk1.7.0_181
 export PATH=$PATH:$JAVA_HOME/bin
 export CLASSPATH=$JAVA_HOME/lib
 export CATALINA_HOME=$CATALINA_2_HOME
@@ -117,7 +117,7 @@ export CATALINA_BASE=$CATALINA_2_BASE
 
 修改第二个tomcat端口,第一个不变
 
-进入/data/local/server/tomcat-8181/conf中修改server.xml
+进入/tomcat-8082/conf中修改server.xml
 修改后示例如下：
 ```
 <Server port="9005" shutdown="SHUTDOWN">　#关闭端口：8005->9005
