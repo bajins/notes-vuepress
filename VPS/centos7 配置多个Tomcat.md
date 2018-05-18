@@ -23,7 +23,7 @@ yum search java | grep -i --color JDK
 ```
 安装
 ```
-yum  install java-1.7.0-openjdk java-1.7.0-openjdk-devel.x86_64
+yum -y install java-1.7.0-openjdk java-1.7.0-openjdk-devel.x86_64
 ```
 通过yum默认安装的路径为
 ```
