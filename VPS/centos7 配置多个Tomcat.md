@@ -15,18 +15,34 @@ rpm -e --nodeps java-1.6.0-openjdk-1.6.0.0-1.7.b09.el5
 ```
 安装sun公司的jdk1.7
 
-下载地址 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-把下载的jdk-7u79-linux-x64.tar.gz 移到/usr/local/java/中
-解压包 tar -zxvf jdk-7u79-linux-x64.tar.gz
+查看JDK软件包列表
+```
+yum -y list java*
+或者
+yum search java | grep -i --color JDK
+```
+安装
+```
+yum  install java-1.7.0-openjdk java-1.7.0-openjdk-devel.x86_64
+```
+通过yum默认安装的路径为
+```
+/usr/lib/jvm
+```
 
 配置环境变量 
 
 在/etc/profile文件中加入下面内容配置环境变量
 ```
 ########## jdk  environment ######################
-export JAVA_HOME=/usr/local/java/jdk1.7.0_79
-export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar 
+export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.181-2.6.14.5.el7.x86_64
+export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export PATH=$PATH:$JAVA_HOME/bin
+```
+
+保存关闭,执行如下命令使设置生效
+```
+source /etc/profile
 ```
 
 2、安装多个Tomcat7
