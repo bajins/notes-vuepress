@@ -72,7 +72,7 @@ mv apache-tomcat-8.5.31 tomcat-8080
 ```
 复制tomcat-8080：  
 ```
-cp -r tomcat-8080 tomcat-8181
+cp -r tomcat-8080 tomcat-8082
 ```
 
 修改配置文件
