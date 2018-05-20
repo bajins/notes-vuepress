@@ -26,3 +26,5 @@
 ## [网络测试](https://github.com/adolfintel/speedtest)
 
 ## 各种脚本 By[ToyoDAdoubi](https://github.com/ToyoDAdoubi/doubi)
+
+## [acme.sh 实现了acme 协议, 可以从 letsencrypt 生成免费的证书.](https://github.com/Neilpang/acme.sh)
