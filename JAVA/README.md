@@ -14,6 +14,10 @@
 
 [TableExport](https://github.com/clarketm/TableExport)
 
+[tableExport.jquery.plugin](https://github.com/hhurz/tableExport.jquery.plugin)
+
+[excellentexport](https://github.com/jmaister/excellentexport)
+
 
 # 后端框架
 [dubbo](https://github.com/apache/incubator-dubbo)
