@@ -7,8 +7,8 @@
 [Plugins](https://github.com/claer-ding/UseNotes/blob/master/IDEA/Plugins.md)
 
 
-## [navicat激活navicat-keygen](https://github.com/DoubleLabyrinth/navicat-keygen)
+## [navicat激活By DoubleLabyrinth](https://github.com/DoubleLabyrinth/navicat-keygen)
 
-## [navicat激活Patch/Keygen](https://dfox.it/DeFconX/files/file/79-navicat-software/)
+## [navicat激活By DeltaFoX/TeamURET](https://dfox.it/DeFconX/files/file/79-navicat-software/)
 
 ## [IntelliJ IDEA 辅助工具](https://github.com/mrshawnho/ideaagent)
