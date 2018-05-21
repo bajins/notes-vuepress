@@ -207,11 +207,11 @@ rpm -e --nodeps softfullname
 ### 创建用户组和用户
 创建用户组：
 ```shell
-groupadd mysql
+group add mysql
 ```
 创建用户：
 ```shell
-useradd -r -g mysql mysql
+user add -r -g mysql mysql
 ```
 说明：
 
