@@ -10,6 +10,7 @@
 ## idea 去掉大小写敏感提示
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/IDEA%E5%8E%BB%E6%8E%89%E5%A4%A7%E5%B0%8F%E5%86%99%E5%8C%BA%E5%88%86%E6%8F%90%E7%A4%BA.png)
 
+
 ## idea 方法注释设置
 #### Template text：
 ```java
@@ -31,3 +32,21 @@ groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s
 ### 示例：
 #### 使用时，直接在方法上输入/加上你的Abbreviation名字，再按Tab键即可获取方法上的参数
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/idea%E6%96%B9%E6%B3%95%E6%B3%A8%E9%87%8A%E7%A4%BA%E4%BE%8B.png)
+
+## IDEA设置类文件创建模板
+```java
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+
+
+import org.slf4j.Logger;
+
+#parse("File Header.java")
+
+public class ${NAME} {
+
+     private static final Logger logger = org.slf4j.LoggerFactory.getLogger(${NAME}.class);
+     
+     
+}
+```
+![](https://github.com/claer-ding/UseNotes/blob/master/images/%E8%AE%BE%E7%BD%AE%E7%B1%BB%E6%96%87%E4%BB%B6%E5%88%9B%E5%BB%BA%E6%A8%A1%E6%9D%BF.png)
