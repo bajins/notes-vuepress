@@ -46,7 +46,7 @@ GRANT privileges ON databasename.tablename TO 'username'@'host'
 
 #### 例如：
 ```sql
-GRANT SELECT ON test_db.* TO 'test_admin2'@'%';
+GRANT Select ON test_db.* TO 'test_admin2'@'%';
 # 刷新权限
 flush privileges;
 ```
