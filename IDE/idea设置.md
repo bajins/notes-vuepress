@@ -10,6 +10,17 @@
 ## idea 去掉大小写敏感提示
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/IDEA%E5%8E%BB%E6%8E%89%E5%A4%A7%E5%B0%8F%E5%86%99%E5%8C%BA%E5%88%86%E6%8F%90%E7%A4%BA.png)
 
+## IDEA创建文件时的注释
+```java
+/**
+ * @program ${PACKAGE_NAME}
+ * @description ${NAME}
+ * @author claer claer@ichangg.com
+ * @create ${YEAR}-${MONTH}-${DAY} ${HOUR}:${MINUTE}
+ *
+ */
+```
+![](https://github.com/claer-ding/UseNotes/blob/master/images/IDEA%E8%AE%BE%E7%BD%AE%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6%E6%97%B6%E7%9A%84%E6%B3%A8%E9%87%8A.png)
 
 ## idea 方法注释设置
 #### Template text：
