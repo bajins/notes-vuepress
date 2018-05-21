@@ -214,6 +214,7 @@ groupadd mysql
 useradd -r -g mysql mysql
 ```
 说明：
+
 为了安全性，给mysql数据库创建专有用户，该用户只能访问mysql目录，不能访问系统其它目录
 
 另外不建议直接用root初始化mysql，否则连接mysql时会报错：[ERROR] Fatal error: Please read "Security" section of the manual to find out how to run mysqld as root!
