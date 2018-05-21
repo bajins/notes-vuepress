@@ -1,6 +1,9 @@
 ## 五、查看用户的授权
 #### 命令：
 ```sql
+# 查看所有
+SHOW GRANTS;
+# 查看指定用户
 SHOW GRANTS FOR 'username'@'host'
 ```
 #### 说明：
