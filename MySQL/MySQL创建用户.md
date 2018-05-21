@@ -30,9 +30,9 @@ CREATE USER 'test_admin'@'localhost' IDENTIFIED BY '123456';
 # 创建所有主机可登录账户
 CREATE USER 'test_admin2'@'%' IDENTIFIED BY '123456';
 # 创建只读账号
-GRANT SELECT ON *.* TO 'reader'@'%' IDENTIFIED BY "123456";
+GRANT Select ON *.* TO 'reader'@'%' IDENTIFIED BY "123456";
 # 增删改查账号
-GRANT SELECT,UPDATE,INSERT,DELETE ON *.* TO 'writer'@'%' IDENTIFIED BY "123456"
+GRANT Select,Insert,Delete,Update ON *.* TO 'writer'@'%' IDENTIFIED BY "123456"
 ```
 ## 二、授权：以root用户登录到数据库后进行授权
 #### 命令：
