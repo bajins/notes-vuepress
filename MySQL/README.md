@@ -1,4 +1,6 @@
 ## MySQL
+[MySQL用户授权](https://github.com/claer-ding/UseNotes/blob/master/MySQL/MySQL%E5%88%9B%E5%BB%BA%E7%94%A8%E6%88%B7.md)
+
 [mysql-udf安装](https://github.com/claer-ding/UseNotes/blob/master/MySQL/mysql-udf/mysql-udf%E5%AE%89%E8%A3%85.md)
 
 [mysql存储过程](https://github.com/claer-ding/UseNotes/blob/master/MySQL/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B.md)
