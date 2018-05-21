@@ -265,7 +265,8 @@ character-set-server = utf8
 explicit_defaults_for_timestamp = true
 # socket = /var/run/mysqld/mysqld.sock
 
-#下面是可选项，要不要都行，如果出现启动错误，则全部注释掉，保留最基本的配置选项，然后尝试添加某些配置项后启动，检测配置项是否有误
+#下面是可选项，要不要都行，如果出现启动错误，则全部注释掉，
+#保留最基本的配置选项，然后尝试添加某些配置项后启动，检测配置项是否有误
 back_log = 300
 max_connections = 3000
 max_connect_errors = 50
