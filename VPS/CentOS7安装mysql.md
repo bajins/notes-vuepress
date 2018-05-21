@@ -23,7 +23,11 @@ yum -y install vim libaio
 wget https://repo.mysql.com//mysql80-community-release-el7-1.noarch.rpm
 # MySQL 5.7
 wget https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm
+# MySQL 5.7.22
+wget https://cdn.mysql.com//Downloads/MySQL-5.7/mysql-community-server-5.7.22-1.el7.x86_64.rpm
 ```
+5.7最新版本下载地址：https://dev.mysql.com/downloads/mysql/5.7.html#downloads
+![](https://github.com/claer-ding/UseNotes/blob/master/images/MySQL-RPM%E4%B8%8B%E8%BD%BD.png)
 安装yum源
 ```
 yum -y localinstall mysql57-community-release-el7-11.noarch.rpm
@@ -173,3 +177,8 @@ rpm -ivh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
 wget https://files.phpmyadmin.net/phpMyAdmin/4.7.7/phpMyAdmin-4.7.7-all-languages.tar.gz
 chown -R www:www /var/lib/php/session
 ```
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+
