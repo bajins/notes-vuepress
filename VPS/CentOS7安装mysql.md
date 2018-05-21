@@ -19,6 +19,9 @@ yum -y install vim libaio
 安装MySQL
 下载yum源
 ```
+# MySQL 8.0
+wget https://repo.mysql.com//mysql80-community-release-el7-1.noarch.rpm
+# MySQL 5.7
 wget https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm
 ```
 安装yum源
