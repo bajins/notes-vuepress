@@ -48,7 +48,7 @@ GRANT privileges ON databasename.tablename TO 'username'@'host'
 ```sql
 GRANT SELECT ON test_db.* TO 'test_admin2'@'%';
 # 刷新权限
-flush privileges;
+FLUSH PRIVILEGES;
 ```
 
 ## 三、撤销用户权限
