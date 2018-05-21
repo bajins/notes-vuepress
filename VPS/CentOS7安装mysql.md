@@ -242,10 +242,9 @@ cd /usr/local/mysql/bin
 ### 配置my.cnf
 从5.7.17后mysql就没有默认的my_default.cnf文件，需要手动创建
 ```shell
-cd /etc
-cat>>my.cnf
+vi /etc/my.cnf
 ```
-输入以下内容，ctrl+D退出
+按i后输入以下内容:
 ```shell
 
 # For advice on how to change settings please see
@@ -325,6 +324,8 @@ open-files-limit = 8192
 [client]
 /bin/bash: Q: command not found
 ```
+按ESC后输入:wq退出
+
 ### 启动
 ```shell
 cd /usr/local/mysql/bin
