@@ -57,7 +57,7 @@ FLUSH PRIVILEGES;
 REVOKE privilege ON databasename.tablename FROM 'username'@'host';
 ```
 #### 说明：
-##### privileges——用户的操作权限，如SELECT等。如果授予所有权限则使用ALL。
+##### privileges——用户的操作权限，如INSERT,DELETE,UPDATE,SELECT等。如果授予所有权限则使用ALL。
 
 ##### databasename——数据库名称。tablename——表名。如果要给该用户授予对所有数据库和表的相应操作权限则可用*表示，例如*.*
 
