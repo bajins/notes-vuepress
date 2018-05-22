@@ -129,6 +129,83 @@ public class TestController {
         return getViewPath("upload");
     }
 
+    /**
+     * 单文件上传，利用MultipartHttpServletRequest来解析Request中的文件，用流的方式将文件存到数据库。
+     * <p>
+     * 使用流来存图片，保存进数据库。保存进数据库的多半是用户头像之类的小图片，占用空间比较小的。一次一张。
+     * jsp页面的其他参数，可以通过request.getParameter()获取
+     *
+     * @author chunlynn
+     */
+    @RequestMapping("upload7")
+    public String upload7(HttpServletRequest request, HttpServletResponse response, ModelMap model) {
+
+        // 先实例化一个文件解析器
+        CommonsMultipartResolver coMultiResolver = new CommonsMultipartResolver(request.getSession()
+                .getServletContext());
+        // 判断request请求中是否有文件上传
+        if (coMultiResolver.isMultipart(request)) {
+            // 转换Request
+            MultipartHttpServletRequest multiRequest = (MultipartHttpServletRequest) request;
+            // 获得文件
+            MultipartFile file = multiRequest.getFile("file");
+
+            if (!file.isEmpty()) { //这个判断必须要加
+
+                try {
+                    // 举例，Notices就是一个普通的model类
+                    Notices notices = new Notices();
+                    notices.setCreateDate(new Date());
+                    notices.setPicPath("/upload/aaa.jpg");
+                    // jsp页面中的其他非文件类参数，直接request就可以获取到
+                    notices.setTitle(request.getParameter("title"));
+                    if (StringUtil.isNotEmpty(request.getParameter("isShowPic"))) {
+                        notices.setIsShowPic(1);
+                    } else {
+                        notices.setIsShowPic(0);
+                    }
+                    notices.setIsShowTitle(1);
+                    notices.setContent("这是内容content");
+
+                    // 获得输入流
+                    InputStream in = file.getInputStream();
+                    byte[] data = new byte[]{};
+                    data = inputStreamToByte(in);// 将文件保存到字节数组中
+                    notices.setLogo(data); // 将字节数组保存到对象中
+
+                    noticesService.save(notices);  // 保存进数据库
+                    in.close();
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+        return getViewPath("upload");
+    }
+     /**
+     * 将文件保存到字节数组中
+     * This class implements an output stream in which the data is written into a byte array.
+     *
+     * @author chunlynn
+     */
+    public byte[] inputStreamToByte(InputStream in) throws Exception {
+        // This class implements an output stream in which the data is written into a byte array. 
+        ByteArrayOutputStream bos = new ByteArrayOutputStream(); // 输出流对象，用来接收文件流，然后写入一个字节数组中
+        int len;
+        byte[] buffer = new byte[1024]; //缓存1KB
+        while ((len = in.read(buffer)) != -1) {
+            bos.write(buffer, 0, len);
+        }
+        byte[] data = bos.toByteArray(); // 字节数组，输出流中的文件保存到字节数组
+        bos.close();
+        return data;
+    }
+    
+    
+    
 
     /**
      * 多文件上传，方式一：利用MultipartFile[]作为方法的参数接收传入的文件
@@ -398,82 +475,10 @@ public class TestController {
     public static final String FILE_PATH = "/upload/chunlynn/"; //相对路径
 
 
-    /**
-     * 单文件上传，利用MultipartHttpServletRequest来解析Request中的文件，用流的方式将文件存到数据库。
-     * <p>
-     * 使用流来存图片，保存进数据库。保存进数据库的多半是用户头像之类的小图片，占用空间比较小的。一次一张。
-     * jsp页面的其他参数，可以通过request.getParameter()获取
-     *
-     * @author chunlynn
-     */
-    @RequestMapping("upload7")
-    public String upload7(HttpServletRequest request, HttpServletResponse response, ModelMap model) {
-
-        // 先实例化一个文件解析器
-        CommonsMultipartResolver coMultiResolver = new CommonsMultipartResolver(request.getSession()
-                .getServletContext());
-        // 判断request请求中是否有文件上传
-        if (coMultiResolver.isMultipart(request)) {
-            // 转换Request
-            MultipartHttpServletRequest multiRequest = (MultipartHttpServletRequest) request;
-            // 获得文件
-            MultipartFile file = multiRequest.getFile("file");
-
-            if (!file.isEmpty()) { //这个判断必须要加
-
-                try {
-                    // 举例，Notices就是一个普通的model类
-                    Notices notices = new Notices();
-                    notices.setCreateDate(new Date());
-                    notices.setPicPath("/upload/aaa.jpg");
-                    // jsp页面中的其他非文件类参数，直接request就可以获取到
-                    notices.setTitle(request.getParameter("title"));
-                    if (StringUtil.isNotEmpty(request.getParameter("isShowPic"))) {
-                        notices.setIsShowPic(1);
-                    } else {
-                        notices.setIsShowPic(0);
-                    }
-                    notices.setIsShowTitle(1);
-                    notices.setContent("这是内容content");
-
-                    // 获得输入流
-                    InputStream in = file.getInputStream();
-                    byte[] data = new byte[]{};
-                    data = inputStreamToByte(in);// 将文件保存到字节数组中
-                    notices.setLogo(data); // 将字节数组保存到对象中
-
-                    noticesService.save(notices);  // 保存进数据库
-                    in.close();
-                } catch (FileNotFoundException e) {
-                    e.printStackTrace();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-
-        return getViewPath("upload");
-    }
+    
 
 
-    /**
-     * 将文件保存到字节数组中
-     * This class implements an output stream in which the data is written into a byte array.
-     *
-     * @author chunlynn
-     */
-    public byte[] inputStreamToByte(InputStream in) throws Exception {
-        // This class implements an output stream in which the data is written into a byte array. 
-        ByteArrayOutputStream bos = new ByteArrayOutputStream(); // 输出流对象，用来接收文件流，然后写入一个字节数组中
-        int len;
-        byte[] buffer = new byte[1024]; //缓存1KB
-        while ((len = in.read(buffer)) != -1) {
-            bos.write(buffer, 0, len);
-        }
-        byte[] data = bos.toByteArray(); // 字节数组，输出流中的文件保存到字节数组
-        bos.close();
-        return data;
-    }
+   
 
 
     /**
