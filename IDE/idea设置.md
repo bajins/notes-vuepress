@@ -61,3 +61,7 @@ public class ${NAME} {
 }
 ```
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/%E8%AE%BE%E7%BD%AE%E7%B1%BB%E6%96%87%E4%BB%B6%E5%88%9B%E5%BB%BA%E6%A8%A1%E6%9D%BF.png)
+
+
+## IDEA鼠标悬停查看方法注释
+![](https://github.com/claer-ding/UseNotes/blob/master/images/IDEA%E9%BC%A0%E6%A0%87%E6%82%AC%E5%81%9C%E6%9F%A5%E7%9C%8B%E6%96%B9%E6%B3%95%E6%B3%A8%E9%87%8A.png)
