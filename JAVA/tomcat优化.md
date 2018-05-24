@@ -29,29 +29,32 @@
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/Tomcat%E8%BF%9E%E6%8E%A5%E5%99%A8%E4%BC%98%E5%8C%96.png)
 
 ### 常用的参数如下
-```
-<Connector port="8080"
-         protocol="HTTP/1.1"
-         maxThreads="1000"
-         minSpareThreads="100"
-         acceptCount="1000"
-         maxConnections="1000"
-         connectionTimeout="20000"
-         maxHttpHeaderSize="8192"
-         tcpNoDelay="true"
-         compression="on"
-         compressionMinSize="2048"
-         disableUploadTimeout="true"
-         redirectPort="8443"
-         enableLookups="false"
-         URIEncoding="UTF-8" />
-```
+| 参数 | 说明  |
+| ------------ | ------------ |
+|maxPostSize|参数形式处理的最大长度，如果没有指定，该属性被设置为2097152（2兆字节）。上传提交的时候可以用的|
+|acceptCount|请求的最大队列长度，当队列满时收到的任何请求将被拒绝|
+|acceptorThreadCount|用于接受连接的线程的数量|
+|disableUploadTimeout|禁用上传超时|
+|maxConnections|服务器接受并处理的最大连接数|
+|SSLEnabled|在连接器上使用此属性来启用SSL加密传输|
+|port||
+|protocol||
+|maxThreads||
+|minSpareThreads||
+|connectionTimeout||
+|maxHttpHeaderSize||
+|tcpNoDelay||
+|compression||
+|compressionMinSize||
+|redirectPort||
+|enableLookups||
+|URIEncoding||
 ### 最好实例
 ```
-        <!-- maxPostSize参数形式处理的最大长度，如果没有指定，该属性被设置为2097152（2兆字节）。上传提交的时候可以用的
-             acceptCount请求的最大队列长度，当队列满时收到的任何请求将被拒绝
+        <!-- maxPostSize 参数形式处理的最大长度，如果没有指定，该属性被设置为2097152（2兆字节）,上传提交的时候可以用的
+             acceptCount 请求的最大队列长度，当队列满时收到的任何请求将被拒绝
              acceptorThreadCount 用于接受连接的线程的数量
-             disableUploadTimeout 禁用上传超时。
+             disableUploadTimeout 禁用上传超时
              maxConnections 服务器接受并处理的最大连接数
              SSLEnabled 在连接器上使用此属性来启用SSL加密传输 -->
         <Connector executor="tomcatThreadPool"
