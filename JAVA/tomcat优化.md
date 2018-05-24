@@ -7,5 +7,23 @@
 <Executor name="tomcatThreadPool" namePrefix="catalina-exec-"
         maxThreads="800" minSpareThreads="100"  maxQueueSize="100" prestartminSpareThreads="true" />
 ```
+#### 参数说明
+```
+threadPriority （优先级）
+daemon（守护进程）
+namePrefix（名称前缀）
+maxThreads（最大线程数）
+minSpareThreads（最小活跃线程数）
+maxIdleTime（空闲线程等待时间）
+maxQueueSize（最大的等待队里数，超过则请求拒绝）
+prestartminSpareThreads（是否在启动时就生成minSpareThreads个线程）
+threadRenewalDelay（重建线程的时间间隔）
+```
 ### 指定线程池
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/Tomcat%E5%90%AF%E7%94%A8%E7%BA%BF%E7%A8%8B%E6%B1%A0.png)
+
+## 连接器（Connector）优化
+#####  Connector是连接器，负责接收客户的请求，以及向客户端回送响应的消息。所以 Connector的优化是重要部分。默认情况下 Tomcat只支持200线程访问，超过这个数量的连接将被等待甚至超时放弃，所以我们需要提高这方面的处理能力。
+#####  其中port代表服务接口；protocol代表协议类型；connectionTimeout代表连接超时时间，单位为毫秒；redirectPort代表安全通信（https）转发端口，一般配置成443。
+![](https://github.com/claer-ding/UseNotes/blob/master/images/Tomcat%E8%BF%9E%E6%8E%A5%E5%99%A8%E4%BC%98%E5%8C%96.png)
+
