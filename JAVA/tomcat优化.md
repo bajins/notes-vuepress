@@ -48,6 +48,12 @@
 ```
 ### 最好实例
 ```
+<!-- maxPostSize参数形式处理的最大长度，如果没有指定，该属性被设置为2097152（2兆字节）。上传提交的时候可以用的
+     acceptCount请求的最大队列长度，当队列满时收到的任何请求将被拒绝
+     acceptorThreadCount 用于接受连接的线程的数量
+     disableUploadTimeout 禁用上传超时。
+     maxConnections 服务器接受并处理的最大连接数
+     SSLEnabled 在连接器上使用此属性来启用SSL加密传输 -->
 <Connector executor="tomcatThreadPool"
         connectionTimeout="20000"
         port="8090"
