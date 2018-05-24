@@ -62,5 +62,8 @@ threadRenewalDelay（重建线程的时间间隔）
         maxConnections="10000"
         SSLEnabled="false"/>
 ```
-
+## 禁用AJP连接器
+#### 如果是使用Nginx+tomcat的架构，所以用不着AJP协议，所以把AJP连接器禁用。
+##### AJPv13协议是面向包的。WEB服务器和Servlet容器通过TCP连接来交互；为了节省SOCKET创建的昂贵代价，WEB服务器会尝试维护一个永久TCP连接到servlet容器，并且在多个请求和响应周期过程会重用连接。
+![](https://github.com/claer-ding/UseNotes/blob/master/images/Tomcat%E7%A6%81%E7%94%A8AJP.png)
 
