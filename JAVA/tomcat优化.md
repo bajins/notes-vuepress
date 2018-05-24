@@ -31,7 +31,7 @@
 ### 常用的参数如下
 | 参数 | 说明  |
 | ------------ | ------------ |
-|maxPostSize|参数形式处理的最大长度，如果没有指定，该属性被设置为2097152（2兆字节）。上传提交的时候可以用的|
+|maxPostSize|参数形式处理的最大长度，默认值为2097152（2兆字节）。上传提交的时候可以用的|
 |acceptCount|请求的最大队列长度，当队列满时收到的任何请求将被拒绝|
 |acceptorThreadCount|用于接受连接的线程的数量|
 |disableUploadTimeout|此标志允许servlet容器在数据上传时使用不同的连接超时，通常较长。如果没有指定，该属性被设置为true，禁用上传超时。|
@@ -53,8 +53,8 @@
 |executor|指向Executor元素的引用。|
 ### 最好实例
 ```
-        <!-- maxPostSize 参数形式处理的最大长度，如果没有指定，该属性被设置为2097152（2兆字节）,上传提交的时候可以用的
-             acceptCount 请求的最大队列长度，当队列满时收到的任何请求将被拒绝
+        <!-- maxPostSize 参数形式处理的最大长度，默认为2097152（2兆字节）,上传提交的时候可以用的,这里设置1GB
+             acceptCount 请求的最大队列长度，当队列满时收到的任何请求将被拒绝
              acceptorThreadCount 用于接受连接的线程的数量
              disableUploadTimeout 禁用上传超时
              maxConnections 服务器接受并处理的最大连接数
@@ -65,9 +65,9 @@
                 protocol="org.apache.coyote.http11.Http11NioProtocol"
                 redirectPort="8443"
                 enableLookups="false"
-                maxPostSize="10485760"
+                maxPostSize="1048576000"
                 URIEncoding="UTF-8"
-                acceptCount="100"
+                acceptCount="1000"
                 acceptorTreadCount="22"
                 disableUploadTimeout="true"
                 maxConnections="10000"
