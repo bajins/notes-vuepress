@@ -47,20 +47,20 @@ threadRenewalDelay（重建线程的时间间隔）
 ```
 ### 最好实例
 ```
-<Connector	executor="tomcatThreadPool"
-                connectionTimeout="20000"
-                port="8090"
-                protocol="HTTP/1.1"
-                protocol="org.apache.coyote.http11.Http11NioProtocol"
-                redirectPort="8443"
-                enableLookups="false"
-                maxPostSize="10485760"
-                URIEncoding="UTF-8"
-                acceptCount="100"
-                acceptorTreadCount="22"
-                disableUploadTimeout="true"
-                maxConnections="10000"
-                SSLEnabled="false"/>
+<Connector executor="tomcatThreadPool"
+        connectionTimeout="20000"
+        port="8090"
+        protocol="HTTP/1.1"
+        protocol="org.apache.coyote.http11.Http11NioProtocol"
+        redirectPort="8443"
+        enableLookups="false"
+        maxPostSize="10485760"
+        URIEncoding="UTF-8"
+        acceptCount="100"
+        acceptorTreadCount="22"
+        disableUploadTimeout="true"
+        maxConnections="10000"
+        SSLEnabled="false"/>
 ```
 
 
