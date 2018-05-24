@@ -27,3 +27,40 @@ threadRenewalDelay（重建线程的时间间隔）
 #####  其中port代表服务接口；protocol代表协议类型；connectionTimeout代表连接超时时间，单位为毫秒；redirectPort代表安全通信（https）转发端口，一般配置成443。
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/Tomcat%E8%BF%9E%E6%8E%A5%E5%99%A8%E4%BC%98%E5%8C%96.png)
 
+### 常用的参数如下
+```
+<Connector port="8080"
+         protocol="HTTP/1.1"
+         maxThreads="1000"
+         minSpareThreads="100"
+         acceptCount="1000"
+         maxConnections="1000"
+         connectionTimeout="20000"
+         maxHttpHeaderSize="8192"
+         tcpNoDelay="true"
+         compression="on"
+         compressionMinSize="2048"
+         disableUploadTimeout="true"
+         redirectPort="8443"
+         enableLookups="false"
+         URIEncoding="UTF-8" />
+```
+### 最好实例
+```
+<Connector	executor="tomcatThreadPool"
+                connectionTimeout="20000"
+                port="8090"
+                protocol="HTTP/1.1"
+                protocol="org.apache.coyote.http11.Http11NioProtocol"
+                redirectPort="8443"
+                enableLookups="false"
+                maxPostSize="10485760"
+                URIEncoding="UTF-8"
+                acceptCount="100"
+                acceptorTreadCount="22"
+                disableUploadTimeout="true"
+                maxConnections="10000"
+                SSLEnabled="false"/>
+```
+
+
