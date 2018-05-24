@@ -87,7 +87,7 @@
 |  -Xmx1024m | 设置JVM最大可用内存为1024MB  |
 |  -Xms1024m | 设置JVM最小内存为1024m。此值可以设置与-Xmx相同，以避免每次垃圾回收完成后JVM重新分配内存。  |
 |  -XX:NewSize | 设置年轻代大小  |
-|  XX:MaxNewSize | 设置最大的年轻代大小 |
+|  -XX:MaxNewSize | 设置最大的年轻代大小 |
 |  -XX:PermSize | 设置永久代大小  |
 |  -XX:MaxPermSize| 设置最大永久代大小 |
 |-XX:NewRatio=4|设置年轻代（包括Eden和两个Survivor区）与终身代的比值（除去永久代）。设置为4，则年轻代与终身代所占比值为1：4，年轻代占整个堆栈的1/5|
