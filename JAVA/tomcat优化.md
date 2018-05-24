@@ -8,17 +8,18 @@
         maxThreads="800" minSpareThreads="100"  maxQueueSize="100" prestartminSpareThreads="true" />
 ```
 #### 参数说明
-```
-threadPriority （优先级）
-daemon（守护进程）
-namePrefix（名称前缀）
-maxThreads（最大线程数）
-minSpareThreads（最小活跃线程数）
-maxIdleTime（空闲线程等待时间）
-maxQueueSize（最大的等待队里数，超过则请求拒绝）
-prestartminSpareThreads（是否在启动时就生成minSpareThreads个线程）
-threadRenewalDelay（重建线程的时间间隔）
-```
+| 参数 | 说明  |
+| ------------ | ------------ |
+|threadPriority|优先级|
+|daemon|守护进程|
+|namePrefix|名称前缀|
+|maxThreads|最大线程数|
+|minSpareThreads|最小活跃线程数|
+|maxIdleTime|空闲线程等待时间|
+|maxQueueSize|最大的等待队里数，超过则请求拒绝|
+|prestartminSpareThreads|是否在启动时就生成minSpareThreads个线程|
+|threadRenewalDelay|重建线程的时间间隔|
+
 ### 指定线程池
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/Tomcat%E5%90%AF%E7%94%A8%E7%BA%BF%E7%A8%8B%E6%B1%A0.png)
 
@@ -83,3 +84,22 @@ threadRenewalDelay（重建线程的时间间隔）
 |-XX:NewRatio=4|设置年轻代（包括Eden和两个Survivor区）与终身代的比值（除去永久代）。设置为4，则年轻代与终身代所占比值为1：4，年轻代占整个堆栈的1/5|
 |-XX:MaxTenuringThreshold=0 |设置垃圾最大年龄，默认为：15。如果设置为0的话，则年轻代对象不经过Survivor区，直接进入年老代。对于年老代比较多的应用，可以提高效率。如果将此值设置为一个较大值，则年轻代对象会在Survivor区进行多次复制，这样可以增加对象再年轻代的存活时间，增加在年轻代即被回收的概论。 |
 |-XX:+DisableExplicitGC|这个将会忽略手动调用GC的代码使得System.gc()的调用就会变成一个空调用，完全不会触发任何GC|
+
+### windows
+#### 修改bin/catalina.bat文件,在setlocal下面一行添加
+```
+set JAVA_OPTS=-Dfile.encoding=UTF-8 -server-Xms1024m -Xmx2048m -XX:NewSize=512m -XX:MaxNewSize=1024m -XX:PermSize=256m-XX:MaxPermSize=256m -XX:MaxTenuringThreshold=10 -XX:NewRatio=2-XX:+DisableExplicitGC
+```
+![](https://github.com/claer-ding/UseNotes/blob/master/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Windows.png)
+
+### linux
+#### 修改bin/catalina.sh文件,在os400=false之前添加
+```
+JAVA_OPTS="-Dfile.encoding=UTF-8-server -Xms1024m -Xmx2048m -XX:NewSize=512m -XX:MaxNewSize=1024m-XX:PermSize=256m -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=10-XX:NewRatio=2 -XX:+DisableExplicitGC"
+```
+![](https://github.com/claer-ding/UseNotes/blob/master/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Linux.png)
+
+
+
+
+
