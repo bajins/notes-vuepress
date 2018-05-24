@@ -37,18 +37,18 @@
 |disableUploadTimeout|禁用上传超时|
 |maxConnections|服务器接受并处理的最大连接数|
 |SSLEnabled|在连接器上使用此属性来启用SSL加密传输|
-|port||
+|port|端口|
 |protocol||
-|maxThreads||
-|minSpareThreads||
-|connectionTimeout||
-|maxHttpHeaderSize||
+|maxThreads|最大线程数|
+|minSpareThreads|最小活跃线程数|
+|connectionTimeout|连接超时时间|
+|maxHttpHeaderSize|HTTP请求头大小|
 |tcpNoDelay||
 |compression||
 |compressionMinSize||
 |redirectPort||
 |enableLookups||
-|URIEncoding||
+|URIEncoding|字符集|
 ### 最好实例
 ```
         <!-- maxPostSize 参数形式处理的最大长度，如果没有指定，该属性被设置为2097152（2兆字节）,上传提交的时候可以用的
