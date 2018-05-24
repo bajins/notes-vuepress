@@ -68,7 +68,7 @@
                 maxPostSize="1048576000"
                 URIEncoding="UTF-8"
                 acceptCount="1000"
-                acceptorTreadCount="22"
+                acceptorTreadCount="100"
                 disableUploadTimeout="true"
                 maxConnections="10000"
                 SSLEnabled="false"/>
