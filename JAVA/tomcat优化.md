@@ -67,3 +67,19 @@ threadRenewalDelay（重建线程的时间间隔）
 ##### AJPv13协议是面向包的。WEB服务器和Servlet容器通过TCP连接来交互；为了节省SOCKET创建的昂贵代价，WEB服务器会尝试维护一个永久TCP连接到servlet容器，并且在多个请求和响应周期过程会重用连接。
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/Tomcat%E7%A6%81%E7%94%A8AJP.png)
 
+## JVM参数的优化
+#### 因为Tomcat运行在JAVA虚拟机之上,适当调整Tomcat的运行JVM参数可以提升整体性能。
+### 常用参数
+
+| 参数 | 说明  |
+| ------------ | ------------ |
+|  file.encoding |  默认文件编码 |
+|  -Xmx1024m | 设置JVM最大可用内存为1024MB  |
+|  -Xms1024m | 设置JVM最小内存为1024m。此值可以设置与-Xmx相同，以避免每次垃圾回收完成后JVM重新分配内存。  |
+|  -XX:NewSize | 设置年轻代大小  |
+|  XX:MaxNewSize | 设置最大的年轻代大小 |
+|  -XX:PermSize | 设置永久代大小  |
+|  -XX:MaxPermSize| 设置最大永久代大小 |
+|-XX:NewRatio=4|设置年轻代（包括Eden和两个Survivor区）与终身代的比值（除去永久代）。设置为4，则年轻代与终身代所占比值为1：4，年轻代占整个堆栈的1/5|
+|-XX:MaxTenuringThreshold=0 |设置垃圾最大年龄，默认为：15。如果设置为0的话，则年轻代对象不经过Survivor区，直接进入年老代。对于年老代比较多的应用，可以提高效率。如果将此值设置为一个较大值，则年轻代对象会在Survivor区进行多次复制，这样可以增加对象再年轻代的存活时间，增加在年轻代即被回收的概论。 |
+|-XX:+DisableExplicitGC|这个将会忽略手动调用GC的代码使得System.gc()的调用就会变成一个空调用，完全不会触发任何GC|
