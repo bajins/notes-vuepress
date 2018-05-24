@@ -8,6 +8,7 @@
 
 [windows环境变量配置](https://github.com/claer-ding/UseNotes/blob/master/JAVA/windows%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.md)
 
+[Tomcat优化](https://github.com/claer-ding/UseNotes/blob/master/JAVA/tomcat%E4%BC%98%E5%8C%96.md)
 
 # 前端框架
 [bootstrap](https://github.com/twbs/bootstrap)
