@@ -60,7 +60,6 @@
         <Connector executor="tomcatThreadPool"
                 connectionTimeout="20000"
                 port="8090"
-                protocol="HTTP/1.1"
                 protocol="org.apache.coyote.http11.Http11NioProtocol"
                 redirectPort="8443"
                 enableLookups="false"
