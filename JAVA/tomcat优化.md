@@ -3,7 +3,7 @@
 ### 找到以下位置代码
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/tomcat%E5%BC%80%E5%90%AF%E7%BA%BF%E7%A8%8B%E6%B1%A0.png)
 ### 更改为以下代码
-```
+```xml
 <Executor name="tomcatThreadPool" namePrefix="catalina-exec-"
         maxThreads="800" minSpareThreads="100"  maxQueueSize="100" prestartminSpareThreads="true" />
 ```
@@ -52,13 +52,14 @@
 |URIEncoding|指定使用的字符编码，来解码URI字符。如果没有指定，ISO-8859-1将被使用。|
 |executor|指向Executor元素的引用。|
 ### 最好实例
-```
+```xml
         <!-- maxPostSize 参数形式处理的最大长度，默认为2097152（2兆字节）,上传提交的时候可以用的,这里设置1GB
              acceptCount 请求的最大队列长度，当队列满时收到的任何请求将被拒绝
              acceptorThreadCount 用于接受连接的线程的数量
              disableUploadTimeout 禁用上传超时
              maxConnections 服务器接受并处理的最大连接数
              SSLEnabled 在连接器上使用此属性来启用SSL加密传输 -->
+             
         <Connector executor="tomcatThreadPool"
                 connectionTimeout="20000"
                 port="8090"
@@ -97,14 +98,14 @@
 
 ### windows
 #### 修改bin/catalina.bat文件,在setlocal下面一行添加
-```
+```shell
 set JAVA_OPTS=-Dfile.encoding=UTF-8 -server-Xms1024m -Xmx2048m -XX:NewSize=512m -XX:MaxNewSize=1024m -XX:PermSize=256m-XX:MaxPermSize=256m -XX:MaxTenuringThreshold=10 -XX:NewRatio=2-XX:+DisableExplicitGC
 ```
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Windows.png)
 
 ### linux
 #### 修改bin/catalina.sh文件,在os400=false之前添加
-```
+```shell
 JAVA_OPTS="-Dfile.encoding=UTF-8-server -Xms1024m -Xmx2048m -XX:NewSize=512m -XX:MaxNewSize=1024m-XX:PermSize=256m -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=10-XX:NewRatio=2 -XX:+DisableExplicitGC"
 ```
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Linux.png)
