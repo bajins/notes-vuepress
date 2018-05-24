@@ -40,10 +40,7 @@
 |maxConnections|服务器接受并处理的最大连接数|
 |SSLEnabled|在连接器上使用此属性来启用SSL加密传输|
 |port|TCP端口号，连接器利用该端口号将创建一个服务器套接字，并等待传入的连接。|
-|protocol|设置协议来处理传入流量。默认值是 HTTP/1.1，将使用自动切换机制来选择阻塞的基于Java的连接器或APR /native 为基础的连接器。可用以下值：
-org.apache.coyote.http11.Http11Protocol -阻塞式的Java连接器
-org.apache.coyote.http11.Http11NioProtocol -不阻塞Java连接器
-org.apache.coyote.http11.Http11AprProtocol的 -的APR / native 连接器|
+|protocol|设置协议来处理传入流量。默认值是 HTTP/1.1，将使用自动切换机制来选择阻塞的基于Java的连接器或APR /native 为基础的连接器。可用以下值：org.apache.coyote.http11.Http11Protocol -阻塞式的Java连接器;org.apache.coyote.http11.Http11NioProtocol -不阻塞Java连接器;org.apache.coyote.http11.Http11AprProtocol的 -的APR / native 连接器|
 |maxThreads|最多同时处理的连接数，Tomcat使用线程来处理接收的每个请求。这个值表示Tomcat可创建的最大的线程数。如果没有指定，该属性被设置为200。如果使用了execute将忽略此连接器的该属性，连接器将使用execute，而不是一个内部线程池来处理请求。|
 |minSpareThreads|始终保持运行最小线程数。如果没有指定，则默认为10。|
 |maxHttpHeaderSize|HTTP请求头大小|
