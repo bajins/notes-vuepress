@@ -65,6 +65,7 @@
                 port="8080"
                 protocol="org.apache.coyote.http11.Http11NioProtocol"
                 redirectPort="8443"
+                maxHttpHeaderSize="8192"
                 enableLookups="false"
                 maxPostSize="1048576000"
                 URIEncoding="UTF-8"
