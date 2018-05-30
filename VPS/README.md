@@ -30,3 +30,5 @@
 ## [acme.sh 实现了acme 协议, 可以从 letsencrypt 生成免费的证书.](https://github.com/Neilpang/acme.sh)
 
 ## [Cloudreve-基于ThinkPHP构建的网盘系统，能够助您以较低成本快速搭建起公私兼备的网盘。](https://github.com/HFO4/Cloudreve)
+
+## [shadowsocks](https://github.com/shadowsocks)
