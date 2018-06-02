@@ -35,7 +35,7 @@ yum -y install java-1.7.0-openjdk java-1.7.0-openjdk-devel.x86_64
 在/etc/profile文件中加入下面内容配置环境变量
 ```
 ########## jdk  environment ######################
-export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.181-2.6.14.5.el7.x86_64
+export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.181-2.6.14.8.el7_5.x86_64
 export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export PATH=$PATH:$JAVA_HOME/bin
 ########## jdk  environment ######################
@@ -111,7 +111,7 @@ source /etc/profile
 进入tomcat-8082的bin目录，修改startup.sh和shutdown.sh 两个文件，都添加如下内容
 ```
 ######### tomcat 2 ##########
-export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.181-2.6.14.5.el7.x86_64
+export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.181-2.6.14.8.el7_5.x86_64
 export PATH=$PATH:$JAVA_HOME/bin
 export CLASSPATH=$JAVA_HOME/lib
 export CATALINA_HOME=$CATALINA_2_HOME
