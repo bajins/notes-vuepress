@@ -7,7 +7,7 @@
 
 [测试脚本](https://github.com/claer-ding/UseNotes/blob/master/VPS/%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC.md)
 
-[OpenVZ-BBR](https://github.com/claer-ding/UseNotes/blob/master/VPS/OpenVZ-BBR.md)
+[VPS加速](https://github.com/claer-ding/UseNotes/blob/master/VPS/VPS%E5%8A%A0%E9%80%9F.md)
 
 [NextCloudAndAria2](https://github.com/claer-ding/UseNotes/blob/master/VPS/NextCloudAndAria2.md)
 
@@ -31,4 +31,3 @@
 
 ## [Cloudreve-基于ThinkPHP构建的网盘系统，能够助您以较低成本快速搭建起公私兼备的网盘。](https://github.com/HFO4/Cloudreve)
 
-## [shadowsocks](https://github.com/shadowsocks)
