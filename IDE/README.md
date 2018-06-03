@@ -12,3 +12,5 @@
 ## [navicat激活By DeltaFoX/TeamURET](https://dfox.it/DeFconX/files/file/79-navicat-software/)
 
 ## [IntelliJ IDEA 辅助工具](https://github.com/mrshawnho/ideaagent)
+
+## [FinallShell](http://www.hostbuf.com/)
