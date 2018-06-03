@@ -38,4 +38,4 @@ https://github.com/shadowsocks/shadowsocks-windows/releases
 
 https://github.com/shadowsocks/shadowsocks-android/releases
 
-
+http://www.vspeed.org/?vs
