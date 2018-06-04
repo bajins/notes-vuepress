@@ -11,6 +11,10 @@
 
 ## [navicat激活By DeltaFoX/TeamURET](https://dfox.it/DeFconX/files/file/79-navicat-software/)
 
+## [navicat12018_premium_cs_x64](https://www.lanzous.com/i15n5cb)
+
+## [navicat_Keygen_Patch.exe](https://www.lanzous.com/i15n4sb)
+
 ## [IntelliJ IDEA 辅助工具](https://github.com/mrshawnho/ideaagent)
 
 ## [FinallShell](http://www.hostbuf.com/)
