@@ -15,6 +15,8 @@
 
 ## [navicat_Keygen_Patch.exe](https://www.lanzous.com/i15n4sb)
 
+## [Navicat Premium v12.0.6/7/9/10/11/13/17/18 x86/64 简繁英三语版劫持补丁](https://www.lanzous.com/i15nb8d)
+
 ## [IntelliJ IDEA 辅助工具](https://github.com/mrshawnho/ideaagent)
 
 ## [FinallShell](http://www.hostbuf.com/)
