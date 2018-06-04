@@ -11,8 +11,7 @@
 
 ## [navicat激活By DeltaFoX/TeamURET](https://dfox.it/DeFconX/files/file/79-navicat-software/)
 
-## NavicatPremium
-https://www.lanzous.com/b269576/ 密码:1zhx
+## NavicatPremium https://www.lanzous.com/b269576/ 密码:1zhx
 
 ## [IntelliJ IDEA 辅助工具](https://github.com/mrshawnho/ideaagent)
 
