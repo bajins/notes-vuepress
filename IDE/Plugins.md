@@ -14,7 +14,7 @@
 #### 检测代码中可能的bug及不规范的位置，检测的模式相比p3c更多，写完代码后检测下 避免低级bug，强烈建议用一下，一不小心就发现很多老代码的bug
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/FindBugs-IDEA.gif)
 
-## [lombok](https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F6317-lombok-plugin)
+## [Lombok plugin](https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F6317-lombok-plugin)
 ### 支持lombok的各种注解，从此不用写getter setter这些 可以把注解还原为原本的java代码,除此之外还有其他更多注解以减少代码
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/lombok.gif)
 
