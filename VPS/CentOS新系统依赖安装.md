@@ -36,15 +36,23 @@ SYSFONT="lat0-sun16"
 ```
 
 方法（二）（长久）:
-```
+```shell
 localectl  set-locale LANG=zh_CN.utf8
 ```
-
+设置vi显示行号,编辑以下两个文件：
+```shell
+vi /etc/vimrc
+vi /etc/virc
+```
+在开头或者末尾添加：
+```shell
+set number
+```
 
 vi /etc/motd这个文件，可以在里面加入自己喜欢的任何欢迎信息，这段信息将会在登录成功后显示！
 
 简单的修改下配置文件可以做到每次登陆服务器自动显示磁盘情况：
-```
+```shell
 vi /root/.bash_profile
 ```
 在末尾添加以下内容：
