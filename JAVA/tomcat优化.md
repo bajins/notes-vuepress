@@ -114,7 +114,7 @@ JAVA_OPTS="-Dfile.encoding=UTF-8-server -Xms1024m -Xmx2048m -XX:NewSize=512m -XX
 
 ---
 ## Tomcat在 7.0.73, 8.0.39, 8.5.7 版本后，添加了对于http头的验证。
-### 配置tomcat的 conf/catalina.properties 在末尾添加或者修改最后一行为：
+### 配置tomcat的 conf/catalina.properties 在末尾添加或者修改最后一行：
 ```properties
 tomcat.util.http.parser.HttpParser.requestTargetAllow=|{}
 ```
