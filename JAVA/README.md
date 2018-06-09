@@ -40,3 +40,6 @@
 [utf8+bom编码格式 java 文件 转换为 utf8 格式文件](https://github.com/andotorg/utf8bom-to-utf8)
 
 [从GBK到UTF8的某些路径中的文件编码转换](https://github.com/downgoon/gbk2utf8)
+
+# API
+[By jokermonn](https://github.com/jokermonn/-Api)
