@@ -1,13 +1,28 @@
 # MySQL误操作通过binlog2sql恢复数据
 ### 使用此方式之前一定是MySQL开启了bin-log的才可行
 ## 第一步如果没有安装开源工具binlog2sql那么请安装。
+#### binlog2sql的使用详情：https://github.com/danfengcao/binlog2sql
 ### binlog2sql是一款简单易用的binlog解析工具，其中一个功能就是生成回滚SQL。
 ```shell
 git clone https://github.com/danfengcao/binlog2sql.git
 cd binlog2sql/
 pip install -r requirements.txt
 ```
-
+### MySQL server必须设置以下参数:
+```sehll
+[mysqld]
+server_id = 1
+log_bin = /var/log/mysql/mysql-bin.log
+max_binlog_size = 1G
+binlog_format = row
+binlog_row_image = full
+```
+### user需要的最小权限集合：
+```sql
+select, super/replication client, replication slave
+#建议授权
+GRANT SELECT, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 
+```
 ## 查看目前的binlog文件
 ```sql
 show master logs;
