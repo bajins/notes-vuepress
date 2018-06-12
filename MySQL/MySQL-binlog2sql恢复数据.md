@@ -1,3 +1,4 @@
+# MySQL误操作通过binlog2sql恢复数据
 ### 使用此方式之前一定是MySQL开启了bin-log的才可行
 ## 第一步如果没有安装开源工具binlog2sql那么请安装。
 ### binlog2sql是一款简单易用的binlog解析工具，其中一个功能就是生成回滚SQL。
