@@ -28,7 +28,8 @@ mysql-bin.000007 |	26765043
 ```shell
 python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数据库 -t表 --start-file='binlog文件' --start-datetime='之前误操作的SQL执行开始时间' --stop-datetime='之前误操作的SQL执行结束时间'
 ```
-### 当程序跑完之后看最后一条数据最末尾：#start 5117865 end 13679060 time 2018-06-12 10:07:53
+### 当程序跑完之后看最后一条数据最末尾：
+#### #start 5117865 end 13679060 time 2018-06-12 10:07:53
 #### 开始位置（start 5117865）和结束位置（end 13679060）
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/MySQL_binlog.png)
 
