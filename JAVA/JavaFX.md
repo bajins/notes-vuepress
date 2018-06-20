@@ -6,3 +6,4 @@
 
 ## [SceneBuilder](http://gluonhq.com/products/scene-builder/)
 ## [SceneBuilder例子](http://gluonhq.com/developers/samples/)
+## [JavaFX 8 教程 - 第七部分：部署](http://code.makery.ch/library/javafx-8-tutorial/zh-cn/part7/)
