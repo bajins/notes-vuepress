@@ -1,4 +1,7 @@
-# idea基本设置
+# IDEA基本设置
+
+## 设置IDEA启动时进入欢迎界面
+![IDEA_startup](https://github.com/claer-ding/UseNotes/blob/master/images/IDEA_startup.png)
 
 ## 设置格式化代码时自动换行
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/Line_breaks%3Dtrue.PNG)
