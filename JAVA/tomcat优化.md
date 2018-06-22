@@ -1,7 +1,7 @@
 # 执行器（线程池）
 ##### 默认的tomcat没有启用线程池,在tomcat中每一个用户请求都是一个线程，所以可以使用线程池提高性能。这里前台其实有一个调度线程，然后调度线程会放入线程池内，然后到到一定的时候线程池的任务变成工作线程。
 ### 找到以下位置代码
-![](https://github.com/claer-ding/UseNotes/blob/master/images/tomcat%E5%BC%80%E5%90%AF%E7%BA%BF%E7%A8%8B%E6%B1%A0.png)
+![](/images/tomcat%E5%BC%80%E5%90%AF%E7%BA%BF%E7%A8%8B%E6%B1%A0.png)
 ### 更改为以下代码
 ```xml
 <Executor name="tomcatThreadPool" namePrefix="catalina-exec-"
@@ -21,12 +21,12 @@
 |threadRenewalDelay|重建线程的时间间隔|
 
 ### 指定线程池
-![](https://github.com/claer-ding/UseNotes/blob/master/images/Tomcat%E5%90%AF%E7%94%A8%E7%BA%BF%E7%A8%8B%E6%B1%A0.png)
+![](/images/Tomcat%E5%90%AF%E7%94%A8%E7%BA%BF%E7%A8%8B%E6%B1%A0.png)
 
 # 连接器（Connector）优化
 #####  Connector是连接器，负责接收客户的请求，以及向客户端回送响应的消息。所以 Connector的优化是重要部分。默认情况下 Tomcat只支持200线程访问，超过这个数量的连接将被等待甚至超时放弃，所以我们需要提高这方面的处理能力。
 #####  其中port代表服务接口；protocol代表协议类型；connectionTimeout代表连接超时时间，单位为毫秒；redirectPort代表安全通信（https）转发端口，一般配置成443。
-![](https://github.com/claer-ding/UseNotes/blob/master/images/Tomcat%E8%BF%9E%E6%8E%A5%E5%99%A8%E4%BC%98%E5%8C%96.png)
+![](/images/Tomcat%E8%BF%9E%E6%8E%A5%E5%99%A8%E4%BC%98%E5%8C%96.png)
 
 ### 常用的参数如下
 | 参数 | 说明  |
@@ -78,7 +78,7 @@
 # 禁用AJP连接器
 #### 如果是使用Nginx+tomcat的架构，所以用不着AJP协议，所以把AJP连接器禁用。
 ##### AJPv13协议是面向包的。WEB服务器和Servlet容器通过TCP连接来交互；为了节省SOCKET创建的昂贵代价，WEB服务器会尝试维护一个永久TCP连接到servlet容器，并且在多个请求和响应周期过程会重用连接。
-![](https://github.com/claer-ding/UseNotes/blob/master/images/Tomcat%E7%A6%81%E7%94%A8AJP.png)
+![](/images/Tomcat%E7%A6%81%E7%94%A8AJP.png)
 
 # JVM参数的优化
 #### 因为Tomcat运行在JAVA虚拟机之上,适当调整Tomcat的运行JVM参数可以提升整体性能。
@@ -102,14 +102,14 @@
 ```shell
 set JAVA_OPTS=-Dfile.encoding=UTF-8 -server-Xms1024m -Xmx2048m -XX:NewSize=512m -XX:MaxNewSize=1024m -XX:PermSize=256m-XX:MaxPermSize=256m -XX:MaxTenuringThreshold=10 -XX:NewRatio=2-XX:+DisableExplicitGC
 ```
-![](https://github.com/claer-ding/UseNotes/blob/master/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Windows.png)
+![](/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Windows.png)
 
 ### linux
 #### 修改bin/catalina.sh文件,在os400=false之前添加
 ```shell
 JAVA_OPTS="-Dfile.encoding=UTF-8-server -Xms1024m -Xmx2048m -XX:NewSize=512m -XX:MaxNewSize=1024m-XX:PermSize=256m -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=10-XX:NewRatio=2 -XX:+DisableExplicitGC"
 ```
-![](https://github.com/claer-ding/UseNotes/blob/master/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Linux.png)
+![](/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Linux.png)
 
 
 ---
