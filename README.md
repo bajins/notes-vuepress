@@ -6,6 +6,7 @@
 * [Markdown语法.md](https://github.com/claer-ding/UseNotes/blob/master/README%E8%AF%AD%E6%B3%95.md) 
   * [By guodongxiaren](https://github.com/guodongxiaren/README)
 * [【简明版】有道云笔记Markdown指南](http://note.youdao.com/iyoudao/?p=2411&vendor=unsilent14)
+* [Markdown编辑器](Markdown编辑器.md)
 
 ## [IDE](https://github.com/claer-ding/UseNotes/tree/master/IDE)
 
