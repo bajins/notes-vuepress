@@ -14,7 +14,7 @@
 ## 设置IDEA每次启动进入欢迎界面
 > [回到顶部](#readme)
 
-![IDEA_startup](https://github.com/claer-ding/UseNotes/blob/master/images/IDEA_startup.png)
+![IDEA_startup](images/IDEA_startup.png)
 
 ## 设置格式化代码时自动换行
 > [回到顶部](#readme)
