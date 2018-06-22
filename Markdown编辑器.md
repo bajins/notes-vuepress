@@ -32,7 +32,10 @@
 
 ![](img/4319_4.jpg)
 
-### [Markdown Plus](http://mdp.tylingsoft.com/)
+### 6. [Markdown Plus](http://mdp.tylingsoft.com/)
+
+### 7. [小书匠](http://markdown.xiaoshujiang.com/)
+
 
 ## windows
 
@@ -59,6 +62,12 @@ MarkPad 是款开源的 Markdown 编辑器，与 Window 8 风格和谐友好的�
 一款模仿mou 的windows平台markdown编辑器，小众推荐，必属精品，官网无法打开，好在小众提供了百度云下载。界面美观，功能不够成熟
 
 ![](img/4319_13.jpg)
+
+### 5. [Atom](https://atom.io/)
+
+### 6. [Haroopad](http://pad.haroopress.com/user.html)
+
+
 
 
 ## OSX
@@ -92,6 +101,10 @@ Mou 是 Mac下杰出的 Markdown 编辑器，提供语法高亮、在线预览�
 专业的 Markdown 编辑器。UI漂亮，主题可选。支持markdown扩展语法，支持打字机滚动模式，支持发布到wp、blogger、tumblr等多个博客。
 
 ![](img/5674c13d7279d.jpg)
+
+### 6. [MacDown](https://macdown.uranusjr.com/)
+
+
 
 ## 跨平台
 
