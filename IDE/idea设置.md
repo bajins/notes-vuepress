@@ -1,5 +1,11 @@
 # IDEA基本设置
 
+****
+## 目录
+* [横线](#横线)
+* [标题](#标题)
+* [文本](#文本)
+
 ## 设置IDEA每次启动进入欢迎界面
 ![IDEA_startup](https://github.com/claer-ding/UseNotes/blob/master/images/IDEA_startup.png)
 
