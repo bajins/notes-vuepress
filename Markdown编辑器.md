@@ -36,6 +36,11 @@
 
 ### 7. [小书匠](http://markdown.xiaoshujiang.com/)
 
+### 8. [Cmd Markdown](https://www.zybuluo.com/mdeditor)
+
+作业部落出品，也是一款不错的工具和博客平台兼顾的产品。全平台且提供web版。
+
+![](img/4319_6.jpg)
 
 ## windows
 
@@ -108,17 +113,6 @@ Mou 是 Mac下杰出的 Markdown 编辑器，提供语法高亮、在线预览�
 
 ## 跨平台
 
-### 1. [Cmd Markdown](https://www.zybuluo.com/mdeditor)
-
-作业部落出品，也是一款不错的工具和博客平台兼顾的产品。全平台且提供web版。
-
-![](img/4319_6.jpg)
-
-### 2. [小书匠编辑器](http://soft.xiaoshujiang.com/)
-
-全平台覆盖并且有web版。
-
-![](img/4319_7.jpg)
 
 ### 3. [FarBox](https://www.farbox.com/)
 
