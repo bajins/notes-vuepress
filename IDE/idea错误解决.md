@@ -7,4 +7,4 @@
 ```
 -Xms2048m -Xmx2048m -XX:MaxPermSize=4096m -Drebel.spring_plugin=true -Drebel.spring_mvc_plugin=true -Drebel.hibernate_plugin=true
 ```
-![](https://github.com/claer-ding/UseNotes/blob/master/images/20180323100217.png)
+![](/images/20180323100217.png)
