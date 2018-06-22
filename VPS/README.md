@@ -31,3 +31,4 @@
 
 ## [Cloudreve-基于ThinkPHP构建的网盘系统，能够助您以较低成本快速搭建起公私兼备的网盘。](https://github.com/HFO4/Cloudreve)
 
+## [临时邮箱搭建](https://github.com/denghongcai/forsaken-mail)
