@@ -2,10 +2,14 @@
 
 ****
 ## 目录
-* [横线](#横线)
-* [标题](#标题)
-* [文本](#文本)
-
+* [设置IDEA每次启动进入欢迎界面](#设置IDEA每次启动进入欢迎界面)
+* [设置格式化代码时自动换行](#设置格式化代码时自动换行)
+* [设置去掉提示重复代码](#设置去掉提示重复代码)
+* [去掉大小写敏感提示](#去掉大小写敏感提示)
+* [IDEA创建文件时的注释](#IDEA创建文件时的注释)
+* [IDEA方法注释设置](#IDEA方法注释设置)
+* [IDEA设置类文件创建模板](#IDEA设置类文件创建模板)
+****
 ## 设置IDEA每次启动进入欢迎界面
 ![IDEA_startup](https://github.com/claer-ding/UseNotes/blob/master/images/IDEA_startup.png)
 
@@ -31,7 +35,7 @@
 ```
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/IDEA%E8%AE%BE%E7%BD%AE%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6%E6%97%B6%E7%9A%84%E6%B3%A8%E9%87%8A.png)
 
-## idea 方法注释设置
+## IDEA方法注释设置
 #### Template text：
 ```java
 **
