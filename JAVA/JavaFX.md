@@ -23,4 +23,4 @@
 
 
 
-![](https://github.com/claer-ding/UseNotes/blob/master/images/JavaFX.png)
+![](/images/JavaFX.png)
