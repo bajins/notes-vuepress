@@ -1,16 +1,16 @@
 # JAVA文件夹
 
-## [JavaFX开发](https://github.com/claer-ding/UseNotes/blob/master/JAVA/JavaFX.md)
+## [JavaFX开发](/JAVA/JavaFX.md)
 
 ## log文件夹为aop切面日志拦截
 
-[Java](https://github.com/claer-ding/UseNotes/blob/master/Java.md)
+[Java](/Java.md)
 
-[项目收集](https://github.com/claer-ding/UseNotes/blob/master/JAVA/%E9%A1%B9%E7%9B%AE%E6%94%B6%E9%9B%86.md)
+[项目收集](/JAVA/%E9%A1%B9%E7%9B%AE%E6%94%B6%E9%9B%86.md)
 
-[windows环境变量配置](https://github.com/claer-ding/UseNotes/blob/master/JAVA/windows%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.md)
+[windows环境变量配置](/JAVA/windows%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.md)
 
-[Tomcat优化](https://github.com/claer-ding/UseNotes/blob/master/JAVA/tomcat%E4%BC%98%E5%8C%96.md)
+[Tomcat优化](/JAVA/tomcat%E4%BC%98%E5%8C%96.md)
 
 # 前端框架
 [bootstrap](https://github.com/twbs/bootstrap)
