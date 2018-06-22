@@ -5,7 +5,7 @@
 * [设置IDEA每次启动进入欢迎界面](#设置IDEA每次启动进入欢迎界面)
 * [设置格式化代码时自动换行](#设置格式化代码时自动换行)
 * [设置去掉提示重复代码](#设置去掉提示重复代码)
-* [去掉大小写敏感提示](#去掉大小写敏感提示)
+* [IDEA去掉大小写敏感提示](#IDEA去掉大小写敏感提示)
 * [IDEA创建文件时的注释](#IDEA创建文件时的注释)
 * [IDEA方法注释设置](#IDEA方法注释设置)
 * [IDEA设置类文件创建模板](#IDEA设置类文件创建模板)
@@ -20,7 +20,7 @@
 ## 设置去掉提示重复代码
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/20180227175329.png)
 
-## idea 去掉大小写敏感提示
+## IDEA去掉大小写敏感提示
 ![](https://github.com/claer-ding/UseNotes/blob/master/images/IDEA%E5%8E%BB%E6%8E%89%E5%A4%A7%E5%B0%8F%E5%86%99%E5%8C%BA%E5%88%86%E6%8F%90%E7%A4%BA.png)
 
 ## IDEA创建文件时的注释
