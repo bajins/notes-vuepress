@@ -9,7 +9,10 @@
 * [IDEA创建文件时的注释](#IDEA创建文件时的注释)
 * [IDEA方法注释设置](#IDEA方法注释设置)
 * [IDEA设置类文件创建模板](#IDEA设置类文件创建模板)
+* [IDEA鼠标悬停查看方法注释](#IDEA鼠标悬停查看方法注释)
 ****
+
+
 ## 设置IDEA每次启动进入欢迎界面
 ![IDEA_startup](https://github.com/claer-ding/UseNotes/blob/master/images/IDEA_startup.png)
 
