@@ -1,5 +1,5 @@
 ## [MySQL配置](/MySQL/MySQL配置.md)
-
+## yum按装MySQL
 首先centos7 默认已经不支持mysql，因为收费了你懂得，所以内部集成了mariadb，
 而安装mysql的话会和mariadb的文件冲突，所以需要先卸载掉mariadb，以下为卸载mariadb，安装mysql的步骤。
 列出所有被安装的rpm package 
