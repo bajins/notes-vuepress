@@ -92,8 +92,8 @@ START SLAVE;
 ### 如果出现以下错误
 ```diff
 - ERROR 1872 (HY000): Slave failed to initialize relay log info structure from the repository
-#### 看样子是找不到中继日志的仓库，但是查看变量relay log的位置是设置了的
 ```
+#### 看样子是找不到中继日志的仓库，但是查看变量relay log的位置是设置了的
 ```sql
 show variables like 'relay%';
 ```
@@ -119,7 +119,8 @@ SHOW SLAVE STATUS\G
 ```
 #### 如果有以下错误
 ```diff
-- Error 'Operation CREATE USER failed for 'slave'@'%'' on query. Default database: ''. Query: 'CREATE USER 'slave'@'%' IDENTIFIED WITH 'mysql_native_password' AS '*040A65A51A0B047A826CDE05448536015D471E15''
+- Error 'Operation CREATE USER failed for 'slave'@'%'' on query. Default database: ''. 
+- Query: 'CREATE USER 'slave'@'%' IDENTIFIED WITH 'mysql_native_password' AS '*040A65A51A0B047A826CDE05448536015D471E15''
 ```
 #### 先执行以下命令
 ```sql
