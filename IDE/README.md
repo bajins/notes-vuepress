@@ -13,6 +13,8 @@
 
 ## NavicatPremium：https://www.lanzous.com/b269576/ 密码:1zhx
 
+## [SublimeText编辑器](https://www.lanzous.com/i1a0olg)
+
 ## [IntelliJ IDEA 辅助工具](https://github.com/mrshawnho/ideaagent)
 
 ## [FinallShell](http://www.hostbuf.com/)
