@@ -37,7 +37,8 @@ yum repolist enabled | grep "mysql.*-community.*"
 vi /etc/yum.repos.d/mysql-community.repo
 ```
 找到mysql57-community节点：
-> [mysql57-community]
+> 
+[mysql57-community]
 name=MySQL 5.7 Community Server
 baseurl=http://repo.mysql.com/yum/mysql-5.7-community/el/7/$basearch/
 enabled=0
@@ -45,7 +46,8 @@ gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
 
 将 enabled=0 改成 enabled=1 ，再找到mysql80-community节点：
-> [mysql80-community]
+> 
+[mysql80-community]
 name=MySQL 8.0 Community Server
 baseurl=http://repo.mysql.com/yum/mysql-8.0-community/el/7/$basearch/
 enabled=1
