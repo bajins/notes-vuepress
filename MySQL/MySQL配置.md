@@ -78,7 +78,7 @@ open-files-limit = 8192
 /bin/bash: Q: command not found
 ```
 
-## yum安装配置：
+## yum安装配置
 ```shell
 [client]
 #password   = your_password
@@ -187,7 +187,7 @@ interactive-timeout
 ```
 
 
-## 宝塔面板安装配置：
+## 宝塔面板安装配置
 ```shell
 [client]
 #password   = your_password
