@@ -78,7 +78,7 @@ master_password=’123456′ ## 同步数据用户的密码
 master_port=3306 ## Master数据库服务的端口
 masterlogfile=’edu-mysql-bin.000001′ ##指定Slave从哪个日志文件开始读复制数据（Master上执行命令的结果的File字段）
 masterlogpos=429 ## 从哪个POSITION号开始读（Master上执行命令的结果的Position字段）
-masterconnectretry=30 ##当重新建立主从连接时，如果连接建立失败，间隔多久后重试。单位为秒，默认设置为60秒，同步延迟调优参数。
+masterconnectretry=30 #当建立主从连接时，如果连接建立失败，间隔多久后重试。单位为秒，默认设置为60秒，同步延迟调优参数。
 ```
 ### 查看主从同步状态
 ```sql
