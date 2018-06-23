@@ -114,13 +114,14 @@ max_connections = 500
 max_connect_errors = 100
 open_files_limit = 65535
 
-#自动删除15天前的日志。默认值为0，表示从不删除。
-expire_logs_days = 15
+
 #注释掉之后，会关闭binlog日志
 log-bin=mysql-bin
 #注释掉之后，会关闭binlog日志
 binlog_format=mixed
+#数据库ID号， 为1时表示为Master,其中master_id必须为1到232–1之间的一个正整数值，主从server-id不能一样;
 server-id   = 1
+#自动删除10天前的日志。默认值为0，表示从不删除。
 expire_logs_days = 10
 slow_query_log=1
 slow-query-log-file=/var/lib/mysql/mysql-slow.log
