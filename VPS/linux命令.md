@@ -23,6 +23,14 @@ yum clean packages
 #清理软件源
 yum clean metadata
 ```
+文件权限查看
+```shell
+ls -l 文件名
+```
+文件修改为所有用户可读可写可执行，也就是对应编号为777
+```shell
+chmod 777 文件名
+```
 
 简化操作
 
