@@ -25,6 +25,14 @@ yum clean metadata
 ```
 
 # crontab命令常用于Unix和类Unix的操作系统之中，用于设置周期性被执行的指令
+### 先下载脚本文件
+```shell
+# 清理内存脚本
+wget https://github.com/claer-ding/UseNotes/blob/master/VPS/rememory.sh
+# 清理日志脚本
+wget https://github.com/claer-ding/UseNotes/blob/master/VPS/cleanLog.sh
+```
+
 ### 通过Linux终端（Terminal）编辑crontab文件.
 ```shell
 crontab -e
