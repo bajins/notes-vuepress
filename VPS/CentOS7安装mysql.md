@@ -148,7 +148,7 @@ update user set authentication_string = password('新密码'),password_expired =
 ```
 ##### 在之前的版本中，密码字段的字段名是 password，5.7版本改为了 authentication_string
 
-#### 5、修改远程主机连接权限：
+### 修改远程主机连接权限：
 
 #### 指定mysql表，更新连接权限：
 ```sql
