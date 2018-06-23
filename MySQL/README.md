@@ -1,4 +1,6 @@
 ## MySQL
+[MySQL配置](/MySQL/MySQL配置.md)
+
 [MySQL用户授权](/MySQL/MySQL%E5%88%9B%E5%BB%BA%E7%94%A8%E6%88%B7.md)
 
 [mysql-udf安装](/MySQL/mysql-udf/mysql-udf%E5%AE%89%E8%A3%85.md)
