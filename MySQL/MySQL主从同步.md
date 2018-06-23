@@ -68,17 +68,17 @@ mysql-bin.000025 | 154 | ichangg_im
 
 ### 进入MySQL执行以下命令
 ```sql
-CHANGE MASTER TO MASTER_HOST='主服务器IP', MASTER_USER='主服务器同步用户名', MASTER_PASSWORD='密码', MASTER_LOG_FILE='主MySQL二进制文件名', MASTER_LOG_POS=Position字段中数据;
+CHANGE MASTER TO MASTER_HOST='主服务器IP',MASTER_PORT=3306,MASTER_USER='主服务器同步用户名',MASTER_PASSWORD='密码',MASTER_LOG_FILE='主MySQL二进制文件名',MASTER_LOG_POS=Position字段中数据,MASTERCONNECTRETRY=30;
 ```
 #### 上面执行的命令的解释：
 ```diff
-+ master_host='192.168.1.100' #Master的IP地址
-+ master_user='slave' #用于同步数据的用户（在Master中授权的用户）
-+ master_password='123456' #同步数据用户的密码
-+ master_port=3306 #Master数据库服务的端口
-+ masterlogfile='edu-mysql-bin.000001' #指定Slave从哪个日志文件开始读复制数据（Master上执行命令的结果的File字段）
-+ masterlogpos=429 #从哪个POSITION号开始读（Master上执行命令的结果的Position字段）
-+ masterconnectretry=30 #当建立主从连接时，如果连接建立失败，间隔多久后重试。单位为秒，默认设置为60秒，同步延迟调优参数。
++ MASTER_HOST='192.168.1.100' #Master的IP地址
++ MASTER_USER='slave' #用于同步数据的用户（在Master中授权的用户）
++ MASTER_PASSWORD='123456' #同步数据用户的密码
++ MASTER_PORT=3306 #Master数据库服务的端口
++ MASTER_LOG_FILE='edu-mysql-bin.000001' #指定Slave从哪个日志文件开始读复制数据（Master上执行命令的结果的File字段）
++ MASTER_LOG_POS=429 #从哪个POSITION号开始读（Master上执行命令的结果的Position字段）
++ MASTERCONNECTRETRY=30 #当建立主从连接时，如果连接建立失败，间隔多久后重试。单位为秒，默认设置为60秒，同步延迟调优参数。
 ```
 ### 查看主从同步状态
 ```sql
