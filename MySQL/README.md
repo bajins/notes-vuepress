@@ -11,7 +11,7 @@
 
 [MySQL误操作恢复数据](/MySQL/MySQL-binlog2sql%E6%81%A2%E5%A4%8D%E6%95%B0%E6%8D%AE.md)
 
-[MySQL主从同步](/MySql/MySQL主从同步.md)
+[MySQL主从同步](/MySQL/MySQL主从同步.md)
 
 [MySQL常见错误解决](/MySQL/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3.md)
 
