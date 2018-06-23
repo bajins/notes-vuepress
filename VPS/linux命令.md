@@ -20,6 +20,7 @@ yum clean headers
 #清理/var/cache/yum下的软件包
 yum clean packages
 
+#清理软件源
 yum clean metadata
 ```
 
