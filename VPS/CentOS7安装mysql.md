@@ -55,6 +55,7 @@ enabled=1
 gpgcheck=1
 ```
 将 enabled=1 改成 enabled=0 ，保存退出。
+
 现在查看 MySQL 各个系列默认的版本：
 ```shell
 yum repolist enabled | grep "mysql.*-community.*"
@@ -87,12 +88,15 @@ systemctl daemon-reload
 systemctl restart mysql
 ```
 使用默认密码进入修改密码：
+
 查看mysql下root账号的默认密码
+
 mysql5.7安装完成之后，在/var/log/mysqld.log文件中给root生成了一个默认密码。通过下面的方式找到root默认密码，然后登录mysql。
 ```shell
 grep 'temporary password' /var/log/mysqld.log
 ```
 其中root@localhost:后面部分就是默认密码
+
 执行修改密码SQL命令
 ```sql
 ALTER USER 'root'@'localhost' IDENTIFIED BY '你的密码';
@@ -123,11 +127,15 @@ systemctl restart mysql
 
 
 修改配置修改密码：
+
 1、修改/etc/my.cnf，在 [mysqld] 小节下添加一行：skip-grant-tables=1
+
 这一行配置让 mysqld 启动时不对密码进行验证
 
 2、重启mysqld 服务：systemctl restart mysqld
+
 3、使用 root 用户登录到 mysql -uroot
+
 4、切换到mysql数据库，更新 user 表：
 ```shell
 update user set authentication_string = password('123456'),password_expired = 'N', password_last_changed = now() where user = 'root';
@@ -135,6 +143,7 @@ update user set authentication_string = password('123456'),password_expired = 'N
 在之前的版本中，密码字段的字段名是 password，5.7版本改为了 authentication_string
 
 5、修改远程主机连接权限：
+
 指定mysql表，更新连接权限：
 ```shell
 update user set host = '%' where user ='root';
@@ -148,7 +157,9 @@ select host, user from user;
 FLUSH PRIVILEGES;
 ```
 6、退出 mysql，编辑 /etc/my.cnf 文件，删除 skip-grant-tables=1的内容
+
 7、重启mysqld 服务，再用新密码登录即可
+
 重启服务：
 ```shell
 systemctl restart mysql
