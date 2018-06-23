@@ -138,7 +138,7 @@ systemctl restart mysqld
 3、使用 root 用户登录到 mysql -uroot
 
 4、切换到mysql数据库，更新 user 表：
-```shell
+```sql
 update user set authentication_string = password('123456'),password_expired = 'N', password_last_changed = now() where user = 'root';
 ```
 在之前的版本中，密码字段的字段名是 password，5.7版本改为了 authentication_string
@@ -146,15 +146,15 @@ update user set authentication_string = password('123456'),password_expired = 'N
 5、修改远程主机连接权限：
 
 指定mysql表，更新连接权限：
-```shell
+```sql
 update user set host = '%' where user ='root';
 ```
 查看是否更新成功，即host下面是否为%号：
-```shell
+```sql
 select host, user from user;
 ```
 最后，刷新MySQL的权限相关表：
-```shell
+```sql
 FLUSH PRIVILEGES;
 ```
 6、退出 mysql，编辑 /etc/my.cnf 文件，删除 skip-grant-tables=1的内容
@@ -162,7 +162,7 @@ FLUSH PRIVILEGES;
 7、重启mysqld 服务，再用新密码登录即可
 
 重启服务：
-```shell
+```sql
 systemctl restart mysqld
 ```
 
@@ -170,51 +170,51 @@ systemctl restart mysqld
 -------------------------------------------------------------------------
 MariaDB 远程连接：
 #针对ip
-```shell
+```sql
 create user 'root'@'192.168.10.10' identified by 'password';
 ```
 #全部
-```shell
+```sql
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;
 ```
 #刷新权限表
-```shell
-flush privileges;
+```sql
+FLUSH PRIVILEGES;
 ```
 重启服务：
-```shell
-systemctl restart mysql
+```sql
+systemctl restart mysqld
 ```
 -------------------------------------------------------------------------
 
 5.7以下修改密码 
 修改密码有几种方式 
 首先查看原有的配置 
-```shell
+```sql
 select host,user,password from mysql.user;
 ```
 使用set password for ‘用户名’@’主机名’=password(‘密码’)：
-```shell
+```sql
 set password for 'root'@'localhost'=password('123456');
 ```
 或者
 使用update修改:
-```shell
+```sql
 update user set password=PASSWORD("123456") where user='root';
 ```
 
 设置远程访问：
-```shell
+```sql
 grant all privileges on *.* to 'root'@'%' identified by'123456';
 #或者
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '你的密码' WITH GRANT OPTION;
 ```
 刷新MySQL的权限相关表
-```shell
+```sql
 flush privileges;
 ```
 重启mysql
-```shell
+```sql
 service mysql restart
 #或者
 service mysqld restart
