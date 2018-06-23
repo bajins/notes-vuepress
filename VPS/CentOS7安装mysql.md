@@ -68,8 +68,9 @@ yum -y install mysql-community-server
 ```shell
 mysqld -V
 ```
+#### [配置MySQL](/MySQL/MySQL配置.md#yum安装配置)
 
-### 更改MYSQL用户权限：
+### 更改MYSQL用户权限（按需执行）：
 ```shell
 sudo chown -R root:root /var/lib/mysql
 ```
