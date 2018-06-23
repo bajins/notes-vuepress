@@ -101,7 +101,7 @@ reset master;
 ```
 #### 查看主从复制是否还有主从配置
 ```sql
-SHOW SLAVE STATUS\G;
+SHOW SLAVE STATUS\G
 ```
 #### 如果还有就执行以下命令清除所有
 ```sql
