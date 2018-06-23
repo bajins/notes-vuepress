@@ -135,25 +135,249 @@ chmod -R 777 文件名
 chown:用户名 文件名
 ```
 
-
-
-
-
-
-
-
-
-
-
-
 简化操作
-
-cd ~     进行当前用户的家目录
-
+```shell
+cd ~     #进行当前用户的家目录
 cd 
 
-cd - 进入上次目录
+cd - #进入上次目录
 
-cd .. 进入上一级目录
+cd .. #进入上一级目录
 
-cd . 进入当前目录
+cd . #进入当前目录
+```
+# 防火墙
+
+查看firewalld状态，发现当前是dead状态，即防火墙未开启。
+```
+systemctl status firewalld
+```
+开启防火墙，没有任何提示即开启成功。
+```
+systemctl start firewalld
+```
+1.查看已开放的端口(默认不开放任何端口)
+```
+firewall-cmd --list-ports
+```
+2.开启端口
+firewall-cmd --zone=public(作用域) --add-port=80/tcp(端口和访问类型) --permanent(永久生效)
+开启80端口
+```
+firewall-cmd --zone=public --add-port=80/tcp --permanent
+firewall-cmd --zone=public --add-port=8080-8089/tcp --permanent
+```
+开启3306端口
+```
+firewall-cmd --zone=public --add-port=3306/tcp --permanent
+```
+命令含义：
+
+--zone #作用域
+
+--add-port=80/tcp #添加端口，格式为：端口/通讯协议
+
+--permanent #永久生效，没有此参数重启后失效
+
+3.重启防火墙
+```
+firewall-cmd --reload
+```
+4.停止防火墙
+```
+systemctl stop firewalld.service
+```
+5.禁止防火墙开机启动
+```
+systemctl disable firewalld.service
+```
+6.开机禁止启动防火墙：
+```
+systemctl disable firewalld.service
+```
+7.删除端口
+```
+firewall-cmd --zone= public --remove-port=80/tcp --permanent
+```
+
+--------------------------------------------------------------------
+CentOS7使用firewalld打开关闭防火墙与端口
+
+1、firewalld的基本使用
+
+启动： systemctl start firewalld
+
+查看状态： systemctl status firewalld 
+
+停止： systemctl disable firewalld
+
+禁用： systemctl stop firewalld
+ 
+2.systemctl是CentOS7的服务管理工具中主要的工具，它融合之前service和chkconfig的功能于一体。
+
+启动一个服务：systemctl start firewalld.service
+
+关闭一个服务：systemctl stop firewalld.service
+
+重启一个服务：systemctl restart firewalld.service
+
+显示一个服务的状态：systemctl status firewalld.service
+
+在开机时启用一个服务：systemctl enable firewalld.service
+
+在开机时禁用一个服务：systemctl disable firewalld.service
+
+查看服务是否开机启动：systemctl is-enabled firewalld.service
+
+查看已启动的服务列表：systemctl list-unit-files|grep enabled
+
+查看启动失败的服务列表：systemctl --failed
+
+3.配置firewalld-cmd
+
+查看版本： firewall-cmd --version
+
+查看帮助： firewall-cmd --help
+
+显示状态： firewall-cmd --state
+
+查看所有打开的端口：firewall-cmd --zone=public --list-ports
+
+更新防火墙规则： firewall-cmd --reload
+
+查看区域信息:  firewall-cmd --get-active-zones
+
+查看指定接口所属区域： firewall-cmd --get-zone-of-interface=eth0
+
+拒绝所有包：firewall-cmd --panic-on
+
+取消拒绝状态： firewall-cmd --panic-off
+
+查看是否拒绝： firewall-cmd --query-panic
+
+-------------------------------------------------------------------
+查看本机关于IPTABLES的设置情况
+
+iptables -L -n
+
+
+iptable iptable-service
+
+#先检查是否安装了iptables
+
+service iptables status
+
+#安装iptables
+
+yum install -y iptables
+
+#升级iptables
+
+yum update iptables 
+
+#安装iptables-services
+
+yum install iptables-services
+
+
+#查看iptables现有规则
+
+iptables -L -n
+
+#先允许所有,不然有可能会杯具
+
+iptables -P INPUT ACCEPT
+
+#清空所有默认规则
+
+iptables -F
+
+#清空所有自定义规则
+
+iptables -X
+
+#所有计数器归0
+
+iptables -Z
+
+#允许来自于lo接口的数据包(本地访问)
+
+iptables -A INPUT -i lo -j ACCEPT
+
+#开放22端口
+
+iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+
+#开放21端口(FTP)
+
+iptables -A INPUT -p tcp --dport 21 -j ACCEPT
+
+#开放80端口(HTTP)
+
+iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+
+#开放443端口(HTTPS)
+
+iptables -A INPUT -p tcp --dport 443 -j ACCEPT
+
+#允许ping
+
+iptables -A INPUT -p icmp --icmp-type 8 -j ACCEPT
+
+#允许接受本机请求之后的返回数据 RELATED,是为FTP设置的
+
+iptables -A INPUT -m state --state  RELATED,ESTABLISHED -j ACCEPT
+
+#其他入站一律丢弃
+
+iptables -P INPUT DROP
+
+#所有出站一律绿灯
+
+iptables -P OUTPUT ACCEPT
+
+#所有转发一律丢弃
+
+iptables -P FORWARD DROP
+
+#如果要添加内网ip信任（接受其所有TCP请求）
+
+iptables -A INPUT -p tcp -s 45.96.174.68 -j ACCEPT
+
+#过滤所有非以上规则的请求
+
+iptables -P INPUT DROP
+
+#要封停一个IP，使用下面这条命令：
+
+iptables -I INPUT -s ***.***.***.*** -j DROP
+
+#要解封一个IP，使用下面这条命令:
+
+iptables -D INPUT -s ***.***.***.*** -j DROP
+
+
+====================================================================
+
+查询已安装软件包的信息:
+
+rpm -qi 软件名
+
+查询已安装软件包都安装到何处:
+
+rpm -ql 软件名
+
+查看已安装软件所依赖的软件包及文件:
+rpm -qR 软件名
+
+查看已安装软件的配置文件:
+
+rpm -qc 软件名
+
+查询已经安装的文件属于哪个软件包:
+
+rpm -qf 文件名的绝对路径
+
+共安装了多少个软件包:
+
+rpm -qa | wc -l 
