@@ -23,7 +23,7 @@ yum -y reinstall glibc-common
 ```shell
 export LANG=zh_CN.utf8
 ```
-方法（一）修改vim /etc/locale.conf文件内容为（长久）：
+方法（一）修改vi /etc/locale.conf文件内容为（长久）：
 ```shell
 LANG="zh_CN.utf8"
 LANGUAGE="zh_CN.UTF-8:zh_CN.utf8:zh_CN"
