@@ -15,7 +15,7 @@ binlog_cache_size=1M
 # 主从复制的格式（mixed,statement,row，默认格式是statement）
 binlog_format=mixed
 # 二进制日志自动删除/过期的天数。默认值为0，表示不自动删除。
-expire_logs_days=7
+expire_logs_days=5
 # 跳过主从复制中遇到的所有错误或指定类型的错误，避免slave端复制中断。
 # 如：1062错误是指一些主键重复，1032错误是因为主从数据库数据不一致
 slave_skip_errors=1062
@@ -46,7 +46,7 @@ binlog_cache_size=1M
 # 主从复制的格式（mixed,statement,row，默认格式是statement）
 binlog_format=mixed
 # 二进制日志自动删除/过期的天数。默认值为0，表示不自动删除。
-expire_logs_days=7
+expire_logs_days=5
 # 跳过主从复制中遇到的所有错误或指定类型的错误，避免slave端复制中断。
 # 如：1062错误是指一些主键重复，1032错误是因为主从数据库数据不一致
 slave_skip_errors=1062
