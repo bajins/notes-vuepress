@@ -4,9 +4,9 @@
 [mysqld]
 # 设置server_id，一般设置为IP,注意要唯一
 server_id=100
-# 复制过滤：也就是指定哪个数据库不用同步,多个之间用','号分割
+# 复制过滤：也就是指定数据库不用同步,多个之间用','号分割
 binlog-ignore-db=mysql,information_schema,preformance_schema
-#需要同步的二进制数据库
+# 指定需要同步的二进制数据库
 binlog-do-db=test
 # 开启二进制日志功能，可以随便取，最好有含义（关键就是这里了）
 log-bin=edu-mysql-bin
@@ -35,9 +35,9 @@ FLUSH PRIVILEGES;
 [mysqld]
 # 设置server_id，一般设置为IP,注意要唯一
 server_id=101
-# 复制过滤：也就是指定哪个数据库不用同步,多个之间用','号分割
+# 复制过滤：也就是指定数据库不用同步,多个之间用','号分割
 binlog-ignore-db=mysql,information_schema,preformance_schema
-#需要同步的二进制数据库
+# 指定需要同步的二进制数据库
 binlog-do-db=test
 # 开启二进制日志功能，以备Slave作为其它Slave的Master时使用
 log-bin=edu-mysql-slave1-bin
