@@ -99,7 +99,7 @@ show variables like 'relay%';
 ```
 #### 重置复制信息
 ```sql
-reset master;
+RESET MASTER;
 ```
 #### 查看主从复制是否还有主从配置
 ```sql
@@ -107,7 +107,7 @@ SHOW SLAVE STATUS\G
 ```
 #### 如果还有就执行以下命令清除所有
 ```sql
-reset slave all;
+RESET SLAVE ALL;
 ```
 #### 再次开启复制
 ```sql
