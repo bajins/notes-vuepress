@@ -1,5 +1,5 @@
-
-用以下命令清理内存
+# 系统操作
+## 用以下命令清理内存
 ```shell
 #获取到的内存配置信息若为0的话，则表示开启了缓存机制
 cat /proc/sys/vm/drop_caches
@@ -23,18 +23,7 @@ yum clean packages
 #清理软件源
 yum clean metadata
 ```
-文件权限查看
-```shell
-ls -l 文件名
-```
-一次性更改权限就使用-R,文件修改为所有用户可读可写可执行，也就是对应编号为777
-```shell
-chmod -R 777 文件名
-```
-使用命令chown改变目录或文件的所有权,更改所有者和所属组chown(change owner缩写）
-```shell
-chown:用户名 文件名
-```
+
 # crontab命令常用于Unix和类Unix的操作系统之中，用于设置周期性被执行的指令
 ### 通过Linux终端（Terminal）编辑crontab文件.
 ```shell
@@ -122,7 +111,19 @@ grep 'test' text1.txt text2.txt
 #在以t开头的文件中查找并出含字符串为 test 的行
 grep 'test' t*
 ```
-
+## 文件和文件夹权限操作
+### 文件权限查看
+```shell
+ls -l 文件名
+```
+### 一次性更改权限就使用-R,文件修改为所有用户可读可写可执行，也就是对应编号为777
+```shell
+chmod -R 777 文件名
+```
+### 使用命令chown改变目录或文件的所有权,更改所有者和所属组chown(change owner缩写）
+```shell
+chown:用户名 文件名
+```
 
 
 
