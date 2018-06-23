@@ -4,7 +4,7 @@
 [mysqld]
 # 设置server_id，一般设置为IP,注意要唯一
 server_id=100
-# 复制过滤：也就是指定哪个数据库不用同步（mysql库一般不同步）
+# 复制过滤：也就是指定哪个数据库不用同步,多个之间用','号分割
 #binlog-ignore-db=mysql
 #需要同步的二进制数据库
 binlog-do-db=test
@@ -35,7 +35,7 @@ FLUSH PRIVILEGES;
 [mysqld]
 # 设置server_id，一般设置为IP,注意要唯一
 server_id=101
-# 复制过滤：也就是指定哪个数据库不用同步（mysql库一般不同步）
+# 复制过滤：也就是指定哪个数据库不用同步,多个之间用','号分割
 #binlog-ignore-db=mysql
 #需要同步的二进制数据库
 binlog-do-db=test
