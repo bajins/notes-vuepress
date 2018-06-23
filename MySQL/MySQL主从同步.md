@@ -1,16 +1,62 @@
 ## 配置主服务器
-### 在[mysqld]节点下添加
+### 在[mysqld]节点下按需添加
 ```shell
-#需要同步的二进制数据库名；
-binlog-do-db=ichangg_im
+[mysqld]
+## 设置server_id，一般设置为IP,注意要唯一
+server_id=100
+## 复制过滤：也就是指定哪个数据库不用同步（mysql库一般不同步）
+#binlog-ignore-db=mysql
+#需要同步的二进制数据库
+binlog-do-db=test
+## 开启二进制日志功能，可以随便取，最好有含义（关键就是这里了）
+log-bin=edu-mysql-bin
+## 为每个session 分配的内存，在事务过程中用来存储二进制日志的缓存
+binlog_cache_size=1M
+## 主从复制的格式（mixed,statement,row，默认格式是statement）
+binlog_format=mixed
+## 二进制日志自动删除/过期的天数。默认值为0，表示不自动删除。
+expire_logs_days=7
+## 跳过主从复制中遇到的所有错误或指定类型的错误，避免slave端复制中断。
+## 如：1062错误是指一些主键重复，1032错误是因为主从数据库数据不一致
+slave_skip_errors=1062
 ```
-### 如果有需要可以创建一个指定IP访问的账户
+### 创建数据同步用户
+#### 这里主要是要授予用户REPLICATION SLAVE权限和REPLICATION CLIENT权限
 ```sql
-CREATE USER '用户名'@'@' IDENTIFIED BY '密码';
-GRANT REPLICATION SLAVE ON *.* TO '用户名'@'指定访问IP' IDENTIFIED BY '密码';
+CREATE USER 'slave'@'%' IDENTIFIED BY '密码';
+GRANT REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'slave'@'%';
 FLUSH PRIVILEGES;
 ```
 ## 配置从服务器
+
+### 在[mysqld]节点下按需添加
+#### 从库中的server-id 值一定不要跟主库的一样
+```sql
+[mysqld]
+## 设置server_id，一般设置为IP,注意要唯一
+server_id=101
+## 复制过滤：也就是指定哪个数据库不用同步（mysql库一般不同步）
+#binlog-ignore-db=mysql
+#需要同步的二进制数据库
+binlog-do-db=test
+## 开启二进制日志功能，以备Slave作为其它Slave的Master时使用
+log-bin=edu-mysql-slave1-bin
+## 为每个session 分配的内存，在事务过程中用来存储二进制日志的缓存
+binlog_cache_size=1M
+## 主从复制的格式（mixed,statement,row，默认格式是statement）
+binlog_format=mixed
+## 二进制日志自动删除/过期的天数。默认值为0，表示不自动删除。
+expire_logs_days=7
+## 跳过主从复制中遇到的所有错误或指定类型的错误，避免slave端复制中断。
+## 如：1062错误是指一些主键重复，1032错误是因为主从数据库数据不一致
+slave_skip_errors=1062
+## relay_log配置中继日志
+relay_log=edu-mysql-relay-bin
+## log_slave_updates表示slave将复制事件写进自己的二进制日志
+log_slave_updates=1
+## 防止改变数据(除了特殊的线程)
+read_only=1
+```
 ### 先查询主服务器当前二进制log文件
 ```sql
 SHOW MASTER STATUS;
@@ -22,5 +68,47 @@ mysql-bin.000025 | 154 | ichangg_im
 
 ### 进入MySQL执行以下命令
 ```sql
-CHANGE MASTER TO MASTER_HOST='主服务器IP', MASTER_USER='用户名', MASTER_PASSWORD='密码', MASTER_LOG_FILE='主MySQL二进制文件名', MASTER_LOG_POS=Position字段中数据;
+CHANGE MASTER TO MASTER_HOST='主服务器IP', MASTER_USER='主服务器同步用户名', MASTER_PASSWORD='密码', MASTER_LOG_FILE='主MySQL二进制文件名', MASTER_LOG_POS=Position字段中数据;
 ```
+#### 上面执行的命令的解释：
+```
+master_host=’192.168.1.100′ ## Master的IP地址
+master_user=’slave’ ## 用于同步数据的用户（在Master中授权的用户）
+master_password=’123456′ ## 同步数据用户的密码
+master_port=3306 ## Master数据库服务的端口
+masterlogfile=’edu-mysql-bin.000001′ ##指定Slave从哪个日志文件开始读复制数据（Master上执行命令的结果的File字段）
+masterlogpos=429 ## 从哪个POSITION号开始读（Master上执行命令的结果的Position字段）
+masterconnectretry=30 ##当重新建立主从连接时，如果连接建立失败，间隔多久后重试。单位为秒，默认设置为60秒，同步延迟调优参数。
+```
+### 查看主从同步状态
+```sql
+show slave status;
+```
+
+### 开启复制
+```sql
+START SLAVE;
+```
+### 如果出现以下错误
+> ERROR 1872 (HY000): Slave failed to initialize relay log info structure from the repository
+#### 看样子是找不到中继日志的仓库，但是查看变量relay log的位置是设置了的
+```sql
+show variables like 'relay%';
+```
+#### 重置复制信息
+```sql
+reset master;
+```
+#### 查看主从复制是否还有主从配置
+```sql
+SHOW SLAVE STATUS\G;
+```
+#### 如果还有就执行以下命令清除所有
+```sql
+reset slave all;
+```
+#### 再次开启复制
+```sql
+START SLAVE;
+```
+
