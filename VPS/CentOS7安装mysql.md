@@ -86,13 +86,43 @@ systemctl daemon-reload
 ```shell
 systemctl restart mysql
 ```
+使用默认密码进入修改密码：
 查看mysql下root账号的默认密码
 mysql5.7安装完成之后，在/var/log/mysqld.log文件中给root生成了一个默认密码。通过下面的方式找到root默认密码，然后登录mysql。
 ```shell
 grep 'temporary password' /var/log/mysqld.log
 ```
-其中=号后面部分就是默认密码
+其中root@localhost:后面部分就是默认密码
+执行修改密码SQL命令
+```sql
+ALTER USER 'root'@'localhost' IDENTIFIED BY '你的密码';
+```
+如果出现以下错误，就说明密码强度不够：
+> ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+需要修改以下两个参数：
+```sql
+set global validate_password_policy=0;
+set global validate_password_length=自己想要的密码长度;
+```
+再次执行修改密码SQL命令：
+```sql
+ALTER USER 'root'@'localhost' IDENTIFIED BY '你的密码';
+```
+最后，刷新MySQL的权限相关表：
+```shell
+FLUSH PRIVILEGES;
+```
+退出 MySQL 控制台：
+```sql
+EXIT;
+```
+重启服务：
+```shell
+systemctl restart mysql
+```
 
+
+修改配置修改密码：
 1、修改/etc/my.cnf，在 [mysqld] 小节下添加一行：skip-grant-tables=1
 这一行配置让 mysqld 启动时不对密码进行验证
 
@@ -115,10 +145,14 @@ select host, user from user;
 ```
 最后，刷新MySQL的权限相关表：
 ```shell
-flush privileges;
+FLUSH PRIVILEGES;
 ```
 6、退出 mysql，编辑 /etc/my.cnf 文件，删除 skip-grant-tables=1的内容
 7、重启mysqld 服务，再用新密码登录即可
+重启服务：
+```shell
+systemctl restart mysql
+```
 
 
 -------------------------------------------------------------------------
