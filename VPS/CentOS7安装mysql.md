@@ -103,6 +103,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY '你的密码';
 ```
 如果出现以下错误，就说明密码强度不够：
 > ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+
 需要修改以下两个参数：
 ```sql
 set global validate_password_policy=0;
