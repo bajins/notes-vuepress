@@ -85,7 +85,7 @@ systemctl daemon-reload
 ```
 重启服务：
 ```shell
-systemctl restart mysql
+systemctl restart mysqld
 ```
 使用默认密码进入修改密码：
 
@@ -123,7 +123,7 @@ EXIT;
 ```
 重启服务：
 ```shell
-systemctl restart mysql
+systemctl restart mysqld
 ```
 
 
@@ -163,7 +163,7 @@ FLUSH PRIVILEGES;
 
 重启服务：
 ```shell
-systemctl restart mysql
+systemctl restart mysqld
 ```
 
 
