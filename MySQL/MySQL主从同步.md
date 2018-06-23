@@ -111,4 +111,22 @@ reset slave all;
 ```sql
 START SLAVE;
 ```
+### 查看主从复制是否成功
+```sql
+SHOW SLAVE STATUS\G
+```
+#### 如果有以下错误
+> Error 'Operation CREATE USER failed for 'slave'@'%'' on query. Default database: ''. Query: 'CREATE USER 'slave'@'%' IDENTIFIED WITH 'mysql_native_password' AS '*040A65A51A0B047A826CDE05448536015D471E15''
 
+#### 先执行以下命令
+```sql
+STOP SLAVE;
+FLUSH PRIVILEGES;
+START SLAVE;
+```
+#### 如果错误仍然存在，执行以下命令
+```sql
+STOP SLAVE;
+DROP USER 'slave'@'%';
+START SLAVE;
+```
