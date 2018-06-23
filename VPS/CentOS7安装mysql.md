@@ -232,25 +232,6 @@ vi /etc/my.cnf
 ```shell
 character-set-server=utf8
 ```
----------------------------------------------------------
-安装phpmyadmin：
-```shell
-yum -y install  phpMyAdmin
-```
-配置phpmyadmin：
-```shell
-cp /etc/phpMyAdmin/config.inc.php /usr/share/phpMyAdmin/
-ln -s /usr/share/phpMyAdmin  /usr/local/nginx/html/pma
-```
-有时候会安装不成功，提示没有可用软件包，则需要安装Remi源 ：
-yum install epel-release
-rpm -ivh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
-
-或者直接下载使用：
-```shell
-wget https://files.phpmyadmin.net/phpMyAdmin/4.7.7/phpMyAdmin-4.7.7-all-languages.tar.gz
-chown -R www:www /var/lib/php/session
-```
 
 -----------------------------------------------------------------------------------------------------------------------
 # 编译安装
@@ -353,14 +334,14 @@ cd /usr/local/mysql/bin
 ./mysql -u root -p  #输入临时密码
 ```
 修改密码：
-```shell
+```sql
 SET password=password("root");
 ```
 登录授权：
-```shell
+```sql
 GRANT ALL PRIVILEGES on *.* to'root' @'%' IDENTIFIED BY 'root';
 ```
 刷新授权：
-``shell
+``sql
 FLUSH PRIVILEGES;
 ```
