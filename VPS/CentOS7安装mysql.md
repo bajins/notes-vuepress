@@ -98,7 +98,7 @@ grep 'temporary password' /var/log/mysqld.log
 
 #### 执行修改密码SQL命令
 ```sql
-ALTER USER 'root'@'localhost' IDENTIFIED BY '你的密码';
+ALTER USER 'root'@'localhost' IDENTIFIED BY '新密码';
 ```
 #### 如果出现以下错误，就说明密码强度不够：
 > ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
@@ -110,7 +110,7 @@ set global validate_password_length=自己想要的密码长度;
 ```
 #### 再次执行修改密码SQL命令：
 ```sql
-ALTER USER 'root'@'localhost' IDENTIFIED BY '你的密码';
+ALTER USER 'root'@'localhost' IDENTIFIED BY '新密码';
 ```
 #### 最后，刷新MySQL的权限相关表：
 ```shell
@@ -144,7 +144,7 @@ mysql -uroot
 ```
 #### 4、切换到mysql数据库，更新 user 表：
 ```sql
-update user set authentication_string = password('123456'),password_expired = 'N', password_last_changed = now() where user = 'root';
+update user set authentication_string = password('新密码'),password_expired = 'N', password_last_changed = now() where user = 'root';
 ```
 ##### 在之前的版本中，密码字段的字段名是 password，5.7版本改为了 authentication_string
 
