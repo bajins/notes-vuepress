@@ -3,6 +3,7 @@
 用以下命令清理内存
 ```shell
 #释放网页缓存(To free pagecache)
+#drop_caches是让系统清理内存页的缓存，从而得到更多的可用内存
 sync; echo 1 > /proc/sys/vm/drop_caches
 #释放目录项和索引(To free dentries and inodes)
 sync; echo 2 > /proc/sys/vm/drop_caches
