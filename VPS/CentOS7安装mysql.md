@@ -7,37 +7,37 @@
 ```shell
 rpm -qa | grep mariadb
 ```
-#卸载
+### 卸载
 ```shell
 rpm -e mariadb-libs-5.5.56-2.el7.x86_64
 ```
-#强制卸载，因为没有--nodeps
+### 强制卸载，因为没有--nodeps
 ```shell
 rpm -e --nodeps mariadb-libs-5.5.56-2.el7.x86_64
 ```
-安装mysql依赖
+### 安装mysql依赖
 ```shell
 yum -y install vim libaio
 ```
-安装MySQL
-下载yum源
+### 安装MySQL
+#### 下载yum源
 ```shell
 # MySQL 8.0
 wget https://repo.mysql.com//mysql80-community-release-el7-1.noarch.rpm
 ```
-安装yum源
+#### 安装yum源
 ```shell
 yum -y localinstall mysql-community-server-5.7.22-1.el7.x86_64.rpm
 ```
-检查yum源是否安装成功
+#### 检查yum源是否安装成功
 ```shell
 yum repolist enabled | grep "mysql.*-community.*"
 ```
-可以看到这里默认启用了 MySQL 8.0 Community Server ，而我们需要安装的是 MySQL 5.7 Community Server，因此需要修改源设置：
+#### 可以看到这里默认启用了 MySQL 8.0 Community Server ，而我们需要安装的是 MySQL 5.7 Community Server，因此需要修改源设置：
 ```shell
 vi /etc/yum.repos.d/mysql-community.repo
 ```
-找到mysql57-community节点：
+#### 找到mysql57-community节点：
 ```shell
 [mysql57-community]
 name=MySQL 5.7 Community Server
@@ -46,7 +46,7 @@ enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
 ```
-将 enabled=0 改成 enabled=1 ，再找到mysql80-community节点：
+#### 将 enabled=0 改成 enabled=1 ，再找到mysql80-community节点：
 ```shell
 [mysql80-community]
 name=MySQL 8.0 Community Server
@@ -54,167 +54,170 @@ baseurl=http://repo.mysql.com/yum/mysql-8.0-community/el/7/$basearch/
 enabled=1
 gpgcheck=1
 ```
-将 enabled=1 改成 enabled=0 ，保存退出。
+#### 将 enabled=1 改成 enabled=0 ，保存退出。
 
-现在查看 MySQL 各个系列默认的版本：
+#### 现在查看 MySQL 各个系列默认的版本：
 ```shell
 yum repolist enabled | grep "mysql.*-community.*"
 ```
-安装mysql
+#### 安装mysql
 ```shell
 yum -y install mysql-community-server
 ```
-查看安装的 MySQL 版本：
+#### 查看安装的 MySQL 版本：
 ```shell
 mysqld -V
 ```
 
-更改MYSQL用户权限：
+### 更改MYSQL用户权限：
 ```shell
 sudo chown -R root:root /var/lib/mysql
 ```
-启动mysql并查看其状态
+### 启动mysql并查看其状态
 ```shell
 systemctl start mysqld
 systemctl status mysqld
 ```
-设置mysql为系统服务，随系统启动而启动
+### 设置mysql为系统服务，随系统启动而启动
 ```shell
 systemctl enable mysqld
 systemctl daemon-reload
 ```
-重启服务：
+### 重启服务：
 ```shell
 systemctl restart mysqld
 ```
-使用默认密码进入修改密码：
+### 使用默认密码进入修改密码：
 
-查看mysql下root账号的默认密码
-
-mysql5.7安装完成之后，在/var/log/mysqld.log文件中给root生成了一个默认密码。通过下面的方式找到root默认密码，然后登录mysql。
+#### 查看mysql下root账号的默认密码
+##### mysql5.7安装完成之后，在/var/log/mysqld.log文件中给root生成了一个默认密码。通过下面的方式找到root默认密码，然后登录mysql。
 ```shell
 grep 'temporary password' /var/log/mysqld.log
 ```
-其中root@localhost:后面部分就是默认密码
+##### 其中root@localhost:后面部分就是默认密码
 
-执行修改密码SQL命令
+#### 执行修改密码SQL命令
 ```sql
 ALTER USER 'root'@'localhost' IDENTIFIED BY '你的密码';
 ```
-如果出现以下错误，就说明密码强度不够：
+#### 如果出现以下错误，就说明密码强度不够：
 > ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
 
-需要修改以下两个参数：
+#### 需要修改以下两个参数：
 ```sql
 set global validate_password_policy=0;
 set global validate_password_length=自己想要的密码长度;
 ```
-再次执行修改密码SQL命令：
+#### 再次执行修改密码SQL命令：
 ```sql
 ALTER USER 'root'@'localhost' IDENTIFIED BY '你的密码';
 ```
-最后，刷新MySQL的权限相关表：
+#### 最后，刷新MySQL的权限相关表：
 ```shell
 FLUSH PRIVILEGES;
 ```
-退出 MySQL 控制台：
+#### 退出 MySQL 控制台：
 ```sql
 EXIT;
 ```
-重启服务：
+#### 重启服务：
 ```shell
 systemctl restart mysqld
 ```
 
 
-修改配置修改密码：
+### 修改配置修改密码：
 
-1、修改/etc/my.cnf，在 [mysqld] 小节下添加一行：skip-grant-tables=1
+#### 1、修改/etc/my.cnf，在 [mysqld] 小节下添加一行：
+```shell
+skip-grant-tables=1
+```
+##### 这一行配置让 mysqld 启动时不对密码进行验证
 
-这一行配置让 mysqld 启动时不对密码进行验证
-
-2、重启mysqld 服务：systemctl restart mysqld
-
-3、使用 root 用户登录到 mysql -uroot
-
-4、切换到mysql数据库，更新 user 表：
+#### 2、重启mysqld 服务：
+```shell
+systemctl restart mysqld
+```
+#### 3、使用 root 用户登录到 
+```shell
+mysql -uroot
+```
+#### 4、切换到mysql数据库，更新 user 表：
 ```sql
 update user set authentication_string = password('123456'),password_expired = 'N', password_last_changed = now() where user = 'root';
 ```
-在之前的版本中，密码字段的字段名是 password，5.7版本改为了 authentication_string
+##### 在之前的版本中，密码字段的字段名是 password，5.7版本改为了 authentication_string
 
-5、修改远程主机连接权限：
+#### 5、修改远程主机连接权限：
 
-指定mysql表，更新连接权限：
+#### 指定mysql表，更新连接权限：
 ```sql
 update user set host = '%' where user ='root';
 ```
-查看是否更新成功，即host下面是否为%号：
+#### 查看是否更新成功，即host下面是否为%号：
 ```sql
 select host, user from user;
 ```
-最后，刷新MySQL的权限相关表：
+#### 最后，刷新MySQL的权限相关表：
 ```sql
 FLUSH PRIVILEGES;
 ```
-6、退出 mysql，编辑 /etc/my.cnf 文件，删除 skip-grant-tables=1的内容
+#### 6、退出 mysql，编辑 /etc/my.cnf 文件，删除 skip-grant-tables=1的内容
 
-7、重启mysqld 服务，再用新密码登录即可
-
-重启服务：
-```sql
+#### 7、重启服务，再用新密码登录即可：
+```sell
 systemctl restart mysqld
 ```
 
 
 -------------------------------------------------------------------------
-MariaDB 远程连接：
-#针对ip
+### MariaDB 远程连接：
+#### 针对ip
 ```sql
 create user 'root'@'192.168.10.10' identified by 'password';
 ```
-#全部
+#### 全部
 ```sql
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;
 ```
-#刷新权限表
+#### 刷新权限表
 ```sql
 FLUSH PRIVILEGES;
 ```
-重启服务：
-```sql
+#### 重启服务：
+```sell
 systemctl restart mysqld
 ```
 -------------------------------------------------------------------------
 
-5.7以下修改密码 
-修改密码有几种方式 
-首先查看原有的配置 
+### 5.7以下修改密码 
+#### 修改密码有几种方式 
+
+#### 首先查看原有的配置 
 ```sql
 select host,user,password from mysql.user;
 ```
-使用set password for ‘用户名’@’主机名’=password(‘密码’)：
+#### 使用set password for ‘用户名’@’主机名’=password(‘密码’)：
 ```sql
 set password for 'root'@'localhost'=password('123456');
 ```
-或者
-使用update修改:
+#### 或者使用update修改:
 ```sql
 update user set password=PASSWORD("123456") where user='root';
 ```
 
-设置远程访问：
+#### 设置远程访问：
 ```sql
 grant all privileges on *.* to 'root'@'%' identified by'123456';
 #或者
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '你的密码' WITH GRANT OPTION;
 ```
-刷新MySQL的权限相关表
+#### 刷新MySQL的权限相关表
 ```sql
 flush privileges;
 ```
-重启mysql
-```sql
+#### 重启mysql
+```sell
 service mysql restart
 #或者
 service mysqld restart
@@ -224,11 +227,11 @@ service mysqld restart
 如果数据库服务器和web等在一个服务器的时候，尽量使用localhost。
 在linux下mysql使用localhost的时候使用的是unix套接字，而其他使用的是tcp/ip协议。
 
-设置服务端编码：
+#### 设置服务端编码：
 ```shell
 vi /etc/my.cnf
 ```
-添加到 [mysqld] 这个标志下面
+#### 添加到 [mysqld] 这个标志下面
 ```shell
 character-set-server=utf8
 ```
