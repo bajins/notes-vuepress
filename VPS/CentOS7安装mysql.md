@@ -116,19 +116,11 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY '新密码';
 ```shell
 FLUSH PRIVILEGES;
 ```
-#### 退出 MySQL 控制台：
-```sql
-EXIT;
-```
-#### 重启服务：
-```shell
-systemctl restart mysqld
-```
 
 
 ### 修改配置修改密码：
 
-#### 1、修改/etc/my.cnf，在 [mysqld] 小节下添加一行：
+#### 1、修改/etc/my.cnf，在 [mysqld] 小节下添加一行,修改密码完成后需要删除此行：
 ```shell
 skip-grant-tables=1
 ```
@@ -148,6 +140,8 @@ update user set authentication_string = password('新密码'),password_expired =
 ```
 ##### 在之前的版本中，密码字段的字段名是 password，5.7版本改为了 authentication_string
 
+
+
 ### 修改远程主机连接权限：
 
 #### 指定mysql表，更新连接权限：
@@ -162,13 +156,11 @@ select host, user from user;
 ```sql
 FLUSH PRIVILEGES;
 ```
-#### 6、退出 mysql，编辑 /etc/my.cnf 文件，删除 skip-grant-tables=1的内容
-
-#### 7、重启服务，再用新密码登录即可：
+#### 重启服务，再用新密码登录即可：
 ```sell
 systemctl restart mysqld
 ```
-
+#### [放开MySQL防火墙端口](/VPS/linux命令.md#防火墙)
 
 -------------------------------------------------------------------------
 ### MariaDB 远程连接：
