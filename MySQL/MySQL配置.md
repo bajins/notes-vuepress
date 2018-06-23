@@ -3,10 +3,116 @@
 ```shell
 vi /etc/my.cnf
 ```
+yum安装配置：
+```shell
+[client]
+#password   = your_password
+port        = 3306
+socket      = /var/lib/mysql/mysql.sock
+
+[mysqld]
+port        = 3306
+socket      = /var/lib/mysql/mysql.sock
+datadir = /var/lib/mysql
+symbolic-links= 0
+log-error= /var/log/mysqld.log
+pid-file= /var/run/mysqld/mysqld.pid
+skip-external-locking
+performance_schema_max_table_instances=400
+table_definition_cache=400
+key_buffer_size = 32M
+max_allowed_packet = 100G
+table_open_cache = 128
+sort_buffer_size = 768K
+net_buffer_length = 8K
+read_buffer_size = 768K
+read_rnd_buffer_size = 512K
+myisam_sort_buffer_size = 8M
+thread_cache_size = 16
+query_cache_size = 16M
+tmp_table_size = 32M
+sql-mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
+
+explicit_defaults_for_timestamp = true
+#skip-networking
+max_connections = 500
+max_connect_errors = 100
+open_files_limit = 65535
+
+#自动删除15天前的日志。默认值为0，表示从不删除。
+expire_logs_days = 15
+#注释掉之后，会关闭binlog日志
+log-bin=mysql-bin
+#注释掉之后，会关闭binlog日志
+binlog_format=mixed
+server-id   = 1
+expire_logs_days = 10
+slow_query_log=1
+slow-query-log-file=/var/lib/mysql/mysql-slow.log
+long_query_time=3
+#log_queries_not_using_indexes=on
+early-plugin-load = ""
+
+#loose-innodb-trx=0
+#loose-innodb-locks=0
+#loose-innodb-lock-waits=0
+#loose-innodb-cmp=0
+#loose-innodb-cmp-per-index=0
+#loose-innodb-cmp-per-index-reset=0
+#loose-innodb-cmp-reset=0
+#loose-innodb-cmpmem=0
+#loose-innodb-cmpmem-reset=0
+#loose-innodb-buffer-page=0
+#loose-innodb-buffer-page-lru=0
+#loose-innodb-buffer-pool-stats=0
+#loose-innodb-metrics=0
+#loose-innodb-ft-default-stopword=0
+#loose-innodb-ft-inserted=0
+#loose-innodb-ft-deleted=0
+#loose-innodb-ft-being-deleted=0
+#loose-innodb-ft-config=0
+#loose-innodb-ft-index-cache=0
+#loose-innodb-ft-index-table=0
+#loose-innodb-sys-tables=0
+#loose-innodb-sys-tablestats=0
+#loose-innodb-sys-indexes=0
+#loose-innodb-sys-columns=0
+#loose-innodb-sys-fields=0
+#loose-innodb-sys-foreign=0
+#loose-innodb-sys-foreign-cols=0
+
+default_storage_engine = InnoDB
+innodb_data_home_dir = /var/lib/mysql
+innodb_data_file_path = ibdata1:10M:autoextend
+innodb_log_group_home_dir = /var/lib/mysql
+innodb_buffer_pool_size = 128M
+innodb_log_file_size = 64M
+innodb_log_buffer_size = 16M
+innodb_flush_log_at_trx_commit = 1
+innodb_lock_wait_timeout = 120
+innodb_max_dirty_pages_pct = 90
+innodb_read_io_threads = 3
+innodb_write_io_threads = 3
+
+[mysqldump]
+quick
+max_allowed_packet = 16M
+
+[mysql]
+no-auto-rehash
+
+[myisamchk]
+key_buffer_size = 32M
+sort_buffer_size = 768K
+read_buffer = 2M
+write_buffer = 2M
+
+[mysqlhotcopy]
+interactive-timeout
+```
+
 按i后输入以下内容:
 ```shell
-
-
 [mysqld]
 # sql_mode = NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES 
 
@@ -78,7 +184,7 @@ open-files-limit = 8192
 [client]
 /bin/bash: Q: command not found
 ```
-或者以下配置
+宝塔面板安装配置：
 ```shell
 [client]
 #password   = your_password
