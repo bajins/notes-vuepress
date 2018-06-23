@@ -32,7 +32,7 @@ wget https://cdn.mysql.com//Downloads/MySQL-5.7/mysql-community-server-5.7.22-1.
 ![](/images/MySQL-RPM%E4%B8%8B%E8%BD%BD.png)
 安装yum源
 ```shell
-yum -y localinstall mysql57-community-release-el7-11.noarch.rpm
+yum -y localinstall mysql-community-server-5.7.22-1.el7.x86_64.rpm
 ```
 检查yum源是否安装成功
 ```shell
