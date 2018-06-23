@@ -2,7 +2,7 @@
 
 # 以下配置信息请自己修改
 mysql_user="USER" #MySQL备份用户
-	mysql_password="PASSWORD" #MySQL备份用户的密码
+mysql_password="PASSWORD" #MySQL备份用户的密码
 mysql_host="localhost"
 mysql_port="3306"
 mysql_charset="utf8" #MySQL编码
