@@ -2,7 +2,18 @@
 
 用以下命令清理内存
 ```shell
-echo 1 > /proc/sys/vm/drop_caches
+#释放网页缓存(To free pagecache)
+sync; echo 1 > /proc/sys/vm/drop_caches
+#释放目录项和索引(To free dentries and inodes)
+sync; echo 2 > /proc/sys/vm/drop_caches
+#释放网页缓存，目录项和索引（To free pagecache, dentries and inodes）
+sync; echo 3 > /proc/sys/vm/drop_caches
+
+#清理/var/cache/yum的headers
+yum clean headers
+#清理/var/cache/yum下的软件包
+yum clean packages
+yum clean metadata
 ```
 
 修改时区为亚洲上海
@@ -67,7 +78,7 @@ echo '=========================================================='
 df -lh
 echo '=========================================================='
 #查询内存使用情况
-free -m
+free -h
 echo '=========================================================='
 #统计文件夹总数大小
 du -sh /usr
