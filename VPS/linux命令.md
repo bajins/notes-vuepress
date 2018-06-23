@@ -43,7 +43,7 @@ crontab -e
 ### 输入定时任务命令.
 ```shell
 # 每分钟输出一次当前时间
-* * * * * echo `date` >> /log.log
+ * * * * * echo `date` >> /log.log
 # 每天凌晨1点30分执行清理内存脚本，并且输出到日志
 30 1 * * *  /bin/bash /home/rememory.sh >> /home/rememory.log 2>&1
 # 每隔3天,1点30分执行，并且输出到日志
