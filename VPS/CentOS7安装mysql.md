@@ -290,6 +290,8 @@ cd /usr/local/mysql/bin
 ```
 记住生成的临时密码,如果忘记密码或者想重新初始化，可以先将mysql/data目录中文件删除，然后再执行初始化命令
 
+### [配置MySQL](/MySQL/MySQL配置.md#yum安装配置)
+
 ### 启动
 ```shell
 cd /usr/local/mysql/bin
