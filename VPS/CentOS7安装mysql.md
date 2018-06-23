@@ -23,13 +23,7 @@ yum -y install vim libaio
 ```shell
 # MySQL 8.0
 wget https://repo.mysql.com//mysql80-community-release-el7-1.noarch.rpm
-# MySQL 5.7
-wget https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm
-# MySQL 5.7.22
-wget https://cdn.mysql.com//Downloads/MySQL-5.7/mysql-community-server-5.7.22-1.el7.x86_64.rpm
 ```
-5.7最新版本下载地址：https://dev.mysql.com/downloads/mysql/5.7.html#downloads
-![](/images/MySQL-RPM%E4%B8%8B%E8%BD%BD.png)
 安装yum源
 ```shell
 yum -y localinstall mysql-community-server-5.7.22-1.el7.x86_64.rpm
@@ -38,6 +32,18 @@ yum -y localinstall mysql-community-server-5.7.22-1.el7.x86_64.rpm
 ```shell
 yum repolist enabled | grep "mysql.*-community.*"
 ```
+可以看到这里默认启用了 MySQL 8.0 Community Server ，而我们需要安装的是 MySQL 5.7 Community Server，因此需要修改源设置：
+```shell
+vi /etc/yum.repos.d/mysql-community.repo
+```
+找到：
+> [mysql57-community]
+name=MySQL 5.7 Community Server
+baseurl=http://repo.mysql.com/yum/mysql-5.7-community/el/7/$basearch/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
+
 安装mysql
 ```shell
 yum -y install mysql-community-server
