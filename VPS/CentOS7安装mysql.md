@@ -62,6 +62,11 @@ yum repolist enabled | grep "mysql.*-community.*"
 ```shell
 yum -y install mysql-community-server
 ```
+查看安装的 MySQL 版本：
+```shell
+mysqld -V
+```
+
 更改MYSQL用户权限：
 ```shell
 sudo chown -R root:root /var/lib/mysql
