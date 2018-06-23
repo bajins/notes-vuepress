@@ -23,7 +23,7 @@ slave_skip_errors=1062
 ### 创建数据同步用户
 #### 这里主要是要授予用户REPLICATION SLAVE权限和REPLICATION CLIENT权限
 ```sql
-CREATE USER 'slave'@'%' IDENTIFIED BY '密码';
+CREATE USER IF NOT EXISTS 'slave'@'%' IDENTIFIED BY '密码';
 GRANT REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'slave'@'%';
 FLUSH PRIVILEGES;
 ```
