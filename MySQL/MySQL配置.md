@@ -1,9 +1,84 @@
-### 配置my.cnf
+# 配置my.cnf
 从5.7.17后mysql就没有默认的my_default.cnf文件，需要手动创建
 ```shell
 vi /etc/my.cnf
 ```
-yum安装配置：
+
+按i后输入以下内容:
+```shell
+[mysqld]
+# sql_mode = NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES 
+
+# 一般配置选项
+basedir = /usr/local/mysql/
+datadir = /usr/local/mysql/data
+port = 3306
+character-set-server = utf8
+explicit_defaults_for_timestamp = true
+# socket = /var/run/mysqld/mysqld.sock
+
+#下面是可选项，要不要都行，如果出现启动错误，则全部注释掉，
+#保留最基本的配置选项，然后尝试添加某些配置项后启动，检测配置项是否有误
+back_log = 300
+max_connections = 3000
+max_connect_errors = 50
+table_open_cache = 4096
+max_allowed_packet = 32M
+#binlog_cache_size = 4M
+
+max_heap_table_size = 128M
+read_rnd_buffer_size = 16M
+sort_buffer_size = 16M
+join_buffer_size = 16M
+thread_cache_size = 16
+query_cache_size = 128M
+query_cache_limit = 4M
+ft_min_word_len = 8
+
+thread_stack = 512K
+transaction_isolation = REPEATABLE-READ
+tmp_table_size = 128M
+#log-bin=mysql-bin
+long_query_time = 6
+
+server_id=1
+
+innodb_buffer_pool_size = 1G
+innodb_thread_concurrency = 16
+innodb_log_buffer_size = 16M
+
+innodb_log_file_size = 512M
+innodb_log_files_in_group = 3
+innodb_max_dirty_pages_pct = 90
+innodb_lock_wait_timeout = 120
+innodb_file_per_table = on
+
+[mysqldump]
+quick
+max_allowed_packet = 32M
+
+[mysql]
+no-auto-rehash
+default-character-set=utf8
+safe-updates
+
+[myisamchk]
+key_buffer = 16M
+sort_buffer_size = 16M
+read_buffer = 8M
+write_buffer = 8M
+
+[mysqlhotcopy]
+interactive-timeout
+
+[mysqld_safe]
+open-files-limit = 8192
+
+[client]
+/bin/bash: Q: command not found
+```
+
+## yum安装配置：
 ```shell
 [client]
 #password   = your_password
@@ -111,80 +186,8 @@ write_buffer = 2M
 interactive-timeout
 ```
 
-按i后输入以下内容:
-```shell
-[mysqld]
-# sql_mode = NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES 
 
-# 一般配置选项
-basedir = /usr/local/mysql/
-datadir = /usr/local/mysql/data
-port = 3306
-character-set-server = utf8
-explicit_defaults_for_timestamp = true
-# socket = /var/run/mysqld/mysqld.sock
-
-#下面是可选项，要不要都行，如果出现启动错误，则全部注释掉，
-#保留最基本的配置选项，然后尝试添加某些配置项后启动，检测配置项是否有误
-back_log = 300
-max_connections = 3000
-max_connect_errors = 50
-table_open_cache = 4096
-max_allowed_packet = 32M
-#binlog_cache_size = 4M
-
-max_heap_table_size = 128M
-read_rnd_buffer_size = 16M
-sort_buffer_size = 16M
-join_buffer_size = 16M
-thread_cache_size = 16
-query_cache_size = 128M
-query_cache_limit = 4M
-ft_min_word_len = 8
-
-thread_stack = 512K
-transaction_isolation = REPEATABLE-READ
-tmp_table_size = 128M
-#log-bin=mysql-bin
-long_query_time = 6
-
-server_id=1
-
-innodb_buffer_pool_size = 1G
-innodb_thread_concurrency = 16
-innodb_log_buffer_size = 16M
-
-innodb_log_file_size = 512M
-innodb_log_files_in_group = 3
-innodb_max_dirty_pages_pct = 90
-innodb_lock_wait_timeout = 120
-innodb_file_per_table = on
-
-[mysqldump]
-quick
-max_allowed_packet = 32M
-
-[mysql]
-no-auto-rehash
-default-character-set=utf8
-safe-updates
-
-[myisamchk]
-key_buffer = 16M
-sort_buffer_size = 16M
-read_buffer = 8M
-write_buffer = 8M
-
-[mysqlhotcopy]
-interactive-timeout
-
-[mysqld_safe]
-open-files-limit = 8192
-
-[client]
-/bin/bash: Q: command not found
-```
-宝塔面板安装配置：
+## 宝塔面板安装配置：
 ```shell
 [client]
 #password   = your_password
