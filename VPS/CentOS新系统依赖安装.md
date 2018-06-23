@@ -1,34 +1,34 @@
 # 新centOS需要安装的工具：
 
-查看当前文件夹下空间占用
-
-du -h --max-depth=1 文件夹路径
-
+用以下命令清理内存
+```shell
+echo 1 > /proc/sys/vm/drop_caches
+```
 
 修改时区为亚洲上海
-```
+```shell
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 ```
 查看系当前语言包
-```
+```shell
 locale
 ```
 查看系统拥有语言包
-```
+```shell
 locale -a
 ```
 安装简体中文语言包
-```
+```shell
 yum -y install kde-l10n-Chinese
 glibc-common软件包包括用于GNU libc库的常见二进制文件，以及国家语言（locale）支持。
 yum -y reinstall glibc-common
 ```
 设置中文utf8编码（临时）：
-```
+```shell
 export LANG=zh_CN.utf8
 ```
 方法（一）修改vim /etc/locale.conf文件内容为（长久）：
-```
+```shell
 LANG="zh_CN.utf8"
 LANGUAGE="zh_CN.UTF-8:zh_CN.utf8:zh_CN"
 SUPPORTED="zh_CN.utf8:zh_CN:zh:en_US.utf8:en_US:en"
@@ -56,7 +56,7 @@ vi /etc/motd这个文件，可以在里面加入自己喜欢的任何欢迎信�
 vi /root/.bash_profile
 ```
 在末尾添加以下内容：
-```
+```shell
 echo '=========================================================='
 #查询系统版本
 cat /etc/redhat-release
