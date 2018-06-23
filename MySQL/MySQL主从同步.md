@@ -119,8 +119,8 @@ SHOW SLAVE STATUS\G
 ```
 #### 如果有以下错误
 ```diff
-- Error 'Operation CREATE USER failed for 'slave'@'%'' on query. Default database: ''. 
-- Query: 'CREATE USER 'slave'@'%' IDENTIFIED WITH 'mysql_native_password' AS '*040A65A51A0B047A826CDE05448536015D471E15''
+- Error 'Operation CREATE USER failed for 'slave'@'%'' on query. Default database: ''. Query: 
+- 'CREATE USER 'slave'@'%' IDENTIFIED WITH 'mysql_native_password' AS '*040A65A51A0B047A826CDE05448536015D471E15''
 ```
 #### 先执行以下命令
 ```sql
