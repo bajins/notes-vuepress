@@ -35,6 +35,20 @@ chmod -R 777 文件名
 ```shell
 chown:用户名 文件名
 ```
+## crontab 命令常用于Unix 和类 Unix的操作系统之中，用于设置周期性被执行的指令
+### 通过Linux终端（Terminal）编辑crontab文件.
+```shell
+crontab -e
+```
+### 输入定时任务命令.
+```shell
+# 每分钟输出一次当前时间
+* * * * * echo `date` >> /log.log
+# 每天凌晨1点30分执行清理内存脚本，并且输出到日志
+30 1 * * *  /bin/bash /home/rememory.sh >> /home/rememory.log 2>&1
+# 每隔3天,1点30分执行，并且输出到日志
+30 1 */3 * *  文件路径 >> 输出日志文件路径 2>&1
+```
 
 
 简化操作
