@@ -68,7 +68,7 @@ mysql-bin.000025 | 154 | ichangg_im
 
 ### 进入MySQL执行以下命令
 ```sql
-CHANGE MASTER TO MASTER_HOST='主服务器IP',MASTER_PORT=3306,MASTER_USER='主服务器同步用户名',MASTER_PASSWORD='密码',MASTER_LOG_FILE='主MySQL二进制文件名',MASTER_LOG_POS=Position字段中数据,MASTERCONNECTRETRY=30;
+CHANGE MASTER TO MASTER_HOST='主服务器IP',MASTER_PORT=3306,MASTER_USER='主服务器同步用户名',MASTER_PASSWORD='密码',MASTER_LOG_FILE='主MySQL二进制文件名',MASTER_LOG_POS=Position字段中数据,MASTER_CONNECT_RETRY=30;
 ```
 #### 上面执行的命令的解释：
 ```diff
@@ -78,7 +78,7 @@ CHANGE MASTER TO MASTER_HOST='主服务器IP',MASTER_PORT=3306,MASTER_USER='主�
 + MASTER_PORT=3306 #Master数据库服务的端口
 + MASTER_LOG_FILE='edu-mysql-bin.000001' #指定Slave从哪个日志文件开始读复制数据（Master上执行命令的结果的File字段）
 + MASTER_LOG_POS=429 #从哪个POSITION号开始读（Master上执行命令的结果的Position字段）
-+ MASTERCONNECTRETRY=30 #当建立主从连接时，如果连接建立失败，间隔多久后重试。单位为秒，默认设置为60秒，同步延迟调优参数。
++ MASTER_CONNECT_RETRY=30 #当建立主从连接时，如果连接建立失败，间隔多久后重试。单位为秒，默认设置为60秒，同步延迟调优参数。
 ```
 ### 查看主从同步状态
 ```sql
