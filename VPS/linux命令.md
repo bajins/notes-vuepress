@@ -35,7 +35,7 @@ chmod -R 777 文件名
 ```shell
 chown:用户名 文件名
 ```
-## crontab 命令常用于Unix 和类 Unix的操作系统之中，用于设置周期性被执行的指令
+# crontab命令常用于Unix和类Unix的操作系统之中，用于设置周期性被执行的指令
 ### 通过Linux终端（Terminal）编辑crontab文件.
 ```shell
 crontab -e
@@ -49,6 +49,7 @@ crontab -e
 # 每隔3天,1点30分执行，并且输出到日志
 30 1 */3 * *  文件路径 >> 输出日志文件路径 2>&1
 ```
+# 文件和文件夹操作
 ## 创建目录 mkdir
 ```shell
 #在当前目录下创建名为yunkus.com的目录
