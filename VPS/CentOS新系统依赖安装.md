@@ -49,10 +49,10 @@ vi /etc/motd这个文件，可以在里面加入自己喜欢的任何欢迎信�
 
 简单的修改下配置文件可以做到每次登陆服务器自动显示磁盘情况：
 ```shell
-#此文件为系统的每个用户设置环境信息,当用户第一次登录时,该文件被执行. 并从/etc/profile.d目录的配置文件中搜集shell的设置。
-vi /etc/bashrc
 #为每一个运行bash shell的用户执行此文件.当bash shell被打开时,该文件被读取（即每次新开一个终端，都会执行bashrc）。
 vi /etc/profile
+#此文件为系统的每个用户设置环境信息,当用户第一次登录时,该文件被执行. 并从/etc/profile.d目录的配置文件中搜集shell的设置。
+vi /etc/bashrc
 
 #当root用户登录时执行
 vi /root/.bash_profile
