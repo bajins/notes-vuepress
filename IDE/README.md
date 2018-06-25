@@ -16,6 +16,7 @@
 ## [SublimeText编辑器](https://www.lanzous.com/i1a8qni)
 
 ## [SublimeText编辑器多插件版](https://www.lanzous.com/i1a8qza)
+### [SublimeText插件](/IDE/SublimeText插件.md)
 
 ## [IntelliJ IDEA 辅助工具](https://github.com/mrshawnho/ideaagent)
 
