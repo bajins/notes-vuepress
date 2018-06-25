@@ -51,7 +51,7 @@ crontab -e
 # 每天凌晨1点30分执行清理内存脚本，并且输出到日志
 30 1 * * *  /bin/bash /home/rememory.sh >> /home/rememory.log 2>&1
 # 每天凌晨1点30分执行删除MySQL日志文件，并且输出到日志
-30 1 * * *  python /home/delete_file.py /var/lib/mysql >> /home/delete_file.log 2>&1
+30 1 * * *  python /home/delete_file.py 文件夹路径 文件名称 >> /home/delete_file.log 2>&1
 # 每隔3天,1点30分执行，并且输出到日志
 30 1 */3 * * /bin/bash 文件路径 >> 输出日志文件路径 2>&1
 #设置每20天清理一次（日志清理太频繁不方便以后按日志排错）
