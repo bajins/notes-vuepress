@@ -13,9 +13,7 @@
 
 ## NavicatPremium：https://www.lanzous.com/b269576/ 密码:1zhx
 
-## [SublimeText编辑器](https://www.lanzous.com/i1a8qni)
-
-## [SublimeText编辑器多插件版](https://www.lanzous.com/i1a8qza)
+## SublimeText编辑器 https://www.lanzous.com/b162929/ 密码:almo
 ### [SublimeText插件](/IDE/SublimeText插件.md)
 
 ## [IntelliJ IDEA 辅助工具](https://github.com/mrshawnho/ideaagent)
