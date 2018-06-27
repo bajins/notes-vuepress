@@ -85,7 +85,16 @@ if leng>=4:
     for file in noFile:
         #截取文件名
         fname=os.path.splitext(file)
-        if fname[0] == fileName and fname[1].strip(".").isdigit():
+        #strip()删除任意字符，isdigit()判断是否为数字字符串
+    #if fname[0] == prefix and suffix.isdigit() and fname[1].strip(".").isdigit():
+        #添加到list中
+        #L.append(file)
+    #strip()删除任意字符，isalpha()判断是否为字母字符串
+    #if fname[0] == prefix and suffix.isalpha() and fname[1].strip(".").isalpha():
+        #添加到list中
+        #L.append(file)
+    #strip()删除任意字符，isalnum()判断是否为字母、数字、字母数字组合 等字符串
+    if fname[0] == prefix and suffix.isalnum() and fname[1].strip(".").isalnum():
             newL.append(file)
 
     newL.sort()
