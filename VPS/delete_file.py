@@ -52,17 +52,17 @@ for file in files_list:
     fname=os.path.splitext(file)
     
     #strip()删除任意字符，isdigit()判断是否为数字字符串
-    #if fname[0] == prefix and suffix.isdigit() and fname[1].strip(".").isdigit():
-        #添加到list中
-        #L.append(file)
-    #strip()删除任意字符，isalpha()判断是否为字母字符串
-    #if fname[0] == prefix and suffix.isalpha() and fname[1].strip(".").isalpha():
-        #添加到list中
-        #L.append(file)
-    #strip()删除任意字符，isalnum()判断是否为字母、数字、字母数字组合 等字符串
-    if fname[0] == prefix and suffix.isalnum() and fname[1].strip(".").isalnum():
+    if fname[0] == prefix and suffix.isdigit() and fname[1].strip(".").isdigit():
         #添加到list中
         L.append(file)
+    #strip()删除任意字符，isalpha()判断是否为字母字符串
+    if fname[0] == prefix and suffix.isalpha() and fname[1].strip(".").isalpha():
+        #添加到list中
+        L.append(file)
+    #strip()删除任意字符，isalnum()判断是否为字母、数字、字母数字组合 等字符串
+    #if fname[0] == prefix and suffix.isalnum() and fname[1].strip(".").isalnum():
+        #添加到list中
+        #L.append(file)
 
 #排序
 L.sort()
@@ -86,19 +86,19 @@ if leng>=4:
         #截取文件名
         fname=os.path.splitext(file)
         #strip()删除任意字符，isdigit()判断是否为数字字符串
-    #if fname[0] == prefix and suffix.isdigit() and fname[1].strip(".").isdigit():
-        #添加到list中
-        #L.append(file)
-    #strip()删除任意字符，isalpha()判断是否为字母字符串
-    #if fname[0] == prefix and suffix.isalpha() and fname[1].strip(".").isalpha():
-        #添加到list中
-        #L.append(file)
-    #strip()删除任意字符，isalnum()判断是否为字母、数字、字母数字组合 等字符串
-    if fname[0] == prefix and suffix.isalnum() and fname[1].strip(".").isalnum():
+        if fname[0] == prefix and suffix.isdigit() and fname[1].strip(".").isdigit():
+            #添加到list中
             newL.append(file)
+        #strip()删除任意字符，isalpha()判断是否为字母字符串
+        if fname[0] == prefix and suffix.isalpha() and fname[1].strip(".").isalpha():
+            #添加到list中
+            newL.append(file)
+        #strip()删除任意字符，isalnum()判断是否为字母、数字、字母数字组合 等字符串
+        #if fname[0] == prefix and suffix.isalnum() and fname[1].strip(".").isalnum():
+            #newL.append(file)
 
     newL.sort()
-    print "不能删除的文件：",newL
+    print "保留的文件：",newL
 else:
     print ("**********没有可删除文件**********")
 
