@@ -92,12 +92,11 @@ echo '=========================================================='
 
 *****************************************************************
 # BBR
-### OpenVZ魔改BBR的一键安装脚本 by [南琴浪博客](https://github.com/nanqinlang-tcp/tcp_nanqinlang-test)
+## OpenVZ魔改BBR的一键安装脚本 by [南琴浪博客](https://github.com/nanqinlang-tcp/tcp_nanqinlang-test)
 
-## 安装命令参考
-https://github.com/tcp-nanqinlang/wiki/wiki/manual-centos
+### 安装命令参考https://github.com/tcp-nanqinlang/wiki/wiki/lkl-haproxy
 
-# KVM一键安装最新内核并开启 BBR 脚本 by [秋水逸冰](https://teddysun.com/489.html)
+## KVM一键安装最新内核并开启 BBR 脚本 by [秋水逸冰](https://teddysun.com/489.html)
 
 
 # 各类VPS网络加速软件一键安装脚本整理 by [荒岛](https://lala.im/638.html)
