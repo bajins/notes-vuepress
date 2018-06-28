@@ -137,8 +137,8 @@ http://www.vspeed.org/?vs
 
 *****************************************************************
 
-yum 的安装方式
-
+# yum 的安装方式
+```shell
 yum -y install 包名（支持*） ：自动选择y，全自动
 
 yum install 包名（支持*） ：手动选择y or n
@@ -152,7 +152,7 @@ rpm -e 包名（不支持*）：卸载rpm包
 yum info nginx(查看当前版本可选)
 
 yum list installed | grep 包名（不支持*）：确认是否安装过包
-
+```
 
 安装并启用 EPEL 源
 ```
