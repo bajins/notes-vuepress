@@ -166,7 +166,7 @@ tar -zcvf tomcat.tar.gz --exclude=tomcat/logs tomcat
 tar -zcvf tomcat.tar.gz --exclude=tomcat/logs --exclude=tomcat/libs --exclude=tomcat/xiaoshan.txt tomcat
 ```
 ```diff
-- 注意：在我们使用tar的--exclude命令排除打包的时候，不能加“/”，否则还是会把logs目录以及其下的文件打包进去。
+- 注意：在我们使用tar的--exclude命令排除打包的时候，不能加“/”或者路径为绝对路径，否则还是会把logs目录以及其下的文件打包进去。
 ```
 
 
