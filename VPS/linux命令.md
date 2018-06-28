@@ -65,8 +65,26 @@ crontab -e
 
 ## 查找大文件
 ```shell
-#查找从根目录下查找大于100M的文件
-find / -type f -size +100M
+#查找从根目录下查找大于100M的文件，并显示文件的具体大小再进行排序
+find / -type f -size +100M -print0 | xargs -0 du -h | sort -nr
+
+#有时候排列的顺序并不完全是按大小一致，这个是因为du命令的参数h所致，可以使用MB来显示
+find / -type f -size +100M -print0 | xargs -0 du -hm | sort -nr
+
+#查找从根目录下查找大于100M的文件，并显示文件的属性信息
+find / -type f -size +100M -print0 | xargs -0 ls -l
+
+#查看当前文件夹下的文件夹占用大小并排序
+du -h --max-depth=2 | sort -n
+
+#有时候排列的顺序并不完全是按大小一致，这个是因为du命令的参数h所致，可以使用MB来显示
+du -hm --max-depth=2 | sort -n
+
+#找出当前文件夹下最大的12个文件夹
+du -hm --max-depth=2 | sort -nr | head -12
+
+#查看home文件夹下的所有文件夹占用大小并排序
+du -hm --max-depth=2 /home/ | sort -nr
 ```
 
 ## 创建目录 mkdir
