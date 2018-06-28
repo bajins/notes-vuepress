@@ -7,8 +7,6 @@
 
 [测试脚本](/VPS/%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC.md)
 
-[VPS加速](/VPS/VPS%E5%8A%A0%E9%80%9F.md)
-
 [NextCloudAndAria2](/VPS/NextCloudAndAria2.md)
 
 [CentOS7.x内核升级](/VPS/CentOS7.x%E5%86%85%E6%A0%B8%E5%8D%87%E7%BA%A7.md)
