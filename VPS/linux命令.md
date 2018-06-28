@@ -155,6 +155,22 @@ cd .. #进入上一级目录
 
 cd . #进入当前目录
 ```
+
+## 压缩
+### 打包的时候我们要排除 tomcat/logs 目录，命令如下：
+```shell
+tar -zcvf tomcat.tar.gz --exclude=tomcat/logs tomcat
+```
+### 如果要排除多个目录，增加 --exclude 即可，如下命令排除logs和libs两个目录及文件xiaoshan.txt：
+```shell
+tar -zcvf tomcat.tar.gz --exclude=tomcat/logs --exclude=tomcat/libs --exclude=tomcat/xiaoshan.txt tomcat
+```
+```diff
+- 注意：在我们使用tar的--exclude命令排除打包的时候，不能加“/”，否则还是会把logs目录以及其下的文件打包进去。
+```
+
+
+
 # 防火墙
 
 查看firewalld状态，发现当前是dead状态，即防火墙未开启。
@@ -390,3 +406,7 @@ rpm -qf 文件名的绝对路径
 共安装了多少个软件包:
 
 rpm -qa | wc -l 
+
+
+********************************************
+# 
