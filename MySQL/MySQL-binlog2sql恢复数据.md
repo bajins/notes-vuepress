@@ -88,6 +88,14 @@ mysqldump -u 用户名 -p 数据库名 < /home/backup.sql
 ```diff
 + 如果是在本机上备份本机的数据库IP和端口可以不要，如果是在本机上备份其他主机上的数据库就需要IP和端口
 ```
+#### 如果用mysqldump导入不成功，可以用以下方法
+```sql
+#先登录MySQL，再指定数据库，设置数据库bianm
+set names utf8;
+#导入数据（注意sql文件的路径）
+source /home/backup.sql
+```
+
 ### mysqldump远程备份到本机的指定数据库中
 ```shell
 mysqldump --host=需要备份的主机IP -P端口 -u用户名 -p --opt 数据库名| mysql --host=localhost -P端口 -u本机MySQL用户名 -p本机MySQL密码 -C 数据库名
