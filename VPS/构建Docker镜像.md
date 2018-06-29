@@ -246,3 +246,59 @@ docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
 docker rmi $(docker images -q)
 ```
 
+
+
+**************************************************************************************************
+docker run -it 
+
+docker run -i -t -v /home:/home/docker 89796a /bin/bash
+
+docker run -d -p 8080:8080 -v /home/tomcat/webapps/:/home/tomcat-8080/webapps/ --name ichangg ichangg/centos-jt:1.0 /home/run.sh
+-v 略，如前所述说
+-d 表示以"守护模式"执行/root/run.sh脚本，此时 Tomcat 控制台不会出现在输出终端上
+-p 表示宿主机与容器的端口映射，此时将容器内部的8080端口映射为宿主机的58080端口，这样就向外界暴露了58080端口，可通过Docker网桥来访问容器内部的8080端口了
+--name 表示容器名称，用一个你觉得有意义的名称命名即可
+test_tomcat:1.0 即新容器名:TAG
+/root/run.sh 即需要执行的脚本
+
+
+#!/bin/bash
+
+export JAVA_HOME=/home/java/jdk1.7.0_80
+export PATH=$JAVA_HOME/bin:$PATH
+
+sh /home/tomcat-8080/bin/catalina.sh run
+
+
+
+rm -rf /home/jdk1.7.0_80/*src.zip \
+/home/jdk1.7.0_80/lib/missioncontrol \
+/home/jdk1.7.0_80/lib/visualvm \
+/home/jdk1.7.0_80/lib/*javafx* \
+/home/jdk1.7.0_80/jre/lib/plugin.jar \
+/home/jdk1.7.0_80/jre/lib/ext/jfxrt.jar \
+/home/jdk1.7.0_80/jre/bin/javaws \
+/home/jdk1.7.0_80/jre/lib/javaws.jar \
+/home/jdk1.7.0_80/jre/lib/desktop \
+/home/jdk1.7.0_80/jre/plugin \
+/home/jdk1.7.0_80/jre/lib/deploy* \
+/home/jdk1.7.0_80/jre/lib/*javafx* \
+/home/jdk1.7.0_80/jre/lib/*jfx* \
+/home/jdk1.7.0_80/jre/lib/amd64/libdecora_sse.so \
+/home/jdk1.7.0_80/jre/lib/amd64/libprism_*.so \
+/home/jdk1.7.0_80/jre/lib/amd64/libfxplugins.so \
+/home/jdk1.7.0_80/jre/lib/amd64/libglass.so \
+/home/jdk1.7.0_80/jre/lib/amd64/libgstreamer-lite.so \
+/home/jdk1.7.0_80/jre/lib/amd64/libjavafx*.so \
+/home/jdk1.7.0_80/jre/lib/amd64/libjfx*.so
+	
+	
+
+docker commit -m="Added jdk_tomcat" -a="ichangg" 44652ba46352 ichangg/centos-jt:1.0
+-m:提交的描述信息
+
+-a:指定镜像作者
+
+44652ba46352：容器ID
+
+ichangg/centos-jt:1.0:指定要创建的目标镜像名,1.0版本
