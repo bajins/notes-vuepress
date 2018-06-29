@@ -195,7 +195,7 @@ docker images
 ```
 ## 启动centos-jdk7-tomcat85容器
 ```shell
-docker run -d -p 8081:8080 --name test-tomcat repos_local/centos-jdk7-tomcat85:0.0.1
+docker run -d -p 8081:8080 --name tomcat-8080 repos_local/centos-jdk7-tomcat85:0.0.1
 ```
 ```diff
 + -d 后台运行
