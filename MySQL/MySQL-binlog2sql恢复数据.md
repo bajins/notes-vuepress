@@ -70,18 +70,9 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数�
 
 ********************************************************************************************************
 # MySQL备份
-## 利用mysql_config_editor去掉mysqldump备份时错误提示
-
-### 1、设置加密模式
+### 执行mysqldump备份
 ```shell
-mysql_config_editor set --login-path=local --host=localhost --user=用户名 --password
-```
-```diff
-+ 用户名是需要修改成我们自己数据库用户名的，回车之后会提示我们输入数据库密码，我们照样输入。
-```
-### 2、执行备份
-```shell
-mysqldump -u db_user -pInsecurePassword my_database | gzip > backup.tar.gz
+mysqldump -u 用户名 -p 数据库名> backup.sql
 ```
 ```diff
 + 根据我们数据信息修改用户和用户名和数据库密码，执行备份，这里老左测试还是有错误提示，但数据库是可以备份的。
