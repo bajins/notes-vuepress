@@ -70,11 +70,15 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数�
 
 ********************************************************************************************************
 # MySQL备份
-### 执行mysqldump备份
+## 用mysqldump备份
+### 执行mysqldump备份单个数据库
 ```shell
-mysqldump -u 用户名 -p 数据库名> backup.sql
+mysqldump -u 用户名 -p 数据库名> /home/backup.sql
 ```
 ```diff
 + 根据我们数据信息修改用户和用户名和数据库密码，执行备份，这里老左测试还是有错误提示，但数据库是可以备份的。
 ```
-
+### mysqldump远程备份
+```shell
+mysqldump --host=需要备份的主机IP -u用户名 -p --opt 数据库名| mysql --host=localhost -u本机用户名 -p -C 数据库名
+```
