@@ -231,5 +231,18 @@ docker stop tomcat-8080
 docker rm -f tomcat-8080
 #docker rm 命令删除一个Exited状态的容器, docker rm -f 强制删除一个运行中的容器
 ```
-
+## 停止所有的container，这样才能够删除其中的images：
+```shell
+docker stop $(docker ps -a -q)
+#如果想要删除所有container的话再加一个指令：
+docker rm $(docker ps -a -q)
+```
+## 删除images，通过image的id来指定删除谁
+```shell
+docker rmi <image id>
+#想要删除untagged images，也就是那些id为<None>的image的话可以用
+docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
+#要删除全部image的话
+docker rmi $(docker images -q)
+```
 
