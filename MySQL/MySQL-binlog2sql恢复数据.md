@@ -3,8 +3,8 @@
 * [MySQL备份](#2)
 
 *****************************************************************************
-###### 1
-# MySQL误操作通过binlog2sql恢复数据
+
+1. MySQL误操作通过binlog2sql恢复数据
 ### 使用此方式之前一定是MySQL开启了bin-log的才可行
 ## 第一步如果没有安装开源工具binlog2sql那么请安装。
 #### binlog2sql的使用详情：https://github.com/danfengcao/binlog2sql
