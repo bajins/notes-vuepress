@@ -269,7 +269,7 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 sh /home/tomcat-8080/bin/catalina.sh run
 
-
+chmod a+x run.sh
 
 rm -rf /home/jdk1.7.0_80/*src.zip \
 /home/jdk1.7.0_80/lib/missioncontrol \
