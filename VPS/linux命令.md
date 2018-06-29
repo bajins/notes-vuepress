@@ -38,7 +38,9 @@ yum clean metadata
 # 清理内存脚本
 wget https://github.com/claer-ding/UseNotes/blob/master/VPS/rememory.sh && chmod a+x rememory.sh
 # 清理日志脚本
-wget https://github.com/claer-ding/UseNotes/blob/master/VPS/cleanLog.sh && chmod a+x cleanLog.sh 
+wget https://github.com/claer-ding/UseNotes/blob/master/VPS/cleanLog.sh && chmod a+x cleanLog.sh
+# 清理MySQL日志脚本
+wget https://github.com/ichangg/UseNotes/blob/master/VPS/delete_file.py && chmod a+x delete_file.py
 ```
 
 ### 通过Linux终端（Terminal）编辑crontab文件.
