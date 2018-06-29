@@ -20,7 +20,7 @@ LOCAL_PASSWORD="密码"
 #mysql -h${LOCAL_HOST}  -P${LOCAL_PORT}  -u${LOCAL_USER} -p${LOCAL_PASSWORD} -e "${create_db_sql}"
 
 #从远程数据库备份到本地数据库
-mysqldump --host=${SERVER_HOST} -P${SERVER_PORT} -u${SERVER_USER} -p${SERVER_PASSWORD} --opt ${SERVER_DB} | mysql --host=${LOCAL_HOST}  -P${LOCAL_PORT} -u${LOCAL_USER} -p${LOCAL_PASSWORD} -C ${SERVER_DB}
+mysqldump --host=${SERVER_HOST} -P${SERVER_PORT} -u${SERVER_USER} -p${SERVER_PASSWORD} --opt ${SERVER_DB} | mysql --host=${LOCAL_HOST} -P${LOCAL_PORT} -u${LOCAL_USER} -p${LOCAL_PASSWORD} -C ${SERVER_DB}
 echo "----------------------------------------------------------------------------"
 endDate=`date +"%Y-%m-%d %H:%M:%S"`
 echo "★[$endDate] Successful"
