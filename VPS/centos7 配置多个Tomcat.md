@@ -60,8 +60,6 @@ java -version
 
 地址https://tomcat.apache.org/download-80.cgi
 
-http://mirrors.hust.edu.cn/apache/tomcat/tomcat-8/v8.5.31/bin/apache-tomcat-8.5.31.tar.gz
-
 把下载的apache-tomcat-8.5.31.tar.gz文件解压  
 ```
 tar -zxvf apache-tomcat-8.5.31.tar.gz
