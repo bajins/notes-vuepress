@@ -92,4 +92,4 @@ mysqldump -u 用户名 -p 数据库名 < /home/backup.sql
 ```shell
 mysqldump --host=需要备份的主机IP -P端口 -u用户名 -p --opt 数据库名| mysql --host=localhost -P端口 -u本机MySQL用户名 -p本机MySQL密码 -C 数据库名
 ```
-### [备份脚本](/MySQL/MySQL_Backup.sh)
+### [导出导入脚本](/MySQL/MySQL_Backup.sh)
