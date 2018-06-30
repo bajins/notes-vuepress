@@ -144,7 +144,7 @@ vi conf/tomcat-users.xml
   <role rolename="manager-script"/>
   <role rolename="admin-gui"/>
   <role rolename="admin-script"/>
-  <user username="tomcat" password="www@940703" roles="manager-gui,manager-script,admin-gui,admin-script"/>
+  <user username="tomcat" password="密码" roles="manager-gui,manager-script,admin-gui,admin-script"/>
 ```
 ### 修改conf/Catalina/localhost/manager.xml
 ```shell
