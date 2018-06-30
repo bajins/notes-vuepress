@@ -1,5 +1,10 @@
-# 安装JDK
+# 目录
+* [安装JDK](#1)
+* [安装Tomcat](#2)
+* [tomcat8以上管理页面提示403 Access Denied问题](#3)
 
+###### 1
+# 安装JDK
 
 卸载系统的JDK
 先查看 rpm -qa | grep java
@@ -54,6 +59,7 @@ echo $JAVA_HOME && echo $CLASSPATH
 java -version
 ```
 ------------------------------------------------------------------------------------------------
+###### 2
 # 安装多个Tomcat7
 
 下载、安装 tomcat
@@ -133,7 +139,7 @@ connectionTimeout="20000" disableUploadTimeout="true" />
 enableLookups="false" redirectPort="8443" protocol="AJP/1.3" />
 ```
 *************************************************************
-
+###### 3
 # tomcat8以上管理页面提示403 Access Denied问题
 ## 修改conf/tomcat-users.xml
 ```shell
