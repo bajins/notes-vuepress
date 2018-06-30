@@ -86,7 +86,7 @@ du -sh /data
 du -sh /var
 du -sh /www
 #循环列出所有文件和文件夹所使用的空间
-du -h --max-depth=1 /www/root
+du -h --max-depth=1 /www/wwwroot
 echo '=========================================================='
 ```
 
