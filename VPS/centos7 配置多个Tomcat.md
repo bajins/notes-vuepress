@@ -132,3 +132,30 @@ connectionTimeout="20000" disableUploadTimeout="true" />
 <Connector port="9009"  #监听端口：8009->9009
 enableLookups="false" redirectPort="8443" protocol="AJP/1.3" />
 ```
+
+## tomcat8以上管理页面提示403问题
+### 修改conf/tomcat-users.xml
+```shell
+vi conf/tomcat-users.xml
+```
+### 按shift+g跳到末尾,在</tomcat-users>前添加
+```xml
+  <role rolename="manager-gui"/>
+  <role rolename="manager-script"/>
+  <role rolename="admin-gui"/>
+  <role rolename="admin-script"/>
+  <user username="tomcat" password="www@940703" roles="manager-gui,manager-script,admin-gui,admin-script"/>
+```
+### 修改conf/Catalina/localhost/manager.xml
+```shell
+vi conf/Catalina/localhost/manager.xml
+```
+### 添加以下配置
+```xml
+<Context privileged="true" antiResourceLocking="false"
+         docBase="${catalina.home}/webapps/manager">
+    <Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="^.*$" />
+</Context>
+```
+
+
