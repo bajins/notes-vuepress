@@ -147,23 +147,14 @@ vi conf/tomcat-users.xml
   <role rolename="admin-script"/>
   <user username="tomcat" password="密码" roles="manager-gui,manager-script,admin-gui,admin-script"/>
 ```
-### 修改conf/Catalina/localhost/manager.xml
-```shell
-vi conf/Catalina/localhost/manager.xml
-```
-### 添加以下配置
-```xml
-<Context privileged="true" antiResourceLocking="false"
-         docBase="${catalina.home}/webapps/manager">
-    <Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="^.*$" />
-</Context>
-```
-## 或者使用以下方式
-### 修改webapps/manager/META-INF/context.xml
+
+### 打开webapps下的host-manager和manager，都有一个共同的文件夹META-INF，里面都有context.xml
 ```shell
 vi webapps/manager/META-INF/context.xml
+vi webapps/host-manager/META-INF/context.xml
 ```
 ### 修改<Context antiResourceLocking="false" privileged="true" >节点
+#### 这段代码的作用是限制来访IP的，127.d+.d+.d+|::1|0:0:0:0:0:0:0:1，是正则表达式，表示IPv4和IPv6的本机环回地址
 ```xml
   <Valve className="org.apache.catalina.valves.RemoteAddrValve"
          allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1||\d+\.\d+\.\d+\.\d+" />
