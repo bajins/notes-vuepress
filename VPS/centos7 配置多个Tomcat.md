@@ -1,4 +1,4 @@
-1、安装JDK
+# 安装JDK
 
 
 卸载系统的JDK
@@ -54,7 +54,7 @@ echo $JAVA_HOME && echo $CLASSPATH
 java -version
 ```
 ------------------------------------------------------------------------------------------------
-2、安装多个Tomcat7
+# 安装多个Tomcat7
 
 下载、安装 tomcat
 
@@ -132,9 +132,10 @@ connectionTimeout="20000" disableUploadTimeout="true" />
 <Connector port="9009"  #监听端口：8009->9009
 enableLookups="false" redirectPort="8443" protocol="AJP/1.3" />
 ```
+*************************************************************
 
-## tomcat8以上管理页面提示403问题
-### 修改conf/tomcat-users.xml
+# tomcat8以上管理页面提示403 Access Denied问题
+## 修改conf/tomcat-users.xml
 ```shell
 vi conf/tomcat-users.xml
 ```
@@ -157,5 +158,13 @@ vi conf/Catalina/localhost/manager.xml
     <Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="^.*$" />
 </Context>
 ```
-
-
+## 或者使用以下方式
+### 修改webapps/manager/META-INF/context.xml
+```shell
+vi webapps/manager/META-INF/context.xml
+```
+### 修改<Context antiResourceLocking="false" privileged="true" >节点
+```xml
+  <Valve className="org.apache.catalina.valves.RemoteAddrValve"
+         allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1||\d+\.\d+\.\d+\.\d+" />
+```
