@@ -66,7 +66,7 @@ File | Position | Binlog_Do_DB | Binlog_Ignore_DB | Executed_Gtid_Set
 |---------------|---------------|---------------|---------------|---------------|
 mysql-bin.000025 | 154 | ichangg_im	
 
-### 进入MySQL执行以下命令
+### 进入从服务器MySQL执行以下命令
 ```sql
 CHANGE MASTER TO MASTER_HOST='主服务器IP',MASTER_PORT=3306,MASTER_USER='主服务器同步用户名',MASTER_PASSWORD='密码',MASTER_LOG_FILE='主MySQL二进制文件名',MASTER_LOG_POS=Position字段中数据,MASTER_CONNECT_RETRY=30;
 ```
