@@ -302,3 +302,12 @@ docker commit -m="Added jdk_tomcat" -a="ichangg" 44652ba46352 ichangg/centos-jt:
 44652ba46352：容器ID
 
 ichangg/centos-jt:1.0:指定要创建的目标镜像名,1.0版本
+
+
+
+
+
+
+
+
+# [返回顶部](#readme)
