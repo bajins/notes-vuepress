@@ -340,7 +340,7 @@ SET password=password("root");
 GRANT ALL PRIVILEGES on *.* to'root' @'%' IDENTIFIED BY 'root';
 ```
 刷新授权：
-``sql
+```sql
 FLUSH PRIVILEGES;
 ```
 
