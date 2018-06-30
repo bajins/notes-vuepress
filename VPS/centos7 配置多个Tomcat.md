@@ -148,7 +148,7 @@ vi conf/tomcat-users.xml
   <user username="tomcat" password="密码" roles="manager-gui,manager-script,admin-gui,admin-script"/>
 ```
 
-### 打开webapps下的host-manager和manager，都有一个共同的文件夹META-INF，里面都有context.xml
+### 打开webapps下的host-manager和manager，在META-INF里面都有context.xml
 ```shell
 vi webapps/manager/META-INF/context.xml
 vi webapps/host-manager/META-INF/context.xml
