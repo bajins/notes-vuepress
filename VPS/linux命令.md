@@ -70,6 +70,9 @@ crontab -e
 #查找从根目录下查找大于100M的文件，并显示文件的具体大小再进行排序
 find / -type f -size +100M -print0 | xargs -0 du -h | sort -nr
 
+#查找从根目录下查找大于1G的文件，并显示文件的具体大小再进行排序
+find / -type f -size +1G -print0 | xargs -0 du -h | sort -nr
+
 #有时候排列的顺序并不完全是按大小一致，这个是因为du命令的参数h所致，可以使用MB来显示
 find / -type f -size +100M -print0 | xargs -0 du -hm | sort -nr
 
