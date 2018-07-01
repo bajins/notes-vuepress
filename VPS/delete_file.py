@@ -22,6 +22,8 @@ def is_valid_date(strdate):
 def getFile(pathName,prefix,suffix,array):
     #在函数中释放一个list所占内存
     del array[:]
+    #清空list
+    #array.clear()
     #获取文件list数组
     files_list = os.listdir(pathName)
     #print(files_list) #当前目录路径
@@ -111,9 +113,9 @@ print("查找到"+str(leng)+"个文件！")
 if leng>keep:
     if keep>1:
         #循环输入的参数，移除list中元素
+        #reversed这种索引是按从大到小的顺序排列，就相当于range(5-1,-1,-1)
         for i in range(keep):
-            print(i)
-            del L[leng-i]
+            del L[leng-(i+1)]
     elif keep==1:
         del L[leng-keep]
 
