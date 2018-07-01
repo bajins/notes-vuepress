@@ -95,7 +95,7 @@ fileName=parameter[n+1:];
 #对文件名拆分
 showCount=fileName.count(".");
 if (showCount>0):
-    print("'.'出现的次数："+str(showCount));
+    print("文件名中'.'出现的次数："+str(showCount));
 
 split=fileName.split(".");
 #获取文件前缀
