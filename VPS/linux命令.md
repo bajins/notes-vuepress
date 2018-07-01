@@ -33,14 +33,31 @@ yum clean metadata
 ************************************************************************
 # 定时任务
 ### crontab命令常用于Unix和类Unix的操作系统之中，用于设置周期性被执行的指令
-### 先下载脚本文件
+### 创建脚本文件
+
+##### 清理内存脚本
 ```shell
-# 清理内存脚本
-wget https://github.com/claer-ding/UseNotes/blob/master/VPS/rememory.sh && chmod a+x rememory.sh
-# 清理日志脚本
-wget https://github.com/claer-ding/UseNotes/blob/master/VPS/cleanLog.sh && chmod a+x cleanLog.sh
-# 清理MySQL日志脚本
-wget https://github.com/ichangg/UseNotes/blob/master/VPS/delete_file.py && chmod a+x delete_file.py
+vi rememory.sh
+```
+##### 复制[rememory.sh](/VPS/rememory.sh)中的代码到服务器上，保存并授权
+```shell
+chmod a+x rememory.sh
+```
+##### 清理日志脚本
+```shell
+vi cleanLog.sh
+```
+##### 复制[cleanLog.sh](/VPS/cleanLog.sh)中的代码到服务器上，保存并授权
+```shell
+chmod a+x cleanLog.sh
+```
+##### 清理MySQL日志脚本
+```shell
+vi delete_file.py
+```
+##### 复制[delete_file.py](/VPS/delete_file.py)中的代码到服务器上，保存并授权
+```shell
+chmod a+x delete_file.py
 ```
 
 ### 通过Linux终端（Terminal）编辑crontab文件.
