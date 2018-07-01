@@ -5,15 +5,14 @@
 ```shell
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 ```
-查看系当前语言包
+查看系统语言
 ```shell
+#查看系统当前使用语言包
 locale
-```
-查看系统拥有语言包
-```shell
+#查看系统拥有语言包
 locale -a
 ```
-安装简体中文语言包
+如果没有zh_CN.utf8就需要安装简体中文语言包
 ```shell
 yum -y install kde-l10n-Chinese
 glibc-common软件包包括用于GNU libc库的常见二进制文件，以及国家语言（locale）支持。
