@@ -11,7 +11,6 @@ import java.util.Enumeration;
 import java.util.Properties;
 import java.util.ResourceBundle;
 
-import org.apache.axis2.i18n.RB;
 import org.springframework.core.io.support.PropertiesLoaderUtils;
 
 /**
