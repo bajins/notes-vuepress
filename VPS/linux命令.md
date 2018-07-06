@@ -85,6 +85,7 @@ crontab -e
 ## 服务器之间传输文件
 ```shell
 #首先进入需要搭建web服务器的目录，然后在输入下面的命令
+#注意：不填端口号则默认使用8000端口。
 linux: python -m SimpleHTTPServer port 
 windows: python -m http.server port
 
