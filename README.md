@@ -1,6 +1,6 @@
 # UseNotes
 个人使用笔记（VPS、建站、Java、PHP、NGINX、Tomcat、MySQL、Redis、Linux）
-[https://ichangg.com](https://ichangg.com)
+[https://woytu.com](https://woytu.com)
 
 ## Markdown语法
 * [Markdown语法.md](README%E8%AF%AD%E6%B3%95.md) 
