@@ -84,10 +84,11 @@ crontab -e
 
 ## 服务器之间传输文件
 ```shell
+#首先进入需要搭建web服务器的目录，然后在输入下面的命令
 linux: python -m SimpleHTTPServer port 
 windows: python -m http.server port
 
-服务开启后： 
+#服务开启后，地址协议类型加IP/目录下的文件： 
 wget host:port/file 就可以下载了
 ```
 
