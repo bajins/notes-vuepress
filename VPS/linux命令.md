@@ -82,6 +82,15 @@ crontab -e
 
 # 文件和文件夹操作
 
+## 服务器之间传输文件
+```shell
+linux: python -m SimpleHTTPServer port 
+windows: python -m http.server port
+
+服务开启后： 
+wget host:port/file 就可以下载了
+```
+
 ## 查找大文件
 ```shell
 #查找从根目录下查找大于100M的文件，并显示文件的具体大小再进行排序
