@@ -130,7 +130,7 @@ ps -aux | grep svnserve
 #### 结束进程（ xxx代表svnserve对应pid）
 ```
 kill -9  xxx
-
+#或者
 killall svnserve
 ```
 # [返回顶部](#readme)
