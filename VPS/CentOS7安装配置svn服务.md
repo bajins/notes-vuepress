@@ -122,7 +122,7 @@ firewall-cmd --reload
 
 
 
-### 停止SVN的方法
+## 停止SVN的方法
 ### 查找出目前正在使用的svnserve进程
 ```
 ps -aux | grep svnserve
