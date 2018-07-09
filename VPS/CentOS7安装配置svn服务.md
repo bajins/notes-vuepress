@@ -131,6 +131,6 @@ ps -aux | grep svnserve
 ```
 kill -9  xxx
 
-kill all xxx
+killall svnserve
 ```
 # [返回顶部](#readme)
