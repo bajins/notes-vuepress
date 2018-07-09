@@ -119,7 +119,7 @@ SVN服务已经启动，使用客户端测试连接。
 
 客户端连接地址：svn://192.168.110.247/test
 
-用户名/密码： ichangg.com/ichangg.com
+用户名/密码： woytu.com/woytu.com
 
 
 
