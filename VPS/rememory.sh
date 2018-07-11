@@ -60,5 +60,6 @@ sync
 sleep 2
 sync
 echo 3 > /proc/sys/vm/drop_caches
+echo '释放网页缓存，目录项和索引（To free pagecache, dentries and inodes）成功！'
 
 echo '----------------------------------------------------------------------------'
