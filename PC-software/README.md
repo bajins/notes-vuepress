@@ -13,3 +13,19 @@
 
 ---
 [好压5.9.7.10877纯净版20180526](https://www.lanzous.com/i15n73e)
+
+
+---
+# 内网穿透
+
+## [ngrok](https://github.com/inconshreveable/ngrok)
+#### ngrok是一个反向代理，通过在公共的端点和本地运行的Web服务器之间建立一个安全的通道。ngrok可捕获和分析所有通道上的流量，便于后期分析与响应。
+
+### [Ngrok服务器一键安装脚本【支持用户管理】](https://github.com/clangcn/ngrok-one-key-install)
+
+### [国内免费服务器](http://ngrok.ciqiuwl.cn/)
+
+### [NATAPP基于ngrok的国内内网穿透服务，免费版会强制更换域名，临时用一下可以](https://natapp.cn/)
+
+## [frp=使用相对复杂，需要代理服务器支持](https://github.com/fatedier/frp/blob/master/README_zh.md)
+
