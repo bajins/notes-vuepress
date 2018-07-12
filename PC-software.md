@@ -46,7 +46,9 @@
 
 ### [FRP免费服务器](https://diannaobos.com/frp/)
 
+### [铂金frp - 反向代理工具之铂金frp免费服务](https://bob.kim/frp)
 
+### [chuantou.org的免费Frp内网穿透服务](http://www.chuantou.org/)
 
 
 ## [NGINX + SSH Tunnel 把本地开发环境公布到互联网上](https://ninghao.net/blog/4452)
