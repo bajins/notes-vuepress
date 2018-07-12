@@ -27,6 +27,8 @@
 
 ### [Ngrok服务器一键安装脚本【支持用户管理】](https://github.com/clangcn/ngrok-one-key-install)
 
+### [一键编译 Ngrok 全平台客户端](https://github.com/Yaoshicn/make-ngrok)
+
 ### [小米球ngrok国内免费服务器](http://ngrok.ciqiuwl.cn/)
 
 ### [Ngrok服务器ittun](https://www.ittun.com/)
@@ -39,6 +41,8 @@
 
 
 ## [frp=使用相对复杂，需要代理服务器支持](https://github.com/fatedier/frp/blob/master/README_zh.md)
+
+### [FRP内网穿透服务端和客户端都是windows](http://www.kaixinit.com/info/maintenance/363.html)
 
 ### [FRP免费服务器](https://diannaobos.com/frp/)
 
