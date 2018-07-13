@@ -1,4 +1,7 @@
 
+
+## [frps一键安装脚本地址](https://github.com/clangcn/onekey-install-shell/tree/master/frps)
+
 ```shell
 # 安装
 wget --no-check-certificate https://raw.githubusercontent.com/clangcn/onekey-install-shell/master/frps/install-frps.sh -O ./install-frps.sh && chmod 700 ./install-frps.sh && ./install-frps.sh install
@@ -52,4 +55,6 @@ Enter your choice (1, 2 or exit. default [1]):      #设置是否开启日志记
 /etc/init.d/frps version
 ```
 
+## [客户端下载](https://github.com/fatedier/frp/releases)
 
+## [客户端配置](https://github.com/fatedier/frp/blob/master/README_zh.md#%E9%80%9A%E8%BF%87%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE%E9%83%A8%E7%BD%B2%E4%BA%8E%E5%86%85%E7%BD%91%E7%9A%84-web-%E6%9C%8D%E5%8A%A1)
