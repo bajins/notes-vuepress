@@ -44,7 +44,7 @@
 
 ## [frp=使用相对复杂，需要代理服务器支持](https://github.com/fatedier/frp/blob/master/README_zh.md)
 
-### [Frp-Server一键安装脚本](https://github.com/clangcn/onekey-install-shell/tree/master/frps)
+### [Frp-Server一键安装脚本](Frp.md)
 
 ### [FRP内网穿透服务端和客户端都是windows](http://www.kaixinit.com/info/maintenance/363.html)
 
