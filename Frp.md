@@ -58,3 +58,9 @@ Enter your choice (1, 2 or exit. default [1]):      #设置是否开启日志记
 ## [客户端下载](https://github.com/fatedier/frp/releases)
 
 ## [客户端配置](https://github.com/fatedier/frp/blob/master/README_zh.md#%E9%80%9A%E8%BF%87%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE%E9%83%A8%E7%BD%B2%E4%BA%8E%E5%86%85%E7%BD%91%E7%9A%84-web-%E6%9C%8D%E5%8A%A1)
+
+## 客户端启动
+```shell
+# 进入在客户端文件夹下启动cmd窗口，再执行以下命令
+frpc -c frpc.ini
+```
