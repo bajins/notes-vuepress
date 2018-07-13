@@ -62,5 +62,8 @@ Enter your choice (1, 2 or exit. default [1]):      #设置是否开启日志记
 ## 客户端启动
 ```shell
 # 进入在客户端文件夹下启动cmd窗口，再执行以下命令
+# 简单配置
 frpc -c frpc.ini
+# 全部配置
+frpc -c frpc_full.ini
 ```
