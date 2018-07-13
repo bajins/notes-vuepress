@@ -91,4 +91,4 @@ frpc -c frpc.ini
 frpc -c frpc_full.ini
 ```
 
-## [客户端工具](/other/%E6%88%91%E6%98%93%E5%9B%BEfrpc%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%90%AF%E5%8A%A8%E5%B7%A5%E5%85%B7.zip)
+## [客户端工具](https://raw.githubusercontent.com/woytu/UseNotes/master/other/%E6%88%91%E6%98%93%E5%9B%BEfrpc%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%90%AF%E5%8A%A8%E5%B7%A5%E5%85%B7.zip)
