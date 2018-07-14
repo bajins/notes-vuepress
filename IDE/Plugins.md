@@ -1,4 +1,4 @@
-## [Free Mybatis plugin](https://github.com/rockjava/intellij-mybatis-plugin)
+## [Free Mybatis plugin](http://plugins.jetbrains.com/plugin/7293-mybatis-plugin)
 
 ## [mybatis plugin free](https://github.com/mustfun/mybatis-plugin-free)
 
