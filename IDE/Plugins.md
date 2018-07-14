@@ -1,6 +1,7 @@
 ## [Free Mybatis plugin](https://github.com/rockjava/intellij-mybatis-plugin)
 
-## [mybatis-generator](https://gitee.com/rohou)
+## [mybatis plugin free](https://github.com/mustfun/mybatis-plugin-free)
+
 
 ## [Maven Helper](https://plugins.jetbrains.com/plugin/7179-maven-helper)
 #### 一键查看maven依赖，查看冲突的依赖，一键进行exclude依赖
