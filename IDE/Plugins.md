@@ -1,4 +1,4 @@
-## [Free Mybatis plugin](http://plugins.jetbrains.com/plugin/7293-mybatis-plugin)
+## [Free Mybatis plugin](https://github.com/wuzhizhan/free-idea-mybatis)
 
 ## [mybatis plugin free](https://github.com/mustfun/mybatis-plugin-free)
 
