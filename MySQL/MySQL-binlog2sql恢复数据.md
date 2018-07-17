@@ -126,8 +126,9 @@ mysqldump --host=需要备份的主机IP -P端口 -u用户名 -p --opt 数据库
 ### [导出导入脚本](/MySQL/MySQL_Backup.sh)
 
 ## MySQL mysqldump导入导出 结构，数据，存储过程，函数，事件，触发器
--------------------------数据库操作-----------------------------
 
+-------------------------数据库操作-----------------------------
+```
 1.①导出一个库结构
 
 mysqldump -d dbname -u root -p > xxx.sql
@@ -135,7 +136,6 @@ mysqldump -d dbname -u root -p > xxx.sql
 ②导出多个库结构
 
 mysqldump -d -B dbname1 dbname2 -u root -p > xxx.sql
- 
 
 2.①导出一个库数据
 
@@ -153,9 +153,9 @@ mysqldump dbname1 -u root -p > xxx.sql
 ②导出多个库结构以及数据
 
 mysqldump -B dbname1 dbname2 -u root -p > xxx.sql
- 
+```
 -------------------------数据表操作-----------------------------
-
+```
 4.①导出一个表结构
 
 mysqldump -d dbname1 tablename1 -u root -p > xxx.sql
@@ -181,9 +181,9 @@ mysqldump dbname1 tablename1 -u root -p > xxx.sql
 ②导出多个表结构以及数据
 
 mysqldump -B dbname1 --tables tablename1 tablename2 -u root -p > xxx.sql
- 
+```
 -------------------------存储过程、函数操作-----------------------------
-
+```
 7.只导出存储过程和函数(不导出结构和数据，要同时导出结构的话，需要同时使用-d)
 
 mysqldump -R -ndt dbname1 -u root -p > xxx.sql
@@ -198,7 +198,7 @@ mysqldump -E -ndt dbname1 -u root -p > xxx.sql
 9.不导出触发器（触发器是默认导出的–triggers，使用–skip-triggers屏蔽导出触发器）
 
 mysqldump --skip-triggers dbname1 -u root -p > xxx.sql
-
+```
 
 
 
