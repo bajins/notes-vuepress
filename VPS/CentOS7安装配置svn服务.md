@@ -1,3 +1,7 @@
+
+
+## [SVN-Eclipse插件](https://github.com/subclipse/subclipse/wiki)
+
 ## 检查是否已安装SVN
 ```
 rpm -qa subversion
@@ -137,7 +141,6 @@ killall svnserve
 
 
 
-## [SVN-Eclipse插件](https://github.com/subclipse/subclipse/wiki)
 
 
 # [返回顶部](#readme)
