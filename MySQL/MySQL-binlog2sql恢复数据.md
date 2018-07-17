@@ -133,6 +133,7 @@ mysqldump dbname1 -u root -p > xxx.sql
 mysqldump -B dbname1 dbname2 -u root -p > xxx.sql
  
 -------------------------数据表操作-----------------------------
+
 4.①导出一个表结构
 
 mysqldump -d dbname1 tablename1 -u root -p > xxx.sql
