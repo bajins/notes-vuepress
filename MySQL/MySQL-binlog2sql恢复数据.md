@@ -153,9 +153,9 @@ mysqldump dbname1 -u root -p > xxx.sql
 ②导出多个库结构以及数据
 
 mysqldump -B dbname1 dbname2 -u root -p > xxx.sql
-```
+
 -------------------------数据表操作-----------------------------
-```
+
 4.①导出一个表结构
 
 mysqldump -d dbname1 tablename1 -u root -p > xxx.sql
@@ -181,9 +181,9 @@ mysqldump dbname1 tablename1 -u root -p > xxx.sql
 ②导出多个表结构以及数据
 
 mysqldump -B dbname1 --tables tablename1 tablename2 -u root -p > xxx.sql
-```
+
 -------------------------存储过程、函数操作-----------------------------
-```
+
 7.只导出存储过程和函数(不导出结构和数据，要同时导出结构的话，需要同时使用-d)
 
 mysqldump -R -ndt dbname1 -u root -p > xxx.sql
