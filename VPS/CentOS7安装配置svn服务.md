@@ -134,4 +134,10 @@ kill -9  xxx
 #或者
 killall svnserve
 ```
+
+
+
+## [SVN-Eclipse插件](https://github.com/subclipse/subclipse/wiki)
+
+
 # [返回顶部](#readme)
