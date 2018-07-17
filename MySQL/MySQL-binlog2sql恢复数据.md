@@ -94,14 +94,14 @@ mysqldump -u 用户名 -p 数据库名 < /home/backup.sql
 + 如果是在本机上备份本机的数据库IP和端口可以不要，如果是在本机上备份其他主机上的数据库就需要IP和端口
 ```
 ```diff
--d 结构(--no-data:不导出任何数据，只导出数据库表结构)
--t 数据(--no-create-info:只导出数据，而不添加CREATE TABLE 语句)
--n (--no-create-db:只导出数据，而不添加CREATE DATABASE 语句）
--R (--routines:导出存储过程以及自定义函数)
--E (--events:导出事件)
---triggers (默认导出触发器，使用--skip-triggers屏蔽导出)
--B (--databases:导出数据库列表，单个库时可省略）
---tables 表列表（单个表时可省略）
+- -d 结构(--no-data:不导出任何数据，只导出数据库表结构)
+- -t 数据(--no-create-info:只导出数据，而不添加CREATE TABLE 语句)
+- -n (--no-create-db:只导出数据，而不添加CREATE DATABASE 语句）
+- -R (--routines:导出存储过程以及自定义函数)
+- -E (--events:导出事件)
+- --triggers (默认导出触发器，使用--skip-triggers屏蔽导出)
+- -B (--databases:导出数据库列表，单个库时可省略）
+- --tables 表列表（单个表时可省略）
 + ①同时导出结构以及数据时可同时省略-d和-t
 + ②同时不导出结构和数据可使用-ntd
 + ③只导出存储过程和函数可使用-R -ntd
