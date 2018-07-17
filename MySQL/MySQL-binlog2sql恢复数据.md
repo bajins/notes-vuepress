@@ -79,13 +79,7 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数�
 # MySQL备份
 ## 用mysqldump备份
 ### 执行mysqldump备份单个数据库
-```diff
-+ ①同时导出结构以及数据时可同时省略-d和-t
-+ ②同时不导出结构和数据可使用-ntd
-+ ③只导出存储过程和函数可使用-R -ntd
-+ ④导出所有(结构&数据&存储过程&函数&事件&触发器)使用-R -E(相当于①，省略了-d -t;触发器默认导出)
-+ ⑤只导出结构&函数&事件&触发器使用 -R -E -d
-```
+
 ```shell
 #备份
 mysqldump -h需要备份的主机IP -P端口 -u 用户名 -p 数据库名 > /home/backup.sql
@@ -115,6 +109,7 @@ mysqldump --host=需要备份的主机IP -P端口 -u用户名 -p --opt 数据库
 1.①导出一个库结构
 
 mysqldump -d dbname -u root -p > xxx.sql
+
 ②导出多个库结构
 
 mysqldump -d -B dbname1 dbname2 -u root -p > xxx.sql
@@ -123,6 +118,7 @@ mysqldump -d -B dbname1 dbname2 -u root -p > xxx.sql
 2.①导出一个库数据
 
 mysqldump -t dbname -u root -p > xxx.sql
+
 ②导出多个库数据
 
 mysqldump -t -B dbname1 dbname2 -u root -p > xxx.sql
@@ -131,13 +127,16 @@ mysqldump -t -B dbname1 dbname2 -u root -p > xxx.sql
 3.①导出一个库结构以及数据
 
 mysqldump dbname1 -u root -p > xxx.sql
+
 ②导出多个库结构以及数据
 
 mysqldump -B dbname1 dbname2 -u root -p > xxx.sql
  
 -------------------------数据表操作-----------------------------
 4.①导出一个表结构
+
 mysqldump -d dbname1 tablename1 -u root -p > xxx.sql
+
 ②导出多个表结构
 
 mysqldump -d -B dbname1 --tables tablename1 tablename2 -u root -p > xxx.sql
@@ -146,6 +145,7 @@ mysqldump -d -B dbname1 --tables tablename1 tablename2 -u root -p > xxx.sql
 5.①导出一个表数据
 
 mysqldump -t dbname1 tablename1 -u root -p > xxx.sql
+
 ②导出多个表数据
 
 mysqldump -d -B dbname1 --tables tablename1 tablename2 -u root -p > xxx.sql
@@ -154,20 +154,25 @@ mysqldump -d -B dbname1 --tables tablename1 tablename2 -u root -p > xxx.sql
 6.①导出一个表结构以及数据
 
 mysqldump dbname1 tablename1 -u root -p > xxx.sql
+
 ②导出多个表结构以及数据
 
 mysqldump -B dbname1 --tables tablename1 tablename2 -u root -p > xxx.sql
  
 -------------------------存储过程、函数操作-----------------------------
+
 7.只导出存储过程和函数(不导出结构和数据，要同时导出结构的话，需要同时使用-d)
+
 mysqldump -R -ndt dbname1 -u root -p > xxx.sql
  
 -------------------------事件操作-----------------------------
 8.只导出事件
+
 mysqldump -E -ndt dbname1 -u root -p > xxx.sql
  
 -------------------------触发器操作-----------------------------
 9.不导出触发器（触发器是默认导出的–triggers，使用–skip-triggers屏蔽导出触发器）
+
 mysqldump --skip-triggers dbname1 -u root -p > xxx.sql
  
 -------------------------导入数据库操作-----------------------------
@@ -195,11 +200,13 @@ mysqldump --skip-triggers dbname1 -u root -p > xxx.sql
 -B (--databases:导出数据库列表，单个库时可省略）
 
 --tables 表列表（单个表时可省略）
-①同时导出结构以及数据时可同时省略-d和-t
-②同时不导出结构和数据可使用-ntd
-③只导出存储过程和函数可使用-R -ntd
-④导出所有(结构&数据&存储过程&函数&事件&触发器)使用-R -E(相当于①，省略了-d -t;触发器默认导出)
-⑤只导出结构&函数&事件&触发器使用 -R -E -d
+```diff
++ ①同时导出结构以及数据时可同时省略-d和-t
++ ②同时不导出结构和数据可使用-ntd
++ ③只导出存储过程和函数可使用-R -ntd
++ ④导出所有(结构&数据&存储过程&函数&事件&触发器)使用-R -E(相当于①，省略了-d -t;触发器默认导出)
++ ⑤只导出结构&函数&事件&触发器使用 -R -E -d
+```
 
 
 
