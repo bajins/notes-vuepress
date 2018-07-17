@@ -121,7 +121,7 @@ source /home/backup.sql
 
 ### mysqldump远程备份到本机的指定数据库中
 ```shell
-mysqldump --host=需要备份的主机IP -P端口 -u用户名 -p --opt 数据库名| mysql --host=localhost -P端口 -u本机MySQL用户名 -p本机MySQL密码 -C 数据库名
+mysqldump -R -E --host=需要备份的主机IP -P端口 -u用户名 -p --opt 数据库名| mysql --host=localhost -P端口 -u本机MySQL用户名 -p本机MySQL密码 -C 数据库名
 ```
 ### [导出导入脚本](/MySQL/MySQL_Backup.sh)
 
