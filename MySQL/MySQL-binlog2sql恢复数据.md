@@ -131,6 +131,8 @@ mysqldump -R -E -h需要备份的主机IP -P端口 -u用户名 -p 数据库名| 
 -3、在使用参数--opt的时候，创建表的类型，字符集等等都是默认参数ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;当使用了--skip-opt的时候，这些参数都给忽略了
 -4、导出原表中的数据，--opt是一个insert多个value，在使用了--skip-opt的时候，是多个insert组成的；
 ```
+#### [mysqldump数据导出参数说明](https://blog.csdn.net/hao7030187/article/details/77839968)
+#### [mysqldump数据导出参数说明](http://www.cnblogs.com/chenmh/p/5300370.html)
 ### [导出导入脚本](/MySQL/MySQL_Backup.sh)
 
 ## MySQL mysqldump导入导出 结构，数据，存储过程，函数，事件，触发器
