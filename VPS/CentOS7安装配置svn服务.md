@@ -1,6 +1,10 @@
 
 
 ## [SVN-Eclipse插件](https://github.com/subclipse/subclipse/wiki)
+```
+# 对应subversion 1.9.x
+http://subclipse.tigris.org/update_1.12.x/
+```
 
 ## 检查是否已安装SVN
 ```
