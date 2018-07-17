@@ -82,13 +82,13 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数�
 
 ```shell
 #导出所有(结构&数据&存储过程&函数&事件&触发器)
-mysqldump -R -E --host=需要备份的主机IP -P端口 -u用户名 -p 数据库名 > /home/backup.sql
+mysqldump -R -E -h需要备份的主机IP -P端口 -u用户名 -p 数据库名 > /home/backup.sql
 
 #只导出结构&函数&事件&触发器使用
-mysqldump -R -E -d --host=需要备份的主机IP -P端口 -u用户名 -p 数据库名 > /home/backup.sql
+mysqldump -R -E -d -h需要备份的主机IP -P端口 -u用户名 -p 数据库名 > /home/backup.sql
 
 #只导出存储过程和函数可使用
-mysqldump -R -ntd --host=需要备份的主机IP -P端口 -u用户名 -p 数据库名 > /home/backup.sql
+mysqldump -R -ntd -h需要备份的主机IP -P端口 -u用户名 -p 数据库名 > /home/backup.sql
 #还原
 mysqldump -u用户名 -p 数据库名 < /home/backup.sql
 ```
@@ -121,7 +121,7 @@ source /home/backup.sql
 
 ### mysqldump远程备份到本机的指定数据库中
 ```shell
-mysqldump -R -E -h需要备份的主机IP -P端口 -u用户名 -p --opt 数据库名| mysql -hlocalhost -P端口 -u本机MySQL用户名 -p本机MySQL密码 -C 数据库名
+mysqldump -R -E -h需要备份的主机IP -P端口 -u用户名 -p 数据库名| mysql -hlocalhost -P端口 -u本机MySQL用户名 -p本机MySQL密码 -C 数据库名
 ```
 ```diff
 -1、--opt 在创建表结构之前 会有 DROP TABLE IF EXISTS 
