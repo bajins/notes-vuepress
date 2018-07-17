@@ -174,16 +174,7 @@ mysqldump -E -ndt dbname1 -u root -p > xxx.sql
 9.不导出触发器（触发器是默认导出的–triggers，使用–skip-triggers屏蔽导出触发器）
 
 mysqldump --skip-triggers dbname1 -u root -p > xxx.sql
- 
--------------------------导入数据库操作-----------------------------
-10.导入
-　　source命令：
-　　　　mysql -u root -p
-　　　　　　use game;
-　　　　　　source xxx.sql
-　　mysql命令：
-　　　　mysql -hhostname -uusername - ppassword databasename < xxx.sql
- 
+
 总结
 -d 结构(--no-data:不导出任何数据，只导出数据库表结构)
 
