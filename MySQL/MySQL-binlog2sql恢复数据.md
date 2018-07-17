@@ -171,6 +171,7 @@ mysqldump -R -ndt dbname1 -u root -p > xxx.sql
 mysqldump -E -ndt dbname1 -u root -p > xxx.sql
  
 -------------------------触发器操作-----------------------------
+
 9.不导出触发器（触发器是默认导出的–triggers，使用–skip-triggers屏蔽导出触发器）
 
 mysqldump --skip-triggers dbname1 -u root -p > xxx.sql
