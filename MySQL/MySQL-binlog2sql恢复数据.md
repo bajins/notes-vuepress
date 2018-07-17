@@ -85,12 +85,30 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数�
 mysqldump -R -E -h需要备份的主机IP -P端口 -u 用户名 -p 数据库名 > /home/backup.sql
 #只导出结构&函数&事件&触发器使用
 mysqldump -R -E -d -h需要备份的主机IP -P端口 -u 用户名 -p 数据库名 > /home/backup.sql
+#只导出结构&函数&事件&触发器使用
+mysqldump -R -E -d -h需要备份的主机IP -P端口 -u 用户名 -p 数据库名 > /home/backup.sql
 #还原
 mysqldump -u 用户名 -p 数据库名 < /home/backup.sql
 ```
 ```diff
 + 如果是在本机上备份本机的数据库IP和端口可以不要，如果是在本机上备份其他主机上的数据库就需要IP和端口
 ```
+```diff
+-d 结构(--no-data:不导出任何数据，只导出数据库表结构)
+-t 数据(--no-create-info:只导出数据，而不添加CREATE TABLE 语句)
+-n (--no-create-db:只导出数据，而不添加CREATE DATABASE 语句）
+-R (--routines:导出存储过程以及自定义函数)
+-E (--events:导出事件)
+--triggers (默认导出触发器，使用--skip-triggers屏蔽导出)
+-B (--databases:导出数据库列表，单个库时可省略）
+--tables 表列表（单个表时可省略）
++ ①同时导出结构以及数据时可同时省略-d和-t
++ ②同时不导出结构和数据可使用-ntd
++ ③只导出存储过程和函数可使用-R -ntd
++ ④导出所有(结构&数据&存储过程&函数&事件&触发器)使用-R -E(相当于①，省略了-d -t;触发器默认导出)
++ ⑤只导出结构&函数&事件&触发器使用 -R -E -d
+```
+
 #### 如果用mysqldump导入不成功，可以用以下方法
 ```sql
 #先登录MySQL，再指定数据库，设置数据库bianm
@@ -178,30 +196,6 @@ mysqldump -E -ndt dbname1 -u root -p > xxx.sql
 9.不导出触发器（触发器是默认导出的–triggers，使用–skip-triggers屏蔽导出触发器）
 
 mysqldump --skip-triggers dbname1 -u root -p > xxx.sql
-
-总结
--d 结构(--no-data:不导出任何数据，只导出数据库表结构)
-
--t 数据(--no-create-info:只导出数据，而不添加CREATE TABLE 语句)
-
--n (--no-create-db:只导出数据，而不添加CREATE DATABASE 语句）
-
--R (--routines:导出存储过程以及自定义函数)
-
--E (--events:导出事件)
-
---triggers (默认导出触发器，使用--skip-triggers屏蔽导出)
-
--B (--databases:导出数据库列表，单个库时可省略）
-
---tables 表列表（单个表时可省略）
-```diff
-+ ①同时导出结构以及数据时可同时省略-d和-t
-+ ②同时不导出结构和数据可使用-ntd
-+ ③只导出存储过程和函数可使用-R -ntd
-+ ④导出所有(结构&数据&存储过程&函数&事件&触发器)使用-R -E(相当于①，省略了-d -t;触发器默认导出)
-+ ⑤只导出结构&函数&事件&触发器使用 -R -E -d
-```
 
 
 
