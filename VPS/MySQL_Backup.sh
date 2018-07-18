@@ -3,7 +3,7 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 echo "****************************************************************************"
 startDate=`date +"%Y-%m-%d %H:%M:%S"`
-echo "★[$startDate]"
+echo "★[$startDate] 开始执行："
 echo "----------------------------------------------------------------------------"
 
 #服务器
