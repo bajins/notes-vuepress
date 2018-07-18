@@ -1,6 +1,11 @@
 #!/bin/bash
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
+echo "****************************************************************************"
+startDate=`date +"%Y-%m-%d %H:%M:%S"`
+echo "★[$startDate]"
+echo "----------------------------------------------------------------------------"
+
 #服务器
 SERVER_HOST="ip"
 SERVER_PORT="端口"
@@ -24,4 +29,4 @@ mysqldump -R -E -h${SERVER_HOST} -P${SERVER_PORT} -u${SERVER_USER} -p${SERVER_PA
 echo "----------------------------------------------------------------------------"
 endDate=`date +"%Y-%m-%d %H:%M:%S"`
 echo "★[$endDate] Successful"
-echo "----------------------------------------------------------------------------"
+echo "****************************************************************************"
