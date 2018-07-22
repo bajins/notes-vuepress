@@ -44,37 +44,37 @@ clear方法：将一级缓存中的对象全部移除
 
 ```java
 /**
-	 * 验证缓存管理的方法evict
-	 * 执行完evict之后，将会将id为5的user对象从一级缓存中移除，再次访问的话将重新查询数据库
-	 * 该用例将发出2个select语句
-	 */
-	@Test
-	public void testEvict(){
-		Session session = HibernateUtil.getSession();
-		User user1 =  (User)session.get(User.class, 5);
-		System.out.println(user1.getName());
-		session.evict(user1);
-		User user2 =  (User)session.get(User.class, 5);
-		System.out.println(user2.getName());
-		session.close();
-	}
+ * 验证缓存管理的方法evict
+ * 执行完evict之后，将会将id为5的user对象从一级缓存中移除，再次访问的话将重新查询数据库
+ * 该用例将发出2个select语句
+ */
+@Test
+public void testEvict(){
+	Session session = HibernateUtil.getSession();
+	User user1 =  (User)session.get(User.class, 5);
+	System.out.println(user1.getName());
+	session.evict(user1);
+	User user2 =  (User)session.get(User.class, 5);
+	System.out.println(user2.getName());
+	session.close();
+}
 
 
 /**
-	 * 验证缓存管理的方法clear
-	 * 执行clear方法之后，一级缓存中的对象全部被清除，再次查询，将从数据库中查询
-	 * 该用例将发出2个select语句
-	 */
-	@Test
-	public void testClear(){
-		Session session = HibernateUtil.getSession();
-		User user1 =  (User)session.get(User.class, 5);
-		System.out.println(user1.getName());
-		System.out.println("=======================");
-		User user2 =  (User)session.get(User.class, 5);
-		System.out.println(user2.getName());
-		session.clear();
- 
-		
-	}
+ * 验证缓存管理的方法clear
+ * 执行clear方法之后，一级缓存中的对象全部被清除，再次查询，将从数据库中查询
+ * 该用例将发出2个select语句
+ */
+@Test
+public void testClear(){
+	Session session = HibernateUtil.getSession();
+	User user1 =  (User)session.get(User.class, 5);
+	System.out.println(user1.getName());
+	System.out.println("=======================");
+	User user2 =  (User)session.get(User.class, 5);
+	System.out.println(user2.getName());
+	session.clear();
+
+
+}
 ```
