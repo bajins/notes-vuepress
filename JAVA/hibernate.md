@@ -34,3 +34,47 @@ hibernate执行的顺序如下：
 (4)事务提示，需要将所有缓存flush入数据库，Session启动一个事务，并按照insert ,update,...,delete的顺序提交所有之前登记的操作（注意：所有insert执行完毕后才会执行update，这里的特殊处理也可能会将你的程序搞得一团遭，如需要控制操作的顺序，需要使用flush），现在对象不再entityEntries中，但在执行insert的行为时只需要访问insertions就足够了，所以此时不会有任何的异常，异常出现在插入后通知Session该对象已经插入完毕这个步骤上，这个步骤中需要将entityEntries中对象的existsInDatabase标志置true，由于对象并不存在于entityEntres中，此时Hibernate就认为insertions和entityEntries可能因为线程安全的问题产生了不同步（也不知道Hibernate的开发者是否考虑到例子中的处理方式，如果没有的话，这也许算是一个bug吧），于是一个net.sf.hibernate.AssertionFailure就被抛出，程序终止。
 
 　　一般我们会错误的认为s.sava会立即执行，而将对象过早的与session拆离，造成了session的insertion和entityEntries中内容的不同步。所以我们在做此类操作时一定要清楚hibernate什么时候会将数据flush入数据库，在未flush之前不要将已进行操作的对象从session上拆离，解决办法是在sava之后，添加session.flush。
+  
+  
+  
+evict方法：从一级缓存中移除一个对象
+
+clear方法：将一级缓存中的对象全部移除
+
+
+```java
+/**
+	 * 验证缓存管理的方法evict
+	 * 执行完evict之后，将会将id为5的user对象从一级缓存中移除，再次访问的话将重新查询数据库
+	 * 该用例将发出2个select语句
+	 */
+	@Test
+	public void testEvict(){
+		Session session = HibernateUtil.getSession();
+		User user1 =  (User)session.get(User.class, 5);
+		System.out.println(user1.getName());
+		session.evict(user1);
+		User user2 =  (User)session.get(User.class, 5);
+		System.out.println(user2.getName());
+		session.close();
+	}
+
+
+/**
+	 * 验证缓存管理的方法clear
+	 * 执行clear方法之后，一级缓存中的对象全部被清除，再次查询，将从数据库中查询
+	 * 该用例将发出2个select语句
+	 */
+	@Test
+	public void testClear(){
+		Session session = HibernateUtil.getSession();
+		User user1 =  (User)session.get(User.class, 5);
+		System.out.println(user1.getName());
+		System.out.println("=======================");
+		User user2 =  (User)session.get(User.class, 5);
+		System.out.println(user2.getName());
+		session.clear();
+ 
+		
+	}
+```
