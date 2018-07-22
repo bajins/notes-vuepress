@@ -19,9 +19,10 @@ session.createsqlquery("select name ,age,birthday from students") .setresulttran
 
 
 hibernate中evict()和clear()的区别
-session.evict(obj)：会把指定的缓冲对象进行清除；
 
-session.clear()：把缓冲区内的全部对象清除，但不包括操作中的对象。
+session.evict(obj)：会把指定的缓冲对象从一级缓存中进行清除；
+
+session.clear()：把一级缓存中的全部对象清除，但不包括操作中的对象。
 
 hibernate执行的顺序如下：
 
@@ -34,12 +35,6 @@ hibernate执行的顺序如下：
 (4)事务提示，需要将所有缓存flush入数据库，Session启动一个事务，并按照insert ,update,...,delete的顺序提交所有之前登记的操作（注意：所有insert执行完毕后才会执行update，这里的特殊处理也可能会将你的程序搞得一团遭，如需要控制操作的顺序，需要使用flush），现在对象不再entityEntries中，但在执行insert的行为时只需要访问insertions就足够了，所以此时不会有任何的异常，异常出现在插入后通知Session该对象已经插入完毕这个步骤上，这个步骤中需要将entityEntries中对象的existsInDatabase标志置true，由于对象并不存在于entityEntres中，此时Hibernate就认为insertions和entityEntries可能因为线程安全的问题产生了不同步（也不知道Hibernate的开发者是否考虑到例子中的处理方式，如果没有的话，这也许算是一个bug吧），于是一个net.sf.hibernate.AssertionFailure就被抛出，程序终止。
 
 　　一般我们会错误的认为s.sava会立即执行，而将对象过早的与session拆离，造成了session的insertion和entityEntries中内容的不同步。所以我们在做此类操作时一定要清楚hibernate什么时候会将数据flush入数据库，在未flush之前不要将已进行操作的对象从session上拆离，解决办法是在sava之后，添加session.flush。
-  
-  
-  
-evict方法：从一级缓存中移除一个对象
-
-clear方法：将一级缓存中的对象全部移除
 
 
 ```java
