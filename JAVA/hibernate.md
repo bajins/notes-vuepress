@@ -73,3 +73,9 @@ public void testClear(){
 
 }
 ```
+
+
+## 当确定返回的实例只有一个或者null时 用uniqueResult()方法
+```java
+Double result = (Double) session.createSQLQuery(querySql).uniqueResult();
+```
