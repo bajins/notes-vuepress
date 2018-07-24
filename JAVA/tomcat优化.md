@@ -118,3 +118,9 @@ JAVA_OPTS="-Dfile.encoding=UTF-8-server -Xms1024m -Xmx2048m -XX:NewSize=512m -XX
 ```properties
 tomcat.util.http.parser.HttpParser.requestTargetAllow=|{}
 ```
+```diff
++替换WEB-INF/lib目录中的jar文件或WEB-INF/classes目录中的class文件时，reloadable="true"会让修改生效（但代价不小），该选项适合调试。
+<Context docBase="xxx" path="/xxx" reloadable="true"/> 
++在webapps目录中增加新的目录、war文件、修改WEB-INF/web.xml，autoDeploy="true"会新建或重新部署应用，该选项方便部署。
+<Context docBase="xxx" path="/xxx" autoDeploy="true"/> 
+```
