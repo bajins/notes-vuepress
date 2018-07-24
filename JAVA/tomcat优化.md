@@ -118,6 +118,8 @@ JAVA_OPTS="-Dfile.encoding=UTF-8-server -Xms1024m -Xmx2048m -XX:NewSize=512m -XX
 ```properties
 tomcat.util.http.parser.HttpParser.requestTargetAllow=|{}
 ```
+
+## Tomcat热部署
 ```diff
 +替换WEB-INF/lib目录中的jar文件或WEB-INF/classes目录中的class文件时，reloadable="true"会让修改生效（但代价不小），该选项适合调试。
 <Context docBase="xxx" path="/xxx" reloadable="true"/> 
