@@ -36,7 +36,10 @@ query_cache_limit = 4M
 ft_min_word_len = 8
 
 thread_stack = 512K
-transaction_isolation = REPEATABLE-READ
+#默认是REPEATABLE-READ，改成读已提交
+transaction-isolation=READ-COMMITTED
+#永久设置手动提交事务
+autocommit=0
 tmp_table_size = 128M
 #log-bin=mysql-bin
 long_query_time = 6
