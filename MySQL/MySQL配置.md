@@ -77,8 +77,6 @@ interactive-timeout
 [mysqld_safe]
 open-files-limit = 8192
 
-[client]
-/bin/bash: Q: command not found
 ```
 
 ## yum安装配置
