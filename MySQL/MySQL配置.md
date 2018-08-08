@@ -117,7 +117,12 @@ max_connections = 500
 max_connect_errors = 100
 open_files_limit = 65535
 
-
+thread_stack = 512K
+#默认是REPEATABLE-READ，改成读已提交
+transaction-isolation=READ-COMMITTED
+#永久设置手动提交事务
+autocommit=0
+tmp_table_size = 128M
 #注释掉之后，会关闭binlog日志
 log-bin=mysql-bin
 #注释掉之后，会关闭binlog日志
@@ -224,6 +229,12 @@ max_connections = 500
 max_connect_errors = 100
 open_files_limit = 65535
 
+thread_stack = 512K
+#默认是REPEATABLE-READ，改成读已提交
+transaction-isolation=READ-COMMITTED
+#永久设置手动提交事务
+autocommit=0
+tmp_table_size = 128M
 #注释掉之后，会关闭binlog日志
 log-bin=mysql-bin
 #注释掉之后，会关闭binlog日志
