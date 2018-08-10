@@ -4,6 +4,8 @@
 ```
 # 对应subversion 1.9.x
 http://subclipse.tigris.org/update_1.12.x/
+#EclipseClassDecompiler反编译
+https://github.com/cnfree/Eclipse-Class-Decompiler
 ```
 
 ## 检查是否已安装SVN
