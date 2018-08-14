@@ -79,3 +79,14 @@ public void testClear(){
 ```java
 Double result = (Double) session.createSQLQuery(querySql).uniqueResult();
 ```
+
+## [调用hibernate存储过程](http://www.voidcn.com/article/p-kixpjimv-qq.html)
+
+## 关闭session
+```
+if (session != null) {
+	session.flush();
+	session.clear();
+	session.close();
+}
+```
