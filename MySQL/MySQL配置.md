@@ -41,7 +41,7 @@ thread_stack = 512K
 #默认是REPEATABLE-READ，改成读已提交
 transaction-isolation=READ-COMMITTED
 #永久设置手动提交事务
-autocommit=0
+#autocommit=0
 tmp_table_size = 128M
 #log-bin=mysql-bin
 long_query_time = 6
@@ -124,7 +124,7 @@ thread_stack = 512K
 #默认是REPEATABLE-READ，改成读已提交
 transaction-isolation=READ-COMMITTED
 #永久设置手动提交事务
-autocommit=0
+#autocommit=0
 tmp_table_size = 128M
 #注释掉之后，会关闭binlog日志
 log-bin=mysql-bin
@@ -239,7 +239,7 @@ thread_stack = 512K
 #默认是REPEATABLE-READ，改成读已提交
 transaction-isolation=READ-COMMITTED
 #永久设置手动提交事务
-autocommit=0
+#autocommit=0
 tmp_table_size = 128M
 #注释掉之后，会关闭binlog日志
 log-bin=mysql-bin
