@@ -16,6 +16,8 @@ port = 3306
 character-set-server = utf8
 explicit_defaults_for_timestamp = true
 # socket = /var/run/mysqld/mysqld.sock
+# 0：区分大小写，1：不区分大小写
+lower_case_table_names =1
 
 #下面是可选项，要不要都行，如果出现启动错误，则全部注释掉，
 #保留最基本的配置选项，然后尝试添加某些配置项后启动，检测配置项是否有误
@@ -114,6 +116,9 @@ explicit_defaults_for_timestamp = true
 max_connections = 500
 max_connect_errors = 100
 open_files_limit = 65535
+
+# 0：区分大小写，1：不区分大小写
+lower_case_table_names =1
 
 thread_stack = 512K
 #默认是REPEATABLE-READ，改成读已提交
@@ -226,6 +231,9 @@ explicit_defaults_for_timestamp = true
 max_connections = 500
 max_connect_errors = 100
 open_files_limit = 65535
+
+# 0：区分大小写，1：不区分大小写
+lower_case_table_names =1
 
 thread_stack = 512K
 #默认是REPEATABLE-READ，改成读已提交
