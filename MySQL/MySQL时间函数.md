@@ -102,7 +102,7 @@ select datediff('2008-08-08 12:00:00', '2008-08-01 00:00:00'); -- 7
 
 
 ## MySQL 日期时间 Extract（选取） 函数。
-## 1. 选取日期时间的各个部分：日期、时间、年、季度、月、日、小时、分钟、秒、微秒
+## 日期时间的各个部分：日期、时间、年、季度、月、日、小时、分钟、秒、微秒
 ```sql
 set @dt = '2008-09-10 07:15:30.123456';
  
@@ -118,7 +118,7 @@ select minute(@dt); -- 15
 select second(@dt); -- 30
 select microsecond(@dt); -- 123456
 ```
-## 2. MySQL Extract() 函数，可以上面实现类似的功能：
+## MySQL Extract() 函数，可以上面实现类似的功能：
 ```sql
 set @dt = '2008-09-10 07:15:30.123456';
  
@@ -142,7 +142,7 @@ select extract(minute_second from @dt); -- 1530
 select extract(minute_microsecond from @dt); -- 1530123456
 select extract(second_microsecond from @dt); -- 30123456
 ```
-## 3. MySQL dayof… 函数：dayofweek(), dayofmonth(), dayofyear()
+## MySQL dayof… 函数：dayofweek(), dayofmonth(), dayofyear()
 #### 分别返回日期参数，在一周、一月、一年中的位置。
 ```sql
 set @dt = '2008-08-08';
