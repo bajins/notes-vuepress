@@ -57,6 +57,50 @@ localtimestamp() localtimestamp
 %% 直接值“%”
 ```
 
+## MySQL 为日期增加或者减去一个时间间隔：date_add()、date_sub()
+```sql
+set @dt = now();
+select date_add(@dt, interval 1 day); -- add 1 day
+select date_add(@dt, interval 1 hour); -- add 1 hour
+select date_add(@dt, interval 1 minute); -- ...
+select date_add(@dt, interval 1 second);
+select date_add(@dt, interval 1 microsecond);
+select date_add(@dt, interval 1 week);
+select date_add(@dt, interval 1 month);
+select date_add(@dt, interval 1 quarter);
+select date_add(@dt, interval 1 year);
+select date_add(@dt, interval -1 day); -- sub 1 day
+```
+## MySQL 日期、时间相减函数：datediff(date1,date2), timediff(time1,time2)
+### MySQL datediff(date1,date2)：两个日期相减 date1 - date2，返回天数。
+#### 注意：timediff(time1,time2) 函数的两个参数类型必须相同。
+```sql
+select datediff('2008-08-08', '2008-08-01'); -- 7
+select datediff('2008-08-01', '2008-08-08'); -- -7
+MySQL timediff(time1,time2)：两个日期相减 time1 - time2，返回 time 差值。
+select timediff('2008-08-08 08:08:08', '2008-08-08 00:00:00'); -- 08:08:08
+select timediff('08:08:08', '00:00:00'); -- 08:08:08
+```
+### MySQL 时间戳（timestamp）转换、增、减函数：
+```sql
+timestamp(date) -- date to timestamp
+timestamp(dt,time) -- dt + time
+timestampadd(unit,interval,datetime_expr) --
+timestampdiff(unit,datetime_expr1,datetime_expr2) --
+
+select timestamp('2008-08-08'); -- 2008-08-08 00:00:00
+select timestamp('2008-08-08 08:00:00', '01:01:01'); -- 2008-08-08 09:01:01
+select timestamp('2008-08-08 08:00:00', '10 01:01:01'); -- 2008-08-18 09:01:01
+select timestampadd(day, 1, '2008-08-08 08:00:00'); -- 2008-08-09 08:00:00
+select date_add('2008-08-08 08:00:00', interval 1 day); -- 2008-08-09 08:00:00
+MySQL timestampadd() 函数类似于 date_add()。
+select timestampdiff(year,'2002-05-01','2001-01-01'); -- -1
+select timestampdiff(day ,'2002-05-01','2001-01-01'); -- -485
+select timestampdiff(hour,'2008-08-08 12:00:00','2008-08-08 00:00:00'); -- -12
+select datediff('2008-08-08 12:00:00', '2008-08-01 00:00:00'); -- 7
+```
+
+
 ## MySQL 日期时间 Extract（选取） 函数。
 ## 1. 选取日期时间的各个部分：日期、时间、年、季度、月、日、小时、分钟、秒、微秒
 ```sql
