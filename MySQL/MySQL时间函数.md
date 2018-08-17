@@ -56,16 +56,6 @@ localtimestamp() localtimestamp
 %y 两位数字表示的年份
 %% 直接值“%”
 ```
-### 获得当前日期+时间（date + time）函数：sysdate()
-#### sysdate() 日期时间函数跟 now() 类似，不同之处在于：now() 在执行开始时值就得到了， sysdate() 在函数执行时动态得到值。
-
-###  获得当前日期（date）函数：curdate()
-#### 其中，下面的两个日期函数等同于 curdate()：
-```sql
-current_date()
-current_date
-```
-### 获得当前 UTC 日期时间函数：utc_date(), utc_time(), utc_timestamp()
 
 ## MySQL 日期时间 Extract（选取） 函数。
 ## 1. 选取日期时间的各个部分：日期、时间、年、季度、月、日、小时、分钟、秒、微秒
