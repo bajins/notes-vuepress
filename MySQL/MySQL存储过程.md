@@ -12,7 +12,7 @@ BEGIN
 	DECLARE _email VARCHAR(32);
 	DECLARE i INT;
 	DECLARE r VARCHAR(255);
-	DECLARE s INT DEFAULT 1;
+	DECLARE s INT DEFAULT 0;
 	-- 遍历数据结束标志
 	DECLARE done INT DEFAULT FALSE;
 	-- 游标
@@ -30,13 +30,7 @@ BEGIN
 		-- 取值 赋值给变量，多个以,号分割
 		-- FETCH NEXT FROM r_name INTO _email,password1,name1;
 		FETCH r_name INTO _email;
-		-- 判断是否继续循环
-		-- IF done OR s=i THEN
-		IF s=i THEN
-			LEAVE rLoop;-- 结束循环
-			-- ITERATE rLoop;-- 跳过继续循环
-		END IF;
-		
+				
 		SET s=s+1;-- 循环一次加1
 		IF(i=1) then
 			SET r=CONCAT('[{"Push_MC":"',_email,'"}]');
@@ -46,6 +40,13 @@ BEGIN
 			SET r=CONCAT(r,'{"Push_MC":"',_email,'"}]');
 		ELSE
 			SET r=CONCAT(r,'{"Push_MC":"',_email,'"},');
+		END IF;
+		
+		-- 判断是否继续循环
+		-- IF done OR s=i THEN
+		IF s=i THEN
+			LEAVE rLoop;-- 结束循环
+			-- ITERATE rLoop;-- 跳过继续循环
 		END IF;
 		
 	END LOOP rLoop;-- 结束自定义循环体
