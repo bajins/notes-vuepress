@@ -1,4 +1,5 @@
-## 在eclipse中打开heap状态（windows->perference->general->右边show heap status打上勾->OK ），这时会在eclipse最下面显示一个内存显示了
+## 显示内存
+### 在eclipse中打开heap状态（windows->perference->general->右边show heap status打上勾->OK ），这时会在eclipse最下面显示一个内存显示了
 # Eclipse中jsp、js文件编辑时，卡死现象解决
 ## 1、取消验证
 ### windows–>perferences–>validation
