@@ -190,14 +190,17 @@ FROM
 ```sql
 /*上个月今天的当前时间*/ 
 SELECT DATE_SUB( NOW( ), INTERVAL 1 MONTH );
+
 /*上个月今天的当前时间（时间戳）*/
 SELECT UNIX_TIMESTAMP( DATE_SUB( NOW( ), INTERVAL 1 MONTH ) );
+
 /*上个月的第一天*/
 SELECT
   DATE_SUB(
     DATE_SUB( DATE_FORMAT( NOW( ), '%y-%m-%d 00:00:00' ), INTERVAL EXTRACT( DAY FROM NOW( ) ) - 1 DAY ),
     INTERVAL 1 MONTH 
   );
+  
 /*上个月的第一天（时间戳）*/
 SELECT
   UNIX_TIMESTAMP(
@@ -206,24 +209,28 @@ SELECT
       INTERVAL 1 MONTH 
     ) 
   );
+  
 /*上个月的第一天：*/
 SELECT
   DATE_SUB(
     DATE_SUB( DATE_FORMAT( NOW( ), '%y-%m-%d' ), INTERVAL EXTRACT( DAY FROM NOW( ) ) - 1 DAY ),
     INTERVAL 1 MONTH 
   );
+  
 /*上个月的最后一天：*/
 SELECT
   DATE_SUB(
     DATE_SUB( DATE_FORMAT( NOW( ), '%y-%m-%d' ), INTERVAL EXTRACT( DAY FROM NOW( ) ) DAY ),
     INTERVAL 0 MONTH 
   ) AS DATE;
+  
 /*这个月的第一天：*/
 SELECT
   DATE_SUB(
     DATE_SUB( DATE_FORMAT( NOW( ), '%y-%m-%d' ), INTERVAL EXTRACT( DAY FROM NOW( ) ) - 1 DAY ),
     INTERVAL 0 MONTH 
   );
+  
 /*这个月的最后一天：*/
 SELECT
   DATE_SUB(
