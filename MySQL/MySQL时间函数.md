@@ -156,10 +156,22 @@ set @dt = '2008-08-08';
 select dayname(@dt); -- Friday
 select monthname(@dt); -- August
 ```
-##  MySQL last_day() 函数：返回月份中的最后一天。
+##  MySQL 获取月份相关函数：
 ```sql
-select last_day('2008-02-01'); -- 2008-02-29
-select last_day('2008-08-08'); -- 2008-08-31
+# 获取当前日期
+SELECT CURDATE();
+
+# 获取当月最后一天
+SELECT LAST_DAY(CURDATE());
+
+# 获取本月第一天
+SELECT DATE_ADD(CURDATE(),INTERVAL -DAY(CURDATE())+1 DAY);
+
+# 获取下个月的第一天
+SELECT DATE_ADD(CURDATE()-DAY(CURDATE())+1,INTERVAL 1 MONTH);
+
+# 获取当前月的天数
+SELECT DATEDIFF(DATE_ADD(CURDATE()-DAY(CURDATE())+1,INTERVAL 1 MONTH ),DATE_ADD(CURDATE(),INTERVAL -DAY(CURDATE())+1 DAY)) FROM DUAL;
 ```
 ### MySQL last_day() 函数非常有用，比如我想得到当前月份中有多少天，可以这样来计算：
 ```sql
