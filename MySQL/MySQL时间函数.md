@@ -173,6 +173,11 @@ SELECT DATE_ADD(CURDATE()-DAY(CURDATE())+1,INTERVAL 1 MONTH);
 # 获取一个月前那一天
 SELECT DATE_SUB(CURDATE(), INTERVAL 1 MONTH);
 
+# MySQL last_day() 函数非常有用，比如我想得到当前月份中有多少天，可以这样来计算：
+SELECT NOW(), DAY(LAST_DAY(NOW())) AS days;
+# 或者
+SELECT DAY(LAST_DAY(CURDATE()));
+
 # 获取当前月的天数
 SELECT
 	DATEDIFF(
@@ -181,11 +186,6 @@ SELECT
 	) 
 FROM
 	DUAL;
-
-# MySQL last_day() 函数非常有用，比如我想得到当前月份中有多少天，可以这样来计算：
-SELECT NOW(), DAY(LAST_DAY(NOW())) AS days;
-# 或者
-SELECT DAY(LAST_DAY(CURDATE()));
 ```
 ```sql
 /*上个月今天的当前时间*/
