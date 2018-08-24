@@ -180,12 +180,12 @@ SELECT DAY(LAST_DAY(CURDATE()));
 
 # 获取当前月的天数
 SELECT
-	DATEDIFF(
-		DATE_ADD( CURDATE( ) - DAY ( CURDATE( ) ) + 1, INTERVAL 1 MONTH ),
-		DATE_ADD( CURDATE( ), INTERVAL - DAY ( CURDATE( ) ) + 1 DAY ) 
-	) 
+  DATEDIFF(
+    DATE_ADD( CURDATE( ) - DAY ( CURDATE( ) ) + 1, INTERVAL 1 MONTH ),
+    DATE_ADD( CURDATE( ), INTERVAL - DAY ( CURDATE( ) ) + 1 DAY ) 
+    ) 
 FROM
-	DUAL;
+  DUAL;
 ```
 ```sql
 /*上个月今天的当前时间*/
