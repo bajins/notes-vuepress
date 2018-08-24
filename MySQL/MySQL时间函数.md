@@ -175,18 +175,12 @@ SELECT DATE_SUB(CURDATE(), INTERVAL 1 MONTH);
 
 # 获取当前月的天数
 SELECT
-  DATEDIFF(
-    DATE_ADD(
-      CURDATE() - DAY(CURDATE()) + 1,
-      INTERVAL 1 MONTH
-    ),
-    DATE_ADD(
-      CURDATE(),
-      INTERVAL - DAY(CURDATE()) + 1 DAY
-    )
-  )
+	DATEDIFF(
+		DATE_ADD( CURDATE( ) - DAY ( CURDATE( ) ) + 1, INTERVAL 1 MONTH ),
+		DATE_ADD( CURDATE( ), INTERVAL - DAY ( CURDATE( ) ) + 1 DAY ) 
+	) 
 FROM
-  DUAL;
+	DUAL;
 
 # MySQL last_day() 函数非常有用，比如我想得到当前月份中有多少天，可以这样来计算：
 SELECT NOW(), DAY(LAST_DAY(NOW())) AS days;
