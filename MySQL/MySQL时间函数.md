@@ -164,7 +164,7 @@ SELECT CURDATE();
 # 获取当月最后一天
 SELECT LAST_DAY(CURDATE());
 
-# 获取本月第一天
+# 获取当月第一天
 SELECT DATE_ADD(CURDATE(),INTERVAL -DAY(CURDATE())+1 DAY);
 
 # 获取下个月的第一天
