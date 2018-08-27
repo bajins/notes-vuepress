@@ -20,3 +20,9 @@
         Calendar c = Calendar.getInstance(TimeZone.getTimeZone("GMT+08:00"));//获取东八区时间
         
 ```
+
+## BigDecimal
+```sql
+// 四舍五入保留两位小数
+BigDecimal setScale = new BigDecimal(money).setScale(2, BigDecimal.ROUND_HALF_UP);
+```
