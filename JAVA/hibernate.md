@@ -1,5 +1,6 @@
 # hibernate的使用
 
+## 返回结果接收方式
 ```java
 setresulttransformer与addentity的区别是什么?
 
@@ -16,7 +17,26 @@ session.createsqlquery("select name ,age,birthday from students") .setresulttran
 上面的查询将会返回students的列表,它将被实例化并且将name和birthday的值注射入对应的属性或者字段。 
 但必须注意，对每一个列都必须addscalar("列名") 
 ```
+### 返回结果转换为Map
+```java
+List<Map<String, Object>> list = session.createSQLQuery(sql).setResultTransformer(Transformers.ALIAS_TO_ENTITY_MAP).list();
+```
 
+### 当确定返回的实例只有一个或者null时 用uniqueResult()方法
+```java
+Double result = (Double) session.createSQLQuery(querySql).uniqueResult();
+```
+
+## [调用hibernate存储过程](http://www.voidcn.com/article/p-kixpjimv-qq.html)
+
+## 关闭session
+```
+if (session != null) {
+	session.flush();
+	session.clear();
+	session.close();
+}
+```
 
 hibernate中evict()和clear()的区别
 
@@ -74,19 +94,3 @@ public void testClear(){
 }
 ```
 
-
-## 当确定返回的实例只有一个或者null时 用uniqueResult()方法
-```java
-Double result = (Double) session.createSQLQuery(querySql).uniqueResult();
-```
-
-## [调用hibernate存储过程](http://www.voidcn.com/article/p-kixpjimv-qq.html)
-
-## 关闭session
-```
-if (session != null) {
-	session.flush();
-	session.clear();
-	session.close();
-}
-```
