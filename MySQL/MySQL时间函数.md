@@ -26,9 +26,12 @@ localtimestamp() localtimestamp
 
 ## 4. 获得当前 UTC 日期时间函数：utc_date(), utc_time(), utc_timestamp()
 
+#### 格式化日期： DATE_FORMAT(date, format)
 
-格式化日期： DATE_FORMAT(date, format)
+#### 生成18位uuid加14位精确到秒的时间
+```sql
 CONCAT(LEFT(REPLACE(UUID(),"-",""),18),DATE_FORMAT(NOW(), '%Y%m%d%H%i%S'))
+```
 
 ```diff
 %S, %s 两位数字形式的秒（ 00,01, ..., 59）
