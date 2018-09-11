@@ -95,3 +95,8 @@ call update_remind_status();
 end //  
 DELIMITER;  
 ```
+## 启动定时器
+```sql
+ALTER EVENT event_remind_status ON    
+COMPLETION PRESERVE ENABLE; 
+```
