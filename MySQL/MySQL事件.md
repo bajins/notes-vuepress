@@ -6,7 +6,8 @@ show variables like 'event_scheduler';
 ```
 ## 查看定时任务
 ```sql
-SELECT * FROM information_schema.events; 
+SELECT * FROM information_schema.events;
+select * from mysql.event;
 ```
 ## 创建事件
 ```sql
@@ -35,6 +36,14 @@ ALTER EVENT event_name
 ## 删除事件(DROP EVENT)
 ```sql
 DROP EVENT [IF EXISTS] event_name
+```
+## 开启任务
+```sql
+ALTER EVENT event_name ENABLE;
+```
+## 停止任务
+```sql
+ALTER EVENT event_name DISABLE;
 ```
 
 ## 创建定时器，每间隔一秒调用一次存储过程
