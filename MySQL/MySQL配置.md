@@ -37,6 +37,8 @@ query_cache_size = 128M
 query_cache_limit = 4M
 ft_min_word_len = 8
 
+# 默认开启时间ON或者是1
+event_scheduler=ON
 thread_stack = 512K
 #默认是REPEATABLE-READ，改成读已提交
 transaction-isolation=READ-COMMITTED
@@ -119,6 +121,8 @@ open_files_limit = 65535
 
 # 0：区分大小写，1：不区分大小写
 lower_case_table_names =1
+# 默认开启时间ON或者是1
+event_scheduler=ON
 
 thread_stack = 512K
 #默认是REPEATABLE-READ，改成读已提交
@@ -234,6 +238,8 @@ open_files_limit = 65535
 
 # 0：区分大小写，1：不区分大小写
 lower_case_table_names =1
+# 默认开启时间ON或者是1
+event_scheduler=ON
 
 thread_stack = 512K
 #默认是REPEATABLE-READ，改成读已提交
