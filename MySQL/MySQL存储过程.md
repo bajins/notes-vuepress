@@ -84,4 +84,14 @@ SET @e=CONCAT(@e,',{"Push_MC":"',@declaration,'"}]');
 -- 查询最终拼接结果
 SELECT @e e;
 ```
-
+## 创建定时器，每间隔一秒调用一次存储过程
+```sql
+DELIMITER //  
+CREATE EVENT  event_remind_status  
+ON SCHEDULE EVERY 1 second  do  
+begin
+-- 调用存储过程
+call update_remind_status();  
+end //  
+DELIMITER;  
+``
