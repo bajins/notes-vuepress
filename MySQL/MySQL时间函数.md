@@ -28,6 +28,7 @@ localtimestamp() localtimestamp
 
 
 格式化日期： DATE_FORMAT(date, format)
+CONCAT(LEFT(REPLACE(UUID(),"-",""),18),DATE_FORMAT(NOW(), '%Y%m%d%H%i%S'))
 
 ```diff
 %S, %s 两位数字形式的秒（ 00,01, ..., 59）
