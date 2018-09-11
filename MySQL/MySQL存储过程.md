@@ -61,7 +61,7 @@ DELIMITER ;
 ```
 
 ## 调用存储过程，查询返回结果
-```
+```sql
 -- 调用存储过程，@sum变量为返回结果
 call select_review(输入参数一,输入参数二,@sum);
 -- 查询返回结果
@@ -69,7 +69,7 @@ select @sum e;
 ```
 
 ## 多次调用存储过程，并拼接结果
-```
+```sql
 -- 调用存储过程，@sum变量为返回结果
 call select_review(输入参数一,输入参数二,@sum);
 -- 定义变量接收拼接返回结果
@@ -94,4 +94,4 @@ begin
 call update_remind_status();  
 end //  
 DELIMITER;  
-``
+```
