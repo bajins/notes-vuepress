@@ -30,7 +30,7 @@ localtimestamp() localtimestamp
 
 #### 生成18位uuid加14位精确到秒的时间
 ```sql
-CONCAT(LEFT(REPLACE(UUID(),"-",""),18),DATE_FORMAT(NOW(), '%Y%m%d%H%i%S'))
+CONCAT(LEFT(REPLACE(UUID(),'-',''),18),DATE_FORMAT(NOW(), '%Y%m%d%H%i%S'))
 ```
 
 ```diff
