@@ -1,8 +1,40 @@
 
 # 事件
+## 查看当前是否已开启事件调度器
+```sql
+show variables like 'event_scheduler';
+```
 ## 查看定时任务
 ```sql
 SELECT * FROM information_schema.events; 
+```
+## 创建事件
+```sql
+CREATE EVENT [IFNOT EXISTS] event_name
+  ON SCHEDULE SCHEDULE
+  [ON COMPLETION [NOT] PRESERVE]
+  [ENABLE | DISABLE]
+  [COMMENT 'comment']
+  DO sql_statement;
+```
+```diff
++[ON COMPLETION [NOT] PRESERVE] 可以设置这个事件是执行一次还是持久执行，默认为 NOT PRESERVE
++[ENABLE | DISABLE] 可是设置该事件创建后状态是否开启或关闭，默认为ENABLE
++[COMMENT 'comment'] 可以给该事件加上注释
+```
+## 修改事件(ALTER EVENT)
+```sql
+ALTER EVENT event_name
+  [ON SCHEDULE SCHEDULE]
+  [RENAME TO new_event_name]
+  [ON COMPLETION [NOT] PRESERVE]
+  [COMMENT 'comment']
+  [ENABLE | DISABLE]
+  [DO sql_statement]
+```
+## 删除事件(DROP EVENT)
+```sql
+DROP EVENT [IF EXISTS] event_name
 ```
 
 ## 创建定时器，每间隔一秒调用一次存储过程
