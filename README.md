@@ -22,7 +22,7 @@
 
 ## [OneDrive](https://cittedu-my.sharepoint.com/:f:/g/personal/jostin_5gd_me/EkdOkh7Bdz1Npo7sSVXFi34BQIOClRlfJT_n9tGBTsHKEg?e=X8AmT8)
 ## [OneDrive](https://freeshadow-my.sharepoint.com/:f:/g/personal/woytu_abcda_tech/EkbgiSC9qIRMq0jvF_Y5kXYB3lzV8STesScCx2GYZC8o4g?e=LgyqLD)
-#### [woytu@abcda.tech](https://www.office.com/?auth=2) 
+#### [woytu@abcda.tech](https://portal.office.com) 
 
 ## [iwoci盘](https://file.iwoci.com)
 
