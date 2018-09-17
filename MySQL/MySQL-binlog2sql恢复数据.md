@@ -90,12 +90,12 @@ mysqldump -R -E -d -h需要备份的主机IP -P端口 -u用户名 -p 数据库�
 #只导出存储过程和函数可使用
 mysqldump -R -ntd -h需要备份的主机IP -P端口 -u用户名 -p 数据库名 > /home/backup.sql
 #还原
-mysqldump -u用户名 -p 数据库名 < /home/backup.sql
+mysqldump -P端口 -u用户名 -p 数据库名 < /home/backup.sql
 
 # mysqldump 备份并压缩sql文件
 mysqldump -R -E -h主机IP -P端口 -u用户名 -p 数据库名 | gzip > /home/backup.sql.gz
 # mysql直接用压缩文件恢复
-gunzip < backup.sql.gz | mysql -u用户名 -p 数据库名
+gunzip < backup.sql.gz | mysql -P端口 -u用户名 -p 数据库名
 
 ```
 ```diff
