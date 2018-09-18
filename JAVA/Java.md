@@ -18,8 +18,25 @@
         int sec = c.get(Calendar.SECOND);//获取当前秒
         
         Calendar c = Calendar.getInstance(TimeZone.getTimeZone("GMT+08:00"));//获取东八区时间
-        
 ```
+## 获取一天的开始时间和结束时间
+```java
+Date date=new Date();//取时间
+date.clearTime()
+Calendar calendar = new GregorianCalendar();
+calendar.setTime(date);
+calendar.set(Calendar.HOUR,0)
+calendar.set(Calendar.MINUTE,0)
+calendar.set(Calendar.SECOND,0)
+calendar.set(Calendar.MILLISECOND,0)
+System.out.println("开始时间："+calendar.getTime())
+calendar.set(Calendar.HOUR,23)
+calendar.set(Calendar.MINUTE,59)
+calendar.set(Calendar.SECOND,59)
+calendar.set(Calendar.MILLISECOND,999)
+System.out.println("结束时间："+calendar.getTime())
+```
+
 
 ## BigDecimal
 ```sql
