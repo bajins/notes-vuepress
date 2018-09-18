@@ -26,7 +26,7 @@
  * @param date
  * @return
  */
-public static Date addToDayStart(Date date) {
+public static Date toDayStart(Date date) {
         // Calendar calendar = new GregorianCalendar();
         Calendar calendar = Calendar.getInstance();
 
@@ -42,7 +42,7 @@ public static Date addToDayStart(Date date) {
  * @param date
  * @return
  */
-public static Date addToDayEnd(Date date) {
+public static Date toDayEnd(Date date) {
         // Calendar calendar = new GregorianCalendar();
         Calendar calendar = Calendar.getInstance();
 
