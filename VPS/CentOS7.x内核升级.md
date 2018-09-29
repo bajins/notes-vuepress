@@ -16,7 +16,7 @@ http://www.vspeed.org/?vs
 
 ### 在线PAC
 [https://github.com/lbp0200/mono_pac](https://github.com/lbp0200/mono_pac)
-
+[https://github.com/ToyoDAdoubi/doubi/blob/master/other/pac.txt](https://github.com/ToyoDAdoubi/doubi/blob/master/other/pac.txt)
 *********************************************************************************
 
 
