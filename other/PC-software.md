@@ -14,6 +14,8 @@
 ---
 [好压5.9.7.10877纯净版20180526](https://www.lanzous.com/i15n73e)
 
+---
+[显示当前网速、CPU及内存利用率的桌面悬浮窗软件](https://github.com/zhongyang219/TrafficMonitor)
 
 ---
 # 内网穿透
