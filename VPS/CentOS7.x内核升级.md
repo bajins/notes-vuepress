@@ -79,6 +79,7 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 uname -r
 ```
 ### 查看内核版本，显示为最新版就表示 OK 了
+### 一：
 ```sehll
 sysctl net.ipv4.tcp_available_congestion_control
 ```
@@ -88,6 +89,7 @@ sysctl net.ipv4.tcp_available_congestion_control
 # 或者为：
 +net.ipv4.tcp_available_congestion_control = reno cubic bbr
 ```
+### 二：
 ```sehll
 sysctl net.ipv4.tcp_congestion_control
 ```
@@ -95,6 +97,7 @@ sysctl net.ipv4.tcp_congestion_control
 ```diff
 +net.ipv4.tcp_congestion_control = bbr
 ```
+### 三：
 ```sehll
 sysctl net.core.default_qdisc
 ```
