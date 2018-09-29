@@ -18,6 +18,12 @@
 [显示当前网速、CPU及内存利用率的桌面悬浮窗软件](https://github.com/zhongyang219/TrafficMonitor)
 
 ---
+[剪切板增强工具ClipboardFusion](https://www.clipboardfusion.com/Download/)
+
+---
+[Windows剪贴板工具Ditto](https://ditto-cp.sourceforge.io/)
+
+---
 # 内网穿透
 
 ## [ngrok](https://github.com/inconshreveable/ngrok)
