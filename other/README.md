@@ -1,7 +1,7 @@
 # 放其他文件
-## [PC软件](./other/PC-software.md)
+## [PC软件](/other/PC-software.md)
 
-## [内网穿透frp](./other/Frp.md)
+## [内网穿透frp](/other/Frp.md)
 
 
 
