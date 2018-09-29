@@ -1,3 +1,27 @@
+# BBR
+## OpenVZ魔改BBR的一键安装脚本 by [南琴浪博客](https://github.com/nanqinlang-tcp/tcp_nanqinlang-test)
+
+### 安装命令参考https://github.com/tcp-nanqinlang/wiki/wiki/lkl-haproxy
+
+## KVM一键安装最新内核并开启 BBR 脚本 by [秋水逸冰](https://teddysun.com/489.html)
+
+
+# 各类VPS网络加速软件一键安装脚本整理 by [荒岛](https://lala.im/638.html)
+
+https://github.com/shadowsocks/shadowsocks-windows/releases
+
+https://github.com/shadowsocks/shadowsocks-android/releases
+
+http://www.vspeed.org/?vs
+
+### 在线PAC
+[https://github.com/lbp0200/mono_pac](https://github.com/lbp0200/mono_pac)
+
+*********************************************************************************
+
+
+
+
 检查当前 CentOS 系统版本
 cat /etc/redhat-release
 
