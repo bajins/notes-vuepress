@@ -21,7 +21,7 @@
 [剪切板增强工具ClipboardFusion](https://www.clipboardfusion.com/Download/)
 
 ---
-[Windows剪贴板工具Ditto](https://ditto-cp.sourceforge.io/)
+[推荐：Windows剪贴板工具Ditto](https://ditto-cp.sourceforge.io/)
 
 ---
 # 内网穿透
