@@ -17,6 +17,7 @@ http://www.vspeed.org/?vs
 ### 在线PAC
 https://github.com/lbp0200/mono_pac
 
+#### 需手动复制覆盖本地PAC文件
 https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/other/pac.txt
 *********************************************************************************
 
