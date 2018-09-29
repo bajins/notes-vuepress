@@ -68,7 +68,7 @@ yum remove 内核名字
 ```
 
 ----------------------------------------------------
-## 使用[秋水逸冰](https://github.com/teddysun/across)的一键安装脚本
+# 使用[秋水逸冰](https://github.com/teddysun/across)的一键安装脚本
 ### 使用root用户登录，运行以下命令：
 ```sehll
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
@@ -107,7 +107,7 @@ lsmod | grep bbr
 ```
 ##### 返回值有 tcp_bbr 模块即说明 bbr 已启动。注意：并不是所有的 VPS 都会有此返回值，若没有也属正常。
 
-### CentOS 下最新版内核 headers 安装方法
+## CentOS 下最新版内核 headers 安装方法
 ##### 本来打算在脚本里直接安装 kernel-ml-headers，但会出现和原版内核 headers 冲突的问题。因此在这里添加一个脚本执行完后，手动安装最新版内核 headers 之教程。
 ### 执行以下命令
 ```sehll
@@ -132,7 +132,7 @@ yum --enablerepo=elrepo-kernel -y install kernel-ml-headers
 #### 为什么要安装最新版内核 headers 呢？
 ##### 这是因为 shadowsocks-libev 版有个 tcp fast open 功能，如果不安装的话，这个功能是无法开启的。
 
-### 内核升级方法
+## 内核升级方法
 #### 如果是 CentOS 系统，执行如下命令即可升级内核：
 ```sehll
 yum -y install kernel-ml kernel-ml-devel
