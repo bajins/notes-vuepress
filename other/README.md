@@ -7,3 +7,4 @@
 
 
 ### [科学上网](https://github.com/bannedbook/fanqiang/wiki)
+[https://github.com/ldqk/new-pac](https://github.com/ldqk/new-pac)
