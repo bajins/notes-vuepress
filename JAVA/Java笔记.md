@@ -61,13 +61,20 @@ public static Date toDayEnd(Date date) {
 // 四舍五入保留两位小数
 BigDecimal setScale = new BigDecimal(money).setScale(2, RoundingMode.HALF_UP);
 ```
+
 ## DecimalFormat
 ```java
 double money=0.1585454545451545;
-DecimalFormat dFormat=new DecimalFormat("#.##");
+DecimalFormat dFormat=new DecimalFormat("#.00");
 dFormat.setRoundingMode(RoundingMode.DOWN);//不四舍五入
 String format = dFormat.format(money);
 ```
+
+```diff
++自动填充用0，比如new DecimalFormat("#.00")保留两位小数
++不填充则用#
+```
+
 ## java.math.RoundingMode是一个枚举类，几个参数详解：
 ##### https://blog.csdn.net/alanzyy/article/details/8465098
 ##### https://my.oschina.net/sunchp/blog/670909
