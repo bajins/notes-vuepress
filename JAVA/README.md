@@ -4,7 +4,7 @@
 
 ## log文件夹为aop切面日志拦截
 
-## [Java](/JAVA//Java笔记.md)
+## [Java笔记](/JAVA//Java笔记.md)
 
 ## [项目收集](/JAVA/%E9%A1%B9%E7%9B%AE%E6%94%B6%E9%9B%86.md)
 
