@@ -61,3 +61,21 @@ public static Date toDayEnd(Date date) {
 // 四舍五入保留两位小数
 BigDecimal setScale = new BigDecimal(money).setScale(2, BigDecimal.ROUND_HALF_UP);
 ```
+## java.math.RoundingMode 几个参数详解
+```diff
++RoundingMode.CEILING(对应BigDecimal.ROUND_CEILING)：取右边最近的整数
+
++RoundingMode.UP(对应BigDecimal.ROUND_UP)：
+
++RoundingMode.DOWN(对应BigDecimal.ROUND_DOWN)：去掉小数部分取整，也就是正数取左边，负数取右边，相当于向原点靠近的方向取整
+
++RoundingMode.FLOOR(对应BigDecimal.ROUND_FLOOR)：取左边最近的正数
+
++RoundingMode.HALF_UP(对应BigDecimal.ROUND_HALF_UP)：四舍五入，负数原理同上
+
++RoundingMode.HALF_DOWN(对应BigDecimal.ROUND_HALF_DOWN)：五舍六入，负数先取绝对值再五舍六入再负数
+
++RoundingMode.HALF_EVEN(对应BigDecimal.ROUND_HALF_EVEN)：这个比较绕，整数位若是奇数则四舍五入，若是偶数则五舍六入
+
++RoundingMode.UNNECESSARY(对应BigDecimal.ROUND_UNNECESSARY)：
+```
