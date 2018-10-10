@@ -77,7 +77,7 @@ String format = dFormat.format(money);
 +不填充则用#，比如new DecimalFormat("0.##")小数有就保留没有就去掉
 ```
 
-## java.math.RoundingMode是一个枚举类，几个参数详解：
+## java.math.RoundingMode是一个舍入枚举类，几个参数详解：
 ##### https://blog.csdn.net/alanzyy/article/details/8465098
 ##### https://my.oschina.net/sunchp/blog/670909
 ##### https://blog.csdn.net/chendaoqiu/article/details/45841283
