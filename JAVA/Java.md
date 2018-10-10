@@ -57,15 +57,24 @@ public static Date toDayEnd(Date date) {
 
 
 ## BigDecimal
-```sql
+```java
 // 四舍五入保留两位小数
-BigDecimal setScale = new BigDecimal(money).setScale(2, BigDecimal.ROUND_HALF_UP);
+BigDecimal setScale = new BigDecimal(money).setScale(2, RoundingMode.HALF_UP);
 ```
-## java.math.RoundingMode 几个参数详解
+## DecimalFormat
+```java
+double money=0.1585454545451545;
+DecimalFormat dFormat=new DecimalFormat("#.##");
+dFormat.setRoundingMode(RoundingMode.DOWN);//不四舍五入
+String format = dFormat.format(money);
+```
+## java.math.RoundingMode是一个枚举类，几个参数详解：
+##### https://blog.csdn.net/alanzyy/article/details/8465098
+##### https://my.oschina.net/sunchp/blog/670909
 ```diff
 +RoundingMode.CEILING(对应BigDecimal.ROUND_CEILING)：取右边最近的整数
 
-+RoundingMode.UP(对应BigDecimal.ROUND_UP)：
++RoundingMode.UP(对应BigDecimal.ROUND_UP)：远离零方向舍入的舍入模式
 
 +RoundingMode.DOWN(对应BigDecimal.ROUND_DOWN)：去掉小数部分取整，也就是正数取左边，负数取右边，相当于向原点靠近的方向取整
 
@@ -77,5 +86,5 @@ BigDecimal setScale = new BigDecimal(money).setScale(2, BigDecimal.ROUND_HALF_UP
 
 +RoundingMode.HALF_EVEN(对应BigDecimal.ROUND_HALF_EVEN)：这个比较绕，整数位若是奇数则四舍五入，若是偶数则五舍六入
 
-+RoundingMode.UNNECESSARY(对应BigDecimal.ROUND_UNNECESSARY)：
++RoundingMode.UNNECESSARY(对应BigDecimal.ROUND_UNNECESSARY)：用于断言请求的操作具有精确结果的舍入模式，因此不需要舍入
 ```
