@@ -81,7 +81,7 @@ String format = dFormat.format(money);
 ```diff
 +RoundingMode.CEILING(对应BigDecimal.ROUND_CEILING)：取右边最近的整数
 
-+RoundingMode.UP(对应BigDecimal.ROUND_UP)：远离零方向舍入的舍入模式
++RoundingMode.UP(对应BigDecimal.ROUND_UP)：远离0取整，即负数向左取整，正数向右取整
 
 +RoundingMode.DOWN(对应BigDecimal.ROUND_DOWN)：去掉小数部分取整，也就是正数取左边，负数取右边，相当于向原点靠近的方向取整
 
