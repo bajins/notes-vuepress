@@ -60,6 +60,8 @@ public static Date toDayEnd(Date date) {
 ```java
 // 四舍五入保留两位小数
 BigDecimal setScale = new BigDecimal(money).setScale(2, RoundingMode.HALF_UP);
+// 不四舍五入保留两位小数
+BigDecimal setScale = new BigDecimal(money).setScale(2, RoundingMode.DOWN);
 ```
 
 ## DecimalFormat
