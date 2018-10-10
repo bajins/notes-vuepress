@@ -78,12 +78,13 @@ String format = dFormat.format(money);
 ## java.math.RoundingMode是一个枚举类，几个参数详解：
 ##### https://blog.csdn.net/alanzyy/article/details/8465098
 ##### https://my.oschina.net/sunchp/blog/670909
+##### https://blog.csdn.net/chendaoqiu/article/details/45841283
 ```diff
 +RoundingMode.CEILING(对应BigDecimal.ROUND_CEILING)：取右边最近的整数
 
 +RoundingMode.UP(对应BigDecimal.ROUND_UP)：远离0取整，即负数向左取整，正数向右取整
 
-+RoundingMode.DOWN(对应BigDecimal.ROUND_DOWN)：去掉小数部分取整，也就是正数取左边，负数取右边，相当于向原点靠近的方向取整
++RoundingMode.DOWN(对应BigDecimal.ROUND_DOWN)：从不在舍弃(即截断)的小数之前增加数字（其实就是截断的意思）
 
 +RoundingMode.FLOOR(对应BigDecimal.ROUND_FLOOR)：取左边最近的正数
 
