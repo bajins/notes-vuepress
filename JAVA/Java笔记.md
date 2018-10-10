@@ -67,14 +67,14 @@ BigDecimal setScale = new BigDecimal(money).setScale(2, RoundingMode.DOWN);
 ## DecimalFormat
 ```java
 double money=0.1585454545451545;
-DecimalFormat dFormat=new DecimalFormat("#.00");// 保留两位小数
+DecimalFormat dFormat=new DecimalFormat("0.00");// 保留两位小数
 dFormat.setRoundingMode(RoundingMode.DOWN);// 不四舍五入
 String format = dFormat.format(money);
 ```
 
 ```diff
-+自动填充用0，比如new DecimalFormat("#.00")保留两位小数
-+不填充则用#
++自动填充用0，比如new DecimalFormat("0.00")保留两位小数
++不填充则用#，比如new DecimalFormat("0.##")小数有就保留没有就去掉
 ```
 
 ## java.math.RoundingMode是一个枚举类，几个参数详解：
