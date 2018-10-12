@@ -27,6 +27,8 @@
 
 ## [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625/)
 
+## [Git服务器：Gitea安装教程](https://www.moerats.com/archives/578/)
+
 ## [acme.sh 实现了acme 协议, 可以从 letsencrypt 生成免费的证书.](https://github.com/Neilpang/acme.sh)
 
 ## [Cloudreve-基于ThinkPHP构建的网盘系统，能够助您以较低成本快速搭建起公私兼备的网盘。](https://github.com/HFO4/Cloudreve)
