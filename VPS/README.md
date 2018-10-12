@@ -36,4 +36,4 @@
 
 ### [php-zdir](https://github.com/helloxz/zdir)
 
-### [萌音影视 - 在线影视应用](https://github.com/178146582/moeins)
+### [萌音影视 - 在线影视应用](https://github.com/178146582/moeins) [安装教程](https://www.moerats.com/archives/744/)
