@@ -142,7 +142,8 @@ slow_query_log=1
 slow-query-log-file=/var/lib/mysql/mysql-slow.log
 long_query_time=3
 #log_queries_not_using_indexes=on
-early-plugin-load = ""
+# MySQL5.7.11拥有，默认值为keyring_file，InnoDB表空间在初始化InnoDB之前需要此插件来加密，MySQL5.7.12及以后此参数默认为空
+#early-plugin-load = ""
 
 #loose-innodb-trx=0
 #loose-innodb-locks=0
@@ -258,7 +259,8 @@ slow_query_log=1
 slow-query-log-file=/usr/local/mysql/data/mysql-slow.log
 long_query_time=3
 #log_queries_not_using_indexes=on
-early-plugin-load = ""
+# MySQL5.7.11拥有，默认值为keyring_file，InnoDB表空间在初始化InnoDB之前需要此插件来加密，MySQL5.7.12及以后此参数默认为空
+#early-plugin-load = ""
 
 #loose-innodb-trx=0
 #loose-innodb-locks=0
