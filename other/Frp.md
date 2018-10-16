@@ -39,23 +39,23 @@ Please input privilege_token (Default: WEWLRgwRjIJVPx2kuqzkGnvuftPLQniq):
 + 设置每个代理可以创建的连接池上限，默认50
 Please input frps max_pool_count [1-200](Default max_pool_count: 50):
 
++ 设置日志等级，4个选项，默认是info
 ##### Please select log_level #####
 1: info
 2: warn
 3: error
 4: debug
 #####################################################
-+ 设置日志等级，4个选项，默认是info
 Enter your choice (1, 2, 3, 4 or exit. default [1]):
 
 + 设置日志保留天数，范围是1到30天，默认保留3天。
 Please input frps log_max_days [1-30](Default log_max_days: 3 day):
 
++ 设置是否开启日志记录，默认开启，开启后日志等级及保留天数生效，否则等级和保留天数无效
 ##### Please select log_file #####
 1: enable
 2: disable
 #####################################################
-+ 设置是否开启日志记录，默认开启，开启后日志等级及保留天数生效，否则等级和保留天数无效
 Enter your choice (1, 2 or exit. default [1]):
 
 ```
