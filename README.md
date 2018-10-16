@@ -7,6 +7,10 @@
   * [By guodongxiaren](https://github.com/guodongxiaren/README)
 * [【简明版】有道云笔记Markdown指南](http://note.youdao.com/iyoudao/?p=2411&vendor=unsilent14)
 * [Markdown编辑器](Markdown编辑器.md)
+## Github获取仓库最新Release版本号API
+```
+https://api.github.com/repos/用户名/项目名/releases/latest
+```
 
 ## [IDE](IDE)
 
@@ -27,7 +31,7 @@
 ## [iwociCloudDisk](https://file.iwoci.com)
 ## [oneIndex](https://one.woytu.com)
 
-## [Github-Release-API](https://developer.github.com/v3/repos/releases/)
+
 
 *******************
 > [回到顶部](#readme)
