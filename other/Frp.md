@@ -3,7 +3,7 @@
 ## [frps一键安装脚本地址](https://github.com/clangcn/onekey-install-shell/tree/master/frps)
 
 ### https://github.com/clangcn/onekey-install-shell
-
+#### [获取最新版本frp](https://api.github.com/repos/fatedier/frp/releases/latest)
 ```shell
 # 安装
 wget --no-check-certificate https://raw.githubusercontent.com/clangcn/onekey-install-shell/master/frps/install-frps.sh -O ./install-frps.sh && chmod 700 ./install-frps.sh && ./install-frps.sh install
