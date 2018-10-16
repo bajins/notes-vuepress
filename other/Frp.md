@@ -33,8 +33,14 @@ Please input frps vhost_https_port [1-65535](Default vhost_https_port: 443):
 + 输入frp的控制台服务端口，用于查看frp工作状态
 Please input frps dashboard_port [1-65535](Default dashboard_port: 6443):
 
++输入控制台账号，默认admin
+Please input dashboard_user (Default: admin):
+
++输入控制台密码，默认随机
+Please input dashboard_pwd (Default: d5Ai7XhC):
+
 + 输入frp服务器和客户端通信的密码，默认是随机生成的
-Please input privilege_token (Default: WEWLRgwRjIJVPx2kuqzkGnvuftPLQniq):
+Please input token (Default: QZwoVJKgfLMhSQ1B):
 
 + 设置每个代理可以创建的连接池上限，默认50
 Please input frps max_pool_count [1-200](Default max_pool_count: 50):
@@ -46,7 +52,7 @@ Please input frps max_pool_count [1-200](Default max_pool_count: 50):
 3: error
 4: debug
 #####################################################
-Enter your choice (1, 2, 3, 4 or exit. default [1]):
+
 
 + 设置日志保留天数，范围是1到30天，默认保留3天。
 Please input frps log_max_days [1-30](Default log_max_days: 3 day):
@@ -56,7 +62,18 @@ Please input frps log_max_days [1-30](Default log_max_days: 3 day):
 1: enable
 2: disable
 #####################################################
-Enter your choice (1, 2 or exit. default [1]):
+
+
+##### Please select tcp_mux #####
+1: enable (default)
+2: disable
+#####################################################
+
+
+##### Please select kcp support #####
+1: enable (default)
+2: disable
+#####################################################
 
 ```
 
