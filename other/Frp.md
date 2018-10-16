@@ -47,7 +47,7 @@ Please input frps max_pool_count [1-200](Default max_pool_count: 50):
 
 + 设置日志等级，4个选项，默认是info
 ##### Please select log_level #####
-1: info
+1: info(default)
 2: warn
 3: error
 4: debug
@@ -59,7 +59,7 @@ Please input frps log_max_days [1-30](Default log_max_days: 3 day):
 
 + 设置是否开启日志记录，默认开启，开启后日志等级及保留天数生效，否则等级和保留天数无效
 ##### Please select log_file #####
-1: enable
+1: enable(default)
 2: disable
 #####################################################
 
