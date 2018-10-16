@@ -24,11 +24,11 @@ Please input your server setting:
 + 输入frp提供服务的端口，用于服务器端和客户端通信
 Please input frps bind_port [1-65535](Default Server Port: 5443):
 
-+ 输入frp的控制台服务端口，用于查看frp工作状态
-Please input frps dashboard_port [1-65535](Default dashboard_port: 6443):
-
 + 输入frp进行http穿透的http服务端口
 Please input frps vhost_http_port [1-65535](Default vhost_http_port: 80):
+
++ 输入frp的控制台服务端口，用于查看frp工作状态
+Please input frps dashboard_port [1-65535](Default dashboard_port: 6443):
 
 + 输入frp进行https穿透的https服务端口
 Please input frps vhost_https_port [1-65535](Default vhost_https_port: 443):
