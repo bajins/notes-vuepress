@@ -27,6 +27,7 @@
 ## [iwociCloudDisk](https://file.iwoci.com)
 ## [oneIndex](https://one.woytu.com)
 
+## [Github-Release-API](https://developer.github.com/v3/repos/releases/)
 
 *******************
 > [回到顶部](#readme)
