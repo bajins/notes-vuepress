@@ -336,9 +336,10 @@ cd /usr/local/mysql/bin
 ```sql
 SET password=password("root");
 ```
-登录授权：
+创建用户并授权：
 ```sql
-GRANT ALL PRIVILEGES on *.* to'root' @'%' IDENTIFIED BY 'root';
+# WITH GRANT OPTION 这个选项表示该用户可以将自己拥有的权限授权给别人
+GRANT ALL PRIVILEGES on *.* to'root' @'%' IDENTIFIED BY 'root' WITH GRANT OPTION;
 ```
 刷新授权：
 ```sql
