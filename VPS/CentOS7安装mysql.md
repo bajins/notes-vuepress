@@ -165,12 +165,14 @@ systemctl restart mysqld
 
 -------------------------------------------------------------------------
 ### MariaDB 远程连接：
-#### 针对ip
+#### 创建用户并授权针对ip
 ```sql
-create user 'root'@'192.168.10.10' identified by 'password';
+# WITH GRANT OPTION 这个选项表示该用户可以将自己拥有的权限授权给别人
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.1.10' IDENTIFIED BY '123456' WITH GRANT OPTION;
 ```
-#### 全部
+#### 创建用户并授权全部
 ```sql
+# WITH GRANT OPTION 这个选项表示该用户可以将自己拥有的权限授权给别人
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;
 ```
 #### 刷新权限表
@@ -199,10 +201,9 @@ set password for 'root'@'localhost'=password('123456');
 update user set password=PASSWORD("123456") where user='root';
 ```
 
-#### 设置远程访问：
+#### 创建用户并授权：
 ```sql
-grant all privileges on *.* to 'root'@'%' identified by'123456';
-#或者
+# WITH GRANT OPTION 这个选项表示该用户可以将自己拥有的权限授权给别人
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '你的密码' WITH GRANT OPTION;
 ```
 #### 刷新MySQL的权限相关表
