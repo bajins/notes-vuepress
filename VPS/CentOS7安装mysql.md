@@ -141,17 +141,23 @@ update user set authentication_string = password('新密码'),password_expired =
 ```
 ##### 在之前的版本中，密码字段的字段名是 password，5.7版本改为了 authentication_string
 
+#### 使用set password for ‘用户名’@’主机名’=password(‘密码’)：
+```sql
+set password for 'root'@'localhost'=password('123456');
+```
+#### 或者使用update修改:
+```sql
+update user set password=PASSWORD("123456") where user='root';
+```
 
 
 ### 修改远程主机连接权限：
-
-#### 指定mysql表，更新连接权限：
+#### 这里要说一下GRANT命令：
+##### 当数据库存在用户的时候GRANT会对用户进行授权，但当数据库不存在该用户的时候，就会创建相应的用户并进行授权。
+#### 创建用户并权限：
 ```sql
-update user set host = '%' where user ='root';
-```
-#### 查看是否更新成功，即host下面是否为%号：
-```sql
-select host, user from user;
+# WITH GRANT OPTION 这个选项表示该用户可以将自己拥有的权限授权给别人
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.1.10' IDENTIFIED BY '123456' WITH GRANT OPTION;
 ```
 #### 最后，刷新MySQL的权限相关表：
 ```sql
@@ -163,72 +169,6 @@ systemctl restart mysqld
 ```
 #### [放开MySQL防火墙端口](/VPS/linux命令.md#防火墙)
 
--------------------------------------------------------------------------
-### MariaDB 远程连接：
-#### 创建用户并授权针对ip
-```sql
-# WITH GRANT OPTION 这个选项表示该用户可以将自己拥有的权限授权给别人
-GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.1.10' IDENTIFIED BY '123456' WITH GRANT OPTION;
-```
-#### 创建用户并授权全部
-```sql
-# WITH GRANT OPTION 这个选项表示该用户可以将自己拥有的权限授权给别人
-GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;
-```
-#### 刷新权限表
-```sql
-FLUSH PRIVILEGES;
-```
-#### 重启服务：
-```sell
-systemctl restart mysqld
-```
--------------------------------------------------------------------------
-
-### 5.7以下修改密码 
-#### 修改密码有几种方式 
-
-#### 首先查看原有的配置 
-```sql
-select host,user,password from mysql.user;
-```
-#### 使用set password for ‘用户名’@’主机名’=password(‘密码’)：
-```sql
-set password for 'root'@'localhost'=password('123456');
-```
-#### 或者使用update修改:
-```sql
-update user set password=PASSWORD("123456") where user='root';
-```
-
-#### 创建用户并授权：
-```sql
-# WITH GRANT OPTION 这个选项表示该用户可以将自己拥有的权限授权给别人
-GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '你的密码' WITH GRANT OPTION;
-```
-#### 刷新MySQL的权限相关表
-```sql
-flush privileges;
-```
-#### 重启mysql
-```sell
-service mysql restart
-#或者
-service mysqld restart
-```
-注意：初次安装设置密码时候一定要使用update修改密码，更改root密码。
-这样使用localhost或者127.0.0.1时候密码都一样。否则很有可能不一样，导致不能使用，
-如果数据库服务器和web等在一个服务器的时候，尽量使用localhost。
-在linux下mysql使用localhost的时候使用的是unix套接字，而其他使用的是tcp/ip协议。
-
-#### 设置服务端编码：
-```shell
-vi /etc/my.cnf
-```
-#### 添加到 [mysqld] 这个标志下面
-```shell
-character-set-server=utf8
-```
 
 -----------------------------------------------------------------------------------------------------------------------
 # 编译安装
