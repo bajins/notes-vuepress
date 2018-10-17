@@ -159,7 +159,7 @@ update user set password=PASSWORD("123456") where user='root';
 ```
 #### 创建用户并权限：
 ```sql
-GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.1.10' IDENTIFIED BY '123456' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '密码' WITH GRANT OPTION;
 ```
 #### 最后，刷新MySQL的权限相关表：
 ```sql
@@ -280,7 +280,7 @@ SET password=password("root");
 ```
 创建用户并授权：
 ```sql
-GRANT ALL PRIVILEGES on *.* to'root' @'%' IDENTIFIED BY 'root' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '密码' WITH GRANT OPTION;
 ```
 刷新授权：
 ```sql
