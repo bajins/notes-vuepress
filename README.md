@@ -18,8 +18,7 @@ https://api.github.com/repos/用户名/项目名/releases/latest
 
 ## [VPS](VPS)
 
-## [蓝凑云](https://www.lanzous.com/u/ding_jostin)
-[蓝凑云(备用地址)](https://pan.lanzou.com/u/ding_jostin)
+## [蓝凑云](https://www.lanzous.com/u/ding_jostin) [蓝凑云(备用地址)](https://pan.lanzou.com/u/ding_jostin)
 
 #### [woytu@abcda.tech](https://portal.office.com) 
 
