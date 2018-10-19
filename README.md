@@ -3,9 +3,9 @@
 * [【简明版】有道云笔记Markdown指南](http://note.youdao.com/iyoudao/?p=2411&vendor=unsilent14)
 * [Markdown编辑器](Markdown编辑器.md)
 ## Github获取仓库最新Release版本号API
-```
-https://api.github.com/repos/用户名/项目名/releases/latest
-```
+
+  https://api.github.com/repos/用户名/项目名/releases/latest
+
 
 ## [IDE](IDE)
 
