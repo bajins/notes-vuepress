@@ -193,4 +193,10 @@ yum install -y which gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-dev
 ```
 ------------------------------------------------------------
 
+
+Linux下的命令行工具，我们经常会看到一些终端工具有一个字符Logo,这些Logo可以通过Figlet生成：
+```shell
+yum install -y figlet
+```
+
 # [返回顶部](#readme)
