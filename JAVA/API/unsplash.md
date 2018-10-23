@@ -1,5 +1,9 @@
 # unsplash
 
+```diff
++参数per_page为获取数量
+```
+
 获取最新
 https://unsplash.com/napi/photos?page=页数&per_page=30&order_by=latest
 
