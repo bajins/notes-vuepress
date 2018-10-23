@@ -9,7 +9,7 @@
 
 ## [navicat激活By DoubleLabyrinth](https://github.com/DoubleLabyrinth/navicat-keygen)
 
-## [navicat激活By DeltaFoX/TeamURET](https://dfox.it/DeFconX/files/file/79-navicat-software/)
+## [navicat激活By DeltaFoX/TeamURET](https://dfox.it/DeFconX/tags/navicat/)
 
 ## NavicatPremium：https://www.lanzous.com/b269576/ 密码:1zhx
 
