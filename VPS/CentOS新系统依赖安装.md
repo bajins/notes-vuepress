@@ -198,5 +198,14 @@ Linux下的命令行工具，我们经常会看到一些终端工具有一个字
 ```shell
 yum install -y figlet
 ```
+```diff
+居中显示用 -c ,
+从文件导入用 -p，比如从testfile导入
+figlet -c -p < testfile
+还可以用-w指定宽度。
+
++ 实时显示时间
+watch -n1 "date '+%D%n%T' |figlet -k"
+```
 
 # [返回顶部](#readme)
