@@ -1,7 +1,7 @@
 # unsplash
 
 ```diff
-+参数per_page为获取数量
++参数per_page为获取数量，最大值30
 ```
 
 获取最新
