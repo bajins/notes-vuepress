@@ -207,5 +207,24 @@ figlet -c -p < testfile
 + 实时显示时间
 watch -n1 "date '+%D%n%T' |figlet -k"
 ```
+这个工具提供了 n 种样式，例如各种动物等，然后你输入的字符就放在这些图案的内部空白处。
+```shell
+yum -y install boxes
+```
+使用boxes -l列出所有的样式。
+ ```diff
+echo [text] | boxes -d [style name]
+比如dog
+echo "Hello World" | boxes -d dog
+```
+Toilet可以输出更丰富的样式，它比 figlet 命令的效果更有艺术感。
+
+```diff
+echo "Hello World" | toilet -f term -F border --gay
+可以有颜色
+toilet -f mono12 -F metal Linux
+多种样式
+while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done
+```
 
 # [返回顶部](#readme)
