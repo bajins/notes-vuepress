@@ -11,6 +11,8 @@
 
 ## [navicat激活By DeltaFoX/TeamURET](https://dfox.it/DeFconX/tags/navicat/)
 
+## [Netsarang激活By DeltaFoX/TeamURET](https://dfox.it/DeFconX/tags/xmanager/)
+
 ## NavicatPremium：https://www.lanzous.com/b269576/ 密码:1zhx
 
 ## SublimeText编辑器 https://www.lanzous.com/b162929/ 密码:almo
