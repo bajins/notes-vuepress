@@ -26,6 +26,8 @@
 ---
 # 内网穿透
 
+## [ngrok、frp、n2n](http://www.lu8.win/)
+
 ## [ngrok](https://github.com/inconshreveable/ngrok)
 #### [http://www.ngrok.cn/](http://www.ngrok.cn/)
 
@@ -52,7 +54,7 @@
 
 ## [frp=使用相对复杂，需要代理服务器支持](https://github.com/fatedier/frp/blob/master/README_zh.md)
 
-### [Frp-Server一键安装脚本](Frp.md)
+### [Frp-Server一键安装脚本](/other/Frp.md)
 
 ### [FRP内网穿透服务端和客户端都是windows](http://www.kaixinit.com/info/maintenance/363.html)
 
