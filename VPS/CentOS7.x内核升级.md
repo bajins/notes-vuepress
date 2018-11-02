@@ -3,7 +3,7 @@
 
 ### 安装命令参考https://github.com/tcp-nanqinlang/wiki/wiki/lkl-haproxy
 
-## KVM一键安装最新内核并开启 BBR 脚本 by [秋水逸冰](https://teddysun.com/489.html) [GitHub](https://github.com/teddysun/across/)
+## KVM一键安装最新内核并开启 BBR 脚本 by [秋水逸冰](https://teddysun.com/489.html) [GitHub-teddysun](https://github.com/teddysun/across/)
 
 
 # 各类VPS网络加速软件一键安装脚本整理 by [荒岛](https://lala.im/638.html)
