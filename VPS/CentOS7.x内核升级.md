@@ -3,7 +3,7 @@
 
 ### 安装命令参考https://github.com/tcp-nanqinlang/wiki/wiki/lkl-haproxy
 
-## [KVM一键安装最新内核并开启BBR](#1) [GitHub-teddysun](https://github.com/teddysun/across/)
+## [KVM一键安装最新内核并开启BBR](#一)
 
 
 # 各类VPS网络加速软件一键安装脚本整理 by [荒岛](https://lala.im/638.html)
@@ -94,7 +94,7 @@ yum remove 内核名字
 ```
 
 ----------------------------------------------------
-##### 1 
+##### 一 
 # 使用[秋水逸冰](https://github.com/teddysun/across)的一键安装脚本
 ### 使用root用户登录，运行以下命令：
 ```sehll
