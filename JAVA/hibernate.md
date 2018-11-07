@@ -26,9 +26,20 @@ List<Map<String, Object>> list = session.createSQLQuery(sql).setResultTransforme
 ```java
 Double result = (Double) session.createSQLQuery(querySql).uniqueResult();
 ```
-### QBC查询
-##### 在hibernate5.2发布后，createCriteria()查询的方式发生了变化。原有的session.createCriteria()方法已经过时。替代的方式是使用JPA Criteria。
-
+## QBC查询
+### hibernate5.2版本之前createCriteria()查询的方式
+```java
+// Restrictions.in传值为数组或list集合
+List<String> status = Arrays.asList(InvestConstants.InvestStatus.REPAYING,InvestConstants.InvestStatus.OVERDUE);
+DetachedCriteria criteria = DetachedCriteria.forClass(InvestExtensionPlan.class);
+criteria.createAlias("invest", "i");// 当查询关联第三张表时，第二张表需要取别名
+criteria.add(Restrictions.eq("i.loan.id", loanExtensionPlan.getLoan().getId()));
+criteria.add(Restrictions.in("status", status));
+iCriteria.addOrder(Order.desc("period"));// 添加排序
+List<InvestExtensionPlan> investExtensionPlans = getHt().findByCriteria(criteria);
+```
+#### 在hibernate5.2发布后，createCriteria()查询的方式发生了变化。原有的session.createCriteria()方法已经过时。替代的方式是使用JPA Criteria。
+#### session.createSQLCriteria()方法也过时了，当然可以用session.createNativeCriteria()方法来代替。
 ```java
 //注意导入的包是import javax.persistence.criteria.CriteriaQuery;
 try {
@@ -46,6 +57,7 @@ try {
     //6.创建Query对象并获取结果集list
     Query<Student> query = session.createQuery(criteriaQuery);
     List<Student> list = query.list();
+    // List<Student> list = session.createQuery(criteriaQuery).getResultList();
     //7.遍历结果集
     list.forEach(System.out::println);
     session.getTransaction().commit();
@@ -74,6 +86,7 @@ try {
     Query<Country> query = session.createQuery(criteriaQuery);
     //8.获取查询结构
     List<Country> list = query.list();
+    // List<Student> list = session.createQuery(criteriaQuery).getResultList();
     for (Country country : list) {
 	System.out.println(country);
 	country.getMinisters().forEach(System.out::println);
