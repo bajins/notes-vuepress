@@ -26,8 +26,8 @@ List<Map<String, Object>> list = session.createSQLQuery(sql).setResultTransforme
 ```java
 Double result = (Double) session.createSQLQuery(querySql).uniqueResult();
 ```
-### Hibernate5.2及之后版本 createCriteria()方法过时的替换方式
-##### 在hibernate5.2发布后， criteria查询的方式发生了变化。原有的session.createCriteria()方法已经过时。替代的方式是使用JPA Criteria。
+### QBC查询
+##### 在hibernate5.2发布后，createCriteria()查询的方式发生了变化。原有的session.createCriteria()方法已经过时。替代的方式是使用JPA Criteria。
 
 ```java
 //注意导入的包是import javax.persistence.criteria.CriteriaQuery;
@@ -48,6 +48,36 @@ try {
     List<Student> list = query.list();
     //7.遍历结果集
     list.forEach(System.out::println);
+    session.getTransaction().commit();
+} catch (Exception e) {
+    e.printStackTrace();
+    session.getTransaction().rollback();
+}
+```
+#### 多表查询
+```java
+try {
+    session.beginTransaction();
+    //1.创建CriteriaBuilder
+    CriteriaBuilder criteriaBuilder = session.getCriteriaBuilder();
+    //2.创建CriteriaQuery
+    CriteriaQuery<Country> criteriaQuery = criteriaBuilder.createQuery(Country.class);
+    //3.设置distinct去重
+    criteriaQuery.distinct(true);
+    //4.获取root句柄
+    Root<Country> root = criteriaQuery.from(Country.class);
+    //5.设置fetch的连接对象以及连接类型，此处为迫切左外连接
+    root.fetch("ministers", JoinType.LEFT);
+    //6.设置where查询条件
+    criteriaQuery.where(criteriaBuilder.equal(root.get("cid"), 1));
+    //7.获取Query对象
+    Query<Country> query = session.createQuery(criteriaQuery);
+    //8.获取查询结构
+    List<Country> list = query.list();
+    for (Country country : list) {
+	System.out.println(country);
+	country.getMinisters().forEach(System.out::println);
+    }
     session.getTransaction().commit();
 } catch (Exception e) {
     e.printStackTrace();
