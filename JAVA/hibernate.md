@@ -26,6 +26,34 @@ List<Map<String, Object>> list = session.createSQLQuery(sql).setResultTransforme
 ```java
 Double result = (Double) session.createSQLQuery(querySql).uniqueResult();
 ```
+### Hibernate5.2及之后版本 createCriteria()方法过时的替换方式
+##### 在hibernate5.2发布后， criteria查询的方式发生了变化。原有的session.createCriteria()方法已经过时。替代的方式是使用JPA Criteria。
+
+```java
+//注意导入的包是import javax.persistence.criteria.CriteriaQuery;
+try {
+    session.beginTransaction();
+    //1.创建CriteriaBuilder,用于创建查询
+    CriteriaBuilder criteriaBuilder = session.getCriteriaBuilder();
+    //2.创建CriteriaQuery,用于设置查询语句的信息
+    CriteriaQuery<Student> criteriaQuery = criteriaBuilder.createQuery(Student.class);
+    //3.定义查询的From子句中能出现的类型,也可以用root.get()获取具体的某个属性
+    Root<Student> root = criteriaQuery.from(Student.class);
+    //4.设置WHERE字句的条件，此处条件为score<= 98
+    criteriaQuery.where(criteriaBuilder.lt(root.get("score"), 98));
+    //5.设置排序标准与排序方式
+    criteriaQuery.orderBy(criteriaBuilder.desc(root.get("score")));
+    //6.创建Query对象并获取结果集list
+    Query<Student> query = session.createQuery(criteriaQuery);
+    List<Student> list = query.list();
+    //7.遍历结果集
+    list.forEach(System.out::println);
+    session.getTransaction().commit();
+} catch (Exception e) {
+    e.printStackTrace();
+    session.getTransaction().rollback();
+}
+```
 
 ## [调用hibernate存储过程](http://www.voidcn.com/article/p-kixpjimv-qq.html)
 
