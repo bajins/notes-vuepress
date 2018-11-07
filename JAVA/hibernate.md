@@ -35,7 +35,7 @@ DetachedCriteria criteria = DetachedCriteria.forClass(InvestExtensionPlan.class)
 criteria.createAlias("invest", "i");// 当查询关联第三张表时，第二张表需要取别名
 criteria.add(Restrictions.eq("i.loan.id", loanExtensionPlan.getLoan().getId()));
 criteria.add(Restrictions.in("status", status));
-iCriteria.addOrder(Order.desc("period"));// 添加排序
+criteria.addOrder(Order.desc("period"));// 添加排序
 List<InvestExtensionPlan> investExtensionPlans = getHt().findByCriteria(criteria);
 ```
 #### 在hibernate5.2发布后，createCriteria()查询的方式发生了变化。原有的session.createCriteria()方法已经过时。替代的方式是使用JPA Criteria。
