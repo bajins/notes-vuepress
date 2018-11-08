@@ -16,10 +16,8 @@
 
 ## [VPS](VPS)
 
-## [蓝凑云](https://www.lanzous.com/u/ding_jostin) [蓝凑云(备用地址)](https://pan.lanzou.com/u/ding_jostin)
 
-
-## [iwociCloudDisk](https://file.iwoci.com)
+## [woytuCloudDisk](https://file.iwoci.com)
 ## [oneIndex](https://one.woytu.com) [woytu@abcda.tech](https://portal.office.com) 
 
 
