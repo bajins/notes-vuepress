@@ -36,7 +36,7 @@ criteria.createAlias("invest", "i");// 当查询关联第三张表时，第二�
 criteria.add(Restrictions.eq("i.loan.id", loanExtensionPlan.getLoan().getId()));
 criteria.add(Restrictions.in("status", status));
 criteria.addOrder(Order.desc("period"));// 添加排序
-List<InvestExtensionPlan> investExtensionPlans = getHt().findByCriteria(criteria);
+List<InvestExtensionPlan> investExtensionPlans = ht.findByCriteria(criteria);
 ```
 #### 在hibernate5.2发布后，createCriteria()查询的方式发生了变化。原有的session.createCriteria()方法已经过时。替代的方式是使用JPA Criteria。
 #### session.createSQLCriteria()方法也过时了，当然可以用session.createNativeCriteria()方法来代替。
