@@ -18,7 +18,7 @@
 
 
 ## [woytuCloudDisk](https://file.iwoci.com)
-## [oneIndex](https://one.woytu.com) [woytu@abcda.tech](https://portal.office.com) 
+## [woytu@abcda.tech](https://portal.office.com) 
 
 
 
