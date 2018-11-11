@@ -27,6 +27,6 @@ https://wall.alphacoders.com/by_sub_category.php?id=169040&name=Asian&filter=4K+
 https://wall.alphacoders.com/by_category.php?id=33&name=Women&filter=4K+Ultra+HD&page=1
 
 ## 保存：
-https://initiate.alphacoders.com/download/wallpaper/图片编号/images2/jpg/0379087921
+https://initiate.alphacoders.com/download/wallpaper/图片编号/images2/jpg
 ### 例子：
-https://initiate.alphacoders.com/download/wallpaper/947194/images2/jpg/0379087921
+https://initiate.alphacoders.com/download/wallpaper/947194/images2/jpg
