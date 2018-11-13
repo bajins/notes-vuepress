@@ -38,7 +38,7 @@ criteria.add(Restrictions.in("status", status));
 criteria.addOrder(Order.desc("period"));// 添加排序
 List<InvestExtensionPlan> investExtensionPlans = ht.findByCriteria(criteria);
 ```
-#### 根据日期模糊查询方式
+#### 模糊查询和自定义查询
 ```diff
 - 这只能根据当前具体时间查
 //criteria.add(Restrictions.like("time", new Date()));
