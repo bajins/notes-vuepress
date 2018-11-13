@@ -45,7 +45,8 @@ List<InvestExtensionPlan> investExtensionPlans = ht.findByCriteria(criteria);
 + 这样可以根据自己想要的条件查
 criteria.add(Restrictions.sqlRestriction("time like '%2018-11-13%'"));
 ```
-#### 在hibernate5.2发布后，createCriteria()查询的方式发生了变化。原有的session.createCriteria()方法已经过时。替代的方式是使用JPA Criteria。
+### hibernate5.2及之后版本createCriteria()查询的方式
+#### 原有的session.createCriteria()方法已经过时，替代的方式是使用JPA Criteria。
 #### session.createSQLCriteria()方法也过时了，当然可以用session.createNativeCriteria()方法来代替。
 ```java
 //注意导入的包是import javax.persistence.criteria.CriteriaQuery;
