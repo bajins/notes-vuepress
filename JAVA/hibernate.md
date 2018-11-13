@@ -38,6 +38,13 @@ criteria.add(Restrictions.in("status", status));
 criteria.addOrder(Order.desc("period"));// 添加排序
 List<InvestExtensionPlan> investExtensionPlans = ht.findByCriteria(criteria);
 ```
+#### 根据日期模糊查询方式
+```diff
+- 这只能根据当前具体时间查
+//criteria.add(Restrictions.like("time", new Date()));
++ 这样可以根据自己想要的条件查
+criteria.add(Restrictions.sqlRestriction("time like '%2018-11-13%'"));
+``
 #### 在hibernate5.2发布后，createCriteria()查询的方式发生了变化。原有的session.createCriteria()方法已经过时。替代的方式是使用JPA Criteria。
 #### session.createSQLCriteria()方法也过时了，当然可以用session.createNativeCriteria()方法来代替。
 ```java
