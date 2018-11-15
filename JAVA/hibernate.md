@@ -40,9 +40,7 @@ List<InvestExtensionPlan> investExtensionPlans = ht.findByCriteria(criteria);
 ```
 #### 模糊查询和自定义查询
 ```diff
-- 这只能根据当前具体时间查
-//criteria.add(Restrictions.like("time", new Date()));
-+ 这样可以根据自己想要的条件查
+criteria.add(Restrictions.like("time","%" + 2018-11-13 + "%"));
 criteria.add(Restrictions.sqlRestriction("time like '%2018-11-13%'"));
 ```
 ### hibernate5.2及之后版本createCriteria()查询的方式
