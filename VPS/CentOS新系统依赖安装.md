@@ -17,6 +17,7 @@ locale -a
 yum -y install kde-l10n-Chinese
 #glibc-common软件包包括用于GNU libc库的常见二进制文件，以及国家语言（locale）支持。
 yum -y reinstall glibc-common
+yum -y groupinstall chinese-support
 ```
 设置中文utf8编码（临时）：
 ```shell
