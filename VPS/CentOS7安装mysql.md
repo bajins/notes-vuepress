@@ -27,7 +27,7 @@ wget https://repo.mysql.com//mysql80-community-release-el7-1.noarch.rpm
 ```
 #### 安装yum源
 ```shell
-yum -y localinstall mysql-community-server-5.7.22-1.el7.x86_64.rpm
+yum -y localinstall mysql80-community-release-el7-1.noarch.rpm
 ```
 #### 检查yum源是否安装成功
 ```shell
