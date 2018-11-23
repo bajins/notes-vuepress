@@ -99,9 +99,9 @@ public class ${NAME} {
 
 
 ## 自动优化导包
-### 自动删除、导入包
 > [回到顶部](#readme)
-
+### Add unambiguous imports on the fly：快速添加明确的导入。
+### Optimize imports on the fly：快速优化导入，优化的意思即自动帮助删除无用的导入。
 ![](/images/IDEA自动优化导包.png)
 
 
