@@ -98,7 +98,8 @@ public class ${NAME} {
 ![](/images/IDEA%E9%BC%A0%E6%A0%87%E6%82%AC%E5%81%9C%E6%9F%A5%E7%9C%8B%E6%96%B9%E6%B3%95%E6%B3%A8%E9%87%8A.png)
 
 
-## 自动优化导包（自动删除、导入包）
+## 自动优化导包
+### 自动删除、导入包
 > [回到顶部](#readme)
 
 ![](/images/IDEA自动优化导包.png)
