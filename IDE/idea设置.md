@@ -101,7 +101,7 @@ public class ${NAME} {
 ## 自动优化导包
 > [回到顶部](#readme)
 #### Add unambiguous imports on the fly：自动帮我们优化导入的包，比如自动去掉一些没有用到的包。 
-#### Optimize imports on the fly：自动帮我们导入需要用到的包。但是对于那些同名的包，还是需要手动 Alt + Enter 进行导入的
+#### Optimize imports on the fly：自动帮我们导入需要用到的包。但是对于那些同名的包，还是需要手动`Alt + Enter`进行导入的
 ![](/images/IDEA自动优化导包.png)
 
 
