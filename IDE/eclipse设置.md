@@ -37,3 +37,7 @@
 -XX:+UseConcMarkSweepGC
 -XX:CMSInitiatingOccupancyFraction=80
 ```
+
+## Eclipse自动导包设置
+#### 在eclispe中，打开 Window > Preferences > Java > Editor > Save Actions 然后选中 Organize impots
+![](/images/)
