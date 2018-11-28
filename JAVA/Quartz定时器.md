@@ -1,10 +1,10 @@
-Job的状态与并发
+## Job的状态与并发
 
-@DisallowConcurrentExecution，如果使用该注解，那么同一时间将只有一个Job实例被执行。如，ReportJob有个实例为ReportForJoe，那么同一时间只有一个ReportForJoe被执行。而ReportForMike等都可以执行。 
+### @DisallowConcurrentExecution，如果使用该注解，那么同一时间将只有一个Job实例被执行。如，ReportJob有个实例为ReportForJoe，那么同一时间只有一个ReportForJoe被执行。而ReportForMike等都可以执行。 
 
-@PersistJobDataAfterExecution，如果使用该注解，在Job被执行结束后，将会更新JobDataMap，这样下次Job执行后就会使用新的值而不是初始值。
+### @PersistJobDataAfterExecution，如果使用该注解，在Job被执行结束后，将会更新JobDataMap，这样下次Job执行后就会使用新的值而不是初始值。
 
-如果使用@PersistJobDataAfterExecution注解，推荐也使用@DisallowConcurrentExecution注解，这是为了避免并发问题导致数据紊乱。
+### 如果使用@PersistJobDataAfterExecution注解，推荐也使用@DisallowConcurrentExecution注解，这是为了避免并发问题导致数据紊乱。
 
 ```java
 public void addAutoInvestJob(Loan loan) {
