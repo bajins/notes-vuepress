@@ -19,7 +19,8 @@ public void addAutoInvestJob(Loan loan) {
 	Date enDate = DateUtil.addMonth(new Date(), 3);
 	// 定义一个触发器trigger对象，用来执行jobDetail
 	SimpleTrigger trigger1 = TriggerBuilder.newTrigger() //创建一个触发器trigger对象
-			.withIdentity(loan.getId(), ScheduleConstants.TriggerGroup.AUTO_INVEST_AFTER_LOAN_PASSED)// 设置触发器的名字和分组
+			// 设置触发器的名字和分组
+			.withIdentity(loan.getId(), ScheduleConstants.TriggerGroup.AUTO_INVEST_AFTER_LOAN_PASSED)
 			// 设置以哪种方式执行JobDetail：
 			// 一、SimpleScheduleBuilder 简单任务的重复执行SimpleScheduleBuilder.repeatSecondlyForever(5)
 			// 二、CronTrigger 按日历触发任务CronScheduleBuilder.cronSchedule("0 17 1 * * ?")
