@@ -98,7 +98,31 @@ python -m http.server port
 #服务开启后，地址协议类型加IP/目录下的文件： 
 wget host:port/file 就可以下载了
 ```
+### scp
+#### 【优点】简单方便，安全可靠；支持限速参数，不占资源，不会提高多少系统负荷
+#### 【缺点】不支持排除目录 
+#### 【用法】scp就是secure copy，是用来进行远程文件拷贝的。数据传输使用 ssh，并且和ssh 使用相同的认证方式，提供相同的安全保证 。 
+```shell
+scp [参数] <源地址（用户名@IP地址或主机名）>:<文件路径> <目的地址（用户名 @IP 地址或主机名）>:<文件路径> 
+举例： 
+#把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
+scp /home/work/source.txt work@192.168.0.10:/home/work/
+
+#把192.168.0.10机器上的source.txt文件拷贝到本地的/home/work目录下
+scp work@192.168.0.10:/home/work/source.txt /home/work/
+
+#把192.168.0.10机器上的source.txt文件拷贝到192.168.0.11机器的/home/work目录下
+scp work@192.168.0.10:/home/work/source.txt work@192.168.0.11:/home/work/
+
+scp -r /home/work/sourcedir work@192.168.0.10:/home/work/  #拷贝文件夹，加-r参数 
+scp -r /home/work/sourcedir work@www.myhost.com:/home/work/  #使用主机名 
+scp -r -v /home/work/sourcedir work@www.myhost.com:/home/work/  #显示详情，加-v参数
+```
+
 ### rsync
+#### 【优点】功能强大，操作类似scp，支持排除目录，支持限速参数；还支持本地复制。 
+#### 【缺点】会耗系统资源，占用I/O
+#### 【用法】rsync是类unix系统下的数据镜像备份工具，从软件的命名上就可以看出来了——remote sync。它的操作方式和scp和相似，但是比scp强大很多。使用双冒号分割主机名和文件路径时，是使用rsync服务器
 ```shell
 #把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
 rsync /home/work/source.txt work@192.168.0.10:/home/work/
