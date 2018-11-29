@@ -126,23 +126,23 @@ wget host:port/file 就可以下载了
 scp [参数] <源地址（用户名@IP地址或主机名）>:<文件路径> <目的地址（用户名 @IP 地址或主机名）>:<文件路径> 
 举例： 
 # 把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
-scp /home/work/source.txt work@192.168.0.10:/home/work/
+scp -P -p /home/work/source.txt work@192.168.0.10:/home/work/
 
 # 把192.168.0.10机器上的source.txt文件拷贝到本地的/home/work目录下
-scp work@192.168.0.10:/home/work/source.txt /home/work/
+scp -P -p work@192.168.0.10:/home/work/source.txt /home/work/
 
 # 把192.168.0.10机器上的source.txt文件拷贝到192.168.0.11机器的/home/work目录下
-scp work@192.168.0.10:/home/work/source.txt work@192.168.0.11:/home/work/
+scp -P -p work@192.168.0.10:/home/work/source.txt work@192.168.0.11:/home/work/
 
-scp -r /home/work/sourcedir work@192.168.0.10:/home/work/  #拷贝文件夹，加-r参数 
-scp -r /home/work/sourcedir work@www.myhost.com:/home/work/  #使用主机名 
-scp -r -v /home/work/sourcedir work@www.myhost.com:/home/work/  #显示详情，加-v参数
+scp -P -p -r /home/work/sourcedir work@192.168.0.10:/home/work/  #拷贝文件夹，加-r参数 
+scp -P -p -r /home/work/sourcedir work@www.myhost.com:/home/work/  #使用主机名 
+scp -P -p -r -v /home/work/sourcedir work@www.myhost.com:/home/work/  #显示详情，加-v参数
 
 # 将本地A主机文件复制到B主机
-scp -p ./files/yum.log 192.168.214.187:/tmp/demo/
+scp -P -p ./files/yum.log 192.168.214.187:/tmp/demo/
 
 #将远程主机复制到本地
-scp -p 192.168.214.187:/tmp/demo/f3.log /tmp/files/
+scp -P -p 192.168.214.187:/tmp/demo/f3.log /tmp/files/
 ```
 
 ### rsync
