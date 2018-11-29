@@ -8,7 +8,7 @@ set timeout -1
 ## 设置上传配置：文件或文件夹、IP、端口。
 ## IP在前文件路径在后的是从远端下载到本地，文件路径在前IP在后是从本地上传到远端
 ## 从本地上传到远端
-spawn scp -P 223 -p -r /www/wwwroot/file root@192.168.1.2:/www/wwwroot/test
+## spawn scp -P 223 -p -r /www/wwwroot/file root@192.168.1.2:/www/wwwroot/test
 ## 从远端下载到本地
 spawn scp -P 223 -p -r root@192.168.1.1:/www/wwwroot/file /www/wwwroot/test
 ## expect \"password:\"
