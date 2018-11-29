@@ -98,6 +98,29 @@ python -m http.server port
 #服务开启后，地址协议类型加IP/目录下的文件： 
 wget host:port/file 就可以下载了
 ```
+### rsync
+```shell
+#把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
+rsync /home/work/source.txt work@192.168.0.10:/home/work/
+
+#把192.168.0.10机器上的source.txt文件拷贝到本地的/home/work目录下
+rsync work@192.168.0.10:/home/work/source.txt /home/work/
+
+#把192.168.0.10机器上的source.txt文件拷贝到192.168.0.11机器的/home/work目录下
+rsync work@192.168.0.10:/home/work/source.txt work@192.168.0.11:/home/work/
+
+#拷贝文件夹，加-r参数
+rsync -r /home/work/sourcedir work@192.168.0.10:/home/work/
+
+#使用主机名
+rsync -r /home/work/sourcedir work@www.myhost.com:/home/work/
+
+#显示详情，加-v参数
+rsync -r -v /home/work/sourcedir work@www.myhost.com:/home/work/
+
+#排除子目录，注意：--exclude后面的路径不能为绝对路径，必须为相对路径才可以，否则匹配不上，就不会被排除掉。
+rsync -r -v --exclude sourcedir/notinclude /home/work/sourcedir work@www.myhost.com:/home/work/
+```
 
 ## 查找大文件
 ```shell
