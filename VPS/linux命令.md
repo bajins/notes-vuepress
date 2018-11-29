@@ -99,6 +99,7 @@ python -m http.server port
 wget host:port/file 就可以下载了
 ```
 ### scp
+#### [shell脚本](/VPS/scp.sh)使用前请安装expect包：`yum -y install expect expect-devel`
 #### 【优点】简单方便，安全可靠；支持限速参数，不占资源，不会提高多少系统负荷
 #### 【缺点】不支持排除目录 
 #### 【用法】scp就是secure copy，是用来进行远程文件拷贝的。数据传输使用 ssh，并且和ssh 使用相同的认证方式，提供相同的安全保证 。 
