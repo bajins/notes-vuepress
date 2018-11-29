@@ -7,7 +7,11 @@ expect -c "
 set timeout -1
 ## 设置上传配置：文件或文件夹、IP
 spawn scp -P 965 -p -r /www/wwwroot/file root@192.168.1.1:/www/wwwroot/test
-expect \"password:\"
-send \"${des_pass}\r\"
+##expect \"password:\"
+##send \"${des_pass}\r\"
+expect {
+  \"*yes/no*\" {send \"yes\r\"; exp_continue}
+  \"*password*\" {send \"${des_pass}\r\";} ##远程IP的密码。
+}
 expect eof
 "
