@@ -26,6 +26,13 @@ List<Map<String, Object>> list = session.createSQLQuery(sql).setResultTransforme
 ```java
 Double result = (Double) session.createSQLQuery(querySql).uniqueResult();
 ```
+## HQL查询
+```java
+String hql = "from Invest i where i.loan.id=? and i.status=?";
+List<Invest> is = ht.find(hql, new String[] { loanId, InvestStatus.REPAYING });
+```
+
+
 ## QBC查询
 ### hibernate5.2版本之前createCriteria()查询的方式
 ```java
