@@ -30,6 +30,9 @@ Double result = (Double) session.createSQLQuery(querySql).uniqueResult();
 ```java
 String hql = "from Invest i where i.loan.id=? and i.status=?";
 List<Invest> is = ht.find(hql, new String[] { loanId, InvestStatus.REPAYING });
+// 或者
+String hql = "from Invest i where i.loan.id=? and i.status=?";
+List<Invest> is = ht.find(hql, loanId, InvestStatus.REPAYING );
 ```
 
 
