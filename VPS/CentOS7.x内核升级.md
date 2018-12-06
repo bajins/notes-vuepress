@@ -14,6 +14,8 @@ https://github.com/shadowsocks/shadowsocks-android/releases
 
 https://github.com/v2ray/v2ray-core/releases
 
+https://www.v2ray.com/chapter_00/install.html
+
 http://www.vspeed.org/?vs
 
 ### 在线PAC
