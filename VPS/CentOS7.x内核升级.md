@@ -14,6 +14,8 @@ https://github.com/v2ray/v2ray-core/releases
 
 https://www.v2ray.com/chapter_00/install.html
 
+https://github.com/Jrohy/multi-v2ray
+
 http://www.vspeed.org/?vs
 
 ### 在线PAC
