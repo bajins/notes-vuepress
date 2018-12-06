@@ -12,6 +12,8 @@ https://github.com/shadowsocks/shadowsocks-windows/releases
 
 https://github.com/shadowsocks/shadowsocks-android/releases
 
+https://github.com/v2ray/v2ray-core/releases
+
 http://www.vspeed.org/?vs
 
 ### 在线PAC
