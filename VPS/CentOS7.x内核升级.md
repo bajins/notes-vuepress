@@ -6,8 +6,6 @@
 ## [KVM一键安装最新内核并开启BBR](#一)
 
 
-# 各类VPS网络加速软件一键安装脚本整理 by [荒岛](https://lala.im/638.html)
-
 https://github.com/shadowsocks/shadowsocks-windows/releases
 
 https://github.com/shadowsocks/shadowsocks-android/releases
