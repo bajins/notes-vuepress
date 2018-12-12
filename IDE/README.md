@@ -6,6 +6,8 @@
 
 [IDEAPlugins](IDEAPlugins.md)
 
+## Eclipse
+[eclipse设置](eclipse设置.md)
 
 ## [navicat激活By DoubleLabyrinth](https://github.com/DoubleLabyrinth/navicat-keygen)
 
