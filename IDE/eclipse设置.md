@@ -44,6 +44,7 @@
 
 ## Eclipse注释模板设置
 #### 编辑注释模板的方法：`Window->Preference->Java->Code Style->Code Template` 然后展开Comments节点就是所有需设置注释的元素
+#### 类注释/*然后回车自动出来，方法注释/然后回车自动出来
 https://www.cnblogs.com/lr393993507/p/5867623.html
 ### 1.文件(Files)注释标签：
 ```java
