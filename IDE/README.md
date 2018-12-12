@@ -1,12 +1,11 @@
-# IDE
-## IntelliJ IDEA
+# IntelliJ IDEA
 [idea设置](idea%E8%AE%BE%E7%BD%AE.md)
 
 [idea错误解决](idea%E9%94%99%E8%AF%AF%E8%A7%A3%E5%86%B3.md)
 
 [IDEAPlugins](IDEAPlugins.md)
 
-## Eclipse
+# Eclipse
 [eclipse设置](eclipse设置.md)
 
 ## [navicat激活By DoubleLabyrinth](https://github.com/DoubleLabyrinth/navicat-keygen)
