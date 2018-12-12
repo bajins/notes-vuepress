@@ -8,6 +8,8 @@
 # Eclipse
 [eclipse设置](eclipse设置.md)
 
+# other
+
 ## [navicat激活By DoubleLabyrinth](https://github.com/DoubleLabyrinth/navicat-keygen)
 
 ## [navicat激活By DeltaFoX/TeamURET](https://dfox.it/DeFconX/tags/navicat/)
