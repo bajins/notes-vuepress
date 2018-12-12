@@ -1,7 +1,7 @@
-## 显示内存
+# 显示内存
 #### 在eclipse中打开heap状态`windows->perference->general->右边show heap status打上勾->OK `，这时会在eclipse最下面显示一个内存显示了
 
-## Eclipse中jsp、js文件编辑时，卡死现象解决
+# Eclipse中jsp、js文件编辑时，卡死现象解决
 ### 1、取消验证
 #### windows–>perferences–>validation
 #### 把除了manual 下面的全部点掉，build下只留 classpath dependency Validator
@@ -38,11 +38,11 @@
 -XX:CMSInitiatingOccupancyFraction=80
 ```
 
-## Eclipse自动导包设置
+# Eclipse自动导包设置
 #### 在eclispe中，打开 Window > Preferences > Java > Editor > Save Actions 然后选中 Organize impots
 ![](/images/Eclipse保存自动优化设置.png)
 
-## Eclipse注释模板设置
+# Eclipse注释模板设置
 #### 编辑注释模板的方法：`Window->Preference->Java->Code Style->Code Template` 然后展开Comments节点就是所有需设置注释的元素
 #### 注释的使用：输入`/**`然后回车自动出来
 ![](/images/Eclipse自动添加注释.png)
@@ -128,7 +128,7 @@
  * @return: ${field_type} <BR>
  */
 ```
-## Eclipse设置不格式化注释
+# Eclipse设置不格式化注释
 #### eclipse默认自带的风格模板不能直接操作，需要先创建一个新的风格模板才能操作
 ![](/images/Eclipse不格式化注释.png)
 
