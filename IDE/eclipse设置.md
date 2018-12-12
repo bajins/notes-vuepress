@@ -41,3 +41,98 @@
 ## Eclipse自动导包设置
 #### 在eclispe中，打开 Window > Preferences > Java > Editor > Save Actions 然后选中 Organize impots
 ![](/images/Eclipse保存自动优化设置.png)
+
+## Eclipse注释模板设置
+### 编辑注释模板的方法：Window->Preference->Java->Code Style->Code Template 然后展开Comments节点就是所有需设置注释的元素
+https://www.cnblogs.com/lr393993507/p/5867623.html
+### 1.文件(Files)注释标签：
+```java
+/**
+ * @Title:  ${file_name}
+ * @Package ${package_name}
+ * @Description:    ${todo}(用一句话描述该文件做什么)
+ * @author: woytu
+ * @date:   ${date} ${time}
+ * @version V1.0
+ * @Copyright: ${year} woytu.com Inc. All rights reserved.
+ */
+ ```
+### 2.类型(Types)注释标签（类的注释）：
+```java
+/**
+ * @ClassName:  ${type_name}
+ * @Description:${todo}(这里用一句话描述这个类的作用)
+ * @author: woytu
+ * @date:   ${date} ${time}
+ * 
+ * ${tags}
+ * @Copyright: ${year} woytu.com Inc. All rights reserved.
+ */
+ ```
+ ### 3.字段(Fields)注释标签：
+ ```java
+ /**
+ * @Fields ${field} : ${todo}(用一句话描述这个变量表示什么)
+ */
+ ```
+### 4.构造函数标签：
+```java
+/**
+ * @Title:  ${enclosing_type}
+ * @Description:    ${todo}(这里用一句话描述这个方法的作用)
+ * @param:  ${tags}
+ * @throws
+ */
+```
+### 5.方法(Methods)标签：
+```java
+/**
+ * @Title: ${enclosing_method}
+ * @Description: ${todo}(这里用一句话描述这个方法的作用)
+ * @param: ${tags}
+ * @return: ${return_type}
+ * @throws
+ */
+ ```
+### 6.覆盖方法(Overriding Methods)标签:
+```java
+/**
+ * <p>Title: ${enclosing_method}</p>
+ * <p>Description: </p>
+ * ${tags}
+ * ${see_to_overridden}
+ */
+```
+### 7.代表方法(Delegate Methods)标签：
+```java
+/**
+ * ${tags}
+ * ${see_to_target}
+ */
+```
+### 8.getter方法标签：
+```java
+/**
+ * @Title:  ${enclosing_method} <BR>
+ * @Description: please write your description <BR>
+ * @return: ${field_type} <BR>
+ */
+```
+### 9.setter方法标签：
+```java
+/**
+ * @Title:  ${enclosing_method} <BR>
+ * @Description: please write your description <BR>
+ * @return: ${field_type} <BR>
+ */
+```
+### 
+```java
+
+```
+### 
+```java
+
+```
+
+
