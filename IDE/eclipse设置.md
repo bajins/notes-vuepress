@@ -128,13 +128,7 @@
  * @return: ${field_type} <BR>
  */
 ```
-### 
-```java
-
-```
-### 
-```java
-
-```
+## Eclipse设置不格式化注释
+![](/images/Eclipse不格式化注释.png)
 
 
