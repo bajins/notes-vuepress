@@ -53,7 +53,7 @@ https://www.cnblogs.com/lr393993507/p/5867623.html
  * @Title:  ${file_name}
  * @Package ${package_name}
  * @Description:    ${todo}(用一句话描述该文件做什么)
- * @author: woytu
+ * @author: woytu.com
  * @date:   ${date} ${time}
  * @version V1.0
  * @Copyright: ${year} woytu.com Inc. All rights reserved.
@@ -64,7 +64,7 @@ https://www.cnblogs.com/lr393993507/p/5867623.html
 /**
  * @ClassName:  ${type_name}
  * @Description:${todo}(这里用一句话描述这个类的作用)
- * @author: woytu
+ * @author: woytu.com
  * @date:   ${date} ${time}
  * 
  * ${tags}
@@ -136,7 +136,5 @@ https://www.cnblogs.com/lr393993507/p/5867623.html
 ```java
 
 ```
-## Eclipse自动生成注释
-#### `window－>preference－>java－>code  styple－>code  template `当你选择到这部的时候就会看见右侧有一个框显示出code这个选项，你点开这个选项，点一下他下面的`New Java files`然后你点Edit按钮，把他的内容换成你的就可以了
-![]()
+
 
