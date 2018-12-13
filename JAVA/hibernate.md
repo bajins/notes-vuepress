@@ -37,7 +37,7 @@ List<Invest> is = ht.find(hql, loanId, InvestStatus.REPAYING );
 
 
 ## QBC查询
-### 该方式只能用关联表的字段为查询条件，无法使用关联表的其他字段为查询条件
+### 该方式只能用关联表的关联字段为查询条件，无法使用关联表的其他字段为查询条件
 ### hibernate5.2版本之前createCriteria()查询的方式
 ```java
 // Restrictions.in传值为数组或list集合
