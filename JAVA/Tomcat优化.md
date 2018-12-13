@@ -123,7 +123,7 @@ JAVA_OPTS="-Dfile.encoding=UTF-8-server -Xms1024m -Xmx2048m -XX:NewSize=512m -XX
 tomcat.util.http.parser.HttpParser.requestTargetAllow=|{}
 ```
 
-## Tomcat热部署
+# Tomcat热部署
 ### 在`/conf/context.xml`的`Context`标签中配置会使全局生效
 https://tomcat.apache.org/tomcat-9.0-doc/config/context.html#Defining_a_context
 ![](/images/Tomcat配置全局自动加载.png)
