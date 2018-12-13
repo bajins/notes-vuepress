@@ -118,7 +118,7 @@
 #### 修改bin/catalina.bat文件,在setlocal下面一行添加
 ##### jdk8之前
 ```shell
-set JAVA_OPTS="
+set JAVA_OPTS=
     -Dfile.encoding=UTF-8
     -server-Xms1024m
     -Xmx2048m
@@ -128,7 +128,7 @@ set JAVA_OPTS="
     -XX:MaxMetaspaceSize=1024m
     -XX:MaxTenuringThreshold=10
     -XX:NewRatio=2
-    -XX:+DisableExplicitGC"
+    -XX:+DisableExplicitGC
 ```
 ##### jdk8
 ```shell
@@ -150,7 +150,7 @@ set JAVA_OPTS="
 #### 修改bin/catalina.sh文件,在os400=false之前添加
 ##### jdk8之前
 ```shell
-JAVA_OPTS="
+JAVA_OPTS=
     -Dfile.encoding=UTF-8-server
     -Xms1024m -Xmx2048m
     -XX:NewSize=512m
@@ -159,7 +159,7 @@ JAVA_OPTS="
     -XX:MaxPermSize=256m
     -XX:MaxTenuringThreshold=10
     -XX:NewRatio=2
-    -XX:+DisableExplicitGC"
+    -XX:+DisableExplicitGC
 ```
 ##### jdk8
 ```shell
