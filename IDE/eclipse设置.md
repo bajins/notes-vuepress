@@ -11,32 +11,7 @@
 
 ### 7、调整Eclipse运行内存。
 #### 在eclipse的安装目录下用EditPlus编辑eclipse.ini文件，将其中的参数改成： 
-##### 第一个版本：
-```java
--vmargs
--Dosgi.requiredJavaVersion=1.6
--Xms512m
--Xmx512m
--XX:PermSize=256M 
--XX:MaxPermSize=256M
--XX:-UseGCOverheadLimit
-```
-##### 第二个版本：
-```java
--Dosgi.requiredJavaVersion=1.6
--Xms1600m
--Xmx1600m
--XX:NewSize=800m
--XX:MaxNewSize=800m
--XX:PermSize=256m
--XX:MaxPermSize=256m
--XX:+DisableExplicitGC
--XX:CompileThreshold=100
--Xverify:none
--XX:+UseParNewGC
--XX:+UseConcMarkSweepGC
--XX:CMSInitiatingOccupancyFraction=80
-```
+[JVM参数设置](/JAVA/Tomcat优化.md#四)
 
 # Eclipse自动导包设置
 #### 在eclispe中，打开 Window > Preferences > Java > Editor > Save Actions 然后选中 Organize impots
