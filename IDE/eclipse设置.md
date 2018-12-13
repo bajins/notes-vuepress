@@ -27,10 +27,10 @@
 -XX:MaxMetaspaceSize=1024m 最大元数据，JDK8
 ```
 #### 设置JDK参数
-![](/imagest/Eclipse中JDK的JVM参数设置.png)
+![](/images/Eclipse中JDK的JVM参数设置.png)
 
 #### 设置Tomcat参数
-![](/imagest/Eclipse中Tomcat的JVM参数设置.png)
+![](/images/Eclipse中Tomcat的JVM参数设置.png)
 
 
 
