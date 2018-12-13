@@ -13,7 +13,10 @@
 #### 在eclipse的安装目录下用EditPlus编辑eclipse.ini文件，将其中的参数改成： 
 [JVM参数设置](/JAVA/Tomcat优化.md#四)
 ```shell
+# JDK8以下
 -Xms128M -Xmx512M -XX:PermSize=64M -XX:MaxPermSize=128M
+# JDK8
+-Xms128M -Xmx512M -XX:MetaspaceSize=512m -XX:MaxMetaspaceSize=1024m
 ```
 ```diff
 -Xms128m JVM初始分配的堆内存
