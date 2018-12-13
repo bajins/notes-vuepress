@@ -120,6 +120,10 @@ tomcat.util.http.parser.HttpParser.requestTargetAllow=|{}
 ```
 
 ## Tomcat热部署
+### 在`/conf/context.xml`的`Context`标签中配置会使全局生效
+![]()
+
+### 在`/conf/server.xml`的`Host`标签中配置
 ```diff
 +替换WEB-INF/lib目录中的jar文件或WEB-INF/classes目录中的class文件时，reloadable="true"会让修改生效（但代价不小），该选项适合调试。
 <Context docBase="xxx" path="/xxx" reloadable="true"/> 
