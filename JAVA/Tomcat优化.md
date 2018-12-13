@@ -51,6 +51,8 @@
 |enableLookups|设置为false时跳过DNS查找，并返回字符串情势的IP地址（从而提高性能）。默认景象下，禁用DNS查找。|
 |URIEncoding|指定使用的字符编码，来解码URI字符。如果没有指定，ISO-8859-1将被使用。|
 |executor|指向Executor元素的引用。|
+| -XX:MetaspaceSize=64m | 元数据空间，专门用来存元数据的，它是jdk8里特有的数据结构用来替代perm |
+| -XX:MaxMetaspaceSize=128m | 最大元数据空间，专门用来存元数据的，它是jdk8里特有的数据结构用来替代perm |
 ### 最好实例
 ```xml
         <!-- maxPostSize 参数形式处理的最大长度，默认为2097152（2兆字节）,上传提交的时候可以用的,这里设置1GB
