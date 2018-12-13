@@ -21,14 +21,16 @@
 ```diff
 -Xms128m JVM初始分配的堆内存
 -Xmx512m JVM最大允许分配的堆内存，按需分配
--XX:PermSize=64M JVM初始分配的非堆内存
--XX:MaxPermSize=128M JVM最大允许分配的非堆内存，按需分配
+-XX:PermSize=64M JVM初始分配的非堆内存，JDK8之前
+-XX:MaxPermSize=128M JVM最大允许分配的非堆内存，按需分配，JDK8之前
+-XX:MetaspaceSize=512m 元数据，JDK8
+-XX:MaxMetaspaceSize=1024m 最大元数据，JDK8
 ```
 #### 设置JDK参数
-
+![](/imagest/Eclipse中JDK的JVM参数设置.png)
 
 #### 设置Tomcat参数
-
+![](/imagest/Eclipse中Tomcat的JVM参数设置.png)
 
 
 
