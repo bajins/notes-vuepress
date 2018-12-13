@@ -51,8 +51,7 @@
 |enableLookups|设置为false时跳过DNS查找，并返回字符串情势的IP地址（从而提高性能）。默认景象下，禁用DNS查找。|
 |URIEncoding|指定使用的字符编码，来解码URI字符。如果没有指定，ISO-8859-1将被使用。|
 |executor|指向Executor元素的引用。|
-| -XX:MetaspaceSize=64m | 元数据空间，专门用来存元数据的，它是jdk8里特有的数据结构用来替代perm |
-| -XX:MaxMetaspaceSize=128m | 最大元数据空间，专门用来存元数据的，它是jdk8里特有的数据结构用来替代perm |
+
 ### 最好实例
 ```xml
         <!-- maxPostSize 参数形式处理的最大长度，默认为2097152（2兆字节）,上传提交的时候可以用的,这里设置1GB
@@ -98,6 +97,9 @@
 |-XX:NewRatio=4|设置年轻代（包括Eden和两个Survivor区）与终身代的比值（除去永久代）。设置为4，则年轻代与终身代所占比值为1：4，年轻代占整个堆栈的1/5|
 |-XX:MaxTenuringThreshold|设置垃圾最大年龄，默认为：15。如果设置为0的话，则年轻代对象不经过Survivor区，直接进入年老代。对于年老代比较多的应用，可以提高效率。如果将此值设置为一个较大值，则年轻代对象会在Survivor区进行多次复制，这样可以增加对象再年轻代的存活时间，增加在年轻代即被回收的概论。 |
 |-XX:+DisableExplicitGC|这个将会忽略手动调用GC的代码使得System.gc()的调用就会变成一个空调用，完全不会触发任何GC|
+| -XX:MetaspaceSize=64m | 元数据空间，专门用来存元数据的，它是jdk8里特有的数据结构用来替代perm |
+| -XX:MaxMetaspaceSize=128m | 最大元数据空间，专门用来存元数据的，它是jdk8里特有的数据结构用来替代perm |
+
 
 ### windows
 #### 修改bin/catalina.bat文件,在setlocal下面一行添加
