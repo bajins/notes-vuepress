@@ -1,6 +1,16 @@
+# 目录
+* [显示内存](#显示内存)
+* [Eclipse中jsp、js文件编辑时，卡死现象解决](#一)
+* [调整Eclipse运行内存](#调整Eclipse运行内存)
+* [Eclipse自动导包设置](#Eclipse自动导包设置)
+* [Eclipse注释模板设置](#Eclipse注释模板设置)
+* [Eclipse设置不格式化注释](#Eclipse设置不格式化注释)
+***************************************************************************************
+
 # 显示内存
 #### 在eclipse中打开heap状态`windows->perference->general->右边show heap status打上勾->OK `，这时会在eclipse最下面显示一个内存显示了
 
+###### 一
 # Eclipse中jsp、js文件编辑时，卡死现象解决
 ### 1、取消验证
 #### windows–>perferences–>validation
@@ -9,7 +19,7 @@
 ### 2、关闭拼写检查
 #### windows–>perferences–>general–> editors->Text Editors->spelling
 
-### 7、调整Eclipse运行内存。
+# 调整Eclipse运行内存
 #### 在eclipse的安装目录下用EditPlus编辑eclipse.ini文件，将其中的参数改成： 
 [JVM参数设置](/JAVA/Tomcat优化.md#四)
 ```shell
