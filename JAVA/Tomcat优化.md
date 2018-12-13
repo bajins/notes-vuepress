@@ -1,12 +1,13 @@
 # 目录
-* [执行器（线程池）](#执行器(线程池))
-* [连接器（Connector）优化](#连接器（Connector）优化)
-* [禁用AJP连接器](#禁用AJP连接器)
-* [JVM参数的优化](#JVM参数的优化)
-* [Tomcat热部署](#Tomcat热部署)
+* [执行器（线程池）](#一)
+* [连接器（Connector）优化](#二)
+* [禁用AJP连接器](#三)
+* [JVM参数的优化](#四)
+* [Tomcat热部署](#五)
 ***************************************************************************************
 
-# 执行器(线程池)
+###### 一
+# 执行器（线程池）
 ##### 默认的tomcat没有启用线程池,在tomcat中每一个用户请求都是一个线程，所以可以使用线程池提高性能。这里前台其实有一个调度线程，然后调度线程会放入线程池内，然后到到一定的时候线程池的任务变成工作线程。
 ### 找到以下位置代码
 ![](/images/tomcat%E5%BC%80%E5%90%AF%E7%BA%BF%E7%A8%8B%E6%B1%A0.png)
@@ -31,6 +32,7 @@
 ### 指定线程池
 ![](/images/Tomcat%E5%90%AF%E7%94%A8%E7%BA%BF%E7%A8%8B%E6%B1%A0.png)
 
+###### 二
 # 连接器（Connector）优化
 #####  Connector是连接器，负责接收客户的请求，以及向客户端回送响应的消息。所以 Connector的优化是重要部分。默认情况下 Tomcat只支持200线程访问，超过这个数量的连接将被等待甚至超时放弃，所以我们需要提高这方面的处理能力。
 #####  其中port代表服务接口；protocol代表协议类型；connectionTimeout代表连接超时时间，单位为毫秒；redirectPort代表安全通信（https）转发端口，一般配置成443。
@@ -84,11 +86,14 @@
                 maxConnections="10000"
                 SSLEnabled="false"/>
 ```
+
+###### 三
 # 禁用AJP连接器
 #### 如果是使用Nginx+tomcat的架构，所以用不着AJP协议，所以把AJP连接器禁用。
 ##### AJPv13协议是面向包的。WEB服务器和Servlet容器通过TCP连接来交互；为了节省SOCKET创建的昂贵代价，WEB服务器会尝试维护一个永久TCP连接到servlet容器，并且在多个请求和响应周期过程会重用连接。
 ![](/images/Tomcat%E7%A6%81%E7%94%A8AJP.png)
 
+###### 四
 # JVM参数的优化
 #### 因为Tomcat运行在JAVA虚拟机之上,适当调整Tomcat的运行JVM参数可以提升整体性能。
 ### 常用参数
@@ -131,6 +136,7 @@ JAVA_OPTS="-Dfile.encoding=UTF-8-server -Xms1024m -Xmx2048m -XX:NewSize=512m -XX
 tomcat.util.http.parser.HttpParser.requestTargetAllow=|{}
 ```
 
+###### 五
 # Tomcat热部署
 ### 在`/conf/context.xml`的`Context`标签中配置会使全局生效
 https://tomcat.apache.org/tomcat-9.0-doc/config/context.html#Defining_a_context
