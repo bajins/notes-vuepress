@@ -12,10 +12,28 @@
 ### 7、调整Eclipse运行内存。
 #### 在eclipse的安装目录下用EditPlus编辑eclipse.ini文件，将其中的参数改成： 
 [JVM参数设置](/JAVA/Tomcat优化.md#四)
+```shell
+-Xms128M -Xmx512M -XX:PermSize=64M -XX:MaxPermSize=128M
+```
+```diff
+-Xms128m JVM初始分配的堆内存
+-Xmx512m JVM最大允许分配的堆内存，按需分配
+-XX:PermSize=64M JVM初始分配的非堆内存
+-XX:MaxPermSize=128M JVM最大允许分配的非堆内存，按需分配
+```
+#### 设置JDK参数
+
+
+#### 设置Tomcat参数
+
+
+
 
 # Eclipse自动导包设置
 #### 在eclispe中，打开 Window > Preferences > Java > Editor > Save Actions 然后选中 Organize impots
 ![](/images/Eclipse保存自动优化设置.png)
+
+
 
 # Eclipse注释模板设置
 #### 编辑注释模板的方法：`Window->Preference->Java->Code Style->Code Template` 然后展开Comments节点就是所有需设置注释的元素
