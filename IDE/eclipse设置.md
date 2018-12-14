@@ -58,11 +58,11 @@
 ### 1.文件(Files)注释标签：
 ```java
 /**
- * @Title:  ${file_name}
+ * @Title: ${file_name}
  * @Package ${package_name}
  * @Description: ${todo}(用一句话描述该文件做什么)
  * @author: woytu.com
- * @date:   ${date} ${time}
+ * @date: ${date} ${time}
  * @version V1.0
  * @Copyright: ${year} woytu.com Inc. All rights reserved.
  */
@@ -70,10 +70,10 @@
 ### 2.类型(Types)注释标签（类的注释）：
 ```java
 /**
- * @ClassName:  ${type_name}
+ * @ClassName: ${type_name}
  * @Description: ${todo}(这里用一句话描述这个类的作用)
  * @author: woytu.com
- * @date:   ${date} ${time}
+ * @date: ${date} ${time}
  * 
  * ${tags}
  * @Copyright: ${year} woytu.com Inc. All rights reserved.
