@@ -83,15 +83,19 @@
  ```java
  /**
  * @Fields ${field} : ${todo}(用一句话描述这个变量表示什么)
+ * @author: woytu.com
+ * @date:   ${date} ${time}
  */
  ```
-### 4.构造函数标签：
+### 4.构造函数(Constructors)标签：
 ```java
 /**
  * @Title:  ${enclosing_type}
  * @Description:    ${todo}(这里用一句话描述这个方法的作用)
  * @param:  ${tags}
  * @throws
+ * @author: woytu.com
+ * @date:   ${date} ${time}
  */
 ```
 ### 5.方法(Methods)标签：
@@ -101,6 +105,8 @@
  * @Description: ${todo}(这里用一句话描述这个方法的作用)
  * ${tags} ${return_type}
  * @throws
+ * @author: woytu.com
+ * @date:   ${date} ${time}
  */
  ```
 ### 6.覆盖方法(Overriding Methods)标签:
@@ -110,6 +116,8 @@
  * <p>Description: </p>
  * ${tags}
  * ${see_to_overridden}
+ * @author: woytu.com
+ * @date:   ${date} ${time}
  */
 ```
 ### 7.代表方法(Delegate Methods)标签：
@@ -117,6 +125,8 @@
 /**
  * ${tags}
  * ${see_to_target}
+ * @author: woytu.com
+ * @date:   ${date} ${time}
  */
 ```
 ### 8.getter方法标签：
@@ -125,6 +135,8 @@
  * @Title:  ${enclosing_method} <BR>
  * @Description: please write your description <BR>
  * @return: ${field_type} <BR>
+ * @author: woytu.com
+ * @date:   ${date} ${time}
  */
 ```
 ### 9.setter方法标签：
@@ -133,6 +145,8 @@
  * @Title:  ${enclosing_method} <BR>
  * @Description: please write your description <BR>
  * @return: ${field_type} <BR>
+ * @author: woytu.com
+ * @date:   ${date} ${time}
  */
 ```
 # Eclipse设置不格式化注释
