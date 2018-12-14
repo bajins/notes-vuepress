@@ -85,9 +85,9 @@ ${type_declaration}
 ### 3.构造函数(Constructors)标签：
 ```java
 /**
- * @Title:  ${enclosing_type}
- * @Description:    ${todo}(这里用一句话描述这个方法的作用)
- * @param:  ${tags}
+ * @Title: ${enclosing_type}
+ * @Description: ${todo}(这里用一句话描述这个方法的作用)
+ * @param: ${tags}
  * @throws
  * @author: woytu.com
  * @date: ${date} ${time}
@@ -127,7 +127,7 @@ ${type_declaration}
 ### 7.getter方法标签：
 ```java
 /**
- * @Title:  ${enclosing_method} <BR>
+ * @Title: ${enclosing_method} <BR>
  * @Description: please write your description <BR>
  * @return: ${field_type} <BR>
  * @author: woytu.com
@@ -137,7 +137,7 @@ ${type_declaration}
 ### 8.setter方法标签：
 ```java
 /**
- * @Title:  ${enclosing_method} <BR>
+ * @Title: ${enclosing_method} <BR>
  * @Description: please write your description <BR>
  * @return: ${field_type} <BR>
  * @author: woytu.com
