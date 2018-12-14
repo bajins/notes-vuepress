@@ -64,7 +64,7 @@ ${package_declaration}
 /**
  * @Title: ${file_name}
  * @Package ${package_name}
- * @Description: ${todo}(用一句话描述该文件做什么)
+ * @Description:${todo} (用一句话描述该文件做什么)
  * @author: woytu.com
  * @date: ${date} ${time}
  * @version V1.0
@@ -77,7 +77,7 @@ ${type_declaration}
  ### 2.字段(Fields)注释标签：
  ```java
  /**
- * @Fields ${field} : ${todo}(用一句话描述这个变量表示什么)
+ * @Fields ${field} :${todo} (用一句话描述这个变量表示什么)
  * @author: woytu.com
  * @date: ${date} ${time}
  */
@@ -86,7 +86,7 @@ ${type_declaration}
 ```java
 /**
  * @Title: ${enclosing_type}
- * @Description: ${todo}(这里用一句话描述这个方法的作用)
+ * @Description:${todo} (这里用一句话描述这个方法的作用)
  * @param: ${tags}
  * @throws
  * @author: woytu.com
@@ -97,7 +97,7 @@ ${type_declaration}
 ```java
 /**
  * @Title: ${enclosing_method}
- * @Description: ${todo}(这里用一句话描述这个方法的作用)
+ * @Description:${todo} (这里用一句话描述这个方法的作用)
  * ${tags} ${return_type}
  * @throws
  * @author: woytu.com
