@@ -57,6 +57,10 @@
 
 ### 1.创建新文件(New Java files)注释标签：
 ```java
+${filecomment}
+${package_declaration}
+
+
 /**
  * @Title: ${file_name}
  * @Package ${package_name}
@@ -66,6 +70,8 @@
  * @version V1.0
  * @Copyright: ${year} woytu.com Inc. All rights reserved.
  */
+${typecomment}
+${type_declaration}
  ```
 
  ### 2.字段(Fields)注释标签：
