@@ -60,7 +60,7 @@
 /**
  * @Title:  ${file_name}
  * @Package ${package_name}
- * @Description:    ${todo}(用一句话描述该文件做什么)
+ * @Description: ${todo}(用一句话描述该文件做什么)
  * @author: woytu.com
  * @date:   ${date} ${time}
  * @version V1.0
@@ -71,7 +71,7 @@
 ```java
 /**
  * @ClassName:  ${type_name}
- * @Description:${todo}(这里用一句话描述这个类的作用)
+ * @Description: ${todo}(这里用一句话描述这个类的作用)
  * @author: woytu.com
  * @date:   ${date} ${time}
  * 
