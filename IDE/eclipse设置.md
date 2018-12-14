@@ -55,7 +55,7 @@
 #### 注释的使用：输入`/**`然后回车自动出来
 ![](/images/Eclipse自动添加注释.png)
 
-### 1.文件(Files)注释标签：
+### 1.创建新文件(New Java files)注释标签：
 ```java
 /**
  * @Title: ${file_name}
@@ -67,19 +67,8 @@
  * @Copyright: ${year} woytu.com Inc. All rights reserved.
  */
  ```
-### 2.类型(Types)注释标签（类的注释）：
-```java
-/**
- * @ClassName: ${type_name}
- * @Description: ${todo}(这里用一句话描述这个类的作用)
- * @author: woytu.com
- * @date: ${date} ${time}
- * 
- * ${tags}
- * @Copyright: ${year} woytu.com Inc. All rights reserved.
- */
- ```
- ### 3.字段(Fields)注释标签：
+
+ ### 2.字段(Fields)注释标签：
  ```java
  /**
  * @Fields ${field} : ${todo}(用一句话描述这个变量表示什么)
@@ -87,7 +76,7 @@
  * @date: ${date} ${time}
  */
  ```
-### 4.构造函数(Constructors)标签：
+### 3.构造函数(Constructors)标签：
 ```java
 /**
  * @Title:  ${enclosing_type}
@@ -98,7 +87,7 @@
  * @date: ${date} ${time}
  */
 ```
-### 5.方法(Methods)标签：
+### 4.方法(Methods)标签：
 ```java
 /**
  * @Title: ${enclosing_method}
@@ -109,7 +98,7 @@
  * @date: ${date} ${time}
  */
  ```
-### 6.覆盖方法(Overriding Methods)标签:
+### 5.覆盖方法(Overriding Methods)标签:
 ```java
 /**
  * <p>Title: ${enclosing_method}</p>
@@ -120,7 +109,7 @@
  * @date: ${date} ${time}
  */
 ```
-### 7.代表方法(Delegate Methods)标签：
+### 6.代表方法(Delegate Methods)标签：
 ```java
 /**
  * ${tags}
@@ -129,7 +118,7 @@
  * @date: ${date} ${time}
  */
 ```
-### 8.getter方法标签：
+### 7.getter方法标签：
 ```java
 /**
  * @Title:  ${enclosing_method} <BR>
@@ -139,7 +128,7 @@
  * @date: ${date} ${time}
  */
 ```
-### 9.setter方法标签：
+### 8.setter方法标签：
 ```java
 /**
  * @Title:  ${enclosing_method} <BR>
