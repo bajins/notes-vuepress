@@ -572,18 +572,19 @@ rpm -qa | wc -l
 ```sehll
 cat /sys/class/net/eth0/mtu
 ```
-### 更改MTU值
+### 更改MTU值（临时）
 ```shell
 echo "1476" > /sys/class/net/eth0/mtu
 # 或者
 # ifconfig 网口名 mtu 数值
 ifconfig eth0 mtu 1476
 ```
-
-
-
-
-
+### 更改MTU值（永久）
+```shell
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+# 在DEVICE=eth0下面加入
+MTU=1476
+```
 
 
 
