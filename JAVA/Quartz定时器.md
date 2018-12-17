@@ -49,7 +49,7 @@ public void addAutoInvestJob(Loan loan) {
  ```java
 // 暂停触发器
 scheduler.pauseTrigger(triggerKey);
-// 暂停触发器
+// 恢复触发器
 scheduler.resumeTrigger(triggerKey);
 // 移除触发器
 scheduler.unscheduleJob(triggerKey);
