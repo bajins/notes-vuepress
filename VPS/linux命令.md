@@ -574,7 +574,7 @@ cat /sys/class/net/eth0/mtu
 ```
 ### 更改MTU值
 ```shell
-echo “1476” > /sys/class/net/eth0/mtu
+echo "1476" > /sys/class/net/eth0/mtu
 # 或者
 ifconfig eth0 mtu 1476
 ```
