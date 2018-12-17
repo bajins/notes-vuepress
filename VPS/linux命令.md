@@ -576,6 +576,7 @@ cat /sys/class/net/eth0/mtu
 ```shell
 echo "1476" > /sys/class/net/eth0/mtu
 # 或者
+# ifconfig 网口名 mtu 数值
 ifconfig eth0 mtu 1476
 ```
 
