@@ -47,17 +47,18 @@ public void addAutoInvestJob(Loan loan) {
  ```
  
  ```java
-//从调度器中删除这个唯一任务时同时会删除相关联的触发器
-scheduler.deleteJob(jobKey);
-//暂停触发器
+// 暂停触发器
 scheduler.pauseTrigger(triggerKey);
-// 停止触发器
-scheduler.pauseTrigger(triggerKey);
-//移除触发器
+// 暂停触发器
+scheduler.resumeTrigger(triggerKey);
+// 移除触发器
 scheduler.unscheduleJob(triggerKey);
-// 停止任务
+
+// 暂停任务
 scheduler.pauseJob(jobKey);
-// 删除任务
+// 恢复一个任务
+scheduler.resumeJob(jobKey);
+// 从调度器中删除这个唯一任务时同时会删除相关联的触发器
 scheduler.deleteJob(jobKey);
 ```
 
