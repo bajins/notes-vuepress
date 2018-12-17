@@ -48,6 +48,6 @@ public void addAutoInvestJob(Loan loan) {
  
  首先从Scheduler.scheduleJob（JobDetail jobDetail，Trigger trigger）调度job， 实际上就是将job存储到RAM中的jobsByGroup，jobsByKey对应的Map中，将触发器存储到触发器（List），triggersByKey，triggersByGroup对应的Map中，及timeTriggers的Treeset中 
 
-Scheduler.unscheduleJob（TriggerKey triggerKey）就是将triggerKey从triggersByKey,triggersByGroup,triggers,timeTriggers中移除;
+Scheduler.unscheduleJob（TriggerKey triggerKey）就是将triggerKey从triggersByKey，triggersByGroup，triggers，timeTriggers中移除;
 
 Scheduler.deleteJob（JobKey jobKey）除了从容器触发中的TriggerWrapper的JobKey为jobKey的列表<TriggerWrapper>，并uncheduleJob（TriggerKey triggerKey）列表列表<TriggerWrapper>中的所有TriggerWrapper，同时从jobsByKey，jobsByGroup 的移除对应jobKey的相关信息 
