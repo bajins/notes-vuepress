@@ -46,6 +46,21 @@ public void addAutoInvestJob(Loan loan) {
 }
  ```
  
+ ```java
+//从调度器中删除这个唯一任务时同时会删除相关联的触发器
+scheduler.deleteJob(jobKey);
+//暂停触发器
+scheduler.pauseTrigger(triggerKey);
+// 停止触发器
+scheduler.pauseTrigger(triggerKey);
+//移除触发器
+scheduler.unscheduleJob(triggerKey);
+// 停止任务
+scheduler.pauseJob(jobKey);
+// 删除任务
+scheduler.deleteJob(jobKey);
+```
+
  首先从Scheduler.scheduleJob（JobDetail jobDetail，Trigger trigger）调度job， 实际上就是将job存储到RAM中的jobsByGroup，jobsByKey对应的Map中，将触发器存储到触发器（List），triggersByKey，triggersByGroup对应的Map中，及timeTriggers的Treeset中 
 
 Scheduler.unscheduleJob（TriggerKey triggerKey）就是将triggerKey从triggersByKey，triggersByGroup，triggers，timeTriggers中移除;
