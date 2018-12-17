@@ -585,7 +585,9 @@ vi /etc/sysconfig/network-scripts/ifcfg-eth0
 # 在DEVICE=eth0下面加入
 MTU=1476
 ```
-
-
+### 重启网络接口
+```shell
+service network restart
+```
 
 
