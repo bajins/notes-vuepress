@@ -584,6 +584,8 @@ ifconfig eth0 mtu 1476
 vi /etc/sysconfig/network-scripts/ifcfg-eth0
 # 在DEVICE=eth0下面加入
 MTU=1476
+# 启用IPv6地址的，修改IPv6 mtu的参数为
+IPV6_MTU="1280"
 ```
 ### 重启网络接口
 ```shell
