@@ -564,4 +564,25 @@ rpm -qa | wc -l
 
 
 ********************************************
-# 
+# 解决网卡问题
+## MTU
+#### 传输设备的MTU值不规范造成传输失败的情况，后统一更改网卡MTU值为1476 后解决
+### 查看MTU值
+```sehll
+cat /sys/class/net/eth0/mtu
+```
+### 更改MTU值
+```shell
+echo “1476” > /sys/class/net/eth0/mtu
+# 或者
+ifconfig eth0 mtu 1476
+```
+
+
+
+
+
+
+
+
+
