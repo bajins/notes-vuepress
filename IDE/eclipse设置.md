@@ -86,8 +86,7 @@ ${type_declaration}
 ```java
 /**
  * @Title: ${enclosing_type}
- * @param: ${tags}
- * @throws
+ * ${tags}
  * @author: woytu.com
  * @date: ${date} ${time}
  */
