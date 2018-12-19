@@ -64,6 +64,7 @@
 
 ### [chuantou.org的免费Frp内网穿透服务](http://www.chuantou.org/)
 
+### [freenat免费FRP内网穿透服务](http://freenat.win)
 
 ## [NGINX + SSH Tunnel 把本地开发环境公布到互联网上](https://ninghao.net/blog/4452)
 
