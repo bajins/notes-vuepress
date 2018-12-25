@@ -269,10 +269,6 @@ find 文件路径 -mtime +多少天之前 -type f -name 文件名 -print -exec r
 find 文件路径 -type f -mtime +多少天之前 -print | xargs rm -f
 # 删除指定时间内的文件
 find 文件路径 -type f -newermt '起始时间' -a -not -newermt '结束时间' -name '文件名' -print -exec rm -rf {} \;
-# 删除 15：04 分创建的文件或者目录。
-ls -l | grep 15:04 | awk '{printf "%s ", $8}' | xargs rm -rv
-# 删除 2017-07-31 当天创建的所有文件或者目录。
-ls -l | grep 2017-07-31 | awk '{printf "%s ", $8}' | xargs rm -rv
 ```
 ```diff
 # 查找系统中最后N分钟访问的文件
@@ -286,12 +282,8 @@ ls -l | grep 2017-07-31 | awk '{printf "%s ", $8}' | xargs rm -rv
 # 查找系统中最后N分钟被改变文件数据的文件
 -mmin n
 # 查找系统中最后n*24小时被改变文件数据的文件
--mtime n
-ls -l : 显示当前目录下所有文件的时间信息 
-grep： 在文本文件中搜索指定的内容并把所在的行打印出来的命令(其他操作请自行搜索)； 
-awk：把文件逐行的读入，以空格为默认分隔符将每行切片，切开的部分再进行各种分析处理(此处的作用是提取出 grep 命令输出的所有文件或者目录名并以空格分隔) 
+-mtime n 
 xargs：读取 stdin, 把格式化的数据传递给命令(用于不支持 “|” 管道来传递参数的命令) 
-rm：删除文件或目录的命令( -r: 递归删除，使其能够删除目录; -v: 显示删除的过程)
 ```
 
 
