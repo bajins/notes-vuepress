@@ -315,6 +315,8 @@ find -type d | sort
 grep 'test' text1.txt text2.txt
 #在以t开头的文件中查找并出含字符串为 test 的行
 grep 'test' t*
+# 查找指定时间内的文件
+find 文件路径 -type f -newermt '起始时间' -a -not -newermt '结束时间'
 ```
 ## 文件和文件夹权限操作
 ### 文件查看
