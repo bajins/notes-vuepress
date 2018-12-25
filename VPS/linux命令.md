@@ -267,6 +267,8 @@ find 文件路径 -name "文件名" -mtime +多少天之前 -print -exec rm {} \
 find 文件路径 -mtime +多少天之前 -type f -name 文件名 -print -exec rm -rf {} \;
 # 也可以使用 xargs 代替 -exec
 find 文件路径 -type f -mtime +多少天之前 -print | xargs rm -f
+# 删除指定时间内的文件
+find 文件路径 -type f -newermt '起始时间' -a -not -newermt '结束时间' -name '文件名' -print -exec rm -rf {} \;
 # 删除 15：04 分创建的文件或者目录。
 ls -l | grep 15:04 | awk '{printf "%s ", $8}' | xargs rm -rv
 # 删除 2017-07-31 当天创建的所有文件或者目录。
