@@ -261,7 +261,34 @@ rm test test.txt
 rm -rf *
 # 删除多个文件夹{}内的为自定义
 rm -rf 2017{01,02,03,04,05,06,07,08,09,10}*
+# linux按指定时间删除文件和文件夹
+find 文件路径 -name "文件名" -mtime +多少天之前 -print -exec rm {} \;
+# linux按指定时间删除文件 -type f 指出找系统普通文件，不包含目录文件
+find 文件路径 -mtime +多少天之前 -type f -name 文件名 -print -exec rm -rf {} \;
+# 也可以使用 xargs 代替 -exec
+find 文件路径 -type f -mtime +多少天之前 -print | xargs rm -f
 ```
+```diff
+# 查找系统中最后N分钟访问的文件
+-amin n
+
+# 查找系统中最后n*24小时访问的文件
+-atime n
+
+# 查找系统中最后N分钟被改变文件状态的文件
+-cmin n
+
+# 查找系统中最后n*24小时被改变文件状态的文件
+-ctime n
+
+# 查找系统中最后N分钟被改变文件数据的文件
+-mmin n
+
+# 查找系统中最后n*24小时被改变文件数据的文件
+-mtime n
+```
+
+
 ## mv命令对文件的更改可以有重命名，移动等操作，下面是几个简单的例子。
 ```shell
 # 将目录 test1 改为 test2
