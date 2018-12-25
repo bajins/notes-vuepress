@@ -6,6 +6,10 @@
     * [scp](#scp)
     * [rsync](#rsync)
   * [查找大文件](#查找大文件)
+  * [创建目录](#创建目录)
+  * [创建文件](#创建文件)
+  * [删除文件及文件夹](#删除文件及文件夹)
+  * [文件和文件夹权限操作](#文件和文件夹权限操作)
     * [文件查看](#文件查看)
 * [防火墙](#防火墙)
 * [解决网卡问题](#解决网卡问题)
@@ -211,7 +215,7 @@ du -hm --max-depth=2 | sort -nr | head -12
 du -hm --max-depth=2 /home/ | sort -nr
 ```
 
-## 创建目录 mkdir
+## 创建目录
 ```shell
 #在当前目录下创建名为yunkus.com的目录
 mkdir yunkus.com
@@ -229,7 +233,7 @@ mkdir -p yunkus/test
 #在指定目录下创 yunkus目录及其子目录
 mkdir -p /home/var/yunkus/test
 ```
-## 创建文件 touch
+## 创建文件
 ```shell
 # 在当前目录创建 test.txt 文件
 touch test.txt
@@ -248,7 +252,8 @@ touch -r test1.txt test2.txt
 # 更改为自定义时间戳
 touch -t 201703031558.28 test.txt
 ```
-## rm 命令可以用于删除文件及文件夹，可以同时一个或者多个文件/文件夹，而对于链接文件，只删除链接，不影响原文件。
+## 删除文件及文件夹
+#### rm 命令可以用于删除文件及文件夹，可以同时一个或者多个文件/文件夹，而对于链接文件，只删除链接，不影响原文件。
 ```shell
 # 删除文件
 rm test.txt
