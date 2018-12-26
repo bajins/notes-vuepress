@@ -10,9 +10,8 @@
 ![](/images/synchronized使用方式.png)
 
 ```java
-// 测试过，在quartz中两个任务同时执行时无效！
 public class SynchronizedDemo {
-    public void test() {
+    public static void test() {
         synchronized (SynchronizedDemo.class) {
             // 业务逻辑......
         }
