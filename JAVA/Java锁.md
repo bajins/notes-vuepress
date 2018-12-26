@@ -18,6 +18,14 @@ public class SynchronizedDemo {
         }
     }
 }
+// 测试过，在quartz中两个任务同时执行时无效！
+public class SynchronizedDemo {
+    public static void test() {
+        synchronized (this) {
+            // 业务逻辑......
+        }
+    }
+}
 ```
 ```java
 public class SynchronizedDemo {
