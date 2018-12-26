@@ -25,11 +25,10 @@ public void addAutoInvestJob(Loan loan) {
 			// 一、SimpleScheduleBuilder 简单任务的重复执行SimpleScheduleBuilder.repeatSecondlyForever(5)
 			// 二、CronTrigger 按日历触发任务CronScheduleBuilder.cronSchedule("0 17 1 * * ?")
 			// 以及执行一次JobDetail的间隔时间,以及执行到什么时候
-			.forJob(jobDetail1).withSchedule(SimpleScheduleBuilder
+			.forJob(jobDetail1).withSchedule(
 			// 每隔5分钟执行一次,永远重复不限制次数执行,失效之后，再启动马上执行
-			.simpleSchedule().withIntervalInMinutes(5).repeatForever()
-			    .withMisfireHandlingInstructionFireNow())
-			//设置触发器开始执行JobDetail的起始时间，还有startAt() 在指定的时间去执行
+				SimpleScheduleBuilder.repeatMinutelyForever(1))
+			//设置触发器开始执行JobDetail的起始时间，还有startNow()立即执行
 			.startAt(startDate1)
 			// 结束时间 endAt（“结束的时间”），实现在任务执后自动销毁任务
 			.endAt(enDate)
@@ -38,6 +37,20 @@ public void addAutoInvestJob(Loan loan) {
 	try {
 		// 调度容器设置JobDetail和Trigger
 		scheduler.scheduleJob(jobDetail1, trigger1);
+		
+		// 启动
+		if (!scheduler.isShutdown()) {
+			scheduler.start();
+		}
+
+		// 获取触发器状态
+		TriggerState triggerState = scheduler.getTriggerState(trigger.getKey());
+		// 判断触发器状态是否为暂停
+		if (TriggerState.PAUSED.equals(triggerState)) {
+			// 如果触发器为暂停就恢复启动
+			scheduler.resumeTrigger(trigger.getKey());
+		}
+		
 		if (log.isDebugEnabled())
 			log.debug("添加[自动投标]调度成功，项目编号[" + loan.getId() + "]，时间："
 					+ DateUtil.DateToString(startDate1, DateStyle.YYYY_MM_DD_HH_MM_SS_CN));
