@@ -29,6 +29,8 @@ public class SynchronizedDemo {
     }
 }
 ```
+## 将任意对象作为对象监视器
+#### 多个线程持有对象监视器作为同一个对象的前提下，同一时间只有一个线程可以执行synchronized(任意自定义对象)同步代码快。
 ```java
 public class SynchronizedDemo {
     public void test() {
