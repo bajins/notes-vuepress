@@ -13,7 +13,7 @@
 public class SynchronizedDemo {
     public static void test() {
         synchronized (SynchronizedDemo.class) {
-            业务逻辑......
+            // 业务逻辑......
         }
     }
 }
@@ -22,7 +22,7 @@ public class SynchronizedDemo {
 public class SynchronizedDemo {
     public static void test() {
         synchronized (Object.class) {
-            业务逻辑......
+            // 业务逻辑......
         }
     }
 }
@@ -32,7 +32,7 @@ public class SynchronizedDemo {
     public static void test() {
         String lock = "";
         synchronized (lock) {
-            业务逻辑......
+            // 业务逻辑......
         }
     }
 }
