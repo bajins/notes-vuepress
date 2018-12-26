@@ -1,6 +1,5 @@
 # synchronized
 
-
 #### synchronized(this)以及非static的synchronized方法，只能防止多个线程同时执行同一个对象的同步代码段。
 #### synchronized锁住的是代码还是对象？
 ##### 答案是：synchronized锁住的是括号里的对象，而不是代码。对于非static的synchronized方法，锁的就是对象本身也就是this。
@@ -10,3 +9,31 @@
 
 ![](/images/synchronized使用方式.png)
 
+```java
+public class SynchronizedDemo {
+    public static void test() {
+        synchronized (SynchronizedDemo.class) {
+            业务逻辑......
+        }
+    }
+}
+```
+```java
+public class SynchronizedDemo {
+    public static void test() {
+        synchronized (Object.class) {
+            业务逻辑......
+        }
+    }
+}
+```
+```java
+public class SynchronizedDemo {
+    public static void test() {
+        String lock = "";
+        synchronized (lock) {
+            业务逻辑......
+        }
+    }
+}
+```
