@@ -42,8 +42,10 @@ public class SynchronizedDemo {
 ```
 ```java
 public class SynchronizedDemo {
+    // lock放在方法外部会使整个方法同步
+    // String lock = "";
     public void test() {
-        // lock如果放在方法外部会使整个方法同步，放在方法内部使同步代码块同步
+        // lock放在方法内部使同步代码块同步
         String lock = "";
         synchronized (lock) {
             // 业务逻辑......
