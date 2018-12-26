@@ -25,9 +25,9 @@ public void addAutoInvestJob(Loan loan) {
 			// 一、SimpleScheduleBuilder 简单任务的重复执行SimpleScheduleBuilder.repeatSecondlyForever(5)
 			// 二、CronTrigger 按日历触发任务CronScheduleBuilder.cronSchedule("0 17 1 * * ?")
 			// 以及执行一次JobDetail的间隔时间,以及执行到什么时候
-			.forJob(jobDetail1).withSchedule(
+			.forJob(jobDetail1)
 			// 每隔5分钟执行一次,永远重复不限制次数执行,失效之后，再启动马上执行
-				SimpleScheduleBuilder.repeatMinutelyForever(1))
+			.withSchedule(SimpleScheduleBuilder.repeatMinutelyForever(1))
 			//设置触发器开始执行JobDetail的起始时间，还有startNow()立即执行
 			.startAt(startDate1)
 			// 结束时间 endAt（“结束的时间”），实现在任务执后自动销毁任务
