@@ -18,6 +18,8 @@ public class SynchronizedDemo {
         }
     }
 }
+```
+```java
 // 测试过，在quartz中两个任务同时执行时无效！
 public class SynchronizedDemo {
     public void test() {
