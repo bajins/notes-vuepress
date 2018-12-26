@@ -12,7 +12,7 @@
 ```java
 // 测试过，在quartz中两个任务同时执行时无效！
 public class SynchronizedDemo {
-    public static void test() {
+    public void test() {
         synchronized (SynchronizedDemo.class) {
             // 业务逻辑......
         }
@@ -20,7 +20,7 @@ public class SynchronizedDemo {
 }
 // 测试过，在quartz中两个任务同时执行时无效！
 public class SynchronizedDemo {
-    public static void test() {
+    public void test() {
         synchronized (this) {
             // 业务逻辑......
         }
@@ -29,7 +29,7 @@ public class SynchronizedDemo {
 ```
 ```java
 public class SynchronizedDemo {
-    public static void test() {
+    public void test() {
         synchronized (Object.class) {
             // 业务逻辑......
         }
@@ -38,7 +38,7 @@ public class SynchronizedDemo {
 ```
 ```java
 public class SynchronizedDemo {
-    public static void test() {
+    public void test() {
         String lock = "";
         synchronized (lock) {
             // 业务逻辑......
