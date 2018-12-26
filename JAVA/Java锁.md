@@ -11,7 +11,7 @@
 
 ```java
 public class SynchronizedDemo {
-    // 这是静态的锁,应为静态就带有this的含义,所以不能用this,而用类.class
+    // 这是静态的锁,因为静态就带有this的含义,所以不能用this,而用类.class
     public static void test() {
         synchronized (SynchronizedDemo.class) {
             // 业务逻辑......
