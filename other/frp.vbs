@@ -1,3 +1,4 @@
+'在运行窗口输入shell:startup点击确定后打开一个文件夹，把此文件放在文件夹中
 
 folderPath = "D:\frp内网穿透工具"
 
