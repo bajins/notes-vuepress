@@ -215,7 +215,11 @@ def GenerateProductKey(IssueDate : datetime.date,
 
 def getKey(ProductName : str,
             ProductVersion : int):
-    return GenerateProductKey(datetime.date(datetime.datetime.now().year, datetime.datetime.now().month, datetime.datetime.now().day), ProductName, ProductVersion, 999)
+    return GenerateProductKey(
+        datetime.date(datetime.datetime.now().year,
+                      datetime.datetime.now().month,
+                      datetime.datetime.now().day), ProductName,
+        ProductVersion, 999)
 
 
 if len(sys.argv)<2:
