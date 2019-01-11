@@ -214,8 +214,8 @@ def GenerateProductKey(IssueDate : datetime.date,
             if item['PublishDate'] > IssueDate:
                 raise ValueError('IssueDate cannot be earlier than the publish date.')
             break
-        if item['ProductName'] == ProductName and str(item['Version']) != ProductVersion:
-            raise ValueError('Invalid product.')
+        # if item['ProductName'] == ProductName and str(item['Version']) != ProductVersion:
+        #     raise ValueError('Invalid product.')
 
     preProductKey = '%02d%02d%02d-%02d%d%03d-%03d' % (IssueDate.year - 2000,
                                                         IssueDate.month,
