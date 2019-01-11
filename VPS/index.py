@@ -312,7 +312,7 @@ class LearningHTTPRequestHandler(BaseHTTPRequestHandler):
         try:
             fpath = write_py(get_name(), pName)
             print('Execute: %s %s' % (EXEC, fpath))
-            r =  pName + pVersion + " 秘钥：" + getKey(pName,pVersion)
+            r =  sysCode[pName] + pVersion + " 秘钥：" + getKey(sysCode[pName],pVersion)
             # r['output'] = decode(subprocess.check_output([EXEC, fpath], stderr=subprocess.STDOUT, timeout=5))
         
         except ValueError as e:
