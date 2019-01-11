@@ -264,18 +264,22 @@ HTML_INDEX = r'''
     <form method="post" action="/getKey">
       <span>选择产品:</span>
       <select id="pName" name="pName">
-        <option value ="Xshell Plus">Xshell Plus</option>
-        <option value ="Xmanager Enterprise">Xmanager Enterprise</option>
-        <option value="Xftp">Xftp</option>
-        <option value="Xlpd">Xlpd</option>
+        <option value ="0">Xmanager</option>
+        <option value ="1">Xshell</option>
+        <option value="2">Xlpd</option>
+        <option value="3">Xfile</option>
+        <option value="4">Xftp</option>
+        <option value="5">Xmanager 3D</option>
+        <option value="6">Xmanager Enterprise</option>
+        <option value="7" selected>Xshell Plus</option>
       </select>
       <span>选择版本:</span>
       <select id="pVersion" name="pVersion">
-        <option value ="2">2</option>
-        <option value ="3">3</option>
+        <option value ="6" selected>6</option>
+        <option value ="5">5</option>
         <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
+        <option value="3">3</option>
+        <option value="2">2</option>
       </select>
       <button type="submit">点击获取秘钥</button>
     </form>
