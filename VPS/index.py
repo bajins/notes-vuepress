@@ -230,7 +230,11 @@ def GenerateProductKey(IssueDate : datetime.date,
     return ProductKey
 
 def getKey(ProductName : str,ProductVersion : int):
-    return GenerateProductKey(datetime.date(datetime.datetime.now().year, datetime.datetime.now().month, datetime.datetime.now().day), ProductName, ProductVersion, 999)
+    return GenerateProductKey(
+        datetime.date(datetime.datetime.now().year,
+                      datetime.datetime.now().month,
+                      datetime.datetime.now().day), ProductName,
+        ProductVersion, 999)
 
 
 
