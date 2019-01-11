@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import os,sys
+import datetime
+import random
+import time
 
 # check #######################################################################
 def check_version():
@@ -15,11 +19,6 @@ check_version()
 
 # Xmanager-keygen #######################################################################
 # https://github.com/DoubleLabyrinth/Xmanager-keygen
-
-import os,sys
-import datetime
-import random
-import time
 
 sysCode = {
     '0' : 'Xmanager',
