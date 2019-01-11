@@ -258,31 +258,42 @@ PORT = 39093
 TEMP = tempfile.mkdtemp(suffix='_py', prefix='learn_python_')
 
 HTML_INDEX = r'''
-<html>
-  <head><title>Learning Python</title></head>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="本网页提供Xshell和Xftp秘钥获取">
+    <title>Xshell getKey</title>
+  </head>
   <body>
-    <form method="post" action="/getKey">
-      <span>选择产品:</span>
-      <select id="pName" name="pName">
-        <option value ="0">Xmanager</option>
-        <option value ="1">Xshell</option>
-        <option value="2">Xlpd</option>
-        <option value="3">Xfile</option>
-        <option value="4">Xftp</option>
-        <option value="5">Xmanager 3D</option>
-        <option value="6">Xmanager Enterprise</option>
-        <option value="7" selected>Xshell Plus</option>
-      </select>
-      <span>选择版本:</span>
-      <select id="pVersion" name="pVersion">
-        <option value ="6" selected>6</option>
-        <option value ="5">5</option>
-        <option value="4">4</option>
-        <option value="3">3</option>
-        <option value="2">2</option>
-      </select>
-      <button type="submit">点击获取秘钥</button>
-    </form>
+    <div style="text-align: center;border-radius: 20px;margin: auto;position: absolute;top: 0;left: 0;right: 0;bottom: 0;">
+        <h1>获取Xshell相关秘钥</h1>
+        <h3><a style="text-decoration:none" target="_blank" href="https://woytu.com">woytu.com源代码版权所有</a></h3>
+        <h3><a style="text-decoration:none" target="_blank" href="https://file.woytu.com">更多绿色资源</a></h3>
+        <h3><a style="text-decoration:none" target="_blank" href="https://xshell.woytu.com">快捷下载官方版</a></h3>
+        <form method="post" action="/getKey">
+        <span>选择产品:</span>
+        <select id="pName" name="pName">
+            <option value ="0">Xmanager</option>
+            <option value ="1">Xshell</option>
+            <option value="2">Xlpd</option>
+            <option value="3">Xfile</option>
+            <option value="4">Xftp</option>
+            <option value="5">Xmanager 3D</option>
+            <option value="6">Xmanager Enterprise</option>
+            <option value="7" selected>Xshell Plus</option>
+        </select>
+        <span>选择版本:</span>
+        <select id="pVersion" name="pVersion">
+            <option value ="6" selected>6</option>
+            <option value ="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+        </select>
+        <button type="submit">点击获取秘钥</button>
+        </form>
+    </div>
   </body>
 </html>
 '''
