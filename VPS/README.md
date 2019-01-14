@@ -43,7 +43,7 @@
 
 ### [oneindex直接列onedrive目录，文件直链下载](https://github.com/donwa/oneindex)
 
-### [OneDrive 目录文件索引应用](https://github.com/WangNingkai/OLAINDEX)
+### [OLAINDEX OneDrive目录文件索引应用](https://github.com/WangNingkai/OLAINDEX)
 
 ### [PyOne基于Python的onedrive文件本地化浏览系统](https://github.com/abbeyokgo/PyOne)
 
