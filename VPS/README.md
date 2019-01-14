@@ -36,11 +36,16 @@
 ### [临时邮箱搭建](https://github.com/denghongcai/forsaken-mail)
 
 ## 资源网站建立
+
 ### [php-h5ai](https://github.com/lrsjng/h5ai)
 
 ### [php-zdir](https://github.com/helloxz/zdir)
 
 ### [oneindex直接列onedrive目录，文件直链下载](https://github.com/donwa/oneindex)
+
+### [OneDrive 目录文件索引应用](https://github.com/WangNingkai/OLAINDEX)
+
+### [PyOne基于Python的onedrive文件本地化浏览系统](https://github.com/abbeyokgo/PyOne)
 
 ### [萌音影视 - 在线影视应用](https://github.com/178146582/moeins) [安装教程](https://www.moerats.com/archives/744/)
 ### [使用FileManager+基于Python3的爬虫程序建立影音图片库](https://www.moerats.com/archives/501/)
