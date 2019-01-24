@@ -38,6 +38,8 @@ List<Invest> is = ht.find(hql, loanId, InvestStatus.REPAYING );
 
 ## QBC查询
 ### 该方式只能用关联表的关联字段为查询条件，无法使用关联表的其他字段为查询条件
+##### Criteria 和 DetachedCriteria 的主要区别在于创建的形式不一样, Criteria 是在线的，所以它是由hibernate Session 进行创建的；而 DetachedCriteria 是离线的，创建时无需Session ，DetachedCriteria 提供了 2 个静态方法 forClass(Class) 或 forEntityName(Name)进行DetachedCriteria 实例的创建。
+##### spring 的框架提供了getHibernateTemplate().findByCriteria(detachedCriteria) 方法可以很方便地根据DetachedCriteria 来返回查询结果。
 ### hibernate5.2版本之前createCriteria()查询的方式
 ```java
 // Restrictions.in传值为数组或list集合
@@ -47,6 +49,10 @@ criteria.createAlias("invest", "i");// 当查询关联第三张表时，第二�
 criteria.add(Restrictions.eq("i.loan.id", loanExtensionPlan.getLoan().getId()));
 criteria.add(Restrictions.in("status", status));
 criteria.addOrder(Order.desc("period"));// 添加排序
+// 查询一范围内的的数据,需借助Criteria来查询
+Criteria cri = criteria.getExecutableCriteria(ht.getSessionFactory().getCurrentSession());
+cri.setFirstResult(firstResult);// 从第几条开始
+cri.setMaxResults(maxResults);// 查询多少条
 List<InvestExtensionPlan> investExtensionPlans = ht.findByCriteria(criteria);
 ```
 #### 模糊查询和自定义查询
