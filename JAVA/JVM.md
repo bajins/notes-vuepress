@@ -32,7 +32,7 @@ grant codebase "file:${java.home}/../lib/tools.jar" {
 ```
 #### 在Java的bin目录下用以下命令启动
 ```shell
-./jstatd -J-Djava.security.policy=jstatd.all.policy -J-Djava.rmi.server.hostname=192.168.134.128 -p 3333 -J-Djava.rmi.server.logCalls=true
+./jstatd -J-Djava.security.policy=jstatd.all.policy -J-Djava.rmi.server.hostname=主机的IP -p 1099 -J-Djava.rmi.server.logCalls=true
 ```
 ```diff
 -J-Djava.security.policy=jstatd.all.policy 文件的绝对路径；
