@@ -16,6 +16,8 @@
 ### 需要注意的是:当OS所在分区是FAT格式时，VisualVM无法获取相关信息！
 https://jingyan.baidu.com/article/a3761b2be8a29e1576f9aa8e.html
 
+http://blog.51cto.com/zero01/2141942
+
 ## MyPerf4J
 #### 无侵入式的jvm监控工具
 https://github.com/ThinkpadNC5/MyPerf4J
