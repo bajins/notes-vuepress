@@ -41,7 +41,6 @@ lsof -i:1099
 #### 二、新建一个配置文件 jstatd.all.policy
 ```sehll
 cd $JAVA_HOME/bin/
-touch jstatd.all.policy
 vi jstatd.all.policy
 ```
 ##### 添加以下代码
