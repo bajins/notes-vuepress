@@ -33,7 +33,7 @@ cd $JAVA_HOME/bin
 ```
 ##### 查看运行端口情况
 ```shell
-netstat -anp | grep *jstatd
+netstat -ntlp
 lsof -i:1099
 ```
 
