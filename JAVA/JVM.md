@@ -42,7 +42,7 @@ netstat -ntlp
 lsof -i:1099
 ```
 
-#### 二、新建一个配置文件 jstatd.all.policy
+#### 二、（推荐）新建一个配置文件 jstatd.all.policy
 ```sehll
 cd $JAVA_HOME/bin/
 vi jstatd.all.policy
