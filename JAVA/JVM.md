@@ -53,6 +53,10 @@ grant codebase "file:${java.home}/../lib/tools.jar" {
    permission java.security.AllPermission;
 };
 ```
+##### 给文件加上执行权限
+```shell
+chmod +x jstatd.all.policy
+```
 ##### 在Java的bin目录下用以下命令启动
 ```shell
 ./jstatd -J-Djava.security.policy=jstatd.all.policy -J-Djava.rmi.server.hostname=主机的IP -p 1099 -J-Djava.rmi.server.logCalls=true &
