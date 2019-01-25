@@ -29,7 +29,7 @@ permission java.security.AllPermission;
 ##### 启动jstatd
 ```shell
 cd $JAVA_HOME/bin
-./jstatd -J-Djava.security.policy=jstatd.all.policy -J-Djava.rmi.server.hostname=主机的IP -p 1099
+./jstatd -J-Djava.security.policy=jstatd.all.policy -J-Djava.rmi.server.hostname=主机的IP -p 1099 &
 ```
 ##### 查看运行端口情况
 ```shell
@@ -51,7 +51,7 @@ grant codebase "file:${java.home}/../lib/tools.jar" {
 ```
 ##### 在Java的bin目录下用以下命令启动
 ```shell
-./jstatd -J-Djava.security.policy=jstatd.all.policy -J-Djava.rmi.server.hostname=主机的IP -p 1099 -J-Djava.rmi.server.logCalls=true
+./jstatd -J-Djava.security.policy=jstatd.all.policy -J-Djava.rmi.server.hostname=主机的IP -p 1099 -J-Djava.rmi.server.logCalls=true &
 ```
 ```diff
 -J-Djava.security.policy=jstatd.all.policy 文件的绝对路径；
