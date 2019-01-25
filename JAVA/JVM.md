@@ -4,7 +4,7 @@
 
 ### 在jvm启动参数中加入或在Tomcat的/bin/catalina.sh文件中加入
 ```shell
--Djava.rmi.server.hostname=112.74.16.238
+-Djava.rmi.server.hostname=主机的IP
 -Dcom.sun.management.jmxremote.port=18999
 -Dcom.sun.management.jmxremote.ssl=false
 -Dcom.sun.management.jmxremote.authenticate=false
