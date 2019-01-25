@@ -17,20 +17,39 @@
 
 http://blog.51cto.com/zero01/2141942
 
-### 解决Visual GC提示”不受此JVM支持“
-##### 要监控的主机没有配置jstatd，新建一个配置文件 jstatd.all.policy
+### 解决Visual GC提示”不受此JVM支持“，要监控的主机没有配置jstatd
+#### 一、在java.policy中添加配置
+```shell
+vi $JAVA_HOME/jre/lib/security/java.policy
+```
+##### 在文件末位的 }; 前添加
+```java
+permission java.security.AllPermission;
+```
+##### 启动jstatd
+```shell
+cd $JAVA_HOME/bin
+./jstatd -J-Djava.security.policy=jstatd.all.policy -J-Djava.rmi.server.hostname=主机的IP -p 1099
+```
+##### 查看运行端口情况
+```shell
+netstat -anp | grep *jstatd
+lsof -i:1099
+```
+
+#### 二、新建一个配置文件 jstatd.all.policy
 ```sehll
 cd $JAVA_HOME/bin/
 touch jstatd.all.policy
 vi jstatd.all.policy
 ```
-#### 添加以下代码
+##### 添加以下代码
 ```java
 grant codebase "file:${java.home}/../lib/tools.jar" {
    permission java.security.AllPermission;
 };
 ```
-#### 在Java的bin目录下用以下命令启动
+##### 在Java的bin目录下用以下命令启动
 ```shell
 ./jstatd -J-Djava.security.policy=jstatd.all.policy -J-Djava.rmi.server.hostname=主机的IP -p 1099 -J-Djava.rmi.server.logCalls=true
 ```
