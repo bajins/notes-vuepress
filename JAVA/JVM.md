@@ -14,6 +14,7 @@
 ##### C:\Program Files\Java\jdk1.8.0_191\bin目录下找到jvisualvm.exe
 
 ### 需要注意的是:当OS所在分区是FAT格式时，VisualVM无法获取相关信息！
+https://jingyan.baidu.com/article/a3761b2be8a29e1576f9aa8e.html
 
 ## MyPerf4J
 #### 无侵入式的jvm监控工具
