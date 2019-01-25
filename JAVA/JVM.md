@@ -18,6 +18,10 @@
 http://blog.51cto.com/zero01/2141942
 
 ### 解决Visual GC提示”不受此JVM支持“，要监控的主机没有配置jstatd
+#### 先查看jstatd服务是否可用
+```shell
+jps -l 127.0.0.1
+```
 #### 一、在原有配置文件java.policy中添加
 ```shell
 vi $JAVA_HOME/jre/lib/security/java.policy
