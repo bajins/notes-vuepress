@@ -19,9 +19,9 @@ http://blog.51cto.com/zero01/2141942
 
 ### 解决Visual GC提示”不受此JVM支持“
 ##### 要监控的主机没有配置jstatd，新建一个配置文件 jstatd.all.policy
-#### 执行以下命令
 ```sehll
-cd /usr/local/src/jdk1.8.0_131/bin/
+cd $JAVA_HOME/bin/
+touch jstatd.all.policy
 vi jstatd.all.policy
 ```
 #### 添加以下代码
