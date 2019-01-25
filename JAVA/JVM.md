@@ -17,6 +17,33 @@
 
 http://blog.51cto.com/zero01/2141942
 
+### 解决Visual GC提示”不受此JVM支持“
+##### 要监控的主机没有配置jstatd，新建一个配置文件 jstatd.all.policy
+#### 执行以下命令
+```sehll
+cd /usr/local/src/jdk1.8.0_131/bin/
+vi jstatd.all.policy
+```
+#### 添加以下代码
+```java
+grant codebase "file:${java.home}/../lib/tools.jar" {
+   permission java.security.AllPermission;
+};
+```
+#### 在Java的bin目录下用以下命令启动
+```shell
+./jstatd -J-Djava.security.policy=jstatd.all.policy -J-Djava.rmi.server.hostname=192.168.134.128 -p 3333 -J-Djava.rmi.server.logCalls=true
+```
+```diff
+-J-Djava.security.policy=jstatd.all.policy 文件的绝对路径；
+-J-Djava.rmi.server.logCalls=true 打开日志,如果客户端有连接过来的请求,可以监控到,便于排错；
+-J-Djava.rmi.server.hostname=192.168.134.128 指明本机 hostname 对应的本机地址,确保该地址可以给客户机访问。因为有的服务器 hostname 对应的 ip 不一定是外网能连上的，最好在这里直接明确指定；
+-p 3333 指定服务的端口号，默认是1099。也是可选参数。
+```
+
+https://blog.csdn.net/liupeifeng3514/article/details/78998161
+
+
 ## MyPerf4J
 #### 无侵入式的jvm监控工具
 https://github.com/ThinkpadNC5/MyPerf4J
