@@ -17,6 +17,8 @@
 
 http://blog.51cto.com/zero01/2141942
 
+https://blog.csdn.net/u010004317/article/details/82948040
+
 ### 解决Visual GC提示”不受此JVM支持“，要监控的主机没有配置jstatd
 #### 先查看jstatd服务是否可用
 ```shell
