@@ -29,7 +29,7 @@ permission java.security.AllPermission;
 ##### 启动jstatd
 ```shell
 cd $JAVA_HOME/bin
-./jstatd -J-Djava.security.policy=jstatd.all.policy -J-Djava.rmi.server.hostname=主机的IP -p 1099 &
+./jstatd -J-Djava.security.policy=all.policy -J-Djava.rmi.server.hostname=主机的IP -p 1099 &
 ```
 ##### 查看运行端口情况
 ```shell
