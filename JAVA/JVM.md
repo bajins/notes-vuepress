@@ -108,6 +108,16 @@ JAVA_OPTS="
 ```
 ![](/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Linux.png)
 
+# JVM在遇到OOM(OutOfMemoryError)时生成Dump文件
+命令：
+```shell
+jmap -dump:format=b,file=heap.bin
+```
+```diff
+file：保存路径及文件名
+pid：进程编号（windows通过任务管理器查看，linux通过ps aux查看）
+dump文件可以通过MemoryAnalyzer(MAT)分析查看,可以查看dump时对象数量，内存占用，线程情况等。
+```
 
 # 监控工具
 
