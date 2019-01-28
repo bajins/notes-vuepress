@@ -111,7 +111,7 @@ JAVA_OPTS="
 # JVM在遇到OOM(OutOfMemoryError)时生成Dump文件
 命令：
 ```shell
-jmap -dump:format=b,file=heap.bin
+jmap -dump:live,format=b,file=d:\dump\heap.hprof <pid>
 ```
 ```diff
 file：保存路径及文件名
