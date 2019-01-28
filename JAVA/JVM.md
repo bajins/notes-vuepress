@@ -1,6 +1,6 @@
 # 目录
 * [JVM参数的优化](#JVM参数的优化)
-* [JVM在遇到OOM(OutOfMemoryError)时生成Dump文件](#JVM在遇到OOM(OutOfMemoryError)时生成Dump文件)
+* [生成Dump文件](#生成Dump文件)
 * [监控工具](#监控工具)
 --------------------------------------------------
 
@@ -114,8 +114,9 @@ JAVA_OPTS="
 ```
 ![](/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Linux.png)
 
-# JVM在遇到OOM(OutOfMemoryError)时生成Dump文件
-命令：
+# 生成Dump文件
+## JVM在遇到OOM(OutOfMemoryError)时生成Dump文件
+### 命令：
 ```shell
 jmap -dump:live,format=b,file=d:\dump\heap.hprof <pid>
 ```
