@@ -12,46 +12,27 @@
 | 参数 | 说明  |
 | ------------ | ------------ |
 |  file.encoding |  默认文件编码 |
-|  -Xmx1024m | 设置JVM最大可用内存为1024MB  |
-|  -Xms1024m | 设置JVM最小内存为1024m。此值可以设置与-Xmx相同，以避免每次垃圾回收完成后JVM重新分配内存。  |
-|  -XX:NewSize | 设置年轻代大小  |
-|  -XX:MaxNewSize | 设置最大的年轻代大小 |
-|  -XX:PermSize | 设置永久代大小  |
-|  -XX:MaxPermSize| 设置最大永久代大小 |
-|-XX:NewRatio=4|设置年轻代（包括Eden和两个Survivor区）与终身代的比值（除去永久代）。设置为4，则年轻代与终身代所占比值为1：4，年轻代占整个堆栈的1/5|
-|-XX:MaxTenuringThreshold|设置垃圾最大年龄，默认为：15。如果设置为0的话，则年轻代对象不经过Survivor区，直接进入年老代。对于年老代比较多的应用，可以提高效率。如果将此值设置为一个较大值，则年轻代对象会在Survivor区进行多次复制，这样可以增加对象再年轻代的存活时间，增加在年轻代即被回收的概论。 |
-|-XX:+DisableExplicitGC|这个将会忽略手动调用GC的代码使得System.gc()的调用就会变成一个空调用，完全不会触发任何GC|
-| -XX:MetaspaceSize=64m | 元数据空间，专门用来存元数据的，它是jdk8里特有的数据结构用来替代perm |
-| -XX:MaxMetaspaceSize=128m | 最大元数据空间，专门用来存元数据的，它是jdk8里特有的数据结构用来替代perm |
+|  -Xmx1024m | 初始堆大小为1024m |
+|  -Xms1024m | 最大堆大小为1024m |
+|  -XX:NewSize=n | 设置年轻代大小  |
+|  -XX:MaxNewSize=n | 设置最大的年轻代大小 |
+|  -XX:PermSize=n | JDK1.7设置永久代大小  |
+|  -XX:MaxPermSize=n| JDK1.7设置最大永久代大小 |
+|  -XX:MetaspaceSize=n | JDK1.8设置元空间大小  |
+|  -XX:MaxMetaspaceSize=n| JDK1.8设置最大元空间大小 |
+| -XX:NewRatio=4|设置年轻代（包括Eden和两个Survivor区）与终身代的比值（除去永久代）。设置为4，则年轻代与终身代所占比值为1：4，年轻代占整个堆栈的1/5|
+|-XX:SurvivorRatio=n |年轻代中Eden区与两个Survivor区的比值。注意Survivor区有两个。如：3，表示Eden：Survivor=3：2，一个Survivor区占整个年轻代的1/5|
+| -XX:MaxTenuringThreshold|设置垃圾最大年龄，默认为：15。如果设置为0的话，则年轻代对象不经过Survivor区，直接进入年老代。对于年老代比较多的应用，可以提高效率。如果将此值设置为一个较大值，则年轻代对象会在Survivor区进行多次复制，这样可以增加对象再年轻代的存活时间，增加在年轻代即被回收的概论。 |
+| -XX:CMSScavengeBeforeRemark|CMS并发标记阶段与用户线程并发进行，此阶段会产生已经被标记了的对象又发生变化的情况，若打开此开关，可在一定程度上降低CMS重新标记阶段对上述“又发生变化”对象的扫描时间，当然，“清除尝试”也会消耗一些时间。注：开启此开关并不会保证在标记阶段前一定会进行清除操作|
+|-XX:+UseSerialGC |设置串行收集器|
+|-XX:+UseParallelGC |设置并行收集器|
+|-XX:ParallelGCThreads=n|设置并行收集线程数|
+|-XX:+UseParalledlOldGC |设置并行年老代收集器|
+|-XX:+UseConcMarkSweepGC |设置并发收集器|
+|-XX:MaxGCPauseMillis=n |设置并行收集最大暂停时间|
+|-XX:GCTimeRatio=n |设置垃圾回收时间占程序运行时间的百分比。公式为1/(1+n)|
 
-### 参考
-```shell
--Xms :初始堆大小
--Xmx :最大堆大小
--XX:NewSize=n :设置年轻代大小
--XX:NewRatio=n: 设置年轻代和年老代的比值。如:为3，表示年轻代与年老代比值为1：3，年轻代占整个年轻代年老代和的1/4
--XX:SurvivorRatio=n :年轻代中Eden区与两个Survivor区的比值。注意Survivor区有两个。如：3，表示Eden：Survivor=3：2，一个Survivor区占整个年轻代的1/5
--XX:MaxPermSize=n :设置持久代大小
-收集器设置
--XX:+UseSerialGC :设置串行收集器
--XX:+UseParallelGC :设置并行收集器
--XX:+UseParalledlOldGC :设置并行年老代收集器
--XX:+UseConcMarkSweepGC :设置并发收集器
-垃圾回收统计信息
--XX:+PrintHeapAtGC GC的heap详情
--XX:+PrintGCDetails  GC详情
--XX:+PrintGCTimeStamps  打印GC时间信息
--XX:+PrintTenuringDistribution    打印年龄信息等
--XX:+HandlePromotionFailure   老年代分配担保（true  or false）
-并行收集器设置
--XX:ParallelGCThreads=n :设置并行收集器收集时使用的CPU数。并行收集线程数。
--XX:MaxGCPauseMillis=n :设置并行收集最大暂停时间
--XX:GCTimeRatio=n :设置垃圾回收时间占程序运行时间的百分比。公式为1/(1+n)
-并发收集器设置
--XX:+CMSIncrementalMode :设置为增量模式。适用于单CPU情况。
--XX:ParallelGCThreads=n :设置并发收集器年轻代收集方式为并行收集时，使用的CPU数。并行收集线程数
--XX:CMSScavengeBeforeRemark CMS并发标记阶段与用户线程并发进行，此阶段会产生已经被标记了的对象又发生变化的情况，若打开此开关，可在一定程度上降低CMS重新标记阶段对上述“又发生变化”对象的扫描时间，当然，“清除尝试”也会消耗一些时间。注：开启此开关并不会保证在标记阶段前一定会进行清除操作
-```
+
 
 ### windows
 #### 修改bin/catalina.bat文件,在setlocal下面一行添加
