@@ -38,6 +38,7 @@
 #### 根据JDK8-4G内存-4核生成的jvm参数，打印了gc各个阶段的日志
 ##### 看看ygc 的回收时间及 时间，已及old区大小，最后看FGC
 ```shell
+export JAVA_OPTS="
 -Xmx2688M
 -Xms2688M
 -Xmn960m
@@ -68,6 +69,7 @@
 -Dcom.sun.management.jmxremote.port=18999
 -Dcom.sun.management.jmxremote.ssl=false
 -Dcom.sun.management.jmxremote.authenticate=false
+"
 ```
 
 ### windows
