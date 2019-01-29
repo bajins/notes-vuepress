@@ -74,45 +74,17 @@ export JAVA_OPTS="
 ```
 
 ### windows
-#### 修改bin/catalina.bat文件,在setlocal下面一行添加
-##### jdk8之前
-```shell
-set JAVA_OPTS=-Dfile.encoding=UTF-8 -server-Xms1024m -Xmx2048m -XX:NewSize=512m -XX:MaxNewSize=1024m -XX:MetaspaceSize=512m -XX:MaxMetaspaceSize=1024m -XX:MaxTenuringThreshold=10 -XX:NewRatio=2 -XX:+DisableExplicitGC
+#### 添加JAVA_HOME和JRE_HOME
+```sehll
+set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_191
+set JRE_HOME=C:\Program Files\Java\jre1.8.0_201
 ```
-##### jdk8
-```shell
-set JAVA_OPTS=-Dfile.encoding=UTF-8 -server-Xms1024m -Xmx2048m -XX:NewSize=512m -XX:MaxNewSize=1024m -XX:PermSize=256m -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=10 -XX:NewRatio=2 -XX:+DisableExplicitGC
-```
+#### 修改bin/catalina.bat文件,在setlocal下面一行添加，注意代码格式
+
 ![](/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Windows.png)
 
 ### linux
-#### 修改bin/catalina.sh文件,在os400=false之前添加
-##### jdk8之前
-```shell
-export JAVA_OPTS="
-    -Dfile.encoding=UTF-8-server
-    -Xms1024m -Xmx2048m
-    -XX:NewSize=512m
-    -XX:MaxNewSize=1024m
-    -XX:PermSize=256m
-    -XX:MaxPermSize=256m
-    -XX:MaxTenuringThreshold=10
-    -XX:NewRatio=2
-    -XX:+DisableExplicitGC"
-```
-##### jdk8
-```shell
-export JAVA_OPTS="
-    -Dfile.encoding=UTF-8-server
-    -Xms1024m -Xmx2048m
-    -XX:NewSize=512m
-    -XX:MaxNewSize=1024m
-    -XX:MetaspaceSize=512m
-    -XX:MaxMetaspaceSize=1024m
-    -XX:MaxTenuringThreshold=10
-    -XX:NewRatio=2
-    -XX:+DisableExplicitGC"
-```
+#### 修改bin/catalina.sh文件,在最前面添加，注意代码格式
 ![](/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Linux.png)
 
 ## jstat命令
