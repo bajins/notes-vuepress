@@ -1,5 +1,6 @@
 # 目录
 * [JVM参数的优化](#JVM参数的优化)
+  * [jstat命令](#jstat命令)
 * [生成Dump文件](#生成Dump文件)
 * [监控工具](#监控工具)
 --------------------------------------------------
@@ -95,6 +96,18 @@ JAVA_OPTS="
     -XX:+DisableExplicitGC"
 ```
 ![](/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Linux.png)
+
+## jstat命令
+```diff
+jstat [ generalOption | outputOptions vmid [interval[s|ms] [count]] ]
+参数：
+generalOption: 一般使用-gcutil查看GC情况
+vmid: 虚拟机进程号，即当前运行的java进程号
+interval: 间隔时间，单位为秒或毫秒
+count: 打印次数，如果缺省则打印无数次
+```
+
+
 
 # 生成Dump文件
 ## JVM在遇到OOM(OutOfMemoryError)时生成Dump文件
