@@ -34,6 +34,37 @@
 |-XX:GCTimeRatio=n |设置垃圾回收时间占程序运行时间的百分比。公式为1/(1+n)|
 |-XX:+UseConcMarkSweepGC | 设置年老代为并发收集。测试中配置这个以后，-XX:NewRatio=4的配置失效了，原因不明。所以，此时年轻代大小最好用-Xmn设置。|
 
+### 参考
+#### 根据JDK8-4G内存-4核生成的jvm参数，打印了gc各个阶段的日志
+##### 看看ygc 的回收时间及 时间，已及old区大小，最后看FGC
+```shell
+-Xmx8g
+-Xms8g
+-Xmn2926m
+-XX:MaxMetaspaceSize=512M
+-XX:MetaspaceSize=512M
+-XX:+UseConcMarkSweepGC
+-XX:+UseCMSInitiatingOccupancyOnly
+-XX:CMSInitiatingOccupancyFraction=70
+-XX:+ExplicitGCInvokesConcurrentAndUnloadsClasses
+-XX:+CMSClassUnloadingEnabled
+-XX:+ParallelRefProcEnabled
+-XX:+CMSScavengeBeforeRemark
+-XX:ErrorFile=/usr/local/hs_err_pid%p.log
+-Xloggc:/usr/local/gc.log
+-XX:HeapDumpPath=/usr/local
+-XX:+PrintGCDetails
+-XX:+PrintGCDateStamps
+-verbose:class
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:+PrintClassHistogramBeforeFullGC
+-XX:+PrintClassHistogramAfterFullGC
+-XX:+PrintCommandLineFlags
+-XX:+PrintGCApplicationConcurrentTime
+-XX:+PrintGCApplicationStoppedTime
+-XX:+PrintTenuringDistribution
+-XX:+PrintHeapAtGC
+```
 
 ### windows
 #### 修改bin/catalina.bat文件,在setlocal下面一行添加
