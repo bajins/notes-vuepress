@@ -64,6 +64,10 @@
 -XX:+PrintGCApplicationStoppedTime
 -XX:+PrintTenuringDistribution
 -XX:+PrintHeapAtGC
+-Djava.rmi.server.hostname=192.168.1.220
+-Dcom.sun.management.jmxremote.port=18999
+-Dcom.sun.management.jmxremote.ssl=false
+-Dcom.sun.management.jmxremote.authenticate=false
 ```
 
 ### windows
