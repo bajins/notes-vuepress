@@ -52,13 +52,13 @@ export JAVA_OPTS="
 -XX:+CMSClassUnloadingEnabled
 -XX:+ParallelRefProcEnabled
 -XX:+CMSScavengeBeforeRemark
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:HeapDumpPath=/home/jvm_logs/local
 -XX:ErrorFile=/home/jvm_logs/hs_err_pid%p.log
 -Xloggc:/home/jvm_logs/gc.log
--XX:HeapDumpPath=/home/jvm_logs/local
 -XX:+PrintGCDetails
 -XX:+PrintGCDateStamps
 -verbose:class
--XX:+HeapDumpOnOutOfMemoryError
 -XX:+PrintClassHistogramBeforeFullGC
 -XX:+PrintClassHistogramAfterFullGC
 -XX:+PrintCommandLineFlags
@@ -91,7 +91,7 @@ set JAVA_OPTS=
 ```
 ##### jdk8
 ```shell
-set JAVA_OPTS="
+set JAVA_OPTS=
     -Dfile.encoding=UTF-8
     -server-Xms1024m
     -Xmx2048m
@@ -101,7 +101,7 @@ set JAVA_OPTS="
     -XX:MaxPermSize=256m
     -XX:MaxTenuringThreshold=10
     -XX:NewRatio=2
-    -XX:+DisableExplicitGC"
+    -XX:+DisableExplicitGC
 ```
 ![](/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Windows.png)
 
