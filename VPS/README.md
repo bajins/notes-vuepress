@@ -37,8 +37,6 @@
 
 ## 资源网站建立
 
-### [php-h5ai](https://github.com/lrsjng/h5ai)
-
 ### [php-zdir](https://github.com/helloxz/zdir)
 
 ### [oneindex直接列onedrive目录，文件直链下载](https://github.com/donwa/oneindex)
