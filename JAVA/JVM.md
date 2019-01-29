@@ -77,31 +77,11 @@ export JAVA_OPTS="
 #### 修改bin/catalina.bat文件,在setlocal下面一行添加
 ##### jdk8之前
 ```shell
-set JAVA_OPTS=
-    -Dfile.encoding=UTF-8
-    -server-Xms1024m
-    -Xmx2048m
-    -XX:NewSize=512m
-    -XX:MaxNewSize=1024m
-    -XX:MetaspaceSize=512m
-    -XX:MaxMetaspaceSize=1024m
-    -XX:MaxTenuringThreshold=10
-    -XX:NewRatio=2
-    -XX:+DisableExplicitGC
+set JAVA_OPTS=-Dfile.encoding=UTF-8 -server-Xms1024m -Xmx2048m -XX:NewSize=512m -XX:MaxNewSize=1024m -XX:MetaspaceSize=512m -XX:MaxMetaspaceSize=1024m -XX:MaxTenuringThreshold=10 -XX:NewRatio=2 -XX:+DisableExplicitGC
 ```
 ##### jdk8
 ```shell
-set JAVA_OPTS=
-    -Dfile.encoding=UTF-8
-    -server-Xms1024m
-    -Xmx2048m
-    -XX:NewSize=512m
-    -XX:MaxNewSize=1024m
-    -XX:PermSize=256m
-    -XX:MaxPermSize=256m
-    -XX:MaxTenuringThreshold=10
-    -XX:NewRatio=2
-    -XX:+DisableExplicitGC
+set JAVA_OPTS=-Dfile.encoding=UTF-8 -server-Xms1024m -Xmx2048m -XX:NewSize=512m -XX:MaxNewSize=1024m -XX:PermSize=256m -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=10 -XX:NewRatio=2 -XX:+DisableExplicitGC
 ```
 ![](/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Windows.png)
 
@@ -109,7 +89,7 @@ set JAVA_OPTS=
 #### 修改bin/catalina.sh文件,在os400=false之前添加
 ##### jdk8之前
 ```shell
-JAVA_OPTS=
+export JAVA_OPTS="
     -Dfile.encoding=UTF-8-server
     -Xms1024m -Xmx2048m
     -XX:NewSize=512m
@@ -118,11 +98,11 @@ JAVA_OPTS=
     -XX:MaxPermSize=256m
     -XX:MaxTenuringThreshold=10
     -XX:NewRatio=2
-    -XX:+DisableExplicitGC
+    -XX:+DisableExplicitGC"
 ```
 ##### jdk8
 ```shell
-JAVA_OPTS="
+export JAVA_OPTS="
     -Dfile.encoding=UTF-8-server
     -Xms1024m -Xmx2048m
     -XX:NewSize=512m
