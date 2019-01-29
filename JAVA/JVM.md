@@ -39,6 +39,7 @@
 ##### 看看ygc 的回收时间及 时间，已及old区大小，最后看FGC
 ```shell
 export JAVA_OPTS="
+-server
 -Xmx2688M
 -Xms2688M
 -Xmn960m
