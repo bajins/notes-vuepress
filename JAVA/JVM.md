@@ -20,7 +20,7 @@
 |-XX:PermSize=n | JDK1.7设置永久代大小  |
 |-XX:MaxPermSize=n| JDK1.7设置最大永久代大小 |
 |-XX:MetaspaceSize=n | JDK1.8设置元空间大小  |
-|-XX:MaxMetaspaceSize=n| JDK1.8设置最大元空间大小 |
+|-XX:MaxMetaspaceSize=n| JDK1.8设置最大元空间大小,最好与-XX:MetaspaceSize一致 |
 |-XX:NewRatio=4|设置年轻代（包括Eden和两个Survivor区）与终身代的比值（除去永久代）。设置为4，则年轻代与终身代所占比值为1：4，年轻代占整个堆栈的1/5|
 |-XX:SurvivorRatio=n |年轻代中Eden区与两个Survivor区的比值。注意Survivor区有两个。如：3，表示Eden：Survivor=3：2，一个Survivor区占整个年轻代的1/5|
 |-XX:MaxTenuringThreshold|设置垃圾最大年龄，默认为：15。如果设置为0的话，则年轻代对象不经过Survivor区，直接进入年老代。对于年老代比较多的应用，可以提高效率。如果将此值设置为一个较大值，则年轻代对象会在Survivor区进行多次复制，这样可以增加对象再年轻代的存活时间，增加在年轻代即被回收的概论。 |
