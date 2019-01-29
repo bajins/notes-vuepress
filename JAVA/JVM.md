@@ -56,6 +56,10 @@ export JAVA_OPTS="
 -XX:HeapDumpPath=/home/jvm_logs/local
 -XX:ErrorFile=/home/jvm_logs/hs_err_pid%p.log
 -Xloggc:/home/jvm_logs/gc.log
+-Djava.rmi.server.hostname=192.168.1.220
+-Dcom.sun.management.jmxremote.port=18999
+-Dcom.sun.management.jmxremote.ssl=false
+-Dcom.sun.management.jmxremote.authenticate=false
 -XX:+PrintGCDetails
 -XX:+PrintGCDateStamps
 -verbose:class
@@ -66,10 +70,6 @@ export JAVA_OPTS="
 -XX:+PrintGCApplicationStoppedTime
 -XX:+PrintTenuringDistribution
 -XX:+PrintHeapAtGC
--Djava.rmi.server.hostname=192.168.1.220
--Dcom.sun.management.jmxremote.port=18999
--Dcom.sun.management.jmxremote.ssl=false
--Dcom.sun.management.jmxremote.authenticate=false
 "
 ```
 
