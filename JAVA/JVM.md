@@ -32,7 +32,7 @@
 |-XX:+UseConcMarkSweepGC |设置并发收集器|
 |-XX:MaxGCPauseMillis=n |设置并行收集最大暂停时间|
 |-XX:GCTimeRatio=n |设置垃圾回收时间占程序运行时间的百分比。公式为1/(1+n)|
-
+|-XX:+UseConcMarkSweepGC | 设置年老代为并发收集。测试中配置这个以后，-XX:NewRatio=4的配置失效了，原因不明。所以，此时年轻代大小最好用-Xmn设置。|
 
 
 ### windows
