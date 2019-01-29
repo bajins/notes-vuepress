@@ -38,9 +38,9 @@
 #### 根据JDK8-4G内存-4核生成的jvm参数，打印了gc各个阶段的日志
 ##### 看看ygc 的回收时间及 时间，已及old区大小，最后看FGC
 ```shell
--Xmx8g
--Xms8g
--Xmn2926m
+-Xmx2688M
+-Xms2688M
+-Xmn960m
 -XX:MaxMetaspaceSize=512M
 -XX:MetaspaceSize=512M
 -XX:+UseConcMarkSweepGC
@@ -50,9 +50,9 @@
 -XX:+CMSClassUnloadingEnabled
 -XX:+ParallelRefProcEnabled
 -XX:+CMSScavengeBeforeRemark
--XX:ErrorFile=/usr/local/hs_err_pid%p.log
--Xloggc:/usr/local/gc.log
--XX:HeapDumpPath=/usr/local
+-XX:ErrorFile=/home/jvm_logs/hs_err_pid%p.log
+-Xloggc:/home/jvm_logs/gc.log
+-XX:HeapDumpPath=/home/jvm_logs/local
 -XX:+PrintGCDetails
 -XX:+PrintGCDateStamps
 -verbose:class
