@@ -16,8 +16,8 @@
 
 ## [Netsarang激活By DeltaFoX/TeamURET](https://dfox.it/DeFconX/tags/xmanager/)
 
-## [SublimeText插件](/IDE/SublimeText插件.md)
-
 ## [IntelliJ IDEA 辅助工具](https://github.com/mrshawnho/ideaagent)
+
+## [SublimeText插件](/IDE/SublimeText插件.md)
 
 ## [VisualStudioCode插件](/IDE/VisualStudioCodePlugins.md)
