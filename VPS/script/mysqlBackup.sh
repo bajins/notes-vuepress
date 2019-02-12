@@ -31,11 +31,12 @@ expire_days=3
 # 定义备份详细时间
 backup_time=`date +%Y%m%d%H%M`
 # 定义备份目录中的年月日时间
-backup_Ymd=`date +%Y-%m-%d`
+#backup_Ymd=`date +%Y-%m-%d`
 # 3天之前的日期
 backup_3ago=`date -d '3 days ago' +%Y-%m-%d`
 # 备份文件夹全路径
-backup_dir=$backup_location/$backup_Ymd
+#backup_dir=$backup_location/$backup_Ymd
+backup_dir=$backup_location
 # 欢迎语
 welcome_msg="Welcome to use MySQL backup tools!"
 
