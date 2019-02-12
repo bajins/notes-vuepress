@@ -85,9 +85,9 @@ else
             exit
     fi
     # 如果开启了删除过期备份，则进行删除操作
-    if [ "$expire_backup_delete" == "ON" -a  "$backup_location" != "" ];then
-             #`find $backup_location/ -type d -o -type f -ctime +$expire_days -exec rm -rf {} \;`
-             `find $backup_location/ -type d -mtime +$expire_days | xargs rm -rf`
+    if [ "$expire_backup_delete" == "ON" -a  "$backup_dir" != "" ];then
+             #`find $backup_dir/ -type d -o -type f -ctime +$expire_days -exec rm -rf {} \;`
+             `find $backup_dir/ -type d -mtime +$expire_days | xargs rm -rf`
              echo "Expired backup data delete complete!"
     fi
     endDate=`date +"%Y-%m-%d %H:%M:%S"`
