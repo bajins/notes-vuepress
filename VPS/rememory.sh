@@ -5,9 +5,9 @@ export PATH
 #+ 宝塔释放内存脚本
 #+------------------------------------
 
-endDate=`date +"%Y-%m-%d %H:%M:%S"`
+startDate=`date +"%Y-%m-%d %H:%M:%S"`
 log="释放内存!"
-echo "★[$endDate] $log"
+echo "★[$startDate] $log"
 echo '----------------------------------------------------------------------------'
 
 if [ -f "/etc/init.d/php-fpm-52" ];then
@@ -60,6 +60,7 @@ sync
 sleep 2
 sync
 echo 3 > /proc/sys/vm/drop_caches
-echo '释放网页缓存，目录项和索引（To free pagecache, dentries and inodes）成功！'
+endDate=`date +"%Y-%m-%d %H:%M:%S"`
+echo '[$endDate] 释放网页缓存，目录项和索引（To free pagecache, dentries and inodes）成功！'
 
 echo '----------------------------------------------------------------------------'
