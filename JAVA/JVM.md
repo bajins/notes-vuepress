@@ -97,9 +97,33 @@ vmid: 虚拟机进程号，即当前运行的java进程号
 interval: 间隔时间，单位为秒或毫秒
 count: 打印次数，如果缺省则打印无数次
 ```
+```shell
+# 每2秒输出一次内存情况，连续输出100次
+jstat -gcutil <pid> 2000 100
+jstat -gcutil $(pgrep java) 2000 100
+
+# 输出heap各个分区大小
+jstat -gc <pid>
+jstat -gc $(pgrep java)
+```
 ### 观察jvm中当前所有线程的运行情况和线程当前状态
 ```shell
 jstack -F 进程ID
+jstack -F $(pgrep java)
+
+# 将所有线程信息输入到指定文件中
+jstack -F 进程ID > jvm.log
+jstack -F $(pgrep java) > jvm.log
+```
+```shell
+# 查看本机所有java进程pid
+jps -l
+
+# 查看运行时jvm参数
+jinfo -flag <jvm参数> <pid>
+
+# 获取当前JVM默认参数
+java -XX:+PrintFlagsFinal -version | grep MaxHeapSize
 ```
 
 
