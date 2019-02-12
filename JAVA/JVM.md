@@ -129,7 +129,12 @@ java -XX:+PrintFlagsFinal -version | grep MaxHeapSize
 # 找出占用cpu高（或执行时间长）的线程pid 
 top -H -p <pid>
 top -H -p $(pgrep java)
+
+# 打印等待回收的对象信息
+jmap -finalizerinfo <pid>
+jmap -finalizerinfo $(pgrep java)
 ```
+[JVM调优命令-jmap](https://www.cnblogs.com/myna/p/7573843.html)
 
 
 
