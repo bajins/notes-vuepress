@@ -107,7 +107,7 @@ jstat -gc <pid>
 jstat -gc $(pgrep java)
 
 # 获取到线程的dump日志
-jstack -l $(pgrep java)  >> du.log
+jstack -l $(pgrep java)  >> dump.log
 ```
 ### 观察jvm中当前所有线程的运行情况和线程当前状态
 ```shell
