@@ -115,6 +115,7 @@ jstack -F $(pgrep java)
 jstack -F 进程ID > jvm.log
 jstack -F $(pgrep java) > jvm.log
 ```
+## other
 ```shell
 # 查看本机所有java进程pid
 jps -l
@@ -124,6 +125,10 @@ jinfo -flag <jvm参数> <pid>
 
 # 获取当前JVM默认参数
 java -XX:+PrintFlagsFinal -version | grep MaxHeapSize
+
+# 找出占用cpu高（或执行时间长）的线程pid 
+top -H -p <pid>
+top -H -p $(pgrep java)
 ```
 
 
