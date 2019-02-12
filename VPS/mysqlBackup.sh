@@ -1,5 +1,10 @@
 #!/bin/bash
 
+startDate=`date +"%Y-%m-%d %H:%M:%S"`
+log="MySQL备份!"
+echo "★[$startDate] $log"
+echo '----------------------------------------------------------------------------'
+
 # 以下配置信息请自己修改
 
 # MySQL备份用户
@@ -84,6 +89,8 @@ else
              `find $backup_location/ -type d -mtime +$expire_days | xargs rm -rf`
              echo "Expired backup data delete complete!"
     fi
-    echo "备份成功"
+    endDate=`date +"%Y-%m-%d %H:%M:%S"`
+    echo "[$endDate] 备份成功"
+    echo '----------------------------------------------------------------------------'
     exit
 fi
