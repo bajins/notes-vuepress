@@ -105,6 +105,9 @@ jstat -gcutil $(pgrep java) 2000 100
 # 输出heap各个分区大小
 jstat -gc <pid>
 jstat -gc $(pgrep java)
+
+# 获取到线程的dump日志
+jstack -l $(pgrep java)  >> du.log
 ```
 ### 观察jvm中当前所有线程的运行情况和线程当前状态
 ```shell
