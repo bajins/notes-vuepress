@@ -30,13 +30,13 @@ services:
         - '442:443'
         - '22:22'
       volumes:
-        - config:/etc/gitlab
-        - data:/var/opt/gitlab
-        - logs:/var/log/gitlab
+        - config:/home/gitlab/config
+        - data:/home/gitlab/data
+        - logs:/home/gitlab/logs
 volumes:
-    config:/home/gitlab/config:/etc/gitlab
-    data:/home/gitlab/data:/var/opt/gitlab
-    logs:/home/gitlab/logs:/var/log/gitlab
+    config:
+    data:
+    logs:
 ```
 
 # docker-compose.yml基本介绍
