@@ -159,6 +159,7 @@ ${type_declaration}
 2.JavaScript->Code Style->Formatter->New->Edit->Line Wrapping
 3.Maximum Line width = 180
 4.Set line width for preview window = 180
+
 5.JavaScript->Code Style->Formatter->New->Edit->Comments
 6.Maximum line width for comments = 180
 
