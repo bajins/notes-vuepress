@@ -4,7 +4,8 @@
 * [调整Eclipse运行内存](#调整Eclipse运行内存)
 * [Eclipse自动导包设置](#Eclipse自动导包设置)
 * [Eclipse注释模板设置](#Eclipse注释模板设置)
-* [Eclipse设置不格式化注释](#Eclipse设置不格式化注释)
+* [Eclipse代码格式化设置](#Eclipse代码格式化设置)
+  * [Eclipse设置不格式化注释](#Eclipse设置不格式化注释)
 ***************************************************************************************
 
 # 显示内存
@@ -140,11 +141,8 @@ ${type_declaration}
  * @date: ${date} ${time}
  */
 ```
-# Eclipse设置不格式化注释
-#### eclipse默认自带的风格模板不能直接操作，需要先创建一个新的风格模板才能操作
-![](/images/Eclipse不格式化注释.png)
 
-## 代码格式化设置
+# 代码格式化设置
 
 ```java
 1.Window->Preferences
@@ -169,4 +167,10 @@ ${type_declaration}
 3.Line width = 180
 4.Inline Elements 选中所有-> Remove
 ```
+
+
+## Eclipse设置不格式化注释
+#### eclipse默认自带的风格模板不能直接操作，需要先创建一个新的风格模板才能操作
+![](/images/Eclipse不格式化注释.png)
+
 
