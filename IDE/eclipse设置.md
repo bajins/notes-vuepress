@@ -154,16 +154,19 @@ ${type_declaration}
 3.Maximum Line width = 180
 4.Set line width for preview window = 180
 
+5.Java->Code Style->Formatter->New->Edit->Comments
+6.Maximum line width for comments = 180
+
 // JavaScript 格式化
-5.JavaScript->Code Style->Formatter->New->Edit->Line Wrapping
-6.Maximum Line width = 180
-7.Set line width for preview window = 180
-8.JavaScript->Code Style->Formatter->New->Edit->Comments
-9.Maximum line width for comments = 180
+2.JavaScript->Code Style->Formatter->New->Edit->Line Wrapping
+3.Maximum Line width = 180
+4.Set line width for preview window = 180
+5.JavaScript->Code Style->Formatter->New->Edit->Comments
+6.Maximum line width for comments = 180
 
 // JSP|HTML页面 格式化
-10.Web->HTML Files->Editor
-Line width = 180
-Inline Elements 选中所有-> Remove
+2.Web->HTML Files->Editor
+3.Line width = 180
+4.Inline Elements 选中所有-> Remove
 ```
 
