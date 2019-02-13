@@ -30,9 +30,9 @@ services:
         - '442:443'
         - '22:22'
       volumes:
-        - config:/home/gitlab/config
-        - data:/home/gitlab/data
-        - logs:/home/gitlab/logs
+        - /home/gitlab/config:/home/gitlab/config
+        - /home/gitlab/data:/home/gitlab/data
+        - /home/gitlab/logs:/home/gitlab/logs
 volumes:
     config:
     data:
