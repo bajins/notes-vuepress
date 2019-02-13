@@ -142,7 +142,7 @@ ${type_declaration}
  */
 ```
 
-# 代码格式化设置
+# Eclipse代码格式化设置
 
 ```java
 1.Window->Preferences
