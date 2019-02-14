@@ -5,6 +5,7 @@
 ## Github获取仓库最新Release版本号API
 `https://api.github.com/repos/用户名/项目名/releases/latest`
 
+[Google Hosts](https://github.com/googlehosts/hosts)
 
 ## [IDE](IDE)
 
