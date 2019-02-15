@@ -35,9 +35,12 @@ services:
         - '442:443'
         - '22:22'
       volumes:
-        - /home/gitlab/config:/home/gitlab/config
-        - /home/gitlab/data:/home/gitlab/data
-        - /home/gitlab/logs:/home/gitlab/logs
+        # - /home/gitlab/config:/home/gitlab/config
+        # - /home/gitlab/data:/home/gitlab/data
+        # - /home/gitlab/logs:/home/gitlab/logs
+        - config:/etc/gitlab
+        - data:/var/opt/gitlab
+        - logs:/var/log/gitlab
 volumes:
     config:
     data:
