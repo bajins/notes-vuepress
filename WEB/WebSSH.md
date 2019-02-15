@@ -17,8 +17,7 @@ nvm install <最新的版本号>
 https://rpm.nodesource.com/setup_11.x | bash -
 yum install -y nodejs
 # 检查Node.js和NPM版本
-node -v
-npm -v
+node -v && npm -v
 ```
 
 
