@@ -3,6 +3,7 @@
 * [Read the Docs](#ReadtheDocs)
 --------------------------------------------------
 
+## [docker官网centos7安装](https://docs.docker.com/install/linux/docker-ce/centos/)
 
 ## GitLab
 #### [GitLab Community Edition (中文社区版)](https://github.com/twang2218/gitlab-ce-zh)
