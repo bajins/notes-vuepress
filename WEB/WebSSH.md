@@ -28,6 +28,8 @@ privateKey: fs.readFileSync(‘/root/.ssh/id_rsa‘)
 ```
 ## 运行 Webssh2
 ```shell
+yum install screen
+screen -S Webssh2
 npm start
 ```
 #### 使用浏览器打开http://Webssh服务器IP:Webssh端口/ssh/host/SSH服务器IP
