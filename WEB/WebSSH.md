@@ -15,6 +15,7 @@ nvm install <最新的版本号>
 ##### npm与Node.js一起存在，这意味着当您下载并安装Node.js时，您会自动在计算机上安装npm
 ```shell
 https://rpm.nodesource.com/setup_11.x | bash -
+yum install -y nodejs
 # 检查Node.js和NPM版本
 node -v
 npm -v
