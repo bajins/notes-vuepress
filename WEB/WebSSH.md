@@ -1,5 +1,6 @@
 # WebSSH2
 ## 安装 NVM
+#### nodeJs版本管理工具,管理nodejs版本和npm版本
 ```shell
 curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 source ~/.bashrc
