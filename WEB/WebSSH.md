@@ -32,7 +32,7 @@ yum install screen
 screen -S Webssh2
 npm start
 ```
-#### 使用浏览器打开http://Webssh服务器IP:Webssh端口/ssh/host/SSH服务器IP
+#### 使用浏览器打开`http://Webssh服务器IP:Webssh端口/ssh/host/SSH服务器IP`
 #### 默认端口号是2222
 #### 可以通过修改config.json中的listen.port修改端口
 
