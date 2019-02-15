@@ -29,12 +29,12 @@ npm install --production
 ```
 ## 修改 webssh 源码使其支持 秘钥登录
 ```shell
-vi /usr/local/WebSSH2/server/socket.js
+vi app/server/socket.js
 # 文件开头添加
-var fs = require(‘fs‘)
+var fs = require('fs')
 # 修改 conn.connect 方法
-username: ‘root‘,
-privateKey: fs.readFileSync(‘/root/.ssh/id_rsa‘)
+username: 'root',
+privateKey: fs.readFileSync('/root/.ssh/id_rsa')
 ```
 ## 运行 Webssh2
 ```shell
