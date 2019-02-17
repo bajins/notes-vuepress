@@ -8,6 +8,7 @@
 * [设置类文件创建模板](#设置类文件创建模板)
 * [鼠标悬停查看方法注释](#鼠标悬停查看方法注释)
 * [自动优化导包](#自动优化导包)
+* [去掉Mybatis配置文件的局部背景颜色](#去掉Mybatis配置文件的局部背景颜色)
 ****
 ## 设置IDEA每次启动进入欢迎界面
 > [回到顶部](#readme)
@@ -100,6 +101,16 @@ public class ${NAME} {
 #### Add unambiguous imports on the fly：自动帮我们优化导入的包，比如自动去掉一些没有用到的包。 
 #### Optimize imports on the fly：自动帮我们导入需要用到的包。但是对于同名的包，需要手动`Alt + Enter`进行导入。
 ![](/images/IDEA自动优化导包.png)
+
+
+## 去掉Mybatis配置文件的局部背景颜色
+> [回到顶部](#readme)
+#### 1.快捷键`ctrl + alt+ s`打开Settings。找到`Editor -> Inspections`的配置页面，去掉SQL中`No data sources configured`（没有配置数据源） 选项 和 `SQL dialect detection`（SQL方言检测） 选项。
+![](/images/IDEA去掉SQL选项.png)
+
+#### 2.去掉背景。找到`Editor -> Color -> General`的配置页面，选择`Code -> Injected language fragment`，去掉最右边的`Background`选项。
+![](/images/IDEA去掉代码背景.png)
+
 
 
 *******************
