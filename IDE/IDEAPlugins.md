@@ -2,6 +2,7 @@
 
 ## [mybatis plugin free](https://github.com/mustfun/mybatis-plugin-free)
 
+## [MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
 
 ## [Maven Helper](https://plugins.jetbrains.com/plugin/7179-maven-helper)
 #### 一键查看maven依赖，查看冲突的依赖，一键进行exclude依赖
