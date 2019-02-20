@@ -6,6 +6,7 @@
 * [Eclipse注释模板设置](#Eclipse注释模板设置)
 * [Eclipse代码格式化设置](#Eclipse代码格式化设置)
   * [Eclipse设置不格式化注释](#Eclipse设置不格式化注释)
+* [设置编码格式](#设置编码格式)
 ***************************************************************************************
 
 # 显示内存
@@ -173,5 +174,21 @@ ${type_declaration}
 ## Eclipse设置不格式化注释
 #### eclipse默认自带的风格模板不能直接操作，需要先创建一个新的风格模板才能操作
 ![](/images/Eclipse不格式化注释.png)
+
+## 设置编码格式
+### 1、设置工作空间编码格式
+#### 在Window -> Preferences -> General -> Workspace下，面板Text file encoding 选择UTF-8
+![](/images/Eclipse设置工作空间编码.png)
+
+### 2、设置文档编码格式
+#### 在Window -> Preferences -> General  -> Content Type -> Text的最下面设置为编码格式为UTF-8
+![](/images/Eclipse设置文档编码.png)
+
+### 3、设置Web编码格式
+#### 在Window -> Preferences -> Web -> （CSS Files、HTML Files、JSP Files） 面板选择 ISO 10646/Unicode(UTF-8)
+![](/images/Eclipse设置Web文件编码.png)
+
+### 4、设置项目的文档编码格式
+#### 选择项目 -> 右键 -> Properties  -> Resource 设置编码为UTF-8
 
 
