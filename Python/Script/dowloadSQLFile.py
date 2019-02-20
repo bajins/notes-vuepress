@@ -143,7 +143,6 @@ result = getData(dbHost, dbPort, dbUser, dbPasswd,
 # 循环所有数据
 for d in result:
     url = str(d[3])
-    print(url)
     dowloadFile(url, "c/", "")
 
 
