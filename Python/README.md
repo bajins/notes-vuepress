@@ -9,17 +9,19 @@ pip install --user numpy scipy matplotlib jupyter pandas sympy nose
 
 # 换源
 ```
-阿里云 https://mirrors.aliyun.com/pypi/simple/
-中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple/
-豆瓣(douban) http://pypi.douban.com/simple/
-清华大学 https://pypi.tuna.tsinghua.edu.cn/simple/
-中国科学技术大学 http://pypi.mirrors.ustc.edu.cn/simple/
+阿里云 https://mirrors.aliyun.com/pypi/simple
+中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple
+清华大学 https://pypi.tuna.tsinghua.edu.cn/simple
+
+豆瓣(douban) http://pypi.douban.com/simple
+中国科学技术大学 http://pypi.mirrors.ustc.edu.cn/simple
 ```
 ## 临时使用
 #### 可以在使用pip的时候加参数-i https://pypi.tuna.tsinghua.edu.cn/simple
 ```shell
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple requests
 # 使用豆瓣镜像源安装pandas
+# --trusted-host pypi.douban.com 在不是HTTPS的时候加上使用
 pip install matplotlib -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
 pip install numpy -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
 pip install pandas -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
