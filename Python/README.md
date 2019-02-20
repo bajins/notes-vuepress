@@ -25,7 +25,7 @@ pip install numpy -i http://pypi.douban.com/simple --trusted-host pypi.douban.co
 pip install pandas -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
 pip install seaborn scipy  -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
 ```
-```
+
 ## 永久修改
 ### Linux环境(Mac环境)
 ```shell
