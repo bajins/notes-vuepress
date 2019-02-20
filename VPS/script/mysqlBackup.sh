@@ -1,10 +1,5 @@
 #!/bin/bash
 
-startDate=`date +"%Y-%m-%d %H:%M:%S"`
-log="MySQL备份!"
-echo "★[$startDate] $log"
-echo '----------------------------------------------------------------------------'
-
 # ============以下配置信息请自己修改===================
 
 # MySQL备份用户
@@ -39,6 +34,11 @@ backup_3ago=`date -d '3 days ago' +%Y-%m-%d`
 backup_dir=$backup_location
 # 欢迎语
 welcome_msg="欢迎使用MySQL备份工具！"
+
+startDate=`date +"%Y-%m-%d %H:%M:%S"`
+log="MySQL备份!"
+echo "★[$startDate] $log"
+echo '----------------------------------------------------------------------------'
 
 # 判断MYSQL是否启动,mysql没有启动则备份退出
 mysql_ps=`ps -ef |grep mysql |wc -l`
