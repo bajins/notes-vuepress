@@ -9,6 +9,7 @@
 import pymysql
 import pandas as pd
 import requests
+import urllib
 import os
 import sys
 import datetime
@@ -57,6 +58,7 @@ dbDatabase = args.dbDatabase
 dbChart = args.dbChart
 dbSQL = args.dbSQL
 fileMkdir = args.fileMkdir
+
 
 # 判断第三方模块是否已安装，若没有安装则执行pip install 命令安装该模块
 def detectionModule(module):
@@ -137,6 +139,28 @@ def dowloadFile(url, mkdir, name):
         r = requests.get(url)
         with open(name, "wb") as code:
             code.write(r.content)
+
+
+def dowloadFileList(urls, mkdir, name):
+    for url in urls:
+        # 判断文件名称是否传入
+        if name.strip() == '':
+            ur = str(url).split("/")
+            # 如果没传，就取URL中最后的文件名
+            name = ur[len(ur)-1]
+        # 判断是否传入文件夹
+        if mkdir.strip() != '':
+            # 判断目录是否存在
+            if not os.path.exists(mkdir):
+                # 目录不存在则创建
+                os.mkdir(mkdir)
+            name = mkdir+name
+        # LocalPath = os.path.join('C:/Users/goatbishop/Desktop',file)
+        #os.path.join将多个路径组合后返回
+        urllib.request.urlretrieve(url,name)
+        #第一个参数url:需要下载的网络资源的URL地址
+        #第二个参数LocalPath:文件下载到本地后的路径
+
 
 
 result = getData(dbHost, dbPort, dbUser, dbPasswd,
