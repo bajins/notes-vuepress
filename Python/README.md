@@ -19,6 +19,12 @@ pip install --user numpy scipy matplotlib jupyter pandas sympy nose
 #### 可以在使用pip的时候加参数-i https://pypi.tuna.tsinghua.edu.cn/simple
 ```shell
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple requests
+# 使用豆瓣镜像源安装pandas
+pip install matplotlib -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+pip install numpy -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+pip install pandas -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+pip install seaborn scipy  -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+```
 ```
 ## 永久修改
 ### Linux环境(Mac环境)
@@ -45,11 +51,3 @@ index-url = http://mirrors.aliyun.com/pypi/simple/
 trusted-host=mirrors.aliyun.com
 ```
 
-
-# 使用豆瓣镜像源安装pandas
-```shell
-pip install matplotlib -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
-pip install numpy -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
-pip install pandas -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
-pip install seaborn scipy  -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
-```
