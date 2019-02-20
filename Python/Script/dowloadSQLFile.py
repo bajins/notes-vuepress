@@ -161,18 +161,22 @@ def dowloadFileList(urls, mkdir, name):
                 # 目录不存在则创建
                 os.mkdir(mkdir)
             name = mkdir+name
-        # LocalPath = os.path.join('C:/Users/goatbishop/Desktop',file)
         #os.path.join将多个路径组合后返回
-        urllib.request.urlretrieve(url,name)
+        # LocalPath = os.path.join('C:/Users/goatbishop/Desktop',file)
         #第一个参数url:需要下载的网络资源的URL地址
         #第二个参数LocalPath:文件下载到本地后的路径
+        # urllib.request.urlretrieve(url,name)
+        response = urllib.request.urlopen(url)
+        pic = response.read()
+        with open(name, 'wb') as f:
+            f.write(pic)
 
 
 
 result = getData(dbHost, dbPort, dbUser, dbPasswd,
                  dbDatabase, dbChart, dbSQL)
 
-# dowloadFileList(result,fileMkdir,"")
+dowloadFileList(result,fileMkdir,"")
 
 # print(result)
 # for d in result:
@@ -180,9 +184,9 @@ result = getData(dbHost, dbPort, dbUser, dbPasswd,
 #         continue
 
 # 循环所有数据
-for d in result:
-    url = str(d[3])
-    dowloadFile(url, fileMkdir, "")
+# for d in result:
+#     url = str(d[3])
+#     dowloadFile(url, fileMkdir, "")
 
 
 print(":::::::::::::::执行完成时间：" +
