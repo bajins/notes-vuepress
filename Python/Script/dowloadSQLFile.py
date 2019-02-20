@@ -141,8 +141,9 @@ def dowloadFile(url, mkdir, name):
         #     code.write(r.content)
         try:
             f = open(name, 'wb')
-            f.write(r.content)
-            f.close()
+            for chunk in r.iter_content(chunk_size=512):
+                if chunk:
+                    f.write(chunk)
         except Exception as e:
             print("失败")
 
@@ -176,7 +177,7 @@ def dowloadFileList(urls, mkdir, name):
 result = getData(dbHost, dbPort, dbUser, dbPasswd,
                  dbDatabase, dbChart, dbSQL)
 
-dowloadFileList(result,fileMkdir,"")
+# dowloadFileList(result,fileMkdir,"")
 
 # print(result)
 # for d in result:
@@ -184,9 +185,9 @@ dowloadFileList(result,fileMkdir,"")
 #         continue
 
 # 循环所有数据
-# for d in result:
-#     url = str(d[3])
-#     dowloadFile(url, fileMkdir, "")
+for d in result:
+    url = str(d[3])
+    dowloadFile(url, fileMkdir, "")
 
 
 print(":::::::::::::::执行完成时间：" +
