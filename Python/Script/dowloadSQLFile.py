@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 # -*- coding: UTF-8 -*-
+# 执行脚本前请先执行以下命令
+# pip install pandas -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+# pip install -i requests http://pypi.douban.com/simple --trusted-host pypi.douban.com
 
 import pymysql
 import pandas as pd
