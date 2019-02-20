@@ -166,15 +166,17 @@ def dowloadFileList(urls, mkdir, name):
 result = getData(dbHost, dbPort, dbUser, dbPasswd,
                  dbDatabase, dbChart, dbSQL)
 
+dowloadFileList(result,fileMkdir,"")
+
 # print(result)
 # for d in result:
 #     if d == "path":
 #         continue
 
 # 循环所有数据
-for d in result:
-    url = str(d[3])
-    dowloadFile(url, fileMkdir, "")
+# for d in result:
+#     url = str(d[3])
+#     dowloadFile(url, fileMkdir, "")
 
 
 print(":::::::::::::::执行完成时间：" +
