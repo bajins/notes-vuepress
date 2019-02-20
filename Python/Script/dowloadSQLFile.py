@@ -3,6 +3,8 @@
 # 执行脚本前请先执行以下命令
 # pip install pandas -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
 # pip install requests -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+# pip install pymysql
+
 
 import pymysql
 import pandas as pd
