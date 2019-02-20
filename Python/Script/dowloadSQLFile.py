@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 # -*- coding: UTF-8 -*-
 # 执行脚本前请先执行以下命令
-# pip install pandas -i https://pypi.mirrors.ustc.edu.cn/simple
-# pip install -i requests https://pypi.mirrors.ustc.edu.cn/simple
+# pip install pandas -i https://pypi.tuna.tsinghua.edu.cn/simple
+# pip install -i requests https://pypi.tuna.tsinghua.edu.cn/simple
 
 import pymysql
 import pandas as pd
