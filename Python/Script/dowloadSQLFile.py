@@ -48,7 +48,7 @@ parser.add_argument('--dbChart', '-chart', type=str,
 parser.add_argument('--dbSQL', '-sql', type=str,
                     default=None, help='请输入数据库查询SQL')
 parser.add_argument('--fileMkdir', '-mkdir', type=str,
-                    default="", help='请输入文件保存地址')
+                    default=None, help='请输入文件保存地址')
 args = parser.parse_args()
 dbHost = args.dbHost
 dbPort = args.dbPort
@@ -137,8 +137,14 @@ def dowloadFile(url, mkdir, name):
     if not os.path.isfile(name):
         # 文件不存在才保存
         r = requests.get(url)
-        with open(name, "wb") as code:
-            code.write(r.content)
+        # with open(name, "wb") as code:
+        #     code.write(r.content)
+        try:
+            f = open(name, 'wb')
+            f.write(r.content)
+            f.close()
+        except Exception as e:
+            print("失败")
 
 
 def dowloadFileList(urls, mkdir, name):
@@ -166,7 +172,7 @@ def dowloadFileList(urls, mkdir, name):
 result = getData(dbHost, dbPort, dbUser, dbPasswd,
                  dbDatabase, dbChart, dbSQL)
 
-dowloadFileList(result,fileMkdir,"")
+# dowloadFileList(result,fileMkdir,"")
 
 # print(result)
 # for d in result:
@@ -174,9 +180,9 @@ dowloadFileList(result,fileMkdir,"")
 #         continue
 
 # 循环所有数据
-# for d in result:
-#     url = str(d[3])
-#     dowloadFile(url, fileMkdir, "")
+for d in result:
+    url = str(d[3])
+    dowloadFile(url, fileMkdir, "")
 
 
 print(":::::::::::::::执行完成时间：" +
