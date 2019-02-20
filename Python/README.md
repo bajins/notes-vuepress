@@ -15,6 +15,8 @@ pip install --user numpy scipy matplotlib jupyter pandas sympy nose
 
 豆瓣(douban) http://pypi.douban.com/simple
 中国科学技术大学 http://pypi.mirrors.ustc.edu.cn/simple
+华中理工大学：http://pypi.hustunique.com
+山东理工大学：http://pypi.sdutlinux.org
 ```
 ## 临时使用
 #### 可以在使用pip的时候加参数-i https://pypi.tuna.tsinghua.edu.cn/simple
