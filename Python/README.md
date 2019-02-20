@@ -1,5 +1,7 @@
 # Python
 
+## (centos7安装Python7](/install.md)
+
 # 更新pip
 ```shell
 python -m pip install --upgrade pip
