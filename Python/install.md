@@ -35,12 +35,12 @@ pip3 -V
 ## yum安装
 ### 1、安装EPEL和IUS软件源
 ```shell
-yum install epel-release -y
-yum install https://centos7.iuscommunity.org/ius-release.rpm -y
+yum -y install epel-release
+yum -y install https://centos7.iuscommunity.org/ius-release.rpm
 ```
 ### 2、安装Python3.7
 ```shell
-yum install python37u -y
+yum -y install python37u
 ```
 
 ### 3、创建python3连接符
@@ -50,7 +50,7 @@ ln -s /bin/python3.7 /bin/python3
 
 ### 4、安装pip3
 ```shell
-yum install python37u-pip -y
+yum -y install python37u-pip
 ```
 ### 5、创建pip3链接符
 ```shell
