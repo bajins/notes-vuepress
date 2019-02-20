@@ -46,6 +46,8 @@ parser.add_argument('--dbChart', '-chart', type=str,
                     default='UTF8', help='请输入数据库字符编码')
 parser.add_argument('--dbSQL', '-sql', type=str,
                     default=None, help='请输入数据库查询SQL')
+parser.add_argument('--fileMkdir', '-mkdir', type=str,
+                    default=None, help='请输入文件保存地址')
 args = parser.parse_args()
 dbHost = args.dbHost
 dbPort = args.dbPort
@@ -54,7 +56,7 @@ dbPasswd = args.dbPasswd
 dbDatabase = args.dbDatabase
 dbChart = args.dbChart
 dbSQL = args.dbSQL
-
+fileMkdir = args.fileMkdir
 
 # 判断第三方模块是否已安装，若没有安装则执行pip install 命令安装该模块
 def detectionModule(module):
@@ -148,7 +150,7 @@ result = getData(dbHost, dbPort, dbUser, dbPasswd,
 # 循环所有数据
 for d in result:
     url = str(d[3])
-    dowloadFile(url, "c/", "")
+    dowloadFile(url, fileMkdir, "")
 
 
 print(":::::::::::::::执行完成时间：" +
