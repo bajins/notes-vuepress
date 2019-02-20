@@ -48,7 +48,7 @@ parser.add_argument('--dbChart', '-chart', type=str,
 parser.add_argument('--dbSQL', '-sql', type=str,
                     default=None, help='请输入数据库查询SQL')
 parser.add_argument('--fileMkdir', '-mkdir', type=str,
-                    default=None, help='请输入文件保存地址')
+                    default="", help='请输入文件保存地址')
 args = parser.parse_args()
 dbHost = args.dbHost
 dbPort = args.dbPort
