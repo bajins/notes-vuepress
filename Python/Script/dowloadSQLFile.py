@@ -137,15 +137,8 @@ def dowloadFile(url, mkdir, name):
     if not os.path.isfile(name):
         # 文件不存在才保存
         r = requests.get(url)
-        # with open(name, "wb") as code:
-        #     code.write(r.content)
-        try:
-            f = open(name, 'wb')
-            for chunk in r.iter_content(chunk_size=512):
-                if chunk:
-                    f.write(chunk)
-        except Exception as e:
-            print("失败")
+        with open(name, "wb") as code:
+            code.write(r.content)
 
 
 def dowloadFileList(urls, mkdir, name):
@@ -166,11 +159,11 @@ def dowloadFileList(urls, mkdir, name):
         # LocalPath = os.path.join('C:/Users/goatbishop/Desktop',file)
         #第一个参数url:需要下载的网络资源的URL地址
         #第二个参数LocalPath:文件下载到本地后的路径
-        # urllib.request.urlretrieve(url,name)
-        response = urllib.request.urlopen(url)
-        pic = response.read()
-        with open(name, 'wb') as f:
-            f.write(pic)
+        urllib.request.urlretrieve(url,name)
+        # response = urllib.request.urlopen(url)
+        # pic = response.read()
+        # with open(name, 'wb') as f:
+        #     f.write(pic)
 
 
 
