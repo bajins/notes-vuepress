@@ -36,8 +36,7 @@ backup_dir=$backup_location
 welcome_msg="欢迎使用MySQL备份工具！"
 
 startDate=`date +"%Y-%m-%d %H:%M:%S"`
-log="MySQL备份!"
-echo "★[$startDate] $log"
+echo "★[$startDate] $welcome_msg"
 echo '----------------------------------------------------------------------------'
 
 # 判断MYSQL是否启动,mysql没有启动则备份退出
@@ -46,8 +45,7 @@ mysql_listen=`netstat -an |grep LISTEN |grep $mysql_port|wc -l`
 if [ [$mysql_ps == 0] -o [$mysql_listen == 0] ]; then
         echo "错误：MySQL没有运行！备份停止！"
         exit
-else
-        echo $welcome_msg
+        
 fi
 
 # 连接到mysql数据库，无法连接则备份退出
