@@ -1,6 +1,14 @@
 # 新centOS需要安装的工具：
 
 
+## 卸载命令
+```
+rpm -qa | grep 软件名称
+rpm -e --nodeps 列出的软件全名
+```
+
+==========================================================================
+
 修改时区为亚洲上海
 ```shell
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
