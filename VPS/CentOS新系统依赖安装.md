@@ -17,7 +17,7 @@ yum remove 软件名
 #### 没指定路径，那就到源码路径执行make uninstall，如果最初的编译文件夹被删除了，还可以重新下载、编译，然后删除
 #### 如果源码被删除就查找并删除
 ```shell
-find -name 软件名称
+find / -name 软件名称
 ```
 ### 通过checkinstall管理编译安装过程
 #### 1、使用checkinstall编译安装
