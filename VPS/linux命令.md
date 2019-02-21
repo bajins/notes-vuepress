@@ -216,6 +216,14 @@ du -hm --max-depth=2 | sort -nr | head -12
 
 #查看home文件夹下的所有文件夹占用大小并排序
 du -hm --max-depth=2 /home/ | sort -nr
+
+# 查找目录
+find / -name ‘path’ -type d
+
+# 查找内容
+find . | xargs grep -ri 'content'
+# 查找内容只显示文件名称
+find . | xargs grep -ril 'content'
 ```
 
 ## 创建目录
