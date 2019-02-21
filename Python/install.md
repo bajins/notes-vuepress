@@ -33,6 +33,15 @@ python3 -V
 pip3 -V
 ```
 
+### 如果安装后出现yum不能正常使用
+```shell
+vi /usr/bin/yum 
+把 #! /usr/bin/python 修改为 #! /usr/bin/python2 
+vi /usr/libexec/urlgrabber-ext-down 
+把 #! /usr/bin/python 修改为 #! /usr/bin/python2
+```
+
+
 ## yum安装Python3.6
 ### 1、安装EPEL和IUS软件源
 ```shell
