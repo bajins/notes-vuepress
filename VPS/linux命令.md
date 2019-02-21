@@ -218,7 +218,7 @@ du -hm --max-depth=2 | sort -nr | head -12
 du -hm --max-depth=2 /home/ | sort -nr
 
 # 查找目录
-find / -name ‘path’ -type d
+find / -name 'path' -type d
 
 # 查找内容
 find . | xargs grep -ri 'content'
