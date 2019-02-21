@@ -19,7 +19,7 @@ tar -xvJf  Python-3.7.2.tar.xz
 mkdir /usr/local/python3
 cd Python-3.7.2
 ./configure --prefix=/usr/local/python3
-make && make install
+make && make install > install.log
 ```
 ### 4.创建软连接
 ```shell
