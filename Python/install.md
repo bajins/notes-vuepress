@@ -43,6 +43,9 @@ vi /usr/bin/yum
 vi /usr/libexec/urlgrabber-ext-down 
 ```
 
+--------------------------------------------------------------------
+
+
 ## yum安装Python3.6
 ### 1、安装EPEL和IUS软件源
 ```shell
