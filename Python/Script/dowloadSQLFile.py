@@ -224,32 +224,36 @@ def selectSqlite3BD(db, sql):
 #         continue
 
 
-image = selectSqlite3BD("image", "SELECT id, db_id from image order by id desc limit 1")
-startId = image[len(image) - 1][0]
-print("查询到Sqlite3数据库表中最大ID：", startId)
+image = selectSqlite3BD(dbDatabase, "SELECT id, db_id from " + dbTable + " order by id desc limit 1")
 if len(image) <= 0:
-    createSqlite3DB("image", "CREATE TABLE image (id INTEGER PRIMARY KEY NOT NULL,db_id TEXT NOT NULL)")
+    createSqlite3DB(dbDatabase, "CREATE TABLE " + dbTable + " (id INTEGER PRIMARY KEY NOT NULL,db_id TEXT NOT NULL)")
 else:
+    startId = image[len(image) - 1][0]
+    print("查询到Sqlite3数据库表中最大ID：", startId)
     tableLimitStart = startId
 
+# 查询出MySQL中的数据
 result = getMysqlDataLimit(dbHost, dbPort, dbUser, dbPassword,
                            dbDatabase, dbChart, dbTable, tableLimitStart, tableLimitEnd)
-# 循环所有数据
+
+# 定义Sqlite3表ID
 i = 0
 if len(image) > 0:
     i = startId
+# 循环所有数据
 for d in result:
     image_id = str(d[0])
     url = str(d[3])
     dowloadFile(url, fileMkdir, "")
     i = i + 1
-    # image = selectSqlite3BD("image", "SELECT id, db_id from image where id='" + str(i) + "'")
+    # image = selectSqlite3BD(dbDatabase, "SELECT id, db_id from "+dbTable+" where id='" + str(i) + "'")
     # if len(image) <= 0:
     #  OR IGNORE 防止插入重复数据
-    insertSqlite3DB("image", "INSERT OR IGNORE INTO image (id,db_id) VALUES (" + str(i) + "," + image_id + ")")
+    insertSqlite3DB(dbDatabase,
+                    "INSERT OR IGNORE INTO " + dbTable + " (id,db_id) VALUES (" + str(i) + "," + image_id + ")")
 
-image = selectSqlite3BD("image", "SELECT id, db_id from image order by id desc")
-print("执行完成后最终数据库数据条数：", len(image))
+image = selectSqlite3BD(dbDatabase, "SELECT count(*) from " + dbTable)
+print("执行完成后最终数据库数据条数：", image[0][0])
 
 print(":::::::::::::::执行完成时间：" +
       datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "::::::::::::::")
