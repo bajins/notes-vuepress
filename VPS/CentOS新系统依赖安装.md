@@ -1,10 +1,42 @@
 # 新centOS需要安装的工具：
 
 
-## 卸载命令
-```
+## 卸载软件
+### RPM安装
+```shell
 rpm -qa | grep 软件名称
 rpm -e --nodeps 列出的软件全名
+```
+### yum安装
+```shell
+yum remove 软件名
+```
+
+### 源码编译安装
+#### 编译时的路径如果指定了--prefix /usr/local/xxx 直接rm -rf /usr/local/xxx即可。
+#### 没指定路径，那就到源码路径执行make uninstall，如果最初的编译文件夹被删除了，还可以重新下载、编译，然后删除
+#### 如果源码被删除就查找并删除
+```shell
+find -name 软件名称
+```
+### 通过checkinstall管理编译安装过程
+#### 1、使用checkinstall编译安装
+```shell
+./configure
+make
+checkinstall
+```
+#### CheckInstall会完成以下任务：
+- 调用make install，然后用installwatch监视、记录整个安装过程中添加的文件
+- 等到安装完成，把记录的文件打包，根据不同的系统创建安装包：.rpm或.deb
+- 注：安装包会保存在源代码目录，以便复制到其它机器安装，省去重复编译的麻烦。
+- 移除make install安装的文件
+- 调用系统安装工具来安装第2步创建的安装包：rpm -i或dpkg -i
+
+#### 2、卸载checkinstall安装的软件
+```shell
+CentOS: rpm -e package_name
+Ubuntu: dpkg -r package_name
 ```
 
 ----------------------------------------------------------------------
