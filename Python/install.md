@@ -34,11 +34,11 @@ pip3 -V
 ```
 
 ### 如果安装后出现yum不能正常使用
-#### 把 #! /usr/bin/python 修改为 #! /usr/bin/python2 
+#### 把 `#! /usr/bin/python` 修改为 `#! /usr/bin/python2` 
 ```shell
 vi /usr/bin/yum 
 ```
-#### 把 #! /usr/bin/python 修改为 #! /usr/bin/python2
+#### 把 `#! /usr/bin/python` 修改为 `#! /usr/bin/python2`
 ```shell
 vi /usr/libexec/urlgrabber-ext-down 
 ```
