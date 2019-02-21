@@ -93,7 +93,7 @@ crontab -e
 0 0 */20 * * /bin/bash /home/cleanLog.sh >> /home/cleanLog.log 2>&1
 
 # 设置每小时执行一次
-0 0 0/1 * * ? python3 /home/dowloadSQLFile.py -host='127.0.0.1' -port=3306 -user='root' -pwd='123456' -db='test' -table='images' -start=0 -end=2000 -mkdir='c/' >> /home/dowloadSQLFile.log 2>&1
+0 0/1 * * * * python3 /home/dowloadSQLFile.py -host='127.0.0.1' -port=3306 -user='root' -pwd='123456' -db='test' -table='images' -start=0 -end=2000 -mkdir='c/' >> /home/dowloadSQLFile.log 2>&1
 ```
 ```diff
 -在linux中的直接执行shell脚本可以用相对路径找到文件,但是如果通过计划任务crontab执行shell脚本时，却不能通过相对路径找到文件!
