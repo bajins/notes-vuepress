@@ -165,7 +165,7 @@ def dowloadFile(url, mkdir, name):
     if not os.path.isfile(name):
         # 文件不存在才保存
         with open(name, "wb") as code:
-            code.write(s.get(url, headers=headers, verify=False, timeout=5).content)
+            code.write(s.get(url, headers=headers, verify=False, timeout=30).content)
 
 
 # 用urllib批量下载文件
