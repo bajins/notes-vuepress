@@ -252,7 +252,7 @@ def run():
                                dbDatabase, dbChart, dbTable, tableLimitStart, tableLimitEnd)
     if len(result) <= 0:
         print("没有查询到MySQL数据库数据")
-        quit()
+        sys.exit(0)
 
     # 创建锁
     # lock = threading.RLock()
