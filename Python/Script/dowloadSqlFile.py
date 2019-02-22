@@ -11,7 +11,7 @@
 
 
 import pymysql
-import pandas as pd
+import pandas
 import requests
 import urllib
 import os
@@ -101,7 +101,7 @@ def getMysqlData(host, port, user, password, db, charset, sql):
     data = cursor.fetchall()
     df = data
     # 执行结果转化为dataframe
-    # df = pd.DataFrame(list(data))
+    # df = pandas.DataFrame(list(data))
 
     # 循环所有数据
     # for d in data:
@@ -126,7 +126,7 @@ def getMysqlReadSqlData(host, port, user, password, db, charset, sql):
     # 创建连接
     con = pymysql.connect(
         host=host, port=port, user=user, password=password, db=db, charset=charset)
-    df = pd.read_sql(sql, con)
+    df = pandas.read_sql(sql, con)
     return df
 
 
