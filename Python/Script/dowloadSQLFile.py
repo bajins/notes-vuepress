@@ -225,59 +225,64 @@ def selectSqlite3BD(db, sql):
         return []
 
 
-# dowloadFileList(result,fileMkdir,"")
+def run():
+    # dowloadFileList(result,fileMkdir,"")
 
-# print(result)
-# for d in result:
-#     if d == "path":
-#         continue
+    # print(result)
+    # for d in result:
+    #     if d == "path":
+    #         continue
+
+    image = selectSqlite3BD(dbDatabase, "SELECT id, db_id from " + dbTable + " order by id desc limit 1")
+    if len(image) <= 0:
+        createSqlite3DB(dbDatabase,
+                        "CREATE TABLE " + dbTable + " (id INTEGER PRIMARY KEY NOT NULL,db_id TEXT NOT NULL)")
+    else:
+        startId = image[len(image) - 1][0]
+        print("查询到Sqlite3数据库表中最大ID：", startId)
+        tableLimitStart = startId
+
+    # 查询出MySQL中的数据
+    result = getMysqlDataLimit(dbHost, dbPort, dbUser, dbPassword,
+                               dbDatabase, dbChart, dbTable, tableLimitStart, tableLimitEnd)
+
+    # 创建锁
+    # lock = threading.RLock()
+    # # 锁定
+    # lock.acquire()
+    # # 释放锁
+    # lock.release()
+
+    # 设定线程数量
+    thread_num = 20
+
+    # 定义Sqlite3表ID
+    i = 0
+    if len(image) > 0:
+        i = startId
+    # 循环所有数据
+    for d in result:
+        image_id = str(d[0])
+        url = str(d[3])
+
+        # 启动thread_num个线程来下载图片
+        for img_ph in range(thread_num):
+            download_p = threading.Thread(target=dowloadFile(url, fileMkdir, ""))
+            download_p.start()
+
+        i = i + 1
+        # image = selectSqlite3BD(dbDatabase, "SELECT id, db_id from "+dbTable+" where id='" + str(i) + "'")
+        # if len(image) <= 0:
+        #  OR IGNORE 防止插入重复数据
+        insertSqlite3DB(dbDatabase,
+                        "INSERT OR IGNORE INTO " + dbTable + " (id,db_id) VALUES (" + str(i) + "," + image_id + ")")
+
+    image = selectSqlite3BD(dbDatabase, "SELECT count(*) from " + dbTable)
+    print("执行完成后最终数据库数据条数：", image[0][0])
+
+    print(":::::::::::::::执行完成时间：" +
+          datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "::::::::::::::")
 
 
-image = selectSqlite3BD(dbDatabase, "SELECT id, db_id from " + dbTable + " order by id desc limit 1")
-if len(image) <= 0:
-    createSqlite3DB(dbDatabase, "CREATE TABLE " + dbTable + " (id INTEGER PRIMARY KEY NOT NULL,db_id TEXT NOT NULL)")
-else:
-    startId = image[len(image) - 1][0]
-    print("查询到Sqlite3数据库表中最大ID：", startId)
-    tableLimitStart = startId
-
-# 查询出MySQL中的数据
-result = getMysqlDataLimit(dbHost, dbPort, dbUser, dbPassword,
-                           dbDatabase, dbChart, dbTable, tableLimitStart, tableLimitEnd)
-
-# 创建锁
-# lock = threading.RLock()
-# # 锁定
-# lock.acquire()
-# # 释放锁
-# lock.release()
-
-# 设定线程数量
-thread_num = 20
-
-# 定义Sqlite3表ID
-i = 0
-if len(image) > 0:
-    i = startId
-# 循环所有数据
-for d in result:
-    image_id = str(d[0])
-    url = str(d[3])
-
-    # 启动thread_num个线程来下载图片
-    for img_ph in range(thread_num):
-        download_p = threading.Thread(target=dowloadFile(url, fileMkdir, ""))
-        download_p.start()
-
-    i = i + 1
-    # image = selectSqlite3BD(dbDatabase, "SELECT id, db_id from "+dbTable+" where id='" + str(i) + "'")
-    # if len(image) <= 0:
-    #  OR IGNORE 防止插入重复数据
-    insertSqlite3DB(dbDatabase,
-                    "INSERT OR IGNORE INTO " + dbTable + " (id,db_id) VALUES (" + str(i) + "," + image_id + ")")
-
-image = selectSqlite3BD(dbDatabase, "SELECT count(*) from " + dbTable)
-print("执行完成后最终数据库数据条数：", image[0][0])
-
-print(":::::::::::::::执行完成时间：" +
-      datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "::::::::::::::")
+if __name__ == "__main__":
+    run()
