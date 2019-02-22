@@ -5,6 +5,10 @@
 # pip install requests -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
 # pip install pymysql
 
+# global适用于函数内部修改全局变量的值
+# nonlocal关键字用来在函数或其他作用域中使用外层(非全局)变量
+# 如果不使用关键字，对全局变量或者外部变量进行修改，python会默认将全局变量隐藏起来
+
 
 import pymysql
 import pandas as pd
@@ -195,7 +199,7 @@ def createSqlite3DB(db, sql):
     conn = sqlite3.connect(db + '.db')
     c = conn.cursor()
     c.execute(sql)
-    # print("创建Sqlite3数据库表成功")
+    print("创建Sqlite3数据库表成功")
     conn.commit()
     conn.close()
 
@@ -212,17 +216,16 @@ def insertSqlite3DB(db, sql):
 
 # 查询sqlite3数据库数据并返回
 def selectSqlite3BD(db, sql):
-    try:
-        conn = sqlite3.connect(db + '.db')
-        c = conn.cursor()
-        cursor = c.execute(sql)
-        data = cursor.fetchall()
-        # print("Sqlite3查询数据成功")
-        conn.close()
-        return data
-    except Exception as e:
-        print("查询Sqlite3数据库出现异常：" + str(e))
-        return []
+    conn = sqlite3.connect(db + '.db')
+    c = conn.cursor()
+    cursor = c.execute(sql)
+    data = cursor.fetchall()
+    # print("Sqlite3查询数据成功")
+    conn.close()
+    return data
+
+
+image = []
 
 
 def run():
@@ -232,19 +235,24 @@ def run():
     # for d in result:
     #     if d == "path":
     #         continue
-
-    image = selectSqlite3BD(dbDatabase, "SELECT id, db_id from " + dbTable + " order by id desc limit 1")
-    if len(image) <= 0:
+    try:
+        global image
+        image = selectSqlite3BD(dbDatabase, "SELECT id, db_id from " + dbTable + " order by id desc limit 1")
+        if len(image) > 0:
+            print("查询到Sqlite3数据库表中最大ID：", image[len(image) - 1][0])
+            global tableLimitStart
+            tableLimitStart = image[len(image) - 1][0]
+    except Exception as e:
+        print("没有查询到数据库表：", e)
         createSqlite3DB(dbDatabase,
                         "CREATE TABLE " + dbTable + " (id INTEGER PRIMARY KEY NOT NULL,db_id TEXT NOT NULL)")
-    else:
-        startId = image[len(image) - 1][0]
-        print("查询到Sqlite3数据库表中最大ID：", startId)
-        tableLimitStart = startId
 
     # 查询出MySQL中的数据
     result = getMysqlDataLimit(dbHost, dbPort, dbUser, dbPassword,
                                dbDatabase, dbChart, dbTable, tableLimitStart, tableLimitEnd)
+    if len(result) <= 0:
+        print("没有查询到MySQL数据库数据")
+        quit()
 
     # 创建锁
     # lock = threading.RLock()
@@ -259,7 +267,7 @@ def run():
     # 定义Sqlite3表ID
     i = 0
     if len(image) > 0:
-        i = startId
+        i = tableLimitStart
     # 循环所有数据
     for d in result:
         image_id = str(d[0])
