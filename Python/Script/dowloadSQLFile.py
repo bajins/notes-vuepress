@@ -15,6 +15,7 @@ import sys
 import datetime
 import argparse
 import sqlite3
+import threading
 
 print("==============================================================")
 # if len(sys.argv) < 6:
@@ -131,6 +132,15 @@ def getMysqlReadSqlDataLimit(host, port, user, password, db, charset, table, sta
     return getMysqlReadSqlData(host, port, user, password, db, charset, sql)
 
 
+requests.packages.urllib3.disable_warnings()
+requests.adapters.DEFAULT_RETRIES = 5
+s = requests.session()
+s.keep_alive = False
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36"
+}
+
+
 # 用requests下载文件
 def dowloadFile(url, mkdir, name):
     # detectionModule("requests")
@@ -150,9 +160,8 @@ def dowloadFile(url, mkdir, name):
     # 判断文件是否存在
     if not os.path.isfile(name):
         # 文件不存在才保存
-        r = requests.get(url)
         with open(name, "wb") as code:
-            code.write(r.content)
+            code.write(s.get(url, headers=headers, verify=False, timeout=5).content)
 
 
 # 用urllib批量下载文件
@@ -236,6 +245,16 @@ else:
 result = getMysqlDataLimit(dbHost, dbPort, dbUser, dbPassword,
                            dbDatabase, dbChart, dbTable, tableLimitStart, tableLimitEnd)
 
+# 创建锁
+# lock = threading.RLock()
+# # 锁定
+# lock.acquire()
+# # 释放锁
+# lock.release()
+
+# 设定线程数量
+thread_num = 20
+
 # 定义Sqlite3表ID
 i = 0
 if len(image) > 0:
@@ -244,7 +263,12 @@ if len(image) > 0:
 for d in result:
     image_id = str(d[0])
     url = str(d[3])
-    dowloadFile(url, fileMkdir, "")
+
+    # 启动thread_num个线程来下载图片
+    for img_ph in range(thread_num):
+        download_p = threading.Thread(target=dowloadFile(url, fileMkdir, ""))
+        download_p.start()
+
     i = i + 1
     # image = selectSqlite3BD(dbDatabase, "SELECT id, db_id from "+dbTable+" where id='" + str(i) + "'")
     # if len(image) <= 0:
