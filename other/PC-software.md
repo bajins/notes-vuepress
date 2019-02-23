@@ -66,6 +66,9 @@
 
 #### https://github.com/fatedier/frp/blob/master/README_zh.md
 
+#### frp分支xfrp：https://github.com/KunTengRom/xfrps
+
+
 ### [Frp-Server一键安装脚本](/other/Frp.md)
 
 ### [FRP内网穿透服务端和客户端都是windows](http://www.kaixinit.com/info/maintenance/363.html)
@@ -81,7 +84,7 @@
 ## [NGINX + SSH Tunnel 把本地开发环境公布到互联网上](https://ninghao.net/blog/4452)
 
 
-## [frp分支xfrp](https://github.com/KunTengRom/xfrps)
+
 
 
 ## lanproxy
