@@ -1,4 +1,5 @@
 # PC软件
+## 下载器
 
 [基于axel-webm的优化项目. 通过webui调用axel进行下载. 支持http与ftp下载, 支持多线程加速百度云下载](https://github.com/lihaoyun6/axeldown-core)
 
@@ -9,6 +10,13 @@
 [proxyee-down==http下载工具，基于http代理，支持多连接分块下载](https://github.com/monkeyWie/proxyee-down)
 
 ---
+[Negibox葱葱盒子 不仅仅是超越迅雷](https://github.com/hugetiny/negibox/blob/master/READMECN.md)
+
+---
+[BaiduCDP百度网盘高速下载工具](https://github.com/cool2528/baiduCDP)
+---
+
+
 [FFmpeg-视频编辑](https://github.com/FFmpeg/FFmpeg)
 
 ---
