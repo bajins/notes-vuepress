@@ -73,6 +73,11 @@ tableLimitEnd = args.tableLimitEnd
 fileMkdir = os.path.normpath(args.fileMkdir)+os.sep
 sqlite3Database = fileMkdir+dbDatabase
 
+# 判断目录是否存在
+if not os.path.exists(fileMkdir):
+    # 目录不存在则创建
+    os.mkdir(fileMkdir)
+
 
 # 拆分驱动器和文件路径，并以元组返回结果；主要针对win有效，Linux元组第一个总是空。
 # print(os.path.splitdrive(fileMkdir))
