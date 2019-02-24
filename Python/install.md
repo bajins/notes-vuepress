@@ -11,13 +11,12 @@ yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel r
 #### 到官网复制最新版下载地址 https://www.python.org/downloads/release
 ```shell
 wget https://www.python.org/ftp/python/3.7.2/Python-3.7.2.tar.xz
-tar -xvJf  Python-3.7.2.tar.xz
+tar -xvJf  Python-3.7.2.tar.xz && cd Python-3.7.2
 ```
 ### 3.编译安装
 ```shell
 # 创建编译安装目录
 mkdir /usr/local/python3
-cd Python-3.7.2
 ./configure --prefix=/usr/local/python3
 # 编译安装并把安装日志保存下来
 make && make install > install.log
