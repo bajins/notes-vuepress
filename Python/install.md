@@ -29,8 +29,7 @@ ln -s /usr/local/python3/bin/pip3 /bin/pip3
 ```
 ### 5.验证是否成功
 ```shell
-python3 -V
-pip3 -V
+python3 -V && pip3 -V
 ```
 
 ### 如果安装后出现yum不能正常使用
