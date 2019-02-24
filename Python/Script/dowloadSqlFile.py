@@ -86,36 +86,37 @@ def detectionModule(module):
 # 用cursor.execute获取Mysql数据库数据
 def getMysqlData(host, port, user, password, db, charset, sql):
     try:
-          # 创建连接
-          con = pymysql.connect(
-              host=host, port=port, user=user, password=password, db=db, charset=charset)
-          # 使用 cursor() 方法创建一个游标对象 cursor
-          cursor = con.cursor()
-          df = ""
-          # 使用 execute()  方法执行 SQL 查询
-          cursor.execute(sql)
+      # 创建连接
+      con = pymysql.connect(
+        host=host, port=port, user=user, password=password, db=db, charset=charset)
+      # 使用 cursor() 方法创建一个游标对象 cursor
+      cursor = con.cursor()
+      df = ""
+      # 使用 execute()  方法执行 SQL 查询
+      cursor.execute(sql)
 
-          # 使用 fetchone() 方法获取单条数据.
-          # data = cursor.fetchone()
+      # 使用 fetchone() 方法获取单条数据.
+      # data = cursor.fetchone()
 
-          # 获取所有数据
-          data = cursor.fetchall()
-          df = data
-          # 执行结果转化为dataframe
-          # df = pandas.DataFrame(list(data))
+      # 获取所有数据
+      data = cursor.fetchall()
+      df = data
+      # 执行结果转化为dataframe
+      # df = pandas.DataFrame(list(data))
 
-          # 循环所有数据
-          # for d in data:
-          #     path=str(d[3])
-          #     print(path)
-          # 关闭数据库连接
-          con.close()
-          cursor.close()
+      # 循环所有数据
+      # for d in data:
+      #     path=str(d[3])
+      #     print(path)
+      # 关闭数据库连接
+      con.close()
+      cursor.close()
+      return df
     except OperationalError as e:
           print("MySQL连接错误：", e)
     except Exception as e:
             print("MySQL查询错误：", e)
-    return df
+    
 
 
 # 用cursor.execute分页查询Mysql数据库数据
