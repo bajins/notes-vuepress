@@ -325,6 +325,8 @@ def run():
     image = selectSqlite3BD(sqlite3Database,
                             "SELECT count(*) from " + dbTable)
     print("执行完成后最终数据库数据条数：", image[0][0])
+    print("最终文件个数：", len([name for name in os.listdir(
+        fileMkdir) if os.path.isfile(os.path.join(fileMkdir, name))]))
 
     print(":::::::::::::::执行完成时间：" +
           datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "::::::::::::::")
