@@ -1,6 +1,6 @@
 # Python
 
-## [Centos7安装Python7](./install.md)
+## [Centos7安装Python3.7](./install.md)
 
 # 更新pip
 ```shell
