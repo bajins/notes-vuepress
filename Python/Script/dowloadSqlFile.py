@@ -86,41 +86,41 @@ def detectionModule(module):
 # 用cursor.execute获取Mysql数据库数据
 def getMysqlData(host, port, user, password, db, charset, sql):
     try:
-      # 创建连接
-      con = pymysql.connect(
-        host=host, port=port, user=user, password=password, db=db, charset=charset)
-      # 使用 cursor() 方法创建一个游标对象 cursor
-      cursor = con.cursor()
-      df = ""
-      # 使用 execute()  方法执行 SQL 查询
-      cursor.execute(sql)
+        # 创建连接
+        con = pymysql.connect(
+            host=host, port=port, user=user, password=password, db=db, charset=charset)
+        # 使用 cursor() 方法创建一个游标对象 cursor
+        cursor = con.cursor()
+        df = ""
+        # 使用 execute()  方法执行 SQL 查询
+        cursor.execute(sql)
 
-      # 使用 fetchone() 方法获取单条数据.
-      # data = cursor.fetchone()
+        # 使用 fetchone() 方法获取单条数据.
+        # data = cursor.fetchone()
 
-      # 获取所有数据
-      data = cursor.fetchall()
-      df = data
-      # 执行结果转化为dataframe
-      # df = pandas.DataFrame(list(data))
+        # 获取所有数据
+        data = cursor.fetchall()
+        df = data
+        # 执行结果转化为dataframe
+        # df = pandas.DataFrame(list(data))
 
-      # 循环所有数据
-      # for d in data:
-      #     path=str(d[3])
-      #     print(path)
-      # 关闭数据库连接
-      con.close()
-      cursor.close()
-      return df
+        # 循环所有数据
+        # for d in data:
+        #     path=str(d[3])
+        #     print(path)
+        # 关闭数据库连接
+        con.close()
+        cursor.close()
+        return df
     except Exception as e:
-      print("MySQL查询错误：", e)
-      sys.exit(0)
-    
+        print("MySQL查询错误：", e)
+        sys.exit(0)
 
 
 # 用cursor.execute分页查询Mysql数据库数据
 def getMysqlDataLimit(host, port, user, password, db, charset, table, start, end):
-    sql = "select * from " + table + " order by id limit " + str(start) + "," + str(end)
+    sql = "select * from " + table + \
+        " order by id limit " + str(start) + "," + str(end)
     return getMysqlData(host, port, user, password, db, charset, sql)
 
 
@@ -128,19 +128,20 @@ def getMysqlDataLimit(host, port, user, password, db, charset, table, start, end
 def getMysqlReadSqlData(host, port, user, password, db, charset, sql):
     # detectionModule("pandas")
     try:
-      # 创建连接
-      con = pymysql.connect(
-        host=host, port=port, user=user, password=password, db=db, charset=charset)
-      df = pandas.read_sql(sql, con)
-      return df
+        # 创建连接
+        con = pymysql.connect(
+            host=host, port=port, user=user, password=password, db=db, charset=charset)
+        df = pandas.read_sql(sql, con)
+        return df
     except Exception as e:
-      print("MySQL查询错误：", e)
-      sys.exit(0)
+        print("MySQL查询错误：", e)
+        sys.exit(0)
 
 
 # 用pandas库的read_sql分页查询Mysql数据库数据
 def getMysqlReadSqlDataLimit(host, port, user, password, db, charset, table, start, end):
-    sql = "select * from " + table + " order by id limit " + str(start) + "," + str(end)
+    sql = "select * from " + table + \
+        " order by id limit " + str(start) + "," + str(end)
     return getMysqlReadSqlData(host, port, user, password, db, charset, sql)
 
 
@@ -174,7 +175,8 @@ def dowloadFile(url, mkdir, name):
         try:
             # 文件不存在才保存
             with open(name, "wb") as code:
-                code.write(s.get(url, headers=headers, verify=False, timeout=30).content)
+                code.write(s.get(url, headers=headers,
+                                 verify=False, timeout=30).content)
         except Exception as e:
             print("保存文件错误：", e)
 
@@ -248,7 +250,8 @@ def run():
     #         continue
     try:
         global image
-        image = selectSqlite3BD(dbDatabase, "SELECT id, db_id from " + dbTable + " order by id desc limit 1")
+        image = selectSqlite3BD(
+            dbDatabase, "SELECT id, db_id from " + dbTable + " order by id desc limit 1")
         if len(image) > 0:
             print("查询到Sqlite3数据库表中最大ID：", image[len(image) - 1][0])
             global tableLimitStart
@@ -286,7 +289,8 @@ def run():
 
         # 启动thread_num个线程来下载图片
         for img_ph in range(thread_num):
-            download_p = threading.Thread(target=dowloadFile(url, fileMkdir, ""))
+            download_p = threading.Thread(
+                target=dowloadFile(url, fileMkdir, ""))
             download_p.start()
 
         i = i + 1
