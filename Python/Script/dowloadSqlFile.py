@@ -69,10 +69,23 @@ dbChart = args.dbChart
 dbTable = args.dbTable
 tableLimitStart = args.tableLimitStart
 tableLimitEnd = args.tableLimitEnd
-fileMkdir = args.fileMkdir
+# 将path转换成规范的文件路径
+fileMkdir = os.path.normpath(args.fileMkdir)+os.sep
+sqlite3Database = fileMkdir+dbDatabase
+
+
+# 拆分驱动器和文件路径，并以元组返回结果；主要针对win有效，Linux元组第一个总是空。
+# print(os.path.splitdrive(fileMkdir))
+
+# 判断返回path的目录路径，就是os.path.split(path)的第一个元素。是否存在，如果存在返回True
+# if not os.path.exists(os.path.dirname(fileMkdir)):
+#     print("请确认填写的路径盘符是否正确！！！")
+#     sys.exit(0)
 
 
 # 判断第三方模块是否已安装，若没有安装则执行pip install 命令安装该模块
+
+
 def detectionModule(module):
     try:
         import module
@@ -251,14 +264,14 @@ def run():
     try:
         global image
         image = selectSqlite3BD(
-            dbDatabase, "SELECT id, db_id from " + dbTable + " order by id desc limit 1")
+            sqlite3Database, "SELECT id, db_id from " + dbTable + " order by id desc limit 1")
         if len(image) > 0:
             print("查询到Sqlite3数据库表中最大ID：", image[len(image) - 1][0])
             global tableLimitStart
             tableLimitStart = image[len(image) - 1][0]
     except Exception as e:
         print("没有查询到数据库表：", e)
-        createSqlite3DB(dbDatabase,
+        createSqlite3DB(sqlite3Database,
                         "CREATE TABLE " + dbTable + " (id INTEGER PRIMARY KEY NOT NULL,db_id TEXT NOT NULL)")
 
     # 查询出MySQL中的数据
@@ -297,10 +310,11 @@ def run():
         # image = selectSqlite3BD(dbDatabase, "SELECT id, db_id from "+dbTable+" where id='" + str(i) + "'")
         # if len(image) <= 0:
         #  OR IGNORE 防止插入重复数据
-        insertSqlite3DB(dbDatabase,
+        insertSqlite3DB(sqlite3Database,
                         "INSERT OR IGNORE INTO " + dbTable + " (id,db_id) VALUES (" + str(i) + "," + image_id + ")")
 
-    image = selectSqlite3BD(dbDatabase, "SELECT count(*) from " + dbTable)
+    image = selectSqlite3BD(sqlite3Database,
+                            "SELECT count(*) from " + dbTable)
     print("执行完成后最终数据库数据条数：", image[0][0])
 
     print(":::::::::::::::执行完成时间：" +
