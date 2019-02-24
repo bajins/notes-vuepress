@@ -127,11 +127,15 @@ def getMysqlDataLimit(host, port, user, password, db, charset, table, start, end
 # 用pandas库的read_sql获取Mysql数据库数据
 def getMysqlReadSqlData(host, port, user, password, db, charset, sql):
     # detectionModule("pandas")
-    # 创建连接
-    con = pymysql.connect(
+    try:
+      # 创建连接
+      con = pymysql.connect(
         host=host, port=port, user=user, password=password, db=db, charset=charset)
-    df = pandas.read_sql(sql, con)
-    return df
+      df = pandas.read_sql(sql, con)
+      return df
+    except Exception as e:
+      print("MySQL查询错误：", e)
+      sys.exit(0)
 
 
 # 用pandas库的read_sql分页查询Mysql数据库数据
