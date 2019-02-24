@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: UTF-8 -*-
 # 执行脚本前请先执行以下命令
-# pip install pandas -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
-# pip install requests -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
-# pip install pymysql
+# pip3 install pandas -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+# pip3 install requests -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+# pip3 install pymysql
 
 # global适用于函数内部修改全局变量的值
 # nonlocal关键字用来在函数或其他作用域中使用外层(非全局)变量
