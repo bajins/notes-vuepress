@@ -10,6 +10,7 @@
 # 如果不使用关键字，对全局变量或者外部变量进行修改，python会默认将全局变量隐藏起来
 
 
+import urllib3
 import pymysql
 import pandas
 import requests
@@ -88,9 +89,21 @@ if not os.path.exists(fileMkdir):
 #     sys.exit(0)
 
 
+# 老版本去除警告方法
+# from requests.packages.urllib3.exceptions import InsecureRequestWarning
+# requests.packages.disable_warnings(InsecureRequestWarning)
+
+# 新版去除警告方法
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+requests.adapters.DEFAULT_RETRIES = 5
+s = requests.session()
+s.keep_alive = False
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36"
+}
+
+
 # 判断第三方模块是否已安装，若没有安装则执行pip install 命令安装该模块
-
-
 def detectionModule(module):
     try:
         import module
@@ -161,15 +174,6 @@ def getMysqlReadSqlDataLimit(host, port, user, password, db, charset, table, sta
     sql = "select * from " + table + \
         " order by id limit " + str(start) + "," + str(end)
     return getMysqlReadSqlData(host, port, user, password, db, charset, sql)
-
-
-requests.packages.urllib3.disable_warnings()
-requests.adapters.DEFAULT_RETRIES = 5
-s = requests.session()
-s.keep_alive = False
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36"
-}
 
 
 # 用requests下载文件
