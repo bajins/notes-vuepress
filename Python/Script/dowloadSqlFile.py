@@ -9,18 +9,61 @@
 # nonlocal关键字用来在函数或其他作用域中使用外层(非全局)变量
 # 如果不使用关键字，对全局变量或者外部变量进行修改，python会默认将全局变量隐藏起来
 
+import os
+import sys
+import threading
+import argparse
+import datetime
+import sqlite3
+
+# 判断第三方模块是否已安装，若没有安装则执行pip install 命令安装该模块
+def installModule(module):
+    print('检测到未安装' + module + '模块,现在开始安装......')
+    os.system('pip3 install ' + module +
+              ' -i https://pypi.tuna.tsinghua.edu.cn/simple')
+
+try:
+    import urllib3
+except ImportError as e:
+    module = str(e).split("'")[1]
+    if module == 'urllib3':
+        installModule(module)
+
+try:
+    import pymysql
+except ImportError as e:
+    module = str(e).split("'")[1]
+    if module == 'pymysql':
+        installModule(module)
+
+try:
+    import pandas
+except ImportError as e:
+    module = str(e).split("'")[1]
+    if module == 'pandas':
+        installModule(module)
+
+try:
+    import requests
+except ImportError as e:
+    module = str(e).split("'")[1]
+    if module == 'requests':
+        installModule(module)
+
+try:
+    import urllib
+except ImportError as e:
+    module = str(e).split("'")[1]
+    if module == 'urllib':
+        installModule(module)
+        
 
 import urllib3
 import pymysql
 import pandas
 import requests
 import urllib
-import os
-import sys
-import datetime
-import argparse
-import sqlite3
-import threading
+
 
 print("==============================================================")
 # if len(sys.argv) < 6:
@@ -103,15 +146,6 @@ headers = {
 }
 
 
-# 判断第三方模块是否已安装，若没有安装则执行pip install 命令安装该模块
-def detectionModule(module):
-    try:
-        import module
-        print('已检测到' + module + '模块')
-    except ImportError:
-        print('检测到未安装' + module + '模块,现在开始安装......')
-        os.system('pip install ' + module +
-                  ' -i https://pypi.tuna.tsinghua.edu.cn/simple')
 
 
 # 用cursor.execute获取Mysql数据库数据
