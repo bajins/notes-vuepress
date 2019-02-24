@@ -112,9 +112,6 @@ def getMysqlData(host, port, user, password, db, charset, sql):
       con.close()
       cursor.close()
       return df
-    except OperationalError as e:
-      print("MySQL连接错误：", e)
-      sys.exit(0)
     except Exception as e:
       print("MySQL查询错误：", e)
       sys.exit(0)
