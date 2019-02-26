@@ -15,6 +15,8 @@
 
 [BaiduCDP百度网盘高速下载工具](https://github.com/cool2528/baiduCDP)
 
+[BaiduPCS-Go百度网盘客户端 - Go语言编写](https://github.com/iikira/BaiduPCS-Go)
+
 -----------------------------------------------------------------------------------------
 
 [FFmpeg-视频编辑](https://github.com/FFmpeg/FFmpeg)
