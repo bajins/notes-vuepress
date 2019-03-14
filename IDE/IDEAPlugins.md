@@ -1,7 +1,5 @@
 ## [Free Mybatis plugin](https://github.com/wuzhizhan/free-idea-mybatis)
 
-## [mybatis plugin free](https://github.com/mustfun/mybatis-plugin-free)
-
 ## [mybatis-plus](https://github.com/mustfun/mybatis-plus)
 
 ## [MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
