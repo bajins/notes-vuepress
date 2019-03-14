@@ -29,8 +29,6 @@
 
 --------------------------------------------------------------------------------------------------------
 
-### 各种脚本 By[ToyoDAdoubi](https://github.com/ToyoDAdoubi/doubi)
-
 ### [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625/)
 
 ### [Git服务器：Gitea安装教程](https://www.moerats.com/archives/578/)
