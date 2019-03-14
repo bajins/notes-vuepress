@@ -2,6 +2,8 @@
 
 ## [mybatis plugin free](https://github.com/mustfun/mybatis-plugin-free)
 
+## [mybatis-plus](https://github.com/mustfun/mybatis-plus)
+
 ## [MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
 
 ## [.ignore](https://plugins.jetbrains.com/plugin/7495--ignore)
