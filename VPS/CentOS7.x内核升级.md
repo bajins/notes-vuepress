@@ -5,6 +5,7 @@
 
 ## [KVM一键安装最新内核并开启BBR](#一)
 
+[ToyoDAdoubi](https://github.com/ToyoDAdoubi/doubi)
 
 https://github.com/shadowsocks/shadowsocks-windows/releases
 
