@@ -67,7 +67,14 @@ if '%errorlevel%' NEQ '0' (
 ```
 
 # 修改注册表
+```bat
+echo 删除桌面IE图标
+REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{B416D21B-3B22-B6D4-BBD3-BBD452DB3D5B}" /f
 
+echo 修改开机时小数字键盘不开启的问题
+REG ADD "HKU\.DEFAULT\Control Panel\Keyboard" /v InitialKeyboardIndicators /t REG_SZ /d 2 /f
+
+```
 
 ```diff
 /v 设置键名(value)
