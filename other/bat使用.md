@@ -1,4 +1,5 @@
-# 方式一
+# 获取管理员权限
+## 方式一
 ```bat
 @echo off
 cacls.exe "%SystemDrive%\System Volume Information" >nul 2>nul
@@ -8,14 +9,14 @@ if exist "%temp%\getadmin.vbs" del /f /q "%temp%\getadmin.vbs"
 
 ```
 
-# 方式二
+## 方式二
 ```bat
 fltmc>nul||cd/d %~dp0&&mshta vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",1)(window.close)
 
 ```
 
 
-# 方式三
+## 方式三
 ```bat
 @echo off
 :: BatchGotAdmin
@@ -41,7 +42,7 @@ CD /D "%~dp0"
 ```
 
 
-# 方式四
+## 方式四
 ```bat
 @echo off  
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system" 
@@ -63,5 +64,15 @@ if '%errorlevel%' NEQ '0' (
  
 :begin
 
+```
+
+# 修改注册表
+
+
+```diff
+/v 设置键名(value)
+/t 设置数据类型(type)
+/d 设置添加的值(data)
+/f 表示强制(forbidden)
 ```
 
