@@ -67,6 +67,16 @@ if '%errorlevel%' NEQ '0' (
 
 ```
 
+# 隐藏窗口运行
+```bat
+@echo off
+if "%1" == "h" goto begin 
+¡¡mshta vbscript:createobject("wscript.shell").run("%~nx0 h",0)(window.close)&&exit 
+:begin 
+::
+
+```
+
 # 修改注册表
 ```bat
 echo 删除桌面IE图标
