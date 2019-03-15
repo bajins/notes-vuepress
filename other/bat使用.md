@@ -11,7 +11,8 @@ if exist "%temp%\getadmin.vbs" del /f /q "%temp%\getadmin.vbs"
 
 ## 方式二
 ```bat
-fltmc>nul||cd/d %~dp0&&mshta vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",1)(window.close)
+fltmc>nul||cd/d %~dp0&&mshta
+vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",1)(window.close)
 
 ```
 
