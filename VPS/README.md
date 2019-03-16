@@ -52,3 +52,4 @@
 ### [萌音影视 - 在线影视应用](https://github.com/178146582/moeins) [安装教程](https://www.moerats.com/archives/744/)
 ### [使用FileManager+基于Python3的爬虫程序建立影音图片库](https://www.moerats.com/archives/501/)
 ### [使用PlayTube搭建私人的视频网站](https://www.moerats.com/archives/644/)
+### [开源有态度的漫画CMS](https://github.com/hiliqi/xiaohuanxiong)
