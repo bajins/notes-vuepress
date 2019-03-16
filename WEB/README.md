@@ -12,3 +12,5 @@
 ### [WebSSH2](https://github.com/billchurch/WebSSH2)
 
 https://github.com/MoePlayer/DPlayer
+
+https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extension
