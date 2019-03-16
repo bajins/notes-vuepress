@@ -1,6 +1,7 @@
 # 目录
 * [前端框架](#前端框架)
 * [后端框架](#后端框架)
+ * [延迟队列](#延迟队列)
 * [工具](#工具)
 * [地区数据](#地区数据)
 * [API](#API)
@@ -52,9 +53,15 @@
 
 [tcc-transaction是TCC型事务java实现](https://github.com/changmingxie/tcc-transaction)
 
-[java延迟队列](https://github.com/search?l=Java&o=desc&q=delayqueue&s=updated&type=Repositories)
-
 [fastjson](https://github.com/alibaba/fastjson)
+
+## java延迟队列
+https://github.com/search?l=Java&o=desc&q=delayqueue&s=updated&type=Repositories
+
+https://github.com/dongzhuo0228/delayqueuetest
+
+https://github.com/qjm201000/concurrent_delayqueue
+
 
 # 工具
 [utf8+bom编码格式 java 文件 转换为 utf8 格式文件](https://github.com/andotorg/utf8bom-to-utf8)
