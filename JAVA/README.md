@@ -52,6 +52,8 @@
 
 [tcc-transaction是TCC型事务java实现](https://github.com/changmingxie/tcc-transaction)
 
+[java延迟队列](https://github.com/search?l=Java&o=desc&q=delayqueue&s=updated&type=Repositories)
+
 [fastjson](https://github.com/alibaba/fastjson)
 
 # 工具
