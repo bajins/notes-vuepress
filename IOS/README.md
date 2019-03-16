@@ -8,6 +8,11 @@ https://github.com/dudongge/DDGDataCache_OC
 
 https://github.com/pujiaxin33/JXSegmentedView
 
+https://github.com/jinht/ShopCarAnimation
+
+
+
+
 
 # 框架
 
