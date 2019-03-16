@@ -55,7 +55,7 @@
 
 [fastjson](https://github.com/alibaba/fastjson)
 
-## java延迟队列
+## 延迟队列
 https://github.com/search?l=Java&o=desc&q=delayqueue&s=updated&type=Repositories
 
 https://github.com/dongzhuo0228/delayqueuetest
