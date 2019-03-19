@@ -38,7 +38,7 @@
 /**
  * @program ${PACKAGE_NAME}
  * @description ${NAME}
- * @author claer claer@ichangg.com
+ * @author claer bajins.com
  * @create ${YEAR}-${MONTH}-${DAY} ${HOUR}:${MINUTE}
  *
  */
@@ -53,8 +53,8 @@
 **
 $params$
  * @return $ruturns$
- * @Description $todo$ 
- * @author $user$
+ * @Description 
+ * @author claer bajins.com
  * @date $date$ $time$
  */
 ```
