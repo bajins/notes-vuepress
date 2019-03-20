@@ -188,3 +188,56 @@ public void testClear(){
 }
 ```
 
+# 只读错误
+```diff
+Write operations are not allowed in read-only mode (FlushMode.MANUAL):
+    Turn your Session into FlushMode.COMMIT/AUTO or remove 'readOnly' marker from transaction definition.
+写操作在只读模式下不被允许（(FlushMode.MANUAL): 把你的Session改成FlushMode.COMMIT/AUTO或者清除事务定义中的readOnly标记。
+```
+## 一、编程式修改FlushMode
+```java
+ht.setFlushMode(HibernateTemplate.FLUSH_AUTO);
+ht.getSessionFactory().getCurrentSession().setFlushMode(FlushMode.AUTO);
+```
+## 二、配置过滤器
+```xml
+<filter>
+	<filter-name>OpenSessionInViewFilter</filter-name>
+	<filter-class>org.springframework.orm.hibernate3.support.OpenSessionInViewFilter</filter-class>
+	<!-- singleSession默认为true,若设为false则等于没用OpenSessionInView 。所以默认可以不写 -->
+	<init-param>
+		<param-name>singleSession</param-name>
+		<param-value>true</param-value>
+	</init-param>
+	<!-- 设置flushMode为AUTO(在确保查询从不会返回脏数据的情况下，在查询前刷新Session。)/COMMIT(Session在提交事务时刷新。) -->
+	<init-param>
+		<param-name>flushMode</param-name>
+		<param-value>AUTO</param-value>
+	</init-param>
+</filter>
+<filter-mapping>
+	<filter-name>OpenSessionInViewFilter</filter-name>
+	<url-pattern>/*</url-pattern>
+</filter-mapping>
+```
+
+## 三、使用execute方法回调方式实现
+#### Dao层HibernateTemplate操作数据时，使用execute方法回调方式实现：
+
+```java
+// 原方式
+getHibernateTemplate().save(user); 
+
+// 更改后方式
+getHibernateTemplate().execute(new HibernateCallback<User>() {
+	@Override
+	public User doInHibernate(Session session) throws HibernateException {
+		session.save(user);
+		return null;
+	}
+});
+
+```
+
+
+
