@@ -17,6 +17,14 @@ https://github.com/gedoor/MyBookshelf
 
 https://github.com/ZhangQinhao/MONKOVEL
 
+https://github.com/zas023/CocoBook
+
+https://github.com/tianlongfei/story_android
+
+https://github.com/zhou129311/NetBook
+
+https://github.com/qq446887609/july_android
+
 
 # 框架
 https://github.com/ddnosh/AndroidQuick
@@ -27,3 +35,4 @@ https://github.com/Meituan-Dianping/AppInit
 
 https://github.com/meituan/WMRouter
 
+https://github.com/fly803/BaseProject
