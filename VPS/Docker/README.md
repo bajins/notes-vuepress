@@ -90,7 +90,7 @@ http://ju.outofmemory.cn/entry/287017
 
 https://hub.docker.com/r/gogs/gogs
 
-
+https://github.com/gogs/gogs/blob/master/README_ZH.md
 
 
 
