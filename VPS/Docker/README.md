@@ -6,6 +6,17 @@
 ## [docker官网centos7安装](https://docs.docker.com/install/linux/docker-ce/centos/)
 
 ## GitLab
+
+https://hub.docker.com/r/bensonfx/gitlab-ce-zh
+
+https://github.com/bensonfx/codeserver
+
+https://hub.docker.com/r/benyoo/gitlab
+
+https://hub.docker.com/r/imleafz/gitlab-ce-zh
+
+https://gitlab.com/xhang/gitlab/uploads/23e8414e53eefde0968e960b24a6f631/_%E5%8E%9F%E5%88%9B_Gitlab10.8.0%E5%88%86%E6%94%AF%E6%B1%89%E5%8C%96_Omnibus%E7%89%88_.png
+
 #### [GitLab Community Edition (中文社区版)](https://github.com/twang2218/gitlab-ce-zh)
 #### [汉化的 GitLab 社区版 Docker Image ](https://hub.docker.com/r/twang2218/gitlab-ce-zh)
 ```shell
