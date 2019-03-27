@@ -1,6 +1,7 @@
 # 目录
 * [安装JDK](#1)
 * [安装Tomcat](#2)
+* [Tomcat配置外部路径](#Tomcat配置外部路径)
 * [tomcat8以上管理页面提示403 Access Denied问题](#3)
 
 ###### 1
@@ -167,6 +168,12 @@ vi webapps/host-manager/META-INF/context.xml
 ```
 
 
+## Tomcat配置外部路径
+>> docBase:指定Web应用的文件路径，可以给定绝对路径，也可以给定相对于<Host>的appBase属性的相对路径，如果Web应用采用开放目录结构，则指定Web应用的根目录，如果Web应用是个war文件，则指定war文件的路径。
+
+>> docBase的文件名不能省略.war后缀，否则跑不起来；而且发现会把war包解压到webapps下与path同名的文件夹中，所以path也不能为空，否则也跑不起来，而手动解压war包以文件夹的方式部署是可以指定path为"/"或""的。
+
+
 ## Tomcat热部署
 ```diff
 +替换WEB-INF/lib目录中的jar文件或WEB-INF/classes目录中的class文件时，reloadable="true"会让修改生效（但代价不小），该选项适合调试。
@@ -174,6 +181,9 @@ vi webapps/host-manager/META-INF/context.xml
 +在webapps目录中增加新的目录、war文件、修改WEB-INF/web.xml，autoDeploy="true"会新建或重新部署应用，该选项方便部署。
 <Context docBase="xxx" path="/xxx" autoDeploy="true"/> 
 ```
+
+
+
 
 
 # [返回顶部](#readme)
