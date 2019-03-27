@@ -170,6 +170,9 @@ vi webapps/host-manager/META-INF/context.xml
 
 # Tomcat配置外部路径
 > docBase:指定Web应用的文件路径，可以给定绝对路径，也可以给定相对于<Host>的appBase属性的相对路径，如果Web应用采用开放目录结构，则指定Web应用的根目录，如果Web应用是个war文件，则指定war文件的路径。
+```xml
+<Context docBase="/project/jkxjd/api.war" path="" reloadable="true"/>
+```
 
 > docBase的文件名不能省略.war后缀，否则跑不起来；而且发现会把war包解压到webapps下与path同名的文件夹中，所以path也不能为空，否则也跑不起来，而手动解压war包以文件夹的方式部署是可以指定path为"/"或""的。
 
