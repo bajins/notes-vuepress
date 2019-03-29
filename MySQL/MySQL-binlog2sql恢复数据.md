@@ -80,6 +80,8 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数�
 ## 用mysqldump备份
 ### 执行mysqldump备份单个数据库
 > 如果是在本机上备份本机的数据库地址和端口可以不要，如果是在本机上备份其他主机上的数据库就需要地址和端口
+
+#### 导出
 ```shell
 #导出所有(结构&数据&存储过程&函数&事件&触发器)
 mysqldump -R -E -h需要备份的主机地址 -P端口 -u用户名 -p 数据库名 > /home/backup.sql
@@ -95,7 +97,7 @@ mysqldump -R -E -h主机地址 -P端口 -u用户名 -p 数据库名 | gzip > /ho
 
 ```
 
-
+#### 导入
 ```shell
 # 用mysqldump导入本地sql文件
 mysqldump -h主机地址 -P端口 -u用户名 -p 数据库名 < /home/backup.sql
@@ -115,7 +117,7 @@ source /home/backup.sql;
 ```
 ### mysqldump远程备份到本机的指定数据库中
 ```shell
-mysqldump -R -E -h需要备份的主机IP -P端口 -u用户名 -p 数据库名| mysql -hlocalhost -P端口 -u本机MySQL用户名 -p本机MySQL密码 -C 数据库名
+mysqldump -R -E -h导出的主机地址 -P端口 -u用户名 -p 数据库名 | mysql -h导入的主机地址 -P端口 -u用户名 -p密码 -C 数据库名
 ```
 ```diff
 --opt等同于--add-drop-table，--add-locks，--create-options，--quick，--extended-insert，--lock-tables，--set-charset，--disable-keys。 
@@ -125,7 +127,7 @@ mysqldump -R -E -h需要备份的主机IP -P端口 -u用户名 -p 数据库名| 
 -3、在使用参数--opt的时候，创建表的类型，字符集等等都是默认参数ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;当使用了--skip-opt的时候，这些参数都给忽略了
 -4、导出原表中的数据，--opt是一个insert多个value，在使用了--skip-opt的时候，是多个insert组成的；
 ```
-
+### 参数说明
 ```diff
 -d 结构(--no-data:不导出任何数据，只导出数据库表结构)
 -t 数据(--no-create-info:只导出数据，而不添加CREATE TABLE 语句)
