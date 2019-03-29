@@ -119,14 +119,14 @@ source /home/backup.sql;
 ```shell
 mysqldump -R -E -h导出的主机地址 -P端口 -u用户名 数据库名 | mysql -h导入的主机地址 -P端口 -u用户名 -p密码 -C 数据库名
 ```
-```diff
---opt等同于--add-drop-table，--add-locks，--create-options，--quick，--extended-insert，--lock-tables，--set-charset，--disable-keys。 
--该选项默认开启， 可以用--skip-opt禁用。
--1、--opt 在创建表结构之前 会有 DROP TABLE IF EXISTS 
--2、原表在创建的时候指定了AUTO_INCREMENT，在使用了--opt 仍然和建表时候一样存在参数，在使用参数--skip-opt的时候，忽略了此参数AUTO_INCREMENT，
--3、在使用参数--opt的时候，创建表的类型，字符集等等都是默认参数ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;当使用了--skip-opt的时候，这些参数都给忽略了
--4、导出原表中的数据，--opt是一个insert多个value，在使用了--skip-opt的时候，是多个insert组成的；
-```
+
+> --opt等同于--add-drop-table，--add-locks，--create-options，--quick，--extended-insert，--lock-tables，--set-charset，--disable-keys。 
+该选项默认开启， 可以用--skip-opt禁用。
+>> 1、--opt 在创建表结构之前 会有 DROP TABLE IF EXISTS 
+>> 2、原表在创建的时候指定了AUTO_INCREMENT，在使用了--opt 仍然和建表时候一样存在参数，在使用参数--skip-opt的时候，忽略了此参数AUTO_INCREMENT，
+>> 3、在使用参数--opt的时候，创建表的类型，字符集等等都是默认参数ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;当使用了--skip-opt的时候，这些参数都给忽略了
+>> 4、导出原表中的数据，--opt是一个insert多个value，在使用了--skip-opt的时候，是多个insert组成的；
+
 ### 参数说明
 ```diff
 -d 结构(--no-data:不导出任何数据，只导出数据库表结构)
