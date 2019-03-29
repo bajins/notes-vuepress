@@ -78,10 +78,38 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数�
 ###### 2
 # MySQL备份 [返回顶部](#readme)
 ## 用mysqldump备份
-### 执行mysqldump备份单个数据库
 > 如果是在本机上备份本机的数据库地址和端口可以不要，如果是在本机上备份其他主机上的数据库就需要地址和端口
 > mysqldump命令需要手动输入密码，所以一般会不输入`-p`参数
-#### 导出
+
+> 参数说明
+>> -d 结构(--no-data:不导出任何数据，只导出数据库表结构)
+
+>> -t 数据(--no-create-info:只导出数据，而不添加CREATE TABLE 语句)
+
+>> -n (--no-create-db:只导出数据，而不添加CREATE DATABASE 语句）
+
+>> -R (--routines:导出存储过程以及自定义函数)
+
+>> -E (--events:导出事件)
+
+>> --triggers (默认导出触发器，使用--skip-triggers屏蔽导出)
+
+>> -B (--databases:导出数据库列表，单个库时可省略）
+
+>> --tables 表列表（单个表时可省略）
+
+>> ①同时导出结构以及数据时可同时省略-d和-t
+
+>> ②同时不导出结构和数据可使用-ntd
+
+>> ③只导出存储过程和函数可使用-R -ntd
+
+>> ④导出所有(结构&数据&存储过程&函数&事件&触发器)使用-R -E(相当于①，省略了-d -t;触发器默认导出)
+
+>> ⑤只导出结构&函数&事件&触发器使用 -R -E -d
+
+
+### 导出
 ```shell
 #导出所有(结构&数据&存储过程&函数&事件&触发器)
 mysqldump -R -E -h需要备份的主机地址 -P端口 -u用户名 数据库名 > /home/backup.sql
@@ -97,7 +125,7 @@ mysqldump -R -E -h主机地址 -P端口 -u用户名 数据库名 | gzip > /home/
 
 ```
 
-#### 导入
+### 导入
 ```shell
 # 用mysqldump导入本地sql文件
 mysqldump -h主机地址 -P端口 -u用户名 -p 数据库名 < /home/backup.sql
@@ -130,22 +158,7 @@ mysqldump -R -E -h导出的主机地址 -P端口 -u用户名 数据库名 | mysq
 
 >> 4、导出原表中的数据，--opt是一个insert多个value，在使用了--skip-opt的时候，是多个insert组成的；
 
-### 参数说明
-```diff
--d 结构(--no-data:不导出任何数据，只导出数据库表结构)
--t 数据(--no-create-info:只导出数据，而不添加CREATE TABLE 语句)
--n (--no-create-db:只导出数据，而不添加CREATE DATABASE 语句）
--R (--routines:导出存储过程以及自定义函数)
--E (--events:导出事件)
---triggers (默认导出触发器，使用--skip-triggers屏蔽导出)
--B (--databases:导出数据库列表，单个库时可省略）
---tables 表列表（单个表时可省略）
-+①同时导出结构以及数据时可同时省略-d和-t
-+②同时不导出结构和数据可使用-ntd
-+③只导出存储过程和函数可使用-R -ntd
-+④导出所有(结构&数据&存储过程&函数&事件&触发器)使用-R -E(相当于①，省略了-d -t;触发器默认导出)
-+⑤只导出结构&函数&事件&触发器使用 -R -E -d
-```
+
 
 
 
