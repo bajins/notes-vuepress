@@ -83,7 +83,9 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数�
 
 ### 参数说明
 > -d 结构(--no-data:不导出任何数据，只导出数据库表结构)
+
 > -t 数据(--no-create-info:只导出数据，而不添加CREATE TABLE 语句)
+
 > -n (--no-create-db:只导出数据，而不添加CREATE DATABASE 语句）
 
 > -R (--routines:导出存储过程以及自定义函数)
