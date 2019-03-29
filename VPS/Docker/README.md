@@ -66,25 +66,25 @@ volumes:
 
 # docker-compose.yml基本介绍
 http://ju.outofmemory.cn/entry/287017
-###### Compose 文件是一个 YAML , 主要定义了 services , networks 和 volumes ， 其默认路径是 ./docker-compose.yml 。
+> Compose 文件是一个 YAML , 主要定义了 services , networks 和 volumes ， 其默认路径是 ./docker-compose.yml 。
 
-###### service 定义包含了应用与每个容器的配置，很像给 docker run 传参，同样， network 和 volume 对于 docker network create 和 docker volume create 也类似。
+> service 定义包含了应用与每个容器的配置，很像给 docker run 传参，同样， network 和 volume 对于 docker network create 和 docker volume create 也类似。
 
-###### 像在 Dockerfile (eg: CMD , EXPOSE , VOLUME , ENV )可以使用的选项也可以在 docker run 参数中使用， 这样在 docker-compose.yml 里就不需要再次指定了。
+> 像在 Dockerfile (eg: CMD , EXPOSE , VOLUME , ENV )可以使用的选项也可以在 docker run 参数中使用， 这样在 docker-compose.yml 里就不需要再次指定了。
 
-###### docker-compose.yml 里可以使用环境变量，类似 Bash 格式 ${VARIABLE}
+> docker-compose.yml 里可以使用环境变量，类似 Bash 格式 ${VARIABLE}
 
-### composer 文件格式有两种版本：
+> composer 文件格式有两种版本：
 
-###### version 1: 已经废弃， 不支持volumes 和 networks，默认 version key 是省略的。
+>> version 1: 已经废弃， 不支持volumes 和 networks，默认 version key 是省略的。
 
-###### version 2: 推荐的格式，目前是最新的，需要通过 version '2' 指定。
+>> version 2: 推荐的格式，目前是最新的，需要通过 version '2' 指定。
 
 ### ports
-###### 暴露端口。既可以是 HOST:CONTAINER ，也可以只用容器端口(host端口会随机选取)。
-###### 当以 HOST:CONTAINER 的形式映射端口的时候，当容器的端口低于60的时候可能会遇到错误，因为YAML会解析 xx:yy 数字为60。 基于这个原因，我们推荐明确指定端口映射用字符串的形式。
-### volumes
-###### 挂载指定的路径或者named volumes, 可以在主机上指定一个路径 HOST:CONTAINER , 或者一个可访问的 HOST:CONTAINER:ro 。
+> 暴露端口。既可以是 HOST:CONTAINER ，也可以只用容器端口(host端口会随机选取)。
+> 当以 HOST:CONTAINER 的形式映射端口的时候，当容器的端口低于60的时候可能会遇到错误，因为YAML会解析 xx:yy 数字为60。 基于这个原因，我们推荐明确指定端口映射用字符串的形式。
+> volumes
+>> 挂载指定的路径或者named volumes, 可以在主机上指定一个路径 HOST:CONTAINER , 或者一个可访问的 HOST:CONTAINER:ro 。
 
 
 ## Gogs
