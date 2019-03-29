@@ -82,20 +82,32 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数�
 
 ```shell
 #导出所有(结构&数据&存储过程&函数&事件&触发器)
-mysqldump -R -E -h需要备份的主机IP -P端口 -u用户名 -p 数据库名 > /home/backup.sql
+mysqldump -R -E -h需要备份的主机地址 -P端口 -u用户名 -p 数据库名 > /home/backup.sql
 
 #只导出结构&函数&事件&触发器使用
-mysqldump -R -E -d -h需要备份的主机IP -P端口 -u用户名 -p 数据库名 > /home/backup.sql
+mysqldump -R -E -d -h需要备份的主机地址 -P端口 -u用户名 -p 数据库名 > /home/backup.sql
 
 #只导出存储过程和函数可使用
-mysqldump -R -ntd -h需要备份的主机IP -P端口 -u用户名 -p 数据库名 > /home/backup.sql
-#还原
-mysqldump -P端口 -u用户名 -p 数据库名 < /home/backup.sql
+mysqldump -R -ntd -h需要备份的主机地址 -P端口 -u用户名 -p 数据库名 > /home/backup.sql
+
 
 # mysqldump 备份并压缩sql文件
-mysqldump -R -E -h主机IP -P端口 -u用户名 -p 数据库名 | gzip > /home/backup.sql.gz
+mysqldump -R -E -h主机地址 -P端口 -u用户名 -p 数据库名 | gzip > /home/backup.sql.gz
+
+# 用mysqldump导入本地sql文件
+mysqldump -h主机地址 -P端口 -u用户名 -p 数据库名 < /home/backup.sql
+
 # mysql直接用压缩文件恢复
-gunzip < backup.sql.gz | mysql -P端口 -u用户名 -p 数据库名
+gunzip < backup.sql.gz | mysql -h主机地址 -P端口 -u用户名 -p 数据库名
+
+# mysql从本地sql文件导入
+mysql -h主机地址 -P端口 -u用户名 -p 数据库名 < backupfile.sql
+
+# 登录MySQL用source命令导入本地sql文件
+#先登录MySQL，再指定数据库
+use 数据库名;
+# 导入数据（注意sql文件的路径）
+source /home/backup.sql;
 
 ```
 ```diff
@@ -117,13 +129,6 @@ gunzip < backup.sql.gz | mysql -P端口 -u用户名 -p 数据库名
 +⑤只导出结构&函数&事件&触发器使用 -R -E -d
 ```
 
-#### 如果用mysqldump导入不成功，可以用以下方法
-```sql
-#先登录MySQL，再指定数据库，设置数据库bianm
-set names utf8;
-#导入数据（注意sql文件的路径）
-source /home/backup.sql
-```
 
 ### mysqldump远程备份到本机的指定数据库中
 ```shell
