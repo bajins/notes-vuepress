@@ -31,7 +31,7 @@
 
 ### [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625/)
 
-### [Git服务器：Gitea安装教程](https://www.moerats.com/archives/578/)
+### [Git服务器安装教程](/VPS/Docker/README.md)
 
 ### [acme.sh 实现了acme 协议, 可以从 letsencrypt 生成免费的证书.](https://github.com/Neilpang/acme.sh)
 
