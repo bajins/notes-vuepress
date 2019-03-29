@@ -123,6 +123,8 @@ mysqldump -R -ntd -h需要备份的主机地址 -P端口 -u用户名 数据库�
 # mysqldump 备份并压缩sql文件
 mysqldump -R -E -h主机地址 -P端口 -u用户名 数据库名 | gzip > /home/backup.sql.gz
 
+# 备份所有的数据库
+mysqldump -R -E -h主机地址 -P端口 -u用户名 --all-databases > /home/all.sql
 ```
 
 ### 导入
