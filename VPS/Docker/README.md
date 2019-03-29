@@ -2,7 +2,7 @@
 * [Git](#Git)
     * [GitLab](#GitLab)
     * [Gogs](#Gogs)
-    * [gitea](#gitea)
+    * [Gitea](#Gitea)
 * [Read the Docs](#ReadtheDocs)
 --------------------------------------------------
 
@@ -97,7 +97,7 @@ https://github.com/gogs/gogs/blob/master/README_ZH.md
 
 [安装教程](https://www.jianshu.com/p/86c385682ac8)
 
-## gitea
+## Gitea
 https://github.com/go-gitea/gitea
 
 https://github.com/go-gitea/gitea/blob/master/README_ZH.md
