@@ -93,12 +93,16 @@ https://hub.docker.com/r/gogs/gogs
 
 https://github.com/gogs/gogs/blob/master/README_ZH.md
 
+[安装教程](https://www.moerats.com/archives/561/)
 
+[安装教程](https://www.jianshu.com/p/86c385682ac8)
 
 ## gitea
 https://github.com/go-gitea/gitea
 
 https://github.com/go-gitea/gitea/blob/master/README_ZH.md
+
+[安装教程](https://www.moerats.com/archives/578/)
 
 
 
