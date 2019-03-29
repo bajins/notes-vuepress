@@ -99,7 +99,7 @@ https://github.com/gogs/gogs/blob/master/README_ZH.md
 [安装教程](https://www.jianshu.com/p/86c385682ac8)
 
 ## Gitea
-https://github.com/go-gitea/gitea
+https://hub.docker.com/r/gitea/gitea
 
 https://github.com/go-gitea/gitea/blob/master/README_ZH.md
 
