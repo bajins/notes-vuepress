@@ -2,7 +2,7 @@
 * [Git](#Git)
     * [GitLab](#GitLab)
     * [Gogs](#Gogs)
-    * [](#gitea)
+    * [gitea](#gitea)
 * [Read the Docs](#ReadtheDocs)
 --------------------------------------------------
 
