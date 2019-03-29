@@ -128,13 +128,13 @@ mysqldump -R -E -h主机地址 -P端口 -u用户名 数据库名 | gzip > /home/
 ### 导入
 ```shell
 # 用mysqldump导入本地sql文件
-mysqldump -h主机地址 -P端口 -u用户名 -p 数据库名 < /home/backup.sql
+mysqldump -h主机地址 -P端口 -u用户名 数据库名 < /home/backup.sql
 
 # mysql直接用压缩文件恢复
-gunzip < backup.sql.gz | mysql -h主机地址 -P端口 -u用户名 -p 数据库名
+gunzip < backup.sql.gz | mysql -h主机地址 -P端口 -u用户名 -p密码 数据库名
 
 # mysql从本地sql文件导入
-mysql -h主机地址 -P端口 -u用户名 -p 数据库名 < backupfile.sql
+mysql -h主机地址 -P端口 -u用户名 -p密码 数据库名 < backupfile.sql
 
 # 登录MySQL用source命令导入本地sql文件
 # 指定数据库
