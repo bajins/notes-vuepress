@@ -2,6 +2,7 @@
 * [Git](#Git)
     * [GitLab](#GitLab)
     * [Gogs](#Gogs)
+    * [](#gitea)
 * [Read the Docs](#ReadtheDocs)
 --------------------------------------------------
 
@@ -91,6 +92,13 @@ http://ju.outofmemory.cn/entry/287017
 https://hub.docker.com/r/gogs/gogs
 
 https://github.com/gogs/gogs/blob/master/README_ZH.md
+
+
+
+## gitea
+https://github.com/go-gitea/gitea
+
+https://github.com/go-gitea/gitea/blob/master/README_ZH.md
 
 
 
