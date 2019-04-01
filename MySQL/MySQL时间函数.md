@@ -83,7 +83,7 @@ CONCAT(LEFT(REPLACE(UUID(),'-',''),18),DATE_FORMAT(NOW(), '%Y%m%d%H%i%S'))
 %% 直接值“%”
 ```
 
-## MySQL为日期增加或者减去一个时间间隔
+# MySQL为日期增加或者减去一个时间间隔
 ### `date_add()、date_sub()`
 ```sql
 set @dt = now();
@@ -98,7 +98,7 @@ select date_add(@dt, interval 1 quarter);
 select date_add(@dt, interval 1 year);
 select date_add(@dt, interval -1 day); -- sub 1 day
 ```
-## MySQL日期、时间相减函数
+# MySQL日期、时间相减函数
 ### 两个日期相减 date1 - date2，返回天数。
 > 注意：timediff(time1,time2) 函数的两个参数类型必须相同。
 ```sql
@@ -108,7 +108,7 @@ MySQL timediff(time1,time2)：两个日期相减 time1 - time2，返回 time 差
 select timediff('2008-08-08 08:08:08', '2008-08-08 00:00:00'); -- 08:08:08
 select timediff('08:08:08', '00:00:00'); -- 08:08:08
 ```
-## MySQL时间戳（timestamp）转换、增、减函数
+# MySQL时间戳（timestamp）转换、增、减函数
 ```sql
 timestamp(date) -- date to timestamp
 timestamp(dt,time) -- dt + time
@@ -169,7 +169,7 @@ select extract(minute_second from @dt); -- 1530
 select extract(minute_microsecond from @dt); -- 1530123456
 select extract(second_microsecond from @dt); -- 30123456
 ```
-## MySQL`dayof…`函数
+# MySQL`dayof…`函数
 ### `dayofweek(), dayofmonth(), dayofyear()`
 #### 分别返回日期参数，在一周、一月、一年中的位置。
 ```sql
@@ -178,14 +178,14 @@ select dayofweek(@dt); -- 6
 select dayofmonth(@dt); -- 8
 select dayofyear(@dt); -- 221
 ```
-## MySQL 返回星期和月份名称函数
+# MySQL 返回星期和月份名称函数
 ### `dayname(), monthname()`
 ```sql
 set @dt = '2008-08-08';
 select dayname(@dt); -- Friday
 select monthname(@dt); -- August
 ```
-## MySQL获取月份相关函数
+# MySQL获取月份相关函数
 ```sql
 # 获取当前日期
 SELECT CURDATE();
