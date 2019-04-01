@@ -1,32 +1,45 @@
-# MySQL时间相关函数
+# MySQL时间函数目录
+* [MySQL获取当前日期及日期格式](#MySQL获取当前日期及日期格式)
+    * [获得当前日期+时间（date + time）函数](#获得当前日期+时间（date + time）函数)
+    * [获得当前日期（date）函数](#获得当前日期（date）函数)
+    * [获得当前时间（time）函数](#获得当前时间（time）函数)
+    * [获得当前`UTC`日期时间函数](#获得当前`UTC`日期时间函数)
+* [格式化日期](#格式化日期)
+--------------------------------------------------
 
-## MySQL获取当前日期及日期格式
+# MySQL获取当前日期及日期格式
 
-## 1.1 获得当前日期+时间（date + time）函数：now() 
+## 获得当前日期+时间（date + time）函数
 
-#### 除了 now() 函数能获得当前的日期时间外，MySQL 中还有下面的函数： 
+### `now()` 
+
+> 除了 `now()` 函数能获得当前的日期时间外，MySQL 中还有下面的函数： 
 ```sql
 current_timestamp() current_timestamp 
 localtime() localtime 
 localtimestamp() localtimestamp 
 ```
-#### 这些日期时间函数，都等同于 now()。鉴于 now() 函数简短易记，建议总是使用 now() 来替代上面列出的函数。
+> 这些日期时间函数，都等同于 `now()`。鉴于 `now()` 函数简短易记，建议总是使用 `now()`来替代上面列出的函数。
 
-## 1.2 获得当前日期+时间（date + time）函数：sysdate()
+### `sysdate()`
 
-#### sysdate() 日期时间函数跟 now() 类似，不同之处在于：now() 在执行开始时值就得到了， sysdate() 在函数执行时动态得到值。
+> sysdate() 日期时间函数跟 now() 类似，不同之处在于：now() 在执行开始时值就得到了， sysdate() 在函数执行时动态得到值。
 
-## 2. 获得当前日期（date）函数：curdate() 
+## 获得当前日期（date）函数
+### `curdate() `
 
-#### 其中，下面的两个日期函数等同于 curdate()： current_date(),current_date 
+> 其中，下面的两个日期函数等同于 curdate()： current_date(),current_date 
 
-## 3. 获得当前时间（time）函数：curtime() 
+## 获得当前时间（time）函数
+### `curtime()`
 
-#### 其中，下面的两个时间函数等同于 curtime()：current_time(),current_time 
+> 其中，下面的两个时间函数等同于 curtime()：current_time(),current_time 
 
-## 4. 获得当前 UTC 日期时间函数：utc_date(), utc_time(), utc_timestamp()
+## 获得当前`UTC`日期时间函数
+### `utc_date(), utc_time(), utc_timestamp()`
 
-#### 格式化日期： DATE_FORMAT(date, format)
+# 格式化日期
+### `DATE_FORMAT(date, format)`
 
 #### 生成18位uuid加14位精确到秒的时间
 ```sql
