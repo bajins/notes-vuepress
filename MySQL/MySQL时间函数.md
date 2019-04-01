@@ -169,7 +169,7 @@ select extract(minute_second from @dt); -- 1530
 select extract(minute_microsecond from @dt); -- 1530123456
 select extract(second_microsecond from @dt); -- 30123456
 ```
-## MySQL `dayof…` 函数
+## MySQL`dayof…`函数
 ### `dayofweek(), dayofmonth(), dayofyear()`
 #### 分别返回日期参数，在一周、一月、一年中的位置。
 ```sql
