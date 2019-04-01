@@ -9,7 +9,7 @@
 * [MySQL日期、时间相减函数](#MySQL日期时间相减函数)
 * [MySQL时间戳（timestamp）转换、增、减函数](#MySQL时间戳timestamp转换增减函数)
 * [MySQL日期时间选取函数](#MySQL日期时间选取函数)
-* [MySQL`dayof…`函数](#MySQL dayof 函数)
+* [MySQL`dayof…`函数](#MySQLdayof函数)
 * [MySQL获取月份相关函数](#MySQL获取月份相关函数)
 * [](#)
 --------------------------------------------------
