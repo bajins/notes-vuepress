@@ -187,6 +187,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 #### 注意
 > 标题中不能带有空格
+
 > 标题中有除字体以外的符号时应该在锚点中直接去除后方可跳转，例如：
 ```diff
 * [获得当前日期+时间`date+time`函数](#获得当前日期时间datetime函数)
