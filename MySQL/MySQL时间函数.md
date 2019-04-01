@@ -1,6 +1,6 @@
 # MySQL时间函数目录
 * [MySQL获取当前日期及日期格式](#MySQL获取当前日期及日期格式)
-    * [获得当前日期+时间`date+time`函数](#获得当前日期+时间date+time函数)
+    * [获得当前日期+时间`date+time`函数](#获得当前日期时间datetime函数)
     * [获得当前日期`date`函数](#获得当前日期date函数)
     * [获得当前时间`time`函数](#获得当前时间time函数)
     * [获得当前`UTC`日期时间函数](#获得当前UTC日期时间函数)
@@ -28,7 +28,8 @@ localtimestamp() localtimestamp
 ## 获得当前日期`date`函数
 ### `curdate() `
 
-> 其中，下面的两个日期函数等同于 curdate()： current_date(),current_date 
+> 其中，下面的两个日期函数等同于 curdate()：
+>> current_date(),current_date 
 
 ## 获得当前时间`time`函数
 ### `curtime()`
