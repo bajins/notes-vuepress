@@ -2,6 +2,11 @@
 
 ## [Centos7安装Python3.7](./install.md)
 
+# 解决pip安装模块提示已经安装更高版本问题
+```sell
+pip3 install --ignore-installed 模块名
+```
+
 # 更新pip
 ```shell
 python -m pip install --upgrade pip
