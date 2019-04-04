@@ -112,19 +112,19 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数�
 ### 导出
 ```shell
 # 只导出结构&函数&事件&触发器使用
-mysqldump -R -E -d -h需要备份的主机地址 -P端口 -u用户名 数据库名 > /home/backup.sql
+mysqldump -R -E -d -h需要备份的主机地址 -P端口 -u用户名 -p 数据库名 > /home/backup.sql
 
 # 只导出存储过程和函数可使用
-mysqldump -R -ntd -h需要备份的主机地址 -P端口 -u用户名 数据库名 > /home/backup.sql
+mysqldump -R -ntd -h需要备份的主机地址 -P端口 -u用户名 -p 数据库名 > /home/backup.sql
 
 # 导出单个数据库中所有(结构&数据&存储过程&函数&事件&触发器)到sql文件
-mysqldump -R -E -h需要备份的主机地址 -P端口 -u用户名 数据库名 > /home/backup.sql
+mysqldump -R -E -h需要备份的主机地址 -P端口 -u用户名 -p 数据库名 > /home/backup.sql
 
 # mysqldump 备份并压缩sql文件
-mysqldump -R -E -h主机地址 -P端口 -u用户名 数据库名 | gzip > /home/backup.sql.gz
+mysqldump -R -E -h主机地址 -P端口 -u用户名 -p 数据库名 | gzip > /home/backup.sql.gz
 
 # 备份所有的数据库到一个sql文件
-mysqldump -R -E -h主机地址 -P端口 -u用户名 --all-databases > /home/all.sql
+mysqldump -R -E -h主机地址 -P端口 -u用户名 -p --all-databases > /home/all.sql
 ```
 
 ### 导入
