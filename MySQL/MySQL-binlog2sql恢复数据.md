@@ -147,7 +147,7 @@ source /home/backup.sql;
 ```
 ### mysqldump两台主机同步备份
 ```shell
-mysqldump -R -E -h导出的主机地址 -P端口 -u用户名 数据库名 | mysql -h导入的主机地址 -P端口 -u用户名 -p密码 -C 数据库名
+mysqldump -R -E -h导出的主机地址 -P端口 -u用户名 -p 数据库名 | mysql -h导入的主机地址 -P端口 -u用户名 -p密码 -C 数据库名
 ```
 
 > --opt等同于--add-drop-table，--add-locks，--create-options，--quick，--extended-insert，--lock-tables，--set-charset，--disable-keys。 
