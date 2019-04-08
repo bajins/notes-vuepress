@@ -106,7 +106,6 @@ sc delete 服务名称
 ```
 
 ## 例一：
-### 将Tomcat加入到系统服务中:
 ```bat
 sc create frp内网穿透 binPath= D:\frp\frps.bat start= auto displayname= "frp内网穿透"
 ```
