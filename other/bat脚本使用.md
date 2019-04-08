@@ -7,12 +7,16 @@ if exist "%temp%\getadmin.vbs" del /f /q "%temp%\getadmin.vbs"
 "%temp%\getadmin.vbs" /f
 if exist "%temp%\getadmin.vbs" del /f /q "%temp%\getadmin.vbs"
 
+:: 以下为执行命令
+
 ```
 
 ## 方式二
 ```bat
 fltmc>nul||cd/d %~dp0&&mshta
 vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",1)(window.close)
+
+:: 以下为执行命令
 
 ```
 
@@ -40,6 +44,8 @@ pushd "%CD%"
 CD /D "%~dp0"
 :--------------------------------------
 
+:: 以下为执行命令
+
 ```
 
 
@@ -65,6 +71,8 @@ if '%errorlevel%' NEQ '0' (
  
 :begin
 
+:: 以下为执行命令
+
 ```
 
 # 隐藏窗口运行
@@ -73,7 +81,7 @@ if '%errorlevel%' NEQ '0' (
 if "%1" == "h" goto begin 
 mshta vbscript:createobject("wscript.shell").run("%~nx0 h",0)(window.close)&&exit 
 :begin 
-::
+:: 以下为执行命令
 
 ```
 
