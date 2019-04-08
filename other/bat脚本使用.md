@@ -93,4 +93,28 @@ REG ADD "HKU\.DEFAULT\Control Panel\Keyboard" /v InitialKeyboardIndicators /t RE
 /d 设置添加的值(data)
 /f 表示强制(forbidden)
 ```
+# 注册Windows服务
+https://www.cnblogs.com/pingming/p/5108947.html
+## 加入服务:
+```bat
+::等号后面的空格必须
+sc create 服务名称 binPath= 路径 start= auto
+```
+## 删除服务:
+```bat
+sc delete 服务名称
+```
+
+## 例一：
+### 将Tomcat加入到系统服务中:
+```bat
+sc create frp内网穿透 binPath= D:\frp\frps.bat start= auto displayname= "frp内网穿透"
+```
+
+## 例二：
+```bat
+sc create frp内网穿透 binPath= "cmd.exe /c D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini" start= auto displayname= "frp内网穿透"
+```
+
+
 
