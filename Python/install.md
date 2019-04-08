@@ -10,7 +10,7 @@ yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel r
 ### 2.下载安装包解压
 #### 到官网复制最新版下载地址 https://www.python.org/downloads/release
 ```shell
-wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tar.xz && tar -xvJf  Python-3.7.3.tar.xz && cd Python-3.7.3
+wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tar.xz && tar -xvJf Python-3.7.3.tar.xz && cd Python-3.7.3
 ```
 ### 3.编译安装
 ```shell
