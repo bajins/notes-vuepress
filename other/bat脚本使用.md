@@ -7,7 +7,7 @@ if exist "%temp%\getadmin.vbs" del /f /q "%temp%\getadmin.vbs"
 "%temp%\getadmin.vbs" /f
 if exist "%temp%\getadmin.vbs" del /f /q "%temp%\getadmin.vbs"
 
-:: 以下为执行命令
+:: 下面为执行命令
 
 ```
 
@@ -16,7 +16,7 @@ if exist "%temp%\getadmin.vbs" del /f /q "%temp%\getadmin.vbs"
 fltmc>nul||cd/d %~dp0&&mshta
 vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",1)(window.close)
 
-:: 以下为执行命令
+:: 下面为执行命令
 
 ```
 
@@ -44,7 +44,7 @@ pushd "%CD%"
 CD /D "%~dp0"
 :--------------------------------------
 
-:: 以下为执行命令
+:: 下面为执行命令
 
 ```
 
@@ -58,30 +58,31 @@ if '%errorlevel%' NEQ '0' (
     goto UACPrompt  
 ) else ( goto gotAdmin )  
    
-:UACPrompt  
+:UACPrompt
     echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs" 
     echo UAC.ShellExecute "%~s0", "", "", "runas", 1 >> "%temp%\getadmin.vbs" 
     "%temp%\getadmin.vbs" 
     exit /B  
    
-:gotAdmin  
+:gotAdmin
     if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )  
     pushd "%CD%" 
     CD /D "%~dp0" 
  
 :begin
 
-:: 以下为执行命令
+:: 下面为执行命令
 
 ```
 
 # 隐藏窗口运行
 ```bat
 @echo off
-if "%1" == "h" goto begin 
-mshta vbscript:createobject("wscript.shell").run("%~nx0 h",0)(window.close)&&exit 
-:begin 
-:: 以下为执行命令
+if "%1" == "h" goto begin
+mshta vbscript:createobject("wscript.shell").run("%~nx0 h",0)(window.close)&&exit
+:begin
+
+:: 下面为执行命令
 
 ```
 
