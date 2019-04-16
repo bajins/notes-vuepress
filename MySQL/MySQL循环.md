@@ -28,7 +28,7 @@ BEGIN
     # 查看test_while表数据
     SELECT * FROM test_while;
 END
-#结束定义语句
+# 结束定义语句
 //
 
 ```
