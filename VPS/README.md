@@ -43,6 +43,8 @@
 
 ### [rclone](https://github.com/ncw/rclone)
 
+### [ShareList 是一个易用的网盘工具，支持快速挂载 GoogleDrive、OneDrive ](https://github.com/reruin/sharelist)
+
 ### [oneindex直接列onedrive目录，文件直链下载](https://github.com/donwa/oneindex)
 
 ### [OLAINDEX OneDrive目录文件索引应用](https://github.com/WangNingkai/OLAINDEX)
