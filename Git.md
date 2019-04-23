@@ -2,9 +2,8 @@
 * [使用命令](#使用命令)
   * [](#)
   
-* [关闭session](#关闭session)
 * [问题解决](#问题解决)
-  * [Git index-pack failed](#Gitindex-packfailed)
+  * [Git index-pack failed](#Gitindexpackfailed)
 
 *****************************************************************************
 
