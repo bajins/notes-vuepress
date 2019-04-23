@@ -113,7 +113,7 @@ git pull origin master
 git push -u origin master
 
 ```
-### 第二种：强制push本地仓库到远程
+#### 第二种：强制push本地仓库到远程
 ```shell
 git push -u origin master -f
 ```
