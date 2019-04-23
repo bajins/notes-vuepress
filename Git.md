@@ -3,7 +3,7 @@
   * [](#)
   
 * [问题解决](#问题解决)
-  * [Git index-pack failed](#itindexpackfailed)
+  * [Git index-pack failed](#gitindexpackfailed)
 
 *****************************************************************************
 
