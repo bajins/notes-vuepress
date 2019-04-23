@@ -3,7 +3,7 @@
   * [把空文件夹提交到仓库](#把空文件夹提交到仓库)
   * [更换项目地址](#更换项目地址)
   * [未push之前更改提交的注释](#未push之前更改提交的注释)
-  
+  * [pull强制覆盖本地文件](#pull强制覆盖本地文件)
   
   
 * [问题解决](#问题解决)
@@ -46,6 +46,24 @@ git commit --amend
 > 这种情况不会进行merge, 强制push后远程文件可能会丢失,不建议使用此方法
 ```shell
 git push -u origin master -f
+```
+## pull强制覆盖本地文件
+> 如果有任何本地更改，将会丢失。无论是否有--hard选项，任何未被推送的本地提交都将丢失。
+> 如果您有任何未被Git跟踪的文件(例如上传的用户内容)，这些文件将不会受到影响。
+
+### 在重置之前可以通过从master创建一个分支来维护当前的本地提交
+```shell
+git checkout master
+git branch new-branch
+```
+> 在此之后，所有旧的提交都将保存在`new-branch`中。然而，没有提交的更改(即使staged)将会丢失。确保存储和提交任何你需要的东西。
+
+### 执行重置
+```shell
+# 从远程下载最新的，而不尝试合并或rebase任何东西
+git fetch --all
+# reset将主分支重置为您刚刚获取的内容。 --hard选项更改工作树中的所有文件以匹配origin/<branch_name>中的文件
+git reset --hard origin/<branch_name>
 ```
 
 
