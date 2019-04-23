@@ -8,6 +8,7 @@
   
 * [问题解决](#问题解决)
   * [项目过大clone报错](#项目过大clone报错)
+  * [failed to push some refs](#failedtopushsomerefs)
 
 *****************************************************************************
 
@@ -40,6 +41,20 @@ git push --set-upstream origin branchname
 git commit --amend
 # 按v进入编辑模式，更改完成后按esc然后输入:qw! 保存
 ```
+## 强制push本地仓库到远程
+> 这种情况不会进行merge, 强制push后远程文件可能会丢失,不建议使用此方法
+```shell
+git push -u origin master -f
+```
+
+
+
+
+
+
+
+
+
 
 
 
@@ -75,7 +90,34 @@ git config --global core.packedGitLimit 512m
 > compression 是压缩的意思，从 clone 的终端输出就知道，服务器会压缩目标文件，然后传输到客户端，客户端再解压。
 取值为 [-1, 9]，-1 以 zlib 为默认压缩库，0 表示不进行压缩，1..9 是压缩速度与最终获得文件大小的不同程度的权衡，数字越大，压缩越慢，当然得到的文件会越小。
 
+## failed to push some refs
+```diff
+[root@foundation38 demo]# git push -u origin master
+Username for 'https://github.com': woytu
+Password for 'https://woytu@github.com': 
+To https://github.com/woytu/test.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/woytu/test.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+### 解决方式
+#### 第一种：进行push前先将远程仓库pull到本地仓库
+```shell
+# git pull --rebase origin master
+git pull origin master
+git push -u origin master
 
-
-
-
+```
+### 第二种：强制push本地仓库到远程
+```shell
+git push -u origin master -f
+```
+#### 第三种：避开解决冲突, 将本地文件暂时提交到远程新建的分支中
+```shell
+git branch [name]
+# 创建完branch后, 再进行push
+git push -u origin [name] 
+```
