@@ -8,7 +8,7 @@
   
 * [问题解决](#问题解决)
   * [项目过大clone报错](#项目过大clone报错)
-  * [failed to push some refs](#`failed to push some refs`)
+  * [提交本地文件失败](#提交本地文件失败)
 
 *****************************************************************************
 
@@ -90,7 +90,8 @@ git config --global core.packedGitLimit 512m
 > compression 是压缩的意思，从 clone 的终端输出就知道，服务器会压缩目标文件，然后传输到客户端，客户端再解压。
 取值为 [-1, 9]，-1 以 zlib 为默认压缩库，0 表示不进行压缩，1..9 是压缩速度与最终获得文件大小的不同程度的权衡，数字越大，压缩越慢，当然得到的文件会越小。
 
-## failed to push some refs
+## 提交本地文件失败
+> 在github远程创建仓库后, 利用gitbash进行提交本地文件的时候出现如下错误
 ```diff
 [root@foundation38 demo]# git push -u origin master
 Username for 'https://github.com': woytu
