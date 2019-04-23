@@ -1,6 +1,10 @@
 # 目录
 * [使用命令](#使用命令)
-  * [](#)
+  * [把空文件夹提交到仓库](#把空文件夹提交到仓库)
+  * [更换项目地址](#更换项目地址)
+  * [未push之前更改提交的注释](#未push之前更改提交的注释)
+  
+  
   
 * [问题解决](#问题解决)
   * [项目过大clone报错](#项目过大clone报错)
@@ -8,12 +12,38 @@
 *****************************************************************************
 
 # 使用命令
+## 把空文件夹提交到仓库
+> 这个只能说是技巧不能说是方法，原理是在每个空文件夹新建一个.gitignore文件
+```shell
+find . -type d -empty -exec touch {}/.gitignore \;
+```
+## 更换项目地址
+```shell
+# 查看当前的远程地址
+git remote -v   
+# 删除当前的远程地址
+git remote rm origin
+# 添加远程地址
+git remote add origin [url]
 
+或者直接修改
+git remote origin set-url （此处未更新后的新地址）
 
+# 把当前分支与远程分支进行关联(branchname要改成你的当前分支名称)
+git push --set-upstream origin branchname
 
+```
+## 未push之前更改提交的注释
+> 如果提交了代码到本地，还没push，发现同步时提交的变更内容的注释填写有误。
+```shell
+# 查看提交文件，里面包含注释和变更内容
+git commit --amend
+# 按v进入编辑模式，更改完成后按esc然后输入:qw! 保存
+```
 
 # 问题解决
 ## 项目过大clone报错
+https://vnzmi.com/2017/01/08/git-early-eof-index-pack-failed/
 ### git 由于提交了比较大的文件，在服务端一直无法拉下来，错误如下
 ```diff
 Cloning into 'E:\soft'...
