@@ -112,8 +112,8 @@ git config --global pack.windowMemory 2047m
 git config --global core.packedGitWindowSize 512m
 git config --global core.packedGitLimit 512m
 
-# 调整缓存大小（单位为字节）为500M
-git config --global http.postBuffer 524288000
+# 调整缓存大小（单位为字节）为1G
+git config --global http.postBuffer 1073741824
 
 # 最低速度限制
 git config --global http.lowSpeedLimit 0
