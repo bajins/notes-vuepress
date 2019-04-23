@@ -8,7 +8,7 @@
   
 * [问题解决](#问题解决)
   * [项目过大clone报错](#项目过大clone报错)
-  * [failed to push some refs](#failedtopushsomerefs)
+  * [failed to push some refs](#failed to push some refs)
 
 *****************************************************************************
 
