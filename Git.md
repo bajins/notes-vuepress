@@ -3,7 +3,7 @@
   * [](#)
   
 * [问题解决](#问题解决)
-  * [Git index-pack failed](#Gitindex-packfailed)
+  * [项目过大clone报错](#项目过大clone报错)
 
 *****************************************************************************
 
@@ -13,7 +13,7 @@
 
 
 # 问题解决
-## Git index-pack failed
+## 项目过大clone报错
 ### git 由于提交了比较大的文件，在服务端一直无法拉下来，错误如下
 ```diff
 Cloning into 'E:\soft'...
