@@ -58,7 +58,7 @@ module.exports = [
         text: '了解更多',
         items: [
             {
-                text: 'vuepress',
+                text: 'VuePress',
                 link: 'https://v1.vuepress.vuejs.org/zh'
             },
             {
