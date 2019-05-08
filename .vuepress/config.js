@@ -2,7 +2,7 @@ module.exports = ctx => ({
     // 部署站点的基础路径，如果你想让你的网站部署到一个子路径下，你将需要设置它。
     // 如 GitHub pages，如果你想将你的网站部署到 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/"，它的值应当总是以斜杠开始，并以斜杠结束。
     // base 将会自动地作为前缀插入到所有以 / 开始的其他选项的链接中，所以你只需要指定一次。
-    base:'/UseNotes/',
+    base: '/UseNotes/',
     // 指定 VuePress build 的输出目录。如果传入的是相对路径，则会基于 process.cwd() 进行解析。
     // 与package.json中的scripts配置编译路径配合使用
     dest: './docs',

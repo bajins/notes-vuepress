@@ -18,7 +18,16 @@ module.exports = [
     },
     {
         text: 'JAVA',
-        link: '/JAVA/'
+        items: [
+            {
+                text: 'JAVA',
+                link: '/JAVA/'
+            },
+            {
+                text: 'API',
+                link: '/JAVA/API/'
+            }
+        ]
     },
     {
         text: 'MySql',
@@ -30,10 +39,9 @@ module.exports = [
     },
     {
         text: 'VPS',
-        link: '/VPS/',
         items: [
             {
-                text: '基础',
+                text: 'VPS',
                 link: '/VPS/'
             },
             {
@@ -48,7 +56,16 @@ module.exports = [
     },
     {
         text: 'WEB',
-        link: '/WEB/'
+        items: [
+            {
+                text: 'WEB',
+                link: '/WEB/'
+            },
+            {
+                text: 'JavaScript',
+                link: '/WEB/JavaScript/'
+            },
+        ]
     },
     {
         text: 'other',
@@ -70,7 +87,7 @@ module.exports = [
                 items: [
                     {
                         text: 'Markdown编辑器',
-                        link: 'Markdown编辑器.md'
+                        link: '/Markdown编辑器'
                     },
                     {
                         text: '从仓库生成文档',
@@ -78,7 +95,7 @@ module.exports = [
                     },
                     {
                         text: 'Markdown语法',
-                        link: 'README%E8%AF%AD%E6%B3%95.md'
+                        link: '/README%E8%AF%AD%E6%B3%95'
                     },
                 ]
             }
