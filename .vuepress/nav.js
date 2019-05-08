@@ -49,39 +49,51 @@ module.exports = [
     text: '了解更多',
     items: [
       {
-        text: 'GitHub',
-        link: 'https://github.com/woytu'
+        text: 'Google Hosts',
+        link: 'https://github.com/googlehosts/hosts'
       },
       {
-        text: '开发指南',
+        text: 'Markdown',
         items: [
           {
-            text: '设计理念',
-            link: '/zh/miscellaneous/design-concepts.html'
+            text: 'Markdown编辑器',
+            link: 'Markdown编辑器.md'
           },
           {
-            text: 'FAQ',
-            link: '/zh/faq/',
+            text: '从仓库生成文档',
+            link: 'https://readthedocs.org/'
           },
           {
-            text: '术语',
-            link: '/zh/miscellaneous/glossary.html'
+            text: 'Markdown语法',
+            link: 'README%E8%AF%AD%E6%B3%95.md'
           },
-        ]
-      },
-      {
-        text: '其他',
-        items: [
-          {
-            text: '从 0.x 迁移',
-            link: '/zh/miscellaneous/migration-guide.html'
-          },
-          {
-            text: 'Changelog',
-            link: 'https://github.com/vuejs/vuepress/blob/master/CHANGELOG.md'
-          }
         ]
       }
+    ]
+  },
+  {
+    text: '个人导航',
+    items: [
+      {
+        text: '个人主页',
+        link: 'https://bajins.com'
+      },
+      {
+        text: '备份库',
+        link: 'https://git.woetu.com/clater/UseNotes'
+      },
+      {
+        text: '绿色网盘',
+        link: 'https://file.woytu.com',
+      },
+      {
+        text: 'GO小说',
+        link: 'https://book.bajins.com'
+      },
+      {
+        text: 'WeChat小程序',
+        link: 'https://woetu.com'
+      },
     ]
   }
 ]

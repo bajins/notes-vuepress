@@ -44,7 +44,7 @@ module.exports = ctx => ({
     // },
     editLinkText: '在 GitHub 上编辑此页',
     nav: require('./nav'),
-    logo: '/head.png',
+    logo: '/logo.png',
     // 搜索设置
     search: true,
     searchMaxSuggestions: 10,
