@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>一、mysql-udf-http | Bajins</title>
+    <meta name="description" content="个人笔记">
+    <link rel="icon" href="/logo.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#3eaf7c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon-152x152.png">
+  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#3eaf7c">
+  <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/assets/css/0.styles.b8f8fe13.css" as="style"><link rel="preload" href="/assets/js/app.e1f3d29b.js" as="script"><link rel="preload" href="/assets/js/6.9594aa8e.js" as="script"><link rel="preload" href="/assets/js/1.3abf8fba.js" as="script"><link rel="preload" href="/assets/js/53.bc6c4443.js" as="script"><link rel="preload" href="/assets/js/7.79c19694.js" as="script"><link rel="prefetch" href="/assets/js/10.b8cc765b.js"><link rel="prefetch" href="/assets/js/11.e147a71f.js"><link rel="prefetch" href="/assets/js/12.68d6f0a2.js"><link rel="prefetch" href="/assets/js/13.9d48cdb8.js"><link rel="prefetch" href="/assets/js/14.49d31364.js"><link rel="prefetch" href="/assets/js/15.8ee02f86.js"><link rel="prefetch" href="/assets/js/16.b5f42ccf.js"><link rel="prefetch" href="/assets/js/17.57d82844.js"><link rel="prefetch" href="/assets/js/18.91120777.js"><link rel="prefetch" href="/assets/js/19.fb32eb55.js"><link rel="prefetch" href="/assets/js/20.cf2c43cd.js"><link rel="prefetch" href="/assets/js/21.f0f9e7f0.js"><link rel="prefetch" href="/assets/js/22.e6879a72.js"><link rel="prefetch" href="/assets/js/23.85111fc3.js"><link rel="prefetch" href="/assets/js/24.fff11f17.js"><link rel="prefetch" href="/assets/js/25.4d770d5c.js"><link rel="prefetch" href="/assets/js/26.ad5573ed.js"><link rel="prefetch" href="/assets/js/27.7d26bdd5.js"><link rel="prefetch" href="/assets/js/28.3b942955.js"><link rel="prefetch" href="/assets/js/29.b3214dc5.js"><link rel="prefetch" href="/assets/js/30.28862566.js"><link rel="prefetch" href="/assets/js/31.ce37341b.js"><link rel="prefetch" href="/assets/js/32.408bef20.js"><link rel="prefetch" href="/assets/js/33.4f1e703e.js"><link rel="prefetch" href="/assets/js/34.cd7d8068.js"><link rel="prefetch" href="/assets/js/35.c2c5f8b3.js"><link rel="prefetch" href="/assets/js/36.17ec486c.js"><link rel="prefetch" href="/assets/js/37.4e1f3d08.js"><link rel="prefetch" href="/assets/js/38.337b181b.js"><link rel="prefetch" href="/assets/js/39.857d2123.js"><link rel="prefetch" href="/assets/js/4.30278f26.js"><link rel="prefetch" href="/assets/js/40.0e823925.js"><link rel="prefetch" href="/assets/js/41.7a5e3b00.js"><link rel="prefetch" href="/assets/js/42.633c30ea.js"><link rel="prefetch" href="/assets/js/43.850619f5.js"><link rel="prefetch" href="/assets/js/44.8ca9306c.js"><link rel="prefetch" href="/assets/js/45.9f3d46c3.js"><link rel="prefetch" href="/assets/js/46.7d1b217d.js"><link rel="prefetch" href="/assets/js/47.6eacd4e8.js"><link rel="prefetch" href="/assets/js/48.927b61ff.js"><link rel="prefetch" href="/assets/js/49.44f82d95.js"><link rel="prefetch" href="/assets/js/5.512308f1.js"><link rel="prefetch" href="/assets/js/50.3008812c.js"><link rel="prefetch" href="/assets/js/51.890dbd5e.js"><link rel="prefetch" href="/assets/js/52.79f01054.js"><link rel="prefetch" href="/assets/js/54.56b44c47.js"><link rel="prefetch" href="/assets/js/55.040806e7.js"><link rel="prefetch" href="/assets/js/56.c758b565.js"><link rel="prefetch" href="/assets/js/57.c5d6e3c3.js"><link rel="prefetch" href="/assets/js/58.e6225428.js"><link rel="prefetch" href="/assets/js/59.6b0e1038.js"><link rel="prefetch" href="/assets/js/60.ba64a800.js"><link rel="prefetch" href="/assets/js/61.4c7c8528.js"><link rel="prefetch" href="/assets/js/62.7bddb3f8.js"><link rel="prefetch" href="/assets/js/63.5aeea942.js"><link rel="prefetch" href="/assets/js/64.6d588a05.js"><link rel="prefetch" href="/assets/js/65.e7c47ebe.js"><link rel="prefetch" href="/assets/js/66.ba48a904.js"><link rel="prefetch" href="/assets/js/67.aca3fa8c.js"><link rel="prefetch" href="/assets/js/68.abec008b.js"><link rel="prefetch" href="/assets/js/69.4f1580e6.js"><link rel="prefetch" href="/assets/js/70.8e48eb2b.js"><link rel="prefetch" href="/assets/js/71.8447747e.js"><link rel="prefetch" href="/assets/js/72.73214218.js"><link rel="prefetch" href="/assets/js/73.e88e7f50.js"><link rel="prefetch" href="/assets/js/74.10064c6e.js"><link rel="prefetch" href="/assets/js/75.b0cf65d8.js"><link rel="prefetch" href="/assets/js/76.44e048d0.js"><link rel="prefetch" href="/assets/js/77.635ff72c.js"><link rel="prefetch" href="/assets/js/78.82db5d2b.js"><link rel="prefetch" href="/assets/js/79.09969f5f.js"><link rel="prefetch" href="/assets/js/8.24854105.js"><link rel="prefetch" href="/assets/js/80.21866e28.js"><link rel="prefetch" href="/assets/js/81.617e18ec.js"><link rel="prefetch" href="/assets/js/82.3e0c63a9.js"><link rel="prefetch" href="/assets/js/83.897a44c5.js"><link rel="prefetch" href="/assets/js/84.66eb6505.js"><link rel="prefetch" href="/assets/js/85.b91ddcdb.js"><link rel="prefetch" href="/assets/js/86.f6dcaab5.js"><link rel="prefetch" href="/assets/js/87.b939491d.js"><link rel="prefetch" href="/assets/js/88.3577c1f2.js"><link rel="prefetch" href="/assets/js/9.ebbdca13.js"><link rel="prefetch" href="/assets/js/vendors~flowchart.f6a389b4.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.b8f8fe13.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div><div class="theme-container"><div><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/head.png" alt="Bajins" class="logo"> <span class="site-name">Bajins</span></a> <div class="links"><div class="color-picker"><a href="#" class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="theme-options"><!----> <div class="dark-theme-options toggle-option"><label for="dark-theme-toggle">Enable Dark Theme?</label> <input id="dark-theme-toggle" type="checkbox" checked="checked"></div></div></div></div> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      VPS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/VPS/script/" class="nav-link"><i class="iconfont undefined"></i>
+  脚本
+</a></li><li class="dropdown-item"><!----> <a href="/VPS/Docker/" class="nav-link"><i class="iconfont undefined"></i>
+  Docker
+</a></li></ul></div></div><div class="nav-item"><a href="/WEB/" class="nav-link"><i class="iconfont undefined"></i>
+  WEB
+</a></div><div class="nav-item"><a href="/Python/" class="nav-link"><i class="iconfont undefined"></i>
+  Python
+</a></div><div class="nav-item"><a href="/MySql/" class="nav-link"><i class="iconfont undefined"></i>
+  MySql
+</a></div><div class="nav-item"><a href="/Java/" class="nav-link"><i class="iconfont undefined"></i>
+  Java
+</a></div><div class="nav-item"><a href="/IOS/" class="nav-link"><i class="iconfont undefined"></i>
+  IOS
+</a></div><div class="nav-item"><a href="/Android/" class="nav-link"><i class="iconfont undefined"></i>
+  Android
+</a></div><div class="nav-item"><a href="/Golang/" class="nav-link"><i class="iconfont undefined"></i>
+  Golang
+</a></div><div class="nav-item"><a href="/IDE/" class="nav-link"><i class="iconfont undefined"></i>
+  IDE
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      了解更多
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/woytu" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><h4>开发指南</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/zh/miscellaneous/design-concepts.html" class="nav-link"><i class="iconfont undefined"></i>
+  设计理念
+</a></li><li class="dropdown-subitem"><a href="/zh/faq/" class="nav-link"><i class="iconfont undefined"></i>
+  FAQ
+</a></li><li class="dropdown-subitem"><a href="/zh/miscellaneous/glossary.html" class="nav-link"><i class="iconfont undefined"></i>
+  术语
+</a></li></ul></li><li class="dropdown-item"><h4>其他</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/zh/miscellaneous/migration-guide.html" class="nav-link"><i class="iconfont undefined"></i>
+  从 0.x 迁移
+</a></li><li class="dropdown-subitem"><a href="https://github.com/vuejs/vuepress/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  Changelog
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div> <a href="https://github.com/woytu/UseNotes" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      VPS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/VPS/script/" class="nav-link"><i class="iconfont undefined"></i>
+  脚本
+</a></li><li class="dropdown-item"><!----> <a href="/VPS/Docker/" class="nav-link"><i class="iconfont undefined"></i>
+  Docker
+</a></li></ul></div></div><div class="nav-item"><a href="/WEB/" class="nav-link"><i class="iconfont undefined"></i>
+  WEB
+</a></div><div class="nav-item"><a href="/Python/" class="nav-link"><i class="iconfont undefined"></i>
+  Python
+</a></div><div class="nav-item"><a href="/MySql/" class="nav-link"><i class="iconfont undefined"></i>
+  MySql
+</a></div><div class="nav-item"><a href="/Java/" class="nav-link"><i class="iconfont undefined"></i>
+  Java
+</a></div><div class="nav-item"><a href="/IOS/" class="nav-link"><i class="iconfont undefined"></i>
+  IOS
+</a></div><div class="nav-item"><a href="/Android/" class="nav-link"><i class="iconfont undefined"></i>
+  Android
+</a></div><div class="nav-item"><a href="/Golang/" class="nav-link"><i class="iconfont undefined"></i>
+  Golang
+</a></div><div class="nav-item"><a href="/IDE/" class="nav-link"><i class="iconfont undefined"></i>
+  IDE
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      了解更多
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/woytu" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><h4>开发指南</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/zh/miscellaneous/design-concepts.html" class="nav-link"><i class="iconfont undefined"></i>
+  设计理念
+</a></li><li class="dropdown-subitem"><a href="/zh/faq/" class="nav-link"><i class="iconfont undefined"></i>
+  FAQ
+</a></li><li class="dropdown-subitem"><a href="/zh/miscellaneous/glossary.html" class="nav-link"><i class="iconfont undefined"></i>
+  术语
+</a></li></ul></li><li class="dropdown-item"><h4>其他</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/zh/miscellaneous/migration-guide.html" class="nav-link"><i class="iconfont undefined"></i>
+  从 0.x 迁移
+</a></li><li class="dropdown-subitem"><a href="https://github.com/vuejs/vuepress/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  Changelog
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div> <a href="https://github.com/woytu/UseNotes" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>一、mysql-udf-http</span> <!----></p> <!----></section></li></ul> </aside> <div><main class="page reco-hide"> <div class="page-title"><h1>一、mysql-udf-http</h1> <hr> <div data-v-0b496ca7><i class="iconfont reco-account" data-v-0b496ca7><span data-v-0b496ca7>Bajins</span></i> <!----> <span id="/MySQL/mysql-udf/mysql-udf%E5%AE%89%E8%A3%85.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-a030e6b4 data-v-0b496ca7><i class="iconfont reco-eye" style="margin-right: .5rem" data-v-a030e6b4></i> <a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;" data-v-a030e6b4></a></span> <!----></div></div> <div class="content default"><h1 id="一、mysql-udf-http"><a href="#一、mysql-udf-http" aria-hidden="true" class="header-anchor">#</a> 一、mysql-udf-http</h1> <h3 id="安装cur"><a href="#安装cur" aria-hidden="true" class="header-anchor">#</a> 安装cur</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>yum install -y libcurl*
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="或者"><a href="#或者" aria-hidden="true" class="header-anchor">#</a> 或者</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>yum install -y curl*
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="安装mysql-udf-http"><a href="#安装mysql-udf-http" aria-hidden="true" class="header-anchor">#</a> 安装mysql-udf-http</h3> <p>项目网址：http://code.google.com/p/mysql-udf-http/
+中文说明：http://blog.zyan.cc/mysql-udf-http/</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>wget https://github.com/claer-ding/UseNotes/raw/master/MySQL/mysql-udf/mysql-udf-http-1.0.tar.gz
+tar zxvf mysql-udf-http-1.0.tar.gz
+cd mysql-udf-http-1.0
+./configure --prefix=/usr/local/mysql-udf-http --with-mysql=/usr/local/mysql/bin/mysql_config
+make &amp;&amp; make install
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h4 id="如果提示configure-error-no-acceptable-c-compiler-found-in-path需要安装gcc编译器"><a href="#如果提示configure-error-no-acceptable-c-compiler-found-in-path需要安装gcc编译器" aria-hidden="true" class="header-anchor">#</a> 如果提示configure: error: no acceptable C compiler found in $PATH需要安装GCC编译器</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>yum install -y gcc
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="如果没有mysql-config，请执行以下命令"><a href="#如果没有mysql-config，请执行以下命令" aria-hidden="true" class="header-anchor">#</a> 如果没有mysql_config，请执行以下命令</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>yum install -y mysql-devel
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="搜索mysql-udf-http-so文件位置"><a href="#搜索mysql-udf-http-so文件位置" aria-hidden="true" class="header-anchor">#</a> 搜索mysql-udf-http.so文件位置</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>find / -name mysql-udf-http.so
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="由于mysql-udf-http-so不在mysql-lib-plugin-目录下，所以需要创建软连接或者复制过去"><a href="#由于mysql-udf-http-so不在mysql-lib-plugin-目录下，所以需要创建软连接或者复制过去" aria-hidden="true" class="header-anchor">#</a> 由于mysql-udf-http.so不在mysql/lib/plugin/目录下，所以需要创建软连接或者复制过去</h3> <h4 id="创建软连接"><a href="#创建软连接" aria-hidden="true" class="header-anchor">#</a> 创建软连接</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>ln -s /usr/local/mysql-udf-http/lib/mysql-udf-http.so /usr/local/mysql/lib/plugin/mysql-udf-http.so
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="或者复制"><a href="#或者复制" aria-hidden="true" class="header-anchor">#</a> 或者复制</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>cp /usr/local/mysql-udf-http/lib/mysql-udf* /usr/local/mysql/lib/plugin/
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="重启mysql"><a href="#重启mysql" aria-hidden="true" class="header-anchor">#</a> 重启mysql</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>service mysqld restart
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="或者-2"><a href="#或者-2" aria-hidden="true" class="header-anchor">#</a> 或者</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>systemctl restart mysqld.service
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="创建"><a href="#创建" aria-hidden="true" class="header-anchor">#</a> 创建</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>create function http_get returns string soname 'mysql-udf-http.so';
+create function http_post returns string soname 'mysql-udf-http.so';
+create function http_put returns string soname 'mysql-udf-http.so';
+create function http_delete returns string soname 'mysql-udf-http.so';
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="删除"><a href="#删除" aria-hidden="true" class="header-anchor">#</a> 删除</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>DROP FUNCTION IF EXISTS http_get;
+DROP FUNCTION IF EXISTS http_post;
+DROP FUNCTION IF EXISTS http_put;
+DROP FUNCTION IF EXISTS http_delete;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="验证是否安装成功"><a href="#验证是否安装成功" aria-hidden="true" class="header-anchor">#</a> 验证是否安装成功:</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>select * from mysql.func; 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="description"><a href="#description" aria-hidden="true" class="header-anchor">#</a> Description:</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>SELECT http_get('&lt;url&gt;');
+SELECT http_post('&lt;url&gt;', '&lt;data&gt;');
+SELECT http_put('&lt;url&gt;', '&lt;data&gt;');
+SELECT http_delete('&lt;url&gt;');
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="实例："><a href="#实例：" aria-hidden="true" class="header-anchor">#</a> 实例：</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>/* HTTP GET、POST方式提交关键词“xoyo”到百度移动搜索 */  
+SELECT http_get('http://m.baidu.com/s?word=xoyo&amp;pn=0');  
+SELECT http_post('http://m.baidu.com/s','word=xoyo&amp;pn=0');  
+  
+/* 新浪微博开放平台：获取新浪用户ID为103500的最近一条微博内容 */  
+SELECT http_get('http://api.t.sina.com.cn/statuses/user_timeline/103500.json?count=1&amp;source=1561596835') AS data;  
+/* 新浪微博开放平台：发表一条微博 */  
+SELECT http_post('http://your_sina_uid:your_password@api.t.sina.com.cn/statuses/update.xml?source=1561596835', 'status=Thins is sina weibo test information');  
+  
+/* Tokyo Tyrant 写入、读取、删除操作 */  
+SELECT http_put('http://192.168.8.34:1978/key', 'This is value');  
+SELECT http_get('http://192.168.8.34:1978/key');  
+SELECT http_delete('http://192.168.8.34:1978/key');  
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><h1 id="二、mysql-udf-json"><a href="#二、mysql-udf-json" aria-hidden="true" class="header-anchor">#</a> 二、mysql-udf-json</h1> <div class="language- line-numbers-mode"><pre class="language-text"><code>wget https://github.com/claer-ding/lib_mysqludf_json/archive/2013.zip
+unzip 2013.zip
+cd lib_mysqludf_json-2013
+gcc $(/usr/local/mysql/bin/mysql_config --cflags) -shared -fPIC -o lib_mysqludf_json.so lib_mysqludf_json.c
+cp lib_mysqludf_json.so /usr/local/mysql/lib/plugin/
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h3 id="创建-2"><a href="#创建-2" aria-hidden="true" class="header-anchor">#</a> 创建</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>create function lib_mysqludf_json_info returns string soname 'lib_mysqludf_json.so';
+create function json_array returns string soname 'lib_mysqludf_json.so';
+create function json_members returns string soname 'lib_mysqludf_json.so';
+create function json_object returns string soname 'lib_mysqludf_json.so';
+create function json_values returns string soname 'lib_mysqludf_json.so';
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h3 id="删除-2"><a href="#删除-2" aria-hidden="true" class="header-anchor">#</a> 删除</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>DROP FUNCTION IF EXISTS lib_mysqludf_json_info;
+DROP FUNCTION IF EXISTS json_array;
+DROP FUNCTION IF EXISTS json_members;
+DROP FUNCTION IF EXISTS json_object;
+DROP FUNCTION IF EXISTS json_values;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h3 id="验证是否安装成功-2"><a href="#验证是否安装成功-2" aria-hidden="true" class="header-anchor">#</a> 验证是否安装成功:</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>select * from mysql.func; 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="实例：-2"><a href="#实例：-2" aria-hidden="true" class="header-anchor">#</a> 实例：</h3> <h4 id="返回json对象"><a href="#返回json对象" aria-hidden="true" class="header-anchor">#</a> 返回json对象</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>select json_object(login_name as user,login_password as pwd) as user from t_sys_loginperson;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="返回json数组"><a href="#返回json数组" aria-hidden="true" class="header-anchor">#</a> 返回json数组</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>select json_array(login_name,login_password) as user from t_sys_loginperson;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="创建触发器"><a href="#创建触发器" aria-hidden="true" class="header-anchor">#</a> 创建触发器</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>/* INSERT插入操作的触发器 */  
+/*开头将结束符号定义为|*/
+DELIMITER |  
+DROP TRIGGER IF EXISTS mytable_insert;  
+CREATE TRIGGER mytable_insert  
+AFTER INSERT ON mytable  
+FOR EACH ROW BEGIN  
+    SET @tt_json = (SELECT json_object(id,addtime,title) FROM mytable WHERE id = NEW.id LIMIT 1);  
+    SET @tt_resu = (SELECT http_put(CONCAT('http://192.168.8.34:1978/', NEW.id), @tt_json));  
+/*使用|结束*/
+END |  
+/*最后使用DELIMITER ; 将结束符号还原*/
+DELIMITER ;  
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><div class="language- line-numbers-mode"><pre class="language-text"><code>/* UPDATE更新操作的触发器 */  
+DELIMITER |  
+DROP TRIGGER IF EXISTS mytable_update;  
+CREATE TRIGGER mytable_update  
+AFTER UPDATE ON mytable  
+FOR EACH ROW BEGIN
+	/*判断表中字段新数据与旧数据变化*/
+	if new.status&lt;&gt;old.status then
+    SET @tt_json = (SELECT json_object(id,addtime,title) FROM mytable WHERE id = OLD.id LIMIT 1);  
+    SET @tt_resu = (SELECT http_get(CONCAT('http://192.168.8.34:1978/', OLD.id), @tt_json));  
+	/*结束判断*/
+	end if;
+END |  
+DELIMITER ;  
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><div class="language- line-numbers-mode"><pre class="language-text"><code>/* DELETE删除操作的触发器 */  
+DELIMITER |  
+DROP TRIGGER IF EXISTS mytable_delete;  
+CREATE TRIGGER mytable_delete  
+AFTER DELETE ON mytable  
+FOR EACH ROW BEGIN  
+    SET @tt_resu = (SELECT http_delete(CONCAT('http://192.168.8.34:1978/', OLD.id)));  
+END |  
+DELIMITER ;  
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div></div> <!----> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/woytu/UseNotes/edit/master//MySQL/mysql-udf/mysql-udf安装.md" target="_blank" rel="noopener noreferrer">在 GitHub 上编辑此页</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">上次更新: </span> <span class="time">5/18/2018, 3:42:14 PM</span></div></footer> <!----> </main> <div class="valine-wrapper" data-v-0162251c><div id="valine" data-v-0162251c></div></div></div> <div class="back-to-ceiling" style="right:1rem;bottom:3rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;background-color:rgba(231, 234, 241,.5);display:none;" data-v-d0bfeaa4 data-v-d0bfeaa4><i class="iconfont reco-up" data-v-d0bfeaa4></i></div></div></div></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.e1f3d29b.js" defer></script><script src="/assets/js/6.9594aa8e.js" defer></script><script src="/assets/js/1.3abf8fba.js" defer></script><script src="/assets/js/53.bc6c4443.js" defer></script><script src="/assets/js/7.79c19694.js" defer></script>
+  </body>
+</html>
