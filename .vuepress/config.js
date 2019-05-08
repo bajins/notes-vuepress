@@ -1,8 +1,8 @@
 const { fs, path } = require('@vuepress/shared-utils')
 
 module.exports = ctx => ({
-	// 指定 vuepress build 的输出目录。如果传入的是相对路径，则会基于 process.cwd() 进行解析。
-  dest: '../../vuepress',
+  // 指定 vuepress build 的输出目录。如果传入的是相对路径，则会基于 process.cwd() 进行解析。
+  dest: './docs',
   // 提供多语言支持的语言配置。
   lang: 'zh-CN',
       title: 'Bajins',
