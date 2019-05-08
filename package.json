@@ -4,8 +4,8 @@
   "name": "blog",
   "description": "blog of VuePress",
   "scripts": {
-    "dev": "vuepress dev --temp .temp",
-    "build": "vuepress build --temp .temp",
+    "dev": "vuepress dev",
+    "build": "vuepress build",
     "view-info": "vuepress view-info --temp .temp",
     "show-help": "vuepress --help"
   },
