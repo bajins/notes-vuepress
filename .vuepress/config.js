@@ -52,7 +52,7 @@ module.exports = ctx => ({
         search: true,
         searchMaxSuggestions: 10,
         // 侧边栏 require('./sidebar'),auto自动形成侧边导航
-        sidebar: 'auto',
+        sidebar: require('./sidebar'),
         // 最后更新时间
         lastUpdated: '上次更新',
         // 作者
