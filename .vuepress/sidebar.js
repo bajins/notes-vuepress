@@ -1,3 +1,5 @@
+const {fs, path} = require('@vuepress/shared-utils')
+
 module.exports = {
       '/foo/': [
         '',     /* /foo/ */

@@ -49,6 +49,10 @@ module.exports = [
     text: '了解更多',
     items: [
       {
+        text: 'vuepress',
+        link: 'https://v1.vuepress.vuejs.org/zh'
+      },
+      {
         text: 'Google Hosts',
         link: 'https://github.com/googlehosts/hosts'
       },
