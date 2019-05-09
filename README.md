@@ -24,8 +24,8 @@ footer: MIT Licensed | Copyright © 2019 Bajins
 ├─ docs/            // 编译后存放静态文件的目录，GitHub Pages指向此目录
 ├─ .vuepress/       // 用于存放全局的配置、组件、静态资源等。
 │  ├─ public/       // 静态资源目录。
-│     ├─ icons/     // 存放图标目录
-│     ├─ images/    // 存放所有文档的图片目录
+│  |  ├─ icons/     // 存放图标目录
+│  |  └─ images/    // 存放所有文档的图片目录
 │  ├─ config.js     // 配置文件的入口文件。
 │  ├─ nav.js        // 导航栏 配置文件
 │  └─ sidebar.js    // 侧边栏 配置文件
