@@ -11,7 +11,7 @@
 ## 第一步如果没有安装开源工具binlog2sql那么请安装。
 #### binlog2sql的使用详情：https://github.com/danfengcao/binlog2sql
 ### binlog2sql是一款简单易用的binlog解析工具，其中一个功能就是生成回滚SQL。
-```shell
+```bash
 git clone https://github.com/danfengcao/binlog2sql.git
 cd binlog2sql/
 pip install -r requirements.txt
@@ -49,7 +49,7 @@ mysql-bin.000007 |	26765043
 ### 可以看到最新的binlog文件是mysql-bin.000007，我们再定位误操作SQL的binlog位置
 #### binlog2sql.py文件在binlog2sql/binlog2sql/ 文件夹下
 #### 如果命令最后不加时间可输出最近操作的SQL命令
-```shell
+```bash
 python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数据库 -t表 --start-file='binlog文件' --start-datetime='之前误操作的SQL执行开始时间' --stop-datetime='之前误操作的SQL执行结束时间'
 ```
 ### 当程序跑完之后看最后一条数据最末尾：
@@ -59,20 +59,20 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数�
 
 ## 方式一：
 ### rollback.sql文件，并检查回滚SQL是否正确
-```shell
+```bash
 python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数据库 -t表 --start-file='binlog文件' --start-position=开始位置 --stop-position=结束位置 -B > rollback.sql
 ```
 ### 查看当前文件夹下是否生成了rollback.sql文件,确认回滚SQL正确，如果有就执行回滚
-```shell
+```bash
 mysql -h127.0.0.1 -P端口 -u账号 -p'密码' < rollback.sql
 ```
 ## 方式二：
 ### 不生成rollback.sql文件，执行命令后在输出中检查回滚SQL是否正确
-```shell
+```bash
 python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数据库 -t表 --start-file='binlog文件' --start-position=开始位置 --stop-position=结束位置 -B
 ```
 ### 确认回滚SQL正确，执行回滚语句。登录MySQL确认，数据回滚成功。
-```shell
+```bash
 python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数据库 -t表 --start-file='binlog文件' --start-position=开始位置 --stop-position=结束位置 -B | mysql -h127.0.0.1 -P端口 -u账号 -p'密码'
 ```
 
@@ -112,7 +112,7 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数�
 
 
 ### 导出
-```shell
+```bash
 # 只导出结构&函数&事件&触发器使用
 mysqldump -R -E -d -h需要备份的主机地址 -P端口 -u用户名 -p 数据库名 > /home/backup.sql
 
@@ -130,7 +130,7 @@ mysqldump -R -E -h主机地址 -P端口 -u用户名 -p --all-databases > /home/a
 ```
 
 ### 导入
-```shell
+```bash
 # 用mysqldump导入本地sql文件
 mysqldump -h主机地址 -P端口 -u用户名 数据库名 < /home/backup.sql
 
@@ -148,7 +148,7 @@ source /home/backup.sql;
 
 ```
 ### mysqldump两台主机同步备份
-```shell
+```bash
 mysqldump -R -E -h导出的主机地址 -P端口 -u用户名 -p 数据库名 | mysql -h导入的主机地址 -P端口 -u用户名 -p密码 -C 数据库名
 ```
 

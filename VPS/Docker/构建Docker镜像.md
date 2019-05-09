@@ -1,7 +1,7 @@
 # 构建Docker镜像
 
 # 卸载旧版本
-```shell
+```bash
 yum remove docker \
           docker-client \
           docker-client-latest \
@@ -16,60 +16,60 @@ yum remove docker \
 
 # 开始安装docker
 ## 安装所需的包。yum-utils提供了yum-config-manager效用，并device-mapper-persistent-data和lvm2由需要devicemapper存储驱动程序。
-```shell
+```bash
 yum install -y yum-utils \
   device-mapper-persistent-data \
   lvm2
 ```
 
 ## 使用以下命令设置稳定的存储库。即使您想从边缘或测试存储库安装构建，也总是需要稳定的存储库。
-```shell
+```bash
 yum-config-manager --enable docker-ce-edge
 ```
 ## 禁用测试库
-```shell
+```bash
 yum-config-manager --disable docker-ce-edge
 ```
 ## 安装最新版本的Docker CE
-```shell
+```bash
 yum install docker-ce
 ```
 ## 列出可用版本,从最高到最低排序
-```shell
+```bash
  yum list docker-ce --showduplicates | sort -r
 ```
 ## 安装一个库
-```shell
+```bash
 yum install docker-ce-<VERSION STRING>
 #例如
 yum install docker-ce-18.03.1.ce
 ```
 
 ## 启动Docker
-```shell
+```bash
 systemctl start docker
 ```
 ## 查看本地镜像
-```shell
+```bash
 docker images
 ```
 ## 搜索镜像
-```shell
+```bash
 ##搜索centos有关的镜像
 docker search centos
 ```
 ## 下载镜像
-```shell
+```bash
 #centos镜像
 docker pull centos
 ```
 
 ## 通过运行hello-world 映像验证安装是否正确。
-```shell
+```bash
 docker run hello-world
 ```
 ## 启动一个基于docker.io/centos的容器
-```shell
+```bash
 docker run -it --name=test-centos docker.io/centos:latest /bin/bash
 ```
 ```diff
@@ -81,7 +81,7 @@ docker run -it --name=test-centos docker.io/centos:latest /bin/bash
 ```
 
 ## 其他docker命令
-```shell
+```bash
 #退出docker容器
 #如果容器内部没有任何程序运行, 一旦执行exit, 退出容器时, 容器将结束运行
 exit
@@ -103,7 +103,7 @@ docker rm -f test-centos
 # 构建镜像文件
 
 ## 准备centos基础镜像
-```shell
+```bash
 docker pull centos
 ```
 ## 准备JDK7和tomcat8.5安装包
@@ -114,12 +114,12 @@ tomcat8.5下载地址：
 https://tomcat.apache.org/download-80.cgi
 
 ## 在home文件夹下创建docker目录
-```shell
+```bash
 mkdir -p /home/docker
 ```
 ## 把JDK和Tomcat都解压到/home/docker文件夹下
 ### 建议重命名为最简单的名称
-```shell
+```bash
 #解压
 tar -zxvf jdk-7u80-linux-i586.tar.gz -C /home/docker
 tar -zxvf apache-tomcat-8.5.32.tar.gz -C /home/docker
@@ -127,7 +127,7 @@ tar -zxvf apache-tomcat-8.5.32.tar.gz -C /home/docker
 mv /home/docker/apache-tomcat-8.5.32.tar.gz /home/docker/tomcat-8080
 ```
 ## 删掉jdk文件夹下多余文件, 降低build的镜像大小
-```shell
+```bash
 rm -rf /data/docker/jdk1.7.0_80/*src.zip \
     /data/docker/jdk1.7.0_80/lib/missioncontrol \
     /data/docker/jdk1.7.0_80/lib/visualvm \
@@ -151,11 +151,11 @@ rm -rf /data/docker/jdk1.7.0_80/*src.zip \
 ```
 
 ## 进入/home/docker文件夹并创建Dockerfile文件
-```shell
+```bash
 cd /home/docker && vi Dockerfile
 ```
 ## 插入以下内容
-```shell
+```bash
 #使用的基础镜像
 FROM centos
 #作者信息
@@ -184,7 +184,7 @@ EXPOSE 8090
 CMD ["/data/java/tomcat-8080/bin/catalina.sh","run"]
 ```
 ## 开始构建docker镜像文件
-```shell
+```bash
 docker build -t repos_local/centos-jdk7-tomcat85:0.0.1 .
 ```
 ```diff
@@ -192,11 +192,11 @@ docker build -t repos_local/centos-jdk7-tomcat85:0.0.1 .
 + . 表示使用当前目录下的Dockerfile文件
 ```
 ## 查看镜像是否创建成功
-```shell
+```bash
 docker images
 ```
 ## 启动centos-jdk7-tomcat85容器
-```shell
+```bash
 docker run -d -p 8081:8080 --name tomcat-8080 repos_local/centos-jdk7-tomcat85:0.0.1
 ```
 ```diff
@@ -205,7 +205,7 @@ docker run -d -p 8081:8080 --name tomcat-8080 repos_local/centos-jdk7-tomcat85:0
 + --name 容器名称, 可以通过容器名称对容器操作
 ```
 ## centos7下可以直接使用firewall-cmd来开放端口
-```shell
+```bash
 #开放8081端口  permanent为永久开放
 firewall-cmd --zone=public --add-port=8081/tcp --permanent
 #重新读取配置
@@ -215,32 +215,32 @@ firewall-cmd --list-all
 #如果提示FirewallD is not running执行systemctl start firewalld.service, 启动firewalld服务
 ```
 ## 查看docker运行状态
-```shell
+```bash
 docker ps
 ```
 
 ## 运行Tomcat
-```shell
+```bash
 docker start tomcat-8080
 ```
 ## 停止Tomcat
-```shell
+```bash
 docker stop tomcat-8080
 ```
 
 ## 强制删除一个运行中的容器
-```shell
+```bash
 docker rm -f tomcat-8080
 #docker rm 命令删除一个Exited状态的容器, docker rm -f 强制删除一个运行中的容器
 ```
 ## 停止所有的container，这样才能够删除其中的images：
-```shell
+```bash
 docker stop $(docker ps -a -q)
 #如果想要删除所有container的话再加一个指令：
 docker rm $(docker ps -a -q)
 ```
 ## 删除images，通过image的id来指定删除谁
-```shell
+```bash
 docker rmi <image id>
 #想要删除untagged images，也就是那些id为<None>的image的话可以用
 docker rmi $(docker images | grep "^<none>" | awk "{print $3}")

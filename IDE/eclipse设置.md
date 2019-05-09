@@ -26,7 +26,7 @@
 # 调整Eclipse运行内存
 #### 在eclipse的安装目录下用EditPlus编辑eclipse.ini文件，将其中的参数改成： 
 [JVM参数设置](/JAVA/Tomcat优化.md#四)
-```shell
+```bash
 # JDK8以下
 -Xms128M -Xmx512M -XX:PermSize=64M -XX:MaxPermSize=128M
 # JDK8

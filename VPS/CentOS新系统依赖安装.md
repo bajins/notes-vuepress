@@ -5,12 +5,12 @@
 
 ## 卸载软件
 ### RPM安装
-```shell
+```bash
 rpm -qa | grep 软件名称
 rpm -e --nodeps 列出的软件全名
 ```
 ### yum安装
-```shell
+```bash
 yum remove 软件名
 ```
 
@@ -18,12 +18,12 @@ yum remove 软件名
 #### 编译时的路径如果指定了--prefix /usr/local/xxx 直接rm -rf /usr/local/xxx即可。
 #### 没指定路径，那就到源码路径执行make uninstall，如果最初的编译文件夹被删除了，还可以重新下载、编译，然后删除
 #### 如果源码被删除就查找并删除
-```shell
+```bash
 find / -name 软件名称
 ```
 ### 通过checkinstall管理编译安装过程
 #### 1、使用checkinstall编译安装
-```shell
+```bash
 ./configure
 make
 checkinstall
@@ -36,7 +36,7 @@ checkinstall
 - 调用系统安装工具来安装第2步创建的安装包：rpm -i或dpkg -i
 
 #### 2、卸载checkinstall安装的软件
-```shell
+```bash
 CentOS: rpm -e package_name
 Ubuntu: dpkg -r package_name
 ```
@@ -44,29 +44,29 @@ Ubuntu: dpkg -r package_name
 ----------------------------------------------------------------------
 
 修改时区为亚洲上海
-```shell
+```bash
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 ```
 查看系统语言
-```shell
+```bash
 #查看系统当前使用语言包
 locale
 #查看系统拥有语言包
 locale -a
 ```
 如果没有zh_CN.utf8就需要安装简体中文语言包
-```shell
+```bash
 yum -y install kde-l10n-Chinese
 #glibc-common软件包包括用于GNU libc库的常见二进制文件，以及国家语言（locale）支持。
 yum -y reinstall glibc-common
 yum -y groupinstall chinese-support
 ```
 设置中文utf8编码（临时）：
-```shell
+```bash
 export LANG=zh_CN.utf8
 ```
 方法（一）修改vi /etc/locale.conf文件内容为（长久）：
-```shell
+```bash
 LANG="zh_CN.utf8"
 LANGUAGE="zh_CN.UTF-8:zh_CN.utf8:zh_CN"
 SUPPORTED="zh_CN.utf8:zh_CN:zh:en_US.utf8:en_US:en"
@@ -74,23 +74,23 @@ SYSFONT="lat0-sun16"
 ```
 
 方法（二）（长久）:
-```shell
+```bash
 localectl  set-locale LANG=zh_CN.utf8
 ```
 设置vi显示行号,编辑以下两个文件：
-```shell
+```bash
 vi /etc/vimrc
 vi /etc/virc
 ```
 在开头或者末尾添加：
-```shell
+```bash
 set number
 ```
 
 vi /etc/motd这个文件，可以在里面加入自己喜欢的任何欢迎信息，这段信息将会在登录成功后显示！
 
 简单的修改下配置文件可以做到每次登陆服务器自动显示磁盘情况：
-```shell
+```bash
 #为每一个运行bash shell的用户执行此文件.当bash shell被打开时,该文件被读取（即每次新开一个终端，都会执行bashrc）。
 #只要在同一个shell界面，不管多少用户登录都只执行一次
 vi /etc/profile
@@ -108,7 +108,7 @@ vi /root/.bashrc
 #/etc/profile中设定的变量(全局)的可以作用于任何用户,/.bashrc设定的变量(局部)只能继承/etc/profile中的变量,他们是”父子”关系
 ```
 输入shift+g也就是大写的G跳转到末尾添加以下内容：
-```shell
+```bash
 echo '=========================================================='
 #查询系统版本
 cat /etc/redhat-release
@@ -130,7 +130,7 @@ cd /home
 *****************************************************************
 
 # yum 的安装方式
-```shell
+```bash
 yum -y install 包名（支持*） ：自动选择y，全自动
 
 yum install 包名（支持*） ：手动选择y or n
@@ -238,7 +238,7 @@ yum install -y which gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-dev
 
 
 Linux下的命令行工具，我们经常会看到一些终端工具有一个字符Logo,这些Logo可以通过Figlet生成：
-```shell
+```bash
 yum install -y figlet
 ```
 ```diff
@@ -251,7 +251,7 @@ figlet -c -p < testfile
 watch -n1 "date '+%D%n%T' |figlet -k"
 ```
 这个工具提供了 n 种样式，例如各种动物等，然后你输入的字符就放在这些图案的内部空白处。
-```shell
+```bash
 yum -y install boxes
 ```
 使用boxes -l列出所有的样式。

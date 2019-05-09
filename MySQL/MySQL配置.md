@@ -2,12 +2,12 @@
 
 # 配置my.cnf
 从5.7.17后mysql就没有默认的my_default.cnf文件，需要手动创建
-```shell
+```bash
 vi /etc/my.cnf
 ```
 
 按i后输入以下内容:
-```shell
+```bash
 [mysqld]
 # sql_mode = NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES 
 
@@ -86,7 +86,7 @@ open-files-limit = 8192
 ```
 
 ## yum安装配置
-```shell
+```bash
 [client]
 #password   = your_password
 port        = 3306
@@ -207,7 +207,7 @@ interactive-timeout
 
 
 ## 宝塔面板安装配置
-```shell
+```bash
 [client]
 #password   = your_password
 port        = 3306

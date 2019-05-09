@@ -24,11 +24,11 @@ sidebar: auto
 # 使用命令
 ## 把空文件夹提交到仓库
 > 这个只能说是技巧不能说是方法，原理是在每个空文件夹新建一个.gitignore文件
-```shell
+```bash
 find . -type d -empty -exec touch {}/.gitignore \;
 ```
 ## 更换项目地址
-```shell
+```bash
 # 查看当前的远程地址
 git remote -v   
 # 删除当前的远程地址
@@ -45,14 +45,14 @@ git push --set-upstream origin branchname
 ```
 ## 未push之前更改提交的注释
 > 如果提交了代码到本地，还没push，发现同步时提交的变更内容的注释填写有误。
-```shell
+```bash
 # 查看提交文件，里面包含注释和变更内容
 git commit --amend
 # 按v进入编辑模式，更改完成后按esc然后输入:qw! 保存
 ```
 ## 强制push本地仓库到远程
 > 这种情况不会进行merge, 强制push后远程文件可能会丢失,不建议使用此方法
-```shell
+```bash
 git push -u origin master -f
 ```
 ## pull强制覆盖本地文件
@@ -60,21 +60,21 @@ git push -u origin master -f
 > 如果您有任何未被Git跟踪的文件(例如上传的用户内容)，这些文件将不会受到影响。
 
 ### 在重置之前可以通过从master创建一个分支来维护当前的本地提交
-```shell
+```bash
 git checkout master
 git branch new-branch
 ```
 > 在此之后，所有旧的提交都将保存在`new-branch`中。然而，没有提交的更改(即使staged)将会丢失。确保存储和提交任何你需要的东西。
 
 ### 执行重置
-```shell
+```bash
 # 从远程下载最新的，而不尝试合并或rebase任何东西
 git fetch --all
 # reset将主分支重置为您刚刚获取的内容。 --hard选项更改工作树中的所有文件以匹配origin/<branch_name>中的文件
 git reset --hard origin/<branch_name>
 ```
 ## 清除用户名密码
-```shell
+```bash
 git config --system --unset credential.helper
 ```
 
@@ -144,18 +144,18 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 ### 解决方式
 #### 第一种：进行push前先将远程仓库pull到本地仓库
-```shell
+```bash
 # git pull --rebase origin master
 git pull origin master
 git push -u origin master
 
 ```
 #### 第二种：强制push本地仓库到远程
-```shell
+```bash
 git push -u origin master -f
 ```
 #### 第三种：避开解决冲突, 将本地文件暂时提交到远程新建的分支中
-```shell
+```bash
 git branch [name]
 # 创建完branch后, 再进行push
 git push -u origin [name] 
@@ -163,7 +163,7 @@ git push -u origin [name]
 
 ## 远端与本地代码冲突
 ### 1、先将本地修改存储起来
-```shell
+```bash
 # 暂存修改,这样本地的所有修改就都被暂时存储起来
 git stash
 # 看到保存的信息,其中stash@{0}就是刚才保存的标记。
@@ -171,7 +171,7 @@ git stash list
 ```
 ### 2、暂存了本地修改之后，pull内容
 ### 3、还原暂存的内容
-```shell
+```bash
 git stash popstash@{0}
 ```
 ### 系统提示如下类似的信息：

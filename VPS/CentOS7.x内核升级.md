@@ -38,7 +38,7 @@ cat /etc/redhat-release
 uname -sr
 
 运行yum命令升级,CentOS中update命令可以一次性更新所有软件(包括系统版本)到最新版本。
-```shell
+```bash
 # 先清除所有
 yum clean all
 # 再升级
@@ -61,7 +61,7 @@ yum --disablerepo="*" --enablerepo="elrepo-kernel" list available
 yum --enablerepo=elrepo-kernel install kernel-ml
 ```
 或者以下命令安装最新的主线稳定内核
-```shell
+```bash
 yum -y --enablerepo=elrepo-kernel install kernel-ml.x86_64 kernel-ml-devel.x86_64
 ```
 查看可用内核
@@ -86,7 +86,7 @@ reboot
 ```
 
 检查当前 CentOS 系统内核版本
-```shell
+```bash
 uname -sr
 ```
 
@@ -176,7 +176,7 @@ yum --enablerepo=elrepo-kernel -y install kernel-ml-headers
 yum -y install kernel-ml kernel-ml-devel
 ```
 #### 如果你还手动安装了新版内核 headers ，那么还需要以下命令来升级 headers ：
-```shell
+```bash
 yum -y install kernel-ml-headers
 ```
 #### CentOS 6 的话，执行命令：

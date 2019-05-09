@@ -41,7 +41,7 @@
 ### 参考
 #### 根据JDK8-4G内存-4核生成的jvm参数，打印了gc各个阶段的日志
 ##### 看看ygc 的回收时间及 时间，已及old区大小，最后看FGC
-```shell
+```bash
 export JAVA_OPTS="
 -server
 -Xmx2688M
@@ -100,7 +100,7 @@ vmid: 虚拟机进程号，即当前运行的java进程号
 interval: 间隔时间，单位为秒或毫秒
 count: 打印次数，如果缺省则打印无数次
 ```
-```shell
+```bash
 # 每2秒输出一次内存情况，连续输出100次
 jstat -gcutil <pid> 2000 100
 jstat -gcutil $(pgrep java) 2000 100
@@ -113,7 +113,7 @@ jstat -gc $(pgrep java)
 jstack -l $(pgrep java)  >> dump.log
 ```
 ### 观察jvm中当前所有线程的运行情况和线程当前状态
-```shell
+```bash
 jstack -F 进程ID
 jstack -F $(pgrep java)
 
@@ -122,7 +122,7 @@ jstack -F 进程ID > jvm.log
 jstack -F $(pgrep java) > jvm.log
 ```
 ## other
-```shell
+```bash
 # 查看本机所有java进程pid
 jps -l
 
@@ -147,7 +147,7 @@ jmap -finalizerinfo $(pgrep java)
 # 生成Dump文件
 ## JVM在遇到OOM(OutOfMemoryError)时生成Dump文件
 ### 命令：
-```shell
+```bash
 jmap -dump:live,format=b,file=d:\dump\heap.hprof <pid>
 ```
 ```diff
@@ -161,7 +161,7 @@ dump文件可以通过MemoryAnalyzer(MAT)分析查看,可以查看dump时对象�
 ## jvisualvm
 
 ### 在jvm启动参数中加入或在Tomcat的/bin/catalina.sh文件中加入
-```shell
+```bash
 -Djava.rmi.server.hostname=主机的IP
 -Dcom.sun.management.jmxremote.port=18999
 -Dcom.sun.management.jmxremote.ssl=false
@@ -179,11 +179,11 @@ https://blog.csdn.net/u010004317/article/details/82948040
 
 ### 解决Visual GC提示”不受此JVM支持“，要监控的主机没有配置jstatd
 #### 先查看jstatd服务是否可用
-```shell
+```bash
 jps -l 127.0.0.1
 ```
 #### 一、在原有配置文件java.policy中添加
-```shell
+```bash
 vi $JAVA_HOME/jre/lib/security/java.policy
 ```
 ##### 在文件末位的 }; 前添加
@@ -191,12 +191,12 @@ vi $JAVA_HOME/jre/lib/security/java.policy
 permission java.security.AllPermission;
 ```
 ##### 启动jstatd
-```shell
+```bash
 cd $JAVA_HOME/bin
 ./jstatd -J-Djava.security.policy=all.policy -J-Djava.rmi.server.hostname=主机的IP -p 1099 &
 ```
 ##### 查看运行端口情况
-```shell
+```bash
 netstat -anp | grep jstatd
 netstat -ntlp
 lsof -i:1099
@@ -214,11 +214,11 @@ grant codebase "file:${java.home}/../lib/tools.jar" {
 };
 ```
 ##### 给文件加上执行权限
-```shell
+```bash
 chmod +x jstatd.all.policy
 ```
 ##### 在Java的bin目录下用以下命令启动
-```shell
+```bash
 ./jstatd -J-Djava.security.policy=jstatd.all.policy -J-Djava.rmi.server.hostname=主机的IP -p 1099 -J-Djava.rmi.server.logCalls=true &
 ```
 ```diff

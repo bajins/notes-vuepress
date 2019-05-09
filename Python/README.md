@@ -8,7 +8,7 @@ pip3 install --ignore-installed 模块名
 ```
 
 # 更新pip
-```shell
+```bash
 python -m pip install --upgrade pip
 pip install --upgrade setuptools
 pip install --user numpy scipy matplotlib jupyter pandas sympy nose
@@ -27,7 +27,7 @@ pip install --user numpy scipy matplotlib jupyter pandas sympy nose
 ```
 ## 临时使用
 #### 可以在使用pip的时候加参数-i https://pypi.tuna.tsinghua.edu.cn/simple
-```shell
+```bash
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple requests
 # 使用豆瓣镜像源安装pandas
 # --trusted-host pypi.douban.com 在不是HTTPS的时候加上使用
@@ -39,11 +39,11 @@ pip install seaborn scipy  -i http://pypi.douban.com/simple --trusted-host pypi.
 
 ## 永久修改
 ### Linux环境(Mac环境)
-```shell
+```bash
 vi ~/.pip/pip.conf 
 ```
 #### 添加或者修改
-```shell
+```bash
 [global]
 index-url = http://mirrors.aliyun.com/pypi/simple/
 [install]
@@ -51,11 +51,11 @@ trusted-host=mirrors.aliyun.com
 ```
 ### windows环境
 #### 在资源管理器输入`%APPDATA%`如果没有pip文件夹，那么就直接在user目录中创建一个pip目录:
-```shell
+```bash
 C:\Users\xx\pip\pip.ini
 ```
 #### 加入
-```shell
+```bash
 [global]
 index-url = http://mirrors.aliyun.com/pypi/simple/
 [install]

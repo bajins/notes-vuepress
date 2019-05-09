@@ -110,7 +110,7 @@ systemctl restart mysqld
 
 #### 查看mysql下root账号的默认密码
 ##### mysql5.7安装完成之后，在/var/log/mysqld.log文件中给root生成了一个默认密码。通过下面的方式找到root默认密码，然后登录mysql。
-```shell
+```bash
 grep 'temporary password' /var/log/mysqld.log
 ```
 ##### 其中root@localhost:后面部分就是默认密码
@@ -132,7 +132,7 @@ set global validate_password_length=自己想要的密码长度;
 ALTER USER 'root'@'localhost' IDENTIFIED BY '新密码';
 ```
 #### 最后，刷新MySQL的权限相关表：
-```shell
+```bash
 FLUSH PRIVILEGES;
 ```
 
@@ -140,17 +140,17 @@ FLUSH PRIVILEGES;
 ### 修改配置修改密码：
 
 #### 1、修改/etc/my.cnf，在 [mysqld] 小节下添加一行,修改密码完成后需要删除此行：
-```shell
+```bash
 skip-grant-tables=1
 ```
 ##### 这一行配置让 mysqld 启动时不对密码进行验证
 
 #### 2、重启mysqld 服务：
-```shell
+```bash
 systemctl restart mysqld
 ```
 #### 3、使用 root 用户登录到 
-```shell
+```bash
 mysql -uroot
 ```
 #### 4、切换到mysql数据库，更新 user 表：

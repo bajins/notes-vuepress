@@ -17,7 +17,7 @@ ESLint
 ## 格式化代码
 ### autopep8
 #### 用pip安装
-```shell
+```bash
 pip install autopep8
 ```
 #### 在设置中加入
@@ -28,7 +28,7 @@ pip install autopep8
 ## 检查代码错误
 ### pep8
 #### 用pip安装
-```shell
+```bash
 pip install pep8
 ```
 #### 在设置中加入
@@ -39,7 +39,7 @@ pip install pep8
 
 ### pylint
 #### 用pip安装
-```shell
+```bash
 pip install pylint
 ```
 #### 在设置中加入
@@ -50,7 +50,7 @@ pip install pylint
 
 ### flake8
 #### 用pip安装
-```shell
+```bash
 pip install flake8
 ```
 #### 在设置中加入

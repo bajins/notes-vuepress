@@ -2,7 +2,7 @@
 
 ## 配置主服务器
 ### 在[mysqld]节点下按需添加
-```shell
+```bash
 [mysqld]
 # 设置server_id，一般设置为IP,注意要唯一
 server_id=100

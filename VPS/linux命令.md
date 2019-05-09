@@ -19,12 +19,12 @@
 ************************************************************
 # 系统操作
 ## 查看邮箱
-```shell
+```bash
 cat /var/spool/mail/root
 ```
 
 ## 用以下命令清理内存
-```shell
+```bash
 #获取到的内存配置信息若为0的话，则表示开启了缓存机制
 cat /proc/sys/vm/drop_caches
 
@@ -54,11 +54,11 @@ yum clean metadata
 ### [各种Shell脚本](./script)
 ### [各种Python脚本](/Python/Script)
 ### 通过Linux终端（Terminal）编辑crontab文件.
-```shell
+```bash
 crontab -e
 ```
 ### 输入定时任务命令.
-```shell
+```bash
 # 每分钟输出一次当前时间
 * * * * * echo `date` >> /log.log
 # 每天凌晨1点30分执行清理内存脚本，并且输出到日志
@@ -83,7 +83,7 @@ crontab -e
 # 文件和文件夹操作
 
 ## 服务器之间传输文件
-```shell
+```bash
 #首先进入需要搭建web服务器的目录，然后在输入下面的命令
 #注意：不填端口号则默认使用8000端口。
 #linux
@@ -119,7 +119,7 @@ wget host:port/file 就可以下载了
 -P port  注意是大写的P, port是指定数据传输用到的端口号  
 -S program  指定加密传输时所使用的程序。此程序必须能够理解ssh(1)的选项。
 ```
-```shell
+```bash
 scp [参数] <源地址（用户名@IP地址或主机名）>:<文件路径> <目的地址（用户名 @IP 地址或主机名）>:<文件路径> 
 举例： 
 # 把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
@@ -146,7 +146,7 @@ scp -P -p 192.168.214.187:/tmp/demo/f3.log /tmp/files/
 #### 【优点】功能强大，操作类似scp，支持排除目录，支持限速参数；还支持本地复制。 
 #### 【缺点】会耗系统资源，占用I/O
 #### 【用法】rsync是类unix系统下的数据镜像备份工具，从软件的命名上就可以看出来了——remote sync。它的操作方式和scp和相似，但是比scp强大很多。使用双冒号分割主机名和文件路径时，是使用rsync服务器
-```shell
+```bash
 #把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
 rsync /home/work/source.txt work@192.168.0.10:/home/work/
 
@@ -170,7 +170,7 @@ rsync -r -v --exclude sourcedir/notinclude /home/work/sourcedir work@www.myhost.
 ```
 
 ## 查找大文件
-```shell
+```bash
 #查找从根目录下查找大于100M的文件，并显示文件的具体大小再进行排序
 find / -type f -size +100M -print0 | xargs -0 du -h | sort -nr
 
@@ -205,7 +205,7 @@ find . | xargs grep -ril 'content'
 ```
 
 ## 创建目录
-```shell
+```bash
 #在当前目录下创建名为yunkus.com的目录
 mkdir yunkus.com
 #在指定目录下创建名为yunkus.com的目录（使用绝对路径）,比如在 /home/var/ 下创建目录
@@ -216,14 +216,14 @@ mkdir test1 test2 test3
 mkdir /home/var/test1 test2 test3
 ```
 ### 创建多级目录
-```shell
+```bash
 #在当前创建目录及其子目录
 mkdir -p yunkus/test
 #在指定目录下创 yunkus目录及其子目录
 mkdir -p /home/var/yunkus/test
 ```
 ## 创建文件
-```shell
+```bash
 # 在当前目录创建 test.txt 文件
 touch test.txt
 # 创建多个文件
@@ -243,7 +243,7 @@ touch -t 201703031558.28 test.txt
 ```
 ## 删除文件及文件夹
 #### rm 命令可以用于删除文件及文件夹，可以同时一个或者多个文件/文件夹，而对于链接文件，只删除链接，不影响原文件。
-```shell
+```bash
 # 删除文件
 rm test.txt
 # 删除目录（不带 -r 可能会无法删除目录），通常会提示
@@ -282,7 +282,7 @@ xargs：读取 stdin, 把格式化的数据传递给命令(用于不支持 “|�
 
 
 ## mv命令对文件的更改可以有重命名，移动等操作，下面是几个简单的例子。
-```shell
+```bash
 # 将目录 test1 改为 test2
 mv test1 test2
 # 将/test1目录移动到 /home/ 下，并重命名为test2
@@ -292,7 +292,7 @@ touch test1 test2
 rename test1 test2 test1
 ```
 ## 文件查找的命令主要有 find 和 grep。find 用于查找文件，grep 用于查找文件内容的行
-```shell
+```bash
 #查看某个文件，注意权限问题
 find -name test
 #查看录前目录下文件名中含有字符串 yun 的文件，*为通配符，可以按需要使用
@@ -308,30 +308,30 @@ find 文件路径 -type f -newermt '起始时间' -a -not -newermt '结束时间
 ```
 ## 文件和文件夹权限操作
 ### 文件查看
-```shell
+```bash
 # 查看所有文件（包括隐藏文件）并以最大容量单位显示
 ll -a -h 文件名
 ```
 ### 显示当前文件夹大小
-```shell
+```bash
 du -sh
 ```
 ### 查看当前路径
-```shell
+```bash
 pwd
 ```
 
 ### 一次性更改权限就使用-R,文件修改为所有用户可读可写可执行，也就是对应编号为777
-```shell
+```bash
 chmod -R 777 文件名
 ```
 ### 使用命令chown改变目录或文件的所有权,更改所有者和所属组chown(change owner缩写）
-```shell
+```bash
 chown:用户名 文件名
 ```
 
 简化操作
-```shell
+```bash
 cd ~     #进行当前用户的家目录
 cd 
 
@@ -344,11 +344,11 @@ cd . #进入当前目录
 
 ## 压缩
 ### 打包的时候我们要排除 tomcat/logs 目录，命令如下：
-```shell
+```bash
 tar -zcvf tomcat.tar.gz --exclude=tomcat/logs tomcat
 ```
 ### 如果要排除多个目录，增加 --exclude 即可，如下命令排除logs和libs两个目录及文件xiaoshan.txt：
-```shell
+```bash
 tar -zcvf tomcat.tar.gz --exclude=tomcat/logs --exclude=tomcat/libs --exclude=tomcat/xiaoshan.txt tomcat
 ```
 ```diff
@@ -611,14 +611,14 @@ rpm -qa | wc -l
 cat /sys/class/net/eth0/mtu
 ```
 ### 更改MTU值（临时）
-```shell
+```bash
 echo "1476" > /sys/class/net/eth0/mtu
 # 或者
 # ifconfig 网口名 mtu 数值
 ifconfig eth0 mtu 1476
 ```
 ### 更改MTU值（永久）
-```shell
+```bash
 vi /etc/sysconfig/network-scripts/ifcfg-eth0
 # 在DEVICE=eth0下面加入
 MTU=1476
@@ -626,7 +626,7 @@ MTU=1476
 IPV6_MTU="1280"
 ```
 ### 重启网络接口
-```shell
+```bash
 service network restart
 ```
 

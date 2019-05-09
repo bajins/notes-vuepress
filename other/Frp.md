@@ -4,7 +4,7 @@
 
 ### https://github.com/clangcn/onekey-install-shell
 #### [获取最新版本frp](https://api.github.com/repos/fatedier/frp/releases/latest)
-```shell
+```bash
 # 安装
 wget --no-check-certificate https://raw.githubusercontent.com/clangcn/onekey-install-shell/master/frps/install-frps.sh -O ./install-frps.sh && chmod 700 ./install-frps.sh && ./install-frps.sh install
 # 升级
@@ -78,7 +78,7 @@ Please input frps log_max_days [1-30](Default log_max_days: 3 day):
 ```
 
 ## 管理命令
-```shell
+```bash
 /etc/init.d/frps start
 /etc/init.d/frps stop
 /etc/init.d/frps restart
@@ -102,7 +102,7 @@ local_port = 本地Tomcat端口
 custom_domains = 域名
 ```
 ## 客户端启动
-```shell
+```bash
 # 进入在客户端文件夹下启动cmd窗口，再执行以下命令
 # 简单配置
 frpc -c frpc.ini

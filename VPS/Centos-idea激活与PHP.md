@@ -3,7 +3,7 @@
 本机以centOS为例：
 
 安装依赖，一条命令行全部都可以搞定：
-```shell
+```bash
 yum install -y gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-devel lrzsz lrzsz-devel p7zip p7zip-devel net-tools net-tools-devel vim vim-devel libaio libaio-devel unzip zip
 ```
 ----------------------------------------------------------------------------------------------------------------------
@@ -16,7 +16,7 @@ ll
 
 
 接下来 需要把它运行起来，先加一个可执行权限：
-```shell
+```bash
 chmod +x ideaServer64
 ```
 
@@ -73,7 +73,7 @@ vi /usr/local/nginx/nginx.conf
 ```
 按Esc按键，再输入:wq保存并关闭。
 重启nginx：
-```shell
+```bash
 /usr/local/nginx/nginx -s reload
 ```
 ----------------------------------------------------------------------------------------------------------------------
@@ -81,7 +81,7 @@ vi /usr/local/nginx/nginx.conf
 源码编译安装，继续往下看有更简单的方式！！！（yum安装）
 Nginx 一般有两个版本，分别是稳定版和开发版，您可以根据您的目的来选择这两个版本的其中一个，
 下面是把 Nginx 安装到 /usr/local/nginx 目录下的详细步骤：
-```shell
+```bash
 cd /usr/local/src
 wget http://nginx.org/download/nginx-1.13.8.tar.gz
 tar -zxvf nginx-1.13.8.tar.gz
@@ -110,33 +110,33 @@ koi-utf                 nginx.conf          win-utf
 
 6.启动
 确保系统的 80 端口没被其他程序占用，运行命令来启动Nginx：
-```shell
+```bash
 /usr/local/nginx/nginx
 ```
 
 查看占用端口：
-```shell
+```bash
 netstat -ano|grep 80
 ```
 
 如果出现：-bash: netstat: command not found
 可能是CentOS 7的最小化安装少了一些工具,比如 ifconfig 及 netstat
-```shell
+```bash
 yum install net-tools
 ```
 -----------------------------------------------------------------------
 
 或者用yum安装：
 下载并安装nginx
-```shell
+```bash
 yum install -y nginx
 ```
 刚安装的Nginx不会自行启动。运行Nginx:
-```shell
+```bash
 sudo systemctl start nginx.service
 ```
 CentOS 7 开机启动Nginx：
-```shell
+```bash
 sudo systemctl enable nginx.service
 ```
 网站文件存放默认目录：
@@ -159,11 +159,11 @@ Nginx全局配置：
 启动直接输入nginx
 
 关闭nginx进程,强制停止Nginx:
-```shell
+```bash
 pkill -9 nginx
 ```
 其他的停止nginx 方式： 
-```shell
+```bash
 ps -ef | grep nginx
 #主进程号 >>>>从容停止Nginx 
 kill -QUIT
@@ -185,7 +185,7 @@ ssh遇到port 22:No route to host问题的解决方法
 启动Nginx出现这个错误：
 nginx: [error] open() "/usr/local/var/run/nginx.pid" failed (2: No such file or directory)
 解决方法：找到你的nginx.conf的文件夹目录，然后运行这个命令：
-```shell
+```bash
 nginx -c /etc/nginx/nginx.conf
 ```
 再重启就可以了。
@@ -195,7 +195,7 @@ Linux每个应用运行都会产生一个进程，那么我们就可以通过查
 如： ps -ef | grep nginx 就可以看到Nginx进程是否存在了。
 
 第二种方法：直接查看进程id
-```shell
+```bash
 ps -C nginx -o pid
 ```
 第三种方法：使用netstat命令
@@ -207,21 +207,21 @@ lsof -i:80 也可以查到80端口进程是否有进程在运行。
 -----------------------------------------------------------------------------------------
 
 rpm 安装 Php7 相应的 yum源：
-```shell
+```bash
 rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 ```
 安装php7.0：
-```shell
+```bash
 yum install -y php70w
 ```
 安装php扩展：
-```shell
+```bash
 yum install -y php70w-mysql.x86_64 php70w-gd.x86_64 php70w-ldap.x86_64 php70w-mbstring.x86_64 php70w-mcrypt.x86_64
 yum -y install libxml2 libxml2-devel openssl openssl-devel bzip2 bzip2-devel libcurl libcurl-devel libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel gmp gmp-devel libmcrypt libmcrypt-devel readline readline-devel libxslt libxslt-devel
 ```
 安装PHP FPM：
-```shell
+```bash
 yum install -y php70w-fpm php70w-opcache
 ```
 验证安装

@@ -13,7 +13,7 @@ features:
 footer: MIT Licensed | Copyright © 2019 Bajins
 ---
 
-## 可快速基于本仓库创建你自己的文档网站
+## 基于本仓库可快速创建你自己的文档网站
 
 ### 先看看本仓库目录结构
 

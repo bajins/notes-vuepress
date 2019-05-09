@@ -145,7 +145,7 @@ enableLookups="false" redirectPort="8443" protocol="AJP/1.3" />
 ###### 3
 # tomcat8以上管理页面提示403 Access Denied问题
 ## 修改conf/tomcat-users.xml
-```shell
+```bash
 vi conf/tomcat-users.xml
 ```
 ### 按shift+g跳到末尾,在</tomcat-users>前添加
@@ -158,7 +158,7 @@ vi conf/tomcat-users.xml
 ```
 
 ### 打开webapps下的host-manager和manager，在META-INF里面都有context.xml
-```shell
+```bash
 vi webapps/manager/META-INF/context.xml
 vi webapps/host-manager/META-INF/context.xml
 ```
