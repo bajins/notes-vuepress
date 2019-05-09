@@ -1,3 +1,5 @@
+# windows环境变量
+
 JAVA_HOME
 C:\Program Files\Java\jre1.8.0_171
 

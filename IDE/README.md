@@ -1,3 +1,5 @@
+# IDE
+
 # IntelliJ IDEA
 [idea设置](idea%E8%AE%BE%E7%BD%AE.md)
 

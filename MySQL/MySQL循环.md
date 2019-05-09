@@ -1,3 +1,5 @@
+# MySQL循环
+
 # 目录
 * [一、while循环](#一while循环)
 * [二、repeat循环](#二repeat循环)

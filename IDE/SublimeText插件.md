@@ -1,3 +1,6 @@
+# SublimeText插件
+
+
 ## ChineseLocaization
 ### 很简单的一个插件，现在支持汉化Sublime Text2，Sublime Text3。
 ![](https://i.rexdf.org/images/sublime_chinese.gif)

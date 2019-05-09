@@ -1,3 +1,5 @@
+# CentOS7安装mysql
+
 ## [MySQL配置](/MySQL/MySQL配置.md)
 ## yum按装MySQL
 ### 这里参考了[海月博客](https://blog.imzhengfei.com/centos-7-an-zhuang-pei-zhi-mysql/)

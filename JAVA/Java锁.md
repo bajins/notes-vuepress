@@ -1,3 +1,6 @@
+# Java锁
+
+
 # synchronized
 
 #### synchronized(this)以及非static的synchronized方法，只能防止多个线程同时执行同一个对象的同步代码段。

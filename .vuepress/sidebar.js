@@ -91,7 +91,6 @@ module.exports = {
                 'linux命令',
                 'xshell',
                 '宝塔面板',
-                '构建Docker镜像',
                 '测试脚本',
                 '路由跟踪',
             ]
@@ -107,7 +106,8 @@ module.exports = {
             title: 'Docker',
             // path: '/VPS/Docker/', // 可选的, 应该是一个绝对路径，访问url路径
             children: [
-                '/VPS/Docker/'
+                '/VPS/Docker/',
+                '/VPS/Docker/构建Docker镜像',
             ]
         }
     ],
@@ -136,7 +136,6 @@ module.exports = {
         'Frp',
         'PC-software',
         'bat脚本使用',
-        'other',
         '小说',
     ],
 

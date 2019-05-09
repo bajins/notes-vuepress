@@ -1,3 +1,5 @@
+# Hibernate
+
 # 目录
 * [hibernate的使用](#hibernate的使用)
   * [返回结果接收方式](#返回结果接收方式)

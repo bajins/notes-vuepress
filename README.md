@@ -2,7 +2,7 @@
 home: true
 //heroImage: /hero.png
 actionText: 快速上手 →
-actionLink: VuePress
+actionLink: /WEB/JavaScript/
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
@@ -13,7 +13,7 @@ features:
 footer: MIT Licensed | Copyright © 2019 Bajins
 ---
 
-## 可快速基于本仓库创建你自己的笔记仓库
+## 可快速基于本仓库创建你自己的文档网站
 
 ### 先看看本仓库目录结构
 
@@ -24,6 +24,8 @@ footer: MIT Licensed | Copyright © 2019 Bajins
 ├─ docs/            // 编译后存放静态文件的目录，GitHub Pages指向此目录
 ├─ .vuepress/       // 用于存放全局的配置、组件、静态资源等。
 │  ├─ public/       // 静态资源目录。
+│     ├─ icons/     // 存放图标目录
+│     ├─ images/    // 存放所有文档的图片目录
 │  ├─ config.js     // 配置文件的入口文件。
 │  ├─ nav.js        // 导航栏 配置文件
 │  └─ sidebar.js    // 侧边栏 配置文件

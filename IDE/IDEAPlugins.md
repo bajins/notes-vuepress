@@ -1,3 +1,5 @@
+# IDEA插件
+
 ## [Free Mybatis plugin](https://github.com/wuzhizhan/free-idea-mybatis)
 
 ## [mybatis-plus](https://github.com/mustfun/mybatis-plus)

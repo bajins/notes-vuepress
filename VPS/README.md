@@ -1,4 +1,6 @@
 # VPS
+
+
 #### Centos官方已宣布在2020年停止对Centos6的维护更新，各大软件开发商也逐渐停止对Centos6的兼容，建议使用Centos7
 [宝塔面板](/VPS/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF.md)
 

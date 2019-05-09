@@ -1,3 +1,5 @@
+# Centos-idea激活与PHP
+
 本机以centOS为例：
 
 安装依赖，一条命令行全部都可以搞定：

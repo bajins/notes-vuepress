@@ -1,3 +1,6 @@
+# VPS安装jre
+
+
 第一步：下载jre
 
 我们去oracle官方下载下jre 

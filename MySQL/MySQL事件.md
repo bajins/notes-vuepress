@@ -1,5 +1,6 @@
+# MySQL事件
 
-# 事件
+
 ## 查看当前是否已开启事件调度器
 ```sql
 show variables like 'event_scheduler';

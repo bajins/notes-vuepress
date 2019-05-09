@@ -1,3 +1,5 @@
+# MySQL数据库信息
+
 ## MySQL查看数据库详细信息
 ### information_schema数据库记录每个表和数据库的详细信息，在该库中有一个TABLES表：
 

@@ -1,3 +1,5 @@
+# Java异常
+
 # Java内置异常
 ![](/images/Java内置异常.png)
 
