@@ -90,6 +90,6 @@ module.exports = ctx => ({
     ],
     markdown: {
         // 是否在每个代码块的左侧显示行号。
-        lineNumbers: true
+        lineNumbers: false
     },
 })
