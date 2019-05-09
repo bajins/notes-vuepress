@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # Markdown 编辑器推荐
 
 ## 在线版

@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # [Git服务器搭建](/VPS/Docker)
 
 # 目录
