@@ -33,13 +33,17 @@ find . -type d -empty -exec touch {}/.gitignore \;
 git remote -v   
 # 删除当前的远程地址
 git remote rm origin
+# 或者
+git remote remove origin
 # 添加远程地址
 git remote add origin [url]
 
 或者直接修改
-git remote origin set-url （此处未更新后的新地址）
+git remote set-url origin [url]（此处未更新后的新地址）
 
-# 把当前分支与远程分支进行关联(branchname要改成你的当前分支名称)
+# 将本地仓库文件push到新的远程仓库（-f代表强制）
+git push origin master -f
+# 或者把当前分支与远程分支进行关联(branchname要改成你的当前分支名称)
 git push --set-upstream origin branchname
 
 ```
