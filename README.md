@@ -20,19 +20,26 @@ footer: MIT Licensed | Copyright © 2019 Bajins
 ```
 // 官方标准目录结构 https://v1.vuepress.vuejs.org/zh/guide/directory-structure.html
 .
-├─ README.md        // 首页文档
-├─ docs/            // 编译后存放静态文件的目录，GitHub Pages指向此目录
-├─ .vuepress/       // 用于存放全局的配置、组件、静态资源等。
-│  ├─ public/       // 静态资源目录。
-│  |  ├─ icons/     // 存放图标目录
-│  |  └─ images/    // 存放所有文档的图片目录
-│  ├─ config.js     // 配置文件的入口文件。
-│  ├─ nav.js        // 导航栏 配置文件
-│  └─ sidebar.js    // 侧边栏 配置文件
-├─ .../             // 你自己的文档目录
-│  ├─ ....md
+│  package-lock.json NMP依赖配置文件
+│  package.json      项目配置文件
+│  README.md         首页md文件
+│  yarn.lock         yarn依赖配置文件
+│  
+├─.vuepress         用于存放VuePress的配置、组件、静态资源等。
+│  │  config.js     VuePress配置
+│  │  nav.js        导航栏
+│  │  sidebar.js    侧边栏
+│  │  
+│  └─public        静态资源目录
+│      │  
+│      ├─icons     存放图标目录
+│      │      
+│      └─images    存放所有文档的图片目录
+├─docs              编译后的静态资源文件输出目录
+│              
 │
-└─ package.json     // 项目全局配置
+│
+...... 其他自己的md文档或文件夹，都会打包到docs文件夹下，md文件会编译成html
 
 ```
 ### 也就是你只需要遵从以上目录结构来修改你自己的文档即可使用。
