@@ -76,6 +76,21 @@ yarn dev
 
 # 构建静态文件并上传到仓库正式使用
 yarn build
+
+# 如果是直接发布到本仓库，那么就把docs文件夹下的所有文件都push，
+# 然后再在GitHub设置中指定Source为docs文件夹
+
+# 可以部署编译后的静态文件到指定仓库
+cd /docs
+git init
+git add -A
+git commit -m 'deploy'
+
+# 如果发布到 https://<USERNAME>.github.io
+git push -f https://github.com/<USERNAME>/<USERNAME>.github.io.git master
+
+# 如果发布到 https://<USERNAME>.github.io/<REPO>
+git push -f https://github.com/<USERNAME>/<REPO>.git master:gh-pages
 ```
 
 ::: warning 注意
