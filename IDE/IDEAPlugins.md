@@ -4,7 +4,8 @@
 
 ## [mybatis-plus](https://github.com/mustfun/mybatis-plus)
 
-## [MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
+## [MyBatisCodeHelper-Pro](https://gejun123456.github.io/MyBatisCodeHelper-Pro/#/)
+[MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
 
 ## [.ignore](https://plugins.jetbrains.com/plugin/7495--ignore)
 #### 生成各种ignore文件，一键创建git ignore文件的模板，免得自己去写
