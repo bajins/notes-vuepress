@@ -1,9 +1,6 @@
 const {fs, path} = require('@vuepress/shared-utils')
 
 module.exports = {
-    '/Android/': [
-        ''
-    ],
     '/Golang/': [
         ''
     ],
@@ -16,9 +13,6 @@ module.exports = {
         'idea设置',
         'idea错误解决',
         '插件',
-    ],
-    '/IOS/': [
-        ''
     ],
     '/JAVA/': [
         {
@@ -133,6 +127,8 @@ module.exports = {
     ],
     '/other/': [
         '',
+        'Android',
+        'IOS',
         'Frp',
         'PC-software',
         'bat脚本使用',

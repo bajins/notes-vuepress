@@ -1,20 +1,12 @@
 module.exports = [
 
     {
-        text: 'Android',
-        link: '/Android/'
-    },
-    {
         text: 'Golang',
         link: '/Golang/'
     },
     {
         text: 'IDE',
         link: '/IDE/'
-    },
-    {
-        text: 'IOS',
-        link: '/IOS/'
     },
     {
         text: 'JAVA',
@@ -74,6 +66,10 @@ module.exports = [
     {
         text: '了解更多',
         items: [
+            {
+                text: 'Vue',
+                link: 'https://cn.vuejs.org/'
+            },
             {
                 text: 'VuePress',
                 link: 'https://v1.vuepress.vuejs.org/zh'
