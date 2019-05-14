@@ -80,7 +80,7 @@ yarn build
 # 如果是直接发布到本仓库，那么就把docs文件夹下的所有文件都push，
 # 然后再在GitHub设置中指定Source为docs文件夹
 
-# 可以部署编译后的静态文件到指定仓库
+# 可以把编译后的静态文件部署到指定仓库
 cd /docs
 git init
 git add -A

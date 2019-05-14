@@ -1,8 +1,10 @@
 module.exports = ctx => ({
-    // 部署站点的基础路径，如果你想让你的网站部署到一个子路径下，你将需要设置它。
-    // 如 GitHub pages，如果你想将你的网站部署到 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/"，它的值应当总是以斜杠开始，并以斜杠结束。
-    // base 将会自动地作为前缀插入到所有以 / 开始的其他选项的链接中，所以你只需要指定一次。
-    base: '/UseNotes/',
+    // 部署站点的基础路径，如果你想让你的网站部署到一个子路径下，你将需要设置它。如 GitHub pages，
+    // 如果你想将你的网站部署到 https://woytu.github.io/UseNotes/，那么 UseNotes 应该被设置成 "/UseNotes/"，
+    // 它的值应当总是以斜杠开始，并以斜杠结束。UseNotes 将会自动地作为前缀插入到所有以 / 开始的其他选项的链接中，所以你只需要指定一次。
+    // 这里我部署到https://woytu.github.io下，因为是仓库根目录所以就直接是/，其实默认就是/，可以不用设置此值。
+    // base: '/UseNotes/',
+    base: '/',
     // 指定 VuePress build 的输出目录。如果传入的是相对路径，则会基于 process.cwd() 进行解析。
     // 与package.json中的scripts配置编译路径配合使用
     dest: './docs',
@@ -24,8 +26,8 @@ module.exports = ctx => ({
     ],
     theme: 'vuepress-theme-reco',
     themeConfig: {
-        // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
-        // 当你提供了 themeConfig.repo 选项，将会自动在每个页面的导航栏生成生成一个 GitHub 链接，以及在页面的底部生成一个 "Edit this page" 链接。
+        // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL,当你提供了 themeConfig.repo 选项，
+        // 将会自动在每个页面的导航栏生成生成一个 GitHub 链接，以及在页面的底部生成一个 "Edit this page" 链接。
         repo: 'woytu/UseNotes',
         editLinks: true,
         docsDir: '/',
