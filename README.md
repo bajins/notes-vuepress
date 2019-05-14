@@ -2,7 +2,7 @@
 home: true
 //heroImage: /hero.png
 actionText: 快速上手 →
-actionLink: /WEB/JavaScript/
+actionLink: /#命令
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
@@ -13,9 +13,13 @@ features:
 footer: MIT Licensed | Copyright © 2019 Bajins
 ---
 
-## 基于本仓库可快速创建你自己的文档网站
+# 使用
 
-### 先看看本仓库目录结构
+::: tip
+基于本仓库可快速创建你自己的文档网站
+:::
+
+## 目录结构
 
 ```
 // 官方标准目录结构 https://v1.vuepress.vuejs.org/zh/guide/directory-structure.html
@@ -44,10 +48,18 @@ footer: MIT Licensed | Copyright © 2019 Bajins
 ```
 ### 也就是你只需要遵从以上目录结构来修改你自己的文档即可使用。
 ::: warning 注意
-配置文件中的注释文字部分，请结合VuePress官方文档一定理解其意义再修改配置！
+配置文件中的注释文字部分，请结合VuePress[官方文档](https://v1.vuepress.vuejs.org/zh/config/)一定理解其意义再修改配置！
 :::
 
+## 命令
+
 ``` bash
+# 先克隆本仓库
+git clone https://github.com/woytu/UseNotes.git
+
+# 然后删除除了以下文件或文件夹以外的目录或文件：
+# .vuepress、docs、package.json、README.md、yarn.lock、package-lock.json
+
 # 使用前请自行安装Node.js环境
 # 安装yarn
 npm install -g yarn
@@ -55,10 +67,14 @@ npm install -g yarn
 # 安装项目的全部依赖
 yarn install
 
-# 开始运行开发环境
+# 这时创建并书写你自己的文档
+# 再配置.vuepress/nav.js和.vuepress/sidebar.js两个文件
+
+# 开始运行开发环境，然后访问窗口中的路径
 yarn dev
 
-# 构建静态文件
+
+# 构建静态文件并上传到仓库正式使用
 yarn build
 ```
 
