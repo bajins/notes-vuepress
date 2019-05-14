@@ -67,16 +67,39 @@ module.exports = [
         text: '了解更多',
         items: [
             {
-                text: 'Vue',
-                link: 'https://cn.vuejs.org/'
-            },
+                text: '框架',
+                items: [
+                    {
+                        text: 'Vue',
+                        link: 'https://cn.vuejs.org/'
+                    },
+                    {
+                        text: 'React',
+                        link: 'https://react.docschina.org/'
+                    },
+                    {
+                        text: 'Angular',
+                        link: 'https://www.angular.cn/'
+                    }
+                ]
+            }
+            ,
             {
-                text: 'VuePress',
-                link: 'https://v1.vuepress.vuejs.org/zh'
-            },
-            {
-                text: 'Google Hosts',
-                link: 'https://github.com/googlehosts/hosts'
+                text: '文档生成',
+                items: [
+                    {
+                        text: '静态编译VuePress',
+                        link: 'https://v1.vuepress.vuejs.org/zh'
+                    },
+                    {
+                        text: '运行时驱动docsify',
+                        link: 'https://docsify.js.org/#/zh-cn/'
+                    },
+                    {
+                        text: '运行时驱动Docute',
+                        link: 'https://docute.org/zh/'
+                    }
+                ]
             },
             {
                 text: 'Markdown',
