@@ -57,7 +57,7 @@ footer: MIT Licensed | Copyright © 2019 Bajins
 # 先克隆本仓库
 git clone https://github.com/woytu/UseNotes.git
 
-# 然后删除除了以下文件或文件夹以外的目录或文件：
+# 除了以下文件或文件夹以外的全部删除：
 # .vuepress、docs、package.json、README.md、yarn.lock、package-lock.json
 
 # 使用前请自行安装Node.js环境
