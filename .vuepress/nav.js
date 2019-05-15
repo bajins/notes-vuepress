@@ -129,7 +129,7 @@ module.exports = [
         items: [
             {
                 text: '个人主页',
-                link: 'https://bajins.com'
+                link: 'https://www.bajins.com'
             },
             {
                 text: '备份库',
@@ -137,7 +137,7 @@ module.exports = [
             },
             {
                 text: '绿色网盘',
-                link: 'https://file.woytu.com',
+                link: 'https://www.woytu.com',
             },
             {
                 text: 'GO小说',
