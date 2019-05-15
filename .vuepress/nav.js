@@ -67,7 +67,7 @@ module.exports = [
         text: '了解更多',
         items: [
             {
-                text: '框架',
+                // text: '框架',
                 items: [
                     {
                         text: 'Vue',
@@ -85,7 +85,7 @@ module.exports = [
             }
             ,
             {
-                text: '文档生成',
+                // text: '文档生成',
                 items: [
                     {
                         text: '静态编译VuePress',
@@ -102,7 +102,7 @@ module.exports = [
                 ]
             },
             {
-                text: 'Markdown',
+                // text: 'Markdown',
                 items: [
                     {
                         text: 'Markdown编辑器',
@@ -148,18 +148,18 @@ module.exports = [
                 link: 'https://woetu.com'
             },
             {
-                text: '项目',
+                // text: '项目',
                 items: [
                     {
                         text: 'Homepage',
                         link: 'https://github.com/woytu/Homepage'
                     },
                     {
-                        text: 'NSIS_SetupSkin自定义UI桌面打包',
+                        text: 'NSIS_SetupSkin',
                         link: 'https://github.com/woytu/NSIS_SetupSkin'
                     },
                     {
-                        text: 'DirectoryLister文件目录下载',
+                        text: 'DirectoryLister',
                         link: 'https://github.com/woytu/DirectoryLister'
                     },
                     {
