@@ -126,5 +126,10 @@ sc create frp内网穿透 binPath= D:\frp\frps.bat start= auto displayname= "frp
 sc create frp内网穿透 binPath= "cmd.exe /c D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini" start= auto displayname= "frp内网穿透"
 ```
 
+# VBScript
+
+## Windows启动运行
+
+> 按`win+r`打开运行窗口，输入以下命令`shell:startup`打开启动文件夹，把vbs后缀文件放入
 
 

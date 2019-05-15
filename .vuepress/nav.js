@@ -147,6 +147,31 @@ module.exports = [
                 text: 'WeChat小程序',
                 link: 'https://woetu.com'
             },
+            {
+                text: '项目',
+                items: [
+                    {
+                        text: 'Homepage',
+                        link: 'https://github.com/woytu/Homepage'
+                    },
+                    {
+                        text: 'NSIS_SetupSkin自定义UI桌面打包',
+                        link: 'https://github.com/woytu/NSIS_SetupSkin'
+                    },
+                    {
+                        text: 'DirectoryLister文件目录下载',
+                        link: 'https://github.com/woytu/DirectoryLister'
+                    },
+                    {
+                        text: 'ptcms',
+                        link: 'https://github.com/woytu/ptcms'
+                    },
+                    {
+                        text: 'ygbook',
+                        link: 'https://github.com/woytu/ygbook'
+                    },
+                ]
+            },
         ]
     }
 ]
