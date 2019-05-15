@@ -128,24 +128,29 @@ module.exports = [
         text: '个人导航',
         items: [
             {
-                text: '个人主页',
-                link: 'https://www.bajins.com'
-            },
-            {
-                text: '备份库',
-                link: 'https://git.woetu.com/clater/UseNotes'
-            },
-            {
-                text: '绿色网盘',
-                link: 'https://www.woytu.com',
-            },
-            {
-                text: 'GO小说',
-                link: 'https://book.bajins.com'
-            },
-            {
-                text: 'WeChat小程序',
-                link: 'https://woetu.com'
+                // text: '',
+                items: [
+                    {
+                        text: '个人主页',
+                        link: 'https://www.bajins.com'
+                    },
+                    {
+                        text: '备份库',
+                        link: 'https://git.woetu.com/clater/UseNotes'
+                    },
+                    {
+                        text: '绿色网盘',
+                        link: 'https://www.woytu.com',
+                    },
+                    {
+                        text: 'GO小说',
+                        link: 'https://book.bajins.com'
+                    },
+                    {
+                        text: 'WeChat小程序',
+                        link: 'https://woetu.com'
+                    }
+                ]
             },
             {
                 // text: '项目',
