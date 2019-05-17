@@ -80,12 +80,13 @@ groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s
 
 
 import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 #parse("File Header.java")
 
 public class ${NAME} {
 
-     private static final Logger logger = org.slf4j.LoggerFactory.getLogger(${NAME}.class);
+     private static final Logger logger = LoggerFactory.getLogger(${NAME}.class);
      
      
 }
