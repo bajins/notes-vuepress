@@ -127,6 +127,9 @@ mysqldump -R -E -h主机地址 -P端口 -u用户名 -p 数据库名 | gzip > /ho
 
 # 备份所有的数据库到一个sql文件
 mysqldump -R -E -h主机地址 -P端口 -u用户名 -p --all-databases > /home/all.sql
+
+# 从一个数据库导出到另一个数据库
+mysqldump -R -E -u用户名 -p 数据库名 | mysql 新数据库名 -u用户名 -p密码
 ```
 
 ### 导入
