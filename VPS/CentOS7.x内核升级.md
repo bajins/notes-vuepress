@@ -7,19 +7,18 @@
 
 ## [KVM一键安装最新内核并开启BBR](#一)
 
-[ToyoDAdoubi](https://github.com/ToyoDAdoubi/doubi)
-
 https://github.com/shadowsocks/shadowsocks-windows/releases
 
 https://github.com/shadowsocks/shadowsocks-android/releases
 
 https://github.com/v2ray/v2ray-core/releases
 
-https://www.v2ray.com/chapter_00/install.html
+https://github.com/2dust/v2rayNG/releases
+
+https://yuan.ga/v2ray-complete-tutorial/
 
 https://github.com/Jrohy/multi-v2ray
 
-http://www.vspeed.org/?vs
 
 ### 在线PAC
 https://github.com/lbp0200/mono_pac
