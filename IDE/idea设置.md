@@ -69,7 +69,7 @@ $params$
 ```java
 // 使用tab作为参数后缀间隔符
 groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i < params.size(); i++) {result+=' * @param ' + params[i]+'\\b'+ ((i < params.size() - 1) ? '\\n	' : '')}; return result", methodParameters())
-// 使用一个空格作为参数后缀间隔符
+// 使用一个空格作为参数后缀间隔符，格式化时可以自动把所有参数对齐（推荐）
 groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i < params.size(); i++) {result+=' * @param ' + params[i]+' '+ ((i < params.size() - 1) ? '\\n    ' : '')}; return result", methodParameters())
 ```
 #### `@return`参数获取代码Groovy脚本：
