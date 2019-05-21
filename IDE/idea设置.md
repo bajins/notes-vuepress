@@ -65,14 +65,14 @@ $params$
  * @date $date$ $time$
  */
 ```
-#### @param参数获取代码：
+#### `@param`参数获取代码Groovy脚本：
 ```java
 // 使用tab作为参数后缀间隔符
 groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i < params.size(); i++) {result+=' * @param ' + params[i]+'\\b'+ ((i < params.size() - 1) ? '\\n	' : '')}; return result", methodParameters())
 // 使用一个空格作为参数后缀间隔符
 groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i < params.size(); i++) {result+=' * @param ' + params[i]+' '+ ((i < params.size() - 1) ? '\\n    ' : '')}; return result", methodParameters())
 ```
-#### @return参数获取代码
+#### `@return`参数获取代码Groovy脚本：
 ```java
 // 如果有返回参数使用一个空格作为参数后缀间隔符
 groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return result+' ';}", methodReturnType())
