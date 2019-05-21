@@ -39,8 +39,10 @@
 
 ```java
 /**
+ *
+ *
  * @program ${PACKAGE_NAME}
- * @description ${NAME}
+ * @description ${NAME} 
  * @author claer bajins.com
  * @create ${YEAR}-${MONTH}-${DAY} ${HOUR}:${MINUTE}
  *
@@ -54,17 +56,28 @@
 #### Template text：
 ```java
 **
+ *
+ *
+ * @Description 
 $params$
  * @return $ruturns$
- * @Description 
  * @author claer bajins.com
  * @date $date$ $time$
  */
 ```
 #### @param参数获取代码：
 ```java
+// 使用tab作为参数后缀间隔符
 groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i < params.size(); i++) {result+=' * @param ' + params[i]+'\\b'+ ((i < params.size() - 1) ? '\\n	' : '')}; return result", methodParameters())
+// 使用一个空格作为参数后缀间隔符
+groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i < params.size(); i++) {result+=' * @param ' + params[i]+' '+ ((i < params.size() - 1) ? '\\n    ' : '')}; return result", methodParameters())
 ```
+#### @return参数获取代码
+```java
+// 如果有返回参数使用一个空格作为参数后缀间隔符
+groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return result+' ';}", methodReturnType())
+```
+
 #### 使用时，直接在方法上输入/加上你的Abbreviation名字，再按Tab键即可获取方法上的参数
 ![](/images/IDEA%E6%96%B9%E6%B3%95%E6%B3%A8%E9%87%8A%E8%AE%BE%E7%BD%AE.png)
 
