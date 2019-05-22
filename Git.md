@@ -38,7 +38,7 @@ git remote remove origin
 # 添加远程地址
 git remote add origin [url]
 
-或者直接修改
+# 或者直接修改
 git remote set-url origin [url]（此处未更新后的新地址）
 
 # 将本地仓库文件push到新的远程仓库（-f代表强制）
