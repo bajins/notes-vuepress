@@ -31,6 +31,7 @@
 [delay-queue](https://github.com/ouqiang/delay-queue)
 
 [grpc](https://github.com/grpc)
+[gRPC 官方文档中文版](http://doc.oschina.net/grpc?t=56831)
 
 [go-xorm](https://github.com/go-xorm)
 
