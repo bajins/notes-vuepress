@@ -48,9 +48,16 @@ String.prototype.replaceAll = function (FindText, RepText) {
     return this.replace(regExp, RepText);
 }
 
-
-String.prototype.stealingWith = function (findText) {
-    let strArray = this.split(findText);
+/**
+ * 根据系统文件分割符自动切割目录获取最后一个目录
+ *
+ * @return
+ * @Description
+ * @author claer woytu.com
+ * @date 2019/5/24 16:51
+ */
+String.prototype.cuttingPathWith = function () {
+    let strArray = this.split(path.sep);
     return strArray[strArray.length - 1];
 }
 
@@ -199,7 +206,7 @@ function readFile(dirPath, filesList, targetObj) {
         if (states.isDirectory()) {
             let item;
             if (targetObj["children"]) {
-                item = {title: file, children: [], parent: dirPath.stealingWith(path.sep)};
+                item = {title: file, children: [], parent: dirPath.cuttingPathWith()};
                 // 把更深层的子文件夹装入上级子文件夹数组中
                 targetObj["children"].push(item);
             } else {
