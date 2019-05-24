@@ -56,7 +56,7 @@ module.exports = ctx => ({
         // }
         // },
         editLinkText: '在 GitHub 上编辑此页',
-        nav: require('./nav'),
+        nav: utils.getRootDir("./").concat(require('./nav')),
         logo: '/logo.png',
         // 搜索设置
         search: true,

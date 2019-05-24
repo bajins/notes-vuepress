@@ -1,37 +1,4 @@
 module.exports = [
-
-    {
-        text: 'Golang',
-        link: '/Golang/'
-    },
-    {
-        text: 'IDE',
-        link: '/IDE/'
-    },
-    {
-        text: 'JAVA',
-        link: '/JAVA/'
-    },
-    {
-        text: 'SQL',
-        link: '/SQL/',
-    },
-    {
-        text: 'Python',
-        link: '/Python/'
-    },
-    {
-        text: 'VPS',
-        link: '/VPS/',
-    },
-    {
-        text: 'WEB',
-        link: '/WEB/'
-    },
-    {
-        text: 'other',
-        link: '/other/'
-    },
     {
         text: '了解更多',
         items: [
