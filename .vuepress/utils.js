@@ -199,7 +199,7 @@ function readFile(dirPath, filesList, targetObj) {
         if (states.isDirectory()) {
             let item;
             if (targetObj["children"]) {
-                item = {title: file, children: [], parent: dirPath.stealingWith("\\")};
+                item = {title: file, children: [], parent: dirPath.stealingWith(path.sep)};
                 // 把更深层的子文件夹装入上级子文件夹数组中
                 targetObj["children"].push(item);
             } else {
