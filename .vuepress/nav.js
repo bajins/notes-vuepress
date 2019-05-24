@@ -10,20 +10,11 @@ module.exports = [
     },
     {
         text: 'JAVA',
-        items: [
-            {
-                text: 'JAVA',
-                link: '/JAVA/'
-            },
-            {
-                text: 'API',
-                link: '/JAVA/API/'
-            }
-        ]
+        link: '/JAVA/'
     },
     {
-        text: 'MySql',
-        link: '/MySql/'
+        text: 'SQL',
+        link: '/SQL/',
     },
     {
         text: 'Python',
@@ -31,33 +22,11 @@ module.exports = [
     },
     {
         text: 'VPS',
-        items: [
-            {
-                text: 'VPS',
-                link: '/VPS/'
-            },
-            {
-                text: '脚本',
-                link: '/VPS/script/'
-            },
-            {
-                text: 'Docker',
-                link: '/VPS/Docker/'
-            },
-        ]
+        link: '/VPS/',
     },
     {
         text: 'WEB',
-        items: [
-            {
-                text: 'WEB',
-                link: '/WEB/'
-            },
-            {
-                text: 'JavaScript',
-                link: '/WEB/JavaScript/'
-            },
-        ]
+        link: '/WEB/'
     },
     {
         text: 'other',
@@ -90,6 +59,10 @@ module.exports = [
                     {
                         text: '静态编译VuePress',
                         link: 'https://v1.vuepress.vuejs.org/zh'
+                    },
+                    {
+                        text: '静态编译NuxtJs',
+                        link: 'https://zh.nuxtjs.org/guide'
                     },
                     {
                         text: '运行时驱动docsify',

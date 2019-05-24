@@ -1,3 +1,5 @@
+const utils = require('./utils')
+
 module.exports = ctx => ({
     // 部署站点的基础路径，如果你想让你的网站部署到一个子路径下，你将需要设置它。如 GitHub pages，
     // 如果你想将你的网站部署到 https://woytu.github.io/UseNotes/，那么 UseNotes 应该被设置成 "/UseNotes/"，
@@ -8,10 +10,16 @@ module.exports = ctx => ({
     // 指定 VuePress build 的输出目录。如果传入的是相对路径，则会基于 process.cwd() 进行解析。
     // 与package.json中的scripts配置编译路径配合使用
     dest: './docs',
-    // 提供多语言支持的语言配置。
-    lang: 'zh-CN',
-    title: 'Bajins',
-    description: '个人笔记',
+    locales: {
+        // 键名是该语言所属的子路径
+        // 作为特例，默认语言可以使用 '/' 作为其路径。
+        '/': {
+            lang: 'zh-CN',// 将会被设置为 <html> 的 lang 属性
+            // 没有声明 title 或者 description，VuePress 将会尝试使用配置顶层的对应值
+            title: 'Bajins',
+            description: '个人笔记',
+        }
+    },
     // 额外的需要被注入到当前页面的 HTML <head> 中的标签，每个标签都可以以 [tagName, { attrName: attrValue }, innerHTML?] 的格式指定
     head: [
         ['link', {rel: 'icon', href: `/logo.png`}],
@@ -53,8 +61,8 @@ module.exports = ctx => ({
         // 搜索设置
         search: true,
         searchMaxSuggestions: 10,
-        // 侧边栏 require('./sidebar'),auto自动形成侧边导航
-        sidebar: require('./sidebar'),
+        // 侧边栏 用工具自动获取文件夹结构,auto自动形成侧边导航
+        sidebar: utils.rootFolder("./"),
         // 最后更新时间
         lastUpdated: '上次更新',
         // 作者
