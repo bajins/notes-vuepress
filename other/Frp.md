@@ -102,7 +102,7 @@ local_port = 本地Tomcat端口
 custom_domains = 域名
 ```
 ## 客户端启动
-```bash
+```batch
 # 进入在客户端文件夹下启动cmd窗口，再执行以下命令
 # 简单配置
 frpc -c frpc.ini
