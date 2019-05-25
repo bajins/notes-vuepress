@@ -1,7 +1,7 @@
 # bat脚本使用
 
-# 获取管理员权限
-## 方式一
+## 获取管理员权限
+### 方式一
 ```batch
 @echo off
 cacls.exe "%SystemDrive%\System Volume Information" >nul 2>nul
@@ -13,7 +13,7 @@ if exist "%temp%\getadmin.vbs" del /f /q "%temp%\getadmin.vbs"
 
 ```
 
-## 方式二
+### 方式二
 ```batch
 fltmc>nul||cd/d %~dp0&&mshta
 vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",1)(window.close)
@@ -23,7 +23,7 @@ vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",
 ```
 
 
-## 方式三
+### 方式三
 ```batch
 @echo off
 :: BatchGotAdmin
@@ -51,7 +51,7 @@ CD /D "%~dp0"
 ```
 
 
-## 方式四
+### 方式四
 ```batch
 @echo off  
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system" 
@@ -77,7 +77,7 @@ if '%errorlevel%' NEQ '0' (
 
 ```
 
-# 隐藏窗口运行（静默运行）
+## 隐藏窗口运行（静默运行）
 ```batch
 @echo off
 if "%1" == "h" goto begin
@@ -104,7 +104,7 @@ start /wait /B "" "%~dp0软件名称" /DEL
 ````
 
 
-# 修改注册表
+## 修改注册表
 ```batch
 echo 删除桌面IE图标
 REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{B416D21B-3B22-B6D4-BBD3-BBD452DB3D5B}" /f
@@ -120,31 +120,31 @@ REG ADD "HKU\.DEFAULT\Control Panel\Keyboard" /v InitialKeyboardIndicators /t RE
 /d 设置添加的值(data)
 /f 表示强制(forbidden)
 ```
-# 注册Windows服务
+## 注册Windows服务
 https://www.cnblogs.com/pingming/p/5108947.html
-## 加入服务:
+### 加入服务:
 ```batch
 ::等号后面的空格必须
 sc create 服务名称 binPath= 路径 start= auto
 ```
-## 删除服务:
+### 删除服务:
 ```batch
 sc delete 服务名称
 ```
 
-## 例一：
+### 例一：
 ```batch
 sc create frp内网穿透 binPath= D:\frp\frps.bat start= auto displayname= "frp内网穿透"
 ```
 
-## 例二：
+### 例二：
 ```batch
 sc create frp内网穿透 binPath= "cmd.exe /c D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini" start= auto displayname= "frp内网穿透"
 ```
 
-# VBScript
+## VBScript
 
-## Windows启动运行
+### Windows启动运行
 
 > 按`win+r`打开运行窗口，输入以下命令`shell:startup`打开启动文件夹，把vbs后缀文件放入
 
