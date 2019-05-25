@@ -110,7 +110,7 @@ fatal: index-pack failed
 ```
 
 ### 执行命令
-```sehll
+```bash
 # 修改压缩的程度
 git config --global core.compression 0
 
