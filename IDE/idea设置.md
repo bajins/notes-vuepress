@@ -10,6 +10,8 @@
 * [设置类文件创建模板](#设置类文件创建模板)
 * [鼠标悬停查看方法注释](#鼠标悬停查看方法注释)
 * [自动优化导包](#自动优化导包)
+* [热部署策略](#热部署策略)
+* [自动编译](#自动编译)
 * [去掉Mybatis配置文件的局部背景颜色](#去掉Mybatis配置文件的局部背景颜色)
 * [项目目录设置](#项目目录设置)
 ****
@@ -119,6 +121,15 @@ public class ${NAME} {
 #### Optimize imports on the fly：自动帮我们导入需要用到的包。但是对于同名的包，需要手动`Alt + Enter`进行导入。
 ![](/images/IDEA自动优化导包.png)
 
+## 热部署策略
+#### 顶部菜单 Run->Edit Configurations->SpringBoot->目标项目->勾选`Update classes and resources`。
+![](/images/IDEA的热部署策略.png)
+
+## 自动编译
+#### 同时按住`Ctrl + Shift + Alt + /`然后进入`Registry`，勾选自动编译并调整延时参数。
+![](/images/IDEA自动编译-动态.png)
+#### 打开顶部工具栏 File -> Settings -> Default Settings -> Build -> Compiler 然后勾选 Build project automatically 。
+![](/images/IDEA自动编译-静态.png)
 
 ## 去掉Mybatis配置文件的局部背景颜色
 > [回到顶部](#readme)
