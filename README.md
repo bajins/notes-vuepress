@@ -4,12 +4,10 @@ home: true
 actionText: 快速上手 →
 actionLink: /#命令
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
+- title: 简单自由
+  details: 随意创建目录，编译时自动帮你配置菜单栏和侧边栏，最多三层目录结构。
 - title: Vue驱动
   details: 享受 Vue + webpack 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行。
 footer: MIT Licensed | Copyright © 2019 Bajins
 ---
 
@@ -17,7 +15,7 @@ footer: MIT Licensed | Copyright © 2019 Bajins
 
 ::: tip
 基于本仓库可快速创建你自己的文档网站。
-菜单栏和侧边栏根据目录自动映射。
+[高亮语法支持列表](https://prismjs.com/#languages-list)
 :::
 
 ## 目录结构
@@ -25,15 +23,15 @@ footer: MIT Licensed | Copyright © 2019 Bajins
 ```
 // 官方标准目录结构 https://v1.vuepress.vuejs.org/zh/guide/directory-structure.html
 .
-│  package-lock.json NMP依赖配置文件
+│  package-lock.json NPM依赖配置文件
 │  package.json      项目配置文件
 │  README.md         首页md文件
 │  yarn.lock         yarn依赖配置文件
 │  
 ├─.vuepress         用于存放VuePress的配置、组件、静态资源等。
 │  │  config.js     VuePress配置
-│  │  nav.js        导航栏
-│  │  sidebar.js    侧边栏
+│  │  nav.js        除创建的目录之外，还可以自定义添加导航栏
+│  │  utils.js      侧边栏和菜单栏自动配置工具
 │  │  
 │  └─public        静态资源目录
 │      │  
