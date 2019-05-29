@@ -62,6 +62,10 @@ module.exports = [
                 text: 'Git',
                 link: '/Git'
             },
+            {
+                text: 'Chrome插件',
+                link: '/Chrome插件'
+            },
         ]
     },
     {
