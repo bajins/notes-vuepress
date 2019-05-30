@@ -38,7 +38,11 @@ module.exports = [
                     {
                         text: '运行时驱动Docute',
                         link: 'https://docute.org/zh/'
-                    }
+                    },
+                    {
+                        text: '从仓库生成文档',
+                        link: 'https://readthedocs.org/'
+                    },
                 ]
             },
             {
@@ -49,23 +53,40 @@ module.exports = [
                         link: '/Markdown编辑器'
                     },
                     {
-                        text: '从仓库生成文档',
-                        link: 'https://readthedocs.org/'
-                    },
-                    {
                         text: 'Markdown语法',
                         link: '/README%E8%AF%AD%E6%B3%95'
+                    },
+                    {
+                        text: 'Markdown表格生成',
+                        link: 'https://tableconvert.com/'
+                    },
+                    {
+                        text: 'Markdown表格生成',
+                        link: 'http://www.tablesgenerator.com/markdown_tables'
+                    },
+                    {
+                        text: 'Markdown目录树生成',
+                        link: 'https://github.com/JohnByrneRepo/mddir'
+                    },
+                    {
+                        text: 'Markdown目录树生成',
+                        link: 'https://github.com/derycktse/treer'
                     },
                 ]
             },
             {
-                text: 'Git',
-                link: '/Git'
-            },
-            {
-                text: 'Chrome插件',
-                link: '/Chrome插件'
-            },
+                // text: 'other',
+                items: [
+                    {
+                        text: 'Git',
+                        link: '/Git'
+                    },
+                    {
+                        text: 'Chrome插件',
+                        link: '/Chrome插件'
+                    },
+                ]
+            }
         ]
     },
     {
