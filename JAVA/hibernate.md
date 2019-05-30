@@ -13,25 +13,26 @@
 
 *****************************************************************************
 
-# hibernate的使用
+## hibernate的使用
 
 ## 返回结果接收方式
+
+> setresulttransformer与addentity的区别是什么?
+>> 一个区别是前者支持查任意的列，后者必须用select * from users的形式或select {a.*},{b.*} from a,b where ....。 
+>>
+>> 如果使用原生sql语句进行query查询时，hibernate是不会自动把结果包装成实体的。所以要手动调用addentity(class class)等一系列方法。 
+>>
+>> 如session.createsqlquery(sql).addentity(class class);注意hibernate3.0.5不支持，单个参数的addentity方法 
+>>
+>> 另外，hibernate3.2可以对原生sql 查询使用resulttransformer。这会返回不受hibernate管理的实体。 
 ```java
-setresulttransformer与addentity的区别是什么?
-
-一个区别是前者支持查任意的列，后者必须用select * from users的形式或select {a.*},{b.*} from a,b where ....。 
-
-如果使用原生sql语句进行query查询时，hibernate是不会自动把结果包装成实体的。所以要手动调用addentity(class class)等一系列方法。 
-
-如session.createsqlquery(sql).addentity(class class);注意hibernate3.0.5不支持，单个参数的addentity方法 
-
-另外，hibernate3.2可以对原生sql 查询使用resulttransformer。这会返回不受hibernate管理的实体。 
-
 session.createsqlquery("select name ,age,birthday from students") .setresulttransformer(transformers.aliastobean(students.class)) 
-或setresulttransformer(new aliastobeanresulttransformer (students.class)) 
-上面的查询将会返回students的列表,它将被实例化并且将name和birthday的值注射入对应的属性或者字段。 
-但必须注意，对每一个列都必须addscalar("列名") 
+// 或
+setresulttransformer(new aliastobeanresulttransformer (students.class)) 
 ```
+>> 上面的查询将会返回students的列表,它将被实例化并且将name和birthday的值注射入对应的属性或者字段。 
+但必须注意，对每一个列都必须addscalar("列名") 
+
 ### 返回结果转换为Map
 ```java
 List<Map<String, Object>> list = session.createSQLQuery(sql).setResultTransformer(Transformers.ALIAS_TO_ENTITY_MAP).list();
@@ -53,8 +54,10 @@ List<Invest> is = ht.find(hql, loanId, InvestStatus.REPAYING );
 
 ## QBC查询
 ### 该方式只能用关联表的关联字段为查询条件，无法使用关联表的其他字段为查询条件
-##### Criteria 和 DetachedCriteria 的主要区别在于创建的形式不一样, Criteria 是在线的，所以它是由hibernate Session 进行创建的；而 DetachedCriteria 是离线的，创建时无需Session ，DetachedCriteria 提供了 2 个静态方法 forClass(Class) 或 forEntityName(Name)进行DetachedCriteria 实例的创建。
-##### spring 的框架提供了getHibernateTemplate().findByCriteria(detachedCriteria) 方法可以很方便地根据DetachedCriteria 来返回查询结果。
+> Criteria 和 DetachedCriteria 的主要区别在于创建的形式不一样, Criteria 是在线的，所以它是由hibernate Session 进行创建的；
+而 DetachedCriteria 是离线的，创建时无需Session ，DetachedCriteria 提供了 2 个静态方法 forClass(Class) 或 forEntityName(Name)进行DetachedCriteria 实例的创建。
+>
+>  spring 的框架提供了getHibernateTemplate().findByCriteria(detachedCriteria) 方法可以很方便地根据DetachedCriteria 来返回查询结果。
 ### hibernate5.2版本之前createCriteria()查询的方式
 ```java
 // Restrictions.in传值为数组或list集合
@@ -64,6 +67,7 @@ criteria.createAlias("invest", "i");// 当查询关联第三张表时，第二�
 criteria.add(Restrictions.eq("i.loan.id", loanExtensionPlan.getLoan().getId()));
 criteria.add(Restrictions.in("status", status));
 criteria.addOrder(Order.desc("period"));// 添加排序
+
 // 查询一范围内的的数据,需借助Criteria来查询
 Criteria cri = criteria.getExecutableCriteria(ht.getSessionFactory().getCurrentSession());
 cri.setFirstResult(firstResult);// 从第几条开始
@@ -71,13 +75,14 @@ cri.setMaxResults(maxResults);// 查询多少条
 List<InvestExtensionPlan> investExtensionPlans = ht.findByCriteria(criteria);
 ```
 #### 模糊查询和自定义查询
-```diff
+```java
 criteria.add(Restrictions.like("time","%" + "2018-11-13" + "%"));
 criteria.add(Restrictions.sqlRestriction("time like '%2018-11-13%'"));
 ```
 ### hibernate5.2及之后版本createCriteria()查询的方式
-##### 原有的session.createCriteria()方法已经过时，替代的方式是使用JPA Criteria。
-##### session.createSQLCriteria()方法也过时了，当然可以用session.createNativeCriteria()方法来代替。
+> 原有的session.createCriteria()方法已经过时，替代的方式是使用JPA Criteria。
+>
+> session.createSQLCriteria()方法也过时了，当然可以用session.createNativeCriteria()方法来代替。
 ```java
 //注意导入的包是import javax.persistence.criteria.CriteriaQuery;
 try {
@@ -147,23 +152,31 @@ if (session != null) {
 }
 ```
 
-hibernate中evict()和clear()的区别
-
-session.evict(obj)：会把指定的缓冲对象从一级缓存中进行清除；
-
-session.clear()：把一级缓存中的全部对象清除，但不包括操作中的对象。
-
-hibernate执行的顺序如下：
-
-(1)生成一个事务的对象，并标记当前的session处于事务状态（此时并未启动数据库级事务）。
-
-(2)应用使用s.save()保存对象，这个时候Session将这个对象放入entityEntries，用来标记对象已经和当前的会话建立了关联，由于应用对对对象做了保存的操作，Session还要在insertions中登记应用的这个插入行为(行为包括：对象引用、对象id、Session、持久化处理类)。
-
-(3)s.evict()将对象从s会话中拆离，这时s会从entityEntries中将这个对象移除。
-
-(4)事务提示，需要将所有缓存flush入数据库，Session启动一个事务，并按照insert ,update,...,delete的顺序提交所有之前登记的操作（注意：所有insert执行完毕后才会执行update，这里的特殊处理也可能会将你的程序搞得一团遭，如需要控制操作的顺序，需要使用flush），现在对象不再entityEntries中，但在执行insert的行为时只需要访问insertions就足够了，所以此时不会有任何的异常，异常出现在插入后通知Session该对象已经插入完毕这个步骤上，这个步骤中需要将entityEntries中对象的existsInDatabase标志置true，由于对象并不存在于entityEntres中，此时Hibernate就认为insertions和entityEntries可能因为线程安全的问题产生了不同步（也不知道Hibernate的开发者是否考虑到例子中的处理方式，如果没有的话，这也许算是一个bug吧），于是一个net.sf.hibernate.AssertionFailure就被抛出，程序终止。
-
-　　一般我们会错误的认为s.sava会立即执行，而将对象过早的与session拆离，造成了session的insertion和entityEntries中内容的不同步。所以我们在做此类操作时一定要清楚hibernate什么时候会将数据flush入数据库，在未flush之前不要将已进行操作的对象从session上拆离，解决办法是在sava之后，添加session.flush。
+> hibernate中evict()和clear()的区别
+>
+>> session.evict(obj)：会把指定的缓冲对象从一级缓存中进行清除；
+>>
+>> session.clear()：把一级缓存中的全部对象清除，但不包括操作中的对象。
+>
+> hibernate执行的顺序如下：
+>>
+>> (1)生成一个事务的对象，并标记当前的session处于事务状态（此时并未启动数据库级事务）。
+>>
+>> (2)应用使用s.save()保存对象，这个时候Session将这个对象放入entityEntries，用来标记对象已经和当前的会话建立了关联，
+>> 由于应用对对对象做了保存的操作，Session还要在insertions中登记应用的这个插入行为(行为包括：对象引用、对象id、Session、持久化处理类)。
+>>
+>> (3)s.evict()将对象从s会话中拆离，这时s会从entityEntries中将这个对象移除。
+>>
+>> (4)事务提示，需要将所有缓存flush入数据库，Session启动一个事务，并按照insert ,update,...,delete的顺序提交所有之前登记的操作
+（注意：所有insert执行完毕后才会执行update，这里的特殊处理也可能会将你的程序搞得一团遭，如需要控制操作的顺序，需要使用flush），
+现在对象不再entityEntries中，但在执行insert的行为时只需要访问insertions就足够了，所以此时不会有任何的异常，
+异常出现在插入后通知Session该对象已经插入完毕这个步骤上，这个步骤中需要将entityEntries中对象的existsInDatabase标志置true，
+由于对象并不存在于entityEntres中，此时Hibernate就认为insertions和entityEntries可能因为线程安全的问题产生了不同步
+（也不知道Hibernate的开发者是否考虑到例子中的处理方式，如果没有的话，这也许算是一个bug吧），
+于是一个net.sf.hibernate.AssertionFailure就被抛出，程序终止。
+>>
+>> 一般我们会错误的认为s.sava会立即执行，而将对象过早的与session拆离，造成了session的insertion和entityEntries中内容的不同步。
+所以我们在做此类操作时一定要清楚hibernate什么时候会将数据flush入数据库，在未flush之前不要将已进行操作的对象从session上拆离，解决办法是在sava之后，添加session.flush。
 
 
 ```java
@@ -203,12 +216,12 @@ public void testClear(){
 }
 ```
 
-# 只读错误
-```diff
-Write operations are not allowed in read-only mode (FlushMode.MANUAL):
-    Turn your Session into FlushMode.COMMIT/AUTO or remove 'readOnly' marker from transaction definition.
-写操作在只读模式下不被允许（(FlushMode.MANUAL): 把你的Session改成FlushMode.COMMIT/AUTO或者清除事务定义中的readOnly标记。
-```
+## 只读错误
+> Write operations are not allowed in read-only mode (FlushMode.MANUAL):
+Turn your Session into FlushMode.COMMIT/AUTO or remove 'readOnly' marker from transaction definition.
+>
+> 写操作在只读模式下不被允许(FlushMode.MANUAL): 把你的Session改成FlushMode.COMMIT/AUTO或者清除事务定义中的readOnly标记。
+
 ## 编程式修改FlushMode
 ```java
 ht.setFlushMode(HibernateTemplate.FLUSH_AUTO);

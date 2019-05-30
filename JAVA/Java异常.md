@@ -1,6 +1,6 @@
 # Java异常
 
-# Java内置异常
+## Java内置异常
 ![](/images/Java内置异常.png)
 
 |未经检查的RuntimeException异常| 说明 |

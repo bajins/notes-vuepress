@@ -1,13 +1,14 @@
 # Quartz定时器
 
-# [Quartz-API](/JAVA/Quartz定时器API.md)
+## [Quartz-API](/JAVA/Quartz定时器API.md)
 ## Job的状态与并发
 
-#### @DisallowConcurrentExecution，如果使用该注解，那么同一时间将只有一个Job实例被执行。如，ReportJob有个实例为ReportForJoe，那么同一时间只有一个ReportForJoe被执行。而ReportForMike等都可以执行。 
-
-#### @PersistJobDataAfterExecution，如果使用该注解，在Job被执行结束后，将会更新JobDataMap，这样下次Job执行后就会使用新的值而不是初始值。
-
-#### 如果使用@PersistJobDataAfterExecution注解，推荐也使用@DisallowConcurrentExecution注解，这是为了避免并发问题导致数据紊乱。
+> @DisallowConcurrentExecution，如果使用该注解，那么同一时间将只有一个Job实例被执行。
+>> 如，ReportJob有个实例为ReportForJoe，那么同一时间只有一个ReportForJoe被执行。而ReportForMike等都可以执行。 
+>
+> @PersistJobDataAfterExecution，如果使用该注解，在Job被执行结束后，将会更新JobDataMap，这样下次Job执行后就会使用新的值而不是初始值。
+>
+> 如果使用@PersistJobDataAfterExecution注解，推荐也使用@DisallowConcurrentExecution注解，这是为了避免并发问题导致数据紊乱。
 
 ```java
 public void addAutoInvestJob(Loan loan) {
@@ -61,9 +62,9 @@ public void addAutoInvestJob(Loan loan) {
 		throw new RuntimeException(e);
 	}
 }
- ```
+```
  
- ```java
+```java
 // 暂停触发器
 scheduler.pauseTrigger(triggerKey);
 // 恢复触发器
@@ -79,13 +80,15 @@ scheduler.resumeJob(jobKey);
 scheduler.deleteJob(jobKey);
 ```
 
- 首先从Scheduler.scheduleJob（JobDetail jobDetail，Trigger trigger）调度job， 实际上就是将job存储到RAM中的jobsByGroup，jobsByKey对应的Map中，将触发器存储到触发器（List），triggersByKey，triggersByGroup对应的Map中，及timeTriggers的Treeset中 
+> 首先从Scheduler.scheduleJob（JobDetail jobDetail，Trigger trigger）调度job， 实际上就是将job存储到RAM中的jobsByGroup，
+jobsByKey对应的Map中，将触发器存储到触发器（List），triggersByKey，triggersByGroup对应的Map中，及timeTriggers的Treeset中 
+>
+> Scheduler.unscheduleJob（TriggerKey triggerKey）就是将triggerKey从triggersByKey，triggersByGroup，triggers，timeTriggers中移除;
+>
+> Scheduler.deleteJob（JobKey jobKey）除了从容器触发中的TriggerWrapper的JobKey为jobKey的列表<TriggerWrapper>，
+并uncheduleJob（TriggerKey triggerKey）列表列表<TriggerWrapper>中的所有TriggerWrapper，同时从jobsByKey，jobsByGroup 的移除对应jobKey的相关信息 
 
-Scheduler.unscheduleJob（TriggerKey triggerKey）就是将triggerKey从triggersByKey，triggersByGroup，triggers，timeTriggers中移除;
-
-Scheduler.deleteJob（JobKey jobKey）除了从容器触发中的TriggerWrapper的JobKey为jobKey的列表<TriggerWrapper>，并uncheduleJob（TriggerKey triggerKey）列表列表<TriggerWrapper>中的所有TriggerWrapper，同时从jobsByKey，jobsByGroup 的移除对应jobKey的相关信息 
-
-# Quartz的Misfire处理规则
+## Quartz的Misfire处理规则
 ```java
 调度(scheduleJob)或恢复调度(resumeTrigger,resumeJob)后不同的misfire对应的处理规则
 

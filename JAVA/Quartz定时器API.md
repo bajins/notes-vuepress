@@ -1,18 +1,22 @@
 # Quartz定时器API
 
 #### 参考：https://blog.csdn.net/QXC1281/article/details/68924140
-# Quartz API核心接口有：
-```diff
-Scheduler – (调度器)与scheduler交互的主要API； 
-Job – (作业)你通过scheduler执行任务，你的任务类需要实现的接口； 
-JobDetail – (作业实例)定义Job的实例； 
-Trigger – (触发器)触发Job的执行； 
-JobBuilder – 定义和创建JobDetail实例的接口; 
-TriggerBuilder – 定义和创建Trigger实例的接口；
-```
+## Quartz API核心接口有：
+> Scheduler – (调度器)与scheduler交互的主要API； 
+>
+> Job – (作业)你通过scheduler执行任务，你的任务类需要实现的接口； 
+>
+> JobDetail – (作业实例)定义Job的实例； 
+>
+> Trigger – (触发器)触发Job的执行； 
+>
+> JobBuilder – 定义和创建JobDetail实例的接口; 
+>
+> TriggerBuilder – 定义和创建Trigger实例的接口；
 
-# 1.触发器接口基本介绍
-## Trigger触发器方法介绍
+
+## 1.触发器接口基本介绍
+### Trigger触发器方法介绍
 ```diff
 // 触发器状态  
 TriggerState  
@@ -87,11 +91,14 @@ Trigger (org.quartz)
     |-DailyTimeIntervalTrigger (org.quartz)日期触发类(日)    
         |-DailyTimeIntervalTriggerImpl (org.quartz.impl.triggers)
 ```
-### 常用 
-#### 1. SimpleTrigger :简单触发器 
-#### 2. CalendarIntervalTrigger:日历触发器 
-#### 3. CronTrigger:Cron表达式触发器 
-#### 4. DailyTimeIntervalTrigger:日期触发器
+> 常用 
+>> 1. SimpleTrigger :简单触发器 
+>>
+>> 2. CalendarIntervalTrigger:日历触发器 
+>>
+>> 3. CronTrigger:Cron表达式触发器 
+>>
+>> 4. DailyTimeIntervalTrigger:日期触发器
 
 ## 3.调度器建造者
 ```diff
@@ -248,7 +255,6 @@ public class SimpleTriggerMain {
         sched.start();
 
     }
-
 }
 ```
 ## 6.CronTriger-Cron触发器
@@ -318,20 +324,25 @@ public class CronTriggerMain {
 }
 ```
 ### 6.3.cron表达式介绍
-```diff
-字符 
-1. * 每一(每一分) 
-2. ? 表示不关心,任意 
-3. - 范围 (小时:1-12,1到12点运行) 
-4. , 标示多个值 (小时 1,2,3 1点2点3点运行) 
-5. / 递增触发(0/15,从0开始每15秒运行一次) 
-6. L 最后(日L,当月最后一天,周L周六) 
-7. W 指定日期最近的工作日(周一到周五) 
-8. # 序号(表示每月的第几个周几) 
-9. 
-CronTrigger配置格式: 
-格式: [秒] [分] [小时] [日] [月] [周] [年]
-```
+> 字符
+>> 1. * 每一(每一分) 
+>>
+>> 2. ? 表示不关心,任意 
+>>
+>> 3. - 范围 (小时:1-12,1到12点运行) 
+>>
+>> 4. , 标示多个值 (小时 1,2,3 1点2点3点运行) 
+>>
+>> 5. / 递增触发(0/15,从0开始每15秒运行一次) 
+>>
+>> 6. L 最后(日L,当月最后一天,周L周六) 
+>>
+>> 7. W 指定日期最近的工作日(周一到周五) 
+>>
+>> 8. ## 序号(表示每月的第几个周几) 
+>>
+>> 9.CronTrigger配置格式: [秒] [分] [小时] [日] [月] [周] [年]
+
 
 |序号 | 说明 | 是否必填 | 允许填写的值 | 允许的通配符|
 |-----|-----|----------|-------------|-----------|
@@ -340,7 +351,7 @@ CronTrigger配置格式:
 |3    |小时 |是        |0-23         |, - * /     |
 |4    |日   |是        |1-31         |, - * ? / L W |
 |5    |月   |是        |1-12 or JAN-DEC|, - * /   |
-|6    |周   |是        |1-7 or SUN-SAT|, - * ? / L # |
+|6    |周   |是        |1-7 or SUN-SAT|, - * ? / L ## |
 |7    |年   |是        |empty或1970-2099|, - * /  |
 
 ## 7.DailyTimeIntervalTrigger-日期触发
