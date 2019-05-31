@@ -108,10 +108,6 @@ module.exports = [
                         link: 'https://www.woytu.com',
                     },
                     {
-                        text: 'GO小说',
-                        link: 'https://book.bajins.com'
-                    },
-                    {
                         text: 'WeChat小程序',
                         link: 'https://woetu.com'
                     }
