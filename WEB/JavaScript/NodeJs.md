@@ -1,5 +1,38 @@
 # NodJs
 
+
+## npm和yarn镜像
+> ### 如果使用yarn，就把命令开头的npm替换为yarn
+```bash
+# 查看仓库地址
+npm config get registry
+
+# 设置官方仓库地址
+npm config set registry https://registry.npmjs.org
+
+# 设置淘宝镜像仓库地址
+npm config set registry https://registry.npm.taobao.org
+
+# 查看代理地址
+npm config get proxy
+npm config get https-proxy
+
+# 设置代理地址
+npm config set proxy http://127.0.0.1:1080
+# 设置https代理地址
+npm config set https-proxy http://server:port
+
+# 设置代理用户名和密码
+npm config set proxy http://username:password@server:port
+npm confit set https-proxy http://username:password@server:port
+
+# 删除代理地址
+npm config delete proxy
+npm config delete https-proxy
+```
+
+
+
 ## 依赖管理
 ### yarn、npm命令简单比较
 | npm                                | yarn                      | 说明                         |
