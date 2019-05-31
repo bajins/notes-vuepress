@@ -393,7 +393,7 @@ tar -zcvf tomcat.tar.gz --exclude=tomcat/logs --exclude=tomcat/libs --exclude=to
 >> 在使用tar的--exclude命令排除打包时，末尾不能加“/”或者路径为绝对路径，否则还是会把排除目录以及其下的文件打包进去。
 
 #### 7zip
-```sehll
+```bash
 # 安装7zip
 yum –y install p7zip
 # 解压到当前目录下,不保留原来的目录结构

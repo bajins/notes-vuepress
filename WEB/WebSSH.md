@@ -24,7 +24,7 @@ node -v && npm -v
 
 
 ## 下载 Webssh2
-```sehll
+```bash
 git clone https://github.com/billchurch/WebSSH2
 cd WebSSH2
 npm install --production

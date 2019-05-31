@@ -79,7 +79,7 @@ export JAVA_OPTS="
 
 ### windows
 #### 添加JAVA_HOME和JRE_HOME
-```sehll
+```bash
 set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_191
 set JRE_HOME=C:\Program Files\Java\jre1.8.0_201
 ```
@@ -210,7 +210,7 @@ lsof -i:1099
 ```
 
 #### 二、（推荐）新建一个配置文件 jstatd.all.policy
-```sehll
+```bash
 cd $JAVA_HOME/bin/
 vi jstatd.all.policy
 ```

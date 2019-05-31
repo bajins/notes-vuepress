@@ -17,7 +17,7 @@ cd binlog2sql/
 pip install -r requirements.txt
 ```
 ### MySQL server必须设置以下参数:
-```sehll
+```bash
 [mysqld]
 server_id = 1
 log_bin = /var/log/mysql/mysql-bin.log

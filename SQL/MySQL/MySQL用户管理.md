@@ -99,7 +99,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '密码' WITH GRANT OPTI
 FLUSH PRIVILEGES;
 ```
 #### 重启服务，再用新密码登录即可：
-```sell
+```bash
 systemctl restart mysqld
 ```
 #### [放开MySQL防火墙端口](/VPS/linux命令.md#防火墙)
