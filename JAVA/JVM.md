@@ -263,11 +263,36 @@ java -jar -Djava.rmi.server.hostname=本服务器IP -Dcom.sun.management.jmxremo
 ### 远程Debug
 #### 启动参数
 ```bash
-java -Djavax.net.debug=ssl -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=端口 -jar jar包
+java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=端口 -jar jar包
 ```
+#### 参数说明
+> `-Djavax.net.debug` 查看调试信息
+>> `all` 代表所有，其他有`SSL`,`handshake`,`date`,`trust manager`
+>
+> `-Xdebug` 是通知JVM工作在DEBUG模式下
+> `-Xnoagent` 禁用默认sun.tools.debug调试器。
+>
+> `-Djava.compiler=NONE` 为了加快debug的速度，禁止JIT编译器的加载，[详细说明](https://www.iteye.com/problems/89141)
+>
+> `-Xrunjdwp` 是通知JVM使用(Java debug wire protocol)来运行调试环境。该参数同时了一系列的调试选项：
+>> `transport`指定了调试数据的传送方式，`dt_socket`是指用SOCKET模式，`dt_shmem`指用共享内存方式，`dt_shmem`只适用于Windows平台。
+>
+> `server=y/n` VM是否需要作为调试服务器执行。
+>
+> `suspend=y/n` 是否在调试客户端建立连接之后启动 VM 。(设置为y时启动不了)
+>
+> `onthrow=java.io.IOException` 指明，当产生该类型的Exception时，JVM就会中断下来，进行调式。可选参数
+>
+> `launch=/sbin/echo` 指明，当JVM被中断下来时，执行的可执行程序。可选参数
+>
+> `onuncaught=y/n` 指明，出现uncaught exception 后，是否中断JVM的执行.
+
 #### 客户端使用
 > #### 在IDEA中，点击顶部菜单`Run`点击`Edit Configuration`按钮-->出现弹窗，点击`+`按钮，找到`Remote`选项。
 > #### 在`Name`中填入Remote项目名称，在`Host`中填IP地址，在`Port`中填端口号，在`Use Module classpath`选择远程调试的项目module，配置完成后点击OK即可
+> 
+> 启动项目时选择刚刚填的Remote项目名称
+
 ![](/images/IDEA远程debug调试.png)
 
 ## 三方工具
