@@ -189,18 +189,18 @@ https://blog.csdn.net/u010004317/article/details/82948040
 ```bash
 jps -l 127.0.0.1
 ```
-#### 一、在原有配置文件java.policy中添加
+#### 一、在原有配置文件`java.policy`中添加
 ```bash
 vi $JAVA_HOME/jre/lib/security/java.policy
 ```
-##### 在文件末位的 }; 前添加
+##### 在文件末位的 `};` 前添加
 ```java
 permission java.security.AllPermission;
 ```
 ##### 启动jstatd
 ```bash
 cd $JAVA_HOME/bin
-./jstatd -J-Djava.security.policy=all.policy -J-Djava.rmi.server.hostname=主机的IP -p 1099 &
+./jstatd -J-Djava.security.policy=all.policy -J-Djava.rmi.server.hostname=本服务器IP -p 端口 &
 ```
 ##### 查看运行端口情况
 ```bash
@@ -209,7 +209,7 @@ netstat -ntlp
 lsof -i:1099
 ```
 
-#### 二、（推荐）新建一个配置文件 jstatd.all.policy
+#### 二、（推荐）新建一个配置文件`jstatd.all.policy`
 ```bash
 cd $JAVA_HOME/bin/
 vi jstatd.all.policy
@@ -226,20 +226,49 @@ chmod +x jstatd.all.policy
 ```
 ##### 在Java的bin目录下用以下命令启动
 ```bash
-./jstatd -J-Djava.security.policy=jstatd.all.policy -J-Djava.rmi.server.hostname=主机的IP -p 1099 -J-Djava.rmi.server.logCalls=true &
+./jstatd -J-Djava.security.policy=jstatd.all.policy -J-Djava.rmi.server.hostname=本服务器IP -p 端口 -J-Djava.rmi.server.logCalls=true &
 ```
 
 > -J-Djava.security.policy=jstatd.all.policy 文件的绝对路径；
 >
 > -J-Djava.rmi.server.logCalls=true 打开日志,如果客户端有连接过来的请求,可以监控到,便于排错；
 >
-> -J-Djava.rmi.server.hostname=192.168.134.128 指明本机 hostname 对应的本机地址,确保该地址可以给客户机访问。
+> -J-Djava.rmi.server.hostname=本服务器IP 指明本机 hostname 对应的本机地址,确保该地址可以给客户机访问。
 因为有的服务器 hostname 对应的 ip 不一定是外网能连上的，最好在这里直接明确指定；
 >
 > -p 3333 指定服务的端口号，默认是1099。也是可选参数。
 
 
 https://blog.csdn.net/liupeifeng3514/article/details/78998161
+
+### jconsole
+
+#### 查看hostname
+```bash
+hostname -i
+```
+> #### 如果hostname为127.0.0.1就需要修改
+
+#### 修改hostname
+
+> `vi /etc/hosts`将其第一行`127.0.0.1 localhost.localdomain localhost`中的`127.0.0.1`修改为：`本服务器IP`
+>
+> 重启Linux，在服务器上输入`hostname -i`，查看实际设置的IP地址是否为你设置的
+
+#### 启动服务的参数
+```bash
+java -jar -Djava.rmi.server.hostname=本服务器IP -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=端口 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false jar包
+```
+
+### 远程Debug
+#### 启动参数
+```bash
+java -Djavax.net.debug=ssl -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=端口 -jar jar包
+```
+#### 客户端使用
+> #### 在IDEA中，点击顶部菜单`Run`点击`Edit Configuration`按钮-->出现弹窗，点击`+`按钮，找到`Remote`选项。
+> #### 在`Name`中填入Remote项目名称，在`Host`中填IP地址，在`Port`中填端口号，在`Use Module classpath`选择远程调试的项目module，配置完成后点击OK即可
+![](/images/IDEA远程debug调试.png)
 
 ## 三方工具
 ### [无侵入式的jvm监控工具MyPerf4J](https://github.com/ThinkpadNC5/MyPerf4J)
