@@ -1,5 +1,68 @@
 module.exports = [
     {
+        text: '工具',
+        items: [
+            {
+                text: 'Markdown',
+                items: [
+                    {
+                        text: '编辑器',
+                        link: '/Markdown编辑器'
+                    },
+                    {
+                        text: '语法',
+                        link: '/README%E8%AF%AD%E6%B3%95'
+                    },
+                    {
+                        text: '在线编辑器',
+                        link: 'https://tool.lu/markdown/'
+                    },
+                    {
+                        text: '公众号排版wxformat',
+                        link: 'https://lab.lyric.im/wxformat/'
+                    },
+                    {
+                        text: '公众号排版online-markdown',
+                        link: 'http://blog.didispace.com/tools/online-markdown/'
+                    },
+                    {
+                        text: '表格生成tableconvert',
+                        link: 'https://tableconvert.com/'
+                    },
+                    {
+                        text: '表格生成clipboard2markdown',
+                        link: 'https://euangoddard.github.io/clipboard2markdown/'
+                    },
+                    {
+                        text: '表格生成tablesgenerator',
+                        link: 'http://www.tablesgenerator.com/markdown_tables'
+                    },
+                    {
+                        text: '目录树生成',
+                        link: 'https://github.com/JohnByrneRepo/mddir'
+                    },
+                    {
+                        text: '目录树生成',
+                        link: 'https://github.com/derycktse/treer'
+                    },
+                ]
+            },
+            {
+                // text: 'other',
+                items: [
+                    {
+                        text: 'Git',
+                        link: '/Git'
+                    },
+                    {
+                        text: 'Chrome插件',
+                        link: '/Chrome插件'
+                    },
+                ]
+            }
+        ]
+    },
+    {
         text: '了解更多',
         items: [
             {
@@ -45,48 +108,7 @@ module.exports = [
                     },
                 ]
             },
-            {
-                // text: 'Markdown',
-                items: [
-                    {
-                        text: 'Markdown编辑器',
-                        link: '/Markdown编辑器'
-                    },
-                    {
-                        text: 'Markdown语法',
-                        link: '/README%E8%AF%AD%E6%B3%95'
-                    },
-                    {
-                        text: 'Markdown表格生成',
-                        link: 'https://tableconvert.com/'
-                    },
-                    {
-                        text: 'Markdown表格生成',
-                        link: 'http://www.tablesgenerator.com/markdown_tables'
-                    },
-                    {
-                        text: 'Markdown目录树生成',
-                        link: 'https://github.com/JohnByrneRepo/mddir'
-                    },
-                    {
-                        text: 'Markdown目录树生成',
-                        link: 'https://github.com/derycktse/treer'
-                    },
-                ]
-            },
-            {
-                // text: 'other',
-                items: [
-                    {
-                        text: 'Git',
-                        link: '/Git'
-                    },
-                    {
-                        text: 'Chrome插件',
-                        link: '/Chrome插件'
-                    },
-                ]
-            }
+
         ]
     },
     {
