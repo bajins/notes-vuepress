@@ -151,6 +151,10 @@ module.exports = [
                         link: 'https://github.com/woytu/DirectoryLister'
                     },
                     {
+                        text: 'key-flask',
+                        link: 'https://github.com/woytu/key-flask'
+                    },
+                    {
                         text: 'ptcms',
                         link: 'https://github.com/woytu/ptcms'
                     },
