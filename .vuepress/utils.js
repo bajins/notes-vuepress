@@ -1,4 +1,5 @@
-const {fs, path} = require('@vuepress/shared-utils')
+const fs = require('fs');
+const path = require('path');
 
 /**
  * 给String对象增加一个原型方法:

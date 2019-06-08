@@ -1,6 +1,6 @@
 const utils = require('./utils')
 
-module.exports = ctx => ({
+module.exports = {
     // 部署站点的基础路径，如果你想让你的网站部署到一个子路径下，你将需要设置它。如 GitHub pages，
     // 如果你想将你的网站部署到 https://woytu.github.io/UseNotes/，那么 UseNotes 应该被设置成 "/UseNotes/"，
     // 它的值应当总是以斜杠开始，并以斜杠结束。UseNotes 将会自动地作为前缀插入到所有以 / 开始的其他选项的链接中，所以你只需要指定一次。
@@ -108,4 +108,4 @@ module.exports = ctx => ({
         // 是否在每个代码块的左侧显示行号。
         lineNumbers: false
     },
-})
+}
