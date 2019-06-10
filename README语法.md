@@ -68,6 +68,24 @@ ___
 ### 单行文本
     Hello,大家好，我是果冻虾仁。
 在一行开头加入1个Tab或者4个空格。
+
+### 多行文本
+<details>
+<summary>各模块的artifactId，请点击此处展开查看</summary>
+  
+  - 你好
+  - 我好
+  - 挺好
+</details>
+<details>
+<summary>各模块的artifactId，请点击此处展开查看</summary>
+  
+1. 你好
+2. 我好
+3. 挺好
+</details>
+
+
 ### 文本块
 #### 语法1
 在连续几行的文本开头加入1个Tab或者4个空格。
