@@ -91,6 +91,10 @@ module.exports = [
                         link: 'https://v1.vuepress.vuejs.org/zh'
                     },
                     {
+                        text: 'VuePress主题',
+                        link: 'https://github.com/search?o=desc&q=vuepress-theme&s=updated&type=Repositories'
+                    },
+                    {
                         text: '静态编译NuxtJs',
                         link: 'https://zh.nuxtjs.org/guide'
                     },
