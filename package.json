@@ -38,7 +38,6 @@
   "dependencies": {
     "axios": "0.19.0",
     "package": "^1.0.1",
-    "querystringify": "2.0.0",
-    "vuepress-theme-reco": "latest"
+    "querystringify": "2.0.0"
   }
 }
