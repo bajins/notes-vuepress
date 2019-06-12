@@ -55,7 +55,7 @@ String hql = "from Invest i where i.loan.id=? and i.status in(:status)";
 List<Invest> is = session.createSQLQuery(sql)
 					.setParameter(0, loanId)
 					.setParameterList("status", Arrays.asList(InvestStatus.REPAYING, InvestStatus.OVERDUE,
-							InvestStatus.COMPLETE, InvestStatus.BID_SUCCESS))
+							InvestStatus.COMPLETE, InvestStatus.BID_SUCCESS)).list()
 ```
 
 
