@@ -75,7 +75,6 @@ then
     fi
     
     
-    
     # 判断web目录不存在则退出
     if [ ! -d $web_dir ]
     then
@@ -92,7 +91,6 @@ then
         # 设置读写权限
         chmod -R 755 $web_dir
     fi
-    
     
     
     # 判断项目存放目录不存在则创建
@@ -121,9 +119,26 @@ then
         git clone -b $git_branch $git_url $project_name
     fi
     
+    
+    # 判断项目目录不存在则克隆失败
+    if [ ! -d $project_dir/$project_name ]
+    then
+        echo "克隆项目失败"
+        exit 1
+    fi
+    
+    
     # 先cd到我们的项目目录下,git clone的目录
     cd $project_dir/$project_name/
     
+	# 判断分支是否存在
+    branch=$(git branch | grep $git_branch)
+    if [ ! -n "$branch" ]
+    then
+        echo "项目分支$git_branch不存在"
+        exit 1
+    fi
+	
     
     # 从远程下载最新的，而不尝试合并或rebase任何东西
     git fetch --all
@@ -165,7 +180,7 @@ then
     rm -rf $web_dir/*
     
     # 移动打包好的文件到web目录下
-    #mv $project_dir/$project_name/dist/* $web_dir
+    mv $project_dir/$project_name/dist/* $web_dir
 fi
 ```
 
