@@ -1,5 +1,13 @@
 # Nginx
 
+## 格式化项目
+[nginxbeautifier](https://github.com/vasilevich/nginxbeautifier)
+
+[nginx-config-formatter](https://github.com/1connect/nginx-config-formatter)
+
+[nginxconfig配置生成](https://github.com/0xB4LINT/nginxconfig.io/)
+
+
 ## [语法](语法.md)
 
 ## 主配置
