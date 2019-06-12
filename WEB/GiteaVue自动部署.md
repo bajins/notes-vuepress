@@ -19,12 +19,6 @@ yum install -y nodejs
 # vue-cli
 npm install -g @vue/cli
 ```
-## 服务器配置项目
-#### 在`/home/project`目录下克隆项目
-```bash
-cd /home/project
-git clone 项目git地址
-```
 
 ## 配置服务器`WebHook`接收通知
 ### 自动化执行脚本
