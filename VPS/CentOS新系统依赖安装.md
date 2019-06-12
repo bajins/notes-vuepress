@@ -87,23 +87,34 @@ set number
 ### 欢迎信息
 > `vi /etc/motd`这个文件，可以在里面加入自己喜欢的任何欢迎信息，这段信息将会在登录成功后显示！
 
-> 简单的修改下配置文件可以做到每次登陆服务器自动显示磁盘情况：
+### `profile`文件
+> 为每一个运行bash shell的用户执行此文件.当bash shell被打开时,
+> 该文件被读取（即每次新开一个终端，都会执行bashrc）。
+>
+> 只要在同一个shell界面，不管多少用户登录都只执行一次
 ```bash
-#为每一个运行bash shell的用户执行此文件.当bash shell被打开时,该文件被读取（即每次新开一个终端，都会执行bashrc）。
-#只要在同一个shell界面，不管多少用户登录都只执行一次
 vi /etc/profile
-#此文件为系统的每个用户设置环境信息,当用户第一次登录时,该文件被执行. 并从/etc/profile.d目录的配置文件中搜集shell的设置。
-#如果进入shell用普通用户登录后，再用su进入root用户那么将会被执行两次
+```
+> 此文件为系统的每个用户设置环境信息,当用户第一次登录时,该文件被执行.
+> 并从`/etc/profile.d`目录的配置文件中搜集shell的设置。
+>
+> 如果进入shell用普通用户登录后，再用su进入root用户那么将会被执行两次
+```bash
 vi /etc/bashrc
-
-#当root用户登录时执行
+```
+> 当root用户登录时执行
+```bash
 vi /root/.bash_profile
-#当每次root用户退出系统(退出bash shell)时,执行该文件
+> 当每次root用户退出系统(退出bash shell)时,执行该文件
+```bash
 vi /root/.bash_logout
-#当root用户登录时以及每次打开新的shell时,该该文件被读取。
+```
+> 当root用户登录时以及每次打开新的shell时,该该文件被读取。
+```bash
 vi /root/.bashrc
-
-#/etc/profile中设定的变量(全局)的可以作用于任何用户,/.bashrc设定的变量(局部)只能继承/etc/profile中的变量,他们是”父子”关系
+```
+> `/etc/profile`中设定的变量(全局)的可以作用于任何用户,
+> `/.bashrc`设定的变量(局部)只能继承`/etc/profile`中的变量,他们是”父子”关系
 ```
 ### 输入`shift + g`也就是大写的G跳转到末尾添加以下内容：
 ```bash
