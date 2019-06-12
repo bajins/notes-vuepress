@@ -49,6 +49,13 @@ List<Invest> is = ht.find(hql, new String[] { loanId, InvestStatus.REPAYING });
 // 或者
 String hql = "from Invest i where i.loan.id=? and i.status=?";
 List<Invest> is = ht.find(hql, loanId, InvestStatus.REPAYING );
+
+// 使用in
+String hql = "from Invest i where i.loan.id=? and i.status in(:status)";
+List<Invest> is = session.createSQLQuery(sql)
+					.setParameter(0, loanId)
+					.setParameterList("status", Arrays.asList(InvestStatus.REPAYING, InvestStatus.OVERDUE,
+							InvestStatus.COMPLETE, InvestStatus.BID_SUCCESS))
 ```
 
 
