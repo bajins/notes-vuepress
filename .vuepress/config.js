@@ -32,7 +32,7 @@ module.exports = {
         ['meta', {name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png'}],
         ['meta', {name: 'msapplication-TileColor', content: '#000000'}]
     ],
-    theme: 'vuepress-theme-reco',
+    theme: '',
     themeConfig: {
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL,当你提供了 themeConfig.repo 选项，
         // 将会自动在每个页面的导航栏生成生成一个 GitHub 链接，以及在页面的底部生成一个 "Edit this page" 链接。

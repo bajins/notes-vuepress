@@ -1428,8 +1428,8 @@ axios@0.19.0:
 
 axios@^0.18.0:
   version "0.18.1"
-  resolved "https://registry.npm.taobao.org/axios/download/axios-0.18.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faxios%2Fdownload%2Faxios-0.18.1.tgz#ff3f0de2e7b5d180e757ad98000f1081b87bcea3"
-  integrity sha1-/z8N4ue10YDnV62YAA8Qgbh7zqM=
+  resolved "https://registry.npmjs.org/axios/-/axios-0.18.1.tgz#ff3f0de2e7b5d180e757ad98000f1081b87bcea3"
+  integrity sha512-0BfJq4NSfQXd+SkFdrvFbG7addhYSBA2mQwISr46pD6E5iqkWg02RAs8vyTT/j0RTnoYmeXauBuSv1qKwR179g==
   dependencies:
     follow-redirects "1.5.10"
     is-buffer "^2.0.2"
@@ -7430,16 +7430,6 @@ vuepress-plugin-flowchart@^1.4.3:
   integrity sha512-Vyhh2xiCvMoubwBBDdre5u2tekp3B0N9vGDxAbgHUJH5L6V1venq1pWsbhKi9Wmr2Pa/yOTq3se1ji2w/kDr+A==
   dependencies:
     flowchart.js "^1.11.3"
-
-vuepress-theme-reco@latest:
-  version "1.0.0-alpha.23"
-  resolved "https://registry.npm.taobao.org/vuepress-theme-reco/download/vuepress-theme-reco-1.0.0-alpha.23.tgz#422b9a1b5609fbd901d8eb4275ffa9913510c49e"
-  integrity sha1-QiuaG1YJ+9kB2OtCdf+pkTUQxJ4=
-  dependencies:
-    "@vuepress/plugin-blog" "1.0.0-alpha.47"
-    leancloud-storage "3.13.0"
-    valine "1.3.6"
-    vue-click-outside "1.0.7"
 
 vuepress@^1.0.0-alpha.50:
   version "1.0.0-rc.1"
