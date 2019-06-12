@@ -156,8 +156,12 @@ then
     # 本地与远程的差集 :（显示远程有而本地没有的commit信息）
     #is_up=`git log $git_branch..origin/$git_branch`
     
-    
-    if [ ! -n "$is_up" ]
+    # 获取项目克隆时间
+    a=`stat -c %Y $project_dir/$project_name/`
+    # 获取当前时间
+    b=`date +%s`
+    # 如果项目克隆时间超过一分钟并且分支有更新
+    if [ $[ $b - $a ] -gt 60 && ! -n "$is_up" ]
     then
         echo "分支$git_branch没有更新"
         exit 1
