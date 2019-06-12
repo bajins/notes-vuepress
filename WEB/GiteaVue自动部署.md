@@ -197,11 +197,7 @@ http://服务器ip:8888/hook?access_key=5C84B7A5UeXYalfNL6WEpi3jdmmxhFlk3jpvEw02
 ### 第二种：[`netcat`命令](https://segmentfault.com/a/1190000016626298)
 #### 实现监听端口->响应请求->执行脚本部署
 
-#### 下面的命令可以一直监听 9999 端口，有请求的话就响应 echo 的内容。然后结束命令。
-```bash
-echo -e "hello" | nc -l 0.0.0.0 9999
-```
-#### 配合`&&`连接起来，就可以做到通过 Curl 触发部署操作了。
+#### 一直监听 9999 端口，有请求就响应`echo`的内容，并配合`&&`连接起来，通过 Curl 触发部署操作
 ```bash
 echo -e "HTTP/1.1 200 ok,glass\r\nConnection: close\r\n\r" |  nc -l 0.0.0.0 9999 ; sh /home/update.sh >> /home/logs/webhook.log 2>&1
 ```
