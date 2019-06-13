@@ -140,7 +140,11 @@ module.exports = [
                     {
                         text: '获取激活key',
                         link: 'https://key.woytu.com'
-                    }
+                    },
+                    {
+                        text: 'Nginx配置美化',
+                        link: 'https://tool.bajins.com'
+                    },
                 ]
             },
             {
