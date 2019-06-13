@@ -136,6 +136,10 @@ module.exports = [
                     {
                         text: 'WeChat小程序',
                         link: 'https://woetu.com'
+                    },
+                    {
+                        text: '获取激活key',
+                        link: 'https://key.woytu.com'
                     }
                 ]
             },
