@@ -170,7 +170,8 @@ then
     # 执行pull命令拉取最新的代码
     git pull origin $git_branch
     
-    
+    # 安装npm依赖
+    npm install
     # 使用npm run build构建Vue项目
     npm run build
     
