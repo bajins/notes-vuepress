@@ -7,23 +7,32 @@
 
 ## [KVM一键安装最新内核并开启BBR](#一)
 
-https://github.com/shadowsocks/shadowsocks-windows/releases
+# shadowsocks
+[shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows/releases)
 
-https://github.com/shadowsocks/shadowsocks-android/releases
+[shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases)
 
-https://github.com/v2ray/v2ray-core/releases
+## v2ray
+[v2ray-tools](https://www.v2ray.com/awesome/tools.html)
 
-https://github.com/2dust/v2rayNG/releases
+[v2ray-core](https://github.com/v2ray/v2ray-core/releases)
 
-https://yuan.ga/v2ray-complete-tutorial/
+[v2rayNG-android](https://github.com/2dust/v2rayNG/releases)
 
-https://github.com/Jrohy/multi-v2ray
+[v2rayN-Windows](https://github.com/2dust/v2rayN/releases)
+
+[V2RayW-Windows](https://github.com/Cenmrev/V2RayW/releases)
+
+[v2ray教程](https://yuan.ga/v2ray-complete-tutorial/)
+
+[multi-v2ray](https://github.com/Jrohy/multi-v2ray)
 
 
-### 在线PAC
+### PAC
 https://github.com/lbp0200/mono_pac
 
-#### 需手动复制覆盖本地PAC文件
+https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
+
 https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/other/pac.txt
 *********************************************************************************
 
