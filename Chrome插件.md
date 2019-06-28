@@ -50,21 +50,7 @@ sidebar: auto
 
 
 
-## other
-
-[脚本助手：tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-
-[脚本助手：violentmonkey](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
-
-[阅读模式：reader-view](https://chrome.google.com/webstore/detail/reader-view/iibolhpkjjmoepndefdmdlmbpfhlgjpl)
-
-[阅读模式：just-read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod)
-
-[保存一个链接列表，以便稍后阅读：reading-list](https://chrome.google.com/webstore/detail/reading-list/lloccabjgblebdmncjndmiibianflabo)
-
-[二维码生成器：quick-qr-code-generator](https://chrome.google.com/webstore/detail/quick-qr-code-generator/afpbjjgbdimpioenaedcjgkaigggcdpp)
-
-[二维码生成器：qr-code-generator-and-rea](https://chrome.google.com/webstore/detail/qr-code-generator-and-rea/hkojjajclkgeijhcmfjcjkddfjpaimek)
+## 视图
 
 [视频转GIF：视频转gif](https://chrome.google.com/webstore/detail/%E8%A7%86%E9%A2%91%E8%BD%ACgif/leddonjpeickjppkdpmojghbikcimbca)
 
@@ -82,15 +68,34 @@ sidebar: auto
 
 [截取长图工具（整个网页）：full-page-screen-capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl)
 
+
+
+
+## 翻译
+
+[Selection-Translator](https://github.com/Selection-Translator)
+
+[translate-man](https://chrome.google.com/webstore/detail/translate-man/fnjoonbenhhijnoegpfkpagjamomgjjm)
+
+
+## other
+
+[脚本助手：tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+
+[脚本助手：violentmonkey](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
+
+[阅读模式：reader-view](https://chrome.google.com/webstore/detail/reader-view/iibolhpkjjmoepndefdmdlmbpfhlgjpl)
+
+[阅读模式：just-read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod)
+
+[保存一个链接列表，以便稍后阅读：reading-list](https://chrome.google.com/webstore/detail/reading-list/lloccabjgblebdmncjndmiibianflabo)
+
+[二维码生成器：quick-qr-code-generator](https://chrome.google.com/webstore/detail/quick-qr-code-generator/afpbjjgbdimpioenaedcjgkaigggcdpp)
+
+[二维码生成器：qr-code-generator-and-rea](https://chrome.google.com/webstore/detail/qr-code-generator-and-rea/hkojjajclkgeijhcmfjcjkddfjpaimek)
+
 [代理助手：proxy-switchyomega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
 
 [清除浏览器历史记录/缓存/Cookie：super-history-cache-clean](https://chrome.google.com/webstore/detail/super-history-cache-clean/afelaengidkffdcabnhdoeojoeoonfcn)
 
 [清除浏览器历史记录/缓存/Cookie：chrome-cleaner](https://chrome.google.com/webstore/detail/chrome-cleaner/lbpddeimojmbpkbfckjpnbpehgnbpnnl)
-
-
-
-
-
-
-
