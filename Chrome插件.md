@@ -95,6 +95,7 @@ sidebar: auto
 [二维码生成器：qr-code-generator-and-rea](https://chrome.google.com/webstore/detail/qr-code-generator-and-rea/hkojjajclkgeijhcmfjcjkddfjpaimek)
 
 [代理助手：proxy-switchyomega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
+[GitHub](https://github.com/FelisCatus/SwitchyOmega/releases)
 
 [清除浏览器历史记录/缓存/Cookie：super-history-cache-clean](https://chrome.google.com/webstore/detail/super-history-cache-clean/afelaengidkffdcabnhdoeojoeoonfcn)
 
