@@ -6,8 +6,6 @@
 @echo off
 cacls.exe "%SystemDrive%\System Volume Information" >nul 2>nul
 if exist "%temp%\getadmin.vbs" del /f /q "%temp%\getadmin.vbs"
-"%temp%\getadmin.vbs" /f
-if exist "%temp%\getadmin.vbs" del /f /q "%temp%\getadmin.vbs"
 
 :: 下面为执行命令
 
@@ -15,8 +13,7 @@ if exist "%temp%\getadmin.vbs" del /f /q "%temp%\getadmin.vbs"
 
 ### 方式二
 ```batch
-fltmc>nul||cd/d %~dp0&&mshta
-vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",1)(window.close)
+fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",1)(window.close)
 
 :: 下面为执行命令
 
@@ -26,62 +23,36 @@ vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",
 ### 方式三
 ```batch
 @echo off
-:: BatchGotAdmin
-:-------------------------------------
-REM --> Check for permissions
+:: 检查权限
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
-REM --> If error flag set, we do not have admin.
+:: 如果没有管理员权限，就请求管理权限
 if '%errorlevel%' NEQ '0' (
-echo Requesting administrative privileges...
-goto UACPrompt
+    goto UACPrompt
 ) else ( goto gotAdmin )
+
 :UACPrompt
-echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"
-echo UAC.ShellExecute "%~s0", "", "", "runas", 1 >> "%temp%\getadmin.vbs"
-"%temp%\getadmin.vbs"
-exit /B
+    echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"
+    echo UAC.ShellExecute "%~s0", "", "", "runas", 1 >> "%temp%\getadmin.vbs"
+    "%temp%\getadmin.vbs"
+    exit /B
+
 :gotAdmin
-if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )
-pushd "%CD%"
-CD /D "%~dp0"
-:--------------------------------------
+    if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )
+    pushd "%CD%"
+    CD /D "%~dp0"
 
-:: 下面为执行命令
-
-```
-
-
-### 方式四
-```batch
-@echo off  
->nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system" 
- 
-if '%errorlevel%' NEQ '0' (  
-    goto UACPrompt  
-) else ( goto gotAdmin )  
-   
-:UACPrompt
-    echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs" 
-    echo UAC.ShellExecute "%~s0", "", "", "runas", 1 >> "%temp%\getadmin.vbs" 
-    "%temp%\getadmin.vbs" 
-    exit /B  
-   
-:gotAdmin
-    if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )  
-    pushd "%CD%" 
-    CD /D "%~dp0" 
- 
 :begin
 
 :: 下面为执行命令
 
 ```
 
+
 ## 隐藏窗口运行（静默运行）
 ```batch
 @echo off
 if "%1" == "h" goto begin
-mshta vbscript:createobject("wscript.shell").run("%~nx0 h",0)(window.close)&&exit
+mshta vbscript:createobject("wscript.shell").run("%~nx0 h",0)(window.close) && exit
 :begin
 
 :: 下面为执行命令
