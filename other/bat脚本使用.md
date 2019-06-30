@@ -85,12 +85,14 @@ REG ADD "HKU\.DEFAULT\Control Panel\Keyboard" /v InitialKeyboardIndicators /t RE
 
 ```
 
-```diff
-/v 设置键名(value)
-/t 设置数据类型(type)
-/d 设置添加的值(data)
-/f 表示强制(forbidden)
-```
+> `/v` 设置键名(value)
+> 
+> `/t` 设置数据类型(type)
+> 
+> `/d` 设置添加的值(data)
+> 
+> `/f` 表示强制(forbidden)
+
 ## 注册Windows服务
 https://www.cnblogs.com/pingming/p/5108947.html
 ### 加入服务:
