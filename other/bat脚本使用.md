@@ -47,6 +47,15 @@ if '%errorlevel%' NEQ '0' (
 
 ```
 
+### 方式四
+```powershell
+%1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)
+cd /d "%~dp0"
+
+:: 下面为执行命令
+
+```
+
 
 ## 隐藏窗口运行（静默运行）
 ```powershell
