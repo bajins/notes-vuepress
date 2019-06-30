@@ -2,7 +2,7 @@
 
 ## 获取管理员权限
 ### 方式一
-```batch
+```powershell
 @echo off
 cacls.exe "%SystemDrive%\System Volume Information" >nul 2>nul
 if exist "%temp%\getadmin.vbs" del /f /q "%temp%\getadmin.vbs"
@@ -12,7 +12,7 @@ if exist "%temp%\getadmin.vbs" del /f /q "%temp%\getadmin.vbs"
 ```
 
 ### 方式二
-```batch
+```powershell
 fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",1)(window.close)
 
 :: 下面为执行命令
@@ -21,7 +21,7 @@ fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellE
 
 
 ### 方式三
-```batch
+```powershell
 @echo off
 :: 检查权限
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
@@ -49,7 +49,7 @@ if '%errorlevel%' NEQ '0' (
 
 
 ## 隐藏窗口运行（静默运行）
-```batch
+```powershell
 @echo off
 if "%1" == "h" goto begin
 mshta vbscript:createobject("wscript.shell").run("%~nx0 h",0)(window.close) && exit
@@ -58,17 +58,17 @@ mshta vbscript:createobject("wscript.shell").run("%~nx0 h",0)(window.close) && e
 :: 下面为执行命令
 
 ```
-```batch
+```powershell
 :: 静默运行软件
 Pushd %~dp0
 start /wait /B "" "%~dp0软件名称" /S
 ```
-````batch
+````powershell
 :: 添加开机静默启动
 Pushd %~dp0
 start /wait /B "" "%~dp0软件名称" /ADD
 ````
-````batch
+````powershell
 :: 删除开机静默启动
 Pushd %~dp0
 start /wait /B "" "%~dp0软件名称" /DEL
@@ -76,7 +76,7 @@ start /wait /B "" "%~dp0软件名称" /DEL
 
 
 ## 修改注册表
-```batch
+```powershell
 echo 删除桌面IE图标
 REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{B416D21B-3B22-B6D4-BBD3-BBD452DB3D5B}" /f
 
@@ -94,22 +94,22 @@ REG ADD "HKU\.DEFAULT\Control Panel\Keyboard" /v InitialKeyboardIndicators /t RE
 ## 注册Windows服务
 https://www.cnblogs.com/pingming/p/5108947.html
 ### 加入服务:
-```batch
+```powershell
 ::等号后面的空格必须
 sc create 服务名称 binPath= 路径 start= auto
 ```
 ### 删除服务:
-```batch
+```powershell
 sc delete 服务名称
 ```
 
 ### 例一：
-```batch
+```powershell
 sc create frp内网穿透 binPath= D:\frp\frps.bat start= auto displayname= "frp内网穿透"
 ```
 
 ### 例二：
-```batch
+```powershell
 sc create frp内网穿透 binPath= "cmd.exe /c D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini" start= auto displayname= "frp内网穿透"
 ```
 
