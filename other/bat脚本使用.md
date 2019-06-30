@@ -124,10 +124,58 @@ sc create frp内网穿透 binPath= D:\frp\frps.bat start= auto displayname= "frp
 sc create frp内网穿透 binPath= "cmd.exe /c D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini" start= auto displayname= "frp内网穿透"
 ```
 
+## 添加快捷方式
+```powershell
+@echo off
+
+::设置快捷方式名称（必选）
+set LnkName=测试.exe
+
+::设置快捷方式显示的说明（可选）
+set Desc=测试
+
+:: 设置快捷方式存放路径，DesKtop、Startup、AllUsersStartup、AllUsersDesktop
+set folder=DesKtop
+
+
+::设置程序或文件的完整路径（必选）
+set Program=%~dp0%LnkName%
+
+::设置程序的工作路径，一般为程序主目录，此项若留空，脚本将自行分析路径
+set WorkDir=%~dp0
+
+if not defined WorkDir call:GetWorkDir "%Program%"
+
+(
+	echo Set WshShell=CreateObject("WScript.Shell"^)
+	echo folder=WshShell.SpecialFolders("%folder%"^)
+	echo Set oShellLink=WshShell.CreateShortcut(folder^&"\%LnkName%.lnk"^)
+	echo oShellLink.TargetPath="%Program%"
+	echo oShellLink.WorkingDirectory="%WorkDir%"
+	echo oShellLink.WindowStyle=1
+	echo oShellLink.Description="%Desc%"
+	echo oShellLink.Save
+) > makelnk.vbs
+
+echo 快捷方式创建成功！
+makelnk.vbs
+del /f /q makelnk.vbs
+exit
+
+goto :eof
+
+:GetWorkDir
+	set WorkDir=%~dp1
+	set WorkDir=%WorkDir:~,-1%
+
+goto :eof
+```
+
 ## VBScript
 
 ### Windows启动运行
 
-> 按`win+r`打开运行窗口，输入以下命令`shell:startup`打开启动文件夹，把vbs后缀文件放入
-
+> 按`win+r`打开运行窗口，输入以下命令`shell:startup`打开启动文件夹，把快捷方式放入
+>
+> 可利用[脚本添加快捷方式](#添加快捷方式)直接在启动文件夹中生成快捷方式
 
