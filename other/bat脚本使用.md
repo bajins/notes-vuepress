@@ -127,6 +127,9 @@ sc create frp内网穿透 binPath= "cmd.exe /c D:\frp内网穿透工具\frpc.exe
 ## 添加快捷方式
 ```powershell
 @echo off
+if "%1" == "h" goto begin
+mshta vbscript:createobject("wscript.shell").run("%~nx0 h",0)(window.close) && exit
+:begin
 
 ::设置快捷方式名称（必选）
 set LnkName=测试.exe
@@ -155,9 +158,9 @@ if not defined WorkDir call:GetWorkDir "%Program%"
 	echo oShellLink.WindowStyle=1
 	echo oShellLink.Description="%Desc%"
 	echo oShellLink.Save
+	echo Msgbox("快捷方式创建成功！"^)
 ) > makelnk.vbs
 
-echo 快捷方式创建成功！
 makelnk.vbs
 del /f /q makelnk.vbs
 exit
@@ -174,7 +177,7 @@ goto :eof
 ## VBScript
 [WScript对象属性](https://www.cnblogs.com/wakey/p/5795845.html)
 ### 输入内容到记事本
-```vb
+```visual-basic
 ' 进行变量声明
 Dim Wshshell,Msg
 
@@ -214,7 +217,7 @@ Wshshell.SendKeys "^{s}"
 WScript.Quit
 ```
 ### Windows特殊文件夹
-```vb
+```visual-basic
 ' 设置对脚本宿主对象引用赋给变量
 Set Wshshell = Wscript.CreateObject("Wscript.Shell")
 ' WshShell对象的SpecialFolders属性返WshSpecialFolders 对象，该对象是一个特殊文件夹集合，其中包含整套Windows特殊文件夹
