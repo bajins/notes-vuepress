@@ -49,3 +49,21 @@
 ```go
 // 生成脚手架 user表
 bee generate scaffold user -fields="id:int34,name:string,gender:int,age:int" -driver=mysql -conn="root:asd123@tcp(127.0.0.1:3306)/user
+```
+
+
+
+## 安装最新环境
+```bach
+# 到官网下载最新版并解压 https://golang.google.cn/dl/
+# 查看当前路径
+pwd
+# 添加环境变量
+vi /etc/profile
+# 在末尾添加以下命令
+export GOROOT=这里为go文件夹路径
+export PATH=$PATH:$GOROOT/bin
+
+# 刷新一下
+source /etc/profile
+```
