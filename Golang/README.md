@@ -54,7 +54,7 @@ bee generate scaffold user -fields="id:int34,name:string,gender:int,age:int" -dr
 
 
 ## 安装最新环境
-```bach
+```bash
 # 到官网下载最新版并解压 https://golang.google.cn/dl/
 # 查看当前路径
 pwd
