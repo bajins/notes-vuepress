@@ -248,7 +248,7 @@ Msgbox("模板： " & sf("Templates"))
 Msgbox("应用程序数据： " & sf("AppData"))
 ```
 
-### Windows启动运行
+## Windows启动运行
 
 > 按`win+r`打开运行窗口，输入以下命令`shell:startup`打开启动文件夹，把快捷方式放入
 >

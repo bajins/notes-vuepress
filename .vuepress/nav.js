@@ -63,6 +63,81 @@ module.exports = [
         ]
     },
     {
+        text: '个人导航',
+        items: [
+            {
+                // text: '',
+                items: [
+                    {
+                        text: '个人主页',
+                        link: 'https://www.bajins.com'
+                    },
+                    {
+                        text: '备份库',
+                        link: 'https://git.woetu.com/clater/UseNotes'
+                    },
+                    {
+                        text: '绿色网盘',
+                        link: 'https://www.woytu.com',
+                    },
+                    {
+                        text: 'WeChat小程序',
+                        link: 'https://woetu.com'
+                    },
+                    {
+                        text: '获取激活key',
+                        link: 'https://key.woytu.com'
+                    },
+                    {
+                        text: 'Nginx配置格式化',
+                        link: 'https://tool.bajins.com'
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        text: '项目',
+        items: [
+            {
+                text: 'Homepage',
+                link: 'https://github.com/woytu/Homepage'
+            },
+            {
+                text: '自动设置Bing壁纸',
+                link: 'https://github.com/woytu/auto-set-bing-wallpaper'
+            },
+            {
+                text: 'NSIS_SetupSkin',
+                link: 'https://github.com/woytu/NSIS_SetupSkin'
+            },
+            {
+                text: 'DirectoryLister',
+                link: 'https://github.com/woytu/DirectoryLister'
+            },
+            {
+                text: 'key-gin',
+                link: 'https://github.com/woytu/key-gin'
+            },
+            {
+                text: 'key-flask',
+                link: 'https://github.com/woytu/key-flask'
+            },
+            {
+                text: 'tool-flask',
+                link: 'https://github.com/woytu/tool-flask'
+            },
+            {
+                text: 'ptcms',
+                link: 'https://github.com/woytu/ptcms'
+            },
+            {
+                text: 'ygbook',
+                link: 'https://github.com/woytu/ygbook'
+            },
+        ]
+    },
+    {
         text: '了解更多',
         items: [
             {
@@ -115,67 +190,4 @@ module.exports = [
 
         ]
     },
-    {
-        text: '个人导航',
-        items: [
-            {
-                // text: '',
-                items: [
-                    {
-                        text: '个人主页',
-                        link: 'https://www.bajins.com'
-                    },
-                    {
-                        text: '备份库',
-                        link: 'https://git.woetu.com/clater/UseNotes'
-                    },
-                    {
-                        text: '绿色网盘',
-                        link: 'https://www.woytu.com',
-                    },
-                    {
-                        text: 'WeChat小程序',
-                        link: 'https://woetu.com'
-                    },
-                    {
-                        text: '获取激活key',
-                        link: 'https://key.woytu.com'
-                    },
-                    {
-                        text: 'Nginx配置美化',
-                        link: 'https://tool.bajins.com'
-                    },
-                ]
-            },
-            {
-                // text: '项目',
-                items: [
-                    {
-                        text: 'Homepage',
-                        link: 'https://github.com/woytu/Homepage'
-                    },
-                    {
-                        text: 'NSIS_SetupSkin',
-                        link: 'https://github.com/woytu/NSIS_SetupSkin'
-                    },
-                    {
-                        text: 'DirectoryLister',
-                        link: 'https://github.com/woytu/DirectoryLister'
-                    },
-                    {
-                        text: 'key-flask',
-                        link: 'https://github.com/woytu/key-flask'
-                    },
-                    {
-                        text: 'ptcms',
-                        link: 'https://github.com/woytu/ptcms'
-                    },
-                    {
-                        text: 'ygbook',
-                        link: 'https://github.com/woytu/ygbook'
-                    },
-                ]
-            },
-        ]
-    }
 ]
