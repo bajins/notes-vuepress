@@ -126,6 +126,13 @@ sc create frp内网穿透 binPath= "cmd.exe /c D:\frp内网穿透工具\frpc.exe
 
 ## 添加快捷方式
 ```powershell
+:: -------------------------------------------------------------------
+::                          添加开机静默启动
+::                     by https://www.bajins.com
+::                   GitHub https://woytu.github.io
+:: -------------------------------------------------------------------
+
+
 @echo off
 if "%1" == "h" goto begin
 mshta vbscript:createobject("wscript.shell").run("%~nx0 h",0)(window.close) && exit
