@@ -271,6 +271,7 @@ for /r %~dp0 %%a in (*.jpg,*.png,*.bmp) do (
 ```bash
 ::获取不为指定后缀的文件
 for /f "delims=" %%i in ('dir /s /b /a  %~dp0 ^| findstr /v "\.jpg\> \.png\> \.bmp\>"') do (
-	echo %%i >> t.txt
+	::把文件后缀写入文件
+	echo %%~xi >> t.txt
 )
 ```
