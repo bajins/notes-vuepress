@@ -254,3 +254,23 @@ Msgbox("应用程序数据： " & sf("AppData"))
 >
 > 可利用[脚本添加快捷方式](#添加快捷方式)直接在启动文件夹中生成快捷方式
 
+## 命令
+### 获取为指定后缀的文件
+```bash
+::获取为指定后缀的文件
+for /r %~dp0 %%a in (*.jpg,*.png,*.bmp) do (
+	::把文件后缀赋值给变量
+	set var = %%~xa
+	::判断后缀
+	if /i "!var!" neq ".bmp" (
+		echo %var% >> test.txt
+	)
+)
+```
+### 获取不为指定后缀的文件
+```bash
+::获取不为指定后缀的文件
+for /f "delims=" %%i in ('dir /s /b /a  %~dp0 ^| findstr /v "\.jpg\> \.png\> \.bmp\>"') do (
+	echo %%i >> t.txt
+)
+```
