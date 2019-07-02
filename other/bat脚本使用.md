@@ -249,7 +249,10 @@ Msgbox("应用程序数据： " & sf("AppData"))
 ```
 
 ## Windows启动运行
-
+### 增加注册表方式
+```bash
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d 软件路径 /f
+```
 > 按`win+r`打开运行窗口，输入以下命令`shell:startup`打开启动文件夹，把快捷方式放入
 >
 > 可利用[脚本添加快捷方式](#添加快捷方式)直接在启动文件夹中生成快捷方式
