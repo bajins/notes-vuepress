@@ -260,10 +260,15 @@ Msgbox("应用程序数据： " & sf("AppData"))
 ::获取为指定后缀的文件
 for /r %~dp0 %%a in (*.jpg,*.png,*.bmp) do (
 	::把文件后缀赋值给变量
-	set var = %%~xa
+	set suffix = %%~xa
+	::把文件名赋值给变量（没有后缀）
+	set name = %%~na
+	::把完整文件名赋值给变量（包含后缀）
+	set filename = %%~nxa
+	
 	::判断后缀
-	if /i "!var!" neq ".bmp" (
-		echo %var% >> test.txt
+	if /i "!suffix!" neq ".bmp" (
+		echo %suffix% >> test.txt
 	)
 )
 ```
@@ -272,6 +277,6 @@ for /r %~dp0 %%a in (*.jpg,*.png,*.bmp) do (
 ::获取不为指定后缀的文件
 for /f "delims=" %%i in ('dir /s /b /a  %~dp0 ^| findstr /v "\.jpg\> \.png\> \.bmp\>"') do (
 	::把文件后缀写入文件
-	echo %%~xi >> t.txt
+	echo %%~nxi >> t.txt
 )
 ```
