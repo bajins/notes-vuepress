@@ -139,6 +139,8 @@ mshta vbscript:createobject("wscript.shell").run("%~nx0 h",0)(window.close) && e
 :begin
 
 ::设置快捷方式名称（必选）
+:: %~dp0 当前所在目录
+:: %0 当前执行脚本路径
 set LnkName=测试.exe
 
 ::设置快捷方式显示的说明（可选）
