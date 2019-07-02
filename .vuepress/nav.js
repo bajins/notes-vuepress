@@ -105,7 +105,7 @@ module.exports = [
             },
             {
                 text: '自动设置Bing壁纸',
-                link: 'https://github.com/woytu/auto-set-bing-wallpaper'
+                link: 'https://github.com/woytu/windows-wallpaper-python'
             },
             {
                 text: 'NSIS_SetupSkin',
