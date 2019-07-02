@@ -250,7 +250,7 @@ Msgbox("应用程序数据： " & sf("AppData"))
 
 ## Windows启动运行
 ### 增加注册表方式
-```bash
+```powershell
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d 软件路径 /f
 ```
 > 按`win+r`打开运行窗口，输入以下命令`shell:startup`打开启动文件夹，把快捷方式放入
@@ -259,7 +259,7 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d 软
 
 ## 命令
 ### 获取为指定后缀的文件
-```bash
+```powershell
 ::获取为指定后缀的文件
 for /r %~dp0 %%a in (*.jpg,*.png) do (
 	::把文件后缀赋值给变量
@@ -278,7 +278,7 @@ for /r %~dp0 %%a in (*.jpg,*.png) do (
 )
 ```
 ### 获取不为指定后缀的文件
-```bash
+```powershell
 ::获取不为指定后缀的文件
 for /f "delims=" %%i in ('dir /s /b /a  %~dp0 ^| findstr /v "\.bat\> \.text\> \.exe\>"') do (
 	::把文件后缀写入文件
