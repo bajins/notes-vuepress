@@ -5,6 +5,8 @@
 
 [frpspro](https://github.com/dylanbai8/frpspro)
 
+[frp-onekey](https://github.com/MvsCode/frp-onekey)
+
 ### https://github.com/clangcn/onekey-install-shell
 #### [获取最新版本frp](https://api.github.com/repos/fatedier/frp/releases/latest)
 ```bash
