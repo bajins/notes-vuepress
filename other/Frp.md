@@ -5,84 +5,96 @@
 
 [frpspro](https://github.com/dylanbai8/frpspro)
 
-[frp-onekey](https://github.com/MvsCode/frp-onekey)
-
-### https://github.com/clangcn/onekey-install-shell
-#### [获取最新版本frp](https://api.github.com/repos/fatedier/frp/releases/latest)
+## 获取frp最新版本号
 ```bash
-# 安装
-wget --no-check-certificate https://raw.githubusercontent.com/clangcn/onekey-install-shell/master/frps/install-frps.sh -O ./install-frps.sh && chmod 700 ./install-frps.sh && ./install-frps.sh install
+wget -qO- https://github.com/fatedier/frp/releases/latest | grep "<title>" |sed -r 's/.*Release (.> ) · fatedier.*/\1/'
+```
+```bash
+curl -s https://api.github.com/repos/fatedier/frp/releases/latest --connect-timeout 10| grep 'tag_name' | cut -d\" -f4
+wget -qO- https://api.github.com/repos/fatedier/frp/releases/latest --connect-timeout 10| grep 'tag_name' | cut -d\" -f4
+```
+
+## [frp-onekey](https://github.com/MvsCode/frp-onekey)
+
+```bash
+# 下载脚本
+wget --no-check-certificate https://raw.githubusercontent.com/MvsCode/frp-onekey/master/install-frps.sh -O ./install-frps.sh
+# 脚本授权
+chmod 700 ./install-frps.sh
+# 运行脚本安装
+./install-frps.sh install
 # 升级
 bash install-frps.sh update
-#卸载
+# 卸载
 bash install-frps.sh uninstall
 ```
 
 
-```diff
-Loading network version for frps, please wait...
-frps Latest release file frp_0.8.1_linux_amd64.tar.gz    #此步骤会自动获取frp最新版本，自动操作，无需理会
-Loading You Server IP, please wait...
-You Server IP:12.12.12.12                                #自动获取你服务器的IP地址
-Please input your server setting:
+### 设置参数说明
 
-+ 输入frp提供服务的端口，用于服务器端和客户端通信
-Please input frps bind_port [1-65535](Default Server Port: 5443):
+> 输入frp提供服务的端口，用于服务器端和客户端通信
+>
+> `Please input frps bind_port [1-65535](Default Server Port: 5443):`
 
-+ 输入frp进行http穿透的http服务端口
-Please input frps vhost_http_port [1-65535](Default vhost_http_port: 80):
+> 输入frp进行http穿透的http服务端口
+>
+> `Please input frps vhost_http_port [1-65535](Default vhost_http_port: 80):`
 
-+ 输入frp进行https穿透的https服务端口
-Please input frps vhost_https_port [1-65535](Default vhost_https_port: 443):
+> 输入frp进行https穿透的https服务端口
+>
+> `Please input frps vhost_https_port [1-65535](Default vhost_https_port: 443):`
 
-+ 输入frp的控制台服务端口，用于查看frp工作状态
-Please input frps dashboard_port [1-65535](Default dashboard_port: 6443):
+> 输入frp的控制台服务端口，用于查看frp工作状态
+>
+> `Please input frps dashboard_port [1-65535](Default dashboard_port: 6443):`
 
-+输入控制台账号，默认admin
-Please input dashboard_user (Default: admin):
+> 输入控制台账号，默认admin
+>
+> `Please input dashboard_user (Default: admin):`
 
-+输入控制台密码，默认随机
-Please input dashboard_pwd (Default: d5Ai7XhC):
+> 输入控制台密码，默认随机
+>
+> `Please input dashboard_pwd (Default: d5Ai7XhC):`
 
-+ 输入frp服务器和客户端通信的密码，默认是随机生成的
-Please input token (Default: QZwoVJKgfLMhSQ1B):
+> 输入frp服务器和客户端通信的密码，默认是随机生成的
+> 
+> `Please input token (Default: QZwoVJKgfLMhSQ1B):`
 
-+ 设置每个代理可以创建的连接池上限，默认50
-Please input frps max_pool_count [1-200](Default max_pool_count: 50):
+> 设置每个代理可以创建的连接池上限，默认50
+> 
+> `Please input frps max_pool_count [1-200](Default max_pool_count: 50):`
 
-+ 设置日志等级，4个选项，默认是info
-##### Please select log_level #####
-1: info(default)
-2: warn
-3: error
-4: debug
-#####################################################
+> `Please select log_level`设置日志等级，4个选项，默认是info
+>> 1: info(default)
+>> 
+>> 2: warn
+>> 
+>> 3: error
+>> 
+>> 4: debug
 
-
-+ 设置日志保留天数，范围是1到30天，默认保留3天。
-Please input frps log_max_days [1-30](Default log_max_days: 3 day):
-
-+ 设置是否开启日志记录，默认开启，开启后日志等级及保留天数生效，否则等级和保留天数无效
-##### Please select log_file #####
-1: enable(default)
-2: disable
-#####################################################
+> 设置日志保留天数，范围是1到30天，默认保留3天。
+> 
+> `Please input frps log_max_days [1-30](Default log_max_days: 3 day):`
 
 
-##### Please select tcp_mux #####
-1: enable (default)
-2: disable
-#####################################################
+> `Please select log_file`设置是否开启日志记录，默认开启，开启后日志等级及保留天数生效，否则等级和保留天数无效
+>> 1: enable(default)
+>>
+>> 2: disable
+
+> `Please select tcp_mux`
+>> 1: enable (default)
+>>
+>> 2: disable
+
+> `Please select kcp support`
+>> 1: enable (default)
+>>
+>> 2: disable
 
 
-##### Please select kcp support #####
-1: enable (default)
-2: disable
-#####################################################
-
-```
-
-## 管理命令
+### 管理命令
 ```bash
 /etc/init.d/frps start
 /etc/init.d/frps stop
@@ -114,5 +126,3 @@ frpc -c frpc.ini
 # 全部配置
 frpc -c frpc_full.ini
 ```
-
-## [客户端工具](https://raw.githubusercontent.com/woytu/UseNotes/master/other/%E6%88%91%E6%98%93%E5%9B%BEfrpc%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%90%AF%E5%8A%A8%E5%B7%A5%E5%85%B7.zip)

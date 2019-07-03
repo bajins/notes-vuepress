@@ -4,8 +4,8 @@
   "name": "blog",
   "description": "blog of VuePress",
   "scripts": {
-    "dev": "rimraf docs/* && vuepress dev ",
-    "build": "rimraf docs/* && vuepress build",
+    "dev": "node .vuepress/fileutil.js && rimraf docs/* && vuepress dev",
+    "build": "node .vuepress/fileutil.js && rimraf docs/* && vuepress build",
     "clean": "rimraf docs/*",
     "view-info": "vuepress view-info",
     "show-help": "vuepress --help"

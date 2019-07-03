@@ -284,7 +284,45 @@ function getRootDir(rootPath) {
     return nav;
 }
 
+/**
+ * 获取指定路径下的所有文件
+ *
+ * @param rootPath 路径
+ * @return Array
+ * @Description
+ * @author claer woytu.com
+ * @date 2019/5/24 14:35
+ */
+function getDirFile(rootPath) {
+    let nav = [];
+    // 读取文件夹
+    let files = getDirFiles(rootPath);
+    // 遍历获取到的文件夹内容
+    files.forEach(function (file, index, array) {
+        // 获取规范的绝对路径
+        // let realpath = fs.realpathSync(rootPath + "/" + value);
+        // 拼接为绝对路径
+        // let realpath = path.resolve(rootPath, file)
+        // 获取相对路径
+        let realpath = rootPath + "/" + file;
+        // 拼接为相对路径
+        // let realpath = path.join(rootPath, file)
+        // 获取文件状态
+        let stat = fs.lstatSync(realpath);
+        // 判断是否为文件夹
+        if (stat.isDirectory()) {
+            getDirFile(realpath);
+        } else {
+            let navObj = {text: file, link: "/" + file + "/"};
+            nav.push(navObj);
+        }
+    });
+    // console.log(nav);
+    return nav;
+}
+
 module.exports = {
     rootFolder,
-    getRootDir
+    getRootDir,
+    getDirFile
 }
