@@ -1,6 +1,6 @@
 # 放其他文件
 
-## [BAT脚本使用](/Other/bat脚本使用.md)
+## [BAT脚本使用](/Other/bat.md)
 
 ## [PC软件](/Other/PC-software.md)
 
