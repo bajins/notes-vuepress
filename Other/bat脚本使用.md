@@ -255,7 +255,7 @@ Msgbox("应用程序数据： " & sf("AppData"))
 ```powershell
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d 软件路径 /f
 :: 或者
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d "软件路径" /background /f
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """"软件路径""" /background" /f
 ```
 > 按`win+r`打开运行窗口，输入以下命令`shell:startup`打开启动文件夹，把快捷方式放入
 >
