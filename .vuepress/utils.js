@@ -446,8 +446,6 @@ function setStaticFile(rootPath) {
             appendFile("files.md", "\r\n[" + file + "](/" + realpath + ")\r\n");
         }
     });
-    // console.log(nav);
-    return nav;
 }
 
 writeFile("files.md", "# 文件\r\n");
