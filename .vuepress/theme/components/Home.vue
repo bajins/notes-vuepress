@@ -28,7 +28,7 @@
 
     <div class="footer">
       <!-- <span>
-        <i class="iconfont reco-other"></i>
+        <i class="iconfont reco-Other"></i>
         <a>{{ $themeConfig.author || $site.title }}</a>
       </span>-->
       <span v-if="$themeConfig.record">

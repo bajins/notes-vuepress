@@ -48,7 +48,7 @@ module.exports = [
                 ]
             },
             {
-                // text: 'other',
+                // text: 'Other',
                 items: [
                     {
                         text: 'Git',
