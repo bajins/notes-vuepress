@@ -3,10 +3,9 @@
 ## 安装NodeJs
 ### CentOs7
 ```bash
-# 到https://github.com/nodesource/distributions#installation-instructions复制更新软件源命令
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-# 把deb替换为rpm，并执行
-curl -sL https://rpm.nodesource.com/setup_12.x | sudo -E bash -
+# 到https://github.com/nodesource/distributions#installation-instructions-1
+# 复制更新软件源命令，并执行
+curl -sL https://rpm.nodesource.com/setup_12.x | bash -
 # 安装
 yum install -y nodejs
 ```
