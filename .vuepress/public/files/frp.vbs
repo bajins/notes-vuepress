@@ -1,21 +1,29 @@
 '在运行窗口输入shell:startup点击确定后打开一个文件夹，把此文件放在文件夹中
 
-folderPath = "D:\frp内网穿透工具"
+'运行命令
+runCommand = "D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini"
 
+'调用运行函数
 call run(folderPath)
 
-'wscript.echo OSver()
+'WScript.Echo OSver()
+'MsgBox(OSver())
 
-Function run(folderPath)
+'运行，传参为运行命令
+Function run(runCommand)
     dim ws
+	'Windows10之前的系统创建一个脚本命令窗口
     Set ws = CreateObject("Wscript.Shell")
 
     dim wsh
+	'Windows10创建一个脚本命令窗口
     Set wsh=WScript.CreateObject("WScript.Shell")
 
-    runWs= "cmd /c " & folderPath & "\frpc.exe -c " & folderPath & "\frpc.ini"
+	'拼接Windows10之前的系统运行命令
+    runWs= "cmd /c " & runCommand
 
-    runWsh= folderPath & "\frpc.exe -c " & folderPath & "\frpc.ini"
+	'Windows10运行命令
+    runWsh= runCommand
     
     '获取系统信息
     'infoItem = showOsInfo()
