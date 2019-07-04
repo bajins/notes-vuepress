@@ -75,7 +75,7 @@ Msgbox("应用程序数据： " & sf("AppData"))
 runCommand = "D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini"
 
 '调用运行函数
-call run(folderPath)
+call run(runCommand)
 
 'WScript.Echo OSver()
 'MsgBox(OSver())
