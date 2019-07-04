@@ -45,7 +45,7 @@ String.prototype.startWith = function (endStr) {
  */
 String.prototype.replaceAll = function (FindText, RepText) {
     // g表示执行全局匹配，m表示执行多次匹配
-    let regExp = new RegExp(FindText, "g");
+    let regExp = new RegExp(FindText, "gm");
     return this.replace(regExp, RepText);
 }
 
