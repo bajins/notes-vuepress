@@ -44,7 +44,7 @@ String.prototype.startWith = function (endStr) {
  * @date 2019/5/24 15:24
  */
 String.prototype.replaceAll = function (FindText, RepText) {
-    // /g 表示替换所有字符串
+    // g表示执行全局匹配，m表示执行多次匹配
     let regExp = new RegExp(FindText, "g");
     return this.replace(regExp, RepText);
 }
