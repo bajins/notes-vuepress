@@ -11,9 +11,46 @@ const path = require('path');
  * @author claer woytu.com
  * @date 2019/5/24 11:22
  */
-String.prototype.endWith = function (endStr) {
-    let d = this.length - endStr.length;
-    return (d >= 0 && this.lastIndexOf(endStr) == d);
+String.prototype.endWith = function (str) {
+    if (str == null || str == "" || this.length == 0 || str.length > this.length)
+        return false;
+    if (this.substring(this.length - str.length) != str) {
+        return false;
+    }
+    return true;
+}
+/**
+ * 给String对象增加一个原型方法:
+ * 判断一个字符串是以指定字符串开头的
+ *
+ * @param endStr 需要判断的子字符串
+ * @return boolean 是否以该字符串开头
+ * @Description
+ * @author claer woytu.com
+ * @date 2019/5/24 11:22
+ */
+String.prototype.startWith = function (str) {
+    if (str == null || str == "" || this.length == 0 || str.length > this.length)
+        return false;
+    if (this.substr(0, str.length) != str) {
+        return false;
+    }
+    return true;
+}
+
+/**
+ * 给String对象增加一个原型方法:
+ * 判断一个字符串是以指定字符串结尾的
+ *
+ * @param endStr 需要判断的子字符串
+ * @return boolean 是否以该字符串结尾
+ * @Description
+ * @author claer woytu.com
+ * @date 2019/5/24 11:22
+ */
+String.prototype.endWithRegExp = function (str) {
+    let reg = new RegExp(str + "$");
+    return reg.test(this);
 }
 /**
  * 给String对象增加一个原型方法:
@@ -26,9 +63,9 @@ String.prototype.endWith = function (endStr) {
  * @date 2019/5/24 11:22
  */
 
-String.prototype.startWith = function (endStr) {
-    let d = this.length - endStr.length;
-    return (d >= 0 && this.indexOf(endStr) == d);
+String.prototype.startWithRegExp = function (str) {
+    let reg = new RegExp("^" + str);
+    return reg.test(this);
 }
 
 /**
@@ -98,6 +135,49 @@ function isEmpty($obj) {
 
 
 /**
+ * 过滤在数组中的值
+ *
+ * @param arr 元数据数组
+ * @param ignoresArr 需要去除的值数组
+ * @return Array 去掉值后的新数组
+ * @Description
+ * @author claer woytu.com
+ * @date 2019/5/23 16:30
+ */
+function inArrayKV(arr, ignoresArr) {
+    let newArr = [];
+    arr.forEach(function (value, index, array) {
+        // 判断文件名以什么开头、是否在指定数组中存在
+        if (!value.startsWith(".") && ignoresArr.includes(value)) {
+            newArr.push(value);
+        }
+    });
+    return newArr;
+}
+
+/**
+ * 过滤不在数组中的值
+ *
+ * @param arr 元数据数组
+ * @param retentionArr 需要保留的值数组
+ * @return Array 去掉值后的新数组
+ * @Description
+ * @author claer woytu.com
+ * @date 2019/5/23 16:30
+ */
+function notInArrayKV(arr, retentionArr) {
+    let newArr = [];
+    arr.forEach(function (value, index, array) {
+        // 判断文件名以什么开头、是否在指定数组中存在
+        if (!value.startsWith(".") && !retentionArr.includes(value)) {
+            newArr.push(value);
+        }
+    });
+    return newArr;
+}
+
+
+/**
  * 查找文件夹下的文件并忽略指定文件
  *
  * @param dirname 文件夹路径
@@ -111,31 +191,8 @@ function getDirFiles(dirname) {
     // let fileNames = fs.readdirSync(path.resolve(__dirname, dirname)).map(filename => filename);
     let files = fs.readdirSync(dirname).sort();
     let ignores = [".git", ".gitignore", "docs", "node_modules", "yarn.lock", "package.json", "package-lock.json"];
-    let judgeArrayKV1 = judgeArrayKV(files, ignores);
 
-    return judgeArrayKV1;
-}
-
-
-/**
- * 数组过滤值
- *
- * @param arr 元数据数组
- * @param ignoresArr 需要去除的值数组
- * @return Array 去掉值后的新数组
- * @Description
- * @author claer woytu.com
- * @date 2019/5/23 16:30
- */
-function judgeArrayKV(arr, ignoresArr) {
-    let newArr = [];
-    arr.forEach(function (value, index, array) {
-        // 判断文件名以什么开头、是否在指定数组中存在
-        if (!value.startsWith(".") && !ignoresArr.includes(value)) {
-            newArr.push(value);
-        }
-    });
-    return newArr;
+    return notInArrayKV(files, ignores);
 }
 
 
@@ -240,15 +297,6 @@ function readFile(dirPath, filesList, targetObj) {
 }
 
 
-function test(files) {
-    Object.keys(sidebar).forEach(function (key) {
-        if (!files.includes(key)) {
-            delete (sidebar[key]);
-            console.log(key)
-        }
-    });
-}
-
 /**
  * 获取指定路径下的所有文件夹
  *
@@ -269,7 +317,7 @@ function getRootDir(rootPath) {
         // 拼接为绝对路径
         // let realpath = path.resolve(rootPath, file)
         // 获取相对路径
-        let realpath = rootPath + "/" + file;
+        let realpath = path.join(rootPath, file);
         // 拼接为相对路径
         // let realpath = path.join(rootPath, file)
         // 获取文件状态
@@ -304,7 +352,7 @@ function getDirFile(rootPath) {
         // 拼接为绝对路径
         // let realpath = path.resolve(rootPath, file)
         // 获取相对路径
-        let realpath = rootPath + "/" + file;
+        let realpath = path.join(rootPath, file);
         // 拼接为相对路径
         // let realpath = path.join(rootPath, file)
         // 获取文件状态
@@ -321,8 +369,91 @@ function getDirFile(rootPath) {
     return nav;
 }
 
+/**
+ * 文件写入内容
+ *  fs.wirteFile有三个参数
+ * 1,第一个参数是要写入的文件路径
+ * 2,第二个参数是要写入得内容
+ * 3,第三个参数是可选参数,表示要写入的文件编码格式,一般就不写,默认就行
+ * 4,第四个参数是个回调函数  只有一个参数error,来判断是否写入成功
+ * 如果在使用fs.writeFIle时,要写入文件不存在,则直接写入,如果存在,则会覆盖原内容
+ *
+ * @return
+ * @Description
+ * @author claer woytu.com
+ * @date 2019/7/3 16:39
+ */
+const writeFile = (file, content) => fs.writeFile(file, content, "utf8", error => {
+    if (error) return console.log("文件写入内容失败,原因是：" + error.message);
+});
+
+/**
+ * 文件末尾追加内容
+ *
+ * @return
+ * @Description
+ * @author claer woytu.com
+ * @date 2019/7/3 17:00
+ */
+const appendFile = (file, content) => fs.appendFile(file, content, 'utf8', function (err) {
+    if (err) {
+        console.log("文件追加内容失败,原因是：" + err);
+    }
+});
+
+
+/**
+ * 把静态文件添加到一个文档中
+ *
+ * @param rootPath 路径
+ * @return Array
+ * @Description
+ * @author claer woytu.com
+ * @date 2019/5/24 14:35
+ */
+function setStaticFile(rootPath) {
+    let nav = [];
+    // 读取文件夹
+    let files = fs.readdirSync(rootPath).sort();
+    // 遍历获取到的文件夹内容
+    files.forEach(function (file, index, array) {
+        // 获取规范的绝对路径
+        // let realpath = fs.realpathSync(rootPath + "/" + value);
+        // 拼接为绝对路径
+        // let realpath = path.resolve(rootPath, file)
+        // 获取相对路径
+        let realpath = rootPath + "/" + file;
+        // 拼接为相对路径
+        // let realpath = path.join(rootPath, file)
+        // 获取文件状态
+        let stat = fs.lstatSync(realpath);
+        // 判断是否为文件夹
+        if (stat.isDirectory()) {
+            getDirFile(realpath);
+        } else {
+            realpath = realpath.substring(realpath.indexOf("files"));
+            appendFile("files.md", "\r\n[" + file + "](/" + realpath + ")\r\n");
+        }
+    });
+    // console.log(nav);
+    return nav;
+}
+
+writeFile("files.md", "# 文件\r\n");
+
+setStaticFile(".vuepress/public/files");
+
+
+function test(files) {
+    Object.keys(sidebar).forEach(function (key) {
+        if (!files.includes(key)) {
+            delete (sidebar[key]);
+            console.log(key)
+        }
+    });
+}
+
 module.exports = {
     rootFolder,
-    getRootDir,
-    getDirFile
+    getRootDir
 }
