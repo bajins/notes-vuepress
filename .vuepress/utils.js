@@ -89,7 +89,7 @@ function isEmpty($obj) {
         if (!Array.isArray($obj) || $obj.length <= 0) {
             return false;
         }
-        if (!Object.prototype.isPrototypeOf($obj) || !Object.keys($obj).length != 0) {
+        if (!Object.prototype.isPrototypeOf($obj) || Object.keys($obj).length <= 0) {
             return false;
         }
     }
