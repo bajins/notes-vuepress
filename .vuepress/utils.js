@@ -44,11 +44,6 @@ String.prototype.startWith = function (endStr) {
  * @date 2019/5/24 15:24
  */
 String.prototype.replaceAll = function (FindText, RepText) {
-    // \\需要转义
-    if (FindText == "\\") {
-        // new RegExp("\\w+")等价于/\w+/
-        FindText = "\\w+";
-    }
     // g表示执行全局匹配，m表示执行多次匹配
     let regExp = new RegExp(FindText, "gm");
     return this.replace(regExp, RepText);
