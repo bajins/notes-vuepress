@@ -101,6 +101,17 @@ String.prototype.cuttingPathWith = function () {
 
 
 /**
+ * 设置延时后再执行下一步操作
+ *
+ * @return
+ * @Description
+ * @author claer woytu.com
+ * @date 2019/7/4 20:22
+ */
+const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+
+/**
  * 判断js数组/对象是否为空
  * isPrototypeOf() 验证一个对象是否存在于另一个对象的原型链上。即判断 Object 是否存在于 $obj 的原型链上。
  * js中一切皆对象，也就是说，Object 也存在于数组的原型链上，因此这里数组需要先于对象检验。
