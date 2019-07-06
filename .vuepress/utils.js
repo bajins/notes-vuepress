@@ -130,7 +130,6 @@ function isEmpty($obj) {
     }
     if (typeof ($obj) === "string") {
         $obj = $obj.replace(/\s*/g, ""); //移除字符串中所有 ''
-        console.log($obj)
         if ($obj === '') {
             return true;
         }
