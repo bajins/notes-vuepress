@@ -122,24 +122,25 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 function isEmpty($obj) {
     // 找不到属性
     if (typeof ($obj) == 'undefined') {
-        return false;
+        return true;
     }
     // 检验非数组/对象类型  EX：undefined   null  ''  根据自身要求添加其他适合的为空的值  如：0 ,'0','  '  等
     if ($obj === 0 || $obj === '' || $obj === null) {
-        return false;
+        return true;
     }
     if (typeof ($obj) === "string") {
         $obj = $obj.replace(/\s*/g, ""); //移除字符串中所有 ''
+        console.log($obj)
         if ($obj === '') {
-            return false;
-        }
-    } 
-    if (typeof ($obj) === "object") {
-        if (!Array.isArray($obj) || $obj.length <= 0 || Object.keys($obj).length <= 0) {
-            return false;
+            return true;
         }
     }
-    return true;
+    if (typeof ($obj) === "object") {
+        if (!Array.isArray($obj) || $obj.length <= 0 || Object.keys($obj).length <= 0) {
+            return true;
+        }
+    }
+    return false;
 }
 
 
