@@ -133,11 +133,9 @@ function isEmpty($obj) {
         if ($obj === '') {
             return false;
         }
-    } else if (typeof ($obj) === "object") {
-        if (!Array.isArray($obj) || $obj.length <= 0) {
-            return false;
-        }
-        if (!Object.prototype.isPrototypeOf($obj) || Object.keys($obj).length <= 0) {
+    } 
+    if (typeof ($obj) === "object") {
+        if (!Array.isArray($obj) || $obj.length <= 0 || Object.keys($obj).length <= 0) {
             return false;
         }
     }
