@@ -101,47 +101,6 @@ module.exports = [
         ]
     },
     {
-        text: '项目',
-        items: [
-            {
-                text: 'Homepage',
-                link: 'https://github.com/woytu/Homepage'
-            },
-            {
-                text: '自动设置Bing壁纸',
-                link: 'https://github.com/woytu/windows-wallpaper-python'
-            },
-            {
-                text: 'NSIS_SetupSkin',
-                link: 'https://github.com/woytu/NSIS_SetupSkin'
-            },
-            {
-                text: 'DirectoryLister',
-                link: 'https://github.com/woytu/DirectoryLister'
-            },
-            {
-                text: 'key-gin',
-                link: 'https://github.com/woytu/key-gin'
-            },
-            {
-                text: 'key-flask',
-                link: 'https://github.com/woytu/key-flask'
-            },
-            {
-                text: 'tool-flask',
-                link: 'https://github.com/woytu/tool-flask'
-            },
-            {
-                text: 'ptcms',
-                link: 'https://github.com/woytu/ptcms'
-            },
-            {
-                text: 'ygbook',
-                link: 'https://github.com/woytu/ygbook'
-            },
-        ]
-    },
-    {
         text: '了解更多',
         items: [
             {
