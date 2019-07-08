@@ -39,7 +39,6 @@ footer: MIT Licensed | Copyright © 2019 Bajins
 │      │      
 │      └─images    存放所有文档的图片目录
 ├─docs              编译后的静态资源文件输出目录
-│              
 │
 │
 ...... 其他自己的md文档或文件夹，都会打包到docs文件夹下，md文件会编译成html
@@ -47,7 +46,7 @@ footer: MIT Licensed | Copyright © 2019 Bajins
 ```
 ### 也就是你只需要遵从以上目录结构来修改你自己的文档即可使用。
 ::: warning 注意
-配置文件中的注释文字部分，请结合VuePress[官方文档](https://v1.vuepress.vuejs.org/zh/config/)一定理解其意义再修改配置！
+配置文件中的注释文字部分，请结合[VuePress官方文档](https://v1.vuepress.vuejs.org/zh/config/)一定理解其意义再修改配置！
 :::
 
 ## 命令
@@ -56,8 +55,7 @@ footer: MIT Licensed | Copyright © 2019 Bajins
 # 先克隆本仓库
 git clone https://github.com/woytu/UseNotes.git
 
-# 除了以下文件或文件夹，其他的全部删除：
-# .vuepress、docs、package.json、README.md、yarn.lock、package-lock.json
+# 保留上面目录结构列出的文件和文件夹，其他的全部删除
 
 # 使用前请自行安装Node.js环境
 # 安装yarn
