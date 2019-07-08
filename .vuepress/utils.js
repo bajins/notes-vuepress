@@ -420,8 +420,7 @@ const appendFile = (file, content) => fs.appendFile(file, content, 'utf8', funct
  * @author claer woytu.com
  * @date 2019/5/24 14:35
  */
-function setStaticFile(rootPath) {
-    let fileStr = "";
+function setStaticFile(rootPath, fileStr) {
     // 读取文件夹
     let files = fs.readdirSync(rootPath).sort();
     // 遍历获取到的文件夹内容
@@ -438,7 +437,7 @@ function setStaticFile(rootPath) {
         let stat = fs.lstatSync(realpath);
         // 判断是否为文件夹
         if (stat.isDirectory()) {
-            getDirFile(realpath);
+            setStaticFile(realpath, fileStr);
         } else {
             realpath = realpath.substring(realpath.indexOf("files"));
             fileStr = fileStr + "\r\n[" + file + "](/" + realpath.replaceAll("\\\\", "/") + ")\r\n";
@@ -449,7 +448,7 @@ function setStaticFile(rootPath) {
 
 writeFile("files.md", "# 文件\r\n");
 
-setStaticFile(".vuepress/public/files");
+setStaticFile(".vuepress/public/files", "");
 
 
 function test(files) {
