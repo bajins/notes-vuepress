@@ -190,3 +190,67 @@ CONFLICT(content): Merge conflict in c/environ.c
 碰到这种情况，git也不知道哪行内容是需要的，所以要自行确定需要的内容。
 
 
+
+
+
+
+
+
+
+
+
+## 批量更新本地项目
+### Windows
+```batch
+@echo off
+:: 遍历当前目录下的子目录
+for /f "delims=" %%i in ('dir /ad/b') do (
+	:: 切换到子目录
+	cd %%i
+	:: 判断文件夹是否存在
+	if exist ".git" (
+	    :: 列出远程仓库地址
+		git remote -v
+		echo 开始更新 %%i
+		:: 更新
+		git pull
+		echo ---------------------------------------
+	)
+	cd ..
+)
+```
+
+### Linux
+```bash
+#!/bin/sh
+for dir in $(ls -d */)
+do
+  cd $dir
+  echo "into $dir"
+  if [ -d ".git" ]; then
+     git pull
+  elif [ -d ".svn" ]; then
+     svn update
+  fi
+  cd ..
+done
+```
+```bash
+#!/bin/bash
+function readdir(){
+	for file in `ls $1`
+	do
+		if [ -d $1"/"$file ]; then
+			cd $1"/"$file
+			if [ -d ".git" ]; then
+				echo $1"/"$file
+				git pull
+			fi
+			cd ..
+			readdir $1"/"$file
+		fi
+	 
+	done
+}
+readdir `pwd`
+```
