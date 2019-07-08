@@ -9,11 +9,11 @@
 
 ## [.ignore](https://plugins.jetbrains.com/plugin/7495--ignore)
 #### 生成各种ignore文件，一键创建git ignore文件的模板，免得自己去写
-![](/images/.ignore.gif)
+![](/images/ignore.gif)
 
 ## [Maven Helper](https://plugins.jetbrains.com/plugin/7179-maven-helper)
 #### 一键查看maven依赖，查看冲突的依赖，一键进行exclude依赖
-![](/images/Maven%20Helper.png)
+![](/images/MavenHelper.png)
 
 ## [GsonFormat](https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F7654-gsonformat)
 #### google出的一键根据json文本生成java类，非常方便
@@ -33,7 +33,7 @@
 
 ## [VisualVM Launcher](https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F7115-visualvm-launcher)
 #### 运行java程序的时候启动visualvm，方便查看jvm的情况 比如堆内存大小的分配，某个对象占用了多大的内存，jvm调优必备工具
-![](/images/VisualVM%20Launcher.gif)
+![](/images/VisualVM-Launcher.gif)
 
 ## [GenerateAllSetter](https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F9360-generateallsetter)
 #### 一键调用一个对象的所有set方法并且赋予默认值 在对象字段多的时候非常方便
@@ -41,7 +41,7 @@
 
 ## [Rainbow Brackets](https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F10080-rainbow-brackets)
 #### 彩虹颜色的括号，看着很舒服 敲代码效率变高
-![](/images/Rainbow%20Brackets.png)
+![](/images/RainbowBrackets.png)
 
 ## [Translation](https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F8579-translation)
 #### 最好用的翻译插件，功能很强大，界面很漂亮
