@@ -421,7 +421,7 @@ const appendFile = (file, content) => fs.appendFile(file, content, 'utf8', funct
  * @date 2019/5/24 14:35
  */
 function setStaticFile(rootPath) {
-    let nav = [];
+    let fileStr = "";
     // 读取文件夹
     let files = fs.readdirSync(rootPath).sort();
     // 遍历获取到的文件夹内容
@@ -431,7 +431,7 @@ function setStaticFile(rootPath) {
         // 拼接为绝对路径
         // let realpath = path.resolve(rootPath, file)
         // 获取相对路径
-        let realpath = rootPath + "/" + file;
+        let realpath = path.join(rootPath, file);
         // 拼接为相对路径
         // let realpath = path.join(rootPath, file)
         // 获取文件状态
@@ -441,9 +441,10 @@ function setStaticFile(rootPath) {
             getDirFile(realpath);
         } else {
             realpath = realpath.substring(realpath.indexOf("files"));
-            appendFile("files.md", "\r\n[" + file + "](/" + realpath + ")\r\n");
+            fileStr = fileStr + "\r\n[" + file + "](/" + realpath.replaceAll("\\\\", "/") + ")\r\n";
         }
     });
+    appendFile("files.md", fileStr);
 }
 
 writeFile("files.md", "# 文件\r\n");
