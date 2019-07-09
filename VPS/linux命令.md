@@ -8,6 +8,7 @@
     * [scp](#scp)
     * [rsync](#rsync)
   * [查找大文件](#查找大文件)
+  * [列出目录](#列出目录)
   * [创建目录](#创建目录)
   * [创建文件](#创建文件)
   * [删除文件及文件夹](#删除文件及文件夹)
@@ -52,8 +53,6 @@ yum clean metadata
 ## 定时任务
 ### crontab命令常用于Unix和类Unix的操作系统之中，用于设置周期性被执行的指令
 
-### [各种Shell脚本](./script)
-### [各种Python脚本](/Python/Script)
 ### 通过Linux终端（Terminal）编辑crontab文件.
 ```bash
 crontab -e
@@ -96,7 +95,7 @@ python -m http.server port
 wget host:port/file 就可以下载了
 ```
 ### scp
-#### [shell脚本](/VPS/scp.sh)使用前请安装expect包：`yum -y install expect expect-devel`
+#### [shell脚本](/files/scp.sh)使用前请安装expect包：`yum -y install expect expect-devel`
 > 【优点】简单方便，安全可靠；支持限速参数，不占资源，不会提高多少系统负荷
 >
 > 【缺点】不支持排除目录 
@@ -229,6 +228,14 @@ find / -name 'path' -type d
 find . | xargs grep -ri 'content'
 # 查找内容只显示文件名称
 find . | xargs grep -ril 'content'
+```
+
+### 列出目录
+```bash
+ls -l |grep "^d" |awk '{print $9}'
+ls -F |grep "/$"
+ls -d */
+ls -ad */
 ```
 
 ### 创建目录
