@@ -227,7 +227,7 @@ for /f "delims=" %%i in ('dir /s /b /a  %~dp0 ^| findstr /v "\.bat\> \.text\> \.
 ## 第三方工具
 [wget-网络请求工具](https://eternallybored.org/misc/wget/)
 
-[curl-网络请求工具](https://curl.haxx.se/download.html)
+[curl-网络请求工具](https://curl.haxx.se/download.html) [curl-GitHub](https://github.com/curl/curl)
 
 [jq-解析json工具](https://github.com/stedolan/jq)
 
