@@ -223,3 +223,32 @@ for /f "delims=" %%i in ('dir /s /b /a  %~dp0 ^| findstr /v "\.bat\> \.text\> \.
 	echo %%~dpnxi >> test.txt
 )
 ```
+
+## 第三方工具
+[wget-网络请求工具](https://eternallybored.org/misc/wget/)
+
+[curl-网络请求工具](https://curl.haxx.se/download.html)
+
+[jq-解析json工具](https://github.com/stedolan/jq)
+
+[Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html)
+
+## 下载文件
+### certutil
+> 用户备份证书服务管理，每次下载都会有缓存
+>
+> 缓存目录：`%USERPROFILE%\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content`
+
+```batch
+certutil -urlcache -split -f https://www.xxx.com/test.bat d:\test.bat
+```
+
+### bitsadmin
+> bitsadmin.exe 可以用来在windows 命令行下下载文件。bitsadmin是windows 后台智能传输服务的一个工具，windows 的自动更新，补丁之类的下载就是用这个工具来实现的。
+
+```batch
+:: 无进度条等信息
+bitsadmin /rawreturn /transfer 任务名 https://www.xxx.com/test.bat d:\test.bat
+:: 有进度条等信息
+bitsadmin /transfer 任务名 /download /priority normal https://www.xxx.com/test.bat d:\test.bat
+```
