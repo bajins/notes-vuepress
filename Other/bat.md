@@ -231,7 +231,7 @@ for /f "delims=" %%i in ('dir /s /b /a  %~dp0 ^| findstr /v "\.bat\> \.text\> \.
 
 [jq-解析json工具](https://github.com/stedolan/jq)
 
-[Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html) [bcn.js](https://blog-static.cnblogs.com/files/gayhub/bcn.js)
+[Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html) [bcn](http://bcn.bathome.net/s/tool/index.html)
 
 ## 下载文件
 ### certutil
