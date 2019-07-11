@@ -231,7 +231,7 @@ for /f "delims=" %%i in ('dir /s /b /a  %~dp0 ^| findstr /v "\.bat\> \.text\> \.
 
 [jq-解析json工具](https://github.com/stedolan/jq)
 
-[Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html)
+[Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html) [bcn.js](https://blog-static.cnblogs.com/files/gayhub/bcn.js)
 
 ## 下载文件
 ### certutil
@@ -240,7 +240,7 @@ for /f "delims=" %%i in ('dir /s /b /a  %~dp0 ^| findstr /v "\.bat\> \.text\> \.
 > 缓存目录：`%USERPROFILE%\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content`
 
 ```batch
-certutil -urlcache -split -f https://www.xxx.com/test.bat d:\test.bat
+certutil -urlcache -split -f https://blog-static.cnblogs.com/files/gayhub/bcn.js C:\Windows\bcn.bat
 ```
 
 ### bitsadmin
@@ -248,7 +248,7 @@ certutil -urlcache -split -f https://www.xxx.com/test.bat d:\test.bat
 
 ```batch
 :: 无进度条等信息
-bitsadmin /rawreturn /transfer 任务名 https://www.xxx.com/test.bat d:\test.bat
+bitsadmin /rawreturn /transfer 任务名 https://blog-static.cnblogs.com/files/gayhub/bcn.js C:\Windows\bcn.bat
 :: 有进度条等信息
-bitsadmin /transfer 任务名 /download /priority normal https://www.xxx.com/test.bat d:\test.bat
+bitsadmin /transfer 任务名 /download /priority normal https://blog-static.cnblogs.com/files/gayhub/bcn.js C:\Windows\bcn.bat
 ```
