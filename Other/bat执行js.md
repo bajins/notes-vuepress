@@ -37,7 +37,7 @@ endlocal&exit /b %errorlevel%
 var iRemote = WScript.Arguments(0);
 iRemote = iRemote.toLowerCase();
 var iLocal = WScript.Arguments(1);
-iLocal = iLocal.toLowerCase()+ iRemote.substring(iRemote.lastIndexOf("/") + 1);
+iLocal = iLocal.toLowerCase()+ "\\" + iRemote.substring(iRemote.lastIndexOf("/") + 1);
 var xPost = new ActiveXObject("Microsoft.XMLHTTP");
 xPost.Open("GET", iRemote, 0);
 xPost.Send();
