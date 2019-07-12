@@ -234,6 +234,8 @@ for /f "delims=" %%i in ('dir /s /b /a  %~dp0 ^| findstr /v "\.bat\> \.text\> \.
 [Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html) [bcn](http://bcn.bathome.net/s/tool/index.html)
 
 ## 下载文件
+### [bat执行js](bat执行js.md#下载文件)
+
 ### certutil
 > 用户备份证书服务管理，每次下载都会有缓存
 >
