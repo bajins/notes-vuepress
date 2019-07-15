@@ -20,6 +20,7 @@ if not exist "%~dp0$testAdmin$" (
     exit /b 1
 ) else rd "%~dp0$testAdmin$"
 
+:: 开启延迟环境变量扩展
 setlocal enabledelayedexpansion
 
 :: cscript -nologo -e:jscript "%~f0" 这一段是执行命令，后面的是参数（组成方式：/key:value）
@@ -28,11 +29,11 @@ cscript -nologo -e:jscript "%~f0" %~1 %~2
 goto :EXIT
 
 :EXIT
+:: 结束延迟环境变量扩展和命令执行
 endlocal&exit /b %errorlevel%
 */
 
 // ****************************  JavaScript  *******************************
-
 
 var iRemote = WScript.Arguments(0);
 iRemote = iRemote.toLowerCase();
@@ -70,35 +71,33 @@ if not exist "%~dp0$testAdmin$" (
     exit /b 1
 ) else rd "%~dp0$testAdmin$"
 
+:: 开启延迟环境变量扩展
 setlocal enabledelayedexpansion
+
+if "%~1"=="/?" (
+    cscript -nologo -e:jscript "%~f0" /func:help
+    goto :EXIT
+)
+if "%~1"=="" (
+    cscript -nologo -e:jscript "%~f0" /func:help
+    goto :EXIT
+)
+if "%~2"=="" (
+    cscript -nologo -e:jscript "%~f0" /func:help
+    goto :EXIT
+)
 
 :: cscript -nologo -e:jscript "%~f0" 这一段是执行命令，后面的是参数（组成方式：/key:value）
 :: %~f0 表示当前批处理的绝对路径,去掉引号的完整路径
-cscript -nologo -e:jscript "%~f0" /name:%~1 "/path:%~2"
+cscript -nologo -e:jscript "%~f0" /func:download /url:%~1 /path:%~2
 goto :EXIT
 
 :EXIT
+:: 结束延迟环境变量扩展和命令执行
 endlocal&exit /b %errorlevel%
 */
 
 // ****************************  JavaScript  *******************************
-
-String.prototype.endWith = function (str) {
-    if (str == null || str == "" || this.length == 0 || str.length > this.length) {
-        return false;
-    }
-    if (this.substring(this.length - str.length) != str) {
-        return false;
-    }
-    return true;
-}
-
-//下载方式,留空则使用内建下载.可以使用其他第三方,例:'wget -q "$URL" -O "$SavePath"'
-var DownMode = '';
-var WShell = new ActiveXObject('WScript.Shell');
-var FSO = new ActiveXObject('Scripting.FileSystemObject');
-var XMLHTTP = new ActiveXObject('Microsoft.XMLHTTP');
-var ADO = new ActiveXObject('ADODB.Stream');
 
 var Argv = WScript.Arguments;
 for (i = 0; i < Argv.Length; i++) {
@@ -106,11 +105,15 @@ for (i = 0; i < Argv.Length; i++) {
 }
 var ArgvName = Argv.Named;
 
-var name = ArgvName.Item('name');
-if (name == "/?" || name == "") {
+var func = ArgvName.Item('func');
+if (func == "help") {
     help();
-} else {
-    download();
+} else if (func == "download") {
+    download(ArgvName.Item('url'), ArgvName.Item('path'));
+} else if (func == "error") {
+    error(ArgvName.Item('msg'));
+} else if (func == "info") {
+    info(ArgvName.Item('msg'));
 }
 WScript.Quit(0);
 
@@ -128,20 +131,21 @@ function help() {
     info("     url 下载链接");
     info("     path 下载的文件保存地址，不传则保存到当前文件夹");
 }
-var SavePath = FSO.GetFile(WScript.ScriptFullName).ParentFolder.Path + '\\';
 
-function download() {
-    if (ArgvName.Item('path') != '') {
-        SavePath = ArgvName.Item('path');
-        if (!SavePath.endWith("\\")) {
-            error("路径必须以\\结尾");
-            WScript.Quit(1);
-        }
+function download(url, path) {
+    var FSO = new ActiveXObject('Scripting.FileSystemObject');
+    var SavePath = FSO.GetFile(WScript.ScriptFullName).ParentFolder.Path;
+    if (path != '') {
+        SavePath = path;
     }
-    SavePath = SavePath + name.substring(name.lastIndexOf("/") + 1);
+    SavePath = SavePath + "\\" + url.substring(url.lastIndexOf("/") + 1);
+    //下载方式,留空则使用内建下载.可以使用其他第三方,例:'wget -q "$URL" -O "$SavePath"'
+    var DownMode = '';
     if (DownMode == '') {
-        XMLHTTP.Open('GET', name, 0);
+        var XMLHTTP = new ActiveXObject('Microsoft.XMLHTTP');
+        XMLHTTP.Open('GET', url, 0);
         XMLHTTP.Send();
+        var ADO = new ActiveXObject('ADODB.Stream');
         ADO.Mode = 3;
         ADO.Type = 1;
         ADO.Open();
@@ -149,7 +153,8 @@ function download() {
         ADO.SaveToFile(SavePath, 2);
         ADO.Close();
     } else {
-        WShell.Run(DownMode.replace(/\$URL/, name).replace(/\$SavePath/, SavePath), 0, true);
+        var WShell = new ActiveXObject('WScript.Shell');
+        WShell.Run(DownMode.replace(/\$URL/, url).replace(/\$SavePath/, SavePath), 0, true);
     }
 }
 ```
@@ -171,47 +176,51 @@ if not exist "%~dp0$testAdmin$" (
     exit /b 1
 ) else rd "%~dp0$testAdmin$"
 
+:: 开启延迟环境变量扩展
 setlocal enabledelayedexpansion
+
+if "%~1"=="/?" (
+    cscript -nologo -e:jscript "%~f0" help
+    goto :EXIT
+)
+if "%~1"=="" (
+    cscript -nologo -e:jscript "%~f0" help
+    goto :EXIT
+)
+if "%~2"=="" (
+    cscript -nologo -e:jscript "%~f0" help
+    goto :EXIT
+)
 
 :: cscript -nologo -e:jscript "%~f0" 这一段是执行命令，后面的是参数
 :: %~f0 表示当前批处理的绝对路径,去掉引号的完整路径
-cscript -nologo -e:jscript "%~f0" %~1 %~2 %~3 %~4 %~5 %~6 %~7 %~8 %~9
+cscript -nologo -e:jscript "%~f0" download %~1 %~2 %~3 %~4 %~5 %~6 %~7 %~8 %~9
 goto :EXIT
 
 :EXIT
+:: 结束延迟环境变量扩展和命令执行
 endlocal&exit /b %errorlevel%
 */
 
 // ****************************  JavaScript  *******************************
 
-String.prototype.endWith = function (str) {
-    if (str == null || str == "" || this.length == 0 || str.length > this.length) {
-        return false;
-    }
-    if (this.substring(this.length - str.length) != str) {
-        return false;
-    }
-    return true;
-}
-
-//下载方式,留空则使用内建下载.可以使用其他第三方,例:'wget -q "$URL" -O "$SavePath"'
-var DownMode = '';
-var WShell = new ActiveXObject('WScript.Shell');
-var FSO = new ActiveXObject('Scripting.FileSystemObject');
-var XMLHTTP = new ActiveXObject('Microsoft.XMLHTTP');
-var ADO = new ActiveXObject('ADODB.Stream');
 
 var Argv = WScript.Arguments;
 for (i = 0; i < Argv.Length; i++) {
     info("参数：" + Argv(i));
 }
-var name = WScript.Arguments(0);
-var path = WScript.Arguments(1);
 
-if (name == "/?" || name == "") {
+var func = Argv(0);
+if (func == "help") {
     help();
-} else {
-    download();
+} else if (func == "download") {
+    var url = Argv(1);
+    var path = Argv(2);
+    download(url, path);
+} else if (func == "error") {
+    error(Argv(1));
+} else if (func == "info") {
+    info(Argv(1));
 }
 WScript.Quit(0);
 
@@ -229,20 +238,21 @@ function help() {
     info("     url 下载链接");
     info("     path 下载的文件保存地址，不传则保存到当前文件夹");
 }
-var SavePath = FSO.GetFile(WScript.ScriptFullName).ParentFolder.Path + '\\';
 
-function download() {
+function download(url, path) {
+    var FSO = new ActiveXObject('Scripting.FileSystemObject');
+    var SavePath = FSO.GetFile(WScript.ScriptFullName).ParentFolder.Path;
     if (path != '') {
         SavePath = path;
-        if (!SavePath.endWith("\\")) {
-            error("路径必须以\\结尾");
-            WScript.Quit(1);
-        }
     }
-    SavePath = SavePath + name.substring(name.lastIndexOf("/") + 1);
+    SavePath = SavePath + "\\" + url.substring(url.lastIndexOf("/") + 1);
+    //下载方式,留空则使用内建下载.可以使用其他第三方,例:'wget -q "$URL" -O "$SavePath"'
+    var DownMode = '';
     if (DownMode == '') {
-        XMLHTTP.Open('GET', name, 0);
+        var XMLHTTP = new ActiveXObject('Microsoft.XMLHTTP');
+        XMLHTTP.Open('GET', url, 0);
         XMLHTTP.Send();
+        var ADO = new ActiveXObject('ADODB.Stream');
         ADO.Mode = 3;
         ADO.Type = 1;
         ADO.Open();
@@ -250,7 +260,8 @@ function download() {
         ADO.SaveToFile(SavePath, 2);
         ADO.Close();
     } else {
-        WShell.Run(DownMode.replace(/\$URL/, name).replace(/\$SavePath/, SavePath), 0, true);
+        var WShell = new ActiveXObject('WScript.Shell');
+        WShell.Run(DownMode.replace(/\$URL/, url).replace(/\$SavePath/, SavePath), 0, true);
     }
 }
 ```
