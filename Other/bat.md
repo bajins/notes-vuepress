@@ -2,7 +2,8 @@
 
 ## 常见问题
 > `if`和`for`的条件与后面跟的`(`之间必须要有一个空格，否则会出现`命令语法不正确`的问题！
-
+>
+> 使用cd切换目录时，如果带盘符一定要加`/d`参数，否则切换无效，例如：`cd /d F:\test`
 
 
 
@@ -227,6 +228,15 @@ for /r %~dp0 %%a in (*.jpg,*.png) do (
 for /f "delims=" %%i in ('dir /s /b /a  %~dp0 ^| findstr /v "\.bat\> \.text\> \.exe\>"') do (
 	::把文件后缀写入文件
 	echo %%~dpnxi >> test.txt
+)
+```
+### 判断字符串是否包含子字符串
+```batch
+:: 判断变量字符串中是否包含字符串
+echo %字符串% | findstr %子串% >nul && (
+    echo 包含
+) || (
+    echo 不包含
 )
 ```
 
