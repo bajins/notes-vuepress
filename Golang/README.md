@@ -39,6 +39,8 @@
 [gpmgo](https://github.com/gpmgo)
 
 ## 代理
+[aliyun](https://mirrors.aliyun.com/goproxy/)
+
 [goproxy.io](https://goproxy.io)
 
 [Athens](https://docs.gomods.io/zh/)
