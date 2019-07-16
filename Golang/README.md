@@ -49,6 +49,8 @@
 
 [https://gopm.io/](https://gopm.io)
 
+[goproxy.cn](https://goproxy.cn)
+
 ## beego
 
 ```go
