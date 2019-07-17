@@ -24,7 +24,9 @@ sidebar: auto
 
 # 使用命令
 ## 把空文件夹提交到仓库
+
 > 这个只能说是技巧不能说是方法，原理是在每个空文件夹新建一个.gitignore文件
+
 ```bash
 find . -type d -empty -exec touch {}/.gitignore \;
 ```
@@ -49,18 +51,23 @@ git push --set-upstream origin branchname
 
 ```
 ## 未push之前更改提交的注释
+
 > 如果提交了代码到本地，还没push，发现同步时提交的变更内容的注释填写有误。
+
 ```bash
 # 查看提交文件，里面包含注释和变更内容
 git commit --amend
 # 按v进入编辑模式，更改完成后按esc然后输入:qw! 保存
 ```
 ## 强制push本地仓库到远程
+
 > 这种情况不会进行merge, 强制push后远程文件可能会丢失,不建议使用此方法
+
 ```bash
 git push -u origin master -f
 ```
 ## pull强制覆盖本地文件
+
 > 如果有任何本地更改，将会丢失。无论是否有--hard选项，任何未被推送的本地提交都将丢失。
 > 如果您有任何未被Git跟踪的文件(例如上传的用户内容)，这些文件将不会受到影响。
 
@@ -139,7 +146,9 @@ git config --global http.lowSpeedTime 999999
 取值为 [-1, 9]，-1 以 zlib 为默认压缩库，0 表示不进行压缩，1..9 是压缩速度与最终获得文件大小的不同程度的权衡，数字越大，压缩越慢，当然得到的文件会越小。
 
 ## 提交本地文件失败
+
 > 在github远程创建仓库后, 利用gitbash进行提交本地文件的时候出现如下错误
+
 ```diff
 [root@foundation38 demo]# git push -u origin master
 Username for 'https://github.com': woytu
