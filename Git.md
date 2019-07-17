@@ -2,9 +2,9 @@
 sidebar: auto
 ---
 
-# [Git服务器搭建](/VPS/Docker)
+## [Git服务器搭建](/VPS/Docker)
 
-# 目录
+## 目录
 * [使用命令](#使用命令)
   * [把空文件夹提交到仓库](#把空文件夹提交到仓库)
   * [更换项目地址](#更换项目地址)
@@ -83,9 +83,15 @@ git reset --hard origin/<branch_name>
 git config --system --unset credential.helper
 ```
 
-
-
-
+## git恢复指定文件到之前的版本
+### 查看commit历史，并复制需要回退版本的hash
+```bash
+git log 文件名
+```
+### 恢复
+```bash
+git checkout 复制的hash值 文件名
+```
 
 
 
@@ -95,7 +101,6 @@ git config --system --unset credential.helper
 
 -----------------------------------------------------------------------------
 
-# 问题解决
 ## 项目过大clone报错
 https://vnzmi.com/2017/01/08/git-early-eof-index-pack-failed/
 ### git 由于提交了比较大的文件，在服务端一直无法拉下来，错误如下
