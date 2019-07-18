@@ -70,6 +70,8 @@ npm-check-updates
 ncu -u
 # 或者
 ncu --upgrade
+# 安装最新版本依赖
+npm install
 ```
 
 
