@@ -91,7 +91,8 @@ start /wait /B "" "%~dp0软件名称" /DEL
 ````
 
 
-## 修改注册表
+## 注册表
+### 修改
 ```batch
 echo 删除桌面IE图标
 REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{B416D21B-3B22-B6D4-BBD3-BBD452DB3D5B}" /f
@@ -108,6 +109,11 @@ REG ADD "HKU\.DEFAULT\Control Panel\Keyboard" /v InitialKeyboardIndicators /t RE
 > `/d` 设置添加的值(data)
 > 
 > `/f` 表示强制(forbidden)
+
+### 查询
+```bash
+FOR /F "usebackq delims==" %i IN (`REG QUERY HKCU /v onedrive /s`) DO @echo %i
+```
 
 ## 注册Windows服务
 https://www.cnblogs.com/pingming/p/5108947.html
