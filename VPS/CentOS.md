@@ -1,5 +1,36 @@
-# CentOS新系统依赖安装
+# CentOS
 
+## 重装系统
+### [Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify)
+```bash
+yum update
+yum install -y xz openssl gawk file
+# 下载脚本
+wget --no-check-certificate 'https://raw.githubusercontent.com/MeowLove/Network-Reinstall-System-Modify/master/Network-Reinstall-System-Modify.sh'
+# 给脚本授权
+chmod a+x Network-Reinstall-System-Modify.sh
+# 一键网络重装纯净CentOS 7
+bash Network-Reinstall-System-Modify.sh -CentOS_7
+# 一键网络重装纯净Windows Server 2019
+bash Network-Reinstall-System-Modify.sh -Windows_Server_2019
+```
+```bash
+bash <(wget --no-check-certificate -qO- 'https://zhujiwiki.com/wp-content/uploads/2018/04/InstallNET.sh') -dd 'https://hao.zhujiwiki.com/dd/CentOS_7.X_NetInstallation.vhd.gz'
+```
+
+### [moeclub](https://moeclub.org/2018/04/03/603/)
+> 适用于由GRUB引导的CentOS,Ubuntu,Debian系统
+
+```bash
+yum update
+yum install -y xz openssl gawk file
+# 下载脚本
+wget --no-check-certificate 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh'
+# 给脚本授权
+chmod a+x InstallNET.sh
+# 一键网络重装纯净CentOS 7
+bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/centos'
+```
 
 ## 卸载软件
 ### RPM安装
