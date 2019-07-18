@@ -27,17 +27,17 @@
   },
   "homepage": "https://github.com/woytu/UseNotes#readme",
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.50",
-    "@vuepress/plugin-blog": "1.0.0-alpha.47",
-    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.50",
-    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.50",
-    "@vuepress/plugin-pwa": "^1.0.0-alpha.50",
-    "@vuepress/theme-vue": "^1.0.0-alpha.50",
-    "leancloud-storage": "3.13.0",
-    "valine": "1.3.6",
+    "@vuepress/plugin-back-to-top": "^1.0.2",
+    "@vuepress/plugin-blog": "^1.2.4",
+    "@vuepress/plugin-google-analytics": "^1.0.2",
+    "@vuepress/plugin-medium-zoom": "^1.0.2",
+    "@vuepress/plugin-pwa": "^1.0.2",
+    "@vuepress/theme-vue": "^1.0.2",
+    "leancloud-storage": "3.14.1",
+    "valine": "1.3.9",
     "vue-click-outside": "1.0.7",
-    "vue-toasted": "^1.1.25",
-    "vuepress": "^1.0.0-alpha.50",
+    "vue-toasted": "^1.1.27",
+    "vuepress": "^1.0.2",
     "vuepress-plugin-flowchart": "^1.4.3"
   },
   "dependencies": {
@@ -45,6 +45,7 @@
     "lodash": "^4.17.14",
     "lodash.template": "^4.5.0",
     "package": "^1.0.1",
-    "querystringify": "2.0.0"
+    "querystringify": "2.1.1",
+    "vuepress-theme-reco": "^1.0.2"
   }
 }
