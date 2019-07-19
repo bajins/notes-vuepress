@@ -1,5 +1,15 @@
 # CentOS
 
+## yum源
+### git
+```bash
+yum install http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
+# 或者
+wget http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
+rpm -ivh wandisco-git-release-7-2.noarch.rpm
+```
+
+
 ## 重装系统
 ### [Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify)
 ```bash
