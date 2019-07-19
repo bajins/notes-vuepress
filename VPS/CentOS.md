@@ -1,12 +1,22 @@
 # CentOS
 
 ## yum源
-### git
+### Git
 ```bash
 yum install http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
 # 或者
 wget http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
 rpm -ivh wandisco-git-release-7-2.noarch.rpm
+```
+```bash
+curl https://setup.ius.io | sh
+# 或者
+yum install -y epel-release  
+rpm -ivh https://centos7.iuscommunity.org/ius-release.rpm
+# 查看git包版本
+yum list git2u
+# 安装
+yum -y install git2u
 ```
 
 
