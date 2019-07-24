@@ -8,6 +8,8 @@ sidebar: auto
 
 [Chrome扩展下载](https://chrome-extension-downloader.com/)
 
+[crx4chrome](https://www.crx4chrome.com/)
+
 ## GitHub相关
 [突出显示GitHub源视图中的选定单词：github-highlight-selected](https://chrome.google.com/webstore/detail/github-highlight-selected/lhiklbgjcblimmjjflobpncgihagcmbj)
 
