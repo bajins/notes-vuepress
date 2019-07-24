@@ -1,7 +1,3 @@
----
-sidebar: auto
----
-
 # Chrome插件
 
 ## [4星以上开发工具扩展](https://chrome.google.com/webstore/category/ext/11-web-development?_feature=free&_feature=4stars)

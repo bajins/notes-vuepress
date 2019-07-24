@@ -1,6 +1,4 @@
----
-sidebar: auto
----
+# Git
 
 ## [Git服务器搭建](/VPS/Docker)
 
