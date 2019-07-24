@@ -51,14 +51,6 @@ module.exports = [
                 // text: 'Other',
                 items: [
                     {
-                        text: 'Git',
-                        link: '/Git'
-                    },
-                    {
-                        text: 'Chrome插件',
-                        link: '/Chrome插件'
-                    },
-                    {
                         text: '文件',
                         link: '/files'
                     },
