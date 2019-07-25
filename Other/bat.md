@@ -249,7 +249,7 @@ echo %字符串% | findstr %子串% >nul && (
 ## 第三方工具
 [wget-网络请求工具](https://eternallybored.org/misc/wget/)
 
-[curl-网络请求工具](https://curl.haxx.se/download.html) [curl-GitHub](https://github.com/curl/curl)
+[curl-网络请求工具](https://curl.haxx.se/dlwiz/?type=bin) [curl-GitHub](https://github.com/curl/curl)
 
 [jq-解析json工具](https://github.com/stedolan/jq)
 
