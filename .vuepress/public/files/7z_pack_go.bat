@@ -30,7 +30,7 @@ if "%~2"=="" (
 if not "%errorlevel%"=="0" (
     :: cscript -nologo -e:jscript "%~f0" 这一段是执行命令，后面的是参数
     :: %~f0 表示当前批处理的绝对路径,去掉引号的完整路径
-    cscript -nologo -e:jscript "%~f0" download https://woytu.github.io/files/7za.exe C:\Windows
+    cscript -nologo -e:jscript "%~f0" download https://github.com/woytu/woytu.github.io/releases/download/v1.0/7za.exe C:\Windows
 )
 
 :: bat所在目录

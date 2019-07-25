@@ -23,7 +23,7 @@ if not exist "%~dp0$testAdmin$" (
 :: 开启延迟环境变量扩展
 setlocal enabledelayedexpansion
 
-:: cscript -nologo -e:jscript "%~f0" 这一段是执行命令，后面的是参数（组成方式：/key:value）
+:: cscript -nologo -e:jscript "%~f0" 这一段是执行命令，后面的是参数
 :: %~f0 表示当前批处理的绝对路径,去掉引号的完整路径
 cscript -nologo -e:jscript "%~f0" %~1 %~2
 goto :EXIT
