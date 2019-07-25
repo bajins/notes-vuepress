@@ -5,7 +5,7 @@
 ## 目录
 * [使用命令](#使用命令)
   * [把空文件夹提交到仓库](#把空文件夹提交到仓库)
-  * [更换项目地址](#更换项目地址)
+  * [更换项目远程地址](#更换项目远程地址)
   * [未push之前更改提交的注释](#未push之前更改提交的注释)
   * [强制push本地仓库到远程](#强制push本地仓库到远程)
   * [pull强制覆盖本地文件](#pull强制覆盖本地文件)
@@ -28,7 +28,9 @@
 ```bash
 find . -type d -empty -exec touch {}/.gitignore \;
 ```
-## 更换项目地址
+## 更换项目远程地址
+> 见`项目目录/.git/config`中的`remote`节点
+
 ```bash
 # 查看当前的远程地址
 git remote -v   
@@ -37,18 +39,21 @@ git remote rm origin
 # 或者
 git remote remove origin
 # 添加远程地址
-git remote add origin [url]
+git remote add origin 远程地址
 
 # 或者直接修改
-git remote set-url origin [url]（此处未更新后的新地址）
+git remote set-url origin 远程地址
 
-# 将本地仓库文件push到新的远程仓库（-f代表强制）
-git push origin master -f
-# 或者把当前分支与远程分支进行关联(branchname要改成你的当前分支名称)
-git push --set-upstream origin branchname
+# 或者为origin添加一个远程地址，一条命令拉取或推送多个项目地址
+git remote set-url --add origin 地址
+
+# 把当前分支与远程分支进行关联
+git push --set-upstream origin 分支名称
 
 ```
-## 未push之前更改提交的注释
+
+
+## 未push之前更改提交
 
 > 如果提交了代码到本地，还没push，发现同步时提交的变更内容的注释填写有误。
 
@@ -62,7 +67,8 @@ git commit --amend
 > 这种情况不会进行merge, 强制push后远程文件可能会丢失,不建议使用此方法
 
 ```bash
-git push -u origin master -f
+# 将本地仓库文件push到远程仓库（-f代表强制）
+git push -u -f origin master
 ```
 ## pull强制覆盖本地文件
 
@@ -88,7 +94,7 @@ git reset --hard origin/<branch_name>
 git config --system --unset credential.helper
 ```
 
-## git恢复指定文件到之前的版本
+## git恢复指定文件到指定版本
 ### 查看commit历史，并复制需要回退版本的hash
 ```bash
 git log 文件名
@@ -199,7 +205,7 @@ CONFLICT(content): Merge conflict in c/environ.c
 > 意思就是系统自动合并修改的内容，但是其中有冲突，需要解决其中的冲突。
 
 ### 解决文件中冲突的的部分
-> 打开冲突的文件，其中Updatedupstream 和=====之间的内容就是pull下来的内容，====和stashed changes之间的内容就是本地修改的内容。
+> 打开冲突的文件，其中`Updatedupstream` 和`=====`之间的内容就是pull下来的内容，`====`和`stashed changes`之间的内容就是本地修改的内容。
 碰到这种情况，git也不知道哪行内容是需要的，所以要自行确定需要的内容。
 
 
