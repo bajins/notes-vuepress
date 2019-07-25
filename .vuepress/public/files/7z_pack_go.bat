@@ -23,36 +23,44 @@ if "%~2"=="" (
     cscript -nologo -e:jscript "%~f0" help
     goto :EXIT
 )
-if "%~3"=="" (
-    cscript -nologo -e:jscript "%~f0" help
-    goto :EXIT
-)
 
 :: 执行7z命令，但是不输出，这是为了判断
 7za > nul
 :: 如果7z压缩命令行不存在，则下载
 if not "%errorlevel%"=="0" (
-    :: cscript -nologo -e:jscript "%~f0" 这一段是执行命令，后面的是参数（组成方式：/key:value）
+    :: cscript -nologo -e:jscript "%~f0" 这一段是执行命令，后面的是参数
     :: %~f0 表示当前批处理的绝对路径,去掉引号的完整路径
     cscript -nologo -e:jscript "%~f0" download https://woytu.github.io/files/7za.exe C:\Windows
 )
 
 :: bat所在目录
 set batPath=%~dp0
-:: 需要打包的文件或文件夹根目录
-set root=%~1
+:: 使用 /D 开关，除了改变驱动器的当前目录之外，还可改变当前驱动器。
+:: 切换到需要打包的根目录
+cd /d %~1
+:: 如果路径不正确
+if not "%errorlevel%"=="0" (
+    cscript -nologo -e:jscript "%~f0" help
+    goto :EXIT
+)
 :: 需要打包的文件或文件夹
 set files=%~2
 :: 打包完成的文件命名前一部分
 set project=%~3
+if "%project%"=="" (
+    :: 仅将 %0 扩充到一个路径
+    set currentPath=%~p0
+    :: 替换\为,号，也可以替换为空格
+    set currentPath=%currentPath:\=,%
+    :: 顺序循环，设置最后一个为当前目录
+    for %%a in (%currentPath%) do set CurrentDirectoryName=%%a
+    :: 打包完成的文件命名前一部分
+    set project=%CurrentDirectoryName%
+)
 :: 打包完成的文件命名后一部分，与前一部分进行组合
 set allList=_darwin_386,_darwin_amd64,_freebsd_386,_freebsd_amd64,_freebsd_arm,_netbsd_386,_netbsd_amd64,_netbsd_arm,
 set allList=%allList%_openbsd_386,_openbsd_amd64,_windows_386.exe,_windows_amd64.exe,
 set allList=%allList%_linux_386,_linux_amd64,_linux_arm,_linux_mips,_linux_mips64,_linux_mips64le,_linux_mipsle,_linux_s390x
-
-:: 使用 /D 开关，除了改变驱动器的当前目录之外，还可改变当前驱动器。
-:: 切换到需要打包的根目录
-cd /d %root%
 
 for %%i in (%allList%) do (
     :: 如果二进制文件不存在则重新打包
@@ -131,12 +139,12 @@ function info(msg) {
 
 function help() {
     info("基本用法:");
-    info("   打包: 7z_pack rootPath files project");
-    info("     rootPath 打包的根目录");
-    info("     files 需要打包的文件或文件夹");
-    info("     project 打包完成后的压缩文件命名的前部分");
+    info("   打包: 脚本名 rootPath files project");
+    info("     rootPath 打包的根目录，路径必须完整");
+    info("     files 需要打包的文件或文件夹，用双引号括起来");
+    info("     project 打包完成后的压缩文件命名的前部分，可以不输入，默认为打包根目录的名称");
     info("   示例：");
-    info("     7z_pack f:\\key-gin  \"pyutils static templates\" key-gin");
+    info("     脚本名 f:\\key-gin \"pyutils static templates\" key-gin");
 }
 
 
