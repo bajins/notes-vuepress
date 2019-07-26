@@ -1,5 +1,7 @@
 # 邮箱
 
+[测试邮箱](https://www.mail-tester.com/)
+
 ## 域名邮箱
 
 [宝塔邮局管理器](https://www.bt.cn/bbs/thread-32749-1-1.html)
