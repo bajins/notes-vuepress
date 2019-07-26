@@ -51,8 +51,9 @@
 等待几分钟刷新（这时域名上面是一个`绿色的勾`）
 
 - 5、以上DNS只是配置了`SPF Record`、`MX`、二级域名，还要配置`DKIM signature`：
-[https://connect.yandex.com/portal/admin/customization/mail](https://connect.yandex.com/portal/admin/customization/mail)（就是左侧`Email`菜单）
-进入界面后点击`DKIM signatures`点击`Copy`,然后在域名所在服务商添加一条TXT记录DNS解析，主机记录（name）为`mail._domainkey`,值就是刚刚复制的`DKIM signatures`
+[https://connect.yandex.com/portal/admin/customization/mail](https://connect.yandex.com/portal/admin/customization/mail)
+（就是左侧`Email`菜单）进入界面后点击`DKIM signatures`点击`Copy`,然后在域名所在服务商添加一条TXT记录DNS解析，
+主机记录（name）为`mail._domainkey`,值就是刚刚复制的`DKIM signatures`
 
 - 6、添加邮箱账户：点击 `Все сотрудники`（就是左侧第一个菜单），然后点击页面下方有一个带`+`的`add`按钮，
 再点击`Add a person`，在弹出的页面输入，带`*`的为必填，填完后就点击`橙色的add按钮`
