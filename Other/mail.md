@@ -8,18 +8,18 @@
 
 [httpsmail](https://www.httpsmail.com/hosting/)
 
-| 国外免费域名邮箱 | [Zoho](https://mail.zoho.com/biz/mailsignup.do?plan=free) | [Yandex](https://hky.moe/archives/21/) | [Migadu](https://www.migadu.com/en/index.html?src=steley) |
-|-----------|------|--------|--------|
-| 域名数量      | 1    | 不限     | 1     |
-| 用户数量      | 25   | 1000   | 不限    |
-| 邮箱别名      | 支持   | 支持     | 支持    |
-| 邮箱容量      | 5G   | 不限     | 1G    |
-| 两步验证      | 支持   | 支持     | 不支持   |
-| Catch All | 支持   | 支持     | 支持   |
-| POP3      | 付费支持   | 支持     | 支持   |
-| IMAP      | 付费支持   | 支持     | 支持   |
-| SMTP      | 支持   | 支持     | 支持   |
-| Exchange  | 支持   | 不支持    | 不支持    |
+| 国外免费域名邮箱 | [Zoho](https://mail.zoho.com/biz/mailsignup.do?plan=free) | [Yandex](https://hky.moe/archives/21/) |
+|-----------|------|--------|
+| 域名数量      | 1    | 不限     |
+| 用户数量      | 25   | 1000   |
+| 邮箱别名      | 支持   | 支持     |
+| 邮箱容量      | 5G   | 不限     |
+| 两步验证      | 支持   | 支持     |
+| Catch All | 支持   | 支持     |
+| POP3      | 付费支持   | 支持     |
+| IMAP      | 付费支持   | 支持     |
+| SMTP      | 支持   | 支持     |
+| Exchange  | 支持   | 不支持    |
 
 #### 端口
 > Zoho
@@ -37,13 +37,6 @@
 >> IMAP：`imap.yandex.com:993 SSL`
 >>
 >> POP3：`pop.yandex.com:995 SSL`
->
-> Migadu
->> SMTP：`smtp.migadu.com:587 STARTTLS`
->>
->> IMAP：`imap.migadu.com:993 SSL/TLS`
->>
->> POP3：`imap.migadu.com:995 SSL/TLS`
 >
 
 ## 临时邮箱
