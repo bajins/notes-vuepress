@@ -46,17 +46,21 @@
 
 - 3、此时已经进入到管理页面，验证域名所有权，验证成功后左侧菜单栏会多出几个菜单（这时域名上面是一个`感叹号`）
 
-- 4、按照这里的dns配置：[https://connect.yandex.com/portal/admin/customization/dns](https://connect.yandex.com/portal/admin/customization/dns)
-（或者点击左侧菜单栏`DNS management`）到自己域名的商家处添加dns解析，注意末尾的点不要丢了，虽然某些托管商会将它去掉，
+- 4、按照这里的DNS配置：[https://connect.yandex.com/portal/admin/customization/dns](https://connect.yandex.com/portal/admin/customization/dns)
+（或者点击左侧菜单栏`DNS management`）到自己域名所在服务商添加DNS解析，注意末尾的点不要丢了，虽然某些托管商会将它去掉，
 等待几分钟刷新（这时域名上面是一个`绿色的勾`）
 
-- 5、添加邮箱账户：点击 `Все сотрудники`（就是左侧第一个菜单），然后点击页面下方有一个带`+`的`add`按钮，
+- 5、以上DNS只是配置了`SPF Record`、`MX`、二级域名，还要配置`DKIM signature`：
+[https://connect.yandex.com/portal/admin/customization/mail](https://connect.yandex.com/portal/admin/customization/mail)（就是左侧`Email`菜单）
+进入界面后点击`DKIM signatures`点击`Copy`,然后在域名所在服务商添加一条TXT记录DNS解析，主机记录（name）为`mail._domainkey`,值就是刚刚复制的`DKIM signatures`
+
+- 6、添加邮箱账户：点击 `Все сотрудники`（就是左侧第一个菜单），然后点击页面下方有一个带`+`的`add`按钮，
 再点击`Add a person`，在弹出的页面输入，带`*`的为必填，填完后就点击`橙色的add按钮`
 
-- 6、发现pop无法使用是怎么回事？后来在 [https://connect.yandex.com/portal/admin/customization/mail](https://connect.yandex.com/portal/admin/customization/mail)
+- 7、发现pop无法使用是怎么回事？后来在 [https://connect.yandex.com/portal/admin/customization/mail](https://connect.yandex.com/portal/admin/customization/mail)
 （就是左侧`Email`菜单）把POP的勾去掉保存，然后再勾上保存就可以用了
 
-- 7、新添加的用户需要去登录一次才能使用，因为首次登陆需要同意一个协议，所以到这里[https://mail.yandex.com](https://mail.yandex.com)
+- 8、新添加的用户需要去登录一次才能使用，因为首次登陆需要同意一个协议，所以到这里[https://mail.yandex.com](https://mail.yandex.com)
 登录刚刚添加的账户并点击`Complete registration`按钮同意协议
 
 
