@@ -5,9 +5,9 @@
   "description": "blog of VuePress",
   "scripts": {
     "dev": "rimraf docs/* && vuepress dev",
-    "build": "rimraf docs/* && vuepress build",
+    "build": "rimraf docs/* && vuepress build && node .vuepress/push.js",
     "clean": "rimraf docs/*",
-    "test": "node .vuepress/util.js",
+    "test": "node .vuepress/push.js",
     "view-info": "vuepress view-info",
     "show-help": "vuepress --help"
   },
