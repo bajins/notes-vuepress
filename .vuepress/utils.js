@@ -1,6 +1,19 @@
 const fs = require('fs');
 const path = require('path');
+const {exec} = require('child_process');
 
+function execute(command, dir) {
+    // exec函数第一个参数是要执行的命令，第二个函数是配置选项，第三个参数是回调函数，
+    // 第二个参数中一个比较常用的就是子进程的工作目录
+    exec(command, {cwd: dir}, (err, stdout, stderr) => {
+        if (err) {
+            console.log(err);
+            return;
+        }
+        console.log(`stdout: ${stdout}`);
+        console.log(`stderr: ${stderr}`);
+    });
+}
 /**
  * 给String对象增加一个原型方法:
  * 判断一个字符串是以指定字符串结尾的
@@ -462,5 +475,6 @@ function test(files) {
 
 module.exports = {
     rootFolder,
-    getRootDir
+    getRootDir,
+    execute
 }

@@ -71,23 +71,14 @@ yarn install
 yarn dev
 
 
-# 构建静态文件并上传到仓库正式使用
-yarn build
-
-# 如果是直接发布到本仓库，那么就把docs文件夹下的所有文件都push，
-# 然后再在GitHub设置中指定Source为docs文件夹
-
-# 可以把编译后的静态文件部署到指定仓库
-cd /docs
-git init
-git add -A
-git commit -m 'deploy'
+# 如果是直接发布到本仓库：
+# 执行下面的命名会自动编译并提交，然后再在GitHub设置中指定Source为docs文件夹
+yarn push-docs
 
 # 如果发布到 https://<USERNAME>.github.io
-git push -f https://github.com/<USERNAME>/<USERNAME>.github.io.git master
+# 修改.vuepress/push.js文件中的仓库地址并执行以下命令即可
+yarn push-pages
 
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/<USERNAME>/<REPO>.git master:gh-pages
 ```
 
 ::: warning 注意
