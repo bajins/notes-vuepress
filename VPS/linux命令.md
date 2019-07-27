@@ -278,6 +278,8 @@ touch -t 201703031558.28 test.txt
 # dd命令创建一个名为test.zip大小为1000M的文件
 # 文件内容为全0（因/dev/zero为0源）
 dd if=/dev/zero of=test.zip bs=1M count=1000
+# 同理创建1GB的文件
+dd if=/dev/zero of=test.zip bs=1G count=1
 ```
 ### 删除文件及文件夹
 #### rm 命令可以用于删除文件及文件夹，可以同时一个或者多个文件/文件夹，而对于链接文件，只删除链接，不影响原文件。
