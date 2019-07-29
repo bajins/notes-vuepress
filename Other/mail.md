@@ -40,15 +40,18 @@
 >
 
 ### Yandex配置步骤
+> 注意：如果是添加第二个域名，请点击顶部的域名后弹出下拉菜单有一个`New organization`按钮来添加新域名，然后按照步骤（跳过1、2）操作即可
+
 - 1、先到这里注册账户：[https://mail.yandex.com](https://mail.yandex.com)
 
 - 2、进入域名邮箱注册页面：[https://connect.yandex.com/pdd/](https://connect.yandex.com/pdd/) 添加域名
 
-- 3、此时已经进入到管理页面，验证域名所有权，验证成功后左侧菜单栏会多出几个菜单（这时域名上面是一个`感叹号`）
+- 3、此时已经进入到管理页面，在左侧菜单`Domains`中点击域名（此时域名右侧是一个`禁止符号`）验证域名所有权，
+验证成功后左侧菜单栏会多出几个菜单（这时域名右侧是一个`感叹号`）
 
 - 4、按照这里的DNS配置：[https://connect.yandex.com/portal/admin/customization/dns](https://connect.yandex.com/portal/admin/customization/dns)
 （或者点击左侧菜单栏`DNS management`）到自己域名所在服务商添加DNS解析，注意末尾的点不要丢了，虽然某些托管商会将它去掉，
-等待几分钟刷新（这时域名上面是一个`绿色的勾`）
+等待几分钟刷新（这时域名右侧是一个`绿色的勾`）
 
 - 5、以上DNS只是配置了`SPF Record`、`MX`、二级域名，还要配置`DKIM signature`：
 [https://connect.yandex.com/portal/admin/customization/mail](https://connect.yandex.com/portal/admin/customization/mail)
@@ -57,6 +60,8 @@
 
 - 6、添加邮箱账户：点击 `Все сотрудники`（就是左侧第一个菜单），然后点击页面下方有一个带`+`的`add`按钮，
 再点击`Add a person`，在弹出的页面输入，带`*`的为必填，填完后就点击`橙色的add按钮`
+
+![](/images/yandex-mail-DNS.png)
 
 - 7、发现pop无法使用是怎么回事？后来在 [https://connect.yandex.com/portal/admin/customization/mail](https://connect.yandex.com/portal/admin/customization/mail)
 （就是左侧`Email`菜单）把POP的勾去掉保存，然后再勾上保存就可以用了
