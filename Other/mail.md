@@ -40,7 +40,8 @@
 >
 
 ### Yandex配置步骤
-> 注意：如果是添加第二个域名，请点击顶部的域名后弹出下拉菜单有一个`New organization`按钮来添加新域名，然后按照步骤（跳过1、2）操作即可
+> 注意：如果是添加第二个域名，进入[账户管理页面](https://connect.yandex.com/portal/admin)，
+> 然后点击顶部的域名后弹出下拉菜单有一个`New organization`按钮来添加新域名，然后按照步骤（跳过1、2）操作即可
 
 - 1、先到这里注册账户：[https://mail.yandex.com](https://mail.yandex.com)
 
