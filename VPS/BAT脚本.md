@@ -1,4 +1,4 @@
-# bat脚本使用
+# BAT脚本使用
 
 ## 常见问题
 > `if`和`for`的条件与后面跟的`(`之间必须要有一个空格，否则会出现`命令语法不正确`的问题！
@@ -329,7 +329,7 @@ dir /ad test >nul 2>nul && (
 [Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html) [bcn](http://bcn.bathome.net/s/tool/index.html)
 
 ## 下载文件
-### [bat执行js](bat执行JS.md#下载文件)
+### [bat执行js](BAT执行JS.md#下载文件)
 
 ### certutil
 > 用户备份证书服务管理，每次下载都会有缓存

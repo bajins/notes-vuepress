@@ -1,6 +1,6 @@
 # 放其他文件
 
-## [BAT脚本使用](/VPS/bat.md)
+## [BAT脚本使用](/VPS/BAT脚本.md)
 
 ## [PC软件](/Other/PC-software.md)
 

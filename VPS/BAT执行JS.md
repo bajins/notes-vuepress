@@ -1,4 +1,4 @@
-# bat执行JavaScript
+# BAT执行JavaScript
 
 > 原理：把bat命令用JavaScript注释`/**/`包裹住，然后用bat命令执行文件中的JavaScript代码时就不会编译bat命令了
 

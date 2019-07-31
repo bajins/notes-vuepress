@@ -102,7 +102,7 @@ FLUSH PRIVILEGES;
 ```bash
 systemctl restart mysqld
 ```
-#### [放开MySQL防火墙端口](/VPS/linux命令.md#防火墙)
+#### [放开MySQL防火墙端口](/VPS/Linux命令.md#防火墙)
 
 *******************************************************************************
 ## 安装MySQL后修改密码

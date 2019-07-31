@@ -1,4 +1,4 @@
-# CentOS7安装配置svn服务
+# CentOS7配置SVN
 
 ## [SVN-Eclipse插件](https://github.com/subclipse/subclipse/wiki)
 ```
