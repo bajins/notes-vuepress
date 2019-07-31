@@ -228,6 +228,13 @@ for /r %~dp0 %%a in (*.jpg,*.png) do (
 	)
 )
 ```
+```batch
+::获取为指定后缀的文件
+for /f "delims=" %%i in ('dir /s /b /a  %~dp0 ^| findstr /e "\.jpg\> \.png\>"') do (
+	::把文件后缀写入文件
+	echo %%~dpnxi >> test.txt
+)
+```
 ### 获取不为指定后缀的文件
 ```batch
 ::获取不为指定后缀的文件
@@ -245,6 +252,72 @@ echo %字符串% | findstr %子串% >nul && (
     echo 不包含
 )
 ```
+```batch
+set error=1
+:: 判断文件中是否包含字符串
+findstr/i "123" 1.txt >nul 2>nul&&set "error="
+if defined error (
+    echo 不包含
+) else (
+    echo 包含
+)
+```
+
+### 替换文件中指定内容
+```batch
+@echo off
+:: 解决把中文写入文件乱码问题（声明采用UTF-8编码），936为GBK，437为美国英语
+:: https://blog.csdn.net/python_class/article/details/81560470
+chcp 65001
+:: 开启延迟环境变量扩展（解决for或if中操作变量时提示ECHO OFF问题，用!!取变量）
+setlocal EnableDelayedExpansion
+
+set file=%~dp0nav.md
+:: 替换文件中指定内容
+(
+    for /f "tokens=*" %%i in (%file%) do (
+        :: 把当前行的内容赋值到变量
+        set s=%%i
+        :: 不为空行时
+        if not !s!.==. (
+            :: 替换内容中的反斜杠为正斜杠
+            set s=!s:\=/!
+            echo !s!
+        )
+    )
+)>%file%
+
+goto :EXIT
+
+:EXIT
+:: 结束延迟环境变量扩展和命令执行
+endlocal&exit /b %errorlevel%
+```
+
+### 判断是文件还是文件夹
+
+> 如果是文件夹，则`test`和`test\`、`test\.`、`test\nul`是等同的；
+> 如果是文件，则`test`不等同于三者中的任何一个
+
+```batch
+if exist test\ (
+    echo test 是文件夹
+) else (
+    echo test 是文件
+)
+```
+
+```batch
+dir /ad test >nul 2>nul && (
+    echo test 是文件夹
+) || (
+    echo test 是文件
+)
+```
+
+
+
+
 
 ## 第三方工具
 [wget-网络请求工具](https://eternallybored.org/misc/wget/)
@@ -256,7 +329,7 @@ echo %字符串% | findstr %子串% >nul && (
 [Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html) [bcn](http://bcn.bathome.net/s/tool/index.html)
 
 ## 下载文件
-### [bat执行js](bat执行js.md#下载文件)
+### [bat执行js](bat执行JS.md#下载文件)
 
 ### certutil
 > 用户备份证书服务管理，每次下载都会有缓存

@@ -20,7 +20,7 @@ if not exist "%~dp0$testAdmin$" (
     exit /b 1
 ) else rd "%~dp0$testAdmin$"
 
-:: 开启延迟环境变量扩展
+:: 开启延迟环境变量扩展（解决for或if中操作变量时提示ECHO OFF问题，用!!取变量）
 setlocal enabledelayedexpansion
 
 :: cscript -nologo -e:jscript "%~f0" 这一段是执行命令，后面的是参数
@@ -71,7 +71,7 @@ if not exist "%~dp0$testAdmin$" (
     exit /b 1
 ) else rd "%~dp0$testAdmin$"
 
-:: 开启延迟环境变量扩展
+:: 开启延迟环境变量扩展（解决for或if中操作变量时提示ECHO OFF问题，用!!取变量）
 setlocal enabledelayedexpansion
 
 if "%~1"=="/?" (
@@ -176,7 +176,7 @@ if not exist "%~dp0$testAdmin$" (
     exit /b 1
 ) else rd "%~dp0$testAdmin$"
 
-:: 开启延迟环境变量扩展
+:: 开启延迟环境变量扩展（解决for或if中操作变量时提示ECHO OFF问题，用!!取变量）
 setlocal enabledelayedexpansion
 
 if "%~1"=="/?" (
