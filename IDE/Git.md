@@ -18,6 +18,8 @@
   * [远端与本地代码冲突](#远端与本地代码冲突)  
 
 * [批量更新本地项目](#批量更新本地项目)
+
+* [GitHub访问速度过慢](#GitHub访问速度过慢)
 *****************************************************************************
 
 # 使用命令
@@ -281,4 +283,29 @@ function readdir() {
 # 调用shell函数并传参
 readdir $(pwd)
 
+```
+
+
+## GitHub访问速度过慢
+
+### 打开以下网页
+[https://www.ipaddress.com](https://www.ipaddress.com)
+
+[https://myssl.com/dns_check.html](https://myssl.com/dns_check.html)
+
+[http://tool.chinaz.com/dns](http://tool.chinaz.com/dns)
+
+### 搜索以下域名并复制`TTL`值最小的IP
+```bash
+github.com
+www.github.com
+github.global.ssl.fastly.net
+nodeload.github.com
+```
+
+### 添加到`C:\Windows\System32\drivers\etc\hosts`
+
+### 刷新DNS缓存
+```bash
+ipconfig /flushdns
 ```
