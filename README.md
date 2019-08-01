@@ -3,12 +3,6 @@ home: true
 //heroImage: /hero.png
 actionText: 快速上手 →
 actionLink: /#命令
-features:
-- title: 简单自由
-  details: 随意创建目录，编译时自动帮你配置菜单栏和侧边栏，最多三层目录结构。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。
-footer: MIT Licensed | Copyright © 2019 Bajins
 ---
 
 # 使用
@@ -16,6 +10,12 @@ footer: MIT Licensed | Copyright © 2019 Bajins
 ::: tip
 基于本仓库可快速创建你自己的文档网站。
 [高亮语法支持列表](https://prismjs.com/#languages-list)
+:::
+::: tip
+编译时自动帮你配置菜单栏和侧边栏，最多三层目录结构。
+:::
+::: tip
+非常多的热心开发者开源主题[theme](/Theme.md)
 :::
 
 ## 目录结构
