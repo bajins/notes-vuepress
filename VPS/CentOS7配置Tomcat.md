@@ -59,7 +59,7 @@ java -version
 ------------------------------------------------------------------------------------------------
 ## 安装多个Tomcat7
 
-###下载、安装 tomcat
+### 下载、安装 tomcat
 
 > 地址https://tomcat.apache.org/download-80.cgi
 
@@ -147,11 +147,11 @@ vi conf/tomcat-users.xml
 ```
 ### 按shift+g跳到末尾,在`</tomcat-users>`前添加
 ```xml
-  <role rolename="manager-gui"/>
-  <role rolename="manager-script"/>
-  <role rolename="admin-gui"/>
-  <role rolename="admin-script"/>
-  <user username="tomcat" password="密码" roles="manager-gui,manager-script,admin-gui,admin-script"/>
+<role rolename="manager-gui"/>
+<role rolename="manager-script"/>
+<role rolename="admin-gui"/>
+<role rolename="admin-script"/>
+<user username="tomcat" password="密码" roles="manager-gui,manager-script,admin-gui,admin-script"/>
 ```
 
 ### 打开webapps下的host-manager和manager，在META-INF里面都有context.xml
@@ -162,8 +162,8 @@ vi webapps/host-manager/META-INF/context.xml
 ### 修改<Context antiResourceLocking="false" privileged="true" >节点
 #### 这段代码的作用是限制来访IP的，127.d+.d+.d+|::1|0:0:0:0:0:0:0:1，是正则表达式，表示IPv4和IPv6的本机环回地址
 ```xml
-  <Valve className="org.apache.catalina.valves.RemoteAddrValve"
-         allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1|\d+\.\d+\.\d+\.\d+" />
+<Valve className="org.apache.catalina.valves.RemoteAddrValve"
+     allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1|\d+\.\d+\.\d+\.\d+" />
 ```
 
 
