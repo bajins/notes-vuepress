@@ -28,3 +28,14 @@ update table1 set a = elt(floor(rand() * 4) + 1, 5, 7, 11, 13) where b = 84;
 ```sql
 SELECT 别名.* FROM (SELECT * FROM 表名 ORDER BY 字段 DESC) AS 别名 GROUP BY 别名.字段;
 ```
+
+## 查询数据库中的存储过程
+```sql
+selectnamefrom mysql.proc where db = 'your_db_name' andtype= 'PROCEDURE';
+
+show procedure status;
+
+# 查看存储过程或函数的创建代码
+show create procedure proc_name;
+show create function func_name;
+```
