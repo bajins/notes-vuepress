@@ -1,25 +1,36 @@
 # Java
 
-# 目录
-* [前端框架](##前端框架)
-* [后端框架](##后端框架)
-  * [延迟队列](##延迟队列)
-* [工具](##工具)
-* [地区数据](##地区数据)
-* [API](##API)
-* [Java面试题](##Java面试题)
+## 目录
+* [前端框架](#前端框架)
+* [后端框架](#后端框架)
+  * [延迟队列](#延迟队列)
+* [工具](#工具)
+* [地区数据](#地区数据)
+* [Java面试题](#Java面试题)
 
 *****************************************************************************
 
+## windows环境变量
+
+```batch
+JAVA_HOME
+C:\Program Files\Java\jre1.8.0_171
+
+CATALINA_HOME
+D:\apache-tomcat-8.5.30
+
+CLASSPATH
+.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;%CATALINA_HOME%\lib;
+
+Path
+;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATALINA_HOME%\bin;
+```
+
 ### [JavaFX开发](/JAVA/JavaFX.md)
 
-### log文件夹为aop切面日志拦截
+### [Java笔记](/JAVA/Java笔记.md)
 
-### [Java笔记](/JAVA//Java笔记.md)
-
-### [项目收集](/JAVA/%E9%A1%B9%E7%9B%AE%E6%94%B6%E9%9B%86.md)
-
-### [windows环境变量配置](/JAVA/windows%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.md)
+### [项目收集](/JAVA/项目收集.md)
 
 ### [Tomcat优化](/JAVA/Tomcat优化.md)
 
@@ -44,9 +55,6 @@
 [f2ex.cn 各种前端资源](http://f2ex.cn/)
 
 
-### Android
-[专出网络框架的square](https://github.com/square)
-
 ## 后端框架
 [dubbo](https://github.com/apache/incubator-dubbo)
 
@@ -67,7 +75,7 @@
 
 [从GBK到UTF8的某些路径中的文件编码转换](https://github.com/downgoon/gbk2utf8)
 
-[JVM监控](/JAVA/JVM.md##监控工具)
+[JVM监控](/JAVA/JVM.md#监控工具)
 
 ## 地区数据
 [district](https://github.com/eduosi/district)
@@ -78,13 +86,6 @@
 
 [china_regions](https://github.com/wecatch/china_regions)
 
-
-## [API](/API)
-[By jokermonn](https://github.com/jokermonn/-Api)
-
-[koa重写了one一个api](https://github.com/pengchujin/oneisall_api)
-
-[unsplash api](https://unsplash.com/developers)
 
 ## Java面试题
 

@@ -1,6 +1,6 @@
 # CentOS7安装mysql
 
-## [MySQL配置](/MySQL/MySQL配置.md)
+## [MySQL配置](/MySQL/配置.md)
 ## yum按装MySQL
 ### 这里参考了[海月博客](https://blog.imzhengfei.com/centos-7-an-zhuang-pei-zhi-mysql/)
 首先centos7 默认已经不支持mysql，因为收费了你懂得，所以内部集成了mariadb，
@@ -70,7 +70,7 @@ yum -y install mysql-community-server
 ```bash
 mysqld -V
 ```
-#### [配置MySQL](/MySQL/MySQL配置.md#yum安装配置)
+#### [配置MySQL](/MySQL/配置.md#yum安装配置)
 
 ### 更改MYSQL用户权限（按需执行）：
 ```bash
@@ -90,7 +90,7 @@ systemctl daemon-reload
 ```bash
 systemctl restart mysqld
 ```
-[修改密码和设置远程连接](/MySQL/MySQL用户管理.md#安装MySQL后修改密码)
+[修改密码和设置远程连接](/MySQL/用户管理.md#安装MySQL后修改密码)
 
 
 -----------------------------------------------------------------------------------------------------------------------
@@ -154,7 +154,7 @@ cd /usr/local/mysql/bin
 ```
 记住生成的临时密码,如果忘记密码或者想重新初始化，可以先将mysql/data目录中文件删除，然后再执行初始化命令
 
-### [配置MySQL](/MySQL/MySQL配置.md#yum安装配置)
+### [配置MySQL](/MySQL/配置.md#yum安装配置)
 
 ### 启动
 ```bash

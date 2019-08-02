@@ -1,7 +1,7 @@
 # NodeJs
 
 ## 安装NodeJs
-### CentOs7
+### CentOS7
 ```bash
 # 到https://github.com/nodesource/distributions#installation-instructions-1
 # 复制更新软件源命令，并执行

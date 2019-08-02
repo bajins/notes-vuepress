@@ -1,6 +1,6 @@
 # Python
 
-## [Centos7安装Python3.7](./install.md)
+## [CentOS7安装Python3.7](./install.md)
 
 # 解决pip安装模块提示已经安装更高版本问题
 ```bash

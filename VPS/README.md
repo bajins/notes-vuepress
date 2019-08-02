@@ -1,7 +1,7 @@
 # VPS
 
 
-#### Centos官方已宣布在2020年停止对Centos6的维护更新，各大软件开发商也逐渐停止对Centos6的兼容，建议使用Centos7
+#### CentOS官方已宣布在2020年停止对CentOS6的维护更新，各大软件开发商也逐渐停止对CentOS6的兼容，建议使用CentOS7
 
 [Linux命令](/VPS/Linux命令.md)
 

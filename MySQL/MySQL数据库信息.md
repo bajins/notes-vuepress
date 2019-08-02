@@ -1,7 +1,7 @@
 # MySQL数据库信息
 
 ## MySQL查看数据库详细信息
-### information_schema数据库记录每个表和数据库的详细信息，在该库中有一个TABLES表：
+### `information_schema`数据库记录每个表和数据库的详细信息，在该库中有一个TABLES表：
 
 |字段        |    说明     |
 |------------|------------|
@@ -12,7 +12,7 @@
 |DATA_LENGTH  | 数据大小   |
 |INDEX_LENGTH | 索引大小   |
 
-#### 其他字段请参考MySQL的手册，我们只需要了解这几个就足够了。
+> 其他字段请参考MySQL的手册，我们只需要了解这几个就足够了。
 
 ### 查看所有数据库信息
 ```sql
@@ -29,7 +29,9 @@ ORDER BY
 	sum( table_rows ) DESC;
 ```
 
-### 查看一个数据库占用空间的大小，那就相当于是 数据大小(DATA_LENGTH)+索引大小(INDEX_LENGTH) 即可，SQL语句:
+### 查看一个数据库占用空间的大小
+> 那就相当于是数据大小(`DATA_LENGTH`)+索引大小(`INDEX_LENGTH`)即可
+
 ```sql
 SELECT
 	table_schema AS '数据库',
@@ -45,7 +47,9 @@ ORDER BY
 	table_rows DESC;
 ```
 
-### 查看一个表占用空间的大小，那就相当于是 数据大小(DATA_LENGTH)+索引大小(INDEX_LENGTH) 即可，SQL语句:
+### 查看一个表占用空间的大小
+> 那就相当于是数据大小(`DATA_LENGTH`)+索引大小(`INDEX_LENGTH`)即可
+
 ```sql
 SELECT
 	table_schema AS '数据库',

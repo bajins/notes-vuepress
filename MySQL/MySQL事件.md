@@ -19,10 +19,13 @@ CREATE EVENT [IFNOT EXISTS] event_name
   [COMMENT 'comment']
   DO sql_statement;
 ```
-```diff
-+[ON COMPLETION [NOT] PRESERVE] 可以设置这个事件是执行一次还是持久执行，默认为 NOT PRESERVE
-+[ENABLE | DISABLE] 可是设置该事件创建后状态是否开启或关闭，默认为ENABLE
-+[COMMENT 'comment'] 可以给该事件加上注释
+
+> `[ON COMPLETION [NOT] PRESERVE]` 可以设置这个事件是执行一次还是持久执行，默认为`NOT PRESERVE`
+>
+> `[ENABLE | DISABLE]` 可是设置该事件创建后状态是否开启或关闭，默认为`ENABLE`
+>
+> `[COMMENT 'comment']` 可以给该事件加上注释
+
 ```
 ## 修改事件(ALTER EVENT)
 ```sql
