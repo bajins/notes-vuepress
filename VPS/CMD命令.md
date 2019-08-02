@@ -43,3 +43,13 @@ netstat -an | find "0.0.0.0:80"
 ```batch
 netstat –ano
 ```
+
+### 查看被占用的端口`pid`
+```batch
+netstat -ano | findstr 80
+```
+
+### 结束进程
+```batch
+taskkill /pid 进程号 /f
+```
