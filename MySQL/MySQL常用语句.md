@@ -44,3 +44,11 @@ show create function func_name;
 ```sql
 SET [SESSION | GLOBAL] TRANSACTION ISOLATION LEVEL [READ UNCOMMITTED | READ COMMITTED | REPEATABLE READ | SERIALIZABLE];
 ```
+| 代码             | 说明           |
+|------------------|----------------|
+| SESSION          | 当前会话       |
+| GLOBAL           | 全局           |
+| READ UNCOMMITTED | 读取未提交内容 |
+| READ COMMITTED   | 读取提交内容   |
+| REPEATABLE READ  | 可重读         |
+| SERIALIZABLE     | 可串行化       |
