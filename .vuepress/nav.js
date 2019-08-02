@@ -30,19 +30,19 @@ module.exports = [
                         link: 'https://tableconvert.com/'
                     },
                     {
-                        text: '表格生成clipboard2markdown',
-                        link: 'https://euangoddard.github.io/clipboard2markdown/'
-                    },
-                    {
                         text: '表格生成tablesgenerator',
                         link: 'http://www.tablesgenerator.com/markdown_tables'
                     },
                     {
-                        text: '目录树生成',
+                        text: '表格生成clipboard2markdown',
+                        link: 'https://euangoddard.github.io/clipboard2markdown/'
+                    },
+                    {
+                        text: '目录树生成mddir',
                         link: 'https://github.com/JohnByrneRepo/mddir'
                     },
                     {
-                        text: '目录树生成',
+                        text: '目录树生成treer',
                         link: 'https://github.com/derycktse/treer'
                     },
                 ]
