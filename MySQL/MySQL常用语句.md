@@ -39,3 +39,8 @@ show procedure status;
 show create procedure proc_name;
 show create function func_name;
 ```
+
+## 事务隔离级别修改
+```sql
+SET [SESSION | GLOBAL] TRANSACTION ISOLATION LEVEL [READ UNCOMMITTED | READ COMMITTED | REPEATABLE READ | SERIALIZABLE];
+```
