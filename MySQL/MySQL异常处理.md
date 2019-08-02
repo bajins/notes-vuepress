@@ -1,4 +1,4 @@
-# MySQL异常捕获处理
+# MySQL异常处理
 
 ```
 DELIMITER $$
