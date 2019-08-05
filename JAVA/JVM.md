@@ -23,30 +23,33 @@
 
 ### 常用参数
 
-|      参数    |      说明    |
-| ------------ | ------------ |
-|file.encoding |  默认文件编码 |
-|-Xmx1024m | 初始堆大小为1024m |
-|-Xms1024m | 最大堆大小为1024m |
-|-Xmn366m | 设置年轻代大小为366m,Sun官方推荐配置为整个堆的3/8（35.7%）  |
-|-XX:NewSize=n | 设置年轻代大小  |
-|-XX:MaxNewSize=n | 设置最大的年轻代大小 |
-|-XX:PermSize=n | JDK1.7设置永久代大小  |
-|-XX:MaxPermSize=n| JDK1.7设置最大永久代大小 |
-|-XX:MetaspaceSize=n | JDK1.8设置元空间大小  |
-|-XX:MaxMetaspaceSize=n| JDK1.8设置最大元空间大小,最好与-XX:MetaspaceSize一致 |
-|-XX:NewRatio=4|设置年轻代（包括Eden和两个Survivor区）与终身代的比值（除去永久代）。设置为4，则年轻代与终身代所占比值为1：4，年轻代占整个堆栈的1/5|
-|-XX:SurvivorRatio=n |年轻代中Eden区与两个Survivor区的比值。注意Survivor区有两个。如：3，表示Eden：Survivor=3：2，一个Survivor区占整个年轻代的1/5|
-|-XX:MaxTenuringThreshold|设置垃圾最大年龄，默认为：15。如果设置为0的话，则年轻代对象不经过Survivor区，直接进入年老代。对于年老代比较多的应用，可以提高效率。如果将此值设置为一个较大值，则年轻代对象会在Survivor区进行多次复制，这样可以增加对象再年轻代的存活时间，增加在年轻代即被回收的概论。 |
-|-XX:+CMSScavengeBeforeRemark|CMS并发标记阶段与用户线程并发进行，此阶段会产生已经被标记了的对象又发生变化的情况，若打开此开关，可在一定程度上降低CMS重新标记阶段对上述“又发生变化”对象的扫描时间，当然，“清除尝试”也会消耗一些时间。注：开启此开关并不会保证在标记阶段前一定会进行清除操作|
-|-XX:+UseSerialGC |设置串行收集器|
-|-XX:+UseParallelGC |设置并行收集器|
-|-XX:ParallelGCThreads=n|设置并行收集线程数|
-|-XX:+UseParalledlOldGC |设置并行年老代收集器|
-|-XX:+UseConcMarkSweepGC |设置并发收集器|
-|-XX:MaxGCPauseMillis=n |设置并行收集最大暂停时间|
-|-XX:GCTimeRatio=n |设置垃圾回收时间占程序运行时间的百分比。公式为1/(1+n)|
-|-XX:+UseConcMarkSweepGC | 设置年老代为并发收集。测试中配置这个以后，-XX:NewRatio=4的配置失效了，原因不明。所以，此时年轻代大小最好用-Xmn设置。|
+| **参数**                                | **说明**                                                                                                                                        |
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| file.encoding                         | 默认文件编码                                                                                                                                        |
+| -Xmx1024m                             | 初始堆大小为1024m                                                                                                                                   |
+| -Xms1024m                             | 最大堆大小为1024m                                                                                                                                   |
+| -Xmn366m                              | 设置年轻代大小为366m,Sun官方推荐配置为整个堆的3/8（35.7%）                                                                                                         |
+| -XX:NewSize=n                         | 设置年轻代大小                                                                                                                                       |
+| -XX:MaxNewSize=n                      | 设置最大的年轻代大小                                                                                                                                    |
+| -XX:PermSize=n                        | JDK1.7设置永久代大小                                                                                                                                 |
+| -XX:MaxPermSize=n                     | JDK1.7设置最大永久代大小                                                                                                                               |
+| -XX:MetaspaceSize=n                   | JDK1.8设置元空间大小                                                                                                                                 |
+| -XX:MaxMetaspaceSize=n                | JDK1.8设置最大元空间大小,最好与-XX:MetaspaceSize一致                                                                                                        |
+| -XX:NewRatio=4                        | 设置年轻代（包括Eden和两个Survivor区）与终身代的比值（除去永久代）。设置为4，则年轻代与终身代所占比值为1：4，年轻代占整个堆栈的1/5                                                                    |
+| -XX:SurvivorRatio=n                   | 年轻代中Eden区与两个Survivor区的比值。注意Survivor区有两个。如：3，表示Eden：Survivor=3：2，一个Survivor区占整个年轻代的1/5                                                         |
+| -XX:MaxTenuringThreshold              | 设置垃圾最大年龄，默认为：15。如果设置为0的话，则年轻代对象不经过Survivor区，直接进入年老代。对于年老代比较多的应用，可以提高效率。如果将此值设置为一个较大值，则年轻代对象会在Survivor区进行多次复制，这样可以增加对象再年轻代的存活时间，增加在年轻代即被回收的概论。 |
+| -XX:+CMSScavengeBeforeRemark          | CMS并发标记阶段与用户线程并发进行，此阶段会产生已经被标记了的对象又发生变化的情况，若打开此开关，可在一定程度上降低CMS重新标记阶段对上述“又发生变化”对象的扫描时间，当然，“清除尝试”也会消耗一些时间。注：开启此开关并不会保证在标记阶段前一定会进行清除操作           |
+| -XX:+UseSerialGC                      | 设置串行收集器                                                                                                                                       |
+| -XX:+UseParallelGC                    | 设置并行收集器                                                                                                                                       |
+| -XX:ParallelGCThreads=n               | 设置并行收集线程数                                                                                                                                     |
+| -XX:+UseParalledlOldGC                | 设置并行年老代收集器                                                                                                                                    |
+| -XX:MaxGCPauseMillis=n                | 设置并行收集最大暂停时间                                                                                                                                  |
+| -XX:GCTimeRatio=n                     | 设置垃圾回收时间占程序运行时间的百分比。公式为1/(1+n)                                                                                                                |
+| -XX:+UseConcMarkSweepGC               | 设置年老代为并发收集。测试中配置这个以后，-XX:NewRatio=4的配置失效了，原因不明。所以，此时年轻代大小最好用-Xmn设置。                                                                           |
+| -XX:CMSInitiatingOccupancyFraction=70 | CMS垃圾收集器，当老年代达到70%时，触发CMS垃圾回收。                                                                                                                |
+| -XX:+UseCMSInitiatingOccupancyOnly    | 指定使用CMSInitiatingOccupancyFraction的值,如果不指定,JVM仅在第一次使用设定值,后续则自动调整。                                                                             |
+| -XX:+ParallelRefProcEnabled           | 并行处理Reference，加快处理速度，缩短耗时                                                                                                                     |
+
 
 ### 参考
 > 根据JDK8-4G内存-4核CPU生成的`JVM`参数，打印了`gc`各个阶段的日志
@@ -62,14 +65,13 @@ export JAVA_OPTS="
 -XX:MaxMetaspaceSize=512M
 -XX:MetaspaceSize=512M
 -XX:+UseConcMarkSweepGC
--XX:+UseCMSInitiatingOccupancyOnly
 -XX:CMSInitiatingOccupancyFraction=70
+-XX:+UseCMSInitiatingOccupancyOnly
 -XX:+ExplicitGCInvokesConcurrentAndUnloadsClasses
--XX:+CMSClassUnloadingEnabled
 -XX:+ParallelRefProcEnabled
 -XX:+CMSScavengeBeforeRemark
 -XX:+HeapDumpOnOutOfMemoryError
--XX:HeapDumpPath=/home/jvm_logs/local
+-XX:HeapDumpPath=/home/jvm_logs/heap.hprof
 -XX:ErrorFile=/home/jvm_logs/hs_err_pid%p.log
 -Xloggc:/home/jvm_logs/gc.log
 -Djava.rmi.server.hostname=192.168.1.220
@@ -230,7 +232,7 @@ jstat -gc $(pgrep java) 2s 2
 ```bash
 jmap [options] pid
 ```
-#### `jmap`命令的参数选项也包括很多种，具体如下：
+#### 参数选项：
 
 #### 1. `-clstats`
 
@@ -257,7 +259,8 @@ jmap [options] pid
 
 #### 示例命令如下：
 ```bash
-jmap -dump:live,format=b,file=heap.bin $(pgrep java)
+# 生成dump文件
+jmap -dump:live,format=b,file=heap.hprof $(pgrep java)
 ```
 
 ### jinfo
@@ -378,7 +381,11 @@ jcmd -h
 ```bash
 jcmd $(pgrep java) help
 ```
-
+#### 示例：
+```bash
+# 生成dump文件
+jcmd <pid> GC.heap_dump /home/heap.hprof
+```
 
 ### 其他命令
 ```bash
