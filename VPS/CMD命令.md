@@ -39,12 +39,17 @@ del 文件名
 ```batch
 netstat -an | find "0.0.0.0:80"
 ```
-### 查看占用的pid
+### 查看占用的`pid`
 ```batch
-netstat –ano
+# 直接用参数过滤
+tasklist /fi "imagename eq 程序名*"
+# 用findstr命令搜索
+tasklist | findstr /i "程序名"
+# 只输出PID编号
+for /f "skip=3 tokens=2" %a in ('tasklist /fi "imagename eq 程序名*"') do @echo %a
 ```
 
-### 查看被占用的端口`pid`
+### 查看被占用端口的`pid`
 ```batch
 netstat -ano | findstr 80
 ```
