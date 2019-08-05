@@ -34,16 +34,12 @@ module.exports = [
                         link: 'http://www.tablesgenerator.com/markdown_tables'
                     },
                     {
+                        text: '表格生成table-magic',
+                        link: 'http://stevecat.github.io/table-magic/'
+                    },
+                    {
                         text: '表格生成clipboard2markdown',
                         link: 'https://euangoddard.github.io/clipboard2markdown/'
-                    },
-                    {
-                        text: '目录树生成mddir',
-                        link: 'https://github.com/JohnByrneRepo/mddir'
-                    },
-                    {
-                        text: '目录树生成treer',
-                        link: 'https://github.com/derycktse/treer'
                     },
                 ]
             },
