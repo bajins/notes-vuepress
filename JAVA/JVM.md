@@ -1,16 +1,26 @@
 # JVM
 
-# 目录
-* [JVM参数的优化](#JVM参数的优化)
-  * [jstat命令](#jstat命令)
-* [生成Dump文件](#生成Dump文件)
-* [监控工具](#监控工具)
-  * [三方工具](#三方工具)
---------------------------------------------------
+## 目录
+* [JVM参数优化](#JVM参数优化)
+* [命令行工具](#命令行工具)
+    * [jps](#jps)
+    * [jstat](#jstat)
+    * [jinfo](#jinfo)
+    * [jmap](#jmap)
+    * [jstack](#jstack)
+    * [jcmd](#jcmd)
+    * [其他命令](#其他命令)
+* [GUI工具](#GUI工具)
+    * [jvisualvm](#jvisualvm)
+    * [jconsole](#jconsole)
+* [远程Debug](#远程Debug)
+* [三方工具](#三方工具)
 
 
-## JVM参数的优化
-#### 因为Tomcat运行在JAVA虚拟机之上,适当调整Tomcat的运行JVM参数可以提升整体性能。
+
+## JVM参数优化
+> 因为Tomcat运行在JAVA虚拟机之上,适当调整Tomcat的运行JVM参数可以提升整体性能。
+
 ### 常用参数
 
 |      参数    |      说明    |
@@ -39,8 +49,10 @@
 |-XX:+UseConcMarkSweepGC | 设置年老代为并发收集。测试中配置这个以后，-XX:NewRatio=4的配置失效了，原因不明。所以，此时年轻代大小最好用-Xmn设置。|
 
 ### 参考
-#### 根据JDK8-4G内存-4核生成的jvm参数，打印了gc各个阶段的日志
-##### 看看ygc 的回收时间及 时间，已及old区大小，最后看FGC
+> 根据JDK8-4G内存-4核CPU生成的`JVM`参数，打印了`gc`各个阶段的日志
+>
+> 看看`ygc`的回收时间，以及`old`区大小，最后看`FGC`
+
 ```bash
 export JAVA_OPTS="
 -server
@@ -83,56 +95,293 @@ export JAVA_OPTS="
 set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_191
 set JRE_HOME=C:\Program Files\Java\jre1.8.0_201
 ```
-#### 修改bin/catalina.bat文件,在setlocal下面一行添加，注意代码格式
+> 修改`bin/catalina.bat`文件,在setlocal下面一行添加，注意代码格式
 
 ![](/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Windows.png)
 
 ### linux
-#### 修改bin/catalina.sh文件,在最前面添加，注意代码格式
+> 修改`bin/catalina.sh`文件,在最前面添加，注意代码格式
+>
 ![](/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Linux.png)
 
-## jstat命令
 
-> jstat [ generalOption | outputOptions vmid [interval[s|ms] [count]] ]
+
+## 命令行工具
+
+| 名称     | 主要作用                                                                                 |
+|--------|--------------------------------------------------------------------------------------|
+| [jps](#jps) | JVM Process Status Tool,  列出指定系统内正在运行的虚拟机进程               |
+| [jstat](#jstat)  | JVM Statistics Monitoring Tool，允许用户查看目标`Java`进程的类加载、即时编译以及垃圾回收相关信息。常用来检测垃圾回收及内存泄露问题。 |
+| [jinfo](#jinfo)  | 打印目标`Java`进程的配置参数，并能够改动其中`manageabe`的参数。|
+| [jmap](#jmap)    | 统计用户统计目标`Java`进程的堆中存放的`Java`对象，生成堆转储快照（`heapdump`文件）  |
+| [jstack](#jstack) | 打印目标`Java`进程中各个线程的栈轨迹、线程状态、锁状况等信息，它还将自动检测死锁。  |
+| [jcmd](#jcmd)    | 实现前面除了`jstat`之外所有命令的功能  |
+
+> 参考：[Java虚拟机的监控及诊断工具（命令行）](https://mingshan.fun/2018/10/21/monitoring-diagnostic-tools-for-jvm-cmd/)
+
+### jps
+> `jps`命令（[帮助文档](https://docs.oracle.com/en/java/javase/11/tools/jps.html#GUID-6EB65B96-F9DD-4356-B825-6146E9EEC81E)）
+> 用于列出正在运行的虚拟机进程信息，
+
+#### 命令格式如下：
+
+```bash
+jps [ -q ] [ -mlvV ][hostid ]
+jps [ -help ]
+```
+> 在默认情况下，jps的输出信息包括 Java 进程的进程ID以及主类名。jps还提供一些参数用于打印详细的信息。
+
+#### 其中`-q`仅显示虚拟机的进程id，`-mlvV`的意义如下：
+
+- `-m` 将打印传递给主类的参数
+- `-l` 将打印模块名以及包名
+- `-v` 将打印传递给虚拟机的参数
+- `-V` 将打印传递给主类的参数、jar文件名等
+
+
+### jstat
+
+> `jstat`（[帮助文档](https://docs.oracle.com/en/java/javase/11/tools/jstat.html#GUID-5F72A7F9-5D5A-4486-8201-E1D1BA8ACCB5)）
+> 是用于监视虚拟机各种运行状态信息的命令行工具，它可以显示本地或者远程虚拟机进程中的类加载、内存、垃圾回收等信息
+
+#### 命令格式如下：
+```
+用法：jstat -help|-options
+     jstat -<option> [-t] [-h<lines>] <vmid> [<interval> [<count>]]
+
+定义：
+  <option> -options选项报告的选项
+  <vmid>虚拟机标识符。 vmid采用以下形式：
+                     <lvmid> [@ <主机名> [：<端口>]]
+                其中<lvmid>是目标的本地vm标识符
+                Java虚拟机，通常是进程ID; <hostname>是
+                运行目标Java虚拟机的主机的名称;
+                和<port>是rmiregistry的端口号
+                目标主持人。有关更完整的信息，请参阅jvmstat文档
+                虚拟机标识符的描述。
+  <lines>标题行之间的样本数。
+  <interval>采样间隔。允许以下表格：
+                    <N> [ “MS” | “S”]
+                其中<n>是一个整数，后缀指定单位为
+                毫秒（“ms”）或秒（“s”）。默认单位为“ms”。
+  <count>终止前要采取的样本数。
+  -J <flag>将<flag>直接传递给运行时系统。
+```
+
+> 其中`vmid`全称是`Virtual Machine Identifier`，就是jps命令显示的进程id，如果是远程虚拟机进程
+
+#### `vmid`的格式如下：
+```
+[protocol:][//]lvmid[@hostname[:port]/servername]
+```
+
+#### `jstat`命令包含很多的子命令，主要分为3类：
+
+- 类加载（`-class`）
+- 即时编译（`-compiler`和`-printcompilation`）
+- 垃圾回收（`-gc*`）
+
+#### 输入`jstat -options`显示如下：
+```
+-class
+-compiler
+-gc
+-gccapacity
+-gccause
+-gcmetacapacity
+-gcnew
+-gcnewcapacity
+-gcold
+-gcoldcapacity
+-gcutil
+-printcompilation
+```
+
+> `jstat [ generalOption | outputOptions vmid [interval[s|ms] [count]] ]`
 >
 > 参数：
->> generalOption: 一般使用-gcutil查看GC情况
+>> `generalOption` 一般使用-gcutil查看GC情况
 >> 
->> vmid: 虚拟机进程号，即当前运行的java进程号
+>> `vmid` 虚拟机进程号，即当前运行的java进程号
 >> 
->> interval: 间隔时间，单位为秒或毫秒
+>> `interval` 间隔时间，单位为秒或毫秒
 >> 
->> count: 打印次数，如果缺省则打印无数次
+>> `count` 打印次数，如果缺省则打印无数次
+
 
 ```bash
 # 每2秒输出一次内存情况，连续输出100次
 jstat -gcutil <pid> 2000 100
 jstat -gcutil $(pgrep java) 2000 100
 
-# 输出heap各个分区大小
-jstat -gc <pid>
-jstat -gc $(pgrep java)
-
-# 获取到线程的dump日志
-jstack -l $(pgrep java)  >> dump.log
+# 输出heap各个分区大小，垃圾收集情况
+# 每隔2秒打印一次，共打印2次
+jstat -gc <pid> 2s 2
+jstat -gc $(pgrep java) 2s 2
 ```
-### 观察jvm中当前所有线程的运行情况和线程当前状态
+> JVM堆是分代的，前四个表示`Survivor`区的容量（Capacity）和已使用量（Utilization），EC表示当前Eden的容量，在翻阅文档的时候，
+> 发现没有`CGC`和`CGCT`的解释，它们分别代表并发`GC Stop-The-World`的次数和时间。
+
+### jmap
+> `jmap`命令（[帮助文档](https://docs.oracle.com/en/java/javase/11/tools/jmap.html#GUID-D2340719-82BA-4077-B0F3-2803269B7F41)）
+> 用于生成堆转储快照，用于分析Java虚拟机堆中的对象。
+
+#### 命令格式为：
 ```bash
-jstack -F 进程ID
-jstack -F $(pgrep java)
+jmap [options] pid
+```
+#### `jmap`命令的参数选项也包括很多种，具体如下：
+
+#### 1. `-clstats`
+
+> 连接到正在运行的进程并打印Java堆被加载类的统计信息
+
+#### 2. `-finalizerinfo`
+
+> 连接到正在运行的进程并打印所有待 finalize 的对象。
+
+#### 3. `-histo[:live]`
+
+> 连接到正在运行的进程并统计各个类的实例数目以及占用内存，并按照内存使用量从多至少的顺序排列。
+> 此外，`-histo:live`只统计堆中还在存活的对象。
+
+#### 4. `-dump`
+
+> 连接到正在运行的进程并导出Java虚拟机堆内存的快照。
+
+#### 该子命令该包含如下参数：
+
+- `live` 只保存堆中存活的对象
+- `format=b` 将使`jmap`导出与`hprof`（在`Java 9`中已被移除）`-XX:+HeapDumpAfterFullGC`、`-XX:+HeapDumpOnOutOfMemoryError`格式一样的文件
+- `file=filename` 指定导出堆内存快照的位置
+
+#### 示例命令如下：
+```bash
+jmap -dump:live,format=b,file=heap.bin $(pgrep java)
+```
+
+### jinfo
+> `jinfo`命令（[帮助文档](https://docs.oracle.com/en/java/javase/11/tools/jinfo.html#GUID-69246B58-28C4-477D-B375-278F5F9830A5)）
+> 用来实时地查看和调整虚拟机的各项参数。
+>
+>我们可以使用`jps -v`来查看传递给虚拟机的参数，即`System.getProperty`获取的`-D`参数，现在我们可以利用`jinfo`命令来获取了。
+
+#### 命令格式如下：
+```bash
+jinfo [option] pid
+```
+#### 它也包括了许多子命令，具体如下：
+
+#### 1. `-flag name`
+
+> 打印指定的虚拟机参数的名称和值
+
+#### 2. `-flag [+|-]name`
+
+> 用来修改目标`Java`进程的`manageable`虚拟机参数。其中`+`代表开启，`-`代表关闭。
+>
+> 命令：`java -XX:+PrintFlagsFinal -version | grep manageable`
+
+#### 3. `-flag name=value`
+
+> 设置指定的虚拟机参数的值
+
+#### 4. `-flags`
+
+> 打印全部的虚拟机参数
+>> 例如：`jinfo -flags 26792`
+
+#### 5. `-sysprops`
+
+> 打印`java`系统参数（`Java System Properties`）
+
+### jstack
+> `jstack`命令（[帮助文档](https://docs.oracle.com/en/java/javase/11/tools/jstack.html#GUID-721096FC-237B-473C-A461-DBBBB79E4F6A)）
+> 可以用来打印目标`Java`进程中各个线程的栈轨迹，以及这些线程所持有的锁。
+>
+>通过线程的栈轨迹可以定位线程长时间停顿的原因，如线程间死锁、死循环、请求外部资源导致长时间等待等。
+
+#### 命令格式如下：
+```
+用法：
+     jstack [-l] <pid>
+         （连接到正在运行的进程）
+     jstack -F [-m] [-l] <pid>
+         （连接到挂起的进程）
+     jstack [-m] [-l] <executable> <core>
+         （连接到核心文件）
+     jstack [-m] [-l] [server_id @] <远程服务器IP或主机名>
+         （连接到远程调试服务器）
+
+选项：
+     -F强制进行线程转储。 当jstack <pid>没有响应时（进程挂起）时使用
+     -m打印java和本机帧（混合模式）
+     -l长列表。 打印有关锁的其他信息
+     -h或-help打印此帮助消息
+```
+#### 在输出的信息中，会包含线程的状态，下面是常见的线程状态：
+
+- `RUNNABLE` 线程处于执行中
+- `BLOCKED` 线程被阻塞
+- `WAITING` 线程正在等待
+- `TIMED_WAITING` 超时等待
+
+#### 示例
+```bash
+# 获取到线程的dump日志
+jstack -l $(pgrep java) >dump.log
 
 # 将所有线程信息输入到指定文件中
-jstack -F 进程ID > jvm.log
 jstack -F $(pgrep java) > jvm.log
 ```
-## other
+### jcmd
+> `jcmd`命令（[帮助文档](https://docs.oracle.com/en/java/javase/11/tools/jcmd.html#GUID-59153599-875E-447D-8D98-0078A5778F05)）
+> 可以向运行中的`Java`虚拟机(`JVM`)发送诊断命令。
+
+#### 命令格式如下：
+
 ```bash
-# 查看本机所有java进程pid
-jps -l
+jcmd <pid | main class> <command ... | PerfCounter.print | -f  file>
+jcmd -l
+jcmd -h
+```
 
-# 查看运行时jvm参数
-jinfo -flag <jvm参数> <pid>
+#### 参数
+- `pid`
+> 虚拟机的进程id
 
+- `main class`
+> 接收诊断命令请求的进程的main类。
+
+- `command`
+> 该命令必须是针对所选JVM的有效`jcmd`命令。
+>
+> `jcmd`的可用命令列表是通过运行`help`命令(`jcmd pid help`)获得的，其中`pid`是运行`Java`进程的进程ID。
+>
+> 如果`pid`为0，命令将被发送到所有的`Java`进程。`main class`参数将用于部分或完全匹配用于启动`Java`的类。
+>
+> 如果没有提供任何选项，会列出正在运行的`Java`进程标识符以及用于启动进程的主类和命令行参数(与使用`-l`相同)。
+
+- `Perfcounter.print`
+> 打印目标`Java`进程上可用的性能计数器。性能计数器的列表可能会随着`Java`进程的不同而产生变化。
+
+- `-f file`
+> 从文件file中读取命令，然后在目标`Java`进程上调用这些命令。
+
+- `-l`
+> 查看所有的进程列表信息。
+
+- `-h`
+> 查看帮助信息。（同`-help`）
+
+#### 查看可用命令
+```bash
+jcmd $(pgrep java) help
+```
+
+
+### 其他命令
+```bash
 # 获取当前JVM默认参数
 java -XX:+PrintFlagsFinal -version | grep MaxHeapSize
 
@@ -140,52 +389,36 @@ java -XX:+PrintFlagsFinal -version | grep MaxHeapSize
 top -H -p <pid>
 top -H -p $(pgrep java)
 
-# 打印等待回收的对象信息
-jmap -finalizerinfo <pid>
-jmap -finalizerinfo $(pgrep java)
-```
-[JVM调优命令-jmap](https://www.cnblogs.com/myna/p/7573843.html)
-
-
-
-## 生成Dump文件
-### JVM在遇到OOM(OutOfMemoryError)时生成Dump文件
-### 命令：
-```bash
-jmap -dump:live,format=b,file=d:\dump\heap.hprof <pid>
 ```
 
-> file：保存路径及文件名
->
-> pid：进程编号（windows通过任务管理器查看，linux通过ps aux查看）
->
-> dump文件可以通过MemoryAnalyzer(MAT)分析查看,可以查看dump时对象数量，内存占用，线程情况等。
 
-
-## 监控工具
+## GUI工具
 
 ### jvisualvm
 
-#### 在jvm启动参数中加入或在Tomcat的/bin/catalina.sh文件中加入
+#### 在jvm启动参数中加入或在Tomcat的`/bin/catalina.sh`文件中加入
 ```bash
 -Djava.rmi.server.hostname=主机的IP
--Dcom.sun.management.jmxremote.port=18999
+-Dcom.sun.management.jmxremote.port=端口号
 -Dcom.sun.management.jmxremote.ssl=false
 -Dcom.sun.management.jmxremote.authenticate=false
 ```
 #### 启动
-> 到JDK安装目录/bin目录下，双击jvisualvm.exe文件启动
->
-> C:\Program Files\Java\jdk1.8.0_191\bin目录下找到jvisualvm.exe
+> 到JDK安装目录/bin目录下，双击`jvisualvm.exe`文件启动
 
-#### 需要注意的是:当OS所在分区是FAT格式时，VisualVM无法获取相关信息！
+> 需要注意的是:当OS所在分区是FAT格式时，VisualVM无法获取相关信息！
 
-http://blog.51cto.com/zero01/2141942
+> 参考：
+>> [基于JVisualVM的可视化监控](http://blog.51cto.com/zero01/2141942)
+>>
+>> [VisualVM监控远程阿里云主机](https://blog.csdn.net/u010004317/article/details/82948040)
 
-https://blog.csdn.net/u010004317/article/details/82948040
+### 解决`Visual GC`提示`不受此JVM支持`，要监控的主机没有配置`jstatd`
 
-### 解决Visual GC提示”不受此JVM支持“，要监控的主机没有配置jstatd
-#### 先查看jstatd服务是否可用
+> 参考：[jvisualvm 连接 jstatd 远程监控 jvm 或 Visual GC提示"不受此JVM支持“](https://blog.csdn.net/liupeifeng3514/article/details/78998161)
+
+
+#### 先查看`jstatd`服务是否可用
 ```bash
 jps -l 127.0.0.1
 ```
@@ -229,17 +462,16 @@ chmod +x jstatd.all.policy
 ./jstatd -J-Djava.security.policy=jstatd.all.policy -J-Djava.rmi.server.hostname=本服务器IP -p 端口 -J-Djava.rmi.server.logCalls=true &
 ```
 
-> -J-Djava.security.policy=jstatd.all.policy 文件的绝对路径；
+> `-J-Djava.security.policy=jstatd.all.policy` 文件的绝对路径；
 >
-> -J-Djava.rmi.server.logCalls=true 打开日志,如果客户端有连接过来的请求,可以监控到,便于排错；
+> `-J-Djava.rmi.server.logCalls=true` 打开日志,如果客户端有连接过来的请求,可以监控到,便于排错；
 >
-> -J-Djava.rmi.server.hostname=本服务器IP 指明本机 hostname 对应的本机地址,确保该地址可以给客户机访问。
-因为有的服务器 hostname 对应的 ip 不一定是外网能连上的，最好在这里直接明确指定；
+> `-J-Djava.rmi.server.hostname=本服务器IP` 指明本机 hostname 对应的本机地址,确保该地址可以给客户机访问。
+>> 因为有的服务器 hostname 对应的 ip 不一定是外网能连上的，最好在这里直接明确指定；
 >
-> -p 3333 指定服务的端口号，默认是1099。也是可选参数。
+> `-p 3333` 指定服务的端口号，默认是1099。也是可选参数。
 
 
-https://blog.csdn.net/liupeifeng3514/article/details/78998161
 
 ### jconsole
 
@@ -260,12 +492,12 @@ hostname -i
 java -jar -Djava.rmi.server.hostname=本服务器IP -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=端口 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false jar包
 ```
 
-### 远程Debug
-#### 启动参数
+## 远程Debug
+### 启动参数
 ```bash
 java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=端口 -jar jar包
 ```
-#### 参数说明
+### 参数说明
 > `-Djavax.net.debug` 查看调试信息
 >> `all` 代表所有，其他有`SSL`,`handshake`,`date`,`trust manager`
 >
@@ -287,7 +519,7 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:tran
 >
 > `onuncaught=y/n` 指明，出现uncaught exception 后，是否中断JVM的执行.
 
-#### 客户端使用
+### 客户端使用
 > #### 在IDEA中，点击顶部菜单`Run`点击`Edit Configuration`按钮-->出现弹窗，点击`+`按钮，找到`Remote`选项。
 > #### 在`Name`中填入Remote项目名称，在`Host`中填IP地址，在`Port`中填端口号，在`Use Module classpath`选择远程调试的项目module，配置完成后点击OK即可
 > 
