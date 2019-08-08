@@ -3,26 +3,23 @@
 ## [Git服务器搭建](/VPS/Docker)
 
 ## 目录
-* [使用命令](#使用命令)
-  * [把空文件夹提交到仓库](#把空文件夹提交到仓库)
-  * [更换项目远程地址](#更换项目远程地址)
-  * [未push之前更改提交的注释](#未push之前更改提交的注释)
-  * [强制push本地仓库到远程](#强制push本地仓库到远程)
-  * [pull强制覆盖本地文件](#pull强制覆盖本地文件)
-  * [清除用户名密码](#清除用户名密码)
-  
-  
-* [问题解决](#问题解决)
-  * [项目过大clone报错](#项目过大clone报错)
-  * [提交本地文件失败](#提交本地文件失败)
-  * [远端与本地代码冲突](#远端与本地代码冲突)  
+* [把空文件夹提交到仓库](#把空文件夹提交到仓库)
+* [更换项目远程地址](#更换项目远程地址)
+* [未push之前更改提交的注释](#未push之前更改提交的注释)
+* [强制push本地仓库到远程](#强制push本地仓库到远程)
+* [pull强制覆盖本地文件](#pull强制覆盖本地文件)
+* [清除用户名密码](#清除用户名密码)
+* [统计](#统计)
+
+* [项目过大clone报错](#项目过大clone报错)
+* [提交本地文件失败](#提交本地文件失败)
+* [远端与本地代码冲突](#远端与本地代码冲突)  
 
 * [批量更新本地项目](#批量更新本地项目)
 
 * [GitHub访问速度过慢](#GitHub访问速度过慢)
 *****************************************************************************
 
-# 使用命令
 ## 把空文件夹提交到仓库
 
 > 这个只能说是技巧不能说是方法，原理是在每个空文件夹新建一个.gitignore文件
@@ -105,6 +102,38 @@ git log 文件名
 ```bash
 git checkout 复制的hash值 文件名
 ```
+
+## 统计
+
+### 查看git上的个人代码量
+```bash
+git log --author="用户名" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' -
+```
+
+### 统计每个人增删行数
+```bash
+git log --format='%aN' | sort -u | while read name; do echo -en "$name\t"; git log --author="$name" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' -; done
+```
+
+### 查看仓库提交者排名前五
+```bash
+git log --pretty='%aN' | sort | uniq -c | sort -k1 -n -r | head -n 5
+```
+### 贡献值统计
+```bash
+git log --pretty='%aN' | sort -u | wc -l
+```
+### 提交数统计
+```bash
+git log --oneline | wc -l
+```
+### 添加或修改的代码行数
+```bash
+git log --stat|perl -ne 'END { print $c } $c += $1 if /(\d+) insertions/'
+```
+
+
+
 
 
 
