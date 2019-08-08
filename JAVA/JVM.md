@@ -393,10 +393,23 @@ jcmd <pid> GC.heap_dump /home/heap.hprof
 # 获取当前JVM默认参数
 java -XX:+PrintFlagsFinal -version | grep MaxHeapSize
 
-# 找出占用cpu高（或执行时间长）的线程pid 
-top -H -p <pid>
+# 找出占用CPU高（或执行时间长）的线程PID
 top -H -p $(pgrep java)
+top -Hp $(pgrep java)
+# TID等同PID
+ps -mp $(pgrep java) -o THREAD,tid,time | sort -rn
 
+# 将线程的PID转换为16进制,大写转换为小写。
+echo "obase=16; PID" | bc
+# 将线程的PID转换为16进制，\n换行
+printf "%x\n" PID
+
+# 打印堆栈异常信息，-A 30显示后30行
+jstack PID | grep $(printf "%x\n" PID) -A 30
+jstack PID | grep -A 10 $(printf "%x\n" PID)
+
+# nid：对应的linux操作系统下的TID，就是前面转化的16进制数字
+# tid：这个应该是jvm的jmm内存规范中的唯一地址定位
 ```
 
 
