@@ -413,6 +413,8 @@ top -H -p $(pgrep java)
 ```
 ### VisualVM
 
+> 从OracleJDK9开始，不再包含。需到GitHub下载[https://github.com/oracle/visualvm/releases](https://github.com/oracle/visualvm/releases)
+
 - 显示虚拟机进程以及进程的`配置`、`环境信息`（`jps`、`jinfo`）。
 - 监视应用程序的`CPU`、`GC`、`堆`、方法区(1.7及以前)，`元空间`（JDK1.8及以后）以及`线程`的信息（`jstat`、`jstack`）。
 - dump以及分析`堆转储快照`（`jmap`、`jhat`）。

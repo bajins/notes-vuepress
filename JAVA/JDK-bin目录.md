@@ -97,7 +97,7 @@
 
 | 工具名称          | 用途                                                             |
 |---------------|----------------------------------------------------------------|
-| jvisualvm.exe | 一个图形化的Java虚拟机                                                  |
+| [jvisualvm.exe](https://github.com/oracle/visualvm/releases) | 一个图形化的Java虚拟机。从OracleJDK9开始，不再包含。 |
 | jconsole.exe  | java监视台和管理控制台                                                  |
 | jps.exe       | JVM Process Status进程状态工具。列出目标系统的HotSpot JJVM                   |
 | jstat.exe     | 按照命令行的具体要求记录和收集一个JVM的性能数据                                      |
