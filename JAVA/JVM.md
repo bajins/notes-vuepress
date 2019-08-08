@@ -11,8 +11,9 @@
     * [jcmd](#jcmd)
     * [其他命令](#其他命令)
 * [GUI工具](#GUI工具)
-    * [jvisualvm](#jvisualvm)
+    * [jvisualvm](#visualvm)
     * [jconsole](#jconsole)
+    * [JMC](#jmc)
 * [远程Debug](#远程Debug)
 * [三方工具](#三方工具)
 
@@ -400,18 +401,21 @@ top -H -p $(pgrep java)
 
 
 ## GUI工具
+### 远程监控配置`JMX`
 
-### jvisualvm
+> 在jvm启动参数中加入或在Tomcat的`/bin/catalina.sh`文件中加入
 
-#### 在jvm启动参数中加入或在Tomcat的`/bin/catalina.sh`文件中加入
 ```bash
 -Djava.rmi.server.hostname=主机的IP
 -Dcom.sun.management.jmxremote.port=端口号
 -Dcom.sun.management.jmxremote.ssl=false
 -Dcom.sun.management.jmxremote.authenticate=false
 ```
-#### 启动
-> 到JDK安装目录/bin目录下，双击`jvisualvm.exe`文件启动
+### VisualVM
+
+![](/images/JavaVisualVM.png)
+
+> 在`/java/bin`目录下`jvisualvm.exe`
 
 > 需要注意的是:当OS所在分区是FAT格式时，VisualVM无法获取相关信息！
 
@@ -480,24 +484,32 @@ chmod +x jstatd.all.policy
 
 
 
-### jconsole
+### JConsole
+
+![](/images/JConsole.png)
+
+> 在`/java/bin`目录下`jconsole.exe`
+
 
 #### 查看hostname
 ```bash
 hostname -i
 ```
-> #### 如果hostname为127.0.0.1就需要修改
-
-#### 修改hostname
+#### 如果hostname为`127.0.0.1`就需要修改
 
 > `vi /etc/hosts`将其第一行`127.0.0.1 localhost.localdomain localhost`中的`127.0.0.1`修改为：`本服务器IP`
 >
 > 重启Linux，在服务器上输入`hostname -i`，查看实际设置的IP地址是否为你设置的
 
-#### 启动服务的参数
-```bash
-java -jar -Djava.rmi.server.hostname=本服务器IP -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=端口 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false jar包
-```
+
+### JMC
+
+![](/images/JavaMissionControl.png)
+
+> 在`/java/bin`目录下`jmc.exe`
+
+
+
 
 ## 远程Debug
 ### 启动参数
