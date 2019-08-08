@@ -1,60 +1,5 @@
 module.exports = [
     {
-        text: '工具',
-        items: [
-            {
-                text: 'Markdown',
-                items: [
-                    {
-                        text: '编辑器',
-                        link: '/Markdown编辑器'
-                    },
-                    {
-                        text: '语法',
-                        link: '/README%E8%AF%AD%E6%B3%95'
-                    },
-                    {
-                        text: '在线编辑器',
-                        link: 'https://tool.lu/markdown/'
-                    },
-                    {
-                        text: '公众号排版wxformat',
-                        link: 'https://lab.lyric.im/wxformat/'
-                    },
-                    {
-                        text: '公众号排版online-markdown',
-                        link: 'http://blog.didispace.com/tools/online-markdown/'
-                    },
-                    {
-                        text: '表格生成tableconvert',
-                        link: 'https://tableconvert.com/'
-                    },
-                    {
-                        text: '表格生成tablesgenerator',
-                        link: 'http://www.tablesgenerator.com/markdown_tables'
-                    },
-                    {
-                        text: '表格生成table-magic',
-                        link: 'http://stevecat.github.io/table-magic/'
-                    },
-                    {
-                        text: '表格生成clipboard2markdown',
-                        link: 'https://euangoddard.github.io/clipboard2markdown/'
-                    },
-                ]
-            },
-            {
-                // text: 'Other',
-                items: [
-                    {
-                        text: '文件',
-                        link: '/files'
-                    },
-                ]
-            }
-        ]
-    },
-    {
         text: '个人导航',
         items: [
             {
@@ -83,6 +28,15 @@ module.exports = [
                     {
                         text: 'Nginx配置格式化',
                         link: 'https://tool.bajins.com'
+                    },
+                ]
+            },
+            {
+                // text: 'Other',
+                items: [
+                    {
+                        text: '文件',
+                        link: '/files'
                     },
                 ]
             }
