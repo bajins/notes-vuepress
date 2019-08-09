@@ -1,5 +1,24 @@
 # Nginx语法
 
+## 目录
+
+* [location 规则匹配](#location-规则匹配)
+  * [location 语法规则](#location-语法规则)
+  * [内部调用](#内部调用)
+* [rewrite 语法](#rewrite-语法)
+  * [可以用来判断的表达式](#可以用来判断的表达式)
+  * [可以用作判断的全局变量](#可以用作判断的全局变量)
+* [Redirect语法](#redirect语法)
+* [防盗链](#防盗链)
+* [根据文件类型设置过期时间](#根据文件类型设置过期时间)
+* [禁止访问某个目录](#禁止访问某个目录)
+* [可用的全局变量](#可用的全局变量)
+* [判断`user_agent`](#判断user_agent)
+* [`proxy_pass`指令](#proxy_pass指令)
+
+
+
+
 [Nginx HTTP核心模块指令和内置变量中文说明](https://my.oschina.net/jsan/blog/125861)
 
 ## location 规则匹配
@@ -27,13 +46,13 @@ location [=|~|~*|^~] /uri/ {
 
 >> `@`   定义一个内部命名的匹配（[等阶于`internal`](https://blog.sometimesnaive.org/article/72)），适用于`error_page`,`try_files`
 
-### 当我们有多个 location 配置的情况下，其匹配顺序为：
+#### 当我们有多个`location`配置的情况下，其匹配顺序为
 
 > 首先匹配 "="，其次匹配 "^~", 其次是按文件中顺序的正则匹配，最后是交给 "/" 通用匹配。
 
 > 当有匹配成功时候，停止匹配，按当前匹配规则处理请求。
 
-### 比如现在同时存在如下所示匹配规则：
+#### 比如现在同时存在如下所示匹配规则
 ```
 location = / {
    #规则A
@@ -75,7 +94,7 @@ location / {
 
 > 访问 http://localhost/category/id/1111   则最终匹配到规则H，因为以上规则都不匹配，这个时候应该是nginx转发请求给后端应用服务器，比如FastCGI（php），tomcat（jsp），nginx作为方向代理服务器存在
 
-### 在实际应用中，至少需要有三个匹配规则定义，如下：
+#### 在实际应用中，至少需要有三个匹配规则定义
 ```nginx
 # 直接匹配网站根，通过域名访问网站首页比较频繁，使用这个会加速处理，官网如是说。
 # 这里是直接转发给后端应用服务器了，也可以是一个静态首页
@@ -166,20 +185,23 @@ location @pass {
 }
 ```
 ## rewrite 语法
-#### [参考](https://blog.csdn.net/weixin_40792878/article/details/83316519)
+> [参考](https://blog.csdn.net/weixin_40792878/article/details/83316519)
+>
 > 该指令通过正则表达式的使用来改变URI.可以同时存在一个或者多个指令，按照顺序一次对URL进行匹配和处理。
-> 该指令可以在server块后者location块中配置
+>
+> 该指令可以在`server`块或者`location`块中配置
 
-### 语法：`rewrite regex replacement [flag];`
-> rewrite是实现URL重定向的重要指令。
->
-> regex：用来匹配URI的正则表达式；
->
-> replacement：匹配成功后用来替换URI中被截取内容的字符串，默认情况如果该字符串包含“http://”、"https://"开头，
->则不会继续向下对URI进行其他处理。直接返回重写的URI给客户端
->
-> flag：用来设置rewrite对URI的处理行为,包含如下数据：
->
+> 语法：`rewrite regex replacement [flag];`
+
+>> `rewrite`是实现URL重定向的重要指令。
+>>
+>> `regex`用来匹配URI的正则表达式；
+>>
+>> `replacement`匹配成功后用来替换URI中被截取内容的字符串，默认情况如果该字符串包含“http://”、"https://"开头，
+>> 则不会继续向下对URI进行其他处理。直接返回重写的URI给客户端
+>>
+>> `flag`用来设置rewrite对URI的处理行为,包含如下数据：
+
 | 标记符号      | 说明                                                                                      |
 |-----------|-----------------------------------------------------------------------------------------|
 | last      | 终止在本location块中处理接收到的URI，并将此处重写的URI作为新的URI使用其他location进行处理。（只是终止当前location的处理）           |
@@ -195,6 +217,7 @@ location @pass {
 > `-e` 和 `!-e`    用来判断是否存在文件或目录
 
 > `-x` 和 `!-x`    用来判断文件是否可执行
+
 ### 可以用作判断的全局变量
 > 例：http://localhost:88/test1/test2/test.php
   
@@ -209,6 +232,7 @@ location @pass {
 >> $document_root：D:\nginx/html
 
 >> $request_filename：D:\nginx/html/test1/test2/test.php
+
 ## Redirect语法
 ```nginx
 server {
@@ -319,4 +343,5 @@ if ( $http_user_agent ~ "(MIDP)|(WAP)|(UP.Browser)|(Smartphone)|(Obigo)|(Mobile)
 >> 命名的地点
 >>
 >> if 块
-### 解决方案可见[判断`user_agent`](#判断user-agent)
+
+> 解决方案可见[判断`user_agent`](#判断user-agent)
