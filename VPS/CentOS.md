@@ -16,7 +16,6 @@
   * [查看系统语言](#查看系统语言)
   * [安装简体中文语言包](#安装简体中文语言包)
   * [设置中文utf8编码](#设置中文utf8编码)
-  * [长久](#长久)
   * [设置vi显示行号](#设置vi显示行号)
   * [欢迎信息](#欢迎信息)
   * [`profile`文件](#profile文件)
@@ -175,7 +174,7 @@ yum -y groupinstall chinese-support
 ```bash
 export LANG=zh_CN.utf8
 ```
-### 长久
+#### 长久
 > 修改`vi /etc/locale.conf`文件内容
 
 ```bash
