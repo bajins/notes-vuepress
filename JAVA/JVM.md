@@ -426,7 +426,11 @@ jstack PID | grep -A 10 $(printf "%x\n" PID)
 ```
 ### VisualVM
 
-> 从OracleJDK9开始，不再包含。需到GitHub下载[https://github.com/oracle/visualvm/releases](https://github.com/oracle/visualvm/releases)
+> 从`Oracle JDK 9`开始，不再包含。需到GitHub下载[https://github.com/oracle/visualvm/releases](https://github.com/oracle/visualvm/releases)
+
+> `Oracle JDK 8`及以下版本在`/jdk/bin`目录下`jvisualvm.exe`
+
+> 需要注意的是:当OS所在分区是FAT格式时，VisualVM无法获取相关信息！
 
 - 显示虚拟机进程以及进程的`配置`、`环境信息`（`jps`、`jinfo`）。
 - 监视应用程序的`CPU`、`GC`、`堆`、方法区(1.7及以前)，`元空间`（JDK1.8及以后）以及`线程`的信息（`jstat`、`jstack`）。
@@ -435,10 +439,6 @@ jstack PID | grep -A 10 $(printf "%x\n" PID)
 - 离线程序快照：收集程序的运行时配置、线程dump、内存dump等信息建立一个快照
 
 ![](/images/JavaVisualVM.png)
-
-> 在`/java/bin`目录下`jvisualvm.exe`
-
-> 需要注意的是:当OS所在分区是FAT格式时，VisualVM无法获取相关信息！
 
 > 参考：
 >> [基于JVisualVM的可视化监控](http://blog.51cto.com/zero01/2141942)
@@ -507,13 +507,14 @@ chmod +x jstatd.all.policy
 
 ### JConsole
 
+> 在`/jdk/bin`目录下`jconsole.exe`
+
 > 如果上面的`内存`页签相当于可视化的`jstat`命令的话，`线程`页签的功能相当于可视化的`jstack`命令，遇到线程停顿时可以使用这个页签进行监控分析。
 >
 > 线程长时间停顿的主要原因主要有：等待外部资源（数据库连接、网络资源、设备资源等）、死循环、锁等待（活锁和死锁）
 
 ![](/images/JConsole.png)
 
-> 在`/java/bin`目录下`jconsole.exe`
 
 
 #### 查看hostname
@@ -529,9 +530,12 @@ hostname -i
 
 ### JMC
 
+> 从`Oracle JDK 9`开始，不再包含。
+
+> `Oracle JDK 8`及以下版本在`/jdk/bin`目录下`jmc.exe`
+
 ![](/images/JavaMissionControl.png)
 
-> 在`/java/bin`目录下`jmc.exe`
 
 
 

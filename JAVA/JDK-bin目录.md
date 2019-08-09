@@ -59,7 +59,7 @@
 | serialver.exe   | 返回类的 serialVersionUID                                            |
 | java-rmi.exe    | Java远程方法调用(Java Remote Method Invocation)工具，主要用于在客户机上调用远程服务器上的对象 |
 
-## Java IDL and RMI-IIOP 工具
+## IDL和RMI-IIOP工具
 
 > 这些工具用于创建使用OMG-Standard IDL 和 CORBA/IIOP 的应用程序
 
@@ -102,7 +102,7 @@
 | jps.exe       | JVM Process Status进程状态工具。列出目标系统的HotSpot JJVM                   |
 | jstat.exe     | 按照命令行的具体要求记录和收集一个JVM的性能数据                                      |
 | jstatd.exe    | JVM jstat 的守护进程                                                |
-| jmc.exe       | Java任务控制工具(Java Mission Control)，主要用于HotSpot JVM的生产时间监测、分析、诊断。 |
+| jmc.exe       | Java任务控制工具(Java Mission Control)，主要用于HotSpot JVM的生产时间监测、分析、诊断。从OracleJDK9开始，不再包含。 |
 
 
 ## 故障检测和修理工具
