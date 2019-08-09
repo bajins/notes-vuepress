@@ -38,6 +38,10 @@ module.exports = [
                         text: '文件',
                         link: '/files'
                     },
+                    {
+                        text: 'Markdown工具',
+                        link: '/Other/Markdown工具'
+                    },
                 ]
             }
         ]
