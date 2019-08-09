@@ -1,4 +1,6 @@
-# VisualStudioCode快捷键
+# VSCode快捷键
+
+> VisualStudioCode
 
 ## 常用 General
 

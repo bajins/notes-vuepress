@@ -1,16 +1,47 @@
-# JDK-bin目录工具
+# JDK工具
+
+## 目录
+
+* [OpenJDK](#openjdk)
+* [JDK bin目录下工具](#jdk-bin目录下工具)
+  * [基本工具](#基本工具)
+  * [安全工具](#安全工具)
+  * [Java国际化工具](#java国际化工具)
+  * [远程方法调用工具](#远程方法调用工具)
+  * [IDL和RMI-IIOP工具](#idl和rmi-iiop工具)
+  * [Java部署工具](#java部署工具)
+  * [Java web工具](#java-web工具)
+  * [JDK监控工具](#jdk监控工具)
+  * [故障检测和修理工具](#故障检测和修理工具)
+  * [Java脚本工具](#java脚本工具)
+  * [其他工具](#其他工具)
+
+
+## OpenJDK
+
+[AdoptOpenJDK](https://adoptopenjdk.net/archive.html?variant=openjdk8&jvmVariant=hotspot)
+
+[Amazon Corretto](https://aws.amazon.com/cn/corretto/)
+[corretto](https://github.com/corretto)
+
+[Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)
+
+[Dragonwell8](https://github.com/alibaba/dragonwell8)
+
+
+## JDK bin目录下工具
 
 > 细心的可能会发现，`jdk/bin`目录下的这些工具都非常小，
 > 是因为这些工具大多是`jdk/lib/tools.jar`类库的一层包装而已，他们主要的功能代码是在`tools`类库中实现的。
 
 ![](/images/JDKBin.png)
 
-## 基本工具
+### 基本工具
 
 > 这些工具是JDK的基础，用这些工具来编写应用程序。
 
 | 工具名称             | 用途                                                       |
-|------------------|----------------------------------------------------------|
+|:-----------------|:---------------------------------------------------------|
 | javac.exe        | Java语言编译器                                                |
 | java.exe         | Java应用程序启动器                                              |
 | javaw.exe        | Java运行工具，用于运行.class字节码文件或.jar文件，但不会显示控制台输出信息，适用于运行图形化程序。 |
@@ -24,7 +55,7 @@
 | extcheck.exe     | 用于检测jar包中的问题                                             |
 | jcmd.exe         | Java命令行(Java Command)，用于向正在运行的JVM发送诊断命令请求。               |
 
-## 安全工具
+### 安全工具
 
 > 这些工具用于设置系统的安全规则和生产可以工作在远端的安全规则下的应用程序
 
@@ -38,7 +69,7 @@
 | ktab.exe       | 密钥和证书管理工具                     |
 
 
-## Java国际化工具
+### Java国际化工具
 
 > 这些工具可以帮助你创建可本地化的应用程序
 
@@ -47,7 +78,7 @@
 | native2ascii.exe | 将文本转化为 Unicode Latin-1 |
 
 
-## 远程方法调用工具
+### 远程方法调用工具
 
 > 这些工具可以帮助创建可以和web和网络交互的应用程序
 
@@ -59,7 +90,7 @@
 | serialver.exe   | 返回类的 serialVersionUID                                            |
 | java-rmi.exe    | Java远程方法调用(Java Remote Method Invocation)工具，主要用于在客户机上调用远程服务器上的对象 |
 
-## IDL和RMI-IIOP工具
+### IDL和RMI-IIOP工具
 
 > 这些工具用于创建使用OMG-Standard IDL 和 CORBA/IIOP 的应用程序
 
@@ -70,7 +101,7 @@
 | orbd.exe       | 为客户可以在CORBA环境下透明的定位和调用服务器的稳定的对象提供支持      |
 | servertool.exe | 为应用程序提供易于使用的接口用于注册，注销，启动，关闭服务器           |
 
-## Java部署工具
+### Java部署工具
 
 > 
 
@@ -79,7 +110,7 @@
 | pack200.exe   | 使用java gzip压缩工具将JAR文件转换为压缩的pack200文件，生产打包文件是高度压缩的JAR包，可以直接部署，减少下载时间 |
 | unpack200.exe | 解包pack200文件为JARs                                                    |
 
-## Java web工具
+### Java web工具
 
 >
 
@@ -91,7 +122,7 @@
 | wsimport.exe  | 生成 JAX-WS            |
 | xjc.exe       | 绑定编译器                |
 
-## JDK监控工具
+### JDK监控工具
 
 > Java故障检修，程序概要分析，监视和管理工具
 
@@ -105,7 +136,7 @@
 | jmc.exe       | Java任务控制工具(Java Mission Control)，主要用于HotSpot JVM的生产时间监测、分析、诊断。从OracleJDK9开始，不再包含。 |
 
 
-## 故障检测和修理工具
+### 故障检测和修理工具
 
 > 
 
@@ -117,7 +148,7 @@
 | jsadebugd.exe | Java的 Serviceability Agent Debug的守护进程 |
 | jstack.exe    | Java堆栈跟踪                              |
 
-## Java脚本工具
+### Java脚本工具
 
 >
 
@@ -125,7 +156,7 @@
 |----------------|------|
 | jrunscript.exe | 运行脚本 |
 
-## 其他工具
+### 其他工具
 
 >
 

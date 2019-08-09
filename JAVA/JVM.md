@@ -1,21 +1,32 @@
 # JVM
 
 ## 目录
-* [JVM参数优化](#JVM参数优化)
+
+* [JVM参数优化](#jvm参数优化)
+  * [常用参数](#常用参数)
+  * [参考](#参考)
+  * [windows](#windows)
+  * [linux](#linux)
 * [命令行工具](#命令行工具)
-    * [jps](#jps)
-    * [jstat](#jstat)
-    * [jinfo](#jinfo)
-    * [jmap](#jmap)
-    * [jstack](#jstack)
-    * [jcmd](#jcmd)
-    * [其他命令](#其他命令)
-* [GUI工具](#GUI工具)
-    * [jvisualvm](#visualvm)
-    * [jconsole](#jconsole)
-    * [JMC](#jmc)
-* [远程Debug](#远程Debug)
+  * [jps](#jps)
+  * [jstat](#jstat)
+  * [jmap](#jmap)
+  * [jinfo](#jinfo)
+  * [jstack](#jstack)
+  * [jcmd](#jcmd)
+  * [其他命令](#其他命令)
+* [GUI工具](#gui工具)
+  * [远程监控配置`JMX`](#远程监控配置jmx)
+  * [VisualVM](#visualvm)
+  * [JConsole](#jconsole)
+  * [JMC](#jmc)
+* [远程Debug](#远程debug)
+  * [启动参数](#启动参数)
+  * [参数说明](#参数说明)
+  * [客户端使用](#客户端使用)
 * [三方工具](#三方工具)
+  * [无侵入式的jvm监控工具MyPerf4J](#无侵入式的jvm监控工具myperf4j)
+  * [Alibaba Java诊断利器Arthas](#alibaba-java诊断利器arthas)
 
 
 
@@ -445,7 +456,7 @@ jstack PID | grep -A 10 $(printf "%x\n" PID)
 >>
 >> [VisualVM监控远程阿里云主机](https://blog.csdn.net/u010004317/article/details/82948040)
 
-### 解决`Visual GC`提示`不受此JVM支持`，要监控的主机没有配置`jstatd`
+#### 解决`Visual GC`提示`不受此JVM支持`，要监控的主机没有配置`jstatd`
 
 > 参考：[jvisualvm 连接 jstatd 远程监控 jvm 或 Visual GC提示"不受此JVM支持“](https://blog.csdn.net/liupeifeng3514/article/details/78998161)
 
@@ -576,6 +587,8 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:tran
 ![](/images/IDEA远程debug调试.png)
 
 ## 三方工具
-### [无侵入式的jvm监控工具MyPerf4J](https://github.com/ThinkpadNC5/MyPerf4J)
+### 无侵入式的jvm监控工具MyPerf4J
+[https://github.com/ThinkpadNC5/MyPerf4J](https://github.com/ThinkpadNC5/MyPerf4J)
 
-### [Alibaba Java诊断利器Arthas](https://github.com/alibaba/arthas)
+### Alibaba Java诊断利器Arthas
+[https://github.com/alibaba/arthas](https://github.com/alibaba/arthas)

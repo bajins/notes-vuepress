@@ -1,21 +1,24 @@
-# VisualStudioCode插件
+# VSCode插件
 
+> VisualStudioCode
 
 ## 中文语言
-Chinese (Simplified) Language Pack for Visual Studio Code
+> `Chinese (Simplified) Language Pack for Visual Studio Code`
 
 ## PHP插件
-php Intelephense
+> `php Intelephense`
 
 ## HTML插件
-JS-CSS-HTML Formatter
+> `JS-CSS-HTML Formatter`
 
-ESLint
+> `ESLint`
 
-# Python插件
+## Python插件
 
-## 格式化代码
-### autopep8
+### `autopep8`
+
+> 格式化代码
+
 #### 用pip安装
 ```bash
 pip install autopep8
@@ -25,8 +28,10 @@ pip install autopep8
 "python.formatting.provider": "autopep8"
 ```
 
-## 检查代码错误
 ### pep8
+
+> 检查代码错误
+
 #### 用pip安装
 ```bash
 pip install pep8
@@ -57,3 +62,7 @@ pip install flake8
 ```
 "python.linting.flake8Enabled": true
 ```
+
+## markdown
+
+[markdown-toc](https://github.com/AlanWalk/markdown-toc)

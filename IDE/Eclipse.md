@@ -1,30 +1,45 @@
-# Eclipse设置
+# Eclipse
 
 ## 目录
 * [显示内存](#显示内存)
-* [Eclipse中jsp、js文件编辑时，卡死现象解决](#一)
-* [调整Eclipse运行内存](#调整Eclipse运行内存)
-* [Eclipse自动导包设置](#Eclipse自动导包设置)
-* [Eclipse注释模板设置](#Eclipse注释模板设置)
-* [Eclipse代码格式化设置](#Eclipse代码格式化设置)
-  * [Eclipse设置不格式化注释](#Eclipse设置不格式化注释)
+* [Eclipse中jsp、js文件编辑时，卡死现象解决](#eclipse中jspjs文件编辑时卡死现象解决)
+  * [1、取消验证](#1取消验证)
+  * [2、关闭拼写检查](#2关闭拼写检查)
+* [调整Eclipse运行内存](#调整eclipse运行内存)
+* [Eclipse自动导包设置](#eclipse自动导包设置)
+* [Eclipse注释模板设置](#eclipse注释模板设置)
+  * [1.创建新文件(New Java files)注释标签：](#1创建新文件new-java-files注释标签)
+  * [2.字段(Fields)注释标签：](#2字段fields注释标签)
+  * [3.构造函数(Constructors)标签：](#3构造函数constructors标签)
+  * [4.方法(Methods)标签：](#4方法methods标签)
+  * [5.覆盖方法(Overriding Methods)标签:](#5覆盖方法overriding-methods标签)
+  * [6.代表方法(Delegate Methods)标签：](#6代表方法delegate-methods标签)
+  * [7.getter方法标签：](#7getter方法标签)
+  * [8.setter方法标签：](#8setter方法标签)
+* [Eclipse设置不格式化注释](#eclipse设置不格式化注释)
 * [设置编码格式](#设置编码格式)
-***************************************************************************************
+  * [1、设置工作空间编码格式](#1设置工作空间编码格式)
+  * [2、设置文档编码格式](#2设置文档编码格式)
+  * [3、设置Web编码格式](#3设置web编码格式)
+  * [4、设置项目的文档编码格式](#4设置项目的文档编码格式)
+
+
 
 ## 显示内存
-#### 在eclipse中打开heap状态`windows->perference->general->右边show heap status打上勾->OK `，这时会在eclipse最下面显示一个内存显示了
+> 在eclipse中打开heap状态`windows->perference->general->右边show heap status打上勾->OK `，这时会在Eclipse最下面显示一个内存显示了
 
-###### 一
-# Eclipse中jsp、js文件编辑时，卡死现象解决
+## Eclipse中jsp、js文件编辑时，卡死现象解决
 ### 1、取消验证
-#### windows–>perferences–>validation
-#### 把除了manual 下面的全部点掉，build下只留 classpath dependency Validator
+> `windows`–>`perferences`–>`validation`
+>
+> 把除了`manual`下面的全部点掉，`build`下只留`classpath dependency Validator`
  
 ### 2、关闭拼写检查
-#### windows–>perferences–>general–> editors->Text Editors->spelling
+> `windows`–>`perferences`–>`general`–>`editors`->`Text Editors`->`spelling`
 
-# 调整Eclipse运行内存
-#### 在eclipse的安装目录下用EditPlus编辑eclipse.ini文件，将其中的参数改成： 
+## 调整Eclipse运行内存
+> 在eclipse的安装目录下编辑`eclipse.ini`文件
+ 
 [JVM参数设置](/JAVA/Tomcat优化.md#四)
 ```bash
 # JDK8以下
@@ -48,14 +63,16 @@
 
 
 
-# Eclipse自动导包设置
-#### 在eclispe中，打开 Window > Preferences > Java > Editor > Save Actions 然后选中 Organize impots
+## Eclipse自动导包设置
+> 在Eclispe中，打开`Window`->`Preferences`->`Java`->`Editor`->`Save Actions`然后选中`Organize impots`
+
 ![](/images/Eclipse保存自动优化设置.png)
 
 
 
-# Eclipse注释模板设置
-#### 编辑注释模板的方法：`Window->Preference->Java->Code Style->Code Template` 然后展开Comments节点就是所有需设置注释的元素
+## Eclipse注释模板设置
+> 编辑注释模板的方法：`Window`->`Preference`->`Java`->`Code Style`->`Code Template`然后展开`Comments`节点就是所有需设置注释的元素
+
 #### 注释的使用：输入`/**`然后回车自动出来
 ![](/images/Eclipse自动添加注释.png)
 
@@ -78,7 +95,7 @@ ${typecomment}
 ${type_declaration}
  ```
 
- ### 2.字段(Fields)注释标签：
+### 2.字段(Fields)注释标签：
  ```java
  /**
  * @Fields ${field} : 
@@ -174,23 +191,27 @@ ${type_declaration}
 
 
 ## Eclipse设置不格式化注释
-#### eclipse默认自带的风格模板不能直接操作，需要先创建一个新的风格模板才能操作
+> Eclipse默认自带的风格模板不能直接操作，需要先创建一个新的风格模板才能操作
+
 ![](/images/Eclipse不格式化注释.png)
 
 ## 设置编码格式
 ### 1、设置工作空间编码格式
-#### 在Window -> Preferences -> General -> Workspace下，面板Text file encoding 选择UTF-8
-![](/images/Eclipse设置工作空间编码.png)
+> 在`Window`->`Preferences`->`General`->`Workspace下`，面板`Text file encoding`选择`UTF-8`
+
+>![](/images/Eclipse设置工作空间编码.png)
 
 ### 2、设置文档编码格式
-#### 在Window -> Preferences -> General  -> Content Type -> Text的最下面设置为编码格式为UTF-8
+> 在`Window`->`Preferences`->`General`->`Content Type`->`Text`的最下面设置为编码格式为`UTF-8`
+
 ![](/images/Eclipse设置文档编码.png)
 
 ### 3、设置Web编码格式
-#### 在Window -> Preferences -> Web -> （CSS Files、HTML Files、JSP Files） 面板选择 ISO 10646/Unicode(UTF-8)
+> 在`Window`->`Preferences`->`Web`->`CSS Files、HTML Files、JSP Files` 面板选择`ISO 10646/Unicode(UTF-8)`
+
 ![](/images/Eclipse设置Web文件编码.png)
 
 ### 4、设置项目的文档编码格式
-#### 选择项目 -> 右键 -> Properties  -> Resource 设置编码为UTF-8
+> 选择`项目`->`右键`->`Properties`->`Resource`设置编码为`UTF-8`
 
 
