@@ -400,8 +400,9 @@ volumes:
 
 ## GitHub访问速度过慢
 
+
+
 ### 打开以下网页
-[https://www.ipaddress.com](https://www.ipaddress.com)
 
 [https://myssl.com/dns_check.html](https://myssl.com/dns_check.html)
 
@@ -412,13 +413,56 @@ volumes:
 github.com
 www.github.com
 github.global.ssl.fastly.net
+global-ssl.fastly.net
 nodeload.github.com
+codeload.github.com
+assets-cdn.github.com
+github-cloud.s3.amazonaws.com
+avatars.githubusercontent.com
+avatars0.githubusercontent.com
+avatars1.githubusercontent.com
 ```
 
 ### 添加到`C:\Windows\System32\drivers\etc\hosts`
+#### 示例
+```bash
+140.82.113.4    github.com
+140.82.113.4    www.github.com
+192.30.253.120  nodeload.github.com
+140.82.114.9    codeload.github.com
+151.101.249.194 github.global.ssl.fastly.net
+151.101.248.249 global-ssl.fastly.net
+54.231.11.120   github-cloud.s3.amazonaws.com
+151.101.200.133 avatars.githubusercontent.com
+151.101.200.133 avatars0.githubusercontent.com
+151.101.200.133 avatars1.githubusercontent.com
+185.199.111.153 assets-cdn.github.com
+185.199.110.153 assets-cdn.github.com
+185.199.108.153 assets-cdn.github.com
+185.199.109.153 assets-cdn.github.com
+```
 
 ### 刷新DNS缓存
+#### macOS
+```bash
+killall -HUP mDNSResponder
+dscacheutil -flushcache
+```
+
+#### Windows
 ```bash
 ipconfig /flushdns
 ```
+#### Linux
+```bash
+service nscd restart
+```
+#### Ubuntu
+```bash
+sudo /etc/init.d/dns-clean start
+```
+
+### 克隆代理地址
+
+> 替换`https://github.com`为`https://github.com.cnpmjs.org`
 
