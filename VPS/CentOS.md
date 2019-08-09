@@ -1,5 +1,49 @@
 # CentOS
 
+## 目录
+
+* [yum源](#yum源)
+  * [Git](#git)
+* [重装系统](#重装系统)
+  * [moeclub](#moeclub)
+* [卸载软件](#卸载软件)
+  * [RPM安装](#rpm安装)
+  * [yum安装](#yum安装)
+  * [源码编译安装](#源码编译安装)
+  * [checkinstall](#checkinstall)
+* [初次配置](#初次配置)
+  * [修改时区为亚洲上海](#修改时区为亚洲上海)
+  * [查看系统语言](#查看系统语言)
+  * [安装简体中文语言包](#安装简体中文语言包)
+  * [设置中文utf8编码](#设置中文utf8编码)
+  * [长久](#长久)
+  * [设置vi显示行号](#设置vi显示行号)
+  * [欢迎信息](#欢迎信息)
+  * [`profile`文件](#profile文件)
+  * [ssh欢迎信息](#ssh欢迎信息)
+* [`yum`操作](#yum操作)
+  * [安装并启用 EPEL 源](#安装并启用-epel-源)
+  * [更新yum源包](#更新yum源包)
+  * [which命令](#which命令)
+  * [安装lrzsz](#安装lrzsz)
+  * [安装make](#安装make)
+  * [gcc](#gcc)
+  * [安装](#安装)
+  * [安装`pcre`重写rewrite](#安装pcre重写rewrite)
+  * [zlib](#zlib)
+  * [7z压缩软件](#7z压缩软件)
+  * [openssl](#openssl)
+  * [`ifconfig` 及 `netstat`](#ifconfig-及-netstat)
+  * [vim](#vim)
+  * [libaio](#libaio)
+* [一条命令安装全部](#一条命令安装全部)
+* [三方工具](#三方工具)
+  * [`figlet`](#figlet)
+  * [`boxes`](#boxes)
+  * [`Toilet`](#toilet)
+
+
+
 ## yum源
 ### Git
 ```bash
@@ -21,7 +65,9 @@ yum -y install git2u
 
 
 ## 重装系统
-### [Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify)
+
+[Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify)
+
 ```bash
 yum update
 yum install -y xz openssl gawk file
@@ -38,7 +84,9 @@ bash Network-Reinstall-System-Modify.sh -Windows_Server_2019
 bash <(wget --no-check-certificate -qO- 'https://zhujiwiki.com/wp-content/uploads/2018/04/InstallNET.sh') -dd 'https://hao.zhujiwiki.com/dd/CentOS_7.X_NetInstallation.vhd.gz'
 ```
 
-### [moeclub](https://moeclub.org/2018/04/03/603/)
+### moeclub
+[https://moeclub.org/2018/04/03/603/](https://moeclub.org/2018/04/03/603/)
+
 > 适用于由GRUB引导的CentOS,Ubuntu,Debian系统
 
 ```bash
@@ -72,7 +120,10 @@ yum remove 软件名
 ```bash
 find / -name 软件名称
 ```
-### 通过checkinstall管理编译安装过程
+### checkinstall
+
+> 通过checkinstall管理编译安装过程
+
 #### 1、使用checkinstall编译安装
 ```bash
 ./configure
@@ -109,18 +160,24 @@ locale
 #查看系统拥有语言包
 locale -a
 ```
-### 如果没有zh_CN.utf8就需要安装简体中文语言包
+### 安装简体中文语言包
+
+> 如果没有zh_CN.utf8就需要安装简体中文语言包
+
 ```bash
 yum -y install kde-l10n-Chinese
 #glibc-common软件包包括用于GNU libc库的常见二进制文件，以及国家语言（locale）支持。
 yum -y reinstall glibc-common
 yum -y groupinstall chinese-support
 ```
-### 设置中文utf8编码（临时）：
+### 设置中文utf8编码
+#### 临时
 ```bash
 export LANG=zh_CN.utf8
 ```
-### 方法（一）修改vi /etc/locale.conf文件内容为（长久）：
+### 长久
+> 修改`vi /etc/locale.conf`文件内容
+
 ```bash
 LANG="zh_CN.utf8"
 LANGUAGE="zh_CN.UTF-8:zh_CN.utf8:zh_CN"
@@ -128,16 +185,16 @@ SUPPORTED="zh_CN.utf8:zh_CN:zh:en_US.utf8:en_US:en"
 SYSFONT="lat0-sun16"
 ```
 
-### 方法（二）（长久）:
 ```bash
 localectl  set-locale LANG=zh_CN.utf8
 ```
-### 设置vi显示行号,编辑以下两个文件：
+### 设置vi显示行号
+#### 编辑以下两个文件
 ```bash
 vi /etc/vimrc
 vi /etc/virc
 ```
-#### 在开头或者末尾添加：
+#### 在开头或者末尾添加
 ```bash
 set number
 ```
@@ -149,6 +206,7 @@ set number
 > 该文件被读取（即每次新开一个终端，都会执行bashrc）。
 >
 > 只要在同一个shell界面，不管多少用户登录都只执行一次
+
 ```bash
 vi /etc/profile
 ```
@@ -156,10 +214,12 @@ vi /etc/profile
 > 并从`/etc/profile.d`目录的配置文件中搜集shell的设置。
 >
 > 如果进入shell用普通用户登录后，再用su进入root用户那么将会被执行两次
+
 ```bash
 vi /etc/bashrc
 ```
 > 当root用户登录时执行
+
 ```bash
 vi /root/.bash_profile
 > 当每次root用户退出系统(退出bash shell)时,执行该文件
@@ -167,6 +227,7 @@ vi /root/.bash_profile
 vi /root/.bash_logout
 ```
 > 当root用户登录时以及每次打开新的shell时,该该文件被读取。
+
 ```bash
 vi /root/.bashrc
 ```
@@ -174,7 +235,8 @@ vi /root/.bashrc
 > `/.bashrc`设定的变量(局部)只能继承`/etc/profile`中的变量,他们是”父子”关系
 
 
-### 输入`shift + g`也就是大写的G跳转到末尾添加以下内容：
+### ssh欢迎信息
+> 输入`shift + g`也就是大写的G跳转到末尾添加以下内容：
 ```bash
 echo '=========================================================='
 # 查询系统版本
@@ -246,7 +308,7 @@ yum -y install gcc automake autoconf libtool make
 ```
 
 ### gcc
-##### 查看系统是否已安装gcc编译器：
+##### 查看系统是否已安装gcc编译器
 ```bash
 gcc -v
 ```
@@ -254,7 +316,9 @@ gcc -v
 ```bash
 yum update gcc
 ```
-### 安装g++ 编译环境gcc g++ 开发库:
+### 安装
+> g++编译环境gcc-g++开发库
+
 ```bash
 yum -y install gcc gcc-c++
 ```

@@ -195,9 +195,8 @@ grub2-set-default 0
 
 
 ### PAC
-https://github.com/lbp0200/mono_pac
+[https://github.com/lbp0200/mono_pac](https://github.com/lbp0200/mono_pac)
 
-https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
+[https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt](https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt)
 
-https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/other/pac.txt
-*********************************************************************************
+[https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/other/pac.txt](https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/other/pac.txt)

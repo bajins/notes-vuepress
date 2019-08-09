@@ -102,8 +102,9 @@ systemctl restart mysqld
 ```bash
 wget https://cdn.mysql.com//Downloads/MySQL-5.7/mysql-5.7.22-linux-glibc2.12-x86_64.tar.gz
 ```
-### 解压:
-建议：不要安装到其它目录，否则数据库初始化的时候会报cannot change dir的错
+### 解压
+> 建议：不要安装到其它目录，否则数据库初始化的时候会报`cannot change dir`的错
+
 ```bash
 tar zxvf mysql-5.7.22-linux-glibc2.12-x86_64.tar.gz -C /usr/local/mysql
 # 重命名
@@ -111,48 +112,50 @@ mv mysql-5.7.22-linux-glibc2.12-x86_64 mysql
 ```
 
 ### 卸载系统自带mysql
-查看：
+#### 查看
 ```bash
 rpm -qa | grep mysql
 ```
-卸载：
+#### 卸载
 ```bash
 rpm -e --nodeps softfullname
 ```
 ### 创建用户组和用户
-创建用户组：
+#### 创建用户组
 ```bash
 group add mysql
 ```
-创建用户：
+#### 创建用户
 ```bash
 user add -r -g mysql mysql
 ```
-说明：
+#### 说明
 
-为了安全性，给mysql数据库创建专有用户，该用户只能访问mysql目录，不能访问系统其它目录
-
-另外不建议直接用root初始化mysql，否则连接mysql时会报错：[ERROR] Fatal error: Please read "Security" section of the manual to find out how to run mysqld as root!
+> 为了安全性，给mysql数据库创建专有用户，该用户只能访问mysql目录，不能访问系统其它目录
+>
+> 另外不建议直接用root初始化mysql，否则连接mysql时会报错：
+> `[ERROR] Fatal error: Please read "Security" section of the manual to find out how to run mysqld as root!`
 
 ### 给mysql目录指定专有用户和用户组
-首先创建data目录：
+#### 创建data目录
 ```bash
 cd /usr/local/mysql
 mkdir data
 ```
-指定用户和用户组：
+#### 指定用户和用户组
 ```bash
 cd /usr/local
 chown -R mysql mysql/
 chgrp -R mysql mysql/
 ```
--R包含目录下所有和目录和文件
+> -R包含目录下所有和目录和文件
+
 ### 初始化mysql
 ```bash
 cd /usr/local/mysql/bin
 ./mysqld --initialize --user=mysql --basedir=/usr/local/mysql/ --datadir=/usr/local/mysql/data/ --lc_messages_dir=/usr/local/mysql/share --lc_messages=en_US
 ```
-记住生成的临时密码,如果忘记密码或者想重新初始化，可以先将mysql/data目录中文件删除，然后再执行初始化命令
+> 记住生成的临时密码,如果忘记密码或者想重新初始化，可以先将mysql/data目录中文件删除，然后再执行初始化命令
 
 ### [配置MySQL](/MySQL/配置.md#yum安装配置)
 
@@ -167,16 +170,16 @@ cd /usr/local/mysql/support-files/
 cp mysql.server /etc/init.d/mysql
 vi /etc/init.d/mysql
 ```
-将mysql目录填上：
+> 将mysql目录填上
 ```bash
 basedir=/usr/local/mysql/
 datadir=/usr/local/mysql/data/
 ```
-授权：
+#### 授权
 ```bash
 chmod +x /etc/init.d/mysql
 ```
-设为开机启动：
+#### 设为开机启动
 ```bash
 chkconfig --add mysql
 ```
@@ -191,22 +194,21 @@ chkconfig --add mysql
 ```bash
 cd /usr/local/mysql/bin
 ```
-登录：
+#### 登录
 ```bash
 ./mysql -u root -p  #输入临时密码
 ```
-修改密码：
+#### 修改密码
 ```sql
 SET password=password("root");
 ```
-创建用户并授权：
+#### 创建用户并授权
 ```sql
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '密码' WITH GRANT OPTION;
 ```
-刷新授权：
+#### 刷新授权
 ```sql
 FLUSH PRIVILEGES;
 ```
 
 
-# [返回顶部](#readme)
