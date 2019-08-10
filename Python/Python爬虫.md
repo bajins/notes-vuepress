@@ -58,14 +58,22 @@ def crawling_selenium(url, input_el, input_text):
 
 
 def app():
-    soup = requestsUtils.crawling_selenium("http://tool.chinaz.com/dns", "w360", "github.com")
-    lis = soup.find_all("li", class_="ReLists")
-    if lis is not None:
-        for li in lis:
-            ip = li.find(class_="w60-0").string
-            if not ip == "-" and ip is not None:
-                addr = li.find(class_="w23-0").string
-                ttl = li.find(class_="w14-0").string
-                print(addr, ip, ttl)
+    try:
+        soup = requestsUtils.crawling_selenium("http://tool.chinaz.com/dns", "w360", "github.com")
+        lis = soup.find_all("li", class_="ReLists")
+        if lis is not None:
+            for li in lis:
+                ip = li.find(class_="w60-0").string
+                if not ip == "-" and ip is not None:
+                    addr = li.find(class_="w23-0").string
+                    ttl = li.find(class_="w14-0").string
+                    print(addr, ip, ttl)
+    except Exception as e:
+        print(e)
+
+
+if __name__ == '__main__':
+    app()
+
 
 ```
