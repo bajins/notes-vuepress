@@ -14,6 +14,7 @@
   * [项目过大clone报错](#项目过大clone报错)
   * [提交本地文件失败](#提交本地文件失败)
   * [远端与本地代码冲突](#远端与本地代码冲突)
+  * [SSL验证错误](#ssl验证错误)
 * [批量更新本地项目](#批量更新本地项目)
   * [Windows](#windows)
   * [Linux](#linux)
@@ -253,9 +254,18 @@ CONFLICT(content): Merge conflict in c/environ.c
 碰到这种情况，git也不知道哪行内容是需要的，所以要自行确定需要的内容。
 
 
+### SSL验证错误
+#### 报错
+> `unable to access 'https://github.com/': OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443`
 
-
-
+#### 关闭SSL验证
+```bash
+env GIT_SSL_NO_VERIFY=true
+# 或者
+git config --global http.sslVerify false
+# 或者
+git config --global --unset http.proxy
+```
 
 
 
