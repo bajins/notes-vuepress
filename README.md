@@ -23,24 +23,24 @@ actionLink: /#命令
 ```
 // 官方标准目录结构 https://v1.vuepress.vuejs.org/zh/guide/directory-structure.html
 .
-│  package-lock.json NPM依赖配置文件
-│  package.json      项目配置文件
-│  README.md         首页md文件
-│  yarn.lock         yarn依赖配置文件
+│  package-lock.json    NPM依赖配置文件
+│  package.json         项目配置文件
+│  README.md            首页md文件
+│  yarn.lock            yarn依赖配置文件
 │  
-├─.vuepress         用于存放VuePress的配置、组件、静态资源等。
-│  │  config.js     VuePress配置
-│  │  nav.js        除创建的目录之外，还可以自定义添加导航栏
-│  │  utils.js      侧边栏和菜单栏自动配置工具
+├─.vuepress             用于存放VuePress的配置、组件、静态资源等。
+│  │  config.js         VuePress配置
+│  │  nav.js            除创建的目录之外，还可以自定义添加导航栏
+│  │  utils.js          侧边栏和菜单栏自动配置工具
 │  │  
-│  └─public        静态资源目录
+│  └─public             静态资源目录
 │      │  
-│      ├─CNAME     CNAME文件指定域名，防止发布时被清空
+│      │  CNAME         CNAME文件指定域名，防止发布时被清空
 │      │  
-│      ├─icons     存放图标目录
+│      ├─icons          存放图标目录
 │      │      
-│      └─images    存放所有文档的图片目录
-├─docs              编译后的静态资源文件输出目录
+│      └─images         存放所有文档的图片目录
+├─docs                  编译后的静态资源文件输出目录
 │
 │
 ...... 其他自己的md文档或文件夹，都会打包到docs文件夹下，md文件会编译成html
