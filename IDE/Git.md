@@ -263,7 +263,10 @@ CONFLICT(content): Merge conflict in c/environ.c
 env GIT_SSL_NO_VERIFY=true
 # 或者
 git config --global http.sslVerify false
-# 或者
+```
+
+#### 去掉代理
+```bash
 git config --global --unset http.proxy
 ```
 
