@@ -35,6 +35,8 @@ actionLink: /#命令
 │  │  
 │  └─public        静态资源目录
 │      │  
+│      ├─CNAME     CNAME文件指定域名，防止发布时被清空
+│      │  
 │      ├─icons     存放图标目录
 │      │      
 │      └─images    存放所有文档的图片目录
@@ -70,13 +72,14 @@ yarn install
 # 开始运行开发环境，然后访问窗口中的路径
 yarn dev
 
+# 如有需要请修改.vuepress/public/CNAME中的域名
 
 # 如果是直接发布到本仓库：
 # 执行下面的命名会自动编译并提交，然后再在GitHub设置中指定Source为docs文件夹
 yarn push-docs
 
 # 如果发布到 https://<USERNAME>.github.io
-# 修改.vuepress/push.js文件中的仓库地址并执行以下命令即可
+# 修改.vuepress/push-pages.js文件中的仓库地址并执行以下命令即可
 yarn push-pages
 
 ```
