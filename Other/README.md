@@ -1,4 +1,4 @@
-# 放其他文件
+# Other
 
 ## [BAT脚本使用](/VPS/BAT脚本.md)
 
