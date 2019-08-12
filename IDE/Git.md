@@ -21,7 +21,11 @@
   * [GitLab](#gitlab)
   * [Gogs](#gogs)
   * [Gitea](#gitea)
-* [GitHub访问速度过慢](#github访问速度过慢)
+* [GitHub](#github)
+  * [访问速度过慢](#访问速度过慢)
+  * [克隆代理地址](#克隆代理地址)
+  * [`Custom domain`被清空](#custom-domain被清空)
+
 
 
 ## 使用命令
@@ -398,17 +402,18 @@ volumes:
 
 
 
-## GitHub访问速度过慢
+## GitHub
 
 
+### 访问速度过慢
 
-### 打开以下网页
+#### 打开以下网页
 
 [https://myssl.com/dns_check.html](https://myssl.com/dns_check.html)
 
 [http://tool.chinaz.com/dns](http://tool.chinaz.com/dns)
 
-### 搜索以下域名并复制`TTL`值最小的IP
+#### 搜索以下域名并复制`TTL`值最小的IP
 ```bash
 assets-cdn.github.com
 avatars.githubusercontent.com
@@ -430,8 +435,8 @@ training.github.com
 www.github.com
 ```
 
-### 添加到`C:\Windows\System32\drivers\etc\hosts`
-#### 示例
+#### 添加到`C:\Windows\System32\drivers\etc\hosts`
+##### 示例
 ```bash
 185.199.111.153 assets-cdn.github.com
 185.199.110.153 assets-cdn.github.com
@@ -465,7 +470,7 @@ www.github.com
 192.30.253.167  training.github.com
 ```
 
-### 刷新DNS缓存
+#### 刷新DNS缓存
 #### macOS
 ```bash
 killall -HUP mDNSResponder
@@ -489,3 +494,8 @@ sudo /etc/init.d/dns-clean start
 
 > 替换`https://github.com`为`https://github.com.cnpmjs.org`
 
+### `Custom domain`被清空
+
+> 发布成功之后github pages的Custom domain配置项就被清空
+
+[github-pages-basics](http://wiki.jikexueyuan.com/project/github-pages-basics/cname-file.html)
