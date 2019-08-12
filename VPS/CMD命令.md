@@ -16,6 +16,12 @@ rd  目录名（文件夹）
 ```batch
 ipconfig
 ```
+
+## 查DNS
+```batch
+nslookup 域名
+```
+
 ## 清除屏幕,类似于linux下的clear
 ```batch
 cls
