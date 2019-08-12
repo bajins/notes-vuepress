@@ -57,7 +57,7 @@ module.exports = {
         // },
         editLinkText: '在 GitHub 上编辑此页',
         nav: utils.getRootDir("./").concat(require('./nav')),
-        logo: '/logo.png',
+        logo: '/images/icons/logo.png',
         // 搜索设置
         search: true,
         searchMaxSuggestions: 10,
