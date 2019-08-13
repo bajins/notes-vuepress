@@ -206,7 +206,6 @@ mysqldump -R -E -h导出的主机地址 -P端口 -u用户名 -p 数据库名 | m
 
 [mysqldump数据导出参数说明](http://www.cnblogs.com/chenmh/p/5300370.html)
 
-[导出导入脚本](/.vuepress/public/files/MySQL_Backup.sh)
 
 ### `mysqldump`其他命令
 > `mysqldump`导入导出结构，数据，存储过程，函数，事件，触发器
