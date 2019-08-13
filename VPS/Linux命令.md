@@ -257,6 +257,20 @@ scp -P 22 -p -r -v /home/work/sourcedir work@www.myhost.com:/home/work/
 scp -P 22 -p root@192.168.214.187:/tmp/demo/f3.log /tmp/files/
 ```
 
+#### 遇到的问题
+
+> 输入密码时提示：`Permission denied, please try again.`
+- 先修改远程文件夹或文件的权限`chmod -R 777 路径`
+- 修改`PermitRootLogin`允许Root登录
+```bash
+# 编辑sshd_config文件
+vi /etc/ssh/sshd_config
+# 搜索PermitRootLogin并修改为yes
+/PermitRootLogin
+# 重启ssh
+/etc/init.d/sshd restart
+```
+
 #### 脚本
 ```bash
 #!/bin/bash
