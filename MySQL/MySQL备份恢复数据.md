@@ -357,7 +357,8 @@ else
                 # 创建备份文件夹
                 $(mkdir -p $backup_dir)
                 # 开始备份
-                $(mysqldump -h$mysql_host -P$mysql_port -u$mysql_user -p$mysql_password $dbname --default-character-set=$mysql_charset | gzip >$backup_dir/$dbname-$backup_time.sql.gz)
+                $(mysqldump -h$mysql_host -P$mysql_port -u$mysql_user -p$mysql_password $dbname \
+                 --default-character-set=$mysql_charset | gzip >$backup_dir/$dbname-$backup_time.sql.gz)
 
                 # 获取执行结果
                 flag=$(echo $?)
@@ -421,7 +422,8 @@ create_db_sql="create database IF NOT EXISTS ${SERVER_DB}"
 mysql -h${LOCAL_HOST} -P${LOCAL_PORT} -u${LOCAL_USER} -p${LOCAL_PASSWORD} -e "${create_db_sql}"
 
 #从远程数据库备份到本地数据库
-mysqldump -R -E -h${SERVER_HOST} -P${SERVER_PORT} -u${SERVER_USER} -p${SERVER_PASSWORD} ${SERVER_DB} | mysql -h${LOCAL_HOST} -P${LOCAL_PORT} -u${LOCAL_USER} -p${LOCAL_PASSWORD} -C ${SERVER_DB}
+mysqldump -R -E -h${SERVER_HOST} -P${SERVER_PORT} -u${SERVER_USER} -p${SERVER_PASSWORD} ${SERVER_DB} \
+ | mysql -h${LOCAL_HOST} -P${LOCAL_PORT} -u${LOCAL_USER} -p${LOCAL_PASSWORD} -C ${SERVER_DB}
 
 echo "----------------------------------------------------------------------------"
 endDate=$(date +"%Y-%m-%d %H:%M:%S")
