@@ -186,9 +186,6 @@ python -m http.server port
 wget host:port/file 就可以下载了
 ```
 ### scp
-[shell脚本](/files/scp.sh)
-
-> 使用前请安装expect包：`yum -y install expect expect-devel`
 
 > 【优点】简单方便，安全可靠；支持限速参数，不占资源，不会提高多少系统负荷
 >
@@ -231,17 +228,20 @@ wget host:port/file 就可以下载了
 > -S program  指定加密传输时所使用的程序。此程序必须能够理解ssh(1)的选项。
 
 > scp [参数] <源地址（用户名@IP地址或主机名）>:<文件路径> <目的地址（用户名 @IP 地址或主机名）>:<文件路径> 
->
-> 举例： 
->> 把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
+
+#### 举例： 
+> 把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
+
 ```bash
 scp -P -p /home/work/source.txt work@192.168.0.10:/home/work/
 ```
->> 把192.168.0.10机器上的source.txt文件拷贝到本地的/home/work目录下
+> 把192.168.0.10机器上的source.txt文件拷贝到本地的/home/work目录下
+
 ```bash
 scp -P -p work@192.168.0.10:/home/work/source.txt /home/work/
 ```
->> 把192.168.0.10机器上的source.txt文件拷贝到192.168.0.11机器的/home/work目录下
+> 把192.168.0.10机器上的source.txt文件拷贝到192.168.0.11机器的/home/work目录下
+
 ```bash
 scp -P -p work@192.168.0.10:/home/work/source.txt work@192.168.0.11:/home/work/
 # 拷贝文件夹，加-r参数
@@ -251,14 +251,55 @@ scp -P -p -r /home/work/sourcedir work@www.myhost.com:/home/work/
 # 显示详情，加-v参数
 scp -P -p -r -v /home/work/sourcedir work@www.myhost.com:/home/work/  
 ```
->> 将本地A主机文件复制到B主机
+> 将本地A主机文件复制到B主机
+
 ```bash
 scp -P -p ./files/yum.log 192.168.214.187:/tmp/demo/
 ```
->> 将远程主机复制到本地
+> 将远程主机复制到本地
+
 ```bash
 scp -P -p 192.168.214.187:/tmp/demo/f3.log /tmp/files/
 ```
+
+#### 脚本
+```bash
+#!/bin/bash
+
+# 安装expect包
+yum -y install expect expect-devel
+# 远程IP
+des_ip=192.168.1.1
+# 远程端口
+des_port=22
+# 远程用户
+des_user=root
+# 远程密码
+des_pass=123456
+# 远程文件或文件夹路径
+des_path=/www/wwwroot/file
+# 本地文件或文件夹路径
+local_path=/www/wwwroot/file
+
+expect -c "
+# 设置拷贝的时间，超时时间-1为永不超时
+set timeout -1
+
+# 本地文件路径在前远程在后是从本地上传到远端
+# spawn scp -P ${des_port} -p -r ${local_path} ${des_user}@${des_ip}:${des_path}
+# 远程在前本地文件路径在后的是从远端下载到本地
+spawn scp -P ${des_port} -p -r ${des_user}@${des_ip}:${des_path} ${local_path}
+# expect \"password:\"
+# send \"${des_pass}\r\"
+expect {
+  \"*yes/no*\" {send \"yes\r\"; exp_continue}
+  \"*password*\" {send \"${des_pass}\r\";}
+}
+expect eof
+"
+
+```
+
 
 ### rsync
 >【优点】功能强大，操作类似scp，支持排除目录，支持限速参数；还支持本地复制。 
@@ -266,6 +307,7 @@ scp -P -p 192.168.214.187:/tmp/demo/f3.log /tmp/files/
 > 【缺点】会耗系统资源，占用I/O
 >  
 > 【用法】rsync是类unix系统下的数据镜像备份工具，从软件的命名上就可以看出来了——remote sync。它的操作方式和scp和相似，但是比scp强大很多。使用双冒号分割主机名和文件路径时，是使用rsync服务器
+
 ```bash
 # 把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
 rsync /home/work/source.txt work@192.168.0.10:/home/work/
