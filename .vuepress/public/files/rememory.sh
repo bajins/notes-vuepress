@@ -2,7 +2,7 @@
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 #+------------------------------------
-#+ 宝塔释放内存脚本
+#+ 放内存脚本
 #+------------------------------------
 
 startDate=`date +"%Y-%m-%d %H:%M:%S"`

@@ -1,5 +1,14 @@
 # MySQL常用语句
 
+
+## 命令行
+> 可以用shell脚本操作mysql数据库，使用mysql的`-e`参数可以执行各种sql的(创建，删除，增，删，改、查)等各种操作。
+
+```bash
+mysql -hlocalhost -P3306 -uroot -pabc123 -e "show databases;"
+```
+
+
 ## 随机取值
 > 先根据rand()和id获取一遍随机数，再跟原表关联，最后取出值，因为是随机取，所以你的id值越平均，数据量越大，最后limit之前获取的id值就会越接近整表数据量的一半，limit取到的结果也越接近。
 
