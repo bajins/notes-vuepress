@@ -233,33 +233,28 @@ wget host:port/file 就可以下载了
 > 把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
 
 ```bash
-scp -P -p /home/work/source.txt work@192.168.0.10:/home/work/
+scp -P 22 -p /home/work/source.txt work@192.168.0.10:/home/work/
 ```
 > 把192.168.0.10机器上的source.txt文件拷贝到本地的/home/work目录下
 
 ```bash
-scp -P -p work@192.168.0.10:/home/work/source.txt /home/work/
+scp -P 22 -p work@192.168.0.10:/home/work/source.txt /home/work/
 ```
 > 把192.168.0.10机器上的source.txt文件拷贝到192.168.0.11机器的/home/work目录下
 
 ```bash
-scp -P -p work@192.168.0.10:/home/work/source.txt work@192.168.0.11:/home/work/
+scp -P 22 -p work@192.168.0.10:/home/work/source.txt work@192.168.0.11:/home/work/
 # 拷贝文件夹，加-r参数
-scp -P -p -r /home/work/sourcedir work@192.168.0.10:/home/work/
+scp -P 22 -p -r /home/work/sourcedir work@192.168.0.10:/home/work/
 # 使用主机名
-scp -P -p -r /home/work/sourcedir work@www.myhost.com:/home/work/
+scp -P 22 -p -r /home/work/sourcedir work@www.myhost.com:/home/work/
 # 显示详情，加-v参数
-scp -P -p -r -v /home/work/sourcedir work@www.myhost.com:/home/work/  
-```
-> 将本地A主机文件复制到B主机
-
-```bash
-scp -P -p ./files/yum.log 192.168.214.187:/tmp/demo/
+scp -P 22 -p -r -v /home/work/sourcedir work@www.myhost.com:/home/work/  
 ```
 > 将远程主机复制到本地
 
 ```bash
-scp -P -p 192.168.214.187:/tmp/demo/f3.log /tmp/files/
+scp -P 22 -p root@192.168.214.187:/tmp/demo/f3.log /tmp/files/
 ```
 
 #### 脚本
