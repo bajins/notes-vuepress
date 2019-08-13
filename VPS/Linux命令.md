@@ -306,6 +306,7 @@ expect {
 }
 expect eof
 "
+exit
 
 ```
 

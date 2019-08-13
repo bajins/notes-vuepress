@@ -296,6 +296,14 @@ startDate=$(date +"%Y-%m-%d %H:%M:%S")
 echo "★[$startDate] 开始执行："
 echo "----------------------------------------------------------------------------"
 
+function finish() {
+    echo "----------------------------------------------------------------------------"
+    endDate=$(date +"%Y-%m-%d %H:%M:%S")
+    echo "★[$endDate] 执行结束！"
+    echo "****************************************************************************"
+    exit
+}
+
 # ============ 以下配置信息请自行修改 ===================
 
 # MySQL备份用户
@@ -335,63 +343,59 @@ mysql_ps=$(ps -ef | grep mysql | wc -l)
 mysql_listen=$(netstat -an | grep LISTEN | grep $mysql_port | wc -l)
 if [ [$mysql_ps == 0] -o [$mysql_listen == 0] ]; then
     echo "错误：MySQL没有运行！备份停止！"
-
-else
-
-    # 连接到mysql数据库，无法连接则备份退出
-    # 可以用shell脚本操作mysql数据库，使用mysql的-e参数可以执行各种sql的(创建，删除，增，删，改、查)等各种操作 。
-    mysql -h$mysql_host -P$mysql_port -u$mysql_user -p$mysql_password -e "show databases;" >/dev/null 2>&1
-
-    flag=$(echo $?)
-    if [ $flag != "0" ]; then
-        echo "错误：无法连接mysql服务器！备份停止！"
-    else
-        echo "MySQL连接成功! 请等待......"
-        # 判断有没有定义备份的数据库，如果定义则开始备份，否则退出备份
-        if [ "$backup_db_arr" != "" ]; then
-            #dbnames=$(cut -d ',' -f1-5 $backup_database)
-            #echo "arr is (${backup_db_arr[@]})"
-            for dbname in ${backup_db_arr[@]}; do
-                echo "数据库 $dbname 备份开始..."
-
-                # 创建备份文件夹
-                $(mkdir -p $backup_dir)
-                # 开始备份
-                $(mysqldump -h$mysql_host -P$mysql_port -u$mysql_user -p$mysql_password $dbname \
-                 --default-character-set=$mysql_charset | gzip >$backup_dir/$dbname-$backup_time.sql.gz)
-
-                # 获取执行结果
-                flag=$(echo $?)
-                if [ $flag == "0" ]; then
-                    echo "数据库 $dbname 成功备份到 $backup_dir/$dbname-$backup_time.sql.gz"
-                else
-                    echo "数据库 $dbname 备份失败!"
-                fi
-
-            done
-
-            # 如果开启了删除过期备份，则进行删除操作
-            if [ "$expire_backup_delete" == "ON" -a "$backup_dir" != "" ]; then
-                echo "查找要删除的文件："
-                # 查找要删除的文件
-                $(find $backup_dir/ -type f -mtime +$expire_days -print)
-                # 开始查找并删除
-                $(find $backup_dir/ -type f -mtime +$expire_days -print | xargs rm -f)
-                echo "删除备份文件成功!"
-            fi
-        else
-            echo "错误：没有要备份的数据库！备份停止"
-        fi
-
-    fi
-
+    finish
 fi
 
-echo "----------------------------------------------------------------------------"
-endDate=$(date +"%Y-%m-%d %H:%M:%S")
-echo "★[$endDate] 执行结束！"
-echo "****************************************************************************"
-exit
+# 连接到mysql数据库，无法连接则备份退出
+# 可以用shell脚本操作mysql数据库，使用mysql的-e参数可以执行各种sql的(创建，删除，增，删，改、查)等各种操作 。
+mysql -h$mysql_host -P$mysql_port -u$mysql_user -p$mysql_password -e "show databases;" >/dev/null 2>&1
+
+flag=$(echo $?)
+if [ $flag != "0" ]; then
+    echo "错误：无法连接mysql服务器！备份停止！"
+    finish
+fi
+echo "MySQL连接成功! 请等待......"
+# 判断有没有定义备份的数据库，如果定义则开始备份，否则退出备份
+if [ "$backup_db_arr" != "" ]; then
+    echo "错误：没有要备份的数据库！备份停止"
+    finish
+fi
+
+#dbnames=$(cut -d ',' -f1-5 $backup_database)
+#echo "arr is (${backup_db_arr[@]})"
+for dbname in ${backup_db_arr[@]}; do
+    echo "数据库 $dbname 备份开始..."
+
+    # 创建备份文件夹
+    $(mkdir -p $backup_dir)
+    # 开始备份
+    $(
+        mysqldump -h$mysql_host -P$mysql_port -u$mysql_user -p$mysql_password $dbname \
+        --default-character-set=$mysql_charset | gzip >$backup_dir/$dbname-$backup_time.sql.gz
+    )
+
+    # 获取执行结果
+    flag=$(echo $?)
+    if [ $flag == "0" ]; then
+        echo "数据库 $dbname 成功备份到 $backup_dir/$dbname-$backup_time.sql.gz"
+    else
+        echo "数据库 $dbname 备份失败!"
+    fi
+
+done
+
+# 如果开启了删除过期备份，则进行删除操作
+if [ "$expire_backup_delete" == "ON" -a "$backup_dir" != "" ]; then
+    echo "查找要删除的文件："
+    # 查找要删除的文件
+    $(find $backup_dir/ -type f -mtime +$expire_days -print)
+    # 开始查找并删除
+    $(find $backup_dir/ -type f -mtime +$expire_days -print | xargs rm -f)
+    echo "删除备份文件成功!"
+fi
+
+finish
 
 ```
 
@@ -429,5 +433,6 @@ echo "--------------------------------------------------------------------------
 endDate=$(date +"%Y-%m-%d %H:%M:%S")
 echo "★[$endDate] Successful"
 echo "****************************************************************************"
+exit
 
 ```
