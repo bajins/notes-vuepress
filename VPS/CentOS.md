@@ -228,7 +228,9 @@ yum -y groupinstall chinese-support
 export LANG=zh_CN.utf8
 ```
 #### 长久
-> 修改`vi /etc/locale.conf`文件内容
+> CenOS7修改`vi /etc/locale.conf`文件
+>
+> CentOS6修改`vi /etc/sysconfig/i18n`文件
 
 ```bash
 LANG="zh_CN.utf8"
