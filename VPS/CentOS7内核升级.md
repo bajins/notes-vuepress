@@ -1,9 +1,24 @@
 # CentOS7内核升级
 
-# BBR
-## OpenVZ魔改BBR的一键安装脚本 by [南琴浪博客](https://github.com/nanqinlang-tcp/tcp_nanqinlang-test)
 
-### 安装命令参考https://github.com/tcp-nanqinlang/wiki/wiki/lkl-haproxy
+## 目录
+* [目录](#目录)
+* [KVM安装最新内核并开启BBR](#kvm安装最新内核并开启bbr)
+  * [手动安装](#手动安装)
+  * [一键安装脚本](#一键安装脚本)
+  * [查看内核版本](#查看内核版本)
+  * [CentOS安装新版内核`headers`](#centos安装新版内核headers)
+  * [内核升级方法](#内核升级方法)
+* [shadowsocks](#shadowsocks)
+* [v2ray](#v2ray)
+* [PAC](#pac)
+
+
+
+
+[OpenVZ魔改BBR的一键安装脚本](https://github.com/nanqinlang-tcp/tcp_nanqinlang-test)
+
+[安装命令参考](https://github.com/tcp-nanqinlang/wiki/wiki/lkl-haproxy)
 
 ## KVM安装最新内核并开启BBR
 
@@ -80,7 +95,10 @@ rpm -qa | grep kernel
 yum remove 内核名字
 ```
 
-### 使用[秋水逸冰](https://github.com/teddysun/across)的一键安装脚本
+### 一键安装脚本
+
+[秋水逸冰](https://github.com/teddysun/across)
+
 #### 下载并执行脚本
 ```bash
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
@@ -90,7 +108,9 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 ```bash
 uname -r
 ```
-### 查看内核版本，显示为最新版就表示 OK 了
+### 查看内核版本
+> 显示为最新版就表示OK了
+
 ```bash
 sysctl net.ipv4.tcp_available_congestion_control
 ```
@@ -122,9 +142,10 @@ lsmod | grep bbr
 > 
 > 注意：并不是所有的 VPS 都会有此返回值，若没有也属正常。
 
-### CentOS 下最新版内核 headers 安装方法
+### CentOS安装新版内核`headers`
 > 本来打算在脚本里直接安装 kernel-ml-headers，但会出现和原版内核 headers 冲突的问题。
 > 因此在这里添加一个脚本执行完后，手动安装最新版内核 headers 之教程。
+
 #### 执行以下命令
 ```bash
 yum --enablerepo=elrepo-kernel -y install kernel-ml-headers
@@ -194,7 +215,7 @@ grub2-set-default 0
 [multi-v2ray](https://github.com/Jrohy/multi-v2ray)
 
 
-### PAC
+## PAC
 [https://github.com/lbp0200/mono_pac](https://github.com/lbp0200/mono_pac)
 
 [https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt](https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt)
