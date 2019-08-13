@@ -1,4 +1,4 @@
-# Gitea+Vue自动化构建部署
+# Git自动构建部署
 
 ## 手动部署
 > Vue项目完成后,执行`npm run build`,然后将生成的dist目录下的文件放到web目录下
