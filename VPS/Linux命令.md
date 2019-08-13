@@ -280,9 +280,9 @@ expect -c "
 # 设置拷贝的时间，超时时间-1为永不超时
 set timeout -1
 
-# 本地文件路径在前远程在后是从本地上传到远端
+# 本地路径在前，远程在后，是从本地上传到远端
 # spawn scp -P ${des_port} -p -r ${local_path} ${des_user}@${des_ip}:${des_path}
-# 远程在前本地文件路径在后的是从远端下载到本地
+# 远程在前，本地路径在后，的是从远端下载到本地
 spawn scp -P ${des_port} -p -r ${des_user}@${des_ip}:${des_path} ${local_path}
 # expect \"password:\"
 # send \"${des_pass}\r\"
