@@ -22,7 +22,7 @@
   * [2、设置文档编码格式](#2设置文档编码格式)
   * [3、设置Web编码格式](#3设置web编码格式)
   * [4、设置项目的文档编码格式](#4设置项目的文档编码格式)
-
+* [设置Tab键为4个空格](#设置tab键为4个空格)
 
 
 ## 显示内存
@@ -215,3 +215,7 @@ ${type_declaration}
 > 选择`项目`->`右键`->`Properties`->`Resource`设置编码为`UTF-8`
 
 
+## 设置Tab键为4个空格
+![](/images/Eclipse-Insert-spaces-for-tabs.png)
+
+![](/images/Eclipse-Tab-policy.png)
