@@ -12,7 +12,7 @@ export default {
   computed: {
     // 是否显示评论
     isShowComment () {
-      const frontmatter = this.$page.frontmatter
+      const frontmatter = this.$frontmatter
       return this.isComment == false || frontmatter.isComment == false || frontmatter.home == true ? false : true
     }
   }, 
@@ -71,7 +71,7 @@ export default {
   padding-left: 20rem;
   #valine
     padding 2rem
-    max-width: 80%;
+    max-width: 960px;
     margin: 0 auto;
 @media (max-width: $MQNarrow)
   .theme-container.no-sidebar

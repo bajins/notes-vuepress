@@ -25,7 +25,12 @@ color-mode(accountColor , colorName)
           color: #fff!important
       .footer 
         a 
-          color accountColor!important;    
+          color accountColor!important;
+      .home-blog
+        .info-wrapper
+          .num
+            > div, >div i
+              color accountColor!important;
     .abstract-wrapper .abstract-item .title 
       a
         color accountColor!important; 
@@ -44,7 +49,38 @@ color-mode(accountColor , colorName)
       .date::before
         background: accountColor!important; 
       .date
-        color accountColor!important;    
+        color accountColor!important;
+    .categories-wrapper
+      .category-wrapper
+        .category-item
+          &:hover, &.active
+            background accountColor!important
+            a 
+              span.post-num
+                color accountColor!important
+    .color-picker
+      .color-button
+        .iconfont
+          color accountColor!important;
+    a
+      color accountColor;
+    a.sidebar-link, a.nav-link, a.dropdown-title
+      color $textColor
+    a.sidebar-link:hover
+      color accountColor!important;
+    .password-shadow
+      .inputBox
+        background: accountColor!important
+        input
+          color #fff!important
+          &:focus~span
+            color accountColor!important
+        button
+          border 1px solid accountColor!important
+          color accountColor!important;
+
+
+
     @media (min-width: 765px)
       .nav-item > a:not(.external):hover, 
       .nav-item > a:not(.external).router-link-active

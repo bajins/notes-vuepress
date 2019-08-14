@@ -99,7 +99,7 @@ export default {
 
 .timeline-wrapper
   box-sizing border-box
-  max-width: 80%;
+  max-width: 960px;
   margin: 0 auto;
   position relative
   list-style none

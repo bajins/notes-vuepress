@@ -1,17 +1,11 @@
 <template>
   <div class="home" :class="recoShow?'reco-show': 'reco-hide'">
     <div class="hero">
-      <img
-        v-if="data.heroImage"
-        :style="heroImageStyle"
-        :src="$withBase(data.heroImage)"
-        alt="hero"
-      >
+      <img v-if="data.heroImage" :style="heroImageStyle" :src="$withBase(data.heroImage)" alt="hero">
 
-      <h1 v-if="data.isShowTitleInHome !== false">{{ data.heroText || $title }}</h1>
+      <h1 v-if="data.isShowTitleInHome !== false">{{ data.heroText || $title || 'Bajins' }}</h1>
 
-      <p class="description">{{ data.tagline || $description }}</p>
-
+      <p class="description">{{ data.tagline || $description || '欢迎访问Bajins博客' }}</p>
       <p class="action" v-if="data.actionText && data.actionLink">
         <NavLink class="action-button" :item="actionLink"/>
       </p>
@@ -27,10 +21,6 @@
     <Content class="home-center" custom/>
 
     <div class="footer">
-      <!-- <span>
-        <i class="iconfont reco-Other"></i>
-        <a>{{ $themeConfig.author || $site.title }}</a>
-      </span>-->
       <span v-if="$themeConfig.record">
         <i class="iconfont reco-beian"></i>
         <a>{{ $themeConfig.record }}</a>
@@ -38,13 +28,11 @@
       <span>
         <i class="iconfont reco-copyright"></i>
         <a>
-          <span v-if="$themeConfig.startYear">{{ $themeConfig.startYear }} -</span>
+          <span v-if="$themeConfig.startYear">{{ $themeConfig.startYear }} - </span>
           {{ year }}
           &nbsp;&nbsp;
-          <span
-            v-if="$themeConfig.author || $site.title"
-          >{{ $themeConfig.author || $site.title }}</span>
-        </a>
+          <span v-if="$themeConfig.author || $site.title">{{ $themeConfig.author || $site.title }}</span>
+          </a>
       </span>
       <span>
         <AccessNumber idVal="/"></AccessNumber>
@@ -55,21 +43,21 @@
 
 <script>
 import NavLink from "@theme/components/NavLink/";
-import AccessNumber from "@theme/components/Valine/AccessNumber";
+import AccessNumber from '@theme/components/Valine/AccessNumber'
 
 export default {
   components: { NavLink, AccessNumber },
-  data() {
+  data () {
     return {
       recoShow: false
-    };
+    }
   },
   computed: {
-    year() {
-      return new Date().getFullYear();
+    year () {
+      return new Date().getFullYear()
     },
     data() {
-      return this.$page.frontmatter;
+      return this.$frontmatter;
     },
 
     actionLink() {
@@ -79,23 +67,21 @@ export default {
       };
     },
 
-    heroImageStyle() {
-      return (
-        this.data.heroImageStyle || {
-          maxHeight: "200px",
-          margin: "6rem auto 1.5rem"
-        }
-      );
+    heroImageStyle () {
+      return this.data.heroImageStyle || {
+        maxHeight: '200px',
+        margin: '6rem auto 1.5rem'
+      }
     }
   },
-  mounted() {
-    this.recoShow = true;
+  mounted () {
+    this.recoShow = true
   }
 };
 </script>
 
 <style lang="stylus">
-@require '../styles/loadMixin.styl';
+@require '../styles/loadMixin.styl'
 
 .home {
   padding: $navbarHeight 2rem 0;
@@ -104,11 +90,9 @@ export default {
 
   .hero {
     text-align: center;
-
     img {
       background-color: $accentColor;
     }
-
     h1 {
       font-size: 2.5rem;
     }
@@ -118,7 +102,6 @@ export default {
     }
 
     .description {
-      max-width: 35rem;
       font-size: 1.6rem;
       line-height: 1.3;
       color: lighten($textColor, 20%);
@@ -133,7 +116,7 @@ export default {
       border-radius: 4px;
       transition: background-color 0.1s ease;
       box-sizing: border-box;
-      load-start();
+      load-start()
 
       &:hover {
         background-color: lighten($accentColor, 10%);
@@ -156,8 +139,7 @@ export default {
     flex-grow: 1;
     flex-basis: 30%;
     max-width: 30%;
-    transition: all 0.5s;
-
+    transition: all .5s
     h2 {
       font-size: 1.6rem;
       font-weight: 500;
@@ -171,7 +153,7 @@ export default {
     }
 
     &:hover {
-      transform: scale(1.05);
+      transform scale(1.05)
     }
   }
 
@@ -180,88 +162,72 @@ export default {
     border-top: 1px solid $borderColor;
     text-align: center;
     color: lighten($textColor, 25%);
-    load-start();
-
+    load-start()
     > span {
-      margin-left: 1rem;
-
+      margin-left 1rem
       > i {
-        margin-right: 0.5rem;
+        margin-right .5rem
+      } 
+    }
+  }
+
+  &.reco-hide {
+  .hero {
+    img {
+      load-start()
+    }
+    .h1 {
+      load-start()
+    }
+    .description {
+      load-start()
+    }
+    .huawei {
+      load-start()
+    }
+    .action-button {
+      load-start()
+    }
+  }
+  .features {
+    load-start()
+  }
+  .home-center {
+    load-start()
+    padding 0
+  }
+  .footer {
+    load-start()
+  }
+}
+
+  &.reco-show {
+    .hero {
+      img {
+        load-end(0.08s)
+      }
+      .h1 {
+        load-end(0.16s)
+      }
+      .description {
+        load-end(0.24s)
+      }
+      .huawei {
+        load-end(0.32s)
+      }
+      .action-button {
+        load-end(0.4s)
       }
     }
-  }
-}
-
-&.reco-hide {
-  .hero {
-    img {
-      load-start();
+    .features {
+      load-end(0.40s)
     }
-
-    .h1 {
-      load-start();
+    .home-center {
+      load-end(0.48s)
     }
-
-    .description {
-      load-start();
+    .footer {
+      load-end(0.56s)
     }
-
-    .huawei {
-      load-start();
-    }
-
-    .action-button {
-      load-start();
-    }
-  }
-
-  .features {
-    load-start();
-  }
-
-  .home-center {
-    load-start();
-    padding: 0;
-  }
-
-  .footer {
-    load-start();
-  }
-}
-
-&.reco-show {
-  .hero {
-    img {
-      load-end(0.08s);
-    }
-
-    .h1 {
-      load-end(0.16s);
-    }
-
-    .description {
-      load-end(0.24s);
-    }
-
-    .huawei {
-      load-end(0.32s);
-    }
-
-    .action-button {
-      load-end(0.4s);
-    }
-  }
-
-  .features {
-    load-end(0.4s);
-  }
-
-  .home-center {
-    load-end(0.48s);
-  }
-
-  .footer {
-    load-end(0.56s);
   }
 }
 
@@ -276,14 +242,12 @@ export default {
       padding: 0 2.5rem;
     }
   }
-
   .footer {
-    text-align: left !important;
-
+    text-align: left!important;
     > span {
-      display: block;
-      margin-left: 0;
-      line-height: 2rem;
+      display block
+      margin-left 0
+      line-height 2rem
     }
   }
 }
