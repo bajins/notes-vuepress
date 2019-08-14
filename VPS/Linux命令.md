@@ -477,6 +477,9 @@ mv test1 test2
 # 将/test1目录移动到 /home/ 下，并重命名为test2
 mv /test1 /home/test2
 
+# 将test目录中包含隐藏文件移动到当前文件夹下
+mv /test/.[^.]* .
+
 # 修改文件/目录名（两种方法 touch 或者 rename）
 touch test1 test2
 rename test1 test2 test1
