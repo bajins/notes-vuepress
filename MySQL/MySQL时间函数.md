@@ -58,13 +58,13 @@ CURRENT_TIMESTAMP { + INTERVAL 1 [HOUR|MONTH|WEEK|DAY|MINUTE|...] }
 | MINUTE        | 分   |
 | WEEK          | 周   |
 | SECOND        | 秒   |
-| YEAR_MONTH    | 年月  |
+| YEAR_MONTH    | 年:月  |
 | DAY_HOUR      | 日:时 |
 | DAY_MINUTE    | 日:分 |
-| DAY_SECOND    | 曰秒  |
+| DAY_SECOND    | 日:秒  |
 | HOUR_MINUTE   | 时:分 |
-| HOUR_SECOND   | 时秒  |
-| MINUTE SECOND | 分秒  |
+| HOUR_SECOND   | 时:秒  |
+| MINUTE_SECOND | 分:秒  |
 
 
 #### `sysdate()`
