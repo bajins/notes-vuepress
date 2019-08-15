@@ -23,7 +23,7 @@ module.exports = {
     // 额外的需要被注入到当前页面的 HTML <head> 中的标签，每个标签都可以以 [tagName, { attrName: attrValue }, innerHTML?] 的格式指定
     head: [
         ['link', {rel: 'icon', href: `/images/icons/logo.png`}],
-        ['link', {rel: 'manifest', href: '/images/manifest.json'}],
+        ['link', {rel: 'manifest', href: '/manifest.json'}],
         ['meta', {name: 'theme-color', content: '#3eaf7c'}],
         ['meta', {name: 'apple-mobile-web-app-capable', content: 'yes'}],
         ['meta', {name: 'apple-mobile-web-app-status-bar-style', content: 'black'}],
