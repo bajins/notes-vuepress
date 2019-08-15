@@ -1,6 +1,14 @@
 # MySQL存储过程
 
-## 创建存储过程
+## 目录
+* [创建游标存储过程](#创建游标存储过程)
+  * [调用存储过程，查询返回结果](#调用存储过程查询返回结果)
+  * [多次调用存储过程，并拼接结果](#多次调用存储过程并拼接结果)
+* [循环](#循环)
+
+
+
+## 创建游标存储过程
 ```sql
 -- 将语句的结束符号从分号;临时改为两个$$(可以是自定义)
 DELIMITER $$
@@ -62,7 +70,7 @@ END$$
 DELIMITER ;
 ```
 
-## 调用存储过程，查询返回结果
+### 调用存储过程，查询返回结果
 ```sql
 -- 调用存储过程，@sum变量为返回结果
 call select_review(输入参数一,输入参数二,@sum);
@@ -70,7 +78,7 @@ call select_review(输入参数一,输入参数二,@sum);
 select @sum e;
 ```
 
-## 多次调用存储过程，并拼接结果
+### 多次调用存储过程，并拼接结果
 ```sql
 -- 调用存储过程，@sum变量为返回结果
 call select_review(输入参数一,输入参数二,@sum);
@@ -87,3 +95,72 @@ SET @e=CONCAT(@e,',{"Push_MC":"',@declaration,'"}]');
 SELECT @e e;
 ```
 
+## 循环
+
+> `LOOP`、`WHILE`、`REPEAT`
+
+```sql
+-- 将语句的结束符号从分号;临时改为两个$$(可以是自定义)
+DELIMITER $$
+USE `table_name`$$
+-- 判断删除存储过程
+DROP PROCEDURE IF EXISTS `add_year_month_info`$$
+
+CREATE DEFINER=`yc`@`%` PROCEDURE `add_year_month_info`()
+BEGIN
+		/*
+		CALL add_year_month_info()
+		*/
+		
+		-- 统计循环次数变量
+		DECLARE i INT DEFAULT 1;
+		-- 需要循环次数变量
+		DECLARE a INT DEFAULT 12;
+		-- 设定捕捉异常的结束标志
+		-- DECLARE CONTINUE HANDLER FOR SQLWARNING, NOT FOUND, SQLEXCEPTION SET done = TRUE;
+		
+		-- 自定义LOOP循环体开始
+		rLoop:LOOP
+			-- 判断是否继续循环
+			IF (i>a) THEN
+				-- 结束循环，意思同boeak
+				LEAVE rLoop;
+				-- 跳过继续循环
+				-- ITERATE rLoop;
+			END IF;
+			-- 循环一次加1
+			SET i=i+1;
+			
+			SELECT * FROM USER WHERE id=i;
+			
+		-- 结束自定义循环体
+		END LOOP rLoop;
+		
+		-- 恢复初始值
+		SET i=1;
+		
+		-- WHILE循环开始
+		WHILE i<=a DO
+			SET i=i+1;
+			
+			SELECT * FROM USER WHERE id=i;
+			
+		-- 循环结束
+		END WHILE;
+		
+		-- 恢复初始值
+		SET i=1;
+		
+		-- REPEAT循环开始
+		REPEAT
+			SET i=i+1;
+			
+			SELECT * FROM USER WHERE id=i;
+			
+		-- 循环结束
+		UNTIL i>a END REPEAT;
+	-- 使用自定义结束标志结束
+	END$$
+
+DELIMITER ;
+```

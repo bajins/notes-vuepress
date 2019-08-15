@@ -1,58 +1,95 @@
 # MySQL时间函数
 
 ## 目录
-* [MySQL获取当前日期及日期格式](#MySQL获取当前日期及日期格式)
-    * [获得当前日期+时间（date+time）函数](#获得当前日期时间datetime函数)
-    * [获得当前日期`date`函数](#获得当前日期date函数)
-    * [获得当前时间`time`函数](#获得当前时间time函数)
-    * [获得当前`UTC`日期时间函数](#获得当前UTC日期时间函数)
-* [格式化日期](#格式化日期)
-* [MySQL为日期增加或者减去一个时间间隔](#MySQL为日期增加或者减去一个时间间隔)
-* [MySQL日期、时间相减函数](#MySQL日期时间相减函数)
-* [MySQL时间戳（timestamp）转换、增、减函数](#MySQL时间戳timestamp转换增减函数)
-* [MySQL日期时间选取函数](#MySQL日期时间选取函数)
-* [MySQL`dayof…`函数](#MySQLdayof函数)
-* [MySQL获取月份相关函数](#MySQL获取月份相关函数)
 
---------------------------------------------------
+* [MySQL获取当前日期及日期格式](#mysql获取当前日期及日期格式)
+  * [获得当前日期+时间（date+time）函数](#获得当前日期时间datetime函数)
+  * [获得当前日期`date`函数](#获得当前日期date函数)
+  * [获得当前时间`time`函数](#获得当前时间time函数)
+  * [获得当前`UTC`日期时间函数](#获得当前utc日期时间函数)
+  * [格式化日期](#格式化日期)
+  * [生成18位uuid加14位精确到秒的时间](#生成18位uuid加14位精确到秒的时间)
+* [MySQL为日期增加或者减去一个时间间隔](#mysql为日期增加或者减去一个时间间隔)
+  * [`date_add()、date_sub()`](#date_adddate_sub)
+* [MySQL日期、时间相减函数](#mysql日期时间相减函数)
+* [MySQL时间戳（timestamp）转换、增、减函数](#mysql时间戳timestamp转换增减函数)
+* [MySQL日期时间选取函数](#mysql日期时间选取函数)
+* [MySQL`Extract()`函数](#mysqlextract函数)
+* [MySQL`dayof…`函数](#mysqldayof函数)
+  * [`dayofweek(), dayofmonth(), dayofyear()`](#dayofweek-dayofmonth-dayofyear)
+* [MySQL 返回星期和月份名称函数](#mysql-返回星期和月份名称函数)
+  * [`dayname(), monthname()`](#dayname-monthname)
+* [MySQL获取月份相关函数](#mysql获取月份相关函数)
 
-# MySQL获取当前日期及日期格式
 
-## 获得当前日期+时间（date+time）函数
 
-### `now()` 
+
+
+
+## MySQL获取当前日期及日期格式
+
+### 获得当前日期+时间（date+time）函数
+
+#### `now()` 
 
 > 除了 `now()` 函数能获得当前的日期时间外，MySQL 中还有下面的函数： 
-```sql
-current_timestamp() current_timestamp 
-localtime() localtime 
-localtimestamp() localtimestamp 
-```
+>> `current_timestamp()`
+>>
+>> `localtime()`
+>>
+>> `localtimestamp()`
+>
 > 这些日期时间函数，都等同于 `now()`。鉴于 `now()` 函数简短易记，建议总是使用 `now()`来替代上面列出的函数。
 
-### `sysdate()`
+#### `current_timestamp()`
+
+```sql
+CURRENT_TIMESTAMP { + INTERVAL 1 [HOUR|MONTH|WEEK|DAY|MINUTE|...] }
+```
+
+#### `INTERVAL`时间单位
+| unit          | 说明  |
+|---------------|-----|
+| YEAR          | 年   |
+| QUARTER       | 季度  |
+| MONTH         | 月   |
+| DAY           | 天   |
+| HOUR          | 时   |
+| MINUTE        | 分   |
+| WEEK          | 周   |
+| SECOND        | 秒   |
+| YEAR_MONTH    | 年月  |
+| DAY_HOUR      | 日:时 |
+| DAY_MINUTE    | 日:分 |
+| DAY_SECOND    | 曰秒  |
+| HOUR_MINUTE   | 时:分 |
+| HOUR_SECOND   | 时秒  |
+| MINUTE SECOND | 分秒  |
+
+
+#### `sysdate()`
 
 > sysdate() 日期时间函数跟 now() 类似，不同之处在于：now() 在执行开始时值就得到了， sysdate() 在函数执行时动态得到值。
 
-## 获得当前日期`date`函数
-### `curdate() `
+### 获得当前日期`date`函数
+#### `curdate() `
 
 > 其中，下面的两个日期函数等同于 curdate()：
 >> current_date(),current_date 
 
-## 获得当前时间`time`函数
-### `curtime()`
+### 获得当前时间`time`函数
+#### `curtime()`
 
 > 其中，下面的两个时间函数等同于 curtime()：
 >> current_time(),current_time 
 
-## 获得当前`UTC`日期时间函数
-### `utc_date(), utc_time(), utc_timestamp()`
+### 获得当前`UTC`日期时间函数
+> `utc_date(), utc_time(), utc_timestamp()`
 
-# 格式化日期
-### `DATE_FORMAT(date, format)`
+### 格式化日期
+> `DATE_FORMAT(date, format)`
 
-#### 生成18位uuid加14位精确到秒的时间
+### 生成18位uuid加14位精确到秒的时间
 ```sql
 CONCAT(LEFT(REPLACE(UUID(),'-',''),18),DATE_FORMAT(NOW(), '%Y%m%d%H%i%S'))
 ```
@@ -109,8 +146,9 @@ CONCAT(LEFT(REPLACE(UUID(),'-',''),18),DATE_FORMAT(NOW(), '%Y%m%d%H%i%S'))
 > `%%` 直接值“%”
 
 
-# MySQL为日期增加或者减去一个时间间隔
+## MySQL为日期增加或者减去一个时间间隔
 ### `date_add()、date_sub()`
+
 ```sql
 set @dt = now();
 select date_add(@dt, interval 1 day); -- add 1 day
@@ -124,8 +162,10 @@ select date_add(@dt, interval 1 quarter);
 select date_add(@dt, interval 1 year);
 select date_add(@dt, interval -1 day); -- sub 1 day
 ```
-# MySQL日期、时间相减函数
-### 两个日期相减 date1 - date2，返回天数。
+
+## MySQL日期、时间相减函数
+> 两个日期相减 date1 - date2，返回天数。
+
 > 注意：`timediff(time1,time2)` 函数的两个参数类型必须相同。
 
 ```sql
@@ -135,7 +175,9 @@ MySQL timediff(time1,time2)：两个日期相减 time1 - time2，返回 time 差
 select timediff('2008-08-08 08:08:08', '2008-08-08 00:00:00'); -- 08:08:08
 select timediff('08:08:08', '00:00:00'); -- 08:08:08
 ```
-# MySQL时间戳（timestamp）转换、增、减函数
+
+## MySQL时间戳（timestamp）转换、增、减函数
+
 ```sql
 timestamp(date) -- date to timestamp
 timestamp(dt,time) -- dt + time
@@ -155,8 +197,9 @@ select datediff('2008-08-08 12:00:00', '2008-08-01 00:00:00'); -- 7
 ```
 
 
-# MySQL日期时间选取函数
-## 日期时间的各个部分：日期、时间、年、季度、月、日、小时、分钟、秒、微秒
+## MySQL日期时间选取函数
+> 日期时间的各个部分：日期、时间、年、季度、月、日、小时、分钟、秒、微秒
+
 ```sql
 set @dt = '2008-09-10 07:15:30.123456';
  
@@ -172,7 +215,8 @@ select minute(@dt); -- 15
 select second(@dt); -- 30
 select microsecond(@dt); -- 123456
 ```
-## MySQL`Extract()`函数，可以上面实现类似的功能
+## MySQL`Extract()`函数
+
 ```sql
 set @dt = '2008-09-10 07:15:30.123456';
  
@@ -196,23 +240,28 @@ select extract(minute_second from @dt); -- 1530
 select extract(minute_microsecond from @dt); -- 1530123456
 select extract(second_microsecond from @dt); -- 30123456
 ```
-# MySQL`dayof…`函数
+
+## MySQL`dayof…`函数
 ### `dayofweek(), dayofmonth(), dayofyear()`
-#### 分别返回日期参数，在一周、一月、一年中的位置。
+> 分别返回日期参数，在一周、一月、一年中的位置。
+
 ```sql
 set @dt = '2008-08-08';
 select dayofweek(@dt); -- 6
 select dayofmonth(@dt); -- 8
 select dayofyear(@dt); -- 221
 ```
-# MySQL 返回星期和月份名称函数
+## MySQL 返回星期和月份名称函数
+
 ### `dayname(), monthname()`
 ```sql
 set @dt = '2008-08-08';
 select dayname(@dt); -- Friday
 select monthname(@dt); -- August
 ```
-# MySQL获取月份相关函数
+
+## MySQL获取月份相关函数
+
 ```sql
 # 获取当前日期
 SELECT CURDATE();
