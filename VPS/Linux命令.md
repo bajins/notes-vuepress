@@ -555,7 +555,7 @@ find . -type f | xargs grep "XXX"
 find . | xargs grep -ri "XXX"
 ```
 
-> 查找当前目录下文件内容匹配的字符串，输出：`字符串所在行内容 文件名`
+> 查找当前目录下文件内容匹配的字符串，输出：`字符串所在行内容`
 
 ```bash
 find /XXX/XXX -type f -exec grep "XXX" {} \;
