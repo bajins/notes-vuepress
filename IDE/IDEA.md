@@ -6,9 +6,10 @@
 * [设置去掉提示重复代码](#设置去掉提示重复代码)
 * [去掉大小写敏感提示](#去掉大小写敏感提示)
 * [创建文件时的注释](#创建文件时的注释)
+* [设置类文件创建模板](#设置类文件创建模板)
+  * [预定义模板变量](#预定义模板变量)
 * [方法注释设置](#方法注释设置)
   * [示例](#示例)
-* [设置类文件创建模板](#设置类文件创建模板)
 * [鼠标悬停查看方法注释](#鼠标悬停查看方法注释)
 * [自动优化导包](#自动优化导包)
 * [热部署策略](#热部署策略)
@@ -18,6 +19,7 @@
 * [错误解决](#错误解决)
   * [idea无限indexing解决方法](#idea无限indexing解决方法)
   * [OutOfMemoryError](#outofmemoryerror)
+    * [在`Vm options`中输入](#在vm-options中输入)
 * [IDEA插件](#idea插件)
   * [Free Mybatis plugin](#free-mybatis-plugin)
   * [mybatis-plus](#mybatis-plus)
@@ -33,7 +35,12 @@
   * [Rainbow Brackets](#rainbow-brackets)
   * [Translation](#translation)
   * [Markdown Navigator](#markdown-navigator)
-
+* [PyCharm](#pycharm)
+  * [`Python Script`生成文件头注释](#python-script生成文件头注释)
+* [GoLand](#goland)
+  * [`Go File`生成文件头注释](#go-file生成文件头注释)
+* [WebStorm](#webstorm)
+  * [`JavaScript File`生成文件头注释](#javascript-file生成文件头注释)
 
 
 ## 设置每次启动进入欢迎界面
@@ -54,19 +61,74 @@
 
 ## 创建文件时的注释
 
+### 预定义模板变量
+> `${PROJECT_NAME}` - 当前项目的名称
+> 
+> `${PACKAGE_NAME}` - 当前所在包名
+>
+> `${NAME}` - 在创建文件期间在新建文件对话框中指定的文件名称
+>
+> `${USER}` - 系统的当前用户登录名称
+>
+> `${DATE}` - 当前系统日期
+>
+> `${TIME}` - 当前系统时间
+>
+> `${YEAR}` - 当前年份
+> 
+> `${MONTH}` - 当前月份
+> 
+> `${DAY}` - 当前月的日期
+> 
+> `${HOUR}` - 当前时刻
+> 
+> `${MINUTE}` - 当前分钟
+> 
+> `${PRODUCT_NAME}` - 将被创建文件所在的IDE名称
+> 
+> `${MONTH_NAME_SHORT}` - 月份名称的前3个字母，例如: Jan, Feb, etc.
+> 
+> `${MONTH_NAME_FULL}` - 月份全称，例如: January, February, etc.
+
+
 ```java
 /**
- * 
- * 
- * @program ${PACKAGE_NAME}
- * @description ${NAME} 
- * @author claer bajins.com
- * @create ${YEAR}-${MONTH}-${DAY} ${HOUR}:${MINUTE}
  *
+ * @Description: 
+ * @Author: ${USER}
+ * @File: ${NAME}
+ * @Version: 1.0.0
+ * @Time: ${DATE} ${TIME}
+ * @Project: ${PROJECT_NAME}
+ * @Package: ${PACKAGE_NAME}
+ * @Software: ${PRODUCT_NAME}
  */
 ```
 
 ![](/images/IDEA设置创建文件时的注释.png)
+
+## 设置类文件创建模板
+
+```java
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} 
+!= "")package ${PACKAGE_NAME};#end
+
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+#parse("File Header.java")
+
+public class ${NAME} {
+
+     private static final Logger logger = LoggerFactory.getLogger(${NAME}.class);
+     
+     
+}
+```
+
+![](/images/IDEA设置类文件创建模板.png)
+
 
 ## 方法注释设置
 
@@ -106,28 +168,6 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 > 使用时，直接在方法上输入/加上你的Abbreviation名字，再按Tab键即可获取方法上的参数
 
 ![](/images/IDEA方法注释示例.png)
-
-## 设置类文件创建模板
-
-```java
-#if (${PACKAGE_NAME} && ${PACKAGE_NAME} 
-!= "")package ${PACKAGE_NAME};#end
-
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-#parse("File Header.java")
-
-public class ${NAME} {
-
-     private static final Logger logger = LoggerFactory.getLogger(${NAME}.class);
-     
-     
-}
-```
-
-![](/images/IDEA设置类文件创建模板.png)
 
 
 ## 鼠标悬停查看方法注释
@@ -305,32 +345,19 @@ public class ${NAME} {
 
 ### `Python Script`生成文件头注释
 
+[预定义模板变量](#预定义模板变量)
+
+
 ```python
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
-'''
-@File    :   ${NAME}.py    
-@Contact :   raogx.vip@hotmail.com
-@License :   (C)Copyright 2017-2099, Liugroup-NLPR-CASIA
-
-@Modify Time      @Author    @Version    @Desciption
-------------      -------    --------    -----------
-${DATE} ${TIME}   gxrao      1.0         None
-'''
-
-# import lib
- 
-
-```
-
-```python
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Time : ${DATE} ${TIME} 
 # @Author : ${USER}
-# @File : ${NAME}.py 
+# @File : ${NAME}.py
+# @Version: 1.0.0
+# @Time : ${DATE} ${TIME}
+# @Project: ${PROJECT_NAME}
+# @Package: ${PACKAGE_NAME}
 # @Software: ${PRODUCT_NAME}
-
 
 ```
 
@@ -338,17 +365,44 @@ ${DATE} ${TIME}   gxrao      1.0         None
 
 ### `Go File`生成文件头注释
 
+[预定义模板变量](#预定义模板变量)
+
 ```go
 /**
- * @Author: ${USER}
  * @Description: 
- * @File: ${NAME}
+ * @Author: ${USER}
+ * @File: ${NAME}.go
  * @Version: 1.0.0
  * @Time: ${DATE} ${TIME}
+ * @Project: ${PROJECT_NAME}
+ * @Package: ${PACKAGE_NAME}
  * @Software: ${PRODUCT_NAME}
  */
 
 package ${GO_PACKAGE_NAME}
+
+
+```
+
+
+
+## WebStorm
+
+### `JavaScript File`生成文件头注释
+
+[预定义模板变量](#预定义模板变量)
+
+```js
+/**
+ * @Description: 
+ * @Author: ${USER}
+ * @File: ${NAME}.js
+ * @Version: 1.0.0
+ * @Time: ${DATE} ${TIME}
+ * @Project: ${PROJECT_NAME}
+ * @Package: ${PACKAGE_NAME}
+ * @Software: ${PRODUCT_NAME}
+ */
 
 
 ```
