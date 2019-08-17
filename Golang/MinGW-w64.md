@@ -1,16 +1,24 @@
 # MinGW-w64
 
 ## 目录
-- [什么是`MinGW-w64`](#什么是mingw-w64)
-  - [官网](#官网)
-  - [下载页](#下载页)
-    - [环境说明](#环境说明)
-- [离线安装](#离线安装)
-  - [查看版本](#查看版本)
-- [MSYS2](#msys2)
+* [`MinGW-w64`介绍](#mingw-w64介绍)
+  * [官网](#官网)
+* [离线安装](#离线安装)
+  * [下载页](#下载页)
+    * [环境说明](#环境说明)
+* [命令](#命令)
+  * [查看版本](#查看版本)
+  * [预处理](#预处理)
+  * [编译](#编译)
+  * [汇编](#汇编)
+  * [链接](#链接)
+  * [](#)
+  * [](#)
+* [`MSYS2`](#msys2)
 
 
-## 什么是`MinGW-w64`
+
+## `MinGW-w64`介绍
 
 [http://rsreland.net/archives/1760](http://rsreland.net/archives/1760)
 
@@ -42,6 +50,9 @@
 
 [http://mingw-w64.org](http://mingw-w64.org)
 
+
+## 离线安装
+
 ### 下载页
 
 [http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/](http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/)
@@ -59,7 +70,7 @@
 >>
 >> `i686`为`32位`操作系统
 
-> 操作系统接口协议
+> 操作系统接口协议（为哪种操作系统开发程序）
 >> `posix`为`Linux`、`Unix`、`Mac OS`等其他操作系统
 >> 
 >> `win32`为`Windows`操作系统
@@ -75,13 +86,15 @@
 >> `sjlj`稳定性好，支持`32位`操作系统
 
 
-## 离线安装
-
 > 这里我的操作系统是`Windows10-X64`，所以选择版本为：`x86_64-posix-seh`
 
 > 下载后把压缩包解压到指定盘符下，再添加系统环境变量
 >
-> 比如我的解压目录在`C:\Program Files\mingw64`，那么就需要在`path`环境变量中国加入`C:\Program Files\mingw64\bin`
+> 比如我的解压目录在`C:\Program Files\mingw64`，那么就需要在`path`环境变量中加入`C:\Program Files\mingw64\bin`
+
+
+
+## 命令
 
 ### 查看版本
 
@@ -89,6 +102,41 @@
 gcc -v
 ```
 
+### 预处理
+
+```batch
+g++ -E test.cpp -o test.i
+```
+
+### 编译
+
+```batch
+g++ -S test.cpp -o test.s
+# 或者
+g++ -O2 -S test.cpp -o test.s
+```
+
+### 汇编
+
+```batch
+g++ -c test.s -o test.o
+```
+
+### 链接
+
+```batch
+g++ test.o -o test.exe [-L 所需库文件路径]
+# 或者
+g++ test.cpp -o test.exe
+```
+
+### 
+```batch
+```
+
+### 
+```batch
+```
 
 
 
