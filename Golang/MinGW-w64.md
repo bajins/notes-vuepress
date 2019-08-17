@@ -4,8 +4,9 @@
 * [`MinGW-w64`介绍](#mingw-w64介绍)
   * [官网](#官网)
 * [离线安装](#离线安装)
-  * [下载页](#下载页)
+  * [下载](#下载)
     * [环境说明](#环境说明)
+  * [安装](#安装)
 * [命令](#命令)
   * [查看版本](#查看版本)
   * [预处理](#预处理)
@@ -53,7 +54,7 @@
 
 ## 离线安装
 
-### 下载页
+### 下载
 
 [http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/](http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/)
 
@@ -85,6 +86,9 @@
 >> 
 >> `sjlj`稳定性好，支持`32位`操作系统
 
+
+
+### 安装
 
 > 这里我的操作系统是`Windows10-X64`，所以选择版本为：`x86_64-posix-seh`
 
