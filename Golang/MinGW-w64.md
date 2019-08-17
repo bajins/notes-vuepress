@@ -134,13 +134,6 @@ g++ test.o -o test.exe [-L 所需库文件路径]
 g++ test.cpp -o test.exe
 ```
 
-### 
-```batch
-```
-
-### 
-```batch
-```
 
 
 
