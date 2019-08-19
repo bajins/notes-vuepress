@@ -114,6 +114,10 @@ const formatTime = (date, join) => {
     let second = date.getSeconds();
     return [year, month, day].map(formatNumber).join(join) + ' ' + [hour, minute, second].map(formatNumber).join(':');
 }
+const formatNumber = (n) => {
+  n = n.toString();
+  return n[1] ? n : '0' + n;
+}
 ```
 
 ## 随机数
