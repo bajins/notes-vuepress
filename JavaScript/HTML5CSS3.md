@@ -200,127 +200,23 @@
 }
 
 @media screen and (min-width: 1200px) {
-    #page {
-        width: 1100px;
-    }
-
-    #content, .div1 {
-        width: 730px;
-    }
-
-    #secondary {
-        width: 310px
-    }
+    /*>=1200的设备*/
 }
 
 @media screen and (min-width: 960px) and (max-width: 1199px) {
-    #page {
-        width: 960px;
-    }
-
-    #content, .div1 {
-        width: 650px;
-    }
-
-    #secondary {
-        width: 250px
-    }
-
-    select {
-        max-width: 200px
-    }
+    /*>=960,<=1200的设备*/
 }
 
 @media screen and (min-width: 768px) and (max-width: 959px) {
-    #page {
-        width: 900px;
-    }
-
-    #content, .div1 {
-        width: 620px;
-    }
-
-    #secondary {
-        width: 220px
-    }
-
-    select {
-        max-width: 180px
-    }
+    /*>=768,<=960的设备*/
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    #page {
-        width: 450px;
-    }
-
-    #content, .div1 {
-        width: 420px;
-        position: relative;
-    }
-
-    #secondary {
-        display: none
-    }
-
-    #access {
-        width: 450px;
-    }
-
-    #access a {
-        padding-right: 5px
-    }
-
-    #access a img {
-        display: none
-    }
-
-    #rss {
-        display: none
-    }
-
-    #branding #s {
-        display: none
-    }
+    /*>=480,<=768的设备*/
 }
 
 @media only screen and (max-width: 479px) {
-    #page {
-        width: 300px;
-    }
-
-    #content, .div1 {
-        width: 300px;
-    }
-
-    #secondary {
-        display: none
-    }
-
-    #access {
-        width: 330px;
-    }
-
-    #access a {
-        padding-right: 10px;
-        padding-left: 10px
-    }
-
-    #access a img {
-        display: none
-    }
-
-    #rss {
-        display: none
-    }
-
-    #branding #s {
-        display: none
-    }
-
-    #access ul ul a {
-        width: 100px
-    }
+    /*<=480的设备*/
 }
 ```
 
