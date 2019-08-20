@@ -90,10 +90,11 @@
 （就是左侧`Email`菜单）进入界面后点击`DKIM signatures`点击`Copy`,然后在域名所在服务商添加一条TXT记录DNS解析，
 主机记录（name）为`mail._domainkey`,值就是刚刚复制的`DKIM signatures`
 
+![](/images/YandexMailDNS.png)
+
 - 6、添加邮箱账户：点击 `Все сотрудники`（就是左侧第一个菜单），然后点击页面下方有一个带`+`的`add`按钮，
 再点击`Add a person`，在弹出的页面输入，带`*`的为必填，填完后就点击`橙色的add按钮`
 
-![](/images/YandexMailDNS.png)
 
 - 7、新添加的用户需要去登录一次才能使用，因为首次登陆需要同意一个协议，所以到这里[https://mail.yandex.com](https://mail.yandex.com)
 登录刚刚添加的账户并点击`Complete registration`按钮同意协议
