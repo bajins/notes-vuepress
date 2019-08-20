@@ -3,7 +3,7 @@
 ## 目录
 * [域名邮箱](#域名邮箱)
     * [端口](#端口)
-  * [Yandex配置步骤](#yandex配置步骤)
+  * [`Yandex`配置步骤](#yandex配置步骤)
 * [临时邮箱](#临时邮箱)
 * [CentOS7邮件服务器](#centos7邮件服务器)
   * [邮件服务器概述](#邮件服务器概述)
@@ -70,7 +70,7 @@
 >> POP3：`pop.yandex.com:995 SSL`
 >
 
-### Yandex配置步骤
+### `Yandex`配置步骤
 > 注意：如果是添加第二个域名，进入[账户管理页面](https://connect.yandex.com/portal/admin)，
 > 然后点击顶部的域名后弹出下拉菜单有一个`New organization`按钮来添加新域名，然后按照步骤（跳过1、2）操作即可
 
@@ -93,14 +93,18 @@
 - 6、添加邮箱账户：点击 `Все сотрудники`（就是左侧第一个菜单），然后点击页面下方有一个带`+`的`add`按钮，
 再点击`Add a person`，在弹出的页面输入，带`*`的为必填，填完后就点击`橙色的add按钮`
 
-![](/images/yandex-mail-DNS.png)
+![](/images/YandexMailDNS.png)
 
-- 7、发现pop无法使用是怎么回事？后来在 [https://connect.yandex.com/portal/admin/customization/mail](https://connect.yandex.com/portal/admin/customization/mail)
-（就是左侧`Email`菜单）把POP的勾去掉保存，然后再勾上保存就可以用了
-
-- 8、新添加的用户需要去登录一次才能使用，因为首次登陆需要同意一个协议，所以到这里[https://mail.yandex.com](https://mail.yandex.com)
+- 7、新添加的用户需要去登录一次才能使用，因为首次登陆需要同意一个协议，所以到这里[https://mail.yandex.com](https://mail.yandex.com)
 登录刚刚添加的账户并点击`Complete registration`按钮同意协议
 
+- 8、发现pop无法使用是怎么回事？
+> 在 [https://connect.yandex.com/portal/admin/customization/mail](https://connect.yandex.com/portal/admin/customization/mail)
+（就是左侧`Email`菜单）把POP的勾去掉保存，然后再勾上保存
+>
+> 然后登陆邮箱按照下图中步骤操作即可
+
+![](/images/Yandex解决POP3无法收取邮件.png)
 
 ## 临时邮箱
 
