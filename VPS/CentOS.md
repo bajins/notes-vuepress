@@ -9,7 +9,7 @@
   * [RPM安装](#rpm安装)
   * [yum安装](#yum安装)
   * [源码编译安装](#源码编译安装)
-  * [checkinstall](#checkinstall)
+  * [`checkinstall`](#checkinstall)
 * [初次配置](#初次配置)
   * [修改时区为亚洲上海](#修改时区为亚洲上海)
   * [查看系统语言](#查看系统语言)
@@ -25,6 +25,16 @@
   * [更新yum源包](#更新yum源包)
   * [安装必要软件](#安装必要软件)
   * [三方工具](#三方工具)
+* [`systemctl`](#systemctl)
+* [`firewalld`](#firewalld)
+  * [开启端口](#开启端口)
+* [rpm](#rpm)
+  * [查询已安装软件包信息](#查询已安装软件包信息)
+  * [查询已安装软件包安装位置](#查询已安装软件包安装位置)
+  * [查看已安装软件依赖](#查看已安装软件依赖)
+  * [查看已安装软件的配置文件](#查看已安装软件的配置文件)
+  * [查询已经安装文件所属软件包](#查询已经安装文件所属软件包)
+  * [安装软件包数量](#安装软件包数量)
   
 
 
@@ -139,28 +149,28 @@ yum remove 软件名
 ```bash
 find / -name 软件名称
 ```
-### checkinstall
+### `checkinstall`
 
-> 通过checkinstall管理编译安装过程
+> 通过`checkinstall`管理编译安装过程
 
-#### 1、使用checkinstall编译安装
+#### 使用`checkinstall`编译安装
 ```bash
 ./configure
 make
 checkinstall
 ```
 #### CheckInstall会完成以下任务：
-> 调用make install，然后用installwatch监视、记录整个安装过程中添加的文件
+> 调用`make install`，然后用`installwatch`监视、记录整个安装过程中添加的文件
 >
-> 等到安装完成，把记录的文件打包，根据不同的系统创建安装包：.rpm或.deb
+> 等到安装完成，把记录的文件打包，根据不同的系统创建安装包：`.rpm`或`.deb`
 >
 > 注：安装包会保存在源代码目录，以便复制到其它机器安装，省去重复编译的麻烦。
 >
-> 移除make install安装的文件
+> 移除`make install`安装的文件
 >
-> 调用系统安装工具来安装第2步创建的安装包：rpm -i或dpkg -i
+> 调用系统安装工具来安装第2步创建的安装包：`rpm -i`或`dpkg -i`
 
-#### 2、卸载checkinstall安装的软件
+#### 卸载`checkinstall`安装的软件
 ```bash
 CentOS: rpm -e package_name
 Ubuntu: dpkg -r package_name
@@ -477,15 +487,15 @@ firewall-cmd --query-panic
 
 
 ## rpm
-### 查询已安装软件包的信息
+### 查询已安装软件包信息
 ```bash
 rpm -qi 软件名
 ```
-### 查询已安装软件包都安装到何处
+### 查询已安装软件包安装位置
 ```bash
 rpm -ql 软件名
 ```
-### 查看已安装软件所依赖软件包及文件
+### 查看已安装软件依赖
 ```bash
 rpm -qR 软件名
 ```
@@ -497,7 +507,7 @@ rpm -qc 软件名
 ```bash
 rpm -qf 文件名的绝对路径
 ```
-### 共安装了多少个软件包:
+### 安装软件包数量
 ```bash
 rpm -qa | wc -l 
 ```
