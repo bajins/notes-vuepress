@@ -1,16 +1,21 @@
 # Linux命令
 
 ## 目录
+
 * [系统操作](#系统操作)
   * [查看邮箱](#查看邮箱)
   * [用以下命令清理内存](#用以下命令清理内存)
   * [过滤结果](#过滤结果)
 * [定时任务](#定时任务)
-  * [编辑crontab文件.](#编辑crontab文件)
+  * [编辑`crontab`文件.](#编辑crontab文件)
   * [输入定时任务命令.](#输入定时任务命令)
 * [文件和文件夹操作](#文件和文件夹操作)
   * [服务器之间传输文件](#服务器之间传输文件)
   * [scp](#scp)
+    * [命令参数](#命令参数)
+    * [举例](#举例)
+    * [遇到的问题](#遇到的问题)
+    * [脚本](#脚本)
   * [rsync](#rsync)
   * [查找大文件](#查找大文件)
   * [列出目录](#列出目录)
@@ -30,19 +35,6 @@
   * [压缩](#压缩)
     * [tar](#tar)
     * [7zip](#7zip)
-* [systemctl](#systemctl)
-* [防火墙](#防火墙)
-  * [firewalld](#firewalld)
-    * [开启端口](#开启端口)
-      * [命令含义：](#命令含义)
-    * [配置firewalld-cmd](#配置firewalld-cmd)
-* [rpm](#rpm)
-  * [查询已安装软件包的信息](#查询已安装软件包的信息)
-  * [查询已安装软件包都安装到何处](#查询已安装软件包都安装到何处)
-  * [查看已安装软件所依赖软件包及文件](#查看已安装软件所依赖软件包及文件)
-  * [查看已安装软件的配置文件](#查看已安装软件的配置文件)
-  * [查询已经安装文件所属软件包](#查询已经安装文件所属软件包)
-  * [共安装了多少个软件包:](#共安装了多少个软件包)
 * [解决网卡问题](#解决网卡问题)
   * [MTU](#mtu)
   * [查看MTU值](#查看mtu值)
@@ -50,10 +42,10 @@
   * [更改MTU值（永久）](#更改mtu值永久)
   * [重启网络接口](#重启网络接口)
 * [后台运行](#后台运行)
-  * [nohup](#nohup)
+  * [`nohup`](#nohup)
     * [只输出错误信息到日志文件](#只输出错误信息到日志文件)
     * [不输出日志](#不输出日志)
-  * [setsid](#setsid)
+  * [`setsid`](#setsid)
     * [语法](#语法)
   * [screen](#screen)
     * [安装](#安装)
@@ -62,6 +54,7 @@
     * [列出所有的会话列表](#列出所有的会话列表)
     * [恢复会话窗口](#恢复会话窗口)
     * [关闭会话窗口](#关闭会话窗口)
+
 
 
 
@@ -138,9 +131,9 @@ ls -l | grep test | awk '{print $5}' | sed -n '2p'
 
 
 ## 定时任务
-> crontab命令常用于Unix和类Unix的操作系统之中，用于设置周期性被执行的指令
+> `crontab`命令常用于Unix和类Unix的操作系统之中，用于设置周期性被执行的指令
 
-### 编辑crontab文件.
+### 编辑`crontab`文件.
 
 ```bash
 crontab -e
@@ -261,8 +254,10 @@ scp -P 22 -p root@192.168.214.187:/tmp/demo/f3.log /tmp/files/
 #### 遇到的问题
 
 > 输入密码时提示：`Permission denied, please try again.`
+
 - 先修改远程文件夹或文件的权限`chmod -R 777 路径`
 - 修改`PermitRootLogin`允许Root登录
+
 ```bash
 # 编辑sshd_config文件
 vi /etc/ssh/sshd_config
@@ -317,7 +312,8 @@ exit
 >  
 > 【缺点】会耗系统资源，占用I/O
 >  
-> 【用法】rsync是类unix系统下的数据镜像备份工具，从软件的命名上就可以看出来了——remote sync。它的操作方式和scp和相似，但是比scp强大很多。使用双冒号分割主机名和文件路径时，是使用rsync服务器
+> 【用法】rsync是类unix系统下的数据镜像备份工具，从软件的命名上就可以看出来了——remote sync。
+> 它的操作方式和scp和相似，但是比scp强大很多。使用双冒号分割主机名和文件路径时，是使用rsync服务器
 
 ```bash
 # 把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
@@ -429,7 +425,7 @@ dd if=/dev/zero of=test.zip bs=1M count=1000
 dd if=/dev/zero of=test.zip bs=1G count=1
 ```
 ### 删除文件及文件夹
-> rm 命令可以用于删除文件及文件夹，可以同时一个或者多个文件/文件夹，而对于链接文件，只删除链接，不影响原文件。
+> `rm`命令可以用于删除文件及文件夹，可以同时一个或者多个文件/文件夹，而对于链接文件，只删除链接，不影响原文件。
 
 ```bash
 # 删除文件
@@ -465,7 +461,7 @@ find 文件路径 -type f -newermt '起始时间' -a -not -newermt '结束时间
 >
 > `-mtime n`查找系统中最后n*24小时被改变文件数据的文件
 >
-> xargs：读取 stdin, 把格式化的数据传递给命令(用于不支持 “|” 管道来传递参数的命令) 
+> `xargs`：读取`stdin`, 把格式化的数据传递给命令(用于不支持`|`管道来传递参数的命令) 
 
 
 
@@ -649,8 +645,7 @@ tar -zcvf tomcat.tar.gz --exclude=tomcat/logs tomcat
 tar -zcvf tomcat.tar.gz --exclude=tomcat/logs --exclude=tomcat/libs --exclude=tomcat/xiaoshan.txt tomcat
 ```
 
-> 注意：
->> 在使用tar的--exclude命令排除打包时，末尾不能加“/”或者路径为绝对路径，否则还是会把排除目录以及其下的文件打包进去。
+> 注意：在使用`tar`的`--exclude`命令排除打包时，末尾不能加`/`或者路径为绝对路径，否则还是会把排除目录以及其下的文件打包进去。
 
 #### 7zip
 ```bash
@@ -660,136 +655,11 @@ yum –y install p7zip
 7za e 文件名
 # 解压到当前目录下,但保留原来的目录结构
 7za x 文件名
-```
-*********************************************************************************************
-## systemctl
-> systemctl是CentOS7的服务管理工具中主要的工具，它融合之前service和chkconfig的功能于一体。
-```bash
-# 启动一个服务
-systemctl start firewalld.service
 
-# 关闭一个服务
-systemctl stop firewalld.service
-
-# 重启一个服务
-systemctl restart firewalld.service
-
-# 显示一个服务的状态
-systemctl status firewalld.service
-
-# 在开机时启用一个服务
-systemctl enable firewalld.service
-
-# 在开机时禁用一个服务
-systemctl disable firewalld.service
-
-# 查看服务是否开机启动
-systemctl is-enabled firewalld.service
-
-# 查看已启动的服务列表
-systemctl list-unit-files|grep enabled
-
-# 查看启动失败的服务列表
-systemctl --failed
-```
-## 防火墙
-### firewalld
-```bash
-# 查看firewalld状态，发现当前是dead状态，即防火墙未开启。
-systemctl status firewalld
-
-# 开启防火墙，没有任何提示即开启成功。
-systemctl start firewalld
-
-# 查看已开放的端口(默认不开放任何端口)
-firewall-cmd --list-ports
-
-# 重启防火墙
-firewall-cmd --reload
-
-# 停止防火墙
-systemctl stop firewalld.service
-
-# 禁止防火墙开机启动
-systemctl disable firewalld.service
-
-# 删除端口
-firewall-cmd --zone= public --remove-port=80/tcp --permanent
-```
-#### 开启端口
-```bash
-# 开启80端口
-firewall-cmd --zone=public --add-port=80/tcp --permanent
-# 开启8080-8089的IP端
-firewall-cmd --zone=public --add-port=8080-8089/tcp --permanent
-# 开启3306端口
-firewall-cmd --zone=public --add-port=3306/tcp --permanent
-```
-##### 命令含义：
-
-> `--zone` 作用域
->
-> `--add-port=80/tcp` 添加端口，格式为：端口/通讯协议
->
-> `--permanent` 永久生效，没有此参数重启后失效
-
-#### 配置firewalld-cmd
-```bash
-# 查看版本
-firewall-cmd --version
-
-# 查看帮助
-firewall-cmd --help
-
-# 显示状态
-firewall-cmd --state
-
-# 查看所有打开的端口
-firewall-cmd --zone=public --list-ports
-
-# 更新防火墙规则
-firewall-cmd --reload
-
-# 查看区域信息
-firewall-cmd --get-active-zones
-
-# 查看指定接口所属区域
-firewall-cmd --get-zone-of-interface=eth0
-
-# 拒绝所有包
-firewall-cmd --panic-on
-
-# 取消拒绝状态
-firewall-cmd --panic-off
-
-# 查看是否拒绝
-firewall-cmd --query-panic
-```
-----------------------------------------------------------------------
-## rpm
-### 查询已安装软件包的信息
-```bash
-rpm -qi 软件名
-```
-### 查询已安装软件包都安装到何处
-```bash
-rpm -ql 软件名
-```
-### 查看已安装软件所依赖软件包及文件
-```bash
-rpm -qR 软件名
-```
-### 查看已安装软件的配置文件
-```bash
-rpm -qc 软件名
-```
-### 查询已经安装文件所属软件包
-```bash
-rpm -qf 文件名的绝对路径
-```
-### 共安装了多少个软件包:
-```bash
-rpm -qa | wc -l 
+# 用7z压缩成tar
+7za a -ttar 文件名.tar 文件夹
+# 用7z把tar压缩成gz
+7za a -tgzip 文件名.tar.gz 文件名.tar
 ```
 
 
@@ -825,7 +695,7 @@ service network restart
 ```
 
 ## 后台运行
-### nohup
+### `nohup`
 #### 只输出错误信息到日志文件
 ```bash
 nohup python3 ./index.py >/dev/null 2>index.log &
@@ -851,23 +721,23 @@ nohup python3 ./index.py >/dev/null 2>&1 &
 >>Linux下还有一个特殊的文件/dev/null，它就像一个无底洞，所有重定向到它的信息都会消失得无影无踪。
 >> 这一点非常有用，当我们不需要回显程序的所有信息时，就可以将输出重定向到/dev/null。
 
-### setsid
-> setsid 就是 "set session id" 的意思。表示该命令运行的进程是一个新的 session。因此其父进程不属于当前终端。
->实际上 setsid 运行的进程，其父进程 id (ppid) 为 1 (init 进程的 id)。
+### `setsid`
+> `setsid`就是`set session id`的意思。表示该命令运行的进程是一个新的`session`。因此其父进程不属于当前终端。
+> 实际上`setsid`运行的进程，其父进程id(ppid)为1(init进程的id)。
 
 ```bash
 setsid python3 ./index.py >/dev/null 2>&1 &
 ```
 #### 语法
 > `setsid(选项)(参数)`
->> `-c`, --ctty   将控制终端设置为当前控制终端
+>> `-c`, `--ctty` 将控制终端设置为当前控制终端
 >>
->> `-f`, --fork   总是 fork
+>> `-f`, `--fork` 总是 fork
 >>
->> `-w`, --wait   等待程序退出，并使用相同的返回
+>> `-w`, `--wait` 等待程序退出，并使用相同的返回
 
 ### screen
-> Screen 是一款由 GNU 计划开发的用于命令行终端切换的自由软件。
+> `Screen`是一款由 GNU 计划开发的用于命令行终端切换的自由软件。
 > 用户可以通过该软件同时连接多个本地或远程的命令行会话，并在其间自由切换。
 > GNU Screen 可以看作是窗口管理器的命令行界面版本。它提供了统一的管理多个会话的界面和相应的功能。 
 

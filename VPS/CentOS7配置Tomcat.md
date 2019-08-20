@@ -1,4 +1,4 @@
-# CentOS7配置多个Tomcat
+# CentOS7配置Tomcat
 
 ## 目录
 * [安装JDK](#安装JDK)

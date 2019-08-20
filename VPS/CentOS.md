@@ -2,9 +2,8 @@
 
 ## 目录
 
-* [yum源](#yum源)
-  * [Git](#git)
 * [重装系统](#重装系统)
+  * [Network-Reinstall-System-Modify](#network-reinstall-system-modify)
   * [moeclub](#moeclub)
 * [卸载软件](#卸载软件)
   * [RPM安装](#rpm安装)
@@ -21,46 +20,14 @@
   * [`profile`文件](#profile文件)
   * [ssh欢迎信息](#ssh欢迎信息)
 * [`yum`操作](#yum操作)
-  * [安装并启用 EPEL 源](#安装并启用-epel-源)
+  * [安装`EPEL`源](#安装epel源)
+  * [yum源](#yum源)
   * [更新yum源包](#更新yum源包)
-  * [which命令](#which命令)
-  * [安装lrzsz](#安装lrzsz)
-  * [安装make](#安装make)
-  * [gcc](#gcc)
-  * [安装](#安装)
-  * [安装`pcre`重写rewrite](#安装pcre重写rewrite)
-  * [zlib](#zlib)
-  * [7z压缩软件](#7z压缩软件)
-  * [openssl](#openssl)
-  * [`ifconfig` 及 `netstat`](#ifconfig-及-netstat)
-  * [vim](#vim)
-  * [libaio](#libaio)
-* [一条命令安装全部](#一条命令安装全部)
-* [三方工具](#三方工具)
-  * [`figlet`](#figlet)
-  * [`boxes`](#boxes)
-  * [`Toilet`](#toilet)
+  * [安装必要软件](#安装必要软件)
+  * [三方工具](#三方工具)
+  
 
 
-
-## yum源
-### Git
-```bash
-yum install http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
-# 或者
-wget http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
-rpm -ivh wandisco-git-release-7-2.noarch.rpm
-```
-```bash
-curl https://setup.ius.io | sh
-# 或者
-yum install -y epel-release  
-rpm -ivh https://centos7.iuscommunity.org/ius-release.rpm
-# 查看git包版本
-yum list git2u
-# 安装
-yum -y install git2u
-```
 
 
 ## 重装系统
@@ -328,111 +295,58 @@ yum info nginx(查看当前版本可选)
 yum list installed | grep 包名（不支持*）：确认是否安装过包
 ```
 
-### 安装并启用 EPEL 源
+### 安装`EPEL`源
 ```bash
 yum -y install epel-release 
 ```
+
+### yum源
+#### Git
+```bash
+yum install http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
+# 或者
+wget http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
+rpm -ivh wandisco-git-release-7-2.noarch.rpm
+```
+```bash
+curl https://setup.ius.io | sh
+# 或者
+yum install -y epel-release  
+rpm -ivh https://centos7.iuscommunity.org/ius-release.rpm
+# 查看git包版本
+yum list git2u
+# 安装
+yum -y install git2u
+```
+
 ### 更新yum源包
 ```bash
 yum -y update
 ```
-### which命令
 
-> which命令 用于查找并显示给定命令的绝对路径，环境变量PATH中
-保存了查找命令时需要遍历的目录。which指令会在环境变量$PATH设
-置的目录里查找符合条件的文件。也就是说，使用which命令，就可
-以看到某个系统命令是否存在，以及执行的到底是哪一个位置的命令。
-```bash
-yum -y install which
-```
 
-### 安装lrzsz
-> 一款在linux里可代替ftp上传和下载的程序。
-```bash
-yum  -y install lrzsz
-```
-#### 使用命令：
-> 上传：`rz`
->
-> 下载：`sz`
-
-### 安装make
-```bash
-yum -y install gcc automake autoconf libtool make
-```
-
-### gcc
-##### 查看系统是否已安装gcc编译器
-```bash
-gcc -v
-```
-##### gcc升级
-```bash
-yum update gcc
-```
-### 安装
-> g++编译环境gcc-g++开发库
-
-```bash
-yum -y install gcc gcc-c++
-```
-### 安装`pcre`重写rewrite
-```bash
-yum -y install pcre
-```
-### zlib
-```bash
-yum -y install zlib
-```
-### 7z压缩软件
-```bash
-yum -y install p7zip
-```
-#### 常用命令
-
-> `7za e 文件名`   解压到当前目录下,不保留原来的目录结构
->
-> `7za x 文件名`   解压到当前目录下,但保留原来的目录结构
-
-### openssl
-```bash
-yum -y install openssl
-```
-### `ifconfig` 及 `netstat`
-```bash
-yum -y install net-tools
-```
-### vim
-```bash
-yum -y install vim
-```
-### libaio
-```bash
-yum -y install libaio
-```
-
-## 一条命令安装全部
+### 安装必要软件
 ```bash
 yum install -y which gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-devel lrzsz lrzsz-devel p7zip p7zip-devel net-tools net-tools-devel vim vim-devel libaio libaio-devel
 ```
 
-## 三方工具
+### 三方工具
 
-### `figlet`
-> Linux下的命令行工具，我们经常会看到一些终端工具有一个字符Logo,这些Logo可以通过Figlet生成：
+#### `figlet`
+> Linux下的命令行工具，我们经常会看到一些终端工具有一个字符Logo,这些Logo可以通过`Figlet`生成：
 ```bash
 yum install -y figlet
 ```
 > 居中显示用 `-c`
 >
 > 从文件导入用 `-p`
->> 比如从testfile导入`figlet -c -p < testfile`
+>> 比如从testFile导入`figlet -c -p < testFile`
 >
 > 还可以用`-w`指定宽度。
 >
 > 实时显示时间`watch -n1 "date '+%D%n%T' |figlet -k"`
 
-### `boxes`
+#### `boxes`
 > 这个工具提供了 n 种样式，例如各种动物等，然后你输入的字符就放在这些图案的内部空白处。
 ```bash
 yum -y install boxes
@@ -443,7 +357,7 @@ echo [text] | boxes -d [style name]
 # 比如dog
 echo "Hello World" | boxes -d dog
 ```
-### `Toilet`
+#### `Toilet`
 > 可以输出更丰富的样式，它比 `figlet` 命令的效果更有艺术感。
 
 ```bash
@@ -454,3 +368,136 @@ toilet -f mono12 -F metal Linux
 while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done
 ```
 
+
+
+
+## `systemctl`
+> `systemctl`是`CentOS7`的服务管理工具中主要的工具，它融合之前`service`和`chkconfig`的功能于一体。
+```bash
+# 启动一个服务
+systemctl start firewalld.service
+
+# 关闭一个服务
+systemctl stop firewalld.service
+
+# 重启一个服务
+systemctl restart firewalld.service
+
+# 显示一个服务的状态
+systemctl status firewalld.service
+
+# 在开机时启用一个服务
+systemctl enable firewalld.service
+
+# 在开机时禁用一个服务
+systemctl disable firewalld.service
+
+# 查看服务是否开机启动
+systemctl is-enabled firewalld.service
+
+# 查看已启动的服务列表
+systemctl list-unit-files|grep enabled
+
+# 查看启动失败的服务列表
+systemctl --failed
+```
+
+## `firewalld`
+```bash
+# 查看firewalld状态，发现当前是dead状态，即防火墙未开启。
+systemctl status firewalld
+
+# 开启防火墙，没有任何提示即开启成功。
+systemctl start firewalld
+
+# 查看已开放的端口(默认不开放任何端口)
+firewall-cmd --list-ports
+
+# 重启防火墙
+firewall-cmd --reload
+
+# 停止防火墙
+systemctl stop firewalld.service
+
+# 禁止防火墙开机启动
+systemctl disable firewalld.service
+
+# 删除端口
+firewall-cmd --zone= public --remove-port=80/tcp --permanent
+```
+### 开启端口
+```bash
+# 开启80端口
+firewall-cmd --zone=public --add-port=80/tcp --permanent
+# 开启8080-8089的IP端
+firewall-cmd --zone=public --add-port=8080-8089/tcp --permanent
+# 开启3306端口
+firewall-cmd --zone=public --add-port=3306/tcp --permanent
+```
+##### 命令含义：
+
+> `--zone` 作用域
+>
+> `--add-port=80/tcp` 添加端口，格式为：端口/通讯协议
+>
+> `--permanent` 永久生效，没有此参数重启后失效
+
+#### 配置`firewalld-cmd`
+```bash
+# 查看版本
+firewall-cmd --version
+
+# 查看帮助
+firewall-cmd --help
+
+# 显示状态
+firewall-cmd --state
+
+# 查看所有打开的端口
+firewall-cmd --zone=public --list-ports
+
+# 更新防火墙规则
+firewall-cmd --reload
+
+# 查看区域信息
+firewall-cmd --get-active-zones
+
+# 查看指定接口所属区域
+firewall-cmd --get-zone-of-interface=eth0
+
+# 拒绝所有包
+firewall-cmd --panic-on
+
+# 取消拒绝状态
+firewall-cmd --panic-off
+
+# 查看是否拒绝
+firewall-cmd --query-panic
+```
+
+
+## rpm
+### 查询已安装软件包的信息
+```bash
+rpm -qi 软件名
+```
+### 查询已安装软件包都安装到何处
+```bash
+rpm -ql 软件名
+```
+### 查看已安装软件所依赖软件包及文件
+```bash
+rpm -qR 软件名
+```
+### 查看已安装软件的配置文件
+```bash
+rpm -qc 软件名
+```
+### 查询已经安装文件所属软件包
+```bash
+rpm -qf 文件名的绝对路径
+```
+### 共安装了多少个软件包:
+```bash
+rpm -qa | wc -l 
+```
