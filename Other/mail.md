@@ -1,5 +1,36 @@
 # 邮箱
 
+## 目录
+* [域名邮箱](#域名邮箱)
+    * [端口](#端口)
+  * [Yandex配置步骤](#yandex配置步骤)
+* [临时邮箱](#临时邮箱)
+* [CentOS7邮件服务器](#centos7邮件服务器)
+  * [邮件服务器概述](#邮件服务器概述)
+    * [流程](#流程)
+  * [安装](#安装)
+    * [设置域名解析](#设置域名解析)
+    * [卸载`sendmail`](#卸载sendmail)
+    * [安装`Postfix`和`Dovecot`](#安装postfix和dovecot)
+    * [查看版本](#查看版本)
+    * [修改邮件传输代理](#修改邮件传输代理)
+    * [查看是否修改成功](#查看是否修改成功)
+    * [修改`Postfix`配置](#修改postfix配置)
+      * [查看配置](#查看配置)
+      * [编辑配置](#编辑配置)
+      * [修改以下内容](#修改以下内容)
+      * [在文件结尾加入](#在文件结尾加入)
+    * [修改`Dovecot`配置](#修改dovecot配置)
+    * [修改防火墙配置](#修改防火墙配置)
+    * [配置用户及权限](#配置用户及权限)
+    * [启动服务](#启动服务)
+  * [测试](#测试)
+    * [使用`mail`测试发信](#使用mail测试发信)
+    * [安装`telnet`](#安装telnet)
+
+
+
+
 [测试邮箱](https://www.mail-tester.com/)
 
 ## 域名邮箱
@@ -82,3 +113,334 @@
 [shorttimemail](https://shorttimemail.com/zh-Hans)
 
 [linshiyouxiang](https://www.linshiyouxiang.net/)
+
+
+
+## CentOS7邮件服务器
+
+### 邮件服务器概述
+
+- `MUA`：`Mail User Agent`，邮件用户代理
+> 接收邮件所使用的邮件客户端，使用`IMAP`或`POP3`协议与服务器通信；
+>
+> 如：`Outlook`、`Foxmail`、`thunderbird`、`Mac Mail`、`mutt`
+
+- `MTA`：`Mail Transfer Agent`，邮件传输代理代为传递
+> 通过`SMTP`协议发送、转发邮件；
+>
+> 如：`Sendmail`、`Postfix`
+
+- `MDA`：`Mail Delivery Agent`，邮件投递代理
+> 将`MTA`接收到的邮件保存到磁盘或指定地方，通常会进行垃圾邮件及病毒扫描；
+>
+> 如：`procmail`、`dropmail`
+
+- `MRA`：`Mail Receive Agent`，邮件接收代理
+> 负责实现`IMAP`与`POP`3协议，与`MUA`进行交互；
+>
+> 如：`dovecot`
+
+- `SMTP`：`Simple Mail Transfer Protocol`，传输发送邮件所使用的标准协议；
+
+- `IMAP`：`Internet Message Access Protocol`，接收邮件使用的标准协议之一；
+
+- `POP3`：`Post Office Protocol 3`，接收邮件使用的标准协议之一。
+
+#### 流程
+> 邮件服务器基本都有`MTA`，`MDA`，`MRA`组成
+
+> `MUA`(发件人发送) --> (若干个)`MTA` --> `MDA` --> `MRA` <–- `MUA`(收件人收取)
+
+> 协议：`MUA`到`MTA`，以及`MTA`到`MTA`之间使用`SMTP`协议，而收邮件时，`MUA`到`MDA`之间使用`POP3`或`IMAP`协议。
+
+* 一、用户利用`MUA`寄信到`MTA`。配置`MUA`时要配上`SMTP`服务器域名,然后发送邮件。
+> 比如使用网易账户发送邮件就要在配置`smtp.163.com`,这样邮件就发送到网易`MTA`。
+
+* 二、 `MTA`检查收件人服务器如果不是自己则传递到下一跳`MTA`，直到传递到目的`MTA`。
+
+* 三、 目的`MTA`收到邮件后将邮件存储到`MDA`中，`MDA`对邮件进行垃圾过滤，病毒查杀。
+
+* 四、 `MRA`把邮件从`MDA`收取到用户的收件箱中。
+
+* 五、 `MUA`收取邮件，此时收取邮件只是将`MRA`中的邮件下载到本地。
+
+
+### 安装
+
+[https://tourcoder.com/install-postfix-on-centos-7/](https://tourcoder.com/install-postfix-on-centos-7/)
+
+#### 设置域名解析
+| 记录类型 | 主机记录 | 解析线路(isp) | 记录值 | MX优先级 | TTL值 |
+|------|------|-----------|------------------|-------|-------|
+| A    | mail | 默认        | 服务器IP地址  | –     | 10 分钟 |
+| MX   | @    | 默认        | mail.域名 | 10    | 10 分钟 |
+
+
+
+#### 卸载`sendmail`
+```bash
+yum remove -y sendmail
+```
+
+#### 安装`Postfix`和`Dovecot`
+
+```bash
+yum install -y postfix dovecot
+```
+#### 查看版本
+```bash
+rpm -qa | grep "postfix\|dovecot"
+# 或者
+rpm -qa | grep -e postfix -e dovecot
+# 或者
+rpm -qa | grep -E "postfix|dovecot"
+# 或者
+rpm -qa | egrep "postfix|dovecot"
+# 或者
+rpm -qa | awk "/postfix|dovecot/"
+```
+
+#### 修改邮件传输代理
+```bash
+alternatives --config mta
+# 或者先查看邮件传输代理程序，再设置
+/usr/sbin/alternatives --set mta /usr/sbin/sendmail.postfix
+```
+
+> 会提示找到几个可用程序，输入自己需要的那个程序的数字即可
+
+#### 查看是否修改成功
+
+```bash
+alternatives --display mta
+```
+
+> 第一行显示`mta - status is manual.`则表示设置成功
+
+#### 修改`Postfix`配置
+
+[http://blog.leanote.com/post/colin_xia@yeah.net/postfix-官方文档笔记](http://blog.leanote.com/post/colin_xia@yeah.net/postfix-官方文档笔记)
+
+[https://www.cnblogs.com/operationhome/p/9056870.html](https://www.cnblogs.com/operationhome/p/9056870.html)
+
+> 在`main.cf`中配置的值会自动分散到多个指定的配置文件中去
+
+##### 查看配置
+```bash
+# 输出所有postfix配置项以及默认值
+postconf
+# 不输出#开头和空行
+grep -v '^#\|^$' /etc/postfix/main.cf
+```
+
+##### 编辑配置
+
+```bash
+vi /etc/postfix/main.cf
+```
+
+##### 修改以下内容
+
+```vim
+# 75行:主机名
+myhostname = mail.example.com
+# 83行:设置本地网络的邮件域
+mydomain = example.com
+# 99行:要外发邮件时发件人的邮件域名，这里取的mydomain变量值
+myorigin = $mydomain
+# 116行:默认是localhost，修改成all，即监听所有网络接口
+inet_interfaces = all
+# 119行:网络协议 ipv6、ipv4或者all
+inet_protocols = all
+# 164行:设置可接收邮件的主机名或域名，来自其他主机名或域名的邮件将拒绝接收
+mydestination = $myhostname, localhost.$mydomain, localhost, $mydomain
+# 210行:制定接收邮件的规则，可以是hash文件，可以直接注释
+local_recipient_maps =
+# 264行:收发客户端的地址
+mynetworks = 0.0.0.0/0
+# 296行:设置可转发来自哪些域名或主机名的邮件
+relay_domains = $mydestination
+# 419行:邮件存储的位置
+home_mailbox = Maildir/
+# 572行:指定MUA通过smtp连接postfix时返回的header头信息，定义欢迎信息
+smtpd_banner = $myhostname ESMTP $mail_name
+```
+
+##### 在文件结尾加入
+
+```vim
+# 启用SMTP认证
+smtpd_sasl_type = dovecot
+# 
+smtpd_sasl_path = /var/spool/postfix/private/auth
+# 指定postfix使用sasl验证：就是启用smtp并要求进行账号、密码效验
+smtpd_sasl_auth_enable = yes
+# 指定SMTP认证的本地域名：可以使用''或注释掉，默认为空
+smtpd_sasl_local_domain = $myhostname
+# 支持非标准验证规定的行为，
+# 指定postfix兼容MUA使用不规则的smtp协议，主要针对老版本的outlook
+broken_sasl_auth_clients = yes
+# 当客户端引发错误时,postfix的初始等待时间 
+smtpd_error_sleep_time = 0s
+# 收件人限制条件
+smtpd_recipient_restrictions = permit_mynetworks,permit_sasl_authenticated,reject_unauth_destination,reject_unknown_sender_domain
+# 客户端限制
+smtpd_client_restrictions = permit_sasl_authenticated
+# 取消smtp的匿名登录
+smtpd_sasl_security_options = noanonymous
+# 
+proxy_read_maps = $local_recipient_maps $mydestination $virtual_alias_maps $virtual_alias_domains $virtual_mailbox_maps $virtual_mailbox_domains $relay_recipient_maps $relay_domains $canonical_maps $sender_canonical_maps $recipient_canonical_maps $relocated_maps $transport_maps $mynetworks
+# 指定通过postfix发送邮件的体积大小，此处表示5M
+message_size_limit = 5242880
+```
+
+> `smtpd_recipient_restrictions`（收件人限制）有以下可用值：
+>> `permit_mynetworks`允许本地的网络接收
+>>
+>> `permit_sasl_authenticated`允许通过`SASL`验证的用户（也就是`smtp`链接时通过了账号、密码效验的用户）的所有用户
+>>
+>> `reject_unauth_destination`拒绝无法认证的目的地
+
+#### 修改`Dovecot`配置
+
+```bash
+vi /etc/dovecot/dovecot.conf
+```
+
+```vim
+auth_mechanisms = plain login
+base_dir = /var/run/dovecot/
+debug_log_path = /var/log/dovecot_debug.log
+disable_plaintext_auth = no
+first_valid_uid = 1000
+info_log_path = /var/log/dovecot_info.log
+login_trusted_networks = 0.0.0.0/0
+mail_location = mbox:~/mail:INBOX=/var/mail/%u
+mbox_write_locks = fcntl
+namespace inbox {
+  inbox = yes
+  location = mbox:~/mail:INBOX=/var/mail/%u
+  mailbox Drafts {
+    special_use = \Drafts
+  }
+  mailbox Junk {
+    special_use = \Junk
+  }
+  mailbox Sent {
+    special_use = \Sent
+  }
+  mailbox "Sent Messages" {
+    special_use = \Sent
+  }
+  mailbox Trash {
+    special_use = \Trash
+  }
+  prefix =
+}
+passdb {
+  args = dovecot
+  driver = pam
+}
+service auth {
+  unix_listener /var/spool/postfix/private/auth {
+    mode = 0666
+    user = postfix
+  }
+  unix_listener auth-userdb {
+    group = noreply
+    mode = 0666
+    user = noreply
+  }
+}
+service imap-login {inet_listener imap {
+    port = 143
+  }
+}
+service pop3-login {
+  inet_listener pop3 {
+    port = 110
+  }
+}
+ssl = no
+ssl_cert = </etc/pki/dovecot/certs/dovecot.pem
+ssl_key = </etc/pki/dovecot/private/dovecot.pem
+userdb {
+  driver = passwd
+}
+```
+> 其实上面的配置文件并非一个，而是修改了`/etc/dovecot/conf.d`文件夹下的以下几个文件
+>> `10-auth.conf`
+>>
+>> `10-ssl.conf`
+>>
+>> `10-mail.conf`
+>>
+>> `10-master.conf`
+>>
+>> `10-logging.conf`
+
+> 修改完成以后使用`doveconf -n > dovecot-new.conf`命令生成一个全新的综合的配置文件。
+
+#### 修改防火墙配置
+
+```bash
+firewall-cmd --zone=public --permanent --add-service=imap
+firewall-cmd --zone=public --permanent --add-service=smtp
+firewall-cmd --zone=public --permanent --add-service=pop3
+firewall-cmd --zone=public --add-port=25/tcp --permanent
+firewall-cmd --zone=public --add-port=25/udp --permanent
+firewall-cmd --zone=public --add-port=110/tcp --permanent
+firewall-cmd --zone=public --add-port=110/udp --permanent
+firewall-cmd --zone=public --add-port=143/tcp --permanent
+firewall-cmd --zone=public --add-port=143/udp --permanent
+firewall-cmd --reload
+```
+
+#### 配置用户及权限
+
+```bash
+# 添加用户
+useradd 用户名
+# 设置密码
+echo "密码" | passwd --stdin 用户名
+# 授权
+sudo chmod 0775 /var/spool/mail/*
+```
+
+#### 启动服务
+
+```bash
+# 开启postfix服务
+systemctl enable postfix
+# 设置postfix开机启动
+chkconfig postfix on
+# 开启dovecot服务
+systemctl enable dovecot
+# 设置dovecot开机启动
+chkconfig dovecot on
+# 重启postfix/dovecot
+systemctl restart postfix/dovecot
+# 查看postfix/dovecot状态
+systemctl status postfix/dovecot
+```
+
+### 测试
+
+#### 使用`mail`测试发信
+
+> 未做明确配置时，`mail`默认将本机作为发信、收信的服务器，所以此步骤中的测试操作在邮件服务器本机完成。
+
+```bash
+echo "邮件内容" | mail -s "邮件主题" -r 发送人邮件地址 接收人邮件地址
+```
+
+#### 安装`telnet`
+```bash
+yum install -y telnet
+```
+
+```bash
+telnet 域名 25
+```
+
+
