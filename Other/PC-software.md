@@ -3,7 +3,6 @@
 
 [基于axel-webm的优化项目. 通过webui调用axel进行下载. 支持http与ftp下载, 支持多线程加速百度云下载](https://github.com/lihaoyun6/axeldown-core)
 
-
 [ex-baiduyunpan==百度云盘、百度云盘企业版解除大文件限制，批量复制链接](https://github.com/gxvv/ex-baiduyunpan)
 
 [proxyee-down==http下载工具，基于http代理，支持多连接分块下载](https://github.com/monkeyWie/proxyee-down)
@@ -39,3 +38,24 @@
 
 [推荐：Windows剪贴板工具Ditto](https://ditto-cp.sourceforge.io/)
 
+
+### 播放器
+
+* [foobar2000](http://blog.sina.com.cn/go2spa)
+* [Daum PotPlayer](http://daumpotplayer.com/download/)
+* [Global Potplayer](http://potplayer.daum.net/?lang=zh_CN)
+
+
+
+### 压缩
+
+* [Bandizip](https://www.bandisoft.com/bandizip/)
+* [PeaZip](https://www.peazip.org/)
+
+### 文本编辑器
+
+* [Notepad++](https://notepad-plus-plus.org/)
+* [Notepad3](https://github.com/rizonesoft/Notepad3)
+* [Notepad2官方版](http://www.flos-freeware.ch/notepad2.html)
+* [notepad2](https://github.com/zufuliu/notepad2)
+* [Notepad2e](https://github.com/ProgerXP/Notepad2e)
