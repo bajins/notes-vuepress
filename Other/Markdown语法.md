@@ -1,7 +1,3 @@
----
-sidebar: auto
----
-
 # Markdown语法
 
 README
