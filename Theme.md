@@ -71,3 +71,5 @@
 [index.vue#L74](https://github.com/woytu/UseNotes-vuepress/blob/1c1da3b345ef54a38c798d37198f1fac1c6f3692/.vuepress/theme/components/Valine/index.vue#L74)
 
 [wrapper.styl#L2-L3](https://github.com/woytu/UseNotes-vuepress/blob/2552a64d889a50aee0bdef057f6b163efdbccb08/.vuepress/theme/styles/wrapper.styl#L2-L3)
+
+[wrapper.styl#L6-L7](https://github.com/woytu/UseNotes-vuepress/blob/a94627c1456f35c3b9d8c83de929b7b67b7b53d6/.vuepress/theme/styles/wrapper.styl#L6-L7)
