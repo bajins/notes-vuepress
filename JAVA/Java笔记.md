@@ -8,9 +8,13 @@
     * [`java.util.Date`类](#javautildate类)
     * [`java.text.SimpleDateFormat`类](#javatextsimpledateformat类)
     * [`java.util.Calendar`日历类](#javautilcalendar日历类)
+      * [常用方法](#常用方法)
     * [Java获取当前时间加减](#java获取当前时间加减)
     * [获取一天的开始时间和结束时间](#获取一天的开始时间和结束时间)
   * [JDK8日期时间API](#jdk8日期时间api)
+    * [`java.time`的基础包](#javatime的基础包)
+    * [新的`java.time`包含了如下子类](#新的javatime包含了如下子类)
+    * [`Date`和`LocalDate`相互转换](#date和localdate相互转换)
 * [BigDecimal](#bigdecimal)
 * [DecimalFormat](#decimalformat)
 * [RoundingMode](#roundingmode)
@@ -18,6 +22,9 @@
 * [spring](#spring)
 
 
+
+
+[https://www.yiibai.com/html/java/](https://www.yiibai.com/html/java/)
 
 
 ## 时间
@@ -33,22 +40,22 @@ public static native long currentTimeMillis();
 > 时间戳
 
 #### `java.util.Date`类
-> 两个构造器
->> `new Date();` 当前时间
->>
->> `new Date(Long 毫秒数)` 根据毫秒数创建指定日期
+- 两个构造器
+> `new Date();` 当前时间
+>
+> `new Date(Long 毫秒数)` 根据毫秒数创建指定日期
 
-> 两个方法的使用
->> `toString(`)` 显示当前的年,月,日,时,分,秒
->>
->> `getTime()` 获取当前date对象的对应的毫秒数(时间戳)
+- 两个方法的使用
+> `toString(`)` 显示当前的年,月,日,时,分,秒
+>
+> `getTime()` 获取当前date对象的对应的毫秒数(时间戳)
 
-> `java.util.Date`和`java.sql.Date`互相转换
->> `Date date = new java.sql.Date()`
->>
->> `java.sql.Date date2 = (java.sql.Date) date;`
->>
->> `java.sql.Date date3 = new java.sql.Date(new Date().getTime());`
+- `java.util.Date`和`java.sql.Date`互相转换
+> `Date date = new java.sql.Date()`
+>
+> `java.sql.Date date2 = (java.sql.Date) date;`
+>
+> `java.sql.Date date3 = new java.sql.Date(new Date().getTime());`
 
 
 #### `java.text.SimpleDateFormat`类
@@ -59,10 +66,10 @@ public static native long currentTimeMillis();
 > `parse()` 方法 将字符串解析成时间
 
 #### `java.util.Calendar`日历类
-> 获取Calendar的实例
->> 使用其子类`GregorianCalendar`的对象
->>
->> 使用`Calendar.getInstance()`
+- 获取`Calendar`的实例
+> 使用其子类`GregorianCalendar`的对象
+>
+> 使用`Calendar.getInstance()`
 
 ##### 常用方法
 - `set()`
@@ -152,45 +159,66 @@ public static Date toDayEnd(Date date) {
 >
 > 线程不安全的,不能处理闰秒等
 >
-> Java8吸收了`Joda-Time`精华,开启了新的API,新的`java.time`包含了如下子类
->> 本地日期`LocalDate`
->>
->> 本地时间`LocalTime`
->>
->> 本地日期时间`LocalDateTime`
->>
->> 时区`ZonedDateTime`
->>
->> 持续时间`Duration`
+> Java8吸收了`Joda-Time`精华,开启了新的API
 
-> JDK8的新日期的API
->> `java.time` -包含值对象的基础包
->>
->> `java.time.chrono` - 提供不同日历系统的访问
->>
->> `java.time.format` - 格式化和解析时间和日期
->>
->> `java.time.temporal` - 包含底层框架和扩展特性
->>
->> `java.time.zone` - 包含时区支持的类
 
-> 其他API
->> `ZoneId`：该类包含了所有的时区信息,一个时区的Id,如`Europe/Paris`
->>
->> `ZoneDateTime`：一个在`ISO-8601`日历系统时区的时间
->>> 其中每个时区都有对应的Id,每个地区Id都有"{区域}/{城市}" 例如 Asia/Shanghai等
->>
->> `Clock`：使用时区提供的当前及时,日期和时间的访问的时钟
->>
->> `Duration`：持续时间,用于计算两个"时间"的间隔
->>
->> `Period`：日期间隔,用于计算两个"日期"的间隔
->>
->> `TemporalAdjuster`：时间校正器
->>
->> `TemporalAdjusters`：通过该类的静态方法(`firstDayOfXxx()`/`lastDayOfXxx()`/`nextXxx()`)提供大量的常用`TemporalAdjuster`的实现
+#### `java.time`的基础包
+| java.time           | 包含值对象的基础包   |
+|---------------------|-------------|
+| java.time.chrono    | 提供不同日历系统的访问 |
+| java.time.format    | 格式化和解析时间和日期 |
+| java.time.temporal  | 包含底层框架和扩展特性 |
+| java.time.zone      | 包含时区支持的类    |
 
-[https://blog.csdn.net/qq_25373015/article/details/89311089](https://blog.csdn.net/qq_25373015/article/details/89311089)
+#### 新的`java.time`包含了如下子类
+| 类             |  作用                                       | 说明                                                                                      |
+|---------------|-------------------------------------------|-----------------------------------------------------------------------------------------|
+| Instant       |  表示时刻                                     |  对应jdk7之前的Date                                                                          |
+| LocalDateTime |  获取当前系统的日期时间(内部不记录时区)                     |  可以认为由LocalDate和LocalTime组成                                                             |
+| LocalDate     |  获取当前系统的日期                                |                                                                                         |
+| LocalTime     |  获取当前系统的时间                                |                                                                                         |
+| ZoneId        |  时区，"5:00"和"Europe/Paris"、"Asia/Shanghai" |  ZoneId除了处理与标准时间的时间差还处理地区时（夏令时，冬令时等）                                                    |
+| ZoneOffset    |  时区，只处理 "6:00"                            |  ZoneOffset是ZoneId的子类                                                                   |
+| ZoneDateTime  |  一个在ISO-8601日历系统时区的日期和时间                  | LocalDateTime内部不记录时区,ZoneDateTime记录，其中每个时区都有对应的Id,每个地区Id都有"{区域}/{城市}" 例如 Asia/Shanghai等 |
+| ZonedDateTime | 处理日期和时间与相应的时区                             |
+| Duration      | 持续时间,用于计算两个"时间"的间隔                        |
+| Period        | 日期间隔,用于计算两个"日期"的间隔                        |
+| Clock         | 使用时区提供对当前即时，日期和时间的访问                      |
+
+
+
+#### `Date`和`LocalDate`相互转换
+- `Date`转`LocalDate`
+```java
+Date date = new Date();
+Instant instant = date.toInstant();
+// 系统默认时区
+//ZoneId zoneId = ZoneId.systemDefault();
+// 亚洲上海时区
+ZoneId zoneId = ZoneId.of("Asia/Shanghai");
+
+// atZone()方法返回在指定时区从此Instant生成的ZonedDateTime。
+LocalDate localDate = instant.atZone(zoneId).toLocalDate();
+// 或者
+LocalDateTime localDateTime = LocalDateTime.ofInstant(instant, zoneId);
+LocalDate localDate = localDateTime.toLocalDate();
+// 转LocalTime
+LocalTime localTime = localDateTime.toLocalTime();
+```
+
+- `LocalDate`转`Date`
+
+```java
+LocalDate localDate = LocalDate.now();
+ZoneId zoneId = ZoneId.of("Asia/Shanghai");
+// 使用ZonedDateTime将LocalDate转换为Instant。
+Instant instant = localDate.atStartOfDay(zoneId).toInstant();
+// 使用from()方法从Instant对象获取Date的实例
+Date date = Date.from(instant);
+// LocalDateTime转Date
+Instant instant = localDateTime.atZone(zoneId).toInstant();
+Date date = Date.from(instant);
+```
 
 
 

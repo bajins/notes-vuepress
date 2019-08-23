@@ -1,4 +1,6 @@
-# VisualStudioCode
+# VSCode
+
+> VisualStudioCode
 
 ## 目录
 
