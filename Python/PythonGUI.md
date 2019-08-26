@@ -17,16 +17,17 @@
 
 * [http://thisis.yorven.site/blog/index.php/2017/09/16/wxpython-jiaocheng-yi/](http://thisis.yorven.site/blog/index.php/2017/09/16/wxpython-jiaocheng-yi/)
 * [https://github.com/necan/wxPython-tutorial/blob/master/1.%E4%BB%8B%E7%BB%8D.md](https://github.com/necan/wxPython-tutorial/blob/master/1.%E4%BB%8B%E7%BB%8D.md)
-* [WxPython教程](https://www.yiibai.com/wxpython)
-* [WxPython控件](http://xoomer.virgilio.it/infinity77/wxPython/widgets.html)
-
-* [https://www.jianshu.com/p/a3803f130c99](https://www.jianshu.com/p/a3803f130c99)
-* [https://blog.csdn.net/mist99/article/details/80742548](https://blog.csdn.net/mist99/article/details/80742548)
-* [https://blog.csdn.net/xufive/article/details/82665460](https://blog.csdn.net/xufive/article/details/82665460)
-* [https://blog.csdn.net/u014647208/article/details/77895274](https://blog.csdn.net/u014647208/article/details/77895274)
-
 * [https://jusene.github.io/2017/12/26/wxpython/](https://jusene.github.io/2017/12/26/wxpython/)
 * [http://www.17python.com/?c=9](http://www.17python.com/?c=9)
+* [WxPython教程](https://www.yiibai.com/wxpython)
+
+
+
+- [https://www.jianshu.com/p/a3803f130c99](https://www.jianshu.com/p/a3803f130c99)
+- [https://blog.csdn.net/mist99/article/details/80742548](https://blog.csdn.net/mist99/article/details/80742548)
+- [https://blog.csdn.net/xufive/article/details/82665460](https://blog.csdn.net/xufive/article/details/82665460)
+- [https://blog.csdn.net/u014647208/article/details/77895274](https://blog.csdn.net/u014647208/article/details/77895274)
+
 
 > `wx.Window` 是一个基类，许多构件从它继承。包括`wx.Frame`构件。可以在所有的子类中使用`wx.Window`的方法。
 >
@@ -51,6 +52,157 @@
 * `wx.PaintEvent`:当窗口内容被重画时触发。
 * `wx.SizeEvent`:窗口大小或布局改变时触发。
 * `wx.TimerEvent`:由类wx.Timer创建，定期事件。
+
+### `style`样式常量
+#### Frame
+| 参数                       | 描述      | 说明 |
+|--------------------------|---------|----|
+| wx.DEFAULT_FRAME_STYLE   | 默认的框架样式 |
+| wx.CAPTION               | 标题      |
+| wx.MINIMIZE_BOX          | 缩小      |
+| wx.MAXIMIZE_BOX          | 放大      |
+| wx.CLOSE_BOX             | 关闭      |
+| wx.SYSTEM_MENU           | 系统菜单    |
+| wx.RESIZE_BORDER         | 恢复窗口大小  |
+| wx.STAY_ON_TOP           | 固定不能移动  |
+| wx.FRAME_FLOAT_ON_PARENT |
+
+
+#### StaticText
+| 参数                     | 描述                          | 说明 |
+|------------------------|-----------------------------|----|
+| wx.ALIGN_LEFT          | 控制标签的大小及对齐                  |
+| wx.ALIGN_RIGHT         | 控制标签的大小及对齐                  |
+| wx.ALIGN_CENTER        | 控制标签的大小及对齐                  |
+| wx.ST_NO_AUTORESIZE    | 防止标签的自动调整大小                 |
+| wx.ST_ELLIPSIZE_START  | 省略号(...)显示在开始，如果文本的大小大于标签尺寸 |
+| wx.ST_ELLIPSIZE_MIDDLE | 省略号(...)显示在中间，如果文本的大小大于标签尺寸 |
+| wx.ST_ELLIPSIZE_END    | 省略号(...)显示在结尾，如果文本的大小大于标签尺寸 |
+
+
+
+#### Font
+| 参数                   | 描述              | 说明           |
+|----------------------|-----------------|--------------|
+| Wx.FONTSTYLE_NORMAL  | 字体绘制不使用倾斜       | fontfamiy参数  |
+| wx.FONTSTYLE_ITALIC  | 字体是斜体           | fontfamiy参数  |
+| wx.FONTSTYLE_SLANT   | 字体是倾斜的，但以罗马风格形式 | fontfamiy参数  |
+| Wx.FONTWEIGHT_NORMAL | 普通字体            | fontweight参数 |
+| wx.FONTWEIGHT_LIGHT  | 高亮字体            | fontweight参数 |
+| wx.FONTWEIGHT_BOLD   | 粗体              | fontweight参数 |
+
+
+
+#### TextCtrl
+| 参数              | 描述                              | 说明 |
+|-----------------|---------------------------------|----|
+| wx.TE_MULTILINE | 文本控件允许多行，如果未指定该样式，换行字符不应该在控件中使用 |
+| wx.TE_PASSWORD  | 文本将回显星号                         |
+| wx.TE_READONLY  | 文本将不可编辑                         |
+| wx.TE_LEFT      | 在控件中的文本将左对齐                     |
+| wx.TE_CENTER    | 在控件中的文本将居中对齐                    |
+| wx.TE_RIGHT     | 在控件中的文本将居右对齐                    |
+
+
+
+#### CheckBox
+| 参数             | 描述              | 说明 |
+|----------------|-----------------|----|
+| wx.CHK_2STATE  | 创建两个状态复选框，默认    |
+| wx.CHK_3STATE  | 创建三态复选框         |
+| wx.ALIGN_RIGHT | 把一个盒子标签放在复选框的左侧 |
+
+
+
+#### ComboBox
+| 参数             | 描述          | 说明 |
+|----------------|-------------|----|
+| wx.CB_SIMPLE   | 组合框与永久显示的列表 |
+| wx.CB_DROPDOWN | 组合框与下拉列表    |
+| wx.CB_READONLY | 选择的项目是不可编辑  |
+| wx.CB_SORT     | 列表显示按字母顺序   |
+
+
+
+#### Guage
+| 参数               | 描述                  | 说明 |
+|------------------|---------------------|----|
+| wx.GA_HORIZONTAL | 进度条的横向布局            |
+| wx.GA_VERTICAL   | 进度条的垂直布局            |
+| wx.GA_SMOOTH     | 平滑的进度条使用一个像素宽度的更新步骤 |
+| wx.GA_TEXT       | 显示当前值在百分比形式         |
+
+
+
+#### Slider
+| 参数                   | 描述             | 说明 |
+|----------------------|----------------|----|
+| wx.SL_HORIZONTAL     | 水平滑块           |
+| wx.SL_VERTICAL       | 垂直滑块           |
+| wx.SL_AUTOTICKS      | 在滑块显示tickmarks |
+| wx.SL_LABELS         | 显示最小值，最大值和当前值  |
+| wx.SL_MIN_MAX_LABELS | 显示最小值和最大值      |
+| wx.SL_VALUE_LABEL    | 只显示当前值         |
+
+
+
+#### ToolBar
+| 参数                  | 描述                            | 说明 |
+|---------------------|-------------------------------|----|
+| wx.TB_FLAT          | 提供该工具栏平面效果                    |
+| wx.TB_HORIZONTAL    | 指定水平布局(默认)                    |
+| wx.TB_VERTICAL      | 指定垂直布局                        |
+| wx.TB_DEFAULT_STYLE | 结合wx.TB_FLAT和wx.TB_HORIZONTAL |
+| wx.TB_DOCKABLE      | 使工具栏浮动和可停靠                    |
+| wx.TB_NO_TOOLTIPS   | 当鼠标悬停在工具栏不显示简短帮助工具提示          |
+| wx.TB_NOICONS       | 指定工具栏按钮没有图标，默认显示              |
+| wx.TB_TEXT          | 显示在工具栏按钮上的文本，默认只有图标显示         |
+
+
+
+
+#### Dialog
+| 参数                      | 描述                             | 说明 |
+|-------------------------|--------------------------------|----|
+| wx.CAPTION              | 对话框的文字说明                       |
+| wx.DEFAULT_DIALOG_STYLE | wx.CLOSE_BOX和wx.SYSTEM_MENU的组合 |
+| wx.RESIZE_BORDER        | 显示可调整窗口的大小                     |
+| wx.SYSTEM_MENU          | 显示系统菜单                         |
+| wx.CLOSE_BOX            | 框架上显示关闭                        |
+| wx.MAXIMIZE_BOX         | 在对话框中显示一个最大化框                  |
+| wx.MINIMIZE_BOX         | 在对话框中显示一个最小化框                  |
+| wx.STAY_ON_TOP          | 确保对话框停留在所有其他窗口的顶部              |
+| wx.DIALOG_NO_PARENT     | 为防止产生无看管对话框，不推荐使用模态对话框         |
+
+
+#### FileDialog
+| 参数                     | 描述                           | 说明 |
+|------------------------|------------------------------|----|
+| wx.FD_DEFAULT_STYLE    | 相当于wx.FD_OPEN                |
+| wx.FD_OPEN             | 这是一个打开的对话框，该对话框的默认按钮的标签是‘打开’ |
+| wx.FD_SAVE             | 这是一个保存对话框，该对话框的默认按钮的标签是‘保存’  |
+| wx.FD_OVERWRITE_PROMPT | 对于只保存的对话框，如果一个文件将被覆盖，提示进行确认  |
+| wx.FD_MULTIPLE         | 仅适合打开的对话框，允许选择多个文件           |
+| wx.FD_CHANGE_DIR       | 更改当前工作目录到用户选择的文件目录           |
+
+
+#### SplitterWindow
+| 参数                   | 描述                      | 说明 |
+|----------------------|-------------------------|----|
+| wx.SP_3D             | 绘制3d效果边框和窗扇             |
+| wx.SP_THIN_SASH      | 绘制一个薄窗扇                 |
+| wx.SP_3DSASH         | 绘制3d效果窗扇                |
+| wx.SP_BORDER         | 绘制标准边框                  |
+| wx.SP_NOBORDER       | 无边框                     |
+| wx.SP_PERMIT_UNSPLIT | 总是允许取消分割，即使采用最小的窗格大小不为零 |
+
+
+#### HTMLWindow
+| 参数                    | 描述                 | 说明 |
+|-----------------------|--------------------|----|
+| wx.HW_SCROLLBAR_NEVER | 永远不显示滚动条，即使是页面比窗口大 |
+| wx.HW_SCROLLBAR_AUTO  | 只在页面大小超过窗口大小显示滚动条  |
+| wx.HW_NO_SELECTION    | 不要让用户选择文本          |
 
 
 
@@ -141,6 +293,73 @@ if __name__=='__main__':
     app=App()#创建自定以对象App
     app.MainLoop()
 ```
+
+### 多线程防假死与线程间传递消息
+
+```python
+import time
+import wx
+from threading import Thread
+from wx.lib.pubsub import pub
+
+
+class TestThread(Thread):
+    def __init__(self):
+        # 线程实例化时立即启动
+        Thread.__init__(self)
+        self.start()
+
+    def run(self):
+        # 线程执行的代码
+        for i in range(101):
+            time.sleep(0.03)
+            wx.CallAfter(pub.sendMessage, "update", msg=i)
+            time.sleep(0.5)
+
+
+class MyForm(wx.Frame):
+    def __init__(self, parent):
+        wx.Frame.__init__(self, parent, id=wx.ID_ANY, title="Bajins工具", pos=wx.DefaultPosition,
+                          size=wx.Size(-1, -1), style=wx.DEFAULT_FRAME_STYLE | wx.TAB_TRAVERSAL)
+        self.SetSizeHintsSz(wx.DefaultSize, wx.DefaultSize)
+        gSizer2 = wx.GridSizer(0, 3, 0, 0)
+        self.m_button2 = wx.Button(self, wx.ID_ANY, "执行线程", wx.DefaultPosition, wx.DefaultSize, 0)
+        gSizer2.Add(self.m_button2, 0, wx.ALL | wx.ALIGN_CENTER_HORIZONTAL | wx.ALIGN_CENTER_VERTICAL, 5)
+        self.m_staticText2 = wx.StaticText(self, wx.ID_ANY, "MyLabel", wx.DefaultPosition, wx.DefaultSize, 0)
+        self.m_staticText2.Wrap(-1)
+        gSizer2.Add(self.m_staticText2, 0, wx.ALL | wx.ALIGN_CENTER_HORIZONTAL | wx.ALIGN_CENTER_VERTICAL, 5)
+        self.m_gauge1 = wx.Gauge(self, wx.ID_ANY, 100, wx.DefaultPosition, wx.DefaultSize, wx.GA_HORIZONTAL)
+        self.m_gauge1.SetValue(0)
+        gSizer2.Add(self.m_gauge1, 0, wx.ALL | wx.ALIGN_CENTER_HORIZONTAL | wx.ALIGN_CENTER_VERTICAL, 5)
+        self.SetSizer(gSizer2)
+        self.Layout()
+        gSizer2.Fit(self)
+        self.Centre(wx.BOTH)
+        self.m_button2.Bind(wx.EVT_BUTTON, self.onButton)
+
+        pub.subscribe(self.updateDisplay, "update")
+
+    def updateDisplay(self, msg):
+        t = msg
+        if isinstance(t, int):  # 如果是数字，说明线程正在执行，显示数字
+            self.m_staticText2.SetLabel("%s%%" % t)
+            self.m_gauge1.SetValue(t)
+        else:  # 否则线程未执行，将按钮重新开启
+            self.m_staticText2.SetLabel("%s" % t)
+            self.m_button2.Enable()
+
+    def onButton(self, event):
+        TestThread()
+        self.m_staticText2.SetLabel("线程开始")
+        event.GetEventObject().Disable()
+
+
+if __name__ == "__main__":
+    app = wx.App()
+    MyForm(None).Show()
+    app.MainLoop()
+```
+
 
 
 ## `PySide`
