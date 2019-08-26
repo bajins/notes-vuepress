@@ -1,14 +1,25 @@
 # IDE
 
 
-#### [navicat激活By DoubleLabyrinth](https://github.com/DoubleLabyrinth/navicat-keygen)
+* [navicat激活By DoubleLabyrinth](https://github.com/DoubleLabyrinth/navicat-keygen)
 
-#### [navicat激活By DeltaFoX/TeamURET](https://dfox.it/DeFconX/tags/navicat/)
+* [navicat激活By DeltaFoX/TeamURET](https://dfox.it/DeFconX/tags/navicat/)
 
-#### [Netsarang激活By DeltaFoX/TeamURET](https://dfox.it/DeFconX/tags/xmanager/)
+* [Netsarang激活By DeltaFoX/TeamURET](https://dfox.it/DeFconX/tags/xmanager/)
 
-#### [IntelliJ IDEA 辅助工具](https://github.com/mrshawnho/ideaagent)
+* [IntelliJ IDEA 辅助工具](https://github.com/mrshawnho/ideaagent)
 
-#### [SublimeText插件](/IDE/SublimeText插件.md)
+* [SublimeText插件](/IDE/SublimeText插件.md)
 
-#### [VisualStudioCode插件](/IDE/VisualStudioCodePlugins.md)
+* [VisualStudioCode插件](/IDE/VisualStudioCodePlugins.md)
+
+
+## Notepad
+
+### `Tab`替换为空格
+> 设置->首选项->语言->制表符设置->(勾选上)替换为空格
+
+### 显示特殊字符
+> 显示回车符，换行符，TAB键，行首，行尾等特殊字符
+
+> 视图(V) ⇒ 显示符号 ⇒ 显示空格与制表符
