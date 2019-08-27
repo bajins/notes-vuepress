@@ -133,7 +133,7 @@ public class ${NAME} {
 
 ## 自定义方法注释模板
 
-> 默认方法注释快捷键：`/**`+`Enter`
+- 默认方法注释快捷键：`/**`+`Enter`
 
 > Template text：
 ```java
@@ -162,13 +162,13 @@ groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s
 groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return result+' ';}", methodReturnType())
 ```
 
-> 使用时，直接在方法上输入/加上你的Abbreviation名字，再按Tab键即可获取方法上的参数
+- 使用时，直接在方法上输入/加上你的Abbreviation名字，再按Tab键即可获取方法上的参数
 
 ![](/images/IDEA方法注释设置.png)
 
 ### 示例
 
-> 使用时，直接在方法上输入/加上你的Abbreviation名字，再按Tab键即可获取方法上的参数
+- 使用时，直接在方法上输入/加上你的Abbreviation名字，再按Tab键即可获取方法上的参数
 
 ![](/images/IDEA方法注释示例.png)
 
@@ -180,6 +180,8 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ## 自动优化导包
 
+- `File`→`Settings`→`General`→`Auto Import`→`Python`→`Show import popup`
+
 > `Add unambiguous imports on the fly` 自动帮我们优化导入的包，比如自动去掉一些没有用到的包。 
 
 > `Optimize imports on the fly` 自动帮我们导入需要用到的包。但是对于同名的包，需要手动`Alt + Enter`进行导入。
@@ -188,27 +190,27 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ## 热部署策略
 
-> 顶部菜单`Run`->`Edit Configurations`->`SpringBoot`->`目标项目`->勾选`Update classes and resources`。
+- 顶部菜单`Run`->`Edit Configurations`->`SpringBoot`->`目标项目`->勾选`Update classes and resources`。
 
 ![](/images/IDEA的热部署策略.png)
 
 ## 自动编译
 
-> 同时按住`Ctrl + Shift + Alt + /`然后进入`Registry`，勾选自动编译并调整延时参数。
+- 同时按住`Ctrl + Shift + Alt + /`然后进入`Registry`，勾选自动编译并调整延时参数。
 
 ![](/images/IDEA自动编译-动态.png)
 
-> 打开顶部工具栏`File`->`Settings`->`Default Settings`->`Build`->`Compiler` 然后勾选`Build project automatically`
+- 打开顶部工具栏`File`->`Settings`->`Default Settings`->`Build`->`Compiler` 然后勾选`Build project automatically`
 
 ![](/images/IDEA自动编译-静态.png)
 
 ## 去掉MybatisXML局部背景颜色
 
-> 1.快捷键`ctrl + alt+ s`打开Settings。找到`Editor -> Inspections`的配置页面，去掉SQL中`No data sources configured`（没有配置数据源） 选项 和 `SQL dialect detection`（SQL方言检测） 选项。
+- 1.快捷键`ctrl + alt+ s`打开Settings。找到`Editor -> Inspections`的配置页面，去掉SQL中`No data sources configured`（没有配置数据源） 选项 和 `SQL dialect detection`（SQL方言检测） 选项。
 
 ![](/images/IDEA去掉SQL选项.png)
 
-> 2.去掉背景。找到`Editor -> Color -> General`的配置页面，选择`Code -> Injected language fragment`，去掉最右边的`Background`选项。
+- 2.去掉背景。找到`Editor -> Color -> General`的配置页面，选择`Code -> Injected language fragment`，去掉最右边的`Background`选项。
 
 ![](/images/IDEA去掉代码背景.png)
 
@@ -364,7 +366,14 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ```
 
-> 默认函数注释快捷键：`"""`+`Enter`
+- 默认函数注释快捷键：`"""`+`Enter`
+
+### 自动导包
+
+- `File`→`Settings`→`General`→`Auto Import`→`Python`→`Show import popup`
+
+![](/images/PyCharm自动导包.png)
+
 
 ## GoLand
 
@@ -412,4 +421,4 @@ package ${GO_PACKAGE_NAME}
 
 ```
 
-> 默认函数注释快捷键：`/**`+`Enter`
+- 默认函数注释快捷键：`/**`+`Enter`
