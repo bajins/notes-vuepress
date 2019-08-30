@@ -356,6 +356,8 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 ```python
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
+# @Description: 
+# @PreInstall: 
 # @Author : ${USER}
 # @File : ${NAME}.py
 # @Version: 1.0.0
