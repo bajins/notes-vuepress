@@ -1,10 +1,146 @@
 # BAT脚本使用
 
+
+## 目录
+
+- [文件操作](#文件操作)
+  - [查看当前目录下的文件](#查看当前目录下的文件)
+  - [创建目录](#创建目录)
+  - [删除目录](#删除目录)
+  - [拷贝文件](#拷贝文件)
+  - [移动文件](#移动文件)
+  - [删除文件](#删除文件)
+- [常用](#常用)
+  - [查看本机ip](#查看本机ip)
+  - [查DNS](#查dns)
+  - [刷新DNS](#刷新dns)
+  - [清除屏幕](#清除屏幕)
+  - [查看是否某个端口被占用](#查看是否某个端口被占用)
+  - [查看占用的`pid`](#查看占用的pid)
+  - [查看被占用端口的`pid`](#查看被占用端口的pid)
+  - [结束进程](#结束进程)
+- [获取管理员权限](#获取管理员权限)
+- [隐藏窗口运行（静默运行）](#隐藏窗口运行静默运行)
+- [注册表](#注册表)
+  - [修改](#修改)
+  - [查询](#查询)
+- [注册Windows服务](#注册windows服务)
+  - [加入服务:](#加入服务)
+  - [删除服务:](#删除服务)
+- [添加快捷方式](#添加快捷方式)
+- [Windows启动运行](#windows启动运行)
+  - [增加注册表方式](#增加注册表方式)
+- [命令](#命令)
+  - [获取为指定后缀的文件](#获取为指定后缀的文件)
+  - [获取不为指定后缀的文件](#获取不为指定后缀的文件)
+  - [判断字符串是否包含子字符串](#判断字符串是否包含子字符串)
+  - [替换文件中指定内容](#替换文件中指定内容)
+  - [判断是文件还是文件夹](#判断是文件还是文件夹)
+- [第三方工具](#第三方工具)
+- [下载文件](#下载文件)
+  - [bat执行js](#bat执行js)
+  - [certutil](#certutil)
+  - [bitsadmin](#bitsadmin)
+
+
+
+
+
+
+
+
 ## 常见问题
 > `if`和`for`的条件与后面跟的`(`之间必须要有一个空格，否则会出现`命令语法不正确`的问题！
 >
 > 使用cd切换目录时，如果带盘符一定要加`/d`参数，否则切换无效，例如：`cd /d F:\test`
 
+
+
+## 文件操作
+
+### 查看当前目录下的文件
+> 类似于linux下的ls
+
+```batch
+dir
+```
+### 创建目录
+```batch
+md 目录名（文件夹）
+```
+### 删除目录
+```batch
+rd  目录名（文件夹）
+```
+
+### 拷贝文件
+```batch
+copy 路径\文件名 路径\文件名
+```
+### 移动文件
+```batch
+move 路径\文件名 路径\文件名
+```
+### 删除文件
+> 不能删除文件夹
+
+```batch
+del 文件名
+```
+
+
+## 常用
+
+### 查看本机ip
+```batch
+ipconfig
+```
+
+### 查DNS
+```batch
+nslookup 域名
+```
+
+### 刷新DNS
+
+> `C:\Windows\System32\drivers\etc\hosts`
+
+```batch
+ipconfig /flushdns
+```
+
+
+### 清除屏幕
+> 类似于linux下的clear
+
+```batch
+cls
+```
+
+
+### 查看是否某个端口被占用
+```batch
+netstat -an | find "0.0.0.0:80"
+```
+### 查看占用的`pid`
+```batch
+:: 直接用参数过滤
+tasklist /fi "imagename eq 程序名*"
+:: 用findstr命令搜索
+tasklist | findstr /i "程序名"
+:: 只输出PID编号
+for /f "skip=3 tokens=2" %a in ('tasklist /fi "imagename eq 程序名*"') do @echo %a
+```
+
+### 查看被占用端口的`pid`
+```batch
+netstat -ano | findstr 80
+```
+
+### 结束进程
+```batch
+taskkill /pid 进程号 /f
+```
 
 
 ## 获取管理员权限
@@ -94,11 +230,20 @@ start /wait /B "" "%~dp0软件名称" /DEL
 ## 注册表
 ### 修改
 ```batch
-echo 删除桌面IE图标
+:: 删除桌面IE图标
 REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{B416D21B-3B22-B6D4-BBD3-BBD452DB3D5B}" /f
 
-echo 修改开机时小数字键盘不开启的问题
+:: 修改开机时小数字键盘不开启的问题
 REG ADD "HKU\.DEFAULT\Control Panel\Keyboard" /v InitialKeyboardIndicators /t REG_SZ /d 2 /f
+
+::把图片设置为壁纸
+reg add "HKCU\Control Panel\Desktop" /v TileWallpaper /d "0" /f 
+reg add "HKCU\Control Panel\Desktop" /v Wallpaper /d "图片绝对路径" /f
+reg add "HKCU\Control Panel\Desktop" /v WallpaperStyle /t REG_DWORD /d 2 /f
+RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters
+
+:: 加入开机自动运行
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 自定义命名 /d %0 /f
 
 ```
 
@@ -117,25 +262,25 @@ FOR /F "usebackq delims==" %i IN (`REG QUERY HKCU /v onedrive /s`) DO @echo %i
 
 ## 注册Windows服务
 https://www.cnblogs.com/pingming/p/5108947.html
-### 加入服务:
+### 加入服务
 ```batch
-::等号后面的空格必须
-sc create 服务名称 binPath= 路径 start= auto
+:: 等号后面的空格必须
+sc create 服务名称 binPath= 执行程序路径或者命令 start= auto displayname= "描述"
 ```
-### 删除服务:
+
+#### 示例
+```batch
+sc create frp内网穿透 binPath= D:\frp\frps.bat start= auto displayname= "frp内网穿透"
+
+sc create frp内网穿透 binPath= "cmd.exe /c D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini" start= auto displayname= "frp内网穿透"
+```
+
+
+### 删除服务
 ```batch
 sc delete 服务名称
 ```
 
-### 例一：
-```batch
-sc create frp内网穿透 binPath= D:\frp\frps.bat start= auto displayname= "frp内网穿透"
-```
-
-### 例二：
-```batch
-sc create frp内网穿透 binPath= "cmd.exe /c D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini" start= auto displayname= "frp内网穿透"
-```
 
 ## 添加快捷方式
 ```batch
@@ -320,13 +465,13 @@ dir /ad test >nul 2>nul && (
 
 
 ## 第三方工具
-[wget-网络请求工具](https://eternallybored.org/misc/wget/)
+* [wget-网络请求工具](https://eternallybored.org/misc/wget/)
 
-[curl-网络请求工具](https://curl.haxx.se/dlwiz/?type=bin) [curl-GitHub](https://github.com/curl/curl)
+* [curl-网络请求工具](https://curl.haxx.se/dlwiz/?type=bin) [curl-GitHub](https://github.com/curl/curl)
 
-[jq-解析json工具](https://github.com/stedolan/jq)
+* [jq-解析json工具](https://github.com/stedolan/jq)
 
-[Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html) [bcn](http://bcn.bathome.net/s/tool/index.html)
+* [Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html) [bcn](http://bcn.bathome.net/s/tool/index.html)
 
 ## 下载文件
 ### [bat执行js](BAT执行JS.md#下载文件)

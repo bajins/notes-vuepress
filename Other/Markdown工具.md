@@ -9,7 +9,7 @@
 * [转换器](#转换器)
 * [在线版](#在线版)
 * [客户端](#客户端)
-
+* [其他](#其他)
 
 
 ## 微信公众号排版
@@ -61,8 +61,10 @@ npm install -g doctoc
 ```
 
 [tocdown](http://dohliam.github.io/tocdown/)
+[源码](https://github.com/dohliam/tocdown)
 
 [markdown-toc-generate](https://magnetikonline.github.io/markdown-toc-generate/)
+[源码](https://github.com/magnetikonline/markdown-toc-generate)
 
 [tocenize](https://github.com/nochso/tocenize)
 
@@ -128,4 +130,14 @@ npm install -g doctoc
 [MWeb](http://zh.mweb.im/)
 
 > 专业的 Markdown 编辑器。UI漂亮，主题可选。支持markdown扩展语法，支持打字机滚动模式，支持发布到wp、blogger、tumblr等多个博客。
+
+
+
+## 其他
+
+[github-corners](https://github.com/tholman/github-corners)
+
+> GitHub图标
+
+
 
