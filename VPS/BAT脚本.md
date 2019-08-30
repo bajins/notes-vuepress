@@ -3,48 +3,42 @@
 
 ## 目录
 
-- [文件操作](#文件操作)
-  - [查看当前目录下的文件](#查看当前目录下的文件)
-  - [创建目录](#创建目录)
-  - [删除目录](#删除目录)
-  - [拷贝文件](#拷贝文件)
-  - [移动文件](#移动文件)
-  - [删除文件](#删除文件)
-- [常用](#常用)
-  - [查看本机ip](#查看本机ip)
-  - [查DNS](#查dns)
-  - [刷新DNS](#刷新dns)
-  - [清除屏幕](#清除屏幕)
-  - [查看是否某个端口被占用](#查看是否某个端口被占用)
-  - [查看占用的`pid`](#查看占用的pid)
-  - [查看被占用端口的`pid`](#查看被占用端口的pid)
-  - [结束进程](#结束进程)
-- [获取管理员权限](#获取管理员权限)
-- [隐藏窗口运行（静默运行）](#隐藏窗口运行静默运行)
-- [注册表](#注册表)
-  - [修改](#修改)
-  - [查询](#查询)
-- [注册Windows服务](#注册windows服务)
-  - [加入服务:](#加入服务)
-  - [删除服务:](#删除服务)
-- [添加快捷方式](#添加快捷方式)
-- [Windows启动运行](#windows启动运行)
-  - [增加注册表方式](#增加注册表方式)
-- [命令](#命令)
-  - [获取为指定后缀的文件](#获取为指定后缀的文件)
-  - [获取不为指定后缀的文件](#获取不为指定后缀的文件)
-  - [判断字符串是否包含子字符串](#判断字符串是否包含子字符串)
-  - [替换文件中指定内容](#替换文件中指定内容)
-  - [判断是文件还是文件夹](#判断是文件还是文件夹)
-- [第三方工具](#第三方工具)
-- [下载文件](#下载文件)
-  - [bat执行js](#bat执行js)
-  - [certutil](#certutil)
-  - [bitsadmin](#bitsadmin)
-
-
-
-
+* [常见问题](#常见问题)
+* [获取管理员权限](#获取管理员权限)
+* [隐藏窗口运行（静默运行）](#隐藏窗口运行静默运行)
+* [注册表](#注册表)
+  * [修改](#修改)
+  * [查询](#查询)
+* [注册Windows服务](#注册windows服务)
+  * [加入服务](#加入服务)
+  * [删除服务](#删除服务)
+* [添加快捷方式](#添加快捷方式)
+* [Windows启动运行](#windows启动运行)
+  * [增加注册表方式](#增加注册表方式)
+* [命令](#命令)
+  * [文件操作](#文件操作)
+    * [查看目录下的文件](#查看目录下的文件)
+    * [创建目录](#创建目录)
+    * [删除目录](#删除目录)
+    * [拷贝文件](#拷贝文件)
+    * [移动文件](#移动文件)
+    * [删除文件](#删除文件)
+  * [查看本机ip](#查看本机ip)
+  * [查DNS](#查dns)
+  * [刷新DNS](#刷新dns)
+  * [清除屏幕](#清除屏幕)
+  * [查看是否某个端口被占用](#查看是否某个端口被占用)
+  * [查看占用的`pid`](#查看占用的pid)
+  * [查看被占用端口的`pid`](#查看被占用端口的pid)
+  * [结束进程](#结束进程)
+  * [延时](#延时)
+  * [获取为指定后缀的文件](#获取为指定后缀的文件)
+  * [获取不为指定后缀的文件](#获取不为指定后缀的文件)
+  * [判断字符串是否包含子字符串](#判断字符串是否包含子字符串)
+  * [替换文件中指定内容](#替换文件中指定内容)
+  * [判断是文件还是文件夹](#判断是文件还是文件夹)
+* [第三方工具](#第三方工具)
+* [下载文件](#下载文件)
 
 
 
@@ -56,95 +50,9 @@
 
 
 
-## 文件操作
-
-### 查看当前目录下的文件
-> 类似于linux下的ls
-
-```batch
-dir
-```
-### 创建目录
-```batch
-md 目录名（文件夹）
-```
-### 删除目录
-```batch
-rd  目录名（文件夹）
-```
-
-### 拷贝文件
-```batch
-copy 路径\文件名 路径\文件名
-```
-### 移动文件
-```batch
-move 路径\文件名 路径\文件名
-```
-### 删除文件
-> 不能删除文件夹
-
-```batch
-del 文件名
-```
-
-
-## 常用
-
-### 查看本机ip
-```batch
-ipconfig
-```
-
-### 查DNS
-```batch
-nslookup 域名
-```
-
-### 刷新DNS
-
-> `C:\Windows\System32\drivers\etc\hosts`
-
-```batch
-ipconfig /flushdns
-```
-
-
-### 清除屏幕
-> 类似于linux下的clear
-
-```batch
-cls
-```
-
-
-### 查看是否某个端口被占用
-```batch
-netstat -an | find "0.0.0.0:80"
-```
-### 查看占用的`pid`
-```batch
-:: 直接用参数过滤
-tasklist /fi "imagename eq 程序名*"
-:: 用findstr命令搜索
-tasklist | findstr /i "程序名"
-:: 只输出PID编号
-for /f "skip=3 tokens=2" %a in ('tasklist /fi "imagename eq 程序名*"') do @echo %a
-```
-
-### 查看被占用端口的`pid`
-```batch
-netstat -ano | findstr 80
-```
-
-### 结束进程
-```batch
-taskkill /pid 进程号 /f
-```
-
 
 ## 获取管理员权限
-### 方式一
+- 方式一
 ```batch
 @echo off
 cacls.exe "%SystemDrive%\System Volume Information" >nul 2>nul
@@ -154,7 +62,7 @@ if exist "%temp%\getadmin.vbs" del /f /q "%temp%\getadmin.vbs"
 
 ```
 
-### 方式二
+- 方式二
 ```batch
 fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",1)(window.close)
 
@@ -163,7 +71,7 @@ fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellE
 ```
 
 
-### 方式三
+- 方式三
 ```batch
 @echo off
 :: 检查权限
@@ -190,7 +98,7 @@ if '%errorlevel%' NEQ '0' (
 
 ```
 
-### 方式四
+- 方式四
 ```batch
 %1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)
 cd /d "%~dp0"
@@ -354,6 +262,99 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 > 可利用[脚本添加快捷方式](#添加快捷方式)直接在启动文件夹中生成快捷方式
 
 ## 命令
+
+
+### 文件操作
+
+#### 查看目录下的文件
+> 类似于linux下的ls
+
+```batch
+dir
+```
+#### 创建目录
+```batch
+md 目录名（文件夹）
+```
+#### 删除目录
+```batch
+rd  目录名（文件夹）
+```
+
+#### 拷贝文件
+```batch
+copy 路径\文件名 路径\文件名
+```
+#### 移动文件
+```batch
+move 路径\文件名 路径\文件名
+```
+#### 删除文件
+> 不能删除文件夹
+
+```batch
+del 文件名
+```
+
+### 查看本机ip
+```batch
+ipconfig
+```
+
+### 查DNS
+```batch
+nslookup 域名
+```
+
+### 刷新DNS
+
+> `C:\Windows\System32\drivers\etc\hosts`
+
+```batch
+ipconfig /flushdns
+```
+
+
+### 清除屏幕
+> 类似于linux下的clear
+
+```batch
+cls
+```
+
+
+### 查看是否某个端口被占用
+```batch
+netstat -an | find "0.0.0.0:80"
+```
+### 查看占用的`pid`
+```batch
+:: 直接用参数过滤
+tasklist /fi "imagename eq 程序名*"
+:: 用findstr命令搜索
+tasklist | findstr /i "程序名"
+:: 只输出PID编号
+for /f "skip=3 tokens=2" %a in ('tasklist /fi "imagename eq 程序名*"') do @echo %a
+```
+
+### 查看被占用端口的`pid`
+```batch
+netstat -ano | findstr 80
+```
+
+### 结束进程
+```batch
+taskkill /pid 进程号 /f
+```
+
+
+### 延时
+```batch
+choice /t 10 /d y /n >nul
+timeout /T 10 /NOBREAK
+```
+
+
 ### 获取为指定后缀的文件
 ```batch
 ::获取为指定后缀的文件
@@ -474,9 +475,13 @@ dir /ad test >nul 2>nul && (
 * [Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html) [bcn](http://bcn.bathome.net/s/tool/index.html)
 
 ## 下载文件
-### [bat执行js](BAT执行JS.md#下载文件)
 
-### certutil
+- 推荐使用`bat`脚本执行`JavaScript`脚本下载文件
+
+> 参考:[BAT执行JS](BAT执行JS.md#下载文件)
+
+
+- `certutil`
 > 用户备份证书服务管理，每次下载都会有缓存
 >
 > 缓存目录：`%USERPROFILE%\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content`
@@ -485,8 +490,8 @@ dir /ad test >nul 2>nul && (
 certutil -urlcache -split -f https://blog-static.cnblogs.com/files/gayhub/bcn.js C:\Windows\bcn.bat
 ```
 
-### bitsadmin
-> bitsadmin.exe 可以用来在windows 命令行下下载文件。bitsadmin是windows 后台智能传输服务的一个工具，windows 的自动更新，补丁之类的下载就是用这个工具来实现的。
+- `bitsadmin`
+> `bitsadmin.exe` `bitsadmin`是`windows`后台智能传输服务的一个工具，`windows`的自动更新，补丁之类的下载就是用这个工具来实现的。
 
 ```batch
 :: 无进度条等信息
