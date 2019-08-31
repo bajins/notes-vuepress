@@ -11,5 +11,5 @@
 
 [Python脚本](/Python/Python脚本.md)
 
-[依赖和使用](/Python/依赖和使用.md)
+[依赖和使用](/Python/Python使用.md)
 
