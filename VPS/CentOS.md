@@ -412,6 +412,13 @@ systemctl list-unit-files|grep enabled
 systemctl --failed
 ```
 
+```bash
+# 查看mysql是否自启动
+chkconfig --list | grep mysqld
+# 设置开启自启动
+chkconfig mysqld on
+```
+
 ## `firewalld`
 ```bash
 # 查看firewalld状态，发现当前是dead状态，即防火墙未开启。

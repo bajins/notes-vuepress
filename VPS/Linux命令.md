@@ -122,7 +122,18 @@ ls -l | grep test | awk '{print $5}' | sed -n '2p'
 > `i` 插入
 
 
-
+#### 过滤多个结果
+```bash
+ls -l | grep "postfix\|dovecot"
+# 或者
+ls -l | grep -e postfix -e dovecot
+# 或者
+ls -l | grep -E "postfix|dovecot"
+# 或者
+ls -l | egrep "postfix|dovecot"
+# 或者
+ls -l | awk "/postfix|dovecot/"
+```
 
 
 ## 定时任务

@@ -3,23 +3,31 @@
 ## [MySQL配置](/MySQL/配置.md)
 ## yum按装MySQL
 ### 这里参考了[海月博客](https://blog.imzhengfei.com/centos-7-an-zhuang-pei-zhi-mysql/)
-首先centos7 默认已经不支持mysql，因为收费了你懂得，所以内部集成了mariadb，
-而安装mysql的话会和mariadb的文件冲突，所以需要先卸载掉mariadb，以下为卸载mariadb，安装mysql的步骤。
-列出所有被安装的rpm package 
-```bash
-rpm -qa | grep mariadb
-```
+> 首先centos7 默认已经不支持mysql，因为收费了你懂得，所以内部集成了mariadb，
+> 而安装mysql的话会和mariadb的文件冲突，所以需要先卸载掉mariadb，以下为卸载mariadb，安装mysql的步骤。
+
+
 ### 卸载
 ```bash
-rpm -e mariadb-libs-5.5.56-2.el7.x86_64
-```
-### 强制卸载，因为没有--nodeps
-```bash
+# 查看软件包
+rpm -qa | grep -i "mariadb\|mysql"
+# --nodeps强制卸载
 rpm -e --nodeps mariadb-libs-5.5.56-2.el7.x86_64
+
+# 检测系统是否存在mysql
+yum list installed | grep mysql
+# 删除mysql依赖项
+yum remove -y mysql mysql-server mysql-libs mysql-server
 ```
+
+#### 查找残留目录
+```bash
+whereis mysql
+```
+
 ### 安装mysql依赖
 ```bash
-yum -y install vim libaio
+yum -y install libaio
 ```
 ### 安装MySQL
 #### 下载yum源
@@ -31,15 +39,21 @@ wget https://repo.mysql.com//mysql80-community-release-el7-1.noarch.rpm
 ```bash
 yum -y localinstall mysql80-community-release-el7-1.noarch.rpm
 ```
-#### 检查yum源是否安装成功
+#### 查看所有MySQL版本
 ```bash
-yum repolist enabled | grep "mysql.*-community.*"
+yum repolist all | grep mysql
 ```
-#### 可以看到这里默认启用了 MySQL 8.0 Community Server ，而我们需要安装的是 MySQL 5.7 Community Server，因此需要修改源设置：
+> 可以看到这里默认启用了`MySQL 8.0 Community Server`，而我们需要安装的是`MySQL 5.7 Community Server`
+
+#### 修改源设置
+
 ```bash
 vi /etc/yum.repos.d/mysql-community.repo
 ```
-#### 找到mysql57-community节点：
+- 找到mysql57-community节点
+
+> 将`enabled=0`改成`enabled=1`
+
 ```bash
 [mysql57-community]
 name=MySQL 5.7 Community Server
@@ -48,7 +62,10 @@ enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
 ```
-#### 将 enabled=0 改成 enabled=1 ，再找到mysql80-community节点：
+- 找到`mysql80-community`节点
+
+> 将`enabled=1`改成`enabled=0`
+
 ```bash
 [mysql80-community]
 name=MySQL 8.0 Community Server
@@ -56,12 +73,20 @@ baseurl=http://repo.mysql.com/yum/mysql-8.0-community/el/7/$basearch/
 enabled=1
 gpgcheck=1
 ```
-#### 将 enabled=1 改成 enabled=0 ，保存退出。
 
-#### 现在查看 MySQL 各个系列默认的版本：
+- 或者使用命令
 ```bash
-yum repolist enabled | grep "mysql.*-community.*"
+# 禁用MySQL版本
+yum-config-manager --disable mysql80-community
+# 启用MySQL版本
+yum-config-manager --enable mysql57-community
 ```
+
+#### 查看默认启用版本
+```bash
+yum repolist enabled | grep mysql
+```
+
 #### 安装mysql
 ```bash
 yum -y install mysql-community-server
