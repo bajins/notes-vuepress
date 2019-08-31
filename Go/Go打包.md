@@ -1,6 +1,47 @@
-# 打包脚本
+# Go打包
 
-## 在项目中新建
+
+
+
+
+## 打包命令
+
+### 在windows下打包
+#### 设置环境
+> `GOOS` 目标可执行程序运行操作系统，支持`darwin`、`freebsd`、`linux`、`windows`
+
+```batch
+# 打包Linux 执行文件
+SET GOOS=linux
+# 打包win执行文件
+SET GOOS=windows
+# 打包mac执行文件
+SET GOOS=darwin
+# 打包freebsd执行文件
+SET GOOS=freebsd
+```
+> `GOARCH` 目标可执行程序操作系统构架，包括`386`、`amd64`、`arm`
+
+```batch
+# 打包386执行文件
+SET GOARCH=386
+# 打包amd64执行文件
+SET GOARCH=amd64
+# 打包arm执行文件
+SET GOARCH=arm
+```
+#### 执行编译
+```batch
+go build main.go
+# 打包文件成其他名字
+go build -o key-gin.exe main.go
+```
+
+
+
+## 打包脚本
+
+### 在项目中新建
 > 只需在项目目录中新建一个bat文件把以下脚本命令放入，且修改`files`变量执行脚本即可打包
 
 ```batch
@@ -105,7 +146,7 @@ sGet.SaveToFile(iLocal, 2);
 sGet.Close();
 ```
 
-## 在任意目录新建
+### 在任意目录新建
 
 > 基本用法:`脚本名 rootPath files project`
 >> `rootPath` 打包的根目录，路径必须完整
@@ -116,7 +157,7 @@ sGet.Close();
 
 > 示例：`脚本名 f:\\key-gin "pyutils static templates" key-gin`
 
-### [脚本文件](/files/7z_pack_go.bat)
+* [脚本文件](/files/7z_pack_go.bat)
 
 ```batch
 1>1/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
