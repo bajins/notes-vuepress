@@ -47,6 +47,7 @@
 
 ## yum按装
 
+* [https://dev.mysql.com/doc/mysql-yum-repo-quick-guide/en/](https://dev.mysql.com/doc/mysql-yum-repo-quick-guide/en/)
 
 * [https://blog.imzhengfei.com/centos-7-an-zhuang-pei-zhi-mysql/](https://blog.imzhengfei.com/centos-7-an-zhuang-pei-zhi-mysql/)
 
@@ -74,7 +75,7 @@ whereis mysql
 
 ### 安装mysql依赖
 ```bash
-yum -y install libaio
+yum -y install libaio glibc
 ```
 ### 安装MySQL
 #### 下载yum源
