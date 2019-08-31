@@ -158,6 +158,14 @@ RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters
 :: 加入开机自动运行
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 自定义命名 /d %0 /f
 
+
+:: 替换Windows默认记事本
+reg add "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /t REG_SZ /d "\"%ProgramFiles(x86)%\Notepad++\notepad++.exe\" /z" /f
+
+:: 恢复系统记事本
+reg delete "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
+reg delete "HKLM\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
+
 ```
 
 > `/v` 设置键名(value)
