@@ -26,13 +26,13 @@ Path
 ;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATALINA_HOME%\bin;
 ```
 
-### [JavaFX开发](/JAVA/JavaFX.md)
+### [JavaFX开发](/Java/JavaFX.md)
 
-### [Java笔记](/JAVA/Java笔记.md)
+### [Java笔记](/Java/Java笔记.md)
 
-### [项目收集](/JAVA/项目收集.md)
+### [项目收集](/Java/项目收集.md)
 
-### [Tomcat优化](/JAVA/Tomcat优化.md)
+### [Tomcat优化](/Java/Tomcat优化.md)
 
 ## 前端框架
 ### WEB
@@ -75,7 +75,7 @@ Path
 
 [从GBK到UTF8的某些路径中的文件编码转换](https://github.com/downgoon/gbk2utf8)
 
-[JVM监控](/JAVA/JVM.md#监控工具)
+[JVM监控](/Java/JVM.md#监控工具)
 
 ## 地区数据
 [district](https://github.com/eduosi/district)
