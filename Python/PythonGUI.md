@@ -35,13 +35,29 @@
 > 它们在单独的模块中提供，以帮助减少那些不需要任何这些类的应用程序的开销和依赖性。
 
 ### 方法
-* `SetTitle( string title )` — 设置窗口标题。只可用于框架和对话框
-* `SetToolTip( wx.ToolTip tip )` — 为窗口添加提示
-* `SetSize( wx.Size size )` — 设置窗口的尺寸
-* `SetPosition( wx.Point pos )` — 设置窗口出现的位置
-* `Show( show = True )` — 显示或隐藏窗口。其中的参数可以为`True`或`False`
-* `Move( wx.Point pos )` — 将窗口移动到指定位置
-* `SetCursor( wx.StockCursor id )` — 设置窗口的鼠标指针样式
+* `SetTitle( string title )` 设置窗口标题。只可用于框架和对话框
+* `SetToolTip( wx.ToolTip tip )` 为窗口添加提示
+* `SetSize( wx.Size size )` 设置窗口的尺寸
+* `SetPosition( wx.Point pos )` 设置窗口出现的位置
+* `Show( show = True )` 显示或隐藏窗口。其中的参数可以为`True`或`False`
+* `Move( wx.Point pos )` 将窗口移动到指定位置
+* `SetCursor( wx.StockCursor id )` 设置窗口的鼠标指针样式
+* `Refresh` 刷新窗口
+
+* `wx.CallLater(millis, callableObj, *args, **kwargs)`
+> 最抽象的线程安全函数
+
+
+* `wx.CallAfter(callable, *args, **kwargs)`
+> 该函数是在当前和待处理事件处理程序完成后调用指定的函数。
+>
+> 这个方法是利用PostEvent()来实现的。执行这个方法后，将在主事件循环中加入一个事件，然后通过事件循环进行处理。
+> 这其实是一种异步的方法，适用于一个非GUI的处理过程要调用GUI的方法，或子线程调用主线程的方法，
+> 或在一个事件处理函数中异步调用另一个事件处理，还有就是上面的问题。这个方法使用很方便，不需要自定义事件，绑定事件，Post事件。
+
+* `wx.FutureCall(milliseconds, callable, *args, **kwargs)`
+> 从wx.Timer中派生出来的，它的作用是在指定时间之后执行一个方法。
+
 
 ### `wx.Event`的子类
 
@@ -252,9 +268,10 @@ class MyFrame(wx.Frame):
         vbox.Add(hbox2,1,flag=wx.ALL|wx.EXPAND,border=5)
         
 
-        #ListBox类实例
-        self.listbox1 = wx.ListBox(panel,-1,(50,80),(200, 60),list1,wx.LB_SINGLE)  #wx.LB_SINGLE只能选择单个
-        self.listbox2 = wx.ListBox(panel, -1,(50, 150), (200, 60), list2, wx.LB_MULTIPLE)#多选
+        #ListBox类实例 wx.LB_SINGLE只能选择单个
+        self.listbox1 = wx.ListBox(panel,-1,(50,80),(200, 60),list1,wx.LB_SINGLE)
+        # wx.LB_MULTIPLE多选
+        self.listbox2 = wx.ListBox(panel, -1,(50, 150), (200, 60), list2, wx.LB_MULTIPLE)
         #CheckListBox类实例
         self.listbox3 = wx.CheckListBox(panel,-1,(300,80),(200, 60),list1)
         #Choice类实例
@@ -296,14 +313,123 @@ if __name__=='__main__':
 
 ### 多线程防假死与线程间传递消息
 
+* [wxpython线程安全方法](http://codingdict.com/blog/article/2019/7/11/10556.html)
+
+> `WxPython4.0`以后不用`wx.lib.pubsub`来做消息通讯了，改用`pubsub`，如果继续用`wx.lib.pubsub`，会有警告提示
+
+```bash
+pip install pypubsub
+```
+- 示例一
+
 ```python
 import time
 import wx
 from threading import Thread
-from wx.lib.pubsub import pub
+from pubsub import pub
 
 
-class TestThread(Thread):
+def work_proc():
+    """
+    耗时长的代码
+    :return:
+    """
+    sum_x = 0
+    for i in range(1, 101):
+        sum_x = sum_x + i
+        time.sleep(0.1)
+        pub.sendMessage("update", msg='计算{} , 合计 {}'.format(i, sum_x), status=1)
+    return sum_x
+
+
+class WorkThread(Thread):
+    """
+    线程调用耗时长代码
+    """
+
+    def __init__(self):
+        """
+        线程实例化时立即启动
+        """
+        Thread.__init__(self)
+        self.start()
+
+    def run(self):
+        """
+        线程执行的代码
+        :return:
+        """
+        result = work_proc()
+        time.sleep(2)
+        pub.sendMessage("update", msg='计算完成，结果 {}'.format(result), status=0)
+
+
+class MainForm(wx.Frame):
+    def __init__(self, parent=None):
+        wx.Frame.__init__(self, parent, id=wx.ID_ANY, title="Bajins工具", pos=wx.DefaultPosition,
+                          style=wx.DEFAULT_FRAME_STYLE | wx.TAB_TRAVERSAL)
+        # 允许指定最小和最大窗口大小以及窗口大小增量。
+        self.SetSizeHints(wx.Size(400, 30), wx.DefaultSize, wx.DefaultSize)
+        self.CreateStatusBar()
+        self.SetStatusText("启动完成!")
+
+        sizer2 = wx.GridSizer(0, 3, 0, 0)
+        self.m_button2 = wx.Button(self, wx.ID_ANY, "开始计算", wx.DefaultPosition, wx.DefaultSize, 0)
+        sizer2.Add(self.m_button2, 0, wx.ALL | wx.ALIGN_CENTER_HORIZONTAL | wx.ALIGN_CENTER_VERTICAL, 5)
+
+        self.st = wx.StaticText(self, label="测试", pos=(50, 50))
+        font = self.st.GetFont()
+        font.PointSize += 5
+        font = font.Bold()
+        self.st.SetFont(font)
+        sizer2.Add(self.st, 0, wx.ALL | wx.ALIGN_CENTER_HORIZONTAL | wx.ALIGN_CENTER_VERTICAL, 5)
+
+        self.SetSizer(sizer2)
+        self.Layout()
+        sizer2.Fit(self)
+        self.Centre(wx.BOTH)
+        self.m_button2.Bind(wx.EVT_BUTTON, self.on_button)
+
+        pub.subscribe(self.update_display, "update")
+
+    def update_display(self, msg, status):
+        """
+        从线程接收数据并更新显示
+        """
+        if status == 0:
+            self.SetStatusText('完成！')
+            # 启用按钮
+            # self.m_button2.Enable(True)
+            self.m_button2.Enable()
+        elif status == 1:
+            self.st.SetLabel(msg)
+
+    def on_button(self, event):
+        WorkThread()
+        self.SetStatusText('开始计算，代码不提供中断线程语句，请等待计算结束！')
+        # 禁用按钮
+        # self.m_button2.Enable(False)
+        event.GetEventObject().Disable()
+
+
+if __name__ == "__main__":
+    app = wx.App()
+    MainForm().Show()
+    app.MainLoop()
+
+```
+
+
+
+- 示例二
+```python
+import time
+import wx
+from threading import Thread
+from pubsub import pub
+
+
+class MainThread(Thread):
     def __init__(self):
         # 线程实例化时立即启动
         Thread.__init__(self)
@@ -317,47 +443,58 @@ class TestThread(Thread):
             time.sleep(0.5)
 
 
-class MyForm(wx.Frame):
-    def __init__(self, parent):
+class MainForm(wx.Frame):
+    def __init__(self, parent=None):
         wx.Frame.__init__(self, parent, id=wx.ID_ANY, title="Bajins工具", pos=wx.DefaultPosition,
-                          size=wx.Size(-1, -1), style=wx.DEFAULT_FRAME_STYLE | wx.TAB_TRAVERSAL)
-        self.SetSizeHintsSz(wx.DefaultSize, wx.DefaultSize)
-        gSizer2 = wx.GridSizer(0, 3, 0, 0)
-        self.m_button2 = wx.Button(self, wx.ID_ANY, "执行线程", wx.DefaultPosition, wx.DefaultSize, 0)
-        gSizer2.Add(self.m_button2, 0, wx.ALL | wx.ALIGN_CENTER_HORIZONTAL | wx.ALIGN_CENTER_VERTICAL, 5)
-        self.m_staticText2 = wx.StaticText(self, wx.ID_ANY, "MyLabel", wx.DefaultPosition, wx.DefaultSize, 0)
+                          style=wx.DEFAULT_FRAME_STYLE | wx.TAB_TRAVERSAL)
+        # 允许指定最小和最大窗口大小以及窗口大小增量。
+        self.SetSizeHints(wx.Size(400, 30), wx.DefaultSize, wx.DefaultSize)
+
+        self.CreateStatusBar()
+        self.SetStatusText("启动完成!")
+
+        sizer = wx.BoxSizer(wx.HORIZONTAL)
+        self.m_button2 = wx.Button(self, wx.ID_ANY, "执行线程")
+        sizer.Add(self.m_button2, 0, wx.ALL | wx.ALIGN_CENTER_HORIZONTAL | wx.ALIGN_CENTER_VERTICAL, 5)
+
+        self.m_staticText2 = wx.StaticText(self, wx.ID_ANY, "0%")
         self.m_staticText2.Wrap(-1)
-        gSizer2.Add(self.m_staticText2, 0, wx.ALL | wx.ALIGN_CENTER_HORIZONTAL | wx.ALIGN_CENTER_VERTICAL, 5)
-        self.m_gauge1 = wx.Gauge(self, wx.ID_ANY, 100, wx.DefaultPosition, wx.DefaultSize, wx.GA_HORIZONTAL)
+        sizer.Add(self.m_staticText2, 0, wx.ALL | wx.SIZE_FORCE | wx.ALIGN_CENTER_VERTICAL, 5)
+
+        self.m_gauge1 = wx.Gauge(self, wx.ID_ANY, 100)
         self.m_gauge1.SetValue(0)
-        gSizer2.Add(self.m_gauge1, 0, wx.ALL | wx.ALIGN_CENTER_HORIZONTAL | wx.ALIGN_CENTER_VERTICAL, 5)
-        self.SetSizer(gSizer2)
+        sizer.Add(self.m_gauge1, 0, wx.ALL | wx.ALIGN_CENTER_VERTICAL, 5)
+
+        self.SetSizer(sizer)
         self.Layout()
-        gSizer2.Fit(self)
+        sizer.Fit(self)
         self.Centre(wx.BOTH)
-        self.m_button2.Bind(wx.EVT_BUTTON, self.onButton)
+        self.m_button2.Bind(wx.EVT_BUTTON, self.on_button)
 
-        pub.subscribe(self.updateDisplay, "update")
+        pub.subscribe(self.update_display, "update")
 
-    def updateDisplay(self, msg):
-        t = msg
-        if isinstance(t, int):  # 如果是数字，说明线程正在执行，显示数字
-            self.m_staticText2.SetLabel("%s%%" % t)
-            self.m_gauge1.SetValue(t)
-        else:  # 否则线程未执行，将按钮重新开启
-            self.m_staticText2.SetLabel("%s" % t)
+    def update_display(self, msg):
+        # 如果是数字，说明线程正在执行，显示数字
+        if isinstance(msg, int):
+            self.m_staticText2.SetLabel("%s%%" % msg)
+            self.m_gauge1.SetValue(msg)
+        else:
+            # 否则线程未执行，将按钮重新开启
+            self.m_staticText2.SetLabel("%s" % msg)
             self.m_button2.Enable()
 
-    def onButton(self, event):
-        TestThread()
-        self.m_staticText2.SetLabel("线程开始")
+    def on_button(self, event):
+        MainThread()
+        self.SetStatusText("线程开始")
+        # 禁用按钮
         event.GetEventObject().Disable()
 
 
 if __name__ == "__main__":
     app = wx.App()
-    MyForm(None).Show()
+    MainForm().Show()
     app.MainLoop()
+
 ```
 
 
@@ -378,6 +515,81 @@ if __name__ == "__main__":
 
 > `PySide2`模块提供对`QtCore`，`QtGui`等各个Qt模块的访问。还附带了`Shiboken2`、`CPython`绑定代码生成器，
 > 可用于为`C`或`C++`代码生成`Python`绑定。
+
+
+
+### 多线程防假死动态刷新界面的模板
+
+```python
+from PyQt5 import QtWidgets, QtCore
+import sys
+from PyQt5.QtCore import *
+import time
+ 
+ 
+# 继承QThread
+class Runthread(QtCore.QThread):
+    #  通过类成员对象定义信号对象
+    _signal = pyqtSignal(str)
+ 
+    def __init__(self):
+        super(Runthread, self).__init__()
+ 
+    def __del__(self):
+        self.wait()
+ 
+    def run(self):
+        for i in range(100):
+            time.sleep(0.2)
+            # 注意这里与_signal = pyqtSignal(str)中的类型相同
+            self._signal.emit(str(i))
+ 
+ 
+class Example(QtWidgets.QWidget):
+ 
+    def __init__(self):
+        super().__init__()
+        # 按钮初始化
+        self.button = QtWidgets.QPushButton('开始', self)
+        self.button.setToolTip('这是一个 <b>QPushButton</b> widget')
+        self.button.resize(self.button.sizeHint())
+        self.button.move(120, 80)
+        # 绑定多线程触发事件
+        self.button.clicked.connect(self.start_login)
+ 
+        # 进度条设置
+        self.pbar = QtWidgets.QProgressBar(self)
+        self.pbar.setGeometry(50, 50, 210, 25)
+        self.pbar.setValue(0)
+ 
+        # 窗口初始化
+        self.setGeometry(300, 300, 300, 200)
+        self.setWindowTitle('OmegaXYZ.com')
+        self.show()
+ 
+        self.thread = None  # 初始化线程
+ 
+    def start_login(self):
+        # 创建线程
+        self.thread = Runthread()
+        # 连接信号,进程连接回传到GUI的事件
+        self.thread._signal.connect(self.call_backlog)
+        # 开始线程
+        self.thread.start()
+ 
+    def call_backlog(self, msg):
+        # 将线程的参数传入进度条
+        self.pbar.setValue(int(msg))
+ 
+ 
+if __name__ == "__main__":
+    app = QtWidgets.QApplication(sys.argv)
+    myshow = Example()
+    myshow.show()
+    sys.exit(app.exec_())
+
+```
+
 
 
 
