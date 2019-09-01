@@ -383,6 +383,7 @@ while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1
 
 ## `systemctl`
 > `systemctl`是`CentOS7`的服务管理工具中主要的工具，它融合之前`service`和`chkconfig`的功能于一体。
+
 ```bash
 # 启动一个服务
 systemctl start firewalld.service
