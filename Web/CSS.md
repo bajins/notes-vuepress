@@ -1,4 +1,4 @@
-# HTML5/CSS3
+# CSS
 
 ## 目录
 
@@ -14,7 +14,10 @@
   * [文本溢出处理](#文本溢出处理)
 
 
+* [HTML系列教程](https://www.w3school.com.cn/h.asp)
+
 * [http://css.doyoe.com/](http://css.doyoe.com/)
+
 
 ## CSS3
 
@@ -220,51 +223,6 @@
 @media only screen and (max-width: 479px) {
     /*<=480的设备*/
 }
-```
-
-
-### JavaScript获取宽高
-```js
-// 显示浏览器的屏幕的可用宽度像素
-screen.availWidth
-// 显示浏览器的屏幕的可用高度像素
-screen.availHeight
-
-// 浏览器的屏幕的宽度像素
-screen.width
-// 浏览器的屏幕的高度像素
-screen.height
-
-// 网页可见区域宽度，不包括工具栏和滚动条，会随窗口的显示大小改变
-document.body.clientWidth
-document.documentElement.clientWidth
-// 网页可见区域高度，不包括工具栏和滚动条，会随窗口的显示大小改变
-document.body.clientHeight
-document.documentElement.clientHeight
-
-// 网页可见区域宽度，包括滚动条等边线，会随窗口的显示大小改变
-document.body.offsetWidth
-document.documentElement.offsetWidth
-// 网页可见区域高度，包括滚动条等边线，会随窗口的显示大小改变
-document.body.offsetHeight
-document.documentElement.offsetHeight
-
-// 网页正文全文宽度(不包括滚动条)，会随窗口的显示大小改变
-document.body.scrollWidth
-document.documentElement.scrollWidth
-// 网页正文全文宽度(不包括滚动条)，会随窗口的显示大小改变
-document.body.scrollHeight
-document.documentElement.scrollHeight
-
-// 浏览器窗口的内部宽高，会随窗口的显示大小改变
-window.innerWidth
-window.innerHeight
-
-// scrollLeft:设置或获取位于给定对象左边界与窗口中目前可见内容的最左端之间的距离；
-// scrollTop:设置或获取位于给定对象最顶端与窗口中目前可见内容的最左端之间的距离；
-// offsetLeft:设置或获取位于给定对象相对于版面或由offsetParent属性指定的父坐标的计算左侧位置；
-// offsetTop:设置或获取位于给定对象相对于版面或由offsetParent属性指定的父坐标的计算顶端位置；
-
 ```
 
 
