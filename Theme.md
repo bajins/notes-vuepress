@@ -1,6 +1,6 @@
 # VuePress主题
 
-[github-search](https://github.com/search?q=vuepress-theme)
+[GitHub搜索主题](https://github.com/search?l=Vue&o=desc&q=vuepress-theme&s=stars&type=Repositories)
 
 [vuepress-theme-ktquez](https://github.com/ktquez/vuepress-theme-ktquez)
 

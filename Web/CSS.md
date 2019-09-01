@@ -10,8 +10,29 @@
     * [外联和内嵌样式](#外联和内嵌样式)
     * [`bootstrap css`](#bootstrap-css)
       * [混合应用](#混合应用)
-  * [JavaScript获取宽高](#javascript获取宽高)
-  * [文本溢出处理](#文本溢出处理)
+* [文本溢出处理](#文本溢出处理)
+  * [隐藏溢出内容](#隐藏溢出内容)
+* [`Footer`固定在底部](#footer固定在底部)
+  * [`Footer`固定在页面底部](#footer固定在页面底部)
+    * [借助`margin`](#借助margin)
+    * [借助`padding`](#借助padding)
+    * [使用`calc`计算属性](#使用calc计算属性)
+    * [使用`flex`布局](#使用flex布局)
+    * [使用`absolute`定位](#使用absolute定位)
+    * [使用`grid`网格布局](#使用grid网格布局)
+  * [`Footer`固定在浏览器窗口底部](#footer固定在浏览器窗口底部)
+    * [`fixed`定位](#fixed定位)
+    * [`absolute`定位](#absolute定位)
+    * [`flex`布局](#flex布局)
+    * [`calc`计算属性](#calc计算属性)
+
+
+
+
+
+
+
+
 
 
 * [HTML系列教程](https://www.w3school.com.cn/h.asp)
@@ -289,3 +310,401 @@ div:hover{
    overflow:visible;
 }
 ```
+
+## `Footer`固定在底部
+
+- `Sticky Footer`
+> 所谓`Sticky Footer`，并不是什么新的前端概念和技术，它指的就是一种网页效果： 
+>> 如果页面内容不足够长时，页脚固定在浏览器窗口的底部；
+>>
+>> 如果内容足够长时，页脚固定在页面的最底部。但如果网页内容不够长，置底的页脚就会保持在浏览器窗口底部。
+
+* [CSS-Footer底部固定实现](https://github.com/junruchen/junruchen.github.io/wiki/CSS-Footer%E5%BA%95%E9%83%A8%E5%9B%BA%E5%AE%9A%E5%AE%9E%E7%8E%B0)
+
+### `Footer`固定在页面底部
+
+#### 借助`margin`
+
+> 这是个比较主流的用法，把内容部分最小高度设为100%，
+> 再利用内容部分的负底部外边距值来达到当高度不满时，页脚保持在窗口底部，当高度超出则随之推出的效果。
+
+> 需要容器里有额外的占位元素（如.ph），以防止`content`区域的内容被`footer`覆盖
+
+
+```html
+<body>
+  <div class="content">
+    <div class="ph"></div>
+  </div>
+  <div class="footer"></div>
+</body>
+```
+
+- `div.content`使用`margin-bottom: -50px;`
+
+> 需要注意的是`.content`的`margin-bottom`值需要和`.footer`的负的`height`值保持一致，这一点不太友好。
+
+```css
+html {
+  height: 100%;
+}
+body {
+  height: 100%
+}
+.content {
+  width: 100%;
+  height: 500px; /*高度可由内容撑开*/
+  min-height: 100%;
+  margin-bottom: -50px;
+  background-color: #ccc;
+}
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #666;
+}
+.ph {
+  height: 50px; /*占位元素，与footer高度一致*/
+}
+```
+
+- `div.footer`使用`margin-top: -50px;`
+
+> 给内容外增加父元素，并让内容部分的底部内边距与页脚高度的值相等。
+
+```css
+html {
+  height: 100%;
+}
+body {
+  height: 100%
+}
+.content {
+  width: 100%;
+  height: 500px; /*高度可由内容撑开*/
+  min-height: 100%;
+  background-color: #ccc;
+}
+.footer {
+  width: 100%;
+  height: 50px;
+  margin-top: -50px;
+  background-color: #666;
+}
+.ph {
+  height: 50px; /*占位元素，与footer高度一致*/
+}
+```
+
+#### 借助`padding`
+
+> 使用`padding`实现`footer`置底，需要为`div.content`元素增加一个父元素，
+> 且需为`div.footer`元素设置`margin-top: -50px`来抵消使用`padding`产生的高度
+
+
+```html
+<style>
+    html {
+      height: 100%;
+    }
+    body {
+      height: 100%
+    }
+    .container {
+      width: 100%;
+      min-height: 100%;
+      background-color: #ccc;
+    }
+    .content {
+      width: 100%;
+      height: 500px; /*高度可由内容撑开*/
+      padding-bottom: 50px;
+    }
+    .footer {
+      width: 100%;
+      height: 50px;
+      margin-top: -50px; /*用来抵消content使用padding产生的高度*/
+      background-color: #666;
+    }
+</style>
+<body>
+  <div class="content">
+    <div class="push"></div>
+  </div>
+  <div class="footer"></div>
+</body>
+```
+
+
+#### 使用`calc`计算属性
+
+> `calc`的用法比较简单，但是需要注意`calc`与`(`之间不要有空格，另外运算符前后应该有空格。如：`min-height: calc(100% - 50px);`
+
+> 通过计算函数`calc`计算（视窗高度 - 页脚高度）赋予内容区最小高度，不需要任何额外样式处理，代码量最少、最简单。
+>
+> 如果不需考虑`calc()`以及`vh`单位的兼容情况，这是个很理想的实现方案。同样的问题是`footer`的高度值需要与`content`其中的计算值一致。
+
+
+
+```html
+<style>
+    html {
+      height: 100%;
+    }
+    body {
+      height: 100%
+    }
+    .content {
+      width: 100%;
+      height: 500px; /*高度可由内容撑开*/
+      min-height: calc(100% - 50px);
+      background-color: #ccc;
+    }
+    .footer {
+      width: 100%;
+      height: 50px;
+      background-color: #666;
+    }
+</style>
+<body>
+  <div class="content"></div>
+  <div class="footer"></div>
+</body>
+```
+
+#### 使用`flex`布局
+
+> `flex`布局`footer`的高度设置更加灵活，不需要设计计算，也不需要占位符。
+
+```html
+<style>
+    html {
+      height: 100%;
+    }
+    body {
+      height: 100%;
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: column;
+      -webkit-flex-direction: column; 
+    }
+    .content {
+      /* 使内容高度可以自由伸缩*/
+      flex: 1;
+      -webkit-flex: 1;
+      width: 100%;
+      height: 500px; /*高度可由内容撑开*/
+      background-color: #ccc;
+    }
+    .footer {
+      width: 100%;
+      height: 50px;
+      background-color: #666;
+    }
+</style>
+<body>
+  <div class="content"></div>
+  <div class="footer"></div>
+</body>
+```
+
+
+#### 使用`absolute`定位
+
+> 注意：`div.container`设置最小高度为`100%`，以保证当内容区高度小于浏览器高度时，`footer`仍位于底部
+
+> 这个方案需指定`html`、`body`的`100%`高度，且`content`的`padding-bottom`需要与`footer`的`height`一致。
+
+```html
+<style>
+    html {
+      height: 100%;
+    }
+    body {
+      height: 100%
+    }
+    .container {
+      position: relative;
+      min-height: 100%;
+    }
+    .content {
+      width: 100%;
+      height: 500px; /*高度可由内容撑开*/
+      background-color: #ccc;
+    }
+    .footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 50px;
+      background-color: #666;
+    }
+</style>
+<body>
+  <div class="container">
+    <div class="content"></div>
+    <div class="footer"></div>
+  </div>
+</body>
+```
+
+#### 使用`grid`网格布局
+
+```html
+<style>
+    html {
+      height: 100%;
+    }
+    body {
+      height: 100%;
+      display: grid;
+      grid-template-rows: 1fr auto;
+    }
+    .content {
+      width: 100%;
+      height: 500px; /*高度可由内容撑开*/
+      background-color: #ccc;
+    }
+    .footer {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      width: 100%;
+      height: 50px;
+      background-color: #666;
+    }
+</style>
+<body>
+  <div class="content"></div>
+  <div class="footer"></div>
+</body>
+```
+
+
+### `Footer`固定在浏览器窗口底部
+
+#### `fixed`定位
+
+
+```html
+<style>
+    html {
+      height: 100%;
+    }
+    body {
+      height: 100%;
+    }
+    .content {
+      width: 100%;
+      height: 500px;
+      background-color: #ccc;
+    }
+    .footer{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 50px;
+      background-color: #666;
+    }
+</style>
+<body>
+  <div class="content"></div>
+  <div class="footer"></div>
+</body>
+```
+
+#### `absolute`定位
+
+> `absolute`定位只能将`footer`置于底部，还需要将`div.content`设置为高度固定的可滚动区域，同理上述实现位于页面底部`footer`的方式，
+> 如：`flex`布局、`absolute`定位、`calc`计算属性，都可转换为固定在浏览器窗口底部的方法。
+
+```html
+<style>
+    html {
+      height: 100%;
+    }
+    body {
+      height: 100%;
+    }
+    .content {
+      width: 100%;
+      height: 100%;
+      overflow-y: auto;
+      background-color: #ccc;
+    }
+    .footer{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 50px;
+      background-color: #666;
+    }
+</style>
+<body>
+  <div class="content"></div>
+  <div class="footer"></div>
+</body>
+```
+
+
+#### `flex`布局
+
+```html
+<style>
+    html {
+      height: 100%;
+    }
+    body {
+      height: 100%;
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: column;
+      -webkit-flex-direction: column; 
+    }
+    .content {
+      flex: 1;
+      -webkit-flex: 1;
+      width: 100%;
+      height: 100%;
+      overflow-y: auto;
+      background-color: #ccc;
+    }
+    .footer{
+      width: 100%;
+      height: 50px;
+      background-color: #666;
+    }
+</style>
+<body>
+  <div class="content"></div>
+  <div class="footer"></div>
+</body>
+```
+
+#### `calc`计算属性
+```html
+<style>
+    html {
+      height: 100%;
+    }
+    body {
+      height: 100%;
+    }
+    .content {
+      width: 100%;
+      height: calc(100% - 50px);
+      overflow-y: auto;
+      background-color: #ccc;
+    }
+    .footer{
+      width: 100%;
+      height: 50px;
+      background-color: #666;
+    }
+</style>
+<body>
+  <div class="content"></div>
+  <div class="footer"></div>
+</body>
+```
+
+

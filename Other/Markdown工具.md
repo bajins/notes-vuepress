@@ -56,9 +56,7 @@
 
 
 ## 生成目录`TOC`
-```bash
-npm install -g doctoc
-```
+
 
 [tocdown](http://dohliam.github.io/tocdown/)
 [源码](https://github.com/dohliam/tocdown)
@@ -67,6 +65,8 @@ npm install -g doctoc
 [源码](https://github.com/magnetikonline/markdown-toc-generate)
 
 [tocenize](https://github.com/nochso/tocenize)
+
+[doctoc](https://github.com/thlorenz/doctoc)
 
 [MDToc](https://github.com/dkyaorui/MDToc)
 
