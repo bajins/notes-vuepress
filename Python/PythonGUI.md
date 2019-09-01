@@ -55,8 +55,18 @@
 > 这其实是一种异步的方法，适用于一个非GUI的处理过程要调用GUI的方法，或子线程调用主线程的方法，
 > 或在一个事件处理函数中异步调用另一个事件处理，还有就是上面的问题。这个方法使用很方便，不需要自定义事件，绑定事件，Post事件。
 
+> 示例：`wx.CallAfter(pub.sendMessage, "update", msg=text)`
+>> 订阅update主题并发送消息
+
+
 * `wx.FutureCall(milliseconds, callable, *args, **kwargs)`
 > 从wx.Timer中派生出来的，它的作用是在指定时间之后执行一个方法。
+
+* `pub.subscribe(self.update_display, "update")`
+> 发布一个叫update的主题，触发update_display函数
+
+* `pub.sendMessage("update", msg='测试', status=0)`
+> 给update主题发送消息，`msg`和`status`都是自定义键值对
 
 
 ### `wx.Event`的子类
@@ -389,7 +399,7 @@ class MainForm(wx.Frame):
         sizer2.Fit(self)
         self.Centre(wx.BOTH)
         self.m_button2.Bind(wx.EVT_BUTTON, self.on_button)
-
+        # 发布一个叫update的主题，触发update_display函数
         pub.subscribe(self.update_display, "update")
 
     def update_display(self, msg, status):
@@ -439,6 +449,7 @@ class MainThread(Thread):
         # 线程执行的代码
         for i in range(101):
             time.sleep(0.03)
+            # 订阅update主题
             wx.CallAfter(pub.sendMessage, "update", msg=i)
             time.sleep(0.5)
 
@@ -470,7 +481,7 @@ class MainForm(wx.Frame):
         sizer.Fit(self)
         self.Centre(wx.BOTH)
         self.m_button2.Bind(wx.EVT_BUTTON, self.on_button)
-
+        # 发布一个叫update的主题，触发update_display函数
         pub.subscribe(self.update_display, "update")
 
     def update_display(self, msg):
