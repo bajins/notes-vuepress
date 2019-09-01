@@ -156,14 +156,14 @@ pip3 install --ignore-installed 模块名
 >
 > 注意如果不是`https`协议网址需要加`--trusted-host`参数
 
-```bash
+```batch
 pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com requests
 ```
 
 #### 永久修改
 
 - 使用命令
-```batch
+```bash
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
@@ -174,11 +174,8 @@ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 vi ~/.pip/pip.conf 
 # windows环境
 %APPDATA%\Romaing\pip\pip.ini
-```
 
-- 添加或者修改
-
-```bash
+# 添加或者修改
 [global]
 index-url = http://mirrors.aliyun.com/pypi/simple/
 [install]
