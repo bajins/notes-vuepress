@@ -127,9 +127,7 @@ echo > /var/log/btmp
 # 清除最近登录信息
 echo > /var/log/lastlog
 
-rm -fr /var/log/boot.log-* /var/log/btmp-* /var/log/cron-* /var/log/maillog-* /var/log/messages-* /var/log/secure-* /var/log/spooler-* /var/log/xferlog-* /var/log/messages-* /var/log/multi-nic-util/*
-
-rm -fr /var/log/httpd/access_log-* /var/log/httpd/error_log-* /var/log/httpd/ssl_access_log-* /var/log/httpd/ssl_error_log-* /var/log/httpd/ssl_request_log-*
+rm -fr /var/log/*
 
 ```
 
