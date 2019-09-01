@@ -79,6 +79,8 @@
 
 ## Http
 
+* [flyio](https://wendux.github.io/dist/#/doc/flyio/readme)
+
 ### 请求头常量
 ```javascript
 /**
@@ -191,6 +193,29 @@ document.body.removeChild(downloadElement);
 // 释放掉blob对象
 window.URL.revokeObjectURL(href);
 ```
+
+### XMLHttpRequest
+
+* [XMLHttpRequest—必知必会](https://www.jianshu.com/p/918c63045bc3)
+
+* [XMLHttpRequest封装源码](https://github.com/yanxiaojun617/exercise/tree/master/src/20180410ajax)
+
+- http,XMLHttpRequest,Ajax的关系
+> http是浏览器和web服务器交换数据的协议,规范
+>
+> XMLHttpRequest是JavaScript的一个对象,是浏览器实现的一组api函数(方法),使用这些函数,浏览器再通过http协议请求和发送数据
+>> XMLHttpRequest请求数据>使用js操作dom
+>
+> Ajax不是一种技术,是综合多种技术实现交互的模式:用html+css展示页面>使用
+
+* [ajax和axios、fetch的区别](https://www.jianshu.com/p/8bc48f8fde75)
+
+* [Fetch API](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API)
+
+> fetch号称是AJAX的替代品，是在ES6出现的，使用了ES6中的promise对象。Fetch是基于promise设计的。
+> Fetch的代码结构比起ajax简单多了，参数有点像jQuery ajax。
+> fetch不是ajax的进一步封装，而是原生js，没有使用XMLHttpRequest对象。
+
 
 
 ## NodeJs
