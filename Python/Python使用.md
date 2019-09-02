@@ -318,6 +318,7 @@ datas=[('view/imges/*', '.'), ('view/static/logo.png','view/static/')],
 | -w  | 不显示命令行窗口      | 编写GUI程序时使用此参数有用。                  |
 | -i  | 为main.exe指定图标 | pyinstaller -i beauty.ico main.py |
 
+> 使用`-i`参数设置图标后，由于有缓存，需要移动一下生成的可执行程序的位置，才会显示自定义图标
 
 
 - Windows特有的参数
