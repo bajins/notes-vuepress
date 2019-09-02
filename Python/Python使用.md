@@ -2,6 +2,7 @@
 
 
 ## 目录
+
 * [CentOS7安装Python](#centos7安装python)
   * [源码安装](#源码安装)
     * [安装编译相关工具](#安装编译相关工具)
@@ -28,9 +29,15 @@
     * [安装](#安装)
     * [生成单文件](#生成单文件)
     * [生成安装目录](#生成安装目录)
-    * [其他参数](#其他参数)
+    * [静态文件处理](#静态文件处理)
+    * [参数](#参数)
+    * [问题](#问题)
   * [`py2exe`](#py2exe)
     * [`setup.py`](#setuppy)
+* [其他](#其他)
+  * [输入参数](#输入参数)
+
+
 
 
 
@@ -197,7 +204,9 @@ trusted-host=mirrors.aliyun.com
 > `PyInstaller`支持`Python 2.7`和`Python 3.4 +`。可以在`Windows`、`Mac OS X`和`Linux`上使用，
 > 但是并不是跨平台的，而是说你要是希望打包成`.exe`文件，需要在`Windows`系统上运行`PyInstaller`进行打包工作。
 
-[https://hoxis.github.io/python-pyinstaller.html](https://hoxis.github.io/python-pyinstaller.html)
+* [https://github.com/pyinstaller](https://github.com/pyinstaller)
+
+* [https://hoxis.github.io/python-pyinstaller.html](https://hoxis.github.io/python-pyinstaller.html)
 
 #### 安装
 ```bash
@@ -217,18 +226,156 @@ pyinstaller -F -w -n=BajinsWallpaper app.py
 ```bash
 pyinstaller -D -w -n=BajinsWallpaper app.py
 ```
-#### 其他参数
-| -h      | --help                 | 查看该模块的帮助信息                                                                      |
-|---------|------------------------|---------------------------------------------------------------------------------|
-| -F      | -onefile               | 产生单个的可执行文件                                                                      |
-| -D      | --onedir               | 产生一个目录（包含多个文件）作为可执行程序                                                           |
-| -a      | --ascii                | 不包含Unicode字符集支持                                                                 |
-| -D      | --debug                | 产生debug版本的可执行文件                                                                 |
-| -w      | --windowed,--noconsolc | 指定程序运行时不显示命令行窗口（仅对Windows有效）                                                    |
-| -c      | --nowindowed,--console | 指定使用命令行窗口运行程序（仅对Windows有效）                                                      |
-| -o DIR  | --outDIR               | 指定spec文件的生成目录。如果没有指定，则默认使用当前目录来生成spec文件                                         |
-| -p DIR  | --pathDIR              | 设置Python导入模块的路径（和设置PYTHONPATH环境变量的作用相似）。也可使用路径分隔符（Windows使用分号，Linux使用冒号）来分隔多个路径 |
-| -n NAME | --NAMENAME             | 指定项目（产生的spec）名字。如果省略该选项，那么第一个脚本的主文件名将作为spec的名字                                  |
+
+#### 静态文件处理
+
+- 在`.spec`后缀文件中修改`datas=[]`
+
+> 每一个文件用`(a,b)`进行描述，其中`a`是源文件，`b`是目标路径
+> 也就是最终打包`exe`执行时，它需要把这些静态资源解压出来，那么解压到哪里呢就需要`b`来指定，它是一个文件夹
+
+```bash
+datas=[('view/imges/*', '.'), ('view/static/logo.png','view/static/')],
+```
+- 使用`--add-data`命令参数
+> 其实就是修改`.spec`后缀文件中的`datas=[]`
+
+> `;`前面是本地文件路径，后面是打包中所处的位置
+
+```bash
+--add-data view\static\*;view\static --add-data "list.txt;."
+```
+
+#### 参数
+
+* [https://pyinstaller.readthedocs.io/en/latest/usage.html#options](https://pyinstaller.readthedocs.io/en/latest/usage.html#options)
+
+- 通用参数
+
+| 参数名              | 描述                             | 说明                                                                                |
+|------------------|--------------------------------|-----------------------------------------------------------------------------------|
+| -h               | 显示帮助                           | 无                                                                                 |
+| -v               | 显示版本号                          | 无                                                                                 |
+| –distpath        | 生成文件放在哪里                       | 默认：当前目录的dist文件夹内                                                                  |
+| –workpath        | 生成过程中的中间文件放在哪里                 | 默认：当前目录的build文件夹内                                                                 |
+| -y               | 如果dist文件夹内已经存在生成文件，则不询问用户，直接覆盖 | 默认：询问是否覆盖                                                                         |
+| –upx-dir UPX_DIR | 指定upx工具的目录                     | 默认：execution path                                                                 |
+| -a               | 不包含unicode支持                   | 默认：尽可能支持unicode                                                                   |
+| –clean           | 在本次编译开始时，清空上一次编译生成的各种文件        | 默认：不清除                                                                            |
+| –log-level LEVEL | 控制编译时pyi打印的信息                  | 一共有6个等级，由低到高分别为TRACE DEBUG INFO(默认) WARN ERROR CRITICAL。也就是默认清空下，不打印TRACE和DEBUG信息 |
+
+
+
+- 与生成结果有关的参数
+
+| 参数名       | 描述                  | 说明                                    |
+|-----------|---------------------|---------------------------------------|
+| -D        | 生成one-folder的程序（默认） | 生成结果是一个目录，各种第三方依赖、资源和exe同时存储在该目录      |
+| -F        | 生成one-file的程序       | 生成结果是一个exe文件，所有的第三方依赖、资源和代码均被打包进该exe内 |
+| –specpath | 指定.spec文件的存储路径      | 默认：当前目录                               |
+| -n        | 生成的.exe文件和.spec的文件名 | 默认：用户脚本的名称，即main.py和main.spec         |
+
+
+
+- 指定打包哪些资源、代码
+
+| 参数名                   | 描述                            | 说明                                                               |
+|-----------------------|-------------------------------|------------------------------------------------------------------|
+| –add-data             | 打包额外资源                        | 用法：pyinstaller main.py --add-data=src;dest。windows以;分割，linux以:分割 |
+| –add-binary           | 打包额外的代码                       | 用法：同–add-data。与–add-data不同的是，用binary添加的文件，pyi会分析它引用的文件并把它们一同添加进来 |
+| -p                    | 指定额外的import路径，类似于使用PYTHONPATH | 参见PYTHONPATH                                                     |
+| –hidden-import        | 打包额外py库                       | pyi在分析过程中，有些import没有正确分析出来，运行时会报import error，这时可以使用该参数           |
+| –additional-hooks-dir | 指定用户的hook目录                   | hook用法参见其他，系统hook在PyInstaller\hooks目录下                           |
+| –runtime-hook         | 指定用户runtime-hook              | 如果设置了此参数，则runtime-hook会在运行main.py之前被运行                           |
+| –exclude-module       | 需要排除的module                   | pyi会分析出很多相互关联的库，但是某些库对用户来说是没用的，可以用这个参数排除这些库，有助于减少生成文件的大小         |
+| –key                  | pyi会存储字节码，指定加密字节码的key         | 16位的字符串                                                          |
+
+
+
+- 生成参数
+
+| 参数名    | 描述                                | 说明                   |
+|--------|-----------------------------------|----------------------|
+| -d     | 执行生成的main.exe时，会输出pyi的一些log，有助于查错 | 默认：不输出pyi的log        |
+| -s     | 优化符号表                             | 原文明确表示不建议在windows上使用 |
+| –noupx | 强制不使用upx                          | 默认：尽可能使用。            |
+
+
+
+- 其他
+
+| 参数名             | 描述         | 说明          |
+|-----------------|------------|-------------|
+| –runtime-tmpdir | 指定运行时的临时目录 | 默认：使用系统临时目录 |
+
+
+
+- Windows和Mac特有的参数
+
+| 参数名 | 描述            | 说明                                |
+|-----|---------------|-----------------------------------|
+| -c  | 显示命令行窗口       | 与-w相反，默认含有此参数                     |
+| -w  | 不显示命令行窗口      | 编写GUI程序时使用此参数有用。                  |
+| -i  | 为main.exe指定图标 | pyinstaller -i beauty.ico main.py |
+
+
+
+- Windows特有的参数
+
+| 参数名            | 描述           | 说明                                 |
+|----------------|--------------|------------------------------------|
+| –version-file  | 添加版本信息文件     | pyinstaller --version-file ver.txt |
+| -m, --manifest | 添加manifest文件 | pyinstaller -m main.manifest       |
+| -r RESOURCE    | 请参考原文        |                                    |
+| –uac-admin     | 请参考原文        |                                    |
+| –uac-uiaccess  | 请参考原文        |                                    |
+
+
+
+
+#### 问题
+
+- 多进程multiprocessing，我们需要创建一个模块
+```python
+import os
+import sys
+import multiprocessing
+ 
+# Module multiprocessing is organized differently in Python 3.4+
+try:
+    # Python 3.4+
+    if sys.platform.startswith('win'):
+        import multiprocessing.popen_spawn_win32 as forking
+    else:
+        import multiprocessing.popen_fork as forking
+except ImportError:
+    import multiprocessing.forking as forking
+ 
+if sys.platform.startswith('win'):
+    # First define a modified version of Popen.
+    class _Popen(forking.Popen):
+        def __init__(self, *args, **kw):
+            if hasattr(sys, 'frozen'):
+                # We have to set original _MEIPASS2 value from sys._MEIPASS
+                # to get --onefile mode working.
+                os.putenv('_MEIPASS2', sys._MEIPASS)
+            try:
+                super(_Popen, self).__init__(*args, **kw)
+            finally:
+                if hasattr(sys, 'frozen'):
+                    # On some platforms (e.g. AIX) 'os.unsetenv()' is not
+                    # available. In those cases we cannot delete the variable
+                    # but only set it to the empty string. The bootloader
+                    # can handle this case.
+                    if hasattr(os, 'unsetenv'):
+                        os.unsetenv('_MEIPASS2')
+                    else:
+                        os.putenv('_MEIPASS2', '')
+ 
+    # Second override 'Popen' class with our modified version.
+    forking.Popen = _Popen
+ 
+```
 
 
 ### `py2exe`
