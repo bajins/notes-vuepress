@@ -83,7 +83,11 @@ module.exports = [
                         link: 'https://zh.nuxtjs.org/guide'
                     },
                     {
-                        text: '运行时驱动docsify',
+                        text: '静态编译Hexo',
+                        link: 'https://hexo.io/zh-cn/docs/'
+                    },
+                    {
+                        text: '运行时驱动Docsify',
                         link: 'https://docsify.js.org/#/zh-cn/'
                     },
                     {
