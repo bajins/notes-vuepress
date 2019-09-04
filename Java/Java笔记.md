@@ -312,7 +312,7 @@ String format = dFormat.format(money);
 | failOverReadOnly      | 自动重连成功后，连接是否设置为只读？                                              | TRUE  | 3.0.12 |
 | maxReconnects         | autoReconnect设置为true时，重试连接的次数                                   | 3     | 1.1    |
 | initialTimeout        | autoReconnect设置为true时，两次重连之间的时间间隔，单位：秒                          | 2     | 1.1    |
-| connectTimeout        | 和数据库服务器建立socket连接时的超时，单位：毫秒。 0表示永不超时，适用于JDK 1.4及更高版本 | 0     | 3.0.1  |
+| connectTimeout        | 和数据库服务器建立socket连接时的超时，单位：毫秒                               | 0     | 3.0.1  |
 | socketTimeout         | socket操作（读写）超时，单位：毫秒。 0表示永不超时                                   | 0     | 3.0.1  |
 | useSSL                | 是否进行ssl连接                                                       |       |        |
 | zeroDateTimeBehavior  | 把零值日期转换为`null`                                                  |       |        |
