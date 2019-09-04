@@ -26,13 +26,7 @@ Path
 ;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATALINA_HOME%\bin;
 ```
 
-### [JavaFX开发](/Java/JavaFX.md)
-
-### [Java笔记](/Java/Java笔记.md)
-
-### [项目收集](/Java/项目收集.md)
-
-### [Tomcat优化](/Java/Tomcat优化.md)
+* [https://github.com/zq99299/java-tutorial](https://github.com/zq99299/java-tutorial)
 
 ## 前端框架
 ### WEB
