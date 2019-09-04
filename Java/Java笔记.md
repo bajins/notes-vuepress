@@ -298,7 +298,7 @@ String format = dFormat.format(money);
 
 ## 连接MySQL
 
-> `jdbc:mysql://134.175.35.55:3306/test?useUnicode=true&characterEncoding=UTF-8`
+> `jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8`
 > `&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai`
 
 | 参数名称                  | 参数说明                                    | 缺省值   | 最低版本要求 |
