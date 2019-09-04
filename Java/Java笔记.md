@@ -154,6 +154,8 @@ public static Date toDayEnd(Date date) {
 
 ### JDK8日期时间API
 
+* [jdk8时间日期](https://codertang.com/2018/12/24/jdk8-datetime/)
+
 > 可变性 : 像日期和时间这样的类应该是不可变的,返回一个值,原来的对象不变
 >
 > 偏移性 : Date中的年份是从1900开始的,而月份是从0开始的
@@ -189,6 +191,24 @@ public static Date toDayEnd(Date date) {
 | Duration      | 持续时间,用于计算两个"时间"的间隔                        |
 | Period        | 日期间隔,用于计算两个"日期"的间隔                        |
 | Clock         | 使用时区提供对当前即时，日期和时间的访问                      |
+
+
+#### 方法前缀
+
+| 前缀     | 含义                       | 示例                                                           |
+|--------|--------------------------|--------------------------------------------------------------|
+| now    | 静态工厂方法, 用当前时间创建实例        | LocalDate.now();                                             |
+| of     | 静态工厂方法                   | LocalDate.of(2018, 12, 20);                                  |
+| parse  | 静态工厂方法, 关注于解析            | LocalDate.parse("2018-12-20");                               |
+| get    | 获取某个字段的值                 | localDate.getYear();                                         |
+| is     | 比对判断                     | localDate.isAfter(LocalDate.now());                          |
+| with   | 基于当前实例创建新的实例, 但部分字段被更新   | localDate.withMonth(3);                                      |
+| plus   | 在当前实例基础上增加(值可负), 返回新实例   | localDate.plusDays(1);                                       |
+| minus  | 在当前实例基础上减小(值可负), 返回新实例   | localDate.minusDays(1);                                      |
+| to     | 基于当前实例转换出另一个类型的实例        | localDateTime.toLocalDate();                                 |
+| at     | 把当前对象和另一个对象结合, 生成新的类型的实例 | localDate.atTime(21, 30, 50)                                 |
+| format | 格式化                      | localDate.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")); |
+
 
 
 
