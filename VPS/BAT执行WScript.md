@@ -213,9 +213,9 @@ function help() {
 /**
  * HTTP请求
  *
- * @param method
- * @param url
- * @param dataType
+ * @param method GET,POST
+ * @param url 
+ * @param dataType '',text,stream,xml,json
  * @returns {string|Document|any}
  */
 function request(method, url, dataType) {
@@ -355,9 +355,9 @@ function help() {
 /**
  * HTTP请求
  *
- * @param method
- * @param url
- * @param dataType
+ * @param method GET,POST
+ * @param url 
+ * @param dataType '',text,stream,xml,json
  * @returns {string|Document|any}
  */
 function request(method, url, dataType) {
