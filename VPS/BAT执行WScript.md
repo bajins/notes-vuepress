@@ -75,6 +75,9 @@ WScript
 
 * [ActiveXObject](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Microsoft_Extensions/ActiveXObject)
 
+* [ActiveXObject对象使用整理](https://blog.csdn.net/chen_zw/article/details/9336375)
+
+
 ### 下载文件
 
 - 方式一
@@ -269,10 +272,11 @@ function request(method, url, dataType) {
 
 /**
  * 下载文件
- * 
+ *
  * @param url
  * @param directory 文件存储目录
- * @param filename 文件名，为空默认截取url中的文件名
+ * @param filename  文件名，为空默认截取url中的文件名
+ * @returns {string}
  */
 function download(url, directory, filename) {
     if (directory == '') {
@@ -281,7 +285,7 @@ function download(url, directory, filename) {
 
     var objFSO = new ActiveXObject("Scripting.FileSystemObject");
     // 如果目录不存在
-    if (!objFSO.FolderExists(directory)){
+    if (!objFSO.FolderExists(directory)) {
         // 创建目录
         var strFolderName = objFSO.CreateFolder(directory);
     }
@@ -298,6 +302,12 @@ function download(url, directory, filename) {
     ADO.Write(request('GET', url, ''));
     ADO.SaveToFile(path, 2);
     ADO.Close();
+
+    // 如果文件不存在
+    if (!objFSO.FileExists(path)) {
+        return "";
+    }
+    return path;
 }
 ```
 
@@ -437,10 +447,11 @@ function request(method, url, dataType) {
 
 /**
  * 下载文件
- * 
+ *
  * @param url
  * @param directory 文件存储目录
- * @param filename 文件名，为空默认截取url中的文件名
+ * @param filename  文件名，为空默认截取url中的文件名
+ * @returns {string}
  */
 function download(url, directory, filename) {
     if (directory == '') {
@@ -449,7 +460,7 @@ function download(url, directory, filename) {
 
     var objFSO = new ActiveXObject("Scripting.FileSystemObject");
     // 如果目录不存在
-    if (!objFSO.FolderExists(directory)){
+    if (!objFSO.FolderExists(directory)) {
         // 创建目录
         var strFolderName = objFSO.CreateFolder(directory);
     }
@@ -466,6 +477,12 @@ function download(url, directory, filename) {
     ADO.Write(request('GET', url, ''));
     ADO.SaveToFile(path, 2);
     ADO.Close();
+
+    // 如果文件不存在
+    if (!objFSO.FileExists(path)) {
+        return "";
+    }
+    return path;
 }
 ```
 
