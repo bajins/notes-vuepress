@@ -70,6 +70,8 @@ WScript
 
 * [JScript](https://www.itminus.com/blog/categories/%E9%A3%8E%E8%AF%AD/ECMAScript/JScript/)
 
+* [ActiveXObject](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Microsoft_Extensions/ActiveXObject)
+
 ### 下载文件
 
 - 方式一
