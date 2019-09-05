@@ -77,7 +77,7 @@ WScript
 - 方式一
 
 ```batch
-1>1/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+1>1/* ::
 ::  bajins 1.0.0  by bajins https://batch.bajins.com
 :: 首发兼更新地址:https://batch.bajins.com
 ::
@@ -132,7 +132,7 @@ sGet.Close();
 - 方式二
 
 ```batch
-1>1/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+1>1/* ::
 ::  bajins 1.0.0  by bajins https://batch.bajins.com
 :: 首发兼更新地址:https://batch.bajins.com
 ::
@@ -272,7 +272,7 @@ function download(url, path) {
 
 - 方式三
 ```batch
-1>1/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+1>1/* ::
 ::  bajins 1.0.0  by bajins https://batch.bajins.com
 :: 首发兼更新地址:https://batch.bajins.com
 ::

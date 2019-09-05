@@ -45,7 +45,7 @@ go build -o key-gin.exe main.go
 > 只需在项目目录中新建一个bat文件把以下脚本命令放入，且修改`files`变量执行脚本即可打包
 
 ```batch
-1>1/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+1>1/* ::
 :: by bajins https://www.bajins.com
 
 @echo off
@@ -162,7 +162,7 @@ sGet.Close();
 * [脚本文件](/files/7z_pack_go.bat)
 
 ```batch
-1>1/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+1>1/* ::
 :: by bajins https://www.bajins.com
 
 @echo off
