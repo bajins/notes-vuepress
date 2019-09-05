@@ -77,6 +77,8 @@ WScript
 
 * [ActiveXObject对象使用整理](https://blog.csdn.net/chen_zw/article/details/9336375)
 
+* [Windows Image Acquisition](https://blog.csdn.net/AMinfo/article/details/8100436)
+[WIA图片处理](https://blog.csdn.net/AMinfo/article/details/8100460)
 
 ### 下载文件
 

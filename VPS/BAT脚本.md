@@ -511,6 +511,9 @@ dir /ad test >nul 2>nul && (
 
 * [Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html) [bcn](http://bcn.bathome.net/s/tool/index.html)
 
+* [转换位图图像](https://imagemagick.org/index.php)
+
+
 ## 下载文件
 
 - 推荐使用`bat`脚本执行`JavaScript`脚本下载文件
