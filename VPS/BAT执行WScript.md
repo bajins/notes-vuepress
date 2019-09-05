@@ -190,7 +190,18 @@ var func = ArgvName.Item('func');
 if (func == "help") {
     help();
 } else if (func == "download") {
-    download(ArgvName.Item('url'), ArgvName.Item('path'));
+    var currentDirectory = "";
+    var filename = "";
+    var path = ArgvName.Item('path');
+    if(path == ''){
+        var FSO = new ActiveXObject('Scripting.FileSystemObject');
+        currentDirectory = FSO.GetFile(WScript.ScriptFullName).ParentFolder.Path;
+    }else{
+        var endString = path.lastIndexOf("\\");
+        currentDirectory = path.substring(0, endString);
+        filename = path.substring(endString);
+    }
+    download(ArgvName.Item('url'), currentDirectory, filename);
 } else if (func == "error") {
     error(ArgvName.Item('msg'));
 } else if (func == "info") {
@@ -256,19 +267,28 @@ function request(method, url, dataType) {
 }
 
 
-function download(url, path) {
-    var FSO = new ActiveXObject('Scripting.FileSystemObject');
-    var SavePath = FSO.GetFile(WScript.ScriptFullName).ParentFolder.Path;
-    if (path != '') {
-        SavePath = path;
+/**
+ * 下载文件
+ * 
+ * @param url
+ * @param directory 文件存储目录
+ * @param filename 文件名，为空默认截取url中的文件名
+ */
+function download(url, directory, filename) {
+    if (directory == '') {
+        throw new Error("文件存储目录不能为空！");
     }
-    SavePath = SavePath + "\\" + url.substring(url.lastIndexOf("/") + 1);
+    var path = directory + "\\" + filename;
+    if (filename == '') {
+        path = directory + url.substring(url.lastIndexOf("/") + 1);
+    }
+
     var ADO = new ActiveXObject('ADODB.Stream');
     ADO.Mode = 3;
     ADO.Type = 1;
     ADO.Open();
-    ADO.Write(request('GET',url,''));
-    ADO.SaveToFile(SavePath, 2);
+    ADO.Write(request('GET', url, ''));
+    ADO.SaveToFile(path, 2);
     ADO.Close();
 }
 ```
@@ -332,7 +352,17 @@ if (func == "help") {
 } else if (func == "download") {
     var url = Argv(1);
     var path = Argv(2);
-    download(url, path);
+    var currentDirectory = "";
+    var filename = "";
+    if(path == ''){
+        var FSO = new ActiveXObject('Scripting.FileSystemObject');
+        currentDirectory = FSO.GetFile(WScript.ScriptFullName).ParentFolder.Path;
+    }else{
+        var endString = path.lastIndexOf("\\");
+        currentDirectory = path.substring(0, endString);
+        filename = path.substring(endString);
+    }
+    download(url, currentDirectory, filename);
 } else if (func == "error") {
     error(Argv(1));
 } else if (func == "info") {
@@ -397,20 +427,28 @@ function request(method, url, dataType) {
     }
 }
 
-
-function download(url, path) {
-    var FSO = new ActiveXObject('Scripting.FileSystemObject');
-    var SavePath = FSO.GetFile(WScript.ScriptFullName).ParentFolder.Path;
-    if (path != '') {
-        SavePath = path;
+/**
+ * 下载文件
+ * 
+ * @param url
+ * @param directory 文件存储目录
+ * @param filename 文件名，为空默认截取url中的文件名
+ */
+function download(url, directory, filename) {
+    if (directory == '') {
+        throw new Error("文件存储目录不能为空！");
     }
-    SavePath = SavePath + "\\" + url.substring(url.lastIndexOf("/") + 1);
+    var path = directory + "\\" + filename;
+    if (filename == '') {
+        path = directory + url.substring(url.lastIndexOf("/") + 1);
+    }
+
     var ADO = new ActiveXObject('ADODB.Stream');
     ADO.Mode = 3;
     ADO.Type = 1;
     ADO.Open();
-    ADO.Write(request('GET',url,''));
-    ADO.SaveToFile(SavePath, 2);
+    ADO.Write(request('GET', url, ''));
+    ADO.SaveToFile(path, 2);
     ADO.Close();
 }
 ```
