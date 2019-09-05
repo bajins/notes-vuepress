@@ -170,6 +170,12 @@ ls -l | grep test | awk '{print $5}' | sed -n '2p'
 >
 > `i` 插入
 
+#### 切分字符串取出最后一段
+```bash
+echo "1:3:5" | awk -F ":" '{print $NF}'
+echo "1:3:5" | sed 's/.*:\([^:]*\)$/\1/'
+echo "1:3:5" | cut -d : -f 3
+```
 
 #### 过滤多个结果
 ```bash

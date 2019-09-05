@@ -55,7 +55,9 @@ if not exist "%~dp0$testAdmin$" (
     exit /b 1
 ) else rd "%~dp0$testAdmin$"
 
-:: 开启延迟环境变量扩展（解决for或if中操作变量时提示ECHO OFF问题，用!!取变量）
+:: 开启延迟环境变量扩展
+:: 解决for或if中操作变量时提示ECHO OFF问题，用!!取变量
+:: 解决调用jscript提示命令错误问题
 setlocal enabledelayedexpansion
 
 :: 执行7z命令，但是不输出，这是为了判断
@@ -170,7 +172,9 @@ if not exist "%~dp0$testAdmin$" (
     exit /b 1
 ) else rd "%~dp0$testAdmin$"
 
-:: 开启延迟环境变量扩展（解决for或if中操作变量时提示ECHO OFF问题，用!!取变量）
+:: 开启延迟环境变量扩展
+:: 解决for或if中操作变量时提示ECHO OFF问题，用!!取变量
+:: 解决调用jscript提示命令错误问题
 setlocal enabledelayedexpansion
 
 if "%~1"=="/?" (

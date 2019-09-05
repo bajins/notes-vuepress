@@ -94,7 +94,6 @@ DROP USER 'username'@'host';
 > 当数据库存在用户的时候GRANT会对用户进行授权，但当数据库不存在该用户的时候，就会创建相应的用户并进行授权。
 `WITH GRANT OPTION`这个选项表示该用户可以将自己拥有的权限授权给别人
 
-```
 #### 创建用户并权限：
 ```sql
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '密码' WITH GRANT OPTION;

@@ -20,11 +20,12 @@
 
 ## 获取frp最新版本号
 ```bash
-wget -qO- https://github.com/fatedier/frp/releases/latest | grep "<title>" |sed -r 's/.*Release (.> ) · fatedier.*/\1/'
+wget -qO- https://github.com/fatedier/frp/releases/latest | grep '<title>' | awk '{print $2}'
+curl -s https://github.com/fatedier/frp/releases/latest | cut -d \" -f 2 | awk -F "/" '{print $NF}'
 ```
 ```bash
-curl -s https://api.github.com/repos/fatedier/frp/releases/latest --connect-timeout 10| grep 'tag_name' | cut -d\" -f4
-wget -qO- https://api.github.com/repos/fatedier/frp/releases/latest --connect-timeout 10| grep 'tag_name' | cut -d\" -f4
+curl -s https://api.github.com/repos/fatedier/frp/releases/latest | grep 'tag_name' | cut -d \" -f 4
+wget -qO- https://api.github.com/repos/fatedier/frp/releases/latest | grep 'tag_name' | cut -d \" -f 4
 ```
 ## 一键安装脚本
 * [onekey-install-shell](https://github.com/clangcn/onekey-install-shell/tree/master/frps)

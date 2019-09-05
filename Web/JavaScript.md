@@ -531,6 +531,7 @@ String.prototype.endWithRegExp = function (str) {
     let reg = new RegExp(str + "$");
     return reg.test(this);
 }
+
 /**
  * 给String对象增加一个原型方法:
  * 判断一个字符串是以指定字符串开头的
@@ -541,10 +542,36 @@ String.prototype.endWithRegExp = function (str) {
  * @author claer woytu.com
  * @date 2019/5/24 11:22
  */
-
 String.prototype.startWithRegExp = function (str) {
     let reg = new RegExp("^" + str);
     return reg.test(this);
+}
+Array.prototype.contains = function(val) {
+     for (let i = 0; i < this.length; i++) {
+       if (this[i] == val) {
+           return true;
+       }
+     }
+     return false;
+};
+
+/**
+ * 给数组对象增加一个原型方法:
+ * 判断一个数组中是否存在某个元素
+ *
+ * @param val 元素
+ * @return boolean 是否以该字符串开头
+ * @Description
+ * @author claer woytu.com
+ * @date 2019/5/24 11:22
+ */
+Array.prototype.contains = function(val) {
+     for (let i = 0; i < this.length; i++) {
+       if (this[i] == val) {
+           return true;
+       }
+     }
+     return false;
 }
 
 

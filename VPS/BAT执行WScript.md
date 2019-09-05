@@ -1,5 +1,15 @@
 # BAT执行WScript
 
+## 目录
+
+* [JScript](#jscript)
+  * [下载文件](#下载文件)
+* [VisualBasicScript](#visualbasicscript)
+  * [输入内容到记事本](#输入内容到记事本)
+  * [Windows特殊文件夹](#windows特殊文件夹)
+  * [隐藏运行](#隐藏运行)
+
+
 
 ## JScript
 
@@ -80,7 +90,9 @@ if not exist "%~dp0$testAdmin$" (
     exit /b 1
 ) else rd "%~dp0$testAdmin$"
 
-:: 开启延迟环境变量扩展（解决for或if中操作变量时提示ECHO OFF问题，用!!取变量）
+:: 开启延迟环境变量扩展
+:: 解决for或if中操作变量时提示ECHO OFF问题，用!!取变量
+:: 解决调用jscript提示命令错误问题
 setlocal enabledelayedexpansion
 
 :: cscript -nologo -e:jscript "%~f0" 这一段是执行命令，后面的是参数
@@ -133,7 +145,9 @@ if not exist "%~dp0$testAdmin$" (
     exit /b 1
 ) else rd "%~dp0$testAdmin$"
 
-:: 开启延迟环境变量扩展（解决for或if中操作变量时提示ECHO OFF问题，用!!取变量）
+:: 开启延迟环境变量扩展
+:: 解决for或if中操作变量时提示ECHO OFF问题，用!!取变量
+:: 解决调用jscript提示命令错误问题
 setlocal enabledelayedexpansion
 
 if "%~1"=="/?" (
@@ -194,6 +208,49 @@ function help() {
     info("     path 下载的文件保存地址，不传则保存到当前文件夹");
 }
 
+/**
+ * HTTP请求
+ *
+ * @param method
+ * @param url
+ * @param dataType
+ * @returns {string|Document|any}
+ */
+function request(method, url, dataType) {
+    // 把字符串转换为大写
+    method = method.toUpperCase();
+    // 把字符串转换为小写
+    dataType = dataType.toLowerCase();
+
+    if ((method != 'GET' && method != 'POST') || method == '') {
+        throw new Error("请求方法错误！");
+    }
+    if (url == '') {
+        throw new Error("请求url不能为空！");
+    }
+
+    var XMLHTTP = new ActiveXObject('Microsoft.XMLHTTP');
+    XMLHTTP.Open(method, url, 0);
+    XMLHTTP.Send();
+
+    if (dataType == '') {
+        return XMLHTTP.responseBody;
+    }
+    if (dataType == 'text') {
+        return XMLHTTP.responseText;
+    }
+    if (dataType == 'stream') {
+        return XMLHTTP.responseStream;
+    }
+    if (dataType == 'xml') {
+        return XMLHTTP.responseXML;
+    }
+    if (dataType == 'json') {
+        return eval('(' + XMLHTTP.responseText + ')');
+    }
+}
+
+
 function download(url, path) {
     var FSO = new ActiveXObject('Scripting.FileSystemObject');
     var SavePath = FSO.GetFile(WScript.ScriptFullName).ParentFolder.Path;
@@ -204,14 +261,11 @@ function download(url, path) {
     //下载方式,留空则使用内建下载.可以使用其他第三方,例:'wget -q "$URL" -O "$SavePath"'
     var DownMode = '';
     if (DownMode == '') {
-        var XMLHTTP = new ActiveXObject('Microsoft.XMLHTTP');
-        XMLHTTP.Open('GET', url, 0);
-        XMLHTTP.Send();
         var ADO = new ActiveXObject('ADODB.Stream');
         ADO.Mode = 3;
         ADO.Type = 1;
         ADO.Open();
-        ADO.Write(XMLHTTP.ResponseBody);
+        ADO.Write(request('GET',url,''));
         ADO.SaveToFile(SavePath, 2);
         ADO.Close();
     } else {
@@ -238,7 +292,9 @@ if not exist "%~dp0$testAdmin$" (
     exit /b 1
 ) else rd "%~dp0$testAdmin$"
 
-:: 开启延迟环境变量扩展（解决for或if中操作变量时提示ECHO OFF问题，用!!取变量）
+:: 开启延迟环境变量扩展
+:: 解决for或if中操作变量时提示ECHO OFF问题，用!!取变量
+:: 解决调用jscript提示命令错误问题
 setlocal enabledelayedexpansion
 
 if "%~1"=="/?" (
@@ -301,6 +357,49 @@ function help() {
     info("     path 下载的文件保存地址，不传则保存到当前文件夹");
 }
 
+/**
+ * HTTP请求
+ *
+ * @param method
+ * @param url
+ * @param dataType
+ * @returns {string|Document|any}
+ */
+function request(method, url, dataType) {
+    // 把字符串转换为大写
+    method = method.toUpperCase();
+    // 把字符串转换为小写
+    dataType = dataType.toLowerCase();
+
+    if ((method != 'GET' && method != 'POST') || method == '') {
+        throw new Error("请求方法错误！");
+    }
+    if (url == '') {
+        throw new Error("请求url不能为空！");
+    }
+
+    var XMLHTTP = new ActiveXObject('Microsoft.XMLHTTP');
+    XMLHTTP.Open(method, url, 0);
+    XMLHTTP.Send();
+
+    if (dataType == '') {
+        return XMLHTTP.responseBody;
+    }
+    if (dataType == 'text') {
+        return XMLHTTP.responseText;
+    }
+    if (dataType == 'stream') {
+        return XMLHTTP.responseStream;
+    }
+    if (dataType == 'xml') {
+        return XMLHTTP.responseXML;
+    }
+    if (dataType == 'json') {
+        return eval('(' + XMLHTTP.responseText + ')');
+    }
+}
+
+
 function download(url, path) {
     var FSO = new ActiveXObject('Scripting.FileSystemObject');
     var SavePath = FSO.GetFile(WScript.ScriptFullName).ParentFolder.Path;
@@ -311,14 +410,11 @@ function download(url, path) {
     //下载方式,留空则使用内建下载.可以使用其他第三方,例:'wget -q "$URL" -O "$SavePath"'
     var DownMode = '';
     if (DownMode == '') {
-        var XMLHTTP = new ActiveXObject('Microsoft.XMLHTTP');
-        XMLHTTP.Open('GET', url, 0);
-        XMLHTTP.Send();
         var ADO = new ActiveXObject('ADODB.Stream');
         ADO.Mode = 3;
         ADO.Type = 1;
         ADO.Open();
-        ADO.Write(XMLHTTP.ResponseBody);
+        ADO.Write(request('GET',url,''));
         ADO.SaveToFile(SavePath, 2);
         ADO.Close();
     } else {

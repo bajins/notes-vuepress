@@ -42,6 +42,15 @@
 
 
 
+## 执行bash
+### 安装Git
+
+* [https://git-scm.com/download/win](https://git-scm.com/download/win)
+
+```batch
+"%ProgramFiles%\Git\bin\bash.exe" -c "命令"
+```
+
 
 ## 常见问题
 - `if`和`for`的条件与后面跟的`(`之间必须要有一个空格，否则会出现`命令语法不正确`的问题！
@@ -440,7 +449,10 @@ if defined error (
 :: 解决把中文写入文件乱码问题（声明采用UTF-8编码），936为GBK，437为美国英语
 :: https://blog.csdn.net/python_class/article/details/81560470
 chcp 65001
-:: 开启延迟环境变量扩展（解决for或if中操作变量时提示ECHO OFF问题，用!!取变量）
+
+:: 开启延迟环境变量扩展
+:: 解决for或if中操作变量时提示ECHO OFF问题，用!!取变量
+:: 解决调用jscript提示命令错误问题
 setlocal EnableDelayedExpansion
 
 set file=%~dp0nav.md
