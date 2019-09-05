@@ -278,6 +278,14 @@ function download(url, directory, filename) {
     if (directory == '') {
         throw new Error("文件存储目录不能为空！");
     }
+
+    var objFSO = new ActiveXObject("Scripting.FileSystemObject");
+    // 如果目录不存在
+    if (!objFSO.FolderExists(directory)){
+        // 创建目录
+        var strFolderName = objFSO.CreateFolder(directory);
+    }
+
     var path = directory + "\\" + filename;
     if (filename == '') {
         path = directory + url.substring(url.lastIndexOf("/") + 1);
@@ -438,6 +446,14 @@ function download(url, directory, filename) {
     if (directory == '') {
         throw new Error("文件存储目录不能为空！");
     }
+
+    var objFSO = new ActiveXObject("Scripting.FileSystemObject");
+    // 如果目录不存在
+    if (!objFSO.FolderExists(directory)){
+        // 创建目录
+        var strFolderName = objFSO.CreateFolder(directory);
+    }
+
     var path = directory + "\\" + filename;
     if (filename == '') {
         path = directory + url.substring(url.lastIndexOf("/") + 1);
