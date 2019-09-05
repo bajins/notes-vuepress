@@ -88,7 +88,7 @@ WScript
 @echo off
 md "%~dp0$testAdmin$" 2>nul
 if not exist "%~dp0$testAdmin$" (
-    echo bajins不具备所在目录的写入权限! >&2
+    echo 不具备所在目录的写入权限! >&2
     exit /b 1
 ) else rd "%~dp0$testAdmin$"
 
@@ -143,7 +143,7 @@ sGet.Close();
 @echo off
 md "%~dp0$testAdmin$" 2>nul
 if not exist "%~dp0$testAdmin$" (
-    echo bajins不具备所在目录的写入权限! >&2
+    echo 不具备所在目录的写入权限! >&2
     exit /b 1
 ) else rd "%~dp0$testAdmin$"
 
@@ -283,7 +283,7 @@ function download(url, path) {
 @echo off
 md "%~dp0$testAdmin$" 2>nul
 if not exist "%~dp0$testAdmin$" (
-    echo bajins不具备所在目录的写入权限! >&2
+    echo 不具备所在目录的写入权限! >&2
     exit /b 1
 ) else rd "%~dp0$testAdmin$"
 
