@@ -3,28 +3,14 @@
 
 > CentOS官方已宣布在2020年停止对CentOS6的维护更新，各大软件开发商也逐渐停止对CentOS6的兼容，建议使用CentOS7
 
-[Linux命令](/VPS/Linux命令.md)
 
-[测试脚本](/VPS/测试脚本.md)
+* [showdoc](https://github.com/star7th/showdoc)
 
-[CentOS7内核升级](/VPS/CentOS7内核升级.md)
-
-[CentOS.md](/VPS/CentOS.md)
-
-[CentOS7安装MySQL](/VPS/CentOS7安装MySQL.md)
-
-[CentOS7配置Tomcat](/VPS/CentOS7配置Tomcat.md)
-
-[CentOS7配置SVN](/VPS/CentOS7配置SVN.md)
 
 ## 网络测试
 [speedtest](https://github.com/adolfintel/speedtest)
 
 [LookingGlass-Gayyi](https://github.com/ILLKX/LookingGlass-Gayyi)
-
-[路由跟踪](/VPS/路由跟踪.md)
-
---------------------------------------------------------------------------------------------------------
 
 [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625/)
 
