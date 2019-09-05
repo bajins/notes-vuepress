@@ -260,20 +260,13 @@ function download(url, path) {
         SavePath = path;
     }
     SavePath = SavePath + "\\" + url.substring(url.lastIndexOf("/") + 1);
-    //下载方式,留空则使用内建下载.可以使用其他第三方,例:'wget -q "$URL" -O "$SavePath"'
-    var DownMode = '';
-    if (DownMode == '') {
-        var ADO = new ActiveXObject('ADODB.Stream');
-        ADO.Mode = 3;
-        ADO.Type = 1;
-        ADO.Open();
-        ADO.Write(request('GET',url,''));
-        ADO.SaveToFile(SavePath, 2);
-        ADO.Close();
-    } else {
-        var WShell = new ActiveXObject('WScript.Shell');
-        WShell.Run(DownMode.replace(/\$URL/, url).replace(/\$SavePath/, SavePath), 0, true);
-    }
+    var ADO = new ActiveXObject('ADODB.Stream');
+    ADO.Mode = 3;
+    ADO.Type = 1;
+    ADO.Open();
+    ADO.Write(request('GET',url,''));
+    ADO.SaveToFile(SavePath, 2);
+    ADO.Close();
 }
 ```
 
@@ -409,20 +402,13 @@ function download(url, path) {
         SavePath = path;
     }
     SavePath = SavePath + "\\" + url.substring(url.lastIndexOf("/") + 1);
-    //下载方式,留空则使用内建下载.可以使用其他第三方,例:'wget -q "$URL" -O "$SavePath"'
-    var DownMode = '';
-    if (DownMode == '') {
-        var ADO = new ActiveXObject('ADODB.Stream');
-        ADO.Mode = 3;
-        ADO.Type = 1;
-        ADO.Open();
-        ADO.Write(request('GET',url,''));
-        ADO.SaveToFile(SavePath, 2);
-        ADO.Close();
-    } else {
-        var WShell = new ActiveXObject('WScript.Shell');
-        WShell.Run(DownMode.replace(/\$URL/, url).replace(/\$SavePath/, SavePath), 0, true);
-    }
+    var ADO = new ActiveXObject('ADODB.Stream');
+    ADO.Mode = 3;
+    ADO.Type = 1;
+    ADO.Open();
+    ADO.Write(request('GET',url,''));
+    ADO.SaveToFile(SavePath, 2);
+    ADO.Close();
 }
 ```
 
