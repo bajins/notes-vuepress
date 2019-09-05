@@ -169,3 +169,16 @@ g++ test.cpp -o test.exe
 
 [中国科学技术大学MSYS2镜像](http://mirrors.ustc.edu.cn/help/msys2.html)
 
+
+### 命令
+- `pacman -S <packge-name>` 安装软件
+- `pacman -U <gz-file>` 安装本地包，其扩展名为`pkg.tar.gz`  
+- `pacman -Syu` 同步`Msys2`源，并更新
+- `pacman -Sy` 仅同步源
+- `pacman -Su` 更新系统
+- `pacman -Sy <packge-name>` 同步源后再安装软件
+- `pacman -R <packge-name>` 该命令将只删除包，不包含该包的依赖。
+- `pacman -Rs <packge-name>` 在删除包的同时，也将删除其依赖。
+- `pacman -Rd <packge-name>` 在删除包时不检查依赖。
+- `pacman -Ss <keywords>` 这将搜索含关键字的包。
+- `pacman -Qi <packge-name>` 查看有关包的信息。
