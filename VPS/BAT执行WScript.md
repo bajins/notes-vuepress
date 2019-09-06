@@ -64,6 +64,48 @@ WScript
     - `Helper Functions`：执行诸如映射网络驱动器、连接打印机、获取/修改环境变量、操作注册表之类操作
 
 
+### HTTP对象
+
+> `XMLHttpRequest`是基于`WinInet`封装的，而`WinHttpRequest`和`ServerXMLHTTPRequest`则是基于`WinHTTP`封装的
+> 稳定性属`XMLHttpRequest`为最差,封装成`COM`形式主要是为了方便`js`、`vbs`等脚本的调用，还具有易书写、降低开发难度等许多特点
+
+> 微软提供了二套API：`WinINet`, `WinHTTP`（分别封装于`system32`目录下的`wininet.dll`和`winhttp.dll`内）
+> 二者主要区别在于后者更为安全和稳定，可以说`WinHTTP`是`WinINet`的升级版
+
+> `XMLRequest`成员参考缺点：和浏览器挂钩，大多情况下会共享`cookies`、`session`，不支持单独设置代理。
+> 优点：和浏览器挂钩，大多情况下会共享`cookies`、`session`
+  
+> `ServerXMLHTTP`成员参考缺点：系统没有对应`dll`的情况下程序需要外挂一个dll文件。优点：脱离浏览器，使用代理方便
+  
+> `WinHttpRequest`成员参考缺点：暂无。优点：脱离浏览器，使用代理方便，
+> `WinHttp.WinHttpRequest.5.1`是`msxml4.0`的底层对象，也就是说`XMLHTTP`、`ServerXMLHTTP`也是在它的基础上封装而来
+
+
+* [WinHTTP版本](https://docs.microsoft.com/zh-cn/windows/win32/winhttp/winhttp-versions)
+
+#### 对象版本和封装位置
+
+- `XMLHttpRequest`对象版本和对应的封装dll文件
+    - `Microsoft.XMLHTTP` 对应 `msxml.dll`
+    - `MSXML2.XMLHTTP` 对应 `msxml2.dll`
+    - `MSXML2.XMLHTTP.3.0` 对应 `msxml3.dll`
+    - `MSXML2.XMLHTTP.4.0` 对应 `msxml4.dll`
+    - `MSXML2.XMLHTTP.5.0` 对应 `msxml5.dll`（此版本是伴随office2007发布的，所以目录下可能找不到该版本的dll）
+    - `MSXML2.XMLHTTP.6.0` 对应 `msxml6.dll`
+
+> 如上各个dll的发布一般都是以补丁的形式发布，win7默认都集成
+
+- `ServerXMLHTTP`对象版本和对应的封装dll文件
+    - `Msxml2.ServerXMLHTTP` 对应 `msxml2.dll`（win7自带，下同！）
+    - `Msxml2.ServerXMLHTTP.3.0` 对应 `msxml3.dll`
+    - `Msxml2.ServerXMLHTTP.4.0` 对应 `msxml4.dll`
+    - `Msxml2.ServerXMLHTTP.5.0` 对应 `msxml5.dll`
+    - `Msxml2.ServerXMLHTTP.6.0` 对应 `msxml6.dll`
+
+- `WinHttpRequest`对象`WinHttp.WinHttpRequest.5.1` 对应 `Winhttp.dll`
+
+
+
 - `BAT`执行`JScript`原理
 > 把`batch`命令用`JavaScript`注释`/**/`包裹住，然后用`batch`命令执行文件中的`JavaScript`代码时就不会编译`batch`命令了
 >> `1>1/* ::`文件的开头
@@ -219,12 +261,13 @@ function request(method, url, dataType, data, contentType) {
     }
     var params = paramarray.join("&");
 
-    var XMLHTTP = new ActiveXObject("Microsoft.XMLHTTP");
+    var XMLHTTP = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 
     switch (method) {
         case "POST":
             // 0异步、1同步
             XMLHTTP.Open(method, url, 0);
+            XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send(params);
             break;
         default:
@@ -235,6 +278,7 @@ function request(method, url, dataType, data, contentType) {
             } else {
                 XMLHTTP.Open(method, url + "?" + datapost, 0);
             }
+            XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send();
     }
 
@@ -277,10 +321,12 @@ function download(url, directory, filename) {
         var strFolderName = objFSO.CreateFolder(directory);
     }
 
-    var path = directory + "\\" + filename;
     if (filename == "" || filename == null || filename.length <= 0) {
-        path = directory + url.substring(url.lastIndexOf("/") + 1);
+        filename = url.substring(url.lastIndexOf("/") + 1);
+        // 去掉文件名的特殊符号（包括之前的）字符
+        filename = filename.replace(/^.*(\&|\=|\?|\/)/ig, "");
     }
+    var path = directory + "\\" + filename;
 
     var ADO = new ActiveXObject("ADODB.Stream");
     ADO.Mode = 3;
@@ -416,7 +462,34 @@ function getSystem() {
 }
 ```
 
+- 解压zip
 
+```js
+/**
+ * 解压zip
+ * 
+ * @param zipFile       zip文件全路径
+ * @param unDirectory   解压目录
+ */
+function unZip(zipFile, unDirectory) {
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    if (!fso.FileExists(zipFile)) {
+        throw new Error("压缩文件不存在！");
+    }
+    if (fso.GetExtensionName(zipFile) != "zip") {
+        throw new Error("压缩文件后缀不为zip！");
+    }
+    // 如果解压目录不存在
+    if (!fso.FolderExists(unDirectory)){
+        // 创建目录
+        fso.CreateFolder(unDirectory);
+    }
+
+    var objShell = new ActiveXObject("Shell.Application");
+    var objSource = objShell.NameSpace(zipFile);
+    objShell.NameSpace(unDirectory).CopyHere(objSource.Items(), 256);
+}
+```
 
 
 
@@ -494,7 +567,7 @@ var iRemote = Argv(0);
 iRemote = iRemote.toLowerCase();
 var iLocal = Argv(1);
 iLocal = iLocal.toLowerCase()+ "\\" + iRemote.substring(iRemote.lastIndexOf("/") + 1);
-var xPost = new ActiveXObject("Microsoft.XMLHTTP");
+var xPost = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 xPost.Open("GET", iRemote, 0);
 xPost.Send();
 var sGet = new ActiveXObject("ADODB.Stream");
@@ -560,19 +633,23 @@ for (i = 0; i < Argv.Length; i++) {
     info("参数：" + Argv(i));
 }
 
+var fso = new ActiveXObject("Scripting.FileSystemObject");
+// 当前文件所在目录
+var currentDirectory = fso.GetFile(WScript.ScriptFullName).ParentFolder.Path;
+// 当前文件路径
+var thisPath = fso.GetFile(WScript.ScriptFullName).path;
+
 if (Argv(0) == "1") {
     // 设置开机启动
     var shell = new ActiveXObject("WScript.shell");
     // HKEY_CURRENT_USER
-    shell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\BajinsWallpaper", "%0");
+    shell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\BajinsWallpaper", thisPath);
 } else if (Argv(0) == "?" || Argv(0) == "help") {
     help();
     // 正常退出
     WScript.Quit(0);
 }
 
-var FSO = new ActiveXObject("Scripting.FileSystemObject");
-var currentDirectory = FSO.GetFile(WScript.ScriptFullName).ParentFolder.Path;
 var json = request("GET", "https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1", "json");
 
 var imageUrl = "https://cn.bing.com" + json.images[0].url.split("&")[0];
@@ -643,12 +720,13 @@ function request(method, url, dataType, data, contentType) {
     }
     var params = paramarray.join("&");
 
-    var XMLHTTP = new ActiveXObject("Microsoft.XMLHTTP");
+    var XMLHTTP = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 
     switch (method) {
         case "POST":
             // 0异步、1同步
             XMLHTTP.Open(method, url, 0);
+            XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send(params);
             break;
         default:
@@ -659,6 +737,7 @@ function request(method, url, dataType, data, contentType) {
             } else {
                 XMLHTTP.Open(method, url + "?" + datapost, 0);
             }
+            XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send();
     }
 
@@ -701,10 +780,12 @@ function download(url, directory, filename) {
         var strFolderName = objFSO.CreateFolder(directory);
     }
 
-    var path = directory + "\\" + filename;
     if (filename == "" || filename == null || filename.length <= 0) {
-        path = directory + url.substring(url.lastIndexOf("/") + 1);
+        filename = url.substring(url.lastIndexOf("/") + 1);
+        // 去掉文件名的特殊符号（包括之前的）字符
+        filename = filename.replace(/^.*(\&|\=|\?|\/)/ig, "");
     }
+    var path = directory + "\\" + filename;
 
     var ADO = new ActiveXObject("ADODB.Stream");
     ADO.Mode = 3;
