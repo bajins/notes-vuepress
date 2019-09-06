@@ -3,6 +3,8 @@
 ## 目录
 
 * [JScript](#jscript)
+  * [参数传递](#参数传递)
+  * [函数封装](#函数封装)
   * [下载文件](#下载文件)
   * [设置必应壁纸](#设置必应壁纸)
 * [VisualBasicScript](#visualbasicscript)
@@ -81,64 +83,18 @@ WScript
 * [Windows Image Acquisition](https://blog.csdn.net/AMinfo/article/details/8100436)
 [WIA图片处理](https://blog.csdn.net/AMinfo/article/details/8100460)
 
-### 下载文件
-
-- 方式一
-
-```batch
-1>1/* ::
-::  by bajins https://www.bajins.com
-::
-:: 使用时请将bajins.bat放入任意一个PATH中的目录以便调用
-:: 但请确保bajins.bat拥有该目录的读写权限(因此最好不要选择system32)
-:: 建议新建一个目录专供bajins.bat使用,再将这个目录添加到PATH中
-
-@echo off
-md "%~dp0$testAdmin$" 2>nul
-if not exist "%~dp0$testAdmin$" (
-    echo 不具备所在目录的写入权限! >&2
-    exit /b 1
-) else rd "%~dp0$testAdmin$"
-
-:: 开启延迟环境变量扩展
-:: 解决for或if中操作变量时提示ECHO OFF问题，用!!取变量
-:: 解决调用jscript提示命令错误问题
-setlocal enabledelayedexpansion
-
-:: cscript -nologo -e:jscript "%~f0" 这一段是执行命令，后面的是参数
-:: %~f0 表示当前批处理的绝对路径,去掉引号的完整路径
-cscript -nologo -e:jscript "%~f0" %~1 %~2
-goto :EXIT
-
-:EXIT
-:: 结束延迟环境变量扩展和命令执行
-endlocal&exit /b %errorlevel%
-*/
-
-// ****************************  JavaScript  *******************************
-
-var iRemote = WScript.Arguments(0);
-iRemote = iRemote.toLowerCase();
-var iLocal = WScript.Arguments(1);
-iLocal = iLocal.toLowerCase()+ "\\" + iRemote.substring(iRemote.lastIndexOf("/") + 1);
-var xPost = new ActiveXObject("Microsoft.XMLHTTP");
-xPost.Open("GET", iRemote, 0);
-xPost.Send();
-var sGet = new ActiveXObject("ADODB.Stream");
-sGet.Mode = 3;
-sGet.Type = 1;
-sGet.Open();
-sGet.Write(xPost.responseBody);
-sGet.SaveToFile(iLocal, 2);
-sGet.Close();
-```
+* [Wscript.Shell 对象详细介绍](https://www.jb51.net/article/5683_all.htm)
 
 
 
-> 以下两种方式仅是传参和取参方式的不同
+
+### 参数传递
+
 
 - 方式二
 
+> 传参时指定键值，组成方式：/key:value
+
 ```batch
 1>1/* ::
 ::  by bajins https://www.bajins.com
@@ -158,19 +114,6 @@ if not exist "%~dp0$testAdmin$" (
 :: 解决for或if中操作变量时提示ECHO OFF问题，用!!取变量
 :: 解决调用jscript提示命令错误问题
 setlocal enabledelayedexpansion
-
-if "%~1"=="/?" (
-    cscript -nologo -e:jscript "%~f0" /func:help
-    goto :EXIT
-)
-if "%~1"=="" (
-    cscript -nologo -e:jscript "%~f0" /func:help
-    goto :EXIT
-)
-if "%~2"=="" (
-    cscript -nologo -e:jscript "%~f0" /func:help
-    goto :EXIT
-)
 
 :: cscript -nologo -e:jscript "%~f0" 这一段是执行命令，后面的是参数（组成方式：/key:value）
 :: %~f0 表示当前批处理的绝对路径,去掉引号的完整路径
@@ -191,43 +134,63 @@ for (i = 0; i < Argv.Length; i++) {
 var ArgvName = Argv.Named;
 
 var func = ArgvName.Item('func');
-if (func == "help") {
-    help();
-} else if (func == "download") {
-    var currentDirectory = "";
-    var filename = "";
-    var path = ArgvName.Item('path');
-    if(path == ''){
-        var FSO = new ActiveXObject('Scripting.FileSystemObject');
-        currentDirectory = FSO.GetFile(WScript.ScriptFullName).ParentFolder.Path;
-    }else{
-        var endString = path.lastIndexOf("\\");
-        currentDirectory = path.substring(0, endString);
-        filename = path.substring(endString);
-    }
-    download(ArgvName.Item('url'), currentDirectory, filename);
-} else if (func == "error") {
-    error(ArgvName.Item('msg'));
-} else if (func == "info") {
-    info(ArgvName.Item('msg'));
-}
-WScript.Quit(0);
+var path = ArgvName.Item('path');
 
-function error(msg) {
-    WScript.StdErr.WriteLine(msg);
+```
+
+- 方式三
+
+> 无键，直接传入值
+
+```batch
+1>1/* ::
+::  by bajins https://www.bajins.com
+::
+:: 使用时请将bajins.bat放入任意一个PATH中的目录以便调用
+:: 但请确保bajins.bat拥有该目录的读写权限(因此最好不要选择system32)
+:: 建议新建一个目录专供bajins.bat使用,再将这个目录添加到PATH中
+
+@echo off
+md "%~dp0$testAdmin$" 2>nul
+if not exist "%~dp0$testAdmin$" (
+    echo 不具备所在目录的写入权限! >&2
+    exit /b 1
+) else rd "%~dp0$testAdmin$"
+
+:: 开启延迟环境变量扩展
+:: 解决for或if中操作变量时提示ECHO OFF问题，用!!取变量
+:: 解决调用jscript提示命令错误问题
+setlocal enabledelayedexpansion
+
+:: cscript -nologo -e:jscript "%~f0" 这一段是执行命令，后面的是参数
+:: %~f0 表示当前批处理的绝对路径,去掉引号的完整路径
+cscript -nologo -e:jscript "%~f0" download %~1 %~2 %~3 %~4 %~5 %~6 %~7 %~8 %~9
+goto :EXIT
+
+:EXIT
+:: 结束延迟环境变量扩展和命令执行
+endlocal&exit /b %errorlevel%
+*/
+
+// ****************************  JavaScript  *******************************
+
+
+var Argv = WScript.Arguments;
+for (i = 0; i < Argv.Length; i++) {
+    info("参数：" + Argv(i));
 }
 
-function info(msg) {
-    WScript.StdOut.WriteLine(msg);
-}
+var func = Argv(0);
+var url = Argv(1);
+var path = Argv(2);
 
-function help() {
-    info("基本用法:");
-    info("   下载: bajins url path");
-    info("     url 下载链接");
-    info("     path 下载的文件保存地址，不传则保存到当前文件夹");
-}
+```
 
+
+
+### 函数封装
+- HTTP请求
+```js
 /**
  * HTTP请求
  *
@@ -335,7 +298,130 @@ function download(url, directory, filename) {
 }
 ```
 
-- 方式三
+- 图片格式转换
+```js
+/**
+ * 图片格式转换
+ *
+ * @param imagePath 原始图片全路径
+ * @param format    要转换的格式，后缀名
+ * @returns {string}
+ */
+function imageTransform(imagePath, format) {
+    var objFSO = new ActiveXObject("Scripting.FileSystemObject");
+    // 如果文件不存在,就说明没有转换成功
+    if (!objFSO.FileExists(imagePath)) {
+        throw new Error("图片不存在或路径错误！");
+    }
+    // 转换后格式文件全路径
+    var formatPath = imagePath.replace(/(.+)\.[^\.]+$/, '$1') + '.' + format;
+    // 如果转换后文件已存在
+    if (objFSO.FileExists(formatPath)) {
+        throw new Error("要转换的格式文件已经存在！");
+    }
+
+    // 转小写
+    format = format.toLowerCase();
+
+    var wiaFormat = "";
+    switch (format) {
+        case 'bmp':
+            wiaFormat = "{B96B3CAB-0728-11D3-9D7B-0000F81EF32E}";
+            break;
+        case 'png':
+            wiaFormat = "{B96B3CAF-0728-11D3-9D7B-0000F81EF32E}";
+            break;
+        case 'gif':
+            wiaFormat = "{B96B3CB0-0728-11D3-9D7B-0000F81EF32E}";
+            break;
+        case 'tiff':
+            wiaFormat = "{B96B3CB1-0728-11D3-9D7B-0000F81EF32E}";
+            break;
+        default:
+            // 默认JPEG
+            wiaFormat = "{B96B3CAE-0728-11D3-9D7B-0000F81EF32E}";
+    }
+
+
+    var img = new ActiveXObject('WIA.ImageFile');
+    img.LoadFile(imagePath);
+
+    var imgps = new ActiveXObject('WIA.ImageProcess');
+    imgps.Filters.Add(imgps.FilterInfos('Convert').FilterID);
+    // 转换格式
+    imgps.Filters(1).Properties('FormatID').Value = wiaFormat;
+    // 图片质量
+    //imgps.Filters(1).Properties("Quality").Value = 5
+    var img = imgps.Apply(img);
+
+
+    img.SaveFile(formatPath);
+
+    // 如果文件不存在,就说明没有转换成功
+    if (!objFSO.FileExists(formatPath)) {
+        return "";
+    }
+
+    return formatPath;
+}
+
+```
+
+- 设置壁纸
+```js
+/**
+ * 设置桌面壁纸
+ *
+ * @param imagesPath 图片全路径
+ */
+function setWallpaper(imagesPath) {
+    var shell = new ActiveXObject("WScript.shell");
+    // HKEY_CURRENT_USER
+    shell.RegWrite("HKCU\\Control Panel\\Desktop\\TileWallpaper", "0");
+    // 设置壁纸全路径
+    shell.RegWrite("HKCU\\Control Panel\\Desktop\\Wallpaper", imagesPath);
+    shell.RegWrite("HKCU\\Control Panel\\Desktop\\WallpaperStyle", "2", "REG_DWORD");
+    shell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\ListviewShadow", "1", "REG_DWORD");
+
+    // 如果桌面图标未透明，需要刷新组策略
+    shell.Run("gpupdate /force", 0);
+    // 实时刷新桌面
+    shell.Run("RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters");
+}
+```
+
+- 获取系统信息
+
+```js
+/**
+ * 获取系统信息
+ * 
+ * @returns {{cpu_digits: *, cpu_core_number: *, system: string, os: *}}
+ */
+function getSystem() {
+    var shell = new ActiveXObject("WScript.shell");
+    var system = shell.Environment("SYSTEM");
+    // 操作系统
+    var os = system("OS").toLowerCase().split("_")[0];
+    // CPU位数
+    var cpuDigits = system("PROCESSOR_ARCHITECTURE").toLowerCase();
+    // CPU核心数
+    var cpuCoreNumber = system("NUMBER_OF_PROCESSORS");
+    return {
+        "os": os,
+        "cpu_digits": cpuDigits,
+        "cpu_core_number": cpuCoreNumber,
+        "system": os + "_" + cpuDigits
+    };
+}
+```
+
+
+
+
+
+### 下载文件
+
 ```batch
 1>1/* ::
 ::  by bajins https://www.bajins.com
@@ -360,18 +446,14 @@ if "%~1"=="/?" (
     cscript -nologo -e:jscript "%~f0" help
     goto :EXIT
 )
-if "%~1"=="" (
-    cscript -nologo -e:jscript "%~f0" help
-    goto :EXIT
-)
-if "%~2"=="" (
+if "%~1"=="/help" (
     cscript -nologo -e:jscript "%~f0" help
     goto :EXIT
 )
 
 :: cscript -nologo -e:jscript "%~f0" 这一段是执行命令，后面的是参数
 :: %~f0 表示当前批处理的绝对路径,去掉引号的完整路径
-cscript -nologo -e:jscript "%~f0" download %~1 %~2 %~3 %~4 %~5 %~6 %~7 %~8 %~9
+cscript -nologo -e:jscript "%~f0" %~1 %~2
 goto :EXIT
 
 :EXIT
@@ -381,35 +463,17 @@ endlocal&exit /b %errorlevel%
 
 // ****************************  JavaScript  *******************************
 
-
 var Argv = WScript.Arguments;
 for (i = 0; i < Argv.Length; i++) {
     info("参数：" + Argv(i));
 }
 
 var func = Argv(0);
-if (func == "help") {
+if (func == "?" || func == "help") {
     help();
-} else if (func == "download") {
-    var url = Argv(1);
-    var path = Argv(2);
-    var currentDirectory = "";
-    var filename = "";
-    if(path == ''){
-        var FSO = new ActiveXObject('Scripting.FileSystemObject');
-        currentDirectory = FSO.GetFile(WScript.ScriptFullName).ParentFolder.Path;
-    }else{
-        var endString = path.lastIndexOf("\\");
-        currentDirectory = path.substring(0, endString);
-        filename = path.substring(endString);
-    }
-    download(url, currentDirectory, filename);
-} else if (func == "error") {
-    error(Argv(1));
-} else if (func == "info") {
-    info(Argv(1));
+    // 正常退出
+    WScript.Quit(0);
 }
-WScript.Quit(0);
 
 function error(msg) {
     WScript.StdErr.WriteLine(msg);
@@ -421,116 +485,28 @@ function info(msg) {
 
 function help() {
     info("基本用法:");
-    info("   下载: bajins url path");
-    info("     url 下载链接");
-    info("     path 下载的文件保存地址，不传则保存到当前文件夹");
+    info("   下载: BajinsTool url path");
+    info("     url  下载链接地址");
+    info("     path 存储文件位置");
 }
 
-/**
- * HTTP请求
- *
- * @param method        GET,POST
- * @param url           请求地址
- * @param dataType      '',text,stream,xml,json
- * @param data          数据，{key:value}格式
- * @param contentType   发送的数据类型：默认application/x-www-form-urlencoded、multipart/form-data、text/plain
- * @returns {string|Document|any}
- */
-function request(method, url, dataType, data, contentType) {
-    // 把字符串转换为大写
-    method = method == null ? "GET" : method.toUpperCase();
-    // 把字符串转换为小写
-    dataType = dataType.toLowerCase();
-    contentType = contentType == null ? "application/x-www-form-unlenconded;charset=utf-8" : contentType;
-
-    if (url == '') {
-        throw new Error("请求url不能为空！");
-    }
-
-    //将对象转化成为querystring形式
-    var paramarray = [];
-    for (key in data) {
-        paramarray.push(key + '=' + data[key]);
-    }
-    var params = paramarray.join('&');
-
-    var XMLHTTP = new ActiveXObject('Microsoft.XMLHTTP');
-
-    switch (method) {
-        case 'POST':
-            // 0异步、1同步
-            XMLHTTP.Open(method, url, 0);
-            XMLHTTP.Send(params);
-            break;
-        default:
-            // 默认GET请求
-            if (params == '' || params.length == 0) {
-                // 0异步、1同步
-                XMLHTTP.Open(method, url, 0);
-            } else {
-                XMLHTTP.Open(method, url + '?' + datapost, 0);
-            }
-            XMLHTTP.Send();
-    }
-
-    switch (dataType) {
-        case 'text':
-            return XMLHTTP.responseText;
-            break;
-        case 'stream':
-            return XMLHTTP.responseStream;
-            break;
-        case 'xml':
-            return XMLHTTP.responseXML;
-            break;
-        case 'json':
-            return eval('(' + XMLHTTP.responseText + ')');
-            break;
-        default:
-            return XMLHTTP.responseBody;
-    }
-}
-
-/**
- * 下载文件
- *
- * @param url
- * @param directory 文件存储目录
- * @param filename  文件名，为空默认截取url中的文件名
- * @returns {string}
- */
-function download(url, directory, filename) {
-    if (directory == '') {
-        throw new Error("文件存储目录不能为空！");
-    }
-
-    var objFSO = new ActiveXObject("Scripting.FileSystemObject");
-    // 如果目录不存在
-    if (!objFSO.FolderExists(directory)) {
-        // 创建目录
-        var strFolderName = objFSO.CreateFolder(directory);
-    }
-
-    var path = directory + "\\" + filename;
-    if (filename == '') {
-        path = directory + url.substring(url.lastIndexOf("/") + 1);
-    }
-
-    var ADO = new ActiveXObject('ADODB.Stream');
-    ADO.Mode = 3;
-    ADO.Type = 1;
-    ADO.Open();
-    ADO.Write(request('GET', url, ''));
-    ADO.SaveToFile(path, 2);
-    ADO.Close();
-
-    // 如果文件不存在
-    if (!objFSO.FileExists(path)) {
-        return "";
-    }
-    return path;
-}
+var iRemote = Argv(0);
+iRemote = iRemote.toLowerCase();
+var iLocal = Argv(1);
+iLocal = iLocal.toLowerCase()+ "\\" + iRemote.substring(iRemote.lastIndexOf("/") + 1);
+var xPost = new ActiveXObject("Microsoft.XMLHTTP");
+xPost.Open("GET", iRemote, 0);
+xPost.Send();
+var sGet = new ActiveXObject("ADODB.Stream");
+sGet.Mode = 3;
+sGet.Type = 1;
+sGet.Open();
+sGet.Write(xPost.responseBody);
+sGet.SaveToFile(iLocal, 2);
+sGet.Close();
 ```
+
+
 
 
 ### 设置必应壁纸
