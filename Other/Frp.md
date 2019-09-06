@@ -574,8 +574,8 @@ function run(){
     shell.Run("cmd.exe /c move " + exeFolder + "\\frpc.exe " + currentDirectory, 0, true);
     // 删除下载的zip
     shell.Run("cmd.exe /c del " + currentDirectory + "\\" + zipName, 0, true);
-    // 删除解压的目录
-    shell.Run("cmd.exe /c del " + exeFolder, 0, true);
+    // 删除解压的目录，rd/s/q物理删除
+    shell.Run("cmd.exe /c rmdir /s/q " + exeFolder, 0, true);
     // 运行程序
     //shell.Run(exeFolder + "\\frpc.exe -c " + exeFolder + "\\frpc.ini", 0, TRUE);
 }
