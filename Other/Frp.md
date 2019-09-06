@@ -505,6 +505,13 @@ if (ArgvName.Item("help") != "" || ArgvName.Item("help") != null) {
     WScript.Quit(0);
 }
 
+if (ArgvName.Item("autoRun") == "1") {
+    // 设置开机启动
+    var shell = new ActiveXObject("WScript.shell");
+    // HKEY_CURRENT_USER
+    shell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\BajinsWallpaper", thisPath);
+}
+
 
 run();
 
