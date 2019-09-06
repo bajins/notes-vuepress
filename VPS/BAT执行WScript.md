@@ -4,6 +4,7 @@
 
 * [JScript](#jscript)
   * [下载文件](#下载文件)
+  * [设置必应壁纸](#设置必应壁纸)
 * [VisualBasicScript](#visualbasicscript)
   * [输入内容到记事本](#输入内容到记事本)
   * [Windows特殊文件夹](#windows特殊文件夹)
@@ -86,8 +87,7 @@ WScript
 
 ```batch
 1>1/* ::
-::  bajins 1.0.0  by bajins https://batch.bajins.com
-:: 首发兼更新地址:https://batch.bajins.com
+::  by bajins https://www.bajins.com
 ::
 :: 使用时请将bajins.bat放入任意一个PATH中的目录以便调用
 :: 但请确保bajins.bat拥有该目录的读写权限(因此最好不要选择system32)
@@ -141,8 +141,7 @@ sGet.Close();
 
 ```batch
 1>1/* ::
-::  bajins 1.0.0  by bajins https://batch.bajins.com
-:: 首发兼更新地址:https://batch.bajins.com
+::  by bajins https://www.bajins.com
 ::
 :: 使用时请将bajins.bat放入任意一个PATH中的目录以便调用
 :: 但请确保bajins.bat拥有该目录的读写权限(因此最好不要选择system32)
@@ -232,42 +231,65 @@ function help() {
 /**
  * HTTP请求
  *
- * @param method GET,POST
- * @param url 
- * @param dataType '',text,stream,xml,json
+ * @param method        GET,POST
+ * @param url           请求地址
+ * @param dataType      '',text,stream,xml,json
+ * @param data          数据，{key:value}格式
+ * @param contentType   发送的数据类型：默认application/x-www-form-urlencoded、multipart/form-data、text/plain
  * @returns {string|Document|any}
  */
-function request(method, url, dataType) {
+function request(method, url, dataType, data, contentType) {
     // 把字符串转换为大写
-    method = method.toUpperCase();
+    method = method == null ? "GET" : method.toUpperCase();
     // 把字符串转换为小写
     dataType = dataType.toLowerCase();
+    contentType = contentType == null ? "application/x-www-form-unlenconded;charset=utf-8" : contentType;
 
-    if ((method != 'GET' && method != 'POST') || method == '') {
-        throw new Error("请求方法错误！");
-    }
     if (url == '') {
         throw new Error("请求url不能为空！");
     }
 
-    var XMLHTTP = new ActiveXObject('Microsoft.XMLHTTP');
-    XMLHTTP.Open(method, url, 0);
-    XMLHTTP.Send();
+    //将对象转化成为querystring形式
+    var paramarray = [];
+    for (key in data) {
+        paramarray.push(key + '=' + data[key]);
+    }
+    var params = paramarray.join('&');
 
-    if (dataType == '') {
-        return XMLHTTP.responseBody;
+    var XMLHTTP = new ActiveXObject('Microsoft.XMLHTTP');
+
+    switch (method) {
+        case 'POST':
+            // 0异步、1同步
+            XMLHTTP.Open(method, url, 0);
+            XMLHTTP.Send(params);
+            break;
+        default:
+            // 默认GET请求
+            if (params == '' || params.length == 0) {
+                // 0异步、1同步
+                XMLHTTP.Open(method, url, 0);
+            } else {
+                XMLHTTP.Open(method, url + '?' + datapost, 0);
+            }
+            XMLHTTP.Send();
     }
-    if (dataType == 'text') {
-        return XMLHTTP.responseText;
-    }
-    if (dataType == 'stream') {
-        return XMLHTTP.responseStream;
-    }
-    if (dataType == 'xml') {
-        return XMLHTTP.responseXML;
-    }
-    if (dataType == 'json') {
-        return eval('(' + XMLHTTP.responseText + ')');
+
+    switch (dataType) {
+        case 'text':
+            return XMLHTTP.responseText;
+            break;
+        case 'stream':
+            return XMLHTTP.responseStream;
+            break;
+        case 'xml':
+            return XMLHTTP.responseXML;
+            break;
+        case 'json':
+            return eval('(' + XMLHTTP.responseText + ')');
+            break;
+        default:
+            return XMLHTTP.responseBody;
     }
 }
 
@@ -316,8 +338,7 @@ function download(url, directory, filename) {
 - 方式三
 ```batch
 1>1/* ::
-::  bajins 1.0.0  by bajins https://batch.bajins.com
-:: 首发兼更新地址:https://batch.bajins.com
+::  by bajins https://www.bajins.com
 ::
 :: 使用时请将bajins.bat放入任意一个PATH中的目录以便调用
 :: 但请确保bajins.bat拥有该目录的读写权限(因此最好不要选择system32)
@@ -408,42 +429,65 @@ function help() {
 /**
  * HTTP请求
  *
- * @param method GET,POST
- * @param url 
- * @param dataType '',text,stream,xml,json
+ * @param method        GET,POST
+ * @param url           请求地址
+ * @param dataType      '',text,stream,xml,json
+ * @param data          数据，{key:value}格式
+ * @param contentType   发送的数据类型：默认application/x-www-form-urlencoded、multipart/form-data、text/plain
  * @returns {string|Document|any}
  */
-function request(method, url, dataType) {
+function request(method, url, dataType, data, contentType) {
     // 把字符串转换为大写
-    method = method.toUpperCase();
+    method = method == null ? "GET" : method.toUpperCase();
     // 把字符串转换为小写
     dataType = dataType.toLowerCase();
+    contentType = contentType == null ? "application/x-www-form-unlenconded;charset=utf-8" : contentType;
 
-    if ((method != 'GET' && method != 'POST') || method == '') {
-        throw new Error("请求方法错误！");
-    }
     if (url == '') {
         throw new Error("请求url不能为空！");
     }
 
-    var XMLHTTP = new ActiveXObject('Microsoft.XMLHTTP');
-    XMLHTTP.Open(method, url, 0);
-    XMLHTTP.Send();
+    //将对象转化成为querystring形式
+    var paramarray = [];
+    for (key in data) {
+        paramarray.push(key + '=' + data[key]);
+    }
+    var params = paramarray.join('&');
 
-    if (dataType == '') {
-        return XMLHTTP.responseBody;
+    var XMLHTTP = new ActiveXObject('Microsoft.XMLHTTP');
+
+    switch (method) {
+        case 'POST':
+            // 0异步、1同步
+            XMLHTTP.Open(method, url, 0);
+            XMLHTTP.Send(params);
+            break;
+        default:
+            // 默认GET请求
+            if (params == '' || params.length == 0) {
+                // 0异步、1同步
+                XMLHTTP.Open(method, url, 0);
+            } else {
+                XMLHTTP.Open(method, url + '?' + datapost, 0);
+            }
+            XMLHTTP.Send();
     }
-    if (dataType == 'text') {
-        return XMLHTTP.responseText;
-    }
-    if (dataType == 'stream') {
-        return XMLHTTP.responseStream;
-    }
-    if (dataType == 'xml') {
-        return XMLHTTP.responseXML;
-    }
-    if (dataType == 'json') {
-        return eval('(' + XMLHTTP.responseText + ')');
+
+    switch (dataType) {
+        case 'text':
+            return XMLHTTP.responseText;
+            break;
+        case 'stream':
+            return XMLHTTP.responseStream;
+            break;
+        case 'xml':
+            return XMLHTTP.responseXML;
+            break;
+        case 'json':
+            return eval('(' + XMLHTTP.responseText + ')');
+            break;
+        default:
+            return XMLHTTP.responseBody;
     }
 }
 
@@ -488,6 +532,304 @@ function download(url, directory, filename) {
 }
 ```
 
+
+### 设置必应壁纸
+```batch
+1>1/* ::
+:: -------------------------------------------------------------------
+::                          自动设置Bing壁纸
+::                     by https://www.bajins.com
+::                   GitHub https://woytu.github.io
+:: -------------------------------------------------------------------
+
+
+@echo off
+md "%~dp0$testAdmin$" 2>nul
+if not exist "%~dp0$testAdmin$" (
+    echo 不具备所在目录的写入权限! >&2
+    exit /b 1
+) else rd "%~dp0$testAdmin$"
+
+:: 开启延迟环境变量扩展
+:: 解决for或if中操作变量时提示ECHO OFF问题，用!!取变量
+:: 解决调用jscript提示命令错误问题
+setlocal enabledelayedexpansion
+
+if "%~1"=="/?" (
+    cscript -nologo -e:jscript "%~f0" help
+    goto :EXIT
+)
+if "%~1"=="/help" (
+    cscript -nologo -e:jscript "%~f0" help
+    goto :EXIT
+)
+
+:: cscript -nologo -e:jscript "%~f0" 这一段是执行命令，后面的是参数（组成方式：/key:value）
+:: %~f0 表示当前批处理的绝对路径,去掉引号的完整路径
+cscript -nologo -e:jscript "%~f0" %~1
+
+
+goto :EXIT
+
+:EXIT
+:: 结束延迟环境变量扩展和命令执行
+endlocal&exit /b %errorlevel%
+*/
+
+// ****************************  JavaScript  *******************************
+
+
+var Argv = WScript.Arguments;
+for (i = 0; i < Argv.Length; i++) {
+    info("参数：" + Argv(i));
+}
+
+if (Argv(0) == "1") {
+    // 设置开机启动
+    var shell = new ActiveXObject("WScript.shell");
+    // HKEY_CURRENT_USER
+    shell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\BajinsWallpaper", "%0");
+} else if (Argv(0) == "?" || Argv(0) == "help") {
+    help();
+    // 正常退出
+    WScript.Quit(0);
+}
+
+var FSO = new ActiveXObject('Scripting.FileSystemObject');
+var currentDirectory = FSO.GetFile(WScript.ScriptFullName).ParentFolder.Path;
+var json = request('GET', 'https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1', 'json');
+
+var imageUrl = "https://cn.bing.com" + json.images[0].url.split('&')[0];
+var imageDir = currentDirectory + "\\images";
+var imageName = imageUrl.substring(imageUrl.lastIndexOf("/") + 1);
+imageName = imageName.split("=")[1];
+
+var imagePath = download(imageUrl, imageDir, imageName);
+
+
+imagePath = imageTransform(imagePath, "bmp");
+if (imagePath == "") {
+    info("图片格式转为BMP失败");
+    WScript.Quit(0);
+}
+
+if (imagePath != "") {
+    setWallpaper(imagePath);
+
+    info("设置壁纸成功！");
+    WScript.Quit(0);
+} else {
+    error("下载壁纸失败！");
+    WScript.Quit(1);
+}
+
+
+function error(msg) {
+    WScript.StdErr.WriteLine(msg);
+}
+
+function info(msg) {
+    WScript.StdOut.WriteLine(msg);
+}
+
+function help() {
+    info("基本用法:");
+    info("   下载: BajinsWallpaper autoRun");
+    info("     autoRun 是否开启开机自动运行：默认0不开启,1开启");
+}
+
+
+/**
+ * HTTP请求
+ *
+ * @param method        GET,POST
+ * @param url           请求地址
+ * @param dataType      '',text,stream,xml,json
+ * @param data          数据，{key:value}格式
+ * @param contentType   发送的数据类型：默认application/x-www-form-urlencoded、multipart/form-data、text/plain
+ * @returns {string|Document|any}
+ */
+function request(method, url, dataType, data, contentType) {
+    // 把字符串转换为大写
+    method = method == null ? "GET" : method.toUpperCase();
+    // 把字符串转换为小写
+    dataType = dataType.toLowerCase();
+    contentType = contentType == null ? "application/x-www-form-unlenconded;charset=utf-8" : contentType;
+
+    if (url == '') {
+        throw new Error("请求url不能为空！");
+    }
+
+    //将对象转化成为querystring形式
+    var paramarray = [];
+    for (key in data) {
+        paramarray.push(key + '=' + data[key]);
+    }
+    var params = paramarray.join('&');
+
+    var XMLHTTP = new ActiveXObject('Microsoft.XMLHTTP');
+
+    switch (method) {
+        case 'POST':
+            // 0异步、1同步
+            XMLHTTP.Open(method, url, 0);
+            XMLHTTP.Send(params);
+            break;
+        default:
+            // 默认GET请求
+            if (params == '' || params.length == 0) {
+                // 0异步、1同步
+                XMLHTTP.Open(method, url, 0);
+            } else {
+                XMLHTTP.Open(method, url + '?' + datapost, 0);
+            }
+            XMLHTTP.Send();
+    }
+
+    switch (dataType) {
+        case 'text':
+            return XMLHTTP.responseText;
+            break;
+        case 'stream':
+            return XMLHTTP.responseStream;
+            break;
+        case 'xml':
+            return XMLHTTP.responseXML;
+            break;
+        case 'json':
+            return eval('(' + XMLHTTP.responseText + ')');
+            break;
+        default:
+            return XMLHTTP.responseBody;
+    }
+}
+
+
+/**
+ * 下载文件
+ *
+ * @param url
+ * @param directory 文件存储目录
+ * @param filename  文件名，为空默认截取url中的文件名
+ * @returns {string}
+ */
+function download(url, directory, filename) {
+    if (directory == '') {
+        throw new Error("文件存储目录不能为空！");
+    }
+
+    var objFSO = new ActiveXObject("Scripting.FileSystemObject");
+    // 如果目录不存在
+    if (!objFSO.FolderExists(directory)) {
+        // 创建目录
+        var strFolderName = objFSO.CreateFolder(directory);
+    }
+
+    var path = directory + "\\" + filename;
+    if (filename == '') {
+        path = directory + url.substring(url.lastIndexOf("/") + 1);
+    }
+
+    var ADO = new ActiveXObject('ADODB.Stream');
+    ADO.Mode = 3;
+    ADO.Type = 1;
+    ADO.Open();
+    ADO.Write(request('GET', url, ''));
+    ADO.SaveToFile(path, 2);
+    ADO.Close();
+
+    // 如果文件不存在
+    if (!objFSO.FileExists(path)) {
+        return "";
+    }
+    return path;
+}
+
+/**
+ * 图片格式转换
+ *
+ * @param imagePath 原始图片全路径
+ * @param format    要转换的格式，后缀名
+ * @returns {string}
+ */
+function imageTransform(imagePath, format) {
+    var objFSO = new ActiveXObject("Scripting.FileSystemObject");
+    // 如果文件不存在,就说明没有转换成功
+    if (!objFSO.FileExists(imagePath)) {
+        throw new Error("图片不存在或路径错误！");
+    }
+    // 转换后格式文件全路径
+    var formatPath = imagePath.replace(/(.+)\.[^\.]+$/, '$1') + '.' + format;
+    // 如果转换后文件已存在
+    if (objFSO.FileExists(formatPath)) {
+        throw new Error("要转换的格式文件已经存在！");
+    }
+
+    // 转小写
+    format = format.toLowerCase();
+
+    var wiaFormat = "";
+    switch (format) {
+        case 'bmp':
+            wiaFormat = "{B96B3CAB-0728-11D3-9D7B-0000F81EF32E}";
+            break;
+        case 'png':
+            wiaFormat = "{B96B3CAF-0728-11D3-9D7B-0000F81EF32E}";
+            break;
+        case 'gif':
+            wiaFormat = "{B96B3CB0-0728-11D3-9D7B-0000F81EF32E}";
+            break;
+        case 'tiff':
+            wiaFormat = "{B96B3CB1-0728-11D3-9D7B-0000F81EF32E}";
+            break;
+        default:
+            // 默认JPEG
+            wiaFormat = "{B96B3CAE-0728-11D3-9D7B-0000F81EF32E}";
+    }
+
+
+    var img = new ActiveXObject('WIA.ImageFile');
+    img.LoadFile(imagePath);
+
+    var imgps = new ActiveXObject('WIA.ImageProcess');
+    imgps.Filters.Add(imgps.FilterInfos('Convert').FilterID);
+    // 转换格式
+    imgps.Filters(1).Properties('FormatID').Value = wiaFormat;
+    // 图片质量
+    //imgps.Filters(1).Properties("Quality").Value = 5
+    var img = imgps.Apply(img);
+
+
+    img.SaveFile(formatPath);
+
+    // 如果文件不存在,就说明没有转换成功
+    if (!objFSO.FileExists(formatPath)) {
+        return "";
+    }
+
+    return formatPath;
+}
+
+/**
+ * 设置桌面壁纸
+ *
+ * @param imagesPath 图片全路径
+ */
+function setWallpaper(imagesPath) {
+    var shell = new ActiveXObject("WScript.shell");
+    // HKEY_CURRENT_USER
+    shell.RegWrite("HKCU\\Control Panel\\Desktop\\TileWallpaper", "0");
+    // 设置壁纸全路径
+    shell.RegWrite("HKCU\\Control Panel\\Desktop\\Wallpaper", imagesPath);
+    shell.RegWrite("HKCU\\Control Panel\\Desktop\\WallpaperStyle", "2", "REG_DWORD");
+    shell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\ListviewShadow", "1", "REG_DWORD");
+
+    // 如果桌面图标未透明，需要刷新组策略
+    shell.Run("gpupdate /force", 0);
+    // 实时刷新桌面
+    shell.Run("RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters");
+}
+```
 
 ## VisualBasicScript
 
