@@ -133,8 +133,8 @@ for (i = 0; i < Argv.Length; i++) {
 }
 var ArgvName = Argv.Named;
 
-var func = ArgvName.Item('func');
-var path = ArgvName.Item('path');
+var func = ArgvName.Item("func");
+var path = ArgvName.Item("path");
 
 ```
 
@@ -196,7 +196,7 @@ var path = Argv(2);
  *
  * @param method        GET,POST
  * @param url           请求地址
- * @param dataType      '',text,stream,xml,json
+ * @param dataType      "",text,stream,xml,json
  * @param data          数据，{key:value}格式
  * @param contentType   发送的数据类型：默认application/x-www-form-urlencoded、multipart/form-data、text/plain
  * @returns {string|Document|any}
@@ -208,48 +208,48 @@ function request(method, url, dataType, data, contentType) {
     dataType = dataType.toLowerCase();
     contentType = contentType == null ? "application/x-www-form-unlenconded;charset=utf-8" : contentType;
 
-    if (url == '' || url == null || url.length <= 0) {
+    if (url == "" || url == null || url.length <= 0) {
         throw new Error("请求url不能为空！");
     }
 
     //将对象转化成为querystring形式
     var paramarray = [];
     for (key in data) {
-        paramarray.push(key + '=' + data[key]);
+        paramarray.push(key + "=" + data[key]);
     }
-    var params = paramarray.join('&');
+    var params = paramarray.join("&");
 
-    var XMLHTTP = new ActiveXObject('Microsoft.XMLHTTP');
+    var XMLHTTP = new ActiveXObject("Microsoft.XMLHTTP");
 
     switch (method) {
-        case 'POST':
+        case "POST":
             // 0异步、1同步
             XMLHTTP.Open(method, url, 0);
             XMLHTTP.Send(params);
             break;
         default:
             // 默认GET请求
-            if (params == '' || params.length == 0 || params == null) {
+            if (params == "" || params.length == 0 || params == null) {
                 // 0异步、1同步
                 XMLHTTP.Open(method, url, 0);
             } else {
-                XMLHTTP.Open(method, url + '?' + datapost, 0);
+                XMLHTTP.Open(method, url + "?" + datapost, 0);
             }
             XMLHTTP.Send();
     }
 
     switch (dataType) {
-        case 'text':
+        case "text":
             return XMLHTTP.responseText;
             break;
-        case 'stream':
+        case "stream":
             return XMLHTTP.responseStream;
             break;
-        case 'xml':
+        case "xml":
             return XMLHTTP.responseXML;
             break;
-        case 'json':
-            return eval('(' + XMLHTTP.responseText + ')');
+        case "json":
+            return eval("(" + XMLHTTP.responseText + ")");
             break;
         default:
             return XMLHTTP.responseBody;
@@ -266,7 +266,7 @@ function request(method, url, dataType, data, contentType) {
  * @returns {string}
  */
 function download(url, directory, filename) {
-    if (directory == '' || directory == null || directory.length <= 0) {
+    if (directory == "" || directory == null || directory.length <= 0) {
         throw new Error("文件存储目录不能为空！");
     }
 
@@ -278,15 +278,15 @@ function download(url, directory, filename) {
     }
 
     var path = directory + "\\" + filename;
-    if (filename == '' || filename == null || filename.length <= 0) {
+    if (filename == "" || filename == null || filename.length <= 0) {
         path = directory + url.substring(url.lastIndexOf("/") + 1);
     }
 
-    var ADO = new ActiveXObject('ADODB.Stream');
+    var ADO = new ActiveXObject("ADODB.Stream");
     ADO.Mode = 3;
     ADO.Type = 1;
     ADO.Open();
-    ADO.Write(request('GET', url, ''));
+    ADO.Write(request("GET", url, ""));
     ADO.SaveToFile(path, 2);
     ADO.Close();
 
@@ -314,7 +314,7 @@ function imageTransform(imagePath, format) {
         throw new Error("图片不存在或路径错误！");
     }
     // 转换后格式文件全路径
-    var formatPath = imagePath.replace(/(.+)\.[^\.]+$/, '$1') + '.' + format;
+    var formatPath = imagePath.replace(/(.+)\.[^\.]+$/, "$1") + "." + format;
     // 如果转换后文件已存在
     if (objFSO.FileExists(formatPath)) {
         throw new Error("要转换的格式文件已经存在！");
@@ -325,16 +325,16 @@ function imageTransform(imagePath, format) {
 
     var wiaFormat = "";
     switch (format) {
-        case 'bmp':
+        case "bmp":
             wiaFormat = "{B96B3CAB-0728-11D3-9D7B-0000F81EF32E}";
             break;
-        case 'png':
+        case "png":
             wiaFormat = "{B96B3CAF-0728-11D3-9D7B-0000F81EF32E}";
             break;
-        case 'gif':
+        case "gif":
             wiaFormat = "{B96B3CB0-0728-11D3-9D7B-0000F81EF32E}";
             break;
-        case 'tiff':
+        case "tiff":
             wiaFormat = "{B96B3CB1-0728-11D3-9D7B-0000F81EF32E}";
             break;
         default:
@@ -343,13 +343,13 @@ function imageTransform(imagePath, format) {
     }
 
 
-    var img = new ActiveXObject('WIA.ImageFile');
+    var img = new ActiveXObject("WIA.ImageFile");
     img.LoadFile(imagePath);
 
-    var imgps = new ActiveXObject('WIA.ImageProcess');
-    imgps.Filters.Add(imgps.FilterInfos('Convert').FilterID);
+    var imgps = new ActiveXObject("WIA.ImageProcess");
+    imgps.Filters.Add(imgps.FilterInfos("Convert").FilterID);
     // 转换格式
-    imgps.Filters(1).Properties('FormatID').Value = wiaFormat;
+    imgps.Filters(1).Properties("FormatID").Value = wiaFormat;
     // 图片质量
     //imgps.Filters(1).Properties("Quality").Value = 5
     var img = imgps.Apply(img);
@@ -571,11 +571,11 @@ if (Argv(0) == "1") {
     WScript.Quit(0);
 }
 
-var FSO = new ActiveXObject('Scripting.FileSystemObject');
+var FSO = new ActiveXObject("Scripting.FileSystemObject");
 var currentDirectory = FSO.GetFile(WScript.ScriptFullName).ParentFolder.Path;
-var json = request('GET', 'https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1', 'json');
+var json = request("GET", "https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1", "json");
 
-var imageUrl = "https://cn.bing.com" + json.images[0].url.split('&')[0];
+var imageUrl = "https://cn.bing.com" + json.images[0].url.split("&")[0];
 var imageDir = currentDirectory + "\\images";
 var imageName = imageUrl.substring(imageUrl.lastIndexOf("/") + 1);
 imageName = imageName.split("=")[1];
@@ -620,7 +620,7 @@ function help() {
  *
  * @param method        GET,POST
  * @param url           请求地址
- * @param dataType      '',text,stream,xml,json
+ * @param dataType      "",text,stream,xml,json
  * @param data          数据，{key:value}格式
  * @param contentType   发送的数据类型：默认application/x-www-form-urlencoded、multipart/form-data、text/plain
  * @returns {string|Document|any}
@@ -632,48 +632,48 @@ function request(method, url, dataType, data, contentType) {
     dataType = dataType.toLowerCase();
     contentType = contentType == null ? "application/x-www-form-unlenconded;charset=utf-8" : contentType;
 
-    if (url == '' || url == null || url.length <= 0) {
+    if (url == "" || url == null || url.length <= 0) {
         throw new Error("请求url不能为空！");
     }
 
     //将对象转化成为querystring形式
     var paramarray = [];
     for (key in data) {
-        paramarray.push(key + '=' + data[key]);
+        paramarray.push(key + "=" + data[key]);
     }
-    var params = paramarray.join('&');
+    var params = paramarray.join("&");
 
-    var XMLHTTP = new ActiveXObject('Microsoft.XMLHTTP');
+    var XMLHTTP = new ActiveXObject("Microsoft.XMLHTTP");
 
     switch (method) {
-        case 'POST':
+        case "POST":
             // 0异步、1同步
             XMLHTTP.Open(method, url, 0);
             XMLHTTP.Send(params);
             break;
         default:
             // 默认GET请求
-            if (params == '' || params.length == 0 || params == null) {
+            if (params == "" || params.length == 0 || params == null) {
                 // 0异步、1同步
                 XMLHTTP.Open(method, url, 0);
             } else {
-                XMLHTTP.Open(method, url + '?' + datapost, 0);
+                XMLHTTP.Open(method, url + "?" + datapost, 0);
             }
             XMLHTTP.Send();
     }
 
     switch (dataType) {
-        case 'text':
+        case "text":
             return XMLHTTP.responseText;
             break;
-        case 'stream':
+        case "stream":
             return XMLHTTP.responseStream;
             break;
-        case 'xml':
+        case "xml":
             return XMLHTTP.responseXML;
             break;
-        case 'json':
-            return eval('(' + XMLHTTP.responseText + ')');
+        case "json":
+            return eval("(" + XMLHTTP.responseText + ")");
             break;
         default:
             return XMLHTTP.responseBody;
@@ -690,7 +690,7 @@ function request(method, url, dataType, data, contentType) {
  * @returns {string}
  */
 function download(url, directory, filename) {
-    if (directory == '' || directory == null || directory.length <= 0) {
+    if (directory == "" || directory == null || directory.length <= 0) {
         throw new Error("文件存储目录不能为空！");
     }
 
@@ -702,15 +702,15 @@ function download(url, directory, filename) {
     }
 
     var path = directory + "\\" + filename;
-    if (filename == '' || filename == null || filename.length <= 0) {
+    if (filename == "" || filename == null || filename.length <= 0) {
         path = directory + url.substring(url.lastIndexOf("/") + 1);
     }
 
-    var ADO = new ActiveXObject('ADODB.Stream');
+    var ADO = new ActiveXObject("ADODB.Stream");
     ADO.Mode = 3;
     ADO.Type = 1;
     ADO.Open();
-    ADO.Write(request('GET', url, ''));
+    ADO.Write(request("GET", url, ""));
     ADO.SaveToFile(path, 2);
     ADO.Close();
 
@@ -735,7 +735,7 @@ function imageTransform(imagePath, format) {
         throw new Error("图片不存在或路径错误！");
     }
     // 转换后格式文件全路径
-    var formatPath = imagePath.replace(/(.+)\.[^\.]+$/, '$1') + '.' + format;
+    var formatPath = imagePath.replace(/(.+)\.[^\.]+$/, "$1") + "." + format;
     // 如果转换后文件已存在
     if (objFSO.FileExists(formatPath)) {
         throw new Error("要转换的格式文件已经存在！");
@@ -746,16 +746,16 @@ function imageTransform(imagePath, format) {
 
     var wiaFormat = "";
     switch (format) {
-        case 'bmp':
+        case "bmp":
             wiaFormat = "{B96B3CAB-0728-11D3-9D7B-0000F81EF32E}";
             break;
-        case 'png':
+        case "png":
             wiaFormat = "{B96B3CAF-0728-11D3-9D7B-0000F81EF32E}";
             break;
-        case 'gif':
+        case "gif":
             wiaFormat = "{B96B3CB0-0728-11D3-9D7B-0000F81EF32E}";
             break;
-        case 'tiff':
+        case "tiff":
             wiaFormat = "{B96B3CB1-0728-11D3-9D7B-0000F81EF32E}";
             break;
         default:
@@ -764,13 +764,13 @@ function imageTransform(imagePath, format) {
     }
 
 
-    var img = new ActiveXObject('WIA.ImageFile');
+    var img = new ActiveXObject("WIA.ImageFile");
     img.LoadFile(imagePath);
 
-    var imgps = new ActiveXObject('WIA.ImageProcess');
-    imgps.Filters.Add(imgps.FilterInfos('Convert').FilterID);
+    var imgps = new ActiveXObject("WIA.ImageProcess");
+    imgps.Filters.Add(imgps.FilterInfos("Convert").FilterID);
     // 转换格式
-    imgps.Filters(1).Properties('FormatID').Value = wiaFormat;
+    imgps.Filters(1).Properties("FormatID").Value = wiaFormat;
     // 图片质量
     //imgps.Filters(1).Properties("Quality").Value = 5
     var img = imgps.Apply(img);
