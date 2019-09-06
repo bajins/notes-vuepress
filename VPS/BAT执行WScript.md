@@ -208,7 +208,7 @@ function request(method, url, dataType, data, contentType) {
     dataType = dataType.toLowerCase();
     contentType = contentType == null ? "application/x-www-form-unlenconded;charset=utf-8" : contentType;
 
-    if (url == '') {
+    if (url == '' || url == null || url.length <= 0) {
         throw new Error("请求url不能为空！");
     }
 
@@ -229,7 +229,7 @@ function request(method, url, dataType, data, contentType) {
             break;
         default:
             // 默认GET请求
-            if (params == '' || params.length == 0) {
+            if (params == '' || params.length == 0 || params == null) {
                 // 0异步、1同步
                 XMLHTTP.Open(method, url, 0);
             } else {
@@ -266,7 +266,7 @@ function request(method, url, dataType, data, contentType) {
  * @returns {string}
  */
 function download(url, directory, filename) {
-    if (directory == '') {
+    if (directory == '' || directory == null || directory.length <= 0) {
         throw new Error("文件存储目录不能为空！");
     }
 
@@ -278,7 +278,7 @@ function download(url, directory, filename) {
     }
 
     var path = directory + "\\" + filename;
-    if (filename == '') {
+    if (filename == '' || filename == null || filename.length <= 0) {
         path = directory + url.substring(url.lastIndexOf("/") + 1);
     }
 
@@ -632,7 +632,7 @@ function request(method, url, dataType, data, contentType) {
     dataType = dataType.toLowerCase();
     contentType = contentType == null ? "application/x-www-form-unlenconded;charset=utf-8" : contentType;
 
-    if (url == '') {
+    if (url == '' || url == null || url.length <= 0) {
         throw new Error("请求url不能为空！");
     }
 
@@ -653,7 +653,7 @@ function request(method, url, dataType, data, contentType) {
             break;
         default:
             // 默认GET请求
-            if (params == '' || params.length == 0) {
+            if (params == '' || params.length == 0 || params == null) {
                 // 0异步、1同步
                 XMLHTTP.Open(method, url, 0);
             } else {
@@ -690,7 +690,7 @@ function request(method, url, dataType, data, contentType) {
  * @returns {string}
  */
 function download(url, directory, filename) {
-    if (directory == '') {
+    if (directory == '' || directory == null || directory.length <= 0) {
         throw new Error("文件存储目录不能为空！");
     }
 
@@ -702,7 +702,7 @@ function download(url, directory, filename) {
     }
 
     var path = directory + "\\" + filename;
-    if (filename == '') {
+    if (filename == '' || filename == null || filename.length <= 0) {
         path = directory + url.substring(url.lastIndexOf("/") + 1);
     }
 
