@@ -702,11 +702,11 @@ function download(url, directory, filename) {
         throw new Error("文件存储目录不能为空！");
     }
 
-    var objFSO = new ActiveXObject("Scripting.FileSystemObject");
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
     // 如果目录不存在
-    if (!objFSO.FolderExists(directory)) {
+    if (!fso.FolderExists(directory)) {
         // 创建目录
-        var strFolderName = objFSO.CreateFolder(directory);
+        var strFolderName = fso.CreateFolder(directory);
     }
 
     if (filename == "" || filename == null || filename.length <= 0) {
@@ -725,7 +725,7 @@ function download(url, directory, filename) {
     ADO.Close();
 
     // 如果文件不存在
-    if (!objFSO.FileExists(path)) {
+    if (!fso.FileExists(path)) {
         return "";
     }
     return path;

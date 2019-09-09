@@ -575,11 +575,11 @@ function download(url, directory, filename) {
         throw new Error("文件存储目录不能为空！");
     }
 
-    var objFSO = new ActiveXObject("Scripting.FileSystemObject");
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
     // 如果目录不存在
-    if (!objFSO.FolderExists(directory)) {
+    if (!fso.FolderExists(directory)) {
         // 创建目录
-        var strFolderName = objFSO.CreateFolder(directory);
+        var strFolderName = fso.CreateFolder(directory);
     }
 
     if (filename == "" || filename == null || filename.length <= 0) {
@@ -598,7 +598,7 @@ function download(url, directory, filename) {
     ADO.Close();
 
     // 如果文件不存在
-    if (!objFSO.FileExists(path)) {
+    if (!fso.FileExists(path)) {
         return "";
     }
     return path;
@@ -615,15 +615,15 @@ function download(url, directory, filename) {
  * @returns {string}
  */
 function imageTransform(imagePath, format) {
-    var objFSO = new ActiveXObject("Scripting.FileSystemObject");
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
     // 如果文件不存在,就说明没有转换成功
-    if (!objFSO.FileExists(imagePath)) {
+    if (!fso.FileExists(imagePath)) {
         throw new Error("图片不存在或路径错误！");
     }
     // 转换后格式文件全路径
     var formatPath = imagePath.replace(/(.+)\.[^\.]+$/, "$1") + "." + format;
     // 如果转换后文件已存在
-    if (objFSO.FileExists(formatPath)) {
+    if (fso.FileExists(formatPath)) {
         throw new Error("要转换的格式文件已经存在！");
     }
 
@@ -665,7 +665,7 @@ function imageTransform(imagePath, format) {
     img.SaveFile(formatPath);
 
     // 如果文件不存在,就说明没有转换成功
-    if (!objFSO.FileExists(formatPath)) {
+    if (!fso.FileExists(formatPath)) {
         return "";
     }
 
@@ -1100,11 +1100,11 @@ function download(url, directory, filename) {
         throw new Error("文件存储目录不能为空！");
     }
 
-    var objFSO = new ActiveXObject("Scripting.FileSystemObject");
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
     // 如果目录不存在
-    if (!objFSO.FolderExists(directory)) {
+    if (!fso.FolderExists(directory)) {
         // 创建目录
-        var strFolderName = objFSO.CreateFolder(directory);
+        var strFolderName = fso.CreateFolder(directory);
     }
 
     if (filename == "" || filename == null || filename.length <= 0) {
@@ -1123,7 +1123,7 @@ function download(url, directory, filename) {
     ADO.Close();
 
     // 如果文件不存在
-    if (!objFSO.FileExists(path)) {
+    if (!fso.FileExists(path)) {
         return "";
     }
     return path;
@@ -1137,15 +1137,15 @@ function download(url, directory, filename) {
  * @returns {string}
  */
 function imageTransform(imagePath, format) {
-    var objFSO = new ActiveXObject("Scripting.FileSystemObject");
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
     // 如果文件不存在,就说明没有转换成功
-    if (!objFSO.FileExists(imagePath)) {
+    if (!fso.FileExists(imagePath)) {
         throw new Error("图片不存在或路径错误！");
     }
     // 转换后格式文件全路径
     var formatPath = imagePath.replace(/(.+)\.[^\.]+$/, "$1") + "." + format;
     // 如果转换后文件已存在
-    if (objFSO.FileExists(formatPath)) {
+    if (fso.FileExists(formatPath)) {
         throw new Error("要转换的格式文件已经存在！");
     }
 
@@ -1187,7 +1187,7 @@ function imageTransform(imagePath, format) {
     img.SaveFile(formatPath);
 
     // 如果文件不存在,就说明没有转换成功
-    if (!objFSO.FileExists(formatPath)) {
+    if (!fso.FileExists(formatPath)) {
         return "";
     }
 
