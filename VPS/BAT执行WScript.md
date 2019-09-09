@@ -4,21 +4,22 @@
 
 * [WindowsScript](#windowsscript)
   * [HTTP](#http)
-    * [对象版本和封装位置](#对象版本和封装位置)
+    * [版本和封装位置](#版本和封装位置)
   * [图像处理](#图像处理)
   * [操作文件](#操作文件)
   * [Shell](#shell)
     * [执行命令](#执行命令)
-    * [Windows特殊文件夹](#windows特殊文件夹)
+    * [特殊文件夹](#特殊文件夹)
+    * [模拟按键](#模拟按键)
+  * [VMI](#vmi)
 * [JScript](#jscript)
   * [ActiveXObject](#activexobject)
   * [参数传递](#参数传递)
   * [函数封装](#函数封装)
   * [下载文件](#下载文件)
   * [设置必应壁纸](#设置必应壁纸)
-* [VisualBasicScript](#visualbasicscript)
-  * [输入内容到记事本](#输入内容到记事本)
   * [隐藏运行](#隐藏运行)
+
 
 
 
@@ -161,7 +162,7 @@ WScript
 
 * [WinHTTP版本](https://docs.microsoft.com/zh-cn/windows/win32/winhttp/winhttp-versions)
 
-#### 对象版本和封装位置
+#### 版本和封装位置
 
 - `XMLHttpRequest`对象版本和对应的封装dll文件
     - `Microsoft.XMLHTTP` 对应 `msxml.dll`
@@ -249,7 +250,7 @@ WScript
 
 
 
-#### Windows特殊文件夹
+#### 特殊文件夹
 
 > `SpecialFolders`属性提供`WshSpecialFolders`对象以便访问`Windows`的`shell`文件夹
 
@@ -288,6 +289,9 @@ WScript
 > 模拟快捷键`Ctrl + S`保存内容：`Wshshell.SendKeys("^{s}")`
 
 
+
+
+
 ### VMI
 
 > `SWBEM`脚本是可以用来访问和控制WMI内部对象的一系列可用在脚本中的对象，
@@ -295,7 +299,7 @@ WScript
 
 > 通过`WbemScripting.SWbemLocator`创建对象
 
-> 查询方式类似sql的语句（其实系统信息也是存储在计算中一个类似数据库的文件中）获取我们需要的对象的记录集
+> 查询方式类似sql语句（其实系统信息也是存储在计算中一个类似数据库的文件中）获取我们需要的对象的记录集
 
 |           表名                    | 说明         |
 |-----------------------------------|------------|
