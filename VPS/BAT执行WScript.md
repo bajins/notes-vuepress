@@ -2,27 +2,31 @@
 
 ## 目录
 
+* [WindowsScript](#windowsscript)
+  * [HTTP](#http)
+    * [对象版本和封装位置](#对象版本和封装位置)
+  * [图像处理](#图像处理)
+  * [操作文件](#操作文件)
+  * [Shell](#shell)
+    * [执行命令](#执行命令)
+    * [Windows特殊文件夹](#windows特殊文件夹)
 * [JScript](#jscript)
+  * [ActiveXObject](#activexobject)
   * [参数传递](#参数传递)
   * [函数封装](#函数封装)
   * [下载文件](#下载文件)
   * [设置必应壁纸](#设置必应壁纸)
 * [VisualBasicScript](#visualbasicscript)
   * [输入内容到记事本](#输入内容到记事本)
-  * [Windows特殊文件夹](#windows特殊文件夹)
   * [隐藏运行](#隐藏运行)
 
 
 
-## JScript
 
-> `JScript`实现的`ECMAScript Edition 3`，也是`IE8`使用的引擎。然而，随着`V8`大放光彩，
-> 微软放弃了之前规划的托管`JavaScript`计划（同期规划的`VB`变身为`VB.NET`活了下来），
-> `JScript`开发组另起炉灶搞了`Chakra`与`Node.js`一争长短，这也是`IE9`之后使用的`JS`引擎。
+## WindowsScript
 
-- `JScript`与宿主
-> `JScript`、`VBScript`同属于官方支持的`Windows Script`，当年，这俩脚本都需要依赖于特定的宿主(`Host`)才能执行，
-> 比如，`JavaScript`大多时候运行在浏览器中。除了浏览器环境之外，他们，还可以运行在`Windows Script Host`中。
+* [属性和方法及子对象](https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/x66z77t4(v=vs.84)#language-element-table)
+
 
 - `Windows Script Host`是一个`language-independent`的脚本宿主环境，主要用于执行`Windows`管理任务，其对象层级为
 
@@ -43,8 +47,10 @@ WScript
   |  |-- WshSpecialFolders
   |  |-- WshScriptExec
 ```
-
-- 在`JScript`中，永远不需要去实例化根对象`WScript`，正如同浏览器中的直接全局对象一样。
+- `WSH`对象模型提供的`COM`接口可以分为两类：
+    - `Script Execution and Troubleshooting`：这类接口运行脚本执行`WSH`的基本的操作, 
+    输出信息、执行基本的`COM`函数（如`CreateObject`、`GetObject`）
+    - `Helper Functions`：执行诸如映射网络驱动器、连接打印机、获取/修改环境变量、操作注册表之类操作
 
 - 再如WshShell对象提供的功能
     - 在本地运行一个程序
@@ -58,13 +64,70 @@ WScript
     - RegWrite 写
     - RegDelete 删
 
-- `WSH`对象模型提供的`COM`接口可以分为两类：
-    - `Script Execution and Troubleshooting`：这类接口运行脚本执行`WSH`的基本的操作, 
-    输出信息、执行基本的`COM`函数（如`CreateObject`、`GetObject`）
-    - `Helper Functions`：执行诸如映射网络驱动器、连接打印机、获取/修改环境变量、操作注册表之类操作
+> 所有`Scripting`对象都存放在`SCRRUN.DLL`文件中，所有的`Wscript`对象都存放在`WSHOM.ocx`文件中。
+
+- 常用组件对象，都在注册表`HKEY_CLASSES_ROOT`注册表项中
+
+| 对象                         | 说明                                                            |
+|------------------------------|-----------------------------------------------------------------|
+| ADODB.Command                |                                                                 |
+| ADODB.Connection             | 提供数据库连接对象                                              |
+| ADODB.Error                  |                                                                 |
+| ADODB.Parameter              |                                                                 |
+| ADODB.Record                 |                                                                 |
+| ADODB.Recordset              | 提供数据库返回结果集对象                                        |
+| ADODB.Stream                 |                                                                 |
+| ADOMD.Catalog                |                                                                 |
+| ADOMD.Cellset                |                                                                 |
+| ADOX.Catalog                 | 包含描述数据源模式目录的集合                                    |
+| ADOX.Column                  | 表示表、索引或关键字的列                                        |
+| ADOX.Group                   | 表示在安全数据库内有访问权限的组帐号                            |
+| ADOX.Index                   | 表示数据库表中的索引                                            |
+| ADOX.Key                     | 表示数据库表中的主关键字、外部关键字或唯一关键字                |
+| ADOX.Procedure               | 表示存储的过程                                                  |
+| ADOX.Table                   | 表示数据库表，包括列、索引和关键字                              |
+| ADOX.User                    | 表示在安全数据库内具有访问权限的用户帐号                        |
+| ADOX.View                    | 表示记录或虚拟表的过滤集                                        |
+| AspSmartUpload.SmartUpload   |                                                                 |
+| CDONTS.NewMail               | 提供EXCEL操作对象                                               |
+| Excel.Application            |                                                                 |
+| Excel.Chart                  |                                                                 |
+| Excel.Sheet                  |                                                                 |
+| Huang.UploadFile             |                                                                 |
+| InternetExplorer.application |                                                                 |
+| JMail.message                | 提供XML操作对象                                                 |
+| Microsoft.XMLDOM             |                                                                 |
+| Microsoft.XMLHTTP            |                                                                 |
+| MSWC.AdRotator               |                                                                 |
+| MSWC.BrowserType             |                                                                 |
+| MSWC.NextLink                |                                                                 |
+| Msxml2.DOMDocument           |                                                                 |
+| Msxml2.DOMDocument.3.0       |                                                                 |
+| MSXML2.XMLHTTP               |                                                                 |
+| Outlook.Application          |                                                                 |
+| powerpoint.Application       | 用来返回存放键值对的字典对象，读取DOS环境变量，读取链接中的设置 |
+| Scripting.Dictionary         |                                                                 |
+| Scripting.Encoder            | 提供一整套文件系统操作函数                                      |
+| Scripting.FileSystemObject   | 签名                                                            |
+| Scripting.Signer             |                                                                 |
+| Shell.Application            |                                                                 |
+| SQLOLE.SQLServer             |                                                                 |
+| WinHttp.WinHttpRequest.5.1   |                                                                 |
+| Word.Document                | 返回集合的WScript对象的参数属性                                 |
+| WScript.Arguments            | 提供网络连接和远程打印机管理的函数。                            |
+| Wscript.NetWork              |                                                                 |
+| WScript.Shell                |                                                                 |
+| WSHController                |                                                                 |
 
 
-### HTTP对象
+
+
+> `JScript`、`VBScript`同属于官方支持的`Windows Script`，当年，这俩脚本都需要依赖于特定的宿主(`Host`)才能执行，
+> 比如，`JavaScript`大多时候运行在浏览器中。除了浏览器环境之外，他们，还可以运行在`Windows Script Host`中。
+
+
+
+### HTTP
 
 > `XMLHttpRequest`是基于`WinInet`封装的，而`WinHttpRequest`和`ServerXMLHTTPRequest`则是基于`WinHTTP`封装的
 > 稳定性属`XMLHttpRequest`为最差,封装成`COM`形式主要是为了方便`js`、`vbs`等脚本的调用，还具有易书写、降低开发难度等许多特点
@@ -75,7 +138,7 @@ WScript
 > `XMLRequest`成员参考缺点：和浏览器挂钩，大多情况下会共享`cookies`、`session`，不支持单独设置代理。
 > 优点：和浏览器挂钩，大多情况下会共享`cookies`、`session`
   
-> `ServerXMLHTTP`成员参考缺点：系统没有对应`dll`的情况下程序需要外挂一个dll文件。优点：脱离浏览器，使用代理方便
+> `ServerXMLHTTP`成员参考缺点：系统没有对应`dll`的情况下程序需要外挂一个`dll`文件。优点：脱离浏览器，使用代理方便
   
 > `WinHttpRequest`成员参考缺点：暂无。优点：脱离浏览器，使用代理方便，
 > `WinHttp.WinHttpRequest.5.1`是`msxml4.0`的底层对象，也就是说`XMLHTTP`、`ServerXMLHTTP`也是在它的基础上封装而来
@@ -104,7 +167,110 @@ WScript
 
 - `WinHttpRequest`对象`WinHttp.WinHttpRequest.5.1` 对应 `Winhttp.dll`
 
+### 图像处理
 
+> `WIA`全称：`WindowsImageAcquisition`，自动化层是一个功能齐全的图像处理组件，可提供端到端的图像处理功能。
+> `WIA`自动化层可以轻松地从数码相机，扫描仪或网络摄像头获取图像，以及旋转，缩放和注释图像文件。
+> `WIA Automation Layer`取代了`Windows Image Acquisition（WIA）1.0`提供的`WIA`脚本模型。
+
+* [Windows图像采集（WIA）](https://docs.microsoft.com/zh-cn/windows/win32/wia/-wia-startpage)
+
+* [使用](https://docs.microsoft.com/zh-cn/previous-versions/windows/desktop/wiaaut/-wiaaut-howto-use-filters)
+
+* [常量](https://docs.microsoft.com/zh-cn/previous-versions/windows/desktop/wiaaut/-wiaaut-vbscript-constants)
+
+* [Windows Image Acquisition](https://blog.csdn.net/AMinfo/article/details/8100436)
+* [WIA图片处理](https://blog.csdn.net/AMinfo/article/details/8100460)
+
+
+
+### 操作文件
+
+* [FileSystemObject简介](https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/d6dw7aeh(v=vs.84))
+
+* [FileSystemObject操作文件](https://blog.csdn.net/pl1612127/article/details/77862174)
+
+
+
+### Shell
+
+* [Wscript.Shell 对象详细介绍](https://www.jb51.net/article/5683_all.htm)
+
+
+#### 执行命令
+
+
+- `Run`
+
+> 执行命令完成后返回值是一个整数，就是`0`成功或`1`失败两个状态。
+
+> `Run`的后两个参数，一个是`cmd`窗口的风格，一个是是否等待执行完成。
+
+| 窗口风格 | 说明                                                            |
+|------|---------------------------------------------------------------|
+| 0    | 隐藏一个窗口并激活另一个窗口。                                               |
+| 1    | 激活并显示窗口。如果窗口处于最小化或最大化状态，则系统将其还原到原始大小和位置。第一次显示该窗口时，应用程序应指定此标志。 |
+| 2    | 激活窗口并将其显示为最小化窗口。                                              |
+| 3    | 激活窗口并将其显示为最大化窗口。                                              |
+| 4    | 按最近的窗口大小和位置显示窗口。活动窗口保持活动状态。                                   |
+| 5    | 激活窗口并按当前的大小和位置显示它。                                            |
+| 6    | 最小化指定的窗口，并按照Z顺序激活下一个顶部窗口。                                     |
+| 7    | 将窗口显示为最小化窗口。活动窗口保持活动状态。                                       |
+| 8    | 将窗口显示为当前状态。活动窗口保持活动状态。                                        |
+| 9    | 激活并显示窗口。如果窗口处于最小化或最大化状态，则系统将其还原到原始大小和位置。还原最小化窗口时，应用程序应指定此标志。  |
+| 10   | 根据启动应用程序的程序状态来设置显示状态                                          |
+
+
+
+-`Exec`
+
+> 返回值是一个对象，从返回对象中可以获得控制台输出信息和控制台错误信息，即`StdOut` 和 `StdErr` 属性等。
+
+> `Exec`类具有属性`ExitCode`、`ProcessID`、`Status`、`StdErr`、`StdIn`、`StdOut`以及一个函数`Terminate`
+>> `Status`属性具有三个值：0为正在执行，1为完成，2为失败
+>>
+>> 获取输出信息：`StdOut.ReadAll()`
+
+
+
+
+#### Windows特殊文件夹
+
+> `SpecialFolders`属性提供`WshSpecialFolders`对象以便访问`Windows`的`shell`文件夹
+
+> 使用：`WshShell.SpecialFolders("strFolderName")`，如果没有查询的目录则返回`NULL`
+
+| 变量名               | 说明     |
+|-------------------|--------|
+| AllUsersDesktop   | 公共桌面   |
+| AllUsersStartMenu | 公共程式   |
+| AllUsersPrograms  | 公共程序   |
+| AllUsersStartup   | 公共启动   |
+| Desktop           | 桌面     |
+| Favorites         | 收藏     |
+| Fonts             | 字体     |
+| MyDocuments       | 我的文档   |
+| NetHood           | 网络     |
+| PrintHood         | 打印机    |
+| Programs          | 程序     |
+| Recent            | 最近     |
+| SendTo            | 发给     |
+| StartMenu         | 开始菜单   |
+| Startup           | 启动     |
+| Templates         | 模板     |
+| AppData           | 应用程序数据 |
+
+
+
+
+
+## JScript
+
+> `JScript`实现的`ECMAScript Edition 3`，也是`IE8`使用的引擎。然而，随着`V8`大放光彩，
+> 微软放弃了之前规划的托管`JavaScript`计划（同期规划的`VB`变身为`VB.NET`活了下来），
+> `JScript`开发组另起炉灶搞了`Chakra`与`Node.js`一争长短，这也是`IE9`之后使用的`JS`引擎。
+
+> 在`JScript`中，永远不需要去实例化根对象`WScript`，正如同浏览器中的直接全局对象一样。
 
 - `BAT`执行`JScript`原理
 > 把`batch`命令用`JavaScript`注释`/**/`包裹住，然后用`batch`命令执行文件中的`JavaScript`代码时就不会编译`batch`命令了
@@ -118,15 +284,23 @@ WScript
 
 * [JScript](https://www.itminus.com/blog/categories/%E9%A3%8E%E8%AF%AD/ECMAScript/JScript/)
 
+
+### ActiveXObject
+
 * [ActiveXObject](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Microsoft_Extensions/ActiveXObject)
 
 * [ActiveXObject对象使用整理](https://blog.csdn.net/chen_zw/article/details/9336375)
 
-* [Windows Image Acquisition](https://blog.csdn.net/AMinfo/article/details/8100436)
-[WIA图片处理](https://blog.csdn.net/AMinfo/article/details/8100460)
+- `JScript`中`ActiveXObject`对象是启用并返回`Automation`对象的引用。
 
-* [Wscript.Shell 对象详细介绍](https://www.jb51.net/article/5683_all.htm)
-
+> 使用方法：`var newObj = new ActiveXObject( servername.typename[, location])`
+>> 其中`newObj`是必选项。要赋值为`ActiveXObject`的变量名。
+>>
+>> `servername`是必选项。提供该对象的应用程序的名称。
+>>
+>> `typename`是必选项。要创建的对象的类型或类。
+>>
+>> `location`是可选项。创建该对象的网络服务器的名称。
 
 
 
@@ -140,10 +314,6 @@ WScript
 ```batch
 1>1/* ::
 ::  by bajins https://www.bajins.com
-::
-:: 使用时请将bajins.bat放入任意一个PATH中的目录以便调用
-:: 但请确保bajins.bat拥有该目录的读写权限(因此最好不要选择system32)
-:: 建议新建一个目录专供bajins.bat使用,再将这个目录添加到PATH中
 
 @echo off
 md "%~dp0$testAdmin$" 2>nul
@@ -187,10 +357,6 @@ var path = ArgvName.Item("path");
 ```batch
 1>1/* ::
 ::  by bajins https://www.bajins.com
-::
-:: 使用时请将bajins.bat放入任意一个PATH中的目录以便调用
-:: 但请确保bajins.bat拥有该目录的读写权限(因此最好不要选择system32)
-:: 建议新建一个目录专供bajins.bat使用,再将这个目录添加到PATH中
 
 @echo off
 md "%~dp0$testAdmin$" 2>nul
@@ -498,10 +664,6 @@ function unZip(zipFile, unDirectory) {
 ```batch
 1>1/* ::
 ::  by bajins https://www.bajins.com
-::
-:: 使用时请将bajins.bat放入任意一个PATH中的目录以便调用
-:: 但请确保bajins.bat拥有该目录的读写权限(因此最好不要选择system32)
-:: 建议新建一个目录专供bajins.bat使用,再将这个目录添加到PATH中
 
 @echo off
 md "%~dp0$testAdmin$" 2>nul
@@ -578,7 +740,6 @@ sGet.Write(xPost.responseBody);
 sGet.SaveToFile(iLocal, 2);
 sGet.Close();
 ```
-
 
 
 
@@ -890,7 +1051,7 @@ function setWallpaper(imagesPath) {
 
 ## VisualBasicScript
 
-* [WScript对象属性](https://www.cnblogs.com/wakey/p/5795845.html)
+
 
 ### 输入内容到记事本
 ```visual-basic
@@ -932,30 +1093,7 @@ Wshshell.SendKeys "^{s}"
 ' 退出执行
 WScript.Quit
 ```
-### Windows特殊文件夹
-```visual-basic
-' 设置对脚本宿主对象引用赋给变量
-Set Wshshell = Wscript.CreateObject("Wscript.Shell")
-' WshShell对象的SpecialFolders属性返WshSpecialFolders 对象，该对象是一个特殊文件夹集合，其中包含整套Windows特殊文件夹
-Set sf = Wshshell.SpecialFolders
-Msgbox("公共桌面： " & sf("AllUsersDesktop"))
-Msgbox("公共程式： " & sf("AllUsersStartMenu"))
-Msgbox("公共程序： " & sf("AllUsersPrograms"))
-Msgbox("公共启动： " & sf("AllUsersStartup"))
-Msgbox("桌面： " & sf("Desktop"))
-Msgbox("收藏： " & sf("Favorites"))
-Msgbox("字体： " & sf("Fonts"))
-Msgbox("我的文档： " & sf("MyDocuments"))
-Msgbox("网络： " & sf("NetHood"))
-Msgbox("打印机： " & sf("PrintHood"))
-Msgbox("程序： " & sf("Programs"))
-Msgbox("最近： " & sf("Recent"))
-Msgbox("发给： " & sf("SendTo"))
-Msgbox("开始菜单： " & sf("StartMenu"))
-Msgbox("启动： " & sf("Startup"))
-Msgbox("模板： " & sf("Templates"))
-Msgbox("应用程序数据： " & sf("AppData"))
-```
+
 
 ### 隐藏运行
 ```visual-basic
