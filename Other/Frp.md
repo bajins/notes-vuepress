@@ -321,10 +321,6 @@ pause >nul
 ```batch
 1>1/* ::
 :: by bajins https://www.bajins.com
-::
-:: 使用时请将bajins.bat放入任意一个PATH中的目录以便调用
-:: 但请确保bajins.bat拥有该目录的读写权限(因此最好不要选择system32)
-:: 建议新建一个目录专供bajins.bat使用,再将这个目录添加到PATH中
 
 @echo OFF
 color 0a
@@ -345,7 +341,6 @@ if "%~1"=="/help" (
     goto :EXIT
 )
 
-cscript -nologo -e:jscript "%~f0" /url:"https://api.github.com/repos/fatedier/frp/releases/latest"
 
 set sAddr=woytu.com
 set sProt=7000
@@ -371,6 +366,10 @@ ECHO.
 echo             ==========================================================================
 ECHO.
 ECHO.
+
+cscript -nologo -e:jscript "%~f0" /url:"https://api.github.com/repos/fatedier/frp/releases/latest"
+
+
 :TUNNEL
 echo             输入需要启动的域名前缀，如“aa” ，即分配给你的穿透域名为：“aa.%sAddr%”
 ECHO.
@@ -499,7 +498,7 @@ for (i = 0; i < Argv.Length; i++) {
 }
 var ArgvName = Argv.Named;
 
-if (ArgvName.Item("help") != "" || ArgvName.Item("help") != null) {
+if (ArgvName.Item("help") != "" && ArgvName.Item("help") != null) {
     help();
     // 正常退出
     WScript.Quit(0);
@@ -512,8 +511,13 @@ if (ArgvName.Item("autoRun") == "1") {
     shell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\BajinsWallpaper", thisPath);
 }
 
-
-run();
+try{
+    run();
+}catch(err){
+    error(err);
+    // 异常退出
+    WScript.Quit(1);
+}
 
 function run(){
     // 创建shell对象
@@ -523,6 +527,8 @@ function run(){
     var currentDirectory = fso.GetFile(WScript.ScriptFullName).ParentFolder.Path;
     // 当前文件路径
     var thisPath = fso.GetFile(WScript.ScriptFullName).path;
+
+    var cmd="cmd.exe /c ";
 
     // 请求获取最新版本信息
     var json = request("get", ArgvName.Item("url"), "json");
@@ -548,12 +554,13 @@ function run(){
     var thisExe = currentDirectory + "\\frpc.exe";
     // 如果当前目录存在文件
     if (fso.FileExists(thisExe)) {
-        var out = shell.Run(thisExe + " -v", 0, TRUE);
-        info(out);
+        // 执行命令，并去掉执行结果中的换行符.StdOut.ReadAll().replace(/\n/ig,"");
+        var out = shell.Exec(cmd+thisExe + " -v");
         // 如果已经是最新版本
         if (version == out) {
+            info("已经是最新版本："+out);
             // 运行程序
-            //shell.Run(thisExe + " -c frpc.ini", 0, TRUE);
+            //shell.Run(cmd+thisExe + " -c "+currentDirectory+"\\frpc.ini", 0, true);
             return;
         }
     }
@@ -562,11 +569,15 @@ function run(){
     var exeFolder = currentDirectory + "\\" + zipName.substring(0, zipName.length - 3);
     // 判断最新版程序目录是否存在
     if (fso.FolderExists(exeFolder)) {
-        //shell.Run(exeFolder + "\\frpc.exe -c " + exeFolder + "\\frpc.ini", 0, TRUE);
+        //shell.Run(cmd+exeFolder + "\\frpc.exe -c " + exeFolder + "\\frpc.ini", 0, true);
         return;
     }
 
+    info("开始下载最新版程序...");
+
     download(url, currentDirectory);
+
+    info("下载完成，开始解压...");
 
     unZip(currentDirectory + "\\" + zipName, currentDirectory);
     
@@ -574,10 +585,13 @@ function run(){
     shell.Run("cmd.exe /c move " + exeFolder + "\\frpc.exe " + currentDirectory, 0, true);
     // 删除下载的zip
     shell.Run("cmd.exe /c del " + currentDirectory + "\\" + zipName, 0, true);
-    // 删除解压的目录，rd/s/q物理删除
+    // 删除解压的目录
     shell.Run("cmd.exe /c rmdir /s/q " + exeFolder, 0, true);
+
+    info("解压完成！");
+
     // 运行程序
-    //shell.Run(exeFolder + "\\frpc.exe -c " + exeFolder + "\\frpc.ini", 0, TRUE);
+    //shell.Run(cmd+exeFolder + "\\frpc.exe -c " + exeFolder + "\\frpc.ini", 0, true);
 }
 
 function error(msg) {

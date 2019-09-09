@@ -262,6 +262,63 @@ WScript
 
 
 
+### VMI
+
+> `SWBEM`脚本是可以用来访问和控制WMI内部对象的一系列可用在脚本中的对象，
+> 脚本通过访问`wbemdisp.dll`这个`library`来访问`VMI`对象，这个仅被设计用来为脚本工作。
+
+> 通过`WbemScripting.类`访问
+
+> 查询语句类似sql的语句（其实系统信息也是存储在计算中一个类似数据库的文件中）获取我们需要的对象的记录集
+
+
+| 类                                 | 说明         |
+|-----------------------------------|------------|
+| Win32_BaseBoard                   | 主板         |
+| Win32_BIOS                        | BIOS芯片     |
+| Win32_BootConfiguration           | 系统启动配置     |
+| Win32_CDROMDrive                  | 光盘驱动器      |
+| Win32_ComputerSystem              | 操作系统信息，系统位数|
+| Win32_DesktopMonitor              | 显示器        |
+| Win32_DiskDrive                   | 硬盘驱动器      |
+| Win32_DiskPartition               | 磁盘分区       |
+| Win32_Group                       | 系统管理组      |
+| Win32_GroupUser                   | 系统组帐号      |
+| Win32_Keyboard                    | 键盘         |
+| Win32_LogicalDisk                 | 逻辑磁盘       |
+| Win32_LogicalMemoryConfiguration  | 逻辑内存配置     |
+| Win32_NetworkAdapter              | 网络适配器      |
+| Win32_NetworkAdapterConfiguration | 网络适配器设置    |
+| Win32_NetworkClient               | 已安装的网络客户端  |
+| Win32_NetworkProtocol             | 已安装的网络协议   |
+| Win32_OperatingSystem             | 操作系统信息，系统版本|
+| Win32_PageFile                    | 系统页文件信息    |
+| Win32_PageFileSetting             | 页文件设置      |
+| Win32_ParallelPort                | 并口         |
+| Win32_PhysicalMemory              | 物理内存       |
+| Win32_PointingDevice              | 点输入设备，如鼠标  |
+| Win32_POTSModem                   | MODEM      |
+| Win32_POTSModemToSerialPort       | MODEM端口    |
+| Win32_Printer                     | 打印机        |
+| Win32_PrinterConfiguration        | 打印机设置      |
+| Win32_PrintJob                    | 打印机任务      |
+| Win32_Process                     | 系统进程       |
+| Win32_Processor                   | CPU处理器     |
+| Win32_SerialPort                  | 串口         |
+| Win32_Service                     | 系统安装的服务    |
+| Win32_Share                       | 共享         |
+| Win32_SoundDevice                 | 多媒体设置      |
+| Win32_StartupCommand              | 系统自动启动程序   |
+| Win32_SystemDriver                | 驱动程序       |
+| Win32_TCPIPPrinterPort            | 打印机端口      |
+| Win32_Thread                      | 系统线程       |
+| Win32_TimeZone                    | 时区         |
+| Win32_USBController               | USB控制器     |
+| Win32_UserAccount                 | 用户帐号       |
+| Win32_VideoController             | 显卡细节。      |
+| Win32_VideoSettings               | 显卡支持的显示模式。 |
+
+
 
 
 ## JScript
@@ -628,6 +685,31 @@ function getSystem() {
 }
 ```
 
+```js
+/**
+ * 通过VMI获取系统信息
+ */
+function getSysInfo() {
+    var locator = new ActiveXObject("WbemScripting.SWbemLocator");
+    // 连接本地电脑
+    var service = locator.ConnectServer(".");
+    // 获取系统版本
+    var verResult = service.ExecQuery("Select * from Win32_OperatingSystem");
+
+    // 创建一个可枚举的对象
+    var sysVer = new Enumerator(verResult).item();
+
+    // 查询系统位数
+    var bitResult = service.ExecQuery("Select * from Win32_ComputerSystem");
+    var sysBit = new Enumerator(bitResult).item();
+
+    WScript.StdOut.WriteLine(sysVer.Caption);
+    WScript.StdOut.WriteLine(sysBit.SystemType);
+}
+```
+
+
+
 - 解压zip
 
 ```js
@@ -654,6 +736,35 @@ function unZip(zipFile, unDirectory) {
     var objShell = new ActiveXObject("Shell.Application");
     var objSource = objShell.NameSpace(zipFile);
     objShell.NameSpace(unDirectory).CopyHere(objSource.Items(), 256);
+}
+```
+
+- 数据库
+```js
+function db(){
+    // 创建数据库对象   
+    var objdbConn = new ActiveXObject("ADODB.Connection");
+    var strdsn = "Driver={SQL Server}; Server=(local); Database=Test;UID=sa;PWD=123456";
+    // 打开数据源   
+    objdbConn.Open(strdsn);
+    // 执行SQL的数据库查询   
+    var objrs = objdbConn.Execute("Select * from test");
+    // 获取字段数目   
+    var fdCount = objrs.Fields.Count - 1;
+
+    // 显示数据库内容   
+    while (!objrs.EOF) {
+        // 显示每笔记录的字段
+        for (i = 0; i <= fdCount; i++){
+            WScript.StdOut.WriteLine(objrs.Fields(i).Value);
+        }
+        // 移到下一笔记录
+        objrs.moveNext();
+    }
+    // 关闭记录集合
+    objrs.Close();
+    // 关闭数据库链接
+    objdbConn.Close();
 }
 ```
 
