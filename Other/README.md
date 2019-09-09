@@ -1,14 +1,5 @@
 # Other
 
-
-
-* [masuit](https://masuit.com/misc/5)
-
-
-* [科学上网](https://github.com/bannedbook/fanqiang/wiki)
-[https://github.com/ldqk/new-pac](https://github.com/ldqk/new-pac)
-
-
 ## 导航页
 
 * [饭饭的个人主页](https://github.com/noisky/Homepage)
