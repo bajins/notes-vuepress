@@ -1,6 +1,11 @@
 # Golang
-[官网](https://golang.google.cn/dl/)
-[学习路线](https://github.com/Quorafind/golang-developer-roadmap-cn)
+
+
+* [官网](https://golang.google.cn/dl/)
+* [Go 开发者路线图](https://github.com/Quorafind/golang-developer-roadmap-cn)
+* [Go 学习之路](https://github.com/developer-learning/learning-golang)
+* [Go 标准库中文文档](http://cngolib.com/)
+* [Go基本类型说明](https://golangbot.com/types/)
 
 ## 框架
 ### WEB
