@@ -496,15 +496,21 @@ var path = Argv(2);
  * @returns {string|Document|any}
  */
 function request(method, url, dataType, data, contentType) {
-    // 把字符串转换为大写
-    method = method == null ? "GET" : method.toUpperCase();
-    // 把字符串转换为小写
-    dataType = dataType.toLowerCase();
-    contentType = contentType == null ? "application/x-www-form-unlenconded;charset=utf-8" : contentType;
-
     if (url == "" || url == null || url.length <= 0) {
         throw new Error("请求url不能为空！");
     }
+    // 把字符串转换为大写
+    if (method == "" || method == null || method.length <= 0) {
+        method = "GET";
+    } else {
+        method = method.toUpperCase();
+    }
+    if (contentType == "" || contentType == null || contentType.length <= 0) {
+        contentType = "application/x-www-form-unlenconded;charset=utf-8";
+    }
+    // 把字符串转换为小写
+    dataType = dataType.toLowerCase();
+
 
     //将对象转化成为querystring形式
     var paramarray = [];
@@ -562,6 +568,9 @@ function request(method, url, dataType, data, contentType) {
  * @returns {string}
  */
 function download(url, directory, filename) {
+    if (url == "" || url == null || url.length <= 0) {
+        throw new Error("请求url不能为空！");
+    }
     if (directory == "" || directory == null || directory.length <= 0) {
         throw new Error("文件存储目录不能为空！");
     }
@@ -673,6 +682,11 @@ function imageTransform(imagePath, format) {
  * @param imagesPath 图片全路径
  */
 function setWallpaper(imagesPath) {
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    // 如果文件不存在,就说明没有转换成功
+    if (!fso.FileExists(imagePath)) {
+        throw new Error("图片不存在或路径错误！");
+    }
     var shell = new ActiveXObject("WScript.shell");
     // HKEY_CURRENT_USER
     shell.RegWrite("HKCU\\Control Panel\\Desktop\\TileWallpaper", "0");
@@ -987,8 +1001,11 @@ function info(msg) {
 }
 
 function help() {
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    // 当前脚本文件名
+    var name = fso.GetFile(WScript.ScriptName);
     info("基本用法:");
-    info("   下载: BajinsWallpaper autoRun");
+    info("   下载: " + name + " autoRun");
     info("     autoRun 是否开启开机自动运行：默认0不开启,1开启");
 }
 
@@ -1004,15 +1021,21 @@ function help() {
  * @returns {string|Document|any}
  */
 function request(method, url, dataType, data, contentType) {
-    // 把字符串转换为大写
-    method = method == null ? "GET" : method.toUpperCase();
-    // 把字符串转换为小写
-    dataType = dataType.toLowerCase();
-    contentType = contentType == null ? "application/x-www-form-unlenconded;charset=utf-8" : contentType;
-
     if (url == "" || url == null || url.length <= 0) {
         throw new Error("请求url不能为空！");
     }
+    // 把字符串转换为大写
+    if (method == "" || method == null || method.length <= 0) {
+        method = "GET";
+    } else {
+        method = method.toUpperCase();
+    }
+    if (contentType == "" || contentType == null || contentType.length <= 0) {
+        contentType = "application/x-www-form-unlenconded;charset=utf-8";
+    }
+    // 把字符串转换为小写
+    dataType = dataType.toLowerCase();
+
 
     //将对象转化成为querystring形式
     var paramarray = [];
@@ -1070,6 +1093,9 @@ function request(method, url, dataType, data, contentType) {
  * @returns {string}
  */
 function download(url, directory, filename) {
+    if (url == "" || url == null || url.length <= 0) {
+        throw new Error("请求url不能为空！");
+    }
     if (directory == "" || directory == null || directory.length <= 0) {
         throw new Error("文件存储目录不能为空！");
     }

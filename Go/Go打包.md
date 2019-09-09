@@ -136,7 +136,7 @@ var iRemote = WScript.Arguments(0);
 iRemote = iRemote.toLowerCase();
 var iLocal = WScript.Arguments(1);
 iLocal = iLocal.toLowerCase()+"\\"+ iRemote.substring(iRemote.lastIndexOf("/") + 1);
-var xPost = new ActiveXObject("Microsoft.XMLHTTP");
+var xPost = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 xPost.Open("GET", iRemote, 0);
 xPost.Send();
 var sGet = new ActiveXObject("ADODB.Stream");
@@ -304,8 +304,11 @@ function info(msg) {
 }
 
 function help() {
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    // 当前脚本文件名
+    var name = fso.GetFile(WScript.ScriptName);
     info("基本用法:");
-    info("   打包: 脚本名 rootPath files project");
+    info("   打包: " + name + " rootPath files project");
     info("     rootPath 打包的根目录，路径必须完整");
     info("     files 需要打包的文件或文件夹，用双引号括起来");
     info("     project 打包完成后的压缩文件命名的前部分，可以不输入，默认为打包根目录的名称");
@@ -317,7 +320,7 @@ function help() {
 function download(iRemote, iLocal) {
     iRemote = iRemote.toLowerCase();
     iLocal = iLocal.toLowerCase() + "\\" + iRemote.substring(iRemote.lastIndexOf("/") + 1);
-    var xPost = new ActiveXObject("Microsoft.XMLHTTP");
+    var xPost = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
     xPost.Open("GET", iRemote, 0);
     xPost.Send();
     var sGet = new ActiveXObject("ADODB.Stream");
