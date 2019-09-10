@@ -336,43 +336,48 @@ if "%taskReslut%"=="" (
     echo 运行成功PID：%taskReslut%
 )
 
-
-findstr /c:"start proxy error" frpc.log >nul
-if "%errorlevel%" == "0" (
-    ECHO.
-    ECHO.启动失败，请检查配置或重新配置！
-    ECHO.
-    @cmd /k
-)
-findstr /c:"login to server failed" frpc.log >nul
-if "%errorlevel%" == "0" (
+findstr /i /c:"login to server failed" "frpc.log" >nul && (
     ECHO.
     ECHO.登录到服务器失败！
     ECHO.
-    @cmd /k
+    cmd /k
+) || (
+    ECHO.
 )
-findstr /c:"login to server success" frpc.log >nul
-if "%errorlevel%" == "0" (
+
+findstr /i /c:"start proxy error" "frpc.log" >nul && (
+    ECHO.
+    ECHO.启动失败，请检查配置或重新配置！
+    ECHO.
+    cmd /k
+) || (
+    ECHO.
+)
+
+findstr /i /c:"login to server success" "frpc.log" >nul && (
     ECHO.
     ECHO.登录frps成功！
     ECHO.
-    @cmd /k
+) || (
+    ECHO.
 )
-findstr /c:"start proxy success" frpc.log >nul
-if "%errorlevel%" == "0" (
+
+findstr /i /c:"start proxy success" "frpc.log" >nul && (
     ECHO.
     ECHO.后台启动frpc完成！
     ECHO.
-    @cmd /k
+) || (
+    ECHO.
 )
 
-REM ECHO.
-REM ECHO. 下面是frpc.log日志信息：
-REM ECHO.
-REM type "frpc.log"
-REM ECHO.
 
-pause >nul
+ECHO.
+ECHO. 下面是frpc.log日志信息：
+ECHO.
+type "frpc.log"
+ECHO.
+
+pause
 
 
 goto :EXIT
