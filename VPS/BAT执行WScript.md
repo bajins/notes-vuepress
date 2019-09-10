@@ -52,17 +52,6 @@ WScript
     输出信息、执行基本的`COM`函数（如`CreateObject`、`GetObject`）
     - `Helper Functions`：执行诸如映射网络驱动器、连接打印机、获取/修改环境变量、操作注册表之类操作
 
-- 再如WshShell对象提供的功能
-    - 在本地运行一个程序
-    - 操作注册表
-    - 创建快捷方式
-    - 访问`system folder`
-    - 操作环境变量，比如`WINDIR`、`PATH`、`PROMPT`
-
-- 注意WshShell提供了操作注册表的功能
-    - RegRead 读
-    - RegWrite 写
-    - RegDelete 删
 
 > 所有`Scripting`对象都存放在`SCRRUN.DLL`文件中，所有的`Wscript`对象都存放在`WSHOM.ocx`文件中。
 
@@ -210,6 +199,48 @@ WScript
 ### Shell
 
 * [Wscript.Shell 对象详细介绍](https://www.jb51.net/article/5683_all.htm)
+
+> `Wscript.Shell`对象提供的功能
+
+- `Run` `Exec` 执行`cmd`命令
+- `CreateShortcut` 创建快捷方式
+- `SpecialFolders` 访问`Windows`的`shell`文件夹
+- `Environment` 操作环境变量
+- `RegRead` 从注册表中返回指定的键或值
+- `RegWrite` 在注册表中设置指定的键或值
+- `RegDelete` 从注册表中删除指定的键或值
+- `SendKeys` 模拟按键
+- `Popup` 显示包含指定消息的消息窗口
+
+| 变量名                     | 说明                                       |
+|-------------------------|------------------------------------------|
+| NUMBER_OF_PROCESSORS    | 计算机上运行的处理器数目。                            |
+| PROCESSOR_ARCHITECTURE  | 用户工作站使用的处理器类型。                           |
+| PROCESSOR_IDENTIFIER    | 用户工作站的处理器 ID。                            |
+| PROCESSOR_LEVEL         | 用户工作站的处理器级。                              |
+| PROCESSOR_REVISION      | 用户工作站的处理器版本。                             |
+| OS                      | 用户工作站所用的操作系统。                            |
+| COMSPEC                 | 用于运行“命令提示”窗口的命令（通常为 cmd.exe）。            |
+| HOMEDRIVE               | 本地主驱动器（通常为 C 驱动器）。                       |
+| HOMEPATH                | 用户的默认路径（在 Windows NT 上通常为 usersdefault）。 |
+| PATH                    | 路径环境变量。                                  |
+| PATHEXT                 | 可执行文件的扩展名（通常为 .com、 .exe、.bat 或 .cmd）。   |
+| PROMPT                  | 命令提示符（通常为 ＄P＄G）。                         |
+| SYSTEMDRIVE             | 系统所在的本地驱动器（例如，c:）。                       |
+| SYSTEMROOT              | 系统目录（例如，c:winnt）。和 WINDIR 相同。            |
+| WINDIR                  | 系统目录（例如 c:winnt）。和 SYSTEMROOT 相同。        |
+| TEMP                    | 存储临时文件的目录（例如，c:temp）。用户可更改。              |
+| TMP                     | 存储临时文件的目录（例如，c:temp）。用户可更改。              |
+
+
+| 注册表短根键名       | 注册表长根键名        |
+|---------------------|---------------------|
+| HKCU                | HKEY_CURRENT_USER   |
+| HKLM                | HKEY_LOCAL_MACHINE  |
+| HKCR                | HKEY_CLASSES_ROOT   |
+| HKEY_USERS          | HKEY_USERS          |
+| HKEY_CURRENT_CONFIG | HKEY_CURRENT_CONFIG |
+
 
 
 #### 执行命令
