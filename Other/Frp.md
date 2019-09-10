@@ -517,7 +517,10 @@ function help() {
  * @param url           请求地址
  * @param dataType      "",text,stream,xml,json
  * @param data          数据，{key:value}格式
- * @param contentType   发送的数据类型：默认application/x-www-form-urlencoded、multipart/form-data、text/plain
+ * @param contentType   发送的数据类型：
+ *                          application/x-www-form-urlencoded（默认）
+ *                          multipart/form-data
+ *                          text/plain
  * @returns {string|Document|any}
  */
 function request(method, url, dataType, data, contentType) {
