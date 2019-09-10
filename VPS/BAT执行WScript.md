@@ -522,20 +522,18 @@ var path = Argv(2);
  * @param url           请求地址
  * @param dataType      "",text,stream,xml,json
  * @param data          数据，{key:value}格式
- * @param contentType   发送的数据类型：
- *                          application/x-www-form-urlencoded（默认）
- *                          multipart/form-data
- *                          text/plain
+ * @param contentType   发送的数据类型：multipart/form-data、
+ * application/x-www-form-urlencoded（默认）、text/plain
  * @returns {string|Document|any}
  */
 function request(method, url, dataType, data, contentType) {
     if (url == "" || url == null || url.length <= 0) {
         throw new Error("请求url不能为空！");
     }
-    // 把字符串转换为大写
     if (method == "" || method == null || method.length <= 0) {
         method = "GET";
     } else {
+        // 把字符串转换为大写
         method = method.toUpperCase();
     }
     if (contentType == "" || contentType == null || contentType.length <= 0) {
@@ -1101,20 +1099,18 @@ function help() {
  * @param url           请求地址
  * @param dataType      "",text,stream,xml,json
  * @param data          数据，{key:value}格式
- * @param contentType   发送的数据类型：
- *                          application/x-www-form-urlencoded（默认）
- *                          multipart/form-data
- *                          text/plain
+ * @param contentType   发送的数据类型：multipart/form-data、
+ * application/x-www-form-urlencoded（默认）、text/plain
  * @returns {string|Document|any}
  */
 function request(method, url, dataType, data, contentType) {
     if (url == "" || url == null || url.length <= 0) {
         throw new Error("请求url不能为空！");
     }
-    // 把字符串转换为大写
     if (method == "" || method == null || method.length <= 0) {
         method = "GET";
     } else {
+        // 把字符串转换为大写
         method = method.toUpperCase();
     }
     if (contentType == "" || contentType == null || contentType.length <= 0) {
