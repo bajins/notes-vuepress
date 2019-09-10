@@ -2,7 +2,7 @@
 
 ## 目录
 
-* [WindowsScript](#windowsscript)
+* [WScript](#wscript)
   * [HTTP](#http)
     * [版本和封装位置](#版本和封装位置)
   * [图像处理](#图像处理)
@@ -23,7 +23,7 @@
 
 
 
-## WindowsScript
+## WScript
 
 * [属性和方法及子对象](https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/x66z77t4(v=vs.84)#language-element-table)
 
