@@ -306,7 +306,7 @@ function info(msg) {
 function help() {
     var fso = new ActiveXObject("Scripting.FileSystemObject");
     // 当前脚本文件名
-    var name = fso.GetFile(WScript.ScriptName);
+    var name = fso.GetFile(WScript.ScriptName).name;
     info("基本用法:");
     info("   打包: " + name + " rootPath files project");
     info("     rootPath 打包的根目录，路径必须完整");

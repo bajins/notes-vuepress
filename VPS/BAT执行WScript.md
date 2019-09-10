@@ -18,7 +18,6 @@
   * [函数封装](#函数封装)
   * [下载文件](#下载文件)
   * [设置必应壁纸](#设置必应壁纸)
-  * [隐藏运行](#隐藏运行)
 
 
 
@@ -730,24 +729,72 @@ function getSystem() {
 
 ```js
 /**
- * 通过VMI获取系统信息
+ * 获取当前系统位数
+ * 
+ * @returns {string}
  */
-function getSysInfo() {
+function systemDigits() {
     var locator = new ActiveXObject("WbemScripting.SWbemLocator");
     // 连接本地电脑
     var service = locator.ConnectServer(".");
+
     // 获取系统版本
-    var verResult = service.ExecQuery("Select * from Win32_OperatingSystem");
-
+    var csResult = service.ExecQuery("Select * from Win32_ComputerSystem");
     // 创建一个可枚举的对象
-    var sysVer = new Enumerator(verResult).item();
+    var cs = new Enumerator(csResult).item();
+    var digits = cs.SystemType;
 
-    // 查询系统位数
-    var bitResult = service.ExecQuery("Select * from Win32_ComputerSystem");
-    var sysBit = new Enumerator(bitResult).item();
+    if (digits.indexOf("86") != -1) {
+        return "i386";
+    } else if (digits.indexOf("64") != -1) {
+        return "amd64";
+    }
+    wscript.echo("不知道32位还是64位的");
+    wscript.quit(1);
+}
 
-    WScript.StdOut.WriteLine(sysVer.Caption);
-    WScript.StdOut.WriteLine(sysBit.SystemType);
+/**
+ * 获取当前系统版本
+ * 
+ * @returns {string}
+ */
+function osVersion() {
+    var locator = new ActiveXObject("WbemScripting.SWbemLocator");
+    // 连接本地电脑
+    var service = locator.ConnectServer(".");
+
+    // 获取系统版本
+    var osResult = service.ExecQuery("Select * from Win32_OperatingSystem");
+    // 创建一个可枚举的对象
+    var os = new Enumerator(osResult).item();
+
+    var caption = os.Caption;
+    var version = os.Version;
+    // 截取version最后一个"."的左面部分
+    version = version.substring(0, version.lastIndexOf("."));
+
+    switch (version) {
+        case "5.2":
+            return "Windows Server 2003";
+            break;
+        case "5.0":
+            return "Windows 2000";
+            break;
+        case "5.1":
+            return "Windows XP";
+            break;
+        case "6.0":
+            return "windows visita";
+            break;
+        case "6.1":
+            return "windows 7";
+            break;
+        case "10.0":
+            return "windows 10";
+            break;
+            defult:
+                return version;
+    }
 }
 ```
 
@@ -873,8 +920,11 @@ function info(msg) {
 }
 
 function help() {
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    // 当前脚本文件名
+    var name = fso.GetFile(WScript.ScriptName).name;
     info("基本用法:");
-    info("   下载: BajinsTool url path");
+    info("   下载: " + name + " url path");
     info("     url  下载链接地址");
     info("     path 存储文件位置");
 }
@@ -1003,7 +1053,7 @@ function info(msg) {
 function help() {
     var fso = new ActiveXObject("Scripting.FileSystemObject");
     // 当前脚本文件名
-    var name = fso.GetFile(WScript.ScriptName);
+    var name = fso.GetFile(WScript.ScriptName).name;
     info("基本用法:");
     info("   下载: " + name + " autoRun");
     info("     autoRun 是否开启开机自动运行：默认0不开启,1开启");
@@ -1213,122 +1263,4 @@ function setWallpaper(imagesPath) {
     // 实时刷新桌面
     shell.Run("RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters");
 }
-```
-
-## VisualBasicScript
-
-
-### 隐藏运行
-```visual-basic
-'在运行窗口输入shell:startup点击确定后打开一个文件夹，把此文件放在文件夹中
-
-'运行命令
-runCommand = "D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini"
-
-'调用运行函数
-call run(runCommand)
-
-'WScript.Echo OSver()
-'MsgBox(OSver())
-
-'运行，传参为运行命令
-Function run(runCommand)
-    dim ws
-	'Windows10之前的系统创建一个脚本命令窗口
-    Set ws = CreateObject("Wscript.Shell")
-
-    dim wsh
-	'Windows10创建一个脚本命令窗口
-    Set wsh=WScript.CreateObject("WScript.Shell")
-	
-	'拼接Windows10之前的系统运行命令
-    runWs= "cmd /c " & runCommand
-	
-	'Windows10运行命令
-    runWsh= runCommand
-    
-    '获取系统信息
-    'infoItem = showOsInfo()
-    infoItem = OSver()
-    
-    select case infoItem
-        case "Windows Server 2003"
-            ws.run runWs,vbhide
-        
-        case "Windows 2000"
-            ws.run runWs,vbhide
-        
-        case "Windows XP"
-            ws.run runWs,vbhide
-        
-        case "windows visita"
-            ws.run runWs,vbhide
-        
-        case "windows 7"
-            ws.run runWs,vbhide
-            
-        case "windows 10"
-            wsh.Run runWsh,0
-        
-        case else
-            wscript.echo infoItem
-            wscript.quit
-    end select
-End Function
-
-'系统版本与系统位数拼接
-Function showOsInfo()
-    'wscript.echo OSver() & X86orX64()
-    showOsInfo = OSver() & X86orX64()
-End Function
-
-'获取当前系统位数
-Function X86orX64()
-    Set objWMIService = GetObject("winmgmts:!\\.\root\cimv2")
-    Set colItems = objWMIService.ExecQuery("Select * from Win32_ComputerSystem")
-    For Each objItem in colItems
-        strOSsystype=objitem.SystemType
-    Next
-    set objWMIService = nothing
-    set colItems = nothing
-    If InStr( strOSsystype, "86") <> 0 Then
-        X86orX64 = "_x86"
-    elseif InStr(strOSsystype, "64") <> 0 Then
-        X86orX64 = "_x64"
-    else
-        wscript.echo "不知道32位还是64位的"
-        wscript.quit
-    end if
-End Function
-
-'获取当前系统版本
-Function OSver()
-    Set objWMIService = GetObject("winmgmts:!\\.\root\cimv2")
-    Set colItems = objWMIService.ExecQuery("Select * from Win32_OperatingSystem")
-    For Each objItem in colItems
-        strOScaption=objitem.Caption
-        strOSversion=objitem.Version
-    Next
-    set objWMIService = nothing
-    set colItems = nothing
-    '截取strOSversion为最后一个"."的左面部分
-    strOSversion=left(strOSversion,InStrRev(strOSversion,".",-1,1) - 1)
-    select case strOSversion
-        case "5.2" '"5.2.3790"
-            OSver = "Windows Server 2003"
-        case "5.0" '"5.0.2195"
-            OSver = "Windows 2000"
-        case "5.1" '"5.1.2600"
-            OSver = "Windows XP"
-        case "6.0" '"6.0.6001"
-            OSver = "windows visita"
-        case "6.1" '"6.1.7601"
-            OSver = "windows 7"
-        case "10.0"
-            OSver = "windows 10"
-        case else
-            OSver = strOSversion
-            'wscript.quit
-    end select
-End Function
 ```

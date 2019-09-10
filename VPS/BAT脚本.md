@@ -5,7 +5,7 @@
 
 * [常见问题](#常见问题)
 * [获取管理员权限](#获取管理员权限)
-* [隐藏窗口运行（静默运行）](#隐藏窗口运行静默运行)
+* [隐藏窗口运行](#隐藏窗口运行)
 * [注册表](#注册表)
   * [修改](#修改)
   * [查询](#查询)
@@ -123,10 +123,11 @@ cd /d "%~dp0"
 
 ![](/images/Windows10启用管理员.png)
 
-## 隐藏窗口运行（静默运行）
+## 隐藏窗口运行
 ```batch
 @echo off
 if "%1" == "h" goto begin
+:: 运行VisualBasicScript命令不显示vbs窗口，并结束bat运行
 mshta vbscript:createobject("wscript.shell").run("%~nx0 h",0)(window.close) && exit
 :begin
 
@@ -148,6 +149,29 @@ start /wait /B "" "%~dp0软件名称" /ADD
 Pushd %~dp0
 start /wait /B "" "%~dp0软件名称" /DEL
 ````
+
+- 保存以下命令到`vbs`文件中
+
+```visual-basic
+' 运行命令
+runCommand = "D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini"
+' 启动项键名称
+keyName = "frp"
+
+Set shell = WScript.CreateObject("WScript.Shell")
+' 运行
+shell.Run "cmd /c " & runCommand, 0, false
+
+Set fso = WScript.CreateObject("Scripting.FileSystemObject")
+' 当前文件路径
+thisPath = fso.GetFile(WScript.ScriptFullName).path
+' 注册表项
+item = "HKCU\Software\Microsoft\Windows\CurrentVersion\Run\"
+
+' 设置开机启动
+' HKEY_CURRENT_USER
+shell.RegWrite item & keyName, thisPath
+```
 
 
 ## 注册表
@@ -362,11 +386,20 @@ cls
 netstat -an | find "0.0.0.0:80"
 ```
 ### 查看占用的`pid`
+
+> 在`windows`系统下，不能直接使用反引号执行命令，要使用`for`循环变通下，在`for`循环中使用单`'`括起来执行命令
+
+> 在`cmd`命令窗口中直接使用`for`循环只能使用单`%`设置变量
+>
+> 而在`bat`脚本文件中只能用双`%%`设置变量
+>
+> 而且在`for`循环中执行的命令带有`|`等特殊符号需要使用`^`转义
+
+
 ```batch
-:: 直接用参数过滤
-tasklist /fi "imagename eq 程序名*"
 :: 用findstr命令搜索
-tasklist | findstr /i "程序名"
+for /f %%i in ('tasklist ^| findstr /i "程序名"') do set reslut=%%i
+
 :: 只输出PID编号
 for /f "skip=3 tokens=2" %a in ('tasklist /fi "imagename eq 程序名*"') do @echo %a
 ```
@@ -384,8 +417,14 @@ taskkill /pid 进程号 /f
 
 ### 延时
 ```batch
+:: 延时等待10秒
 choice /t 10 /d y /n >nul
+:: 延时等待10秒
 timeout /T 10 /NOBREAK
+:: 持续等待，直到按下任意按键，类似于pause
+timeout /T -1
+:: 持续等待，直到你按下CTRL+C按键
+timeout /T -1 /NOBREAK
 ```
 
 

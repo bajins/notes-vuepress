@@ -170,8 +170,9 @@ subdomain_host = zd966.com
 
 # 最多保存多少天日志
 log_max_days = 7
-
+# 指定日志输出文件
 log_file = frps.log
+# 指定日志输出级别
 log_level = info
 ```
 
@@ -342,8 +343,8 @@ if "%~1"=="/help" (
 )
 
 
-set sAddr=woytu.com
-set sProt=7000
+set serverAddr=woytu.com
+set serverProt=7000
 set token=woytu.com
 set httpPort=7552
 
@@ -367,11 +368,13 @@ echo             ===============================================================
 ECHO.
 ECHO.
 
-cscript -nologo -e:jscript "%~f0" /url:"https://api.github.com/repos/fatedier/frp/releases/latest"
+cscript -nologo -e:jscript "%~f0"
 
 
 :TUNNEL
-echo             输入需要启动的域名前缀，如“aa” ，即分配给你的穿透域名为：“aa.%sAddr%”
+ECHO.
+ECHO.
+echo             输入需要启动的域名前缀，如“aa” ，即分配给你的穿透域名为：“aa.%serverAddr%”
 ECHO.
 ECHO.
 ECHO.
@@ -391,10 +394,10 @@ if exist "frpc.ini" del frpc.ini 1>nul 2>nul
 
 echo [common] >>"frpc.ini"
 echo # frps地址 >>"frpc.ini"
-echo server_addr = %sAddr% >>"frpc.ini"
+echo server_addr = %serverAddr% >>"frpc.ini"
 
 echo # frps端口 >>"frpc.ini"
-echo server_port = %sProt% >>"frpc.ini"
+echo server_port = %serverProt% >>"frpc.ini"
 
 echo # frps认证密码 >>"frpc.ini"
 echo token = %token% >>"frpc.ini"
@@ -427,11 +430,11 @@ echo # 自定义域名前缀 >>"frpc.ini"
 echo subdomain = %clientid% >>"frpc.ini"
 
 echo # 自定义域名,subdomain设置后无法使用此参数 >>"frpc.ini"
-echo # custom_domains = %clientid%.%sAddr% >>"frpc.ini"
+echo # custom_domains = %clientid%.%serverAddr% >>"frpc.ini"
 
 echo.  >>"frpc.ini"
 
-echo 访问地址：http://%clientid%.%sAddr%:%httpPort%
+echo 访问地址：http://%clientid%.%serverAddr%:%httpPort%
 ECHO.
 ECHO.
 
@@ -440,41 +443,68 @@ ECHO.
 
 
 
-
-
 cd %~dp0
+:: 结束进程
 taskkill /f /im frpc.exe 1>nul 2>nul
+:: 如果日志文件存在则删除
 if exist "frpc.log" del frpc.log 1>nul 2>nul
 
+:: 运行VisualBasicScript命令不显示vbs窗口
+mshta vbscript:CreateObject("WScript.Shell").Run("cmd /c frpc.exe -c frpc.ini",0,false)(window.close)
 
-echo CreateObject("WScript.Shell").Run "cmd /c frpc.exe -c frpc.ini",0 >frpc.vbs
-cscript.exe /e:vbscript frpc.vbs >nul
-del frpc.vbs
 ECHO.正在启动frpc，请稍后......
-ping 127.0.0.1 -n 5 >nul
+
+:: 延时等待10秒
+timeout /T 10 /NOBREAK
+
 ECHO.
-ECHO. 下面是frpc.log日志信息：
 ECHO.
-type "frpc.log"
-ECHO.
+
+:: 获取程序运行PID
+for /f "skip=3 tokens=2" %%a in ('tasklist /fi "imagename eq frpc*"') do set taskReslut= %%a
+:: 判断PID是否为空
+if "%taskReslut%"=="" (
+    echo 运行失败！
+    
+) else (
+    echo 运行成功PID：%taskReslut%
+)
+
+
 findstr /c:"start proxy error" frpc.log >nul
-if %errorlevel% equ 0 (
-ECHO.
-ECHO.启动失败，请检查配置或重新配置！
-ECHO.
+if "%errorlevel%" == "0" (
+    ECHO.
+    ECHO.启动失败，请检查配置或重新配置！
+    ECHO.
+    @cmd /k
+)
+findstr /c:"login to server failed" frpc.log >nul
+if "%errorlevel%" == "0" (
+    ECHO.
+    ECHO.登录到服务器失败！
+    ECHO.
+    @cmd /k
 )
 findstr /c:"login to server success" frpc.log >nul
-if %errorlevel% equ 0 (
-ECHO.
-ECHO.登录frps成功！
-ECHO.
+if "%errorlevel%" == "0" (
+    ECHO.
+    ECHO.登录frps成功！
+    ECHO.
+    @cmd /k
 )
 findstr /c:"start proxy success" frpc.log >nul
-if %errorlevel% equ 0 (
-ECHO.
-ECHO.后台启动frpc完成！
-ECHO.
+if "%errorlevel%" == "0" (
+    ECHO.
+    ECHO.后台启动frpc完成！
+    ECHO.
+    @cmd /k
 )
+
+REM ECHO.
+REM ECHO. 下面是frpc.log日志信息：
+REM ECHO.
+REM type "frpc.log"
+REM ECHO.
 
 pause >nul
 
@@ -490,8 +520,6 @@ endlocal&exit /b %errorlevel%
 // ****************************  JavaScript  *******************************
 
 
-
-
 var Argv = WScript.Arguments;
 for (i = 0; i < Argv.Length; i++) {
     info("参数：" + Argv(i));
@@ -505,21 +533,24 @@ if (ArgvName.Item("help") != "" && ArgvName.Item("help") != null) {
 }
 
 if (ArgvName.Item("autoRun") == "1") {
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    // 当前文件路径
+    var thisPath = fso.GetFile(WScript.ScriptFullName).path;
     // 设置开机启动
     var shell = new ActiveXObject("WScript.shell");
     // HKEY_CURRENT_USER
-    shell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\BajinsWallpaper", thisPath);
+    shell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\frpc", thisPath);
 }
 
-try{
+try {
     run();
-}catch(err){
-    error(err);
+} catch (err) {
+    error("错误：" + err);
     // 异常退出
     WScript.Quit(1);
 }
 
-function run(){
+function run() {
     // 创建shell对象
     var shell = new ActiveXObject("WScript.shell");
     var fso = new ActiveXObject("Scripting.FileSystemObject");
@@ -528,10 +559,10 @@ function run(){
     // 当前文件路径
     var thisPath = fso.GetFile(WScript.ScriptFullName).path;
 
-    var cmd="cmd.exe /c ";
+    var cmd = "cmd /c ";
 
     // 请求获取最新版本信息
-    var json = request("get", ArgvName.Item("url"), "json");
+    var json = request("get", "https://api.github.com/repos/fatedier/frp/releases/latest", "json");
     // 最新版本号
     var version = json.name.substring(1);
 
@@ -554,13 +585,11 @@ function run(){
     var thisExe = currentDirectory + "\\frpc.exe";
     // 如果当前目录存在文件
     if (fso.FileExists(thisExe)) {
-        // 执行命令，并去掉执行结果中的换行符.StdOut.ReadAll().replace(/\n/ig,"");
-        var out = shell.Exec(cmd+thisExe + " -v");
+        // 执行命令，并去掉执行结果中的换行符
+        var out = shell.Exec(cmd + thisExe + " -v").StdOut.ReadAll().replace(/\n/ig,"");
         // 如果已经是最新版本
         if (version == out) {
-            info("已经是最新版本："+out);
-            // 运行程序
-            //shell.Run(cmd+thisExe + " -c "+currentDirectory+"\\frpc.ini", 0, true);
+            info("已经是最新版本：" + out);
             return;
         }
     }
@@ -569,7 +598,8 @@ function run(){
     var exeFolder = currentDirectory + "\\" + zipName.substring(0, zipName.length - 3);
     // 判断最新版程序目录是否存在
     if (fso.FolderExists(exeFolder)) {
-        //shell.Run(cmd+exeFolder + "\\frpc.exe -c " + exeFolder + "\\frpc.ini", 0, true);
+        // 移动文件到当前目录
+        shell.Run(cmd + "move " + exeFolder + "\\frpc.exe " + currentDirectory, 0, true);
         return;
     }
 
@@ -580,18 +610,15 @@ function run(){
     info("下载完成，开始解压...");
 
     unZip(currentDirectory + "\\" + zipName, currentDirectory);
-    
+
     // 移动文件到当前目录
-    shell.Run("cmd.exe /c move " + exeFolder + "\\frpc.exe " + currentDirectory, 0, true);
+    shell.Run(cmd + "move " + exeFolder + "\\frpc.exe " + currentDirectory, 0, true);
     // 删除下载的zip
-    shell.Run("cmd.exe /c del " + currentDirectory + "\\" + zipName, 0, true);
+    shell.Run(cmd + "del " + currentDirectory + "\\" + zipName, 0, true);
     // 删除解压的目录
-    shell.Run("cmd.exe /c rmdir /s/q " + exeFolder, 0, true);
+    shell.Run(cmd + "rmdir /s/q " + exeFolder, 0, true);
 
     info("解压完成！");
-
-    // 运行程序
-    //shell.Run(cmd+exeFolder + "\\frpc.exe -c " + exeFolder + "\\frpc.ini", 0, true);
 }
 
 function error(msg) {
@@ -605,9 +632,9 @@ function info(msg) {
 function help() {
     var fso = new ActiveXObject("Scripting.FileSystemObject");
     // 当前脚本文件名
-    var name = fso.GetFile(WScript.ScriptName);
+    var name = fso.GetFile(WScript.ScriptName).name;
     info("基本用法:");
-    info("   下载: "+name+" autoRun");
+    info("   下载: " + name + " autoRun");
     info("     autoRun 是否开启开机自动运行：默认0不开启,1开启");
 }
 
@@ -778,7 +805,6 @@ function unZip(zipFile, unDirectory) {
     var objSource = objShell.NameSpace(zipFile);
     objShell.NameSpace(unDirectory).CopyHere(objSource.Items(), 256);
 }
-
 
 ```
 
