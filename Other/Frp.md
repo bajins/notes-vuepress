@@ -189,10 +189,13 @@ log_level = info
 1>1/* ::
 :: by bajins https://www.bajins.com
 
-@echo OFF
+@ECHO OFF
 color 0a
 Title FRPC启动工具 by:bajins.com
-Mode con cols=105 lines=35
+:: 窗口宽高120*40
+REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v WindowSize /d 0x00280078 /f >nul
+:: 屏幕缓冲区宽高120*2000
+REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v ScreenBufferSize /d 0x07d00078 /f >nul
 
 :: 开启延迟环境变量扩展
 :: 解决for或if中操作变量时提示ECHO OFF问题，用!!取变量
@@ -209,111 +212,127 @@ if "%~1"=="/help" (
 )
 
 
-set serverAddr=woytu.com
+set serverHost=zd966.com
 set serverProt=7000
 set token=woytu.com
 set httpPort=7552
 
 :START
 ECHO.
-echo             ==========================================================================
+ECHO             ==========================================================================
 ECHO.
-echo                                    Bajins FRPC客户端启动工具
+ECHO                                      Bajins FRPC客户端启动工具
 ECHO.
-echo                                      作者:admin@woytu.com
+ECHO                                      作者邮箱：admin@woytu.com
 ECHO.
-echo                                  个人主页：https://woytu.com
+ECHO                                  个人主页：https://www.bajins.com
 ECHO.
-echo                                 github：https://github.com/woytu
+ECHO                                  github：https://github.com/woytu
 ECHO.
-echo                             了解更多：https://github.com/woytu/UseNotes
+ECHO                                      免费使用！禁止用于非法用途！
 ECHO.
-echo                                             免费使用！
-ECHO.
-echo             ==========================================================================
+ECHO             ==========================================================================
 ECHO.
 ECHO.
 
+:: 执行JavaScript脚本
 cscript -nologo -e:jscript "%~f0"
 
 
 :TUNNEL
 ECHO.
 ECHO.
-echo             输入需要启动的域名前缀，如“aa” ，即分配给你的穿透域名为：“aa.%serverAddr%”
-ECHO.
-ECHO.
-ECHO.
-
-set /p clientid=请输入需映射前缀：
-
+ECHO             输入自定义二级域名，如“aa” ，即分配给你的穿透域名为：“aa.%serverHost%”
 ECHO.
 ECHO.
 
-set /p port=请输入需映射端口：
+:CID
+set /p clientid=请输入自定义二级域名：
+if "%clientid%"=="" (
+    goto :CID
+)
+
+:: 判断是否为数字、字母，在|两端不能有空格
+:: 注意这里有个bug不能用[^0-9]取反，匹配到.会通过
+echo %clientid%|findstr "^[a-z0-9]*$" >nul || (
+    ECHO.
+    ECHO.二级域名必须为小写字母或数字！
+    ECHO.
+    goto :CID
+)
 
 ECHO.
 ECHO.
 
+:PT
+set /p port=请输入本地端口：
+if "%port%"=="" (
+    goto :PT
+)
 
-if exist "frpc.ini" del frpc.ini 1>nul 2>nul
+:: 判断是否为纯数字，在|两端不能有空格
+:: 注意这里有个bug不能用[^0-9]取反，匹配到.会通过
+echo %port%|findstr "^[0-9]*$" >nul || (
+    ECHO.
+    ECHO.端口必须为纯数字！
+    ECHO.
+    goto :PT
+)
 
-echo [common] >>"frpc.ini"
-echo # frps地址 >>"frpc.ini"
-echo server_addr = %serverAddr% >>"frpc.ini"
-
-echo # frps端口 >>"frpc.ini"
-echo server_port = %serverProt% >>"frpc.ini"
-
-echo # frps认证密码 >>"frpc.ini"
-echo token = %token% >>"frpc.ini"
-echo # 登录失败重试 >>"frpc.ini"
-echo login_fail_exit = true >>"frpc.ini"
-echo # 指定日志文件 >>"frpc.ini"
-echo log_file = frpc.log >>"frpc.ini"
-echo # 指定日志打印级别 >>"frpc.ini"
-echo log_level = info >>"frpc.ini"
-echo # 指定日志存储最大天数 >>"frpc.ini"
-echo log_max_days = 7 >>"frpc.ini"
-
-echo.  >>"frpc.ini"
-echo.  >>"frpc.ini"
-
-
-echo # 隧道名称 >>"frpc.ini"
-echo [web_%clientid%] >>"frpc.ini"
-
-echo # 访问类型 >>"frpc.ini"
-echo type = http >>"frpc.ini"
-
-echo # 本地IP >>"frpc.ini"
-echo local_ip = 127.0.0.1 >>"frpc.ini"
-
-echo # 本地端口 >>"frpc.ini"
-echo local_port = %port% >>"frpc.ini"
-
-echo # 自定义域名前缀 >>"frpc.ini"
-echo subdomain = %clientid% >>"frpc.ini"
-
-echo # 自定义域名,subdomain设置后无法使用此参数 >>"frpc.ini"
-echo # custom_domains = %clientid%.%serverAddr% >>"frpc.ini"
-
-echo.  >>"frpc.ini"
-
-echo 访问地址：http://%clientid%.%serverAddr%:%httpPort%
 ECHO.
 ECHO.
 
-echo.
-ECHO.
+ECHO 访问地址：http://%clientid%.%serverHost%:%httpPort%
 
+:: 配置文件
+set iniFile="frpc.ini"
+:: 日志文件
+set logFile=frpc.log
+
+if exist %iniFile% del frpc.ini >nul
+
+(
+    ECHO [common]
+    ECHO # frps地址
+    ECHO server_addr = %serverHost%
+    ECHO # frps端口
+    ECHO server_port = %serverProt%
+    ECHO # frps认证密码
+    ECHO token = %token%
+    ECHO # 登录失败重试
+    ECHO login_fail_exit = true
+    ECHO # 指定日志文件
+    ECHO log_file = %logFile%
+    ECHO # 指定日志打印级别
+    ECHO log_level = info
+    ECHO # 指定日志存储最大天数
+    ECHO log_max_days = 7
+    ECHO. 
+    ECHO. 
+    ECHO # 隧道名称
+    ECHO [web_%clientid%]
+    ECHO # 访问类型
+    ECHO type = http
+    ECHO # 本地IP
+    ECHO local_ip = 127.0.0.1
+    ECHO # 本地端口
+    ECHO local_port = %port%
+    ECHO # 自定义二级域名
+    ECHO subdomain = %clientid%
+    ECHO # 自定义域名,subdomain设置后无法使用此参数
+    ECHO # custom_domains = %clientid%.%serverHost%
+    ECHO. 
+) > %iniFile%
+
+ECHO.
+ECHO.
 
 
 cd %~dp0
 :: 结束进程
 taskkill /f /im frpc.exe 1>nul 2>nul
 :: 如果日志文件存在则删除
-if exist "frpc.log" del frpc.log 1>nul 2>nul
+if exist %logFile% del %logFile% >nul
 
 :: 运行VisualBasicScript命令不显示vbs窗口
 mshta vbscript:CreateObject("WScript.Shell").Run("cmd /c frpc.exe -c frpc.ini",0,false)(window.close)
@@ -321,7 +340,7 @@ mshta vbscript:CreateObject("WScript.Shell").Run("cmd /c frpc.exe -c frpc.ini",0
 ECHO.正在启动frpc，请稍后......
 
 :: 延时等待10秒
-timeout /T 10 /NOBREAK
+timeout /T 10 /NOBREAK >nul
 
 ECHO.
 ECHO.
@@ -330,31 +349,37 @@ ECHO.
 for /f "skip=3 tokens=2" %%a in ('tasklist /fi "imagename eq frpc*"') do set taskReslut= %%a
 :: 判断PID是否为空
 if "%taskReslut%"=="" (
-    echo 运行失败！
-    
+    ECHO.
+    ECHO.运行失败！
+    ECHO.
+    @cmd /k
 ) else (
-    echo 运行成功PID：%taskReslut%
+    ECHO 运行成功PID：%taskReslut%
 )
 
-findstr /i /c:"login to server failed" "frpc.log" >nul && (
+if not exist %logFile% (
+    ECHO.
+    ECHO.日志文件不存在！请手动检测是否运行成功！
+    ECHO.
+    @cmd /k
+)
+
+
+findstr /i /c:"login to server failed" %logFile% >nul && (
     ECHO.
     ECHO.登录到服务器失败！
     ECHO.
-    cmd /k
-) || (
-    ECHO.
+    @cmd /k
 )
 
-findstr /i /c:"start proxy error" "frpc.log" >nul && (
+findstr /i /c:"start proxy error" %logFile% >nul && (
     ECHO.
     ECHO.启动失败，请检查配置或重新配置！
     ECHO.
-    cmd /k
-) || (
-    ECHO.
+    @cmd /k
 )
 
-findstr /i /c:"login to server success" "frpc.log" >nul && (
+findstr /i /c:"login to server success" %logFile% >nul && (
     ECHO.
     ECHO.登录frps成功！
     ECHO.
@@ -362,7 +387,7 @@ findstr /i /c:"login to server success" "frpc.log" >nul && (
     ECHO.
 )
 
-findstr /i /c:"start proxy success" "frpc.log" >nul && (
+findstr /i /c:"start proxy success" %logFile% >nul && (
     ECHO.
     ECHO.后台启动frpc完成！
     ECHO.
@@ -372,13 +397,12 @@ findstr /i /c:"start proxy success" "frpc.log" >nul && (
 
 
 ECHO.
-ECHO. 下面是frpc.log日志信息：
+ECHO.下面是frpc日志信息：
 ECHO.
-type "frpc.log"
+type %logFile%
 ECHO.
 
 pause
-
 
 goto :EXIT
 
@@ -413,13 +437,13 @@ if (ArgvName.Item("autoRun") == "1") {
     shell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\frpc", thisPath);
 }
 
-try {
+//try {
     run();
-} catch (err) {
-    error("错误：" + err);
+//} catch (err) {
+    //error("错误：" + err.message);
     // 异常退出
-    WScript.Quit(1);
-}
+    //WScript.Quit(1);
+//}
 
 function run() {
     // 创建shell对象
@@ -432,12 +456,16 @@ function run() {
 
     var cmd = "cmd /c ";
 
+    info("开始获取线上最新版本号......");
+    info("");
+
     // 请求获取最新版本信息
     var json = request("get", "https://api.github.com/repos/fatedier/frp/releases/latest", "json");
     // 最新版本号
     var version = json.name.substring(1);
 
-    info("当前最新版本号：" + version);
+    info("当前线上最新版本号：" + version);
+    info("");
 
     var sys = getSystem();
     var url = "";
@@ -461,6 +489,7 @@ function run() {
         // 如果已经是最新版本
         if (version == out) {
             info("已经是最新版本：" + out);
+            info("");
             return;
         }
     }
@@ -474,11 +503,13 @@ function run() {
         return;
     }
 
-    info("开始下载最新版程序...");
+    info("开始下载最新版程序......");
+    info("");
 
     download(url, currentDirectory);
 
-    info("下载完成，开始解压...");
+    info("下载完成，开始解压......");
+    info("");
 
     unZip(currentDirectory + "\\" + zipName, currentDirectory);
 
@@ -490,6 +521,7 @@ function run() {
     shell.Run(cmd + "rmdir /s/q " + exeFolder, 0, true);
 
     info("解压完成！");
+    info("");
 }
 
 function error(msg) {
@@ -677,9 +709,5 @@ function unZip(zipFile, unDirectory) {
     var objSource = objShell.NameSpace(zipFile);
     objShell.NameSpace(unDirectory).CopyHere(objSource.Items(), 256);
 }
-
 ```
-
-
-
 

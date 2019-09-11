@@ -4,13 +4,18 @@
 ## 目录
 
 * [常见问题](#常见问题)
+* [执行bash](#执行bash)
+  * [安装Git](#安装git)
+* [进制转换](#进制转换)
 * [获取管理员权限](#获取管理员权限)
 * [隐藏窗口运行](#隐藏窗口运行)
 * [注册表](#注册表)
   * [修改](#修改)
+  * [窗口设置](#窗口设置)
   * [查询](#查询)
 * [注册Windows服务](#注册windows服务)
   * [加入服务](#加入服务)
+    * [示例](#示例)
   * [删除服务](#删除服务)
 * [添加快捷方式](#添加快捷方式)
 * [Windows启动运行](#windows启动运行)
@@ -27,11 +32,12 @@
   * [查DNS](#查dns)
   * [刷新DNS](#刷新dns)
   * [清除屏幕](#清除屏幕)
-  * [查看是否某个端口被占用](#查看是否某个端口被占用)
+  * [查看端口占用](#查看端口占用)
   * [查看占用的`pid`](#查看占用的pid)
   * [查看被占用端口的`pid`](#查看被占用端口的pid)
   * [结束进程](#结束进程)
   * [延时](#延时)
+  * [判断变量字符串](#判断变量字符串)
   * [获取为指定后缀的文件](#获取为指定后缀的文件)
   * [获取不为指定后缀的文件](#获取不为指定后缀的文件)
   * [判断字符串是否包含子字符串](#判断字符串是否包含子字符串)
@@ -41,15 +47,6 @@
 * [下载文件](#下载文件)
 
 
-
-## 执行bash
-### 安装Git
-
-* [https://git-scm.com/download/win](https://git-scm.com/download/win)
-
-```batch
-"%ProgramFiles%\Git\bin\bash.exe" -c "命令"
-```
 
 
 ## 常见问题
@@ -61,6 +58,46 @@
   - 示例:使用`curl`配合`jq`获取必应壁纸下载地址
 ```batch
 curl "http://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1" | jq-win64.exe ".images[0].url | """https://cn.bing.com""" + .[0:index("""^&""")]" >> bing.txt
+```
+
+
+## 执行bash
+### 安装Git
+
+* [https://git-scm.com/download/win](https://git-scm.com/download/win)
+
+```batch
+"%ProgramFiles%\Git\bin\bash.exe" -c "命令"
+```
+
+## 进制转换
+
+- 十进制转十六进制
+
+```batch
+@echo off&setlocal enabledelayedexpansion
+set /p 十进制=请输入要转换的十进制数：
+for /l %%a in (1 1 8) do (
+     set /a 余=十进制%%16,十进制/=16,tmp=余+100
+     set yu=!tmp:~1! !yu!
+)
+set yu=%yu:00=0%
+for %%a in (1 2 3 4 5 6 7 8 9 A B C D E F) do (
+     set /a n+=101
+     for %%b in (!n:~-2!) do (
+         set yu=!yu: %%b= %%a!
+     )
+)
+echo 0x%yu: =%
+pause
+```
+
+- 十六进制转十进制
+
+```batch
+set /p 十六进制=请输入十六进制数字：
+set /a 十进制=0x%十六进制:*x=%
+echo %十进制%
 ```
 
 
@@ -176,6 +213,7 @@ shell.RegWrite item & keyName, thisPath
 
 ## 注册表
 ### 修改
+
 ```batch
 :: 删除桌面IE图标
 REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{B416D21B-3B22-B6D4-BBD3-BBD452DB3D5B}" /f
@@ -184,31 +222,31 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\Name
 REG ADD "HKU\.DEFAULT\Control Panel\Keyboard" /v InitialKeyboardIndicators /t REG_SZ /d 2 /f
 
 ::把图片设置为壁纸
-reg add "HKCU\Control Panel\Desktop" /v TileWallpaper /d "0" /f 
-reg add "HKCU\Control Panel\Desktop" /v Wallpaper /d "图片绝对路径" /f
-reg add "HKCU\Control Panel\Desktop" /v WallpaperStyle /t REG_DWORD /d 2 /f
+REG ADD "HKCU\Control Panel\Desktop" /v TileWallpaper /d "0" /f 
+REG ADD "HKCU\Control Panel\Desktop" /v Wallpaper /d "图片绝对路径" /f
+REG ADD "HKCU\Control Panel\Desktop" /v WallpaperStyle /t REG_DWORD /d 2 /f
 RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters
 
 :: 加入开机自动运行
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 自定义命名 /d %0 /f
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 自定义命名 /d %0 /f
 
 
 :: 替换Windows默认记事本
-reg add "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /t REG_SZ /d "\"%ProgramFiles(x86)%\Notepad++\notepad++.exe\" -notepadStyleCmdline -z" /f
+REG ADD "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /t REG_SZ /d "\"%ProgramFiles(x86)%\Notepad++\notepad++.exe\" -notepadStyleCmdline -z" /f
 
 :: 恢复系统记事本
-reg delete "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
-reg delete "HKLM\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
-reg delete "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /f
+REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
+REG DELETE "HKLM\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
+REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /f
 
 :: 关闭“启用Windows安全中心服务”的通知
 REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellServiceObjects\{F56F6FDD-AA9D-4618-A949-C1B91AF43B1A}" /f
 
 :: 关闭Windows Defender
-reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /d 1 /t REG_DWORD /f
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /d 1 /t REG_DWORD /f
 
 :: 启用Windows Defender
-reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /d 0 /t REG_DWORD /f   
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /d 0 /t REG_DWORD /f   
    
 
 ```
@@ -220,6 +258,38 @@ reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "Di
 > `/d` 设置添加的值(data)
 > 
 > `/f` 表示强制(forbidden)
+
+
+### 窗口设置
+
+```batch
+Mode con cols=宽分辨率 lines=高分辨率
+```
+
+> 窗口大小是被改成了你想要的, 可是屏幕缓冲区的大小也变成了一样，这让你无法追溯屏幕打印的历史，
+> 也就是说`mode`对于窗口大小和屏幕缓冲区大小不能单独设置。
+
+> 解决办法就是修改注册表，先要知道保存系统默认的`cmd`命令窗口的屏幕缓冲区大小的两个键值
+
+```batch
+:: 窗口大小
+HKEY_CURRENT_USER\Console\ScreenBufferSize
+
+:: 屏幕缓冲区大小
+HKEY_CURRENT_USER\Console\WindowSize
+```
+
+> 值是用的十六进制值来表示的，十六进制可以前加零来补齐为8位来理解
+>
+> 十六进制的前四位是高，后四位是宽
+
+```batch
+:: 窗口宽高120*40
+REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v WindowSize /d 0x00280078 /f
+:: 屏幕缓冲区宽高120*2000
+REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v ScreenBufferSize /d 0x07d00078 /f
+```
+
 
 ### 查询
 ```bash
@@ -311,9 +381,9 @@ goto :eof
 ## Windows启动运行
 ### 增加注册表方式
 ```batch
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d 软件路径 /f
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d 软件路径 /f
 :: 或者，%号和"号不能使用转移字符^转义，%号转义%%，"号转义"""
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """"软件路径""" /background" /f
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """"软件路径""" /background" /f
 ```
 > 按`win+r`打开运行窗口，输入以下命令`shell:startup`打开启动文件夹，把快捷方式放入
 >
@@ -374,6 +444,7 @@ ipconfig /flushdns
 
 
 ### 清除屏幕
+
 > 类似于linux下的clear
 
 ```batch
@@ -381,10 +452,12 @@ cls
 ```
 
 
-### 查看是否某个端口被占用
+### 查看端口占用
+
 ```batch
 netstat -an | find "0.0.0.0:80"
 ```
+
 ### 查看占用的`pid`
 
 > 在`windows`系统下，不能直接使用反引号执行命令，要使用`for`循环变通下，在`for`循环中使用单`'`括起来执行命令
@@ -405,17 +478,20 @@ for /f "skip=3 tokens=2" %a in ('tasklist /fi "imagename eq 程序名*"') do @ec
 ```
 
 ### 查看被占用端口的`pid`
+
 ```batch
 netstat -ano | findstr 80
 ```
 
 ### 结束进程
+
 ```batch
 taskkill /pid 进程号 /f
 ```
 
 
 ### 延时
+
 ```batch
 :: 延时等待10秒
 choice /t 10 /d y /n >nul
@@ -426,6 +502,46 @@ timeout /T -1
 :: 持续等待，直到你按下CTRL+C按键
 timeout /T -1 /NOBREAK
 ```
+
+### 判断变量字符串
+
+> 注意：在|两端不能有空格，如果有空格则会出现匹配不正确
+> 
+> 这里有个BUG不能取反匹配，比如用`[^0-9]`匹配不是纯数字的字符，匹配到`.`会通过
+
+- 判断是否为数字、字母
+
+```batch
+:: 判断是否为数字、字母，在|两端不能有空格
+:: 注意这里有个bug不能用[^0-9]取反，匹配到.会通过
+echo %var%|findstr "^[a-z0-9]*$" >nul && (
+    ECHO.
+    ECHO.输入的：%var%
+    ECHO.
+) || (
+    ECHO.
+    ECHO.输入的必须为纯小写字母或数字！
+    ECHO.
+)
+```
+
+- 判断是否为纯数字
+
+```batch
+:: 判断是否为纯数字，在|两端不能有空格
+:: 注意这里有个bug不能用[^0-9]取反，匹配到.会通过
+echo %port%|findstr "^[0-9]*$" >nul && (
+    ECHO.
+    ECHO.输入的端口：%port%
+    ECHO.
+) || (
+    ECHO.
+    ECHO.端口必须为纯数字！
+    ECHO.
+)
+```
+
+
 
 
 ### 获取为指定后缀的文件
