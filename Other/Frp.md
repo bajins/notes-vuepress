@@ -437,13 +437,13 @@ if (ArgvName.Item("autoRun") == "1") {
     shell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\frpc", thisPath);
 }
 
-//try {
+try {
     run();
-//} catch (err) {
-    //error("错误：" + err.message);
+} catch (err) {
+    error("错误：" + err.message);
     // 异常退出
-    //WScript.Quit(1);
-//}
+    WScript.Quit(1);
+}
 
 function run() {
     // 创建shell对象

@@ -346,8 +346,10 @@ if [ [$mysql_ps == 0] -o [$mysql_listen == 0] ]; then
 fi
 
 # 连接到mysql数据库，无法连接则备份退出
-# 可以用shell脚本操作mysql数据库，使用mysql的-e参数可以执行各种sql的(创建，删除，增，删，改、查)等各种操作 。
-mysql -h$mysql_host -P$mysql_port -u$mysql_user -p$mysql_password -e "show databases;" >/dev/null 2>&1
+# 可以用shell脚本操作mysql数据库，
+# 使用mysql的-e参数可以执行各种sql的(创建，删除，增，删，改、查)等各种操作 。
+databases=`mysql -h$mysql_host -P$mysql_port -u$mysql_user \
+ -p$mysql_password -e "show databases;" 2>/dev/null`
 
 flag=$(echo $?)
 if [ $flag != "0" ]; then
@@ -355,9 +357,9 @@ if [ $flag != "0" ]; then
     finish
 fi
 echo "MySQL连接成功! 请等待......"
-# 判断有没有定义备份的数据库，如果定义则开始备份，否则退出备份
-if [ "$backup_db_arr" != "" ]; then
-    echo "错误：没有要备份的数据库！备份停止"
+# 如果没有定义备份的数据库，则退出备份
+if [ -z "$backup_db_arr"]; then
+    echo "错误：没有定义备份的数据库"
     finish
 fi
 
@@ -365,13 +367,22 @@ fi
 #echo "arr is (${backup_db_arr[@]})"
 for dbname in ${backup_db_arr[@]}; do
     echo "数据库 $dbname 备份开始..."
+    
+    # 过滤查询出的数据库中是否有当前数据库
+    result=`echo $databases | grep -o $dbname`
+    # 如果定义备份的数据库不存在，则备份停止
+    if [ -z "$result"]; then
+        echo "错误：数据库中没有查到此数据库$dbname！"
+        finish
+    fi
 
     # 创建备份文件夹
     $(mkdir -p $backup_dir)
     # 开始备份
     $(
-        mysqldump -h$mysql_host -P$mysql_port -u$mysql_user -p$mysql_password $dbname \
-        --default-character-set=$mysql_charset | gzip >$backup_dir/$dbname-$backup_time.sql.gz
+        mysqldump -h$mysql_host -P$mysql_port -u$mysql_user \
+        -p$mysql_password $dbname --default-character-set=$mysql_charset \
+        | gzip >$backup_dir/$dbname-$backup_time.sql.gz
     )
 
     # 获取执行结果
