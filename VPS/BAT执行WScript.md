@@ -55,6 +55,9 @@ WScript
 
 > 所有`Scripting`对象都存放在`SCRRUN.DLL`文件中，所有的`Wscript`对象都存放在`WSHOM.ocx`文件中。
 
+> `JScript`、`VBScript`同属于官方支持的`Windows Script`，当年，这俩脚本都需要依赖于特定的宿主(`Host`)才能执行，
+> 比如，`JavaScript`浏览器环境之外，还可以运行在`Windows Script Host`中。
+
 - 常用组件对象，都在注册表`HKEY_CLASSES_ROOT`注册表项中，正常情况下项中带有`CLSID`键的是脚本可创建的
 
 | 对象                          	| 说明                                                            	|
@@ -122,12 +125,36 @@ WScript
 | WScript.Shell                 	| 脚本外壳                                                        	|
 | WSHController                 	|                                                                 	|
 
+- `WScript`对象的属性
 
+| 属性           	| 返回值类型       	| 说明                                                             	|
+|----------------	|------------------	|------------------------------------------------------------------	|
+| Application    	| Object           	| 返回 IHost_Class 对象（Wscript 对象）。                          	|
+| Arguments      	| IArguments_Class 	| 返回 WshArguments 对象（参数集）。                               	|
+| BuildVersion   	| Long             	| 返回 Windows 脚本宿主的内部版本。                                	|
+| FullName       	| String           	| 返回宿主可执行文件（CScript.exe 或 WScript.exe）的全路径。       	|
+| Interactive    	| Boolean          	| 设置或确定脚本模式。                                             	|
+| Name           	| String           	| WScript 对象（宿主可执行文件）的名称。                           	|
+| Path           	| String           	| 返回包含宿主可执行文件（CScript.exe 或 WScript.exe）的路径名称。 	|
+| ScriptFullName 	| String           	| 返回当前运行脚本的完整路径。                                     	|
+| ScriptName     	| String           	| 返回当前运行脚本的文件名。                                       	|
+| StdErr         	| TextStream       	| 显示当前脚本的错误输出流。                                       	|
+| StdIn          	| TextStream       	| 显示当前脚本的输入流。                                           	|
+| StdOut         	| TextStream       	| 显示当前脚本的输出流。                                           	|
+| Timeout        	| Long             	| 超时设定秒：允许脚本运行的最长时间。                             	|
+| Version        	| String           	| 返回 Windows 脚本宿主的版本。                                    	|
 
+- `WScript`对象的方法
 
-
-> `JScript`、`VBScript`同属于官方支持的`Windows Script`，当年，这俩脚本都需要依赖于特定的宿主(`Host`)才能执行，
-> 比如，`JavaScript`大多时候运行在浏览器中。除了浏览器环境之外，他们，还可以运行在`Windows Script Host`中。
+| 方法             	| 参数                                                         	| 返回值 	| 说明                                             	|
+|------------------	|--------------------------------------------------------------	|--------	|--------------------------------------------------	|
+| ConnectObject    	| (Object As Object, Prefix As String)                         	| 无     	| 将对象的事件源连接到具有给定前缀的函数。         	|
+| CreateObject     	| (ProgID As String, [Prefix As String])                       	| Object 	| 创建对象。                                       	|
+| DisconnectObject 	| (Object As Object)                                           	| 无     	| 断开已连接对象的事件源的连接。                   	|
+| Echo             	| (ParamArray pArgs() As Variant)                              	| 无     	| 将文本输出到消息框中或命令控制台窗口。           	|
+| GetObject        	| (Pathname As String, [ProgID As String], [Prefix As String]) 	| Object 	| 检索现有的对象或从文件中创建新对象。             	|
+| Quit             	| ([ExitCode As Long])                                         	| 无     	| 强制脚本停止执行。                               	|
+| Sleep            	| (Time As Long)                                               	| 无     	| 在指定的时间长度内将脚本执行挂起，然后继续执行。 	|
 
 
 
@@ -192,7 +219,105 @@ WScript
 
 * [FileSystemObject简介](https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/d6dw7aeh(v=vs.84))
 
+* [FileSystemObject 对象](https://docs.microsoft.com/zh-cn/office/vba/language/reference/user-interface-help/filesystemobject-object)
+
 * [FileSystemObject操作文件](https://blog.csdn.net/pl1612127/article/details/77862174)
+
+- `Scripting.FileSystemObject`对象的对象和集合
+
+| 对象/集合  	| 描述                                                  	|
+|------------	|-------------------------------------------------------	|
+| Drive      	| 包含储存设备的信息，包括硬盘、光驱、ram盘、网络驱动器 	|
+| Drives     	| 提供一个物理和逻辑驱动器的列表                        	|
+| File       	| 检查和处理文件                                        	|
+| Files      	| 提供包含在文件夹内的所有文件的列表                    	|
+| Folder     	| 检查和处理文件夹                                      	|
+| Folders    	| 提供在 Folder 内的所有文件夹的列表                    	|
+| TextStream 	| 对象。用来读写文本文件。                              	|
+
+> 注意:`TextStream`对文件只可以从上往下读取，指针无法任意定位，也无法往回走。
+
+
+
+- `Scripting.FileSystemObject`对象的方法和属性
+
+
+| 方法和属性                                        	| 说明                                                                                          	|
+|------------------------------------------------	|-----------------------------------------------------------------------------------------------	|
+| fso.BuildPath(path,name)                       	| 将名称附加到现有路径。                                                                        	|
+| fso.CopyFile(src,dst,[overwrite])              	| 复制文件，其中overwrite表示文件存在时是否替换，默认为true                                     	|
+| fso.CopyFolder                                 	| 用法同CopyFile                                                                                	|
+| fso.CreateFolder(path)                         	| 创建一个文件夹                                                                                	|
+| fso.CreateTextFile(path)                       	| 创建一个文件                                                                                  	|
+| fso.CreateTextFile(path,[overrwite,unicode])   	| 创建一个文本文件                                                                              	|
+| fso.DeleteFile(path,[force])                   	| 删除文件，其中force表示是否删除只读文件，默认为false                                          	|
+| fso.DeleteFolder(path,[force])                 	| 用法同DeleteFile                                                                              	|
+| fso.DriveExists(drivespec)                     	| 检查指定的驱动器是否存在。                                                                    	|
+| fso.FileExists(path)                           	| 判断文件是否存在,返回结果为真或假                                                             	|
+| fso.FolderExists(path)                         	| 判断文件夹是否存在,返回结果为真或假                                                           	|
+| fso.GetAbsolutePathname(path)                  	| 得到文件的绝对路径                                                                            	|
+| fso.GetBaseName(path)                          	| 得到文件的不带扩展名的那个文件名                                                              	|
+| fso.GetDrive(drivespec)                        	| 返回对应于指定路径中的驱动器的 Drive 对象。                                                   	|
+| fso.GetDriveName(path)                         	| 返回指定路径的驱动器名称。                                                                    	|
+| fso.GetExtensionName(path)                     	| 得到文件的扩展名                                                                              	|
+| fso.GetFile(path)                              	| 获得指定路径下文件的File对象                                                                  	|
+| fso.GetFileName(path)                          	| 得到文件的文件名                                                                              	|
+| fso.GetFolder(path)                            	| 获得指定路径下目录的Folder对象                                                                	|
+| fso.GetParentFolderName(path)                  	| 得到文件的父目录                                                                              	|
+| fso.GetSpecialFolder(folderspec)               	| 返回某些 Windows 特殊文件夹的路径。                                                           	|
+| fso.GetTempName()                              	| 返回随机生成的临时文件或文件夹。                                                              	|
+| fso.MoveFile(src,dst)                          	| 移动文件，如果目标有同名文件则会有报错提示文件已存在，可以通过该方法给文件改名                	|
+| fso.MoveFolder(src,dst)                        	| 用法同MoveFile                                                                                	|
+| fso.OpenTextFile(path,[mode,create,encoding])  	| 打开一个文本文件                                                                              	|
+| object.Attributes                              	| 表示文件的属性，用各个二制位置位组合表示。1标识只读，2标识隐藏，4标识系统。该属性部分位可读写 	|
+| object.Close                                   	| 关闭文件                                                                                      	|
+| object.Copy(dst,[overwrite])                   	| 复制文件，overwrite表示目标文件存在时是否覆盖，默认为true                                     	|
+| object.Count                                   	| 目录下的项目数，该属性只读                                                                    	|
+| object.DateCreated                             	| 文件创建时间，该属性只读                                                                      	|
+| object.DateLastAccessed                        	| 最近访问时间，该属性只读                                                                      	|
+| object.DateLastModified                        	| 最后修改时间，该属性只读                                                                      	|
+| object.Delete([force])                         	| 删除文件，force表示是否删除只读文件，默认为false                                              	|
+| object.Files                                   	| 得到目录下的所有文件对象集合                                                                  	|
+| object.Move(dst)                               	| 移动文件，如果目标有同名文件则会有报错提示文件已存在                                          	|
+| object.Name                                    	| 文件名称，该属性可读写                                                                        	|
+| object.OpenAsTextStream([ iomode, [ format ]]) 	| 打开指定文件并返回可用于从该文件读取、写入该文件或追加到该文件的 TextStream 对象。            	|
+| object.ParentFolder                            	| 父文件夹，该属性只读                                                                          	|
+| object.Path                                    	| 文件路径                                                                                      	|
+| object.Read(个数)                              	| 读取指定个数的字符                                                                            	|
+| object.ReadAll                                 	| 读取文件中所有内容                                                                            	|
+| object.ReadLine                                	| 读取一行内容                                                                                  	|
+| object.Size                                    	| 文件大小，以字节计                                                                            	|
+| object.Skip(个数)                              	| 跳过指定个数的字符SkipLine方法                                                                	|
+| object.SkipLine                                	| 跳过文件中一行                                                                                	|
+| object.SubFolders                              	| 得到目录下的所有文件夹对象集合                                                                	|
+| object.Write(文本内容)                         	| 写入指定的字符串                                                                              	|
+| object.WriteLine                               	| 写一行内容                                                                                    	|
+
+
+- `fso.OpenTextFile(path,[mode,create,encoding])`
+
+> `mode` 模式,缺省为只读方式打开
+>> `ForReading=1` 以只读方式打开
+>>
+>> `ForWriting=2` 以读写方式打开
+>>
+>> `ForAppending=8` 以附加方式打开
+
+> `create` 不存在时是否创建缺省为否,即不创建文件
+
+> `encoding` 何种方式打开,缺省以`ASCII`方式
+>> `TristateUseDefault=-2` 以系统默认方式打开
+>>
+>> `TristateTrue=-1` 以`Unicode`方式打开
+>>
+>> `TristateFalse=0` 以`ASCII`方式打开
+
+- `fso.CreateTextFile(path,[overrwite,unicode])`
+
+> `overrwite` 是否覆盖,缺省为是
+>
+> `unicode` 是否以`Unicode`方式创建,缺省为`false`,即以`ASCII`方式创建
+
 
 
 
