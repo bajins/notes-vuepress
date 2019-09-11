@@ -16,9 +16,7 @@
   * [ActiveXObject](#activexobject)
   * [参数传递](#参数传递)
   * [函数封装](#函数封装)
-  * [下载文件](#下载文件)
   * [设置必应壁纸](#设置必应壁纸)
-
 
 
 
@@ -1017,90 +1015,6 @@ function db(){
     // 关闭数据库链接
     objdbConn.Close();
 }
-```
-
-
-
-### 下载文件
-
-```batch
-1>1/* ::
-::  by bajins https://www.bajins.com
-
-@echo off
-md "%~dp0$testAdmin$" 2>nul
-if not exist "%~dp0$testAdmin$" (
-    echo 不具备所在目录的写入权限! >&2
-    exit /b 1
-) else rd "%~dp0$testAdmin$"
-
-:: 开启延迟环境变量扩展
-:: 解决for或if中操作变量时提示ECHO OFF问题，用!!取变量
-:: 解决调用jscript提示命令错误问题
-setlocal enabledelayedexpansion
-
-if "%~1"=="/?" (
-    cscript -nologo -e:jscript "%~f0" help
-    goto :EXIT
-)
-if "%~1"=="/help" (
-    cscript -nologo -e:jscript "%~f0" help
-    goto :EXIT
-)
-
-:: cscript -nologo -e:jscript "%~f0" 这一段是执行命令，后面的是参数
-:: %~f0 表示当前批处理的绝对路径,去掉引号的完整路径
-cscript -nologo -e:jscript "%~f0" %~1 %~2
-goto :EXIT
-
-:EXIT
-:: 结束延迟环境变量扩展和命令执行
-endlocal&exit /b %errorlevel%
-*/
-
-// ****************************  JavaScript  *******************************
-
-var Argv = WScript.Arguments;
-for (i = 0; i < Argv.Length; i++) {
-    info("参数：" + Argv(i));
-}
-
-var func = Argv(0);
-if (func == "?" || func == "help") {
-    help();
-    // 正常退出
-    WScript.Quit(0);
-}
-
-function error(msg) {
-    WScript.StdErr.WriteLine(msg);
-}
-
-function info(msg) {
-    WScript.StdOut.WriteLine(msg);
-}
-
-function help() {
-    info("基本用法:");
-    info("   下载: " + WScript.ScriptName + " url path");
-    info("     url  下载链接地址");
-    info("     path 存储文件位置");
-}
-
-var iRemote = Argv(0);
-iRemote = iRemote.toLowerCase();
-var iLocal = Argv(1);
-iLocal = iLocal.toLowerCase()+ "\\" + iRemote.substring(iRemote.lastIndexOf("/") + 1);
-var xPost = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
-xPost.Open("GET", iRemote, 0);
-xPost.Send();
-var sGet = new ActiveXObject("ADODB.Stream");
-sGet.Mode = 3;
-sGet.Type = 1;
-sGet.Open();
-sGet.Write(xPost.responseBody);
-sGet.SaveToFile(iLocal, 2);
-sGet.Close();
 ```
 
 
