@@ -1077,11 +1077,8 @@ function info(msg) {
 }
 
 function help() {
-    var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // 当前脚本文件名
-    var name = fso.GetFile(WScript.ScriptName).name;
     info("基本用法:");
-    info("   下载: " + name + " url path");
+    info("   下载: " + WScript.ScriptName + " url path");
     info("     url  下载链接地址");
     info("     path 存储文件位置");
 }
@@ -1208,11 +1205,8 @@ function info(msg) {
 }
 
 function help() {
-    var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // 当前脚本文件名
-    var name = fso.GetFile(WScript.ScriptName).name;
     info("基本用法:");
-    info("   下载: " + name + " autoRun");
+    info("   下载: " + WScript.ScriptName + " autoRun");
     info("     autoRun 是否开启开机自动运行：默认0不开启,1开启");
 }
 

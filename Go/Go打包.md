@@ -304,11 +304,8 @@ function info(msg) {
 }
 
 function help() {
-    var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // 当前脚本文件名
-    var name = fso.GetFile(WScript.ScriptName).name;
     info("基本用法:");
-    info("   打包: " + name + " rootPath files project");
+    info("   打包: " + WScript.ScriptName + " rootPath files project");
     info("     rootPath 打包的根目录，路径必须完整");
     info("     files 需要打包的文件或文件夹，用双引号括起来");
     info("     project 打包完成后的压缩文件命名的前部分，可以不输入，默认为打包根目录的名称");
