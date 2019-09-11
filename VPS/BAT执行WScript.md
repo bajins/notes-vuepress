@@ -519,6 +519,10 @@ WScript
 >>
 >> `*/` `batch`命令的结尾
 
+> 执行当前脚本中的JavaScript脚本：`cscript -nologo -e:jscript "%~f0"`
+>> %~f0 表示当前批处理的绝对路径,去掉引号的完整路径
+
+
 * [microsoft.jscript](https://docs.microsoft.com/zh-cn/dotnet/api/microsoft.jscript)
 
 * [JScript参考手册](https://www.php.cn/manual/view/14969.html)
