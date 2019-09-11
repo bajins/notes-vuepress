@@ -192,8 +192,9 @@ log_level = info
 @ECHO OFF
 color 0a
 Title FRPC启动工具 by:bajins.com
+Mode con cols=105 lines=35
 :: 窗口宽高120*40
-REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v WindowSize /d 0x00280078 /f >nul
+::REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v WindowSize /d 0x00280078 /f >nul
 :: 屏幕缓冲区宽高120*2000
 REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v ScreenBufferSize /d 0x07d00078 /f >nul
 
