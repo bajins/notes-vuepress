@@ -415,6 +415,7 @@ endlocal&exit /b %errorlevel%
 // ****************************  JavaScript  *******************************
 
 
+
 var Argv = WScript.Arguments;
 for (i = 0; i < Argv.Length; i++) {
     info("参数：" + Argv(i));
@@ -428,13 +429,10 @@ if (ArgvName.Item("help") != "" && ArgvName.Item("help") != null) {
 }
 
 if (ArgvName.Item("autoRun") == "1") {
-    var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // 当前文件路径
-    var thisPath = fso.GetFile(WScript.ScriptFullName).path;
     // 设置开机启动
     var shell = new ActiveXObject("WScript.shell");
     // HKEY_CURRENT_USER
-    shell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\frpc", thisPath);
+    shell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\frpc", WScript.ScriptFullName);
 }
 
 try {
@@ -450,9 +448,7 @@ function run() {
     var shell = new ActiveXObject("WScript.shell");
     var fso = new ActiveXObject("Scripting.FileSystemObject");
     // 当前文件所在目录
-    var currentDirectory = fso.GetFile(WScript.ScriptFullName).ParentFolder.Path;
-    // 当前文件路径
-    var thisPath = fso.GetFile(WScript.ScriptFullName).path;
+    var currentDirectory = fso.GetFile(WScript.ScriptFullName).ParentFolder;
 
     var cmd = "cmd /c ";
 
@@ -485,7 +481,7 @@ function run() {
     // 如果当前目录存在文件
     if (fso.FileExists(thisExe)) {
         // 执行命令，并去掉执行结果中的换行符
-        var out = shell.Exec(cmd + thisExe + " -v").StdOut.ReadAll().replace(/\n/ig,"");
+        var out = shell.Exec(cmd + thisExe + " -v").StdOut.ReadAll().replace(/\n/ig, "");
         // 如果已经是最新版本
         if (version == out) {
             info("已经是最新版本：" + out);
@@ -495,28 +491,19 @@ function run() {
     }
 
     // 最新版程序目录
-    var exeFolder = currentDirectory + "\\" + zipName.substring(0, zipName.length - 3);
+    var exeFolder = currentDirectory + "\\" + zipName.substring(0, zipName.length - 4);
     // 判断最新版程序目录是否存在
     if (fso.FolderExists(exeFolder)) {
         // 移动文件到当前目录
         shell.Run(cmd + "move " + exeFolder + "\\frpc.exe " + currentDirectory, 0, true);
         return;
     }
-    
+
     // 如果当前目录存在压缩文件
     if (fso.FileExists(zipName)) {
         info("当前目录存在最新版压缩文件，开始解压......");
         info("");
-        unZip(currentDirectory + "\\" + zipName, currentDirectory);
-        // 移动文件到当前目录
-        shell.Run(cmd + "move " + exeFolder + "\\frpc.exe " + currentDirectory, 0, true);
-        // 删除下载的zip
-        shell.Run(cmd + "del " + currentDirectory + "\\" + zipName, 0, true);
-        // 删除解压的目录
-        shell.Run(cmd + "rmdir /s/q " + exeFolder, 0, true);
-
-        info("解压完成！");
-        info("");
+        decompression(cmd, shell, fso, currentDirectory, zipName, exeFolder);
         return;
     }
 
@@ -528,18 +515,37 @@ function run() {
     info("下载完成，开始解压......");
     info("");
 
-    unZip(currentDirectory + "\\" + zipName, currentDirectory);
+    decompression(cmd, shell, fso, currentDirectory, zipName, exeFolder);
 
-    // 移动文件到当前目录
-    shell.Run(cmd + "move " + exeFolder + "\\frpc.exe " + currentDirectory, 0, true);
+}
+
+
+/**
+ * 解压
+ *
+ * @param cmd
+ * @param shell
+ * @param fso
+ * @param currentDirectory
+ * @param zipName
+ * @param exeFolder
+ */
+function decompression(cmd, shell, fso, currentDirectory, zipName, exeFolder) {
+    zipName = currentDirectory + "\\" + zipName;
+    var sp = exeFolder.split("\\");
+    var exeName = " " + sp[sp.length - 1] + "\\frpc.exe ";
+    get7z();
+    shell.Run(cmd + "7za e " + zipName + exeName, 0, true);
+    // 如果文件不存在
+    if (!fso.FileExists(currentDirectory + "\\frpc.exe")) {
+        throw new Error("解压失败！");
+    }
     // 删除下载的zip
-    shell.Run(cmd + "del " + currentDirectory + "\\" + zipName, 0, true);
-    // 删除解压的目录
-    shell.Run(cmd + "rmdir /s/q " + exeFolder, 0, true);
-
+    fso.DeleteFile(zipName);
     info("解压完成！");
     info("");
 }
+
 
 function error(msg) {
     WScript.StdErr.WriteLine(msg);
@@ -550,11 +556,8 @@ function info(msg) {
 }
 
 function help() {
-    var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // 当前脚本文件名
-    var name = fso.GetFile(WScript.ScriptName).name;
     info("基本用法:");
-    info("   下载: " + name + " autoRun");
+    info("   下载: " + WScript.ScriptName + " autoRun");
     info("     autoRun 是否开启开机自动运行：默认0不开启,1开启");
 }
 
@@ -702,29 +705,28 @@ function getSystem() {
     };
 }
 
-/**
- * 解压zip
- *
- * @param zipFile       zip文件全路径
- * @param unDirectory   解压目录
- */
-function unZip(zipFile, unDirectory) {
-    var fso = new ActiveXObject("Scripting.FileSystemObject");
-    if (!fso.FileExists(zipFile)) {
-        throw new Error("压缩文件不存在！");
-    }
-    if (fso.GetExtensionName(zipFile) != "zip") {
-        throw new Error("压缩文件后缀不为zip！");
-    }
-    // 如果解压目录不存在
-    if (!fso.FolderExists(unDirectory)) {
-        // 创建目录
-        fso.CreateFolder(unDirectory);
-    }
 
-    var objShell = new ActiveXObject("Shell.Application");
-    var objSource = objShell.NameSpace(zipFile);
-    objShell.NameSpace(unDirectory).CopyHere(objSource.Items(), 256);
+/**
+ * 获取7z
+ *
+ */
+function get7z() {
+    var shell = new ActiveXObject("WScript.shell");
+    // 执行7z命令判断是否执行成功
+    var out = shell.Run("cmd /c 7za", 0, true);
+    var directory = "c:\\windows";
+    // 如果执行失败说明7z不存在
+    if (out == 1) {
+        var url = "https://github.com/woytu/woytu.github.io/releases/download/v1.0/7za.exe"
+        download(url, directory);
+    }
+    // 执行7z命令判断是否执行成功
+    out = shell.Run("cmd /c 7za", 0, true);
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    // 如果执行失败，或者文件不存在
+    if (out == 1 || !fso.FileExists(directory + "\\7za.exe")) {
+        get7z();
+    }
 }
 ```
 
