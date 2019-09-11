@@ -200,14 +200,12 @@ Set shell = WScript.CreateObject("WScript.Shell")
 shell.Run "cmd /c " & runCommand, 0, false
 
 Set fso = WScript.CreateObject("Scripting.FileSystemObject")
-' 当前文件路径
-thisPath = fso.GetFile(WScript.ScriptFullName).path
 ' 注册表项
 item = "HKCU\Software\Microsoft\Windows\CurrentVersion\Run\"
 
 ' 设置开机启动
 ' HKEY_CURRENT_USER
-shell.RegWrite item & keyName, thisPath
+shell.RegWrite item & keyName, WScript.ScriptFullName
 ```
 
 
