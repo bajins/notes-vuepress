@@ -502,6 +502,23 @@ function run() {
         shell.Run(cmd + "move " + exeFolder + "\\frpc.exe " + currentDirectory, 0, true);
         return;
     }
+    
+    // 如果当前目录存在压缩文件
+    if (fso.FileExists(zipName)) {
+        info("当前目录存在最新版压缩文件，开始解压......");
+        info("");
+        unZip(currentDirectory + "\\" + zipName, currentDirectory);
+        // 移动文件到当前目录
+        shell.Run(cmd + "move " + exeFolder + "\\frpc.exe " + currentDirectory, 0, true);
+        // 删除下载的zip
+        shell.Run(cmd + "del " + currentDirectory + "\\" + zipName, 0, true);
+        // 删除解压的目录
+        shell.Run(cmd + "rmdir /s/q " + exeFolder, 0, true);
+
+        info("解压完成！");
+        info("");
+        return;
+    }
 
     info("开始下载最新版程序......");
     info("");
