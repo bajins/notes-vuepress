@@ -100,7 +100,7 @@
 
 ![](/images/IDEA-JavaScriptHeader.png)
 
-- 在`JavaScript File`文件模板中引用：`#parse("File Header")`
+- 在`JavaScript File`文件模板中引用：`#parse("JavaScript Header.js")`
 
 ![](/images/IDEA-JavaScriptHeaderParse.png)
 
