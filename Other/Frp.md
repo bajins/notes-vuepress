@@ -238,6 +238,9 @@ ECHO.
 :: 执行JavaScript脚本
 cscript -nologo -e:jscript "%~f0"
 
+if not "%errorlevel%" == "0" (
+    @cmd /k
+)
 
 :TUNNEL
 ECHO.
@@ -254,7 +257,7 @@ if "%clientid%"=="" (
 
 :: 判断是否为数字、字母，在|两端不能有空格
 :: 注意这里有个bug不能用[^0-9]取反，匹配到.会通过
-echo %clientid%|findstr "^[a-z0-9]*$" >nul || (
+ECHO %clientid%|findstr "^[a-z0-9]*$" >nul || (
     ECHO.
     ECHO.二级域名必须为小写字母或数字！
     ECHO.
@@ -272,7 +275,7 @@ if "%port%"=="" (
 
 :: 判断是否为纯数字，在|两端不能有空格
 :: 注意这里有个bug不能用[^0-9]取反，匹配到.会通过
-echo %port%|findstr "^[0-9]*$" >nul || (
+ECHO %port%|findstr "^[0-9]*$" >nul || (
     ECHO.
     ECHO.端口必须为纯数字！
     ECHO.
