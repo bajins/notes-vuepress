@@ -161,6 +161,7 @@ cd /d "%~dp0"
 ![](/images/Windows10启用管理员.png)
 
 ## 隐藏窗口运行
+
 ```batch
 @echo off
 if "%1" == "h" goto begin
@@ -171,16 +172,19 @@ mshta vbscript:createobject("wscript.shell").run("%~nx0 h",0)(window.close) && e
 :: 下面为执行命令
 
 ```
+
 ```batch
 :: 静默运行软件
 Pushd %~dp0
 start /wait /B "" "%~dp0软件名称" /S
 ```
+
 ````batch
 :: 添加开机静默启动
 Pushd %~dp0
 start /wait /B "" "%~dp0软件名称" /ADD
 ````
+
 ````batch
 :: 删除开机静默启动
 Pushd %~dp0
@@ -199,7 +203,6 @@ Set shell = WScript.CreateObject("WScript.Shell")
 ' 运行
 shell.Run "cmd /c " & runCommand, 0, false
 
-Set fso = WScript.CreateObject("Scripting.FileSystemObject")
 ' 注册表项
 item = "HKCU\Software\Microsoft\Windows\CurrentVersion\Run\"
 
