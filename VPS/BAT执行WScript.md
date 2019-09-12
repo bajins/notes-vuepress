@@ -984,6 +984,9 @@ function unZip(zipFile, unDirectory) {
 
     var objShell = new ActiveXObject("Shell.Application");
     var objSource = objShell.NameSpace(zipFile);
+    if (objSource == null) {
+        throw new Error("无法解压文件！");
+    }
     objShell.NameSpace(unDirectory).CopyHere(objSource.Items(), 256);
 }
 ```
