@@ -415,7 +415,6 @@ endlocal&exit /b %errorlevel%
 // ****************************  JavaScript  *******************************
 
 
-
 var Argv = WScript.Arguments;
 for (i = 0; i < Argv.Length; i++) {
     info("参数：" + Argv(i));
@@ -509,8 +508,12 @@ function run() {
 
     info("开始下载最新版程序......");
     info("");
-
-    download(url, currentDirectory);
+    
+    try {
+        download(url, currentDirectory);
+    } catch (err) {
+        throw new Error("下载文件错误：" + e.message);
+    }
 
     info("下载完成，开始解压......");
     info("");
