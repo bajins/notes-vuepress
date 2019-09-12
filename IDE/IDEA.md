@@ -62,42 +62,12 @@
 
 ## 自定义创建文件头部注释
 
-### 预定义模板变量
-> `${PROJECT_NAME}` - 当前项目的名称
-> 
-> `${PACKAGE_NAME}` - 当前所在包名
->
-> `${NAME}` - 在创建文件期间在新建文件对话框中指定的文件名称
->
-> `${USER}` - 系统的当前用户登录名称
->
-> `${DATE}` - 当前系统日期
->
-> `${TIME}` - 当前系统时间
->
-> `${YEAR}` - 当前年份
-> 
-> `${MONTH}` - 当前月份
-> 
-> `${DAY}` - 当前月的日期
-> 
-> `${HOUR}` - 当前时刻
-> 
-> `${MINUTE}` - 当前分钟
-> 
-> `${PRODUCT_NAME}` - 将被创建文件所在的IDE名称
-> 
-> `${MONTH_NAME_SHORT}` - 月份名称的前3个字母，例如: Jan, Feb, etc.
-> 
-> `${MONTH_NAME_FULL}` - 月份全称，例如: January, February, etc.
-
-
 ```java
 /**
  *
  * @Description: 
  * @Author: ${USER}
- * @File: ${NAME}
+ * @File: ${NAME}.java
  * @Version: 1.0.0
  * @Time: ${DATE} ${TIME}
  * @Project: ${PROJECT_NAME}
@@ -106,9 +76,67 @@
  */
 ```
 
+- 在文件模板中引用：`#parse("File Header.java")`
+
 ![](/images/IDEA设置创建文件时的注释.png)
 
+- JavaScript头部注释
+
+```js
+/**
+ *
+ * @Description: 
+ * @Author: ${USER}
+ * @File: ${NAME}.js
+ * @Version: 1.0.0
+ * @Time: ${DATE} ${TIME}
+ * @Project: ${PROJECT_NAME}
+ * @Package: ${PACKAGE_NAME}
+ * @Software: ${PRODUCT_NAME}
+ */
+
+
+```
+
+![](/images/IDEA-JavaScriptHeader.png)
+
+![](/images/IDEA-JavaScriptHeaderParse.png)
+
+### 预定义模板变量
+
+- `${PROJECT_NAME}` - 当前项目的名称
+ 
+- `${PACKAGE_NAME}` - 当前所在包名
+
+- `${NAME}` - 在创建文件期间在新建文件对话框中指定的文件名称
+
+- `${USER}` - 系统的当前用户登录名称
+
+- `${DATE}` - 当前系统日期
+
+- `${TIME}` - 当前系统时间
+
+- `${YEAR}` - 当前年份
+
+- `${MONTH}` - 当前月份
+
+- `${DAY}` - 当前月的日期
+
+- `${HOUR}` - 当前时刻
+
+- `${MINUTE}` - 当前分钟
+
+- `${PRODUCT_NAME}` - 将被创建文件所在的IDE名称
+
+- `${MONTH_NAME_SHORT}` - 月份名称的前3个字母，例如: Jan, Feb, etc.
+
+- `${MONTH_NAME_FULL}` - 月份全称，例如: January, February, etc.
+
+
+
 ## 自定义类文件创建模板
+
+
 
 ```java
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} 
@@ -248,11 +276,6 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 
 
-
-
-
-
-*********************************************************************************
 
 ## IDEA插件
 
@@ -410,6 +433,7 @@ package ${GO_PACKAGE_NAME}
 
 ```js
 /**
+ *
  * @Description: 
  * @Author: ${USER}
  * @File: ${NAME}.js
@@ -422,5 +446,8 @@ package ${GO_PACKAGE_NAME}
 
 
 ```
+
+- 在`JavaScript File`文件模板中引用：`#parse("File Header")`
+
 
 - 默认函数注释快捷键：`/**`+`Enter`
