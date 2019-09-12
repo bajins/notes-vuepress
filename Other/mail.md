@@ -109,15 +109,14 @@
 
 ## 临时邮箱
 
-[guerrillamail](https://www.guerrillamail.com/zh)
+[https://shorttimemail.com/zh-Hans](https://shorttimemail.com/zh-Hans)
 
-[mail.bccto.me](http://mail.bccto.me/)
+[https://www.linshiyouxiang.net](https://www.linshiyouxiang.net)
 
-[mjjmail.me](https://mjjmail.me/)
+[http://mail.bccto.me](http://mail.bccto.me)
 
-[shorttimemail](https://shorttimemail.com/zh-Hans)
+[https://www.guerrillamail.com/zh](https://www.guerrillamail.com/zh)
 
-[linshiyouxiang](https://www.linshiyouxiang.net/)
 
 
 
