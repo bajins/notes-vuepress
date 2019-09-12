@@ -14,7 +14,7 @@
 * [自动优化导包](#自动优化导包)
 * [热部署策略](#热部署策略)
 * [自动编译](#自动编译)
-* [去掉MybatisXML局部背景颜色](#去掉mybatisxml局部背景颜色)
+* [去掉SQLXML局部背景色](#去掉sqlxml局部背景色)
 * [项目目录设置](#项目目录设置)
 * [错误解决](#错误解决)
   * [idea无限indexing解决方法](#idea无限indexing解决方法)
@@ -232,7 +232,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ![](/images/IDEA自动编译-静态.png)
 
-## 去掉MybatisXML局部背景颜色
+## 去掉SQLXML局部背景色
 
 - 1.快捷键`ctrl + alt+ s`打开Settings。找到`Editor -> Inspections`的配置页面，去掉SQL中`No data sources configured`（没有配置数据源） 选项 和 `SQL dialect detection`（SQL方言检测） 选项。
 
