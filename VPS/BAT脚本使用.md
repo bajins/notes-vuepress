@@ -213,6 +213,16 @@ shell.RegWrite item & keyName, WScript.ScriptFullName
 
 
 ## 注册表
+
+| 注册表短根键名       | 注册表长根键名        |
+|---------------------|---------------------|
+| HKCU                | HKEY_CURRENT_USER   |
+| HKLM                | HKEY_LOCAL_MACHINE  |
+| HKCR                | HKEY_CLASSES_ROOT   |
+| HKEY_USERS          | HKEY_USERS          |
+| HKEY_CURRENT_CONFIG | HKEY_CURRENT_CONFIG |
+
+
 ### 修改
 
 ```batch
@@ -249,7 +259,6 @@ REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "Di
 :: 启用Windows Defender
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /d 0 /t REG_DWORD /f   
    
-
 ```
 
 > `/v` 设置键名(value)
