@@ -100,6 +100,8 @@
 
 ![](/images/IDEA-JavaScriptHeader.png)
 
+- 在`JavaScript File`文件模板中引用：`#parse("File Header")`
+
 ![](/images/IDEA-JavaScriptHeaderParse.png)
 
 ### 预定义模板变量
