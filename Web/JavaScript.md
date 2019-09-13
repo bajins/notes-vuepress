@@ -221,14 +221,35 @@ window.URL.revokeObjectURL(href);
 ## NodeJs
 
 ### 安装
-- CentOS7
+
+- rpm
+
+> npm与Node.js一起存在，这意味着当您下载并安装Node.js时，您会自动在计算机上安装npm
+
 ```bash
 # 到https://github.com/nodesource/distributions#installation-instructions-1
 # 复制更新软件源命令，并执行
 curl -sL https://rpm.nodesource.com/setup_12.x | bash -
 # 安装
 yum install -y nodejs
+# 检查Node.js和NPM版本
+node -v && npm -v
 ```
+
+- NVM
+
+> nodeJs版本管理工具,管理nodejs版本和npm版本
+
+```bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+# 刷新
+source ~/.bashrc
+# 查询最新版本号
+nvm ls-remote --lts
+# 安装稳定版 Nodejs
+nvm install <最新的版本号>
+```
+
 
 ### npm和yarn镜像
 - 如果使用`yarn`，就把命令开头的`npm`替换为`yarn`
