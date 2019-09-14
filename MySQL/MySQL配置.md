@@ -136,7 +136,9 @@ tmp_table_size = 128M
 log-bin=mysql-bin
 #注释掉之后，会关闭binlog日志
 binlog_format=mixed
-#数据库ID号,为1时表示为Master,其中master_id必须为1到232–1之间的一个正整数值，主从server-id不能一样;
+
+# 数据库ID号,为1时表示为Master,其中master_id必须为1到232–1
+# 之间的一个正整数值，主从server-id不能一样;
 server-id = 1
 #自动删除5天前的日志。默认值为0，表示从不删除。
 expire_logs_days = 5
@@ -144,7 +146,10 @@ slow_query_log=1
 slow-query-log-file=/var/lib/mysql/mysql-slow.log
 long_query_time=3
 #log_queries_not_using_indexes=on
-# MySQL5.7.11拥有，默认值为keyring_file，InnoDB表空间在初始化InnoDB之前需要此插件来加密，MySQL5.7.12及以后此参数默认为空
+
+# MySQL5.7.11拥有，默认值为keyring_file，
+# InnoDB表空间在初始化InnoDB之前需要此插件来加密，
+# MySQL5.7.12及以后此参数默认为空
 #early-plugin-load = ""
 
 #loose-innodb-trx=0
@@ -261,7 +266,9 @@ slow_query_log=1
 slow-query-log-file=/usr/local/mysql/data/mysql-slow.log
 long_query_time=3
 #log_queries_not_using_indexes=on
-# MySQL5.7.11拥有，默认值为keyring_file，InnoDB表空间在初始化InnoDB之前需要此插件来加密，MySQL5.7.12及以后此参数默认为空
+# MySQL5.7.11拥有，默认值为keyring_file，
+# InnoDB表空间在初始化InnoDB之前需要此插件来加密，
+# MySQL5.7.12及以后此参数默认为空
 #early-plugin-load = ""
 
 #loose-innodb-trx=0

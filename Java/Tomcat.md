@@ -1,24 +1,37 @@
-# Tomcat优化
+# Tomcat
 
-# 目录
-* [执行器（线程池）](#执行器（线程池）)
-* [连接器（Connector）优化](#连接器（Connector）优化)
-* [禁用AJP连接器](#禁用AJP连接器)
-* [http头的验证](#http头的验证)
-* [Tomcat热部署](#Tomcat热部署)
-***************************************************************************************
+## 目录
+
+- [连接器（Connector）优化](#连接器connector优化)
+- [禁用AJP连接器](#禁用ajp连接器)
+- [http头的验证](#http头的验证)
+- [Tomcat热部署](#tomcat热部署)
+- [403AccessDenied](#403accessdenied)
+
+
+
+
+
+
 
 ## 执行器（线程池）
+
 > 默认的tomcat没有启用线程池,在tomcat中每一个用户请求都是一个线程，所以可以使用线程池提高性能。
 这里前台其实有一个调度线程，然后调度线程会放入线程池内，然后到到一定的时候线程池的任务变成工作线程。
-### 找到以下位置代码
+
+- 找到以下位置代码
+
 ![](/images/tomcat%E5%BC%80%E5%90%AF%E7%BA%BF%E7%A8%8B%E6%B1%A0.png)
-### 更改为以下代码
+
+- 更改为以下代码
+
 ```xml
 <Executor name="tomcatThreadPool" namePrefix="catalina-exec-"
         maxThreads="800" minSpareThreads="100"  maxQueueSize="100" prestartminSpareThreads="true" />
 ```
-#### 参数说明
+
+- 参数说明
+
 | 参数 | 说明  |
 | ------------ | ------------ |
 |threadPriority|优先级|
@@ -31,24 +44,27 @@
 |prestartminSpareThreads|是否在启动时就生成minSpareThreads个线程|
 |threadRenewalDelay|重建线程的时间间隔|
 
-### 指定线程池
+- 指定线程池
+
 ![](/images/Tomcat%E5%90%AF%E7%94%A8%E7%BA%BF%E7%A8%8B%E6%B1%A0.png)
 
 ## 连接器（Connector）优化
+
 > Connector是连接器，负责接收客户的请求，以及向客户端回送响应的消息。所以 Connector的优化是重要部分。
 默认情况下 Tomcat只支持200线程访问，超过这个数量的连接将被等待甚至超时放弃，所以我们需要提高这方面的处理能力。
->
->  其中port代表服务接口；
->
-> protocol代表协议类型；
->
-> connectionTimeout代表连接超时时间，单位为毫秒；
->
->redirectPort代表安全通信（https）转发端口，一般配置成443。
+
+- `port` 代表服务接口；
+
+- `protocol` 代表协议类型；
+
+- `connectionTimeout` 代表连接超时时间，单位为毫秒；
+
+- `redirectPort` 代表安全通信（https）转发端口，一般配置成443。
 
 ![](/images/Tomcat%E8%BF%9E%E6%8E%A5%E5%99%A8%E4%BC%98%E5%8C%96.png)
 
-### 常用的参数如下
+- 常用的参数如下
+
 | 参数 | 说明  |
 | ------------ | ------------ |
 |maxPostSize|参数形式处理的最大长度，默认值为2097152（2兆字节）。上传提交的时候可以用的|
@@ -72,7 +88,8 @@
 |URIEncoding|指定使用的字符编码，来解码URI字符。如果没有指定，ISO-8859-1将被使用。|
 |executor|指向Executor元素的引用。|
 
-### 最好实例
+- 最好实例
+
 ```xml
 <!-- maxPostSize 参数形式处理的最大长度，默认为2097152（2兆字节）,上传提交的时候可以用的,这里设置1GB
             acceptCount 请求的最大队列长度，当队列满时收到的任何请求将被拒绝
@@ -98,30 +115,85 @@
 ```
 
 ## 禁用AJP连接器
-#### 如果是使用Nginx+tomcat的架构，所以用不着AJP协议，所以把AJP连接器禁用。
+
+- 如果是使用`Nginx`+`tomcat`的架构，所以用不着`AJP`协议，所以把`AJP`连接器禁用。
+
 > AJPv13协议是面向包的。WEB服务器和Servlet容器通过TCP连接来交互；为了节省SOCKET创建的昂贵代价，
 WEB服务器会尝试维护一个永久TCP连接到servlet容器，并且在多个请求和响应周期过程会重用连接。
 
 ![](/images/Tomcat%E7%A6%81%E7%94%A8AJP.png)
 
 ## http头的验证
-### Tomcat在 7.0.73, 8.0.39, 8.5.7 版本后，添加了对于http头的验证。
-### 在`conf/catalina.properties`文件的末尾添加或者修改最后一行：
+
+> Tomcat在 `7.0.73`、`8.0.39`、以及`8.5.7`版本后，添加了对于`http`头的验证。
+
+- 在`conf/catalina.properties`文件的末尾添加或者修改最后一行
+
 ```properties
 tomcat.util.http.parser.HttpParser.requestTargetAllow=|{}
 ```
 
 ## Tomcat热部署
-### 在`/conf/context.xml`的`Context`标签中配置会使全局生效
-[官方文档](https://tomcat.apache.org/tomcat-9.0-doc/config/context.html#Defining_a_context)
+
+- 在`/conf/context.xml`的`Context`标签中配置会使全局生效
+
+* [官方文档](https://tomcat.apache.org/tomcat-9.0-doc/config/context.html#Defining_a_context)
+
 ![](/images/Tomcat配置全局自动加载.png)
 
-### 在`/conf/server.xml`的`Host`标签中配置
-> 替换WEB-INF/lib目录中的jar文件或WEB-INF/classes目录中的class文件时，reloadable="true"会让修改生效（但代价不小），该选项适合调试。
+- 在`/conf/server.xml`的`Host`标签中配置
+
+> 替换`WEB-INF/lib`目录中的`jar`文件或`WEB-INF/classes`目录中的`class`文件时，
+> `reloadable="true"`会让修改生效（但代价不小），该选项适合调试。
+
 ```xml
 <Context docBase="xxx" path="/xxx" reloadable="true"/> 
 ```
-> 在webapps目录中增加新的目录、war文件、修改WEB-INF/web.xml，autoDeploy="true"会新建或重新部署应用，该选项方便部署。
+
+> 在`webapps`目录中增加新的目录、`war`文件、修改`WEB-INF/web.xml`，`autoDeploy="true"`会新建或重新部署应用，该选项方便部署。
+
 ```xml
 <Context docBase="xxx" path="/xxx" autoDeploy="true"/> 
 ```
+
+
+## 403AccessDenied
+
+> `tomcat8`以上管理页面提示`403 Access Denied`问题
+
+- 修改`conf/tomcat-users.xml`
+
+```bash
+vi conf/tomcat-users.xml
+```
+
+- 按`shift+g`跳到末尾,在`</tomcat-users>`前添加
+
+```xml
+<role rolename="manager-gui"/>
+<role rolename="manager-script"/>
+<role rolename="admin-gui"/>
+<role rolename="admin-script"/>
+<user username="tomcat" password="密码" roles="manager-gui,manager-script,admin-gui,admin-script"/>
+```
+
+- 修改`context.xml`
+
+> 打开`webapps`下的`host-manager`和`manager`，在`META-INF`里面都有`context.xml`
+
+```bash
+vi webapps/manager/META-INF/context.xml
+vi webapps/host-manager/META-INF/context.xml
+```
+
+> 修改`<Context antiResourceLocking="false" privileged="true" >`节点
+
+> 这段代码的作用是限制来访IP的，`127.d+.d+.d+|::1|0:0:0:0:0:0:0:1`是正则表达式，表示`IPv4`和`IPv6`的本机环回地址
+
+```xml
+<Valve className="org.apache.catalina.valves.RemoteAddrValve"
+     allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1|\d+\.\d+\.\d+\.\d+" />
+```
+
+
+
