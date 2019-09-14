@@ -179,7 +179,9 @@ git config --global user.name  "your username"
 git config --global credential.helper store
 ```
 
+> 在`~/.gitconfig`中会自动在`[credential]`节点下添加`helper = store`
 
+> 保存的账户密码在`~/.git-credentials`中
 
 
 
