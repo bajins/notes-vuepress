@@ -24,6 +24,7 @@
 
 
 ## 显示内存
+
 > 在eclipse中打开heap状态`windows->perference->general->右边show heap status打上勾->OK `，这时会在Eclipse最下面显示一个内存显示了
 
 ## 解决卡死现象
@@ -37,19 +38,22 @@
 > 把除了`manual`下面的全部点掉，`build`下只留`classpath dependency Validator`
  
 - 2、关闭拼写检查
+
 > `windows`–>`perferences`–>`general`–>`editors`->`Text Editors`->`spelling`
 
 ## 调整Eclipse运行内存
 
 > 在eclipse的安装目录下编辑`eclipse.ini`文件
  
-[JVM参数设置](/Java/Tomcat优化.md#四)
+[JVM参数设置](/Java/Tomcat.md#四)
+
 ```bash
 # JDK8以下
 -Xms128M -Xmx512M -XX:PermSize=64M -XX:MaxPermSize=128M
 # JDK8
 -Xms128M -Xmx512M -XX:MetaspaceSize=512m -XX:MaxMetaspaceSize=1024m
 ```
+
 ```diff
 -Xms128m JVM初始分配的堆内存
 -Xmx512m JVM最大允许分配的堆内存，按需分配
@@ -58,15 +62,19 @@
 -XX:MetaspaceSize=512m 元数据，JDK8
 -XX:MaxMetaspaceSize=1024m 最大元数据，JDK8
 ```
+
 #### 设置JDK参数
+
 ![](/images/Eclipse中JDK的JVM参数设置.png)
 
 #### 设置Tomcat参数
+
 ![](/images/Eclipse中Tomcat的JVM参数设置.png)
 
 
 
 ## Eclipse自动导包设置
+
 > 在Eclispe中，打开`Window`->`Preferences`->`Java`->`Editor`->`Save Actions`然后选中`Organize impots`
 
 ![](/images/Eclipse保存自动优化设置.png)
@@ -74,12 +82,15 @@
 
 
 ## Eclipse注释模板设置
+
 > 编辑注释模板的方法：`Window`->`Preference`->`Java`->`Code Style`->`Code Template`然后展开`Comments`节点就是所有需设置注释的元素
 
-#### 注释的使用：输入`/**`然后回车自动出来
+- 注释的使用：输入`/**`然后回车自动出来
+
 ![](/images/Eclipse自动添加注释.png)
 
-### 1.创建新文件(New Java files)注释标签：
+- 创建新文件(New Java files)注释标签
+
 ```java
 ${filecomment}
 ${package_declaration}
@@ -96,17 +107,20 @@ ${package_declaration}
  */
 ${typecomment}
 ${type_declaration}
- ```
+```
 
-### 2.字段(Fields)注释标签：
- ```java
+- 字段(Fields)注释标签
+
+```java
  /**
  * @Fields ${field} : 
  * @author: woytu.com
  * @date: ${date} ${time}
  */
- ```
-### 3.构造函数(Constructors)标签：
+```
+
+- 构造函数(Constructors)标签
+
 ```java
 /**
  * @Title: ${enclosing_type}
@@ -115,7 +129,9 @@ ${type_declaration}
  * @date: ${date} ${time}
  */
 ```
-### 4.方法(Methods)标签：
+
+- 方法(Methods)标签
+
 ```java
 /**
  * 
@@ -123,8 +139,10 @@ ${type_declaration}
  * @author: woytu.com
  * @date: ${date} ${time}
  */
- ```
-### 5.覆盖方法(Overriding Methods)标签:
+```
+
+- 覆盖方法(Overriding Methods)标签
+
 ```java
 /**
  * <p>Title: ${enclosing_method}</p>
@@ -135,7 +153,9 @@ ${type_declaration}
  * @date: ${date} ${time}
  */
 ```
-### 6.代表方法(Delegate Methods)标签：
+
+- 代表方法(Delegate Methods)标签
+
 ```java
 /**
  * ${tags}
@@ -144,7 +164,9 @@ ${type_declaration}
  * @date: ${date} ${time}
  */
 ```
-### 7.getter方法标签：
+
+- 7.getter方法标签
+
 ```java
 /**
  * @Title: ${enclosing_method} <BR>
@@ -165,7 +187,7 @@ ${type_declaration}
  */
 ```
 
-# Eclipse代码格式化设置
+## Eclipse代码格式化设置
 
 ```java
 1.Window->Preferences
@@ -194,31 +216,38 @@ ${type_declaration}
 
 
 ## Eclipse设置不格式化注释
+
 > Eclipse默认自带的风格模板不能直接操作，需要先创建一个新的风格模板才能操作
 
 ![](/images/Eclipse不格式化注释.png)
 
 ## 设置编码格式
-### 1、设置工作空间编码格式
+
+- 设置工作空间编码格式
+
 > 在`Window`->`Preferences`->`General`->`Workspace下`，面板`Text file encoding`选择`UTF-8`
 
 >![](/images/Eclipse设置工作空间编码.png)
 
-### 2、设置文档编码格式
+- 设置文档编码格式
+
 > 在`Window`->`Preferences`->`General`->`Content Type`->`Text`的最下面设置为编码格式为`UTF-8`
 
 ![](/images/Eclipse设置文档编码.png)
 
-### 3、设置Web编码格式
+- 设置Web编码格式
+
 > 在`Window`->`Preferences`->`Web`->`CSS Files、HTML Files、JSP Files` 面板选择`ISO 10646/Unicode(UTF-8)`
 
 ![](/images/Eclipse设置Web文件编码.png)
 
-### 4、设置项目的文档编码格式
+- 设置项目的文档编码格式
+
 > 选择`项目`->`右键`->`Properties`->`Resource`设置编码为`UTF-8`
 
 
 ## 设置Tab键为4个空格
+
 ![](/images/Eclipse-Insert-spaces-for-tabs.png)
 
 ![](/images/Eclipse-Tab-policy.png)
