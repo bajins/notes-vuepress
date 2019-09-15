@@ -66,7 +66,7 @@ git remote remove origin
 git remote add origin 远程地址
 ```
 
-- 设置`origin`节点远程地址，有就修改，没有就添加
+- 修改`origin`节点远程地址
 
 ```bash
 git remote set-url origin 远程地址
