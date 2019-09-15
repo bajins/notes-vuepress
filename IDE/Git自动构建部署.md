@@ -393,10 +393,7 @@ git add -A
 # 提交
 git commit -m 'deploy'
 
-# 设置`origin`节点远程地址，有就修改，没有就添加
-git remote set-url origin https://github.com/woytu/woytu.github.io.git
-
 # 推送
-git push -f origin master
+git push -f origin https://github.com/woytu/woytu.github.io.git master
 
 ```
