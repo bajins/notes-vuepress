@@ -1,6 +1,6 @@
 # Nginx语法
 
-## 目录
+
 
 * [location 规则匹配](#location-规则匹配)
   * [location 语法规则](#location-语法规则)

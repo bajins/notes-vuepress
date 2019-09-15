@@ -1,8 +1,7 @@
 # CentOS
 
-## 目录
 
-- [目录](#目录)
+
 - [重装系统](#重装系统)
   - [Network-Reinstall-System-Modify](#network-reinstall-system-modify)
   - [moeclub](#moeclub)

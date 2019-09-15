@@ -1,6 +1,6 @@
 # JavaScript
 
-## 目录
+
 
 * [CDN](#cdn)
   * [other](#other)

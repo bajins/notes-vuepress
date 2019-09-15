@@ -2,7 +2,7 @@
 
 > VisualStudioCode
 
-## 目录
+
 
 * [设置](#设置)
 * [VSCode快捷键](#vscode快捷键)

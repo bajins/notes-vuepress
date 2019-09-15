@@ -1,40 +1,37 @@
 # Git自动构建部署
 
-## 目录
-
-- [手动部署](#手动部署)
-- [WebHooks自动化部署](#webhooks自动化部署)
-- [服务器安装必备环境](#服务器安装必备环境)
-- [配置服务器`WebHook`接收通知](#配置服务器webhook接收通知)
-  - [自动化执行脚本](#自动化执行脚本)
-  - [第一种：宝塔面板](#第一种宝塔面板)
-    - [设置宝塔WebHook插件](#设置宝塔webhook插件)
-    - [宝塔WebHook获取url](#宝塔webhook获取url)
-- [第二种：`netcat`命令](#第二种netcat命令)
-- [第三种：使用第三方项目](#第三种使用第三方项目)
-- [配置Gitea的WebHook](#配置gitea的webhook)
-  - [设置Gitea的WebHook](#设置gitea的webhook)
-  - [添加Gitea的WebHook](#添加gitea的webhook)
-  - [测试Gitea的WebHook推送](#测试gitea的webhook推送)
-- [执行脚本](#执行脚本)
+* [介绍](#介绍)
+* [配置接收通知](#配置接收通知)
+  * [必备环境](#必备环境)
+  * [宝塔面板](#宝塔面板)
+  * [`netcat`命令](#netcat命令)
+  * [第三方项目](#第三方项目)
+* [配置WebHook](#配置webhook)
+  * [添加接收通知的url](#添加接收通知url)
+  * [测试推送](#测试推送)
+* [执行脚本](#执行脚本)
+  * [编译并部署到web目录](#编译并部署到web目录)
+  * [编译并部署到仓库](#编译并部署到仓库)
 
 
 
+## 介绍
 
-## 手动部署
+- 手动部署
 
 > Vue项目完成后,执行`npm run build`,然后将生成的dist目录下的文件放到web目录下
 
-## WebHooks自动化部署
-
-- 流程如下:
+- WebHooks自动化部署,流程如下:
 
 > 配置`Gitea`的`WebHook`通知(也可以用`码云`、`Github`、`GitLab`、`gogs`,带`WebHook`功能就行)
 
 > 当我们`push`到仓库时,`Gitea`会主动发送一个通知到我们的服务器,然后服务器接到通知执行我们部署的脚本,开始自动化构建。
 
 
-## 服务器安装必备环境
+
+## 配置接收通知
+
+### 必备环境
 
 - 以下命令视自己的环境而执行
 
@@ -47,16 +44,14 @@ yum install -y nodejs
 npm install -g @vue/cli
 ```
 
-## 配置服务器`WebHook`接收通知
 
+### 宝塔面板
 
-### 第一种：宝塔面板
-
-##### 设置宝塔WebHook插件
+- 设置宝塔WebHook插件
 
 ![](/images/宝塔WebHook设置.png)
 
-##### 宝塔WebHook获取url
+- 宝塔WebHook获取url
 
 - param参数需要和脚本里对应起来,我这里写的是pull
 
@@ -65,7 +60,9 @@ npm install -g @vue/cli
 ![](/images/宝塔WebHook获取url.png)
 
 
-### 第二种：[`netcat`命令](https://segmentfault.com/a/1190000016626298)
+### `netcat`命令
+
+* [https://segmentfault.com/a/1190000016626298](https://segmentfault.com/a/1190000016626298)
 
 - 实现监听端口->响应请求->执行脚本部署
 
@@ -97,7 +94,7 @@ WantedBy=multi-user.target
 ```
 > 这样就可以实现每次向 master push 代码，自动测试成功并且马上推送到测试环境中。 update.sh 脚本的最后可以加一个 Curl 命令向钉钉或者 slack 发送提醒。
 
-### 第三种：使用第三方项目
+### 第三方项目
 
 * [GoWebhook](https://github.com/moonagic/GoWebhook)
 
@@ -107,17 +104,16 @@ WantedBy=multi-user.target
 
 
 
-## 配置Gitea的WebHook
+## 配置WebHook
 
-### 设置Gitea的WebHook
 
 ![](/images/GiteaWebHook设置.png)
 
-### 添加Gitea的WebHook
+### 添加接收通知url
 
 ![](/images/GiteaWebHook添加.png)
 
-### 测试Gitea的WebHook推送
+### 测试推送
 
 ![](/images/GiteaWebHook测试.png)
 

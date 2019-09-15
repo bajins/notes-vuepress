@@ -1,6 +1,6 @@
 # MySQL备份恢复数据
 
-## 目录
+
 * [通过binlog2sql恢复数据](#通过binlog2sql恢复数据)
   * [MySQL必须设置参数](#mysql必须设置参数)
   * [user需要的最小权限集合](#user需要的最小权限集合)

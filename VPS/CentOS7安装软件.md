@@ -1,6 +1,6 @@
 # CentOS7安装软件
 
-## 目录
+
 
 - [安装MySQL](#安装mysql)
   - [yum安装](#yum安装)
