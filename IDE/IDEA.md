@@ -52,7 +52,7 @@
 
 ```java
 /**
- *
+ * 
  * @Description: 
  * @Author: ${USER}
  * @File: ${NAME}.java
@@ -74,7 +74,7 @@
 
 ```js
 /**
- *
+ * 
  * @Description: 
  * @Author: ${USER}
  * @File: ${NAME}.js
@@ -391,6 +391,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 ```python
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
+#
 # @Description: 
 # @PreInstall: 
 # @Author : ${USER}
@@ -425,6 +426,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ```go
 /**
+ * 
  * @Description: 
  * @Author: ${USER}
  * @File: ${NAME}.go
@@ -452,7 +454,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ```js
 /**
- *
+ * 
  * @Description: 
  * @Author: ${USER}
  * @File: ${NAME}.js
