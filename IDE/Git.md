@@ -44,25 +44,46 @@ find . -type d -empty -exec touch {}/.gitignore \;
 
 > 见`项目目录/.git/config`中的`remote`节点
 
+> `origin`为默认远程节点名，可以自定义
+
+- 查看当前的远程地址
+
 ```bash
-# 查看当前的远程地址
-git remote -v   
-# 删除当前的远程地址
+git remote -v
+```
+
+- 删除`origin`节点的远程地址
+
+```bash
 git remote rm origin
 # 或者
 git remote remove origin
-# 添加远程地址
+```
+
+- 为`origin`节点添加远程地址
+
+```bash
 git remote add origin 远程地址
+```
 
-# 或者直接修改
+- 设置`origin`节点远程地址，有就修改，没有就添加
+
+```bash
 git remote set-url origin 远程地址
+```
 
-# 或者为origin添加一个远程地址，一条命令拉取或推送多个项目地址
-git remote set-url --add origin 地址
+- 为`origin`节点增加一个远程地址
 
-# 把当前分支与远程分支进行关联
+> 可同时拉取或推送到多个远程地址
+
+```bash
+git remote set-url --add origin 远程地址
+```
+
+- 把当前分支与`origin`节点远程分支进行关联
+
+```bash
 git push --set-upstream origin 分支名称
-
 ```
 
 
@@ -171,6 +192,7 @@ git log --stat|perl -ne 'END { print $c } $c += $1 if /(\d+) insertions/'
 ### 保存用户密码
 
 ```bash
+git config --global --edit
 # 设置项目个人邮箱
 git config --global user.email "your email"
 # 设置项目个人用户名
