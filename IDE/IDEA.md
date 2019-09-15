@@ -1,15 +1,13 @@
 # IDEA
 
-
-* [设置每次启动进入欢迎界面](#设置每次启动进入欢迎界面)
-* [设置格式化代码时自动换行](#设置格式化代码时自动换行)
-* [设置去掉提示重复代码](#设置去掉提示重复代码)
+* [每次启动进入欢迎界面](#每次启动进入欢迎界面)
+* [格式化代码时自动换行](#格式化代码时自动换行)
+* [去掉提示重复代码](#去掉提示重复代码)
 * [去掉大小写敏感提示](#去掉大小写敏感提示)
 * [自定义创建文件头部注释](#自定义创建文件头部注释)
   * [预定义模板变量](#预定义模板变量)
 * [自定义类文件创建模板](#自定义类文件创建模板)
 * [自定义方法注释模板](#自定义方法注释模板)
-  * [示例](#示例)
 * [鼠标悬停查看方法注释](#鼠标悬停查看方法注释)
 * [自动优化导包](#自动优化导包)
 * [热部署策略](#热部署策略)
@@ -19,24 +17,10 @@
 * [错误解决](#错误解决)
   * [idea无限indexing解决方法](#idea无限indexing解决方法)
   * [OutOfMemoryError](#outofmemoryerror)
-    * [在`Vm options`中输入](#在vm-options中输入)
-* [IDEA插件](#idea插件)
-  * [Free Mybatis plugin](#free-mybatis-plugin)
-  * [mybatis-plus](#mybatis-plus)
-  * [MyBatisCodeHelper-Pro](#mybatiscodehelper-pro)
-  * [.ignore](#ignore)
-  * [Maven Helper](#maven-helper)
-  * [GsonFormat](#gsonformat)
-  * [FindBugs-IDEA](#findbugs-idea)
-  * [Lombok plugin](#lombok-plugin)
-  * [p3c](#p3c)
-  * [VisualVM Launcher](#visualvm-launcher)
-  * [GenerateAllSetter](#generateallsetter)
-  * [Rainbow Brackets](#rainbow-brackets)
-  * [Translation](#translation)
-  * [Markdown Navigator](#markdown-navigator)
+* [插件](#插件)
 * [PyCharm](#pycharm)
   * [`Python Script`生成文件头注释](#python-script生成文件头注释)
+  * [自动导包](#自动导包)
 * [GoLand](#goland)
   * [`Go File`生成文件头注释](#go-file生成文件头注释)
 * [WebStorm](#webstorm)
@@ -44,15 +28,17 @@
 
 
 
-## 设置每次启动进入欢迎界面
+
+
+## 每次启动进入欢迎界面
 
 ![IDEA_startup](/images/IDEA_startup.png)
 
-## 设置格式化代码时自动换行
+## 格式化代码时自动换行
 
 ![](/images/IDEA设置格式化代码时自动换行.PNG)
 
-## 设置去掉提示重复代码
+## 去掉提示重复代码
 
 ![](/images/IDEA设置去掉提示重复代码.png)
 
@@ -61,6 +47,8 @@
 ![](/images/IDEA去掉大小写区分提示.png)
 
 ## 自定义创建文件头部注释
+
+- 在`File`->`Settings`->`Editor`->`File and Code Templates`->`Includes`->`File Header`中添加
 
 ```java
 /**
@@ -81,6 +69,8 @@
 ![](/images/IDEA设置创建文件时的注释.png)
 
 - JavaScript头部注释
+
+> 在`File`->`Settings`->`Editor`->`File and Code Templates`->`Includes`->`+`中添加一个`File Header`后缀为`js`
 
 ```js
 /**
@@ -165,7 +155,8 @@ public class ${NAME} {
 
 - 默认方法注释快捷键：`/**`+`Enter`
 
-> Template text：
+- Template text
+
 ```java
 **
  * 
@@ -178,7 +169,8 @@ $params$
  */
 ```
 
-> `@param`参数获取代码Groovy脚本：
+- `@param`参数获取代码Groovy脚本
+
 ```groovy
 // 使用tab作为参数后缀间隔符
 groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i < params.size(); i++) {result+=' * @param ' + params[i]+'\\b'+ ((i < params.size() - 1) ? '\\n    ' : '')}; return result", methodParameters())
@@ -186,19 +178,19 @@ groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s
 groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i < params.size(); i++) {result+=' * @param ' + params[i]+' '+ ((i < params.size() - 1) ? '\\n    ' : '')}; return result", methodParameters())
 ```
 
-> `@return`参数获取代码Groovy脚本：
+- `@return`参数获取代码Groovy脚本
+
 ```groovy
 // 如果有返回参数使用一个空格作为参数后缀间隔符
 groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return result+' ';}", methodReturnType())
 ```
 
-- 使用时，直接在方法上输入/加上你的Abbreviation名字，再按Tab键即可获取方法上的参数
+> 使用时，直接在方法上输入`/`加上你的`Abbreviation`名字，再按`Tab`键即可获取方法上的参数
 
 ![](/images/IDEA方法注释设置.png)
 
-### 示例
+- 示例
 
-- 使用时，直接在方法上输入/加上你的Abbreviation名字，再按Tab键即可获取方法上的参数
 
 ![](/images/IDEA方法注释示例.png)
 
@@ -258,14 +250,17 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 ## 错误解决
 
 ### idea无限indexing解决方法
+
 [tengj](https://github.com/tengj/IntelliJ-IDEA-Tutorial/blob/newMaster/IntelliJ-IDEA-cache.md)
 
 ![](https://github.com/tengj/IntelliJ-IDEA-Tutorial/raw/newMaster/images/xii-a-invalidate-cache-1.jpg)
 
 ### OutOfMemoryError
+
 > idea Exception in thread "http-apr-8080-exec-2" java.lang.OutOfMemoryError: PermGen space
 
-#### 在`Vm options`中输入
+- 在`Vm options`中输入
+
 ```
 -Xms2048m -Xmx2048m -XX:MaxPermSize=4096m -Drebel.spring_plugin=true -Drebel.spring_mvc_plugin=true -Drebel.hibernate_plugin=true
 ```
@@ -279,89 +274,103 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 
 
-## IDEA插件
+## 插件
 
-### Free Mybatis plugin
+- Free Mybatis plugin
+
 [https://github.com/wuzhizhan/free-idea-mybatis](https://github.com/wuzhizhan/free-idea-mybatis)
 
-### mybatis-plus
+- mybatis-plus
+
 [https://github.com/mustfun/mybatis-plus](https://github.com/mustfun/mybatis-plus)
 
-### MyBatisCodeHelper-Pro
+- MyBatisCodeHelper-Pro
+
 [](https://gejun123456.github.io/MyBatisCodeHelper-Pro/#/)
 [MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
 
-### .ignore
+- .ignore
+
 [https://plugins.jetbrains.com/plugin/7495--ignore](https://plugins.jetbrains.com/plugin/7495--ignore)
 
 > 生成各种ignore文件，一键创建git ignore文件的模板，免得自己去写
 
 ![](/images/ignore.gif)
 
-### Maven Helper
+- Maven Helper
+
 [https://plugins.jetbrains.com/plugin/7179-maven-helper](https://plugins.jetbrains.com/plugin/7179-maven-helper)
 
 > 一键查看maven依赖，查看冲突的依赖，一键进行exclude依赖
 
 ![](/images/MavenHelper.png)
 
-### GsonFormat
+- GsonFormat
+
 [https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F7654-gsonformat](https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F7654-gsonformat)
 
 > google出的一键根据json文本生成java类，非常方便
 
 ![](/images/GsonFormat.gif)
 
-### FindBugs-IDEA
+- FindBugs-IDEA
+
 [https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F3847-findbugs-idea](https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F3847-findbugs-idea)
 
 > 检测代码中可能的bug及不规范的位置，检测的模式相比p3c更多，写完代码后检测下 避免低级bug，强烈建议用一下，一不小心就发现很多老代码的bug
 
 ![](/images/FindBugs-IDEA.gif)
 
-### Lombok plugin
+- Lombok plugin
+
 [https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F6317-lombok-plugin](https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F6317-lombok-plugin)
 
 > 支持lombok的各种注解，从此不用写getter setter这些 可以把注解还原为原本的java代码,除此之外还有其他更多注解以减少代码
 
 ![](/images/lombok.gif)
 
-### p3c
+- p3c
+
 [https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F10046-alibaba-java-coding-guidelines](https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F10046-alibaba-java-coding-guidelines)
 
 > 阿里巴巴出品的java代码规范插件,可以扫描整个项目 找到不规范的地方 并且大部分可以自动修复 
 
-![]()
 
-### VisualVM Launcher
+
+- VisualVM Launcher
+
 [https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F7115-visualvm-launcher](https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F7115-visualvm-launcher)
 
 > 运行java程序的时候启动visualvm，方便查看jvm的情况 比如堆内存大小的分配，某个对象占用了多大的内存，jvm调优必备工具
 
 ![](/images/VisualVM-Launcher.gif)
 
-### GenerateAllSetter
+- GenerateAllSetter
+
 [https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F9360-generateallsetter](https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F9360-generateallsetter)
 
 > 一键调用一个对象的所有set方法并且赋予默认值 在对象字段多的时候非常方便
 
 ![](/images/GenerateAllSetter.gif)
 
-### Rainbow Brackets
+- Rainbow Brackets
+
 [https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F10080-rainbow-brackets](https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F10080-rainbow-brackets)
 
 > 彩虹颜色的括号，看着很舒服 敲代码效率变高
 
 ![](/images/RainbowBrackets.png)
 
-### Translation
+- Translation
+
 [https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F8579-translation](https://link.jianshu.com/?t=https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F8579-translation)
 
 > 最好用的翻译插件，功能很强大，界面很漂亮
 
 ![](/images/Translation.gif)
 
-### Markdown Navigator
+- Markdown Navigator
+
 [https://github.com/vsch/idea-multimarkdown](https://github.com/vsch/idea-multimarkdown)
 
 > 带有GFM 的Markdown插件和匹配的预览样式。
@@ -377,6 +386,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 [预定义模板变量](#预定义模板变量)
 
+- 在`File`->`Settings`->`Editor`->`File and Code Templates`->`Includes`->`File Header`中添加
 
 ```python
 #!/usr/bin/env python
@@ -391,7 +401,10 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 # @Package: ${PACKAGE_NAME}
 # @Software: ${PRODUCT_NAME}
 
+
 ```
+
+- 在`Python Script`文件模板中引用：`#parse("File Header")`
 
 - 默认函数注释快捷键：`"""`+`Enter`
 
@@ -408,6 +421,8 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 [预定义模板变量](#预定义模板变量)
 
+- 在`File`->`Settings`->`Editor`->`File and Code Templates`->`Includes`->`File Header`中添加
+
 ```go
 /**
  * @Description: 
@@ -420,10 +435,10 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
  * @Software: ${PRODUCT_NAME}
  */
 
-package ${GO_PACKAGE_NAME}
-
 
 ```
+
+- 在`Go File`文件模板中引用：`#parse("File Header")`
 
 
 
@@ -432,6 +447,8 @@ package ${GO_PACKAGE_NAME}
 ### `JavaScript File`生成文件头注释
 
 [预定义模板变量](#预定义模板变量)
+
+- 在`File`->`Settings`->`Editor`->`File and Code Templates`->`Includes`->`File Header`中添加
 
 ```js
 /**
