@@ -789,7 +789,7 @@ setresulttransformer(new aliastobeanresulttransformer (students.class))
 
 ```java
 List<Map<String, Object>> list = session.createSQLQuery(sql).setResultTransformer(Transformers.ALIAS_TO_ENTITY_MAP).list();
-Map<String, Object> map = session.createSQLQuery(sql).setResultTransformer(Transformers.ALIAS_TO_ENTITY_MAP).uniqueResult();
+Map<String, Object> map = (Map<String, Object>) session.createSQLQuery(sql).setResultTransformer(Transformers.ALIAS_TO_ENTITY_MAP).uniqueResult();
 ```
 
 - 当确定返回的实例只有一个或者null时 用uniqueResult()方法
