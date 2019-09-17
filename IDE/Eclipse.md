@@ -13,7 +13,8 @@
 * [Eclipse设置不格式化注释](#eclipse设置不格式化注释)
 * [设置编码格式](#设置编码格式)
 * [设置Tab键为4个空格](#设置tab键为4个空格)
-
+* [快捷键设置](#快捷键设置)
+* [插件](#插件)
 
 
 
@@ -279,3 +280,17 @@ ${type_declaration}
 ![](/images/Eclipse-Insert-spaces-for-tabs.png)
 
 ![](/images/Eclipse-Tab-policy.png)
+
+
+## 快捷键设置
+
+> `Window`->`Preference`->`General`->`Keys`
+
+- 设置复制一行
+
+> 搜索`Ctrl+Alt+Down`或者`Copy Lines`即可修改
+
+
+## 插件
+
+- 反编译`Eclipse Class Decompiler`
