@@ -1,26 +1,20 @@
 # Eclipse
 
 
+* [版本对应关系](#版本对应关系)
 * [显示内存](#显示内存)
 * [解决卡死现象](#解决卡死现象)
 * [调整Eclipse运行内存](#调整eclipse运行内存)
+    * [设置JDK参数](#设置jdk参数)
+    * [设置Tomcat参数](#设置tomcat参数)
 * [Eclipse自动导包设置](#eclipse自动导包设置)
 * [Eclipse注释模板设置](#eclipse注释模板设置)
-  * [1.创建新文件(New Java files)注释标签：](#1创建新文件new-java-files注释标签)
-  * [2.字段(Fields)注释标签：](#2字段fields注释标签)
-  * [3.构造函数(Constructors)标签：](#3构造函数constructors标签)
-  * [4.方法(Methods)标签：](#4方法methods标签)
-  * [5.覆盖方法(Overriding Methods)标签:](#5覆盖方法overriding-methods标签)
-  * [6.代表方法(Delegate Methods)标签：](#6代表方法delegate-methods标签)
-  * [7.getter方法标签：](#7getter方法标签)
-  * [8.setter方法标签：](#8setter方法标签)
+* [Eclipse代码格式化设置](#eclipse代码格式化设置)
 * [Eclipse设置不格式化注释](#eclipse设置不格式化注释)
 * [设置编码格式](#设置编码格式)
-  * [1、设置工作空间编码格式](#1设置工作空间编码格式)
-  * [2、设置文档编码格式](#2设置文档编码格式)
-  * [3、设置Web编码格式](#3设置web编码格式)
-  * [4、设置项目的文档编码格式](#4设置项目的文档编码格式)
 * [设置Tab键为4个空格](#设置tab键为4个空格)
+
+
 
 
 
@@ -197,7 +191,7 @@ ${type_declaration}
  */
 ```
 
-- 7.getter方法标签
+- getter方法标签
 
 ```java
 /**
@@ -208,7 +202,9 @@ ${type_declaration}
  * @date: ${date} ${time}
  */
 ```
-### 8.setter方法标签：
+
+- setter方法标签
+
 ```java
 /**
  * @Title: ${enclosing_method} <BR>
