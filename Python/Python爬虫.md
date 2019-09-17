@@ -1,8 +1,25 @@
 # Python爬虫
 
 
-## 爬取动态数据 
-> selenium配合BeautifulSoup
+## selenium
+
+
+
+- `chromedriver`下载地址
+
+> `chromedriver`与`chrome`版本对应关系一定要正确
+
+* [http://chromedriver.storage.googleapis.com/index.html](http://chromedriver.storage.googleapis.com/index.html)
+
+* [http://npm.taobao.org/mirrors/chromedriver](http://npm.taobao.org/mirrors/chromedriver)
+
+
+- `geckodriver`下载地址
+
+* [https://github.com/mozilla/geckodriver](https://github.com/mozilla/geckodriver)
+
+
+- `selenium`+`chromedriver`+`BeautifulSoup`
 
 ```python
 import time
@@ -76,4 +93,36 @@ if __name__ == '__main__':
     app()
 
 
+```
+
+
+
+### 在CentOS中使用
+
+* [CentOS + Selenium](https://blog.csdn.net/wkb342814892/article/details/81591394)
+
+* [chrome其他安装方式](https://intoli.com/blog/installing-google-chrome-on-centos)
+
+```bash
+# 安装selenium
+pip install selenium
+
+# 安装chrome-browser
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+yum install -y google-chrome-stable_current_x86_64.rpm
+
+# 查看安装的chrome版本
+google-chrome --version
+
+# 安装chromedriver：一个用来和chrome交互的接口
+yum install -y chromedriver
+
+# 查看安装的chromedriver版本
+chromedriver --version
+```
+
+- 批量杀死`chromedriver`进程
+
+```bash
+ps -efww|grep LOCAL=chromedriver|grep -v grep|cut -c 9-15|xargs kill -9
 ```

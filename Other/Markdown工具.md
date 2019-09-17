@@ -39,6 +39,8 @@
 
 ## 表格生成
 
+> HTML表格转Excel可以直接在`数据`->`自网站`->`URL`然后进行操作
+
 [tableconvert](https://tableconvert.com)
 
 [table-magic](http://stevecat.github.io/table-magic)
