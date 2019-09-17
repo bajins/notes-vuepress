@@ -30,6 +30,12 @@
 
 
 
+
+
+* [https://www.jetbrains.com/products.html](https://www.jetbrains.com/products.html)
+
+
+
 ## 每次启动进入欢迎界面
 
 ![IDEA_startup](/images/IDEA_startup.png)

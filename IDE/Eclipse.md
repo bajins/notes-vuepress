@@ -23,6 +23,18 @@
 * [设置Tab键为4个空格](#设置tab键为4个空格)
 
 
+
+
+
+
+
+
+* [http://www.eclipse.org/downloads/packages](http://www.eclipse.org/downloads/packages)
+
+
+
+
+
 ## 显示内存
 
 > 在eclipse中打开heap状态`windows->perference->general->右边show heap status打上勾->OK `，这时会在Eclipse最下面显示一个内存显示了
