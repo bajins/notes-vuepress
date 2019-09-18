@@ -23,6 +23,7 @@
 
 
 ## CDN
+
 > unpkg：`https://unpkg.com`
 >
 > 知乎-unpkg：`http://unpkg.zhimg.com`
@@ -30,6 +31,7 @@
 > 饿了么-unpkg：`http://npm.elemecdn.com`
 
 - 使用unpkg
+
 > 使用固定的版本号：
 >> `unpkg.com/react@16.0.0/umd/react.production.min.js`
 >>
@@ -81,6 +83,7 @@
 * [XMLHttpRequest封装源码](https://github.com/yanxiaojun617/exercise/tree/master/src/20180410ajax)
 
 - http,XMLHttpRequest,Ajax的关系
+
 > http是浏览器和web服务器交换数据的协议,规范
 >
 > XMLHttpRequest是JavaScript的一个对象,是浏览器实现的一组api函数(方法),使用这些函数,浏览器再通过http协议请求和发送数据
@@ -132,6 +135,7 @@ nvm install <最新的版本号>
 
 
 ### npm和yarn镜像
+
 - 如果使用`yarn`，就把命令开头的`npm`替换为`yarn`
 
 ```bash
@@ -163,15 +167,20 @@ npm config delete https-proxy
 ```
 
 ### 更新依赖包
+
 #### yarn
+
 - 更新所有到最新版本
+
 > 推荐，不需要安装过多的依赖就可以达到目的
 
 ```bash
 # 需要手动选择升级的依赖包，按空格键选择，a 键切换所有，i 键反选选择
 yarn upgrade-interactive --latest
 ```
+
 - 更新单个到指定版本
+
 ```bash
 # yarn.lock和package.json都会更新，但是会进行版本锁定
 yarn upgrade package@latest
@@ -198,6 +207,7 @@ npm install
 
 
 ### 依赖管理
+
 - yarn、npm命令简单比较
 
 | npm                                | yarn                      | 说明                         |
