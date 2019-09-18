@@ -231,3 +231,16 @@ npm install
 | npm install koa --global           | yarn global add koa       | 安装某个全局依赖项目                 |
 | npm publish/login/logout           | yarn publish/login/logout | 发布/登录/登出，一系列NPM Registry操作 |
 | npm run/test                       | yarn run/test             | 运行某个命令                     |
+
+
+## 爬虫
+
+### Puppeteer
+
+* [https://github.com/GoogleChrome/puppeteer](https://github.com/GoogleChrome/puppeteer)
+
+* [Puppeteer配置小记](https://www.itfanr.cc/2019/04/10/configuration-development-of-puppeteer)
+
+- [xpath和css选择器](/Python/Python爬虫.md#xpath和css选择器)
+
+- [`chromedriver`](/Python/Python爬虫.md#chromedriver)

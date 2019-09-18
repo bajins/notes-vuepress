@@ -110,6 +110,17 @@
 
 * [http://npm.taobao.org/mirrors/chromedriver](http://npm.taobao.org/mirrors/chromedriver)
 
+* [隐藏Headles-Chrome不被检测出来](https://mlln.cn/2019/07/05/%E7%88%AC%E8%99%AB%E5%A6%82%E4%BD%95%E9%9A%90%E8%97%8FHeadles-Chrome%E4%B8%8D%E8%A2%AB%E6%A3%80%E6%B5%8B%E5%87%BA%E6%9D%A5)
+
+* [headless-chrome官方文档](https://developers.google.com/web/updates/2017/04/headless-chrome)
+
+
+- 参数列表
+
+* [https://peter.sh/experiments/chromium-command-line-switches/](https://peter.sh/experiments/chromium-command-line-switches)
+
+* [https://cs.chromium.org/chromium/src/content/public/common/content_switches.cc](https://cs.chromium.org/chromium/src/content/public/common/content_switches.cc)
+
 
 | 参数                       	| 说明                                                                                                                 	|
 |----------------------------	|----------------------------------------------------------------------------------------------------------------------	|
@@ -143,6 +154,12 @@
 | --in-process-plugins         	| 插件不以独立的进程运行，插件的异常崩溃，可能会导致整个页面挂掉         	|
 | --disable-popup-blocking     	| 关闭弹窗拦截                                                           	|
 | --proxy-pac-url              	| 指定使用PAC代理时，所需要的脚本url地址                                 	|
+| --ignore-certificate-errors  	| 忽略证书错误                                         	|
+| --disable-extensions        	| 禁用扩展                                         	|
+| --disable-plugins         	| 禁用插件                                          	|
+| –disable-software-rasterizer  | 禁用插件                                         	|
+| --hide-scrollbars             | 隐藏滚动条, 应对一些特殊页面                                         	|
+| --blink-settings=imagesEnabled=false | 不加载图片, 提升速度                                         	|
 
 
 
@@ -259,3 +276,5 @@ chromedriver --version
 ```bash
 ps -efww|grep LOCAL=chromedriver|grep -v grep|cut -c 9-15|xargs kill -9
 ```
+
+## 
