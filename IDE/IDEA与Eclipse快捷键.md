@@ -24,7 +24,7 @@
 | 添加或取消注释                                                                                   | Ctrl + /                                      | Ctrl + /  <br>   Ctrl + Shift + C               |
 | 格式化全局代码                                                                                   | Ctrl + Alt + L                                | Ctrl + Shift + F                                |
 | 格式化选中代码                                                                                   | Ctrl + Alt + L                                | Ctrl + I                                        |
-| 打开文件结构图                                                                                   | Ctrl + F12                                    | Ctrl + F3  <br>  Ctrl + O                       |
+| 打开文件结构图                                                                                   | Ctrl + F12 <br>  Alt + 7                 | Ctrl + F3  <br>  Ctrl + O                       |
 | 编译项目，因为IDEA一个窗口只能显示一个项目，Eclipse可以显示多个项目                              | Ctrl + F9                                     | Ctrl + B（编译所有项目）                        |
 | 全局查找class                                                                                    | Ctrl + N                                      | Project-BuiId Project  <br>    Ctrl + Shift + T |
 | 根据文件内容当前工作空间查找文件                                                                 | Ctrl + Shift + F                              | Ctrl + H                                        |
@@ -78,7 +78,6 @@
 | 快速打开或隐藏工程面板                                                                           | Alt+ 1                                        |                                                 |
 | 收藏                                                                                             | Alt + 2                                       |                                                 |
 | TODO                                                                                             | Alt + 6                                       |                                                 |
-| 打开结构窗口                                                                                     | Alt + 7                                       |                                                 |
 | 查找一属性或方法被谁调用                                                                         | Alt + F7  <br>  Ctrl + F7                     |                                                 |
 | 定位到对应数值的书签位置                                                                         | Ctrl + 1,2,3... 9                             |                                                 |
 | 替换文本                                                                                         | Ctrl + R                                      |                                                 |

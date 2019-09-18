@@ -123,17 +123,25 @@ func StringBuilder(p []string) string {
 ### `filepath`包
 
 
-| 函数                                                	| 说明                                    	|
-|-----------------------------------------------------	|-----------------------------------------	|
-| filepath.Separator                                  	| 预定义变量，表示路径分隔符/             	|
-| filepath.ListSeparator                              	| 预定义变量，表示环境变量分隔符 :        	|
-| func Abs(path string) (string, error)               	| 返回path 相对当前路径的绝对路径         	|
-| func Clean(path string) string                      	| 返回path 的最短路径                     	|
-| func Rel(basepath, targpath string) (string, error) 	| 返回targpath 相对 basepath路径          	|
-| func EvalSymlinks(path string) (string, error)      	| 返回软链指向的路径                      	|
-| func VolumeName(path string) string                 	| 返回路径最前面的卷名                    	|
-| func ToSlash(path string) string                    	| 路径分隔符替换为/                       	|
-| func FromSlash(path string) string                  	| /替换为路径分隔符                       	|
-| func SplitList(path string) []string                	| 分隔环境变量里面的路径                  	|
-| func Walk(root string, walkFn WalkFunc) error       	| 遍历 root 目录下的文件树，并调用 walkFn 	|
+| 函数                                                  	| 说明                                    	|
+|-------------------------------------------------------	|-----------------------------------------	|
+| filepath.ListSeparator                                	| 预定义变量，表示环境变量分隔符 :        	|
+| filepath.Separator                                    	| 预定义变量，表示路径分隔符/             	|
+| Abs(path string) (string, error)                      	| 返回path 相对当前路径的绝对路径         	|
+| Base(path string) string                              	| 返回路径最后一个元素                    	|
+| Clean(path string) string                             	| 返回path 的最短路径                     	|
+| Dir(path string) string                               	| 返回路径最后一个元素的目录              	|
+| EvalSymlinks(path string) (string, error)             	| 返回软链指向的路径                      	|
+| Ext(path string) string                               	| 返回路径中的扩展名，如果没有点返回空    	|
+| FromSlash(path string) string                         	| /替换为路径分隔符                       	|
+| Join(elem ...string) string                           	| 连接路径，返回已经clean过的路径         	|
+| Rel(basepath, targpath string) (string, error)        	| 返回targpath 相对 basepath路径          	|
+| Split(path string) (dir, file string)                 	| 分割路径中的目录与文件                  	|
+| SplitList(path string) []string                       	| 分隔环境变量里面的路径                  	|
+| ToSlash(path string) string                           	| 路径分隔符替换为/                       	|
+| VolumeName(path string) string                        	| 返回路径最前面的卷名                    	|
+| Walk(root string, walkFn WalkFunc) error              	| 遍历 root 目录下的文件树，并调用 walkFn 	|
+| Glob(pattern string) (matches []string, err error)    	| 返回所有匹配的文件                      	|
+| IsAbs(path string) (b bool)                           	| 判断路径是不是绝对路径                  	|
+| Match(pattern, name string) (matched bool, err error) 	| 匹配文件名，完全匹配则返回true          	|
 
