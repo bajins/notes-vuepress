@@ -7,6 +7,8 @@
 * [Go 标准库中文文档](http://cngolib.com/)
 * [Go基本类型说明](https://golangbot.com/types/)
 
+* [Go 语言中文开源图书、资料或文档](https://books.studygolang.com)
+
 ## 框架
 ### WEB
 

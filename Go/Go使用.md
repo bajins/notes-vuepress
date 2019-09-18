@@ -98,3 +98,42 @@ func StringBuilder(p []string) string {
 	return b.String()
 }
 ```
+
+
+
+## 路径操作
+
+
+### `path`包
+
+
+| 函数                                                  	| 说明                                 	|
+|-------------------------------------------------------	|--------------------------------------	|
+| IsAbs(path string) bool                               	| 判断是否是一个绝对路径               	|
+| Split(path string) (dir, file string)                 	| 将路径分割为路径和文件名             	|
+| Join(elem ...string) string                           	| 将多个字符串合并为一个路径           	|
+| Ext(path string) string                               	| 返回路径中扩展部分                   	|
+| Base(path string) string                              	| 返回路径的最后一个元素               	|
+| Dir(path string) string                               	| 返回路径中目录部分                   	|
+| Clean(path string) string                             	| 返回同目录的最短路径                 	|
+| Match(pattern, name string) (matched bool, err error) 	| 正则是否匹配路径（shell 文件名匹配） 	|
+
+
+
+### `filepath`包
+
+
+| 函数                                                	| 说明                                    	|
+|-----------------------------------------------------	|-----------------------------------------	|
+| filepath.Separator                                  	| 预定义变量，表示路径分隔符/             	|
+| filepath.ListSeparator                              	| 预定义变量，表示环境变量分隔符 :        	|
+| func Abs(path string) (string, error)               	| 返回path 相对当前路径的绝对路径         	|
+| func Clean(path string) string                      	| 返回path 的最短路径                     	|
+| func Rel(basepath, targpath string) (string, error) 	| 返回targpath 相对 basepath路径          	|
+| func EvalSymlinks(path string) (string, error)      	| 返回软链指向的路径                      	|
+| func VolumeName(path string) string                 	| 返回路径最前面的卷名                    	|
+| func ToSlash(path string) string                    	| 路径分隔符替换为/                       	|
+| func FromSlash(path string) string                  	| /替换为路径分隔符                       	|
+| func SplitList(path string) []string                	| 分隔环境变量里面的路径                  	|
+| func Walk(root string, walkFn WalkFunc) error       	| 遍历 root 目录下的文件树，并调用 walkFn 	|
+
