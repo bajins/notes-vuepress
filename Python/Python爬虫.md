@@ -1,9 +1,30 @@
 # Python爬虫
 
 
+* [selenium](#selenium)
+  * [xpath和css选择器](#xpath和css选择器)
+    * [css元素选择器](#css元素选择器)
+    * [`Sizzle`的`Css3`结构性定位](#sizzle的css3结构性定位)
+  * [`chromedriver`](#chromedriver)
+  * [`geckodriver`](#geckodriver)
+  * [在CentOS中使用](#在centos中使用)
+
+
+
+
+
+
+
+
+
+
 ## selenium
 
-### 语法
+### xpath和css选择器
+
+> `Chrome`打开网页`F12`后下面的调试工具出来后点击`Elements`左边的那个框框里的鼠标箭头（或者按`Ctrl + Shift + C`），
+> 然后网页会变成蓝色，到网页点击自己要选择的区域，接下来就会自动跳到`Elements`对应的位置，
+> 在`HTML`的标签上点击鼠标右键->`Copy`->`COpy selector`或者`xpath`，就能复制选择器了。
 
 #### css元素选择器
 
@@ -81,7 +102,7 @@
 
 
 
-- `chromedriver`
+### `chromedriver`
 
 > `chromedriver`与`chrome`版本对应关系一定要正确
 
@@ -90,7 +111,21 @@
 * [http://npm.taobao.org/mirrors/chromedriver](http://npm.taobao.org/mirrors/chromedriver)
 
 
-- `geckodriver`
+| 参数                       	| 说明                                                                                                                 	|
+|----------------------------	|----------------------------------------------------------------------------------------------------------------------	|
+| --no-first-run             	| 第一次不运行                                                                                                         	|
+| ---default-browser-check   	| 不检查默认浏览器                                                                                                     	|
+| --headless                 	| 不开启图像界面                                                                                                       	|
+| --disable-gpu              	| 关闭gpu,服务器一般没有显卡                                                                                           	|
+| remote-debugging-port      	| chrome-debug工具的端口(golang chromepd 默认端口是9222,建议不要修改)                                                  	|
+| --no-sandbox               	| 不开启沙盒模式可以减少对服务器的资源消耗,但是服务器安全性降低,配和参数 --remote-debugging-address=127.0.0.1 一起使用 	|
+| --disable-plugins          	| 关闭chrome插件                                                                                                       	|
+| --remote-debugging-address 	| 远程调试地址 0.0.0.0 可以外网调用但是安全性低,建议使用默认值 127.0.0.1                                               	|
+| --window-size              	| 窗口尺寸                                                                                                             	|
+
+
+
+### `geckodriver`
 
 * [https://github.com/mozilla/geckodriver](https://github.com/mozilla/geckodriver)
 

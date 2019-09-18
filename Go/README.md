@@ -7,6 +7,8 @@
 * [Go 标准库中文文档](http://cngolib.com/)
 * [Go基本类型说明](https://golangbot.com/types/)
 
+* [Go语言四十二章经](https://www.bookstack.cn/read/go42/SUMMARY.md)
+
 * [Go 语言中文开源图书、资料或文档](https://books.studygolang.com)
 
 ## 框架
@@ -23,6 +25,7 @@
 [Iris](https://studyiris.com/doc/)
 
 ### other
+
 [TiDB](https://pingcap.com/docs-cn/)
 
 [kingshard](https://github.com/flike/kingshard/blob/master/README_ZH.md)
