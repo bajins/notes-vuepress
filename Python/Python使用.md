@@ -134,9 +134,7 @@ pip install -r requirements.txt
 
 ### 更新
 ```bash
-python -m pip install --upgrade pip
-pip install --upgrade setuptools
-pip install --user numpy scipy matplotlib jupyter pandas sympy nose
+python -m pip install --upgrade pip setuptools
 ```
 
 - 解决pip安装模块提示已经安装更高版本问题
