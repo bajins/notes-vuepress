@@ -145,3 +145,71 @@ func StringBuilder(p []string) string {
 | IsAbs(path string) (b bool)                           	| 判断路径是不是绝对路径                  	|
 | Match(pattern, name string) (matched bool, err error) 	| 匹配文件名，完全匹配则返回true          	|
 
+
+## 异常panic和恢复recover
+
+> Go语言追求简洁优雅，所以，Go语言不支持传统的`try…catch…finally` 这种异常，因为Go语言的设计者们认为，
+> 将异常与控制结构混在一起会很容易使得代码变得混乱。因为开发者很容易滥用异常，甚至一个小小的错误都抛出一个异常。
+
+> 在Go语言中，使用多值返回来返回错误。不要用异常代替错误，更不要用来控制流程。在极个别的情况下，
+> 才使用Go中引入的`Exception`处理：`defer`、`panic`、`recover`。
+
+
+### panic
+
+- 1、内建函数
+
+- 2、假如函数F中书写了`panic`语句，会终止其后要执行的代码，在`panic`所在函数F内如果存在要执行的`defer`函数列表，按照`defer`的逆序执行
+
+- 3、返回函数F的调用者G，在G中，调用函数F语句之后的代码不会执行，假如函数G中存在要执行的`defer`函数列表，按照`defer`的逆序执行，
+这里的`defer`有点类似`try-catch-finally`中的`finally`
+
+- 4、直到goroutine整个退出，并报告错误
+
+### recover
+
+- 1、内建函数
+
+- 2、用来控制一个`goroutine`的`panicking`行为，捕获`panic`，从而影响应用的行为
+
+- 3、一般的调用建议
+    - a). 在defer函数中，通过`recever`来终止一个`goroutine`的`panicking`过程，从而恢复正常代码的执行
+    - b). 可以获取通过`panic`传递的`error`
+
+> 简单来讲：go可以抛出一个`panic`的异常，然后在`defer`中通过`recover`捕获这个异常，然后正常处理。
+
+> 注意：利用`recover`处理`panic`指令，`defer`必须在`panic`之前声明，否则当panic时，`recover`无法捕获到`panic`
+
+
+- 示例
+
+```go
+func main() {
+	fmt.Println("++++++++++++++++++++")
+	// 必须要先声明defer，否则不能捕获到panic异常
+	defer func() {
+		fmt.Println("=============")
+		if err := recover(); err != nil {
+			// 这里的err其实就是panic传入的内容
+			fmt.Println(err)
+		}
+		fmt.Println("=============")
+	}()
+	// 开始调用test
+	test()
+	// 这里开始下面代码不会再执行
+	fmt.Println("+++++++++++++++++++")
+}
+
+func test() {
+	fmt.Println("*******************")
+	panic("异常信息")
+	//这里开始下面代码不会再执行
+	fmt.Println("b")
+}
+```
+
+
+
+
+
