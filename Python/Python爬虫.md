@@ -53,16 +53,16 @@
 
 | locator                                    	| 匹配                                                                      	|
 |-----------------------------------------	|---------------------------------------------------------------------------	|
-| css=divcss=div.formdiv                  	| <div class="formdiv">                                                     	|
-| css=#recordlistcss=ul#recordlist        	| <ul id="recordlist">                                                      	|
-| css=div.subdiv pcss=div.subdiv > ul > p 	| <p>Heading</p>                                                            	|
-| css=form + div                          	| <div class="subdiv">                                                      	|
-| css=p + licss=p ~ li                    	| 二者定位到的都是<li>Cat</li>但是storeCssCount的时候，前者得到1，后者得到4 	|
-| css=form > input[name=username]         	| <input name="username">                                                   	|
-| css=input[name$=id][value^=SYS]         	| <input value="SYS123456" name="vid" type="hidden">                        	|
-| css=input:not([name$=id][value^=SYS])   	| <input name="username" type="text"></input>                               	|
-| css=li:contains('Goa')                  	| <li>Goat</li>                                                             	|
-| css=li:not(contains('Goa'))             	| <li>Cat</li>                                                              	|
+| css=divcss=div.formdiv                  	| \<div class="formdiv">                                                     	|
+| css=#recordlistcss=ul#recordlist        	| \<ul id="recordlist">                                                      	|
+| css=div.subdiv pcss=div.subdiv > ul > p 	| \<p>Heading\</p>                                                            	|
+| css=form + div                          	| \<div class="subdiv">                                                      	|
+| css=p + licss=p ~ li                    	| 二者定位到的都是\<li>Cat\</li>但是storeCssCount的时候，前者得到1，后者得到4 	|
+| css=form > input[name=username]         	| \<input name="username">                                                   	|
+| css=input[name$=id][value^=SYS]         	| \<input value="SYS123456" name="vid" type="hidden">                        	|
+| css=input:not([name$=id][value^=SYS])   	| \<input name="username" type="text">\</input>                               	|
+| css=li:contains('Goa')                  	| \<li>Goat\</li>                                                             	|
+| css=li:not(contains('Goa'))             	| \<li>Cat\</li>                                                              	|
 
 
 
@@ -85,26 +85,30 @@
 
 | locator                                                         	| 匹配                                 	|
 |-----------------------------------------------------------------	|--------------------------------------	|
-| css=ul > li:nth(0)                                              	| <li>Cat</li>                         	|
-| css=ul > li:first                                               	| <li>Cat</li>                         	|
-| css=ul > li:lt(2)                                               	| <li>Cat</li>                         	|
-| css=ul > *:nth(0)css=ul > :nth(0)                               	| <p>Heading</p>                       	|
-| css=ul > :first                                                 	| <p>Heading</p>                       	|
-| css=ul > :even                                                  	| <p>Heading</p>                       	|
-| css=ul > *:lastcss=ul > li:last                                 	| <li>Goat</li>                        	|
-| css=ul > li:gt(2)                                               	| <li>Goat</li>                        	|
+| css=ul > li:nth(0)                                              	| \<li>Cat\</li>                         	|
+| css=ul > li:first                                               	| \<li>Cat\</li>                         	|
+| css=ul > li:lt(2)                                               	| \<li>Cat\</li>                         	|
+| css=ul > *:nth(0)css=ul > :nth(0)                               	| \<p>Heading\</p>                       	|
+| css=ul > :first                                                 	| \<p>Heading\</p>                       	|
+| css=ul > :even                                                  	| \<p>Heading\</p>                       	|
+| css=ul > *:lastcss=ul > li:last                                 	| \<li>Goat\</li>                        	|
+| css=ul > li:gt(2)                                               	| \<li>Goat\</li>                        	|
 | css=ul > li:even                                                	| Cat, Car                             	|
 | css=ul > li:odd                                                 	| Dog, Goat                            	|
 | css=ul > p:odd                                                  	| [error] not found                    	|
 | css=ul > li:only-childcss=ul > :only-childcss=ul > *:only-child 	| [error] not found (ul没有only-child) 	|
-| css=div.subdiv > :only-child                                    	| <ul id="recordlist">… … … …</ul>     	|
+| css=div.subdiv > :only-child                                    	| \<ul id="recordlist">… … … …\</ul>     	|
 
 
+### `HeadlessBrowser`
 
+> `Headless Browser`(无头的浏览器)是没有图形用户界面(GUI)的web浏览器，通常是通过编程或命令行界面来控制的
 
-### `chromedriver`
+* [Headless Browser](https://www.jianshu.com/p/11d519e2d0cb)
 
-> `chromedriver`与`chrome`版本对应关系一定要正确
+#### `chromedriver`
+
+> `Selenium`操作`Chrome`浏览器需要有`ChromeDriver`驱动来协助，`ChromeDriver`与`Chrome`版本对应关系一定要正确
 
 * [http://chromedriver.storage.googleapis.com/index.html](http://chromedriver.storage.googleapis.com/index.html)
 
@@ -160,7 +164,7 @@
 
 
 
-### `geckodriver`
+#### `geckodriver`
 
 * [https://github.com/mozilla/geckodriver](https://github.com/mozilla/geckodriver)
 
