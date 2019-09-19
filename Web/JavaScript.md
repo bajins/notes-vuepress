@@ -73,7 +73,7 @@
 
 * [flyio](https://wendux.github.io/dist/#/doc/flyio/readme)
 
-* [HTTP封装](https://github.com/woytu/key-gin/blob/master/static/js/http.js)
+* [HTTP封装](https://github.com/woytu/key-gin/blob/master/static/js/utils)
 
 
 ### XMLHttpRequest
