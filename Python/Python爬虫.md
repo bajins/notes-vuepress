@@ -172,6 +172,95 @@
 - [`selenium`+`chromedriver`+`BeautifulSoup`](https://github.com/woytu/tool-gui-python/blob/master/utils/ReptileUtil.py)
 
 
+
+### 函数或变量
+
+
+| 函数或变量                                                             	| 说明 	|
+|------------------------------------------------------------------------	|------	|
+| def file_detector_context(self, file_detector_class, *args, **kwargs): 	|      	|
+| def mobile(self):                                                      	|      	|
+| def name(self):                                                        	|      	|
+| def start_client(self):                                                	|      	|
+| def stop_client(self):                                                 	|      	|
+| def start_session(self, capabilities, browser_profile=None):           	|      	|
+| def create_web_element(self, element_id):                              	|      	|
+| def execute(self, driver_command, params=None):                        	|      	|
+| def get(self, url):                                                    	|      	|
+| def title(self):                                                       	|      	|
+| def find_element_by_id(self, id_):                                     	|      	|
+| def find_elements_by_id(self, id_):                                    	|      	|
+| def find_element_by_xpath(self, xpath):                                	|      	|
+| def find_elements_by_xpath(self, xpath):                               	|      	|
+| def find_element_by_link_text(self, link_text):                        	|      	|
+| def find_elements_by_link_text(self, text):                            	|      	|
+| def find_element_by_partial_link_text(self, link_text):                	|      	|
+| def find_elements_by_partial_link_text(self, link_text):               	|      	|
+| def find_element_by_name(self, name):                                  	|      	|
+| def find_elements_by_name(self, name):                                 	|      	|
+| def find_element_by_tag_name(self, name):                              	|      	|
+| def find_elements_by_tag_name(self, name):                             	|      	|
+| def find_element_by_class_name(self, name):                            	|      	|
+| def find_elements_by_class_name(self, name):                           	|      	|
+| def find_element_by_css_selector(self, css_selector):                  	|      	|
+| def find_elements_by_css_selector(self, css_selector):                 	|      	|
+| def execute_script(self, script, *args):                               	|      	|
+| def execute_async_script(self, script, *args):                         	|      	|
+| def current_url(self):                                                 	|      	|
+| def page_source(self):                                                 	|      	|
+| def close(self):                                                       	|      	|
+| def quit(self):                                                        	|      	|
+| def current_window_handle(self):                                       	|      	|
+| def window_handles(self):                                              	|      	|
+| def maximize_window(self):                                             	|      	|
+| def fullscreen_window(self):                                           	|      	|
+| def minimize_window(self):                                             	|      	|
+| def switch_to(self):                                                   	|      	|
+| def switch_to_active_element(self):                                    	|      	|
+| def switch_to_window(self, window_name):                               	|      	|
+| def switch_to_frame(self, frame_reference):                            	|      	|
+| def switch_to_default_content(self):                                   	|      	|
+| def switch_to_alert(self):                                             	|      	|
+| def back(self):                                                        	|      	|
+| def forward(self):                                                     	|      	|
+| def refresh(self):                                                     	|      	|
+| def get_cookies(self):                                                 	|      	|
+| def get_cookie(self, name):                                            	|      	|
+| def delete_cookie(self, name):                                         	|      	|
+| def delete_all_cookies(self):                                          	|      	|
+| def add_cookie(self, cookie_dict):                                     	|      	|
+| def implicitly_wait(self, time_to_wait):                               	|      	|
+| def set_script_timeout(self, time_to_wait):                            	|      	|
+| def set_page_load_timeout(self, time_to_wait):                         	|      	|
+| def find_element(self, by=By.ID, value=None):                          	|      	|
+| def find_elements(self, by=By.ID, value=None):                         	|      	|
+| def desired_capabilities(self):                                        	|      	|
+| def get_screenshot_as_file(self, filename):                            	|      	|
+| def save_screenshot(self, filename):                                   	|      	|
+| def get_screenshot_as_png(self):                                       	|      	|
+| def get_screenshot_as_base64(self):                                    	|      	|
+| def set_window_size(self, width, height, windowHandle='current'):      	|      	|
+| def get_window_size(self, windowHandle='current'):                     	|      	|
+| def set_window_position(self, x, y, windowHandle='current'):           	|      	|
+| def get_window_position(self, windowHandle='current'):                 	|      	|
+| def get_window_rect(self):                                             	|      	|
+| def set_window_rect(self, x=None, y=None, width=None, height=None):    	|      	|
+| def file_detector(self):                                               	|      	|
+| def file_detector(self, detector):                                     	|      	|
+| def orientation(self):                                                 	|      	|
+| def orientation(self, value):                                          	|      	|
+| def application_cache(self):                                           	|      	|
+| def log_types(self):                                                   	|      	|
+| def get_log(self, log_type):                                           	|      	|
+
+
+
+
+
+
+
+
+
 ### 在CentOS中使用
 
 * [CentOS + Selenium](https://blog.csdn.net/wkb342814892/article/details/81591394)
