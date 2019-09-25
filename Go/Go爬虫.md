@@ -1,9 +1,19 @@
 # Go爬虫
 
+
+
+* [HTML解析](#html解析)
 * [`chromedp`](#chromedp)
   * [`chromedp`能做什么](#chromedp能做什么)
-  * [xpath和css选择器](#xpath和css选择器)
-  * [`chromedriver`](#chromedriver)
+* [`godet`](#godet)
+* [`gcd`](#gcd)
+
+
+
+
+
+
+
 
 
 
@@ -165,3 +175,264 @@
 | WithErrorf(f func(string, ...interface{})) ContextOption                                                    |                                                          |
 | WithLogf(f func(string, ...interface{})) ContextOption                                                      |                                                          |
 | WithTargetID(id target.ID) ContextOption                                                                    |                                                          |
+
+
+## `godet`
+
+* [https://github.com/raff/godet](https://github.com/raff/godet)
+
+
+- 截图
+
+```go
+package main
+
+import "fmt"
+import "time"
+
+import "github.com/raff/godet"
+
+func main() {
+	// connect to Chrome instance
+	remote, err := godet.Connect("localhost:9222", false)
+	if err != nil {
+		fmt.Println("cannot connect to Chrome instance:", err)
+		return
+	}
+
+	// disconnect when done
+	defer remote.Close()
+
+	// get browser and protocol version
+	version, _ := remote.Version()
+	fmt.Println(version)
+
+	// get list of open tabs
+	tabs, _ := remote.TabList("")
+	fmt.Println(tabs)
+
+	// install some callbacks
+	remote.CallbackEvent(godet.EventClosed, func(params godet.Params) {
+		fmt.Println("RemoteDebugger connection terminated.")
+	})
+
+	remote.CallbackEvent("Network.requestWillBeSent", func(params godet.Params) {
+		fmt.Println("requestWillBeSent",
+			params["type"],
+			params["documentURL"],
+			params["request"].(map[string]interface{})["url"])
+	})
+
+	remote.CallbackEvent("Network.responseReceived", func(params godet.Params) {
+		fmt.Println("responseReceived",
+			params["type"],
+			params["response"].(map[string]interface{})["url"])
+	})
+
+	remote.CallbackEvent("Log.entryAdded", func(params godet.Params) {
+		entry := params["entry"].(map[string]interface{})
+		fmt.Println("LOG", entry["type"], entry["level"], entry["text"])
+	})
+
+	// block loading of most images
+	_ = remote.SetBlockedURLs("*.jpg", "*.png", "*.gif")
+
+	// create new tab
+	tab, _ := remote.NewTab("https://www.google.com")
+	fmt.Println(tab)
+
+	// enable event processing
+	remote.RuntimeEvents(true)
+	remote.NetworkEvents(true)
+	remote.PageEvents(true)
+	remote.DOMEvents(true)
+	remote.LogEvents(true)
+
+	// navigate in existing tab
+	_ = remote.ActivateTab(tabs[0])
+
+	//remote.StartPreciseCoverage(true, true)
+
+	// re-enable events when changing active tab
+	remote.AllEvents(true) // enable all events
+
+	_, _ = remote.Navigate("https://www.google.com")
+
+	// evaluate Javascript expression in existing context
+	res, _ := remote.EvaluateWrap(`
+            console.log("hello from godet!")
+            return 42;
+        `)
+	fmt.Println(res)
+
+	// take a screenshot
+	_ = remote.SaveScreenshot("screenshot.png", 0644, 0, true)
+
+	time.Sleep(time.Second)
+
+	// or save page as PDF
+	_ = remote.SavePDF("page.pdf", 0644, godet.PortraitMode(), godet.Scale(0.5), godet.Dimensions(6.0, 2.0))
+
+	// if err := remote.SetInputFiles(0, []string{"hello.txt"}); err != nil {
+	//     fmt.Println("setInputFiles", err)
+	// }
+
+	time.Sleep(5 * time.Second)
+
+	//remote.StopPreciseCoverage()
+
+	r, err := remote.GetPreciseCoverage(true)
+	if err != nil {
+		fmt.Println("error profiling", err)
+	} else {
+		fmt.Println(r)
+	}
+
+	// Allow downloads
+	_ = remote.SetDownloadBehavior(godet.AllowDownload, "/tmp/")
+	_, _ = remote.Navigate("http://httpbin.org/response-headers?Content-Type=text/plain;%20charset=UTF-8&Content-Disposition=attachment;%20filename%3d%22test.jnlp%22")
+
+	time.Sleep(time.Second)
+
+	// Block downloads
+	_ = remote.SetDownloadBehavior(godet.DenyDownload, "")
+	_, _ = remote.Navigate("http://httpbin.org/response-headers?Content-Type=text/plain;%20charset=UTF-8&Content-Disposition=attachment;%20filename%3d%22test.jnlp%22")
+}
+```
+
+
+
+
+
+## `gcd`
+
+* [https://github.com/wirepair/gcd](https://github.com/wirepair/gcd)
+
+
+- 截图
+
+```go
+package main
+
+import (
+	"encoding/base64"
+	"flag"
+	"fmt"
+	"log"
+	"net/url"
+	"os"
+	"runtime"
+	"sync"
+	"time"
+
+	"github.com/wirepair/gcd"
+	"github.com/wirepair/gcd/gcdapi"
+)
+
+const (
+	numTabs = 5
+)
+
+var debugger *gcd.Gcd
+var wg sync.WaitGroup
+
+var path string
+var dir string
+var port string
+
+func init() {
+	switch runtime.GOOS {
+	case "windows":
+		flag.StringVar(&path, "chrome", "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", "path to chrome")
+		flag.StringVar(&dir, "dir", "C:\\temp\\", "user directory")
+	case "darwin":
+		flag.StringVar(&path, "chrome", "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", "path to chrome")
+		flag.StringVar(&dir, "dir", "/tmp/", "user directory")
+	case "linux":
+		flag.StringVar(&path, "chrome", "/usr/bin/chromium-browser", "path to chrome")
+		flag.StringVar(&dir, "dir", "/tmp/", "user directory")
+	}
+
+	flag.StringVar(&port, "port", "9222", "Debugger port")
+}
+
+func main() {
+	var err error
+	urls := []string{"http://www.google.com", "http://www.veracode.com", "http://www.microsoft.com", "http://bbc.co.uk", "http://www.reddit.com/r/golang"}
+
+	flag.Parse()
+
+	debugger = gcd.NewChromeDebugger()
+	debugger.StartProcess(path, dir, port)
+	defer debugger.ExitProcess()
+
+	targets := make([]*gcd.ChromeTarget, numTabs)
+
+	for i := 0; i < numTabs; i++ {
+		wg.Add(1)
+		targets[i], err = debugger.NewTab()
+		if err != nil {
+			log.Fatalf("error getting targets")
+		}
+		page := targets[i].Page
+		page.Enable()
+		targets[i].Subscribe("Page.loadEventFired", pageLoaded)
+		// navigate
+		navigateParams := &gcdapi.PageNavigateParams{Url: urls[i]}
+		_, _, _, err := page.NavigateWithParams(navigateParams)
+		if err != nil {
+			log.Fatalf("error: %s\n", err)
+		}
+	}
+	wg.Wait()
+	for i := 0; i < numTabs; i++ {
+		takeScreenShot(targets[i])
+	}
+}
+
+func pageLoaded(target *gcd.ChromeTarget, event []byte) {
+	target.Unsubscribe("Page.loadEventFired")
+	wg.Done()
+}
+
+func takeScreenShot(target *gcd.ChromeTarget) {
+	dom := target.DOM
+	page := target.Page
+	doc, err := dom.GetDocument(-1, true)
+	if err != nil {
+		fmt.Printf("error getting doc: %s\n", err)
+		return
+	}
+
+	debugger.ActivateTab(target)
+	time.Sleep(1 * time.Second) // give it a sec to paint
+	u, urlErr := url.Parse(doc.DocumentURL)
+	if urlErr != nil {
+		fmt.Printf("error parsing url: %s\n", urlErr)
+		return
+	}
+
+	fmt.Printf("Taking screen shot of: %s\n", u.Host)
+	screenShotParams := &gcdapi.PageCaptureScreenshotParams{Format: "png", FromSurface: true}
+	img, errCap := page.CaptureScreenshotWithParams(screenShotParams)
+	if errCap != nil {
+		fmt.Printf("error getting doc: %s\n", errCap)
+		return
+	}
+
+	imgBytes, errDecode := base64.StdEncoding.DecodeString(img)
+	if errDecode != nil {
+		fmt.Printf("error decoding image: %s\n", errDecode)
+		return
+	}
+
+	f, errFile := os.Create(u.Host + ".png")
+	defer f.Close()
+	if errFile != nil {
+		fmt.Printf("error creating image file: %s\n", errFile)
+		return
+	}
+	f.Write(imgBytes)
+	debugger.CloseTab(target)
+}
+```
