@@ -1069,24 +1069,26 @@ endlocal&exit /b %errorlevel%
 
 
 var Argv = WScript.Arguments;
-for (i = 0; i < Argv.Length; i++) {
+for (i = 0; i < Argv.length; i++) {
     info("参数：" + Argv(i));
+}
+
+if (Argv.length>0){
+    if (Argv(0) == "1") {
+        // 设置开机启动
+        var shell = new ActiveXObject("WScript.shell");
+        // HKEY_CURRENT_USER
+        shell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\BajinsWallpaper", WScript.ScriptFullName);
+    } else if (Argv(0) == "?" || Argv(0) == "help") {
+        help();
+        // 正常退出
+        WScript.Quit(0);
+    }
 }
 
 var fso = new ActiveXObject("Scripting.FileSystemObject");
 // 当前文件所在目录
 var currentDirectory = fso.GetFile(WScript.ScriptFullName).ParentFolder;
-
-if (Argv(0) == "1") {
-    // 设置开机启动
-    var shell = new ActiveXObject("WScript.shell");
-    // HKEY_CURRENT_USER
-    shell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\BajinsWallpaper", WScript.ScriptFullName);
-} else if (Argv(0) == "?" || Argv(0) == "help") {
-    help();
-    // 正常退出
-    WScript.Quit(0);
-}
 
 var json = request("GET", "https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1", "json");
 
