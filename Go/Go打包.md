@@ -276,7 +276,7 @@ endlocal&exit /b %errorlevel%
 // ****************************  JavaScript  *******************************
 
 var Argv = WScript.Arguments;
-//for (i = 0; i < Argv.Length; i++) {
+//for (i = 0; i < Argv.length; i++) {
 //info("参数：" + Argv(i));
 //}
 var func = Argv(0);

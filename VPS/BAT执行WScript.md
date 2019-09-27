@@ -583,7 +583,7 @@ endlocal&exit /b %errorlevel%
 // ****************************  JavaScript  *******************************
 
 var Argv = WScript.Arguments;
-for (i = 0; i < Argv.Length; i++) {
+for (i = 0; i < Argv.length; i++) {
     info("参数：" + Argv(i));
 }
 var ArgvName = Argv.Named;
@@ -627,7 +627,7 @@ endlocal&exit /b %errorlevel%
 
 
 var Argv = WScript.Arguments;
-for (i = 0; i < Argv.Length; i++) {
+for (i = 0; i < Argv.length; i++) {
     info("参数：" + Argv(i));
 }
 
@@ -692,7 +692,7 @@ function request(method, url, dataType, data, contentType) {
                 // 0异步、1同步
                 XMLHTTP.Open(method, url, 0);
             } else {
-                XMLHTTP.Open(method, url + "?" + datapost, 0);
+                XMLHTTP.Open(method, url + "?" + params, 0);
             }
             XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send();
@@ -1182,7 +1182,7 @@ function request(method, url, dataType, data, contentType) {
                 // 0异步、1同步
                 XMLHTTP.Open(method, url, 0);
             } else {
-                XMLHTTP.Open(method, url + "?" + datapost, 0);
+                XMLHTTP.Open(method, url + "?" + params, 0);
             }
             XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send();
