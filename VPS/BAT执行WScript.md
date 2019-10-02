@@ -853,12 +853,12 @@ function setWallpaper(imagesPath) {
     shell.RegWrite("HKCU\\Control Panel\\Desktop\\Wallpaper", imagesPath);
     shell.RegWrite("HKCU\\Control Panel\\Desktop\\WallpaperStyle", "2", "REG_DWORD");
     var shadowReg = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\ListviewShadow";
-        shell.RegWrite(shadowReg, "1", "REG_DWORD");
+    shell.RegWrite(shadowReg, "1", "REG_DWORD");
 
     // 如果桌面图标未透明，需要刷新组策略
     shell.Run("gpupdate /force", 0);
     // 实时刷新桌面
-    shell.Run("RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters");
+    shell.Run("RunDll32 USER32.DLL,UpdatePerUserSystemParameters");
 }
 ```
 
@@ -1071,7 +1071,7 @@ endlocal&exit /b %errorlevel%
 
 
 var Argv = WScript.Arguments;
-for (i = 0; i < Argv.Length; i++) {
+for (i = 0; i < Argv.length; i++) {
     info("参数：" + Argv(i));
 }
 
@@ -1079,16 +1079,18 @@ var fso = new ActiveXObject("Scripting.FileSystemObject");
 // 当前文件所在目录
 var currentDirectory = fso.GetFile(WScript.ScriptFullName).ParentFolder;
 
-if (Argv(0) == "1") {
-    // 设置开机启动
-    var shell = new ActiveXObject("WScript.shell");
-    var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run";
+if (Argv.length > 0) {
+    if (Argv(0) == "1") {
+        // 设置开机启动
+        var shell = new ActiveXObject("WScript.shell");
+        var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run";
         // HKEY_CURRENT_USER
         shell.RegWrite(runRegBase + "\\BajinsWallpaper", WScript.ScriptFullName);
-} else if (Argv(0) == "?" || Argv(0) == "help") {
-    help();
-    // 正常退出
-    WScript.Quit(0);
+    } else if (Argv(0) == "?" || Argv(0) == "help") {
+        help();
+        // 正常退出
+        WScript.Quit(0);
+    }
 }
 
 var json = request("GET", "https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1", "json");
@@ -1098,19 +1100,22 @@ var imageDir = currentDirectory + "\\images";
 var imageName = imageUrl.substring(imageUrl.lastIndexOf("/") + 1);
 imageName = imageName.split("=")[1];
 
-var imagePath = download(imageUrl, imageDir, imageName);
-
-
-imagePath = imageTransform(imagePath, "bmp");
-if (imagePath == "") {
-    info("图片格式转为BMP失败");
-    WScript.Quit(0);
+var imagePath = imageDir + "\\" + imageName.replace(/(.+)\.[^\.]+$/, "$1") + ".bmp";
+// 如果转换后文件不存在
+if (!fso.FileExists(imagePath)) {
+    var imagePath = download(imageUrl, imageDir, imageName);
+    imagePath = imageTransform(imagePath, "bmp");
+    if (imagePath == "") {
+        info("图片格式转为BMP失败");
+        WScript.Quit(0);
+    }
 }
 
-if (imagePath != "") {
+
+if (fso.FileExists(imagePath)) {
     setWallpaper(imagePath);
 
-    info("设置壁纸成功！");
+    info("设置壁纸成功！" + imagePath);
     WScript.Quit(0);
 } else {
     error("下载壁纸失败！");
@@ -1334,9 +1339,9 @@ function setWallpaper(imagesPath) {
     shell.RegWrite(shadowReg, "1", "REG_DWORD");
 
     // 如果桌面图标未透明，需要刷新组策略
-    shell.Run("gpupdate /force", 0);
+    //shell.Run("gpupdate /force", 0);
     // 实时刷新桌面
-    shell.Run("RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters");
+    shell.Run("RunDll32 USER32.DLL,UpdatePerUserSystemParameters");
 }
 ```
 
