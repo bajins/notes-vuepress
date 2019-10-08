@@ -847,7 +847,7 @@ function setWallpaper(imagesPath) {
         throw new Error("图片不存在或路径错误！");
     }
     var shell = new ActiveXObject("WScript.shell");
-    // HKEY_CURRENT_USER
+    // 键值"0"表示"居中"，"1"表示"平铺"
     shell.RegWrite("HKCU\\Control Panel\\Desktop\\TileWallpaper", "0");
     // 设置壁纸全路径
     shell.RegWrite("HKCU\\Control Panel\\Desktop\\Wallpaper", imagesPath);
@@ -857,6 +857,8 @@ function setWallpaper(imagesPath) {
 
     // 如果桌面图标未透明，需要刷新组策略
     shell.Run("gpupdate /force", 0);
+    // 上面已经通过注册表设置了壁纸的参数，调用Windows api SystemParametersInfo刷新配置
+    shell.Run("RunDll32 USER32,SystemParametersInfo SPI_SETDESKWALLPAPER 0 " + imagesPath + " SPIF_UPDATEINIFILE");
     // 实时刷新桌面
     shell.Run("RunDll32 USER32.DLL,UpdatePerUserSystemParameters");
 }
@@ -1340,8 +1342,10 @@ function setWallpaper(imagesPath) {
 
     // 如果桌面图标未透明，需要刷新组策略
     //shell.Run("gpupdate /force", 0);
+    // 上面已经通过注册表设置了壁纸的参数，调用Windows api SystemParametersInfo刷新配置
+    shell.Run("RunDll32 USER32,SystemParametersInfo SPI_SETDESKWALLPAPER 0 '' SPIF_UPDATEINIFILE");
     // 实时刷新桌面
-    shell.Run("RunDll32 USER32.DLL,UpdatePerUserSystemParameters");
+    shell.Run("RunDll32 USER32,UpdatePerUserSystemParameters");
 }
 ```
 

@@ -4,6 +4,9 @@
 
 ## 设置壁纸
 
+* [https://docs.microsoft.com/zh-cn/windows/win32/api/winuser/nf-winuser-systemparametersinfoa](https://docs.microsoft.com/zh-cn/windows/win32/api/winuser/nf-winuser-systemparametersinfoa)
+
+
 - main.go
 
 ```go
@@ -292,7 +295,8 @@ func init() {
     // Library
     libuser32 = MustLoadLibrary("user32.dll")
     libkernel32 = MustLoadLibrary("kernel32.dll")
-    // Functions
+    // SystemParametersInfo有两个子函数针对不同的字符集：
+    // SystemParametersInfoW（Unicode）和SystemParametersInfoA（ANSI）
     systemParametersInfo = MustGetProcAddress(libuser32, "SystemParametersInfoW")
     getVersion = MustGetProcAddress(libkernel32, "GetVersion")
 }
@@ -315,14 +319,19 @@ func MustGetProcAddress(lib uintptr, name string) uintptr {
     return uintptr(addr)
 }
 
-/* 通过调用Win32 API函数SystemParametersInfo 设置桌面壁纸
-之前我们已经设置了壁纸的类型，但是壁纸图片的实际文件路径还没设置。
-SystemParametersInfo 这个函数位于user32.dll中，它支持我们从系统中获得硬件和配置信息。
+/*
+之前已经通过注册表设置了壁纸的参数，但是还没有刷新配置。
+调用Win32 API位于user32.dll中函数SystemParametersInfo设置桌面壁纸，它支持我们从系统中获得硬件和配置信息。
 它有四个参数，第一个指明调用这个函数所要执行的操作，接下来的两个参数指明将要设置的数据，依据第一个参数的设定。
-最后一个允许指定改变是否被保存。这里第一个参数我们应指定SPI_SETDESKWALLPAPER，指明我们是要设置壁纸。
-接下来是文件路径。在Vista之前必须是一个.bmp的文件。Vista和更高级的系统支持.jpg格式。
-SPI_SETDESKWALLPAPER参数使得壁纸改变保存并持续可见。
 */
+// uiAction：该参数指定要查询或设置的参数，换壁纸是SPI_SETDESKWALLPAPER（使得壁纸改变保存并持续可见）
+// uiParam：附加值
+// pvParam：要修改或者查询的缓冲区
+// fWinIni：指定用户配置文件是否被更新，如果是这样，则指定是否 WM_SETTINGCHANGE 将消息广播到所有的顶层窗口的更改通知他们，可以是0也可以是下列值：
+//      SPIF_UPDATEINIFILE：把新的系统参数的设置内容写入用户配置文件。
+//      SPIF_SENDCHANGE：在更新用户配置文件之后发送WM_SETTINGCHANGE消息。
+//      SPI_SENDWININICHANGE：与SPIF_SENDCHANGE一样。
+// 换壁纸我们要给uiAction指定SPI_SETDESKWALLPAPER标志位，然后把SPIF_UPDATEINIFILE传递给fWinIni。
 func SystemParametersInfo(uiAction, uiParam uint32, pvParam unsafe.Pointer, fWinIni uint32) bool {
     ret, _, _ := syscall.Syscall6(systemParametersInfo, 4,
         uintptr(uiAction),
