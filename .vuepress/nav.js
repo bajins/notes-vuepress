@@ -6,10 +6,6 @@ module.exports = [
                 // text: '',
                 items: [
                     {
-                        text: '个人主页',
-                        link: 'https://www.bajins.com'
-                    },
-                    {
                         text: '备份库',
                         link: 'https://git.woetu.com/clater/UseNotes'
                     },
