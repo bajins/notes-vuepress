@@ -1,7 +1,6 @@
 # BAT执行WScript
 
 
-
 * [WScript](#wscript)
   * [HTTP](#http)
     * [版本和封装位置](#版本和封装位置)
@@ -17,7 +16,8 @@
   * [参数传递](#参数传递)
   * [函数封装](#函数封装)
   * [设置必应壁纸](#设置必应壁纸)
-  * [设置GitHub的Hosts](#设置GitHub的Hosts)
+  * [设置GitHub的Hosts](#设置github的hosts)
+
 
 
 
