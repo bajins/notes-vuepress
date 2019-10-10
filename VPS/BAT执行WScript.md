@@ -46,6 +46,7 @@ WScript
   |  |-- WshSpecialFolders
   |  |-- WshScriptExec
 ```
+
 - `WSH`对象模型提供的`COM`接口可以分为两类：
     - `Script Execution and Troubleshooting`：这类接口运行脚本执行`WSH`的基本的操作, 
     输出信息、执行基本的`COM`函数（如`CreateObject`、`GetObject`）
@@ -434,6 +435,7 @@ WScript
 #### 模拟按键
 
 - `SendKeys`键击参数说明
+
 > `Enter`回车建表示`{Enter}`、字母`A`表示`{A}`、数字`2`表示`{2}`等
 >> 示例`Wshshell.SendKeys("{Enter}")`、`Wshshell.SendKeys("{A}")`、`Wshshell.SendKeys("{2}")`
 
@@ -641,7 +643,9 @@ var path = Argv(2);
 
 
 ### 函数封装
+
 - HTTP请求
+
 ```js
 /**
  * HTTP请求
@@ -765,6 +769,7 @@ function download(url, directory, filename) {
 ```
 
 - 图片格式转换
+
 ```js
 /**
  * 图片格式转换
@@ -834,6 +839,7 @@ function imageTransform(imagePath, format) {
 ```
 
 - 设置壁纸
+
 ```js
 /**
  * 设置桌面壁纸
@@ -996,6 +1002,7 @@ function unZip(zipFile, unDirectory) {
 ```
 
 - 数据库
+
 ```js
 function db(){
     // 创建数据库对象   
@@ -1027,6 +1034,7 @@ function db(){
 
 
 ### 设置必应壁纸
+
 ```batch
 1>1/* ::
 :: -------------------------------------------------------------------
@@ -1037,6 +1045,10 @@ function db(){
 
 
 @echo off
+if "%1" == "h" goto begin
+mshta vbscript:createobject("wscript.shell").run("%~0 h",0)(window.close)&&exit
+:begin
+
 md "%~dp0$testAdmin$" 2>nul
 if not exist "%~dp0$testAdmin$" (
     echo 不具备所在目录的写入权限! >&2
@@ -1361,6 +1373,10 @@ function setWallpaper(imagesPath) {
 
 
 @echo off
+if "%1" == "h" goto begin
+mshta vbscript:createobject("wscript.shell").run("%~0 h",0)(window.close)&&exit
+:begin
+
 md "%~dp0$testAdmin$" 2>nul
 if not exist "%~dp0$testAdmin$" (
     echo 不具备所在目录的写入权限! >&2
