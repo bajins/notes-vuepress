@@ -2,32 +2,25 @@
 
 
 
-
 * [常见问题](#常见问题)
 * [执行bash](#执行bash)
   * [安装Git](#安装git)
 * [进制转换](#进制转换)
 * [获取管理员权限](#获取管理员权限)
 * [隐藏窗口运行](#隐藏窗口运行)
+* [Windows启动运行](#windows启动运行)
+  * [增加注册表方式](#增加注册表方式)
+  * [启动目录](#启动目录)
 * [注册表](#注册表)
   * [修改](#修改)
   * [窗口设置](#窗口设置)
   * [查询](#查询)
 * [注册Windows服务](#注册windows服务)
   * [加入服务](#加入服务)
-    * [示例](#示例)
   * [删除服务](#删除服务)
 * [添加快捷方式](#添加快捷方式)
-* [Windows启动运行](#windows启动运行)
-  * [增加注册表方式](#增加注册表方式)
 * [命令](#命令)
   * [文件操作](#文件操作)
-    * [查看目录下的文件](#查看目录下的文件)
-    * [创建目录](#创建目录)
-    * [删除目录](#删除目录)
-    * [拷贝文件](#拷贝文件)
-    * [移动文件](#移动文件)
-    * [删除文件](#删除文件)
   * [查看本机ip](#查看本机ip)
   * [查DNS](#查dns)
   * [刷新DNS](#刷新dns)
@@ -52,19 +45,24 @@
 
 
 
+
+
 ## 常见问题
+
 - `if`和`for`的条件与后面跟的`(`之间必须要有一个空格，否则会出现`命令语法不正确`的问题！
 
 - 使用cd切换目录时，如果带盘符一定要加`/d`参数，否则切换无效
 
 - 双引号中包含双引号最里层的要用三个`"""`转义，`&`符号要用`^`转义
   - 示例:使用`curl`配合`jq`获取必应壁纸下载地址
+  
 ```batch
 curl "http://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1" | jq-win64.exe ".images[0].url | """https://cn.bing.com""" + .[0:index("""^&""")]" >> bing.txt
 ```
 
 
 ## 执行bash
+
 ### 安装Git
 
 * [https://git-scm.com/download/win](https://git-scm.com/download/win)
@@ -106,7 +104,9 @@ echo %十进制%
 
 
 ## 获取管理员权限
+
 - 方式一
+
 ```batch
 @echo off
 cacls.exe "%SystemDrive%\System Volume Information" >nul 2>nul
@@ -117,6 +117,7 @@ if exist "%temp%\getadmin.vbs" del /f /q "%temp%\getadmin.vbs"
 ```
 
 - 方式二
+
 ```batch
 fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",1)(window.close)
 
@@ -126,6 +127,7 @@ fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellE
 
 
 - 方式三
+
 ```batch
 @echo off
 :: 检查权限
@@ -153,6 +155,7 @@ if '%errorlevel%' NEQ '0' (
 ```
 
 - 方式四
+
 ```batch
 %1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)
 cd /d "%~dp0"
@@ -168,13 +171,19 @@ cd /d "%~dp0"
 ```batch
 @echo off
 if "%1" == "h" goto begin
-:: 运行VisualBasicScript命令不显示vbs窗口，并结束bat运行
-mshta vbscript:createobject("wscript.shell").run("%~nx0 h",0)(window.close) && exit
+mshta vbscript:createobject("wscript.shell").run("%~0 h",0)(window.close)&&exit
+::mshta "javascript:new ActiveXObject('WScript.Shell').Run('%~0 h',0);window.close()"&&exit
 :begin
 
 :: 下面为执行命令
 
 ```
+
+> 如果运行的批处理名为`a.bat`，在`C:\`下，那`%~0`代表`C:\a.bat`，`%~nx0`代表`a.bat`。`h`极为参数`%1`，`0`表示隐藏运行。
+>
+> 由于你双击运行，故第一次批处理`%1`为空，`if`不成立，转而运行下一句。
+> 然后再次打开自己，并传递参数`h`，此时`if`成立，跳转至`begin`开始运行。
+
 
 ```batch
 :: 静默运行软件
@@ -213,6 +222,34 @@ item = "HKCU\Software\Microsoft\Windows\CurrentVersion\Run\"
 ' HKEY_CURRENT_USER
 shell.RegWrite item & keyName, WScript.ScriptFullName
 ```
+
+## Windows启动运行
+
+### 增加注册表方式
+
+```batch
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d 软件路径 /f
+:: 或者，%号和"号不能使用转移字符^转义，%号转义%%，"号转义"""
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """"软件路径""" /background" /f
+```
+
+> 按`win+r`打开运行窗口，输入以下命令`shell:startup`打开启动文件夹，把快捷方式放入
+>
+> 可利用[脚本添加快捷方式](#添加快捷方式)直接在启动文件夹中生成快捷方式
+
+
+### 启动目录
+
+> 把软件的快捷方式或者软件直接放在以下目录中就会开机自动运行
+
+- WinXP: `C:/Documents and Settings/Administrator/「开始」菜单/程序/启动`
+
+- Win7: `C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
+
+- Win10: `C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
+
+- 所有用户通用启动目录: `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp`
+
 
 
 ## 注册表
@@ -305,19 +342,24 @@ REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v ScreenBufferSize /d 0x07d000
 
 
 ### 查询
+
 ```bash
 FOR /F "usebackq delims==" %i IN (`REG QUERY HKCU /v onedrive /s`) DO @echo %i
 ```
 
 ## 注册Windows服务
-https://www.cnblogs.com/pingming/p/5108947.html
+
+* [https://www.cnblogs.com/pingming/p/5108947.html](https://www.cnblogs.com/pingming/p/5108947.html)
+
 ### 加入服务
+
 ```batch
 :: 等号后面的空格必须
 sc create 服务名称 binPath= 执行程序路径或者命令 start= auto displayname= "描述"
 ```
 
 #### 示例
+
 ```batch
 sc create frp内网穿透 binPath= D:\frp\frps.bat start= auto displayname= "frp内网穿透"
 
@@ -326,12 +368,14 @@ sc create frp内网穿透 binPath= "cmd.exe /c D:\frp内网穿透工具\frpc.exe
 
 
 ### 删除服务
+
 ```batch
 sc delete 服务名称
 ```
 
 
 ## 添加快捷方式
+
 ```batch
 :: -------------------------------------------------------------------
 ::                          添加开机静默启动
@@ -391,16 +435,7 @@ goto :eof
 goto :eof
 ```
 
-## Windows启动运行
-### 增加注册表方式
-```batch
-REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d 软件路径 /f
-:: 或者，%号和"号不能使用转移字符^转义，%号转义%%，"号转义"""
-REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """"软件路径""" /background" /f
-```
-> 按`win+r`打开运行窗口，输入以下命令`shell:startup`打开启动文件夹，把快捷方式放入
->
-> 可利用[脚本添加快捷方式](#添加快捷方式)直接在启动文件夹中生成快捷方式
+
 
 ## 命令
 
@@ -408,29 +443,38 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 ### 文件操作
 
 #### 查看目录下的文件
+
 > 类似于linux下的ls
 
 ```batch
 dir
 ```
+
 #### 创建目录
+
 ```batch
 md 目录名（文件夹）
 ```
+
 #### 删除目录
+
 ```batch
 rd  目录名（文件夹）
 ```
 
 #### 拷贝文件
+
 ```batch
 copy 路径\文件名 路径\文件名
 ```
+
 #### 移动文件
+
 ```batch
 move 路径\文件名 路径\文件名
 ```
 #### 删除文件
+
 > 不能删除文件夹
 
 ```batch
@@ -438,11 +482,13 @@ del 文件名
 ```
 
 ### 查看本机ip
+
 ```batch
 ipconfig
 ```
 
 ### 查DNS
+
 ```batch
 nslookup 域名
 ```
@@ -558,6 +604,7 @@ echo %port%|findstr "^[0-9]*$" >nul && (
 
 
 ### 获取为指定后缀的文件
+
 ```batch
 ::获取为指定后缀的文件
 for /r %~dp0 %%a in (*.jpg,*.png) do (
@@ -583,7 +630,9 @@ for /f "delims=" %%i in ('dir /s /b /a  %~dp0 ^| findstr /e "\.jpg\> \.png\>"') 
 	echo %%~dpnxi >> test.txt
 )
 ```
+
 ### 获取不为指定后缀的文件
+
 ```batch
 ::获取不为指定后缀的文件
 for /f "delims=" %%i in ('dir /s /b /a  %~dp0 ^| findstr /v "\.bat\> \.text\> \.exe\>"') do (
@@ -591,7 +640,9 @@ for /f "delims=" %%i in ('dir /s /b /a  %~dp0 ^| findstr /v "\.bat\> \.text\> \.
 	echo %%~dpnxi >> test.txt
 )
 ```
+
 ### 判断字符串是否包含子字符串
+
 ```batch
 :: 判断变量字符串中是否包含字符串
 echo %字符串% | findstr %子串% >nul && (
@@ -612,6 +663,7 @@ if defined error (
 ```
 
 ### 替换文件中指定内容
+
 ```batch
 @echo off
 :: 解决把中文写入文件乱码问题（声明采用UTF-8编码），936为GBK，437为美国英语
@@ -671,6 +723,7 @@ dir /ad test >nul 2>nul && (
 
 
 ## 第三方工具
+
 * [wget-网络请求工具](https://eternallybored.org/misc/wget/)
 
 * [curl-网络请求工具](https://curl.haxx.se/dlwiz/?type=bin) [curl-GitHub](https://github.com/curl/curl)
@@ -690,6 +743,7 @@ dir /ad test >nul 2>nul && (
 
 
 - `certutil`
+
 > 用户备份证书服务管理，每次下载都会有缓存
 >
 > 缓存目录：`%USERPROFILE%\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content`
@@ -699,6 +753,7 @@ certutil -urlcache -split -f https://blog-static.cnblogs.com/files/gayhub/bcn.js
 ```
 
 - `bitsadmin`
+
 > `bitsadmin.exe` `bitsadmin`是`windows`后台智能传输服务的一个工具，`windows`的自动更新，补丁之类的下载就是用这个工具来实现的。
 
 ```batch
