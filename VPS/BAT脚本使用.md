@@ -225,7 +225,7 @@ keyName = "frp"
 Set shell = WScript.CreateObject("WScript.Shell")
 
 For Each command In commands
-    ' cmd /c 为运行之后关闭窗口，0为隐藏运行，false为不同步运行
+    ' cmd /c运行之后关闭窗口，0隐藏运行，false不同步运行
     shell.Run "cmd /c " & command, 0, false
 Next
 
