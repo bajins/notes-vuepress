@@ -9,14 +9,14 @@
 * [隐藏窗口运行](#隐藏窗口运行)
   * [bat脚本](#bat脚本)
   * [vbs脚本](#vbs脚本)
-* [Windows启动运行](#windows启动运行)
+* [开机启动](#开机启动)
   * [增加注册表方式](#增加注册表方式)
   * [启动目录](#启动目录)
 * [注册表](#注册表)
   * [修改](#修改)
   * [窗口设置](#窗口设置)
   * [查询](#查询)
-* [注册Windows服务](#注册windows服务)
+* [注册服务](#注册服务)
   * [加入服务](#加入服务)
   * [删除服务](#删除服务)
 * [添加快捷方式](#添加快捷方式)
@@ -229,7 +229,7 @@ item = "HKCU\Software\Microsoft\Windows\CurrentVersion\Run\"
 shell.RegWrite item & keyName, WScript.ScriptFullName
 ```
 
-## Windows启动运行
+## 开机启动
 
 ### 增加注册表方式
 
@@ -353,7 +353,7 @@ REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v ScreenBufferSize /d 0x07d000
 FOR /F "usebackq delims==" %i IN (`REG QUERY HKCU /v onedrive /s`) DO @echo %i
 ```
 
-## 注册Windows服务
+## 注册服务
 
 * [https://www.cnblogs.com/pingming/p/5108947.html](https://www.cnblogs.com/pingming/p/5108947.html)
 
