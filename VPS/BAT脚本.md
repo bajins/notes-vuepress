@@ -1,6 +1,13 @@
 # BAT脚本
 
 
+* [添加快捷方式](#添加快捷方式)
+* [设置必应壁纸](#设置必应壁纸)
+* [设置GitHub的Hosts](#设置github的hosts)
+
+
+
+
 
 ## 添加快捷方式
 
@@ -65,7 +72,7 @@ goto :eof
 
 
 
-### 设置必应壁纸
+## 设置必应壁纸
 
 - [开机自启动可使用vbs脚本](/VPS/BAT命令.md#vbs脚本)
 
@@ -418,7 +425,7 @@ function autoStart(mode) {
 }
 ```
 
-### 设置GitHub的Hosts
+## 设置GitHub的Hosts
 
 - [开机自启动可使用vbs脚本](/VPS/BAT命令.md#vbs脚本)
 
