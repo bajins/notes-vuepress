@@ -1052,8 +1052,8 @@ function autoStart(mode) {
     } else {
         // 添加开机启动注册表
         var shell = new ActiveXObject("WScript.shell");
-        var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run";
-        shell.RegWrite(runRegBase + "\\" + fileName, vbsFileName);
+        var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\";
+        shell.RegWrite(runRegBase + fileName, vbsFileName);
     }
     var fso = new ActiveXObject("Scripting.FileSystemObject");
     // 创建文件
@@ -1407,8 +1407,8 @@ function autoStart(mode) {
     } else {
         // 添加开机启动注册表
         var shell = new ActiveXObject("WScript.shell");
-        var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run";
-        shell.RegWrite(runRegBase + "\\" + fileName, vbsFileName);
+        var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\";
+        shell.RegWrite(runRegBase + fileName, vbsFileName);
     }
     var fso = new ActiveXObject("Scripting.FileSystemObject");
     // 创建文件
@@ -1674,8 +1674,8 @@ function autoStart(mode) {
     } else {
         // 添加开机启动注册表
         var shell = new ActiveXObject("WScript.shell");
-        var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run";
-        shell.RegWrite(runRegBase + "\\" + fileName, vbsFileName);
+        var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\";
+        shell.RegWrite(runRegBase + fileName, vbsFileName);
     }
     var fso = new ActiveXObject("Scripting.FileSystemObject");
     // 创建文件
