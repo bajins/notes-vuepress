@@ -515,6 +515,7 @@ WScript
 > 在`JScript`中，永远不需要去实例化根对象`WScript`，正如同浏览器中的直接全局对象一样。
 
 - `BAT`执行`JScript`原理
+
 > 把`batch`命令用`JavaScript`注释`/**/`包裹住，然后用`batch`命令执行文件中的`JavaScript`代码时就不会编译`batch`命令了
 >> `1>1/* ::`文件的开头
 >>
