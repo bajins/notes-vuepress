@@ -365,10 +365,10 @@ HKEY_CURRENT_USER\Console\WindowSize
 > 十六进制的前四位是高，后四位是宽
 
 ```batch
-:: 窗口宽高120*40
+:: 窗口高宽40*120
 REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v WindowSize /d 0x00280078 /f
-:: 屏幕缓冲区宽高120*2000
-REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v ScreenBufferSize /d 0x07d00078 /f
+:: 屏幕缓冲区高宽1000*120
+REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v ScreenBufferSize /d 0x03e80078 /f
 ```
 
 
