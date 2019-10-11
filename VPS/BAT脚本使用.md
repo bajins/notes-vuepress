@@ -10,7 +10,7 @@
   * [bat脚本](#bat脚本)
   * [vbs脚本](#vbs脚本)
 * [开机启动](#开机启动)
-  * [增加注册表方式](#增加注册表方式)
+  * [添加注册表](#添加注册表)
   * [启动目录](#启动目录)
 * [注册表](#注册表)
   * [修改](#修改)
@@ -231,7 +231,7 @@ shell.RegWrite item & keyName, WScript.ScriptFullName
 
 ## 开机启动
 
-### 增加注册表方式
+### 添加注册表
 
 ```batch
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d 软件路径 /f
@@ -239,22 +239,20 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d 软
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """"软件路径""" /background" /f
 ```
 
-> 按`win+r`打开运行窗口，输入以下命令`shell:startup`打开启动文件夹，把快捷方式放入
->
-> 可利用[脚本添加快捷方式](#添加快捷方式)直接在启动文件夹中生成快捷方式
-
 
 ### 启动目录
 
 > 把软件的快捷方式或者软件直接放在以下目录中就会开机自动运行
 
+> 可利用[脚本添加快捷方式](#添加快捷方式)直接在启动文件夹中生成快捷方式
+
+> 按`win+r`打开运行窗口，输入`shell:startup`打开启动文件夹，把快捷方式或者软件放入
+
 - WinXP: `C:/Documents and Settings/Administrator/「开始」菜单/程序/启动`
 
-- Win7: `C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
+- Win10和Win7: `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`
 
-- Win10: `C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
-
-- 所有用户通用启动目录: `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp`
+- 通用启动目录: `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp`
 
 
 
