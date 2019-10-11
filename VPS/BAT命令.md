@@ -251,7 +251,7 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 
 > 把软件的快捷方式或者软件直接放在以下目录中就会开机自动运行
 
-> 可利用[脚本添加快捷方式](#添加快捷方式)直接在启动文件夹中生成快捷方式
+> 可利用[脚本添加快捷方式](/VPS/BAT脚本.md#添加快捷方式)直接在启动文件夹中生成快捷方式
 
 > 按`win+r`打开运行窗口，输入`shell:startup`打开启动文件夹，把快捷方式或者软件放入
 
@@ -276,23 +276,45 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 
 ### 修改
 
+> `/v` 设置键名(value)
+
+> `/t` 设置数据类型(type)
+
+> `/d` 设置添加的值(data)
+
+> `/f` 表示强制(forbidden)
+
+- 删除桌面IE图标
+
 ```batch
-:: 删除桌面IE图标
 REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{B416D21B-3B22-B6D4-BBD3-BBD452DB3D5B}" /f
+```
 
-:: 修改开机时小数字键盘不开启的问题
+- 修改开机时小数字键盘不开启的问题
+
+```batch
 REG ADD "HKU\.DEFAULT\Control Panel\Keyboard" /v InitialKeyboardIndicators /t REG_SZ /d 2 /f
+```
 
-::把图片设置为壁纸
+- 把图片设置为壁纸
+
+```batch
 REG ADD "HKCU\Control Panel\Desktop" /v TileWallpaper /d "0" /f 
 REG ADD "HKCU\Control Panel\Desktop" /v Wallpaper /d "图片绝对路径" /f
 REG ADD "HKCU\Control Panel\Desktop" /v WallpaperStyle /t REG_DWORD /d 2 /f
 RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters
+```
 
-:: 加入开机自动运行
+- 开机自动运行
+
+```batch
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 自定义命名 /d %0 /f
 
+```
 
+- 默认记事本
+
+```batch
 :: 替换Windows默认记事本
 REG ADD "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /t REG_SZ /d "\"%ProgramFiles(x86)%\Notepad++\notepad++.exe\" -notepadStyleCmdline -z" /f
 
@@ -300,7 +322,11 @@ REG ADD "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution 
 REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
 REG DELETE "HKLM\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
 REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /f
+```
 
+- Windows Defender
+
+```batch
 :: 关闭“启用Windows安全中心服务”的通知
 REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellServiceObjects\{F56F6FDD-AA9D-4618-A949-C1B91AF43B1A}" /f
 
@@ -312,13 +338,7 @@ REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "Di
    
 ```
 
-> `/v` 设置键名(value)
-> 
-> `/t` 设置数据类型(type)
-> 
-> `/d` 设置添加的值(data)
-> 
-> `/f` 表示强制(forbidden)
+
 
 
 ### 窗口设置
@@ -369,7 +389,7 @@ FOR /F "usebackq delims==" %i IN (`REG QUERY HKCU /v onedrive /s`) DO @echo %i
 sc create 服务名称 binPath= 执行程序路径或者命令 start= auto displayname= "描述"
 ```
 
-#### 示例
+- 示例
 
 ```batch
 sc create frp内网穿透 binPath= D:\frp\frps.bat start= auto displayname= "frp内网穿透"
@@ -383,69 +403,6 @@ sc create frp内网穿透 binPath= "cmd.exe /c D:\frp内网穿透工具\frpc.exe
 ```batch
 sc delete 服务名称
 ```
-
-
-## 添加快捷方式
-
-```batch
-:: -------------------------------------------------------------------
-::                          添加开机静默启动
-::                     by https://www.bajins.com
-::                   GitHub https://woytu.github.io
-:: -------------------------------------------------------------------
-
-
-@echo off
-if "%1" == "h" goto begin
-mshta vbscript:createobject("wscript.shell").run("%~nx0 h",0)(window.close) && exit
-:begin
-
-::设置快捷方式名称（必选）
-:: %~dp0 当前所在目录
-:: %0 当前执行脚本路径
-set LnkName=测试.exe
-
-::设置快捷方式显示的说明（可选）
-set Desc=测试
-
-:: 设置快捷方式存放路径，DesKtop、Startup、AllUsersStartup、AllUsersDesktop
-set folder=DesKtop
-
-
-::设置程序或文件的完整路径（必选）
-set Program=%~dp0%LnkName%
-
-::设置程序的工作路径，一般为程序主目录，此项若留空，脚本将自行分析路径
-set WorkDir=%~dp0
-
-if not defined WorkDir call:GetWorkDir "%Program%"
-
-::创建
-(
-	echo Set WshShell=CreateObject("WScript.Shell"^)
-	echo folder=WshShell.SpecialFolders("%folder%"^)
-	echo Set oShellLink=WshShell.CreateShortcut(folder^&"\%LnkName%.lnk"^)
-	echo oShellLink.TargetPath="%Program%"
-	echo oShellLink.WorkingDirectory="%WorkDir%"
-	echo oShellLink.WindowStyle=1
-	echo oShellLink.Description="%Desc%"
-	echo oShellLink.Save
-	echo Msgbox("快捷方式创建成功！"^)
-) > makelnk.vbs
-
-makelnk.vbs
-del /f /q makelnk.vbs
-exit
-
-goto :eof
-
-:GetWorkDir
-	set WorkDir=%~dp1
-	set WorkDir=%WorkDir:~,-1%
-
-goto :eof
-```
-
 
 
 ## 命令
@@ -728,9 +685,6 @@ dir /ad test >nul 2>nul && (
     echo test 是文件
 )
 ```
-
-
-
 
 
 ## 第三方工具
