@@ -1032,6 +1032,41 @@ function db(){
 ```
 
 
+- 开机启动
+
+```js
+/**
+ * 开机启动
+ *
+ * @param mode 为startup时是在开机启动目录中创建vbs脚本，否则添加开机启动注册表
+ */
+function autoStart(mode) {
+    var fileName = WScript.ScriptName;
+    fileName = fileName.substring(0, fileName.lastIndexOf('.') + 1);
+    //fileName = fileName.substring(0, fileName.length-4);
+    var vbsFileName = WScript.ScriptFullName.replace(".bat", ".vbs");
+    if ("startup" == mode.toLowerCase()) {
+        // 开机启动目录
+        var runDir = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\";
+        vbsFileName = runDir + fileName + ".vbs";
+    } else {
+        // 添加开机启动注册表
+        var shell = new ActiveXObject("WScript.shell");
+        var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run";
+        shell.RegWrite(runRegBase + "\\" + fileName, vbsFileName);
+    }
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    // 创建文件
+    var vbsFile = fso.CreateTextFile(vbsFileName, true);
+    // 填写数据，并增加换行符
+    vbsFile.WriteLine("Set shell = WScript.CreateObject(\"WScript.Shell\")");
+    vbsFile.WriteLine("shell.Run \"cmd /c " + WScript.ScriptFullName + "\", 0, false");
+    // 关闭文件
+    vbsFile.Close();
+}
+```
+
+
 
 ### 设置必应壁纸
 
@@ -1094,11 +1129,7 @@ var currentDirectory = fso.GetFile(WScript.ScriptFullName).ParentFolder;
 
 if (Argv.length > 0) {
     if (Argv(0) == "1") {
-        // 设置开机启动
-        var shell = new ActiveXObject("WScript.shell");
-        var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run";
-        // HKEY_CURRENT_USER
-        shell.RegWrite(runRegBase + "\\BajinsWallpaper", WScript.ScriptFullName);
+        autoStart("startup");
     } else if (Argv(0) == "?" || Argv(0) == "help") {
         help();
         // 正常退出
@@ -1358,6 +1389,36 @@ function setWallpaper(imagesPath) {
     // 实时刷新桌面
     shell.Run("RunDll32 USER32,UpdatePerUserSystemParameters");
 }
+
+/**
+ * 开机启动
+ *
+ * @param mode 为startup时是在开机启动目录中创建vbs脚本，否则添加开机启动注册表
+ */
+function autoStart(mode) {
+    var fileName = WScript.ScriptName;
+    fileName = fileName.substring(0, fileName.lastIndexOf('.') + 1);
+    //fileName = fileName.substring(0, fileName.length-4);
+    var vbsFileName = WScript.ScriptFullName.replace(".bat", ".vbs");
+    if ("startup" == mode.toLowerCase()) {
+        // 开机启动目录
+        var runDir = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\";
+        vbsFileName = runDir + fileName + ".vbs";
+    } else {
+        // 添加开机启动注册表
+        var shell = new ActiveXObject("WScript.shell");
+        var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run";
+        shell.RegWrite(runRegBase + "\\" + fileName, vbsFileName);
+    }
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    // 创建文件
+    var vbsFile = fso.CreateTextFile(vbsFileName, true);
+    // 填写数据，并增加换行符
+    vbsFile.WriteLine("Set shell = WScript.CreateObject(\"WScript.Shell\")");
+    vbsFile.WriteLine("shell.Run \"cmd /c " + WScript.ScriptFullName + "\", 0, false");
+    // 关闭文件
+    vbsFile.Close();
+}
 ```
 
 ### 设置GitHub的Hosts
@@ -1416,11 +1477,7 @@ for (i = 0; i < Argv.length; i++) {
 
 if (Argv.length > 0) {
     if (Argv(0) == "1") {
-        // 设置开机启动
-        var shell = new ActiveXObject("WScript.shell");
-        var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run";
-        // HKEY_CURRENT_USER
-        shell.RegWrite(runRegBase + "\\BajinsGitHubHosts", WScript.ScriptFullName);
+        autoStart("startup");
     } else if (Argv(0) == "?" || Argv(0) == "help") {
         help();
         // 正常退出
@@ -1598,5 +1655,35 @@ function request(method, url, dataType, data, contentType) {
         default:
             return XMLHTTP.responseBody;
     }
+}
+
+/**
+ * 开机启动
+ *
+ * @param mode 为startup时是在开机启动目录中创建vbs脚本，否则添加开机启动注册表
+ */
+function autoStart(mode) {
+    var fileName = WScript.ScriptName;
+    fileName = fileName.substring(0, fileName.lastIndexOf('.') + 1);
+    //fileName = fileName.substring(0, fileName.length-4);
+    var vbsFileName = WScript.ScriptFullName.replace(".bat", ".vbs");
+    if ("startup" == mode.toLowerCase()) {
+        // 开机启动目录
+        var runDir = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\";
+        vbsFileName = runDir + fileName + ".vbs";
+    } else {
+        // 添加开机启动注册表
+        var shell = new ActiveXObject("WScript.shell");
+        var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run";
+        shell.RegWrite(runRegBase + "\\" + fileName, vbsFileName);
+    }
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    // 创建文件
+    var vbsFile = fso.CreateTextFile(vbsFileName, true);
+    // 填写数据，并增加换行符
+    vbsFile.WriteLine("Set shell = WScript.CreateObject(\"WScript.Shell\")");
+    vbsFile.WriteLine("shell.Run \"cmd /c " + WScript.ScriptFullName + "\", 0, false");
+    // 关闭文件
+    vbsFile.Close();
 }
 ```
