@@ -75,7 +75,9 @@
 
 
 ## 系统操作
+
 ### 查看邮箱
+
 ```bash
 cat /var/spool/mail/root
 ```
@@ -107,7 +109,9 @@ yum clean packages
 # 清理软件源
 yum clean metadata
 ```
+
 #### 日志
+
 ```bash
 # 清除定时任务记录
 sed -i '1,50d' /var/log/cron
@@ -155,10 +159,13 @@ rm -fr /var/log/*
 
 
 ### 过滤结果
+
 ```bash
 ls -l | grep test | awk '{print $5}' | sed -n '2p'
 ```
+
 - `grep` 文本过滤命令，包含test的文件
+
 > 由正则表达式或者字符及基本文本字符所编写的过滤条件
 
 | 参数                                           	| 说明                                                                                                 	|
@@ -199,6 +206,7 @@ ls -l | grep test | awk '{print $5}' | sed -n '2p'
 - `awk` 文本处理命令，`print`后面是你要获取第几列
 
 - `sed` 行编辑器，`-n`是指定第几行。
+
 > `p` 显示
 >
 > `d` 删除
@@ -212,6 +220,7 @@ ls -l | grep test | awk '{print $5}' | sed -n '2p'
 > `i` 插入
 
 #### 切分字符串取出最后一段
+
 ```bash
 echo "1:3:5" | awk -F ":" '{print $NF}'
 echo "1:3:5" | sed 's/.*:\([^:]*\)$/\1/'
@@ -219,6 +228,7 @@ echo "1:3:5" | cut -d : -f 3
 ```
 
 #### 过滤多个结果
+
 ```bash
 ls -l | grep "postfix\|dovecot"
 # 或者
@@ -233,6 +243,7 @@ ls -l | awk "/postfix|dovecot/"
 
 
 ## 定时任务
+
 > `crontab`命令常用于Unix和类Unix的操作系统之中，用于设置周期性被执行的指令
 
 ### 编辑`crontab`文件.
@@ -240,7 +251,9 @@ ls -l | awk "/postfix|dovecot/"
 ```bash
 crontab -e
 ```
+
 ### 输入定时任务命令.
+
 ```bash
 # 每分钟输出一次当前时间
 * * * * * echo `date` >> /log.log
@@ -283,6 +296,7 @@ python -m http.server port
 # 服务开启后，地址协议类型加IP/目录下的文件： 
 wget host:port/file 就可以下载了
 ```
+
 ### scp
 
 > 【优点】简单方便，安全可靠；支持限速参数，不占资源，不会提高多少系统负荷
@@ -292,6 +306,7 @@ wget host:port/file 就可以下载了
 > 【用法】scp就是secure copy，是用来进行远程文件拷贝的。数据传输使用 ssh，并且和ssh 使用相同的认证方式，提供相同的安全保证 。 
 
 - 命令参数
+
 > -1  强制scp命令使用协议ssh1
 >
 > -2  强制scp命令使用协议ssh2
@@ -329,16 +344,19 @@ wget host:port/file 就可以下载了
 > scp [参数] <源地址（用户名@IP地址或主机名）>:<文件路径> <目的地址（用户名 @IP 地址或主机名）>:<文件路径> 
 
 - 示例
+
 > 把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
 
 ```bash
 scp -P 22 -p /home/work/source.txt work@192.168.0.10:/home/work/
 ```
+
 > 把192.168.0.10机器上的source.txt文件拷贝到本地的/home/work目录下
 
 ```bash
 scp -P 22 -p work@192.168.0.10:/home/work/source.txt /home/work/
 ```
+
 > 把192.168.0.10机器上的source.txt文件拷贝到192.168.0.11机器的/home/work目录下
 
 ```bash
@@ -350,6 +368,7 @@ scp -P 22 -p -r /home/work/sourcedir work@www.myhost.com:/home/work/
 # 显示详情，加-v参数
 scp -P 22 -p -r -v /home/work/sourcedir work@www.myhost.com:/home/work/  
 ```
+
 > 将远程主机复制到本地
 
 ```bash
@@ -361,6 +380,7 @@ scp -P 22 -p root@192.168.214.187:/tmp/demo/f3.log /tmp/files/
 > 输入密码时提示：`Permission denied, please try again.`
 
 - 先修改远程文件夹或文件的权限`chmod -R 777 路径`
+
 - 修改`PermitRootLogin`允许Root登录
 
 ```bash
@@ -373,6 +393,7 @@ vi /etc/ssh/sshd_config
 ```
 
 #### 脚本
+
 ```bash
 #!/bin/bash
 
@@ -413,6 +434,7 @@ exit
 
 
 ### rsync
+
 >【优点】功能强大，操作类似scp，支持排除目录，支持限速参数；还支持本地复制。 
 >  
 > 【缺点】会耗系统资源，占用I/O
@@ -444,6 +466,7 @@ rsync -r -v --exclude sourcedir/notinclude /home/work/sourcedir work@www.myhost.
 ```
 
 ### 查找大文件
+
 ```bash
 # 查找从根目录下查找大于100M的文件，并显示文件的具体大小再进行排序
 find / -type f -size +100M -print0 | xargs -0 du -h | sort -nr
@@ -479,6 +502,7 @@ find . | xargs grep -ril 'content'
 ```
 
 ### 列出目录
+
 ```bash
 ls -l |grep "^d" |awk '{print $9}'
 ls -F |grep "/$"
@@ -526,6 +550,7 @@ find -name test
 ```bash
 find -name '*XXX*'
 ```
+
 > 在当前目录下查看所有目录并排序
 
 ```bash
@@ -600,6 +625,7 @@ grep -rl "XXX" --exclude="*.sql" ./* | wc -l
 ```
 
 ### 设置文件格式
+
 ```bash
 # 显示格式。
 :set ff
@@ -610,15 +636,20 @@ grep -rl "XXX" --exclude="*.sql" ./* | wc -l
 ```
 
 ### 列出文件
+
 ```bash
 # 查看所有文件（包括隐藏文件）并以最大容量单位显示
 ll -a -h 文件名
 ```
+
 ### 显示当前文件夹大小
+
 ```bash
 du -sh
 ```
+
 ### 查看当前路径
+
 ```bash
 pwd
 ```
@@ -630,6 +661,7 @@ pwd
 ```bash
 chmod -R 777 文件名
 ```
+
 > 使用命令chown改变目录或文件的所有权,更改所有者和所属组chown(change owner缩写）
 
 ```bash
@@ -637,6 +669,7 @@ chown:用户名 文件名
 ```
 
 ### 切换目录
+
 ```bash
 # 进行当前用户的主目录
 cd ~
@@ -650,7 +683,9 @@ cd .
 ```
 
 ### 压缩
+
 #### tar
+
 ```bash
 # 打包的时候我们要排除 tomcat/logs 目录，命令如下：
 tar -zcvf tomcat.tar.gz --exclude=tomcat/logs tomcat
@@ -662,6 +697,7 @@ tar -zcvf tomcat.tar.gz --exclude=tomcat/logs --exclude=tomcat/libs --exclude=to
 > 注意：在使用`tar`的`--exclude`命令排除打包时，末尾不能加`/`或者路径为绝对路径，否则还是会把排除目录以及其下的文件打包进去。
 
 #### 7zip
+
 ```bash
 # 安装7zip
 yum –y install p7zip
@@ -681,21 +717,28 @@ yum –y install p7zip
 
 
 ## 解决网卡问题
+
 ### MTU
+
 > MTU经过网卡传输的数据包的最大传输单元,传输设备的MTU值不规范造成传输失败的情况
 
 ### 查看MTU值
+
 ```bash
 cat /sys/class/net/eth0/mtu
 ```
+
 ### 更改MTU值（临时）
+
 ```bash
 echo "1476" > /sys/class/net/eth0/mtu
 # 或者
 # ifconfig 网口名 mtu 数值
 ifconfig eth0 mtu 1476
 ```
+
 ### 更改MTU值（永久）
+
 ```bash
 vi /etc/sysconfig/network-scripts/ifcfg-eth0
 # 在DEVICE=eth0下面加入
@@ -703,22 +746,31 @@ MTU=1476
 # 启用IPv6地址的，修改IPv6 mtu的参数为
 IPV6_MTU="1280"
 ```
+
 ### 重启网络接口
+
 ```bash
 service network restart
 ```
 
 ## 后台运行
+
 ### `nohup`
+
 #### 只输出错误信息到日志文件
+
 ```bash
 nohup python3 ./index.py >/dev/null 2>index.log &
 ```
+
 #### 不输出日志
+
 ```bash
 nohup python3 ./index.py >/dev/null 2>&1 &
 ```
+
 - Linux的3种重定向
+
 >`0`表示标准输入
 >
 >`1`标准输出,在一般使用时，默认的是标准输出
@@ -732,17 +784,21 @@ nohup python3 ./index.py >/dev/null 2>&1 &
 >> 另外，也可以实现0，1，2之间的重定向。`2>&1`：将错误信息重定向到标准输出。
 
 - 关于`/dev/null`文件
+
 >Linux下还有一个特殊的文件/dev/null，它就像一个无底洞，所有重定向到它的信息都会消失得无影无踪。
 > 这一点非常有用，当我们不需要回显程序的所有信息时，就可以将输出重定向到/dev/null。
 
 ### `setsid`
+
 > `setsid`就是`set session id`的意思。表示该命令运行的进程是一个新的`session`。因此其父进程不属于当前终端。
 > 实际上`setsid`运行的进程，其父进程id(ppid)为1(init进程的id)。
 
 ```bash
 setsid python3 ./index.py >/dev/null 2>&1 &
 ```
+
 #### 语法
+
 - `setsid(选项)(参数)`
 > `-c`, `--ctty` 将控制终端设置为当前控制终端
 >
@@ -751,33 +807,41 @@ setsid python3 ./index.py >/dev/null 2>&1 &
 > `-w`, `--wait` 等待程序退出，并使用相同的返回
 
 ### screen
+
 > `Screen`是一款由 GNU 计划开发的用于命令行终端切换的自由软件。
 > 用户可以通过该软件同时连接多个本地或远程的命令行会话，并在其间自由切换。
 > GNU Screen 可以看作是窗口管理器的命令行界面版本。它提供了统一的管理多个会话的界面和相应的功能。 
 
 #### 安装
+
 ```bash
 yum install -y screen
 ```
+
 #### 创建一个screen会话
+
 ```bash
 screen -S 会话名称
 ```
+
 #### 隐藏并保留当前会话窗口
 
 - 按`Ctrl+A`，再按`D`键
 
 #### 列出所有的会话列表
+
 ```bash
 screen -ls
 ```
 
 #### 恢复会话窗口
+
 ```bash
 screen -r 会话名称
 ```
 
 #### 关闭会话窗口
+
 ```bash
 exit
 ```
