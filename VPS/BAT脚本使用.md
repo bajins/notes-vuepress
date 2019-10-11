@@ -212,20 +212,27 @@ start /wait /B "" "%~dp0软件名称" /DEL
 > 此方式完全不会显示`CMD`窗口（包括闪现）
 
 ```visual-basic
-' 运行命令
-runCommand = "D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini"
+' 创建运行命令数组
+commands = Array("D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini")
+
+' 创建运行命令动态数组
+'Set commands = CreateObject("System.Collections.ArrayList")
+'commands.Add "D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini"
+
 ' 启动项键名称
 keyName = "frp"
 
 Set shell = WScript.CreateObject("WScript.Shell")
-' 运行
-shell.Run "cmd /c " & runCommand, 0, false
+
+For Each command In commands
+    ' cmd /c 为运行之后关闭窗口，0为隐藏运行，false为不同步运行
+    shell.Run "cmd /c " & command, 0, false
+Next
 
 ' 注册表项
 item = "HKCU\Software\Microsoft\Windows\CurrentVersion\Run\"
 
 ' 设置开机启动
-' HKEY_CURRENT_USER
 shell.RegWrite item & keyName, WScript.ScriptFullName
 ```
 
