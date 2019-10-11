@@ -972,33 +972,9 @@ ping -f www.woytu.com           #快速ping
 ```
 
 
-### traceroute和tcptraceroute
+### traceroute
 
-> traceroute也是使用ICMP协议，使用了ICMP的时间超过差错差错报告报文以及ICMP终点不可达报文。
-
-> tcptraceroute则是使用tcp协议，现代网络广泛使用防火墙，导致传统路由跟踪工具发出的（ICMP应答（ICMP echo）或UDP）数据包都被过滤掉了，所以无法进行完整的路由跟踪。
-> 尽管如此，许多情况下，防火墙会准许反向（inbound）TCP数据包通过防火墙到达指定端口，这些端口是主机内防火墙背后的一些程序和外界连接用的。
-> 通过发送TCP SYN数据包来代替UDP或者ICMP应答数据包，tcptraceroute可以穿透大多数防火墙。
-
-- traceroute和tcptraceroute原理
-
-> 常规的traceroute和tcptraceroute具有相同的工作原理：
->> 发送一个TTL(Time-To-Live)相当小的包，TTL经过每一跳时会递减。当它减为0时，数据包就被丢弃。    
-
->> 当TTL失效后，看哪个路由器返回一个带有表明的ICMP “time exceeded”    
-
->> 如果返回的路由器就是最终的目的地，停止trace 否则，TTL加1并返回到步骤1
-
-> 两者的不同点：
->> 常规的traceroute使用UDP包或ICMP “Echo”包，这两种包都可能会被防火墙拦截。
-
->> tcptraceroute使用TCP “SYN”包。发送带SYN标志位的数据段是TCP建立连接时进行“三次握手”的第一次握手，只要目标地址是被允许访问的，通常这种包不会被防火墙拦截。
->> 但是防火墙会拦截其他的不是用于建立连接的TCP包。   
-
-> 基于TCP的traceroute拥有更高的访问权限。以amazon.com为例。基于UDP的traceroute停在205.251.248.5，这个地址很可能是某种防火墙。
-> 基于TCP的traceroute访问80端口，这是amazon.com的默认端口，然后进入下一步，最终停在72.21.194.212
-
-#### traceroute的重要选项有
+#### traceroute选项
 
 - `-d` 使用Socket层级的排错功能。
 - `-f` 设置第一个检测数据包的存活数值TTL的大小。
@@ -1033,7 +1009,9 @@ traceroute www.woytu.com
 
 > 备注，使用traceroute返回的每行信息中有三个时间值，那是因为对于每个节点或者路由器，源端发了三次探测请求。
 
-#### tcptraceroute的重要选项有
+### tcptraceroute
+
+#### tcptraceroute选项
 
 - `-i` 指定接口
 
