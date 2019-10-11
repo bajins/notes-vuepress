@@ -477,3 +477,77 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 
 #### 例子：
 [https://initiate.alphacoders.com/download/wallpaper/947194/images2/jpg](https://initiate.alphacoders.com/download/wallpaper/947194/images2/jpg)
+
+
+
+## pexels
+
+* [https://www.pexels.com/zh-cn](https://www.pexels.com/zh-cn)
+
+
+
+
+
+## pixabay
+
+* [https://pixabay.com/zh](https://pixabay.com/zh)
+
+
+
+
+
+
+## visualhunt
+
+* [https://visualhunt.com](https://visualhunt.com)
+
+
+
+
+## cupcake.nilssonlee.se
+
+* [http://cupcake.nilssonlee.se](http://cupcake.nilssonlee.se)
+
+
+
+
+## chamberofcommerce.org
+
+* [https://www.chamberofcommerce.org](https://www.chamberofcommerce.org)
+
+
+
+## stocksnap.io
+
+* [https://stocksnap.io](https://stocksnap.io)
+
+
+## kaboompics.com
+
+* [https://kaboompics.com](https://kaboompics.com)
+
+
+
+## cn.freeimages.com
+
+* [https://cn.freeimages.com](https://cn.freeimages.com)
+
+
+## magdeleine.co
+
+* [https://magdeleine.co](https://magdeleine.co)
+
+
+## www.splitshire.com
+
+* [https://www.splitshire.com](https://www.splitshire.com)
+
+
+
+## www.wallpaperup.com
+
+* [https://www.wallpaperup.com](https://www.wallpaperup.com)
+
+
+
+
