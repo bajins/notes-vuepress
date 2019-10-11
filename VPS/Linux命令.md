@@ -9,8 +9,8 @@
   * [切分字符串取出最后一段](#切分字符串取出最后一段)
   * [过滤多个结果](#过滤多个结果)
 * [定时任务](#定时任务)
-  * [编辑`crontab`文件.](#编辑crontab文件)
-  * [输入定时任务命令.](#输入定时任务命令)
+  * [编辑`crontab`文件](#编辑crontab文件)
+  * [输入定时任务命令](#输入定时任务命令)
 * [进制转换](#进制转换)
 * [服务器之间传输文件](#服务器之间传输文件)
   * [scp](#scp)
@@ -49,6 +49,7 @@
   * [ping](#ping)
   * [traceroute和tcptraceroute](#traceroute和tcptraceroute)
   * [mtr](#mtr)
+
 
 
 
@@ -233,13 +234,13 @@ ls -l | awk "/postfix|dovecot/"
 
 > `crontab`命令常用于Unix和类Unix的操作系统之中，用于设置周期性被执行的指令
 
-### 编辑`crontab`文件.
+### 编辑`crontab`文件
 
 ```bash
 crontab -e
 ```
 
-### 输入定时任务命令.
+### 输入定时任务命令
 
 ```bash
 # 每分钟输出一次当前时间
