@@ -1035,6 +1035,8 @@ function db(){
 
 ### 设置必应壁纸
 
+- [开机自启动可使用vbs脚本](/VPS/BAT脚本使用.md#vbs脚本)
+
 ```batch
 1>1/* ::
 :: -------------------------------------------------------------------
@@ -1045,9 +1047,6 @@ function db(){
 
 
 @echo off
-if "%1" == "h" goto begin
-mshta vbscript:createobject("wscript.shell").run("%~0 h",0)(window.close)&&exit
-:begin
 
 md "%~dp0$testAdmin$" 2>nul
 if not exist "%~dp0$testAdmin$" (
@@ -1363,6 +1362,8 @@ function setWallpaper(imagesPath) {
 
 ### 设置GitHub的Hosts
 
+- [开机自启动可使用vbs脚本](/VPS/BAT脚本使用.md#vbs脚本)
+
 ```batch
 1>1/* ::
 :: -------------------------------------------------------------------
@@ -1373,9 +1374,6 @@ function setWallpaper(imagesPath) {
 
 
 @echo off
-if "%1" == "h" goto begin
-mshta vbscript:createobject("wscript.shell").run("%~0 h",0)(window.close)&&exit
-:begin
 
 md "%~dp0$testAdmin$" 2>nul
 if not exist "%~dp0$testAdmin$" (
