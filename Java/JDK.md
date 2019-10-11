@@ -757,12 +757,7 @@ top -Hp $(pgrep java)
 # TID等同PID
 ps -mp $(pgrep java) -o THREAD,tid,time | sort -rn
 
-# 将线程的PID转换为16进制,大写转换为小写。
-echo "obase=16; PID" | bc
-# 将线程的PID转换为16进制，\n换行
-printf "%x\n" PID
-
-# 打印堆栈异常信息，-A 30显示后30行
+# 打印堆栈异常信息，过滤转换为16进制的PID，-A 30显示后30行
 jstack PID | grep $(printf "%x\n" PID) -A 30
 jstack PID | grep -A 10 $(printf "%x\n" PID)
 
