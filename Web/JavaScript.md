@@ -1,10 +1,11 @@
 # JavaScript
 
 
-
+* [手册](#手册)
 * [CDN](#cdn)
   * [other](#other)
 * [Http](#http)
+  * [XMLHttpRequest](#xmlhttprequest)
 * [NodeJs](#nodejs)
   * [安装](#安装)
   * [npm和yarn镜像](#npm和yarn镜像)
@@ -12,10 +13,12 @@
     * [yarn](#yarn)
     * [npm](#npm)
   * [依赖管理](#依赖管理)
+* [爬虫](#爬虫)
+  * [Puppeteer](#puppeteer)
 
 
 
-
+## 手册
 
 * [浏览器脚本教程](https://www.w3school.com.cn/b.asp)
 

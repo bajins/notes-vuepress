@@ -47,8 +47,10 @@
   * [英文版](#英文版)
 * [路由跟踪](#路由跟踪)
   * [ping](#ping)
-  * [traceroute和tcptraceroute](#traceroute和tcptraceroute)
+  * [traceroute](#traceroute)
+  * [tcptraceroute](#tcptraceroute)
   * [mtr](#mtr)
+
 
 
 
