@@ -1,5 +1,35 @@
 # 各种API
 
+
+
+* [360wallpaper](#360wallpaper)
+  * [获取最近更新的壁纸](#获取最近更新的壁纸)
+  * [获取壁纸类别](#获取壁纸类别)
+  * [获取某类别下的壁纸](#获取某类别下的壁纸)
+  * [按关键字搜索壁纸](#按关键字搜索壁纸)
+  * [获取今日热门搜索](#获取今日热门搜索)
+* [unsplash](#unsplash)
+* [wallhaven.cc](#wallhavencc)
+* [wall.alphacoders.com](#wallalphacoderscom)
+* [pexels](#pexels)
+* [pixabay](#pixabay)
+* [visualhunt](#visualhunt)
+* [cupcake.nilssonlee.se](#cupcakenilssonleese)
+* [chamberofcommerce.org](#chamberofcommerceorg)
+* [stocksnap.io](#stocksnapio)
+* [kaboompics.com](#kaboompicscom)
+* [cn.freeimages.com](#cnfreeimagescom)
+* [magdeleine.co](#magdeleineco)
+* [www.splitshire.com](#wwwsplitshirecom)
+* [www.wallpaperup.com](#wwwwallpaperupcom)
+
+
+
+
+
+
+
+
 ## 360wallpaper
 
 - [获取壁纸类别](#获取壁纸类别)
@@ -8,24 +38,25 @@
 - [获取今日热门搜索](#获取今日热门搜索)
 
 ### 获取最近更新的壁纸
+
 ```
 http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_time&start=【偏移量，从0开始】&count=【加载张数】&from=360chrome  
 ```
 
 
 ### 获取壁纸类别
+
 ```html
 <h2 id="category">获取壁纸类别</h2>
 ```
 
 > url：http://wallpaper.apc.360.cn/index.php?c=WallPaperAndroid&a=getAllCategories
 
-
-
 > url 示例：[`http://wallpaper.apc.360.cn/index.php?c=WallPaperAndroid&a=getAllCategories`](http://wallpaper.apc.360.cn/index.php?c=WallPaperAndroid&a=getAllCategories)
 
 
-#### json 示例：
+- **json示例**
+
 ```json
 	{
     "errno": "0",
@@ -165,7 +196,7 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 }
 ```
 
-##### 解析：
+- **解析**
 
 - `total`：返回数据数量
 - `data`：返回的数据
@@ -178,9 +209,10 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 ```html
 <h2 id="category-images">获取某类别下的壁纸</h2>
 ```
+
 > url：http://wallpaper.apc.360.cn/index.php?c=WallPaperAndroid&a=getAppsByCategory
 
-#### 其他拼接参数：
+- **其他拼接参数**
 
 - `cid`：类别id,类别已知：
 
@@ -220,7 +252,8 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 
 > url 示例：[`http://wallpaper.apc.360.cn/index.php?c=WallPaperAndroid&a=getAppsByCategory&cid=9&start=0&count=99`](http://wallpaper.apc.360.cn/index.php?c=WallPaperAndroid&a=getAppsByCategory&cid=9&start=0&count=99)
 
-#### json 示例：
+- **json示例**
+
 ```json
 	{
     "errno": "0",
@@ -283,7 +316,7 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 ```
 
 
-#### 解析：
+- **解析**
 
 - `total`：返回数据数量
 - `data`：返回的数据
@@ -294,20 +327,23 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 
 
 ### 按关键字搜索壁纸
+
 ```html
 <h2 id="keywords">按关键字搜索壁纸</h2>
 ```
 
 > url：http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=search
 
-#### 其他拼接参数：
+- **其他拼接参数**
+
 - `kw`：关键字
 - `start`：跳过的记录数
 - `count`：返回的数量
 
 > url 示例：[`http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=search&start=0&count=99&kw=%E6%AF%95%E4%B8%9A&start=0&count=99`](http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=search&start=0&count=99&kw=%E6%AF%95%E4%B8%9A&start=0&count=99)
 
-#### json 示例：
+- **json示例**
+
 ```json
 	{
     "errno": "0",
@@ -366,7 +402,7 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 ```
 
 
-#### 解析：
+- __解析__
 
 - `total`：返回数据数量
 - `data`：返回的数据
@@ -384,7 +420,8 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 > url：http://openbox.mobilem.360.cn/html/api/wallpaperhot.html
 
 
-#### json 示例：
+- **json示例**
+
 ```json
 	{
     "error": 0,
@@ -413,7 +450,7 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 }
 ```
 
-#### 解析：
+- **解析**
 
 - `total`：返回数据数量
 - `data`：返回的数据
@@ -421,41 +458,51 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 
 ## unsplash
    
-### API `https://unsplash.com/documentation#photos`
+- API `https://unsplash.com/documentation#photos`
 
 > 参数per_page为获取数量，最大值30
 
-### 获取最新
+- 获取最新
+
 > https://unsplash.com/napi/photos?page=页数&per_page=30&order_by=latest
 
-### 图片下载
+- 图片下载
+
 > https://unsplash.com/photos/图片ID/download
 
-### 获取集合（也就是标签）下的图片
+- 获取集合（也就是标签）下的图片
+
 > https://unsplash.com/napi/search/photos?query=night&xp=search-cervantes-v1%3Aexperiment&per_page=30&page=页数
 
-### 所有壁纸
+- 所有壁纸
+
 > [https://unsplash.com/napi/collections/1065976?page=1&per_page=30&order_by=latest](https://unsplash.com/napi/collections/1065976?page=1&per_page=30&order_by=latest)
 
-### 桌面壁纸
+- 桌面壁纸
+
 > [https://unsplash.com/napi/collections/1065396/photos?page=1&per_page=30&order_by=latest](https://unsplash.com/napi/collections/1065396/photos?page=1&per_page=30&order_by=latest)
 
 
 ## wallhaven.cc
-### 搜索：
+
+- 搜索
+
 > https://wallhaven.cc/search?q=id%3A标签的ID&page=页数
 
-#### 例子：
+- 例子
+
 > 搜索女人，第一页：[https://wallhaven.cc/search?q=id%3A222&page=1](https://wallhaven.cc/search?q=id%3A222&page=1)
 
 > 搜索亚洲，第一页：[https://wallhaven.cc/search?q=id%3A449&page=1](https://wallhaven.cc/search?q=id%3A449&page=1)
 
-### 保存：
+- 保存
+
 > https://wallhaven.cc/wallpaper/图片编号
 
 > https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-图片编号.jpg
 
-#### 例子：
+- 例子
+
 [https://wallhaven.cc/wallpaper/694633](https://wallhaven.cc/wallpaper/694633)
 
 [https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-694633.jpg](https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-694633.jpg)
@@ -463,19 +510,24 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 
 
 ## wall.alphacoders.com
-### 搜索：
+
+- 搜索
+
 > https://wall.alphacoders.com/by_sub_category.php?id=169040&name=名称&filter=分辨率过滤&page=页数
 
-#### 例子：
+- 例子
+
 > 搜索亚洲，4K高清，第一页：[https://wall.alphacoders.com/by_sub_category.php?id=169040&name=Asian&filter=4K+Ultra+HD&page=1](https://wall.alphacoders.com/by_sub_category.php?id=169040&name=Asian&filter=4K+Ultra+HD&page=1)
 
 > 搜索女性，4K高清，第一页：[https://wall.alphacoders.com/by_category.php?id=33&name=Women&filter=4K+Ultra+HD&page=1](https://wall.alphacoders.com/by_category.php?id=33&name=Women&filter=4K+Ultra+HD&page=1)
 
 
-### 保存：
+- 保存
+
 > https://initiate.alphacoders.com/download/wallpaper/图片编号/images2/jpg
 
-#### 例子：
+- 例子
+
 [https://initiate.alphacoders.com/download/wallpaper/947194/images2/jpg](https://initiate.alphacoders.com/download/wallpaper/947194/images2/jpg)
 
 
