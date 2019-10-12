@@ -96,6 +96,7 @@ ___
 
 ### 多行文本
 
+```html
 <details>
 <summary>各模块的artifactId，请点击此处展开查看</summary>
   
@@ -103,6 +104,25 @@ ___
   - 我好
   - 挺好
 </details>
+```
+
+<details>
+<summary>各模块的artifactId，请点击此处展开查看</summary>
+  
+  - 你好
+  - 我好
+  - 挺好
+</details>
+
+```html
+<details>
+<summary>各模块的artifactId，请点击此处展开查看</summary>
+  
+1. 你好
+2. 我好
+3. 挺好
+</details>
+```
 
 <details>
 <summary>各模块的artifactId，请点击此处展开查看</summary>
