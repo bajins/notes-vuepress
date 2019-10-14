@@ -236,7 +236,7 @@ function request(method, url, dataType, data, contentType) {
                 // 0异步、1同步
                 XMLHTTP.Open(method, url, 0);
             } else {
-                XMLHTTP.Open(method, url + "?" + datapost, 0);
+                XMLHTTP.Open(method, url + "?" + params, 0);
             }
             XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send();
