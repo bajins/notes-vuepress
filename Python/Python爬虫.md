@@ -53,16 +53,16 @@
 
 | locator                                    	| 匹配                                                                      	|
 |-----------------------------------------	|---------------------------------------------------------------------------	|
-| css=divcss=div.formdiv                  	| \<div class="formdiv">                                                     	|
-| css=#recordlistcss=ul#recordlist        	| \<ul id="recordlist">                                                      	|
-| css=div.subdiv pcss=div.subdiv > ul > p 	| \<p>Heading\</p>                                                            	|
-| css=form + div                          	| \<div class="subdiv">                                                      	|
-| css=p + licss=p ~ li                    	| 二者定位到的都是\<li>Cat\</li>但是storeCssCount的时候，前者得到1，后者得到4 	|
-| css=form > input[name=username]         	| \<input name="username">                                                   	|
-| css=input[name$=id][value^=SYS]         	| \<input value="SYS123456" name="vid" type="hidden">                        	|
-| css=input:not([name$=id][value^=SYS])   	| \<input name="username" type="text">\</input>                               	|
-| css=li:contains('Goa')                  	| \<li>Goat\</li>                                                             	|
-| css=li:not(contains('Goa'))             	| \<li>Cat\</li>                                                              	|
+| css=divcss=div.formdiv                  	| `<div class="formdiv">`                                                     	|
+| css=#recordlistcss=ul#recordlist        	| `<ul id="recordlist">`                                                      	|
+| css=div.subdiv pcss=div.subdiv > ul > p 	| `<p>Heading</p>`                                                            	|
+| css=form + div                          	| `<div class="subdiv">`                                                      	|
+| css=p + licss=p ~ li                    	| 二者定位到的都是`<li>Cat</li>`但是storeCssCount的时候，前者得到1，后者得到4 	|
+| css=form > input[name=username]         	| `<input name="username">`                                                   	|
+| css=input[name$=id][value^=SYS]         	| `<input value="SYS123456" name="vid" type="hidden">`                        	|
+| css=input:not([name$=id][value^=SYS])   	| `<input name="username" type="text"></input>`                               	|
+| css=li:contains('Goa')                  	| `<li>Goat</li>`                                                             	|
+| css=li:not(contains('Goa'))             	| `<li>Cat</li>`                                                              	|
 
 
 
@@ -85,19 +85,19 @@
 
 | locator                                                         	| 匹配                                 	|
 |-----------------------------------------------------------------	|--------------------------------------	|
-| css=ul > li:nth(0)                                              	| \<li>Cat\</li>                         	|
-| css=ul > li:first                                               	| \<li>Cat\</li>                         	|
-| css=ul > li:lt(2)                                               	| \<li>Cat\</li>                         	|
-| css=ul > *:nth(0)css=ul > :nth(0)                               	| \<p>Heading\</p>                       	|
-| css=ul > :first                                                 	| \<p>Heading\</p>                       	|
-| css=ul > :even                                                  	| \<p>Heading\</p>                       	|
-| css=ul > *:lastcss=ul > li:last                                 	| \<li>Goat\</li>                        	|
-| css=ul > li:gt(2)                                               	| \<li>Goat\</li>                        	|
+| css=ul > li:nth(0)                                              	| `<li>Cat</li>`                         	|
+| css=ul > li:first                                               	| `<li>Cat</li>`                         	|
+| css=ul > li:lt(2)                                               	| `<li>Cat</li>`                         	|
+| css=ul > *:nth(0)css=ul > :nth(0)                               	| `<p>Heading</p>`                       	|
+| css=ul > :first                                                 	| `<p>Heading</p>`                       	|
+| css=ul > :even                                                  	| `<p>Heading</p>`                       	|
+| css=ul > *:lastcss=ul > li:last                                 	| `<li>Goat</li>`                        	|
+| css=ul > li:gt(2)                                               	| `<li>Goat</li>`                        	|
 | css=ul > li:even                                                	| Cat, Car                             	|
 | css=ul > li:odd                                                 	| Dog, Goat                            	|
 | css=ul > p:odd                                                  	| [error] not found                    	|
 | css=ul > li:only-childcss=ul > :only-childcss=ul > *:only-child 	| [error] not found (ul没有only-child) 	|
-| css=div.subdiv > :only-child                                    	| \<ul id="recordlist">… … … …\</ul>     	|
+| css=div.subdiv > :only-child                                    	| `<ul id="recordlist">… … … …</ul>`     	|
 
 
 ### `HeadlessBrowser`
@@ -290,5 +290,3 @@ chromedriver --version
 ```bash
 ps -efww|grep LOCAL=chromedriver|grep -v grep|cut -c 9-15|xargs kill -9
 ```
-
-## 
