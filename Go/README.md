@@ -1,17 +1,36 @@
 # Golang
 
 
+* [手册](#手册)
+* [框架](#框架)
+  * [WEB](#web)
+  * [other](#other)
+* [代理](#代理)
+
+
+
+
+## 手册
+
 * [官网](https://golang.google.cn/dl/)
+
 * [Go 开发者路线图](https://github.com/Quorafind/golang-developer-roadmap-cn)
+
 * [Go 学习之路](https://github.com/developer-learning/learning-golang)
+
 * [Go 标准库中文文档](http://cngolib.com/)
+
 * [Go基本类型说明](https://golangbot.com/types/)
 
 * [Go语言四十二章经](https://www.bookstack.cn/read/go42/SUMMARY.md)
 
 * [Go 语言中文开源图书、资料或文档](https://books.studygolang.com)
 
+
+
+
 ## 框架
+
 ### WEB
 
 [gin](https://gin-gonic.com/zh-cn/docs/introduction/)
@@ -23,6 +42,7 @@
 [http://go-echo.org/](http://go-echo.org/)
 
 [Iris](https://studyiris.com/doc/)
+
 
 ### other
 
@@ -47,8 +67,14 @@
 
 [gpmgo](https://github.com/gpmgo)
 
+
+
 ## 代理
+
+
 [aliyun](https://mirrors.aliyun.com/goproxy/)
+
+[https://mirrors.cloud.tencent.com/help/go.html](https://mirrors.cloud.tencent.com/help/go.html)
 
 [goproxy.io](https://goproxy.io)
 
@@ -59,20 +85,3 @@
 [https://gopm.io/](https://gopm.io)
 
 [goproxy.cn](https://goproxy.cn)
-
-
-
-## 安装最新环境
-```bash
-# 到官网下载最新版并解压 https://golang.google.cn/dl/
-# 查看当前路径
-pwd
-# 添加环境变量
-vi /etc/profile
-# 在末尾添加以下命令
-export GOROOT=这里为go文件夹路径
-export PATH=$PATH:$GOROOT/bin
-
-# 刷新一下
-source /etc/profile
-```
