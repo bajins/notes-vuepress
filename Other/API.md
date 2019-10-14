@@ -493,9 +493,8 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 
 - 保存
 
-> https://wallhaven.cc/wallpaper/图片编号
+> https://w.wallhaven.cc/full/图片编号前两位/wallhaven-图片编号前两位.jpg
 
-> https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-图片编号.jpg
 
 - 例子
 
