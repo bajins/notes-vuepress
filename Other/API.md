@@ -479,9 +479,12 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 > [https://unsplash.com/napi/collections/1065396/photos?page=1&per_page=30&order_by=latest](https://unsplash.com/napi/collections/1065396/photos?page=1&per_page=30&order_by=latest)
 
 
+
+
+
 ## wallhaven.cc
 
-- 搜索
+- **搜索**
 
 > https://wallhaven.cc/search?q=id%3A标签的ID&page=页数
 
@@ -491,7 +494,18 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 
 > 搜索亚洲，第一页：[https://wallhaven.cc/search?q=id%3A449&page=1](https://wallhaven.cc/search?q=id%3A449&page=1)
 
-- 保存
+
+- **最新**
+
+> https://wallhaven.cc/latest?page=2
+
+
+- **标签**
+
+> https://wallhaven.cc/tags
+
+
+- **保存**
 
 > https://w.wallhaven.cc/full/图片编号前两位/wallhaven-图片编号前两位.jpg
 
@@ -501,6 +515,9 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 [https://wallhaven.cc/wallpaper/694633](https://wallhaven.cc/wallpaper/694633)
 
 [https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-694633.jpg](https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-694633.jpg)
+
+
+
 
 
 
