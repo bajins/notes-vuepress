@@ -490,7 +490,7 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 
 - 例子
 
-> 搜索女人，第一页：[https://wallhaven.cc/search?q=id%3A222&page=1](https://wallhaven.cc/search?q=id%3A222&page=1)
+> 搜索女性，第一页：[https://wallhaven.cc/search?q=id%3A222&page=1](https://wallhaven.cc/search?q=id%3A222&page=1)
 
 > 搜索亚洲，第一页：[https://wallhaven.cc/search?q=id%3A449&page=1](https://wallhaven.cc/search?q=id%3A449&page=1)
 
@@ -523,7 +523,7 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 
 ## wall.alphacoders.com
 
-- 搜索
+- **搜索**
 
 > https://wall.alphacoders.com/by_sub_category.php?id=169040&name=名称&filter=分辨率过滤&page=页数
 
@@ -534,7 +534,7 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 > 搜索女性，4K高清，第一页：[https://wall.alphacoders.com/by_category.php?id=33&name=Women&filter=4K+Ultra+HD&page=1](https://wall.alphacoders.com/by_category.php?id=33&name=Women&filter=4K+Ultra+HD&page=1)
 
 
-- 保存
+- **保存**
 
 > https://initiate.alphacoders.com/download/wallpaper/图片编号/images2/jpg
 
