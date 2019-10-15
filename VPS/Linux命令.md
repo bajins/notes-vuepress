@@ -640,10 +640,10 @@ find 目录 -type f -mtime +天数 -exec rm -rf {} \;
 find 目录 -type f -mtime +天数 | xargs -I {} rm -rf {}
 
 
-# 删除目录下N天前文件名包含tar的文件
+# 删除目录下N天前文件名包含tar的文件或目录
 find 目录 -mtime +天数 -name "*.tar.*" -exec rm -rf {} \;
 
-# 删除目录下N天前文件名为tar.gz后缀的文件
+# 删除目录下N天前文件名为tar.gz后缀的文件或目录
 find 目录 -mtime +天数 -name "*.tar.gz" | xargs -I {} rm -rf {}
 ```
 
