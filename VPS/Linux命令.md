@@ -20,6 +20,7 @@
   * [列出目录](#列出目录)
   * [文件查找](#文件查找)
   * [批量替换文件内容](#批量替换文件内容)
+  * [删除文件](#删除文件)
   * [设置文件格式](#设置文件格式)
   * [列出文件](#列出文件)
   * [显示当前文件夹大小](#显示当前文件夹大小)
@@ -622,6 +623,33 @@ grep "原字符串" * -R | awk -F: '{print $1}' | sort | uniq | xargs sed -i 's/
 ```bash
 grep -rl "XXX" --exclude="*.sql" ./* | wc -l
 ```
+
+### 删除文件
+
+```bash
+# 统计目录下N天前的文件数量
+find 目录 -type f -mtime +天数 | wc -l
+
+# 列出目录下N天前的文件
+find 目录 -type f -mtime +天数 -exec ls -l {} \;
+
+# 删除目录下N天前的文件
+find 目录 -type f -mtime +天数 -exec rm -rf {} \;
+
+# 删除目录下N天前的文件
+find 目录 -type f -mtime +天数 | xargs -I {} rm -rf {}
+
+
+# 删除目录下N天前文件名包含tar的文件
+find 目录 -mtime +天数 -name "*.tar.*" -exec rm -rf {} \;
+
+# 删除目录下N天前文件名为tar.gz后缀的文件
+find 目录 -mtime +天数 -name "*.tar.gz" | xargs -I {} rm -rf {}
+```
+
+
+
+
 
 ### 设置文件格式
 
