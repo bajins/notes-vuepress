@@ -77,7 +77,7 @@ goto :eof
 - [开机自启动可使用vbs脚本](/VPS/BAT命令.md#vbs脚本)
 
 ```batch
-1>1/* ::
+1 > 1/* ::
 :: -------------------------------------------------------------------
 ::                          自动设置Bing壁纸
 ::                     by https://www.bajins.com
@@ -383,15 +383,29 @@ function setWallpaper(imagesPath) {
     // 设置壁纸全路径
     shell.RegWrite("HKCU\\Control Panel\\Desktop\\Wallpaper", imagesPath);
     shell.RegWrite("HKCU\\Control Panel\\Desktop\\WallpaperStyle", "2", "REG_DWORD");
-    var shadowReg = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\ListviewShadow";
+
+    var shadowReg = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion";
+    shadowReg = shadowReg + "\\Explorer\\Advanced\\ListviewShadow";
     shell.RegWrite(shadowReg, "1", "REG_DWORD");
 
     // 如果桌面图标未透明，需要刷新组策略
     //shell.Run("gpupdate /force", 0);
+
     // 上面已经通过注册表设置了壁纸的参数，调用Windows api SystemParametersInfo刷新配置
-    shell.Run("RunDll32 USER32,SystemParametersInfo SPI_SETDESKWALLPAPER 0 '' SPIF_UPDATEINIFILE");
-    // 实时刷新桌面
-    shell.Run("RunDll32 USER32,UpdatePerUserSystemParameters");
+    var spi = "RunDll32 USER32,SystemParametersInfo SPI_SETDESKWALLPAPER 0 \"";
+    spi = spi + imagesPath + "\" SPIF_SENDWININICHANGE+SPIF_UPDATEINIFILE";
+    shell.Run(spi);
+
+    // 结束资源管理器进程
+    //shell.Run("taskkill /f /im explorer.exe");
+
+    for (var i = 0; i < 10; i++) {
+        // 实时刷新桌面
+        shell.Run("RunDll32 USER32,UpdatePerUserSystemParameters");
+    }
+
+    // 启动资源管理器
+    //shell.Run("start explorer.exe");
 }
 
 /**

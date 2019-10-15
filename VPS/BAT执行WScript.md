@@ -846,26 +846,35 @@ function imageTransform(imagePath, format) {
  * @param imagesPath 图片全路径
  */
 function setWallpaper(imagesPath) {
-    var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // 如果文件不存在,就说明没有转换成功
-    if (!fso.FileExists(imagePath)) {
-        throw new Error("图片不存在或路径错误！");
-    }
     var shell = new ActiveXObject("WScript.shell");
-    // 键值"0"表示"居中"，"1"表示"平铺"
+    // HKEY_CURRENT_USER
     shell.RegWrite("HKCU\\Control Panel\\Desktop\\TileWallpaper", "0");
     // 设置壁纸全路径
     shell.RegWrite("HKCU\\Control Panel\\Desktop\\Wallpaper", imagesPath);
     shell.RegWrite("HKCU\\Control Panel\\Desktop\\WallpaperStyle", "2", "REG_DWORD");
-    var shadowReg = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\ListviewShadow";
+
+    var shadowReg = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion";
+    shadowReg = shadowReg + "\\Explorer\\Advanced\\ListviewShadow";
     shell.RegWrite(shadowReg, "1", "REG_DWORD");
 
     // 如果桌面图标未透明，需要刷新组策略
-    shell.Run("gpupdate /force", 0);
+    //shell.Run("gpupdate /force", 0);
+
     // 上面已经通过注册表设置了壁纸的参数，调用Windows api SystemParametersInfo刷新配置
-    shell.Run("RunDll32 USER32,SystemParametersInfo SPI_SETDESKWALLPAPER 0 " + imagesPath + " SPIF_UPDATEINIFILE");
-    // 实时刷新桌面
-    shell.Run("RunDll32 USER32.DLL,UpdatePerUserSystemParameters");
+    var spi = "RunDll32 USER32,SystemParametersInfo SPI_SETDESKWALLPAPER 0 \"";
+    spi = spi + imagesPath + "\" SPIF_SENDWININICHANGE+SPIF_UPDATEINIFILE";
+    shell.Run(spi);
+
+    // 结束资源管理器进程
+    //shell.Run("taskkill /f /im explorer.exe");
+
+    for (var i = 0; i < 10; i++) {
+        // 实时刷新桌面
+        shell.Run("RunDll32 USER32,UpdatePerUserSystemParameters");
+    }
+
+    // 启动资源管理器
+    //shell.Run("start explorer.exe");
 }
 ```
 
