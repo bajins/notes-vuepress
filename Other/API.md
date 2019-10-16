@@ -10,16 +10,17 @@
   * [获取今日热门搜索](#获取今日热门搜索)
 * [unsplash](#unsplash)
 * [wallhaven.cc](#wallhavencc)
-* [alphacoders](#alphacoders)
 * [pexels](#pexels)
 * [pixabay](#pixabay)
 * [visualhunt](#visualhunt)
 * [stocksnap.io](#stocksnapio)
 * [kaboompics](#kaboompics)
 * [wallpaperup](#wallpaperup)
+* [alphacoders](#alphacoders)
 * [splitshire](#splitshire)
 * [magdeleine.co](#magdeleineco)
 * [cupcake.nilssonlee.se](#cupcakenilssonleese)
+
 
 
 
@@ -520,32 +521,35 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 
 
 
-## alphacoders
+## pexels
 
-- **搜索**
+* [https://www.pexels.com/zh-cn](https://www.pexels.com/zh-cn)
 
-> https://wall.alphacoders.com/by_sub_category.php?id=169040&name=名称&filter=分辨率过滤&page=页数
+- **获取最新**
 
-- 例子
+- html
 
-> 搜索亚洲，4K高清，第一页：[https://wall.alphacoders.com/by_sub_category.php?id=169040&name=Asian&filter=4K+Ultra+HD&page=1](https://wall.alphacoders.com/by_sub_category.php?id=169040&name=Asian&filter=4K+Ultra+HD&page=1)
+> https://www.pexels.com/zh-cn/new-photos/?page=1
 
-> 搜索女性，4K高清，第一页：[https://wall.alphacoders.com/by_category.php?id=33&name=Women&filter=4K+Ultra+HD&page=1](https://wall.alphacoders.com/by_category.php?id=33&name=Women&filter=4K+Ultra+HD&page=1)
+> https://www.pexels.com/zh-cn/new-photos/?format=html&page=1
+
+- js
+
+> https://www.pexels.com/zh-cn/new-photos/?format=js&page=1
+
+> `seed`参数值需要从js中获取
+>
+> https://www.pexels.com/zh-cn/new-photos/?format=js&seed=2019-10-16+06:03:11+UTC&page=1&type=
 
 
 - **保存**
 
-> https://initiate.alphacoders.com/download/wallpaper/图片编号/images2/jpg
+> https://www.pexels.com/photo/图片编号/download/
+>
+> 此链接也是返回下面的链接进行下载文件，请看`Response Headers`中的`location`参数
 
-- 例子
-
-[https://initiate.alphacoders.com/download/wallpaper/947194/images2/jpg](https://initiate.alphacoders.com/download/wallpaper/947194/images2/jpg)
-
-
-
-## pexels
-
-* [https://www.pexels.com/zh-cn](https://www.pexels.com/zh-cn)
+> https://images.pexels.com/photos/图片编号/pexels-photo-图片编号.jpeg?cs=srgb&dl=bright-close-up-colorful-图片编号.jpg&fm=jpg
+>> 参数`dl`的值为`bright-close-up-colorful`开头就代表下载
 
 
 
@@ -587,6 +591,41 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 ## wallpaperup
 
 * [https://www.wallpaperup.com](https://www.wallpaperup.com)
+
+
+
+
+
+
+
+## alphacoders
+
+- **搜索**
+
+> https://wall.alphacoders.com/by_sub_category.php?id=169040&name=名称&filter=分辨率过滤&page=页数
+
+- 例子
+
+> 搜索亚洲，4K高清，第一页：[https://wall.alphacoders.com/by_sub_category.php?id=169040&name=Asian&filter=4K+Ultra+HD&page=1](https://wall.alphacoders.com/by_sub_category.php?id=169040&name=Asian&filter=4K+Ultra+HD&page=1)
+
+> 搜索女性，4K高清，第一页：[https://wall.alphacoders.com/by_category.php?id=33&name=Women&filter=4K+Ultra+HD&page=1](https://wall.alphacoders.com/by_category.php?id=33&name=Women&filter=4K+Ultra+HD&page=1)
+
+
+- **精选**
+
+> https://wall.alphacoders.com/featured.php?page=1
+
+
+
+- **保存**
+
+> https://initiate.alphacoders.com/download/wallpaper/图片编号/images2/jpg
+
+- 例子
+
+[https://initiate.alphacoders.com/download/wallpaper/947194/images2/jpg](https://initiate.alphacoders.com/download/wallpaper/947194/images2/jpg)
+
+
 
 
 
