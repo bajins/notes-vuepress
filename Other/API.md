@@ -1,4 +1,4 @@
-# 各种API
+# API
 
 
 
@@ -10,18 +10,17 @@
   * [获取今日热门搜索](#获取今日热门搜索)
 * [unsplash](#unsplash)
 * [wallhaven.cc](#wallhavencc)
-* [wall.alphacoders.com](#wallalphacoderscom)
+* [alphacoders](#alphacoders)
 * [pexels](#pexels)
 * [pixabay](#pixabay)
 * [visualhunt](#visualhunt)
-* [cupcake.nilssonlee.se](#cupcakenilssonleese)
-* [chamberofcommerce.org](#chamberofcommerceorg)
 * [stocksnap.io](#stocksnapio)
-* [kaboompics.com](#kaboompicscom)
-* [cn.freeimages.com](#cnfreeimagescom)
+* [kaboompics](#kaboompics)
+* [wallpaperup](#wallpaperup)
+* [splitshire](#splitshire)
 * [magdeleine.co](#magdeleineco)
-* [www.splitshire.com](#wwwsplitshirecom)
-* [www.wallpaperup.com](#wwwwallpaperupcom)
+* [cupcake.nilssonlee.se](#cupcakenilssonleese)
+
 
 
 
@@ -521,7 +520,7 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 
 
 
-## wall.alphacoders.com
+## alphacoders
 
 - **搜索**
 
@@ -568,33 +567,35 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 
 
 
-## cupcake.nilssonlee.se
-
-* [http://cupcake.nilssonlee.se](http://cupcake.nilssonlee.se)
-
-
-
-
-## chamberofcommerce.org
-
-* [https://www.chamberofcommerce.org](https://www.chamberofcommerce.org)
-
-
 
 ## stocksnap.io
 
 * [https://stocksnap.io](https://stocksnap.io)
 
 
-## kaboompics.com
+
+
+
+## kaboompics
 
 * [https://kaboompics.com](https://kaboompics.com)
 
 
 
-## cn.freeimages.com
 
-* [https://cn.freeimages.com](https://cn.freeimages.com)
+
+## wallpaperup
+
+* [https://www.wallpaperup.com](https://www.wallpaperup.com)
+
+
+
+
+## splitshire
+
+* [https://www.splitshire.com](https://www.splitshire.com)
+
+
 
 
 ## magdeleine.co
@@ -602,16 +603,11 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 * [https://magdeleine.co](https://magdeleine.co)
 
 
-## www.splitshire.com
-
-* [https://www.splitshire.com](https://www.splitshire.com)
 
 
+## cupcake.nilssonlee.se
 
-## www.wallpaperup.com
-
-* [https://www.wallpaperup.com](https://www.wallpaperup.com)
-
+* [http://cupcake.nilssonlee.se](http://cupcake.nilssonlee.se)
 
 
 
