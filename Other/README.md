@@ -1,5 +1,12 @@
 # Other
 
+
+
+## flag
+
+* [Google账号数据迁移指南](https://mabutou.me/archives/266)
+
+
 * [饭饭的个人主页](https://github.com/noisky/Homepage)
 
 
