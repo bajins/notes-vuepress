@@ -159,7 +159,7 @@
 |---------------|----------------------------------------------------------------|
 | [jvisualvm.exe](https://github.com/oracle/visualvm/releases) | 一个图形化的Java虚拟机。从OracleJDK9开始，不再包含。 |
 | jconsole.exe  | java监视台和管理控制台                                                  |
-| jps.exe       | JVM Process Status进程状态工具。列出目标系统的HotSpot JJVM                   |
+| jps.exe       | JVM Process Status进程状态工具。列出目标系统的HotSpot JVM                   |
 | jstat.exe     | 按照命令行的具体要求记录和收集一个JVM的性能数据                                      |
 | jstatd.exe    | JVM jstat 的守护进程                                                |
 | jmc.exe       | Java任务控制工具(Java Mission Control)，主要用于HotSpot JVM的生产时间监测、分析、诊断。从OracleJDK9开始，不再包含。 |
