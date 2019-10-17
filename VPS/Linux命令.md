@@ -280,11 +280,41 @@ printf "%x\n" 值
 ## 进程与线程
 
 
-- **查看系统允许的最大线程数**
+- **查看系统进程和线程限制**
+
+
+- 查看系统允许的最大线程数
 
 ```bash
 ulimit -a | grep processes
+ulimit -u
 ```
+
+- 系统支持的最大线程数
+
+> 操作系统线程ID的最大值
+
+```bash
+cat /proc/sys/kernel/pid_max
+```
+
+- 内核支持的最大线程数
+
+```bash
+sysctl kernel.pid_max
+```
+
+> 修改值（临时）：`sysctl -w kernel.pid_max=值`
+
+> 修改值（永久）：`echo 'kernel.pid_max=值' >>/etc/sysctl.conf`
+
+
+- 单个进程可创建的线程数
+
+```bash
+cat /proc/sys/vm/max_map_count
+```
+
 
 
 
