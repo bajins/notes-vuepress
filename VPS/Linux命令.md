@@ -626,6 +626,9 @@ grep -rl "XXX" --exclude="*.sql" ./* | wc -l
 
 ### 删除文件
 
+
+- **删除指定时间前的文件**
+
 ```bash
 # 统计目录下N天前的文件数量
 find 目录 -type f -mtime +天数 | wc -l
@@ -648,6 +651,42 @@ find 目录 -mtime +天数 -name "*.tar.gz" | xargs -I {} rm -rf {}
 ```
 
 
+- **删除指定大小的文件**
+
+
+> `-lt 50` 删除小于50KB的文件
+>
+> `-gt 50` 删除大于50KB的文件
+
+```bash
+for file in `ls ./`; do size=`du $file | awk '{print \$1}'`; [ $size -lt 50 ] && rm $file; done
+```
+
+
+> `-size 1k` 删除1KB占用空间的文件
+>
+> `-size +100k` 删除大于100KB占用空间的文件
+>
+> `-size -1k` 删除小于1KB占用空间的文件
+
+```bash
+find 目录 -size 大小 -exec rm -rf {} \;
+find 目录 -size 大小 | xargs -n 1 rm -f
+```
+
+
+> `-size 1024c` 删除1k大小的文件
+>
+> `-size +1024c` 删除大于1k大小的文件
+>
+> `-size -1024c` 删除小于1k大小的文件
+
+> 注意：不要用`-size 1k`，这个得到的是占用空间1k，不是文件大小1k）
+
+```bash
+find 目录 -name "*" -type f -size 1024c -exec rm -rf {} \;
+find 目录 -name "*" -type f -size 1024c | xargs -n 1 rm -f
+```
 
 
 
