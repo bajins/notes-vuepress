@@ -669,24 +669,17 @@ for file in `ls ./`; do size=`du $file | awk '{print \$1}'`; [ $size -lt 50 ] &&
 >
 > `-size -1k` 删除小于1KB占用空间的文件
 
-```bash
-find 目录 -size 大小 -exec rm -rf {} \;
-find 目录 -size 大小 | xargs -n 1 rm -f
-```
-
-
 > `-size 1024c` 删除1k大小的文件
 >
 > `-size +1024c` 删除大于1k大小的文件
 >
 > `-size -1024c` 删除小于1k大小的文件
 
-> 注意：不要用`-size 1k`，这个得到的是占用空间1k，不是文件大小1k）
-
 ```bash
-find 目录 -name "*" -type f -size 1024c -exec rm -rf {} \;
-find 目录 -name "*" -type f -size 1024c | xargs -n 1 rm -f
+find 目录 -type f -size 大小 -exec rm -rf {} \;
+find 目录 -type f -size 大小 | xargs -n 1 rm -f
 ```
+
 
 
 
