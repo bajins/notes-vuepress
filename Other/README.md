@@ -4,9 +4,6 @@
 
 ## flag
 
-* [Google账号数据迁移指南](https://mabutou.me/archives/266)
-
-
 * [饭饭的个人主页](https://github.com/noisky/Homepage)
 
 
@@ -57,3 +54,11 @@ npm start
 - 可以通过修改`app/config.json`中的`listen.port`修改端口
 
 
+
+## Google账号数据迁移
+
+* [Google账号数据迁移指南](https://mabutou.me/archives/266)
+
+
+
+![](/images/谷歌账号数据迁移.png)
