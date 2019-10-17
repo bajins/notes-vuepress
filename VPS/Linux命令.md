@@ -12,6 +12,7 @@
   * [编辑`crontab`文件](#编辑crontab文件)
   * [输入定时任务命令](#输入定时任务命令)
 * [进制转换](#进制转换)
+* [进程与线程](#进程与线程)
 * [服务器之间传输文件](#服务器之间传输文件)
   * [scp](#scp)
   * [rsync](#rsync)
@@ -275,6 +276,75 @@ echo "obase=16; 值" | bc
 printf "%x\n" 值
 ```
 
+
+## 进程与线程
+
+
+- **查看系统允许的最大线程数**
+
+```bash
+ulimit -a | grep processes
+```
+
+
+
+- **查看进程的信息**
+
+```bash
+cat /proc/进程PID/status
+```
+
+- **查看线程树**
+
+> 如果不跟进程PID就查看系统中所有的进行线程树
+
+```bash
+pstree -p 进程PID
+```
+
+- **查看进程中的线程**
+
+> `top -p 进程PID` 再按`Shift+h`（也就是大写`H`）
+
+> 或者直接输入`top -bH -d 3 -p 进程PID`
+
+
+> `top -H` 加上`-H`这个选项启动`top`，一行显示一个线程。否则，它一行显示一个进程。
+
+```bash
+top -H -p 进程PID
+top -Hp 进程PID
+```
+
+
+- **查看线程列表**
+
+> 查看所有存在的线程
+
+```bash
+ps xH
+```
+
+- **查看线程数量**
+
+```bash
+pstree -p | wc -l
+
+pstree -p 进程PID | wc -l
+
+ps -hH -p 进程PID | wc -l
+
+ps -mp 进程PID -o THREAD,tid,time | wc -l
+
+ls /proc/进程PID/task | wc -l
+```
+
+
+- **查看进程下的线程状态**
+
+```bash
+ps -mp 进程PID -o THREAD,tid,time | sort -rn
+```
 
 
 
