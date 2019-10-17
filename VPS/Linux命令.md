@@ -777,7 +777,7 @@ for file in `ls ./`; do size=`du $file | awk '{print \$1}'`; [ $size -lt 50 ] &&
 
 ```bash
 find 目录 -type f -size 大小 -exec rm -rf {} \;
-find 目录 -type f -size 大小 | xargs -n 1 rm -f
+find 目录 -type f -size 大小 | xargs -n 1 rm -rf
 ```
 
 
