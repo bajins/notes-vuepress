@@ -1,19 +1,10 @@
 # CentOS7挂载网盘
 
 
+* [flag](#flag)
 * [挂载OneDrive](#挂载onedrive)
   * [获取`access_token`](#获取access_token)
-    * [下载Windows版`Rclone`](#下载windows版rclone)
-    * [执行命令](#执行命令)
-    * [查看`access_token`](#查看access_token)
   * [操作CentOS7](#操作centos7)
-    * [安装基础工具](#安装基础工具)
-    * [安装`Rclone`](#安装rclone)
-    * [配置](#配置)
-    * [挂载](#挂载)
-    * [查看是否挂载成功](#查看是否挂载成功)
-    * [设置自启动](#设置自启动)
-    * [卸载](#卸载)
 * [`Rclone`使用命令](#rclone使用命令)
   * [`rclone copy`](#rclone-copy)
   * [`rclone sync`](#rclone-sync)
@@ -31,25 +22,34 @@
 
 
 
+
+## flag
+
+* [挂载GoogleDrive](https://www.moerats.com/archives/481/)
+
+
 ## 挂载OneDrive
 
 > 注意：服务器最好是`KVM`的，`OpenVZ`需要给你的服务商发TK告诉他们开一下`FUSE`，如果没有`FUSE`是没办法挂载的。
 
 ### 获取`access_token`
 
-#### 下载Windows版`Rclone`
-[https://rclone.org/downloads](https://rclone.org/downloads)
+- **下载Windows版`Rclone`**
+
+*[https://rclone.org/downloads](https://rclone.org/downloads)
 
 > 解压后进入文件夹，在路径地址栏中输入`cmd`打开CMD
 
-#### 执行命令
+- **执行命令**
+
 ```batch
 rclone authorize "onedrive"
 ```
 
 > 运行后会自动打开浏览器，然后登录帐号，会进入接受许可页面，点击接受，然后后会跳转到授权成功的页面，此时页面显示`Success!`。
 
-#### 查看`access_token`
+- **查看`access_token`**
+
 > 切换到CMD窗口，此时已经有`access_token`了。
 >
 > 把`{}`包含里面的内容复制下来保存好，后面需要用到（包含括号一起复制保存）
@@ -58,12 +58,14 @@ rclone authorize "onedrive"
 
 ### 操作CentOS7
 
-#### 安装基础工具
+- **安装基础工具**
+
 ```bash
 yum -y install wget unzip screen fuse fuse-devel
 ```
 
-#### 安装`Rclone`
+- **安装`Rclone`**
+
 ```bash
 curl https://rclone.org/install.sh | sudo bash
 ```
@@ -72,7 +74,7 @@ curl https://rclone.org/install.sh | sudo bash
 >> `rclone v1.48.0 has successfully installed.`
 >> `Now run "rclone config" for setup. Check https://rclone.org/docs/ for more details.`
 
-#### 配置
+- **配置**
 
 ```bash
 rclone config
@@ -223,9 +225,10 @@ s) Set configuration password
 q) Quit config
 e/n/d/r/c/s/q> q      # 输入q，退出配置
 ```
+
 > 以上就配置好了，剩下的就是挂载了
 
-#### 挂载
+- **挂载**
 
 - 命令格式
 
@@ -243,28 +246,33 @@ rclone mount DriveName:Folder LocalFolder --copy-links --no-gzip-encoding \
 
 
 - 创建一个本地文件夹，即上面的LocalFolder
+
 ```bash
 mkdir /home/onedrive
 ```
 
 - 挂载为磁盘
+
 ```bash
 rclone mount onedrive:/ /home/onedrive --copy-links --no-gzip-encoding \
  --no-check-certificate --allow-other --allow-non-empty --umask 000
 ```
+
 - 或者
+
 ```bash
 rclone mount onedrive:/home/onedrive --allow-other --allow-non-empty --vfs-cache-mode writes
 ```
 
 > 在运行挂载命令后，**SSH窗口会出现中断，光标丢失**，需要断开重新连接。
 
-#### 查看是否挂载成功
+- **查看是否挂载成功**
+
 ```bash
 df -h
 ```
 
-#### 设置自启动
+- **设置自启动**
 
 > 新建名为`rcloned`不带后缀的文件，把以下代码复制到文件中，并修改`NAME`、`REMOTE`、`LOCAL`
 
@@ -367,6 +375,7 @@ exit $RETVAL
 ```
 
 - 设置
+
 ```bash
 # 移动文件
 mv rcloned /etc/init.d/rcloned
@@ -378,7 +387,8 @@ update-rc.d -f rcloned defaults
 bash /etc/init.d/rcloned start
 ```
 
-#### 卸载
+- **卸载**
+
 ```bash
 fusermount -qzu LocalFolder
 ```
@@ -409,20 +419,26 @@ rclone dedupe - 交互式查找重复文件，进行删除/重命名操作。
 ```
 
 ### `rclone copy`
+
 > 将文件从源复制到目的地址，跳过已复制完成的。命令格式如下：
 ```bash
 rclone copy source:sourcepath dest:destpsth
 ```
+
 - 注：
+
 > 1、`rclone copy` 复制总是指定路径下的数据；而不是当前目录。
 >
 > 2、`–no-traverse` 标志用于控制是否列出目的地址目录。
 
 ### `rclone sync`
+
 ```bash
 rclone sync source:path dest:path
 ```
+
 - 注：
+
 > 1、同步数据时，可能会删除目的地址的数据；建议先使用–dry-run标志来检查要复制、删除的数据。
 >
 > 2、同步数据出错时，不会删除任何目的地址的数据。
@@ -430,48 +446,63 @@ rclone sync source:path dest:path
 > 3、`rclone sync`同步的始终是path目录下的数据，而不是path目录。（空目录将不会被同步）
 
 ### `rclone move`
+
 ```bash
 rclone move source:path dest:path
 ```
+
 - 注：
+
 > 1、同步数据时，可能会删除目的地址的数据；建议先使用–dry-run标志来检查要复制、删除的数据。
 
 ### `rclone purge`
+
 > 清空path目录和数据。命令格式如下：
 
 ```bash
 rclone purge remote:path
 ```
+
 - 注：
+
 > 1、此命令，`include/exclude`过滤器失效。
 >
 > 2、删除path目录下部分数据，请使用`rclone delete`命令
 
 ### `rclone mkdir`
-创建path目录。命令格式如下：
+
+- 创建path目录
+
 ```bash
-```
 rclone mkdir remote:path
+```
 
 ### `rclone rmdir`
+
 > 删除一个空目录。命令格式如下：
 
 ```bash
 rclone rmdir remote:path
 ```
+
 - 注：
+
 > 1、不能删除非空的目录，删除非空目录请使用`rclone purge`
 
 ### `rclone check`
+
 > 检查源和目标地址文件是否匹配。命令格式如下：
 
 ```bash
 rclone check source:path dest:path
 ```
+
 - 注：
+
 > 1、`–size-only`标志用于指定，只比较大小，不比较MD5SUMs。
 
 ### `rclone ls`
+
 > 列出指定path下，所有的文件以及文件大小和路径。命令格式如下：
 
 ```bash
@@ -479,6 +510,7 @@ rclone ls remote:path
 ```
 
 ### `rclone lsd`
+
 > 列出指定path下，所有目录、容器、桶。命令格式如下：
 
 ```bash
@@ -486,15 +518,19 @@ rclone lsd remote:path
 ```
 
 ### `rclone delete`
+
 > 删除指定目录的内容。命令格式如下：
 
 ```bash
 rclone delete remote:path
 ```
+
 - 注：
+
 > 1、不同于`rclone purge`、`rclone delete`可使用`include/exclude`过滤器选择删除文件内容。
 >
 > `eg` 删除文件大小大于100M的文件
+
 ```bash
 # 先检查哪些文件将被删除
 # 使用rclone lsl 列出大于100M的文件
@@ -507,6 +543,7 @@ rclone --min-size 100M delete remote:path
 ```
 
 ### `rclone size`
+
 > 获取指定path下所有数据文件的总大小。命令格式如下：
 
 ```bash
