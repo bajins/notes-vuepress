@@ -36,7 +36,7 @@ module.exports = [
                     },
                     {
                         text: 'PC软件',
-                        link: '/Other/PC-software.html'
+                        link: '/Other/PC-software'
                     },
                 ]
             }
