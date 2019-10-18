@@ -25,7 +25,13 @@
 
 ## flag
 
+* [Plexdrive/Rclone+Google Drive搭建无限容量的媒体库](https://www.moerats.com/archives/870/)
+
 * [挂载GoogleDrive](https://www.moerats.com/archives/481/)
+
+* [解决Rclone挂载Google Drive时上传失败和内存占用高等问题](https://www.moerats.com/archives/877/)
+
+> GoogleDrive一天好像最多750G，跑多就出问题
 
 
 ## 挂载OneDrive
@@ -395,7 +401,11 @@ fusermount -qzu LocalFolder
 
 ## `Rclone`使用命令
 
-[https://softlns.github.io/2016/11/28/rclone-guide](https://softlns.github.io/2016/11/28/rclone-guide)
+* [rclone配置](https://rclone.org/commands/rclone_config/)
+
+* [rclone挂载](https://tip.rclone.org/commands/rclone_mount/)
+
+* [https://softlns.github.io/2016/11/28/rclone-guide](https://softlns.github.io/2016/11/28/rclone-guide)
 
 ```bash
 rclone config - 以控制会话的形式添加rclone的配置，配置保存在.rclone.conf文件中。
