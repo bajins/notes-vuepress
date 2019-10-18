@@ -34,6 +34,10 @@ module.exports = [
                         text: 'Markdown工具',
                         link: '/Other/Markdown工具'
                     },
+                    {
+                        text: 'PC软件',
+                        link: '/Other/PC-software.html'
+                    },
                 ]
             }
         ]
