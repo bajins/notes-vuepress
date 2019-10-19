@@ -280,6 +280,17 @@ df -h
 
 - **设置自启动**
 
+- 第一种
+
+> 在`vi /etc/profile`文件中输入`shift + g`（就是大写的G）跳转到末尾添加以下内容
+
+```bash
+rclone mount DriveName:Folder LocalFolder --copy-links --no-gzip-encoding \
+ --no-check-certificate --allow-other --allow-non-empty --umask 000 > /dev/null 2>&1 &
+```
+
+- 第二种
+
 > 新建名为`rcloned`不带后缀的文件，把以下代码复制到文件中，并修改`NAME`、`REMOTE`、`LOCAL`
 
 ```bash
