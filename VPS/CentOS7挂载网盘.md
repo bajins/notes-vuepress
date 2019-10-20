@@ -5,7 +5,8 @@
 * [挂载OneDrive](#挂载onedrive)
   * [获取`access_token`](#获取access_token)
   * [操作CentOS7](#操作centos7)
-* [`Rclone`使用命令](#rclone使用命令)
+* [`Rclone`](#rclone)
+  * [`rclone mount`](#rclone-mount)
   * [`rclone copy`](#rclone-copy)
   * [`rclone sync`](#rclone-sync)
   * [`rclone move`](#rclone-move)
@@ -17,6 +18,7 @@
   * [`rclone lsd`](#rclone-lsd)
   * [`rclone delete`](#rclone-delete)
   * [`rclone size`](#rclone-size)
+
 
 
 
@@ -245,13 +247,8 @@ e/n/d/r/c/s/q> q      # 输入q，退出配置
 >>
 >> `LocalFolder` 本地文件夹
 
-```bash
-rclone mount DriveName:Folder LocalFolder --copy-links --no-gzip-encoding \
- --no-check-certificate --allow-other --allow-non-empty --umask 000
-```
 
-
-- 创建一个本地文件夹，即上面的LocalFolder
+- 创建LocalFolder
 
 ```bash
 mkdir /home/onedrive
@@ -260,17 +257,26 @@ mkdir /home/onedrive
 - 挂载为磁盘
 
 ```bash
-rclone mount onedrive:/ /home/onedrive --copy-links --no-gzip-encoding \
- --no-check-certificate --allow-other --allow-non-empty --umask 000
-```
-
-- 或者
-
-```bash
-rclone mount onedrive:/home/onedrive --allow-other --allow-non-empty --vfs-cache-mode writes
+rclone mount DriveName:Folder LocalFolder \
+ --copy-links \
+ --no-gzip-encoding \
+ --no-check-certificate \
+ --allow-other \
+ --allow-non-empty \
+ --umask 000 \
+ --transfers 4 \
+ --buffer-size 32M \
+ --low-level-retries 200 \
+ --dir-cache-time 12h \
+ --vfs-read-chunk-size 32M \
+ --vfs-read-chunk-size-limit 1G \
+ > /dev/null 2>&1 &
 ```
 
 > 在运行挂载命令后，**SSH窗口会出现中断，光标丢失**，需要断开重新连接。
+
+
+
 
 - **查看是否挂载成功**
 
@@ -282,12 +288,8 @@ df -h
 
 - 第一种
 
-> 在`vi /etc/profile`文件中输入`shift + g`（就是大写的G）跳转到末尾添加以下内容
+> 在`vi /etc/profile`文件中输入`shift + g`（就是大写的G）跳转到末尾添加挂载命令
 
-```bash
-rclone mount DriveName:Folder LocalFolder --copy-links --no-gzip-encoding \
- --no-check-certificate --allow-other --allow-non-empty --umask 000 > /dev/null 2>&1 &
-```
 
 - 第二种
 
@@ -410,16 +412,17 @@ bash /etc/init.d/rcloned start
 fusermount -qzu LocalFolder
 ```
 
-## `Rclone`使用命令
+## `Rclone`
 
 * [rclone配置](https://rclone.org/commands/rclone_config/)
 
-* [rclone挂载](https://tip.rclone.org/commands/rclone_mount/)
+* [全局参数](https://rclone.org/flags/)
 
 * [https://softlns.github.io/2016/11/28/rclone-guide](https://softlns.github.io/2016/11/28/rclone-guide)
 
 ```bash
 rclone config - 以控制会话的形式添加rclone的配置，配置保存在.rclone.conf文件中。
+rclone mount - 将网盘挂载为本地磁盘
 rclone copy - 将文件从源复制到目的地址，跳过已复制完成的。
 rclone sync - 将源数据同步到目的地址，只更新目的地址的数据。–dry-run标志来检查要复制、删除的数据
 rclone move - 将源数据移动到目的地址。
@@ -438,6 +441,50 @@ rclone version - 查看当前版本。
 rclone cleanup - 清空remote。
 rclone dedupe - 交互式查找重复文件，进行删除/重命名操作。
 ```
+
+### `rclone mount`
+
+* [rclone挂载](https://tip.rclone.org/commands/rclone_mount/)
+
+
+- **挂载参数**
+
+| 参数                                   	| 说明                                                                                                      	|
+|----------------------------------------	|-----------------------------------------------------------------------------------------------------------	|
+| --allow-non-empty                      	| 允许在非空目录上挂载。                                                                                    	|
+| --allow-other                          	| 允许访问其他用户。                                                                                        	|
+| --allow-root                           	| 允许访问root用户。                                                                                        	|
+| --attr-timeout duration                	| 缓存文件/目录属性的时间。 （默认1秒）                                                                     	|
+| --daemon                               	| 将mount作为守护程序运行（后台模式）。                                                                     	|
+| --daemon-timeout duration              	| rclone响应内核的时间限制（并非所有操作系统都支持）。                                                      	|
+| --debug-fuse                           	| 调试FUSE内部-需要-v。                                                                                     	|
+| --default-permissions                  	| 使内核根据文件模式强制执行访问控制。                                                                      	|
+| --dir-cache-time duration              	| 是时候缓存目录条目了。 （默认为5m0s）                                                                     	|
+| --dir-perms FileMode                   	| 目录权限（默认0777）                                                                                      	|
+| --file-perms FileMode                  	| 文件权限（默认0666）                                                                                      	|
+| --fuse-flag stringArray                	| 直接传递给libfuse / WinFsp的标志或参数。如果需要，请重复。                                                	|
+| --gid uint32                           	| 覆盖文件系统设置的gid字段。 （默认为1000）                                                                	|
+| -h, --help                             	| 帮助安装                                                                                                  	|
+| --max-read-ahead SizeSuffix            	| 可以为顺序读取预取的字节数。 （默认为128k）                                                               	|
+| --no-checksum                          	| 不要比较下载/下载时的校验和。                                                                             	|
+| --no-modtime                           	| 不要读/写修改时间（可以加快修改速度）。                                                                   	|
+| --no-seek                              	| 不允许在文件中查找。                                                                                      	|
+| -o, --option stringArray               	| libfuse / WinFsp的选项。如果需要，请重复。                                                                	|
+| --poll-interval duration               	| 等待两次轮询更改之间的时间。必须小于dir-cache-time。仅在受支持的遥控器上。设置为0禁用。 （默认为1m0s）    	|
+| --read-only                            	| 挂载为只读。                                                                                              	|
+| --uid uint32                           	| 覆盖文件系统设置的uid字段。 （默认为1000）                                                                	|
+| --umask int                            	| 覆盖文件系统设置的权限位。                                                                                	|
+| --vfs-cache-max-age duration           	| 缓存中对象的最长期限。 （默认为1h0m0s）                                                                   	|
+| --vfs-cache-max-size SizeSuffix        	| 缓存中对象的最大总大小。 （默认关闭）                                                                     	|
+| --vfs-cache-mode CacheMode             	| 缓存模式 关闭(off)|最小(minimal)|写入(writes)|完全(full)（默认关闭）                                          |
+| --vfs-cache-poll-interval duration     	| 轮询缓存以查找陈旧对象的时间间隔。 （默认为1m0s）                                                         	|
+| --vfs-read-chunk-size SizeSuffix       	| 逐块读取源对象。 （默认为128M）                                                                           	|
+| --vfs-read-chunk-size-limit SizeSuffix 	| 如果大于--vfs-read-chunk-size，则在每次读取块后将块大小加倍，直到达到限制。 “关闭”是无限的。 （默认关闭） 	|
+| --volname string                       	| 设置卷名（并非所有操作系统都支持）。                                                                      	|
+| --write-back-cache                     	| 使内核缓冲区写入，然后再将其发送到rclone。否则，将使用直写式缓存。                                        	|
+
+
+
 
 ### `rclone copy`
 
