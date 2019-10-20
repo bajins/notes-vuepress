@@ -280,9 +280,10 @@ REMOTE=''   # 远程文件夹，OneDrive 网盘里的挂载的一个文件夹
 LOCAL=''    # 挂载地址，VPS本地挂载目录
 
 Green_font_prefix="\033[32m" && \
- Red_font_prefix="\033[31m" && \
- Green_background_prefix="\033[42;37m" && \
- Red_background_prefix="\033[41;37m" && Font_color_suffix="\033[0m"
+Red_font_prefix="\033[31m" && \
+Green_background_prefix="\033[42;37m" && \
+Red_background_prefix="\033[41;37m" && \
+Font_color_suffix="\033[0m"
 
 Info="${Green_font_prefix}[信息]${Font_color_suffix}"
 Error="${Red_font_prefix}[错误]${Font_color_suffix}"
@@ -304,8 +305,8 @@ do_start(){
 		fusermount -zuq $LOCAL >/dev/null 2>&1
 		mkdir -p $LOCAL
 		sudo /usr/bin/rclone mount $NAME:$REMOTE $LOCAL --copy-links \
-          --no-gzip-encoding --no-check-certificate --allow-other \
-          --allow-non-empty --umask 000 >/dev/null 2>&1 &
+        --no-gzip-encoding --no-check-certificate --allow-other \
+        --allow-non-empty --umask 000 >/dev/null 2>&1 &
 
 		sleep 2s
 		check_running
@@ -425,19 +426,19 @@ rclone dedupe - 交互式查找重复文件，进行删除/重命名操作。
 
 ```bash
 rclone mount DriveName:Folder LocalFolder \
- --copy-links \
- --no-gzip-encoding \
- --no-check-certificate \
- --allow-other \
- --allow-non-empty \
- --umask 000 \
- --transfers 4 \
- --buffer-size 32M \
- --low-level-retries 200 \
- --dir-cache-time 12h \
- --vfs-read-chunk-size 32M \
- --vfs-read-chunk-size-limit 1G \
- > /dev/null 2>&1 &
+--copy-links \
+--no-gzip-encoding \
+--no-check-certificate \
+--allow-other \
+--allow-non-empty \
+--umask 000 \
+--transfers 4 \
+--buffer-size 32M \
+--low-level-retries 200 \
+--dir-cache-time 12h \
+--vfs-read-chunk-size 32M \
+--vfs-read-chunk-size-limit 1G \
+> /dev/null 2>&1 &
 ```
 
 

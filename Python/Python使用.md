@@ -45,16 +45,20 @@
 ## CentOS7安装Python
 
 ### 源码安装
+
 > 全部操作都在`root`用户下执行
 
 #### 安装编译相关工具
+
 ```bash
 yum -y groupinstall "Development tools"
 yum -y install zlib-devel bzip2-devel openssl-devel \
- ncurses-devel sqlite-devel readline-devel tk-devel \
- gdbm-devel db4-devel libpcap-devel xz-devel libffi-devel
+ncurses-devel sqlite-devel readline-devel tk-devel \
+gdbm-devel db4-devel libpcap-devel xz-devel libffi-devel
 ```
+
 #### 下载安装包解压
+
 > 到官网复制最新版下载地址 https://www.python.org/downloads/release
 
 ```bash
@@ -64,29 +68,37 @@ tar -xvJf Python-3.7.3.tar.xz
 # 切换到解压目录
 cd Python-3.7.3
 ```
+
 #### 编译安装
+
 ```bash
 # 创建编译安装目录，并配置指定安装路径
 mkdir /usr/local/python3 && ./configure --prefix=/usr/local/python3
 # 编译安装并把安装日志保存下来
 make && make install > install.log
 ```
+
 #### 创建软连接
+
 ```bash
 ln -s /usr/local/python3/bin/python3 /bin/python3
 ln -s /usr/local/python3/bin/pip3 /bin/pip3
 ```
+
 #### 验证是否成功
+
 ```bash
 python3 -V && pip3 -V
 ```
 
 #### 安装后`yum`不能正常使用
+
 - 把 `#!/usr/bin/python` 修改为 `#!/usr/bin/python2`
  
 ```bash
 vi /usr/bin/yum 
 ```
+
 - 把 `#!/usr/bin/python` 修改为 `#!/usr/bin/python2`
 
 ```bash
@@ -96,48 +108,61 @@ vi /usr/libexec/urlgrabber-ext-down
 
 
 ### yum安装Python3.6
+
 #### 安装`EPEL`和`IUS`软件源
+
 ```bash
 yum -y install epel-release
 yum -y install https://centos7.iuscommunity.org/ius-release.rpm
 ```
+
 #### 安装Python3.6
+
 ```bash
 yum -y install python36u
 ```
 
 #### 创建python3连接符
+
 ```bash
 ln -s /bin/python3.6 /bin/python3
 ```
 
 #### 安装pip3
+
 ```bash
 yum -y install python36u-pip
 ```
+
 #### 创建pip3链接符
+
 ```bash
 ln -s /bin/pip3.6 /bin/pip3
 ```
 
 
 ## pip
+
 ### 生成依赖管理文件
+
 ```bash
 pip freeze > requirements.txt
 ``` 
 
 ### 根据管理文件安装依赖
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 更新
+
 ```bash
 python -m pip install --upgrade pip setuptools
 ```
 
 - 解决pip安装模块提示已经安装更高版本问题
+
 ```bash
 pip3 install --ignore-installed 模块名
 ```
@@ -156,7 +181,9 @@ pip3 install --ignore-installed 模块名
 华中理工大学：http://pypi.hustunique.com
 山东理工大学：http://pypi.sdutlinux.org
 ```
+
 #### 临时使用
+
 > 可以在使用pip的时候加参数`-i 网址`
 >
 > 注意如果不是`https`协议网址需要加`--trusted-host`参数
@@ -168,12 +195,14 @@ pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com requ
 #### 永久修改
 
 - 使用命令
+
 ```bash
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 
 - 编辑文件
+
 ```bash
 # Linux环境
 vi ~/.pip/pip.conf 
@@ -192,9 +221,11 @@ trusted-host=mirrors.aliyun.com
 
 
 ## 打包
+
 ### `PyInstalle`
 
-> PyInstaller 是一个十分有用的第三方库，可以用来打包`Python`应用程序，打包完的程序就可以在没有安装`Python`解释器的机器上运行了。
+> PyInstaller 是一个十分有用的第三方库，可以用来打包`Python`应用程序，
+> 打包完的程序就可以在没有安装`Python`解释器的机器上运行了。
 >
 > 它能够在`Windows`、`Linux`、`Mac OS X`等操作系统下将`Python`源文件打包，通过对源文件打包，
 > `Python`程序可以在没有安装`Python`的环境中运行，也可以作为一个独立文件方便传递和管理。
@@ -207,16 +238,21 @@ trusted-host=mirrors.aliyun.com
 * [https://hoxis.github.io/python-pyinstaller.html](https://hoxis.github.io/python-pyinstaller.html)
 
 #### 安装
+
 ```bash
 pip install pyinstaller
 ```
+
 #### 生成单文件
+
 ```bash
 pyinstaller -F app.py
 # windows打包为运行不显示命令行窗口的程序
 pyinstaller -F -w -n=BajinsWallpaper app.py
 ```
+
 #### 生成安装目录
+
 > 此方式可借用其他第三方封包工具封装为exe安装程序，比如`NSIS`、`InnoSetup`
 >
 > 注意：执行命令前先将目录下`build`、`dist`目录删除，并将`spec`后缀的文件也删除
@@ -235,7 +271,9 @@ pyinstaller -D -w -n=BajinsWallpaper app.py
 ```bash
 datas=[('view/imges/*', '.'), ('view/static/logo.png','view/static/')],
 ```
+
 - 使用`--add-data`命令参数
+
 > 其实就是修改`.spec`后缀文件中的`datas=[]`
 
 > `;`前面是本地文件路径，后面是打包中所处的位置
@@ -335,6 +373,7 @@ datas=[('view/imges/*', '.'), ('view/static/logo.png','view/static/')],
 #### 问题
 
 - 多进程multiprocessing，我们需要创建一个模块
+
 ```python
 import os
 import sys
@@ -447,6 +486,7 @@ setup(
       options = {'py2exe': py2exe_options}
       )
 ```
+
 > 执行该脚本，会得到一个build文件夹和一个dist文件夹。其中，dist文件夹，就是你得到的打包程序。
 
 > 如果按照上述代码执行成功，则应该dist文件夹中，只包括程序的exe文件和`w9xpopen.exe`。`w9xpopen.exe`是针对`windows9x`版本的，

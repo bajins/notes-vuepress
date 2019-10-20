@@ -21,6 +21,7 @@
 
 
 ## 通过binlog2sql恢复数据
+
 > 使用此方式之前一定是MySQL开启了bin-log的才可行
 >> 如果没有安装开源工具`binlog2sql`那么请安装。
 >
@@ -33,7 +34,9 @@ git clone https://github.com/danfengcao/binlog2sql.git
 cd binlog2sql/
 pip install -r requirements.txt
 ```
+
 ### MySQL必须设置参数
+
 ```bash
 [mysqld]
 server_id = 1
@@ -42,17 +45,23 @@ max_binlog_size = 1G
 binlog_format = row
 binlog_row_image = full
 ```
+
 ### user需要的最小权限集合
+
 ```sql
 select, super/replication client, replication slave
 #建议授权
 GRANT SELECT, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 
 ```
+
 ### 查看目前的binlog文件
+
 ```sql
 show master logs;
 ```
-#### 查询结果：
+
+#### 查询结果
+
 | Log_name         | File_size |
 |------------------|-----------|
 | mysql-bin.000001 | 177       |
@@ -84,6 +93,7 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数�
 ![](/images/MySQL_binlog.png)
 
 ### 生成`sql`文件回滚
+
 > 生成`rollback.sql`文件，并检查回滚SQL是否正确
 
 ```bash
@@ -96,11 +106,13 @@ mysql -h127.0.0.1 -P端口 -u账号 -p'密码' < rollback.sql
 ```
 
 ### 不生成`sql`文件回滚
+
 > 不生成rollback.sql文件，执行命令后在输出中检查回滚SQL是否正确
 
 ```bash
 python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数据库 -t表 --start-file='binlog文件' --start-position=开始位置 --stop-position=结束位置 -B
 ```
+
 > 确认回滚SQL正确，执行回滚语句。登录MySQL确认，数据回滚成功。
 
 ```bash
@@ -113,11 +125,13 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数�
 
 
 ## `mysqldump`备份恢复
+
 > 如果是在本机上备份本机的数据库地址和端口可以不要，如果是在本机上备份其他主机上的数据库就需要地址和端口
 >
 > `mysqldump`命令需要手动输入密码，所以一般不输入`-p`参数
 
 ### 参数说明
+
 > `-d` 结构(--no-data:不导出任何数据，只导出数据库表结构)
 >
 > `-t` 数据(--no-create-info:只导出数据，而不添加CREATE TABLE 语句)
@@ -145,6 +159,7 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' -d数�
 
 
 ### 导出
+
 ```bash
 # 只导出结构&函数&事件&触发器使用
 mysqldump -R -E -d -h需要备份的主机地址 -P端口 -u用户名 -p 数据库名 > /home/backup.sql
@@ -166,6 +181,7 @@ mysqldump -R -E -u用户名 -p 数据库名 | mysql 新数据库名 -u用户名 
 ```
 
 ### 导入
+
 ```bash
 # 用mysqldump导入本地sql文件
 mysqldump -h主机地址 -P端口 -u用户名 数据库名 < /home/backup.sql
@@ -183,7 +199,9 @@ use 数据库名;
 source /home/backup.sql;
 
 ```
+
 ### `mysqldump`两台主机同步备份
+
 ```bash
 mysqldump -R -E -h导出的主机地址 -P端口 -u用户名 -p 数据库名 | mysql -h导入的主机地址 -P端口 -u用户名 -p密码 -C 数据库名
 ```
@@ -208,6 +226,7 @@ mysqldump -R -E -h导出的主机地址 -P端口 -u用户名 -p 数据库名 | m
 
 
 ### `mysqldump`其他命令
+
 > `mysqldump`导入导出结构，数据，存储过程，函数，事件，触发器
 
 ```
@@ -349,7 +368,7 @@ fi
 # 可以用shell脚本操作mysql数据库，
 # 使用mysql的-e参数可以执行各种sql的(创建，删除，增，删，改、查)等各种操作 。
 databases=`mysql -h$mysql_host -P$mysql_port -u$mysql_user \
- -p$mysql_password -e "show databases;" 2>/dev/null`
+-p$mysql_password -e "show databases;" 2>/dev/null`
 
 flag=$(echo $?)
 if [ $flag != "0" ]; then
@@ -410,6 +429,7 @@ finish
 ```
 
 ### 同步远程数据库到本地
+
 ```bash
 #!/bin/bash
 
@@ -437,7 +457,7 @@ mysql -h${LOCAL_HOST} -P${LOCAL_PORT} -u${LOCAL_USER} -p${LOCAL_PASSWORD} -e "${
 
 #从远程数据库备份到本地数据库
 mysqldump -R -E -h${SERVER_HOST} -P${SERVER_PORT} -u${SERVER_USER} -p${SERVER_PASSWORD} ${SERVER_DB} \
- | mysql -h${LOCAL_HOST} -P${LOCAL_PORT} -u${LOCAL_USER} -p${LOCAL_PASSWORD} -C ${SERVER_DB}
+| mysql -h${LOCAL_HOST} -P${LOCAL_PORT} -u${LOCAL_USER} -p${LOCAL_PASSWORD} -C ${SERVER_DB}
 
 echo "----------------------------------------------------------------------------"
 endDate=$(date +"%Y-%m-%d %H:%M:%S")

@@ -233,8 +233,12 @@ chgrp -R mysql mysql/
 
 ```bash
 cd /usr/local/mysql/bin
-./mysqld --initialize --user=mysql --basedir=/usr/local/mysql/ \
- --datadir=/usr/local/mysql/data/ --lc_messages_dir=/usr/local/mysql/share --lc_messages=en_US
+
+./mysqld --initialize --user=mysql \
+--basedir=/usr/local/mysql/ \
+--datadir=/usr/local/mysql/data/ \
+--lc_messages_dir=/usr/local/mysql/share \
+--lc_messages=en_US
 ```
 
 > 记住生成的临时密码,如果忘记密码或者想重新初始化，可以先将mysql/data目录中文件删除，然后再执行初始化命令
