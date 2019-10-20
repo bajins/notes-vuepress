@@ -13,6 +13,7 @@
   * [输入定时任务命令](#输入定时任务命令)
 * [进制转换](#进制转换)
 * [进程与线程](#进程与线程)
+* [开机启动](#开机启动)
 * [服务器之间传输文件](#服务器之间传输文件)
   * [scp](#scp)
   * [rsync](#rsync)
@@ -375,6 +376,46 @@ ls /proc/进程PID/task | wc -l
 ```bash
 ps -mp 进程PID -o THREAD,tid,time | sort -rn
 ```
+
+
+## 开机启动
+
+- **添加命令到/etc/rc.local文件末尾**
+
+> 编辑`/etc/rc.local`或者`/etc/rc.d/rc.local`（前者是后者的软连接）文件，
+> 按`Shift + g`（就是大写的G）跳转到末尾添加运行命令
+>> 执行的程序需要写绝对路径，添加到系统环境变量的除外
+
+
+- **脚本文件放在/etc/profile.d/目录下**
+
+- **chkconfig**
+
+1、创建软连接或者复制脚本到`/etc/init.d/`或者`/etc/rc.d/init.d/`（前者是后者的软连接）下
+
+> 注意脚本文件开头一定要添加以下几行代码，否侧会提示`chkconfig`不支持
+
+```bash
+#!/bin/sh
+# - 64 36 分别代表运行级别，启动优先权，关闭优先权
+# chkconfig: - 64 36
+# description: Supervisor Server
+# processname: supervisord
+```
+
+2、添加启动项
+
+```bash
+chkconfig --add 脚本名
+chkconfig 脚本名 on
+```
+
+3、检查是否设置成功
+
+```bash
+chkconfig --list | grep 脚本名
+```
+
 
 
 

@@ -1,4 +1,4 @@
-# CentOS7安装软件
+# CentOS安装软件
 
 
 
