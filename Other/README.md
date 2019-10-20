@@ -11,47 +11,48 @@ https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extens
 
 
 
-## WebSSH2
-
-* [xterm.js](https://github.com/xtermjs/xterm.js)
-
-* [webssh](https://github.com/huashengdun/webssh)
-
-* [WebSSH2](https://github.com/billchurch/WebSSH2)
-
-* [https://github.com/MoePlayer/DPlayer](https://github.com/MoePlayer/DPlayer)
 
 
-### 下载
+## 在线接收短信
 
-```bash
-git clone https://github.com/billchurch/WebSSH2
-cd WebSSH2
-npm install --production
-```
+* [https://www.zusms.com/phone/all](https://www.zusms.com/phone/all)
 
-### 修改源码使其支持秘钥登录
+1、ReceivingSms：[https://www.receivingsms.com](https://www.receivingsms.com)
 
-```bash
-vi app/server/socket.js
-# 文件开头添加
-var fs = require('fs')
-# 修改 conn.connect 方法
-username: 'root',
-privateKey: fs.readFileSync('/root/.ssh/id_rsa')
-```
-### 运行
+2、blacktel：[https://www.blacktel.io](https://www.blacktel.io)
 
-```bash
-yum install screen
-screen -S Webssh2
-npm start
-```
-- 使用浏览器打开`http://Webssh服务器IP:Webssh端口/ssh/host/SSH服务器IP`
+3、spoofBox：[http://www.spoofbox.com](http://www.spoofbox.com)
 
-- 默认端口号是2222
+4、SmsReceiver：[https://sms.ndtan.net](https://sms.ndtan.net)
 
-- 可以通过修改`app/config.json`中的`listen.port`修改端口
+5、OnlineSIM：[http://onlinesim.ru](http://onlinesim.ru)
+
+6、Twilio：[https://www.twilio.com](https://www.twilio.com)
+
+7、PdfLibr：[https://www.pdflibr.com](https://www.pdflibr.com)
+
+8、SELLAITE：[http://sms.sellaite.com](http://sms.sellaite.com)
+
+9、Receive SMS Online：[http://receive-sms-online.com](http://receive-sms-online.com)
+
+10、Free Online Phone：[https://www.freeonlinephone.org](https://www.freeonlinephone.org)
+
+11、RECEIVE SMS ONLINE：[https://www.receivesmsonline.net](https://www.receivesmsonline.net)
+
+12、Receive FREE SMS online：[http://receivefreesms.com](http://receivefreesms.com)
+
+13、Receive-SMS：[https://receive-sms.com](https://receive-sms.com)
+
+14、Receive SMS online for Free：[https://sms-online.co/receive-free-sms](https://sms-online.co/receive-free-sms)
+
+15、Free SMS Numbers Online：[https://smsnumbersonline.com](https://smsnumbersonline.com)
+
+16、Receive a SMS Online：[https://receive-a-sms.com](https://receive-a-sms.com)
+
+17、Receive SMS Online for FREE：[https://www.receive-sms-online.info](https://www.receive-sms-online.info)
+
+18、SMSReceiveFree：[https://smsreceivefree.com](https://smsreceivefree.com)
+
 
 
 
@@ -62,3 +63,7 @@ npm start
 
 
 ![](/images/谷歌账号数据迁移.png)
+
+
+
+

@@ -4,43 +4,101 @@
 > CentOS官方已宣布在2020年停止对CentOS6的维护更新，各大软件开发商也逐渐停止对CentOS6的兼容，建议使用CentOS7
 
 
+## flag
+
 * [https://github.com/cmderdev/cmder](https://github.com/cmderdev/cmder)
 
 * [showdoc](https://github.com/star7th/showdoc)
 
 
+
 ## 网络测试
 
-[speedtest](https://github.com/adolfintel/speedtest)
+* [speedtest](https://github.com/adolfintel/speedtest)
 
-[LookingGlass-Gayyi](https://github.com/ILLKX/LookingGlass-Gayyi)
+* [LookingGlass-Gayyi](https://github.com/ILLKX/LookingGlass-Gayyi)
 
-[阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625/)
+* [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625/)
 
-[acme.sh 实现了acme 协议, 可以从 letsencrypt 生成免费的证书.](https://github.com/Neilpang/acme.sh)
+* [acme.sh 实现了acme 协议, 可以从 letsencrypt 生成免费的证书.](https://github.com/Neilpang/acme.sh)
 
-[临时邮箱搭建](https://github.com/denghongcai/forsaken-mail)
+* [临时邮箱搭建](https://github.com/denghongcai/forsaken-mail)
+
+
 
 ## 资源网站建立
 
-[php-zdir本地网盘](https://github.com/helloxz/zdir)
+* [php-zdir本地网盘](https://github.com/helloxz/zdir)
 
-[rclone](https://github.com/ncw/rclone)
+* [rclone](https://github.com/ncw/rclone)
 
-[ShareList 是一个易用的网盘工具，支持快速挂载 GoogleDrive、OneDrive ](https://github.com/reruin/sharelist)
+* [ShareList 是一个易用的网盘工具，支持快速挂载 GoogleDrive、OneDrive ](https://github.com/reruin/sharelist)
 
-[OLAINDEX OneDrive目录文件索引应用](https://github.com/WangNingkai/OLAINDEX)
+* [OLAINDEX OneDrive目录文件索引应用](https://github.com/WangNingkai/OLAINDEX)
 
-[PyOne基于Python的onedrive文件本地化浏览系统](https://github.com/abbeyokgo/PyOne)
+* [PyOne基于Python的onedrive文件本地化浏览系统](https://github.com/abbeyokgo/PyOne)
 
-[萌音影视 - 在线影视应用](https://github.com/178146582/moeins)
+* [萌音影视 - 在线影视应用](https://github.com/178146582/moeins)
 [安装教程](https://www.moerats.com/archives/744/)
 
-[使用FileManager+基于Python3的爬虫程序建立影音图片库](https://www.moerats.com/archives/501/)
+* [使用FileManager+基于Python3的爬虫程序建立影音图片库](https://www.moerats.com/archives/501/)
 
-[使用PlayTube搭建私人的视频网站](https://www.moerats.com/archives/644/)
+* [使用PlayTube搭建私人的视频网站](https://www.moerats.com/archives/644/)
 
-[开源有态度的漫画CMS](https://github.com/hiliqi/xiaohuanxiong)
+* [开源有态度的漫画CMS](https://github.com/hiliqi/xiaohuanxiong)
+
+
+
+
+
+
+
+## WebSSH2
+
+* [xterm.js](https://github.com/xtermjs/xterm.js)
+
+* [webssh](https://github.com/huashengdun/webssh)
+
+* [WebSSH2](https://github.com/billchurch/WebSSH2)
+
+* [https://github.com/MoePlayer/DPlayer](https://github.com/MoePlayer/DPlayer)
+
+
+### 下载
+
+```bash
+git clone https://github.com/billchurch/WebSSH2
+cd WebSSH2
+npm install --production
+```
+
+### 修改源码使其支持秘钥登录
+
+```bash
+vi app/server/socket.js
+# 文件开头添加
+var fs = require('fs')
+# 修改 conn.connect 方法
+username: 'root',
+privateKey: fs.readFileSync('/root/.ssh/id_rsa')
+```
+### 运行
+
+```bash
+yum install screen
+screen -S Webssh2
+npm start
+```
+- 使用浏览器打开`http://Webssh服务器IP:Webssh端口/ssh/host/SSH服务器IP`
+
+- 默认端口号是2222
+
+- 可以通过修改`app/config.json`中的`listen.port`修改端口
+
+
+
+
+
 
 
 ## batch与shell同等意义操作符
