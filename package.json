@@ -29,12 +29,12 @@
   },
   "homepage": "https://github.com/woytu/UseNotes#readme",
   "dependencies": {
-    "@vuepress/plugin-back-to-top": "^1.1.0",
-    "@vuepress/plugin-blog": "^1.2.5",
-    "@vuepress/plugin-google-analytics": "^1.1.0",
-    "@vuepress/plugin-medium-zoom": "^1.1.0",
-    "@vuepress/plugin-pwa": "^1.1.0",
-    "@vuepress/theme-vue": "^1.1.0",
+    "@vuepress/plugin-back-to-top": "^1.2.0",
+    "@vuepress/plugin-blog": "^1.5.1",
+    "@vuepress/plugin-google-analytics": "^1.2.0",
+    "@vuepress/plugin-medium-zoom": "^1.2.0",
+    "@vuepress/plugin-pwa": "^1.2.0",
+    "@vuepress/theme-vue": "^1.2.0",
     "axios": "0.19.0",
     "leancloud-storage": "^3.15.0",
     "lodash": "^4.17.15",
@@ -48,7 +48,7 @@
     "valine": "1.3.10",
     "vue-click-outside": "^1.0.7",
     "vue-toasted": "^1.1.27",
-    "vuepress": "^1.1.0",
+    "vuepress": "^1.2.0",
     "vuepress-plugin-flowchart": "^1.4.3"
   }
 }
