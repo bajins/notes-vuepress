@@ -43,4 +43,8 @@
 
 [Python3-定时任务五种实现方式](https://blog.51cto.com/huangyg/2367088)
 
-
+1. sched模块
+2. 循环+sleep
+3. 线程模块中Timer类
+4. 第三方模块：schedule
+5. 定时框架：APScheduler
