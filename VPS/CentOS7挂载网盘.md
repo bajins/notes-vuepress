@@ -236,44 +236,8 @@ e/n/d/r/c/s/q> q      # 输入q，退出配置
 
 > 以上就配置好了，剩下的就是挂载了
 
-- **挂载**
+- [**挂载**](#rclone-mount)
 
-- 命令格式
-
-> 只需修改`DriveName:Folder LocalFolder`
->> `DriveName` 这里就是配置第二步输入的`name`
->>
->> `Folder` 网盘的中的文件夹，`/`或者留空为网盘根目录
->>
->> `LocalFolder` 本地文件夹
-
-
-- 创建LocalFolder
-
-```bash
-mkdir /home/onedrive
-```
-
-- 挂载为磁盘
-
-```bash
-rclone mount DriveName:Folder LocalFolder \
- --copy-links \
- --no-gzip-encoding \
- --no-check-certificate \
- --allow-other \
- --allow-non-empty \
- --umask 000 \
- --transfers 4 \
- --buffer-size 32M \
- --low-level-retries 200 \
- --dir-cache-time 12h \
- --vfs-read-chunk-size 32M \
- --vfs-read-chunk-size-limit 1G \
- > /dev/null 2>&1 &
-```
-
-> 在运行挂载命令后，**SSH窗口会出现中断，光标丢失**，需要断开重新连接。
 
 
 
@@ -445,6 +409,37 @@ rclone dedupe - 交互式查找重复文件，进行删除/重命名操作。
 ### `rclone mount`
 
 * [rclone挂载](https://tip.rclone.org/commands/rclone_mount/)
+
+
+> 在运行挂载命令后，**SSH窗口会出现中断，光标丢失**，需要断开重新连接。
+
+
+- **命令格式**
+
+> 只需修改`DriveName:Folder LocalFolder`
+>> `DriveName` 这里就是配置第二步输入的`name`
+>>
+>> `Folder` 网盘的中的文件夹，`/`或者留空为网盘根目录
+>>
+>> `LocalFolder` 本地文件夹
+
+```bash
+rclone mount DriveName:Folder LocalFolder \
+ --copy-links \
+ --no-gzip-encoding \
+ --no-check-certificate \
+ --allow-other \
+ --allow-non-empty \
+ --umask 000 \
+ --transfers 4 \
+ --buffer-size 32M \
+ --low-level-retries 200 \
+ --dir-cache-time 12h \
+ --vfs-read-chunk-size 32M \
+ --vfs-read-chunk-size-limit 1G \
+ > /dev/null 2>&1 &
+```
+
 
 
 - **挂载参数**
