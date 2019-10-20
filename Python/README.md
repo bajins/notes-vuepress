@@ -47,4 +47,4 @@
 2. 循环+sleep
 3. 线程模块中Timer类
 4. 第三方模块：schedule
-5. 定时框架：APScheduler
+5. 定时框架：APScheduler、Celery
