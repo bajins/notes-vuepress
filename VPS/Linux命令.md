@@ -387,6 +387,15 @@ ps -mp 进程PID -o THREAD,tid,time | sort -rn
 >> 执行的程序需要写绝对路径，添加到系统环境变量的除外
 
 
+- **crontab**
+
+```bash
+crontab -e
+@reboot 运行程序命令
+```
+
+
+
 - **脚本文件放在/etc/profile.d/目录下**
 
 - **chkconfig**
