@@ -472,7 +472,7 @@ rclone mount DriveName:Folder LocalFolder \
 | --umask int                            	| 覆盖文件系统设置的权限位。                                                                                	|
 | --vfs-cache-max-age duration           	| 缓存中对象的最长期限。 （默认为1h0m0s）                                                                   	|
 | --vfs-cache-max-size SizeSuffix        	| 缓存中对象的最大总大小。 （默认关闭）                                                                     	|
-| --vfs-cache-mode CacheMode             	| 缓存模式 关闭(off)|最小(minimal)|写入(writes)|完全(full)（默认关闭）                                          |
+| --vfs-cache-mode CacheMode             	| 缓存模式 关闭(off)\|最小(minimal)\|写入(writes)\|完全(full)（默认关闭）                                       |
 | --vfs-cache-poll-interval duration     	| 轮询缓存以查找陈旧对象的时间间隔。 （默认为1m0s）                                                         	|
 | --vfs-read-chunk-size SizeSuffix       	| 逐块读取源对象。 （默认为128M）                                                                           	|
 | --vfs-read-chunk-size-limit SizeSuffix 	| 如果大于--vfs-read-chunk-size，则在每次读取块后将块大小加倍，直到达到限制。 “关闭”是无限的。 （默认关闭） 	|
