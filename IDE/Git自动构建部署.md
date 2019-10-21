@@ -415,8 +415,8 @@ spawn git push -f ${push_url} master
 # 若有则立即返回，否则就等待一段时间后返回，等待时长就是开头设置的timeout。
 # 同时向上面的进程发送字符串, 并且自动敲Enter健(\r)
 expect {
-  \"*Username for 'https://github.com'*\" {send \"${username}\r\"; exp_continue}
-  \"*Password for 'https://woytu@github.com'*\" {send \"${password}\r\";}
+  \"*Username for 'https://github.com'*\" {send \"${push_username}\r\"; exp_continue}
+  \"*Password for 'https://woytu@github.com'*\" {send \"${push_password}\r\";}
 }
 expect eof
 "
