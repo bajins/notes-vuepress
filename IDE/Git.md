@@ -1,6 +1,6 @@
 # Git
 
-
+* [CentOS安装最新版](#CentOS安装最新版)
 * [使用命令](#使用命令)
   * [把空文件夹提交到仓库](#把空文件夹提交到仓库)
   * [更换项目远程地址](#更换项目远程地址)
@@ -32,7 +32,29 @@
 
 
 
+## CentOS安装最新版
 
+- 方式一
+
+```bash
+yum install -y http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
+# 或者
+wget http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
+rpm -ivh wandisco-git-release-7-2.noarch.rpm
+```
+
+- 方式二
+
+```bash
+curl https://setup.ius.io | sh
+# 或者
+yum install -y epel-release  
+rpm -ivh https://centos7.iuscommunity.org/ius-release.rpm
+# 查看git包版本
+yum list git2u
+# 安装
+yum -y install git2u
+```
 
 
 ## 使用命令
