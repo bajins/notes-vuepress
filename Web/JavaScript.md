@@ -7,11 +7,12 @@
 * [Http](#http)
   * [XMLHttpRequest](#xmlhttprequest)
 * [NodeJs](#nodejs)
-  * [安装](#安装)
+  * [安装rpm](#安装rpm)
+  * [安装NVM](#安装nvm)
+  * [安装yarn](#安装yarn)
   * [npm和yarn镜像](#npm和yarn镜像)
-  * [更新依赖包](#更新依赖包)
-    * [yarn](#yarn)
-    * [npm](#npm)
+  * [yarn更新依赖包](#yarn更新依赖包)
+  * [npm更新依赖包](#npm更新依赖包)
   * [依赖管理](#依赖管理)
 * [爬虫](#爬虫)
   * [Puppeteer](#puppeteer)
@@ -61,15 +62,15 @@
 
 ### other
 
-[jsdelivr](https://www.jsdelivr.com/)
+* [jsdelivr](https://www.jsdelivr.com/)
 
-[cdnjs](https://cdnjs.com/)
+* [cdnjs](https://cdnjs.com/)
 
-[bootcdn](http://www.bootcdn.cn/)
+* [bootcdn](http://www.bootcdn.cn/)
 
-[StaticfileCDN](http://staticfile.org/)
+* [StaticfileCDN](http://staticfile.org/)
 
-[75CDN](https://cdn.baomitu.com/)
+* [75CDN](https://cdn.baomitu.com/)
 
 
 ## Http
@@ -106,9 +107,8 @@
 
 ## NodeJs
 
-### 安装
+### 安装rpm
 
-- rpm
 
 > npm与Node.js一起存在，这意味着当您下载并安装Node.js时，您会自动在计算机上安装npm
 
@@ -122,7 +122,7 @@ yum install -y nodejs
 node -v && npm -v
 ```
 
-- NVM
+### 安装NVM
 
 > nodeJs版本管理工具,管理nodejs版本和npm版本
 
@@ -134,6 +134,12 @@ source ~/.bashrc
 nvm ls-remote --lts
 # 安装稳定版 Nodejs
 nvm install <最新的版本号>
+```
+
+### 安装yarn
+
+```bash
+npm install -g yarn
 ```
 
 
@@ -169,9 +175,9 @@ npm config delete proxy
 npm config delete https-proxy
 ```
 
-### 更新依赖包
 
-#### yarn
+### yarn更新依赖包
+
 
 - 更新所有到最新版本
 
@@ -189,7 +195,8 @@ yarn upgrade-interactive --latest
 yarn upgrade package@latest
 ```
 
-#### npm
+
+### npm更新依赖包
 
 > 更新`dependencies`到最新版本
 
