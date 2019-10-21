@@ -281,6 +281,12 @@ project_name=UseNotes-vuepress
 git_url=https://github.com/woytu/UseNotes-vuepress.git
 # 建议创建稳定分支，避免在开发分支上出现不稳定情况
 git_branch=master
+# 推送地址
+push_url=https://github.com/woytu/woytu.github.io.git
+# 推送用户
+push_username=user
+# 推送密码
+push_password=password
 
 if [ ! -n "$project_dir" ]; then
     echo "请设置项目存放目录"
@@ -394,6 +400,25 @@ git add -A
 git commit -m 'deploy'
 
 # 推送
-git push -f origin https://github.com/woytu/woytu.github.io.git master
+yum install -y expect
+
+expect -c "
+
+# 超时时间-1为永不超时
+set timeout -1
+
+# spawn将开启一个新的进程，或者使用：ssh $user@$host {your_command}
+# 只有先进入expect环境后才可执行spawn
+spawn git push -f ${push_url} master
+
+# 判断运行上述命令的输出结果中是否有指定的字符串(不区分大小写)。
+# 若有则立即返回，否则就等待一段时间后返回，等待时长就是开头设置的timeout。
+# 同时向上面的进程发送字符串, 并且自动敲Enter健(\r)
+expect {
+  \"*Username for 'https://github.com'*\" {send \"${username}\r\"; exp_continue}
+  \"*Password for 'https://woytu@github.com'*\" {send \"${password}\r\";}
+}
+expect eof
+"
 
 ```
