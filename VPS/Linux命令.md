@@ -14,6 +14,9 @@
 * [进制转换](#进制转换)
 * [进程与线程](#进程与线程)
 * [开机启动](#开机启动)
+* [脚本自动输入密码](#脚本自动输入密码)
+  * [指令有参数](#指令有参数)
+  * [指令无参数](#指令无参数)
 * [服务器之间传输文件](#服务器之间传输文件)
   * [scp](#scp)
   * [rsync](#rsync)
@@ -53,6 +56,7 @@
   * [traceroute](#traceroute)
   * [tcptraceroute](#tcptraceroute)
   * [mtr](#mtr)
+
 
 
 
@@ -424,6 +428,146 @@ chkconfig 脚本名 on
 ```bash
 chkconfig --list | grep 脚本名
 ```
+
+
+
+## 脚本自动输入密码
+
+
+
+### 指令有参数
+
+- 重定向
+
+> shell用重定向作为标准输入的用法是：`cmd<<delimiter`
+>
+> shell会将分界符delimiter之后直到下一个同样的分界符之前的内容作为输入
+
+> 实现ftp自动登录并运行ls指令的用法如下：其中admin为用户名，password为密码
+
+```bash
+ftp -i -n 192.168.21.46 <<EOF  
+user admin password
+ls  
+EOF
+```
+
+
+- 管道
+
+```bash
+# sudo的-S参数
+echo 'zjk123' | sudo -S cp file1 /etc/hosts
+# passwd的-stdin参数
+echo 'password' | passwd -stdin username
+```
+
+
+
+### 指令无参数
+
+* [expect - 自动交互脚本](http://xstarcd.github.io/wiki/shell/expect.html)
+
+* [shell编程之expect用法](http://blog.leanote.com/post/wkf19911118@gmail.com/shell%E7%BC%96%E7%A8%8B%E4%B9%8Bexpect)
+
+- 必须安装`expect`
+
+```bash
+# 搜索程序
+whereis expect
+# 安装
+yum install -y expect
+```
+
+> `expect` 自动应答命令用于交互式命令的自动执行
+>> `expect`与`{`之间直接必须有空格或者TAB间隔，否则会报错：`invalid command name "expect{"` 
+>
+> `spawn` expect中的监控程序，其运行会监控命令提出的交互式问题，启动新的进程
+>
+> `send` 发送问题答案给交互命令
+>
+> `\r` 表示回车
+>
+> `\n` 表示换行
+>
+> `exp_continue` 当问题不存在时继续回答下边的问题
+>
+> `expect eof` 问题回答完毕退出expect环境
+>
+> `interact` 问题回答完毕留在交互界面
+>
+> `set NAME value` 定义变量
+>
+> `set NAME [lindex $argv [expr $argc-1]]`设置变量为第一个参数值，`expr`计算
+>> `$argc`表示参数个数，参数值存放在`$argv`中
+>
+> `$NAME` 使用变量
+
+
+1. `\` 需转义为 `\\\`
+2. `}` 需转义为 `\}`
+3. `[` 需转义为 `\[`
+4. `$` 需转义为 `\\\$`
+5. <code>`</code> 需转义为 <code>\`</code>
+6. `"` 需转义为 `\\\"`
+
+
+- 方式一
+
+```bash
+username=admin
+password=admin
+
+expect -c "
+
+# 超时时间-1为永不超时
+set timeout -1
+
+# spawn将开启一个新的进程，或者使用：ssh $user@$host {your_command}
+# 只有先进入expect环境后才可执行spawn
+spawn git push -f https://github.com/woytu/woytu.github.io.git master
+
+# 判断运行上述命令的输出结果中是否有指定的字符串(不区分大小写)。
+# 若有则立即返回，否则就等待一段时间后返回，等待时长就是开头设置的timeout。
+# 同时向上面的进程发送字符串, 并且自动敲Enter健(\r)
+expect {
+  \"*Username for 'https://github.com'*\" {send \"${username}\r\"; exp_continue}
+  \"*Password for 'https://woytu@github.com'*\" {send \"${password}\r\";}
+}
+expect eof
+"
+```
+
+- 方式二
+
+```bash
+#!/usr/bin/expect
+
+set username "admin"
+set password "admin"
+
+# 超时时间-1为永不超时
+set timeout -1
+
+# spawn将开启一个新的进程，或者使用：ssh $user@$host {your_command}
+# 只有先进入expect环境后才可执行spawn
+spawn git push -f https://github.com/woytu/woytu.github.io.git master
+
+# 判断运行上述命令的输出结果中是否有指定的字符串(不区分大小写)。
+# 若有则立即返回，否则就等待一段时间后返回，等待时长就是开头设置的timeout。
+expect "*Username for 'https://github.com'*"
+# 向上面的进程发送字符串, 并且自动敲Enter健(\r)
+# -- 后面的"之间有一个空格
+send -- "$username\n"
+
+expect "*Password for 'https://woytu@github.com'*"
+# -- 后面的"之间有一个空格
+send -- "$password\n"
+
+# 允许用户交互
+interact
+```
+
 
 
 
