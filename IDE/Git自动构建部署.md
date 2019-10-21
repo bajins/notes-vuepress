@@ -299,15 +299,29 @@ if [ ! -n "$project_name" ]; then
 fi
 
 if [ ! -n "$git_url" ]; then
-    echo "请设置git地址"
+    echo "请设置Git地址"
     exit 1
 fi
 
-if [ ! -n "$git_url" ]; then
-    echo "请设置git分支"
+if [ ! -n "$git_branch" ]; then
+    echo "请设置Git分支"
     exit 1
 fi
 
+if [ ! -n "$push_url" ]; then
+    echo "请设置Git推送地址"
+    exit 1
+fi
+
+if [ ! -n "$push_username" ]; then
+    echo "请设置Git推送用户名"
+    exit 1
+fi
+
+if [ ! -n "$push_password" ]; then
+    echo "请设置Git推送密码"
+    exit 1
+fi
 
 # 判断项目存放目录不存在则创建
 if [ ! -d $project_dir ]; then
