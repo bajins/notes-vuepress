@@ -515,8 +515,9 @@ yum install -y expect
 - 方式一
 
 ```bash
-username=admin
-password=admin
+push_url=https://github.com/woytu/woytu.github.io.git
+push_username=admin
+push_password=admin
 
 expect -c "
 
@@ -525,14 +526,14 @@ set timeout -1
 
 # spawn将开启一个新的进程，或者使用：ssh $user@$host {your_command}
 # 只有先进入expect环境后才可执行spawn
-spawn git push -f https://github.com/woytu/woytu.github.io.git master
+spawn git push -f ${push_url} master
 
 # 判断运行上述命令的输出结果中是否有指定的字符串(不区分大小写)。
 # 若有则立即返回，否则就等待一段时间后返回，等待时长就是开头设置的timeout。
 # 同时向上面的进程发送字符串, 并且自动敲Enter健(\r)
 expect {
-  \"*Username for 'https://github.com'*\" {send \"${username}\r\"; exp_continue}
-  \"*Password for 'https://woytu@github.com'*\" {send \"${password}\r\";}
+  \"*Username for 'https://github.com'*\" {send \"${push_username}\r\"; exp_continue}
+  \"*Password for 'https://woytu@github.com'*\" {send \"${push_password}\r\";}
 }
 expect eof
 "
@@ -543,26 +544,27 @@ expect eof
 ```bash
 #!/usr/bin/expect
 
-set username "admin"
-set password "admin"
+set push_url "https://github.com/woytu/woytu.github.io.git"
+set push_username "admin"
+set push_password "admin"
 
 # 超时时间-1为永不超时
 set timeout -1
 
 # spawn将开启一个新的进程，或者使用：ssh $user@$host {your_command}
 # 只有先进入expect环境后才可执行spawn
-spawn git push -f https://github.com/woytu/woytu.github.io.git master
+spawn git push -f ${push_url} master
 
 # 判断运行上述命令的输出结果中是否有指定的字符串(不区分大小写)。
 # 若有则立即返回，否则就等待一段时间后返回，等待时长就是开头设置的timeout。
 expect "*Username for 'https://github.com'*"
 # 向上面的进程发送字符串, 并且自动敲Enter健(\r)
 # -- 后面的"之间有一个空格
-send -- "$username\n"
+send -- "$push_username\n"
 
 expect "*Password for 'https://woytu@github.com'*"
 # -- 后面的"之间有一个空格
-send -- "$password\n"
+send -- "$push_password\n"
 
 # 允许用户交互
 interact
