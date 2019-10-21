@@ -275,7 +275,7 @@ fi
 
 # 项目存放目录
 project_dir=/home/
-# 项目目录
+# 项目名
 project_name=UseNotes-vuepress
 # git远程地址
 git_url=https://github.com/woytu/UseNotes-vuepress.git
