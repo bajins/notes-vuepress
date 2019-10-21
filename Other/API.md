@@ -9,7 +9,7 @@
   * [按关键字搜索壁纸](#按关键字搜索壁纸)
   * [获取今日热门搜索](#获取今日热门搜索)
 * [unsplash](#unsplash)
-* [wallhaven.cc](#wallhavencc)
+* [wallhaven](#wallhaven)
 * [pexels](#pexels)
 * [pixabay](#pixabay)
 * [visualhunt](#visualhunt)
@@ -482,7 +482,7 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 
 
 
-## wallhaven.cc
+## wallhaven
 
 - **搜索**
 
@@ -510,12 +510,11 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 > https://w.wallhaven.cc/full/图片编号前两位/wallhaven-图片编号前两位.jpg
 
 
-- 例子
+- **图片详情**
 
-[https://wallhaven.cc/wallpaper/694633](https://wallhaven.cc/wallpaper/694633)
+> https://wallhaven.cc/w/图片编号
 
-[https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-694633.jpg](https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-694633.jpg)
-
+> 标签在`a class="tagname" rel="tag"`页面元素的文本内容
 
 
 
@@ -552,6 +551,13 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 >> 参数`dl`的值为`bright-close-up-colorful`开头就代表下载
 
 
+- **图片详细信息**
+
+> https://www.pexels.com/zh-cn/photo/图片编号
+
+> 标签在`meta name="keywords"`页面元素的`content`属性值
+> 
+> 或者为`a class="rd__tag" data-track-action="medium-related-tags" data-track-label="tag"`页面元素的文本内容
 
 
 
