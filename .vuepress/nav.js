@@ -20,7 +20,15 @@ module.exports = [
                     {
                         text: '获取激活key',
                         link: 'https://key.woytu.com'
-                    }
+                    },
+                    {
+                        text: 'GoogleDrive',
+                        link: 'https://gd.woytu.workers.dev'
+                    },
+                    {
+                        text: 'OneDrive',
+                        link: 'https://one.bajins.com'
+                    },
                 ]
             },
             {
