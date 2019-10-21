@@ -532,8 +532,8 @@ spawn git push -f ${push_url} master
 # 若有则立即返回，否则就等待一段时间后返回，等待时长就是开头设置的timeout。
 # 同时向上面的进程发送字符串, 并且自动敲Enter健(\r)
 expect {
-  \"*Username for 'https://github.com'*\" {send \"${push_username}\r\"; exp_continue}
-  \"*Password for 'https://woytu@github.com'*\" {send \"${push_password}\r\";}
+  \"*Username*\" {send \"${push_username}\r\"; exp_continue}
+  \"*Password*\" {send \"${push_password}\r\";}
 }
 expect eof
 "
@@ -557,12 +557,12 @@ spawn git push -f ${push_url} master
 
 # 判断运行上述命令的输出结果中是否有指定的字符串(不区分大小写)。
 # 若有则立即返回，否则就等待一段时间后返回，等待时长就是开头设置的timeout。
-expect "*Username for 'https://github.com'*"
+expect "*Username*"
 # 向上面的进程发送字符串, 并且自动敲Enter健(\r)
 # -- 后面的"之间有一个空格
 send -- "$push_username\n"
 
-expect "*Password for 'https://woytu@github.com'*"
+expect "*Password*"
 # -- 后面的"之间有一个空格
 send -- "$push_password\n"
 
