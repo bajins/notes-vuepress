@@ -1157,10 +1157,10 @@ End Function
 - **获取对象的属性和值**
 
 ```visual-basic
-'获取对象的属性和值
+' 获取对象的属性和值
 'Writer         Bajins
 'Create Date    2019-10-22
-'obj      对象
+'obj            对象
 'Example        GetObjectPropertieValue(obj)
 Public Function GetObjectPropertieValue(obj)
     IF Not IsObject(obj) Then
@@ -1184,28 +1184,35 @@ End Function
 - **获取系统信息**
 
 ```visual-basic
-'Set WMIService = GetObject("winmgmts:\\.\root\cimv2")
-'Set ComputerSystem = WMIService.ExecQuery("select * from Win32_ComputerSystem")
+' 获取系统位数
+'Writer         Bajins
+'Create Date    2019-10-22
+'obj            对象
+'Example        GetObjectPropertieValue(obj)
+Public Function GetSystemInfo()
+    'Set WMIService = GetObject("winmgmts:\\.\root\cimv2")
+    'Set ComputerSystem = WMIService.ExecQuery("select * from Win32_ComputerSystem")
 
-'Set locator = CreateObject("WbemScripting.SWbemLocator")
-'Set WMIService = locator.ConnectServer(, "root\cimv2")
-'Set ComputerSystem = WMIService.ExecQuery("select * from Win32_ComputerSystem")
+    'Set locator = CreateObject("WbemScripting.SWbemLocator")
+    'Set WMIService = locator.ConnectServer(, "root\cimv2")
+    'Set ComputerSystem = WMIService.ExecQuery("select * from Win32_ComputerSystem")
 
-Set WMIService = GetObject("winmgmts:{impersonationlevel=impersonate}!\\.\root\cimv2")
-Set ComputerSystem = WMIService.InstancesOf("Win32_ComputerSystem")
+    Set WMIService = GetObject("winmgmts:{impersonationlevel=impersonate}!\\.\root\cimv2")
+    Set ComputerSystem = WMIService.InstancesOf("Win32_ComputerSystem")
 
-
-For Each System in ComputerSystem
-    IF InStr(System.SystemType,"86") > 0 Then
-        WScript.Echo("i386")
-        Exit For
-    End IF
+    For Each System in ComputerSystem
+        IF InStr(System.SystemType,"86") > 0 Then
+            GetSystemInfo = "i386"
+            Exit For
+        End IF
+        
+        IF InStr(System.SystemType,"64") > 0 Then
+            GetSystemInfo = "amd64"
+            Exit For
+        End IF
+    Next
     
-    IF InStr(System.SystemType,"64") > 0 Then
-        WScript.Echo("amd64")
-        Exit For
-    End IF
-Next
+End Function
 ```
 
 
