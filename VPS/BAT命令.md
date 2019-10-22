@@ -207,6 +207,7 @@ Pushd %~dp0
 start /wait /B "" "%~dp0软件名称" /DEL
 ````
 
+
 ### vbs脚本
 
 > 此方式完全不会显示`CMD`窗口（包括闪现）
@@ -235,6 +236,30 @@ item = "HKCU\Software\Microsoft\Windows\CurrentVersion\Run\"
 ' 设置开机启动
 shell.RegWrite item & keyName, WScript.ScriptFullName
 ```
+
+
+```visual-basic
+ProcesseName="rclone.exe"
+
+' 查找进程
+Set WMIService = GetObject("winmgmts:{impersonationlevel=impersonate}!\\.\root\cimv2")
+Set Processes = WMIService.ExecQuery("select * from win32_process where name='" & ProcesseName & "'")
+
+For Each Process In Processes
+    ' 比较两个字符串
+    If InStr(UCase(Process.name), UCase(ProcesseName)) = 0 Then
+        Exit for
+    End If
+    ' 运行程序
+    Set WS = Wscript.CreateObject("Wscript.Shell")
+    WS.Run "rclone mount GDrive:/ x: --cache-dir F:\Temp --vfs-cache-mode writes", 0
+Next
+```
+
+
+
+
+
 
 ## 开机启动
 
