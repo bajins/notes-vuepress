@@ -14,7 +14,11 @@
 * [JScript](#jscript)
   * [ActiveXObject](#activexobject)
   * [参数传递](#参数传递)
-  * [函数封装](#函数封装)
+  * [js函数封装](#js函数封装)
+* [VBScript](#vbscript)
+  * [vbs特殊符号](#vbs特殊符号)
+  * [vbs函数封装](#vbs函数封装)
+
 
 
 
@@ -641,7 +645,7 @@ var path = Argv(2);
 
 
 
-### 函数封装
+### js函数封装
 
 - HTTP请求
 
@@ -1072,6 +1076,136 @@ function autoStart(mode) {
     // 关闭文件
     vbsFile.Close();
 }
+```
+
+
+## VBScript
+
+* [Visual Basic 指南](https://docs.microsoft.com/zh-cn/dotnet/visual-basic/)
+
+* [VBScript 语言](https://www.tcoline.com/resource/vbs/top_vbs_0.htm)
+
+* [VBScript 教程](https://code.ziqiangxuetang.com/vbscript/vbscript-tutorial.html)
+
+* [VBScript 函数](https://www.w3school.com.cn/vbscript/vbscript_ref_functions.asp)
+
+
+- `Scripting.Dictionary` 字典
+
+> 包含字典的添加、删除、判断键是否存在、修改键、修改值、遍历、统计键值对个数
+
+- `System.Collections.ArrayList` 动态数组
+
+> 包含动态数组的添加元素、删除元素、遍历、统计元素个数、清空
+
+- `System.Collections.Queue` 队列
+
+> 包含队列的添加元素（入队）、删除元素（出队）、遍历、统计元素个数、清空
+
+- `System.Collections.Stack` 堆栈
+
+> 包含堆栈的添加元素（压栈）、删除元素（出栈）、遍历、统计元素个数、清空
+
+
+
+
+
+### vbs特殊符号
+
+| 常数            | 值                             | 描述                         |
+|---------------|-------------------------------|----------------------------|
+| vbCr          | Chr\(13\)                     | 回车符。                       |
+| vbCrLf        | Chr\(13\)&Chr\(10\)           | 回车符与换行符。                   |
+| vbFormFeed    | Chr\(12\)                     | 换页符；在MicrosoftWindows中不适用。 |
+| vbLf          | Chr\(10\)                     | 换行符。                       |
+| vbNewLine     | Chr\(13\)&Chr\(10\)或Chr\(10\) | 平台指定的新行字符；适用于任何平台。         |
+| vbNullChar    | Chr\(0\)                      | 值为0的字符。                    |
+| vbNullString  | 值为0的字符串                       | 与零长度字符串\(""\)不同；用于调用外部过程。  |
+| vbTab         | Chr\(9\)                      | 水平附签。                      |
+| vbVerticalTab | Chr\(11\)                     | 垂直附签；在MicrosoftWindows中不用  |
+
+
+
+
+### vbs函数封装
+
+- **数组转换为字符串**
+
+```visual-basic
+'数组转换为字符串
+'Writer         Bajins
+'Create Date    2019-10-22
+'arrayName      数组
+'separator      separator
+'Example        ConvertArrayToString(array, ",")
+Public Function ConvertArrayToString(array, separator)
+    Dim elementString
+
+    For Each element In array
+        elementString = elementString + Cstr(element) + separator
+    Next
+
+    elementString = StrReverse(elementString)
+    elementString = Replace(elementString, separator,"",1,1)
+    elementString = StrReverse(elementString)
+    ' 设置返回值
+    ConvertArrayToString = elementString
+End Function
+```
+
+
+- **获取对象的属性和值**
+
+```visual-basic
+'获取对象的属性和值
+'Writer         Bajins
+'Create Date    2019-10-22
+'obj      对象
+'Example        GetObjectPropertieValue(obj)
+Public Function GetObjectPropertieValue(obj)
+    IF Not IsObject(obj) Then
+        'Exit Function
+        Err.Raise Err.Number
+    END IF
+    
+    Dim kv
+    
+    For Each Propertie in obj.Properties_
+       kv = kv & Propertie.name & " : " & Propertie.value & vbCrLf
+    Next
+    
+    kv = "属性数量：" & obj.Properties_.count & vbCrLf & kv
+    
+    ' 设置返回值
+    GetObjectPropertieValue = kv
+End Function
+```
+
+- **获取系统信息**
+
+```visual-basic
+'Set WMIService = GetObject("winmgmts:\\.\root\cimv2")
+'Set ComputerSystem = WMIService.ExecQuery("select * from Win32_ComputerSystem")
+
+'Set locator = CreateObject("WbemScripting.SWbemLocator")
+'Set WMIService = locator.ConnectServer(, "root\cimv2")
+'Set ComputerSystem = WMIService.ExecQuery("select * from Win32_ComputerSystem")
+
+Set WMIService = GetObject("winmgmts:{impersonationlevel=impersonate}!\\.\root\cimv2")
+Set ComputerSystem = WMIService.InstancesOf("Win32_ComputerSystem")
+
+
+For Each System in ComputerSystem
+    IF InStr(System.SystemType,"86") > 0 Then
+        WScript.Echo("i386")
+        Exit For
+    End IF
+    
+    IF InStr(System.SystemType,"64") > 0 Then
+        WScript.Echo("amd64")
+        Exit For
+    End IF
+Next
 ```
 
 
