@@ -356,7 +356,7 @@ location ~* \.(txt|doc)${
 
 
 
-> `$request_body_file` 将客户端请求主体保存在临时文件中。文件处理结束后，此文件需删除。如果需要之一开启此功能，
+> `$request_body_file` 将客户端请求主体保存在临时文件中。文件处理结束后，此文件需删除。如果需要执意开启此功能，
 > 需要设置`client_body_in_file_only`。如果将次文件传递给后端的代理服务器，需要禁用`request body`，
 > 即设置`proxy_pass_request_body off`，`fastcgi_pass_request_body off`，
 > `uwsgi_pass_request_body off`，`scgi_pass_request_body off`
