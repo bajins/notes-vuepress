@@ -1187,8 +1187,7 @@ End Function
 ' 获取系统位数
 'Writer         Bajins
 'Create Date    2019-10-22
-'obj            对象
-'Example        GetObjectPropertieValue(obj)
+'Example        GetSystemBit()
 Public Function GetSystemBit()
     'Set WMIService = GetObject("winmgmts:\\.\root\cimv2")
     'Set ComputerSystem = WMIService.ExecQuery("select * from Win32_ComputerSystem")
