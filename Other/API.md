@@ -543,6 +543,8 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 
 - **保存**
 
+> 图片编号以`10000`为起始位置
+
 > https://www.pexels.com/photo/图片编号/download/
 >
 > 此链接也是返回下面的链接进行下载文件，请看`Response Headers`中的`location`参数
