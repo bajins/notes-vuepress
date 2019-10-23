@@ -1189,7 +1189,7 @@ End Function
 'Create Date    2019-10-22
 'obj            对象
 'Example        GetObjectPropertieValue(obj)
-Public Function GetSystemInfo()
+Public Function GetSystemBit()
     'Set WMIService = GetObject("winmgmts:\\.\root\cimv2")
     'Set ComputerSystem = WMIService.ExecQuery("select * from Win32_ComputerSystem")
 
@@ -1202,16 +1202,16 @@ Public Function GetSystemInfo()
 
     For Each System in ComputerSystem
         IF InStr(System.SystemType,"86") > 0 Then
-            GetSystemInfo = "i386"
+            GetSystemBit = "i386"
             Exit For
         End IF
         
         IF InStr(System.SystemType,"64") > 0 Then
-            GetSystemInfo = "amd64"
+            GetSystemBit = "amd64"
             Exit For
         End IF
     Next
-    
+
 End Function
 ```
 
