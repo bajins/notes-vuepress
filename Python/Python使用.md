@@ -181,7 +181,7 @@ pip3 install --ignore-installed 模块名
 ```bash
 pip list -o
 pip list --outdated
-# format有两个选项：legacy、columns，后者会带一个表头
+# format有两个选项：columns(有表头), freeze(无表头), json
 pip list --outdated --format=columns
 ```
 
@@ -198,7 +198,7 @@ pip install --upgrade 要升级的包名
 ```bash
 pip freeze --local | grep -v '^-e' | cut -d = -f 1  | xargs -n1 pip install -U
 
-pip list -o --format legacy|awk '{print $1}'` ; do pip install --upgrade $i; done
+pip list -o --format=freeze | cut -d = -f 1  | xargs -n1 pip install -U
 ```
 
 ```bash
