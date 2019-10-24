@@ -143,19 +143,28 @@ ln -s /bin/pip3.6 /bin/pip3
 
 ## pip
 
+* [Python包管理工作流](https://frostming.com/2018/09-14/python-packaging-flow)
+
+
 ### 生成依赖管理文件
 
 ```bash
 pip freeze > requirements.txt
-``` 
+```
+
 
 ### 根据管理文件安装依赖
 
 ```bash
 pip install -r requirements.txt
+pip install --requirement requirements.txt
 ```
 
+
+
 ### 更新
+
+- **更新pip**
 
 ```bash
 python -m pip install --upgrade pip setuptools
@@ -166,6 +175,67 @@ python -m pip install --upgrade pip setuptools
 ```bash
 pip3 install --ignore-installed 模块名
 ```
+
+- **查看可更新的库**
+
+```bash
+pip list -o
+pip list --outdated
+# format有两个选项：legacy、columns，后者会带一个表头
+pip list --outdated --format=columns
+```
+
+- **更新单个库**
+
+```bash
+pip install --upgrade 要升级的包名
+```
+
+- **批量更新库**
+
+* [使用pip升级所有包](https://www.codenong.com/2720014/)
+
+```bash
+pip freeze --local | grep -v '^-e' | cut -d = -f 1  | xargs -n1 pip install -U
+
+pip list -o --format legacy|awk '{print $1}'` ; do pip install --upgrade $i; done
+```
+
+```bash
+# 安装 pip-review
+pip install pip-review
+# 查看可更新的包
+pip-review
+# 自动更新所有包
+pip-review --auto
+# 更新包，提供操作可选项：[Y]es, [N]o, [A]ll, [Q]uit
+pip-review --local --interactive
+```
+
+```python
+from subprocess import call
+from pip._internal.utils.misc import get_installed_distributions
+
+packages = [dist.project_name for dist in get_installed_distributions()]
+call("pip install --upgrade" + ' '.join(packages), shell=True)
+```
+
+```python
+import pkg_resources
+from subprocess import call
+
+packages = [dist.project_name for dist in pkg_resources.working_set]
+call("pip install --upgrade" + ' '.join(packages), shell=True)
+```
+
+
+### 卸载库
+
+```bash
+pip uninstall 要卸载的包名
+```
+
+
 
 ### 换源
 
