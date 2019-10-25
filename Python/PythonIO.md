@@ -68,7 +68,8 @@
 
 - `os.fpathconf(fd, name)`
 
-> 返回一个打开的文件的系统配置信息。name为检索的系统配置的值，它也许是一个定义系统值的字符串，这些名字在很多标准中指定（POSIX.1, Unix 95, Unix 98, 和其它）。
+> 返回一个打开的文件的系统配置信息。name为检索的系统配置的值，它也许是一个定义系统值的字符串，
+> 这些名字在很多标准中指定（POSIX.1, Unix 95, Unix 98, 和其它）。
 
 - `os.fstat(fd)`
 
@@ -120,7 +121,8 @@
 
 - `os.lseek(fd, pos, how)`
 
-> 设置文件描述符 fd当前位置为pos, how方式修改: SEEK_SET 或者 0 设置从文件开始的计算的pos; SEEK_CUR或者 1 则从当前位置计算; os.SEEK_END或者2则从文件尾部开始. 在unix，Windows中有效
+> 设置文件描述符 fd当前位置为pos, how方式修改: SEEK_SET 或者 0 设置从文件开始的计算的pos; 
+> SEEK_CUR或者 1 则从当前位置计算; os.SEEK_END或者2则从文件尾部开始. 在unix，Windows中有效
 
 - `os.lstat(path)`
 

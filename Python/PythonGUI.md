@@ -9,7 +9,7 @@
 
 ## `wxPython`
 
-[https://wxpython.org/pages/overview/](https://wxpython.org/pages/overview/)
+* [https://wxpython.org/pages/overview/](https://wxpython.org/pages/overview/)
 
 > `wxPython`是一个用于`Python`编程语言的跨平台`GUI`工具包。包含流行的`wxWidgets`跨平台库的`GUI`组件，该库是用`C++`编写的。
 
@@ -35,6 +35,7 @@
 > 它们在单独的模块中提供，以帮助减少那些不需要任何这些类的应用程序的开销和依赖性。
 
 ### 方法
+
 * `SetTitle( string title )` 设置窗口标题。只可用于框架和对话框
 * `SetToolTip( wx.ToolTip tip )` 为窗口添加提示
 * `SetSize( wx.Size size )` 设置窗口的尺寸
@@ -45,10 +46,12 @@
 * `Refresh` 刷新窗口
 
 * `wx.CallLater(millis, callableObj, *args, **kwargs)`
+
 > 最抽象的线程安全函数
 
 
 * `wx.CallAfter(callable, *args, **kwargs)`
+
 > 该函数是在当前和待处理事件处理程序完成后调用指定的函数。
 >
 > 这个方法是利用PostEvent()来实现的。执行这个方法后，将在主事件循环中加入一个事件，然后通过事件循环进行处理。
@@ -60,12 +63,15 @@
 
 
 * `wx.FutureCall(milliseconds, callable, *args, **kwargs)`
+
 > 从wx.Timer中派生出来的，它的作用是在指定时间之后执行一个方法。
 
 * `pub.subscribe(self.update_display, "update")`
+
 > 发布一个叫update的主题，触发update_display函数
 
 * `pub.sendMessage("update", msg='测试', status=0)`
+
 > 给update主题发送消息，`msg`和`status`都是自定义键值对
 
 
@@ -80,7 +86,9 @@
 * `wx.TimerEvent`:由类wx.Timer创建，定期事件。
 
 ### `style`样式常量
+
 #### Frame
+
 | 参数                       | 描述      | 说明 |
 |--------------------------|---------|----|
 | wx.DEFAULT_FRAME_STYLE   | 默认的框架样式 |
@@ -95,6 +103,7 @@
 
 
 #### StaticText
+
 | 参数                     | 描述                          | 说明 |
 |------------------------|-----------------------------|----|
 | wx.ALIGN_LEFT          | 控制标签的大小及对齐                  |
@@ -108,6 +117,7 @@
 
 
 #### Font
+
 | 参数                   | 描述              | 说明           |
 |----------------------|-----------------|--------------|
 | Wx.FONTSTYLE_NORMAL  | 字体绘制不使用倾斜       | fontfamiy参数  |
@@ -120,6 +130,7 @@
 
 
 #### TextCtrl
+
 | 参数              | 描述                              | 说明 |
 |-----------------|---------------------------------|----|
 | wx.TE_MULTILINE | 文本控件允许多行，如果未指定该样式，换行字符不应该在控件中使用 |
@@ -139,6 +150,7 @@
 
 
 #### CheckBox
+
 | 参数             | 描述              | 说明 |
 |----------------|-----------------|----|
 | wx.CHK_2STATE  | 创建两个状态复选框，默认    |
@@ -148,6 +160,7 @@
 
 
 #### ComboBox
+
 | 参数             | 描述          | 说明 |
 |----------------|-------------|----|
 | wx.CB_SIMPLE   | 组合框与永久显示的列表 |
@@ -158,6 +171,7 @@
 
 
 #### Guage
+
 | 参数               | 描述                  | 说明 |
 |------------------|---------------------|----|
 | wx.GA_HORIZONTAL | 进度条的横向布局            |
@@ -168,6 +182,7 @@
 
 
 #### Slider
+
 | 参数                   | 描述             | 说明 |
 |----------------------|----------------|----|
 | wx.SL_HORIZONTAL     | 水平滑块           |
@@ -180,6 +195,7 @@
 
 
 #### ToolBar
+
 | 参数                  | 描述                            | 说明 |
 |---------------------|-------------------------------|----|
 | wx.TB_FLAT          | 提供该工具栏平面效果                    |
@@ -195,6 +211,7 @@
 
 
 #### Dialog
+
 | 参数                      | 描述                             | 说明 |
 |-------------------------|--------------------------------|----|
 | wx.CAPTION              | 对话框的文字说明                       |
@@ -209,6 +226,7 @@
 
 
 #### FileDialog
+
 | 参数                     | 描述                           | 说明 |
 |------------------------|------------------------------|----|
 | wx.FD_DEFAULT_STYLE    | 相当于wx.FD_OPEN                |
@@ -220,6 +238,7 @@
 
 
 #### SplitterWindow
+
 | 参数                   | 描述                      | 说明 |
 |----------------------|-------------------------|----|
 | wx.SP_3D             | 绘制3d效果边框和窗扇             |
@@ -231,6 +250,7 @@
 
 
 #### HTMLWindow
+
 | 参数                    | 描述                 | 说明 |
 |-----------------------|--------------------|----|
 | wx.HW_SCROLLBAR_NEVER | 永远不显示滚动条，即使是页面比窗口大 |
@@ -240,6 +260,7 @@
 
 
 ### 欢迎界面
+
 ```python
 import wx.adv
 import time
@@ -337,6 +358,7 @@ if __name__=='__main__':
 ```bash
 pip install pypubsub
 ```
+
 - 示例一
 
 ```python
@@ -439,6 +461,7 @@ if __name__ == "__main__":
 
 
 - 示例二
+
 ```python
 import time
 import wx
@@ -519,9 +542,9 @@ if __name__ == "__main__":
 
 ## `PySide`
 
-[https://wiki.qt.io/Qt_for_Python/zh](https://wiki.qt.io/Qt_for_Python/zh)
+* [https://wiki.qt.io/Qt_for_Python/zh](https://wiki.qt.io/Qt_for_Python/zh)
 
-[https://gaianote.github.io/2018/09/15/PyQt5%E5%AD%A6%E4%B9%A0%E4%B9%8Bline-edit/](https://gaianote.github.io/2018/09/15/PyQt5%E5%AD%A6%E4%B9%A0%E4%B9%8Bline-edit/)
+* [https://gaianote.github.io/2018/09/15/PyQt5%E5%AD%A6%E4%B9%A0%E4%B9%8Bline-edit/](https://gaianote.github.io/2018/09/15/PyQt5%E5%AD%A6%E4%B9%A0%E4%B9%8Bline-edit/)
 
 > `Pyside`最初是为诺基亚开发的，而它是Qt技术的所有者。
 > 当诺基亚将Qt出售给`Digia`（现在是Qt公司）时，Qt4原始`Pyside`代码的所有版权也转移到了Qt公司。
@@ -613,7 +636,7 @@ if __name__ == "__main__":
 
 ## `PyGObject`
 
-[https://pygobject.readthedocs.io/en/latest/](https://pygobject.readthedocs.io/en/latest/)
+* [https://pygobject.readthedocs.io/en/latest/](https://pygobject.readthedocs.io/en/latest/)
 
 > `PyGObject`是一个`Python`包，它为基于`GObject`的库提供绑定，例如`GTK`、`GStreamer`、`WebKitGTK`、`GLib`、`GIO`等等。
 

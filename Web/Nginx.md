@@ -7,17 +7,17 @@
   * [location语法规则](#location语法规则)
   * [内部调用](#内部调用)
 * [rewrite语法](#rewrite语法)
-  * [可以用来判断的表达式](#可以用来判断的表达式)
-  * [可以用作判断的全局变量](#可以用作判断的全局变量)
+* [判断表达式](#判断表达式)
 * [Redirect语法](#redirect语法)
 * [防盗链](#防盗链)
-* [根据文件类型设置过期时间](#根据文件类型设置过期时间)
+* [以后缀设置过期时间](#以后缀设置过期时间)
 * [禁止访问某个目录](#禁止访问某个目录)
 * [全局变量](#全局变量)
 * [判断`user_agent`](#判断user_agent)
 * [`proxy_pass`指令](#proxy_pass指令)
 * [主配置](#主配置)
 * [动静分离配置](#动静分离配置)
+
 
 
 
@@ -240,31 +240,15 @@ location @pass {
 | permanent | 将重写的URI返回客户端，状态码为301,指明是永久重定向；                                                          |
 
 
-### 可以用来判断的表达式
+## 判断表达式
 
-> `-f` 和 `!-f`    用来判断是否存在文件
+| 表达式        	| 说明                       	|
+|---------------	|----------------------------	|
+| `-d` 和 `!-d` 	| 用来判断是否存在目录       	|
+| `-e` 和 `!-e` 	| 用来判断是否存在文件或目录 	|
+| `-f` 和 `!-f` 	| 用来判断是否存在文件       	|
+| `-x` 和 `!-x` 	| 用来判断文件是否可执行     	|
 
-> `-d` 和 `!-d`    用来判断是否存在目录
-
-> `-e` 和 `!-e`    用来判断是否存在文件或目录
-
-> `-x` 和 `!-x`    用来判断文件是否可执行
-
-### 可以用作判断的全局变量
-
-> 例：http://localhost:88/test1/test2/test.php
-  
->> $host：localhost
-
->> $server_port：88
-
->> $request_uri：http://localhost:88/test1/test2/test.php
-
->> $document_uri：/test1/test2/test.php
-
->> $document_root：D:\nginx/html
-
->> $request_filename：D:\nginx/html/test1/test2/test.php
 
 ## Redirect语法
 
@@ -291,7 +275,7 @@ location ~* \.(gif|jpg|swf)$ {
 }
 ```
 
-## 根据文件类型设置过期时间
+## 以后缀设置过期时间
 
 ```nginx
 location ~* \.(js|css|jpg|jpeg|gif|png|swf)$ {

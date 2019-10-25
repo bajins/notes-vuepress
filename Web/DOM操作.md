@@ -1,12 +1,18 @@
 # DOM操作
 
+
+## flag
+
 * [HTML DOM 教程](https://www.w3school.com.cn/htmldom/index.asp)
 
 * [DOM对象](https://www.w3school.com.cn/jsref/dom_obj_document.asp)
 
 * [JavaScript HTML DOM](https://www.w3school.com.cn/js/js_htmldom_document.asp)
 
+
+
 ## 获取元素
+
 ```js
 document.getElementById('元素的ID')
 document.getElementsByTagName('元素的标签名')
@@ -26,6 +32,7 @@ document.querySelectorAll()
 
 
 ## 获取宽高
+
 ```js
 // 显示浏览器的屏幕的可用宽度像素
 screen.availWidth

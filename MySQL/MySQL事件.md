@@ -22,6 +22,7 @@
 
 
 ## 事件是什么
+
 > MySQL5.1版本开始引进event概念，MySQL中的事件(event：时间触发器)是用于执行定时或周期性的任务，类似Linux中的`crontab`，
 > 但是后者只能精确到分钟，事件可以精确到秒。
 >
@@ -33,6 +34,7 @@
 
 
 ## 查看事件调度器
+
 > MySQL中调度器`event_scheduler`负责调用事件，也就是由全局变量`event_scheduler`的状态决定，它默认是`OFF`, 一般是`OFF`。
 
 ```sql
@@ -48,6 +50,7 @@ SET GLOBAL event_scheduler=1
 
 
 ## 查看事件
+
 ```sql
 SHOW EVENTS;
 
@@ -56,6 +59,7 @@ SELECT * FROM mysql.event;
 ```
 
 ## 查看事件创建语句
+
 ```sql
 SHOW CREATE EVENT event_name
 ```

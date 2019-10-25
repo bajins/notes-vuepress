@@ -67,7 +67,7 @@
 
 ### Network-Reinstall-System-Modify
 
-[https://github.com/MeowLove/Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify)
+* [https://github.com/MeowLove/Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify)
 
 ```bash
 yum update
@@ -154,7 +154,7 @@ bash <(wget --no-check-certificate -qO- 'https://zhujiwiki.com/wp-content/upload
 
 ### moeclub
 
-[https://moeclub.org/2018/04/03/603/](https://moeclub.org/2018/04/03/603/)
+* [https://moeclub.org/2018/04/03/603/](https://moeclub.org/2018/04/03/603/)
 
 > 适用于由GRUB引导的CentOS,Ubuntu,Debian系统
 
@@ -208,7 +208,7 @@ make
 checkinstall
 ```
 
-- CheckInstall会完成以下任务：
+- CheckInstall会完成以下任务
 
 > 调用`make install`，然后用`installwatch`监视、记录整个安装过程中添加的文件
 
@@ -713,7 +713,7 @@ yum remove 内核名字
 
 ### 一键安装脚本
 
-[秋水逸冰](https://github.com/teddysun/across)
+* [秋水逸冰](https://github.com/teddysun/across)
 
 - 下载并执行脚本
 
@@ -811,34 +811,34 @@ grub2-set-default 0
 
 ## shadowsocks
 
-[shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows/releases)
+* [shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows/releases)
 
-[shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases)
+* [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases)
 
 ## v2ray
 
-[v2ray-tools](https://www.v2ray.com/awesome/tools.html)
+* [v2ray-tools](https://www.v2ray.com/awesome/tools.html)
 
-[v2ray-core](https://github.com/v2ray/v2ray-core/releases)
+* [v2ray-core](https://github.com/v2ray/v2ray-core/releases)
 
-[v2rayNG-android](https://github.com/2dust/v2rayNG/releases)
+* [v2rayNG-android](https://github.com/2dust/v2rayNG/releases)
 
-[v2rayN-Windows](https://github.com/2dust/v2rayN/releases)
+* [v2rayN-Windows](https://github.com/2dust/v2rayN/releases)
 
-[V2RayW-Windows](https://github.com/Cenmrev/V2RayW/releases)
+* [V2RayW-Windows](https://github.com/Cenmrev/V2RayW/releases)
 
-[v2ray教程](https://yuan.ga/v2ray-complete-tutorial/)
+* [v2ray教程](https://yuan.ga/v2ray-complete-tutorial/)
 
-[multi-v2ray](https://github.com/Jrohy/multi-v2ray)
+* [multi-v2ray](https://github.com/Jrohy/multi-v2ray)
 
 
 ## PAC
 
-[https://github.com/lbp0200/mono_pac](https://github.com/lbp0200/mono_pac)
+* [https://github.com/lbp0200/mono_pac](https://github.com/lbp0200/mono_pac)
 
-[https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt](https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt)
+* [https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt](https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt)
 
-[https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/other/pac.txt](https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/other/pac.txt)
+* [https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/other/pac.txt](https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/other/pac.txt)
 
 
 

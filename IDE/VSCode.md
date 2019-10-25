@@ -18,14 +18,10 @@
   * [调试Debug](#调试debug)
   * [集成终端`Integrated terminal`](#集成终端integrated-terminal)
 * [VSCode插件](#vscode插件)
-  * [中文语言](#中文语言)
-  * [PHP插件](#php插件)
-  * [HTML插件](#html插件)
-  * [Python插件](#python插件)
-  * [markdown](#markdown)
 
 
 ## 设置
+
 ```json
 {
     "workbench.activityBar.visible": true,
@@ -104,6 +100,7 @@
 
 
 ### 导航`Navigation`
+
 | 按 Press            | 功能 Function                                |
 |--------------------|--------------------------------------------|
 | Ctrl + T           | 显示所有符号 Show all Symbols                    |
@@ -249,70 +246,87 @@
 ## VSCode插件
 
 
-### 中文语言
+- 中文语言
+
 > `Chinese (Simplified) Language Pack for Visual Studio Code`
 
-### PHP插件
+- PHP插件
+
 > `php Intelephense`
 
-### HTML插件
+- HTML插件
+
 > `JS-CSS-HTML Formatter`
 
 > `ESLint`
 
-### Python插件
+- Python插件
 
-#### `autopep8`
+1、 `autopep8`
 
 > 格式化代码
 
-###### 用pip安装
+> 用pip安装
+
 ```bash
 pip install autopep8
 ```
-###### 在设置中加入
+
+> 在设置中加入
+
 ```
 "python.formatting.provider": "autopep8"
 ```
 
-#### pep8
+2、 pep8
 
 > 检查代码错误
 
-###### 用pip安装
+> 用pip安装
+
 ```bash
 pip install pep8
 ```
-###### 在设置中加入
+
+> 在设置中加入
+
 ```
 "python.linting.pep8Enabled": true
 ```
 
 
-#### pylint
-###### 用pip安装
+3、 pylint
+
+> 用pip安装
+
 ```bash
 pip install pylint
 ```
-###### 在设置中加入
+
+> 在设置中加入
+
 ```
 "python.linting.pylintEnabled": true
 ```
 
 
-#### flake8
-###### 用pip安装
+4、 flake8
+
+> 用pip安装
+
 ```bash
 pip install flake8
 ```
-###### 在设置中加入
+
+> 在设置中加入
+
 ```
 "python.linting.flake8Enabled": true
 ```
 
-### markdown
+- markdown
 
-[markdown-toc](https://github.com/AlanWalk/markdown-toc)
+* [markdown-toc](https://github.com/AlanWalk/markdown-toc)
 
 
 
