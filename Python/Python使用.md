@@ -2,25 +2,18 @@
 
 
 
-
-* [CentOS7安装](#centos7安装)
-  * [源码安装](#源码安装)
-    * [安装编译相关工具](#安装编译相关工具)
-    * [下载安装包解压](#下载安装包解压)
-    * [编译安装](#编译安装)
-    * [创建软连接](#创建软连接)
-    * [验证是否成功](#验证是否成功)
-    * [安装后`yum`不能正常使用](#安装后yum不能正常使用)
-  * [yum安装Python3.6](#yum安装python36)
-    * [安装`EPEL`和`IUS`软件源](#安装epel和ius软件源)
-    * [安装Python3.6](#安装python36)
-    * [创建python3连接符](#创建python3连接符)
-    * [安装pip3](#安装pip3)
-    * [创建pip3链接符](#创建pip3链接符)
+* [安装最新版本](#安装最新版本)
+  * [安装编译相关工具](#安装编译相关工具)
+  * [下载安装包解压](#下载安装包解压)
+  * [编译安装](#编译安装)
+  * [创建软连接](#创建软连接)
+  * [验证是否成功](#验证是否成功)
+  * [安装后`yum`不能正常使用](#安装后yum不能正常使用)
 * [pip](#pip)
   * [生成依赖管理文件](#生成依赖管理文件)
   * [根据管理文件安装依赖](#根据管理文件安装依赖)
   * [更新](#更新)
+  * [卸载库](#卸载库)
   * [换源](#换源)
     * [临时使用](#临时使用)
     * [永久修改](#永久修改)
@@ -36,19 +29,20 @@
     * [`setup.py`](#setuppy)
 * [其他](#其他)
   * [输入参数](#输入参数)
+  * [随机](#随机)
 
 
 
 
 
 
-## CentOS7安装
 
-### 源码安装
+
+## 安装最新版本
 
 > 全部操作都在`root`用户下执行
 
-#### 安装编译相关工具
+### 安装编译相关工具
 
 ```bash
 yum -y groupinstall "Development tools"
@@ -57,7 +51,7 @@ ncurses-devel sqlite-devel readline-devel tk-devel \
 gdbm-devel db4-devel libpcap-devel xz-devel libffi-devel
 ```
 
-#### 下载安装包解压
+### 下载安装包解压
 
 > 到官网复制最新版下载地址 https://www.python.org/downloads/release
 
@@ -69,7 +63,7 @@ tar -xvJf Python-3.7.3.tar.xz
 cd Python-3.7.3
 ```
 
-#### 编译安装
+### 编译安装
 
 ```bash
 # 创建编译安装目录，并配置指定安装路径
@@ -78,20 +72,20 @@ mkdir /usr/local/python3 && ./configure --prefix=/usr/local/python3
 make && make install > install.log
 ```
 
-#### 创建软连接
+### 创建软连接
 
 ```bash
 ln -s /usr/local/python3/bin/python3 /bin/python3
 ln -s /usr/local/python3/bin/pip3 /bin/pip3
 ```
 
-#### 验证是否成功
+### 验证是否成功
 
 ```bash
 python3 -V && pip3 -V
 ```
 
-#### 安装后`yum`不能正常使用
+### 安装后`yum`不能正常使用
 
 - 把 `#!/usr/bin/python` 修改为 `#!/usr/bin/python2`
  
@@ -103,41 +97,6 @@ vi /usr/bin/yum
 
 ```bash
 vi /usr/libexec/urlgrabber-ext-down 
-```
-
-
-
-### yum安装Python3.6
-
-#### 安装`EPEL`和`IUS`软件源
-
-```bash
-yum -y install epel-release
-yum -y install https://centos7.iuscommunity.org/ius-release.rpm
-```
-
-#### 安装Python3.6
-
-```bash
-yum -y install python36u
-```
-
-#### 创建python3连接符
-
-```bash
-ln -s /bin/python3.6 /bin/python3
-```
-
-#### 安装pip3
-
-```bash
-yum -y install python36u-pip
-```
-
-#### 创建pip3链接符
-
-```bash
-ln -s /bin/pip3.6 /bin/pip3
 ```
 
 
