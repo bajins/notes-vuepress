@@ -5,19 +5,6 @@
   * [方法](#方法)
   * [`wx.Event`的子类](#wxevent的子类)
   * [`style`样式常量](#style样式常量)
-    * [Frame](#frame)
-    * [StaticText](#statictext)
-    * [Font](#font)
-    * [TextCtrl](#textctrl)
-    * [CheckBox](#checkbox)
-    * [ComboBox](#combobox)
-    * [Guage](#guage)
-    * [Slider](#slider)
-    * [ToolBar](#toolbar)
-    * [Dialog](#dialog)
-    * [FileDialog](#filedialog)
-    * [SplitterWindow](#splitterwindow)
-    * [HTMLWindow](#htmlwindow)
   * [欢迎界面](#欢迎界面)
   * [多线程防假死与线程间传递消息](#多线程防假死与线程间传递消息)
 * [`PySide`](#pyside)
@@ -25,14 +12,15 @@
 * [`PyGObject`](#pygobject)
 * [打包](#打包)
   * [`PyInstalle`](#pyinstalle)
-    * [安装](#安装)
+    * [安装`pyinstalle`](#安装pyinstalle)
     * [生成单文件](#生成单文件)
     * [生成安装目录](#生成安装目录)
     * [静态文件处理](#静态文件处理)
-    * [参数](#参数)
+    * [`pyinstalle`参数](#pyinstalle参数)
     * [问题](#问题)
   * [`py2exe`](#py2exe)
     * [`setup.py`](#setuppy)
+
 
 
 
@@ -122,7 +110,7 @@
 
 ### `style`样式常量
 
-#### Frame
+- Frame
 
 | 参数                       | 描述      | 说明 |
 |--------------------------|---------|----|
@@ -137,7 +125,7 @@
 | wx.FRAME_FLOAT_ON_PARENT |
 
 
-#### StaticText
+- StaticText
 
 | 参数                     | 描述                          | 说明 |
 |------------------------|-----------------------------|----|
@@ -151,7 +139,7 @@
 
 
 
-#### Font
+- Font
 
 | 参数                   | 描述              | 说明           |
 |----------------------|-----------------|--------------|
@@ -164,7 +152,7 @@
 
 
 
-#### TextCtrl
+- TextCtrl
 
 | 参数              | 描述                              | 说明 |
 |-----------------|---------------------------------|----|
@@ -184,7 +172,7 @@
 
 
 
-#### CheckBox
+- CheckBox
 
 | 参数             | 描述              | 说明 |
 |----------------|-----------------|----|
@@ -194,7 +182,7 @@
 
 
 
-#### ComboBox
+- ComboBox
 
 | 参数             | 描述          | 说明 |
 |----------------|-------------|----|
@@ -205,7 +193,7 @@
 
 
 
-#### Guage
+- Guage
 
 | 参数               | 描述                  | 说明 |
 |------------------|---------------------|----|
@@ -216,7 +204,7 @@
 
 
 
-#### Slider
+- Slider
 
 | 参数                   | 描述             | 说明 |
 |----------------------|----------------|----|
@@ -229,7 +217,7 @@
 
 
 
-#### ToolBar
+- ToolBar
 
 | 参数                  | 描述                            | 说明 |
 |---------------------|-------------------------------|----|
@@ -245,7 +233,7 @@
 
 
 
-#### Dialog
+- Dialog
 
 | 参数                      | 描述                             | 说明 |
 |-------------------------|--------------------------------|----|
@@ -260,7 +248,7 @@
 | wx.DIALOG_NO_PARENT     | 为防止产生无看管对话框，不推荐使用模态对话框         |
 
 
-#### FileDialog
+- FileDialog
 
 | 参数                     | 描述                           | 说明 |
 |------------------------|------------------------------|----|
@@ -272,7 +260,7 @@
 | wx.FD_CHANGE_DIR       | 更改当前工作目录到用户选择的文件目录           |
 
 
-#### SplitterWindow
+- SplitterWindow
 
 | 参数                   | 描述                      | 说明 |
 |----------------------|-------------------------|----|
@@ -284,7 +272,7 @@
 | wx.SP_PERMIT_UNSPLIT | 总是允许取消分割，即使采用最小的窗格大小不为零 |
 
 
-#### HTMLWindow
+- HTMLWindow
 
 | 参数                    | 描述                 | 说明 |
 |-----------------------|--------------------|----|
@@ -696,7 +684,7 @@ if __name__ == "__main__":
 
 * [https://hoxis.github.io/python-pyinstaller.html](https://hoxis.github.io/python-pyinstaller.html)
 
-#### 安装
+#### 安装`pyinstalle`
 
 ```bash
 pip install pyinstaller
@@ -741,7 +729,7 @@ datas=[('view/imges/*', '.'), ('view/static/logo.png','view/static/')],
 --add-data view\static\*;view\static --add-data "list.txt;."
 ```
 
-#### 参数
+#### `pyinstalle`参数
 
 * [https://pyinstaller.readthedocs.io/en/latest/usage.html#options](https://pyinstaller.readthedocs.io/en/latest/usage.html#options)
 
