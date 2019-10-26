@@ -2,6 +2,10 @@
 
 
 
+## flag
+
+* [https://docs.python.org/zh-cn](https://docs.python.org/zh-cn)
+
 * [内置异常和函数](https://lichangke.github.io/category/#python)
 
 
