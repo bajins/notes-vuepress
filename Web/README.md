@@ -1,6 +1,17 @@
 # Web
 
 
+* [flag](#flag)
+* [框架](#框架)
+* [MimeType](#mimetype)
+
+
+
+
+
+
+
+
 ## flag
 
 * [Web 技术教程-W3School](https://www.w3school.com.cn/index.html)
@@ -14,6 +25,8 @@
 
 
 ## 框架
+
+* [jquery](https://jquery.com)
 
 * [bootstrap](https://github.com/twbs/bootstrap)
 
@@ -34,6 +47,8 @@
 * [f2ex.cn 各种前端资源](http://f2ex.cn/)
 
 
+
+## MimeType
 
 | 文件扩展名                   | Content-Type(Mime-Type)                                                   |
 |-------------------------|---------------------------------------------------------------------------|
