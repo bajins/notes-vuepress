@@ -2,7 +2,7 @@
 
 
 
-* [安装最新版本](#安装最新版本)
+* [安装新版](#安装新版)
   * [安装编译相关工具](#安装编译相关工具)
   * [下载安装包解压](#下载安装包解压)
   * [编译安装](#编译安装)
@@ -10,13 +10,13 @@
   * [验证是否成功](#验证是否成功)
   * [安装后`yum`不能正常使用](#安装后yum不能正常使用)
 * [pip](#pip)
+  * [换源](#换源)
+    * [临时使用](#临时使用)
+    * [永久生效](#永久生效)
   * [生成依赖管理文件](#生成依赖管理文件)
   * [根据管理文件安装依赖](#根据管理文件安装依赖)
   * [更新](#更新)
   * [卸载库](#卸载库)
-  * [换源](#换源)
-    * [临时使用](#临时使用)
-    * [永久修改](#永久修改)
 * [其他](#其他)
   * [输入参数](#输入参数)
   * [随机](#随机)
@@ -28,7 +28,8 @@
 
 
 
-## 安装最新版本
+
+## 安装新版
 
 > 全部操作都在`root`用户下执行
 
@@ -90,9 +91,64 @@ vi /usr/libexec/urlgrabber-ext-down
 ```
 
 
+
+
+
+
 ## pip
 
 * [Python包管理工作流](https://frostming.com/2018/09-14/python-packaging-flow)
+
+
+### 换源
+
+* [https://pypi.org/](https://pypi.org/)
+
+
+* 阿里云 [https://mirrors.aliyun.com/pypi/simple](https://mirrors.aliyun.com/pypi/simple)
+* 中国科技大学 [https://pypi.mirrors.ustc.edu.cn/simple](https://pypi.mirrors.ustc.edu.cn/simple)
+* 清华大学 [https://pypi.tuna.tsinghua.edu.cn/simple](https://pypi.tuna.tsinghua.edu.cn/simple)
+
+* 豆瓣(douban) [http://pypi.douban.com/simple](http://pypi.douban.com/simple)
+* 中国科学技术大学 [http://pypi.mirrors.ustc.edu.cn/simple](http://pypi.mirrors.ustc.edu.cn/simple)
+* 华中理工大学 [http://pypi.hustunique.com](http://pypi.hustunique.com)
+* 山东理工大学 [http://pypi.sdutlinux.org](http://pypi.sdutlinux.org)
+
+
+#### 临时使用
+
+> 可以在使用pip的时候加参数`-i 网址`
+>
+> 注意如果不是`https`协议网址需要加`--trusted-host`参数
+
+```batch
+pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com requests
+```
+
+#### 永久生效
+
+- 使用命令
+
+```bash
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+
+- 编辑文件
+
+```bash
+# Linux环境
+vi ~/.pip/pip.conf 
+# windows环境
+%APPDATA%\Romaing\pip\pip.ini
+
+# 添加或者修改
+[global]
+index-url = http://mirrors.aliyun.com/pypi/simple/
+[install]
+trusted-host=mirrors.aliyun.com
+```
+
 
 
 ### 生成依赖管理文件
@@ -184,56 +240,6 @@ call("pip install --upgrade" + ' '.join(packages), shell=True)
 pip uninstall 要卸载的包名
 ```
 
-
-
-### 换源
-
-* [https://pypi.org/](https://pypi.org/)
-
-```
-阿里云 https://mirrors.aliyun.com/pypi/simple
-中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple
-清华大学 https://pypi.tuna.tsinghua.edu.cn/simple
-
-豆瓣(douban) http://pypi.douban.com/simple
-中国科学技术大学 http://pypi.mirrors.ustc.edu.cn/simple
-华中理工大学：http://pypi.hustunique.com
-山东理工大学：http://pypi.sdutlinux.org
-```
-
-#### 临时使用
-
-> 可以在使用pip的时候加参数`-i 网址`
->
-> 注意如果不是`https`协议网址需要加`--trusted-host`参数
-
-```batch
-pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com requests
-```
-
-#### 永久修改
-
-- 使用命令
-
-```bash
-pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-```
-
-
-- 编辑文件
-
-```bash
-# Linux环境
-vi ~/.pip/pip.conf 
-# windows环境
-%APPDATA%\Romaing\pip\pip.ini
-
-# 添加或者修改
-[global]
-index-url = http://mirrors.aliyun.com/pypi/simple/
-[install]
-trusted-host=mirrors.aliyun.com
-```
 
 
 
