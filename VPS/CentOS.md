@@ -799,7 +799,7 @@ yum -y install kernel-ml kernel-ml-devel
 yum -y install kernel-ml-headers
 ```
 
-- CentOS7执行命令
+- 执行命令
 
 ```bash
 grub2-set-default 0
