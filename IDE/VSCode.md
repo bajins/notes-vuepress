@@ -20,6 +20,11 @@
 * [VSCode插件](#vscode插件)
 
 
+## flag
+
+* [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
+
+
 ## 设置
 
 ```json
