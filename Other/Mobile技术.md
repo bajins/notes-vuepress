@@ -41,7 +41,9 @@
 
 * [Android运行时权限申请库](https://github.com/ysbing/YPermission)
 
+* [https://github.com/alibaba/freeline](https://github.com/alibaba/freeline)
 
+> `Freeline` 是 Android 平台上的秒级编译方案
 
 
 ### 框架
