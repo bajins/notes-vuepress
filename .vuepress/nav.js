@@ -91,6 +91,10 @@ module.exports = [
                         link: 'https://hexo.io/zh-cn/docs/'
                     },
                     {
+                        text: '静态编译Docsite',
+                        link: 'https://github.com/txd-team/docsite'
+                    },
+                    {
                         text: '运行时驱动Docsify',
                         link: 'https://docsify.js.org/#/zh-cn/'
                     },
