@@ -2,6 +2,7 @@
 
 
 
+* [flag](#flag)
 * [CSS3](#css3)
   * [`Media Queries`](#media-queries)
     * [语法](#语法)
@@ -9,22 +10,24 @@
     * [设备特性](#设备特性)
     * [外联和内嵌样式](#外联和内嵌样式)
     * [`bootstrap css`](#bootstrap-css)
-      * [混合应用](#混合应用)
+    * [混合应用](#混合应用)
+    * [完整示例](#完整示例)
 * [文本溢出处理](#文本溢出处理)
   * [隐藏溢出内容](#隐藏溢出内容)
 * [`Footer`固定在底部](#footer固定在底部)
-  * [`Footer`固定在页面底部](#footer固定在页面底部)
+  * [固定在页面底部](#固定在页面底部)
     * [借助`margin`](#借助margin)
     * [借助`padding`](#借助padding)
     * [使用`calc`计算属性](#使用calc计算属性)
     * [使用`flex`布局](#使用flex布局)
     * [使用`absolute`定位](#使用absolute定位)
     * [使用`grid`网格布局](#使用grid网格布局)
-  * [`Footer`固定在浏览器窗口底部](#footer固定在浏览器窗口底部)
+  * [固定在窗口底部](#固定在窗口底部)
     * [`fixed`定位](#fixed定位)
     * [`absolute`定位](#absolute定位)
     * [`flex`布局](#flex布局)
     * [`calc`计算属性](#calc计算属性)
+
 
 
 
@@ -38,6 +41,7 @@
 * [HTML系列教程](https://www.w3school.com.cn/h.asp)
 
 * [http://css.doyoe.com/](http://css.doyoe.com/)
+
 
 
 ## CSS3
@@ -62,6 +66,7 @@
 >>
 >> 目前很多针对苹果手机，Android 手机，平板等设备都会使用到多媒体查询。
 
+
 ### `Media Queries`
 
 > `Media Queries`能在不同的条件下使用不同的样式，使页面在不同在终端设备下达到不同的渲染效果。
@@ -69,11 +74,12 @@
 > 使用`Media Queries`必须要使用`@media`开头，然后指定媒体类型（也可以称为设备类型），随后是指定媒体特性（也可以称之为设备特性）。
 > 媒体特性的书写方式和样式的书写方式非常相似，主要分为两个部分，而且这两个部分之间使用冒号分隔：
 >> 第一个部分指的是媒体特性
->
+>>
 >> 第二部分为媒体特性所指定的值
 
 
 #### 语法
+
 > @media 设备类型 and|not|only （设备特性）{样式代码}
 
 > `Media Queries`可以使用关键词`and`将多个媒体特性结合在一起。
@@ -88,11 +94,23 @@
 > `not`是用来排除某种制定的媒体类型，也就是用来排除符合表达式的设备。换句话说，not关键词表示对后面的表达式执行取反操作。
 
 
-> 兼容移动设备的展示效果：
+- 兼容移动设备
+
+* [HTML页面适应移动端](https://www.jianshu.com/p/d95579d721a1)
+
+* [到底什么是像素](https://segmentfault.com/a/1190000017526874)
+
+* [使用meta标签设置viewport](https://segmentfault.com/a/1190000020218602)
+
+* [visual viewport、layout viewport和ideal viewport介绍](https://segmentfault.com/a/1190000017542232)
+
+* [viewport 深入理解](https://www.runoob.com/w3cnote/viewport-deep-understanding.html)
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 ```
+
+> 移动设备上的`viewport`就是其屏幕上能用来显示我们的网页的那一块区域。
 
 > `width = device-width`：宽度等于当前设备的宽度
 >
@@ -108,6 +126,7 @@
 
 
 #### 设备类型
+
 | 值          | 描述                                  |
 |------------|-------------------------------------|
 | all        | 用于所有设备                              |
@@ -117,6 +136,7 @@
 
 
 #### 设备特性
+
 | 值                       | 描述                                         |
 |-------------------------|--------------------------------------------|
 | aspect-ratio            | 定义输出设备中的页面可见区域宽度与高度的比率                     |
@@ -158,12 +178,12 @@
 #### 外联和内嵌样式
 
 ```html
-//外联
+/* 外联 */
 @import url(style.css) screen and (min-width:1000px);
-
+<!-- 外联 -->
 <link rel="stylesheet" href="style.css" media="only screen and (max-width:640px)">
 
-//内嵌样式：
+<!-- 内联 -->
 <style>
     @media screen and (min-width:640px) {
       body{
@@ -215,7 +235,7 @@
 }
 ```
 
-##### 混合应用
+#### 混合应用
 
 ```css
 @media all and (orientation : portrait) {
@@ -247,6 +267,69 @@
 ```
 
 
+#### 完整示例
+
+```html
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>停水通知</title>
+    <!--  让当前viewport的宽度等于设备的宽度，即将viewport由默认变为ideal viewport  -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+    <style>
+        .container {
+            width: 50%;
+            margin: 25% auto 0;
+            background-color: #f0f0f0;
+            padding: 2% 5%;
+            border-radius: 10px;
+        }
+        
+        @media only screen and (max-width:768px) {
+            .container {
+                width: 70%;
+            }
+        }
+        
+        @media only screen and (max-width:450px) {
+            .container {
+                width: 90%;
+            }
+        }
+        
+        @media screen and (min-width:1025px) {
+            .container {
+                margin: 15% auto 0;
+                width: 35%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>尊敬的各位业主/住户：</h3>
+        <p style="text-indent:2em;">
+            <span>因本小区主自来水管网阀门损坏需停水维修，xxx月xxx日9：00--17:30进行自来水的主管道阀门进行抢修更换。</span>
+            <span>届时本小区1号楼2号楼3号楼的生活用水将受影响，请各位住户做好储水准备。</span>
+            <span>因自来水主管道阀门更换抢修工作给您生活带来的不便敬请谅解，感谢您对我们物业服务工作的理解和支持。</span>
+        </p>
+        <p style="text-align: right;">xxxxxx物业有限公司</p>
+        <p style="text-align: right;">20xxx年xxx月xxx日</p>
+    </div>
+</body>
+
+</html>
+```
+
+
+
+
+
+
+
 ## 文本溢出处理
 
 - `white-space: normal|pre|nowrap|pre-wrap|pre-line|inherit;`
@@ -266,6 +349,7 @@
 
 
 - `word-wrap: normal|break-word;`
+
 > `word-wrap` 属性用来标明是否允许浏览器在单词内进行断句，这是为了防止当一个字符串太长而找不到它的自然断句点时产生溢出现象。 
 >> `normal` 只在允许的断字点换行(浏览器保持默认处理) 
 >> 
@@ -273,6 +357,7 @@
 
 
 - `word-break: normal|break-all|keep-all;`
+
 > `word-break` 属性用来标明怎么样进行单词内的断句。 
 >> `normal` 使用浏览器默认的换行规则
 >> 
@@ -281,6 +366,7 @@
 >> `keep-all` 只能在半角空格或连字符处换行
 
 - `text-overflow: clip|ellipsis|string;`
+
 > `text-overflow` 属性规定当文本溢出包含元素时发生的事情。
 >> `clip` 修剪文本
 >>
@@ -291,6 +377,7 @@
 
 
 ### 隐藏溢出内容
+
 ```css
 div{
     /*必须指定宽度*/
@@ -321,7 +408,7 @@ div:hover{
 
 * [CSS-Footer底部固定实现](https://github.com/junruchen/junruchen.github.io/wiki/CSS-Footer%E5%BA%95%E9%83%A8%E5%9B%BA%E5%AE%9A%E5%AE%9E%E7%8E%B0)
 
-### `Footer`固定在页面底部
+### 固定在页面底部
 
 #### 借助`margin`
 
@@ -580,7 +667,7 @@ body {
 ```
 
 
-### `Footer`固定在浏览器窗口底部
+### 固定在窗口底部
 
 #### `fixed`定位
 
