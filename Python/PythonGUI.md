@@ -23,7 +23,9 @@
 
 
 
+## flag
 
+* [winreg --- Windows 注册表访问](https://docs.python.org/zh-cn/3/library/winreg.html)
 
 
 
