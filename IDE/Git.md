@@ -152,9 +152,19 @@ git branch new-branch
 ```bash
 # 从远程下载最新的，而不尝试合并或rebase任何东西
 git fetch --all
-# reset将主分支重置为您刚刚获取的内容。 --hard选项更改工作树中的所有文件以匹配origin/<branch_name>中的文件
+# reset将主分支重置为您刚刚获取的内容。
+# --hard选项更改工作树中的所有文件以匹配origin/<branch_name>中的文件
 git reset --hard origin/<branch_name>
 ```
+
+```bash
+# reset将主分支重置为您刚刚获取的内容。
+# --hard选项更改工作树中的所有文件以匹配origin/<branch_name>中的文件
+git reset --hard origin/<branch_name>
+# 拉取远端最新代码
+git pull
+```
+
 
 ### 清除用户名密码
 
