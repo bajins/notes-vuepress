@@ -507,7 +507,7 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 
 - **保存**
 
-> https://w.wallhaven.cc/full/图片编号前两位/wallhaven-图片编号前两位.jpg
+> https://w.wallhaven.cc/full/图片编号前两位/wallhaven-图片编号前两位.后缀
 
 
 - **图片详情**
@@ -549,9 +549,10 @@ http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_
 >
 > 此链接也是返回下面的链接进行下载文件，请看`Response Headers`中的`location`参数
 
-> https://images.pexels.com/photos/图片编号/pexels-photo-图片编号.jpeg?cs=srgb&dl=bright-close-up-colorful-图片编号.jpg&fm=jpg
->> 参数`dl`的值为`bright-close-up-colorful`开头就代表下载
-
+> https://images.pexels.com/photos/图片编号/pexels-photo-图片编号.jpeg?dl=图片编号.jpg
+>> 不带参数就是预览
+>>
+>> 参数`dl`的值为文件名
 
 - **图片详细信息**
 
