@@ -265,6 +265,23 @@ Next
 
 ### 添加注册表
 
+> `Run`键值代表着开机启动项，也就是说在这个项下的键值会随着开机启动
+> （这里的开机是指用户登录，也就是说只要有登录操作就会执行，注销然后登录，也会执行这个键值）。
+
+> `RunOnce`键值类似于`Run`键值，唯一的区别在于，`RunOnce`键值只执行一次，操作执行后会被自动删除。
+
+- 用户启动项
+1. `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`
+2. `HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce`
+
+- 本机启动项
+1. `HKLM\SYSTEM\CurrentControlSet\Control\Session Manager`
+2. `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run`
+3. `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce`
+4. `HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run`
+5. `HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\RunOnce`
+
+
 ```batch
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d 软件路径 /f
 :: 或者，%号和"号不能使用转移字符^转义，%号转义%%，"号转义"""
@@ -280,23 +297,55 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 
 > 按`win+r`打开运行窗口，输入`shell:startup`打开启动文件夹，把快捷方式或者软件放入
 
-- WinXP: `C:/Documents and Settings/Administrator/「开始」菜单/程序/启动`
 
-- Win10和Win7: `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`
+- Win7及以上（当前用户）: `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`
 
-- 通用启动目录: `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp`
+- 启动目录（所有用户）: `%ProgramData%\Microsoft\Windows\Start Menu\Programs\StartUp`
 
 
 
 ## 注册表
 
-| 注册表短根键名       | 注册表长根键名        |
-|---------------------|---------------------|
-| HKCU                | HKEY_CURRENT_USER   |
-| HKLM                | HKEY_LOCAL_MACHINE  |
-| HKCR                | HKEY_CLASSES_ROOT   |
-| HKEY_USERS          | HKEY_USERS          |
-| HKEY_CURRENT_CONFIG | HKEY_CURRENT_CONFIG |
+> 注册表被称为Windows操作系统的核心，它的工作原理实质是一个庞大的数据库，存放了关于计算机硬件的配置信息、
+> 系统和应用软件的初始化信息、应用软件和文档文件的关联关系、硬件设备的说明以及各种状态信息和数据，
+> 包括Windows操作时不断引用的信息。
+
+> 例如：系统中的硬件资源、硬件信息、分配正在使用的端口、
+> 每个用户的配置文件、计算机上安装的应用程序以及每个应用程序可以创建的文件类型等。
+
+> 组策略设置的实质是修改注册表中的配置
+
+- 主要作用
+
+1. 记录安装信息 
+2. 设置硬件 
+3. 设置软件 
+4. 定制Windows 
+5. 系统安全管理 
+6. 自动运行程序 
+7. 网络设置
+
+
+* [Windows注册表内容详解](https://zhuanlan.zhihu.com/p/72194354)
+
+* [简析Windows注册表](https://segmentfault.com/a/1190000016854021)
+
+* [windows注册表](https://www.cnblogs.com/weiyinfu/p/10961872.html)
+
+
+- 注册表的分支结构
+
+| 注册表短根键名      	| 注册表长根键名      	| 作用                                                      	|
+|---------------------	|---------------------	|-----------------------------------------------------------	|
+| HKCU                	| HKEY_CURRENT_USER   	| 存储当前用户设置的信息。当前用户登录后才执行的操作              	|
+| HKLM                	| HKEY_LOCAL_MACHINE  	| 包括安装在计算机上的硬件和软件的信息。所有操作在用户登录前就执行了	|
+| HKCR                	| HKEY_CLASSES_ROOT   	| 存储Windows可识别的文件类型的详细列表，以及相关联的程序。 	|
+| HKEY_USERS          	| HKEY_USERS          	| 包含使用计算机的用户的信息。                              	|
+| HKEY_CURRENT_CONFIG 	| HKEY_CURRENT_CONFIG 	| 这个分支包含计算机当前的硬件配置信息。                    	|
+
+
+
+
 
 
 ### 修改
