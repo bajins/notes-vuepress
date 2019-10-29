@@ -3,15 +3,14 @@
 
 
 * [flag](#flag)
-* [CSS3](#css3)
-  * [`Media Queries`](#media-queries)
-    * [语法](#语法)
-    * [设备类型](#设备类型)
-    * [设备特性](#设备特性)
-    * [外联和内嵌样式](#外联和内嵌样式)
-    * [`bootstrap css`](#bootstrap-css)
-    * [混合应用](#混合应用)
-    * [完整示例](#完整示例)
+* [`Media Queries`](#media-queries)
+  * [语法](#语法)
+  * [设备类型](#设备类型)
+  * [设备特性](#设备特性)
+  * [外联和内嵌样式](#外联和内嵌样式)
+  * [`bootstrap css`](#bootstrap-css)
+  * [混合应用](#混合应用)
+  * [完整示例](#完整示例)
 * [文本溢出处理](#文本溢出处理)
   * [隐藏溢出内容](#隐藏溢出内容)
 * [`Footer`固定在底部](#footer固定在底部)
@@ -35,6 +34,7 @@
 
 
 
+
 ## flag
 
 
@@ -44,30 +44,7 @@
 
 
 
-## CSS3
-
-> 新增功能
-
-- 动画 `animation`
-- 转化 `transform`
-- 过渡 `translation`
-
-> 之前必须用 JS 或 JQ 写的效果用 CSS 就能实现，现在几行 CSS3 代码就够了。
-
-> `CSS3`的多媒体查询继承了`CSS2`多媒体类型的所有思想：取代了查找设备的类型，`CSS3`根据设置自适应显示。
-> 媒体查询可用于检测很多事情，例如：
->> `viewport`(视窗) 的宽度与高度
->>
->> 设备的宽度与高度
->>
->> 朝向 (智能手机横屏，竖屏)
->>
->> 分辨率
->>
->> 目前很多针对苹果手机，Android 手机，平板等设备都会使用到多媒体查询。
-
-
-### `Media Queries`
+## `Media Queries`
 
 > `Media Queries`能在不同的条件下使用不同的样式，使页面在不同在终端设备下达到不同的渲染效果。
 >
@@ -78,7 +55,7 @@
 >> 第二部分为媒体特性所指定的值
 
 
-#### 语法
+### 语法
 
 > @media 设备类型 and|not|only （设备特性）{样式代码}
 
@@ -125,7 +102,7 @@
 
 
 
-#### 设备类型
+### 设备类型
 
 | 值          | 描述                                  |
 |------------|-------------------------------------|
@@ -135,7 +112,7 @@
 | speech     | 应用于屏幕阅读器等发声设备                       |
 
 
-#### 设备特性
+### 设备特性
 
 | 值                       | 描述                                         |
 |-------------------------|--------------------------------------------|
@@ -175,7 +152,7 @@
 
 
 
-#### 外联和内嵌样式
+### 外联和内嵌样式
 
 ```html
 /* 外联 */
@@ -195,7 +172,7 @@
 
 
 
-#### `bootstrap css`
+### `bootstrap css`
 
 
 > 先看下面的代码,这是从`bootstrap`中遍历出来的，`min-width`来确认分别是`768`、`992`、`1200`。
@@ -235,7 +212,7 @@
 }
 ```
 
-#### 混合应用
+### 混合应用
 
 ```css
 @media all and (orientation : portrait) {
@@ -244,35 +221,29 @@
 @media all and (orientation : landscape) {
 /*横屏*/
 }
-
 @media screen and (min-width: 1200px) {
     /*>=1200的设备*/
 }
-
 @media screen and (min-width: 960px) and (max-width: 1199px) {
     /*>=960,<=1200的设备*/
 }
-
 @media screen and (min-width: 768px) and (max-width: 959px) {
     /*>=768,<=960的设备*/
 }
-
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     /*>=480,<=768的设备*/
 }
-
 @media only screen and (max-width: 479px) {
     /*<=480的设备*/
 }
 ```
 
 
-#### 完整示例
+### 完整示例
 
 ```html
 <!doctype html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <title>停水通知</title>
@@ -281,33 +252,29 @@
     <style>
         .container {
             width: 50%;
-            margin: 25% auto 0;
+            margin: 25% auto;
             background-color: #f0f0f0;
             padding: 2% 5%;
             border-radius: 10px;
         }
-        
         @media only screen and (max-width:768px) {
             .container {
                 width: 70%;
             }
         }
-        
         @media only screen and (max-width:450px) {
             .container {
                 width: 90%;
             }
         }
-        
         @media screen and (min-width:1025px) {
             .container {
-                margin: 15% auto 0;
+                margin: 15% auto;
                 width: 35%;
             }
         }
     </style>
 </head>
-
 <body>
     <div class="container">
         <h3>尊敬的各位业主/住户：</h3>
@@ -320,7 +287,6 @@
         <p style="text-align: right;">20xxx年xxx月xxx日</p>
     </div>
 </body>
-
 </html>
 ```
 
