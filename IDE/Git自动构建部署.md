@@ -414,7 +414,13 @@ git add -A
 git commit -m 'deploy'
 
 # 推送
-yum install -y expect
+
+# 检索expect是否安装
+is_expect=`whereis expect | awk '{print $2}'`
+# 如果没有安装
+if [ ! -n "$is_expect" ]; then
+    yum -y install expect > /dev/null 2>&1
+fi
 
 expect -c "
 

@@ -494,7 +494,7 @@ echo 'password' | passwd -stdin username
 
 ```bash
 # 搜索程序
-whereis expect
+whereis expect | awk '{print $2}'
 # 安装
 yum install -y expect
 ```
@@ -538,6 +538,13 @@ yum install -y expect
 push_url=https://github.com/woytu/woytu.github.io.git
 push_username=admin
 push_password=admin
+
+# 检索expect是否安装
+is_expect=`whereis expect | awk '{print $2}'`
+# 如果没有安装
+if [ ! -n "$is_expect" ]; then
+    yum -y install expect > /dev/null 2>&1
+fi
 
 expect -c "
 
