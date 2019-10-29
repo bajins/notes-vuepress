@@ -6,6 +6,7 @@
 * [播放器](#播放器)
 * [压缩](#压缩)
 * [文本编辑器](#文本编辑器)
+* [系统相关](#系统相关)
 
 
 
@@ -96,6 +97,8 @@
 
 * [PeaZip](https://www.peazip.org/)
 
+
+
 ## 文本编辑器
 
 * [Notepad++](https://notepad-plus-plus.org/)
@@ -107,3 +110,21 @@
 * [notepad2](https://github.com/zufuliu/notepad2)
 
 * [Notepad2e](https://github.com/ProgerXP/Notepad2e)
+
+
+## 系统相关
+
+* [Win10Clean](https://github.com/ElPumpo/Win10Clean)
+
+* [Dism++](https://www.chuyu.me/zh-Hans/index.html)
+
+* [PCHunter](http://www.xuetr.com)
+
+> 打开后，随便点一个进程右键，查看-查看进程热键-再右键-显示所有进程热键
+
+
+
+
+
+
+
