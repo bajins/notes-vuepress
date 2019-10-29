@@ -360,15 +360,6 @@ WScript
 | TMP                     | 存储临时文件的目录（例如，c:temp）。用户可更改。              |
 
 
-| 注册表短根键名       | 注册表长根键名        |
-|---------------------|---------------------|
-| HKCU                | HKEY_CURRENT_USER   |
-| HKLM                | HKEY_LOCAL_MACHINE  |
-| HKCR                | HKEY_CLASSES_ROOT   |
-| HKEY_USERS          | HKEY_USERS          |
-| HKEY_CURRENT_CONFIG | HKEY_CURRENT_CONFIG |
-
-
 
 #### 执行命令
 
