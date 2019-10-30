@@ -7,11 +7,7 @@
     * [`Sizzle`的`Css3`结构性定位](#sizzle的css3结构性定位)
   * [`chromedriver`](#chromedriver)
   * [`geckodriver`](#geckodriver)
-  * [在CentOS中使用](#在centos中使用)
-
-
-
-
+* [在CentOS中使用](#在centos中使用)
 
 
 
@@ -263,27 +259,7 @@
 
 ### 在CentOS中使用
 
-* [CentOS + Selenium](https://blog.csdn.net/wkb342814892/article/details/81591394)
-
-* [chrome其他安装方式](https://intoli.com/blog/installing-google-chrome-on-centos)
-
-```bash
-# 安装selenium
-pip install selenium
-
-# 安装chrome-browser
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
-yum install -y google-chrome-stable_current_x86_64.rpm
-
-# 查看安装的chrome版本
-google-chrome --version
-
-# 安装chromedriver：一个用来和chrome交互的接口
-yum install -y chromedriver
-
-# 查看安装的chromedriver版本
-chromedriver --version
-```
+* [xvfb可以将屏幕的图像输出给放到虚拟内存中](https://blog.csdn.net/wkb342814892/article/details/81591394)
 
 - 批量杀死`chromedriver`进程
 

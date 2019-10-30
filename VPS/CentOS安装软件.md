@@ -1,64 +1,67 @@
 # CentOS安装软件
 
 
-
-- [安装MySQL](#安装mysql)
-  - [yum安装](#yum安装)
-    - [卸载](#卸载)
-    - [安装依赖](#安装依赖)
-    - [下载yum源](#下载yum源)
-    - [安装yum源](#安装yum源)
-    - [查看所有版本](#查看所有版本)
-    - [修改源设置](#修改源设置)
-    - [查看默认启用版本](#查看默认启用版本)
-    - [安装](#安装)
-    - [查看安装版本](#查看安装版本)
-  - [编译安装](#编译安装)
-    - [下载](#下载)
-    - [创建用户组](#创建用户组)
-    - [创建用户](#创建用户)
-    - [创建data目录](#创建data目录)
-    - [指定用户和用户组](#指定用户和用户组)
-    - [初始化](#初始化)
-    - [启动](#启动)
-    - [设为开机启动](#设为开机启动)
-    - [授权](#授权)
-    - [添加开机启动](#添加开机启动)
-    - [service启动](#service启动)
-- [安装SVN](#安装svn)
-  - [检查已安装](#检查已安装)
-  - [安装](#安装-1)
-  - [查看已安装版本](#查看已安装版本)
-  - [代码库创建](#代码库创建)
-  - [配置代码库](#配置代码库)
-  - [启动](#启动-1)
-  - [查看SVN进程](#查看svn进程)
-  - [检测SVN端口](#检测svn端口)
-  - [放开端口](#放开端口)
-  - [连接](#连接)
-  - [停止SVN](#停止svn)
-- [安装JDK](#安装jdk)
-  - [查看已安装](#查看已安装)
-  - [卸载JDK](#卸载jdk)
-  - [查看JDK软件包列表](#查看jdk软件包列表)
-  - [yum安装JDK](#yum安装jdk)
-  - [配置环境变量](#配置环境变量)
-  - [查看Java版本信息](#查看java版本信息)
-- [安装Tomcat](#安装tomcat)
-  - [下载](#下载-1)
-  - [解压](#解压)
-  - [修改tomcat文件夹名](#修改tomcat文件夹名)
-  - [复制](#复制)
-  - [修改第二个Tomcat配置](#修改第二个tomcat配置)
-  - [添加环境变量](#添加环境变量)
-
-
-
-
+* [MySQL](#mysql)
+  * [yum安装](#yum安装)
+    * [卸载](#卸载)
+    * [安装依赖](#安装依赖)
+    * [下载yum源](#下载yum源)
+    * [安装yum源](#安装yum源)
+    * [查看所有版本](#查看所有版本)
+    * [修改源设置](#修改源设置)
+    * [查看默认启用版本](#查看默认启用版本)
+    * [安装](#安装)
+    * [查看安装版本](#查看安装版本)
+  * [编译安装](#编译安装)
+    * [下载](#下载)
+    * [创建用户组](#创建用户组)
+    * [创建用户](#创建用户)
+    * [创建data目录](#创建data目录)
+    * [指定用户和用户组](#指定用户和用户组)
+    * [初始化](#初始化)
+    * [启动](#启动)
+    * [设为开机启动](#设为开机启动)
+    * [授权](#授权)
+    * [添加开机启动](#添加开机启动)
+    * [service启动](#service启动)
+* [SVN](#svn)
+  * [检查已安装](#检查已安装)
+  * [安装](#安装)
+  * [查看已安装版本](#查看已安装版本)
+  * [代码库创建](#代码库创建)
+  * [配置代码库](#配置代码库)
+  * [启动](#启动)
+  * [查看SVN进程](#查看svn进程)
+  * [检测SVN端口](#检测svn端口)
+  * [放开端口](#放开端口)
+  * [连接](#连接)
+  * [停止SVN](#停止svn)
+* [JDK](#jdk)
+  * [查看已安装](#查看已安装)
+  * [卸载JDK](#卸载jdk)
+  * [查看JDK软件包列表](#查看jdk软件包列表)
+  * [yum安装JDK](#yum安装jdk)
+  * [配置环境变量](#配置环境变量)
+  * [查看Java版本信息](#查看java版本信息)
+* [Tomcat](#tomcat)
+  * [下载](#下载)
+  * [解压](#解压)
+  * [修改tomcat文件夹名](#修改tomcat文件夹名)
+  * [复制](#复制)
+  * [修改第二个Tomcat配置](#修改第二个tomcat配置)
+  * [添加环境变量](#添加环境变量)
+* [Chrome](#chrome)
+  * [rpm包安装](#rpm包安装)
+  * [在线安装](#在线安装)
 
 
 
-## 安装MySQL
+
+
+
+
+
+## MySQL
 
 ### yum安装
 
@@ -295,7 +298,7 @@ service mysql status
 
 
 
-## 安装SVN
+## SVN
 
 * [SVN-Eclipse插件](https://github.com/subclipse/subclipse/wiki)
 
@@ -464,7 +467,7 @@ killall svnserve
 
 
 
-## 安装JDK
+## JDK
 
 ### 查看已安装
 
@@ -526,7 +529,7 @@ java -version
 
 
 
-## 安装Tomcat
+## Tomcat
 
 ### 下载
 
@@ -619,5 +622,65 @@ source /etc/profile
 # 或者
 . /etc/profile
 ```
+
+
+## Chrome
+
+* [chrome其他安装方式](https://intoli.com/blog/installing-google-chrome-on-centos)
+
+### rpm包安装
+
+
+```bash
+# 下载rpm包
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+
+# 安装依赖
+yum install -y lsb libXScrnSaver libappindicator-gtk3 liberation-fonts
+
+# 安装chrome
+rpm -ivh google-chrome-stable_current_x86_64.rpm
+# 或者使用yum安装chrome
+yum install -y google-chrome-stable_current_x86_64.rpm
+
+# 查看版本
+google-chrome --version
+
+# 安装chromedriver：一个用来和chrome交互的接口
+yum install -y chromedriver
+
+# 查看安装的chromedriver版本
+chromedriver --version
+```
+
+### 在线安装
+
+- 创建repo文件
+
+```bash
+vi /etc/yum.repos.d/google-chrome.repo
+```
+
+- 添加内容
+
+```bash
+[google-chrome]
+name=google-chrome
+baseurl=http://dl.google.com/linux/chrome/rpm/stable/$basearch
+enabled=1
+gpgcheck=1
+gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
+```
+
+- 安装
+
+```bash
+yum install -y google-chrome-stable
+# 如果安装失败
+yum install google-chrome-stable --nogpgcheck
+```
+
+
+
 
 
