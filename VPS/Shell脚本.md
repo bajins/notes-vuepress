@@ -9,7 +9,8 @@
 
 ## flag
 
-> `Shell`脚本（`shell script`），是一种为`Shell`编写的脚本程序。业界所说的`Shell`通常都是指`Shell`脚本
+> `Shell`脚本（`shell script`），是一种为`Shell`编写的脚本程序。
+> `Shell`脚本文件的名称可以任意，但为了避免被误以为是普通文件，建议将`.sh`后缀加上，以表示是一个脚本文件。
 
 * [Shell 教程](https://www.runoob.com/linux/linux-shell.html)
 
