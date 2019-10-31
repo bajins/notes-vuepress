@@ -1,4 +1,4 @@
-# Linux命令
+# Shell命令
 
 
 * [Linux命令手册](#linux命令手册)
