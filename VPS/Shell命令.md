@@ -389,63 +389,76 @@ echo 'password' | passwd -stdin username
 
 ### 指令无参数
 
-* [expect - 自动交互脚本](http://xstarcd.github.io/wiki/shell/expect.html)
+> `Expect`是由`Don Libes`基于`Tcl`（`Tool Command Language`）的脚本语言，所以你至少要学习一下`TCL`它的语法。
+
+* [官方手册1](https://www.tcl-lang.org/man/expect5.31/index.html)
+
+* [官方手册2](https://www.tcl.tk/man/expect5.31/index.html)
+
+* [Tcl教程](https://www.yiibai.com/tcl/tcl_special_variables.html)
+
+* [expect手册](https://linux.die.net/man/1/expect)
 
 * [shell编程之expect用法](http://blog.leanote.com/post/wkf19911118@gmail.com/shell%E7%BC%96%E7%A8%8B%E4%B9%8Bexpect)
 
-* [linux expect 自动交互脚本用法](https://www.jianshu.com/p/0194cbd70d39)
+* [linux expect 自动交互脚本用法](https://man.linuxde.net/expect1)
 
 
 - 启用选项
 
-| 选项   | 说明                                                                     |
-|------|------------------------------------------------------------------------|
-| \-c  | 执行脚本前先执行的命令，可多次使用。                                                     |
-| \-d  | debug模式，可以在运行时输出一些诊断信息，与在脚本开始处使用exp\_internal 1相似。                     |
-| \-D  | 启用交换调式器,可设一整数参数。                                                       |
-| \-f  | 从文件读取命令，仅用于使用\#\!时。如果文件名为"\-"，则从stdin读取\(使用"\./\-"从文件名为\-的文件读取\)。      |
-| \-i  | 交互式输入命令，使用"exit"或"EOF"退出输入状态。                                          |
-| \-\- | 标示选项结束\(如果你需要传递与expect选项相似的参数给脚本时\)，可放到\#\!行:\#\!/usr/bin/expect \-\-。 |
-| \-v  | 显示expect版本信息                                                           |
+| 选项 	| 说明                                                                                             	|
+|------	|--------------------------------------------------------------------------------------------------	|
+| `-c` 	| 执行脚本前先执行的命令，可多次使用。                                                             	|
+| `-d` 	| debug模式，可以在运行时输出一些诊断信息，与在脚本开始处使用exp_internal 1相似。                  	|
+| `-D` 	| 启用交换调式器,可设一整数参数。                                                                  	|
+| `-f` 	| 从文件读取命令，仅用于使用#!时。如果文件名为"-"，则从stdin读取(使用"./-"从文件名为-的文件读取)。 	|
+| `-i` 	| 交互式输入命令，使用"exit"或"EOF"退出输入状态。                                                  	|
+| `--` 	| 标示选项结束(如果你需要传递与expect选项相似的参数给脚本时)，可放到#!行:#!/usr/bin/expect --。    	|
+| `-v` 	| 显示expect版本信息                                                                               	|
 
 
 - 命令
 
-| 命令                 | 说明                                                                               |
-|--------------------|----------------------------------------------------------------------------------|
-| \`send`            | 用于向进程发送字符串                                                                       |
-| \`expect`          | 从进程接收字符串，\`expect`与`\{`之间直接必须有空格或者TAB间隔，否则会报错：`invalid command name "expect\{"`  |
-| \`spawn`           | expect中的监控程序，其运行会监控命令提出的交互式问题，启动新的进程                                             |
-| \`interact`        | 允许用户交互                                                                           |
-| \`set NAME value`  | 设置变量                                                                             |
-| \`expect eof`      | 问题回答完毕等待\`expect`进程结束，`expect \-timeout \-1 eof`                                 |
-| \`wait \-nowait`   | 问题回答完毕立即退出                                                                       |
-| \`expr`            | 计算                                                                               |
-| \`$argc`           | 参数个数                                                                             |
-| \`$argv`           | 接收的所有参数                                                                          |
-| \`lindex`          | 获取参数                                                                             |
-| \`exp\_continue`   | 当问题不存在时继续回答下边的问题                                                                 |
-| \`$NAME`           | 使用变量                                                                             |
-| \`set timeout \-1` | 超时时间，\`\-1`为永不超时                                                                 |
-| \`exit`            | 退出\`expect`                                                                      |
-| \`exp\_internal`   |
-| \`close`           | 关闭当前进程的连接                                                                        |
-| \`debug`           | 控制调试器                                                                            |
-| \`disconnect`      | 断开进程连接\(进程仍在后台运行\)                                                               |
+| 命令             	| 说明                                                                                                   	|
+|------------------	|--------------------------------------------------------------------------------------------------------	|
+| `$argc`          	| 参数个数                                                                                               	|
+| `$argv`          	| 接收的所有参数数组                                                                                     	|
+| `$NAME`          	| 使用变量                                                                                               	|
+| `close`          	| 关闭当前进程的连接                                                                                     	|
+| `debug`          	| 控制调试器                                                                                             	|
+| `disconnect`     	| 断开进程连接(进程仍在后台运行)                                                                         	|
+| `exit`           	| 退出`expect`                                                                                           	|
+| `exp_continue`   	| 当问题不存在时继续回答下边的问题                                                                       	|
+| `exp_internal`   	|                                                                                                        	|
+| `expect eof`     	| 问题回答完毕等待`expect`进程结束，`expect -timeout -1 eof`                                             	|
+| `expect -re`     	| 表示匹配正则表达式                                                                                     	|
+| `expect`         	| 从进程接收字符串，`expect`与`{`之间直接必须有空格或者TAB间隔，否则会报`invalid command name "expect{"` 	|
+| `expr`           	| 计算                                                                                                   	|
+| `interact`       	| 执行完成后保持交互状态，否则退出                                                                       	|
+| `lindex`         	| 获取参数                                                                                               	|
+| `puts`           	| 向用户终端发送提示信息                                                                                 	|
+| `send_user`      	| 同`puts`                                                                                               	|
+| `send`           	| 用于向进程发送字符串                                                                                   	|
+| `send-expect`    	| 匹配成功后，将特定字符串发送给交互程序                                                                 	|
+| `set NAME value` 	| 设置变量                                                                                               	|
+| `set timeout -1` 	| 超时时间，`-1`为永不超时                                                                               	|
+| `spawn`          	| `expect`中的监控程序，其运行会监控命令提出的交互式问题，启动新的进程                                   	|
+| `wait -nowait`   	| 问题回答完毕立即退出                                                                                   	|
+
 
 
 - 特殊字符
 
-| 字符     | 说明              |
-|--------|-----------------|
-| \`\\r` | 表示回车            |
-| \`\\n` | 表示换行            |
-| \`\\`  | 需转义 \`\\\\\\`  |
-| \`\}`  | 需转义 \`\\\}`    |
-| \`\[`  | 需转义 \`\\\[`    |
-| \`$`   | 需转义 \`\\\\\\$` |
-| \`     | 需转义 \\\`       |
-| \`"`   | 需转义 \`\\\\\\"` |
+| 字符 	| 说明          	|
+|------	|---------------	|
+| `\r` 	| 表示回车      	|
+| `\n` 	| 表示换行      	|
+| `\`  	| 需转义 `\\\`  	|
+| `}`  	| 需转义 `\}`   	|
+| `[`  	| 需转义 `\[`   	|
+| `$`  	| 需转义 `\\\$` 	|
+| `    	| 需转义 \`     	|
+| `"`  	| 需转义 `\\\"` 	|
 
 
 
@@ -493,7 +506,50 @@ expect {
 "
 ```
 
+
 - 方式二
+
+```bash
+push_url=https://github.com/woytu/woytu.github.io.git
+push_username=admin
+push_password=admin
+
+# 检索expect是否安装
+is_expect=`whereis expect | awk '{print $2}'`
+# 如果没有安装
+if [ ! -n "$is_expect" ]; then
+    yum -y install expect > /dev/null 2>&1
+fi
+
+expect <<-EOF
+    set timeout -1
+
+    spawn git push -f ${push_url} master
+    expect "*Username*" {send "${push_username}\r"; exp_continue}
+    expect "*Password*" {send "${push_password}\r"}
+    interact
+    expect eof
+
+# 由于用的-EOF，这里的EOF可以有空格，tab键
+EOF
+
+expect <<-EOF
+    set timeout -1
+    
+    spawn git push -f ${push_url} master
+    expect {
+      \"*Username*\" {send \"${push_username}\r\"; exp_continue}
+      \"*Password*\" {send \"${push_password}\r\";}
+    }
+
+# 由于用的-EOF，这里的EOF可以有空格，tab键
+EOF
+```
+
+
+
+
+- 方式三
 
 ```bash
 #!/usr/bin/expect
