@@ -2,6 +2,7 @@
 
 
 * [flag](#flag)
+* [Chrome下载](#chrome下载)
 * [GitHub相关](#github相关)
 * [开发助手](#开发助手)
 * [视图](#视图)
@@ -21,13 +22,22 @@
 
 * [crx4chrome](https://www.crx4chrome.com/)
 
-* [chromedownloads](https://www.chromedownloads.net/)
 
-----
 
-* [异次元软件](https://www.iplaysoft.com/tools/chrome/)
 
-* [shuax](https://tools.shuax.com/chrome/)
+
+
+## Chrome下载
+
+
+* [https://www.chromedownloads.net](https://www.chromedownloads.net)
+
+* [https://www.iplaysoft.com/tools/chrome](https://www.iplaysoft.com/tools/chrome)
+
+* [https://tools.shuax.com/chrome](https://tools.shuax.com/chrome)
+
+* [https://www.chrome64bit.com](https://www.chrome64bit.com)
+
 
 
 
