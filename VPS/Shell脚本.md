@@ -133,9 +133,9 @@ spawn scp -P ${des_port} -p -r ${des_user}@${des_ip}:${des_path} ${local_path}
 
 expect {
   \"*yes/no*\" {send \"yes\r\"; exp_continue}
-  \"*password*\" {send \"${des_pass}\r\";}
+  \"*password*\" {send \"${des_pass}\r\"; expect eof}
 }
-expect eof
+
 "
 exit
 
