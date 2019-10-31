@@ -436,7 +436,7 @@ spawn git push -f ${push_url} master
 # 同时向上面的进程发送字符串, 并且自动敲Enter健(\r)
 expect {
   \"*Username*\" {send \"${push_username}\r\"; exp_continue}
-  \"*Password*\" {send \"${push_password}\r\"; expect eof}
+  \"*Password*\" {send \"${push_password}\r\";}
 }
 
 "
