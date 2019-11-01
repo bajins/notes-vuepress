@@ -1,4 +1,4 @@
-# Git自动构建部署
+# GitWebHook
 
 * [介绍](#介绍)
 * [配置接收通知](#配置接收通知)
@@ -267,6 +267,9 @@ mv $project_dir/$project_name/dist/* $web_dir
 ### 编译并部署到仓库
 
 ```bash
+# -e 执行命令出现错误就退出
+#!/bin/bash -e
+
 # pull对应通知url中的param参数（使用$1接收）
 if test "$1" != "pull"; then
     echo "参数不正确"
