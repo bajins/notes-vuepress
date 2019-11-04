@@ -677,7 +677,8 @@ function request(method, url, dataType, data, contentType) {
         'MSXML2.XMLHTTP.5.0',
         'MSXML2.XMLHTTP.4.0',
         'MSXML2.XMLHTTP.3.0',
-        'MSXML2.XMLHTTP'
+        'MSXML2.XMLHTTP',
+        'Microsoft.XMLHTTP'
     ];
     var XMLHTTP;
     for (var i = 0; i < XMLHTTPVersions.length; i++) {
@@ -791,39 +792,72 @@ function download(url, directory, filename) {
 /**
  * 解析XML
  *
- * @param xmlString xml字符串或者文件路径
+ * @param xml xml字符串或者文件路径
  * @returns {*}
  * @constructor
  */
-function XMLParser(xml) {
+function XMLParsing(xml) {
     if (xml == "" || xml == null || xml.length <= 0) {
         throw new Error("xml字符串或者文件路径不能为空！");
     }
     var xmlDomVersions = [
         'Msxml2.DOMDocument.6.0',
+        'Msxml2.DOMDocument.5.0',
+        'Msxml2.DOMDocument.4.0',
         'MSXML2.DOMDocument.3.0',
+        'MSXML2.DOMDocument',
         'Microsoft.XMLDOM'
     ];
-    var xmlDoc;
+    var xmlParser;
     for (var i = 0; i < xmlDomVersions.length; i++) {
         try {
-            xmlDoc = new ActiveXObject(xmlDomVersions[i]);
-            xmlDoc.async = false;
+            xmlParser = new ActiveXObject(xmlDomVersions[i]);
             break;
         } catch (e) {
             WScript.StdOut.Write(xmlDomVersions[i]);
             WScript.StdOut.WriteLine("：" + e.message);
         }
     }
+    xmlParser.async = false;
     var fso = new ActiveXObject("Scripting.FileSystemObject");
     if (!fso.FileExists(xml)) {
         // 载入xml字符串
-        xmlDoc.loadXML(xml);
-        return xmlDoc;
+        xmlParser.loadXML(xml);
+        return xmlParser;
     }
     // 载入xml文件
-    xmlDoc.load(xml);
-    return xmlDoc;
+    xmlParser.load(xml);
+    return xmlParser;
+}
+```
+
+
+
+- 解析HTML
+
+```js
+/**
+ * 解析HTML
+ *
+ * @param html html字符串或者文件路径
+ * @returns {any}
+ * @constructor
+ */
+function HtmlParsing(html) {
+    if (html == "" || html == null || html.length <= 0) {
+        throw new Error("html字符串或者文件路径不能为空！");
+    }
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    if (fso.FileExists(html)) {
+        var htmlFile = fso.OpenTextFile(html, ForReading);
+        html = htmlFile.ReadAll;
+        htmlFile.Close();
+    }
+    // mhtmlfile
+    var htmlParser = new ActiveXObject("htmlfile");
+    htmlParser.designMode = "on";
+    htmlParser.write(html);
+    return htmlParser;
 }
 ```
 
@@ -1071,6 +1105,73 @@ function unZip(zipFile, unDirectory) {
     objShell.NameSpace(unDirectory).CopyHere(objSource.Items(), 256);
 }
 ```
+
+
+
+- 7z
+
+```js
+/**
+ * 获取7-Zip
+ *
+ */
+function get7z() {
+    var shell = new ActiveXObject("WScript.shell");
+    // 执行7z命令判断是否执行成功
+    var out = shell.Run("cmd /c 7za", 0, true);
+    var directory = "c:\\windows";
+    var url = "https://github.com/woytu/woytu.github.io/releases/download/v1.0/7za.exe";
+    // 如果执行失败说明7z不存在
+    if (out == 1) {
+        download(url, directory);
+    }
+    // 执行7z命令判断是否执行成功
+    out = shell.Run("cmd /c 7za", 0, true);
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    // 如果执行失败，或者文件不存在
+    if (out == 1 || !fso.FileExists(directory + "\\7za.exe")) {
+        get7z();
+    }
+}
+
+/**
+ * 下载7-Zip
+ */
+function download7z() {
+    var srcUrl = "https://sourceforge.net/projects/sevenzip/rss?path=/7-Zip";
+    var txt = request("get", srcUrl, "text", "", "");
+    var dlUrl = "https://www.7-zip.org/a/";
+    var filename;
+    try {
+        var xmlDoc = XMLParser(txt);
+        var links = xmlDoc.getElementsByTagName("link");
+        if (links.length <= 0) {
+            txt = request("get", srcUrl, "text", "", "");
+        }
+        var link = links[5].firstChild.nodeValue.split("/");
+        filename = link[link.length - 2];
+    } catch (e) {
+        WScript.StdOut.WriteLine(e.message);
+        srcUrl = "https://www.7-zip.org/download.html";
+        txt = request("get", srcUrl, "text", "", "");
+        var html = HtmlParsing(txt);
+        var tbody = html.getElementsByTagName("tbody")(4);
+        var href = tbody.children(3).firstChild.firstChild.getAttribute("href");
+        href = href.split("/");
+        filename = href[href - 1];
+    }
+    dlUrl += filename;
+    // 当前文件所在目录
+    var currentDir = fso.GetFile(WScript.ScriptFullName).ParentFolder;
+    try {
+        download(dlUrl, currentDir, filename);
+    } catch (e) {
+        throw new Error("下载7z错误：" + e.message);
+    }
+}
+```
+
+
 
 
 - 数据库
