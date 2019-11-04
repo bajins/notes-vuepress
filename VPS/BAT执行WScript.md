@@ -665,9 +665,30 @@ function request(method, url, dataType, data, contentType) {
     if (contentType == "" || contentType == null || contentType.length <= 0) {
         contentType = "application/x-www-form-unlenconded;charset=utf-8";
     }
-    // 把字符串转换为小写
-    dataType = dataType.toLowerCase();
-
+    var XMLHTTPVersions = [
+        'WinHttp.WinHttpRequest.5.1',
+        'WinHttp.WinHttpRequest.5.0',
+        'Msxml2.ServerXMLHTTP.6.0',
+        'Msxml2.ServerXMLHTTP.5.0',
+        'Msxml2.ServerXMLHTTP.4.0',
+        'Msxml2.ServerXMLHTTP.3.0',
+        'Msxml2.ServerXMLHTTP',
+        'MSXML2.XMLHTTP.6.0',
+        'MSXML2.XMLHTTP.5.0',
+        'MSXML2.XMLHTTP.4.0',
+        'MSXML2.XMLHTTP.3.0',
+        'MSXML2.XMLHTTP'
+    ];
+    var XMLHTTP;
+    for (var i = 0; i < XMLHTTPVersions.length; i++) {
+        try {
+            XMLHTTP = new ActiveXObject(XMLHTTPVersions[i]);
+            break;
+        } catch (e) {
+            WScript.StdOut.Write(XMLHTTPVersions[i]);
+            WScript.StdOut.WriteLine("：" + e.message);
+        }
+    }
 
     //将对象转化成为querystring形式
     var paramarray = [];
@@ -675,8 +696,6 @@ function request(method, url, dataType, data, contentType) {
         paramarray.push(key + "=" + data[key]);
     }
     var params = paramarray.join("&");
-
-    var XMLHTTP = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 
     switch (method) {
         case "POST":
@@ -697,6 +716,8 @@ function request(method, url, dataType, data, contentType) {
             XMLHTTP.Send();
     }
 
+    // 把字符串转换为小写
+    dataType = dataType.toLowerCase();
     switch (dataType) {
         case "text":
             return XMLHTTP.responseText;
@@ -714,6 +735,7 @@ function request(method, url, dataType, data, contentType) {
             return XMLHTTP.responseBody;
     }
 }
+
 
 
 /**
@@ -761,6 +783,52 @@ function download(url, directory, filename) {
     return path;
 }
 ```
+
+
+- 解析XML
+
+```js
+/**
+ * 解析XML
+ *
+ * @param xmlString xml字符串或者文件路径
+ * @returns {*}
+ * @constructor
+ */
+function XMLParser(xml) {
+    if (xml == "" || xml == null || xml.length <= 0) {
+        throw new Error("xml字符串或者文件路径不能为空！");
+    }
+    var xmlDomVersions = [
+        'Msxml2.DOMDocument.6.0',
+        'MSXML2.DOMDocument.3.0',
+        'Microsoft.XMLDOM'
+    ];
+    var xmlDoc;
+    for (var i = 0; i < xmlDomVersions.length; i++) {
+        try {
+            xmlDoc = new ActiveXObject(xmlDomVersions[i]);
+            xmlDoc.async = false;
+            break;
+        } catch (e) {
+            WScript.StdOut.Write(xmlDomVersions[i]);
+            WScript.StdOut.WriteLine("：" + e.message);
+        }
+    }
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    if (!fso.FileExists(xml)) {
+        // 载入xml字符串
+        xmlDoc.loadXML(xml);
+        return xmlDoc;
+    }
+    // 载入xml文件
+    xmlDoc.load(xml);
+    return xmlDoc;
+}
+```
+
+
+
 
 - 图片格式转换
 
@@ -964,8 +1032,8 @@ function osVersion() {
         case "10.0":
             return "windows 10";
             break;
-            defult:
-                return version;
+        defult:
+            return version;
     }
 }
 ```
@@ -1003,6 +1071,7 @@ function unZip(zipFile, unDirectory) {
     objShell.NameSpace(unDirectory).CopyHere(objSource.Items(), 256);
 }
 ```
+
 
 - 数据库
 

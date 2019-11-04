@@ -210,9 +210,30 @@ function request(method, url, dataType, data, contentType) {
     if (contentType == "" || contentType == null || contentType.length <= 0) {
         contentType = "application/x-www-form-unlenconded;charset=utf-8";
     }
-    // 把字符串转换为小写
-    dataType = dataType.toLowerCase();
-
+    var XMLHTTPVersions = [
+        'WinHttp.WinHttpRequest.5.1',
+        'WinHttp.WinHttpRequest.5.0',
+        'Msxml2.ServerXMLHTTP.6.0',
+        'Msxml2.ServerXMLHTTP.5.0',
+        'Msxml2.ServerXMLHTTP.4.0',
+        'Msxml2.ServerXMLHTTP.3.0',
+        'Msxml2.ServerXMLHTTP',
+        'MSXML2.XMLHTTP.6.0',
+        'MSXML2.XMLHTTP.5.0',
+        'MSXML2.XMLHTTP.4.0',
+        'MSXML2.XMLHTTP.3.0',
+        'MSXML2.XMLHTTP'
+    ];
+    var XMLHTTP;
+    for (var i = 0; i < XMLHTTPVersions.length; i++) {
+        try {
+            XMLHTTP = new ActiveXObject(XMLHTTPVersions[i]);
+            break;
+        } catch (e) {
+            WScript.StdOut.Write(XMLHTTPVersions[i]);
+            WScript.StdOut.WriteLine("：" + e.message);
+        }
+    }
 
     //将对象转化成为querystring形式
     var paramarray = [];
@@ -220,8 +241,6 @@ function request(method, url, dataType, data, contentType) {
         paramarray.push(key + "=" + data[key]);
     }
     var params = paramarray.join("&");
-
-    var XMLHTTP = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 
     switch (method) {
         case "POST":
@@ -242,6 +261,8 @@ function request(method, url, dataType, data, contentType) {
             XMLHTTP.Send();
     }
 
+    // 把字符串转换为小写
+    dataType = dataType.toLowerCase();
     switch (dataType) {
         case "text":
             return XMLHTTP.responseText;
@@ -625,9 +646,30 @@ function request(method, url, dataType, data, contentType) {
     if (contentType == "" || contentType == null || contentType.length <= 0) {
         contentType = "application/x-www-form-unlenconded;charset=utf-8";
     }
-    // 把字符串转换为小写
-    dataType = dataType.toLowerCase();
-
+    var XMLHTTPVersions = [
+        'WinHttp.WinHttpRequest.5.1',
+        'WinHttp.WinHttpRequest.5.0',
+        'Msxml2.ServerXMLHTTP.6.0',
+        'Msxml2.ServerXMLHTTP.5.0',
+        'Msxml2.ServerXMLHTTP.4.0',
+        'Msxml2.ServerXMLHTTP.3.0',
+        'Msxml2.ServerXMLHTTP',
+        'MSXML2.XMLHTTP.6.0',
+        'MSXML2.XMLHTTP.5.0',
+        'MSXML2.XMLHTTP.4.0',
+        'MSXML2.XMLHTTP.3.0',
+        'MSXML2.XMLHTTP'
+    ];
+    var XMLHTTP;
+    for (var i = 0; i < XMLHTTPVersions.length; i++) {
+        try {
+            XMLHTTP = new ActiveXObject(XMLHTTPVersions[i]);
+            break;
+        } catch (e) {
+            WScript.StdOut.Write(XMLHTTPVersions[i]);
+            WScript.StdOut.WriteLine("：" + e.message);
+        }
+    }
 
     //将对象转化成为querystring形式
     var paramarray = [];
@@ -635,8 +677,6 @@ function request(method, url, dataType, data, contentType) {
         paramarray.push(key + "=" + data[key]);
     }
     var params = paramarray.join("&");
-
-    var XMLHTTP = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 
     switch (method) {
         case "POST":
@@ -657,6 +697,8 @@ function request(method, url, dataType, data, contentType) {
             XMLHTTP.Send();
     }
 
+    // 把字符串转换为小写
+    dataType = dataType.toLowerCase();
     switch (dataType) {
         case "text":
             return XMLHTTP.responseText;
