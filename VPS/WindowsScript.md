@@ -60,70 +60,91 @@ WScript
 
 > 都在注册表`HKEY_CLASSES_ROOT`注册表项中，正常情况下项中带有`CLSID`键的是脚本可创建的
 
-| 对象                          	| 说明                                                            	|
-|-------------------------------	|-----------------------------------------------------------------	|
-| ADODB.Command                 	|                                                                 	|
-| ADODB.Connection              	| 提供数据库连接对象                                              	|
-| ADODB.Error                   	|                                                                 	|
-| ADODB.Parameter               	|                                                                 	|
-| ADODB.Record                  	|                                                                 	|
-| ADODB.Recordset               	| 提供数据库返回结果集对象                                        	|
-| ADODB.Stream                  	|                                                                 	|
-| ADOMD.Catalog                 	|                                                                 	|
-| ADOMD.Cellset                 	|                                                                 	|
-| ADOX.Catalog                  	| 包含描述数据源模式目录的集合                                    	|
-| ADOX.Column                   	| 表示表、索引或关键字的列                                        	|
-| ADOX.Group                    	| 表示在安全数据库内有访问权限的组帐号                            	|
-| ADOX.Index                    	| 表示数据库表中的索引                                            	|
-| ADOX.Key                      	| 表示数据库表中的主关键字、外部关键字或唯一关键字                	|
-| ADOX.Procedure                	| 表示存储的过程                                                  	|
-| ADOX.Table                    	| 表示数据库表，包括列、索引和关键字                              	|
-| ADOX.User                     	| 表示在安全数据库内具有访问权限的用户帐号                        	|
-| ADOX.View                     	| 表示记录或虚拟表的过滤集                                        	|
-| AspSmartUpload.SmartUpload    	|                                                                 	|
-| CDO.Configuration             	| 邮件发送的组件                                                  	|
-| CDONTS.NewMail                	|                                                                 	|
-| Excel.Application             	| 提供EXCEL操作对象                                               	|
-| Excel.Chart                   	|                                                                 	|
-| Excel.Sheet                   	|                                                                 	|
-| Huang.UploadFile              	|                                                                 	|
-| InternetExplorer.application  	|                                                                 	|
-| JMail.message                 	| 邮件发送的组件                                                  	|
-| Microsoft.XMLDOM              	| 提供XML操作对象                                                 	|
-| Microsoft.XMLHTTP             	|                                                                 	|
-| MSGraph.Application           	| office                                                          	|
-| MSWC.AdRotator                	|                                                                 	|
-| MSWC.BrowserType              	|                                                                 	|
-| MSWC.NextLink                 	|                                                                 	|
-| Msxml2.DOMDocument            	|                                                                 	|
-| Msxml2.DOMDocument.3.0        	|                                                                 	|
-| MSXML2.XMLHTTP                	|                                                                 	|
-| Outlook.Application           	| office                                                          	|
-| PowerPoint.Application        	| office                                                          	|
-| Scripting.Dictionary          	| 用来返回存放键值对的字典对象，读取DOS环境变量，读取链接中的设置 	|
-| Scripting.Encoder             	| 编码                                                            	|
-| Scripting.FileSystemObject    	| 提供一整套文件系统操作函数                                      	|
-| Scripting.Signer              	| 签名                                                            	|
-| Shell.Application             	| Windows外壳                                                     	|
-| SQLOLE.SQLServer              	|                                                                 	|
-| WbemScripting                 	|                                                                 	|
-| WbemScripting.SWbemDateTime   	|                                                                 	|
-| WbemScripting.SWbemLastError  	|                                                                 	|
-| WbemScripting.SWbemLocator    	| `VMI`API对象                                                    	|
-| WbemScripting.SWbemObjectPath 	|                                                                 	|
-| WbemScripting.SWbemRefresher  	|                                                                 	|
-| WebPlatStorage.WebPlatStorage 	|                                                                 	|
-| WIA.ImageFile                 	| 图像处理组件：加载图片                                          	|
-| WIA.ImageProcess              	| 图像处理组件：转换图片格式                                      	|
-| WIA.Rational                  	|                                                                 	|
-| WIA.Vector                    	|                                                                 	|
-| WinHttp.WinHttpRequest.5.1    	|                                                                 	|
-| Word.Application              	| office                                                          	|
-| Word.Document                 	|                                                                 	|
-| WScript.Arguments             	| 返回集合的WScript对象的参数属性                                 	|
-| Wscript.NetWork               	| 提供网络连接和远程打印机管理的函数。                            	|
-| WScript.Shell                 	| 脚本外壳                                                        	|
-| WSHController                 	|                                                                 	|
+
+| ADODB对象        	| 说明                                             	|
+|------------------	|--------------------------------------------------	|
+| ADODB.Command    	|                                                  	|
+| ADODB.Connection 	| 提供数据库连接对象                               	|
+| ADODB.Error      	|                                                  	|
+| ADODB.Parameter  	|                                                  	|
+| ADODB.Record     	|                                                  	|
+| ADODB.Recordset  	| 提供数据库返回结果集对象                         	|
+| ADODB.Stream     	|                                                  	|
+| ADOMD.Catalog    	|                                                  	|
+| ADOMD.Cellset    	|                                                  	|
+| ADOX.Catalog     	| 包含描述数据源模式目录的集合                     	|
+| ADOX.Column      	| 表示表、索引或关键字的列                         	|
+| ADOX.Group       	| 表示在安全数据库内有访问权限的组帐号             	|
+| ADOX.Index       	| 表示数据库表中的索引                             	|
+| ADOX.Key         	| 表示数据库表中的主关键字、外部关键字或唯一关键字 	|
+| ADOX.Procedure   	| 表示存储的过程                                   	|
+| ADOX.Table       	| 表示数据库表，包括列、索引和关键字               	|
+| ADOX.User        	| 表示在安全数据库内具有访问权限的用户帐号         	|
+| ADOX.View        	| 表示记录或虚拟表的过滤集                         	|
+
+
+
+
+| office对象             	| 说明              	|
+|------------------------	|-------------------	|
+| Word.Application       	| office            	|
+| Word.Document          	|                   	|
+| Excel.Application      	| 提供EXCEL操作对象 	|
+| Excel.Chart            	|                   	|
+| Excel.Sheet            	|                   	|
+| Outlook.Application    	| office            	|
+| PowerPoint.Application 	| office            	|
+| MSGraph.Application    	| office            	|
+
+
+| WIA对象          	| 说明                       	|
+|------------------	|----------------------------	|
+| WIA.ImageFile    	| 图像处理组件：加载图片     	|
+| WIA.ImageProcess 	| 图像处理组件：转换图片格式 	|
+| WIA.Rational     	|                            	|
+| WIA.Vector       	|                            	|
+
+
+| Scripting对象              	| 说明                                                            	|
+|----------------------------	|-----------------------------------------------------------------	|
+| Scripting.Dictionary       	| 用来返回存放键值对的字典对象，读取DOS环境变量，读取链接中的设置 	|
+| Scripting.Encoder          	| 编码                                                            	|
+| Scripting.FileSystemObject 	| 提供一整套文件系统操作函数                                      	|
+| Scripting.Signer           	| 签名                                                            	|
+
+
+| 对象                         	| 说明                                 	|
+|------------------------------	|--------------------------------------	|
+| AspSmartUpload.SmartUpload   	|                                      	|
+| CDO.Configuration            	|                                      	|
+| CDONTS.NewMail               	| 邮件发送的组件                       	|
+| Huang.UploadFile             	|                                      	|
+| InternetExplorer.application 	|                                      	|
+| JMail.message                	| 邮件发送的组件                       	|
+| MSWC.AdRotator               	|                                      	|
+| MSWC.BrowserType             	|                                      	|
+| MSWC.NextLink                	|                                      	|
+| Shell.Application            	| Windows外壳                          	|
+| SQLOLE.SQLServer             	|                                      	|
+| Wscript.NetWork              	| 提供网络连接和远程打印机管理的函数。 	|
+| WScript.Shell                	| 脚本外壳                             	|
+| WSHController                	|                                      	|
+| System.IO.StringWriter        	|                                    |
+
+
+
+| Collections对象                   | 说明                                                                   	|
+|-------------------------------	|------------------------------------------------------------------------	|
+| System.Collections.ArrayList  	| 包含动态数组的添加元素、删除元素、遍历、统计元素个数、清空             	|
+| System.Collections.Hashtable  	|                                                                        	|
+| System.Collections.Queue      	| 包含队列的添加元素（入队）、删除元素（出队）、遍历、统计元素个数、清空 	|
+| System.Collections.SortedList 	|                                                                        	|
+| System.Collections.Stack      	| 包含堆栈的添加元素（压栈）、删除元素（出栈）、遍历、统计元素个数、清空 	|
+
+
+
+
+
 
 - `WScript`对象的属性
 
@@ -143,6 +164,7 @@ WScript
 | StdOut         	| TextStream       	| 显示当前脚本的输出流。                                           	|
 | Timeout        	| Long             	| 超时设定秒：允许脚本运行的最长时间。                             	|
 | Version        	| String           	| 返回 Windows 脚本宿主的版本。                                    	|
+
 
 - `WScript`对象的方法
 
@@ -179,24 +201,31 @@ WScript
 
 #### 版本和封装位置
 
-- `XMLHttpRequest`对象版本和对应的封装dll文件
-    - `Microsoft.XMLHTTP` 对应 `msxml.dll`
-    - `MSXML2.XMLHTTP` 对应 `msxml2.dll`
-    - `MSXML2.XMLHTTP.3.0` 对应 `msxml3.dll`
-    - `MSXML2.XMLHTTP.4.0` 对应 `msxml4.dll`
-    - `MSXML2.XMLHTTP.5.0` 对应 `msxml5.dll`（此版本是伴随office2007发布的，所以目录下可能找不到该版本的dll）
-    - `MSXML2.XMLHTTP.6.0` 对应 `msxml6.dll`
+| 对象                       	| dll          	| 说明                                              	|
+|----------------------------	|--------------	|---------------------------------------------------	|
+| htmlfile                   	|              	|                                                   	|
+| mhtmlfile                  	|              	|                                                   	|
+| Microsoft.XMLDOM           	|              	| 提供XML操作对象                                   	|
+| Microsoft.XMLHTTP          	| msxml.dll    	|                                                   	|
+| Msxml2.DOMDocument         	|              	|                                                   	|
+| Msxml2.DOMDocument.3.0     	|              	|                                                   	|
+| Msxml2.DOMDocument.4.0     	|              	|                                                   	|
+| Msxml2.DOMDocument.5.0     	|              	|                                                   	|
+| Msxml2.DOMDocument.6.0     	|              	|                                                   	|
+| Msxml2.ServerXMLHTTP       	| msxml2.dll   	|                                                   	|
+| Msxml2.ServerXMLHTTP.3.0   	| msxml3.dll   	|                                                   	|
+| Msxml2.ServerXMLHTTP.4.0   	| msxml4.dll   	|                                                   	|
+| Msxml2.ServerXMLHTTP.5.0   	| msxml5.dll   	|                                                   	|
+| Msxml2.ServerXMLHTTP.6.0   	| msxml6.dll   	|                                                   	|
+| MSXML2.XMLHTTP             	| msxml2.dll   	|                                                   	|
+| MSXML2.XMLHTTP.3.0         	| msxml3.dll   	|                                                   	|
+| MSXML2.XMLHTTP.4.0         	| msxml4.dll   	|                                                   	|
+| MSXML2.XMLHTTP.5.0         	| msxml5.dll   	| 此版随office2007发布，目录下可能找不到该版本的dll 	|
+| MSXML2.XMLHTTP.6.0         	| msxml6.dll   	|                                                   	|
+| WinHttp.WinHttpRequest.5.0 	| Winhttp5.dll 	|                                                   	|
+| WinHttp.WinHttpRequest.5.1 	| Winhttp.dll  	|                                                   	|
 
-> 如上各个dll的发布一般都是以补丁的形式发布，win7默认都集成
 
-- `ServerXMLHTTP`对象版本和对应的封装dll文件
-    - `Msxml2.ServerXMLHTTP` 对应 `msxml2.dll`（win7自带，下同！）
-    - `Msxml2.ServerXMLHTTP.3.0` 对应 `msxml3.dll`
-    - `Msxml2.ServerXMLHTTP.4.0` 对应 `msxml4.dll`
-    - `Msxml2.ServerXMLHTTP.5.0` 对应 `msxml5.dll`
-    - `Msxml2.ServerXMLHTTP.6.0` 对应 `msxml6.dll`
-
-- `WinHttpRequest`对象`WinHttp.WinHttpRequest.5.1` 对应 `Winhttp.dll`
 
 ### 图像处理
 
@@ -447,6 +476,21 @@ WScript
 > 通过`WbemScripting.SWbemLocator`创建对象
 
 > 查询方式类似sql语句（其实系统信息也是存储在计算中一个类似数据库的文件中）获取我们需要的对象的记录集
+
+
+
+| WbemScripting对象             	| 说明       	|
+|-------------------------------	|------------	|
+| WbemScripting                 	|            	|
+| WbemScripting.SWbemDateTime   	|            	|
+| WbemScripting.SWbemLastError  	| VMIAPI对象 	|
+| WbemScripting.SWbemLocator    	|            	|
+| WbemScripting.SWbemObjectPath 	|            	|
+| WbemScripting.SWbemRefresher  	|            	|
+| WebPlatStorage.WebPlatStorage 	|            	|
+
+
+
 
 |           表名                    | 说明         |
 |-----------------------------------|------------|

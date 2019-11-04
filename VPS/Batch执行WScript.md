@@ -766,24 +766,6 @@ function autoStart(mode) {
 * [VBScript 函数](https://www.w3school.com.cn/vbscript/vbscript_ref_functions.asp)
 
 
-- `Scripting.Dictionary` 字典
-
-> 包含字典的添加、删除、判断键是否存在、修改键、修改值、遍历、统计键值对个数
-
-- `System.Collections.ArrayList` 动态数组
-
-> 包含动态数组的添加元素、删除元素、遍历、统计元素个数、清空
-
-- `System.Collections.Queue` 队列
-
-> 包含队列的添加元素（入队）、删除元素（出队）、遍历、统计元素个数、清空
-
-- `System.Collections.Stack` 堆栈
-
-> 包含堆栈的添加元素（压栈）、删除元素（出栈）、遍历、统计元素个数、清空
-
-
-
 
 
 ### vbs特殊符号
