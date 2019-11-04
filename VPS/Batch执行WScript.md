@@ -1,4 +1,4 @@
-# BAT执行WScript
+# Batch执行WScript
 
 
 * [WScript](#wscript)
