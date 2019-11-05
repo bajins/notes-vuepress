@@ -96,7 +96,7 @@ WantedBy=multi-user.target
 
 ### 第三方项目
 
-* [GoWebhook](https://github.com/moonagic/GoWebhook)
+* [webhook-go](https://github.com/woytu/webhook-go)
 
 * [webhook](https://github.com/adnanh/webhook)
 
