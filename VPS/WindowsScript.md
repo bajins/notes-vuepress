@@ -1,16 +1,24 @@
 # WindowsScript
 
 
-* [WScript](#wscript)
-  * [HTTP](#http)
-    * [版本和封装位置](#版本和封装位置)
-  * [图像处理](#图像处理)
-  * [操作文件](#操作文件)
-  * [Shell](#shell)
-    * [执行命令](#执行命令)
-    * [特殊文件夹](#特殊文件夹)
-    * [模拟按键](#模拟按键)
-  * [VMI](#vmi)
+* [flag](#flag)
+* [WSH对象模型层级](#wsh对象模型层级)
+  * [`COM`接口可分为两类](#com接口可分为两类)
+* [`WScript`对象](#wscript对象)
+  * [`WScript`对象的属性](#wscript对象的属性)
+  * [`WScript`对象的方法](#wscript对象的方法)
+* [常用组件对象](#常用组件对象)
+* [HTTP](#http)
+  * [版本和封装位置](#版本和封装位置)
+* [图像处理](#图像处理)
+* [操作文件](#操作文件)
+  * [`FileSystemObject`的对象和集合](#filesystemobject的对象和集合)
+  * [`FileSystemObject`的方法和属性](#filesystemobject的方法和属性)
+* [Shell](#shell)
+  * [执行命令](#执行命令)
+  * [特殊文件夹](#特殊文件夹)
+  * [模拟按键](#模拟按键)
+* [VMI](#vmi)
 
 
 
@@ -19,15 +27,20 @@
 
 
 
-## WScript
+## flag
 
 * [属性和方法及子对象](https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/x66z77t4(v=vs.84)#language-element-table)
 
 
-- `Windows Script Host`是一个`language-independent`的脚本宿主环境，主要用于执行`Windows`管理任务，其对象层级为
+- `JScript`、`VBScript`同属于官方支持的`Windows Script`，这俩脚本都需要依赖于特定的宿主(`Host`)才能执行，
+`JavaScript`浏览器环境之外，还可以运行在`Windows Script Host`中。
+
+
+- `Windows Script Host`是一个`language-independent`的脚本宿主环境，主要用于执行`Windows`管理任务
+
+## WSH对象模型层级
 
 ```bash
-// WSH 对象模型层级
 WScript
   |-- WshArguments
   |  |-- WshNamed
@@ -44,19 +57,65 @@ WScript
   |  |-- WshScriptExec
 ```
 
-- `WSH`对象模型提供的`COM`接口可以分为两类：
-    - `Script Execution and Troubleshooting`：这类接口运行脚本执行`WSH`的基本的操作, 
-    输出信息、执行基本的`COM`函数（如`CreateObject`、`GetObject`）
-    - `Helper Functions`：执行诸如映射网络驱动器、连接打印机、获取/修改环境变量、操作注册表之类操作
+### `COM`接口可分为两类
+
+- `Script Execution and Troubleshooting`
+
+> 这类接口运行脚本执行`WSH`的基本的操作, 输出信息、执行基本的`COM`函数（如`CreateObject`、`GetObject`）
+
+- `Helper Functions`
+
+> 执行诸如映射网络驱动器、连接打印机、获取/修改环境变量、操作注册表之类操作
 
 
-> 所有`Scripting`对象都存放在`SCRRUN.DLL`文件中，所有的`Wscript`对象都存放在`WSHOM.ocx`文件中。
 
-> `JScript`、`VBScript`同属于官方支持的`Windows Script`，这俩脚本都需要依赖于特定的宿主(`Host`)才能执行，
-> `JavaScript`浏览器环境之外，还可以运行在`Windows Script Host`中。
+## `WScript`对象
+
+> 所有的`Wscript`对象都存放在`WSHOM.ocx`文件中
+
+| 对象                         	| 说明                                 	|
+|------------------------------	|--------------------------------------	|
+| WScript.Shell                	| 脚本外壳                             	|
+| Wscript.NetWork              	| 提供网络连接和远程打印机管理的函数。 	|
 
 
-- 常用组件对象
+
+### `WScript`对象的属性
+
+| 属性           	| 返回值类型       	| 说明                                                             	|
+|----------------	|------------------	|------------------------------------------------------------------	|
+| Application    	| Object           	| 返回 IHost_Class 对象（Wscript 对象）。                          	|
+| Arguments      	| IArguments_Class 	| 返回 WshArguments 对象（参数集）。                               	|
+| BuildVersion   	| Long             	| 返回 Windows 脚本宿主的内部版本。                                	|
+| FullName       	| String           	| 返回宿主可执行文件（CScript.exe 或 WScript.exe）的全路径。       	|
+| Interactive    	| Boolean          	| 设置或确定脚本模式。                                             	|
+| Name           	| String           	| WScript 对象（宿主可执行文件）的名称。                           	|
+| Path           	| String           	| 返回包含宿主可执行文件（CScript.exe 或 WScript.exe）的路径名称。 	|
+| ScriptFullName 	| String           	| 返回当前运行脚本的完整路径。                                     	|
+| ScriptName     	| String           	| 返回当前运行脚本的文件名。                                       	|
+| StdErr         	| TextStream       	| 显示当前脚本的错误输出流。                                       	|
+| StdIn          	| TextStream       	| 显示当前脚本的输入流。                                           	|
+| StdOut         	| TextStream       	| 显示当前脚本的输出流。                                           	|
+| Timeout        	| Long             	| 超时设定秒：允许脚本运行的最长时间。                             	|
+| Version        	| String           	| 返回 Windows 脚本宿主的版本。                                    	|
+
+
+### `WScript`对象的方法
+
+| 方法             	| 参数                                                         	| 返回值 	| 说明                                             	|
+|------------------	|--------------------------------------------------------------	|--------	|--------------------------------------------------	|
+| ConnectObject    	| (Object As Object, Prefix As String)                         	| 无     	| 将对象的事件源连接到具有给定前缀的函数。         	|
+| CreateObject     	| (ProgID As String, [Prefix As String])                       	| Object 	| 创建对象。                                       	|
+| DisconnectObject 	| (Object As Object)                                           	| 无     	| 断开已连接对象的事件源的连接。                   	|
+| Echo             	| (ParamArray pArgs() As Variant)                              	| 无     	| 将文本输出到消息框中或命令控制台窗口。           	|
+| GetObject        	| (Pathname As String, [ProgID As String], [Prefix As String]) 	| Object 	| 检索现有的对象或从文件中创建新对象。             	|
+| Quit             	| ([ExitCode As Long])                                         	| 无     	| 强制脚本停止执行。                               	|
+| Sleep            	| (Time As Long)                                               	| 无     	| 在指定的时间长度内将脚本执行挂起，然后继续执行。 	|
+
+
+
+
+## 常用组件对象
 
 > 都在注册表`HKEY_CLASSES_ROOT`注册表项中，正常情况下项中带有`CLSID`键的是脚本可创建的
 
@@ -105,6 +164,9 @@ WScript
 | WIA.Vector       	|                            	|
 
 
+
+> 所有`Scripting`对象都存放在`SCRRUN.DLL`文件中
+
 | Scripting对象              	| 说明                                                            	|
 |----------------------------	|-----------------------------------------------------------------	|
 | Scripting.Dictionary       	| 用来返回存放键值对的字典对象，读取DOS环境变量，读取链接中的设置 	|
@@ -126,10 +188,8 @@ WScript
 | MSWC.NextLink                	|                                      	|
 | Shell.Application            	| Windows外壳                          	|
 | SQLOLE.SQLServer             	|                                      	|
-| Wscript.NetWork              	| 提供网络连接和远程打印机管理的函数。 	|
-| WScript.Shell                	| 脚本外壳                             	|
 | WSHController                	|                                      	|
-| System.IO.StringWriter        	|                                    |
+| System.IO.StringWriter        |                                       |
 
 
 
@@ -143,44 +203,7 @@ WScript
 
 
 
-
-
-
-- `WScript`对象的属性
-
-| 属性           	| 返回值类型       	| 说明                                                             	|
-|----------------	|------------------	|------------------------------------------------------------------	|
-| Application    	| Object           	| 返回 IHost_Class 对象（Wscript 对象）。                          	|
-| Arguments      	| IArguments_Class 	| 返回 WshArguments 对象（参数集）。                               	|
-| BuildVersion   	| Long             	| 返回 Windows 脚本宿主的内部版本。                                	|
-| FullName       	| String           	| 返回宿主可执行文件（CScript.exe 或 WScript.exe）的全路径。       	|
-| Interactive    	| Boolean          	| 设置或确定脚本模式。                                             	|
-| Name           	| String           	| WScript 对象（宿主可执行文件）的名称。                           	|
-| Path           	| String           	| 返回包含宿主可执行文件（CScript.exe 或 WScript.exe）的路径名称。 	|
-| ScriptFullName 	| String           	| 返回当前运行脚本的完整路径。                                     	|
-| ScriptName     	| String           	| 返回当前运行脚本的文件名。                                       	|
-| StdErr         	| TextStream       	| 显示当前脚本的错误输出流。                                       	|
-| StdIn          	| TextStream       	| 显示当前脚本的输入流。                                           	|
-| StdOut         	| TextStream       	| 显示当前脚本的输出流。                                           	|
-| Timeout        	| Long             	| 超时设定秒：允许脚本运行的最长时间。                             	|
-| Version        	| String           	| 返回 Windows 脚本宿主的版本。                                    	|
-
-
-- `WScript`对象的方法
-
-| 方法             	| 参数                                                         	| 返回值 	| 说明                                             	|
-|------------------	|--------------------------------------------------------------	|--------	|--------------------------------------------------	|
-| ConnectObject    	| (Object As Object, Prefix As String)                         	| 无     	| 将对象的事件源连接到具有给定前缀的函数。         	|
-| CreateObject     	| (ProgID As String, [Prefix As String])                       	| Object 	| 创建对象。                                       	|
-| DisconnectObject 	| (Object As Object)                                           	| 无     	| 断开已连接对象的事件源的连接。                   	|
-| Echo             	| (ParamArray pArgs() As Variant)                              	| 无     	| 将文本输出到消息框中或命令控制台窗口。           	|
-| GetObject        	| (Pathname As String, [ProgID As String], [Prefix As String]) 	| Object 	| 检索现有的对象或从文件中创建新对象。             	|
-| Quit             	| ([ExitCode As Long])                                         	| 无     	| 强制脚本停止执行。                               	|
-| Sleep            	| (Time As Long)                                               	| 无     	| 在指定的时间长度内将脚本执行挂起，然后继续执行。 	|
-
-
-
-### HTTP
+## HTTP
 
 > 微软提供了二套API：`WinINet`, `WinHTTP`（分别封装于`system32`目录下的`wininet.dll`和`winhttp.dll`内）
 > 二者主要区别在于后者更为安全和稳定，可以说`WinHTTP`是`WinINet`的升级版
@@ -199,7 +222,7 @@ WScript
 
 * [WinHTTP版本](https://docs.microsoft.com/zh-cn/windows/win32/winhttp/winhttp-versions)
 
-#### 版本和封装位置
+### 版本和封装位置
 
 | 对象                       	| dll          	| 说明                                              	|
 |----------------------------	|--------------	|---------------------------------------------------	|
@@ -227,7 +250,7 @@ WScript
 
 
 
-### 图像处理
+## 图像处理
 
 > `WIA`全称：`WindowsImageAcquisition`，自动化层是一个功能齐全的图像处理组件，可提供端到端的图像处理功能。
 > `WIA`自动化层可以轻松地从数码相机，扫描仪或网络摄像头获取图像，以及旋转，缩放和注释图像文件。
@@ -244,7 +267,7 @@ WScript
 
 
 
-### 操作文件
+## 操作文件
 
 * [FileSystemObject简介](https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/d6dw7aeh(v=vs.84))
 
@@ -252,7 +275,8 @@ WScript
 
 * [FileSystemObject操作文件](https://blog.csdn.net/pl1612127/article/details/77862174)
 
-- `Scripting.FileSystemObject`对象的对象和集合
+
+### `FileSystemObject`的对象和集合
 
 | 对象/集合  	| 描述                                                  	|
 |------------	|-------------------------------------------------------	|
@@ -268,7 +292,7 @@ WScript
 
 
 
-- `Scripting.FileSystemObject`对象的方法和属性
+### `FileSystemObject`的方法和属性
 
 
 | 方法和属性                                        	| 说明                                                                                          	|
@@ -350,7 +374,7 @@ WScript
 
 
 
-### Shell
+## Shell
 
 * [Wscript.Shell 对象详细介绍](https://www.jb51.net/article/5683_all.htm)
 
@@ -388,7 +412,7 @@ WScript
 
 
 
-#### 执行命令
+### 执行命令
 
 
 - `Run`
@@ -425,7 +449,7 @@ WScript
 
 
 
-#### 特殊文件夹
+### 特殊文件夹
 
 > `SpecialFolders`属性提供`WshSpecialFolders`对象以便访问`Windows`的`shell`文件夹
 
@@ -452,7 +476,7 @@ WScript
 | AppData           | 应用程序数据 |
 
 
-#### 模拟按键
+### 模拟按键
 
 - `SendKeys`键击参数说明
 
@@ -468,7 +492,7 @@ WScript
 
 
 
-### VMI
+## VMI
 
 > `SWBEM`脚本是可以用来访问和控制WMI内部对象的一系列可用在脚本中的对象，
 > 脚本通过访问`wbemdisp.dll`这个`library`来访问`VMI`对象，这个仅被设计用来为脚本工作。
