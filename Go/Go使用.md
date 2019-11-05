@@ -17,6 +17,17 @@
 
 * [File操作](https://blog.csdn.net/TDCQZD/article/details/81835149)
 
+- 判断结构体是否为空
+
+```go
+if reflect.DeepEqual(a, A{}) {
+    fmt.Println("a == A{} empty")
+}
+// 括号不能去
+if a == (A{}) {
+    fmt.Println("a == A{} empty")
+}
+```
 
 
 ## 运行命令
