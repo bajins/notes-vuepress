@@ -1,5 +1,9 @@
 # Go使用
 
+
+## flag
+
+
 > go语言中的函数可以有多个返回值
 
 > go语言是一种函数式编程语言，函数是go语言中的一等公民，函数的参数，返回值以及函数体内都可以存在函数 
@@ -12,6 +16,7 @@
 * [runtime包](https://www.jianshu.com/p/84bac7932394)
 
 * [File操作](https://blog.csdn.net/TDCQZD/article/details/81835149)
+
 
 
 ## 运行命令
@@ -238,6 +243,35 @@ func test() {
 ```
 
 
+## http
 
+* [关于golang 的readall清空reader](https://www.jianshu.com/p/2ecda118336f)
+
+
+
+```go
+var buffer [512]byte
+result := bytes.NewBuffer(nil)
+for {
+    n, err := resp.Body.Read(buffer[0:])
+    result.Write(buffer[0:n])
+    if err != nil && err == io.EOF {
+        break
+    } else if err != nil {
+        panic(err)
+    }
+}
+//result, _ := ioutil.ReadAll(resp.Body)
+// 必须关闭
+defer resp.Body.Close()
+// 读取Body会清空对应Reader，这里使用了result后会被清空
+resp.Body = ioutil.NopCloser(result)
+//resp.Body = ioutil.NopCloser(bytes.NewBuffer(result))
+
+// 解析参数，填充到Form、PostForm
+resp.Request.ParseForm()
+// 解析文件上传表单的post参数
+resp.Request.ParseMultipartForm(1024)
+```
 
 
