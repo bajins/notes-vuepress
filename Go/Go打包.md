@@ -7,7 +7,9 @@
 ## 打包命令
 
 ### 在windows下打包
+
 #### 设置环境
+
 > `GOOS` 目标可执行程序运行操作系统，支持`darwin`、`freebsd`、`linux`、`windows`
 
 ```batch
@@ -20,6 +22,7 @@ SET GOOS=darwin
 # 打包freebsd执行文件
 SET GOOS=freebsd
 ```
+
 > `GOARCH` 目标可执行程序操作系统构架，包括`386`、`amd64`、`arm`
 
 ```batch
@@ -30,7 +33,9 @@ SET GOARCH=amd64
 # 打包arm执行文件
 SET GOARCH=arm
 ```
+
 #### 执行编译
+
 ```batch
 go build main.go
 # 打包文件成其他名字
@@ -42,6 +47,7 @@ go build -o key-gin.exe main.go
 ## 打包脚本
 
 ### 在项目中新建
+
 > 只需在项目目录中新建一个bat文件把以下脚本命令放入，且修改`files`变量执行脚本即可打包
 
 ```batch
@@ -86,11 +92,18 @@ set allList=_darwin_386,_darwin_amd64,_freebsd_386,_freebsd_amd64,_freebsd_arm,_
 set allList=%allList%_openbsd_386,_openbsd_amd64,_windows_386.exe,_windows_amd64.exe,
 set allList=%allList%_linux_386,_linux_amd64,_linux_arm,_linux_mips,_linux_mips64,_linux_mips64le,_linux_mipsle,_linux_s390x
 
+:GETGOX
+set GOPROXY=https://goproxy.io
+go get github.com/mitchellh/gox
+
 for %%i in (%allList%) do (
     :: 如果二进制文件不存在则重新打包
     if not exist "%project%%%i" (
         go get github.com/mitchellh/gox
         gox
+        if not %errorlevel% == 0 (
+            goto :GETGOX
+        )
         :: 删除旧的压缩包文件
         del *.zip *.tar *.gz
     )
@@ -159,7 +172,6 @@ sGet.Close();
 
 > 示例：`脚本名 f:\\key-gin "pyutils static templates" key-gin`
 
-* [脚本文件](/files/7z_pack_go.bat)
 
 ```batch
 1>1/* ::
@@ -228,11 +240,19 @@ set allList=_darwin_386,_darwin_amd64,_freebsd_386,_freebsd_amd64,_freebsd_arm,_
 set allList=%allList%_openbsd_386,_openbsd_amd64,_windows_386.exe,_windows_amd64.exe,
 set allList=%allList%_linux_386,_linux_amd64,_linux_arm,_linux_mips,_linux_mips64,_linux_mips64le,_linux_mipsle,_linux_s390x
 
+:GETGOX
+set GOPROXY=https://goproxy.io
+go get github.com/mitchellh/gox
+
+
 for %%i in (%allList%) do (
     :: 如果二进制文件不存在则重新打包
     if not exist "%project%%%i" (
         go get github.com/mitchellh/gox
         gox
+        if not %errorlevel% == 0 (
+            goto :GETGOX
+        )
         :: 删除旧的压缩包文件
         del *.zip *.tar *.gz
     )
