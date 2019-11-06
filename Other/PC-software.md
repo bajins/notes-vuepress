@@ -37,6 +37,7 @@
 | [下1个好软件](http://www.xia1ge.com)                                 	|                                           	|                                               	|                                           	|
 | [星空软件共享绿化园地](http://www.xingkbjm.com/)                     	|                                           	|                                               	|                                           	|
 | [飞扬时空作品](http://blog.sina.com.cn/s/blog_89a729a40102wjwp.html) 	|                                           	|                                               	|                                           	|
+| [翠竹成林](http://msbuild.cn/category/software) 	|                                           	|                                               	|                                           	|
 
 
 
@@ -123,7 +124,34 @@
 > 打开后，随便点一个进程右键，查看-查看进程热键-再右键-显示所有进程热键
 
 
+| MSDN                                                               	| 绿色精简                                              	|
+|--------------------------------------------------------------------	|-------------------------------------------------------	|
+| [http://msdn.itellyou.cn](http://msdn.itellyou.cn)                 	| [WINOS ](https://www.winos.me/)                       	|
+| [https://www.iruanmi.com/msdn](https://www.iruanmi.com/msdn)       	| [绿色系统](http://lvsexitong.com/)                    	|
+| [http://www.imsdn.cn](http://www.imsdn.cn)                         	| [网吧系统](http://down.lansedongli.com/)              	|
+| [https://uup.rg-adguard.net](https://uup.rg-adguard.net)           	| [twm000-导航页被定制可修改](http://twm000.top/)       	|
+| [https://www.repaik.com/win.html](https://www.repaik.com/win.html) 	| [Y-OS工作室-导航页被定制可修改](http://y-os.net/)     	|
+|                                                                    	| [十二星座-导航页被定制可修改](http://www.12xzzx.com/) 	|
+|                                                                    	| [icura](http://icura.cn/)                             	|
 
+
+- win10数字激活
+
+> 所谓的win10数字权利激活，是一种win10授权方法。该激活方法会记录你的电脑硬件信息，并保存到微软的服务器，
+> 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
+
+1. 避免在vpn状态下使用本软件。
+2. 激活前电脑必须联网，而且必须开启`Windows Update`服务，否则无法激活。
+
+| PE                                                                               	| 激活                                                                       	|
+|----------------------------------------------------------------------------------	|----------------------------------------------------------------------------	|
+| [微PE](http://www.wepe.com.cn/)                                                  	| [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)                 	|
+| [USBOS](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965&extra=page%3D1) 	| [人人客-微软产品](https://rrkee.com/microsoft/)                            	|
+| [光卡自己的 PE 项目](https://hikaricalyx.com/)                                   	| [windows10 product keys](https://www.windows10productkeys.info/#method1)   	|
+| [优启时代](http://www.uqi.me/catalog.asp?cate=1)                                 	| [03k.orgKMS服务](https://03k.org/kms.html)                                 	|
+| [Windows10产品密钥](https://www.windows10productkeys.info/#method1)              	| [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4/)                  	|
+| [零散坑KMS服务](https://03k.org/kms.html)                                        	| [云萌 Windows 10 激活工具](https://tgsan.github.io/CMWTAT_Digital_Edition) 	|
+| [人人客RRKee](https://rrkee.com/microsoft)                                       	|                                                                            	|
 
 
 
