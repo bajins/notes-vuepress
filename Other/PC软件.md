@@ -153,7 +153,6 @@
 |                                                                                  	| [云萌 Windows 10 激活工具](https://tgsan.github.io/CMWTAT_Digital_Edition) 	|
 |                                                                                  	| [Windows10产品密钥](https://www.windows10productkeys.info/#method1)        	|
 |                                                                                  	| [零散坑KMS服务](https://03k.org/kms.html)                                  	|
-|                                                                                  	| [人人客RRKee](https://rrkee.com/microsoft)                                 	|
 
 
 
