@@ -8,6 +8,9 @@
 
 ### 在windows下打包
 
+> `go build -ldflags="-H windowsgui"` 能隐藏黑窗口
+
+
 #### 设置环境
 
 > `GOOS` 目标可执行程序运行操作系统，支持`darwin`、`freebsd`、`linux`、`windows`
