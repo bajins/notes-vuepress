@@ -15,30 +15,29 @@
 
 ## flag
 
-| 博客                                                                 	| 论坛                                      	| 直链                                          	| Telegram                                  	|
-|----------------------------------------------------------------------	|-------------------------------------------	|-----------------------------------------------	|-------------------------------------------	|
-| [CRACKSurl](http://cracksurl.com/)                                   	| [JIKE](https://jike.info/)                	| [瓜子云](https://yun.naodai.org/Software/)    	| [infosaodaye](https://t.me/s/infosaodaye) 	|
-| [QiuQuan's Blog](http://www.qiuquan.cc/)                             	| [睿派克技术论坛](https://www.repaik.com/) 	| [fxxkmakeding](https://www.fxxkmakeding.xyz/) 	| [52破解信息](https://t.me/s/wuaipojie)    	|
-| [th_sjy](http://www.th-sjy.com/)                                     	|                                           	|                                               	|                                           	|
-| [v5pc](http://www.v5pc.com/category/syrj)                            	|                                           	|                                               	|                                           	|
-| [大眼仔旭](http://www.dayanzai.me/)                                  	|                                           	|                                               	|                                           	|
-| [反斗软件](http://www.apprcn.com/)                                   	|                                           	|                                               	|                                           	|
-| [果核剥壳](http://www.ghboke.com/)                                   	|                                           	|                                               	|                                           	|
-| [胡萝卜周](http://www.carrotchou.blog/)                              	|                                           	|                                               	|                                           	|
-| [懒得勤快的博客](https://masuit.com/misc/5)                          	|                                           	|                                               	|                                           	|
-| [绿软博客](http://liujin-greensoft.lofter.com/)                      	|                                           	|                                               	|                                           	|
-| [殁漂遥](https://www.mpyit.com/)                                     	|                                           	|                                               	|                                           	|
-| [奇客小栈](http://www.geekotg.com/)                                  	|                                           	|                                               	|                                           	|
-| [轻狂志](http://www.flighty.cn/)                                     	|                                           	|                                               	|                                           	|
-| [伤逝的安详](https://www.ssdax.com/)                                 	|                                           	|                                               	|                                           	|
-| [释怀](https://shiove.com/c/9tk)                                     	|                                           	|                                               	|                                           	|
-| [宋永志博客](http://www.songyongzhi.com/SystemTool)                  	|                                           	|                                               	|                                           	|
-| [我天哪鸡哥](https://www.wotianna.com/)                              	|                                           	|                                               	|                                           	|
-| [下1个好软件](http://www.xia1ge.com)                                 	|                                           	|                                               	|                                           	|
-| [星空软件共享绿化园地](http://www.xingkbjm.com/)                     	|                                           	|                                               	|                                           	|
-| [飞扬时空作品](http://blog.sina.com.cn/s/blog_89a729a40102wjwp.html) 	|                                           	|                                               	|                                           	|
-| [翠竹成林](http://msbuild.cn/category/software) 	|                                           	|                                               	|                                           	|
-
+| 博客                                                                 	| 论坛/Telegram                                            	| 直链                                          	|
+|----------------------------------------------------------------------	|----------------------------------------------------------	|-----------------------------------------------	|
+| [CRACKSurl](http://cracksurl.com/)                                   	| [JIKE](https://jike.info/)                               	| [瓜子云](https://yun.naodai.org/Software/)    	|
+| [QiuQuan's Blog](http://www.qiuquan.cc/)                             	| [睿派克技术论坛](https://www.repaik.com/)                	| [fxxkmakeding](https://www.fxxkmakeding.xyz/) 	|
+| [th_sjy](http://www.th-sjy.com/)                                     	| [52破解](https://www.52pojie.cn/)                        	|                                               	|
+| [v5pc](http://www.v5pc.com/category/syrj)                            	|                                                          	|                                               	|
+| [大眼仔旭](http://www.dayanzai.me/)                                  	| [https://t.me/s/wuaipojie](https://t.me/s/wuaipojie)     	|                                               	|
+| [反斗软件](http://www.apprcn.com/)                                   	| [https://t.me/s/infosaodaye](https://t.me/s/infosaodaye) 	|                                               	|
+| [果核剥壳](http://www.ghboke.com/)                                   	|                                                          	|                                               	|
+| [胡萝卜周](http://www.carrotchou.blog/)                              	|                                                          	|                                               	|
+| [懒得勤快的博客](https://masuit.com/misc/5)                          	|                                                          	|                                               	|
+| [绿软博客](http://liujin-greensoft.lofter.com/)                      	|                                                          	|                                               	|
+| [殁漂遥](https://www.mpyit.com/)                                     	|                                                          	|                                               	|
+| [奇客小栈](http://www.geekotg.com/)                                  	|                                                          	|                                               	|
+| [轻狂志](http://www.flighty.cn/)                                     	|                                                          	|                                               	|
+| [伤逝的安详](https://www.ssdax.com/)                                 	|                                                          	|                                               	|
+| [释怀](https://shiove.com/c/9tk)                                     	|                                                          	|                                               	|
+| [宋永志博客](http://www.songyongzhi.com/SystemTool)                  	|                                                          	|                                               	|
+| [我天哪鸡哥](https://www.wotianna.com/)                              	|                                                          	|                                               	|
+| [下1个好软件](http://www.xia1ge.com)                                 	|                                                          	|                                               	|
+| [星空软件共享绿化园地](http://www.xingkbjm.com/)                     	|                                                          	|                                               	|
+| [飞扬时空作品](http://blog.sina.com.cn/s/blog_89a729a40102wjwp.html) 	|                                                          	|                                               	|
+| [翠竹成林](http://msbuild.cn/category/software)                      	|                                                          	|                                               	|
 
 
 
@@ -158,4 +157,30 @@
 * [推荐：Windows剪贴板工具Ditto](https://ditto-cp.sourceforge.io/)
 
 
+- Internet Download Manager
 
+0. https://eyun.baidu.com/s/3miwISp6 密码：3131
+
+- Photoshop CC
+
+0. https://eyun.baidu.com/s/3mizNp4O 密码：3131
+
+1. https://eyun.baidu.com/s/3mizNp4O 密码：3131
+
+2. https://yunpan.360.cn/surl_ydDgKwXKPSf （提取码：0be6）
+
+
+- StartIsBack++
+
+0. https://eyun.baidu.com/s/3eTL5mMY 密码：3131
+
+1. https://www.lanzous.com/b279570/
+
+2. https://yunpan.360.cn/surl_ymKSxmH5PbY （提取码：298e）
+
+
+- 福昕PDF阅读器
+
+0. https://eyun.baidu.com/s/3bozPGmV 密码：3131
+
+1. https://yunpan.360.cn/surl_ydQx6xDvQyG 提取码：39db
