@@ -161,6 +161,10 @@
 
 0. https://eyun.baidu.com/s/3miwISp6 密码：3131
 
+1. https://www.lanzous.com/b134572/
+
+2. https://yunpan.360.cn/surl_ymsGF6zWGcP （提取码：805b）
+
 - Photoshop CC
 
 0. https://eyun.baidu.com/s/3mizNp4O 密码：3131
