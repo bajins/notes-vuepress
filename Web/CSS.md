@@ -769,7 +769,7 @@ body {
 ### `display:flex`
 
 ```html
-style{
+<style>
     .display-flex {
       display: flex;
     }
@@ -780,7 +780,7 @@ style{
       height: 120px;
       margin: 10px;
     }
-}
+</style>
 <h3>display: flex</h3>
 <div class="display-flex">
   <div class="div-size">1</div>
@@ -792,7 +792,7 @@ style{
 ### `float:left`
 
 ```html
-style{
+<style>
     .float-left {
       float: left;
       border: 1px solid yellowgreen;
@@ -804,7 +804,7 @@ style{
     .clear {
       clear: both;
     }
-}
+</style>
 <h3>float: left</h3>
 <div>
   <div class="float-left">4</div>
@@ -817,7 +817,7 @@ style{
 ### `display:inline-block`
 
 ```html
-style{
+<style>
     .inline-block {
       display: inline-block;
       border: 1px solid blue;
@@ -825,7 +825,7 @@ style{
       height: 120px;
       margin: 10px;
     }
-}
+</style>
 <h3>display: inline-block</h3>
 <div>
   <div class="inline-block">7</div>
