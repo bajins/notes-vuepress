@@ -761,3 +761,76 @@ body {
 ```
 
 
+## 水平排列
+
+> 字体居中需使元素与父级元素等宽
+
+
+### `display:flex`
+
+```html
+style{
+    .display-flex {
+      display: flex;
+    }
+    
+    .div-size {
+      border: 1px solid red;
+      width: 200px;
+      height: 120px;
+      margin: 10px;
+    }
+}
+<h3>display: flex</h3>
+<div class="display-flex">
+  <div class="div-size">1</div>
+  <div class="div-size">2</div>
+  <div class="div-size">3</div>
+</div>
+```
+
+### `float:left`
+
+```html
+style{
+    .float-left {
+      float: left;
+      border: 1px solid yellowgreen;
+      width: 200px;
+      height: 120px;
+      margin: 10px;
+    }
+    
+    .clear {
+      clear: both;
+    }
+}
+<h3>float: left</h3>
+<div>
+  <div class="float-left">4</div>
+  <div class="float-left">5</div>
+  <div class="float-left">6</div>
+</div>
+<div class="clear"></div>
+```
+
+### `display:inline-block`
+
+```html
+style{
+    .inline-block {
+      display: inline-block;
+      border: 1px solid blue;
+      width: 200px;
+      height: 120px;
+      margin: 10px;
+    }
+}
+<h3>display: inline-block</h3>
+<div>
+  <div class="inline-block">7</div>
+  <div class="inline-block">8</div>
+  <div class="inline-block">9</div>
+</div>
+```
+
