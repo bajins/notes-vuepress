@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        .top {
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        
+        .circle {
+            overflow: hidden;
+            width: 200px;
+            height: 200px;
+            border: 3px solid transparent;
+            border-bottom: 3px solid #fff;
+            border-radius: 50%;
+            transition: all 0.3s;
+            position: absolute;
+        }
+        
+        .left {
+            border-left: 3px solid #fff;
+            transform: rotate(40deg);
+        }
+        
+        .right {
+            border-right: 3px solid #fff;
+            transform: rotate(-45deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <div class="circle left"></div>
+        <div class="circle right"></div>
+    </div>
+</body>
+
+</html>

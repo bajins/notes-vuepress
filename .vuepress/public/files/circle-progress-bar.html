@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* 基本样式 */
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 100px auto;
+        }
+        
+        .wrapper {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            /* 隐藏进度条的一半：左上角、右下角 */
+            clip: rect(0px, 100px, 100px, 50px);
+        }
+        
+        .circle {
+            width: 80px;
+            height: 80px;
+            border: 10px solid green;
+            border-radius: 50px;
+            position: absolute;
+            /* 隐藏进度条的一半：左上角、右下角 */
+            clip: rect(0px, 50px, 100px, 0px);
+        }
+        /* 动画规则 */
+        
+        div[data-anim~=base] {
+            /* 只跑一次 */
+            animation-iteration-count: 1;
+            /* 保留最后一个关键帧 */
+            animation-fill-mode: forwards;
+            /* 线性动画 */
+            animation-timing-function: linear;
+        }
+        
+        .wrapper[data-anim~=wrapper] {
+            /* 尽快完成关键帧 */
+            animation-duration: 0.01s;
+            /* 等待一半的动画 */
+            animation-delay: 3s;
+            /* 关键帧名称 */
+            animation-name: close-wrapper;
+        }
+        
+        .circle[data-anim~=left] {
+            /* 完整的动画时间 */
+            animation-duration: 6s;
+            animation-name: left-spin;
+        }
+        
+        .circle[data-anim~=right] {
+            /* 动画时间减半 */
+            animation-duration: 3s;
+            animation-name: right-spin;
+        }
+        /* 动画帧 */
+        
+        @keyframes right-spin {
+            /* 将进度栏的右侧从0旋转到180度 */
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(180deg);
+            }
+        }
+        
+        @keyframes left-spin {
+            /* 将进度条的左侧从0旋转到360度 */
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes close-wrapper {
+            /* 将包装器剪辑设置为自动，从而有效地删除剪辑 */
+            to {
+                clip: rect(auto, auto, auto, auto);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper" data-anim="base wrapper">
+        <div class="circle" data-anim="base left"></div>
+        <div class="circle" data-anim="base right"></div>
+    </div>
+</body>
+
+</html>

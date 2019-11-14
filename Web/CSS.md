@@ -834,3 +834,48 @@ body {
 </div>
 ```
 
+## 动画
+
+* [动画](https://www.w3school.com.cn/css3/css3_animation.asp)
+
+* [过渡](https://www.w3school.com.cn/css3/css3_3dtransform.asp)
+
+- **属性**
+
+| 属性                           | 描述                                        | CSS |
+|------------------------------|-------------------------------------------|-----|
+| transform                    | 向元素应用 2D 或 3D 转换。                         | 3   |
+| transform\-origin            | 允许你改变被转换元素的位置。                            | 3   |
+| transform\-style             | 规定被嵌套元素如何在 3D 空间中显示。                      | 3   |
+| perspective                  | 规定 3D 元素的透视效果。                            | 3   |
+| perspective\-origin          | 规定 3D 元素的底部位置。                            | 3   |
+| backface\-visibility         | 定义元素在不面对屏幕时是否可见。                          | 3   |
+| transition                   | 简写属性，用于在一个属性中设置四个过渡属性。                    | 3   |
+| transition\-property         | 规定应用过渡的 CSS 属性的名称。                        | 3   |
+| transition\-duration         | 定义过渡效果花费的时间。默认是 0。                        | 3   |
+| transition\-timing\-function | 规定过渡效果的时间曲线。默认是 "ease"。                   | 3   |
+| transition\-delay            | 规定过渡效果何时开始。默认是 0。                         | 3   |
+| @keyframes                   | 规定动画。                                     | 3   |
+| animation                    | 所有动画属性的简写属性，除了 animation\-play\-state 属性。 | 3   |
+| animation\-name              | 规定 @keyframes 动画的名称。                      | 3   |
+| animation\-duration          | 规定动画完成一个周期所花费的秒或毫秒。默认是 0。                 | 3   |
+| animation\-timing\-function  | 规定动画的速度曲线。默认是 "ease"。                     | 3   |
+| animation\-delay             | 规定动画何时开始。默认是 0。                           | 3   |
+| animation\-iteration\-count  | 规定动画被播放的次数。默认是 1。                         | 3   |
+| animation\-direction         | 规定动画是否在下一周期逆向地播放。默认是 "normal"。            | 3   |
+| animation\-play\-state       | 规定动画是否正在运行或暂停。默认是 "running"。              | 3   |
+| animation\-fill\-mode        | 规定对象动画时间之外的状态。                            | 3   |
+
+
+- **圆形进度条**
+
+* [circle-progress-bar](/files/circle-progress-bar.html)
+
+* [round-progress-bar](/files/round-progress-bar.html)
+
+>  首先：是定义三个动画，第一个是最外层，让他只显示一半，然后运行3s，同时右边运行3s,从0到180度。
+  
+> 接着：到了180度之后，释放外层的显示一半，让他自动显示其他。然后右边的停止动画并停在那里。
+  
+> 最后：左边的在原来的基础（跟右边一样运行3s，同样转过180度）再继续转动180度。
+
