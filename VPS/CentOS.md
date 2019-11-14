@@ -1,173 +1,58 @@
 # CentOS
 
 
-
-- [重装系统](#重装系统)
-  - [Network-Reinstall-System-Modify](#network-reinstall-system-modify)
-  - [moeclub](#moeclub)
-- [卸载软件](#卸载软件)
-  - [RPM安装](#rpm安装)
-  - [yum安装](#yum安装)
-  - [源码编译安装](#源码编译安装)
-    - [如果源码被删除就查找并删除](#如果源码被删除就查找并删除)
-  - [checkinstall](#checkinstall)
-    - [使用`checkinstall`编译安装](#使用checkinstall编译安装)
-    - [卸载`checkinstall`安装的软件](#卸载checkinstall安装的软件)
-- [初次配置](#初次配置)
-  - [修改时区为亚洲上海](#修改时区为亚洲上海)
-  - [查看系统语言](#查看系统语言)
-  - [安装简体中文语言包](#安装简体中文语言包)
-  - [设置中文utf8编码](#设置中文utf8编码)
-    - [临时](#临时)
-    - [长久](#长久)
-  - [设置vi显示行号](#设置vi显示行号)
-    - [编辑以下两个文件](#编辑以下两个文件)
-    - [在开头或者末尾添加](#在开头或者末尾添加)
-  - [欢迎信息](#欢迎信息)
-  - [`profile`文件](#profile文件)
-  - [ssh欢迎信息](#ssh欢迎信息)
-- [`yum`操作](#yum操作)
-  - [安装`EPEL`源](#安装epel源)
-  - [yum源](#yum源)
-    - [Git](#git)
-  - [更新yum源包](#更新yum源包)
-  - [安装必要软件](#安装必要软件)
-  - [三方工具](#三方工具)
-    - [figlet](#figlet)
-    - [boxes](#boxes)
-    - [Toilet](#toilet)
-- [systemctl](#systemctl)
-- [firewalld](#firewalld)
-  - [开启端口](#开启端口)
-    - [配置`firewalld-cmd`](#配置firewalld-cmd)
-- [rpm](#rpm)
-  - [查询已安装软件包信息](#查询已安装软件包信息)
-  - [查询已安装软件包安装位置](#查询已安装软件包安装位置)
-  - [查看已安装软件依赖](#查看已安装软件依赖)
-  - [查看已安装软件的配置文件](#查看已安装软件的配置文件)
-  - [查询已经安装文件所属软件包](#查询已经安装文件所属软件包)
-  - [安装软件包数量](#安装软件包数量)
-- [内核升级](#内核升级)
-  - [手动安装](#手动安装)
-  - [一键安装脚本](#一键安装脚本)
-  - [CentOS安装新版内核`headers`](#centos安装新版内核headers)
-    - [卸载原版内核`headers`](#卸载原版内核headers)
-  - [内核升级方法](#内核升级方法)
-- [shadowsocks](#shadowsocks)
-- [v2ray](#v2ray)
-- [PAC](#pac)
+* [卸载软件](#卸载软件)
+  * [RPM安装](#rpm安装)
+  * [yum安装](#yum安装)
+  * [源码编译安装](#源码编译安装)
+    * [如果源码被删除就查找并删除](#如果源码被删除就查找并删除)
+  * [`checkinstall`](#checkinstall)
+    * [使用`checkinstall`编译安装](#使用checkinstall编译安装)
+    * [卸载`checkinstall`安装的软件](#卸载checkinstall安装的软件)
+* [初次配置](#初次配置)
+  * [修改时区为亚洲上海](#修改时区为亚洲上海)
+  * [查看系统语言](#查看系统语言)
+  * [安装简体中文语言包](#安装简体中文语言包)
+  * [设置中文utf8编码](#设置中文utf8编码)
+    * [临时](#临时)
+    * [长久](#长久)
+  * [设置vi显示行号](#设置vi显示行号)
+    * [编辑以下两个文件](#编辑以下两个文件)
+    * [在开头或者末尾添加](#在开头或者末尾添加)
+  * [欢迎信息](#欢迎信息)
+  * [`profile`文件](#profile文件)
+  * [ssh欢迎信息](#ssh欢迎信息)
+* [`yum`操作](#yum操作)
+  * [安装`EPEL`源](#安装epel源)
+  * [更新yum源包](#更新yum源包)
+  * [安装必要软件](#安装必要软件)
+  * [三方工具](#三方工具)
+    * [`figlet`](#figlet)
+    * [`boxes`](#boxes)
+    * [`Toilet`](#toilet)
+* [`systemctl`](#systemctl)
+* [`firewalld`](#firewalld)
+  * [开启端口](#开启端口)
+    * [配置`firewalld-cmd`](#配置firewalld-cmd)
+* [rpm](#rpm)
+  * [查询已安装软件包信息](#查询已安装软件包信息)
+  * [查询已安装软件包安装位置](#查询已安装软件包安装位置)
+  * [查看已安装软件依赖](#查看已安装软件依赖)
+  * [查看已安装软件的配置文件](#查看已安装软件的配置文件)
+  * [查询已经安装文件所属软件包](#查询已经安装文件所属软件包)
+  * [安装软件包数量](#安装软件包数量)
+* [内核升级](#内核升级)
+  * [手动安装](#手动安装)
+  * [一键安装脚本](#一键安装脚本)
+  * [CentOS安装新版内核`headers`](#centos安装新版内核headers)
+    * [卸载原版内核`headers`](#卸载原版内核headers)
+  * [内核升级方法](#内核升级方法)
+* [shadowsocks](#shadowsocks)
+* [v2ray](#v2ray)
+* [PAC](#pac)
 
 
 
-
-
-
-
-## 重装系统
-
-### Network-Reinstall-System-Modify
-
-* [https://github.com/MeowLove/Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify)
-
-```bash
-yum update
-yum install -y xz openssl gawk file
-# 下载脚本
-wget --no-check-certificate 'https://raw.githubusercontent.com/MeowLove/Network-Reinstall-System-Modify/master/Network-Reinstall-System-Modify.sh'
-# 给脚本授权
-chmod a+x Network-Reinstall-System-Modify.sh
-# 一键网络重装纯净CentOS 7
-bash Network-Reinstall-System-Modify.sh -CentOS_7
-# 一键网络重装纯净Windows Server 2019
-bash Network-Reinstall-System-Modify.sh -Windows_Server_2019
-```
-
-- 下载SHELL脚本（通过root用户运行）
-
-```bash
-wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh' 
-
-chmod a+x ~/Network-Reinstall-System-Modify.sh
-```
-
-
-
-- 安装Linux系统
-```bash
-# ①. 一键网络重装纯净CentOS 7（推荐）
-bash ~/Network-Reinstall-System-Modify.sh -CentOS_7
-# ②. 一键网络重装纯净CentOS 6
-bash ~/Network-Reinstall-System-Modify.sh -CentOS_6
-# ③. 一键网络重装纯净Debian 10（推荐）
-bash ~/Network-Reinstall-System-Modify.sh -Debian_10
-# ④. 一键网络重装纯净Debian 9
-bash ~/Network-Reinstall-System-Modify.sh -Debian_9
-# ⑤. 一键网络重装纯净Debian 8
-bash ~/Network-Reinstall-System-Modify.sh -Debian_8
-# ⑥. 一键网络重装纯净Ubuntu 18.04（推荐）
-bash ~/Network-Reinstall-System-Modify.sh -Ubuntu_18.04
-# ⑦. 一键网络重装纯净Ubuntu 16.04
-bash ~/Network-Reinstall-System-Modify.sh -Ubuntu_16.04
-# ⑧. 一键网络重装纯净Ubuntu 14.04
-bash ~/Network-Reinstall-System-Modify.sh -Ubuntu_14.04
-```
-
-- 安装Windows系统
-
-> 警告：你需要购买来自Microsoft或其合作伙伴正版系统授权并激活系统使用。继续安装即代表您知悉并已经购买正版授权。
-
-```bash
-# ①. 一键网络重装纯净Windows Server 2019（推荐）
-bash ~/Network-Reinstall-System-Modify.sh -Windows_Server_2019
-# ②. 一键网络重装纯净Windows Server 2016
-bash ~/Network-Reinstall-System-Modify.sh -Windows_Server_2016
-# ③. 一键网络重装纯净Windows Server 2012 R2
-bash ~/Network-Reinstall-System-Modify.sh -Windows_Server_2012R2
-# ④. 一键网络重装纯净Windows Server 2008 R2
-bash ~/Network-Reinstall-System-Modify.sh -Windows_Server_2008R2
-# ⑤. 一键网络重装纯净Windows 7 Vienna
-bash ~/Network-Reinstall-System-Modify.sh -Windows_7_Vienna
-# ⑥. 一键网络重装纯净Windows Server 2003
-bash ~/Network-Reinstall-System-Modify.sh -Windows_Server_2003
-```
-
-- 安装裸机系统部署平台
-
-> 仅适用于高端用户，手动安装任意系统。可通过网络ISO或iPXE安装任意系统。
-
-```bash
-bash ~/Network-Reinstall-System-Modify.sh -CXT_Bare-metal_System_Deployment_Platform
-```
-
-- 安装DD系统
-
-> 如果您不了解这意味着什么，请不要进行操作。%ULR%应该替换为您自己的映像地址。
-
-```bash
-bash ~/Network-Reinstall-System-Modify.sh -DD "%URL%"
-```
-
-
-```bash
-bash <(wget --no-check-certificate -qO- 'https://zhujiwiki.com/wp-content/uploads/2018/04/InstallNET.sh') -dd 'https://hao.zhujiwiki.com/dd/CentOS_7.X_NetInstallation.vhd.gz'
-```
-
-### moeclub
-
-* [https://moeclub.org/2018/04/03/603/](https://moeclub.org/2018/04/03/603/)
-
-> 适用于由GRUB引导的CentOS,Ubuntu,Debian系统
-
-```bash
-yum update
-yum install -y xz openssl gawk file
-# 下载脚本
-wget --no-check-certificate 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh'
-# 给脚本授权
-chmod a+x InstallNET.sh
-# 一键网络重装纯净CentOS 7
-bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/centos'
-```
 
 ## 卸载软件
 

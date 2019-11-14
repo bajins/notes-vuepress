@@ -1,6 +1,11 @@
 # Linux操作
 
 
+* [flag](#flag)
+* [重装系统](#重装系统)
+  * [MeowLove](#meowlove)
+  * [moeclub](#moeclub)
+* [软件组合](#软件组合)
 * [后台运行](#后台运行)
   * [`nohup`](#nohup)
   * [`setsid`](#setsid)
@@ -27,6 +32,130 @@
   * [永久更改MTU值](#永久更改mtu值)
   * [重启网络接口](#重启网络接口)
 
+
+
+
+## flag
+
+* [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625/)
+
+
+
+## 重装系统
+
+### MeowLove
+
+* [https://github.com/MeowLove/Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify)
+
+```bash
+yum update
+yum install -y xz openssl gawk file
+# 下载脚本
+wget --no-check-certificate 'https://raw.githubusercontent.com/MeowLove/Network-Reinstall-System-Modify/master/Network-Reinstall-System-Modify.sh'
+# 给脚本授权
+chmod a+x Network-Reinstall-System-Modify.sh
+# 一键网络重装纯净CentOS 7
+bash Network-Reinstall-System-Modify.sh -CentOS_7
+# 一键网络重装纯净Windows Server 2019
+bash Network-Reinstall-System-Modify.sh -Windows_Server_2019
+```
+
+- 下载SHELL脚本（通过root用户运行）
+
+```bash
+wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh' 
+
+chmod a+x ~/Network-Reinstall-System-Modify.sh
+```
+
+
+
+- 安装Linux系统
+```bash
+# ①. 一键网络重装纯净CentOS 7（推荐）
+bash ~/Network-Reinstall-System-Modify.sh -CentOS_7
+# ②. 一键网络重装纯净CentOS 6
+bash ~/Network-Reinstall-System-Modify.sh -CentOS_6
+# ③. 一键网络重装纯净Debian 10（推荐）
+bash ~/Network-Reinstall-System-Modify.sh -Debian_10
+# ④. 一键网络重装纯净Debian 9
+bash ~/Network-Reinstall-System-Modify.sh -Debian_9
+# ⑤. 一键网络重装纯净Debian 8
+bash ~/Network-Reinstall-System-Modify.sh -Debian_8
+# ⑥. 一键网络重装纯净Ubuntu 18.04（推荐）
+bash ~/Network-Reinstall-System-Modify.sh -Ubuntu_18.04
+# ⑦. 一键网络重装纯净Ubuntu 16.04
+bash ~/Network-Reinstall-System-Modify.sh -Ubuntu_16.04
+# ⑧. 一键网络重装纯净Ubuntu 14.04
+bash ~/Network-Reinstall-System-Modify.sh -Ubuntu_14.04
+```
+
+- 安装Windows系统
+
+> 警告：你需要购买来自Microsoft或其合作伙伴正版系统授权并激活系统使用。继续安装即代表您知悉并已经购买正版授权。
+
+```bash
+# ①. 一键网络重装纯净Windows Server 2019（推荐）
+bash ~/Network-Reinstall-System-Modify.sh -Windows_Server_2019
+# ②. 一键网络重装纯净Windows Server 2016
+bash ~/Network-Reinstall-System-Modify.sh -Windows_Server_2016
+# ③. 一键网络重装纯净Windows Server 2012 R2
+bash ~/Network-Reinstall-System-Modify.sh -Windows_Server_2012R2
+# ④. 一键网络重装纯净Windows Server 2008 R2
+bash ~/Network-Reinstall-System-Modify.sh -Windows_Server_2008R2
+# ⑤. 一键网络重装纯净Windows 7 Vienna
+bash ~/Network-Reinstall-System-Modify.sh -Windows_7_Vienna
+# ⑥. 一键网络重装纯净Windows Server 2003
+bash ~/Network-Reinstall-System-Modify.sh -Windows_Server_2003
+```
+
+- 安装裸机系统部署平台
+
+> 仅适用于高端用户，手动安装任意系统。可通过网络ISO或iPXE安装任意系统。
+
+```bash
+bash ~/Network-Reinstall-System-Modify.sh -CXT_Bare-metal_System_Deployment_Platform
+```
+
+- 安装DD系统
+
+> 如果您不了解这意味着什么，请不要进行操作。%ULR%应该替换为您自己的映像地址。
+
+```bash
+bash ~/Network-Reinstall-System-Modify.sh -DD "%URL%"
+```
+
+
+```bash
+bash <(wget --no-check-certificate -qO- 'https://zhujiwiki.com/wp-content/uploads/2018/04/InstallNET.sh') -dd 'https://hao.zhujiwiki.com/dd/CentOS_7.X_NetInstallation.vhd.gz'
+```
+
+### moeclub
+
+* [https://moeclub.org/2018/04/03/603/](https://moeclub.org/2018/04/03/603/)
+
+> 适用于由GRUB引导的CentOS,Ubuntu,Debian系统
+
+```bash
+yum update
+yum install -y xz openssl gawk file
+# 下载脚本
+wget --no-check-certificate 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh'
+# 给脚本授权
+chmod a+x InstallNET.sh
+# 一键网络重装纯净CentOS 7
+bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/centos'
+```
+
+
+
+## 软件组合
+
+* [https://lamp.sh](https://lamp.sh)
+
+* [https://oneinstack.com](https://oneinstack.com)
+
+* [https://lnmp.org](https://lnmp.org)
 
 
 

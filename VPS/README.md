@@ -1,6 +1,18 @@
 # VPS
 
 
+* [flag](#flag)
+* [资源网站建立](#资源网站建立)
+* [WebSSH2](#webssh2)
+  * [下载](#下载)
+  * [修改源码使其支持秘钥登录](#修改源码使其支持秘钥登录)
+  * [运行](#运行)
+* [batch与shell同等意义操作符](#batch与shell同等意义操作符)
+* [batch与shell同等意义命令](#batch与shell同等意义命令)
+
+
+
+
 > CentOS官方已宣布在2020年停止对CentOS6的维护更新，各大软件开发商也逐渐停止对CentOS6的兼容，建议使用CentOS7
 
 
@@ -10,19 +22,14 @@
 
 * [showdoc](https://github.com/star7th/showdoc)
 
+* [https://github.com/connectbot/connectbot](https://github.com/connectbot/connectbot)
 
 
-## 网络测试
 
 * [speedtest](https://github.com/adolfintel/speedtest)
 
-* [LookingGlass-Gayyi](https://github.com/ILLKX/LookingGlass-Gayyi)
-
-* [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625/)
-
 * [acme.sh 实现了acme 协议, 可以从 letsencrypt 生成免费的证书.](https://github.com/Neilpang/acme.sh)
 
-* [临时邮箱搭建](https://github.com/denghongcai/forsaken-mail)
 
 
 
@@ -82,6 +89,7 @@ var fs = require('fs')
 username: 'root',
 privateKey: fs.readFileSync('/root/.ssh/id_rsa')
 ```
+
 ### 运行
 
 ```bash
