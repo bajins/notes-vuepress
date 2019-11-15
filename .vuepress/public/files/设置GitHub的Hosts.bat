@@ -257,7 +257,7 @@ function request(method, url, dataType, data, contentType) {
  */
 function autoStart(mode) {
     var fileName = WScript.ScriptName;
-    fileName = fileName.substring(0, fileName.lastIndexOf('.') + 1);
+    fileName = fileName.substring(0, fileName.lastIndexOf('.'));
     //fileName = fileName.substring(0, fileName.length-4);
     var vbsFileName = WScript.ScriptFullName.replace(".bat", ".vbs");
     if ("startup" == mode.toLowerCase()) {
