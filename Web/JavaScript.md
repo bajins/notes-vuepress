@@ -107,6 +107,11 @@
 
 ## NodeJs
 
+* [https://github.com/nodejs](https://github.com/nodejs)
+
+* [https://nodejs.org/zh-cn](https://nodejs.org/zh-cn)
+
+
 ### 安装rpm
 
 
