@@ -31,3 +31,4 @@
 
 * [https://github.com/fancaixia/SearchBar](https://github.com/fancaixia/SearchBar)
 
+* [https://github.com/mindawei/wsSearchView](https://github.com/mindawei/wsSearchView)
