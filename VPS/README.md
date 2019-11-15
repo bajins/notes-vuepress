@@ -7,8 +7,8 @@
   * [下载](#下载)
   * [修改源码使其支持秘钥登录](#修改源码使其支持秘钥登录)
   * [运行](#运行)
-* [batch与shell同等意义操作符](#batch与shell同等意义操作符)
-* [batch与shell同等意义命令](#batch与shell同等意义命令)
+* [batch与shell同等意义操作符](#batch与shell同义操作符)
+* [batch与shell同等意义命令](#batch与shell同义命令)
 
 
 
@@ -109,7 +109,7 @@ npm start
 
 
 
-## batch与shell同等意义操作符
+## batch与shell同义操作符
 
 |        batch              |        Shell         |          作用            |
 |------------------------|-----------------------|-------------------------|
@@ -150,7 +150,7 @@ npm start
 | LPT1                   | /dev/lp0              | 第一个打印设备                 |
 | COM1                   | /dev/ttyS0            | 第一个串口                   |
 
-## batch与shell同等意义命令
+## batch与shell同义命令
 
 |   DOS    |   UNIX       |      作用     |
 |---------|-----------------|--------------|
