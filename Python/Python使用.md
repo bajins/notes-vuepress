@@ -11,8 +11,6 @@
   * [安装后`yum`不能正常使用](#安装后yum不能正常使用)
 * [pip](#pip)
   * [换源](#换源)
-    * [临时使用](#临时使用)
-    * [永久生效](#永久生效)
   * [生成依赖管理文件](#生成依赖管理文件)
   * [根据管理文件安装依赖](#根据管理文件安装依赖)
   * [更新](#更新)
@@ -115,7 +113,7 @@ vi /usr/libexec/urlgrabber-ext-down
 * 山东理工大学 [http://pypi.sdutlinux.org](http://pypi.sdutlinux.org)
 
 
-#### 临时使用
+- 安装单个库使用
 
 > 可以在使用pip的时候加参数`-i 网址`
 >
@@ -125,16 +123,15 @@ vi /usr/libexec/urlgrabber-ext-down
 pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com requests
 ```
 
-#### 永久生效
 
-- 使用命令
+- 使用命令全局配置
 
 ```bash
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 
-- 编辑文件
+- 编辑文件全局配置
 
 ```bash
 # Linux环境
