@@ -248,6 +248,79 @@ npm install
 | npm run/test                       | yarn run/test             | 运行某个命令                     |
 
 
+## 解析
+
+```js
+/**
+ * https://www.npmjs.com/search?q=keywords:xml2js
+ */
+
+const fs = require("fs");
+//模拟发送http请求
+const request = require("request");
+// npm install xpath
+// https://github.com/yaronn/xpath.js
+const xpath = require('xpath');
+
+//get请求
+request('https://jolx-1256021553.cos.ap-chengdu.myqcloud.com', function (error, response, body) {
+    if (!error && response.statusCode == 200) {
+        // npm install xmlreader
+        // const xmlreader = require("xmlreader");
+        // xmlreader.read(body, function (errors, res) {
+        //     if (null !== errors) {
+        //         console.log(errors)
+        //         return;
+        //     }
+        //     console.log(res);
+        // });
+
+        // npm install xml2js
+        // const Xml2js = require('xml2js');
+        // const Parser = new Xml2js.Parser({ explicitArray: false, ignoreAttrs: false });
+
+        // Parser.parseString(body, function (err, result) {
+        //     console.log(result);
+        // });
+
+        // npm install xmldom
+        // https://github.com/goto100/xpath
+        // const dom = require('xmldom').DOMParser;
+        // let doc = new dom().parseFromString(body);
+        // console.log(doc);
+
+        // npm install fast-xml-parser
+        // const parser = require('fast-xml-parser');
+        // const doc = parser.parse(body);
+        // console.log(doc);
+
+        // npm install xml-js
+        const convert = require('xml-js');
+        const doc = convert.xml2js(body);
+        console.log(doc);
+    }
+});
+
+//post请求
+request({
+    url: "https://jolx-1256021553.cos.ap-chengdu.myqcloud.com",
+    method: "post",//如果是post就涉及到跨域的问题了
+    json: true,
+    headers: {
+        "content-type": "application/json",
+    },
+    body: {
+        account: 'admin',
+        pwd: 'admin'
+    }
+}, function (error, response, body) {
+    if (!error && response.statusCode == 200) {
+        console.log(body);
+    }
+});
+```
+
+
 ## 爬虫
 
 ### Puppeteer
