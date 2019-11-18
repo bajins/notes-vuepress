@@ -716,6 +716,11 @@ grub2-set-default 0
 
 * [multi-v2ray](https://github.com/Jrohy/multi-v2ray)
 
+* [https://github.com/ssrsub/ssr/tree/master](https://github.com/ssrsub/ssr/tree/master)
+
+* [https://www.ssrtool.com](https://www.ssrtool.com)
+
+* [https://github.com/TelePlusDev/TelePlus-Android](https://github.com/TelePlusDev/TelePlus-Android)
 
 ## PAC
 
