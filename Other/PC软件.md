@@ -80,7 +80,7 @@
 
 * [Global Potplayer](http://potplayer.daum.net/?lang=zh_CN)
 
-
+* [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
 
 ## 压缩
 
