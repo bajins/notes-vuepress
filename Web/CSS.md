@@ -5,6 +5,7 @@
 * [`Media Queries`](#media-queries)
   * [设备类型](#设备类型)
   * [设备特性](#设备特性)
+  * [兼容移动设备](#兼容移动设备)
   * [外联和内嵌样式](#外联和内嵌样式)
   * [`bootstrap css`](#bootstrap-css)
   * [混合应用](#混合应用)
@@ -53,40 +54,6 @@
 > 由于先读取到的是`only`而不是`screen`，将忽略该样式。
 >
 > `not`是用来排除某种制定的媒体类型，也就是用来排除符合表达式的设备。换句话说，not关键词表示对后面的表达式执行取反操作。
-
-
-- 兼容移动设备
-
-* [HTML页面适应移动端](https://www.jianshu.com/p/d95579d721a1)
-
-* [到底什么是像素](https://segmentfault.com/a/1190000017526874)
-
-* [使用meta标签设置viewport](https://segmentfault.com/a/1190000020218602)
-
-* [visual viewport、layout viewport和ideal viewport介绍](https://segmentfault.com/a/1190000017542232)
-
-* [viewport 深入理解](https://www.runoob.com/w3cnote/viewport-deep-understanding.html)
-
-* [完整示例](/files/MediaQueriesExample.html)
-
-
-
-```html
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-```
-
-> 移动设备上的`viewport`就是其屏幕上能用来显示我们的网页的那一块区域。
-
-> `width = device-width`：宽度等于当前设备的宽度
->
-> `initial-scale`：初始的缩放比例（默认设置为1.0）
->
-> `minimum-scale`：允许用户缩放到的最小比例（默认设置为1.0）
->
-> `maximum-scale`：允许用户缩放到的最大比例（默认设置为1.0）
->
-> `user-scalable`：用户是否可以手动缩放（默认设置为no，因为我们不希望用户放大缩小页面）
-
 
 
 
@@ -138,6 +105,37 @@
 | scan                    | 定义电视类设备的扫描工序。                              |
 | width                   | 定义输出设备中的页面可见区域宽度。                          |
 
+
+### 兼容移动设备
+
+* [HTML页面适应移动端](https://www.jianshu.com/p/d95579d721a1)
+
+* [到底什么是像素](https://segmentfault.com/a/1190000017526874)
+
+* [使用meta标签设置viewport](https://segmentfault.com/a/1190000020218602)
+
+* [visual viewport、layout viewport和ideal viewport介绍](https://segmentfault.com/a/1190000017542232)
+
+* [viewport 深入理解](https://www.runoob.com/w3cnote/viewport-deep-understanding.html)
+
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+```
+
+> 移动设备上的`viewport`就是其屏幕上能用来显示我们的网页的那一块区域。
+
+> `width = device-width`：宽度等于当前设备的宽度
+>
+> `initial-scale`：初始的缩放比例（默认设置为1.0）
+>
+> `minimum-scale`：允许用户缩放到的最小比例（默认设置为1.0）
+>
+> `maximum-scale`：允许用户缩放到的最大比例（默认设置为1.0）
+>
+> `user-scalable`：用户是否可以手动缩放（默认设置为no，因为我们不希望用户放大缩小页面）
+
+* [完整示例](/files/MediaQueriesExample.html)
 
 
 ### 外联和内嵌样式
