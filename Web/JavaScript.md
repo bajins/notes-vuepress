@@ -14,6 +14,7 @@
   * [yarn更新依赖包](#yarn更新依赖包)
   * [npm更新依赖包](#npm更新依赖包)
   * [依赖管理](#依赖管理)
+* [类型判断](#类型判断)
 * [爬虫](#爬虫)
   * [Puppeteer](#puppeteer)
 
@@ -24,6 +25,11 @@
 * [浏览器脚本教程](https://www.w3school.com.cn/b.asp)
 
 * [参考手册](https://www.w3school.com.cn/r.asp)
+
+* [JavaScript 日期处理类库](https://github.com/moment/moment/)
+
+* [JavaScriptUtils](/files/JavaScriptUtils.js)
+
 
 
 ## CDN
@@ -318,6 +324,105 @@ request({
         console.log(body);
     }
 });
+```
+
+
+
+## 类型判断
+
+### typeof
+
+> `[]`和`null`被`typeof`解释为`object`类型
+
+> 数字`Number`，布尔值`Boolean`，字符串`String`，函数`Function`，对象`Object`，
+> `Undefined`这一些数据类型在`typeof`下都被精准的解释，只有数组和`null`的数据类型不够精准。
+
+
+```js
+console.log(typeof 2);              // number
+console.log(typeof true);           // boolean
+console.log(typeof 'str');          // string
+console.log(typeof []);             // object
+console.log(typeof function(){});   // function
+console.log(typeof {});             // object
+console.log(typeof undefined);      // undefined
+console.log(typeof null);           // object
+console.log(typeof (new Date));     // object
+```
+
+### instanceof
+
+> 直接的字面量值判断数据类型，只有引用数据类型`Array`、`Function`、`Object`被精准判断
+>
+> 数值`Number`，布尔值`Boolean`，字符串`String`等字面值不能被`instanceof`精准判断。
+
+> 在MDN中的解释：`instanceof`运算符用来测试一个对象在其原型链中是否存在一个构造函数的`prototype`属性。
+
+```js
+console.log(2 instanceof Number);               // false
+console.log(true instanceof Boolean);           // false
+console.log('str' instanceof String);           // false
+console.log([] instanceof Array);               // true
+console.log(function(){} instanceof Function);  // true
+console.log({} instanceof Object);              // true
+console.log(new Date() instanceof Object);      // true
+console.log(undefined instanceof Undefined);    // 报错
+console.log(null instanceof Null);              // 报错
+```
+
+
+### constructor
+
+> 如果创建一个对象，更改它的原型，这种方式也变得不可靠了。
+
+```js
+console.log((2).constructor == Number);                // true
+console.log((true).constructor == Boolean);            // true
+console.log(('str').constructor == String);            // true
+console.log(([]).constructor == Array);                // true
+console.log((function() {}).constructor == Function);  // true
+console.log(({}).constructor == Object);               // true
+console.log((new Date()).constructor == Date);         // true
+```
+
+
+### call
+
+> `Object.prototype.toString.call()`即使改变对象的原型，依然会显示正确的数据类型
+
+```js
+var a = Object.prototype.toString;
+console.log(a.call(2));             // [object Number]
+console.log(a.call(true));          // [object Boolean]
+console.log(a.call('str'));         // [object String]
+console.log(a.call([]));            // [object Array]
+console.log(a.call(function(){}));  // [object Function]
+console.log(a.call({}));            // [object Object]
+console.log(a.call(undefined));     // [object Undefined]
+console.log(a.call(null));          // [object Null]
+console.log(a.call(new Date()));    // [object Date]
+```
+
+
+## errors
+
+> `ECMAScript`定义了六种类型的错误。还可以使用`throw new Error("错误信息")`抛出自定义异常。
+
+1. `ReferenceError` 找不到对象时
+2. `TypeError` 错误的使用了类型或对象的方法时
+3. `RangeError` 使用内置对象的方法时，参数超范围
+4. `SyntaxError` 语法写错了
+5. `EvalError` 错误的使用了Eval
+6. `URIError` URI错误
+
+```js
+try{
+    // 可能发生错误的代码
+}catch(err){
+    // 只有发生错误时才执行的代码
+}finally{
+    // 无论是否出错，肯定都要执行的代码
+}
 ```
 
 
