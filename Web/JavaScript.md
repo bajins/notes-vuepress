@@ -345,9 +345,9 @@ console.log(typeof 'str');          // string
 console.log(typeof []);             // object
 console.log(typeof function(){});   // function
 console.log(typeof {});             // object
+console.log(typeof (new Date));     // object
 console.log(typeof undefined);      // undefined
 console.log(typeof null);           // object
-console.log(typeof (new Date));     // object
 ```
 
 ### instanceof
@@ -376,13 +376,15 @@ console.log(null instanceof Null);              // 报错
 > 如果创建一个对象，更改它的原型，这种方式也变得不可靠了。
 
 ```js
-console.log((2).constructor == Number);                // true
-console.log((true).constructor == Boolean);            // true
-console.log(('str').constructor == String);            // true
-console.log(([]).constructor == Array);                // true
-console.log((function() {}).constructor == Function);  // true
-console.log(({}).constructor == Object);               // true
-console.log((new Date()).constructor == Date);         // true
+console.log((2).constructor == Number);                 // true
+console.log((true).constructor == Boolean);             // true
+console.log(('str').constructor == String);             // true
+console.log(([]).constructor == Array);                 // true
+console.log((function() {}).constructor == Function);   // true
+console.log(({}).constructor == Object);                // true
+console.log((new Date()).constructor == Date);          // true
+console.log((undefined).constructor == Undefined);      // 报错
+console.log((null).constructor == Null);                // 报错
 ```
 
 
@@ -398,9 +400,9 @@ console.log(a.call('str'));         // [object String]
 console.log(a.call([]));            // [object Array]
 console.log(a.call(function(){}));  // [object Function]
 console.log(a.call({}));            // [object Object]
+console.log(a.call(new Date()));    // [object Date]
 console.log(a.call(undefined));     // [object Undefined]
 console.log(a.call(null));          // [object Null]
-console.log(a.call(new Date()));    // [object Date]
 ```
 
 
