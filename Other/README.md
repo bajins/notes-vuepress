@@ -57,13 +57,7 @@ https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extens
 
 
 
-## Google账号数据迁移
 
-* [Google账号数据迁移指南](https://mabutou.me/archives/266)
-
-
-
-![](/images/谷歌账号数据迁移.png)
 
 
 

@@ -1,14 +1,16 @@
-# Chrome插件
+# Chrome
 
 
 * [flag](#flag)
 * [Chrome下载](#chrome下载)
-* [GitHub相关](#github相关)
-* [开发助手](#开发助手)
-* [视图](#视图)
-* [翻译](#翻译)
-* [other](#other)
-
+* [设置](#设置)
+* [插件](#插件)
+  * [GitHub相关](#github相关)
+  * [开发助手](#开发助手)
+  * [视图](#视图)
+  * [翻译](#翻译)
+  * [other](#other)
+* [账号数据迁移](#账号数据迁移)
 
 
 
@@ -36,9 +38,19 @@
 * [https://www.chrome64bit.com](https://www.chrome64bit.com)
 
 
+## 设置
+
+- 多线程下载
+
+```
+chrome://flags/#enable-parallel-downloading
+```
 
 
-## GitHub相关
+
+## 插件
+
+### GitHub相关
 
 * [突出显示GitHub源视图中的选定单词：github-highlight-selected](https://chrome.google.com/webstore/detail/github-highlight-selected/lhiklbgjcblimmjjflobpncgihagcmbj)
 
@@ -69,7 +81,7 @@
 * [添加右侧工具栏：githubexpandinizr](https://chrome.google.com/webstore/detail/githubexpandinizr/cbehdjjcilgnejbpnjhobkiiggkedfib)
 
 
-## 开发助手
+### 开发助手
 
 * [swagger-bootstrap-ui](https://chrome.google.com/webstore/detail/swagger-bootstrap-ui/dhkcgihkeepociepfdeeppmdgbdooahh)
 
@@ -81,7 +93,7 @@
 
 
 
-## 视图
+### 视图
 
 * [视频转GIF：视频转gif](https://chrome.google.com/webstore/detail/%E8%A7%86%E9%A2%91%E8%BD%ACgif/leddonjpeickjppkdpmojghbikcimbca)
 
@@ -102,14 +114,14 @@
 
 
 
-## 翻译
+### 翻译
 
 * [Selection-Translator](https://github.com/Selection-Translator)
 
 * [translate-man](https://chrome.google.com/webstore/detail/translate-man/fnjoonbenhhijnoegpfkpagjamomgjjm)
 
 
-## other
+### other
 
 * [脚本助手：tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 
@@ -131,3 +143,12 @@
 * [清除浏览器历史记录/缓存/Cookie：super-history-cache-clean](https://chrome.google.com/webstore/detail/super-history-cache-clean/afelaengidkffdcabnhdoeojoeoonfcn)
 
 * [清除浏览器历史记录/缓存/Cookie：chrome-cleaner](https://chrome.google.com/webstore/detail/chrome-cleaner/lbpddeimojmbpkbfckjpnbpehgnbpnnl)
+
+
+## 账号数据迁移
+
+* [Google账号数据迁移指南](https://mabutou.me/archives/266)
+
+
+
+![](/images/谷歌账号数据迁移.png)
