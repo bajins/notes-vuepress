@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>借助margin把Footer固定在页面底部</title>
+    <style>
+        /* `div.content`使用`margin-bottom: -50px;` */
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%
+        }
+
+        .content {
+            width: 100%;
+            height: 500px;
+            /*高度可由内容撑开*/
+            min-height: 100%;
+            margin-bottom: -50px;
+            background-color: #ccc;
+        }
+
+        .footer {
+            width: 100%;
+            height: 50px;
+            background-color: #666;
+        }
+
+        .ph {
+            height: 50px;
+            /*占位元素，与footer高度一致*/
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="ph"></div>
+    </div>
+    <div class="footer"></div>
+</body>
+
+</html>

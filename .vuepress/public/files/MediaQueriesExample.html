@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>停水通知</title>
+    <!--  让当前viewport的宽度等于设备的宽度，即将viewport由默认变为ideal viewport  -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+    <style>
+        .container {
+            width: 50%;
+            margin: 25% auto;
+            background-color: #f0f0f0;
+            padding: 2% 5%;
+            border-radius: 10px;
+        }
+        @media only screen and (max-width:768px) {
+            .container {
+                width: 70%;
+            }
+        }
+        @media only screen and (max-width:450px) {
+            .container {
+                width: 90%;
+            }
+        }
+        @media screen and (min-width:1025px) {
+            .container {
+                margin: 15% auto;
+                width: 35%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>尊敬的各位业主/住户：</h3>
+        <p style="text-indent:2em;">
+            <span>因本小区主自来水管网阀门损坏需停水维修，xxx月xxx日9：00--17:30进行自来水的主管道阀门进行抢修更换。</span>
+            <span>届时本小区1号楼2号楼3号楼的生活用水将受影响，请各位住户做好储水准备。</span>
+            <span>因自来水主管道阀门更换抢修工作给您生活带来的不便敬请谅解，感谢您对我们物业服务工作的理解和支持。</span>
+        </p>
+        <p style="text-align: right;">xxxxxx物业有限公司</p>
+        <p style="text-align: right;">20xxx年xxx月xxx日</p>
+    </div>
+</body>
+</html>

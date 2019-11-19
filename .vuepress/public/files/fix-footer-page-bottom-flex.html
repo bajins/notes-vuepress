@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>借助flex把Footer固定在页面底部</title>
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            display: flex;
+            display: -webkit-flex;
+            flex-direction: column;
+            -webkit-flex-direction: column;
+        }
+
+        .content {
+            /* 使内容高度可以自由伸缩*/
+            flex: 1;
+            -webkit-flex: 1;
+            width: 100%;
+            height: 500px;
+            /*高度可由内容撑开*/
+            background-color: #ccc;
+        }
+
+        .footer {
+            width: 100%;
+            height: 50px;
+            background-color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content"></div>
+    <div class="footer"></div>
+</body>
+
+</html>

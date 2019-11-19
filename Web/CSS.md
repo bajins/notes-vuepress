@@ -1,35 +1,19 @@
 # CSS
 
 
-
 * [flag](#flag)
 * [`Media Queries`](#media-queries)
-  * [语法](#语法)
   * [设备类型](#设备类型)
   * [设备特性](#设备特性)
   * [外联和内嵌样式](#外联和内嵌样式)
   * [`bootstrap css`](#bootstrap-css)
   * [混合应用](#混合应用)
-  * [完整示例](#完整示例)
 * [文本溢出处理](#文本溢出处理)
   * [隐藏溢出内容](#隐藏溢出内容)
-* [`Footer`固定在底部](#footer固定在底部)
-  * [固定在页面底部](#固定在页面底部)
-    * [借助`margin`](#借助margin)
-    * [借助`padding`](#借助padding)
-    * [使用`calc`计算属性](#使用calc计算属性)
-    * [使用`flex`布局](#使用flex布局)
-    * [使用`absolute`定位](#使用absolute定位)
-    * [使用`grid`网格布局](#使用grid网格布局)
-  * [固定在窗口底部](#固定在窗口底部)
-    * [`fixed`定位](#fixed定位)
-    * [`absolute`定位](#absolute定位)
-    * [`flex`布局](#flex布局)
-    * [`calc`计算属性](#calc计算属性)
-
-
-
-
+* [`Footer`固定在页面底部](#footer固定在页面底部)
+* [`Footer`固定在窗口底部](#footer固定在窗口底部)
+* [水平排列](#水平排列)
+* [动画](#动画)
 
 
 
@@ -47,7 +31,7 @@
 ## `Media Queries`
 
 > `Media Queries`能在不同的条件下使用不同的样式，使页面在不同在终端设备下达到不同的渲染效果。
->
+
 > 使用`Media Queries`必须要使用`@media`开头，然后指定媒体类型（也可以称为设备类型），随后是指定媒体特性（也可以称之为设备特性）。
 > 媒体特性的书写方式和样式的书写方式非常相似，主要分为两个部分，而且这两个部分之间使用冒号分隔：
 >> 第一个部分指的是媒体特性
@@ -55,7 +39,7 @@
 >> 第二部分为媒体特性所指定的值
 
 
-### 语法
+- 语法
 
 > @media 设备类型 and|not|only （设备特性）{样式代码}
 
@@ -82,6 +66,10 @@
 * [visual viewport、layout viewport和ideal viewport介绍](https://segmentfault.com/a/1190000017542232)
 
 * [viewport 深入理解](https://www.runoob.com/w3cnote/viewport-deep-understanding.html)
+
+* [完整示例](/files/MediaQueriesExample.html)
+
+
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -239,61 +227,6 @@
 ```
 
 
-### 完整示例
-
-```html
-<!doctype html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>停水通知</title>
-    <!--  让当前viewport的宽度等于设备的宽度，即将viewport由默认变为ideal viewport  -->
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
-    <style>
-        .container {
-            width: 50%;
-            margin: 25% auto;
-            background-color: #f0f0f0;
-            padding: 2% 5%;
-            border-radius: 10px;
-        }
-        @media only screen and (max-width:768px) {
-            .container {
-                width: 70%;
-            }
-        }
-        @media only screen and (max-width:450px) {
-            .container {
-                width: 90%;
-            }
-        }
-        @media screen and (min-width:1025px) {
-            .container {
-                margin: 15% auto;
-                width: 35%;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h3>尊敬的各位业主/住户：</h3>
-        <p style="text-indent:2em;">
-            <span>因本小区主自来水管网阀门损坏需停水维修，xxx月xxx日9：00--17:30进行自来水的主管道阀门进行抢修更换。</span>
-            <span>届时本小区1号楼2号楼3号楼的生活用水将受影响，请各位住户做好储水准备。</span>
-            <span>因自来水主管道阀门更换抢修工作给您生活带来的不便敬请谅解，感谢您对我们物业服务工作的理解和支持。</span>
-        </p>
-        <p style="text-align: right;">xxxxxx物业有限公司</p>
-        <p style="text-align: right;">20xxx年xxx月xxx日</p>
-    </div>
-</body>
-</html>
-```
-
-
-
-
-
 
 
 ## 文本溢出处理
@@ -364,7 +297,8 @@ div:hover{
 }
 ```
 
-## `Footer`固定在底部
+
+## `Footer`固定在页面底部
 
 - `Sticky Footer`
 > 所谓`Sticky Footer`，并不是什么新的前端概念和技术，它指的就是一种网页效果： 
@@ -374,122 +308,30 @@ div:hover{
 
 * [CSS-Footer底部固定实现](https://github.com/junruchen/junruchen.github.io/wiki/CSS-Footer%E5%BA%95%E9%83%A8%E5%9B%BA%E5%AE%9A%E5%AE%9E%E7%8E%B0)
 
-### 固定在页面底部
 
-#### 借助`margin`
+
+* [fix-footer-page-bottom-margin-bottom.html](/files/fix-footer-page-bottom-margin-bottom.html)
 
 > 这是个比较主流的用法，把内容部分最小高度设为100%，
 > 再利用内容部分的负底部外边距值来达到当高度不满时，页脚保持在窗口底部，当高度超出则随之推出的效果。
 
 > 需要容器里有额外的占位元素（如.ph），以防止`content`区域的内容被`footer`覆盖
 
-
-```html
-<body>
-  <div class="content">
-    <div class="ph"></div>
-  </div>
-  <div class="footer"></div>
-</body>
-```
-
-- `div.content`使用`margin-bottom: -50px;`
-
 > 需要注意的是`.content`的`margin-bottom`值需要和`.footer`的负的`height`值保持一致，这一点不太友好。
 
-```css
-html {
-  height: 100%;
-}
-body {
-  height: 100%
-}
-.content {
-  width: 100%;
-  height: 500px; /*高度可由内容撑开*/
-  min-height: 100%;
-  margin-bottom: -50px;
-  background-color: #ccc;
-}
-.footer {
-  width: 100%;
-  height: 50px;
-  background-color: #666;
-}
-.ph {
-  height: 50px; /*占位元素，与footer高度一致*/
-}
-```
 
-- `div.footer`使用`margin-top: -50px;`
+* [fix-footer-page-bottom-margin-top.html](/files/fix-footer-page-bottom-margin-top.html)
 
 > 给内容外增加父元素，并让内容部分的底部内边距与页脚高度的值相等。
 
-```css
-html {
-  height: 100%;
-}
-body {
-  height: 100%
-}
-.content {
-  width: 100%;
-  height: 500px; /*高度可由内容撑开*/
-  min-height: 100%;
-  background-color: #ccc;
-}
-.footer {
-  width: 100%;
-  height: 50px;
-  margin-top: -50px;
-  background-color: #666;
-}
-.ph {
-  height: 50px; /*占位元素，与footer高度一致*/
-}
-```
 
-#### 借助`padding`
+* [fix-footer-page-bottom-padding.html](/files/fix-footer-page-bottom-padding.html)
 
 > 使用`padding`实现`footer`置底，需要为`div.content`元素增加一个父元素，
 > 且需为`div.footer`元素设置`margin-top: -50px`来抵消使用`padding`产生的高度
 
 
-```html
-<style>
-    html {
-      height: 100%;
-    }
-    body {
-      height: 100%
-    }
-    .container {
-      width: 100%;
-      min-height: 100%;
-      background-color: #ccc;
-    }
-    .content {
-      width: 100%;
-      height: 500px; /*高度可由内容撑开*/
-      padding-bottom: 50px;
-    }
-    .footer {
-      width: 100%;
-      height: 50px;
-      margin-top: -50px; /*用来抵消content使用padding产生的高度*/
-      background-color: #666;
-    }
-</style>
-<body>
-  <div class="content">
-    <div class="push"></div>
-  </div>
-  <div class="footer"></div>
-</body>
-```
-
-
-#### 使用`calc`计算属性
+* [fix-footer-page-bottom-calc.html](/files/fix-footer-page-bottom-calc.html)
 
 > `calc`的用法比较简单，但是需要注意`calc`与`(`之间不要有空格，另外运算符前后应该有空格。如：`min-height: calc(100% - 50px);`
 
@@ -499,340 +341,50 @@ body {
 
 
 
-```html
-<style>
-    html {
-      height: 100%;
-    }
-    body {
-      height: 100%
-    }
-    .content {
-      width: 100%;
-      height: 500px; /*高度可由内容撑开*/
-      min-height: calc(100% - 50px);
-      background-color: #ccc;
-    }
-    .footer {
-      width: 100%;
-      height: 50px;
-      background-color: #666;
-    }
-</style>
-<body>
-  <div class="content"></div>
-  <div class="footer"></div>
-</body>
-```
-
-#### 使用`flex`布局
+* [fix-footer-page-bottom-flex.html](/files/fix-footer-page-bottom-flex.html)
 
 > `flex`布局`footer`的高度设置更加灵活，不需要设计计算，也不需要占位符。
 
-```html
-<style>
-    html {
-      height: 100%;
-    }
-    body {
-      height: 100%;
-      display: flex;
-      display: -webkit-flex;
-      flex-direction: column;
-      -webkit-flex-direction: column; 
-    }
-    .content {
-      /* 使内容高度可以自由伸缩*/
-      flex: 1;
-      -webkit-flex: 1;
-      width: 100%;
-      height: 500px; /*高度可由内容撑开*/
-      background-color: #ccc;
-    }
-    .footer {
-      width: 100%;
-      height: 50px;
-      background-color: #666;
-    }
-</style>
-<body>
-  <div class="content"></div>
-  <div class="footer"></div>
-</body>
-```
 
 
-#### 使用`absolute`定位
+* [fix-footer-page-bottom-absolute.html](/files/fix-footer-page-bottom-absolute.html)
 
 > 注意：`div.container`设置最小高度为`100%`，以保证当内容区高度小于浏览器高度时，`footer`仍位于底部
 
 > 这个方案需指定`html`、`body`的`100%`高度，且`content`的`padding-bottom`需要与`footer`的`height`一致。
 
-```html
-<style>
-    html {
-      height: 100%;
-    }
-    body {
-      height: 100%
-    }
-    .container {
-      position: relative;
-      min-height: 100%;
-    }
-    .content {
-      width: 100%;
-      height: 500px; /*高度可由内容撑开*/
-      background-color: #ccc;
-    }
-    .footer {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      height: 50px;
-      background-color: #666;
-    }
-</style>
-<body>
-  <div class="container">
-    <div class="content"></div>
-    <div class="footer"></div>
-  </div>
-</body>
-```
 
-#### 使用`grid`网格布局
-
-```html
-<style>
-    html {
-      height: 100%;
-    }
-    body {
-      height: 100%;
-      display: grid;
-      grid-template-rows: 1fr auto;
-    }
-    .content {
-      width: 100%;
-      height: 500px; /*高度可由内容撑开*/
-      background-color: #ccc;
-    }
-    .footer {
-      grid-row-start: 2;
-      grid-row-end: 3;
-      width: 100%;
-      height: 50px;
-      background-color: #666;
-    }
-</style>
-<body>
-  <div class="content"></div>
-  <div class="footer"></div>
-</body>
-```
+* [fix-footer-page-bottom-grid.html](/files/fix-footer-page-bottom-grid.html)
 
 
-### 固定在窗口底部
+## `Footer`固定在窗口底部
 
-#### `fixed`定位
+* [fix-footer-window-bottom-fixed.html](/files/fix-footer-window-bottom-fixed.html)
 
 
-```html
-<style>
-    html {
-      height: 100%;
-    }
-    body {
-      height: 100%;
-    }
-    .content {
-      width: 100%;
-      height: 500px;
-      background-color: #ccc;
-    }
-    .footer{
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      height: 50px;
-      background-color: #666;
-    }
-</style>
-<body>
-  <div class="content"></div>
-  <div class="footer"></div>
-</body>
-```
-
-#### `absolute`定位
+* [fix-footer-window-bottom-absolute.html](/files/fix-footer-window-bottom-absolute.html)
 
 > `absolute`定位只能将`footer`置于底部，还需要将`div.content`设置为高度固定的可滚动区域，同理上述实现位于页面底部`footer`的方式，
 > 如：`flex`布局、`absolute`定位、`calc`计算属性，都可转换为固定在浏览器窗口底部的方法。
 
-```html
-<style>
-    html {
-      height: 100%;
-    }
-    body {
-      height: 100%;
-    }
-    .content {
-      width: 100%;
-      height: 100%;
-      overflow-y: auto;
-      background-color: #ccc;
-    }
-    .footer{
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      height: 50px;
-      background-color: #666;
-    }
-</style>
-<body>
-  <div class="content"></div>
-  <div class="footer"></div>
-</body>
-```
+
+* [fix-footer-window-bottom-flex.html](/files/fix-footer-window-bottom-flex.html)
 
 
-#### `flex`布局
-
-```html
-<style>
-    html {
-      height: 100%;
-    }
-    body {
-      height: 100%;
-      display: flex;
-      display: -webkit-flex;
-      flex-direction: column;
-      -webkit-flex-direction: column; 
-    }
-    .content {
-      flex: 1;
-      -webkit-flex: 1;
-      width: 100%;
-      height: 100%;
-      overflow-y: auto;
-      background-color: #ccc;
-    }
-    .footer{
-      width: 100%;
-      height: 50px;
-      background-color: #666;
-    }
-</style>
-<body>
-  <div class="content"></div>
-  <div class="footer"></div>
-</body>
-```
-
-#### `calc`计算属性
-```html
-<style>
-    html {
-      height: 100%;
-    }
-    body {
-      height: 100%;
-    }
-    .content {
-      width: 100%;
-      height: calc(100% - 50px);
-      overflow-y: auto;
-      background-color: #ccc;
-    }
-    .footer{
-      width: 100%;
-      height: 50px;
-      background-color: #666;
-    }
-</style>
-<body>
-  <div class="content"></div>
-  <div class="footer"></div>
-</body>
-```
+* [fix-footer-window-bottom-calc.html](/files/fix-footer-window-bottom-calc.html)
 
 
 ## 水平排列
 
 > 字体居中需使元素与父级元素等宽
 
+* [horizontal-arrangement-flex.html](/files/horizontal-arrangement-flex.html)
 
-### `display:flex`
+* [horizontal-arrangement-float-left.html](/files/horizontal-arrangement-float-left.html)
 
-```html
-<style>
-    .display-flex {
-      display: flex;
-    }
-    
-    .div-size {
-      border: 1px solid red;
-      width: 200px;
-      height: 120px;
-      margin: 10px;
-    }
-</style>
-<h3>display: flex</h3>
-<div class="display-flex">
-  <div class="div-size">1</div>
-  <div class="div-size">2</div>
-  <div class="div-size">3</div>
-</div>
-```
+* [horizontal-arrangement-inline-block.html](/files/horizontal-arrangement-inline-block.html)
 
-### `float:left`
 
-```html
-<style>
-    .float-left {
-      float: left;
-      border: 1px solid yellowgreen;
-      width: 200px;
-      height: 120px;
-      margin: 10px;
-    }
-    
-    .clear {
-      clear: both;
-    }
-</style>
-<h3>float: left</h3>
-<div>
-  <div class="float-left">4</div>
-  <div class="float-left">5</div>
-  <div class="float-left">6</div>
-</div>
-<div class="clear"></div>
-```
-
-### `display:inline-block`
-
-```html
-<style>
-    .inline-block {
-      display: inline-block;
-      border: 1px solid blue;
-      width: 200px;
-      height: 120px;
-      margin: 10px;
-    }
-</style>
-<h3>display: inline-block</h3>
-<div>
-  <div class="inline-block">7</div>
-  <div class="inline-block">8</div>
-  <div class="inline-block">9</div>
-</div>
-```
 
 ## 动画
 
