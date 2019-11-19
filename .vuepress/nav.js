@@ -6,10 +6,6 @@ module.exports = [
                 // text: '',
                 items: [
                     {
-                        text: '备份库',
-                        link: 'https://git.woetu.com/clater/UseNotes'
-                    },
-                    {
                         text: '绿色网盘',
                         link: 'https://www.woytu.com',
                     },
