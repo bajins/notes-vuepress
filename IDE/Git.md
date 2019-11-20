@@ -558,68 +558,11 @@ volumes:
 
 ### 访问速度过慢
 
-- 打开以下网页
+* [https://myssl.com/dns_check.html](https://myssl.com/dns_check.html)
 
-[https://myssl.com/dns_check.html](https://myssl.com/dns_check.html)
+* [http://tool.chinaz.com/dns](http://tool.chinaz.com/dns)
 
-[http://tool.chinaz.com/dns](http://tool.chinaz.com/dns)
-
-- 搜索以下域名并复制`TTL`值最小的IP
-```bash
-assets-cdn.github.com
-avatars.githubusercontent.com
-avatars0.githubusercontent.com
-avatars1.githubusercontent.com
-codeload.github.com
-documentcloud.github.com
-gist.github.com
-github.com
-github.global.ssl.fastly.net
-github.io
-github-cloud.s3.amazonaws.com
-global-ssl.fastly.net
-help.github.com
-nodeload.github.com
-raw.github.com
-status.github.com
-training.github.com
-www.github.com
-```
-
-- 添加到`C:\Windows\System32\drivers\etc\hosts`
-
-```bash
-185.199.111.153 assets-cdn.github.com
-185.199.110.153 assets-cdn.github.com
-185.199.108.153 assets-cdn.github.com
-185.199.109.153 assets-cdn.github.com
-151.101.200.133 avatars.githubusercontent.com
-151.101.200.133 avatars0.githubusercontent.com
-151.101.200.133 avatars1.githubusercontent.com
-185.199.110.153 documentcloud.github.com
-185.199.111.153 documentcloud.github.com
-185.199.108.153 documentcloud.github.com
-185.199.109.153 documentcloud.github.com
-192.30.253.119  gist.github.com
-140.82.114.3    github.com
-151.101.249.194 github.global.ssl.fastly.net
-185.199.108.153 github.io
-185.199.111.153 github.io
-185.199.110.153 github.io
-185.199.109.153 github.io
-52.216.233.35   github-cloud.s3.amazonaws.com
-151.101.248.249 global-ssl.fastly.net
-185.199.108.154 help.github.com
-185.199.110.154 help.github.com
-185.199.109.154 help.github.com
-185.199.111.154 help.github.com
-140.82.113.9    nodeload.github.com
-151.101.248.133 raw.github.com
-18.214.129.83   status.github.com
-18.211.136.12   status.github.com
-18.204.240.114  status.github.com
-192.30.253.167  training.github.com
-```
+* [Windows设置GitHub的Hosts脚本](/files/设置GitHub的Hosts.bat)
 
 #### 刷新DNS缓存
 

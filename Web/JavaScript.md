@@ -26,9 +26,7 @@
 
 * [参考手册](https://www.w3school.com.cn/r.asp)
 
-* [JavaScript 日期处理类库](https://github.com/moment/moment/)
-
-* [JavaScriptUtils](/files/JavaScriptUtils.js)
+* [JavaScript 日期处理类库](https://github.com/moment/moment)
 
 
 
