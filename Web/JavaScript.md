@@ -26,6 +26,8 @@
 
 * [参考手册](https://www.w3school.com.cn/r.asp)
 
+* [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
+
 * [JavaScript 日期处理类库](https://github.com/moment/moment)
 
 * [ECMAscript和Javascript的区别](https://www.jianshu.com/p/10cfcb536d4a)

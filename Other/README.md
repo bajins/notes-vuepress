@@ -6,6 +6,7 @@
 
 * [饭饭的个人主页](https://github.com/noisky/Homepage)
 
+* [互联网上的免费书籍](https://github.com/ruanyf/free-books)
 
 https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extension
 
