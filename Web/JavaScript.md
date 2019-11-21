@@ -28,7 +28,7 @@
 
 * [JavaScript 日期处理类库](https://github.com/moment/moment)
 
-
+* [ECMAscript和Javascript的区别](https://www.jianshu.com/p/10cfcb536d4a)
 
 ## CDN
 
