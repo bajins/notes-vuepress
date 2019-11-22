@@ -720,7 +720,7 @@ grub2-set-default 0
 
 * [https://www.ssrtool.com](https://www.ssrtool.com)
 
-* [https://github.com/TelePlusDev/TelePlus-Android](https://github.com/TelePlusDev/TelePlus-Android)
+* [https://github.com/xiaotianwl/v2ray_vps/](https://github.com/xiaotianwl/v2ray_vps/)
 
 ## PAC
 
