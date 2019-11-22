@@ -301,6 +301,7 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 7. 网络设置
 
 
+
 * [Windows注册表内容详解](https://zhuanlan.zhihu.com/p/72194354)
 
 * [简析Windows注册表](https://segmentfault.com/a/1190000016854021)
@@ -320,6 +321,36 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 
 
 
+### regini
+
+* [regini和其他所有命令官方文档](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/regini)
+
+
+| 权限 	| 说明                                	|
+|------	|-------------------------------------	|
+| 1    	| Administrators 完全访问             	|
+| 2    	| Administrators 只读访问             	|
+| 3    	| Administrators 读和写入访问         	|
+| 4    	| Administrators 读、写入、删除访问   	|
+| 5    	| Creator 完全访问                    	|
+| 6    	| Creator 读和写入访问                	|
+| 7    	| everyone 完全访问                   	|
+| 8    	| everyone 只读访问                   	|
+| 9    	| everyone 读和写入访问               	|
+| 10   	| everyone 读、写入、删除访问         	|
+| 11   	| Power Users 完全访问                	|
+| 12   	| Power Users 读和写入访问            	|
+| 13   	| Power Users 读、写入、删除访问      	|
+| 14   	| System Operators 完全访问           	|
+| 15   	| System Operators 读和写入访问       	|
+| 16   	| System Operators 读、写入、删除访问 	|
+| 17   	| System 完全访问                     	|
+| 18   	| System 读和写入访问                 	|
+| 19   	| System 只读访问                     	|
+| 20   	| Administrators 读、写、执行访问     	|
+| 21   	| Interactive User 完全访问           	|
+| 22   	| Interactive User 读和写入访问       	|
+| 23   	| Interactive User 读、写入、删除访问 	|
 
 
 

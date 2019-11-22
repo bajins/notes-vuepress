@@ -46,7 +46,7 @@
 
 * [tableconvert](https://tableconvert.com)
 
-* [table-magic](http://stevecat.github.io/table-magic)
+* [table-magic](https://stevecat.github.io/table-magic)
 
 * [markdown_tables](http://www.tablesgenerator.com/markdown_tables)
 
