@@ -76,9 +76,41 @@
 
 * [foobar2000](http://blog.sina.com.cn/go2spa)
 
-* [Daum PotPlayer](http://daumpotplayer.com/download/)
+
+
+### Potplayer
 
 * [Global Potplayer](http://potplayer.daum.net/?lang=zh_CN)
+
+> 以上是官网下载地址，将`DNS`改为`8.8.8.8`就可以顺利下载了，若为默认的自动模式（国内DNS）则无法下载。
+
+- Public Version
+
+> (32-bit)https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe
+
+> (64-bit)https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe
+
+- Developer Version
+
+> (32-bit)http://t1.daumcdn.net/potplayer/beta/PotPlayerSetup.exe
+
+- OpenCodec(额外解码包)
+
+> (32-bit)https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup.exe
+
+> (64-bit)https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup64.exe
+
+- FFmpegMininum.dll
+
+> (32-bit)https://get.daum.net/PotPlayer/v4/Module/FFmpeg/FFmpegMininum.dll
+
+> (64-bit)https://get.daum.net/PotPlayer64/v4/Module/FFmpeg/FFmpegMininum64.dll
+
+* [Daum PotPlayer](http://daumpotplayer.com/download/)
+
+* [https://pan.lanzou.com/b112173](https://pan.lanzou.com/b112173)
+
+
 
 * [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
 
@@ -162,6 +194,7 @@
 
 * [推荐：Windows剪贴板工具Ditto](https://ditto-cp.sourceforge.io/)
 
+* [http://wenlei.ys168.com](http://wenlei.ys168.com)
 
 - Internet Download Manager
 
@@ -170,6 +203,8 @@
 1. https://www.lanzous.com/b134572/
 
 2. https://yunpan.360.cn/surl_ymsGF6zWGcP （提取码：805b）
+
+3. https://www.lanzous.com/b0i6zkze
 
 - Photoshop CC
 
