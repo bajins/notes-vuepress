@@ -37,8 +37,27 @@
 
 ## flag
 
+* [Linux手册](https://learn-linux.readthedocs.io/zh_CN/latest/)
+
+* [Linux网络编程](https://network.fasionchan.com/zh_CN/latest/index.html)
+
+* [OSX操作指南](https://osx-guide.readthedocs.io/zh_CN/latest/)
+
 * [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625/)
 
+* [Linux工程师必备的88个监控工具](https://learn-linux.readthedocs.io/zh_CN/latest/maintenance/monitor/tools/80-linux-monitoring-tools.html)
+
+- `nethogs`: 按进程查看流量占用
+
+- `ethtool`: 诊断工具
+
+- `tcpdump`: 抓包工具
+
+- 监控总体带宽使用：`nload`、`bmon`、`slurm`、`bwm-ng`、`cbm`、`speedometer`、`netload`
+- 监控总体带宽使用（批量式输出）：`vnstat`、`ifstat`、`dstat`、`collectl`
+- 每个套接字连接的带宽使用：`iftop`、`iptraf`、`tcptrack`、`pktstat`、`netwatch`、`trafshow`、`jnettop`
+
+- `ntopng`
 
 
 ## 重装系统

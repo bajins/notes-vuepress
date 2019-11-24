@@ -22,6 +22,7 @@
 
 * [内置异常和函数](https://lichangke.github.io/category/#python)
 
+* [Python语言小册](https://python.fasionchan.com/zh_CN/latest/index.html)
 
 
 ## 线程池

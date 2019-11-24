@@ -26,7 +26,7 @@
 
 * [Go 语言中文开源图书、资料或文档](https://books.studygolang.com)
 
-
+* [Go语言小册](https://golang.fasionchan.com/zh_CN/latest/index.html)
 
 
 ## 框架
