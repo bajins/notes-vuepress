@@ -2,6 +2,8 @@
 
 
 * [flag](#flag)
+* [css3新单位](#css3新单位)
+* [calc](#calc)
 * [`Media Queries`](#media-queries)
   * [设备类型](#设备类型)
   * [设备特性](#设备特性)
@@ -55,7 +57,22 @@
 > 当元素没有内容时候，设置`height:100%`，该元素不会被撑开，此时高度为`0`，但是设置`height:100vh`，该元素会被撑开屏幕高度一致。
 
 
+## calc
 
+> `calc()` 函数用于动态计算长度值。
+
+* [https://developer.mozilla.org/zh-CN/docs/Web/CSS/calc](https://developer.mozilla.org/zh-CN/docs/Web/CSS/calc)
+
+
+> 使用`+`、`-`、`*` 和 `/`四则运算
+
+> 可以使用`%`、`px`、`em`、`rem`等单位
+
+> 可以混合使用各种单位进行计算
+
+> 表达式中有`+`和`-`时，其前后必须要有空格，如`widht: calc(12%+5em)`这种没有空格的写法是错误的
+
+> 表达式中有`*`和`/`时，其前后可以没有空格，但建议留有空格
 
 
 
