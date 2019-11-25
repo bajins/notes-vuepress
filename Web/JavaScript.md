@@ -26,13 +26,20 @@
 
 * [参考手册](https://www.w3school.com.cn/r.asp)
 
-* [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
-
-* [JavaScript 日期处理类库](https://github.com/moment/moment)
+* [ECMAScript 6入门](https://github.com/ruanyf/es6tutorial)
 
 * [ECMAscript和Javascript的区别](https://www.jianshu.com/p/10cfcb536d4a)
 
-* [http://momentjs.cn](http://momentjs.cn)
+
+
+
+## 类库
+
+* [JavaScript 日期处理类库](https://github.com/moment/moment)
+[http://momentjs.cn](http://momentjs.cn)
+
+* [https://github.com/matthewhudson/current-device](https://github.com/matthewhudson/current-device)
+
 
 
 ## CDN
