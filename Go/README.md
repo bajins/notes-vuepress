@@ -72,16 +72,16 @@
 ## 代理
 
 
-* [aliyun](https://mirrors.aliyun.com/goproxy/)
+* [https://mirrors.aliyun.com/goproxy](https://mirrors.aliyun.com/goproxy)
 
 * [https://mirrors.cloud.tencent.com/help/go.html](https://mirrors.cloud.tencent.com/help/go.html)
 
-* [goproxy.io](https://goproxy.io)
+* [https://goproxy.io](https://goproxy.io)
 
 * [Athens](https://docs.gomods.io/zh/)
 
-* [gocenter.io](https://gocenter.io)
+* [https://gocenter.io](https://gocenter.io)
 
-* [https://gopm.io/](https://gopm.io)
+* [https://gopm.io](https://gopm.io)
 
-* [goproxy.cn](https://goproxy.cn)
+* [https://goproxy.cn](https://goproxy.cn)
