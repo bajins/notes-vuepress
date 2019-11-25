@@ -1,4 +1,4 @@
-# Golang
+# Go
 
 
 * [flag](#flag)
@@ -12,7 +12,9 @@
 
 ## flag
 
-* [官网](https://golang.google.cn/dl/)
+* [https://golang.google.cn/dl](https://golang.google.cn/dl)
+
+* [https://gomirrors.org](https://gomirrors.org)
 
 * [Go 开发者路线图](https://github.com/Quorafind/golang-developer-roadmap-cn)
 
