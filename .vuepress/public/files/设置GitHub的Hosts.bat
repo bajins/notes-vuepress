@@ -44,17 +44,22 @@ endlocal&exit /b %errorlevel%
 
 var Argv = WScript.Arguments;
 for (i = 0; i < Argv.length; i++) {
-    info("参数：" + Argv(i));
+    WScript.StdOut.WriteLine("参数：" + Argv(i));
 }
 
 if (Argv.length > 0) {
-    if (Argv(0) == "1") {
-        autoStart("startup");
-    } else if (Argv(0) == "?" || Argv(0) == "help") {
-        help();
-        // 正常退出
-        WScript.Quit(0);
+    switch (Argv(0)) {
+        case "1":
+            autoStart("startup");
+            break;
+        case "?","help":
+            help();
+            break;
+        default:
+            help();
     }
+    // 正常退出
+    WScript.Quit(0);
 }
 
 var fso = new ActiveXObject("Scripting.FileSystemObject");

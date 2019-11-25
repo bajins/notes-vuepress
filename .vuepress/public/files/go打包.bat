@@ -1,93 +1,67 @@
-# Goæ‰“åŒ…
-
-
-
-
-
-## æ‰“åŒ…å‘½ä»¤
-
-### åœ¨windowsä¸‹æ‰“åŒ…
-
-> `go build -ldflags="-H windowsgui"` èƒ½éšè—é»‘çª—å£
-
-
-#### è®¾ç½®ç¯å¢ƒ
-
-> `GOOS` ç›®æ ‡å¯æ‰§è¡Œç¨‹åºè¿è¡Œæ“ä½œç³»ç»Ÿï¼Œæ”¯æŒ`darwin`ã€`freebsd`ã€`linux`ã€`windows`
-
-```batch
-# æ‰“åŒ…Linux æ‰§è¡Œæ–‡ä»¶
-SET GOOS=linux
-# æ‰“åŒ…winæ‰§è¡Œæ–‡ä»¶
-SET GOOS=windows
-# æ‰“åŒ…macæ‰§è¡Œæ–‡ä»¶
-SET GOOS=darwin
-# æ‰“åŒ…freebsdæ‰§è¡Œæ–‡ä»¶
-SET GOOS=freebsd
-```
-
-> `GOARCH` ç›®æ ‡å¯æ‰§è¡Œç¨‹åºæ“ä½œç³»ç»Ÿæ„æ¶ï¼ŒåŒ…æ‹¬`386`ã€`amd64`ã€`arm`
-
-```batch
-# æ‰“åŒ…386æ‰§è¡Œæ–‡ä»¶
-SET GOARCH=386
-# æ‰“åŒ…amd64æ‰§è¡Œæ–‡ä»¶
-SET GOARCH=amd64
-# æ‰“åŒ…armæ‰§è¡Œæ–‡ä»¶
-SET GOARCH=arm
-```
-
-#### æ‰§è¡Œç¼–è¯‘
-
-```batch
-go build main.go
-# æ‰“åŒ…æ–‡ä»¶æˆå…¶ä»–åå­—
-go build -o key-gin.exe main.go
-```
-
-
-
-## æ‰“åŒ…è„šæœ¬
-
-### åœ¨é¡¹ç›®ä¸­æ–°å»º
-
-> åªéœ€åœ¨é¡¹ç›®ç›®å½•ä¸­æ–°å»ºä¸€ä¸ªbatæ–‡ä»¶æŠŠä»¥ä¸‹è„šæœ¬å‘½ä»¤æ”¾å…¥ï¼Œä¸”ä¿®æ”¹`files`å˜é‡æ‰§è¡Œè„šæœ¬å³å¯æ‰“åŒ…
-
-```batch
 1>1/* ::
 :: by bajins https://www.bajins.com
 
 @echo off
 md "%~dp0$testAdmin$" 2>nul
 if not exist "%~dp0$testAdmin$" (
-    echo bajinsä¸å…·å¤‡æ‰€åœ¨ç›®å½•çš„å†™å…¥æƒé™! >&2
+    echo bajins²»¾ß±¸ËùÔÚÄ¿Â¼µÄĞ´ÈëÈ¨ÏŞ! >&2
     exit /b 1
 ) else rd "%~dp0$testAdmin$"
 
-:: å¼€å¯å»¶è¿Ÿç¯å¢ƒå˜é‡æ‰©å±•
+:: ¿ªÆôÑÓ³Ù»·¾³±äÁ¿À©Õ¹
+:: ½â¾öfor»òifÖĞ²Ù×÷±äÁ¿Ê±ÌáÊ¾ECHO OFFÎÊÌâ£¬ÓÃ!!È¡±äÁ¿
+:: ½â¾öµ÷ÓÃjscriptÌáÊ¾ÃüÁî´íÎóÎÊÌâ
 setlocal enabledelayedexpansion
 
-:: %~f0 è¡¨ç¤ºå½“å‰æ‰¹å¤„ç†çš„ç»å¯¹è·¯å¾„,å»æ‰å¼•å·çš„å®Œæ•´è·¯å¾„
+if "%~1"=="/?" (
+    cscript -nologo -e:jscript "%~f0" help
+    @cmd /k
+    goto :EXIT
+)
+if "%~1"=="" (
+    cscript -nologo -e:jscript "%~f0" help
+    @cmd /k
+    goto :EXIT
+)
+if "%~2"=="" (
+    cscript -nologo -e:jscript "%~f0" help
+    @cmd /k
+    goto :EXIT
+)
+
+:: %~f0 ±íÊ¾µ±Ç°Åú´¦ÀíµÄ¾ø¶ÔÂ·¾¶,È¥µôÒıºÅµÄÍêÕûÂ·¾¶
 cscript -nologo -e:jscript "%~f0" get7z
 if not "%errorlevel%" == "0" (
     @cmd /k
     goto :EXIT
 )
 
-:: éœ€è¦æ‰“åŒ…çš„æ–‡ä»¶æˆ–æ–‡ä»¶å¤¹æ ¹ç›®å½•
-set root=%~dp0
-:: éœ€è¦æ‰“åŒ…çš„æ–‡ä»¶æˆ–æ–‡ä»¶å¤¹
-set files=pyutils static templates
-
-:: ä»…å°† %0 æ‰©å……åˆ°ä¸€ä¸ªè·¯å¾„
-set currentPath=%~p0
-:: æ›¿æ¢\ä¸º,å·ï¼Œä¹Ÿå¯ä»¥æ›¿æ¢ä¸ºç©ºæ ¼
-set currentPath=%currentPath:\=,%
-:: é¡ºåºå¾ªç¯ï¼Œè®¾ç½®æœ€åä¸€ä¸ªä¸ºå½“å‰ç›®å½•
-for %%a in (%currentPath%) do set CurrentDirectoryName=%%a
-:: æ‰“åŒ…å®Œæˆçš„æ–‡ä»¶å‘½åå‰ä¸€éƒ¨åˆ†
-set project=%CurrentDirectoryName%
-:: æ‰“åŒ…å®Œæˆçš„æ–‡ä»¶å‘½ååä¸€éƒ¨åˆ†ï¼Œä¸å‰ä¸€éƒ¨åˆ†è¿›è¡Œç»„åˆ
+:: batËùÔÚÄ¿Â¼
+set batPath=%~dp0
+:: Ê¹ÓÃ /D ¿ª¹Ø£¬³ıÁË¸Ä±äÇı¶¯Æ÷µÄµ±Ç°Ä¿Â¼Ö®Íâ£¬»¹¿É¸Ä±äµ±Ç°Çı¶¯Æ÷¡£
+:: ÇĞ»»µ½ĞèÒª´ò°üµÄ¸ùÄ¿Â¼
+cd /d %~1
+:: Èç¹ûÂ·¾¶²»ÕıÈ·
+if not "%errorlevel%"=="0" (
+    cscript -nologo -e:jscript "%~f0" help
+    @cmd /k
+    goto :EXIT
+)
+:: ĞèÒª´ò°üµÄÎÄ¼ş»òÎÄ¼ş¼Ğ
+set files=%~2
+:: ´ò°üÍê³ÉµÄÎÄ¼şÃüÃûÇ°Ò»²¿·Ö
+set project=%~3
+if "%project%"=="" (
+    :: ½ö½« %0 À©³äµ½Ò»¸öÂ·¾¶
+    set currentPath=%~p0
+    :: Ìæ»»\Îª,ºÅ£¬Ò²¿ÉÒÔÌæ»»Îª¿Õ¸ñ
+    set currentPath=%currentPath:\=,%
+    :: Ë³ĞòÑ­»·£¬ÉèÖÃ×îºóÒ»¸öÎªµ±Ç°Ä¿Â¼
+    for %%a in (%currentPath%) do set CurrentDirectoryName=%%a
+    :: ´ò°üÍê³ÉµÄÎÄ¼şÃüÃûÇ°Ò»²¿·Ö
+    set project=%CurrentDirectoryName%
+)
+:: ´ò°üÍê³ÉµÄÎÄ¼şÃüÃûºóÒ»²¿·Ö£¬ÓëÇ°Ò»²¿·Ö½øĞĞ×éºÏ
 set allList=_darwin_386,_darwin_amd64,_freebsd_386,_freebsd_amd64,_freebsd_arm,
 set allList=%allList%_netbsd_386,_netbsd_amd64,_netbsd_arm,_openbsd_386,
 set allList=%allList%_openbsd_amd64,_windows_386.exe,_windows_amd64.exe,
@@ -98,48 +72,52 @@ set allList=%allList%_linux_mips64,_linux_mips64le,_linux_mipsle,_linux_s390x
 set GOPROXY=https://goproxy.io
 go get github.com/mitchellh/gox
 
+
 for %%i in (%allList%) do (
-    :: å¦‚æœäºŒè¿›åˆ¶æ–‡ä»¶ä¸å­˜åœ¨åˆ™é‡æ–°æ‰“åŒ…
+    :: Èç¹û¶ş½øÖÆÎÄ¼ş²»´æÔÚÔòÖØĞÂ´ò°ü
     if not exist "%project%%%i" (
+        go get github.com/mitchellh/gox
         gox
         if not %errorlevel% == 0 (
             goto :GETGOX
         )
-        :: åˆ é™¤æ—§çš„å‹ç¼©åŒ…æ–‡ä»¶
+        :: É¾³ı¾ÉµÄÑ¹Ëõ°üÎÄ¼ş
         del *.zip *.tar *.gz
     )
 )
 
 
-:: ä½¿ç”¨7zå‹ç¼©
+:: Ê¹ÓÃ7zÑ¹Ëõ
 for %%i in (%allList%) do (
     set runFile=%project%%%i
-    :: !!ä¸ºsetlocal EnableDelayedExpansionå–å˜é‡çš„å€¼
+    :: !!Îªsetlocal EnableDelayedExpansionÈ¡±äÁ¿µÄÖµ
     if exist "!runFile!" (
-        :: åˆ¤æ–­å˜é‡å­—ç¬¦ä¸²ä¸­æ˜¯å¦åŒ…å«å­—ç¬¦ä¸²
+        :: ÅĞ¶Ï±äÁ¿×Ö·û´®ÖĞÊÇ·ñ°üº¬×Ö·û´®
         echo %%i | findstr linux >nul && (
-            :: ç”¨7zå‹ç¼©æˆtar
+            :: ÓÃ7zÑ¹Ëõ³Étar
             7za a -ttar %project%%%i.tar %files% !runFile!
-            :: ç”¨7zæŠŠtarå‹ç¼©æˆgz
+            :: ÓÃ7z°ÑtarÑ¹Ëõ³Égz
             7za a -tgzip %project%%%i.tar.gz %project%%%i.tar
-            :: åˆ é™¤taræ–‡ä»¶å’ŒäºŒè¿›åˆ¶æ–‡ä»¶
+            :: É¾³ıtarÎÄ¼şºÍ¶ş½øÖÆÎÄ¼ş
             del *.tar !runFile!
-            
+
         ) || (
-            :: ç”¨7zå‹ç¼©æ–‡ä»¶ä¸ºzip
+            :: ÓÃ7zÑ¹ËõÎÄ¼şÎªzip
             7za a %project%%%i.zip %files% !runFile!
-            :: åˆ é™¤äºŒè¿›åˆ¶æ–‡ä»¶
+            :: É¾³ı¶ş½øÖÆÎÄ¼ş
             del !runFile!
         )
     )
 )
 
-
+:: Ê¹ÓÃ /D ¿ª¹Ø£¬³ıÁË¸Ä±äÇı¶¯Æ÷µÄµ±Ç°Ä¿Â¼Ö®Íâ£¬»¹¿É¸Ä±äµ±Ç°Çı¶¯Æ÷¡£
+:: ÇĞ»»µ½batËùÔÚÄ¿Â¼
+cd /d %batPath%
 
 goto :EXIT
 
 :EXIT
-:: ç»“æŸå»¶è¿Ÿç¯å¢ƒå˜é‡æ‰©å±•å’Œå‘½ä»¤æ‰§è¡Œ
+:: ½áÊøÑÓ³Ù»·¾³±äÁ¿À©Õ¹ºÍÃüÁîÖ´ĞĞ
 endlocal&exit /b %errorlevel%
 */
 
@@ -148,47 +126,68 @@ endlocal&exit /b %errorlevel%
 
 var Argv = WScript.Arguments;
 for (i = 0; i < Argv.length; i++) {
-    WScript.StdOut.WriteLine("å‚æ•°ï¼š" + Argv(i));
+    WScript.StdOut.WriteLine("²ÎÊı£º" + Argv(i));
 }
 
 if (Argv.length > 0) {
     switch (Argv(0)) {
         case "get7z":
-            try{
+            try {
                 get7z();
-            }catch(e){
-                WScript.StdErr.WriteLine(e.message);
-                // éæ­£å¸¸é€€å‡º
+            } catch (e) {
+                error(e.message);
+                // ·ÇÕı³£ÍË³ö
                 WScript.Quit(1);
             }
+            break;
+        case "?", "help":
+            help();
             break;
         default:
             help();
     }
-    // æ­£å¸¸é€€å‡º
+    // Õı³£ÍË³ö
     WScript.Quit(0);
 }
 
 
+function error(msg) {
+    WScript.StdErr.WriteLine(msg);
+}
+
+function info(msg) {
+    WScript.StdOut.WriteLine(msg);
+}
+
+function help() {
+    info("»ù±¾ÓÃ·¨:");
+    info("   ´ò°ü: " + WScript.ScriptName + " rootPath files project");
+    info("     rootPath ´ò°üµÄ¸ùÄ¿Â¼£¬Â·¾¶±ØĞëÍêÕû");
+    info("     files ĞèÒª´ò°üµÄÎÄ¼ş»òÎÄ¼ş¼Ğ£¬ÓÃË«ÒıºÅÀ¨ÆğÀ´");
+    info("     project ´ò°üÍê³ÉºóµÄÑ¹ËõÎÄ¼şÃüÃûµÄÇ°²¿·Ö£¬¿ÉÒÔ²»ÊäÈë£¬Ä¬ÈÏÎª´ò°ü¸ùÄ¿Â¼µÄÃû³Æ");
+    info("   Ê¾Àı£º");
+    info("     " + WScript.ScriptName + " f:\\key-gin \"pyutils static templates\" key-gin");
+}
+
 /**
- * HTTPè¯·æ±‚
+ * HTTPÇëÇó
  *
  * @param method        GET,POST
- * @param url           è¯·æ±‚åœ°å€
+ * @param url           ÇëÇóµØÖ·
  * @param dataType      "",text,stream,xml,json
- * @param data          æ•°æ®ï¼Œ{key:value}æ ¼å¼
- * @param contentType   å‘é€çš„æ•°æ®ç±»å‹ï¼šmultipart/form-dataã€
- * application/x-www-form-urlencodedï¼ˆé»˜è®¤ï¼‰ã€text/plain
+ * @param data          Êı¾İ£¬{key:value}¸ñÊ½
+ * @param contentType   ·¢ËÍµÄÊı¾İÀàĞÍ£ºmultipart/form-data¡¢
+ * application/x-www-form-urlencoded£¨Ä¬ÈÏ£©¡¢text/plain
  * @returns {string|Document|any}
  */
 function request(method, url, dataType, data, contentType) {
     if (url == "" || url == null || url.length <= 0) {
-        throw new Error("è¯·æ±‚urlä¸èƒ½ä¸ºç©ºï¼");
+        throw new Error("ÇëÇóurl²»ÄÜÎª¿Õ£¡");
     }
     if (method == "" || method == null || method.length <= 0) {
         method = "GET";
     } else {
-        // æŠŠå­—ç¬¦ä¸²è½¬æ¢ä¸ºå¤§å†™
+        // °Ñ×Ö·û´®×ª»»Îª´óĞ´
         method = method.toUpperCase();
     }
     if (contentType == "" || contentType == null || contentType.length <= 0) {
@@ -216,11 +215,11 @@ function request(method, url, dataType, data, contentType) {
             break;
         } catch (e) {
             WScript.StdOut.Write(XMLHTTPVersions[i]);
-            WScript.StdOut.WriteLine("ï¼š" + e.message);
+            WScript.StdOut.WriteLine("£º" + e.message);
         }
     }
 
-    //å°†å¯¹è±¡è½¬åŒ–æˆä¸ºquerystringå½¢å¼
+    //½«¶ÔÏó×ª»¯³ÉÎªquerystringĞÎÊ½
     var paramarray = [];
     for (key in data) {
         paramarray.push(key + "=" + data[key]);
@@ -229,15 +228,15 @@ function request(method, url, dataType, data, contentType) {
 
     switch (method) {
         case "POST":
-            // 0å¼‚æ­¥ã€1åŒæ­¥
+            // 0Òì²½¡¢1Í¬²½
             XMLHTTP.Open(method, url, 0);
             XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send(params);
             break;
         default:
-            // é»˜è®¤GETè¯·æ±‚
+            // Ä¬ÈÏGETÇëÇó
             if (params == "" || params.length == 0 || params == null) {
-                // 0å¼‚æ­¥ã€1åŒæ­¥
+                // 0Òì²½¡¢1Í¬²½
                 XMLHTTP.Open(method, url, 0);
             } else {
                 XMLHTTP.Open(method, url + "?" + params, 0);
@@ -246,7 +245,7 @@ function request(method, url, dataType, data, contentType) {
             XMLHTTP.Send();
     }
 
-    // æŠŠå­—ç¬¦ä¸²è½¬æ¢ä¸ºå°å†™
+    // °Ñ×Ö·û´®×ª»»ÎªĞ¡Ğ´
     dataType = dataType.toLowerCase();
     switch (dataType) {
         case "text":
@@ -268,31 +267,31 @@ function request(method, url, dataType, data, contentType) {
 
 
 /**
- * ä¸‹è½½æ–‡ä»¶
+ * ÏÂÔØÎÄ¼ş
  *
  * @param url
- * @param directory æ–‡ä»¶å­˜å‚¨ç›®å½•
- * @param filename  æ–‡ä»¶åï¼Œä¸ºç©ºé»˜è®¤æˆªå–urlä¸­çš„æ–‡ä»¶å
+ * @param directory ÎÄ¼ş´æ´¢Ä¿Â¼
+ * @param filename  ÎÄ¼şÃû£¬Îª¿ÕÄ¬ÈÏ½ØÈ¡urlÖĞµÄÎÄ¼şÃû
  * @returns {string}
  */
 function download(url, directory, filename) {
     if (url == "" || url == null || url.length <= 0) {
-        throw new Error("è¯·æ±‚urlä¸èƒ½ä¸ºç©ºï¼");
+        throw new Error("ÇëÇóurl²»ÄÜÎª¿Õ£¡");
     }
     if (directory == "" || directory == null || directory.length <= 0) {
-        throw new Error("æ–‡ä»¶å­˜å‚¨ç›®å½•ä¸èƒ½ä¸ºç©ºï¼");
+        throw new Error("ÎÄ¼ş´æ´¢Ä¿Â¼²»ÄÜÎª¿Õ£¡");
     }
 
     var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // å¦‚æœç›®å½•ä¸å­˜åœ¨
+    // Èç¹ûÄ¿Â¼²»´æÔÚ
     if (!fso.FolderExists(directory)) {
-        // åˆ›å»ºç›®å½•
+        // ´´½¨Ä¿Â¼
         var strFolderName = fso.CreateFolder(directory);
     }
 
     if (filename == "" || filename == null || filename.length <= 0) {
         filename = url.substring(url.lastIndexOf("/") + 1);
-        // å»æ‰æ–‡ä»¶åçš„ç‰¹æ®Šç¬¦å·ï¼ˆåŒ…æ‹¬ä¹‹å‰çš„ï¼‰å­—ç¬¦
+        // È¥µôÎÄ¼şÃûµÄÌØÊâ·ûºÅ£¨°üÀ¨Ö®Ç°µÄ£©×Ö·û
         filename = filename.replace(/^.*(\&|\=|\?|\/)/ig, "");
     }
     var path = directory + "\\" + filename;
@@ -305,7 +304,7 @@ function download(url, directory, filename) {
     ADO.SaveToFile(path, 2);
     ADO.Close();
 
-    // å¦‚æœæ–‡ä»¶ä¸å­˜åœ¨
+    // Èç¹ûÎÄ¼ş²»´æÔÚ
     if (!fso.FileExists(path)) {
         return "";
     }
@@ -313,38 +312,24 @@ function download(url, directory, filename) {
 }
 
 /**
- * è·å–7-Zip
+ * »ñÈ¡7-Zip
  *
  */
 function get7z() {
     var shell = new ActiveXObject("WScript.shell");
-    // æ‰§è¡Œ7zå‘½ä»¤åˆ¤æ–­æ˜¯å¦æ‰§è¡ŒæˆåŠŸ
+    // Ö´ĞĞ7zÃüÁîÅĞ¶ÏÊÇ·ñÖ´ĞĞ³É¹¦
     var out = shell.Run("cmd /c 7za", 0, true);
     var directory = "c:\\windows";
     var url = "https://github.com/woytu/woytu.github.io/releases/download/v1.0/7za.exe";
-    // å¦‚æœæ‰§è¡Œå¤±è´¥è¯´æ˜7zä¸å­˜åœ¨
+    // Èç¹ûÖ´ĞĞÊ§°ÜËµÃ÷7z²»´æÔÚ
     if (out == 1) {
         download(url, directory);
     }
-    // æ‰§è¡Œ7zå‘½ä»¤åˆ¤æ–­æ˜¯å¦æ‰§è¡ŒæˆåŠŸ
+    // Ö´ĞĞ7zÃüÁîÅĞ¶ÏÊÇ·ñÖ´ĞĞ³É¹¦
     out = shell.Run("cmd /c 7za", 0, true);
     var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // å¦‚æœæ‰§è¡Œå¤±è´¥ï¼Œæˆ–è€…æ–‡ä»¶ä¸å­˜åœ¨
+    // Èç¹ûÖ´ĞĞÊ§°Ü£¬»òÕßÎÄ¼ş²»´æÔÚ
     if (out == 1 || !fso.FileExists(directory + "\\7za.exe")) {
         get7z();
     }
 }
-```
-
-### åœ¨ä»»æ„ç›®å½•æ–°å»º
-
-> åŸºæœ¬ç”¨æ³•:`è„šæœ¬å rootPath files project`
->> `rootPath` æ‰“åŒ…çš„æ ¹ç›®å½•ï¼Œè·¯å¾„å¿…é¡»å®Œæ•´
->>
->> `files` éœ€è¦æ‰“åŒ…çš„æ–‡ä»¶æˆ–æ–‡ä»¶å¤¹ï¼Œç”¨åŒå¼•å·æ‹¬èµ·æ¥
->>
->> `project` æ‰“åŒ…å®Œæˆåçš„å‹ç¼©æ–‡ä»¶å‘½åçš„å‰éƒ¨åˆ†ï¼Œå¯ä»¥ä¸è¾“å…¥ï¼Œé»˜è®¤ä¸ºæ‰“åŒ…æ ¹ç›®å½•çš„åç§°
-
-> ç¤ºä¾‹ï¼š`è„šæœ¬å f:\\key-gin "pyutils static templates" key-gin`
-
-* [goæ‰“åŒ….bat](/files/goæ‰“åŒ….bat)

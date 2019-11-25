@@ -45,7 +45,7 @@ endlocal&exit /b %errorlevel%
 
 var Argv = WScript.Arguments;
 for (i = 0; i < Argv.length; i++) {
-    info("参数：" + Argv(i));
+    WScript.StdOut.WriteLine("参数：" + Argv(i));
 }
 
 var fso = new ActiveXObject("Scripting.FileSystemObject");
@@ -53,13 +53,18 @@ var fso = new ActiveXObject("Scripting.FileSystemObject");
 var currentDirectory = fso.GetFile(WScript.ScriptFullName).ParentFolder;
 
 if (Argv.length > 0) {
-    if (Argv(0) == "1") {
-        autoStart("startup");
-    } else if (Argv(0) == "?" || Argv(0) == "help") {
-        help();
-        // 正常退出
-        WScript.Quit(0);
+    switch (Argv(0)) {
+        case "1":
+            autoStart("startup");
+            break;
+        case "?","help":
+            help();
+            break;
+        default:
+            help();
     }
+    // 正常退出
+    WScript.Quit(0);
 }
 
 var json = request("GET", "https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1", "json");
