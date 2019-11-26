@@ -22,6 +22,8 @@
 
 ## 手册
 
+> `HTML`网页中，浏览器通过`script`标签加载脚本的默认语言是`JavaScript`，因此`type="application/javascript"`可以省略。
+
 * [浏览器脚本教程](https://www.w3school.com.cn/b.asp)
 
 * [参考手册](https://www.w3school.com.cn/r.asp)
@@ -31,6 +33,35 @@
 * [ECMAscript和Javascript的区别](https://www.jianshu.com/p/10cfcb536d4a)
 
 * [es6支持情况](http://kangax.github.io/compat-table/es6)
+
+* [检查JavaScript文件中的ES版本](https://github.com/dollarshaveclub/es-check)
+
+* [ECMAScript支持度检测](https://github.com/ruanyf/es-checker)
+
+
+
+
+## ECMAScript6启用
+
+* [在浏览器中使用javascript module](https://www.jianshu.com/p/f7db50cf956f)
+
+- `Uncaught SyntaxError: Cannot use import statement outside a module`
+
+> 在报错是说无法在模块外部使用`import`语句，因为`Module`的加载实现的是`es6`语法，
+> 所以在浏览器加载`html`文件时，需要在`script`标签中加入`type="module"`属性。
+
+```html
+<script type="module" src="/static/js/index.js"></script>
+```
+
+- 在module中绑定事件
+
+```js
+// ECMAScript6使用全局变量配置页面绑定事件
+window.getKey = getKey;
+// ECMAScript6指定元素添加事件
+document.querySelector("#id").addEventListener("click", testOnclick);
+```
 
 
 ## 类库
