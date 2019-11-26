@@ -30,7 +30,7 @@
 
 * [ECMAscript和Javascript的区别](https://www.jianshu.com/p/10cfcb536d4a)
 
-
+* [es6支持情况](http://kangax.github.io/compat-table/es6)
 
 
 ## 类库
