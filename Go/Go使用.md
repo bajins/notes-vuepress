@@ -29,6 +29,45 @@ if a == (A{}) {
 }
 ```
 
+## Module
+
+| 命令     	| 说明                                                                  	|
+|----------	|-----------------------------------------------------------------------	|
+| init     	| initialize new module in current directory（在当前目录初始化mod）     	|
+| download 	| download modules to local cache(下载依赖包)                           	|
+| edit     	| edit go.mod from tools or scripts（编辑go.mod                         	|
+| graph    	| print module requirement graph (打印模块依赖图)                       	|
+| tidy     	| add missing and remove unused modules(拉取缺少的模块，移除不用的模块) 	|
+| vendor   	| make vendored copy of dependencies(将依赖复制到vendor下)              	|
+| verify   	| verify dependencies have expected content (验证依赖是否正确）         	|
+| why      	| explain why packages or modules are needed(解释为什么需要依赖)        	|
+
+
+- 添加依赖
+
+> 添加依赖: `go get github.com/xxx/xxx`
+
+> 添加指定版本: `go get github.com/xxx/xxx@v1.6.2`
+
+> 添加指定版本范围: `go get github.com/xxxx/xxx@'<v1.6.2'`
+
+> 添加指定`commit`的版本：`go get github.com/xxxx/xxx@q2516faf3`
+
+- 查看所有可升级依赖版本
+
+> `go list -u -m all`
+
+- 升级依赖
+
+> 升级`Major`: `go get -u github.com/xxx/xxx`
+
+> 升级全部依赖的`Minor`或`PATCH`版本: `go get -u`
+
+> 升级全部依赖的`PATCH`版本: `go get -u=patch`
+
+
+
+
 
 ## 运行命令
 

@@ -30,6 +30,9 @@
 
 * [Go语言小册](https://golang.fasionchan.com/zh_CN/latest/index.html)
 
+* [https://lingchao.xin/archives](https://lingchao.xin/archives)
+
+
 
 ## 框架
 
@@ -67,7 +70,7 @@
 
 * [gpmgo](https://github.com/gpmgo)
 
-
+* [管理大量SSH连接配置](https://github.com/libragen/felix)
 
 ## 代理
 
