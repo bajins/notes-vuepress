@@ -58,6 +58,8 @@
 
 * [mingw-w64-release](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64#readme)
 
+* [mingw-w64-release](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds#readme)
+
 > 首先看到的是源码，要把页面滚动到最底部才能看到编译好的在线安装程序和离线压缩包
 
 > 推荐离线安装，在线安装其实也是下载压缩包，而且众所周知的原因，国内通过在线安装非常缓慢
