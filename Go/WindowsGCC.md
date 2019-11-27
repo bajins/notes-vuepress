@@ -1,27 +1,28 @@
-# MinGW-w64
+# WindowsGCC
 
 
-* [`MinGW-w64`介绍](#mingw-w64介绍)
-  * [官网](#官网)
-* [离线安装](#离线安装)
-  * [下载](#下载)
-    * [环境说明](#环境说明)
-  * [安装](#安装)
-* [命令](#命令)
-  * [查看版本](#查看版本)
-  * [预处理](#预处理)
-  * [编译](#编译)
-  * [汇编](#汇编)
-  * [链接](#链接)
-  * [](#)
-  * [](#)
+* [flag](#flag)
+* [`MinGW-w64`](#mingw-w64)
+  * [`MinGW-w64`下载](#mingw-w64下载)
+  * [`MinGW-w64`安装](#mingw-w64安装)
+  * [`MinGW-w64`命令](#mingw-w64命令)
 * [`MSYS2`](#msys2)
+  * [`MSYS2`命令](#msys2命令)
 
 
 
-## `MinGW-w64`介绍
 
-[http://rsreland.net/archives/1760](http://rsreland.net/archives/1760)
+## flag
+
+* [http://www.cygwin.com](http://www.cygwin.com)
+
+* [https://github.com/lukesampson/scoop](https://github.com/lukesampson/scoop)
+
+
+
+## `MinGW-w64`
+
+* [http://rsreland.net/archives/1760](http://rsreland.net/archives/1760)
 
 > `MinGW`的全称是：`Minimalist GNU on Windows` 。它实际上是将经典的开源`C`语言编译器`GCC`移植到了`Windows`平台下，
 > 并且包含了`Win32API`，因此可以将源代码编译为可在`Windows`中运行的可执行程序。
@@ -35,7 +36,7 @@
 >
 > 那些著名的开源`IDE`实际只是将`MinGW-w64`封装了起来，使它拥有友好的图形化界面，简化了操作，但内部核心仍然是`MinGW-w64`。
 
-[https://zhuanlan.zhihu.com/p/57774611](https://zhuanlan.zhihu.com/p/57774611)
+* [https://zhuanlan.zhihu.com/p/57774611](https://zhuanlan.zhihu.com/p/57774611)
 
 > `MinGW`一个自由开源的最小开发工具集：`mingw-gcc`编译工具链、`mingw`软件包管理器（`mingw-get`），用于开发`Windows`原生程序。
 > 第一版的`mingw-gcc`是利用早期的`Cygwin`套件编译而成，这个过程和`Cygwin`系列（二）：初窥`Cygwin`背后中`Cygwin DLL`构建类似，
@@ -47,14 +48,11 @@
 > 可以把`MinGW`视为`MS Visual C++/Studio`的开源替代品
 
 
-### 官网
-
-[http://mingw-w64.org](http://mingw-w64.org)
+* [http://mingw-w64.org](http://mingw-w64.org)
 
 
-## 离线安装
 
-### 下载
+### `MinGW-w64`下载
 
 [http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/](http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/)
 
@@ -64,7 +62,7 @@
 
 > 推荐离线安装，在线安装其实也是下载压缩包，而且众所周知的原因，国内通过在线安装非常缓慢
 
-#### 环境说明
+- 环境说明
 
 > 系统架构
 >> `x86_64`为`64位`操作系统
@@ -88,7 +86,7 @@
 
 
 
-### 安装
+### `MinGW-w64`安装
 
 > 这里我的操作系统是`Windows10-X64`，所以选择版本为：`x86_64-posix-seh`
 
@@ -98,21 +96,21 @@
 
 
 
-## 命令
+### `MinGW-w64`命令
 
-### 查看版本
+- 查看版本
 
 ```batch
 gcc -v
 ```
 
-### 预处理
+- 预处理
 
 ```batch
 g++ -E test.cpp -o test.i
 ```
 
-### 编译
+- 编译
 
 ```batch
 g++ -S test.cpp -o test.s
@@ -120,13 +118,13 @@ g++ -S test.cpp -o test.s
 g++ -O2 -S test.cpp -o test.s
 ```
 
-### 汇编
+- 汇编
 
 ```batch
 g++ -c test.s -o test.o
 ```
 
-### 链接
+- 链接
 
 ```batch
 g++ test.o -o test.exe [-L 所需库文件路径]
@@ -142,12 +140,15 @@ g++ test.cpp -o test.exe
 > `MSYS`是用于辅助`Windows`版`MinGW`进行命令行开发的配套软件包，提供了部分`Unix`工具以使得`MinGW`的工具使用起来方便一些。
 > 如果不喜欢庞大的`Cygwin`，而且使用不多，可以试试。不过喜欢完整体验、不在乎磁盘占用等等，还是推荐`Cygwin`而不是`MSYS`。
 
-> `MSYS`和`MinGW`两者有较大的独立性。`MSYS`是`Minimal SYStem`的缩写，是一个基于`Bourne Shell`的命令行系统，用于替代`Windows`中的`cmd.exe`，
-> 提供一个像`Linux/UNIX`的命令行环境。`MSYS`是基于`Cygwin`早期版本（`v1.3`）发展而来，包含了少部分`Linux/UNIX`程序，没有编译工具链，
+> `MSYS`和`MinGW`两者有较大的独立性。`MSYS`是`Minimal SYStem`的缩写，是一个基于`Bourne Shell`的命令行系统，
+> 用于替代`Windows`中的`cmd.exe`，提供一个像`Linux/UNIX`的命令行环境。
+
+> `MSYS`是基于`Cygwin`早期版本（`v1.3`）发展而来，包含了少部分`Linux/UNIX`程序，没有编译工具链，
 > 而且与`Linux/UNIX`原生程序或`Cygwin`程序相较丢失了很多功能特性，运行依赖于`POSIX`兼容层（`msys-1.0.dll`）。
 
 > 如果没有`MSYS`，在`cmd`中也可以正常运行`MinGW`程序，但`MinGW`和`MSYS`配合起来，
-> 就组成了一个类似`Linux/UNIX`的、包含常用程序和完整开发工具的轻量但完备的系统环境，`MinGW`的安装路径可以挂载到`MSYS`目录树中任何位置。
+> 就组成了一个类似`Linux/UNIX`的、包含常用程序和完整开发工具的轻量但完备的系统环境，
+> `MinGW`的安装路径可以挂载到`MSYS`目录树中任何位置。
 
 > `MSYS`项目仅支持`32位`程序，项目本身也发展缓慢。`MSYS2`基于最新版的`Cygwin`而创建，完全独立于`MSYS`而重写的版本
 > ，并既支持`32位`程序又支持`64位`程序，`POSIX`兼容层为`msys-2.0.dll`。
@@ -159,19 +160,23 @@ g++ test.cpp -o test.exe
 
 
 
-[http://www.msys2.org/](http://www.msys2.org/)
+* [http://www.msys2.org](http://www.msys2.org)
 
-[https://github.com/msys2](https://github.com/msys2)
+* [https://github.com/msys2](https://github.com/msys2)
 
-[msys2配置记录](https://www.jianshu.com/p/c740b71e7775)
+* [msys2配置记录](https://www.jianshu.com/p/c740b71e7775)
 
-[清华大学MSYS2镜像](https://mirror.tuna.tsinghua.edu.cn/help/msys2/)
+* [清华大学MSYS2镜像](https://mirror.tuna.tsinghua.edu.cn/help/msys2)
 
-[中国科学技术大学MSYS2镜像](http://mirrors.ustc.edu.cn/help/msys2.html)
+* [中国科学技术大学MSYS2镜像](http://mirrors.ustc.edu.cn/help/msys2.html)
 
 
-### 命令
+### `MSYS2`命令
+
 - `pacman -S <packge-name>` 安装软件
+
+> `pacman -S mingw-w64-x86_64-make mingw-w64-x86_64-gcc`
+
 - `pacman -U <gz-file>` 安装本地包，其扩展名为`pkg.tar.gz`  
 - `pacman -Syu` 同步`Msys2`源，并更新
 - `pacman -Sy` 仅同步源

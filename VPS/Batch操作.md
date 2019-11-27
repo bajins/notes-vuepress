@@ -40,11 +40,27 @@
 
 
 
-## 执行bash
+## 执行PowerShell
+
+- 为本账户启用策略
 
 ```batch
-"%ProgramFiles%\Git\bin\bash.exe" -c "命令"
+PowerShell Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
 ```
+
+- 下载代码并通过`Invoke-Expression`执行
+
+```batch
+PowerShell Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+```
+
+- 下载文件
+
+```batch
+PowerShell (New-Object System.Net.WebClient).DownloadFile('https://github.com/woytu/woytu.github.io/releases/download/v1.0/7za.exe','d:\\7za.exe')
+```
+
+
 
 ## 进制转换
 

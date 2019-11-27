@@ -8,6 +8,8 @@
 * [软件组合](#软件组合)
 * [后台运行](#后台运行)
   * [`nohup`](#nohup)
+  * [`tmux`](#tmux)
+  * [`supervisor`](#supervisor)
   * [`setsid`](#setsid)
   * [screen](#screen)
 * [Linux之间传输文件](#linux之间传输文件)
@@ -213,6 +215,49 @@ nohup python3 ./index.py >/dev/null 2>&1 &
 
 >Linux下还有一个特殊的文件/dev/null，它就像一个无底洞，所有重定向到它的信息都会消失得无影无踪。
 > 这一点非常有用，当我们不需要回显程序的所有信息时，就可以将输出重定向到/dev/null。
+
+
+
+### `tmux`
+
+> `tmux`是一款`Linux`下的终端复用工具，可以开启不同的终端窗口来将应用程序作为后台守护进程执行，
+> 即使远程连接的SSH断开也不会影响程序的执行。
+
+1. `yum install tmux`
+2. 新建`tmux new -s 程序名称`；
+3. 在新终端窗口中执行`./程序名称`即可；
+4. 使用`Ctrl` + `B & D`快捷键可以退出当前终端窗口；
+5. 使用`tmux attach -t 程序名称`可进入到之前的终端窗口；
+
+
+
+### `supervisor`
+
+> `supervisor`是用`Python`开发的一套通用的进程管理程序，能将一个普通的命令行进程变为后台`daemon`，
+> 并监控进程状态，异常退出时能自动重启。
+
+[http://supervisord.org](http://supervisord.org)
+
+- 常见配置如下
+
+```vim
+[program:程序名称]
+user=root
+command=/var/www/main
+stdout_logfile=/var/log/gf-app-stdout.log
+stderr_logfile=/var/log/gf-app-stderr.log
+autostart=true
+autorestart=true
+```
+
+- 使用步骤如下
+
+1. 使用`sudo service supervisor start`启动`supervisor`服务；
+2. 创建应用配置文件`/etc/supervisor/conf.d/程序名称.conf`, 内容如上;
+3. 使用`sudo supervisorctl`进入`supervisor`管理终端；
+4. 使用`reload`重新读取配置文件并重启当前`supoervisor`管理的所有进程；
+5. 也可以使用`update`重新加载配置(默认不重启)，随后使用`start 程序名称`启动指定的应用程序；
+6. 随后可以使用`status`指令查看当前`supervisor`管理的进程状态；
 
 
 

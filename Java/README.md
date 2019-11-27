@@ -11,19 +11,6 @@
 
 
 
-
-
-## 进制
-
-
-| 进制     | 英文        | 范围     | 前缀 | 后缀 |
-|----------|-------------|----------|------|------|
-| 二进制   | Binary      | 0-1      | 0b   | B    |
-| 八进制   | Octal       | 0-7      | 0/0O | O    |
-| 十进制   | Decimal     | 0-9      |  无  | D    |
-| 十六进制 | Hexadecimal | 0-9, A-F | 0x   | H    |
-
-
 ## maven镜像
 
 * [https://mirrors.cloud.tencent.com/help/maven.html](https://mirrors.cloud.tencent.com/help/maven.html)
