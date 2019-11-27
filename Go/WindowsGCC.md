@@ -97,9 +97,9 @@
 
 1. 如操作系统是`Windows10-X64`并为`posix`接口协议开发程序，则选择：`x86_64-posix-seh`
 
-2. 下载后把压缩包解压到指定盘符下，再添加系统环境变量
+2. 下载后把压缩包解压到指定盘符下，再添加到系统环境变量`path`
 
-> 比如我的解压目录在`C:\Program Files\mingw64`，那么就需要在`path`环境变量中加入`C:\Program Files\mingw64\bin`
+> 如解压目录`C:\Program Files\mingw64`，则在cmd执行`set Path=%Path%;C:\Program Files\mingw64\bin`
 
 
 
