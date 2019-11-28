@@ -16,30 +16,26 @@
 
 * [https://gomirrors.org](https://gomirrors.org)
 
+* [Go 语言中文开源图书、资料或文档](https://books.studygolang.com)
+
 * [Go 开发者路线图](https://github.com/Quorafind/golang-developer-roadmap-cn)
 
 * [Go 学习之路](https://github.com/developer-learning/learning-golang)
 
-* [Go 标准库中文文档](http://cngolib.com/)
+* [Go 标准库中文文档](http://cngolib.com)
 
-* [Go基本类型说明](https://golangbot.com/types/)
+* [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang)
 
-* [Go语言四十二章经](https://www.bookstack.cn/read/go42/SUMMARY.md)
-
-* [Go 语言中文开源图书、资料或文档](https://books.studygolang.com)
+* [Go基本类型说明](https://golangbot.com/types)
 
 * [Go语言小册](https://golang.fasionchan.com/zh_CN/latest/index.html)
-
-* [https://www.junmajinlong.com/golang/index](https://www.junmajinlong.com/golang/index)
-
-* [https://lingchao.xin/archives](https://lingchao.xin/archives)
-
-* [Go模板入门](http://www.g-var.com/posts/translation/hugo/hugo-21-go-template-primer)
 
 * [模板语法指南](https://www.kancloud.cn/hello123/beego/126115)
 
 
-## 框架
+
+
+## 开源项目
 
 * [Go frameworks集合](https://github.com/avelino/awesome-go)
 
@@ -54,7 +50,11 @@
 | kit     	| https://github.com/go-kit/kit                                  	| https://gokit.io                           	|
 
 
+
+
 ### other
+
+* [模板功能](https://github.com/Masterminds/sprig)
 
 * [TiDB](https://pingcap.com/docs-cn/)
 
