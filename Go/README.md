@@ -30,8 +30,13 @@
 
 * [Go语言小册](https://golang.fasionchan.com/zh_CN/latest/index.html)
 
+* [https://www.junmajinlong.com/golang/index](https://www.junmajinlong.com/golang/index)
+
 * [https://lingchao.xin/archives](https://lingchao.xin/archives)
 
+* [Go模板入门](http://www.g-var.com/posts/translation/hugo/hugo-21-go-template-primer)
+
+* [模板语法指南](https://www.kancloud.cn/hello123/beego/126115)
 
 
 ## 框架

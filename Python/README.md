@@ -24,6 +24,7 @@
 
 * [Python语言小册](https://python.fasionchan.com/zh_CN/latest/index.html)
 
+* [https://www.junmajinlong.com/python/index](https://www.junmajinlong.com/python/index)
 
 ## 线程池
 
