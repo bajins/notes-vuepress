@@ -1,17 +1,46 @@
 # Go打包
 
 
+* [flag](#flag)
+* [打包命令](#打包命令)
+  * [windows](#windows)
+* [打包脚本](#打包脚本)
+  * [在项目中新建](#在项目中新建)
+  * [在任意目录新建](#在任意目录新建)
 
+
+
+
+## flag
+
+* [Go语言-打包静态文件](https://c.isme.pub/2019/01/10/go-static/)
+
+
+* [https://github.com/go-bindata/go-bindata](https://github.com/go-bindata/go-bindata)
+
+* [https://github.com/shuLhan/go-bindata](https://github.com/shuLhan/go-bindata)
+
+* [https://github.com/elazarl/go-bindata-assetfs](https://github.com/elazarl/go-bindata-assetfs)
+
+* [https://github.com/rakyll/statik](https://github.com/rakyll/statik)
+
+* [https://github.com/GeertJohan/go.rice](https://github.com/GeertJohan/go.rice)
+
+* [https://github.com/mjibson/esc](https://github.com/mjibson/esc)
+
+* [https://github.com/UnnoTed/fileb0x](https://github.com/UnnoTed/fileb0x)
+
+* [https://github.com/gobuffalo/packr](https://github.com/gobuffalo/packr)
 
 
 ## 打包命令
 
-### 在windows下打包
+### windows
 
 > `go build -ldflags="-H windowsgui"` 能隐藏黑窗口
 
 
-#### 设置环境
+- **设置环境**
 
 > `GOOS` 目标可执行程序运行操作系统，支持`darwin`、`freebsd`、`linux`、`windows`
 
@@ -37,7 +66,7 @@ SET GOARCH=amd64
 SET GOARCH=arm
 ```
 
-#### 执行编译
+- **执行编译**
 
 ```batch
 go build main.go
