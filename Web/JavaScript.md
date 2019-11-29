@@ -75,13 +75,14 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 
 ## CDN
 
-> unpkg：`https://unpkg.com`
->
-> 知乎-unpkg：`http://unpkg.zhimg.com`
->
-> 饿了么-unpkg：`http://npm.elemecdn.com`
+- [https://cdnjs.com](https://cdnjs.com)
 
-- 使用unpkg
+- 知乎：[https://unpkg.zhimg.com](https://unpkg.zhimg.com)
+
+- 饿了么：[https://npm.elemecdn.com](https://npm.elemecdn.com)
+
+
+* [https://unpkg.com](https://unpkg.com)
 
 > 使用固定的版本号：
 >> `unpkg.com/react@16.0.0/umd/react.production.min.js`
@@ -107,17 +108,15 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 >>
 >> `unpkg.com/lodash/`
 
-### other
 
-* [jsdelivr](https://www.jsdelivr.com/)
 
-* [cdnjs](https://cdnjs.com/)
+* [https://www.jsdelivr.com](https://www.jsdelivr.com)
 
-* [bootcdn](http://www.bootcdn.cn/)
+* [https://www.bootcdn.cn](https://www.bootcdn.cn)
 
-* [StaticfileCDN](http://staticfile.org/)
+* [http://staticfile.org](http://staticfile.org)
 
-* [75CDN](https://cdn.baomitu.com/)
+* [https://cdn.baomitu.com](https://cdn.baomitu.com)
 
 
 ## Http
