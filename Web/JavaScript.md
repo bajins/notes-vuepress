@@ -481,3 +481,8 @@ try{
 - [xpath和css选择器](/Python/Python爬虫.md#xpath和css选择器)
 
 - [`chromedriver`](/Python/Python爬虫.md#chromedriver)
+
+
+## vue
+
+![](/images/vue生命周期详解.png)
