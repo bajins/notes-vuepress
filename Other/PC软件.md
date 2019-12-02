@@ -24,7 +24,7 @@
 | [v5pc](http://www.v5pc.com/category/syrj)                            	|                                                                    	|
 | [大眼仔旭](http://www.dayanzai.me/)                                  	| [https://t.me/s/wuaipojie](https://t.me/s/wuaipojie)               	|
 | [反斗软件](http://www.apprcn.com/)                                   	| [https://t.me/s/infosaodaye](https://t.me/s/infosaodaye)           	|
-| [果核剥壳](http://www.ghboke.com/)                                   	|                                                                    	|
+| [果核剥壳](http://www.ghpym.com/)                                   	|                                                                    	|
 | [胡萝卜周](http://www.carrotchou.blog/)                              	| [瓜子云](https://yun.naodai.org/Software/)                         	|
 | [懒得勤快的博客](https://masuit.com/misc/5)                          	| [fxxkmakeding](https://www.fxxkmakeding.xyz/)                      	|
 | [绿软博客](http://liujin-greensoft.lofter.com/)                      	| [https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367) 	|
