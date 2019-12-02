@@ -486,3 +486,6 @@ try{
 ## vue
 
 ![](/images/vue生命周期详解.png)
+
+
+* [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)

@@ -10,6 +10,7 @@
 
 https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extension
 
+* [https://zeit.co](https://zeit.co)
 
 
 
