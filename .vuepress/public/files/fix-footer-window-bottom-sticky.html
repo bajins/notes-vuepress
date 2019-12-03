@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>借助sticky把Footer固定在窗口底部</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html,
+        body {
+            height: 100%;
+            background-color: #ccc;
+        }
+
+        .header {
+            width: 100%;
+            position: sticky;
+            top: 0;
+            background-color: #fafbfc;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+
+        .content {
+            width: 100%;
+            min-height: calc(100% - 100px);
+            /* 实际使用时删除 */
+            height: 980px;
+            background-color: #ac9090;
+        }
+
+        .footer {
+            position: sticky;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            background-color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">header</div>
+    <div class="content">content</div>
+    <div class="footer">2011-2019 © bajins.com</div>
+</body>
+
+</html>
