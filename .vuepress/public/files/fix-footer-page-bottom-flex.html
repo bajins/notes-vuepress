@@ -5,39 +5,64 @@
     <meta charset="utf-8">
     <title>借助flex把Footer固定在页面底部</title>
     <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
         html {
             height: 100%;
         }
 
         body {
-            height: 100%;
+            min-height: 100%;
             display: flex;
-            display: -webkit-flex;
             flex-direction: column;
-            -webkit-flex-direction: column;
-        }
-
-        .content {
-            /* 使内容高度可以自由伸缩*/
-            flex: 1;
-            -webkit-flex: 1;
-            width: 100%;
-            height: 500px;
-            /*高度可由内容撑开*/
             background-color: #ccc;
         }
 
+        .header {
+            /* 我们希望 header 采用固定的高度，只占用必须的空间 */
+            /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+            /* flex: 0 0 auto; */
+            width: 100%;
+            position: sticky;
+            top: 0;
+            background-color: #fafbfc;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            align-self: flex-start;
+        }
+
+        .content {
+            /* 将 flex-grow 设置为1，该元素会占用全部可使用空间 */
+            /* 而其他元素该属性值为0，因此不会得到多余的空间 */
+            /* 1 flex-grow, 0 flex-shrink, auto flex-basis */
+            /* flex: 1 0 auto; */
+            /* 占满整屏，高度可由内容撑开 */
+            flex: 1;
+            width: 100%;
+            /* 实际使用时删除 */
+            background-color: #ac9090;
+        }
+
         .footer {
+            /* flex: 0 0 auto; */
+            align-self: flex-end;
             width: 100%;
             height: 50px;
+            line-height: 50px;
+            text-align: center;
             background-color: #666;
         }
     </style>
 </head>
 
 <body>
-    <div class="content"></div>
-    <div class="footer"></div>
+    <div class="header">header</div>
+    <div class="content">content</div>
+    <div class="footer">2011-2019 © bajins.com</div>
 </body>
 
 </html>

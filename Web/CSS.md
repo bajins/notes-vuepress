@@ -355,7 +355,7 @@ div:hover{
 
 
 
-* [fix-footer-page-bottom-margin-bottom.html](/files/fix-footer-page-bottom-margin-bottom.html)
+* [fix-footer-page-bottom-margin-top.html](/files/fix-footer-page-bottom-margin-top.html)
 
 > 这是个比较主流的用法，把内容部分最小高度设为100%，
 > 再利用内容部分的负底部外边距值来达到当高度不满时，页脚保持在窗口底部，当高度超出则随之推出的效果。
@@ -364,16 +364,6 @@ div:hover{
 
 > 需要注意的是`.content`的`margin-bottom`值需要和`.footer`的负的`height`值保持一致，这一点不太友好。
 
-
-* [fix-footer-page-bottom-margin-top.html](/files/fix-footer-page-bottom-margin-top.html)
-
-> 给内容外增加父元素，并让内容部分的底部内边距与页脚高度的值相等。
-
-
-* [fix-footer-page-bottom-padding.html](/files/fix-footer-page-bottom-padding.html)
-
-> 使用`padding`实现`footer`置底，需要为`div.content`元素增加一个父元素，
-> 且需为`div.footer`元素设置`margin-top: -50px`来抵消使用`padding`产生的高度
 
 
 * [fix-footer-page-bottom-calc.html](/files/fix-footer-page-bottom-calc.html)
@@ -386,12 +376,6 @@ div:hover{
 
 
 
-* [fix-footer-page-bottom-flex.html](/files/fix-footer-page-bottom-flex.html)
-
-> `flex`布局`footer`的高度设置更加灵活，不需要设计计算，也不需要占位符。
-
-
-
 * [fix-footer-page-bottom-absolute.html](/files/fix-footer-page-bottom-absolute.html)
 
 > 注意：`div.container`设置最小高度为`100%`，以保证当内容区高度小于浏览器高度时，`footer`仍位于底部
@@ -401,22 +385,16 @@ div:hover{
 
 * [fix-footer-page-bottom-grid.html](/files/fix-footer-page-bottom-grid.html)
 
+* [fix-footer-page-bottom-flex.html](/files/fix-footer-page-bottom-flex.html)
+
 
 ## `Footer`固定在窗口底部
 
 * [fix-footer-window-bottom-fixed.html](/files/fix-footer-window-bottom-fixed.html)
 
 
-* [fix-footer-window-bottom-absolute.html](/files/fix-footer-window-bottom-absolute.html)
+* [fix-footer-window-bottom-sticky.html](/files/fix-footer-window-bottom-sticky.html)
 
-> `absolute`定位只能将`footer`置于底部，还需要将`div.content`设置为高度固定的可滚动区域，同理上述实现位于页面底部`footer`的方式，
-> 如：`flex`布局、`absolute`定位、`calc`计算属性，都可转换为固定在浏览器窗口底部的方法。
-
-
-* [fix-footer-window-bottom-flex.html](/files/fix-footer-window-bottom-flex.html)
-
-
-* [fix-footer-window-bottom-calc.html](/files/fix-footer-window-bottom-calc.html)
 
 
 ## 水平排列

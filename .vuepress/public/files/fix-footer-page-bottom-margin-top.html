@@ -6,41 +6,59 @@
     <title>借助margin把Footer固定在页面底部</title>
     <style>
         /* `div.footer`使用`margin-top: -50px;` */
-        html {
-            height: 100%;
+        * {
+            margin: 0px;
+            padding: 0px;
         }
 
+        html,
         body {
-            height: 100%
+            height: 100%;
+            background-color: #ccc;
+        }
+
+        .header {
+            width: 100%;
+            position: sticky;
+            top: 0;
+            background-color: #fafbfc;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
         }
 
         .content {
-            width: 100%;
-            height: 500px;
             /*高度可由内容撑开*/
+            width: 100%;
+            margin-top: -100px;
             min-height: 100%;
-            background-color: #ccc;
+            /* 实际使用时删除 */
+            height: 980px;
+            background-color: #ac9090;
+        }
+
+        .ph {
+            /*占位元素是header与footer高度的和*/
+            height: 100px;
         }
 
         .footer {
             width: 100%;
             height: 50px;
-            margin-top: -50px;
+            line-height: 50px;
+            text-align: center;
             background-color: #666;
-        }
-
-        .ph {
-            height: 50px;
-            /*占位元素，与footer高度一致*/
         }
     </style>
 </head>
 
 <body>
+    <div class="header">header</div>
     <div class="content">
         <div class="ph"></div>
+        <div>content</div>
     </div>
-    <div class="footer"></div>
+    <div class="footer">2011-2019 © bajins.com</div>
 </body>
 
 </html>
