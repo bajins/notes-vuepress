@@ -21,6 +21,8 @@
 
 * [Web API](https://developer.mozilla.org/zh-CN/docs/Web/API)
 
+* [W3C 网页标准教程](http://www.w3chtml.com)
+
 * [https://github.com/junruchen/junruchen.github.io/wiki](https://github.com/junruchen/junruchen.github.io/wiki)
 
 * [https://cloud.tencent.com/developer/devdocs](https://cloud.tencent.com/developer/devdocs)

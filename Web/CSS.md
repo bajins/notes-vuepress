@@ -24,6 +24,9 @@
 
 ## flag
 
+* [css](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
+
+* [CSS3/CSS2/CSS 教程](http://www.w3chtml.com/css3/)
 
 * [HTML系列教程](https://www.w3school.com.cn/h.asp)
 
@@ -453,4 +456,25 @@ div:hover{
 > 接着：到了180度之后，释放外层的显示一半，让他自动显示其他。然后右边的停止动画并停在那里。
   
 > 最后：左边的在原来的基础（跟右边一样运行3s，同样转过180度）再继续转动180度。
+
+
+
+## 伪类和伪元素
+
+* [伪类](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-classes)
+
+* [伪元素](https://developer.mozilla.org/zh-CN/docs/Web/CSS/pseudo-elements)
+
+* [伪元素组成的时间线](https://github.com/woytu/UseNotes-vuepress/commits/master)
+
+
+- 分割线
+
+```css
+.split-line:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "|\00a0";
+}
+```
 
