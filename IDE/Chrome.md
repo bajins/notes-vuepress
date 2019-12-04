@@ -52,6 +52,8 @@ chrome://flags/#enable-parallel-downloading
 
 * [https://github.com/topics/chrome-extension?o=desc&s=stars](https://github.com/topics/chrome-extension?o=desc&s=stars)
 
+* [冻结暂时用不到的标签页](https://github.com/deanoemcke/thegreatsuspender)
+
 
 ### GitHub相关
 
