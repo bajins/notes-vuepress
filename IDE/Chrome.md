@@ -50,6 +50,9 @@ chrome://flags/#enable-parallel-downloading
 
 ## 插件
 
+* [https://github.com/topics/chrome-extension?o=desc&s=stars](https://github.com/topics/chrome-extension?o=desc&s=stars)
+
+
 ### GitHub相关
 
 * [突出显示GitHub源视图中的选定单词：github-highlight-selected](https://chrome.google.com/webstore/detail/github-highlight-selected/lhiklbgjcblimmjjflobpncgihagcmbj)
@@ -91,7 +94,7 @@ chrome://flags/#enable-parallel-downloading
 
 * [JSON查看器：json-viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
 
-
+* [将完整的网页保存到单个HTML文件](https://github.com/gildas-lormeau/SingleFile)
 
 ### 视图
 
