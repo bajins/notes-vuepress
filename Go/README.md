@@ -32,7 +32,7 @@
 
 * [模板语法指南](https://www.kancloud.cn/hello123/beego/126115)
 
-
+* [Go 入门指南](https://github.com/unknwon/the-way-to-go_ZH_CN)
 
 
 ## 开源项目
