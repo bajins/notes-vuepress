@@ -186,6 +186,11 @@ func StringBuilder(p []string) string {
 
 ## 路径操作
 
+> Go标准库中还有`path`和`path/filepath`函数有点重复,大部分情况下建议使用`path/filepath`
+
+> 两者区别是：`path`使用`/`作为路径分隔符，`path/filepath`判断系统使用不同的路径分隔符
+
+
 
 ### `path`包
 
