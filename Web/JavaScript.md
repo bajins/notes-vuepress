@@ -470,6 +470,29 @@ try{
 ```
 
 
+## blob转json
+
+
+```js
+// 如果服务器错误返回
+if (result.data.type === 'application/json') {
+    let reader = new FileReader();
+    reader.readAsText(result.data, 'utf-8');
+    reader.onload = (e) => {
+        console.log(JSON.parse(reader.result));
+        console.log(JSON.parse(e.target.result));
+    }
+    reader.onload = function (e) {
+        console.log(JSON.parse(reader.result));
+        console.log(JSON.parse(e.target.result));
+    }
+}
+```
+
+
+
+
+
 ## 爬虫
 
 ### Puppeteer
