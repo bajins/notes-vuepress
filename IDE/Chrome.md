@@ -118,7 +118,10 @@ chrome://flags/#enable-parallel-downloading
 
 * [Selection-Translator](https://github.com/Selection-Translator)
 
-* [translate-man](https://chrome.google.com/webstore/detail/translate-man/fnjoonbenhhijnoegpfkpagjamomgjjm)
+* [翻译侠（Translate Man）](https://github.com/magic-FE/translate-man)
+
+* [EdgeTranslate](https://github.com/EdgeTranslate/EdgeTranslate)
+
 
 
 ### other
