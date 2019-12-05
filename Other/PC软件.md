@@ -124,15 +124,27 @@
 
 ## 文本编辑器
 
-* [Notepad++](https://notepad-plus-plus.org/)
+* [C#写的记事本](https://github.com/topics/notepad?l=c%23)
+
+* [C++写的记事本](https://github.com/topics/notepad?l=c%2B%2B)
 
 * [Notepad3](https://github.com/rizonesoft/Notepad3)
 
-* [Notepad2官方版](http://www.flos-freeware.ch/notepad2.html)
-
 * [notepad2](https://github.com/zufuliu/notepad2)
 
-* [Notepad2e](https://github.com/ProgerXP/Notepad2e)
+* [https://www.scintilla.org](https://www.scintilla.org)
+
+* [http://www.pnotepad.org](http://www.pnotepad.org)
+
+* [https://www.sublimetext.com](https://www.sublimetext.com)
+
+* [http://www.sublimetext.cn](http://www.sublimetext.cn)
+
+* [sublimetext破解](https://www.abbeyok.com/archives/337)
+
+* [sublime-text-3-license-key](http://blog.jdk5.com/zh/sublime-text-3-license-key)
+
+* [Sublime Text3 注册码激活码](https://blog.csdn.net/qq_29819449/article/details/80130327)
 
 
 ## office

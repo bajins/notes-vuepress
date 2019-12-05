@@ -408,17 +408,23 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 自定义命名 
 
 ```
 
-- 默认记事本
+- 替换默认记事本
 
 ```batch
-:: 替换Windows默认记事本
-REG ADD "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /t REG_SZ /d "\"%ProgramFiles(x86)%\Notepad++\notepad++.exe\" -notepadStyleCmdline -z" /f
+REG ADD "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /t REG_SZ /d "\"%ProgramFiles(x86)%\Notepad3\notepad3.exe\" -notepadStyleCmdline -z" /f
+```
 
-:: 恢复系统记事本
+
+- 恢复系统默认记事本
+
+```batch
 REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
 REG DELETE "HKLM\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
 REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /f
 ```
+
+
+
 
 - Windows Defender
 

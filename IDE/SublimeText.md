@@ -2,13 +2,21 @@
 
 
 
+## flag
+
+* [解决 Sublime Text 3 拓展包源无法访问问题](https://github.com/HBLong/channel_v3_daily)
+
+
 
 ## 插件
 
+> 按`Ctrl + Shift + p`输入`install`选择`Package Control: Install Package`再输入插件名称
 
-- ChineseLocaization
+
+- ChineseLocalizations
 
 > 很简单的一个插件，现在支持汉化Sublime Text2，Sublime Text3。
+
 
 ![](https://i.rexdf.org/images/sublime_chinese.gif)
 
