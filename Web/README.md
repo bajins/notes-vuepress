@@ -37,6 +37,10 @@
 
 * [https://github.com/axios/axios](https://github.com/axios/axios)
 
+* [https://github.com/wendux/fly](https://github.com/wendux/fly)
+
+* [https://github.com/github/fetch](https://github.com/github/fetch)
+
 * [bootstrap](https://github.com/twbs/bootstrap)
 
 * [TableExport](https://github.com/clarketm/TableExport)
