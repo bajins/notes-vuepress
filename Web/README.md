@@ -35,6 +35,8 @@
 
 * [添加XHR2 responseType支持的jQuery插件](https://github.com/acigna/jquery-ajax-native)
 
+* [https://github.com/axios/axios](https://github.com/axios/axios)
+
 * [bootstrap](https://github.com/twbs/bootstrap)
 
 * [TableExport](https://github.com/clarketm/TableExport)
