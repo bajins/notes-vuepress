@@ -943,10 +943,10 @@
   dependencies:
     lodash.debounce "^4.0.8"
 
-"@vuepress/plugin-blog@^1.5.1":
-  version "1.5.1"
-  resolved "https://registry.npmjs.org/@vuepress/plugin-blog/-/plugin-blog-1.5.1.tgz#c78420fc1c050dc3e75467f01e521651f77d4a1c"
-  integrity sha512-5T4hC0peWhaRC6Ei/yagm01bMX5GvpIE07mLFsuhztGMh6lz4pR7J6hh9W6qAuhAQsi77br1dePKgoeHWaqmyA==
+"@vuepress/plugin-blog@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-blog/-/plugin-blog-1.5.2.tgz#d03d94a296ed31e1b686f42bca7be96bc20fcfb5"
+  integrity sha512-MVnUk1MjZgKHUSQXbiuJfNMhbKMUhB3SlXNE+B5/pWhownagK+ttihws8uP+sliTsjvE/1UBWEtyZL7EiWIAIg==
   dependencies:
     "@vssue/api-github-v3" "^1.1.2"
     "@vssue/vuepress-plugin-vssue" "^1.2.0"
@@ -4584,9 +4584,9 @@ leancloud-realtime-plugin-live-query@^1.2.0:
   resolved "https://registry.npmjs.org/leancloud-realtime-plugin-live-query/-/leancloud-realtime-plugin-live-query-1.2.0.tgz#1e07da1b5b99e44cddbc3b052234422f278c4ab9"
   integrity sha512-eJooIH8/FyUoozr3Eeby2DpDnmX39m1bfxfxlYPuojkio+i/DLwPD+aTHnRDH6QXJcT6tNTt85RcxVR/Txg98Q==
 
-leancloud-realtime@^5.0.0-alpha.3:
+leancloud-realtime@^5.0.0-beta.0:
   version "5.0.0-beta.0"
-  resolved "https://registry.npmjs.org/leancloud-realtime/-/leancloud-realtime-5.0.0-beta.0.tgz#55c891c10468ee39a74876ca206725c407c019e9"
+  resolved "https://registry.yarnpkg.com/leancloud-realtime/-/leancloud-realtime-5.0.0-beta.0.tgz#55c891c10468ee39a74876ca206725c407c019e9"
   integrity sha512-YGJt9Nti+DstJyXbZ0NUaoh0aRK3687iPbb+Mw3RltpEpO/KCy/Ljh+Ed+HWt5hnxARK8TGj+0BjIMDPHOdwWg==
   dependencies:
     "@babel/runtime" "^7.0.0"
@@ -4600,15 +4600,15 @@ leancloud-realtime@^5.0.0-alpha.3:
     uuid "^3.0.0"
     ws "^5.2.1"
 
-leancloud-storage@^3.15.0:
-  version "3.15.0"
-  resolved "https://registry.npmjs.org/leancloud-storage/-/leancloud-storage-3.15.0.tgz#6d3b010a313189985bb69ab08c75c7ad74bd1788"
-  integrity sha512-UbR6pLA0tVYPcY7AND0pey45iFsB2PkIo8Wz0DZ9BabKyqndA1ey2LKzYpFDGNh3ODrmT3fValVn9yY4bgf9Uw==
+leancloud-storage@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/leancloud-storage/-/leancloud-storage-4.0.1.tgz#d16bcab6edd3b199fa8773612e31ace51844223c"
+  integrity sha512-NKm5gZ88CUeUWvOwbD/goJQidu0Q+4lWM5fEpHBmzbdbUWn2JCc+s76ly5tQoGnBLR6ZCBnlM+JKJoN6SjINfg==
   dependencies:
     debug "^3.1.0"
     es6-promise "4.2.3"
     eventemitter3 "^2.0.3"
-    leancloud-realtime "^5.0.0-alpha.3"
+    leancloud-realtime "^5.0.0-beta.0"
     leancloud-realtime-plugin-live-query "^1.2.0"
     localstorage-memory "^1.0.1"
     md5 "^2.0.0"
@@ -6867,6 +6867,11 @@ send@0.17.1:
     on-finished "~2.3.0"
     range-parser "~1.2.1"
     statuses "~1.5.0"
+
+serialize-javascript@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-2.1.1.tgz#952907a04a3e3a75af7f73d92d15e233862048b2"
+  integrity sha512-MPLPRpD4FNqWq9tTIjYG5LesFouDhdyH0EPY3gVK4DRD5+g4aDqdNSzLIwceulo3Yj+PL1bPh6laE5+H6LTcrQ==
 
 serialize-javascript@^1.3.0, serialize-javascript@^1.7.0:
   version "1.9.1"
