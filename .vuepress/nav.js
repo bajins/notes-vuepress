@@ -53,16 +53,19 @@ module.exports = [
                 // text: '框架',
                 items: [
                     {
+                        text: 'Web开发技术',
+                        link: 'https://developer.mozilla.org/zh-CN/docs/Web'
+                    }, {
                         text: 'Vue',
-                        link: 'https://cn.vuejs.org/'
+                        link: 'https://cn.vuejs.org'
                     },
                     {
                         text: 'React',
-                        link: 'https://react.docschina.org/'
+                        link: 'https://react.docschina.org'
                     },
                     {
                         text: 'Angular',
-                        link: 'https://www.angular.cn/'
+                        link: 'https://www.angular.cn'
                     }
                 ]
             }
@@ -84,7 +87,7 @@ module.exports = [
                     },
                     {
                         text: '静态编译Hexo',
-                        link: 'https://hexo.io/zh-cn/docs/'
+                        link: 'https://hexo.io/zh-cn/docs'
                     },
                     {
                         text: '静态编译Docsite',
@@ -92,15 +95,15 @@ module.exports = [
                     },
                     {
                         text: '运行时驱动Docsify',
-                        link: 'https://docsify.js.org/#/zh-cn/'
+                        link: 'https://docsify.js.org/#/zh-cn'
                     },
                     {
                         text: '运行时驱动Docute',
-                        link: 'https://docute.org/zh/'
+                        link: 'https://docute.org/zh'
                     },
                     {
                         text: '从仓库生成文档',
-                        link: 'https://readthedocs.org/'
+                        link: 'https://readthedocs.org'
                     },
                 ]
             },
