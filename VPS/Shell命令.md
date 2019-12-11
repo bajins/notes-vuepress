@@ -767,6 +767,19 @@ grep -rl "XXX" --exclude="*.sql" ./* | wc -l
 
 ## 删除文件
 
+- **删除并排除文件**
+
+```bash
+rm -rf !(1.jpg|*.png)
+```
+
+> 如果报错：`-bash: !: event not found` 需要开启通配符功能
+
+```bash
+shopt -s extglob
+```
+
+
 
 - **删除指定时间前的文件**
 
