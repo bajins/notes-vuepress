@@ -20,10 +20,13 @@
 
 * [4星以上开发工具扩展](https://chrome.google.com/webstore/category/ext/11-web-development?_feature=free&_feature=4stars)
 
-* [chrome-extension-downloader](https://chrome-extension-downloader.com/)
+* [chrome-extension-downloader](https://chrome-extension-downloader.com)
 
-* [crx4chrome](https://www.crx4chrome.com/)
+* [crx4chrome](https://www.crx4chrome.com)
 
+* [https://www.extfans.com](https://www.extfans.com)
+
+* [https://www.gugeapps.net](https://www.gugeapps.net)
 
 
 ## Chrome下载
