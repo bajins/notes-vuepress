@@ -770,7 +770,8 @@ grep -rl "XXX" --exclude="*.sql" ./* | wc -l
 - **删除并排除文件**
 
 ```bash
-rm -rf !(1.jpg|*.png)
+find * | grep -v '\(*.jpg\|*.png)' | xargs rm
+rm -rf !(*.jpg|*.png)
 ```
 
 > 如果报错：`-bash: !: event not found` 需要开启通配符功能
