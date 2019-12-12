@@ -17,7 +17,7 @@ module.exports = {
             lang: 'zh-CN',// 将会被设置为 <html> 的 lang 属性
             // 没有声明 title 或者 description，VuePress 将会尝试使用配置顶层的对应值
             title: 'Bajins',
-            description: '公众号：小C技术栈',
+            description: '个人笔记',
         }
     },
     // 额外的需要被注入到当前页面的 HTML <head> 中的标签，每个标签都可以以 [tagName, { attrName: attrValue }, innerHTML?] 的格式指定
