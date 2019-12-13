@@ -12,7 +12,7 @@ https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extens
 
 * [https://zeit.co](https://zeit.co)
 
-
+* [https://www.netlify.com](https://www.netlify.com)
 
 
 ## 在线接收短信

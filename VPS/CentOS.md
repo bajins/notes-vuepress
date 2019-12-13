@@ -693,14 +693,113 @@ grub2-set-default 0
 > 最后，重启VPS即可。
 
 
+## svp
 
-## shadowsocks
+* [https://github.com/ssrsub/ssr/tree/master](https://github.com/ssrsub/ssr/tree/master)
+
+* [https://www.ssrtool.com](https://www.ssrtool.com)
+
+* [https://ssr.tools](https://ssr.tools)
+
+* [https://github.com/xiaotianwl/v2ray_vps](https://github.com/xiaotianwl/v2ray_vps)
+
+* [https://github.com/selierlin/Share-SSR-V2ray](https://github.com/selierlin/Share-SSR-V2ray)
+
+* [https://github.com/ThinkDevelop/Free-SS-SSR](https://github.com/ThinkDevelop/Free-SS-SSR)
+
+* [https://github.com/Alvin9999/new-pac/wiki](https://github.com/Alvin9999/new-pac/wiki)
+
+* [https://toutyrater.github.io/basic/vmess.html](https://toutyrater.github.io/basic/vmess.html)
+
+* [https://github.com/max2max/freess](https://github.com/max2max/freess)
+
+* [https://github.com/ntkernel/lantern/blob/master/vmess.txt](https://github.com/ntkernel/lantern/blob/master/vmess.txt)
+
+* [https://fforever.github.io/v2rayfree](https://fforever.github.io/v2rayfree)
+
+* [https://github.com/ugvf2009/Miles](https://github.com/ugvf2009/Miles)
+[https://jiang.netlify.com](https://jiang.netlify.com)
+
+* [https://github.com/EmilyEdna/SS-SSR-V2RAY](https://github.com/EmilyEdna/SS-SSR-V2RAY)
+
+* [https://github.com/mwz1tn/free-v2ray](https://github.com/mwz1tn/free-v2ray#%E8%AF%B4%E5%A5%BD%E7%9A%84%E5%85%8D%E8%B4%B9V2ray)
+[https://freev2ray.netlify.com](https://freev2ray.netlify.com)
+
+* [https://lncn.org](https://lncn.org)
+
+* [https://github.com/imba-tjd/freess/tree/dev](https://github.com/imba-tjd/freess/tree/dev)
+
+* [https://github.com/fggfffgbg](https://github.com/fggfffgbg)
+
+* [https://github.com/wenjiqiang/Subscribtion-SS-V2Ray](https://github.com/wenjiqiang/Subscribtion-SS-V2Ray)
+
+* [https://github.com/fqshare/free-ssr-v2ray-vpn](https://github.com/fqshare/free-ssr-v2ray-vpn)
+
+* [https://github.com/lasoychina/v2ray_booking](https://github.com/lasoychina/v2ray_booking)
+[https://ssr.lasoy.cn](https://ssr.lasoy.cn)
+
+* [https://free-ss.site](https://free-ss.site)
+
+* [https://get.ishadowx.biz](https://get.ishadowx.biz)
+[https://view.freev2ray.org](https://view.freev2ray.org)
+
+* [https://haobang.yangwang.workers.dev](https://haobang.yangwang.workers.dev)
+
+* [https://github.com/bingshengyang/v2ray-ssr](https://github.com/bingshengyang/v2ray-ssr)
+
+* [https://github.com/djdf/v2ray_ss](https://github.com/djdf/v2ray_ss)
+
+* [https://github.com/Flyju/v2ray](https://github.com/Flyju/v2ray)
+
+* [https://github.com/fanite/v2](https://github.com/fanite/v2)
+
+* [https://github.com/t9080](https://github.com/t9080)
+
+* [https://github.com/thdg21/v2ray](https://github.com/thdg21/v2ray)
+
+* [https://github.com/huangkuainiang/v2ray](https://github.com/huangkuainiang/v2ray)
+
+* [https://github.com/huangdesen168/VMESS](https://github.com/huangdesen168/VMESS)
+
+* [https://github.com/CSE2018-2019/VMESS](https://github.com/CSE2018-2019/VMESS)
+
+* [https://github.com/12345678998765/Vmess](https://github.com/12345678998765/Vmess)
+
+* [https://github.com/nullhan/HomePage/blob/master/ssr](https://github.com/nullhan/HomePage/blob/master/ssr)
+
+* [https://github.com/akatokikwok/personalVpsChnInit/blob/v2ray/config.json](https://github.com/akatokikwok/personalVpsChnInit/blob/v2ray/config.json)
+
+* [https://github.com/Sean-Snow/good-good-study-day-day-up](https://github.com/Sean-Snow/good-good-study-day-day-up)
+
+
+
+* [Telegram](https://github.com/telegramdesktop/tdesktop/releases)
+
+* [https://t.me/s/ssrshares](https://t.me/s/ssrshares)
+
+* [https://t.me/s/mtplinks](https://t.me/s/mtplinks)
+
+* [https://t.me/s/socks5list](https://t.me/s/socks5list)
+
+* [https://t.me/s/SSRSUB](https://t.me/s/SSRSUB)
+
+* [https://t.me/s/mtpclub](https://t.me/s/mtpclub)
+
+* [https://t.me/s/FQ_FREE](https://t.me/s/FQ_FREE)
+
+
+
+### shadowsocks
 
 * [shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows/releases)
 
 * [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases)
 
-## v2ray
+* [https://github.com/ShadowsocksR-Live/shadowsocksr-native/wiki](https://github.com/ShadowsocksR-Live/shadowsocksr-native/wiki)
+
+* [https://github.com/zhaoweih/Shadowsocks-Tutorial](https://github.com/zhaoweih/Shadowsocks-Tutorial)
+
+### v2ray
 
 * [v2ray-tools](https://www.v2ray.com/awesome/tools.html)
 
@@ -712,25 +811,34 @@ grub2-set-default 0
 
 * [V2RayW-Windows](https://github.com/Cenmrev/V2RayW/releases)
 
-* [v2ray教程](https://yuan.ga/v2ray-complete-tutorial/)
+
+* [v2ray教程](https://yuan.ga/v2ray-complete-tutorial)
+* [https://github.com/233boy/v2ray/tree/master](https://github.com/233boy/v2ray/tree/master)
 
 * [multi-v2ray](https://github.com/Jrohy/multi-v2ray)
 
 * [https://github.com/wulabing/V2Ray_ws-tls_bash_onekey](https://github.com/wulabing/V2Ray_ws-tls_bash_onekey)
 
-* [https://github.com/ssrsub/ssr/tree/master](https://github.com/ssrsub/ssr/tree/master)
+* [https://github.com/FunctionClub/V2ray.Fun](https://github.com/FunctionClub/V2ray.Fun)
 
-* [https://www.ssrtool.com](https://www.ssrtool.com)
+* [https://github.com/sprov065/v2-ui](https://github.com/sprov065/v2-ui)
 
-* [https://github.com/xiaotianwl/v2ray_vps/](https://github.com/xiaotianwl/v2ray_vps/)
+* [https://github.com/pengchujin/v2rayDocker](https://github.com/pengchujin/v2rayDocker)
 
-## PAC
+* [https://github.com/htfy96/v2ray-config-gen](https://github.com/htfy96/v2ray-config-gen)
+
+* [https://github.com/leitbogioro/v2ray.fun](https://github.com/leitbogioro/v2ray.fun)
+
+* [https://tools.sprov.xyz](https://tools.sprov.xyz)
+
+
+### PAC
 
 * [https://github.com/lbp0200/mono_pac](https://github.com/lbp0200/mono_pac)
 
 * [https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt](https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt)
 
-* [https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/other/pac.txt](https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/other/pac.txt)
+* [https://github.com/ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
 
 
 

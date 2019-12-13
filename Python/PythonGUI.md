@@ -567,10 +567,6 @@ if __name__ == "__main__":
 
 ## `PySide`
 
-* [https://wiki.qt.io/Qt_for_Python/zh](https://wiki.qt.io/Qt_for_Python/zh)
-
-* [https://gaianote.github.io/2018/09/15/PyQt5%E5%AD%A6%E4%B9%A0%E4%B9%8Bline-edit/](https://gaianote.github.io/2018/09/15/PyQt5%E5%AD%A6%E4%B9%A0%E4%B9%8Bline-edit/)
-
 > `Pyside`最初是为诺基亚开发的，而它是Qt技术的所有者。
 > 当诺基亚将Qt出售给`Digia`（现在是Qt公司）时，Qt4原始`Pyside`代码的所有版权也转移到了Qt公司。
 
@@ -582,6 +578,13 @@ if __name__ == "__main__":
 > `PySide2`模块提供对`QtCore`，`QtGui`等各个Qt模块的访问。还附带了`Shiboken2`、`CPython`绑定代码生成器，
 > 可用于为`C`或`C++`代码生成`Python`绑定。
 
+* [https://wiki.qt.io/Qt_for_Python/zh](https://wiki.qt.io/Qt_for_Python/zh)
+
+* [https://gaianote.github.io/2018/09/15/PyQt5%E5%AD%A6%E4%B9%A0%E4%B9%8Bline-edit/](https://gaianote.github.io/2018/09/15/PyQt5%E5%AD%A6%E4%B9%A0%E4%B9%8Bline-edit/)
+
+* [一看就懂的Python图形界面开发：PyQt5/PySide2](https://zmister.com/archives/docs/easy-pyqt)
+
+* [PyQt5基础教程](https://zmister.com/archives/category/guidevelop/pyqt5_basic)
 
 
 ### 多线程防假死动态刷新界面的模板
