@@ -32,6 +32,13 @@
 
 
 
+## flag
+
+* [https://github.com/carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji)
+
+* [Github 上 emoji 表情的含义及使用规范](https://mkblog.cn/872)
+
+
 ## 安装最新版
 
 * [https://git-scm.com/download](https://git-scm.com/download)

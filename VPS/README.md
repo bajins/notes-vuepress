@@ -37,6 +37,9 @@
 * [acme.sh 实现了acme 协议, 可以从 letsencrypt 生成免费的证书.](https://github.com/Neilpang/acme.sh)
 
 
+* [https://www.bt.cn](https://www.bt.cn)
+
+* [https://www.xp.cn](https://www.xp.cn)
 
 
 ## 资源网站建立
