@@ -774,6 +774,9 @@ grub2-set-default 0
 * [https://gist.githubusercontent.com/2dust/d3cc2d0e591e647db226731ffcb7da9e/raw](https://gist.githubusercontent.com/2dust/d3cc2d0e591e647db226731ffcb7da9e/raw)
 
 
+---
+
+
 * [Telegram](https://github.com/telegramdesktop/tdesktop/releases)
 
 * [https://t.me/s/ssrshares](https://t.me/s/ssrshares)
@@ -787,6 +790,18 @@ grub2-set-default 0
 * [https://t.me/s/mtpclub](https://t.me/s/mtpclub)
 
 * [https://t.me/s/FQ_FREE](https://t.me/s/FQ_FREE)
+
+
+---
+
+
+* [燕子VPN : 永久免费的VPN](https://apkcombo.com/zh-cn/%E7%87%95%E5%AD%90vpn-%E6%B0%B8%E4%B9%85%E5%85%8D%E8%B4%B9%E7%9A%84vpn/com.stone.vssr)
+
+* [宝岛VPN(一键连接,永久免费)](https://apkcombo.com/zh-cn/formosavpn-one-story-connection-free/com.FormosaVPN.ang)
+
+* [老王VPN(永久免费佛系VPN)](https://apkcombo.com/zh-cn/wang-vpn-%E2%9D%A4%EF%B8%8F-free-fast-stable-best-vpn-just-try-it/com.findtheway)
+
+* [免费ss vpn(永久免费)](https://apkcombo.com/zh-cn/free-ss-vpn/com.mika.yangvpn)
 
 
 
