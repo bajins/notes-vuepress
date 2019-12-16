@@ -147,7 +147,7 @@
 >>
 >> [VisualVM监控远程阿里云主机](https://blog.csdn.net/u010004317/article/details/82948040)
 
-##### 不受此JVM支持
+**不受此JVM支持**
 
 > 解决`Visual GC`提示`不受此JVM支持`，要监控的主机没有配置`jstatd`
 
@@ -236,7 +236,7 @@ chmod +x jstatd.all.policy
 ![](/images/JConsole.png)
 
 
-##### 查看hostname
+**查看hostname**
 
 ```bash
 hostname -i
@@ -253,7 +253,7 @@ hostname -i
 > `jps`命令（[帮助文档](https://docs.oracle.com/en/java/javase/11/tools/jps.html#GUID-6EB65B96-F9DD-4356-B825-6146E9EEC81E)）
 > 用于列出正在运行的虚拟机进程信息，
 
-##### 命令格式如下：
+**命令格式如下：**
 
 ```bash
 jps [ -q ] [ -mlvV ][hostid ]
@@ -262,7 +262,7 @@ jps [ -help ]
 
 > 在默认情况下，jps的输出信息包括 Java 进程的进程ID以及主类名。jps还提供一些参数用于打印详细的信息。
 
-##### 其中`-q`仅显示虚拟机的进程id，`-mlvV`的意义如下：
+**其中`-q`仅显示虚拟机的进程id，`-mlvV`的意义如下：**
 
 - `-m` 将打印传递给主类的参数
 - `-l` 将打印模块名以及包名
@@ -278,7 +278,7 @@ jps [ -help ]
 > `jstat`（[帮助文档](https://docs.oracle.com/en/java/javase/11/tools/jstat.html#GUID-5F72A7F9-5D5A-4486-8201-E1D1BA8ACCB5)）
 > 是用于监视虚拟机各种运行状态信息的命令行工具，它可以显示本地或者远程虚拟机进程中的类加载、内存、垃圾回收等信息
 
-##### 命令格式如下
+**命令格式如下**
 
 ```
 用法：jstat -help|-options
@@ -305,19 +305,19 @@ jps [ -help ]
 
 > 其中`vmid`全称是`Virtual Machine Identifier`，就是jps命令显示的进程id，如果是远程虚拟机进程
 
-##### `vmid`的格式如下
+**`vmid`的格式如下**
 
 ```
 [protocol:][//]lvmid[@hostname[:port]/servername]
 ```
 
-##### `jstat`命令包含很多的子命令，主要分为3类
+**`jstat`命令包含很多的子命令，主要分为3类**
 
 - 类加载（`-class`）
 - 即时编译（`-compiler`和`-printcompilation`）
 - 垃圾回收（`-gc*`）
 
-##### 输入`jstat -options`显示如下
+**输入`jstat -options`显示如下**
 
 ```
 -class
@@ -396,13 +396,13 @@ jstat -gc $(pgrep java) 2s 2
 
 > 我们可以使用`jps -v`来查看传递给虚拟机的参数，即`System.getProperty`获取的`-D`参数，现在我们可以利用`jinfo`命令来获取了。
 
-##### 命令格式如下
+**命令格式如下**
 
 ```bash
 jinfo [option] pid
 ```
 
-##### 它也包括了许多子命令，具体如下
+**它也包括了许多子命令，具体如下**
 
 - 1. `-flag name`
 
@@ -434,13 +434,13 @@ jinfo [option] pid
 > `jmap`命令（[帮助文档](https://docs.oracle.com/en/java/javase/11/tools/jmap.html#GUID-D2340719-82BA-4077-B0F3-2803269B7F41)）
 > 用于生成堆转储快照，用于分析Java虚拟机堆中的对象。
 
-##### 命令格式为
+**命令格式为**
 
 ```bash
 jmap [options] pid
 ```
 
-##### 参数选项
+**参数选项**
 
 - 1. `-clstats`
 
@@ -487,7 +487,7 @@ jmap -dump:live,format=b,file=heap.hprof $(pgrep java)
 
 > 通过线程的栈轨迹可以定位线程长时间停顿的原因，如线程间死锁、死循环、请求外部资源导致长时间等待等。
 
-##### 命令格式如下
+**命令格式如下**
 
 ```
 用法：
@@ -507,7 +507,7 @@ jmap -dump:live,format=b,file=heap.hprof $(pgrep java)
      -h或-help打印此帮助消息
 ```
 
-##### 线程的状态
+**线程的状态**
 
 > 在输出的信息中，会包含，下面是常见的线程状态：
 
@@ -516,7 +516,7 @@ jmap -dump:live,format=b,file=heap.hprof $(pgrep java)
 - `WAITING` 线程正在等待
 - `TIMED_WAITING` 超时等待
 
-##### 示例
+**示例**
 
 ```bash
 # 获取到线程的dump日志
@@ -531,7 +531,7 @@ jstack -F $(pgrep java) > jvm.log
 > `jcmd`命令（[帮助文档](https://docs.oracle.com/en/java/javase/11/tools/jcmd.html#GUID-59153599-875E-447D-8D98-0078A5778F05)）
 > 可以向运行中的`Java`虚拟机(`JVM`)发送诊断命令。
 
-##### 命令格式如下
+**命令格式如下**
 
 ```bash
 jcmd <pid | main class> <command ... | PerfCounter.print | -f  file>
@@ -539,7 +539,7 @@ jcmd -l
 jcmd -h
 ```
 
-##### 参数
+**参数**
 
 - `pid`
 > 虚拟机的进程id
@@ -568,13 +568,13 @@ jcmd -h
 - `-h`
 > 查看帮助信息。（同`-help`）
 
-##### 查看可用命令
+**查看可用命令**
 
 ```bash
 jcmd $(pgrep java) help
 ```
 
-##### 示例
+**示例**
 
 ```bash
 # 生成dump文件

@@ -72,7 +72,7 @@ public static native long currentTimeMillis();
 >
 > 使用`Calendar.getInstance()`
 
-##### 常用方法
+**常用方法**
 
 - `set()`
 
@@ -586,7 +586,7 @@ TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
 
 - `@Value("${book.name}")` String bookName; 注入配置文件
 
-##### 注入配置使用方法
+**注入配置使用方法**
 
 > 编写配置文件（test.properties）
 
