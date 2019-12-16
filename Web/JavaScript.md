@@ -26,6 +26,12 @@
 
 * [压缩或编码解码库](https://github.com/photopea)
 
+* [压缩](https://github.com/nodeca/pako)
+
+* [https://github.com/Stuk/jszip](https://github.com/Stuk/jszip)
+
+* [使浏览器没支持require](https://github.com/browserify)
+
 
 ## ECMAScript6启用
 
