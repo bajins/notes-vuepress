@@ -12,8 +12,11 @@
 
 * [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
 
+* [VSCode教程](https://www.php.cn/tool/vscode)
 
 ## 设置
+
+
 
 ```json
 {
@@ -42,6 +45,10 @@
     ]
 }
 ```
+
+- 开启智能提示
+
+> 进入设置，搜索`prevent`，取消此选项的勾选
 
 
 ## VSCode快捷键
