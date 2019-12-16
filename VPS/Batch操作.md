@@ -31,19 +31,19 @@
 
 - 为本账户启用策略
 
-```batch
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
 - 下载代码并通过`Invoke-Expression`执行
 
-```batch
+```powershell
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 ```
 
 - 下载文件
 
-```batch
+```powershell
 (New-Object System.Net.WebClient).DownloadFile('https://github.com/woytu/woytu.github.io/releases/download/v1.0/7za.exe','d:\\7za.exe')
 ```
 
