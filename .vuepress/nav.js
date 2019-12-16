@@ -95,7 +95,7 @@ module.exports = [
                     },
                     {
                         text: '运行时驱动Docsify',
-                        link: 'https://docsify.js.org/#/zh-cn'
+                        link: 'https://docsify.js.org/#/zh-cn/'
                     },
                     {
                         text: '运行时驱动Docute',
