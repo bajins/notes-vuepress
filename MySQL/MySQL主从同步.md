@@ -1,5 +1,10 @@
 # MySQL主从同步
 
+
+[[toc]]
+
+
+
 ## 配置主服务器
 
 ### 在`[mysqld]`节点下按需添加
@@ -74,7 +79,7 @@ read_only=1
 SHOW MASTER STATUS;
 ```
 
-#### 查询出来如下
+- 查询出来如下
 
 | File | Position | Binlog_Do_DB | Binlog_Ignore_DB | Executed_Gtid_Set |
 |---------------|---------------|---------------|---------------|---------------|
@@ -86,7 +91,7 @@ SHOW MASTER STATUS;
 CHANGE MASTER TO MASTER_HOST='主服务器IP',MASTER_PORT=3306,MASTER_USER='主服务器同步用户名',MASTER_PASSWORD='密码',MASTER_LOG_FILE='主MySQL二进制文件名',MASTER_LOG_POS=Position字段中数据,MASTER_CONNECT_RETRY=30;
 ```
 
-#### 上面执行的命令的解释
+- 上面执行的命令的解释
 
 > `MASTER_HOST='192.168.1.100'` #Master的IP地址
 >
@@ -124,25 +129,25 @@ START SLAVE;
 show variables like 'relay%';
 ```
 
-#### 重置复制信息
+- 重置复制信息
 
 ```sql
 RESET MASTER;
 ```
 
-#### 查看主从复制是否还有主从配置
+- 查看主从复制是否还有主从配置
 
 ```sql
 SHOW SLAVE STATUS\G
 ```
 
-#### 如果还有就执行以下命令清除所有
+- 如果还有就执行以下命令清除所有
 
 ```sql
 RESET SLAVE ALL;
 ```
 
-#### 再次开启复制
+- 再次开启复制
 
 ```sql
 START SLAVE;
@@ -154,13 +159,13 @@ START SLAVE;
 SHOW SLAVE STATUS\G
 ```
 
-#### 如果有以下错误
+- 如果有以下错误
 
 > `Error 'Operation CREATE USER failed for 'slave'@'%'' on query. Default database: ''. Query: `
 >> `'CREATE USER 'slave'@'%' IDENTIFIED WITH 'mysql_native_password' AS '*040A65A51A0B047A826CDE05448536015D471E15''`
 
 
-#### 先执行以下命令
+- 先执行以下命令
 
 ```sql
 STOP SLAVE;
@@ -168,7 +173,7 @@ FLUSH PRIVILEGES;
 START SLAVE;
 ```
 
-#### 如果错误仍然存在，执行以下命令
+- 如果错误仍然存在，执行以下命令
 
 ```sql
 STOP SLAVE;

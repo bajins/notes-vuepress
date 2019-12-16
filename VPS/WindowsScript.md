@@ -1,26 +1,7 @@
 # WindowsScript
 
 
-* [flag](#flag)
-* [WSH对象模型层级](#wsh对象模型层级)
-  * [`COM`接口可分为两类](#com接口可分为两类)
-* [`WScript`对象](#wscript对象)
-  * [`WScript`对象的属性](#wscript对象的属性)
-  * [`WScript`对象的方法](#wscript对象的方法)
-* [常用组件对象](#常用组件对象)
-* [HTTP](#http)
-  * [版本和封装位置](#版本和封装位置)
-* [图像处理](#图像处理)
-* [操作文件](#操作文件)
-  * [`FileSystemObject`的对象和集合](#filesystemobject的对象和集合)
-  * [`FileSystemObject`的方法和属性](#filesystemobject的方法和属性)
-* [Shell](#shell)
-  * [执行命令](#执行命令)
-  * [特殊文件夹](#特殊文件夹)
-  * [模拟按键](#模拟按键)
-* [VMI](#vmi)
-
-
+[[toc]]
 
 
 

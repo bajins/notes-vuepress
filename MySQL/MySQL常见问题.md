@@ -1,5 +1,11 @@
 # MySQL常见问题
 
+
+[[toc]]
+
+
+
+
 ## GROUP_CONCAT
 
 - 使用`GROUP_CONCAT`出现
@@ -44,7 +50,7 @@ SET SESSION group_concat_max_len=-1;
 binary logging is enabled (you *might* want to use the less safe log_bin_trust_function_creators variable)`
 
 
-#### 查看是否开启`log_bin_trust_function_creators`
+- 查看是否开启`log_bin_trust_function_creators`
 
 ```sql
 SHOW VARIABLES LIKE 'log_bin_trust_function_creators';
@@ -52,21 +58,21 @@ SHOW VARIABLES LIKE 'log_bin_trust_function_creators';
 SELECT @@global.log_bin_trust_function_creators;
 ```
 
-#### 默认关闭
+- 默认关闭
 
 | Variable_name	| Value |
 |------------------|-----------------|
 |log_bin_trust_function_creators | OFF|
 
-#### 开启
+- 开启
 
-- 在MySQL配置文件中`[mysqld]`节点下加上
+> 在MySQL配置文件中`[mysqld]`节点下加上
 
 ```bash
 log_bin_trust_function_creators=1
 ```
 
-- 如果是生产环境下，不能擅自重启MySQL服务，则可以通过语句开启，重启后无效
+> 如果是生产环境下，不能擅自重启MySQL服务，则可以通过语句开启，重启后无效
 
 ```sql
 SET GLOBAL log_bin_trust_function_creators = 1;

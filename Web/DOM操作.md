@@ -1,6 +1,12 @@
 # DOM操作
 
 
+[[toc]]
+
+
+
+
+
 ## flag
 
 * [HTML DOM 教程](https://www.w3school.com.cn/htmldom/index.asp)

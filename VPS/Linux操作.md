@@ -1,38 +1,7 @@
 # Linux操作
 
 
-* [flag](#flag)
-* [重装系统](#重装系统)
-  * [MeowLove](#meowlove)
-  * [moeclub](#moeclub)
-* [软件组合](#软件组合)
-* [后台运行](#后台运行)
-  * [`nohup`](#nohup)
-  * [`tmux`](#tmux)
-  * [`supervisor`](#supervisor)
-  * [`setsid`](#setsid)
-  * [screen](#screen)
-* [Linux之间传输文件](#linux之间传输文件)
-  * [scp](#scp)
-  * [rsync](#rsync)
-* [性能及网速测试工具](#性能及网速测试工具)
-  * [一键测试脚本bench.sh](#一键测试脚本benchsh)
-  * [91yun的网络测试脚本](#91yun的网络测试脚本)
-  * [主机运算性能测试](#主机运算性能测试)
-  * [服务器一键测试脚本](#服务器一键测试脚本)
-  * [中文版](#中文版)
-  * [英文版](#英文版)
-* [路由跟踪](#路由跟踪)
-  * [ping](#ping)
-  * [traceroute](#traceroute)
-  * [tcptraceroute](#tcptraceroute)
-  * [mtr](#mtr)
-* [解决网卡问题](#解决网卡问题)
-  * [MTU](#mtu)
-  * [查看MTU值](#查看mtu值)
-  * [临时更改MTU值](#临时更改mtu值)
-  * [永久更改MTU值](#永久更改mtu值)
-  * [重启网络接口](#重启网络接口)
+[[toc]]
 
 
 

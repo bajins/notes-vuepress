@@ -1,15 +1,7 @@
 # Batch执行WScript
 
 
-
-* [JScript](#jscript)
-  * [ActiveXObject](#activexobject)
-  * [参数传递](#参数传递)
-  * [js函数封装](#js函数封装)
-* [VBScript](#vbscript)
-  * [vbs特殊符号](#vbs特殊符号)
-  * [vbs函数封装](#vbs函数封装)
-
+[[toc]]
 
 
 

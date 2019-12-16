@@ -1,14 +1,7 @@
 # WindowsGCC
 
 
-* [flag](#flag)
-* [`MinGW-w64`](#mingw-w64)
-  * [`MinGW-w64`下载](#mingw-w64下载)
-  * [`MinGW-w64`安装](#mingw-w64安装)
-  * [`MinGW-w64`命令](#mingw-w64命令)
-* [`MSYS2`](#msys2)
-  * [`MSYS2`命令](#msys2命令)
-
+[[toc]]
 
 
 

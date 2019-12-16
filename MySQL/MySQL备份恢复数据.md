@@ -1,23 +1,10 @@
 # MySQL备份恢复数据
 
 
-* [通过binlog2sql恢复数据](#通过binlog2sql恢复数据)
-  * [MySQL必须设置参数](#mysql必须设置参数)
-  * [user需要的最小权限集合](#user需要的最小权限集合)
-  * [查看目前的binlog文件](#查看目前的binlog文件)
-    * [查询结果：](#查询结果)
-  * [定位误操作SQL的binlog位置](#定位误操作sql的binlog位置)
-  * [生成`sql`文件回滚](#生成sql文件回滚)
-  * [不生成`sql`文件回滚](#不生成sql文件回滚)
-* [`mysqldump`备份恢复](#mysqldump备份恢复)
-  * [参数说明](#参数说明)
-  * [导出](#导出)
-  * [导入](#导入)
-  * [`mysqldump`两台主机同步备份](#mysqldump两台主机同步备份)
-  * [`mysqldump`其他命令](#mysqldump其他命令)
-* [脚本](#脚本)
-  * [备份并删除历史](#备份并删除历史)
-  * [同步远程数据库到本地](#同步远程数据库到本地)
+[[toc]]
+
+
+
 
 
 ## 通过binlog2sql恢复数据
@@ -60,7 +47,7 @@ GRANT SELECT, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO
 show master logs;
 ```
 
-#### 查询结果
+- 查询结果
 
 | Log_name         | File_size |
 |------------------|-----------|

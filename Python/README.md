@@ -1,6 +1,10 @@
 # Python
 
 
+[[toc]]
+
+
+
 
 ## flag
 

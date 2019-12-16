@@ -1,7 +1,14 @@
 # Quartz定时器API
 
-#### 参考：https://blog.csdn.net/QXC1281/article/details/68924140
-## Quartz API核心接口有：
+
+[[toc]]
+
+
+
+> 参考：https://blog.csdn.net/QXC1281/article/details/68924140
+
+## Quartz API核心接口有
+
 > Scheduler – (调度器)与scheduler交互的主要API； 
 >
 > Job – (作业)你通过scheduler执行任务，你的任务类需要实现的接口； 
@@ -16,7 +23,9 @@
 
 
 ## 1.触发器接口基本介绍
+
 ### Trigger触发器方法介绍
+
 ```diff
 // 触发器状态  
 TriggerState  
@@ -67,7 +76,9 @@ MISFIRE_INSTRUCTION_SMART_POLICY
 MISFIRE_INSTRUCTION_IGNORE_MISFIRE_POLICY   
 DEFAULT_PRIORITY
 ```
+
 ## 2.触发器实现类
+
 ```diff
 Trigger (org.quartz)    
     |-CalendarIntervalTrigger (org.quartz) 日期触发器   
@@ -91,7 +102,9 @@ Trigger (org.quartz)
     |-DailyTimeIntervalTrigger (org.quartz)日期触发类(日)    
         |-DailyTimeIntervalTriggerImpl (org.quartz.impl.triggers)
 ```
-> 常用 
+
+- 常用
+
 >> 1. SimpleTrigger :简单触发器 
 >>
 >> 2. CalendarIntervalTrigger:日历触发器 
@@ -101,6 +114,7 @@ Trigger (org.quartz)
 >> 4. DailyTimeIntervalTrigger:日期触发器
 
 ## 3.调度器建造者
+
 ```diff
 // 用于创建各个调度器  
 ScheduleBuilder (org.quartz)   
@@ -109,8 +123,11 @@ ScheduleBuilder (org.quartz)
     |-SimpleScheduleBuilder (org.quartz)       
     |-CronScheduleBuilder (org.quartz)
 ```
+
 ## 4.触发器建造者
+
 #### 简单触发器器源码分析,利用了建造者模式
+
 ```java
 private TriggerBuilder() 构造函数私有  
 public static TriggerBuilder<Trigger> newTrigger()  创建一个建造者
@@ -145,8 +162,11 @@ jobKey
 jobDataMap
 scheduleBuilder
 ```
+
 ## 5.SimpleTrigger-简单触发器
+
 ### 5.1.简单调度器建造者
+
 ```java
 //构造函数私有化
 protected SimpleScheduleBuilder() 
@@ -223,7 +243,9 @@ interval 时间间隔
 repeatCount 重复时间
 misfireInstruction
 ```
+
 ### 5.2.SimpleTrigger
+
 ```java
 import org.quartz.*;
 
@@ -257,8 +279,11 @@ public class SimpleTriggerMain {
     }
 }
 ```
+
 ## 6.CronTriger-Cron触发器
+
 ### 6.1.Cron调度器建造者
+
 ```java
 // 构造函数私有化
 protected CronScheduleBuilder(CronExpression cronExpression)
@@ -298,7 +323,9 @@ public CronScheduleBuilder withMisfireHandlingInstructionFireAndProceed()
 cronExpression
 misfireInstruction
 ```
+
 ### 6.2.Cron应用
+
 ```java
 import org.quartz.*;
 
@@ -323,8 +350,11 @@ public class CronTriggerMain {
     }
 }
 ```
+
 ### 6.3.cron表达式介绍
-> 字符
+
+- 字符
+
 >> 1. `*` 每一(每一分) 
 >>
 >> 2. `?` 表示不关心,任意 
@@ -355,7 +385,9 @@ public class CronTriggerMain {
 |7    |年   |是        |empty或1970-2099|, - * /  |
 
 ## 7.DailyTimeIntervalTrigger-日期触发
+
 ### 7.1.DailyTime调度器建造者
+
 ```java
 // 建造者模式 
 DailyTimeIntervalScheduleBuilder 
@@ -401,7 +433,9 @@ ALL_DAYS_OF_THE_WEEK
 MONDAY_THROUGH_FRIDAY 
 SATURDAY_AND_SUNDAY
 ```
+
 ### 7.2.应用
+
 ```java
 import org.quartz.*;
 
@@ -424,8 +458,11 @@ public class DailyTimeIntervalTriggerMain {
     }
 }
 ```
+
 ## 8.CalendarIntervalTrigger-日历触发
+
 ### 8.1.Calendar调度器建造者
+
 ```java
 CalendarIntervalScheduleBuilder
 calendarIntervalSchedule
@@ -455,7 +492,9 @@ timeZone
 preserveHourOfDayAcrossDaylightSavings
 skipDayIfHourDoesNotExist
 ```
+
 ### 8.1应用
+
 ```java
 import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;

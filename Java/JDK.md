@@ -1,47 +1,7 @@
 # JDK
 
 
-
-
-* [OpenJDK](#openjdk)
-* [JDK工具](#jdk工具)
-  * [基本工具](#基本工具)
-  * [安全工具](#安全工具)
-  * [Java国际化工具](#java国际化工具)
-  * [远程方法调用工具](#远程方法调用工具)
-  * [IDL和RMI-IIOP工具](#idl和rmi-iiop工具)
-  * [Java部署工具](#java部署工具)
-  * [Java web工具](#java-web工具)
-  * [JDK监控工具](#jdk监控工具)
-    * [VisualVM](#visualvm)
-    * [JConsole](#jconsole)
-    * [jps](#jps)
-    * [jstat](#jstat)
-    * [JMC](#jmc)
-  * [故障检测和修理工具](#故障检测和修理工具)
-    * [jinfo](#jinfo)
-    * [jmap](#jmap)
-    * [jstack](#jstack)
-    * [jcmd](#jcmd)
-  * [Java脚本工具](#java脚本工具)
-  * [其他工具](#其他工具)
-* [JVM](#jvm)
-  * [JVM参数优化](#jvm参数优化)
-  * [常用参数](#常用参数)
-  * [参考](#参考)
-  * [windows](#windows)
-  * [linux](#linux)
-  * [其他命令](#其他命令)
-  * [远程监控配置`JMX`](#远程监控配置jmx)
-* [远程Debug](#远程debug)
-  * [启动参数](#启动参数)
-  * [参数说明](#参数说明)
-  * [客户端使用](#客户端使用)
-* [三方工具](#三方工具)
-  * [无侵入式的jvm监控工具MyPerf4J](#无侵入式的jvm监控工具myperf4j)
-  * [Alibaba Java诊断利器Arthas](#alibaba-java诊断利器arthas)
-
-
+[[toc]]
 
 
 

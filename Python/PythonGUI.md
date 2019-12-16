@@ -1,25 +1,8 @@
 # PythonGUI
 
 
-* [`wxPython`](#wxpython)
-  * [方法](#方法)
-  * [`wx.Event`的子类](#wxevent的子类)
-  * [`style`样式常量](#style样式常量)
-  * [欢迎界面](#欢迎界面)
-  * [多线程防假死与线程间传递消息](#多线程防假死与线程间传递消息)
-* [`PySide`](#pyside)
-  * [多线程防假死动态刷新界面的模板](#多线程防假死动态刷新界面的模板)
-* [`PyGObject`](#pygobject)
-* [打包](#打包)
-  * [`PyInstalle`](#pyinstalle)
-    * [安装`pyinstalle`](#安装pyinstalle)
-    * [生成单文件](#生成单文件)
-    * [生成安装目录](#生成安装目录)
-    * [静态文件处理](#静态文件处理)
-    * [`pyinstalle`参数](#pyinstalle参数)
-    * [问题](#问题)
-  * [`py2exe`](#py2exe)
-    * [`setup.py`](#setuppy)
+[[toc]]
+
 
 
 
@@ -689,13 +672,13 @@ if __name__ == "__main__":
 
 * [https://hoxis.github.io/python-pyinstaller.html](https://hoxis.github.io/python-pyinstaller.html)
 
-#### 安装`pyinstalle`
+- **安装`pyinstalle`**
 
 ```bash
 pip install pyinstaller
 ```
 
-#### 生成单文件
+- **生成单文件**
 
 ```bash
 pyinstaller -F app.py
@@ -703,7 +686,7 @@ pyinstaller -F app.py
 pyinstaller -F -w -n=BajinsWallpaper app.py
 ```
 
-#### 生成安装目录
+- **生成安装目录**
 
 > 此方式可借用其他第三方封包工具封装为exe安装程序，比如`NSIS`、`InnoSetup`
 >
@@ -713,7 +696,7 @@ pyinstaller -F -w -n=BajinsWallpaper app.py
 pyinstaller -D -w -n=BajinsWallpaper app.py
 ```
 
-#### 静态文件处理
+- **静态文件处理**
 
 - 在`.spec`后缀文件中修改`datas=[]`
 
@@ -734,7 +717,7 @@ datas=[('view/imges/*', '.'), ('view/static/logo.png','view/static/')],
 --add-data view\static\*;view\static --add-data "list.txt;."
 ```
 
-#### `pyinstalle`参数
+- **`pyinstalle`参数**
 
 * [https://pyinstaller.readthedocs.io/en/latest/usage.html#options](https://pyinstaller.readthedocs.io/en/latest/usage.html#options)
 
@@ -822,7 +805,7 @@ datas=[('view/imges/*', '.'), ('view/static/logo.png','view/static/')],
 
 
 
-#### 问题
+- **问题**
 
 - 多进程multiprocessing，我们需要创建一个模块
 
@@ -888,7 +871,7 @@ if sys.platform.startswith('win'):
 > 或者通过`data_files=[("",["MSVCR100.dll"])]`, 打包其中；
 
 
-#### `setup.py`
+- **`setup.py`**
 
 ```python
 

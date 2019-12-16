@@ -1,62 +1,7 @@
 # CentOS安装软件
 
 
-* [MySQL](#mysql)
-  * [yum安装](#yum安装)
-    * [卸载](#卸载)
-    * [安装依赖](#安装依赖)
-    * [下载yum源](#下载yum源)
-    * [安装yum源](#安装yum源)
-    * [查看所有版本](#查看所有版本)
-    * [修改源设置](#修改源设置)
-    * [查看默认启用版本](#查看默认启用版本)
-    * [安装](#安装)
-    * [查看安装版本](#查看安装版本)
-  * [编译安装](#编译安装)
-    * [下载](#下载)
-    * [创建用户组](#创建用户组)
-    * [创建用户](#创建用户)
-    * [创建data目录](#创建data目录)
-    * [指定用户和用户组](#指定用户和用户组)
-    * [初始化](#初始化)
-    * [启动](#启动)
-    * [设为开机启动](#设为开机启动)
-    * [授权](#授权)
-    * [添加开机启动](#添加开机启动)
-    * [service启动](#service启动)
-* [SVN](#svn)
-  * [检查已安装](#检查已安装)
-  * [安装](#安装)
-  * [查看已安装版本](#查看已安装版本)
-  * [代码库创建](#代码库创建)
-  * [配置代码库](#配置代码库)
-  * [启动](#启动)
-  * [查看SVN进程](#查看svn进程)
-  * [检测SVN端口](#检测svn端口)
-  * [放开端口](#放开端口)
-  * [连接](#连接)
-  * [停止SVN](#停止svn)
-* [JDK](#jdk)
-  * [查看已安装](#查看已安装)
-  * [卸载JDK](#卸载jdk)
-  * [查看JDK软件包列表](#查看jdk软件包列表)
-  * [yum安装JDK](#yum安装jdk)
-  * [配置环境变量](#配置环境变量)
-  * [查看Java版本信息](#查看java版本信息)
-* [Tomcat](#tomcat)
-  * [下载](#下载)
-  * [解压](#解压)
-  * [修改tomcat文件夹名](#修改tomcat文件夹名)
-  * [复制](#复制)
-  * [修改第二个Tomcat配置](#修改第二个tomcat配置)
-  * [添加环境变量](#添加环境变量)
-* [Chrome](#chrome)
-  * [rpm包安装](#rpm包安装)
-  * [在线安装](#在线安装)
-
-
-
-
+[[toc]]
 
 
 
@@ -73,7 +18,7 @@
 > 而安装`mysql`的话会和`mariadb`的文件冲突，所以需要先卸载掉`mariadb`，以下为卸载`mariadb`，安装`mysql`的步骤。
 
 
-#### 卸载
+- **卸载**
 
 ```bash
 # 查看软件包
@@ -93,26 +38,26 @@ yum remove -y mysql mysql-server mysql-libs mysql-server
 whereis mysql
 ```
 
-#### 安装依赖
+- **安装依赖**
 
 ```bash
 yum -y install libaio glibc
 ```
 
-#### 下载yum源
+- **下载yum源**
 
 ```bash
 # MySQL 8.0
 wget https://repo.mysql.com//mysql80-community-release-el7-1.noarch.rpm
 ```
 
-#### 安装yum源
+- **安装yum源**
 
 ```bash
 yum -y localinstall mysql80-community-release-el7-1.noarch.rpm
 ```
 
-#### 查看所有版本
+- **查看所有版本**
 
 ```bash
 yum repolist all | grep mysql
@@ -120,7 +65,7 @@ yum repolist all | grep mysql
 
 > 可以看到这里默认启用了`MySQL 8.0 Community Server`，而我们需要安装的是`MySQL 5.7 Community Server`
 
-#### 修改源设置
+- **修改源设置**
 
 ```bash
 vi /etc/yum.repos.d/mysql-community.repo
@@ -159,19 +104,19 @@ yum-config-manager --disable mysql80-community
 yum-config-manager --enable mysql57-community
 ```
 
-#### 查看默认启用版本
+- **查看默认启用版本**
 
 ```bash
 yum repolist enabled | grep mysql
 ```
 
-#### 安装
+- **安装**
 
 ```bash
 yum -y install mysql-community-server
 ```
 
-#### 查看安装版本
+- **查看安装版本**
 
 ```bash
 mysqld -V
@@ -180,7 +125,7 @@ mysqld -V
 
 ### 编译安装
 
-#### 下载
+- **下载**
 
 * [https://dev.mysql.com/downloads/mysql/5.7.html#downloads](https://dev.mysql.com/downloads/mysql/5.7.html#downloads)
 
@@ -197,13 +142,13 @@ mv mysql-5.7.22-linux-glibc2.12-x86_64 mysql
 ```
 
 
-#### 创建用户组
+- **创建用户组**
 
 ```bash
 group add mysql
 ```
 
-#### 创建用户
+- **创建用户**
 
 ```bash
 user add -r -g mysql mysql
@@ -215,14 +160,14 @@ user add -r -g mysql mysql
 
 > `[ERROR] Fatal error: Please read "Security" section of the manual to find out how to run mysqld as root!`
 
-#### 创建data目录
+- **创建data目录**
 
 ```bash
 cd /usr/local/mysql
 mkdir data
 ```
 
-#### 指定用户和用户组
+- **指定用户和用户组**
 
 ```bash
 cd /usr/local
@@ -232,7 +177,7 @@ chgrp -R mysql mysql/
 
 > `-R`包含目录下所有和目录和文件
 
-#### 初始化
+- **初始化**
 
 ```bash
 cd /usr/local/mysql/bin
@@ -247,7 +192,7 @@ cd /usr/local/mysql/bin
 > 记住生成的临时密码,如果忘记密码或者想重新初始化，可以先将mysql/data目录中文件删除，然后再执行初始化命令
 
 
-#### 启动
+- **启动**
 
 ```bash
 cd /usr/local/mysql/bin
@@ -255,7 +200,7 @@ cd /usr/local/mysql/bin
 ./mysqld_safe --user=mysql &
 ```
 
-#### 设为开机启动
+- **设为开机启动**
 
 ```bash
 cd /usr/local/mysql/support-files/
@@ -270,19 +215,19 @@ basedir=/usr/local/mysql/
 datadir=/usr/local/mysql/data/
 ```
 
-#### 授权
+- **授权**
 
 ```bash
 chmod +x /etc/init.d/mysql
 ```
 
-#### 添加开机启动
+- **添加开机启动**
 
 ```bash
 chkconfig --add mysql
 ```
 
-#### service启动
+- **service启动**
 
 ```bash
 # 重启服务

@@ -1,5 +1,11 @@
 # MySQL配置
 
+
+[[toc]]
+
+
+
+
 ## 配置my.cnf
 
 > 从5.7.17后mysql就没有默认的my_default.cnf文件，需要手动创建

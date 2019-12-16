@@ -1,61 +1,86 @@
 # mysql-udf安装
 
-# 一、mysql-udf-http
+
+[[toc]]
+
+
+
+
+## 一、mysql-udf-http
+
 ### 安装cur
-```
+
+```sql
 yum install -y libcurl*
 ```
-#### 或者
-```
+
+- 或者
+
+```sql
 yum install -y curl*
 ```
 
 ### 安装mysql-udf-http
-项目网址：http://code.google.com/p/mysql-udf-http/
-中文说明：http://blog.zyan.cc/mysql-udf-http/
-```
+
+> 项目网址：http://code.google.com/p/mysql-udf-http/
+>
+> 中文说明：http://blog.zyan.cc/mysql-udf-http/
+
+```sql
 wget https://github.com/claer-ding/UseNotes/raw/master/MySQL/mysql-udf/mysql-udf-http-1.0.tar.gz
 tar zxvf mysql-udf-http-1.0.tar.gz
 cd mysql-udf-http-1.0
 ./configure --prefix=/usr/local/mysql-udf-http --with-mysql=/usr/local/mysql/bin/mysql_config
 make && make install
 ```
-#### 如果提示configure: error: no acceptable C compiler found in $PATH需要安装GCC编译器
-```
+
+- 如果提示`configure: error: no acceptable C compiler found in $PATH`需要安装`GCC`编译器
+
+```sql
 yum install -y gcc
 ```
 
-#### 如果没有mysql_config，请执行以下命令
-```
+- 如果没有`mysql_config`请执行以下命令
+
+```sql
 yum install -y mysql-devel
 ```
 
-### 搜索mysql-udf-http.so文件位置
-```
+- 搜索`mysql-udf-http.so`文件位置
+
+```sql
 find / -name mysql-udf-http.so
 ```
 
-### 由于mysql-udf-http.so不在mysql/lib/plugin/目录下，所以需要创建软连接或者复制过去
-#### 创建软连接
-```
+> 由于`mysql-udf-http.so`不在`mysql/lib/plugin/`目录下，所以需要创建软连接或者复制过去
+
+- 创建软连接
+
+```sql
 ln -s /usr/local/mysql-udf-http/lib/mysql-udf-http.so /usr/local/mysql/lib/plugin/mysql-udf-http.so
 ```
-#### 或者复制
-```
+
+- 或者复制
+
+```sql
 cp /usr/local/mysql-udf-http/lib/mysql-udf* /usr/local/mysql/lib/plugin/
 ```
 
-### 重启mysql
-```
+- 重启mysql
+
+```sql
 service mysqld restart
 ```
-#### 或者
-```
+
+- 或者
+
+```sql
 systemctl restart mysqld.service
 ```
 
 ### 创建
-```
+
+```sql
 create function http_get returns string soname 'mysql-udf-http.so';
 create function http_post returns string soname 'mysql-udf-http.so';
 create function http_put returns string soname 'mysql-udf-http.so';
@@ -63,27 +88,32 @@ create function http_delete returns string soname 'mysql-udf-http.so';
 ```
 
 ### 删除
-```
+
+```sql
 DROP FUNCTION IF EXISTS http_get;
 DROP FUNCTION IF EXISTS http_post;
 DROP FUNCTION IF EXISTS http_put;
 DROP FUNCTION IF EXISTS http_delete;
 ```
 
-### 验证是否安装成功:
-```
+### 验证是否安装成功
+
+```sql
 select * from mysql.func; 
 ```
 
-### Description:
-```
+### Description
+
+```sql
 SELECT http_get('<url>');
 SELECT http_post('<url>', '<data>');
 SELECT http_put('<url>', '<data>');
 SELECT http_delete('<url>');
 ```
-### 实例：
-```
+
+### 实例
+
+```sql
 /* HTTP GET、POST方式提交关键词“xoyo”到百度移动搜索 */  
 SELECT http_get('http://m.baidu.com/s?word=xoyo&pn=0');  
 SELECT http_post('http://m.baidu.com/s','word=xoyo&pn=0');  
@@ -99,8 +129,9 @@ SELECT http_get('http://192.168.8.34:1978/key');
 SELECT http_delete('http://192.168.8.34:1978/key');  
 ```
 
-# 二、mysql-udf-json
-```
+## 二、mysql-udf-json
+
+```sql
 wget https://github.com/claer-ding/lib_mysqludf_json/archive/2013.zip
 unzip 2013.zip
 cd lib_mysqludf_json-2013
@@ -110,7 +141,8 @@ cp lib_mysqludf_json.so /usr/local/mysql/lib/plugin/
 
 
 ### 创建
-```
+
+```sql
 create function lib_mysqludf_json_info returns string soname 'lib_mysqludf_json.so';
 create function json_array returns string soname 'lib_mysqludf_json.so';
 create function json_members returns string soname 'lib_mysqludf_json.so';
@@ -119,7 +151,8 @@ create function json_values returns string soname 'lib_mysqludf_json.so';
 ```
 
 ### 删除
-```
+
+```sql
 DROP FUNCTION IF EXISTS lib_mysqludf_json_info;
 DROP FUNCTION IF EXISTS json_array;
 DROP FUNCTION IF EXISTS json_members;
@@ -127,23 +160,29 @@ DROP FUNCTION IF EXISTS json_object;
 DROP FUNCTION IF EXISTS json_values;
 ```
 
-### 验证是否安装成功:
-```
+### 验证是否安装成功
+
+```sql
 select * from mysql.func; 
 ```
 
-### 实例：
-#### 返回json对象
-```
+### 实例
+
+- 返回json对象
+
+```sql
 select json_object(login_name as user,login_password as pwd) as user from t_sys_loginperson;
 ```
-#### 返回json数组
-```
+
+- 返回json数组
+
+```sql
 select json_array(login_name,login_password) as user from t_sys_loginperson;
 ```
 
 ### 创建触发器
-```
+
+```sql
 /* INSERT插入操作的触发器 */  
 /*开头将结束符号定义为|*/
 DELIMITER |  
@@ -159,7 +198,7 @@ END |
 DELIMITER ;  
 ``` 
   
-``` 
+```sql
 /* UPDATE更新操作的触发器 */  
 DELIMITER |  
 DROP TRIGGER IF EXISTS mytable_update;  
@@ -175,7 +214,8 @@ FOR EACH ROW BEGIN
 END |  
 DELIMITER ;  
 ```
-```
+
+```sql
 /* DELETE删除操作的触发器 */  
 DELIMITER |  
 DROP TRIGGER IF EXISTS mytable_delete;  

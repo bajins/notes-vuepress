@@ -1,15 +1,7 @@
 # Python爬虫
 
 
-* [selenium](#selenium)
-  * [xpath和css选择器](#xpath和css选择器)
-    * [css元素选择器](#css元素选择器)
-    * [`Sizzle`的`Css3`结构性定位](#sizzle的css3结构性定位)
-  * [`chromedriver`](#chromedriver)
-  * [`geckodriver`](#geckodriver)
-* [在CentOS中使用](#在centos中使用)
-
-
+[[toc]]
 
 
 
@@ -22,7 +14,7 @@
 > 然后网页会变成蓝色，到网页点击自己要选择的区域，接下来就会自动跳到`Elements`对应的位置，
 > 在`HTML`的标签上点击鼠标右键->`Copy`->`COpy selector`或者`xpath`，就能复制选择器了。
 
-#### css元素选择器
+- **css元素选择器**
 
 * [CSS 选择器参考手册](https://www.w3school.com.cn/cssref/css_selectors.ASP)
 
@@ -62,7 +54,7 @@
 
 
 
-#### `Sizzle`的`Css3`结构性定位
+- **`Sizzle`的`Css3`结构性定位**
 
 | 语法            	| 说明                                                           	|
 |-----------------	|----------------------------------------------------------------	|
@@ -102,7 +94,7 @@
 
 * [Headless Browser](https://www.jianshu.com/p/11d519e2d0cb)
 
-#### `chromedriver`
+- **`chromedriver`**
 
 > `Selenium`操作`Chrome`浏览器需要有`ChromeDriver`驱动来协助，`ChromeDriver`与`Chrome`版本对应关系一定要正确
 
@@ -160,7 +152,7 @@
 
 
 
-#### `geckodriver`
+- **`geckodriver`**
 
 * [https://github.com/mozilla/geckodriver](https://github.com/mozilla/geckodriver)
 

@@ -1,11 +1,7 @@
 # Go
 
 
-* [flag](#flag)
-* [框架](#框架)
-  * [WEB](#web)
-  * [other](#other)
-* [代理](#代理)
+[[toc]]
 
 
 

@@ -3,21 +3,9 @@
 > VisualStudioCode
 
 
+[[toc]]
 
-* [设置](#设置)
-* [VSCode快捷键](#vscode快捷键)
-  * [常用`General`](#常用general)
-  * [基础编辑`Basic editing`](#基础编辑basic-editing)
-  * [导航`Navigation`](#导航navigation)
-  * [搜索和替换`Search and replace`](#搜索和替换search-and-replace)
-  * [多光标和选` Multi-cursor and selection`](#多光标和选-multi-cursor-and-selection)
-  * [丰富的语言编辑`Rich languages editing`](#丰富的语言编辑rich-languages-editing)
-  * [编辑器管理`Editor management`](#编辑器管理editor-management)
-  * [文件管理`File management`](#文件管理file-management)
-  * [显示`Display`](#显示display)
-  * [调试Debug](#调试debug)
-  * [集成终端`Integrated terminal`](#集成终端integrated-terminal)
-* [VSCode插件](#vscode插件)
+
 
 
 ## flag

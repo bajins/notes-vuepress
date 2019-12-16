@@ -1,55 +1,7 @@
 # CentOS
 
 
-* [卸载软件](#卸载软件)
-  * [RPM安装](#rpm安装)
-  * [yum安装](#yum安装)
-  * [源码编译安装](#源码编译安装)
-    * [如果源码被删除就查找并删除](#如果源码被删除就查找并删除)
-  * [`checkinstall`](#checkinstall)
-    * [使用`checkinstall`编译安装](#使用checkinstall编译安装)
-    * [卸载`checkinstall`安装的软件](#卸载checkinstall安装的软件)
-* [初次配置](#初次配置)
-  * [修改时区为亚洲上海](#修改时区为亚洲上海)
-  * [查看系统语言](#查看系统语言)
-  * [安装简体中文语言包](#安装简体中文语言包)
-  * [设置中文utf8编码](#设置中文utf8编码)
-    * [临时](#临时)
-    * [长久](#长久)
-  * [设置vi显示行号](#设置vi显示行号)
-    * [编辑以下两个文件](#编辑以下两个文件)
-    * [在开头或者末尾添加](#在开头或者末尾添加)
-  * [欢迎信息](#欢迎信息)
-  * [`profile`文件](#profile文件)
-  * [ssh欢迎信息](#ssh欢迎信息)
-* [`yum`操作](#yum操作)
-  * [安装`EPEL`源](#安装epel源)
-  * [更新yum源包](#更新yum源包)
-  * [安装必要软件](#安装必要软件)
-  * [三方工具](#三方工具)
-    * [`figlet`](#figlet)
-    * [`boxes`](#boxes)
-    * [`Toilet`](#toilet)
-* [`systemctl`](#systemctl)
-* [`firewalld`](#firewalld)
-  * [开启端口](#开启端口)
-    * [配置`firewalld-cmd`](#配置firewalld-cmd)
-* [rpm](#rpm)
-  * [查询已安装软件包信息](#查询已安装软件包信息)
-  * [查询已安装软件包安装位置](#查询已安装软件包安装位置)
-  * [查看已安装软件依赖](#查看已安装软件依赖)
-  * [查看已安装软件的配置文件](#查看已安装软件的配置文件)
-  * [查询已经安装文件所属软件包](#查询已经安装文件所属软件包)
-  * [安装软件包数量](#安装软件包数量)
-* [内核升级](#内核升级)
-  * [手动安装](#手动安装)
-  * [一键安装脚本](#一键安装脚本)
-  * [CentOS安装新版内核`headers`](#centos安装新版内核headers)
-    * [卸载原版内核`headers`](#卸载原版内核headers)
-  * [内核升级方法](#内核升级方法)
-* [shadowsocks](#shadowsocks)
-* [v2ray](#v2ray)
-* [PAC](#pac)
+[[toc]]
 
 
 
@@ -75,7 +27,7 @@ yum remove 软件名
 >
 > 没指定路径，那就到源码路径执行make uninstall，如果最初的编译文件夹被删除了，还可以重新下载、编译，然后删除
 
-#### 如果源码被删除就查找并删除
+- **如果源码被删除就查找并删除**
 
 ```bash
 find / -name 软件名称
@@ -85,7 +37,7 @@ find / -name 软件名称
 
 > 通过`checkinstall`管理编译安装过程
 
-#### 使用`checkinstall`编译安装
+- **使用`checkinstall`编译安装**
 
 ```bash
 ./configure
@@ -105,7 +57,7 @@ checkinstall
 
 > 调用系统安装工具来安装第2步创建的安装包：`rpm -i`或`dpkg -i`
 
-#### 卸载`checkinstall`安装的软件
+- **卸载`checkinstall`安装的软件**
 
 ```bash
 CentOS: rpm -e package_name
@@ -142,13 +94,13 @@ yum -y groupinstall chinese-support
 
 ### 设置中文utf8编码
 
-#### 临时
+- **临时**
 
 ```bash
 export LANG=zh_CN.utf8
 ```
 
-#### 长久
+- **长久**
 
 > CenOS7修改`vi /etc/locale.conf`文件
 >
@@ -167,14 +119,14 @@ localectl  set-locale LANG=zh_CN.utf8
 
 ### 设置vi显示行号
 
-#### 编辑以下两个文件
+- **编辑以下两个文件**
 
 ```bash
 vi /etc/vimrc
 vi /etc/virc
 ```
 
-#### 在开头或者末尾添加
+- **在开头或者末尾添加**
 
 ```bash
 set number
@@ -289,7 +241,7 @@ yum install -y which gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-dev
 
 ### 三方工具
 
-#### `figlet`
+- **`figlet`**
 
 > Linux下的命令行工具，我们经常会看到一些终端工具有一个字符Logo,这些Logo可以通过`Figlet`生成：
 
@@ -306,7 +258,7 @@ yum install -y figlet
 >
 > 实时显示时间`watch -n1 "date '+%D%n%T' |figlet -k"`
 
-#### `boxes`
+- **`boxes`**
 
 > 这个工具提供了 n 种样式，例如各种动物等，然后你输入的字符就放在这些图案的内部空白处。
 
@@ -322,7 +274,7 @@ echo [text] | boxes -d [style name]
 echo "Hello World" | boxes -d dog
 ```
 
-#### `Toilet`
+- **`Toilet`**
 
 > 可以输出更丰富的样式，它比 `figlet` 命令的效果更有艺术感。
 
@@ -421,7 +373,7 @@ firewall-cmd --zone=public --add-port=3306/tcp --permanent
 
 > `--permanent` 永久生效，没有此参数重启后失效
 
-#### 配置`firewalld-cmd`
+- **配置`firewalld-cmd`**
 
 ```bash
 # 查看版本
@@ -659,7 +611,7 @@ yum --enablerepo=elrepo-kernel -y install kernel-ml-headers
 
 > `Error: kernel-ml-headers conflicts with kernel-headers-3.10.0-693.17.1.el7.x86_64`
 
-#### 卸载原版内核`headers`
+- **卸载原版内核`headers`**
 
 > 需要先卸载原版内核`headers`，然后再安装最新版内核`headers`。
 

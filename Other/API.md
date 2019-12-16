@@ -1,23 +1,7 @@
 # API
 
 
-
-* [天气](#天气)
-* [bing](#bing)
-* [360wallpaper](#360wallpaper)
-* [unsplash](#unsplash)
-* [wallhaven](#wallhaven)
-* [pexels](#pexels)
-* [pixabay](#pixabay)
-* [visualhunt](#visualhunt)
-* [stocksnap.io](#stocksnapio)
-* [kaboompics](#kaboompics)
-* [wallpaperup](#wallpaperup)
-* [alphacoders](#alphacoders)
-* [splitshire](#splitshire)
-* [magdeleine.co](#magdeleineco)
-* [cupcake.nilssonlee.se](#cupcakenilssonleese)
-
+[[toc]]
 
 
 

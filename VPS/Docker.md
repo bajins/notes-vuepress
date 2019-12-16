@@ -1,45 +1,13 @@
 # Docker
 
 
-
-* [docker-compose.yml基本介绍](#docker-composeyml基本介绍)
-  * [ports](#ports)
-* [卸载旧版本](#卸载旧版本)
-* [开始安装docker](#开始安装docker)
-  * [设置稳定的存储库。](#设置稳定的存储库)
-  * [禁用测试库](#禁用测试库)
-  * [安装最新版本的Docker CE](#安装最新版本的docker-ce)
-  * [列出可用版本,从最高到最低排序](#列出可用版本从最高到最低排序)
-  * [安装一个库](#安装一个库)
-  * [启动Docker](#启动docker)
-  * [查看本地镜像](#查看本地镜像)
-  * [搜索镜像](#搜索镜像)
-  * [下载镜像](#下载镜像)
-  * [验证安装](#验证安装)
-  * [启动](#启动)
-  * [其他docker命令](#其他docker命令)
-* [构建镜像文件](#构建镜像文件)
-  * [准备CentOS基础镜像](#准备centos基础镜像)
-  * [下载](#下载)
-  * [创建目录](#创建目录)
-  * [解压](#解压)
-  * [删除多余文件](#删除多余文件)
-  * [创建Dockerfile](#创建dockerfile)
-  * [插入以下内容](#插入以下内容)
-  * [开始构建docker镜像文件](#开始构建docker镜像文件)
-  * [查看镜像是否创建成功](#查看镜像是否创建成功)
-  * [启动容器](#启动容器)
-  * [开放端口](#开放端口)
-  * [查看docker运行状态](#查看docker运行状态)
-  * [运行Tomcat](#运行tomcat)
-  * [停止Tomcat](#停止tomcat)
-  * [强制删除一个运行中的容器](#强制删除一个运行中的容器)
-  * [停止container](#停止container)
-  * [删除images](#删除images)
+[[toc]]
 
 
 
-[docker官网centos7安装](https://docs.docker.com/install/linux/docker-ce/centos/)
+## flag
+
+* [docker官网centos7安装](https://docs.docker.com/install/linux/docker-ce/centos/)
 
 
 ## docker-compose.yml基本介绍

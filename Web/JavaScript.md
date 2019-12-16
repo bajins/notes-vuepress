@@ -1,22 +1,8 @@
 # JavaScript
 
 
-* [手册](#手册)
-* [CDN](#cdn)
-  * [other](#other)
-* [Http](#http)
-  * [XMLHttpRequest](#xmlhttprequest)
-* [NodeJs](#nodejs)
-  * [安装rpm](#安装rpm)
-  * [安装NVM](#安装nvm)
-  * [安装yarn](#安装yarn)
-  * [npm和yarn镜像](#npm和yarn镜像)
-  * [yarn更新依赖包](#yarn更新依赖包)
-  * [npm更新依赖包](#npm更新依赖包)
-  * [依赖管理](#依赖管理)
-* [类型判断](#类型判断)
-* [爬虫](#爬虫)
-  * [Puppeteer](#puppeteer)
+[[toc]]
+
 
 
 

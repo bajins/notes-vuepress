@@ -1,9 +1,7 @@
 # PythonIO
 
 
-* [`os`模块](#os模块)
-* [`shutil`模块](#shutil模块)
-* [`open`方法](#open方法)
+[[toc]]
 
 
 

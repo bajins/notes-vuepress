@@ -1,23 +1,7 @@
 # Nginx
 
 
-
-* [flag](#flag)
-* [location规则匹配](#location规则匹配)
-  * [location语法规则](#location语法规则)
-  * [内部调用](#内部调用)
-* [rewrite语法](#rewrite语法)
-* [判断表达式](#判断表达式)
-* [Redirect语法](#redirect语法)
-* [防盗链](#防盗链)
-* [以后缀设置过期时间](#以后缀设置过期时间)
-* [禁止访问某个目录](#禁止访问某个目录)
-* [全局变量](#全局变量)
-* [判断`user_agent`](#判断user_agent)
-* [`proxy_pass`指令](#proxy_pass指令)
-* [主配置](#主配置)
-* [动静分离配置](#动静分离配置)
-
+[[toc]]
 
 
 
