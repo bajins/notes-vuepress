@@ -24,7 +24,7 @@
 
 * [ECMAScript支持度检测](https://github.com/ruanyf/es-checker)
 
-
+* [压缩或编码解码库](https://github.com/photopea)
 
 
 ## ECMAScript6启用
