@@ -56,16 +56,3 @@ https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extens
 
 * SMSReceiveFree：[https://smsreceivefree.com](https://smsreceivefree.com)
 
-
-
-## 发卡系统
-
-* [github search](https://github.com/search?q=%E5%8F%91%E5%8D%A1%E7%B3%BB%E7%BB%9F&type=Repositories)
-
-* [https://github.com/zlkbdotnet/zfaka](https://github.com/zlkbdotnet/zfaka)
-
-* [https://github.com/Tai7sy/card-system](https://github.com/Tai7sy/card-system)
-
-* [https://github.com/assimon/shanhufaka](https://github.com/assimon/shanhufaka)
-
-* [https://github.com/maddog888/kmxts](https://github.com/maddog888/kmxts)

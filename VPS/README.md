@@ -3,12 +3,13 @@
 
 * [flag](#flag)
 * [资源网站建立](#资源网站建立)
+* [发卡系统](#发卡系统)
 * [WebSSH2](#webssh2)
   * [下载](#下载)
   * [修改源码使其支持秘钥登录](#修改源码使其支持秘钥登录)
   * [运行](#运行)
-* [batch与shell同等意义操作符](#batch与shell同义操作符)
-* [batch与shell同等意义命令](#batch与shell同义命令)
+* [batch与shell同义操作符](#batch与shell同义操作符)
+* [batch与shell同义命令](#batch与shell同义命令)
 
 
 
@@ -66,6 +67,18 @@
 
 
 
+
+## 发卡系统
+
+* [github search](https://github.com/search?q=%E5%8F%91%E5%8D%A1%E7%B3%BB%E7%BB%9F&type=Repositories)
+
+* [https://github.com/zlkbdotnet/zfaka](https://github.com/zlkbdotnet/zfaka)
+
+* [https://github.com/Tai7sy/card-system](https://github.com/Tai7sy/card-system)
+
+* [https://github.com/assimon/shanhufaka](https://github.com/assimon/shanhufaka)
+
+* [https://github.com/maddog888/kmxts](https://github.com/maddog888/kmxts)
 
 
 
