@@ -20,24 +20,37 @@
 
 
 
-## 执行PowerShell
+## PowerShell
+
+> 在`CMD`中执行`PowerShell`命令只需在命令前加`PowerShell`执行即可
+
+* [https://github.com/PowerShell](https://github.com/PowerShell)
+
+* [https://docs.microsoft.com/zh-cn/powershell/scripting/how-to-use-docs](https://docs.microsoft.com/zh-cn/powershell/scripting/how-to-use-docs)
+
 
 - 为本账户启用策略
 
 ```batch
-PowerShell Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
 ```
 
 - 下载代码并通过`Invoke-Expression`执行
 
 ```batch
-PowerShell Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 ```
 
 - 下载文件
 
 ```batch
-PowerShell (New-Object System.Net.WebClient).DownloadFile('https://github.com/woytu/woytu.github.io/releases/download/v1.0/7za.exe','d:\\7za.exe')
+(New-Object System.Net.WebClient).DownloadFile('https://github.com/woytu/woytu.github.io/releases/download/v1.0/7za.exe','d:\\7za.exe')
+```
+
+- 恢复计算器
+
+```powershell
+Get-AppxPackage *calculator* -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 ```
 
 
