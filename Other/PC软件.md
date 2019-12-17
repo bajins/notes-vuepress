@@ -114,31 +114,6 @@
 
 
 
-## 文本编辑器
-
-* [C#写的记事本](https://github.com/topics/notepad?l=c%23)
-
-* [C++写的记事本](https://github.com/topics/notepad?l=c%2B%2B)
-
-* [Notepad3](https://github.com/rizonesoft/Notepad3)
-
-* [notepad2](https://github.com/zufuliu/notepad2)
-
-* [https://www.scintilla.org](https://www.scintilla.org)
-
-* [http://www.pnotepad.org](http://www.pnotepad.org)
-
-* [https://www.sublimetext.com](https://www.sublimetext.com)
-
-* [http://www.sublimetext.cn](http://www.sublimetext.cn)
-
-* [sublimetext破解](https://www.abbeyok.com/archives/337)
-
-* [sublime-text-3-license-key](http://blog.jdk5.com/zh/sublime-text-3-license-key)
-
-* [Sublime Text3 注册码激活码](https://blog.csdn.net/qq_29819449/article/details/80130327)
-
-
 ## office
 
 * [https://github.com/YerongAI/Office-Tool](https://github.com/YerongAI/Office-Tool)
@@ -202,35 +177,45 @@
 
 * [http://wenlei.ys168.com](http://wenlei.ys168.com)
 
-- Internet Download Manager
 
-0. https://eyun.baidu.com/s/3miwISp6 密码：3131
-
-1. https://www.lanzous.com/b134572/
-
-2. https://yunpan.360.cn/surl_ymsGF6zWGcP （提取码：805b）
-
-3. https://www.lanzous.com/b0i6zkze
-
-- Photoshop CC
-
-0. https://eyun.baidu.com/s/3mizNp4O 密码：3131
-
-1. https://yunpan.360.cn/surl_ydDgKwXKPSf （提取码：0be6）
-
-2. https://cloud.189.cn/t/UneM3imEJj2u（访问码：0224）
-
-- StartIsBack++
-
-0. https://eyun.baidu.com/s/3eTL5mMY 密码：3131
-
-1. https://www.lanzous.com/b279570/
-
-2. https://yunpan.360.cn/surl_ymKSxmH5PbY （提取码：298e）
+---
 
 
-- 福昕PDF阅读器
+**Internet Download Manager**
 
-0. https://eyun.baidu.com/s/3bozPGmV 密码：3131
+0. [https://eyun.baidu.com/s/3miwISp6](https://eyun.baidu.com/s/3miwISp6) 密码：3131
 
-1. https://yunpan.360.cn/surl_ydQx6xDvQyG 提取码：39db
+1. [https://www.lanzous.com/b134572](https://www.lanzous.com/b134572)
+
+2. [https://yunpan.360.cn/surl_ymsGF6zWGcP](https://yunpan.360.cn/surl_ymsGF6zWGcP) （提取码：805b）
+
+3. [https://www.lanzous.com/b0i6zkze](https://www.lanzous.com/b0i6zkze)
+
+
+
+**Photoshop CC**
+
+0. [https://eyun.baidu.com/s/3mizNp4O](https://eyun.baidu.com/s/3mizNp4O) 密码：3131
+
+1. [https://yunpan.360.cn/surl_ydDgKwXKPSf](https://yunpan.360.cn/surl_ydDgKwXKPSf) （提取码：0be6）
+
+2. [https://cloud.189.cn/t/UneM3imEJj2u](https://cloud.189.cn/t/UneM3imEJj2u)（访问码：0224）
+
+
+
+**StartIsBack++**
+
+0. [https://eyun.baidu.com/s/3eTL5mMY](https://eyun.baidu.com/s/3eTL5mMY) 密码：3131
+
+1. [https://www.lanzous.com/b279570](https://www.lanzous.com/b279570)
+
+2. [https://yunpan.360.cn/surl_ymKSxmH5PbY](https://yunpan.360.cn/surl_ymKSxmH5PbY) （提取码：298e）
+
+
+**福昕PDF阅读器**
+
+0. [https://eyun.baidu.com/s/3bozPGmV](https://eyun.baidu.com/s/3bozPGmV) 密码：3131
+
+1. [https://yunpan.360.cn/surl_ydQx6xDvQyG](https://yunpan.360.cn/surl_ydQx6xDvQyG) 提取码：39db
+
+
