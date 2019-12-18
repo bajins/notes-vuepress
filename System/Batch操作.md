@@ -277,7 +277,7 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 
 > 把软件的快捷方式或者软件直接放在以下目录中就会开机自动运行
 
-> 可利用[脚本添加快捷方式](/VPS/BAT脚本.md#添加快捷方式)直接在启动文件夹中生成快捷方式
+> 可利用[脚本添加快捷方式](/System/BAT脚本.md#添加快捷方式)直接在启动文件夹中生成快捷方式
 
 > 按`win+r`打开运行窗口，输入`shell:startup`打开启动文件夹，把快捷方式或者软件放入
 
