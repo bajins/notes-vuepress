@@ -6,6 +6,25 @@
 
 
 
+
+
+## flag
+
+* [Babel 是一个JavaScript转换编译器](https://babeljs.io) [https://www.babeljs.cn](https://www.babeljs.cn)
+
+* [压缩或编码解码库](https://github.com/photopea)
+
+* [压缩](https://github.com/nodeca/pako)
+
+* [https://github.com/Stuk/jszip](https://github.com/Stuk/jszip)
+
+* [使浏览器支持require](https://github.com/browserify)
+
+* [ECMAScript支持度检测](https://github.com/ruanyf/es-checker)
+
+
+
+
 ## 手册
 
 > `HTML`网页中，浏览器通过`script`标签加载脚本的默认语言是`JavaScript`，因此`type="application/javascript"`可以省略。
@@ -21,16 +40,6 @@
 * [es6支持情况](http://kangax.github.io/compat-table/es6)
 
 * [检查JavaScript文件中的ES版本](https://github.com/dollarshaveclub/es-check)
-
-* [ECMAScript支持度检测](https://github.com/ruanyf/es-checker)
-
-* [压缩或编码解码库](https://github.com/photopea)
-
-* [压缩](https://github.com/nodeca/pako)
-
-* [https://github.com/Stuk/jszip](https://github.com/Stuk/jszip)
-
-* [使浏览器没支持require](https://github.com/browserify)
 
 
 ## ECMAScript6启用
