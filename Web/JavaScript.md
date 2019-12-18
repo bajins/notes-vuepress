@@ -22,7 +22,7 @@
 
 * [ECMAScript支持度检测](https://github.com/ruanyf/es-checker)
 
-
+* [现代化的拷贝文字](http://www.clipboardjs.cn)
 
 
 ## 手册

@@ -404,7 +404,7 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 自定义命名 
 - 替换默认记事本
 
 ```batch
-REG ADD "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /t REG_SZ /d "\"%ProgramFiles(x86)%\Notepad3\notepad3.exe\" -notepadStyleCmdline -z" /f
+REG ADD "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /t REG_SZ /d "\"记事本程序路径\" -z" /f
 ```
 
 

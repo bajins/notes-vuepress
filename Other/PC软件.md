@@ -171,14 +171,41 @@
 
 * [显示当前网速、CPU及内存利用率的桌面悬浮窗软件](https://github.com/zhongyang219/TrafficMonitor)
 
-* [剪切板增强工具ClipboardFusion](https://www.clipboardfusion.com/Download/)
-
-* [推荐：Windows剪贴板工具Ditto](https://ditto-cp.sourceforge.io/)
-
 * [http://wenlei.ys168.com](http://wenlei.ys168.com)
+
+* [简化快捷键](https://szzhiyang.github.io)
 
 
 ---
+
+
+**剪贴板**
+
+* [https://github.com/hluk/CopyQ](https://github.com/hluk/CopyQ)
+
+> 可设置`Win + v`快捷键
+
+
+* [https://www.clipboardfusion.com](https://www.clipboardfusion.com)
+
+* [https://clipber.com](https://clipber.com)
+
+* [https://ditto-cp.sourceforge.io](https://ditto-cp.sourceforge.io)
+[http://ditto-cp.sourceforge.net](http://ditto-cp.sourceforge.net)
+
+* [https://www.nakka.com/soft/clcl/index_eng.html](https://www.nakka.com/soft/clcl/index_eng.html)
+
+* [https://github.com/Carson-Shook/Winclipper](https://github.com/Carson-Shook/Winclipper)
+
+* [https://ccyixia.com](https://ccyixia.com)
+
+* [https://www.52pojie.cn/thread-953460-1-1.html](https://www.52pojie.cn/thread-953460-1-1.html)
+
+* [http://1clipboard.io](http://1clipboard.io)
+
+
+* [https://copiedapp.com](https://copiedapp.com)
+
 
 
 **Internet Download Manager**
