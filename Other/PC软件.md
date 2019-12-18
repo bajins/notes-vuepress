@@ -163,23 +163,8 @@
 
 
 
-## other
 
-* [https://www.sandboxie.com](https://www.sandboxie.com)
-
-* [FFmpeg-视频编辑](https://github.com/FFmpeg/FFmpeg)
-
-* [显示当前网速、CPU及内存利用率的桌面悬浮窗软件](https://github.com/zhongyang219/TrafficMonitor)
-
-* [http://wenlei.ys168.com](http://wenlei.ys168.com)
-
-* [简化快捷键](https://szzhiyang.github.io)
-
-
----
-
-
-**剪贴板**
+## 剪贴板
 
 * [https://github.com/hluk/CopyQ](https://github.com/hluk/CopyQ)
 
@@ -205,6 +190,27 @@
 
 
 * [https://copiedapp.com](https://copiedapp.com)
+
+
+
+
+## other
+
+* [https://www.sandboxie.com](https://www.sandboxie.com)
+
+* [FFmpeg-视频编辑](https://github.com/FFmpeg/FFmpeg)
+
+* [显示当前网速、CPU及内存利用率的桌面悬浮窗软件](https://github.com/zhongyang219/TrafficMonitor)
+
+* [http://wenlei.ys168.com](http://wenlei.ys168.com)
+
+* [简化快捷键](https://szzhiyang.github.io)
+
+
+
+
+---
+
 
 
 
