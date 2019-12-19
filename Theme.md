@@ -73,3 +73,7 @@
 [wrapper.styl#L2-L3](https://github.com/woytu/UseNotes-vuepress/blob/2552a64d889a50aee0bdef057f6b163efdbccb08/.vuepress/theme/styles/wrapper.styl#L2-L3)
 
 [wrapper.styl#L6-L7](https://github.com/woytu/UseNotes-vuepress/blob/a94627c1456f35c3b9d8c83de929b7b67b7b53d6/.vuepress/theme/styles/wrapper.styl#L6-L7)
+
+[Home.vue#L33-L45](https://github.com/woytu/UseNotes-vuepress/blob/a5da05776beda3a2fcdad3f8f834636fd3df2a20/.vuepress/theme/components/Home.vue#L33-L45)
+
+
