@@ -79,6 +79,9 @@
 
 ## IDEA与Eclipse快捷键对应关系
 
+* [https://github.com/AJLoveChina/idea-shortcuts-guide](https://github.com/AJLoveChina/idea-shortcuts-guide)
+
+
 | 功能                                             	| IDEA                                      	| Eclipse                                     	|
 |--------------------------------------------------	|-------------------------------------------	|---------------------------------------------	|
 | 查找（一样）                                     	| Ctrl + F                                  	| Ctrl + F                                    	|

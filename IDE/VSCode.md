@@ -14,6 +14,8 @@
 
 * [VSCode教程](https://www.php.cn/tool/vscode)
 
+
+
 ## 设置
 
 
@@ -51,7 +53,10 @@
 > 进入设置，搜索`prevent`，取消此选项的勾选
 
 
+
 ## VSCode快捷键
+
+* [https://github.com/EdisonLeeeee/VSCode-keybord-shortcuts](https://github.com/EdisonLeeeee/VSCode-keybord-shortcuts)
 
 
 ### 常用`General`

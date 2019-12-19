@@ -18,6 +18,15 @@ https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extens
 
 * [https://www.netlify.com](https://www.netlify.com)
 
+* [Adobe Photoshop键盘快捷键](https://helpx.adobe.com/cn/photoshop/using/default-keyboard-shortcuts.html)
+
+* [Photoshop快捷键大全](http://www.ip138.com/photoshop)
+
+* [最详细的PS快捷键大全](http://www.360doc.com/content/19/0507/02/9060464_833889392.shtml)
+
+
+
+
 
 ## 在线接收短信
 
