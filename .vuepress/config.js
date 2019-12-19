@@ -1,15 +1,7 @@
 const utils = require('./utils')
-
+// https://v1.vuepress.vuejs.org/zh/config
 module.exports = {
-    // 部署站点的基础路径，如果你想让你的网站部署到一个子路径下，你将需要设置它。如 GitHub pages，
-    // 如果你想将你的网站部署到 https://woytu.github.io/UseNotes/，那么 UseNotes 应该被设置成 "/UseNotes/"，
-    // 它的值应当总是以斜杠开始，并以斜杠结束。UseNotes 将会自动地作为前缀插入到所有以 / 开始的其他选项的链接中，所以你只需要指定一次。
-    // 这里我部署到https://woytu.github.io下，因为是仓库根目录所以就直接是/，其实默认就是/，可以不用设置此值。
-    // base: '/UseNotes/',
     base: '/',
-    // 指定 VuePress build 的输出目录。如果传入的是相对路径，则会基于 process.cwd() 进行解析。
-    // 与package.json中的scripts配置编译路径配合使用
-    dest: './docs',
     locales: {
         // 键名是该语言所属的子路径
         // 作为特例，默认语言可以使用 '/' 作为其路径。
@@ -20,19 +12,23 @@ module.exports = {
             description: '个人笔记',
         }
     },
-    // 额外的需要被注入到当前页面的 HTML <head> 中的标签，每个标签都可以以 [tagName, { attrName: attrValue }, innerHTML?] 的格式指定
+    // 额外的需要被注入到当前页面的 HTML <head> 中的标签
     head: [
-        ['link', {rel: 'icon', href: `/images/icons/logo.png`}],
+        ['link', {rel: 'icon', href: '/images/icons/logo.png'}],
+        ['link', {rel: 'apple-touch-icon', href: '/images/icons/logo.png'}],
+        // ['link', {rel: 'mask-icon', href: '/images/icons/safari-pinned-tab.svg', color: '#3eaf7c'}],
+        // https://developer.mozilla.org/zh-CN/docs/Mozilla/Add-ons/WebExtensions/manifest.json
         ['link', {rel: 'manifest', href: '/manifest.json'}],
         ['meta', {name: 'theme-color', content: '#3eaf7c'}],
         ['meta', {name: 'apple-mobile-web-app-capable', content: 'yes'}],
         ['meta', {name: 'apple-mobile-web-app-status-bar-style', content: 'black'}],
-        ['link', {rel: 'apple-touch-icon', href: `/images/icons/apple-touch-icon-152x152.png`}],
-        ['link', {rel: 'mask-icon', href: '/images/icons/safari-pinned-tab.svg', color: '#3eaf7c'}],
-        ['meta', {name: 'msapplication-TileImage', content: '/images/icons/msapplication-icon-144x144.png'}],
-        ['meta', {name: 'msapplication-TileColor', content: '#000000'}]
+        ['meta', {name: 'msapplication-TileImage', content: '/images/icons/logo.png'}],
+        ['meta', {name: 'msapplication-TileColor', content: '#ffffff'}]
     ],
     theme: '',
+    // 指定 VuePress build 的输出目录。如果传入的是相对路径，则会基于 process.cwd() 进行解析。
+    // 与package.json中的scripts配置编译路径配合使用
+    dest: './docs',
     themeConfig: {
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL,当你提供了 themeConfig.repo 选项，
         // 将会自动在每个页面的导航栏生成生成一个 GitHub 链接，以及在页面的底部生成一个 "Edit this page" 链接。
