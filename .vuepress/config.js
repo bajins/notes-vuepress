@@ -2,16 +2,6 @@ const utils = require('./utils')
 // https://v1.vuepress.vuejs.org/zh/config
 module.exports = {
     base: '/',
-    locales: {
-        // 键名是该语言所属的子路径
-        // 作为特例，默认语言可以使用 '/' 作为其路径。
-        '/': {
-            lang: 'zh-CN',// 将会被设置为 <html> 的 lang 属性
-            // 没有声明 title 或者 description，VuePress 将会尝试使用配置顶层的对应值
-            title: 'Bajins',
-            description: '个人笔记',
-        }
-    },
     // 额外的需要被注入到当前页面的 HTML <head> 中的标签
     head: [
         ['link', {rel: 'icon', href: '/images/icons/logo.png'}],
@@ -29,6 +19,16 @@ module.exports = {
     // 指定 VuePress build 的输出目录。如果传入的是相对路径，则会基于 process.cwd() 进行解析。
     // 与package.json中的scripts配置编译路径配合使用
     dest: './docs',
+    locales: {
+        // 键名是该语言所属的子路径
+        // 作为特例，默认语言可以使用 '/' 作为其路径。
+        '/': {
+            lang: 'zh-CN',// 将会被设置为 <html> 的 lang 属性
+            // 没有声明 title 或者 description，VuePress 将会尝试使用配置顶层的对应值
+            title: 'Bajins',
+            description: '个人笔记',
+        }
+    },
     themeConfig: {
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL,当你提供了 themeConfig.repo 选项，
         // 将会自动在每个页面的导航栏生成生成一个 GitHub 链接，以及在页面的底部生成一个 "Edit this page" 链接。
