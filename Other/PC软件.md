@@ -64,6 +64,8 @@
 * [http://pandownload.com](http://pandownload.com)
 
 
+
+
 ## 播放器
 
 * [foobar2000](http://blog.sina.com.cn/go2spa)
@@ -105,6 +107,58 @@
 
 
 * [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
+
+
+
+## 图片
+
+### Gif软件
+
+* [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases)
+
+* [Honeycam](https://www.bandisoft.com/honeycam)
+
+* [http://www.bahraniapps.com](http://www.bahraniapps.com)
+
+
+### Icon图标
+
+* [IcoFx官网](https://icofx.ro)
+
+* [Axialis-IconWorkshop 官网](https://www.axialis.com/download/#software)
+
+
+### 截图
+
+**FastStone Capture**
+
+* [FastStone Capture官网](https://www.faststone.org/download.htm)
+
+> 官网被屏蔽，官方下载地址：`http://www.faststonesoft.net/DN/FSCaptureSetup93.exe`两位数字是版本号
+
+- 使用说明
+
+> 先安装`FSCaptureSetup`程序，安装完成后先不要运行，把下载的汉化文件覆盖到安装目录然后再运行
+
+- 注册码
+
+```
+用户名：1028 
+注册码：AXJQI-RWMDW-YBXZC-LOPHI
+
+企业版序列号：
+用户名：bluman
+注册码：VPISCJULXUFGDDXYAUYF
+
+用户名：TEAM_BRAiGHTLiNG_2007
+注册码：XPNMF-ISDYF-LCSED-BPATU
+注册码：RPTME-IMDHD-MIEPX-VLXAW
+
+用户名：www.orsoon.com
+注册码：AXSQR-RNMXG-CVOPF-FKXHY
+```
+
+
 
 ## 压缩
 

@@ -47,6 +47,9 @@
 
 * [PyOne基于Python的onedrive文件本地化浏览系统](https://github.com/abbeyokgo/PyOne)
 
+* [https://github.com/cloudreve](https://github.com/cloudreve)
+
+
 * [萌音影视 - 在线影视应用](https://github.com/178146582/moeins)
 [安装教程](https://www.moerats.com/archives/744/)
 
