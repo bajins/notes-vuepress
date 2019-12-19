@@ -145,6 +145,8 @@ chrome://flags/#enable-parallel-downloading
 
 * [清除浏览器历史记录/缓存/Cookie：chrome-cleaner](https://chrome.google.com/webstore/detail/chrome-cleaner/lbpddeimojmbpkbfckjpnbpehgnbpnnl)
 
+* [https://github.com/adam-p/markdown-here](https://github.com/adam-p/markdown-here)
+
 
 ## 账号数据迁移
 
