@@ -10,27 +10,28 @@
 
 | 博客                                                                 	| 论坛/Telegram/直链                                                 	|
 |----------------------------------------------------------------------	|--------------------------------------------------------------------	|
-| [CRACKSurl](http://cracksurl.com/)                                   	| [JIKE](https://jike.info/)                                         	|
-| [QiuQuan's Blog](http://www.qiuquan.cc/)                             	| [睿派克技术论坛](https://www.repaik.com/)                          	|
-| [th_sjy](http://www.th-sjy.com/)                                     	| [52破解](https://www.52pojie.cn/)                                  	|
+| [CRACKSurl](http://cracksurl.com)                                   	| [JIKE](https://jike.info)                                         	|
+| [QiuQuan's Blog](http://www.qiuquan.cc)                             	| [睿派克技术论坛](https://www.repaik.com)                          	|
+| [th_sjy](http://www.th-sjy.com)                                     	| [52破解](https://www.52pojie.cn)                                  	|
 | [v5pc](http://www.v5pc.com/category/syrj)                            	|                                                                    	|
-| [大眼仔旭](http://www.dayanzai.me/)                                  	| [https://t.me/s/wuaipojie](https://t.me/s/wuaipojie)               	|
-| [反斗软件](http://www.apprcn.com/)                                   	| [https://t.me/s/infosaodaye](https://t.me/s/infosaodaye)           	|
-| [果核剥壳](http://www.ghpym.com/)                                   	|                                                                    	|
-| [胡萝卜周](http://www.carrotchou.blog/)                              	| [瓜子云](https://yun.naodai.org/Software/)                         	|
-| [懒得勤快的博客](https://masuit.com/misc/5)                          	| [fxxkmakeding](https://www.fxxkmakeding.xyz/)                      	|
-| [绿软博客](http://liujin-greensoft.lofter.com/)                      	| [https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367) 	|
-| [殁漂遥](https://www.mpyit.com/)                                     	|                                                                    	|
-| [奇客小栈](http://www.geekotg.com/)                                  	|                                                                    	|
-| [轻狂志](http://www.flighty.cn/)                                     	|                                                                    	|
-| [伤逝的安详](https://www.ssdax.com/)                                 	|                                                                    	|
+| [大眼仔旭](http://www.dayanzai.me)                                  	| [https://t.me/s/wuaipojie](https://t.me/s/wuaipojie)               	|
+| [反斗软件](http://www.apprcn.com)                                   	| [https://t.me/s/infosaodaye](https://t.me/s/infosaodaye)           	|
+| [果核剥壳](http://www.ghpym.com)                                   	|                                                                    	|
+| [胡萝卜周](http://www.carrotchou.blog)                              	| [瓜子云](https://yun.naodai.org/Software)                         	|
+| [懒得勤快](https://masuit.com/misc/5)                          	| [fxxkmakeding](https://www.fxxkmakeding.xyz)                      	|
+| [绿软博客](http://liujin-greensoft.lofter.com)                      	| [https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367) 	|
+| [殁漂遥](https://www.mpyit.com)                                     	|                                                                    	|
+| [奇客小栈](http://www.geekotg.com)                                  	|                                                                    	|
+| [轻狂志](http://www.flighty.cn)                                     	|                                                                    	|
+| [伤逝的安详](https://www.ssdax.com)                                 	|                                                                    	|
 | [释怀](https://shiove.com/c/9tk)                                     	|                                                                    	|
 | [宋永志博客](http://www.songyongzhi.com/SystemTool)                  	|                                                                    	|
-| [我天哪鸡哥](https://www.wotianna.com/)                              	|                                                                    	|
+| [我天哪鸡哥](https://www.wotianna.com)                              	|                                                                    	|
 | [下1个好软件](http://www.xia1ge.com)                                 	|                                                                    	|
-| [星空软件共享绿化园地](http://www.xingkbjm.com/)                     	|                                                                    	|
+| [星空软件共享绿化园地](http://www.xingkbjm.com)                     	|                                                                    	|
 | [飞扬时空作品](http://blog.sina.com.cn/s/blog_89a729a40102wjwp.html) 	|                                                                    	|
 | [翠竹成林](http://msbuild.cn/category/software)                      	|                                                                    	|
+| [https://www.423down.com](https://www.423down.com)                  	|                                                                    	|
 
 
 ## 下载器
@@ -62,6 +63,49 @@
 * [PanDownload网页版](https://baiduwangpan.com)
 
 * [http://pandownload.com](http://pandownload.com)
+
+
+---
+
+
+**BT**
+
+* [https://github.com/XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection)
+
+* [https://github.com/ngosang/trackerslist](https://github.com/ngosang/trackerslist)
+
+
+**迅雷**
+
+* [https://www.lanzous.com/b906590](https://www.lanzous.com/b906590)
+
+* [https://www.lanzous.com/b505936](https://www.lanzous.com/b505936)
+
+
+
+**aria2**
+
+* [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
+
+* [https://github.com/binux/yaaw](https://github.com/binux/yaaw)
+
+* [https://github.com/ziahamza/webui-aria2](https://github.com/ziahamza/webui-aria2)
+
+* [https://github.com/mayswind/AriaNg](https://github.com/mayswind/AriaNg)
+
+
+
+
+**Internet Download Manager**
+
+0. [https://eyun.baidu.com/s/3miwISp6](https://eyun.baidu.com/s/3miwISp6) 密码：3131
+
+1. [https://www.lanzous.com/b134572](https://www.lanzous.com/b134572)
+
+2. [https://yunpan.360.cn/surl_ymsGF6zWGcP](https://yunpan.360.cn/surl_ymsGF6zWGcP) （提取码：805b）
+
+3. [https://www.lanzous.com/b0i6zkze](https://www.lanzous.com/b0i6zkze)
+
 
 
 
@@ -100,7 +144,7 @@
 
 > (64-bit)https://get.daum.net/PotPlayer64/v4/Module/FFmpeg/FFmpegMininum64.dll
 
-* [Daum PotPlayer](http://daumpotplayer.com/download/)
+* [Daum PotPlayer](http://daumpotplayer.com/download)
 
 * [https://pan.lanzou.com/b112173](https://pan.lanzou.com/b112173)
 
@@ -162,9 +206,9 @@
 
 ## 压缩
 
-* [Bandizip](https://www.bandisoft.com/bandizip/)
+* [Bandizip](https://www.bandisoft.com/bandizip)
 
-* [PeaZip](https://www.peazip.org/)
+* [PeaZip](https://www.peazip.org)
 
 
 
@@ -186,13 +230,13 @@
 
 | MSDN                                                               	| 绿色精简                                              	|
 |--------------------------------------------------------------------	|-------------------------------------------------------	|
-| [http://msdn.itellyou.cn](http://msdn.itellyou.cn)                 	| [WINOS ](https://www.winos.me/)                       	|
-| [https://www.iruanmi.com/msdn](https://www.iruanmi.com/msdn)       	| [绿色系统](http://lvsexitong.com/)                    	|
-| [http://www.imsdn.cn](http://www.imsdn.cn)                         	| [网吧系统](http://down.lansedongli.com/)              	|
-| [https://uup.rg-adguard.net](https://uup.rg-adguard.net)           	| [twm000-导航页被定制可修改](http://twm000.top/)       	|
-| [https://www.repaik.com/win.html](https://www.repaik.com/win.html) 	| [Y-OS工作室-导航页被定制可修改](http://y-os.net/)     	|
-|                                                                    	| [十二星座-导航页被定制可修改](http://www.12xzzx.com/) 	|
-|                                                                    	| [icura](http://icura.cn/)                             	|
+| [http://msdn.itellyou.cn](http://msdn.itellyou.cn)                 	| [WINOS ](https://www.winos.me)                       	|
+| [https://www.iruanmi.com/msdn](https://www.iruanmi.com/msdn)       	| [绿色系统](http://lvsexitong.com)                    	|
+| [http://www.imsdn.cn](http://www.imsdn.cn)                         	| [网吧系统](http://down.lansedongli.com)              	|
+| [https://uup.rg-adguard.net](https://uup.rg-adguard.net)           	| [twm000-导航页被定制可修改](http://twm000.top)       	|
+| [https://www.repaik.com/win.html](https://www.repaik.com/win.html) 	| [Y-OS工作室-导航页被定制可修改](http://y-os.net)     	|
+|                                                                    	| [十二星座-导航页被定制可修改](http://www.12xzzx.com) 	|
+|                                                                    	| [icura](http://icura.cn)                             	|
 
 
 - win10数字激活
@@ -205,11 +249,11 @@
 
 | PE                                                                               	| 激活                                                                       	|
 |----------------------------------------------------------------------------------	|----------------------------------------------------------------------------	|
-| [微PE](http://www.wepe.com.cn/)                                                  	| [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)                 	|
-| [USBOS](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965&extra=page%3D1) 	| [人人客-微软产品](https://rrkee.com/microsoft/)                            	|
-| [光卡自己的 PE 项目](https://hikaricalyx.com/)                                   	| [windows10 product keys](https://www.windows10productkeys.info/#method1)   	|
+| [微PE](http://www.wepe.com.cn)                                                  	| [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)                 	|
+| [USBOS](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965&extra=page%3D1) 	| [人人客-微软产品](https://rrkee.com/microsoft)                            	|
+| [光卡自己的 PE 项目](https://hikaricalyx.com)                                   	| [windows10 product keys](https://www.windows10productkeys.info/#method1)   	|
 | [优启时代](http://www.uqi.me/catalog.asp?cate=1)                                 	| [03k.orgKMS服务](https://03k.org/kms.html)                                 	|
-|                                                                                  	| [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4/)                  	|
+|                                                                                  	| [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4)                  	|
 |                                                                                  	| [云萌 Windows 10 激活工具](https://tgsan.github.io/CMWTAT_Digital_Edition) 	|
 |                                                                                  	| [Windows10产品密钥](https://www.windows10productkeys.info/#method1)        	|
 |                                                                                  	| [零散坑KMS服务](https://03k.org/kms.html)                                  	|
@@ -264,19 +308,6 @@
 
 
 ---
-
-
-
-
-**Internet Download Manager**
-
-0. [https://eyun.baidu.com/s/3miwISp6](https://eyun.baidu.com/s/3miwISp6) 密码：3131
-
-1. [https://www.lanzous.com/b134572](https://www.lanzous.com/b134572)
-
-2. [https://yunpan.360.cn/surl_ymsGF6zWGcP](https://yunpan.360.cn/surl_ymsGF6zWGcP) （提取码：805b）
-
-3. [https://www.lanzous.com/b0i6zkze](https://www.lanzous.com/b0i6zkze)
 
 
 
