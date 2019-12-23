@@ -74,7 +74,7 @@ sed -i '1,50d' /var/log/ntp.log
 sed -i '1,50d' /var/log/audit/audit.log
 
 # 清除历史执行命令
-rm -rf ~/.bash_history
+history -cw && rm -rf ~/.bash_history
 
 # 清除系统登录成功的记录
 echo > /var/log/wtmp
