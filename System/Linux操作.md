@@ -218,7 +218,7 @@ nohup python3 ./index.py >/dev/null 2>&1 &
 
 **快捷键**
 
-> 所有的快捷键都是先按一下<kbd>Ctrl</kbd> + <kbd>B</kbd>松开再按其他按键
+> 所有的快捷键都是先按一下<kbd>Ctrl</kbd> + <kbd>B</kbd>松开，这时快捷键生效再按其他按键
 
 - <kbd>D</kbd> 快捷键可以退出当前终端窗口
 
