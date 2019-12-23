@@ -16,7 +16,10 @@
 
 * [https://mirrors.cloud.tencent.com/help/maven.html](https://mirrors.cloud.tencent.com/help/maven.html)
 
-- 阿里云
+
+**阿里云**
+
+* [https://maven.aliyun.com](https://maven.aliyun.com)
 
 ```xml
 <mirror>
@@ -27,7 +30,7 @@
 </mirror>
 ```
 
-- ibiblio
+**ibiblio**
 
 ```xml
 <mirror>
@@ -38,7 +41,7 @@
 </mirror>
 ```
 
-- 华为
+**华为**
 
 ```xml
 <mirror>
@@ -59,7 +62,7 @@
 </server>
 ```
 
-- repo1.maven.org
+**repo1.maven.org**
 
 ```xml
 <mirror>
@@ -70,7 +73,7 @@
 </mirror>
 ```
 
-- repo1.maven.apache.org
+**repo1.maven.apache.org**
 
 ```xml
 <mirror>
@@ -81,7 +84,7 @@
 </mirror>
 ```
 
-- repo2.maven.org
+**repo2.maven.org**
 
 ```xml
 <mirror>
@@ -92,7 +95,7 @@
 </mirror>
 ```
 
-- spring.io
+**spring.io**
 
 ```xml
 <mirror>
@@ -103,7 +106,7 @@
 </mirror>
 ```
 
-- uk.maven.org
+**uk.maven.org**
 
 ```xml
 <mirror>
@@ -114,7 +117,7 @@
 </mirror>
 ```
 
-- repository.jboss.org
+**repository.jboss.org**
 
 ```xml
 <mirror>
@@ -125,7 +128,7 @@
 </mirror>
 ```
 
-- Google
+**Google**
 
 ```xml
 <mirror>
@@ -136,7 +139,7 @@
 </mirror>
 ```
 
-- Maven china
+**Maven china**
 
 ```xml
 <mirror>
@@ -147,7 +150,7 @@
 </mirror>
 ```
 
-- Maven oschina
+**Maven oschina**
 
 ```xml
 <mirror>
