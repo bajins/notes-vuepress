@@ -9,7 +9,14 @@
 
 ## flag
 
+* [https://www.oracle.com/cn/downloads](https://www.oracle.com/cn/downloads)
+
+* [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
+
 * [mybatis](https://mybatis.org/mybatis-3/zh/index.html)
+
+* [http://www.rabbitmq.com](http://www.rabbitmq.com)
+
 
 
 ## maven镜像

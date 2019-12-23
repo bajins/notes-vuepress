@@ -7,6 +7,22 @@
 
 ## flag
 
+* [https://gitlab.com/xhang/gitlab/wikis/home](https://gitlab.com/xhang/gitlab/wikis/home)
+
+* [https://hub.docker.com/r/twang2218/gitlab-ce-zh](https://hub.docker.com/r/twang2218/gitlab-ce-zh)
+[https://github.com/twang2218/gitlab-ce-zh](https://github.com/twang2218/gitlab-ce-zh)
+
+* [https://github.com/gogs/gogs](https://github.com/gogs/gogs)
+
+* [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea)
+
+* [https://github.com/gitblit/gitblit](https://github.com/gitblit/gitblit)
+
+* [https://tortoisegit.org/download](https://tortoisegit.org/download)
+
+* [https://github.com/toptal/gitignore.io](https://github.com/toptal/gitignore.io)
+
+
 * [https://github.com/carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji)
 
 * [Github 上 emoji 表情的含义及使用规范](https://mkblog.cn/872)
