@@ -402,7 +402,7 @@ div:hover{
 
 * [过渡](https://www.w3school.com.cn/css3/css3_3dtransform.asp)
 
-- **属性**
+**属性**
 
 | 属性                           | 描述                                        | CSS |
 |------------------------------|-------------------------------------------|-----|
@@ -429,7 +429,7 @@ div:hover{
 | animation\-fill\-mode        | 规定对象动画时间之外的状态。                            | 3   |
 
 
-- **圆形进度条**
+**圆形进度条**
 
 * [circle-progress-bar](/files/circle-progress-bar.html)
 

@@ -35,7 +35,7 @@
 > `go build -ldflags="-H windowsgui"` 能隐藏黑窗口
 
 
-- **设置环境**
+**设置环境**
 
 > `GOOS` 目标可执行程序运行操作系统，支持`darwin`、`freebsd`、`linux`、`windows`
 
@@ -61,7 +61,7 @@ SET GOARCH=amd64
 SET GOARCH=arm
 ```
 
-- **执行编译**
+**执行编译**
 
 ```batch
 go build main.go

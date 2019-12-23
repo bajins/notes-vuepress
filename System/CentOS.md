@@ -27,7 +27,7 @@ yum remove 软件名
 >
 > 没指定路径，那就到源码路径执行make uninstall，如果最初的编译文件夹被删除了，还可以重新下载、编译，然后删除
 
-- **如果源码被删除就查找并删除**
+**如果源码被删除就查找并删除**
 
 ```bash
 find / -name 软件名称
@@ -37,7 +37,7 @@ find / -name 软件名称
 
 > 通过`checkinstall`管理编译安装过程
 
-- **使用`checkinstall`编译安装**
+**使用`checkinstall`编译安装**
 
 ```bash
 ./configure
@@ -57,7 +57,7 @@ checkinstall
 
 > 调用系统安装工具来安装第2步创建的安装包：`rpm -i`或`dpkg -i`
 
-- **卸载`checkinstall`安装的软件**
+**卸载`checkinstall`安装的软件**
 
 ```bash
 CentOS: rpm -e package_name
@@ -94,13 +94,13 @@ yum -y groupinstall chinese-support
 
 ### 设置中文utf8编码
 
-- **临时**
+**临时**
 
 ```bash
 export LANG=zh_CN.utf8
 ```
 
-- **长久**
+**长久**
 
 > CenOS7修改`vi /etc/locale.conf`文件
 >
@@ -119,14 +119,14 @@ localectl  set-locale LANG=zh_CN.utf8
 
 ### 设置vi显示行号
 
-- **编辑以下两个文件**
+**编辑以下两个文件**
 
 ```bash
 vi /etc/vimrc
 vi /etc/virc
 ```
 
-- **在开头或者末尾添加**
+**在开头或者末尾添加**
 
 ```bash
 set number
@@ -241,7 +241,7 @@ yum install -y which gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-dev
 
 ### 三方工具
 
-- **`figlet`**
+**`figlet`**
 
 > Linux下的命令行工具，我们经常会看到一些终端工具有一个字符Logo,这些Logo可以通过`Figlet`生成：
 
@@ -258,7 +258,7 @@ yum install -y figlet
 >
 > 实时显示时间`watch -n1 "date '+%D%n%T' |figlet -k"`
 
-- **`boxes`**
+**`boxes`**
 
 > 这个工具提供了 n 种样式，例如各种动物等，然后你输入的字符就放在这些图案的内部空白处。
 
@@ -274,7 +274,7 @@ echo [text] | boxes -d [style name]
 echo "Hello World" | boxes -d dog
 ```
 
-- **`Toilet`**
+**`Toilet`**
 
 > 可以输出更丰富的样式，它比 `figlet` 命令的效果更有艺术感。
 
@@ -373,7 +373,7 @@ firewall-cmd --zone=public --add-port=3306/tcp --permanent
 
 > `--permanent` 永久生效，没有此参数重启后失效
 
-- **配置`firewalld-cmd`**
+**配置`firewalld-cmd`**
 
 ```bash
 # 查看版本
@@ -611,7 +611,7 @@ yum --enablerepo=elrepo-kernel -y install kernel-ml-headers
 
 > `Error: kernel-ml-headers conflicts with kernel-headers-3.10.0-693.17.1.el7.x86_64`
 
-- **卸载原版内核`headers`**
+**卸载原版内核`headers`**
 
 > 需要先卸载原版内核`headers`，然后再安装最新版内核`headers`。
 

@@ -553,7 +553,7 @@ bitsadmin /transfer 任务名 /download /priority normal https://blog-static.cnb
 tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout] [-R] [-S srcaddr] [-4] [-6] target_name
 ```
 
-- **选项**
+**选项**
 
 - `-d` 指定不将 IP 地址解析到主机名称。
 - `-h maximum_hops` 指定跃点数以跟踪到称为 target_name 的主机的路由。
@@ -561,7 +561,7 @@ tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout] [-R] [-S srcaddr] [-4
 - `-w timeout` 等待 timeout 为每次回复所指定的毫秒数。
 - `target_name` 目标主机的名称或 IP 地址。
 
-- **示例**
+**示例**
 
 ```bash
 tracert www.woytu.com

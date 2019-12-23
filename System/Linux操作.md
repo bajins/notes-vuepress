@@ -14,6 +14,12 @@
 
 * [OSX操作指南](https://osx-guide.readthedocs.io/zh_CN/latest/)
 
+* [https://lamp.sh](https://lamp.sh)
+
+* [https://oneinstack.com](https://oneinstack.com)
+
+* [https://lnmp.org](https://lnmp.org)
+
 * [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625/)
 
 * [Linux工程师必备的88个监控工具](https://learn-linux.readthedocs.io/zh_CN/latest/maintenance/monitor/tools/80-linux-monitoring-tools.html)
@@ -29,6 +35,9 @@
 - 每个套接字连接的带宽使用：`iftop`、`iptraf`、`tcptrack`、`pktstat`、`netwatch`、`trafshow`、`jnettop`
 
 - `ntopng`
+
+
+
 
 
 ## 重装系统
@@ -139,60 +148,50 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 
 
-## 软件组合
-
-* [https://lamp.sh](https://lamp.sh)
-
-* [https://oneinstack.com](https://oneinstack.com)
-
-* [https://lnmp.org](https://lnmp.org)
-
-
-
-
 ## 后台运行
 
 ### `nohup`
 
-- **只输出错误日志**
+**只输出错误日志**
 
 ```bash
 nohup python3 ./index.py >/dev/null 2>index.log &
 ```
 
-- **不输出日志**
+**不输出日志**
 
 ```bash
 nohup python3 ./index.py >/dev/null 2>&1 &
 ```
 
-- **Linux的3种重定向**
+**Linux的3种重定向**
 
->`0`表示标准输入
+1. `0`表示标准输入
+
+2. `1`标准输出,在一般使用时，默认的是标准输出
+
+3. `2`标准错误信息输出
+
+> 可以用来指定需要重定向的标准输入或输出。
 >
->`1`标准输出,在一般使用时，默认的是标准输出
+> 将某个程序的错误信息输出到log文件中：`./index 2>index.log`。
 >
->`2`标准错误信息输出
->> 可以用来指定需要重定向的标准输入或输出。
->>
->> 将某个程序的错误信息输出到log文件中：./index 2>index.log。
->> 这样标准输出还是在屏幕上，但是错误信息会输出到log文件中。
->>
->> 另外，也可以实现0，1，2之间的重定向。`2>&1`：将错误信息重定向到标准输出。
+> 这样标准输出还是在屏幕上，但是错误信息会输出到log文件中。
+>
+> 另外，也可以实现0，1，2之间的重定向。`2>&1`：将错误信息重定向到标准输出。
 
-- **关于`/dev/null`文件**
+**关于`/dev/null`文件**
 
->Linux下还有一个特殊的文件/dev/null，它就像一个无底洞，所有重定向到它的信息都会消失得无影无踪。
-> 这一点非常有用，当我们不需要回显程序的所有信息时，就可以将输出重定向到/dev/null。
+> Linux下还有一个特殊的文件`/dev/null`，它就像一个无底洞，所有重定向到它的信息都会消失得无影无踪。
+> 这一点非常有用，当我们不需要回显程序的所有信息时，就可以将输出重定向到`/dev/null`。
 
 
 
 ### `tmux`
 
-> `tmux`是一款`Linux`下的终端复用工具，可以开启不同的终端窗口来将应用程序作为后台守护进程执行，
-> 即使远程连接的SSH断开也不会影响程序的执行。
+> `tmux`是一款`Linux`下的终端复用工具，可以开启不同的终端窗口来将应用程序作为后台守护进程执行，即使远程连接的SSH断开也不会影响程序的执行。
 
-1. `yum install tmux`
+1. `yum install -y tmux`
 2. 新建`tmux new -s 程序名称`；
 3. 在新终端窗口中执行`./程序名称`即可；
 4. 使用`Ctrl` + `B & D`快捷键可以退出当前终端窗口；
@@ -202,8 +201,7 @@ nohup python3 ./index.py >/dev/null 2>&1 &
 
 ### `supervisor`
 
-> `supervisor`是用`Python`开发的一套通用的进程管理程序，能将一个普通的命令行进程变为后台`daemon`，
-> 并监控进程状态，异常退出时能自动重启。
+> `supervisor`是用`Python`开发的一套通用的进程管理程序，能将一个普通的命令行进程变为后台`daemon`，并监控进程状态，异常退出时能自动重启。
 
 [http://supervisord.org](http://supervisord.org)
 
@@ -239,58 +237,58 @@ autorestart=true
 setsid python3 ./index.py >/dev/null 2>&1 &
 ```
 
-- **语法**
+**语法**
 
 - `setsid(选项)(参数)`
-> `-c`, `--ctty` 将控制终端设置为当前控制终端
->
-> `-f`, `--fork` 总是 fork
->
-> `-w`, `--wait` 等待程序退出，并使用相同的返回
+
+1. `-c`, `--ctty` 将控制终端设置为当前控制终端
+
+2. `-f`, `--fork` 总是`fork`
+
+3. `-w`, `--wait` 等待程序退出，并使用相同的返回
 
 
 
 ### screen
 
-> `Screen`是一款由 GNU 计划开发的用于命令行终端切换的自由软件。
-> 用户可以通过该软件同时连接多个本地或远程的命令行会话，并在其间自由切换。
-> GNU Screen 可以看作是窗口管理器的命令行界面版本。它提供了统一的管理多个会话的界面和相应的功能。 
+> `Screen`是一款由`GNU`计划开发的用于命令行终端切换的自由软件。用户可以通过该软件同时连接多个本地或远程的命令行会话，并在其间自由切换。
+> `GNU Screen`可以看作是窗口管理器的命令行界面版本。它提供了统一的管理多个会话的界面和相应的功能。 
 
-- **安装**
+**安装**
 
 ```bash
 yum install -y screen
 ```
 
-- **创建一个screen会话**
+**创建一个screen会话**
 
 ```bash
 screen -S 会话名称
 ```
 
-- **隐藏并保留当前会话**
+**隐藏并保留当前会话**
 
 - 按`Ctrl+A`，再按`D`键
 
-- **列出所有的会话列表**
+**列出所有的会话列表**
 
 ```bash
 screen -ls
 ```
 
-- **恢复会话窗口**
+**恢复会话窗口**
 
 ```bash
 screen -r 会话名称
 ```
 
-- **关闭会话窗口**
+**关闭会话窗口**
 
 ```bash
 exit
 ```
 
-- **选项**
+**选项**
 
 - `-A` 　将所有的视窗都调整为目前终端机的大小。
 
@@ -415,7 +413,7 @@ scp -P 22 -p -r -v /home/work/sourcedir work@www.myhost.com:/home/work/
 scp -P 22 -p root@192.168.214.187:/tmp/demo/f3.log /tmp/files/
 ```
 
-- **遇到的问题**
+**遇到的问题**
 
 > 输入密码时提示：`Permission denied, please try again.`
 
@@ -472,9 +470,10 @@ rsync -r -v --exclude sourcedir/notinclude /home/work/sourcedir work@www.myhost.
 
 
 
-## 性能及网速测试工具
+## 性能及网速测试
 
-### 一键测试脚本bench.sh
+
+### bench.sh
 
 > 这个是秋水逸冰老大的脚本，用于测试网络下载及主机IO性能测试。是网络上普遍使用的脚本，界面很漂亮。
 
@@ -482,7 +481,7 @@ rsync -r -v --exclude sourcedir/notinclude /home/work/sourcedir work@www.myhost.
 wget -qO- bench.sh | bash
 ```
 
-### 91yun的网络测试脚本
+### 91yun
 
 > 这个来自91yun的脚本，主要测试的是网络ping值及路由。
 
@@ -538,7 +537,7 @@ chmod +x superspeed.sh
 > ping使用了ICMP回送请求和回送应答报文。ping工具发出去的数据包没有通过tcp/udp协议，
 > 但是要经过ip协议。ping命令计算的时间是数据包的往返总时间。
 
-- **ping选项**
+**ping选项**
 
 - `-c num`  表示使用ping发出去num个数据包
 
@@ -571,7 +570,7 @@ chmod +x superspeed.sh
 - `-t` 存活数值：设置存活数值TTL的大小。设定数据包在网络上传输的Time To Live（TTL）生命周期
 
 
-- **ping示例**
+**ping示例**
 
 ```
 ping -c 3 -s 512 www.woytu.com  #表示向www.bnxb.com发送3个512B大小的数据包，来进行网络探测  
@@ -581,7 +580,7 @@ ping -f www.woytu.com           #快速ping
 
 ### traceroute
 
-- **traceroute选项**
+**traceroute选项**
 
 - `-d` 使用Socket层级的排错功能。
 - `-f` 设置第一个检测数据包的存活数值TTL的大小。
@@ -602,13 +601,13 @@ ping -f www.woytu.com           #快速ping
 - `-w` 设置等待远端主机回报的时间。
 - `-x` 开启或关闭数据包的正确性检验。
 
-- **安装**
+**安装**
 
 ```bash
 yum -y install traceroute
 ```
 
-- **示例**
+**示例**
 
 ```bash
 traceroute www.woytu.com
@@ -620,7 +619,7 @@ traceroute www.woytu.com
 
 ### tcptraceroute
 
-- **tcptraceroute选项**
+**tcptraceroute选项**
 
 - `-i` 指定接口
 
@@ -644,13 +643,13 @@ traceroute www.woytu.com
 
 - `des port` 可选选项，默认使用目的地址的80端口
 
-- **安装**
+**安装**
 
 ```bash
 yum -y install tcptraceroute
 ```
 
-- **示例**
+**示例**
 
 ```bash
 tcptraceroute www.woytu.com 443 -n -q 1
@@ -671,7 +670,7 @@ tcptraceroute www.woytu.com 443 -n -q 1
 > 注意：MTR使用的raw sockets是绕过TCP/IP协议，需要ROOT权限来执行，因此如果以普通用户身份来执行mtr会出错，
 > 提示“mtr: unable to get raw sockets”
 
-- **选项**
+**选项**
 
 - `-n` 不探测主机名,no-dns不对IP地址做主机名解析
 - `-r` 将mtr设置为报告模式，追踪结果以报告模式输出。若没有-r显现，那么将进入mtr的实时交互模式。  
@@ -682,19 +681,19 @@ tcptraceroute www.woytu.com 443 -n -q 1
 - `-4` IPv4
 - `-6` IPv6
 
-- **安装**
+**安装**
 
 ```bash
 yum -y install mtr
 ```
 
-- **使用格式**
+**使用格式**
 
 ```bash
 mtr [options] hostname
 ```
 
-- **示例**
+**示例**
 
 ```bash
 mtr -r www.woytu.com
@@ -711,7 +710,7 @@ mtr -r www.woytu.com
 
 
 
-## 解决网卡问题
+## 网卡
 
 ### MTU
 

@@ -102,7 +102,7 @@ ___
 
 ### 文本块
 
-- **语法1**
+**语法1**
 
 > 在连续几行的文本开头加入1个Tab或者4个空格。
 
@@ -110,7 +110,7 @@ ___
     很高兴见到您
     祝您，早上好，中午好，下午好，晚安
 
-- **语法2**
+**语法2**
 
 > 使用一对各三个的反引号
 
@@ -135,7 +135,7 @@ ___
 > 效果：`linux` `网络编程` `socket` `epoll`
 
 
-- **换行**
+**换行**
 
 > 直接回车不能换行，可以在上一行文本后面补两个空格，这样下一行的文本就换行了。
 >
@@ -197,7 +197,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 |1|`[我的博客](https://www.bajins.com "悬停显示")`|[我的博客](https://www.bajins.com "悬停显示")|
 |2|`[我的知乎][zhihu] `|[我的知乎][zhihu] |
 
-- **语法2由两部分组成**
+**语法2由两部分组成**
 - 第一部分使用两个中括号，[ ]里的标识符（本例中zhihu），可以是数字，字母等的组合，标识符上下对应就行了（**姑且称之为URL标识符**）
 - 第二部分标记实际URL。
 
@@ -274,7 +274,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 ### 有序列表
 
-- **一般效果**
+**一般效果**
 
 > 就是在数字后面加一个点，再加一个空格。不过看起来起来可能不够明显。    
 
@@ -285,7 +285,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 3. 多态
 
 
-- **多级有序列表**
+**多级有序列表**
 
 > 和无序列表一样，有序列表也有多级结构 
 

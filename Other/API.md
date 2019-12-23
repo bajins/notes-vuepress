@@ -119,7 +119,7 @@
 
 ## wallhaven
 
-- **搜索**
+**搜索**
 
 > https://wallhaven.cc/search?q=id%3A标签的ID&page=页数
 
@@ -130,22 +130,22 @@
 > 搜索亚洲，第一页：[https://wallhaven.cc/search?q=id%3A449&page=1](https://wallhaven.cc/search?q=id%3A449&page=1)
 
 
-- **最新**
+**最新**
 
 > https://wallhaven.cc/latest?page=2
 
 
-- **标签**
+**标签**
 
 > https://wallhaven.cc/tags
 
 
-- **保存**
+**保存**
 
 > https://w.wallhaven.cc/full/图片编号前两位/wallhaven-图片编号前两位.后缀
 
 
-- **图片详情**
+**图片详情**
 
 > https://wallhaven.cc/w/图片编号
 
@@ -159,7 +159,7 @@
 
 * [https://www.pexels.com/zh-cn](https://www.pexels.com/zh-cn)
 
-- **获取最新**
+**获取最新**
 
 - html
 
@@ -176,7 +176,7 @@
 > https://www.pexels.com/zh-cn/new-photos/?format=js&seed=2019-10-16+06:03:11+UTC&page=1&type=
 
 
-- **保存**
+**保存**
 
 > 图片编号以`10000`为起始位置
 
@@ -189,7 +189,7 @@
 >>
 >> 参数`dl`的值为文件名
 
-- **图片详细信息**
+**图片详细信息**
 
 > https://www.pexels.com/zh-cn/photo/图片编号
 
@@ -244,7 +244,7 @@
 
 ## alphacoders
 
-- **搜索**
+**搜索**
 
 > https://wall.alphacoders.com/by_sub_category.php?id=169040&name=名称&filter=分辨率过滤&page=页数
 
@@ -255,13 +255,13 @@
 > 搜索女性，4K高清，第一页：[https://wall.alphacoders.com/by_category.php?id=33&name=Women&filter=4K+Ultra+HD&page=1](https://wall.alphacoders.com/by_category.php?id=33&name=Women&filter=4K+Ultra+HD&page=1)
 
 
-- **精选**
+**精选**
 
 > https://wall.alphacoders.com/featured.php?page=1
 
 
 
-- **保存**
+**保存**
 
 > https://initiate.alphacoders.com/download/wallpaper/图片编号/images2/jpg
 

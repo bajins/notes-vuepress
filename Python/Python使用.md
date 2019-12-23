@@ -145,7 +145,7 @@ pip install --requirement requirements.txt
 
 ### 更新
 
-- **更新pip**
+**更新pip**
 
 ```bash
 python -m pip install --upgrade pip setuptools
@@ -157,7 +157,7 @@ python -m pip install --upgrade pip setuptools
 pip3 install --ignore-installed 模块名
 ```
 
-- **查看可更新的库**
+**查看可更新的库**
 
 ```bash
 pip list -o
@@ -166,13 +166,13 @@ pip list --outdated
 pip list --outdated --format=columns
 ```
 
-- **更新单个库**
+**更新单个库**
 
 ```bash
 pip install --upgrade 要升级的包名
 ```
 
-- **批量更新库**
+**批量更新库**
 
 * [使用pip升级所有包](https://www.codenong.com/2720014/)
 

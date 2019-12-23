@@ -180,7 +180,7 @@ printf "%x\n" 值
 ## 进程与线程
 
 
-- **查看系统进程和线程限制**
+**查看系统进程和线程限制**
 
 
 - 查看系统允许的最大线程数
@@ -218,13 +218,13 @@ cat /proc/sys/vm/max_map_count
 
 
 
-- **查看进程的信息**
+**查看进程的信息**
 
 ```bash
 cat /proc/进程PID/status
 ```
 
-- **查看线程树**
+**查看线程树**
 
 > 如果不跟进程PID就查看系统中所有的进行线程树
 
@@ -232,7 +232,7 @@ cat /proc/进程PID/status
 pstree -p 进程PID
 ```
 
-- **查看进程中的线程**
+**查看进程中的线程**
 
 > `top -p 进程PID` 再按`Shift+h`（也就是大写`H`）
 
@@ -247,7 +247,7 @@ top -Hp 进程PID
 ```
 
 
-- **查看线程列表**
+**查看线程列表**
 
 > 查看所有存在的线程
 
@@ -255,7 +255,7 @@ top -Hp 进程PID
 ps xH
 ```
 
-- **查看线程数量**
+**查看线程数量**
 
 ```bash
 pstree -p | wc -l
@@ -270,7 +270,7 @@ ls /proc/进程PID/task | wc -l
 ```
 
 
-- **查看进程下的线程状态**
+**查看进程下的线程状态**
 
 ```bash
 ps -mp 进程PID -o THREAD,tid,time | sort -rn
@@ -279,14 +279,14 @@ ps -mp 进程PID -o THREAD,tid,time | sort -rn
 
 ## 开机启动
 
-- **添加命令到/etc/rc.local文件末尾**
+**添加命令到/etc/rc.local文件末尾**
 
 > 编辑`/etc/rc.local`或者`/etc/rc.d/rc.local`（前者是后者的软连接）文件，
 > 按`Shift + g`（就是大写的G）跳转到末尾添加运行命令
 >> 执行的程序需要写绝对路径，添加到系统环境变量的除外
 
 
-- **crontab**
+**crontab**
 
 ```bash
 crontab -e
@@ -295,9 +295,9 @@ crontab -e
 
 
 
-- **脚本文件放在/etc/profile.d/目录下**
+**脚本文件放在/etc/profile.d/目录下**
 
-- **chkconfig**
+**chkconfig**
 
 1、创建软连接或者复制脚本到`/etc/init.d/`或者`/etc/rc.d/init.d/`（前者是后者的软连接）下
 
@@ -739,7 +739,7 @@ grep -rl "XXX" --exclude="*.sql" ./* | wc -l
 
 ## 删除文件
 
-- **删除并排除文件**
+**删除并排除文件**
 
 ```bash
 find * | grep -v '\(*.jpg\|*.png)' | xargs rm
@@ -754,7 +754,7 @@ shopt -s extglob
 
 
 
-- **删除指定时间前的文件**
+**删除指定时间前的文件**
 
 ```bash
 # 统计目录下N天前的文件数量
@@ -778,7 +778,7 @@ find 目录 -mtime +天数 -name "*.tar.gz" | xargs -I {} rm -rf {}
 ```
 
 
-- **删除指定大小的文件**
+**删除指定大小的文件**
 
 
 > `-lt 50` 删除小于50KB的文件

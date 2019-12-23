@@ -779,7 +779,7 @@ function autoStart(mode) {
 
 ### vbs函数封装
 
-- **数组转换为字符串**
+**数组转换为字符串**
 
 ```visual-basic
 '数组转换为字符串
@@ -804,7 +804,7 @@ End Function
 ```
 
 
-- **获取对象的属性和值**
+**获取对象的属性和值**
 
 ```visual-basic
 ' 获取对象的属性和值
@@ -831,7 +831,7 @@ Public Function GetObjectPropertieValue(obj)
 End Function
 ```
 
-- **获取系统信息**
+**获取系统信息**
 
 ```visual-basic
 ' 获取系统位数
