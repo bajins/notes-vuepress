@@ -20,6 +20,21 @@
 * [https://github.com/ehcache/ehcache3](https://github.com/ehcache/ehcache3)
 
 
+## OpenJDK
+
+[https://jdk.java.net](https://jdk.java.net)
+
+[AdoptOpenJDK](https://adoptopenjdk.net/archive.html?variant=openjdk8&jvmVariant=hotspot)
+
+[Amazon Corretto](https://aws.amazon.com/cn/corretto/)
+[corretto](https://github.com/corretto)
+
+[Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)
+
+[Dragonwell8](https://github.com/alibaba/dragonwell8)
+
+
+
 ## maven镜像
 
 * [https://mirrors.cloud.tencent.com/help/maven.html](https://mirrors.cloud.tencent.com/help/maven.html)
