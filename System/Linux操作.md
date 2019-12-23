@@ -150,42 +150,6 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 ## 后台运行
 
-### `nohup`
-
-**只输出错误日志**
-
-```bash
-nohup python3 ./index.py >/dev/null 2>index.log &
-```
-
-**不输出日志**
-
-```bash
-nohup python3 ./index.py >/dev/null 2>&1 &
-```
-
-**Linux的3种重定向**
-
-1. `0`表示标准输入
-
-2. `1`标准输出,在一般使用时，默认的是标准输出
-
-3. `2`标准错误信息输出
-
-> 可以用来指定需要重定向的标准输入或输出。
->
-> 将某个程序的错误信息输出到log文件中：`./index 2>index.log`。
->
-> 这样标准输出还是在屏幕上，但是错误信息会输出到log文件中。
->
-> 另外，也可以实现0，1，2之间的重定向。`2>&1`：将错误信息重定向到标准输出。
-
-**关于`/dev/null`文件**
-
-> Linux下还有一个特殊的文件`/dev/null`，它就像一个无底洞，所有重定向到它的信息都会消失得无影无踪。
-> 这一点非常有用，当我们不需要回显程序的所有信息时，就可以将输出重定向到`/dev/null`。
-
-
 
 ### `tmux`
 
@@ -231,62 +195,6 @@ nohup python3 ./index.py >/dev/null 2>&1 &
 
 
 
-
-### `supervisor`
-
-> `supervisor`是用`Python`开发的一套通用的进程管理程序，能将一个普通的命令行进程变为后台`daemon`，并监控进程状态，异常退出时能自动重启。
-
-[http://supervisord.org](http://supervisord.org)
-
-- 常见配置如下
-
-```vim
-[program:程序名称]
-user=root
-command=/var/www/main
-stdout_logfile=/var/log/gf-app-stdout.log
-stderr_logfile=/var/log/gf-app-stderr.log
-autostart=true
-autorestart=true
-```
-
-- 使用步骤如下
-
-1. 使用`sudo service supervisor start`启动`supervisor`服务；
-
-2. 创建应用配置文件`/etc/supervisor/conf.d/程序名称.conf`, 内容如上;
-
-3. 使用`sudo supervisorctl`进入`supervisor`管理终端；
-
-4. 使用`reload`重新读取配置文件并重启当前`supoervisor`管理的所有进程；
-
-5. 也可以使用`update`重新加载配置(默认不重启)，随后使用`start 程序名称`启动指定的应用程序；
-
-6. 随后可以使用`status`指令查看当前`supervisor`管理的进程状态；
-
-
-
-### `setsid`
-
-> `setsid`就是`set session id`的意思。表示该命令运行的进程是一个新的`session`。因此其父进程不属于当前终端。
-> 实际上`setsid`运行的进程，其父进程id(ppid)为1(init进程的id)。
-
-```bash
-setsid python3 ./index.py >/dev/null 2>&1 &
-```
-
-**语法**
-
-- `setsid(选项)(参数)`
-
-1. `-c`, `--ctty` 将控制终端设置为当前控制终端
-
-2. `-f`, `--fork` 总是`fork`
-
-3. `-w`, `--wait` 等待程序退出，并使用相同的返回
-
-
-
 ### screen
 
 > `Screen`是一款由`GNU`计划开发的用于命令行终端切换的自由软件。用户可以通过该软件同时连接多个本地或远程的命令行会话，并在其间自由切换。
@@ -298,7 +206,7 @@ setsid python3 ./index.py >/dev/null 2>&1 &
 yum install -y screen
 ```
 
-**创建一个screen会话**
+**创建一个会话**
 
 ```bash
 screen -S 会话名称
@@ -306,7 +214,7 @@ screen -S 会话名称
 
 **隐藏并保留当前会话**
 
-- 按<kbd>Ctrl</kbd> + <kbd>A</kbd>，再按`D`键
+- 按<kbd>Ctrl</kbd> + <kbd>A</kbd>，再按<kbd>D</kbd>键
 
 **列出所有的会话列表**
 
@@ -351,6 +259,102 @@ exit
 - `-ls`或`--list` 　显示目前所有的screen作业。
 
 - `-wipe` 　检查目前所有的screen作业，并删除已经无法使用的screen作业。
+
+
+
+### `nohup`
+
+**只输出错误日志**
+
+```bash
+nohup python3 ./index.py >/dev/null 2>index.log &
+```
+
+**不输出日志**
+
+```bash
+nohup python3 ./index.py >/dev/null 2>&1 &
+```
+
+**Linux的3种重定向**
+
+1. `0`表示标准输入
+
+2. `1`标准输出,在一般使用时，默认的是标准输出
+
+3. `2`标准错误信息输出
+
+> 可以用来指定需要重定向的标准输入或输出。
+>
+> 将某个程序的错误信息输出到log文件中：`./index 2>index.log`。
+>
+> 这样标准输出还是在屏幕上，但是错误信息会输出到log文件中。
+>
+> 另外，也可以实现0，1，2之间的重定向。`2>&1`：将错误信息重定向到标准输出。
+
+**关于`/dev/null`文件**
+
+> Linux下还有一个特殊的文件`/dev/null`，它就像一个无底洞，所有重定向到它的信息都会消失得无影无踪。
+> 这一点非常有用，当我们不需要回显程序的所有信息时，就可以将输出重定向到`/dev/null`。
+
+
+
+
+
+### `setsid`
+
+> `setsid`就是`set session id`的意思。表示该命令运行的进程是一个新的`session`。因此其父进程不属于当前终端。
+> 实际上`setsid`运行的进程，其父进程id(ppid)为1(init进程的id)。
+
+```bash
+setsid python3 ./index.py >/dev/null 2>&1 &
+```
+
+**语法**
+
+- `setsid(选项)(参数)`
+
+1. `-c`, `--ctty` 将控制终端设置为当前控制终端
+
+2. `-f`, `--fork` 总是`fork`
+
+3. `-w`, `--wait` 等待程序退出，并使用相同的返回
+
+
+
+
+### `supervisor`
+
+> `supervisor`是用`Python`开发的一套通用的进程管理程序，能将一个普通的命令行进程变为后台`daemon`，并监控进程状态，异常退出时能自动重启。
+
+[http://supervisord.org](http://supervisord.org)
+
+- 常见配置如下
+
+```vim
+[program:程序名称]
+user=root
+command=/var/www/main
+stdout_logfile=/var/log/gf-app-stdout.log
+stderr_logfile=/var/log/gf-app-stderr.log
+autostart=true
+autorestart=true
+```
+
+- 使用步骤如下
+
+1. 使用`sudo service supervisor start`启动`supervisor`服务；
+
+2. 创建应用配置文件`/etc/supervisor/conf.d/程序名称.conf`, 内容如上;
+
+3. 使用`sudo supervisorctl`进入`supervisor`管理终端；
+
+4. 使用`reload`重新读取配置文件并重启当前`supoervisor`管理的所有进程；
+
+5. 也可以使用`update`重新加载配置(默认不重启)，随后使用`start 程序名称`启动指定的应用程序；
+
+6. 随后可以使用`status`指令查看当前`supervisor`管理的进程状态；
+
 
 
 
