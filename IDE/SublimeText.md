@@ -13,7 +13,7 @@
 
 ## 插件
 
-> 按`Ctrl + Shift + p`输入`install`选择`Package Control: Install Package`再输入插件名称
+> 按<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd>输入`install`选择`Package Control: Install Package`再输入插件名称
 
 
 - ChineseLocalizations

@@ -200,7 +200,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ## 自动编译
 
-- 同时按住`Ctrl + Shift + Alt + /`然后进入`Registry`，勾选自动编译并调整延时参数。
+- 同时按住<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>/</kbd>然后进入`Registry`，勾选自动编译并调整延时参数。
 
 ![](/images/IDEA自动编译-动态.png)
 
@@ -210,7 +210,8 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ## 去掉SQLXML局部背景色
 
-- 1.快捷键`ctrl + alt+ s`打开Settings。找到`Editor -> Inspections`的配置页面，去掉SQL中`No data sources configured`（没有配置数据源） 选项 和 `SQL dialect detection`（SQL方言检测） 选项。
+- 1.快捷键<kbd>ctrl<kbd> + <kbd>alt</kbd> + <kbd>s</kbd>打开Settings。找到`Editor -> Inspections`的配置页面，
+去掉SQL中`No data sources configured`（没有配置数据源）选项 和 `SQL dialect detection`（SQL方言检测） 选项。
 
 ![](/images/IDEA去掉SQL选项.png)
 

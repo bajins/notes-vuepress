@@ -218,15 +218,15 @@ nohup python3 ./index.py >/dev/null 2>&1 &
 
 **快捷键**
 
-> 所有的快捷键都是以`Ctrl + B`开头
+> 所有的快捷键都是先按一下<kbd>Ctrl</kbd> + <kbd>B</kbd>松开再按其他按键
 
-- <kbd>Ctrl</kbd> + <kbd>B</kbd> + <kbd>D</kbd> 快捷键可以退出当前终端窗口
+- <kbd>D</kbd> 快捷键可以退出当前终端窗口
 
-- <kbd>Ctrl</kbd> + <kbd>B</kbd> + <kbd>S</kbd> 列出所有会话，此时可通过方向键和回车键切换
+- <kbd>S</kbd> 列出所有会话，此时可通过方向键和回车键切换
 
-- <kbd>Ctrl</kbd> + <kbd>B</kbd> + <kbd>$</kbd> 重命名当前会话
+- <kbd>$</kbd> 重命名当前会话
 
-- <kbd>Ctrl</kbd> + <kbd>B</kbd> + <kbd>:new -s 会话名称</kbd> 创建并进入新的会话（不存在父子级关系）
+- <kbd>:new -s 会话名称</kbd> 创建并进入新的会话（不存在父子级关系）
 
 
 
@@ -306,7 +306,7 @@ screen -S 会话名称
 
 **隐藏并保留当前会话**
 
-- 按`Ctrl+A`，再按`D`键
+- 按<kbd>Ctrl</kbd> + <kbd>A</kbd>，再按`D`键
 
 **列出所有的会话列表**
 
@@ -593,7 +593,7 @@ chmod +x superspeed.sh
 
 - `-v` 详细显示指令的执行过程。
 
-- `-c` 数目：在发送指定数目的包后停止。LINUX的ping不会自动终止如果不指定这个参数就需要手动按ctrl+c终止
+- `-c` 数目：在发送指定数目的包后停止。LINUX的ping不会自动终止如果不指定这个参数就需要手动按<kbd>ctrl</kbd> + <kbd>c</kbd>终止
 
 - `-i` 秒数：设定间隔几秒送一个网络封包给一台机器，预设值是一秒送一次。
 
