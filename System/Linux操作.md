@@ -191,11 +191,44 @@ nohup python3 ./index.py >/dev/null 2>&1 &
 
 > `tmux`是一款`Linux`下的终端复用工具，可以开启不同的终端窗口来将应用程序作为后台守护进程执行，即使远程连接的SSH断开也不会影响程序的执行。
 
-1. `yum install -y tmux`
-2. 新建`tmux new -s 程序名称`；
-3. 在新终端窗口中执行`./程序名称`即可；
-4. 使用`Ctrl` + `B & D`快捷键可以退出当前终端窗口；
-5. 使用`tmux attach -t 程序名称`可进入到之前的终端窗口；
+* [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
+
+* [http://www.ruanyifeng.com/blog/2019/10/tmux.html](http://www.ruanyifeng.com/blog/2019/10/tmux.html)
+
+
+
+**命令**
+
+- `yum install -y tmux` 安装
+
+- `tmux new -s 会话名称` 新建会话
+
+- `tmux attach -t 程序名称` 可进入到已经创建的会话
+
+- `tmux ls` 列出所有会话
+
+- `tmux switch -t 会话名或会话编号` 切换会话
+
+- `tmux rename-session -t 会话名或会话编号 新会话名` 重命名会话
+
+- `tmux kill-session -t 会话名称` 关闭会话
+
+- `tmux kill-server` 关闭所有会话
+
+
+**快捷键**
+
+> 所有的快捷键都是以`Ctrl + B`开头
+
+- <kbd>Ctrl</kbd> + <kbd>B</kbd> + <kbd>D</kbd> 快捷键可以退出当前终端窗口
+
+- <kbd>Ctrl</kbd> + <kbd>B</kbd> + <kbd>S</kbd> 列出所有会话，此时可通过方向键和回车键切换
+
+- <kbd>Ctrl</kbd> + <kbd>B</kbd> + <kbd>$</kbd> 重命名当前会话
+
+- <kbd>Ctrl</kbd> + <kbd>B</kbd> + <kbd>:new -s 会话名称</kbd> 创建并进入新的会话（不存在父子级关系）
+
+
 
 
 
@@ -220,10 +253,15 @@ autorestart=true
 - 使用步骤如下
 
 1. 使用`sudo service supervisor start`启动`supervisor`服务；
+
 2. 创建应用配置文件`/etc/supervisor/conf.d/程序名称.conf`, 内容如上;
+
 3. 使用`sudo supervisorctl`进入`supervisor`管理终端；
+
 4. 使用`reload`重新读取配置文件并重启当前`supoervisor`管理的所有进程；
+
 5. 也可以使用`update`重新加载配置(默认不重启)，随后使用`start 程序名称`启动指定的应用程序；
+
 6. 随后可以使用`status`指令查看当前`supervisor`管理的进程状态；
 
 

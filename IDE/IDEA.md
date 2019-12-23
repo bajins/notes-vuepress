@@ -1,7 +1,7 @@
 # IDEA
 
 
-[[toc]]
+* [[toc]]
 
 
 
@@ -233,7 +233,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ### idea无限indexing解决方法
 
-[tengj](https://github.com/tengj/IntelliJ-IDEA-Tutorial/blob/newMaster/IntelliJ-IDEA-cache.md)
+* [tengj](https://github.com/tengj/IntelliJ-IDEA-Tutorial/blob/newMaster/IntelliJ-IDEA-cache.md)
 
 ![](https://github.com/tengj/IntelliJ-IDEA-Tutorial/raw/newMaster/images/xii-a-invalidate-cache-1.jpg)
 
@@ -258,102 +258,120 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ## 插件
 
-- Free Mybatis plugin
+**Free Mybatis plugin**
 
-[https://github.com/wuzhizhan/free-idea-mybatis](https://github.com/wuzhizhan/free-idea-mybatis)
+* [https://gitee.com/wuzhizhan/free-idea-mybatis](https://gitee.com/wuzhizhan/free-idea-mybatis)
 
-- mybatis-plus
 
-[https://github.com/mustfun/mybatis-plus](https://github.com/mustfun/mybatis-plus)
+**mybatis-lite**
 
-- MyBatisCodeHelper-Pro
+* [https://github.com/mustfun/mybatis-plus](https://github.com/mustfun/mybatis-plus)
 
-[](https://gejun123456.github.io/MyBatisCodeHelper-Pro/#/)
-[MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
 
-- .ignore
+**mybatis-plus**
 
-[https://plugins.jetbrains.com/plugin/7495--ignore](https://plugins.jetbrains.com/plugin/7495--ignore)
+* [https://github.com/kana112233/mybatis-plus-plugin](https://github.com/kana112233/mybatis-plus-plugin)
+
+
+**MyBatisCodeHelper-Pro**
+
+* [文档](https://gejun123456.github.io/MyBatisCodeHelper-Pro/#/)
+
+* [MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
+
+
+**.ignore**
+
+* [https://plugins.jetbrains.com/plugin/7495--ignore](https://plugins.jetbrains.com/plugin/7495--ignore)
 
 > 生成各种ignore文件，一键创建git ignore文件的模板，免得自己去写
 
 ![](/images/ignore.gif)
 
-- Maven Helper
 
-[https://plugins.jetbrains.com/plugin/7179-maven-helper](https://plugins.jetbrains.com/plugin/7179-maven-helper)
+**Maven Helper**
+
+* [https://plugins.jetbrains.com/plugin/7179-maven-helper](https://plugins.jetbrains.com/plugin/7179-maven-helper)
 
 > 一键查看maven依赖，查看冲突的依赖，一键进行exclude依赖
 
 ![](/images/MavenHelper.png)
 
-- GsonFormat
 
-[https://plugins.jetbrains.com/plugin/7654-gsonformat](https://plugins.jetbrains.com/plugin/7654-gsonformat)
+**GsonFormat**
+
+* [https://plugins.jetbrains.com/plugin/7654-gsonformat](https://plugins.jetbrains.com/plugin/7654-gsonformat)
 
 > google出的一键根据json文本生成java类，非常方便
 
 ![](/images/GsonFormat.gif)
 
-- FindBugs-IDEA
 
-[https://plugins.jetbrains.com/plugin/3847-findbugs-idea](https://plugins.jetbrains.com/plugin/3847-findbugs-idea)
+**FindBugs-IDEA**
+
+* [https://plugins.jetbrains.com/plugin/3847-findbugs-idea](https://plugins.jetbrains.com/plugin/3847-findbugs-idea)
 
 > 检测代码中可能的bug及不规范的位置，检测的模式相比p3c更多，写完代码后检测下 避免低级bug，强烈建议用一下，一不小心就发现很多老代码的bug
 
 ![](/images/FindBugs-IDEA.gif)
 
-- Lombok plugin
 
-[https://plugins.jetbrains.com/plugin/6317-lombok-plugin](https://plugins.jetbrains.com/plugin/6317-lombok-plugin)
+**Lombok plugin**
+
+* [https://plugins.jetbrains.com/plugin/6317-lombok-plugin](https://plugins.jetbrains.com/plugin/6317-lombok-plugin)
 
 > 支持lombok的各种注解，从此不用写getter setter这些 可以把注解还原为原本的java代码,除此之外还有其他更多注解以减少代码
 
 ![](/images/lombok.gif)
 
-- p3c
 
-[https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines](https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines)
+**p3c**
+
+* [https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines](https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines)
 
 > 阿里巴巴出品的java代码规范插件,可以扫描整个项目 找到不规范的地方 并且大部分可以自动修复 
 
 
 
-- VisualVM Launcher
+**VisualVM Launcher**
 
-[https://plugins.jetbrains.com/plugin/7115-visualvm-launcher](https://plugins.jetbrains.com/plugin/7115-visualvm-launcher)
+* [https://plugins.jetbrains.com/plugin/7115-visualvm-launcher](https://plugins.jetbrains.com/plugin/7115-visualvm-launcher)
 
 > 运行java程序的时候启动visualvm，方便查看jvm的情况 比如堆内存大小的分配，某个对象占用了多大的内存，jvm调优必备工具
 
 ![](/images/VisualVM-Launcher.gif)
 
-- GenerateAllSetter
 
-[https://plugins.jetbrains.com/plugin/9360-generateallsetter](https://plugins.jetbrains.com/plugin/9360-generateallsetter)
+**GenerateAllSetter**
+
+* [https://plugins.jetbrains.com/plugin/9360-generateallsetter](https://plugins.jetbrains.com/plugin/9360-generateallsetter)
 
 > 一键调用一个对象的所有set方法并且赋予默认值 在对象字段多的时候非常方便
 
 ![](/images/GenerateAllSetter.gif)
 
-- Rainbow Brackets
 
-[https://plugins.jetbrains.com/plugin/10080-rainbow-brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets)
+**Rainbow Brackets**
+
+* [https://plugins.jetbrains.com/plugin/10080-rainbow-brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets)
 
 > 彩虹颜色的括号，看着很舒服 敲代码效率变高
 
 ![](/images/RainbowBrackets.png)
 
-- Translation
 
-[https://plugins.jetbrains.com/plugin/8579-translation](https://plugins.jetbrains.com/plugin/8579-translation)
+**Translation**
+
+* [https://plugins.jetbrains.com/plugin/8579-translation](https://plugins.jetbrains.com/plugin/8579-translation)
 
 > 最好用的翻译插件，功能很强大，界面很漂亮
 
 ![](/images/Translation.gif)
 
-- Markdown Navigator
 
-[https://github.com/vsch/idea-multimarkdown](https://github.com/vsch/idea-multimarkdown)
+**Markdown Navigator**
+
+* [https://github.com/vsch/idea-multimarkdown](https://github.com/vsch/idea-multimarkdown)
 
 > 带有GFM 的Markdown插件和匹配的预览样式。
 
@@ -366,7 +384,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ### `Python Script`生成文件头注释
 
-[预定义模板变量](#预定义模板变量)
+* [预定义模板变量](#预定义模板变量)
 
 - 在`File`->`Settings`->`Editor`->`File and Code Templates`->`Includes`->`File Header`中添加
 
@@ -402,7 +420,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ### `Go File`生成文件头注释
 
-[预定义模板变量](#预定义模板变量)
+* [预定义模板变量](#预定义模板变量)
 
 - 在`File`->`Settings`->`Editor`->`File and Code Templates`->`Includes`->`File Header`中添加
 
@@ -430,7 +448,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ### `JavaScript File`生成文件头注释
 
-[预定义模板变量](#预定义模板变量)
+* [预定义模板变量](#预定义模板变量)
 
 - 在`File`->`Settings`->`Editor`->`File and Code Templates`->`Includes`->`File Header`中添加
 
