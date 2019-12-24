@@ -135,7 +135,7 @@ public class ${NAME} {
 
 ## 自定义方法注释模板
 
-- 默认方法注释快捷键：`/**`+`Enter`
+- 默认方法注释快捷键：<kbd>/**</kbd> + <kbd>Enter</kbd>
 
 - Template text
 
@@ -167,7 +167,7 @@ groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s
 groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return result+' ';}", methodReturnType())
 ```
 
-> 使用时，直接在方法上输入`/`加上你的`Abbreviation`名字，再按`Tab`键即可获取方法上的参数
+> 使用时，直接在方法上输入<kbd>/</kbd>加上你的`Abbreviation`名字，再按<kbd>Tab</kbd>键即可获取方法上的参数
 
 ![](/images/IDEA方法注释设置.png)
 
@@ -184,11 +184,9 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ## 自动优化导包
 
-- `File`→`Settings`→`General`→`Auto Import`→`Python`→`Show import popup`
+- `Add unambiguous imports on the fly` 自动帮我们优化导入的包，比如自动去掉一些没有用到的包。 
 
-> `Add unambiguous imports on the fly` 自动帮我们优化导入的包，比如自动去掉一些没有用到的包。 
-
-> `Optimize imports on the fly` 自动帮我们导入需要用到的包。但是对于同名的包，需要手动`Alt + Enter`进行导入。
+- `Optimize imports on the fly` 自动帮我们导入需要用到的包。但是对于同名的包，需要手动<kbd>Alt</kbd> + <kbd>Enter</kbd>进行导入。
 
 ![](/images/IDEA自动优化导包.png)
 
@@ -383,6 +381,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ## PyCharm
 
+
 ### `Python Script`生成文件头注释
 
 * [预定义模板变量](#预定义模板变量)
@@ -472,4 +471,4 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 - 在`JavaScript File`文件模板中引用：`#parse("File Header")`
 
 
-- 默认函数注释快捷键：`/**`+`Enter`
+- 默认函数注释快捷键：<kbd>/**</kbd> + <kbd>Enter</kbd>
