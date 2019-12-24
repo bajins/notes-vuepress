@@ -78,33 +78,22 @@
 
 ### 预定义模板变量
 
-- `${PROJECT_NAME}` - 当前项目的名称
- 
-- `${PACKAGE_NAME}` - 当前所在包名
-
-- `${NAME}` - 在创建文件期间在新建文件对话框中指定的文件名称
-
-- `${USER}` - 系统的当前用户登录名称
-
-- `${DATE}` - 当前系统日期
-
-- `${TIME}` - 当前系统时间
-
-- `${YEAR}` - 当前年份
-
-- `${MONTH}` - 当前月份
-
-- `${DAY}` - 当前月的日期
-
-- `${HOUR}` - 当前时刻
-
-- `${MINUTE}` - 当前分钟
-
-- `${PRODUCT_NAME}` - 将被创建文件所在的IDE名称
-
-- `${MONTH_NAME_SHORT}` - 月份名称的前3个字母，例如: Jan, Feb, etc.
-
-- `${MONTH_NAME_FULL}` - 月份全称，例如: January, February, etc.
+| 变量                	| 说明                                           	|
+|---------------------	|------------------------------------------------	|
+| ${DATE}             	| 当前系统日期                                   	|
+| ${DAY}              	| 当前月的日期                                   	|
+| ${HOUR}             	| 当前时刻                                       	|
+| ${MINUTE}           	| 当前分钟                                       	|
+| ${MONTH_NAME_FULL}  	| 月份全称，例如: January, February, etc.        	|
+| ${MONTH_NAME_SHORT} 	| 月份名称的前3个字母，例如: Jan, Feb, etc.      	|
+| ${MONTH}            	| 当前月份                                       	|
+| ${NAME}             	| 在创建文件期间在新建文件对话框中指定的文件名称 	|
+| ${PACKAGE_NAME}     	| 当前所在包名                                   	|
+| ${PRODUCT_NAME}     	| 将被创建文件所在的IDE名称                      	|
+| ${PROJECT_NAME}     	| 当前项目的名称                                 	|
+| ${TIME}             	| 当前系统时间                                   	|
+| ${USER}             	| 系统的当前用户登录名称                         	|
+| ${YEAR}             	| 当前年份                                       	|
 
 
 
