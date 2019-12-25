@@ -197,6 +197,7 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 - `tmux neww -n 窗口名 -d "命令"` 新建窗口名并在后台执行命令
 
+
 **快捷键**
 
 > 所有的快捷键都是先按一下<kbd>Ctrl</kbd> + <kbd>B</kbd>松开，这时快捷键生效再按其他按键
@@ -250,7 +251,7 @@ screen -S 会话名称
 
 **隐藏并保留当前会话**
 
-- 按<kbd>Ctrl</kbd> + <kbd>A</kbd>，再按<kbd>D</kbd>键
+> 按<kbd>Ctrl</kbd> + <kbd>A</kbd>，再按<kbd>D</kbd>键
 
 **列出所有的会话列表**
 
@@ -363,9 +364,10 @@ setsid python3 ./index.py >/dev/null 2>&1 &
 
 > `supervisor`是用`Python`开发的一套通用的进程管理程序，能将一个普通的命令行进程变为后台`daemon`，并监控进程状态，异常退出时能自动重启。
 
-[http://supervisord.org](http://supervisord.org)
+* [http://supervisord.org](http://supervisord.org)
 
-- 常见配置如下
+
+**常见配置如下**
 
 ```vim
 [program:程序名称]
@@ -377,7 +379,7 @@ autostart=true
 autorestart=true
 ```
 
-- 使用步骤如下
+**使用步骤**
 
 1. 使用`sudo service supervisor start`启动`supervisor`服务；
 
@@ -421,7 +423,7 @@ wget host:port/file 就可以下载了
 >
 > 【用法】scp就是secure copy，是用来进行远程文件拷贝的。数据传输使用 ssh，并且和ssh 使用相同的认证方式，提供相同的安全保证 。 
 
-- 命令参数
+**命令参数**
 
 > -1  强制scp命令使用协议ssh1
 >
@@ -599,7 +601,7 @@ bash ZBench.sh
 
 > 测试完之后，会在/root/下面生成一个 report.html 的文件。
 
-- Superspeed.sh by [Oldking](https://github.com/oooldking/script)
+* Superspeed.sh by [Oldking](https://github.com/oooldking/script)
 
 ```bash
 wget https://raw.githubusercontent.com/oooldking/script/master/superspeed.sh
