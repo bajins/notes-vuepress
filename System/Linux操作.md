@@ -163,6 +163,8 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 **命令**
 
+> 可在命令后加`--h`查看命令帮助，如：`tmux new --h`
+
 - `yum install -y tmux` 安装
 
 - `tmux new -s 会话名称` 新建会话
@@ -189,7 +191,9 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 - `move-window -t 1` 移动当前窗口到 1 号
 
+- `tmux new -s 会话名 -d "命令"` 创建新会话并在后台执行命令
 
+- `tmux neww -n 窗口名 -d "命令"` 新建窗口名并在后台执行命令
 
 **快捷键**
 
@@ -218,11 +222,9 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 ```bash
 # 创建新会话并在后台执行命令
-tmux new -s 会话名1 -d "命令"
-# 再次在指定的会话中后台执行命令
-tmux neww -t 会话名1 -d "命令"
+tmux new -s 会话名 -d "命令"
 
-tmux new -s 会话名2 -d "命令"
+tmux new -s 会话名 -d "命令"
 ```
 
 
