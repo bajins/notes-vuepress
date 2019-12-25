@@ -223,9 +223,36 @@ git log --oneline | wc -l
 git log --stat|perl -ne 'END { print $c } $c += $1 if /(\d+) insertions/'
 ```
 
+- 比较远端和本地分支
+
+```bash
+git diff master origin/master
+```
+
+- 统计文件的改动
+
+```bash
+git diff --stat master origin/master
+# 执行一次git fetch origin xxx，那当下最新版本的commit会存在FETCH_HEAD中
+git diff HEAD FETCH_HEAD
+
+git pull --dry-run | grep -q -v 'Already up-to-date.' && changed=1
+git log HEAD...origin/master --oneline
+git log -p master..origin/master
+```
+
+- 本地与远程的差集
+
+> 显示远程有而本地没有的`commit`信息
+
+```bash
+git log master..origin/master
+```
 
 
 ### 保存用户密码
+
+> 
 
 ```bash
 git config --global --edit

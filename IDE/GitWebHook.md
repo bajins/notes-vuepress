@@ -212,17 +212,6 @@ git fetch --all
 
 # 比较远端和本地分支
 is_up=$(git diff $git_branch origin/$git_branch)
-# 统计文件的改动
-#is_up=`git diff --stat $git_branch origin/$git_branch`
-# 执行一次git fetch origin xxx，那当下最新版本的commit会存在FETCH_HEAD中
-#is_up=`git diff HEAD FETCH_HEAD`
-
-#is_up=`git pull --dry-run | grep -q -v 'Already up-to-date.' && changed=1`
-#is_up=`git log HEAD...origin/$git_branch --oneline`
-#is_up=`git log -p $git_branch..origin/$git_branch`
-# 本地与远程的差集 :（显示远程有而本地没有的commit信息）
-#is_up=`git log $git_branch..origin/$git_branch`
-
 # 获取项目克隆时间
 a=$(stat -c %Y $project_dir/$project_name/)
 # 获取当前时间
@@ -366,16 +355,6 @@ git fetch --all
 
 # 比较远端和本地分支
 is_up=$(git diff $git_branch origin/$git_branch)
-# 统计文件的改动
-#is_up=`git diff --stat $git_branch origin/$git_branch`
-# 执行一次git fetch origin xxx，那当下最新版本的commit会存在FETCH_HEAD中
-#is_up=`git diff HEAD FETCH_HEAD`
-
-#is_up=`git pull --dry-run | grep -q -v 'Already up-to-date.' && changed=1`
-#is_up=`git log HEAD...origin/$git_branch --oneline`
-#is_up=`git log -p $git_branch..origin/$git_branch`
-# 本地与远程的差集 :（显示远程有而本地没有的commit信息）
-#is_up=`git log $git_branch..origin/$git_branch`
 
 # 获取项目克隆时间
 a=$(stat -c %Y $project_dir/$project_name)
@@ -443,7 +422,6 @@ expect {
   \"*Username*\" {send \"${push_username}\r\"; exp_continue}
   \"*Password*\" {send \"${push_password}\r\";}
 }
-
 "
 
 ```
