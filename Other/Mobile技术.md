@@ -53,6 +53,9 @@
 > `Freeline` 是 Android 平台上的秒级编译方案
 
 
+* [Android-FFmpeg开源库使用及图片压缩开源工具使用](https://www.jianshu.com/p/e960854d3705)
+
+
 ### 框架
 
 * [https://github.com/ddnosh/AndroidQuick](https://github.com/ddnosh/AndroidQuick)

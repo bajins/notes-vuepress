@@ -24,7 +24,7 @@ https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extens
 
 * [最详细的PS快捷键大全](http://www.360doc.com/content/19/0507/02/9060464_833889392.shtml)
 
-
+* [python、java、c、go执行速度对比](https://www.jianshu.com/p/d60eff598aa0)
 
 
 
@@ -68,4 +68,43 @@ https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extens
 * Receive SMS Online for FREE：[https://www.receive-sms-online.info](https://www.receive-sms-online.info)
 
 * SMSReceiveFree：[https://smsreceivefree.com](https://smsreceivefree.com)
+
+
+
+
+## 身份和信用卡
+
+* [https://51.ruyo.net/%E8%99%9A%E6%8B%9F%E8%BA%AB%E4%BB%BD%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%94%9F%E6%88%90](https://51.ruyo.net/%E8%99%9A%E6%8B%9F%E8%BA%AB%E4%BB%BD%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%94%9F%E6%88%90)
+
+**生成完整用户信息**
+
+> （有生成数量限制）支持美国、日本、德国、英国等多国身份
+
+中文站：[http://www.haoweichi.com](http://www.haoweichi.com)
+
+英文站：[https://www.fakenamegenerator.com](https://www.fakenamegenerator.com)
+
+英文站：[https://www.fakeaddressgenerator.com](https://www.fakeaddressgenerator.com)
+
+台湾/香港/韩国身份信息生成：[https://tw.51240.com](https://tw.51240.com)
+
+台湾身份证生成：[https://people.debian.org/~paulliu/ROCid.html](https://people.debian.org/~paulliu/ROCid.html)
+
+
+**生成虚拟信息**
+
+> 批量生成，自定义规则，支持假身份、完整的联系信息、信用卡、建立信用卡、北美地址、北美城市、电子邮件地址、街道清单、美国城市清单
+
+[https://names.igopaygo.com](https://names.igopaygo.com)
+
+
+**可生成信用卡图片支持万事达/VISA/运通卡**
+
+[http://card-generator.com/q_free-credit-card-generator-with-cvv.htm](http://card-generator.com/q_free-credit-card-generator-with-cvv.htm)
+
+
+**生成信用卡信息，支持定义规则**
+
+[https://cc.namsopro.com](https://cc.namsopro.com)
+
 

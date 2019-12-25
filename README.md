@@ -18,6 +18,11 @@ actionLink: /#命令
 非常多的热心开发者开源主题[theme](/Theme.md)
 :::
 
+::: tip
+如果觉得使用[VuePress](https://v1.vuepress.vuejs.org)不便，
+可使用静态博客写作客户端[gridea](https://github.com/getgridea/gridea)
+:::
+
 ## 目录结构
 
 ```

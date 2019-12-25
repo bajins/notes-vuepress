@@ -79,7 +79,7 @@
 * [https://github.com/markdown-it/markdown-it](https://github.com/markdown-it/markdown-it)
 
 
-## 在线版
+## 在线版客户端
 
 * [xkeditor](https://github.com/syfxlin/xkeditor)
 
@@ -110,25 +110,19 @@
 * [Cmd Markdown](https://www.zybuluo.com/mdeditor)
 
 
-## 客户端
+## 本地版客户端
 
 * [typora](https://www.typora.io)
 
-* [MarkPad](http://code52.org/DownmarkerWPF)
+* [MarkPad](https://github.com/Code52/DownmarkerWPF)
 
 > MarkPad 是款开源的 Markdown 编辑器，与 Window 8 风格和谐友好的界面，可以直接在你的博客或者 GitHub 中打开、保存文档，直接将图片粘贴到 Markdown 文档中。
 
 * [Haroopad](http://pad.haroopress.com/user.html)
 
-* [MacDown](http://macdown.uranusjr.com)
+* [https://github.com/MacDownApp/macdown](https://github.com/MacDownApp/macdown)
 
-> 开源且免费。
-
-* [MWeb](http://zh.mweb.im)
-
-> 专业的 Markdown 编辑器。UI漂亮，主题可选。支持markdown扩展语法，支持打字机滚动模式，支持发布到wp、blogger、tumblr等多个博客。
-
-
+* [静态博客写作客户端](https://github.com/getgridea/gridea)
 
 ## 其他
 
