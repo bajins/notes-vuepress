@@ -74,7 +74,7 @@ https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extens
 
 ## 身份和信用卡
 
-* [https://51.ruyo.net/%E8%99%9A%E6%8B%9F%E8%BA%AB%E4%BB%BD%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%94%9F%E6%88%90](https://51.ruyo.net/%E8%99%9A%E6%8B%9F%E8%BA%AB%E4%BB%BD%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%94%9F%E6%88%90)
+* [ruyo](https://51.ruyo.net/%E8%99%9A%E6%8B%9F%E8%BA%AB%E4%BB%BD%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%94%9F%E6%88%90)
 
 **生成完整用户信息**
 
@@ -95,16 +95,19 @@ https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extens
 
 > 批量生成，自定义规则，支持假身份、完整的联系信息、信用卡、建立信用卡、北美地址、北美城市、电子邮件地址、街道清单、美国城市清单
 
-[https://names.igopaygo.com](https://names.igopaygo.com)
+* [https://names.igopaygo.com](https://names.igopaygo.com)
 
 
 **可生成信用卡图片支持万事达/VISA/运通卡**
 
-[http://card-generator.com/q_free-credit-card-generator-with-cvv.htm](http://card-generator.com/q_free-credit-card-generator-with-cvv.htm)
+* [http://card-generator.com/q_free-credit-card-generator-with-cvv.htm](http://card-generator.com/q_free-credit-card-generator-with-cvv.htm)
 
 
 **生成信用卡信息，支持定义规则**
 
-[https://cc.namsopro.com](https://cc.namsopro.com)
+* [https://cc.namsopro.com](https://cc.namsopro.com)
 
+* [https://www.bestcreditcardgenerator.com](https://www.bestcreditcardgenerator.com)
+
+* [https://www.bingenerator.net](https://www.bingenerator.net)
 
