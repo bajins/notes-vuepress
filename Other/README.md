@@ -16,8 +16,6 @@ https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extens
 
 * [https://zeit.co](https://zeit.co)
 
-* [https://www.netlify.com](https://www.netlify.com)
-
 * [Adobe Photoshop键盘快捷键](https://helpx.adobe.com/cn/photoshop/using/default-keyboard-shortcuts.html)
 
 * [Photoshop快捷键大全](http://www.ip138.com/photoshop)

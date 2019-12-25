@@ -614,6 +614,17 @@ service nscd restart
 sudo /etc/init.d/dns-clean start
 ```
 
+
+### 部署
+
+* [https://www.netlify.com](https://www.netlify.com)
+
+* [https://slack.com/get-started](https://slack.com/get-started)
+
+* [https://docs.travis-ci.com/user/tutorial](https://docs.travis-ci.com/user/tutorial)
+
+
+
 ### 克隆代理地址
 
 > 替换`https://github.com`为`https://github.com.cnpmjs.org`

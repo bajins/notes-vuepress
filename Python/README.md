@@ -33,6 +33,11 @@
 * [https://zmister.com](https://zmister.com)
 
 
+* [精选的Python框架，库，软件和资源的精选列表](https://github.com/vinta/awesome-python)
+
+
+
+
 ## 线程池
 
 

@@ -28,45 +28,99 @@
 * [https://github.com/gobuffalo/packr](https://github.com/gobuffalo/packr)
 
 
+
+**cross compile**
+
+> 交叉编译器（英语：Cross compiler）是指一个在某个系统平台下可以产生另一个系统平台的可执行文件的编译器。
+> 交叉编译器在目标系统平台（开发出来的应用程序序所运行的平台）难以或不容易编译时非常有用。
+
+> 交叉编译是在一个平台上生成另一个平台上的可执行代码。同一个体系结构可以运行不同的操作系统；
+> 同样，同一个操作系统也可以在不同的体系结构上运行。
+
+* [https://github.com/mitchellh/gox](https://github.com/mitchellh/gox)
+
+* [https://github.com/wheelcomplex/goxx](https://github.com/wheelcomplex/goxx)
+
+* [https://github.com/goreleaser/goreleaser](https://github.com/goreleaser/goreleaser)
+
+* [https://github.com/laher/goxc](https://github.com/laher/goxc)
+
+* [https://github.com/karalabe/xgo](https://github.com/karalabe/xgo)
+
+* [https://github.com/storyicon/gos](https://github.com/storyicon/gos)
+
+* [https://github.com/docker/golang-cross](https://github.com/docker/golang-cross)
+
+* [https://github.com/im4x5yn74x/dropper2](https://github.com/im4x5yn74x/dropper2)
+
+
 ## 打包命令
-
-### windows
-
-> `go build -ldflags="-H windowsgui"` 能隐藏黑窗口
-
 
 **设置环境**
 
 > `GOOS` 目标可执行程序运行操作系统，支持`darwin`、`freebsd`、`linux`、`windows`
 
+> `GOARCH` 目标平台的体系架构，包括`386`、`amd64`、`arm`
+
+> `CGO_ENABLED` CGO开关
+
+> `-o` 参数为指定输出程序文件名
+
+| GOOS      	| GOARCH   	|
+|-----------	|----------	|
+| android   	| arm      	|
+| darwin    	| 386      	|
+| darwin    	| amd64    	|
+| darwin    	| arm      	|
+| darwin    	| arm64    	|
+| dragonfly 	| amd64    	|
+| freebsd   	| 386      	|
+| freebsd   	| amd64    	|
+| freebsd   	| arm      	|
+| linux     	| 386      	|
+| linux     	| amd64    	|
+| linux     	| arm      	|
+| linux     	| arm64    	|
+| linux     	| ppc64    	|
+| linux     	| ppc64le  	|
+| linux     	| mips     	|
+| linux     	| mipsle   	|
+| linux     	| mips64   	|
+| linux     	| mips64le 	|
+| netbsd    	| 386      	|
+| netbsd    	| amd64    	|
+| netbsd    	| arm      	|
+| openbsd   	| 386      	|
+| openbsd   	| amd64    	|
+| openbsd   	| arm      	|
+| plan9     	| 386      	|
+| plan9     	| amd64    	|
+| solaris   	| amd64    	|
+| windows   	| 386      	|
+| windows   	| amd64    	|
+
+### windows
+
+> `go build -ldflags="-H windowsgui"` 能隐藏黑窗口
+
 ```batch
+# 交叉编译不支持 CGO 所以要禁用它
+SET CGO_ENABLED=0
 # 打包Linux 执行文件
 SET GOOS=linux
-# 打包win执行文件
-SET GOOS=windows
-# 打包mac执行文件
-SET GOOS=darwin
-# 打包freebsd执行文件
-SET GOOS=freebsd
-```
-
-> `GOARCH` 目标可执行程序操作系统构架，包括`386`、`amd64`、`arm`
-
-```batch
 # 打包386执行文件
-SET GOARCH=386
-# 打包amd64执行文件
 SET GOARCH=amd64
-# 打包arm执行文件
-SET GOARCH=arm
-```
 
-**执行编译**
-
-```batch
 go build main.go
 # 打包文件成其他名字
 go build -o key-gin.exe main.go
+```
+
+
+### linux
+
+```bash
+CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build main.go
 ```
 
 
