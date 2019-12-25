@@ -13,9 +13,13 @@
 
 * [Shell 教程](https://www.runoob.com/linux/linux-shell.html)
 
+* [Linux Shell脚本学习指南](http://c.biancheng.net/shell)
+
 * [Shell命令脚本初步认识，Shell脚本入门](https://www.jianshu.com/p/3782970dec75)
 
+* [Shell中if的使用详解_&&与||的使用详解](https://blog.csdn.net/setul/article/details/80114020)
 
+* [shell-if判断](https://www.jianshu.com/p/c71e85375e88)
 
 
 ## 清理内存
