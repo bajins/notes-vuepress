@@ -227,8 +227,8 @@ is_up=$(git diff $git_branch origin/$git_branch)
 a=$(stat -c %Y $project_dir/$project_name/)
 # 获取当前时间
 b=$(date +%s)
-# 如果项目克隆时间超过一分钟并且分支有更新
-if [ $(($b - $a)) -gt 60 && ! -n "$is_up" ]; then
+# 如果项目克隆时间超过一分钟并且分支没有更新
+if [ $(($b - $a)) -gt 60 ] && [ ! -n "$is_up" ]; then
     echo "分支$git_branch没有更新"
     exit 1
 fi
@@ -276,6 +276,8 @@ git_url=https://github.com/woytu/UseNotes-vuepress.git
 git_branch=master
 # 推送地址
 push_url=https://github.com/woytu/woytu.github.io.git
+# 推送用户邮箱
+push_user_email=user@example.com
 # 推送用户
 push_username=user
 # 推送密码
@@ -303,6 +305,11 @@ fi
 
 if [ ! -n "$push_url" ]; then
     echo "请设置Git推送地址"
+    exit 1
+fi
+
+if [ ! -n "$push_user_mail" ]; then
+    echo "请设置Git推送用户邮箱"
     exit 1
 fi
 
@@ -374,8 +381,8 @@ is_up=$(git diff $git_branch origin/$git_branch)
 a=$(stat -c %Y $project_dir/$project_name)
 # 获取当前时间
 b=$(date +%s)
-# 如果项目克隆时间超过一分钟并且分支有更新
-if [ $(($b - $a)) -gt 60 && ! -n "$is_up" ]; then
+# 如果项目克隆时间超过一分钟并且分支没有更新
+if [ $(($b - $a)) -gt 60 ] && [ ! -n "$is_up" ]; then
     echo "分支$git_branch没有更新"
     exit 1
 fi
@@ -399,6 +406,11 @@ cd docs
 
 # 初始化仓库
 git init
+
+# 设置当前仓库的用户邮箱
+git config user.email "$push_user_email"
+# 设置当前仓库的用户名
+git config user.name "push_username"
 
 # 把文件添加到暂存区
 git add -A
