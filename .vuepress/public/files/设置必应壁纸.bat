@@ -346,7 +346,7 @@ function setWallpaper(imagesPath) {
     // 结束资源管理器进程
     //shell.Run("taskkill /f /im explorer.exe");
 
-    for (var i = 0; i < 10; i++) {
+    for (var i = 0; i < 30; i++) {
         // 实时刷新桌面
         shell.Run("RunDll32 USER32,UpdatePerUserSystemParameters");
     }
