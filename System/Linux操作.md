@@ -179,6 +179,17 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 - `tmux kill-server` 关闭所有会话
 
+- `tmux split-pane -h` 左右分屏
+
+- `tmux spilt-pane -v` 上下分屏
+
+- `swap-window -s 3 -t 1`  交换 3 号和 1 号窗口
+
+- `swap-window -t 1` 交换当前和 1 号窗口
+
+- `move-window -t 1` 移动当前窗口到 1 号
+
+
 
 **快捷键**
 
@@ -192,6 +203,27 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 - <kbd>:new -s 会话名称</kbd> 创建并进入新的会话（不存在父子级关系）
 
+- <kbd>%</kbd> 左右分屏
+
+- <kbd>"</kbd> 上下分屏
+
+
+**开机运行**
+
+> 在`vi /etc/rc.local`文件中按<kbd>Shift</kbd> + <kbd>g</kbd>（就是大写的G）跳转到末尾添加命令
+
+> 如果进入`tmux`时进行和`home`相关的操作时提示`$HOME`未设定，加入设置`home`目录命令：`export HOME=/home`
+
+> 为防止启动执行失败，最好执行一次`chmod +x /etc/rc.d/rc.local`进行授权
+
+```bash
+# 创建新会话并在后台执行命令
+tmux new -s 会话名1 -d "命令"
+# 再次在指定的会话中后台执行命令
+tmux neww -t 会话名1 -d "命令"
+
+tmux new -s 会话名2 -d "命令"
+```
 
 
 

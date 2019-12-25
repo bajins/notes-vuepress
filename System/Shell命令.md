@@ -279,12 +279,13 @@ ps -mp 进程PID -o THREAD,tid,time | sort -rn
 
 ## 开机启动
 
-**添加命令到/etc/rc.local文件末尾**
+**添加命令到`/etc/rc.local`文件末尾**
 
 > 编辑`/etc/rc.local`或者`/etc/rc.d/rc.local`（前者是后者的软连接）文件，
-> 按`Shift + g`（就是大写的G）跳转到末尾添加运行命令
+> 按<kbd>Shift</kbd> + <kbd>g</kbd>（就是大写的G）跳转到末尾添加运行命令
 >> 执行的程序需要写绝对路径，添加到系统环境变量的除外
 
+> 为防止启动执行失败，最好执行一次`chmod +x /etc/rc.d/rc.local`进行授权
 
 **crontab**
 
@@ -295,9 +296,9 @@ crontab -e
 
 
 
-**脚本文件放在/etc/profile.d/目录下**
+**脚本文件放在`/etc/profile.d/`目录下**
 
-**chkconfig**
+- `chkconfig`
 
 1、创建软连接或者复制脚本到`/etc/init.d/`或者`/etc/rc.d/init.d/`（前者是后者的软连接）下
 
