@@ -405,7 +405,7 @@ echo 'password' | passwd -stdin username
 | `exp_internal`   	|                                                                                                        	|
 | `expect eof`     	| 问题回答完毕等待`expect`进程结束，`expect -timeout -1 eof`                                             	|
 | `expect -re`     	| 表示匹配正则表达式                                                                                     	|
-| `expect`         	| 从进程接收字符串，`expect`与`{`之间直接必须有空格或者TAB间隔，否则会报`invalid command name "expect{"` 	|
+| `expect`         	| 从进程接收字符串，`expect`与`{`之间没有空格或者TAB间隔，会报`invalid command name "expect{"` 	        |
 | `expr`           	| 计算                                                                                                   	|
 | `interact`       	| 执行完成后保持交互状态，否则退出                                                                       	|
 | `lindex`         	| 获取参数                                                                                               	|
@@ -497,22 +497,16 @@ expect <<-EOF
     set timeout -1
 
     spawn git push -f ${push_url} master
-    expect "*Username*" {send "${push_username}\r"; exp_continue}
-    expect "*Password*" {send "${push_password}\r"}
-    interact
-    expect eof
-
-# 由于用的-EOF，这里的EOF可以有空格，tab键
-EOF
-
-expect <<-EOF
-    set timeout -1
     
-    spawn git push -f ${push_url} master
+    #expect "*Username*" {send "${push_username}\r"; exp_continue}
+    #expect "*Password*" {send "${push_password}\r"}
+    
     expect {
       \"*Username*\" {send \"${push_username}\r\"; exp_continue}
       \"*Password*\" {send \"${push_password}\r\";}
     }
+    interact
+    expect eof
 
 # 由于用的-EOF，这里的EOF可以有空格，tab键
 EOF
@@ -571,10 +565,6 @@ interact
 - `usleep` 默认以微秒为单位
 
 > 1s = 1000ms = 1000000us
-
-
-
-
 
 
 
