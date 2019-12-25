@@ -52,7 +52,7 @@
 
 * [模板功能](https://github.com/Masterminds/sprig)
 
-* [TiDB](https://pingcap.com/docs-cn/)
+* [TiDB](https://pingcap.com/docs-cn)
 
 * [kingshard](https://github.com/flike/kingshard/blob/master/README_ZH.md)
 
@@ -84,7 +84,7 @@
 
 * [https://goproxy.io](https://goproxy.io)
 
-* [Athens](https://docs.gomods.io/zh/)
+* [Athens](https://docs.gomods.io/zh)
 
 * [https://gocenter.io](https://gocenter.io)
 

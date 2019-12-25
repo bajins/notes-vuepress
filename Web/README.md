@@ -53,7 +53,7 @@
 
 * [Plyr–一个轻量级的HTML5播放器](https://github.com/sampotts/plyr)
 
-* [f2ex.cn 各种前端资源](http://f2ex.cn/)
+* [f2ex.cn 各种前端资源](http://f2ex.cn)
 
 * [https://github.com/sentsin/layui](https://github.com/sentsin/layui)
 

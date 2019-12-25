@@ -8,7 +8,7 @@
 
 ## flag
 
-* [Go语言-打包静态文件](https://c.isme.pub/2019/01/10/go-static/)
+* [Go语言-打包静态文件](https://c.isme.pub/2019/01/10/go-static)
 
 
 * [https://github.com/go-bindata/go-bindata](https://github.com/go-bindata/go-bindata)

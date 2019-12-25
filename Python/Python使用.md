@@ -79,7 +79,7 @@ vi /usr/libexec/urlgrabber-ext-down
 
 ### 换源
 
-* [https://pypi.org/](https://pypi.org/)
+* [https://pypi.org/](https://pypi.org)
 
 
 * 阿里云 [https://mirrors.aliyun.com/pypi/simple](https://mirrors.aliyun.com/pypi/simple)
@@ -174,7 +174,7 @@ pip install --upgrade 要升级的包名
 
 **批量更新库**
 
-* [使用pip升级所有包](https://www.codenong.com/2720014/)
+* [使用pip升级所有包](https://www.codenong.com/2720014)
 
 ```bash
 pip freeze --local | grep -v '^-e' | cut -d = -f 1  | xargs -n1 pip install -U

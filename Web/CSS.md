@@ -10,11 +10,11 @@
 
 * [css](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
 
-* [CSS3/CSS2/CSS 教程](http://www.w3chtml.com/css3/)
+* [CSS3/CSS2/CSS 教程](http://www.w3chtml.com/css3)
 
 * [HTML系列教程](https://www.w3school.com.cn/h.asp)
 
-* [http://css.doyoe.com/](http://css.doyoe.com/)
+* [http://css.doyoe.com/](http://css.doyoe.com)
 
 
 

@@ -7,7 +7,7 @@
 
 ## flag
 
-* [docker官网centos7安装](https://docs.docker.com/install/linux/docker-ce/centos/)
+* [docker官网centos7安装](https://docs.docker.com/install/linux/docker-ce/centos)
 
 
 ## docker-compose.yml基本介绍

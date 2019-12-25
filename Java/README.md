@@ -26,7 +26,7 @@
 
 [AdoptOpenJDK](https://adoptopenjdk.net/archive.html?variant=openjdk8&jvmVariant=hotspot)
 
-[Amazon Corretto](https://aws.amazon.com/cn/corretto/)
+[Amazon Corretto](https://aws.amazon.com/cn/corretto)
 [corretto](https://github.com/corretto)
 
 [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)

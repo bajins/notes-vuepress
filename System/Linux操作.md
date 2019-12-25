@@ -8,11 +8,11 @@
 
 ## flag
 
-* [Linux手册](https://learn-linux.readthedocs.io/zh_CN/latest/)
+* [Linux手册](https://learn-linux.readthedocs.io/zh_CN/latest)
 
 * [Linux网络编程](https://network.fasionchan.com/zh_CN/latest/index.html)
 
-* [OSX操作指南](https://osx-guide.readthedocs.io/zh_CN/latest/)
+* [OSX操作指南](https://osx-guide.readthedocs.io/zh_CN/latest)
 
 * [https://lamp.sh](https://lamp.sh)
 
@@ -20,7 +20,7 @@
 
 * [https://lnmp.org](https://lnmp.org)
 
-* [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625/)
+* [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625)
 
 * [Linux工程师必备的88个监控工具](https://learn-linux.readthedocs.io/zh_CN/latest/maintenance/monitor/tools/80-linux-monitoring-tools.html)
 
@@ -131,7 +131,7 @@ bash <(wget --no-check-certificate -qO- 'https://zhujiwiki.com/wp-content/upload
 
 ### moeclub
 
-* [https://moeclub.org/2018/04/03/603/](https://moeclub.org/2018/04/03/603/)
+* [https://moeclub.org/2018/04/03/603/](https://moeclub.org/2018/04/03/603)
 
 > 适用于由GRUB引导的CentOS,Ubuntu,Debian系统
 
@@ -737,7 +737,7 @@ tcptraceroute www.woytu.com 443 -n -q 1
 
 * [https://cloud.tencent.com/developer/article/1332118](https://cloud.tencent.com/developer/article/1332118)
 
-* [http://winmtr.net/download-winmtr](http://winmtr.net/download-winmtr/)
+* [http://winmtr.net/download-winmtr](http://winmtr.net/download-winmtr)
 
 > 在Linux中有一个更好的网络连通性判断工具，它可以结合ping | nslookup | tracert 来判断网络的相关特性，这个命令就是mtr。
 

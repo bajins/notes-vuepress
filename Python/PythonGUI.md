@@ -17,15 +17,15 @@
 * [示例项目tool-gui-python](https://github.com/woytu/tool-gui-python)
 
 
-* [https://wxpython.org/pages/overview/](https://wxpython.org/pages/overview/)
+* [https://wxpython.org/pages/overview/](https://wxpython.org/pages/overview)
 
 > `wxPython`是一个用于`Python`编程语言的跨平台`GUI`工具包。包含流行的`wxWidgets`跨平台库的`GUI`组件，该库是用`C++`编写的。
 
 > 目前支持的平台是`Windows`、`Mac OS X`、`macOS`、`Linux`或其他具有`GTK2`或`GTK3`库的类`Unix`系统。
 
-* [http://thisis.yorven.site/blog/index.php/2017/09/16/wxpython-jiaocheng-yi/](http://thisis.yorven.site/blog/index.php/2017/09/16/wxpython-jiaocheng-yi/)
+* [http://thisis.yorven.site/blog/index.php/2017/09/16/wxpython-jiaocheng-yi/](http://thisis.yorven.site/blog/index.php/2017/09/16/wxpython-jiaocheng-yi)
 * [https://github.com/necan/wxPython-tutorial/blob/master/1.%E4%BB%8B%E7%BB%8D.md](https://github.com/necan/wxPython-tutorial/blob/master/1.%E4%BB%8B%E7%BB%8D.md)
-* [https://jusene.github.io/2017/12/26/wxpython/](https://jusene.github.io/2017/12/26/wxpython/)
+* [https://jusene.github.io/2017/12/26/wxpython/](https://jusene.github.io/2017/12/26/wxpython)
 * [http://www.17python.com/?c=9](http://www.17python.com/?c=9)
 * [WxPython教程](https://www.yiibai.com/wxpython)
 
@@ -563,7 +563,7 @@ if __name__ == "__main__":
 
 * [https://wiki.qt.io/Qt_for_Python/zh](https://wiki.qt.io/Qt_for_Python/zh)
 
-* [https://gaianote.github.io/2018/09/15/PyQt5%E5%AD%A6%E4%B9%A0%E4%B9%8Bline-edit/](https://gaianote.github.io/2018/09/15/PyQt5%E5%AD%A6%E4%B9%A0%E4%B9%8Bline-edit/)
+* [https://gaianote.github.io/2018/09/15/PyQt5%E5%AD%A6%E4%B9%A0%E4%B9%8Bline-edit/](https://gaianote.github.io/2018/09/15/PyQt5%E5%AD%A6%E4%B9%A0%E4%B9%8Bline-edit)
 
 * [一看就懂的Python图形界面开发：PyQt5/PySide2](https://zmister.com/archives/docs/easy-pyqt)
 
@@ -647,7 +647,7 @@ if __name__ == "__main__":
 
 ## `PyGObject`
 
-* [https://pygobject.readthedocs.io/en/latest/](https://pygobject.readthedocs.io/en/latest/)
+* [https://pygobject.readthedocs.io/en/latest/](https://pygobject.readthedocs.io/en/latest)
 
 > `PyGObject`是一个`Python`包，它为基于`GObject`的库提供绑定，例如`GTK`、`GStreamer`、`WebKitGTK`、`GLib`、`GIO`等等。
 
@@ -853,7 +853,7 @@ if sys.platform.startswith('win'):
 
 ### `py2exe`
 
-[http://www.py2exe.org/](http://www.py2exe.org/)
+[http://www.py2exe.org/](http://www.py2exe.org)
 
 [https://hoxis.github.io/python-py2exe.html](https://hoxis.github.io/python-py2exe.html)
 

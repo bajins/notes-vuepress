@@ -9,7 +9,7 @@
 ## flag
 
 
-* [https://www.yiibai.com/html/java/](https://www.yiibai.com/html/java/)
+* [https://www.yiibai.com/html/java/](https://www.yiibai.com/html/java)
 
 
 
@@ -178,7 +178,7 @@ public static Date toDayEnd(Date date) {
 
 ### JDK8日期时间API
 
-* [jdk8时间日期](https://codertang.com/2018/12/24/jdk8-datetime/)
+* [jdk8时间日期](https://codertang.com/2018/12/24/jdk8-datetime)
 
 > 可变性 : 像日期和时间这样的类应该是不可变的,返回一个值,原来的对象不变
 >

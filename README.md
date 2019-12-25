@@ -53,7 +53,7 @@ actionLink: /#命令
 ```
 ### 也就是你只需要遵从以上目录结构来修改你自己的文档即可使用。
 ::: warning 注意
-配置文件中的注释文字部分，请结合[VuePress官方文档](https://v1.vuepress.vuejs.org/zh/config/)一定理解其意义再修改配置！
+配置文件中的注释文字部分，请结合[VuePress官方文档](https://v1.vuepress.vuejs.org/zh/config)一定理解其意义再修改配置！
 :::
 
 ## 命令

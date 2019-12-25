@@ -29,7 +29,7 @@
 
 * [JScript参考手册](https://www.php.cn/manual/view/14969.html)
 
-* [JScript](https://www.itminus.com/blog/categories/%E9%A3%8E%E8%AF%AD/ECMAScript/JScript/)
+* [JScript](https://www.itminus.com/blog/categories/%E9%A3%8E%E8%AF%AD/ECMAScript/JScript)
 
 
 ### ActiveXObject
@@ -749,7 +749,7 @@ function autoStart(mode) {
 
 ## VBScript
 
-* [Visual Basic 指南](https://docs.microsoft.com/zh-cn/dotnet/visual-basic/)
+* [Visual Basic 指南](https://docs.microsoft.com/zh-cn/dotnet/visual-basic)
 
 * [VBScript 语言](https://www.tcoline.com/resource/vbs/top_vbs_0.htm)
 

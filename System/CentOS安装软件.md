@@ -10,9 +10,9 @@
 
 ### yum安装
 
-* [https://dev.mysql.com/doc/mysql-yum-repo-quick-guide/en/](https://dev.mysql.com/doc/mysql-yum-repo-quick-guide/en/)
+* [https://dev.mysql.com/doc/mysql-yum-repo-quick-guide/en/](https://dev.mysql.com/doc/mysql-yum-repo-quick-guide/en)
 
-* [https://blog.imzhengfei.com/centos-7-an-zhuang-pei-zhi-mysql/](https://blog.imzhengfei.com/centos-7-an-zhuang-pei-zhi-mysql/)
+* [https://blog.imzhengfei.com/centos-7-an-zhuang-pei-zhi-mysql/](https://blog.imzhengfei.com/centos-7-an-zhuang-pei-zhi-mysql)
 
 > 首先`CentOS7`默认已经不支持`mysql`，因为收费了你懂得，所以内部集成了`mariadb`，
 > 而安装`mysql`的话会和`mariadb`的文件冲突，所以需要先卸载掉`mariadb`，以下为卸载`mariadb`，安装`mysql`的步骤。

@@ -263,7 +263,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 **MyBatisCodeHelper-Pro**
 
-* [文档](https://gejun123456.github.io/MyBatisCodeHelper-Pro/#/)
+* [文档](https://gejun123456.github.io/MyBatisCodeHelper-Pro/#)
 
 * [MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
 

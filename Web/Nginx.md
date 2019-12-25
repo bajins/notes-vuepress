@@ -14,12 +14,12 @@
 
 * [nginx-config-formatter](https://github.com/1connect/nginx-config-formatter)
 
-* [nginxconfig配置生成](https://github.com/0xB4LINT/nginxconfig.io/)
+* [nginxconfig配置生成](https://github.com/0xB4LINT/nginxconfig.io)
 
 * [nginx 变量使用](https://blog.csdn.net/u014296316/article/details/80973530)
 
 
-* [HAProxy 入门](https://jaminzhang.github.io/lb/HAProxy-Get-Started/)
+* [HAProxy 入门](https://jaminzhang.github.io/lb/HAProxy-Get-Started)
 
 1. [Nginx和HAProxy对比](https://www.zhihu.com/question/34489042/answers/updated)
 

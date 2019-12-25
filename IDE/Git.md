@@ -535,7 +535,7 @@ volumes:
 
 [Gogs-GitHub](https://github.com/gogs/gogs/blob/master/README_ZH.md)
 
-[Gogs官方文档](https://gogs.io/)
+[Gogs官方文档](https://gogs.io)
 
 [安装教程](https://www.jianshu.com/p/86c385682ac8)
 
@@ -545,7 +545,7 @@ volumes:
 
 [Gitea-GitHub](https://github.com/go-gitea/gitea/blob/master/README_ZH.md)
 
-[Gitea官方文档](https://gitea.io/zh-cn/)
+[Gitea官方文档](https://gitea.io/zh-cn)
 
 
 

@@ -367,7 +367,7 @@ jstat -gc $(pgrep java) 2s 2
 
 ### 故障检测和修理工具
 
-* [Java虚拟机的监控及诊断工具（命令行）](https://mingshan.fun/2018/10/21/monitoring-diagnostic-tools-for-jvm-cmd/)
+* [Java虚拟机的监控及诊断工具（命令行）](https://mingshan.fun/2018/10/21/monitoring-diagnostic-tools-for-jvm-cmd)
 
 | 工具名称          | 用途                                    |
 |---------------|---------------------------------------|
