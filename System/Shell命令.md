@@ -376,6 +376,7 @@ echo 'password' | passwd -stdin username
 
 * [expect 脚本使用](https://einverne.github.io/post/2019/01/expect-command.html)
 
+* [Expect学习笔记](https://blog.csdn.net/boyishachang/article/details/8677936)
 
 
 **启用选项**
