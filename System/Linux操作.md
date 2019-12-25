@@ -159,6 +159,8 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 * [http://www.ruanyifeng.com/blog/2019/10/tmux.html](http://www.ruanyifeng.com/blog/2019/10/tmux.html)
 
+* [Tmux使用手册](http://louiszhai.github.io/2017/09/30/tmux)
+
 
 
 **命令**
