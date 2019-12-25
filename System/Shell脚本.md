@@ -133,6 +133,8 @@ expect {
   \"*password*\" {send \"${des_pass}\r\";}
 }
 
+# 问题回答完毕等待`expect`进程结束
+expect eof
 "
 exit
 

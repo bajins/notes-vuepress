@@ -113,7 +113,7 @@ SET GOARCH=amd64
 
 go build main.go
 # 打包文件成其他名字
-go build -o key-gin.exe main.go
+go build -o test.exe main.go
 ```
 
 

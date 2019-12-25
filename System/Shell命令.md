@@ -327,13 +327,13 @@ chkconfig --list | grep 脚本名
 
 
 
-## 脚本自动输入
+## 自动交互
 
 
 
 ### 指令有参数
 
-- 重定向
+**重定向**
 
 > shell用重定向作为标准输入的用法是：`cmd<<delimiter`
 >
@@ -349,7 +349,7 @@ EOF
 ```
 
 
-- 管道
+**管道**
 
 ```bash
 # sudo的-S参数
@@ -364,9 +364,7 @@ echo 'password' | passwd -stdin username
 
 > `Expect`是由`Don Libes`基于`Tcl`（`Tool Command Language`）的脚本语言，所以你至少要学习一下`TCL`它的语法。
 
-* [官方手册1](https://www.tcl-lang.org/man/expect5.31/index.html)
-
-* [官方手册2](https://www.tcl.tk/man/expect5.31/index.html)
+* [https://www.tcl-lang.org/man](https://www.tcl-lang.org/man) [https://www.tcl.tk/man](https://www.tcl.tk/man)
 
 * [Tcl教程](https://www.yiibai.com/tcl/tcl_special_variables.html)
 
@@ -375,6 +373,9 @@ echo 'password' | passwd -stdin username
 * [shell编程之expect用法](http://blog.leanote.com/post/wkf19911118@gmail.com/shell%E7%BC%96%E7%A8%8B%E4%B9%8Bexpect)
 
 * [linux expect 自动交互脚本用法](https://man.linuxde.net/expect1)
+
+* [expect 脚本使用](https://einverne.github.io/post/2019/01/expect-command.html)
+
 
 
 **启用选项**
@@ -392,31 +393,42 @@ echo 'password' | passwd -stdin username
 
 **命令**
 
-| 命令             	| 说明                                                                                                   	|
-|------------------	|--------------------------------------------------------------------------------------------------------	|
-| `$argc`          	| 参数个数                                                                                               	|
-| `$argv`          	| 接收的所有参数数组                                                                                     	|
-| `$NAME`          	| 使用变量                                                                                               	|
-| `close`          	| 关闭当前进程的连接                                                                                     	|
-| `debug`          	| 控制调试器                                                                                             	|
-| `disconnect`     	| 断开进程连接(进程仍在后台运行)                                                                         	|
-| `exit`           	| 退出`expect`                                                                                           	|
-| `exp_continue`   	| 当问题不存在时继续回答下边的问题                                                                       	|
-| `exp_internal`   	|                                                                                                        	|
-| `expect eof`     	| 问题回答完毕等待`expect`进程结束，`expect -timeout -1 eof`                                             	|
-| `expect -re`     	| 表示匹配正则表达式                                                                                     	|
-| `expect`         	| 从进程接收字符串，`expect`与`{`之间没有空格或者TAB间隔，会报`invalid command name "expect{"` 	        |
-| `expr`           	| 计算                                                                                                   	|
-| `interact`       	| 执行完成后保持交互状态，否则退出                                                                       	|
-| `lindex`         	| 获取参数                                                                                               	|
-| `puts`           	| 向用户终端发送提示信息                                                                                 	|
-| `send_user`      	| 同`puts`                                                                                               	|
-| `send`           	| 用于向进程发送字符串                                                                                   	|
-| `set NAME value` 	| 设置变量                                                                                               	|
-| `set timeout -1` 	| 超时时间，`-1`为永不超时                                                                               	|
-| `spawn`          	| `expect`中的监控程序，其运行会监控命令提出的交互式问题，启动新的进程                                   	|
-| `wait -nowait`   	| 问题回答完毕立即退出                                                                                   	|
+| 命令           	| 说明                                                                                   	|
+|----------------	|----------------------------------------------------------------------------------------	|
+| $argc          	| 参数个数                                                                               	|
+| $argv          	| 接收的所有参数数组                                                                     	|
+| $NAME          	| 使用变量                                                                               	|
+| close          	| 关闭当前进程的连接，-i选项关闭指定句柄的过程                                              	|
+| debug          	| 控制调试器                                                                             	|
+| disconnect     	| 断开进程连接(进程仍在后台运行)                                                         	|
+| exit           	| 退出expect                                                                             	|
+| exp_pid          	| 获取当前spawn的进程号，-i选项指定spawn进程：setpid [exp_pid –i $spawn_id]                    	|
+| exp_send         	| 将参数输出到程序中                                                                        	|
+| exp_continue   	| 当问题不存在时继续回答下边的问题                                                       	|
+| exp_internal   	| 调试模式，1（打开）、0（关闭）、-f file（将调试内容写入文件），放在spawn后面                  	|
+| expect eof     	| 问题回答完毕等待expect进程结束，expect -timeout -1 eof                                 	|
+| expect -re     	| 表示匹配正则表达式                                                                     	|
+| expect         	| 从进程接收字符串，expect与{之间没有空格或者TAB间隔，会报invalid command name "expect{" 	|
+| expr           	| 计算                                                                                   	|
+| interact       	| 执行完成后保持交互状态，否则退出                                                       	|
+| lindex         	| 获取参数                                                                               	|
+| puts           	| 向用户终端发送提示信息                                                                 	|
+| send_user      	| 把参数输出到标准输出中                                                            	        |
+| send_error      	| 把参数输出到标准错误输出中                                                             	|
+| send_log        	| 把内容输出到log记录文件中                                                            	|
+| send           	| 用于向进程发送字符串                                                                  	|
+| set NAME value 	| 设置变量                                                                               	|
+| set timeout -1 	| 超时时间，-1为永不超时                                                                 	|
+| spawn          	| expect中的监控程序，其运行会监控命令提出的交互式问题，启动新的进程                     	    |
+| wait             	| 等待系统主动返回eof，也就是结束信号后才关闭，wait -nowait                                 	|
+| log_user         	| 指定输出的位置，默认值是1，表示所有输出都放在标准输出中，为0就表示不需要任何输出        	    |
+| log_file         	| 将输出记录到一个文件中                                                              	|
 
+- `send`命令有几个可用的参数
+
+> `-i` 指定`spawn_id`，这个参数用来向不同`spawn_id`的进程发送命令，是进行多程序控制的关键参数。
+
+> `-s` 代表`slowly`，也就是控制发送的速度，这个参数使用的时候要与`expect`中的变量`send_slow`相关联
 
 
 **特殊字符**
@@ -425,6 +437,7 @@ echo 'password' | passwd -stdin username
 |------	|---------------	|
 | `\r` 	| 表示回车      	|
 | `\n` 	| 表示换行      	|
+| `\t` 	| 表示制表符    	|
 | `\`  	| 需转义 `\\\`  	|
 | `}`  	| 需转义 `\}`   	|
 | `[`  	| 需转义 `\[`   	|
@@ -474,7 +487,8 @@ expect {
   \"*Username*\" {send \"${push_username}\r\"; exp_continue}
   \"*Password*\" {send \"${push_password}\r\";}
 }
-
+# 问题回答完毕等待`expect`进程结束
+expect eof
 "
 ```
 
@@ -506,6 +520,8 @@ expect <<-EOF
       \"*Password*\" {send \"${push_password}\r\";}
     }
     interact
+    
+    # 问题回答完毕等待`expect`进程结束
     expect eof
 
 # 由于用的-EOF，这里的EOF可以有空格，tab键
@@ -544,8 +560,33 @@ send -- "$push_password\n"
 
 # 允许用户交互
 interact
+# 问题回答完毕等待`expect`进程结束
+expect eof
 ```
 
+
+- 获取日期
+
+```bash
+expect -c "
+
+set date [ clock format [ clock seconds ] -format "%Y%m%d" ]
+set secon [  clock seconds ]
+set yestoday_secon 0
+ 
+#set i [expr {$i + 1}]    #expect里的加减法
+set yestoday_secon [expr {$secon - 86400} ]
+set yestoday [ clock format [ expr {$yestoday_secon} ] -format "%Y%m%d" ]
+ 
+puts "\n date = $date"
+puts "\n secon = $secon"
+puts "\n yestoday_secon = $yestoday_secon"
+puts "\n yestoday = $yestoday"
+
+# 问题回答完毕等待`expect`进程结束
+expect eof
+"
+```
 
 
 ## 延时

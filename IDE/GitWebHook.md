@@ -422,6 +422,8 @@ expect {
   \"*Username*\" {send \"${push_username}\r\"; exp_continue}
   \"*Password*\" {send \"${push_password}\r\";}
 }
+# 问题回答完毕等待`expect`进程结束
+expect eof
 "
 
 ```
