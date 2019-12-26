@@ -26,6 +26,19 @@ https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extens
 
 
 
+## 临时邮箱
+
+
+* [https://shorttimemail.com/zh-Hans](https://shorttimemail.com/zh-Hans)
+
+* [https://www.linshiyouxiang.net](https://www.linshiyouxiang.net)
+
+* [http://mail.bccto.me](http://mail.bccto.me)
+
+* [https://www.guerrillamail.com/zh](https://www.guerrillamail.com/zh)
+
+
+
 ## 在线接收短信
 
 * [https://www.zusms.com/phone/all](https://www.zusms.com/phone/all)
