@@ -27,6 +27,8 @@
 
 * [Github 上 emoji 表情的含义及使用规范](https://mkblog.cn/872)
 
+* [https://github.com/gitextensions/gitextensions](https://github.com/gitextensions/gitextensions)
+
 
 ## 安装最新版
 

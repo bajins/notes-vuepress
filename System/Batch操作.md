@@ -18,6 +18,25 @@
 
 > 会自动检测本地`fprc`是否为最新版本，如果不是或者没有则下载最新版
 
+* [https://github.com/topics/windows](https://github.com/topics/windows)
+
+
+* [https://github.com/PowerShell](https://github.com/PowerShell)
+
+* [https://github.com/chocolatey](https://github.com/chocolatey)
+
+* [https://github.com/lukesampson/scoop](https://github.com/lukesampson/scoop)
+
+* [https://github.com/appget](https://github.com/appget)
+
+* [https://github.com/x64dbg](https://github.com/x64dbg)
+
+* [https://github.com/cmderdev/cmder](https://github.com/cmderdev/cmder)
+
+* [https://github.com/Eugeny/terminus](https://github.com/Eugeny/terminus)
+
+* [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
+
 
 
 ## PowerShell
@@ -255,10 +274,12 @@ Next
 > `RunOnce`键值类似于`Run`键值，唯一的区别在于，`RunOnce`键值只执行一次，操作执行后会被自动删除。
 
 - 用户启动项
+
 1. `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`
 2. `HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce`
 
 - 本机启动项
+
 1. `HKLM\SYSTEM\CurrentControlSet\Control\Session Manager`
 2. `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run`
 3. `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce`
@@ -291,15 +312,13 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 ## 注册表
 
 > 注册表被称为Windows操作系统的核心，它的工作原理实质是一个庞大的数据库，存放了关于计算机硬件的配置信息、
-> 系统和应用软件的初始化信息、应用软件和文档文件的关联关系、硬件设备的说明以及各种状态信息和数据，
-> 包括Windows操作时不断引用的信息。
+> 系统和应用软件的初始化信息、应用软件和文档文件的关联关系、硬件设备的说明以及各种状态信息和数据，包括Windows操作时不断引用的信息。
 
-> 例如：系统中的硬件资源、硬件信息、分配正在使用的端口、
-> 每个用户的配置文件、计算机上安装的应用程序以及每个应用程序可以创建的文件类型等。
+> 例如：系统中的硬件资源、硬件信息、分配正在使用的端口、每个用户的配置文件、计算机上安装的应用程序以及每个应用程序可以创建的文件类型等。
 
 > 组策略设置的实质是修改注册表中的配置
 
-- 主要作用
+**主要作用**
 
 1. 记录安装信息 
 2. 设置硬件 
@@ -318,7 +337,7 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 * [windows注册表](https://www.cnblogs.com/weiyinfu/p/10961872.html)
 
 
-- 注册表的分支结构
+**注册表的分支结构**
 
 | 注册表短根键名      	| 注册表长根键名      	| 作用                                                      	|
 |---------------------	|---------------------	|-----------------------------------------------------------	|
@@ -327,6 +346,25 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 | HKCR                	| HKEY_CLASSES_ROOT   	| 存储Windows可识别的文件类型的详细列表，以及相关联的程序。 	|
 | HKEY_USERS          	| HKEY_USERS          	| 包含使用计算机的用户的信息。                              	|
 | HKEY_CURRENT_CONFIG 	| HKEY_CURRENT_CONFIG 	| 这个分支包含计算机当前的硬件配置信息。                    	|
+
+
+**系统默认注册表位置**
+
+
+- 为所有用户安装的程序：`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall`
+
+- 为当前用户安装的程序：`HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall`
+
+- 64位系统中的32位程序：`HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall`
+
+> 这3个注册表总有一个包含你要找的程序，不包括UWP应用。
+
+> 隐藏指定的程序：在右边空白处（或左边的项名称）点击右键->新建->DWORD（32位）值，命名为`SystemComponent`，
+> 并修改数据为`1`（新建后双击名称或右键点击选择修改，默认为`0`）。
+
+
+
+
 
 
 

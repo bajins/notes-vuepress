@@ -17,8 +17,6 @@
 
 * [https://mm.edrawsoft.cn/community/15/1](https://mm.edrawsoft.cn/community/15/1)
 
-* [https://github.com/cmderdev/cmder](https://github.com/cmderdev/cmder)
-
 * [showdoc](https://github.com/star7th/showdoc)
 
 * [https://github.com/connectbot/connectbot](https://github.com/connectbot/connectbot)

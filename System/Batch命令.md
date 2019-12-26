@@ -8,6 +8,10 @@
 
 ## flag
 
+* [Windows 10/8/7的Rundll32命令列表](https://www.thewindowsclub.com/rundll32-shortcut-commands-windows)
+
+
+
 - `if`和`for`的条件与后面跟的`(`之间必须要有一个空格，否则会出现`命令语法不正确`的问题！
 
 - 使用cd切换目录时，如果带盘符一定要加`/d`参数，否则切换无效
