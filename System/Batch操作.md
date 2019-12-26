@@ -362,7 +362,9 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 > 隐藏指定的程序：在右边空白处（或左边的项名称）点击右键->新建->DWORD（32位）值，命名为`SystemComponent`，
 > 并修改数据为`1`（新建后双击名称或右键点击选择修改，默认为`0`）。
 
+> 如果注册表项下面有"SystemComponent"字段并且值等于`1`时，表示这是个系统组件，而不是应用软件。
 
+> 如果注册表项下面有"ParentKeyName"字段则表示该项是某个分类下的子项，一般情况补丁才会有"ParentKeyName"字段。
 
 
 
