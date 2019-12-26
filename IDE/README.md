@@ -19,24 +19,7 @@
 * [https://www.mobatek.net](https://www.mobatek.net)
 
 
-## Online IDE
 
-* [https://www.onlinegdb.com](https://www.onlinegdb.com)
-
-* [https://wandbox.org](https://wandbox.org)
-
-* [https://github.com/mattgodbolt/compiler-explorer](https://github.com/mattgodbolt/compiler-explorer)
-
-
-### Gitpod
-
-> Gitpod是一款在线IDE能即时修改GitHub代码
-
-> https://gitpod.io/#https://github.com/账户名/仓库名
-
-> 示例：https://gitpod.io/#github.com/woytu/UseNotes-vuepress
-
-[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/woytu/UseNotes-vuepress)
 
 
 ## 文本编辑器
