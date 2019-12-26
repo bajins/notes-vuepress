@@ -6,6 +6,12 @@
 
 
 
+## flag
+
+* [python3 中执行系统命令](https://www.jianshu.com/p/a19de14c4b57)
+
+
+
 ## 安装新版
 
 > 全部操作都在`root`用户下执行
@@ -278,3 +284,24 @@ random.shuffle([1,2,5,7,9,10])
 ```
 
 
+## 系统信息
+
+```python
+print('system and bit'.center(40, '-'))
+print(platform.architecture(), '\n')
+
+print('system and deatial'.center(40, '-'))
+print(platform.platform(), '\n')
+
+print('system'.center(40, '-'))
+print(platform.system(), '\n')
+
+print('version'.center(40, '-'))
+print(platform.version(), '\n')
+
+print('系统信息'.center(40, '-'))
+print(platform.uname(), '\n')
+
+print("python Version".center(40, '-'))
+print(platform.python_version(), '\n')
+```

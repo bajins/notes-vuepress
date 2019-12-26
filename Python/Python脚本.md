@@ -73,17 +73,16 @@ def getFile(pathName, prefix, suffix, array):
     return array
 
 
-print("==========================================================")
+print("".center(40,"="))
 if len(sys.argv) < 3:
     print("请输入参数：第一个参数为文件路径！第二个参数为保留多少个文件！")
     print("注意文件名后缀如果为数字那么将只删除后缀为数字的文件，同理后缀为字母或者字母数字组成一样的效果！")
     quit()
 
 print("执行脚本名：", sys.argv[0])
-print("::::::::::::::::::::::::::::::::::::::::::::::::::::::::::")
-print(":::::::::::::::执行时间：" +
-      datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')+"::::::::::::::")
-print("::::::::::::::::::::::::::::::::::::::::::::::::::::::::::")
+print("".center(40,":"))
+print(f"执行时间：{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+print("".center(40,":"))
 
 # 参数1为文件路径
 parameter = sys.argv[1]
@@ -98,7 +97,7 @@ print("参数："+parameter)
 n = parameter.rindex('/')  # 从后往前寻找最后一次出现的位置
 if n == -1:
     print("请输入正确的文件路径！")
-    print("==========================================================")
+    print("".center(40,"="))
     quit()
 
 # 截取文件路径
@@ -142,8 +141,8 @@ if leng > keep:
     newL = getFile(pathName, prefix, suffix, L)
     print("保留的文件：", newL)
 else:
-    print("**********没有可删除文件**********")
+    print("没有可删除文件".center(20,"*"))
 
-print("==========================================================")
+print("".center(40,"="))
 
 ```
