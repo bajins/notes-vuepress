@@ -14,7 +14,6 @@
 
 https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extension
 
-* [https://zeit.co](https://zeit.co)
 
 * [Adobe Photoshop键盘快捷键](https://helpx.adobe.com/cn/photoshop/using/default-keyboard-shortcuts.html)
 
