@@ -149,6 +149,8 @@ chrome://flags/#enable-parallel-downloading
 
 * [https://github.com/adam-p/markdown-here](https://github.com/adam-p/markdown-here)
 
+* [名称生成器扩展](https://github.com/kondratyev-nv/name-genarator-extension)
+
 
 ## 账号数据迁移
 

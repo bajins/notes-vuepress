@@ -122,3 +122,38 @@ https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extens
 
 * [https://www.bingenerator.net](https://www.bingenerator.net)
 
+
+
+**随机生成**
+
+* [https://www.randomlists.com](https://www.randomlists.com)
+
+* [https://rawgit.com/Marak/faker.js/master/examples/browser/index.html](https://rawgit.com/Marak/faker.js/master/examples/browser/index.html)
+
+* [https://randomprofile.com](https://randomprofile.com)
+
+* [https://fakedetail.com](https://fakedetail.com)
+
+
+**GitHub**
+
+* [https://github.com/search?o=desc&q=fake+name&s=updated&type=Repositories](https://github.com/search?o=desc&q=fake+name&s=updated&type=Repositories)
+
+
+* [https://github.com/marak/Faker.js](https://github.com/marak/Faker.js)
+
+* [https://github.com/thm/uinames](https://github.com/thm/uinames)
+
+* [https://github.com/RandomAPI/Randomuser.me-Node](https://github.com/RandomAPI/Randomuser.me-Node)
+
+* [https://github.com/MrKinauJr/FakeNameGenerator](https://github.com/MrKinauJr/FakeNameGenerator)
+
+* [https://github.com/faker-ruby/faker](https://github.com/faker-ruby/faker)
+
+* [https://github.com/dmgk/faker](https://github.com/dmgk/faker)
+
+* [https://github.com/arakelian/faker](https://github.com/arakelian/faker)
+
+* [https://github.com/travishorn/fake-identity](https://github.com/travishorn/fake-identity)
+
+
