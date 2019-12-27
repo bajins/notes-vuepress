@@ -78,10 +78,49 @@
 
 ## 代理
 
+**GOPROXY**
+
+> `GO 1.13`版本开始`GOPROXY`支持多代理设置，通过`,`隔开
+
+- Linux
+
+```bash
+export GOPROXY=https://goproxy.io,https://goproxy.cn,https://proxy.golang.org,direct
+```
+
+- Windows
+
+```batch
+set GOPROXY=https://goproxy.io,https://goproxy.cn,https://proxy.golang.org,direct
+```
+
+> 当第一个`proxy`在处理`ge get`所发出的`HTTP`请求时，返回`HTTP`状态码为`404`或`410`时，就会查找下一个`proxy`
+
+
+**GOPRIVATE**
+
+> 设置`GOPRIVATE`来跳过私有库，比如常用的`Github`、`Gitlab`、`Gitee`，中间使用`,`分隔
+
+```bash
+go env -w GOPRIVATE=*.github.com,*.gitlab.com,*.gitee.com
+```
+
+
+**GOSUMDB**
+
+> 如果在运行`go mod vendor`时，提示`Get https://sum.golang.org/lookup/xxxxxx: dial tcp 216.58.200.49:443: i/o timeout`，
+> 则是因为`Go 1.13`设置了默认的`GOSUMDB=sum.golang.org`，这个网站是被墙了的，用于验证包的有效性，可以通过如下命令关闭
+
+```bash
+go env -w GOSUMDB=off
+```
+
 
 * [https://mirrors.aliyun.com/goproxy](https://mirrors.aliyun.com/goproxy)
 
 * [https://mirrors.cloud.tencent.com/help/go.html](https://mirrors.cloud.tencent.com/help/go.html)
+
+* [https://goproxy.cn](https://goproxy.cn)
 
 * [https://goproxy.io](https://goproxy.io)
 
@@ -91,4 +130,3 @@
 
 * [https://gopm.io](https://gopm.io)
 
-* [https://goproxy.cn](https://goproxy.cn)
