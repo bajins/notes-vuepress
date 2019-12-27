@@ -12,9 +12,7 @@
 
 
 
-## selenium
-
-### xpath和css选择器
+## xpath和css选择器
 
 > `Chrome`打开网页`F12`后下面的调试工具出来后点击`Elements`左边的那个框框里的鼠标箭头
 > （或者按<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>），
@@ -95,13 +93,16 @@
 | css=div.subdiv > :only-child                                    	| `<ul id="recordlist">… … … …</ul>`     	|
 
 
-### `HeadlessBrowser`
+## `HeadlessBrowser`
 
 > `Headless Browser`(无头的浏览器)是没有图形用户界面(GUI)的web浏览器，通常是通过编程或命令行界面来控制的
 
 * [Headless Browser](https://www.jianshu.com/p/11d519e2d0cb)
 
-**`chromedriver`**
+* [https://github.com/mozilla/geckodriver](https://github.com/mozilla/geckodriver)
+
+
+### `chromedriver`
 
 > `Selenium`操作`Chrome`浏览器需要有`ChromeDriver`驱动来协助，`ChromeDriver`与`Chrome`版本对应关系一定要正确
 
@@ -113,6 +114,9 @@
 
 * [headless-chrome官方文档](https://developers.google.com/web/updates/2017/04/headless-chrome)
 
+* [功能和ChromeOptions官方网站参考](https://sites.google.com/a/chromium.org/chromedriver/capabilities)
+
+
 
 **参数列表**
 
@@ -121,51 +125,55 @@
 * [https://cs.chromium.org/chromium/src/content/public/common/content_switches.cc](https://cs.chromium.org/chromium/src/content/public/common/content_switches.cc)
 
 
-| 参数                       	| 说明                                                                                                                 	|
-|----------------------------	|----------------------------------------------------------------------------------------------------------------------	|
-| --no-first-run             	| 第一次不运行                                                                                                         	|
-| ---default-browser-check   	| 不检查默认浏览器                                                                                                     	|
-| --headless                 	| 不开启图像界面                                                                                                       	|
-| --disable-gpu              	| 关闭gpu,服务器一般没有显卡                                                                                           	|
-| remote-debugging-port      	| chrome-debug工具的端口(golang chromepd 默认端口是9222,建议不要修改)                                                  	|
-| --no-sandbox               	| 不开启沙盒模式可以减少对服务器的资源消耗,但是服务器安全性降低,配和参数 --remote-debugging-address=127.0.0.1 一起使用 	|
-| --disable-plugins          	| 关闭chrome插件                                                                                                       	|
-| --remote-debugging-address 	| 远程调试地址 0.0.0.0 可以外网调用但是安全性低,建议使用默认值 127.0.0.1                                               	|
-| --window-size              	| 窗口尺寸                                                                                                             	|
-| --incognito                  	| 进入隐身模式——保证浏览网页时，不留下任何痕迹。                         	|
-| --user-data-dir=“绝对路径”   	| 指定UserData路径，默认路径位于系统盘，通过该命令，可以重定向为其它分区 	|
-| --disk-cache-dir=”绝对路径“  	| 指定Cache路径                                                          	|
-| --disk-cache-size=           	| 指定Cache大小，单位为字节                                              	|
-| –first run                   	| 强行指定浏览器会第一次运行                                             	|
-| --disable-javascript         	| 禁用Javascript                                                         	|
-| --omnibox-popup-count="数字" 	| 指出多功能地址栏的弹出菜单数量                                         	|
-| --user-agent="abcd"          	| 强行执行http请求头中的UserAgent为abcd                                  	|
-| --disable-plugins            	| 禁止加载所有插件                                                       	|
-| --disable-java               	| 禁用java                                                               	|
-| --start-maximized            	| 浏览器启动后，窗口默认为最大化                                         	|
-| --no-sandbox                 	| 关闭沙盒                                                               	|
-| --single-process             	| 浏览器只能以单进程运行，通常用于调试，定位bug                          	|
-| --process-per-tab            	| 一个标签一个进程                                                       	|
-| --process-per-site           	| 一个站点，一个进程                                                     	|
-| --in-process-plugins         	| 插件不以独立的进程运行，插件的异常崩溃，可能会导致整个页面挂掉         	|
-| --disable-popup-blocking     	| 关闭弹窗拦截                                                           	|
-| --proxy-pac-url              	| 指定使用PAC代理时，所需要的脚本url地址                                 	|
-| --ignore-certificate-errors  	| 忽略证书错误                                         	|
-| --disable-extensions        	| 禁用扩展                                         	|
-| --disable-plugins         	| 禁用插件                                          	|
-| –disable-software-rasterizer  | 禁用插件                                         	|
-| --hide-scrollbars             | 隐藏滚动条, 应对一些特殊页面                                         	|
-| --blink-settings=imagesEnabled=false | 不加载图片, 提升速度                                         	|
+| 参数                                 	| 说明                                                                   	|
+|--------------------------------------	|------------------------------------------------------------------------	|
+| --blink-settings=imagesEnabled=false 	| 不加载图片, 提升速度                                                   	|
+| --bookmark-menu                      	| 在工具 栏增加一个书签按钮                                              	|
+| --default-browser-check              	| 不检查默认浏览器                                                       	|
+| --disable-extensions                 	| 禁用扩展                                                               	|
+| --disable-gpu                        	| 关闭gpu,服务器一般没有显卡                                             	|
+| --disable-images                     	| 禁用图像                                                               	|
+| --disable-java                       	| 禁用java                                                               	|
+| --disable-javascript                 	| 禁用Javascript                                                         	|
+| --disable-plugins                    	| 禁止加载所有插件，可以增加速度。可以通过about:plugins页面查看效果      	|
+| --disable-popup-blocking             	| 禁用弹出拦截                                                           	|
+| --disable-software-rasterizer        	| 禁用插件                                                               	|
+| --disk-cache-dir="绝对路径"          	| 指定Cache路径                                                          	|
+| --disk-cache-size=                   	| 指定Cache大小，单位Byte                                                	|
+| --enable-sync                        	| 启用书签同步                                                           	|
+| --enable-udd-profiles                	| 启用账户切换菜单                                                       	|
+| --first run                          	| 重置到初始状态，第一次运行                                             	|
+| --headless                           	| 不开启图像界面                                                         	|
+| --hide-scrollbars                    	| 隐藏滚动条, 应对一些特殊页面                                           	|
+| --ignore-certificate-errors          	| 忽略证书错误                                                           	|
+| --incognito                          	| 进入隐身模式——保证浏览网页时，不留下任何痕迹。                         	|
+| --in-process-plugins                 	| 插件不以独立的进程运行，插件的异常崩溃，可能会导致整个页面挂掉         	|
+| --lang=zh-CN                         	| 设置语言为简体中文                                                     	|
+| --media-cache-size                   	| 自定义多媒体缓存最大值（单位byte）                                     	|
+| --no-first-run                       	| 第一次不运行                                                           	|
+| --no-sandbox                         	| 不开启沙盒模式可以减少对服务器的资源消耗,但是服务器安全性降低          	|
+| --omnibox-popup-count="数字"         	| 指出多功能地址栏的弹出菜单数量                                         	|
+| --process-per-site                   	| 每个站点使用单独进程                                                   	|
+| --process-per-tab                    	| 每个标签使用单独进程                                                   	|
+| --proxy-pac-url                      	| 指定使用PAC代理时，所需要的脚本url地址                                 	|
+| --remote-debugging-address           	| 远程调试地址 0.0.0.0 可以外网调用但是安全性低,建议使用默认值 127.0.0.1 	|
+| --remote-debugging-port              	| chrome-debug工具的端口(golang chromepd 默认端口是9222,建议不要修改)    	|
+| --single-process                     	| 浏览器只能以单进程运行，通常用于调试，定位bug                          	|
+| --start-maximized                    	| 浏览器启动后，窗口默认为最大化                                         	|
+| --user-agent=""                      	| 修改HTTP请求头部的Agent字符串，可以通过about:version页面查看修改效果   	|
+| --user-data-dir="绝对路径"           	| 指定用户文件夹路径，把书签这样的用户数据保存在系统分区以外的分区。     	|
+| --window-size="1600x900"             	| 窗口尺寸                                                               	|
 
 
 
-**`geckodriver`**
 
-* [https://github.com/mozilla/geckodriver](https://github.com/mozilla/geckodriver)
+## selenium
 
+* [https://github.com/SeleniumHQ](https://github.com/SeleniumHQ)
 
-- [`selenium`+`chromedriver`+`BeautifulSoup`](https://github.com/woytu/tool-gui-python/blob/master/utils/ReptileUtil.py)
+* [`selenium`+`chromedriver`+`BeautifulSoup`](https://github.com/woytu/tool-gui-python/blob/master/utils/ReptileUtil.py)
 
+* [禁用浏览器下载](https://github.com/TheBrainFamily/chimpy/issues/108#issuecomment-512836924)
 
 
 ### 函数或变量
@@ -247,10 +255,6 @@
 | def application_cache(self):                                           	|      	|
 | def log_types(self):                                                   	|      	|
 | def get_log(self, log_type):                                           	|      	|
-
-
-
-
 
 
 

@@ -68,7 +68,14 @@
 
 * [SQLite教程（内置日期和时间函数）](https://blog.csdn.net/hexingen/article/details/71577318)
 
-- 连接符
+* [SQLite - Python](https://www.runoob.com/sqlite/sqlite-python.html)
+
+* [SQLite 教程](https://www.twle.cn/l/yufei/sqlite/sqlite-basic-index.html)
+
+* [Python连接SQLite数据库](https://www.yiibai.com/sqlite/python-with-sqlite.html)
+
+
+**连接符**
 
 | 连接符  | 说明       |
 |------|----------|
@@ -100,7 +107,7 @@
 
 ## 定时任务
 
-[Python3-定时任务五种实现方式](https://blog.51cto.com/huangyg/2367088)
+* [Python3-定时任务五种实现方式](https://blog.51cto.com/huangyg/2367088)
 
 1. sched模块
 2. 循环+sleep
