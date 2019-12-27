@@ -607,7 +607,7 @@ find 目录 -type f -size 大小 | xargs -n 1 rm -rf
 ll -a -h 文件名
 ```
 
-## 显示当前文件夹大小
+## 显示目录大小
 
 ```bash
 du -sh
