@@ -70,6 +70,10 @@
 
 * [SQLite - Python](https://www.runoob.com/sqlite/sqlite-python.html)
 
+* [SQLite 教程](https://www.twle.cn/l/yufei/sqlite/sqlite-basic-index.html)
+
+* [Python连接SQLite数据库](https://www.yiibai.com/sqlite/python-with-sqlite.html)
+
 
 **连接符**
 
