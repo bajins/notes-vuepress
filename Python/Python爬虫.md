@@ -132,7 +132,7 @@
 | --headless                 	| 不开启图像界面                                                                                                       	|
 | --disable-gpu              	| 关闭gpu,服务器一般没有显卡                                                                                           	|
 | remote-debugging-port      	| chrome-debug工具的端口(golang chromepd 默认端口是9222,建议不要修改)                                                  	|
-| --no-sandbox               	| 不开启沙盒模式可以减少对服务器的资源消耗,但是服务器安全性降低,配和参数 --remote-debugging-address=127.0.0.1 一起使用 	|
+| --no-sandbox               	| 不开启沙盒模式可以减少对服务器的资源消耗,但是服务器安全性降低 	|
 | --disable-plugins          	| 关闭chrome插件                                                                                                       	|
 | --remote-debugging-address 	| 远程调试地址 0.0.0.0 可以外网调用但是安全性低,建议使用默认值 127.0.0.1                                               	|
 | --window-size              	| 窗口尺寸                                                                                                             	|
@@ -165,6 +165,8 @@
 
 
 ## selenium
+
+* [https://github.com/SeleniumHQ](https://github.com/SeleniumHQ)
 
 * [`selenium`+`chromedriver`+`BeautifulSoup`](https://github.com/woytu/tool-gui-python/blob/master/utils/ReptileUtil.py)
 

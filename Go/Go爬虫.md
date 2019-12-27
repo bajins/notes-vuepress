@@ -28,7 +28,7 @@
 
 * [https://github.com/chromedp](https://github.com/chromedp)
 
-- 该组织下有以下项目
+**该组织下有以下项目**
 
 * [https://github.com/chromedp/chromedp](https://github.com/chromedp/chromedp)
 
