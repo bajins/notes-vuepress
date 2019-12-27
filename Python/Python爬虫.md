@@ -12,9 +12,7 @@
 
 
 
-## selenium
-
-### xpath和css选择器
+## xpath和css选择器
 
 > `Chrome`打开网页`F12`后下面的调试工具出来后点击`Elements`左边的那个框框里的鼠标箭头
 > （或者按<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>），
@@ -95,11 +93,14 @@
 | css=div.subdiv > :only-child                                    	| `<ul id="recordlist">… … … …</ul>`     	|
 
 
-### `HeadlessBrowser`
+## `HeadlessBrowser`
 
 > `Headless Browser`(无头的浏览器)是没有图形用户界面(GUI)的web浏览器，通常是通过编程或命令行界面来控制的
 
 * [Headless Browser](https://www.jianshu.com/p/11d519e2d0cb)
+
+* [https://github.com/mozilla/geckodriver](https://github.com/mozilla/geckodriver)
+
 
 **`chromedriver`**
 
@@ -112,6 +113,9 @@
 * [隐藏Headles-Chrome不被检测出来](https://mlln.cn/2019/07/05/%E7%88%AC%E8%99%AB%E5%A6%82%E4%BD%95%E9%9A%90%E8%97%8FHeadles-Chrome%E4%B8%8D%E8%A2%AB%E6%A3%80%E6%B5%8B%E5%87%BA%E6%9D%A5)
 
 * [headless-chrome官方文档](https://developers.google.com/web/updates/2017/04/headless-chrome)
+
+* [功能和ChromeOptions官方网站参考](https://sites.google.com/a/chromium.org/chromedriver/capabilities)
+
 
 
 **参数列表**
@@ -159,13 +163,12 @@
 
 
 
-**`geckodriver`**
 
-* [https://github.com/mozilla/geckodriver](https://github.com/mozilla/geckodriver)
+## selenium
 
+* [`selenium`+`chromedriver`+`BeautifulSoup`](https://github.com/woytu/tool-gui-python/blob/master/utils/ReptileUtil.py)
 
-- [`selenium`+`chromedriver`+`BeautifulSoup`](https://github.com/woytu/tool-gui-python/blob/master/utils/ReptileUtil.py)
-
+* [禁用浏览器下载](https://github.com/TheBrainFamily/chimpy/issues/108#issuecomment-512836924)
 
 
 ### 函数或变量
@@ -247,10 +250,6 @@
 | def application_cache(self):                                           	|      	|
 | def log_types(self):                                                   	|      	|
 | def get_log(self, log_type):                                           	|      	|
-
-
-
-
 
 
 
