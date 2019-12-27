@@ -174,6 +174,9 @@
 
 ### 截图
 
+* [https://github.com/ShareX/ShareX](https://github.com/ShareX/ShareX)
+
+
 **FastStone Capture**
 
 * [FastStone Capture官网](https://www.faststone.org/download.htm)
