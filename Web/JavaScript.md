@@ -44,7 +44,7 @@
 
 * [ECMAscript和Javascript的区别](https://www.jianshu.com/p/10cfcb536d4a)
 
-* [es6支持情况](http://kangax.github.io/compat-table/es6)
+* [es6支持情况](https://kangax.github.io/compat-table/es6)
 
 * [检查JavaScript文件中的ES版本](https://github.com/dollarshaveclub/es-check)
 

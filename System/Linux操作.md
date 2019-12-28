@@ -165,7 +165,7 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 * [http://www.ruanyifeng.com/blog/2019/10/tmux.html](http://www.ruanyifeng.com/blog/2019/10/tmux.html)
 
-* [Tmux使用手册](http://louiszhai.github.io/2017/09/30/tmux)
+* [https://louiszhai.github.io/2017/09/30/tmux](https://louiszhai.github.io/2017/09/30/tmux)
 
 
 
@@ -214,11 +214,16 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 - <kbd>$</kbd> 重命名当前会话
 
-- <kbd>:new -s 会话名称</kbd> 创建并进入新的会话（不存在父子级关系）
-
 - <kbd>%</kbd> 左右分屏
 
 - <kbd>"</kbd> 上下分屏
+
+- <kbd>:new -s 会话名称</kbd> 创建并进入新的会话（不存在父子级关系）
+
+- <kbd>:kill-session</kbd> 删除当前会话
+
+- <kbd>:kill-server</kbd> 删除所有会话
+
 
 
 **开机运行**
