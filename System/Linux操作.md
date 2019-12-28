@@ -167,7 +167,10 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 * [https://louiszhai.github.io/2017/09/30/tmux](https://louiszhai.github.io/2017/09/30/tmux)
 
+* [https://gist.githubusercontent.com/MohamedAlaa/2961058/raw](https://gist.githubusercontent.com/MohamedAlaa/2961058/raw)
 
+
+> `tmux`分为`3`层，`Session`包含`Window`包含`Panes`
 
 **命令**
 
@@ -177,7 +180,9 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 - `tmux new -s 会话名称` 新建会话
 
-- `tmux attach -t 程序名称` 可进入到已经创建的会话
+- `tmux attach -t 会话名称` 可进入到已经创建的会话
+
+> 可使用`attach`前一部分字母，如`tmux a -t 会话名称`
 
 - `tmux ls` 列出所有会话
 
@@ -217,6 +222,8 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 - <kbd>%</kbd> 左右分屏
 
 - <kbd>"</kbd> 上下分屏
+
+- <kbd>:</kbd> 进入`tmux`命令行
 
 - <kbd>:new -s 会话名称</kbd> 创建并进入新的会话（不存在父子级关系）
 
