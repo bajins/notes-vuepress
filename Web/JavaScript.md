@@ -168,6 +168,29 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * [https://nodejs.org/zh-cn](https://nodejs.org/zh-cn)
 
 
+
+**WEB开发**
+
+* [https://github.com/facebook/react](https://github.com/facebook/react)
+
+* [https://github.com/angular/angular](https://github.com/angular/angular) [https://angular.cn](https://angular.cn)
+
+
+**原生应用开发**
+
+* [https://github.com/topics/electron](https://github.com/topics/electron)
+
+* [https://github.com/topics/electron](https://github.com/topics/electron)
+
+* [https://github.com/nwjs/nw.js](https://github.com/nwjs/nw.js)
+
+* [https://github.com/lxp135/NW.jsCnDocs](https://github.com/lxp135/NW.jsCnDocs)
+
+* [https://reactnative.cn](https://reactnative.cn)
+
+
+
+
 ### 安装rpm
 
 
