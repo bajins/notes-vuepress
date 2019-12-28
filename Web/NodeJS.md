@@ -8,7 +8,7 @@
 
 
 
-## NodeJs
+## flag
 
 * [NodeJs小册](https://nodejs.fasionchan.com/zh_CN/latest/index.html)
 
@@ -39,6 +39,7 @@
 
 
 
+## 依赖管理
 
 
 ### 安装rpm
