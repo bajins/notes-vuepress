@@ -169,6 +169,8 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 * [https://gist.githubusercontent.com/MohamedAlaa/2961058/raw](https://gist.githubusercontent.com/MohamedAlaa/2961058/raw)
 
+* [https://gist.githubusercontent.com/ryerh/14b7c24dfd623ef8edc7/raw](https://gist.githubusercontent.com/ryerh/14b7c24dfd623ef8edc7/raw)
+
 
 > `tmux`分为`3`层，`Session`包含`Window`包含`Panes`
 
