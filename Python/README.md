@@ -334,7 +334,11 @@ print(platform.python_version(), '\n')
 ```
 
 
-## Async/Await
+## asyncio
+
+* [python asyncio](https://www.jianshu.com/p/9ce6c3bf6733)
+
+* [https://docs.python.org/zh-cn/3/library/asyncio.html](https://docs.python.org/zh-cn/3/library/asyncio.html)
 
 ```python
 import threading
@@ -351,6 +355,8 @@ try:
     tasks = [hello() for i in range(1000*1000*1)]
     loop.run_until_complete(asyncio.wait(tasks))
     # loop.close()
+    # Python 3.7
+    #asyncio.run(asyncio.wait(tasks))
 except ValueError:
     print('Async Error')
 ```
@@ -433,3 +439,45 @@ except ValueError:
 3. 线程模块中Timer类`threading.Timer`
 4. 第三方模块：schedule
 5. 定时框架：APScheduler、Celery
+
+
+
+
+## gc
+
+* [https://docs.python.org/zh-cn/3.8/library/gc.html](https://docs.python.org/zh-cn/3.8/library/gc.html)
+
+* [https://github.com/giampaolo/psutil](https://github.com/giampaolo/psutil)
+
+* [https://github.com/pythonprofilers/memory_profiler](https://github.com/pythonprofilers/memory_profiler)
+
+* [https://github.com/mgedmin/objgraph](https://github.com/mgedmin/objgraph)
+
+* [https://github.com/pympler/pympler](https://github.com/pympler/pympler)
+
+- `tracemalloc` 是`python3`内置库，非常轻量，可以用于追踪内存的使用情况
+
+```python
+#开启gc（默认）
+gc.enable()
+# 关闭gc
+gc.disable()
+# 判断gc是否开启
+gc.isenabled()
+# 执行一次垃圾回收，不管gc是否处于开启状态都能使用
+gc.collect()
+# 设置垃圾回收阈值
+gc.set_threshold(t0, t1, t2) 
+# 获得当前的垃圾回收阈值
+gc.get_threshold()
+# 获取所有被垃圾回收器监控管理的对象
+gc.get_objects()
+# 返回obj对象直接指向的对象
+gc.get_referents(obj)
+# 返回所有直接指向obj的对象
+gc.get_referrers(obj)
+```
+
+
+
+
