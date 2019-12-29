@@ -209,15 +209,18 @@
 
 ## 压缩
 
-* [Bandizip](https://www.bandisoft.com/bandizip)
+* [https://www.bandisoft.com/bandizip](https://www.bandisoft.com/bandizip)
 
-* [PeaZip](https://www.peazip.org)
+* [https://www.peazip.org](https://www.peazip.org)
+
+* [https://www.7-zip.org/download.html](https://www.7-zip.org/download.html)
 
 
 
 ## office
 
 * [https://github.com/YerongAI/Office-Tool](https://github.com/YerongAI/Office-Tool)
+
 
 
 ## 系统相关
@@ -242,12 +245,13 @@
 |                                                                    	| [icura](http://icura.cn)                             	|
 
 
-- win10数字激活
+**win10数字激活**
 
 > 所谓的win10数字权利激活，是一种win10授权方法。该激活方法会记录你的电脑硬件信息，并保存到微软的服务器，
 > 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
 
 1. 避免在vpn状态下使用本软件。
+
 2. 激活前电脑必须联网，而且必须开启`Windows Update`服务，否则无法激活。
 
 | PE                                                                               	| 激活                                                                       	|
