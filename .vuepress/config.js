@@ -37,8 +37,8 @@ module.exports = {
         docsDir: '/',
         // valine 评论系统
         valineConfig: {
-            appId: '4VW8qoOEvbvsNWY2dhAv4QGY-gzGzoHsz',// your appId
-            appKey: 'kqxcfEU6ysWeda4JAHTAb0ay', // your appKey
+            appId: 'm9S5QXsdju39LvMs8ooRRIiF-MdYXbMMI',// your appId
+            appKey: 'UfBRjySkb4bjPiFuH0Pxe3a9', // your appKey
         },
         // 博客设置
         // blogConfig: {
