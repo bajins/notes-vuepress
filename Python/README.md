@@ -334,6 +334,27 @@ print(platform.python_version(), '\n')
 ```
 
 
+## Async/Await
+
+```python
+import threading
+import asyncio
+ 
+async def hello():
+    print('Hello world! (%s)' % threading.currentThread())
+    await asyncio.sleep(1)
+    print('Hello again! (%s)' % threading.currentThread())
+ 
+ 
+try:
+    loop = asyncio.get_event_loop()
+    tasks = [hello() for i in range(1000*1000*1)]
+    loop.run_until_complete(asyncio.wait(tasks))
+    # loop.close()
+except ValueError:
+    print('Async Error')
+```
+
 
 
 ## 线程池
