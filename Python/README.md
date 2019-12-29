@@ -28,6 +28,12 @@
 
 * [Python语言小册](https://python.fasionchan.com/zh_CN/latest/index.html)
 
+* [https://github.com/yidao620c/python3-cookbook](https://github.com/yidao620c/python3-cookbook)
+
+* [https://github.com/eastlakeside/interpy-zh](https://github.com/eastlakeside/interpy-zh)
+
+* [https://github.com/cloga/scipy-lecture-notes_cn](https://github.com/cloga/scipy-lecture-notes_cn)
+
 * [https://www.junmajinlong.com/python/index](https://www.junmajinlong.com/python/index)
 
 * [https://zmister.com](https://zmister.com)
@@ -36,6 +42,10 @@
 * [精选的Python框架，库，软件和资源的精选列表](https://github.com/vinta/awesome-python)
 
 * [python3 中执行系统命令](https://www.jianshu.com/p/a19de14c4b57)
+
+* [Python图像处理库—-Pillow](https://www.lizenghai.com/archives/17611.html)
+
+
 
 
 
@@ -454,6 +464,8 @@ except ValueError:
 * [https://github.com/mgedmin/objgraph](https://github.com/mgedmin/objgraph)
 
 * [https://github.com/pympler/pympler](https://github.com/pympler/pympler)
+
+* [](https://saucer-man.com/operation_and_maintenance/298.html)
 
 - `tracemalloc` 是`python3`内置库，非常轻量，可以用于追踪内存的使用情况
 

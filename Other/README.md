@@ -8,12 +8,6 @@
 
 ## flag
 
-* [https://github.com/search?q=awesome](https://github.com/search?q=awesome)
-
-* [https://github.com/topics/awesome](https://github.com/topics/awesome)
-
-
-
 * [饭饭的个人主页](https://github.com/noisky/Homepage)
 
 * [互联网上的免费书籍](https://github.com/ruanyf/free-books)
