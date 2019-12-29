@@ -24,6 +24,10 @@ https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extens
 * [python、java、c、go执行速度对比](https://www.jianshu.com/p/d60eff598aa0)
 
 
+* [https://github.com/search?q=Cloudflare+Workers](https://github.com/search?q=Cloudflare+Workers)
+
+* [https://github.com/Siujoeng-Lau/Workers-Proxy](https://github.com/Siujoeng-Lau/Workers-Proxy)
+
 
 ## 临时邮箱
 

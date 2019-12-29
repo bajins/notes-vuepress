@@ -206,6 +206,8 @@ npm start
 
 ## svp
 
+* [https://github.com/Alvin9999/new-pac/wiki](https://github.com/Alvin9999/new-pac/wiki)
+
 * [https://github.com/ssrsub/ssr/tree/master](https://github.com/ssrsub/ssr/tree/master)
 
 * [https://www.ssrtool.com](https://www.ssrtool.com)
@@ -217,8 +219,6 @@ npm start
 * [https://github.com/selierlin/Share-SSR-V2ray](https://github.com/selierlin/Share-SSR-V2ray)
 
 * [https://github.com/ThinkDevelop/Free-SS-SSR](https://github.com/ThinkDevelop/Free-SS-SSR)
-
-* [https://github.com/Alvin9999/new-pac/wiki](https://github.com/Alvin9999/new-pac/wiki)
 
 * [https://toutyrater.github.io/basic/vmess.html](https://toutyrater.github.io/basic/vmess.html)
 
