@@ -45,8 +45,7 @@
 
 * [Python图像处理库—-Pillow](https://www.lizenghai.com/archives/17611.html)
 
-
-
+* [https://github.com/aio-libs](https://github.com/aio-libs)
 
 
 ## 安装新版
@@ -350,6 +349,17 @@ print(platform.python_version(), '\n')
 
 * [https://docs.python.org/zh-cn/3/library/asyncio.html](https://docs.python.org/zh-cn/3/library/asyncio.html)
 
+* [aiohttp爬虫](https://blog.csdn.net/dashoumeixi/article/details/88800916)
+
+* [python asyncio aiohttp 异步下载 完整例子](https://blog.csdn.net/dashoumeixi/article/details/81085141)
+
+* [python 多线程与asyncio下载文件](https://blog.csdn.net/dashoumeixi/article/details/80938327)
+
+* [python写一个多线程下载程序](http://www.laitech.cn/2018/08/08/393)
+
+* [关于aiohttp下载大文件的方式](https://blog.csdn.net/dashoumeixi/article/details/88845137)
+
+
 ```python
 import threading
 import asyncio
@@ -471,6 +481,8 @@ except ValueError:
 
 * [https://github.com/zhuyifei1999/guppy3](https://github.com/zhuyifei1999/guppy3)
 
+* [https://github.com/benfred/py-spy](https://github.com/benfred/py-spy)
+
 * [一次python内存调优经历](https://saucer-man.com/operation_and_maintenance/298.html)
 
 
@@ -497,6 +509,19 @@ gc.get_referents(obj)
 gc.get_referrers(obj)
 ```
 
+```python
+import tracemalloc
+
+tracemalloc.start()  # 开始跟踪内存分配
+time1 = tracemalloc.take_snapshow()
+import waste_memory
+x = waste_memory.run()
+time2 = tracemalloc.take_snapshow()
+stats = time2.compare_to(time1, 'lineno')
+snapshot = tracemalloc.take_snapshot()  # 快照，当前内存分配
+top_stats = snapshot.statistics('lineno')  # 快照对象的统计
+[print(stat) for stat in top_stats]
+```
 
 
 
