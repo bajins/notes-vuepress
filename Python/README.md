@@ -401,6 +401,8 @@ except ValueError:
 
 ## SQLite3
 
+* [https://docs.python.org/zh-cn/3.8/library/sqlite3.html](https://docs.python.org/zh-cn/3.8/library/sqlite3.html)
+
 * [SQLite教程（内置日期和时间函数）](https://blog.csdn.net/hexingen/article/details/71577318)
 
 * [SQLite - Python](https://www.runoob.com/sqlite/sqlite-python.html)
