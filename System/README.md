@@ -290,6 +290,8 @@ npm start
 
 * [Telegram](https://github.com/telegramdesktop/tdesktop/releases)
 
+* [https://telegram.zczc.men](https://telegram.zczc.men)
+
 * [https://t.me/s/ssrshares](https://t.me/s/ssrshares)
 
 * [https://t.me/s/mtplinks](https://t.me/s/mtplinks)

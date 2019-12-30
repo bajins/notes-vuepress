@@ -133,7 +133,7 @@ vi /usr/libexec/urlgrabber-ext-down
 * 中国科学技术大学 [http://pypi.mirrors.ustc.edu.cn/simple](http://pypi.mirrors.ustc.edu.cn/simple)
 * 华中理工大学 [http://pypi.hustunique.com](http://pypi.hustunique.com)
 * 山东理工大学 [http://pypi.sdutlinux.org](http://pypi.sdutlinux.org)
-
+* 上海交通大学 [https://mirrors.sjtug.sjtu.edu.cn/pypi](https://mirrors.sjtug.sjtu.edu.cn/pypi)
 
 - 安装单个库使用
 
