@@ -6,21 +6,11 @@
 
 
 
-> CentOS官方已宣布在2020年停止对CentOS6的维护更新，各大软件开发商也逐渐停止对CentOS6的兼容，建议使用CentOS7
-
 
 ## flag
 
-* [思维导图](https://github.com/search?o=desc&q=%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE&s=updated&type=Repositories)
 
 * [http://github.lesschina.com/linux](http://github.lesschina.com/linux)
-
-* [https://mm.edrawsoft.cn/community/15/1](https://mm.edrawsoft.cn/community/15/1)
-
-* [showdoc](https://github.com/star7th/showdoc)
-
-* [https://github.com/connectbot/connectbot](https://github.com/connectbot/connectbot)
-
 
 
 * [speedtest](https://github.com/adolfintel/speedtest)
@@ -31,6 +21,53 @@
 * [https://www.bt.cn](https://www.bt.cn)
 
 * [https://www.xp.cn](https://www.xp.cn)
+
+
+## SSH
+
+* [https://github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
+
+* [https://github.com/topics/terminal](https://github.com/topics/terminal)
+
+* [https://github.com/topics/ssh](https://github.com/topics/ssh)
+
+* [https://github.com/topics/ssh-client](https://github.com/topics/ssh-client)
+
+* [https://github.com/topics/ssh2](https://github.com/topics/ssh2)
+
+* [https://github.com/topics/ssh](https://github.com/topics/ssh)
+
+
+* [https://github.com/topics/sftp](https://github.com/topics/sftp)
+
+* [https://github.com/topics/sftp-client](https://github.com/topics/sftp-client)
+
+* [https://github.com/topics/ftp-client](https://github.com/topics/ftp-client)
+
+
+**WEB**
+
+* [xterm.js](https://github.com/xtermjs/xterm.js)
+
+* [webssh](https://github.com/huashengdun/webssh)
+
+* [WebSSH2](https://github.com/billchurch/WebSSH2)
+
+* [https://github.com/mscdex/ssh2](https://github.com/mscdex/ssh2)
+
+
+
+
+**Android**
+
+* [https://github.com/connectbot/connectbot](https://github.com/connectbot/connectbot)
+
+* [https://github.com/niklas-8/RemoteFiles](https://github.com/niklas-8/RemoteFiles)
+
+* [https://github.com/termux](https://github.com/termux)
+
+
+
 
 
 ## 资源网站建立
@@ -75,54 +112,6 @@
 * [https://github.com/assimon/shanhufaka](https://github.com/assimon/shanhufaka)
 
 * [https://github.com/maddog888/kmxts](https://github.com/maddog888/kmxts)
-
-
-
-## WebSSH2
-
-* [xterm.js](https://github.com/xtermjs/xterm.js)
-
-* [webssh](https://github.com/huashengdun/webssh)
-
-* [WebSSH2](https://github.com/billchurch/WebSSH2)
-
-* [https://github.com/MoePlayer/DPlayer](https://github.com/MoePlayer/DPlayer)
-
-
-### 下载
-
-```bash
-git clone https://github.com/billchurch/WebSSH2
-cd WebSSH2
-npm install --production
-```
-
-### 修改源码使其支持秘钥登录
-
-```bash
-vi app/server/socket.js
-# 文件开头添加
-var fs = require('fs')
-# 修改 conn.connect 方法
-username: 'root',
-privateKey: fs.readFileSync('/root/.ssh/id_rsa')
-```
-
-### 运行
-
-```bash
-yum install screen
-screen -S Webssh2
-npm start
-```
-- 使用浏览器打开`http://Webssh服务器IP:Webssh端口/ssh/host/SSH服务器IP`
-
-- 默认端口号是2222
-
-- 可以通过修改`app/config.json`中的`listen.port`修改端口
-
-
-
 
 
 
