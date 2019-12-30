@@ -359,6 +359,8 @@ print(platform.python_version(), '\n')
 
 * [关于aiohttp下载大文件的方式](https://blog.csdn.net/dashoumeixi/article/details/88845137)
 
+* [使用 asyncio + aiohttp 并发下载](https://madmalls.com/blog/post/aiohttp-howto-in-python3)
+
 
 ```python
 import threading
