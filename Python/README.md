@@ -459,6 +459,8 @@ except ValueError:
 
 * [https://docs.python.org/zh-cn/3.8/library/gc.html](https://docs.python.org/zh-cn/3.8/library/gc.html)
 
+* [https://docs.python.org/zh-cn/3/library/tracemalloc.html](https://docs.python.org/zh-cn/3/library/tracemalloc.html)
+
 * [https://github.com/giampaolo/psutil](https://github.com/giampaolo/psutil)
 
 * [https://github.com/pythonprofilers/memory_profiler](https://github.com/pythonprofilers/memory_profiler)
@@ -467,9 +469,12 @@ except ValueError:
 
 * [https://github.com/pympler/pympler](https://github.com/pympler/pympler)
 
-* [](https://saucer-man.com/operation_and_maintenance/298.html)
+* [https://github.com/zhuyifei1999/guppy3](https://github.com/zhuyifei1999/guppy3)
 
-- `tracemalloc` 是`python3`内置库，非常轻量，可以用于追踪内存的使用情况
+* [一次python内存调优经历](https://saucer-man.com/operation_and_maintenance/298.html)
+
+
+> 使用`sys.getsizeof`方法可以查看`python`对象的内存占用，单位：字节 (byte)
 
 ```python
 #开启gc（默认）
