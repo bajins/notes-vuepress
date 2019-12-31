@@ -347,6 +347,8 @@ print(platform.python_version(), '\n')
 
 * [异步IO](https://www.liaoxuefeng.com/wiki/1016959663602400/1017959540289152)
 
+* [Python3.5协程学习研究](https://thief.one/2018/06/21/1)
+
 
 * [python asyncio](https://www.jianshu.com/p/9ce6c3bf6733)
 
