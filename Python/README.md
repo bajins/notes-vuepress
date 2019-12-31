@@ -349,10 +349,15 @@ print(platform.python_version(), '\n')
 
 * [Python3.5协程学习研究](https://thief.one/2018/06/21/1)
 
+* [协程和 asyncio](https://www.ibm.com/developerworks/cn/analytics/library/ba-on-demand-data-python-3/index.html?ca=drs-)
 
 * [python asyncio](https://www.jianshu.com/p/9ce6c3bf6733)
 
+* [Python中协程异步IO（asyncio）详解](https://zhuanlan.zhihu.com/p/59621713)
+
 * [https://docs.python.org/zh-cn/3/library/asyncio.html](https://docs.python.org/zh-cn/3/library/asyncio.html)
+
+* [Asyncio并发编程](http://www.langzi.fun/Asyncio%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B.html)
 
 * [aiohttp爬虫](https://blog.csdn.net/dashoumeixi/article/details/88800916)
 
