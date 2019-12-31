@@ -66,7 +66,7 @@
 
 
 
-## IDEA与Eclipse快捷键对应关系
+## IDEA与Eclipse对应快捷键
 
 * [https://github.com/AJLoveChina/idea-shortcuts-guide](https://github.com/AJLoveChina/idea-shortcuts-guide)
 
