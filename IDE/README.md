@@ -96,7 +96,7 @@
 | 打开文件结构图                                   	| Ctrl + F12   Alt + 7                      	| Ctrl + F3    Ctrl + O                       	|
 | 编译项目                                         	| Ctrl + F9                                 	| Ctrl + B（编译所有项目）                    	|
 | 全局查找class                                    	| Ctrl + N                                  	| Project-BuiId Project      Ctrl + Shift + T 	|
-| 根据文件内容当前工作空间查找文件                 	| Ctrl + Shift + F                          	| Ctrl + H                                    	|
+| 全局搜索                                          	| Ctrl + Shift + F                          	| Ctrl + H                                    	|
 | 根据文件名当前工作空间查找文件                   	| Ctrl + Shift + N                          	| Ctrl + Shift + R                            	|
 | 删除整行                                         	| Shift + Delete    Ctrl + Y                	| Ctrl + D                                    	|
 | 向下复制一行                                     	| Ctrl + D                                  	| Ctrl + Alt + ↓                              	|
