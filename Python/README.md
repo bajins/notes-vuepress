@@ -345,6 +345,9 @@ print(platform.python_version(), '\n')
 
 ## asyncio
 
+* [异步IO](https://www.liaoxuefeng.com/wiki/1016959663602400/1017959540289152)
+
+
 * [python asyncio](https://www.jianshu.com/p/9ce6c3bf6733)
 
 * [https://docs.python.org/zh-cn/3/library/asyncio.html](https://docs.python.org/zh-cn/3/library/asyncio.html)
