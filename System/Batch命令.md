@@ -193,7 +193,21 @@ echo %port%|findstr "^[0-9]*$" >nul && (
 )
 ```
 
+## 获取目录名
 
+```batch
+:: 顺序循环，设置最后一个为当前目录
+for /f "delims=" %%i in ("%cd%") do set folder=%%~ni
+echo %folder%
+
+:: 仅将 %0 扩充到一个路径
+set currentPath=%~dp0
+:: 替换\为,号，也可以替换为空格
+set currentPath=%currentPath:\=,%
+:: 顺序循环，设置最后一个为当前目录
+for %%a in (%currentPath%) do set folder=%%a
+echo %folder%
+```
 
 
 ## 获取为指定后缀的文件
