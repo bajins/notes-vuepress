@@ -31,9 +31,13 @@
 * [Go 入门指南](https://github.com/unknwon/the-way-to-go_ZH_CN)
 
 
+
 ## 开源项目
 
-* [Go frameworks集合](https://github.com/avelino/awesome-go)
+* [https://github.com/avelino/awesome-go](https://github.com/avelino/awesome-go)
+
+* [https://github.com/yinggaozhen/awesome-go-cn](https://github.com/yinggaozhen/awesome-go-cn)
+
 
 | 框架    	| GitHub                                                         	| 官网                                        	|
 |---------	|----------------------------------------------------------------	|---------------------------------------------	|
