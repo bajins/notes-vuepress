@@ -8,6 +8,15 @@
 
 ## flag
 
+* [windows常用命令](https://www.cnblogs.com/kekec/p/3662125.html)
+
+* [windows批处理语法](https://www.cnblogs.com/kekec/p/3937530.html)
+
+* [windows之四十个bat脚本命令](https://juejin.im/post/5d50c631518825378d5d6121)
+
+* [windows bat脚本总结](https://segmentfault.com/a/1190000018614430)
+
+
 * [Windows 10/8/7的Rundll32命令列表](https://www.thewindowsclub.com/rundll32-shortcut-commands-windows)
 
 
