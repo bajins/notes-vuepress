@@ -3,7 +3,7 @@
 
 @ECHO OFF
 color 0a
-Title FRPC启动工具 by:bajins.com
+Title GO打包工具 by:bajins.com
 :: 窗口高宽40*120
 REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v WindowSize /d 0x00280078 /f >nul
 :: 屏幕缓冲区高宽1000*120
