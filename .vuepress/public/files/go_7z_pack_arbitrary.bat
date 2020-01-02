@@ -1,7 +1,14 @@
 1>1/* ::
 :: by bajins https://www.bajins.com
 
-@echo off
+@ECHO OFF
+color 0a
+Title FRPC启动工具 by:bajins.com
+:: 窗口高宽40*120
+REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v WindowSize /d 0x00280078 /f >nul
+:: 屏幕缓冲区高宽1000*120
+REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v ScreenBufferSize /d 0x03e80078 /f >nul
+
 md "%~dp0$testAdmin$" 2>nul
 if not exist "%~dp0$testAdmin$" (
     echo bajins不具备所在目录的写入权限! >&2
@@ -50,64 +57,72 @@ if not "%errorlevel%"=="0" (
 :: 需要打包的文件或文件夹
 set files=%~2
 :: 打包完成的文件命名前一部分
-set project=%~3
-if "%project%"=="" (
+set projectName=%~3
+if "%projectName%"=="" (
     :: 仅将 %0 扩充到一个路径
     set currentPath=%~p0
     :: 替换\为,号，也可以替换为空格
     set currentPath=%currentPath:\=,%
     :: 顺序循环，设置最后一个为当前目录
-    for %%a in (%currentPath%) do set CurrentDirectoryName=%%a
-    :: 打包完成的文件命名前一部分
-    set project=%CurrentDirectoryName%
+    for %%a in (%currentPath%) do set projectName=%%a
 )
 :: 打包完成的文件命名后一部分，与前一部分进行组合
-set allList=_darwin_386,_darwin_amd64,_freebsd_386,_freebsd_amd64,_freebsd_arm,
-set allList=%allList%_netbsd_386,_netbsd_amd64,_netbsd_arm,_openbsd_386,
-set allList=%allList%_openbsd_amd64,_windows_386.exe,_windows_amd64.exe,
-set allList=%allList%_linux_386,_linux_amd64,_linux_arm,_linux_mips,
-set allList=%allList%_linux_mips64,_linux_mips64le,_linux_mipsle,_linux_s390x
+set allList=darwin_386,darwin_amd64,freebsd_386,freebsd_amd64,freebsd_arm,
+set allList=%allList%netbsd_386,netbsd_amd64,netbsd_arm,openbsd_386,
+set allList=%allList%openbsd_amd64,windows_386.exe,windows_amd64.exe,
+set allList=%allList%linux_386,linux_amd64,linux_arm,linux_mips,
+set allList=%allList%linux_mips64,linux_mips64le,linux_mipsle,linux_s390x
 
 :GETGOX
 set GOPROXY=https://goproxy.io
 go get github.com/mitchellh/gox
 
-
+:: 删除旧的压缩包文件
 for %%i in (%allList%) do (
-    :: 如果二进制文件不存在则重新打包
-    if not exist "%project%%%i" (
-        go get github.com/mitchellh/gox
-        gox
-        if not %errorlevel% == 0 (
-            goto :GETGOX
-        )
-        :: 删除旧的压缩包文件
-        del *.zip *.tar *.gz
+    set binaryFile=%projectName%_%%i
+    :: 如果二进制文件存在则删除
+    if exist "!binaryFile!" (
+        del !binaryFile!
+    )
+    set zipName=!binaryFile:.exe=.zip!
+    if exist "!zipName!" (
+        del !zipName!
+    )
+    if exist "!binaryFile!.tar" (
+        del !binaryFile!.tar
+    )
+    if exist "!binaryFile!.tar.gz" (
+        del !binaryFile!.tar.gz
     )
 )
-
+gox
+if not %errorlevel% == 0 (
+    goto :GETGOX
+)
 
 :: 使用7z压缩
 for %%i in (%allList%) do (
-    set runFile=%project%%%i
+    set binaryFile=%projectName%_%%i
     :: !!为setlocal EnableDelayedExpansion取变量的值
-    if exist "!runFile!" (
-        :: 判断变量字符串中是否包含字符串
-        echo %%i | findstr linux >nul && (
-            :: 用7z压缩成tar
-            7za a -ttar %project%%%i.tar %files% !runFile!
-            :: 用7z把tar压缩成gz
-            7za a -tgzip %project%%%i.tar.gz %project%%%i.tar
-            :: 删除tar文件和二进制文件
-            del *.tar !runFile!
-
-        ) || (
-            :: 用7z压缩文件为zip
-            7za a %project%%%i.zip %files% !runFile!
-            :: 删除二进制文件
-            del !runFile!
-        )
+    if not exist "!binaryFile!" (
+        echo 打包失败，文件不存在
+        @cmd /k
     )
+    :: 判断变量字符串中是否包含字符串
+    echo %%i | findstr linux >nul && (
+        :: 用7z压缩成tar
+        7za a -ttar !binaryFile!.tar %files% !binaryFile!
+        :: 用7z把tar压缩成gz
+        7za a -tgzip !binaryFile!.tar.gz !binaryFile!.tar
+        :: 删除tar文件
+        del *.tar
+    ) || (
+        set zipName=!binaryFile:.exe=!
+        :: 用7z压缩文件为zip
+        7za a !zipName!.zip %files% !binaryFile!
+    )
+    :: 删除二进制文件
+    del !binaryFile!
 )
 
 :: 使用 /D 开关，除了改变驱动器的当前目录之外，还可改变当前驱动器。
