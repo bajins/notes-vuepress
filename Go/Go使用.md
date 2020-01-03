@@ -333,3 +333,98 @@ resp.Request.ParseMultipartForm(1024)
 ```
 
 
+## 作业调度
+
+- 不固定某个时间，滚动间隔时间执行
+
+```go
+// 启动的时候执行一次，不固定某个时间，滚动间隔时间执行
+func SchedulerIntervalsTimer(f func(), duration time.Duration) {
+	for {
+		go func() {
+			f()
+		}()
+		// 定时任务
+		ticker := time.NewTicker(duration)
+		<-ticker.C
+	}
+}
+
+// 不固定某个时间，滚动间隔时间执行
+func SchedulerIntervalsTimer(f func(), duration time.Duration) {
+	var ch chan int
+	// 定时任务
+	ticker := time.NewTicker(duration)
+	go func() {
+		for range ticker.C {
+			f()
+		}
+		ch <- 1
+	}()
+	<-ch
+}
+
+// 不固定某个时间，滚动间隔时间执行
+func SchedulerIntervalsTimer(f func(), duration time.Duration) {
+	// 定时任务
+	ticker := time.NewTicker(duration)
+	for range ticker.C {
+		go func() {
+			f()
+		}()
+	}
+}
+```
+
+
+- 以后在指定的时间执行
+
+```go
+// 启动的时候执行一次，固定在每天的某个时间滚动执行
+func SchedulerFixedTimer(f func(), duration time.Duration) {
+	for {
+		go func() {
+			f()
+		}()
+		now := time.Now()
+		// 计算下一个时间点
+		next := now.Add(duration)
+		next = time.Date(next.Year(), next.Month(), next.Day(), 0, 0, 0, 0, next.Location())
+		ticker := time.NewTimer(now.Sub(next))
+		<-ticker.C
+	}
+}
+
+// 固定在每天的某个时间滚动执行
+func SchedulerFixedTimer(f func(), duration time.Duration) {
+	var ch chan int
+	now := time.Now()
+	// 计算下一个时间点
+	next := now.Add(duration)
+	next = time.Date(next.Year(), next.Month(), next.Day(), 0, 0, 0, 0, next.Location())
+	ticker := time.NewTimer(now.Sub(next))
+	go func() {
+		for range ticker.C {
+			f()
+		}
+		ch <- 1
+	}()
+	<-ch
+}
+
+// 固定在每天的某个时间滚动执行
+func SchedulerFixedTimer(f func(), duration time.Duration) {
+	now := time.Now()
+	// 计算下一个时间点
+	next := now.Add(duration)
+	next = time.Date(next.Year(), next.Month(), next.Day(), 0, 0, 0, 0, next.Location())
+	ticker := time.NewTimer(now.Sub(next))
+	for range ticker.C {
+		go func() {
+			f()
+		}()
+	}
+}
+```
+
+

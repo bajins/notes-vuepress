@@ -66,7 +66,11 @@
 
 * [chat](https://github.com/Yanjunhui/chat)
 
-* [gocron](https://github.com/ouqiang/gocron)
+* [https://github.com/ouqiang/gocron](https://github.com/ouqiang/gocron)
+
+* [https://github.com/robfig/cron](https://github.com/robfig/cron)
+
+* [https://github.com/jasonlvhit/gocron](https://github.com/jasonlvhit/gocron)
 
 * [delay-queue](https://github.com/ouqiang/delay-queue)
 
