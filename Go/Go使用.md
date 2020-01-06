@@ -336,11 +336,10 @@ for {
 //result, _ := ioutil.ReadAll(resp.Body)
 // 必须关闭
 defer resp.Body.Close()
-// 读取Body会清空对应Reader，这里使用了result后会被清空
-resp.Body = ioutil.NopCloser(result)
+// 使用ioutil.ReadAll 会清空对应Reader，重新赋值对应Reader
 //resp.Body = ioutil.NopCloser(bytes.NewBuffer(result))
 
-// 解析参数，填充到Form、PostForm
+// 解析参数，填充到Form、PostForm，这里也会清空对应Reader
 resp.Request.ParseForm()
 // 解析文件上传表单的post参数
 resp.Request.ParseMultipartForm(1024)
