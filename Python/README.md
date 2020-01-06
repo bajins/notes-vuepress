@@ -343,7 +343,12 @@ print(platform.python_version(), '\n')
 ```
 
 
-## asyncio
+
+## 多线程
+
+
+
+### asyncio
 
 * [异步IO](https://www.liaoxuefeng.com/wiki/1016959663602400/1017959540289152)
 
@@ -395,7 +400,18 @@ except ValueError:
 
 
 
-## 线程池
+### 开启新线程
+
+```python
+import threading
+# 使用新线程执行函数
+threading.Thread(target=test, args=("test",)).start()
+# 在指定的秒数后调用一个函数
+threading.Timer(10, test, ("test",)).start()
+```
+
+
+### 线程池
 
 
 * [python3异步编程](https://blog.51cto.com/445153/2138832)
@@ -403,6 +419,15 @@ except ValueError:
 * [Python 并发、并行、同步和异步](https://www.jianshu.com/p/13d2e8514546)
 
 * [ThreadPoolExecutor](https://www.jianshu.com/p/6d6e4f745c27)
+
+```python
+from concurrent.futures import ThreadPoolExecutor
+import multiprocessing
+pool = ThreadPoolExecutor(max_workers=int(multiprocessing.cpu_count() / (1 - 0.9)))
+done = pool.submit(test, "test")
+# 执行完成调用函数
+done.add_done_callback(thread_call_back)
+```
 
 
 

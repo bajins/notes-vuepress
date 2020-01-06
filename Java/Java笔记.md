@@ -473,290 +473,235 @@ public class SynchronizedDemo {
 
 
 
+## 多线程
 
-## AOP
+### 开启新线程
 
-|AOP配置元素 | 描述 |
------------- | -------------
-|`<aop:advisor>` | 定义AOP通知器|
-|`<aop:after>`  | 定义AOP后置通知（不管该方法是否执行成功）|
-|`<aop:after-returning>` | 在方法成功执行后调用通知|
-|`<aop:after-throwing>` | 在方法抛出异常后调用通知|
-|`<aop:around>` | 定义AOP环绕通知|
-|`<aop:aspect>` | 定义切面|
-|`<aop:aspect-autoproxy>` | 定义`@AspectJ`注解驱动的切面|
-|`<aop:before>` | 定义AOP前置通知|
-|`<aop:config>` | 顶层的AOP配置元素，大多数的<aop:*>包含在<aop:config>元素内|
-|`<aop:declare-parent>` | 为被通知的对象引入额外的接口，并透明的实现|
-|`<aop:pointcut>` | 定义切点|
-
-
-## 连接MySQL
-
-> `jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8`
-> `&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai`
-
-| 参数名称                  | 参数说明                                    | 缺省值   | 最低版本要求 |
-|-----------------------|-----------------------------------------------------------------|-------|--------|
-| user                  | 数据库用户名（用于连接数据库）                                                 |       | 所有版本   |
-| password              | 用户密码（用于连接数据库）                                                   |       | 所有版本   |
-| useUnicode            | 是否使用Unicode字符集，使用参数characterEncoding，本参数值必须设置为true | FALSE | 1.1g   |
-| characterEncoding     | 当useUnicode设置为true时，指定字符编码。比如可设置为gb2312或gbk、UTF-8  | FALSE | 1.1g   |
-| autoReconnect         | 当数据库连接异常中断时，是否自动重新连接？                                           | FALSE | 1.1    |
-| autoReconnectForPools | 是否使用针对数据库连接池的重连策略                                               | FALSE | 3.1.3  |
-| failOverReadOnly      | 自动重连成功后，连接是否设置为只读？                                              | TRUE  | 3.0.12 |
-| maxReconnects         | autoReconnect设置为true时，重试连接的次数                                   | 3     | 1.1    |
-| initialTimeout        | autoReconnect设置为true时，两次重连之间的时间间隔，单位：秒                          | 2     | 1.1    |
-| connectTimeout        | 和数据库服务器建立socket连接时的超时，单位：毫秒                               | 0     | 3.0.1  |
-| socketTimeout         | socket操作（读写）超时，单位：毫秒。 0表示永不超时                                   | 0     | 3.0.1  |
-| useSSL                | 是否进行ssl连接                                                       |       |        |
-| zeroDateTimeBehavior  | 把零值日期转换为`null`                                                  |       |        |
-| serverTimezone        | `GMT%2B8` `%2B`是`+`的转义字符,其实就是`GMT+8`,代表东八区。`Asia/Shanghai` 上海   |        |        |
-
-## spring
+- 继承`Thread`类创建线程类
 
 ```java
-// 手动回滚事务
-TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
+class ThreadTest extends Thread {
+    public void run() {
+        try {
+            // 休眠3秒
+            Thread.sleep(1000 * 3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println(getName());
+    }
+
+    public static void main(String[] args) {
+        for (int i = 0; i < 20; i++) {
+            ThreadTest threadTest = new ThreadTest();
+            threadTest.start();
+        }
+    }
+}
+```
+
+- 实现`Runnable`接口创建线程
+
+```java
+class ThreadTest implements Runnable {
+    public void run() {
+        try {
+            // 休眠3秒
+            Thread.sleep(1000 * 3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println(Thread.currentThread().getName());
+    }
+
+    public static void main(String[] args) {
+        for (int i = 0; i < 20; i++) {
+            ThreadTest rtt = new ThreadTest();
+            new Thread(rtt, String.valueOf(i)).start();
+        }
+    }
+}
+```
+
+
+- 直接在函数体使用
+
+> 匿名内部类，其实也是属于第二种实现方式的特例
+
+```java
+public class ThreadTest {
+
+    public static void main(String[] args) {
+        for (int i = 0; i < 10; i++) {
+            Thread thread = new Thread(new Runnable() {
+                public void run() {
+                    try {
+                        // 休眠3秒
+                        Thread.sleep(1000 * 3);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println(Thread.currentThread().getName());
+                }
+            });
+            thread.start();
+        }
+    }
+}
+
+// JDK1.8及以上
+public class ThreadTest {
+
+    public static void main(String[] args) {
+        for (int i = 0; i < 20; i++) {
+            new Thread(() -> {
+                try {
+                    // 休眠3秒
+                    Thread.sleep(1000 * 3);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println(Thread.currentThread().getName());
+            }).start();
+        }
+    }
+}
 ```
 
 
 
-### 注解
+- 使用Callable和Future创建线程
 
-#### 1.声明bean的注解
-
-- `@Component` 组件，没有明确的角色
-
-- `@Service` 在业务逻辑层使用（service层）
-
-- `@Repository` 在数据访问层使用（dao层）
-
-- `@Controller` 在展现层使用，控制器的声明（C）
-
-#### 2.注入bean的注解
-
-> 都可以注解在set方法和属性上，推荐注解在属性上（一目了然，少写代码）。
-
-- `@Autowired` 由Spring提供
- 
-- `@Inject` 由JSR-330提供
-
-- `@Resource` 由JSR-250提供
+1. 定义一个类实现`Callable`接口，并重写`call()`方法，该`call()`方法将作为线程执行体，并且有返回值
+2. 创建Callable实现类的实例，使用FutureTask类来包装Callable对象
+3. 使用FutureTask对象作为Thread对象的target创建并启动线程
+4. 调用FutureTask对象的get()方法来获得子线程执行结束后的返回值
 
 
-#### 3.java配置类相关注解
+```java
+import java.util.concurrent.*;
 
-- `@Configuration` 声明当前类为配置类，相当于xml形式的Spring配置（类上）
+class ThreadTest implements Callable<String> {
 
-- `@Bean` 注解在方法上，声明当前方法的返回值为一个bean，替代xml中的方式（方法上）
+    @Override
+    public String call() throws Exception {
+        try {
+            // 休眠3秒
+            Thread.sleep(1000 * 3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return Thread.currentThread().getName();
+    }
 
-- `@Configuration` 声明当前类为配置类，其中内部组合了`@Component`注解，表明这个类是一个bean（类上）
-
-- `@ComponentScan` 用于对Component进行扫描，相当于xml中的（类上）
-
-- `@WishlyConfiguration` 为`@Configuration`与`@ComponentScan`的组合注解，可以替代这两个注解
-
-#### 4.切面（AOP）相关注解
-
-> Spring支持AspectJ的注解式切面编程。
-
-- `@Aspect` 声明一个切面（类上）
-
-> 使用`@After`、`@Before`、`@Around`定义建言（advice），可直接将拦截规则（切点）作为参数。
- 
-- `@After` 在方法执行之后执行（方法上）
-
-- `@Before` 在方法执行之前执行（方法上）
-
-- `@Around` 在方法执行之前与之后执行（方法上）
-
-- `@PointCut` 声明切点
-
-> 在java配置类中使用`@EnableAspectJAutoProxy`注解开启Spring对AspectJ代理的支持（类上）
-
-#### 5.@Bean的属性支持
-
-- `@Scope` 设置Spring容器如何新建Bean实例（方法上，得有`@Bean`） ,其设置类型包括：
-    - `Singleton` （单例,一个Spring容器中只有一个bean实例，默认模式）, 
-    - `Protetype` （每次调用新建一个bean）, 
-    - `Request` （web项目中，给每个http request新建一个bean）, 
-    - `Session` （web项目中，给每个http session新建一个bean）, 
-    - `GlobalSession`（给每一个 global http session新建一个Bean实例）
-
-- `@StepScope` 在Spring Batch中还有涉及
-
-- `@PostConstruct` 由JSR-250提供，在构造函数执行完之后执行，等价于xml配置文件中bean的initMethod
-
-- `@PreDestory` 由JSR-250提供，在Bean销毁之前执行，等价于xml配置文件中bean的destroyMethod
-
-#### 6.@Value注解
-
-> `@Value` 为属性注入值（属性上）,支持如下方式的注入
-
-- `@Value("Michael Jackson")` String name; 注入普通字符
-
-- `@Value("#{systemProperties['os.name']}")` String osName; 注入操作系统属性
-
-- `@Value("#{ T(java.lang.Math).random() * 100 }")` String randomNumber; 注入表达式结果
-
-- `@Value("#{domeClass.name}")` String name; 注入其它bean属性
-
-- `@Value("classpath:com/hgs/hello/test.txt")` String Resource file; 注入文件资源
-
-- `@Value("http://www.cznovel.com")` Resource url; 注入网站资源
-
-- `@Value("${book.name}")` String bookName; 注入配置文件
-
-**注入配置使用方法**
-
-> 编写配置文件（test.properties）
-
-```
-book.name= test
+    public static void main(String[] args) {
+        FutureTask<String> futureTask = new FutureTask<String>(new ThreadTest());
+        for (int i = 0; i < 20; i++) {
+            new Thread(futureTask, String.valueOf(i)).start();
+        }
+        try {
+            System.out.println("子线程的返回值：" + futureTask.get());
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
+    }
+}
 ```
 
-> `@PropertySource` 加载配置文件(类上)
+> 多个任务，开启多线程去执行，并依次获取返回的执行结果
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.*;
+
+class ThreadTest implements Callable<String> {
+
+    @Override
+    public String call() throws Exception {
+        try {
+            // 休眠3秒
+            Thread.sleep(1000 * 3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return Thread.currentThread().getName();
+    }
+
+    public static void main(String[] args) {
+        //创建一个FutureTask list来放置所有的任务
+        List<FutureTask<String>> futureTasks = new ArrayList<>();
+        for (Integer i = 0; i < 10; i++) {
+            FutureTask<String> futureTask = new FutureTask<>(new ThreadTest());
+            futureTasks.add(futureTask);
+            new Thread(futureTask).start();
+        }
+
+        // 根据任务数，依次的去获取任务返回的结果，这里获取结果时会依次返回，若前一个没返回，则会等待，阻塞
+        for (FutureTask futureTask : futureTasks) {
+            try {
+                System.out.println(futureTask.get());
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (ExecutionException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}
 
 ```
-@PropertySource("classpath:/test.propertie")
+
+
+
+
+### 线程池
+
+```java
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class ThreadPool {
+
+    public static void main(String[] args) {
+        // 创建一个定长线程池，可控制线程最大并发数，超出的线程会在队列中等待。
+        ExecutorService executorService = Executors.newFixedThreadPool(5);
+        // 创建一个可缓存线程池，如果线程池长度超过处理需要，可灵活回收空闲线程，若无可回收，则新建线程。
+        //ExecutorService executorService = Executors.newCachedThreadPool();
+        // 创建一个定长线程池，支持定时及周期性任务执行。
+        //ExecutorService executorService = Executors.newScheduledThreadPool();
+        for (int i = 0; i < 10; i++) {
+            // 执行
+            executorService.execute(new RunnableThread());
+            // 提交配合shutdown使用
+            //executorService.submit(futureTask);
+        }
+        //executorService.shutdown();
+    }
+}
+
+class RunnableThread implements Runnable {
+
+    public void run() {
+        for (int i = 0; i < 10; i++) {
+            System.out.println("线程" + Thread.currentThread() + " " + i);
+        }
+    }
+}
 ```
-> ③ 还需配置一个`PropertySourcesPlaceholderConfigurer`的bean。
-
-#### 7.环境切换
-
-- `@Profile` 通过设定Environment的ActiveProfiles来设定当前context需要使用的配置环境。（类或方法上）
-
-- `@Conditional` Spring4中可以使用此注解定义条件话的bean，通过实现Condition接口，并重写matches方法，从而决定该bean是否被实例化。（方法上）
-
-#### 8.异步相关
-
-> @EnableAsync 配置类中，通过此注解开启对异步任务的支持，叙事性AsyncConfigurer接口（类上）
-
-> @Async 在实际执行的bean方法使用该注解来申明其是一个异步任务（方法上或类上所有的方法都将异步，需要@EnableAsync开启异步任务）
-
-#### 9.定时任务相关
-
-- `@EnableScheduling` 在配置类上使用，开启计划任务的支持（类上）
-
-- `@Scheduled` 来申明这是一个任务，包括cron,fixDelay,fixRate等类型（方法上，需先开启计划任务的支持）
-
-#### 10.@Enable*注解说明
-
-> 这些注解主要用来开启对xxx的支持。
-
-- `@EnableAspectJAutoProxy` 开启对AspectJ自动代理的支持
-
-- `@EnableAsync` 开启异步方法的支持
-
-- `@EnableScheduling` 开启计划任务的支持
-
-- `@EnableWebMvc` 开启Web MVC的配置支持
-
-- `@EnableConfigurationProperties` 开启对`@ConfigurationProperties`注解配置Bean的支持
-
-- `@EnableJpaRepositories` 开启对SpringData JPA Repository的支持
-
-- `@EnableTransactionManagement` 开启注解式事务的支持
-
-- `@EnableTransactionManagement` 开启注解式事务的支持
-
-- `@EnableCaching` 开启注解式的缓存支持
-
-#### 11.测试相关注解
-
-- `@RunWith` 运行器，Spring中通常用于对JUnit的支持
-
-> `@RunWith(SpringJUnit4ClassRunner.class)`
-
-- `@ContextConfiguration` 用来加载配置ApplicationContext，其中classes属性用来加载配置类
-
-> `@ContextConfiguration(classes={TestConfig.class})`
-
-#### SpringMVC注解
-
-- `@EnableWebMvc` 在配置类中开启Web MVC的配置支持，如一些ViewResolver或者MessageConverter等，若无此句，重写WebMvcConfigurerAdapter方法（用于对SpringMVC的配置）。
-
-- `@Controller` 声明该类为SpringMVC中的Controller
-
-- `@RequestMapping` 用于映射Web请求，包括访问路径和参数（类或方法上）
-
-- `@ResponseBody` 支持将返回值放在response内，而不是一个页面，通常用户返回json数据（返回值旁或方法上）
-
-- `@RequestBody` 允许request的参数在request体中，而不是在直接连接在地址后面。（放在参数前）
-
-- `@PathVariable` 用于接收路径参数，比如`@RequestMapping(“/hello/{name}”)`申明的路径，将注解放在参数中前，即可获取该值，通常作为Restful的接口实现方法。
-
-- `@RestController` 该注解为一个组合注解，相当于`@Controller`和`@ResponseBody`的组合，注解在类上，意味着，该Controller的所有方法都默认加上了`@ResponseBody`。
-
-- `@ControllerAdvice` 通过该注解，我们可以将对于控制器的全局配置放置在同一个位置，注解了`@Controller`的类的方法可使用`@ExceptionHandler`、`@InitBinder`、`@ModelAttribute`注解到方法上，这对所有注解了 `@RequestMapping`的控制器内的方法有效。
-
-- `@ExceptionHandler` 用于全局处理控制器里的异常
-
-- `@InitBinder` 用来设置WebDataBinder，WebDataBinder用来自动绑定前台请求参数到Model中。
-
-- `@ModelAttribute` 本来的作用是绑定键值对到Model里，在`@ControllerAdvice`中是让全局的`@RequestMapping`都能获得在此处设置的键值对。
 
 
+### 协程
+
+> Java语言并没有对协程的原生支持，但是某些开源框架模拟出了协程的功能
+
+* [java协程框架quasar和kotlin中的协程](http://kailing.pub/article/index/arcid/252.html)
+
+* [https://github.com/kilim/kilim](https://github.com/kilim/kilim)
+[Kilim工作原理](http://chen-tao.github.io/2015/10/02/kilim-work-way/)
 
 
-## Swagger2
-
-### 注解
-
-| 注解名称 | 注解属性 | 作用域 | 属性作用       |
-|----------|----------|--------|----------------|
-| @Api     | tags     | 类     | 说明该类的作用 |
-|          | value    | 类     | 说明该类的作用 |
-| @ApiOperation() | value    | 方法   | 描述方法作用 |
-|                 | notes    | 方法   | 提示内容     |
-|                 | tags     | 方法   | 分组         |
-| @ApiParam() | name     | 方法参数 | 参数名   |
-|             | value    | 方法参数 | 参数说明 |
-|             | required | 方法参数 | 是否必填 |
-| @ApiModel()         | value       | 类   | 对象名   |
-|                     | description | 类   | 描述     |
-| @ApiModelProperty() | value       | 方法 | 字段说明 |
-|                     | name        | 方法 | 属性名   |
-|                     | dataType    | 方法 | 属性类型 |
-|                     | required    | 方法 | 是否必填 |
-|                     | example     | 方法 | 举例     |
-|                     | hidden      | 方法 | 隐藏     |
-| @ApiImplicitParam() | value       | 方法 | 参数说明 |
-|                     | name        | 方法 | 参数名   |
-|                     | dataType    | 方法 | 数据类型 |
-|                     | paramType   | 方法 | 参数类型 |
-|                     | example     | 方法 | 举例     |
-| @ApiResponse()      | response    | 方法 | 返回类   |
-|                     | code        | 方法 | 返回码   |
-|                     | message     | 方法 | 返回信息 |
-|                     | examples    | 方法 | 例子     |
-
-
-|        注解        |     属性     |        值       |               备注                      |
-|--------------------|--------------|---------------------|-----------------------------------------|
-| @Api               | value        | 字符串                 | 可用在class头上,class描述   |
-|                    | description  | 字符串                 |                               |
-|                    |              |                     | @Api(value = "xxx", description = "xxx")   |
-| @ApiOperation      | value        | 字符串                 | 可用在方法头上.参数的描述容器         |
-|                    | notes        | 字符串                 |                                        |
-|                    |              |                     | @ApiOperation(value = "xxx", notes = "xxx")   |
-| @ApiImplicitParams | {}         | @ApiImplicitParam数组 | 可用在方法头上.参数的描述容器               |
-|                    |              |                     | @ApiImplicitParams({@ApiImplicitParam1,@ApiImplicitParam2,...}) |
-| @ApiImplicitParam  | name         | 字符串 与参数命名对应         | 可用在@ApiImplicitParams里         |
-|                    | value        | 字符串                 | 参数中文描述                          |
-|                    | required     | 布尔值                 | true/false                         |
-|                    | dataType     | 字符串                 | 参数类型                           |
-|                    | paramType    | 字符串                 | 参数请求方式:query/path              |
-|                    |              |                     | query:对应@RequestParam?传递            |
-|                    |              |                     | path: 对应@PathVariable{}path传递         |
-|                    | defaultValue | 字符串                 | 在api测试中默认值                        |
-|                    |              |                     | 用例参见项目中的设置                       |
-| @ApiResponses      | {}         | @ApiResponse数组      | 可用在方法头上.参数的描述容器               |
-|                    |              |                     | @ApiResponses({@ApiResponse1,@ApiResponse2,...}) |
-| @ApiResponse       | code         | 整形                  | 可用在@ApiResponses里                   |
-|                    | message      | 字符串                 | 错误描述                             |
-|                    |              |                     | @ApiResponse(code = 200, message = "Successful") |
-
-
-
+* [https://github.com/puniverse/quasar](https://github.com/puniverse/quasar)
+[quasar从原理到代码应用](https://blog.csdn.net/guzhangyu12345/article/details/84666423)

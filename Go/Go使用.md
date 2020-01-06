@@ -441,3 +441,62 @@ func SchedulerFixedTimer(f func(), duration time.Duration) {
 ```
 
 
+## 多线程
+
+* [多线程](https://www.jianshu.com/p/c3d65105fa46)
+
+* [Go 并发 、并行、线程池](https://blog.csdn.net/sun_hongtao/article/details/76972156)
+
+* [多线程 并发](https://blog.csdn.net/ytd7777/article/details/85004371)
+
+* [Go 并发控制](https://segmentfault.com/a/1190000019229973)
+
+* [多任务线程池并发](https://blog.csdn.net/github_37320188/article/details/93909877)
+
+* [深度剖析 Go 中的 Go 协程 (goroutines) -- Go 的并发](https://studygolang.com/articles/17944)
+
+### 开启新线程
+
+
+```go
+go 函数
+```
+
+- 匿名`Go`协程
+
+```go
+go func() {
+    // 业务逻辑
+}()
+```
+
+- 协程的调度
+
+```go
+func TestGorutine(t *testing.T) {
+    // 指定最大 P 为 1，从而管理协程最多的线程为 1 个    
+    runtime.GOMAXPROCS(1)
+    // 控制等待所有协程都执行完再退出程序    
+    wg := sync.WaitGroup{}
+    wg.Add(2)
+    // 运行一个协程
+    go func() {
+        fmt.Println(1)
+        fmt.Println(2)
+        fmt.Println(3)
+        wg.Done()
+    }()
+
+    // 运行第二个协程
+    go func() {
+        fmt.Println(65)
+        fmt.Println(66)
+        // 设置个睡眠，让该协程执行超时而被挂起，引起超时调度
+        time.Sleep(time.Second)
+        fmt.Println(67)
+        wg.Done()
+    }()
+    wg.Wait()
+}
+```
+

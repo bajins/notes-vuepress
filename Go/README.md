@@ -31,7 +31,6 @@
 * [Go 入门指南](https://github.com/unknwon/the-way-to-go_ZH_CN)
 
 
-
 ## 开源项目
 
 * [https://github.com/avelino/awesome-go](https://github.com/avelino/awesome-go)
@@ -53,6 +52,8 @@
 
 
 ### other
+
+* [golang worker pool ,线程池 , 工作池](https://github.com/xxjwxc/gowp)
 
 * [模板功能](https://github.com/Masterminds/sprig)
 
