@@ -237,7 +237,7 @@ func StringBuilder(p []string) string {
 | Match(pattern, name string) (matched bool, err error) 	| 匹配文件名，完全匹配则返回true          	|
 
 
-## 异常panic和恢复recover
+## 异常和恢复
 
 > Go语言追求简洁优雅，所以，Go语言不支持传统的`try…catch…finally` 这种异常，因为Go语言的设计者们认为，
 > 将异常与控制结构混在一起会很容易使得代码变得混乱。因为开发者很容易滥用异常，甚至一个小小的错误都抛出一个异常。
@@ -246,33 +246,47 @@ func StringBuilder(p []string) string {
 > 才使用Go中引入的`Exception`处理：`defer`、`panic`、`recover`。
 
 
-### panic
+**panic**
 
-- 1、内建函数
+> 函数中书写了`panic`语句，会终止其后要执行的代码，直到`goroutine`整个退出，并报告错误
 
-- 2、假如函数F中书写了`panic`语句，会终止其后要执行的代码，在`panic`所在函数F内如果存在要执行的`defer`函数列表，按照`defer`的逆序执行
-
-- 3、返回函数F的调用者G，在G中，调用函数F语句之后的代码不会执行，假如函数G中存在要执行的`defer`函数列表，按照`defer`的逆序执行，
-这里的`defer`有点类似`try-catch-finally`中的`finally`
-
-- 4、直到goroutine整个退出，并报告错误
-
-### recover
-
-- 1、内建函数
-
-- 2、用来控制一个`goroutine`的`panicking`行为，捕获`panic`，从而影响应用的行为
-
-- 3、一般的调用建议
-    - a). 在defer函数中，通过`recever`来终止一个`goroutine`的`panicking`过程，从而恢复正常代码的执行
-    - b). 可以获取通过`panic`传递的`error`
-
-> 简单来讲：go可以抛出一个`panic`的异常，然后在`defer`中通过`recover`捕获这个异常，然后正常处理。
-
-> 注意：利用`recover`处理`panic`指令，`defer`必须在`panic`之前声明，否则当panic时，`recover`无法捕获到`panic`
+> 如果在`panic`函数之前存在`defer`函数，则执行`defer`函数，这里的`defer`有点类似`try…catch…finally`中的`finally`，
+>> 如果`defer`函数内不包含`recover`会直到`goroutine`整个退出，并报告错误
+>>
+>> 相反则会捕获这个`panic`类似于`try…catch…finally`中的`catch`
 
 
-- 示例
+**defer**
+
+> 可以将一个方法延迟到包裹该方法的方法返回时执行，`defer`语句可以充当其他语言中`try…catch…finally`的角色，
+> 也可以用来处理关闭文件句柄等收尾操作。
+
+1. 包裹`defer`的函数返回时
+
+2. 包裹`defer`的函数执行到末尾时
+
+3. 所在的`goroutine`发生`panic`时
+
+
+> 当一个方法中有多个`defer`时，`defer`会将要延迟执行的方法`压栈`，当`defer`被触发时，将所有`压栈`的方法`出栈`并执行。
+> 所以`defer`的执行顺序是`LIFO`(后进先出)的。
+
+
+
+**recover**
+
+1. 用来控制一个`goroutine`的`panicking`行为，捕获`panic`，从而影响应用的行为
+
+> 在`defer`函数中，通过`recever`来终止一个`goroutine`的`panicking`过程，从而恢复正常代码的执行，可以获取通过`panic`传递的`error`
+
+
+
+**简单来讲：可以抛出一个`panic`的异常，然后在`defer`中通过`recover`捕获这个异常，然后正常处理。**
+
+**注意：利用`recover`处理`panic`指令，`defer`必须在`panic`之前声明，否则`recover`无法捕获到`panic`**
+
+
+**示例**
 
 ```go
 func main() {
