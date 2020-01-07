@@ -512,6 +512,6 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 > 带有GFM 的Markdown插件和匹配的预览样式。
 
-![](https://github.com/vsch/idea-multimarkdown/blob/master/assets/images/capabilities2.png)
+![](https://github.com/vsch/idea-multimarkdown/raw/master/assets/images/capabilities2.png)
 
 
