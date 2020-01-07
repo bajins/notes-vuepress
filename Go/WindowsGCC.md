@@ -92,7 +92,14 @@
 
 2. 下载后把压缩包解压到指定盘符下，再添加到系统环境变量`path`
 
-> 如解压目录`C:\Program Files\mingw64`，则在cmd执行`set Path=%Path%;C:\Program Files\mingw64\bin`
+- 如解压目录`C:\Program Files\mingw64`，则在CMD执行
+
+```batch
+set Path=%PATH%;C:\Program Files\mingw64\bin
+
+:: 查看添加变量是否成功
+echo %PATH%
+```
 
 
 
