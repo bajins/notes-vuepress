@@ -30,6 +30,8 @@
 
 * [JavaScript HTML DOM](https://www.w3school.com.cn/js/js_htmldom_document.asp)
 
+* [https://github.com/pixijs/pixi.js](https://github.com/pixijs/pixi.js)
+
 
 
 ## 手册
