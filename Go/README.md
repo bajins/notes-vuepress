@@ -87,6 +87,8 @@
 
 ## 代理
 
+> 查看Go的环境信息`go env`
+
 **GOPROXY**
 
 > `GO 1.13`版本开始`GOPROXY`支持多代理设置，通过`,`隔开
@@ -94,13 +96,17 @@
 - Linux
 
 ```bash
-export GOPROXY=https://goproxy.io,https://goproxy.cn,https://proxy.golang.org,direct
+export GOPROXY=https://goproxy.io,https://goproxy.cn,direct
+# 或者
+go env -w GOPROXY=https://goproxy.io,https://goproxy.cn,direct
 ```
 
 - Windows
 
 ```batch
-set GOPROXY=https://goproxy.io,https://goproxy.cn,https://proxy.golang.org,direct
+set GOPROXY=https://goproxy.io,https://goproxy.cn,direct
+:: 或者
+go env -w GOPROXY=https://goproxy.io,https://goproxy.cn,direct
 ```
 
 > 当第一个`proxy`在处理`ge get`所发出的`HTTP`请求时，返回`HTTP`状态码为`404`或`410`时，就会查找下一个`proxy`

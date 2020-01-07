@@ -74,6 +74,34 @@ move 路径\文件名 路径\文件名
 del 文件名
 ```
 
+
+## 查看环境变量
+
+- 查看所有环境变量
+
+```batch
+:: 在末尾输入变量名就是查询单个变量
+set
+:: 或者这样查询单个环境变量
+echo %PATH%
+```
+
+- 所有用户环境变量
+
+```batch
+:: 替换最后的*号为变量名就是查询单个变量
+REG QUERY "HKCU\Environment" /v *
+```
+
+- 系统变量中所有的变量
+
+```batch
+:: 替换最后的*号为变量名就是查询单个变量
+REG QUERY "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /v *
+```
+
+
+
 ## 查看本机ip
 
 ```batch
