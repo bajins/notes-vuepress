@@ -14,23 +14,41 @@
 
 ## 每次启动进入欢迎界面
 
-![IDEA_startup](/images/IDEA_startup.png)
+- 打开`File` -> `Settings` -> `Appearance & Behavior` -> `System Settings`
+
+- 勾选`Startup/Shutdown`下的`Reopen last project on startup`选项
+
 
 ## 格式化代码时自动换行
 
-![](/images/IDEA设置格式化代码时自动换行.PNG)
+- 打开`File` -> `Settings` -> `Editor` -> `Code Style` -> `Java` -> `Wrapping and Braces`
+
+- 勾选`Keep when reformatting`下的`Line breaks`和`Ensure right margin is not exceeded`两个选项
+
+> `Line breaks`去除每次格式化时自动添加`+`符号
+
 
 ## 去掉提示重复代码
 
-![](/images/IDEA设置去掉提示重复代码.png)
+- 打开`File` -> `Settings` -> `Editor` -> `Inspections` -> `General`
+
+- 取消勾选`Duplincated File Template Usage`选项
+
 
 ## 去掉大小写敏感提示
 
-![](/images/IDEA去掉大小写区分提示.png)
+- 打开`File` -> `Settings` -> `Editor` -> `General` -> `Code Completion`
 
-## 自定义创建文件头部注释
+- 取消勾选`Match case`，或者`Case sensitive completion`选择`None`
 
-- 在`File`->`Settings`->`Editor`->`File and Code Templates`->`Includes`->`File Header`中添加
+
+## 自定义头部注释和模板
+
+### 自定义头部注释
+
+- 打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Includes`
+
+> 在`File Header`中添加
 
 ```java
 /**
@@ -46,35 +64,18 @@
  */
 ```
 
-- 在文件模板中引用：`#parse("File Header.java")`
+- 引用：打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
 
-![](/images/IDEA设置创建文件时的注释.png)
+- 在`Class`、`Interface`、`Enum`三个模板中的`public class ${NAME} {`上一行添加
 
-- JavaScript头部注释
-
-> 在`File`->`Settings`->`Editor`->`File and Code Templates`->`Includes`->`+`中添加一个`File Header`后缀为`js`
-
-```js
-/**
- * 
- * @Description: 
- * @Author: ${USER}
- * @File: ${NAME}.js
- * @Version: 1.0.0
- * @Time: ${DATE} ${TIME}
- * @Project: ${PROJECT_NAME}
- * @Package: ${PACKAGE_NAME}
- * @Software: ${PRODUCT_NAME}
- */
-
-
+```java
+#parse("File Header.java")
 ```
 
-![](/images/IDEA-JavaScriptHeader.png)
 
-- 在`JavaScript File`文件模板中引用：`#parse("JavaScript Header.js")`
+* [JavaScript头部注释](#javascriptfile自定义头注释)
 
-![](/images/IDEA-JavaScriptHeaderParse.png)
+
 
 ### 预定义模板变量
 
@@ -97,13 +98,14 @@
 
 
 
-## 自定义类文件创建模板
+### 自定义模板
 
+- 打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
 
+- 在`Class`模板中粘贴
 
 ```java
-#if (${PACKAGE_NAME} && ${PACKAGE_NAME} 
-!= "")package ${PACKAGE_NAME};#end
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
 
 
 import org.slf4j.Logger;
@@ -119,7 +121,6 @@ public class ${NAME} {
 }
 ```
 
-![](/images/IDEA设置类文件创建模板.png)
 
 
 ## 自定义方法注释模板
@@ -166,45 +167,85 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 ![](/images/IDEA方法注释示例.png)
 
 
-## 鼠标悬停查看方法注释
+## 鼠标悬停查看注释
 
-![](/images/IDEA鼠标悬停查看方法注释.png)
+- 打开`File` -> `Settings` -> `Editor` -> `General`
+
+- 勾选`Other`下的`Show quick documentation on mouse move`选项
+
+- 在`Other`下的`Tooltip delay`输入鼠标悬停时间单位`milliseconds(毫秒)`
+
 
 
 ## 自动优化导包
 
-- `Add unambiguous imports on the fly` 自动帮我们优化导入的包，比如自动去掉一些没有用到的包。 
+- 打开`File` -> `Settings` -> `Editor` -> `General` -> `Auto Import`
 
-- `Optimize imports on the fly` 自动帮我们导入需要用到的包。但是对于同名的包，需要手动<kbd>Alt</kbd> + <kbd>Enter</kbd>进行导入。
+- 勾选`Add unambiguous imports on the fly`和`Optimize imports on the fly(for current project)`两个选项
 
-![](/images/IDEA自动优化导包.png)
+
+> `Add unambiguous imports on the fly` 自动帮我们优化导入的包，比如自动去掉一些没有用到的包。 
+
+> `Optimize imports on the fly(for current project)` 自动帮我们导入需要用到的包。
+> 但是对于同名的包，需要手动<kbd>Alt</kbd> + <kbd>Enter</kbd>进行导入。
+
 
 ## 热部署策略
 
-- 顶部菜单`Run`->`Edit Configurations`->`SpringBoot`->`目标项目`->勾选`Update classes and resources`。
+* [Updating Applications on Application Servers](https://www.jetbrains.com/help/idea/updating-applications-on-application-servers.html)
 
-![](/images/IDEA的热部署策略.png)
+- 打开顶部菜单`Run` -> `Edit Configurations` -> 应用名称如`SpringBoot` -> `目标项目` -> `Configuration`
+
+- 选择`Spring Boot` -> `Update classes and resources`下的`On 'Update' action`和`On frame deactivation`两个选项
+
+> `On 'Update' action`当代码改变的时候做什么
+
+> `On frame deactivation`当失去焦点，比如最小化IDEA窗口的时候做什么
+
 
 ## 自动编译
 
-- 同时按住<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>/</kbd>然后进入`Registry`，勾选自动编译并调整延时参数。
+**动态**
 
-![](/images/IDEA自动编译-动态.png)
+- 同时按住<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>/</kbd>然后点击`Registry`，勾选自动编译并调整延时参数。
 
-- 打开顶部工具栏`File`->`Settings`->`Default Settings`->`Build`->`Compiler` 然后勾选`Build project automatically`
+1. `compiler.automake.allow.when.app.running`自动编译（动态）
+2. `compiler.automake.trigger.delay`触发自动生成以响应文件系统事件之前的延迟（单位毫秒），默认300
+3. `compiler.document.save.trigger.delay`触发保存以响应文档更改之前的延迟（单位毫秒），默认1500
+4. `compiler.build.report.statistics`显示构建器的执行时间
+5. `compiler.document.save.enabled`是否启用项目保存以响应文档更改
+6. `compiler.external.javac.keep.alive.timeout`如果在指定的时间段或更长时间内未使用，则IDE将关闭缓存的javac编译过程
 
-![](/images/IDEA自动编译-静态.png)
+> 修改完成后直接敲回车即保存
 
-## 去掉SQLXML局部背景色
 
-- 1.快捷键<kbd>ctrl<kbd> + <kbd>alt</kbd> + <kbd>s</kbd>打开Settings。找到`Editor -> Inspections`的配置页面，
-去掉SQL中`No data sources configured`（没有配置数据源）选项 和 `SQL dialect detection`（SQL方言检测） 选项。
+**静态**
 
-![](/images/IDEA去掉SQL选项.png)
+- 打开`File` -> `Settings` -> `Build, Execution, Deployment` -> `Compiler`
 
-- 2.去掉背景。找到`Editor -> Color -> General`的配置页面，选择`Code -> Injected language fragment`，去掉最右边的`Background`选项。
+- 勾选`Build project automatically`自动构建项目，仅在未运行/调试时有效，静态
 
-![](/images/IDEA去掉代码背景.png)
+- 勾选`Complie independent modules in parallel`并行编译独立模块，可能需要更大的堆大小
+
+
+## 去掉局部背景色
+
+**去掉SQL检测**
+
+- 打开`File` -> `Settings` -> `Editor` -> `Inspections` -> `SQL`
+
+- 取消勾选`No data sources configured`如果没有，则提示创建一个数据源。
+
+- 取消勾选`SQL dialect detection`为<Generic>方言中的文件检测最匹配的SQL方言。
+
+
+
+**去掉背景**
+
+- 打开`File` -> `Settings` -> `Editor` -> `Color Scheme` -> `General` -> `Code`
+
+- 点击`Injected language fragment`，去掉最右边的`Background`选项。
+
 
 ## 项目目录设置
 
@@ -221,22 +262,26 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ### idea无限indexing解决方法
 
-* [tengj](https://github.com/tengj/IntelliJ-IDEA-Tutorial/blob/newMaster/IntelliJ-IDEA-cache.md)
+* [IntelliJ IDEA 缓存和索引介绍和清理方法](https://github.com/tengj/IntelliJ-IDEA-Tutorial/blob/newMaster/IntelliJ-IDEA-cache.md)
 
 ![](https://github.com/tengj/IntelliJ-IDEA-Tutorial/raw/newMaster/images/xii-a-invalidate-cache-1.jpg)
 
 ### OutOfMemoryError
 
-> idea Exception in thread "http-apr-8080-exec-2" java.lang.OutOfMemoryError: PermGen space
+> `idea Exception in thread "http-apr-8080-exec-2" java.lang.OutOfMemoryError: PermGen space`
+
+- 打开顶部菜单`Run` -> `Edit Configurations` -> 应用名称如`SpringBoot` -> `目标项目` -> `Configuration`
 
 - 在`Vm options`中输入
 
 ```
--Xms2048m -Xmx2048m -XX:MaxPermSize=4096m -Drebel.spring_plugin=true -Drebel.spring_mvc_plugin=true -Drebel.hibernate_plugin=true
+-Xms2048m
+-Xmx2048m
+-XX:MaxPermSize=4096m
+-Drebel.spring_plugin=true
+-Drebel.spring_mvc_plugin=true
+-Drebel.hibernate_plugin=true
 ```
-
-![](/images/IDEA设置VmOptions.png)
-
 
 
 
@@ -371,11 +416,11 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 ## PyCharm
 
 
-### `Python Script`生成文件头注释
+### `Python Script`自定义头注释
 
 * [预定义模板变量](#预定义模板变量)
 
-- 在`File`->`Settings`->`Editor`->`File and Code Templates`->`Includes`->`File Header`中添加
+- 在`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Includes` -> `File Header`中添加
 
 ```python
 #!/usr/bin/env python
@@ -394,24 +439,26 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ```
 
-- 在`Python Script`文件模板中引用：`#parse("File Header")`
+- 引用：打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
 
-- 默认函数注释快捷键：`"""`+`Enter`
+- 在`Python Script`模板中第一行引用：`#parse("File Header")`
+
+> 默认函数注释快捷键：<kbd>"""</kbd>+<kbd>Enter</kbd>
 
 ### 自动导包
 
-- `File`→`Settings`→`General`→`Auto Import`→`Python`→`Show import popup`
+- 打开`File` -> `Settings` -> `Editor` -> `General` -> `Auto Import`
 
-![](/images/PyCharm自动导包.png)
+- 勾选`Python` -> `Show import popup`
 
 
 ## GoLand
 
-### `Go File`生成文件头注释
+### `Go File`自定义头注释
 
 * [预定义模板变量](#预定义模板变量)
 
-- 在`File`->`Settings`->`Editor`->`File and Code Templates`->`Includes`->`File Header`中添加
+- 在`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Includes` -> `File Header`中添加
 
 ```go
 /**
@@ -429,17 +476,18 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ```
 
-- 在`Go File`文件模板中引用：`#parse("File Header")`
+- 引用：打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
 
+- 在`Go File`模板中第一行引用：`#parse("File Header")`
 
 
 ## WebStorm
 
-### `JavaScript File`生成文件头注释
+### `JavaScript File`自定义头注释
 
 * [预定义模板变量](#预定义模板变量)
 
-- 在`File`->`Settings`->`Editor`->`File and Code Templates`->`Includes`->`File Header`中添加
+- 在`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Includes` -> `File Header`中添加
 
 ```js
 /**
@@ -457,7 +505,10 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ```
 
-- 在`JavaScript File`文件模板中引用：`#parse("File Header")`
 
+- 引用：打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
+
+- 在`JavaScript File`模板中第一行引用：`#parse("File Header.js")`
 
 - 默认函数注释快捷键：<kbd>/**</kbd> + <kbd>Enter</kbd>
+
