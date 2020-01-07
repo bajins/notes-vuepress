@@ -113,20 +113,19 @@ npm config delete https-proxy
 
 ### yarn更新依赖包
 
+> `yarn.lock`和`package.json`都会更新，但是会进行版本锁定
 
 - 更新所有到最新版本
 
-> 推荐，不需要安装过多的依赖就可以达到目的
+> 需要手动选择升级的依赖包，<kbd>a</kbd>键选择所有，<kbd>i</kbd>键反向选择
 
 ```bash
-# 需要手动选择升级的依赖包，按空格键选择，a 键切换所有，i 键反选选择
 yarn upgrade-interactive --latest
 ```
 
 - 更新单个到指定版本
 
 ```bash
-# yarn.lock和package.json都会更新，但是会进行版本锁定
 yarn upgrade package@latest
 ```
 
@@ -140,9 +139,9 @@ yarn upgrade package@latest
 npm install -g npm-check-updates
 # 或者
 yarn global add npm-check-updates
-# 更新
+# 检查可更新依赖
 npm-check-updates
-# 或者
+# 更新
 ncu -u
 # 或者
 ncu --upgrade
