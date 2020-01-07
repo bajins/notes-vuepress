@@ -11,6 +11,18 @@
 * [https://www.jetbrains.com/products.html](https://www.jetbrains.com/products.html)
 
 
+**Export Settings**
+
+> 导出设置时一定取消以下选项
+
+1. File templates
+2. File templates(schemes)
+3. Live templates
+4. Live templates(schemes)
+5. MavenVersion
+6. SDK Table
+
+
 
 ## 每次启动进入欢迎界面
 
