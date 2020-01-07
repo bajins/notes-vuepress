@@ -73,7 +73,7 @@
 ```
 
 
-* [JavaScript头部注释](#javascriptfile自定义头注释)
+* [JavaScript头部注释](#javascript-file自定义头注释)
 
 
 
@@ -257,6 +257,102 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 
 
+## PyCharm
+
+
+### `Python Script`自定义头注释
+
+* [预定义模板变量](#预定义模板变量)
+
+- 在`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Includes` -> `File Header`中添加
+
+```python
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+#
+# @Description: 
+# @PreInstall: 
+# @Author : ${USER}
+# @File : ${NAME}.py
+# @Version: 1.0.0
+# @Time : ${DATE} ${TIME}
+# @Project: ${PROJECT_NAME}
+# @Package: ${PACKAGE_NAME}
+# @Software: ${PRODUCT_NAME}
+```
+
+- 引用：打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
+
+- 在`Python Script`模板中第一行引用：`#parse("File Header")`
+
+> 默认函数注释快捷键：<kbd>"""</kbd>+<kbd>Enter</kbd>
+
+### 自动导包
+
+- 打开`File` -> `Settings` -> `Editor` -> `General` -> `Auto Import`
+
+- 勾选`Python` -> `Show import popup`
+
+
+## GoLand
+
+### `Go File`自定义头注释
+
+* [预定义模板变量](#预定义模板变量)
+
+- 在`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Includes` -> `File Header`中添加
+
+```go
+/**
+ * 
+ * @Description: 
+ * @Author: ${USER}
+ * @File: ${NAME}.go
+ * @Version: 1.0.0
+ * @Time: ${DATE} ${TIME}
+ * @Project: ${PROJECT_NAME}
+ * @Package: ${PACKAGE_NAME}
+ * @Software: ${PRODUCT_NAME}
+ */
+```
+
+- 引用：打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
+
+- 在`Go File`模板中第一行引用：`#parse("File Header")`
+
+
+## WebStorm
+
+### `JavaScript File`自定义头注释
+
+* [预定义模板变量](#预定义模板变量)
+
+- 在`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Includes` -> `File Header`中添加
+
+```js
+/**
+ * 
+ * @Description: 
+ * @Author: ${USER}
+ * @File: ${NAME}.js
+ * @Version: 1.0.0
+ * @Time: ${DATE} ${TIME}
+ * @Project: ${PROJECT_NAME}
+ * @Package: ${PACKAGE_NAME}
+ * @Software: ${PRODUCT_NAME}
+ */
+```
+
+
+- 引用：打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
+
+- 在`JavaScript File`模板中第一行引用：`#parse("File Header.js")`
+
+- 默认函数注释快捷键：<kbd>/**</kbd> + <kbd>Enter</kbd>
+
+
+
+
 
 ## 错误解决
 
@@ -282,10 +378,6 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 -Drebel.spring_mvc_plugin=true
 -Drebel.hibernate_plugin=true
 ```
-
-
-
-
 
 
 
@@ -410,105 +502,4 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ![](https://github.com/vsch/idea-multimarkdown/blob/master/assets/images/capabilities2.png)
 
-
-
-
-## PyCharm
-
-
-### `Python Script`自定义头注释
-
-* [预定义模板变量](#预定义模板变量)
-
-- 在`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Includes` -> `File Header`中添加
-
-```python
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-#
-# @Description: 
-# @PreInstall: 
-# @Author : ${USER}
-# @File : ${NAME}.py
-# @Version: 1.0.0
-# @Time : ${DATE} ${TIME}
-# @Project: ${PROJECT_NAME}
-# @Package: ${PACKAGE_NAME}
-# @Software: ${PRODUCT_NAME}
-
-
-```
-
-- 引用：打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
-
-- 在`Python Script`模板中第一行引用：`#parse("File Header")`
-
-> 默认函数注释快捷键：<kbd>"""</kbd>+<kbd>Enter</kbd>
-
-### 自动导包
-
-- 打开`File` -> `Settings` -> `Editor` -> `General` -> `Auto Import`
-
-- 勾选`Python` -> `Show import popup`
-
-
-## GoLand
-
-### `Go File`自定义头注释
-
-* [预定义模板变量](#预定义模板变量)
-
-- 在`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Includes` -> `File Header`中添加
-
-```go
-/**
- * 
- * @Description: 
- * @Author: ${USER}
- * @File: ${NAME}.go
- * @Version: 1.0.0
- * @Time: ${DATE} ${TIME}
- * @Project: ${PROJECT_NAME}
- * @Package: ${PACKAGE_NAME}
- * @Software: ${PRODUCT_NAME}
- */
-
-
-```
-
-- 引用：打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
-
-- 在`Go File`模板中第一行引用：`#parse("File Header")`
-
-
-## WebStorm
-
-### `JavaScript File`自定义头注释
-
-* [预定义模板变量](#预定义模板变量)
-
-- 在`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Includes` -> `File Header`中添加
-
-```js
-/**
- * 
- * @Description: 
- * @Author: ${USER}
- * @File: ${NAME}.js
- * @Version: 1.0.0
- * @Time: ${DATE} ${TIME}
- * @Project: ${PROJECT_NAME}
- * @Package: ${PACKAGE_NAME}
- * @Software: ${PRODUCT_NAME}
- */
-
-
-```
-
-
-- 引用：打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
-
-- 在`JavaScript File`模板中第一行引用：`#parse("File Header.js")`
-
-- 默认函数注释快捷键：<kbd>/**</kbd> + <kbd>Enter</kbd>
 
