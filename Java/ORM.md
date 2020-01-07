@@ -4,11 +4,16 @@
 > 将面向对象语言程序中的对象自动持久化到关系数据库中。
 
 
-
-
 [[toc]]
 
 
+
+
+## flag
+
+* [http://www.squirrelsql.org](http://www.squirrelsql.org)
+
+* [http://java-source.net/open-source/sql-clients](http://java-source.net/open-source/sql-clients)
 
 
 

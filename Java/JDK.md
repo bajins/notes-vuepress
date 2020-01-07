@@ -6,13 +6,16 @@
 
 
 
-
-## JDK工具
+## flag
 
 > 细心的可能会发现，`jdk/bin`目录下的这些工具都非常小，
 > 是因为这些工具大多是`jdk/lib/tools.jar`类库的一层包装而已，他们主要的功能代码是在`tools`类库中实现的。
 
 ![](/images/JDKBin.png)
+
+
+* [https://www.ej-technologies.com](https://www.ej-technologies.com)
+
 
 ### 基本工具
 

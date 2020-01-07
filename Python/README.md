@@ -429,9 +429,16 @@ done = pool.submit(test, "test")
 done.add_done_callback(thread_call_back)
 ```
 
+## ORM
+
+> `Object-Relational Mapping`，把关系数据库的表结构映射到对象上。
+
+- Peewee
+
+- SqlObject
 
 
-## SQLite3
+### SQLite3
 
 * [https://docs.python.org/zh-cn/3.8/library/sqlite3.html](https://docs.python.org/zh-cn/3.8/library/sqlite3.html)
 
@@ -472,6 +479,18 @@ done.add_done_callback(thread_call_back)
 | LIKE | 关系字符串匹配  |
 | OR   | 逻辑或      |
 
+
+
+### SQLAlchemy
+
+* [https://www.sqlalchemy.org](https://www.sqlalchemy.org)
+
+* [使用SQLAlchemy](https://www.liaoxuefeng.com/wiki/1016959663602400/1017803857459008)
+
+
+```python
+pip install sqlalchemy
+```
 
 
 ## 定时任务

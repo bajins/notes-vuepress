@@ -70,8 +70,6 @@ if a == (A{}) {
 
 
 
-
-
 ## 运行命令
 
 - 测试文件中单个函数
@@ -95,7 +93,6 @@ go test -v -test.run 函数名
 | 测试控制           	| 通过Error/Errorf/FailNow/Fatal等来进行测试是否是失败，或者在失败的情况下的控制                	|
 | 压力测试命令       	| go test -test.bench file_test.go                                                              	|
 | 压力测试的循环体   	| 使用test.B.N                                                                                  	|
-
 
 
 
@@ -499,4 +496,22 @@ func TestGorutine(t *testing.T) {
     wg.Wait()
 }
 ```
+
+
+## ORM
+
+> `Object-Relational Mapping`，把关系数据库的表结构映射到对象上。
+
+* [orm对比](https://segmentfault.com/a/1190000015606291)
+
+
+* [https://github.com/jmoiron/sqlx](https://github.com/jmoiron/sqlx)
+
+* [https://github.com/jinzhu/gorm](https://github.com/jinzhu/gorm)
+
+* [https://github.com/go-xorm/xorm](https://github.com/go-xorm/xorm)
+
+* [https://github.com/gohouse/gorose](https://github.com/gohouse/gorose)
+
+* [https://github.com/go-gorp/gorp](https://github.com/go-gorp/gorp)
 
