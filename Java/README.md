@@ -193,17 +193,13 @@
 ## windows环境变量
 
 ```batch
-JAVA_HOME
-C:\Program Files\Java\jre1.8.0_171
+setx /m JAVA_HOME "C:\Program Files\Java\jre1.8.0_171"
 
-CATALINA_HOME
-D:\apache-tomcat-8.5.30
+setx /m CATALINA_HOME "D:\apache-tomcat-8.5.30"
 
-CLASSPATH
-.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;%CATALINA_HOME%\lib;
+setx /m CLASSPATH ".;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;%CATALINA_HOME%\lib;"
 
-Path
-;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATALINA_HOME%\bin;
+setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATALINA_HOME%\bin;"
 ```
 
 * [https://github.com/zq99299/java-tutorial](https://github.com/zq99299/java-tutorial)

@@ -95,10 +95,11 @@
 - 如解压目录`C:\Program Files\mingw64`，则在CMD执行
 
 ```batch
-set Path=%PATH%;C:\Program Files\mingw64\bin
+setx /m Path "%PATH%;C:\Program Files\mingw64\bin"
 
 :: 查看添加变量是否成功
 echo %PATH%
+set PATH
 ```
 
 

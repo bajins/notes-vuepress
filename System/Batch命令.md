@@ -8,6 +8,8 @@
 
 ## flag
 
+* [Windows 命令-官方文档](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/windows-commands)
+
 * [windows常用命令](https://www.cnblogs.com/kekec/p/3662125.html)
 
 * [windows批处理语法](https://www.cnblogs.com/kekec/p/3937530.html)
@@ -75,15 +77,34 @@ del 文件名
 ```
 
 
-## 查看环境变量
+## 环境变量
+
+* [set](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/set_1)
+
+* [setx](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/setx)
+
+**`SET`与`SETX`的区别**
+
+- `SET` 用于设置临时环境变量和查看环境变量
+
+- `SETX` 则用于设置用户环境变量和系统环境变量
+
+> 变量值有空格或`%`等特色字符时必须用双引号包括起来
+
+> `SETX 变量名 变量值` 设置用户环境变量，记录在注册表`HKEY_CURRENT_USER`
+
+> `SETX /M 变量名 变量值` 设置系统环境变量，记录在注册表`HKEY_LOCAL_MACHINE`
+
+
+### 查看环境变量
 
 - 查看所有环境变量
 
 ```batch
 :: 在末尾输入变量名就是查询单个变量
-set
+SET
 :: 或者这样查询单个环境变量
-echo %PATH%
+ECHO %PATH%
 ```
 
 - 所有用户环境变量
@@ -98,6 +119,21 @@ REG QUERY "HKCU\Environment" /v *
 ```batch
 :: 替换最后的*号为变量名就是查询单个变量
 REG QUERY "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /v *
+```
+
+### 设置环境变量
+
+- 临时有效
+
+```batch
+set path=%path%;D:\test
+```
+
+- 永久有效
+
+```batch
+setx path "%path%;D:\test"
+setx /m path "%path%;D:\test"
 ```
 
 
