@@ -18,12 +18,44 @@
 
 
 
+
+## 第三方依赖
+
+* [https://github.com/liriliri/licia](https://github.com/liriliri/licia)
+
+* [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
+
+* [https://github.com/apache/incubator-echarts](https://github.com/apache/incubator-echarts)
+
+**HTTP**
+
+* [https://github.com/wendux/fly](https://github.com/wendux/fly)
+
+* [https://github.com/github/fetch](https://github.com/github/fetch)
+
+
+* [https://github.com/axios/axios](https://github.com/axios/axios)
+
+
+**导出**
+
+* [TableExport](https://github.com/clarketm/TableExport)
+
+* [tableExport.jquery.plugin](https://github.com/hhurz/tableExport.jquery.plugin)
+
+* [excellentexport](https://github.com/jmaister/excellentexport)
+
+
+
 **WEB开发**
 
 * [https://github.com/facebook/react](https://github.com/facebook/react) [https://reactnative.cn](https://reactnative.cn)
 
 * [https://github.com/angular/angular](https://github.com/angular/angular) [https://angular.cn](https://angular.cn)
 
+* [https://github.com/zdhxiong/mdui](https://github.com/zdhxiong/mdui)
+
+* [https://github.com/baidu/amis](https://github.com/baidu/amis)
 
 **原生应用开发**
 
@@ -36,6 +68,13 @@
 
 
 * [https://github.com/Kagami/mpv.js](https://github.com/Kagami/mpv.js)
+
+
+**Player**
+
+* [DPlayer–支持弹幕的HTML5视频播放器](https://github.com/MoePlayer/DPlayer)
+
+* [Plyr–一个轻量级的HTML5播放器](https://github.com/sampotts/plyr)
 
 
 
@@ -178,8 +217,6 @@ npm install
 
 
 
-
-
 ## 解析
 
 ```js
@@ -267,11 +304,61 @@ request({
 - [`chromedriver`](/Python/Python爬虫.md#chromedriver)
 
 
-## vue
+## VueJS
+
+* [https://github.com/vuejs/vue](https://github.com/vuejs/vue) [https://cn.vuejs.org](https://cn.vuejs.org)
+
+* [https://github.com/vuejs/vuepress](https://github.com/vuejs/vuepress)
+[https://vuepress.vuejs.org/zh/](https://vuepress.vuejs.org/zh/)
 
 ![](/images/vue生命周期详解.png)
 
 
 * [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
+
+
+### VueJS框架
+
+* [https://madewithvuejs.com](https://madewithvuejs.com)
+
+* [https://github.com/vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify)
+
+* [https://github.com/buefy/buefy](https://github.com/buefy/buefy)
+
+* [https://github.com/bootstrap-vue/bootstrap-vue](https://github.com/bootstrap-vue/bootstrap-vue)
+
+* [https://github.com/vuematerial/vue-material](https://github.com/vuematerial/vue-material)
+
+* [https://github.com/quasarframework/quasar](https://github.com/quasarframework/quasar)
+
+* [https://github.com/uikit/uikit](https://github.com/uikit/uikit)
+
+* [https://github.com/sdc-alibaba/sui](https://github.com/sdc-alibaba/sui)
+
+* [https://github.com/FE-Driver/vue-beauty](https://github.com/FE-Driver/vue-beauty)
+
+* [https://github.com/chenz24/vue-blu](https://github.com/chenz24/vue-blu)
+
+* [https://github.com/ant-design/ant-design](https://github.com/ant-design/ant-design)
+
+* [https://github.com/heyui/heyui](https://github.com/heyui/heyui)
+
+* [https://github.com/at-ui/at-ui](https://github.com/at-ui/at-ui)
+
+* [https://github.com/view-design/ViewUI](https://github.com/view-design/ViewUI)
+
+* [https://github.com/ElemeFE/element](https://github.com/ElemeFE/element)
+
+
+
+**Mobile**
+
+* [https://github.com/airyland/vux](https://github.com/airyland/vux)
+
+* [https://github.com/sdc-alibaba/SUI-Mobile](https://github.com/sdc-alibaba/SUI-Mobile)
+
+* [https://github.com/ElemeFE/mint-ui](https://github.com/ElemeFE/mint-ui)
+
+* [https://github.com/didi/cube-ui](https://github.com/didi/cube-ui)
 
 

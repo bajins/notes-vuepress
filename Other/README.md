@@ -12,8 +12,6 @@
 
 * [互联网上的免费书籍](https://github.com/ruanyf/free-books)
 
-https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extension
-
 
 * [Adobe Photoshop键盘快捷键](https://helpx.adobe.com/cn/photoshop/using/default-keyboard-shortcuts.html)
 

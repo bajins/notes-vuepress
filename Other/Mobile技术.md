@@ -44,8 +44,6 @@
 
 * [https://github.com/dingputongxi/flutter_gank](https://github.com/dingputongxi/flutter_gank)
 
-* [https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extension](https://github.com/justjavac/awesome-wechat-weapp?utm_source=gold_browser_extension)
-
 * [Android运行时权限申请库](https://github.com/ysbing/YPermission)
 
 * [https://github.com/alibaba/freeline](https://github.com/alibaba/freeline)
