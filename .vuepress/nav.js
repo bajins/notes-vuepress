@@ -50,32 +50,11 @@ module.exports = [
         text: '了解更多',
         items: [
             {
-                // text: '框架',
-                items: [
-                    {
-                        text: 'Web开发技术',
-                        link: 'https://developer.mozilla.org/zh-CN/docs/Web'
-                    }, {
-                        text: 'Vue',
-                        link: 'https://cn.vuejs.org'
-                    },
-                    {
-                        text: 'React',
-                        link: 'https://react.docschina.org'
-                    },
-                    {
-                        text: 'Angular',
-                        link: 'https://www.angular.cn'
-                    }
-                ]
-            }
-            ,
-            {
                 // text: '文档生成',
                 items: [
                     {
                         text: '静态编译VuePress',
-                        link: 'https://v1.vuepress.vuejs.org/zh'
+                        link: 'https://github.com/vuejs/vuepress'
                     },
                     {
                         text: 'VuePress主题',
@@ -83,11 +62,11 @@ module.exports = [
                     },
                     {
                         text: '静态编译NuxtJs',
-                        link: 'https://zh.nuxtjs.org/guide'
+                        link: 'https://github.com/nuxt/nuxt.js'
                     },
                     {
                         text: '静态编译Hexo',
-                        link: 'https://hexo.io/zh-cn/docs'
+                        link: 'https://github.com/hexojs/hexo'
                     },
                     {
                         text: '静态编译Docsite',
@@ -95,15 +74,15 @@ module.exports = [
                     },
                     {
                         text: '运行时驱动Docsify',
-                        link: 'https://docsify.js.org/#/zh-cn/'
+                        link: 'https://github.com/docsifyjs/docsify'
                     },
                     {
                         text: '运行时驱动Docute',
-                        link: 'https://docute.org/zh'
+                        link: 'https://github.com/egoist/docute'
                     },
                     {
                         text: '从仓库生成文档',
-                        link: 'https://readthedocs.org'
+                        link: 'https://github.com/readthedocs/readthedocs.org'
                     },
                 ]
             },
