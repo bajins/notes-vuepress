@@ -14,72 +14,6 @@ function execute(command, dir) {
         console.log(`stderr: ${stderr}`);
     });
 }
-/**
- * 给String对象增加一个原型方法:
- * 判断一个字符串是以指定字符串结尾的
- *
- * @param endStr 需要判断的子字符串
- * @return boolean 是否以该字符串结尾
- * @Description
- * @author claer woytu.com
- * @date 2019/5/24 11:22
- */
-String.prototype.endWith = function (str) {
-    if (str == null || str == "" || this.length == 0 || str.length > this.length)
-        return false;
-    if (this.substring(this.length - str.length) != str) {
-        return false;
-    }
-    return true;
-}
-/**
- * 给String对象增加一个原型方法:
- * 判断一个字符串是以指定字符串开头的
- *
- * @param endStr 需要判断的子字符串
- * @return boolean 是否以该字符串开头
- * @Description
- * @author claer woytu.com
- * @date 2019/5/24 11:22
- */
-String.prototype.startWith = function (str) {
-    if (str == null || str == "" || this.length == 0 || str.length > this.length)
-        return false;
-    if (this.substr(0, str.length) != str) {
-        return false;
-    }
-    return true;
-}
-
-/**
- * 给String对象增加一个原型方法:
- * 判断一个字符串是以指定字符串结尾的
- *
- * @param endStr 需要判断的子字符串
- * @return boolean 是否以该字符串结尾
- * @Description
- * @author claer woytu.com
- * @date 2019/5/24 11:22
- */
-String.prototype.endWithRegExp = function (str) {
-    let reg = new RegExp(str + "$");
-    return reg.test(this);
-}
-/**
- * 给String对象增加一个原型方法:
- * 判断一个字符串是以指定字符串开头的
- *
- * @param endStr 需要判断的子字符串
- * @return boolean 是否以该字符串开头
- * @Description
- * @author claer woytu.com
- * @date 2019/5/24 11:22
- */
-
-String.prototype.startWithRegExp = function (str) {
-    let reg = new RegExp("^" + str);
-    return reg.test(this);
-}
 
 /**
  * 给String对象增加一个原型方法:
@@ -89,9 +23,6 @@ String.prototype.startWithRegExp = function (str) {
  * @param FindText 要替换的字符串
  * @param RepText 新的字符串
  * @return string
- * @Description
- * @author claer woytu.com
- * @date 2019/5/24 15:24
  */
 String.prototype.replaceAll = function (FindText, RepText) {
     // g表示执行全局匹配，m表示执行多次匹配
@@ -103,35 +34,11 @@ String.prototype.replaceAll = function (FindText, RepText) {
  * 根据系统文件分割符自动切割目录获取最后一个目录
  *
  * @return
- * @Description
- * @author claer woytu.com
- * @date 2019/5/24 16:51
  */
 String.prototype.cuttingPathWith = function () {
     let strArray = this.split(path.sep);
     return strArray[strArray.length - 1];
 }
-
-/**
- * 判断一个元素是否含有指定class
- * @param selector
- * @param cls
- * @returns {boolean}
- */
-function hasClass(selector, cls) {
-    return (' ' + document.querySelector(selector).className + ' ').indexOf(' ' + cls + ' ') > -1;
-}
-
-
-/**
- * 设置延时后再执行下一步操作
- *
- * @return
- * @Description
- * @author claer woytu.com
- * @date 2019/7/4 20:22
- */
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 
 /**
@@ -167,35 +74,11 @@ function isEmpty($obj) {
 
 
 /**
- * 过滤在数组中的值
- *
- * @param arr 元数据数组
- * @param ignoresArr 需要去除的值数组
- * @return Array 去掉值后的新数组
- * @Description
- * @author claer woytu.com
- * @date 2019/5/23 16:30
- */
-function inArrayKV(arr, ignoresArr) {
-    let newArr = [];
-    arr.forEach(function (value, index, array) {
-        // 判断文件名以什么开头、是否在指定数组中存在
-        if (!value.startsWith(".") && ignoresArr.includes(value)) {
-            newArr.push(value);
-        }
-    });
-    return newArr;
-}
-
-/**
  * 过滤不在数组中的值
  *
  * @param arr 元数据数组
  * @param retentionArr 需要保留的值数组
  * @return Array 去掉值后的新数组
- * @Description
- * @author claer woytu.com
- * @date 2019/5/23 16:30
  */
 function notInArrayKV(arr, retentionArr) {
     let newArr = [];
@@ -214,9 +97,6 @@ function notInArrayKV(arr, retentionArr) {
  *
  * @param dirname 文件夹路径
  * @return Array 返回过滤后的数组
- * @Description
- * @author claer woytu.com
- * @date 2019/5/23 16:33
  */
 function getDirFiles(dirname) {
     // 读取文件夹
@@ -229,71 +109,43 @@ function getDirFiles(dirname) {
 
 
 /**
- * 读取根目录下的内容
+ * 读取根目录下的子目录以及md文件组装成侧边栏
  *
  * @param rootPath 根路径
  * @return Object 返回获取到当前文件夹下的目录结构对象
- * @Description
- * @author claer woytu.com
- * @date 2019/5/24 11:02
  */
-function rootFolder(rootPath) {
+function getSidebars(rootPath) {
     let sidebar = {};
-    let parent = [];
-    // 读取文件夹
-    let files = getDirFiles(rootPath);
     // 遍历获取到的文件夹内容
-    files.forEach(function (file, index, array) {
-        // 获取规范的绝对路径
-        // let realpath = fs.realpathSync(rootPath + "/" + value);
-        // 拼接为绝对路径
-        // let realpath = path.resolve(rootPath, file)
+    getDirFiles(rootPath).forEach(function (file, index, array) {
         // 获取相对路径
-        let realpath = rootPath + "/" + file;
-        // 拼接为相对路径
-        // let realpath = path.join(rootPath, file)
-        // 获取文件状态
-        let stat = fs.lstatSync(realpath);
+        let realpath = `${rootPath}/${file}`;
         // 判断是否为文件夹
-        if (stat.isDirectory()) {
+        if (fs.lstatSync(realpath).isDirectory()) {
             // test2(realpath, value, []);
             let filesList = [];
-            let targetObj = {};
-            readFile(realpath, filesList, targetObj);
-            sidebar["/" + file + "/"] = filesList;
-        } else {
-            /*let fileName = value.slice(0, -3);
-            if ("README" == fileName) {
-                fileName = '';
-            }
-            parent.push(fileName);*/
+            getSidebar(realpath, filesList);
+            sidebar[`/${file}/`] = filesList;
         }
     });
-    parent.push("");
-    sidebar["/"] = parent;
-    // console.log(JSON.stringify(sidebar));
+    sidebar["/"] = [];
     return sidebar;
 }
 
 
 /**
- * 读取文件
+ * 组装侧边栏
+ *
  * @param dirPath 路径
  * @param filesList 存放所有文件夹的数组
  * @param targetObj 存放子文件夹的对象
  * @return
- * @Description
- * @author claer woytu.com
- * @date 2019/5/24 11:04
  */
-function readFile(dirPath, filesList, targetObj) {
-
-    let files = getDirFiles(dirPath);//需要用到同步读取
-    files.forEach(function (file) {
-        // let childrenPath = path + '/' + file;
+function getSidebar(dirPath, filesList, targetObj = {}) {
+    //需要用到同步读取
+    getDirFiles(dirPath).forEach(function (file) {
         let childrenPath = path.join(dirPath, file)
-        let states = fs.statSync(childrenPath);
-        if (states.isDirectory()) {
+        if (fs.statSync(childrenPath).isDirectory()) {
             let item;
             if (targetObj["children"]) {
                 item = {title: file, children: [], parent: dirPath.cuttingPathWith()};
@@ -304,7 +156,7 @@ function readFile(dirPath, filesList, targetObj) {
                 // 装入构造同级文件夹下的子文件夹对象
                 filesList.push(item);
             }
-            readFile(childrenPath, filesList, item);
+            getSidebar(childrenPath, filesList, item);
         }
         // 必须是md文件
         else if (file.endsWith(".md")) {
@@ -313,9 +165,9 @@ function readFile(dirPath, filesList, targetObj) {
                 fileName = '';
             }
             if (targetObj["children"]) {
-                fileName = targetObj["title"] + "/" + fileName;
+                fileName = `${targetObj["title"]}/${fileName}`;
                 if (isEmpty(targetObj["parent"])) {
-                    fileName = targetObj["parent"] + "/" + fileName;
+                    fileName = `${targetObj["parent"]}/${fileName}`;
                     delete (targetObj["parent"]);
                 }
                 // 把文件装入更深层子文件夹的数组中
@@ -330,108 +182,24 @@ function readFile(dirPath, filesList, targetObj) {
 
 
 /**
- * 获取指定路径下的所有文件夹
+ * 获取指定路径下的所有子目录组装成导航菜单
  *
  * @param rootPath 路径
  * @return Array
- * @Description
- * @author claer woytu.com
- * @date 2019/5/24 14:35
  */
-function getRootDir(rootPath) {
+function getNavigationMenu(rootPath) {
     let nav = [];
-    // 读取文件夹
-    let files = getDirFiles(rootPath);
     // 遍历获取到的文件夹内容
-    files.forEach(function (file, index, array) {
-        // 获取规范的绝对路径
-        // let realpath = fs.realpathSync(rootPath + "/" + value);
-        // 拼接为绝对路径
-        // let realpath = path.resolve(rootPath, file)
+    getDirFiles(rootPath).forEach(function (file, index, array) {
         // 获取相对路径
         let realpath = path.join(rootPath, file);
-        // 拼接为相对路径
-        // let realpath = path.join(rootPath, file)
-        // 获取文件状态
-        let stat = fs.lstatSync(realpath);
         // 判断是否为文件夹
-        if (stat.isDirectory()) {
-            let navObj = {text: file, link: "/" + file + "/"};
-            nav.push(navObj);
+        if (fs.lstatSync(realpath).isDirectory()) {
+            nav.push({text: file, link: `/${file}/`});
         }
     });
-    // console.log(nav);
     return nav;
 }
-
-/**
- * 获取指定路径下的所有文件
- *
- * @param rootPath 路径
- * @return Array
- * @Description
- * @author claer woytu.com
- * @date 2019/5/24 14:35
- */
-function getDirFile(rootPath) {
-    let nav = [];
-    // 读取文件夹
-    let files = getDirFiles(rootPath);
-    // 遍历获取到的文件夹内容
-    files.forEach(function (file, index, array) {
-        // 获取规范的绝对路径
-        // let realpath = fs.realpathSync(rootPath + "/" + value);
-        // 拼接为绝对路径
-        // let realpath = path.resolve(rootPath, file)
-        // 获取相对路径
-        let realpath = path.join(rootPath, file);
-        // 拼接为相对路径
-        // let realpath = path.join(rootPath, file)
-        // 获取文件状态
-        let stat = fs.lstatSync(realpath);
-        // 判断是否为文件夹
-        if (stat.isDirectory()) {
-            getDirFile(realpath);
-        } else {
-            let navObj = {text: file, link: "/" + file + "/"};
-            nav.push(navObj);
-        }
-    });
-    // console.log(nav);
-    return nav;
-}
-
-/**
- * 文件写入内容
- *  fs.wirteFile有三个参数
- * 1,第一个参数是要写入的文件路径
- * 2,第二个参数是要写入得内容
- * 3,第三个参数是可选参数,表示要写入的文件编码格式,一般就不写,默认就行
- * 4,第四个参数是个回调函数  只有一个参数error,来判断是否写入成功
- * 如果在使用fs.writeFIle时,要写入文件不存在,则直接写入,如果存在,则会覆盖原内容
- *
- * @return
- * @Description
- * @author claer woytu.com
- * @date 2019/7/3 16:39
- */
-const writeFile = (file, content) => fs.writeFile(file, content, "utf8", error => {
-    if (error) return console.log("文件写入内容失败,原因是：" + error.message);
-});
-
-/**
- * 文件末尾追加内容
- *
- * @return
- * @Description
- * @author claer woytu.com
- * @date 2019/7/3 17:00
- */
-const appendFile = (file, content) => fs.appendFile(file, content, 'utf8', function (err) {
-    if (err) {
-        console.log("文件追加内容失败,原因是：" + err);
-    }
-});
 
 
 /**
@@ -439,9 +207,6 @@ const appendFile = (file, content) => fs.appendFile(file, content, 'utf8', funct
  *
  * @param rootPath 路径
  * @return Array
- * @Description
- * @author claer woytu.com
- * @date 2019/5/24 14:35
  */
 function setStaticFile(rootPath, fileStr) {
     // 读取文件夹
@@ -456,20 +221,28 @@ function setStaticFile(rootPath, fileStr) {
         let realpath = path.join(rootPath, file);
         // 拼接为相对路径
         // let realpath = path.join(rootPath, file)
-        // 获取文件状态
-        let stat = fs.lstatSync(realpath);
         // 判断是否为文件夹
-        if (stat.isDirectory()) {
+        if (fs.lstatSync(realpath).isDirectory()) {
             setStaticFile(realpath, fileStr);
         } else {
             realpath = realpath.substring(realpath.indexOf("files"));
-            fileStr = fileStr + "\r\n[" + file + "](/" + realpath.replaceAll("\\\\", "/") + ")\r\n";
+            fileStr = `${fileStr}\r\n[${file}](/${realpath.replaceAll("\\\\", "/")})\r\n`;
         }
     });
-    appendFile("files.md", fileStr);
+    // 文件末尾追加内容
+    fs.appendFile("files.md", fileStr, 'utf8', function (err) {
+        if (err) {
+            console.log("文件追加内容失败,原因是：" + err);
+        }
+    });
 }
 
-writeFile("files.md", "# 文件\r\n");
+// 写入文件内容
+fs.writeFile("files.md", "# 文件\r\n", "utf8", error => {
+    if (error) {
+        return console.log("文件写入内容失败,原因是：" + error.message);
+    }
+});
 
 setStaticFile(".vuepress/public/files", "");
 
@@ -484,7 +257,7 @@ function test(files) {
 }
 
 module.exports = {
-    rootFolder,
-    getRootDir,
+    getSidebars,
+    getNavigationMenu,
     execute
 }

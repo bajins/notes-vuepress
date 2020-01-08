@@ -52,13 +52,13 @@ module.exports = {
         // }
         // },
         editLinkText: '在 GitHub 上编辑此页',
-        nav: utils.getRootDir("./").concat(require('./nav')),
+        nav: utils.getNavigationMenu("./").concat(require('./nav')),
         logo: '/images/icons/logo.png',
         // 搜索设置
         search: true,
         searchMaxSuggestions: 10,
         // 侧边栏 用工具自动获取文件夹结构,auto自动形成侧边导航
-        sidebar: utils.rootFolder("./"),
+        sidebar: utils.getSidebars("./"),
         // 最后更新时间
         lastUpdated: '上次更新',
         // 作者
