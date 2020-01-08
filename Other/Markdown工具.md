@@ -55,8 +55,7 @@
 ## 生成目录`TOC`
 
 
-* [tocdown](https://dohliam.github.io/tocdown)
-[源码](https://github.com/dohliam/tocdown)
+* [tocdown](https://dohliam.github.io/tocdown) [https://github.com/dohliam/tocdown](https://github.com/dohliam/tocdown)
 
 * [markdown-toc-generate](https://magnetikonline.github.io/markdown-toc-generate)
 [源码](https://github.com/magnetikonline/markdown-toc-generate)
@@ -122,7 +121,6 @@
 
 * [https://github.com/MacDownApp/macdown](https://github.com/MacDownApp/macdown)
 
-* [静态博客写作客户端](https://github.com/getgridea/gridea)
 
 ## 其他
 

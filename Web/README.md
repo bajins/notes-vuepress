@@ -46,6 +46,28 @@
 
 
 
+## 静态博客或文档
+
+* [静态编译VuePress](https://github.com/vuejs/vuepress)
+
+* [VuePress主题](https://github.com/search?o=desc&q=vuepress-theme&s=updated&type=Repositories)
+
+* [静态编译NuxtJs](https://github.com/nuxt/nuxt.js)
+
+* [静态编译Hexo](https://github.com/hexojs/hexo)
+
+* [静态编译Docsite](https://github.com/txd-team/docsite)
+
+* [运行时驱动Docsify](https://github.com/docsifyjs/docsify)
+
+* [运行时驱动Docute](https://github.com/egoist/docute)
+
+* [从仓库生成文档](https://github.com/readthedocs/readthedocs.org)
+
+* [https://github.com/getgridea/gridea](https://github.com/getgridea/gridea)
+
+
+
 ## 面包屑导航
 
 > 面包屑导航（BreadcrumbNavigation），这个概念名词来自一段童话故事“汉塞尔和格莱特”他们在森林里玩耍迷了路，

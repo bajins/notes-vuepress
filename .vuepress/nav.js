@@ -45,48 +45,5 @@ module.exports = [
                 ]
             }
         ]
-    },
-    {
-        text: '了解更多',
-        items: [
-            {
-                // text: '文档生成',
-                items: [
-                    {
-                        text: '静态编译VuePress',
-                        link: 'https://github.com/vuejs/vuepress'
-                    },
-                    {
-                        text: 'VuePress主题',
-                        link: 'https://github.com/search?o=desc&q=vuepress-theme&s=updated&type=Repositories'
-                    },
-                    {
-                        text: '静态编译NuxtJs',
-                        link: 'https://github.com/nuxt/nuxt.js'
-                    },
-                    {
-                        text: '静态编译Hexo',
-                        link: 'https://github.com/hexojs/hexo'
-                    },
-                    {
-                        text: '静态编译Docsite',
-                        link: 'https://github.com/txd-team/docsite'
-                    },
-                    {
-                        text: '运行时驱动Docsify',
-                        link: 'https://github.com/docsifyjs/docsify'
-                    },
-                    {
-                        text: '运行时驱动Docute',
-                        link: 'https://github.com/egoist/docute'
-                    },
-                    {
-                        text: '从仓库生成文档',
-                        link: 'https://github.com/readthedocs/readthedocs.org'
-                    },
-                ]
-            },
-
-        ]
-    },
+    }
 ]

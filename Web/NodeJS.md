@@ -308,9 +308,6 @@ request({
 
 * [https://github.com/vuejs/vue](https://github.com/vuejs/vue) [https://cn.vuejs.org](https://cn.vuejs.org)
 
-* [https://github.com/vuejs/vuepress](https://github.com/vuejs/vuepress)
-[https://vuepress.vuejs.org/zh/](https://vuepress.vuejs.org/zh/)
-
 ![](/images/vue生命周期详解.png)
 
 
