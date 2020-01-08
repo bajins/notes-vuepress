@@ -204,15 +204,33 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 * [https://github.com/zq99299/java-tutorial](https://github.com/zq99299/java-tutorial)
 
-## 后端框架
+
+
+## 第三方依赖
 
 * [dubbo](https://github.com/apache/incubator-dubbo)
 
-* [tcc-transaction是TCC型事务java实现](https://github.com/changmingxie/tcc-transaction)
-
 * [fastjson](https://github.com/alibaba/fastjson)
 
-### 延迟队列
+
+**Transaction**
+
+* [https://github.com/Dromara](https://github.com/Dromara)
+
+* [https://github.com/codingapi/tx-lcn](https://github.com/codingapi/tx-lcn)
+
+* [https://github.com/seata/seata](https://github.com/seata/seata)
+
+* [https://github.com/changmingxie/tcc-transaction](https://github.com/changmingxie/tcc-transaction)
+
+* [https://github.com/QNJR-GROUP/EasyTransaction](https://github.com/QNJR-GROUP/EasyTransaction)
+
+* [https://github.com/liuyangming/ByteTCC](https://github.com/liuyangming/ByteTCC)
+
+* [https://github.com/wchswchs/Hulk](https://github.com/wchswchs/Hulk)
+
+
+**延迟队列**
 
 * [https://github.com/search?l=Java&o=desc&q=delayqueue&s=updated&type=Repositories](https://github.com/search?l=Java&o=desc&q=delayqueue&s=updated&type=Repositories)
 
@@ -221,15 +239,14 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/qjm201000/concurrent_delayqueue](https://github.com/qjm201000/concurrent_delayqueue)
 
 
-## 工具
+**工具**
 
 * [utf8+bom编码格式 java 文件 转换为 utf8 格式文件](https://github.com/andotorg/utf8bom-to-utf8)
 
 * [从GBK到UTF8的某些路径中的文件编码转换](https://github.com/downgoon/gbk2utf8)
 
-* [JVM监控](/Java/JVM.md#监控工具)
 
-## 地区数据
+**地区数据**
 
 * [district](https://github.com/eduosi/district)
 
@@ -239,6 +256,12 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 * [china_regions](https://github.com/wecatch/china_regions)
 
+
+## 协程
+
+* [异步时代-java的协程路在何方](https://www.cnblogs.com/tohxyblog/p/10712798.html)
+
+* [次时代Java编程（一）：Java里的协程](https://blog.csdn.net/qiansg123/article/details/80123051)
 
 ## Java面试题
 
@@ -251,12 +274,6 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/kdn251/interviews](https://github.com/kdn251/interviews)
 
 
-
-## 协程
-
-* [异步时代-java的协程路在何方](https://www.cnblogs.com/tohxyblog/p/10712798.html)
-
-* [次时代Java编程（一）：Java里的协程](https://blog.csdn.net/qiansg123/article/details/80123051)
 
 
 ## JavaFX开发
