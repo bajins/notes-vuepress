@@ -31,13 +31,39 @@
 - 勾选`Startup/Shutdown`下的`Reopen last project on startup`选项
 
 
-## 格式化代码时自动换行
+## 格式化代码自动换行
 
 - 打开`File` -> `Settings` -> `Editor` -> `Code Style` -> `Java` -> `Wrapping and Braces`
 
-- 勾选`Keep when reformatting`下的`Line breaks`和`Ensure right margin is not exceeded`两个选项
+- 勾选`Keep when reformatting`下的`Line breaks`去除每次格式化时自动添加`+`符号
 
-> `Line breaks`去除每次格式化时自动添加`+`符号
+- 勾选`Keep when reformatting`下的`Ensure right margin is not exceeded`自动换行
+
+
+## 代码最大行宽和自动换行
+
+- 打开`File` -> `Settings` -> `Editor` -> `Code Style`
+
+- 设置`General`下的`Hard wrap at`行宽；
+
+- 勾选`General`下的`Wrap on typing`在编码时，超出最大行宽，则自动换行
+
+
+## 格式化代码注释处理
+
+- 打开`File` -> `Settings` -> `Editor` -> `Code Style` -> `Java` -> 右边选择`JavaDoc`
+
+1. `Enable JavaDoc Formatting`启用JavaDoc格式化
+
+2. `Wrap at right margin`右边缘换行，当最后一个单词会超出边界时，自动换行
+
+3. `Do not wrap one line comments`同一行注释不要换行
+
+4. `Preserve line feeds`保留换行
+
+- 右边选择`Wrapping and Braces`
+
+1. `Comment at first column	false`代码格式化的时候保证`commet`符号在代码块附近
 
 
 ## 去掉提示重复代码
@@ -187,6 +213,14 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 - 在`Other`下的`Tooltip delay`输入鼠标悬停时间单位`milliseconds(毫秒)`
 
+
+## 注释自动缩进
+
+> 注释默认靠左，可能代码前会有很大一段空格
+
+- 打开`File` -> `Settings` -> `Editor` -> `Code Style` -> `JAVA`、`HTML`、`JavaScript`、`XML`、`TypeScript`、`Groovy`、`Kotlin`
+
+- 右边选择`Code Generation` -> 取消勾选`Comment Code`下的`Line comment at first column`和`Block comment at first column`
 
 
 ## 自动优化导包
