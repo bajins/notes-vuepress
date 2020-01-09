@@ -362,14 +362,12 @@ request({
 ### 动态导入组件
 
 ```js
-require(`@${_this.files.path}.vue`);
-
-() => import(`@${_this.files.path}.vue`);
+() => import(`@${_this.files.path}.vue`)
 
 //component(resolve) {require([`@${_this.files.path}.vue`], resolve)}
-resolve => require([`@${_this.files.path}.vue`], resolve);
+resolve => require([`@${_this.files.path}.vue`], resolve)
 
-resolve => require.ensure([], () => resolve(require(`@${_this.files.path}.vue`)));
+resolve => require.ensure([], () => resolve(require(`@${_this.files.path}.vue`)))
 
 const resolveRequire = (path) => {
     return resolve => {
