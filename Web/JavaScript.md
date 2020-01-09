@@ -322,15 +322,34 @@ document.querySelectorAll()
 ## 获取宽高
 
 ```js
-// 显示浏览器的屏幕的可用宽度像素
+// 屏幕可用工作区宽度
 screen.availWidth
-// 显示浏览器的屏幕的可用高度像素
+// 屏幕可用工作区高度
 screen.availHeight
 
-// 浏览器的屏幕的宽度像素
+// 屏幕分辨率的宽
 screen.width
-// 浏览器的屏幕的高度像素
+// 屏幕分辨率的高
 screen.height
+
+// 网页正文部分上
+window.screenTop
+// 网页正文部分左
+window.screenLeft
+
+// 设置或获取位于给定对象左边界与窗口中目前可见内容的最左端之间的距离
+window.scrollLeft
+// 设置或获取位于给定对象最顶端与窗口中目前可见内容的最顶端之间的距离
+window.scrollTop
+
+// 设置或获取位于给定对象相对于版面或由offsetParent属性指定的父坐标的计算左侧位置
+window.offsetLeft
+// 设置或获取位于给定对象相对于版面或由offsetParent属性指定的父坐标的计算顶端位置
+window.offsetTop
+
+// 浏览器窗口的内部宽高，会随窗口的显示大小改变
+window.innerWidth
+window.innerHeight
 
 // 网页可见区域宽度，不包括工具栏和滚动条，会随窗口的显示大小改变
 document.body.clientWidth
@@ -352,16 +371,6 @@ document.documentElement.scrollWidth
 // 网页正文全文宽度(不包括滚动条)，会随窗口的显示大小改变
 document.body.scrollHeight
 document.documentElement.scrollHeight
-
-// 浏览器窗口的内部宽高，会随窗口的显示大小改变
-window.innerWidth
-window.innerHeight
-
-// scrollLeft:设置或获取位于给定对象左边界与窗口中目前可见内容的最左端之间的距离；
-// scrollTop:设置或获取位于给定对象最顶端与窗口中目前可见内容的最左端之间的距离；
-// offsetLeft:设置或获取位于给定对象相对于版面或由offsetParent属性指定的父坐标的计算左侧位置；
-// offsetTop:设置或获取位于给定对象相对于版面或由offsetParent属性指定的父坐标的计算顶端位置；
-
 ```
 
 
