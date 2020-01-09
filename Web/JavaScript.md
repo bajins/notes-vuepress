@@ -10,31 +10,12 @@
 
 ## flag
 
-* [Babel 是一个JavaScript转换编译器](https://babeljs.io) [https://www.babeljs.cn](https://www.babeljs.cn)
 
-* [压缩或编码解码库](https://github.com/photopea)
-
-* [压缩](https://github.com/nodeca/pako)
-
-* [https://github.com/Stuk/jszip](https://github.com/Stuk/jszip)
-
-* [使浏览器支持require](https://github.com/browserify)
 
 * [ECMAScript支持度检测](https://github.com/ruanyf/es-checker)
 
-* [现代化的拷贝文字](http://www.clipboardjs.cn)
 
-* [HTML DOM 教程](https://www.w3school.com.cn/htmldom/index.asp)
-
-* [DOM对象](https://www.w3school.com.cn/jsref/dom_obj_document.asp)
-
-* [JavaScript HTML DOM](https://www.w3school.com.cn/js/js_htmldom_document.asp)
-
-* [https://github.com/pixijs/pixi.js](https://github.com/pixijs/pixi.js)
-
-
-
-## 手册
+**手册**
 
 > `HTML`网页中，浏览器通过`script`标签加载脚本的默认语言是`JavaScript`，因此`type="application/javascript"`可以省略。
 
@@ -50,8 +31,13 @@
 
 * [检查JavaScript文件中的ES版本](https://github.com/dollarshaveclub/es-check)
 
+* [文档对象模型 (DOM)](https://developer.mozilla.org/zh-CN/docs/Glossary/DOM)
 
-## ECMAScript6
+* [JavaScript HTML DOM](https://www.w3school.com.cn/js/js_htmldom_document.asp)
+
+
+
+**ECMAScript6**
 
 * [在浏览器中使用javascript module](https://www.jianshu.com/p/f7db50cf956f)
 
@@ -74,12 +60,26 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 ```
 
 
-## 类库
+## 第三方依赖库
 
 * [JavaScript 日期处理类库](https://github.com/moment/moment)
 [http://momentjs.cn](http://momentjs.cn)
 
 * [https://github.com/matthewhudson/current-device](https://github.com/matthewhudson/current-device)
+
+* [Babel 是一个JavaScript转换编译器](https://babeljs.io) [https://www.babeljs.cn](https://www.babeljs.cn)
+
+* [压缩或编码解码库](https://github.com/photopea)
+
+* [压缩](https://github.com/nodeca/pako)
+
+* [现代化的拷贝文字](http://www.clipboardjs.cn)
+
+* [https://github.com/Stuk/jszip](https://github.com/Stuk/jszip)
+
+* [使浏览器支持require](https://github.com/browserify)
+
+* [https://github.com/pixijs/pixi.js](https://github.com/pixijs/pixi.js)
 
 
 
