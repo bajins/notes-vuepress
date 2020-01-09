@@ -203,6 +203,7 @@ netstat -ano | findstr 80
 
 ```batch
 taskkill /pid 进程号 /f
+taskkill /f /im 程序名
 ```
 
 

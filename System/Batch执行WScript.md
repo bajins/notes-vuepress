@@ -197,14 +197,12 @@ function request(method, url, dataType, data, contentType) {
             WScript.StdOut.WriteLine("：" + e.message);
         }
     }
-
     //将对象转化成为querystring形式
     var paramarray = [];
     for (key in data) {
         paramarray.push(key + "=" + data[key]);
     }
     var params = paramarray.join("&");
-
     switch (method) {
         case "POST":
             // 0异步、1同步
@@ -223,7 +221,6 @@ function request(method, url, dataType, data, contentType) {
             XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send();
     }
-
     // 把字符串转换为小写
     dataType = dataType.toLowerCase();
     switch (dataType) {
@@ -261,21 +258,18 @@ function download(url, directory, filename) {
     if (directory == "" || directory == null || directory.length <= 0) {
         throw new Error("文件存储目录不能为空！");
     }
-
     var fso = new ActiveXObject("Scripting.FileSystemObject");
     // 如果目录不存在
     if (!fso.FolderExists(directory)) {
         // 创建目录
         var strFolderName = fso.CreateFolder(directory);
     }
-
     if (filename == "" || filename == null || filename.length <= 0) {
         filename = url.substring(url.lastIndexOf("/") + 1);
         // 去掉文件名的特殊符号（包括之前的）字符
         filename = filename.replace(/^.*(\&|\=|\?|\/)/ig, "");
     }
     var path = directory + "\\" + filename;
-
     var ADO = new ActiveXObject("ADODB.Stream");
     ADO.Mode = 3;
     ADO.Type = 1;
@@ -283,10 +277,9 @@ function download(url, directory, filename) {
     ADO.Write(request("GET", url, ""));
     ADO.SaveToFile(path, 2);
     ADO.Close();
-
     // 如果文件不存在
     if (!fso.FileExists(path)) {
-        return "";
+        throw new Error("文件下载失败");
     }
     return path;
 }
@@ -330,10 +323,10 @@ function XMLParsing(xml) {
     if (!fso.FileExists(xml)) {
         // 载入xml字符串
         xmlParser.loadXML(xml);
-        return xmlParser;
+    }else {
+        // 载入xml文件
+        xmlParser.load(xml);
     }
-    // 载入xml文件
-    xmlParser.load(xml);
     return xmlParser;
 }
 ```
@@ -393,10 +386,8 @@ function imageTransform(imagePath, format) {
     if (fso.FileExists(formatPath)) {
         throw new Error("要转换的格式文件已经存在！");
     }
-
     // 转小写
     format = format.toLowerCase();
-
     var wiaFormat = "";
     switch (format) {
         case "bmp":
@@ -415,30 +406,21 @@ function imageTransform(imagePath, format) {
             // 默认JPEG
             wiaFormat = "{B96B3CAE-0728-11D3-9D7B-0000F81EF32E}";
     }
-
-
     var img = new ActiveXObject("WIA.ImageFile");
     img.LoadFile(imagePath);
-
     var imgps = new ActiveXObject("WIA.ImageProcess");
     imgps.Filters.Add(imgps.FilterInfos("Convert").FilterID);
     // 转换格式
     imgps.Filters(1).Properties("FormatID").Value = wiaFormat;
     // 图片质量
     //imgps.Filters(1).Properties("Quality").Value = 5
-    var img = imgps.Apply(img);
-
-
-    img.SaveFile(formatPath);
-
+    imgps.Apply(img).SaveFile(formatPath);
     // 如果文件不存在,就说明没有转换成功
     if (!fso.FileExists(formatPath)) {
-        return "";
+        throw new Error("图片格式转为" + format + "失败");
     }
-
     return formatPath;
 }
-
 ```
 
 - 设置壁纸
@@ -450,35 +432,28 @@ function imageTransform(imagePath, format) {
  * @param imagesPath 图片全路径
  */
 function setWallpaper(imagesPath) {
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    // 如果文件不存在,就说明没有转换成功
+    if (!fso.FileExists(imagePath)) {
+        throw new Error("图片不存在或路径错误！");
+    }
     var shell = new ActiveXObject("WScript.shell");
     // HKEY_CURRENT_USER
     shell.RegWrite("HKCU\\Control Panel\\Desktop\\TileWallpaper", "0");
     // 设置壁纸全路径
     shell.RegWrite("HKCU\\Control Panel\\Desktop\\Wallpaper", imagesPath);
     shell.RegWrite("HKCU\\Control Panel\\Desktop\\WallpaperStyle", "2", "REG_DWORD");
-
     var shadowReg = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion";
-    shadowReg = shadowReg + "\\Explorer\\Advanced\\ListviewShadow";
-    shell.RegWrite(shadowReg, "1", "REG_DWORD");
-
+    shell.RegWrite(shadowReg + "\\Explorer\\Advanced\\ListviewShadow", "1", "REG_DWORD");
     // 如果桌面图标未透明，需要刷新组策略
     //shell.Run("gpupdate /force", 0);
-
     // 上面已经通过注册表设置了壁纸的参数，调用Windows api SystemParametersInfo刷新配置
     var spi = "RunDll32 USER32,SystemParametersInfo SPI_SETDESKWALLPAPER 0 \"";
-    spi = spi + imagesPath + "\" SPIF_SENDWININICHANGE+SPIF_UPDATEINIFILE";
-    shell.Run(spi);
-
-    // 结束资源管理器进程
-    //shell.Run("taskkill /f /im explorer.exe");
-
-    for (var i = 0; i < 10; i++) {
+    shell.Run(spi + imagesPath + "\" SPIF_SENDWININICHANGE+SPIF_UPDATEINIFILE");
+    for (var i = 0; i < 30; i++) {
         // 实时刷新桌面
         shell.Run("RunDll32 USER32,UpdatePerUserSystemParameters");
     }
-
-    // 启动资源管理器
-    //shell.Run("start explorer.exe");
 }
 ```
 
@@ -518,13 +493,11 @@ function systemDigits() {
     var locator = new ActiveXObject("WbemScripting.SWbemLocator");
     // 连接本地电脑
     var service = locator.ConnectServer(".");
-
     // 获取系统版本
     var csResult = service.ExecQuery("Select * from Win32_ComputerSystem");
     // 创建一个可枚举的对象
     var cs = new Enumerator(csResult).item();
     var digits = cs.SystemType;
-
     if (digits.indexOf("86") != -1) {
         return "i386";
     } else if (digits.indexOf("64") != -1) {
@@ -543,17 +516,13 @@ function osVersion() {
     var locator = new ActiveXObject("WbemScripting.SWbemLocator");
     // 连接本地电脑
     var service = locator.ConnectServer(".");
-
     // 获取系统版本
     var osResult = service.ExecQuery("Select * from Win32_OperatingSystem");
     // 创建一个可枚举的对象
     var os = new Enumerator(osResult).item();
-
     var caption = os.Caption;
-    var version = os.Version;
     // 截取version最后一个"."的左面部分
-    version = version.substring(0, version.lastIndexOf("."));
-
+    var version = os.Version.substring(0, version.lastIndexOf("."));
     switch (version) {
         case "5.2":
             return "Windows Server 2003";
@@ -603,7 +572,6 @@ function unZip(zipFile, unDirectory) {
         // 创建目录
         fso.CreateFolder(unDirectory);
     }
-
     var objShell = new ActiveXObject("Shell.Application");
     var objSource = objShell.NameSpace(zipFile);
     if (objSource == null) {
@@ -646,28 +614,22 @@ function get7z() {
  */
 function download7z() {
     var srcUrl = "https://sourceforge.net/projects/sevenzip/rss?path=/7-Zip";
-    var txt = request("get", srcUrl, "text", "", "");
-    var dlUrl = "https://www.7-zip.org/a/";
     var filename;
     try {
-        var xmlDoc = XMLParser(txt);
-        var links = xmlDoc.getElementsByTagName("link");
-        if (links.length <= 0) {
-            txt = request("get", srcUrl, "text", "", "");
-        }
+        var txt = request("get", srcUrl, "text", "", "");
+        var links = XMLParser(txt).getElementsByTagName("link");
         var link = links[5].firstChild.nodeValue.split("/");
         filename = link[link.length - 2];
     } catch (e) {
         WScript.StdOut.WriteLine(e.message);
         srcUrl = "https://www.7-zip.org/download.html";
-        txt = request("get", srcUrl, "text", "", "");
-        var html = HtmlParsing(txt);
+        var html = HtmlParsing(request("get", srcUrl, "text", "", ""));
         var tbody = html.getElementsByTagName("tbody")(4);
         var href = tbody.children(3).firstChild.firstChild.getAttribute("href");
         href = href.split("/");
         filename = href[href - 1];
     }
-    dlUrl += filename;
+    var dlUrl = "https://www.7-zip.org/a/" + filename;
     // 当前文件所在目录
     var currentDir = fso.GetFile(WScript.ScriptFullName).ParentFolder;
     try {
@@ -694,7 +656,6 @@ function db(){
     var objrs = objdbConn.Execute("Select * from test");
     // 获取字段数目   
     var fdCount = objrs.Fields.Count - 1;
-
     // 显示数据库内容   
     while (!objrs.EOF) {
         // 显示每笔记录的字段
