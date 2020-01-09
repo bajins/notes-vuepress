@@ -70,32 +70,28 @@ if (Argv.length > 0) {
 var json = request("GET", "https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1", "json");
 
 var imageUrl = "https://cn.bing.com" + json.images[0].url.split("&")[0];
-var imageDir = currentDirectory + "\\images";
-var imageName = imageUrl.substring(imageUrl.lastIndexOf("/") + 1);
-imageName = imageName.split("=")[1];
+var imageName = imageUrl.substring(imageUrl.lastIndexOf("/") + 1).split("=")[1];
 
-var imagePath = imageDir + "\\" + imageName.replace(/(.+)\.[^\.]+$/, "$1") + ".bmp";
+var oldImagePath = currentDirectory + "\\" + imageName;
+var imagePath = oldImagePath.replace(/(.+)\.[^\.]+$/, "$1") + ".bmp";
 // 如果转换后文件不存在
 if (!fso.FileExists(imagePath)) {
-    var imagePath = download(imageUrl, imageDir, imageName);
-    imagePath = imageTransform(imagePath, "bmp");
-    if (imagePath == "") {
+    oldImagePath = download(imageUrl, currentDirectory, imageName);
+    if (imageTransform(oldImagePath, "bmp") == "") {
         info("图片格式转为BMP失败");
-        WScript.Quit(0);
+        WScript.Quit(1);
     }
 }
-
-
 if (fso.FileExists(imagePath)) {
     setWallpaper(imagePath);
-
+    fso.DeleteFile(imagePath);
+    fso.DeleteFile(oldImagePath);
     info("设置壁纸成功！" + imagePath);
     WScript.Quit(0);
 } else {
     error("下载壁纸失败！");
     WScript.Quit(1);
 }
-
 
 function error(msg) {
     WScript.StdErr.WriteLine(msg);
@@ -160,14 +156,12 @@ function request(method, url, dataType, data, contentType) {
             WScript.StdOut.WriteLine("：" + e.message);
         }
     }
-
     //将对象转化成为querystring形式
     var paramarray = [];
     for (key in data) {
         paramarray.push(key + "=" + data[key]);
     }
     var params = paramarray.join("&");
-
     switch (method) {
         case "POST":
             // 0异步、1同步
@@ -186,7 +180,6 @@ function request(method, url, dataType, data, contentType) {
             XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send();
     }
-
     // 把字符串转换为小写
     dataType = dataType.toLowerCase();
     switch (dataType) {
@@ -223,21 +216,18 @@ function download(url, directory, filename) {
     if (directory == "" || directory == null || directory.length <= 0) {
         throw new Error("文件存储目录不能为空！");
     }
-
     var fso = new ActiveXObject("Scripting.FileSystemObject");
     // 如果目录不存在
     if (!fso.FolderExists(directory)) {
         // 创建目录
         var strFolderName = fso.CreateFolder(directory);
     }
-
     if (filename == "" || filename == null || filename.length <= 0) {
         filename = url.substring(url.lastIndexOf("/") + 1);
         // 去掉文件名的特殊符号（包括之前的）字符
         filename = filename.replace(/^.*(\&|\=|\?|\/)/ig, "");
     }
     var path = directory + "\\" + filename;
-
     var ADO = new ActiveXObject("ADODB.Stream");
     ADO.Mode = 3;
     ADO.Type = 1;
@@ -245,10 +235,9 @@ function download(url, directory, filename) {
     ADO.Write(request("GET", url, ""));
     ADO.SaveToFile(path, 2);
     ADO.Close();
-
     // 如果文件不存在
     if (!fso.FileExists(path)) {
-        return "";
+        throw new Error("文件下载失败");
     }
     return path;
 }
@@ -272,10 +261,8 @@ function imageTransform(imagePath, format) {
     if (fso.FileExists(formatPath)) {
         throw new Error("要转换的格式文件已经存在！");
     }
-
     // 转小写
     format = format.toLowerCase();
-
     var wiaFormat = "";
     switch (format) {
         case "bmp":
@@ -294,27 +281,19 @@ function imageTransform(imagePath, format) {
             // 默认JPEG
             wiaFormat = "{B96B3CAE-0728-11D3-9D7B-0000F81EF32E}";
     }
-
-
     var img = new ActiveXObject("WIA.ImageFile");
     img.LoadFile(imagePath);
-
     var imgps = new ActiveXObject("WIA.ImageProcess");
     imgps.Filters.Add(imgps.FilterInfos("Convert").FilterID);
     // 转换格式
     imgps.Filters(1).Properties("FormatID").Value = wiaFormat;
     // 图片质量
     //imgps.Filters(1).Properties("Quality").Value = 5
-    var img = imgps.Apply(img);
-
-
-    img.SaveFile(formatPath);
-
+    imgps.Apply(img).SaveFile(formatPath);
     // 如果文件不存在,就说明没有转换成功
     if (!fso.FileExists(formatPath)) {
-        return "";
+        throw new Error("图片格式转为" + format + "失败");
     }
-
     return formatPath;
 }
 
@@ -324,35 +303,28 @@ function imageTransform(imagePath, format) {
  * @param imagesPath 图片全路径
  */
 function setWallpaper(imagesPath) {
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    // 如果文件不存在,就说明没有转换成功
+    if (!fso.FileExists(imagePath)) {
+        throw new Error("图片不存在或路径错误！");
+    }
     var shell = new ActiveXObject("WScript.shell");
     // HKEY_CURRENT_USER
     shell.RegWrite("HKCU\\Control Panel\\Desktop\\TileWallpaper", "0");
     // 设置壁纸全路径
     shell.RegWrite("HKCU\\Control Panel\\Desktop\\Wallpaper", imagesPath);
     shell.RegWrite("HKCU\\Control Panel\\Desktop\\WallpaperStyle", "2", "REG_DWORD");
-
     var shadowReg = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion";
-    shadowReg = shadowReg + "\\Explorer\\Advanced\\ListviewShadow";
-    shell.RegWrite(shadowReg, "1", "REG_DWORD");
-
+    shell.RegWrite(shadowReg + "\\Explorer\\Advanced\\ListviewShadow", "1", "REG_DWORD");
     // 如果桌面图标未透明，需要刷新组策略
     //shell.Run("gpupdate /force", 0);
-
     // 上面已经通过注册表设置了壁纸的参数，调用Windows api SystemParametersInfo刷新配置
     var spi = "RunDll32 USER32,SystemParametersInfo SPI_SETDESKWALLPAPER 0 \"";
-    spi = spi + imagesPath + "\" SPIF_SENDWININICHANGE+SPIF_UPDATEINIFILE";
-    shell.Run(spi);
-
-    // 结束资源管理器进程
-    //shell.Run("taskkill /f /im explorer.exe");
-
+    shell.Run(spi + imagesPath + "\" SPIF_SENDWININICHANGE+SPIF_UPDATEINIFILE");
     for (var i = 0; i < 30; i++) {
         // 实时刷新桌面
         shell.Run("RunDll32 USER32,UpdatePerUserSystemParameters");
     }
-
-    // 启动资源管理器
-    //shell.Run("start explorer.exe");
 }
 
 /**
