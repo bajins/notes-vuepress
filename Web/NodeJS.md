@@ -62,6 +62,9 @@
 * [https://github.com/topics/electron](https://github.com/topics/electron)
 [https://github.com/electron/electron](https://github.com/electron/electron)
 
+* [使用 node-ffi 构建 Electron 和 C++ Library 混合桌面应用](https://io.hancel.org/2018/05/02/building-an-electron-hybrid-application.html)
+
+
 * [https://github.com/topics/nwjs](https://github.com/topics/nwjs)
 [https://github.com/nwjs/nw.js](https://github.com/nwjs/nw.js)
 [https://github.com/lxp135/NW.jsCnDocs](https://github.com/lxp135/NW.jsCnDocs)

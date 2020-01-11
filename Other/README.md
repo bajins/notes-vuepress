@@ -26,6 +26,34 @@
 
 * [https://github.com/Siujoeng-Lau/Workers-Proxy](https://github.com/Siujoeng-Lau/Workers-Proxy)
 
+* [https://siguso.com](https://siguso.com)
+
+* [https://www.uedbox.com/share](https://www.uedbox.com/share)
+
+**wikipedia**
+
+* [维基百科:维基百科拷贝网站](https://zh.wikipedia.org/wiki/Wikipedia:%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%8B%B7%E8%B4%9D%E7%BD%91%E7%AB%99)
+
+* [https://github.com/upupming/Mirror](https://github.com/upupming/Mirror)
+
+* [https://github.com/imlinhanchao/ngx_proxy_wiki](https://github.com/imlinhanchao/ngx_proxy_wiki)
+
+* [Wikipedia全域恢复访问指南](https://blog.sukiu.net/p/wikimirror.html)
+
+* [https://kfd.me](https://kfd.me)
+
+* [http://www.zgc261.com/wikipedia.html](http://www.zgc261.com/wikipedia.html)
+
+* [https://www.jinzhao.pro/wikipedia-mirror](https://www.jinzhao.pro/wikipedia-mirror)
+
+* [https://www.v2ex.com/t/623109](https://www.v2ex.com/t/623109)
+
+* []()
+
+* []()
+
+
+
 
 ## 临时邮箱
 

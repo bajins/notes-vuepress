@@ -8,6 +8,10 @@
 
 ## flag
 
+* [Scripting](https://docs.microsoft.com/zh-cn/previous-versions/ms950396(v=msdn.10))
+
+* [Windows Script Host](https://docs.microsoft.com/zh-cn/previous-versions//9bbdkx3k%28v%3dvs.85%29)
+
 * [属性和方法及子对象](https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/x66z77t4(v=vs.84)#language-element-table)
 
 

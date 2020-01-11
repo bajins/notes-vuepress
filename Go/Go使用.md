@@ -438,7 +438,30 @@ func SchedulerFixedTimer(f func(), duration time.Duration) {
 ```
 
 
-## 多线程
+## 进程线程协程
+
+> GO程序是单进程的（手动`fork/exec`不算），但是调度器是多线程的。
+
+* [go 开多个goroutine，是在一个进程中完成，还是可能在多个进程中完成](https://segmentfault.com/q/1010000007372739)
+
+* [golang多进程并发](https://chierqj.github.io/golang-duo-jin-cheng-bing-fa)
+
+### 进程
+
+> `exec`包执行外部命令，它将`os.StartProcess`进行包装使得它更容易映射到`stdin`和`stdout`，并且利用`pipe`连接`i/o`
+
+> 这和`python``下的command`、`os.system`等功能一样。可以调用类`LINUX`系统下的`shell`命令，也可以在`windows`下调用`cmd`命令。
+
+> os包中实现了平台无关的接口，设计向Unix风格，但是错误处理是go风格，当os包使用时，如果失败之后返回错误类型而不是错误数量．
+
+* [golang中os包用法](https://blog.csdn.net/chenbaoke/article/details/42494851)
+
+```go
+proc, err = os.StartProcess("test.exe", nil, &os.ProcAttr{Files: []*os.File{os.Stdin, os.Stdout, os.Stderr}})
+```
+
+
+## 协程
 
 * [多线程](https://www.jianshu.com/p/c3d65105fa46)
 
@@ -452,7 +475,6 @@ func SchedulerFixedTimer(f func(), duration time.Duration) {
 
 * [深度剖析 Go 中的 Go 协程 (goroutines) -- Go 的并发](https://studygolang.com/articles/17944)
 
-### 开启新线程
 
 
 ```go
@@ -473,6 +495,8 @@ go func() {
 func TestGorutine(t *testing.T) {
     // 指定最大 P 为 1，从而管理协程最多的线程为 1 个    
     runtime.GOMAXPROCS(1)
+    // 显式地让出CPU时间给其他goroutine
+    //runtime.Gosched()
     // 控制等待所有协程都执行完再退出程序    
     wg := sync.WaitGroup{}
     wg.Add(2)

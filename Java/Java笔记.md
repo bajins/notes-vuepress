@@ -473,9 +473,27 @@ public class SynchronizedDemo {
 
 
 
-## 多线程
+## 进程线程协程
 
-### 开启新线程
+### 进程
+
+```java
+import java.io.IOException;
+//如何用java语言开启一个进程
+public class ProcessDemo {
+    public static void main(String[] args) throws IOException{
+        //方式一：使用Runtime的exec方法
+        Runtime.getRuntime().exec("notepad");
+        //方式二：使用ProcessBuilder类中的start方法
+        ProcessBuilder pb = new ProcessBuilder("notepad");
+        Process p1 = pb.start();
+        p1.waitFor();
+    }
+}
+```
+
+
+### 线程
 
 - 继承`Thread`类创建线程类
 

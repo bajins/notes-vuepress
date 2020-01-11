@@ -38,6 +38,8 @@
 
 * [https://zmister.com](https://zmister.com)
 
+* [python3基础教程](https://morvanzhou.github.io/tutorials/python-basic/basic)
+
 
 * [精选的Python框架，库，软件和资源的精选列表](https://github.com/vinta/awesome-python)
 
@@ -344,8 +346,76 @@ print(platform.python_version(), '\n')
 
 
 
-## 多线程
+## 进程线程协程
 
+### 进程
+
+* [multiprocessing --- 基于进程的并行](https://docs.python.org/zh-cn/3/library/multiprocessing.html)
+
+* [multiprocessing](https://morvanzhou.github.io/tutorials/python-basic/multiprocessing)
+
+
+```python
+import multiprocessing as mp
+threads = []
+for i in path:
+  threads.append(mp.Process(target=md5sum,args=(i,)))
+#创建一个multiprocessing.process.Process对象
+#执行
+for m in threads:
+  m.start()
+#回收
+for m in threads:
+  m.join()
+```
+
+
+```python
+def  test(i):
+  pass
+# 创建一个multiprocessing.pool.Pool的对象
+p1 = mp.Pool(processes =5)
+#向进程池里添加任务
+for i in range(10):
+  p1.apply_async(test, args=(i,)) #func，参数（传入元组）
+# 关闭进程池，不再接受请求
+p1.close()
+# 等待所有子进程结束
+p1.join()
+```
+
+
+### 线程
+
+* [多线程](https://morvanzhou.github.io/tutorials/python-basic/threading)
+
+
+```python
+import threading
+# 使用新线程执行函数
+threading.Thread(target=test, args=("test",)).start()
+# 在指定的秒数后调用一个函数
+threading.Timer(10, test, ("test",)).start()
+```
+
+
+### 线程池
+
+
+* [python3异步编程](https://blog.51cto.com/445153/2138832)
+
+* [Python 并发、并行、同步和异步](https://www.jianshu.com/p/13d2e8514546)
+
+* [ThreadPoolExecutor](https://www.jianshu.com/p/6d6e4f745c27)
+
+```python
+from concurrent.futures import ThreadPoolExecutor
+import multiprocessing
+pool = ThreadPoolExecutor(max_workers=int(multiprocessing.cpu_count() / (1 - 0.9)))
+done = pool.submit(test, "test")
+# 执行完成调用函数
+done.add_done_callback(thread_call_back)
+```
 
 
 ### asyncio
@@ -399,35 +469,6 @@ except ValueError:
 ```
 
 
-
-### 开启新线程
-
-```python
-import threading
-# 使用新线程执行函数
-threading.Thread(target=test, args=("test",)).start()
-# 在指定的秒数后调用一个函数
-threading.Timer(10, test, ("test",)).start()
-```
-
-
-### 线程池
-
-
-* [python3异步编程](https://blog.51cto.com/445153/2138832)
-
-* [Python 并发、并行、同步和异步](https://www.jianshu.com/p/13d2e8514546)
-
-* [ThreadPoolExecutor](https://www.jianshu.com/p/6d6e4f745c27)
-
-```python
-from concurrent.futures import ThreadPoolExecutor
-import multiprocessing
-pool = ThreadPoolExecutor(max_workers=int(multiprocessing.cpu_count() / (1 - 0.9)))
-done = pool.submit(test, "test")
-# 执行完成调用函数
-done.add_done_callback(thread_call_back)
-```
 
 ## ORM
 

@@ -24,12 +24,15 @@
 > 执行当前脚本中的JavaScript脚本：`cscript -nologo -e:jscript "%~f0"`
 >> %~f0 表示当前批处理的绝对路径,去掉引号的完整路径
 
+* [https://www.wanweibaike.com/wiki-JScript](https://www.wanweibaike.com/wiki-JScript)
 
-* [microsoft.jscript](https://docs.microsoft.com/zh-cn/dotnet/api/microsoft.jscript)
+* [JScript (ECMAScript3)](https://docs.microsoft.com/zh-cn/previous-versions//hbxc2t98(v=vs.85))
 
 * [JScript参考手册](https://www.php.cn/manual/view/14969.html)
 
 * [JScript](https://www.itminus.com/blog/categories/%E9%A3%8E%E8%AF%AD/ECMAScript/JScript)
+
+* [http://caibaojian.com/jscript](http://caibaojian.com/jscript)
 
 
 ### ActiveXObject
@@ -709,6 +712,8 @@ function autoStart(mode) {
 
 
 ## VBScript
+
+* [VBScript](https://docs.microsoft.com/zh-cn/previous-versions//t0aew7h6(v=vs.85))
 
 * [Visual Basic 指南](https://docs.microsoft.com/zh-cn/dotnet/visual-basic)
 

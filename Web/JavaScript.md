@@ -276,6 +276,40 @@ module.exports = {
 };
 ```
 
+## 延时
+
+```js
+//6000毫秒后执行testFunction()函数，只执行一次。
+setTimeout(function (){
+    // 业务逻辑
+
+}, 6000);
+
+//每隔6000毫秒执行一次testFunction()函数，执行无数次。
+var interval = window.setInterval(function (){
+    // 业务逻辑
+
+}, 6000);
+// 停止执行setInterval循环。
+window.clearInterval(interval);
+```
+
+```js
+//第一种，使用while循环
+function sleep(delay) {
+    var start = (new Date()).getTime();
+    while((new Date()).getTime() - start < delay) {
+        continue;
+    }
+}
+//或者使用for循环
+function sleep(delay) {
+    for(var t = Date.now(); Date.now() - t <= delay;);
+}
+```
+
+
+
 
 ## blob转json
 
