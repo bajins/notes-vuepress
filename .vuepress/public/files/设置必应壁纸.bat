@@ -84,6 +84,7 @@ if (!fso.FileExists(imagePath)) {
 }
 if (fso.FileExists(imagePath)) {
     setWallpaper(imagePath);
+    WScript.Sleep(5000);
     fso.DeleteFile(imagePath);
     fso.DeleteFile(oldImagePath);
     info("…Ë÷√±⁄÷Ω≥…π¶£°" + imagePath);
