@@ -272,7 +272,11 @@ ps -efww|grep LOCAL=chromedriver|grep -v grep|cut -c 9-15|xargs kill -9
 
 ## m3u8解析下载解密合并
 
+> M3U8有两层：第一层存放的是流信息（EXT-X-STREAM-INF）和第二层的下载链接，第二层才是存放加密（EXT-X-KEY）和`ts`文件的下载地址
+
 * [https://github.com/globocom/m3u8](https://github.com/globocom/m3u8)
+
+* [什么是m3u8文件](https://www.jianshu.com/p/2a5403234b14)
 
 * [加密的ts+m3u8合并](https://www.junmajinlong.com/others/ts_m3u8)
 
@@ -283,7 +287,6 @@ ps -efww|grep LOCAL=chromedriver|grep -v grep|cut -c 9-15|xargs kill -9
 
 
 ```python
-
 import os
 import time
 from urllib.parse import urljoin
@@ -321,8 +324,9 @@ class DownLoadM3U8(object):
         """
         获取key进行解密，这里可以获取method加密方式进行解密
         """
-        if self.m3u8_obj.keys:  # AES 解密
+        if self.m3u8_obj.keys and self.m3u8_obj.keys[0]:
             res = requests.get(self.m3u8_obj.keys[0].absolute_uri, headers={'User-Agent': UserAgent})
+            # AES 解密
             return AES.new(res.content, AES.MODE_CBC, res.content)
         else:
             return None
@@ -354,8 +358,12 @@ class DownLoadM3U8(object):
         self.thread_pool.shutdown()
 
     def run(self):
+        # 如果是第一层M3U8文件，那么就获取第二层的url
+        if self.m3u8_obj.playlists and self.m3u8_obj.data.get("playlists"):
+            self.m3u8_url = urljoin(self.m3u8_obj.base_uri, self.m3u8_obj.data.get("playlists")[0]["uri"])
+            self.__post_init__()
         if not self.m3u8_obj.segments or not self.m3u8_obj.files:
-            raise ValueError("m3u8数据不正确，请检查url")
+            raise ValueError("m3u8数据不正确，请检查")
         self.download_all_ts()
         ts_path = '*.ts'
         with open(self.file_name, 'wb') as fn:
@@ -369,6 +377,7 @@ class DownLoadM3U8(object):
 
 
 if __name__ == '__main__':
+    # aHR0cHM6Ly93d3cuMTAyNHV1LmNjL3ZvZC9saXN0aW5nLTQtMC0wLTAtMC0wLTAtMC0wLTEuaHRtbA==
     m3u8_url = 'https://zk.wb699.com/2019/03/06/aLdpUIBeHC48HGTk/playlist.m3u8'
     file_name = ''
 
