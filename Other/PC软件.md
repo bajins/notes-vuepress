@@ -229,6 +229,8 @@
 
 * [Dism++](https://www.chuyu.me/zh-Hans/index.html)
 
+* [W10Privacy](https://www.winprivacy.de/deutsch-start/download)
+
 * [PCHunter](http://www.xuetr.com)
 
 > 打开后，随便点一个进程右键，查看-查看进程热键-再右键-显示所有进程热键

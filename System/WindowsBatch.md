@@ -33,20 +33,6 @@
 > 会自动检测本地`fprc`是否为最新版本，如果不是或者没有则下载最新版
 
 
----
-
-* [https://github.com/topics/windows](https://github.com/topics/windows)
-
-* [https://github.com/appget](https://github.com/appget)
-
-* [https://github.com/x64dbg](https://github.com/x64dbg)
-
-* [https://github.com/cmderdev/cmder](https://github.com/cmderdev/cmder)
-
-* [https://github.com/Eugeny/terminus](https://github.com/Eugeny/terminus)
-
-* [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
-
 
 ---
 
