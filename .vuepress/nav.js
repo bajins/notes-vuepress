@@ -11,7 +11,7 @@ module.exports = [
                     },
                     {
                         text: 'WeChat小程序',
-                        link: 'https://woetu.com'
+                        link: 'https://www.woetu.com'
                     },
                     {
                         text: '获取激活key',
