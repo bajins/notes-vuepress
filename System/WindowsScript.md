@@ -8,6 +8,11 @@
 
 ## flag
 
+* [Windows PowerShell,VBScript,JScript-Google趋势](https://trends.google.com/trends/explore?date=today%205-y&q=%2Fm%2F03790v,%2Fm%2F080l1,%2Fm%2F01n3qp)
+
+> 按照趋势及技术更新，推荐使用`PowerShell`
+
+
 * [Scripting](https://docs.microsoft.com/zh-cn/previous-versions/ms950396(v=msdn.10))
 
 * [Windows Script Host](https://docs.microsoft.com/zh-cn/previous-versions//9bbdkx3k%28v%3dvs.85%29)

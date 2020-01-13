@@ -549,3 +549,24 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 ![](https://github.com/vsch/idea-multimarkdown/raw/master/assets/images/capabilities2.png)
 
 
+**IDEA Mind Map**
+
+* [https://github.com/raydac/netbeans-mmd-plugin](https://github.com/raydac/netbeans-mmd-plugin)
+
+> 思维导图支持多种格式文件的导入和导出，同步更新时便于合并「以文本格式保存，支持 markdown 的语法，方便解决冲突」
+
+
+**ASM Bytecode Outline**
+
+* [https://github.com/melix/asm-bytecode-intellij](https://github.com/melix/asm-bytecode-intellij)
+
+> 查看 Class 类的字节码
+
+
+**stackoverflow**
+
+* [https://github.com/gejun123456/IntellijGoToStackOverFlow](https://github.com/gejun123456/IntellijGoToStackOverFlow)
+
+> 这个插件对于查找问题特别方便，定位异常，点击右键快速跳转到`stackoverflow`网站，每次至少为你节约了`10`秒。
+
+

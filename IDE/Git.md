@@ -20,7 +20,10 @@
 
 * [https://tortoisegit.org/download](https://tortoisegit.org/download)
 
-* [https://github.com/toptal/gitignore.io](https://github.com/toptal/gitignore.io)
+* [为您的项目创建有用的.gitignore文件](https://github.com/toptal/gitignore.io)
+
+
+* [reposurgeon是一种工具,用于编辑版本控制存储库的历史](http://www.catb.org/esr/reposurgeon)
 
 
 * [https://github.com/carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji)
