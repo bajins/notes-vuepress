@@ -205,9 +205,13 @@
 注册码：AXSQR-RNMXG-CVOPF-FKXHY
 ```
 
+### 图片压缩
 
 
-## 压缩
+
+
+
+## 文件压缩
 
 * [https://www.bandisoft.com/bandizip](https://www.bandisoft.com/bandizip)
 
@@ -224,14 +228,6 @@
 
 
 ## 系统相关
-
-* [Win10Clean](https://github.com/ElPumpo/Win10Clean)
-
-* [Dism++](https://www.chuyu.me/zh-Hans/index.html)
-
-* [W10Privacy](https://www.winprivacy.de/deutsch-start/download)
-
-* [PCHunter](http://www.xuetr.com)
 
 > 打开后，随便点一个进程右键，查看-查看进程热键-再右键-显示所有进程热键
 
@@ -268,6 +264,36 @@
 |                                                                                  	| [零散坑KMS服务](https://03k.org/kms.html)                                  	|
 |                                                                                  	| [http://webact.185.hk](http://webact.185.hk)                                 	|
 
+
+### 开始菜单
+
+* [https://github.com/coddec/Classic-Shell](https://github.com/coddec/Classic-Shell)
+
+
+**StartIsBack++**
+
+0. [https://eyun.baidu.com/s/3eTL5mMY](https://eyun.baidu.com/s/3eTL5mMY) 密码：3131
+
+1. [https://www.lanzous.com/b279570](https://www.lanzous.com/b279570)
+
+2. [https://yunpan.360.cn/surl_ymKSxmH5PbY](https://yunpan.360.cn/surl_ymKSxmH5PbY) （提取码：298e）
+
+
+**清理工具**
+
+* [Win10Clean](https://github.com/ElPumpo/Win10Clean)
+
+* [Dism++](https://www.chuyu.me/zh-Hans/index.html)
+
+* [W10Privacy](https://www.winprivacy.de/deutsch-start/download)
+
+* [PCHunter](http://www.xuetr.com)
+
+* [Windows 10 Manager](https://www.yamicsoft.com/cn)
+
+> `WMXD7-RG8FP-OYKS3-KHTN6`
+
+* [https://www.crystalidea.com/uninstall-tool](https://www.crystalidea.com/uninstall-tool)
 
 
 
@@ -329,14 +355,6 @@
 2. [https://cloud.189.cn/t/UneM3imEJj2u](https://cloud.189.cn/t/UneM3imEJj2u)（访问码：0224）
 
 
-
-**StartIsBack++**
-
-0. [https://eyun.baidu.com/s/3eTL5mMY](https://eyun.baidu.com/s/3eTL5mMY) 密码：3131
-
-1. [https://www.lanzous.com/b279570](https://www.lanzous.com/b279570)
-
-2. [https://yunpan.360.cn/surl_ymKSxmH5PbY](https://yunpan.360.cn/surl_ymKSxmH5PbY) （提取码：298e）
 
 
 **福昕PDF阅读器**

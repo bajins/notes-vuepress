@@ -21,6 +21,10 @@
 
 ## 原型设计
 
+* [http://chuangzaoshi.com/designtool](http://chuangzaoshi.com/designtool)
+
+* [https://icons8.com/lunacy](https://icons8.com/lunacy)
+
 * [16 种原型设计工具及其使用场景](https://zhuanlan.zhihu.com/p/24805574)
 
 * [https://www.invisionapp.com](https://www.invisionapp.com)
