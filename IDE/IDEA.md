@@ -429,6 +429,10 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ## 插件
 
+
+* [实用IDEA工具](https://blog.csdn.net/weixin_37645838/article/details/85953193)
+
+
 **Free Mybatis plugin**
 
 * [https://gitee.com/wuzhizhan/free-idea-mybatis](https://gitee.com/wuzhizhan/free-idea-mybatis)
