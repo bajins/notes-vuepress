@@ -181,7 +181,9 @@
 
 * [FastStone Capture官网](https://www.faststone.org/download.htm)
 
-> 官网被屏蔽，官方下载地址：`http://www.faststonesoft.net/DN/FSCaptureSetup93.exe`两位数字是版本号
+> 官网被屏蔽，官方下载地址：`http://www.faststonesoft.net/DN/FSCaptureSetup版本号.exe`
+
+* [下载最新版本](http://www.faststonesoft.net/DN/FSCaptureSetup.exe)
 
 - 使用说明
 
