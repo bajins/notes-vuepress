@@ -19,14 +19,14 @@ actionLink: /#命令
 :::
 
 ::: tip
-如果觉得使用[VuePress](https://v1.vuepress.vuejs.org)不便，
+如果觉得使用[VuePress](https://vuepress.vuejs.org)不便，
 可使用静态博客写作客户端[gridea](https://github.com/getgridea/gridea)
 :::
 
 ## 目录结构
 
 ```
-// 官方标准目录结构 https://v1.vuepress.vuejs.org/zh/guide/directory-structure.html
+// 官方标准目录结构 https://vuepress.vuejs.org/zh/guide/directory-structure.html
 .
 │  package-lock.json    NPM依赖配置文件
 │  package.json         项目配置文件
@@ -53,7 +53,7 @@ actionLink: /#命令
 ```
 ### 也就是你只需要遵从以上目录结构来修改你自己的文档即可使用。
 ::: warning 注意
-配置文件中的注释文字部分，请结合[VuePress官方文档](https://v1.vuepress.vuejs.org/zh/config)一定理解其意义再修改配置！
+配置文件中的注释文字部分，请结合[VuePress官方文档](https://vuepress.vuejs.org/zh/config)一定理解其意义再修改配置！
 :::
 
 ## 命令

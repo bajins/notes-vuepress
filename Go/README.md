@@ -12,13 +12,21 @@
 
 * [https://gomirrors.org](https://gomirrors.org)
 
+* [https://github.com/golang](https://github.com/golang)
+
+* [https://go-zh.org](https://go-zh.org)
+
+* [Go 标准库中文文档](https://github.com/huangz1990/cngolib.com)
+
+* [https://github.com/taigacute/GoDoc-CN](https://github.com/taigacute/GoDoc-CN)
+
+* [https://github.com/golang-china/gopl-zh](https://github.com/golang-china/gopl-zh)
+
 * [Go 语言中文开源图书、资料或文档](https://books.studygolang.com)
 
 * [Go 开发者路线图](https://github.com/Quorafind/golang-developer-roadmap-cn)
 
 * [Go 学习之路](https://github.com/developer-learning/learning-golang)
-
-* [Go 标准库中文文档](http://cngolib.com)
 
 * [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang)
 
@@ -29,6 +37,7 @@
 * [模板语法指南](https://www.kancloud.cn/hello123/beego/126115)
 
 * [Go 入门指南](https://github.com/unknwon/the-way-to-go_ZH_CN)
+
 
 
 ## 开源项目

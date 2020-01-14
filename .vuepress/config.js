@@ -1,5 +1,5 @@
 const utils = require('./utils')
-// https://v1.vuepress.vuejs.org/zh/config
+// https://vuepress.vuejs.org/zh/config
 module.exports = {
     base: '/',
     // 额外的需要被注入到当前页面的 HTML <head> 中的标签
