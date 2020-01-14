@@ -98,6 +98,15 @@ update table1 set a = elt(floor(rand() * 4) + 1, 5, 7, 11, 13) where b = 84;
 SELECT 别名.* FROM (SELECT * FROM 表名 ORDER BY 字段 DESC) AS 别名 GROUP BY 别名.字段;
 ```
 
+### 删除重复值
+
+- 查询单个字段
+
+```sql
+DELETE FROM test WHERE id NOT IN(SELECT MIN(id) FROM images GROUP BY name)
+```
+
+
 ### 查询数据库中的存储过程
 
 ```sql
