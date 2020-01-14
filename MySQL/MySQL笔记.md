@@ -100,10 +100,20 @@ SELECT 别名.* FROM (SELECT * FROM 表名 ORDER BY 字段 DESC) AS 别名 GROUP
 
 ### 删除重复值
 
-- 查询单个字段
+**查询单个字段**
+
+- 方式一
 
 ```sql
 DELETE FROM test WHERE id NOT IN(SELECT MIN(id) FROM images GROUP BY name)
+```
+
+- 方式二
+
+```sql
+DELETE FROM test WHERE name 
+IN(SELECT name FROM test GROUP BY name HAVING COUNT(name)>1) 
+AND id NOT IN(SELECT MIN(id) FROM test GROUP BY name HAVING COUNT(name)>1)
 ```
 
 
