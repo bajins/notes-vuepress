@@ -375,6 +375,7 @@ git reset --hard origin/$git_branch
 git pull origin $git_branch
 
 # 安装依赖
+npm install -g yarn
 yarn install
 
 # 编译
