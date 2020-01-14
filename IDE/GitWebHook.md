@@ -297,7 +297,7 @@ if [ ! -n "$push_url" ]; then
     exit 1
 fi
 
-if [ ! -n "$push_user_mail" ]; then
+if [ ! -n "$push_user_email" ]; then
     echo "请设置Git推送用户邮箱"
     exit 1
 fi
