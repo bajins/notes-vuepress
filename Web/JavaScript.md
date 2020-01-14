@@ -81,6 +81,8 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 
 * [https://github.com/pixijs/pixi.js](https://github.com/pixijs/pixi.js)
 
+* [https://github.com/zenorocha/clipboard.js](https://github.com/zenorocha/clipboard.js)
+[http://www.clipboardjs.cn](http://www.clipboardjs.cn)
 
 
 ## CDN
