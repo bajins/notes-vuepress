@@ -282,7 +282,7 @@ ps -efww|grep LOCAL=chromedriver|grep -v grep|cut -c 9-15|xargs kill -9
 
 * [关于m3u8格式的视频文件ts转mp4下载和key加密问题](https://www.cnblogs.com/String-Lee/p/11391893.html)
 
-* [将TS转换为MP4](https://gist.githubusercontent.com/larvata/95df619df7109d8b74d2b965a3266354/raw)
+* [将TS转换为MP4](https://gist.github.com/larvata/95df619df7109d8b74d2b965a3266354)
 
 
 

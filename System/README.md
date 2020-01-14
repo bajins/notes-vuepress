@@ -273,8 +273,6 @@
 
 * [https://github.com/Sean-Snow/good-good-study-day-day-up](https://github.com/Sean-Snow/good-good-study-day-day-up)
 
-* [https://gist.githubusercontent.com/2dust/d3cc2d0e591e647db226731ffcb7da9e/raw](https://gist.githubusercontent.com/2dust/d3cc2d0e591e647db226731ffcb7da9e/raw)
-
 
 ---
 
