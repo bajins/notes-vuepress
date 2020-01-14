@@ -14,7 +14,7 @@ module.exports = [
                         link: 'https://www.woetu.com'
                     },
                     {
-                        text: '获取激活key',
+                        text: '获取XShell',
                         link: 'https://key.woytu.com'
                     },
                     {
