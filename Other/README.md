@@ -31,6 +31,8 @@
 
 * [https://www.uedbox.com/share](https://www.uedbox.com/share)
 
+* [showdoc](https://github.com/star7th/showdoc)
+
 
 
 **wikipedia**
@@ -52,7 +54,7 @@
 * [https://www.v2ex.com/t/623109](https://www.v2ex.com/t/623109)
 
 
-**技术书籍**
+**技术书籍和手册**
 
 * [互联网上的免费书籍](https://github.com/ruanyf/free-books)
 
@@ -62,12 +64,11 @@
 
 * [https://mm.edrawsoft.cn/community/15/1](https://mm.edrawsoft.cn/community/15/1)
 
-* [showdoc](https://github.com/star7th/showdoc)
-
 * [收集整理下一些软件或系统的官方手册](https://www.haiyun.me/doc.html)
 
 * [http://wiki.jikexueyuan.com](http://wiki.jikexueyuan.com)
 
+* [https://cloud.tencent.com/developer/devdocs](https://cloud.tencent.com/developer/devdocs)
 
 
 **很棒的项目**
