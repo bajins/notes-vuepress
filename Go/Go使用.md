@@ -415,6 +415,15 @@ func HttpClient(method, urlText, contentType string, params map[string]string) (
 
 ## 作业调度
 
+> `ticker`只要定义完成，从此刻开始计时，不需要任何其他的操作，每隔固定时间都会触发。
+
+> `timer`定时器，是到固定时间后会执行一次
+
+> 如果timer定时器要每隔间隔的时间执行，实现ticker的效果，使用 func (t *Timer) Reset(d Duration) bool
+
+* [go timer 和 ticker 的区别](https://learnku.com/articles/23578/the-difference-between-go-timer-and-ticker)
+
+
 - 不固定某个时间，滚动间隔时间执行
 
 ```go
@@ -424,7 +433,7 @@ func SchedulerIntervalsTimer(f func(), duration time.Duration) {
 		go func() {
 			f()
 		}()
-		// 定时任务
+		// 创建一个 Timer，它会在最少过去时间段 d后到期，向其自身的 C 字段发送当时的时间
 		ticker := time.NewTicker(duration)
 		<-ticker.C
 	}
@@ -457,7 +466,7 @@ func SchedulerIntervalsTimer(f func(), duration time.Duration) {
 ```
 
 
-- 以后在指定的时间执行
+- 固定在指定的时间执行
 
 ```go
 // 启动的时候执行一次，固定在每天的某个时间滚动执行

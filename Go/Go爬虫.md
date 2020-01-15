@@ -30,16 +30,41 @@
 
 **该组织下有以下项目**
 
-* [https://github.com/chromedp/chromedp](https://github.com/chromedp/chromedp)
+- `https://github.com/chromedp/chromedp`
 
-* [https://github.com/chromedp/cdproto](https://github.com/chromedp/cdproto)
+> [https://godoc.org/github.com/chromedp/chromedp](https://godoc.org/github.com/chromedp/chromedp)
 
-> "github.com/chromedp/cdproto/cdp" `cdp.TimeSinceEpoch(time.Now().Add(180 * 24 * time.Hour))`
+- `https://github.com/chromedp/cdproto-gen`
 
-> "github.com/chromedp/cdproto/network" 网络处理，比如启用启用网络跟踪，现在将网络事件传递给客户端`network.Enable()`
+> 生成用于[Chrome DevTools](https://chromedevtools.github.io/devtools-protocol)协议的命令，事件和类型的Go代码
 
-> "github.com/chromedp/cdproto/page" chrome页面处理，
+- `https://github.com/chromedp/cdproto`
+
+> 包含针对[Chrome DevTools](https://chromedevtools.github.io/devtools-protocol)协议域生成的命令，类型和事件 
+
+> [https://godoc.org/github.com/chromedp/cdproto](https://godoc.org/github.com/chromedp/cdproto)
+
+
+**`cdproto`下有以下包**
+
+- `github.com/chromedp/cdproto/cdp` 
+
+> `cdp.TimeSinceEpoch(time.Now().Add(180 * 24 * time.Hour))`
+
+- `github.com/chromedp/cdproto/network` 网络处理
+
+> 比如启用启用网络跟踪，现在将网络事件传递给客户端`network.Enable()`
+
+- `github.com/chromedp/cdproto/page` chrome页面处理
+
 > 比如设置下载`page.SetDownloadBehavior(page.SetDownloadBehaviorBehaviorDeny)`
+
+- `github.com/chromedp/cdproto/target` 操作标签页
+
+> `newCtx, cancel := chromedp.NewContext(ctx, chromedp.WithTargetID(target.ID(target.CreateTarget(url).BrowserContextID)))`
+> 在当前浏览器实例创建打开新的标签页及上下文 [Target.createTarget](https://chromedevtools.github.io/devtools-protocol/tot/Target#method-createTarget)
+
+> `chromedp.Targets(ctx)` 获取浏览器实例的标签页信息列表
 
 
 
