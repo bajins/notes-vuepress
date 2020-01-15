@@ -133,7 +133,9 @@ chrome://flags/#enable-parallel-downloading
 
 * [阅读模式：reader-view](https://chrome.google.com/webstore/detail/reader-view/iibolhpkjjmoepndefdmdlmbpfhlgjpl)
 
-* [阅读模式：just-read](https://justread.link)
+* [阅读模式：just-read](https://github.com/ZachSaucier/Just-Read)
+
+* [https://github.com/rNeomy/reader-view](https://github.com/rNeomy/reader-view)
 
 * [保存一个链接列表，以便稍后阅读：reading-list](https://github.com/alexpdraper/reading-list)
 
