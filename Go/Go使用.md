@@ -343,6 +343,76 @@ resp.Request.ParseMultipartForm(1024)
 ```
 
 
+```go
+// http.Client发送请求，此方式是封装的http.NewRequest方法
+//
+// method:	请求方法：POST、GET、PUT、DELETE
+// urlText:		请求地址
+// contentType: 请求数据类型，首字母简写，如：axwfu
+// params:	请求参数
+func HttpClient(method, urlText, contentType string, params map[string]string) (*http.Response, error) {
+	if urlText == "" {
+		panic(errors.New("url不能为空"))
+	}
+	client := http.Client{Timeout: 30 * time.Second}
+
+	var resp *http.Response
+	var err error
+
+	method = strings.ToUpper(method)
+	if method == "POST" {
+		if params != nil {
+			switch contentType {
+			case "axwfu": // application/x-www-form-urlencoded
+				data := make(url.Values)
+				for k, v := range params {
+					data[k] = []string{v}
+				}
+				resp, err = client.PostForm(urlText, data)
+			case "mf": // multipart/form-data
+				data := url.Values{}
+				for k, v := range params {
+					data.Set(k, v)
+				}
+				resp, err = client.PostForm(urlText, data)
+			case "tx": // text/xml
+				jsonStr, err := json.Marshal(params)
+				if err != nil {
+					return nil, err
+				}
+				data := strings.ReplaceAll(string(jsonStr), " ", "+")
+				resp, err = client.Post(urlText, contentType, bytes.NewBuffer([]byte(data)))
+			default: // application/json
+				jsonStr, err := json.Marshal(params)
+				if err != nil {
+					return nil, err
+				}
+				resp, err = client.Post(urlText, "application/json", bytes.NewBuffer(jsonStr))
+			}
+		} else {
+			resp, err = client.Post(urlText, contentType, nil)
+		}
+	} else {
+		if params != nil {
+			urlText = urlText + "?"
+			for key, value := range params {
+				urlText += key + "=" + value + "&"
+			}
+		}
+		// url编码
+		//urlText=urlText.QueryEscape(urlText)
+		if method == "HEAD" {
+			resp, err = client.Head(urlText)
+		} else {
+			resp, err = client.Get(urlText)
+		}
+	}
+	return resp, err
+}
+```
+
+
+
 ## 作业调度
 
 - 不固定某个时间，滚动间隔时间执行
