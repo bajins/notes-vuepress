@@ -40,6 +40,8 @@
 
 * [golang 学习笔记](https://sushengbuhuo.github.io/2019/03/18/golang-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0)
 
+* [https://doc.xuwenliang.com/docs/go](https://doc.xuwenliang.com/docs/go)
+
 
 ## 开源项目
 
