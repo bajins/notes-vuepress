@@ -512,7 +512,6 @@ pip install sqlalchemy
 
 
 
-
 ## gc
 
 * [https://docs.python.org/zh-cn/3.8/library/gc.html](https://docs.python.org/zh-cn/3.8/library/gc.html)
@@ -571,5 +570,157 @@ top_stats = snapshot.statistics('lineno')  # 快照对象的统计
 [print(stat) for stat in top_stats]
 ```
 
+
+
+
+## HTTP
+
+**提交form-data表单**
+
+
+- 通过`files`参数传递`form-data`
+
+```python
+import requests
+
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) " \
+             "Chrome/77.0.3865.75 Safari/537.36 "
+
+
+if __name__ == '__main__':
+    data = {
+        "_wpcf7": (None, "3016"),
+        "_wpcf7_version": (None, "5.1.1"),
+        "_wpcf7_locale": (None, "en_US"),
+        "_wpcf7_unit_tag": (None, "wpcf7-f3016-p4203-o2"),
+        "_wpcf7_container_post": (None, "4203"),
+        "g-recaptcha-response": (None, ""),
+        "md": (None, "setDownload"),
+        "language": (None, "3"),
+        "downloadType": (None, "0"),
+        "licenseType": (None, "0"),
+        "action": (None, "/json/download/process.html"),
+        "user-name": (None, "nb7ospo00@shorttimemail.com"),
+        "email": (None, "nb7ospo00@shorttimemail.com"),
+        "company": (None, ""),
+        "productName": (None, "xshell-download"),
+    }
+    res = requests.post("https://www.netsarang.com/json/download/process.html", files=data,
+                        headers={"User-Agent": USER_AGENT}, verify=False, timeout=600)
+    print(res.text)
+```
+
+- 手动组建`form-data`并加上`headers`
+
+```python
+import requests
+
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) " \
+             "Chrome/77.0.3865.75 Safari/537.36 "
+
+
+if __name__ == '__main__':
+    data = {
+        "_wpcf7": "3016",
+        "_wpcf7_version": "5.1.1",
+        "_wpcf7_locale": "en_US",
+        "_wpcf7_unit_tag": "wpcf7-f3016-p4203-o2",
+        "_wpcf7_container_post": "4203",
+        "g-recaptcha-response": "",
+        "md": "setDownload",
+        "language": "3",
+        "downloadType": "0",
+        "licenseType": "0",
+        "action": "/json/download/process.html",
+        "user-name": "nb7ospo00@shorttimemail.com",
+        "email": "nb7ospo00@shorttimemail.com",
+        "company": "",
+        "productName": "xshell-download",
+    }
+    payload = ""
+    boundary = "------WebKitFormBoundary67TaDgLkWD9HrhlW"
+        for k, v in data.items():
+            payload += f"{boundary}\r\nContent-Disposition: form-data; name=\"{k}\"\r\n\r\n{v}\r\n"
+    payload += f"{boundary}--"
+    res = requests.post("https://www.netsarang.com/json/download/process.html", payload,
+                        headers={
+                            "User-Agent": USER_AGENT,
+                            "Content-Type": f"multipart/form-data; boundary=----WebKitFormBoundary67TaDgLkWD9HrhlW"
+                        }, verify=False, timeout=600)
+    print(res.text)
+```
+
+- 使用`encode_multipart_formdata`
+
+```python
+from urllib3 import encode_multipart_formdata
+import requests
+
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) " \
+             "Chrome/77.0.3865.75 Safari/537.36 "
+
+
+if __name__ == '__main__':
+    data = {
+        "_wpcf7": "3016",
+        "_wpcf7_version": "5.1.1",
+        "_wpcf7_locale": "en_US",
+        "_wpcf7_unit_tag": "wpcf7-f3016-p4203-o2",
+        "_wpcf7_container_post": "4203",
+        "g-recaptcha-response": "",
+        "md": "setDownload",
+        "language": "3",
+        "downloadType": "0",
+        "licenseType": "0",
+        "action": "/json/download/process.html",
+        "user-name": "nb7ospo00@shorttimemail.com",
+        "email": "nb7ospo00@shorttimemail.com",
+        "company": "",
+        "productName": "xshell-download",
+    }
+    # 注意这里的 - 符号的数量，默认有两个
+    (payload, content_type) = encode_multipart_formdata(data, boundary='----WebKitFormBoundary67TaDgLkWD9HrhlW')
+    res = requests.post("https://www.netsarang.com/json/download/process.html", payload,
+                        headers={"User-Agent": HttpUtil.USER_AGENT, "Content-Type": content_type}, verify=False,
+                        timeout=600)
+    print(res.text)
+```
+
+- 使用`requests-toolbelt`
+
+```python
+# pip install requests-toolbelt
+from requests_toolbelt import MultipartEncoder
+import requests
+
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) " \
+             "Chrome/77.0.3865.75 Safari/537.36 "
+
+
+if __name__ == '__main__':
+    me = MultipartEncoder(
+        fields={
+            "_wpcf7": "3016",
+            "_wpcf7_version": "5.1.1",
+            "_wpcf7_locale": "en_US",
+            "_wpcf7_unit_tag": "wpcf7-f3016-p4203-o2",
+            "_wpcf7_container_post": "4203",
+            "g-recaptcha-response": "",
+            "md": "setDownload",
+            "language": "3",
+            "downloadType": "0",
+            "licenseType": "0",
+            "action": "/json/download/process.html",
+            "user-name": "nb7ospo00@shorttimemail.com",
+            "email": "nb7ospo00@shorttimemail.com",
+            "company": "",
+            "productName": "xshell-download",
+        }
+    )
+    res = requests.post("https://www.netsarang.com/json/download/process.html", me,
+                        headers={"User-Agent": USER_AGENT, "Content-Type": me.content_type}, verify=False,
+                        timeout=600)
+    print(res.text)
+```
 
 
