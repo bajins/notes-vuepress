@@ -336,7 +336,7 @@ func test() {
 ```
 
 
-## http
+## HTTP
 
 * [关于golang 的readall清空reader](https://www.jianshu.com/p/2ecda118336f)
 
