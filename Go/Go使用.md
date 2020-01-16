@@ -374,16 +374,24 @@ func HttpClient(method, urlText, contentType string, params map[string]string) (
 			switch contentType {
 			case "axwfu": // application/x-www-form-urlencoded
 				data := make(url.Values)
+				//data := url.Values{}
 				for k, v := range params {
 					data[k] = []string{v}
+					//data.Set(k, v)
 				}
 				resp, err = client.PostForm(urlText, data)
 			case "mf": // multipart/form-data
-				data := url.Values{}
-				for k, v := range params {
-					data.Set(k, v)
-				}
-				resp, err = client.PostForm(urlText, data)
+				bodyBuf := &bytes.Buffer{}
+                writer := multipart.NewWriter(bodyBuf)
+                for k, v := range params {
+                    if err = writer.WriteField(k, v); err != nil {
+                        return nil, err
+                    }
+                }
+                if err = writer.Close(); err != nil {
+                    return nil, err
+                }
+				resp, err = client.Post(urlText, writer.FormDataContentType(), bodyBuf)
 			case "tx": // text/xml
 				jsonStr, err := json.Marshal(params)
 				if err != nil {
