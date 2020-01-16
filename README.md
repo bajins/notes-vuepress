@@ -1,6 +1,6 @@
 ---
 home: true
-//heroImage: /hero.png
+heroImage: /images/icons/小C技术栈_扫码_搜索-标准色版.png
 actionText: 快速上手 →
 actionLink: /#命令
 ---

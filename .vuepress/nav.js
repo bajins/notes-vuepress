@@ -6,7 +6,7 @@ module.exports = [
                 // text: '',
                 items: [
                     {
-                        text: '绿色网盘',
+                        text: '个人网盘',
                         link: 'https://www.woytu.com',
                     },
                     {
