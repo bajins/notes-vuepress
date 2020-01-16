@@ -369,7 +369,7 @@ func HttpClient(method, urlText, contentType string, params map[string]string) (
 	var err error
 
 	method = strings.ToUpper(method)
-	if method == "POST" {
+	if method == http.MethodPost {
 		if params != nil {
 			switch contentType {
 			case "axwfu": // application/x-www-form-urlencoded
