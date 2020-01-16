@@ -420,16 +420,14 @@ autorestart=true
 
 
 
-## Linux之间传输文件
+## 传输文件
 
-> 首先进入需要搭建web服务器的目录，然后在输入下面的命令
->
-> 注意：不填端口号则默认使用8000端口。
+> 首先进入需要搭建web服务器的目录，然后在输入下面的命令，端口号默认`8000`
 
 ```bash
-# linux
+# python2.7
 python -m SimpleHTTPServer port
-# windows
+# python3.x
 python -m http.server port
 
 # 服务开启后，地址协议类型加IP/目录下的文件： 
