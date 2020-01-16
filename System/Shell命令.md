@@ -662,35 +662,3 @@ cd ..
 cd .
 ```
 
-
-
-## tar
-
-```bash
-# 打包的时候我们要排除 tomcat/logs 目录，命令如下：
-tar -zcvf tomcat.tar.gz --exclude=tomcat/logs tomcat
-
-# 如果要排除多个目录，增加 --exclude 即可，如下命令排除logs和libs两个目录及文件xiaoshan.txt
-tar -zcvf tomcat.tar.gz --exclude=tomcat/logs --exclude=tomcat/libs --exclude=tomcat/xiaoshan.txt tomcat
-```
-
-> 注意：在使用`tar`的`--exclude`命令排除打包时，末尾不能加`/`或者路径为绝对路径，否则还是会把排除目录以及其下的文件打包进去。
-
-## 7zip
-
-```bash
-# 安装7zip
-yum –y install p7zip
-# 解压到当前目录下,不保留原来的目录结构
-7za e 文件名
-# 解压到当前目录下,但保留原来的目录结构
-7za x 文件名
-
-# 用7z压缩成tar
-7za a -ttar 文件名.tar 文件夹
-# 用7z把tar压缩成gz
-7za a -tgzip 文件名.tar.gz 文件名.tar
-```
-
-
-
