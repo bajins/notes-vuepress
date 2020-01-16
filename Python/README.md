@@ -638,15 +638,13 @@ if __name__ == '__main__':
         "productName": "xshell-download",
     }
     payload = ""
-    boundary = "------WebKitFormBoundary67TaDgLkWD9HrhlW"
+    boundary = "----WebKitFormBoundary67TaDgLkWD9HrhlW"
         for k, v in data.items():
-            payload += f"{boundary}\r\nContent-Disposition: form-data; name=\"{k}\"\r\n\r\n{v}\r\n"
+            payload += f"--{boundary}\r\nContent-Disposition: form-data; name=\"{k}\"\r\n\r\n{v}\r\n"
     payload += f"{boundary}--"
     res = requests.post("https://www.netsarang.com/json/download/process.html", payload,
-                        headers={
-                            "User-Agent": USER_AGENT,
-                            "Content-Type": f"multipart/form-data; boundary=----WebKitFormBoundary67TaDgLkWD9HrhlW"
-                        }, verify=False, timeout=600)
+                        headers={"User-Agent": USER_AGENT,"Content-Type": f"multipart/form-data; boundary={boundary}"},
+                        verify=False, timeout=600)
     print(res.text)
 ```
 
