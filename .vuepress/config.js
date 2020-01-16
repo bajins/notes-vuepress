@@ -17,8 +17,10 @@ module.exports = {
     ],
     theme: '',
     // 指定 VuePress build 的输出目录。如果传入的是相对路径，则会基于 process.cwd() 进行解析。
-    // 与package.json中的scripts配置编译路径配合使用
+    // 与package.json中的scripts配置编译路径配合使用 https://vuepress.vuejs.org/zh/api/cli.html
     dest: './docs',
+    // temp: './.temp',
+    // cache: 'false',
     locales: {
         // 键名是该语言所属的子路径
         // 作为特例，默认语言可以使用 '/' 作为其路径。
