@@ -639,8 +639,8 @@ if __name__ == '__main__':
     }
     payload = ""
     boundary = "----WebKitFormBoundary67TaDgLkWD9HrhlW"
-        for k, v in data.items():
-            payload += f"--{boundary}\r\nContent-Disposition: form-data; name=\"{k}\"\r\n\r\n{v}\r\n"
+    for k, v in data.items():
+        payload += f"--{boundary}\r\nContent-Disposition: form-data; name=\"{k}\"\r\n\r\n{v}\r\n"
     payload += f"{boundary}--"
     res = requests.post("https://www.netsarang.com/json/download/process.html", payload,
                         headers={"User-Agent": USER_AGENT,"Content-Type": f"multipart/form-data; boundary={boundary}"},
