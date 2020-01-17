@@ -260,7 +260,7 @@
 # 获取主窗口句柄
 main_window = driver.current_window_handle
 # 通过执行js打开新标签页并访问url
-driver.excute_script(f"window.open('{url}')")
+driver.execute_script(f"window.open('{url}')")
 # 在新选项卡中打开空白页面
 #driver.execute_script(f"window.open('','_blank')")
 # 获取当前所有窗口句柄（窗口A、B），并切换到新标签页
