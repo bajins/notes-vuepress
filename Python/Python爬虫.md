@@ -177,8 +177,13 @@
 
 * [`selenium`+`chromedriver`+`BeautifulSoup`](https://github.com/woytu/tool-gui-python/blob/master/utils/ReptileUtil.py)
 
+* [Python3-Selenium开启自动化测试](http://qzmvc1.top/Python3-Selenium%E5%BC%80%E5%90%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95.html)
 
 * [python+selenium 判断元素是否存在，是否可点击，是否被选中](https://www.twblogs.net/a/5c8414bdbd9eee35cd69c929/zh-cn)
+
+* [EC：expected_conditions判断页面元素](https://www.jianshu.com/p/a94918d49c3c)
+
+
 
 
 ### 函数或变量
