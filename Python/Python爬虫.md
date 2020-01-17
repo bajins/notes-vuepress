@@ -258,16 +258,32 @@
 
 ```python
 # 通过执行js打开新标签页并访问url
-driver.excute_script(f"winsow.open({info_url})")
+driver.excute_script(f"window.open('{url}')")
 # 关闭当前窗口。
 driver.close()
+```
 
+**使用组合键**
+
+> 该方式在Chrome下无效
+
+> 在增加了设置下载路径代码后，无法打开新标签页，但是捕获到的handler是两个，可以进行切换，只是没有切换动态效果了，实际是切换了的
+
+> `OSX`操作系统通过组合键<kbd>COMMAND</kbd> + <kbd>T</kbd>或<kbd>COMMAND</kbd> + <kbd>W</kbd>来实现选项卡的打开/关闭
+
+> 在其他操作系统上，可以使用<kbd>CONTROL</kbd> + <kbd>T</kbd> / <kbd>CONTROL<kbd> + <kbd>W</kbd>
+
+```python
 # windows 用Keys.CONTROL 如同ctrl+t打开新标签页
-driver.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 't')
+driver.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 't')
+# <CTRL> + <T>通过Action链发送
+# ActionChains(driver).key_down(Keys.CONTROL).send_keys("t").key_up(Keys.CONTROL).perform()
+# 获取当前所有窗口句柄（窗口A、B），并切换到新标签页
+driver.switch_to.window(driver.window_handles[-1])
 # 访问url
-driver.get(info_url)
+driver.get(url)
 # windows 用Keys.CONTROL 如同ctrl+w关闭标签页
-#driver.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 'w')
+#driver.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 'w')
 # 关闭当前窗口。
 driver.close()
 ```
