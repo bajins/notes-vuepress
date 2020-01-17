@@ -173,7 +173,12 @@
 
 * [https://selenium.dev/documentation/zh-cn](https://selenium.dev/documentation/zh-cn)
 
+* [Selenium with Python中文翻译文档](https://selenium-python-zh.readthedocs.io/en/latest/index.html)
+
 * [`selenium`+`chromedriver`+`BeautifulSoup`](https://github.com/woytu/tool-gui-python/blob/master/utils/ReptileUtil.py)
+
+
+* [python+selenium 判断元素是否存在，是否可点击，是否被选中](https://www.twblogs.net/a/5c8414bdbd9eee35cd69c929/zh-cn)
 
 
 ### 函数或变量
