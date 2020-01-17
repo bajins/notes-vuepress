@@ -9,6 +9,20 @@
 
 * [https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China](https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China)
 
+* [xvfb可以将屏幕的图像输出给放到虚拟内存中](https://blog.csdn.net/wkb342814892/article/details/81591394)
+
+- 批量杀死`chromedriver`进程
+
+```bash
+ps -efww|grep LOCAL=chromedriver|grep -v grep|cut -c 9-15|xargs kill -9
+```
+
+
+```batch
+taskkill /f /im chromedriver.exe
+```
+
+
 
 ## xpath和css选择器
 
@@ -339,19 +353,6 @@ driver.close()
 driver.execute_script( "var q=document.documentElement.scrollTop=10000" )
 # 通过 js 返回所有html
 driver.execute_script( "return document.documentElement.outerHTML" )
-```
-
-
-
-
-### 在CentOS中使用
-
-* [xvfb可以将屏幕的图像输出给放到虚拟内存中](https://blog.csdn.net/wkb342814892/article/details/81591394)
-
-- 批量杀死`chromedriver`进程
-
-```bash
-ps -efww|grep LOCAL=chromedriver|grep -v grep|cut -c 9-15|xargs kill -9
 ```
 
 
