@@ -73,7 +73,6 @@ tagId, err := tag.Do(ctx)
 ctx, cancel = chromedp.NewContext(ctx, chromedp.WithTargetID(tagId))
 ```
 
-
 > `chromedp.Targets(ctx)` 获取浏览器实例的标签页信息列表
 
 
