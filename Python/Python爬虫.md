@@ -288,7 +288,7 @@ driver.execute_script(f"window.open('{url}')")
 # 在新选项卡中打开空白页面
 #driver.execute_script(f"window.open('','_blank')")
 # 获取当前所有窗口句柄（窗口A、B），并切换到新标签页
-#driver.switch_to.window(driver.window_handles[-1])
+driver.switch_to.window(driver.window_handles[-1])
 # 访问url
 #driver.get(url)
 # 关闭当前窗口。
