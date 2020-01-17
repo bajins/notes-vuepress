@@ -257,6 +257,8 @@
 ### 打开新标签页
 
 ```python
+# 获取主窗口句柄
+main_window = driver.current_window_handle
 # 通过执行js打开新标签页并访问url
 driver.excute_script(f"window.open('{url}')")
 # 在新选项卡中打开空白页面
