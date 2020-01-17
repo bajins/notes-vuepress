@@ -95,6 +95,8 @@
 
 > `Headless Browser`(无头的浏览器)是没有图形用户界面(GUI)的web浏览器，通常是通过编程或命令行界面来控制的
 
+* [https://w3c.github.io/webdriver](https://w3c.github.io/webdriver)
+
 * [Headless Browser](https://www.jianshu.com/p/11d519e2d0cb)
 
 * [https://github.com/mozilla/geckodriver](https://github.com/mozilla/geckodriver)
@@ -123,44 +125,44 @@
 * [https://cs.chromium.org/chromium/src/content/public/common/content_switches.cc](https://cs.chromium.org/chromium/src/content/public/common/content_switches.cc)
 
 
-| 参数                                 	| 说明                                                                   	|
-|--------------------------------------	|------------------------------------------------------------------------	|
-| --blink-settings=imagesEnabled=false 	| 不加载图片, 提升速度                                                   	|
-| --bookmark-menu                      	| 在工具 栏增加一个书签按钮                                              	|
-| --default-browser-check              	| 不检查默认浏览器                                                       	|
-| --disable-extensions                 	| 禁用扩展                                                               	|
-| --disable-gpu                        	| 关闭gpu,服务器一般没有显卡                                             	|
-| --disable-images                     	| 禁用图像                                                               	|
-| --disable-java                       	| 禁用java                                                               	|
-| --disable-javascript                 	| 禁用Javascript                                                         	|
-| --disable-plugins                    	| 禁止加载所有插件，可以增加速度。可以通过about:plugins页面查看效果      	|
-| --disable-popup-blocking             	| 禁用弹出拦截                                                           	|
-| --disable-software-rasterizer        	| 禁用插件                                                               	|
-| --disk-cache-dir="绝对路径"          	| 指定Cache路径                                                          	|
-| --disk-cache-size=                   	| 指定Cache大小，单位Byte                                                	|
-| --enable-sync                        	| 启用书签同步                                                           	|
-| --enable-udd-profiles                	| 启用账户切换菜单                                                       	|
-| --first run                          	| 重置到初始状态，第一次运行                                             	|
-| --headless                           	| 不开启图像界面                                                         	|
-| --hide-scrollbars                    	| 隐藏滚动条, 应对一些特殊页面                                           	|
-| --ignore-certificate-errors          	| 忽略证书错误                                                           	|
-| --incognito                          	| 进入隐身模式——保证浏览网页时，不留下任何痕迹。                         	|
-| --in-process-plugins                 	| 插件不以独立的进程运行，插件的异常崩溃，可能会导致整个页面挂掉         	|
-| --lang=zh-CN                         	| 设置语言为简体中文                                                     	|
-| --media-cache-size                   	| 自定义多媒体缓存最大值（单位byte）                                     	|
-| --no-first-run                       	| 第一次不运行                                                           	|
-| --no-sandbox                         	| 不开启沙盒模式可以减少对服务器的资源消耗,但是服务器安全性降低          	|
-| --omnibox-popup-count="数字"         	| 指出多功能地址栏的弹出菜单数量                                         	|
-| --process-per-site                   	| 每个站点使用单独进程                                                   	|
-| --process-per-tab                    	| 每个标签使用单独进程                                                   	|
-| --proxy-pac-url                      	| 指定使用PAC代理时，所需要的脚本url地址                                 	|
-| --remote-debugging-address           	| 远程调试地址 0.0.0.0 可以外网调用但是安全性低,建议使用默认值 127.0.0.1 	|
-| --remote-debugging-port              	| chrome-debug工具的端口(golang chromepd 默认端口是9222,建议不要修改)    	|
-| --single-process                     	| 浏览器只能以单进程运行，通常用于调试，定位bug                          	|
-| --start-maximized                    	| 浏览器启动后，窗口默认为最大化                                         	|
-| --user-agent=""                      	| 修改HTTP请求头部的Agent字符串，可以通过about:version页面查看修改效果   	|
-| --user-data-dir="绝对路径"           	| 指定用户文件夹路径，把书签这样的用户数据保存在系统分区以外的分区。     	|
-| --window-size="1600x900"             	| 窗口尺寸                                                               	|
+| 参数                                	| 说明                                                                   	|
+|-------------------------------------	|------------------------------------------------------------------------	|
+| -blink-settings=imagesEnabled=false 	| 不加载图片, 此方式只针对单个标签页                                     	|
+| -bookmark-menu                      	| 在工具 栏增加一个书签按钮                                              	|
+| -default-browser-check              	| 不检查默认浏览器                                                       	|
+| -disable-extensions                 	| 禁用扩展                                                               	|
+| -disable-gpu                        	| 关闭gpu,服务器一般没有显卡                                             	|
+| -disable-images                     	| 禁用图像，建议使用"profile.managed_default_content_settings.images":2   |
+| -disable-java                       	| 禁用java                                                               	|
+| -disable-javascript                 	| 禁用Javascript                                                         	|
+| -disable-plugins                    	| 禁止加载所有插件。可以通过about:plugins页面查看效果                    	|
+| -disable-popup-blocking             	| 禁用弹出拦截                                                           	|
+| -disable-software-rasterizer        	| 禁用浏览器应用                                                         	|
+| -disk-cache-dir="[PATH]"            	| 指定缓存Cache路径                                                      	|
+| -disk-cache-size=                   	| 指定Cache大小，单位Byte                                                	|
+| -enable-sync                        	| 启用书签同步                                                           	|
+| -enable-udd-profiles                	| 启用账户切换菜单                                                       	|
+| -first run                          	| 重置到初始状态，第一次运行                                             	|
+| -headless                           	| 不开启图像界面                                                         	|
+| -hide-scrollbars                    	| 隐藏滚动条, 应对一些特殊页面                                           	|
+| -ignore-certificate-errors          	| 忽略证书错误                                                           	|
+| -incognito                          	| 隐身模式启动                                                           	|
+| -in-process-plugins                 	| 插件不以独立的进程运行，插件的异常崩溃，可能会导致整个页面挂掉         	|
+| -lang=zh-CN                         	| 设置语言为简体中文                                                     	|
+| -media-cache-size                   	| 自定义多媒体缓存最大值（单位byte）                                     	|
+| -no-first-run                       	| 第一次不运行                                                           	|
+| -no-sandbox                         	| 不开启沙盒模式可以减少对服务器的资源消耗,但是服务器安全性降低          	|
+| -omnibox-popup-count="num"          	| 将地址栏弹出的提示菜单数量改为num个。我都改为15个了。                  	|
+| -process-per-site                   	| 每个站点使用单独进程                                                   	|
+| -process-per-tab                    	| 每个标签使用单独进程                                                   	|
+| -proxy-pac-url                      	| 指定使用PAC代理时，所需要的脚本url地址                                 	|
+| -remote-debugging-address           	| 远程调试地址 0.0.0.0 可以外网调用但是安全性低,建议使用默认值 127.0.0.1 	|
+| -remote-debugging-port              	| chrome-debug工具的端口(golang chromepd 默认端口是9222,建议不要修改)    	|
+| -single-process                     	| 浏览器只能以单进程运行，通常用于调试，定位bug                          	|
+| -start-maximized                    	| 浏览器启动后，窗口默认为最大化                                         	|
+| -user-agent=""                      	| 修改HTTP请求头部的Agent字符串，可以通过about:version页面查看修改效果   	|
+| -user-data-dir="[PATH]"             	| 指定用户文件夹User Data路径。                                          	|
+| -window-size="1600x900"             	| 窗口尺寸                                                               	|
 
 
 
@@ -259,6 +261,8 @@
 
 * [https://github.com/SeleniumHQ/selenium/issues/5722](https://github.com/SeleniumHQ/selenium/issues/5722)
 
+* [https://github.com/SeleniumHQ/selenium/issues/5159](https://github.com/SeleniumHQ/selenium/issues/5159)
+
 ```python
 # 向Selenium Webwdriver添加对Chrome "send_command"的支持
 driver.command_executor._commands["send_command"] = ("POST", '/session/$sessionId/chromium/send_command')
@@ -317,6 +321,16 @@ driver.get(url)
 # 关闭当前窗口。
 driver.close()
 ```
+
+### 执行JavaScript
+
+```python
+# 通过 js 移动到最下
+driver.execute_script( "var q=document.documentElement.scrollTop=10000" )
+# 通过 js 返回所有html
+driver.execute_script( "return document.documentElement.outerHTML" )
+```
+
 
 
 
