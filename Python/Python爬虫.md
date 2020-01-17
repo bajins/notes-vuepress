@@ -254,7 +254,23 @@
 | def log_types(self):                                                   	|      	|
 | def get_log(self, log_type):                                           	|      	|
 
+### 打开新标签页
 
+```python
+# 通过执行js打开新标签页并访问url
+driver.excute_script(f"winsow.open({info_url})")
+# 关闭当前窗口。
+driver.close()
+
+# windows 用Keys.CONTROL 如同ctrl+t打开新标签页
+driver.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 't')
+# 访问url
+driver.get(info_url)
+# windows 用Keys.CONTROL 如同ctrl+w关闭标签页
+#driver.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 'w')
+# 关闭当前窗口。
+driver.close()
+```
 
 
 
