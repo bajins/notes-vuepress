@@ -267,6 +267,8 @@ driver.excute_script(f"window.open('{url}')")
 #driver.get(url)
 # 关闭当前窗口。
 driver.close()
+# 关闭新选项卡后回到主窗口，必须做这一步，否则会引发错误
+driver.switch_to_window(main_window)
 ```
 
 **使用组合键**
