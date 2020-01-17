@@ -9,7 +9,7 @@
 
 * [https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China](https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China)
 
-**[xpath和css选择器](/Python/Python爬虫.md#xpath和css选择器)**
+**[xpath和css选择器](/Web/README.md#xpath和css选择器)**
 
 **[HeadlessBrowser](/Python/Python爬虫.md#headlessbrowser)**
 
