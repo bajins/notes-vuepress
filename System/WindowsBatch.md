@@ -20,6 +20,10 @@
 
 * [Windows 10/8/7的Rundll32命令列表](https://www.thewindowsclub.com/rundll32-shortcut-commands-windows)
 
+* [https://gitlab.com/jarv/cmdchallenge](https://gitlab.com/jarv/cmdchallenge)
+[https://cmdchallenge.com](https://cmdchallenge.com)
+
+
 ---
 
 * [添加快捷方式](/files/添加快捷方式.bat)
