@@ -81,6 +81,15 @@
 
 
 
+**反爬虫**
+
+* [https://github.com/antoinevastel/fpscanner](https://github.com/antoinevastel/fpscanner)
+
+* [https://github.com/ta7sudan/secan](https://github.com/ta7sudan/secan)
+
+* [前端如何检测Chrome-Headless不被爬虫虐](https://mlln.cn/2019/07/05/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%A3%80%E6%B5%8BChrome-Headless%E4%B8%8D%E8%A2%AB%E7%88%AC%E8%99%AB%E8%99%90)
+
+
 ## 依赖管理
 
 
