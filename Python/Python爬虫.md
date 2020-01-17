@@ -169,9 +169,9 @@
 
 * [https://github.com/SeleniumHQ](https://github.com/SeleniumHQ)
 
-* [`selenium`+`chromedriver`+`BeautifulSoup`](https://github.com/woytu/tool-gui-python/blob/master/utils/ReptileUtil.py)
+* [https://selenium.dev/documentation/zh-cn](https://selenium.dev/documentation/zh-cn)
 
-* [禁用浏览器下载](https://github.com/TheBrainFamily/chimpy/issues/108#issuecomment-512836924)
+* [`selenium`+`chromedriver`+`BeautifulSoup`](https://github.com/woytu/tool-gui-python/blob/master/utils/ReptileUtil.py)
 
 
 ### 函数或变量
@@ -253,6 +253,26 @@
 | def application_cache(self):                                           	|      	|
 | def log_types(self):                                                   	|      	|
 | def get_log(self, log_type):                                           	|      	|
+
+
+## 浏览器下载设置
+
+* [https://github.com/SeleniumHQ/selenium/issues/5722](https://github.com/SeleniumHQ/selenium/issues/5722)
+
+```python
+# 向Selenium Webwdriver添加对Chrome "send_command"的支持
+driver.command_executor._commands["send_command"] = ("POST", '/session/$sessionId/chromium/send_command')
+# allow自动、deny禁止、default默认
+params = {'cmd': 'Page.setDownloadBehavior', 'params': {'behavior': 'deny', 'downloadPath': "D:\\"}}
+driver.execute("send_command", params)
+```
+
+```python
+driver.execute_cdp_cmd("Page.setDownloadBehavior", {'behavior': 'deny', 'downloadPath': "D:\\"})
+```
+
+
+
 
 ### 打开新标签页
 
