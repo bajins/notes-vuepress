@@ -9,9 +9,12 @@
 
 * [https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China](https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China)
 
-**[xpath和css选择器](/Python/Python爬虫.md#xpath和css选择器)**
+**[xpath和css选择器](/Web/README.md#xpath和css选择器)**
 
 **[HeadlessBrowser](/Python/Python爬虫.md#headlessbrowser)**
+
+
+* [chromedp反爬虫](https://github.com/chromedp/chromedp/issues/396)
 
 
 ## HTML解析
@@ -59,10 +62,19 @@
 
 > 比如设置下载`page.SetDownloadBehavior(page.SetDownloadBehaviorBehaviorDeny)`
 
-- `github.com/chromedp/cdproto/target` 操作标签页
+- `github.com/chromedp/cdproto/target` 操作标签页 [Target.createTarget](https://chromedevtools.github.io/devtools-protocol/tot/Target#method-createTarget)
 
-> `newCtx, cancel := chromedp.NewContext(ctx, chromedp.WithTargetID(target.ID(target.CreateTarget(url).BrowserContextID)))`
-> 在当前浏览器实例创建打开新的标签页及上下文 [Target.createTarget](https://chromedevtools.github.io/devtools-protocol/tot/Target#method-createTarget)
+```go
+// 根据url新建浏览器标签页
+tag := target.CreateTarget(url)
+// 新建浏览器标签页ID创建上下文，方式一
+ctx, cancel = chromedp.NewContext(ctx, chromedp.WithTargetID(target.ID(tag.BrowserContextID)))
+
+// 根据上下文，返回targetID-打开的页面的ID。
+tagId, err := tag.Do(ctx)
+// 新建浏览器标签页ID创建上下文，方式二
+ctx, cancel = chromedp.NewContext(ctx, chromedp.WithTargetID(tagId))
+```
 
 > `chromedp.Targets(ctx)` 获取浏览器实例的标签页信息列表
 
