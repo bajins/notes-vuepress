@@ -715,6 +715,12 @@ class RunnableThread implements Runnable {
 
 > Java语言并没有对协程的原生支持，但是某些开源框架模拟出了协程的功能
 
+
+* [异步时代-java的协程路在何方](https://www.cnblogs.com/tohxyblog/p/10712798.html)
+
+* [次时代Java编程（一）：Java里的协程](https://blog.csdn.net/qiansg123/article/details/80123051)
+
+
 * [java协程框架quasar和kotlin中的协程](http://kailing.pub/article/index/arcid/252.html)
 
 * [https://github.com/kilim/kilim](https://github.com/kilim/kilim)
