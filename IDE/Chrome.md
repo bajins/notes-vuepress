@@ -94,6 +94,8 @@ chrome://flags/#enable-parallel-downloading
 
 * [将完整的网页保存到单个HTML文件](https://github.com/gildas-lormeau/SingleFile)
 
+* [DFPM是用于检测浏览器指纹的浏览器扩展](https://github.com/freethenation/DFPM)
+
 
 
 ### 视图

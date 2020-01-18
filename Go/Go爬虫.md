@@ -14,7 +14,6 @@
 **[HeadlessBrowser](/Python/Python爬虫.md#headlessbrowser)**
 
 
-* [chromedp反爬虫](https://github.com/chromedp/chromedp/issues/396)
 
 
 ## HTML解析
