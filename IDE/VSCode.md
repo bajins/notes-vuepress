@@ -265,6 +265,12 @@
 
 > `ESLint`
 
+
+- XML格式化
+
+* [https://marketplace.visualstudio.com/items?itemName=mikeburgh.xml-format](https://marketplace.visualstudio.com/items?itemName=mikeburgh.xml-format)
+
+
 - Python插件
 
 1、 `autopep8`
