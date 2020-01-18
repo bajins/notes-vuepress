@@ -53,3 +53,19 @@
 | IN   | 逻辑输入     |
 | LIKE | 关系字符串匹配  |
 | OR   | 逻辑或      |
+
+
+## Redis
+
+* [https://www.redis.net.cn](https://www.redis.net.cn)
+
+* [http://doc.redisfans.com](http://doc.redisfans.com)
+
+* [https://redis.io/documentation](https://redis.io/documentation)
+
+* [http://www.redis.cn/documentation.html](http://www.redis.cn/documentation.html)
+
+* [http://redisdoc.com](http://redisdoc.com)
+
+
+
