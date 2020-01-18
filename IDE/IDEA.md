@@ -80,6 +80,28 @@
 - 取消勾选`Match case`，或者`Case sensitive completion`选择`None`
 
 
+## 设置编码
+
+- 打开 `File` -> `Settings` -> `Editor` -> `File Encodings`
+
+1. `Global Encoding` 全局编码
+
+2. `Project Encoding` 项目编码
+
+3. `Default encoding for properties files` 属性文件的默认编码
+
+4. 勾选`Transparent native-to-ascii conversion` 从本地转换ASCII
+
+
+## 设置序列化ID
+
+- 打开 `File` -> `Settings` -> `Editor` -> `Inspections` -> `Java` -> `Serialization issues`
+
+1. 勾选`Serializable class without 'serialVersionUID'`
+
+2. 勾选`'serialVersionUID' field not declared 'private static final long'`
+
+
 ## 自定义头部注释和模板
 
 ### 自定义头部注释

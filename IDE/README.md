@@ -129,6 +129,10 @@
 
 * [https://github.com/AJLoveChina/idea-shortcuts-guide](https://github.com/AJLoveChina/idea-shortcuts-guide)
 
+* [intellij 快捷键](https://www.cnblogs.com/ooo0/p/10802254.html)
+
+* [IDEA快捷键](https://segmentfault.com/a/1190000018309776#item-2)
+
 
 | 功能                                             	| IDEA                                      	| Eclipse                                     	|
 |--------------------------------------------------	|-------------------------------------------	|---------------------------------------------	|
