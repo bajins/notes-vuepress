@@ -76,4 +76,4 @@
 
 [Home.vue#L33-L45](https://github.com/woytu/UseNotes-vuepress/blob/a5da05776beda3a2fcdad3f8f834636fd3df2a20/.vuepress/theme/components/Home.vue#L33-L45)
 
-
+[Home.vue#L4](https://github.com/woytu/UseNotes-vuepress/blob/8ffeeb1e02117fbd3cb4acfcaa9e2cc12d4c4c7f/.vuepress/theme/components/Home.vue#L4)
