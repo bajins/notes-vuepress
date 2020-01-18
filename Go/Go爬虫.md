@@ -295,7 +295,8 @@ func main() {
 	time.Sleep(time.Second)
 
 	// or save page as PDF
-	_ = remote.SavePDF("page.pdf", 0644, godet.PortraitMode(), godet.Scale(0.5), godet.Dimensions(6.0, 2.0))
+	_ = remote.SavePDF("page.pdf", 0644, godet.PortraitMode(),
+            godet.Scale(0.5), godet.Dimensions(6.0, 2.0))
 
 	// if err := remote.SetInputFiles(0, []string{"hello.txt"}); err != nil {
 	//     fmt.Println("setInputFiles", err)
@@ -314,13 +315,13 @@ func main() {
 
 	// Allow downloads
 	_ = remote.SetDownloadBehavior(godet.AllowDownload, "/tmp/")
-	_, _ = remote.Navigate("http://httpbin.org/response-headers?Content-Type=text/plain;%20charset=UTF-8&Content-Disposition=attachment;%20filename%3d%22test.jnlp%22")
+	_, _ = remote.Navigate(url)
 
 	time.Sleep(time.Second)
 
 	// Block downloads
 	_ = remote.SetDownloadBehavior(godet.DenyDownload, "")
-	_, _ = remote.Navigate("http://httpbin.org/response-headers?Content-Type=text/plain;%20charset=UTF-8&Content-Disposition=attachment;%20filename%3d%22test.jnlp%22")
+	_, _ = remote.Navigate(url)
 }
 ```
 
@@ -367,10 +368,14 @@ var port string
 func init() {
 	switch runtime.GOOS {
 	case "windows":
-		flag.StringVar(&path, "chrome", "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", "path to chrome")
+		flag.StringVar(&path, "chrome",
+            "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+            "path to chrome")
 		flag.StringVar(&dir, "dir", "C:\\temp\\", "user directory")
 	case "darwin":
-		flag.StringVar(&path, "chrome", "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", "path to chrome")
+		flag.StringVar(&path, "chrome",
+            "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+            "path to chrome")
 		flag.StringVar(&dir, "dir", "/tmp/", "user directory")
 	case "linux":
 		flag.StringVar(&path, "chrome", "/usr/bin/chromium-browser", "path to chrome")
@@ -382,7 +387,9 @@ func init() {
 
 func main() {
 	var err error
-	urls := []string{"http://www.google.com", "http://www.veracode.com", "http://www.microsoft.com", "http://bbc.co.uk", "http://www.reddit.com/r/golang"}
+	urls := []string{"http://www.google.com", "http://www.veracode.com",
+            "http://www.microsoft.com", "http://bbc.co.uk",
+            "http://www.reddit.com/r/golang"}
 
 	flag.Parse()
 
@@ -437,7 +444,8 @@ func takeScreenShot(target *gcd.ChromeTarget) {
 	}
 
 	fmt.Printf("Taking screen shot of: %s\n", u.Host)
-	screenShotParams := &gcdapi.PageCaptureScreenshotParams{Format: "png", FromSurface: true}
+	screenShotParams := &gcdapi.PageCaptureScreenshotParams{Format: "png",
+                                FromSurface: true}
 	img, errCap := page.CaptureScreenshotWithParams(screenShotParams)
 	if errCap != nil {
 		fmt.Printf("error getting doc: %s\n", errCap)

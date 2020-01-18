@@ -1,7 +1,7 @@
 <template>
     <div class="home" :class="recoShow?'reco-show': 'reco-hide'">
         <div class="hero">
-            <img v-if="data.heroImage" :style="heroImageStyle" :src="$withBase(data.heroImage)" alt="hero">
+            <img v-if="data.heroImage" class="hero-image" :src="$withBase(data.heroImage)" alt="hero">
 
             <h1 v-if="data.isShowTitleInHome !== false">{{ data.heroText || $title || 'Bajins' }}</h1>
 
@@ -64,13 +64,6 @@
                     link: this.data.actionLink,
                     text: this.data.actionText
                 };
-            },
-
-            heroImageStyle() {
-                return this.data.heroImageStyle || {
-                    maxHeight: '200px',
-                    margin: '6rem auto 1.5rem'
-                }
             }
         },
         mounted() {
@@ -123,6 +116,11 @@
                     background-color: lighten($accentColor, 10%);
                 }
             }
+        }
+
+        .hero-image {
+            max-height: 200px;
+            margin: 6rem auto 1.5rem
         }
 
         .features {
@@ -251,6 +249,12 @@
 
     @media (max-width: $MQMobile) {
         .home {
+            .hero-image {
+                width: 100%;
+                max-width: 100%;
+                max-height: auto;
+            }
+
             .features {
                 flex-direction: column;
             }
@@ -299,6 +303,12 @@
                     font-size: 1rem;
                     padding: 0.6rem 1.2rem;
                 }
+            }
+
+            .hero-image {
+                width: 100%;
+                max-width: 100%;
+                max-height: auto;
             }
 
             .feature {
