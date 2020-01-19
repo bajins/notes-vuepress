@@ -125,6 +125,9 @@ for %%i in (%allList%) do (
     del !binaryFile!
 )
 
+:: 编译完成清理缓存
+go clean -cache
+
 :: 使用 /D 开关，除了改变驱动器的当前目录之外，还可改变当前驱动器。
 :: 切换到bat所在目录
 cd /d %batPath%
