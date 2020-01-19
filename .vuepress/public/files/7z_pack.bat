@@ -99,6 +99,8 @@ for %%i in (%allList%) do (
     del !binaryFile!
 )
 
+:: 编译完成清理缓存
+go clean -cache
 
 goto :EXIT
 
