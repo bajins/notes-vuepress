@@ -76,6 +76,9 @@
 > `-o` 参数为指定输出程序文件名
 
 
+> 编译完成清理缓存`go clean -cache`
+
+
 ### windows
 
 > `go build -ldflags="-H windowsgui"` 能隐藏黑窗口
