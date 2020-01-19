@@ -734,5 +734,48 @@ class RunnableThread implements Runnable {
 
 ## HTTP
 
+- Apache HttpClient GET拼接URL参数
 
+```java
+Map<String, Object> params = new HashMap<>();
+params.put("key1", "value1");
+params.put("key2", "value2");
 
+List<NameValuePair> nvps = new ArrayList<NameValuePair>();
+// 通过map集成entrySet方法获取entity循环遍历，获取迭代器
+Iterator<Entry<String, Object>> iterator = params.entrySet().iterator();
+while (iterator.hasNext()) {
+    Entry<String, Object> mapEntry = iterator.next();
+    nvps.add(new BasicNameValuePair(mapEntry.getKey(), mapEntry.getValue().toString()));
+}
+// 由于GET请求的参数都是拼装在URL地址后方，所以我们要构建一个URL，带参数
+
+// 方式一：使用setParameters
+URIBuilder uriBuilder = new URIBuilder(url);
+// 封装请求参数
+uriBuilder.setParameters(nvps);
+uriBuilder.build();
+
+// 方式二：使用setParameter
+URIBuilder uriBuilder = new URIBuilder(url);
+// 封装请求参数
+for (String key : params.keySet()) {
+    uriBuilder.setParameter(key, params.get(key).toString());
+}
+uriBuilder.build();
+
+// 方式三：转换参数并拼接
+url += "?" + EntityUtils.toString(new UrlEncodedFormEntity(nvps, Consts.UTF_8));
+URIBuilder uriBuilder = new URIBuilder(url);
+uriBuilder.build();
+```
+
+- 根据HttpGet反向获取键值对列表
+
+```java
+HttpGet request = new HttpGet("http://example.com/?var=1&var=2");
+//获取键值对列表
+List<NameValuePair> params = new URIBuilder(request.getURI()).getQueryParams();
+//转换为键值对字符串
+String str = EntityUtils.toString(new UrlEncodedFormEntity(params, Consts.UTF_8));
+```
