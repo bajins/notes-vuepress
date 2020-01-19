@@ -116,7 +116,7 @@ go env -w GOPROXY=https://goproxy.io,https://goproxy.cn,direct
 - Windows
 
 ```batch
-set GOPROXY=https://goproxy.io,https://goproxy.cn,direct
+setx /m GOPROXY "https://goproxy.io,https://goproxy.cn,direct"
 :: 或者
 go env -w GOPROXY=https://goproxy.io,https://goproxy.cn,direct
 ```
