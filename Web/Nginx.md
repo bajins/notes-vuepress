@@ -38,9 +38,9 @@
 
 
 
-## location规则匹配
+## location
 
-### location语法规则
+### 语法规则
 
 ```nginx
 location [=|~|~*|^~] /uri/ {
@@ -48,97 +48,65 @@ location [=|~|~*|^~] /uri/ {
 }
 ```
 
-- location后接的匹配规则含义
+- 修饰符含义
 
 | 规则  	| 说明                                                                                                                                                 	|
 |-------	|------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| `!~*` 	| 不区分大小写不匹配的正则                                                                                                                             	|
-| `!~`  	| 区分大小写不匹配的正则                                                                                                                               	|
+| `!~*` 	| 不区分大小写，但不匹配的正则                                                                                                                             	|
+| `!~`  	| 区分大小写，但不匹配的正则                                                                                                                               	|
 | `/`   	| 通用匹配，任何请求都会匹配到                                                                                                                         	|
 | `@`   	| 定义一个内部命名的匹配（[等阶于`internal`](https://blog.sometimesnaive.org/article/72)），适用于`error_page`,`try_files`                             	|
-| `^~`  	| 开头表示uri以某个常规字符串开头，理解为匹配 url路径即可。nginx不对url做编码，因此请求为/static/20%/aa，可以被规则^~ /static/ /aa匹配到（注意是空格） 	|
-| `~*`  	| 开头表示不区分大小写的正则匹配                                                                                                                       	|
-| `~`   	| 开头表示区分大小写的正则匹配                                                                                                                         	|
-| `=`   	| 开头表示精确匹配                                                                                                                                     	|
+| `^~`  	| uri以某个常规字符串开头，如请求为`/static/20%/aa`，匹配规则`^~ /static/ /aa`                                      |
+| `~*`  	| 不区分大小写的正则匹配                                                                                                                       	|
+| `~`   	| 区分大小写的正则匹配                                                                                                                         	|
+| `=`   	| 精确匹配                                                                                                                                     	|
 
 
 - 当我们有多个`location`配置的情况下，其匹配顺序为
 
-> 首先匹配 "="，其次匹配 "^~", 其次是按文件中顺序的正则匹配，最后是交给 "/" 通用匹配。
+1. 带有`=`的精确匹配优先
+2. 没有修饰符的精确匹配
+3. 正则表达式按照他们在配置文件中定义的顺序
+4. 带有`^~`修饰符的，开头匹配
+5. 带有`~`、`~*`修饰符的，如果正则表达式与`URI`匹配
+6. 没有修饰符的，如果指定字符串与`URI`开头匹配
 
-> 当有匹配成功时候，停止匹配，按当前匹配规则处理请求。
 
-- 比如现在同时存在如下所示匹配规则
+**示例**
 
 ```
+# 匹配网站根，通过域名访问网站首页比较频繁，使用这个会加速处理，官网如是说。
+# 这里是直接转发给后端应用服务器了，也可以是一个静态首页
 location = / {
-   #规则A
+   #匹配http://localhost/
 }
 location = /login {
-   #规则B
+   #匹配http://localhost/login
 }
-location ^~ /static/ {
-   #规则C
-}
-location ~ \.(gif|jpg|png|js|css)$ {
-   #规则D
-}
-location ~* \.png$ {
-   #规则E
-}
-location !~ \.xhtml$ {
-   #规则F
-}
-location !~* \.xhtml$ {
-   #规则G
-}
-location / {
-   #规则H
-}
-```
-
-- 那么产生的效果如下
-
-> 访问根目录/   比如 http://localhost/   将匹配规则A
-
-> 访问 http://localhost/login   将匹配规则B，http://localhost/register 则匹配规则H
-
-> 访问 http://localhost/static/a.html   将匹配规则C
-
-> 访问 http://localhost/a.gif, http://localhost/b.jpg   将匹配规则D和规则E，但是规则D顺序优先，规则E不起作用，而 http://localhost/static/c.png 则优先匹配到规则C
-
-> 访问 http://localhost/a.PNG   则匹配规则E，而不会匹配规则D，因为规则E不区分大小写
-
-> 访问 http://localhost/a.xhtml   不会匹配规则F和规则G，http://localhost/a.XHTML不会匹配规则G，因为不区分大小写。规则F，规则G属于排除法，符合匹配规则但是不会匹配到，所以想想看实际应用中哪里会用到
-
-> 访问 http://localhost/category/id/1111   则最终匹配到规则H，因为以上规则都不匹配，这个时候应该是nginx转发请求给后端应用服务器，比如FastCGI（php），tomcat（jsp），nginx作为方向代理服务器存在
-
-- 在实际应用中，至少需要有三个匹配规则定义
-
-```nginx
-# 直接匹配网站根，通过域名访问网站首页比较频繁，使用这个会加速处理，官网如是说。
-# 这里是直接转发给后端应用服务器了，也可以是一个静态首页
-# 第一个必选规则
-location = / {
-    proxy_pass http://localhost:8080/index
-}
-
 # 第二个必选规则是处理静态文件请求，这是 nginx 作为 http 服务器的强项
 # 有两种配置模式，目录匹配或后缀匹配,任选其一或搭配使用
 location ^~ /static/ {
-    root /webroot/static/;
+   #匹配http://localhost/static/a.html，http://localhost/static/c.png
 }
-location ~* \.(gif|jpg|jpeg|png|css|js|ico)$ {
-    root /webroot/res/;
+location ~ \.(gif|jpg|png|js|css)$ {
+   #匹配http://localhost/a.gif, http://localhost/b.jpg
 }
-
-# 第三个规则就是通用规则，用来转发动态请求到后端应用服务器
-# 非静态文件请求就默认是动态请求，自己根据实际把握
-# 毕竟目前的一些框架的流行，带 .php, .jsp 后缀的情况很少了
+location ~* \.png$ {
+   #http://localhost/a.PNG
+}
+location !~ \.xhtml$ {
+   #匹配http://localhost/a.XHTML
+}
+location !~* \.xhtml$ {
+   #匹配http://localhost/a.jsp
+}
+# 通用规则，用来转发动态请求到后端应用服务器
+# 非静态文件请求就默认是动态请求
 location / {
-    proxy_pass http://localhost:8080/
+   #匹配http://localhost/register，http://localhost/category/id/1111
 }
 ```
+
 
 ### 内部调用
 
@@ -208,25 +176,47 @@ location @pass {
 ```
 
 
+### 以后缀设置过期时间
+
+```nginx
+location ~* \.(js|css|jpg|jpeg|gif|png|swf)$ {
+    if (-f $request_filename) {
+        expires 1h;
+        break;
+    }
+}
+```
+
+### 禁止访问某个目录
+
+```nginx
+location ~* \.(txt|doc)${
+    root /data/www/wwwroot/linuxtone/test;
+    deny all;
+}
+```
+
+
+
 
 ## rewrite语法
 
-> [参考](https://blog.csdn.net/weixin_40792878/article/details/83316519)
->
+* [https://blog.csdn.net/weixin_40792878/article/details/83316519](https://blog.csdn.net/weixin_40792878/article/details/83316519)
+
 > 该指令通过正则表达式的使用来改变URI.可以同时存在一个或者多个指令，按照顺序一次对URL进行匹配和处理。
->
+
 > 该指令可以在`server`块或者`location`块中配置
 
-> 语法：`rewrite regex replacement [flag];`
+- 语法：`rewrite regex replacement [flag];`
 
->> `rewrite`是实现URL重定向的重要指令。
->>
->> `regex`用来匹配URI的正则表达式；
->>
->> `replacement`匹配成功后用来替换URI中被截取内容的字符串，默认情况如果该字符串包含“http://”、"https://"开头，
->> 则不会继续向下对URI进行其他处理。直接返回重写的URI给客户端
->>
->> `flag`用来设置rewrite对URI的处理行为,包含如下数据：
+> `rewrite`是实现URL重定向的重要指令。
+>
+> `regex`用来匹配URI的正则表达式；
+>
+> `replacement`匹配成功后用来替换URI中被截取内容的字符串，默认情况如果该字符串包含“http://”、"https://"开头，
+> 则不会继续向下对URI进行其他处理。直接返回重写的URI给客户端
+>
+> `flag`用来设置rewrite对URI的处理行为,包含如下数据：
 
 
 | 标记符号      | 说明                                                                                      |
@@ -235,6 +225,23 @@ location @pass {
 | break     | 将此处重写的URI作为一个新的URI在当前location中继续执行，并不会将新的URI转向其他location。                               |
 | redirect  | 将重写后的URI返回个客户端，状态码是302，表明临时重定向，主要用在replacement字符串不以“http://”，“ https://”或“ $scheme” 开头； |
 | permanent | 将重写的URI返回客户端，状态码为301,指明是永久重定向；                                                          |
+
+**Redirect**
+
+```nginx
+rewrite ^(.*) http://example.com$1 redirect;
+```
+
+**防盗链**
+
+```
+location ~* \.(gif|jpg|swf)$ {
+    valid_referers none blocked start.igrow.cn sta.igrow.cn;
+    if ($invalid_referer) {
+        rewrite ^/ http://$host/logo.png;
+    }
+}
+```
 
 
 ## 判断表达式
@@ -247,50 +254,7 @@ location @pass {
 | `-x` 和 `!-x` 	| 用来判断文件是否可执行     	|
 
 
-## Redirect语法
 
-```nginx
-server {
-    listen 80;
-    server_name start.igrow.cn;
-    index index.html index.php;
-    root html;
-    if ($http_host !~ “^star\.igrow\.cn$&quot {
-        rewrite ^(.*) http://star.igrow.cn$1 redirect;
-    }
-}
-```
-
-## 防盗链
-
-```
-location ~* \.(gif|jpg|swf)$ {
-    valid_referers none blocked start.igrow.cn sta.igrow.cn;
-    if ($invalid_referer) {
-        rewrite ^/ http://$host/logo.png;
-    }
-}
-```
-
-## 以后缀设置过期时间
-
-```nginx
-location ~* \.(js|css|jpg|jpeg|gif|png|swf)$ {
-    if (-f $request_filename) {
-        expires 1h;
-        break;
-    }
-}
-```
-
-## 禁止访问某个目录
-
-```nginx
-location ~* \.(txt|doc)${
-    root /data/www/wwwroot/linuxtone/test;
-    deny all;
-}
-```
 
 ## 全局变量
 
@@ -421,9 +385,10 @@ if ( $http_user_agent ~ "$mobile_user_agent" ) {
 
 ## `proxy_pass`指令
 
-> nginx无法在proxy_pass指令中处理所需的URI部分，因为位于指定的位置（因此是错误消息）。
+> nginx无法在`proxy_pass`指令中处理所需的URI部分，因为位于指定的位置（因此是错误消息）。
 > 这是因为nginx是以模块化的方式构建的，每个配置块都是由各个模块在各个阶段读取的。
-> 所以请记住，proxy_pass在以下情况下，指令中不能有URI ：
+
+> `proxy_pass`在以下情况下，指令中不能有URI ：
 >> 正则表达式位置
 >>
 >> 命名的地点
