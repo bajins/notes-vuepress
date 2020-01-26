@@ -36,31 +36,29 @@
 
 ## 下载器
 
-* [xdown-org](https://github.com/xdown-org)
+* [xdown-org](https://github.com/xdown-org) [https://xdown.org](https://xdown.org)
 
-* [https://xdown.org](https://xdown.org)
-
-* [proxyee-down==http下载工具，基于http代理，支持多连接分块下载](https://github.com/monkeyWie/proxyee-down)
+* [https://github.com/monkeyWie/proxyee-down](https://github.com/monkeyWie/proxyee-down)
 
 ---
 
 * [BaiduPCS](https://github.com/search?o=desc&p=1&q=BaiduPCS&s=updated&type=Repositories)
 
-* [baiduCDP](https://github.com/cool2528/baiduCDP)
+* [https://github.com/iikira/BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go)
 
-* [BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go)
+* [https://github.com/liuzhuoling2011/baidupcs-web](https://github.com/liuzhuoling2011/baidupcs-web)
 
-* [baidupcs-web](https://github.com/liuzhuoling2011/baidupcs-web)
+* [https://github.com/loliconer/baidupcs-mobile](https://github.com/loliconer/baidupcs-mobile)
 
-* [baidupcs-mobile](https://github.com/loliconer/baidupcs-mobile)
 
-* [baidu-netdisk-downloaderx](https://github.com/b3log/baidu-netdisk-downloaderx)
+* [https://github.com/cool2528/baiduCDP](https://github.com/cool2528/baiduCDP)
+
+* [https://github.com/b3log/baidu-netdisk-downloaderx](https://github.com/b3log/baidu-netdisk-downloaderx)
 
 
 * [百度网盘直链下载助手](https://www.baiduyun.wiki)
 
-* [PanDownload网页版](https://www.baiduwp.com)
-* [PanDownload网页版](https://baiduwangpan.com)
+* [PanDownload网页版](https://www.baiduwp.com) [PanDownload网页版](https://baiduwangpan.com)
 
 * [http://pandownload.com](http://pandownload.com)
 

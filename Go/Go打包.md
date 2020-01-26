@@ -47,6 +47,8 @@
 
 * [https://github.com/karalabe/xgo](https://github.com/karalabe/xgo)
 
+* [https://github.com/techknowlogick/xgo](https://github.com/techknowlogick/xgo)
+
 * [https://github.com/storyicon/gos](https://github.com/storyicon/gos)
 
 * [https://github.com/docker/golang-cross](https://github.com/docker/golang-cross)
@@ -78,10 +80,11 @@
 
 > 编译完成清理缓存`go clean -cache`
 
+> `-ldflags="-w -s"` 选项可以减小编译后的程序体积
 
 ### windows
 
-> `go build -ldflags="-H windowsgui"` 能隐藏黑窗口
+> `-ldflags="-H windowsgui"` 能隐藏黑窗口
 
 ```batch
 # 交叉编译不支持 CGO 所以要禁用它
