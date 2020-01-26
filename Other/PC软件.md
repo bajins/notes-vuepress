@@ -34,7 +34,18 @@
 | [https://www.423down.com](https://www.423down.com)                  	|                                                                    	|
 
 
+* [https://www.macbl.com](https://www.macbl.com)
+
 ## 下载器
+
+* [https://github.com/search?q=downloader&type=Repositories](https://github.com/search?q=downloader&type=Repositories)
+
+* [https://github.com/topics/downloader](https://github.com/topics/downloader)
+
+* [https://github.com/topics/download](https://github.com/topics/download)
+
+* [https://github.com/topics/download-manager](https://github.com/topics/download-manager)
+
 
 * [xdown-org](https://github.com/xdown-org) [https://xdown.org](https://xdown.org)
 
@@ -43,6 +54,8 @@
 ---
 
 * [BaiduPCS](https://github.com/search?o=desc&p=1&q=BaiduPCS&s=updated&type=Repositories)
+
+* [https://github.com/topics/baiduyun?o=desc&s=updated](https://github.com/topics/baiduyun?o=desc&s=updated)
 
 * [https://github.com/iikira/BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go)
 
@@ -58,9 +71,9 @@
 
 * [百度网盘直链下载助手](https://www.baiduyun.wiki)
 
-* [PanDownload网页版](https://www.baiduwp.com) [PanDownload网页版](https://baiduwangpan.com)
 
 * [http://pandownload.com](http://pandownload.com)
+[PanDownload网页版](https://www.baiduwp.com) [PanDownload网页版](https://baiduwangpan.com)
 
 
 ---

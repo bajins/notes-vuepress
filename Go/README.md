@@ -142,6 +142,8 @@ go env -w GOPRIVATE=*.github.com,*.gitlab.com,*.gitee.com
 go env -w GOSUMDB=off
 ```
 
+* [https://github.com/golang/go/wiki/Modules#are-there-always-on-module-repositories-and-enterprise-proxies](https://github.com/golang/go/wiki/Modules#are-there-always-on-module-repositories-and-enterprise-proxies)
+
 
 * [https://mirrors.aliyun.com/goproxy](https://mirrors.aliyun.com/goproxy)
 
