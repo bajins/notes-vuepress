@@ -10,6 +10,8 @@
 
 * [Linux手册](https://learn-linux.readthedocs.io/zh_CN/latest)
 
+* [http://www.linuxbaike.com](http://www.linuxbaike.com)
+
 * [Linux网络编程](https://network.fasionchan.com/zh_CN/latest/index.html)
 
 * [OSX操作指南](https://osx-guide.readthedocs.io/zh_CN/latest)
@@ -22,6 +24,16 @@
 
 * [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625)
 
+
+**编辑器**
+
+* [vi命令（vi编辑器）](http://c.biancheng.net/vi)
+
+* [vi 编辑器使用向导](https://wiki.jikexueyuan.com/project/unix/the-vi-editor.html)
+
+* [Vim 从小白到入门](https://wsgzao.github.io/post/vim)
+
+* [https://vimjc.com/archives](https://vimjc.com/archives)
 
 
 **监控工具**
