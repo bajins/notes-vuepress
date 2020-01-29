@@ -86,7 +86,7 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 - 下载文件
 
 ```powershell
-(New-Object System.Net.WebClient).DownloadFile('https://github.com/woytu/woytu.github.io/releases/download/v1.0/7za.exe','d:\\7za.exe')
+(New-Object System.Net.WebClient).DownloadFile('https://git.io/JvYAg','d:\\7za.exe')
 ```
 
 - 恢复计算器

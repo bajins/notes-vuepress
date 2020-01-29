@@ -1091,10 +1091,10 @@ function get7z() {
     // 执行7z命令判断是否执行成功
     var out = shell.Run("cmd /c 7za", 0, true);
     var directory = "c:\\windows";
-    var url = "https://github.com/woytu/woytu.github.io/releases/download/v1.0/7za.exe";
+    var url = "https://git.io/JvYAg";
     // 如果执行失败说明7z不存在
     if (out == 1) {
-        download(url, directory);
+        download(url, directory, "7za.exe");
     }
     // 执行7z命令判断是否执行成功
     out = shell.Run("cmd /c 7za", 0, true);
