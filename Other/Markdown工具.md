@@ -36,7 +36,7 @@
 
 ## 表格生成
 
-> HTML表格转Excel可以直接在`数据`->`自网站`->`URL`然后进行操作
+> `HTML`表格转`Excel`可以直接在`office Excel`中点击 `数据` -> `自网站` -> `URL` 然后进行操作
 
 * [tableconvert](https://tableconvert.com)
 
