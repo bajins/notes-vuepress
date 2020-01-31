@@ -10,22 +10,25 @@
 
 * [md.aclickall.com](https://md.aclickall.com)
 
-* [mdnice.github.io](https://mdnice.github.io)
+* [https://github.com/doocs/md](https://github.com/doocs/md)
 
-* [wxformat](https://lab.lyric.im/wxformat)
+* [https://github.com/mdnice/markdown-nice](https://github.com/mdnice/markdown-nice)
 
-* [online-markdown](http://blog.didispace.com/tools/online-markdown)
+* [https://github.com/lyricat/wechat-format](https://github.com/lyricat/wechat-format)
 
-* [wechat-markdown-editor](https://didadi599.github.io/wechat-markdown-editor)
+* [https://github.com/zkqiang/wechat-mdeditor](https://github.com/zkqiang/wechat-mdeditor)
+
+* [https://github.com/dyc87112/online-markdown](https://github.com/dyc87112/online-markdown)
+
+* [https://github.com/didadi599/wechat-markdown-editor](https://github.com/didadi599/wechat-markdown-editor)
 
 * [wechat-editor](https://so-easy.cc/wechat-editor)
 
 * [https://knb.im/mp](https://knb.im/mp)
 
-* [wechat-mp-article](https://ufologist.github.io/wechat-mp-article/editor.html)
+* [https://github.com/ufologist/wechat-mp-article](https://github.com/ufologist/wechat-mp-article)
 
-
-
+---
 
 * [mp-transform-public](https://github.com/ZhuPeng/mp-transform-public)
 
@@ -37,11 +40,11 @@
 
 * [tableconvert](https://tableconvert.com)
 
-* [table-magic](https://stevecat.github.io/table-magic)
+* [https://github.com/stevecat/table-magic](https://github.com/stevecat/table-magic)
 
 * [markdown_tables](http://www.tablesgenerator.com/markdown_tables)
 
-* [clipboard2markdown](https://euangoddard.github.io/clipboard2markdown)
+* [https://github.com/domchristie/turndown](https://github.com/domchristie/turndown)
 
 
 
@@ -79,6 +82,8 @@
 
 
 ## 在线版客户端
+
+* [https://github.com/mdnice/markdown-resume](https://github.com/mdnice/markdown-resume)
 
 * [xkeditor](https://github.com/syfxlin/xkeditor)
 
