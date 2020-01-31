@@ -48,14 +48,16 @@
 
 
 
-## 生成目录树
+## 生成文件结构树
 
 * [mddir](https://github.com/JohnByrneRepo/mddir)
 
 * [treer](https://github.com/derycktse/treer)
 
 
-## 生成目录`TOC`
+## 生成标题目录树
+
+> `TOC` [https://en.wikipedia.org/wiki/Table_of_contents](https://en.wikipedia.org/wiki/Table_of_contents)
 
 
 * [tocdown](https://dohliam.github.io/tocdown) [https://github.com/dohliam/tocdown](https://github.com/dohliam/tocdown)
