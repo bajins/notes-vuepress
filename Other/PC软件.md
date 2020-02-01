@@ -54,9 +54,26 @@
 
 * [翠竹成林](http://msbuild.cn/category/software)
 
+* [落尘之木](https://www.luochenzhimu.com)
+
 * [https://www.423down.com](https://www.423down.com)
 
 * [http://itjcc.com](http://itjcc.com)
+
+* [https://myqqjd.com](https://myqqjd.com)
+
+* [http://www.ypojie.com](http://www.ypojie.com)
+
+* [https://www.ccava.net](https://www.ccava.net)
+
+* [https://ymso.net](https://ymso.net)
+
+* [https://www.wsf1234.com](https://www.wsf1234.com)
+
+* [http://luxiaoneng.com](http://luxiaoneng.com/category/%e5%b7%a5%e5%85%b7%e5%8c%85)
+
+* [https://www.zrbk.xyz](https://www.zrbk.xyz)
+
 
 
 **论坛**
@@ -86,6 +103,7 @@
 
 * [https://www.macbl.com](https://www.macbl.com)
 
+* [http://www.sharerw.com](http://www.sharerw.com)
 
 
 
@@ -145,6 +163,9 @@
 
 * [https://www.lanzous.com/b505936](https://www.lanzous.com/b505936)
 
+* [https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q](https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q)
+
+* [迅雷 X 去广告](https://tmr.js.org/categories/%E7%A0%B4%E8%A7%A3)
 
 
 **aria2**
@@ -431,3 +452,6 @@
 1. [https://yunpan.360.cn/surl_ydQx6xDvQyG](https://yunpan.360.cn/surl_ydQx6xDvQyG) 提取码：39db
 
 
+**微软常用运行库**
+
+* [https://www.lanzous.com/b143614](https://www.lanzous.com/b143614)
