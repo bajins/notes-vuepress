@@ -11,6 +11,48 @@
 
 
 
+**图片**
+
+* [https://pixabay.com/zh](https://pixabay.com/zh)
+
+* [https://visualhunt.com](https://visualhunt.com)
+
+* [https://stocksnap.io](https://stocksnap.io)
+
+* [https://kaboompics.com](https://kaboompics.com)
+
+* [https://www.wallpaperup.com](https://www.wallpaperup.com)
+
+* [https://www.splitshire.com](https://www.splitshire.com)
+
+* [https://magdeleine.co](https://magdeleine.co)
+
+* [http://cupcake.nilssonlee.se](http://cupcake.nilssonlee.se)
+
+* [http://lorempixel.com/1920/1080](http://lorempixel.com/1920/1080)
+
+* [https://www.lifeofpix.com/page/1](https://www.lifeofpix.com/page/1)
+
+* [https://isorepublic.com/photos](https://isorepublic.com/photos)
+
+* [https://pxhere.com](https://pxhere.com)
+
+* [https://www.hippopx.com](https://www.hippopx.com)
+
+* [https://foter.com](https://foter.com)
+
+* [https://negativespace.co](https://negativespace.co)
+
+* [http://photopin.com](http://photopin.com)
+
+* [https://gratisography.com](https://gratisography.com)
+
+* [https://shotstash.com](https://shotstash.com)
+
+* [https://picography.co](https://picography.co)
+
+
+
 ## 天气
 
 > http://tianqi.2345.com/plugin
@@ -94,7 +136,7 @@
 
 ## unsplash
 
-- API `https://unsplash.com/documentation#photos`
+* [https://unsplash.com/documentation#photos](https://unsplash.com/documentation#photos)
 
 > 参数per_page为获取数量，最大值30
 
@@ -117,8 +159,6 @@
 - 桌面壁纸
 
 > [https://unsplash.com/napi/collections/1065396/photos?page=1&per_page=30&order_by=latest](https://unsplash.com/napi/collections/1065396/photos?page=1&per_page=30&order_by=latest)
-
-
 
 
 
@@ -158,11 +198,12 @@
 
 
 
-
-
 ## pexels
 
 * [https://www.pexels.com/zh-cn](https://www.pexels.com/zh-cn)
+
+* [https://www.pexels.com/api](https://www.pexels.com/api)
+
 
 **获取最新**
 
@@ -204,49 +245,6 @@
 
 
 
-## pixabay
-
-* [https://pixabay.com/zh](https://pixabay.com/zh)
-
-
-
-
-
-
-## visualhunt
-
-* [https://visualhunt.com](https://visualhunt.com)
-
-
-
-
-
-## stocksnap.io
-
-* [https://stocksnap.io](https://stocksnap.io)
-
-
-
-
-
-## kaboompics
-
-* [https://kaboompics.com](https://kaboompics.com)
-
-
-
-
-
-## wallpaperup
-
-* [https://www.wallpaperup.com](https://www.wallpaperup.com)
-
-
-
-
-
-
-
 ## alphacoders
 
 **搜索**
@@ -277,25 +275,45 @@
 
 
 
+## icons8
 
+* [https://photos.icons8.cn](https://photos.icons8.cn)
 
-## splitshire
-
-* [https://www.splitshire.com](https://www.splitshire.com)
-
-
-
-
-## magdeleine.co
-
-* [https://magdeleine.co](https://magdeleine.co)
+> 获取图片下载链接 https://photos.icons8.com/api/frontend/v1/images/图片id/download-url?width=1913&height=3400
 
 
 
 
-## cupcake.nilssonlee.se
 
-* [http://cupcake.nilssonlee.se](http://cupcake.nilssonlee.se)
+## 二次元图片
+
+**img.xjh.me**
+
+- 获取随机图片
+
+https://img.xjh.me/random_img.php?return=302
+
+- 带参数API
+
+https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302
+
+- 适用于手机端壁纸
+
+https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&device=mobile
 
 
+
+**api.ixiaowai.cn**
+
+- 二次元动漫图片
+
+https://api.ixiaowai.cn/api/api.php
+
+- menhear酱
+
+https://api.ixiaowai.cn/mcapi/mcapi.php
+
+- 风景
+
+https://api.ixiaowai.cn/mcapi/mcapi.php
 
