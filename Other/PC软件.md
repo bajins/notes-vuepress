@@ -106,6 +106,14 @@
 * [http://www.sharerw.com](http://www.sharerw.com)
 
 
+## 浏览器
+
+* [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
+
+* [https://www.microsoft.com/en-us/edge](https://www.microsoft.com/en-us/edge)
+
+* [https://www.firefox.com.cn](https://www.firefox.com.cn)
+
 
 ## 下载器
 
