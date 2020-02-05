@@ -78,7 +78,7 @@
 
 **论坛**
 
-* [JIKE](https://jike.info)
+* [JIKE](https://jike.info/recent)
 
 * [睿派克技术论坛](https://www.repaik.com)
 
