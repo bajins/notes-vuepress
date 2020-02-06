@@ -81,6 +81,62 @@
 
 
 
+## 留言社区
+
+* [注册一个新的 OAuth Application](https://github.com/settings/applications/new)
+
+**留言评论**
+
+* [https://www.livere.com](https://www.livere.com)
+
+* [https://github.com/xCss/Valine](https://github.com/xCss/Valine)
+
+* [https://disqus.com](https://disqus.com)
+
+* [https://github.com/gitalk/gitalk](https://github.com/gitalk/gitalk)
+[Gitalk评论插件使用教程](https://segmentfault.com/a/1190000018072952)
+
+* [https://github.com/imsun/gitment](https://github.com/imsun/gitment)
+
+* [https://github.com/EZForever/gitment-mod](https://github.com/EZForever/gitment-mod)
+
+* [https://github.com/utterance/utterances](https://github.com/utterance/utterances)
+
+* [https://github.com/coralproject/talk](https://github.com/coralproject/talk)
+
+* [https://github.com/vkuznecovas/mouthful](https://github.com/vkuznecovas/mouthful)
+
+* [https://github.com/cheng-kang/wildfire](https://github.com/cheng-kang/wildfire)
+
+* [https://github.com/Ericwyn/Ponza](https://github.com/Ericwyn/Ponza)
+
+* [https://github.com/aonemd/jazl](https://github.com/aonemd/jazl)
+
+* [https://github.com/art-deco/akashic.page](https://github.com/art-deco/akashic.page)
+
+---
+
+* [https://github.com/Buzut/jamments](https://github.com/Buzut/jamments)
+
+* [https://github.com/sheychen290/comtodon](https://github.com/sheychen290/comtodon)
+
+* [https://github.com/qwqcode/Artalk](https://github.com/qwqcode/Artalk)
+
+* [https://github.com/patarapolw/aloud](https://github.com/patarapolw/aloud)
+
+* [https://github.com/umputun/remark42](https://github.com/umputun/remark42)
+
+* [https://github.com/pozitron57/open-source-comments](https://github.com/pozitron57/open-source-comments)
+
+
+**讨论社区**
+
+* [https://github.com/withspectrum](https://github.com/withspectrum)
+
+* [https://github.com/discourse/discourse](https://github.com/discourse/discourse)
+
+* [https://gitter.im](https://gitter.im)
+
 
 
 ## 临时邮箱
