@@ -112,6 +112,15 @@
 
 * [https://www.microsoft.com/en-us/edge](https://www.microsoft.com/en-us/edge)
 
+> 以管理员身份运行Microsoft Edge时不支持登录。请以非管理员身份重新启动Microsoft Edge的解决办法：
+> <kbd>Win</kbd> + <kbd>R</kbd>输入并运行`regedit` -> 地址栏输入
+> `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System` -> 
+> 找到`EnableLUA` 这一项，修改数值为`1`，保存并重启
+                                                                                        
+> 如果`EnableLUA`这项的数值本来就是`1`，改了无效的解决方法：<kbd>Win</kbd> + <kbd>R</kbd> 输入并运行 `gpedit.msc` –> 
+> `计算机配置` –> `windows设置` –> `安全设置` –> `本地策略` –> `安全选项` –> `用户帐户控制：用于内置管理员帐户的管理员批准模式` –> 
+> `启用` –> `重启电脑`
+
 * [https://www.firefox.com.cn](https://www.firefox.com.cn)
 
 
@@ -126,7 +135,7 @@
 * [https://github.com/topics/download-manager](https://github.com/topics/download-manager)
 
 
-* [xdown-org](https://github.com/xdown-org) [https://xdown.org](https://xdown.org)
+* [xdown-org](https://github.com/xdown-org)[https://xdown.org](https://xdown.org)
 
 * [https://github.com/monkeyWie/proxyee-down](https://github.com/monkeyWie/proxyee-down)
 
@@ -152,7 +161,7 @@
 
 
 * [http://pandownload.com](http://pandownload.com)
-[PanDownload网页版](https://www.baiduwp.com) [PanDownload网页版](https://baiduwangpan.com)
+[PanDownload网页版](https://www.baiduwp.com)[PanDownload网页版](https://baiduwangpan.com)
 
 
 ---
@@ -191,11 +200,11 @@
 
 **Internet Download Manager**
 
-0. [https://eyun.baidu.com/s/3miwISp6](https://eyun.baidu.com/s/3miwISp6) 密码：3131
+0. [https://eyun.baidu.com/s/3miwISp6](https://eyun.baidu.com/s/3miwISp6)密码：3131
 
 1. [https://www.lanzous.com/b134572](https://www.lanzous.com/b134572)
 
-2. [https://yunpan.360.cn/surl_ymsGF6zWGcP](https://yunpan.360.cn/surl_ymsGF6zWGcP) （提取码：805b）
+2. [https://yunpan.360.cn/surl_ymsGF6zWGcP](https://yunpan.360.cn/surl_ymsGF6zWGcP)（提取码：805b）
 
 3. [https://www.lanzous.com/b0i6zkze](https://www.lanzous.com/b0i6zkze)
 
@@ -327,18 +336,37 @@
 > 打开后，随便点一个进程右键，查看-查看进程热键-再右键-显示所有进程热键
 
 
-| MSDN                                                               	| 绿色精简                                              	|
-|--------------------------------------------------------------------	|-------------------------------------------------------	|
-| [http://msdn.itellyou.cn](http://msdn.itellyou.cn)                 	| [WINOS ](https://www.winos.me)                       	|
-| [https://www.iruanmi.com/msdn](https://www.iruanmi.com/msdn)       	| [绿色系统](http://lvsexitong.com)                    	|
-| [http://www.imsdn.cn](http://www.imsdn.cn)                         	| [网吧系统](http://down.lansedongli.com)              	|
-| [https://uup.rg-adguard.net](https://uup.rg-adguard.net)           	| [twm000-导航页被定制可修改](http://twm000.top)       	|
-| [https://www.repaik.com/win.html](https://www.repaik.com/win.html) 	| [Y-OS工作室-导航页被定制可修改](http://y-os.net)     	|
-|                                                                    	| [十二星座-导航页被定制可修改](http://www.12xzzx.com) 	|
-|                                                                    	| [icura](http://icura.cn)                             	|
+**MSDN**
+                                                                  
+* [http://msdn.itellyou.cn](http://msdn.itellyou.cn)
+
+* [https://www.iruanmi.com/msdn](https://www.iruanmi.com/msdn)
+
+* [http://www.imsdn.cn](http://www.imsdn.cn)
+
+* [https://uup.rg-adguard.net](https://uup.rg-adguard.net)
+
+* [https://www.repaik.com/win.html](https://www.repaik.com/win.html)
+
+**绿色精简**
+                                                 
+* [WINOS ](https://www.winos.me)
+
+* [绿色系统](http://lvsexitong.com)
+
+* [网吧系统](http://down.lansedongli.com)
+
+* [twm000-导航页被定制可修改](http://twm000.top)
+
+* [Y-OS工作室-导航页被定制可修改](http://y-os.net)
+
+* [十二星座-导航页被定制可修改](http://www.12xzzx.com)
+
+* [http://icura.cn](http://icura.cn)
 
 
-**win10数字激活**
+
+### Windows激活
 
 > 所谓的win10数字权利激活，是一种win10授权方法。该激活方法会记录你的电脑硬件信息，并保存到微软的服务器，
 > 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
@@ -347,18 +375,52 @@
 
 2. 激活前电脑必须联网，而且必须开启`Windows Update`服务，否则无法激活。
 
-| PE                                                                               	| 激活                                                                       	|
-|----------------------------------------------------------------------------------	|----------------------------------------------------------------------------	|
-| [微PE](http://www.wepe.com.cn)                                                  	| [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)                 	|
-| [USBOS](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965&extra=page%3D1) 	| [人人客-微软产品](https://rrkee.com/microsoft)                            	|
-| [光卡自己的 PE 项目](https://hikaricalyx.com)                                   	| [windows10 product keys](https://www.windows10productkeys.info/#method1)   	|
-| [优启时代](http://www.uqi.me/catalog.asp?cate=1)                                 	| [03k.orgKMS服务](https://03k.org/kms.html)                                 	|
-|                                                                                  	| [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4)                  	|
-|                                                                                  	| [云萌 Windows 10 激活工具](https://tgsan.github.io/CMWTAT_Digital_Edition) 	|
-|                                                                                  	| [Windows10产品密钥](https://www.windows10productkeys.info/#method1)        	|
-|                                                                                  	| [零散坑KMS服务](https://03k.org/kms.html)                                  	|
-|                                                                                  	| [http://webact.185.hk](http://webact.185.hk)                                 	|
-|                                                                                  	| [kms.mogeko.me](https://mogeko.me/2019/054)                                 	|
+
+**PE**
+                                                                                
+* [微PE](http://www.wepe.com.cn)
+
+* [USBOS](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965&extra=page%3D1)
+
+* [光卡自己的 PE 项目](https://hikaricalyx.com)
+
+* [优启时代](http://www.uqi.me/catalog.asp?cate=1)
+
+
+**激活**
+
+* [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
+
+* [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
+
+---
+
+* [可用的 KMS 列表](https://www.coolhub.top/archives/14)
+
+* [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)
+
+* [人人客-微软产品](https://rrkee.com/microsoft)
+
+* [windows10 product keys](https://www.windows10productkeys.info/#method1)
+
+* [03k.orgKMS服务](https://03k.org/kms.html)
+
+* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4)
+
+* [云萌 Windows 10 激活工具](https://tgsan.github.io/CMWTAT_Digital_Edition)
+
+* [Windows10产品密钥](https://www.windows10productkeys.info/#method1)
+
+* [零散坑KMS服务](https://03k.org/kms.html)
+
+* [http://webact.185.hk](http://webact.185.hk)
+
+* [kms.mogeko.me](https://mogeko.me/2019/054)
+
+* [https://kms.cangshui.net](https://kms.cangshui.net)
+
+* [https://kms.loli.beer](https://kms.loli.beer)
+
 
 
 ### 开始菜单
@@ -368,11 +430,11 @@
 
 **StartIsBack++**
 
-0. [https://eyun.baidu.com/s/3eTL5mMY](https://eyun.baidu.com/s/3eTL5mMY) 密码：3131
+0. [https://eyun.baidu.com/s/3eTL5mMY](https://eyun.baidu.com/s/3eTL5mMY)密码：3131
 
 1. [https://www.lanzous.com/b279570](https://www.lanzous.com/b279570)
 
-2. [https://yunpan.360.cn/surl_ymKSxmH5PbY](https://yunpan.360.cn/surl_ymKSxmH5PbY) （提取码：298e）
+2. [https://yunpan.360.cn/surl_ymKSxmH5PbY](https://yunpan.360.cn/surl_ymKSxmH5PbY)（提取码：298e）
 
 
 **清理工具**
@@ -444,9 +506,9 @@
 
 **Photoshop CC**
 
-0. [https://eyun.baidu.com/s/3mizNp4O](https://eyun.baidu.com/s/3mizNp4O) 密码：3131
+0. [https://eyun.baidu.com/s/3mizNp4O](https://eyun.baidu.com/s/3mizNp4O)密码：3131
 
-1. [https://yunpan.360.cn/surl_ydDgKwXKPSf](https://yunpan.360.cn/surl_ydDgKwXKPSf) （提取码：0be6）
+1. [https://yunpan.360.cn/surl_ydDgKwXKPSf](https://yunpan.360.cn/surl_ydDgKwXKPSf)（提取码：0be6）
 
 2. [https://cloud.189.cn/t/UneM3imEJj2u](https://cloud.189.cn/t/UneM3imEJj2u)（访问码：0224）
 
@@ -455,9 +517,9 @@
 
 **福昕PDF阅读器**
 
-0. [https://eyun.baidu.com/s/3bozPGmV](https://eyun.baidu.com/s/3bozPGmV) 密码：3131
+0. [https://eyun.baidu.com/s/3bozPGmV](https://eyun.baidu.com/s/3bozPGmV)密码：3131
 
-1. [https://yunpan.360.cn/surl_ydQx6xDvQyG](https://yunpan.360.cn/surl_ydQx6xDvQyG) 提取码：39db
+1. [https://yunpan.360.cn/surl_ydQx6xDvQyG](https://yunpan.360.cn/surl_ydQx6xDvQyG)提取码：39db
 
 
 **微软常用运行库**

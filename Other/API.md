@@ -11,6 +11,8 @@
 
 * [https://api.imjad.cn](https://api.imjad.cn)
 
+* [https://github.com/Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
+
 
 **图片**
 
