@@ -366,17 +366,7 @@
 
 
 
-### Windows激活
-
-> 所谓的win10数字权利激活，是一种win10授权方法。该激活方法会记录你的电脑硬件信息，并保存到微软的服务器，
-> 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
-
-1. 避免在vpn状态下使用本软件。
-
-2. 激活前电脑必须联网，而且必须开启`Windows Update`服务，否则无法激活。
-
-
-**PE**
+### WinPE
                                                                                 
 * [微PE](http://www.wepe.com.cn)
 
@@ -387,11 +377,18 @@
 * [优启时代](http://www.uqi.me/catalog.asp?cate=1)
 
 
-**激活**
+### Windows激活
+
+> 所谓的win10数字权利激活，是一种win10授权方法。该激活方法会记录你的电脑硬件信息，并保存到微软的服务器，
+> 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
+
+> 避免在vpn状态下使用本软件。激活前电脑必须联网，而且必须开启`Windows Update`服务，否则无法激活。
 
 * [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
 
 * [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
+
+* [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
 
 ---
 
@@ -420,6 +417,57 @@
 * [https://kms.cangshui.net](https://kms.cangshui.net)
 
 * [https://kms.loli.beer](https://kms.loli.beer)
+
+
+**office key**
+
+```
+# OFFICE 2019 专业增强版激活码
+W8W6K-3N7KK-PXB9H-8TD8W-BWTH9
+
+# Office19_ProPlus2019XC2RVL_MAKC2R
+N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
+
+# Office19_RTM19_ProPlus2019VL_MAK_AE
+GP3YN-RPX2T-FVYT8-4TPFY-7MKG3
+```
+
+**windows key**
+
+```
+# Windows 10 LTSC 2019在线激活密钥
+R36G9-PNG8F-Q39HJ-YMF9X-QV8R2
+93MGM-NTFKD-6BK63-R6FYR-6Q9PB
+
+# Windows 10 pro
+NX97R-FPXYV-TM9RD-498KX-GJF9M
+
+# Windows 10专业版
+P3WMP-6GKFC-KRCC6-8VWPP-XWGMG
+KVN8D-W32H3-V4T64-TG9T2-3YH3B
+PHMBN-X7CQX-KRYM2-QKXKR-W8D3Q
+BJJNQ-9Q3HP-8JPBM-3FB6K-XKXTY
+GNXTX-RQ474-MHF83-DJ8W2-2DKTY
+WKN4D-3HRWF-KG4B2-TCBX2-YKMQB
+YNVH3-HR7TD-J9Y8W-FDH7P-9QBQB
+DJVN7-8KGBD-VW9XF-QXWPD-2WF9M
+KVN8D-W32H3-V4T64-TG9T2-3YH3B
+BJJNQ-9Q3HP-8JPBM-3FB6K-XKXTY
+DJVN7-8KGBD-VW9XF-QXWPD-2WF9M
+GNXTX-RQ474-MHF83-DJ8W2-2DKTY
+PRBXN-7PB37-F47KD-23936-MKMQB
+WKN4D-3HRWF-KG4B2-TCBX2-YKMQB
+X27NJ-YWCDP-WCRX8-CRVT2-XTPKM
+YNVH3-HR7TD-J9Y8W-FDH7P-9QBQB
+JX4XR-N97MV-RQT2J-J4BDV-R9DFD
+JRNDM-HGW9B-KKBHW-93WFX-9HKYX
+
+# Windows 10企业
+H8PDJ-H4NKW-3GKH7-YHKJ7-4C2JR
+8T3TN-H9RCK-99WWM-GXWQM-7MH2F
+M7XM2-97NMJ-RQGMK-XMPFC-W2QF4
+N8J24-KPRHR-36YGP-MFJFB-B4G44
+```
 
 
 
