@@ -414,7 +414,8 @@ function request(method, url, dataType, data, contentType) {
         'MSXML2.XMLHTTP.5.0',
         'MSXML2.XMLHTTP.4.0',
         'MSXML2.XMLHTTP.3.0',
-        'MSXML2.XMLHTTP'
+        'MSXML2.XMLHTTP',
+        'Microsoft.XMLHTTP'
     ];
     var XMLHTTP;
     for (var i = 0; i < XMLHTTPVersions.length; i++) {
@@ -426,14 +427,12 @@ function request(method, url, dataType, data, contentType) {
             WScript.StdOut.WriteLine("：" + e.message);
         }
     }
-
     //将对象转化成为querystring形式
     var paramarray = [];
     for (key in data) {
         paramarray.push(key + "=" + data[key]);
     }
     var params = paramarray.join("&");
-
     switch (method) {
         case "POST":
             // 0异步、1同步
@@ -452,7 +451,6 @@ function request(method, url, dataType, data, contentType) {
             XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send();
     }
-
     // 把字符串转换为小写
     dataType = dataType.toLowerCase();
     switch (dataType) {
@@ -489,21 +487,18 @@ function download(url, directory, filename) {
     if (directory == "" || directory == null || directory.length <= 0) {
         throw new Error("文件存储目录不能为空！");
     }
-
     var fso = new ActiveXObject("Scripting.FileSystemObject");
     // 如果目录不存在
     if (!fso.FolderExists(directory)) {
         // 创建目录
         var strFolderName = fso.CreateFolder(directory);
     }
-
     if (filename == "" || filename == null || filename.length <= 0) {
         filename = url.substring(url.lastIndexOf("/") + 1);
         // 去掉文件名的特殊符号（包括之前的）字符
         filename = filename.replace(/^.*(\&|\=|\?|\/)/ig, "");
     }
     var path = directory + "\\" + filename;
-
     var ADO = new ActiveXObject("ADODB.Stream");
     ADO.Mode = 3;
     ADO.Type = 1;
@@ -511,10 +506,9 @@ function download(url, directory, filename) {
     ADO.Write(request("GET", url, ""));
     ADO.SaveToFile(path, 2);
     ADO.Close();
-
     // 如果文件不存在
     if (!fso.FileExists(path)) {
-        return "";
+        throw new Error("文件下载失败");
     }
     return path;
 }
