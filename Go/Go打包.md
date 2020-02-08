@@ -55,6 +55,9 @@
 
 * [https://github.com/im4x5yn74x/dropper2](https://github.com/im4x5yn74x/dropper2)
 
+* [https://github.com/caixw/gobuild](https://github.com/caixw/gobuild)
+
+
 
 ## 打包命令
 
@@ -63,7 +66,7 @@
 * [https://gist.github.com/asukakenji/f15ba7e588ac42795f421b48b8aede63](https://gist.github.com/asukakenji/f15ba7e588ac42795f421b48b8aede63)
 
 
-**设置环境**
+### 设置编译环境
 
 * [https://github.com/golang/go/blob/master/src/cmd/dist/build.go#L1513](https://github.com/golang/go/blob/master/src/cmd/dist/build.go#L1513)
 
@@ -78,9 +81,21 @@
 > `-o` 参数为指定输出程序文件名
 
 
-> 编译完成清理缓存`go clean -cache`
+- 编译完成清理缓存`go clean -cache`
+
+
+**`-ldflags`选项**
+
+* 用`ldflags`给go链接器传入参数，`go tool link`查看可用值 [https://golang.org/cmd/link](https://www.godoc.org/cmd/link)
 
 > `-ldflags="-w -s"` 选项可以减小编译后的程序体积
+
+> 注意因为`date`和`go version`的输出有空格，所以`main.BUILD_TIME`和`main.GO_VERSION`必须使用引号括起来
+
+```bash
+go build -ldflags "-X main.VERSION=1.0.0 -X 'main.BUILD_TIME=`date`' \
+-X 'main.GO_VERSION=`go version`' -X 'main.commitHash=`git rev-parse HEAD`'"
+```
 
 ### windows
 

@@ -8,13 +8,12 @@
 
 ## flag
 
-* [https://golang.google.cn/dl](https://golang.google.cn/dl)
-
-* [https://gomirrors.org](https://gomirrors.org)
-
 * [https://github.com/golang](https://github.com/golang)
 
-* [https://go-zh.org](https://go-zh.org)
+* [https://golang.google.cn/dl](https://golang.google.cn/dl)
+[https://gomirrors.org](https://gomirrors.org) [https://www.godoc.org](https://www.godoc.org)
+
+* [Go 语言文档中文翻译](https://github.com/Go-zh/go)
 
 * [Go 标准库中文文档](https://github.com/huangz1990/cngolib.com)
 
@@ -28,19 +27,36 @@
 
 * [Go 学习之路](https://github.com/developer-learning/learning-golang)
 
-* [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang)
-
 * [Go基本类型说明](https://golangbot.com/types)
 
 * [Go语言小册](https://golang.fasionchan.com/zh_CN/latest/index.html)
 
 * [模板语法指南](https://www.kancloud.cn/hello123/beego/126115)
 
-* [Go 入门指南](https://github.com/unknwon/the-way-to-go_ZH_CN)
-
 * [golang 学习笔记](https://sushengbuhuo.github.io/2019/03/18/golang-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0)
 
 * [https://doc.xuwenliang.com/docs/go](https://doc.xuwenliang.com/docs/go)
+
+* [Go 语言编程](https://github.com/astaxie/build-web-application-with-golang) - Golang电子书介绍如何使用Golang建立网络
+* 《The Way to Go》中文译本，中文正式名《[Go 入门指南](https://github.com/Unknwon/the-way-to-go_ZH_CN)》
+* 《[Go 编程基础](https://github.com/Unknwon/go-fundamental-programming)》是一套针对Go语言的视频语音教程，主要面向新手级别的学习者。
+* [第三方类库](https://golanglibs.com)
+* [Go 官方文档翻译](https://github.com/golang-china/golangdoc.translations)
+* [Go 指南](https://tour.go-zh.org/list) (《A Tour of Go》中文版)
+* [Go 简易教程](https://github.com/songleo/the-little-go-book_ZH_CN)
+(《 [The Little Go Book](https://github.com/karlseguin/the-little-go-book) 》中文版)
+* [Go 语言实战笔记](https://github.com/rujews/go-in-action-notes)
+* [Go 语言标准库](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
+* [Go 语言高级编程（Advanced Go Programming）](https://github.com/chai2010/advanced-go-programming-book)
+* [Go命令教程](https://github.com/hyper-carrot/go_command_tutorial)
+* [Go实战开发](https://github.com/astaxie/Go-in-Action)
+* [Go语言博客实践](https://github.com/achun/Go-Blog-In-Action)
+* [Java程序员的Golang入门指南](http://blog.csdn.net/dc_726/article/details/46565241)
+* [Network programming with Go 中文翻译版本](https://github.com/astaxie/NPWG_zh)
+* [Revel 框架手册](http://gorevel.cn/docs/manual/index.html)
+* [学习Go语言](http://mikespook.com/learning-go)
+* [神奇的 Go 语言](http://go.ctolib.com/docs/read/magical-go-c-index.html)
+
 
 
 ## 开源项目
