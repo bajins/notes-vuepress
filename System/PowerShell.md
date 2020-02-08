@@ -71,7 +71,7 @@ dir 'HKLM:\SOFTWARE\Microsoft\NET Framework Setup\NDP' | sort-object name -Desce
 (Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client' -Name Version).Version
 ```
 
-- 为本账户启用策略
+- 为本账户启用执行脚本策略
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -94,3 +94,25 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 ```powershell
 Get-AppxPackage *calculator* -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 ```
+
+- 循环目录
+
+```powershell
+# 获取子目录和文件并遍历
+Get-ChildItem . | ForEach-Object -Process {
+    $project_name = $_.Name
+    # 如果为子目录
+    if ($_ -is [System.IO.DirectoryInfo]) {
+        # 切换到子目录
+        Set-location $_.FullName
+        # 判断目录是否存在
+        if (Test-Path .git) {
+            git remote -v
+            Write-Host("".PadLeft(15, "*") + "开始更新 $project_name ".PadRight(30, "*"));
+            git pull
+        }
+        Set-Location ..
+    }
+}
+```
+
