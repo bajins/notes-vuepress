@@ -59,7 +59,7 @@
 
 ```powershell
 # 查看Power Shell版本
-$PSVersionTable.PSVersion.Major
+$PSVersionTable.PSVersion
 $host.Version.Major
 
 # 查看当前PowerShell的.Net运行版本
@@ -114,5 +114,17 @@ Get-ChildItem . | ForEach-Object -Process {
         Set-Location ..
     }
 }
+```
+
+- 创建文件夹
+
+```powershell
+New-Item -ItemType directory -Path 目录的路径
+```
+
+- 格式化时间
+
+```powershell
+Get-Date -Format 'yyy-MM-dd hh:mm:ss'
 ```
 

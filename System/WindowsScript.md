@@ -8,65 +8,35 @@
 
 ## flag
 
-* [Windows PowerShell,VBScript,JScript-Google趋势](https://trends.google.com/trends/explore?date=today%205-y&q=%2Fm%2F03790v,%2Fm%2F080l1,%2Fm%2F01n3qp)
-
-> 按照趋势及技术更新，推荐使用`PowerShell`
-
-
 * [Scripting](https://docs.microsoft.com/zh-cn/previous-versions/ms950396(v=msdn.10))
 
 * [Windows Script Host](https://docs.microsoft.com/zh-cn/previous-versions//9bbdkx3k%28v%3dvs.85%29)
 
 * [属性和方法及子对象](https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/x66z77t4(v=vs.84)#language-element-table)
 
+* [https://github.com/mrpapercut/wscript](https://github.com/mrpapercut/wscript)
+
 
 - `JScript`、`VBScript`同属于官方支持的`Windows Script`，这俩脚本都需要依赖于特定的宿主(`Host`)才能执行，
 `JavaScript`浏览器环境之外，还可以运行在`Windows Script Host`中。
 
-
 - `Windows Script Host`是一个`language-independent`的脚本宿主环境，主要用于执行`Windows`管理任务
 
-## WSH对象模型层级
+**脚本宿主**
 
-```bash
-WScript
-  |-- WshArguments
-  |  |-- WshNamed
-  |  |-- WshUnnamed
-  |-- WshController
-  |  |-- WshRemote
-  |    |-- WshRemoteError
-  |-- WshNetwork
-  |-- WshShell
-  |  |-- WshShortcut
-  |  |-- WshUrlShortcut
-  |  |-- WshEnvironment
-  |  |-- WshSpecialFolders
-  |  |-- WshScriptExec
-```
+> Windows脚本宿主有两个版本：一个基于Windows的版本（`Wscript.exe`），它提供用于设置脚本属性的属性表；
+> 一个基于命令提示符的版本（`Cscript.exe`），它提供命令行。用于设置脚本属性的开关。
 
-### `COM`接口可分为两类
+- `CScript.exe` 直接执行可查看帮助
 
-- `Script Execution and Troubleshooting`
+> `//E:engine` 使用执行脚本的引擎有：`VBScript`和`JScript`
 
-> 这类接口运行脚本执行`WSH`的基本的操作, 输出信息、执行基本的`COM`函数（如`CreateObject`、`GetObject`）
-
-- `Helper Functions`
-
-> 执行诸如映射网络驱动器、连接打印机、获取/修改环境变量、操作注册表之类操作
-
+- `WScript.exe`
 
 
 ## `WScript`对象
 
 > 所有的`Wscript`对象都存放在`WSHOM.ocx`文件中
-
-| 对象                         	| 说明                                 	|
-|------------------------------	|--------------------------------------	|
-| WScript.Shell                	| 脚本外壳                             	|
-| Wscript.NetWork              	| 提供网络连接和远程打印机管理的函数。 	|
-
-
 
 ### `WScript`对象的属性
 
@@ -105,7 +75,16 @@ WScript
 
 ## 常用组件对象
 
+> 所有对象都可通过`Power Shell`命令查看属性和方法`New-Object -ComObject "对象名称" | Get-Member`，
+> 获取本机所有组件脚本 [Get-COM-Objects.ps1](/files/Get-COM-Objects.ps1
+
 > 都在注册表`HKEY_CLASSES_ROOT`注册表项中，正常情况下项中带有`CLSID`键的是脚本可创建的
+
+| 对象                         	| 说明                                 	|
+|------------------------------	|--------------------------------------	|
+| WScript.Shell                	| 脚本外壳                             	|
+| Wscript.NetWork              	| 提供网络连接和远程打印机管理的函数。 	|
+
 
 | ADODB对象        	| 说明                                             	|
 |------------------	|--------------------------------------------------	|
@@ -204,32 +183,6 @@ WScript
 
 
 * [WinHTTP版本](https://docs.microsoft.com/zh-cn/windows/win32/winhttp/winhttp-versions)
-
-### 版本和封装位置
-
-| 对象                       	| dll          	| 说明                                              	|
-|----------------------------	|--------------	|---------------------------------------------------	|
-| htmlfile                   	|              	|                                                   	|
-| mhtmlfile                  	|              	|                                                   	|
-| Microsoft.XMLDOM           	|              	| 提供XML操作对象                                   	|
-| Microsoft.XMLHTTP          	| msxml.dll    	|                                                   	|
-| Msxml2.DOMDocument         	|              	|                                                   	|
-| Msxml2.DOMDocument.3.0     	|              	|                                                   	|
-| Msxml2.DOMDocument.4.0     	|              	|                                                   	|
-| Msxml2.DOMDocument.5.0     	|              	|                                                   	|
-| Msxml2.DOMDocument.6.0     	|              	|                                                   	|
-| Msxml2.ServerXMLHTTP       	| msxml2.dll   	|                                                   	|
-| Msxml2.ServerXMLHTTP.3.0   	| msxml3.dll   	|                                                   	|
-| Msxml2.ServerXMLHTTP.4.0   	| msxml4.dll   	|                                                   	|
-| Msxml2.ServerXMLHTTP.5.0   	| msxml5.dll   	|                                                   	|
-| Msxml2.ServerXMLHTTP.6.0   	| msxml6.dll   	|                                                   	|
-| MSXML2.XMLHTTP             	| msxml2.dll   	|                                                   	|
-| MSXML2.XMLHTTP.3.0         	| msxml3.dll   	|                                                   	|
-| MSXML2.XMLHTTP.4.0         	| msxml4.dll   	|                                                   	|
-| MSXML2.XMLHTTP.5.0         	| msxml5.dll   	| 此版随office2007发布，目录下可能找不到该版本的dll 	|
-| MSXML2.XMLHTTP.6.0         	| msxml6.dll   	|                                                   	|
-| WinHttp.WinHttpRequest.5.0 	| Winhttp5.dll 	|                                                   	|
-| WinHttp.WinHttpRequest.5.1 	| Winhttp.dll  	|                                                   	|
 
 
 
@@ -397,7 +350,6 @@ WScript
 
 ### 执行命令
 
-
 - `Run`
 
 > 执行命令完成后返回值是一个整数，就是`0`成功或`1`失败两个状态。
@@ -483,8 +435,8 @@ WScript
 |-------------------------------	|------------	|
 | WbemScripting                 	|            	|
 | WbemScripting.SWbemDateTime   	|            	|
-| WbemScripting.SWbemLastError  	| VMIAPI对象 	|
-| WbemScripting.SWbemLocator    	|            	|
+| WbemScripting.SWbemLastError  	|  	            |
+| WbemScripting.SWbemLocator    	| VMIAPI对象	|
 | WbemScripting.SWbemObjectPath 	|            	|
 | WbemScripting.SWbemRefresher  	|            	|
 | WebPlatStorage.WebPlatStorage 	|            	|
@@ -550,12 +502,12 @@ WScript
 
 > 在`JScript`中，永远不需要去实例化根对象`WScript`，正如同浏览器中的直接全局对象一样。
 
-- `BAT`执行`JScript`原理
+**`BAT`执行`JScript`原理**
 
 > 把`batch`命令用`JavaScript`注释`/**/`包裹住，然后用`batch`命令执行文件中的`JavaScript`代码时就不会编译`batch`命令了
->> `1>1/* ::`文件的开头
+>> `1>1/* ::` 表示文件和`batch`命令的开头
 >>
->> `*/` `batch`命令的结尾
+>> `*/` 表示`batch`命令的结尾
 
 > 执行当前脚本中的JavaScript脚本：`cscript -nologo -e:jscript "%~f0"`，`%~f0`表示当前批处理的绝对路径,去掉引号的完整路径
 
@@ -1221,6 +1173,8 @@ function autoStart(mode) {
 * [VBScript 教程](https://code.ziqiangxuetang.com/vbscript/vbscript-tutorial.html)
 
 * [VBScript 函数](https://www.w3school.com.cn/vbscript/vbscript_ref_functions.asp)
+
+* [https://github.com/MishaVernik/WScirpt](https://github.com/MishaVernik/WScirpt)
 
 
 ### vbs特殊符号
