@@ -335,9 +335,6 @@
 # OFFICE 2019 专业增强版激活码
 W8W6K-3N7KK-PXB9H-8TD8W-BWTH9
 
-# Office19_ProPlus2019XC2RVL_MAKC2R
-N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
-
 # Office19_RTM19_ProPlus2019VL_MAK_AE
 GP3YN-RPX2T-FVYT8-4TPFY-7MKG3
 ```
@@ -391,47 +388,35 @@ GP3YN-RPX2T-FVYT8-4TPFY-7MKG3
 
 ### Windows激活
 
-> 所谓的win10数字权利激活，是一种win10授权方法。该激活方法会记录你的电脑硬件信息，并保存到微软的服务器，
-> 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
+* [网页激活，在线获取确认ID](http://webact.185.hk)
 
-> 避免在vpn状态下使用本软件。激活前电脑必须联网，而且必须开启`Windows Update`服务，否则无法激活。
+**密钥命令**
 
-* [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
+- `slmgr -ipk Key` 安装产品密钥
 
-* [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
+- `slmgr -upk` 卸载密钥
 
-* [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
+- `slmgr -ato` 激活密钥
 
----
-
-* [可用的 KMS 列表](https://www.coolhub.top/archives/14)
-
-* [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)
-
-* [人人客-微软产品](https://rrkee.com/microsoft)
-
-* [windows10 product keys](https://www.windows10productkeys.info/#method1)
-
-* [03k.orgKMS服务](https://03k.org/kms.html)
-
-* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4)
-
-* [云萌 Windows 10 激活工具](https://tgsan.github.io/CMWTAT_Digital_Edition)
-
-* [Windows10产品密钥](https://www.windows10productkeys.info/#method1)
-
-* [零散坑KMS服务](https://03k.org/kms.html)
-
-* [http://webact.185.hk](http://webact.185.hk)
-
-* [kms.mogeko.me](https://mogeko.me/2019/054)
-
-* [https://kms.cangshui.net](https://kms.cangshui.net)
-
-* [https://kms.loli.beer](https://kms.loli.beer)
+- `systeminfo` 系统信息
 
 
-**windows key**
+**错误代码**
+
+- `0xC004C008` 是零售版可以电话激活、网页激活
+
+- `0xC004C020` 是批量版可以电话激活、运气好可以网页激活
+
+- `0xC004C060` 已失效
+
+- `0xC004C003` 已失效
+
+- `0x80072EE2` 因网络阻塞导致错误,稍等10分钟再重试
+
+
+**Windows Key**
+
+* [https://cherishspring.cn/s/share-key](https://cherishspring.cn/s/share-key)
 
 ```
 # Windows 10 LTSC 2019在线激活密钥
@@ -472,17 +457,51 @@ N8J24-KPRHR-36YGP-MFJFB-B4G44
 HCNDT-8RYVG-WQY4F-RM4PK-2YQH2
 ```
 
-**错误代码**
 
-- `0xC004C008` 是零售版可以电话激活、网页激活
+**KMS**
 
-- `0xC004C020` 是批量版可以电话激活、运气好可以网页激活
+* [可用的 KMS 列表](https://www.coolhub.top/archives/14)
 
-- `0xC004C060` 已失效
+* [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)
 
-- `0xC004C003` 已失效
+* [人人客-微软产品](https://rrkee.com/microsoft)
 
-- `0x80072EE2` 因网络阻塞导致错误,稍等10分钟再重试
+* [windows10 product keys](https://www.windows10productkeys.info/#method1)
+
+* [03k.orgKMS服务](https://03k.org/kms.html)
+
+* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4)
+
+* [云萌 Windows 10 激活工具](https://tgsan.github.io/CMWTAT_Digital_Edition)
+
+* [Windows10产品密钥](https://www.windows10productkeys.info/#method1)
+
+* [零散坑KMS服务](https://03k.org/kms.html)
+
+* [http://webact.185.hk](http://webact.185.hk)
+
+* [kms.mogeko.me](https://mogeko.me/2019/054)
+
+* [https://kms.cangshui.net](https://kms.cangshui.net)
+
+* [https://kms.loli.beer](https://kms.loli.beer)
+
+
+**数字激活**
+
+> 所谓的win10数字权利激活，是一种win10授权方法。该激活方法会记录你的电脑硬件信息，并保存到微软的服务器，
+> 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
+
+> 避免在vpn状态下使用本软件。激活前电脑必须联网，而且必须开启`Windows Update`服务，否则无法激活。
+
+* [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
+
+* [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
+
+* [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
+
+
+
 
 
 ### 开始菜单
