@@ -7,9 +7,11 @@
 
 ## flag
 
-* [Windows PowerShell,VBScript,JScript-Google趋势](https://trends.google.com/trends/explore?date=today%205-y&q=%2Fm%2F03790v,%2Fm%2F080l1,%2Fm%2F01n3qp)
+> `PowerShell`的命令叫做`cmdlet`(`command-let`), 采用了“动词-名词”的命名方式，动词部分取自于一个制定的动词集合，
+> 名词部分则描述了命令要操作的对象。例如，`Get-Command`就是指获取`PowerShell`中所有`cmdlet`命令。
 
-> 在`CMD`中执行`PowerShell`命令只需在命令前加`PowerShell`执行即可
+> `PowerShell`提供对`COM`（组件对象模型）和`WMI`（Windows管理规范）的完全访问，具有丰富的控制与自动化的系统管理能力，
+> 能够轻松地做到实时、大规模的管理系统。获取本机所有`COM`组件对象脚本 [Get-COM-Objects.ps1](/files/Get-COM-Objects.ps1)
 
 * [PowerShell 与 cmd 有什么不同？](https://www.zhihu.com/question/22611859/answers/updated)
 

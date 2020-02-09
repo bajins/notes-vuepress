@@ -76,7 +76,7 @@
 ## 常用组件对象
 
 > 所有对象都可通过`Power Shell`命令查看属性和方法`New-Object -ComObject "对象名称" | Get-Member`，
-> 获取本机所有组件脚本 [Get-COM-Objects.ps1](/files/Get-COM-Objects.ps1
+> 获取本机所有`COM`组件对象脚本 [Get-COM-Objects.ps1](/files/Get-COM-Objects.ps1)
 
 > 都在注册表`HKEY_CLASSES_ROOT`注册表项中，正常情况下项中带有`CLSID`键的是脚本可创建的
 
