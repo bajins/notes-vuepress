@@ -309,6 +309,24 @@
 注册码：AXSQR-RNMXG-CVOPF-FKXHY
 ```
 
+
+**WinSnap**
+
+* [https://www.ntwind.com/software/winsnap.html](https://www.ntwind.com/software/winsnap.html)
+
+* [https://eyun.baidu.com/s/3geM3SFD](https://eyun.baidu.com/s/3geM3SFD) 密码：3131
+
+* [https://www.lanzous.com/b189177/](https://www.lanzous.com/b189177/)
+
+* [https://yunpan.360.cn/surl_ym47hHpHxAu](https://yunpan.360.cn/surl_ym47hHpHxAu) （提取码：a265）
+
+* [https://cloud.189.cn/t/VVny2mj67ryy](https://cloud.189.cn/t/VVny2mj67ryy)（访问码：2972）
+
+* [https://pan.baidu.com/s/1qWIF7lE](https://pan.baidu.com/s/1qWIF7lE)
+
+
+
+
 ### 图片压缩
 
 

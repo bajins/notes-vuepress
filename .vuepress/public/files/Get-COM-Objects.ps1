@@ -83,11 +83,9 @@ function writeExcel ([string]$filePath) {
                 $x++
             }
         }
-        catch [System.UnauthorizedAccessException] {
-            Write-Host "未经授权访问的对象: $comobj"
-        }
         catch {
-            Write-Host "Class not found: $comobj"
+            Write-Host "$comobj`n" + "".PadRight(50, "-") + "`n"
+            Write-Warning $_ + "`n"
         }
     }
     # 保存excel
@@ -101,12 +99,13 @@ function writeCSV ([string]$filePath) {
 
     Write-Host "共有 $($lines.Length) 个COM对象"
     $fp = "COMObjects-Members.csv"
-    if ([System.IO.File]::Exists($fp)) {
+    if (Test-Path $fp) {
         # 文件存在则删除
         Remove-Item $fp
     }
     foreach ($comobj in $lines) {
         try {
+            New-Object -ComObject $comobj | Get-Member
             New-Object -ComObject $comobj | Get-Member | ForEach-Object {
                 $TypeName = $_.TypeName
                 $Name = $_.Name
@@ -122,11 +121,9 @@ function writeCSV ([string]$filePath) {
                 }
             } | Export-Csv $fp -UseCulture -NoTypeInformation -Encoding UTF8 -Append
         }
-        catch [System.UnauthorizedAccessException] {
-            Write-Host "未经授权访问的对象: $comobj"
-        }
         catch {
-            Write-Host "Class not found: $comobj"
+            Write-Host "$comobj`n" + "".PadRight(50, "-") + "`n"
+            Write-Warning $_ + "`n"
         }
     }
 }
@@ -142,16 +139,14 @@ function writeTXT ([string]$filePath) {
     Write-Host > $fp
 
     foreach ($comobj in $lines) {
+        $out = "$comobj`n" + "".PadRight(50, "-")
         try {
-            "$comobj" | Out-File -Encoding "UTF8" -Append $fp
-            "".PadRight(50, "-") | Out-File -Encoding "UTF8" -Append $fp
+            $out | Out-File -Encoding "UTF8" -Append $fp
             New-Object -ComObject $comobj | Get-Member | Out-File -Encoding "UTF8" -Append $fp
         }
-        catch [System.UnauthorizedAccessException] {
-            Write-Host "未经授权访问的对象: $comobj"
-        }
         catch {
-            Write-Host "Class not found: $comobj"
+            Write-Host  $out + "`n"
+            Write-Warning $_ + "`n"
         }
     }
 }

@@ -128,7 +128,6 @@ Get-ChildItem . | ForEach-Object -Process {
         # 切换到子目录
         Set-location $_.FullName
         # 判断目录是否存在
-        # if ([System.IO.Directory]::Exists(".git")) {
         if (Test-Path .git) {
             git remote -v
             Write-Host("".PadLeft(15, "*") + "开始更新 $project_name ".PadRight(30, "*"));
