@@ -54,6 +54,26 @@
 * [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
 
 
+## 在batch中嵌入运行
+
+> 由于Power Shell默认没有开启运行脚本策略，可以以此方式解决
+
+> 正则表达式排除以`@`和`:`开头的行，并将其他所有内容传递给Power Shell
+
+```batch
+@findstr /v "^@.* ^:.*" "%~f0"|powershell -&goto:eof
+<# 从这里开始是 Power Shell代码 #>
+```
+
+> 这里巧妙的借用Power Shell的注释把bat脚本命令包裹，把整个脚本内容传入Power Shell并执行
+
+```batch
+<# ::
+@powershell -<%~f0 &goto:eof
+#>
+# 从这里开始是 Power Shell代码
+```
+
 
 ## 命令
 
@@ -108,6 +128,7 @@ Get-ChildItem . | ForEach-Object -Process {
         # 切换到子目录
         Set-location $_.FullName
         # 判断目录是否存在
+        # if ([System.IO.Directory]::Exists(".git")) {
         if (Test-Path .git) {
             git remote -v
             Write-Host("".PadLeft(15, "*") + "开始更新 $project_name ".PadRight(30, "*"));

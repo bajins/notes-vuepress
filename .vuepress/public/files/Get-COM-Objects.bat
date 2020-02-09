@@ -1,3 +1,6 @@
+:: 获取本机所有`COM`组件对象 by https://www.bajins.com
+@findstr /v "^@.* ^:.*" "%~f0"|powershell -&goto:eof
+
 <#
 Get-COMObjects by https://github.com/mrpapercut/wscript/tree/master/testfiles/COMobjects
 #>

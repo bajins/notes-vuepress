@@ -76,7 +76,7 @@
 ## 常用组件对象
 
 > 所有对象都可通过`Power Shell`命令查看属性和方法`New-Object -ComObject "对象名称" | Get-Member`，
-> 获取本机所有`COM`组件对象脚本 [Get-COM-Objects.ps1](/files/Get-COM-Objects.ps1)
+> 获取本机所有`COM`组件对象脚本 [Get-COM-Objects.bat](/files/Get-COM-Objects.bat)
 
 > 都在注册表`HKEY_CLASSES_ROOT`注册表项中，正常情况下项中带有`CLSID`键的是脚本可创建的
 
@@ -206,6 +206,8 @@
 
 ## 操作文件
 
+> `Scripting.FileSystemObject`
+
 * [FileSystemObject简介](https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/d6dw7aeh(v=vs.84))
 
 * [FileSystemObject 对象](https://docs.microsoft.com/zh-cn/office/vba/language/reference/user-interface-help/filesystemobject-object)
@@ -213,7 +215,7 @@
 * [FileSystemObject操作文件](https://blog.csdn.net/pl1612127/article/details/77862174)
 
 
-### `FileSystemObject`的对象和集合
+**对象和集合**
 
 | 对象/集合  	| 描述                                                  	|
 |------------	|-------------------------------------------------------	|
@@ -228,7 +230,7 @@
 > 注意:`TextStream`对文件只可以从上往下读取，指针无法任意定位，也无法往回走。
 
 
-### `FileSystemObject`的方法和属性
+**方法和属性**
 
 
 | 方法和属性                                        	| 说明                                                                                          	|
