@@ -169,7 +169,7 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 ## 后台运行
 
 
-### `tmux`
+### Tmux
 
 > `tmux`是一款`Linux`下的终端复用工具，可以开启不同的终端窗口来将应用程序作为后台守护进程执行，即使远程连接的SSH断开也不会影响程序的执行。
 
@@ -245,6 +245,13 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 - <kbd>:kill-server</kbd> 删除所有会话
 
+- <kbd>[</kbd>或<kbd>PgUp</kbd> 进入`copy mode`，查看`tmux`中的终端输出记录
+
+> 用<kbd>PgUp</kbd>、<kbd>PgDn</kbd>、`光标` 浏览历史输出了，按<kbd>q</kbd>退出
+
+> `copy mode`其实比较类似于`vi`/`emacs`里面一个只读`buffer`，可以移动光标，可以搜索，用C-SPC开始选择，选择完后用
+> <kbd>M</kbd> + <kbd>w</kbd>拷贝(会自动退出`copy mode`)，<kbd>]</kbd>可以粘贴, <kbd>=</kbd>从剪贴板历史中选择。
+
 
 
 **开机运行**
@@ -264,70 +271,63 @@ tmux new -s 会话名 -d "命令"
 
 
 
-### screen
+### Screen
 
 > `Screen`是一款由`GNU`计划开发的用于命令行终端切换的自由软件。用户可以通过该软件同时连接多个本地或远程的命令行会话，并在其间自由切换。
 > `GNU Screen`可以看作是窗口管理器的命令行界面版本。它提供了统一的管理多个会话的界面和相应的功能。 
 
-**安装**
 
-```bash
-yum install -y screen
-```
+**命令**
 
-**创建一个会话**
+- `yum install -y screen` 安装
 
-```bash
-screen -S 会话名称
-```
+- `screen -S 会话名称` 创建一个会话
 
-**隐藏并保留当前会话**
+- `screen -ls` 列出所有的会话列表
 
-> 按<kbd>Ctrl</kbd> + <kbd>A</kbd>，再按<kbd>D</kbd>键
+- `screen -r 会话名称` 恢复会话窗口
 
-**列出所有的会话列表**
+- `exit` 关闭会话窗口
 
-```bash
-screen -ls
-```
-
-**恢复会话窗口**
-
-```bash
-screen -r 会话名称
-```
-
-**关闭会话窗口**
-
-```bash
-exit
-```
 
 **选项**
 
-- `-A` 　将所有的视窗都调整为目前终端机的大小。
+- `-A` 将所有的视窗都调整为目前终端机的大小。
 
-- `-d` <作业名称> 　将指定的screen作业离线。
+- `-d` <作业名称> 将指定的screen作业离线。
 
-- `-h` <行数> 　指定视窗的缓冲区行数。
+- `-h` <行数> 指定视窗的缓冲区行数。
 
-- `-m` 　即使目前已在作业中的screen作业，仍强制建立新的screen作业。
+- `-m` 即使目前已在作业中的screen作业，仍强制建立新的screen作业。
 
-- `-r` <作业名称> 　恢复离线的screen作业。
+- `-r` <作业名称> 恢复离线的screen作业。
 
-- `-R` 　先试图恢复离线的作业。若找不到离线的作业，即建立新的screen作业。
+- `-R` 先试图恢复离线的作业。若找不到离线的作业，即建立新的screen作业。
 
-- `-s` 　指定建立新视窗时，所要执行的shell。
+- `-s` 指定建立新视窗时，所要执行的shell。
 
-- `-S` <作业名称> 　指定screen作业的名称。
+- `-S` <作业名称> 指定screen作业的名称。
 
-- `-v` 　显示版本信息。
+- `-v` 显示版本信息。
 
-- `-x` 　恢复之前离线的screen作业。
+- `-x` 恢复之前离线的screen作业。
 
-- `-ls`或`--list` 　显示目前所有的screen作业。
+- `-ls`或`--list` 显示目前所有的screen作业。
 
-- `-wipe` 　检查目前所有的screen作业，并删除已经无法使用的screen作业。
+- `-wipe` 检查目前所有的screen作业，并删除已经无法使用的screen作业。
+
+
+
+**快捷键**
+
+> 所有的快捷键都是先按一下<kbd>Ctrl</kbd> + <kbd>A</kbd>松开，这时快捷键生效再按其他按键
+
+- <kbd>D</kbd> 隐藏并保留当前会话
+
+- <kbd>[</kbd>或<kbd>PgUp</kbd> 进入`copy mode`，查看`Screen`中的终端输出记录
+
+> 进入后它是`vi style keybindings`。对于拷贝文字，第一次空格设置开始标记，然后用<kbd>h</kbd>、<kbd>j</kbd>、<kbd>k</kbd>、
+> <kbd>l</kbd>、<kbd>w</kbd>移动光标，第二次空格完成拷贝。粘贴用<kbd>]</kbd>
 
 
 

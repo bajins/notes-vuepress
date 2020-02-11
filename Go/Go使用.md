@@ -465,23 +465,41 @@ func HttpClient(method, urlText, contentType string, params map[string]string) (
 * [go timer 和 ticker 的区别](https://learnku.com/articles/23578/the-difference-between-go-timer-and-ticker)
 
 
-- 不固定某个时间，滚动间隔时间执行
+**固定到每天的Duration**
 
 ```go
-// 启动的时候执行一次，不固定某个时间，滚动间隔时间执行
-func SchedulerIntervalsTimer(f func(), duration time.Duration) {
+now := time.Now()
+// 计算下一个时间点
+next := now.Add(duration)
+next = time.Date(next.Year(), next.Month(), next.Day(), 0, 0, 0, 0, next.Location())
+if next.Sub(now) <= 0 {
+    next = next.Add(time.Hour * 24)
+}
+ticker := time.NewTicker(next.Sub(now))
+timer := time.NewTimer(next.Sub(now))
+```
+
+
+
+**Ticker**
+
+> ticker只要定义完成，从此刻开始计时，不需要任何其他的操作，每隔固定时间都会触发。
+
+> NewTicker返回一个新的 Ticker，该 Ticker 包含一个通道字段，并会每隔时间段 d 就向该通道发送当时的时间。它会调  
+> 整时间间隔或者丢弃 tick 信息以适应反应慢的接收者。如果d <= 0会触发panic。关闭该 Ticker 可以释放相关资源
+
+```go
+// 启动的时候执行一次，滚动间隔时间执行
+func SchedulerIntervalsTicker(f func(), duration time.Duration) {
+    // 创建一个 Timer，它会在最少过去时间段 d后到期，向其自身的 C 字段发送当时的时间
+    ticker := time.NewTicker(duration)
 	for {
-		go func() {
-			f()
-		}()
-		// 创建一个 Timer，它会在最少过去时间段 d后到期，向其自身的 C 字段发送当时的时间
-		ticker := time.NewTicker(duration)
+		go f()
 		<-ticker.C
 	}
 }
 
-// 不固定某个时间，滚动间隔时间执行
-func SchedulerIntervalsTimer(f func(), duration time.Duration) {
+func SchedulerIntervalsTicker(f func(), duration time.Duration) {
 	var ch chan int
 	// 定时任务
 	ticker := time.NewTicker(duration)
@@ -494,47 +512,36 @@ func SchedulerIntervalsTimer(f func(), duration time.Duration) {
 	<-ch
 }
 
-// 不固定某个时间，滚动间隔时间执行
-func SchedulerIntervalsTimer(f func(), duration time.Duration) {
+func SchedulerIntervalsTicker(f func(), duration time.Duration) {
 	// 定时任务
 	ticker := time.NewTicker(duration)
 	for range ticker.C {
-		go func() {
-			f()
-		}()
+		go f()
 	}
 }
 ```
 
+**Timer**
 
-- 固定在指定的时间执行
+> `timer`定时器，是到固定时间后会执行一次，它会在最少过去时间段 d 后到期，向其自身的 C 字段发送当时的时间
 
 ```go
-// 启动的时候执行一次，固定在每天的某个时间滚动执行
+// 启动的时候执行一次
 func SchedulerFixedTimer(f func(), duration time.Duration) {
-	for {
-		go func() {
-			f()
-		}()
-		now := time.Now()
-		// 计算下一个时间点
-		next := now.Add(duration)
-		next = time.Date(next.Year(), next.Month(), next.Day(), 0, 0, 0, 0, next.Location())
-		ticker := time.NewTimer(now.Sub(next))
-		<-ticker.C
-	}
+    timer := time.NewTimer(duration)
+    for {
+        go f()
+        <-timer.C
+        // Reset 使 ticker 重新开始计时，否则会导致通道堵塞，（本方法返回后再）等待时间段 d 过去后到期。
+        // 如果调用时t还在等待中会返回真；如果 t已经到期或者被停止了会返回假
+        timer.Reset(duration)
+    }
 }
 
-// 固定在每天的某个时间滚动执行
 func SchedulerFixedTimer(f func(), duration time.Duration) {
-	var ch chan int
-	now := time.Now()
-	// 计算下一个时间点
-	next := now.Add(duration)
-	next = time.Date(next.Year(), next.Month(), next.Day(), 0, 0, 0, 0, next.Location())
-	ticker := time.NewTimer(now.Sub(next))
+	timer := time.NewTimer(duration)
 	go func() {
-		for range ticker.C {
+		for range timer.C {
 			f()
 		}
 		ch <- 1
@@ -542,17 +549,10 @@ func SchedulerFixedTimer(f func(), duration time.Duration) {
 	<-ch
 }
 
-// 固定在每天的某个时间滚动执行
 func SchedulerFixedTimer(f func(), duration time.Duration) {
-	now := time.Now()
-	// 计算下一个时间点
-	next := now.Add(duration)
-	next = time.Date(next.Year(), next.Month(), next.Day(), 0, 0, 0, 0, next.Location())
-	ticker := time.NewTimer(now.Sub(next))
-	for range ticker.C {
-		go func() {
-			f()
-		}()
+	timer := time.NewTimer(duration)
+	for range timer.C {
+		go f()
 	}
 }
 ```
