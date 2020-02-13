@@ -365,6 +365,18 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 - 勾选`Python` -> `Show import popup`
 
 
+
+### 函数注释
+
+- 打开 `File` -> `Settings` -> `Tools` -> `Python Integrated Tools`
+
+1. `Docstring format` 选择格式：默认`Plain`（空的）、`Epytext`（Python2）、`reStructuredText`、`NumPy`、`Google`
+
+2. `Docstrings` -> `Analyze Python code in docstrings` 分析文档字符串中的python代码
+
+3. `Render external documentation for stdlib` 渲染stdlib的外部文档
+
+
 ## GoLand
 
 ### `Go File`自定义头注释
