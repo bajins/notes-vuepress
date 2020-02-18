@@ -171,7 +171,7 @@
 
 * [https://github.com/XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection)
 
-* [https://github.com/ngosang/trackerslist](https://github.com/ngosang/trackerslist)
+* `BT-Trackers`服务器地址 [https://github.com/ngosang/trackerslist](https://github.com/ngosang/trackerslist)
 
 
 **迅雷**
@@ -194,8 +194,6 @@
 * [https://github.com/ziahamza/webui-aria2](https://github.com/ziahamza/webui-aria2)
 
 * [https://github.com/mayswind/AriaNg](https://github.com/mayswind/AriaNg)
-
-
 
 
 **Internet Download Manager**
@@ -355,6 +353,8 @@ W8W6K-3N7KK-PXB9H-8TD8W-BWTH9
 
 # Office19_RTM19_ProPlus2019VL_MAK_AE
 GP3YN-RPX2T-FVYT8-4TPFY-7MKG3
+N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
+6NCGF-GQQ2F-H83HF-9DWMY-92GTG
 ```
 
 
@@ -406,7 +406,9 @@ GP3YN-RPX2T-FVYT8-4TPFY-7MKG3
 
 ### Windows激活
 
-* [网页激活，在线获取确认ID](http://webact.185.hk)
+> 网页激活（电话激活）当弹出安装ID时，鼠标左键点击弹出的窗口，按<kbd>Ctrl</kbd> + <kbd>C</kbd>复制，并粘贴到在线获取确认ID网站：
+> [http://webact.185.hk](http://webact.185.hk)的页面中；
+
 
 **密钥命令**
 
@@ -478,6 +480,15 @@ HCNDT-8RYVG-WQY4F-RM4PK-2YQH2
 
 **KMS**
 
+
+* [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
+
+* [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
+
+* [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
+
+---
+
 * [可用的 KMS 列表](https://www.coolhub.top/archives/14)
 
 * [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)
@@ -505,13 +516,6 @@ HCNDT-8RYVG-WQY4F-RM4PK-2YQH2
 > 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
 
 > 避免在vpn状态下使用本软件。激活前电脑必须联网，而且必须开启`Windows Update`服务，否则无法激活。
-
-* [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
-
-* [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
-
-* [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
-
 
 
 
@@ -598,12 +602,6 @@ HCNDT-8RYVG-WQY4F-RM4PK-2YQH2
 * [http://wenlei.ys168.com](http://wenlei.ys168.com)
 
 * [简化快捷键](https://szzhiyang.github.io)
-
-
-
-
----
-
 
 
 **Photoshop CC**
