@@ -1,4 +1,4 @@
-# Markdown语法
+# Markdown
 
 
 [[toc]]
@@ -10,16 +10,15 @@
 
 > 该文件用来测试和展示书写README的各种markdown语法。
 >
-> GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。
->
-> 简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
+> GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，
+> 除了README文件外，issues和wiki均支持markdown语法。
 
 
 * [https://github.com/commonmark](https://github.com/commonmark)
 
 * [GitHub Flavored Markdown基本撰写和格式语法](https://help.github.com/cn/github/writing-on-github/basic-writing-and-formatting-syntax)
 
-
+* [https://segmentfault.com/markdown](https://segmentfault.com/markdown)
 
 
 ## 横线
@@ -40,12 +39,12 @@ ___
 
 ## 标题
 
-- `#` 一级标题
-- `##` 二级标题
-- `###` 三级标题
-- `####` 四级标题
-- `#####` 五级标题
-- `######` 六级标题
+`#` 一级标题  
+`##` 二级标题  
+`###` 三级标题  
+`####` 四级标题  
+`#####` 五级标题  
+`######` 六级标题  
 
 
 ## 文本
@@ -59,45 +58,6 @@ ___
 > 在一行开头加入1个Tab或者4个空格。
 
     Hello,大家好，我是果冻虾仁。
-    
-
-### 多行文本
-
-```html
-<details>
-<summary>各模块的artifactId，请点击此处展开查看</summary>
-  
-  - 你好
-  - 我好
-  - 挺好
-</details>
-```
-
-<details>
-<summary>各模块的artifactId，请点击此处展开查看</summary>
-  
-  - 你好
-  - 我好
-  - 挺好
-</details>
-
-```html
-<details>
-<summary>各模块的artifactId，请点击此处展开查看</summary>
-  
-1. 你好
-2. 我好
-3. 挺好
-</details>
-```
-
-<details>
-<summary>各模块的artifactId，请点击此处展开查看</summary>
-  
-1. 你好
-2. 我好
-3. 挺好
-</details>
 
 
 ### 文本块
@@ -264,7 +224,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 * 昵称：果冻虾仁
 - 别名：隔壁老王
-* 英文名：Jelly
++ 英文名：Jelly
 
 ### 多级无序列表
 
@@ -418,4 +378,147 @@ string &operator+(const string& A,const string& B) //cpp
 + 鸟宿池边树，僧敲月下门
 - 鸟宿池边树，僧推月下门
 ```
+
+
+## 行内HTML元素
+
+> 目前只支持部分段内HTML元素效果，包括 `<kdb></kdb>`、`<b></b>`、`<i></i>`、`<em></em>`、`<sup></sup>`、`<sub></sub>`、
+> `<br/>`、`<details><summary></summary></details>`
+
+
+
+## 工具
+
+### 微信公众号排版
+
+* [md.aclickall.com](https://md.aclickall.com)
+
+* [https://github.com/doocs/md](https://github.com/doocs/md)
+
+* [https://github.com/mdnice/markdown-nice](https://github.com/mdnice/markdown-nice)
+
+* [https://github.com/lyricat/wechat-format](https://github.com/lyricat/wechat-format)
+
+* [https://github.com/zkqiang/wechat-mdeditor](https://github.com/zkqiang/wechat-mdeditor)
+
+* [https://github.com/dyc87112/online-markdown](https://github.com/dyc87112/online-markdown)
+
+* [https://github.com/didadi599/wechat-markdown-editor](https://github.com/didadi599/wechat-markdown-editor)
+
+* [wechat-editor](https://so-easy.cc/wechat-editor)
+
+* [https://knb.im/mp](https://knb.im/mp)
+
+* [https://github.com/ufologist/wechat-mp-article](https://github.com/ufologist/wechat-mp-article)
+
+---
+
+* [mp-transform-public](https://github.com/ZhuPeng/mp-transform-public)
+
+
+
+### 表格生成
+
+> `HTML`表格转`Excel`可以直接在`office Excel`中点击 `数据` -> `自网站` -> `URL` 然后进行操作
+
+* [tableconvert](https://tableconvert.com)
+
+* [https://github.com/stevecat/table-magic](https://github.com/stevecat/table-magic)
+
+* [markdown_tables](http://www.tablesgenerator.com/markdown_tables)
+
+* [https://github.com/domchristie/turndown](https://github.com/domchristie/turndown)
+
+
+
+### 生成文件结构树
+
+* [mddir](https://github.com/JohnByrneRepo/mddir)
+
+* [treer](https://github.com/derycktse/treer)
+
+
+### 生成标题目录树
+
+> `TOC` [https://en.wikipedia.org/wiki/Table_of_contents](https://en.wikipedia.org/wiki/Table_of_contents)
+
+
+* [tocdown](https://dohliam.github.io/tocdown) [https://github.com/dohliam/tocdown](https://github.com/dohliam/tocdown)
+
+* [markdown-toc-generate](https://magnetikonline.github.io/markdown-toc-generate)
+[源码](https://github.com/magnetikonline/markdown-toc-generate)
+
+* [tocenize](https://github.com/nochso/tocenize)
+
+* [doctoc](https://github.com/thlorenz/doctoc)
+
+* [MDToc](https://github.com/dkyaorui/MDToc)
+
+* [markdown-it-toc-and-anchor](https://github.com/medfreeman/markdown-it-toc-and-anchor)
+
+* [gulp-format-md](https://github.com/jonschlinkert/gulp-format-md)
+
+
+### 转换器
+
+* [https://github.com/domchristie/turndown](https://github.com/domchristie/turndown)
+
+* [https://github.com/markdown-it/markdown-it](https://github.com/markdown-it/markdown-it)
+
+
+### 在线版客户端
+
+* [https://github.com/mdnice/markdown-resume](https://github.com/mdnice/markdown-resume)
+
+* [xkeditor](https://github.com/syfxlin/xkeditor)
+
+> XK-Editor | 一个支持富文本和Markdown的编辑器
+
+* [editor.md](https://github.com/pandao/editor.md)
+
+> Editor.md 是一款开源的、可嵌入的 Markdown 在线编辑器（组件），基于 CodeMirror、jQuery 和 Marked 构建。
+
+* [remarkable](https://github.com/jonschlinkert/remarkable)
+
+* [markdown](https://tool.lu/markdown)
+
+* [dillinger](http://dillinger.io)
+
+> 漂亮强大，支持md, html, pdf 文件导出。支持dropbox, onedrive，google drive, github. 来自国外，可能不够稳定。
+
+* [StackEdit](https://stackedit.io)
+
+* [MaHua](http://mahua.jser.me)
+
+* [马克飞象](https://maxiang.io)
+
+* [Markdown Plus](http://mdp.tylingsoft.com)
+
+* [小书匠](http://markdown.xiaoshujiang.com)
+
+* [Cmd Markdown](https://www.zybuluo.com/mdeditor)
+
+
+### 本地版客户端
+
+* [typora](https://www.typora.io)
+
+* [MarkPad](https://github.com/Code52/DownmarkerWPF)
+
+> MarkPad 是款开源的 Markdown 编辑器，与 Window 8 风格和谐友好的界面，可以直接在你的博客或者 GitHub 中打开、保存文档，
+> 直接将图片粘贴到 Markdown 文档中。
+
+* [Haroopad](http://pad.haroopress.com/user.html)
+
+* [https://github.com/MacDownApp/macdown](https://github.com/MacDownApp/macdown)
+
+
+### 其他
+
+* [github-corners](https://github.com/tholman/github-corners)
+
+> GitHub图标
+
+
+
 

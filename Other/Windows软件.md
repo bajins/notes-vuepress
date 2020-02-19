@@ -325,12 +325,6 @@
 
 
 
-### 图片压缩
-
-
-
-
-
 ## 文件压缩
 
 * [https://www.bandisoft.com/bandizip](https://www.bandisoft.com/bandizip)
@@ -412,7 +406,7 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 
 **密钥命令**
 
-- `slmgr -ipk Key` 安装产品密钥
+- `slmgr -ipk 密钥` 安装产品密钥
 
 - `slmgr -upk` 卸载密钥
 
