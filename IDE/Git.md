@@ -643,8 +643,8 @@ sudo /etc/init.d/dns-clean start
 * [Github Actions 尝鲜](https://segmentfault.com/a/1190000020873860)
 
 
-> 生成公钥和私钥`ssh-keygen -t rsa -b 4096 -C "youremailhere@example.com" -N ""`（ACTION_DEPLOY_KEY），
-> 或者生成新的个人访问令牌（ACCESS_TOKEN）[https://github.com/settings/tokens/new](https://github.com/settings/tokens/new)
+> 生成公钥和私钥`ssh-keygen -t rsa -b 4096 -C "yourname@example.com" -f 文件名称 -N ""`（ACTION_DEPLOY_KEY），
+> 或者生成新的个人访问令牌（PERSONAL_TOKEN）[https://github.com/settings/tokens/new](https://github.com/settings/tokens/new)
 
 
 ---
