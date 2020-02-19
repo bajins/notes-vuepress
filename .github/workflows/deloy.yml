@@ -22,9 +22,9 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.2.0
-        env:
-          DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-#          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+        with:
+#          DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
           EXTERNAL_REPOSITORY: woytu/woytu.github.io
           PUBLISH_BRANCH: master
           PUBLISH_DIR: ./docs
