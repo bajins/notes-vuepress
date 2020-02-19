@@ -1,26 +1,29 @@
 name: blog deploy
 
-on: 
+on:
   push:
-    branches: 
+    branches:
       - master
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    
     steps:
-    - uses: actions/checkout@master
-    - run: npm ci
-    - run: npm install
-    - run: npm run build
-    
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3.1.0
-      env:
-        personal_token: ${{secrets.ACCESS_TOKEN}}
-        external_repository: woytu/woytu.github.io
-        PUBLISH_BRANCH: master
-        force_orphan: true
-        user_name: woytu
-        user_email: admin@woytu.com
+      - uses: actions/checkout@master
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - run: npm ci
+      - run: npm install
+      - run: npm run build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3.1.0
+        env:
+          personal_token: ${{secrets.ACCESS_TOKEN}}
+          external_repository: woytu/woytu.github.io
+          PUBLISH_BRANCH: master
+          force_orphan: true
+          user_name: woytu
+          user_email: admin@woytu.com

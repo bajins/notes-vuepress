@@ -585,6 +585,8 @@ volumes:
 
 * [https://github.com/probot/probot](https://github.com/probot/probot)
 
+* [https://help.github.com/cn](https://help.github.com/cn)
+
 
 ### 访问速度过慢
 
@@ -594,7 +596,8 @@ volumes:
 
 * [Windows设置GitHub的Hosts脚本](/files/设置GitHub的Hosts.bat)
 
-#### 刷新DNS缓存
+
+**刷新DNS缓存**
 
 - macOS
 
@@ -633,6 +636,31 @@ sudo /etc/init.d/dns-clean start
 * [https://zeit.co](https://zeit.co)
 
 
+### Actions
+
+* [GitHub Actions 入门教程](http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)
+
+* [Github Actions 尝鲜](https://segmentfault.com/a/1190000020873860)
+
+
+> 生成公钥和私钥`ssh-keygen -t rsa -b 4096 -C "youremailhere@example.com" -N ""`（ACTION_DEPLOY_KEY），
+> 或者生成新的个人访问令牌（ACCESS_TOKEN）[https://github.com/settings/tokens/new](https://github.com/settings/tokens/new)
+
+
+---
+
+* [https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=deploy-to-github-pages](https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=deploy-to-github-pages)
+
+* [https://github.com/peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
+
+* [https://github.com/JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action)
+
+* [https://github.com/actions/create-release](https://github.com/actions/create-release)
+
+* [https://github.com/actions/upload-release-asset](https://github.com/actions/upload-release-asset)
+
+
+
 
 ### Online IDE
 
@@ -659,8 +687,10 @@ sudo /etc/init.d/dns-clean start
 
 > 替换`https://github.com`为`https://github.com.cnpmjs.org`
 
-### `Custom domain`被清空
+
+### CustomDomain被清空
 
 > 发布成功之后github pages的Custom domain配置项就被清空
 
 [github-pages-basics](http://wiki.jikexueyuan.com/project/github-pages-basics/cname-file.html)
+
