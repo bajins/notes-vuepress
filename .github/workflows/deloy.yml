@@ -22,7 +22,7 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.2.0
-        with:
+        with: # 为预定义变量赋值
 #          DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
           EXTERNAL_REPOSITORY: woytu/woytu.github.io
@@ -31,3 +31,4 @@ jobs:
           FORCE_ORPHAN: true
           USER_NAME: woytu
           USER_EMAIL: admin@woytu.com
+#        env: # 设置环境变量并赋值
