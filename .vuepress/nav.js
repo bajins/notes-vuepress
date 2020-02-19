@@ -39,8 +39,8 @@ module.exports = [
                         link: '/Other/Markdown工具'
                     },
                     {
-                        text: 'PC软件',
-                        link: '/Other/PC-software'
+                        text: 'Windows软件',
+                        link: '/Other/Windows软件'
                     },
                 ]
             }
