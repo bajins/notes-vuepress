@@ -92,9 +92,22 @@ chrome://flags/#enable-parallel-downloading
 
 * [JSON查看器：json-viewer](https://github.com/tulios/json-viewer)
 
+* [DFPM是用于检测浏览器指纹的浏览器扩展](https://github.com/freethenation/DFPM)
+
+
+---
+
 * [将完整的网页保存到单个HTML文件](https://github.com/gildas-lormeau/SingleFile)
 
-* [DFPM是用于检测浏览器指纹的浏览器扩展](https://github.com/freethenation/DFPM)
+* [https://github.com/vsDizzy/SaveAsMHT](https://github.com/vsDizzy/SaveAsMHT)
+
+* [https://github.com/brian-girko/save-as-mhtml](https://github.com/brian-girko/save-as-mhtml)
+
+* [Save Page WE](https://chrome.google.com/webstore/detail/save-page-we/dhhpefjklgkmgeafimnjhojgjamoafof)
+
+* [https://github.com/danny0838/webscrapbook](https://github.com/danny0838/webscrapbook)
+
+* [https://github.com/mika-cn/maoxian-web-clipper](https://github.com/mika-cn/maoxian-web-clipper)
 
 
 

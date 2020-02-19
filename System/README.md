@@ -127,7 +127,7 @@
 | \                      | /                     | 目录路径分隔符                 |
 | ==                     | =                     | (等于)字符串比较测试             |
 | !==!                   | !=                    | (不等)字符串比较测试             |
-| |                      | |                     | 管道                      |
+| \|                      | \|                     | 管道                      |
 | @                      | set +v                | 不打印当前命令                 |
 | *                      | *                     | 文件名"通配符"                |
 | >                      | >                     | 文件重定向(覆盖)               |
@@ -200,6 +200,8 @@
 * [https://github.com/search?o=desc&q=vmess&s=updated&type=Repositories](https://github.com/search?o=desc&q=vmess&s=updated&type=Repositories)
 
 * [https://github.com/search?o=desc&q=v2ray&s=updated&type=Repositories](https://github.com/search?o=desc&q=v2ray&s=updated&type=Repositories)
+
+* [https://github.com/topics/v2ray?o=desc&s=updated](https://github.com/topics/v2ray?o=desc&s=updated)
 
 * [https://github.com/Alvin9999/new-pac/wiki](https://github.com/Alvin9999/new-pac/wiki)
 
@@ -299,18 +301,6 @@
 * [https://t.me/s/FQ_FREE](https://t.me/s/FQ_FREE)
 
 
----
-
-
-* [燕子VPN : 永久免费的VPN](https://apkcombo.com/zh-cn/%E7%87%95%E5%AD%90vpn-%E6%B0%B8%E4%B9%85%E5%85%8D%E8%B4%B9%E7%9A%84vpn/com.stone.vssr)
-
-* [宝岛VPN(一键连接,永久免费)](https://apkcombo.com/zh-cn/formosavpn-one-story-connection-free/com.FormosaVPN.ang)
-
-* [老王VPN(永久免费佛系VPN)](https://apkcombo.com/zh-cn/wang-vpn-%E2%9D%A4%EF%B8%8F-free-fast-stable-best-vpn-just-try-it/com.findtheway)
-
-* [免费ss vpn(永久免费)](https://apkcombo.com/zh-cn/free-ss-vpn/com.mika.yangvpn)
-
-
 **WireGuard**
 
 * [https://github.com/WireGuard](https://github.com/WireGuard)
@@ -348,8 +338,6 @@
 * [v2rayNG-android](https://github.com/2dust/v2rayNG/releases)
 
 * [v2rayN-Windows](https://github.com/2dust/v2rayN/releases)
-
-* [V2RayW-Windows](https://github.com/Cenmrev/V2RayW/releases)
 
 * [https://github.com/Qv2ray/Qv2ray](https://github.com/Qv2ray/Qv2ray)
 
