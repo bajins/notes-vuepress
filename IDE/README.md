@@ -110,6 +110,8 @@
 
 **Notepad++**
 
+- 查看快捷键：`设置` –> `管理快捷键` -> `Scintilla命令`
+
 * [替换默认记事本](https://npp-user-manual.org/docs/other-resources/#notepad-replacement)
 
 - `Tab`替换为空格

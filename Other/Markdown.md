@@ -389,6 +389,32 @@ string &operator+(const string& A,const string& B) //cpp
 
 ## 工具
 
+### 输出目录结构
+
+**Windows**
+
+- `TREE [drive:][path] [/F] [/A]`
+     - /F   显示每个文件夹中文件的名称。默认是只输出文件夹的名字。
+     - /A   使用 ASCII 字符，而不使用扩展字符。
+
+
+**Linux**
+
+- `yum install -y tree` 安装
+
+- `tree --help` 查看使用帮助
+
+- `man tree` 查看更详细的参数说明
+
+
+**NodeJS**
+
+* [https://github.com/JohnByrneRepo/mddir](https://github.com/JohnByrneRepo/mddir)
+
+* [https://github.com/zero9527/node-test](https://github.com/zero9527/node-test)
+
+
+
 ### 微信公众号排版
 
 * [md.aclickall.com](https://md.aclickall.com)
