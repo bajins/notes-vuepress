@@ -349,7 +349,7 @@ function decompression(cmd, shell, fso, currentDirectory, zipName, exeFolder) {
     zipName = currentDirectory + "\\" + zipName;
     var sp = exeFolder.split("\\");
     var exeName = " " + sp[sp.length - 1] + "\\frpc.exe ";
-    get7z();
+    download7zz();
     // 解压并覆盖文件（-aoa）
     shell.Run(cmd + "7za e -aoa " + zipName + exeName, 0, true);
     // 如果文件不存在

@@ -37,7 +37,7 @@ if "%~2"=="" (
 )
 
 :: %~f0 表示当前批处理的绝对路径,去掉引号的完整路径
-cscript -nologo -e:jscript "%~f0" get7z
+cscript -nologo -e:jscript "%~f0" download7zz
 if not "%errorlevel%" == "0" (
     @cmd /k
     goto :EXIT
@@ -149,9 +149,9 @@ for (i = 0; i < Argv.length; i++) {
 
 if (Argv.length > 0) {
     switch (Argv(0)) {
-        case "get7z":
+        case "download7zz":
             try {
-                get7z();
+                download7zz();
             } catch (e) {
                 error(e.message);
                 // 非正常退出
