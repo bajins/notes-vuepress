@@ -94,6 +94,14 @@ del 文件名
 ```
 
 
+### 解压MSI
+
+```batch
+msiexec /a "MSI文件路径" /qn TARGETDIR="解压输出目录绝对路径"
+```
+
+
+
 ## 环境变量
 
 * [set](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/set_1)

@@ -113,6 +113,7 @@ var path = Argv(2);
 ```js
 /**
  * HTTP请求
+ * 查看方法属性：New-Object -ComObject "WinHttp.WinHttpRequest.5.1" | Get-Member
  *
  * @param method        GET,POST
  * @param url           请求地址
@@ -207,6 +208,7 @@ function request(method, url, dataType, data, contentType) {
 
 /**
  * 下载文件
+ * 查看方法属性：New-Object -ComObject "ADODB.Stream" | Get-Member
  *
  * @param url
  * @param directory 文件存储目录
@@ -253,6 +255,7 @@ function download(url, directory, filename) {
 ```js
 /**
  * 解析XML
+ * 查看方法属性：New-Object -ComObject "Msxml2.DOMDocument.6.0" | Get-Member
  *
  * @param xml xml字符串或者文件路径
  * @returns {*}
@@ -300,6 +303,7 @@ function XMLParsing(xml) {
 ```js
 /**
  * 解析HTML
+ * 查看方法属性：New-Object -ComObject "htmlfile" | Get-Member
  *
  * @param html html字符串或者文件路径
  * @returns {any}
@@ -517,6 +521,7 @@ function osVersion() {
 ```js
 /**
  * 解压zip
+ * 查看方法属性：New-Object -ComObject "Shell.Application" | Get-Member
  * 
  * @param zipFile       zip文件全路径
  * @param unDirectory   解压目录
@@ -549,65 +554,70 @@ function unZip(zipFile, unDirectory) {
 
 ```js
 /**
- * 获取7-Zip
- *
- */
-function get7z() {
-    var shell = new ActiveXObject("WScript.shell");
-    // 执行7z命令判断是否执行成功
-    var out = shell.Run("cmd /c 7za", 0, true);
-    var directory = "c:\\windows";
-    var url = "https://git.io/JvYAg";
-    // 如果执行失败说明7z不存在
-    if (out == 1) {
-        download(url, directory, "7za.exe");
-    }
-    // 执行7z命令判断是否执行成功
-    out = shell.Run("cmd /c 7za", 0, true);
-    var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // 如果执行失败，或者文件不存在
-    if (out == 1 || !fso.FileExists(directory + "\\7za.exe")) {
-        get7z();
-    }
-}
-
-/**
  * 下载7-Zip
  */
 function download7z() {
-    var srcUrl = "https://sourceforge.net/projects/sevenzip/rss?path=/7-Zip";
-    var filename;
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    var shell = new ActiveXObject("WScript.shell");
+    var storage = "c:\\windows";
+    var exea = storage + "\\7za.exe";
+    var dlla = storage + "\\7za.dll";
+    var exe = storage + "\\7z.exe";
+    var dll = storage + "\\7z.dll";
     try {
-        var txt = request("get", srcUrl, "text", "", "");
-        var links = XMLParser(txt).getElementsByTagName("link");
-        var link = links[5].firstChild.nodeValue.split("/");
-        filename = link[link.length - 2];
+        var filename = "";
+        var reg = new RegExp("7z.*\-x64.msi", "igm");
+        try {
+            var url = "https://sourceforge.net/projects/sevenzip/rss?path=/7-Zip";
+            filename = reg.exec(request("get", url, "text", "", ""));
+        } catch (e) {
+            WScript.StdOut.WriteLine(e.message);
+            var url = "https://www.7-zip.org/download.html";
+            filename = reg.exec(request("get", url, "text", "", ""));
+        }
+        // 当前文件所在目录
+        var dir = fso.GetFile(WScript.ScriptFullName).ParentFolder;
+        var msi = dir + '\\' + filename;
+        if (fso.FileExists(msi)) {
+            fso.DeleteFile(msi);
+        }
+        var zipDir = dir + '\\7zip';
+        if (fso.FolderExists(zipDir)) {
+            fso.DeleteFolder(zipDir);
+        }
+        download("https://www.7-zip.org/a/" + filename, dir, filename);
+        // 解压msi文件
+        shell.Run('msiexec /a "' + msi + '" /qn TARGETDIR="' + zipDir + '"', 0, true);
+        fso.CopyFile(dir + "\\7zip\\Files\\7-Zip\\7z.exe", exe);
+        fso.CopyFile(dir + "\\7zip\\Files\\7-Zip\\7z.dll", dll);
+        fso.DeleteFolder(dir + "\\7zip");
+        fso.DeleteFile(msi);
+        filename = filename.toString().replace("x64.msi", "extra.7z");
+        download("https://www.7-zip.org/a/" + filename, dir, filename);
+        var exetra = dir + '\\' + filename;
+        // -o参数必须与值之间不能有空格
+        shell.Run('7z x "' + exetra + '" -o"' + storage + '" 7za.exe 7za.dll', 0, true);
+        fso.DeleteFile(exetra);
     } catch (e) {
         WScript.StdOut.WriteLine(e.message);
-        srcUrl = "https://www.7-zip.org/download.html";
-        var html = HtmlParsing(request("get", srcUrl, "text", "", ""));
-        var tbody = html.getElementsByTagName("tbody")(4);
-        var href = tbody.children(3).firstChild.firstChild.getAttribute("href");
-        href = href.split("/");
-        filename = href[href - 1];
-    }
-    var dlUrl = "https://www.7-zip.org/a/" + filename;
-    // 当前文件所在目录
-    var currentDir = fso.GetFile(WScript.ScriptFullName).ParentFolder;
-    try {
-        download(dlUrl, currentDir, filename);
-    } catch (e) {
-        throw new Error("下载7z错误：" + e.message);
+        download("https://git.io/JvYAg", storage, "7za.exe");
+        // 执行7z命令判断是否执行成功,如果执行失败，或者文件不存在
+        if (shell.Run("cmd /c 7za", 0, true) == 1 || !fso.FileExists(exea)) {
+            throw new Error("下载7z错误：" + e.message);
+        }
     }
 }
 ```
 
 
 
-
 ### 数据库
 
 ```js
+/**
+ * 数据库
+ * 查看方法属性：New-Object -ComObject "ADODB.Connection" | Get-Member
+ */
 function db(){
     // 创建数据库对象   
     var objdbConn = new ActiveXObject("ADODB.Connection");

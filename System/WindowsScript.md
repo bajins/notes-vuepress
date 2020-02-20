@@ -192,6 +192,10 @@
 > `WIA`自动化层可以轻松地从数码相机，扫描仪或网络摄像头获取图像，以及旋转，缩放和注释图像文件。
 > `WIA Automation Layer`取代了`Windows Image Acquisition（WIA）1.0`提供的`WIA`脚本模型。
 
+> `New-Object -ComObject "WIA.ImageFile" | Get-Member`
+
+> `New-Object -ComObject "WIA.ImageProcess" | Get-Member`
+
 * [Windows图像采集（WIA）](https://docs.microsoft.com/zh-cn/windows/win32/wia/-wia-startpage)
 
 * [使用](https://docs.microsoft.com/zh-cn/previous-versions/windows/desktop/wiaaut/-wiaaut-howto-use-filters)
@@ -206,7 +210,7 @@
 
 ## 操作文件
 
-> `Scripting.FileSystemObject`
+> `Scripting.FileSystemObject`对象提供的功能：`New-Object -ComObject "Scripting.FileSystemObject" | Get-Member`
 
 * [FileSystemObject简介](https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/d6dw7aeh(v=vs.84))
 
@@ -316,7 +320,7 @@
 
 * [Wscript.Shell 对象详细介绍](https://www.jb51.net/article/5683_all.htm)
 
-> `Wscript.Shell`对象提供的功能
+> `Wscript.Shell`对象提供的功能：`New-Object -ComObject "Wscript.Shell" | Get-Member`
 
 - `Run` `Exec` 执行`cmd`命令
 - `CreateShortcut` 创建快捷方式
@@ -352,16 +356,16 @@
 
 ### 执行命令
 
-- `Run`
+**`Run`**
 
 > 执行命令完成后返回值是一个整数，就是`0`成功或`1`失败两个状态。
 
-> `Run`的后两个参数，一个是`cmd`窗口的风格，一个是是否等待执行完成。
+> `int Run(string, Variant, Variant)`第二个是`cmd`窗口的风格，第三个是否等待执行完成。
 
 | 窗口风格 | 说明                                                            |
 |------|---------------------------------------------------------------|
 | 0    | 隐藏一个窗口并激活另一个窗口。                                               |
-| 1    | 激活并显示窗口。如果窗口处于最小化或最大化状态，则系统将其还原到原始大小和位置。第一次显示该窗口时，应用程序应指定此标志。 |
+| 1    | 如果窗口处于最小化或最大化状态，则系统将其还原到原始大小和位置。第一次显示该窗口时，应用程序应指定此标志。 |
 | 2    | 激活窗口并将其显示为最小化窗口。                                              |
 | 3    | 激活窗口并将其显示为最大化窗口。                                              |
 | 4    | 按最近的窗口大小和位置显示窗口。活动窗口保持活动状态。                                   |
@@ -369,11 +373,11 @@
 | 6    | 最小化指定的窗口，并按照Z顺序激活下一个顶部窗口。                                     |
 | 7    | 将窗口显示为最小化窗口。活动窗口保持活动状态。                                       |
 | 8    | 将窗口显示为当前状态。活动窗口保持活动状态。                                        |
-| 9    | 激活并显示窗口。如果窗口处于最小化或最大化状态，则系统将其还原到原始大小和位置。还原最小化窗口时，应用程序应指定此标志。  |
+| 9    | 如果窗口处于最小化或最大化状态，则系统将其还原到原始大小和位置。还原最小化窗口时，应用程序应指定此标志。  |
 | 10   | 根据启动应用程序的程序状态来设置显示状态                                          |
 
 
--`Exec`
+**`Exec`**
 
 > 返回值是一个对象，从返回对象中可以获得控制台输出信息和控制台错误信息，即`StdOut` 和 `StdErr` 属性等。
 
@@ -429,7 +433,7 @@
 > `SWBEM`脚本是可以用来访问和控制WMI内部对象的一系列可用在脚本中的对象，
 > 脚本通过访问`wbemdisp.dll`这个`library`来访问`VMI`对象，这个仅被设计用来为脚本工作。
 
-> 通过`WbemScripting.SWbemLocator`创建对象
+> `WbemScripting.SWbemLocator`对象提供的功能：`New-Object -ComObject "WbemScripting.SWbemLocator" | Get-Member`
 
 > 查询方式类似sql语句（其实系统信息也是存储在计算中一个类似数据库的文件中）获取我们需要的对象的记录集
 

@@ -32,7 +32,7 @@
 
 * [绿软博客](http://liujin-greensoft.lofter.com)
 
-* [殁漂遥](https://www.mpyit.com)
+* [殁漂遥](http://www.laomo.me)
 
 * [奇客小栈](http://www.geekotg.com)
 
