@@ -20,6 +20,7 @@ jobs:
       - run: npm install
       - run: npm run build
 
+# https://github.com/peaceiris/actions-gh-pages
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.2.0
         with: # 为预定义变量赋值
