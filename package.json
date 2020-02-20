@@ -9,8 +9,6 @@
     "lint-md": "yarn lint-md:style && yarn lint-md:wording",
     "lint-md:style": "remark --quiet --frail .",
     "lint-md:wording": "textlint ./docs/**/*.md",
-    "push-docs": "vuepress build --temp .temp --no-cache && node .vuepress/push-docs.js",
-    "push-pages": "vuepress build --temp .temp --no-cache && node .vuepress/push-pages.js",
     "clean-build": "rimraf docs/*",
     "test": "node .vuepress/push.js",
     "view-info": "vuepress view-info --temp .temp --no-cache",

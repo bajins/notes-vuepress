@@ -16,7 +16,8 @@
 
 * [https://nodejs.org/zh-cn](https://nodejs.org/zh-cn)
 
-
+> `node`执行脚本时获取参数`process.argv`数组，下标`0`为执行程序的绝对路径，下标`1`为脚本的绝对路径，
+> 所以真正的参数从下标`2`开始`process.argv.splice(2)`
 
 
 ## 第三方依赖

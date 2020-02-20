@@ -2,6 +2,12 @@ const fs = require('fs');
 const path = require('path');
 const {exec} = require('child_process');
 
+/**
+ * 执行命令
+ *
+ * @param command 命令
+ * @param dir 执行命令的工作目录
+ */
 function execute(command, dir) {
     // exec函数第一个参数是要执行的命令，第二个函数是配置选项，第三个参数是回调函数，
     // 第二个参数中一个比较常用的就是子进程的工作目录
