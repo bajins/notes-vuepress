@@ -19,7 +19,7 @@ if not exist "%~dp0$testAdmin$" (
 setlocal enabledelayedexpansion
 
 :: %~f0 表示当前批处理的绝对路径,去掉引号的完整路径
-cscript -nologo -e:jscript "%~f0" download7zz
+cscript -nologo -e:jscript "%~f0" download7z
 if not "%errorlevel%" == "0" (
     @cmd /k
     goto :EXIT
@@ -109,22 +109,16 @@ endlocal&exit /b %errorlevel%
 
 var Argv = WScript.Arguments;
 for (i = 0; i < Argv.length; i++) {
-    WScript.StdOut.WriteLine("参数：" + Argv(i));
+    WScript.Echo("参数：", Argv(i));
 }
 
 if (Argv.length > 0) {
     switch (Argv(0)) {
-        case "download7zz":
-            try{
-                download7zz();
-            }catch(e){
-                WScript.StdErr.WriteLine(e.message);
-                // 非正常退出
-                WScript.Quit(1);
-            }
+        case "download7z":
+            download7z();
             break;
         default:
-            help();
+            WScript.Echo("双击执行即可！");
     }
     // 正常退出
     WScript.Quit(0);
@@ -133,6 +127,7 @@ if (Argv.length > 0) {
 
 /**
  * HTTP请求
+ * 查看方法属性：New-Object -ComObject "WinHttp.WinHttpRequest.5.1" | Get-Member
  *
  * @param method        GET,POST
  * @param url           请求地址
@@ -153,7 +148,7 @@ function request(method, url, dataType, data, contentType) {
         method = method.toUpperCase();
     }
     if (contentType == "" || contentType == null || contentType.length <= 0) {
-        contentType = "application/x-www-form-unlenconded;charset=utf-8";
+        contentType = "application/x-www-form-unlenconded";
     }
     var XMLHTTPVersions = [
         'WinHttp.WinHttpRequest.5.1',
@@ -176,10 +171,10 @@ function request(method, url, dataType, data, contentType) {
             XMLHTTP = new ActiveXObject(XMLHTTPVersions[i]);
             break;
         } catch (e) {
-            WScript.StdOut.Write(XMLHTTPVersions[i]);
-            WScript.StdOut.WriteLine("：" + e.message);
+            WScript.Echo(XMLHTTPVersions[i] + ":", e.message);
         }
     }
+    XMLHTTP.SetTimeouts(0, 1800000, 1800000, 1800000);
     //将对象转化成为querystring形式
     var paramarray = [];
     for (key in data) {
@@ -213,9 +208,6 @@ function request(method, url, dataType, data, contentType) {
         case "stream":
             return XMLHTTP.responseStream;
             break;
-        case "xml":
-            return XMLHTTP.responseXML;
-            break;
         case "json":
             return eval("(" + XMLHTTP.responseText + ")");
             break;
@@ -227,6 +219,7 @@ function request(method, url, dataType, data, contentType) {
 
 /**
  * 下载文件
+ * 查看方法属性：New-Object -ComObject "ADODB.Stream" | Get-Member
  *
  * @param url
  * @param directory 文件存储目录
@@ -268,55 +261,53 @@ function download(url, directory, filename) {
 
 /**
  * 下载7-Zip
+ *
+ * @param mode 下载模式：默认0不覆盖下载，1覆盖下载
  */
-function download7z() {
-    var fso = new ActiveXObject("Scripting.FileSystemObject");
+function download7z(mode) {
     var shell = new ActiveXObject("WScript.shell");
+    // 执行7z命令判断是否存在
+    if (shell.Run("cmd /c 7za", 0, true) == 0 && (!mode || mode == 0)) {
+        return;
+    }
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
     var storage = "c:\\windows";
-    var exea = storage + "\\7za.exe";
-    var dlla = storage + "\\7za.dll";
     var exe = storage + "\\7z.exe";
     var dll = storage + "\\7z.dll";
+    var filename = "";
+    var reg = new RegExp("7z.*\-x64.msi", "igm");
     try {
-        var filename = "";
-        var reg = new RegExp("7z.*\-x64.msi", "igm");
-        try {
-            var url = "https://sourceforge.net/projects/sevenzip/rss?path=/7-Zip";
-            filename = reg.exec(request("get", url, "text", "", ""));
-        } catch (e) {
-            WScript.StdOut.WriteLine(e.message);
-            var url = "https://www.7-zip.org/download.html";
-            filename = reg.exec(request("get", url, "text", "", ""));
-        }
-        // 当前文件所在目录
-        var dir = fso.GetFile(WScript.ScriptFullName).ParentFolder;
-        var msi = dir + '\\' + filename;
-        if (fso.FileExists(msi)) {
-            fso.DeleteFile(msi);
-        }
-        var zipDir = dir + '\\7zip';
-        if (fso.FolderExists(zipDir)) {
-            fso.DeleteFolder(zipDir);
-        }
-        download("https://www.7-zip.org/a/" + filename, dir, filename);
-        // 解压msi文件
-        shell.Run('msiexec /a "' + msi + '" /qn TARGETDIR="' + zipDir + '"', 0, true);
-        fso.CopyFile(dir + "\\7zip\\Files\\7-Zip\\7z.exe", exe);
-        fso.CopyFile(dir + "\\7zip\\Files\\7-Zip\\7z.dll", dll);
-        fso.DeleteFolder(dir + "\\7zip");
-        fso.DeleteFile(msi);
-        filename = filename.toString().replace("x64.msi", "extra.7z");
-        download("https://www.7-zip.org/a/" + filename, dir, filename);
-        var exetra = dir + '\\' + filename;
-        // -o参数必须与值之间不能有空格
-        shell.Run('7z x "' + exetra + '" -o"' + storage + '" 7za.exe 7za.dll', 0, true);
-        fso.DeleteFile(exetra);
+        var url = "https://sourceforge.net/projects/sevenzip/rss?path=/7-Zip";
+        filename = reg.exec(request("get", url, "text", "", ""));
     } catch (e) {
-        WScript.StdOut.WriteLine(e.message);
-        download("https://git.io/JvYAg", storage, "7za.exe");
-        // 执行7z命令判断是否执行成功,如果执行失败，或者文件不存在
-        if (shell.Run("cmd /c 7za", 0, true) == 1 || !fso.FileExists(exea)) {
-            throw new Error("下载7z错误：" + e.message);
-        }
+        WScript.Echo(e.message);
+        var url = "https://www.7-zip.org/download.html";
+        filename = reg.exec(request("get", url, "text", "", ""));
     }
+    // 当前文件所在目录
+    var dir = fso.GetFile(WScript.ScriptFullName).ParentFolder;
+    var msi = dir + '\\' + filename;
+    if (fso.FileExists(msi)) {
+        fso.DeleteFile(msi);
+    }
+    var zipDir = dir + '\\7zip';
+    if (fso.FolderExists(zipDir)) {
+        fso.DeleteFolder(zipDir);
+    }
+    download("https://www.7-zip.org/a/" + filename, dir, filename);
+    // 解压msi文件
+    shell.Run('msiexec /a "' + msi + '" /qn TARGETDIR="' + zipDir + '"', 0, true);
+    fso.CopyFile(dir + "\\7zip\\Files\\7-Zip\\7z.exe", exe);
+    fso.CopyFile(dir + "\\7zip\\Files\\7-Zip\\7z.dll", dll);
+    fso.DeleteFolder(dir + "\\7zip");
+    fso.DeleteFile(msi);
+    filename = filename.toString().replace("x64.msi", "extra.7z");
+    var exetra = dir + '\\' + filename;
+    if (fso.FileExists(exetra)) {
+        fso.DeleteFile(exetra);
+    }
+    download("https://www.7-zip.org/a/" + filename, dir, filename);
+    // -aoa解压并覆盖文件，-o参数必须与值之间不能有空格
+    shell.Run('7z x -aoa "' + exetra + '" -o"' + storage + '" 7za.exe 7za.dll', 0, true);
+    fso.DeleteFile(exetra);
 }

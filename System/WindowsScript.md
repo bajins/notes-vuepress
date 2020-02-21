@@ -27,16 +27,19 @@
 > Windows脚本宿主有两个版本：一个基于Windows的版本（`Wscript.exe`），它提供用于设置脚本属性的属性表；
 > 一个基于命令提示符的版本（`Cscript.exe`），它提供命令行。用于设置脚本属性的开关。
 
-- `CScript.exe` 直接执行可查看帮助
+- [CScript.exe](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/cscript)直接执行可查看帮助
 
 > `//E:engine` 使用执行脚本的引擎有：`VBScript`和`JScript`
 
-- `WScript.exe`
+- [WScript.exe](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/wscript)
 
 
 ## `WScript`对象
 
 > 所有的`Wscript`对象都存放在`WSHOM.ocx`文件中
+
+* [Windows Script Host APIS](https://github.com/microsoft/TypeScript/blob/master/lib/lib.scripthost.d.ts)
+
 
 ### `WScript`对象的属性
 
@@ -51,9 +54,9 @@
 | Path           	| String           	| 返回包含宿主可执行文件（CScript.exe 或 WScript.exe）的路径名称。 	|
 | ScriptFullName 	| String           	| 返回当前运行脚本的完整路径。                                     	|
 | ScriptName     	| String           	| 返回当前运行脚本的文件名。                                       	|
-| StdErr         	| TextStream       	| 显示当前脚本的错误输出流。                                       	|
 | StdIn          	| TextStream       	| 显示当前脚本的输入流。                                           	|
-| StdOut         	| TextStream       	| 显示当前脚本的输出流。                                           	|
+| StdErr         	| TextStream       	| 显示当前脚本的错误输出流。`Write`输出，`WriteLine`换行输出          	|
+| StdOut         	| TextStream       	| 显示当前脚本的输出流。`Write`输出，`WriteLine`换行输出              	|
 | Timeout        	| Long             	| 超时设定秒：允许脚本运行的最长时间。                             	|
 | Version        	| String           	| 返回 Windows 脚本宿主的版本。                                    	|
 
@@ -182,8 +185,9 @@
 > `WinHttp.WinHttpRequest.5.1`是`msxml4.0`的底层对象，也就是说`XMLHTTP`、`ServerXMLHTTP`也是在它的基础上封装而来
 
 
-* [WinHTTP版本](https://docs.microsoft.com/zh-cn/windows/win32/winhttp/winhttp-versions)
+* [WinHttpRequest对象](https://docs.microsoft.com/zh-cn/windows/win32/winhttp/winhttprequest)
 
+* [DOM参考](https://docs.microsoft.com/zh-cn/previous-versions/windows/desktop/ms764730%28v%3dvs.85%29)
 
 
 ## 图像处理

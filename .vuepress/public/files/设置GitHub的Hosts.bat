@@ -44,7 +44,7 @@ endlocal&exit /b %errorlevel%
 
 var Argv = WScript.Arguments;
 for (i = 0; i < Argv.length; i++) {
-    WScript.StdOut.WriteLine("参数：" + Argv(i));
+    WScript.Echo("参数：", Argv(i));
 }
 
 if (Argv.length > 0) {
@@ -53,10 +53,8 @@ if (Argv.length > 0) {
             autoStart("startup");
             break;
         case "?","help":
-            help();
-            break;
         default:
-            help();
+            WScript.Echo("双击执行即可！");
     }
     // 正常退出
     WScript.Quit(0);
@@ -145,23 +143,16 @@ function isInArray(arr, obj) {
     return false;
 }
 
-function error(msg) {
-    WScript.StdErr.WriteLine(msg);
-}
-
-function info(msg) {
-    WScript.StdOut.WriteLine(msg);
-}
-
 function help() {
-    info("基本用法:");
-    info("   " + WScript.ScriptName + " autoRun");
-    info("     autoRun 是否开启开机自动运行：默认0不开启,1开启");
+    WScript.Echo("基本用法:");
+    WScript.Echo("   " + WScript.ScriptName, "autoRun");
+    WScript.Echo("     autoRun 是否开启开机自动运行：默认0不开启,1开启");
 }
 
 
 /**
  * HTTP请求
+ * 查看方法属性：New-Object -ComObject "WinHttp.WinHttpRequest.5.1" | Get-Member
  *
  * @param method        GET,POST
  * @param url           请求地址
@@ -182,7 +173,7 @@ function request(method, url, dataType, data, contentType) {
         method = method.toUpperCase();
     }
     if (contentType == "" || contentType == null || contentType.length <= 0) {
-        contentType = "application/x-www-form-unlenconded;charset=utf-8";
+        contentType = "application/x-www-form-unlenconded";
     }
     var XMLHTTPVersions = [
         'WinHttp.WinHttpRequest.5.1',
@@ -205,10 +196,10 @@ function request(method, url, dataType, data, contentType) {
             XMLHTTP = new ActiveXObject(XMLHTTPVersions[i]);
             break;
         } catch (e) {
-            WScript.StdOut.Write(XMLHTTPVersions[i]);
-            WScript.StdOut.WriteLine("：" + e.message);
+            WScript.Echo(XMLHTTPVersions[i] + ":", e.message);
         }
     }
+    XMLHTTP.SetTimeouts(0, 1800000, 1800000, 1800000);
     //将对象转化成为querystring形式
     var paramarray = [];
     for (key in data) {
@@ -242,9 +233,6 @@ function request(method, url, dataType, data, contentType) {
         case "stream":
             return XMLHTTP.responseStream;
             break;
-        case "xml":
-            return XMLHTTP.responseXML;
-            break;
         case "json":
             return eval("(" + XMLHTTP.responseText + ")");
             break;
@@ -256,6 +244,7 @@ function request(method, url, dataType, data, contentType) {
 
 /**
  * 下载文件
+ * 查看方法属性：New-Object -ComObject "ADODB.Stream" | Get-Member
  *
  * @param url
  * @param directory 文件存储目录

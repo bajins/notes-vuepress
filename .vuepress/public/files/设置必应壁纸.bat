@@ -45,7 +45,7 @@ endlocal&exit /b %errorlevel%
 
 var Argv = WScript.Arguments;
 for (i = 0; i < Argv.length; i++) {
-    WScript.StdOut.WriteLine("参数：" + Argv(i));
+    WScript.Echo("参数：", Argv(i));
 }
 
 var fso = new ActiveXObject("Scripting.FileSystemObject");
@@ -58,8 +58,6 @@ if (Argv.length > 0) {
             autoStart("startup");
             break;
         case "?","help":
-            help();
-            break;
         default:
             help();
     }
@@ -78,7 +76,7 @@ var imagePath = oldImagePath.replace(/(.+)\.[^\.]+$/, "$1") + ".bmp";
 if (!fso.FileExists(imagePath)) {
     oldImagePath = download(imageUrl, currentDirectory, imageName);
     if (imageTransform(oldImagePath, "bmp") == "") {
-        info("图片格式转为BMP失败");
+        WScript.Echo("图片格式转为BMP失败");
         WScript.Quit(1);
     }
 }
@@ -87,30 +85,24 @@ if (fso.FileExists(imagePath)) {
     WScript.Sleep(5000);
     fso.DeleteFile(imagePath);
     fso.DeleteFile(oldImagePath);
-    info("设置壁纸成功！" + imagePath);
+    WScript.Echo("设置壁纸成功！", imagePath);
     WScript.Quit(0);
 } else {
-    error("下载壁纸失败！");
+    WScript.Echo("下载壁纸失败！");
     WScript.Quit(1);
 }
 
-function error(msg) {
-    WScript.StdErr.WriteLine(msg);
-}
-
-function info(msg) {
-    WScript.StdOut.WriteLine(msg);
-}
 
 function help() {
-    info("基本用法:");
-    info("   " + WScript.ScriptName + " autoRun");
-    info("     autoRun 是否开启开机自动运行：默认0不开启,1开启");
+    WScript.Echo("基本用法:");
+    WScript.Echo("   " + WScript.ScriptName, "autoRun");
+    WScript.Echo("      autoRun 是否开启开机自动运行：默认0不开启,1开启");
 }
 
 
 /**
  * HTTP请求
+ * 查看方法属性：New-Object -ComObject "WinHttp.WinHttpRequest.5.1" | Get-Member
  *
  * @param method        GET,POST
  * @param url           请求地址
@@ -131,7 +123,7 @@ function request(method, url, dataType, data, contentType) {
         method = method.toUpperCase();
     }
     if (contentType == "" || contentType == null || contentType.length <= 0) {
-        contentType = "application/x-www-form-unlenconded;charset=utf-8";
+        contentType = "application/x-www-form-unlenconded";
     }
     var XMLHTTPVersions = [
         'WinHttp.WinHttpRequest.5.1',
@@ -145,7 +137,8 @@ function request(method, url, dataType, data, contentType) {
         'MSXML2.XMLHTTP.5.0',
         'MSXML2.XMLHTTP.4.0',
         'MSXML2.XMLHTTP.3.0',
-        'MSXML2.XMLHTTP'
+        'MSXML2.XMLHTTP',
+        'Microsoft.XMLHTTP'
     ];
     var XMLHTTP;
     for (var i = 0; i < XMLHTTPVersions.length; i++) {
@@ -153,10 +146,10 @@ function request(method, url, dataType, data, contentType) {
             XMLHTTP = new ActiveXObject(XMLHTTPVersions[i]);
             break;
         } catch (e) {
-            WScript.StdOut.Write(XMLHTTPVersions[i]);
-            WScript.StdOut.WriteLine("：" + e.message);
+            WScript.Echo(XMLHTTPVersions[i] + ":", e.message);
         }
     }
+    XMLHTTP.SetTimeouts(0, 1800000, 1800000, 1800000);
     //将对象转化成为querystring形式
     var paramarray = [];
     for (key in data) {
@@ -190,9 +183,6 @@ function request(method, url, dataType, data, contentType) {
         case "stream":
             return XMLHTTP.responseStream;
             break;
-        case "xml":
-            return XMLHTTP.responseXML;
-            break;
         case "json":
             return eval("(" + XMLHTTP.responseText + ")");
             break;
@@ -204,6 +194,7 @@ function request(method, url, dataType, data, contentType) {
 
 /**
  * 下载文件
+ * 查看方法属性：New-Object -ComObject "ADODB.Stream" | Get-Member
  *
  * @param url
  * @param directory 文件存储目录

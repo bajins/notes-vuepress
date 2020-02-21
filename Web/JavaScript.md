@@ -14,6 +14,8 @@
 
 * [ECMAScript支持度检测](https://github.com/ruanyf/es-checker)
 
+* [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese)
+
 
 **手册**
 
