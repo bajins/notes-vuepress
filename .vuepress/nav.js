@@ -11,7 +11,7 @@ module.exports = [
                     },
                     {
                         text: '获取XShell',
-                        link: 'https://tool.woetu.com'
+                        link: 'https://github.com/woytu/tool-gin'
                     },
                     {
                         text: 'GoogleDrive',
