@@ -6,16 +6,12 @@ module.exports = [
                 // text: '',
                 items: [
                     {
-                        text: '个人网盘',
-                        link: 'https://www.woytu.com',
-                    },
-                    {
                         text: 'WeChat小程序',
                         link: 'https://www.woetu.com'
                     },
                     {
                         text: '获取XShell',
-                        link: 'https://key.woytu.com'
+                        link: 'https://tool.woetu.com'
                     },
                     {
                         text: 'GoogleDrive',
