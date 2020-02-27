@@ -505,6 +505,8 @@ HCNDT-8RYVG-WQY4F-RM4PK-2YQH2
 
 * [https://kms.loli.beer](https://kms.loli.beer)
 
+* [https://www.moerats.com/kms](https://www.moerats.com/kms)
+
 
 **数字激活**
 
