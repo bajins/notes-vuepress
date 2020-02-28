@@ -12,105 +12,105 @@
 
 **博客**
 
-* [CRACKSurl](http://cracksurl.com)
+[CRACKSurl](http://cracksurl.com)
 
-* [QiuQuan's Blog](http://www.qiuquan.cc)
+[QiuQuan's Blog](http://www.qiuquan.cc)
 
-* [th_sjy](http://www.th-sjy.com)
+[th_sjy](http://www.th-sjy.com)
 
-* [v5pc](http://www.v5pc.com/category/syrj)
+[v5pc](http://www.v5pc.com/category/syrj)
 
-* [大眼仔旭](http://www.dayanzai.me)
+[大眼仔旭](http://www.dayanzai.me)
 
-* [反斗软件](http://www.apprcn.com)
+[反斗软件](http://www.apprcn.com)
 
-* [果核剥壳](https://www.ghpym.com)
+[果核剥壳](https://www.ghpym.com)
 
-* [zdBryan](https://www.423down.com)
+[zdBryan](https://www.423down.com)
 
-* [胡萝卜周](http://www.carrotchou.blog)
+[胡萝卜周](http://www.carrotchou.blog)
 
-* [懒得勤快](https://masuit.com/misc/5)
+[懒得勤快](https://masuit.com/misc/5)
 
-* [绿软博客](http://liujin-greensoft.lofter.com)
+[绿软博客](http://liujin-greensoft.lofter.com)
 
-* [殁漂遥](http://www.laomo.me)
+[殁漂遥](http://www.laomo.me)
 
-* [奇客小栈](http://www.geekotg.com)
+[奇客小栈](http://www.geekotg.com)
 
-* [轻狂志](http://www.flighty.cn)
+[轻狂志](http://www.flighty.cn)
 
-* [伤逝的安详](https://www.ssdax.com)
+[伤逝的安详](https://www.ssdax.com)
 
-* [释怀](https://shiove.com/c/9tk)
+[释怀](https://shiove.com/c/9tk)
 
-* [宋永志博客](http://www.songyongzhi.com/SystemTool)
+[宋永志博客](http://www.songyongzhi.com/SystemTool)
 
-* [我天哪鸡哥](https://www.wotianna.com)
+[我天哪鸡哥](https://www.wotianna.com)
 
-* [下1个好软件](http://www.xia1ge.com)
+[下1个好软件](http://www.xia1ge.com)
 
-* [星空软件共享绿化园地](http://www.xingkbjm.com)
+[星空软件共享绿化园地](http://www.xingkbjm.com)
 
-* [飞扬时空作品](http://blog.sina.com.cn/s/blog_89a729a40102wjwp.html)
+[飞扬时空作品](http://blog.sina.com.cn/s/blog_89a729a40102wjwp.html)
 
-* [翠竹成林](http://msbuild.cn/category/software)
+[翠竹成林](http://msbuild.cn/category/software)
 
-* [落尘之木](https://www.luochenzhimu.com)
+[落尘之木](https://www.luochenzhimu.com)
 
-* [http://itjcc.com](http://itjcc.com)
+[http://itjcc.com](http://itjcc.com)
 
-* [https://myqqjd.com](https://myqqjd.com)
+[https://myqqjd.com](https://myqqjd.com)
 
-* [http://www.ypojie.com](http://www.ypojie.com)
+[http://www.ypojie.com](http://www.ypojie.com)
 
-* [https://www.ccava.net](https://www.ccava.net)
+[https://www.ccava.net](https://www.ccava.net)
 
-* [https://ymso.net](https://ymso.net)
+[https://ymso.net](https://ymso.net)
 
-* [https://www.wsf1234.com](https://www.wsf1234.com)
+[https://www.wsf1234.com](https://www.wsf1234.com)
 
-* [http://luxiaoneng.com](http://luxiaoneng.com/category/%e5%b7%a5%e5%85%b7%e5%8c%85)
+[http://luxiaoneng.com](http://luxiaoneng.com/category/%e5%b7%a5%e5%85%b7%e5%8c%85)
 
-* [https://www.zrbk.xyz](https://www.zrbk.xyz)
+[https://www.zrbk.xyz](https://www.zrbk.xyz)
 
-* [http://yx.bsh.me](http://yx.bsh.me)
+[http://yx.bsh.me](http://yx.bsh.me)
 
 
 **论坛**
 
-* [JIKE](https://jike.info/recent?filter=new)
+[JIKE](https://jike.info/recent?filter=new)
 
-* [睿派克技术论坛](https://www.repaik.com)
+[睿派克技术论坛](https://www.repaik.com)
 
-* [52破解](https://www.52pojie.cn)
+[52破解](https://www.52pojie.cn)
 
 
 **Telegram**
 
-* [https://t.me/s/wuaipojie](https://t.me/s/wuaipojie)
+[https://t.me/s/wuaipojie](https://t.me/s/wuaipojie)
 
-* [https://t.me/s/infosaodaye](https://t.me/s/infosaodaye)
+[https://t.me/s/infosaodaye](https://t.me/s/infosaodaye)
 
 
 **other**
 
-* [瓜子云](https://yun.naodai.org/Software)
+[瓜子云](https://yun.naodai.org/Software)
 
-* [fxxkmakeding](https://www.fxxkmakeding.xyz)
+[fxxkmakeding](https://www.fxxkmakeding.xyz)
 
-* [https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367)
+[https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367)
 
 
-* [https://www.macbl.com](https://www.macbl.com)
+[https://www.macbl.com](https://www.macbl.com)
 
-* [http://lao4g.com](http://lao4g.com)
+[http://lao4g.com](http://lao4g.com)
 
 ---
 
-* [http://www.sharerw.com](http://www.sharerw.com)
+[http://www.sharerw.com](http://www.sharerw.com)
 
-* [https://htcui.com](https://htcui.com)
+[https://htcui.com](https://htcui.com)
 
 
 
@@ -560,7 +560,7 @@ HCNDT-8RYVG-WQY4F-RM4PK-2YQH2
 
 * [https://github.com/hluk/CopyQ](https://github.com/hluk/CopyQ)
 
-> 可设置`Win + v`快捷键
+> 可设置<kbd>Win</kbd> + <kbd>v</kbd>快捷键
 
 
 * [https://www.clipboardfusion.com](https://www.clipboardfusion.com)
