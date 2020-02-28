@@ -4,24 +4,20 @@
 [[toc]]
 
 
-
-
-
 ## flag
 
-
 * [http://github.lesschina.com/linux](http://github.lesschina.com/linux)
-
 
 * [speedtest](https://github.com/adolfintel/speedtest)
 
 * [acme.sh 实现了acme 协议, 可以从 letsencrypt 生成免费的证书.](https://github.com/Neilpang/acme.sh)
 
 
+**管理面板**
+
 * [https://www.bt.cn](https://www.bt.cn)
 
 * [https://www.xp.cn](https://www.xp.cn)
-
 
 
 **发行版本**
@@ -56,6 +52,7 @@
 
 * [https://github.com/electerm/electerm](https://github.com/electerm/electerm)
 
+
 **WEB**
 
 * [xterm.js](https://github.com/xtermjs/xterm.js)
@@ -65,8 +62,6 @@
 * [WebSSH2](https://github.com/billchurch/WebSSH2)
 
 * [https://github.com/mscdex/ssh2](https://github.com/mscdex/ssh2)
-
-
 
 
 **Android**
@@ -79,9 +74,8 @@
 
 
 
-
-
 ## 资源网站建立
+
 * [萌音影视 - 在线影视应用](https://github.com/178146582/moeins)
 [安装教程](https://www.moerats.com/archives/744)
 
@@ -90,8 +84,6 @@
 * [使用PlayTube搭建私人的视频网站](https://www.moerats.com/archives/644)
 
 * [开源有态度的漫画CMS](https://github.com/hiliqi/xiaohuanxiong)
-
-
 
 
 
@@ -106,7 +98,6 @@
 * [https://github.com/assimon/shanhufaka](https://github.com/assimon/shanhufaka)
 
 * [https://github.com/maddog888/kmxts](https://github.com/maddog888/kmxts)
-
 
 
 
