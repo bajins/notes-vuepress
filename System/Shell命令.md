@@ -29,6 +29,10 @@
 
 * [精选的优秀命令行框架](https://github.com/alebcay/awesome-shell)
 
+* [Linux常用命令汇总](https://blog.csdn.net/Mculover666/article/details/84558280)
+
+
+
 
 ## 查看邮箱
 
