@@ -234,31 +234,25 @@
 
 > 以上是官网下载地址，将`DNS`改为`8.8.8.8`就可以顺利下载了，若为默认的自动模式（国内DNS）则无法下载。
 
-- Public Version
+* [Public Version 32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe)
 
-> (32-bit)https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe
+* [Public Version 64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe)
 
-> (64-bit)https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe
+* [Developer Version 32-bit](http://t1.daumcdn.net/potplayer/beta/PotPlayerSetup.exe)
 
-- Developer Version
+* [Developer Version 64-bit](http://t1.daumcdn.net/potplayer/beta/PotPlayerSetup64.exe)
 
-> (32-bit)http://t1.daumcdn.net/potplayer/beta/PotPlayerSetup.exe
+* [OpenCodec(额外解码包)32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup.exe)
 
-- OpenCodec(额外解码包)
+* [OpenCodec(额外解码包)64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup64.exe)
 
-> (32-bit)https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup.exe
+* [FFmpegMininum.dll 32-bit](https://get.daum.net/PotPlayer/v4/Module/FFmpeg/FFmpegMininum.dll)
 
-> (64-bit)https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup64.exe
-
-- FFmpegMininum.dll
-
-> (32-bit)https://get.daum.net/PotPlayer/v4/Module/FFmpeg/FFmpegMininum.dll
-
-> (64-bit)https://get.daum.net/PotPlayer64/v4/Module/FFmpeg/FFmpegMininum64.dll
+* [FFmpegMininum.dll 64-bit](https://get.daum.net/PotPlayer64/v4/Module/FFmpeg/FFmpegMininum64.dll)
 
 * [Daum PotPlayer](http://daumpotplayer.com/download)
 
-* [https://pan.lanzou.com/b112173](https://pan.lanzou.com/b112173)
+* [https://www.lanzous.com/b112173](https://www.lanzous.com/b112173)
 
 
 
