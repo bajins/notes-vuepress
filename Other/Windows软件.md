@@ -74,6 +74,7 @@
 
 * [https://www.zrbk.xyz](https://www.zrbk.xyz)
 
+* [http://yx.bsh.me](http://yx.bsh.me)
 
 
 **论坛**
@@ -103,9 +104,14 @@
 
 * [https://www.macbl.com](https://www.macbl.com)
 
+* [http://lao4g.com](http://lao4g.com)
+
+---
+
 * [http://www.sharerw.com](http://www.sharerw.com)
 
-* [http://lao4g.com](http://lao4g.com)
+* [https://htcui.com](https://htcui.com)
+
 
 
 ## 浏览器
@@ -141,6 +147,10 @@
 
 * [https://github.com/monkeyWie/proxyee-down](https://github.com/monkeyWie/proxyee-down)
 
+* [http://www.neatdownloadmanager.com](http://www.neatdownloadmanager.com)
+
+* [https://github.com/subhra74/xdm](https://github.com/subhra74/xdm)
+
 ---
 
 * [BaiduPCS](https://github.com/search?o=desc&p=1&q=BaiduPCS&s=updated&type=Repositories)
@@ -163,7 +173,6 @@
 
 
 * [http://pandownload.com](http://pandownload.com)
-[PanDownload网页版](https://www.baiduwp.com)[PanDownload网页版](https://baiduwangpan.com)
 
 * [https://yixun.writeas.com](https://yixun.writeas.com)
 
@@ -212,14 +221,14 @@
 
 
 
-
 ## 播放器
 
 * [foobar2000](http://blog.sina.com.cn/go2spa)
 
+* [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
 
 
-### Potplayer
+**Potplayer**
 
 * [Global Potplayer](http://potplayer.daum.net/?lang=zh_CN)
 
@@ -253,11 +262,10 @@
 
 
 
-* [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
-
-
-
 ## 图片
+
+* [Google开发的图片压缩工具](https://github.com/GoogleChromeLabs/squoosh)
+
 
 ### Gif软件
 
@@ -278,6 +286,10 @@
 ### 截图
 
 * [https://github.com/ShareX/ShareX](https://github.com/ShareX/ShareX)
+
+* [Lightshot](https://app.prntscr.com)
+
+* [https://www.snipaste.com](https://www.snipaste.com)
 
 
 **FastStone Capture**
@@ -532,7 +544,7 @@ HCNDT-8RYVG-WQY4F-RM4PK-2YQH2
 2. [https://yunpan.360.cn/surl_ymKSxmH5PbY](https://yunpan.360.cn/surl_ymKSxmH5PbY)（提取码：298e）
 
 
-**清理工具**
+### 清理工具
 
 * [Win10Clean](https://github.com/ElPumpo/Win10Clean)
 
@@ -581,13 +593,9 @@ HCNDT-8RYVG-WQY4F-RM4PK-2YQH2
 
 ## 邮箱客户端
 
-* Outlook
-
 * [https://www.thunderbird.net](https://www.thunderbird.net)
 
 * [https://www.foxmail.com](https://www.foxmail.com)
-
-
 
 
 ## other
@@ -602,6 +610,15 @@ HCNDT-8RYVG-WQY4F-RM4PK-2YQH2
 
 * [简化快捷键](https://szzhiyang.github.io)
 
+* [火绒安全](https://www.huorong.cn)
+
+
+**文件搜索**
+
+* [https://www.listary.com/pro](https://www.listary.com/pro)
+
+* [Everything](https://www.voidtools.com)
+
 
 **Photoshop CC**
 
@@ -610,7 +627,6 @@ HCNDT-8RYVG-WQY4F-RM4PK-2YQH2
 1. [https://yunpan.360.cn/surl_ydDgKwXKPSf](https://yunpan.360.cn/surl_ydDgKwXKPSf)（提取码：0be6）
 
 2. [https://cloud.189.cn/t/UneM3imEJj2u](https://cloud.189.cn/t/UneM3imEJj2u)（访问码：0224）
-
 
 
 

@@ -8,15 +8,6 @@
 
 ## flag
 
-* [4星以上开发工具扩展](https://chrome.google.com/webstore/category/ext/11-web-development?_feature=free&_feature=4stars)
-
-* [chrome-extension-downloader](https://chrome-extension-downloader.com)
-
-* [crx4chrome](https://www.crx4chrome.com)
-
-* [https://www.extfans.com](https://www.extfans.com)
-
-* [https://www.gugeapps.net](https://www.gugeapps.net)
 
 * [Marmoset-创建漂亮的代码图片](https://chrome.google.com/webstore/detail/marmoset/npkfpddkpefnmkflhhligbkofhnafieb)
 
@@ -48,6 +39,22 @@ chrome://flags/#enable-parallel-downloading
 * [https://github.com/topics/chrome-extension?o=desc&s=stars](https://github.com/topics/chrome-extension?o=desc&s=stars)
 
 * [冻结暂时用不到的标签页](https://github.com/deanoemcke/thegreatsuspender)
+
+
+### 插件下载
+
+* [4星以上开发工具扩展](https://chrome.google.com/webstore/category/ext/11-web-development?_feature=free&_feature=4stars)
+
+* [http://crxdown.com](http://crxdown.com)
+
+* [chrome-extension-downloader](https://chrome-extension-downloader.com)
+
+* [crx4chrome](https://www.crx4chrome.com)
+
+* [https://www.extfans.com](https://www.extfans.com)
+
+* [https://www.gugeapps.net](https://www.gugeapps.net)
+ 
 
 
 ### GitHub相关

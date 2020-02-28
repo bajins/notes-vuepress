@@ -23,6 +23,15 @@
 * [https://www.xp.cn](https://www.xp.cn)
 
 
+
+**发行版本**
+
+* [Linux发行版本排行](https://distrowatch.com/dwres.php?resource=popularity)
+
+* [Linux主流发行版本](https://distrowatch.com/dwres.php?resource=major)
+
+
+
 ## SSH
 
 * [https://github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
@@ -62,11 +71,11 @@
 
 **Android**
 
+* [https://github.com/termux](https://github.com/termux)
+
 * [https://github.com/connectbot/connectbot](https://github.com/connectbot/connectbot)
 
 * [https://github.com/niklas-8/RemoteFiles](https://github.com/niklas-8/RemoteFiles)
-
-* [https://github.com/termux](https://github.com/termux)
 
 
 
@@ -175,6 +184,79 @@
 | TIME    | date            | 显示系统时间       |
 | TYPE    | cat             | 将文件输出到stdout |
 | XCOPY   | cp              | (扩展的)文件拷贝    |
+
+
+
+## 物理资源占用
+
+> 各Linux服务器主流发行版物理资源占用（磁盘和内存），`df -h && free -h`
+
+- CentOS 7.6 64位
+
+```bash
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        485M     0  485M   0% /dev
+tmpfs           496M     0  496M   0% /dev/shm
+tmpfs           496M  424K  496M   1% /run
+tmpfs           496M     0  496M   0% /sys/fs/cgroup
+/dev/vda1        50G  1.8G   46G   4% /
+tmpfs           100M     0  100M   0% /run/user/0
+
+              total        used        free      shared  buff/cache   available
+Mem:           991M         68M        631M        428K        290M        787M
+Swap:            0B          0B          0B
+```
+
+- Debian 9.0 64位
+
+```bash
+Filesystem      Size  Used Avail Use% Mounted on
+udev            424M     0  424M   0% /dev
+tmpfs            87M  1.8M   86M   3% /run
+/dev/vda1        50G  923M   46G   2% /
+tmpfs           435M     0  435M   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           435M     0  435M   0% /sys/fs/cgroup
+tmpfs            87M     0   87M   0% /run/user/0
+
+              total        used        free      shared  buff/cache   available
+Mem:           868M         32M        734M        1.8M        101M        717M
+Swap:            0B          0B          0B
+```
+
+- Ubuntu Server 18.04.1 LTS 64位
+
+```bash
+Filesystem      Size  Used Avail Use% Mounted on
+udev            462M     0  462M   0% /dev
+tmpfs            99M  5.2M   94M   6% /run
+/dev/vda1        50G  2.3G   45G   5% /
+tmpfs           493M     0  493M   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           493M     0  493M   0% /sys/fs/cgroup
+tmpfs            99M     0   99M   0% /run/user/500
+
+              total        used        free      shared  buff/cache   available
+Mem:           985M         95M        355M        5.1M        533M        743M
+Swap:            0B          0B          0B
+```
+
+- openSUSE 42.3 64位
+
+```bash
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        426M  8.0K  426M   1% /dev
+tmpfs           432M     0  432M   0% /dev/shm
+tmpfs           432M  536K  432M   1% /run
+tmpfs           432M     0  432M   0% /sys/fs/cgroup
+/dev/vda1        50G  1.7G   45G   4% /
+tmpfs            87M     0   87M   0% /run/user/0
+
+             total       used       free     shared    buffers     cached
+Mem:          863M       380M       483M       544K        17M       314M
+-/+ buffers/cache:        49M       814M
+Swap:           0B         0B         0B
+```
 
 
 

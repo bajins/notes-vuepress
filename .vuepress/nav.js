@@ -1,6 +1,6 @@
 module.exports = [
     {
-        text: '个人导航',
+        text: '更多资源',
         items: [
             {
                 // text: '',

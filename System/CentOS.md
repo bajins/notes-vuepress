@@ -5,11 +5,6 @@
 
 
 
-
-> CentOS官方已宣布在2020年停止对CentOS6的维护更新，各大软件开发商也逐渐停止对CentOS6的兼容，建议使用CentOS7
-
-
-
 ## 卸载软件
 
 ### RPM安装
@@ -240,7 +235,8 @@ yum -y update
 ### 安装必要软件
 
 ```bash
-yum install -y which gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-devel lrzsz lrzsz-devel p7zip p7zip-devel net-tools net-tools-devel vim vim-devel libaio libaio-devel
+yum install -y which gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-devel lrzsz \
+lrzsz-devel p7zip p7zip-devel net-tools net-tools-devel vim vim-devel libaio libaio-devel
 ```
 
 ### 三方工具
