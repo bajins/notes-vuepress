@@ -230,9 +230,7 @@
 
 **Potplayer**
 
-* [Global Potplayer](http://potplayer.daum.net/?lang=zh_CN)
-
-> 以上是官网下载地址，将`DNS`改为`8.8.8.8`就可以顺利下载了，若为默认的自动模式（国内DNS）则无法下载。
+* [http://potplayer.daum.net](http://potplayer.daum.net)
 
 * [Public Version 32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe)
 
@@ -250,7 +248,9 @@
 
 * [FFmpegMininum.dll 64-bit](https://get.daum.net/PotPlayer64/v4/Module/FFmpeg/FFmpegMininum64.dll)
 
-* [Daum PotPlayer](http://daumpotplayer.com/download)
+> 以上是官网下载地址，将`DNS`改为`8.8.8.8`就可以顺利下载了，若为默认的自动模式（国内DNS）则无法下载。或者使用迅雷下载
+
+* [http://daumpotplayer.com/download](http://daumpotplayer.com/download)
 
 * [https://www.lanzous.com/b112173](https://www.lanzous.com/b112173)
 
