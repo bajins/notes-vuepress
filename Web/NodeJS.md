@@ -1,10 +1,7 @@
 # NodeJS
 
 
-
 [[toc]]
-
-
 
 
 
@@ -96,7 +93,6 @@
 
 ### 安装rpm
 
-
 > npm与Node.js一起存在，这意味着当您下载并安装Node.js时，您会自动在计算机上安装npm
 
 ```bash
@@ -130,9 +126,13 @@ npm install -g yarn
 ```
 
 
-### npm和yarn镜像
+### 依赖镜像
 
-- 如果使用`yarn`，就把命令开头的`npm`替换为`yarn`
+- `npm i -g nrm` 安装`nrm`，`nrm ls` 查看下载镜像源，`nrm use taobao` 切换镜像源
+
+- 手动配置
+
+> 如果使用`yarn`，就把命令开头的`npm`替换为`yarn`
 
 ```bash
 # 查看仓库地址
@@ -163,7 +163,9 @@ npm config delete https-proxy
 ```
 
 
-### yarn更新依赖包
+### 更新依赖包
+
+**yarn**
 
 > `yarn.lock`和`package.json`都会更新，但是会进行版本锁定
 
@@ -182,20 +184,18 @@ yarn upgrade package@latest
 ```
 
 
-### npm更新依赖包
+**npm**
 
 > 更新`dependencies`到最新版本
 
 ```bash
-# 先安装
+# 先检查更新
+npm outdated
+# 安装
 npm install -g npm-check-updates
-# 或者
-yarn global add npm-check-updates
-# 检查可更新依赖
+# 检查可更新依赖，ncu
 npm-check-updates
-# 更新
-ncu -u
-# 或者
+# 更新，ncu -u
 ncu --upgrade
 # 安装最新版本依赖
 npm install
