@@ -19,7 +19,7 @@ module.exports = [
                     },
                     {
                         text: 'OneDrive',
-                        link: 'https://yinkss-my.sharepoint.com/:f:/g/personal/claer_simplove_eu_org/EpzegyPPbiFPpOt5as1chqcB7fcRzJjzbzvXb16vqLQnZA'
+                        link: 'https://yinkss-my.sharepoint.com/:f:/g/personal/claer_simplove_eu_org/EpzegyPPbiFPpOt5as1chqcBHW4a0jtvcIqOVzuJIY7-xg'
                     },
                 ]
             },
