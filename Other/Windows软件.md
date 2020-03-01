@@ -346,6 +346,10 @@
 
 ## office
 
+[https://github.com/apache/openoffice](https://github.com/apache/openoffice)
+
+[https://zh-cn.libreoffice.org](https://zh-cn.libreoffice.org)
+
 [https://github.com/YerongAI/Office-Tool](https://github.com/YerongAI/Office-Tool)
 
 **office key**
