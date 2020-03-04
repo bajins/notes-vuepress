@@ -46,9 +46,16 @@
 
 ## 静态博客或文档
 
-* [静态编译VuePress](https://github.com/vuejs/vuepress)
+* [https://github.com/topics/static-site](https://github.com/topics/static-site)
 
-* [VuePress主题](https://github.com/search?o=desc&q=vuepress-theme&s=updated&type=Repositories)
+* [https://github.com/topics/blog-engine](https://github.com/topics/blog-engine)
+
+* [https://github.com/topics/static-blog](https://github.com/topics/static-blog)
+
+
+
+* [静态编译VuePress](https://github.com/vuejs/vuepress)
+[VuePress主题](https://github.com/search?o=desc&q=vuepress-theme&s=updated&type=Repositories)
 
 * [静态编译NuxtJs](https://github.com/nuxt/nuxt.js)
 

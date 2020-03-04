@@ -112,6 +112,9 @@
 
 [https://htcui.com](https://htcui.com)
 
+[https://www.lanzous.com/b05f9wyf](https://www.lanzous.com/b05f9wyf)
+
+
 
 
 ## 浏览器
@@ -151,6 +154,14 @@
 
 [https://github.com/subhra74/xdm](https://github.com/subhra74/xdm)
 
+[猎鹰下载器 EagleGet](http://www.eagleget.com/cn/)
+
+[Free Download Manager](http://www.freedownloadmanager.org/download.htm)
+
+[Negibox葱葱盒子](https://github.com/hugetiny/negibox)
+
+[https://github.com/agalwood/Motrix](https://github.com/agalwood/Motrix)
+
 ---
 
 [BaiduPCS](https://github.com/search?o=desc&p=1&q=BaiduPCS&s=updated&type=Repositories)
@@ -181,9 +192,25 @@
 
 **BT**
 
+* `BT-Trackers`服务器地址
 [https://github.com/XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection)
+[https://github.com/ngosang/trackerslist](https://github.com/ngosang/trackerslist)
+[https://dns.icoa.cn/tracker](https://dns.icoa.cn/tracker)
+[https://github.com/CorralPeltzer/newTrackon](https://github.com/CorralPeltzer/newTrackon)
+[https://torrents.io/tracker-list](https://torrents.io/tracker-list)
 
-* `BT-Trackers`服务器地址 [https://github.com/ngosang/trackerslist](https://github.com/ngosang/trackerslist)
+
+[https://www.qbittorrent.org](https://www.qbittorrent.org)
+[https://www.lanzous.com/b073dnr7g](https://www.lanzous.com/b073dnr7g)
+
+[https://transmissionbt.com](https://transmissionbt.com)
+
+[https://deluge-torrent.org](https://deluge-torrent.org)
+
+[https://www.utorrent.com](https://www.utorrent.com)
+
+[https://www.bitcomet.com](https://www.bitcomet.com)
+[https://www.lanzous.com/b073c7g4f](https://www.lanzous.com/b073c7g4f)
 
 
 **迅雷**
@@ -206,6 +233,8 @@
 [https://github.com/ziahamza/webui-aria2](https://github.com/ziahamza/webui-aria2)
 
 [https://github.com/mayswind/AriaNg](https://github.com/mayswind/AriaNg)
+
+[https://github.com/persepolisdm/persepolis](https://github.com/persepolisdm/persepolis)
 
 
 **Internet Download Manager**
