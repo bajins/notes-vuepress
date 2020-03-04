@@ -82,7 +82,7 @@ npm install
 # 这时创建并书写你自己的md文档
 
 # 开始运行开发环境，然后访问窗口中的路径
-npm dev
+npm run dev
 
 # 修改.vuepress/public/CNAME中的域名
 
