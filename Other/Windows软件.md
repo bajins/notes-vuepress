@@ -85,6 +85,8 @@
 
 [52破解](https://www.52pojie.cn)
 
+[hwh0488远景论坛帖子](http://i.pcbeta.com/home.php?mod=space&uid=2521016&do=thread&view=me&from=space)
+
 
 **Telegram**
 
@@ -162,7 +164,8 @@
 
 [https://github.com/agalwood/Motrix](https://github.com/agalwood/Motrix)
 
----
+
+**百度网盘**
 
 [BaiduPCS](https://github.com/search?o=desc&p=1&q=BaiduPCS&s=updated&type=Repositories)
 
@@ -187,7 +190,16 @@
 
 [https://yixun.writeas.com](https://yixun.writeas.com)
 
----
+
+**蓝奏云**
+
+[https://github.com/zaxtyson/LanZouCloud-API](https://github.com/zaxtyson/LanZouCloud-API)
+
+[https://github.com/zaxtyson/LanZouCloud-CMD](https://github.com/zaxtyson/LanZouCloud-CMD)
+
+[https://github.com/rachpt/lanzou-gui](https://github.com/rachpt/lanzou-gui)
+
+[https://github.com/vcheckzen/LanzouCloudAPI](https://github.com/vcheckzen/LanzouCloudAPI)
 
 
 **BT**

@@ -570,6 +570,24 @@ rsync -r -v --exclude sourcedir/notinclude /home/work/sourcedir work@www.myhost.
 > 提示“mtr: unable to get raw sockets”
 
 
+**常用网站**
+
+* [http://ipcheck.need.sh](http://ipcheck.need.sh)
+
+* [https://torch.njs.app](https://torch.njs.app)
+
+* 瓦工的全球ping工具 [http://ping.pe](http://ping.pe)
+
+* [https://www.yougetsignal.com/tools/open-ports](https://www.yougetsignal.com/tools/open-ports)
+
+* [http://tool.chinaz.com/port](http://tool.chinaz.com/port)
+
+* [https://www.websitepulse.com/tools/china-firewall-test](https://www.websitepulse.com/tools/china-firewall-test)
+
+* [https://www.vps234.com/ipchecker](https://www.vps234.com/ipchecker)
+
+
+
 ### 脚本
 
 **bench.sh**
@@ -585,13 +603,15 @@ wget -qO- bench.sh | bash
 > 这个来自91yun的脚本，主要测试的是网络ping值及路由。
 
 ```bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/91yuntest/master/test_91yun.sh && bash test_91yun.sh s
+wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/91yuntest/master/test_91yun.sh \
+&& bash test_91yun.sh s
 ```
 
 **主机运算性能测试**
 
 ```bash
-wget --no-check-certificate https://github.com/teddysun/across/raw/master/unixbench.sh && chmod +x unixbench.sh && unixbench.sh
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/unixbench.sh \
+&& chmod +x unixbench.sh && unixbench.sh
 ```
 
 **服务器一键测试脚本**
@@ -614,7 +634,8 @@ wget https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench.sh && b
 * [https://github.com/oooldking/script](https://github.com/oooldking/script)
 
 ```bash
-wget https://raw.githubusercontent.com/oooldking/script/master/superspeed.sh && chmod +x superspeed.sh && bash superspeed.sh
+wget https://raw.githubusercontent.com/oooldking/script/master/superspeed.sh \
+&& chmod +x superspeed.sh && bash superspeed.sh
 ```
 
 

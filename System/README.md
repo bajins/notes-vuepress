@@ -232,23 +232,6 @@ Mem:           985M         95M        355M        5.1M        533M        743M
 Swap:            0B          0B          0B
 ```
 
-- openSUSE 42.3 64位
-
-```bash
-Filesystem      Size  Used Avail Use% Mounted on
-devtmpfs        426M  8.0K  426M   1% /dev
-tmpfs           432M     0  432M   0% /dev/shm
-tmpfs           432M  536K  432M   1% /run
-tmpfs           432M     0  432M   0% /sys/fs/cgroup
-/dev/vda1        50G  1.7G   45G   4% /
-tmpfs            87M     0   87M   0% /run/user/0
-
-             total       used       free     shared    buffers     cached
-Mem:          863M       380M       483M       544K        17M       314M
--/+ buffers/cache:        49M       814M
-Swap:           0B         0B         0B
-```
-
 
 
 ## svp
@@ -261,15 +244,23 @@ Swap:           0B         0B         0B
 
 * [https://github.com/Alvin9999/new-pac/wiki](https://github.com/Alvin9999/new-pac/wiki)
 
+* [https://github.com/lasoychina/v2ray_booking](https://github.com/lasoychina/v2ray_booking)
+[https://ssr.lasoy.cn](https://ssr.lasoy.cn)
+
+* [https://github.com/txthinking/brook](https://github.com/txthinking/brook)
+
+* [https://github.com/atrandys/trojan](https://github.com/atrandys/trojan)
+
+* [OpenVPN-转载](https://liuyehcf.github.io/2019/08/25/OpenVPN-%E8%BD%AC%E8%BD%BD)
+
+
 ---
 
 * [https://github.com/ssrsub/ssr/tree/master](https://github.com/ssrsub/ssr/tree/master)
 
 * [https://github.com/t9080](https://github.com/t9080)
 
-* [https://www.ssrtool.com](https://www.ssrtool.com)
-
-* [https://ssr.tools](https://ssr.tools)
+* [https://www.ssrtool.com](https://www.ssrtool.com) [https://usky.ml/tool/free_ssr](https://usky.ml/tool/free_ssr)
 
 * [https://github.com/xiaotianwl/v2ray_vps](https://github.com/xiaotianwl/v2ray_vps)
 
@@ -277,13 +268,9 @@ Swap:           0B         0B         0B
 
 * [https://github.com/ThinkDevelop/Free-SS-SSR](https://github.com/ThinkDevelop/Free-SS-SSR)
 
-* [https://toutyrater.github.io/basic/vmess.html](https://toutyrater.github.io/basic/vmess.html)
-
 * [https://github.com/max2max/freess](https://github.com/max2max/freess)
 
 * [https://github.com/ntkernel/lantern/blob/master/vmess.txt](https://github.com/ntkernel/lantern/blob/master/vmess.txt)
-
-* [https://fforever.github.io/v2rayfree](https://fforever.github.io/v2rayfree)
 
 * [https://github.com/ugvf2009/Miles](https://github.com/ugvf2009/Miles)
 [https://jiang.netlify.com](https://jiang.netlify.com)
@@ -296,29 +283,14 @@ Swap:           0B         0B         0B
 
 * [https://github.com/fggfffgbg](https://github.com/fggfffgbg)
 
-* [https://github.com/wenjiqiang/Subscribtion-SS-V2Ray](https://github.com/wenjiqiang/Subscribtion-SS-V2Ray)
-
 * [https://github.com/fqshare/free-ssr-v2ray-vpn](https://github.com/fqshare/free-ssr-v2ray-vpn)
-
-* [https://github.com/lasoychina/v2ray_booking](https://github.com/lasoychina/v2ray_booking)
-[https://ssr.lasoy.cn](https://ssr.lasoy.cn)
 
 * [https://free-ss.site](https://free-ss.site)
 
 * [https://get.ishadowx.biz](https://get.ishadowx.biz)
 [https://view.freev2ray.org](https://view.freev2ray.org)
 
-* [https://haobang.yangwang.workers.dev](https://haobang.yangwang.workers.dev)
-
-* [https://github.com/bingshengyang/v2ray-ssr](https://github.com/bingshengyang/v2ray-ssr)
-
-* [https://github.com/djdf/v2ray_ss](https://github.com/djdf/v2ray_ss)
-
-* [https://github.com/Flyju/v2ray](https://github.com/Flyju/v2ray)
-
 * [https://github.com/fanite/v2](https://github.com/fanite/v2)
-
-* [https://github.com/thdg21/v2ray](https://github.com/thdg21/v2ray)
 
 * [https://github.com/huangkuainiang/v2ray](https://github.com/huangkuainiang/v2ray)
 
@@ -326,14 +298,7 @@ Swap:           0B         0B         0B
 
 * [https://github.com/CSE2018-2019/VMESS](https://github.com/CSE2018-2019/VMESS)
 
-* [https://github.com/12345678998765/Vmess](https://github.com/12345678998765/Vmess)
-
-* [https://github.com/nullhan/HomePage/blob/master/ssr](https://github.com/nullhan/HomePage/blob/master/ssr)
-
-* [https://github.com/akatokikwok/personalVpsChnInit/blob/v2ray/config.json](https://github.com/akatokikwok/personalVpsChnInit/blob/v2ray/config.json)
-
 * [https://github.com/Sean-Snow/good-good-study-day-day-up](https://github.com/Sean-Snow/good-good-study-day-day-up)
-
 
 ---
 
@@ -370,9 +335,6 @@ Swap:           0B         0B         0B
 * [https://github.com/hongwenjun/vps_setup](https://github.com/hongwenjun/vps_setup)
 
 
-* [OpenVPN-转载](https://liuyehcf.github.io/2019/08/25/OpenVPN-%E8%BD%AC%E8%BD%BD)
-
-
 **shadowsocks**
 
 * [shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows/releases)
@@ -389,6 +351,12 @@ Swap:           0B         0B         0B
 
 * [v2ray-tools](https://www.v2ray.com/awesome/tools.html)
 
+* [v2ray教程](https://yuan.ga/v2ray-complete-tutorial)
+
+* [https://github.com/233boy/v2ray/tree/master](https://github.com/233boy/v2ray/tree/master)
+
+---
+
 * [v2ray-core](https://github.com/v2ray/v2ray-core/releases)
 
 * [v2rayNG-android](https://github.com/2dust/v2rayNG/releases)
@@ -397,8 +365,7 @@ Swap:           0B         0B         0B
 
 * [https://github.com/Qv2ray/Qv2ray](https://github.com/Qv2ray/Qv2ray)
 
-* [v2ray教程](https://yuan.ga/v2ray-complete-tutorial)
-* [https://github.com/233boy/v2ray/tree/master](https://github.com/233boy/v2ray/tree/master)
+---
 
 * [multi-v2ray](https://github.com/Jrohy/multi-v2ray)
 
@@ -409,8 +376,6 @@ Swap:           0B         0B         0B
 * [https://github.com/sprov065/v2-ui](https://github.com/sprov065/v2-ui)
 
 * [https://github.com/pengchujin/v2rayDocker](https://github.com/pengchujin/v2rayDocker)
-
-* [https://github.com/htfy96/v2ray-config-gen](https://github.com/htfy96/v2ray-config-gen)
 
 * [https://github.com/leitbogioro/v2ray.fun](https://github.com/leitbogioro/v2ray.fun)
 

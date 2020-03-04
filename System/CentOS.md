@@ -450,11 +450,6 @@ rpm -qa | wc -l
 ## 内核升级
 
 
-* [OpenVZ魔改BBR的一键安装脚本](https://github.com/nanqinlang-tcp/tcp_nanqinlang-test)
-
-* [安装命令参考](https://github.com/tcp-nanqinlang/wiki/wiki/lkl-haproxy)
-
-
 ### 手动安装
 
 - 检查当前CentOS系统版本
@@ -548,14 +543,16 @@ rpm -qa | grep kernel
 yum remove 内核名字
 ```
 
-### 一键安装脚本
+## 一键安装BBR
 
 * [秋水逸冰](https://github.com/teddysun/across)
 
 - 下载并执行脚本
 
 ```bash
-wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
+chmod +x bbr.sh
+./bbr.sh
 ```
 
 > 安装完成后，脚本会提示需要重启 VPS，输入`y`并回车后重启。
