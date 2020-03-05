@@ -26,32 +26,38 @@
 
 * [https://github.com/PowerShell](https://github.com/PowerShell)
 
-* [https://github.com/oneget/oneget](https://github.com/oneget/oneget) [https://www.nuget.org](https://www.nuget.org)
+* [安装适用于 Linux 的 Windows 子系统](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
 
-* [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
----
+
+**包管理**
+
+* [https://github.com/oneget/oneget](https://github.com/oneget/oneget) [https://www.nuget.org](https://www.nuget.org)
 
 * [https://github.com/chocolatey](https://github.com/chocolatey)
 
 * [https://github.com/lukesampson/scoop](https://github.com/lukesampson/scoop)
 
+* [https://github.com/cmderdev/cmder](https://github.com/cmderdev/cmder)
 
-* [安装适用于 Linux 的 Windows 子系统](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
 
 
----
+**终端**
 
 * [https://github.com/topics/windows](https://github.com/topics/windows)
+
+* [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
 
 * [https://github.com/appget](https://github.com/appget)
 
 * [https://github.com/x64dbg](https://github.com/x64dbg)
 
-* [https://github.com/cmderdev/cmder](https://github.com/cmderdev/cmder)
+* [https://github.com/Maximus5/ConEmu](https://github.com/Maximus5/ConEmu)
 
 * [https://github.com/Eugeny/terminus](https://github.com/Eugeny/terminus)
 
 * [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
+
+
 
 
 ## 在batch中嵌入运行
