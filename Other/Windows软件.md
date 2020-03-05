@@ -198,11 +198,11 @@
 **BT**
 
 * `BT-Trackers`服务器地址
-[https://github.com/XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection)
-[https://github.com/ngosang/trackerslist](https://github.com/ngosang/trackerslist)
-[https://dns.icoa.cn/tracker](https://dns.icoa.cn/tracker)
-[https://github.com/CorralPeltzer/newTrackon](https://github.com/CorralPeltzer/newTrackon)
-[https://torrents.io/tracker-list](https://torrents.io/tracker-list)
+    * [https://github.com/XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection)
+    * [https://github.com/ngosang/trackerslist](https://github.com/ngosang/trackerslist)
+    * [https://dns.icoa.cn/tracker](https://dns.icoa.cn/tracker)
+    * [https://github.com/CorralPeltzer/newTrackon](https://github.com/CorralPeltzer/newTrackon)
+    * [https://torrents.io/tracker-list](https://torrents.io/tracker-list)
 
 
 [https://www.qbittorrent.org](https://www.qbittorrent.org)
