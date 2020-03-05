@@ -148,7 +148,7 @@
 [https://github.com/topics/download-manager](https://github.com/topics/download-manager)
 
 
-[xdown-org](https://github.com/xdown-org)[https://xdown.org](https://xdown.org)
+[https://github.com/xdown-org](https://github.com/xdown-org) [https://xdown.org](https://xdown.org)
 
 [https://github.com/monkeyWie/proxyee-down](https://github.com/monkeyWie/proxyee-down)
 
@@ -200,13 +200,21 @@
 * `BT-Trackers`服务器地址
     * [https://github.com/XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection)
     * [https://github.com/ngosang/trackerslist](https://github.com/ngosang/trackerslist)
-    * [https://dns.icoa.cn/tracker](https://dns.icoa.cn/tracker)
     * [https://github.com/CorralPeltzer/newTrackon](https://github.com/CorralPeltzer/newTrackon)
+    * [https://dns.icoa.cn/tracker](https://dns.icoa.cn/tracker)
     * [https://torrents.io/tracker-list](https://torrents.io/tracker-list)
+    * [https://newtrackon.com/list](https://newtrackon.com/list)
+    * [http://github.itzmx.com/1265578519/OpenTracker/master/tracker.txt](http://github.itzmx.com/1265578519/OpenTracker/master/tracker.txt)
+    * [https://tinytorrent.net/best-torrent-tracker-list-updated](https://tinytorrent.net/best-torrent-tracker-list-updated)
+    * [https://torrenttrackerss.com/torrent-tracker-list](https://torrenttrackerss.com/torrent-tracker-list)
+    * [http://www.torrenttrackerlist.com/torrent-tracker-list](http://www.torrenttrackerlist.com/torrent-tracker-list)
+    * [https://github.com/DeSireFire/animeTrackerList](https://github.com/DeSireFire/animeTrackerList)
 
 
-[https://www.qbittorrent.org](https://www.qbittorrent.org)
+[https://github.com/qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent)
 [https://www.lanzous.com/b073dnr7g](https://www.lanzous.com/b073dnr7g)
+
+[https://github.com/c0re100/qBittorrent-Enhanced-Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition)
 
 [https://transmissionbt.com](https://transmissionbt.com)
 
