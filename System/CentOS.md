@@ -232,63 +232,6 @@ yum -y update
 ```
 
 
-### 安装必要软件
-
-```bash
-yum install -y which gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-devel lrzsz \
-lrzsz-devel p7zip p7zip-devel net-tools net-tools-devel vim vim-devel libaio libaio-devel
-```
-
-### 三方工具
-
-**`figlet`**
-
-> Linux下的命令行工具，我们经常会看到一些终端工具有一个字符Logo,这些Logo可以通过`Figlet`生成：
-
-```bash
-yum install -y figlet
-```
-
-> 居中显示用 `-c`
->
-> 从文件导入用 `-p`
->> 比如从testFile导入`figlet -c -p < testFile`
->
-> 还可以用`-w`指定宽度。
->
-> 实时显示时间`watch -n1 "date '+%D%n%T' |figlet -k"`
-
-**`boxes`**
-
-> 这个工具提供了 n 种样式，例如各种动物等，然后你输入的字符就放在这些图案的内部空白处。
-
-```bash
-yum -y install boxes
-```
-
-> 使用boxes -l列出所有的样式。
-
-```bash
-echo [text] | boxes -d [style name]
-# 比如dog
-echo "Hello World" | boxes -d dog
-```
-
-**`Toilet`**
-
-> 可以输出更丰富的样式，它比 `figlet` 命令的效果更有艺术感。
-
-```bash
-echo "Hello World" | toilet -f term -F border --gay
-# 可以有颜色
-toilet -f mono12 -F metal Linux
-# 多种样式
-while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done
-```
-
-
-
-
 ## `systemctl`
 
 > `systemctl`是`CentOS7`的服务管理工具中主要的工具，它融合之前`service`和`chkconfig`的功能于一体。

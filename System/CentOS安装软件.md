@@ -6,6 +6,62 @@
 
 
 
+## 必要软件
+
+```bash
+yum install -y which gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-devel lrzsz \
+lrzsz-devel p7zip p7zip-devel net-tools net-tools-devel vim vim-devel libaio libaio-devel
+```
+
+## 三方工具
+
+**`figlet`**
+
+> Linux下的命令行工具，我们经常会看到一些终端工具有一个字符Logo,这些Logo可以通过`Figlet`生成：
+
+```bash
+yum install -y figlet
+```
+
+> 居中显示用 `-c`
+>
+> 从文件导入用 `-p`
+>> 比如从testFile导入`figlet -c -p < testFile`
+>
+> 还可以用`-w`指定宽度。
+>
+> 实时显示时间`watch -n1 "date '+%D%n%T' |figlet -k"`
+
+**`boxes`**
+
+> 这个工具提供了 n 种样式，例如各种动物等，然后你输入的字符就放在这些图案的内部空白处。
+
+```bash
+yum -y install boxes
+```
+
+> 使用boxes -l列出所有的样式。
+
+```bash
+echo [text] | boxes -d [style name]
+# 比如dog
+echo "Hello World" | boxes -d dog
+```
+
+**`Toilet`**
+
+> 可以输出更丰富的样式，它比 `figlet` 命令的效果更有艺术感。
+
+```bash
+echo "Hello World" | toilet -f term -F border --gay
+# 可以有颜色
+toilet -f mono12 -F metal Linux
+# 多种样式
+while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done
+```
+
+
+
 ## MySQL
 
 ### yum安装
@@ -131,7 +187,7 @@ mysqld -V
 
 ![](/images/MySQL-glibc%E4%B8%8B%E8%BD%BD.png)
 
-- 解压
+**解压**
 
 > 建议：不要安装到其它目录，否则数据库初始化的时候会报`cannot change dir`的错
 
@@ -189,7 +245,7 @@ cd /usr/local/mysql/bin
 --lc_messages=en_US
 ```
 
-> 记住生成的临时密码,如果忘记密码或者想重新初始化，可以先将mysql/data目录中文件删除，然后再执行初始化命令
+> 记住生成的临时密码,如果忘记密码或者想重新初始化，可以先将`mysql/data`目录中文件删除，然后再执行初始化命令
 
 
 **启动**
@@ -251,25 +307,25 @@ service mysql status
 
 > `EclipseClassDecompiler`反编译 `https://github.com/cnfree/Eclipse-Class-Decompiler`
 
-### 检查已安装
+**检查已安装**
 
 ```bash
 rpm -qa subversion
 ```
 
-### 安装
+**安装**
 
 ```bash
 yum -y install subversion
 ```
 
-### 查看已安装版本
+**查看已安装版本**
 
 ```bash
 svnserve --version
 ```
 
-### 代码库创建
+**创建代码库**
 
 - 建立SVN版本库目录
 
@@ -287,7 +343,7 @@ svnadmin create /home/svn/svnrepos/test
 > `/home/svn/svnrepos/test`文件夹包含了`conf`、`db`、`format`、`hooks`、`locks`、`README.txt`等文件，说明一个SVN库已经建立。
 
 
-### 配置代码库
+**配置代码库**
 
 - 进入`conf`文件夹
 
@@ -349,53 +405,51 @@ authz-db=authz
 realm = This Is A Repository
 ```
 
-- 如果需要创建多个库就需要重复做上面2、3步，并且test目录名是不一样的
+> 如果需要创建多个库就需要重复做上面2、3步，并且最后一个目录名是不一样的
 
-> 比如：
-
-> 建立第2个SVN版本库目录
+- 建立第2个SVN版本库目录
 
 ```bash
 mkdir -p /home/svn/svnrepos/test2
 ```
 
-> 创建第2个SVN版本库
+- 创建第2个SVN版本库
 
 ```bash
 svnadmin create /home/svn/svnrepos/test2
 ```
 
-### 启动
+**启动**
 
 ```bash
 svnserve -d -r /home/svn/svnrepos/
 ```
 
-### 查看SVN进程
+**查看SVN进程**
 
 ```bash
 ps -ef|grep svn
 ```
 
-### 检测SVN端口
+**检测SVN端口**
 
 ```bash
 netstat -antlp|grep svnserve
 ```
 
-### 放开端口
+**放开端口**
 
 ```bash
 firewall-cmd --zone=public --add-port=3690/tcp --permanent
 firewall-cmd --reload
 ```
  
-### 连接
+**连接**
 
 > 地址：`svn://host:port/仓库名`
 
 
-### 停止SVN
+**停止SVN**
 
 
 ```bash
@@ -410,23 +464,21 @@ killall svnserve
 
 
 
-
-
 ## JDK
 
-### 查看已安装
+**查看已安装**
 
 ```bash
 rpm -qa | grep java
 ```
 
-### 卸载JDK
+**卸载JDK**
 
 ```bash
 rpm -e --nodeps 查出来的名称
 ```
 
-### 查看JDK软件包列表
+**查看JDK软件包列表**
 
 ```bash
 yum -y list java*
@@ -434,7 +486,7 @@ yum -y list java*
 yum search java | grep -i --color JDK
 ```
 
-### yum安装JDK
+**yum安装JDK**
 
 ```bash
 yum -y install java-1.7.0-openjdk java-1.7.0-openjdk-devel.x86_64
@@ -442,7 +494,7 @@ yum -y install java-1.7.0-openjdk java-1.7.0-openjdk-devel.x86_64
 
 > 通过yum默认安装的路径为`/usr/lib/jvm`
 
-### 配置环境变量
+**配置环境变量**
 
 - 在`/etc/profile`文件中加入
 
@@ -466,7 +518,7 @@ source /etc/profile
 echo $JAVA_HOME && echo $CLASSPATH
 ```
 
-### 查看Java版本信息
+**查看Java版本信息**
 
 ```bash
 java -version
@@ -476,30 +528,28 @@ java -version
 
 ## Tomcat
 
-### 下载
+* [https://tomcat.apache.org](https://tomcat.apache.org)
 
-> 地址`https://tomcat.apache.org/download-80.cgi`
-
-### 解压
+**解压**
 
 ```bash
 tar -zxvf apache-tomcat-8.5.31.tar.gz
 ```
 
-### 修改tomcat文件夹名
+**重命名目录**
 
 ```bash
 mv apache-tomcat-8.5.31 tomcat-8080
 ```
 
-### 复制
+**复制目录**
 
 ```bash
 cp -r tomcat-8080 tomcat-8082
 ```
 
 
-### 修改第二个Tomcat配置
+**修改第二个Tomcat配置**
 
 > 进入tomcat-8082的`bin`目录，修改`startup.sh`和`shutdown.sh`两个文件，都添加如下内容
 
@@ -532,24 +582,18 @@ connectionTimeout="20000" disableUploadTimeout="true" />
 ```
 
 
-### 添加环境变量
+**添加环境变量**
 
 > 在`/etc/profile`文件中加入下面内容配置环境变量
 
-- 第一个tomcat
-
 ```vim
-########## tomcat 1###########
+########## tomcat 1 ###########
 CATALINA_BASE=/home/tomcat-8080
 CATALINA_HOME=/home/tomcat-8080
 TOMCAT_HOME=/home/tomcat-8080
 export CATALINA_BASE CATALINA_HOME TOMCAT_HOME
 ########## tomcat 1############
-```
 
-- 第二个tomcat
-
-```vim
 ######### tomcat 2 ##########
 CATALINA_2_BASE=/home/tomcat-8082
 CATALINA_2_HOME=/home/tomcat-8082
