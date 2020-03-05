@@ -177,14 +177,7 @@
 
 [https://github.com/loliconer/baidupcs-mobile](https://github.com/loliconer/baidupcs-mobile)
 
-
-[https://github.com/cool2528/baiduCDP](https://github.com/cool2528/baiduCDP)
-
-[https://github.com/b3log/baidu-netdisk-downloaderx](https://github.com/b3log/baidu-netdisk-downloaderx)
-
-
 [百度网盘直链下载助手](https://www.baiduyun.wiki)
-
 
 [http://pandownload.com](http://pandownload.com)
 
@@ -247,6 +240,8 @@
 [https://github.com/mayswind/AriaNg](https://github.com/mayswind/AriaNg)
 
 [https://github.com/persepolisdm/persepolis](https://github.com/persepolisdm/persepolis)
+
+[https://github.com/P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf)
 
 
 **Internet Download Manager**
