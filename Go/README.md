@@ -85,15 +85,15 @@
 
 * [模板功能](https://github.com/Masterminds/sprig)
 
-* [TiDB](https://pingcap.com/docs-cn)
+* [https://github.com/pingcap/tidb](https://github.com/pingcap/tidb)
 
-* [kingshard](https://github.com/flike/kingshard/blob/master/README_ZH.md)
+* [https://github.com/flike/kingshard](https://github.com/flike/kingshard)
 
-* [Open-Falcon](https://github.com/open-falcon)
+* [https://github.com/open-falcon](https://github.com/open-falcon)
 
-* [mail-provider](https://github.com/open-falcon/mail-provider)
+* [https://github.com/open-falcon/mail-provider](https://github.com/open-falcon/mail-provider)
 
-* [chat](https://github.com/Yanjunhui/chat)
+* [https://github.com/Yanjunhui/chat](https://github.com/Yanjunhui/chat)
 
 * [https://github.com/ouqiang/gocron](https://github.com/ouqiang/gocron)
 
@@ -101,15 +101,13 @@
 
 * [https://github.com/jasonlvhit/gocron](https://github.com/jasonlvhit/gocron)
 
-* [delay-queue](https://github.com/ouqiang/delay-queue)
+* [https://github.com/ouqiang/delay-queue](https://github.com/ouqiang/delay-queue)
 
-* [grpc](https://github.com/grpc) [gRPC 官方文档中文版](http://doc.oschina.net/grpc?t=56831)
+* [https://github.com/grpc](https://github.com/grpc) [gRPC 官方文档中文版](http://doc.oschina.net/grpc?t=56831)
 
-* [go-xorm](https://github.com/go-xorm)
+* [https://github.com/go-xorm](https://github.com/go-xorm)
 
-* [gpmgo](https://github.com/gpmgo)
-
-* [管理大量SSH连接配置](https://github.com/libragen/felix)
+* [https://github.com/libragen/felix](https://github.com/libragen/felix)
 
 
 
@@ -158,7 +156,7 @@ go env -w GOPRIVATE=*.github.com,*.gitlab.com,*.gitee.com
 go env -w GOSUMDB=off
 ```
 
-* [https://github.com/golang/go/wiki/Modules#are-there-always-on-module-repositories-and-enterprise-proxies](https://github.com/golang/go/wiki/Modules#are-there-always-on-module-repositories-and-enterprise-proxies)
+* [Go Modules Proxy](https://github.com/golang/go/wiki/Modules#are-there-always-on-module-repositories-and-enterprise-proxies)
 
 
 * [https://mirrors.aliyun.com/goproxy](https://mirrors.aliyun.com/goproxy)
@@ -169,9 +167,8 @@ go env -w GOSUMDB=off
 
 * [https://goproxy.io](https://goproxy.io)
 
-* [Athens](https://docs.gomods.io/zh)
+* [https://github.com/gomods/athens](https://github.com/gomods/athens)
+[https://athens.azurefd.net](https://athens.azurefd.net)
 
 * [https://gocenter.io](https://gocenter.io)
-
-* [https://gopm.io](https://gopm.io)
 
