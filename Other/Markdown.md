@@ -20,6 +20,8 @@
 
 * [https://segmentfault.com/markdown](https://segmentfault.com/markdown)
 
+* [https://github.com/guodongxiaren/README](https://github.com/guodongxiaren/README)
+
 
 ## 横线
 
@@ -105,17 +107,17 @@ ___
 
 - 斜体、粗体、删除线
 
-|语法|效果|
-|----|-----|
-|`*斜体1*`|*斜体1*|
-|`_斜体2_`| _斜体2_|
-|`**粗体1**`|**粗体1**|
-|`__粗体2__`|__粗体2__|
-|`这是一个 ~~删除线~~`|这是一个 ~~删除线~~|
-|`***斜粗体1***`|***斜粗体1***|
-|`___斜粗体2___`|___斜粗体2___|
-|`***~~斜粗体删除线1~~***`|***~~斜粗体删除线1~~***|
-|`~~***斜粗体删除线2***~~`|~~***斜粗体删除线2***~~|
+| 语法                      	| 效果                    	|
+|---------------------------	|-------------------------	|
+| `*斜体1*`                 	| *斜体1*                 	|
+| `_斜体2_`                 	| _斜体2_                 	|
+| `**粗体1**`               	| **粗体1**               	|
+| `__粗体2__`               	| __粗体2__               	|
+| `这是一个 ~~删除线~~`     	| 这是一个 ~~删除线~~     	|
+| `***斜粗体1***`           	| ***斜粗体1***           	|
+| `___斜粗体2___`           	| ___斜粗体2___           	|
+| `***~~斜粗体删除线1~~***` 	| ***~~斜粗体删除线1~~*** 	|
+| `~~***斜粗体删除线2***~~` 	| ~~***斜粗体删除线2***~~ 	|
 
 > 斜体、粗体、删除线可混合使用
 
@@ -127,84 +129,75 @@ ___
     - alt表示图片显示失败时的替换文本
     - title表示鼠标悬停在图片时的显示文本（注意这里要加引号）
 
-> URL即图片的url地址，如果引用本仓库中的图片，直接使用**相对路径**就可了，
+| 语法                                                       	| 效果                                                     	|
+|------------------------------------------------------------	|----------------------------------------------------------	|
+| `![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")` 	| ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo") 	|
+| `![](http://www.baidu.com/img/bdlogo.gif)`                    | ![](http://www.baidu.com/img/bdlogo.gif)              	|
 
-> 如果引用其他github仓库中的图片要注意格式，即：`仓库地址/raw/分支名/图片路径`，如
-
-```
-https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
-```
-
-|语法|效果|
-|---|----|
-|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")|
-|`![][foryou]`|![][foryou]|
-
-> 注意例2的写法使用了**URL标识符**的形式，在[链接](#链接)一节有介绍。
-
-- 在文末有foryou的定义
-
-```
-[foryou]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
-```
 
 ## 链接
 
-### 链接外部URL
+| 语法                                            	| 效果                                          	|
+|-------------------------------------------------	|-----------------------------------------------	|
+| `[我的博客](https://www.bajins.com "悬停显示")` 	| [我的博客](https://www.bajins.com "悬停显示") 	|
+| `[我的博客](https://www.bajins.com) `           	| [我的博客](/README.md)                        	|
 
-|#|语法|效果|
-|---|----|-----|
-|1|`[我的博客](https://www.bajins.com "悬停显示")`|[我的博客](https://www.bajins.com "悬停显示")|
-|2|`[我的知乎][zhihu] `|[我的知乎][zhihu] |
+### URL变量
 
-**语法2由两部分组成**
-- 第一部分使用两个中括号，[ ]里的标识符（本例中zhihu），可以是数字，字母等的组合，标识符上下对应就行了（**姑且称之为URL标识符**）
-- 第二部分标记实际URL。
+- 定义变量
 
->使用URL标识符能达到复用的目的，一般把全文所有的URL标识符统一放在文章末尾，这样看起来比较干净。
->>URL标识符是我起的名字，不知道是否准确。囧。。
+```
+[var]:https://www.bajins.com
+[blog]:https://www.bajins.com "我的博客"
+[baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
+```
 
-### 链接本仓库里的URL
+- 使用变量
 
-|语法|效果|
-|----|-----|
-|`[我的简介](/example/profile.md)`|[我的简介](/example/profile.md)|
-|`[Book](./Book)`|[Book](/Book)|
+```
+[使用变量][var]
+[我的博客][blog]
+![baidu][baidu-logo]
+[![baidu-logo]](https://www.baidu.com)
+```
+
+- 效果
+
+[var]:https://www.bajins.com
+[blog]:https://www.bajins.com "我的博客"
+[baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
+
+[使用变量][var]
+
+[我的博客][blog]
+
+![baidu][baidu-logo]
+
+[![baidu-logo]](https://www.baidu.com)
+
 
 ### 图片链接
 
 > 给图片加链接的本质是混合图片显示语法和普通的链接语法。普通的链接中[ ]内部是链接要显示的文本，而图片链接[ ]里面则是要显示的图片。  
 > 直接混合两种语法当然可以，但是十分啰嗦，为此我们可以使用URL标识符的形式。
 
-|#|语法|效果|
-|---|----|:---:|
-|1|`[![weibo-logo]](http://weibo.com/linpiaochen)`|[![weibo-logo]](http://weibo.com/linpiaochen)|
-|2|`[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]`|[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]|
-|3|`[![csdn-logo]][csdn]`|[![csdn-logo]][csdn]|
-
-> 因为图片本身和链接本身都支持URL标识符的形式，所以图片链接也可以很简洁（见例3）。  
+| 语法                                                                	| 效果                                                              	|
+|---------------------------------------------------------------------	|-------------------------------------------------------------------	|
+| `[![weibo](https://weibo.com/favicon.ico)](https://weibo.com)` 	| [![weibo](https://weibo.com/favicon.ico)](https://weibo.com) 	|
+| `[![](https://static.zhihu.com/static/favicon.ico "知乎")][zhihu]`  	| [![](https://static.zhihu.com/static/favicon.ico "知乎")][zhihu]  	|
 
 > 注意，此时鼠标悬停时显示的文字是图片的title，而非链接本身的title了。
 
-> 本文URL标识符都放置于文末
 
 ### 锚点
 
-> 其实呢，每一个标题都是一个锚点，和HTML的锚点（`#`）类似，比如我们 
-
-|语法|效果|
-|---|---|
-|`[回到顶部](#readme)`|[回到顶部](#readme)|
+> 其实呢，每一个标题都是一个锚点，和HTML的锚点（`#`）类似，比如`[回到顶部](#readme)`[回到顶部](#readme)
 
 > 不过要注意，标题中的英文字母都被转化为**小写字母**了。
 
-> 以前GitHub对中文支持的不好，所以中文标题不能正确识别为锚点，但是现在已经没问题啦！
-
 - 注意
 
-> 标题中不能带有空格
-
-> 标题中有除字体或字母数字以外的符号时应该在锚点中直接去除后方可跳转
+> 标题中的空格都是转换为`-`，标题中有除字体或字母数字以外的符号时应该在锚点中直接去除后方可跳转
 
 ```diff
 * [获得当前日期+时间`date+time`函数](#获得当前日期时间datetime函数)
@@ -320,16 +313,9 @@ string &operator+(const string& A,const string& B) //cpp
 
 ## 表格
 
-| 表头1  | 表头2|
-| ---------- | -----------|
-| 表格单元   | 表格单元   |
-| 表格单元   | 表格单元   |
-
-### 对齐
-
 > 表格可以指定对齐方式
 
-| 左对齐 | 居中  | 右对齐 |
+| 左对齐         | 居中            | 右对齐 |
 | :------------ |:---------------:| -----:|
 | col 3 is      | some wordy text | $1600 |
 | col 2 is      | centered        |   $12 |
@@ -341,18 +327,18 @@ string &operator+(const string& A,const string& B) //cpp
 
 - 使用普通文本的删除线，斜体等效果
 
-| 名字 | 描述 |
-| ------------- | ----------- |
-| Help      | ~~Display the~~ help window.|
-| Close     | _Closes_ a window     |
+| 名字  	| 描述                         	|
+|-------	|------------------------------	|
+| Help  	| ~~Display the~~ help window. 	|
+| Close 	| _Closes_ a window            	|
 
 - 表格中嵌入图片（链接）
 
 > 其实前面介绍图片显示、图片链接的时候为了清晰就是放在在表格中显示的。
 
-| 图片 | 描述 |
-| ---- | ---- |
-|![baidu][baidu-logo] | 百度|
+| 图片                 	| 描述 	|
+|----------------------	|------	|
+| ![baidu][baidu-logo] 	| 百度 	|
 
 
 ## 表情
