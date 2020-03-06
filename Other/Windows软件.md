@@ -195,7 +195,9 @@
 [https://github.com/vcheckzen/LanzouCloudAPI](https://github.com/vcheckzen/LanzouCloudAPI)
 
 
-**BT**
+**Bit Torrent**
+
+[https://baike.baidu.com/item/BitTorrent](https://baike.baidu.com/item/BitTorrent)
 
 * `BT-Trackers`服务器地址
     * [https://github.com/XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection)
