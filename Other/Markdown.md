@@ -103,6 +103,17 @@ ___
 >
 > 或者就是在两行文本直接加一个空行。也能实现换行效果，不过这个行间距有点大。
 
+## 表格
+
+> 表格可以指定对齐方式
+
+| 左对齐         | 居中            | 右对齐 |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+
 ## 字体
 
 - 斜体、粗体、删除线
@@ -169,10 +180,13 @@ ___
 > 给图片加链接的本质是混合图片显示语法和普通的链接语法。普通的链接中[ ]内部是链接要显示的文本，而图片链接[ ]里面则是要显示的图片。  
 > 直接混合两种语法当然可以，但是十分啰嗦，为此我们可以使用URL标识符的形式。
 
-| 语法                                                                	| 效果                                                              	|
-|---------------------------------------------------------------------	|-------------------------------------------------------------------	|
+[zhihu-logo]:https://static.zhihu.com/static/favicon.ico "知乎logo"
+
+| 语法                                                           	| 效果                                                         	|
+|----------------------------------------------------------------	|--------------------------------------------------------------	|
 | `[![weibo](https://weibo.com/favicon.ico)](https://weibo.com)` 	| [![weibo](https://weibo.com/favicon.ico)](https://weibo.com) 	|
-| `[![](https://static.zhihu.com/static/favicon.ico "知乎")][zhihu]`  	| [![](https://static.zhihu.com/static/favicon.ico "知乎")][zhihu]  	|
+| `[![][zhihu-logo]](https://www.zhihu.com "知乎")`              	| [![][zhihu-logo]](https://www.zhihu.com "知乎")              	|
+
 
 > 注意，此时鼠标悬停时显示的文字是图片的title，而非链接本身的title了。
 
@@ -298,35 +312,6 @@ document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
 ```cpp
 string &operator+(const string& A,const string& B) //cpp
 ```
-
-## 表格
-
-> 表格可以指定对齐方式
-
-| 左对齐         | 居中            | 右对齐 |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
-
-### 混合其他语法
-
-> 表格单元中的内容可以和其他大多数GFM语法配合使用
-
-- 使用普通文本的删除线，斜体等效果
-
-| 名字  	| 描述                         	|
-|-------	|------------------------------	|
-| Help  	| ~~Display the~~ help window. 	|
-| Close 	| _Closes_ a window            	|
-
-- 表格中嵌入图片（链接）
-
-> 其实前面介绍图片显示、图片链接的时候为了清晰就是放在在表格中显示的。
-
-| 图片                 	| 描述 	|
-|----------------------	|------	|
-| ![baidu][baidu-logo] 	| 百度 	|
 
 
 ## 表情
