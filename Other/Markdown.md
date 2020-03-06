@@ -380,10 +380,27 @@ string &operator+(const string& A,const string& B) //cpp
 ```
 
 
-## 行内HTML元素
+## HTML元素
 
-> 目前只支持部分段内HTML元素效果，包括 `<kdb></kdb>`、`<b></b>`、`<i></i>`、`<em></em>`、`<sup></sup>`、`<sub></sub>`、
-> `<br/>`、`<details><summary></summary></details>`
+- `<code></code>`
+
+- `<pre></pre>`
+
+- `<kdb></kdb>`
+
+- `<b></b>`
+
+- `<i></i>`
+
+- `<em></em>`
+
+- `<sup></sup>`
+
+- `<sub></sub>`
+
+- `<br/>`
+
+- `<details><summary></summary></details>`
 
 
 
