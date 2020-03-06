@@ -24,6 +24,7 @@
 
 * [http://openjdk.java.net/jeps/333](http://openjdk.java.net/jeps/333)
 
+![](/images/jvm参数统计.png)
 
 ### 基本工具
 
