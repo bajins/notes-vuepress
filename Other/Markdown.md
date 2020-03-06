@@ -152,28 +152,16 @@ ___
 [baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
 ```
 
-- 使用变量
-
-```
-[使用变量][var]
-[我的博客][blog]
-![baidu][baidu-logo]
-[![baidu-logo]](https://www.baidu.com)
-```
-
-- 效果
-
 [var]:https://www.bajins.com
 [blog]:https://www.bajins.com "我的博客"
 [baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
 
-[使用变量][var]
-
-[我的博客][blog]
-
-![baidu][baidu-logo]
-
-[![baidu-logo]](https://www.baidu.com)
+| 使用变量语法                               | 效果                                   	|
+|------------------------------------------	|----------------------------------------	|
+| `[使用变量][var]`                        	| [使用变量][var]                        	|
+| `[我的博客][blog]`                       	| [我的博客][blog]                       	|
+| `![baidu][baidu-logo]`                   	| ![baidu][baidu-logo]                   	|
+| `[![baidu-logo]](https://www.baidu.com)` 	| [![baidu-logo]](https://www.baidu.com) 	|
 
 
 ### 图片链接
