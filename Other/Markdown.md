@@ -22,6 +22,8 @@
 
 * [https://github.com/guodongxiaren/README](https://github.com/guodongxiaren/README)
 
+* GitHub角落图标 [https://github.com/tholman/github-corners](https://github.com/tholman/github-corners)
+
 
 ## 横线
 
@@ -320,7 +322,11 @@ string &operator+(const string& A,const string& B) //cpp
 
 > 比如`:blush:`，可以显示:blush:。
 
-> 具体每一个表情的符号码，可以查询GitHub的官方网页[http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。
+* [http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。
+
+* [https://github.com/carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji)
+
+* [Github 上 emoji 表情的含义及使用规范](https://mkblog.cn/872)
 
 
 ## diff语法
@@ -329,13 +335,15 @@ string &operator+(const string& A,const string& B) //cpp
 
 > GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示删除。
 
-> 其语法与代码高亮类似，只是在三个反引号后面写`diff`，并且其内容中，以 `+ `开头表示新增，`- `开头表示删除。
+> 其语法与代码高亮类似，只是在三个反引号后面写`diff`，并且其内容中，以 `+ `开头表示新增，`- `开头表示删除。另外还有有`!`和`#`的语法。
 
 - 效果如下：
 
 ```diff
-+ 鸟宿池边树，僧敲月下门
-- 鸟宿池边树，僧推月下门
++ 人闲桂花落，
+- 夜静春山空。
+! 月出惊山鸟，
+# 时鸣春涧中。
 ```
 
 
@@ -513,13 +521,6 @@ string &operator+(const string& A,const string& B) //cpp
 * [Haroopad](http://pad.haroopress.com/user.html)
 
 * [https://github.com/MacDownApp/macdown](https://github.com/MacDownApp/macdown)
-
-
-### 其他
-
-* [github-corners](https://github.com/tholman/github-corners)
-
-> GitHub图标
 
 
 

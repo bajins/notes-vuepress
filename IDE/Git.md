@@ -7,28 +7,12 @@
 
 ## flag
 
-* [https://gitlab.com/xhang/gitlab/wikis/home](https://gitlab.com/xhang/gitlab/wikis/home)
-
-* [https://hub.docker.com/r/twang2218/gitlab-ce-zh](https://hub.docker.com/r/twang2218/gitlab-ce-zh)
-[https://github.com/twang2218/gitlab-ce-zh](https://github.com/twang2218/gitlab-ce-zh)
-
-* [https://github.com/gogs/gogs](https://github.com/gogs/gogs)
-
-* [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea)
-
-* [https://github.com/gitblit/gitblit](https://github.com/gitblit/gitblit)
-
 * [https://tortoisegit.org/download](https://tortoisegit.org/download)
 
 * [为您的项目创建有用的.gitignore文件](https://github.com/toptal/gitignore.io)
 
 
 * [reposurgeon是一种工具,用于编辑版本控制存储库的历史](http://www.catb.org/esr/reposurgeon)
-
-
-* [https://github.com/carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji)
-
-* [Github 上 emoji 表情的含义及使用规范](https://mkblog.cn/872)
 
 * [https://github.com/gitextensions/gitextensions](https://github.com/gitextensions/gitextensions)
 
@@ -505,21 +489,28 @@ readdir $(pwd)
 
 ```
 
+
+
 ## Git服务器
+
+* [https://github.com/gitblit/gitblit](https://github.com/gitblit/gitblit)
+
 
 ### GitLab
 
-[https://hub.docker.com/r/bensonfx/gitlab-ce-zh](https://hub.docker.com/r/bensonfx/gitlab-ce-zh)
+* [https://gitlab.com/xhang/gitlab/wikis/home](https://gitlab.com/xhang/gitlab/wikis/home)
 
-[https://github.com/bensonfx/codeserver](https://github.com/bensonfx/codeserver)
+* [GitLab Community Edition (中文社区版)](https://github.com/twang2218/gitlab-ce-zh)
+[汉化的 GitLab 社区版 Docker Image](https://hub.docker.com/r/twang2218/gitlab-ce-zh)
 
-[https://hub.docker.com/r/benyoo/gitlab](https://hub.docker.com/r/benyoo/gitlab)
+* [https://hub.docker.com/r/bensonfx/gitlab-ce-zh](https://hub.docker.com/r/bensonfx/gitlab-ce-zh)
 
-[https://hub.docker.com/r/imleafz/gitlab-ce-zh](https://hub.docker.com/r/imleafz/gitlab-ce-zh)
+* [https://github.com/bensonfx/codeserver](https://github.com/bensonfx/codeserver)
 
-[GitLab Community Edition (中文社区版)](https://github.com/twang2218/gitlab-ce-zh)
+* [https://hub.docker.com/r/benyoo/gitlab](https://hub.docker.com/r/benyoo/gitlab)
 
-[汉化的 GitLab 社区版 Docker Image ](https://hub.docker.com/r/twang2218/gitlab-ce-zh)
+* [https://hub.docker.com/r/imleafz/gitlab-ce-zh](https://hub.docker.com/r/imleafz/gitlab-ce-zh)
+
 ```bash
 version: '2'
 services:
@@ -563,21 +554,20 @@ volumes:
 
 ### Gogs
 
-[Gogs-DockerHub](https://hub.docker.com/r/gogs/gogs)
+* [https://github.com/gogs/gogs](https://github.com/gogs/gogs) [Gogs官方文档](https://gogs.io)
 
-[Gogs-GitHub](https://github.com/gogs/gogs/blob/master/README_ZH.md)
+* [Gogs-DockerHub](https://hub.docker.com/r/gogs/gogs)
 
-[Gogs官方文档](https://gogs.io)
+* [安装教程](https://www.jianshu.com/p/86c385682ac8)
 
-[安装教程](https://www.jianshu.com/p/86c385682ac8)
+
 
 ### Gitea
 
-[Gitea-DockerHub](https://hub.docker.com/r/gitea/gitea)
+* [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea) [Gitea官方文档](https://gitea.io/zh-cn)
 
-[Gitea-GitHub](https://github.com/go-gitea/gitea/blob/master/README_ZH.md)
+* [Gitea-DockerHub](https://hub.docker.com/r/gitea/gitea)
 
-[Gitea官方文档](https://gitea.io/zh-cn)
 
 
 
