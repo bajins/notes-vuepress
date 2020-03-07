@@ -651,33 +651,6 @@ sudo /etc/init.d/dns-clean start
 
 
 
-
-### Online IDE
-
-* [https://ide.goorm.io](https://ide.goorm.io)
-
-* [https://codesandbox.io](https://codesandbox.io)
-
-
-[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io)
-
-> Gitpod是一款在线IDE能即时修改GitHub代码
-
-> https://gitpod.io/#https://github.com/账户名/仓库名
-
-> 示例：[https://gitpod.io/#github.com/woytu/UseNotes-vuepress](https://gitpod.io/#github.com/woytu/UseNotes-vuepress)
-
-
-**在线运行代码**
-
-* [https://www.onlinegdb.com](https://www.onlinegdb.com)
-
-* [https://wandbox.org](https://wandbox.org)
-
-* [https://github.com/mattgodbolt/compiler-explorer](https://github.com/mattgodbolt/compiler-explorer)
-
-
-
 ### 克隆代理地址
 
 > 替换`https://github.com`为`https://github.com.cnpmjs.org`
