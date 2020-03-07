@@ -526,6 +526,11 @@ vi /etc/ssh/sshd_config
 > 【用法】rsync是类unix系统下的数据镜像备份工具，从软件的命名上就可以看出来了——remote sync。
 > 它的操作方式和scp和相似，但是比scp强大很多。使用双冒号分割主机名和文件路径时，是使用rsync服务器
 
+* [https://rsync.samba.org](https://rsync.samba.org)
+
+* [https://github.com/axkibe/lsyncd](https://github.com/axkibe/lsyncd)
+
+
 ```bash
 # 把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
 rsync /home/work/source.txt work@192.168.0.10:/home/work/
