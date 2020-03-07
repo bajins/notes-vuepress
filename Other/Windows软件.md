@@ -85,7 +85,9 @@
 
 [52破解](https://www.52pojie.cn)
 
-[hwh0488远景论坛帖子](http://i.pcbeta.com/home.php?mod=space&uid=2521016&do=thread&view=me&from=space)
+[hwh0488-远景论坛](http://i.pcbeta.com/home.php?mod=space&uid=2521016&do=thread&view=me&from=space)
+
+[风之暇想-52破解](https://www.52pojie.cn/home.php?mod=space&uid=243467&do=thread&view=me&from=space)
 
 
 **Telegram**
@@ -102,6 +104,8 @@
 [fxxkmakeding](https://www.fxxkmakeding.xyz)
 
 [https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367)
+
+[http://go.wumings.com](http://go.wumings.com)
 
 
 [https://www.macbl.com](https://www.macbl.com)
