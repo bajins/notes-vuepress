@@ -193,6 +193,8 @@
 [https://github.com/Kyle-Kyle/baidudl](https://github.com/Kyle-Kyle/baidudl)
 
 
+[网赚网盘下载辅助工具](http://www.oceancoder.cn/post/net-disk-download-helper.html)
+
 
 **蓝奏云**
 
