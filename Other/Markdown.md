@@ -357,6 +357,8 @@ string &operator+(const string& A,const string& B) //cpp
 
 - `<b></b>`
 
+- `<strong></strong>`
+
 - `<i></i>`
 
 - `<em></em>`
