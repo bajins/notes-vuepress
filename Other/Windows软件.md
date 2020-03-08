@@ -112,6 +112,9 @@
 
 [http://lao4g.com](http://lao4g.com)
 
+[https://www.haorenka.org](https://www.haorenka.org)
+
+
 ---
 
 [http://www.sharerw.com](http://www.sharerw.com)
