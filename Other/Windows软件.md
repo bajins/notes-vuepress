@@ -326,6 +326,19 @@
 [http://www.bahraniapps.com](http://www.bahraniapps.com)
 
 
+[由微博大神@vposy制作Adobe全系列](https://weibo.com/vposy?is_hot=1)
+
+
+**Photoshop CC**
+
+0. [https://eyun.baidu.com/s/3mizNp4O](https://eyun.baidu.com/s/3mizNp4O)密码：3131
+
+1. [https://yunpan.360.cn/surl_ydDgKwXKPSf](https://yunpan.360.cn/surl_ydDgKwXKPSf)（提取码：0be6）
+
+2. [https://cloud.189.cn/t/UneM3imEJj2u](https://cloud.189.cn/t/UneM3imEJj2u)（访问码：0224）
+
+
+
 ### Icon图标
 
 [IcoFx官网](https://icofx.ro)
@@ -672,15 +685,6 @@ HCNDT-8RYVG-WQY4F-RM4PK-2YQH2
 [https://www.listary.com/pro](https://www.listary.com/pro)
 
 [Everything](https://www.voidtools.com)
-
-
-**Photoshop CC**
-
-0. [https://eyun.baidu.com/s/3mizNp4O](https://eyun.baidu.com/s/3mizNp4O)密码：3131
-
-1. [https://yunpan.360.cn/surl_ydDgKwXKPSf](https://yunpan.360.cn/surl_ydDgKwXKPSf)（提取码：0be6）
-
-2. [https://cloud.189.cn/t/UneM3imEJj2u](https://cloud.189.cn/t/UneM3imEJj2u)（访问码：0224）
 
 
 
