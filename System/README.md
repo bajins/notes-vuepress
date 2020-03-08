@@ -372,6 +372,8 @@ Swap:            0B          0B          0B
 
 * [https://github.com/Qv2ray/Qv2ray](https://github.com/Qv2ray/Qv2ray)
 
+* [https://github.com/vrnobody/V2RayGCon](https://github.com/vrnobody/V2RayGCon)
+
 ---
 
 * [multi-v2ray](https://github.com/Jrohy/multi-v2ray)
