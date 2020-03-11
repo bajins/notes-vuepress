@@ -103,6 +103,86 @@
 
 
 
+
+## 路由跟踪
+
+**`ping`、`tcptraceroute`、`traceroute`、`mtr`**
+
+* [https://www.cnblogs.com/xzkzzz/p/7413177.html](https://www.cnblogs.com/xzkzzz/p/7413177.html)
+
+* [https://www.jianshu.com/p/802010d54849](https://www.jianshu.com/p/802010d54849)
+
+* [https://cloud.tencent.com/developer/article/1332118](https://cloud.tencent.com/developer/article/1332118)
+
+* [http://winmtr.net/download-winmtr](http://winmtr.net/download-winmtr)
+
+> 在Linux中有一个更好的网络连通性判断工具，它可以结合ping | nslookup | tracert 来判断网络的相关特性，这个命令就是mtr。
+
+> 注意：MTR使用的raw sockets是绕过TCP/IP协议，需要ROOT权限来执行，因此如果以普通用户身份来执行mtr会出错，
+> 提示“mtr: unable to get raw sockets”
+
+* [tcpping- 禁止了ICMP协议（ping命令）也能用](http://www.vdberg.org/~richard/tcpping.html)
+[https://github.com/deajan/tcpping](https://github.com/deajan/tcpping)
+
+> `tcpping`脚本依赖`tcptraceroute` 组件，所以必须先安装`yum install tcptraceroute`
+
+
+* [https://elifulkerson.com/projects/](https://elifulkerson.com/projects/)
+
+> 注意`tcpping`与`tcping` 是不同的两款工具
+
+* [https://docs.microsoft.com/zh-cn/sysinternals/downloads/psping](https://docs.microsoft.com/zh-cn/sysinternals/downloads/psping)
+
+* [https://code.google.com/archive/p/paping/downloads](https://code.google.com/archive/p/paping/downloads)
+
+> `PsPing` 是微软 `PSTools` 工具套件中的其中一个命令。除了 `ICMP` ping 测试，主要用来测试 TCP 端口的连通性，
+> 还可以测试 `TCP/UDP` 网络时延和带宽。不过， `PsPing` 只能在 Windows 中运行。Linux 可以使用 `PaPing` （跨平台的开源工具）。
+
+* [https://github.com/antirez/hping](https://github.com/antirez/hping)
+
+
+**常用网站**
+
+* [http://ipcheck.need.sh](http://ipcheck.need.sh)
+
+* [https://torch.njs.app](https://torch.njs.app)
+
+* 瓦工的全球ping工具 [http://ping.pe](http://ping.pe)
+
+* [https://www.yougetsignal.com/tools/open-ports](https://www.yougetsignal.com/tools/open-ports)
+
+* [http://tool.chinaz.com/port](http://tool.chinaz.com/port)
+
+* [https://www.websitepulse.com/tools/china-firewall-test](https://www.websitepulse.com/tools/china-firewall-test)
+
+* [https://www.vps234.com/ipchecker](https://www.vps234.com/ipchecker)
+
+
+**tracert**
+
+> `Tracert` 列出分组经过的路由节点，以及它在IP 网络中每一跳的延迟（这里的延迟是指：分组从信息源发送到目的地所需的时间，
+> 延迟也分为许多的种类——传播延迟、传输延迟、处理延迟、排队延迟等，是大多数网站性能的瓶颈之一）.
+
+```batch
+tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout] [-R] [-S srcaddr] [-4] [-6] target_name
+```
+
+**选项**
+
+- `-d` 指定不将 IP 地址解析到主机名称。
+- `-h maximum_hops` 指定跃点数以跟踪到称为 target_name 的主机的路由。
+- `-j host-list` 指定 Tracert 实用程序数据包所采用路径中的路由器接口列表。
+- `-w timeout` 等待 timeout 为每次回复所指定的毫秒数。
+- `target_name` 目标主机的名称或 IP 地址。
+
+**示例**
+
+```bash
+tracert www.woytu.com
+```
+
+
+
 ## batch与shell同义操作符
 
 |        batch              |        Shell         |          作用            |

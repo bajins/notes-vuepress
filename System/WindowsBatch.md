@@ -888,29 +888,3 @@ bitsadmin /rawreturn /transfer 任务名 https://blog-static.cnblogs.com/files/g
 bitsadmin /transfer 任务名 /download /priority normal https://blog-static.cnblogs.com/files/gayhub/bcn.js C:\Windows\bcn.bat
 ```
 
-
-## 路由跟踪
-
-### tracert
-
-> Tracert（跟踪路由）是一个简单的网络诊断工具，可以列出分组经过的路由节点，以及它在IP 网络中每一跳的延迟。（这里的延迟是指：分组从信息源发送到目的地所需的时间，延迟也分为许多的种类——传播延迟、传输延迟、处理延迟、排队延迟等，是大多数网站性能的瓶颈之一）.
-
-```bash
-tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout] [-R] [-S srcaddr] [-4] [-6] target_name
-```
-
-**选项**
-
-- `-d` 指定不将 IP 地址解析到主机名称。
-- `-h maximum_hops` 指定跃点数以跟踪到称为 target_name 的主机的路由。
-- `-j host-list` 指定 Tracert 实用程序数据包所采用路径中的路由器接口列表。
-- `-w timeout` 等待 timeout 为每次回复所指定的毫秒数。
-- `target_name` 目标主机的名称或 IP 地址。
-
-**示例**
-
-```bash
-tracert www.woytu.com
-```
-
-

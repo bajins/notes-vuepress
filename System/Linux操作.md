@@ -559,46 +559,7 @@ rsync -r -v --exclude sourcedir/notinclude /home/work/sourcedir work@www.myhost.
 
 
 
-## 性能及网络
-
-
-### 路由跟踪
-
-- `ping`、`tcptraceroute`、`traceroute`、`mtr`
-
-* [https://www.cnblogs.com/xzkzzz/p/7413177.html](https://www.cnblogs.com/xzkzzz/p/7413177.html)
-
-* [https://www.jianshu.com/p/802010d54849](https://www.jianshu.com/p/802010d54849)
-
-* [https://cloud.tencent.com/developer/article/1332118](https://cloud.tencent.com/developer/article/1332118)
-
-* [http://winmtr.net/download-winmtr](http://winmtr.net/download-winmtr)
-
-> 在Linux中有一个更好的网络连通性判断工具，它可以结合ping | nslookup | tracert 来判断网络的相关特性，这个命令就是mtr。
-
-> 注意：MTR使用的raw sockets是绕过TCP/IP协议，需要ROOT权限来执行，因此如果以普通用户身份来执行mtr会出错，
-> 提示“mtr: unable to get raw sockets”
-
-
-**常用网站**
-
-* [http://ipcheck.need.sh](http://ipcheck.need.sh)
-
-* [https://torch.njs.app](https://torch.njs.app)
-
-* 瓦工的全球ping工具 [http://ping.pe](http://ping.pe)
-
-* [https://www.yougetsignal.com/tools/open-ports](https://www.yougetsignal.com/tools/open-ports)
-
-* [http://tool.chinaz.com/port](http://tool.chinaz.com/port)
-
-* [https://www.websitepulse.com/tools/china-firewall-test](https://www.websitepulse.com/tools/china-firewall-test)
-
-* [https://www.vps234.com/ipchecker](https://www.vps234.com/ipchecker)
-
-
-
-### 脚本
+## 性能测试
 
 **bench.sh**
 
@@ -656,13 +617,13 @@ wget https://raw.githubusercontent.com/oooldking/script/master/superspeed.sh \
 
 > MTU经过网卡传输的数据包的最大传输单元,传输设备的MTU值不规范造成传输失败的情况
 
-### 查看MTU值
+**查看MTU值**
 
 ```bash
 cat /sys/class/net/eth0/mtu
 ```
 
-### 临时更改MTU值
+**临时更改MTU值**
 
 ```bash
 echo "1476" > /sys/class/net/eth0/mtu
@@ -671,7 +632,7 @@ echo "1476" > /sys/class/net/eth0/mtu
 ifconfig eth0 mtu 1476
 ```
 
-### 永久更改MTU值
+**永久更改MTU值**
 
 ```bash
 vi /etc/sysconfig/network-scripts/ifcfg-eth0
@@ -681,7 +642,7 @@ MTU=1476
 IPV6_MTU="1280"
 ```
 
-### 重启网络接口
+**重启网络接口**
 
 ```bash
 service network restart
