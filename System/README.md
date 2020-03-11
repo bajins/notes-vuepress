@@ -359,7 +359,7 @@ Swap:            0B          0B          0B
 
 * [https://github.com/max2max/freess](https://github.com/max2max/freess)
 
-* [https://github.com/ntkernel/lantern/blob/master/vmess.txt](https://github.com/ntkernel/lantern/blob/master/vmess.txt)
+* [https://github.com/ntkernel/lantern](https://github.com/ntkernel/lantern)
 
 * [https://github.com/ugvf2009/Miles](https://github.com/ugvf2009/Miles)
 [https://jiang.netlify.com](https://jiang.netlify.com)
@@ -373,17 +373,11 @@ Swap:            0B          0B          0B
 * [https://github.com/fggfffgbg](https://github.com/fggfffgbg)
 
 * [https://github.com/fqshare/free-ssr-v2ray-vpn](https://github.com/fqshare/free-ssr-v2ray-vpn)
+[https://jichangdaquan.com/node/429.html](https://jichangdaquan.com/node/429.html)
 
 * [https://free-ss.site](https://free-ss.site)
 
-* [https://get.ishadowx.biz](https://get.ishadowx.biz)
-[https://view.freev2ray.org](https://view.freev2ray.org)
-
-* [https://github.com/fanite/v2](https://github.com/fanite/v2)
-
-* [https://github.com/huangkuainiang/v2ray](https://github.com/huangkuainiang/v2ray)
-
-* [https://github.com/huangdesen168/VMESS](https://github.com/huangdesen168/VMESS)
+* [https://view.freev2ray.org](https://view.freev2ray.org)
 
 * [https://github.com/CSE2018-2019/VMESS](https://github.com/CSE2018-2019/VMESS)
 
