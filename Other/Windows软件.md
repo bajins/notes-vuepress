@@ -331,6 +331,8 @@
 
 [由微博大神@vposy制作Adobe全系列](https://weibo.com/vposy?is_hot=1)
 
+[Adobe软件单独下载方法-官方](https://sleele.com/2019/05/05/adobe/)
+
 
 **Photoshop CC**
 
