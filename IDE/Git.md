@@ -21,6 +21,7 @@
 
 * [https://git-scm.com/download](https://git-scm.com/download)
 
+* [https://npm.taobao.org/mirrors/git-for-windows](https://npm.taobao.org/mirrors/git-for-windows)
 
 - 方式一
 
@@ -283,10 +284,12 @@ git config --global credential.helper store
 
 ## 常见问题
 
+* [git中fatal: Authentication failed的问题](https://blog.csdn.net/qq_34665539/article/details/80408282)
+
 
 ### 项目过大clone报错
 
-[https://vnzmi.com/2017/01/08/git-early-eof-index-pack-failed](https://vnzmi.com/2017/01/08/git-early-eof-index-pack-failed)
+* [Git index-pack failed 问题解决](https://vnzmi.com/2017/01/08/git-early-eof-index-pack-failed)
 
 - 由于提交了比较大的文件，在服务端一直无法拉下来，错误如下
 
@@ -323,7 +326,8 @@ git config --global http.lowSpeedLimit 0
 git config --global http.lowSpeedTime 999999
 ```
 > compression 是压缩的意思，从 clone 的终端输出就知道，服务器会压缩目标文件，然后传输到客户端，客户端再解压。
-取值为 [-1, 9]，-1 以 zlib 为默认压缩库，0 表示不进行压缩，1..9 是压缩速度与最终获得文件大小的不同程度的权衡，数字越大，压缩越慢，当然得到的文件会越小。
+> 取值为 [-1, 9]，-1 以 zlib 为默认压缩库，0 表示不进行压缩，1..9 是压缩速度与最终获得文件大小的不同程度的权衡，
+> 数字越大，压缩越慢，当然得到的文件会越小。
 
 ### 提交本地文件失败
 
@@ -395,13 +399,13 @@ CONFLICT(content): Merge conflict in c/environ.c
 
 - 解决文件中冲突的的部分
 
-> 打开冲突的文件，其中`Updatedupstream` 和`=====`之间的内容就是pull下来的内容，`====`和`stashed changes`之间的内容就是本地修改的内容。
-碰到这种情况，git也不知道哪行内容是需要的，所以要自行确定需要的内容。
+> 打开冲突的文件，其中`Updatedupstream` 和`=====`之间的内容就是pull下来的内容，`====`和`stashed changes`之间的
+> 内容就是本地修改的内容。碰到这种情况，git也不知道哪行内容是需要的，所以要自行确定需要的内容。
 
 
 ### SSL验证错误
 
-- 报错 `unable to access 'https://github.com/': OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443`
+> 报错 `unable to access 'https://github.com/': OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443`
 
 - 关闭SSL验证
 

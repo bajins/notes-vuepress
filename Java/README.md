@@ -21,10 +21,11 @@
 
 * [http://htmlunit.sourceforge.net](http://htmlunit.sourceforge.net)
 
-**[maven镜像](/files/settings.xml)**
 
 
 ## OpenJDK
+
+* [Oracle JDK8](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
 
 * [https://jdk.java.net](https://jdk.java.net)
 
@@ -35,6 +36,26 @@
 * [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)
 
 * [Dragonwell8](https://github.com/alibaba/dragonwell8)
+
+
+
+
+## Maven
+
+* [http://mvnrepository.com](http://mvnrepository.com)
+
+* [https://www.webjars.org](https://www.webjars.org)
+
+* [Nexus Repository Manager](https://help.sonatype.com/repomanager3/download)
+
+
+**maven镜像**
+
+* [maven镜像配置文件](/files/settings.xml)
+
+* [https://maven.aliyun.com/mvn/view](https://maven.aliyun.com/mvn/view)
+
+
 
 
 

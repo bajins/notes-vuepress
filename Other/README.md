@@ -10,10 +10,6 @@
 
 * [https://github.com/No-Github/Digital-Privacy](https://github.com/No-Github/Digital-Privacy)
 
-
-* [饭饭的个人主页](https://github.com/noisky/Homepage)
-
-
 * [Adobe Photoshop键盘快捷键](https://helpx.adobe.com/cn/photoshop/using/default-keyboard-shortcuts.html)
 
 * [Photoshop快捷键大全](http://www.ip138.com/photoshop)
@@ -34,8 +30,28 @@
 * [showdoc](https://github.com/star7th/showdoc)
 
 
+## 通用镜像
 
-**wikipedia**
+* [https://developer.aliyun.com/mirror](https://developer.aliyun.com/mirror)
+
+* [https://github.com/cnpm](https://github.com/cnpm)
+
+* [https://mirrors.cloud.tencent.com](https://mirrors.cloud.tencent.com)
+
+* [http://mirrors.neusoft.edu.cn](http://mirrors.neusoft.edu.cn)
+
+* [https://mirrors.huaweicloud.com](https://mirrors.huaweicloud.com)
+
+* [http://mirrors.sohu.com](http://mirrors.sohu.com)
+
+* [https://mirrors.163.com](https://mirrors.163.com)
+
+
+
+
+
+
+## wikipedia
 
 * [维基百科:维基百科拷贝网站](https://zh.wikipedia.org/wiki/Wikipedia:%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%8B%B7%E8%B4%9D%E7%BD%91%E7%AB%99)
 
@@ -54,7 +70,7 @@
 * [https://www.v2ex.com/t/623109](https://www.v2ex.com/t/623109)
 
 
-**技术书籍和手册**
+## 技术书籍和手册
 
 * [互联网上的免费书籍](https://github.com/ruanyf/free-books)
 
@@ -71,7 +87,7 @@
 * [https://cloud.tencent.com/developer/devdocs](https://cloud.tencent.com/developer/devdocs)
 
 
-**很棒的项目**
+## 很棒的项目
 
 * [https://github.com/search?q=awesome](https://github.com/search?q=awesome)
 

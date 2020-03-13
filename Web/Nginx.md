@@ -8,6 +8,9 @@
 
 ## flag
 
+* [http://nginx.org/en/download.html](http://nginx.org/en/download.html)
+
+
 * [Nginx HTTP核心模块指令和内置变量中文说明](https://my.oschina.net/jsan/blog/125861)
 
 * [nginxbeautifier](https://github.com/vasilevich/nginxbeautifier)

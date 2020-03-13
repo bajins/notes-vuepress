@@ -7,7 +7,9 @@
 
 ## flag
 
-* [docker官网centos7安装](https://docs.docker.com/install/linux/docker-ce/centos)
+* [https://www.docker.com](https://www.docker.com)
+
+* [https://docs.docker.com](https://docs.docker.com)
 
 * [Docker进阶实用命令](https://sleele.com/2018/09/27/docker%e8%bf%9b%e9%98%b6%e5%ae%9e%e7%94%a8%e5%91%bd%e4%bb%a4/)
 
@@ -15,8 +17,12 @@
 
 * [从零搭建docker私有仓库](https://www.jianshu.com/p/2d9d4cdd3af7)
 
+* [https://docs.microsoft.com/zh-cn/virtualization](https://docs.microsoft.com/zh-cn/virtualization)
 
 
+**镜像仓库**
+
+* [https://hub.qiniu.com/store](https://hub.qiniu.com/store)
 
 
 ## docker compose
