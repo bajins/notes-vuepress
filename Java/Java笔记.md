@@ -34,11 +34,6 @@
 
 * [数据库扩展性设计：使用二进制解决一条记录关联多个状态的问题](https://www.cnblogs.com/itfly8/p/6062757.html)
 
----
-
-* [SpringCloud和Dubbo](https://www.jianshu.com/p/9fa24196d2ad)
-
-
 
 
 
