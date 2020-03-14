@@ -10,7 +10,7 @@
 * [https://www.oracle.com/cn/downloads](https://www.oracle.com/cn/downloads)
 
 * [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
-[下载地址镜像](/Other/Markdown.md#通用镜像)
+[下载地址镜像](/Other/README.md#通用镜像)
 
 * [mybatis](https://mybatis.org/mybatis-3/zh/index.html)
 
@@ -139,7 +139,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 ## Dubbo
 
-* [http://zookeeper.apache.org](http://zookeeper.apache.org)
+* [http://zookeeper.apache.org](http://zookeeper.apache.org) 下载带`bin`的压缩包，否则需要`maven`安装依赖
+[下载地址镜像](/Other/README.md#通用镜像)
 
 * [https://github.com/apache/dubbo](https://github.com/apache/dubbo)
 
