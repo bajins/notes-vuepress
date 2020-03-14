@@ -38,8 +38,6 @@
 
 * [https://mirrors.cloud.tencent.com](https://mirrors.cloud.tencent.com)
 
-* [http://mirrors.neusoft.edu.cn](http://mirrors.neusoft.edu.cn)
-
 * [https://mirrors.huaweicloud.com](https://mirrors.huaweicloud.com)
 
 * [http://mirrors.sohu.com](http://mirrors.sohu.com)
@@ -47,6 +45,40 @@
 * [https://mirrors.163.com](https://mirrors.163.com)
 
 
+**教育网主要镜像站**
+
+*   **东北地区：**
+东北大学（[IPv4 & IPv6](http://mirror.neu.edu.cn), [IPv6](http://mirror.neu6.edu.cn)）
+、大连理工大学（[IPv4 & IPv6](http://mirror.dlut.edu.cn)）
+、大连东软信息学院（[IPv4 & IPv6](http://mirrors.neusoft.edu.cn)）
+、哈尔滨工业大学（[IPv4 & IPv6](http://run.hit.edu.cn), [IPv6](http://run.hit6.edu.cn)）
+
+*   **华北地区：**
+清华大学（[IPv4 & IPv6](http://mirrors.tuna.tsinghua.edu.cn), [IPv4](http://mirrors.4.tuna.tsinghua.edu.cn), [IPv6](http://mirrors.6.tuna.tsinghua.edu.cn)）
+、北京理工大学（[IPv4](http://mirror.bit.edu.cn), [IPv6](http://mirror.bit6.edu.cn)）
+、北京交通大学（[IPv4 & IPv6](http://mirror.bjtu.edu.cn)）
+、天津大学（[IPv4](http://mirror.tju.edu.cn), [IPv6](http://mirror.tju6.edu.cn)）
+
+*   **华东北地区：**
+中国科学技术大学（[IPv4 & IPv6](http://mirrors.ustc.edu.cn), [IPv4](http://mirrors4.ustc.edu.cn), [IPv6](http://mirrors6.ustc.edu.cn)）
+
+*   **华中地区：**
+华中科技大学（[IPv4](http://mirrors.hust.edu.cn)）
+、中国地质大学（[IPv4 & IPv6](http://mirrors.cug.edu.cn), [IPv6](http://mirrors.cug6.edu.cn)）
+
+*   **华东南地区：**
+上海交通大学（[IPv4](http://ftp.sjtu.edu.cn), [IPv6](http://ftp6.sjtu.edu.cn)）
+、浙江大学（[IPv4 & IPv6](http://mirrors.zju.edu.cn)）
+、厦门大学（[IPv4 & IPv6](http://mirrors.xmu.edu.cn), [IPv6](http://mirrors.xmu6.edu.cn)）
+
+*   **华南地区：**
+中山大学（[IPv4](http://mirror.sysu.edu.cn)）
+
+*   **西北地区：**
+兰州大学（[IPv4 & IPv6](http://mirror.lzu.edu.cn)）
+
+*   **西南地区：**
+重庆大学（[IPv4](http://mirrors.cqu.edu.cn)）
 
 
 

@@ -10,6 +10,7 @@
 * [https://www.oracle.com/cn/downloads](https://www.oracle.com/cn/downloads)
 
 * [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
+[下载地址镜像](/Other/Markdown.md#通用镜像)
 
 * [mybatis](https://mybatis.org/mybatis-3/zh/index.html)
 
@@ -21,7 +22,7 @@
 
 * [https://github.com/square/okhttp](https://github.com/square/okhttp)
 
-
+* [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
 
 
 ## OpenJDK
@@ -77,8 +78,6 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 
 ## 第三方依赖
-
-* [dubbo](https://github.com/apache/incubator-dubbo)
 
 * [fastjson](https://github.com/alibaba/fastjson)
 
@@ -137,6 +136,34 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 * [https://github.com/kdn251/interviews](https://github.com/kdn251/interviews)
 
+
+## Dubbo
+
+* [http://zookeeper.apache.org](http://zookeeper.apache.org)
+
+* [https://github.com/apache/dubbo](https://github.com/apache/dubbo)
+
+* [https://github.com/apache/dubbo-spring-boot-project](https://github.com/apache/dubbo-spring-boot-project)
+
+* [https://github.com/apache/dubbo-admin](https://github.com/apache/dubbo-admin)
+
+> 官网`2.7.0`及以上由Apache（org.apache.dubbo）维护，旧版本还是由阿里巴巴团队（com.alibaba.dubbo）维护
+
+* [dubbo客户端版本选择](https://blog.51cto.com/10759919/2405665)
+
+* [Dubbo版本升级](https://www.cnblogs.com/TechSnail/p/11936862.html)
+
+* [干货 | 聊聊携程升级Dubbo的踩坑历程](https://cloud.tencent.com/developer/article/1500148)
+
+* [dubbo2.5.3升级到2.7.3记录](https://blog.csdn.net/chang_li/article/details/103266059)
+
+* [dubbo2.5.3升级到2.7.3](https://blog.csdn.net/u013338798/article/details/100673697)
+
+* [dubbox升级至apache-dubbo-2.7.2的兼容方案](https://blog.csdn.net/qq_29116427/article/details/100621126)
+
+* [springboot整合dubbo2.7.x版本](https://blog.csdn.net/ycf921244819/article/details/103474394)
+
+* [dubbo2.7.5整合spirngMVC入门demo（Apache）](https://blog.csdn.net/qq_45521013/article/details/103826507)
 
 
 
