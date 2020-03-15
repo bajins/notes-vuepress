@@ -377,11 +377,14 @@ string &operator+(const string& A,const string& B) //cpp
 
 ### 输出目录结构
 
+
 **Windows**
 
 - `TREE [drive:][path] [/F] [/A]`
      - /F   显示每个文件夹中文件的名称。默认是只输出文件夹的名字。
      - /A   使用 ASCII 字符，而不使用扩展字符。
+
+> 生成当前目录下的结构到 test 文件中：`TREE /F >test`
 
 
 **Linux**
@@ -394,6 +397,8 @@ string &operator+(const string& A,const string& B) //cpp
 
 
 **NodeJS**
+
+* [https://github.com/derycktse/treer](https://github.com/derycktse/treer)
 
 * [https://github.com/JohnByrneRepo/mddir](https://github.com/JohnByrneRepo/mddir)
 
@@ -440,14 +445,6 @@ string &operator+(const string& A,const string& B) //cpp
 * [http://www.tablesgenerator.com/markdown_tables](http://www.tablesgenerator.com/markdown_tables)
 
 * [https://github.com/domchristie/turndown](https://github.com/domchristie/turndown)
-
-
-
-### 生成文件结构树
-
-* [mddir](https://github.com/JohnByrneRepo/mddir)
-
-* [treer](https://github.com/derycktse/treer)
 
 
 ### 生成标题目录树
