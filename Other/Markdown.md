@@ -369,7 +369,7 @@ string &operator+(const string& A,const string& B) //cpp
 
 - `<br/>`
 
-- `<details><summary></summary></details>`
+- `<details><summary><b></b></summary></details>`
 
 
 

@@ -11,8 +11,8 @@
 * [IntelliJ IDEA神器使用技巧](https://www.imooc.com/learn/924)
 
 <details>
-<summary><strong>展开查看思维导图</strong></summary>
-![](/images/IDEA使用技巧.png)
+<summary><b>展开查看思维导图</b></summary>
+<img src="/images/IDEA使用技巧.png" alt>
 </details>
 
 
@@ -25,7 +25,7 @@
 
 2. 填写 `Name`（项目名）、`GroupId`（包名）、`Artifact`（项目名），点击 `Next`
 
-3. 打开 `pom.xml` ，增加 `<packaging>pom</packaging>`
+3. 打开 `pom.xml` ，添加 `<packaging>pom</packaging>`（聚合工程或传递依赖用），如果有了就不用添加
 
 4. 删除除了 `pom.xml` 以外的其他文件和目录（包括`src`）
 
@@ -37,7 +37,7 @@
 2.  填写 `Name`（项目名）、`GroupId`（包名）、`Artifact`（项目名） -> 点击 `Next` -> 
 选择 `Parent`（上级项目）放在最后操作是因为修改 `Name` 时会自动变化
 
-3. 打开 `pom.xml` ，增加 `<packaging>pom</packaging>`
+3. 打开 `pom.xml` ，添加 `<packaging>pom</packaging>`（聚合工程或传递依赖用）
 
 4. 删除除了 `pom.xml` 以外的其他文件和目录（包括`src`）
 
@@ -45,14 +45,14 @@
 
 > 如果还需要创建下级项目，重复创建子项目的操作即可
 
-> 创建子模块只需要重复创建子项目，但是不要删除任何其他文件和目录
+> 创建子模块只需要重复创建子项目，但是不要删除任何其他文件和目录，也不要添加`<packaging>pom</packaging>`
 
 
 <details>
 <summary><b>展开查看示例结构</b></summary>
 
 ```
-demo                        # 顶级项目（跟项目）
+demo                        # 顶级项目（根项目）
 │  pom.xml
 │  
 ├─admin                     # 二级项目
