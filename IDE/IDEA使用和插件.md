@@ -11,8 +11,8 @@
 * [IntelliJ IDEA神器使用技巧](https://www.imooc.com/learn/924)
 
 <details>
-<summary>**展开查看思维导图**</summary>
-![](https://raw.githubusercontent.com/JozeOu/blog-images/master/intellij-idea-tutorial/24.png)
+<summary><strong><b>展开查看思维导图</strong></b></summary>
+![](/images/IDEA使用技巧.png)
 </details>
 
 
@@ -49,16 +49,16 @@
 
 
 <details>
-<summary>**展开查看示例结构**</summary>
+<summary><strong><b>展开查看示例结构</b></strong></summary>
 
 ```
-demo
+demo                        # 顶级项目（跟项目）
 │  pom.xml
 │  
-├─admin
+├─admin                     # 二级项目
 │  │  pom.xml
 │  │  
-│  ├─admin-api
+│  ├─admin-api              # 二级项目模块
 │  │  │  pom.xml
 │  │  │  
 │  │  └─src
@@ -67,7 +67,7 @@ demo
 │  │      │  └─resources
 │  │      └─test
 │  │          └─java
-│  └─admin-web
+│  └─admin-web              # 二级项目模块
 │      │  pom.xml
 │      │  
 │      └─src
@@ -76,13 +76,13 @@ demo
 │          │  └─resources
 │          └─test
 │              └─java
-└─buyer
+└─buyer                     # 二级项目
     │  pom.xml
     │  
-    ├─shop
+    ├─shop                  # 三级项目
     │  │  pom.xml
     │  │  
-    │  ├─shop-api
+    │  ├─shop-api           # 三级项目模块
     │  │  │  pom.xml
     │  │  │  
     │  │  └─src
@@ -91,7 +91,7 @@ demo
     │  │      │  └─resources
     │  │      └─test
     │  │          └─java
-    │  └─shop-client
+    │  └─shop-client        # 三级项目模块
     │      │  pom.xml
     │      │  
     │      └─src
@@ -100,10 +100,10 @@ demo
     │          │  └─resources
     │          └─test
     │              └─java
-    └─user
+    └─user                  # 三级项目
         │  pom.xml
         │  
-        ├─user-api
+        ├─user-api          # 三级项目模块
         │  │  pom.xml
         │  │  
         │  └─src
@@ -112,7 +112,7 @@ demo
         │      │  └─resources
         │      └─test
         │          └─java
-        └─user-client
+        └─user-client       # 三级项目模块
             │  pom.xml
             │  
             └─src
