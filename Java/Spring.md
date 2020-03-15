@@ -66,6 +66,9 @@
 
 ### 配置方式
 
+* [Spring Boot 加载配置多种方式](https://blog.csdn.net/Happy_cloudlife/article/details/85564667)
+
+
 **Spring Boot Starter**
 
 * [Spring Boot Starter说明](https://www.jianshu.com/p/bbf439c8a203)
