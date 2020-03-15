@@ -33,10 +33,22 @@
 
 ### 默认依赖管理
 
+> 使用默认依赖管理的目的是：常用的包依赖可以省去version标签。如下：
+
+```xml
+<dependencies>
+   <dependency>
+       <groupId>org.springframework.boot</groupId>
+       <artifactId>spring-boot-starter-web</artifactId>
+   </dependency>
+</dependencies>
+```
+
 - 方式一
 
 ```xml
 <parent>
+    <!-- spring-boot-starter-parent 是一个特殊的starter，它用来提供相关的Maven默认依赖 -->
     <!--继承spring-boot-dependencies依赖管理，指定了JDK版本，多了编译配置-->
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
