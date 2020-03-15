@@ -508,6 +508,8 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 > 一键查看maven依赖，查看冲突的依赖，一键进行exclude依赖
 
+* [使用Maven Helper解决Maven依赖冲突](https://segmentfault.com/a/1190000017542396)
+
 ![](/images/MavenHelper.png)
 
 
