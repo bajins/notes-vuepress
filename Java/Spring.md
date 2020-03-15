@@ -91,7 +91,7 @@
 
 - 需要在`pom.xml`中引入不为`starter`的依赖
 
-- 在类上使用注解`@ImportResource(locations={"classpath:配置文件路径})`，把自定义的`xml`加载进来
+- 在启动类上使用注解`@ImportResource(locations={"classpath:配置文件路径})`，把自定义的`xml`配置加载进来
 
 
 
