@@ -87,7 +87,7 @@
 
 - 需要在`pom.xml`中引入为`starter`的依赖
 
-- 然后在`application.yml`或者`application.properties`中配置，无在其他任何地方配置（如`xml`、`Bean`）
+- 然后在`application.yml`或者`application.properties`中配置，无需在其他任何地方配置（如`xml`、`Bean`）
 
 
 **Java代码配置Bean**
