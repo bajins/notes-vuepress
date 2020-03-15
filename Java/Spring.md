@@ -64,3 +64,41 @@
 ```
 
 
+### 配置方式
+
+**Spring Boot Starter**
+
+* [Spring Boot Starter说明](https://www.jianshu.com/p/bbf439c8a203)
+
+- 需要在`pom.xml`中引入为`starter`的依赖
+
+- 然后在`application.yml`或者`application.properties`中配置，无在其他任何地方配置（如`xml`、`Bean`）
+
+
+**Java代码配置Bean**
+
+- 需要在`pom.xml`中引入不为`starter`的依赖
+
+- 创建一个配置类，然后使用注解`@Configuration`在类上，`@bean`配置方法，方法名是相当于`xml`配置的`id`，
+返回结果相当于将哪个类注入到bean容器中
+
+
+
+**加载自定义xml配置**
+
+- 需要在`pom.xml`中引入不为`starter`的依赖
+
+- 在类上使用注解`@ImportResource(locations={"classpath:配置文件路径})`，把自定义的`xml`加载进来
+
+
+
+**使用注解获取配置文件中的配置**
+
+- `@Value("${配置中的属性名}")`用在Bean的域（属性）上，获取默认配置文件中的属性值
+
+- `@ConfigurationProperties(prefix="配置中的属性名")`用在类名上，获取默认配置文件中的属性值，用`@Resource`引入到其他类
+
+- `@PropertySource("classpath:配置文件路径")`用在类名上，获取默认自定义`properties`文件中的属性值，用`@Resource`引入到其他类
+
+
+
