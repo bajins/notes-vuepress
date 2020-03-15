@@ -24,6 +24,37 @@
 6. SDK Table
 
 
+**建立多级项目**
+
+- 创建顶级项目（根项目）：
+
+1. 点击顶部菜单栏 `File` -> `New` -> `Project`（或者在欢迎页面点击`Create New Project`） -> 
+`Maven`（不要勾选`Create from archetype`） -> `Next`
+
+2. 填写 `Name`（项目名）、`GroupId`（包名）、`Artifact`（项目名），点击 `Next`
+
+3. 打开 `pom.xml` ，增加 `<packaging>pom</packaging>`
+
+4. 删除除了 `pom.xml` 以外的其他文件和目录（包括`src`）
+
+- 创建子项目（二级项目）：
+
+1. 在顶级项目名上点击<kbd>右键</kbd>弹出菜单（或者点击顶部菜单栏`File`） -> `New` -> `Module` -> 
+`Maven`（不要勾选`Create from archetype`） -> `Next`
+
+2. 选择 `Parent`（上级项目） -> 填写 `Name`（项目名）、`GroupId`（包名）、`Artifact`（项目名），点击 `Next`
+
+3. 打开 `pom.xml` ，增加 `<packaging>pom</packaging>`
+
+4. 删除除了 `pom.xml` 以外的其他文件和目录（包括`src`）
+
+- 创建子模块（最后一级项目）：
+
+> 如果还需要创建下级项目，重复创建子项目的操作即可
+
+> 创建子模块只需要重复创建子项目，但是不要删除任何其他文件和目录
+
+
 
 ## 每次启动进入欢迎界面
 
