@@ -11,7 +11,7 @@
 * [IntelliJ IDEA神器使用技巧](https://www.imooc.com/learn/924)
 
 <details>
-<summary><strong><b>展开查看思维导图</strong></b></summary>
+<summary><strong>展开查看思维导图</strong></summary>
 ![](/images/IDEA使用技巧.png)
 </details>
 
@@ -49,7 +49,7 @@
 
 
 <details>
-<summary><strong><b>展开查看示例结构</b></strong></summary>
+<summary><b>展开查看示例结构</b></summary>
 
 ```
 demo                        # 顶级项目（跟项目）
