@@ -660,6 +660,8 @@ sudo /etc/init.d/dns-clean start
 
 * [https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=deploy-to-github-pages](https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=deploy-to-github-pages)
 
+* [https://github.com/sdras/awesome-actions](https://github.com/sdras/awesome-actions)
+
 * [https://github.com/peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
 
 * [https://github.com/JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action)

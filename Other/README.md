@@ -133,6 +133,7 @@
 
 * [注册一个新的 OAuth Application](https://github.com/settings/applications/new)
 
+
 **留言评论**
 
 * [https://www.livere.com](https://www.livere.com)
@@ -143,6 +144,8 @@
 
 * [https://github.com/gitalk/gitalk](https://github.com/gitalk/gitalk)
 [Gitalk评论插件使用教程](https://segmentfault.com/a/1190000018072952)
+
+* [https://github.com/meteorlxy/vssue](https://github.com/meteorlxy/vssue)
 
 * [https://github.com/imsun/gitment](https://github.com/imsun/gitment)
 
@@ -175,6 +178,7 @@
 * [https://github.com/umputun/remark42](https://github.com/umputun/remark42)
 
 * [https://github.com/pozitron57/open-source-comments](https://github.com/pozitron57/open-source-comments)
+
 
 
 **讨论社区**
