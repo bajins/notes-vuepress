@@ -10,6 +10,21 @@
 
 [https://git.io](https://git.io)
 
+
+
+[http://potato.manre.me](http://potato.manre.me)
+
+[https://signal.org](https://signal.org)
+
+[Telegram](https://github.com/telegramdesktop/tdesktop/releases)
+
+[https://telegram.zczc.men](https://telegram.zczc.men)
+
+[https://github.com/zhukov/webogram](https://github.com/zhukov/webogram)
+
+
+
+
 **博客**
 
 [CRACKSurl](http://cracksurl.com)
