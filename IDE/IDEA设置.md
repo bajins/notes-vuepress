@@ -306,7 +306,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 - 取消勾选`No data sources configured`如果没有，则提示创建一个数据源。
 
-- 取消勾选`SQL dialect detection`为<Generic>方言中的文件检测最匹配的SQL方言。
+- 取消勾选`SQL dialect detection`为`<Generic>`方言中的文件检测最匹配的SQL方言。
 
 
 

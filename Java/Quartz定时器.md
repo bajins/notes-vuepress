@@ -92,8 +92,8 @@ jobsByKey对应的Map中，将触发器存储到触发器（List），triggersBy
 >
 > Scheduler.unscheduleJob（TriggerKey triggerKey）就是将triggerKey从triggersByKey，triggersByGroup，triggers，timeTriggers中移除;
 >
-> Scheduler.deleteJob（JobKey jobKey）除了从容器触发中的TriggerWrapper的JobKey为jobKey的列表<TriggerWrapper>，
-并uncheduleJob（TriggerKey triggerKey）列表列表<TriggerWrapper>中的所有TriggerWrapper，同时从jobsByKey，jobsByGroup 的移除对应jobKey的相关信息 
+> Scheduler.deleteJob（JobKey jobKey）除了从容器触发中的TriggerWrapper的JobKey为jobKey的列表`<TriggerWrapper>`，
+并uncheduleJob（TriggerKey triggerKey）列表列表`<TriggerWrapper>`中的所有TriggerWrapper，同时从jobsByKey，jobsByGroup 的移除对应jobKey的相关信息 
 
 ## Quartz的Misfire处理规则
 

@@ -82,7 +82,7 @@ ls -l | grep test | awk '{print $5}' | sed -n '2p'
 | -x --line-regexp                               	| 只显示全列符合的列。                                                                                 	|
 | -y                                             	| 此参数效果跟“-i”相同。                                                                               	|
 | -o                                             	| 只输出文件中匹配到的部分。                                                                           	|
-| -m <num> --max-count=<num>                     	| 找到num行结果后停止查找，用来限制匹配行数                                                            	|
+| -m 数量 --max-count=数量                         	| 找到num行结果后停止查找，用来限制匹配行数                                                            	|
 
 
 

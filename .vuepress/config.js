@@ -1,21 +1,20 @@
 const utils = require('./utils')
-// https://vuepress.vuejs.org/zh/config
+    // https://vuepress.vuejs.org/zh/config
 module.exports = {
     base: '/',
     // 额外的需要被注入到当前页面的 HTML <head> 中的标签
     head: [
-        ['link', {rel: 'icon', href: '/images/icons/logo.png'}],
-        ['link', {rel: 'apple-touch-icon', href: '/images/icons/logo.png'}],
+        ['link', { rel: 'icon', href: '/images/icons/logo.png' }],
+        ['link', { rel: 'apple-touch-icon', href: '/images/icons/logo.png' }],
         // ['link', {rel: 'mask-icon', href: '/images/icons/safari-pinned-tab.svg', color: '#3eaf7c'}],
         // https://developer.mozilla.org/zh-CN/docs/Mozilla/Add-ons/WebExtensions/manifest.json
-        ['link', {rel: 'manifest', href: '/manifest.json'}],
-        ['meta', {name: 'theme-color', content: '#3eaf7c'}],
-        ['meta', {name: 'apple-mobile-web-app-capable', content: 'yes'}],
-        ['meta', {name: 'apple-mobile-web-app-status-bar-style', content: 'black'}],
-        ['meta', {name: 'msapplication-TileImage', content: '/images/icons/logo.png'}],
-        ['meta', {name: 'msapplication-TileColor', content: '#ffffff'}]
+        ['link', { rel: 'manifest', href: '/manifest.json' }],
+        ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+        ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+        ['meta', { name: 'msapplication-TileImage', content: '/images/icons/logo.png' }],
+        ['meta', { name: 'msapplication-TileColor', content: '#ffffff' }]
     ],
-    theme: '',
     // 指定 VuePress build 的输出目录。如果传入的是相对路径，则会基于 process.cwd() 进行解析。
     // 与package.json中的scripts配置编译路径配合使用 https://vuepress.vuejs.org/zh/api/cli.html
     dest: './docs',
@@ -25,12 +24,14 @@ module.exports = {
         // 键名是该语言所属的子路径
         // 作为特例，默认语言可以使用 '/' 作为其路径。
         '/': {
-            lang: 'zh-CN',// 将会被设置为 <html> 的 lang 属性
+            lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
             // 没有声明 title 或者 description，VuePress 将会尝试使用配置顶层的对应值
             title: 'Bajins',
             description: '个人笔记',
         }
     },
+    // 留空使用.vuepress/theme下的自定义主题
+    theme: 'reco',
     themeConfig: {
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL,当你提供了 themeConfig.repo 选项，
         // 将会自动在每个页面的导航栏生成生成一个 GitHub 链接，以及在页面的底部生成一个 "Edit this page" 链接。
@@ -39,7 +40,7 @@ module.exports = {
         docsDir: '/',
         // valine 评论系统
         valineConfig: {
-            appId: 'm9S5QXsdju39LvMs8ooRRIiF-MdYXbMMI',// your appId
+            appId: 'm9S5QXsdju39LvMs8ooRRIiF-MdYXbMMI', // your appId
             appKey: 'UfBRjySkb4bjPiFuH0Pxe3a9', // your appKey
         },
         // 博客设置
@@ -66,7 +67,7 @@ module.exports = {
         // 作者
         author: 'Bajins',
     },
-    // 插件
+    // 插件 https://vuepress.github.io/zh/
     plugins: [
         // 返回顶部按钮true显示、false不显示
         ['@vuepress/back-to-top', false],
@@ -101,6 +102,21 @@ module.exports = {
         }],
         // 流程图
         ['flowchart'],
+        ['@vuepress/last-updated', {
+            transformer: (timestamp, lang) => {
+                // 不要忘了安装 npm install -S moment
+                const moment = require('moment');
+                moment.locale(lang);
+                return moment(timestamp).fromNow();
+            }
+        }],
+        ['@vuepress/search', {
+            searchMaxSuggestions: 10
+        }],
+        ['@vuepress/active-header-links', {
+            sidebarLinkSelector: '.sidebar-link',
+            headerAnchorSelector: '.header-anchor'
+        }]
     ],
     markdown: {
         // 是否在每个代码块的左侧显示行号。

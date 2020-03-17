@@ -1,6 +1,10 @@
 ---
 home: true
 heroImage: /images/icons/小C技术栈_扫码_搜索-标准色版.png
+heroImageStyle: {
+  max-height: "200px",
+  margin-top: "6rem"
+}
 actionText: 快速上手 →
 actionLink: /#命令
 ---
@@ -25,8 +29,9 @@ actionLink: /#命令
 
 ## 目录结构
 
+* [官方标准目录结构](https://vuepress.vuejs.org/zh/guide/directory-structure.html)
+
 ```
-// 官方标准目录结构 https://vuepress.vuejs.org/zh/guide/directory-structure.html
 .
 │  .gitignore           git忽略文件
 │  package-lock.json    NPM依赖配置文件
