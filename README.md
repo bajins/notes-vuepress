@@ -35,9 +35,9 @@ actionLink: /#命令
 .
 │  .gitignore           git忽略文件
 │  package-lock.json    NPM依赖配置文件
+│  yarn.lock            yarn依赖配置文件
 │  package.json         项目配置文件
 │  README.md            首页md文件
-│  yarn.lock            yarn依赖配置文件
 │  
 ├─.github               GitHub配置目录
 │  └─workflows          Actions工作流目录
@@ -48,6 +48,10 @@ actionLink: /#命令
 │  │  nav.js            除创建的目录之外，自定义添加的导航栏
 │  │  push.js           自定义推送脚本
 │  │  utils.js          侧边栏和菜单栏自动配置工具
+│  │  
+│  ├─styles             用于存放样式相关的文件
+│  │  │  
+│  │  └─index.styl      自定义全局样式文件
 │  │  
 │  ├─public             静态资源目录
 │  │  │  CNAME          CNAME文件指定域名，防止发布时被清空
