@@ -59,8 +59,6 @@
 
 
 
-
-
 ## windows环境变量
 
 ```batch
@@ -81,6 +79,17 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 * [fastjson](https://github.com/alibaba/fastjson)
 
+* [https://github.com/google/guava](https://github.com/google/guava)
+
+* [https://github.com/SpringForAll](https://github.com/SpringForAll)
+
+* [https://github.com/looly/hutool](https://github.com/looly/hutool)
+
+* [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
+
+* [https://github.com/alibaba/easyexcel](https://github.com/alibaba/easyexcel)
+
+
 
 **Transaction**
 
@@ -97,6 +106,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/liuyangming/ByteTCC](https://github.com/liuyangming/ByteTCC)
 
 * [https://github.com/wchswchs/Hulk](https://github.com/wchswchs/Hulk)
+
 
 
 **延迟队列**
@@ -126,6 +136,28 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [china_regions](https://github.com/wecatch/china_regions)
 
 
+
+**文档**
+
+* [https://github.com/SpringForAll/spring-boot-starter-swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)
+
+* [https://github.com/Swagger2Markup/swagger2markup](https://github.com/Swagger2Markup/swagger2markup)
+
+* [https://github.com/caspar-chen/swagger-ui-layer](https://github.com/caspar-chen/swagger-ui-layer)
+
+* [https://github.com/xiaoymin/swagger-bootstrap-ui](https://github.com/xiaoymin/swagger-bootstrap-ui)
+
+
+
+**测试**
+
+* [https://github.com/junit-team/junit4](https://github.com/junit-team/junit4)
+
+* [https://github.com/houbb/junitperf](https://github.com/houbb/junitperf)
+
+
+
+
 ## Java面试题
 
 * [https://github.com/Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)
@@ -135,6 +167,9 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/crossoverJie/JCSprout](https://github.com/crossoverJie/JCSprout)
 
 * [https://github.com/kdn251/interviews](https://github.com/kdn251/interviews)
+
+
+
 
 
 ## Dubbo
@@ -165,6 +200,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [springboot整合dubbo2.7.x版本](https://blog.csdn.net/ycf921244819/article/details/103474394)
 
 * [dubbo2.7.5整合spirngMVC入门demo（Apache）](https://blog.csdn.net/qq_45521013/article/details/103826507)
+
 
 
 

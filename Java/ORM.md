@@ -15,6 +15,8 @@
 
 * [http://java-source.net/open-source/sql-clients](http://java-source.net/open-source/sql-clients)
 
+* [https://github.com/pagehelper/Mybatis-PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)
+
 
 
 ## 连接MySQL
