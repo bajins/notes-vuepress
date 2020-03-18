@@ -21,6 +21,17 @@
 
 
 
+## 加速下载文件
+
+* php源码 [https://github.com/ilanyu/offline-download](https://github.com/ilanyu/offline-download)
+
+* go源码 [https://github.com/ilanyu/offLineDownloader](https://github.com/ilanyu/offLineDownloader)
+
+* [http://git.aakkc.com](http://git.aakkc.com)
+
+* [https://www.kaggle.com](https://www.kaggle.com)
+[GitHub等海外大文件快速中转下载](https://mp.weixin.qq.com/s/DH8jXalZiBcX3KhrPdDw8w)
+
 
 
 ## Online IDE
