@@ -10,8 +10,11 @@
 
 * [https://github.com/golang](https://github.com/golang)
 
+* [https://go.dev](https://go.dev)
+
 * [https://golang.google.cn/dl](https://golang.google.cn/dl)
-[https://gomirrors.org](https://gomirrors.org) [https://www.godoc.org](https://www.godoc.org)
+[https://gomirrors.org](https://gomirrors.org)
+[https://www.godoc.org](https://www.godoc.org)
 
 * [Go 语言文档中文翻译](https://github.com/Go-zh/go)
 
@@ -109,6 +112,7 @@
 
 * [https://github.com/libragen/felix](https://github.com/libragen/felix)
 
+* [https://github.com/spf13/viper](https://github.com/spf13/viper)
 
 
 ## 代理
