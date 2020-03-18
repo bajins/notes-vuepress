@@ -20,6 +20,8 @@
 
 * [HashMap的底层结构和实现原理](https://www.cnblogs.com/chengxiao/p/6059914.html)
 
+* [初学者应该了解的数据结构：Array、HashMap 与 List](https://www.zcfy.cc/article/data-structures-for-beginners-arrays-hashmaps-and-lists)
+
 ---
 
 * [强一致性、弱一致性、最终一致性、读写一致性、单调读、因果一致性 的区别与联系](https://zhuanlan.zhihu.com/p/67949045)
