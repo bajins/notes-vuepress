@@ -1,4 +1,4 @@
-# BlogsBooks
+# Blogs
 
 
 [[toc]]
@@ -64,25 +64,6 @@
 * [归档 | StarryLand](https://rollingstarky.github.io/archives)
 
 * [zgao&#39;s blog – 一个搞渗透的student，感兴趣的话可以加我qq 1761321396](https://zgao.top)
-
-
-
-
-## Books
-
-* [极客学院Wiki - IT 技术图文教程库](http://wiki.jikexueyuan.com)
-
-* [C语言中文网：c语言程序设计门户网站(入门教程、编程软件)](http://c.biancheng.net)
-
-* [书栈网 · BookStack_分享知识,共享智慧;知识,因分享,传承久远！](https://www.bookstack.cn)
-
-* [首页 - 廖雪峰的官方网站](https://www.liaoxuefeng.com)
-
-* [LearnKu 终身编程者的知识社区](https://learnku.com)
-
-* [wizardforcel (@wizardforcel) on GitBook · GitBook (Legacy)](https://legacy.gitbook.com/@wizardforcel)
-
-* [代码拾遗 - 高质量的代码教程](https://www.codemore.top/archives)
 
 
 
