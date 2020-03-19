@@ -10,6 +10,9 @@
 
 * [http://nginx.org/en/download.html](http://nginx.org/en/download.html)
 
+* [https://github.com/h5bp/server-configs-nginx](https://github.com/h5bp/server-configs-nginx)
+
+
 
 * [Nginx HTTP核心模块指令和内置变量中文说明](https://my.oschina.net/jsan/blog/125861)
 

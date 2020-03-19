@@ -114,9 +114,13 @@
 
 **other**
 
-[瓜子云](https://yun.naodai.org/Software)
+[https://www.naodai.org](https://www.naodai.org)
+[https://yun.naodai.org/Software](https://yun.naodai.org/Software)
+[https://go.naodai.org/Software](https://go.naodai.org/Software)
 
-[fxxkmakeding](https://www.fxxkmakeding.xyz)
+[https://delivery.yuntu.com.tw](https://delivery.yuntu.com.tw)
+
+[https://www.fxxkmakeding.xyz](https://www.fxxkmakeding.xyz)
 
 [https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367)
 

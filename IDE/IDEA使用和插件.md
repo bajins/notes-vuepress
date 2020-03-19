@@ -153,6 +153,7 @@ demo                        # 顶级项目（根项目）
 
 * [MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
 
+* [https://zhile.io/categories/software-debug](https://zhile.io/categories/software-debug)
 
 **.ignore**
 

@@ -55,6 +55,11 @@
 
 * [https://github.com/baidu/amis](https://github.com/baidu/amis)
 
+* [https://github.com/alienzhou/web-highlighter](https://github.com/alienzhou/web-highlighter)
+
+* [https://github.com/josdejong/mathjs](https://github.com/josdejong/mathjs)
+
+
 **原生应用开发**
 
 * [https://github.com/topics/electron](https://github.com/topics/electron)
