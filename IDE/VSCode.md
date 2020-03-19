@@ -11,13 +11,11 @@
 ## flag
 
 * [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
-
 * [VSCode教程](https://www.php.cn/tool/vscode)
 
 
 
 ## 设置
-
 
 
 ```json

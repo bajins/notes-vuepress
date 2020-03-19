@@ -31,10 +31,10 @@
 
 
 
-- [https://www.jianshu.com/p/a3803f130c99](https://www.jianshu.com/p/a3803f130c99)
-- [https://blog.csdn.net/mist99/article/details/80742548](https://blog.csdn.net/mist99/article/details/80742548)
-- [https://blog.csdn.net/xufive/article/details/82665460](https://blog.csdn.net/xufive/article/details/82665460)
-- [https://blog.csdn.net/u014647208/article/details/77895274](https://blog.csdn.net/u014647208/article/details/77895274)
+* [https://www.jianshu.com/p/a3803f130c99](https://www.jianshu.com/p/a3803f130c99)
+* [https://blog.csdn.net/mist99/article/details/80742548](https://blog.csdn.net/mist99/article/details/80742548)
+* [https://blog.csdn.net/xufive/article/details/82665460](https://blog.csdn.net/xufive/article/details/82665460)
+* [https://blog.csdn.net/u014647208/article/details/77895274](https://blog.csdn.net/u014647208/article/details/77895274)
 
 
 > `wx.Window` 是一个基类，许多构件从它继承。包括`wx.Frame`构件。可以在所有的子类中使用`wx.Window`的方法。
@@ -562,11 +562,8 @@ if __name__ == "__main__":
 > 可用于为`C`或`C++`代码生成`Python`绑定。
 
 * [https://wiki.qt.io/Qt_for_Python/zh](https://wiki.qt.io/Qt_for_Python/zh)
-
 * [https://gaianote.github.io/2018/09/15/PyQt5%E5%AD%A6%E4%B9%A0%E4%B9%8Bline-edit/](https://gaianote.github.io/2018/09/15/PyQt5%E5%AD%A6%E4%B9%A0%E4%B9%8Bline-edit)
-
 * [一看就懂的Python图形界面开发：PyQt5/PySide2](https://zmister.com/archives/docs/easy-pyqt)
-
 * [PyQt5基础教程](https://zmister.com/archives/category/guidevelop/pyqt5_basic)
 
 
@@ -669,7 +666,6 @@ if __name__ == "__main__":
 > 但是并不是跨平台的，而是说你要是希望打包成`.exe`文件，需要在`Windows`系统上运行`PyInstaller`进行打包工作。
 
 * [https://github.com/pyinstaller](https://github.com/pyinstaller)
-
 * [https://hoxis.github.io/python-pyinstaller.html](https://hoxis.github.io/python-pyinstaller.html)
 
 **安装`pyinstalle`**

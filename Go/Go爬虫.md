@@ -19,9 +19,7 @@
 ## HTML解析
 
 * [https://github.com/antchfx](https://github.com/antchfx) htmlquery使用xpath选择器
-
 * [https://github.com/PuerkitoBio/goquery](https://github.com/PuerkitoBio/goquery) goquery使用css选择器
-
 * [https://github.com/gocolly/colly](https://github.com/gocolly/colly)
 
 
@@ -100,7 +98,6 @@ ctx, cancel = chromedp.NewContext(ctx, chromedp.WithTargetID(tagId))
 > `chromedp`同Python的`selenium`,它是使用`Chrome Debugging Protocol`(简称cdp) 并且没有外部依赖 (如`Selenium`, `PhantomJS`等)
 
 * [golang headless browser包chromedp初探](https://zhangguanzhang.github.io/2019/07/14/chromedp)
-
 * [go语言chromedp使用教程](https://mojotv.cn/2018/12/26/chromedp-tutorial-for-golang)
 
 

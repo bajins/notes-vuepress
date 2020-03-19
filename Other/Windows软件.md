@@ -1,155 +1,107 @@
 # Windows软件
 
 
-[[toc]]
+* [[toc]]
 
 
 
 
 ## flag
 
-[https://git.io](https://git.io)
+* [https://git.io](https://git.io)
 
 
 
-[http://potato.manre.me](http://potato.manre.me)
-
-[https://signal.org](https://signal.org)
-
-[Telegram](https://github.com/telegramdesktop/tdesktop/releases)
-
-[https://telegram.zczc.men](https://telegram.zczc.men)
-
-[https://github.com/zhukov/webogram](https://github.com/zhukov/webogram)
+* [http://potato.manre.me](http://potato.manre.me)
+* [https://signal.org](https://signal.org)
+* [Telegram](https://github.com/telegramdesktop/tdesktop/releases)
+* [https://telegram.zczc.men](https://telegram.zczc.men)
+* [https://github.com/zhukov/webogram](https://github.com/zhukov/webogram)
 
 
 
 
 **博客**
 
-[CRACKSurl](http://cracksurl.com)
-
-[QiuQuan's Blog](http://www.qiuquan.cc)
-
-[th_sjy](http://www.th-sjy.com)
-
-[v5pc](http://www.v5pc.com/category/syrj)
-
-[大眼仔旭](http://www.dayanzai.me)
-
-[反斗软件](http://www.apprcn.com)
-
-[果核剥壳](https://www.ghpym.com)
-
-[zdBryan](https://www.423down.com)
-
-[胡萝卜周](http://www.carrotchou.blog)
-
-[懒得勤快](https://masuit.com/misc/5)
-
-[绿软博客](http://liujin-greensoft.lofter.com)
-
-[殁漂遥](http://www.laomo.me)
-
-[奇客小栈](http://www.geekotg.com)
-
-[轻狂志](http://www.flighty.cn)
-
-[伤逝的安详](https://www.ssdax.com)
-
-[释怀](https://shiove.com/c/9tk)
-
-[宋永志博客](http://www.songyongzhi.com/SystemTool)
-
-[我天哪鸡哥](https://www.wotianna.com)
-
-[下1个好软件](http://www.xia1ge.com)
-
-[星空软件共享绿化园地](http://www.xingkbjm.com)
-
-[飞扬时空作品](http://blog.sina.com.cn/s/blog_89a729a40102wjwp.html)
-
-[翠竹成林](http://msbuild.cn/category/software)
-
-[落尘之木](https://www.luochenzhimu.com)
-
-[http://itjcc.com](http://itjcc.com)
-
-[https://myqqjd.com](https://myqqjd.com)
-
-[http://www.ypojie.com](http://www.ypojie.com)
-
-[https://www.ccava.net](https://www.ccava.net)
-
-[https://ymso.net](https://ymso.net)
-
-[https://www.wsf1234.com](https://www.wsf1234.com)
-
-[http://luxiaoneng.com](http://luxiaoneng.com/category/%e5%b7%a5%e5%85%b7%e5%8c%85)
-
-[https://www.zrbk.xyz](https://www.zrbk.xyz)
-
-[http://yx.bsh.me](http://yx.bsh.me)
+* [CRACKSurl](http://cracksurl.com)
+* [QiuQuan's Blog](http://www.qiuquan.cc)
+* [th_sjy](http://www.th-sjy.com)
+* [v5pc](http://www.v5pc.com/category/syrj)
+* [大眼仔旭](http://www.dayanzai.me)
+* [反斗软件](http://www.apprcn.com)
+* [果核剥壳](https://www.ghpym.com)
+* [zdBryan](https://www.423down.com)
+* [胡萝卜周](http://www.carrotchou.blog)
+* [懒得勤快](https://masuit.com/misc/5)
+* [绿软博客](http://liujin-greensoft.lofter.com)
+* [殁漂遥](http://www.laomo.me)
+* [奇客小栈](http://www.geekotg.com)
+* [轻狂志](http://www.flighty.cn)
+* [伤逝的安详](https://www.ssdax.com)
+* [释怀](https://shiove.com/c/9tk)
+* [宋永志博客](http://www.songyongzhi.com/SystemTool)
+* [我天哪鸡哥](https://www.wotianna.com)
+* [下1个好软件](http://www.xia1ge.com)
+* [星空软件共享绿化园地](http://www.xingkbjm.com)
+* [飞扬时空作品](http://blog.sina.com.cn/s/blog_89a729a40102wjwp.html)
+* [翠竹成林](http://msbuild.cn/category/software)
+* [落尘之木](https://www.luochenzhimu.com)
+* [http://itjcc.com](http://itjcc.com)
+* [https://myqqjd.com](https://myqqjd.com)
+* [http://www.ypojie.com](http://www.ypojie.com)
+* [https://www.ccava.net](https://www.ccava.net)
+* [https://ymso.net](https://ymso.net)
+* [https://www.wsf1234.com](https://www.wsf1234.com)
+* [http://luxiaoneng.com](http://luxiaoneng.com/category/%e5%b7%a5%e5%85%b7%e5%8c%85)
+* [https://www.zrbk.xyz](https://www.zrbk.xyz)
+* [http://yx.bsh.me](http://yx.bsh.me)
 
 
 **论坛**
 
-[JIKE](https://jike.info/recent?filter=new)
-
-[睿派克技术论坛](https://www.repaik.com)
-
-[52破解](https://www.52pojie.cn)
-
-[hwh0488-远景论坛](http://i.pcbeta.com/home.php?mod=space&uid=2521016&do=thread&view=me&from=space)
-
-[风之暇想-52破解](https://www.52pojie.cn/home.php?mod=space&uid=243467&do=thread&view=me&from=space)
+* [JIKE](https://jike.info/recent?filter=new)
+* [睿派克技术论坛](https://www.repaik.com)
+* [52破解](https://www.52pojie.cn)
+* [hwh0488-远景论坛](http://i.pcbeta.com/home.php?mod=space&uid=2521016&do=thread&view=me&from=space)
+* [风之暇想-52破解](https://www.52pojie.cn/home.php?mod=space&uid=243467&do=thread&view=me&from=space)
 
 
 **Telegram**
 
-[https://t.me/s/wuaipojie](https://t.me/s/wuaipojie)
-
-[https://t.me/s/infosaodaye](https://t.me/s/infosaodaye)
+* [https://t.me/s/wuaipojie](https://t.me/s/wuaipojie)
+* [https://t.me/s/infosaodaye](https://t.me/s/infosaodaye)
 
 
 **other**
 
-[https://www.naodai.org](https://www.naodai.org)
+* [https://www.naodai.org](https://www.naodai.org)
 [https://yun.naodai.org/Software](https://yun.naodai.org/Software)
 [https://go.naodai.org/Software](https://go.naodai.org/Software)
 
-[https://delivery.yuntu.com.tw](https://delivery.yuntu.com.tw)
-
-[https://www.fxxkmakeding.xyz](https://www.fxxkmakeding.xyz)
-
-[https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367)
-
-[http://go.wumings.com](http://go.wumings.com)
+* [https://delivery.yuntu.com.tw](https://delivery.yuntu.com.tw)
+* [https://www.fxxkmakeding.xyz](https://www.fxxkmakeding.xyz)
+* [https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367)
+* [http://go.wumings.com](http://go.wumings.com)
 
 
-[https://www.macbl.com](https://www.macbl.com)
-
-[http://lao4g.com](http://lao4g.com)
-
-[https://www.haorenka.org](https://www.haorenka.org)
+* [https://www.macbl.com](https://www.macbl.com)
+* [http://lao4g.com](http://lao4g.com)
+* [https://www.haorenka.org](https://www.haorenka.org)
 
 
 ---
 
-[http://www.sharerw.com](http://www.sharerw.com)
-
-[https://htcui.com](https://htcui.com)
-
-[https://www.lanzous.com/b05f9wyf](https://www.lanzous.com/b05f9wyf)
+* [http://www.sharerw.com](http://www.sharerw.com)
+* [https://htcui.com](https://htcui.com)
+* [https://www.lanzous.com/b05f9wyf](https://www.lanzous.com/b05f9wyf)
 
 
 
 
 ## 浏览器
 
-[https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
-
-[https://www.microsoft.com/en-us/edge](https://www.microsoft.com/en-us/edge)
+* [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
+* [https://www.microsoft.com/en-us/edge](https://www.microsoft.com/en-us/edge)
 
 > 以管理员身份运行Microsoft Edge时不支持登录。请以非管理员身份重新启动Microsoft Edge的解决办法：
 > <kbd>Win</kbd> + <kbd>R</kbd>输入并运行`regedit` -> 地址栏输入
@@ -160,78 +112,57 @@
 > `计算机配置` –> `windows设置` –> `安全设置` –> `本地策略` –> `安全选项` –> `用户帐户控制：用于内置管理员帐户的管理员批准模式` –> 
 > `启用` –> `重启电脑`
 
-[https://www.firefox.com.cn](https://www.firefox.com.cn)
+* [https://www.firefox.com.cn](https://www.firefox.com.cn)
 
 
 ## 下载器
 
-[https://github.com/search?q=downloader&type=Repositories](https://github.com/search?q=downloader&type=Repositories)
-
-[https://github.com/topics/downloader](https://github.com/topics/downloader)
-
-[https://github.com/topics/download](https://github.com/topics/download)
-
-[https://github.com/topics/download-manager](https://github.com/topics/download-manager)
+* [https://github.com/search?q=downloader&type=Repositories](https://github.com/search?q=downloader&type=Repositories)
+* [https://github.com/topics/downloader](https://github.com/topics/downloader)
+* [https://github.com/topics/download](https://github.com/topics/download)
+* [https://github.com/topics/download-manager](https://github.com/topics/download-manager)
 
 
-[https://github.com/xdown-org](https://github.com/xdown-org) [https://xdown.org](https://xdown.org)
-
-[https://github.com/monkeyWie/proxyee-down](https://github.com/monkeyWie/proxyee-down)
-
-[http://www.neatdownloadmanager.com](http://www.neatdownloadmanager.com)
-
-[https://github.com/subhra74/xdm](https://github.com/subhra74/xdm)
-
-[猎鹰下载器 EagleGet](http://www.eagleget.com/cn/)
-
-[Free Download Manager](http://www.freedownloadmanager.org/download.htm)
-
-[Negibox葱葱盒子](https://github.com/hugetiny/negibox)
-
-[https://github.com/agalwood/Motrix](https://github.com/agalwood/Motrix)
+* [https://github.com/xdown-org](https://github.com/xdown-org) [https://xdown.org](https://xdown.org)
+* [https://github.com/monkeyWie/proxyee-down](https://github.com/monkeyWie/proxyee-down)
+* [http://www.neatdownloadmanager.com](http://www.neatdownloadmanager.com)
+* [https://github.com/subhra74/xdm](https://github.com/subhra74/xdm)
+* [猎鹰下载器 EagleGet](http://www.eagleget.com/cn/)
+* [Free Download Manager](http://www.freedownloadmanager.org/download.htm)
+* [Negibox葱葱盒子](https://github.com/hugetiny/negibox)
+* [https://github.com/agalwood/Motrix](https://github.com/agalwood/Motrix)
 
 
 **百度网盘**
 
-[BaiduPCS](https://github.com/search?o=desc&p=1&q=BaiduPCS&s=updated&type=Repositories)
-
-[https://github.com/topics/baiduyun?o=desc&s=updated](https://github.com/topics/baiduyun?o=desc&s=updated)
-
-[https://github.com/iikira/BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go)
-
-[https://github.com/liuzhuoling2011/baidupcs-web](https://github.com/liuzhuoling2011/baidupcs-web)
-
-[https://github.com/loliconer/baidupcs-mobile](https://github.com/loliconer/baidupcs-mobile)
-
-[百度网盘直链下载助手](https://www.baiduyun.wiki)
-
-[http://pandownload.com](http://pandownload.com)
-
-[https://yixun.writeas.com](https://yixun.writeas.com)
-
-[https://github.com/Kyle-Kyle/baidudl](https://github.com/Kyle-Kyle/baidudl)
+* [BaiduPCS](https://github.com/search?o=desc&p=1&q=BaiduPCS&s=updated&type=Repositories)
+* [https://github.com/topics/baiduyun?o=desc&s=updated](https://github.com/topics/baiduyun?o=desc&s=updated)
+* [https://github.com/iikira/BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go)
+* [https://github.com/liuzhuoling2011/baidupcs-web](https://github.com/liuzhuoling2011/baidupcs-web)
+* [https://github.com/loliconer/baidupcs-mobile](https://github.com/loliconer/baidupcs-mobile)
+* [百度网盘直链下载助手](https://www.baiduyun.wiki)
+* [http://pandownload.com](http://pandownload.com)
+* [https://yixun.writeas.com](https://yixun.writeas.com)
+* [https://github.com/Kyle-Kyle/baidudl](https://github.com/Kyle-Kyle/baidudl)
 
 
-[网赚网盘下载辅助工具](http://www.oceancoder.cn/post/net-disk-download-helper.html)
-[http://app.oceancoder.cn](http://app.oceancoder.cn)
+* [网赚网盘下载辅助工具](http://www.oceancoder.cn/post/net-disk-download-helper.html)
+* [http://app.oceancoder.cn](http://app.oceancoder.cn)
 
 
 **蓝奏云**
 
-[https://github.com/zaxtyson/LanZouCloud-API](https://github.com/zaxtyson/LanZouCloud-API)
-
-[https://github.com/zaxtyson/LanZouCloud-CMD](https://github.com/zaxtyson/LanZouCloud-CMD)
-
-[https://github.com/rachpt/lanzou-gui](https://github.com/rachpt/lanzou-gui)
-
-[https://github.com/vcheckzen/LanzouCloudAPI](https://github.com/vcheckzen/LanzouCloudAPI)
+* [https://github.com/zaxtyson/LanZouCloud-API](https://github.com/zaxtyson/LanZouCloud-API)
+* [https://github.com/zaxtyson/LanZouCloud-CMD](https://github.com/zaxtyson/LanZouCloud-CMD)
+* [https://github.com/rachpt/lanzou-gui](https://github.com/rachpt/lanzou-gui)
+* [https://github.com/vcheckzen/LanzouCloudAPI](https://github.com/vcheckzen/LanzouCloudAPI)
 
 
 **Bit Torrent**
 
-[https://baike.baidu.com/item/BitTorrent](https://baike.baidu.com/item/BitTorrent)
+* [https://baike.baidu.com/item/BitTorrent](https://baike.baidu.com/item/BitTorrent)
 
-* `BT-Trackers`服务器地址
+- `BT-Trackers`服务器地址
     * [https://github.com/XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection)
     * [https://github.com/ngosang/trackerslist](https://github.com/ngosang/trackerslist)
     * [https://github.com/CorralPeltzer/newTrackon](https://github.com/CorralPeltzer/newTrackon)
@@ -245,45 +176,33 @@
     * [https://github.com/DeSireFire/animeTrackerList](https://github.com/DeSireFire/animeTrackerList)
 
 
-[https://github.com/qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent)
+* [https://github.com/qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent)
 [https://www.lanzous.com/b073dnr7g](https://www.lanzous.com/b073dnr7g)
 
-[https://github.com/c0re100/qBittorrent-Enhanced-Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition)
-
-[https://transmissionbt.com](https://transmissionbt.com)
-
-[https://deluge-torrent.org](https://deluge-torrent.org)
-
-[https://www.utorrent.com](https://www.utorrent.com)
-
-[https://www.bitcomet.com](https://www.bitcomet.com)
+* [https://github.com/c0re100/qBittorrent-Enhanced-Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition)
+* [https://transmissionbt.com](https://transmissionbt.com)
+* [https://deluge-torrent.org](https://deluge-torrent.org)
+* [https://www.utorrent.com](https://www.utorrent.com)
+* [https://www.bitcomet.com](https://www.bitcomet.com)
 [https://www.lanzous.com/b073c7g4f](https://www.lanzous.com/b073c7g4f)
 
 
 **迅雷**
 
-[https://www.lanzous.com/b906590](https://www.lanzous.com/b906590)
-
-[https://www.lanzous.com/b505936](https://www.lanzous.com/b505936)
-
-[https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q](https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q)
-
-[迅雷 X 去广告](https://tmr.js.org/categories/%E7%A0%B4%E8%A7%A3)
+* [https://www.lanzous.com/b906590](https://www.lanzous.com/b906590)
+* [https://www.lanzous.com/b505936](https://www.lanzous.com/b505936)
+* [https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q](https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q)
+* [迅雷 X 去广告](https://tmr.js.org/categories/%E7%A0%B4%E8%A7%A3)
 
 
 **aria2**
 
-[https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-
-[https://github.com/binux/yaaw](https://github.com/binux/yaaw)
-
-[https://github.com/ziahamza/webui-aria2](https://github.com/ziahamza/webui-aria2)
-
-[https://github.com/mayswind/AriaNg](https://github.com/mayswind/AriaNg)
-
-[https://github.com/persepolisdm/persepolis](https://github.com/persepolisdm/persepolis)
-
-[https://github.com/P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf)
+* [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
+* [https://github.com/binux/yaaw](https://github.com/binux/yaaw)
+* [https://github.com/ziahamza/webui-aria2](https://github.com/ziahamza/webui-aria2)
+* [https://github.com/mayswind/AriaNg](https://github.com/mayswind/AriaNg)
+* [https://github.com/persepolisdm/persepolis](https://github.com/persepolisdm/persepolis)
+* [https://github.com/P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf)
 
 
 **Internet Download Manager**
@@ -301,91 +220,73 @@
 
 ## 播放器
 
-[foobar2000](http://blog.sina.com.cn/go2spa)
-
-[https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
+* [foobar2000](http://blog.sina.com.cn/go2spa)
+* [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
 
 
 **Potplayer**
 
-[http://potplayer.daum.net](http://potplayer.daum.net)
-
-[Public Version 32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe)
-
-[Public Version 64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe)
-
-[Developer Version 32-bit](http://t1.daumcdn.net/potplayer/beta/PotPlayerSetup.exe)
-
-[Developer Version 64-bit](http://t1.daumcdn.net/potplayer/beta/PotPlayerSetup64.exe)
-
-[OpenCodec(额外解码包)32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup.exe)
-
-[OpenCodec(额外解码包)64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup64.exe)
-
-[FFmpegMininum.dll 32-bit](https://get.daum.net/PotPlayer/v4/Module/FFmpeg/FFmpegMininum.dll)
-
-[FFmpegMininum.dll 64-bit](https://get.daum.net/PotPlayer64/v4/Module/FFmpeg/FFmpegMininum64.dll)
+* [http://potplayer.daum.net](http://potplayer.daum.net)
+* [Public Version 32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe)
+* [Public Version 64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe)
+* [Developer Version 32-bit](http://t1.daumcdn.net/potplayer/beta/PotPlayerSetup.exe)
+* [Developer Version 64-bit](http://t1.daumcdn.net/potplayer/beta/PotPlayerSetup64.exe)
+* [OpenCodec(额外解码包)32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup.exe)
+* [OpenCodec(额外解码包)64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup64.exe)
+* [FFmpegMininum.dll 32-bit](https://get.daum.net/PotPlayer/v4/Module/FFmpeg/FFmpegMininum.dll)
+* [FFmpegMininum.dll 64-bit](https://get.daum.net/PotPlayer64/v4/Module/FFmpeg/FFmpegMininum64.dll)
 
 > 以上是官网下载地址，将`DNS`改为`8.8.8.8`就可以顺利下载了，若为默认的自动模式（国内DNS）则无法下载。或者使用迅雷下载
 
-[http://daumpotplayer.com/download](http://daumpotplayer.com/download)
-
-[https://www.lanzous.com/b112173](https://www.lanzous.com/b112173)
+* [http://daumpotplayer.com/download](http://daumpotplayer.com/download)
+* [https://www.lanzous.com/b112173](https://www.lanzous.com/b112173)
 
 
 
 ## 图片
 
-[Google开发的图片压缩工具](https://github.com/GoogleChromeLabs/squoosh)
+* [Google开发的图片压缩工具](https://github.com/GoogleChromeLabs/squoosh)
 
 
 ### Gif软件
 
-[ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases)
-
-[Honeycam](https://www.bandisoft.com/honeycam)
-
-[http://www.bahraniapps.com](http://www.bahraniapps.com)
+* [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases)
+* [Honeycam](https://www.bandisoft.com/honeycam)
+* [http://www.bahraniapps.com](http://www.bahraniapps.com)
 
 
-[由微博大神@vposy制作Adobe全系列](https://weibo.com/vposy?is_hot=1)
-
-[Adobe软件单独下载方法-官方](https://sleele.com/2019/05/05/adobe/)
+* [由微博大神@vposy制作Adobe全系列](https://weibo.com/vposy?is_hot=1)
+* [Adobe软件单独下载方法-官方](https://sleele.com/2019/05/05/adobe/)
 
 
 **Photoshop CC**
 
 0. [https://eyun.baidu.com/s/3mizNp4O](https://eyun.baidu.com/s/3mizNp4O)密码：3131
-
 1. [https://yunpan.360.cn/surl_ydDgKwXKPSf](https://yunpan.360.cn/surl_ydDgKwXKPSf)（提取码：0be6）
-
 2. [https://cloud.189.cn/t/UneM3imEJj2u](https://cloud.189.cn/t/UneM3imEJj2u)（访问码：0224）
 
 
 
 ### Icon图标
 
-[IcoFx官网](https://icofx.ro)
-
-[Axialis-IconWorkshop 官网](https://www.axialis.com/download/#software)
+* [IcoFx官网](https://icofx.ro)
+* [Axialis-IconWorkshop 官网](https://www.axialis.com/download/#software)
 
 
 ### 截图
 
-[https://github.com/ShareX/ShareX](https://github.com/ShareX/ShareX)
-
-[Lightshot](https://app.prntscr.com)
-
-[https://www.snipaste.com](https://www.snipaste.com)
+* [https://github.com/ShareX/ShareX](https://github.com/ShareX/ShareX)
+* [Lightshot](https://app.prntscr.com)
+* [https://www.snipaste.com](https://www.snipaste.com)
 
 
 **FastStone Capture**
 
-[FastStone Capture官网](https://www.faststone.org/download.htm)
+* [FastStone Capture官网](https://www.faststone.org/download.htm)
 
 > 官网被屏蔽，官方下载地址：`http://www.faststonesoft.net/DN/FSCaptureSetup版本号.exe`
 
-[下载最新版本](http://www.faststonesoft.net/DN/FSCaptureSetup.exe)
+* [下载最新版本](http://www.faststonesoft.net/DN/FSCaptureSetup.exe)
 
 - 使用说明
 
@@ -412,38 +313,29 @@
 
 **WinSnap**
 
-[https://www.ntwind.com/software/winsnap.html](https://www.ntwind.com/software/winsnap.html)
-
-[https://eyun.baidu.com/s/3geM3SFD](https://eyun.baidu.com/s/3geM3SFD) 密码：3131
-
-[https://www.lanzous.com/b189177/](https://www.lanzous.com/b189177/)
-
-[https://yunpan.360.cn/surl_ym47hHpHxAu](https://yunpan.360.cn/surl_ym47hHpHxAu) （提取码：a265）
-
-[https://cloud.189.cn/t/VVny2mj67ryy](https://cloud.189.cn/t/VVny2mj67ryy)（访问码：2972）
-
-[https://pan.baidu.com/s/1qWIF7lE](https://pan.baidu.com/s/1qWIF7lE)
+* [https://www.ntwind.com/software/winsnap.html](https://www.ntwind.com/software/winsnap.html)
+* [https://eyun.baidu.com/s/3geM3SFD](https://eyun.baidu.com/s/3geM3SFD) 密码：3131
+* [https://www.lanzous.com/b189177/](https://www.lanzous.com/b189177/)
+* [https://yunpan.360.cn/surl_ym47hHpHxAu](https://yunpan.360.cn/surl_ym47hHpHxAu) （提取码：a265）
+* [https://cloud.189.cn/t/VVny2mj67ryy](https://cloud.189.cn/t/VVny2mj67ryy)（访问码：2972）
+* [https://pan.baidu.com/s/1qWIF7lE](https://pan.baidu.com/s/1qWIF7lE)
 
 
 
 
 ## 文件压缩
 
-[https://www.bandisoft.com/bandizip](https://www.bandisoft.com/bandizip)
-
-[https://www.peazip.org](https://www.peazip.org)
-
-[https://www.7-zip.org/download.html](https://www.7-zip.org/download.html)
+* [https://www.bandisoft.com/bandizip](https://www.bandisoft.com/bandizip)
+* [https://www.peazip.org](https://www.peazip.org)
+* [https://www.7-zip.org/download.html](https://www.7-zip.org/download.html)
 
 
 
 ## office
 
-[https://github.com/apache/openoffice](https://github.com/apache/openoffice)
-
-[https://zh-cn.libreoffice.org](https://zh-cn.libreoffice.org)
-
-[https://github.com/YerongAI/Office-Tool](https://github.com/YerongAI/Office-Tool)
+* [https://github.com/apache/openoffice](https://github.com/apache/openoffice)
+* [https://zh-cn.libreoffice.org](https://zh-cn.libreoffice.org)
+* [https://github.com/YerongAI/Office-Tool](https://github.com/YerongAI/Office-Tool)
 
 **office key**
 
@@ -465,43 +357,30 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 
 **MSDN**
                                                                   
-[http://msdn.itellyou.cn](http://msdn.itellyou.cn)
-
-[https://www.iruanmi.com/msdn](https://www.iruanmi.com/msdn)
-
-[http://www.imsdn.cn](http://www.imsdn.cn)
-
-[https://uup.rg-adguard.net](https://uup.rg-adguard.net)
-
-[https://www.repaik.com/win.html](https://www.repaik.com/win.html)
+* [http://msdn.itellyou.cn](http://msdn.itellyou.cn)
+* [https://www.iruanmi.com/msdn](https://www.iruanmi.com/msdn)
+* [http://www.imsdn.cn](http://www.imsdn.cn)
+* [https://uup.rg-adguard.net](https://uup.rg-adguard.net)
+* [https://www.repaik.com/win.html](https://www.repaik.com/win.html)
 
 **绿色精简**
                                                  
-[WINOS ](https://www.winos.me)
-
-[绿色系统](http://lvsexitong.com)
-
-[网吧系统](http://down.lansedongli.com)
-
-[twm000-导航页被定制可修改](http://twm000.top)
-
-[Y-OS工作室-导航页被定制可修改](http://y-os.net)
-
-[十二星座-导航页被定制可修改](http://www.12xzzx.com)
-
-[http://icura.cn](http://icura.cn)
+* [WINOS ](https://www.winos.me)
+* [绿色系统](http://lvsexitong.com)
+* [网吧系统](http://down.lansedongli.com)
+* [twm000-导航页被定制可修改](http://twm000.top)
+* [Y-OS工作室-导航页被定制可修改](http://y-os.net)
+* [十二星座-导航页被定制可修改](http://www.12xzzx.com)
+* [http://icura.cn](http://icura.cn)
 
 
 
 ### WinPE
                                                                                 
-[微PE](http://www.wepe.com.cn)
-
-[USBOS](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965&extra=page%3D1)
-
-[光卡自己的 PE 项目](https://hikaricalyx.com)
-
-[优启时代](http://www.uqi.me/catalog.asp?cate=1)
+* [微PE](http://www.wepe.com.cn)
+* [USBOS](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965&extra=page%3D1)
+* [光卡自己的 PE 项目](https://hikaricalyx.com)
+* [优启时代](http://www.uqi.me/catalog.asp?cate=1)
 
 
 ### Windows激活
@@ -513,30 +392,23 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 **密钥命令**
 
 - `slmgr -ipk 密钥` 安装产品密钥
-
 - `slmgr -upk` 卸载密钥
-
 - `slmgr -ato` 激活密钥
-
 - `systeminfo` 系统信息
 
 
 **错误代码**
 
 - `0xC004C008` 是零售版可以电话激活、网页激活
-
 - `0xC004C020` 是批量版可以电话激活、运气好可以网页激活
-
 - `0xC004C060` 已失效
-
 - `0xC004C003` 已失效
-
 - `0x80072EE2` 因网络阻塞导致错误,稍等10分钟再重试
 
 
 **Windows Key**
 
-[https://cherishspring.cn/s/share-key](https://cherishspring.cn/s/share-key)
+* [https://cherishspring.cn/s/share-key](https://cherishspring.cn/s/share-key)
 
 ```
 # Windows 10 LTSC 2019在线激活密钥
@@ -584,35 +456,23 @@ MK7WR-D4TPC-VXHGP-P6TKG-RQT6D
 **KMS**
 
 
-[https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
-
-[https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
-
-[Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
+* [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
+* [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
+* [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
 
 ---
 
-[可用的 KMS 列表](https://www.coolhub.top/archives/14)
-
-[MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)
-
-[人人客-微软产品](https://rrkee.com/microsoft)
-
-[03k.orgKMS服务](https://03k.org/kms.html)
-
-[kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4)
-
-[云萌 Windows 10 激活工具](https://tgsan.github.io/CMWTAT_Digital_Edition)
-
-[零散坑KMS服务](https://03k.org/kms.html)
-
-[kms.mogeko.me](https://mogeko.me/2019/054)
-
-[https://kms.cangshui.net](https://kms.cangshui.net)
-
-[https://kms.loli.beer](https://kms.loli.beer)
-
-[https://www.moerats.com/kms](https://www.moerats.com/kms)
+* [可用的 KMS 列表](https://www.coolhub.top/archives/14)
+* [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)
+* [人人客-微软产品](https://rrkee.com/microsoft)
+* [03k.orgKMS服务](https://03k.org/kms.html)
+* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4)
+* [云萌 Windows 10 激活工具](https://tgsan.github.io/CMWTAT_Digital_Edition)
+* [零散坑KMS服务](https://03k.org/kms.html)
+* [kms.mogeko.me](https://mogeko.me/2019/054)
+* [https://kms.cangshui.net](https://kms.cangshui.net)
+* [https://kms.loli.beer](https://kms.loli.beer)
+* [https://www.moerats.com/kms](https://www.moerats.com/kms)
 
 
 **数字激活**
@@ -626,108 +486,87 @@ MK7WR-D4TPC-VXHGP-P6TKG-RQT6D
 
 ### 开始菜单
 
-[https://github.com/coddec/Classic-Shell](https://github.com/coddec/Classic-Shell)
+* [https://github.com/coddec/Classic-Shell](https://github.com/coddec/Classic-Shell)
 
 
 **StartIsBack++**
 
 0. [https://eyun.baidu.com/s/3eTL5mMY](https://eyun.baidu.com/s/3eTL5mMY)密码：3131
-
 1. [https://www.lanzous.com/b279570](https://www.lanzous.com/b279570)
-
 2. [https://yunpan.360.cn/surl_ymKSxmH5PbY](https://yunpan.360.cn/surl_ymKSxmH5PbY)（提取码：298e）
 
 
 ### 清理工具
 
-[Win10Clean](https://github.com/ElPumpo/Win10Clean)
-
-[Dism++](https://www.chuyu.me/zh-Hans/index.html)
-
-[W10Privacy](https://www.winprivacy.de/deutsch-start/download)
-
-[PCHunter](http://www.xuetr.com)
-
-[Windows 10 Manager](https://www.yamicsoft.com/cn)
+* [Win10Clean](https://github.com/ElPumpo/Win10Clean)
+* [Dism++](https://www.chuyu.me/zh-Hans/index.html)
+* [W10Privacy](https://www.winprivacy.de/deutsch-start/download)
+* [PCHunter](http://www.xuetr.com)
+* [Windows 10 Manager](https://www.yamicsoft.com/cn)
 
 > `WMXD7-RG8FP-OYKS3-KHTN6`
 
-[https://www.crystalidea.com/uninstall-tool](https://www.crystalidea.com/uninstall-tool)
+* [https://www.crystalidea.com/uninstall-tool](https://www.crystalidea.com/uninstall-tool)
 
 
 
 ## 剪贴板
 
-[https://github.com/hluk/CopyQ](https://github.com/hluk/CopyQ)
+* [https://github.com/hluk/CopyQ](https://github.com/hluk/CopyQ)
 
 > 可设置<kbd>Win</kbd> + <kbd>v</kbd>快捷键
 
 
-[https://www.clipboardfusion.com](https://www.clipboardfusion.com)
-
-[https://clipber.com](https://clipber.com)
-
-[https://ditto-cp.sourceforge.io](https://ditto-cp.sourceforge.io)
-[http://ditto-cp.sourceforge.net](http://ditto-cp.sourceforge.net)
-
-[https://www.nakka.com/soft/clcl/index_eng.html](https://www.nakka.com/soft/clcl/index_eng.html)
-
-[https://github.com/Carson-Shook/Winclipper](https://github.com/Carson-Shook/Winclipper)
-
-[https://ccyixia.com](https://ccyixia.com)
-
-[https://www.52pojie.cn/thread-953460-1-1.html](https://www.52pojie.cn/thread-953460-1-1.html)
-
-[http://1clipboard.io](http://1clipboard.io)
+* [https://www.clipboardfusion.com](https://www.clipboardfusion.com)
+* [https://clipber.com](https://clipber.com)
+* [https://ditto-cp.sourceforge.io](https://ditto-cp.sourceforge.io)
+* [http://ditto-cp.sourceforge.net](http://ditto-cp.sourceforge.net)
+* [https://www.nakka.com/soft/clcl/index_eng.html](https://www.nakka.com/soft/clcl/index_eng.html)
+* [https://github.com/Carson-Shook/Winclipper](https://github.com/Carson-Shook/Winclipper)
+* [https://ccyixia.com](https://ccyixia.com)
+* [https://www.52pojie.cn/thread-953460-1-1.html](https://www.52pojie.cn/thread-953460-1-1.html)
+* [http://1clipboard.io](http://1clipboard.io)
 
 
-[https://copiedapp.com](https://copiedapp.com)
+* [https://copiedapp.com](https://copiedapp.com)
 
 
 
 ## 邮箱客户端
 
-[https://www.thunderbird.net](https://www.thunderbird.net)
-
-[https://www.foxmail.com](https://www.foxmail.com)
+* [https://www.thunderbird.net](https://www.thunderbird.net)
+* [https://www.foxmail.com](https://www.foxmail.com)
 
 
 ## other
 
-[https://www.sandboxie.com](https://www.sandboxie.com)
-
-[FFmpeg-视频编辑](https://github.com/FFmpeg/FFmpeg)
-
-[显示当前网速、CPU及内存利用率的桌面悬浮窗软件](https://github.com/zhongyang219/TrafficMonitor)
-
-[http://wenlei.ys168.com](http://wenlei.ys168.com)
-
-[简化快捷键](https://szzhiyang.github.io)
-
-[火绒安全](https://www.huorong.cn)
+* [https://www.sandboxie.com](https://www.sandboxie.com)
+* [FFmpeg-视频编辑](https://github.com/FFmpeg/FFmpeg)
+* [显示当前网速、CPU及内存利用率的桌面悬浮窗软件](https://github.com/zhongyang219/TrafficMonitor)
+* [http://wenlei.ys168.com](http://wenlei.ys168.com)
+* [简化快捷键](https://szzhiyang.github.io)
+* [火绒安全](https://www.huorong.cn)
 
 
 **文件搜索**
 
-[https://www.listary.com/pro](https://www.listary.com/pro)
-
-[Everything](https://www.voidtools.com)
+* [https://www.listary.com/pro](https://www.listary.com/pro)
+* [Everything](https://www.voidtools.com)
 
 
 
 **文件对比**
 
-[https://www.beyondcomparepro.com](https://www.beyondcomparepro.com)
+* [https://www.beyondcomparepro.com](https://www.beyondcomparepro.com)
 
 
 
 **福昕PDF阅读器**
 
 0. [https://eyun.baidu.com/s/3bozPGmV](https://eyun.baidu.com/s/3bozPGmV)密码：3131
-
 1. [https://yunpan.360.cn/surl_ydQx6xDvQyG](https://yunpan.360.cn/surl_ydQx6xDvQyG)提取码：39db
 
 
 **微软常用运行库**
 
-[https://www.lanzous.com/b143614](https://www.lanzous.com/b143614)
+* [https://www.lanzous.com/b143614](https://www.lanzous.com/b143614)

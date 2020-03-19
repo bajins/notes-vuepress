@@ -15,9 +15,7 @@
 
 
 * [strconv包使用](https://my.oschina.net/byonds/blog/488492)
-
 * [runtime包](https://www.jianshu.com/p/84bac7932394)
-
 * [File操作](https://blog.csdn.net/TDCQZD/article/details/81835149)
 
 
@@ -339,15 +337,10 @@ func test() {
 ## HTTP
 
 * [关于golang 的readall清空reader](https://www.jianshu.com/p/2ecda118336f)
-
 * [multipart/form-data POST上传文件](https://my.oschina.net/bianweiall/blog/544355)
-
 * [Golang模拟客户端POST表单功能文件上传](http://hacktech.cn/2017/07/07/Golang%E6%A8%A1%E6%8B%9F%E5%AE%A2%E6%88%B7%E7%AB%AFPOST%E8%A1%A8%E5%8D%95%E5%8A%9F%E8%83%BD%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.html)
-
 * [go语言模拟multipart/form-data提交数据](https://1024coder.com/14845548548981.html)
-
 * [https://github.com/xuanbo/requests](https://github.com/xuanbo/requests)
-
 * [从 HTTP 角度看 Go 如何实现文件上传](https://zhuanlan.zhihu.com/p/96491484)
 
 
@@ -563,7 +556,6 @@ func SchedulerFixedTimer(f func(), duration time.Duration) {
 > GO程序是单进程的（手动`fork/exec`不算），但是调度器是多线程的。
 
 * [go 开多个goroutine，是在一个进程中完成，还是可能在多个进程中完成](https://segmentfault.com/q/1010000007372739)
-
 * [golang多进程并发](https://chierqj.github.io/golang-duo-jin-cheng-bing-fa)
 
 ### 进程
@@ -584,15 +576,10 @@ proc, err = os.StartProcess("test.exe", nil, &os.ProcAttr{Files: []*os.File{os.S
 ### 协程
 
 * [多线程](https://www.jianshu.com/p/c3d65105fa46)
-
 * [Go 并发 、并行、线程池](https://blog.csdn.net/sun_hongtao/article/details/76972156)
-
 * [多线程 并发](https://blog.csdn.net/ytd7777/article/details/85004371)
-
 * [Go 并发控制](https://segmentfault.com/a/1190000019229973)
-
 * [多任务线程池并发](https://blog.csdn.net/github_37320188/article/details/93909877)
-
 * [深度剖析 Go 中的 Go 协程 (goroutines) -- Go 的并发](https://studygolang.com/articles/17944)
 
 
@@ -650,12 +637,8 @@ func TestGorutine(t *testing.T) {
 
 
 * [https://github.com/jmoiron/sqlx](https://github.com/jmoiron/sqlx)
-
 * [https://github.com/jinzhu/gorm](https://github.com/jinzhu/gorm)
-
 * [https://github.com/go-xorm/xorm](https://github.com/go-xorm/xorm)
-
 * [https://github.com/gohouse/gorose](https://github.com/gohouse/gorose)
-
 * [https://github.com/go-gorp/gorp](https://github.com/go-gorp/gorp)
 

@@ -21,32 +21,20 @@
 > 但是会将翻译过的代码缓存起来以降低性能损耗。相对于静态编译代码，即时编译的代码可以处理延迟绑定并增强安全性。
 
 * [GO-Node-Python的简单性能比较](https://www.izhongxia.com/posts/64310.html)
-
 * [https://docs.python.org/zh-cn](https://docs.python.org/zh-cn)
-
 * [内置异常和函数](https://lichangke.github.io/category/#python)
-
 * [Python语言小册](https://python.fasionchan.com/zh_CN/latest/index.html)
-
 * [https://github.com/yidao620c/python3-cookbook](https://github.com/yidao620c/python3-cookbook)
-
 * [https://github.com/eastlakeside/interpy-zh](https://github.com/eastlakeside/interpy-zh)
-
 * [https://github.com/cloga/scipy-lecture-notes_cn](https://github.com/cloga/scipy-lecture-notes_cn)
-
 * [https://www.junmajinlong.com/python/index](https://www.junmajinlong.com/python/index)
-
 * [https://zmister.com](https://zmister.com)
-
 * [python3基础教程](https://morvanzhou.github.io/tutorials/python-basic/basic)
 
 
 * [精选的Python框架，库，软件和资源的精选列表](https://github.com/vinta/awesome-python)
-
 * [python3 中执行系统命令](https://www.jianshu.com/p/a19de14c4b57)
-
 * [Python图像处理库—-Pillow](https://www.lizenghai.com/archives/17611.html)
-
 * [https://github.com/aio-libs](https://github.com/aio-libs)
 
 
@@ -351,7 +339,6 @@ print(platform.python_version(), '\n')
 ### 进程
 
 * [multiprocessing --- 基于进程的并行](https://docs.python.org/zh-cn/3/library/multiprocessing.html)
-
 * [multiprocessing](https://morvanzhou.github.io/tutorials/python-basic/multiprocessing)
 
 
@@ -403,9 +390,7 @@ threading.Timer(10, test, ("test",)).start()
 
 
 * [python3异步编程](https://blog.51cto.com/445153/2138832)
-
 * [Python 并发、并行、同步和异步](https://www.jianshu.com/p/13d2e8514546)
-
 * [ThreadPoolExecutor](https://www.jianshu.com/p/6d6e4f745c27)
 
 ```python
@@ -421,29 +406,17 @@ done.add_done_callback(thread_call_back)
 ### asyncio
 
 * [异步IO](https://www.liaoxuefeng.com/wiki/1016959663602400/1017959540289152)
-
 * [Python3.5协程学习研究](https://thief.one/2018/06/21/1)
-
 * [协程和 asyncio](https://www.ibm.com/developerworks/cn/analytics/library/ba-on-demand-data-python-3/index.html?ca=drs-)
-
 * [python asyncio](https://www.jianshu.com/p/9ce6c3bf6733)
-
 * [Python中协程异步IO（asyncio）详解](https://zhuanlan.zhihu.com/p/59621713)
-
 * [https://docs.python.org/zh-cn/3/library/asyncio.html](https://docs.python.org/zh-cn/3/library/asyncio.html)
-
 * [Asyncio并发编程](http://www.langzi.fun/Asyncio%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B.html)
-
 * [aiohttp爬虫](https://blog.csdn.net/dashoumeixi/article/details/88800916)
-
 * [python asyncio aiohttp 异步下载 完整例子](https://blog.csdn.net/dashoumeixi/article/details/81085141)
-
 * [python 多线程与asyncio下载文件](https://blog.csdn.net/dashoumeixi/article/details/80938327)
-
 * [python写一个多线程下载程序](http://www.laitech.cn/2018/08/08/393)
-
 * [关于aiohttp下载大文件的方式](https://blog.csdn.net/dashoumeixi/article/details/88845137)
-
 * [使用 asyncio + aiohttp 并发下载](https://madmalls.com/blog/post/aiohttp-howto-in-python3)
 
 
@@ -482,16 +455,13 @@ except ValueError:
 **SQLite3**
 
 * [https://docs.python.org/zh-cn/3.8/library/sqlite3.html](https://docs.python.org/zh-cn/3.8/library/sqlite3.html)
-
 * [SQLite - Python](https://www.runoob.com/sqlite/sqlite-python.html)
-
 * [Python连接SQLite数据库](https://www.yiibai.com/sqlite/python-with-sqlite.html)
 
 
 ### SQLAlchemy
 
 * [https://www.sqlalchemy.org](https://www.sqlalchemy.org)
-
 * [使用SQLAlchemy](https://www.liaoxuefeng.com/wiki/1016959663602400/1017803857459008)
 
 
@@ -515,21 +485,13 @@ pip install sqlalchemy
 ## gc
 
 * [https://docs.python.org/zh-cn/3.8/library/gc.html](https://docs.python.org/zh-cn/3.8/library/gc.html)
-
 * [https://docs.python.org/zh-cn/3/library/tracemalloc.html](https://docs.python.org/zh-cn/3/library/tracemalloc.html)
-
 * [https://github.com/giampaolo/psutil](https://github.com/giampaolo/psutil)
-
 * [https://github.com/pythonprofilers/memory_profiler](https://github.com/pythonprofilers/memory_profiler)
-
 * [https://github.com/mgedmin/objgraph](https://github.com/mgedmin/objgraph)
-
 * [https://github.com/pympler/pympler](https://github.com/pympler/pympler)
-
 * [https://github.com/zhuyifei1999/guppy3](https://github.com/zhuyifei1999/guppy3)
-
 * [https://github.com/benfred/py-spy](https://github.com/benfred/py-spy)
-
 * [一次python内存调优经历](https://saucer-man.com/operation_and_maintenance/298.html)
 
 

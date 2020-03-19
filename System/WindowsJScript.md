@@ -26,18 +26,14 @@
 > 执行当前脚本中的JavaScript脚本：`cscript -nologo -e:jscript "%~f0"`，`%~f0`表示当前批处理的绝对路径,去掉引号的完整路径
 
 * [JScript (ECMAScript3)](https://docs.microsoft.com/zh-cn/previous-versions//hbxc2t98(v=vs.85))
-
 * [JScript参考手册](https://www.php.cn/manual/view/14969.html)
-
 * [JScript](https://www.itminus.com/blog/categories/%E9%A3%8E%E8%AF%AD/ECMAScript/JScript)
-
 * [http://caibaojian.com/jscript](http://caibaojian.com/jscript)
 
 
 ## ActiveXObject
 
 * [ActiveXObject](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Microsoft_Extensions/ActiveXObject)
-
 * [ActiveXObject对象使用整理](https://blog.csdn.net/chen_zw/article/details/9336375)
 
 - `JScript`中`ActiveXObject`对象是启用并返回`Automation`对象的引用。

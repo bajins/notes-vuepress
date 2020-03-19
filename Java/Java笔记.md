@@ -13,27 +13,18 @@
 ---
 
 * [什么是 hash](https://www.zhihu.com/question/26762707/answer/890181997)
-
 * [什么是散列表(Hash Table)](https://www.jianshu.com/p/101c263cd93e)
-
 * [HashMap在Jdk1.7和1.8中的实现](https://yuanrengu.com/2020/ba184259.html)
-
 * [HashMap的底层结构和实现原理](https://www.cnblogs.com/chengxiao/p/6059914.html)
-
 * [初学者应该了解的数据结构：Array、HashMap 与 List](https://www.zcfy.cc/article/data-structures-for-beginners-arrays-hashmaps-and-lists)
 
 ---
 
 * [强一致性、弱一致性、最终一致性、读写一致性、单调读、因果一致性 的区别与联系](https://zhuanlan.zhihu.com/p/67949045)
-
 * [CAP 定理的含义](http://www.ruanyifeng.com/blog/2018/07/cap.html)
-
 * [二进制运算](https://www.cnblogs.com/c-x-a/p/9478643.html)
-
 * [什么是位运算](https://www.jianshu.com/p/d75b0a461380)
-
 * [java运算符](https://blog.csdn.net/shuaigexiaobo/article/details/88535745)
-
 * [数据库扩展性设计：使用二进制解决一条记录关联多个状态的问题](https://www.cnblogs.com/itfly8/p/6062757.html)
 
 
@@ -743,12 +734,10 @@ class RunnableThread implements Runnable {
 
 
 * [异步时代-java的协程路在何方](https://www.cnblogs.com/tohxyblog/p/10712798.html)
-
 * [次时代Java编程（一）：Java里的协程](https://blog.csdn.net/qiansg123/article/details/80123051)
 
 
 * [java协程框架quasar和kotlin中的协程](http://kailing.pub/article/index/arcid/252.html)
-
 * [https://github.com/kilim/kilim](https://github.com/kilim/kilim)
 [Kilim工作原理](http://chen-tao.github.io/2015/10/02/kilim-work-way/)
 

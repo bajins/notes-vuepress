@@ -12,19 +12,12 @@
 
 
 * [https://github.com/go-bindata/go-bindata](https://github.com/go-bindata/go-bindata)
-
 * [https://github.com/shuLhan/go-bindata](https://github.com/shuLhan/go-bindata)
-
 * [https://github.com/elazarl/go-bindata-assetfs](https://github.com/elazarl/go-bindata-assetfs)
-
 * [https://github.com/rakyll/statik](https://github.com/rakyll/statik)
-
 * [https://github.com/GeertJohan/go.rice](https://github.com/GeertJohan/go.rice)
-
 * [https://github.com/mjibson/esc](https://github.com/mjibson/esc)
-
 * [https://github.com/UnnoTed/fileb0x](https://github.com/UnnoTed/fileb0x)
-
 * [https://github.com/gobuffalo/packr](https://github.com/gobuffalo/packr)
 
 
@@ -38,23 +31,14 @@
 > 同样，同一个操作系统也可以在不同的体系结构上运行。
 
 * [https://github.com/mitchellh/gox](https://github.com/mitchellh/gox)
-
 * [https://github.com/wheelcomplex/goxx](https://github.com/wheelcomplex/goxx)
-
 * [https://github.com/goreleaser/goreleaser](https://github.com/goreleaser/goreleaser)
-
 * [https://github.com/laher/goxc](https://github.com/laher/goxc)
-
 * [https://github.com/karalabe/xgo](https://github.com/karalabe/xgo)
-
 * [https://github.com/techknowlogick/xgo](https://github.com/techknowlogick/xgo)
-
 * [https://github.com/storyicon/gos](https://github.com/storyicon/gos)
-
 * [https://github.com/docker/golang-cross](https://github.com/docker/golang-cross)
-
 * [https://github.com/im4x5yn74x/dropper2](https://github.com/im4x5yn74x/dropper2)
-
 * [https://github.com/caixw/gobuild](https://github.com/caixw/gobuild)
 
 
@@ -62,7 +46,6 @@
 ## 打包命令
 
 * [https://golang.google.cn/doc/install/source#environment](https://golang.google.cn/doc/install/source#environment)
-
 * [https://gist.github.com/asukakenji/f15ba7e588ac42795f421b48b8aede63](https://gist.github.com/asukakenji/f15ba7e588ac42795f421b48b8aede63)
 
 

@@ -12,15 +12,10 @@
 > `Shell`脚本文件的名称可以任意，但为了避免被误以为是普通文件，建议将`.sh`后缀加上，以表示是一个脚本文件。
 
 * [Shell 教程](https://www.runoob.com/linux/linux-shell.html)
-
 * [Linux Shell脚本学习指南](http://c.biancheng.net/shell)
-
 * [Shell命令脚本初步认识，Shell脚本入门](https://www.jianshu.com/p/3782970dec75)
-
 * [Shell中if的使用详解_&&与||的使用详解](https://blog.csdn.net/setul/article/details/80114020)
-
 * [shell-if判断](https://www.jianshu.com/p/c71e85375e88)
-
 * [https://github.com/guodongxiaren/Bash](https://github.com/guodongxiaren/Bash)
 
 
@@ -63,17 +58,11 @@ echo 'password' | passwd -stdin username
 > `Expect`是由`Don Libes`基于`Tcl`（`Tool Command Language`）的脚本语言，所以你至少要学习一下`TCL`它的语法。
 
 * [https://www.tcl-lang.org/man](https://www.tcl-lang.org/man) [https://www.tcl.tk/man](https://www.tcl.tk/man)
-
 * [Tcl教程](https://www.yiibai.com/tcl/tcl_special_variables.html)
-
 * [expect手册](https://linux.die.net/man/1/expect)
-
 * [shell编程之expect用法](http://blog.leanote.com/post/wkf19911118@gmail.com/shell%E7%BC%96%E7%A8%8B%E4%B9%8Bexpect)
-
 * [linux expect 自动交互脚本用法](https://man.linuxde.net/expect1)
-
 * [expect 脚本使用](https://einverne.github.io/post/2019/01/expect-command.html)
-
 * [Expect学习笔记](https://blog.csdn.net/boyishachang/article/details/8677936)
 
 

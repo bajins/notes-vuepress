@@ -10,10 +10,7 @@
 
 ## flag
 
-
-
 * [ECMAScript支持度检测](https://github.com/ruanyf/es-checker)
-
 * [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese)
 
 
@@ -22,19 +19,12 @@
 > `HTML`网页中，浏览器通过`script`标签加载脚本的默认语言是`JavaScript`，因此`type="application/javascript"`可以省略。
 
 * [浏览器脚本教程](https://www.w3school.com.cn/b.asp)
-
 * [参考手册](https://www.w3school.com.cn/r.asp)
-
 * [ECMAScript 6入门](https://github.com/ruanyf/es6tutorial)
-
 * [ECMAscript和Javascript的区别](https://www.jianshu.com/p/10cfcb536d4a)
-
 * [es6支持情况](https://kangax.github.io/compat-table/es6)
-
 * [检查JavaScript文件中的ES版本](https://github.com/dollarshaveclub/es-check)
-
 * [文档对象模型 (DOM)](https://developer.mozilla.org/zh-CN/docs/Glossary/DOM)
-
 * [JavaScript HTML DOM](https://www.w3school.com.cn/js/js_htmldom_document.asp)
 
 
@@ -68,21 +58,13 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 [http://momentjs.cn](http://momentjs.cn)
 
 * [https://github.com/matthewhudson/current-device](https://github.com/matthewhudson/current-device)
-
 * [Babel 是一个JavaScript转换编译器](https://babeljs.io) [https://www.babeljs.cn](https://www.babeljs.cn)
-
 * [压缩或编码解码库](https://github.com/photopea)
-
 * [压缩](https://github.com/nodeca/pako)
-
 * [现代化的拷贝文字](http://www.clipboardjs.cn)
-
 * [https://github.com/Stuk/jszip](https://github.com/Stuk/jszip)
-
 * [使浏览器支持require](https://github.com/browserify)
-
 * [https://github.com/pixijs/pixi.js](https://github.com/pixijs/pixi.js)
-
 * [https://github.com/zenorocha/clipboard.js](https://github.com/zenorocha/clipboard.js)
 [http://www.clipboardjs.cn](http://www.clipboardjs.cn)
 
@@ -125,25 +107,20 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 
 
 * [https://www.jsdelivr.com](https://www.jsdelivr.com)
-
 * [https://www.bootcdn.cn](https://www.bootcdn.cn)
-
 * [http://staticfile.org](http://staticfile.org)
-
 * [https://cdn.baomitu.com](https://cdn.baomitu.com)
 
 
 ## Http
 
 * [flyio](https://wendux.github.io/dist/#/doc/flyio/readme)
-
 * [HTTP封装](https://github.com/woytu/key-gin/blob/master/static/js/utils)
 
 
 ### XMLHttpRequest
 
 * [XMLHttpRequest—必知必会](https://www.jianshu.com/p/918c63045bc3)
-
 * [XMLHttpRequest封装源码](https://github.com/yanxiaojun617/exercise/tree/master/src/20180410ajax)
 
 - http,XMLHttpRequest,Ajax的关系
@@ -156,7 +133,6 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 > Ajax不是一种技术,是综合多种技术实现交互的模式:用html+css展示页面>使用
 
 * [ajax和axios、fetch的区别](https://www.jianshu.com/p/8bc48f8fde75)
-
 * [Fetch API](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API)
 
 > fetch号称是AJAX的替代品，是在ES6出现的，使用了ES6中的promise对象。Fetch是基于promise设计的。
@@ -454,7 +430,6 @@ function test(event){
 - VUE阻止默认行为
 
 * [事件修饰符](https://cn.vuejs.org/v2/guide/events.html#%E4%BA%8B%E4%BB%B6%E4%BF%AE%E9%A5%B0%E7%AC%A6)
-
 * [v-on api](https://cn.vuejs.org/v2/api/#v-on)
 
 ```html

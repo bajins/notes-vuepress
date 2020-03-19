@@ -9,22 +9,16 @@
 ## flag
 
 * [css](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
-
 * [CSS3/CSS2/CSS 教程](http://www.w3chtml.com/css3)
-
 * [HTML系列教程](https://www.w3school.com.cn/h.asp)
-
 * [http://css.doyoe.com/](http://css.doyoe.com)
 
 
 ## 第三方依赖
 
 * [https://github.com/pure-css/pure](https://github.com/pure-css/pure)
-
 * [https://github.com/picturepan2/spectre](https://github.com/picturepan2/spectre)
-
 * [https://github.com/semantic-org/semantic-ui](https://github.com/semantic-org/semantic-ui)
-
 * [https://github.com/Dogfalo/materialize](https://github.com/Dogfalo/materialize)
 [http://www.materializecss.cn](http://www.materializecss.cn)
 
@@ -159,13 +153,9 @@
 ### 兼容移动设备
 
 * [HTML页面适应移动端](https://www.jianshu.com/p/d95579d721a1)
-
 * [到底什么是像素](https://segmentfault.com/a/1190000017526874)
-
 * [使用meta标签设置viewport](https://segmentfault.com/a/1190000020218602)
-
 * [visual viewport、layout viewport和ideal viewport介绍](https://segmentfault.com/a/1190000017542232)
-
 * [viewport 深入理解](https://www.runoob.com/w3cnote/viewport-deep-understanding.html)
 
 
@@ -387,7 +377,6 @@ div:hover{
 
 
 * [fix-footer-page-bottom-grid.html](/files/fix-footer-page-bottom-grid.html)
-
 * [fix-footer-page-bottom-flex.html](/files/fix-footer-page-bottom-flex.html)
 
 
@@ -405,9 +394,7 @@ div:hover{
 > 字体居中需使元素与父级元素等宽
 
 * [horizontal-arrangement-flex.html](/files/horizontal-arrangement-flex.html)
-
 * [horizontal-arrangement-float-left.html](/files/horizontal-arrangement-float-left.html)
-
 * [horizontal-arrangement-inline-block.html](/files/horizontal-arrangement-inline-block.html)
 
 
@@ -415,7 +402,6 @@ div:hover{
 ## 动画
 
 * [动画](https://www.w3school.com.cn/css3/css3_animation.asp)
-
 * [过渡](https://www.w3school.com.cn/css3/css3_3dtransform.asp)
 
 **属性**
@@ -448,7 +434,6 @@ div:hover{
 **圆形进度条**
 
 * [circle-progress-bar](/files/circle-progress-bar.html)
-
 * [round-progress-bar](/files/round-progress-bar.html)
 
 >  首先：是定义三个动画，第一个是最外层，让他只显示一半，然后运行3s，同时右边运行3s,从0到180度。
@@ -462,9 +447,7 @@ div:hover{
 ## 伪类和伪元素
 
 * [伪类](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-classes)
-
 * [伪元素](https://developer.mozilla.org/zh-CN/docs/Web/CSS/pseudo-elements)
-
 * [伪元素组成的时间线](https://github.com/woytu/UseNotes-vuepress/commits/master)
 
 

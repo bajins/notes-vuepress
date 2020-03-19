@@ -8,7 +8,6 @@
 ## flag
 
 * [http://www.cygwin.com](http://www.cygwin.com)
-
 * [https://github.com/lukesampson/scoop](https://github.com/lukesampson/scoop)
 
 
@@ -48,7 +47,6 @@
 ### `MinGW-w64`下载
 
 * [mingw-w64-release](https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/#readme)
-
 * [mingw-w64-release](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/#readme)
 
 > 首先看到的是源码，要把页面滚动到最底部才能看到编译好的在线安装程序和离线压缩包
@@ -169,13 +167,9 @@ g++ test.cpp -o test.exe
 
 
 * [http://www.msys2.org](http://www.msys2.org)
-
 * [https://github.com/msys2](https://github.com/msys2)
-
 * [msys2配置记录](https://www.jianshu.com/p/c740b71e7775)
-
 * [清华大学MSYS2镜像](https://mirror.tuna.tsinghua.edu.cn/help/msys2)
-
 * [中国科学技术大学MSYS2镜像](http://mirrors.ustc.edu.cn/help/msys2.html)
 
 

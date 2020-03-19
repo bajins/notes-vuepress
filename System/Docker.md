@@ -8,15 +8,10 @@
 ## flag
 
 * [https://www.docker.com](https://www.docker.com)
-
 * [https://docs.docker.com](https://docs.docker.com)
-
 * [Docker进阶实用命令](https://sleele.com/2018/09/27/docker%e8%bf%9b%e9%98%b6%e5%ae%9e%e7%94%a8%e5%91%bd%e4%bb%a4/)
-
 * [https://sleele.com/category/docker/](https://sleele.com/category/docker/)
-
 * [从零搭建docker私有仓库](https://www.jianshu.com/p/2d9d4cdd3af7)
-
 * [https://docs.microsoft.com/zh-cn/virtualization](https://docs.microsoft.com/zh-cn/virtualization)
 
 
@@ -28,13 +23,9 @@
 ## docker compose
 
 * [Docker Compose概述](https://docs.docker.com/compose/)
-
 * [docker-compose.yml 配置文件编写详解](https://blog.csdn.net/qq_36148847/article/details/79427878)
-
 * [Docker Compose 详解](https://www.jianshu.com/p/658911a8cff3)
-
 * [Docker Compose 配置文件详解](https://www.jianshu.com/p/2217cfed29d7)
-
 * [docker run 和 docker-compose 配置挂载 Volume 并运行 nginx](https://www.jianshu.com/p/e11e01b9d675)
 
 

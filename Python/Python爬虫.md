@@ -8,7 +8,6 @@
 ## flag
 
 * [https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China](https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China)
-
 * [xvfb可以将屏幕的图像输出给放到虚拟内存中](https://blog.csdn.net/wkb342814892/article/details/81591394)
 
 
@@ -31,15 +30,10 @@ taskkill /f /im chromedriver.exe
 ---
 
 * [微信公众号爬取研究](https://github.com/DropsDevopsOrg/ECommerceCrawlers/wiki/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%88%AC%E5%8F%96%E7%A0%94%E7%A9%B6)
-
 * [微信公众号爬虫](https://github.com/search?o=desc&q=%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%88%AC%E8%99%AB&s=updated&type=Repositories)
-
 * [https://github.com/wnma3mz/wechat_articles_spider](https://github.com/wnma3mz/wechat_articles_spider)
-
 * [WeChat Hook](https://github.com/search?o=desc&q=WeChat+Hook&s=updated&type=Repositories)
-
 * [https://github.com/Mocha-L/WechatPCAPI](https://github.com/Mocha-L/WechatPCAPI)
-
 * [https://github.com/redtips/wechathook](https://github.com/redtips/wechathook)
 
 
@@ -50,9 +44,7 @@ taskkill /f /im chromedriver.exe
 > `Headless Browser`(无头的浏览器)是没有图形用户界面(GUI)的web浏览器，通常是通过编程或命令行界面来控制的
 
 * [https://w3c.github.io/webdriver](https://w3c.github.io/webdriver)
-
 * [Headless Browser](https://www.jianshu.com/p/11d519e2d0cb)
-
 * [https://github.com/mozilla/geckodriver](https://github.com/mozilla/geckodriver)
 
 
@@ -60,9 +52,7 @@ taskkill /f /im chromedriver.exe
 **反爬虫**
 
 * [https://github.com/intoli/intoli-article-materials](https://github.com/intoli/intoli-article-materials)
-
 * [无头浏览器检测](https://intoli.com/blog/not-possible-to-block-chrome-headless/chrome-headless-test.html)
-
 * [隐藏Headles-Chrome不被检测出来](https://mlln.cn/2019/07/05/%E7%88%AC%E8%99%AB%E5%A6%82%E4%BD%95%E9%9A%90%E8%97%8FHeadles-Chrome%E4%B8%8D%E8%A2%AB%E6%A3%80%E6%B5%8B%E5%87%BA%E6%9D%A5)
 
 
@@ -72,11 +62,8 @@ taskkill /f /im chromedriver.exe
 > `Selenium`操作`Chrome`浏览器需要有`ChromeDriver`驱动来协助，`ChromeDriver`与`Chrome`版本对应关系一定要正确
 
 * [http://chromedriver.storage.googleapis.com/index.html](http://chromedriver.storage.googleapis.com/index.html)
-
 * [http://npm.taobao.org/mirrors/chromedriver](http://npm.taobao.org/mirrors/chromedriver)
-
 * [headless-chrome官方文档](https://developers.google.com/web/updates/2017/04/headless-chrome)
-
 * [功能和ChromeOptions官方网站参考](https://sites.google.com/a/chromium.org/chromedriver/capabilities)
 
 
@@ -86,7 +73,6 @@ taskkill /f /im chromedriver.exe
 **参数列表**
 
 * [https://peter.sh/experiments/chromium-command-line-switches/](https://peter.sh/experiments/chromium-command-line-switches)
-
 * [https://cs.chromium.org/chromium/src/content/public/common/content_switches.cc](https://cs.chromium.org/chromium/src/content/public/common/content_switches.cc)
 
 
@@ -135,19 +121,12 @@ taskkill /f /im chromedriver.exe
 ## selenium
 
 * [https://github.com/SeleniumHQ](https://github.com/SeleniumHQ)
-
 * [https://selenium.dev/documentation/zh-cn](https://selenium.dev/documentation/zh-cn)
-
 * [Selenium with Python中文翻译文档](https://selenium-python-zh.readthedocs.io/en/latest/index.html)
-
 * [`selenium`+`chromedriver`+`BeautifulSoup`](https://github.com/woytu/tool-gui-python/blob/master/utils/ReptileUtil.py)
-
 * [Python3-Selenium开启自动化测试](http://qzmvc1.top/Python3-Selenium%E5%BC%80%E5%90%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95.html)
-
 * [python+selenium 判断元素是否存在，是否可点击，是否被选中](https://www.twblogs.net/a/5c8414bdbd9eee35cd69c929/zh-cn)
-
 * [EC：expected_conditions判断页面元素](https://www.jianshu.com/p/a94918d49c3c)
-
 * [selenium,Python3滚动到页面底部的几种解决方案](https://rumenz.com/rumenbiji/python3-selenium-scrollToBottom.html)
 
 
@@ -235,7 +214,6 @@ taskkill /f /im chromedriver.exe
 ## 浏览器下载设置
 
 * [https://github.com/SeleniumHQ/selenium/issues/5722](https://github.com/SeleniumHQ/selenium/issues/5722)
-
 * [https://github.com/SeleniumHQ/selenium/issues/5159](https://github.com/SeleniumHQ/selenium/issues/5159)
 
 ```python
@@ -313,13 +291,9 @@ driver.execute_script( "return document.documentElement.outerHTML" )
 > M3U8有两层：第一层存放的是流信息（EXT-X-STREAM-INF）和第二层的下载链接，第二层才是存放加密（EXT-X-KEY）和`ts`文件的下载地址
 
 * [https://github.com/globocom/m3u8](https://github.com/globocom/m3u8)
-
 * [什么是m3u8文件](https://www.jianshu.com/p/2a5403234b14)
-
 * [加密的ts+m3u8合并](https://www.junmajinlong.com/others/ts_m3u8)
-
 * [关于m3u8格式的视频文件ts转mp4下载和key加密问题](https://www.cnblogs.com/String-Lee/p/11391893.html)
-
 * [将TS转换为MP4](https://gist.github.com/larvata/95df619df7109d8b74d2b965a3266354)
 
 

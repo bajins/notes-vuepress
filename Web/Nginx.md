@@ -9,19 +9,14 @@
 ## flag
 
 * [http://nginx.org/en/download.html](http://nginx.org/en/download.html)
-
 * [https://github.com/h5bp/server-configs-nginx](https://github.com/h5bp/server-configs-nginx)
 
 
 
 * [Nginx HTTP核心模块指令和内置变量中文说明](https://my.oschina.net/jsan/blog/125861)
-
 * [nginxbeautifier](https://github.com/vasilevich/nginxbeautifier)
-
 * [nginx-config-formatter](https://github.com/1connect/nginx-config-formatter)
-
 * [nginxconfig配置生成](https://github.com/0xB4LINT/nginxconfig.io)
-
 * [nginx 变量使用](https://blog.csdn.net/u014296316/article/details/80973530)
 
 
@@ -30,11 +25,8 @@
 * [HAProxy 入门](https://jaminzhang.github.io/lb/HAProxy-Get-Started)
 
 1. [Nginx和HAProxy对比](https://www.zhihu.com/question/34489042/answers/updated)
-
 2. [HAProxy Nginx LVS 对比](http://www.lgoon.com/detail/22)
-
 3. [负载均衡器对比(LVS、Nginx、Haproxy)](https://vimll.com/?p=886)
-
 4. [各大API网关性能比较](https://segmentfault.com/a/1190000018838988)
 
 

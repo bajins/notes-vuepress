@@ -8,19 +8,16 @@
 ## flag
 
 * [https://tortoisegit.org/download](https://tortoisegit.org/download)
-
 * [为您的项目创建有用的.gitignore文件](https://github.com/toptal/gitignore.io)
 
 
 * [reposurgeon是一种工具,用于编辑版本控制存储库的历史](http://www.catb.org/esr/reposurgeon)
-
 * [https://github.com/gitextensions/gitextensions](https://github.com/gitextensions/gitextensions)
 
 
 ## 安装最新版
 
 * [https://git-scm.com/download](https://git-scm.com/download)
-
 * [https://npm.taobao.org/mirrors/git-for-windows](https://npm.taobao.org/mirrors/git-for-windows)
 
 - 方式一
@@ -503,16 +500,12 @@ readdir $(pwd)
 ### GitLab
 
 * [https://gitlab.com/xhang/gitlab/wikis/home](https://gitlab.com/xhang/gitlab/wikis/home)
-
 * [GitLab Community Edition (中文社区版)](https://github.com/twang2218/gitlab-ce-zh)
 [汉化的 GitLab 社区版 Docker Image](https://hub.docker.com/r/twang2218/gitlab-ce-zh)
 
 * [https://hub.docker.com/r/bensonfx/gitlab-ce-zh](https://hub.docker.com/r/bensonfx/gitlab-ce-zh)
-
 * [https://github.com/bensonfx/codeserver](https://github.com/bensonfx/codeserver)
-
 * [https://hub.docker.com/r/benyoo/gitlab](https://hub.docker.com/r/benyoo/gitlab)
-
 * [https://hub.docker.com/r/imleafz/gitlab-ce-zh](https://hub.docker.com/r/imleafz/gitlab-ce-zh)
 
 ```bash
@@ -559,9 +552,7 @@ volumes:
 ### Gogs
 
 * [https://github.com/gogs/gogs](https://github.com/gogs/gogs) [Gogs官方文档](https://gogs.io)
-
 * [Gogs-DockerHub](https://hub.docker.com/r/gogs/gogs)
-
 * [安装教程](https://www.jianshu.com/p/86c385682ac8)
 
 
@@ -569,7 +560,6 @@ volumes:
 ### Gitea
 
 * [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea) [Gitea官方文档](https://gitea.io/zh-cn)
-
 * [Gitea-DockerHub](https://hub.docker.com/r/gitea/gitea)
 
 
@@ -578,16 +568,13 @@ volumes:
 ## GitHub
 
 * [https://github.com/probot/probot](https://github.com/probot/probot)
-
 * [https://help.github.com/cn](https://help.github.com/cn)
 
 
 ### 访问速度过慢
 
 * [https://myssl.com/dns_check.html](https://myssl.com/dns_check.html)
-
 * [http://tool.chinaz.com/dns](http://tool.chinaz.com/dns)
-
 * [Windows设置GitHub的Hosts脚本](/files/设置GitHub的Hosts.bat)
 
 
@@ -626,18 +613,14 @@ sudo /etc/init.d/dns-clean start
 ### 部署
 
 * [https://www.netlify.com](https://www.netlify.com)
-
 * [https://slack.com/get-started](https://slack.com/get-started)
-
 * [https://docs.travis-ci.com/user/tutorial](https://docs.travis-ci.com/user/tutorial)
-
 * [https://zeit.co](https://zeit.co)
 
 
 ### Actions
 
 * [GitHub Actions 入门教程](http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)
-
 * [Github Actions 尝鲜](https://segmentfault.com/a/1190000020873860)
 
 
@@ -648,15 +631,10 @@ sudo /etc/init.d/dns-clean start
 ---
 
 * [https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=deploy-to-github-pages](https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=deploy-to-github-pages)
-
 * [https://github.com/sdras/awesome-actions](https://github.com/sdras/awesome-actions)
-
 * [https://github.com/peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
-
 * [https://github.com/JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action)
-
 * [https://github.com/actions/create-release](https://github.com/actions/create-release)
-
 * [https://github.com/actions/upload-release-asset](https://github.com/actions/upload-release-asset)
 
 

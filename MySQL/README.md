@@ -9,7 +9,6 @@
 ## flag
 
 * [http://www.h2database.com](http://www.h2database.com)
-
 * [http://hsqldb.org](http://hsqldb.org)
 
 
@@ -20,13 +19,9 @@
 
 ## SQLite3
 
-
 * [SQLite教程（内置日期和时间函数）](https://blog.csdn.net/hexingen/article/details/71577318)
-
 * [SQLite 教程](https://www.twle.cn/l/yufei/sqlite/sqlite-basic-index.html)
-
 * [SQLite 教程](https://www.runoob.com/sqlite/sqlite-tutorial.html)
-
 * [SQLite3 数据类型与亲和类型](https://blog.csdn.net/feiyihexin/article/details/99728504)
 
 
@@ -63,14 +58,9 @@
 ## Redis
 
 * [https://www.redis.net.cn](https://www.redis.net.cn)
-
 * [http://doc.redisfans.com](http://doc.redisfans.com)
-
 * [https://redis.io/documentation](https://redis.io/documentation)
-
 * [http://www.redis.cn/documentation.html](http://www.redis.cn/documentation.html)
-
 * [http://redisdoc.com](http://redisdoc.com)
-
 * [https://github.com/guodongxiaren/redis-wiki](https://github.com/guodongxiaren/redis-wiki)
 

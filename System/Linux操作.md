@@ -9,35 +9,25 @@
 ## flag
 
 * [Linux手册](https://learn-linux.readthedocs.io/zh_CN/latest)
-
 * [http://www.linuxbaike.com](http://www.linuxbaike.com)
-
 * [Linux网络编程](https://network.fasionchan.com/zh_CN/latest/index.html)
-
 * [OSX操作指南](https://osx-guide.readthedocs.io/zh_CN/latest)
-
 * [https://github.com/guodongxiaren/LinuxTool](https://github.com/guodongxiaren/LinuxTool)
 
 
 ---
 
 * [https://lamp.sh](https://lamp.sh)
-
 * [https://oneinstack.com](https://oneinstack.com)
-
 * [https://lnmp.org](https://lnmp.org)
-
 * [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625)
 
 
 **编辑器**
 
 * [vi命令（vi编辑器）](http://c.biancheng.net/vi)
-
 * [vi 编辑器使用向导](https://wiki.jikexueyuan.com/project/unix/the-vi-editor.html)
-
 * [Vim 从小白到入门](https://wsgzao.github.io/post/vim)
-
 * [https://vimjc.com/archives](https://vimjc.com/archives)
 
 
@@ -179,13 +169,9 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 > `tmux`是一款`Linux`下的终端复用工具，可以开启不同的终端窗口来将应用程序作为后台守护进程执行，即使远程连接的SSH断开也不会影响程序的执行。
 
 * [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
-
 * [http://www.ruanyifeng.com/blog/2019/10/tmux.html](http://www.ruanyifeng.com/blog/2019/10/tmux.html)
-
 * [https://louiszhai.github.io/2017/09/30/tmux](https://louiszhai.github.io/2017/09/30/tmux)
-
 * [https://gist.github.com/MohamedAlaa/2961058](https://gist.github.com/MohamedAlaa/2961058)
-
 * [https://gist.github.com/ryerh/14b7c24dfd623ef8edc7](https://gist.github.com/ryerh/14b7c24dfd623ef8edc7)
 
 
@@ -527,7 +513,6 @@ vi /etc/ssh/sshd_config
 > 它的操作方式和scp和相似，但是比scp强大很多。使用双冒号分割主机名和文件路径时，是使用rsync服务器
 
 * [https://rsync.samba.org](https://rsync.samba.org)
-
 * [https://github.com/axkibe/lsyncd](https://github.com/axkibe/lsyncd)
 
 

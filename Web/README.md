@@ -9,15 +9,10 @@
 ## flag
 
 * [Web 技术教程-W3School](https://www.w3school.com.cn/index.html)
-
 * [Web 开发技术-MDN](https://developer.mozilla.org/zh-CN/docs/Web)
-
 * [Web API](https://developer.mozilla.org/zh-CN/docs/Web/API)
-
 * [W3C 网页标准教程](http://www.w3chtml.com)
-
 * [https://github.com/junruchen/junruchen.github.io/wiki](https://github.com/junruchen/junruchen.github.io/wiki)
-
 * [https://github.com/mathjax](https://github.com/mathjax)
 
 
@@ -29,17 +24,11 @@
 ## 框架
 
 * [jquery](https://jquery.com)
-
 * [添加XHR2 responseType支持的jQuery插件](https://github.com/acigna/jquery-ajax-native)
-
 * [bootstrap](https://github.com/twbs/bootstrap) [https://www.bootcss.com](https://www.bootcss.com)
-
 * [neditor 基于ueditor的更现代化的富文本编辑器，支持HTTPS](https://github.com/notadd/neditor)
-
 * [WebUploader是一个简单的以HTML5为主，FLASH为辅的现代文件上传组件](https://github.com/fex-team/webuploader)
-
 * [f2ex.cn 各种前端资源](http://f2ex.cn)
-
 * [https://github.com/sentsin/layui](https://github.com/sentsin/layui)
 
 
@@ -47,9 +36,7 @@
 ## 静态博客或文档
 
 * [https://github.com/topics/static-site](https://github.com/topics/static-site)
-
 * [https://github.com/topics/blog-engine](https://github.com/topics/blog-engine)
-
 * [https://github.com/topics/static-blog](https://github.com/topics/static-blog)
 
 ---
@@ -58,20 +45,14 @@
 [VuePress主题](https://github.com/search?o=desc&q=vuepress-theme&s=updated&type=Repositories)
 
 * [静态编译NuxtJs](https://github.com/nuxt/nuxt.js)
-
 * [静态编译Hexo](https://github.com/hexojs/hexo)
-
 * [运行时驱动Docsify](https://github.com/docsifyjs/docsify)
 [https://github.com/docsifyjs/awesome-docsify](https://github.com/docsifyjs/awesome-docsify)
 
 * [静态编译Docsite](https://github.com/txd-team/docsite)
-
 * [https://github.com/docpress/docpress](https://github.com/docpress/docpress)
-
 * [运行时驱动Docute](https://github.com/egoist/docute)
-
 * [从仓库生成文档](https://github.com/readthedocs/readthedocs.org)
-
 * [https://github.com/getgridea/gridea](https://github.com/getgridea/gridea)
 
 
@@ -89,7 +70,6 @@
 > 关键词一定要自然分布，结合面包屑的导航让用户体验更好，页面更友好与搜索引擎也更友好。
 
 * [面包屑导航](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Layout_cookbook/Breadcrumb_Navigation)
-
 * [Bootstrap 面包屑导航（Breadcrumbs）](https://www.runoob.com/bootstrap/bootstrap-breadcrumbs.html)
 
 

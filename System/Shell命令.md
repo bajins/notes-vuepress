@@ -16,19 +16,15 @@
 
 
 * [https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
-
 * [https://github.com/idank/explainshell](https://github.com/idank/explainshell)
 
 
 * [https://github.com/jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command)
-
 * [https://man.linuxde.net](https://man.linuxde.net)
-
 * [https://www.linuxcool.com](https://www.linuxcool.com)
 
 
 * [精选的优秀命令行框架](https://github.com/alebcay/awesome-shell)
-
 * [Linux常用命令汇总](https://blog.csdn.net/Mculover666/article/details/84558280)
 
 

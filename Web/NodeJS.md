@@ -8,9 +8,7 @@
 ## flag
 
 * [NodeJs小册](https://nodejs.fasionchan.com/zh_CN/latest/index.html)
-
 * [https://github.com/nodejs](https://github.com/nodejs)
-
 * [https://nodejs.org/zh-cn](https://nodejs.org/zh-cn)
 
 > `node`执行脚本时获取参数`process.argv`数组，下标`0`为执行程序的绝对路径，下标`1`为脚本的绝对路径，
@@ -20,15 +18,12 @@
 ## 第三方依赖
 
 * [https://github.com/liriliri/licia](https://github.com/liriliri/licia)
-
 * [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
-
 * [https://github.com/apache/incubator-echarts](https://github.com/apache/incubator-echarts)
 
 **HTTP**
 
 * [https://github.com/wendux/fly](https://github.com/wendux/fly)
-
 * [https://github.com/github/fetch](https://github.com/github/fetch)
 
 
@@ -38,9 +33,7 @@
 **导出**
 
 * [TableExport](https://github.com/clarketm/TableExport)
-
 * [tableExport.jquery.plugin](https://github.com/hhurz/tableExport.jquery.plugin)
-
 * [excellentexport](https://github.com/jmaister/excellentexport)
 
 
@@ -48,15 +41,10 @@
 **WEB开发**
 
 * [https://github.com/facebook/react](https://github.com/facebook/react) [https://reactnative.cn](https://reactnative.cn)
-
 * [https://github.com/angular/angular](https://github.com/angular/angular) [https://angular.cn](https://angular.cn)
-
 * [https://github.com/zdhxiong/mdui](https://github.com/zdhxiong/mdui)
-
 * [https://github.com/baidu/amis](https://github.com/baidu/amis)
-
 * [https://github.com/alienzhou/web-highlighter](https://github.com/alienzhou/web-highlighter)
-
 * [https://github.com/josdejong/mathjs](https://github.com/josdejong/mathjs)
 
 
@@ -79,7 +67,6 @@
 **Player**
 
 * [DPlayer–支持弹幕的HTML5视频播放器](https://github.com/MoePlayer/DPlayer)
-
 * [Plyr–一个轻量级的HTML5播放器](https://github.com/sampotts/plyr)
 
 
@@ -87,9 +74,7 @@
 **反爬虫**
 
 * [https://github.com/antoinevastel/fpscanner](https://github.com/antoinevastel/fpscanner)
-
 * [https://github.com/ta7sudan/secan](https://github.com/ta7sudan/secan)
-
 * [前端如何检测Chrome-Headless不被爬虫虐](https://mlln.cn/2019/07/05/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%A3%80%E6%B5%8BChrome-Headless%E4%B8%8D%E8%A2%AB%E7%88%AC%E8%99%AB%E8%99%90)
 
 
@@ -307,7 +292,6 @@ request({
 ## 爬虫
 
 * [https://github.com/GoogleChrome/puppeteer](https://github.com/GoogleChrome/puppeteer)
-
 * [Puppeteer配置小记](https://www.itfanr.cc/2019/04/10/configuration-development-of-puppeteer)
 
 - [xpath和css选择器](/Python/Python爬虫.md#xpath和css选择器)
@@ -315,7 +299,6 @@ request({
 - [`chromedriver`](/Python/Python爬虫.md#chromedriver)
 
 * [https://github.com/ebidel/try-puppeteer](https://github.com/ebidel/try-puppeteer)
-
 * [https://github.com/berstend/puppeteer-extra](https://github.com/berstend/puppeteer-extra)
 
 
@@ -333,33 +316,19 @@ request({
 ### VueJS框架
 
 * [https://madewithvuejs.com](https://madewithvuejs.com)
-
 * [https://github.com/vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify)
-
 * [https://github.com/buefy/buefy](https://github.com/buefy/buefy)
-
 * [https://github.com/bootstrap-vue/bootstrap-vue](https://github.com/bootstrap-vue/bootstrap-vue)
-
 * [https://github.com/vuematerial/vue-material](https://github.com/vuematerial/vue-material)
-
 * [https://github.com/quasarframework/quasar](https://github.com/quasarframework/quasar)
-
 * [https://github.com/uikit/uikit](https://github.com/uikit/uikit)
-
 * [https://github.com/sdc-alibaba/sui](https://github.com/sdc-alibaba/sui)
-
 * [https://github.com/FE-Driver/vue-beauty](https://github.com/FE-Driver/vue-beauty)
-
 * [https://github.com/chenz24/vue-blu](https://github.com/chenz24/vue-blu)
-
 * [https://github.com/ant-design/ant-design](https://github.com/ant-design/ant-design)
-
 * [https://github.com/heyui/heyui](https://github.com/heyui/heyui)
-
 * [https://github.com/at-ui/at-ui](https://github.com/at-ui/at-ui)
-
 * [https://github.com/view-design/ViewUI](https://github.com/view-design/ViewUI)
-
 * [https://github.com/ElemeFE/element](https://github.com/ElemeFE/element)
 
 
@@ -367,11 +336,8 @@ request({
 **Mobile**
 
 * [https://github.com/airyland/vux](https://github.com/airyland/vux)
-
 * [https://github.com/sdc-alibaba/SUI-Mobile](https://github.com/sdc-alibaba/SUI-Mobile)
-
 * [https://github.com/ElemeFE/mint-ui](https://github.com/ElemeFE/mint-ui)
-
 * [https://github.com/didi/cube-ui](https://github.com/didi/cube-ui)
 
 

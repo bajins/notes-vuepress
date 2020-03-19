@@ -9,13 +9,9 @@
 ## flag
 
 * [https://github.com/atom](https://github.com/atom)
-
 * [IntelliJ IDEA 辅助工具](https://github.com/mrshawnho/ideaagent)
-
 * [https://www.getpostman.com/apps](https://www.getpostman.com/apps)
-
 * [https://www.allroundautomations.com/bodyplsqldevreg.html]()
-
 * [https://www.mobatek.net](https://www.mobatek.net)
 
 
@@ -28,7 +24,6 @@
 * go源码 [https://github.com/ilanyu/offLineDownloader](https://github.com/ilanyu/offLineDownloader)
 
 * [http://git.aakkc.com](http://git.aakkc.com)
-
 * [https://www.kaggle.com](https://www.kaggle.com)
 [GitHub等海外大文件快速中转下载](https://mp.weixin.qq.com/s/DH8jXalZiBcX3KhrPdDw8w)
 
@@ -37,11 +32,8 @@
 ## Online IDE
 
 * [https://ide.goorm.io](https://ide.goorm.io)
-
 * [https://codesandbox.io](https://codesandbox.io)
-
 * [https://cloudstudio.net](https://cloudstudio.net)
-
 * [https://aws.amazon.com/cn/cloud9](https://aws.amazon.com/cn/cloud9)
 
 
@@ -57,9 +49,7 @@
 **在线运行代码**
 
 * [https://www.onlinegdb.com](https://www.onlinegdb.com)
-
 * [https://wandbox.org](https://wandbox.org)
-
 * [https://github.com/mattgodbolt/compiler-explorer](https://github.com/mattgodbolt/compiler-explorer)
 
 
@@ -69,30 +59,20 @@
 ## 原型设计
 
 * [http://chuangzaoshi.com/designtool](http://chuangzaoshi.com/designtool)
-
 * [https://icons8.com/lunacy](https://icons8.com/lunacy)
-
 * [16 种原型设计工具及其使用场景](https://zhuanlan.zhihu.com/p/24805574)
-
 * [https://www.invisionapp.com](https://www.invisionapp.com)
-
 * [https://proto.io](https://proto.io)
 
 
 **本地客户端**
 
 * [https://www.axure.com](https://www.axure.com)
-
 * [https://www.adobe.com/products/xd.html](https://www.adobe.com/products/xd.html)
-
 * [https://www.justinmind.com](https://www.justinmind.com)
-
 * [https://www.carettasoftware.com/guidesignstudio](https://www.carettasoftware.com/guidesignstudio)
-
 * [https://modao.cc](https://modao.cc)
-
 * [https://lanhuapp.com](https://lanhuapp.com)
-
 * [https://www.mockplus.cn](https://www.mockplus.cn)
 
 
@@ -100,29 +80,19 @@
 ## 思维导图
 
 * [https://www.processon.com](https://www.processon.com)
-
 * [https://gitmind.cn](https://gitmind.cn)
 
 **本地客户端**
 
 * [Mind Mapper官方安装包](http://www.mindmapper.com/download-product)
-
 * [XMind 8官方下载](http://dl2.xmind.cn/xmind-8-update8-windows.exe)
-
 * [MindManager 2019](https://www.naodai.org/archives/51.html)
-
 * [Mindjet MindManager官方安装包x64](http://dwnld.mindjet.com/stubs/Builds/MindManager2020/20_0_334/64Bit/MindManager%202020.msi)
-
 * [MindMaster](https://www.edrawsoft.com/mindmaster)
-
 * [Ximd ZEN](https://www.xmind.net/zen)
-
 * [iMindMap](https://imindmap.com)
-
 * [MindGenius](https://www.mindgenius.com)
-
 * [iMindQ](https://www.imindq.com)
-
 * [SimpleMind](https://simplemind.eu)
 
 
@@ -131,15 +101,10 @@
 ## 文本编辑器
 
 * [C#写的记事本](https://github.com/topics/notepad?l=c%23)
-
 * [C++写的记事本](https://github.com/topics/notepad?l=c%2B%2B)
-
 * [Notepad3](https://github.com/rizonesoft/Notepad3)
-
 * [notepad2](https://github.com/zufuliu/notepad2)
-
 * [https://www.scintilla.org](https://www.scintilla.org)
-
 * [http://www.pnotepad.org](http://www.pnotepad.org)
 
 
@@ -147,11 +112,8 @@
 
 
 * [https://www.sublimetext.com](https://www.sublimetext.com) [http://www.sublimetext.cn](http://www.sublimetext.cn)
-
 * [sublimetext破解](https://www.abbeyok.com/archives/337)
-
 * [sublime-text-3-license-key](http://blog.jdk5.com/zh/sublime-text-3-license-key)
-
 * [Sublime Text3 注册码激活码](https://blog.csdn.net/qq_29819449/article/details/80130327)
 
 
@@ -176,13 +138,9 @@
 ## 抓包工具
 
 * [Telerik Fiddler](https://www.telerik.com/download/fiddler)
-
 * [https://github.com/BornToBeRoot/NETworkManager](https://github.com/BornToBeRoot/NETworkManager)
-
 * [https://github.com/microsoft/ethr](https://github.com/microsoft/ethr)
-
 * [https://www.tcpdump.org](https://www.tcpdump.org)
-
 * [https://www.wireshark.org](https://www.wireshark.org)
 [BurpSuiteV2.1.06破解版](https://www.waitalone.cn/tools/burpsuite.html)
 
@@ -194,9 +152,7 @@
 ## IDEA与Eclipse对应快捷键
 
 * [https://github.com/AJLoveChina/idea-shortcuts-guide](https://github.com/AJLoveChina/idea-shortcuts-guide)
-
 * [intellij 快捷键](https://www.cnblogs.com/ooo0/p/10802254.html)
-
 * [IDEA快捷键](https://segmentfault.com/a/1190000018309776#item-2)
 
 

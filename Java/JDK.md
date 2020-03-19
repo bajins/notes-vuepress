@@ -15,13 +15,9 @@
 
 
 * [https://www.ej-technologies.com](https://www.ej-technologies.com)
-
 * [https://github.com/oracle/graal](https://github.com/oracle/graal)
-
 * [http://jdk.java.net/zgc/](http://jdk.java.net/zgc/)
-
 * [https://wiki.openjdk.java.net/display/zgc/Main](https://wiki.openjdk.java.net/display/zgc/Main)
-
 * [http://openjdk.java.net/jeps/333](http://openjdk.java.net/jeps/333)
 
 ![](/images/jvm参数统计.png)

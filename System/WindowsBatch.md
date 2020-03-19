@@ -9,17 +9,11 @@
 ## flag
 
 * [Windows 命令-官方文档](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/windows-commands)
-
 * [windows常用命令](https://www.cnblogs.com/kekec/p/3662125.html)
-
 * [windows批处理语法](https://www.cnblogs.com/kekec/p/3937530.html)
-
 * [windows之四十个bat脚本命令](https://juejin.im/post/5d50c631518825378d5d6121)
-
 * [windows bat脚本总结](https://segmentfault.com/a/1190000018614430)
-
 * [Windows 10/8/7的Rundll32命令列表](https://www.thewindowsclub.com/rundll32-shortcut-commands-windows)
-
 * [https://gitlab.com/jarv/cmdchallenge](https://gitlab.com/jarv/cmdchallenge)
 [https://cmdchallenge.com](https://cmdchallenge.com)
 
@@ -27,11 +21,8 @@
 ---
 
 * [添加快捷方式](/files/添加快捷方式.bat)
-
 * [设置必应壁纸](/files/设置必应壁纸.bat)
-
 * [设置GitHub的Hosts](/files/设置github的hosts.bat)
-
 * [frpc.bat](/files/frpc.bat)
 
 > 会自动检测本地`fprc`是否为最新版本，如果不是或者没有则下载最新版
@@ -105,9 +96,7 @@ msiexec /a "MSI文件路径" /qn TARGETDIR="解压输出目录绝对路径"
 ## 环境变量
 
 * [set](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/set_1)
-
 * [setx](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/setx)
-
 **`SET`与`SETX`的区别**
 
 - `SET` 用于设置临时环境变量和查看环境变量
@@ -637,9 +626,7 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 
 
 * [Windows注册表内容详解](https://zhuanlan.zhihu.com/p/72194354)
-
 * [简析Windows注册表](https://segmentfault.com/a/1190000016854021)
-
 * [windows注册表](https://www.cnblogs.com/weiyinfu/p/10961872.html)
 
 
@@ -850,13 +837,9 @@ sc delete 服务名称
 ## 第三方工具
 
 * [wget-网络请求工具](https://eternallybored.org/misc/wget)
-
 * [curl-网络请求工具](https://curl.haxx.se/dlwiz/?type=bin) [curl-GitHub](https://github.com/curl/curl)
-
 * [jq-解析json工具](https://github.com/stedolan/jq)
-
 * [Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html) [bcn](http://bcn.bathome.net/s/tool/index.html)
-
 * [转换位图图像](https://imagemagick.org/index.php)
 
 

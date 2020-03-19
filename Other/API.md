@@ -8,50 +8,30 @@
 ## flag
 
 * [https://github.com/hongyangAndroid/wanandroid](https://github.com/hongyangAndroid/wanandroid)
-
 * [https://api.imjad.cn](https://api.imjad.cn)
-
 * [https://github.com/Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
 
 
 **图片**
 
 * [https://pixabay.com/zh](https://pixabay.com/zh)
-
 * [https://visualhunt.com](https://visualhunt.com)
-
 * [https://stocksnap.io](https://stocksnap.io)
-
 * [https://kaboompics.com](https://kaboompics.com)
-
 * [https://www.wallpaperup.com](https://www.wallpaperup.com)
-
 * [https://www.splitshire.com](https://www.splitshire.com)
-
 * [https://magdeleine.co](https://magdeleine.co)
-
 * [http://cupcake.nilssonlee.se](http://cupcake.nilssonlee.se)
-
 * [http://lorempixel.com/1920/1080](http://lorempixel.com/1920/1080)
-
 * [https://www.lifeofpix.com/page/1](https://www.lifeofpix.com/page/1)
-
 * [https://isorepublic.com/photos](https://isorepublic.com/photos)
-
 * [https://pxhere.com](https://pxhere.com)
-
 * [https://www.hippopx.com](https://www.hippopx.com)
-
 * [https://foter.com](https://foter.com)
-
 * [https://negativespace.co](https://negativespace.co)
-
 * [http://photopin.com](http://photopin.com)
-
 * [https://gratisography.com](https://gratisography.com)
-
 * [https://shotstash.com](https://shotstash.com)
-
 * [https://picography.co](https://picography.co)
 
 
@@ -82,9 +62,7 @@
 ## 360wallpaper
 
 * [https://www.yuluoge.com/api/index.php](https://www.yuluoge.com/api/index.php)
-
 * [https://api.zwho.me/image/360](https://api.zwho.me/image/360)
-
 * [https://github.com/mengkunsoft/wallpaper](https://github.com/mengkunsoft/wallpaper)
 
 
@@ -204,7 +182,6 @@
 ## pexels
 
 * [https://www.pexels.com/zh-cn](https://www.pexels.com/zh-cn)
-
 * [https://www.pexels.com/api](https://www.pexels.com/api)
 
 

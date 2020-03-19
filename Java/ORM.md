@@ -12,9 +12,7 @@
 ## flag
 
 * [http://www.squirrelsql.org](http://www.squirrelsql.org)
-
 * [http://java-source.net/open-source/sql-clients](http://java-source.net/open-source/sql-clients)
-
 * [https://github.com/pagehelper/Mybatis-PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)
 
 

@@ -9,7 +9,6 @@
 ## flag
 
 * [https://www.jetbrains.com/products.html](https://www.jetbrains.com/products.html)
-
 * [JetBrains 系列软件汉化包](https://github.com/pingfangx/TranslatorX)
 
 **Export Settings**

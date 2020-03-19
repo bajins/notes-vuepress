@@ -150,9 +150,7 @@ demo                        # 顶级项目（根项目）
 **MyBatisCodeHelper-Pro**
 
 * [文档](https://gejun123456.github.io/MyBatisCodeHelper-Pro/#)
-
 * [MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
-
 * [https://zhile.io/categories/software-debug](https://zhile.io/categories/software-debug)
 
 **.ignore**

@@ -9,11 +9,8 @@
 ## flag
 
 * [Scripting](https://docs.microsoft.com/zh-cn/previous-versions/ms950396(v=msdn.10))
-
 * [Windows Script Host](https://docs.microsoft.com/zh-cn/previous-versions//9bbdkx3k%28v%3dvs.85%29)
-
 * [属性和方法及子对象](https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/x66z77t4(v=vs.84)#language-element-table)
-
 * [https://github.com/mrpapercut/wscript](https://github.com/mrpapercut/wscript)
 
 
@@ -186,7 +183,6 @@
 
 
 * [WinHttpRequest对象](https://docs.microsoft.com/zh-cn/windows/win32/winhttp/winhttprequest)
-
 * [DOM参考](https://docs.microsoft.com/zh-cn/previous-versions/windows/desktop/ms764730%28v%3dvs.85%29)
 
 
@@ -201,13 +197,9 @@
 > `New-Object -ComObject "WIA.ImageProcess" | Get-Member`
 
 * [Windows图像采集（WIA）](https://docs.microsoft.com/zh-cn/windows/win32/wia/-wia-startpage)
-
 * [使用](https://docs.microsoft.com/zh-cn/previous-versions/windows/desktop/wiaaut/-wiaaut-howto-use-filters)
-
 * [常量](https://docs.microsoft.com/zh-cn/previous-versions/windows/desktop/wiaaut/-wiaaut-vbscript-constants)
-
 * [Windows Image Acquisition](https://blog.csdn.net/AMinfo/article/details/8100436)
-
 * [WIA图片处理](https://blog.csdn.net/AMinfo/article/details/8100460)
 
 
@@ -217,9 +209,7 @@
 > `Scripting.FileSystemObject`对象提供的功能：`New-Object -ComObject "Scripting.FileSystemObject" | Get-Member`
 
 * [FileSystemObject简介](https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/d6dw7aeh(v=vs.84))
-
 * [FileSystemObject 对象](https://docs.microsoft.com/zh-cn/office/vba/language/reference/user-interface-help/filesystemobject-object)
-
 * [FileSystemObject操作文件](https://blog.csdn.net/pl1612127/article/details/77862174)
 
 
@@ -504,19 +494,12 @@
 ## VBScript
 
 * [VBScript](https://docs.microsoft.com/zh-cn/previous-versions//t0aew7h6(v=vs.85))
-
 * [Visual Basic 指南](https://docs.microsoft.com/zh-cn/dotnet/visual-basic)
-
 * [VBScript语言参考](https://docs.microsoft.com/zh-cn/previous-versions//d1wf56tt%28v%3dvs.85%29)
-
 * [VBScript基础知识](https://docs.microsoft.com/zh-cn/previous-versions//0ad0dkea%28v%3dvs.85%29)
-
 * [VBScript 语言](https://www.tcoline.com/resource/vbs/top_vbs_0.htm)
-
 * [VBScript 教程](https://code.ziqiangxuetang.com/vbscript/vbscript-tutorial.html)
-
 * [VBScript 函数](https://www.w3school.com.cn/vbscript/vbscript_ref_functions.asp)
-
 * [https://github.com/MishaVernik/WScirpt](https://github.com/MishaVernik/WScirpt)
 
 
