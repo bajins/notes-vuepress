@@ -25,8 +25,8 @@ if "%~1"=="/help" (
 
 
 set serverHost=woetu.com
-set serverProt=7000
-set token=woytu.com
+set serverProt=5443
+set token=woetu
 set httpPort=7552
 
 :START
