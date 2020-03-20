@@ -45,6 +45,52 @@ yum -y install git2u
 
 ## 使用命令
 
+
+### 代理
+
+> `git config --global http.sslverify false` 不验证SSL
+
+**设置代理**
+
+- 使用命令设置
+
+```bash
+# socks5代理，如果是http则把socks5替换为http，https同理
+git config --global http.proxy 'socks5://127.0.0.1:10808'
+git config --global https.proxy 'socks5://127.0.0.1:10808'
+```
+
+- 编辑配置文件设置
+
+```bash
+vi ~/.gitconfig
+```
+
+> 在文件末尾添加
+
+```vim
+[http]
+proxy = socks5://127.0.0.1:10808
+
+[https]
+proxy = socks5://127.0.0.1:10808
+```
+
+**取消代理**
+
+- 命令
+
+```bash
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+
+- 编辑配置文件取消
+
+> 直接删除即可
+
+
+
 ### 把空文件夹提交到仓库
 
 > 这个只能说是技巧不能说是方法，原理是在每个空文件夹新建一个.gitignore文件

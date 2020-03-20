@@ -66,6 +66,9 @@
 * [Spring Security | Spring Boot | Spring Cloud | https://felord.cn 码农小胖哥的博客](https://felord.cn)
 * [Introduction · Essential Java.《Java 编程要点》](https://waylau.gitbooks.io/essential-java)
 * [归档 | Joze's Blog](https://jozeou.github.io/archives)
+* [归档 | oKong | 趔趄的猿](https://blog.lqdev.cn/archives)
+* [归档 | 我没有三颗心脏的博客](https://www.wmyskxz.com/archives)
+* [http://muggle.javaboy.org](http://muggle.javaboy.org)
 
 
 
