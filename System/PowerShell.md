@@ -163,3 +163,12 @@ Move-Item 7zip/Files/7-Zip/7z.dll 7z.dll -Force
 Remove-Item –path 7zip –Recurse
 Remove-Item –path 7zip.msi
 ```
+
+### 系统环境变量
+
+
+- 列出所有的环境变量：`Get-ChildItem env:` 同 `dir env:`
+
+- 获取环境变量的值：`$env:变量名`
+
+

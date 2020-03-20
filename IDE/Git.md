@@ -45,10 +45,29 @@ yum -y install git2u
 
 ## 使用命令
 
+> `--global`代表全局，保存的配置在用户目录中，Windows在cmd中输入命令查看：`type %USERPROFILE%\.gitconfig`
+
+### 保存用户密码
+
+```bash
+git config --global --edit
+# 设置项目个人邮箱
+git config --global user.email "your email"
+# 设置项目个人用户名
+git config --global user.name  "your username"
+# 永久保存凭证
+git config --global credential.helper store
+```
+
+> 在`~/.gitconfig`中会自动在`[credential]`节点下添加`helper = store`
+
+> 保存的账户密码在`~/.git-credentials`中
+
+
 
 ### 代理
 
-> `git config --global http.sslverify false` 不验证SSL
+> `git config --global https.sslverify false` 不验证SSL
 
 **设置代理**
 
@@ -281,26 +300,6 @@ git log -p master..origin/master
 ```bash
 git log master..origin/master
 ```
-
-
-### 保存用户密码
-
-> 
-
-```bash
-git config --global --edit
-# 设置项目个人邮箱
-git config --global user.email "your email"
-# 设置项目个人用户名
-git config --global user.name  "your username"
-# 永久保存凭证
-git config --global credential.helper store
-```
-
-> 在`~/.gitconfig`中会自动在`[credential]`节点下添加`helper = store`
-
-> 保存的账户密码在`~/.git-credentials`中
-
 
 
 ### 分支
