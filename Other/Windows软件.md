@@ -442,6 +442,11 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 **Windows Key**
 
 * [https://cherishspring.cn/s/share-key](https://cherishspring.cn/s/share-key)
+* [https://notys.xyz](https://notys.xyz)
+* [https://cherishspring.cn/pidkey.html](https://cherishspring.cn/pidkey.html)
+* [https://jihuo.ma/tool](https://jihuo.ma/tool)
+* [http://www.aihao.cc](http://www.aihao.cc)
+
 
 ```
 # Windows 10 LTSC 2019在线激活密钥

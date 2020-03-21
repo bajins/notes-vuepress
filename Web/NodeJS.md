@@ -66,7 +66,7 @@
 
 **Player**
 
-* [DPlayer–支持弹幕的HTML5视频播放器](https://github.com/MoePlayer/DPlayer)
+* [萌豚技术组织 | 播放器、音视频、弹幕相关开源开发](https://github.com/MoePlayer)
 * [Plyr–一个轻量级的HTML5播放器](https://github.com/sampotts/plyr)
 
 

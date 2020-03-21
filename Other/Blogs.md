@@ -69,6 +69,8 @@
 * [归档 | oKong | 趔趄的猿](https://blog.lqdev.cn/archives)
 * [归档 | 我没有三颗心脏的博客](https://www.wmyskxz.com/archives)
 * [http://muggle.javaboy.org](http://muggle.javaboy.org)
+* [归档 · 弥枳](https://blog.coor.top/archives)
+* [文章归档 - 拧螺丝的博客](https://justlei.cn/archives)
 
 
 

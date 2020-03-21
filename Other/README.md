@@ -112,6 +112,7 @@
 
 * [https://www.livere.com](https://www.livere.com)
 * [https://github.com/xCss/Valine](https://github.com/xCss/Valine)
+[https://github.com/DesertsP/Valine-Admin](https://github.com/DesertsP/Valine-Admin)
 * [https://disqus.com](https://disqus.com)
 * [https://github.com/gitalk/gitalk](https://github.com/gitalk/gitalk)
 [Gitalk评论插件使用教程](https://segmentfault.com/a/1190000018072952)
