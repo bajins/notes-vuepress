@@ -15,6 +15,13 @@
 ![](/images/sql执行顺序.png)
 
 
+**MySQL优化工具**
+
+* [https://github.com/major/MySQLTuner-perl](https://github.com/major/MySQLTuner-perl)
+* [https://github.com/BMDan/tuning-primer.sh](https://github.com/BMDan/tuning-primer.sh)
+* pt-query-digest、pt-variable-advisor：[https://www.percona.com/downloads/percona-toolkit/LATEST/](https://www.percona.com/downloads/percona-toolkit/LATEST/)
+
+
 
 
 ## SQLite3

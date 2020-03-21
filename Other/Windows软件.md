@@ -326,8 +326,18 @@
 ## 文件压缩
 
 * [https://www.bandisoft.com/bandizip](https://www.bandisoft.com/bandizip)
-* [https://www.peazip.org](https://www.peazip.org)
+* [https://github.com/giorgiotani/PeaZip](https://github.com/giorgiotani/PeaZip)
 * [https://www.7-zip.org/download.html](https://www.7-zip.org/download.html)
+* [https://github.com/nmoinvaz/minizip](https://github.com/nmoinvaz/minizip)
+
+* [https://github.com/lxfly2000/7zsfx](https://github.com/lxfly2000/7zsfx)
+
+**自解压**
+
+* [https://sourceforge.net/projects/sfx-maker](https://sourceforge.net/projects/sfx-maker)
+[7-ZIP SFX Maker v3.3 完整汉化版](https://www.52pojie.cn/thread-1133336-1-1.html)
+[7-ZIP SFX Maker v3.3 完美汉化版](https://www.52pojie.cn/thread-1136281-1-1.html)
+* [https://sourceforge.net/projects/s-zipsfxbuilder](https://sourceforge.net/projects/s-zipsfxbuilder)
 
 
 

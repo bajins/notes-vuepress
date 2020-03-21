@@ -161,6 +161,13 @@ demo                        # 顶级项目（根项目）
 
 ![](/images/ignore.gif)
 
+**Add to gitignore**
+
+* [https://github.com/fallenprogrammr/addtogitignore](https://github.com/fallenprogrammr/addtogitignore)
+
+> 在项目视图中右键单击文件/目录并将其添加到`.gitignore`
+
+
 
 **Maven Helper**
 
