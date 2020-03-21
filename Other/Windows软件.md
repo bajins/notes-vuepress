@@ -10,7 +10,7 @@
 
 * [https://git.io](https://git.io)
 
-
+---
 
 * [http://potato.manre.me](http://potato.manre.me)
 * [https://signal.org](https://signal.org)
@@ -122,6 +122,7 @@
 * [https://github.com/topics/download](https://github.com/topics/download)
 * [https://github.com/topics/download-manager](https://github.com/topics/download-manager)
 
+---
 
 * [https://github.com/xdown-org](https://github.com/xdown-org) [https://xdown.org](https://xdown.org)
 * [https://github.com/monkeyWie/proxyee-down](https://github.com/monkeyWie/proxyee-down)
@@ -131,6 +132,11 @@
 * [Free Download Manager](http://www.freedownloadmanager.org/download.htm)
 * [Negibox葱葱盒子](https://github.com/hugetiny/negibox)
 * [https://github.com/agalwood/Motrix](https://github.com/agalwood/Motrix)
+
+---
+
+* [网赚网盘下载辅助工具](http://www.oceancoder.cn/post/net-disk-download-helper.html)
+* [http://app.oceancoder.cn](http://app.oceancoder.cn)
 
 
 **百度网盘**
@@ -144,10 +150,6 @@
 * [http://pandownload.com](http://pandownload.com)
 * [https://yixun.writeas.com](https://yixun.writeas.com)
 * [https://github.com/Kyle-Kyle/baidudl](https://github.com/Kyle-Kyle/baidudl)
-
-
-* [网赚网盘下载辅助工具](http://www.oceancoder.cn/post/net-disk-download-helper.html)
-* [http://app.oceancoder.cn](http://app.oceancoder.cn)
 
 
 **蓝奏云**
@@ -178,7 +180,6 @@
 
 * [https://github.com/qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent)
 [https://www.lanzous.com/b073dnr7g](https://www.lanzous.com/b073dnr7g)
-
 * [https://github.com/c0re100/qBittorrent-Enhanced-Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition)
 * [https://transmissionbt.com](https://transmissionbt.com)
 * [https://deluge-torrent.org](https://deluge-torrent.org)
@@ -208,11 +209,8 @@
 **Internet Download Manager**
 
 0. [https://eyun.baidu.com/s/3miwISp6](https://eyun.baidu.com/s/3miwISp6)密码：3131
-
 1. [https://www.lanzous.com/b134572](https://www.lanzous.com/b134572)
-
 2. [https://yunpan.360.cn/surl_ymsGF6zWGcP](https://yunpan.360.cn/surl_ymsGF6zWGcP)（提取码：805b）
-
 3. [https://www.lanzous.com/b0i6zkze](https://www.lanzous.com/b0i6zkze)
 
 
@@ -255,12 +253,11 @@
 * [http://www.bahraniapps.com](http://www.bahraniapps.com)
 
 
-* [由微博大神@vposy制作Adobe全系列](https://weibo.com/vposy?is_hot=1)
-* [Adobe软件单独下载方法-官方](https://sleele.com/2019/05/05/adobe/)
-
 
 **Photoshop CC**
 
+* [由微博大神@vposy制作Adobe全系列](https://weibo.com/vposy?is_hot=1)
+* [Adobe软件单独下载方法-官方](https://sleele.com/2019/05/05/adobe/)
 0. [https://eyun.baidu.com/s/3mizNp4O](https://eyun.baidu.com/s/3mizNp4O)密码：3131
 1. [https://yunpan.360.cn/surl_ydDgKwXKPSf](https://yunpan.360.cn/surl_ydDgKwXKPSf)（提取码：0be6）
 2. [https://cloud.189.cn/t/UneM3imEJj2u](https://cloud.189.cn/t/UneM3imEJj2u)（访问码：0224）
@@ -330,9 +327,35 @@
 * [https://www.7-zip.org/download.html](https://www.7-zip.org/download.html)
 * [https://github.com/nmoinvaz/minizip](https://github.com/nmoinvaz/minizip)
 
-* [https://github.com/lxfly2000/7zsfx](https://github.com/lxfly2000/7zsfx)
 
-**自解压**
+
+## 程序打包
+
+* [单文件制作程序by527104427](http://blog.sina.com.cn/s/blog_6fd804fe0102wwwf.html)
+* [单文件程序制作一键通by:杏雨梨云](https://www.xyboot.com/portableapp_onekey_ok_3in1)
+* [https://github.com/lxfly2000/7zsfx](https://github.com/lxfly2000/7zsfx)
+* [UltraModernUI](https://github.com/SuperPat45/UltraModernUI)
+* [Inno-by-KngStr](https://github.com/KngStr/Inno-All-in-One-Setup)
+* [Advanced Installer官方](https://www.advancedinstaller.com/download.html)
+* [https://github.com/upx/upx](https://github.com/upx/upx)
+[UPXShell汉化版](http://blog.sina.com.cn/s/blog_89a729a40102wjwo.html)
+* [https://jrsoftware.org](https://jrsoftware.org)
+[InnoSetup中文定制版](http://blog.sina.com.cn/s/blog_89a729a40102xuy4.html)
+
+
+### NSIS
+
+* [https://sourceforge.net/projects/nsis](https://sourceforge.net/projects/nsis)
+* [https://nsis.sourceforge.io/Category:Plugins](https://nsis.sourceforge.io/Category:Plugins)
+* [NSIS中文论坛](http://www.nsisfans.com)
+
+* [https://sourceforge.net/projects/hmne](https://sourceforge.net/projects/hmne)
+* [http://hmne.sourceforge.net](http://hmne.sourceforge.net)
+
+* 基于NSIS工具自定义XML漂亮UI打包工具：[https://github.com/woytu/NSIS_SetupSkin](https://github.com/woytu/NSIS_SetupSkin)
+
+
+### 自解压
 
 * [https://sourceforge.net/projects/sfx-maker](https://sourceforge.net/projects/sfx-maker)
 [7-ZIP SFX Maker v3.3 完整汉化版](https://www.52pojie.cn/thread-1133336-1-1.html)
@@ -465,7 +488,6 @@ MK7WR-D4TPC-VXHGP-P6TKG-RQT6D
 
 **KMS**
 
-
 * [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
 * [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
 * [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
@@ -526,7 +548,6 @@ MK7WR-D4TPC-VXHGP-P6TKG-RQT6D
 
 > 可设置<kbd>Win</kbd> + <kbd>v</kbd>快捷键
 
-
 * [https://www.clipboardfusion.com](https://www.clipboardfusion.com)
 * [https://clipber.com](https://clipber.com)
 * [https://ditto-cp.sourceforge.io](https://ditto-cp.sourceforge.io)
@@ -537,6 +558,7 @@ MK7WR-D4TPC-VXHGP-P6TKG-RQT6D
 * [https://www.52pojie.cn/thread-953460-1-1.html](https://www.52pojie.cn/thread-953460-1-1.html)
 * [http://1clipboard.io](http://1clipboard.io)
 
+---
 
 * [https://copiedapp.com](https://copiedapp.com)
 
