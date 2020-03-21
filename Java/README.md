@@ -11,12 +11,9 @@
 * [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
 [下载地址镜像](/Other/README.md#通用镜像)
 
-* [mybatis](https://mybatis.org/mybatis-3/zh/index.html)
-* [http://www.rabbitmq.com](http://www.rabbitmq.com)
-* [https://github.com/ehcache/ehcache3](https://github.com/ehcache/ehcache3)
-* [http://htmlunit.sourceforge.net](http://htmlunit.sourceforge.net)
-* [https://github.com/square/okhttp](https://github.com/square/okhttp)
-* [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
+---
+
+* [fastjson这么快老外为啥还是热衷 jackson?](https://www.zhihu.com/question/44199956)
 
 
 ## OpenJDK
@@ -63,13 +60,23 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 ## 第三方依赖
 
-* [fastjson](https://github.com/alibaba/fastjson)
 * [https://github.com/google/guava](https://github.com/google/guava)
 * [https://github.com/SpringForAll](https://github.com/SpringForAll)
 * [https://github.com/looly/hutool](https://github.com/looly/hutool)
 * [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
 * [https://github.com/alibaba/easyexcel](https://github.com/alibaba/easyexcel)
+* [https://github.com/mybatis/mybatis-3](https://github.com/mybatis/mybatis-3)
+* [https://github.com/ehcache/ehcache3](https://github.com/ehcache/ehcache3)
+* [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
+* [https://github.com/square/okhttp](https://github.com/square/okhttp)
+* [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
+* [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
+* [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)
+* [https://github.com/google/gson](https://github.com/google/gson)
 
+---
+
+* [https://github.com/rabbitmq](https://github.com/rabbitmq)
 
 
 **Transaction**
