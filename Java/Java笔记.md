@@ -55,6 +55,32 @@
 
 
 
+## classpath意义
+
+* [java项目中的classpath到底是什么](https://segmentfault.com/a/1190000015802324)
+* [spring classpath:和classpath*:区别和实际应用](https://blog.csdn.net/qq_30038111/article/details/82116559)
+
+- `src`不是`classpath`，`WEB-INF/classes`和`lib`才是`classpath`，`WEB-INF/`是资源目录, 客户端不能直接访问
+- `WEB-INF/classes`目录存放`src`目录`java`文件编译之后的`class`文件、`xml`、`properties`等资源配置文件，这是一个定位资源的入口
+- `lib`和`classes`同属`classpath`，两者的访问优先级为: `lib` > `classes`
+
+---
+
+- `classpath`：只会到你的`class`路径中查找文件
+
+> `classpath:`和`classpath:/`是等价的，都是相对于类的根路径。资源文件库标准的在文件系统中，也可以在`JAR`或`WAR`的类包中。
+
+- `classpath*`：不仅包含`class`路径，还包括`jar`文件中（`class`路径）进行查找
+
+> 注意：用`classpath*`需要遍历所有的`classpath`，所以加载速度是很慢，尽量避免使用
+
+> 项目模块依赖深度：A –> B –> C，在B中没有配置文件的情况下，A中的`classpath*`加载到B的配置文件，
+> C加载自己配置文件要用`classpath*`，否则A加载配置文件无法加载到C的配置文件
+
+- `**`表示在任意目录下，也就是说在`WEB-INF/classes/`下任意层的目录
+
+
+
 
 ## 时间
 
