@@ -8,6 +8,8 @@
 
 ## flag
 
+> 【诚通网盘下载提示】：点击下载后，立马取消（就是点击浏览器左上角的`X`按钮停止访问），然后再次点击下载，可以提速好几倍
+
 * [https://git.io](https://git.io)
 * [http://potato.manre.me](http://potato.manre.me)
 * [https://signal.org](https://signal.org)
