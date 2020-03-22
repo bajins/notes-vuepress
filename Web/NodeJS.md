@@ -25,8 +25,6 @@
 
 * [https://github.com/wendux/fly](https://github.com/wendux/fly)
 * [https://github.com/github/fetch](https://github.com/github/fetch)
-
-
 * [https://github.com/axios/axios](https://github.com/axios/axios)
 
 
@@ -78,14 +76,19 @@
 * [前端如何检测Chrome-Headless不被爬虫虐](https://mlln.cn/2019/07/05/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%A3%80%E6%B5%8BChrome-Headless%E4%B8%8D%E8%A2%AB%E7%88%AC%E8%99%AB%E8%99%90)
 
 
-## 依赖管理
 
 
-### 安装rpm
+## 管理NodeJS
+
+
+**rpm**
 
 > npm与Node.js一起存在，这意味着当您下载并安装Node.js时，您会自动在计算机上安装npm
 
+* [https://github.com/nodesource/distributions](https://github.com/nodesource/distributions)
+
 ```bash
+# CentOS安装
 # 到https://github.com/nodesource/distributions#installation-instructions-1
 # 复制更新软件源命令，并执行
 curl -sL https://rpm.nodesource.com/setup_12.x | bash -
@@ -95,7 +98,7 @@ yum install -y nodejs
 node -v && npm -v
 ```
 
-### 安装NVM
+**NVM**
 
 > nodeJs版本管理工具,管理nodejs版本和npm版本
 
@@ -108,6 +111,13 @@ nvm ls-remote --lts
 # 安装稳定版 Nodejs
 nvm install <最新的版本号>
 ```
+
+
+
+
+## 依赖管理
+
+
 
 ### 安装yarn
 
@@ -294,9 +304,8 @@ request({
 * [https://github.com/GoogleChrome/puppeteer](https://github.com/GoogleChrome/puppeteer)
 * [Puppeteer配置小记](https://www.itfanr.cc/2019/04/10/configuration-development-of-puppeteer)
 
-- [xpath和css选择器](/Python/Python爬虫.md#xpath和css选择器)
-
-- [`chromedriver`](/Python/Python爬虫.md#chromedriver)
+**[xpath和css选择器](/Python/Python爬虫.md#xpath和css选择器)**
+**[`chromedriver`](/Python/Python爬虫.md#chromedriver)**
 
 * [https://github.com/ebidel/try-puppeteer](https://github.com/ebidel/try-puppeteer)
 * [https://github.com/berstend/puppeteer-extra](https://github.com/berstend/puppeteer-extra)

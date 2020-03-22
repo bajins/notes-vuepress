@@ -33,7 +33,6 @@
 
 * [https://ide.goorm.io](https://ide.goorm.io)
 * [https://codesandbox.io](https://codesandbox.io)
-* [https://cloudstudio.net](https://cloudstudio.net)
 * [https://aws.amazon.com/cn/cloud9](https://aws.amazon.com/cn/cloud9)
 
 

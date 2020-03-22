@@ -9,9 +9,6 @@
 ## flag
 
 * [https://git.io](https://git.io)
-
----
-
 * [http://potato.manre.me](http://potato.manre.me)
 * [https://signal.org](https://signal.org)
 * [Telegram](https://github.com/telegramdesktop/tdesktop/releases)
@@ -41,10 +38,9 @@
 * [释怀](https://shiove.com/c/9tk)
 * [宋永志博客](http://www.songyongzhi.com/SystemTool)
 * [我天哪鸡哥](https://www.wotianna.com)
-* [下1个好软件](http://www.xia1ge.com)
 * [星空软件共享绿化园地](http://www.xingkbjm.com)
 * [飞扬时空作品](http://blog.sina.com.cn/s/blog_89a729a40102wjwp.html)
-* [翠竹成林](http://msbuild.cn/category/software)
+* [翠竹成林](http://msbuild.cn)
 * [落尘之木](https://www.luochenzhimu.com)
 * [http://itjcc.com](http://itjcc.com)
 * [https://myqqjd.com](https://myqqjd.com)
