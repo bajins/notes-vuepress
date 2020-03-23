@@ -176,8 +176,8 @@ import org.slf4j.LoggerFactory;
 
 public class ${NAME} {
 
-     private static final Logger logger = LoggerFactory.getLogger(${NAME}.class);
-     
+     //private static final Logger logger = LoggerFactory.getLogger(${NAME}.class);
+     private Logger log = LoggerFactory.getLogger(this.getClass());
      
 }
 ```
