@@ -31,11 +31,13 @@
 * [https://zmister.com](https://zmister.com)
 * [python3基础教程](https://morvanzhou.github.io/tutorials/python-basic/basic)
 
+---
 
 * [精选的Python框架，库，软件和资源的精选列表](https://github.com/vinta/awesome-python)
 * [python3 中执行系统命令](https://www.jianshu.com/p/a19de14c4b57)
 * [Python图像处理库—-Pillow](https://www.lizenghai.com/archives/17611.html)
 * [https://github.com/aio-libs](https://github.com/aio-libs)
+* [Python Selenium教程 - 猿人学Python](https://www.yuanrenxue.com/python-selenium)
 
 
 ## 安装新版

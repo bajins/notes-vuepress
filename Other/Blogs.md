@@ -9,9 +9,6 @@
 
 * [有赞权限系统(SAM)](https://tech.youzan.com/sam)
 * [美团技术团队](https://tech.meituan.com)
-* [常用命令 · git笔记 · 看云](https://www.kancloud.cn/leviio/git/330946)
-* [Git 常用命令及使用详解 - 喵斯基部落](https://www.moewah.com/archives/2292.html)
-* [Pro Git 中文版（第二版）](https://progit.bootcss.com)
 * [。思索 - 博客园](https://www.cnblogs.com/wangyang0210)
 * [Categories](https://lichangke.github.io/category)
 * [归档 | hoxis&#39; blog](https://hoxis.github.io/archives/page/2)
@@ -19,7 +16,6 @@
 * [归档 | rxliuli blog](https://blog.rxliuli.com/archives)
 * [categories | Tonny&#39;s Blog](https://codertang.com/categories)
 * [守望的个人博客 - 编程珠玑](https://www.yanbinghu.com)
-* [Python Selenium教程 - 猿人学Python](https://www.yuanrenxue.com/python-selenium)
 * [mojotv.cn](https://mojotv.cn/404#Jekyll)
 * [文章分类-TMaize Blog](https://blog.tmaize.net/pages/categories.html)
 * [categories | 骏马金龙](https://www.junmajinlong.com/categories)
@@ -35,7 +31,7 @@
 * [技术杂谈 | 静觅](https://cuiqingcai.com/category/technique)
 * [jvm123-java技术分享站](http://jvm123.com)
 * [归档 | StarryLand](https://rollingstarky.github.io/archives)
-* [zgao&#39;s blog – 一个搞渗透的student，感兴趣的话可以加我qq 1761321396](https://zgao.top)
+* [zgao&#39;s blog – 一个搞渗透的student](https://zgao.top)
 
 
 

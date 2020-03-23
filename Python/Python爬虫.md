@@ -128,6 +128,8 @@ taskkill /f /im chromedriver.exe
 * [python+selenium 判断元素是否存在，是否可点击，是否被选中](https://www.twblogs.net/a/5c8414bdbd9eee35cd69c929/zh-cn)
 * [EC：expected_conditions判断页面元素](https://www.jianshu.com/p/a94918d49c3c)
 * [selenium,Python3滚动到页面底部的几种解决方案](https://rumenz.com/rumenbiji/python3-selenium-scrollToBottom.html)
+* [Python Selenium教程 - 猿人学Python](https://www.yuanrenxue.com/python-selenium)
+
 
 
 ### 函数或变量
