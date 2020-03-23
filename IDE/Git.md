@@ -627,6 +627,7 @@ volumes:
 
 * [https://myssl.com/dns_check.html](https://myssl.com/dns_check.html)
 * [http://tool.chinaz.com/dns](http://tool.chinaz.com/dns)
+* [https://www.ipaddress.com](https://www.ipaddress.com)
 * [Windows设置GitHub的Hosts脚本](/files/设置GitHub的Hosts.bat)
 
 
@@ -660,6 +661,12 @@ sudo /etc/init.d/dns-clean start
 </details>
 
 
+**克隆代理地址**
+
+> 替换`github.com`为`github.com.cnpmjs.org`
+
+* [https://cdn.jsdelivr.net/gh](https://cdn.jsdelivr.net/gh)
+
 
 
 ### 部署
@@ -680,7 +687,6 @@ sudo /etc/init.d/dns-clean start
 > 或者生成新的个人访问令牌（PERSONAL_TOKEN）[https://github.com/settings/tokens/new](https://github.com/settings/tokens/new)
 
 
----
 
 * [https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=deploy-to-github-pages](https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=deploy-to-github-pages)
 * [https://github.com/sdras/awesome-actions](https://github.com/sdras/awesome-actions)
@@ -689,11 +695,6 @@ sudo /etc/init.d/dns-clean start
 * [https://github.com/actions/create-release](https://github.com/actions/create-release)
 * [https://github.com/actions/upload-release-asset](https://github.com/actions/upload-release-asset)
 
-
-
-### 克隆代理地址
-
-> 替换`https://github.com`为`https://github.com.cnpmjs.org`
 
 
 ### CustomDomain被清空

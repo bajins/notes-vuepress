@@ -71,13 +71,9 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 
 ## CDN
 
-- [https://cdnjs.com](https://cdnjs.com)
-
-- 知乎：[https://unpkg.zhimg.com](https://unpkg.zhimg.com)
-
-- 饿了么：[https://npm.elemecdn.com](https://npm.elemecdn.com)
-
-
+* [https://cdnjs.com](https://cdnjs.com)
+* 知乎：[https://unpkg.zhimg.com](https://unpkg.zhimg.com)
+* 饿了么：[https://npm.elemecdn.com](https://npm.elemecdn.com)
 * [https://unpkg.com](https://unpkg.com)
 
 > 使用固定的版本号：
@@ -105,8 +101,7 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 >> `unpkg.com/lodash/`
 
 
-
-* [https://www.jsdelivr.com](https://www.jsdelivr.com)
+* [https://github.com/jsdelivr/jsdelivr](https://github.com/jsdelivr/jsdelivr)
 * [https://www.bootcdn.cn](https://www.bootcdn.cn)
 * [http://staticfile.org](http://staticfile.org)
 * [https://cdn.baomitu.com](https://cdn.baomitu.com)
