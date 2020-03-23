@@ -68,6 +68,10 @@
 * [归档 · 弥枳](https://blog.coor.top/archives)
 * [文章归档 - 拧螺丝的博客](https://justlei.cn/archives)
 * [https://www.baeldung.com](https://www.baeldung.com)
+* [归档 | gentlezuo的博客](https://gentlezuo.github.io/archives)
+
+
+
 
 
 ## Go

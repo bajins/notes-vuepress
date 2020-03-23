@@ -1,9 +1,49 @@
 # Annotation
 
-> 注解
-
 
 [[toc]]
+
+
+
+## flag
+
+> 解释注解的方式：反射！反射是jdk中提供的一种机制，通过读取编译后的运行文件，反向获取类信息的一种手段！可以通过反射获取类、方法、成员变量上的运行时注解内容！
+
+> 元注解: 能注解到注解上的注解，能用在其他注解上的注解
+
+* [Java 注解（Annotation）](https://www.runoob.com/w3cnote/java-annotation.html)
+
+
+## Servlet
+
+| 注解             	| 版本       	| 说明                                                                                       	|
+|------------------	|------------	|--------------------------------------------------------------------------------------------	|
+| @PostConstruct   	| Servlet2.5 	| 被@PostConstruct修饰的方法会在服务器加载Servle且构造函数之后执行，并且只会被服务器执行一次 	|
+| @PreDestroy      	| Servlet2.5 	| 被@PreDestroy修饰的方法会在服务器卸载Servlet之前运行，并且只会被服务器调用一次             	|
+| @WebServlet      	| Servlet3.0 	| 用于声明servlet                                                                            	|
+| @WebListener     	| Servlet3.0 	| 用于声明过监听器，可通过控制filter的文件名来控制执行顺序                                   	|
+| @WebFilter       	| Servlet3.0 	| 用于声明过滤器                                                                             	|
+| @WebInitParam    	| Servlet3.0 	| 为 Servlet 或者过滤器指定初始化参数，配置@WebServlet或@WebFilter时使用                     	|
+| @MultipartConfig 	| Servlet3.0 	| HttpServletRequest 提供的对上传文件的支持，该注解标注在 Servlet 上面                       	|
+
+
+
+## JDK
+
+| 注解                 	| 版本   	| 说明                                                        	|
+|----------------------	|--------	|-------------------------------------------------------------	|
+| @Retention           	| jdk1.5 	| 元注解：表示注解保留周期                                    	|
+| @Target              	| jdk1.5 	| 元注解：表示注解可以使用在什么地方                          	|
+| @Documented          	| jdk1.5 	| 元注解：将注解写入文档                                      	|
+| @Inherited           	| jdk1.5 	| 元注解：子类继承父类的注解（子类没有任何注解修饰）          	|
+| @Repeatable          	| jdk1.8 	| 表示注解的属性可以重复！@Repeatable通俗来讲，就是注解容器！ 	|
+| @Deprecated          	| jdk1.5 	| 内置注解：用于标志过时的类、方法和成员变量                  	|
+| @Override            	| jdk1.5 	| 内置注解：用于修饰重写的方法                                	|
+| @SuppressWarnings    	| jdk1.5 	| 内置注解：用户忽略@Deprecated标志过的警告                   	|
+| @SafeVarargs         	| jdk1.7 	| 参数安全类型注解，用于提示用户参数安全                      	|
+| @FunctionalInterface 	| jdk1.8 	| 函数式接口注解，用于定义函数式接口                          	|
+| @Interface           	| jdk1.5 	| 注解的创建和接口的创建，用来声明一个注解                    	|
+
 
 
 
@@ -32,11 +72,7 @@
 TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
 ```
 
-
-
-### 注解
-
-#### 1.声明bean的注解
+### 1.声明bean的注解
 
 - `@Component` 组件，没有明确的角色
 
@@ -46,7 +82,7 @@ TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
 
 - `@Controller` 在展现层使用，控制器的声明（C）
 
-#### 2.注入bean的注解
+### 2.注入bean的注解
 
 > 都可以注解在set方法和属性上，推荐注解在属性上（一目了然，少写代码）。
 
@@ -57,7 +93,7 @@ TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
 - `@Resource` 由JSR-250提供
 
 
-#### 3.java配置类相关注解
+### 3.java配置类相关注解
 
 - `@Configuration` 声明当前类为配置类，相当于xml形式的Spring配置（类上）
 
@@ -69,7 +105,7 @@ TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
 
 - `@WishlyConfiguration` 为`@Configuration`与`@ComponentScan`的组合注解，可以替代这两个注解
 
-#### 4.切面（AOP）相关注解
+### 4.切面（AOP）相关注解
 
 > Spring支持AspectJ的注解式切面编程。
 
@@ -87,7 +123,7 @@ TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
 
 > 在java配置类中使用`@EnableAspectJAutoProxy`注解开启Spring对AspectJ代理的支持（类上）
 
-#### 5.@Bean的属性支持
+### 5.@Bean的属性支持
 
 - `@Scope` 设置Spring容器如何新建Bean实例（方法上，得有`@Bean`） ,其设置类型包括：
     - `Singleton` （单例,一个Spring容器中只有一个bean实例，默认模式）, 
@@ -102,7 +138,7 @@ TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
 
 - `@PreDestory` 由JSR-250提供，在Bean销毁之前执行，等价于xml配置文件中bean的destroyMethod
 
-#### 6.@Value注解
+### 6.@Value注解
 
 > `@Value` 为属性注入值（属性上）,支持如下方式的注入
 
@@ -135,25 +171,25 @@ book.name= test
 ```
 > ③ 还需配置一个`PropertySourcesPlaceholderConfigurer`的bean。
 
-#### 7.环境切换
+### 7.环境切换
 
 - `@Profile` 通过设定Environment的ActiveProfiles来设定当前context需要使用的配置环境。（类或方法上）
 
 - `@Conditional` Spring4中可以使用此注解定义条件话的bean，通过实现Condition接口，并重写matches方法，从而决定该bean是否被实例化。（方法上）
 
-#### 8.异步相关
+### 8.异步相关
 
 > @EnableAsync 配置类中，通过此注解开启对异步任务的支持，叙事性AsyncConfigurer接口（类上）
 
 > @Async 在实际执行的bean方法使用该注解来申明其是一个异步任务（方法上或类上所有的方法都将异步，需要@EnableAsync开启异步任务）
 
-#### 9.定时任务相关
+### 9.定时任务相关
 
 - `@EnableScheduling` 在配置类上使用，开启计划任务的支持（类上）
 
 - `@Scheduled` 来申明这是一个任务，包括cron,fixDelay,fixRate等类型（方法上，需先开启计划任务的支持）
 
-#### 10.@Enable*注解说明
+### 10.@Enable*注解说明
 
 > 这些注解主要用来开启对xxx的支持。
 
@@ -175,7 +211,7 @@ book.name= test
 
 - `@EnableCaching` 开启注解式的缓存支持
 
-#### 11.测试相关注解
+### 11.测试相关注解
 
 - `@RunWith` 运行器，Spring中通常用于对JUnit的支持
 
@@ -185,7 +221,7 @@ book.name= test
 
 > `@ContextConfiguration(classes={TestConfig.class})`
 
-#### SpringMVC注解
+### SpringMVC注解
 
 - `@EnableWebMvc` 在配置类中开启Web MVC的配置支持，如一些ViewResolver或者MessageConverter等，若无此句，重写WebMvcConfigurerAdapter方法（用于对SpringMVC的配置）。
 
@@ -213,8 +249,6 @@ book.name= test
 
 
 ## Swagger2
-
-### 注解
 
 | 注解名称 | 注解属性 | 作用域 | 属性作用       |
 |----------|----------|--------|----------------|
