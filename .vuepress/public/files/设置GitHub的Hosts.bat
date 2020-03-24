@@ -52,7 +52,7 @@ if (Argv.length > 0) {
         case "1":
             autoStart("startup");
             break;
-        case "?","help":
+        case "?", "help":
         default:
             WScript.Echo("双击执行即可！");
     }
@@ -89,7 +89,8 @@ var githubDomain = [
     "raw.github.com",
     "status.github.com",
     "training.github.com",
-    "www.github.com"
+    "www.github.com",
+    "raw.githubusercontent.com"
 ]
 
 
@@ -102,7 +103,7 @@ for (var i = 0; i < hostsArray.length; i++) {
 }
 
 for (var i = 0; i < githubDomain.length; i++) {
-    var data = {"qtype": 1, "host": githubDomain[i], "qmode": -1};
+    var data = { "qtype": 1, "host": githubDomain[i], "qmode": -1 };
     var url = "https://myssl.com/api/v1/tools/dns_query";
     var json = request("GET", url, "json", data, null);
     if (json.code == 0 && (json.error == null || json.error == "")) {
@@ -118,6 +119,60 @@ for (var i = 0; i < githubDomain.length; i++) {
         }
     }
 }
+
+// for (var i = 0; i < githubDomain.length; i++) {
+//     var data = { "server": "8.8.8.8", "rrtype": "A", "domain": githubDomain[i] };
+//     var url = "https://shorttimemail.com/net/dns/query";
+//     var json = request("GET", url, "json", data, null);
+//     if (json.code == 0 && json.msg == "ok") {
+//         var resultData = json.data;
+//         if (resultData.length == 0) {
+//             continue;
+//         }
+//         for (var j = 0; j < resultData.length; j++) {
+//             newHosts.push(resultData[j] + " " + githubDomain[i]);
+//         }
+//     }
+// }
+
+// for (var i = 0; i < githubDomain.length; i++) {
+//     // 获取token
+//     var html = request("GET", "http://tool.chinaz.com/dns?type=1&host=" + githubDomain[i], "text", null, null);
+//     var servers = new RegExp("var servers = (.*)", "ig").exec(html);
+//     var sjson = eval("(" + servers + ")");
+//     for (var j = 0; j < sjson.length; j++) {
+//         // 获取DNS
+//         var data = { "host": githubDomain[i], "type": 1, "total": 10, "process": 0, "right": 0 };
+//         var url = "http://tool.chinaz.com/AjaxSeo.aspx?t=dns&server=" + sjson.ip + "&id=" + sjson.id;
+//         var dnsJson = eval(request("POST", url, "text", data, null));
+//         for (var k = 0; k < dnsJson.list.length; k++) {
+//             newHosts.push(dnsJson.list[k].result + " " + githubDomain[i]);
+//         }
+//     }
+// }
+
+// for (var i = 0; i < githubDomain.length; i++) {
+//     // 获取token
+//     var member = request("GET", "https://www.dns.com/member", "json", null, null);
+//     if (member.code == 1 && msg == "") {
+//         // 获取IP和host
+//         var getIp = request("POST", "https://www.dns.com/getIp?_token=" + member.data.tk, "json", null, null);
+//         if (getIp.code == 1) {
+//             // 查询DNS
+//             var data = { "host": getIp.data.host, "url": githubDomain[i], "_token": member.data.tk };
+//             var getDns = request("POST", "https://www.dns.com/getDns", "json", data, null);
+//             if (getDns.code == 1) {
+//                 for (var j = 0; j < resultData.length; j++) {
+//                     newHosts.push(getDns.data.userip + " " + githubDomain[i]);
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// https://www.boce.com/tool
+
+// https://tools.ipip.net/dns.php
 
 hostsObject = fso.OpenTextFile(hostsPath, 2, true);
 hostsObject.Write(newHosts.join("\r\n"));
