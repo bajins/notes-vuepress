@@ -474,9 +474,9 @@ git config --global --unset http.proxy
 
 
 
-## 批量更新本地项目
+## 批量同步项目
 
-### Windows
+**Windows**
 
 ```batch
 @echo off
@@ -499,7 +499,7 @@ for /f "delims=" %%i in ('dir /ad/b') do (
 pause
 ```
 
-### Linux
+**Linux**
 
 ```bash
 #!/bin/bash
@@ -548,8 +548,20 @@ readdir $(pwd)
 
 * [https://github.com/gitblit/gitblit](https://github.com/gitblit/gitblit)
 
+**Gogs**
 
-### GitLab
+* [https://github.com/gogs/gogs](https://github.com/gogs/gogs) [Gogs官方文档](https://gogs.io)
+* [Gogs-DockerHub](https://hub.docker.com/r/gogs/gogs)
+* [安装教程](https://www.jianshu.com/p/86c385682ac8)
+
+
+**Gitea**
+
+* [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea) [Gitea官方文档](https://gitea.io/zh-cn)
+* [Gitea-DockerHub](https://hub.docker.com/r/gitea/gitea)
+
+
+**GitLab**
 
 * [https://gitlab.com/xhang/gitlab/wikis/home](https://gitlab.com/xhang/gitlab/wikis/home)
 * [GitLab Community Edition (中文社区版)](https://github.com/twang2218/gitlab-ce-zh)
@@ -601,27 +613,12 @@ volumes:
 ```
 
 
-### Gogs
-
-* [https://github.com/gogs/gogs](https://github.com/gogs/gogs) [Gogs官方文档](https://gogs.io)
-* [Gogs-DockerHub](https://hub.docker.com/r/gogs/gogs)
-* [安装教程](https://www.jianshu.com/p/86c385682ac8)
-
-
-
-### Gitea
-
-* [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea) [Gitea官方文档](https://gitea.io/zh-cn)
-* [Gitea-DockerHub](https://hub.docker.com/r/gitea/gitea)
-
-
-
 
 ## GitHub
 
 * [https://github.com/probot/probot](https://github.com/probot/probot)
 * [https://help.github.com/cn](https://help.github.com/cn)
-
+* 发布成功之后`github pages`的`Custom domain`配置项就被清空：[github-pages-basics](http://wiki.jikexueyuan.com/project/github-pages-basics/cname-file.html)
 
 ### 访问速度过慢
 
@@ -687,19 +684,9 @@ sudo /etc/init.d/dns-clean start
 > 或者生成新的个人访问令牌（PERSONAL_TOKEN）[https://github.com/settings/tokens/new](https://github.com/settings/tokens/new)
 
 
-
 * [https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=deploy-to-github-pages](https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=deploy-to-github-pages)
 * [https://github.com/sdras/awesome-actions](https://github.com/sdras/awesome-actions)
 * [https://github.com/peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
 * [https://github.com/JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action)
 * [https://github.com/actions/create-release](https://github.com/actions/create-release)
 * [https://github.com/actions/upload-release-asset](https://github.com/actions/upload-release-asset)
-
-
-
-### CustomDomain被清空
-
-> 发布成功之后github pages的Custom domain配置项就被清空
-
-[github-pages-basics](http://wiki.jikexueyuan.com/project/github-pages-basics/cname-file.html)
-
