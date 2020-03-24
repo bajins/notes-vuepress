@@ -593,18 +593,6 @@ find 目录 -type f -size 大小 | xargs -n 1 rm -rf
 
 
 
-
-## 设置文件格式
-
-```bash
-# 显示格式。
-:set ff
-# 设置为unix格式
-:set ff=unix
-# 保存
-:wq
-```
-
 ## 列出文件
 
 ```bash
