@@ -107,6 +107,28 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * [https://cdn.baomitu.com](https://cdn.baomitu.com)
 
 
+## 正则表达式
+
+- `exec`是正则表达式的方法，参数是字符串
+- `match`字符串的方法，参数是正则表达
+
+1. 当正则表达式无子表达式，并且定义为非全局匹配时：exec和match执行的结果是一样，均返回第一个匹配的字符串内容；
+2. 当正则表达式无子表达式，并且定义为全局匹配时：exec和match执行，做存在多处匹配内容，则match返回的是多个元素数组；
+3. 当正则表达式有子表示时，并且定义为非全局匹配：exec和match执行的结果是一样返回多个匹配内容数组；
+4. 当正则表达式有子表示时，并且定义为全局匹配：exec和match执行的结果不一样，此时match将忽略子表达式，只查找全匹配正则表达式并返回所有内容；
+
+> 也就说，exec与全局是否定义无关系，而match则于全局相关联，当定义为非全局，两者执行结果相同；
+> exec没有匹配返回null，匹配有子表达式返回匹配结果数组下标0值为所有表达式结果，其他下标为子表达式的匹配
+
+```js
+var str = `test https://www.bajins.com`; 
+console.log(new RegExp("var servers = (.*)","ig").exec(str));
+console.log(str.match(new RegExp("var servers = (.*)","ig")));
+console.log(new RegExp("test(.*)","ig").exec(str));
+console.log(str.match(new RegExp("test(.*)","ig")));
+```
+
+
 ## Http
 
 * [flyio](https://wendux.github.io/dist/#/doc/flyio/readme)
