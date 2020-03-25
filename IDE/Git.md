@@ -598,9 +598,13 @@ sudo /etc/init.d/dns-clean start
 * [https://github.com/RC1844/FastGithub](https://github.com/RC1844/FastGithub)
 * [https://subdomainfinder.c99.nl](https://subdomainfinder.c99.nl) 搜索框输入`workers.dev`点击`Start Scan`，再按<kbd>Ctrl</kbd> + <kbd>f</kbd> 输入`github`
 
-> 替换`github.com`为`github.com.cnpmjs.org`、`jlytgs.com/github_`、`github.dyf62976.workers.dev`、`github.wuyanzheshui.workers.dev`、`github.hsmw.workers.dev`、`github.reycn.workers.dev`
-
-> `ws.codeku.me` 替换 `codeload.github.com`
+- 替换`github.com`为
+  - `github.com.cnpmjs.org`
+  - `jlytgs.com/github_`
+  - `github.dyf62976.workers.dev`
+  - `github.wuyanzheshui.workers.dev`
+  - `github.hsmw.workers.dev`
+  - `github.reycn.workers.dev`
 
 * [https://cdn.jsdelivr.net/gh](https://cdn.jsdelivr.net/gh)
 
