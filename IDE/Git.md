@@ -19,6 +19,11 @@
 * [Git 常用命令及使用详解 - 喵斯基部落](https://www.moewah.com/archives/2292.html)
 * [Pro Git 中文版（第二版）](https://progit.bootcss.com)
 
+---
+
+* [git-pull.bat](/files/git-pull.bat)
+* [git-pull.sh](/files/git-pull.sh)
+
 
 
 
@@ -473,77 +478,6 @@ git config --global --unset http.proxy
 
 
 
-
-## 批量同步项目
-
-**Windows**
-
-```batch
-@echo off
-:: 遍历当前目录下的子目录
-for /f "delims=" %%i in ('dir /ad/b') do (
-    :: 切换到子目录
-    cd %%i
-    :: 判断文件夹是否存在
-    if exist ".git" (
-        :: 列出远程仓库地址
-        git remote -v
-        echo ******** 开始更新 %%i **********
-        :: 更新
-        git pull
-        echo -----------------------------------------------------------
-    )
-    cd ..
-)
-
-pause
-```
-
-**Linux**
-
-```bash
-#!/bin/bash
-function readdir() {
-    # awk中有RS,ORS,FS,OFS 4个可以定义分隔符的变量
-    # 保存原有的IFS（内部域分隔符）
-    SAVEIFS=$IFS
-    # 设置带有空格的文件名的处理方式
-    IFS=$(echo -en "\n\b")
-    # 切换到指定目录
-    cd $*
-    # 循环参数中指定目录的子目录
-    for file in $(ls -F | grep /$); do
-        # 切换到子目录
-        cd $file
-        # 设置执行结果变量
-        dir_variable=$?
-        # 如果切换到子目录失败
-        if [ "$dir_variable" != "0" ]; then
-            echo $dir_variable
-            echo $*$file
-        fi
-        # 判断是否是git项目
-        if [ -d ".git" ]; then
-            # 列出git远端仓库路径
-            git remote -v
-            echo 开始更新： $file
-            git pull
-            echo -----------------------------------------------------------
-        fi
-        cd ..
-        # 循环当前子目录下的子目录
-        #readdir $1$file
-    done
-    # 恢复原有的IFS
-    IFS=$SAVEIFS
-}
-# 调用shell函数并传参
-readdir $(pwd)
-
-```
-
-
-
 ## Git服务器
 
 * [https://github.com/gitblit/gitblit](https://github.com/gitblit/gitblit)
@@ -660,7 +594,13 @@ sudo /etc/init.d/dns-clean start
 
 **克隆代理地址**
 
-> 替换`github.com`为`github.com.cnpmjs.org`
+* [https://github.com/BaseMax/GitHubMirror](https://github.com/BaseMax/GitHubMirror)
+* [https://github.com/RC1844/FastGithub](https://github.com/RC1844/FastGithub)
+* [https://subdomainfinder.c99.nl](https://subdomainfinder.c99.nl) 搜索框输入`workers.dev`点击`Start Scan`，再按<kbd>Ctrl</kbd> + <kbd>f</kbd> 输入`github`
+
+> 替换`github.com`为`github.com.cnpmjs.org`、`jlytgs.com/github_`、`github.dyf62976.workers.dev`、`github.wuyanzheshui.workers.dev`、`github.hsmw.workers.dev`、`github.reycn.workers.dev`
+
+> `ws.codeku.me` 替换 `codeload.github.com`
 
 * [https://cdn.jsdelivr.net/gh](https://cdn.jsdelivr.net/gh)
 
