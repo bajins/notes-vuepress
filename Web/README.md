@@ -43,12 +43,10 @@
 
 * [静态编译VuePress](https://github.com/vuejs/vuepress)
 [VuePress主题](https://github.com/search?o=desc&q=vuepress-theme&s=updated&type=Repositories)
-
 * [静态编译NuxtJs](https://github.com/nuxt/nuxt.js)
 * [静态编译Hexo](https://github.com/hexojs/hexo)
 * [运行时驱动Docsify](https://github.com/docsifyjs/docsify)
 [https://github.com/docsifyjs/awesome-docsify](https://github.com/docsifyjs/awesome-docsify)
-
 * [静态编译Docsite](https://github.com/txd-team/docsite)
 * [https://github.com/docpress/docpress](https://github.com/docpress/docpress)
 * [运行时驱动Docute](https://github.com/egoist/docute)
