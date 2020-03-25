@@ -374,6 +374,26 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 6NCGF-GQQ2F-H83HF-9DWMY-92GTG
 ```
 
+**wps key**
+
+```
+# 2019密钥
+694BF-YUDBG-EAR69-BPRGB-ATQXH
+FLHAP-TEUGA-9MA3A-3TY3Q-V9EPD
+R7AKQ-KLBXV-RNX3F-BPACQ-NQDGE
+
+# 2016密钥
+9DP6T-9AGWG-KWV33-9MPC8-JDCVF
+7G2HE-JR8KL-ABB9D-Y7789-GLNFL
+U2PWU-H7D9H-69T3B-JEYC2-3R2NG
+R8R8P-MTT6F-KLRPM-J7CAB-PJM8C
+A4XV7-QP9JN-E7FCB-VQFRD-4NLKC
+U272H-HH2F6-WDG36-ULUPX-PCHTJ
+7LR67-WTXPA-KLUHV-GEK2E-QW4CK
+EUYTH-3KWKL-PJMX7-XBCPW-9U2DD
+THUV2-32HH7-6NMHN-PTX7Y-QQCTH
+```
+
 
 ## 系统相关
 
@@ -502,6 +522,9 @@ MK7WR-D4TPC-VXHGP-P6TKG-RQT6D
 * [https://kms.cangshui.net](https://kms.cangshui.net)
 * [https://kms.loli.beer](https://kms.loli.beer)
 * [https://www.moerats.com/kms](https://www.moerats.com/kms)
+* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4/)
+
+
 
 
 **数字激活**
