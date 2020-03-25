@@ -38,6 +38,9 @@
 * [https://github.com/topics/static-site](https://github.com/topics/static-site)
 * [https://github.com/topics/blog-engine](https://github.com/topics/blog-engine)
 * [https://github.com/topics/static-blog](https://github.com/topics/static-blog)
+* [不蒜子文章统计](http://busuanzi.ibruce.info)
+[https://www.npmjs.com/search?q=keywords:busuanzi](https://www.npmjs.com/search?q=keywords:busuanzi)
+
 
 ---
 
