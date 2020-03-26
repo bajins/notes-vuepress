@@ -14,6 +14,8 @@
 [https://gomirrors.org](https://gomirrors.org)
 [https://www.godoc.org](https://www.godoc.org)
 
+---
+
 * [Go 语言文档中文翻译](https://github.com/Go-zh/go)
 * [Go 标准库中文文档](https://github.com/huangz1990/cngolib.com)
 * [https://github.com/taigacute/GoDoc-CN](https://github.com/taigacute/GoDoc-CN)

@@ -315,6 +315,7 @@ request({
 ## VueJS
 
 * [https://github.com/vuejs/vue](https://github.com/vuejs/vue) [https://cn.vuejs.org](https://cn.vuejs.org)
+* [vue学习笔记](https://www.rumosky.wiki/docs/vue_learning_process)
 
 ![](/images/vue生命周期详解.png)
 

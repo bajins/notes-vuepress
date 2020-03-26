@@ -196,6 +196,7 @@
 * [https://github.com/mayswind/AriaNg](https://github.com/mayswind/AriaNg)
 * [https://github.com/persepolisdm/persepolis](https://github.com/persepolisdm/persepolis)
 * [https://github.com/P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf)
+* [https://github.com/boypt/simple-torrent](https://github.com/boypt/simple-torrent)
 
 
 **Internet Download Manager**
