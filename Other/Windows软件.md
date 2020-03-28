@@ -22,6 +22,7 @@
 
 * [CRACKSurl](http://cracksurl.com)
 * [QiuQuan's Blog](http://www.qiuquan.cc)
+* [mefcl - 学习▪分享](http://mefcl.com)
 * [th_sjy](http://www.th-sjy.com)
 * [v5pc](http://www.v5pc.com/category/syrj)
 * [大眼仔旭](http://www.dayanzai.me)
@@ -55,11 +56,12 @@
 
 **论坛**
 
-* [JIKE](https://jike.info/recent?filter=new)
+* [JIKE](https://jike.info/recent)
 * [睿派克技术论坛](https://www.repaik.com)
 * [52破解](https://www.52pojie.cn)
 * [hwh0488-远景论坛](http://i.pcbeta.com/home.php?mod=space&uid=2521016&do=thread&view=me&from=space)
 * [风之暇想-52破解](https://www.52pojie.cn/home.php?mod=space&uid=243467&do=thread&view=me&from=space)
+* [风铃夜思雨](http://teach.hanzify.org/author/19016.html)
 
 
 **Telegram**
@@ -363,17 +365,6 @@
 * [https://zh-cn.libreoffice.org](https://zh-cn.libreoffice.org)
 * [https://github.com/YerongAI/Office-Tool](https://github.com/YerongAI/Office-Tool)
 
-**office key**
-
-```
-# OFFICE 2019 专业增强版激活码
-W8W6K-3N7KK-PXB9H-8TD8W-BWTH9
-
-# Office19_RTM19_ProPlus2019VL_MAK_AE
-GP3YN-RPX2T-FVYT8-4TPFY-7MKG3
-N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
-6NCGF-GQQ2F-H83HF-9DWMY-92GTG
-```
 
 **wps key**
 
@@ -381,7 +372,6 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 # 2019密钥
 694BF-YUDBG-EAR69-BPRGB-ATQXH
 FLHAP-TEUGA-9MA3A-3TY3Q-V9EPD
-R7AKQ-KLBXV-RNX3F-BPACQ-NQDGE
 
 # 2016密钥
 9DP6T-9AGWG-KWV33-9MPC8-JDCVF
@@ -401,7 +391,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH
 > 打开后，随便点一个进程右键，查看-查看进程热键-再右键-显示所有进程热键
 
 
-**MSDN**
+### MSDN
                                                                   
 * [http://msdn.itellyou.cn](http://msdn.itellyou.cn)
 * [https://www.iruanmi.com/msdn](https://www.iruanmi.com/msdn)
@@ -409,7 +399,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH
 * [https://uup.rg-adguard.net](https://uup.rg-adguard.net)
 * [https://www.repaik.com/win.html](https://www.repaik.com/win.html)
 
-**绿色精简**
+### 绿色精简
                                                  
 * [WINOS ](https://www.winos.me)
 * [绿色系统](http://lvsexitong.com)
@@ -429,18 +419,41 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH
 * [优启时代](http://www.uqi.me/catalog.asp?cate=1)
 
 
-### Windows激活
-
-> 网页激活（电话激活）当弹出安装ID时，鼠标左键点击弹出的窗口，按<kbd>Ctrl</kbd> + <kbd>C</kbd>复制，并粘贴到在线获取确认ID网站：
-> [http://webact.185.hk](http://webact.185.hk)的页面中；
 
 
-**密钥命令**
+## MS相关激活
 
-- `slmgr -ipk 密钥` 安装产品密钥
-- `slmgr -upk` 卸载密钥
-- `slmgr -ato` 激活密钥
+> 在PowerShell（也可在CMD）中输入命令运行`slmgr.vbs /dti`，按<kbd>Ctrl</kbd> + <kbd>C</kbd>复制，
+> 并粘贴到在线获取确认ID网站：[http://webact.185.hk](http://webact.185.hk)
+
+> 使用命令有两种方式：第一种：按<kbd>Win</kbd> + <kbd>x</kbd> + <kbd>a</kbd>进入PowerShell（也可在CMD中）输入命令运行；
+> 第二种：按<kbd>Win</kbd> + <kbd>r</kbd>输入命令运行，如`slmgr.vbs /dti`，此方式必须有`.vbs`后缀，（推荐使用第一种方式）
+
+
+**Windows命令**
+
 - `systeminfo` 系统信息
+- `slui 4` 调出电话激活窗口
+- `slmgr.vbs /ipk 密钥` 安装产品密钥
+- `slmgr.vbs /upk` 卸载密钥
+- `slmgr.vbs /ato` 激活密钥
+- `slmgr.vbs /dti` 显示安装ID
+- `slmgr.vbs /atp 确认ID` 输入确认ID（注意这里的ID没有`-`符号）
+- `slmgr.vbs /dlv` 显示详细的许可证信息
+- `slmgr.vbs /xpr` 当前许可证状态的截止日期
+
+
+**Office命令**
+
+> 在PowerShell（也可在CMD）中输入命令运行并切换到office安装目录
+> `cd "C:\Program Files (x86)\Microsoft Office\Office16"`，如果安装的64位去掉` (x86)`
+
+- `cscript ospp.vbs /inpkey:密钥` 安装产品密钥
+- `cscript ospp.vbs /unpkey:密钥最后五位` 卸载密钥
+- `cscript ospp.vbs /dinstid` 显示安装ID
+- `cscript ospp.vbs /actcid:确认ID` 输入确认ID（注意这里的ID没有`-`符号）
+- `cscript ospp.vbs /act` 在线激活
+- `cscript ospp.vbs /dstatus` 验证激活
 
 
 **错误代码**
@@ -452,56 +465,27 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH
 - `0x80072EE2` 因网络阻塞导致错误,稍等10分钟再重试
 
 
+**office key**
+
+```
+# OFFICE 2019 专业增强版激活码
+W8W6K-3N7KK-PXB9H-8TD8W-BWTH9
+
+# Office19_RTM19_ProPlus2019VL_MAK_AE
+GP3YN-RPX2T-FVYT8-4TPFY-7MKG3
+N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
+6NCGF-GQQ2F-H83HF-9DWMY-92GTG
+```
+
+
 **Windows Key**
 
-* [https://cherishspring.cn/s/share-key](https://cherishspring.cn/s/share-key)
+* [https://cherishspring.cn/s/key](https://cherishspring.cn/s/key)
 * [https://notys.xyz](https://notys.xyz)
 * [https://cherishspring.cn/pidkey.html](https://cherishspring.cn/pidkey.html)
 * [https://jihuo.ma/tool](https://jihuo.ma/tool)
 * [http://www.aihao.cc](http://www.aihao.cc)
 
-
-```
-# Windows 10 LTSC 2019在线激活密钥
-R36G9-PNG8F-Q39HJ-YMF9X-QV8R2
-93MGM-NTFKD-6BK63-R6FYR-6Q9PB
-7KK6K-4NDVV-HTVGG-QDVQC-3YJWX
-
-# Windows 10 pro
-NX97R-FPXYV-TM9RD-498KX-GJF9M
-
-# Windows 10专业版
-P3WMP-6GKFC-KRCC6-8VWPP-XWGMG
-KVN8D-W32H3-V4T64-TG9T2-3YH3B
-PHMBN-X7CQX-KRYM2-QKXKR-W8D3Q
-BJJNQ-9Q3HP-8JPBM-3FB6K-XKXTY
-GNXTX-RQ474-MHF83-DJ8W2-2DKTY
-WKN4D-3HRWF-KG4B2-TCBX2-YKMQB
-YNVH3-HR7TD-J9Y8W-FDH7P-9QBQB
-DJVN7-8KGBD-VW9XF-QXWPD-2WF9M
-KVN8D-W32H3-V4T64-TG9T2-3YH3B
-BJJNQ-9Q3HP-8JPBM-3FB6K-XKXTY
-DJVN7-8KGBD-VW9XF-QXWPD-2WF9M
-GNXTX-RQ474-MHF83-DJ8W2-2DKTY
-PRBXN-7PB37-F47KD-23936-MKMQB
-WKN4D-3HRWF-KG4B2-TCBX2-YKMQB
-X27NJ-YWCDP-WCRX8-CRVT2-XTPKM
-YNVH3-HR7TD-J9Y8W-FDH7P-9QBQB
-JX4XR-N97MV-RQT2J-J4BDV-R9DFD
-JRNDM-HGW9B-KKBHW-93WFX-9HKYX
-FJWDV-NP7KP-V9MTF-MKXG7-2RYRC
-
-# Windows 10企业
-H8PDJ-H4NKW-3GKH7-YHKJ7-4C2JR
-8T3TN-H9RCK-99WWM-GXWQM-7MH2F
-M7XM2-97NMJ-RQGMK-XMPFC-W2QF4
-N8J24-KPRHR-36YGP-MFJFB-B4G44
-VNP6Y-J98PW-BJ2KF-6238X-HCFCF
-
-# Windows 10 家庭版
-HCNDT-8RYVG-WQY4F-RM4PK-2YQH2
-MK7WR-D4TPC-VXHGP-P6TKG-RQT6D
-```
 
 
 **KMS**
