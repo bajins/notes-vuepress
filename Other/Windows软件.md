@@ -485,7 +485,7 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 * [https://cherishspring.cn/pidkey.html](https://cherishspring.cn/pidkey.html)
 * [https://jihuo.ma/tool](https://jihuo.ma/tool)
 * [http://www.aihao.cc](http://www.aihao.cc)
-
+* [https://jike.info/category/16/账号密钥](https://jike.info/category/16/%E8%B4%A6%E5%8F%B7%E5%AF%86%E9%92%A5)
 
 
 **KMS**
