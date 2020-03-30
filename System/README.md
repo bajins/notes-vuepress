@@ -352,7 +352,12 @@ Swap:            0B          0B          0B
 
 ### PAC
 
+* [https://github.com/JinnLynn/genpac](https://github.com/JinnLynn/genpac)
 * [https://github.com/lbp0200/mono_pac](https://github.com/lbp0200/mono_pac)
-* [https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt](https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt)
+* [https://github.com/gfwlist](https://github.com/gfwlist)
+* [https://github.com/Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
+* [https://github.com/Loukky/gfwlist-by-loukky](https://github.com/Loukky/gfwlist-by-loukky)
+* [https://github.com/cdlaimin/gfwlist2pac](https://github.com/cdlaimin/gfwlist2pac)
+* [https://github.com/petronny/gfwlist2pac](https://github.com/petronny/gfwlist2pac)
 * [https://github.com/ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
 

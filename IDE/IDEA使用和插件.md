@@ -8,6 +8,8 @@
 
 ## flag
 
+* [教育邮箱免费申请JetBrains教育许可证](https://mp.weixin.qq.com/s/XFoOBeTaBwBAsRgadxMLfQ)
+
 * [IntelliJ IDEA神器使用技巧](https://www.imooc.com/learn/924)
 
 <details>
