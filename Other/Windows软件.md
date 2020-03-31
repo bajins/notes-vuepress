@@ -239,7 +239,7 @@
 ## 图片
 
 * [Google开发的图片压缩工具](https://github.com/GoogleChromeLabs/squoosh)
-
+* [https://github.com/netnr/squoosh](https://github.com/netnr/squoosh)
 
 ### Gif软件
 
@@ -498,6 +498,7 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 * [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
 * [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
 * [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
+* [https://github.com/netnr/kms](https://github.com/netnr/kms)
 
 ---
 

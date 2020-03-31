@@ -22,6 +22,9 @@
 * [https://github.com/topics/cloudflare-workers](https://github.com/topics/cloudflare-workers)
 * [https://github.com/Siujoeng-Lau/Workers-Proxy](https://github.com/Siujoeng-Lau/Workers-Proxy)
 * [Cloudflare Workers 创建自定义域名的项目](https://blog.16lab.io/workers-custom-domain)
+* [https://github.com/EtherDream/jsproxy](https://github.com/EtherDream/jsproxy)
+* [https://github.com/netnr/workers](https://github.com/netnr/workers)
+* [https://github.com/aploium/zmirror](https://github.com/aploium/zmirror)
 
 
 ---

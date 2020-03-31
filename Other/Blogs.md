@@ -33,6 +33,8 @@
 * [归档 | StarryLand](https://rollingstarky.github.io/archives)
 * [zgao&#39;s blog – 一个搞渗透的student](https://zgao.top)
 * [https://www.dazhuanlan.com](https://www.dazhuanlan.com)
+* [归档 - 憶の年](https://www.529i.com/archives.html)
+* [友链links - 倾心博客](https://www.qxwlmz.cn/links.html)
 
 
 
@@ -69,7 +71,7 @@
 * [文章归档 - 拧螺丝的博客](https://justlei.cn/archives)
 * [https://www.baeldung.com](https://www.baeldung.com)
 * [归档 | gentlezuo的博客](https://gentlezuo.github.io/archives)
-
+* [归档集 -  我爱吃土豆](https://itudo.cn/archives.html)
 
 
 
