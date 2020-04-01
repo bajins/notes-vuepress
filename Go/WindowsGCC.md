@@ -25,7 +25,7 @@
 
 
 
-## `MinGW-w64`
+## MinGW-w64
 
 > `MinGW`的全称是：`Minimalist GNU on Windows` 。它实际上是将经典的开源`C`语言编译器`GCC`移植到了`Windows`平台下，
 > 并且包含了`Win32API`，因此可以将源代码编译为可在`Windows`中运行的可执行程序。
@@ -54,7 +54,7 @@
 
 
 
-### `MinGW-w64`下载
+### MinGW-w64下载
 
 * [mingw-w64-release](https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/#readme)
 * [mingw-w64-release](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/#readme)
@@ -94,7 +94,7 @@
 
 
 
-### `MinGW-w64`安装
+### MinGW-w64安装
 
 1. 如操作系统是`Windows10-X64`并为`posix`接口协议开发程序，则选择：`x86_64-posix-seh`
 
@@ -111,47 +111,16 @@ set PATH
 ```
 
 
-
-### `MinGW-w64`命令
-
-- 查看版本
+**查看版本**
 
 ```batch
-gcc -v
-```
-
-- 预处理
-
-```batch
-g++ -E test.cpp -o test.i
-```
-
-- 编译
-
-```batch
-g++ -S test.cpp -o test.s
-# 或者
-g++ -O2 -S test.cpp -o test.s
-```
-
-- 汇编
-
-```batch
-g++ -c test.s -o test.o
-```
-
-- 链接
-
-```batch
-g++ test.o -o test.exe [-L 所需库文件路径]
-# 或者
-g++ test.cpp -o test.exe
+gcc -v && g++ -v
 ```
 
 
 
 
-## `MSYS2`
+## MSYS2
 
 > `MSYS`是用于辅助`Windows`版`MinGW`进行命令行开发的配套软件包，提供了部分`Unix`工具以使得`MinGW`的工具使用起来方便一些。
 > 如果不喜欢庞大的`Cygwin`，而且使用不多，可以试试。不过喜欢完整体验、不在乎磁盘占用等等，还是推荐`Cygwin`而不是`MSYS`。
@@ -181,7 +150,7 @@ g++ test.cpp -o test.exe
 * [中国科学技术大学MSYS2镜像](http://mirrors.ustc.edu.cn/help/msys2.html)
 
 
-### `MSYS2`命令
+### MSYS2命令
 
 - `pacman -S <packge-name>` 安装软件
 
