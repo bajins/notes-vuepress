@@ -7,6 +7,7 @@
 
 ## flag
 
+* [第三方针对各种不同系统制作的GCC安装包](http://gcc.gnu.org/install/binaries.html)
 * [http://www.cygwin.com](http://www.cygwin.com)
 * [https://github.com/abbodi1406/vcredist](https://github.com/abbodi1406/vcredist)
 
@@ -24,8 +25,6 @@
 
 
 ## `MinGW-w64`
-
-* [http://rsreland.net/archives/1760](http://rsreland.net/archives/1760)
 
 > `MinGW`的全称是：`Minimalist GNU on Windows` 。它实际上是将经典的开源`C`语言编译器`GCC`移植到了`Windows`平台下，
 > 并且包含了`Win32API`，因此可以将源代码编译为可在`Windows`中运行的可执行程序。
