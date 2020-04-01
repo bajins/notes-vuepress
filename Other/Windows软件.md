@@ -338,15 +338,20 @@
 [InnoSetup中文定制版](http://blog.sina.com.cn/s/blog_89a729a40102xuy4.html)
 
 
+### AutoIt
+
+* [AutoIt v3 官方主页](http://www.autoitscript.com/autoit3)
+* [AutoIt v3 中文论坛](https://www.autoitx.com)
+* [Au3编程学习](https://www.itsk.com/forum-au3-1.html)
+
+
 ### NSIS
 
 * [https://sourceforge.net/projects/nsis](https://sourceforge.net/projects/nsis)
 * [https://nsis.sourceforge.io/Category:Plugins](https://nsis.sourceforge.io/Category:Plugins)
 * [NSIS中文论坛](http://www.nsisfans.com)
-
 * [https://sourceforge.net/projects/hmne](https://sourceforge.net/projects/hmne)
 * [http://hmne.sourceforge.net](http://hmne.sourceforge.net)
-
 * 基于NSIS工具自定义XML漂亮UI打包工具：[https://github.com/woytu/NSIS_SetupSkin](https://github.com/woytu/NSIS_SetupSkin)
 
 
@@ -356,6 +361,7 @@
 [7-ZIP SFX Maker v3.3 完整汉化版](https://www.52pojie.cn/thread-1133336-1-1.html)
 [7-ZIP SFX Maker v3.3 完美汉化版](https://www.52pojie.cn/thread-1136281-1-1.html)
 * [https://sourceforge.net/projects/s-zipsfxbuilder](https://sourceforge.net/projects/s-zipsfxbuilder)
+
 
 
 

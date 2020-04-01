@@ -8,7 +8,18 @@
 ## flag
 
 * [http://www.cygwin.com](http://www.cygwin.com)
-* [https://github.com/lukesampson/scoop](https://github.com/lukesampson/scoop)
+* [https://github.com/abbodi1406/vcredist](https://github.com/abbodi1406/vcredist)
+
+**C语言的编译器有很多种，不同的平台下有不同的编译器**
+
+* [主流C语言编译器有哪些？](http://c.biancheng.net/view/144.html)
+
+- Windows 下常用的是微软开发的 Visual C++，它被集成在 Visual Studio 中，一般不单独使用；
+- Linux 下常用的是 GUN 组织开发的 GCC，很多 Linux 发行版都自带 GCC；
+- Mac 下常用的是 LLVM/Clang，它被集成在 Xcode 中（Xcode 以前集成的是 GCC，后来由于 GCC 的不配合才改为 LLVM/Clang，LLVM/Clang 的性能比 GCC 更加强大）。
+
+> Visual C++（简称 MSVC）是由微软开发的，只能用于 Windows 操作系统；GCC 和 LLVM Clang 除了可用于 Windows 操作系统之外，主要用于 Unix/Linux 操作系统。
+
 
 
 
@@ -163,8 +174,6 @@ g++ test.cpp -o test.exe
 
 > `MSYS2`不完全是基于`MinGW`的，至少其原生工具都是链接到自带的一套特定版本的`Cygwin DLL`的。
 > 基本上只是用`libalpm`管理`MSYS2`、`MinGW-w64`和`MinGW`三个不同子系统的软件包
-
-
 
 * [http://www.msys2.org](http://www.msys2.org)
 * [https://github.com/msys2](https://github.com/msys2)

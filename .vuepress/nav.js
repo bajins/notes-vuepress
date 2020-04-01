@@ -27,6 +27,10 @@ module.exports = [{
                     link: '/files'
                 },
                 {
+                    text: '书签锦集',
+                    link: '/Other/Bookmarks'
+                },
+                {
                     text: 'Markdown工具',
                     link: '/Other/Markdown#工具'
                 },
