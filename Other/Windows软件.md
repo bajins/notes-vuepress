@@ -437,6 +437,55 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH
 
 
 
+### 开始菜单
+
+* [https://github.com/coddec/Classic-Shell](https://github.com/coddec/Classic-Shell)
+
+
+**StartIsBack++**
+
+0. [https://eyun.baidu.com/s/3eTL5mMY](https://eyun.baidu.com/s/3eTL5mMY)密码：3131
+1. [https://www.lanzous.com/b279570](https://www.lanzous.com/b279570)
+2. [https://yunpan.360.cn/surl_ymKSxmH5PbY](https://yunpan.360.cn/surl_ymKSxmH5PbY)（提取码：298e）
+
+
+### 清理工具
+
+* [Win10Clean](https://github.com/ElPumpo/Win10Clean)
+* [Dism++](https://www.chuyu.me/zh-Hans/index.html)
+* [W10Privacy](https://www.winprivacy.de/deutsch-start/download)
+* [PCHunter](http://www.xuetr.com)
+* [Windows 10 Manager](https://www.yamicsoft.com/cn)
+
+> `WMXD7-RG8FP-OYKS3-KHTN6`
+
+* [https://www.crystalidea.com/uninstall-tool](https://www.crystalidea.com/uninstall-tool)
+
+
+
+## 剪贴板
+
+* [https://github.com/hluk/CopyQ](https://github.com/hluk/CopyQ)
+
+> 可设置<kbd>Win</kbd> + <kbd>v</kbd>快捷键
+
+* [https://www.clipboardfusion.com](https://www.clipboardfusion.com)
+* [https://clipber.com](https://clipber.com)
+* [https://ditto-cp.sourceforge.io](https://ditto-cp.sourceforge.io)
+* [http://ditto-cp.sourceforge.net](http://ditto-cp.sourceforge.net)
+* [https://www.nakka.com/soft/clcl/index_eng.html](https://www.nakka.com/soft/clcl/index_eng.html)
+* [https://github.com/Carson-Shook/Winclipper](https://github.com/Carson-Shook/Winclipper)
+* [https://ccyixia.com](https://ccyixia.com)
+* [https://www.52pojie.cn/thread-953460-1-1.html](https://www.52pojie.cn/thread-953460-1-1.html)
+* [http://1clipboard.io](http://1clipboard.io)
+
+---
+
+* [https://copiedapp.com](https://copiedapp.com)
+
+
+
+
 ## MS相关激活
 
 > 在PowerShell（也可在CMD）中输入命令运行`slmgr.vbs /dti`，按<kbd>Ctrl</kbd> + <kbd>C</kbd>复制，
@@ -536,53 +585,6 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 
 > 避免在vpn状态下使用本软件。激活前电脑必须联网，而且必须开启`Windows Update`服务，否则无法激活。
 
-
-
-### 开始菜单
-
-* [https://github.com/coddec/Classic-Shell](https://github.com/coddec/Classic-Shell)
-
-
-**StartIsBack++**
-
-0. [https://eyun.baidu.com/s/3eTL5mMY](https://eyun.baidu.com/s/3eTL5mMY)密码：3131
-1. [https://www.lanzous.com/b279570](https://www.lanzous.com/b279570)
-2. [https://yunpan.360.cn/surl_ymKSxmH5PbY](https://yunpan.360.cn/surl_ymKSxmH5PbY)（提取码：298e）
-
-
-### 清理工具
-
-* [Win10Clean](https://github.com/ElPumpo/Win10Clean)
-* [Dism++](https://www.chuyu.me/zh-Hans/index.html)
-* [W10Privacy](https://www.winprivacy.de/deutsch-start/download)
-* [PCHunter](http://www.xuetr.com)
-* [Windows 10 Manager](https://www.yamicsoft.com/cn)
-
-> `WMXD7-RG8FP-OYKS3-KHTN6`
-
-* [https://www.crystalidea.com/uninstall-tool](https://www.crystalidea.com/uninstall-tool)
-
-
-
-## 剪贴板
-
-* [https://github.com/hluk/CopyQ](https://github.com/hluk/CopyQ)
-
-> 可设置<kbd>Win</kbd> + <kbd>v</kbd>快捷键
-
-* [https://www.clipboardfusion.com](https://www.clipboardfusion.com)
-* [https://clipber.com](https://clipber.com)
-* [https://ditto-cp.sourceforge.io](https://ditto-cp.sourceforge.io)
-* [http://ditto-cp.sourceforge.net](http://ditto-cp.sourceforge.net)
-* [https://www.nakka.com/soft/clcl/index_eng.html](https://www.nakka.com/soft/clcl/index_eng.html)
-* [https://github.com/Carson-Shook/Winclipper](https://github.com/Carson-Shook/Winclipper)
-* [https://ccyixia.com](https://ccyixia.com)
-* [https://www.52pojie.cn/thread-953460-1-1.html](https://www.52pojie.cn/thread-953460-1-1.html)
-* [http://1clipboard.io](http://1clipboard.io)
-
----
-
-* [https://copiedapp.com](https://copiedapp.com)
 
 
 
