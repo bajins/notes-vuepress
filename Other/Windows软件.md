@@ -8,8 +8,6 @@
 
 ## flag
 
-> 【诚通网盘下载提示】：点击下载后，立马取消（就是点击浏览器左上角的`X`按钮停止访问），然后再次点击下载，可以提速好几倍
-
 * [https://git.io](https://git.io)
 * [http://potato.manre.me](http://potato.manre.me)
 * [https://signal.org](https://signal.org)
@@ -129,34 +127,18 @@
 
 ---
 
+> 【诚通网盘下载提示】：点击下载后，立马取消（就是点击浏览器左上角的`X`按钮停止访问），然后再次点击下载，可以提速好几倍
+
 * [网赚网盘下载辅助工具](http://www.oceancoder.cn/post/net-disk-download-helper.html)
 * [http://app.oceancoder.cn](http://app.oceancoder.cn)
-
-
-**百度网盘**
-
-* [BaiduPCS](https://github.com/search?o=desc&p=1&q=BaiduPCS&s=updated&type=Repositories)
-* [https://github.com/topics/baiduyun?o=desc&s=updated](https://github.com/topics/baiduyun?o=desc&s=updated)
-* [https://github.com/iikira/BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go)
-* [https://github.com/liuzhuoling2011/baidupcs-web](https://github.com/liuzhuoling2011/baidupcs-web)
-* [https://github.com/loliconer/baidupcs-mobile](https://github.com/loliconer/baidupcs-mobile)
-* [百度网盘直链下载助手](https://www.baiduyun.wiki)
-* [http://pandownload.com](http://pandownload.com)
-* [https://yixun.writeas.com](https://yixun.writeas.com)
-* [https://github.com/Kyle-Kyle/baidudl](https://github.com/Kyle-Kyle/baidudl)
-
-
-**蓝奏云**
-
-* [https://github.com/zaxtyson/LanZouCloud-API](https://github.com/zaxtyson/LanZouCloud-API)
-* [https://github.com/zaxtyson/LanZouCloud-CMD](https://github.com/zaxtyson/LanZouCloud-CMD)
-* [https://github.com/rachpt/lanzou-gui](https://github.com/rachpt/lanzou-gui)
-* [https://github.com/vcheckzen/LanzouCloudAPI](https://github.com/vcheckzen/LanzouCloudAPI)
 
 
 **Bit Torrent**
 
 * [https://baike.baidu.com/item/BitTorrent](https://baike.baidu.com/item/BitTorrent)
+
+> 特征码（该字符串，一般是40个字的一串字母和数字的组合）下载：打开BT下载工具（迅雷、快车、旋风、BitComet、BitTorrent、uTorrent等等），
+> 例如比特彗星，点击磁链，直接粘贴下载即可。如果使用迅雷的话还需要在特征码前面加上`magnet:?xt=urn:btih:`
 
 - `BT-Trackers`服务器地址
     * [https://github.com/XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection)
@@ -182,14 +164,6 @@
 [https://www.lanzous.com/b073c7g4f](https://www.lanzous.com/b073c7g4f)
 
 
-**迅雷**
-
-* [https://www.lanzous.com/b906590](https://www.lanzous.com/b906590)
-* [https://www.lanzous.com/b505936](https://www.lanzous.com/b505936)
-* [https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q](https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q)
-* [迅雷 X 去广告](https://tmr.js.org/categories/%E7%A0%B4%E8%A7%A3)
-
-
 **aria2**
 
 * [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
@@ -208,6 +182,36 @@
 2. [https://yunpan.360.cn/surl_ymsGF6zWGcP](https://yunpan.360.cn/surl_ymsGF6zWGcP)（提取码：805b）
 3. [https://www.lanzous.com/b0i6zkze](https://www.lanzous.com/b0i6zkze)
 
+
+**迅雷**
+
+> 由于总所周知的原因（大家都将迅雷叫吸血雷：只下载不上传），下载磁力、BitTorrent（比特流种子）、eMule（电驴）等请使用`Bit Torrent`工具
+
+* [https://www.lanzous.com/b906590](https://www.lanzous.com/b906590)
+* [https://www.lanzous.com/b505936](https://www.lanzous.com/b505936)
+* [https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q](https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q)
+* [迅雷 X 去广告](https://tmr.js.org/categories/%E7%A0%B4%E8%A7%A3)
+
+
+**百度网盘**
+
+* [BaiduPCS](https://github.com/search?o=desc&p=1&q=BaiduPCS&s=updated&type=Repositories)
+* [https://github.com/topics/baiduyun?o=desc&s=updated](https://github.com/topics/baiduyun?o=desc&s=updated)
+* [https://github.com/iikira/BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go)
+* [https://github.com/liuzhuoling2011/baidupcs-web](https://github.com/liuzhuoling2011/baidupcs-web)
+* [https://github.com/loliconer/baidupcs-mobile](https://github.com/loliconer/baidupcs-mobile)
+* [百度网盘直链下载助手](https://www.baiduyun.wiki)
+* [http://pandownload.com](http://pandownload.com)
+* [https://yixun.writeas.com](https://yixun.writeas.com)
+* [https://github.com/Kyle-Kyle/baidudl](https://github.com/Kyle-Kyle/baidudl)
+
+
+**蓝奏云**
+
+* [https://github.com/zaxtyson/LanZouCloud-API](https://github.com/zaxtyson/LanZouCloud-API)
+* [https://github.com/zaxtyson/LanZouCloud-CMD](https://github.com/zaxtyson/LanZouCloud-CMD)
+* [https://github.com/rachpt/lanzou-gui](https://github.com/rachpt/lanzou-gui)
+* [https://github.com/vcheckzen/LanzouCloudAPI](https://github.com/vcheckzen/LanzouCloudAPI)
 
 
 
