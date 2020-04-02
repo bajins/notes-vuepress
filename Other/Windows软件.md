@@ -185,7 +185,8 @@
 
 **迅雷**
 
-> 由于总所周知的原因（大家都将迅雷叫吸血雷：只下载不上传），下载磁力、BitTorrent（比特流种子）、eMule（电驴）等请使用`Bit Torrent`工具
+> 由于总所周知的原因（大家都将迅雷叫吸血雷：只下载不上传），下载Torrent链接（磁力）、Torrent文件（比特流种子）、
+> eMule（电驴）等请使用`Bit Torrent`工具
 
 * [https://www.lanzous.com/b906590](https://www.lanzous.com/b906590)
 * [https://www.lanzous.com/b505936](https://www.lanzous.com/b505936)
