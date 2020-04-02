@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/icons/小C技术栈_扫码_搜索-标准色版.png
 heroImageStyle: {
-  margin-top: "6rem",
+  margin-top: "2rem",
   max-width: "600px",
   width: "100%"
 }
