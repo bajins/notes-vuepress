@@ -72,11 +72,12 @@ module.exports = {
         // 返回顶部按钮true显示、false不显示
         ['@vuepress/back-to-top', false],
         ['@vuepress/pwa', {
-            // 如果设置为 true，VuePress 将自动生成并注册一个 Service Worker，用于缓存页面的内容以供离线使用（仅会在生产环境中启用）
+            // 如果设置为 true，VuePress 将自动生成并注册一个 Service Worker，
+            // 用于缓存页面的内容以供离线使用（仅会在生产环境中启用）
             serviceWorker: true,
             // 使用自定义组件
             // popupComponent: 'MySWUpdatePopup',
-            // 本选项开启了一个用于刷新内容的弹窗。这个弹窗将会在站点有内容更新时显示出来，并提供了一个 refresh 按钮，允许用户立即刷新内容。
+            // 本选项开启了一个用于刷新内容的弹窗
             // updatePopup: true
             updatePopup: {
                 message: "发现新内容可用",
