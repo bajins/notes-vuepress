@@ -1,15 +1,20 @@
 #app .page-title, #app .theme-reco-content.content__default, #app footer, #app .page-nav, #app .comments-wrapper {
-    max-width: 960px;
+    max-width: 960px !important;
+    // padding: 1.5rem !important;
 }
 
-#app .page-title {
-    padding: 1.5rem;
+.page {
+    // 处理文本溢出
+    word-wrap: break-word !important;
+    // padding-top: 1.5rem !important;
 }
 
-#app .theme-reco-content.content__default {
-    padding: 0rem 2.5rem;
+.page .page-title {
+    // 调整标题容器边距
+    padding: 0rem 1.5rem !important;
 }
 
 #app .theme-reco-content.content__default > h1, #app .theme-reco-content.content__default > p:nth-child(2) {
-    display: none;
+    // 处理文档的第一行标题
+    display: none !important;
 }

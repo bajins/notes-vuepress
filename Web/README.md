@@ -45,7 +45,6 @@
 ---
 
 * [静态编译VuePress](https://github.com/vuejs/vuepress)
-[VuePress主题](https://github.com/search?o=desc&q=vuepress-theme&s=updated&type=Repositories)
 * [静态编译NuxtJs](https://github.com/nuxt/nuxt.js)
 * [静态编译Hexo](https://github.com/hexojs/hexo)
 * [运行时驱动Docsify](https://github.com/docsifyjs/docsify)
@@ -55,6 +54,33 @@
 * [运行时驱动Docute](https://github.com/egoist/docute)
 * [从仓库生成文档](https://github.com/readthedocs/readthedocs.org)
 * [https://github.com/getgridea/gridea](https://github.com/getgridea/gridea)
+
+
+**VuePress主题**
+
+* [GitHub搜索VuePress主题](https://github.com/search?l=Vue&o=desc&q=vuepress-theme&s=stars&type=Repositories)
+* [vuepress-theme-ktquez](https://github.com/ktquez/vuepress-theme-ktquez)
+* [vuepress-theme-indigo-material](https://github.com/zhhlwd/vuepress-theme-indigo-material)
+* [vuepress-theme-meteorlxy](https://github.com/meteorlxy/vuepress-theme-meteorlxy)
+* [vuepress-theme-cchao](https://github.com/2020807070/vuepress-theme-cchao)
+* [vuepress-theme-ououe](https://github.com/tolking/vuepress-theme-ououe)
+* [vuepress-theme-blogue](https://github.com/ocavue/vuepress-theme-blogue)
+* [vuepress-theme-reform](https://github.com/xuzhongpeng/vuepress-theme-reform)
+* [vuepress-theme-yuicer](https://github.com/yuicer/vuepress-theme-yuicer)
+* [vuepress-theme-eugeo](https://github.com/Coolyang1996/vuepress-theme-eugeo)
+* [vuepress-theme-concise](https://github.com/YoungsunLi/vuepress-theme-concise)
+* [vuepress-theme-tassel](https://github.com/hirCodd/vuepress-theme-tassel)
+* [vuepress-theme-cycle](https://github.com/leCapsimRy/vuepress-theme-cycle)
+* [vuepress-theme-hhh](https://github.com/a298003154/vuepress-theme-hhh)
+* [vuepress-theme-fluent](https://github.com/ms-design/vuepress-theme-fluent)
+* [vuepress-theme-lovely](https://github.com/zp961214/vuepress-theme-lovely)
+* [vuepress-theme-prettyPure](https://github.com/HKChen/vuepress-theme-prettyPure)
+* [vuepress-theme-neon](https://github.com/summer1874/vuepress-theme-neon)
+* [vuepress-theme-mufeng](https://github.com/zhangximufeng/vuepress-theme-mufeng)
+* [vuepress-theme-zjblog](https://github.com/ZjBlog/vuepress-theme-zjblog)
+* [vuepress-theme-reco](https://github.com/recoluan/vuepress-theme-reco)
+* [https://github.com/zp961214/Blog](https://github.com/zp961214/Blog)
+
 
 
 

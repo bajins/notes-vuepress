@@ -30,7 +30,7 @@ module.exports = {
             description: '个人笔记',
         }
     },
-    // 留空使用.vuepress/theme下的自定义主题
+    // 留空则使用.vuepress/theme下的自定义主题
     theme: 'reco',
     themeConfig: {
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL,当你提供了 themeConfig.repo 选项，
@@ -71,7 +71,6 @@ module.exports = {
     plugins: [
         // 返回顶部按钮true显示、false不显示
         ['@vuepress/back-to-top', false],
-
         ['@vuepress/pwa', {
             // 如果设置为 true，VuePress 将自动生成并注册一个 Service Worker，用于缓存页面的内容以供离线使用（仅会在生产环境中启用）
             serviceWorker: true,
@@ -90,16 +89,6 @@ module.exports = {
         ['@vuepress/google-analytics', {
             ga: 'UA-137200206-1'
         }],
-        ['container', {
-            type: 'vue',
-            before: '<pre class="vue-container"><code>',
-            after: '</code></pre>',
-        }],
-        ['container', {
-            type: 'upgrade',
-            before: info => `<UpgradePath title="${info}">`,
-            after: '</UpgradePath>',
-        }],
         // 流程图
         ['flowchart'],
         ['@vuepress/last-updated', {
@@ -116,7 +105,18 @@ module.exports = {
         ['@vuepress/active-header-links', {
             sidebarLinkSelector: '.sidebar-link',
             headerAnchorSelector: '.header-anchor'
-        }]
+        }],
+        // 添加自定义容器
+        // ['container', {
+        //     type: 'vue',
+        //     before: '<pre class="vue-container"><code>',
+        //     after: '</code></pre>',
+        // }],
+        // ['container', {
+        //     type: 'upgrade',
+        //     before: info => `<UpgradePath title="${info}">`,
+        //     after: '</UpgradePath>',
+        // }],
     ],
     markdown: {
         // 是否在每个代码块的左侧显示行号。

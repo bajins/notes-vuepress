@@ -21,10 +21,8 @@
 * [https://github.com/semantic-org/semantic-ui](https://github.com/semantic-org/semantic-ui)
 * [https://github.com/Dogfalo/materialize](https://github.com/Dogfalo/materialize)
 [http://www.materializecss.cn](http://www.materializecss.cn)
-
 * [https://github.com/jgthms/bulma](https://github.com/jgthms/bulma)
 [https://lqzhgood.github.io/bulma-docs-cn](https://lqzhgood.github.io/bulma-docs-cn)
-
 * [https://github.com/Chalarangelo/mini.css](https://github.com/Chalarangelo/mini.css)
 
 
@@ -461,3 +459,26 @@ div:hover{
 }
 ```
 
+
+
+## 优先级和权重
+
+> 权重决定了你css规则怎样被浏览器解析直到生效。css权重关系到你的css规则是怎样显示的
+
+> 权重记忆口诀。从0开始，一个行内样式+1000，一个id+100，一个属性选择器/class或者伪类+10，一个元素名，或者伪元素+1
+
+> 优先级从高到底显示：!important>行内样式表>id选择器>类选择器>标签选择器>继承
+
+| 类型                     	| 示例                   	| 权重  	|
+|--------------------------	|------------------------	|-------	|
+| !important               	| 加在样式属性值后       	| 无穷 	|
+| 内联样式                 	| style=""               	| 1000  	|
+| ID选择器                 	| #content               	| 100   	|
+| 类、伪类和属性选择器     	| .page、content、:hover 	| 10    	|
+| 标签选择器和伪元素选择器 	| div、p、:before        	| 1     	|
+| 通用选择器               	| *                      	| 0     	|
+| 子选择器                 	| >                      	| 0     	|
+| 相邻选择器               	| +                      	| 0     	|
+| 同胞选择器               	| -                      	| 0     	|
+
+* [css的优先级 和 权重](https://www.cnblogs.com/cnblogs-jcy/p/8574177.html)
