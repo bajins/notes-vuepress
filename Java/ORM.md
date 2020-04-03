@@ -11,19 +11,18 @@
 
 ## flag
 
+* [Java，JDBC和MySQL对应数据类型](https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-reference-type-conversions.html)
 * [http://www.squirrelsql.org](http://www.squirrelsql.org)
 * [http://java-source.net/open-source/sql-clients](http://java-source.net/open-source/sql-clients)
 * [https://github.com/pagehelper/Mybatis-PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)
 
 
 
-## 连接MySQL
+## JDBC驱动
 
 **注意使用的JDBC驱动**
 
-- `com.mysql.jdbc.Driver`是`mysql-connector-java 5`中的
-
-> 不再推荐使用
+- `com.mysql.jdbc.Driver`是`mysql-connector-java 5`中的，不再推荐使用
 
 - `com.mysql.cj.jdbc.Driver`是`mysql-connector-java 6`中的
 
