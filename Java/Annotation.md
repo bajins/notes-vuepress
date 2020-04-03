@@ -14,19 +14,6 @@
 * [Java 注解（Annotation）](https://www.runoob.com/w3cnote/java-annotation.html)
 
 
-## Servlet
-
-| 注解             	| 版本       	| 说明                                                                                       	|
-|------------------	|------------	|--------------------------------------------------------------------------------------------	|
-| @PostConstruct   	| Servlet2.5 	| 被@PostConstruct修饰的方法会在服务器加载Servle且构造函数之后执行，并且只会被服务器执行一次 	|
-| @PreDestroy      	| Servlet2.5 	| 被@PreDestroy修饰的方法会在服务器卸载Servlet之前运行，并且只会被服务器调用一次             	|
-| @WebServlet      	| Servlet3.0 	| 用于声明servlet                                                                            	|
-| @WebListener     	| Servlet3.0 	| 用于声明过监听器，可通过控制filter的文件名来控制执行顺序                                   	|
-| @WebFilter       	| Servlet3.0 	| 用于声明过滤器                                                                             	|
-| @WebInitParam    	| Servlet3.0 	| 为 Servlet 或者过滤器指定初始化参数，配置@WebServlet或@WebFilter时使用                     	|
-| @MultipartConfig 	| Servlet3.0 	| HttpServletRequest 提供的对上传文件的支持，该注解标注在 Servlet 上面                       	|
-
-
 
 ## JDK
 
@@ -44,6 +31,61 @@
 | @FunctionalInterface 	| jdk1.8 	| 函数式接口注解，用于定义函数式接口                                               	|
 | @Interface           	| jdk1.5 	| 注解的创建和接口的创建，用来声明一个注解                                         	|
 | @Native              	| jdk1.8 	| 生成本机头文件的工具的提示，以确定是否需要头文件，如果需要，它应该包含哪些声明。 	|
+
+
+
+## Servlet
+
+| 注解             	| 版本       	| 说明                                                                                       	|
+|------------------	|------------	|--------------------------------------------------------------------------------------------	|
+| @PostConstruct   	| Servlet2.5 	| 被@PostConstruct修饰的方法会在服务器加载Servle且构造函数之后执行，并且只会被服务器执行一次 	|
+| @PreDestroy      	| Servlet2.5 	| 被@PreDestroy修饰的方法会在服务器卸载Servlet之前运行，并且只会被服务器调用一次             	|
+| @WebServlet      	| Servlet3.0 	| 用于声明servlet                                                                            	|
+| @WebListener     	| Servlet3.0 	| 用于声明过监听器，可通过控制filter的文件名来控制执行顺序                                   	|
+| @WebFilter       	| Servlet3.0 	| 用于声明过滤器                                                                             	|
+| @WebInitParam    	| Servlet3.0 	| 为 Servlet 或者过滤器指定初始化参数，配置@WebServlet或@WebFilter时使用                     	|
+| @MultipartConfig 	| Servlet3.0 	| HttpServletRequest 提供的对上传文件的支持，该注解标注在 Servlet 上面                       	|
+
+
+
+
+## Validation
+
+> `JSR-303`是`JAVA EE 6`中的一项子规范，叫做`Bean Validation`，但是这只是一个接口，没有具体实现。
+
+> `javax.validation.Validation`、`hibernate-validator`和`Spring validtor`
+> 提供了`JSR 303`规范中所有内置constraint 的实现，除此之外还有一些附加的 constraint
+
+| 注解                               	| 支持Java类型                                          	| 备注                                                         	|
+|------------------------------------	|-------------------------------------------------------	|--------------------------------------------------------------	|
+| @AssertFalse                       	| Boolean, boolean                                      	| 验证元素值必须为flase                                        	|
+| @AssertTrue                        	| Boolean, boolean                                      	| 验证元素值必须为true，否则抛异常                             	|
+| @CreditCardNumber                  	| CharSequence                                          	| 验证信用卡号码是否有效                                       	|
+| @DecimalMax                        	| Object                                                	| 验证数值是否小于等于指定值                                   	|
+| @DecimalMin                        	| CharSequence                                          	| 验证数值是否大于等于指定值                                   	|
+| @Digits(integer = 3, fraction = 2) 	| Long, Integer, Double, Float                          	| 验证注解的元素值的整数位数和小数位数上限                     	|
+| @Email                             	| CharSequence                                          	| 验证元素必须是电子邮箱地址                                   	|
+| @Future                            	| java.util.Date, java.util.Calendar                    	| 验证日期为当前时间之后                                       	|
+| @FutureOrPresent                   	| java.util.Date, java.util.Calendar                    	| 验证日期为当前时间或之后一个时间                             	|
+| @Length(min=,max=)                 	| CharSequence                                          	| 验证元素值包含在一个区间                                     	|
+| @Max                               	| CharSequence                                          	| 检验当前数值小于等于指定值                                   	|
+| @Min                               	| BigDecimal, BigInteger, byte, short,int, long,Number. 	| 检验当前数值大于等于指定值                                   	|
+| @NotBlank                          	| CharSequence                                          	| 验证元素值不为null且移除两边空格后长度大于0                  	|
+| @NotEmpty                          	| CharSequence,Collection,Map and Arrays                	| 验证元素值不为null且不为空（字符串长度不为0、集合大小不为0） 	|
+| @NotNull                           	| Object                                                	| 验证元素值不能为 null                                        	|
+| @Null                              	| Object                                                	| 验证元素值为null                                             	|
+| @Past                              	| java.util.Date, java.util.Calendar                    	| 验证日期为当前时间之前                                       	|
+| @PastOrPresent                     	| java.util.Date, java.util.Calendar                    	| 验证日期为当前时间或之前                                     	|
+| @Pattern(regex=,flag=)             	| CharSequence                                          	| 验证元素必须符合指定的正则表达式                             	|
+| @Range(min=,max=,message=)         	| CharSequence                                          	| 验证数值为指定值区间范围内                                   	|
+| @Size(max=, min=)                  	| String,Collection,Map,arrays,CharSequence             	| 验证元素个数包含在一个区间                                   	|
+| @UniqueElements                    	| Collection                                            	| 校验集合中的元素必须保持唯一 否则异常                        	|
+| @URL                               	| CharSequence                                          	| 验证日期为当前时间之前                                       	|
+| @Valid                             	| Object                                                	| 验证关联对象元素进行递归校验检查                             	|
+| @ScriptAssert                      	| CharSequence                                          	| 脚本表达式的计算结果为true                                   	|
+| @SafeHtml                          	| CharSequence                                          	| 可能包含不安全的html内容                                     	|
+
+
 
 
 
