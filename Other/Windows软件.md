@@ -86,6 +86,10 @@
 * [http://www.sharerw.com](http://www.sharerw.com)
 * [https://htcui.com](https://htcui.com)
 * [https://www.lanzous.com/b05f9wyf](https://www.lanzous.com/b05f9wyf)
+* [Balatan](https://forum.release-apk.com/search.php?author_id=49&sr=topics&sf=firstpost)
+* [https://patch.chelpus.com](https://patch.chelpus.com)
+* [一个人的冬季的帖子 ,智友邦](http://bbs.zhiyoo.net/home.php?mod=space&uid=3&do=thread&view=me&from=space)
+
 
 
 
