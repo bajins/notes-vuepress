@@ -150,7 +150,6 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 * [http://zookeeper.apache.org](http://zookeeper.apache.org) 下载带`bin`的压缩包，否则需要`maven`安装依赖
 [下载地址镜像](/Other/README.md#通用镜像)
-
 * [https://github.com/apache/dubbo](https://github.com/apache/dubbo)
 * [https://github.com/apache/dubbo-spring-boot-project](https://github.com/apache/dubbo-spring-boot-project)
 * [https://github.com/apache/dubbo-admin](https://github.com/apache/dubbo-admin)
@@ -158,6 +157,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 > 官网`2.7.0`及以上由Apache（org.apache.dubbo）维护，旧版本还是由阿里巴巴团队（com.alibaba.dubbo）维护
 
 * [dubbo客户端版本选择](https://blog.51cto.com/10759919/2405665)
+* [Dubbo 一篇文章就够了：从入门到实战](https://segmentfault.com/a/1190000019896723)
 * [Dubbo版本升级](https://www.cnblogs.com/TechSnail/p/11936862.html)
 * [干货 | 聊聊携程升级Dubbo的踩坑历程](https://cloud.tencent.com/developer/article/1500148)
 * [dubbo2.5.3升级到2.7.3记录](https://blog.csdn.net/chang_li/article/details/103266059)
