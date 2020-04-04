@@ -31,6 +31,13 @@
 | @FunctionalInterface 	| jdk1.8 	| 函数式接口注解，用于定义函数式接口                                               	|
 | @Interface           	| jdk1.5 	| 注解的创建和接口的创建，用来声明一个注解                                         	|
 | @Native              	| jdk1.8 	| 生成本机头文件的工具的提示，以确定是否需要头文件，如果需要，它应该包含哪些声明。 	|
+| @HandlerChain        	|        	| 使 Web Service 与外部定义的处理程序链相关联。                                    	|
+| @Oneway              	|        	| 表示为只有输入消息而没有输出消息的 Web Service 单向操作                          	|
+| @WebMethod           	|        	| 该注解用于用@WebService注解的类或接口的方法上，表示要发布的方法                  	|
+| @WebParam            	|        	| 表示方法的参数                                                                   	|
+| @WebResult           	|        	| 表示方法的返回值                                                                 	|
+| @WebService          	|        	| 用于对接口，类进行注解，表示要发布的web服务                                      	|
+| @SOAPBinding         	|        	| SOAP绑定类型：RPC、DOCUMENT                                                  	|
 
 
 

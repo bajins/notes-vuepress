@@ -15,6 +15,7 @@
 
 * [fastjson这么快老外为啥还是热衷 jackson?](https://www.zhihu.com/question/44199956)
 * [JAX-WS与JAX-RS区别是什么？](https://blog.csdn.net/dogiant/article/details/54907506)
+* [接口框架 : WebService与Jersey RESTful 要点梳理](https://blog.csdn.net/zzg19950824/article/details/80300501)
 
 
 **学习**
