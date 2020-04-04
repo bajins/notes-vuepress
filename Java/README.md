@@ -26,6 +26,13 @@
 * [https://github.com/doocs/advanced-java](https://github.com/doocs/advanced-java)
 
 
+**MediaType**
+
+- `com.google.common.net.MediaType` guava
+- `javax.ws.rs.core.MediaType` Jersey框架
+- `org.springframework.http.MediaType` spring框架
+
+
 
 
 ## OpenJDK
