@@ -9,6 +9,8 @@
 
 * [https://git-scm.com](https://git-scm.com)
 * [https://tortoisegit.org/download](https://tortoisegit.org/download)
+* [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
+* [https://www.syntevo.com](https://www.syntevo.com)
 * [为您的项目创建有用的.gitignore文件](https://github.com/toptal/gitignore.io)
 * [reposurgeon是一种工具,用于编辑版本控制存储库的历史](http://www.catb.org/esr/reposurgeon)
 * [https://github.com/gitextensions/gitextensions](https://github.com/gitextensions/gitextensions)
