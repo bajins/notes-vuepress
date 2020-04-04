@@ -31,12 +31,12 @@ module.exports = [{
                     link: '/Other/Bookmarks'
                 },
                 {
-                    text: 'Markdown工具',
-                    link: '/Other/Markdown#工具'
-                },
-                {
                     text: 'Windows软件',
                     link: '/Other/Windows软件'
+                },
+                {
+                    text: 'Markdown工具',
+                    link: '/Other/Markdown#工具'
                 },
             ]
         }
