@@ -11,7 +11,10 @@
 * [https://git.io](https://git.io)
 * [http://potato.manre.me](http://potato.manre.me)
 * [https://signal.org](https://signal.org)
-* [Telegram](https://github.com/telegramdesktop/tdesktop/releases)
+* [https://github.com/topics/telegram](https://github.com/topics/telegram)
+    * [https://github.com/goq/telegram-list](https://github.com/goq/telegram-list)
+    * [https://github.com/telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop)
+    * [https://github.com/DrKLO/Telegram](https://github.com/DrKLO/Telegram)
 * [https://telegram.zczc.men](https://telegram.zczc.men)
 * [https://github.com/zhukov/webogram](https://github.com/zhukov/webogram)
 
