@@ -504,7 +504,6 @@ git config --global --unset http.proxy
 * [https://gitlab.com/xhang/gitlab/wikis/home](https://gitlab.com/xhang/gitlab/wikis/home)
 * [GitLab Community Edition (中文社区版)](https://github.com/twang2218/gitlab-ce-zh)
 [汉化的 GitLab 社区版 Docker Image](https://hub.docker.com/r/twang2218/gitlab-ce-zh)
-
 * [https://hub.docker.com/r/bensonfx/gitlab-ce-zh](https://hub.docker.com/r/bensonfx/gitlab-ce-zh)
 * [https://github.com/bensonfx/codeserver](https://github.com/bensonfx/codeserver)
 * [https://hub.docker.com/r/benyoo/gitlab](https://hub.docker.com/r/benyoo/gitlab)
@@ -600,7 +599,8 @@ sudo /etc/init.d/dns-clean start
 
 * [https://github.com/BaseMax/GitHubMirror](https://github.com/BaseMax/GitHubMirror)
 * [https://github.com/RC1844/FastGithub](https://github.com/RC1844/FastGithub)
-* [https://subdomainfinder.c99.nl](https://subdomainfinder.c99.nl) 搜索框输入`workers.dev`点击`Start Scan`，再按<kbd>Ctrl</kbd> + <kbd>f</kbd> 输入`github`
+* [https://subdomainfinder.c99.nl](https://subdomainfinder.c99.nl) 搜索框输入`workers.dev`点击`Start Scan`，
+再按<kbd>Ctrl</kbd> + <kbd>f</kbd> 输入`github`
 
 - 替换`github.com`为
   - `github.com.cnpmjs.org`
@@ -609,6 +609,7 @@ sudo /etc/init.d/dns-clean start
   - `github.wuyanzheshui.workers.dev`
   - `github.hsmw.workers.dev`
   - `github.reycn.workers.dev`
+  - `github.itzmx.com`
 
 * [https://cdn.jsdelivr.net/gh](https://cdn.jsdelivr.net/gh)
 

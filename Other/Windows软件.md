@@ -156,6 +156,7 @@
     * [https://torrenttrackerss.com/torrent-tracker-list](https://torrenttrackerss.com/torrent-tracker-list)
     * [http://www.torrenttrackerlist.com/torrent-tracker-list](http://www.torrenttrackerlist.com/torrent-tracker-list)
     * [https://github.com/DeSireFire/animeTrackerList](https://github.com/DeSireFire/animeTrackerList)
+    * [https://github.com/1265578519/OpenTracker](https://github.com/1265578519/OpenTracker)
 
 
 * [https://github.com/qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent)
