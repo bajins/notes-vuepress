@@ -126,6 +126,8 @@
 * [归档集 -  我爱吃土豆](https://itudo.cn/archives.html)
 * [https://lihhz.gitee.io/post/](https://lihhz.gitee.io/post/)
 * [古拉里的脑图小书](https://www.yuque.com/larrykoo/mindbook)
+* [归档 - 柒's Blog](https://blog.52itstyle.vip/archive.html)
+* [Java技术驿站-一个专注于 Java 技术分享的精品博客](http://cmsblogs.com)
 
 
 
