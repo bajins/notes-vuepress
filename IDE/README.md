@@ -14,7 +14,7 @@
 * [https://www.allroundautomations.com/bodyplsqldevreg.html]()
 * [https://www.mobatek.net](https://www.mobatek.net)
 * [https://github.com/neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
-
+* [https://github.com/eclipse-theia/theia](https://github.com/eclipse-theia/theia)
 
 
 ## 加速下载文件
