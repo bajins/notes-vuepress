@@ -95,14 +95,12 @@
 ### Java
 
 * [HollisChuang&#39;s Blog-Java干货集散地](http://www.hollischuang.com)
-* [Spring For All 玩最纯粹的技术！做最专业的 Spring 民间组织~](http://www.spring4all.com)
 * [Spring-WebSocket · essay-note](https://zq99299.github.io/essay-note/chapter/websocket/spring.html)
 * [Java技术栈](http://www.javastack.cn)
 * [纯洁的微笑](http://www.ityouknow.com)
-* [程序猿DD](http://blog.didispace.com)
+* [程序猿DD | Java | Spring Boot | Spring Cloud | 最新干货分享](http://blog.didispace.com)
 * [Java知音-一个专注于技术分享的网站](https://www.javazhiyin.com)
-* [Netty(一) SpringBoot 整合长连接心跳机制 | crossoverJie&#39;s Blog](https://crossoverjie.top/2018/05/24/netty/Netty(1)TCP-Heartbeat/#SpringBoot-%E7%9B%91%E6%8E%A7)
-* [Spring Cloud中文网-官方文档中文版](https://springcloud.cc)
+* [Archive | crossoverJie's Blog](https://crossoverjie.top/archives)
 * [Java入门基础教程_Java开发学习书籍-极客学院Wiki](http://wiki.jikexueyuan.com/list/java)
 * [CS-Notes](https://cyc2018.github.io/CS-Notes/#/README)
 * [Archives | 一只程序猿的博客](http://hanfeng.me/archives)

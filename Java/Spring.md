@@ -12,6 +12,7 @@
 ---
 
 * [https://github.com/wuyouzhuguli/SpringAll](https://github.com/wuyouzhuguli/SpringAll)
+* [http://www.spring4all.com](http://www.spring4all.com)
 
 
 
@@ -134,11 +135,20 @@
 * [一文读懂SpringCloud与Eureka，Feign，Ribbon，Hystrix，Zuul核心组件间的关系](https://www.jianshu.com/p/31dfb595170c)
 * [springcloudの核心组件Eureka、Ribbon、Feign、Hystrix、Zuul](https://juejin.im/post/5d56204a5188252bd409b5cb)
 * [Spring Cloud Alibaba与Spring Boot、Spring Cloud之间不得不说的版本关系](http://blog.didispace.com/spring-cloud-alibaba-version)
-
+* [https://www.springcloud.cc](https://www.springcloud.cc)
 * [聊聊分布式链路追踪](http://lidawn.github.io/2018/12/26/distribute-tracing)
 
 
+- `bootstrap.yml`（.properties）
 
+> 用来程序引导时执行，应用于更加早期配置信息读取，如可以使用来配置application.yml中使用到参数等
+
+> `bootstrap.yml`是被一个父级的`Spring ApplicationContext`加载的。这个父级的`Spring ApplicationContext`是先加载的，
+> 在加载`application.yml`的`ApplicationContext`之前。
+
+-  `application.yml`（.properties) 
+
+> 应用程序特有配置信息，可以用来配置后续各个模块中需使用的公共参数等
 
 
 | 组件                           	| 作用             	| 替代项目                                                    	| 说明                                                                                                                                                 	|
