@@ -216,6 +216,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/wuyouzhuguli/FEBS-Shiro](https://github.com/wuyouzhuguli/FEBS-Shiro)
 * [https://github.com/wuyouzhuguli/FEBS-Cloud](https://github.com/wuyouzhuguli/FEBS-Cloud)
 * [https://gitee.com/stylefeng/guns](https://gitee.com/stylefeng/guns)
+* [mall-swarm是一套微服务商城系统](https://github.com/macrozheng/mall-swarm)
+* [mall项目是一套电商系统，包括前台商城系统及后台管理系统](https://github.com/macrozheng/mall)
 
 
 
