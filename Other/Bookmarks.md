@@ -127,6 +127,7 @@
 * [归档 | gentlezuo的博客](https://gentlezuo.github.io/archives)
 * [归档集 -  我爱吃土豆](https://itudo.cn/archives.html)
 * [https://lihhz.gitee.io/post/](https://lihhz.gitee.io/post/)
+* [古拉里的脑图小书](https://www.yuque.com/larrykoo/mindbook)
 
 
 
