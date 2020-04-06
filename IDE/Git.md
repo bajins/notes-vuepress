@@ -134,11 +134,9 @@ git config --global --unset https.proxy
 find . -type d -empty -exec touch {}/.gitignore \;
 ```
 
-### 更换项目远程地址
+### 项目远程地址管理
 
-> 见`项目目录/.git/config`中的`remote`节点
-
-> `origin`为默认远程节点名，可以自定义
+> 见`项目目录/.git/config`中的`remote`节点，`origin`为默认远程节点名，可以自定义
 
 - 查看当前的远程地址
 

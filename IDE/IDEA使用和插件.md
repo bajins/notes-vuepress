@@ -20,6 +20,10 @@
 
 ## 建立多级项目
 
+> 特别说明：每个模块中的顶级包名（java目录下的包名）一定不能一样，否则编译器会把多个模块中的代码编译相互串连。
+> 如：`src/main/java/com/bajins/demo`这里的`com/bajins/demo`就是顶级包名，
+> 应该加上当前项目名`src/main/java/com/bajins/demo/admin`
+
 **创建顶级项目（根项目）**
 
 1. 点击顶部菜单栏 `File` -> `New` -> `Project`（或者在欢迎页面点击`Create New Project`） -> 
