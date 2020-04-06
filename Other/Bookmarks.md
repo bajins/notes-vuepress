@@ -33,6 +33,7 @@
 * 猫咪论文：[https://lunwen.im](https://lunwen.im)
 * iData（论文搜索）：[http://www.cn-ki.net](http://www.cn-ki.net)
 * 文泉考试：[https://www.wqkaoshi.com](https://www.wqkaoshi.com)
+* 慕课网：[https://www.imooc.com](https://www.imooc.com)
 
 
 
