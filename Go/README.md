@@ -88,6 +88,8 @@
 * [https://github.com/go-xorm](https://github.com/go-xorm)
 * [https://github.com/libragen/felix](https://github.com/libragen/felix)
 * [https://github.com/spf13/viper](https://github.com/spf13/viper)
+* 对象存储：[https://github.com/minio/minio](https://github.com/minio/minio)
+
 
 
 ## 代理
