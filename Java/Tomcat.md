@@ -9,24 +9,19 @@
 
 ## 执行器（线程池）
 
-> 默认的tomcat没有启用线程池,在tomcat中每一个用户请求都是一个线程，所以可以使用线程池提高性能。
-这里前台其实有一个调度线程，然后调度线程会放入线程池内，然后到到一定的时候线程池的任务变成工作线程。
+> `Executor` Tomcat默认没有启用线程池，在tomcat中每一个用户请求都是一个线程，所以可以使用线程池提高性能。
+> 这里前台其实有一个调度线程，然后调度线程会放入线程池内，然后到到一定的时候线程池的任务变成工作线程。
 
-- 找到以下位置代码
-
-![](/images/tomcat%E5%BC%80%E5%90%AF%E7%BA%BF%E7%A8%8B%E6%B1%A0.png)
-
-- 更改为以下代码
+- 在`server.xml`中找到`<Service name="Catalina">`节点下的`Executor`标签取消注释
 
 ```xml
 <Executor name="tomcatThreadPool" namePrefix="catalina-exec-"
         maxThreads="800" minSpareThreads="100"  maxQueueSize="100" prestartminSpareThreads="true" />
 ```
 
-- 参数说明
-
 | 参数 | 说明  |
 | ------------ | ------------ |
+|name|命名线程池|
 |threadPriority|优先级|
 |daemon|守护进程|
 |namePrefix|名称前缀|
@@ -37,26 +32,14 @@
 |prestartminSpareThreads|是否在启动时就生成minSpareThreads个线程|
 |threadRenewalDelay|重建线程的时间间隔|
 
-- 指定线程池
+- 连接器指定线程池：在`server.xml`中找到`<Service name="Catalina">`节点下的`Connector`，使用`executor="线程池名称"`
 
-![](/images/Tomcat%E5%90%AF%E7%94%A8%E7%BA%BF%E7%A8%8B%E6%B1%A0.png)
 
-## 连接器（Connector）优化
+
+## 连接器优化
 
 > Connector是连接器，负责接收客户的请求，以及向客户端回送响应的消息。所以 Connector的优化是重要部分。
 默认情况下 Tomcat只支持200线程访问，超过这个数量的连接将被等待甚至超时放弃，所以我们需要提高这方面的处理能力。
-
-- `port` 代表服务接口；
-
-- `protocol` 代表协议类型；
-
-- `connectionTimeout` 代表连接超时时间，单位为毫秒；
-
-- `redirectPort` 代表安全通信（https）转发端口，一般配置成443。
-
-![](/images/Tomcat%E8%BF%9E%E6%8E%A5%E5%99%A8%E4%BC%98%E5%8C%96.png)
-
-- 常用的参数如下
 
 | 参数 | 说明  |
 | ------------ | ------------ |
@@ -81,16 +64,8 @@
 |URIEncoding|指定使用的字符编码，来解码URI字符。如果没有指定，ISO-8859-1将被使用。|
 |executor|指向Executor元素的引用。|
 
-- 最好实例
 
-```xml
-<!-- maxPostSize 参数形式处理的最大长度，默认为2097152（2兆字节）,上传提交的时候可以用的,这里设置1GB
-            acceptCount 请求的最大队列长度，当队列满时收到的任何请求将被拒绝
-     acceptorThreadCount 用于接受连接的线程的数量
-     disableUploadTimeout 禁用上传超时
-     maxConnections 服务器接受并处理的最大连接数
-     SSLEnabled 在连接器上使用此属性来启用SSL加密传输 -->
-     
+```xml     
 <Connector executor="tomcatThreadPool"
         connectionTimeout="20000"
         port="8080"
@@ -112,9 +87,10 @@
 - 如果是使用`Nginx`+`tomcat`的架构，所以用不着`AJP`协议，所以把`AJP`连接器禁用。
 
 > AJPv13协议是面向包的。WEB服务器和Servlet容器通过TCP连接来交互；为了节省SOCKET创建的昂贵代价，
-WEB服务器会尝试维护一个永久TCP连接到servlet容器，并且在多个请求和响应周期过程会重用连接。
+> WEB服务器会尝试维护一个永久TCP连接到servlet容器，并且在多个请求和响应周期过程会重用连接。
 
-![](/images/Tomcat%E7%A6%81%E7%94%A8AJP.png)
+- 在`server.xml`中找到`<Service name="Catalina">`节点下的`Connector`标签带有`protocol="AJP/1.3"`属性的注释掉
+
 
 ## http头的验证
 
@@ -130,24 +106,20 @@ tomcat.util.http.parser.HttpParser.requestTargetAllow=|{}
 
 - 在`/conf/context.xml`的`Context`标签中配置会使全局生效
 
-* [官方文档](https://tomcat.apache.org/tomcat-9.0-doc/config/context.html#Defining_a_context)
-
-![](/images/Tomcat配置全局自动加载.png)
+* [https://tomcat.apache.org/tomcat-9.0-doc/config/context.html#Attributes](https://tomcat.apache.org/tomcat-9.0-doc/config/context.html#Attributes)
 
 - 在`/conf/server.xml`的`Host`标签中配置
 
 > 替换`WEB-INF/lib`目录中的`jar`文件或`WEB-INF/classes`目录中的`class`文件时，
 > `reloadable="true"`会让修改生效（但代价不小），该选项适合调试。
 
-```xml
-<Context docBase="xxx" path="/xxx" reloadable="true"/> 
-```
-
 > 在`webapps`目录中增加新的目录、`war`文件、修改`WEB-INF/web.xml`，`autoDeploy="true"`会新建或重新部署应用，该选项方便部署。
 
 ```xml
-<Context docBase="xxx" path="/xxx" autoDeploy="true"/> 
+<Context docBase="xxx" path="/xxx" reloadable="true" autoDeploy="true"/> 
 ```
+
+
 
 
 ## 403AccessDenied

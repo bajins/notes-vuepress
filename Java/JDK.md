@@ -8,11 +8,10 @@
 
 ## flag
 
-> 细心的可能会发现，`jdk/bin`目录下的这些工具都非常小，
-> 是因为这些工具大多是`jdk/lib/tools.jar`类库的一层包装而已，他们主要的功能代码是在`tools`类库中实现的。
+- JavaFX源码：JDK安装目录下的`javafx-src.zip`文件
+- Java源码：JDK安装目录下的`src.zip`文件
 
-![](/images/JDKBin.png)
-
+> IDEA查看源码都是从这两个ZIP文件加载
 
 * [https://www.ej-technologies.com](https://www.ej-technologies.com)
 * [https://github.com/oracle/graal](https://github.com/oracle/graal)
@@ -22,6 +21,23 @@
 
 ![](/images/jvm参数统计.png)
 
+
+---
+
+* 无侵入式的jvm监控工具MyPerf4J：[https://github.com/ThinkpadNC5/MyPerf4J](https://github.com/ThinkpadNC5/MyPerf4J)
+* Alibaba Java诊断利器Arthas：[https://github.com/alibaba/arthas](https://github.com/alibaba/arthas)
+[https://alibaba.github.io/arthas](https://alibaba.github.io/arthas)
+
+
+
+
+## tools
+
+
+> 细心的可能会发现，`jdk/bin`目录下的这些工具都非常小，
+> 是因为这些工具大多是`jdk/lib/tools.jar`类库的一层包装而已，他们主要的功能代码是在`tools`类库中实现的。
+
+![](/images/JDK-bin.png)
 
 
 
@@ -92,16 +108,12 @@
 
 ### Java部署工具
 
-> 
-
 | 工具名称          | 用途                                                                  |
 |---------------|---------------------------------------------------------------------|
 | pack200.exe   | 使用java gzip压缩工具将JAR文件转换为压缩的pack200文件，生产打包文件是高度压缩的JAR包，可以直接部署，减少下载时间 |
 | unpack200.exe | 解包pack200文件为JARs                                                    |
 
 ### Java web工具
-
->
 
 | 工具名称          | 用途                   |
 |---------------|----------------------|
@@ -140,12 +152,8 @@
 - 方法级的`程序运行性能分析`，**找出被调用最多、运行时间最长的方法**。
 - 离线程序快照：收集程序的运行时配置、线程dump、内存dump等信息建立一个快照
 
-![](/images/JavaVisualVM.png)
-
-> 参考：
->> [基于JVisualVM的可视化监控](http://blog.51cto.com/zero01/2141942)
->>
->> [VisualVM监控远程阿里云主机](https://blog.csdn.net/u010004317/article/details/82948040)
+> 参考：[基于JVisualVM的可视化监控](http://blog.51cto.com/zero01/2141942)，
+[VisualVM监控远程阿里云主机](https://blog.csdn.net/u010004317/article/details/82948040)
 
 **不受此JVM支持**
 
@@ -214,26 +222,20 @@ chmod +x jstatd.all.policy
 ./jstatd -J-Djava.security.policy=jstatd.all.policy -J-Djava.rmi.server.hostname=本服务器IP -p 端口 -J-Djava.rmi.server.logCalls=true &
 ```
 
-> `-J-Djava.security.policy=jstatd.all.policy` 文件的绝对路径；
-
-> `-J-Djava.rmi.server.logCalls=true` 打开日志,如果客户端有连接过来的请求,可以监控到,便于排错；
-
-> `-J-Djava.rmi.server.hostname=本服务器IP` 指明本机 hostname 对应的本机地址,确保该地址可以给客户机访问。
->> 因为有的服务器 hostname 对应的 ip 不一定是外网能连上的，最好在这里直接明确指定；
-
-> `-p 3333` 指定服务的端口号，默认是1099。也是可选参数。
+- `-J-Djava.security.policy=jstatd.all.policy` 文件的绝对路径；
+- `-J-Djava.rmi.server.logCalls=true` 打开日志,如果客户端有连接过来的请求,可以监控到,便于排错；
+- `-J-Djava.rmi.server.hostname=本服务器IP` 指明本机 hostname 对应的本机地址,确保该地址可以给客户机访问。
+   - 因为有的服务器 hostname 对应的 ip 不一定是外网能连上的，最好在这里直接明确指定；
+- `-p 3333` 指定服务的端口号，默认是1099。也是可选参数。
 
 
 
 #### JConsole
 
-> 在`/jdk/bin`目录下`jconsole.exe`
+> 在`/jdk/bin`目录下`jconsole.exe`，如果上面的`内存`页签相当于可视化的`jstat`命令的话，
+> `线程`页签的功能相当于可视化的`jstack`命令，遇到线程停顿时可以使用这个页签进行监控分析。
 
-> 如果上面的`内存`页签相当于可视化的`jstat`命令的话，`线程`页签的功能相当于可视化的`jstack`命令，遇到线程停顿时可以使用这个页签进行监控分析。
->
 > 线程长时间停顿的主要原因主要有：等待外部资源（数据库连接、网络资源、设备资源等）、死循环、锁等待（活锁和死锁）
-
-![](/images/JConsole.png)
 
 
 **查看hostname**
@@ -241,11 +243,9 @@ chmod +x jstatd.all.policy
 ```bash
 hostname -i
 ```
-- 如果hostname为`127.0.0.1`就需要修改
 
-> `vi /etc/hosts`将其第一行`127.0.0.1 localhost.localdomain localhost`中的`127.0.0.1`修改为：`本服务器IP`
->
-> 重启Linux，在服务器上输入`hostname -i`，查看实际设置的IP地址是否为你设置的
+> 如果hostname为`127.0.0.1`就需要修改，`vi /etc/hosts`将其第一行`127.0.0.1 localhost.localdomain localhost`中的`127.0.0.1`
+> 修改为：`本服务器IP`，重启Linux，在服务器上输入`hostname -i`，查看实际设置的IP地址是否为你设置的
 
 
 
@@ -268,8 +268,6 @@ jps [ -help ]
 - `-l` 将打印模块名以及包名
 - `-v` 将打印传递给虚拟机的参数
 - `-V` 将打印传递给主类的参数、jar文件名等
-
-
 
 
 
@@ -334,16 +332,11 @@ jps [ -help ]
 -printcompilation
 ```
 
-> `jstat [ generalOption | outputOptions vmid [interval[s|ms] [count]] ]`
->
-> 参数：
->> `generalOption` 一般使用-gcutil查看GC情况
->> 
->> `vmid` 虚拟机进程号，即当前运行的java进程号
->> 
->> `interval` 间隔时间，单位为秒或毫秒
->> 
->> `count` 打印次数，如果缺省则打印无数次
+- `jstat [ generalOption | outputOptions vmid [interval[s|ms] [count]] ]`
+   - `generalOption` 一般使用-gcutil查看GC情况
+   - `vmid` 虚拟机进程号，即当前运行的java进程号
+   - `interval` 间隔时间，单位为秒或毫秒
+   - `count` 打印次数，如果缺省则打印无数次
 
 
 ```bash
@@ -356,23 +349,9 @@ jstat -gcutil $(pgrep java) 2000 100
 jstat -gc <pid> 2s 2
 jstat -gc $(pgrep java) 2s 2
 ```
+
 > JVM堆是分代的，前四个表示`Survivor`区的容量（Capacity）和已使用量（Utilization），EC表示当前Eden的容量，在翻阅文档的时候，
 > 发现没有`CGC`和`CGCT`的解释，它们分别代表并发`GC Stop-The-World`的次数和时间。
-
-
-
-
-
-
-#### JMC
-
-> 从`Oracle JDK 9`开始，不再包含。
-
-> `Oracle JDK 8`及以下版本在`/jdk/bin`目录下`jmc.exe`
-
-![](/images/JavaMissionControl.png)
-
-
 
 
 
@@ -402,30 +381,11 @@ jstat -gc $(pgrep java) 2s 2
 jinfo [option] pid
 ```
 
-**它也包括了许多子命令，具体如下**
-
-- 1. `-flag name`
-
-> 打印指定的虚拟机参数的名称和值
-
-- 2. `-flag [+|-]name`
-
-> 用来修改目标`Java`进程的`manageable`虚拟机参数。其中`+`代表开启，`-`代表关闭。
-
-> 命令：`java -XX:+PrintFlagsFinal -version | grep manageable`
-
-- 3. `-flag name=value`
-
-> 设置指定的虚拟机参数的值
-
-- 4. `-flags`
-
-> 打印全部的虚拟机参数
->> 例如：`jinfo -flags 26792`
-
-- 5. `-sysprops`
-
-> 打印`java`系统参数（`Java System Properties`）
+- `-flag name` 打印指定的虚拟机参数的名称和值
+- `-flag [+|-]name` 用来修改目标`Java`进程的`manageable`虚拟机参数。其中`+`代表开启，`-`代表关闭。命令：`java -XX:+PrintFlagsFinal -version | grep manageable`
+- `-flag name=value` 设置指定的虚拟机参数的值
+- `-flags`  打印全部的虚拟机参数，例如：`jinfo -flags 26792`
+- `-sysprops` 打印`java`系统参数（`Java System Properties`）
 
 
 
@@ -442,40 +402,18 @@ jmap [options] pid
 
 **参数选项**
 
-- 1. `-clstats`
-
-> 连接到正在运行的进程并打印Java堆被加载类的统计信息
-
-- 2. `-finalizerinfo`
-
-> 连接到正在运行的进程并打印所有待 finalize 的对象。
-
-- 3. `-histo[:live]`
-
-> 连接到正在运行的进程并统计各个类的实例数目以及占用内存，并按照内存使用量从多至少的顺序排列。
-> 此外，`-histo:live`只统计堆中还在存活的对象。
-
-- 4. `-dump`
-
-> 连接到正在运行的进程并导出Java虚拟机堆内存的快照。
-
-> 该子命令该包含如下参数：
-
->> `live` 只保存堆中存活的对象
-
->> `format=b` 将使`jmap`导出与`hprof`（在`Java 9`中已被移除）`-XX:+HeapDumpAfterFullGC`、`-XX:+HeapDumpOnOutOfMemoryError`格式一样的文件
-
->> `file=filename` 指定导出堆内存快照的位置
-
-> 示例命令如下
+- `-clstats` 连接到正在运行的进程并打印Java堆被加载类的统计信息
+- `-finalizerinfo` 连接到正在运行的进程并打印所有待 finalize 的对象。
+- `-histo[:live]` 连接到正在运行的进程并统计各个类的实例数目以及占用内存，并按照内存使用量从多至少的顺序排列。只统计堆中还在存活的对象。
+- `-dump`连接到正在运行的进程并导出Java虚拟机堆内存的快照。
+   - `live` 只保存堆中存活的对象
+   - `format=b` 将使`jmap`导出与`hprof`（在`Java 9`中已被移除）`-XX:+HeapDumpAfterFullGC`、`-XX:+HeapDumpOnOutOfMemoryError`格式一样的文件
+   - `file=filename` 指定导出堆内存快照的位置
 
 ```bash
 # 生成dump文件
 jmap -dump:live,format=b,file=heap.hprof $(pgrep java)
 ```
-
-
-
 
 
 
@@ -541,13 +479,10 @@ jcmd -h
 
 **参数**
 
-- `pid`
-> 虚拟机的进程id
-
-- `main class`
-> 接收诊断命令请求的进程的main类。
-
+- `pid` 虚拟机的进程id
+- `main class` 接收诊断命令请求的进程的main类。
 - `command`
+
 > 该命令必须是针对所选JVM的有效`jcmd`命令。
 
 > `jcmd`的可用命令列表是通过运行`help`命令(`jcmd pid help`)获得的，其中`pid`是运行`Java`进程的进程ID。
@@ -556,17 +491,10 @@ jcmd -h
 
 > 如果没有提供任何选项，会列出正在运行的`Java`进程标识符以及用于启动进程的主类和命令行参数(与使用`-l`相同)。
 
-- `Perfcounter.print`
-> 打印目标`Java`进程上可用的性能计数器。性能计数器的列表可能会随着`Java`进程的不同而产生变化。
-
-- `-f file`
-> 从文件file中读取命令，然后在目标`Java`进程上调用这些命令。
-
-- `-l`
-> 查看所有的进程列表信息。
-
-- `-h`
-> 查看帮助信息。（同`-help`）
+- `Perfcounter.print` 打印目标`Java`进程上可用的性能计数器。性能计数器的列表可能会随着`Java`进程的不同而产生变化。
+- `-f file` 从文件file中读取命令，然后在目标`Java`进程上调用这些命令。
+- `-l` 查看所有的进程列表信息。
+- `-h` 查看帮助信息。（同`-help`）
 
 **查看可用命令**
 
@@ -582,23 +510,14 @@ jcmd <pid> GC.heap_dump /home/heap.hprof
 ```
 
 
-
-
-### Java脚本工具
-
-
-| 工具名称           | 用途   |
-|----------------|------|
-| jrunscript.exe | 运行脚本 |
-
 ### 其他工具
 
->
 
 | 工具名称               | 用途                                                                                                                   |
 |--------------------|----------------------------------------------------------------------------------------------------------------------|
 | jabswitch.exe      | Java Access Bridge Switch的简称，用于控制Java访问桥的开/关。Java访问桥是一种技术，让Java应用程序实现Accessibility API，以供Microsoft Windows系统的辅助技术访问。 |
 | javafxpackager.exe | JavaFX打包工具                                                                                                           |
+| jrunscript.exe | 运行脚本 |
 
 
 
@@ -608,9 +527,10 @@ jcmd <pid> GC.heap_dump /home/heap.hprof
 
 ## JVM
 
+> 因为Tomcat运行在JAVA虚拟机之上,适当调整运行JVM参数可以提升整体性能。
+- Windows：修改`bin/catalina.bat`文件，文件中有注释说明
+- Linux：修改`bin/catalina.sh`文件，文件中有注释说明
 
-### JVM参数优化
-> 因为Tomcat运行在JAVA虚拟机之上,适当调整Tomcat的运行JVM参数可以提升整体性能。
 
 ### 常用参数
 
@@ -642,14 +562,14 @@ jcmd <pid> GC.heap_dump /home/heap.hprof
 | -XX:+ParallelRefProcEnabled           	| 并行处理Reference，加快处理速度，缩短耗时                                                                                                                                                                                                                               	|
 
 
-### 参考
+### 参考参数
 
 > 根据JDK8-4G内存-4核CPU生成的`JVM`参数，打印了`gc`各个阶段的日志
 
 > 看看`ygc`的回收时间，以及`old`区大小，最后看`FGC`
 
 ```bash
-export JAVA_OPTS="
+JAVA_OPTS="
 -server
 -Xmx2688M
 -Xms2688M
@@ -682,27 +602,6 @@ export JAVA_OPTS="
 -XX:+PrintHeapAtGC
 "
 ```
-
-### windows
-
-- 添加JAVA_HOME和JRE_HOME
-
-```bash
-set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_191
-set JRE_HOME=C:\Program Files\Java\jre1.8.0_201
-```
-
-> 修改`bin/catalina.bat`文件,在setlocal下面一行添加，注意代码格式
-
-![](/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Windows.png)
-
-
-
-### linux
-
-> 修改`bin/catalina.sh`文件,在最前面添加，注意代码格式
-
-![](/images/Tomcat%E4%BF%AE%E6%94%B9JVM%E5%8F%82%E6%95%B0Linux.png)
 
 
 ### 其他命令
@@ -751,46 +650,29 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:tran
 ### 参数说明
 
 - `-Djavax.net.debug` 查看调试信息
+
 > `all` 代表所有，其他有`SSL`,`handshake`,`date`,`trust manager`
 
 - `-Xdebug` 是通知JVM工作在DEBUG模式下
 - `-Xnoagent` 禁用默认sun.tools.debug调试器。
-
 - `-Djava.compiler=NONE` 为了加快debug的速度，禁止JIT编译器的加载，[详细说明](https://www.iteye.com/problems/89141)
+- `-Xrunjdwp` 是通知JVM使用(Java debug wire protocol)来运行调试环境。
 
-- `-Xrunjdwp` 是通知JVM使用(Java debug wire protocol)来运行调试环境。该参数同时了一系列的调试选项：
 > `transport`指定了调试数据的传送方式，`dt_socket`是指用SOCKET模式，`dt_shmem`指用共享内存方式，`dt_shmem`只适用于Windows平台。
 
 - `server=y/n` VM是否需要作为调试服务器执行。
-
 - `suspend=y/n` 是否在调试客户端建立连接之后启动 VM 。(设置为y时启动不了)
-
 - `onthrow=java.io.IOException` 指明，当产生该类型的Exception时，JVM就会中断下来，进行调式。可选参数
-
 - `launch=/sbin/echo` 指明，当JVM被中断下来时，执行的可执行程序。可选参数
-
 - `onuncaught=y/n` 指明，出现uncaught exception 后，是否中断JVM的执行.
 
 ### 客户端使用
 
 - 在IDEA中，点击顶部菜单`Run`点击`Edit Configuration`按钮-->出现弹窗，点击`+`按钮，找到`Remote`选项。
-
 - 在`Name`中填入Remote项目名称，在`Host`中填IP地址，在`Port`中填端口号，在`Use Module classpath`选择远程调试的项目module，配置完成后点击OK即可
 
 > 启动项目时选择刚刚填的Remote项目名称
 
 ![](/images/IDEA远程debug调试.png)
-
-
-## 三方工具
-
-### 无侵入式的jvm监控工具MyPerf4J
-
-* [https://github.com/ThinkpadNC5/MyPerf4J](https://github.com/ThinkpadNC5/MyPerf4J)
-
-### Alibaba Java诊断利器Arthas
-
-* [https://github.com/alibaba/arthas](https://github.com/alibaba/arthas)
-[https://alibaba.github.io/arthas](https://alibaba.github.io/arthas)
 
 

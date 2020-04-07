@@ -425,55 +425,43 @@ public static void main(String[] args) {
 
 > 所以我们在用synchronized关键字的时候，尽量缩小代码段的范围，尽量不要在整个方法上加同步。这叫减小锁的粒度，使代码更大程度的并发。
 
-> static方法可以直接类名加方法名调用，方法中无法使用this，所以它锁的不是this，而是类的Class对象，所以static synchronized方法也相当于全局锁，相当于锁住了代码段。
+> static方法可以直接类名加方法名调用，方法中无法使用this，所以它锁的不是this，而是Class，所以static synchronized方法也相当于全局锁，相当于锁住了代码段。
 
-![](/images/synchronized使用方式.png)
+
 
 ```java
-public class SynchronizedDemo {
-    // 这是静态的锁,因为静态就带有this的含义,所以不能用this,而用类.class
-    public static void test() {
-        synchronized (SynchronizedDemo.class) {
-            // 业务逻辑......
-        }
+public class Demo {
+
+    // 同步实例方法，锁住的是当前实例对象，不同对象实例访问时不会阻塞
+    public synchronized void method() {
     }
-}
-```
 
-```java
-// 测试过，在quartz中两个任务同时执行时无效！
-public class SynchronizedDemo {
+    // 同步静态方法，锁住的是当前类，不同对象实例访问时都会被阻塞
+    public static synchronized void methods() {
+    }
+
     public void test() {
+        // 同步代码块，锁住的是当前实例对象，相对于同步实例方法粒度更小
         synchronized (this) {
-            // 业务逻辑......
         }
-    }
-}
-```
-
-### 将任意对象作为对象监视器
-
-> 多个线程持有对象监视器作为同一个对象的前提下，同一时间只有一个线程可以执行synchronized(任意自定义对象)同步代码快。
-
-```java
-public class SynchronizedDemo {
-    public void test() {
-        synchronized (Object.class) {
-            // 业务逻辑......
+        // 同步代码块，锁住的是类，可以是当前类或任意类
+        synchronized (Demo.class) {
         }
-    }
-}
-```
-
-```java
-public class SynchronizedDemo {
-    // lock放在方法外部会使整个方法同步
-    // String lock = "";
-    public void test() {
-        // lock放在方法内部使同步代码块同步
+        // 同步代码块，任意实例对象作为锁，锁住的是指定的实例对象，
+        // 注意Integer、Character、Short、Long等有缓存，
+        // 如果超出范围锁住的是新对象
         String lock = "";
-        synchronized (lock) {
-            // 业务逻辑......
+        // String.intern()是一个Native方法,当调用 intern 方法时，
+        // 如果常量池中已经该字符串，则返回池中的字符串；
+        // 否则将此字符串添加到常量池中，并返回字符串的引用。
+        synchronized (lock.intern()) {
+        }
+    }
+
+    // 同步静态方法，锁住的是类，可以是当前类或任意类，
+    // 不同对象实例访问时都会被阻塞
+    public static void testStatic() {
+        synchronized (Demo.class) {
         }
     }
 }
@@ -585,9 +573,7 @@ class ThreadTest implements Runnable {
 ```
 
 
-- 直接在函数体使用
-
-> 匿名内部类，其实也是属于第二种实现方式的特例
+- 直接在函数体使用，匿名内部类，其实也是属于第二种实现方式的特例
 
 ```java
 public class ThreadTest {
@@ -761,13 +747,9 @@ class RunnableThread implements Runnable {
 
 * [异步时代-java的协程路在何方](https://www.cnblogs.com/tohxyblog/p/10712798.html)
 * [次时代Java编程（一）：Java里的协程](https://blog.csdn.net/qiansg123/article/details/80123051)
-
-
 * [java协程框架quasar和kotlin中的协程](http://kailing.pub/article/index/arcid/252.html)
 * [https://github.com/kilim/kilim](https://github.com/kilim/kilim)
 [Kilim工作原理](http://chen-tao.github.io/2015/10/02/kilim-work-way/)
-
-
 * [https://github.com/puniverse/quasar](https://github.com/puniverse/quasar)
 [quasar从原理到代码应用](https://blog.csdn.net/guzhangyu12345/article/details/84666423)
 

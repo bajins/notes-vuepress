@@ -222,7 +222,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 
 
-## JavaFX开发
+## JavaFX
 
 
 * [JavaFX最新消息](http://fxexperience.com)
@@ -235,8 +235,5 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [IntelliJ IDEA 中配置 SceneBuilder](https://yangfangs.github.io/2017/07/28/JavaFx-SceneBuilder/#intellij-idea-%E4%B8%AD%E9%85%8D%E7%BD%AE-scenebuilder)
 * [JavaFx+Springboot+Maven 开发打包教程](https://segmentfault.com/a/1190000014037443)
 * [JavaFX 实现截图](http://www.private-blog.com/2018/01/29/javafx-%E5%AE%9E%E7%8E%B0webview%E6%88%AA%E5%9B%BE)
-
-
-![](/images/JavaFX.png)
 
 
