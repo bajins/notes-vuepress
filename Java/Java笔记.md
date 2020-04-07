@@ -16,6 +16,7 @@
 * [什么是散列表(Hash Table)](https://www.jianshu.com/p/101c263cd93e)
 * [HashMap在Jdk1.7和1.8中的实现](https://yuanrengu.com/2020/ba184259.html)
 * [HashMap的底层结构和实现原理](https://www.cnblogs.com/chengxiao/p/6059914.html)
+* [ConcurrentHashMap实现原理及源码分析](https://www.cnblogs.com/chengxiao/p/6842045.html)
 * [初学者应该了解的数据结构：Array、HashMap 与 List](https://www.zcfy.cc/article/data-structures-for-beginners-arrays-hashmaps-and-lists)
 
 ---
