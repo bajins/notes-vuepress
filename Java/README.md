@@ -7,6 +7,10 @@
 
 ## flag
 
++ [https://docs.oracle.com](https://docs.oracle.com)
+
+- [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
+
 * [https://www.oracle.com/cn/downloads](https://www.oracle.com/cn/downloads)
 * [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
 [下载地址镜像](/Other/README.md#通用镜像)
