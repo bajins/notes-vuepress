@@ -11,7 +11,7 @@
 - JavaFX源码：JDK安装目录下的`javafx-src.zip`文件
 - Java源码：JDK安装目录下的`src.zip`文件
 
-> IDEA查看源码都是从这两个ZIP文件加载
+> IDEA查看源码都是从这两个ZIP文件加载，查看源码解压ZIP到`Maven`项目的`src/main/java`下，或者直接解压到普通项目`src`下
 
 * [https://www.ej-technologies.com](https://www.ej-technologies.com)
 * [https://github.com/oracle/graal](https://github.com/oracle/graal)

@@ -144,7 +144,7 @@
 
 * [https://baike.baidu.com/item/BitTorrent](https://baike.baidu.com/item/BitTorrent)
 
-> 特征码（该字符串，一般是40个字的一串字母和数字的组合）下载：打开BT下载工具（迅雷、快车、旋风、BitComet、BitTorrent、uTorrent等等），
+> 特征码（该字符串，一般是40个字的一串字母和数字的组合）下载：打开BT下载工具（迅雷、BitComet、BitTorrent、uTorrent等等），
 > 例如比特彗星，点击磁链，直接粘贴下载即可。如果使用迅雷的话还需要在特征码前面加上`magnet:?xt=urn:btih:`
 
 - `BT-Trackers`服务器地址
@@ -162,14 +162,18 @@
     * [https://github.com/1265578519/OpenTracker](https://github.com/1265578519/OpenTracker)
 
 
+* [https://www.bitcomet.com](https://www.bitcomet.com)
+[https://www.lanzous.com/b073c7g4f](https://www.lanzous.com/b073c7g4f)
 * [https://github.com/qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent)
-[https://www.lanzous.com/b073dnr7g](https://www.lanzous.com/b073dnr7g)
+[https://www.lanzous.com/b073jjwta](https://www.lanzous.com/b073jjwta)
 * [https://github.com/c0re100/qBittorrent-Enhanced-Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition)
+[https://www.lanzous.com/b073dnr7g](https://www.lanzous.com/b073dnr7g)
 * [https://transmissionbt.com](https://transmissionbt.com)
 * [https://deluge-torrent.org](https://deluge-torrent.org)
 * [https://www.utorrent.com](https://www.utorrent.com)
-* [https://www.bitcomet.com](https://www.bitcomet.com)
 [https://www.lanzous.com/b073c7g4f](https://www.lanzous.com/b073c7g4f)
+* [uTorrent／qBittorrent／BitComet](https://www.lanzous.com/b0f1awgqb)
+
 
 
 **aria2**
@@ -193,13 +197,13 @@
 
 **迅雷**
 
-> 由于总所周知的原因（大家都将迅雷叫吸血雷：只下载不上传），下载Torrent链接（磁力）、Torrent文件（比特流种子）、
+> 由于总所周知的原因（大家都将迅雷叫吸血雷：只下载不上传），下载Magnet链接（磁力）、Torrent文件（比特流种子）、
 > eMule（电驴）等请使用`Bit Torrent`工具
 
 * [https://www.lanzous.com/b906590](https://www.lanzous.com/b906590)
 * [https://www.lanzous.com/b505936](https://www.lanzous.com/b505936)
 * [https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q](https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q)
-* [迅雷 X 去广告](https://tmr.js.org/categories/%E7%A0%B4%E8%A7%A3)
+
 
 
 **百度网盘**

@@ -33,7 +33,6 @@
 * 猫咪论文：[https://lunwen.im](https://lunwen.im)
 * iData（论文搜索）：[http://www.cn-ki.net](http://www.cn-ki.net)
 * 文泉考试：[https://www.wqkaoshi.com](https://www.wqkaoshi.com)
-* 慕课网：[https://www.imooc.com](https://www.imooc.com)
 
 
 
@@ -57,6 +56,9 @@
 * [wizardforcel (@wizardforcel) on GitBook · GitBook (Legacy)](https://legacy.gitbook.com/@wizardforcel)
 * [代码拾遗 - 高质量的代码教程](https://www.codemore.top/archives)
 * [https://www.w3cschool.cn](https://www.w3cschool.cn)
+* [https://wiki.imooc.com](https://wiki.imooc.com)
+* [http://codingdict.com/tutorials](http://codingdict.com/tutorials)
+
 
 
 
