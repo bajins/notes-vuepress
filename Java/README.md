@@ -15,10 +15,13 @@
 - [https://www.oracle.com/java/technologies/java-ee-glance.html](https://www.oracle.com/java/technologies/java-ee-glance.html)
 
 * [https://www.oracle.com/cn/downloads](https://www.oracle.com/cn/downloads)
-* [https://github.com/javaee](https://github.com/javaee)
-* [https://github.com/unofficial-openjdk/openjdk](https://github.com/unofficial-openjdk/openjdk)
 * [http://hg.openjdk.java.net](http://hg.openjdk.java.net)
-* [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
+* [https://github.com/unofficial-openjdk/openjdk](https://github.com/unofficial-openjdk/openjdk)
+
++ [https://github.com/javaee](https://github.com/javaee)
++ [https://github.com/eclipse-ee4j](https://github.com/eclipse-ee4j)
+[https://projects.eclipse.org/jakartaee/releases/8](https://projects.eclipse.org/jakartaee/releases/8)
++ [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
 [下载地址镜像](/Other/README.md#通用镜像)
 
 ---

@@ -17,41 +17,182 @@
 
 ## JDK
 
-| 注解                 	| 版本   	| 说明                                                                             	|
-|----------------------	|--------	|----------------------------------------------------------------------------------	|
-| @Retention           	| jdk1.5 	| 元注解：表示注解保留周期                                                         	|
-| @Target              	| jdk1.5 	| 元注解：表示注解可以使用在什么地方                                               	|
-| @Documented          	| jdk1.5 	| 元注解：将注解写入文档                                                           	|
-| @Inherited           	| jdk1.5 	| 元注解：子类继承父类的注解（子类没有任何注解修饰）                               	|
-| @Repeatable          	| jdk1.8 	| 表示注解的属性可以重复！@Repeatable通俗来讲，就是注解容器！                      	|
-| @Deprecated          	| jdk1.5 	| 内置注解：用于标志过时的类、方法和成员变量                                       	|
-| @Override            	| jdk1.5 	| 内置注解：用于修饰重写的方法                                                     	|
-| @SuppressWarnings    	| jdk1.5 	| 内置注解：用户忽略@Deprecated标志过的警告                                        	|
-| @SafeVarargs         	| jdk1.7 	| 参数安全类型注解，用于提示用户参数安全                                           	|
-| @FunctionalInterface 	| jdk1.8 	| 函数式接口注解，用于定义函数式接口                                               	|
-| @Interface           	| jdk1.5 	| 注解的创建和接口的创建，用来声明一个注解                                         	|
-| @Native              	| jdk1.8 	| 生成本机头文件的工具的提示，以确定是否需要头文件，如果需要，它应该包含哪些声明。 	|
-| @HandlerChain        	|        	| 使 Web Service 与外部定义的处理程序链相关联。                                    	|
-| @Oneway              	|        	| 表示为只有输入消息而没有输出消息的 Web Service 单向操作                          	|
-| @WebMethod           	|        	| 该注解用于用@WebService注解的类或接口的方法上，表示要发布的方法                  	|
-| @WebParam            	|        	| 表示方法的参数                                                                   	|
-| @WebResult           	|        	| 表示方法的返回值                                                                 	|
-| @WebService          	|        	| 用于对接口，类进行注解，表示要发布的web服务                                      	|
-| @SOAPBinding         	|        	| SOAP绑定类型：RPC、DOCUMENT                                                  	|
+> 从Java源码中提取的所有注解
+
+| 注解                            	| 版本       	| 说明                                                                                       	|
+|---------------------------------	|------------	|--------------------------------------------------------------------------------------------	|
+| @WebParam                       	|            	| 表示方法的参数                                                                             	|
+| @Oneway                         	|            	| 表示为只有输入消息而没有输出消息的 Web Service 单向操作                                    	|
+| @WebResult                      	|            	| 表示方法的返回值                                                                           	|
+| @HandlerChain                   	|            	| 使 Web Service 与外部定义的处理程序链相关联。                                              	|
+| @WebService                     	|            	| 用于对接口，类进行注解，表示要发布的web服务                                                	|
+| @WebMethod                      	|            	| 该注解用于用@WebService注解的类或接口的方法上，表示要发布的方法                            	|
+| @SOAPMessageHandlers            	|            	|                                                                                            	|
+| @SOAPMessageHandler             	|            	|                                                                                            	|
+| @SOAPBinding                    	|            	| SOAP绑定类型：RPC、DOCUMENT                                                                	|
+| @InitParam                      	|            	|                                                                                            	|
+| @Resource                       	|            	|                                                                                            	|
+| @Resources                      	|            	|                                                                                            	|
+| @PreDestroy                     	| Servlet2.5 	| 被@PreDestroy修饰的方法会在服务器卸载Servlet之前运行，并且只会被服务器调用一次             	|
+| @Generated                      	|            	|                                                                                            	|
+| @PostConstruct                  	| Servlet2.5 	| 被@PostConstruct修饰的方法会在服务器加载Servle且构造函数之后执行，并且只会被服务器执行一次 	|
+| @RespectBinding                 	|            	|                                                                                            	|
+| @ResponseWrapper                	|            	|                                                                                            	|
+| @WebServiceRefs                 	|            	|                                                                                            	|
+| @Action                         	|            	|                                                                                            	|
+| @RequestWrapper                 	|            	|                                                                                            	|
+| @WebServiceProvider             	|            	|                                                                                            	|
+| @WebServiceRef                  	|            	|                                                                                            	|
+| @FaultAction                    	|            	|                                                                                            	|
+| @WebFault                       	|            	|                                                                                            	|
+| @ServiceMode                    	|            	|                                                                                            	|
+| @WebEndpoint                    	|            	|                                                                                            	|
+| @BindingType                    	|            	|                                                                                            	|
+| @WebServiceClient               	|            	|                                                                                            	|
+| @Addressing                     	|            	|                                                                                            	|
+| @MTOM                           	|            	|                                                                                            	|
+| @WebServiceFeatureAnnotation    	|            	|                                                                                            	|
+| @XmlSeeAlso                     	|            	|                                                                                            	|
+| @XmlElementDecl                 	|            	|                                                                                            	|
+| @XmlIDREF                       	|            	|                                                                                            	|
+| @XmlValue                       	|            	|                                                                                            	|
+| @XmlAccessorType                	|            	|                                                                                            	|
+| @XmlMixed                       	|            	|                                                                                            	|
+| @XmlID                          	|            	|                                                                                            	|
+| @XmlRootElement                 	|            	|                                                                                            	|
+| @XmlElementRef                  	|            	|                                                                                            	|
+| @XmlEnum                        	|            	|                                                                                            	|
+| @XmlElementWrapper              	|            	|                                                                                            	|
+| @XmlEnumValue                   	|            	|                                                                                            	|
+| @XmlType                        	|            	|                                                                                            	|
+| @XmlAccessorOrder               	|            	|                                                                                            	|
+| @XmlSchemaTypes                 	|            	|                                                                                            	|
+| @XmlInlineBinaryData            	|            	|                                                                                            	|
+| @XmlSchema                      	|            	|                                                                                            	|
+| @XmlAnyElement                  	|            	|                                                                                            	|
+| @XmlSchemaType                  	|            	|                                                                                            	|
+| @XmlRegistry                    	|            	|                                                                                            	|
+| @XmlList                        	|            	|                                                                                            	|
+| @XmlAttribute                   	|            	|                                                                                            	|
+| @XmlAttachmentRef               	|            	|                                                                                            	|
+| @XmlNs                          	|            	|                                                                                            	|
+| @XmlMimeType                    	|            	|                                                                                            	|
+| @XmlElements                    	|            	|                                                                                            	|
+| @XmlElement                     	|            	|                                                                                            	|
+| @XmlElementRefs                 	|            	|                                                                                            	|
+| @XmlTransient                   	|            	|                                                                                            	|
+| @XmlAnyAttribute                	|            	|                                                                                            	|
+| @XmlJavaTypeAdapters            	|            	|                                                                                            	|
+| @XmlJavaTypeAdapter             	|            	|                                                                                            	|
+| @Interned                       	|            	|                                                                                            	|
+| @NotNull                        	|            	|                                                                                            	|
+| @Nullable                       	|            	|                                                                                            	|
+| @MessageDumping                 	|            	|                                                                                            	|
+| @FeatureConstructor             	|            	|                                                                                            	|
+| @FeatureListValidatorAnnotation 	|            	|                                                                                            	|
+| @InstanceResolverAnnotation     	|            	|                                                                                            	|
+| @SchemaValidation               	|            	|                                                                                            	|
+| @Serialization                  	|            	|                                                                                            	|
+| @StreamingAttachment            	|            	|                                                                                            	|
+| @UsesJAXBContext                	|            	|                                                                                            	|
+| @MemberSubmissionAddressing     	|            	|                                                                                            	|
+| @XmlAccessorFactory             	|            	|                                                                                            	|
+| @OverrideAnnotationOf           	|            	|                                                                                            	|
+| @XmlIsSet                       	|            	|                                                                                            	|
+| @XmlLocation                    	|            	|                                                                                            	|
+| @WsgenProtocol                  	|            	|                                                                                            	|
+| @InheritedAttributes            	|            	|                                                                                            	|
+| @DescriptorFields               	|            	|                                                                                            	|
+| @ParameterNames                 	|            	|                                                                                            	|
+| @ManagedAttribute               	|            	|                                                                                            	|
+| @AMXMetadata                    	|            	|                                                                                            	|
+| @InheritedAttribute             	|            	|                                                                                            	|
+| @IncludeSubclass                	|            	|                                                                                            	|
+| @ManagedData                    	|            	|                                                                                            	|
+| @ManagedOperation               	|            	|                                                                                            	|
+| @Description                    	|            	|                                                                                            	|
+| @NameValue                      	|            	|                                                                                            	|
+| @ManagedObject                  	|            	|                                                                                            	|
+| @DescriptorKey                  	|            	|                                                                                            	|
+| @Taxonomy                       	|            	|                                                                                            	|
+| @Reset                          	|            	|                                                                                            	|
+| @ProbeParam                     	|            	|                                                                                            	|
+| @ProbeProvider                  	|            	|                                                                                            	|
+| @Probe                          	|            	|                                                                                            	|
+| @ProbeListener                  	|            	|                                                                                            	|
+| @EnvelopeStyle                  	|            	|                                                                                            	|
+| @Property                       	|            	|                                                                                            	|
+| @DatabindingMode                	|            	|                                                                                            	|
+| @Reference                      	|            	|                                                                                            	|
+| @Immutable                      	|            	|                                                                                            	|
+| @Ignore                         	|            	|                                                                                            	|
+| @Logger                         	|            	|                                                                                            	|
+| @Setter                         	|            	|                                                                                            	|
+| @Constructor                    	|            	|                                                                                            	|
+| @Optimistic                     	|            	|                                                                                            	|
+| @SpecializedFunction            	|            	|                                                                                            	|
+| @ScriptClass                    	|            	|                                                                                            	|
+| @Function                       	|            	|                                                                                            	|
+| @Getter                         	|            	|                                                                                            	|
+| @CallerSensitive                	|            	|                                                                                            	|
+| @Contended                      	|            	|                                                                                            	|
+| @MXBean                         	|            	|                                                                                            	|
+| @ProbeName                      	|            	|                                                                                            	|
+| @ProviderName                   	|            	|                                                                                            	|
+| @Attributes                     	|            	|                                                                                            	|
+| @NameAttributes                 	|            	|                                                                                            	|
+| @ProviderAttributes             	|            	|                                                                                            	|
+| @FunctionAttributes             	|            	|                                                                                            	|
+| @ModuleName                     	|            	|                                                                                            	|
+| @ModuleAttributes               	|            	|                                                                                            	|
+| @ArgsAttributes                 	|            	|                                                                                            	|
+| @FunctionName                   	|            	|                                                                                            	|
+| @ConstructorProperties          	|            	|                                                                                            	|
+| @Transient                      	|            	|                                                                                            	|
+| @Deprecated                     	| jdk1.5     	| 内置注解：用于标志过时的类、方法和成员变量                                                 	|
+| @FunctionalInterface            	| jdk1.8     	| 函数式接口注解，用于定义函数式接口                                                         	|
+| @SafeVarargs                    	| jdk1.7     	| 参数安全类型注解，用于提示用户参数安全                                                     	|
+| @Override                       	| jdk1.5     	| 内置注解：用于修饰重写的方法                                                               	|
+| @SuppressWarnings               	| jdk1.5     	| 内置注解：用户忽略@Deprecated标志过的警告                                                  	|
+| @Repeatable                     	| jdk1.8     	| 表示注解的属性可以重复！@Repeatable通俗来讲，就是注解容器！                                	|
+| @Inherited                      	| jdk1.5     	| 元注解：子类继承父类的注解（子类没有任何注解修饰）                                         	|
+| @Retention                      	| jdk1.5     	| 元注解：表示注解保留周期                                                                   	|
+| @Documented                     	| jdk1.5     	| 元注解：将注解写入文档                                                                     	|
+| @Target                         	| jdk1.5     	| 元注解：表示注解可以使用在什么地方                                                         	|
+| @Native                         	| jdk1.8     	| 生成本机头文件的工具的提示，以确定是否需要头文件，如果需要，它应该包含哪些声明。           	|
+| @Validate                       	|            	|                                                                                            	|
+| @RequireContainer               	|            	|                                                                                            	|
+| @Require                        	|            	|                                                                                            	|
+| @Exported                       	|            	|                                                                                            	|
+| @SupportedOptions               	|            	|                                                                                            	|
+| @SupportedAnnotationTypes       	|            	|                                                                                            	|
+| @SupportedSourceVersion         	|            	|                                                                                            	|
+| @Trusted                        	|            	|                                                                                            	|
+
 
 
 
 ## Servlet
 
-| 注解             	| 版本       	| 说明                                                                                       	|
-|------------------	|------------	|--------------------------------------------------------------------------------------------	|
-| @PostConstruct   	| Servlet2.5 	| 被@PostConstruct修饰的方法会在服务器加载Servle且构造函数之后执行，并且只会被服务器执行一次 	|
-| @PreDestroy      	| Servlet2.5 	| 被@PreDestroy修饰的方法会在服务器卸载Servlet之前运行，并且只会被服务器调用一次             	|
-| @WebServlet      	| Servlet3.0 	| 用于声明servlet                                                                            	|
-| @WebListener     	| Servlet3.0 	| 用于声明过监听器，可通过控制filter的文件名来控制执行顺序                                   	|
-| @WebFilter       	| Servlet3.0 	| 用于声明过滤器                                                                             	|
-| @WebInitParam    	| Servlet3.0 	| 为 Servlet 或者过滤器指定初始化参数，配置@WebServlet或@WebFilter时使用                     	|
-| @MultipartConfig 	| Servlet3.0 	| HttpServletRequest 提供的对上传文件的支持，该注解标注在 Servlet 上面                       	|
+> `Tomcat 7.0`及以上版本的`server.api`才有注解
+
+- `servlet.jar` 是`servlet 3.0`版本之前的地址
+- `javax.servlet-api.jar` 是`servlet 3.0`版本之后的地址
+
+* [https://github.com/eclipse-ee4j/servlet-api](https://github.com/eclipse-ee4j/servlet-api)
+
+
+| 注解                  	| 版本       	| 说明                                                                   	|
+|-----------------------	|------------	|------------------------------------------------------------------------	|
+| @WebServlet           	| Servlet3.0 	| 用于声明servlet                                                        	|
+| @WebListener          	| Servlet3.0 	| 用于声明过监听器，可通过控制filter的文件名来控制执行顺序               	|
+| @WebFilter            	| Servlet3.0 	| 用于声明过滤器                                                         	|
+| @WebInitParam         	| Servlet3.0 	| 为 Servlet 或者过滤器指定初始化参数，配置@WebServlet或@WebFilter时使用 	|
+| @MultipartConfig      	| Servlet3.0 	| HttpServletRequest 提供的对上传文件的支持，该注解标注在 Servlet 上面   	|
+| @HandlesTypes         	|            	|                                                                        	|
+| @HttpConstraint       	|            	|                                                                        	|
+| @HttpMethodConstraint 	|            	|                                                                        	|
+| @ServletSecurity      	|            	|                                                                        	|
 
 
 
@@ -62,6 +203,9 @@
 
 > `javax.validation.Validation`、`hibernate-validator`和`Spring validtor`
 > 提供了`JSR 303`规范中所有内置constraint 的实现，除此之外还有一些附加的 constraint
+
+* [https://beanvalidation.org](https://beanvalidation.org)
+
 
 | 注解                               	| 支持Java类型                                          	| 备注                                                         	|
 |------------------------------------	|-------------------------------------------------------	|--------------------------------------------------------------	|
