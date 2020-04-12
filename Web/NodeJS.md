@@ -303,6 +303,7 @@ request({
 
 * [https://github.com/GoogleChrome/puppeteer](https://github.com/GoogleChrome/puppeteer)
 * [Puppeteer配置小记](https://www.itfanr.cc/2019/04/10/configuration-development-of-puppeteer)
+* [https://github.com/microsoft/playwright](https://github.com/microsoft/playwright)
 
 **[xpath和css选择器](/Python/Python爬虫.md#xpath和css选择器)**
 **[`chromedriver`](/Python/Python爬虫.md#chromedriver)**

@@ -33,9 +33,9 @@ taskkill /f /im chromedriver.exe
 * [微信公众号爬虫](https://github.com/search?o=desc&q=%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%88%AC%E8%99%AB&s=updated&type=Repositories)
 * [https://github.com/wnma3mz/wechat_articles_spider](https://github.com/wnma3mz/wechat_articles_spider)
 * [WeChat Hook](https://github.com/search?o=desc&q=WeChat+Hook&s=updated&type=Repositories)
-* [https://github.com/Mocha-L/WechatPCAPI](https://github.com/Mocha-L/WechatPCAPI)
 * [https://github.com/redtips/wechathook](https://github.com/redtips/wechathook)
-
+* [https://github.com/codeByDog/pcWechat](https://github.com/codeByDog/pcWechat)
+* [https://github.com/wwg88888888/WeChatExt](https://github.com/wwg88888888/WeChatExt)
 
 
 
