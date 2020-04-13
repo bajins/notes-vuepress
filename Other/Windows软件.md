@@ -84,14 +84,13 @@
 * [http://lao4g.com](http://lao4g.com)
 * [https://www.haorenka.org](https://www.haorenka.org)
 
----
 
-* [http://www.sharerw.com](http://www.sharerw.com)
-* [https://htcui.com](https://htcui.com)
-* [https://www.lanzous.com/b05f9wyf](https://www.lanzous.com/b05f9wyf)
-* [Balatan](https://forum.release-apk.com/search.php?author_id=49&sr=topics&sf=firstpost)
-* [https://patch.chelpus.com](https://patch.chelpus.com)
-* [一个人的冬季的帖子 ,智友邦](http://bbs.zhiyoo.net/home.php?mod=space&uid=3&do=thread&view=me&from=space)
++ [http://www.sharerw.com](http://www.sharerw.com)
++ [https://htcui.com](https://htcui.com)
++ [https://www.lanzous.com/b05f9wyf](https://www.lanzous.com/b05f9wyf)
++ [Balatan](https://forum.release-apk.com/search.php?author_id=49&sr=topics&sf=firstpost)
++ [https://patch.chelpus.com](https://patch.chelpus.com)
++ [一个人的冬季的帖子 ,智友邦](http://bbs.zhiyoo.net/home.php?mod=space&uid=3&do=thread&view=me&from=space)
 
 
 
@@ -116,12 +115,11 @@
 
 ## 下载器
 
-* [https://github.com/search?q=downloader&type=Repositories](https://github.com/search?q=downloader&type=Repositories)
-* [https://github.com/topics/downloader](https://github.com/topics/downloader)
-* [https://github.com/topics/download](https://github.com/topics/download)
-* [https://github.com/topics/download-manager](https://github.com/topics/download-manager)
++ [https://github.com/search?q=downloader&type=Repositories](https://github.com/search?q=downloader&type=Repositories)
++ [https://github.com/topics/downloader](https://github.com/topics/downloader)
++ [https://github.com/topics/download](https://github.com/topics/download)
++ [https://github.com/topics/download-manager](https://github.com/topics/download-manager)
 
----
 
 * [https://github.com/xdown-org](https://github.com/xdown-org) [https://xdown.org](https://xdown.org)
 * [https://github.com/monkeyWie/proxyee-down](https://github.com/monkeyWie/proxyee-down)
@@ -131,8 +129,6 @@
 * [Free Download Manager](http://www.freedownloadmanager.org/download.htm)
 * [Negibox葱葱盒子](https://github.com/hugetiny/negibox)
 * [https://github.com/agalwood/Motrix](https://github.com/agalwood/Motrix)
-
----
 
 > 【诚通网盘下载提示】：点击下载后，立马取消（就是点击浏览器左上角的`X`按钮停止访问），然后再次点击下载，可以提速好几倍
 
@@ -491,9 +487,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH
 * [https://www.52pojie.cn/thread-953460-1-1.html](https://www.52pojie.cn/thread-953460-1-1.html)
 * [http://1clipboard.io](http://1clipboard.io)
 
----
 
-* [https://copiedapp.com](https://copiedapp.com)
+- [https://copiedapp.com](https://copiedapp.com)
 
 
 
@@ -567,12 +562,11 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 
 **KMS**
 
-* [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
-* [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
-* [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
-* [https://github.com/netnr/kms](https://github.com/netnr/kms)
++ [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
++ [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
++ [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
++ [https://github.com/netnr/kms](https://github.com/netnr/kms)
 
----
 
 * [可用的 KMS 列表](https://www.coolhub.top/archives/14)
 * [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)

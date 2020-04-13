@@ -33,13 +33,11 @@
 * [https://github.com/topics/ssh2](https://github.com/topics/ssh2)
 * [https://github.com/topics/ssh](https://github.com/topics/ssh)
 
----
 
-* [https://github.com/topics/sftp](https://github.com/topics/sftp)
-* [https://github.com/topics/sftp-client](https://github.com/topics/sftp-client)
-* [https://github.com/topics/ftp-client](https://github.com/topics/ftp-client)
+- [https://github.com/topics/sftp](https://github.com/topics/sftp)
+- [https://github.com/topics/sftp-client](https://github.com/topics/sftp-client)
+- [https://github.com/topics/ftp-client](https://github.com/topics/ftp-client)
 
----
 
 * [https://github.com/electerm/electerm](https://github.com/electerm/electerm)
 
@@ -258,19 +256,18 @@ Swap:            0B          0B          0B
 
 ## svp
 
-* [https://github.com/search?o=desc&q=vmess&s=updated&type=Repositories](https://github.com/search?o=desc&q=vmess&s=updated&type=Repositories)
-* [https://github.com/search?o=desc&q=v2ray&s=updated&type=Repositories](https://github.com/search?o=desc&q=v2ray&s=updated&type=Repositories)
-* [https://github.com/topics/v2ray?o=desc&s=updated](https://github.com/topics/v2ray?o=desc&s=updated)
-* [https://github.com/topics/gfw](https://github.com/topics/gfw)
-* [https://github.com/Alvin9999/new-pac/wiki](https://github.com/Alvin9999/new-pac/wiki)
-* [https://github.com/lasoychina/v2ray_booking](https://github.com/lasoychina/v2ray_booking)
++ [https://github.com/search?o=desc&q=vmess&s=updated&type=Repositories](https://github.com/search?o=desc&q=vmess&s=updated&type=Repositories)
++ [https://github.com/search?o=desc&q=v2ray&s=updated&type=Repositories](https://github.com/search?o=desc&q=v2ray&s=updated&type=Repositories)
++ [https://github.com/topics/v2ray?o=desc&s=updated](https://github.com/topics/v2ray?o=desc&s=updated)
++ [https://github.com/topics/gfw](https://github.com/topics/gfw)
++ [https://github.com/Alvin9999/new-pac/wiki](https://github.com/Alvin9999/new-pac/wiki)
++ [https://github.com/lasoychina/v2ray_booking](https://github.com/lasoychina/v2ray_booking)
 [https://ssr.lasoy.cn](https://ssr.lasoy.cn)
-* [https://github.com/txthinking/brook](https://github.com/txthinking/brook)
-* [https://github.com/atrandys/trojan](https://github.com/atrandys/trojan)
-* [OpenVPN-转载](https://liuyehcf.github.io/2019/08/25/OpenVPN-%E8%BD%AC%E8%BD%BD)
-* [https://github.com/NetchX/Netch](https://github.com/NetchX/Netch)
++ [https://github.com/txthinking/brook](https://github.com/txthinking/brook)
++ [https://github.com/atrandys/trojan](https://github.com/atrandys/trojan)
++ [OpenVPN-转载](https://liuyehcf.github.io/2019/08/25/OpenVPN-%E8%BD%AC%E8%BD%BD)
++ [https://github.com/NetchX/Netch](https://github.com/NetchX/Netch)
 
----
 
 * [https://github.com/91CL](https://github.com/91CL)
 * [https://github.com/ssrsub/ssr/tree/master](https://github.com/ssrsub/ssr/tree/master)
@@ -296,15 +293,13 @@ Swap:            0B          0B          0B
 * [https://github.com/CSE2018-2019/VMESS](https://github.com/CSE2018-2019/VMESS)
 * [https://github.com/Sean-Snow/good-good-study-day-day-up](https://github.com/Sean-Snow/good-good-study-day-day-up)
 
----
 
-
-* [https://t.me/s/ssrshares](https://t.me/s/ssrshares)
-* [https://t.me/s/mtplinks](https://t.me/s/mtplinks)
-* [https://t.me/s/socks5list](https://t.me/s/socks5list)
-* [https://t.me/s/SSRSUB](https://t.me/s/SSRSUB)
-* [https://t.me/s/mtpclub](https://t.me/s/mtpclub)
-* [https://t.me/s/FQ_FREE](https://t.me/s/FQ_FREE)
+- [https://t.me/s/ssrshares](https://t.me/s/ssrshares)
+- [https://t.me/s/mtplinks](https://t.me/s/mtplinks)
+- [https://t.me/s/socks5list](https://t.me/s/socks5list)
+- [https://t.me/s/SSRSUB](https://t.me/s/SSRSUB)
+- [https://t.me/s/mtpclub](https://t.me/s/mtpclub)
+- [https://t.me/s/FQ_FREE](https://t.me/s/FQ_FREE)
 
 
 **WireGuard**
@@ -327,19 +322,17 @@ Swap:            0B          0B          0B
 
 **v2ray**
 
-* [v2ray-tools](https://www.v2ray.com/awesome/tools.html)
-* [v2ray教程](https://yuan.ga/v2ray-complete-tutorial)
-* [https://github.com/233boy/v2ray/tree/master](https://github.com/233boy/v2ray/tree/master)
++ [v2ray-tools](https://www.v2ray.com/awesome/tools.html)
++ [v2ray教程](https://yuan.ga/v2ray-complete-tutorial)
++ [https://github.com/233boy/v2ray/tree/master](https://github.com/233boy/v2ray/tree/master)
 
----
 
-* [v2ray-core](https://github.com/v2ray/v2ray-core/releases)
-* [v2rayNG-android](https://github.com/2dust/v2rayNG/releases)
-* [v2rayN-Windows](https://github.com/2dust/v2rayN/releases)
-* [https://github.com/Qv2ray/Qv2ray](https://github.com/Qv2ray/Qv2ray)
-* [https://github.com/vrnobody/V2RayGCon](https://github.com/vrnobody/V2RayGCon)
+- [v2ray-core](https://github.com/v2ray/v2ray-core/releases)
+- [v2rayNG-android](https://github.com/2dust/v2rayNG/releases)
+- [v2rayN-Windows](https://github.com/2dust/v2rayN/releases)
+- [https://github.com/Qv2ray/Qv2ray](https://github.com/Qv2ray/Qv2ray)
+- [https://github.com/vrnobody/V2RayGCon](https://github.com/vrnobody/V2RayGCon)
 
----
 
 * [multi-v2ray](https://github.com/Jrohy/multi-v2ray)
 * [https://github.com/wulabing/V2Ray_ws-tls_bash_onekey](https://github.com/wulabing/V2Ray_ws-tls_bash_onekey)

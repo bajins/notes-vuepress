@@ -15,18 +15,15 @@
 * [reposurgeon是一种工具,用于编辑版本控制存储库的历史](http://www.catb.org/esr/reposurgeon)
 * [https://github.com/gitextensions/gitextensions](https://github.com/gitextensions/gitextensions)
 
----
 
-* [常用命令 · git笔记 · 看云](https://www.kancloud.cn/leviio/git/330946)
-* [Git 常用命令及使用详解 - 喵斯基部落](https://www.moewah.com/archives/2292.html)
-* [Pro Git 中文版（第二版）](https://progit.bootcss.com)
-* [Git速查手册](https://www.rumosky.wiki/docs/learngit)
++ [常用命令 · git笔记 · 看云](https://www.kancloud.cn/leviio/git/330946)
++ [Git 常用命令及使用详解 - 喵斯基部落](https://www.moewah.com/archives/2292.html)
++ [Pro Git 中文版（第二版）](https://progit.bootcss.com)
++ [Git速查手册](https://www.rumosky.wiki/docs/learngit)
 
 
----
-
-* [git-pull.bat](/files/git-pull.bat)
-* [git-pull.sh](/files/git-pull.sh)
+- [git-pull.bat](/files/git-pull.bat)
+- [git-pull.sh](/files/git-pull.sh)
 
 
 

@@ -80,14 +80,12 @@ chrome://flags/#enable-parallel-downloading
 * [https://github.com/joue-quroi/cookie-editor](https://github.com/joue-quroi/cookie-editor)
 [https://add0n.com/cookie-editor.html](https://add0n.com/cookie-editor.html)
 
----
-
-* [将完整的网页保存到单个HTML文件](https://github.com/gildas-lormeau/SingleFile)
-* [https://github.com/vsDizzy/SaveAsMHT](https://github.com/vsDizzy/SaveAsMHT)
-* [https://github.com/brian-girko/save-as-mhtml](https://github.com/brian-girko/save-as-mhtml)
-* [Save Page WE](https://chrome.google.com/webstore/detail/save-page-we/dhhpefjklgkmgeafimnjhojgjamoafof)
-* [https://github.com/danny0838/webscrapbook](https://github.com/danny0838/webscrapbook)
-* [https://github.com/mika-cn/maoxian-web-clipper](https://github.com/mika-cn/maoxian-web-clipper)
+- [将完整的网页保存到单个HTML文件](https://github.com/gildas-lormeau/SingleFile)
+- [https://github.com/vsDizzy/SaveAsMHT](https://github.com/vsDizzy/SaveAsMHT)
+- [https://github.com/brian-girko/save-as-mhtml](https://github.com/brian-girko/save-as-mhtml)
+- [Save Page WE](https://chrome.google.com/webstore/detail/save-page-we/dhhpefjklgkmgeafimnjhojgjamoafof)
+- [https://github.com/danny0838/webscrapbook](https://github.com/danny0838/webscrapbook)
+- [https://github.com/mika-cn/maoxian-web-clipper](https://github.com/mika-cn/maoxian-web-clipper)
 
 
 
@@ -128,6 +126,9 @@ chrome://flags/#enable-parallel-downloading
 * [清除浏览器历史记录/缓存/Cookie：chrome-cleaner](https://chrome.google.com/webstore/detail/chrome-cleaner/lbpddeimojmbpkbfckjpnbpehgnbpnnl)
 * [https://github.com/adam-p/markdown-here](https://github.com/adam-p/markdown-here)
 * [名称生成器扩展](https://github.com/kondratyev-nv/name-genarator-extension)
+* [https://github.com/privacypass/challenge-bypass-extension](https://github.com/privacypass/challenge-bypass-extension)
+
+
 
 
 ## 账号数据迁移

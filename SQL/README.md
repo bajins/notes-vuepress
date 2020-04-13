@@ -1,8 +1,7 @@
-# MySQL
+# SQL
 
 
 [[toc]]
-
 
 
 
@@ -20,7 +19,8 @@
 * [https://github.com/major/MySQLTuner-perl](https://github.com/major/MySQLTuner-perl)
 * [https://github.com/BMDan/tuning-primer.sh](https://github.com/BMDan/tuning-primer.sh)
 * pt-query-digest、pt-variable-advisor：[https://www.percona.com/downloads/percona-toolkit/LATEST/](https://www.percona.com/downloads/percona-toolkit/LATEST/)
-
+* [https://www.red-gate.com/products](https://www.red-gate.com/products)
+* [https://www.sqlgate.com](https://www.sqlgate.com)
 
 
 
@@ -70,4 +70,6 @@
 * [http://www.redis.cn/documentation.html](http://www.redis.cn/documentation.html)
 * [http://redisdoc.com](http://redisdoc.com)
 * [https://github.com/guodongxiaren/redis-wiki](https://github.com/guodongxiaren/redis-wiki)
+* redis常用特性：[https://github.com/LxyTe/redis](https://github.com/LxyTe/redis)
+
 

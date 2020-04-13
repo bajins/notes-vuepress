@@ -8,13 +8,12 @@
 
 ## flag
 
-* [https://github.com/golang](https://github.com/golang)
-* [https://go.dev](https://go.dev)
-* [https://golang.google.cn/dl](https://golang.google.cn/dl)
++ [https://github.com/golang](https://github.com/golang)
++ [https://go.dev](https://go.dev)
++ [https://golang.google.cn/dl](https://golang.google.cn/dl)
 [https://gomirrors.org](https://gomirrors.org)
 [https://www.godoc.org](https://www.godoc.org)
 
----
 
 * [Go 语言文档中文翻译](https://github.com/Go-zh/go)
 * [Go 标准库中文文档](https://github.com/huangz1990/cngolib.com)

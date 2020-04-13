@@ -25,11 +25,9 @@
 
 ## Android
 
-* [https://flutter.cn](https://flutter.cn)
-* [https://flutterchina.club](https://flutterchina.club)
++ [https://flutter.cn](https://flutter.cn)
++ [https://flutterchina.club](https://flutterchina.club)
 
-
----
 
 * [https://github.com/lihangleo2/Imgdots](https://github.com/lihangleo2/Imgdots)
 * [https://github.com/yangchong211/YCVideoPlayer](https://github.com/yangchong211/YCVideoPlayer)

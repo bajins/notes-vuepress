@@ -286,3 +286,38 @@ demo                        # 顶级项目（根项目）
 
 > 这个插件对于查找问题特别方便，定位异常，点击右键快速跳转到`stackoverflow`网站，每次至少为你节约了`10`秒。
 
+
+**Key promoter X**
+
+> 很多人不愿意切换 IDE 就是因为快捷键的习惯问题。刚好这个插件可以提醒快捷键，有代入感，提醒的多了你就会了。
+> 对于新手建议安装熟悉一下快捷键。
+
+
+**CodeGlance**
+
+> 代码编辑区迷你缩放插件，可以进行代码的全局预览。
+
+
+**CamelCase**
+
+> 命名风格转换插件，可以在 kebab-case，SNAKE_CASE，PascalCase，camelCase，snake_case 和 空格风格之间切换。
+> 快捷键苹果为<kbd>⇧</kbd> + <kbd>⌥</kbd> + <kbd>U</kbd>，windows下为<kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>U</kbd>。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/zuF5sJGRDCtABGzCT9OksCqCQxVIcAKFxMMdDZCrsAPfUrf9QKB4kmMVOOGggicxoWfHtN2WVRDrEoFlNrIO8IQ/640)
+
+
+**JavaDoc**
+
+> 快速生成 java 注释的插件有很多，评分比较高的就是 JavaDoc ，注意作者为 Sergey Timofiychuk 。通过快捷 就可以生成注释。mac 的快捷键需要自己去设置， windows 快捷键如下：
+
+- 要为活动元素生成 javadocs，请按 shift + alt + G。
+- 要为当前 java 文件中的所有元素生成 javadocs，请按 shift + ctrl + alt + G。
+- 删除当前/选定元素上的 javadocs 请按 shift + alt + Z。
+- 删除当前类所有元素上的 javadocs：请按 shift + ctrl + alt + Z。
+
+
+**Git Commit Template**
+
+> Git格式化模版，你可以按照实际情况格式化你的提交信息
+
+

@@ -24,11 +24,9 @@
 + [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
 [下载地址镜像](/Other/README.md#通用镜像)
 
----
-
-* [fastjson这么快老外为啥还是热衷 jackson?](https://www.zhihu.com/question/44199956)
-* [JAX-WS与JAX-RS区别是什么？](https://blog.csdn.net/dogiant/article/details/54907506)
-* [接口框架 : WebService与Jersey RESTful 要点梳理](https://blog.csdn.net/zzg19950824/article/details/80300501)
+- [fastjson这么快老外为啥还是热衷 jackson?](https://www.zhihu.com/question/44199956)
+- [JAX-WS与JAX-RS区别是什么？](https://blog.csdn.net/dogiant/article/details/54907506)
+- [接口框架 : WebService与Jersey RESTful 要点梳理](https://blog.csdn.net/zzg19950824/article/details/80300501)
 
 
 **学习**
@@ -40,6 +38,12 @@
 * [https://github.com/doocs/advanced-java](https://github.com/doocs/advanced-java)
 * [https://github.com/TiantianUpup?tab=repositories](https://github.com/TiantianUpup?tab=repositories)
 * [https://github.com/cicadasmile/middle-ware-parent](https://github.com/cicadasmile/middle-ware-parent)
+* [https://github.com/LingCoder/OnJava8](https://github.com/LingCoder/OnJava8)
+* [https://github.com/CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes)
+* [https://github.com/sjsdfg/CS-Notes-PDF](https://github.com/sjsdfg/CS-Notes-PDF)
+* [https://github.com/sjsdfg/effective-java-3rd-chinese](https://github.com/sjsdfg/effective-java-3rd-chinese)
+* [https://github.com/RedSpider1/concurrent](https://github.com/RedSpider1/concurrent)
+
 
 
 **MediaType**
@@ -112,10 +116,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * 对配置内容加密：[https://github.com/ulisesbocchio/jasypt-spring-boot](https://github.com/ulisesbocchio/jasypt-spring-boot)
 
 
----
-
-* [https://github.com/rabbitmq](https://github.com/rabbitmq)
-* [https://github.com/reactor](https://github.com/reactor)
+- [https://github.com/rabbitmq](https://github.com/rabbitmq)
+- [https://github.com/reactor](https://github.com/reactor)
 
 
 **Transaction**

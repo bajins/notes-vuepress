@@ -8,9 +8,8 @@
 
 ## flag
 
-* [https://www.yiibai.com/html/java/](https://www.yiibai.com/html/java)
++ [https://www.yiibai.com/html/java/](https://www.yiibai.com/html/java)
 
----
 
 * [什么是 hash](https://www.zhihu.com/question/26762707/answer/890181997)
 * [什么是散列表(Hash Table)](https://www.jianshu.com/p/101c263cd93e)
@@ -19,15 +18,14 @@
 * [ConcurrentHashMap实现原理及源码分析](https://www.cnblogs.com/chengxiao/p/6842045.html)
 * [初学者应该了解的数据结构：Array、HashMap 与 List](https://www.zcfy.cc/article/data-structures-for-beginners-arrays-hashmaps-and-lists)
 
----
 
-* [强一致性、弱一致性、最终一致性、读写一致性、单调读、因果一致性 的区别与联系](https://zhuanlan.zhihu.com/p/67949045)
-* [CAP 定理的含义](http://www.ruanyifeng.com/blog/2018/07/cap.html)
-* [二进制运算](https://www.cnblogs.com/c-x-a/p/9478643.html)
-* [什么是位运算](https://www.jianshu.com/p/d75b0a461380)
-* [java运算符](https://blog.csdn.net/shuaigexiaobo/article/details/88535745)
-* [数据库扩展性设计：使用二进制解决一条记录关联多个状态的问题](https://www.cnblogs.com/itfly8/p/6062757.html)
-* [必学十大经典排序算法](https://mp.weixin.qq.com/s/mq2NSG3xMqIs28nU354TjQ)
+- [强一致性、弱一致性、最终一致性、读写一致性、单调读、因果一致性 的区别与联系](https://zhuanlan.zhihu.com/p/67949045)
+- [CAP 定理的含义](http://www.ruanyifeng.com/blog/2018/07/cap.html)
+- [二进制运算](https://www.cnblogs.com/c-x-a/p/9478643.html)
+- [什么是位运算](https://www.jianshu.com/p/d75b0a461380)
+- [java运算符](https://blog.csdn.net/shuaigexiaobo/article/details/88535745)
+- [数据库扩展性设计：使用二进制解决一条记录关联多个状态的问题](https://www.cnblogs.com/itfly8/p/6062757.html)
+- [必学十大经典排序算法](https://mp.weixin.qq.com/s/mq2NSG3xMqIs28nU354TjQ)
 
 
 
@@ -65,20 +63,19 @@
 - `WEB-INF/classes`目录存放`src`目录`java`文件编译之后的`class`文件、`xml`、`properties`等资源配置文件，这是一个定位资源的入口
 - `lib`和`classes`同属`classpath`，两者的访问优先级为: `lib` > `classes`
 
----
 
-- `classpath`：只会到你的`class`路径中查找文件
++ `classpath`：只会到你的`class`路径中查找文件
 
 > `classpath:`和`classpath:/`是等价的，都是相对于类的根路径。资源文件库标准的在文件系统中，也可以在`JAR`或`WAR`的类包中。
 
-- `classpath*`：不仅包含`class`路径，还包括`jar`文件中（`class`路径）进行查找
++ `classpath*`：不仅包含`class`路径，还包括`jar`文件中（`class`路径）进行查找
 
 > 注意：用`classpath*`需要遍历所有的`classpath`，所以加载速度是很慢，尽量避免使用
 
 > 项目模块依赖深度：A –> B –> C，在B中没有配置文件的情况下，A中的`classpath*`加载到B的配置文件，
 > C加载自己配置文件要用`classpath*`，否则A加载配置文件无法加载到C的配置文件
 
-- `**`表示在任意目录下，也就是说在`WEB-INF/classes/`下任意层的目录
++ `**`表示在任意目录下，也就是说在`WEB-INF/classes/`下任意层的目录
 
 
 

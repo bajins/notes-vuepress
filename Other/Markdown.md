@@ -21,9 +21,7 @@
 * [markdown语法大全](https://www.rumosky.wiki/docs/markdown)
 
 
----
-
-* GitHub角落图标 [https://github.com/tholman/github-corners](https://github.com/tholman/github-corners)
+- GitHub角落图标 [https://github.com/tholman/github-corners](https://github.com/tholman/github-corners)
 
 
 
@@ -407,9 +405,8 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://knb.im/mp](https://knb.im/mp)
 * [https://github.com/ufologist/wechat-mp-article](https://github.com/ufologist/wechat-mp-article)
 
----
 
-* [mp-transform-public](https://github.com/ZhuPeng/mp-transform-public)
+- [mp-transform-public](https://github.com/ZhuPeng/mp-transform-public)
 
 
 

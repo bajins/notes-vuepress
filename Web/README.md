@@ -16,7 +16,7 @@
 * [https://github.com/mathjax](https://github.com/mathjax)
 
 
-* [https://github.com/material-components](https://github.com/material-components)
+- [https://github.com/material-components](https://github.com/material-components)
 [https://md.maxoxo.design](https://md.maxoxo.design)
 
 
@@ -35,14 +35,13 @@
 
 ## 静态博客或文档
 
-* [https://github.com/topics/static-site](https://github.com/topics/static-site)
-* [https://github.com/topics/blog-engine](https://github.com/topics/blog-engine)
-* [https://github.com/topics/static-blog](https://github.com/topics/static-blog)
-* [不蒜子文章统计](http://busuanzi.ibruce.info)
++ [https://github.com/topics/static-site](https://github.com/topics/static-site)
++ [https://github.com/topics/blog-engine](https://github.com/topics/blog-engine)
++ [https://github.com/topics/static-blog](https://github.com/topics/static-blog)
++ [不蒜子文章统计](http://busuanzi.ibruce.info)
 [https://www.npmjs.com/search?q=keywords:busuanzi](https://www.npmjs.com/search?q=keywords:busuanzi)
 
 
----
 
 * [静态编译VuePress](https://github.com/vuejs/vuepress)
 * [静态编译NuxtJs](https://github.com/nuxt/nuxt.js)

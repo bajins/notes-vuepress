@@ -18,21 +18,16 @@
 [https://cmdchallenge.com](https://cmdchallenge.com)
 
 
----
-
-* [添加快捷方式](/files/添加快捷方式.bat)
-* [设置必应壁纸](/files/设置必应壁纸.bat)
-* [设置GitHub的Hosts](/files/设置github的hosts.bat)
-* [frpc.bat](/files/frpc.bat)
++ [添加快捷方式](/files/添加快捷方式.bat)
++ [设置必应壁纸](/files/设置必应壁纸.bat)
++ [设置GitHub的Hosts](/files/设置github的hosts.bat)
++ [frpc.bat](/files/frpc.bat)
 
 > 会自动检测本地`fprc`是否为最新版本，如果不是或者没有则下载最新版
 
----
 
 - `if`和`for`的条件与后面跟的`(`之间必须要有一个空格，否则会出现`命令语法不正确`的问题！
-
 - 使用cd切换目录时，如果带盘符一定要加`/d`参数，否则切换无效
-
 - 双引号中包含双引号最里层的要用三个`"""`转义，`&`符号要用`^`转义
   - 示例:使用`curl`配合`jq`获取必应壁纸下载地址
   

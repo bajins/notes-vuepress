@@ -8,13 +8,12 @@
 
 ## flag
 
-* [https://github.com/No-Github/Digital-Privacy](https://github.com/No-Github/Digital-Privacy)
-* [Adobe Photoshop键盘快捷键](https://helpx.adobe.com/cn/photoshop/using/default-keyboard-shortcuts.html)
-* [Photoshop快捷键大全](http://www.ip138.com/photoshop)
-* [最详细的PS快捷键大全](http://www.360doc.com/content/19/0507/02/9060464_833889392.shtml)
-* [python、java、c、go执行速度对比](https://www.jianshu.com/p/d60eff598aa0)
++ [https://github.com/No-Github/Digital-Privacy](https://github.com/No-Github/Digital-Privacy)
++ [Adobe Photoshop键盘快捷键](https://helpx.adobe.com/cn/photoshop/using/default-keyboard-shortcuts.html)
++ [Photoshop快捷键大全](http://www.ip138.com/photoshop)
++ [最详细的PS快捷键大全](http://www.360doc.com/content/19/0507/02/9060464_833889392.shtml)
++ [python、java、c、go执行速度对比](https://www.jianshu.com/p/d60eff598aa0)
 
----
 
 * [https://github.com/cloudflare/wrangler](https://github.com/cloudflare/wrangler)
 * [https://github.com/topics/reverse-proxy](https://github.com/topics/reverse-proxy)
@@ -27,14 +26,11 @@
 * [https://github.com/aploium/zmirror](https://github.com/aploium/zmirror)
 
 
----
+- [https://siguso.com](https://siguso.com)
+- [https://www.uedbox.com/share](https://www.uedbox.com/share)
+- [showdoc](https://github.com/star7th/showdoc)
+- [https://github.com/asciidoctor](https://github.com/asciidoctor)
 
-* [https://siguso.com](https://siguso.com)
-* [https://www.uedbox.com/share](https://www.uedbox.com/share)
-* [showdoc](https://github.com/star7th/showdoc)
-* [https://github.com/asciidoctor](https://github.com/asciidoctor)
-
----
 
 * [https://github.com/search?q=learning&type=Repositories](https://github.com/search?q=learning&type=Repositories)
 
@@ -145,14 +141,13 @@
 * [https://github.com/aonemd/jazl](https://github.com/aonemd/jazl)
 * [https://github.com/art-deco/akashic.page](https://github.com/art-deco/akashic.page)
 
----
 
-* [https://github.com/Buzut/jamments](https://github.com/Buzut/jamments)
-* [https://github.com/sheychen290/comtodon](https://github.com/sheychen290/comtodon)
-* [https://github.com/qwqcode/Artalk](https://github.com/qwqcode/Artalk)
-* [https://github.com/patarapolw/aloud](https://github.com/patarapolw/aloud)
-* [https://github.com/umputun/remark42](https://github.com/umputun/remark42)
-* [https://github.com/pozitron57/open-source-comments](https://github.com/pozitron57/open-source-comments)
++ [https://github.com/Buzut/jamments](https://github.com/Buzut/jamments)
++ [https://github.com/sheychen290/comtodon](https://github.com/sheychen290/comtodon)
++ [https://github.com/qwqcode/Artalk](https://github.com/qwqcode/Artalk)
++ [https://github.com/patarapolw/aloud](https://github.com/patarapolw/aloud)
++ [https://github.com/umputun/remark42](https://github.com/umputun/remark42)
++ [https://github.com/pozitron57/open-source-comments](https://github.com/pozitron57/open-source-comments)
 
 
 

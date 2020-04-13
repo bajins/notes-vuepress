@@ -12,14 +12,12 @@
 
 > `PowerShell`提供对`COM`（组件对象模型）和`WMI`（Windows管理规范）的完全访问，具有丰富的控制与自动化的系统管理能力，
 > 能够轻松地做到实时、大规模的管理系统。获取本机所有`COM`组件对象脚本 [Get-COM-Objects.ps1](/files/Get-COM-Objects.ps1)
+
 * [PowerShell 与 cmd 有什么不同？](https://www.zhihu.com/question/22611859/answers/updated)
 * [PowerShell为什么强大](https://www.pstips.net/why-is-powershell-powerful.html)
 
-
-* [如何使用 PowerShell 文档](https://docs.microsoft.com/zh-cn/powershell/scripting/how-to-use-docs)
-* [PowerShell 在线教程](https://www.pstips.net/powershell-online-tutorials)
-
----
+- [如何使用 PowerShell 文档](https://docs.microsoft.com/zh-cn/powershell/scripting/how-to-use-docs)
+- [PowerShell 在线教程](https://www.pstips.net/powershell-online-tutorials)
 
 * [https://github.com/PowerShell](https://github.com/PowerShell)
 * [安装适用于 Linux 的 Windows 子系统](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)

@@ -15,12 +15,10 @@
 * [https://github.com/guodongxiaren/LinuxTool](https://github.com/guodongxiaren/LinuxTool)
 
 
----
-
-* [https://lamp.sh](https://lamp.sh)
-* [https://oneinstack.com](https://oneinstack.com)
-* [https://lnmp.org](https://lnmp.org)
-* [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625)
+- [https://lamp.sh](https://lamp.sh)
+- [https://oneinstack.com](https://oneinstack.com)
+- [https://lnmp.org](https://lnmp.org)
+- [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625)
 
 
 **编辑器**
