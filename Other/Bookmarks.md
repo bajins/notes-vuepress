@@ -38,6 +38,9 @@
 
 ## 书籍
 
++ [https://github.com/royeo/awesome-programming-books](https://github.com/royeo/awesome-programming-books)
++ [https://github.com/justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)
+
 * 书栈网（极力推荐）：[https://www.bookstack.cn](https://www.bookstack.cn)
 * 码农之家（计算机电子书下载）：[http://www.xz577.com](http://www.xz577.com)
 * 鸠摩搜书：[http://www.jiumodiary.com](http://www.jiumodiary.com)
@@ -58,6 +61,9 @@
 * [https://www.w3cschool.cn](https://www.w3cschool.cn)
 * [https://wiki.imooc.com](https://wiki.imooc.com)
 * [http://codingdict.com/tutorials](http://codingdict.com/tutorials)
+* [https://epubw.com](https://epubw.com)
+* [http://www.allitebooks.org](http://www.allitebooks.org)
+* [http://www.dcsdn.com](http://www.dcsdn.com)
 
 
 

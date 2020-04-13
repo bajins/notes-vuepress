@@ -23,6 +23,9 @@
 
 - GitHub角落图标 [https://github.com/tholman/github-corners](https://github.com/tholman/github-corners)
 
++ 中文文案排版指北：[https://github.com/sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)
++ 中英混排文档在线排版工具：[https://github.com/CyC2018/Text-Typesetting](https://github.com/CyC2018/Text-Typesetting)
+[https://cyc2018.github.io/Text-Typesetting](https://cyc2018.github.io/Text-Typesetting)
 
 
 
