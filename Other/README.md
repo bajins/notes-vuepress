@@ -42,6 +42,7 @@
 * [https://github.com/cnpm](https://github.com/cnpm)
 * [https://mirrors.cloud.tencent.com](https://mirrors.cloud.tencent.com)
 * [https://mirrors.huaweicloud.com](https://mirrors.huaweicloud.com)
+* [https://mirror.azure.cn](https://mirror.azure.cn)
 * [http://mirrors.sohu.com](http://mirrors.sohu.com)
 * [https://mirrors.163.com](https://mirrors.163.com)
 
