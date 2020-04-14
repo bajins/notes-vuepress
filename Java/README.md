@@ -31,10 +31,11 @@
 
 **学习**
 
+- [技术集合归档](https://blog.52itstyle.vip/architecture.html)
+
 + [https://github.com/Snailclimb/awesome-java](https://github.com/Snailclimb/awesome-java)
 
 * [https://github.com/Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)
-* [https://github.com/crossoverJie/Interview-Notebook](https://github.com/crossoverJie/Interview-Notebook)
 * [https://github.com/crossoverJie/JCSprout](https://github.com/crossoverJie/JCSprout)
 * [https://github.com/kdn251/interviews](https://github.com/kdn251/interviews)
 * [https://github.com/doocs/advanced-java](https://github.com/doocs/advanced-java)
@@ -43,9 +44,15 @@
 * [https://github.com/hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer)
 * [https://github.com/sjsdfg/effective-java-3rd-chinese](https://github.com/sjsdfg/effective-java-3rd-chinese)
 * [https://github.com/RedSpider1/concurrent](https://github.com/RedSpider1/concurrent)
+* [https://github.com/javagrowing/JGrowing](https://github.com/javagrowing/JGrowing)
+* [https://github.com/caison/java-knowledge-mind-map](https://github.com/caison/java-knowledge-mind-map)
+* [https://github.com/qinxuewu/docs](https://github.com/qinxuewu/docs)
+* [https://github.com/scalad/Note](https://github.com/scalad/Note)
+* [https://github.com/stalary/Source-code-analysis](https://github.com/stalary/Source-code-analysis)
+* [https://github.com/nibnait/algorithms](https://github.com/nibnait/algorithms)
 
-- [https://github.com/TiantianUpup?tab=repositories](https://github.com/TiantianUpup?tab=repositories)
-- [https://github.com/cicadasmile](https://github.com/cicadasmile)
+
+
 
 
 
@@ -237,7 +244,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://gitee.com/stylefeng/guns](https://gitee.com/stylefeng/guns)
 * [mall-swarm是一套微服务商城系统](https://github.com/macrozheng/mall-swarm)
 * [mall项目是一套电商系统，包括前台商城系统及后台管理系统](https://github.com/macrozheng/mall)
-* [https://github.com/TogetherOS/cicada](https://github.com/TogetherOS/cicada)
+
+
 
 
 

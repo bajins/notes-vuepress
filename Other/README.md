@@ -46,9 +46,7 @@
 * [https://mirrors.163.com](https://mirrors.163.com)
 
 
-
-
-### 教育网主要镜像站
+### 教育网镜像站
 
 **东北地区：**
 * 东北大学（[IPv4 & IPv6](http://mirror.neu.edu.cn), [IPv6](http://mirror.neu6.edu.cn)）
@@ -86,7 +84,7 @@
 
 
 
-## wikipedia
+## Wikipedia
 
 * [维基百科:维基百科拷贝网站](https://zh.wikipedia.org/wiki/Wikipedia:%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%8B%B7%E8%B4%9D%E7%BD%91%E7%AB%99)
 * [https://github.com/upupming/Mirror](https://github.com/upupming/Mirror)
@@ -96,24 +94,6 @@
 * [http://www.zgc261.com/wikipedia.html](http://www.zgc261.com/wikipedia.html)
 * [https://www.jinzhao.pro/wikipedia-mirror](https://www.jinzhao.pro/wikipedia-mirror)
 * [https://www.v2ex.com/t/623109](https://www.v2ex.com/t/623109)
-
-
-## 技术书籍和手册
-
-* [互联网上的免费书籍](https://github.com/ruanyf/free-books)
-* [开源文档中文镜像站](https://github.com/icopy-site/icopy-site.github.io)
-* [思维导图](https://github.com/search?o=desc&q=%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE&s=updated&type=Repositories)
-* [https://mm.edrawsoft.cn/community/15/1](https://mm.edrawsoft.cn/community/15/1)
-* [收集整理下一些软件或系统的官方手册](https://www.haiyun.me/doc.html)
-* [http://wiki.jikexueyuan.com](http://wiki.jikexueyuan.com)
-* [https://cloud.tencent.com/developer/devdocs](https://cloud.tencent.com/developer/devdocs)
-
-
-## 很棒的项目
-
-* [https://github.com/search?q=awesome](https://github.com/search?q=awesome)
-* [https://github.com/topics/awesome](https://github.com/topics/awesome)
-* [https://github.com/topics/awesome-list](https://github.com/topics/awesome-list)
 
 
 
@@ -214,6 +194,7 @@
 ## 身份和信用卡
 
 * [ruyo](https://51.ruyo.net/%E8%99%9A%E6%8B%9F%E8%BA%AB%E4%BB%BD%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%94%9F%E6%88%90)
+
 **生成完整用户信息**
 
 > （有生成数量限制）支持美国、日本、德国、英国等多国身份
@@ -259,7 +240,7 @@
 
 **GitHub**
 
-* [https://github.com/search?o=desc&q=fake+name&s=updated&type=Repositories](https://github.com/search?o=desc&q=fake+name&s=updated&type=Repositories)
++ [https://github.com/search?o=desc&q=fake+name&s=updated&type=Repositories](https://github.com/search?o=desc&q=fake+name&s=updated&type=Repositories)
 
 
 * [https://github.com/marak/Faker.js](https://github.com/marak/Faker.js)

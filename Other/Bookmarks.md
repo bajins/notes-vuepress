@@ -8,8 +8,47 @@
 ## flag
 
 * [https://ss.netnr.com](https://ss.netnr.com)
-* 各种非常棒的项目组织：[https://github.com/jobbole](https://github.com/jobbole)
 * [130 余个相见恨晚的超实用网站](https://blog.csdn.net/qq_43901693/article/details/100606828)
+
+
+**开源组织**
+
+* [https://github.com/google](https://github.com/google)
+* [https://github.com/alibaba](https://github.com/alibaba)
+* [https://github.com/tencent](https://github.com/tencent)
+* [https://github.com/huawei](https://github.com/huawei)
+* [https://github.com/ctripcorp](https://github.com/ctripcorp)
+* [https://github.com/vipshop](https://github.com/vipshop)
+
+- [https://github.com/TogetherOS](https://github.com/TogetherOS)
+- [https://github.com/lets-blade](https://github.com/lets-blade)
+- 各种非常棒的学习项目：[https://github.com/jobbole](https://github.com/jobbole)
+- 用于学习数据结构和算法：[https://github.com/TheAlgorithms](https://github.com/TheAlgorithms)
+- [https://github.com/doocs](https://github.com/doocs)
+
+
+
+
+**开源个人**
+
+* [https://github.com/qinxuewu](https://github.com/qinxuewu)
+* [https://github.com/judasn](https://github.com/judasn)
+* [https://github.com/TiantianUpup](https://github.com/TiantianUpup)
+* [https://github.com/cicadasmile](https://github.com/cicadasmile)
+* [https://github.com/brianway](https://github.com/brianway)
+* [https://github.com/michaelliao](https://github.com/michaelliao)
+* [https://github.com/Blankj](https://github.com/Blankj)
+* [https://github.com/ityouknow](https://github.com/ityouknow)
+
+
+
+**很棒的项目**
+
+* [https://github.com/search?q=awesome](https://github.com/search?q=awesome)
+* [https://github.com/topics/awesome](https://github.com/topics/awesome)
+* [https://github.com/topics/awesome-list](https://github.com/topics/awesome-list)
+* [思维导图](https://github.com/search?o=desc&q=%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE&s=updated&type=Repositories)
+
 
 
 
@@ -64,6 +103,12 @@
 * [https://epubw.com](https://epubw.com)
 * [http://www.allitebooks.org](http://www.allitebooks.org)
 * [http://www.dcsdn.com](http://www.dcsdn.com)
+* 互联网上的免费书籍：[https://github.com/ruanyf/free-books](https://github.com/ruanyf/free-books)
+* 开源文档中文镜像站：[https://github.com/icopy-site/icopy-site.github.io](https://github.com/icopy-site/icopy-site.github.io)
+* [https://mm.edrawsoft.cn/community/15/1](https://mm.edrawsoft.cn/community/15/1)
+* 收集整理下一些软件或系统的官方手册：[https://www.haiyun.me/doc.html](https://www.haiyun.me/doc.html)
+* [http://wiki.jikexueyuan.com](http://wiki.jikexueyuan.com)
+* [https://cloud.tencent.com/developer/devdocs](https://cloud.tencent.com/developer/devdocs)
 
 
 
@@ -106,7 +151,7 @@
 * [HollisChuang&#39;s Blog-Java干货集散地](http://www.hollischuang.com)
 * [Spring-WebSocket · essay-note](https://zq99299.github.io/essay-note/chapter/websocket/spring.html)
 * [Java技术栈](http://www.javastack.cn)
-* [纯洁的微笑](http://www.ityouknow.com)
+* [archives - 纯洁的微笑博客](http://www.ityouknow.com/archives.html)
 * [程序猿DD | Java | Spring Boot | Spring Cloud | 最新干货分享](http://blog.didispace.com)
 * [Java知音-一个专注于技术分享的网站](https://www.javazhiyin.com)
 * [Archive | crossoverJie's Blog](https://crossoverjie.top/archives)
@@ -139,6 +184,11 @@
 * [Java技术驿站-一个专注于 Java 技术分享的精品博客](http://cmsblogs.com)
 * [Twocups，Java、算法](https://twocups.cn/index.php/%e5%8d%9a%e5%ae%a2%e5%88%86%e7%b1%bb/)
 * [文章归档-HollisChuang's Blog](https://www.hollischuang.com/list)
+* [archives - 沉默王二博客](http://www.itwanger.com/archives.html)
+* [归档 - 江南一点雨](https://www.javaboy.org/archives)
+* [所有文章 | 闷瓜蛋子的BLOG](https://fookwood.com/all-posts)
+* [archives - 匠心零度博客](http://www.jiangxinlingdu.com/archives.html)
+* [Lovnx_CSDN博客-J2SE,Spring Cloud,Spring Cloud领域博主](https://blog.csdn.net/rickiyeat)
 
 
 

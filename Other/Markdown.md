@@ -397,8 +397,12 @@ string &operator+(const string& A,const string& B) //cpp
 
 ### 微信公众号排版
 
-* [md.aclickall.com](https://md.aclickall.com)
+* [https://github.com/aclickall/aclickall.github.io](https://github.com/aclickall/aclickall.github.io)
+[md.aclickall.com](https://md.aclickall.com)
 * [https://github.com/doocs/md](https://github.com/doocs/md)
+* [https://github.com/phodal/mifa](https://github.com/phodal/mifa)
+[http://relatos.top/md](http://relatos.top/md)
+[https://md.phodal.com](https://md.phodal.com)
 * [https://github.com/mdnice/markdown-nice](https://github.com/mdnice/markdown-nice)
 * [https://github.com/lyricat/wechat-format](https://github.com/lyricat/wechat-format)
 * [https://github.com/zkqiang/wechat-mdeditor](https://github.com/zkqiang/wechat-mdeditor)
@@ -407,7 +411,7 @@ string &operator+(const string& A,const string& B) //cpp
 * [wechat-editor](https://so-easy.cc/wechat-editor)
 * [https://knb.im/mp](https://knb.im/mp)
 * [https://github.com/ufologist/wechat-mp-article](https://github.com/ufologist/wechat-mp-article)
-
+* [https://github.com/barretlee/online-markdown](https://github.com/barretlee/online-markdown)
 
 - [mp-transform-public](https://github.com/ZhuPeng/mp-transform-public)
 
