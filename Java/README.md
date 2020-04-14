@@ -38,12 +38,14 @@
 * [https://github.com/crossoverJie/JCSprout](https://github.com/crossoverJie/JCSprout)
 * [https://github.com/kdn251/interviews](https://github.com/kdn251/interviews)
 * [https://github.com/doocs/advanced-java](https://github.com/doocs/advanced-java)
-* [https://github.com/TiantianUpup?tab=repositories](https://github.com/TiantianUpup?tab=repositories)
-* [https://github.com/cicadasmile/middle-ware-parent](https://github.com/cicadasmile/middle-ware-parent)
 * [https://github.com/LingCoder/OnJava8](https://github.com/LingCoder/OnJava8)
 * [https://github.com/CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes)
+* [https://github.com/hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer)
 * [https://github.com/sjsdfg/effective-java-3rd-chinese](https://github.com/sjsdfg/effective-java-3rd-chinese)
 * [https://github.com/RedSpider1/concurrent](https://github.com/RedSpider1/concurrent)
+
+- [https://github.com/TiantianUpup?tab=repositories](https://github.com/TiantianUpup?tab=repositories)
+- [https://github.com/cicadasmile](https://github.com/cicadasmile)
 
 
 
