@@ -63,6 +63,17 @@
 - `org.springframework.http.MediaType` spring框架
 
 
+**HTTP**
+
+- `HttpURLConnection`是`RestTemplate`的默认实现
+- `WebClient`是`Spring 5.0`开始提供的非阻塞响应式编程的Http工具。
+- `Apache HttpComponents` [http://hc.apache.org](http://hc.apache.org)
+- `okHttp` [https://github.com/square/okhttp](https://github.com/square/okhttp)
+- `Netty` 
+
+* [HTTP客户端连接，选择HttpClient还是OkHttp？](https://juejin.im/post/5e156c80f265da5d3c6de72a)
+
+
 
 
 ## OpenJDK
@@ -117,8 +128,6 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/mybatis/mybatis-3](https://github.com/mybatis/mybatis-3)
 * [https://github.com/ehcache/ehcache3](https://github.com/ehcache/ehcache3)
 * [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
-* [https://github.com/square/okhttp](https://github.com/square/okhttp)
-[HTTP客户端连接，选择HttpClient还是OkHttp？](https://juejin.im/post/5e156c80f265da5d3c6de72a)
 * [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
 * [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
 * [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)

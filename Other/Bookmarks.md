@@ -39,6 +39,8 @@
 * [https://github.com/michaelliao](https://github.com/michaelliao)
 * [https://github.com/Blankj](https://github.com/Blankj)
 * [https://github.com/ityouknow](https://github.com/ityouknow)
+* [https://github.com/eugenp](https://github.com/eugenp) [https://www.baeldung.com](https://www.baeldung.com)
+
 
 
 
@@ -175,7 +177,6 @@
 * [http://muggle.javaboy.org](http://muggle.javaboy.org)
 * [归档 · 弥枳](https://blog.coor.top/archives)
 * [文章归档 - 拧螺丝的博客](https://justlei.cn/archives)
-* [https://www.baeldung.com](https://www.baeldung.com)
 * [归档 | gentlezuo的博客](https://gentlezuo.github.io/archives)
 * [归档集 -  我爱吃土豆](https://itudo.cn/archives.html)
 * [https://lihhz.gitee.io/post/](https://lihhz.gitee.io/post/)

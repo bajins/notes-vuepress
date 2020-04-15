@@ -14,6 +14,21 @@
 - [http://www.spring4all.com](http://www.spring4all.com)
 
 
+**webmvc与webflux**
+
+- webmvc是servlet stack based，基于同步阻塞的IO模型
+    - 在`org.springframework.web`包下
+    - `artifactId`：`spring-boot-starter-web`
+    - `RestTemplate` 阻塞式客户端，默认使用`HttpURLConnection`实现
+- webflux是reactive stack based，一个完全的reactive并且非阻塞的web框架，API公开了`Reactor Flux`和`Mono`类型
+    - 在`org.springframework.web.reactive`包下
+    - `artifactId`：`spring-boot-starter-webflux`
+    - `WebClient` 非阻塞式客户端，默认使用`Reactor Netty`实现
+
++ [Spring WebFlux快速上手](https://blog.csdn.net/get_set/article/details/79480233)
+
+* [Spring MVC or WebFlux?](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux-framework-choice)
+
 
 ## SpringBoot
 
