@@ -331,7 +331,6 @@
 
 ## 文件压缩
 
-* ~~[https://www.bandisoft.com/bandizip](https://www.bandisoft.com/bandizip)~~ 已有广告
 * [https://github.com/giorgiotani/PeaZip](https://github.com/giorgiotani/PeaZip)
 * [https://sourceforge.net/projects/sevenzip](https://sourceforge.net/projects/sevenzip)
 [https://www.7-zip.org/download.html](https://www.7-zip.org/download.html)
