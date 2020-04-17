@@ -212,7 +212,6 @@
 * [https://github.com/liuzhuoling2011/baidupcs-web](https://github.com/liuzhuoling2011/baidupcs-web)
 * [https://github.com/loliconer/baidupcs-mobile](https://github.com/loliconer/baidupcs-mobile)
 * [百度网盘直链下载助手](https://www.baiduyun.wiki)
-* [http://pandownload.com](http://pandownload.com)
 * [https://yixun.writeas.com](https://yixun.writeas.com)
 * [https://github.com/Kyle-Kyle/baidudl](https://github.com/Kyle-Kyle/baidudl)
 
@@ -339,9 +338,12 @@
 * [https://github.com/nmoinvaz/minizip](https://github.com/nmoinvaz/minizip)
 
 
+
+
 ## 程序打包
 
-* [单文件制作程序by527104427](http://blog.sina.com.cn/s/blog_6fd804fe0102wwwf.html)
+* [单文件制作程序byJexChan](http://blog.sina.com.cn/s/blog_6fd804fe0102wwwf.html)
+JexChan工具 [https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g](https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g) 提取码s1dk
 * [单文件程序制作一键通by:杏雨梨云](https://www.xyboot.com/portableapp_onekey_ok_3in1)
 * [https://github.com/lxfly2000/7zsfx](https://github.com/lxfly2000/7zsfx)
 * [UltraModernUI](https://github.com/SuperPat45/UltraModernUI)
@@ -470,7 +472,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH
 > `WMXD7-RG8FP-OYKS3-KHTN6`
 
 * [https://www.crystalidea.com/uninstall-tool](https://www.crystalidea.com/uninstall-tool)
-
+* [UninstallTool／Geek／IObitUninstaller／RevoUninstalle](https://lanzous.com/b0f19v03a)
 
 
 ## 剪贴板
