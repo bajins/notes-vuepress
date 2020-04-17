@@ -39,6 +39,9 @@
 + [Python Selenium教程 - 猿人学Python](https://www.yuanrenxue.com/python-selenium)
 
 
+- [https://github.com/ipython](https://github.com/ipython)
+
+
 ## 安装新版
 
 > 全部操作都在`root`用户下执行

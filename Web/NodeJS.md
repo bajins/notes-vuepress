@@ -119,10 +119,20 @@ nvm install <最新的版本号>
 
 
 
-### 安装yarn
+### 管理yarn
 
 ```bash
+# 安装
 npm install -g yarn
+```
+
+**卸载**
+
+```bash
+# 查找目录并删除
+yarn global bin
+# 卸载
+npm uninstall -g yarn
 ```
 
 
