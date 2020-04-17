@@ -92,6 +92,13 @@
 * [https://github.com/spf13/viper](https://github.com/spf13/viper)
 * 对象存储：[https://github.com/minio/minio](https://github.com/minio/minio)
 * [https://github.com/parnurzeal/gorequest](https://github.com/parnurzeal/gorequest)
+* 快速生成ASCII表格：[https://github.com/olekukonko/tablewriter](https://github.com/olekukonko/tablewriter)
+* 获取固定宽度的字符或字符串：[https://github.com/mattn/go-runewidth](https://github.com/mattn/go-runewidth)
+* Lane包提供队列，优先级队列，堆栈和双端队列：[https://github.com/oleiade/lane](https://github.com/oleiade/lane)
+* 具有历史记录的命令行编辑器：[https://github.com/peterh/liner](https://github.com/peterh/liner)
+
+
+
 
 
 ## 代理
