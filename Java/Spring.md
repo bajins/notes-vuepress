@@ -7,11 +7,15 @@
 ## flag
 
 * [https://github.com/spring-projects](https://github.com/spring-projects)
+[https://spring.io/projects](https://spring.io/projects)
 * [SpringCloud和Dubbo](https://www.jianshu.com/p/9fa24196d2ad)
 
 
 - [https://github.com/wuyouzhuguli/SpringAll](https://github.com/wuyouzhuguli/SpringAll)
-- [http://www.spring4all.com](http://www.spring4all.com)
+[http://www.spring4all.com](http://www.spring4all.com)
+- [https://github.com/mingyang66/spring-parent](https://github.com/mingyang66/spring-parent)
+
+
 
 
 **webmvc与webflux**
@@ -28,6 +32,9 @@
 + [Spring WebFlux快速上手](https://blog.csdn.net/get_set/article/details/79480233)
 
 * [Spring MVC or WebFlux?](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux-framework-choice)
+
+
+
 
 
 ## SpringBoot
@@ -135,6 +142,10 @@
 
 - `@ConfigurationProperties(prefix="配置中的属性名")`用在类名上，获取默认配置文件中的属性值，用`@Resource`引入到其他类
 
+> 必须要让Spring 扫描到该类才能使用，有三种方法：加`@Component`；创建配置类加`@Configuration`，
+再加`@EnableConfigurationProperties(类名.class)`或者创建构造器加`@Bean`
+
+
 - `@PropertySource("classpath:配置文件路径")`用在类名上，获取默认自定义`properties`文件中的属性值，用`@Resource`引入到其他类
 
 
@@ -203,4 +214,30 @@
 
 * [分布式日志框架ELK入门](https://blog.csdn.net/piantoutongyang/article/details/88811840)
 * [SpringCloud实践分享 日志收集Kafka ELK](https://juejin.im/post/5d84a83af265da03ee6a92af)
+
+
+
+
+
+
+## Spring Security
+
+* [认证成功与失败的处理器](https://docs.spring.io/spring-security/site/docs/4.2.7.RELEASE/reference/html/core-web-filters.html#form-login-flow-handling)
+* [过滤器列表](https://docs.spring.io/spring-security/site/docs/5.3.1.RELEASE/reference/html5/#servlet-security-filters)
+* [标准过滤器别名和顺序](https://docs.spring.io/spring-security/site/docs/5.3.1.RELEASE/reference/html5/#filter-stack)
+
+
+
+
+**拦截器和过滤器区别**
+
+- 拦截器（Interceptor）：依赖于web框架，在实现上,基于Java的反射机制，拦截的是action，说白了拦截的是访问路径
+- 过滤器（Filter）：依赖于servlet容器。在实现上，基于函数回调，可以几乎过滤掉所有的东西
+
+> 拦截器与过滤器的执行顺序：过滤前 -> 拦截前 -> action执行 -> 拦截后 -> 过滤后
+
+- 过滤器可以修改request，拦截器只能对action请求起作用
+- 过滤器需要在servlet容器中实现，拦截器可以适用于javaEE，javaSE等各种环境
+- 拦截器可以调用IOC容器中的各种依赖，而过滤器不能
+- 过滤器只能在请求的前后使用，而拦截器可以详细到每个方法
 
