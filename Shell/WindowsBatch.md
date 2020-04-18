@@ -15,6 +15,7 @@
 + Windows 10的system32目录中的所有DLL文件信息：[http://windows10dll.nirsoft.net](http://windows10dll.nirsoft.net)
 + [https://github.com/jas502n/IDA_Pro_7.2](https://github.com/jas502n/IDA_Pro_7.2)
 + 下载– NTCore：[https://ntcore.com/?page_id=345](https://ntcore.com/?page_id=345)
++ 小型命令行实用程序：[http://www.ltr-data.se/opencode.html/#CmdUtils](http://www.ltr-data.se/opencode.html/#CmdUtils)
 
 
 * [Windows 命令-官方文档](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/windows-commands)
