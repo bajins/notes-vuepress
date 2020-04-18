@@ -163,6 +163,26 @@ Remove-Item –path 7zip.msi
 ```
 
 
+**调用DLL**
+
+```powershell
+[DllImport("kernel32.dll")]
+private static extern int GetPrivateProfileSection(string lpAppName, byte[] lpszReturnBuffer, int nSize, string lpFileName);
+
+Function Lock-WorkStation {
+    $signature = @"
+        [DllImport("user32.dll", SetLastError = true)]
+        public static extern bool LockWorkStation();
+    "@
+    
+    $LockWorkStation = Add-Type -memberDefinition $signature -name "Win32LockWorkStation" -namespace Win32Functions -passthru
+    $LockWorkStation::LockWorkStation() | Out-Null
+}
+```
+
+
+
+
 **解压zip**
 
 - PowerShell 5.0或更高版本(已预安装Windows 10和Windows Server 2016)

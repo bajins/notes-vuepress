@@ -8,7 +8,7 @@
 
 ## flag
 
-
+> Golang调用windows下的dll动态库中的函数使用`syscall`调用
 
 
 
@@ -281,10 +281,10 @@ const (
     // 设置桌面背景
     SPI_SETDESKWALLPAPER = 0x0014
 
-    // Writes the new system-wide parameter setting to the user profile.
+    // 将新的系统范围的参数设置写入用户配置文件。
     SPIF_UPDATEINIFILE = 1
 
-    // Broadcasts the WM_SETTINGCHANGE message after updating the user profile.
+    // 更新用户配置文件后广播WM_SETTINGCHANGE消息。
     SPIF_SENDWININICHANGE = 2
 
     FALSE = 0
@@ -313,6 +313,8 @@ func init() {
 
 func MustLoadLibrary(name string) uintptr {
     lib, err := syscall.LoadLibrary(name)
+    // user32 := syscall.NewLazyDLL("user32.dll")
+    // MessageBoxW := user32.NewProc("MessageBoxW")
     if err != nil {
         panic(err)
     }
@@ -343,22 +345,13 @@ func MustGetProcAddress(lib uintptr, name string) uintptr {
 //      SPI_SENDWININICHANGE：与SPIF_SENDCHANGE一样。
 // 换壁纸我们要给uiAction指定SPI_SETDESKWALLPAPER标志位，然后把SPIF_UPDATEINIFILE传递给fWinIni。
 func SystemParametersInfo(uiAction, uiParam uint32, pvParam unsafe.Pointer, fWinIni uint32) bool {
-    ret, _, _ := syscall.Syscall6(systemParametersInfo, 4,
-        uintptr(uiAction),
-        uintptr(uiParam),
-        uintptr(pvParam),
-        uintptr(fWinIni),
-        0,
-        0)
-
+    ret, _, _ := syscall.Syscall6(systemParametersInfo, 4, uintptr(uiAction), uintptr(uiParam), uintptr(pvParam),
+        uintptr(fWinIni), 0, 0)
     return ret != 0
 }
 
 func GetVersion() int64 {
-    ret, _, _ := syscall.Syscall(getVersion, 0,
-        0,
-        0,
-        0)
+    ret, _, _ := syscall.Syscall(getVersion, 0, 0, 0, 0)
     return int64(ret)
 }
 
