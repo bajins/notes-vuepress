@@ -162,6 +162,44 @@ Remove-Item –path 7zip –Recurse
 Remove-Item –path 7zip.msi
 ```
 
+
+**解压zip**
+
+- PowerShell 5.0或更高版本(已预安装Windows 10和Windows Server 2016)
+
+```powershell
+Compress-Archive -Path 解压到目录路径 -DestinationPath 压缩文件路径
+Expand-Archive -Path 解压到目录路径 -DestinationPath 压缩文件路径 -Force:$Overwrite
+```
+
+- 需要.net 4.5以上
+
+```powershell
+Add-Type -assembly "system.io.compression.filesystem"
+[io.compression.zipfile]::ExtractToDirectory(压缩文件路径, 解压到目录路径)
+```
+
+- PowerShell 2.0以上
+
+```powershell
+function UnzipFile([string]$sourceFile, [string]$targetFolder){
+    if(!(Test-Path $targetFolder)){
+        mkdir $targetFolder
+    }
+    $shellApp = New-Object -ComObject Shell.Application
+    $files = $shellApp.NameSpace($souceFile).Items()
+    # foreach ($item in $files) {
+    #     $shell.Namespace($targetFolder).CopyHere($item)
+    # }
+    $shellApp.NameSpace($targetFolder).CopyHere($files)
+}
+```
+
+
+
+
+
+
 ### 系统环境变量
 
 

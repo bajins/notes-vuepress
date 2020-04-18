@@ -536,7 +536,7 @@ function unZip(zipFile, unDirectory) {
     if (objSource == null) {
         throw new Error("无法解压文件！");
     }
-    objShell.NameSpace(unDirectory).CopyHere(objSource.Items(), 256);
+    objShell.NameSpace(unDirectory).CopyHere(objSource.Items());
 }
 ```
 

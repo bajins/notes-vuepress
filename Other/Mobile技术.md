@@ -58,6 +58,40 @@
 
 
 
+**逆向工具**
+
+* [https://github.com/TheCjw/scoop-retools](https://github.com/TheCjw/scoop-retools)
+
+| APP NAME         	| HOME PAGE                                                                           	|
+|------------------	|-------------------------------------------------------------------------------------	|
+| apktool          	| https://github.com/iBotPeaches/Apktool                                              	|
+| assetstudio      	| https://github.com/Perfare/AssetStudio                                              	|
+| axmlprinter      	| https://github.com/rednaga/axmlprinter                                              	|
+| baksmali         	| https://github.com/JesusFreke/smali                                                 	|
+| bytecode-viewer  	| https://github.com/Konloch/bytecode-viewer                                          	|
+| cff-explorer     	| http://www.ntcore.com/exsuite.php                                                   	|
+| cfr              	| http://www.benf.org/other/cfr/                                                      	|
+| classyshark      	| https://github.com/google/android-classyshark                                       	|
+| dex2jar          	| https://github.com/pxb1988/dex2jar                                                  	|
+| die              	| https://github.com/horsicq/DIE-engine                                               	|
+| dynamorio        	| https://github.com/DynamoRIO/dynamorio                                              	|
+| gda              	| http://www.gda.wiki:9090/index.php                                                  	|
+| ghidra           	| https://ghidra-sre.org/                                                             	|
+| il2cppdumper     	| https://github.com/Perfare/Il2CppDumper                                             	|
+| jadx             	| https://github.com/skylot/jadx                                                      	|
+| jd-cmd           	| https://github.com/kwart/jd-cmd                                                     	|
+| libimobiledevice 	| https://github.com/libimobiledevice-win32/imobiledevice-net                         	|
+| luyten           	| https://github.com/deathmarine/Luyten                                               	|
+| pin              	| https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool 	|
+| recaf            	| https://github.com/Col-E/Recaf                                                      	|
+| reko             	| https://github.com/uxmal/reko                                                       	|
+| simplify         	| https://github.com/CalebFenton/simplify                                             	|
+| smali            	| https://github.com/JesusFreke/smali                                                 	|
+| snowman          	| https://derevenets.com/                                                             	|
+
+
+
+
 ### 框架
 
 * [https://github.com/ddnosh/AndroidQuick](https://github.com/ddnosh/AndroidQuick)

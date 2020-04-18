@@ -332,10 +332,10 @@
 ## 文件压缩
 
 * [https://github.com/giorgiotani/PeaZip](https://github.com/giorgiotani/PeaZip)
+[https://sourceforge.net/projects/peazip](https://sourceforge.net/projects/peazip)
 * [https://sourceforge.net/projects/sevenzip](https://sourceforge.net/projects/sevenzip)
 [https://www.7-zip.org/download.html](https://www.7-zip.org/download.html)
 * [https://github.com/nmoinvaz/minizip](https://github.com/nmoinvaz/minizip)
-
 
 
 
