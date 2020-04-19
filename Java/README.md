@@ -42,6 +42,8 @@
 * [https://github.com/LingCoder/OnJava8](https://github.com/LingCoder/OnJava8)
 * [https://github.com/CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes)
 * [https://github.com/hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer)
+* [https://github.com/clxering/Effective-Java-3rd-edition-Chinese-English-bilingual](https://github.com/clxering/Effective-Java-3rd-edition-Chinese-English-bilingual)
+* [Effective Java 第三版](https://www.jianshu.com/p/fc7b69608954)
 * [https://github.com/sjsdfg/effective-java-3rd-chinese](https://github.com/sjsdfg/effective-java-3rd-chinese)
 * [https://github.com/RedSpider1/concurrent](https://github.com/RedSpider1/concurrent)
 * [https://github.com/javagrowing/JGrowing](https://github.com/javagrowing/JGrowing)
