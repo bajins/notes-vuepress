@@ -305,8 +305,7 @@ demo                        # 顶级项目（根项目）
 > 命名风格转换插件，可以在 kebab-case，SNAKE_CASE，PascalCase，camelCase，snake_case 和 空格风格之间切换。
 > 快捷键苹果为<kbd>⇧</kbd> + <kbd>⌥</kbd> + <kbd>U</kbd>，windows下为<kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>U</kbd>。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/zuF5sJGRDCtABGzCT9OksCqCQxVIcAKFxMMdDZCrsAPfUrf9QKB4kmMVOOGggicxoWfHtN2WVRDrEoFlNrIO8IQ/640)
-
+* [https://github.com/netnexus/camelcaseplugin](https://github.com/netnexus/camelcaseplugin)
 
 **JavaDoc**
 

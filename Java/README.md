@@ -67,11 +67,13 @@
 
 **HTTP**
 
-- `HttpURLConnection`是`RestTemplate`的默认实现
+- `HttpURLConnection` Java自带API
+- `RestTemplate` 默认实现是`HttpURLConnection`，`ForEntity`返回响应码、响应消息体等，`ForObject`只返回消息体
 - `WebClient`是`Spring 5.0`开始提供的非阻塞响应式编程的Http工具。
 - `Apache HttpComponents` [http://hc.apache.org](http://hc.apache.org)
 - `okHttp` [https://github.com/square/okhttp](https://github.com/square/okhttp)
 - `Netty` 
+- `google-http-java-client` [https://github.com/googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client)
 
 * [HTTP客户端连接，选择HttpClient还是OkHttp？](https://juejin.im/post/5e156c80f265da5d3c6de72a)
 

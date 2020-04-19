@@ -384,26 +384,20 @@ List newList = list.subList(start, end);
 
 #### List随机取值
 
-- 方法一
 
 ```java
 public static void main(String[] args) {
     List<String> list = Arrays.asList("a","b","c");
+    // 方法一
     int index = (int) (Math.random()* list.size());
     System.out.println(list.get(index));
-}
-```
 
-- 方法二
-
-```java
-public static void main(String[] args) {
-    List<String> list = Arrays.asList("a","b","c");
-    // shuffle 打乱顺序 
+    // 方法二：shuffle 打乱顺序 
     Collections.shuffle(list);
     System.out.println(list.get(0));
 }
 ```
+
 
 
 ### Map
@@ -412,28 +406,39 @@ public static void main(String[] args) {
 
 ```java
 // entrySet迭代，不能移除元素
-for(Map.Entry<Integer,String> entry : map.entrySet()) {
-    System.out.println("方法一：key ="+entry.getKey()+"---value="+entry.getValue());
+for (Map.Entry<Integer, String> entry : map.entrySet()) {
+    System.out.println("方法一：key =" + entry.getKey() + "---value=" + entry.getValue());
 }
 
 // 遍历键
-for(Integer key:map.keySet()) {
-    System.out.println("方法二：key = "+key);
+for (Integer key : map.keySet()) {
+    System.out.println("方法二：key = " + key);
+}
+Iterator<Integer> keyIterator = map.keySet().iterator();
+while (keyIterator.hasNext()) {
+    Integer key = keyIterator.next();
+    System.out.println("方法二：key = " + key);
 }
 // 遍历值
-for(String value:map.values()) {
-    System.out.println("方法二：value = "+value);
+for (String value : map.values()) {
+    System.out.println("方法二：value = " + value);
 }
 
 // Iterator迭代，可调用entries.remove()移除元素：使用了泛型，如果不使用泛型键值则需要强转
-Iterator<Map.Entry<Integer,String>> entries = map.entrySet().iterator();
-while(entries.hasNext()) {
-    Map.Entry<Integer,String> entry = entries.next();
-    System.out.println("方法三：key = "+entry.getKey()+"--value="+entry.getValue());
+Iterator<Map.Entry<Integer, String>> entries = map.entrySet().iterator();
+while (entries.hasNext()) {
+    Map.Entry<Integer, String> entry = entries.next();
+    System.out.println("方法三：key = " + entry.getKey() + "--value=" + entry.getValue());
 }
 
 // 遍历键获取值：效率低，通过key得到value值更耗时
-for(Integer key:map.keySet()) {
+for (Integer key : map.keySet()) {
+    String value = map.get(key);
+    System.out.println("方法四：Key = " + key + ", Value = " + value);
+}
+Iterator<Integer> keyIterator1 = map.keySet().iterator();
+while (keyIterator1.hasNext()) {
+    Integer key = keyIterator1.next();
     String value = map.get(key);
     System.out.println("方法四：Key = " + key + ", Value = " + value);
 }
