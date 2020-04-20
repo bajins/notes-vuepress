@@ -17,7 +17,6 @@ module.exports = {
         ['meta', { name: 'keywords', content: 'bajins,vue,vuepress,vuepress-theme,theme,主题,vuepress主题,blog,vuepress-blog,java,python,shell,sql,golang,script,shell script,nginx,windows,去广告,androd,google drive,one drive,idea,eclipse,git,小程序' }],
         ['meta', { id: 'referrer', name: 'referrer', content: 'always' }],
         ['script', { type: 'text/javascript', src: '/assets/js/load.js' }],
-        ['script', { type: 'text/javascript', src: '/assets/js/push.js' }],
     ],
     // 指定 VuePress build 的输出目录。如果传入的是相对路径，则会基于 process.cwd() 进行解析。
     // 与package.json中的scripts配置编译路径配合使用 https://vuepress.vuejs.org/zh/api/cli.html
