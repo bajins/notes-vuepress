@@ -133,10 +133,12 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/ehcache/ehcache3](https://github.com/ehcache/ehcache3)
 * [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
 * [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
-* [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
-* [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)
-* [https://github.com/google/gson](https://github.com/google/gson)
 * 对配置内容加密：[https://github.com/ulisesbocchio/jasypt-spring-boot](https://github.com/ulisesbocchio/jasypt-spring-boot)
+
+- Jakarta JSON处理规范，API和兼容的实现：[https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
+- [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
+- [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)
+- [https://github.com/google/gson](https://github.com/google/gson)
 
 
 - [https://github.com/rabbitmq](https://github.com/rabbitmq)
