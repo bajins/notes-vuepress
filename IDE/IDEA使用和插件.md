@@ -177,7 +177,7 @@ demo                        # 顶级项目（根项目）
 > 生成各种ignore文件，一键创建git ignore文件的模板，免得自己去写
 
 ![](https://plugins.jetbrains.com/files/7495/screenshot_14958.png)
-[](https://upload-images.jianshu.io/upload_images/11962894-754e5940196db0ce.gif)
+[1]:https://upload-images.jianshu.io/upload_images/11962894-754e5940196db0ce.gif
 
 
 **Add to gitignore**
@@ -206,8 +206,8 @@ demo                        # 顶级项目（根项目）
 
 > google出的一键根据json文本生成java类，非常方便
 
-[](https://plugins.jetbrains.com/files/7654/screenshot_15729.png)
 ![](https://upload-images.jianshu.io/upload_images/11962894-09e7a540af46231f.png)
+[2]:https://plugins.jetbrains.com/files/7654/screenshot_15729.png
 
 
 **RoboPOJOGenerator**
@@ -217,7 +217,7 @@ demo                        # 顶级项目（根项目）
 * [https://github.com/robohorse/RoboPOJOGenerator](https://github.com/robohorse/RoboPOJOGenerator)
 
 ![](https://github.com/robohorse/RoboPOJOGenerator/raw/master/images/tutorial_v3.gif)
-[](https://plugins.jetbrains.com/files/8634/screenshot_16298.png)
+[3]:https://plugins.jetbrains.com/files/8634/screenshot_16298.png
 
 
 **Json2Pojo**
