@@ -35,6 +35,14 @@
 * [Spring MVC or WebFlux?](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux-framework-choice)
 
 
+**注解生成Bean默认命名规则**
+
+> 在使用`@Component`、`@Repository`、`@Service`、`@Controller`等注解创建bean时，如果不指定bean名称，默认类名的首字母小写
+
+> 如果类名前两个及以上字母都是大写，那么bean名称与类名一样，如： RBACAuthorityService - RBACAuthorityService
+
+* [修改Spring注解生成Bean时候的命名方式](https://github.com/cznno/doc/blob/master/doc/%E4%BF%AE%E6%94%B9Spring%E6%B3%A8%E8%A7%A3%E7%94%9F%E6%88%90Bean%E6%97%B6%E5%80%99%E7%9A%84%E5%91%BD%E5%90%8D%E6%96%B9%E5%BC%8F.md)
+
 
 
 
