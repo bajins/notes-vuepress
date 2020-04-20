@@ -217,7 +217,7 @@ demo                        # 顶级项目（根项目）
 * [https://github.com/robohorse/RoboPOJOGenerator](https://github.com/robohorse/RoboPOJOGenerator)
 
 ![](https://github.com/robohorse/RoboPOJOGenerator/raw/master/images/tutorial_v3.gif)
-![](https://plugins.jetbrains.com/files/8634/screenshot_16298.png)
+[](https://plugins.jetbrains.com/files/8634/screenshot_16298.png)
 
 
 **Json2Pojo**
