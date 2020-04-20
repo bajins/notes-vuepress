@@ -58,7 +58,7 @@
 
 
 
-**MediaType**
+**Mime-Type/Content-Type/Media-Type**
 
 - `com.google.common.net.MediaType` guava
 - `javax.ws.rs.core.MediaType` Jersey框架
