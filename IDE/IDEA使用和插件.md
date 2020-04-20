@@ -239,6 +239,12 @@ demo                        # 顶级项目（根项目）
 * [https://github.com/liuzhihangs/toolkit](https://github.com/liuzhihangs/toolkit)
 
 
+**JsonToKotlinClass**
+
+> 从JSON字符串生成Kotlin
+
+* [https://github.com/wuseal/JsonToKotlinClass](https://github.com/wuseal/JsonToKotlinClass)
+
 
 
 **bean2json**
@@ -287,6 +293,13 @@ demo                        # 顶级项目（根项目）
 * [https://plugins.jetbrains.com/plugin/8640-codehelper-generator](https://plugins.jetbrains.com/plugin/8640-codehelper-generator)
 
 ![](https://plugins.jetbrains.com/files/8640/screenshot_16302.png)
+
+
+**POJO Generator**
+
+> 从数据库表生成JPA实体POJO
+
+* [https://github.com/Jukien/POJO-Generator](https://github.com/Jukien/POJO-Generator)
 
 
 **Protobuf Support**
