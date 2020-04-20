@@ -280,6 +280,17 @@ ${type_declaration}
 > 搜索`Ctrl+Alt+Down`或者`Copy Lines`即可修改
 
 
+
+
 ## 插件
 
 - 反编译`Eclipse Class Decompiler`
+
+
+
+**Cloud Toolkit**
+
+> 帮助开发者更高效地开发、测试、诊断并部署应用。通过插件，可以将本地应用一键部署到任意服务器
+
+* [http://toolkit.aliyun.com/eclipse](http://toolkit.aliyun.com/eclipse)
+

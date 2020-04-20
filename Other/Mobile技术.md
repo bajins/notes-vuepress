@@ -39,6 +39,9 @@
 * [Android-FFmpeg开源库使用及图片压缩开源工具使用](https://www.jianshu.com/p/e960854d3705)
 
 
+- [https://github.com/Vove7/retrofit-rest-client](https://github.com/Vove7/retrofit-rest-client)
+
+
 **Hooking**
 
 + [https://github.com/topics/xposed](https://github.com/topics/xposed)

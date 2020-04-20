@@ -47,7 +47,7 @@
 }
 ```
 
-- 开启智能提示
+**开启智能提示**
 
 > 进入设置，搜索`prevent`，取消此选项的勾选
 
@@ -247,32 +247,47 @@
 
 
 
+
+
 ## VSCode插件
 
 
-- 中文语言
+**中文语言**
 
 > `Chinese (Simplified) Language Pack for Visual Studio Code`
 
-- PHP插件
+
+**translate-var**
+
+* [https://marketplace.visualstudio.com/items?itemName=svenzhao.var-translation](https://marketplace.visualstudio.com/items?itemName=svenzhao.var-translation)
+
+> 使用翻译api将其他语言到英文,转换成常见的变量命名形式
+
+![](https://github.com/SvenZhao/var-translation/raw/master/images/vscode1.gif)
+
+
+
+**PHP插件**
 
 > `php Intelephense`
 
-- HTML插件
-
-> `JS-CSS-HTML Formatter`
-
-> `ESLint`
 
 
-- XML格式化
+**HTML插件**
+
+- `JS-CSS-HTML Formatter`
+- `ESLint`
+
+
+
+**XML格式化**
 
 * [https://marketplace.visualstudio.com/items?itemName=mikeburgh.xml-format](https://marketplace.visualstudio.com/items?itemName=mikeburgh.xml-format)
 
 
-- Python插件
+**Python插件**
 
-1、 `autopep8`
+- `autopep8`
 
 > 格式化代码
 
@@ -288,7 +303,7 @@ pip install autopep8
 "python.formatting.provider": "autopep8"
 ```
 
-2、 pep8
+- pep8
 
 > 检查代码错误
 
@@ -305,7 +320,7 @@ pip install pep8
 ```
 
 
-3、 pylint
+- pylint
 
 > 用pip安装
 
@@ -320,7 +335,7 @@ pip install pylint
 ```
 
 
-4、 flake8
+- flake8
 
 > 用pip安装
 
@@ -334,9 +349,17 @@ pip install flake8
 "python.linting.flake8Enabled": true
 ```
 
-- markdown
+**markdown**
 
 * [markdown-toc](https://github.com/AlanWalk/markdown-toc)
+
+
+**Cloud Toolkit**
+
+> 帮助开发者更高效地开发、测试、诊断并部署应用。通过插件，可以将本地应用一键部署到任意服务器
+
+* [https://marketplace.visualstudio.com/items?itemName=alibabacloud-cloudtoolkit.toolkit-vscode](https://marketplace.visualstudio.com/items?itemName=alibabacloud-cloudtoolkit.toolkit-vscode)
+
 
 
 
