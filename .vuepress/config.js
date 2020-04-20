@@ -13,7 +13,8 @@ module.exports = {
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
         ['meta', { name: 'msapplication-TileImage', content: '/images/icons/logo.png' }],
-        ['meta', { name: 'msapplication-TileColor', content: '#ffffff' }]
+        ['meta', { name: 'msapplication-TileColor', content: '#ffffff' }],
+        ['meta', { name: 'referrer', content: 'never' }]
     ],
     // 指定 VuePress build 的输出目录。如果传入的是相对路径，则会基于 process.cwd() 进行解析。
     // 与package.json中的scripts配置编译路径配合使用 https://vuepress.vuejs.org/zh/api/cli.html
