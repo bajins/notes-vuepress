@@ -277,22 +277,22 @@ demo                        # 顶级项目（根项目）
 * [https://plugins.jetbrains.com/plugin/13595-code-generator](https://plugins.jetbrains.com/plugin/13595-code-generator)
 
 
-**GenerateAllSetter**
-
-* [https://plugins.jetbrains.com/plugin/9360-generateallsetter](https://plugins.jetbrains.com/plugin/9360-generateallsetter)
-
-> 一键调用一个对象的所有set方法并且赋予默认值 在对象字段多的时候非常方便
-
-![](https://upload-images.jianshu.io/upload_images/11962894-bd972369154914fa.gif)
-
-
 **codehelper.generator**
 
 > 生成器，可以更轻松，更高效地生成代码。
 
-* [https://plugins.jetbrains.com/plugin/8640-codehelper-generator](https://plugins.jetbrains.com/plugin/8640-codehelper-generator)
+* [https://github.com/zhengjunbase/codehelper.generator](https://github.com/zhengjunbase/codehelper.generator)
 
-![](https://plugins.jetbrains.com/files/8640/screenshot_16302.png)
+![https://plugins.jetbrains.com/files/8640/screenshot_16302.png](https://github.com/zhengjunbase/codehelper.generator/raw/master/setter.gif)
+
+
+**GenerateAllSetter**
+
+> 一键调用一个对象的所有set方法并且赋予默认值 在对象字段多的时候非常方便
+
+* [https://github.com/gejun123456/intellij-generateAllSetMethod](https://github.com/gejun123456/intellij-generateAllSetMethod)
+
+![](https://upload-images.jianshu.io/upload_images/11962894-bd972369154914fa.gif)
 
 
 **POJO Generator**
