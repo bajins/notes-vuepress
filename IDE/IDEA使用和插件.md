@@ -429,7 +429,6 @@ demo                        # 顶级项目（根项目）
 
 > 带有GFM 的Markdown插件和匹配的预览样式。
 
-![](https://github.com/vsch/idea-multimarkdown/raw/master/assets/images/capabilities2.png)
 
 
 **IDEA Mind Map**
