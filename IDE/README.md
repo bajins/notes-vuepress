@@ -33,7 +33,6 @@
 
 * [https://ide.goorm.io](https://ide.goorm.io)
 * [https://codesandbox.io](https://codesandbox.io)
-* [https://github.com/heroku](https://github.com/heroku)
 * [https://glitch.com](https://glitch.com)
 * [https://aws.amazon.com/cn/cloud9](https://aws.amazon.com/cn/cloud9)
 
