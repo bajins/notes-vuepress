@@ -620,6 +620,7 @@ sudo /etc/init.d/dns-clean start
 示例：[https://woytu.now.sh](https://woytu.now.sh)
 * [https://github.com/heroku](https://github.com/heroku)
 [https://github.com/heroku/heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static)
+示例：[https://woytu.herokuapp.com](https://woytu.herokuapp.com)
 
 - 命令行：[https://github.com/sintaxi/surge](https://github.com/sintaxi/surge)
 - 命令行：[https://github.com/firebase/firebase-tools](https://github.com/firebase/firebase-tools)

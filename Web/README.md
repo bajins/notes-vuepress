@@ -45,7 +45,7 @@
 + [不蒜子文章统计](http://busuanzi.ibruce.info)
 [https://www.npmjs.com/search?q=keywords:busuanzi](https://www.npmjs.com/search?q=keywords:busuanzi)
 
-
+**[静态部署](/IDE/Git.md#部署)**
 
 * [静态编译VuePress](https://github.com/vuejs/vuepress)
 [https://github.com/vuepressjs/awesome-vuepress](https://github.com/vuepressjs/awesome-vuepress)

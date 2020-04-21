@@ -57,6 +57,11 @@ actionLink: /#命令
 │  ├─public             静态资源目录
 │  │  │  CNAME          CNAME文件指定域名，防止发布时被清空
 │  │  │  manifest.json  5+App（HTML5 Plus移动App）的配置文件
+│  │  │  static.json    heroku使用buildpack静态部署配置文件
+│  │  │  
+│  │  ├─assets          css/img/js等默认的存放路径
+│  │  │   │  
+│  │  │   └─js          自定义js文件存放目录
 │  │  │  
 │  │  ├─files           可直接访问并下载的文件存放目录
 │  │  │      
