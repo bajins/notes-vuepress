@@ -1,5 +1,5 @@
-const utils = require('./utils')
-    // https://vuepress.vuejs.org/zh/config
+const utils = require('./utils');
+// https://vuepress.vuejs.org/zh/config
 module.exports = {
     base: '/',
     // 额外的需要被注入到当前页面的 HTML <head> 中的标签
@@ -38,7 +38,7 @@ module.exports = {
     themeConfig: {
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL,当你提供了 themeConfig.repo 选项，
         // 将会自动在每个页面的导航栏生成生成一个 GitHub 链接，以及在页面的底部生成一个 "Edit this page" 链接。
-        repo: 'woytu/UseNotes',
+        repo: 'woytu/notes-vuepress',
         editLinks: true,
         docsDir: '/',
         // valine 评论系统

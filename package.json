@@ -16,7 +16,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/woytu/UseNotes.git"
+        "url": "git+https://github.com/woytu/notes-vuepress.git"
     },
     "keywords": [
         "documentation",
@@ -26,9 +26,9 @@
     "author": "Bajins",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/woytu/UseNotes/issues"
+        "url": "https://github.com/woytu/notes-vuepress/issues"
     },
-    "homepage": "https://github.com/woytu/UseNotes#readme",
+    "homepage": "https://github.com/woytu/notes-vuepress#readme",
     "dependencies": {
         "@vuepress/plugin-active-header-links": "^1.4.1",
         "@vuepress/plugin-back-to-top": "^1.4.1",
