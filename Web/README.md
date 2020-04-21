@@ -15,7 +15,6 @@
 * [https://github.com/junruchen/junruchen.github.io/wiki](https://github.com/junruchen/junruchen.github.io/wiki)
 * [https://github.com/mathjax](https://github.com/mathjax)
 
-
 - [https://github.com/material-components](https://github.com/material-components)
 [https://md.maxoxo.design](https://md.maxoxo.design)
 
@@ -23,7 +22,6 @@
 * 前端面试：[https://github.com/haizlin/fe-interview](https://github.com/haizlin/fe-interview)
 
 - [前端解决第三方图片防盗链的办法 - html referrer 访问图片资源403问题](https://github.com/biaochenxuying/blog/issues/31)
-
 
 
 
@@ -50,6 +48,7 @@
 
 
 * [静态编译VuePress](https://github.com/vuejs/vuepress)
+[https://github.com/vuepressjs/awesome-vuepress](https://github.com/vuepressjs/awesome-vuepress)
 * [静态编译NuxtJs](https://github.com/nuxt/nuxt.js)
 * [静态编译Hexo](https://github.com/hexojs/hexo)
 * [静态编译Hugo](https://github.com/gohugoio/hugo)
