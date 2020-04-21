@@ -54,7 +54,7 @@
 * [静态编译Hexo](https://github.com/hexojs/hexo)
 * [静态编译Hugo](https://github.com/gohugoio/hugo)
 * [静态编译Jekyll](https://github.com/jekyll/jekyll)
-[http://jekyllcn.com](http://jekyllcn.com)
+[http://jekyllcn.com](http://jekyllcn.com) [https://www.jekyll.com.cn](https://www.jekyll.com.cn)
 [https://github.com/mattvh/jekyllthemes](https://github.com/mattvh/jekyllthemes)
 * [运行时驱动Docsify](https://github.com/docsifyjs/docsify)
 [https://github.com/docsifyjs/awesome-docsify](https://github.com/docsifyjs/awesome-docsify)
