@@ -613,10 +613,18 @@ sudo /etc/init.d/dns-clean start
 ### 部署
 
 * [https://www.netlify.com](https://www.netlify.com)
+示例：[https://woytu.netlify.app](https://woytu.netlify.app)
 * [https://slack.com/get-started](https://slack.com/get-started)
 * [https://docs.travis-ci.com/user/tutorial](https://docs.travis-ci.com/user/tutorial)
 * [https://github.com/zeit](https://github.com/zeit)
-* [https://github.com/sintaxi/surge](https://github.com/sintaxi/surge)
+示例：[https://woytu.now.sh](https://woytu.now.sh)
+* [https://github.com/heroku](https://github.com/heroku)
+[https://github.com/heroku/heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static)
+
+- 命令行：[https://github.com/sintaxi/surge](https://github.com/sintaxi/surge)
+- 命令行：[https://github.com/firebase/firebase-tools](https://github.com/firebase/firebase-tools)
+
+
 
 ### Actions
 
