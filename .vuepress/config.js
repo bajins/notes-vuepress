@@ -15,7 +15,7 @@ module.exports = {
         ['meta', { name: 'msapplication-TileImage', content: '/images/icons/logo.png' }],
         ['meta', { name: 'msapplication-TileColor', content: '#ffffff' }],
         ['meta', { name: 'keywords', content: 'bajins,vue,vuepress,vuepress-theme,theme,主题,vuepress主题,blog,vuepress-blog,java,python,shell,sql,golang,script,shell script,nginx,windows,去广告,androd,google drive,one drive,idea,eclipse,git,小程序' }],
-        ['meta', { name: 'referrer', content: 'always' }],
+        ['meta', { name: 'referrer', content: 'never' }],
         ['script', { type: 'text/javascript', src: '/assets/js/load.js' }],
     ],
     // 指定 VuePress build 的输出目录。如果传入的是相对路径，则会基于 process.cwd() 进行解析。
