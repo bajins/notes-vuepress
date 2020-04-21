@@ -446,7 +446,7 @@ div:hover{
 
 * [伪类](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-classes)
 * [伪元素](https://developer.mozilla.org/zh-CN/docs/Web/CSS/pseudo-elements)
-* [伪元素组成的时间线](https://github.com/woytu/UseNotes-vuepress/commits/master)
+* [伪元素组成的时间线](https://github.com/woytu/notes-vuepress/commits/master)
 
 
 - 分割线

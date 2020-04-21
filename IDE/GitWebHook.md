@@ -257,9 +257,9 @@ fi
 # 项目存放目录
 project_dir=/home/
 # 项目名
-project_name=UseNotes-vuepress
+project_name=notes-vuepress
 # git远程地址
-git_url=https://github.com/woytu/UseNotes-vuepress.git
+git_url=https://github.com/woytu/notes-vuepress.git
 # 建议创建稳定分支，避免在开发分支上出现不稳定情况
 git_branch=master
 # 推送地址

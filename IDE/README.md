@@ -36,11 +36,13 @@
 * [https://glitch.com](https://glitch.com)
 * [https://aws.amazon.com/cn/cloud9](https://aws.amazon.com/cn/cloud9)
 
-[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io)
+[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io) 是一款在线IDE能即时修改GitHub代码，
+访问仓库：https://gitpod.io/#https://github.com/账户名/仓库名
 
-> Gitpod是一款在线IDE能即时修改GitHub代码，访问仓库：https://gitpod.io/#https://github.com/账户名/仓库名
+> 示例：[https://gitpod.io/#github.com/woytu/notes-vuepress](https://gitpod.io/#github.com/woytu/notes-vuepress)
 
-> 示例：[https://gitpod.io/#github.com/woytu/UseNotes-vuepress](https://gitpod.io/#github.com/woytu/UseNotes-vuepress)
+
+**[静态部署](/IDE/Git.md#部署)**
 
 
 **在线运行代码**

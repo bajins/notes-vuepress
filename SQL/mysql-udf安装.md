@@ -27,7 +27,6 @@ yum install -y curl*
 > 中文说明：http://blog.zyan.cc/mysql-udf-http/
 
 ```sql
-wget https://github.com/claer-ding/UseNotes/raw/master/MySQL/mysql-udf/mysql-udf-http-1.0.tar.gz
 tar zxvf mysql-udf-http-1.0.tar.gz
 cd mysql-udf-http-1.0
 ./configure --prefix=/usr/local/mysql-udf-http --with-mysql=/usr/local/mysql/bin/mysql_config
