@@ -615,8 +615,8 @@ sudo /etc/init.d/dns-clean start
 * [https://www.netlify.com](https://www.netlify.com)
 * [https://slack.com/get-started](https://slack.com/get-started)
 * [https://docs.travis-ci.com/user/tutorial](https://docs.travis-ci.com/user/tutorial)
-* [https://zeit.co](https://zeit.co)
-
+* [https://github.com/zeit](https://github.com/zeit)
+* [https://github.com/sintaxi/surge](https://github.com/sintaxi/surge)
 
 ### Actions
 
