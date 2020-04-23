@@ -10,12 +10,13 @@
             padding: 0px;
         }
 
-        html, body {
+        html,
+        body {
+            width: 100%;
             height: 100%;
-            background-color: #ccc;
         }
 
-        .container {
+        .main {
             position: relative;
             min-height: 100%;
         }
@@ -24,7 +25,7 @@
             width: 100%;
             position: sticky;
             top: 0;
-            background-color: #fafbfc;
+            background-color: #0b84fd;
             padding: 20px 0px;
             text-align: center;
         }
@@ -32,9 +33,6 @@
         .content {
             /*高度可由内容撑开*/
             width: 100%;
-            /* 实际使用时删除 */
-            height: 980px;
-            background-color: #ac9090;
         }
 
         footer {
@@ -50,11 +48,13 @@
 </head>
 
 <body>
-<div class="container">
-    <header>header</header>
-    <div class="content">content</div>
-    <footer>2011-2019 © bajins.com</footer>
-</div>
+    <div class="main">
+        <header>header</header>
+        <div class="content">
+            content
+        </div>
+        <footer>2011-2019 © bajins.com</footer>
+    </div>
 </body>
 
 </html>

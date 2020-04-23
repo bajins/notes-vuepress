@@ -374,7 +374,6 @@ div:hover{
 > 这个方案需指定`html`、`body`的`100%`高度，且`content`的`padding-bottom`需要与`footer`的`height`一致。
 
 
-* [fix-footer-page-bottom-grid.html](/files/fix-footer-page-bottom-grid.html)
 * [fix-footer-page-bottom-flex.html](/files/fix-footer-page-bottom-flex.html)
 
 
