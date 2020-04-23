@@ -273,7 +273,7 @@
 
 - `word-break: normal|break-all|keep-all;` 标明怎么样进行单词内的断句。 
     - `normal` 使用浏览器默认的换行规则
-    - `break-all` 允许再单词内换行
+    - `break-all` 允许在单词内换行
     - `keep-all` 只能在半角空格或连字符处换行
 
 - `text-overflow: clip|ellipsis|string;` 规定当文本溢出包含元素时发生的事情。
