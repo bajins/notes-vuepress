@@ -44,10 +44,8 @@
 
 
 - `vw`和`vh` 与`%`百分比的区别
-
-> `%`是相对于父元素的大小设定的比率，`vw`、`vh` 是视窗大小决定的。
-
-> `vw`、`vh`优势在于能够直接获取高度，而用`%`在没有设置`body`高度的情况下，无法正确获得可视区域的高度。
+    - `%`是相对于父元素的大小设定的比率，`vw`、`vh` 是视窗大小决定的。
+    - `vw`、`vh`优势在于能够直接获取高度，而用`%`在没有设置`body`高度的情况下，无法正确获得可视区域的高度。
 
 > 当元素没有内容时候，设置`height:100%`，该元素不会被撑开，此时高度为`0`，但是设置`height:100vh`，该元素会被撑开屏幕高度一致。
 
@@ -59,15 +57,11 @@
 * [https://developer.mozilla.org/zh-CN/docs/Web/CSS/calc](https://developer.mozilla.org/zh-CN/docs/Web/CSS/calc)
 
 
-> 使用`+`、`-`、`*` 和 `/`四则运算
-
-> 可以使用`%`、`px`、`em`、`rem`等单位
-
-> 可以混合使用各种单位进行计算
-
-> 表达式中有`+`和`-`时，其前后必须要有空格，如`widht: calc(12%+5em)`这种没有空格的写法是错误的
-
-> 表达式中有`*`和`/`时，其前后可以没有空格，但建议留有空格
+- 使用`+`、`-`、`*` 和 `/`四则运算
+- 可以使用`%`、`px`、`em`、`rem`等单位
+- 可以混合使用各种单位进行计算
+- 表达式中有`+`和`-`时，其前后必须要有空格，如`widht: calc(12%+5em)`这种没有空格的写法是错误的
+- 表达式中有`*`和`/`时，其前后可以没有空格，但建议留有空格
 
 
 
@@ -163,15 +157,11 @@
 
 > 移动设备上的`viewport`就是其屏幕上能用来显示我们的网页的那一块区域。
 
-> `width = device-width`：宽度等于当前设备的宽度
->
-> `initial-scale`：初始的缩放比例（默认设置为1.0）
->
-> `minimum-scale`：允许用户缩放到的最小比例（默认设置为1.0）
->
-> `maximum-scale`：允许用户缩放到的最大比例（默认设置为1.0）
->
-> `user-scalable`：用户是否可以手动缩放（默认设置为no，因为我们不希望用户放大缩小页面）
+- `width = device-width`：宽度等于当前设备的宽度
+- `initial-scale`：初始的缩放比例（默认设置为1.0）
+- `minimum-scale`：允许用户缩放到的最小比例（默认设置为1.0）
+- `maximum-scale`：允许用户缩放到的最大比例（默认设置为1.0）
+- `user-scalable`：用户是否可以手动缩放（默认设置为no，因为我们不希望用户放大缩小页面）
 
 * [完整示例](/files/MediaQueriesExample.html)
 
@@ -267,47 +257,29 @@
 
 ## 文本溢出处理
 
-- `white-space: normal|pre|nowrap|pre-wrap|pre-line|inherit;`
-
-> `white-space` 属性设置如何处理元素内的空白 
->> `normal` 默认。空白会被浏览器忽略
->>
->> `pre` 空白会被浏览器保留。其行为方式类似`HTML`中的`pre`标签
->>
->> `nowrap` 文本不会换行，文本会在在同一行上继续，直到遇到`br`标签为止
->> 
->> `pre-wrap` 保留空白符序列，但是正常地进行换行 
->> 
->> `pre-line` 合并空白符序列，但是保留换行符
->> 
->> `inherit` 规定应该从父元素继承`white-space`属性的值
+- `white-space: normal|pre|nowrap|pre-wrap|pre-line|inherit;` 设置如何处理元素内的空白
+    - `normal` 默认。空白会被浏览器忽略
+    - `pre` 空白会被浏览器保留。其行为方式类似`HTML`中的`pre`标签
+    - `nowrap` 文本不会换行，文本会在在同一行上继续，直到遇到`br`标签为止
+    - `pre-wrap` 保留空白符序列，但是正常地进行换行 
+    - `pre-line` 合并空白符序列，但是保留换行符
+    - `inherit` 规定应该从父元素继承`white-space`属性的值
 
 
-- `word-wrap: normal|break-word;`
-
-> `word-wrap` 属性用来标明是否允许浏览器在单词内进行断句，这是为了防止当一个字符串太长而找不到它的自然断句点时产生溢出现象。 
->> `normal` 只在允许的断字点换行(浏览器保持默认处理) 
->> 
->> `break-word` 在长单词或URL地址内部进行换行 
+- `word-wrap: normal|break-word;` 标明是否允许浏览器在单词内进行断句，防止当一个字符串太长而找不到它的自然断句点时产生溢出现象。 
+    - `normal` 只在允许的断字点换行(浏览器保持默认处理) 
+    - `break-word` 在长单词或URL地址内部进行换行 
 
 
-- `word-break: normal|break-all|keep-all;`
+- `word-break: normal|break-all|keep-all;` 标明怎么样进行单词内的断句。 
+    - `normal` 使用浏览器默认的换行规则
+    - `break-all` 允许再单词内换行
+    - `keep-all` 只能在半角空格或连字符处换行
 
-> `word-break` 属性用来标明怎么样进行单词内的断句。 
->> `normal` 使用浏览器默认的换行规则
->> 
->> `break-all` 允许再单词内换行
->> 
->> `keep-all` 只能在半角空格或连字符处换行
-
-- `text-overflow: clip|ellipsis|string;`
-
-> `text-overflow` 属性规定当文本溢出包含元素时发生的事情。
->> `clip` 修剪文本
->>
->> `ellipsis` 显示省略符号来代表被修剪的文本
->>
->> `string` 使用给定的字符串来代表被修剪的文本
+- `text-overflow: clip|ellipsis|string;` 规定当文本溢出包含元素时发生的事情。
+    - `clip` 修剪文本
+    - `ellipsis` 显示省略符号来代表被修剪的文本
+    - `string` 使用给定的字符串来代表被修剪的文本
 
 
 
@@ -336,11 +308,9 @@ div:hover{
 
 ## `Footer`固定在页面底部
 
-- `Sticky Footer`
-> 所谓`Sticky Footer`，并不是什么新的前端概念和技术，它指的就是一种网页效果： 
->> 如果页面内容不足够长时，页脚固定在浏览器窗口的底部；
->>
->> 如果内容足够长时，页脚固定在页面的最底部。但如果网页内容不够长，置底的页脚就会保持在浏览器窗口底部。
+- `Sticky Footer` 并不是什么新的前端概念和技术，它指的就是一种网页效果： 
+    - 如果页面内容不足够长时，页脚固定在浏览器窗口的底部；
+    - 如果内容足够长时，页脚固定在页面的最底部。但如果网页内容不够长，置底的页脚就会保持在浏览器窗口底部。
 
 * [CSS-Footer底部固定实现](https://github.com/junruchen/junruchen.github.io/wiki/CSS-Footer%E5%BA%95%E9%83%A8%E5%9B%BA%E5%AE%9A%E5%AE%9E%E7%8E%B0)
 
@@ -380,8 +350,6 @@ div:hover{
 ## `Footer`固定在窗口底部
 
 * [fix-footer-window-bottom-fixed.html](/files/fix-footer-window-bottom-fixed.html)
-
-
 * [fix-footer-window-bottom-sticky.html](/files/fix-footer-window-bottom-sticky.html)
 
 
