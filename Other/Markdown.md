@@ -424,7 +424,12 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://tableconvert.com](https://tableconvert.com)
 * [https://github.com/stevecat/table-magic](https://github.com/stevecat/table-magic)
 * [http://www.tablesgenerator.com/markdown_tables](http://www.tablesgenerator.com/markdown_tables)
+* [https://markdown-convert.com/zh](https://markdown-convert.com/zh)
+* [https://github.com/jakebathman/Markdown-Table-Generator](https://github.com/jakebathman/Markdown-Table-Generator)
 * [https://github.com/domchristie/turndown](https://github.com/domchristie/turndown)
+* [https://github.com/donatj/CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable)
+* [https://github.com/jonmagic/copy-excel-paste-markdown](https://github.com/jonmagic/copy-excel-paste-markdown)
+
 
 
 ### 生成标题目录树
@@ -451,6 +456,7 @@ string &operator+(const string& A,const string& B) //cpp
 
 ### 在线版客户端
 
+* [https://dillinger.io](https://dillinger.io)
 * [https://github.com/mdnice/markdown-resume](https://github.com/mdnice/markdown-resume)
 * [xkeditor](https://github.com/syfxlin/xkeditor)
 
@@ -484,7 +490,7 @@ string &operator+(const string& A,const string& B) //cpp
 
 * [Haroopad](http://pad.haroopress.com/user.html)
 * [https://github.com/MacDownApp/macdown](https://github.com/MacDownApp/macdown)
-
-
+* [https://github.com/Zettlr/Zettlr](https://github.com/Zettlr/Zettlr)
+* [https://github.com/rickstrahl/MarkdownMonster](https://github.com/rickstrahl/MarkdownMonster)
 
 

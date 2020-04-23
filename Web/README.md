@@ -23,6 +23,7 @@
 
 - [前端解决第三方图片防盗链的办法 - html referrer 访问图片资源403问题](https://github.com/biaochenxuying/blog/issues/31)
 
++ [https://jsbin.com](https://jsbin.com)
 
 
 ## 框架
@@ -127,8 +128,14 @@
 
 ```
 fonts.gstatic.com               fonts-gstatic.proxy.ustclug.org
+fonts.gstatic.com               gstatic.loli.net
+fonts.gstatic.com               gapis.geekzu.org/g-fonts
 fonts.googleapis.com            fonts.proxy.ustclug.org
+fonts.googleapis.com            fonts.loli.net
+fonts.googleapis.com            fonts.geekzu.org
 ajax.googleapis.com             ajax.proxy.ustclug.org
+ajax.googleapis.com             ajax.loli.net
+ajax.googleapis.com             gapis.geekzu.org/ajax
 registry-1.docker.io            docker.mirrors.ustc.edu.cn
 packages.elastic.co             elastic.proxy.ustclug.org
 ppa.launchpad.net               launchpad.proxy.ustclug.org
@@ -138,7 +145,14 @@ downloads.openwrt.org           openwrt.proxy.ustclug.org
 registry.npmjs.org              npmreg.proxy.ustclug.org
 www.npmjs.com                   npm.proxy.ustclug.org
 themes.googleusercontent.com    google-themes.proxy.ustclug.org
+themes.googleusercontent.com    themes.loli.net
+themes.googleusercontent.com    gapis.geekzu.org/g-themes
 secure.gravatar.com             gravatar.proxy.ustclug.org
+secure.gravatar.com             gravatar.loli.net
+secure.gravatar.com/avatar      sdn.geekzu.org/avatar
+www.gravatar.com/avatar         fdn.geekzu.org/avatar
+[0-2].gravatar.com/avatar       fdn.geekzu.org/avatar
+cdnjs.cloudflare.com            cdnjs.loli.net
 ```
 
 
