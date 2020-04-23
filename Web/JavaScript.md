@@ -70,42 +70,6 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 [http://www.clipboardjs.cn](http://www.clipboardjs.cn)
 
 
-## CDN
-
-* [https://cdnjs.com](https://cdnjs.com)
-* 知乎：[https://unpkg.zhimg.com](https://unpkg.zhimg.com)
-* 饿了么：[https://npm.elemecdn.com](https://npm.elemecdn.com)
-* [https://unpkg.com](https://unpkg.com)
-
-> 使用固定的版本号：
->> `unpkg.com/react@16.0.0/umd/react.production.min.js`
->>
->> `unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js`
->
-> 也可使用语义化版本范围，或标签来代替固定版本号，亦可忽略版本和标签，直接使用最新的版本。
->> `unpkg.com/react@^16/umd/react.production.min.js`
->>
->> `unpkg.com/react/umd/react.production.min.js`
->
-> 如果忽略了文件的路径（例如，使用裸网址 “bare” URL），unpkg 会提供 package.json 里指定的文件，或降级到 main。
->> `unpkg.com/d3`
->>
->> `unpkg.com/jquery`
->>
->> `unpkg.com/three`
->
-> 注：这种方式会产生一次 302 到最新的文件 URL。好处是自动使用最新版，坏处是多一次性跳转，降低了性能。
->
-> 在网址最后添加斜线，可以查看一个包内的所有文件列表。
->> `unpkg.com/react/`
->>
->> `unpkg.com/lodash/`
-
-
-* [https://github.com/jsdelivr/jsdelivr](https://github.com/jsdelivr/jsdelivr)
-* [https://www.bootcdn.cn](https://www.bootcdn.cn)
-* [http://staticfile.org](http://staticfile.org)
-* [https://cdn.baomitu.com](https://cdn.baomitu.com)
 
 
 ## 正则表达式
