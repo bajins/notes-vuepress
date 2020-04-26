@@ -14,7 +14,6 @@
 * [Java，JDBC和MySQL对应数据类型](https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-reference-type-conversions.html)
 * [http://www.squirrelsql.org](http://www.squirrelsql.org)
 * [http://java-source.net/open-source/sql-clients](http://java-source.net/open-source/sql-clients)
-* [https://github.com/pagehelper/Mybatis-PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)
 
 
 
@@ -51,6 +50,54 @@
 | useSSL                	| 是否进行ssl连接                                                                 	|        	|              	|
 | zeroDateTimeBehavior  	| 把零值日期转换为`null`                                                          	|        	|              	|
 | serverTimezone        	| `GMT%2B8` `%2B`是`+`的转义字符,其实就是`GMT+8`,代表东八区。`Asia/Shanghai` 上海 	|        	|              	|
+
+
+
+## Mybatis
+
+* [https://github.com/mybatis](https://github.com/mybatis)
+* [https://mybatis.org/mybatis-3/zh/dynamic-sql.html](https://mybatis.org/mybatis-3/zh/dynamic-sql.html)
+* [https://github.com/pagehelper/Mybatis-PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)
+
+
+**trim标签**
+
+| 属性              | 描述                |
+|-----------------|-------------------|
+| prefix          | 在条件语句前需要加入的内容     |
+| suffix          | 在条件语句后需要加入的内容     |
+| prefixOverrides | 覆盖/去除sql语句前面的指定内容 |
+| suffixOverrides | 覆盖/去除sql语句后面的指定内容 |
+
+
+- 示例
+
+```xml
+<select id="selectSelective" resultType="java.util.Map">
+  SELECT * FROM user
+  <trim prefix="WHERE" suffix="AND|OR">
+    <if test="id != null and id.trim() != '' ">
+        id = #{id} AND
+    </if>
+    <if test="name != null and name.trim() != '' ">
+        name = #{name} AND
+    </if>
+  </trim>
+</select>
+<!-- 等同于以下方式 -->
+<select id="selectSelective" resultType="java.util.Map">
+  SELECT * FROM user
+  <where>
+    <if test="id != null and id.trim() != '' ">
+        id = #{id}
+    </if>
+    <if test="name != null and name.trim() != '' ">
+        AND name = #{name} 
+    </if>
+  </where>
+</select>
+```
+
 
 
 

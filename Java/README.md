@@ -52,8 +52,10 @@
 * [https://github.com/scalad/Note](https://github.com/scalad/Note)
 * [https://github.com/stalary/Source-code-analysis](https://github.com/stalary/Source-code-analysis)
 * [https://github.com/nibnait/algorithms](https://github.com/nibnait/algorithms)
+* [https://github.com/Childe-Mu/java_notes](https://github.com/Childe-Mu/java_notes)
+* [https://github.com/Childe-Mu/bio-nio-aio-netty-notes](https://github.com/Childe-Mu/bio-nio-aio-netty-notes)
 
-
++ [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
 
 
 
@@ -147,6 +149,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 - [https://github.com/xuxueli](https://github.com/xuxueli)
 
+* [https://github.com/luxiaoxun/NettyRpc](https://github.com/luxiaoxun/NettyRpc)
 
 
 **Transaction**

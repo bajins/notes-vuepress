@@ -11,6 +11,12 @@
 * [http://hsqldb.org](http://hsqldb.org)
 * [https://github.com/flyway/flyway](https://github.com/flyway/flyway)
 
+
+
+
+## MySQL
+
+
 ![](/images/sql执行顺序.png)
 
 
@@ -21,6 +27,30 @@
 * pt-query-digest、pt-variable-advisor：[https://www.percona.com/downloads/percona-toolkit/LATEST/](https://www.percona.com/downloads/percona-toolkit/LATEST/)
 * [https://www.red-gate.com/products](https://www.red-gate.com/products)
 * [https://www.sqlgate.com](https://www.sqlgate.com)
+
+
+**MySql 5.0 以上字符串数据类型可以存的汉字个数**
+
+* [https://dev.mysql.com/doc/refman/5.7/en/data-types.html](https://dev.mysql.com/doc/refman/5.7/en/data-types.html)
+
+> 注意谨慎选择较大的存储数据类型
+
+- UTF8MB4编码：一个汉字 = 4 个字节，英文是一个字节（bytes）
+- UTF8编码：一个汉字 = 3 个字节，英文是一个字节（bytes）
+- GBK编码： 一个汉字 = 2 个字节，英文是一个字节（bytes）
+
++ 在UTF8状态下 longtext : 4294967295/3=1431655765 个汉字，约14亿，存储空间占用：4294967295/1024/1024/1024=4G 的数据
++ 在UTF8状态下 mediumtext : 16777215/3=5592405 个汉字，约560万，存储空间占用：16777215/1024/1024=16M 的数据
++ 在UTF8状态下 text : 65535/3=21845个汉字，约20000，存储空间占用：65535/1024=64K 的数据
++ 在UTF8状态下 tinytext : 256/3=85个汉字，存储空间占用：256 bytes
++ 在UTF8MB4状态下 varchar ： (65535 - 2) / 4 = 16383 个汉字，英文也为 16383 个字符串，存储空间占用：64k
++ 在UTF8状态下 varchar ： (65535 - 2) / 3 = 21844 个汉字，英文也为 21844 个字符串，存储空间占用：64k
++ 在GBK状态下 varchar ： (65535 - 2) / 2 = 32766 个汉字，英文也为 32766 个字符串，存储空间占用：64k
+
+> varchar 超过255个字节会有2字节的额外占用空间开销，所以减2，如果是255以下，则减1
+
+* [mysql的varchar与text对比](https://blog.51cto.com/arthur376/2121160)
+
 
 
 
@@ -63,6 +93,8 @@
 
 
 ## Redis
+
++ [https://github.com/huangz1990/redis-3.0-annotated](https://github.com/huangz1990/redis-3.0-annotated)
 
 * [https://www.redis.net.cn](https://www.redis.net.cn)
 * [http://doc.redisfans.com](http://doc.redisfans.com)

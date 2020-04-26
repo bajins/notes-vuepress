@@ -194,6 +194,8 @@
 * [archives - 匠心零度博客](http://www.jiangxinlingdu.com/archives.html)
 * [Lovnx_CSDN博客-J2SE,Spring Cloud,Spring Cloud领域博主](https://blog.csdn.net/rickiyeat)
 * [归档 | Keep Coding](https://liujiacai.net/archives)
+* [归档 | Code Life](https://boris1993.github.io/archives)
+* [大东Daniel - 博客园](https://www.cnblogs.com/psyco)
 
 
 

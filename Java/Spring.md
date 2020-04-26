@@ -45,6 +45,21 @@
 
 
 
+**依赖注入的三种方式**
+
+> 使用@Autowired注解时： Field （属性变量）注入尽量避免使用，构造器注入适合强制性的注入旨在不变性，Setter 注入适合可变性的注入。
+
+> @Resource
+
+> @Inject
+
+* [这几个关于Spring 依赖注入的问题你清楚吗？](https://juejin.im/post/5e3811d26fb9a07ca24f3e55)
+* [Field injection is not recommended（Spring IOC不再推荐使用属性注入）](https://segmentfault.com/a/1190000021044999)
+* [IDEA 警告 Field injection is not recommended](https://boris1993.github.io/projects/java/coding-tips/idea-warninig-field-injection-is-not-recommended.html)
+* [Field injection is not recommended](https://www.jianshu.com/p/7f20176f2a40)
+* [@Autowired警告：Field injection is not recommended](https://www.jianshu.com/p/36db3e167958)
+* [使用@Autowired注解警告Field injection is not recommended](https://blog.csdn.net/zhangjingao/article/details/81094529)
+
 
 ## SpringBoot
 
