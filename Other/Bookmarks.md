@@ -196,6 +196,8 @@
 * [归档 | Keep Coding](https://liujiacai.net/archives)
 * [归档 | Code Life](https://boris1993.github.io/archives)
 * [大东Daniel - 博客园](https://www.cnblogs.com/psyco)
+* [归档栏 - 宋子宪博客](https://songzixian.com/archives.html)
+* [归档 | AI Developers Geeks](http://blog.ibyte.vip/archives)
 
 
 
