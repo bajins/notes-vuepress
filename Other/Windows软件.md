@@ -211,9 +211,7 @@
 * [https://github.com/iikira/BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go)
 * [https://github.com/liuzhuoling2011/baidupcs-web](https://github.com/liuzhuoling2011/baidupcs-web)
 * [https://github.com/loliconer/baidupcs-mobile](https://github.com/loliconer/baidupcs-mobile)
-* [百度网盘直链下载助手](https://www.baiduyun.wiki)
-* [https://yixun.writeas.com](https://yixun.writeas.com)
-* [https://github.com/Kyle-Kyle/baidudl](https://github.com/Kyle-Kyle/baidudl)
+* [https://github.com/search?q=pdown](https://github.com/search?q=pdown)
 
 
 **蓝奏云**
