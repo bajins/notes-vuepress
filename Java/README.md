@@ -136,12 +136,15 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
 * [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
 * 对配置内容加密：[https://github.com/ulisesbocchio/jasypt-spring-boot](https://github.com/ulisesbocchio/jasypt-spring-boot)
+* 适用于Java8以下的时间替代项目`joda-time`：[https://github.com/JodaOrg](https://github.com/JodaOrg)
 
 - Jakarta JSON处理规范，API和兼容的实现：[https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
 - [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
 - [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)
 - [https://github.com/google/gson](https://github.com/google/gson)
 
+* jwt [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)
+* [https://github.com/auth0/java-jwt](https://github.com/auth0/java-jwt)
 
 + [https://github.com/rabbitmq](https://github.com/rabbitmq)
 + [https://github.com/reactor](https://github.com/reactor)
@@ -194,6 +197,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/caspar-chen/swagger-ui-layer](https://github.com/caspar-chen/swagger-ui-layer)
 * [https://github.com/xiaoymin/swagger-bootstrap-ui](https://github.com/xiaoymin/swagger-bootstrap-ui)
 
++ [https://github.com/spring-projects/spring-restdocs](https://github.com/spring-projects/spring-restdocs)
 
 
 **测试**
