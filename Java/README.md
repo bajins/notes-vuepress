@@ -271,6 +271,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [mall-swarm是一套微服务商城系统](https://github.com/macrozheng/mall-swarm)
 * [mall项目是一套电商系统，包括前台商城系统及后台管理系统](https://github.com/macrozheng/mall)
 * [基于SpringBoot2.x、SpringCloud并采用前后端分离的多租户系统架构微服务开发平台](https://gitee.com/ibyte/M-Pass)
+* [Hasor是一套基于 Java 语言的开发框架](https://github.com/zycgit/hasor)
 
 
 

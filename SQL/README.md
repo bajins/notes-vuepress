@@ -16,6 +16,7 @@
 
 ## MySQL
 
+* [MySQL 全文索引实现简单版搜索引擎](https://www.cnblogs.com/YangJiaXin/p/11153579.html)
 
 ![](/images/sql执行顺序.png)
 
