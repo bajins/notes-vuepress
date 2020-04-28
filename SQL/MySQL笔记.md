@@ -528,19 +528,13 @@ SHOW GRANTS FOR 'username'@'host'
 
 > 以root用户登录到数据库后进行用户创建
 
-- `CREATE`创建的用户需要手动授权
+**`CREATE`创建的用户需要手动授权**
 
 
-```sql
-CREATE USER 'username'@'host' IDENTIFIED BY 'password';
-```
-
-> `username`将要创建的用户名；
->
-> `host` 指定该用户在哪个主机上可以登录，"localhost"指该用户只能在本地登录，不能在另外一台机器上远程登录，
+- `username`将要创建的用户名；
+- `host` 指定该用户在哪个主机上可以登录，"localhost"指该用户只能在本地登录，不能在另外一台机器上远程登录，
  如果想远程登录，将"localhost"改为"%"，表示在任何一台电脑上都可以登录；如果替换成ip，则为只有对应的ip可以连接；
->
-> `password` 该用户的登录密码，密码可以为空，若为空则该用户可以不需要密码登录服务器。
+- `password` 该用户的登录密码，密码可以为空，若为空则该用户可以不需要密码登录服务器。
 
 ```sql
 # 创建本地登录账户
@@ -550,31 +544,26 @@ CREATE USER 'admin'@'%' IDENTIFIED BY '123456';
 ```
 
 
-- `GRANT`命令创建用户或授权
+**`GRANT`命令创建用户或授权**
 
-> 当数据库存在用户的时候`GRANT`会对用户进行授权，但当数据库不存在该用户的时候，就会创建相应的用户并进行授权。
->
-> `WITH GRANT OPTION`这个选项表示该用户可以将自己拥有的权限授权给别人
-
-```sql
-GRANT privileges ON databasename.tablename TO 'username'@'host'
-```
-
-> `privileges`用户的操作权限，如INSERT,DELETE,UPDATE,SELECT等。如果授予所有权限则使用ALL。
->
-> `databasename`数据库名称。`tablename`表名。如果要给该用户授予对所有数据库和表的相应操作权限则可用`*`表示，例如`*.*`
+- 当数据库存在用户的时候`GRANT`会对用户进行授权，但当数据库不存在该用户的时候，就会创建相应的用户并进行授权。
+- `WITH GRANT OPTION`这个选项表示该用户可以将自己拥有的权限授权给别人
+- `privileges`用户的操作权限，如INSERT,DELETE,UPDATE,SELECT等。如果授予所有权限则使用ALL。
+- `database`数据库名称。`table`表名。如果要给该用户授予对所有数据库和表的相应操作权限则可用`*`表示，例如`*.*`
 
 
 ```sql
 # 创建只读账号
-GRANT SELECT ON *.* TO 'reader'@'%' IDENTIFIED BY "123456";
+GRANT SELECT ON database.table TO 'reader'@'%' IDENTIFIED BY "123456";
 # 增删改查账号
-GRANT INSERT,DELETE,UPDATE,SELECT ON *.* TO 'writer'@'%' IDENTIFIED BY "123456";
+GRANT INSERT,DELETE,UPDATE,SELECT ON database.table TO 'writer'@'%' IDENTIFIED BY "123456";
 # 创建拥有所有权限的账户
-GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '密码' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON database.table TO 'root'@'%' IDENTIFIED BY '密码' WITH GRANT OPTION;
 
 # 刷新权限
 FLUSH PRIVILEGES;
+# 查看用户信息
+select user,host from user;
 ```
 
 
