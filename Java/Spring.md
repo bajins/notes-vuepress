@@ -18,6 +18,9 @@
 
 + [https://start.aliyun.com](https://start.aliyun.com)
 
+* [SpringCache自定义过期时间及自动刷新](https://www.cnblogs.com/top-housekeeper/p/11980973.html)
+
+
 
 **webmvc与webflux**
 
@@ -59,6 +62,10 @@
 * [Field injection is not recommended](https://www.jianshu.com/p/7f20176f2a40)
 * [@Autowired警告：Field injection is not recommended](https://www.jianshu.com/p/36db3e167958)
 * [使用@Autowired注解警告Field injection is not recommended](https://blog.csdn.net/zhangjingao/article/details/81094529)
+
+
+
+
 
 
 ## SpringBoot
