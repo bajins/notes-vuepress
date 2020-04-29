@@ -195,7 +195,7 @@ demo                        # 顶级项目（根项目）
 
 * [使用Maven Helper解决Maven依赖冲突](https://segmentfault.com/a/1190000017542396)
 
-![](https://github.com/krasa/MavenHelper/blob/master/projectSetup.gif?raw=true)
+![](https://plugins.jetbrains.com/files/7179/screenshot_19711.png)
 
 
 
@@ -215,7 +215,7 @@ demo                        # 顶级项目（根项目）
 
 * [https://github.com/robohorse/RoboPOJOGenerator](https://github.com/robohorse/RoboPOJOGenerator)
 
-![https://plugins.jetbrains.com/files/8634/screenshot_16298.png](https://github.com/robohorse/RoboPOJOGenerator/raw/master/images/tutorial_v3.gif)
+![](https://github.com/robohorse/RoboPOJOGenerator/blob/master/images/tutorial_v201.gif?raw=true)
 
 
 **Json2Pojo**

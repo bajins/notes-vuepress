@@ -24,6 +24,11 @@
 
 **webmvc与webflux**
 
+<details>
+<summary><b>展开查看示例结构</b></summary>
+<img src="/images/spring-web-client.png" alt>
+</details>
+
 - webmvc是servlet stack based，基于同步阻塞的IO模型
     - 在`org.springframework.web`包下
     - `artifactId`：`spring-boot-starter-web`
