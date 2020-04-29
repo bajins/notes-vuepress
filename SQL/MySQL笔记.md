@@ -549,6 +549,7 @@ CREATE USER 'admin'@'%' IDENTIFIED BY '密码';
 - `WITH GRANT OPTION` 这个选项表示该用户可以将自己拥有的权限授权给别人
 - `privileges` 用户的操作权限，如`INSERT`,`DELETE`,`UPDATE`,`SELECT`等。所有权限则使用`ALL`。
 - `database.table` 数据库名.表名。如果要给该用户授予对所有数据库和表的相应操作权限则可用`*`表示，例如`*.*`
+- `IDENTIFIED` 指定密码，如果不带此属性会导致创建的用户无法远程连接，虽然从`mysql.user`查出`host`为`%`
 
 ```sql
 # 创建只读账号
