@@ -168,6 +168,7 @@ demo                        # 顶级项目（根项目）
 
 > 直接将Mybatis执行的sql脚本显示出来，无需处理，可以直接复制出来执行
 
+* [https://github.com/kookob/mybatis-log-plugin](https://github.com/kookob/mybatis-log-plugin)
 
 
 **.ignore**
@@ -344,11 +345,6 @@ demo                        # 顶级项目（根项目）
 
 
 
-**CodeGlance**
-
-> 代码编辑区迷你缩放插件，可以进行代码的全局预览。
-
-
 **CamelCase**
 
 > 命名风格转换插件，可以在 kebab-case，SNAKE_CASE，PascalCase，camelCase，snake_case 和 空格风格之间切换。
@@ -431,6 +427,12 @@ demo                        # 顶级项目（根项目）
 > 彩虹颜色的括号，看着很舒服 敲代码效率变高
 
 ![](https://upload-images.jianshu.io/upload_images/11962894-e06934b99588f66c.png)
+
+
+
+**CodeGlance**
+
+> 代码编辑区迷你缩放插件，可以进行代码的全局预览。
 
 
 
