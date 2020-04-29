@@ -8,6 +8,9 @@
 
 ## flag
 
+**更多软件见：[https://gd.bajins.com](https://gd.bajins.com)**
+
+
 * [https://git.io](https://git.io)
 * [http://potato.manre.me](http://potato.manre.me)
 * [https://signal.org](https://signal.org)
