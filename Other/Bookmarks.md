@@ -61,6 +61,8 @@
 
 * CSDN：[https://www.csdn.net](https://www.csdn.net)
 * 思否：[https://segmentfault.com](https://segmentfault.com)
+* 掘金：[https://juejin.im](https://juejin.im)
+* 简书：[https://www.jianshu.com](https://www.jianshu.com)
 * TED（最优质的演讲）：[https://www.ted.com](https://www.ted.com)
 * 谷粉学术：[https://gfsoso.99lb.net/scholar.html](https://gfsoso.99lb.net/scholar.html)
 * 大学资源网：[http://www.dxzy163.com](http://www.dxzy163.com)
