@@ -451,7 +451,7 @@ book.name= test
 - `@ResponseBody` 支持将返回值放在response内，而不是一个页面，通常用户返回json数据（返回值旁或方法上）
 - `@RequestBody` 允许request的参数在request体中，而不是在直接连接在地址后面。（放在参数前）
 - `@PathVariable` 用于接收路径上使用`{}`声明的参数，比如`@RequestMapping(“/hello/{name}”)`申明的路径，将注解放在参数中前，即可获取该值，通常作为Restful的接口实现方法。
-- `@RequestParam` 用于接收参数，`GET`为`?`后面的参数，`POST`为body中的参数；可与`@PathVariable`同时使用
+- `@RequestParam` 用于接收参数（在实际使用中，如果变量名与参数名相同可不使用此注解），`GET`为`?`后面的参数，`POST`为body中的参数；可与`@PathVariable`同时使用
 - `@RestController` 该注解为一个组合注解，相当于`@Controller`和`@ResponseBody`的组合，注解在类上，意味着，该Controller的所有方法都默认加上了`@ResponseBody`。
 - `@ControllerAdvice` 通过该注解，我们可以将对于控制器的全局配置放置在同一个位置，注解了`@Controller`的类的方法可使用`@ExceptionHandler`、`@InitBinder`、`@ModelAttribute`注解到方法上，这对所有注解了 `@RequestMapping`的控制器内的方法有效。
 - `@ExceptionHandler` 用于全局处理控制器里的异常
