@@ -256,6 +256,7 @@
 * [https://github.com/faker-ruby/faker](https://github.com/faker-ruby/faker)
 * [https://github.com/fzaninotto/Faker](https://github.com/fzaninotto/Faker)
 * [https://github.com/joke2k/faker](https://github.com/joke2k/faker)
+[faker_examples.py](/files/faker_examples.py)
 * [https://github.com/thiagofigueiro/faker_web](https://github.com/thiagofigueiro/faker_web)
 
 
