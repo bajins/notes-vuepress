@@ -551,6 +551,8 @@ volumes:
 * [https://github.com/probot/probot](https://github.com/probot/probot)
 * [https://help.github.com/cn](https://help.github.com/cn)
 * 发布成功之后`github pages`的`Custom domain`配置项就被清空：[github-pages-basics](http://wiki.jikexueyuan.com/project/github-pages-basics/cname-file.html)
+* [https://codecov.io](https://codecov.io)
+
 
 ### 访问速度过慢
 

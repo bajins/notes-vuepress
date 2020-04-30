@@ -194,21 +194,19 @@
 
 ## 身份和信用卡
 
-* [ruyo](https://51.ruyo.net/%E8%99%9A%E6%8B%9F%E8%BA%AB%E4%BB%BD%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%94%9F%E6%88%90)
+* 国家代码，电话代码，拨号代码，电话代码，ISO国家代码: [https://countrycode.org](https://countrycode.org)
+* [https://github.com/philipperemy/name-dataset](https://github.com/philipperemy/name-dataset)
+
 
 **生成完整用户信息**
 
 > （有生成数量限制）支持美国、日本、德国、英国等多国身份
 
-中文站：[http://www.haoweichi.com](http://www.haoweichi.com)
-
-英文站：[https://www.fakenamegenerator.com](https://www.fakenamegenerator.com)
-
-英文站：[https://www.fakeaddressgenerator.com](https://www.fakeaddressgenerator.com)
-
-台湾/香港/韩国身份信息生成：[https://tw.51240.com](https://tw.51240.com)
-
-台湾身份证生成：[https://people.debian.org/~paulliu/ROCid.html](https://people.debian.org/~paulliu/ROCid.html)
+- 中文站：[http://www.haoweichi.com](http://www.haoweichi.com)
+- 英文站：[https://www.fakenamegenerator.com](https://www.fakenamegenerator.com)
+- 英文站：[https://www.fakeaddressgenerator.com](https://www.fakeaddressgenerator.com)
+- 台湾/香港/韩国身份信息生成：[https://tw.51240.com](https://tw.51240.com)
+- 台湾身份证生成：[https://people.debian.org/~paulliu/ROCid.html](https://people.debian.org/~paulliu/ROCid.html)
 
 
 **生成虚拟信息**
@@ -247,11 +245,18 @@
 * [https://github.com/marak/Faker.js](https://github.com/marak/Faker.js)
 * [https://github.com/thm/uinames](https://github.com/thm/uinames)
 * [https://github.com/RandomAPI/Randomuser.me-Node](https://github.com/RandomAPI/Randomuser.me-Node)
-* [https://github.com/MrKinauJr/FakeNameGenerator](https://github.com/MrKinauJr/FakeNameGenerator)
-* [https://github.com/faker-ruby/faker](https://github.com/faker-ruby/faker)
 * [https://github.com/dmgk/faker](https://github.com/dmgk/faker)
 * [https://github.com/arakelian/faker](https://github.com/arakelian/faker)
 * [https://github.com/travishorn/fake-identity](https://github.com/travishorn/fake-identity)
+* [https://github.com/corbanworks](https://github.com/corbanworks)
+* [https://github.com/MrKinauJr/FakeNameGenerator](https://github.com/MrKinauJr/FakeNameGenerator)
+
++ [https://pypi.org/search/?q=Faker](https://pypi.org/search/?q=Faker)
+
+* [https://github.com/faker-ruby/faker](https://github.com/faker-ruby/faker)
+* [https://github.com/fzaninotto/Faker](https://github.com/fzaninotto/Faker)
+* [https://github.com/joke2k/faker](https://github.com/joke2k/faker)
+* [https://github.com/thiagofigueiro/faker_web](https://github.com/thiagofigueiro/faker_web)
 
 
 
