@@ -277,3 +277,23 @@
 - 拦截器可以调用IOC容器中的各种依赖，而过滤器不能
 - 过滤器只能在请求的前后使用，而拦截器可以详细到每个方法
 
+
+
+## Spring TaskScheduler
+
+- `Spring Scheduling Tasks` Spring 3.0 版本之后自带的一个定时任务。其所属Spring的资源包为：`spring-context-support`
+
+> 可以将它看成一个轻量级的`Quartz`，而且使用起来比Quartz简单许多。默认单线程串行执行任务，多任务时若某个任务执行时间过长，
+> 后续任务会无法及时执行；抛出异常后，同一个任务后续不再触发
+
+- `Spring Quartz` Spring集成整合`Quartz`，主要Bean: `JobDetail`、`Trigger`以及`SchedulerFactory`，`JobDataMap`数据传递
+
+> 需要继承`org.springframework.scheduling.quartz.QuartzJobBean`或者实现`org.quartz.Job`。采用多线程，下一个调度时间到达时，
+> 会另起一个线程执行调度，不会发生阻塞问题，但调度过多时可能导致数据处理异常，抛出异常后，同一个任务后续仍然会触发
+
+- `TBSchedule`
+
+* [https://github.com/quartz-scheduler/quartz](https://github.com/quartz-scheduler/quartz)
+* [quartz-scheduler建表SQL](https://github.com/quartz-scheduler/quartz/tree/master/quartz-core/src/main/resources/org/quartz/impl/jdbcjobstore)
+
+

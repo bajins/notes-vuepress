@@ -134,7 +134,6 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/ehcache/ehcache3](https://github.com/ehcache/ehcache3)
 [http://www.ehcache.org/apidocs](http://www.ehcache.org/apidocs)
 [Ehcache3配置使用](https://segmentfault.com/a/1190000022502212)
-* [https://github.com/quartz-scheduler/quartz](https://github.com/quartz-scheduler/quartz)
 * [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
 * [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
 * 对配置内容加密：[https://github.com/ulisesbocchio/jasypt-spring-boot](https://github.com/ulisesbocchio/jasypt-spring-boot)

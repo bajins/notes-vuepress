@@ -1,4 +1,4 @@
-# Quartz定时器
+# Quartz
 
 
 [[toc]]
@@ -18,7 +18,7 @@
 > 如果使用`@PersistJobDataAfterExecution`注解，推荐也使用`@DisallowConcurrentExecution`注解，这是为了避免并发问题导致数据紊乱。
 
 ```java
-public void addAutoInvestJob(Loan loan) {
+public void addJob(Loan loan) {
 	JobDetail jobDetail1 = JobBuilder.newJob(AutoInvestAfterLoanPassed.class) // 创建builder，(jobDetail的预准备对象)
 			// 通过builder调用withIdentity()去设置builder的名字和分组,最后通过build()方法获得一个jobDetail对象
 			.withIdentity(loan.getId(), ScheduleConstants.JobGroup.AUTO_INVEST_AFTER_LOAN_PASSED).build();
@@ -62,29 +62,13 @@ public void addAutoInvestJob(Loan loan) {
 			scheduler.resumeTrigger(trigger.getKey());
 		}
 		
-		if (log.isDebugEnabled())
-			log.debug("添加[自动投标]调度成功，项目编号[" + loan.getId() + "]，时间："
-					+ DateUtil.DateToString(startDate1, DateStyle.YYYY_MM_DD_HH_MM_SS_CN));
+		if (log.isDebugEnabled()){
+			log.debug("添加调度成功,时间：{}", DateUtil.DateToString(startDate1, DateStyle.YYYY_MM_DD_HH_MM_SS_CN));
+        }
 	} catch (SchedulerException e) {
-		throw new RuntimeException(e);
+		throw e;
 	}
 }
-```
- 
-```java
-// 暂停触发器
-scheduler.pauseTrigger(triggerKey);
-// 恢复触发器
-scheduler.resumeTrigger(triggerKey);
-// 移除触发器
-scheduler.unscheduleJob(triggerKey);
-
-// 暂停任务
-scheduler.pauseJob(jobKey);
-// 恢复一个任务
-scheduler.resumeJob(jobKey);
-// 从调度器中删除这个唯一任务时同时会删除相关联的触发器
-scheduler.deleteJob(jobKey);
 ```
 
 > 首先从Scheduler.scheduleJob（JobDetail jobDetail，Trigger trigger）调度job， 实际上就是将job存储到RAM中的jobsByGroup，
@@ -97,7 +81,7 @@ jobsByKey对应的Map中，将触发器存储到触发器（List），triggersBy
 
 ## Quartz的Misfire处理规则
 
-```java
+```
 调度(scheduleJob)或恢复调度(resumeTrigger,resumeJob)后不同的misfire对应的处理规则
 
 CronTrigger 
@@ -168,24 +152,19 @@ MISFIRE_INSTRUCTION_RESCHEDULE_NOW_WITH_REMAINING_REPEAT_COUNT
 
 **核心接口有**
 
-> Scheduler – (调度器)与scheduler交互的主要API； 
->
-> Job – (作业)你通过scheduler执行任务，你的任务类需要实现的接口； 
->
-> JobDetail – (作业实例)定义Job的实例； 
->
-> Trigger – (触发器)触发Job的执行； 
->
-> JobBuilder – 定义和创建JobDetail实例的接口; 
->
-> TriggerBuilder – 定义和创建Trigger实例的接口；
+- Scheduler – (调度器)与scheduler交互的主要API； 
+- Job – (作业)你通过scheduler执行任务，你的任务类需要实现的接口； 
+- JobDetail – (作业实例)定义Job的实例； 
+- Trigger – (触发器)触发Job的执行； 
+- JobBuilder – 定义和创建JobDetail实例的接口; 
+- TriggerBuilder – 定义和创建Trigger实例的接口；
 
 
 ### 触发器接口基本介绍
 
 **Trigger触发器方法介绍**
 
-```diff
+```
 // 触发器状态  
 TriggerState  
     |-public enum TriggerState { NONE, NORMAL, PAUSED, COMPLETE, ERROR, BLOCKED }  
@@ -238,7 +217,7 @@ DEFAULT_PRIORITY
 
 ### 触发器实现类
 
-```diff
+```
 Trigger (org.quartz)    
     |-CalendarIntervalTrigger (org.quartz) 日期触发器   
     |   |-CalendarIntervalTriggerImpl (org.quartz.impl.triggers)   
@@ -264,17 +243,14 @@ Trigger (org.quartz)
 
 - 常用
 
->> 1. SimpleTrigger :简单触发器 
->>
->> 2. CalendarIntervalTrigger:日历触发器 
->>
->> 3. CronTrigger:Cron表达式触发器 
->>
->> 4. DailyTimeIntervalTrigger:日期触发器
+1. SimpleTrigger :简单触发器
+2. CalendarIntervalTrigger:日历触发器
+3. CronTrigger:Cron表达式触发器
+4. DailyTimeIntervalTrigger:日期触发器
 
 ### 调度器建造者
 
-```diff
+```
 // 用于创建各个调度器  
 ScheduleBuilder (org.quartz)   
     |-CalendarIntervalScheduleBuilder (org.quartz)    
@@ -345,8 +321,8 @@ public static SimpleScheduleBuilder repeatHourlyForever()
 //每隔几小时钟执行(一直执行) 
 public static SimpleScheduleBuilder repeatHourlyForever(int hours)   
 /***********************/
-)//间隔时间为1分钟，总的执行次数为count
-public static SimpleScheduleBuilder repeatMinutelyForTotalCount(int count   
+//间隔时间为1分钟，总的执行次数为count
+public static SimpleScheduleBuilder repeatMinutelyForTotalCount(int count)  
 //间隔时间为几分钟，总的执行次数为count   .............
 public static SimpleScheduleBuilder repeatMinutelyForTotalCount(int count, int minutes)
 public static SimpleScheduleBuilder repeatSecondlyForTotalCount(int count)
@@ -406,11 +382,6 @@ misfireInstruction
 **SimpleTrigger**
 
 ```java
-import org.quartz.*;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 public class SimpleTriggerMain {
 
     public static void main(String[] args) throws SchedulerException {
@@ -487,11 +458,6 @@ misfireInstruction
 **Cron应用**
 
 ```java
-import org.quartz.*;
-
-import java.text.SimpleDateFormat;
-
-
 public class CronTriggerMain {
 
     public static void main(String[] args) throws SchedulerException {
@@ -512,38 +478,7 @@ public class CronTriggerMain {
 ```
 
 
-**cron表达式介绍**
 
-- 字符
-
->> 1. `*` 每一(每一分) 
->>
->> 2. `?` 表示不关心,任意 
->>
->> 3. `-` 范围 (小时:1-12,1到12点运行) 
->>
->> 4. `,` 标示多个值 (小时 1,2,3 1点2点3点运行) 
->>
->> 5. `/` 递增触发(0/15,从0开始每15秒运行一次) 
->>
->> 6. `L` 最后(日L,当月最后一天,周L周六) 
->>
->> 7. `W` 指定日期最近的工作日(周一到周五) 
->>
->> 8. `##` 序号(表示每月的第几个周几) 
->>
-> CronTrigger配置格式: [秒] [分] [小时] [日] [月] [周] [年]
-
-
-|序号 | 说明 | 是否必填 | 允许填写的值 | 允许的通配符|
-|-----|-----|----------|-------------|-----------|
-|1    |秒   |是        |0-59         |, - * /     |
-|2    |分   |是        |0-59         |, - * /     |
-|3    |小时 |是        |0-23         |, - * /     |
-|4    |日   |是        |1-31         |, - * ? / L W |
-|5    |月   |是        |1-12 or JAN-DEC|, - * /   |
-|6    |周   |是        |1-7 or SUN-SAT|, - * ? / L ## |
-|7    |年   |是        |empty或1970-2099|, - * /  |
 
 ### DailyTimeIntervalTrigger-日期触发
 
@@ -598,9 +533,6 @@ SATURDAY_AND_SUNDAY
 **应用**
 
 ```java
-import org.quartz.*;
-
-
 public class DailyTimeIntervalTriggerMain {
     public static void main(String[] args) throws SchedulerException {
         SchedulerFactory schedFact = new org.quartz.impl.StdSchedulerFactory();
@@ -657,10 +589,6 @@ skipDayIfHourDoesNotExist
 **应用**
 
 ```java
-import org.quartz.*;
-import org.quartz.impl.StdSchedulerFactory;
-
-
 public class CalendarIntervalMain {
     public static void main(String[] args) throws SchedulerException {
         SchedulerFactory schedFact = new StdSchedulerFactory();
