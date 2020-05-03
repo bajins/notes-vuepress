@@ -454,6 +454,8 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/domchristie/turndown](https://github.com/domchristie/turndown)
 [https://domchristie.github.io/turndown](https://domchristie.github.io/turndown)
 * [https://github.com/markdown-it/markdown-it](https://github.com/markdown-it/markdown-it)
+* [https://github.com/markedjs/marked](https://github.com/markedjs/marked)
+
 
 
 ### 在线版客户端

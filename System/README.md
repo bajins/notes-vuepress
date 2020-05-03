@@ -61,17 +61,19 @@
 
 
 
-## 资源网站建立
+## 建站资源
 
 * [萌音影视 - 在线影视应用](https://github.com/178146582/moeins)
 [安装教程](https://www.moerats.com/archives/744)
 * [使用FileManager+基于Python3的爬虫程序建立影音图片库](https://www.moerats.com/archives/501)
 * [使用PlayTube搭建私人的视频网站](https://www.moerats.com/archives/644)
 * [开源有态度的漫画CMS](https://github.com/hiliqi/xiaohuanxiong)
+* 冷曦博客 - 源码之家-草根站长的资源共享平台: [https://www.lengxi.net](https://www.lengxi.net)
+* [https://github.com/Youngxj/YoungxjTools](https://github.com/Youngxj/YoungxjTools)
 
 
 
-## 发卡系统
+**发卡系统**
 
 * [github search](https://github.com/search?q=%E5%8F%91%E5%8D%A1%E7%B3%BB%E7%BB%9F&type=Repositories)
 * [https://github.com/zlkbdotnet/zfaka](https://github.com/zlkbdotnet/zfaka)

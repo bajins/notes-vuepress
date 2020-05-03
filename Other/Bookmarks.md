@@ -44,6 +44,8 @@
 
 
 - [https://github.com/hoochanlon](https://github.com/hoochanlon)
+- [https://github.com/easychen](https://github.com/easychen)
+
 
 
 
@@ -224,6 +226,7 @@
 * [分类 | Akkuman Blog](http://hacktech.cn/categories)
 * [归档 | Konica 的自留地](https://www.iikira.com/archives)
 * [Xuanwo's Blog](https://xuanwo.io/posts)
+* [欢迎来到Flyingon的博客 | Flyinon的博客](https://flyingon.github.io)
 
 
 
@@ -236,7 +239,7 @@
 * [w3school 在线教程](https://www.w3school.com.cn/index.html)
 * [阿西河前端教程丨一个助你成为全栈开发的公益网站](https://www.axihe.com)
 * [JS变量和数据类型及其转化 - Coding_Changes_LIfe - 博客园](https://www.cnblogs.com/luoxuw/p/11438437.html)
-
+* [https://github.com/justjavac/justjavac.github.com](https://github.com/justjavac/justjavac.github.com)
 
 
 

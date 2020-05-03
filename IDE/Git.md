@@ -18,9 +18,10 @@
 
 + [常用命令 · git笔记 · 看云](https://www.kancloud.cn/leviio/git/330946)
 + [Git 常用命令及使用详解 - 喵斯基部落](https://www.moewah.com/archives/2292.html)
-+ [Pro Git 中文版（第二版）](https://progit.bootcss.com)
-+ [Git速查手册](https://www.rumosky.wiki/docs/learngit)
-
++ Pro Git 中文版（第二版）: [https://progit.bootcss.com](https://progit.bootcss.com)
++ Git速查手册: [https://www.rumosky.wiki/docs/learngit](https://www.rumosky.wiki/docs/learngit)
++ 猴子都能懂的GIT入门: [https://backlog.com/git-tutorial/cn/contents](https://backlog.com/git-tutorial/cn/contents)
++ [Git与Subversion的命令对比表](https://website-proxy.backlogtool.com/git-tutorial/cn/reference/git-svn.html)
 
 - [git-pull.bat](/files/git-pull.bat)
 - [git-pull.sh](/files/git-pull.sh)
