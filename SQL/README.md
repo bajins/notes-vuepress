@@ -117,3 +117,25 @@
 ## MongoDB
 
 
+
+## 免费数据库
+
+**MySQL**
+
+* [https://remotemysql.com](https://remotemysql.com)
+* [https://www.db4free.net](https://www.db4free.net)
+
+
+**SQLServer**
+
+* [https://www.gearhost.com](https://www.gearhost.com)
+
+
+**PostgresqlSQL**
+
+* [https://www.elephantsql.com](https://www.elephantsql.com)
+
+
+**Redis**
+
+* [https://redislabs.com/redis-enterprise-deployment](https://redislabs.com/redis-enterprise-deployment)
