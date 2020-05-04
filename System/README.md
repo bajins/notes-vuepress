@@ -70,7 +70,7 @@
 * [开源有态度的漫画CMS](https://github.com/hiliqi/xiaohuanxiong)
 * 冷曦博客 - 源码之家-草根站长的资源共享平台: [https://www.lengxi.net](https://www.lengxi.net)
 * [https://github.com/Youngxj/YoungxjTools](https://github.com/Youngxj/YoungxjTools)
-
+* [https://github.com/netnr/scriptservices](https://github.com/netnr/scriptservices)
 
 
 **发卡系统**

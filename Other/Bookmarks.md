@@ -7,7 +7,6 @@
 
 ## flag
 
-* [https://ss.netnr.com](https://ss.netnr.com)
 * [130 余个相见恨晚的超实用网站](https://blog.csdn.net/qq_43901693/article/details/100606828)
 
 
@@ -123,7 +122,7 @@
 
 
 
-## Blogs
+## 技术博客
 
 * [有赞权限系统(SAM)](https://tech.youzan.com/sam)
 * [美团技术团队](https://tech.meituan.com)
@@ -243,17 +242,17 @@
 
 
 
-### Other
+## 其他博客
 
 * [拿着 Api 去玩耍](http://gank.io/api)
-* [归档栏 - Rat&#39;s Blog](https://www.moerats.com/archive.html)
+* [归档栏 - Rats Blog](https://www.moerats.com/archive.html)
 * [萌咖 | MoeClub.org](https://moeclub.org)
 * [归档 - 喵斯基部落](https://www.moewah.com/archives.html)
 * [mzr.me](https://mzr.me)
 * [SaoDaye](https://saodaye.com)
 * [代码浏览 - 94imm - zxy_coding](https://coding.net/u/zxy_coding/p/94imm/git)
 * [归档 - P3TERX ZONE - Zhuangbility &amp; Technology](https://p3terx.com/archives.html)
-* [归档](https://www.emengweb.com/archives)
+* [https://www.emengweb.com/archives](https://www.emengweb.com/archives)
 * [第2页 - Lucien&#39;s Blog - 因为孤独是人之常态，所以陪伴才显得尤为珍贵。](https://blog.lucien.ink/page/2)
 * [时间归档 - R 酱小窝](https://blog.rhilip.info/archives.html)
 * [3款免费企业域名邮箱Mail.ru，Yandex，Zoho申请和使用教程](https://bawodu.com/zoho-mail-ru-yandex)
@@ -274,7 +273,7 @@
 * [G Suite items - 关于 G Suite 的一些探索](https://gsuitems.com)
 * [归档 - LOGI](https://logi.im/archives.html)
 * [567899.xyz](https://567899.xyz/archive.html)
-
+* 木子: [https://muzi502.github.io](https://muzi502.github.io)
 
 
 
@@ -414,17 +413,17 @@
 * 优品PPT（模板下载）：[http://www.ypppt.com](http://www.ypppt.com)
 * 第一PPT（模板下载）：[http://www.1ppt.com/xiazai](http://www.1ppt.com/xiazai)
 * 三顿PPT导航：[http://sandunppt.com](http://sandunppt.com)
-* Excel函数表：[https://support.office.com/zh-cn/article/excel-%E5%87%BD%E6%95%B0%EF%BC%88%E6%8C%89%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89-b3944572-255d-4efb-bb96-c6d90033e188](https://support.office.com/zh-cn/article/excel-%E5%87%BD%E6%95%B0%EF%BC%88%E6%8C%89%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89-b3944572-255d-4efb-bb96-c6d90033e188)
+* [Excel函数表](https://support.office.com/zh-cn/article/excel-%E5%87%BD%E6%95%B0%EF%BC%88%E6%8C%89%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89-b3944572-255d-4efb-bb96-c6d90033e188)
 
 
 ## 图片
 
 * 电脑壁纸：[http://lcoc.top/bizhi](http://lcoc.top/bizhi)
-* ：[https://unsplash.com](https://unsplash.com)
-* ：[https://pixabay.com](https://pixabay.com)
-* ：[https://www.pexels.com](https://www.pexels.com)
-* ：[https://visualhunt.com](https://visualhunt.com)
-* ：[https://www.ssyer.com](https://www.ssyer.com)
+* [https://unsplash.com](https://unsplash.com)
+* [https://pixabay.com](https://pixabay.com)
+* [https://www.pexels.com](https://www.pexels.com)
+* [https://visualhunt.com](https://visualhunt.com)
+* [https://www.ssyer.com](https://www.ssyer.com)
 * 彼岸图网：[http://pic.netbian.com](http://pic.netbian.com)
 * 极像素（超高清大图）：[https://www.sigoo.com](https://www.sigoo.com)
 * 免费版权图片搜索：[https://www.logosc.cn/so](https://www.logosc.cn/so)
