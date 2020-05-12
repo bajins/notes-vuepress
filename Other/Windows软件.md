@@ -583,6 +583,8 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 
 **KMS**
 
+* [https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys](https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys)
+
 + [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
 + [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
 + [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)

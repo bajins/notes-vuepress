@@ -107,6 +107,8 @@
 * [https://github.com/guodongxiaren/redis-wiki](https://github.com/guodongxiaren/redis-wiki)
 * redis常用特性：[https://github.com/LxyTe/redis](https://github.com/LxyTe/redis)
 
+- [https://github.com/nitzzzu/RedisDesktopManager](https://github.com/nitzzzu/RedisDesktopManager)
+- [https://github.com/kanyways/rdm](https://github.com/kanyways/rdm)
 
 
 ## Memcached
