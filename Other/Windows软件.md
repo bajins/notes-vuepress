@@ -73,6 +73,14 @@
 [https://zhukov.github.io/webogram](https://zhukov.github.io/webogram)
 * [https://github.com/idealclover/Telegram-Channel-Mirror](https://github.com/idealclover/Telegram-Channel-Mirror)
 
++ [https://t.me/Tele_zh_CN](https://t.me/Tele_zh_CN)
++ [https://congcong0806.github.io/tags/#Telegram](https://congcong0806.github.io/tags/#Telegram)
++ 群组导航bot [https://t.me/zh_groups_bot](https://t.me/zh_groups_bot)
++ 群组导航bot [https://t.me/hao1234bot](https://t.me/hao1234bot)
++ telegram 资源频道搜索 [http://www.sssoou.com](http://www.sssoou.com)
++ [Telegram群组/频道/机器人推荐](https://www.newlearner.site/2018/10/19/telegram-group/channel/bot.html)
++ [Telegram一份更完整的群组推荐，包含社群/频道/机器人](https://blog.liyuans.com/archives/telegram-recommendation.html)
+
 - [https://t.me/s/wuaipojie](https://t.me/s/wuaipojie)
 - [https://t.me/s/infosaodaye](https://t.me/s/infosaodaye)
 
