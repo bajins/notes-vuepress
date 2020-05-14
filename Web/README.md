@@ -254,3 +254,26 @@ cdnjs.cloudflare.com            cdnjs.loli.net
 | css=ul > p:odd                                                  	| [error] not found                    	|
 | css=ul > li:only-childcss=ul > :only-childcss=ul > *:only-child 	| [error] not found (ul没有only-child) 	|
 | css=div.subdiv > :only-child                                    	| `<ul id="recordlist">… … … …</ul>`     	|
+
+
+
+
+## 保存直聘简历
+
+> 执行以下JS然后保存页面，打开保存到本地的页面再打印即可
+
+```js
+document.querySelector("body").style.margin="0px";
+document.querySelector(".header").style.display="none";
+document.querySelector(".template-container").style.paddingTop="14px";
+document.querySelector(".template-container").style.paddingBottom="0px";
+document.querySelector(".preview-box").style.margin="0 auto";
+document.querySelector(".preview-box").style.borderRadius="0";
+document.querySelector(".preview-box").style.boxShadow="none";
+var certificateBox = document.querySelectorAll(".certificate-box .item");
+certificateBox[0].style.display="list-item";
+certificateBox[0].style.margin="0px";
+certificateBox[1].style.display="list-item";
+certificateBox[1].style.margin="0px";
+```
+
