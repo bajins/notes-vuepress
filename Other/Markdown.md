@@ -22,6 +22,12 @@
 
 
 - GitHub角落图标 [https://github.com/tholman/github-corners](https://github.com/tholman/github-corners)
+- SVG徽章 [https://github.com/badges/shields](https://github.com/badges/shields)
+- [http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。
+- [https://github.com/carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji)
+- [Github 上 emoji 表情的含义及使用规范](https://mkblog.cn/872)
+
+> 表情（两个冒号包围的字符）,比如`:blush:`，可以显示 :blush:
 
 + 中文文案排版指北：[https://github.com/sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)
 + 中英混排文档在线排版工具：[https://github.com/CyC2018/Text-Typesetting](https://github.com/CyC2018/Text-Typesetting)
@@ -320,16 +326,6 @@ document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
 string &operator+(const string& A,const string& B) //cpp
 ```
 
-
-## 表情
-
-> Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
-
-> 比如`:blush:`，可以显示:blush:。
-
-* [http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。
-* [https://github.com/carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji)
-* [Github 上 emoji 表情的含义及使用规范](https://mkblog.cn/872)
 
 
 ## diff语法

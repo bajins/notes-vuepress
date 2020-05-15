@@ -244,6 +244,7 @@
 
 ## 其他博客
 
+* pumpkin.best [https://github.com/superdzj/navi.github.io](https://github.com/superdzj/navi.github.io)
 * [拿着 Api 去玩耍](http://gank.io/api)
 * [归档栏 - Rats Blog](https://www.moerats.com/archive.html)
 * [萌咖 | MoeClub.org](https://moeclub.org)
@@ -274,7 +275,7 @@
 * [归档 - LOGI](https://logi.im/archives.html)
 * [567899.xyz](https://567899.xyz/archive.html)
 * 木子: [https://muzi502.github.io](https://muzi502.github.io)
-
+* [LocMJJ博客](https://www.locmjj.com)
 
 
 
