@@ -8,6 +8,9 @@
 
 ## flag
 
++ GitHub每周趋势 [https://github.com/SolaTyolo/gold_github_trending](https://github.com/SolaTyolo/gold_github_trending)
++ GitHub每天趋势 [https://github.com/yangwenmai/github-trending-backup](https://github.com/yangwenmai/github-trending-backup)
++ 记录GitHub趋势 [https://github.com/xiaobaiha/github-trending-history](https://github.com/xiaobaiha/github-trending-history)
 + [https://github.com/No-Github/Digital-Privacy](https://github.com/No-Github/Digital-Privacy)
 + [Adobe Photoshop键盘快捷键](https://helpx.adobe.com/cn/photoshop/using/default-keyboard-shortcuts.html)
 + [Photoshop快捷键大全](http://www.ip138.com/photoshop)
