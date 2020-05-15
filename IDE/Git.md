@@ -624,6 +624,7 @@ sudo /etc/init.d/dns-clean start
 [https://github.com/heroku/heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static)
 示例：[https://woytu.herokuapp.com](https://woytu.herokuapp.com)
 * [https://fast.io](https://fast.io) 示例：[https://bajins.imfast.io](https://bajins.imfast.io)
+* [https://www.appveyor.com](https://www.appveyor.com)
 
 - 命令行：[https://github.com/sintaxi/surge](https://github.com/sintaxi/surge)
 - 命令行：[https://github.com/firebase/firebase-tools](https://github.com/firebase/firebase-tools)
@@ -644,5 +645,4 @@ sudo /etc/init.d/dns-clean start
 * [https://github.com/sdras/awesome-actions](https://github.com/sdras/awesome-actions)
 * [https://github.com/peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
 * [https://github.com/JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action)
-* [https://github.com/actions/create-release](https://github.com/actions/create-release)
-* [https://github.com/actions/upload-release-asset](https://github.com/actions/upload-release-asset)
+* [https://github.com/actions](https://github.com/actions)

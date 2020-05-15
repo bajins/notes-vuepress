@@ -19,6 +19,7 @@
 * [https://segmentfault.com/markdown](https://segmentfault.com/markdown)
 * [https://github.com/guodongxiaren/README](https://github.com/guodongxiaren/README)
 * [markdown语法大全](https://www.rumosky.wiki/docs/markdown)
+* Markdeep是Markdown的超集 [https://github.com/morgan3d/markdeep](https://github.com/morgan3d/markdeep)
 
 
 - GitHub角落图标 [https://github.com/tholman/github-corners](https://github.com/tholman/github-corners)
@@ -421,7 +422,7 @@ string &operator+(const string& A,const string& B) //cpp
 
 * [https://tableconvert.com](https://tableconvert.com)
 * [https://github.com/stevecat/table-magic](https://github.com/stevecat/table-magic)
-* [http://www.tablesgenerator.com/markdown_tables](http://www.tablesgenerator.com/markdown_tables)
+* [https://www.tablesgenerator.com/markdown_tables](https://www.tablesgenerator.com/markdown_tables)
 * [https://markdown-convert.com/zh](https://markdown-convert.com/zh)
 * [https://github.com/jakebathman/Markdown-Table-Generator](https://github.com/jakebathman/Markdown-Table-Generator)
 * [https://github.com/domchristie/turndown](https://github.com/domchristie/turndown)

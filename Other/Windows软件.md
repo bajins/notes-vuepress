@@ -136,12 +136,11 @@
 
 
 * [https://github.com/xdown-org](https://github.com/xdown-org) [https://xdown.org](https://xdown.org)
-* [https://github.com/monkeyWie/proxyee-down](https://github.com/monkeyWie/proxyee-down)
 * [http://www.neatdownloadmanager.com](http://www.neatdownloadmanager.com)
 * [https://github.com/subhra74/xdm](https://github.com/subhra74/xdm)
 * [猎鹰下载器 EagleGet](http://www.eagleget.com/cn/)
 * [Free Download Manager](http://www.freedownloadmanager.org/download.htm)
-* [Negibox葱葱盒子](https://github.com/hugetiny/negibox)
+* [https://github.com/hugetiny/negibox](https://github.com/hugetiny/negibox)
 * [https://github.com/agalwood/Motrix](https://github.com/agalwood/Motrix)
 
 > 【诚通网盘下载提示】：点击下载后，立马取消（就是点击浏览器左上角的`X`按钮停止访问），然后再次点击下载，可以提速好几倍
