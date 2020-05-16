@@ -17,18 +17,6 @@
 + [最详细的PS快捷键大全](http://www.360doc.com/content/19/0507/02/9060464_833889392.shtml)
 + [python、java、c、go执行速度对比](https://www.jianshu.com/p/d60eff598aa0)
 
-
-* [https://github.com/cloudflare/wrangler](https://github.com/cloudflare/wrangler)
-* [https://github.com/topics/reverse-proxy](https://github.com/topics/reverse-proxy)
-* [https://github.com/search?q=Cloudflare+Workers](https://github.com/search?q=Cloudflare+Workers)
-* [https://github.com/topics/cloudflare-workers](https://github.com/topics/cloudflare-workers)
-* [https://github.com/Siujoeng-Lau/Workers-Proxy](https://github.com/Siujoeng-Lau/Workers-Proxy)
-* [Cloudflare Workers 创建自定义域名的项目](https://blog.16lab.io/workers-custom-domain)
-* [https://github.com/EtherDream/jsproxy](https://github.com/EtherDream/jsproxy)
-* [https://github.com/netnr/workers](https://github.com/netnr/workers)
-* [https://github.com/aploium/zmirror](https://github.com/aploium/zmirror)
-
-
 - [https://siguso.com](https://siguso.com)
 - [https://www.uedbox.com/share](https://www.uedbox.com/share)
 - [showdoc](https://github.com/star7th/showdoc)
@@ -36,6 +24,7 @@
 
 
 * [https://github.com/search?q=learning&type=Repositories](https://github.com/search?q=learning&type=Repositories)
+
 
 
 

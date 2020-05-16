@@ -268,6 +268,8 @@
 
 * [Google开发的图片压缩工具](https://github.com/GoogleChromeLabs/squoosh)
 * [https://github.com/netnr/squoosh](https://github.com/netnr/squoosh)
+* 一个用于快速上传图片并获取图片URL链接的工具 [https://github.com/Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo)
+
 
 ### Gif软件
 
@@ -610,7 +612,7 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 * [https://kms.loli.beer](https://kms.loli.beer)
 * [https://www.moerats.com/kms](https://www.moerats.com/kms)
 * [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4/)
-
+* [https://kms.cangshui.net](https://kms.cangshui.net)
 
 
 
