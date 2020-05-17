@@ -339,6 +339,7 @@ Swap:            0B          0B          0B
 * [https://view.freev2ray.org](https://view.freev2ray.org)
 * [https://github.com/CSE2018-2019/VMESS](https://github.com/CSE2018-2019/VMESS)
 * [https://github.com/Sean-Snow/good-good-study-day-day-up](https://github.com/Sean-Snow/good-good-study-day-day-up)
+* [https://github.com/nickfox-taterli/free_v2ray](https://github.com/nickfox-taterli/free_v2ray)
 
 
 - [https://t.me/s/ssrshares](https://t.me/s/ssrshares)

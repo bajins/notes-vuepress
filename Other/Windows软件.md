@@ -152,6 +152,8 @@
 **Bit Torrent**
 
 * [https://baike.baidu.com/item/BitTorrent](https://baike.baidu.com/item/BitTorrent)
+* 电驴 [https://sourceforge.net/projects/emule](https://sourceforge.net/projects/emule)
+* 磁力链接聚合搜索 [https://github.com/xiandanin/magnetW](https://github.com/xiandanin/magnetW)
 
 - BT导航网：[http://wherebt.com](http://wherebt.com)
 
@@ -214,7 +216,7 @@
 * [https://www.lanzous.com/b906590](https://www.lanzous.com/b906590)
 * [https://www.lanzous.com/b505936](https://www.lanzous.com/b505936)
 * [https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q](https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q)
-
+* [https://kkocdko.github.io/category/Software](https://kkocdko.github.io/category/Software)
 
 
 **百度网盘**
@@ -403,6 +405,16 @@ JexChan工具 [https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g](https://pan.baid
 * [https://zh-cn.libreoffice.org](https://zh-cn.libreoffice.org)
 * [https://github.com/YerongAI/Office-Tool](https://github.com/YerongAI/Office-Tool)
 
+
+### wps
+
+- 打开WPS的安装目录（默认为`%UserProfile%\AppData\Local\Kingsoft\WPS Office`），找到`ksomisc.exe`，
+切换到最后一个选项卡，取消勾选广告和推送相关项目。
+- 在WPS的安装目录找到`product.dat`，用任意文本编辑器打开，将内容替换为：
+    ```
+    [Product]
+    IcFjFBshxFLQCPSDLPAlXA..=t214Nk2CiIjrcDPrikX5Iw..
+    ```
 
 **wps key**
 
