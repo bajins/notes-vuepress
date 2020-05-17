@@ -142,6 +142,8 @@
 * [Free Download Manager](http://www.freedownloadmanager.org/download.htm)
 * [https://github.com/hugetiny/negibox](https://github.com/hugetiny/negibox)
 * [https://github.com/agalwood/Motrix](https://github.com/agalwood/Motrix)
+* [https://sourceforge.net/projects/urlget](https://sourceforge.net/projects/urlget)
+* [https://github.com/axel-download-accelerator/axel](https://github.com/axel-download-accelerator/axel)
 
 > 【诚通网盘下载提示】：点击下载后，立马取消（就是点击浏览器左上角的`X`按钮停止访问），然后再次点击下载，可以提速好几倍
 
@@ -153,6 +155,7 @@
 
 * [https://baike.baidu.com/item/BitTorrent](https://baike.baidu.com/item/BitTorrent)
 * 电驴 [https://sourceforge.net/projects/emule](https://sourceforge.net/projects/emule)
+* [https://sourceforge.net/projects/amule](https://sourceforge.net/projects/amule)
 * 磁力链接聚合搜索 [https://github.com/xiandanin/magnetW](https://github.com/xiandanin/magnetW)
 
 - BT导航网：[http://wherebt.com](http://wherebt.com)
