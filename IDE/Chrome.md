@@ -111,6 +111,28 @@ chrome://flags/#enable-parallel-downloading
 
 
 
+### 广告过滤
+
+* ABP [https://github.com/adblockplus](https://github.com/adblockplus)
+* ubo [https://github.com/gorhill/uBlock](https://github.com/gorhill/uBlock)
+* ADB [https://getadblock.com](https://getadblock.com)
+* [https://ublock.org](https://ublock.org)
+* [https://github.com/AdguardTeam](https://github.com/AdguardTeam)
+
+- AdGuard Android 解锁高级版 [https://www.lanzoux.com/b0f19420h](https://www.lanzoux.com/b0f19420h)
+
+**过滤规则**
+
+- [https://gitee.com/halflife/list](https://gitee.com/halflife/list)
+- [https://gitee.com/xinggsf/Adblock-Rule](https://gitee.com/xinggsf/Adblock-Rule)
+- [https://github.com/cjx82630/cjxlist](https://github.com/cjx82630/cjxlist)
+- 视频跳过广告和VIP视频解析脚本 ot mofiter（秒杀视频网站播放广告） https://greasyfork.org/scripts/373063
+- 【ChinaList+EasyList(修正)】http://sub.adtchrome.com/adt-chinalist-easylist.txt
+- 【Easylist China】https://easylist-downloads.adblockplus.org/easylistchina.txt
+
+
+
+
 ### other
 
 * [脚本助手：tampermonkey](https://www.tampermonkey.net)
@@ -128,6 +150,7 @@ chrome://flags/#enable-parallel-downloading
 * [名称生成器扩展](https://github.com/kondratyev-nv/name-genarator-extension)
 * [https://github.com/privacypass/challenge-bypass-extension](https://github.com/privacypass/challenge-bypass-extension)
 * 人机验证码扩展程序 [https://github.com/dessant/buster](https://github.com/dessant/buster)
+
 
 
 
