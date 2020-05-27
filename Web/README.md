@@ -26,6 +26,33 @@
 + [https://jsbin.com](https://jsbin.com)
 
 
+**TypeScript**
+
+* [https://github.com/Microsoft/TypeScript](https://github.com/Microsoft/TypeScript)
+
+
+**WebAssembly**
+
+* [https://github.com/WebAssembly](https://github.com/WebAssembly)
+* [https://developer.mozilla.org/zh-CN/docs/WebAssembly](https://developer.mozilla.org/zh-CN/docs/WebAssembly)
+* [https://webassembly.org](https://webassembly.org)
+* [https://www.wasm.com.cn](https://www.wasm.com.cn)
+
+- Mozilla：可以用 Rust + WebAssembly 作为 JavaScript 替代
+- Google：可以用 Dart + WebAssembly 作为 JavaScript 替代
+- Microsoft：可以用 TypeScript/AssemblyScript + WebAssembly 作为 JavaScript 替代
+
+* [https://github.com/ShizukuIchi/winXP](https://github.com/ShizukuIchi/winXP)
+
+
+**Rust**
+
+* [https://github.com/rust-lang](https://github.com/rust-lang)
+* [http://www.rust-lang.org](http://www.rust-lang.org)
+* [http://doc.rust-lang.org](http://doc.rust-lang.org)
+
+
+
 ## 框架
 
 * [jquery](https://jquery.com)
