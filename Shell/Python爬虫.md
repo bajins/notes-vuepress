@@ -26,7 +26,13 @@ taskkill /f /im chromedriver.exe
 ```
 
 + [关于网页referer以及破解referer反爬虫的办法](https://blog.csdn.net/python_neophyte/article/details/82562330)
-
++ ReCaptcha验证码（常见为Google验证码） [https://github.com/topics/captcha-solving](https://github.com/topics/captcha-solving)
+    + [https://github.com/teal33t/captcha_bypass](https://github.com/teal33t/captcha_bypass)
+    + [https://github.com/NotHassan/Python-Google-Recaptcha-v2-Solver](https://github.com/NotHassan/Python-Google-Recaptcha-v2-Solver)
+    + [https://github.com/balanceofprobability/decaptcha](https://github.com/balanceofprobability/decaptcha)
+    + [https://github.com/IshanManchanda/pyreCAPTCHA](https://github.com/IshanManchanda/pyreCAPTCHA)
+    + [https://github.com/tafalk/recaptcha-token-resolver-function](https://github.com/tafalk/recaptcha-token-resolver-function)
++ 使用HTTP拦截器来实现cloudflare请求 [https://github.com/sayem314/hooman](https://github.com/sayem314/hooman)
 
 * [微信公众号爬取研究](https://github.com/DropsDevopsOrg/ECommerceCrawlers/wiki/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%88%AC%E5%8F%96%E7%A0%94%E7%A9%B6)
 * [微信公众号爬虫](https://github.com/search?o=desc&q=%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%88%AC%E8%99%AB&s=updated&type=Repositories)
