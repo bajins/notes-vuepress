@@ -458,6 +458,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH
 * [http://www.imsdn.cn](http://www.imsdn.cn)
 * [https://uup.rg-adguard.net](https://uup.rg-adguard.net)
 * [https://www.repaik.com/win.html](https://www.repaik.com/win.html)
+* [https://uupdump.ml](https://uupdump.ml)
+
 
 ### 绿色精简
                                                  
