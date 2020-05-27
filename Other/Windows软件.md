@@ -231,6 +231,7 @@
 * [https://github.com/loliconer/baidupcs-mobile](https://github.com/loliconer/baidupcs-mobile)
 * [https://github.com/search?q=pdown](https://github.com/search?q=pdown)
 * [https://github.com/lz233/FuckBaiduPCS](https://github.com/lz233/FuckBaiduPCS)
+* [https://github.com/pdown2020/pdown](https://github.com/pdown2020/pdown)
 * [https://github.com/VIP-Share/Baidu-XunleiVIP](https://github.com/VIP-Share/Baidu-XunleiVIP)
 * [https://github.com/lpg-it/BaiduYunVIP](https://github.com/lpg-it/BaiduYunVIP)
 

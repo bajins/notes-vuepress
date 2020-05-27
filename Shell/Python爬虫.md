@@ -41,6 +41,7 @@ taskkill /f /im chromedriver.exe
 * [https://github.com/redtips/wechathook](https://github.com/redtips/wechathook)
 * [https://github.com/codeByDog/pcWechat](https://github.com/codeByDog/pcWechat)
 * [https://github.com/wwg88888888/WeChatExt](https://github.com/wwg88888888/WeChatExt)
+* [WeChatDownload，批量微信公众号文章下载小工具](https://i.ijrou.com/p/story/WeChatDownload.html)
 
 
 

@@ -340,6 +340,8 @@ Swap:            0B          0B          0B
 * [https://github.com/CSE2018-2019/VMESS](https://github.com/CSE2018-2019/VMESS)
 * [https://github.com/Sean-Snow/good-good-study-day-day-up](https://github.com/Sean-Snow/good-good-study-day-day-up)
 * [https://github.com/nickfox-taterli/free_v2ray](https://github.com/nickfox-taterli/free_v2ray)
+* [https://v2ray.banyunxiaoxi.ml](https://v2ray.banyunxiaoxi.ml)
+* [https://cv2ray.xyz](https://cv2ray.xyz)
 
 
 - [https://t.me/s/ssrshares](https://t.me/s/ssrshares)
@@ -366,12 +368,14 @@ Swap:            0B          0B          0B
 * [https://github.com/ShadowsocksR-Live/shadowsocksr-native/wiki](https://github.com/ShadowsocksR-Live/shadowsocksr-native/wiki)
 * [https://github.com/zhaoweih/Shadowsocks-Tutorial](https://github.com/zhaoweih/Shadowsocks-Tutorial)
 
+- [https://api.crhnode.top/subscribe/35394/8AkXSADklmY](https://api.crhnode.top/subscribe/35394/8AkXSADklmY)
 
 
 **v2ray**
 
 + [v2ray-tools](https://www.v2ray.com/awesome/tools.html)
 + [v2ray教程](https://yuan.ga/v2ray-complete-tutorial)
++ V2Ray使用帮助 [https://v2sx.github.io/Help](https://v2sx.github.io/Help)
 + [https://github.com/233boy/v2ray/tree/master](https://github.com/233boy/v2ray/tree/master)
 
 
