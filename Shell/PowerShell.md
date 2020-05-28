@@ -68,6 +68,7 @@
 
 ## 命令
 
+* [Scheduled Tasks（计划任务）](https://www.holoem.com/?p=1974)
 * [压缩解压文件](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.archive)
 
 - 查看版本
