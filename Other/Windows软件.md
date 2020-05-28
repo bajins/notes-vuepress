@@ -55,7 +55,6 @@
 **论坛**
 
 * [JIKE](https://jike.info/recent)
-* [睿派克技术论坛](https://www.repaik.com)
 * [52破解](https://www.52pojie.cn)
 * [hwh0488-远景论坛](http://i.pcbeta.com/home.php?mod=space&uid=2521016&do=thread&view=me&from=space)
 * [风之暇想-52破解](https://www.52pojie.cn/home.php?mod=space&uid=243467&do=thread&view=me&from=space)
@@ -99,13 +98,15 @@
 * [https://www.haorenka.org](https://www.haorenka.org)
 
 
+**Android**
+
 + [http://www.sharerw.com](http://www.sharerw.com)
 + [https://htcui.com](https://htcui.com)
 + [https://www.lanzous.com/b05f9wyf](https://www.lanzous.com/b05f9wyf)
 + [Balatan](https://forum.release-apk.com/search.php?author_id=49&sr=topics&sf=firstpost)
 + [https://patch.chelpus.com](https://patch.chelpus.com)
 + [一个人的冬季的帖子 ,智友邦](http://bbs.zhiyoo.net/home.php?mod=space&uid=3&do=thread&view=me&from=space)
-
++ 各大网站的脚本 [https://github.com/Orange-shirt/OrangeJs](https://github.com/Orange-shirt/OrangeJs)
 
 
 
