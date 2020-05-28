@@ -340,7 +340,7 @@ taskkill /f /im 程序名
 ```
 
 
-## 延时
+## 延时定时
 
 ```batch
 :: 延时等待10秒
@@ -352,6 +352,30 @@ timeout /T -1
 :: 持续等待，直到你按下CTRL+C按键
 timeout /T -1 /NOBREAK
 ```
+
+```batch
+SCHTASKS /? 查看帮助
+:: /sc 指定计划频率：MINUTE、 HOURLY、DAILY、WEEKLY、MONTHLY, ONCE, ONSTART, ONLOGON, ONIDLE, ONEVENT
+SCHTASKS /Create /tn 定时任务名 /tr "运行程序路径" /sc DAILY
+:: 开机自启动
+SCHTASKS /Create /tn 定时任务名 /tr "运行程序路径" /ru SYSTEM /sc ONSTART
+:: 每天 12:30 运行
+schtasks /create /tn 定时任务名 /tr "运行程序路径" /sc DAILY /st 12:30
+:: 一分钟执行一次
+schtasks /create /tn 定时任务名 /tr "运行程序路径" /sc MINUTE /mo 1
+:: 在指定的开始日期和结束日期之间，每天 12:00 点开始到 14:00 点，每隔5分钟运行
+SCHTASKS /Create /TN 定时任务名 /TR "运行程序路径" /SD 开始日期 /ED 结束日期 /ST 12:00 /ET 14:00 /SC MINUTE /MO 5
+:: 每天 12:00 点开始到 14:00 点自动结束
+SCHTASKS /Create /TN 定时任务名 /TR "运行程序路径" /ST 12:00 /ET 14:00 /K /SC DAILY
+SCHTASKS /Query /TN 任务名称
+:: 强制删除任务
+SCHTASKS /Delete /F /TN 任务名称
+:: 手动运行任务
+SCHTASKS /run /TN 任务名称
+```
+
+
+
 
 ## 判断字符串
 

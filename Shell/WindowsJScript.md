@@ -641,7 +641,7 @@ function db(){
 /**
  * 开机启动
  *
- * @param mode 为startup时是在开机启动目录中创建vbs脚本，否则添加开机启动注册表
+ * @param mode startup: 在开机启动目录中创建vbs脚本，schtasks: 创建开机启动定时任务，否则添加开机启动注册表
  */
 function autoStart(mode) {
     var fileName = WScript.ScriptName;
@@ -652,11 +652,14 @@ function autoStart(mode) {
         // 开机启动目录
         var runDir = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\";
         vbsFileName = runDir + fileName + ".vbs";
+    } else if ("schtasks" == mode.toLowerCase()){
+        // 创建开机启动定时任务
+        var shell = new ActiveXObject("WScript.shell");
+        shell.Run("SCHTASKS /Create /tn " + fileName + " /tr \"" + vbsFileName + "\" /ru SYSTEM /sc ONSTART", 0, true);
     } else {
         // 添加开机启动注册表
         var shell = new ActiveXObject("WScript.shell");
-        var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\";
-        shell.RegWrite(runRegBase + fileName, vbsFileName);
+        shell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\" + fileName, vbsFileName);
     }
     var fso = new ActiveXObject("Scripting.FileSystemObject");
     // 创建文件
