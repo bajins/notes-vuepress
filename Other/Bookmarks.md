@@ -65,6 +65,9 @@
 
 * CSDN：[https://www.csdn.net](https://www.csdn.net)
 * 博客园：[https://www.cnblogs.com](https://www.cnblogs.com)
+    * [https://github.com/esofar/cnblogs-theme-silence](https://github.com/esofar/cnblogs-theme-silence)
+    * [https://github.com/BNDong/Cnblogs-Theme-SimpleMemory](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory)
+    * [https://github.com/peret-dressing/cnblogs-theme-nice](https://github.com/peret-dressing/cnblogs-theme-nice)
 * 思否：[https://segmentfault.com](https://segmentfault.com)
 * 掘金：[https://juejin.im](https://juejin.im)
 * 简书：[https://www.jianshu.com](https://www.jianshu.com)
@@ -233,6 +236,7 @@
 * [Xuanwo's Blog](https://xuanwo.io/posts)
 * [欢迎来到Flyingon的博客 | Flyinon的博客](https://flyingon.github.io)
 * [归档 | Go语言充电站](https://lessisbetter.site/archives)
+* [小袁取经 - 博客园](https://www.cnblogs.com/xiaoyuanqujing)
 
 
 
