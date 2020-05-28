@@ -367,7 +367,7 @@ schtasks /create /tn 定时任务名 /tr "运行程序路径" /sc MINUTE /mo 1
 SCHTASKS /Create /TN 定时任务名 /TR "运行程序路径" /SD 开始日期 /ED 结束日期 /ST 12:00 /ET 14:00 /SC MINUTE /MO 5
 :: 每天 12:00 点开始到 14:00 点自动结束
 SCHTASKS /Create /TN 定时任务名 /TR "运行程序路径" /ST 12:00 /ET 14:00 /K /SC DAILY
-SCHTASKS /Query /TN 任务名称
+SCHTASKS /Query /fo LIST /v /TN 任务名称
 :: 强制删除任务
 SCHTASKS /Delete /F /TN 任务名称
 :: 手动运行任务
