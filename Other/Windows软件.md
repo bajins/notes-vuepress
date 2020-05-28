@@ -453,7 +453,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH
 
 
 ### MSDN
-                                                                  
+
+* [https://www.microsoft.com/zh-cn/software-download/windows10](https://www.microsoft.com/zh-cn/software-download/windows10)
 * [http://msdn.itellyou.cn](http://msdn.itellyou.cn)
 * [https://www.iruanmi.com/msdn](https://www.iruanmi.com/msdn)
 * [http://www.imsdn.cn](http://www.imsdn.cn)
@@ -463,7 +464,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH
 
 
 ### 绿色精简
-                                                 
+
 * [WINOS ](https://www.winos.me)
 * [绿色系统](http://lvsexitong.com)
 * [网吧系统](http://down.lansedongli.com)
@@ -475,7 +476,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH
 
 
 ### WinPE
-                                                                                
+
 * [微PE](http://www.wepe.com.cn)
 * [USBOS](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965&extra=page%3D1)
 * [光卡自己的 PE 项目](https://hikaricalyx.com)
@@ -633,6 +634,8 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 * [https://www.moerats.com/kms](https://www.moerats.com/kms)
 * [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4/)
 * [https://kms.cangshui.net](https://kms.cangshui.net)
+* [https://www.ghpym.com/kms.html](https://www.ghpym.com/kms.html)
+* [https://github.com/EDragon007/EDragonKMS](https://github.com/EDragon007/EDragonKMS)
 
 
 
