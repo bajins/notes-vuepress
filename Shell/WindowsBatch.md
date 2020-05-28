@@ -354,6 +354,7 @@ timeout /T -1 /NOBREAK
 ```
 
 * [Schtasks命令详解](https://www.cnblogs.com/daimaxuejia/p/12957644.html)
+* [https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/schtasks](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/schtasks)
 
 ```batch
 SCHTASKS /? 查看帮助
