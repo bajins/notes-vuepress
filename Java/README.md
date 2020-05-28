@@ -144,6 +144,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * Google加密 [https://github.com/google/tink](https://github.com/google/tink)
 * bcprov-jdk15on [https://github.com/bcgit/bc-java](https://github.com/bcgit/bc-java)
 * Apache Commons编解码器 [https://github.com/apache/commons-codec](https://github.com/apache/commons-codec)
+* Headless Chrome For Java [https://github.com/fanyong920/jvppeteer](https://github.com/fanyong920/jvppeteer)
 
 - Jakarta JSON处理规范，API和兼容的实现：[https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
 - [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
