@@ -353,6 +353,8 @@ timeout /T -1
 timeout /T -1 /NOBREAK
 ```
 
+* [Schtasks命令详解](https://www.cnblogs.com/daimaxuejia/p/12957644.html)
+
 ```batch
 SCHTASKS /? 查看帮助
 :: /sc 指定计划频率：MINUTE、 HOURLY、DAILY、WEEKLY、MONTHLY, ONCE, ONSTART, ONLOGON, ONIDLE, ONEVENT
