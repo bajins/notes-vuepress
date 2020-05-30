@@ -156,7 +156,12 @@
 
 * [https://baike.baidu.com/item/BitTorrent](https://baike.baidu.com/item/BitTorrent)
 * 电驴 [https://sourceforge.net/projects/emule](https://sourceforge.net/projects/emule)
-* [https://sourceforge.net/projects/amule](https://sourceforge.net/projects/amule)
+    * [https://github.com/irwir/eMule](https://github.com/irwir/eMule)
+    * [https://github.com/amule-project](https://github.com/amule-project)
+    * [https://sourceforge.net/projects/amule](https://sourceforge.net/projects/amule)
+    * [https://github.com/emulefanscom](https://github.com/emulefanscom)
+    * [https://emulefans.com](https://emulefans.com)
+    * [http://ed2k.iscool.net](http://ed2k.iscool.net)
 * 磁力链接聚合搜索 [https://github.com/xiandanin/magnetW](https://github.com/xiandanin/magnetW)
 
 - BT导航网：[http://wherebt.com](http://wherebt.com)
