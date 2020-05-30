@@ -328,7 +328,7 @@ Swap:            0B          0B          0B
 * [https://github.com/imba-tjd/freess/tree/dev](https://github.com/imba-tjd/freess/tree/dev)
 * [https://github.com/fggfffgbg](https://github.com/fggfffgbg)
 * [https://github.com/fqshare/free-ssr-v2ray-vpn](https://github.com/fqshare/free-ssr-v2ray-vpn)
-[https://jichangdaquan.com/node/429.html](https://jichangdaquan.com/node/429.html)
+* [https://jichangdaquan.com/node/429.html](https://jichangdaquan.com/node/429.html)
 * [https://free-ss.site](https://free-ss.site)
 * [https://view.freev2ray.org](https://view.freev2ray.org)
 * [https://github.com/CSE2018-2019/VMESS](https://github.com/CSE2018-2019/VMESS)
