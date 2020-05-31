@@ -27,7 +27,8 @@
 * [反斗软件](http://www.apprcn.com)
 * [果核剥壳](https://www.ghpym.com)
 * [zdBryan](https://www.423down.com)
-* [胡萝卜周](http://www.carrotchou.blog)
+* [落尘之木](https://www.luochenzhimu.com)
+* [胡萝卜周](http://www.carrotchou.com)
 * [懒得勤快](https://masuit.com/misc/5)
 * [绿软博客](http://liujin-greensoft.lofter.com)
 * [殁漂遥](http://www.laomo.me)
@@ -40,7 +41,6 @@
 * [星空软件共享绿化园地](http://www.xingkbjm.com)
 * [飞扬时空作品](http://blog.sina.com.cn/s/blog_89a729a40102wjwp.html)
 * [翠竹成林](http://msbuild.cn)
-* [落尘之木](https://www.luochenzhimu.com)
 * [http://itjcc.com](http://itjcc.com)
 * [https://myqqjd.com](https://myqqjd.com)
 * [http://www.ypojie.com](http://www.ypojie.com)
@@ -171,11 +171,22 @@
     * [https://github.com/emulefanscom](https://github.com/emulefanscom)
     * [https://emulefans.com](https://emulefans.com)
     * [http://ed2k.iscool.net](http://ed2k.iscool.net)
+    * [http://www.emule-mods.de](http://www.emule-mods.de)
+    * [http://www.emule-web.de](http://www.emule-web.de)
+    * [http://www.nodes-dat.com](http://www.nodes-dat.com)
+    * [http://upd.emule-security.org/nodes.dat](http://upd.emule-security.org/nodes.dat)
+    * [http://ed2k.im/nodes.dat](http://ed2k.im/nodes.dat)
 
 - 流媒体播放 [https://github.com/Stremio](https://github.com/Stremio)
 - 磁力链接聚合搜索 [https://github.com/xiandanin/magnetW](https://github.com/xiandanin/magnetW)
 - [阿虚同学的储物间](http://kyon945.ys168.com)
 - BT导航网：[http://wherebt.com](http://wherebt.com)
+- [全网最全BT 磁力搜索引擎索引-持续更新中](https://funletu.com/most-full-bt-magnetism-search-engine-index-continuous)
+- [https://github.com/fwonggh/Bthub](https://github.com/fwonggh/Bthub)
+- [https://www.cilixiong.com](https://www.cilixiong.com)
+- [https://www.btsj5.com](https://www.btsj5.com)
+- [http://www.2btjia.com](http://www.2btjia.com)
+- [https://www.pianku.tv](https://www.pianku.tv)
 
 > 特征码（该字符串，一般是40个字的一串字母和数字的组合）下载：打开BT下载工具（迅雷、BitComet、BitTorrent、uTorrent等等），
 > 例如比特彗星，点击磁链，直接粘贴下载即可。如果使用迅雷的话还需要在特征码前面加上`magnet:?xt=urn:btih:`
@@ -229,6 +240,7 @@
 
 * [https://www.lanzous.com/b906590](https://www.lanzous.com/b906590)
 * [https://www.lanzous.com/b505936](https://www.lanzous.com/b505936)
+* [https://www.lanzous.com/b393275](https://www.lanzous.com/b393275)
 * [https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q](https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q)
 * [https://kkocdko.github.io/category/Software](https://kkocdko.github.io/category/Software)
 
@@ -471,6 +483,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH
 * [https://uup.rg-adguard.net](https://uup.rg-adguard.net)
 * [https://www.repaik.com/win.html](https://www.repaik.com/win.html)
 * [https://uupdump.ml](https://uupdump.ml)
+* [https://msdn.sjjzm.com](https://msdn.sjjzm.com)
 
 
 ### 绿色精简
