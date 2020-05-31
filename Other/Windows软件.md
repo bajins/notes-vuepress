@@ -182,6 +182,7 @@
 - [阿虚同学的储物间](http://kyon945.ys168.com)
 - BT导航网：[http://wherebt.com](http://wherebt.com)
 - [全网最全BT 磁力搜索引擎索引-持续更新中](https://funletu.com/most-full-bt-magnetism-search-engine-index-continuous)
+- [2020年可用、好用、值得推荐的磁力搜索引擎【更新版】](https://www.yeeach.com/post/1367)
 - [https://github.com/fwonggh/Bthub](https://github.com/fwonggh/Bthub)
 - [https://www.cilixiong.com](https://www.cilixiong.com)
 - [https://www.btsj5.com](https://www.btsj5.com)
