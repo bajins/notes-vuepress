@@ -152,37 +152,33 @@
 * 迅雷、快车、旋风下载链接转换脚本 [https://github.com/chinsyo/delink](https://github.com/chinsyo/delink)
 
 
-**Bit Torrent**
+**Internet Download Manager**
+
+0. [https://eyun.baidu.com/s/3miwISp6](https://eyun.baidu.com/s/3miwISp6)密码：3131
+1. [https://www.lanzous.com/b134572](https://www.lanzous.com/b134572)
+2. [https://yunpan.360.cn/surl_ymsGF6zWGcP](https://yunpan.360.cn/surl_ymsGF6zWGcP)（提取码：805b）
+3. [https://www.lanzous.com/b0i6zkze](https://www.lanzous.com/b0i6zkze)
+
+
+
+### Bit Torrent
 
 * [https://baike.baidu.com/item/BitTorrent](https://baike.baidu.com/item/BitTorrent)
-* 电驴 [https://sourceforge.net/projects/emule](https://sourceforge.net/projects/emule)
+* ED2K（eMule电驴） [https://sourceforge.net/projects/emule](https://sourceforge.net/projects/emule)
     * [https://github.com/irwir/eMule](https://github.com/irwir/eMule)
     * [https://github.com/amule-project](https://github.com/amule-project)
     * [https://sourceforge.net/projects/amule](https://sourceforge.net/projects/amule)
     * [https://github.com/emulefanscom](https://github.com/emulefanscom)
     * [https://emulefans.com](https://emulefans.com)
     * [http://ed2k.iscool.net](http://ed2k.iscool.net)
-* 磁力链接聚合搜索 [https://github.com/xiandanin/magnetW](https://github.com/xiandanin/magnetW)
 
+- 流媒体播放 [https://github.com/Stremio](https://github.com/Stremio)
+- 磁力链接聚合搜索 [https://github.com/xiandanin/magnetW](https://github.com/xiandanin/magnetW)
+- [阿虚同学的储物间](http://kyon945.ys168.com)
 - BT导航网：[http://wherebt.com](http://wherebt.com)
 
 > 特征码（该字符串，一般是40个字的一串字母和数字的组合）下载：打开BT下载工具（迅雷、BitComet、BitTorrent、uTorrent等等），
 > 例如比特彗星，点击磁链，直接粘贴下载即可。如果使用迅雷的话还需要在特征码前面加上`magnet:?xt=urn:btih:`
-
-- `BT-Trackers`服务器地址
-    * [https://github.com/XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection)
-    * [https://github.com/ngosang/trackerslist](https://github.com/ngosang/trackerslist)
-    * [https://github.com/CorralPeltzer/newTrackon](https://github.com/CorralPeltzer/newTrackon)
-    * [https://dns.icoa.cn/tracker](https://dns.icoa.cn/tracker)
-    * [https://torrents.io/tracker-list](https://torrents.io/tracker-list)
-    * [https://newtrackon.com/list](https://newtrackon.com/list)
-    * [http://github.itzmx.com/1265578519/OpenTracker/master/tracker.txt](http://github.itzmx.com/1265578519/OpenTracker/master/tracker.txt)
-    * [https://tinytorrent.net/best-torrent-tracker-list-updated](https://tinytorrent.net/best-torrent-tracker-list-updated)
-    * [https://torrenttrackerss.com/torrent-tracker-list](https://torrenttrackerss.com/torrent-tracker-list)
-    * [http://www.torrenttrackerlist.com/torrent-tracker-list](http://www.torrenttrackerlist.com/torrent-tracker-list)
-    * [https://github.com/DeSireFire/animeTrackerList](https://github.com/DeSireFire/animeTrackerList)
-    * [https://github.com/1265578519/OpenTracker](https://github.com/1265578519/OpenTracker)
-
 
 * [https://www.bitcomet.com](https://www.bitcomet.com)
 [https://www.lanzous.com/b073c7g4f](https://www.lanzous.com/b073c7g4f)
@@ -195,10 +191,27 @@
 * [https://www.utorrent.com](https://www.utorrent.com)
 [https://www.lanzous.com/b073c7g4f](https://www.lanzous.com/b073c7g4f)
 * [uTorrent／qBittorrent／BitComet](https://www.lanzous.com/b0f1awgqb)
+* [https://github.com/webtorrent](https://github.com/webtorrent)
+
+
+**`BT-Trackers`服务器地址**
+
+* [https://github.com/XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection)
+* [https://github.com/ngosang/trackerslist](https://github.com/ngosang/trackerslist)
+* [https://github.com/CorralPeltzer/newTrackon](https://github.com/CorralPeltzer/newTrackon)
+* [https://dns.icoa.cn/tracker](https://dns.icoa.cn/tracker)
+* [https://torrents.io/tracker-list](https://torrents.io/tracker-list)
+* [https://newtrackon.com/list](https://newtrackon.com/list)
+* [http://github.itzmx.com/1265578519/OpenTracker/master/tracker.txt](http://github.itzmx.com/1265578519/OpenTracker/master/tracker.txt)
+* [https://tinytorrent.net/best-torrent-tracker-list-updated](https://tinytorrent.net/best-torrent-tracker-list-updated)
+* [https://torrenttrackerss.com/torrent-tracker-list](https://torrenttrackerss.com/torrent-tracker-list)
+* [http://www.torrenttrackerlist.com/torrent-tracker-list](http://www.torrenttrackerlist.com/torrent-tracker-list)
+* [https://github.com/DeSireFire/animeTrackerList](https://github.com/DeSireFire/animeTrackerList)
+* [https://github.com/1265578519/OpenTracker](https://github.com/1265578519/OpenTracker)
 
 
 
-**aria2**
+### Aria2
 
 * [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
 * [https://github.com/binux/yaaw](https://github.com/binux/yaaw)
@@ -209,18 +222,10 @@
 * [https://github.com/boypt/simple-torrent](https://github.com/boypt/simple-torrent)
 
 
-**Internet Download Manager**
-
-0. [https://eyun.baidu.com/s/3miwISp6](https://eyun.baidu.com/s/3miwISp6)密码：3131
-1. [https://www.lanzous.com/b134572](https://www.lanzous.com/b134572)
-2. [https://yunpan.360.cn/surl_ymsGF6zWGcP](https://yunpan.360.cn/surl_ymsGF6zWGcP)（提取码：805b）
-3. [https://www.lanzous.com/b0i6zkze](https://www.lanzous.com/b0i6zkze)
-
-
-**迅雷**
+### 迅雷
 
 > 由于总所周知的原因（大家都将迅雷叫吸血雷：只下载不上传），下载Magnet链接（磁力）、Torrent文件（比特流种子）、
-> eMule（电驴）等请使用`Bit Torrent`工具
+> ED2K（eMule电驴）等请使用`Bit Torrent`工具
 
 * [https://www.lanzous.com/b906590](https://www.lanzous.com/b906590)
 * [https://www.lanzous.com/b505936](https://www.lanzous.com/b505936)
@@ -228,7 +233,7 @@
 * [https://kkocdko.github.io/category/Software](https://kkocdko.github.io/category/Software)
 
 
-**百度网盘**
+### 百度网盘
 
 * [BaiduPCS](https://github.com/search?o=desc&p=1&q=BaiduPCS&s=updated&type=Repositories)
 * [https://github.com/topics/baiduyun?o=desc&s=updated](https://github.com/topics/baiduyun?o=desc&s=updated)
@@ -243,7 +248,7 @@
 * [https://github.com/lpg-it/BaiduYunVIP](https://github.com/lpg-it/BaiduYunVIP)
 
 
-**蓝奏云**
+### 蓝奏云
 
 * [https://github.com/zaxtyson/LanZouCloud-API](https://github.com/zaxtyson/LanZouCloud-API)
 * [https://github.com/zaxtyson/LanZouCloud-CMD](https://github.com/zaxtyson/LanZouCloud-CMD)
