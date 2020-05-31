@@ -194,7 +194,7 @@
 * [https://github.com/webtorrent](https://github.com/webtorrent)
 
 
-**`BT-Trackers`服务器地址**
+**BT-Trackers**
 
 * [https://github.com/XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection)
 * [https://github.com/ngosang/trackerslist](https://github.com/ngosang/trackerslist)
