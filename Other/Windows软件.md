@@ -185,6 +185,7 @@
 - [2020年可用、好用、值得推荐的磁力搜索引擎【更新版】](https://www.yeeach.com/post/1367)
 - [https://github.com/fwonggh/Bthub](https://github.com/fwonggh/Bthub)
 - [https://github.com/jubtnet/jubt](https://github.com/jubtnet/jubt)
+- [https://bteve.com/tags](https://bteve.com/tags)
 - [https://www.cilixiong.com](https://www.cilixiong.com)
 - [https://www.btsj5.com](https://www.btsj5.com)
 - [http://www.2btjia.com](http://www.2btjia.com)
