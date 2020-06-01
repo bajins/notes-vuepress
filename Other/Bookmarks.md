@@ -211,6 +211,8 @@
 * [归档栏 - 宋子宪博客](https://songzixian.com/archives.html)
 * [归档 | AI Developers Geeks](http://blog.ibyte.vip/archives)
 * [归档 | Stephanie Tang's Blog](https://stephanietang.github.io/archives)
+* [码农小胖哥](https://www.felord.cn)
+* [if年少有为](https://www.cnblogs.com/ifme)
 
 
 

@@ -101,13 +101,30 @@
 
 ## Maven
 
++ [Maven详细教程](https://segmentfault.com/a/1190000015077021)
+
 * [http://mvnrepository.com](http://mvnrepository.com)
 * [https://www.webjars.org](https://www.webjars.org)
 * [Nexus Repository Manager](https://help.sonatype.com/repomanager3/download)
+* [https://github.com/sonatype](https://github.com/sonatype)
+* [docker 快速搭建maven私服并上传jar包](https://www.cnblogs.com/yscec/p/12898226.html)
+
++ maven-jar-plugin 默认的打包插件，用来打普通的project JAR包；
++ maven-shade-plugin 用来打可执行JAR包，也就是所谓的fat JAR包；
++ maven-assembly-plugin 支持自定义的打包结构，也可以定制依赖项等。
 
 - [https://github.com/spotify/docker-maven-plugin](https://github.com/spotify/docker-maven-plugin)
 - [https://github.com/spotify/dockerfile-maven](https://github.com/spotify/dockerfile-maven)
 - [https://github.com/fabric8io/docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin)
+- [利用Maven打包docker镜像上传docker容器](https://blog.csdn.net/qq_24795205/article/details/106231144)
+- [Maven插件构建Docker镜像](https://blog.csdn.net/MyronCham/article/details/106126418)
+- [https://github.com/hariko1991/docker-demo](https://github.com/hariko1991/docker-demo)
+- [https://github.com/gaochao-ncp/spring-boot-docker-example](https://github.com/gaochao-ncp/spring-boot-docker-example)
+
++ [https://github.com/mojohaus](https://github.com/mojohaus)
++ [https://github.com/mojohaus/wagon-maven-plugin](https://github.com/mojohaus/wagon-maven-plugin)
++ [使用Maven插件wagon-maven-plugin自动化部署](https://blog.csdn.net/qq_37980436/article/details/105812671)
+
 
 **maven镜像**
 
