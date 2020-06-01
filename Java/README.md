@@ -85,11 +85,16 @@
 ## OpenJDK
 
 * [Oracle JDK8](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
-* [https://jdk.java.net](https://jdk.java.net) [https://github.com/openjdk](https://github.com/openjdk)
-* [AdoptOpenJDK](https://adoptopenjdk.net/archive.html?variant=openjdk8&jvmVariant=hotspot)
-* [Amazon Corretto](https://aws.amazon.com/cn/corretto) [corretto](https://github.com/corretto)
+* [https://github.com/openjdk](https://github.com/openjdk)
+* [https://github.com/AdoptOpenJDK](https://github.com/AdoptOpenJDK)
+* [https://github.com/corretto](https://github.com/corretto)
+    * [https://aws.amazon.com/cn/corretto](https://aws.amazon.com/cn/corretto)
+* [https://github.com/zulu-openjdk](https://github.com/zulu-openjdk)
+    * [https://cn.azul.com/downloads/zulu](https://cn.azul.com/downloads/zulu)
+    * [https://cdn.azul.com/zulu/bin](https://cdn.azul.com/zulu/bin)
 * [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)
-* [Dragonwell8](https://github.com/alibaba/dragonwell8)
+* [https://github.com/SAP/SapMachine](https://github.com/SAP/SapMachine)
+* [https://github.com/alibaba/dragonwell8](https://github.com/alibaba/dragonwell8)
 
 
 
@@ -100,6 +105,9 @@
 * [https://www.webjars.org](https://www.webjars.org)
 * [Nexus Repository Manager](https://help.sonatype.com/repomanager3/download)
 
+- [https://github.com/spotify/docker-maven-plugin](https://github.com/spotify/docker-maven-plugin)
+- [https://github.com/spotify/dockerfile-maven](https://github.com/spotify/dockerfile-maven)
+- [https://github.com/fabric8io/docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin)
 
 **maven镜像**
 
