@@ -80,6 +80,7 @@
 [https://macrozheng.github.io/mall-learning](https://macrozheng.github.io/mall-learning)
 * [https://github.com/vector4wang/spring-boot-quick](https://github.com/vector4wang/spring-boot-quick)
 * [https://github.com/kanyways/learning-spring](https://github.com/kanyways/learning-spring)
+* [https://github.com/gf-huanchupk/SpringBootLearning](https://github.com/gf-huanchupk/SpringBootLearning)
 
 > 约定优于配置（convention over configuration），也称作按约定编程，是一种软件设计范式，
 > 旨在减少软件开发人员需做决定的数量，获得简单的好处，而又不失灵活性。
@@ -192,6 +193,7 @@
 
 + [https://github.com/macrozheng/springcloud-learning](https://github.com/macrozheng/springcloud-learning)
 + [https://github.com/dyc87112/SpringCloud-Learning](https://github.com/dyc87112/SpringCloud-Learning)
++ [https://github.com/gf-huanchupk/SpringCloudLearning](https://github.com/gf-huanchupk/SpringCloudLearning)
 + [https://github.com/SpringCloud](https://github.com/SpringCloud)
 + [https://github.com/venusteam](https://github.com/venusteam)
 

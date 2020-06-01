@@ -213,6 +213,8 @@
 * [归档 | Stephanie Tang's Blog](https://stephanietang.github.io/archives)
 * [码农小胖哥](https://www.felord.cn)
 * [if年少有为](https://www.cnblogs.com/ifme)
+* [归档 | 程序员果果](http://blog.itwolfed.com/archives)
+* [归档 | 程序员果果的博客](https://gf-huanchupk.github.io/archives)
 
 
 

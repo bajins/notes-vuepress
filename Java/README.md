@@ -118,6 +118,9 @@
 - [https://github.com/fabric8io/docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin)
 - [利用Maven打包docker镜像上传docker容器](https://blog.csdn.net/qq_24795205/article/details/106231144)
 - [Maven插件构建Docker镜像](https://blog.csdn.net/MyronCham/article/details/106126418)
+- [dockerfile-maven-plugin构建Docker镜像](https://zhuanlan.zhihu.com/p/90122357)
+- [使用maven插件dockerfile-maven-plugin进行镜像的build和push](https://blog.csdn.net/catoop/article/details/90812876)
+- [如何构建SpringBoot应用的Docker镜像](http://jaychang.cn/2019/12/02/%E4%BD%95%E6%9E%84%E5%BB%BASpringBoot%E5%BA%94%E7%94%A8%E7%9A%84Docker%E9%95%9C%E5%83%8F)
 - [https://github.com/hariko1991/docker-demo](https://github.com/hariko1991/docker-demo)
 - [https://github.com/gaochao-ncp/spring-boot-docker-example](https://github.com/gaochao-ncp/spring-boot-docker-example)
 
@@ -189,6 +192,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 - [https://github.com/elastic/elasticsearch](https://github.com/elastic/elasticsearch)
 
+* [Kafka安装及入门](http://jaychang.cn/2020/03/15/afka%E5%AE%89%E8%A3%85%E5%8F%8A%E5%85%A5%E9%97%A8)
 
 **Transaction**
 
