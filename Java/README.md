@@ -116,6 +116,7 @@
 - [https://github.com/spotify/docker-maven-plugin](https://github.com/spotify/docker-maven-plugin)
 - [https://github.com/spotify/dockerfile-maven](https://github.com/spotify/dockerfile-maven)
 - [https://github.com/fabric8io/docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin)
+- [https://github.com/GoogleContainerTools/jib](https://github.com/GoogleContainerTools/jib)
 - [利用Maven打包docker镜像上传docker容器](https://blog.csdn.net/qq_24795205/article/details/106231144)
 - [Maven插件构建Docker镜像](https://blog.csdn.net/MyronCham/article/details/106126418)
 - [dockerfile-maven-plugin构建Docker镜像](https://zhuanlan.zhihu.com/p/90122357)
