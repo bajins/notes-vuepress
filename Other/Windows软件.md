@@ -105,9 +105,9 @@
 + [https://www.lanzous.com/b05f9wyf](https://www.lanzous.com/b05f9wyf)
 + [Balatan](https://forum.release-apk.com/search.php?author_id=49&sr=topics&sf=firstpost)
 + [https://patch.chelpus.com](https://patch.chelpus.com)
-+ [一个人的冬季的帖子 ,智友邦](http://bbs.zhiyoo.net/home.php?mod=space&uid=3&do=thread&view=me&from=space)
++ [手机软件下载-智友邦原智友论坛](http://bbs.zhiyoo.net/forum.php?mod=forumdisplay&fid=42&filter=lastpost&orderby=lastpost)
 + 各大网站的脚本 [https://github.com/Orange-shirt/OrangeJs](https://github.com/Orange-shirt/OrangeJs)
-
++ [酷我音乐精品破解版本集合地](https://www.lanzoux.com/b05aammje)
 
 
 
