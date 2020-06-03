@@ -42,6 +42,10 @@
 - [https://github.com/Vove7/retrofit-rest-client](https://github.com/Vove7/retrofit-rest-client)
 - [https://github.com/LiushuiXiaoxia](https://github.com/LiushuiXiaoxia)
 
+* JavaScript自动化工具 [https://github.com/hyb1996/Auto.js](https://github.com/hyb1996/Auto.js)
+* 微信僵尸好友脚本 [https://github.com/L8426936/auto.js-script](https://github.com/L8426936/auto.js-script)
+
+
 **Hooking**
 
 + [https://github.com/topics/xposed](https://github.com/topics/xposed)

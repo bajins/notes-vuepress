@@ -9,6 +9,7 @@
 
 * [https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China](https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China)
 * [xvfb可以将屏幕的图像输出给放到虚拟内存中](https://blog.csdn.net/wkb342814892/article/details/81591394)
+* 一个基于webkit的JavaScript API [https://github.com/ariya/phantomjs](https://github.com/ariya/phantomjs)
 
 
 **[xpath和css选择器](/Web/README.md#xpath和css选择器)**
@@ -39,9 +40,11 @@ taskkill /f /im chromedriver.exe
 * [https://github.com/wnma3mz/wechat_articles_spider](https://github.com/wnma3mz/wechat_articles_spider)
 * [WeChat Hook](https://github.com/search?o=desc&q=WeChat+Hook&s=updated&type=Repositories)
 * [https://github.com/redtips/wechathook](https://github.com/redtips/wechathook)
-* [https://github.com/codeByDog/pcWechat](https://github.com/codeByDog/pcWechat)
 * [https://github.com/wwg88888888/WeChatExt](https://github.com/wwg88888888/WeChatExt)
+* [https://github.com/TonyChen56/WeChatRobot](https://github.com/TonyChen56/WeChatRobot)
+* [https://github.com/KongKong20/WeChatPCHook](https://github.com/KongKong20/WeChatPCHook)
 * [WeChatDownload，批量微信公众号文章下载小工具](https://i.ijrou.com/p/story/WeChatDownload.html)
+* [https://github.com/LeLe86/vWeChatCrawl](https://github.com/LeLe86/vWeChatCrawl)
 
 
 
@@ -52,6 +55,7 @@ taskkill /f /im chromedriver.exe
 * [https://w3c.github.io/webdriver](https://w3c.github.io/webdriver)
 * [Headless Browser](https://www.jianshu.com/p/11d519e2d0cb)
 * [https://github.com/mozilla/geckodriver](https://github.com/mozilla/geckodriver)
+* [https://github.com/topics/headless-browser](https://github.com/topics/headless-browser)
 
 
 
