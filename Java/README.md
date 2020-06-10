@@ -108,6 +108,7 @@
 * [Nexus Repository Manager](https://help.sonatype.com/repomanager3/download)
 * [https://github.com/sonatype](https://github.com/sonatype)
 * [docker 快速搭建maven私服并上传jar包](https://www.cnblogs.com/yscec/p/12898226.html)
+* [Maven部署jar包到远程仓库](https://blog.csdn.net/ThinkWon/article/details/101483769)
 
 + maven-jar-plugin 默认的打包插件，用来打普通的project JAR包；
 + maven-shade-plugin 用来打可执行JAR包，也就是所谓的fat JAR包；
@@ -117,6 +118,7 @@
 - [https://github.com/spotify/dockerfile-maven](https://github.com/spotify/dockerfile-maven)
 - [https://github.com/fabric8io/docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin)
 - [https://github.com/GoogleContainerTools/jib](https://github.com/GoogleContainerTools/jib)
+- [https://github.com/lazyboyl/docker-develop-maven-plugin](https://github.com/lazyboyl/docker-develop-maven-plugin)
 - [利用Maven打包docker镜像上传docker容器](https://blog.csdn.net/qq_24795205/article/details/106231144)
 - [Maven插件构建Docker镜像](https://blog.csdn.net/MyronCham/article/details/106126418)
 - [dockerfile-maven-plugin构建Docker镜像](https://zhuanlan.zhihu.com/p/90122357)
@@ -127,7 +129,17 @@
 
 + [https://github.com/mojohaus](https://github.com/mojohaus)
 + [https://github.com/mojohaus/wagon-maven-plugin](https://github.com/mojohaus/wagon-maven-plugin)
++ [https://github.com/apache/tomcat-maven-plugin](https://github.com/apache/tomcat-maven-plugin)
++ [https://mvnrepository.com/artifact/org.apache.tomcat.maven](https://mvnrepository.com/artifact/org.apache.tomcat.maven)
++ [https://github.com/codehaus-cargo](https://github.com/codehaus-cargo)
 + [使用Maven插件wagon-maven-plugin自动化部署](https://blog.csdn.net/qq_37980436/article/details/105812671)
++ [java项目自动部署方案（1）：wagon-maven-plugin](https://dinghuiye.online/article/wagon-maven-plugin-auto-deploy.html)
++ [Jenkins+Maven+GitHub自动部署项目到远程服务器](https://blog.csdn.net/zhaowei5210/article/details/98790621)
++ [idea部署maven项目到远程tomcat](https://blog.csdn.net/Newbie_J/article/details/93332234)
++ [maven远程部署war包到tomcat8服务器](https://blog.csdn.net/qq_23994787/article/details/106161124)
++ [如何利用maven插件部署项目到远程运行环境](https://blog.csdn.net/lushuifa/article/details/106163624)
++ [使用site-maven-plugin在github上搭建公有仓库](http://www.flydean.com/apache-maven-git-repository)
+
 
 
 **maven镜像**
@@ -194,6 +206,11 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 - [https://github.com/elastic/elasticsearch](https://github.com/elastic/elasticsearch)
 
 * [Kafka安装及入门](http://jaychang.cn/2020/03/15/afka%E5%AE%89%E8%A3%85%E5%8F%8A%E5%85%A5%E9%97%A8)
+
++ [https://sourceforge.net/projects/jsch](https://sourceforge.net/projects/jsch)
++ [JSch-用java实现服务器远程操作](https://segmentfault.com/a/1190000019967309)
++ [https://github.com/apache/maven-wagon](https://github.com/apache/maven-wagon)
+
 
 **Transaction**
 

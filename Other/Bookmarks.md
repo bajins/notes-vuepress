@@ -217,7 +217,8 @@
 * [归档 | 程序员果果](http://blog.itwolfed.com/archives)
 * [归档 | 程序员果果的博客](https://gf-huanchupk.github.io/archives)
 * [归档 | HJW's Blog](https://hjwjw.github.io/archives)
-
+* [Mkyong.com-学习Java和Spring。](https://mkyong.com)
+* [归档 | Dinghui.Ye Online](https://dinghuiye.online/archives)
 
 
 
