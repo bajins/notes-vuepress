@@ -436,6 +436,9 @@ JexChan工具 [https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g](https://pan.baid
 * [https://zh-cn.libreoffice.org](https://zh-cn.libreoffice.org)
 * [https://github.com/YerongAI/Office-Tool](https://github.com/YerongAI/Office-Tool)
 
+- [https://office.live.com/start/onedrive.aspx](https://office.live.com/start/onedrive.aspx)
+- [https://www.microsoft.com/zh-cn/microsoft-365/onedrive/download](https://www.microsoft.com/zh-cn/microsoft-365/onedrive/download)
+
 
 ### wps
 
