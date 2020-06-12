@@ -109,6 +109,7 @@
 
 - [https://github.com/nitzzzu/RedisDesktopManager](https://github.com/nitzzzu/RedisDesktopManager)
 - [https://github.com/kanyways/rdm](https://github.com/kanyways/rdm)
+- [https://github.com/lework/RedisDesktopManager-Windows](https://github.com/lework/RedisDesktopManager-Windows)
 
 
 ## Memcached
