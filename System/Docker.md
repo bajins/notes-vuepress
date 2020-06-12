@@ -29,6 +29,7 @@
 
 - [随笔分类 - Docker](https://www.cnblogs.com/itoak/category/1769634.html)
 
+* [https://cloud.google.com/container-registry](https://cloud.google.com/container-registry)
 
 **仓库**
 
