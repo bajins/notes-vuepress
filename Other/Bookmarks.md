@@ -244,6 +244,7 @@
 * [欢迎来到Flyingon的博客 | Flyinon的博客](https://flyingon.github.io)
 * [归档 | Go语言充电站](https://lessisbetter.site/archives)
 * [小袁取经 - 博客园](https://www.cnblogs.com/xiaoyuanqujing)
+* [Archives-阳明的博客|Kubernetes|Istio|Prometheus|Python|Golang|云原生](https://www.qikqiak.com/archives)
 
 
 

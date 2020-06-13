@@ -634,6 +634,7 @@ sudo /etc/init.d/dns-clean start
 
 * [GitHub Actions 入门教程](http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)
 * [Github Actions 尝鲜](https://segmentfault.com/a/1190000020873860)
+* [持续集成](https://blog.lucien.ink/category/ci)
 
 
 > 生成公钥和私钥`ssh-keygen -t rsa -b 4096 -C "yourname@example.com" -f 文件名称 -N ""`（ACTION_DEPLOY_KEY），
@@ -641,7 +642,12 @@ sudo /etc/init.d/dns-clean start
 
 
 * [https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=deploy-to-github-pages](https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=deploy-to-github-pages)
+* [https://github.com/actions](https://github.com/actions)
 * [https://github.com/sdras/awesome-actions](https://github.com/sdras/awesome-actions)
 * [https://github.com/peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
 * [https://github.com/JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action)
-* [https://github.com/actions](https://github.com/actions)
+* [https://github.com/wangyoucao577/go-release-action](https://github.com/wangyoucao577/go-release-action)
+* [https://github.com/JasonEtco/upload-to-release](https://github.com/JasonEtco/upload-to-release)
+* [https://github.com/elgohr/Publish-Docker-Github-Action](https://github.com/elgohr/Publish-Docker-Github-Action)
+* [https://github.com/release-drafter/release-drafter](https://github.com/release-drafter/release-drafter)
+
