@@ -12,6 +12,7 @@ project_name="${project_path##*/}"
 OLD_IFS="$IFS"
 # 指定分隔符
 IFS=" "
+# 获得所有受支持平台的列表
 os_arch_array=`go tool dist list`
 # 还原
 IFS="$OLD_IFS"
@@ -22,6 +23,11 @@ for item in ${os_arch_array[@]}; do
     os=${array[0]}
     arch=${array[1]}
     zip_dir=${project_name}_${os}_${arch}
+
+    # 忽略以下平台的编译
+    if [[ $os == "android" ]] || [[ $os == "darwin" && $arch == *arm* ]]; then
+        continue
+    fi
 
     if [ -e $zip_dir ]; then
         # 如果压缩目录存在则删除
@@ -47,11 +53,22 @@ for item in ${os_arch_array[@]}; do
     
     # 编译文件到压缩目录
     if [ $os == "android" ]; then
-        go build -ldflags="-w -linkmode=external -extldflags=-pie" -i -o $zip_dir/$binary_file
+        # 开启 CGO
+        # export CGO_ENABLED=1
+        # go build -ldflags="-w -linkmode=external -extldflags=-pie" -i -o $zip_dir/$binary_file
+        continue
+    elif [ $os == "darwin" ]; then
+        # 开启 CGO
+        # export CGO_ENABLED=1
+        go build -ldflags="-w" -i -o $zip_dir/$binary_file
     # elif [ $os == "windows" ]; then
+    #     # 交叉编译不支持 CGO 所以要禁用它
+    #     export CGO_ENABLED=0
     #     go build -ldflags="-w -H windowsgui" -i -o $zip_dir/$binary_file
     else
-        go build -ldflags=-w -i -o $zip_dir/$binary_file
+        # 交叉编译不支持 CGO 所以要禁用它
+        export CGO_ENABLED=0
+        go build -ldflags="-w" -i -o $zip_dir/$binary_file
     fi
 
     # 压缩
