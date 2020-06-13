@@ -1,10 +1,7 @@
 #!/bin/bash
 
-# declare -A  定义关联数组 类似字典 键值对
-#declare -A os_arch_dic
-
 # 需要打包的静态文件或目录
-zip_files=pyutils,static
+static_files=(pyutils static)
 
 # 脚本当前目录绝对路径
 project_path=$(cd `dirname $0`; pwd)
@@ -31,10 +28,11 @@ for item in ${os_arch_array[@]}; do
         rm -rf $zip_dir
     fi
 
-    # 创建要打包的目录，把编译好的二进制文件和静态文件复制进去
+    # 创建要打包的目录，把静态文件复制进去
     mkdir $zip_dir
-    # {}前一定要有父级目录路径
-    cp -r ./{$zip_files} $zip_dir
+    for static_file in ${static_files[@]}; do
+        cp -r $static_file $zip_dir
+    done
 
     # 设置变量
     export GOOS=$os GOARCH=$arch
