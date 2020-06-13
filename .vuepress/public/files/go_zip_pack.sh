@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # 二进制的文件名前缀
 name="too-gin"

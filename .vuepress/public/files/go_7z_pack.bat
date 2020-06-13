@@ -42,6 +42,9 @@ set allList=%allList%openbsd_amd64,windows_386.exe,windows_amd64.exe,
 set allList=%allList%linux_386,linux_amd64,linux_arm,linux_mips,
 set allList=%allList%linux_mips64,linux_mips64le,linux_mipsle,linux_s390x
 
+:: 获得所有受支持平台的列表
+REM for /f %%i in ('go tool dist list') do set "osArchList=%%i"
+
 :: 删除旧文件
 for %%i in (%allList%) do (
     set binaryFile=%projectName%_%%i
@@ -102,10 +105,10 @@ for %%i in (%allList%) do (
     )
     :: 删除二进制文件
     del !binaryFile!
-)
 
-:: 编译完成清理缓存
-go clean -cache
+    :: 编译完成清理缓存
+    go clean -cache
+)
 
 goto :EXIT
 
