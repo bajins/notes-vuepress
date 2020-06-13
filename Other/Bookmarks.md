@@ -259,6 +259,7 @@
 * [JS变量和数据类型及其转化 - Coding_Changes_LIfe - 博客园](https://www.cnblogs.com/luoxuw/p/11438437.html)
 * [https://github.com/justjavac/justjavac.github.com](https://github.com/justjavac/justjavac.github.com)
 * [https://github.com/SHERlocked93/blog](https://github.com/SHERlocked93/blog)
+* [时光机 - FuocaのBlog](https://www.fuocu.cn/archives)
 
 
 
