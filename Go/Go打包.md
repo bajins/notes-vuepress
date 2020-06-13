@@ -8,7 +8,7 @@
 
 ## flag
 
-* [Go语言-打包静态文件](https://c.isme.pub/2019/01/10/go-static)
++ [Go语言-打包静态文件](https://c.isme.pub/2019/01/10/go-static)
 
 
 * [https://github.com/go-bindata/go-bindata](https://github.com/go-bindata/go-bindata)
@@ -20,6 +20,9 @@
 * [https://github.com/UnnoTed/fileb0x](https://github.com/UnnoTed/fileb0x)
 * [https://github.com/gobuffalo/packr](https://github.com/gobuffalo/packr)
 
+
+> 下载打包脚本[go_7z_pack.bat](/files/go_7z_pack.bat)或[go_pack.sh](/files/go_pack.sh)文件并保存到项目根目录中，
+> 且修改脚本中的`files`变量保存执行脚本即可
 
 
 **cross compile**
@@ -208,24 +211,3 @@ func main() {
 }
 ```
 
-
-
-## 打包脚本
-
-### 保存到项目根目录中
-
-> 只需下载[go_7z_pack.bat](/files/go_7z_pack.bat)文件并保存到项目根目录中，且修改脚本中的`files`变量保存执行脚本即可
-
-
-### 在任意目录新建
-
-> 基本用法:`脚本名 rootPath files project`
->> `rootPath` 打包的根目录，路径必须完整
->>
->> `files` 需要打包的文件或文件夹，用双引号括起来
->>
->> `project` 打包完成后的压缩文件命名的前部分，可以不输入，默认为打包根目录的名称
-
-> 示例：`脚本名 f:\\key-gin "pyutils static templates" key-gin`
-
-* [go_7z_pack_arbitrary.bat](/files/go_7z_pack_arbitrary.bat)
