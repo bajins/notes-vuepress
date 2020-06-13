@@ -152,6 +152,9 @@
 * [https://maildrop.cc](https://maildrop.cc)
 * [https://9em.org](https://9em.org)
 * [https://www.cs.email/zh](https://www.cs.email/zh)
+* [http://xkx.me](http://xkx.me)
+* [http://mail.hrka.net](http://mail.hrka.net)
+* [http://mail.binye.xyz](http://mail.binye.xyz)
 
 
 ## 在线接收短信
