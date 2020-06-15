@@ -219,6 +219,8 @@
 * [归档 | HJW's Blog](https://hjwjw.github.io/archives)
 * [Mkyong.com-学习Java和Spring。](https://mkyong.com)
 * [归档 | Dinghui.Ye Online](https://dinghuiye.online/archives)
+* [Archives - 空夜's Blog](http://www.eknown.cn/index.php/archives.html)
+* [AlgerFan | Blog](https://algerfan.cn)
 
 
 
