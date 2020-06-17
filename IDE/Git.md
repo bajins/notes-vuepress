@@ -628,6 +628,7 @@ sudo /etc/init.d/dns-clean start
   * 示例：[https://bajins.imfast.io](https://bajins.imfast.io)
 * [https://www.appveyor.com](https://www.appveyor.com)
 * [https://kubesail.com](https://kubesail.com)
+* [https://azure.microsoft.com/zh-cn/services/devops/pipelines](https://azure.microsoft.com/zh-cn/services/devops/pipelines)
 
 - 命令行：[https://github.com/sintaxi/surge](https://github.com/sintaxi/surge)
 - 命令行：[https://github.com/firebase/firebase-tools](https://github.com/firebase/firebase-tools)
