@@ -117,6 +117,7 @@ nvm install <最新的版本号>
 
 ## 依赖管理
 
+* [https://github.com/Unitech/pm2](https://github.com/Unitech/pm2)
 
 
 ### 管理yarn

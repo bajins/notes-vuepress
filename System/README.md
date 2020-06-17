@@ -379,6 +379,8 @@ Swap:            0B          0B          0B
 - [v2rayN-Windows](https://github.com/2dust/v2rayN/releases)
 - [https://github.com/Qv2ray/Qv2ray](https://github.com/Qv2ray/Qv2ray)
 - [https://github.com/vrnobody/V2RayGCon](https://github.com/vrnobody/V2RayGCon)
+- [https://github.com/bclswl0827/v2ray-heroku](https://github.com/bclswl0827/v2ray-heroku)
+- [KubeSail免费无限制容器1核512MB內存搭建V2ray科学上网](https://bawodu.com/kubesail)
 
 
 * [multi-v2ray](https://github.com/Jrohy/multi-v2ray)

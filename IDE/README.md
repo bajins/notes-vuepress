@@ -23,10 +23,10 @@
 * go源码 [https://github.com/ilanyu/offLineDownloader](https://github.com/ilanyu/offLineDownloader)
 * [http://git.aakkc.com](http://git.aakkc.com)
 * [https://github.com/Kaggle](https://github.com/Kaggle)
-[https://www.kaggle.com](https://www.kaggle.com)
-[GitHub等海外大文件快速中转下载](https://mp.weixin.qq.com/s/DH8jXalZiBcX3KhrPdDw8w)
+    * [https://www.kaggle.com](https://www.kaggle.com)
+    * [GitHub等海外大文件快速中转下载](https://mp.weixin.qq.com/s/DH8jXalZiBcX3KhrPdDw8w)
 * [https://ssh.cloud.google.com](https://ssh.cloud.google.com)
-[https://cloud.google.com/shell/docs](https://cloud.google.com/shell/docs)
+    * [https://cloud.google.com/shell/docs](https://cloud.google.com/shell/docs)
 * [https://github.com/churuxu/xdownload](https://github.com/churuxu/xdownload)
 
 

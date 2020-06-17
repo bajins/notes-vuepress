@@ -615,15 +615,19 @@ sudo /etc/init.d/dns-clean start
 
 ### 部署
 
-* [https://www.netlify.com](https://www.netlify.com) 示例：[https://woytu.netlify.app](https://woytu.netlify.app)
+* [https://www.netlify.com](https://www.netlify.com)
+  * 示例：[https://woytu.netlify.app](https://woytu.netlify.app)
 * [https://slack.com/get-started](https://slack.com/get-started)
 * [https://docs.travis-ci.com/user/tutorial](https://docs.travis-ci.com/user/tutorial)
-* [https://github.com/zeit](https://github.com/zeit) 示例：[https://woytu.now.sh](https://woytu.now.sh)
+* [https://github.com/zeit](https://github.com/zeit)
+  * 示例：[https://woytu.now.sh](https://woytu.now.sh)
 * [https://github.com/heroku](https://github.com/heroku)
-[https://github.com/heroku/heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static)
-示例：[https://woytu.herokuapp.com](https://woytu.herokuapp.com)
-* [https://fast.io](https://fast.io) 示例：[https://bajins.imfast.io](https://bajins.imfast.io)
+  * [https://github.com/heroku/heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static)
+  * 示例：[https://woytu.herokuapp.com](https://woytu.herokuapp.com)
+* [https://fast.io](https://fast.io)
+  * 示例：[https://bajins.imfast.io](https://bajins.imfast.io)
 * [https://www.appveyor.com](https://www.appveyor.com)
+* [https://kubesail.com](https://kubesail.com)
 
 - 命令行：[https://github.com/sintaxi/surge](https://github.com/sintaxi/surge)
 - 命令行：[https://github.com/firebase/firebase-tools](https://github.com/firebase/firebase-tools)

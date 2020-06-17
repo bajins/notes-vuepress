@@ -155,6 +155,8 @@
 * [http://xkx.me](http://xkx.me)
 * [http://mail.hrka.net](http://mail.hrka.net)
 * [http://mail.binye.xyz](http://mail.binye.xyz)
+* [http://forsaken.somecolor.cc](http://forsaken.somecolor.cc)
+
 
 
 ## 在线接收短信
