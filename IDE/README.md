@@ -28,6 +28,7 @@
 * [https://ssh.cloud.google.com](https://ssh.cloud.google.com)
     * [https://cloud.google.com/shell/docs](https://cloud.google.com/shell/docs)
 * [https://github.com/churuxu/xdownload](https://github.com/churuxu/xdownload)
+* [GitHub 下载加速](https://noshore.cn/github.html)
 
 
 ## Online IDE

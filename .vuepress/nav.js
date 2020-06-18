@@ -14,6 +14,10 @@ module.exports = [{
                     text: 'GoogleDrive',
                     link: 'https://gd.bajins.com'
                 },
+                {
+                    text: 'OneDrive',
+                    link: 'https://bajins.herokuapp.com'
+                },
             ]
         },
         {
