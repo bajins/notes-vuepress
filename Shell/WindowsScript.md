@@ -13,6 +13,9 @@
 * [属性和方法及子对象](https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/x66z77t4(v=vs.84)#language-element-table)
 * [https://github.com/mrpapercut/wscript](https://github.com/mrpapercut/wscript)
 
++ [Visual Basic for Applications (VBA) 语言参考](https://docs.microsoft.com/zh-cn/office/vba/api/overview/language-reference)
++ [VBA学习笔记](https://www.zhihu.com/people/xia-xi-lan/posts)
++ [xcel之VBA简单宏编程](https://blog.csdn.net/wordsin/article/details/80575615)
 
 - `JScript`、`VBScript`同属于官方支持的`Windows Script`，这俩脚本都需要依赖于特定的宿主(`Host`)才能执行，
 `JavaScript`浏览器环境之外，还可以运行在`Windows Script Host`中。
