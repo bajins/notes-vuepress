@@ -18,6 +18,7 @@
 ## MySQL
 
 * [MySQL 全文索引实现简单版搜索引擎](https://www.cnblogs.com/YangJiaXin/p/11153579.html)
+* [如果是MySQL引起的CPU消耗过大，你会如何优化？](https://www.cnblogs.com/xiaoheliu1024/p/12657929.html)
 
 ![](/images/sql执行顺序.png)
 

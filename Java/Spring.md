@@ -9,6 +9,8 @@
 * [https://github.com/spring-projects](https://github.com/spring-projects)
 [https://spring.io/projects](https://spring.io/projects)
 * [SpringCloud和Dubbo](https://www.jianshu.com/p/9fa24196d2ad)
+* [https://github.com/huaweicloud](https://github.com/huaweicloud)
+
 
 
 - [https://github.com/wuyouzhuguli/SpringAll](https://github.com/wuyouzhuguli/SpringAll)
@@ -81,6 +83,12 @@
 * [https://github.com/vector4wang/spring-boot-quick](https://github.com/vector4wang/spring-boot-quick)
 * [https://github.com/kanyways/learning-spring](https://github.com/kanyways/learning-spring)
 * [https://github.com/gf-huanchupk/SpringBootLearning](https://github.com/gf-huanchupk/SpringBootLearning)
+
++ [Springboot 优雅停止服务的几种方法](https://www.cnblogs.com/huangqingshi/p/11370291.html)
++ [SpringBoot系列: 如何优雅停止服务](https://www.cnblogs.com/exmyth/p/13098831.html)
++ [Spring Boot 2.3 新特性优雅停机详解](https://juejin.im/post/5ec1d89de51d454ddf2367ab)
+
+- [Spring Boot 监听 Redis Key 失效事件实现定时任务](https://antoniopeng.com/2020/01/03/springboot/Spring%20Boot%20%E7%9B%91%E5%90%AC%20Redis%20Key%20%E5%A4%B1%E6%95%88%E4%BA%8B%E4%BB%B6%E5%AE%9E%E7%8E%B0%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1)
 
 > 约定优于配置（convention over configuration），也称作按约定编程，是一种软件设计范式，
 > 旨在减少软件开发人员需做决定的数量，获得简单的好处，而又不失灵活性。

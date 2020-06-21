@@ -42,7 +42,9 @@
 * [https://github.com/michaelliao](https://github.com/michaelliao)
 * [https://github.com/Blankj](https://github.com/Blankj)
 * [https://github.com/ityouknow](https://github.com/ityouknow)
-* [https://github.com/eugenp](https://github.com/eugenp) [https://www.baeldung.com](https://www.baeldung.com)
+* [https://github.com/eugenp](https://github.com/eugenp)
+    * [https://www.baeldung.com](https://www.baeldung.com)
+* [https://github.com/lltx](https://github.com/lltx)
 
 
 - [https://github.com/hoochanlon](https://github.com/hoochanlon)
@@ -161,6 +163,7 @@
 * [友链links - 倾心博客](https://www.qxwlmz.cn/links.html)
 * [归档 | MonkeyWie's Blog](https://monkeywie.github.io/archives)
 * python [归档 | 春江暮客](https://www.bobobk.com/archives)
+* [归档 – 云原生实验室 - Kubernetes|Docker|Istio|Envoy|Hugo|Golang|云原生](https://fuckcloudnative.io/archive)
 
 
 
@@ -221,6 +224,8 @@
 * [归档 | Dinghui.Ye Online](https://dinghuiye.online/archives)
 * [Archives - 空夜's Blog](http://www.eknown.cn/index.php/archives.html)
 * [AlgerFan | Blog](https://algerfan.cn)
+* [Java技术栈,分享最新最主流的Java技术](http://javastack.cn)
+* [Archives - 彭超 | Blog](https://antoniopeng.com/archive)
 
 
 

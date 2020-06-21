@@ -7,6 +7,8 @@
 
 ## flag
 
+- [Java版本比较](https://mp.weixin.qq.com/s/NEfqPXrcq6O1p7RLf9LWCw)
+
 + [https://docs.oracle.com](https://docs.oracle.com)
 + [https://docs.oracle.com/javase/8/docs](https://docs.oracle.com/javase/8/docs)
 + [https://docs.oracle.com/javase/7/docs](https://docs.oracle.com/javase/7/docs)
@@ -27,6 +29,14 @@
 - [fastjson这么快老外为啥还是热衷 jackson?](https://www.zhihu.com/question/44199956)
 - [JAX-WS与JAX-RS区别是什么？](https://blog.csdn.net/dogiant/article/details/54907506)
 - [接口框架 : WebService与Jersey RESTful 要点梳理](https://blog.csdn.net/zzg19950824/article/details/80300501)
+- [JAVA多线程使用场景和注意事项](https://www.jianshu.com/p/d670c6485ff9)
+- Java持久性API(Java Persistence API) [https://en.wikipedia.org/wiki/Java_Persistence_API](https://en.wikipedia.org/wiki/Java_Persistence_API)
+- [fork/join 全面剖析](https://www.cnblogs.com/linlinismine/p/9295701.html)
+- [收集业务日志，提炼有效数据](https://mp.weixin.qq.com/s/mA8ZqShP0p_t1toTzqpW3Q)
+- [通过filebeat、logstash、rsyslog采集nginx日志的几种方式](https://www.cnblogs.com/xiejava/p/12452434.html)
+- [分布式系统唯一ID生成方案汇总](https://www.cnblogs.com/haoxinyue/p/5208136.html)
+
++ JMH（Java Microbenchmark Harness）是专门用于代码微基准测试的工具套件
 
 
 **学习**
@@ -43,8 +53,9 @@
 * [https://github.com/CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes)
 * [https://github.com/hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer)
 * [https://github.com/clxering/Effective-Java-3rd-edition-Chinese-English-bilingual](https://github.com/clxering/Effective-Java-3rd-edition-Chinese-English-bilingual)
-* [Effective Java 第三版](https://www.jianshu.com/p/fc7b69608954)
-* [https://github.com/sjsdfg/effective-java-3rd-chinese](https://github.com/sjsdfg/effective-java-3rd-chinese)
+    * [Effective Java 第三版](https://www.jianshu.com/p/fc7b69608954)
+    * [https://github.com/sjsdfg/effective-java-3rd-chinese](https://github.com/sjsdfg/effective-java-3rd-chinese)
+* [https://github.com/hansonwang99/JavaCollection](https://github.com/hansonwang99/JavaCollection)
 * [https://github.com/RedSpider1/concurrent](https://github.com/RedSpider1/concurrent)
 * [https://github.com/javagrowing/JGrowing](https://github.com/javagrowing/JGrowing)
 * [https://github.com/caison/java-knowledge-mind-map](https://github.com/caison/java-knowledge-mind-map)
@@ -56,7 +67,6 @@
 * [https://github.com/Childe-Mu/bio-nio-aio-netty-notes](https://github.com/Childe-Mu/bio-nio-aio-netty-notes)
 
 + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
-
 
 
 
@@ -172,12 +182,6 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/looly/hutool](https://github.com/looly/hutool)
 * [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
 * [https://github.com/alibaba/easyexcel](https://github.com/alibaba/easyexcel)
-* [https://github.com/ehcache/ehcache3](https://github.com/ehcache/ehcache3)
-    - [http://www.ehcache.org/apidocs](http://www.ehcache.org/apidocs)
-    - [Ehcache3配置使用](https://segmentfault.com/a/1190000022502212)
-    - [JAVA中使用springBoot和Ehcache3.X无xml配置和xml配置](https://blog.csdn.net/Gentlemike/article/details/80403967)
-    - [ehcache之offheap](http://www.luyixian.cn/news_show_332650.aspx)
-    - [https://github.com/Terracotta-OSS/offheap-store](https://github.com/Terracotta-OSS/offheap-store)
 * [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
 * [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
 * 对配置内容加密：[https://github.com/ulisesbocchio/jasypt-spring-boot](https://github.com/ulisesbocchio/jasypt-spring-boot)
@@ -210,6 +214,18 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 + [https://sourceforge.net/projects/jsch](https://sourceforge.net/projects/jsch)
 + [JSch-用java实现服务器远程操作](https://segmentfault.com/a/1190000019967309)
 + [https://github.com/apache/maven-wagon](https://github.com/apache/maven-wagon)
+
+
+**Cache**
+
+* [https://github.com/ehcache/ehcache3](https://github.com/ehcache/ehcache3)
+    - [http://www.ehcache.org/apidocs](http://www.ehcache.org/apidocs)
+    - [Ehcache3配置使用](https://segmentfault.com/a/1190000022502212)
+    - [JAVA中使用springBoot和Ehcache3.X无xml配置和xml配置](https://blog.csdn.net/Gentlemike/article/details/80403967)
+    - [ehcache之offheap](http://www.luyixian.cn/news_show_332650.aspx)
+    - [https://github.com/Terracotta-OSS/offheap-store](https://github.com/Terracotta-OSS/offheap-store)
+* [https://github.com/ben-manes/caffeine](https://github.com/ben-manes/caffeine)
+* GuavaCache使用示例 [https://github.com/songyaxu/guava-cache](https://github.com/songyaxu/guava-cache)
 
 
 **Transaction**
@@ -330,6 +346,9 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [基于SpringBoot2.x、SpringCloud并采用前后端分离的多租户系统架构微服务开发平台](https://gitee.com/ibyte/M-Pass)
 * [Hasor是一套基于 Java 语言的开发框架](https://github.com/zycgit/hasor)
 * 行为验证码 [https://github.com/anji-plus/captcha](https://github.com/anji-plus/captcha)
+* EL-ADMIN 后台管理系统 [https://github.com/elunez/eladmin](https://github.com/elunez/eladmin)
+* SpringBlade SaaS多租户微服务开发平台 [https://github.com/chillzhuang/SpringBlade](https://github.com/chillzhuang/SpringBlade)
+* 基于springboot的一款纯净脚手架 [https://github.com/fuce1314/Springboot_v2](https://github.com/fuce1314/Springboot_v2)
 
 
 
