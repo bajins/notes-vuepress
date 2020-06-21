@@ -380,6 +380,7 @@ Swap:            0B          0B          0B
 - [https://github.com/Qv2ray/Qv2ray](https://github.com/Qv2ray/Qv2ray)
 - [https://github.com/vrnobody/V2RayGCon](https://github.com/vrnobody/V2RayGCon)
 - [https://github.com/bclswl0827/v2ray-heroku](https://github.com/bclswl0827/v2ray-heroku)
+- [在 Heroku 搭建 V2Ray](https://ibcl.us/Heroku-V2Ray_20191014)
 - [KubeSail免费无限制容器1核512MB內存搭建V2ray科学上网](https://bawodu.com/kubesail)
 
 
