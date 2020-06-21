@@ -178,6 +178,9 @@
     * [http://upd.emule-security.org/nodes.dat](http://upd.emule-security.org/nodes.dat)
     * [http://ed2k.im/nodes.dat](http://ed2k.im/nodes.dat)
 
+
+**磁力搜索**
+
 - 流媒体播放 [https://github.com/Stremio](https://github.com/Stremio)
 - 磁力链接聚合搜索 [https://github.com/xiandanin/magnetW](https://github.com/xiandanin/magnetW)
 - [阿虚同学的储物间](http://kyon945.ys168.com)
@@ -191,20 +194,24 @@
 - [https://www.btsj5.com](https://www.btsj5.com)
 - [http://www.2btjia.com](http://www.2btjia.com)
 - [https://www.pianku.tv](https://www.pianku.tv)
+- [https://cili001.com](http://cili001.com)
 
 > 特征码（该字符串，一般是40个字的一串字母和数字的组合）下载：打开BT下载工具（迅雷、BitComet、BitTorrent、uTorrent等等），
 > 例如比特彗星，点击磁链，直接粘贴下载即可。如果使用迅雷的话还需要在特征码前面加上`magnet:?xt=urn:btih:`
 
+
+**客户端**
+
 * [https://www.bitcomet.com](https://www.bitcomet.com)
-[https://www.lanzous.com/b073c7g4f](https://www.lanzous.com/b073c7g4f)
+    * [https://www.lanzous.com/b073c7g4f](https://www.lanzous.com/b073c7g4f)
 * [https://github.com/qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent)
-[https://www.lanzous.com/b073jjwta](https://www.lanzous.com/b073jjwta)
+    *[ https://www.lanzous.com/b073jjwta](https://www.lanzous.com/b073jjwta)
 * [https://github.com/c0re100/qBittorrent-Enhanced-Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition)
-[https://www.lanzous.com/b073dnr7g](https://www.lanzous.com/b073dnr7g)
+    * [https://www.lanzous.com/b073dnr7g](https://www.lanzous.com/b073dnr7g)
 * [https://transmissionbt.com](https://transmissionbt.com)
 * [https://deluge-torrent.org](https://deluge-torrent.org)
 * [https://www.utorrent.com](https://www.utorrent.com)
-[https://www.lanzous.com/b073c7g4f](https://www.lanzous.com/b073c7g4f)
+    * [https://www.lanzous.com/b073c7g4f](https://www.lanzous.com/b073c7g4f)
 * [uTorrent／qBittorrent／BitComet](https://www.lanzous.com/b0f1awgqb)
 * [https://github.com/webtorrent](https://github.com/webtorrent)
 
@@ -223,6 +230,7 @@
 * [http://www.torrenttrackerlist.com/torrent-tracker-list](http://www.torrenttrackerlist.com/torrent-tracker-list)
 * [https://github.com/DeSireFire/animeTrackerList](https://github.com/DeSireFire/animeTrackerList)
 * [https://github.com/1265578519/OpenTracker](https://github.com/1265578519/OpenTracker)
+* [http://opentrackr.org](http://opentrackr.org)
 
 
 
