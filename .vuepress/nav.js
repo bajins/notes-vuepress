@@ -16,7 +16,7 @@ module.exports = [{
                 },
                 {
                     text: 'OneDrive',
-                    link: 'https://bajins.herokuapp.com'
+                    link: 'https://od.bajins.com'
                 },
             ]
         },
