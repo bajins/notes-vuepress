@@ -693,6 +693,7 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 ## 邮箱客户端
 
 * [https://www.thunderbird.net](https://www.thunderbird.net)
+    - 点击<kbd>附加组件</kbd>搜索扩展`minimize`添加`Minimize on Close`、`Keep in Taskbar`
 * [https://www.foxmail.com](https://www.foxmail.com)
 * Outlook
 * Windows 10 自带邮箱
