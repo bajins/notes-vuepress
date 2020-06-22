@@ -76,7 +76,7 @@
 Get-AppxPackage | Select Name,PackageFullName
 ```
 
-- 恢复应用
+- 恢复应用程序
 
 ```powershell
 # 应用商店
@@ -94,6 +94,8 @@ Get-AppxPackage Microsoft.windowscommunicationsapps -AllUsers| Foreach {Add-Appx
 Get-AppxPackage -AllUsers | Remove-AppxPackage
 # 从系统账户中卸载应用
 Get-AppXProvisionedPackage -online | Remove-AppxProvisionedPackage –online
+# 应用商店
+get-appxpackage *store* | remove-Appxpackage
 # 日历、邮件
 Get-AppxPackage Microsoft.windowscommunicationsapps | Remove-AppxPackage
 get-appxpackage *communicationsapps* | remove-appxpackage
