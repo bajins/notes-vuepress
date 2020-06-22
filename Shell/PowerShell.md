@@ -80,7 +80,7 @@ Get-AppxPackage | Select Name,PackageFullName
 
 ```powershell
 # 应用商店
-add-appxpackage -register “C：\Program Files\WindowsApps\Microsoft.WindowsStore_2015.7.22.0_x64__8wekyb3d8bbwe\appxmanifest.xml” -disabledevelopmentmode
+add-appxpackage -register "C:\Program Files\WindowsApps\*Store*\AppxManifest.xml" -disabledevelopmentmode
 # 计算器
 Get-AppxPackage *calculator* -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 # 日历、邮件
