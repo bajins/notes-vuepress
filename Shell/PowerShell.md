@@ -66,6 +66,73 @@
 ```
 
 
+## Windows10自带应用
+
+> 注意空格和英文标点
+
+- 查看已安装应用
+
+```powershell
+Get-AppxPackage | Select Name,PackageFullName
+```
+
+- 恢复应用
+
+```powershell
+# 应用商店
+add-appxpackage -register “C：\Program Files\WindowsApps\Microsoft.WindowsStore_2015.7.22.0_x64__8wekyb3d8bbwe\appxmanifest.xml” -disabledevelopmentmode
+# 计算器
+Get-AppxPackage *calculator* -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+# 日历、邮件
+Get-AppxPackage Microsoft.windowscommunicationsapps -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+```
+
+- 卸载应用程序
+
+```powershell
+# 卸载所有账户中的应用
+Get-AppxPackage -AllUsers | Remove-AppxPackage
+# 从系统账户中卸载应用
+Get-AppXProvisionedPackage -online | Remove-AppxProvisionedPackage –online
+# 日历、邮件
+Get-AppxPackage Microsoft.windowscommunicationsapps | Remove-AppxPackage
+get-appxpackage *communicationsapps* | remove-appxpackage
+# 从系统账户中卸载日历、邮件应用
+Get-AppXProvisionedPackage –online where-object {$_.packagename –like "*windowsmunicationsapps*"} | remove-appxprovisionedpackage –online
+# 人脉
+get-appxpackage *people* | remove-appxpackage
+# Groove 音乐
+get-appxpackage *zunemusic* | remove-appxpackage
+# 电影和电视
+get-appxpackage *zunevideo* | remove-appxpackage
+# 财经
+get-appxpackage *bingfinance* | remove-appxpackage
+# 资讯
+get-appxpackage *bingnews* | remove-appxpackage
+# 体育
+get-appxpackage *bingsports* | remove-appxpackage
+# 天气
+get-appxpackage *bingweather* | remove-appxpackage
+# OneNote
+get-appxpackage *onenote* | remove-appxpackage
+# 闹钟和时钟
+get-appxpackage *alarms* | remove-appxpackage
+# 计算器
+get-appxpackage *calculator* | remove-appxpackage
+# 相机
+get-appxpackage *camera* | remove-appxpackage
+# 照片
+get-appxpackage *photos* | remove-appxpackage
+# 地图
+get-appxpackage *maps* | remove-appxpackage
+# 录音机
+get-appxpackage *soundrecorder* | remove-appxpackage
+# XBox
+get-appxpackage *xbox* | remove-appxpackage
+```
+
+
+
 ## 命令
 
 * [Scheduled Tasks（计划任务）](https://www.holoem.com/?p=1974)
@@ -105,11 +172,7 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 (New-Object System.Net.WebClient).DownloadFile('https://git.io/JvYAg','d:\\7za.exe')
 ```
 
-- 恢复计算器
 
-```powershell
-Get-AppxPackage *calculator* -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
-```
 
 - 循环目录
 

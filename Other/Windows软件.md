@@ -541,6 +541,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 * [Win10Clean](https://github.com/ElPumpo/Win10Clean)
 * [Dism++](https://www.chuyu.me/zh-Hans/index.html)
+* 卸载Windows10自带应用 [10AppsManager](https://www.thewindowsclub.com/10appsmanager-windows-10)
 * [W10Privacy](https://www.winprivacy.de/deutsch-start/download)
 * [PCHunter](http://www.xuetr.com)
 * [Windows 10 Manager](https://www.yamicsoft.com/cn)
@@ -693,6 +694,8 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 
 * [https://www.thunderbird.net](https://www.thunderbird.net)
 * [https://www.foxmail.com](https://www.foxmail.com)
+* Outlook
+* Windows 10 自带邮箱
 
 
 ## other
