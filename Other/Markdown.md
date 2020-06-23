@@ -359,9 +359,7 @@ string &operator+(const string& A,const string& B) //cpp
 - `<sup></sup>`
 - `<sub></sub>`
 - `<br/>`
-- `<details><summary><b>点击查看</b></summary></details>`
-- `<details><summary><strong><font style="vertical-align: inherit;">点击查看</font></strong></summary></details>`
-
+- `<details><summary><strong style="font-size:160%;">点击查看</strong></summary></details>`
 
 
 ## 工具
