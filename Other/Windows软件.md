@@ -109,6 +109,7 @@
 + [手机软件下载-智友邦原智友论坛](http://bbs.zhiyoo.net/forum.php?mod=forumdisplay&fid=42&filter=lastpost&orderby=lastpost)
 + 各大网站的脚本 [https://github.com/Orange-shirt/OrangeJs](https://github.com/Orange-shirt/OrangeJs)
 + [酷我音乐精品破解版本集合地](https://www.lanzoux.com/b05aammje)
++ [https://github.com/butzist/ActivityLauncher](https://github.com/butzist/ActivityLauncher)
 
 
 

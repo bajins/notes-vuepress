@@ -23,9 +23,13 @@
 * [安装适用于 Linux 的 Windows 子系统](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
 
 
-**包管理**
 
-* [https://github.com/oneget/oneget](https://github.com/oneget/oneget) [https://www.nuget.org](https://www.nuget.org)
+## 包管理
+
+* [https://github.com/microsoft/winget-cli](https://github.com/microsoft/winget-cli)
+* [https://github.com/oneget/oneget](https://github.com/oneget/oneget)
+    * [https://www.nuget.org](https://www.nuget.org)
+    * [https://www.powershellgallery.com](https://www.powershellgallery.com)
 * [https://github.com/chocolatey](https://github.com/chocolatey)
 * [https://github.com/lukesampson/scoop](https://github.com/lukesampson/scoop)
 * [https://github.com/cmderdev/cmder](https://github.com/cmderdev/cmder)
@@ -33,7 +37,7 @@
 
 
 
-**终端**
+## 终端
 
 * [https://github.com/topics/windows](https://github.com/topics/windows)
 * [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
