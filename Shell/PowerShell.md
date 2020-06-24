@@ -29,6 +29,7 @@
 * [https://github.com/chocolatey](https://github.com/chocolatey)
 * [https://github.com/lukesampson/scoop](https://github.com/lukesampson/scoop)
 * [https://github.com/cmderdev/cmder](https://github.com/cmderdev/cmder)
+* [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 
 
 
