@@ -73,7 +73,6 @@
 + [不蒜子文章统计](http://busuanzi.ibruce.info)
 [https://www.npmjs.com/search?q=keywords:busuanzi](https://www.npmjs.com/search?q=keywords:busuanzi)
 
-**[静态部署](/IDE/Git.md#部署)**
 
 * [静态编译VuePress](https://github.com/vuejs/vuepress)
     * [https://github.com/vuepressjs/awesome-vuepress](https://github.com/vuepressjs/awesome-vuepress)
@@ -91,6 +90,21 @@
 * [运行时驱动Docute](https://github.com/egoist/docute)
 * [从仓库生成文档](https://github.com/readthedocs/readthedocs.org)
 * [https://github.com/getgridea/gridea](https://github.com/getgridea/gridea)
+
+
+**创建自己的免费网站**
+
+- [https://carrd.co](https://carrd.co)
+- [https://neocities.org](https://neocities.org)
+
+
+
+**免费域名**
+
+- [https://www.freenom.com](https://www.freenom.com)
+- [https://nic.eu.org](https://nic.eu.org)
+
+
 
 
 **VuePress主题**
@@ -117,6 +131,30 @@
 * [vuepress-theme-zjblog](https://github.com/ZjBlog/vuepress-theme-zjblog)
 * [vuepress-theme-reco](https://github.com/recoluan/vuepress-theme-reco)
 * [https://github.com/zp961214/Blog](https://github.com/zp961214/Blog)
+
+
+
+### 静态部署
+
+* [https://www.netlify.com](https://www.netlify.com)
+  * 示例：[https://woytu.netlify.app](https://woytu.netlify.app)
+* [https://slack.com/get-started](https://slack.com/get-started)
+* [https://docs.travis-ci.com/user/tutorial](https://docs.travis-ci.com/user/tutorial)
+* [https://github.com/zeit](https://github.com/zeit)
+  * 示例：[https://woytu.now.sh](https://woytu.now.sh)
+* [https://github.com/heroku](https://github.com/heroku)
+  * [https://github.com/heroku/heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static)
+  * 示例：[https://woytu.herokuapp.com](https://woytu.herokuapp.com)
+* [https://fast.io](https://fast.io)
+  * 示例：[https://bajins.imfast.io](https://bajins.imfast.io)
+* [https://www.appveyor.com](https://www.appveyor.com)
+* [https://kubesail.com](https://kubesail.com)
+* [https://azure.microsoft.com/zh-cn/services/devops/pipelines](https://azure.microsoft.com/zh-cn/services/devops/pipelines)
+
+- 命令行：[https://github.com/sintaxi/surge](https://github.com/sintaxi/surge)
+  - [https://surge.sh](https://surge.sh)
+- 命令行：[https://github.com/firebase/firebase-tools](https://github.com/firebase/firebase-tools)
+
 
 
 

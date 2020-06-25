@@ -45,7 +45,7 @@
 > 示例：[https://gitpod.io/#github.com/woytu/notes-vuepress](https://gitpod.io/#github.com/woytu/notes-vuepress)
 
 
-**[静态部署](/IDE/Git.md#部署)**
+**[静态部署](/Web/README.md#静态部署)**
 
 
 **在线运行代码**
