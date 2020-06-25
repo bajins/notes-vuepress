@@ -44,6 +44,7 @@
 * [https://github.com/baidu/amis](https://github.com/baidu/amis)
 * [https://github.com/alienzhou/web-highlighter](https://github.com/alienzhou/web-highlighter)
 * [https://github.com/josdejong/mathjs](https://github.com/josdejong/mathjs)
+* 单页网站 [https://github.com/alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js)
 
 
 **原生应用开发**
