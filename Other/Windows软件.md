@@ -287,6 +287,12 @@
 
 * [foobar2000](http://blog.sina.com.cn/go2spa)
 * [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
+* [https://github.com/mpv-player/mpv](https://github.com/mpv-player/mpv)
+* powerDVD
+* MPC-BE
+* MPC-HC
+* Kmplayer
+* VLC
 
 
 **Potplayer**
