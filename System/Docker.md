@@ -31,6 +31,13 @@
 
 * [https://cloud.google.com/container-registry](https://cloud.google.com/container-registry)
 
+
++ podman [https://github.com/containers](https://github.com/containers)
+    + [再见 Docker，是时候拥抱下一代容器工具了](https://mp.weixin.qq.com/s/MDi4RB5V60EGl3ii9usD0Q)
+    + [podman初试-和docker对比](https://blog.51cto.com/13447608/2448072)
+
+
+
 **仓库**
 
 + [从零搭建docker私有仓库](https://www.jianshu.com/p/2d9d4cdd3af7)

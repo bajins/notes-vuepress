@@ -214,6 +214,7 @@
 * [https://www.springcloud.cc](https://www.springcloud.cc)
 * [聊聊分布式链路追踪](http://lidawn.github.io/2018/12/26/distribute-tracing)
 
+- [冒着挂科的风险也要给你们看的 Spring Cloud 入门总结](https://juejin.im/post/5de2553e5188256e885f4fa3)
 
 - `bootstrap.yml`（.properties）
 

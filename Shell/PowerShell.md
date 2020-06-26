@@ -37,17 +37,6 @@
 
 
 
-## 终端
-
-* [https://github.com/topics/windows](https://github.com/topics/windows)
-* [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
-* [https://github.com/appget](https://github.com/appget)
-* [https://github.com/x64dbg](https://github.com/x64dbg)
-* [https://github.com/Maximus5/ConEmu](https://github.com/Maximus5/ConEmu)
-* [https://github.com/Eugeny/terminus](https://github.com/Eugeny/terminus)
-* [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
-
-
 
 
 ## 在batch中嵌入运行
