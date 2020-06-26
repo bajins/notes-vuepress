@@ -26,7 +26,6 @@
 - [https://github.com/TogetherOS](https://github.com/TogetherOS)
 - [https://github.com/lets-blade](https://github.com/lets-blade)
 - 各种非常棒的学习项目：[https://github.com/jobbole](https://github.com/jobbole)
-- 用于学习数据结构和算法：[https://github.com/TheAlgorithms](https://github.com/TheAlgorithms)
 - [https://github.com/doocs](https://github.com/doocs)
 
 
