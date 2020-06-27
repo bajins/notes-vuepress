@@ -70,7 +70,7 @@
     * [https://github.com/DrKLO/Telegram](https://github.com/DrKLO/Telegram)
 * [https://telegram.zczc.men](https://telegram.zczc.men)
 * [https://github.com/zhukov/webogram](https://github.com/zhukov/webogram)
-[https://zhukov.github.io/webogram](https://zhukov.github.io/webogram)
+    * [https://zhukov.github.io/webogram](https://zhukov.github.io/webogram)
 * [https://github.com/idealclover/Telegram-Channel-Mirror](https://github.com/idealclover/Telegram-Channel-Mirror)
 
 + [https://t.me/Tele_zh_CN](https://t.me/Tele_zh_CN)
@@ -88,8 +88,8 @@
 **other**
 
 * [https://www.naodai.org](https://www.naodai.org)
-[https://yun.naodai.org/Software](https://yun.naodai.org/Software)
-[https://go.naodai.org/Software](https://go.naodai.org/Software)
+    * [https://yun.naodai.org/Software](https://yun.naodai.org/Software)
+    * [https://go.naodai.org/Software](https://go.naodai.org/Software)
 * [https://delivery.yuntu.com.tw](https://delivery.yuntu.com.tw)
 * [https://www.fxxkmakeding.xyz](https://www.fxxkmakeding.xyz)
 * [https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367)
@@ -398,9 +398,9 @@
 ## 文件压缩
 
 * [https://github.com/giorgiotani/PeaZip](https://github.com/giorgiotani/PeaZip)
-[https://sourceforge.net/projects/peazip](https://sourceforge.net/projects/peazip)
+    * [https://sourceforge.net/projects/peazip](https://sourceforge.net/projects/peazip)
 * [https://sourceforge.net/projects/sevenzip](https://sourceforge.net/projects/sevenzip)
-[https://www.7-zip.org/download.html](https://www.7-zip.org/download.html)
+    * [https://www.7-zip.org/download.html](https://www.7-zip.org/download.html)
 * [https://github.com/nmoinvaz/minizip](https://github.com/nmoinvaz/minizip)
 
 
@@ -408,16 +408,16 @@
 ## 程序打包
 
 * [单文件制作程序byJexChan](http://blog.sina.com.cn/s/blog_6fd804fe0102wwwf.html)
-JexChan工具 [https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g](https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g) 提取码s1dk
+    * JexChan工具 [https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g](https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g) 提取码s1dk
 * [单文件程序制作一键通by:杏雨梨云](https://www.xyboot.com/portableapp_onekey_ok_3in1)
 * [https://github.com/lxfly2000/7zsfx](https://github.com/lxfly2000/7zsfx)
 * [UltraModernUI](https://github.com/SuperPat45/UltraModernUI)
 * [Inno-by-KngStr](https://github.com/KngStr/Inno-All-in-One-Setup)
 * [Advanced Installer官方](https://www.advancedinstaller.com/download.html)
 * [https://github.com/upx/upx](https://github.com/upx/upx)
-[UPXShell汉化版](http://blog.sina.com.cn/s/blog_89a729a40102wjwo.html)
+    * [UPXShell汉化版](http://blog.sina.com.cn/s/blog_89a729a40102wjwo.html)
 * [https://jrsoftware.org](https://jrsoftware.org)
-[InnoSetup中文定制版](http://blog.sina.com.cn/s/blog_89a729a40102xuy4.html)
+    * [InnoSetup中文定制版](http://blog.sina.com.cn/s/blog_89a729a40102xuy4.html)
 
 
 ### AutoIt
@@ -440,8 +440,8 @@ JexChan工具 [https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g](https://pan.baid
 ### 自解压
 
 * [https://sourceforge.net/projects/sfx-maker](https://sourceforge.net/projects/sfx-maker)
-[7-ZIP SFX Maker v3.3 完整汉化版](https://www.52pojie.cn/thread-1133336-1-1.html)
-[7-ZIP SFX Maker v3.3 完美汉化版](https://www.52pojie.cn/thread-1136281-1-1.html)
+    * [7-ZIP SFX Maker v3.3 完整汉化版](https://www.52pojie.cn/thread-1133336-1-1.html)
+    * [7-ZIP SFX Maker v3.3 完美汉化版](https://www.52pojie.cn/thread-1136281-1-1.html)
 * [https://sourceforge.net/projects/s-zipsfxbuilder](https://sourceforge.net/projects/s-zipsfxbuilder)
 
 
@@ -644,7 +644,8 @@ End Sub
 * [twm000-导航页被定制可修改](http://twm000.top)
 * [Y-OS工作室-导航页被定制可修改](http://y-os.net)
 * [十二星座-导航页被定制可修改](http://www.12xzzx.com)
-* [http://icura.cn](http://icura.cn)
+* [https://icura.lofter.com](https://icura.lofter.com)
+    * [OneDrive](https://tpedutw-my.sharepoint.com/:f:/g/personal/icura_tp_edu_tw/Ek5lPsUrc_ZJqSDKi7oxsdoBNjbbncnvi8p-90jI0OqUVA)
 
 
 
