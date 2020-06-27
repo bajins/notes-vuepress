@@ -139,8 +139,12 @@
 
 
 * [https://github.com/xdown-org](https://github.com/xdown-org) [https://xdown.org](https://xdown.org)
-* [http://www.neatdownloadmanager.com](http://www.neatdownloadmanager.com)
 * [https://github.com/subhra74/xdm](https://github.com/subhra74/xdm)
+* [http://www.neatdownloadmanager.com](http://www.neatdownloadmanager.com)
+* Internet Download Manager [http://www.internetdownloadmanager.com](http://www.internetdownloadmanager.com)
+    * [https://eyun.baidu.com/s/3miwISp6](https://eyun.baidu.com/s/3miwISp6)密码：3131
+    * [https://www.lanzous.com/b134572](https://www.lanzous.com/b134572)
+    * [https://www.lanzous.com/b0i6zkze](https://www.lanzous.com/b0i6zkze)
 * [猎鹰下载器 EagleGet](http://www.eagleget.com/cn/)
 * [Free Download Manager](http://www.freedownloadmanager.org/download.htm)
 * [https://github.com/hugetiny/negibox](https://github.com/hugetiny/negibox)
@@ -153,13 +157,6 @@
 * [网赚网盘下载辅助工具](http://www.oceancoder.cn/post/net-disk-download-helper.html)
 * 迅雷、快车、旋风下载链接转换脚本 [https://github.com/chinsyo/delink](https://github.com/chinsyo/delink)
 
-
-**Internet Download Manager**
-
-0. [https://eyun.baidu.com/s/3miwISp6](https://eyun.baidu.com/s/3miwISp6)密码：3131
-1. [https://www.lanzous.com/b134572](https://www.lanzous.com/b134572)
-2. [https://yunpan.360.cn/surl_ymsGF6zWGcP](https://yunpan.360.cn/surl_ymsGF6zWGcP)（提取码：805b）
-3. [https://www.lanzous.com/b0i6zkze](https://www.lanzous.com/b0i6zkze)
 
 
 
@@ -333,9 +330,7 @@
 
 * [由微博大神@vposy制作Adobe全系列](https://weibo.com/vposy?is_hot=1)
 * [Adobe软件单独下载方法-官方](https://sleele.com/2019/05/05/adobe/)
-0. [https://eyun.baidu.com/s/3mizNp4O](https://eyun.baidu.com/s/3mizNp4O)密码：3131
-1. [https://yunpan.360.cn/surl_ydDgKwXKPSf](https://yunpan.360.cn/surl_ydDgKwXKPSf)（提取码：0be6）
-2. [https://cloud.189.cn/t/UneM3imEJj2u](https://cloud.189.cn/t/UneM3imEJj2u)（访问码：0224）
+* [https://eyun.baidu.com/s/3mizNp4O](https://eyun.baidu.com/s/3mizNp4O)密码：3131
 
 
 
@@ -388,8 +383,6 @@
 * [https://www.ntwind.com/software/winsnap.html](https://www.ntwind.com/software/winsnap.html)
 * [https://eyun.baidu.com/s/3geM3SFD](https://eyun.baidu.com/s/3geM3SFD) 密码：3131
 * [https://www.lanzous.com/b189177/](https://www.lanzous.com/b189177/)
-* [https://yunpan.360.cn/surl_ym47hHpHxAu](https://yunpan.360.cn/surl_ym47hHpHxAu) （提取码：a265）
-* [https://cloud.189.cn/t/VVny2mj67ryy](https://cloud.189.cn/t/VVny2mj67ryy)（访问码：2972）
 * [https://pan.baidu.com/s/1qWIF7lE](https://pan.baidu.com/s/1qWIF7lE)
 
 
@@ -668,7 +661,6 @@ End Sub
 
 0. [https://eyun.baidu.com/s/3eTL5mMY](https://eyun.baidu.com/s/3eTL5mMY)密码：3131
 1. [https://www.lanzous.com/b279570](https://www.lanzous.com/b279570)
-2. [https://yunpan.360.cn/surl_ymKSxmH5PbY](https://yunpan.360.cn/surl_ymKSxmH5PbY)（提取码：298e）
 
 
 ### 清理工具
@@ -861,7 +853,6 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 **福昕PDF阅读器**
 
 0. [https://eyun.baidu.com/s/3bozPGmV](https://eyun.baidu.com/s/3bozPGmV)密码：3131
-1. [https://yunpan.360.cn/surl_ydQx6xDvQyG](https://yunpan.360.cn/surl_ydQx6xDvQyG)提取码：39db
 
 
 **微软常用运行库**
