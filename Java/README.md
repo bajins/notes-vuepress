@@ -22,9 +22,9 @@
 
 + [https://github.com/javaee](https://github.com/javaee)
 + [https://github.com/eclipse-ee4j](https://github.com/eclipse-ee4j)
-[https://projects.eclipse.org/jakartaee/releases/8](https://projects.eclipse.org/jakartaee/releases/8)
+    + [https://projects.eclipse.org/jakartaee/releases/8](https://projects.eclipse.org/jakartaee/releases/8)
 + [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
-[下载地址镜像](/Other/README.md#通用镜像)
+    + [下载地址镜像](/Other/README.md#通用镜像)
 
 - [fastjson这么快老外为啥还是热衷 jackson?](https://www.zhihu.com/question/44199956)
 - [JAX-WS与JAX-RS区别是什么？](https://blog.csdn.net/dogiant/article/details/54907506)
@@ -65,6 +65,7 @@
 * [https://github.com/nibnait/algorithms](https://github.com/nibnait/algorithms)
 * [https://github.com/Childe-Mu/java_notes](https://github.com/Childe-Mu/java_notes)
 * [https://github.com/Childe-Mu/bio-nio-aio-netty-notes](https://github.com/Childe-Mu/bio-nio-aio-netty-notes)
+* [https://github.com/whx123/JavaHome](https://github.com/whx123/JavaHome)
 
 + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
 
