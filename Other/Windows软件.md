@@ -450,6 +450,9 @@
 - [https://office.live.com/start/onedrive.aspx](https://office.live.com/start/onedrive.aspx)
 - [https://www.microsoft.com/zh-cn/microsoft-365/onedrive/download](https://www.microsoft.com/zh-cn/microsoft-365/onedrive/download)
 
++ Office 卸载支持工具 [https://outlookdiagnostics.azureedge.net/sarasetup/SetupProd_OffScrub.exe](https://outlookdiagnostics.azureedge.net/sarasetup/SetupProd_OffScrub.exe)
+
+
 
 ### wps
 
