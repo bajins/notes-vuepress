@@ -825,6 +825,7 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
     - 系统托盘新邮件通知 [https://github.com/gyunaev/birdtray](https://github.com/gyunaev/birdtray)
 * [https://www.foxmail.com](https://www.foxmail.com)
 * Outlook
+    * 邮箱配置：`控制面板` --> 搜索`邮件`(或者`mail`)
 * Windows 10 自带邮箱
 
 
