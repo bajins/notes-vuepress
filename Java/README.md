@@ -10,19 +10,18 @@
 - [Java版本比较](https://mp.weixin.qq.com/s/NEfqPXrcq6O1p7RLf9LWCw)
 
 + [https://docs.oracle.com](https://docs.oracle.com)
-+ [https://docs.oracle.com/javase/8/docs](https://docs.oracle.com/javase/8/docs)
-+ [https://docs.oracle.com/javase/7/docs](https://docs.oracle.com/javase/7/docs)
-
-- [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
-- [https://www.oracle.com/java/technologies/java-ee-glance.html](https://www.oracle.com/java/technologies/java-ee-glance.html)
+    + [https://docs.oracle.com/javase/8/docs](https://docs.oracle.com/javase/8/docs)
+    + [https://docs.oracle.com/javase/7/docs](https://docs.oracle.com/javase/7/docs)
 
 * [https://www.oracle.com/cn/downloads](https://www.oracle.com/cn/downloads)
-* [http://hg.openjdk.java.net](http://hg.openjdk.java.net)
-* [https://github.com/unofficial-openjdk/openjdk](https://github.com/unofficial-openjdk/openjdk)
+    * [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
+    * [https://www.oracle.com/java/technologies/java-ee-glance.html](https://www.oracle.com/java/technologies/java-ee-glance.html)
+
 
 + [https://github.com/javaee](https://github.com/javaee)
 + [https://github.com/eclipse-ee4j](https://github.com/eclipse-ee4j)
     + [https://projects.eclipse.org/jakartaee/releases/8](https://projects.eclipse.org/jakartaee/releases/8)
++ [https://github.com/jersey](https://github.com/jersey)
 + [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
     + [下载地址镜像](/Other/README.md#通用镜像)
 
@@ -39,7 +38,7 @@
 + JMH（Java Microbenchmark Harness）是专门用于代码微基准测试的工具套件
 
 
-**学习**
+## 学习
 
 - [技术集合归档](https://blog.52itstyle.vip/architecture.html)
 
@@ -89,23 +88,6 @@
 - `google-http-java-client` [https://github.com/googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client)
 
 * [HTTP客户端连接，选择HttpClient还是OkHttp？](https://juejin.im/post/5e156c80f265da5d3c6de72a)
-
-
-
-
-## OpenJDK
-
-* [Oracle JDK8](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
-* [https://github.com/openjdk](https://github.com/openjdk)
-* [https://github.com/AdoptOpenJDK](https://github.com/AdoptOpenJDK)
-* [https://github.com/corretto](https://github.com/corretto)
-    * [https://aws.amazon.com/cn/corretto](https://aws.amazon.com/cn/corretto)
-* [https://github.com/zulu-openjdk](https://github.com/zulu-openjdk)
-    * [https://cn.azul.com/downloads/zulu](https://cn.azul.com/downloads/zulu)
-    * [https://cdn.azul.com/zulu/bin](https://cdn.azul.com/zulu/bin)
-* [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)
-* [https://github.com/SAP/SapMachine](https://github.com/SAP/SapMachine)
-* [https://github.com/alibaba/dragonwell8](https://github.com/alibaba/dragonwell8)
 
 
 

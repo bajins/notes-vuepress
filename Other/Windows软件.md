@@ -390,10 +390,11 @@
 
 ## 文件压缩
 
-* [https://github.com/giorgiotani/PeaZip](https://github.com/giorgiotani/PeaZip)
-    * [https://sourceforge.net/projects/peazip](https://sourceforge.net/projects/peazip)
 * [https://sourceforge.net/projects/sevenzip](https://sourceforge.net/projects/sevenzip)
     * [https://www.7-zip.org/download.html](https://www.7-zip.org/download.html)
+    * 打开7zip ——> 点击菜单栏上的`工具` ——> `选项` ——> 点击两个`+`号关联所有默认解压方式到当前账户和所有账户
+* [https://github.com/giorgiotani/PeaZip](https://github.com/giorgiotani/PeaZip)
+    * [https://sourceforge.net/projects/peazip](https://sourceforge.net/projects/peazip)
 * [https://github.com/nmoinvaz/minizip](https://github.com/nmoinvaz/minizip)
 
 
@@ -666,7 +667,7 @@ End Sub
 ### 清理工具
 
 * [Win10Clean](https://github.com/ElPumpo/Win10Clean)
-* [Dism++](https://www.chuyu.me/zh-Hans/index.html)
+* Dism++ [https://github.com/Chuyu-Team](https://github.com/Chuyu-Team)
 * 卸载Windows10自带应用 [10AppsManager](https://www.thewindowsclub.com/10appsmanager-windows-10)
 * [W10Privacy](https://www.winprivacy.de/deutsch-start/download)
 * [PCHunter](http://www.xuetr.com)
