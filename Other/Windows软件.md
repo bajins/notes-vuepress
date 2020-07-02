@@ -109,6 +109,7 @@
 + [手机软件下载-智友邦原智友论坛](http://bbs.zhiyoo.net/forum.php?mod=forumdisplay&fid=42&filter=lastpost&orderby=lastpost)
 + 各大网站的脚本 [https://github.com/Orange-shirt/OrangeJs](https://github.com/Orange-shirt/OrangeJs)
 + [酷我音乐精品破解版本集合地](https://www.lanzoux.com/b05aammje)
+    + [酷我音乐_for_Android](https://www.lanzoux.com/b0f1956fc)
 + [https://github.com/butzist/ActivityLauncher](https://github.com/butzist/ActivityLauncher)
 
 
@@ -681,6 +682,11 @@ End Sub
 
 * [https://www.crystalidea.com/uninstall-tool](https://www.crystalidea.com/uninstall-tool)
 * [UninstallTool／Geek／IObitUninstaller／RevoUninstalle](https://lanzous.com/b0f19v03a)
+* [RegWorkshop／RegCool](https://www.lanzoux.com/b0f1jf9mh)
+* [https://kurtzimmermann.com](https://kurtzimmermann.com)
+* Registry Finder
+* [http://www.hibitsoft.ir](http://www.hibitsoft.ir)
+
 
 
 ## 剪贴板
