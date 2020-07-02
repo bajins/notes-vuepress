@@ -823,7 +823,7 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 
 ## 邮箱客户端
 
-* [https://www.thunderbird.net](https://www.thunderbird.net)
+* Mozilla Thunderbird [https://www.thunderbird.net](https://www.thunderbird.net)
     - 点击<kbd>附加组件</kbd>搜索扩展`minimize`添加`Minimize on Close`、`Keep in Taskbar`
     - 托盘图标 [https://github.com/sagamusix/TBTray](https://github.com/sagamusix/TBTray)
     - 系统托盘新邮件通知 [https://github.com/gyunaev/birdtray](https://github.com/gyunaev/birdtray)
@@ -831,6 +831,7 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 * Outlook
     * 邮箱配置：`控制面板` --> 搜索`邮件`(或者`mail`)
 * Windows 10 自带邮箱
+* The Bat [https://www.ritlabs.com](https://www.ritlabs.com)
 
 
 ## other

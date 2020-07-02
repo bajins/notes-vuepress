@@ -11,6 +11,11 @@
 * [单行注释自动靠左](https://blog.csdn.net/mp9105/article/details/93343403)
 
 
+**项目显示结构**
+
+- `Windows` -> `Show View` -> `Other` -> 搜索 `Package Exploer`
+
+
 
 ## 版本对应关系
 
@@ -36,30 +41,36 @@
 | Photon   	| 4.8      	| 2018年6月27日    	| 2018年9月     	| 2018年12月     	| 2019年3月     	| JDK1.8      	|
 
 
+## 安装Java EE开发插件
+
+> 默认没有 `Dynamic Web Project`
+
+- `Help` -> `Install New Software` -> `Work with` 选择 `All available Sites` -> 
+勾选 `Web,XML,Java EE and OSGi Enterprise Development` -> `Next` -> `I accept the terms of the licence agreement`
 
 
 
 ## 显示内存
 
-> 在eclipse中打开heap状态`windows->perference->general->右边show heap status打上勾->OK `，这时会在Eclipse最下面显示一个内存显示了
+> 在eclipse中打开heap状态 `Windows` -> `Preference` -> `General` –> 勾选`show heap status`
+
 
 ## 解决卡死现象
 
 > Eclipse中jsp、js文件编辑时，卡死现象解决
 
-- 1、取消验证
+- 取消验证 `Windows` -> `Preference` –> `validation` -> 点击`Disable All`然后勾选`classpath dependency Validator`
+    - `Allow projects to override these preference settings` 允许项目覆盖这些首选项设置
+- 关闭拼写检查 `Windows` -> `Preference` -> `General` –> `editors` -> `Text Editors` -> `spelling`
+- `Windows` -> `Preference` -> `General` -> `Workspace` -> 取消勾选`Build automatically`
+- 选中项目点击右键 -> `Properties` -> `Builders` 在右边取消勾选除`Java Builder`以外的其他选项
 
-> `windows`–>`perferences`–>`validation`
->
-> 把除了`manual`下面的全部点掉，`build`下只留`classpath dependency Validator`
- 
-- 2、关闭拼写检查
 
-> `windows`–>`perferences`–>`general`–>`editors`->`Text Editors`->`spelling`
 
-## 调整Eclipse运行内存
 
-> 在eclipse的安装目录下编辑`eclipse.ini`文件
+## 调整运行内存
+
+- 在eclipse的安装目录下编辑`eclipse.ini`文件
  
 [JVM参数设置](/Java/Tomcat.md#四)
 
@@ -81,29 +92,29 @@
 
 #### 设置JDK参数
 
-![](/images/Eclipse中JDK的JVM参数设置.png)
+- `Windows` -> `Preference` -> `Java` –> `Installed JREs` -> 选中使用的JDK -> `Edit` -> `Default VM arguments`
 
 #### 设置Tomcat参数
 
-![](/images/Eclipse中Tomcat的JVM参数设置.png)
+- `Run` -> `Run Configurations` -> 选中已添加的Tomcat -> `Arguments` -> 在`VM arguments`中换行添加
 
 
 
-## Eclipse自动导包设置
+## 自动导包
 
-> 在Eclispe中，打开`Window`->`Preferences`->`Java`->`Editor`->`Save Actions`然后选中`Organize impots`
+- `Window` -> `Preferences` -> `Java` -> `Editor` -> `Save Actions` -> 勾选 `Preform the selected actions on save`
+    - `Format edited lines` 自动格式化修改的行
+    - `Organize impots` 自动优化管理导入的包
 
-![](/images/Eclipse保存自动优化设置.png)
 
 
 
-## Eclipse注释模板设置
+## 注释模板
 
-> 编辑注释模板的方法：`Window`->`Preference`->`Java`->`Code Style`->`Code Template`然后展开`Comments`节点就是所有需设置注释的元素
+- `Window` -> `Preference` -> `Java` -> `Code Style` -> `Code Template` -> 展开`Comments` -> 
+点击需要设置的类型 -> `Pattern`填入注释模板 -> 勾选 `Automatically add comments for new methods and types`
 
 - 注释的使用：输入`/**`然后回车自动出来
-
-![](/images/Eclipse自动添加注释.png)
 
 - 创建新文件(New Java files)注释标签
 
@@ -205,7 +216,7 @@ ${type_declaration}
  */
 ```
 
-## Eclipse代码格式化设置
+## 代码格式化
 
 ```java
 1.Window->Preferences
@@ -233,51 +244,41 @@ ${type_declaration}
 ```
 
 
-## Eclipse设置不格式化注释
+## 设置不格式化注释
 
 > Eclipse默认自带的风格模板不能直接操作，需要先创建一个新的风格模板才能操作
 
-![](/images/Eclipse不格式化注释.png)
+- `Windows` -> `Preference` -> `Java` –> `Code Style` -> `Formatter` -> `Edit` -> `Comments`
+    - `Enable Javadoc comment formatting` 启用Javadoc注释格式
+    - `Enable block comment formatting` 启用块注释格式
+    - `Format line comments on first column` 格式化第一列上的行注释
+
+
 
 ## 设置编码格式
 
-- 设置工作空间编码格式
+- 设置工作空间编码 `Window` -> `Preferences` -> `General` -> `Workspace` -> `Text file encoding` -> `Other`选择`UTF-8`
 
-> 在`Window`->`Preferences`->`General`->`Workspace下`，面板`Text file encoding`选择`UTF-8`
+- 设置文档编码 `Window` -> `Preferences` -> `General` -> `Content Type` -> `Text` -> `Default encoding`填入`UTF-8`
 
->![](/images/Eclipse设置工作空间编码.png)
+- 设置Web编码 `Window` -> `Preferences` -> `Web` -> `CSS Files、HTML Files、JSP Files` -> `Encoding`选择`ISO 10646/Unicode(UTF-8)`
 
-- 设置文档编码格式
-
-> 在`Window`->`Preferences`->`General`->`Content Type`->`Text`的最下面设置为编码格式为`UTF-8`
-
-![](/images/Eclipse设置文档编码.png)
-
-- 设置Web编码格式
-
-> 在`Window`->`Preferences`->`Web`->`CSS Files、HTML Files、JSP Files` 面板选择`ISO 10646/Unicode(UTF-8)`
-
-![](/images/Eclipse设置Web文件编码.png)
-
-- 设置项目的文档编码格式
-
-> 选择`项目`->`右键`->`Properties`->`Resource`设置编码为`UTF-8`
+- 设置项目的文档编码：选中项目右键 -> `Properties` -> `Resource` -> `Other`选择`UTF-8`
 
 
-## 设置Tab键为4个空格
 
-![](/images/Eclipse-Insert-spaces-for-tabs.png)
+## 设置Tab为空格
 
-![](/images/Eclipse-Tab-policy.png)
+- `Window` -> `Preferences` -> `General` -> `Editors` -> `Text Editors` -> 勾选 `Insert spaces for tabs`
+
+- `Window` -> `Preference` -> `Java` -> `Code Style` -> `Formatter` -> `Edit` -> `Indentation` -> `Tab policy` 选择 `Spaces only`
 
 
 ## 快捷键设置
 
-> `Window`->`Preference`->`General`->`Keys`
+- `Window` -> `Preference` -> `General` -> `Keys`
 
-- 设置复制一行
-
-> 搜索`Ctrl+Alt+Down`或者`Copy Lines`即可修改
+- 设置复制一行 搜索`Ctrl+Alt+Down`或者`Copy Lines`即可修改
 
 
 
