@@ -11,7 +11,7 @@
 + 扫描任何32位或64位Windows模块（exe，dll，ocx，sys等）的函数：[http://www.dependencywalker.com](http://www.dependencywalker.com)
 + DLL导出查看器：[http://www.nirsoft.net/utils/dll_export_viewer.html](http://www.nirsoft.net/utils/dll_export_viewer.html)
 + RegDllView-查看系统上已注册的dll/ ocx/exe文件，从资源管理器注册dll文件：
-[http://www.nirsoft.net/utils/registered_dll_view.html](http://www.nirsoft.net/utils/registered_dll_view.html)
+    + [http://www.nirsoft.net/utils/registered_dll_view.html](http://www.nirsoft.net/utils/registered_dll_view.html)
 + Windows 10的system32目录中的所有DLL文件信息：[http://windows10dll.nirsoft.net](http://windows10dll.nirsoft.net)
 + [https://github.com/jas502n/IDA_Pro_7.2](https://github.com/jas502n/IDA_Pro_7.2)
 + 下载– NTCore：[https://ntcore.com/?page_id=345](https://ntcore.com/?page_id=345)
@@ -25,7 +25,7 @@
 * [windows bat脚本总结](https://segmentfault.com/a/1190000018614430)
 * [Windows 10/8/7的Rundll32命令列表](https://www.thewindowsclub.com/rundll32-shortcut-commands-windows)
 * [https://gitlab.com/jarv/cmdchallenge](https://gitlab.com/jarv/cmdchallenge)
-[https://cmdchallenge.com](https://cmdchallenge.com)
+    * [https://cmdchallenge.com](https://cmdchallenge.com)
 
 
 + [添加快捷方式](/files/添加快捷方式.bat)
@@ -872,9 +872,11 @@ sc delete 服务名称
 ## 第三方工具
 
 * [wget-网络请求工具](https://eternallybored.org/misc/wget)
-* [curl-网络请求工具](https://curl.haxx.se/dlwiz/?type=bin) [curl-GitHub](https://github.com/curl/curl)
+* [curl-网络请求工具](https://curl.haxx.se/dlwiz/?type=bin)
+    * [curl-GitHub](https://github.com/curl/curl)
 * [jq-解析json工具](https://github.com/stedolan/jq)
-* [Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html) [bcn](http://bcn.bathome.net/s/tool/index.html)
+* [Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html)
+    * [http://bcn.bathome.net/s/tool/index.html](http://bcn.bathome.net/s/tool/index.html)
 * [转换位图图像](https://imagemagick.org/index.php)
 
 

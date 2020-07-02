@@ -32,7 +32,7 @@
 
 + 中文文案排版指北：[https://github.com/sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)
 + 中英混排文档在线排版工具：[https://github.com/CyC2018/Text-Typesetting](https://github.com/CyC2018/Text-Typesetting)
-[https://cyc2018.github.io/Text-Typesetting](https://cyc2018.github.io/Text-Typesetting)
+    + [https://cyc2018.github.io/Text-Typesetting](https://cyc2018.github.io/Text-Typesetting)
 
 
 
@@ -394,14 +394,14 @@ string &operator+(const string& A,const string& B) //cpp
 ### 微信公众号排版
 
 * [https://github.com/aclickall/aclickall.github.io](https://github.com/aclickall/aclickall.github.io)
-[md.aclickall.com](https://md.aclickall.com)
+    * [md.aclickall.com](https://md.aclickall.com)
 * [https://github.com/doocs/md](https://github.com/doocs/md)
-[https://doocs.github.io/md](https://doocs.github.io/md)
+    * [https://doocs.github.io/md](https://doocs.github.io/md)
 * [https://github.com/phodal/mifa](https://github.com/phodal/mifa)
-[http://relatos.top/md](http://relatos.top/md)
-[https://md.phodal.com](https://md.phodal.com)
+    * [http://relatos.top/md](http://relatos.top/md)
+    * [https://md.phodal.com](https://md.phodal.com)
 * [https://github.com/mdnice](https://github.com/mdnice)
-[https://mdnice.com](https://mdnice.com)
+    * [https://mdnice.com](https://mdnice.com)
 * [https://github.com/lyricat/wechat-format](https://github.com/lyricat/wechat-format)
 * [https://github.com/zkqiang/wechat-mdeditor](https://github.com/zkqiang/wechat-mdeditor)
 * [https://github.com/dyc87112/online-markdown](https://github.com/dyc87112/online-markdown)
@@ -435,9 +435,10 @@ string &operator+(const string& A,const string& B) //cpp
 > `TOC` [https://en.wikipedia.org/wiki/Table_of_contents](https://en.wikipedia.org/wiki/Table_of_contents)
 
 
-* [tocdown](https://dohliam.github.io/tocdown) [https://github.com/dohliam/tocdown](https://github.com/dohliam/tocdown)
+* [https://github.com/dohliam/tocdown](https://github.com/dohliam/tocdown)
+    * [https://dohliam.github.io/tocdown](https://dohliam.github.io/tocdown)
 * [markdown-toc-generate](https://magnetikonline.github.io/markdown-toc-generate)
-[源码](https://github.com/magnetikonline/markdown-toc-generate)
+    * [https://github.com/magnetikonline/markdown-toc-generate](https://github.com/magnetikonline/markdown-toc-generate)
 * [tocenize](https://github.com/nochso/tocenize)
 * [doctoc](https://github.com/thlorenz/doctoc)
 * [MDToc](https://github.com/dkyaorui/MDToc)
@@ -448,7 +449,7 @@ string &operator+(const string& A,const string& B) //cpp
 ### 转换器
 
 * [https://github.com/domchristie/turndown](https://github.com/domchristie/turndown)
-[https://domchristie.github.io/turndown](https://domchristie.github.io/turndown)
+    * [https://domchristie.github.io/turndown](https://domchristie.github.io/turndown)
 * [https://github.com/markdown-it/markdown-it](https://github.com/markdown-it/markdown-it)
 * [https://github.com/markedjs/marked](https://github.com/markedjs/marked)
 

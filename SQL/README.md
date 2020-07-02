@@ -101,10 +101,10 @@
 + [https://github.com/huangz1990/redis-3.0-annotated](https://github.com/huangz1990/redis-3.0-annotated)
 
 * [https://github.com/huangz1990/redis](https://github.com/huangz1990/redis)
-[http://redisdoc.com](http://redisdoc.com)
-[http://doc.redisfans.com](http://doc.redisfans.com)
+    * [http://redisdoc.com](http://redisdoc.com)
+    * [http://doc.redisfans.com](http://doc.redisfans.com)
 * [https://github.com/antirez/redis-doc](https://github.com/antirez/redis-doc)
-[http://www.redis.cn/documentation.html](http://www.redis.cn/documentation.html)
+    * [http://www.redis.cn/documentation.html](http://www.redis.cn/documentation.html)
 * [https://github.com/guodongxiaren/redis-wiki](https://github.com/guodongxiaren/redis-wiki)
 * redis常用特性：[https://github.com/LxyTe/redis](https://github.com/LxyTe/redis)
 

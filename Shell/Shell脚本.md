@@ -57,7 +57,8 @@ echo 'password' | passwd -stdin username
 
 > `Expect`是由`Don Libes`基于`Tcl`（`Tool Command Language`）的脚本语言，所以你至少要学习一下`TCL`它的语法。
 
-* [https://www.tcl-lang.org/man](https://www.tcl-lang.org/man) [https://www.tcl.tk/man](https://www.tcl.tk/man)
+* [https://www.tcl-lang.org/man](https://www.tcl-lang.org/man)
+  * [https://www.tcl.tk/man](https://www.tcl.tk/man)
 * [Tcl教程](https://www.yiibai.com/tcl/tcl_special_variables.html)
 * [expect手册](https://linux.die.net/man/1/expect)
 * [shell编程之expect用法](http://blog.leanote.com/post/wkf19911118@gmail.com/shell%E7%BC%96%E7%A8%8B%E4%B9%8Bexpect)

@@ -492,14 +492,16 @@ git config --global --unset http.proxy
 
 **Gogs**
 
-* [https://github.com/gogs/gogs](https://github.com/gogs/gogs) [Gogs官方文档](https://gogs.io)
+* [https://github.com/gogs/gogs](https://github.com/gogs/gogs)
+  * [Gogs官方文档](https://gogs.io)
 * [Gogs-DockerHub](https://hub.docker.com/r/gogs/gogs)
 * [安装教程](https://www.jianshu.com/p/86c385682ac8)
 
 
 **Gitea**
 
-* [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea) [Gitea官方文档](https://gitea.io/zh-cn)
+* [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea)
+  * [Gitea官方文档](https://gitea.io/zh-cn)
 * [Gitea-DockerHub](https://hub.docker.com/r/gitea/gitea)
 
 

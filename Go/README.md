@@ -11,8 +11,8 @@
 + [https://github.com/golang](https://github.com/golang)
 + [https://go.dev](https://go.dev)
 + [https://golang.google.cn/dl](https://golang.google.cn/dl)
-[https://gomirrors.org](https://gomirrors.org)
-[https://www.godoc.org](https://www.godoc.org)
+    + [https://gomirrors.org](https://gomirrors.org)
+    + [https://www.godoc.org](https://www.godoc.org)
 
 
 * [Go 语言文档中文翻译](https://github.com/Go-zh/go)
@@ -86,7 +86,8 @@
 * [https://github.com/robfig/cron](https://github.com/robfig/cron)
 * [https://github.com/jasonlvhit/gocron](https://github.com/jasonlvhit/gocron)
 * [https://github.com/ouqiang/delay-queue](https://github.com/ouqiang/delay-queue)
-* [https://github.com/grpc](https://github.com/grpc) [gRPC 官方文档中文版](http://doc.oschina.net/grpc?t=56831)
+* [https://github.com/grpc](https://github.com/grpc)
+    * [gRPC 官方文档中文版](http://doc.oschina.net/grpc?t=56831)
 * [https://github.com/go-xorm](https://github.com/go-xorm)
 * [https://github.com/libragen/felix](https://github.com/libragen/felix)
 * [https://github.com/spf13/viper](https://github.com/spf13/viper)
@@ -154,7 +155,7 @@ go env -w GOSUMDB=off
 * [https://goproxy.cn](https://goproxy.cn)
 * [https://goproxy.io](https://goproxy.io)
 * [https://github.com/gomods/athens](https://github.com/gomods/athens)
-[https://athens.azurefd.net](https://athens.azurefd.net)
+    * [https://athens.azurefd.net](https://athens.azurefd.net)
 
 * [https://gocenter.io](https://gocenter.io)
 

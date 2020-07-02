@@ -849,9 +849,8 @@ if sys.platform.startswith('win'):
 
 ### `py2exe`
 
-[http://www.py2exe.org/](http://www.py2exe.org)
-
-[https://hoxis.github.io/python-py2exe.html](https://hoxis.github.io/python-py2exe.html)
+* [http://www.py2exe.org/](http://www.py2exe.org)
+* [https://hoxis.github.io/python-py2exe.html](https://hoxis.github.io/python-py2exe.html)
 
 > `py2exe`是一个将`python`脚本转换成`Windows`上的可独立执行的可执行程序（`*.exe`）的工具，
 > 这样就可以不用装`python`而在`Windows`系统上运行这个可执行程序

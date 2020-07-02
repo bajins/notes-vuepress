@@ -78,7 +78,7 @@ chrome://flags/#enable-parallel-downloading
 * [https://chrome.google.com/webstore/search/谷歌访问?_category=extensions](https://chrome.google.com/webstore/search/%E8%B0%B7%E6%AD%8C%E8%AE%BF%E9%97%AE?_category=extensions)
 * [http://www.iwikipage.com](http://www.iwikipage.com)
 * [https://github.com/joue-quroi/cookie-editor](https://github.com/joue-quroi/cookie-editor)
-[https://add0n.com/cookie-editor.html](https://add0n.com/cookie-editor.html)
+    * [https://add0n.com/cookie-editor.html](https://add0n.com/cookie-editor.html)
 
 - [将完整的网页保存到单个HTML文件](https://github.com/gildas-lormeau/SingleFile)
 - [https://github.com/vsDizzy/SaveAsMHT](https://github.com/vsDizzy/SaveAsMHT)

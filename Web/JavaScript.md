@@ -56,10 +56,10 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 ## 第三方依赖库
 
 * [JavaScript 日期处理类库](https://github.com/moment/moment)
-[http://momentjs.cn](http://momentjs.cn)
-
+    * [http://momentjs.cn](http://momentjs.cn)
 * [https://github.com/matthewhudson/current-device](https://github.com/matthewhudson/current-device)
-* [Babel 是一个JavaScript转换编译器](https://babeljs.io) [https://www.babeljs.cn](https://www.babeljs.cn)
+* [Babel 是一个JavaScript转换编译器](https://babeljs.io)
+    * [https://www.babeljs.cn](https://www.babeljs.cn)
 * [压缩或编码解码库](https://github.com/photopea)
 * [压缩](https://github.com/nodeca/pako)
 * [现代化的拷贝文字](http://www.clipboardjs.cn)
@@ -67,7 +67,7 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * [使浏览器支持require](https://github.com/browserify)
 * [https://github.com/pixijs/pixi.js](https://github.com/pixijs/pixi.js)
 * [https://github.com/zenorocha/clipboard.js](https://github.com/zenorocha/clipboard.js)
-[http://www.clipboardjs.cn](http://www.clipboardjs.cn)
+    * [http://www.clipboardjs.cn](http://www.clipboardjs.cn)
 
 
 

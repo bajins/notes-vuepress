@@ -16,7 +16,7 @@
 * [https://github.com/mathjax](https://github.com/mathjax)
 
 - [https://github.com/material-components](https://github.com/material-components)
-[https://md.maxoxo.design](https://md.maxoxo.design)
+  - [https://md.maxoxo.design](https://md.maxoxo.design)
 
 
 * 前端面试：[https://github.com/haizlin/fe-interview](https://github.com/haizlin/fe-interview)
@@ -57,7 +57,8 @@
 
 * [jquery](https://jquery.com)
 * [添加XHR2 responseType支持的jQuery插件](https://github.com/acigna/jquery-ajax-native)
-* [bootstrap](https://github.com/twbs/bootstrap) [https://www.bootcss.com](https://www.bootcss.com)
+* [bootstrap](https://github.com/twbs/bootstrap)
+  * [https://www.bootcss.com](https://www.bootcss.com)
 * [neditor 基于ueditor的更现代化的富文本编辑器，支持HTTPS](https://github.com/notadd/neditor)
 * [WebUploader是一个简单的以HTML5为主，FLASH为辅的现代文件上传组件](https://github.com/fex-team/webuploader)
 * [f2ex.cn 各种前端资源](http://f2ex.cn)
@@ -71,7 +72,7 @@
 + [https://github.com/topics/blog-engine](https://github.com/topics/blog-engine)
 + [https://github.com/topics/static-blog](https://github.com/topics/static-blog)
 + [不蒜子文章统计](http://busuanzi.ibruce.info)
-[https://www.npmjs.com/search?q=keywords:busuanzi](https://www.npmjs.com/search?q=keywords:busuanzi)
+  + [https://www.npmjs.com/search?q=keywords:busuanzi](https://www.npmjs.com/search?q=keywords:busuanzi)
 
 
 * [静态编译VuePress](https://github.com/vuejs/vuepress)

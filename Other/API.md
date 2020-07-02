@@ -246,9 +246,7 @@
 
 > https://initiate.alphacoders.com/download/wallpaper/图片编号/images2/jpg
 
-- 例子
-
-[https://initiate.alphacoders.com/download/wallpaper/947194/images2/jpg](https://initiate.alphacoders.com/download/wallpaper/947194/images2/jpg)
+- 例子 [https://initiate.alphacoders.com/download/wallpaper/947194/images2/jpg](https://initiate.alphacoders.com/download/wallpaper/947194/images2/jpg)
 
 
 

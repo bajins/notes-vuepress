@@ -337,11 +337,9 @@ String format = dFormat.format(money);
 
 > `java.math.RoundingMode`是一个舍入枚举类
 
-[https://blog.csdn.net/alanzyy/article/details/8465098](https://blog.csdn.net/alanzyy/article/details/8465098)
-
-[https://my.oschina.net/sunchp/blog/670909](https://my.oschina.net/sunchp/blog/670909)
-
-[https://blog.csdn.net/chendaoqiu/article/details/45841283](https://blog.csdn.net/chendaoqiu/article/details/45841283)
+* [https://blog.csdn.net/alanzyy/article/details/8465098](https://blog.csdn.net/alanzyy/article/details/8465098)
+* [https://my.oschina.net/sunchp/blog/670909](https://my.oschina.net/sunchp/blog/670909)
+* [https://blog.csdn.net/chendaoqiu/article/details/45841283](https://blog.csdn.net/chendaoqiu/article/details/45841283)
 
 ### 几个参数详解
 

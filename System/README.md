@@ -159,7 +159,7 @@
 > 提示“mtr: unable to get raw sockets”
 
 * [tcpping- 禁止了ICMP协议（ping命令）也能用](http://www.vdberg.org/~richard/tcpping.html)
-[https://github.com/deajan/tcpping](https://github.com/deajan/tcpping)
+    * [https://github.com/deajan/tcpping](https://github.com/deajan/tcpping)
 
 > `tcpping`脚本依赖`tcptraceroute` 组件，所以必须先安装`yum install tcptraceroute`
 
@@ -350,12 +350,12 @@ Swap:            0B          0B          0B
 * [https://github.com/ssrsub/ssr/tree/master](https://github.com/ssrsub/ssr/tree/master)
 * [https://github.com/t9080](https://github.com/t9080)
 * [https://www.ssrtool.com](https://www.ssrtool.com)
-[https://usky.ml/tool/free_ssr](https://usky.ml/tool/free_ssr)
+    * [https://usky.ml/tool/free_ssr](https://usky.ml/tool/free_ssr)
 * [https://github.com/selierlin/Share-SSR-V2ray](https://github.com/selierlin/Share-SSR-V2ray)
 * [https://github.com/ThinkDevelop/Free-SS-SSR](https://github.com/ThinkDevelop/Free-SS-SSR)
 * [https://github.com/ntkernel/lantern](https://github.com/ntkernel/lantern)
 * [https://github.com/ugvf2009/Miles](https://github.com/ugvf2009/Miles)
-[https://jiang.netlify.com](https://jiang.netlify.com)
+    * [https://jiang.netlify.com](https://jiang.netlify.com)
 * [https://github.com/EmilyEdna/SS-SSR-V2RAY](https://github.com/EmilyEdna/SS-SSR-V2RAY)
 * [https://github.com/imba-tjd/freess/tree/dev](https://github.com/imba-tjd/freess/tree/dev)
 * [https://github.com/fggfffgbg](https://github.com/fggfffgbg)

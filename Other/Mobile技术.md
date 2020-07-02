@@ -51,16 +51,16 @@
 + [https://github.com/topics/xposed](https://github.com/topics/xposed)
 
 * [https://github.com/rovo89/Xposed](https://github.com/rovo89/Xposed)
-[https://repo.xposed.info](https://repo.xposed.info)
+    * [https://repo.xposed.info](https://repo.xposed.info)
 * [https://github.com/mar-v-in/ArtHook](https://github.com/mar-v-in/ArtHook)
 * [https://github.com/avs333/Nougat_dlfunctions](https://github.com/avs333/Nougat_dlfunctions)
 * [https://github.com/asLody/VirtualApp](https://github.com/asLody/VirtualApp)
 * [https://github.com/tiann/epic](https://github.com/tiann/epic)
-[http://weishu.me/archives](http://weishu.me/archives)
+    * [http://weishu.me/archives](http://weishu.me/archives)
 * [https://github.com/android-hacker/VirtualXposed](https://github.com/android-hacker/VirtualXposed)
 * [https://github.com/taichi-framework/TaiChi](https://github.com/taichi-framework/TaiChi)
-[https://taichi.cool](https://taichi.cool)
-[https://github.com/Magisk-Modules-Repo](https://github.com/Magisk-Modules-Repo)
+    * [https://taichi.cool](https://taichi.cool)
+    * [https://github.com/Magisk-Modules-Repo](https://github.com/Magisk-Modules-Repo)
 
 
 

@@ -139,7 +139,8 @@
 + [https://github.com/topics/download-manager](https://github.com/topics/download-manager)
 
 
-* [https://github.com/xdown-org](https://github.com/xdown-org) [https://xdown.org](https://xdown.org)
+* [https://github.com/xdown-org](https://github.com/xdown-org)
+    * [https://xdown.org](https://xdown.org)
 * [https://github.com/subhra74/xdm](https://github.com/subhra74/xdm)
 * [http://www.neatdownloadmanager.com](http://www.neatdownloadmanager.com)
 * Internet Download Manager [http://www.internetdownloadmanager.com](http://www.internetdownloadmanager.com)
@@ -677,9 +678,7 @@ End Sub
 * [W10Privacy](https://www.winprivacy.de/deutsch-start/download)
 * [PCHunter](http://www.xuetr.com)
 * [Windows 10 Manager](https://www.yamicsoft.com/cn)
-
-> `WMXD7-RG8FP-OYKS3-KHTN6`
-
+    * `WMXD7-RG8FP-OYKS3-KHTN6`
 * [https://www.crystalidea.com/uninstall-tool](https://www.crystalidea.com/uninstall-tool)
 * [UninstallTool／Geek／IObitUninstaller／RevoUninstalle](https://lanzous.com/b0f19v03a)
 * [RegWorkshop／RegCool](https://www.lanzoux.com/b0f1jf9mh)

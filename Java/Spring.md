@@ -7,14 +7,14 @@
 ## flag
 
 * [https://github.com/spring-projects](https://github.com/spring-projects)
-[https://spring.io/projects](https://spring.io/projects)
+    * [https://spring.io/projects](https://spring.io/projects)
 * [SpringCloud和Dubbo](https://www.jianshu.com/p/9fa24196d2ad)
 * [https://github.com/huaweicloud](https://github.com/huaweicloud)
 
 
 
 - [https://github.com/wuyouzhuguli/SpringAll](https://github.com/wuyouzhuguli/SpringAll)
-[http://www.spring4all.com](http://www.spring4all.com)
+    - [http://www.spring4all.com](http://www.spring4all.com)
 - [https://github.com/mingyang66/spring-parent](https://github.com/mingyang66/spring-parent)
 - Spring源码阅读 [https://github.com/seaswalker/spring-analysis](https://github.com/seaswalker/spring-analysis)
 
@@ -79,7 +79,7 @@
 
 * [https://github.com/dyc87112/SpringBoot-Learning](https://github.com/dyc87112/SpringBoot-Learning)
 * [https://github.com/macrozheng/mall-learning](https://github.com/macrozheng/mall-learning)
-[https://macrozheng.github.io/mall-learning](https://macrozheng.github.io/mall-learning)
+    * [https://macrozheng.github.io/mall-learning](https://macrozheng.github.io/mall-learning)
 * [https://github.com/vector4wang/spring-boot-quick](https://github.com/vector4wang/spring-boot-quick)
 * [https://github.com/kanyways/learning-spring](https://github.com/kanyways/learning-spring)
 * [https://github.com/gf-huanchupk/SpringBootLearning](https://github.com/gf-huanchupk/SpringBootLearning)
