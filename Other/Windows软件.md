@@ -685,6 +685,8 @@ End Sub
 * [https://kurtzimmermann.com](https://kurtzimmermann.com)
 * Registry Finder
 * [http://www.hibitsoft.ir](http://www.hibitsoft.ir)
+* Windows Install Clean Up  安装后在安装目录找到`msicuu.exe`运行，然后选中程序点击`remove`
+
 
 
 
@@ -729,6 +731,7 @@ End Sub
 > 使用命令有两种方式：第一种：按<kbd>Win</kbd> + <kbd>x</kbd> + <kbd>a</kbd>进入PowerShell（也可在CMD中）输入命令运行；
 > 第二种：按<kbd>Win</kbd> + <kbd>r</kbd>输入命令运行，如`slmgr.vbs /dti`，此方式必须有`.vbs`后缀，（推荐使用第一种方式）
 
+* 小爱激活助手 [https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA](https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA) 提取码: gia8
 
 **Windows命令**
 
@@ -780,9 +783,8 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 
 **Windows Key**
 
-* [https://cherishspring.cn/s/key](https://cherishspring.cn/s/key)
+* [https://cherishspring.cn/archives/active-win10-office.html](https://cherishspring.cn/archives/active-win10-office.html)
 * [https://notys.xyz](https://notys.xyz)
-* [https://cherishspring.cn/pidkey.html](https://cherishspring.cn/pidkey.html)
 * [https://jihuo.ma/tool](https://jihuo.ma/tool)
 * [http://www.aihao.cc](http://www.aihao.cc)
 * [https://jike.info/category/16/账号密钥](https://jike.info/category/16/%E8%B4%A6%E5%8F%B7%E5%AF%86%E9%92%A5)
@@ -847,6 +849,7 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 * [http://wenlei.ys168.com](http://wenlei.ys168.com)
 * [简化快捷键](https://szzhiyang.github.io)
 * [火绒安全](https://www.huorong.cn)
+* [Windows File Recovery](https://www.microsoft.com/zh-cn/p/windows-file-recovery/9n26s50ln705)
 
 
 **文件搜索**
