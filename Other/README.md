@@ -132,6 +132,22 @@
 
 
 
+## 匿名分享
+
+**图床**
+
+* [http://img.wang](http://img.wang)
+
+
+**文件分享**
+
+* [https://www.file.io](https://www.file.io)
+* [https://uplovd.com](https://uplovd.com)
+* [https://anonfiles.com](https://anonfiles.com)
+
+
+
+
 ## 临时邮箱
 
 

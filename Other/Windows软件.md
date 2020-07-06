@@ -624,6 +624,10 @@ End Sub
 > `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace`
 
 
+* [比较 Windows 10 的不同版本](https://www.microsoft.com/zh-cn/windowsforbusiness/compare)
+* [Windows 10 版本的版本信息](https://docs.microsoft.com/zh-cn/windows/release-information)
+
+
 ### MSDN
 
 * [https://www.microsoft.com/zh-cn/software-download/windows10](https://www.microsoft.com/zh-cn/software-download/windows10)
@@ -732,8 +736,13 @@ End Sub
 > 第二种：按<kbd>Win</kbd> + <kbd>r</kbd>输入命令运行，如`slmgr.vbs /dti`，此方式必须有`.vbs`后缀，（推荐使用第一种方式）
 
 * 小爱激活助手 [https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA](https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA) 提取码: gia8
+* 密钥检测的小工具 [https://github.com/FHWWC/KeyCheck](https://github.com/FHWWC/KeyCheck)
+* https://api.jike.info/ms_pid/密钥
+
 
 **Windows命令**
+
+> 在CMD中输入`slmgr`或`slmgr.exe`即可查看所有命令
 
 - `systeminfo` 系统信息
 - `slui 4` 调出电话激活窗口
@@ -744,6 +753,14 @@ End Sub
 - `slmgr.vbs /atp 确认ID` 输入确认ID（注意这里的ID没有`-`符号）
 - `slmgr.vbs /dlv` 显示详细的许可证信息
 - `slmgr.vbs /xpr` 当前许可证状态的截止日期
+- `slmgr.vbs /dli [激活 ID | All]` 显示许可证信息（默认：当前许可证）
+- `slmgr.vbs /dlv [激活 ID | All]` 显示详细的许可证信息
+- `slmgr.vbs /cpky` 从注册表中清除产品密钥（阻止泄露引起的攻击）
+- `slmgr.vbs /ilc` 许可证文件 安装许可证
+- `slmgr.vbs /rilc` 重新安装系统许可证文件
+- `slmgr.vbs /rearm` 重置计算机的授权状态 （去除水印）
+- `slmgr.vbs /skms` 设置KMS服务器
+- `slmgr.vbs /ckms` 清除KMS服务器名和端口号并设为初始状态
 
 
 **Office命令**
@@ -824,6 +841,34 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 > 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
 
 > 避免在vpn状态下使用本软件。激活前电脑必须联网，而且必须开启`Windows Update`服务，否则无法激活。
+
+
+
+### Win10家庭升专业
+
+> 注意：Windows10家庭版升级Windows10专业版的密钥不是激活密钥
+
+1. 升级：设置 -> 更新和安全 -> 激活 -> 更改产品秘钥，断网后，填入 下方的升级密钥，重启
+
+```
+4N7JM-CV98F-WY9XX-9D8CF-369TT
+FMPND-XFTD4-67FJC-HDR8C-3YH26
+4N894-WMB2D-PRGHC-BVYW8-CPQGT
+VK7JG-NPHTM-C97JM-9MPGT-3V66T
+W269N-WFGWX-YVC9B-4J6C9-T83GX
+MH37W-N47XK-V7XM9-C7227-GCQG9
+NYW94-47Q7H-7X9TT-W7TXD-JTYPM
+NJ4MX-VQQ7Q-FP3DB-VDGHX-7XM87
+```
+
+2. 联网激活：以管理员打开CMD执行以下命令
+
+```batch
+slmgr.vbs /upk
+slmgr /ipk 激活密钥
+slmgr /skms zh.us.to
+slmgr /ato
+```
 
 
 

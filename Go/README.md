@@ -47,6 +47,7 @@
 * [学习Go语言](http://mikespook.com/learning-go)
 * [神奇的 Go 语言](http://go.ctolib.com/docs/read/magical-go-c-index.html)
 * [https://github.com/TiantianUpup/go-study](https://github.com/TiantianUpup/go-study)
+* [Go 语言 Web 应用开发系列教程](https://github.com/unknwon/building-web-applications-in-go)
 
 - [https://github.com/studygolang](https://github.com/studygolang)
 
