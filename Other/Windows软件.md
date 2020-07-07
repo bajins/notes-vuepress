@@ -895,26 +895,9 @@ slmgr /ato
 * [简化快捷键](https://szzhiyang.github.io)
 * [火绒安全](https://www.huorong.cn)
 * [Windows File Recovery](https://www.microsoft.com/zh-cn/p/windows-file-recovery/9n26s50ln705)
-
-
-**文件搜索**
-
-* [https://www.listary.com/pro](https://www.listary.com/pro)
-* [Everything](https://www.voidtools.com)
-
-
-
-**文件对比**
-
-* [https://www.beyondcomparepro.com](https://www.beyondcomparepro.com)
-
-
-
-**福昕PDF阅读器**
-
-0. [https://eyun.baidu.com/s/3bozPGmV](https://eyun.baidu.com/s/3bozPGmV)密码：3131
-
-
-**微软常用运行库**
-
-* [https://www.lanzous.com/b143614](https://www.lanzous.com/b143614)
+* 可视化创建符号链接的小工具 [https://github.com/imDema/FreeMove](https://github.com/imDema/FreeMove)
+* 文件搜索 [https://www.listary.com/pro](https://www.listary.com/pro)
+* 文件搜索 [Everything](https://www.voidtools.com)
+* 文件对比 [https://www.beyondcomparepro.com](https://www.beyondcomparepro.com)
+* 福昕PDF阅读器 [https://eyun.baidu.com/s/3bozPGmV](https://eyun.baidu.com/s/3bozPGmV)密码：3131
+* 微软常用运行库 [https://www.lanzous.com/b143614](https://www.lanzous.com/b143614)

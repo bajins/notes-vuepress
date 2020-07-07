@@ -38,7 +38,7 @@
 
 
 
-**仓库**
+**Docker仓库镜像**
 
 + [从零搭建docker私有仓库](https://www.jianshu.com/p/2d9d4cdd3af7)
 + 查找最快的docker镜像: [https://github.com/silenceshell/docker_mirror](https://github.com/silenceshell/docker_mirror)
@@ -47,6 +47,22 @@
 * [https://hub.docker.com](https://hub.docker.com)
 * [https://hub.qiniu.com/store](https://hub.qiniu.com/store)
 * [https://hub.daocloud.io](https://hub.daocloud.io)
+
+- [https://www.daocloud.io/mirror](https://www.daocloud.io/mirror)
+
+* 阿里云 [https://cr.console.aliyun.com](https://cr.console.aliyun.com)
+    * [https://alzgoonw.mirror.aliyuncs.com](https://alzgoonw.mirror.aliyuncs.com)
+    * [https://jvqgqnis.mirror.aliyuncs.com](https://jvqgqnis.mirror.aliyuncs.com)
+    * [https://3laho3y3.mirror.aliyuncs.com](https://3laho3y3.mirror.aliyuncs.com)
+    * [https://cty6v5sm.mirror.aliyuncs.com](https://cty6v5sm.mirror.aliyuncs.com)
+* ustc中国科技大学 [https://docker.mirrors.ustc.edu.cn](https://docker.mirrors.ustc.edu.cn)
+* 网易 [http://hub-mirror.c.163.com](http://hub-mirror.c.163.com)
+* Docker 官方中国区 [https://registry.docker-cn.com](https://registry.docker-cn.com)
+* Azure 中国镜像 [https://dockerhub.azk8s.cn](https://dockerhub.azk8s.cn)
+* 七牛云加速器 [https://reg-mirror.qiniu.com](https://reg-mirror.qiniu.com)
+* 腾讯云 [https://mirror.ccs.tencentyun.com](https://mirror.ccs.tencentyun.com)
+
+
 
 
 

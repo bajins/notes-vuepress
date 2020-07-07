@@ -99,14 +99,43 @@
 
 * [http://mvnrepository.com](http://mvnrepository.com)
 * [https://www.webjars.org](https://www.webjars.org)
-* [Nexus Repository Manager](https://help.sonatype.com/repomanager3/download)
-* [https://github.com/sonatype](https://github.com/sonatype)
-* [docker 快速搭建maven私服并上传jar包](https://www.cnblogs.com/yscec/p/12898226.html)
-* [Maven部署jar包到远程仓库](https://blog.csdn.net/ThinkWon/article/details/101483769)
 
 + maven-jar-plugin 默认的打包插件，用来打普通的project JAR包；
 + maven-shade-plugin 用来打可执行JAR包，也就是所谓的fat JAR包；
 + maven-assembly-plugin 支持自定义的打包结构，也可以定制依赖项等。
+
+
+**Maven镜像**
+
+* [maven镜像配置文件](/files/settings.xml)
+* [https://maven.aliyun.com/mvn/view](https://maven.aliyun.com/mvn/view)
+
+
+
+**Maven私服搭建**
+
+* [https://github.com/sonatype](https://github.com/sonatype)
+    * [https://help.sonatype.com/repomanager3/download](https://help.sonatype.com/repomanager3/download)
+    * [docker 快速搭建maven私服并上传jar包](https://www.cnblogs.com/yscec/p/12898226.html)
+    * [Maven部署jar包到远程仓库](https://blog.csdn.net/ThinkWon/article/details/101483769)
+    * [在 Docker 搭建 Maven 私有库](https://blog.csdn.net/oschina_40914891/article/details/100187825)
+    * [利用 Docker 搭建 Nexus 仓库私服](https://blog.llxbh.xyz/2020/04/26/%E6%97%A5%E5%BF%97-%E5%88%A9%E7%94%A8_Docker_%E6%90%AD%E5%BB%BA_Nexus_%E4%BB%93%E5%BA%93%E7%A7%81%E6%9C%8D)
+    * [docker 安装 maven 私有库 nexus3](https://www.cnblogs.com/lovling/p/12498612.html)
+* [https://github.com/apache/archiva](https://github.com/apache/archiva)
+    * [http://archiva.apache.org](http://archiva.apache.org)
+    * [Apache Archiva 私服搭建](https://blog.csdn.net/qianhe_/article/details/99131372)
+* [https://github.com/jfrog](https://github.com/jfrog)
+    * Artifactory [https://jfrog.com/open-source](https://jfrog.com/open-source)
+
+- 私有仓库maven-pulic代理的远程仓库：
+    * jboss [http://repository.jboss.com/maven2](http://repository.jboss.com/maven2)
+    * jitpack [https://jitpack.io](https://jitpack.io)
+    * jcenter [http://jcenter.bintray.com](http://jcenter.bintray.com)
+
+
+
+
+**打包编译到Docker部署**
 
 - [https://github.com/spotify/docker-maven-plugin](https://github.com/spotify/docker-maven-plugin)
 - [https://github.com/spotify/dockerfile-maven](https://github.com/spotify/dockerfile-maven)
@@ -121,6 +150,10 @@
 - [https://github.com/hariko1991/docker-demo](https://github.com/hariko1991/docker-demo)
 - [https://github.com/gaochao-ncp/spring-boot-docker-example](https://github.com/gaochao-ncp/spring-boot-docker-example)
 
+
+
+**打包部署到服务器**
+
 + [https://github.com/mojohaus](https://github.com/mojohaus)
 + [https://github.com/mojohaus/wagon-maven-plugin](https://github.com/mojohaus/wagon-maven-plugin)
 + [https://github.com/apache/tomcat-maven-plugin](https://github.com/apache/tomcat-maven-plugin)
@@ -134,12 +167,6 @@
 + [如何利用maven插件部署项目到远程运行环境](https://blog.csdn.net/lushuifa/article/details/106163624)
 + [使用site-maven-plugin在github上搭建公有仓库](http://www.flydean.com/apache-maven-git-repository)
 
-
-
-**maven镜像**
-
-* [maven镜像配置文件](/files/settings.xml)
-* [https://maven.aliyun.com/mvn/view](https://maven.aliyun.com/mvn/view)
 
 
 

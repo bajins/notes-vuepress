@@ -14,6 +14,7 @@
 * [https://github.com/pujiaxin33/JXSegmentedView](https://github.com/pujiaxin33/JXSegmentedView)
 * [https://github.com/jinht/ShopCarAnimation](https://github.com/jinht/ShopCarAnimation)
 
+- IOS第三方依赖管理工具 [https://cocoapods.org](https://cocoapods.org)
 
 ### 框架
 

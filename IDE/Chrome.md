@@ -105,9 +105,10 @@ chrome://flags/#enable-parallel-downloading
 
 ### 翻译
 
-* [Selection-Translator](https://github.com/Selection-Translator)
-* [翻译侠（Translate Man）](https://github.com/magic-FE/translate-man)
-* [EdgeTranslate](https://github.com/EdgeTranslate/EdgeTranslate)
+* [https://github.com/lmk123/crx-selection-translate](https://github.com/lmk123/crx-selection-translate)
+* [https://github.com/Selection-Translator](https://github.com/Selection-Translator)
+* [https://github.com/magic-FE/translate-man](https://github.com/magic-FE/translate-man)
+* [https://github.com/EdgeTranslate/EdgeTranslate](https://github.com/EdgeTranslate/EdgeTranslate)
 
 
 
