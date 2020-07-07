@@ -42,13 +42,12 @@
 + [从零搭建docker私有仓库](https://www.jianshu.com/p/2d9d4cdd3af7)
 
 
-**Docker仓库镜像**
+## 仓库镜像
 
 + 查找最快的docker镜像: [https://github.com/silenceshell/docker_mirror](https://github.com/silenceshell/docker_mirror)
 
 * Docker官方映像 [https://github.com/docker-library](https://github.com/docker-library)
 * [https://hub.docker.com](https://hub.docker.com)
-* [https://hub.qiniu.com/store](https://hub.qiniu.com/store)
 * [https://hub.daocloud.io](https://hub.daocloud.io)
 
 - [https://www.daocloud.io/mirror](https://www.daocloud.io/mirror)
