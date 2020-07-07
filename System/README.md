@@ -45,6 +45,7 @@
 
 + [https://subdomainfinder.c99.nl](https://subdomainfinder.c99.nl) 搜索框输入`workers.dev`点击`Start Scan`，
 再按<kbd>Ctrl</kbd> + <kbd>f</kbd> 输入`github`
++ [用Cloudflare CDN 如何自定义节点（CF自选IP）/撸CloudFlare Pro](https://www.moeelf.com/archives/10.html)
 
 * [https://github.com/cloudflare/wrangler](https://github.com/cloudflare/wrangler)
 * [https://github.com/search?q=Cloudflare+Workers](https://github.com/search?q=Cloudflare+Workers)
