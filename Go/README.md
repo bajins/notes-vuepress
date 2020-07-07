@@ -103,7 +103,7 @@
 
 
 
-## 代理
+## Modules代理
 
 > 查看Go的环境信息`go env`
 
@@ -148,15 +148,18 @@ go env -w GOPRIVATE=*.github.com,*.gitlab.com,*.gitee.com
 go env -w GOSUMDB=off
 ```
 
-* [Go Modules Proxy](https://github.com/golang/go/wiki/Modules#are-there-always-on-module-repositories-and-enterprise-proxies)
++ [Go Modules Proxy](https://github.com/golang/go/wiki/Modules#are-there-always-on-module-repositories-and-enterprise-proxies)
 
 
 * [https://mirrors.aliyun.com/goproxy](https://mirrors.aliyun.com/goproxy)
 * [https://mirrors.cloud.tencent.com/help/go.html](https://mirrors.cloud.tencent.com/help/go.html)
-* [https://goproxy.cn](https://goproxy.cn)
-* [https://goproxy.io](https://goproxy.io)
+* [https://github.com/goproxy](https://github.com/goproxy)
+    * [https://goproxy.cn](https://goproxy.cn)
+* [https://github.com/goproxyio](https://github.com/goproxyio)
+    * [https://goproxy.io](https://goproxy.io)
 * [https://github.com/gomods/athens](https://github.com/gomods/athens)
     * [https://athens.azurefd.net](https://athens.azurefd.net)
+* [https://github.com/jfrog/gocenter](https://github.com/jfrog/gocenter)
+    * [https://gocenter.io](https://gocenter.io)
 
-* [https://gocenter.io](https://gocenter.io)
 

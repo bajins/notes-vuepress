@@ -36,6 +36,11 @@
 - [分布式系统唯一ID生成方案汇总](https://www.cnblogs.com/haoxinyue/p/5208136.html)
 
 + JMH（Java Microbenchmark Harness）是专门用于代码微基准测试的工具套件
++ [什么是JNDI？](https://blog.csdn.net/gybshen/article/details/82717578)
+
+> JNDI是Java Naming and Directory Interface（Java命名与目录接口）其实和Spring依赖注入差不多的效果，
+> 就是我们可以将我们需要的类注册进去，然后一般我们都是使用该类的实例对象，这时候因为刚才我们已经给每个类按照JNDI的规范进行了注入，
+> 这时候我们直接通过JNDI的使用规则取出来我们想要的数据（实例对象）即可。
 
 
 ## 学习
