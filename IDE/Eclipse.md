@@ -49,6 +49,24 @@
 勾选 `Web,XML,Java EE and OSGi Enterprise Development` -> `Next` -> `I accept the terms of the licence agreement`
 
 
+## 字体大小和背景色
+
+- 调节控制台字体大小 Window -> Preferences -> General -> Appearance -> Colors and Fonts -> Basic -> Text Font -> Edit
+- 调节主窗口字体大小 Window -> Preferences -> General -> Appearance -> Colors and Fonts -> Java -> Java Editor Text Font -> Edit
+- 设置眼睛保护色 Window -> Prefences -> General -> Editors -> Text Editors -> Appearance color optins
+
+
+## 自动提示
+
+* [Eclipse 开启代码提示与关闭变量命名补全](https://xienaoban.github.io/posts/32764)
+
+- Window > Preferences > Java > Editor > Content Assist -> Auto Activation 下的 Auto Activation triggers for java 
+填入 `._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`
+- 解决输入`=`或`;`变量自动补全问题 Window -> Preference ->Java -> Editor -> Content Assist -> 
+勾选 Disable insertion triggers except 'Enter' (按<kbd>Enter</kbd>键才自动补全)
+- XML自动补全 Windows -> preferance -> XML -> XML Files -> Editor -> Content Assist -> Auto Activation下面的
+Prompt when these characters are inserted 填入 `<=:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ `（注意后面有一个空格）
+
 
 ## 显示内存
 

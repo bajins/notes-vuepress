@@ -53,6 +53,9 @@ msg %username% /time:60 "WARNING:a backdoor account is created"
 ```
 
 
+- 当前桌面壁纸目录：`%AppData%\Microsoft\Windows\Themes\CachedFiles`
+- 事件日志目录：`%SystemRoot%\System32\Winevt\Logs`
+
 
 
 ## 文件操作
@@ -339,23 +342,21 @@ timeout /T -1 /NOBREAK
 ```batch
 SCHTASKS /? 查看帮助
 :: /sc 指定计划频率：MINUTE、 HOURLY、DAILY、WEEKLY、MONTHLY, ONCE, ONSTART, ONLOGON, ONIDLE, ONEVENT
-SCHTASKS /Create /tn 定时任务名 /tr "运行程序路径" /sc DAILY
+SCHTASKS /Create /tn 定时任务名 /RL Highest /tr "运行程序路径" /sc DAILY
 :: 开机自启动
-SCHTASKS /Create /tn 定时任务名 /tr "运行程序路径" /ru SYSTEM /sc ONSTART
+SCHTASKS /Create /tn 定时任务名 /RL Highest /tr "运行程序路径" /ru SYSTEM /sc ONSTART
 :: 每天 12:30 运行
-schtasks /create /tn 定时任务名 /tr "运行程序路径" /sc DAILY /st 12:30
+schtasks /create /tn 定时任务名 /RL Highest /tr "运行程序路径" /sc DAILY /st 12:30
 :: 一分钟执行一次
-schtasks /create /tn 定时任务名 /tr "运行程序路径" /sc MINUTE /mo 1
+schtasks /create /tn 定时任务名 /RL Highest /tr "运行程序路径" /sc MINUTE /mo 1
 :: 在指定的开始日期和结束日期之间，每天 12:00 点开始到 14:00 点，每隔5分钟运行
-SCHTASKS /Create /TN 定时任务名 /TR "运行程序路径" /SD 开始日期 /ED 结束日期 /ST 12:00 /ET 14:00 /SC MINUTE /MO 5
+SCHTASKS /Create /TN 定时任务名 /RL Highest /TR "运行程序路径" /SD 开始日期 /ED 结束日期 /ST 12:00 /ET 14:00 /SC MINUTE /MO 5
 :: 每天 12:00 点开始到 14:00 点自动结束
-SCHTASKS /Create /TN 定时任务名 /TR "运行程序路径" /ST 12:00 /ET 14:00 /K /SC DAILY
+SCHTASKS /Create /TN 定时任务名 /RL Highest /TR "运行程序路径" /ST 12:00 /ET 14:00 /K /SC DAILY
 :: 将任务附加到事件上：登录成功事件，运行事件查看器
-SCHTASKS /Create /TN EventLog /RL Highest /TR wevtvwr.msc /SC ONEVENT /EC Security /MO "*[System[Provider[@Name='Microsoft-Windows-Security-Auditing'] and EventID=4624]]"
-SCHTASKS /Create /TN EventLog /TR wevtvwr.msc /SC ONEVENT /EC System /MO *[System/EventID=4624]
+SCHTASKS /Create /TN 定时任务名 /RL Highest /TR eventvwr /SC ONEVENT /EC Security /MO "*[System[Provider[@Name='Microsoft-Windows-Security-Auditing'] and EventID=4624]]"
 :: 将任务附加到事件上：系统已从低功耗状态中恢复，运行事件查看器
-SCHTASKS /Create /TN EventLog /RL Highest /TR wevtvwr.msc /SC ONEVENT /EC Security /MO "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]"
-SCHTASKS /Create /TN EventLog /TR wevtvwr.msc /SC ONEVENT /EC System /MO *[System/EventID=1]
+SCHTASKS /Create /TN 定时任务名 /RL Highest /TR eventvwr /SC ONEVENT /EC System /MO "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]"
 
 :: 查询任务
 SCHTASKS /Query /fo LIST /v /TN 任务名称
@@ -370,8 +371,6 @@ SCHTASKS /run /TN 任务名称
 
 - eventvwr 打开事件查看器
 - eventcreate 该命令行工具使管理员能够创建一个自定义事件 ID 和消息于某指定事件日志里。
-- WMIC NTEVENT -NT 事件日志的项目
-- WMIC NTEVENTLOG -NT 时间日志文件管理。
 - wmic ntevent /?
 - wmic nteventlog /?
 - wevtutil.exe qe Application /c:3 /rd:true /f:text
