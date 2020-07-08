@@ -131,8 +131,6 @@ get-appxpackage *xbox* | remove-appxpackage
 
 ## 命令
 
-* [Scheduled Tasks（计划任务）](https://www.holoem.com/?p=1974)
-* [压缩解压文件](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.archive)
 
 - 查看版本
 
@@ -245,6 +243,8 @@ Function Lock-WorkStation {
 
 **解压zip**
 
+* [压缩解压文件](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.archive)
+
 - PowerShell 5.0或更高版本(已预安装Windows 10和Windows Server 2016)
 
 ```powershell
@@ -276,7 +276,79 @@ function UnzipFile([string]$sourceFile, [string]$targetFolder){
 ```
 
 
+### 事件计划任务
 
+* [Scheduled Tasks（计划任务）](https://www.holoem.com/?p=1974)
+
+
+**使用Get-WinEvent**
+
+* [Get-WinEvent](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.diagnostics/get-winevent)
+
+```powershell
+Get-Help Get-WinEvent
+
+Get-WinEvent @{logname='application','system'} -MaxEvents 1
+# 列出所有事件日志
+Get-WinEvent -ListLog *
+# powershell管理员权限下获取安全事件日志
+Get-WinEvent -FilterHashtable @{LogName='Security'}
+# 过滤安全事件ID 4624
+Get-WinEvent -FilterHashtable @{LogName='Security';ID='4624'}
+# 查询今天的应用和系统日志，显示前2条
+Get-WinEvent @{logname='application','system';starttime=[datetime]::today } -MaxEvents 2
+# 根据ID查询事件
+Get-WinEvent -LogName Microsoft-Windows-PowerShell/Operational | Where-Object {$_.ID -eq "4100" -or $_.ID -eq "4104"}
+# 查询指定时间内的事件
+$StartTime=Get-Date  -Year  2020  -Month  3  -Day  1  -Hour  15  -Minute  30
+$EndTime=Get-Date  -Year  2020  -Month  3  -Day  15  -Hour  20  -Minute  00
+Get-WinEvent -FilterHashtable @{LogName='System';StartTime=$StartTime;EndTime=$EndTime}
+```
+
+**使用Get-EventLog**
+
+* [Get-EventLog](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.management/get-eventlog)
+* [PowerShell 监听事件日志](https://www.pstips.net/monitoring-eventlog.html)
+* [Powershell获取睡眠时间](https://www.pstips.net/get-sleep-and-hibernation-times.html)
+
+```powershell
+Get-Help Get-EventLog
+
+Get-EventLog -LogName system -Source user32
+# 按 EventID 将事件进行分组
+Get-EventLog -LogName system -Source user32 | group EventID
+# fl 是 Format-List 的别名
+Get-EventLog -LogName system -Source user32 -Newest 1 | fl *
+Get-EventLog -LogName system -Source user32 | Select TimeGenerated, Message
+Get-EventLog -LogName system -Source user32 | Select TimeGenerated, Message | sort message
+Get-EventLog -LogName system -Source user32 | Select TimeGenerated, Message | sort message | ft -Wrap
+```
+
+**定时任务**
+
+- 查看支持的命令
+
+```powershell
+Get-Command -Module ScheduledTasks
+```
+
+```powershell
+# 此例子为每5分钟一次的定时任务，通过设置$step和$add可以实现延时执行任务。 
+function waitsec{
+    $step=300 #设置间隔
+    $add=0 #设置延时
+    $t=(get-date)
+    $step-(($t.Hour*3600+$t.Minute*60+$t.Second)%$step)+$add
+}
+ 
+write-host "running...... please wait" (waitsec)"S" 
+Start-Sleep -s (waitsec)
+while(1){
+    # 执行代码
+    get-date
+    Start-Sleep -s (waitsec)
+}
+```
 
 
 

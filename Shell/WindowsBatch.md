@@ -45,46 +45,30 @@
 curl "http://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1" | jq-win64.exe ".images[0].url | """https://cn.bing.com""" + .[0:index("""^&""")]" >> bing.txt
 ```
 
+```batch
+:: 解压MSI
+msiexec /a "MSI文件路径" /qn TARGETDIR="解压输出目录绝对路径"
+:: 弹窗
+msg %username% /time:60 "WARNING:a backdoor account is created"
+```
+
+
+
 
 ## 文件操作
 
-### 列出文件
-
-> 类似于linux下的ls
-
 ```batch
+:: 列出文件，类似于linux下的ls
 dir
-```
-
-### 创建目录
-
-```batch
+:: 创建目录
 md 目录名（文件夹）
-```
-
-### 删除目录
-
-```batch
+:: 删除目录
 rd  目录名（文件夹）
-```
-
-### 拷贝文件
-
-```batch
+:: 拷贝文件
 copy 路径\文件名 路径\文件名
-```
-
-### 移动文件
-
-```batch
+:: 移动文件
 move 路径\文件名 路径\文件名
-```
-
-### 删除文件
-
-> 不能删除文件夹
-
-```batch
+:: 删除文件，不能删除文件夹
 del 文件名
 ```
 
@@ -202,22 +186,16 @@ endlocal&exit /b %errorlevel%
 
 
 
-### 解压MSI
-
-```batch
-msiexec /a "MSI文件路径" /qn TARGETDIR="解压输出目录绝对路径"
-```
-
 
 
 ## 环境变量
 
 * [set](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/set_1)
 * [setx](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/setx)
+
 **`SET`与`SETX`的区别**
 
 - `SET` 用于设置临时环境变量和查看环境变量
-
 - `SETX` 用于设置用户环境变量和系统环境变量
 
 > 变量值有空格或`%`等特殊字符时必须用`"`包括起来
@@ -340,7 +318,7 @@ taskkill /f /im 程序名
 ```
 
 
-## 延时定时
+## 延时定时事件任务
 
 ```batch
 :: 延时等待10秒
@@ -352,6 +330,8 @@ timeout /T -1
 :: 持续等待，直到你按下CTRL+C按键
 timeout /T -1 /NOBREAK
 ```
+
+### 任务计划
 
 * [Schtasks命令详解](https://www.cnblogs.com/daimaxuejia/p/12957644.html)
 * [https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/schtasks](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/schtasks)
@@ -370,12 +350,43 @@ schtasks /create /tn 定时任务名 /tr "运行程序路径" /sc MINUTE /mo 1
 SCHTASKS /Create /TN 定时任务名 /TR "运行程序路径" /SD 开始日期 /ED 结束日期 /ST 12:00 /ET 14:00 /SC MINUTE /MO 5
 :: 每天 12:00 点开始到 14:00 点自动结束
 SCHTASKS /Create /TN 定时任务名 /TR "运行程序路径" /ST 12:00 /ET 14:00 /K /SC DAILY
+:: 将任务附加到事件上：登录成功事件，运行事件查看器
+SCHTASKS /Create /TN EventLog /RL Highest /TR wevtvwr.msc /SC ONEVENT /EC Security /MO "*[System[Provider[@Name='Microsoft-Windows-Security-Auditing'] and EventID=4624]]"
+SCHTASKS /Create /TN EventLog /TR wevtvwr.msc /SC ONEVENT /EC System /MO *[System/EventID=4624]
+:: 将任务附加到事件上：系统已从低功耗状态中恢复，运行事件查看器
+SCHTASKS /Create /TN EventLog /RL Highest /TR wevtvwr.msc /SC ONEVENT /EC Security /MO "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]"
+SCHTASKS /Create /TN EventLog /TR wevtvwr.msc /SC ONEVENT /EC System /MO *[System/EventID=1]
+
+:: 查询任务
 SCHTASKS /Query /fo LIST /v /TN 任务名称
 :: 强制删除任务
 SCHTASKS /Delete /F /TN 任务名称
 :: 手动运行任务
 SCHTASKS /run /TN 任务名称
 ```
+
+
+### 事件
+
+- eventvwr 打开事件查看器
+- eventcreate 该命令行工具使管理员能够创建一个自定义事件 ID 和消息于某指定事件日志里。
+- WMIC NTEVENT -NT 事件日志的项目
+- WMIC NTEVENTLOG -NT 时间日志文件管理。
+- wmic ntevent /?
+- wmic nteventlog /?
+- wevtutil.exe qe Application /c:3 /rd:true /f:text
+
+| 事件源               	| 事件ID 	| 说明                                                	|
+|----------------------	|--------	|-----------------------------------------------------	|
+| Power-Troubleshooter 	| 1      	| 系统已从低功耗状态中恢复。                          	|
+| Kernel-Power         	| 42     	| 系统正在进入睡眠状态。                              	|
+| Kernel-Power         	| 105    	| 电源更改。                                          	|
+| Kernel-Power         	| 107    	| 系统已从睡眠状态恢复。（已进入睡眠状态）            	|
+| Kernel-Power         	| 130    	| 系统开机恢复                                        	|
+| Kernel-Power         	| 131    	| 系统开机恢复                                        	|
+| Kernel-General       	| 1      	| 更改系统时间                                        	|
+| Kernel-General       	| 24     	| 已刷新时区信息，退出原因为 0。当前时区偏差为 -480。 	|
+| EventLog             	| 6013   	| 系统启动时间为 178611 秒。                          	|
 
 
 
