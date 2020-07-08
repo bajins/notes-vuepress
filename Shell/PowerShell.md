@@ -134,6 +134,16 @@ get-appxpackage *xbox* | remove-appxpackage
 
 ## 命令
 
+```powershell
+# 查看输出的命令集
+Get-Command -verb out
+
+Export-Csv
+Export-CliXML
+Out-file
+Out-GridView
+ConvertTo-HTML | Out-file
+```
 
 - 查看版本
 

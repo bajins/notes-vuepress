@@ -369,9 +369,12 @@ SCHTASKS /run /TN 任务名称
 
 ### 事件
 
+> 打开eventvwr -> Windows 日志 -> 系统 右键打开菜单 -> 将所有事件另存为(E) -> 选择保存类型
+
 - eventvwr 打开事件查看器
 - eventcreate 该命令行工具使管理员能够创建一个自定义事件 ID 和消息于某指定事件日志里。
 - wmic ntevent /?
+    - 查看所有事件日志 wmic ntevent list full
 - wmic nteventlog /?
 - wevtutil.exe qe Application /c:3 /rd:true /f:text
 
