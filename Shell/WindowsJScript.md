@@ -726,7 +726,7 @@ ts.Write(listcom().join('\r\n'));
 ```
 
 
-### 创建定时任务
+### 创建任务计划
 
 ```javascript
 // 创建TaskService对象，提供对任务计划程序服务的访问权限，以管理已注册的任务
