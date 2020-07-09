@@ -311,6 +311,7 @@
 ## Shell
 
 * [Wscript.Shell 对象详细介绍](https://www.jb51.net/article/5683_all.htm)
+* [WshShell 对象](https://www.jb51.net/shouce/script56/script56_chs/html/wsobjwshshell.htm)
 
 > `Wscript.Shell`对象提供的功能：`New-Object -ComObject "Wscript.Shell" | Get-Member`
 
@@ -323,6 +324,9 @@
 - `RegDelete` 从注册表中删除指定的键或值
 - `SendKeys` 模拟按键
 - `Popup` 显示包含指定消息的消息窗口
+- `ExpandEnvironmentStrings` 返回环境变量的扩展值
+    - `ExpandEnvironmentStrings("%USERNAME%")` 获取用户名
+    - `ExpandEnvironmentStrings("%ComputerName%")` 获取计算机名
 
 | 变量名                     | 说明                                       |
 |-------------------------|------------------------------------------|
@@ -439,6 +443,7 @@
 | WbemScripting.SWbemRefresher  	|            	|
 | WebPlatStorage.WebPlatStorage 	|            	|
 
+* [https://docs.microsoft.com/zh-cn/windows/win32/cimwin32prov/operating-system-classes](https://docs.microsoft.com/zh-cn/windows/win32/cimwin32prov/operating-system-classes)
 
 |           表名                    | 说明         |
 |-----------------------------------|------------|
