@@ -42,7 +42,8 @@
   - 示例:使用`curl`配合`jq`获取必应壁纸下载地址
   
 ```batch
-curl "http://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1" | jq-win64.exe ".images[0].url | """https://cn.bing.com""" + .[0:index("""^&""")]" >> bing.txt
+curl "http://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1" ^
+ | jq-win64.exe ".images[0].url | """https://cn.bing.com""" + .[0:index("""^&""")]" >> bing.txt
 ```
 
 ```batch
@@ -343,6 +344,8 @@ timeout /T -1 /NOBREAK
 + [https://github.com/fireeye/SharPersist](https://github.com/fireeye/SharPersist)
 
 
+> 如果任务计划运行没反应，去掉`/RU SYSTEM`试试
+
 ```batch
 taskschd
 SCHTASKS /? 查看帮助
@@ -356,13 +359,20 @@ schtasks /Create /RU SYSTEM /RL Highest /tn 定时任务名 /tr "运行程序路
 :: 一分钟执行一次
 schtasks /Create /RU SYSTEM /RL Highest /tn 定时任务名 /tr "运行程序路径" /sc MINUTE /mo 1
 :: 在指定的开始日期和结束日期之间，每天 12:00 点开始到 14:00 点，每隔5分钟运行
-SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /TR "运行程序路径" /SD 开始日期 /ED 结束日期 /ST 12:00 /ET 14:00 /SC MINUTE /MO 5
+SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /TR "运行程序路径" /SD 开始日期 /ED 结束日期 ^
+ /ST 12:00 /ET 14:00 /SC MINUTE /MO 5
 :: 每天 12:00 点开始到 14:00 点自动结束
 SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /TR "运行程序路径" /ST 12:00 /ET 14:00 /K /SC DAILY
 :: 将任务附加到事件上：登录成功事件，运行事件查看器
-SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /TR eventvwr /SC ONEVENT /EC Security /MO "*[System[Provider[@Name='Microsoft-Windows-Security-Auditing'] and EventID=4624]]"
+SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /TR eventvwr /SC ONEVENT /EC Security ^
+ /MO "*[System[Provider[@Name='Microsoft-Windows-Security-Auditing'] and EventID=4624]]"
 :: 将任务附加到事件上：系统已从低功耗状态中恢复，运行事件查看器
-SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /TR eventvwr /SC ONEVENT /EC System /MO "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]"
+SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /TR eventvwr /SC ONEVENT /EC System ^
+ /MO "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]"
+:: 将任务附加到事件上：系统已从低功耗状态中恢复，设置必应壁纸
+SCHTASKS /Create /RL Highest /tn SetBingWallpaper ^
+ /TR "wscript 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\设置必应壁纸.vbs'" ^
+  /SC ONEVENT /EC System /MO "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]"
 
 :: 查询任务
 SCHTASKS /Query /fo LIST /v /TN 任务名称
@@ -791,7 +801,8 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 自定义命名 
 - 替换默认记事本
 
 ```batch
-REG ADD "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /t REG_SZ /d "\"记事本程序路径\" -z" /f
+REG ADD "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" ^
+ /v "Debugger" /t REG_SZ /d "\"记事本程序路径\" -z" /f
 ```
 
 
@@ -876,7 +887,8 @@ sc create 服务名称 binPath= 执行程序路径或者命令 start= auto displ
 ```batch
 sc create frp内网穿透 binPath= D:\frp\frps.bat start= auto displayname= "frp内网穿透"
 
-sc create frp内网穿透 binPath= "cmd.exe /c D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini" start= auto displayname= "frp内网穿透"
+sc create frp内网穿透 binPath= "cmd.exe /c D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini" ^
+ start= auto displayname= "frp内网穿透"
 ```
 
 

@@ -19,19 +19,14 @@
 
 - `JScript`、`VBScript`同属于官方支持的`Windows Script`，这俩脚本都需要依赖于特定的宿主(`Host`)才能执行，
 `JavaScript`浏览器环境之外，还可以运行在`Windows Script Host`中。
-
 - `Windows Script Host`是一个`language-independent`的脚本宿主环境，主要用于执行`Windows`管理任务
+- Windows脚本宿主有两个版本：
+    - 一个基于Windows的版本（[WScript.exe](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/wscript)）
+    ，它提供用于设置脚本属性的属性表；运行以`vbs`为后缀的文件
+    - 一个基于命令提示符的版本（[CScript.exe](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/cscript)
+    直接执行可查看帮助），它提供命令行。用于设置脚本属性的开关。
+        - `//E:engine` 使用执行脚本的引擎有：`VBScript`和`JScript`
 
-**脚本宿主**
-
-> Windows脚本宿主有两个版本：一个基于Windows的版本（`Wscript.exe`），它提供用于设置脚本属性的属性表；
-> 一个基于命令提示符的版本（`Cscript.exe`），它提供命令行。用于设置脚本属性的开关。
-
-- [CScript.exe](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/cscript)直接执行可查看帮助
-
-> `//E:engine` 使用执行脚本的引擎有：`VBScript`和`JScript`
-
-- [WScript.exe](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/wscript)
 
 
 ## `WScript`对象
