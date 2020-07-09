@@ -909,6 +909,7 @@ sc delete 服务名称
 * [Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html)
     * [http://bcn.bathome.net/s/tool/index.html](http://bcn.bathome.net/s/tool/index.html)
 * [转换位图图像](https://imagemagick.org/index.php)
+* [https://github.com/ritchielawrence/cmdow](https://github.com/ritchielawrence/cmdow)
 
 
 ## 下载文件

@@ -99,6 +99,12 @@ chrome://flags/#enable-parallel-downloading
 * [屏幕录制GIF和截图工具：capture-to-a-gif](https://chrome.google.com/webstore/detail/capture-to-a-gif/eapecadlmfblmnfnojebefkbginhggeh)
 * [截取整个窗口添加一个macOS-ish标题栏：standardized-screenshot](https://chrome.google.com/webstore/detail/standardized-screenshot/pabdhaakclnechgfhmnhkcbmjobeoope)
 * [截取长图工具（整个网页）：full-page-screen-capture](https://gofullpage.com)
+* [一键视频下载器](https://chrome.google.com/webstore/detail/video-downloader-for-web/pgffceondpnmmmlbpmchkldadpclbcph)
+* [Video Downloader for Web](https://chrome.google.com/webstore/detail/video-downloader-for-web/pgffceondpnmmmlbpmchkldadpclbcph)
+* [终极视频下载器](https://chrome.google.com/webstore/detail/ultimate-video-downloader/ahbcaincngigokdjdlcjnfcdoonccngb)
+* [Video Downloader Plus](https://chrome.google.com/webstore/detail/web-video-downloader/adahebendgkgacfmpnmoddebbnfpfkcd)
+* [Video Downloader Pro](https://chrome.google.com/webstore/detail/video-downloader-pro/ccdikaeknpeokoejlpffihfmpfelakcg)
+* [Video Downloader professional](https://chrome.google.com/webstore/detail/video-downloader-professi/bacakpdjpomjaelpkpkabmedhkoongbi)
 
 
 

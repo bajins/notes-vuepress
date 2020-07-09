@@ -30,6 +30,10 @@
     * [https://cloud.google.com/shell/docs](https://cloud.google.com/shell/docs)
 * [https://github.com/churuxu/xdownload](https://github.com/churuxu/xdownload)
 * [GitHub 下载加速](https://noshore.cn/github.html)
+* [https://github.com/fhefh2015/Fast-GitHub](https://github.com/fhefh2015/Fast-GitHub)
+    * [GitHub加速](https://chrome.google.com/webstore/detail/github%E5%8A%A0%E9%80%9F/mfnkflidjnladnkldfonnaicljppahpg)
+* GitHub代下载服务 [http://g.widyun.com](http://g.widyun.com)
+
 
 
 ## Online IDE
