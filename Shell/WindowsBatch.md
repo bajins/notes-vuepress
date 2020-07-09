@@ -342,21 +342,21 @@ timeout /T -1 /NOBREAK
 ```batch
 SCHTASKS /? 查看帮助
 :: /sc 指定计划频率：MINUTE、 HOURLY、DAILY、WEEKLY、MONTHLY, ONCE, ONSTART, ONLOGON, ONIDLE, ONEVENT
-SCHTASKS /Create /tn 定时任务名 /RL Highest /tr "运行程序路径" /sc DAILY
+SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /tr "运行程序路径" /sc DAILY
 :: 开机自启动
-SCHTASKS /Create /tn 定时任务名 /RL Highest /tr "运行程序路径" /ru SYSTEM /sc ONSTART
+SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /tr "运行程序路径" /sc ONSTART
 :: 每天 12:30 运行
-schtasks /create /tn 定时任务名 /RL Highest /tr "运行程序路径" /sc DAILY /st 12:30
+schtasks /Create /RU SYSTEM /RL Highest /tn 定时任务名 /tr "运行程序路径" /sc DAILY /st 12:30
 :: 一分钟执行一次
-schtasks /create /tn 定时任务名 /RL Highest /tr "运行程序路径" /sc MINUTE /mo 1
+schtasks /Create /RU SYSTEM /RL Highest /tn 定时任务名 /tr "运行程序路径" /sc MINUTE /mo 1
 :: 在指定的开始日期和结束日期之间，每天 12:00 点开始到 14:00 点，每隔5分钟运行
-SCHTASKS /Create /TN 定时任务名 /RL Highest /TR "运行程序路径" /SD 开始日期 /ED 结束日期 /ST 12:00 /ET 14:00 /SC MINUTE /MO 5
+SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /TR "运行程序路径" /SD 开始日期 /ED 结束日期 /ST 12:00 /ET 14:00 /SC MINUTE /MO 5
 :: 每天 12:00 点开始到 14:00 点自动结束
-SCHTASKS /Create /TN 定时任务名 /RL Highest /TR "运行程序路径" /ST 12:00 /ET 14:00 /K /SC DAILY
+SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /TR "运行程序路径" /ST 12:00 /ET 14:00 /K /SC DAILY
 :: 将任务附加到事件上：登录成功事件，运行事件查看器
-SCHTASKS /Create /TN 定时任务名 /RL Highest /TR eventvwr /SC ONEVENT /EC Security /MO "*[System[Provider[@Name='Microsoft-Windows-Security-Auditing'] and EventID=4624]]"
+SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /TR eventvwr /SC ONEVENT /EC Security /MO "*[System[Provider[@Name='Microsoft-Windows-Security-Auditing'] and EventID=4624]]"
 :: 将任务附加到事件上：系统已从低功耗状态中恢复，运行事件查看器
-SCHTASKS /Create /TN 定时任务名 /RL Highest /TR eventvwr /SC ONEVENT /EC System /MO "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]"
+SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /TR eventvwr /SC ONEVENT /EC System /MO "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]"
 
 :: 查询任务
 SCHTASKS /Query /fo LIST /v /TN 任务名称
