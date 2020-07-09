@@ -340,7 +340,9 @@ timeout /T -1 /NOBREAK
 * [https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/schtasks](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/schtasks)
 
 ```batch
+taskschd
 SCHTASKS /? 查看帮助
+
 :: /sc 指定计划频率：MINUTE、 HOURLY、DAILY、WEEKLY、MONTHLY, ONCE, ONSTART, ONLOGON, ONIDLE, ONEVENT
 SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /tr "运行程序路径" /sc DAILY
 :: 开机自启动
