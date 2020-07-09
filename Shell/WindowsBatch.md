@@ -337,7 +337,11 @@ timeout /T -1 /NOBREAK
 ### 任务计划
 
 * [Schtasks命令详解](https://www.cnblogs.com/daimaxuejia/p/12957644.html)
-* [https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/schtasks](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/schtasks)
+* [任务计划程序参考](https://docs.microsoft.com/zh-cn/windows/win32/taskschd/task-scheduler-reference)
+
++ [https://github.com/dahall/TaskScheduler](https://github.com/dahall/TaskScheduler)
++ [https://github.com/fireeye/SharPersist](https://github.com/fireeye/SharPersist)
+
 
 ```batch
 taskschd
