@@ -385,6 +385,8 @@ SCHTASKS /run /TN 任务名称
 
 ### 事件
 
+* [Windows事件](https://docs.microsoft.com/zh-cn/windows/win32/events/windows-events)
+
 > 打开eventvwr -> Windows 日志 -> 系统 右键打开菜单 -> 将所有事件另存为(E) -> 选择保存类型
 
 - eventvwr 打开事件查看器

@@ -750,10 +750,21 @@ function createSchedule() {
     // 创建人
     regInfo.Author = "创建人";
 
-    // 创建要执行的任务的动作，指定可执行动作的常量：0运行脚本或程序，6发送邮件，
-    var Action = taskDefinition.Actions.Create(0);
-    // 向任务添加操作
-    Action.Path = 'wscript "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\设置必应壁纸.vbs"';
+    // 操作集合，运行程序/脚本等动作的集合，最多32个动作
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/actioncollection
+    var actions = taskDefinition.Actions;
+    // 创建要执行的任务的动作，指定可执行动作的常量：0运行脚本或程序，5触发处理程序，6发送邮件，7显示一个消息框
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/actioncollection-create
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/action#remarks
+    var action = actions.Create(0);
+    // 向任务添加操作 https://docs.microsoft.com/zh-cn/windows/win32/taskschd/execaction
+    action.Path = 'wscript "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\设置必应壁纸.vbs"';
+    var action1 = actions.Create(0);
+    action1.Path = "eventvwr";
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/showmessageaction
+    var action7 = actions.Create(7);
+    action7.Title = "标题";
+    action7.MessageBody = "eventvwr";
 
     // 提供主体安全证书的脚本对象。这些安全凭证为与委托人关联的任务定义了安全上下文。
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/principal
@@ -786,30 +797,33 @@ function createSchedule() {
     switch (triggerTypes) {
         case "0":
             // 创建事件触发器
-            // https://docs.microsoft.com/en-us/previous-versions//aa446887(v=vs.85)
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/eventtrigger
             var trigger = triggers.Create(0);
             // 定义事件查询。触发器将启动任务，当收到事件时。
-            trigger.Subscription = "<QueryList><Query><Select Path='" + ec + "'>" + mo + "</Select></Query></QueryList>";
-            // trigger.Subscription = "<QueryList><Query><Select Path='System'>" +
-            //     "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]" +
-            //     "</Select></Query></QueryList>";
-            // trigger.Subscription = "<QueryList><Query Id='1'><Select Path='System'>" +
-            //     "*[System/Level=2]" +
-            //     "</Select></Query></QueryList>";
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/eventtrigger-subscription
+            // https://docs.microsoft.com/zh-cn/previous-versions//aa385231(v=vs.85)
+            trigger.Subscription = "<QueryList>" +
+                "<Query Id='0'><Select Path='System'>" +
+                "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]" +
+                "</Select></Query>" +
+                "<Query Id='1'><Select Path='System'>" +
+                "*[System/Level=2]" +
+                "</Select></Query>" +
+                "</QueryList>";
             break;
         case "1":
             // 创建时间触发器
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/time-trigger-example--scripting-
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/timetrigger
             var trigger = triggers.Create(1);
             break;
         case "2":
             // 创建每日触发器
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/daily-trigger-example--scripting-
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/dailytrigger
             var trigger = triggers.Create(2);
             break;
         case "3":
             // 创建每周触发器
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/weekly-trigger-example--scripting-
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/weeklytrigger
             var trigger = triggers.Create(3);
             trigger.DaysOfWeek = 1;
             // 任务每周运行一次。
@@ -832,17 +846,17 @@ function createSchedule() {
             break;
         case "7":
             // 创建注册触发器
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/registration-trigger-example--scripting-
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/registrationtrigger
             var trigger = triggers.Create(7);
             break;
         case "8":
             // 创建启动触发器
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/boot-trigger-example--scripting-
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/boottrigger
             var trigger = triggers.Create(8);
             break;
         case "9":
             // 创建登录触发器
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/logon-trigger-example--scripting-
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/logontrigger
             var trigger = triggers.Create(9);
             // 登录指定用户时触发，必须是有效的用户帐户
             trigger.UserId = "SYSTEM";
