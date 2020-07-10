@@ -761,10 +761,6 @@ function createSchedule() {
     action.Path = 'wscript "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\设置必应壁纸.vbs"';
     var action1 = actions.Create(0);
     action1.Path = "eventvwr";
-    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/showmessageaction
-    var action7 = actions.Create(7);
-    action7.Title = "标题";
-    action7.MessageBody = "eventvwr";
 
     // 提供主体安全证书的脚本对象。这些安全凭证为与委托人关联的任务定义了安全上下文。
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/principal
@@ -810,6 +806,15 @@ function createSchedule() {
                 "*[System/Level=2]" +
                 "</Select></Query>" +
                 "</QueryList>";
+            // 获取或设置命名XPath查询的集合
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/eventtrigger-valuequeries
+            var valueQueries = trigger.ValueQueries;
+            valueQueries.Create("eventID", "Event/System/EventRecordID");
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/showmessageaction
+            var action7 = actions.Create(7);
+            action7.Title = "标题";
+            // 需要配合trigger.ValueQueries
+            action7.MessageBody = "这是事件ID：$(eventID)";
             break;
         case "1":
             // 创建时间触发器
