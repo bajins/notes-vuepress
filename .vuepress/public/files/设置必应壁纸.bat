@@ -57,7 +57,7 @@ if (Argv.length > 0) {
         case "1":
             autoStart("startup");
             break;
-        case "?","help":
+        case "?", "help":
         default:
             help();
     }
@@ -333,18 +333,103 @@ function autoStart(mode) {
         // 开机启动目录
         var runDir = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\";
         vbsFileName = runDir + fileName + ".vbs";
+        var fso = new ActiveXObject("Scripting.FileSystemObject");
+        // 创建文件
+        var vbsFile = fso.CreateTextFile(vbsFileName, true);
+        // 填写数据，并增加换行符
+        vbsFile.WriteLine("Set shell = WScript.CreateObject(\"WScript.Shell\")");
+        vbsFile.WriteLine("shell.Run \"cmd /c " + WScript.ScriptFullName + "\", 0, false");
+        // 关闭文件
+        vbsFile.Close();
+
+        createSchedule("SetBingWallpaper", "设置必应壁纸", "bajins", 'wscript "' + vbsFileName + '"');
     } else {
         // 添加开机启动注册表
         var shell = new ActiveXObject("WScript.shell");
         var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\";
         shell.RegWrite(runRegBase + fileName, vbsFileName);
     }
-    var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // 创建文件
-    var vbsFile = fso.CreateTextFile(vbsFileName, true);
-    // 填写数据，并增加换行符
-    vbsFile.WriteLine("Set shell = WScript.CreateObject(\"WScript.Shell\")");
-    vbsFile.WriteLine("shell.Run \"cmd /c " + WScript.ScriptFullName + "\", 0, false");
-    // 关闭文件
-    vbsFile.Close();
+}
+
+/**
+ * 创建任务计划
+ *
+ * @param name 任务计划名
+ * @param desc 任务计划描述
+ * @param author 任务计划创建人
+ * @param path 执行的程序或脚本路径
+ */
+function createSchedule(name, desc, author, path) {
+    // 创建TaskService对象，提供对任务计划程序服务的访问权限，以管理已注册的任务
+    var service = new ActiveXObject("Schedule.Service");
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/taskservice-connect
+    service.Connect();
+
+    // 获取一个文件夹以在其中创建任务定义。
+    var rootFolder = service.GetFolder("\\");
+    // 返回一个空的任务定义对象，参数保留供将来使用，必须设置为0
+    var taskDefinition = service.NewTask(0);
+
+    // 创建RegistrationInfo对象，设置任务的注册信息
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/registrationinfo
+    var regInfo = taskDefinition.RegistrationInfo;
+    // 任务说明
+    regInfo.Description = desc;
+    // 创建人
+    regInfo.Author = author;
+
+    // 创建要执行的任务的动作，指定可执行动作的常量：0运行脚本或程序，6发送邮件，
+    var Action = taskDefinition.Actions.Create(0);
+    // 向任务添加操作
+    Action.Path = path;
+
+    // 提供主体安全证书的脚本对象。这些安全凭证为与委托人关联的任务定义了安全上下文。
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/principal
+    var principal = taskDefinition.Principal;
+    // 将登录类型设置为交互式登录
+    // principal.LogonType = 3;
+    // 获取或设置标识符，该标识符用于指定运行与主体相关联的任务所需的特权级别。
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/principal-runlevel
+    principal.RunLevel = 1;
+
+    // 创建一个TaskSettings对象，设置任务计划程序的任务设置信息
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/tasksettings
+    var settings = taskDefinition.Settings;
+    // 该值指示任务计划程序可以在计划时间过去之后的任何时间启动任务
+    settings.StartWhenAvailable = true;
+    settings.Enabled = true;
+    settings.Hidden = false;
+
+    // 获取或设置用于启动任务的触发器的集合。
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/trigger
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/triggercollection-create
+    var triggers = taskDefinition.Triggers;
+    // 创建事件触发器
+    // https://docs.microsoft.com/en-us/previous-versions//aa446887(v=vs.85)
+    var trigger = triggers.Create(0);
+    // 定义事件查询。触发器将启动任务，当收到事件时。
+    trigger.Subscription = "<QueryList><Query><Select Path='System'>" +
+        "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]" +
+        "</Select></Query></QueryList>";
+    //trigger.Subscription = "<QueryList><Query Id='1'><Select Path='System'>" +
+    //    "*[System/Level=2]" +
+    //    "</Select></Query></QueryList>";
+    // 创建闲置触发，在发生空闲情况时启动任务的触发器
+    //triggers.Create(6);
+    // 创建注册触发器
+    triggers.Create(7);
+    // 创建启动触发器
+    triggers.Create(8);
+    // 创建登录触发器
+    triggers.Create(9);
+    // 用于触发控制台连接或断开连接，远程连接或断开连接或工作站锁定或解锁通知的任务。
+    var trigger11 = triggers.Create(11);
+    // 获取或设置将触发任务启动的终端服务器会话更改的类型：7锁定；8解锁
+    trigger11.StateChange = 8;
+
+    // 使用ITaskDefinition接口在指定位置注册（创建）任务以定义任务
+    // 用户ID有：Local Service ; SYSTEM ; null为当前登录的用户名
+    // 最后一位参数影响任务计划运行
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/taskfolder-registertaskdefinition
+    rootFolder.RegisterTaskDefinition(name, taskDefinition, 6, null, null, 3);
 }
