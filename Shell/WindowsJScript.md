@@ -729,7 +729,7 @@ ts.Write(listcom().join('\r\n'));
 
 ```javascript
 /**
- * 创建任务计划的常用API展示
+ * 创建任务计划的常用API展示，在实现中需结合实际使用
  */
 function createSchedule() {
     // 创建TaskService对象，提供对任务计划程序服务的访问权限，以管理已注册的任务

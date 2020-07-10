@@ -378,10 +378,15 @@ function createSchedule(name, desc, author, path) {
     // 创建人
     regInfo.Author = author;
 
-    // 创建要执行的任务的动作，指定可执行动作的常量：0运行脚本或程序，6发送邮件，
-    var Action = taskDefinition.Actions.Create(0);
+    // 操作集合，运行程序/脚本等动作的集合，最多32个动作
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/actioncollection
+    var actions = taskDefinition.Actions;
+    // 创建要执行的任务的动作，指定可执行动作的常量：0运行脚本或程序，5触发处理程序，6发送邮件，7显示一个消息框
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/actioncollection-create
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/action#remarks
+    var action = actions.Create(0);
     // 向任务添加操作
-    Action.Path = path;
+    action.Path = path;
 
     // 提供主体安全证书的脚本对象。这些安全凭证为与委托人关联的任务定义了安全上下文。
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/principal
@@ -408,12 +413,14 @@ function createSchedule(name, desc, author, path) {
     // https://docs.microsoft.com/en-us/previous-versions//aa446887(v=vs.85)
     var trigger = triggers.Create(0);
     // 定义事件查询。触发器将启动任务，当收到事件时。
-    trigger.Subscription = "<QueryList><Query><Select Path='System'>" +
+    trigger.Subscription = "<QueryList>" +
+        "<Query Id='0'><Select Path='System'>" +
         "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]" +
-        "</Select></Query></QueryList>";
-    //trigger.Subscription = "<QueryList><Query Id='1'><Select Path='System'>" +
-    //    "*[System/Level=2]" +
-    //    "</Select></Query></QueryList>";
+        "</Select></Query>" +
+        "<Query Id='1'><Select Path='System'>" +
+        "*[System/Level=2]" +
+        "</Select></Query>" +
+        "</QueryList>";
     // 创建闲置触发，在发生空闲情况时启动任务的触发器
     //triggers.Create(6);
     // 创建注册触发器

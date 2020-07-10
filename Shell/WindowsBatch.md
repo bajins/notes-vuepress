@@ -343,6 +343,7 @@ timeout /T -1 /NOBREAK
 + [https://github.com/dahall/TaskScheduler](https://github.com/dahall/TaskScheduler)
 + [https://github.com/fireeye/SharPersist](https://github.com/fireeye/SharPersist)
 
+**更高级用法见[创建任务计划](/Shell/WindowsJScript.md#创建任务计划)**
 
 > 如果任务计划运行没反应，去掉`/RU SYSTEM`试试
 
@@ -369,10 +370,6 @@ SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /TR eventvwr /SC ONE
 :: 将任务附加到事件上：系统已从低功耗状态中恢复，运行事件查看器
 SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /TR eventvwr /SC ONEVENT /EC System ^
  /MO "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]"
-:: 将任务附加到事件上：系统已从低功耗状态中恢复，设置必应壁纸
-SCHTASKS /Create /RL Highest /tn SetBingWallpaper ^
- /TR "wscript 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\设置必应壁纸.vbs'" ^
-  /SC ONEVENT /EC System /MO "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]"
 
 :: 查询任务
 SCHTASKS /Query /fo LIST /v /TN 任务名称
