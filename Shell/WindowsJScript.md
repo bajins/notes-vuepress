@@ -81,20 +81,17 @@ endlocal&exit /b %errorlevel%
 
 // ****************************  JavaScript  *******************************
 
-// 传参时指定键值，组成方式：/key:value
 var Argv = WScript.Arguments;
 for (i = 0; i < Argv.Length; i++) {
     WScript.Echo("参数：" + Argv(i));
 }
+
+// 传参时指定键值，组成方式：/key:value
 var ArgvName = Argv.Named;
 var func = ArgvName.Item("func");
 var path = ArgvName.Item("path");
 
 // 无键，直接传入值
-var Argv = WScript.Arguments;
-for (i = 0; i < Argv.Length; i++) {
-    WScript.Echo("参数：" + Argv(i));
-}
 var func = Argv(0);
 var url = Argv(1);
 var path = Argv(2);
