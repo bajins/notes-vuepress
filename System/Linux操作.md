@@ -34,17 +34,11 @@
 * [Linux工程师必备的88个监控工具](https://learn-linux.readthedocs.io/zh_CN/latest/maintenance/monitor/tools/80-linux-monitoring-tools.html)
 
 - `nethogs`: 按进程查看流量占用
-
 - `ethtool`: 诊断工具
-
 - `tcpdump`: 抓包工具
-
 - 监控总体带宽使用：`nload`、`bmon`、`slurm`、`bwm-ng`、`cbm`、`speedometer`、`netload`
-
 - 监控总体带宽使用（批量式输出）：`vnstat`、`ifstat`、`dstat`、`collectl`
-
 - 每个套接字连接的带宽使用：`iftop`、`iptraf`、`tcptrack`、`pktstat`、`netwatch`、`trafshow`、`jnettop`
-
 - `ntopng`
 
 
@@ -180,35 +174,20 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 > 可在命令后加`--h`查看命令帮助，如：`tmux new --h`
 
 - `yum install -y tmux` 安装
-
 - `tmux new -s 会话名称` 新建会话
-
 - `tmux attach -t 会话名称` 可进入到已经创建的会话
-
-> 可使用`attach`前一部分字母，如`tmux a -t 会话名称`
-
+    - 可使用`attach`前一部分字母，如`tmux a -t 会话名称`
 - `tmux ls` 列出所有会话
-
 - `tmux switch -t 会话名或会话编号` 切换会话
-
 - `tmux rename-session -t 会话名或会话编号 新会话名` 重命名会话
-
 - `tmux kill-session -t 会话名称` 关闭会话
-
 - `tmux kill-server` 关闭所有会话
-
 - `tmux split-pane -h` 左右分屏
-
 - `tmux spilt-pane -v` 上下分屏
-
 - `swap-window -s 3 -t 1`  交换 3 号和 1 号窗口
-
 - `swap-window -t 1` 交换当前和 1 号窗口
-
 - `move-window -t 1` 移动当前窗口到 1 号
-
 - `tmux new -s 会话名 -d "命令"` 创建新会话并在后台执行命令
-
 - `tmux neww -n 窗口名 -d "命令"` 新建窗口名并在后台执行命令
 
 
@@ -217,23 +196,14 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 > 所有的快捷键都是先按一下<kbd>Ctrl</kbd> + <kbd>B</kbd>松开，这时快捷键生效再按其他按键
 
 - <kbd>D</kbd> 快捷键可以退出当前终端窗口
-
 - <kbd>S</kbd> 列出所有会话，此时可通过方向键和回车键切换
-
 - <kbd>$</kbd> 重命名当前会话
-
 - <kbd>%</kbd> 左右分屏
-
 - <kbd>"</kbd> 上下分屏
-
 - <kbd>:</kbd> 进入`tmux`命令行
-
 - <kbd>:new -s 会话名称</kbd> 创建并进入新的会话（不存在父子级关系）
-
 - <kbd>:kill-session</kbd> 删除当前会话
-
 - <kbd>:kill-server</kbd> 删除所有会话
-
 - <kbd>[</kbd>或<kbd>PgUp</kbd> 进入`copy mode`，查看`tmux`中的终端输出记录
 
 > 用<kbd>PgUp</kbd>、<kbd>PgDn</kbd>、`光标` 浏览历史输出了，按<kbd>q</kbd>退出
@@ -269,40 +239,25 @@ tmux new -s 会话名 -d "命令"
 **命令**
 
 - `yum install -y screen` 安装
-
 - `screen -S 会话名称` 创建一个会话
-
 - `screen -ls` 列出所有的会话列表
-
 - `screen -r 会话名称` 恢复会话窗口
-
 - `exit` 关闭会话窗口
 
 
 **选项**
 
 - `-A` 将所有的视窗都调整为目前终端机的大小。
-
 - `-d` <作业名称> 将指定的screen作业离线。
-
 - `-h` <行数> 指定视窗的缓冲区行数。
-
 - `-m` 即使目前已在作业中的screen作业，仍强制建立新的screen作业。
-
 - `-r` <作业名称> 恢复离线的screen作业。
-
 - `-R` 先试图恢复离线的作业。若找不到离线的作业，即建立新的screen作业。
-
 - `-s` 指定建立新视窗时，所要执行的shell。
-
 - `-S` <作业名称> 指定screen作业的名称。
-
 - `-v` 显示版本信息。
-
 - `-x` 恢复之前离线的screen作业。
-
 - `-ls`或`--list` 显示目前所有的screen作业。
-
 - `-wipe` 检查目前所有的screen作业，并删除已经无法使用的screen作业。
 
 
@@ -312,7 +267,6 @@ tmux new -s 会话名 -d "命令"
 > 所有的快捷键都是先按一下<kbd>Ctrl</kbd> + <kbd>A</kbd>松开，这时快捷键生效再按其他按键
 
 - <kbd>D</kbd> 隐藏并保留当前会话
-
 - <kbd>[</kbd>或<kbd>PgUp</kbd> 进入`copy mode`，查看`Screen`中的终端输出记录
 
 > 进入后它是`vi style keybindings`。对于拷贝文字，第一次空格设置开始标记，然后用<kbd>h</kbd>、<kbd>j</kbd>、<kbd>k</kbd>、
@@ -339,9 +293,7 @@ nohup python3 ./index.py >/dev/null 2>&1 &
 **Linux的3种重定向**
 
 1. `0`表示标准输入
-
 2. `1`标准输出,在一般使用时，默认的是标准输出
-
 3. `2`标准错误信息输出
 
 > 可以用来指定需要重定向的标准输入或输出。
@@ -373,12 +325,9 @@ setsid python3 ./index.py >/dev/null 2>&1 &
 **语法**
 
 - `setsid(选项)(参数)`
-
-1. `-c`, `--ctty` 将控制终端设置为当前控制终端
-
-2. `-f`, `--fork` 总是`fork`
-
-3. `-w`, `--wait` 等待程序退出，并使用相同的返回
+    1. `-c`, `--ctty` 将控制终端设置为当前控制终端
+    2. `-f`, `--fork` 总是`fork`
+    3. `-w`, `--wait` 等待程序退出，并使用相同的返回
 
 
 
@@ -405,15 +354,10 @@ autorestart=true
 **使用步骤**
 
 1. 使用`sudo service supervisor start`启动`supervisor`服务；
-
 2. 创建应用配置文件`/etc/supervisor/conf.d/程序名称.conf`, 内容如上;
-
 3. 使用`sudo supervisorctl`进入`supervisor`管理终端；
-
 4. 使用`reload`重新读取配置文件并重启当前`supoervisor`管理的所有进程；
-
 5. 也可以使用`update`重新加载配置(默认不重启)，随后使用`start 程序名称`启动指定的应用程序；
-
 6. 随后可以使用`status`指令查看当前`supervisor`管理的进程状态；
 
 
@@ -486,7 +430,6 @@ scp -P 22 -p root@192.168.214.187:/tmp/demo/f3.log /tmp/files/
 > 输入密码时提示：`Permission denied, please try again.`
 
 - 先修改远程文件夹或文件的权限`chmod -R 777 路径`
-
 - 修改`PermitRootLogin`允许Root登录
 
 ```bash
