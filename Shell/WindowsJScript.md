@@ -750,12 +750,14 @@ function createSchedule() {
     // 操作集合，运行程序/脚本等动作的集合，最多32个动作
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/actioncollection
     var actions = taskDefinition.Actions;
-    // 创建要执行的任务的动作，指定可执行动作的常量：0运行脚本或程序，5触发处理程序，6发送邮件，7显示一个消息框
+    // 创建要执行的任务的动作：0运行脚本或程序，5触发处理程序，6发送邮件，7显示一个消息框
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/actioncollection-create
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/action#remarks
-    var action = actions.Create(0);
+    
     // 向任务添加操作 https://docs.microsoft.com/zh-cn/windows/win32/taskschd/execaction
-    action.Path = 'wscript "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\设置必应壁纸.vbs"';
+    var action = actions.Create(0);
+    action.Path = "wscript";
+    action.Arguments = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\设置必应壁纸.vbs";
     var action1 = actions.Create(0);
     action1.Path = "eventvwr";
 

@@ -342,7 +342,7 @@ function autoStart(mode) {
         // 关闭文件
         vbsFile.Close();
 
-        createSchedule("SetBingWallpaper", "设置必应壁纸", "bajins", 'wscript "' + vbsFileName + '"');
+        createSchedule("SetBingWallpaper", "设置必应壁纸", "bajins", "wscript", '"' + vbsFileName + '"');
     } else {
         // 添加开机启动注册表
         var shell = new ActiveXObject("WScript.shell");
@@ -358,8 +358,9 @@ function autoStart(mode) {
  * @param desc 任务计划描述
  * @param author 任务计划创建人
  * @param path 执行的程序或脚本路径
+ * @param arguments 向执行的程序或脚本传递相关联的参数
  */
-function createSchedule(name, desc, author, path) {
+function createSchedule(name, desc, author, path, arguments) {
     // 创建TaskService对象，提供对任务计划程序服务的访问权限，以管理已注册的任务
     var service = new ActiveXObject("Schedule.Service");
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/taskservice-connect
@@ -381,12 +382,16 @@ function createSchedule(name, desc, author, path) {
     // 操作集合，运行程序/脚本等动作的集合，最多32个动作
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/actioncollection
     var actions = taskDefinition.Actions;
-    // 创建要执行的任务的动作，指定可执行动作的常量：0运行脚本或程序，5触发处理程序，6发送邮件，7显示一个消息框
+    // 创建要执行的任务的动作：0运行脚本或程序，5触发处理程序，6发送邮件，7显示一个消息框
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/actioncollection-create
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/action#remarks
+    
+    // 向任务添加操作 https://docs.microsoft.com/zh-cn/windows/win32/taskschd/execaction
     var action = actions.Create(0);
     // 向任务添加操作
     action.Path = path;
+    // 向操作实例传递参数
+    action.Arguments = arguments;
 
     // 提供主体安全证书的脚本对象。这些安全凭证为与委托人关联的任务定义了安全上下文。
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/principal
