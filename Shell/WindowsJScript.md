@@ -37,15 +37,11 @@
 * [ActiveXObject对象使用整理](https://blog.csdn.net/chen_zw/article/details/9336375)
 
 - `JScript`中`ActiveXObject`对象是启用并返回`Automation`对象的引用。
-
-> 使用方法：`var newObj = new ActiveXObject( servername.typename[, location])`
->> 其中`newObj`是必选项。要赋值为`ActiveXObject`的变量名。
->>
->> `servername`是必选项。提供该对象的应用程序的名称。
->>
->> `typename`是必选项。要创建的对象的类型或类。
->>
->> `location`是可选项。创建该对象的网络服务器的名称。
+    - 使用方法：`var newObj = new ActiveXObject( servername.typename[, location])`
+        - 其中`newObj`是必选项。要赋值为`ActiveXObject`的变量名。
+        - `servername`是必选项。提供该对象的应用程序的名称。
+        - `typename`是必选项。要创建的对象的类型或类。
+        - `location`是可选项。创建该对象的网络服务器的名称。
 
 
 
