@@ -1,6 +1,4 @@
-# VSCode
-
-> VisualStudioCode
+# VisualStudioCode
 
 
 [[toc]]
@@ -13,7 +11,7 @@
 * [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
 * [VSCode教程](https://www.php.cn/tool/vscode)
 * [https://github.com/Microsoft/vcpkg](https://github.com/Microsoft/vcpkg)
-[适用于Windows，Linux和MacOS的C ++库管理器](https://docs.microsoft.com/zh-cn/cpp/build/vcpkg)
+    * [适用于Windows，Linux和MacOS的C ++库管理器](https://docs.microsoft.com/zh-cn/cpp/build/vcpkg)
 
 
 ## 设置

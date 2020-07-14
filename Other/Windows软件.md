@@ -322,8 +322,8 @@
 
 ### Gif软件
 
-* [ScreenToGif](https://github.com/NickeManarin/ScreenToGif/releases)
-* [Honeycam](https://www.bandisoft.com/honeycam)
+* [https://github.com/NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif)
+* [https://www.bandisoft.com/honeycam](https://www.bandisoft.com/honeycam)
 * [http://www.bahraniapps.com](http://www.bahraniapps.com)
 
 
@@ -338,28 +338,25 @@
 
 ### Icon图标
 
-* [IcoFx官网](https://icofx.ro)
-* [Axialis-IconWorkshop 官网](https://www.axialis.com/download/#software)
+* [https://icofx.ro](https://icofx.ro)
+* Axialis-IconWorkshop 官网 [https://www.axialis.com/download/#software](https://www.axialis.com/download/#software)
 
 
 ### 截图
 
 * [https://github.com/ShareX/ShareX](https://github.com/ShareX/ShareX)
-* [Lightshot](https://app.prntscr.com)
+* Lightshot [https://app.prntscr.com](https://app.prntscr.com)
 * [https://www.snipaste.com](https://www.snipaste.com)
+* [https://picpick.app/zh/download](https://picpick.app/zh/download)
 
 
 **FastStone Capture**
 
 * [FastStone Capture官网](https://www.faststone.org/download.htm)
-
-> 官网被屏蔽，官方下载地址：`http://www.faststonesoft.net/DN/FSCaptureSetup版本号.exe`
-
+* 官网被屏蔽，官方下载地址：`http://www.faststonesoft.net/DN/FSCaptureSetup版本号.exe`
 * [下载最新版本](http://www.faststonesoft.net/DN/FSCaptureSetup.exe)
 
-- 使用说明
-
-> 先安装`FSCaptureSetup`程序，安装完成后先不要运行，把下载的汉化文件覆盖到安装目录然后再运行
+- 使用说明: 先安装`FSCaptureSetup`程序，安装完成后先不要运行，把下载的汉化文件覆盖到安装目录然后再运行
 
 - 注册码
 

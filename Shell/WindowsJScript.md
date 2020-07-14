@@ -408,6 +408,49 @@ function setWallpaper(imagesPath) {
 }
 ```
 
+- 这种方式更稳定
+
+```js
+/**
+ * 设置桌面壁纸
+ *
+ * @param imagesPath 图片全路径
+ */
+function setWallpaper(imagesPath) {
+    var shApp = new ActiveXObject("Shell.Application");
+    // 获取文件
+    var picFile = new ActiveXObject("Scripting.FileSystemObject").GetFile(imagesPath);
+    // 获取文件上的所有右键菜单项
+    //var items = shApp.NameSpace(picFile.ParentFolder.Path).ParseName(picFile.Name).Verbs();
+    var items = shApp.NameSpace(picFile.ParentFolder.Path).Items().Item(picFile.Name).Verbs();
+    // 遍历所有菜单项
+    for (var i = 0; i < items.Count; i++) {
+        var item = items.Item(i);
+        // 注意执行的脚本文件需要为简体中文编码
+        if (item.Name == "设置为桌面背景(&B)") {
+            item.DoIt();
+        }
+    }
+}
+```
+
+### 刷新桌面
+
+```js
+// 切换到桌面
+new ActiveXObject("Shell.Application").ToggleDesktop();
+// 刷新桌面
+new ActiveXObject("WScript.Shell").SendKeys("{F5}");
+
+var WSHShell = new ActiveXObject("WScript.Shell");
+// 切换到桌面
+WSHShell.AppActivate(WSHShell.SpecialFolders("Desktop"));
+// 刷新桌面
+WSHShell.SendKeys("{F5}");
+```
+
+
+
 ### 获取系统信息
 
 ```js

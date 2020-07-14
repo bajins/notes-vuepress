@@ -684,3 +684,45 @@ Do While True
     WScript.Echo strLatestEvent.InstanceName, Now
 Loop
 ```
+
+
+**设置壁纸**
+
+```visual-basic
+Set shApp = CreateObject("Shell.Application")
+' 获取文件
+Set picFile = CreateObject("Scripting.FileSystemObject").GetFile("C:\Users\bajin\Desktop\CachedImage_1920_1080_POS4.jpg")
+' 获取文件上的所有右键菜单项
+' Set items = shApp.NameSpace(picFile.ParentFolder.Path).ParseName(picFile.Name).Verbs()
+Set items = shApp.NameSpace(picFile.ParentFolder.Path).Items().Item(picFile.Name).Verbs()
+' 遍历所有菜单项
+' For i=0 To items.Count - 1
+' Set item = items.Item(i)
+For Each item In items
+    ' 注意执行的脚本文件需要为简体中文编码
+    If item.Name = "设置为桌面背景(&B)" Then
+    ' If strcomp(item.Name,"设置为桌面背景(&B)") = 0 Then
+        item.DoIt
+    END IF
+Next
+```
+
+
+**刷新桌面**
+
+```visual-basic
+' 切换到桌面
+CreateObject("Shell.Application").ToggleDesktop()
+' 刷新桌面
+CreateObject("WScript.Shell").SendKeys("{F5}")
+
+Set WSHShell = CreateObject("WScript.Shell")
+' 切换到桌面
+WSHShell.AppActivate(WSHShell.SpecialFolders("Desktop"))
+' 刷新桌面
+WSHShell.SendKeys("{F5}")
+
+' 下面这两种方式没看出效果
+CreateObject("shell.application").Namespace(0).self.invokeVerb("R&efresh")
+CreateObject("shell.application").Namespace(&H10).self.invokeVerb("Refresh")
+```
