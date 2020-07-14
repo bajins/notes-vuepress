@@ -21,11 +21,15 @@
 * [markdown语法大全](https://www.rumosky.wiki/docs/markdown)
 * Markdeep是Markdown的超集 [https://github.com/morgan3d/markdeep](https://github.com/morgan3d/markdeep)
 
-
+- [https://github.com/topics/emoji](https://github.com/topics/emoji)
 - GitHub角落图标 [https://github.com/tholman/github-corners](https://github.com/tholman/github-corners)
 - SVG徽章 [https://github.com/badges/shields](https://github.com/badges/shields)
-- [http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。
+- [https://github.com/WebpageFX/emoji-cheat-sheet.com](https://github.com/WebpageFX/emoji-cheat-sheet.com)
+    - [http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)
 - [https://github.com/carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji)
+- [https://github.com/caiyongji/emoji-list](https://github.com/caiyongji/emoji-list)
+- [https://github.com/liuchengxu/git-commit-emoji-cn](https://github.com/liuchengxu/git-commit-emoji-cn)
+- [https://github.com/afeld/emoji-css](https://github.com/afeld/emoji-css)
 - [Github 上 emoji 表情的含义及使用规范](https://mkblog.cn/872)
 
 > 表情（两个冒号包围的字符）,比如`:blush:`，可以显示 :blush:

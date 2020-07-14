@@ -54,7 +54,8 @@ msg %username% /time:60 "WARNING:a backdoor account is created"
 ```
 
 
-- 当前桌面壁纸目录：`%AppData%\Microsoft\Windows\Themes\CachedFiles`
+- Windows10当前桌面壁纸：`%AppData%\Microsoft\Windows\Themes\CachedFiles\CachedImage_1920_1080_POS4.jpg`
+- Windows7当前桌面壁纸：`%AppData%\Microsoft\Windows\Themes\TranscodedWallpaper.jpg`
 - 事件日志目录：`%SystemRoot%\System32\Winevt\Logs`
 
 

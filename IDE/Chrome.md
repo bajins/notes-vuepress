@@ -31,6 +31,31 @@ chrome://flags/#enable-parallel-downloading
 
 
 
+## DevTools
+
+* [https://github.com/googlechrome](https://github.com/googlechrome)
+* [https://github.com/GoogleChrome/devtools-docs](https://github.com/GoogleChrome/devtools-docs)
+    * [https://developer.chrome.com/devtools/index](https://developer.chrome.com/devtools/index)
+    * [https://devtools.chrome.com](https://devtools.chrome.com)
+    * [https://developers.google.com/web/tools/chrome-devtools](https://developers.google.com/web/tools/chrome-devtools)
+    * [https://github.com/leeon/chrome_devtool_book](https://github.com/leeon/chrome_devtool_book)
+        * [https://leeon.gitbooks.io/devtools](https://leeon.gitbooks.io/devtools)
+    * [https://github.com/dendoink/FrontendWingman](https://github.com/dendoink/FrontendWingman)
+        * [https://www.frontendwingman.com/Chrome](https://www.frontendwingman.com/Chrome)
+        * [https://juejin.im/book/5c526902e51d4543805ef35e](https://juejin.im/book/5c526902e51d4543805ef35e)
+
+- Firefox浏览器开发人员版 [https://www.mozilla.org/zh-CN/firefox/developer](https://www.mozilla.org/zh-CN/firefox/developer)
+
+
+**Network测量资源的加载时间隐藏**
+
+- 老版本，点击`View`后面的多级图（`Show overview`）
+- 老版本，点击最右侧⚙️(设置)去掉 `Show overview` 勾选
+- 勾选`Disable cache`
+
+
+
+
 ## 插件
 
 * [https://github.com/topics/chrome-extension?o=desc&s=stars](https://github.com/topics/chrome-extension?o=desc&s=stars)

@@ -420,31 +420,32 @@
 | Win32_UserAccount                 | 用户帐号       |
 | Win32_VideoController             | 显卡细节。      |
 | Win32_VideoSettings               | 显卡支持的显示模式。 |
+| Win32_ScheduledJob                | 创建一个作业AT命令（不是任务计划） |
+| Win32_NetworkLoginProfile         | 一个特定的用户运行Windows的计算机系统上的网络登录信息。 |
+| MSFT_NetAdapter                   | 逻辑网络适配器 |
+| Win32_NetworkConnection           | 一个基于Windows的环境中活动的网络连接 |
 
 
 **创建SWbemServices对象方式**
 
+* [SWbemServices object](https://docs.microsoft.com/zh-cn/windows/win32/wmisdk/swbemservices)
+
 ```visual-basic
 Set objLocator = CreateObject("WbemScripting.SWbemLocator")
 Set objService = objLocator.ConnectServer(".", "root\cimv2")
-Set colScheduledJobs = objService.InstancesOf("Win32_ScheduledJob")
-
-For Each objJob in colScheduledJobs
-    Wscript.Echo "Job ID: " & objJob.JobId & "Command: " & objJob.Command & VBNewLine
-Next
 
 ' 隐式使用本地计算机(.) 和默认名称空间("root\cimv2")
 Set objWMIService = GetObject("winmgmts:")
+
+Set objinst = GetObject("WinMgmts:Win32_LogicalDisk")
 
 Set objWMIService = GetObject("winmgmts:root\cimv2")
 
 Set objWMIService = GetObject("winmgmts://./root/cimv2")
 
 Set objWMIService = GetObject("winmgmts:\\.\root\cimv2")
-Set colScheduledJobs = objWMIService.ExecQuery("select * from Win32_ScheduledJob")
 
 Set objWMIService = GetObject("winmgmts:{impersonationlevel=impersonate}!\\.\root\cimv2")
-Set colScheduledJobs = objWMIService.InstancesOf("Win32_ScheduledJob")
 
 ' wmi与cimv2不同
 Set objWMIService = GetObject("winmgmts:\\.\root\wmi")
@@ -495,6 +496,8 @@ for(e = new Enumerator(LoginProfiles) ; !e.atEnd() ; e.moveNext()) {
 
 
 ### vbs函数封装
+
+* [https://github.com/eklam/VbsJson](https://github.com/eklam/VbsJson)
 
 **数组转换为字符串**
 
@@ -659,7 +662,7 @@ End Function
 
 ```visual-basic
 Set objWMIService = GetObject("winmgmts:\\.\root\wmi")
-' Win32_NetworkConnection  ConnectionState
+' 执行事件订阅查询以接收事件。事件订阅查询定义了要监视的托管环境的更改。发生更改时，WMI基础结构会将事件描述为调用脚本。
 Set colMonitoredEvents = objWMIService.ExecNotificationQuery("Select * from MSNdis_StatusMediaConnect") 
 Do While True 
     Set strLatestEvent = colMonitoredEvents.NextEvent 
@@ -673,7 +676,7 @@ Loop
 
 ```visual-basic
 Set objWMIService = GetObject("winmgmts:\\.\root\wmi")
-' Win32_NetworkConnection  ConnectionState
+' 执行事件订阅查询以接收事件。事件订阅查询定义了要监视的托管环境的更改。发生更改时，WMI基础结构会将事件描述为调用脚本。
 Set colMonitoredEvents = objWMIService.ExecNotificationQuery("Select * from MSNdis_StatusMediaDisconnect") 
 Do While True 
     Set strLatestEvent = colMonitoredEvents.NextEvent 

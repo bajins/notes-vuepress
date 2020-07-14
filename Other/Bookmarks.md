@@ -310,7 +310,7 @@
 * [时间轴 | Coder_桜](http://coder-sakura.github.io/blog/archives)
 * [时光机 - Shu's Garden](https://www.sitstars.com/archives.html)
 * [归档 | 蓝蓝博客](https://lanlan2017.github.io/blog/archives)
-
+* [时光の轴 – 苍穹の下](https://www.bluesky.cf/%E6%97%B6%E5%85%89%E3%81%AE%E8%BD%B4)
 
 
 
@@ -450,6 +450,13 @@
 * 第一PPT（模板下载）：[http://www.1ppt.com/xiazai](http://www.1ppt.com/xiazai)
 * 三顿PPT导航：[http://sandunppt.com](http://sandunppt.com)
 * [Excel函数表](https://support.office.com/zh-cn/article/excel-%E5%87%BD%E6%95%B0%EF%BC%88%E6%8C%89%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89-b3944572-255d-4efb-bb96-c6d90033e188)
+* Word文档中的语法突出显示代码
+    * [http://www.planetb.ca/syntax-highlight-word](http://www.planetb.ca/syntax-highlight-word)
+    * [http://www.codeinword.com](http://www.codeinword.com)
+
+
+
+
 
 
 ## 图片
