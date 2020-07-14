@@ -81,6 +81,20 @@
 |------------------------------	|--------------------------------------	|
 | WScript.Shell                	| 脚本外壳                             	|
 | Wscript.NetWork              	| 提供网络连接和远程打印机管理的函数。 	|
+| AspSmartUpload.SmartUpload   	|                                      	|
+| CDO.Configuration            	|                                      	|
+| CDONTS.NewMail               	| 邮件发送的组件                       	|
+| Huang.UploadFile             	|                                      	|
+| InternetExplorer.application 	|                                      	|
+| JMail.message                	| 邮件发送的组件                       	|
+| MSWC.AdRotator               	|                                      	|
+| MSWC.BrowserType             	|                                      	|
+| MSWC.NextLink                	|                                      	|
+| Shell.Application            	| Windows外壳                          	|
+| SQLOLE.SQLServer             	|                                      	|
+| WSHController                	|                                      	|
+| System.IO.StringWriter        |                                       |
+| Registry                      | 注册表                                 |
 
 
 | ADODB对象        	| 说明                                             	|
@@ -134,22 +148,6 @@
 | Scripting.FileSystemObject 	| 提供一整套文件系统操作函数                                      	|
 | Scripting.Signer           	| 签名                                                            	|
 
-
-| 对象                         	| 说明                                 	|
-|------------------------------	|--------------------------------------	|
-| AspSmartUpload.SmartUpload   	|                                      	|
-| CDO.Configuration            	|                                      	|
-| CDONTS.NewMail               	| 邮件发送的组件                       	|
-| Huang.UploadFile             	|                                      	|
-| InternetExplorer.application 	|                                      	|
-| JMail.message                	| 邮件发送的组件                       	|
-| MSWC.AdRotator               	|                                      	|
-| MSWC.BrowserType             	|                                      	|
-| MSWC.NextLink                	|                                      	|
-| Shell.Application            	| Windows外壳                          	|
-| SQLOLE.SQLServer             	|                                      	|
-| WSHController                	|                                      	|
-| System.IO.StringWriter        |                                       |
 
 
 | Collections对象                   | 说明                                                                   	|
@@ -243,10 +241,13 @@
 
 ## Shell
 
+* [https://docs.microsoft.com/zh-cn/windows/win32/shell/shell-entry](https://docs.microsoft.com/zh-cn/windows/win32/shell/shell-entry)
+* [https://docs.microsoft.com/zh-cn/windows/win32/shell/shell](https://docs.microsoft.com/zh-cn/windows/win32/shell/shell)
 * [Wscript.Shell 对象详细介绍](https://www.jb51.net/article/5683_all.htm)
 * [WshShell 对象](https://www.jb51.net/shouce/script56/script56_chs/html/wsobjwshshell.htm)
 
-> `Wscript.Shell`对象提供的功能：`New-Object -ComObject "Wscript.Shell" | Get-Member`
++ `Wscript.Shell`对象提供的功能：`New-Object -ComObject "Wscript.Shell" | Get-Member`
++ `Shell.Application`对象提供的功能：`New-Object -ComObject "Shell.Application" | Get-Member`
 
 - `Run` `Exec` 执行`cmd`命令
 - `CreateShortcut` 创建快捷方式
@@ -688,6 +689,8 @@ Loop
 
 **设置壁纸**
 
+> 使用API触发图片文件右键菜单上的 `设置为桌面背景(B)`
+
 ```visual-basic
 Set shApp = CreateObject("Shell.Application")
 ' 获取文件
@@ -718,11 +721,35 @@ CreateObject("WScript.Shell").SendKeys("{F5}")
 
 Set WSHShell = CreateObject("WScript.Shell")
 ' 切换到桌面
+'WSHShell.AppActivate("Program Manager")
 WSHShell.AppActivate(WSHShell.SpecialFolders("Desktop"))
 ' 刷新桌面
 WSHShell.SendKeys("{F5}")
 
 ' 下面这两种方式没看出效果
-CreateObject("shell.application").Namespace(0).self.invokeVerb("R&efresh")
-CreateObject("shell.application").Namespace(&H10).self.invokeVerb("Refresh")
+CreateObject("shell.application").Namespace(0).Self.invokeVerb("R&efresh")
+CreateObject("shell.application").Namespace(&H10).Self.invokeVerb("Refresh")
+
+' 重启资源管理器并恢复打开的目录
+Function RestartExplorer()
+    Dim arrURL()
+    n = -1
+    Set shApp = CreateObject("Shell.Application")
+    ' 遍历所有打开的窗口
+    For Each oWin In shApp.Windows
+        ' 如果打开的窗口为资源管理器
+        If Instr(1, oWin.FullName, "\explorer.exe", vbTextCompare) Then
+            n = n + 1
+            ReDim Preserve arrURL(n)
+            arrURL(n) = oWin.LocationURL
+        End If
+    Next
+    ' 结束资源管理器进程
+    CreateObject("WScript.Shell").Run "tskill explorer", 0, True
+    ' 遍历并打开之前的窗口
+    For Each strURL In arrURL
+        'shApp.Open strURL
+        shApp.Explore strURL
+    Next
+End Function
 ```

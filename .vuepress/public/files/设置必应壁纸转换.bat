@@ -70,16 +70,18 @@ var json = request("GET", "https://cn.bing.com/HPImageArchive.aspx?format=js&idx
 var imageUrl = "https://cn.bing.com" + json.images[0].url.split("&")[0];
 var imageName = imageUrl.substring(imageUrl.lastIndexOf("/") + 1).split("=")[1];
 
-var imagePath = download(imageUrl, currentDirectory, imageName);
-// 如果文件不存在
-if (!fso.FileExists(imagePath)) {
-    WScript.Echo("图片格式转为BMP失败");
+var oldImagePath = download(imageUrl, currentDirectory, imageName);
+// 如果转换后文件不存在
+if (!fso.FileExists(oldImagePath)) {
+    WScript.Echo("图片下载失败");
     WScript.Quit(1);
 }
+var imagePath = imageTransform(oldImagePath, "bmp");
 if (fso.FileExists(imagePath)) {
     setWallpaper(imagePath);
-    WScript.Sleep(2000);
+    WScript.Sleep(5000);
     fso.DeleteFile(imagePath);
+    fso.DeleteFile(oldImagePath);
     WScript.Echo("设置壁纸成功！", imagePath);
     WScript.Quit(0);
 } else {
@@ -229,6 +231,60 @@ function download(url, directory, filename) {
     return path;
 }
 
+/**
+ * 图片格式转换
+ *
+ * @param imagePath 原始图片全路径
+ * @param format    要转换的格式，后缀名
+ * @returns {string}
+ */
+function imageTransform(imagePath, format) {
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    // 如果文件不存在,就说明没有转换成功
+    if (!fso.FileExists(imagePath)) {
+        throw new Error("图片不存在或路径错误！");
+    }
+    // 转换后格式文件全路径
+    var formatPath = imagePath.replace(/(.+)\.[^\.]+$/, "$1") + "." + format;
+    // 如果转换后文件已存在
+    if (fso.FileExists(formatPath)) {
+        throw new Error("要转换的格式文件已经存在！");
+    }
+    // 转小写
+    format = format.toLowerCase();
+    var wiaFormat = "";
+    switch (format) {
+        case "bmp":
+            wiaFormat = "{B96B3CAB-0728-11D3-9D7B-0000F81EF32E}";
+            break;
+        case "png":
+            wiaFormat = "{B96B3CAF-0728-11D3-9D7B-0000F81EF32E}";
+            break;
+        case "gif":
+            wiaFormat = "{B96B3CB0-0728-11D3-9D7B-0000F81EF32E}";
+            break;
+        case "tiff":
+            wiaFormat = "{B96B3CB1-0728-11D3-9D7B-0000F81EF32E}";
+            break;
+        default:
+            // 默认JPEG
+            wiaFormat = "{B96B3CAE-0728-11D3-9D7B-0000F81EF32E}";
+    }
+    var img = new ActiveXObject("WIA.ImageFile");
+    img.LoadFile(imagePath);
+    var imgps = new ActiveXObject("WIA.ImageProcess");
+    imgps.Filters.Add(imgps.FilterInfos("Convert").FilterID);
+    // 转换格式
+    imgps.Filters(1).Properties("FormatID").Value = wiaFormat;
+    // 图片质量
+    //imgps.Filters(1).Properties("Quality").Value = 5
+    imgps.Apply(img).SaveFile(formatPath);
+    // 如果文件不存在,就说明没有转换成功
+    if (!fso.FileExists(formatPath)) {
+        throw new Error("图片格式转为" + format + "失败");
+    }
+    return formatPath;
+}
 
 /**
  * 设置桌面壁纸
@@ -236,19 +292,27 @@ function download(url, directory, filename) {
  * @param imagesPath 图片全路径
  */
 function setWallpaper(imagesPath) {
-    var shApp = new ActiveXObject("Shell.Application");
-    // 获取文件
-    var picFile = new ActiveXObject("Scripting.FileSystemObject").GetFile(imagesPath);
-    // 获取文件上的所有右键菜单项
-    //var items = shApp.NameSpace(picFile.ParentFolder.Path).ParseName(picFile.Name).Verbs();
-    var items = shApp.NameSpace(picFile.ParentFolder.Path).Items().Item(picFile.Name).Verbs();
-    // 遍历所有菜单项
-    for (var i = 0; i < items.Count; i++) {
-        var item = items.Item(i);
-        // 注意执行的脚本文件需要为简体中文编码
-        if (item.Name == "设置为桌面背景(&B)") {
-            item.DoIt();
-        }
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    // 如果文件不存在,就说明没有转换成功
+    if (!fso.FileExists(imagePath)) {
+        throw new Error("图片不存在或路径错误！");
+    }
+    var shell = new ActiveXObject("WScript.shell");
+    // HKEY_CURRENT_USER
+    shell.RegWrite("HKCU\\Control Panel\\Desktop\\TileWallpaper", "0");
+    // 设置壁纸全路径
+    shell.RegWrite("HKCU\\Control Panel\\Desktop\\Wallpaper", imagesPath);
+    shell.RegWrite("HKCU\\Control Panel\\Desktop\\WallpaperStyle", "2", "REG_DWORD");
+    var shadowReg = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion";
+    shell.RegWrite(shadowReg + "\\Explorer\\Advanced\\ListviewShadow", "1", "REG_DWORD");
+    // 如果桌面图标未透明，需要刷新组策略
+    //shell.Run("gpupdate /force", 0);
+    // 上面已经通过注册表设置了壁纸的参数，调用Windows api SystemParametersInfo刷新配置
+    var spi = "RunDll32 USER32,SystemParametersInfo SPI_SETDESKWALLPAPER 0 \"";
+    shell.Run(spi + imagesPath + "\" SPIF_SENDWININICHANGE+SPIF_UPDATEINIFILE");
+    for (var i = 0; i < 30; i++) {
+        // 实时刷新桌面
+        shell.Run("RunDll32 USER32,UpdatePerUserSystemParameters");
     }
 }
 
@@ -318,7 +382,7 @@ function createSchedule(name, desc, author, path, arguments) {
     // 创建要执行的任务的动作：0运行脚本或程序，5触发处理程序，6发送邮件，7显示一个消息框
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/actioncollection-create
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/action#remarks
-
+    
     // 向任务添加操作 https://docs.microsoft.com/zh-cn/windows/win32/taskschd/execaction
     var action = actions.Create(0);
     // 向任务添加操作

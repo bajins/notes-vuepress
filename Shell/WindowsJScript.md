@@ -410,6 +410,8 @@ function setWallpaper(imagesPath) {
 
 - 这种方式更稳定
 
+> 使用API触发图片文件右键菜单上的 `设置为桌面背景(B)`
+
 ```js
 /**
  * 设置桌面壁纸
@@ -444,9 +446,32 @@ new ActiveXObject("WScript.Shell").SendKeys("{F5}");
 
 var WSHShell = new ActiveXObject("WScript.Shell");
 // 切换到桌面
+//WSHShell.AppActivate("Program Manager")
 WSHShell.AppActivate(WSHShell.SpecialFolders("Desktop"));
 // 刷新桌面
 WSHShell.SendKeys("{F5}");
+
+
+// 重启资源管理器并恢复打开的目录，暂时不能使用
+function restartExplorer() {
+    var arrURL = [];
+    var shApp = new ActiveXObject("Shell.Application");
+    // 遍历所有打开的窗口
+    for (var i = 0; i < shApp.Windows().Count; i++) {
+        var oWin = shApp.Windows().Item(i);
+        // 如果打开的窗口为资源管理器
+        if (oWin!= null && oWin.LocationURL && oWin.FullName.indexOf("explorer.exe") != -1) {
+            arrURL.push(oWin.LocationURL);
+        }
+    }
+    // 结束资源管理器进程
+    new ActiveXObject("WScript.Shell").Run("tskill explorer", 0, true);
+    // 遍历并打开之前的窗口
+    for (var i = 0; i < arrURL.length; i++) {
+        //shApp.Open strURL
+        shApp.Explore(arrURL[i]);
+    }
+}
 ```
 
 
