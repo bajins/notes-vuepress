@@ -9,21 +9,11 @@
 
 * [https://www.wanweibaike.com/wiki-JScript](https://www.wanweibaike.com/wiki-JScript)
 
-
 > `JScript`实现的`ECMAScript Edition 3`，也是`IE8`使用的引擎。然而，随着`V8`大放光彩，
 > 微软放弃了之前规划的托管`JavaScript`计划（同期规划的`VB`变身为`VB.NET`活了下来），
 > `JScript`开发组另起炉灶搞了`Chakra`与`Node.js`一争长短，这也是`IE9`之后使用的`JS`引擎。
 
 > 在`JScript`中，永远不需要去实例化根对象`WScript`，正如同浏览器中的直接全局对象一样。
-
-**`BAT`执行`JScript`原理**
-
-> 把`batch`命令用`JavaScript`注释`/**/`包裹住，然后用`batch`命令执行文件中的`JavaScript`代码时就不会编译`batch`命令了
->> `1>1/* ::` 表示文件和`batch`命令的开头
->>
->> `*/` 表示`batch`命令的结尾
-
-> 执行当前脚本中的JavaScript脚本：`cscript -nologo -e:jscript "%~f0"`，`%~f0`表示当前批处理的绝对路径,去掉引号的完整路径
 
 * [JScript (ECMAScript3)](https://docs.microsoft.com/zh-cn/previous-versions//hbxc2t98(v=vs.85))
 * [JScript参考手册](https://www.php.cn/manual/view/14969.html)
@@ -31,32 +21,92 @@
 * [http://caibaojian.com/jscript](http://caibaojian.com/jscript)
 
 
-## ActiveXObject
-
-* [ActiveXObject](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Microsoft_Extensions/ActiveXObject)
-* [ActiveXObject对象使用整理](https://blog.csdn.net/chen_zw/article/details/9336375)
-
-- `JScript`中`ActiveXObject`对象是启用并返回`Automation`对象的引用。
-    - 使用方法：`var newObj = new ActiveXObject( servername.typename[, location])`
-        - 其中`newObj`是必选项。要赋值为`ActiveXObject`的变量名。
-        - `servername`是必选项。提供该对象的应用程序的名称。
-        - `typename`是必选项。要创建的对象的类型或类。
-        - `location`是可选项。创建该对象的网络服务器的名称。
 
 
+## BAT和JS混合编程
 
-## 参数传递
+* `BAT`执行`JScript`原理 [js/bat脚本混编新方案](http://www.bathome.net/thread-33125-1-1.html)
+
+- 缺陷：修改了一个变量的值
+
+```batch
+@set @a=1/*
+@echo off
+start wscript -e:jscript "%~f0"
+pause
+goto :EOF
+*/
+
+// ****************************  JavaScript  *******************************
+
+```
+
+- 缺陷：会清屏
+
+```batch
+echo=1/*>nul&@cls
+@echo off
+start wscript -e:jscript "%~f0"
+pause
+goto :EOF
+*/
+
+// ****************************  JavaScript  *******************************
+
+```
+
+- 缺陷：暂时没有
+
+```batch
+@if (1==1) @end/*
+@echo off
+echo Hello World!
+start wscript -e:jscript "%~f0"
+pause
+goto :EOF
+*/
+
+// ****************************  JavaScript  *******************************
+
+```
+
+- 缺陷：暂时没有
+
+```batch
+@if (0)==(0) echo off
+cscript -nologo -e:jscript %~s0
+goto :EOF
+@end
+
+// ****************************  JavaScript  *******************************
+
+```
+
+- 缺陷：暂时没有
+
+> `1>1` 的运行结果是个 `Boolean` 值，而 js 允许这种无意义的语句（其实对 eval 来说是有意义的）
+
+```batch
+1>1/* :
+@echo off
+cscript -nologo -e:jscript %0
+pause&exit
+*/
+
+// ****************************  JavaScript  *******************************
+
+```
+
+
+### 参数传递
+
+> 执行当前脚本中的JavaScript脚本：`cscript -nologo -e:jscript "%~f0"`，`%~f0`表示当前批处理的绝对路径,去掉引号的完整路径
 
 ```batch
 1>1/* ::
 ::  by bajins https://www.bajins.com
 
 @echo off
-md "%~dp0$testAdmin$" 2>nul
-if not exist "%~dp0$testAdmin$" (
-    echo 不具备所在目录的写入权限! >&2
-    exit /b 1
-) else rd "%~dp0$testAdmin$"
 
 :: 开启延迟环境变量扩展
 :: 解决for或if中操作变量时提示ECHO OFF问题，用!!取变量
@@ -93,6 +143,22 @@ var url = Argv(1);
 var path = Argv(2);
 
 ```
+
+
+## ActiveXObject
+
+* [ActiveXObject](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Microsoft_Extensions/ActiveXObject)
+* [ActiveXObject对象使用整理](https://blog.csdn.net/chen_zw/article/details/9336375)
+
+- `JScript`中`ActiveXObject`对象是启用并返回`Automation`对象的引用。
+    - 使用方法：`var newObj = new ActiveXObject( servername.typename[, location])`
+        - 其中`newObj`是必选项。要赋值为`ActiveXObject`的变量名。
+        - `servername`是必选项。提供该对象的应用程序的名称。
+        - `typename`是必选项。要创建的对象的类型或类。
+        - `location`是可选项。创建该对象的网络服务器的名称。
+
+
+
 
 
 ## js函数封装
@@ -397,14 +463,15 @@ function setWallpaper(imagesPath) {
     var shadowReg = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion";
     shell.RegWrite(shadowReg + "\\Explorer\\Advanced\\ListviewShadow", "1", "REG_DWORD");
     // 如果桌面图标未透明，需要刷新组策略
-    //shell.Run("gpupdate /force", 0);
+    //shell.Run("gpupdate /force", 0, true);
     // 上面已经通过注册表设置了壁纸的参数，调用Windows api SystemParametersInfo刷新配置
     var spi = "RunDll32 USER32,SystemParametersInfo SPI_SETDESKWALLPAPER 0 \"";
-    shell.Run(spi + imagesPath + "\" SPIF_SENDWININICHANGE+SPIF_UPDATEINIFILE");
-    for (var i = 0; i < 30; i++) {
-        // 实时刷新桌面
-        shell.Run("RunDll32 USER32,UpdatePerUserSystemParameters");
-    }
+    shell.Run(spi + imagesPath + "\" SPIF_SENDWININICHANGE+SPIF_UPDATEINIFILE", 0, true);
+    // for (var i = 0; i < 30; i++) {
+    //     // 实时刷新桌面
+    //     shell.Run("RunDll32 USER32,UpdatePerUserSystemParameters", 0, true);
+    // }
+    shell.Run("regsvr32.exe /s /n /i:/UserInstall %SystemRoot%\\system32\\themeui.dll", 0, true);
 }
 ```
 
@@ -451,6 +518,18 @@ WSHShell.AppActivate(WSHShell.SpecialFolders("Desktop"));
 // 刷新桌面
 WSHShell.SendKeys("{F5}");
 
+// 刷新桌面、任务栏、OSD（相当于重启资源管理器）
+var shell=new ActiveXObject("WScript.Shell");
+shell.Run("regsvr32.exe /s /n /i:/UserInstall %SystemRoot%\\system32\\themeui.dll", 0, true);
+
+// 效果不太好，有时刷新成功，有时失败
+var shell=new ActiveXObject("WScript.Shell");
+shell.Run("RunDll32 USER32,UpdatePerUserSystemParameters", 0, true);
+
+// assoc文件关联时会自动刷新桌面，可能报错
+var shell=new ActiveXObject("WScript.Shell");
+shell.Run("assoc .=.", 0, true);
+
 
 // 重启资源管理器并恢复打开的目录，暂时不能使用
 function restartExplorer() {
@@ -460,15 +539,23 @@ function restartExplorer() {
     for (var i = 0; i < shApp.Windows().Count; i++) {
         var oWin = shApp.Windows().Item(i);
         // 如果打开的窗口为资源管理器
-        if (oWin!= null && oWin.LocationURL && oWin.FullName.indexOf("explorer.exe") != -1) {
-            arrURL.push(oWin.LocationURL);
+        if (oWin != null && oWin.FullName.indexOf("explorer.exe") != -1) {
+            if (oWin.LocationURL != null) {
+                arrURL.push(oWin.LocationURL);
+            } else {
+                arrURL.push("");
+            }
+            //oWin.Document.folder.title;
+            // 关闭当前打开的文件夹
+            //oWin.quit();
         }
     }
     // 结束资源管理器进程
-    new ActiveXObject("WScript.Shell").Run("tskill explorer", 0, true);
+    var shell = new ActiveXObject("WScript.Shell");
+    shell.Run("taskkill /f /im explorer.exe >nul 2>nul&start explorer.exe", 0, true);
     // 遍历并打开之前的窗口
     for (var i = 0; i < arrURL.length; i++) {
-        //shApp.Open strURL
+        shApp.Open(arrURL[i]);
         shApp.Explore(arrURL[i]);
     }
 }

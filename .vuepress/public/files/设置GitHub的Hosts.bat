@@ -178,7 +178,7 @@ hostsObject = fso.OpenTextFile(hostsPath, 2, true);
 hostsObject.Write(newHosts.join("\r\n"));
 
 var shell = new ActiveXObject("WScript.shell");
-shell.Run("ipconfig /flushdns");
+shell.Run("ipconfig /flushdns", 0, true);
 
 
 /**

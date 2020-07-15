@@ -15,6 +15,8 @@
 + [Visual Basic for Applications (VBA) 语言参考](https://docs.microsoft.com/zh-cn/office/vba/api/overview/language-reference)
 + [VBA学习笔记](https://www.zhihu.com/people/xia-xi-lan/posts)
 + [xcel之VBA简单宏编程](https://blog.csdn.net/wordsin/article/details/80575615)
++ 批处理之家 [http://www.bathome.net](http://www.bathome.net)
++ 中国DOS联盟 [DOS批处理 & 脚本技术（批处理室）](http://cndos.fam.cx/forum/forumdisplay.php?fid=23)
 
 - `JScript`、`VBScript`同属于官方支持的`Windows Script`，这俩脚本都需要依赖于特定的宿主(`Host`)才能执行，
 `JavaScript`浏览器环境之外，还可以运行在`Windows Script Host`中。
@@ -257,7 +259,7 @@
 - `RegWrite` 在注册表中设置指定的键或值
 - `RegDelete` 从注册表中删除指定的键或值
 - `SendKeys` 模拟按键
-- `Popup` 显示包含指定消息的消息窗口
+- `Popup` 显示包含指定消息的消息弹出窗口
 - `ExpandEnvironmentStrings` 返回环境变量的扩展值
     - `ExpandEnvironmentStrings("%USERNAME%")` 获取用户名
     - `ExpandEnvironmentStrings("%ComputerName%")` 获取计算机名
@@ -346,15 +348,15 @@
 
 ### 模拟按键
 
+* [https://docs.microsoft.com/zh-cn/windows/win32/inputdev/user-input](https://docs.microsoft.com/zh-cn/windows/win32/inputdev/user-input)
+
 - `SendKeys`键击参数说明
-
-> `Enter`回车建表示`{Enter}`、字母`A`表示`{A}`、数字`2`表示`{2}`等
->> 示例`Wshshell.SendKeys("{Enter}")`、`Wshshell.SendKeys("{A}")`、`Wshshell.SendKeys("{2}")`
-
-> 组合键`Shift`用`+`代替、`Ctrl`用`^`代替、`Alt`用`%`代替
->> 示例`Wshshell.SendKeys("+%{DELETE}")`、`Wshshell.SendKeys("^{C}")`、`Wshshell.SendKeys("^{V}")`
-
-> 模拟快捷键`Ctrl + S`保存内容：`Wshshell.SendKeys("^{s}")`
+    - `Enter`回车建表示`{Enter}`、字母`A`表示`{A}`、数字`2`表示`{2}`等
+        - 示例`Wshshell.SendKeys("{Enter}")`、`Wshshell.SendKeys("{A}")`、`Wshshell.SendKeys("{2}")`
+    - 组合键`Shift`用`+`代替、`Ctrl`用`^`代替、`Alt`用`%`代替
+        - 示例`Wshshell.SendKeys("+%{DELETE}")`、`Wshshell.SendKeys("^{C}")`、`Wshshell.SendKeys("^{V}")`
+    - 模拟快捷键`Ctrl + S`保存内容：`Wshshell.SendKeys("^{s}")`
+    - 使用`+{f10}`可以z有限制地方调用，如调用桌面菜单`{f5}+{f10}`
 
 
 
@@ -730,7 +732,19 @@ WSHShell.SendKeys("{F5}")
 CreateObject("shell.application").Namespace(0).Self.invokeVerb("R&efresh")
 CreateObject("shell.application").Namespace(&H10).Self.invokeVerb("Refresh")
 
-' 重启资源管理器并恢复打开的目录
+' 刷新桌面、任务栏、OSD（相当于重启资源管理器）
+Set WSHShell = CreateObject("WScript.Shell")
+WSHShell.Run "regsvr32.exe /s /n /i:/UserInstall %SystemRoot%\system32\themeui.dll", 0, True
+
+' 效果不太好，有时刷新成功，有时失败
+Set WSHShell = CreateObject("WScript.Shell")
+WSHShell.Run "RunDll32 USER32,UpdatePerUserSystemParameters", 0, True
+
+' assoc文件关联时会自动刷新桌面，可能报错
+Set WSHShell = CreateObject("WScript.Shell")
+WSHShell.Run "assoc .=.", 0, True
+
+' 重启资源管理器并恢复打开的目录，暂时不可用
 Function RestartExplorer()
     Dim arrURL()
     n = -1
@@ -742,10 +756,13 @@ Function RestartExplorer()
             n = n + 1
             ReDim Preserve arrURL(n)
             arrURL(n) = oWin.LocationURL
+            'oWin.Document.folder.title
+            ' 关闭当前打开的文件夹
+            'oWin.quit
         End If
     Next
     ' 结束资源管理器进程
-    CreateObject("WScript.Shell").Run "tskill explorer", 0, True
+    CreateObject("WScript.Shell").Run "taskkill /f /im explorer.exe >nul 2>nul&start explorer.exe", 0, True
     ' 遍历并打开之前的窗口
     For Each strURL In arrURL
         'shApp.Open strURL

@@ -621,6 +621,40 @@ Pushd %~dp0
 start /wait /B "" "%~dp0软件名称" /DEL
 ````
 
+## 刷新桌面
+
+```batch
+REM taskkill 用户窗口被关闭
+taskkill /f /im explorer.exe >nul 2>nul&start explorer.exe
+
+REM regsvr32.exe 图标有白块
+regsvr32.exe /s /n /i:/UserInstall %SystemRoot%\system32\themeui.dll
+
+:: 效果不太好，有时刷新成功，有时失败
+RunDll32 USER32,UpdatePerUserSystemParameters
+
+:: assoc文件关联有多余添加，可能报错，exe 类型几乎不会被修改成其他类型
+assoc exe=exefile
+:: .=. 应该比较保险
+assoc .=.
+```
+
+- 刷新桌面图标
+
+```batch
+@echo off
+
+REM inf 代码太多
+>%tmp%\tmp.inf (
+    echo;[Version]
+    echo;Signature=$Chicago$
+    echo;[DefaultInstall]
+)
+rundll32 SETUPAPI.DLL,InstallHinfSection DefaultInstall 128 %tmp%\tmp.inf
+REM inf 需要%1是有效inf，win7报错：您选中INF文件不支持此安装方法
+REM %SystemRoot%\System32\InfDefaultInstall.exe "%1"
+```
+
 
 
 ## 开机启动

@@ -306,14 +306,15 @@ function setWallpaper(imagesPath) {
     var shadowReg = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion";
     shell.RegWrite(shadowReg + "\\Explorer\\Advanced\\ListviewShadow", "1", "REG_DWORD");
     // 如果桌面图标未透明，需要刷新组策略
-    //shell.Run("gpupdate /force", 0);
+    //shell.Run("gpupdate /force", 0, true);
     // 上面已经通过注册表设置了壁纸的参数，调用Windows api SystemParametersInfo刷新配置
     var spi = "RunDll32 USER32,SystemParametersInfo SPI_SETDESKWALLPAPER 0 \"";
-    shell.Run(spi + imagesPath + "\" SPIF_SENDWININICHANGE+SPIF_UPDATEINIFILE");
-    for (var i = 0; i < 30; i++) {
-        // 实时刷新桌面
-        shell.Run("RunDll32 USER32,UpdatePerUserSystemParameters");
-    }
+    shell.Run(spi + imagesPath + "\" SPIF_SENDWININICHANGE+SPIF_UPDATEINIFILE", 0, true);
+    // for (var i = 0; i < 30; i++) {
+    //     // 实时刷新桌面
+    //     shell.Run("RunDll32 USER32,UpdatePerUserSystemParameters", 0, true);
+    // }
+    shell.Run("regsvr32.exe /s /n /i:/UserInstall %SystemRoot%\\system32\\themeui.dll", 0, true);
 }
 
 /**

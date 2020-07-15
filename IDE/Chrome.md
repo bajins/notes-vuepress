@@ -50,7 +50,7 @@ chrome://flags/#enable-parallel-downloading
 **Network测量资源的加载时间隐藏**
 
 - 老版本，点击`View`后面的多级图（`Show overview`）
-- 老版本，点击最右侧⚙️(设置)去掉 `Show overview` 勾选
+- 新版本，点击最右侧⚙️(设置)去掉 `Show overview` 勾选
 - 勾选`Disable cache`
 
 

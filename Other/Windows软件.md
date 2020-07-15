@@ -440,7 +440,7 @@
 
 
 
-## office
+## Office
 
 * [https://github.com/apache/openoffice](https://github.com/apache/openoffice)
 * [https://zh-cn.libreoffice.org](https://zh-cn.libreoffice.org)
@@ -693,10 +693,7 @@ End Sub
 
 ## 剪贴板
 
-* [https://github.com/hluk/CopyQ](https://github.com/hluk/CopyQ)
-
-> 可设置<kbd>Win</kbd> + <kbd>v</kbd>快捷键
-
+* [https://github.com/hluk/CopyQ](https://github.com/hluk/CopyQ) 可设置<kbd>Win</kbd> + <kbd>v</kbd>快捷键
 * [https://www.clipboardfusion.com](https://www.clipboardfusion.com)
 * [https://clipber.com](https://clipber.com)
 * [https://ditto-cp.sourceforge.io](https://ditto-cp.sourceforge.io)
