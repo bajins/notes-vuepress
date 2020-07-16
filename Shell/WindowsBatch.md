@@ -501,41 +501,23 @@ echo %十进制%
 
 
 
-## 获取管理员权限
+## 管理员权限
 
-- Windows10启用管理员
-
-> 快捷键<kbd>Win</kbd> + <kbd>r</kbd> 打开“运行”输入`gpedit.msc`并运行 -> `Windows 设置` -> `安全设置` -> `安全选项`
-
-> 禁用：`用户账户控制：以管理员批准模式运行所有管理员`
-
-> 禁用：`用户账户控制：用于内置管理员账户的管理员批准模式`
-
-> 启用：`账户：管理员账户状态`
+- Windows10启用管理员：快捷键<kbd>Win</kbd> + <kbd>r</kbd> 打开“运行”输入`gpedit.msc`并运行 -> `Windows 设置` -> `安全设置` -> `安全选项`
+    - 禁用：`用户账户控制：以管理员批准模式运行所有管理员`
+    - 禁用：`用户账户控制：用于内置管理员账户的管理员批准模式`
+    - 启用：`账户：管理员账户状态`
 
 
-- 方式一
+- 判断
 
 ```batch
-@echo off
-cacls.exe "%SystemDrive%\System Volume Information" >nul 2>nul
-if exist "%temp%\getadmin.vbs" del /f /q "%temp%\getadmin.vbs"
-
-:: 下面为执行命令
-
+md "%~dp0$testAdmin$" 2>nul
+if not exist "%~dp0$testAdmin$" (
+    echo 不具备所在目录的写入权限! >&2
+    exit /b 1
+) else rd "%~dp0$testAdmin$"
 ```
-
-- 方式二
-
-```batch
-fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",1)(window.close)
-
-:: 下面为执行命令
-
-```
-
-
-- 方式三
 
 ```batch
 @echo off
@@ -543,41 +525,68 @@ fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellE
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
 :: 如果没有管理员权限，就请求管理权限
 if '%errorlevel%' NEQ '0' (
-    goto UACPrompt
-) else ( goto gotAdmin )
+    echo 不具备所在目录的写入权限! >&2
+    exit /b 1
+)
+```
 
+```batch
+@echo off
+:: 检查权限
+net session >nul 2>&1 
+if not "%errorLevel%" == "0" ( 
+    echo 不具备所在目录的写入权限! >&2
+    exit /b 1
+)
+```
+
+```batch
+reg query HKU\S-1-5-20>nul 2>nul
+if not "%errorLevel%" == "0" ( 
+    echo 不具备所在目录的写入权限! >&2
+    exit /b 1
+)
+```
+
+
+**获取管理员权限**
+
+```batch
+@echo off
+fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",1)(window.close)
+
+:: 下面为执行命令
+
+```
+
+```batch
+@echo off
+:-------------------------------------------------------------------------------
+>nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
+if '%errorlevel%' NEQ '0' ( goto UACPrompt ) else ( goto GetAdmin )
 :UACPrompt
-    echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"
-    echo UAC.ShellExecute "%~s0", "", "", "runas", 1 >> "%temp%\getadmin.vbs"
+    ::if not "%~1"=="" set file= ""%~1""
+    ::echo CreateObject("Shell.Application").ShellExecute "cmd.exe", "/c %~s0%file%", "", "runas", 1 > "%temp%\getadmin.vbs"
+    echo CreateObject^("Shell.Application"^).ShellExecute "%~s0", "%*", "", "runas", 1 > "%temp%\getadmin.vbs" 
     "%temp%\getadmin.vbs"
     exit /B
-
-:gotAdmin
+:GetAdmin
     if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )
     pushd "%CD%"
     CD /D "%~dp0"
-
-:begin
-
-:: 下面为执行命令
-
-```
-
-- 方式四
-
-```batch
-%1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)
-cd /d "%~dp0"
+:StartCommand
+:-------------------------------------------------------------------------------
 
 :: 下面为执行命令
 
 ```
+
 
 
 ## 隐藏窗口运行
 
 
-**[vbs脚本](/System/WindowsScript.md#vbs函数封装)**
+**[vbs脚本](/Shell/WindowsScript.md#vbs函数封装)**
 
 > 此方式完全不会显示`CMD`窗口（包括闪现）
 
@@ -620,6 +629,7 @@ start /wait /B "" "%~dp0软件名称" /ADD
 Pushd %~dp0
 start /wait /B "" "%~dp0软件名称" /DEL
 ````
+
 
 ## 刷新桌面
 
