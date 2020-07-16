@@ -8,10 +8,10 @@
 
 ## flag
 
-* [Web 技术教程-W3School](https://www.w3school.com.cn/index.html)
-* [Web 开发技术-MDN](https://developer.mozilla.org/zh-CN/docs/Web)
-* [Web API](https://developer.mozilla.org/zh-CN/docs/Web/API)
-* [W3C 网页标准教程](http://www.w3chtml.com)
+* Web 技术教程-W3School [https://www.w3school.com.cn/index.html](https://www.w3school.com.cn/index.html)
+* Web 开发技术-MDN [https://developer.mozilla.org/zh-CN/docs/Web](https://developer.mozilla.org/zh-CN/docs/Web)
+* Web API [https://developer.mozilla.org/zh-CN/docs/Web/API](https://developer.mozilla.org/zh-CN/docs/Web/API)
+* W3C 网页标准教程 [http://www.w3chtml.com](http://www.w3chtml.com)
 * [https://github.com/junruchen/junruchen.github.io/wiki](https://github.com/junruchen/junruchen.github.io/wiki)
 * [https://github.com/mathjax](https://github.com/mathjax)
 
@@ -45,19 +45,11 @@
 * [https://github.com/ShizukuIchi/winXP](https://github.com/ShizukuIchi/winXP)
 
 
-**Rust**
-
-* [https://github.com/rust-lang](https://github.com/rust-lang)
-* [http://www.rust-lang.org](http://www.rust-lang.org)
-* [http://doc.rust-lang.org](http://doc.rust-lang.org)
-
 
 
 ## 框架
 
-* [jquery](https://jquery.com)
-* [添加XHR2 responseType支持的jQuery插件](https://github.com/acigna/jquery-ajax-native)
-* [bootstrap](https://github.com/twbs/bootstrap)
+* [https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap)
   * [https://www.bootcss.com](https://www.bootcss.com)
 * [neditor 基于ueditor的更现代化的富文本编辑器，支持HTTPS](https://github.com/notadd/neditor)
 * [WebUploader是一个简单的以HTML5为主，FLASH为辅的现代文件上传组件](https://github.com/fex-team/webuploader)

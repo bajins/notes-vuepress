@@ -110,6 +110,12 @@ module.exports = {
             sidebarLinkSelector: '.sidebar-link',
             headerAnchorSelector: '.header-anchor'
         }],
+        ['@vuepress-reco/vuepress-plugin-rss', {
+            site_url: 'https://woytu.github.io',
+            copyright: "bajins.com",
+            //filter:"",
+            count: "20",
+        }],
         // 添加自定义容器
         // ['container', {
         //     type: 'vue',

@@ -55,6 +55,8 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 
 ## 第三方依赖库
 
+* [https://github.com/jquery/jquery](https://github.com/jquery/jquery)
+  * 添加XHR2 responseType支持的jQuery插件 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
 * [JavaScript 日期处理类库](https://github.com/moment/moment)
     * [http://momentjs.cn](http://momentjs.cn)
 * [https://github.com/matthewhudson/current-device](https://github.com/matthewhudson/current-device)
@@ -68,7 +70,7 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * [https://github.com/pixijs/pixi.js](https://github.com/pixijs/pixi.js)
 * [https://github.com/zenorocha/clipboard.js](https://github.com/zenorocha/clipboard.js)
     * [http://www.clipboardjs.cn](http://www.clipboardjs.cn)
-
+* 用于缩放图像 [https://github.com/francoischalifour/medium-zoom](https://github.com/francoischalifour/medium-zoom)
 
 
 

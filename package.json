@@ -59,6 +59,7 @@
         "vue-toasted": "^1.1.28",
         "vuepress": "^1.5.2",
         "vuepress-plugin-flowchart": "^1.4.3",
+        "vuepress-plugin-rss": "^2.0.0",
         "vuepress-theme-reco": "^1.5.3"
     }
 }
