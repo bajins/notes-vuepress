@@ -31,9 +31,7 @@
 + [添加快捷方式](/files/添加快捷方式.bat)
 + [设置必应壁纸](/files/设置必应壁纸.bat)
 + [设置GitHub的Hosts](/files/设置github的hosts.bat)
-+ [frpc.bat](/files/frpc.bat)
-
-> 会自动检测本地`fprc`是否为最新版本，如果不是或者没有则下载最新版
++ [frpc.bat](/files/frpc.bat) 会自动检测本地`fprc`是否为最新版本，如果不是或者没有则下载最新版
 
 
 - `if`和`for`的条件与后面跟的`(`之间必须要有一个空格，否则会出现`命令语法不正确`的问题！
@@ -248,15 +246,6 @@ set path=%path%;D:\test
 ```batch
 setx path "%path%;D:\test"
 setx /m path "%path%;D:\test"
-```
-
-
-## 清除屏幕
-
-> 类似于linux下的clear
-
-```batch
-cls
 ```
 
 
@@ -585,15 +574,14 @@ if '%errorlevel%' NEQ '0' ( goto UACPrompt ) else ( goto GetAdmin )
 
 ## 隐藏窗口运行
 
+**此方式完全不会显示`CMD`窗口（包括闪现） [vbs脚本](/Shell/WindowsScript.md#vbs函数封装)**
 
-**[vbs脚本](/Shell/WindowsScript.md#vbs函数封装)**
+**此方式会闪现`CMD`窗口 bat脚本**
 
-> 此方式完全不会显示`CMD`窗口（包括闪现）
-
-
-**bat脚本**
-
-> 此方式会闪现`CMD`窗口
+> 如果运行的批处理名为`a.bat`，在`C:\`下，那`%~0`代表`C:\a.bat`，`%~nx0`代表`a.bat`。`h`极为参数`%1`，`0`表示隐藏运行。
+>
+> 由于你双击运行，故第一次批处理`%1`为空，`if`不成立，转而运行下一句。
+> 然后再次打开自己，并传递参数`h`，此时`if`成立，跳转至`begin`开始运行。
 
 ```batch
 @echo off
@@ -605,12 +593,6 @@ mshta vbscript:createobject("wscript.shell").run("%~0 h",0)(window.close)&&exit
 :: 下面为执行命令
 
 ```
-
-> 如果运行的批处理名为`a.bat`，在`C:\`下，那`%~0`代表`C:\a.bat`，`%~nx0`代表`a.bat`。`h`极为参数`%1`，`0`表示隐藏运行。
->
-> 由于你双击运行，故第一次批处理`%1`为空，`if`不成立，转而运行下一句。
-> 然后再次打开自己，并传递参数`h`，此时`if`成立，跳转至`begin`开始运行。
-
 
 ```batch
 :: 静默运行软件
