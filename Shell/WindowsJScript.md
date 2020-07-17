@@ -97,6 +97,35 @@ pause&exit
 
 ```
 
+- 缺陷：需要包裹html标签
+
+
+```batch
+<!-- :
+@echo off
+for /f "delims=" %%a in ('mshta "%~f0"') do echo;%%a
+pause&exit /b
+-->
+
+<input type=file id=f>
+<script>
+
+f.click();
+new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).Write(f.value);
+
+var Shell = new ActiveXObject("Shell.Application");
+var Folder = Shell.BrowseForFolder(0, "请选择文件夹", 0); //起始目录为：桌面
+if (Folder != null) {
+    Folder = Folder.items();
+    Folder = Folder.item();
+    Folder = Folder.Path;
+    new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).Write(Folder);
+}
+close();
+
+</script>
+```
+
 
 ### 参数传递
 

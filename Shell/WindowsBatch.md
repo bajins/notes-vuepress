@@ -550,7 +550,7 @@ fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellE
 
 ```batch
 @echo off
-:-------------------------------------------------------------------------------
+::-------------------------------------------------------------------------------
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
 if '%errorlevel%' NEQ '0' ( goto UACPrompt ) else ( goto GetAdmin )
 :UACPrompt
@@ -564,7 +564,7 @@ if '%errorlevel%' NEQ '0' ( goto UACPrompt ) else ( goto GetAdmin )
     pushd "%CD%"
     CD /D "%~dp0"
 :StartCommand
-:-------------------------------------------------------------------------------
+::-------------------------------------------------------------------------------
 
 :: 下面为执行命令
 
