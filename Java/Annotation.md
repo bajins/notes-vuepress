@@ -206,6 +206,7 @@
 
 * [https://beanvalidation.org](https://beanvalidation.org)
 * [这么写参数校验(validator)就不会被劝退了](https://juejin.im/post/5d3fbeb46fb9a06b317b3c48)
+* [四款数据校验的类(Validate)](https://blog.csdn.net/king101125s/article/details/104356059)
 
 | 注解                               	| 支持Java类型                                          	| 备注                                                         	|
 |------------------------------------	|-------------------------------------------------------	|--------------------------------------------------------------	|

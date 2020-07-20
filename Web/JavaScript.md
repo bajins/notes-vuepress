@@ -57,6 +57,8 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 
 * [https://github.com/jquery/jquery](https://github.com/jquery/jquery)
   * 添加XHR2 responseType支持的jQuery插件 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
+  * [https://github.com/tonytomov/jqGrid](https://github.com/tonytomov/jqGrid)
+  * [https://github.com/jquery-validation](https://github.com/jquery-validation)
 * [JavaScript 日期处理类库](https://github.com/moment/moment)
     * [http://momentjs.cn](http://momentjs.cn)
 * [https://github.com/matthewhudson/current-device](https://github.com/matthewhudson/current-device)

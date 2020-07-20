@@ -28,19 +28,17 @@
 
 * [String Constants](https://docs.microsoft.com/zh-cn/previous-versions//hh277t8e%28v%3dvs.85%29)
 
-
-| 常数            | 值                             | 描述                         |
-|---------------|-------------------------------|----------------------------|
-| vbCr          | Chr(13)                       | 回车符 `\r`                       |
-| vbLf          | Chr(10)                       | 换行符 `\n`                       |
-| vbCrLf        | Chr(13)&Chr(10)               | 回车符与换行符 `\r\n`                   |
-| vbFormFeed    | Chr(12)                           | 换页符；在MicrosoftWindows中不适用。 |
-| vbNewLine     | Chr(13)&Chr(10)或Chr(10)          | 平台指定的新行字符；适用于任何平台。         |
-| vbNullChar    | Chr(0)                            | 值为0的字符。                    |
-| vbNullString  | 值为0的字符串                       | 与零长度字符串("")不同；用于调用外部过程。  |
-| vbTab         | Chr(9)                            | 水平附签。                      |
-| vbVerticalTab | Chr(11)                           | 垂直附签；在MicrosoftWindows中不用  |
-
+| 常数          	| 值                       	| 描述                                       	|
+|---------------	|--------------------------	|--------------------------------------------	|
+| vbCr          	| Chr(13)                  	| 回车符 `\r`                                	|
+| vbLf          	| Chr(10)                  	| 换行符 `\n`                                	|
+| vbCrLf        	| Chr(13)&Chr(10)          	| 回车符与换行符 `\r\n`                      	|
+| vbFormFeed    	| Chr(12)                  	| 换页符；在MicrosoftWindows中不适用。       	|
+| vbNewLine     	| Chr(13)&Chr(10)或Chr(10) 	| 平台指定的新行字符；适用于任何平台。       	|
+| vbNullChar    	| Chr(0)                   	| 值为0的字符。                              	|
+| vbNullString  	| 值为0的字符串            	| 与零长度字符串("")不同；用于调用外部过程。 	|
+| vbTab         	| Chr(9)                   	| 水平附签。                                 	|
+| vbVerticalTab 	| Chr(11)                  	| 垂直附签；在MicrosoftWindows中不用         	|
 
 
 
