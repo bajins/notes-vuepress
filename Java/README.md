@@ -46,6 +46,7 @@
 ## 学习
 
 - [技术集合归档](https://blog.52itstyle.vip/architecture.html)
+- Java 全栈知识体系 [https://www.pdai.tech](https://www.pdai.tech)
 
 + [https://github.com/Snailclimb/awesome-java](https://github.com/Snailclimb/awesome-java)
 

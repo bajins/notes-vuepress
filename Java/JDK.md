@@ -9,11 +9,8 @@
 
 * [https://www.ej-technologies.com](https://www.ej-technologies.com)
 * [https://github.com/oracle/graal](https://github.com/oracle/graal)
-* [http://jdk.java.net/zgc/](http://jdk.java.net/zgc/)
-* [https://wiki.openjdk.java.net/display/zgc/Main](https://wiki.openjdk.java.net/display/zgc/Main)
 * [http://openjdk.java.net/jeps/333](http://openjdk.java.net/jeps/333)
 
-![](/images/jvm参数统计.png)
 
 
 
@@ -110,6 +107,24 @@
 
 
 ## JVM
+
++ [有关Java HotSpot VM的常见问题](https://www.oracle.com/java/technologies/hotspotfaq.html)
++ [JVM的那些常用参数以及命令](https://segmentfault.com/a/1190000020656202)
+
+* [http://jdk.java.net/zgc/](http://jdk.java.net/zgc/)
+* [https://wiki.openjdk.java.net/display/zgc/Main](https://wiki.openjdk.java.net/display/zgc/Main)
+* [G1垃圾收集器入门](https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html)
+* [Java平台，标准版HotSpot虚拟机垃圾收集调优指南](https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/introduction.html)
+* [Java HotSpot VM选项 - 仅适用于JDK 7和早期版本](https://www.oracle.com/java/technologies/javase/vmoptions-jsp.html)
+* [Java SE 6 HotSpot 虚拟机垃圾收集优化](https://www.oracle.com/java/technologies/javase/gc-tuning-6.html)
+
+- JVM配置工具 [https://render.alipay.com/p/s/jvm-generate/JvmGenerate](https://render.alipay.com/p/s/jvm-generate/JvmGenerate)
+- [http://jvmmemory.com](http://jvmmemory.com)
+- [https://console.perfma.com](https://console.perfma.com)
+
+
+![](/images/jvm参数统计.png)
+
 
 > 因为Tomcat运行在JAVA虚拟机之上,适当调整运行JVM参数可以提升整体性能。
 
