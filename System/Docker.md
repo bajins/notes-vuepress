@@ -33,10 +33,10 @@
     * [https://cloud.ibm.com/shell](https://cloud.ibm.com/shell)
     * [http://cli.cloudfoundry.org/zh-Hans/cf](http://cli.cloudfoundry.org/zh-Hans/cf)
 
-1. 使用ssh部署代码是错误的。正确做法是使用`ibmcloud cf push` 或者 `ibmcloud cf ssh` 命令。
+1. 使用ssh部署代码是错误的。正确做法是先进入 `ibmcloud target --cf` 使用 `ibmcloud cf push` 或者 `ibmcloud cf ssh` 命令。
 2. 在push的代码目录里创建.bp-config配置文件，可以修改app的启动行为、可以修改`php.ini`等。否则你的container和其他服务做链接时就会被刷回原始状态。
 3. 10天是指开发行为，必须是类似于`ibm cloud cf restart`或者`cf push`这样的行为，可以用纯shell脚本实现。
-
+4. rclone 需要减少并行运行线程数 `--multi-thread-streams 1 --checkers 1`
 
 
 + podman [https://github.com/containers](https://github.com/containers)

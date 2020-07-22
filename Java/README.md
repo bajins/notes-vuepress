@@ -234,6 +234,9 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 + [JSch-用java实现服务器远程操作](https://segmentfault.com/a/1190000019967309)
 + [https://github.com/apache/maven-wagon](https://github.com/apache/maven-wagon)
 
+* [https://projects.eclipse.org/projects/technology.microprofile](https://projects.eclipse.org/projects/technology.microprofile)
+    * [https://github.com/eclipse/microprofile](https://github.com/eclipse/microprofile)
+
 
 **Cache**
 
