@@ -49,6 +49,7 @@
 
 **华北地区：**
 * 清华大学（[IPv4 & IPv6](http://mirrors.tuna.tsinghua.edu.cn), [IPv4](http://mirrors.4.tuna.tsinghua.edu.cn), [IPv6](http://mirrors.6.tuna.tsinghua.edu.cn)）
+* 北京外国语大学（[IPv4](https://mirrors.bfsu.edu.cn)）
 * 北京理工大学（[IPv4](http://mirror.bit.edu.cn), [IPv6](http://mirror.bit6.edu.cn)）
 * 北京交通大学（[IPv4 & IPv6](http://mirror.bjtu.edu.cn)）
 * 天津大学（[IPv4](http://mirror.tju.edu.cn), [IPv6](http://mirror.tju6.edu.cn)）

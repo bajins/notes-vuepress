@@ -21,9 +21,11 @@
 > 但是会将翻译过的代码缓存起来以降低性能损耗。相对于静态编译代码，即时编译的代码可以处理延迟绑定并增强安全性。
 
 + [https://www.python.org](https://www.python.org)
+    + [https://docs.python.org/zh-cn](https://docs.python.org/zh-cn)
+    + [https://www.python.org/ftp/python](https://www.python.org/ftp/python)
+    + [http://npm.taobao.org/mirrors/python](http://npm.taobao.org/mirrors/python)
 
 * [GO-Node-Python的简单性能比较](https://www.izhongxia.com/posts/64310.html)
-* [https://docs.python.org/zh-cn](https://docs.python.org/zh-cn)
 * [内置异常和函数](https://lichangke.github.io/category/#python)
 * [Python语言小册](https://python.fasionchan.com/zh_CN/latest/index.html)
 * 最良心的 Python 教程 [https://github.com/TwoWater/Python](https://github.com/TwoWater/Python)
@@ -35,6 +37,7 @@
 * [https://zmister.com](https://zmister.com)
 * [python3基础教程](https://morvanzhou.github.io/tutorials/python-basic/basic)
 * Python中的设计模式和习惯用法的集合 [https://github.com/faif/python-patterns](https://github.com/faif/python-patterns)
+* Python中文网 [https://www.cnpython.com](https://www.cnpython.com)
 
 
 + [https://github.com/vinta/awesome-python](https://github.com/vinta/awesome-python)
@@ -66,7 +69,7 @@ gdbm-devel db4-devel libpcap-devel xz-devel libffi-devel
 
 ### 下载安装包解压
 
-> 到官网复制最新版下载地址 https://www.python.org/downloads/release
+* 到官网复制最新版下载地址 https://www.python.org/downloads/release
 
 ```bash
 wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tar.xz
@@ -113,23 +116,20 @@ vi /usr/libexec/urlgrabber-ext-down
 ```
 
 
-
-
-
-
 ## pip
 
 * [Python包管理工作流](https://frostming.com/2018/09-14/python-packaging-flow)
 
 
-### 换源
+### 镜像源
 
-* [https://pypi.org/](https://pypi.org)
+* [https://pypi.python.org](https://pypi.python.org)
+* [https://pypi.org](https://pypi.org)
 
 
-* 阿里云 [https://mirrors.aliyun.com/pypi/simple](https://mirrors.aliyun.com/pypi/simple)
-* 中国科技大学 [https://pypi.mirrors.ustc.edu.cn/simple](https://pypi.mirrors.ustc.edu.cn/simple)
-* 清华大学 [https://pypi.tuna.tsinghua.edu.cn/simple](https://pypi.tuna.tsinghua.edu.cn/simple)
+- 阿里云 [https://mirrors.aliyun.com/pypi/simple](https://mirrors.aliyun.com/pypi/simple)
+- 中国科技大学 [https://pypi.mirrors.ustc.edu.cn/simple](https://pypi.mirrors.ustc.edu.cn/simple)
+- 清华大学 [https://pypi.tuna.tsinghua.edu.cn/simple](https://pypi.tuna.tsinghua.edu.cn/simple)
 
 * 豆瓣(douban) [http://pypi.douban.com/simple](http://pypi.douban.com/simple)
 * 中国科学技术大学 [http://pypi.mirrors.ustc.edu.cn/simple](http://pypi.mirrors.ustc.edu.cn/simple)
@@ -137,23 +137,19 @@ vi /usr/libexec/urlgrabber-ext-down
 * 山东理工大学 [http://pypi.sdutlinux.org](http://pypi.sdutlinux.org)
 * 上海交通大学 [https://mirrors.sjtug.sjtu.edu.cn/pypi](https://mirrors.sjtug.sjtu.edu.cn/pypi)
 
-- 安装单个库使用
 
-> 可以在使用pip的时候加参数`-i 网址`
->
-> 注意如果不是`https`协议网址需要加`--trusted-host`参数
+- 安装单个库
 
 ```batch
+# 使用pip参数`-i 网址`，如果不是`https`协议网址需要加`--trusted-host`参数
 pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com requests
 ```
-
 
 - 使用命令全局配置
 
 ```bash
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-
 
 - 编辑文件全局配置
 
