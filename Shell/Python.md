@@ -20,26 +20,35 @@
 > `PyPy`使用了`JIT`（即时编译）技术，混合了动态编译和静态编译的特性，仍然是一句一句编译源代码，
 > 但是会将翻译过的代码缓存起来以降低性能损耗。相对于静态编译代码，即时编译的代码可以处理延迟绑定并增强安全性。
 
++ [https://www.python.org](https://www.python.org)
+
 * [GO-Node-Python的简单性能比较](https://www.izhongxia.com/posts/64310.html)
 * [https://docs.python.org/zh-cn](https://docs.python.org/zh-cn)
 * [内置异常和函数](https://lichangke.github.io/category/#python)
 * [Python语言小册](https://python.fasionchan.com/zh_CN/latest/index.html)
+* 最良心的 Python 教程 [https://github.com/TwoWater/Python](https://github.com/TwoWater/Python)
+* [https://github.com/xxg1413/python](https://github.com/xxg1413/python)
 * [https://github.com/yidao620c/python3-cookbook](https://github.com/yidao620c/python3-cookbook)
 * [https://github.com/eastlakeside/interpy-zh](https://github.com/eastlakeside/interpy-zh)
 * [https://github.com/cloga/scipy-lecture-notes_cn](https://github.com/cloga/scipy-lecture-notes_cn)
 * [https://www.junmajinlong.com/python/index](https://www.junmajinlong.com/python/index)
 * [https://zmister.com](https://zmister.com)
 * [python3基础教程](https://morvanzhou.github.io/tutorials/python-basic/basic)
+* Python中的设计模式和习惯用法的集合 [https://github.com/faif/python-patterns](https://github.com/faif/python-patterns)
 
 
-+ [精选的Python框架，库，软件和资源的精选列表](https://github.com/vinta/awesome-python)
++ [https://github.com/vinta/awesome-python](https://github.com/vinta/awesome-python)
 + [python3 中执行系统命令](https://www.jianshu.com/p/a19de14c4b57)
 + [Python图像处理库—-Pillow](https://www.lizenghai.com/archives/17611.html)
 + [https://github.com/aio-libs](https://github.com/aio-libs)
 + [Python Selenium教程 - 猿人学Python](https://www.yuanrenxue.com/python-selenium)
 
+- [https://github.com/topics/python](https://github.com/topics/python)
+    - [https://github.com/ipython](https://github.com/ipython)
+    - 用Python实现的所有算法 [https://github.com/TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
+    - 纠正以前的控制台命令中的错误 [https://github.com/nvbn/thefuck](https://github.com/nvbn/thefuck)
+    - 命令行HTTP客户端 [https://github.com/jakubroztocil/httpie](https://github.com/jakubroztocil/httpie)
 
-- [https://github.com/ipython](https://github.com/ipython)
 
 
 ## 安装新版
@@ -486,7 +495,7 @@ pip install sqlalchemy
 
 
 
-## gc
+## GC
 
 * [https://docs.python.org/zh-cn/3.8/library/gc.html](https://docs.python.org/zh-cn/3.8/library/gc.html)
 * [https://docs.python.org/zh-cn/3/library/tracemalloc.html](https://docs.python.org/zh-cn/3/library/tracemalloc.html)

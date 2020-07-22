@@ -10,6 +10,7 @@
 * [https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China](https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China)
 * [xvfb可以将屏幕的图像输出给放到虚拟内存中](https://blog.csdn.net/wkb342814892/article/details/81591394)
 * 一个基于webkit的JavaScript API [https://github.com/ariya/phantomjs](https://github.com/ariya/phantomjs)
+* [https://github.com/scrapy/scrapy](https://github.com/scrapy/scrapy)
 
 
 **[xpath和css选择器](/Web/README.md#xpath和css选择器)**

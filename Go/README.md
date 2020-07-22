@@ -32,9 +32,9 @@
 * 《[Go 编程基础](https://github.com/Unknwon/go-fundamental-programming)》是一套针对Go语言的视频语音教程，主要面向新手级别的学习者。
 * [第三方类库](https://golanglibs.com)
 * [Go 官方文档翻译](https://github.com/golang-china/golangdoc.translations)
-* [Go 指南](https://tour.go-zh.org/list) (《A Tour of Go》中文版)
+* [Go 指南](https://tour.go-zh.org/list)
 * [Go 简易教程](https://github.com/songleo/the-little-go-book_ZH_CN)
-(《 [The Little Go Book](https://github.com/karlseguin/the-little-go-book) 》中文版)
+    * 中文版 [https://github.com/karlseguin/the-little-go-book](https://github.com/karlseguin/the-little-go-book)
 * [Go 语言实战笔记](https://github.com/rujews/go-in-action-notes)
 * [Go 语言标准库](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
 * [Go 语言高级编程（Advanced Go Programming）](https://github.com/chai2010/advanced-go-programming-book)

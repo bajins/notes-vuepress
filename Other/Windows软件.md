@@ -51,6 +51,7 @@
 * [http://luxiaoneng.com](http://luxiaoneng.com/category/%e5%b7%a5%e5%85%b7%e5%8c%85)
 * [https://www.zrbk.xyz](https://www.zrbk.xyz)
 * [http://yx.bsh.me](http://yx.bsh.me)
+* [耗子爱吃草](http://www.haozi666.com)
 
 
 **论坛**
