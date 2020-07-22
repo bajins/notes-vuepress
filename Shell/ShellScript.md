@@ -166,7 +166,7 @@ expect {
   \"*Username*\" {send \"${push_username}\r\"; exp_continue}
   \"*Password*\" {send \"${push_password}\r\";}
 }
-# 问题回答完毕等待`expect`进程结束
+# 问题回答完毕等待expect进程结束
 expect eof
 "
 ```
@@ -239,7 +239,7 @@ send -- "$push_password\n"
 
 # 允许用户交互
 interact
-# 问题回答完毕等待`expect`进程结束
+# 问题回答完毕等待expect进程结束
 expect eof
 ```
 
@@ -262,7 +262,7 @@ puts "\n secon = $secon"
 puts "\n yestoday_secon = $yestoday_secon"
 puts "\n yestoday = $yestoday"
 
-# 问题回答完毕等待`expect`进程结束
+# 问题回答完毕等待expect进程结束
 expect eof
 "
 ```
@@ -381,7 +381,7 @@ expect {
   \"*password*\" {send \"${des_pass}\r\";}
 }
 
-# 问题回答完毕等待`expect`进程结束
+# 问题回答完毕等待expect进程结束
 expect eof
 "
 exit

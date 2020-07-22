@@ -279,7 +279,7 @@ CURRENT_TIMESTAMP { + INTERVAL 1 [HOUR|MONTH|WEEK|DAY|MINUTE|...] }
 >>
 >> `current_date` 
 
-### 获得当前时间`time`函数
+### 获得当前时间time函数
 
 - `curtime()`
 
@@ -288,7 +288,7 @@ CURRENT_TIMESTAMP { + INTERVAL 1 [HOUR|MONTH|WEEK|DAY|MINUTE|...] }
 >>
 >> `current_time` 
 
-### 获得当前`UTC`日期时间函数
+### 获得当前UTC日期时间函数
 
 - `utc_date()`
 
@@ -659,7 +659,7 @@ update user set authentication_string = password('新密码'),password_expired =
 ```sql
 # 使用set设置密码
 set password for 'root'@'localhost'=password('123456');
-# 或者使用`update`修改
+# 或者使用update修改
 update user set password=PASSWORD("123456") where user='root';
 ```
 

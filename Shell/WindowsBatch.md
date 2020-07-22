@@ -279,7 +279,7 @@ ipconfig /flushdns
 netstat -an | find "0.0.0.0:80"
 ```
 
-### 查看占用的`pid`
+### 查看占用的pid
 
 > 在`windows`系统下，不能直接使用反引号执行命令，要使用`for`循环变通下，在`for`循环中使用单`'`括起来执行命令
 

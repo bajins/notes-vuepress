@@ -346,7 +346,7 @@ location ~* \.(gif|jpg|swf)$ {
 
 
 
-## 判断`user_agent`
+## 判断user_agent
 
 ```nginx
 # 设置变量
@@ -378,7 +378,7 @@ if ( $http_user_agent ~ "$mobile_user_agent" ) {
 
 
 
-## `proxy_pass`指令
+## proxy_pass指令
 
 > nginx无法在`proxy_pass`指令中处理所需的URI部分，因为位于指定的位置（因此是错误消息）。
 > 这是因为nginx是以模块化的方式构建的，每个配置块都是由各个模块在各个阶段读取的。

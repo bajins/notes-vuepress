@@ -18,6 +18,7 @@
 * [Docker进阶实用命令](https://sleele.com/2018/09/27/docker%e8%bf%9b%e9%98%b6%e5%ae%9e%e7%94%a8%e5%91%bd%e4%bb%a4/)
 * [https://sleele.com/category/docker/](https://sleele.com/category/docker/)
 * [https://docs.microsoft.com/zh-cn/virtualization](https://docs.microsoft.com/zh-cn/virtualization)
+* [https://developer.ibm.com/zh/technologies/containers](https://developer.ibm.com/zh/technologies/containers)
 
 - [https://kanyways.github.io](https://kanyways.github.io)
 
@@ -28,6 +29,14 @@
 - [随笔分类 - Docker](https://www.cnblogs.com/itoak/category/1769634.html)
 
 * [https://cloud.google.com/container-registry](https://cloud.google.com/container-registry)
+* [https://cloud.ibm.com/cloudfoundry/overview](https://cloud.ibm.com/cloudfoundry/overview)
+    * [https://cloud.ibm.com/shell](https://cloud.ibm.com/shell)
+    * [http://cli.cloudfoundry.org/zh-Hans/cf](http://cli.cloudfoundry.org/zh-Hans/cf)
+
+1. 使用ssh部署代码是错误的。正确做法是使用`ibmcloud cf push` 或者 `ibmcloud cf ssh` 命令。
+2. 在push的代码目录里创建.bp-config配置文件，可以修改app的启动行为、可以修改`php.ini`等。否则你的container和其他服务做链接时就会被刷回原始状态。
+3. 10天是指开发行为，必须是类似于`ibm cloud cf restart`或者`cf push`这样的行为，可以用纯shell脚本实现。
+
 
 
 + podman [https://github.com/containers](https://github.com/containers)

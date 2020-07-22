@@ -453,7 +453,7 @@ firewall-cmd --reload
 
 
 ```bash
-# 查找`svnserve`进程（PID）
+# 查找svnserve进程（PID）
 ps -aux | grep svnserve
 # 结束进程
 kill -9 PID

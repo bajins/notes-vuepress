@@ -139,7 +139,7 @@ ls -l | awk "/postfix|dovecot/"
 
 > `crontab`命令常用于Unix和类Unix的操作系统之中，用于设置周期性被执行的指令
 
-### 编辑`crontab`文件
+### 编辑crontab文件
 
 ```bash
 crontab -e

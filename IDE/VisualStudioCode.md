@@ -56,7 +56,7 @@
 * [https://github.com/EdisonLeeeee/VSCode-keybord-shortcuts](https://github.com/EdisonLeeeee/VSCode-keybord-shortcuts)
 
 
-### 常用`General`
+### 常用General
 
 | 按 Press             | 功能 Function                   |
 |---------------------|-------------------------------|
@@ -68,7 +68,7 @@
 | Ctrl + K Ctrl + S   | 设置键盘快捷方式 Keyboard Shortcuts   |
 
 
-### 基础编辑`Basic editing`
+### 基础编辑Basic editing
 
 | 按 Press              | 功能 Function                                     |
 |----------------------|-------------------------------------------------|
@@ -101,7 +101,7 @@
 
 
 
-### 导航`Navigation`
+### 导航Navigation
 
 | 按 Press            | 功能 Function                                |
 |--------------------|--------------------------------------------|
@@ -117,7 +117,7 @@
 | Ctrl + M           | 切换选项卡移动焦点 Toggle Tab moves focus           |
 
 
-### 搜索和替换`Search and replace`
+### 搜索和替换Search and replace
 
 | 按 Press           | 功能 Function                                                  |
 |-------------------|--------------------------------------------------------------|
@@ -130,7 +130,7 @@
 | Alt + C / R / W   | 切换区分大小写/正则表达式/整个词 Toggle case-sensitive / regex / whole word |
 
 
-### 多光标和选` Multi-cursor and selection`
+### 多光标和选 Multi-cursor and selection
 
 | 按 Press                            | 功能 Function                                               |
 |------------------------------------|-----------------------------------------------------------|
@@ -148,7 +148,7 @@
 | Ctrl + Shift + Alt + PgUp / PgDown | 列（框）选择页上/下 Column (box) selection page up/down            |
 
 
-### 丰富的语言编辑`Rich languages editing`
+### 丰富的语言编辑Rich languages editing
 
 | 按 Press              | 功能 Function                        |
 |----------------------|------------------------------------|
@@ -166,7 +166,7 @@
 | Ctrl + K M           | 更改文件语言 Change file language        |
 
 
-### 编辑器管理`Editor management`
+### 编辑器管理Editor management
 
 | 按 Press                      | 功能 Function                                                  |
 |------------------------------|--------------------------------------------------------------|
@@ -178,7 +178,7 @@
 | Ctrl + Shift + PgUp / PgDown | 向左/向右移动编辑器 Move editor left/right                            |
 | Ctrl + K ← / →               | 移动活动编辑器组 Move active editor group                            |
 
-### 文件管理`File management`
+### 文件管理File management
 
 | 按 Press            | 功能 Function                                            |
 |--------------------|--------------------------------------------------------|
@@ -198,7 +198,7 @@
 | Ctrl + K O         | 显示新窗口/实例中的活动文件 Show active file in new window/instance |
 
 
-### 显示`Display`
+### 显示Display
 
 | 按 Press          | 功能 Function                                         |
 |------------------|-----------------------------------------------------|
@@ -231,7 +231,7 @@
 | Ctrl + K Ctrl + I | 显示悬停 Show hover        |
 
 
-### 集成终端`Integrated terminal`
+### 集成终端Integrated terminal
 
 | 按 Press               | 功能 Function                        |
 |-----------------------|------------------------------------|

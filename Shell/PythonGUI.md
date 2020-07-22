@@ -12,7 +12,7 @@
 
 
 
-## `wxPython`
+## wxPython
 
 * [示例项目tool-gui-python](https://github.com/woytu/tool-gui-python)
 
@@ -83,7 +83,7 @@
 > 给update主题发送消息，`msg`和`status`都是自定义键值对
 
 
-### `wx.Event`的子类
+### wx.Event的子类
 
 * `wx.CloseEvent`:框架关闭时触发，事件类型有普通框架关闭和系统关闭事件。
 * `wx.CommandEvent`：与窗口部件的简单的交互都会触发此事件，如按钮单击，菜单项选择等。
@@ -93,7 +93,7 @@
 * `wx.SizeEvent`:窗口大小或布局改变时触发。
 * `wx.TimerEvent`:由类wx.Timer创建，定期事件。
 
-### `style`样式常量
+### style样式常量
 
 - Frame
 
@@ -548,7 +548,7 @@ if __name__ == "__main__":
 
 
 
-## `PySide`
+## PySide
 
 > `Pyside`最初是为诺基亚开发的，而它是Qt技术的所有者。
 > 当诺基亚将Qt出售给`Digia`（现在是Qt公司）时，Qt4原始`Pyside`代码的所有版权也转移到了Qt公司。
@@ -642,7 +642,7 @@ if __name__ == "__main__":
 
 
 
-## `PyGObject`
+## PyGObject
 
 * [https://pygobject.readthedocs.io/en/latest/](https://pygobject.readthedocs.io/en/latest)
 
@@ -654,7 +654,7 @@ if __name__ == "__main__":
 
 ## 打包
 
-### `PyInstalle`
+### PyInstalle
 
 > PyInstaller 是一个十分有用的第三方库，可以用来打包`Python`应用程序，
 > 打包完的程序就可以在没有安装`Python`解释器的机器上运行了。
@@ -847,7 +847,7 @@ if sys.platform.startswith('win'):
 ```
 
 
-### `py2exe`
+### py2exe
 
 * [http://www.py2exe.org/](http://www.py2exe.org)
 * [https://hoxis.github.io/python-py2exe.html](https://hoxis.github.io/python-py2exe.html)

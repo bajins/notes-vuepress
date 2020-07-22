@@ -329,7 +329,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 ## PyCharm
 
 
-### `Python Script`自定义头注释
+### Python Script自定义头注释
 
 * [预定义模板变量](#预定义模板变量)
 
@@ -380,7 +380,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ## GoLand
 
-### `Go File`自定义头注释
+### Go File自定义头注释
 
 * [预定义模板变量](#预定义模板变量)
 
@@ -407,7 +407,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ## WebStorm
 
-### `JavaScript File`自定义头注释
+### JavaScript File自定义头注释
 
 * [预定义模板变量](#预定义模板变量)
 

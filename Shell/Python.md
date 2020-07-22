@@ -101,7 +101,7 @@ ln -s /usr/local/python3/bin/pip3 /bin/pip3
 python3 -V && pip3 -V
 ```
 
-### 安装后`yum`不能正常使用
+### 安装后yum不能正常使用
 
 - 把 `#!/usr/bin/python` 修改为 `#!/usr/bin/python2`
  
@@ -141,7 +141,7 @@ vi /usr/libexec/urlgrabber-ext-down
 - 安装单个库
 
 ```batch
-# 使用pip参数`-i 网址`，如果不是`https`协议网址需要加`--trusted-host`参数
+# 使用pip参数`-i 网址`，如果不是`https`协议网址需要加--trusted-host参数
 pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com requests
 ```
 

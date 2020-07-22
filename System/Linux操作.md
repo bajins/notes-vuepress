@@ -274,7 +274,7 @@ tmux new -s 会话名 -d "命令"
 
 
 
-### `nohup`
+### nohup
 
 > 如果程序在其他目录下则在命令前加入`cd 目录路径 &&`
 
@@ -313,7 +313,7 @@ nohup python3 ./index.py >/dev/null 2>&1 &
 
 
 
-### `setsid`
+### setsid
 
 > `setsid`就是`set session id`的意思。表示该命令运行的进程是一个新的`session`。因此其父进程不属于当前终端。
 > 实际上`setsid`运行的进程，其父进程id(ppid)为1(init进程的id)。
@@ -332,7 +332,7 @@ setsid python3 ./index.py >/dev/null 2>&1 &
 
 
 
-### `supervisor`
+### supervisor
 
 > `supervisor`是用`Python`开发的一套通用的进程管理程序，能将一个普通的命令行进程变为后台`daemon`，并监控进程状态，异常退出时能自动重启。
 

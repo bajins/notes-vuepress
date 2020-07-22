@@ -529,7 +529,7 @@ jcmd <pid> GC.heap_dump /home/heap.hprof
 
 
 
-## 远程监控配置`JMX`
+## 远程监控配置JMX
 
 > 在jvm启动参数中加入或在Tomcat的`/bin/catalina.sh`文件中加入
 

@@ -6,7 +6,7 @@
 
 
 
-## `os`模块
+## os模块
 
 - `os.chdir(path)`
 
@@ -263,7 +263,7 @@
 > 获取文件的属性信息。
 
 
-## `shutil`模块
+## shutil模块
 
 * [python模块之shutil](https://segmentfault.com/a/1190000016689023?utm_source=tag-newest)
 
@@ -289,7 +289,7 @@ shutil.copytree( olddir, newdir, True/Flase)
 shutil.rmtree( src )
 ```
 
-## `open`方法
+## open方法
 
 | 模式  | 描述                                                                                |
 |-----|-----------------------------------------------------------------------------------|

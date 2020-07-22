@@ -112,6 +112,11 @@ chrome://flags/#enable-parallel-downloading
 - [https://github.com/danny0838/webscrapbook](https://github.com/danny0838/webscrapbook)
 - [https://github.com/mika-cn/maoxian-web-clipper](https://github.com/mika-cn/maoxian-web-clipper)
 
+* [GOOGLE 人机验证(RECAPTCHA)无法显示解决方案(可解决大多数 CSP 问题)](https://blog.azurezeng.com/recaptcha-use-in-china)
+    * [https://github.com/AzureZeng/azurezeng.github.io](https://github.com/AzureZeng/azurezeng.github.io)
+    * [https://github.azurezeng.com/static/HeaderEditor](https://github.azurezeng.com/static/HeaderEditor)
+    * [https://github.com/FirefoxBar/HeaderEditor](https://github.com/FirefoxBar/HeaderEditor)
+
 
 
 ### 视图

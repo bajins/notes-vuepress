@@ -50,7 +50,7 @@ npm install -g @vue/cli
 ![](/images/宝塔WebHook获取url.png)
 
 
-### `netcat`命令
+### netcat命令
 
 * [https://segmentfault.com/a/1190000016626298](https://segmentfault.com/a/1190000016626298)
 
@@ -422,7 +422,7 @@ expect {
   \"*Username*\" {send \"${push_username}\r\"; exp_continue}
   \"*Password*\" {send \"${push_password}\r\";}
 }
-# 问题回答完毕等待`expect`进程结束
+# 问题回答完毕等待expect进程结束
 expect eof
 "
 

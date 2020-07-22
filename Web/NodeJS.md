@@ -10,6 +10,7 @@
 * [NodeJs小册](https://nodejs.fasionchan.com/zh_CN/latest/index.html)
 * [https://github.com/nodejs](https://github.com/nodejs)
 * [https://nodejs.org/zh-cn](https://nodejs.org/zh-cn)
+* [https://developer.ibm.com/zh/technologies/node-js](https://developer.ibm.com/zh/technologies/node-js)
 
 > `node`执行脚本时获取参数`process.argv`数组，下标`0`为执行程序的绝对路径，下标`1`为脚本的绝对路径，
 > 所以真正的参数从下标`2`开始`process.argv.splice(2)`

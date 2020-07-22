@@ -32,7 +32,7 @@ yum remove 软件名
 find / -name 软件名称
 ```
 
-### `checkinstall`
+### checkinstall
 
 > 通过`checkinstall`管理编译安装过程
 
@@ -135,7 +135,7 @@ set number
 
 > `vi /etc/motd`这个文件，可以在里面加入自己喜欢的任何欢迎信息，这段信息将会在登录成功后显示！
 
-### `profile`文件
+### profile文件
 
 > 为每一个运行bash shell的用户执行此文件.当bash shell被打开时,
 > 该文件被读取（即每次新开一个终端，都会执行bashrc）。
@@ -200,7 +200,7 @@ cd /home
 
 
 
-## `yum`操作
+## yum操作
 
 ```bash
 yum -y install 包名（支持*） ：自动选择y，全自动
@@ -218,7 +218,7 @@ yum info nginx(查看当前版本可选)
 yum list installed | grep 包名（不支持*）：确认是否安装过包
 ```
 
-### 安装`EPEL`源
+### 安装EPEL源
 
 ```bash
 yum -y install epel-release 
@@ -232,7 +232,7 @@ yum -y update
 ```
 
 
-## `systemctl`
+## systemctl
 
 > `systemctl`是`CentOS7`的服务管理工具中主要的工具，它融合之前`service`和`chkconfig`的功能于一体。
 
@@ -272,7 +272,7 @@ chkconfig --list | grep mysqld
 chkconfig mysqld on
 ```
 
-## `firewalld`
+## firewalld
 
 ```bash
 # 查看firewalld状态，发现当前是dead状态，即防火墙未开启。
@@ -539,7 +539,7 @@ lsmod | grep bbr
 
 > 注意：并不是所有的都会有此返回值，若没有也属正常。
 
-### CentOS安装新版内核`headers`
+### CentOS安装新版内核headers
 
 ```bash
 yum --enablerepo=elrepo-kernel -y install kernel-ml-headers

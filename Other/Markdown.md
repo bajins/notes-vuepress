@@ -222,7 +222,7 @@ ___
 ```diff
 * [获得当前日期+时间`date+time`函数](#获得当前日期时间datetime函数)
 
-## 获得当前日期+时间`date+time`函数
+## 获得当前日期+时间date+time函数
 ```
 ```diff
 * [获得当前日期+时间（date+time）函数](#获得当前日期时间datetime函数)

@@ -87,7 +87,7 @@ SET GLOBAL log_bin_trust_function_creators=TRUE;
 vim /etc/my.cnf
 ```
 
-### 在`[mysqld]`模块中添加
+### 在[mysqld]模块中添加
 
 ```bash
 lower_case_table_names = 1

@@ -49,7 +49,7 @@ taskkill /f /im chromedriver.exe
 
 
 
-## `HeadlessBrowser`
+## HeadlessBrowser
 
 > `Headless Browser`(无头的浏览器)是没有图形用户界面(GUI)的web浏览器，通常是通过编程或命令行界面来控制的
 
@@ -68,7 +68,7 @@ taskkill /f /im chromedriver.exe
 
 
 
-### `chromedriver`
+### chromedriver
 
 > `Selenium`操作`Chrome`浏览器需要有`ChromeDriver`驱动来协助，`ChromeDriver`与`Chrome`版本对应关系一定要正确
 

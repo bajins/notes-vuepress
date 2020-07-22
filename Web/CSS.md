@@ -80,7 +80,7 @@
 
 
 
-## `Media Queries`
+## Media Queries
 
 > `Media Queries`能在不同的条件下使用不同的样式，使页面在不同在终端设备下达到不同的渲染效果。
 
@@ -201,7 +201,7 @@
 
 
 
-### `bootstrap css`
+### bootstrap css
 
 
 > 先看下面的代码,这是从`bootstrap`中遍历出来的，`min-width`来确认分别是`768`、`992`、`1200`。
@@ -321,7 +321,7 @@ div:hover{
 ```
 
 
-## `Footer`固定在页面底部
+## Footer固定在页面底部
 
 - `Sticky Footer` 并不是什么新的前端概念和技术，它指的就是一种网页效果： 
     - 如果页面内容不足够长时，页脚固定在浏览器窗口的底部；
@@ -362,7 +362,7 @@ div:hover{
 * [fix-footer-page-bottom-flex.html](/files/fix-footer-page-bottom-flex.html)
 
 
-## `Footer`固定在窗口底部
+## Footer固定在窗口底部
 
 * [fix-footer-window-bottom-fixed.html](/files/fix-footer-window-bottom-fixed.html)
 * [fix-footer-window-bottom-sticky.html](/files/fix-footer-window-bottom-sticky.html)

@@ -121,7 +121,7 @@ go test -v -test.run 函数名
 ## 字符串
 
 
-### `strings`包API
+### strings包API
 
 - `strings.HasPrefix(s string, prefix string) bool`：判断字符串s是否以prefix开头
 
@@ -214,7 +214,7 @@ func StringBuilder(p []string) string {
 
 
 
-### `path`包
+### path包
 
 
 | 函数                                                  	| 说明                                 	|
@@ -230,7 +230,7 @@ func StringBuilder(p []string) string {
 
 
 
-### `filepath`包
+### filepath包
 
 
 | 函数                                                  	| 说明                                    	|

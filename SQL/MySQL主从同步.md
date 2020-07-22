@@ -7,7 +7,7 @@
 
 ## 配置主服务器
 
-### 在`[mysqld]`节点下按需添加
+### 在[mysqld]节点下按需添加
 
 ```bash
 [mysqld]
@@ -42,7 +42,7 @@ FLUSH PRIVILEGES;
 
 ## 配置从服务器
 
-### 在`[mysqld]`节点下按需添加
+### 在[mysqld]节点下按需添加
 
 > 从库中的`server-id`值一定不要跟主库的一样
 
