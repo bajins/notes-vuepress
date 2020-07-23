@@ -23,19 +23,6 @@
 * [随笔分类 - Docker](https://www.cnblogs.com/itoak/category/1769634.html)
 * [https://kany.me/tags/docker](https://kany.me/tags/docker)
 
-* [https://cloud.google.com/container-registry](https://cloud.google.com/container-registry)
-    * [https://github.com/GoogleContainerTools](https://github.com/GoogleContainerTools)
-* [https://cloud.ibm.com/cloudfoundry/overview](https://cloud.ibm.com/cloudfoundry/overview)
-    * [https://cloud.ibm.com/shell](https://cloud.ibm.com/shell)
-    * [http://cli.cloudfoundry.org/zh-Hans/cf](http://cli.cloudfoundry.org/zh-Hans/cf)
-    - 使用ssh部署代码是错误的。正确做法是先进入 `ibmcloud target --cf` 使用 `ibmcloud cf push` 或者 `ibmcloud cf ssh` 命令
-        - `ibmcloud cf push 容器名 -b php_buildpack -m 256M -c "wget https://downloads.rclone.org/v1.52.2/rclone-v1.52.2-linux-amd64.zip && unzip rclone-v1.52.2-linux-amd64.zip && cd rclone-v1.52.2-linux-amd64"`
-        - rclone 需要减少并行运行线程数 `--multi-thread-streams 1 --checkers 1`
-            - `ibmcloud cf ssh 容器名 -c "./rclone sync gdrive:/文件夹 onedrive:/文件夹 --multi-thread-streams 1 --checkers 1"`
-    - 在push的代码目录里创建.bp-config配置文件，可以修改app的启动行为、可以修改`php.ini`等。否则你的container和其他服务做链接时就会被刷回原始状态。
-    - 10天是指开发行为，必须是类似于`ibm cloud cf restart`或者`cf push`这样的行为，可以用纯shell脚本实现。
-
-
 + podman [https://github.com/containers](https://github.com/containers)
     + [再见 Docker，是时候拥抱下一代容器工具了](https://mp.weixin.qq.com/s/MDi4RB5V60EGl3ii9usD0Q)
     + [podman初试-和docker对比](https://blog.51cto.com/13447608/2448072)
@@ -58,6 +45,8 @@
 
 - [https://www.daocloud.io/mirror](https://www.daocloud.io/mirror)
 
+> 以下镜像地址需要直接配置在docker中，不能通过浏览器访问
+
 * 阿里云 [https://cr.console.aliyun.com](https://cr.console.aliyun.com)
     * [https://alzgoonw.mirror.aliyuncs.com](https://alzgoonw.mirror.aliyuncs.com)
     * [https://jvqgqnis.mirror.aliyuncs.com](https://jvqgqnis.mirror.aliyuncs.com)
@@ -70,6 +59,22 @@
 * 七牛云加速器 [https://reg-mirror.qiniu.com](https://reg-mirror.qiniu.com)
 * 腾讯云 [https://mirror.ccs.tencentyun.com](https://mirror.ccs.tencentyun.com)
 
+
+
+## 容器服务器
+
+* [https://cloud.google.com/container-registry](https://cloud.google.com/container-registry)
+    * [https://github.com/GoogleContainerTools](https://github.com/GoogleContainerTools)
+* [https://cloud.ibm.com/cloudfoundry/overview](https://cloud.ibm.com/cloudfoundry/overview)
+    * [https://cloud.ibm.com/shell](https://cloud.ibm.com/shell)
+    * [http://cli.cloudfoundry.org/zh-Hans/cf](http://cli.cloudfoundry.org/zh-Hans/cf)
+    - 使用ssh部署代码是错误的。正确做法是先进入 `ibmcloud target --cf` 使用 `ibmcloud cf push` 或者 `ibmcloud cf ssh` 命令
+        - `ibmcloud cf push 容器名 -b php_buildpack -m 256M -c "wget https://downloads.rclone.org/v1.52.2/rclone-v1.52.2-linux-amd64.zip && unzip rclone-v1.52.2-linux-amd64.zip && cd rclone-v1.52.2-linux-amd64"`
+        - rclone 需要减少并行运行线程数 `--multi-thread-streams 1 --checkers 1`
+            - `ibmcloud cf ssh 容器名 -c "./rclone sync gdrive:/文件夹 onedrive:/文件夹 --multi-thread-streams 1 --checkers 1"`
+            - `ibmcloud cf ssh 容器名 -c "./rclone dedupe gdrive:/文件夹 --dedupe-mode newest --multi-thread-streams 1 --checkers 1"`
+    - 在push的代码目录里创建.bp-config配置文件，可以修改app的启动行为、可以修改`php.ini`等。否则你的container和其他服务做链接时就会被刷回原始状态。
+    - 10天是指开发行为，必须是类似于`ibm cloud cf restart`或者`cf push`这样的行为，可以用纯shell脚本实现。
 
 
 
