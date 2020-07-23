@@ -56,6 +56,37 @@
 - 设置眼睛保护色 Window -> Prefences -> General -> Editors -> Text Editors -> Appearance color optins
 
 
+## 代码格式化
+
++ 垂直标尺： `Window` -> `Preferences` -> `General` -> `Editors` -> `Text Editors` -> `Show Print Margin`
+
+- Java 格式化： `Window` -> `Preferences` -> `Java` -> `Code Style` -> `Formatter` -> `New` -> `Edit` -> `Line Wrapping`
+   - `Maximum Line width`
+   - `Set line width for preview window`
+- `Window` -> `Preferences` -> `Java` -> `Code Style` -> `Formatter` -> `New` -> `Edit` -> `Comments`
+   - `Maximum line width for comments`
+- JavaScript 格式化： `Window` -> `Preferences` -> `JavaScript` -> `Code Style` -> `Formatter` -> `New` -> `Edit` -> `Line Wrapping`
+   - `Maximum Line width`
+   - `Set line width for preview window`
+- `Window` -> `Preferences` -> `JavaScript` -> `Code Style` -> `Formatter` -> `New` -> `Edit` -> `Comments`
+   - `Maximum line width for comments`
+- JSP|HTML页面 格式化： `Window` -> `Preferences` -> `Web` -> `HTML Files` -> `Editor`
+   - `Line width`
+   - `Inline Elements` 选中所有 -> `Remove`
+
+
+**设置不格式化注释**
+
+> Eclipse默认自带的风格模板不能直接操作，需要先创建一个新的风格模板才能操作
+
+- `Windows` -> `Preference` -> `Java` –> `Code Style` -> `Formatter` -> `Edit` -> `Comments`
+    - `Enable Javadoc comment formatting` 启用Javadoc注释格式
+    - `Enable block comment formatting` 启用块注释格式
+    - `Format line comments on first column` 格式化第一列上的行注释
+
+
+
+
 ## 自动提示
 
 * [Eclipse 开启代码提示与关闭变量命名补全](https://xienaoban.github.io/posts/32764)
@@ -233,44 +264,6 @@ ${type_declaration}
  * @date: ${date} ${time}
  */
 ```
-
-## 代码格式化
-
-```java
-1.Window->Preferences
-
-// Java 格式化
-2.Java->Code Style->Formatter->New->Edit->Line Wrapping
-3.Maximum Line width = 180
-4.Set line width for preview window = 180
-
-5.Java->Code Style->Formatter->New->Edit->Comments
-6.Maximum line width for comments = 180
-
-// JavaScript 格式化
-2.JavaScript->Code Style->Formatter->New->Edit->Line Wrapping
-3.Maximum Line width = 180
-4.Set line width for preview window = 180
-
-5.JavaScript->Code Style->Formatter->New->Edit->Comments
-6.Maximum line width for comments = 180
-
-// JSP|HTML页面 格式化
-2.Web->HTML Files->Editor
-3.Line width = 180
-4.Inline Elements 选中所有-> Remove
-```
-
-
-## 设置不格式化注释
-
-> Eclipse默认自带的风格模板不能直接操作，需要先创建一个新的风格模板才能操作
-
-- `Windows` -> `Preference` -> `Java` –> `Code Style` -> `Formatter` -> `Edit` -> `Comments`
-    - `Enable Javadoc comment formatting` 启用Javadoc注释格式
-    - `Enable block comment formatting` 启用块注释格式
-    - `Format line comments on first column` 格式化第一列上的行注释
-
 
 
 ## 设置编码格式

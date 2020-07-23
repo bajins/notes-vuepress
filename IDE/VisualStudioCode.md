@@ -16,6 +16,9 @@
 
 ## 设置
 
+- 缩进参考线： 首选项 -> 设置 -> 搜索 `renderIntentGuides` 将此选项改为true
+- 垂直标尺： 文件 -> 首选项 -> 设置 -> 搜索 `editor.rulers`
+
 
 ```json
 {
@@ -26,6 +29,8 @@
     "editor.wordWrapColumn": 120,
     "editor.wordWrap": "wordWrapColumn",
     "editor.fontSize": 16,
+    "editor.renderIndentGuides":true,
+    "editor.rulers": [80,120],
     "editor.rulers": [
         120
     ],

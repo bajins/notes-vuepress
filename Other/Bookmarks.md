@@ -129,7 +129,7 @@
 * 收集整理下一些软件或系统的官方手册：[https://www.haiyun.me/doc.html](https://www.haiyun.me/doc.html)
 * [http://wiki.jikexueyuan.com](http://wiki.jikexueyuan.com)
 * [https://cloud.tencent.com/developer/devdocs](https://cloud.tencent.com/developer/devdocs)
-
+* 极客教程 [https://geek-docs.com](https://geek-docs.com)
 
 
 
