@@ -113,6 +113,8 @@
     + [酷我音乐_for_Android](https://www.lanzoux.com/b0f1956fc)
 + [https://github.com/butzist/ActivityLauncher](https://github.com/butzist/ActivityLauncher)
 
+* 文件传输 [http://www.xender.com](http://www.xender.com)
+
 
 
 ## 浏览器
@@ -272,6 +274,7 @@
 * [https://yixun.writeas.com/yi-xun](https://yixun.writeas.com/yi-xun)
 * [https://github.com/VIP-Share/Baidu-XunleiVIP](https://github.com/VIP-Share/Baidu-XunleiVIP)
 * [https://github.com/lpg-it/BaiduYunVIP](https://github.com/lpg-it/BaiduYunVIP)
+* http://pan.naifei.cc/?
 
 
 ### 蓝奏云
@@ -292,7 +295,7 @@
 * MPC-BE
 * MPC-HC
 * Kmplayer
-* VLC
+* VLC [https://www.videolan.org](https://www.videolan.org)
 
 
 **Potplayer**
@@ -870,10 +873,9 @@ slmgr /ato
 
 ## 邮箱客户端
 
-* Mozilla Thunderbird [https://www.thunderbird.net](https://www.thunderbird.net)
-    - 点击<kbd>附加组件</kbd>搜索扩展`minimize`添加`Minimize on Close`、`Keep in Taskbar`
-    - 托盘图标 [https://github.com/sagamusix/TBTray](https://github.com/sagamusix/TBTray)
-    - 系统托盘新邮件通知 [https://github.com/gyunaev/birdtray](https://github.com/gyunaev/birdtray)
+* Mozilla Thunderbird [https://github.com/mozilla-comm](https://github.com/mozilla-comm)
+    * [https://github.com/thundernest](https://github.com/thundernest)
+    * [https://www.thunderbird.net](https://www.thunderbird.net)
 * [https://www.foxmail.com](https://www.foxmail.com)
 * Outlook
     * 邮箱配置：`控制面板` --> 搜索`邮件`(或者`mail`)

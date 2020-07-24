@@ -30,6 +30,9 @@
 * pt-query-digest、pt-variable-advisor：[https://www.percona.com/downloads/percona-toolkit/LATEST/](https://www.percona.com/downloads/percona-toolkit/LATEST/)
 * [https://www.red-gate.com/products](https://www.red-gate.com/products)
 * [https://www.sqlgate.com](https://www.sqlgate.com)
+* [https://www.jetprofiler.com](https://www.jetprofiler.com)
+* [https://www.solarwinds.com/zh/database-performance-monitoring-software](https://www.solarwinds.com/zh/database-performance-monitoring-software)
+
 
 
 **MySql 5.0 以上字符串数据类型可以存的汉字个数**
@@ -108,9 +111,6 @@
 * [https://github.com/guodongxiaren/redis-wiki](https://github.com/guodongxiaren/redis-wiki)
 * redis常用特性：[https://github.com/LxyTe/redis](https://github.com/LxyTe/redis)
 
-- [https://github.com/nitzzzu/RedisDesktopManager](https://github.com/nitzzzu/RedisDesktopManager)
-- [https://github.com/kanyways/rdm](https://github.com/kanyways/rdm)
-- [https://github.com/lework/RedisDesktopManager-Windows](https://github.com/lework/RedisDesktopManager-Windows)
 
 
 ## Memcached
