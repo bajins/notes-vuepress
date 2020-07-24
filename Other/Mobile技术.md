@@ -39,6 +39,7 @@
 * 秒级编译方案：[https://github.com/alibaba/freeline](https://github.com/alibaba/freeline)
 * [Android-FFmpeg开源库使用及图片压缩开源工具使用](https://www.jianshu.com/p/e960854d3705)
 
++ [归档 | Homurax's Blog](https://blog.homurax.com/archives)
 
 - [https://github.com/Vove7/retrofit-rest-client](https://github.com/Vove7/retrofit-rest-client)
 - [https://github.com/LiushuiXiaoxia](https://github.com/LiushuiXiaoxia)

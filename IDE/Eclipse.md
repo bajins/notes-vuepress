@@ -98,6 +98,8 @@
 - XML自动补全 Windows -> preferance -> XML -> XML Files -> Editor -> Content Assist -> Auto Activation下面的
 Prompt when these characters are inserted 填入 `<=:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ `（注意后面有一个空格）
 
+* 解决按下@不提示注解：Window > Preferences > Java > Editor > Content Assist -> Advanced下把`java Proposals`勾上
+
 
 ## 显示内存
 
