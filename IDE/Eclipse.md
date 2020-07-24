@@ -91,14 +91,14 @@
 
 * [Eclipse 开启代码提示与关闭变量命名补全](https://xienaoban.github.io/posts/32764)
 
-- Window > Preferences > Java > Editor > Content Assist -> Auto Activation 下的 Auto Activation triggers for java 
+- Window -> Preferences -> Java -> Editor -> Content Assist -> Auto Activation 下的 Auto Activation triggers for java 
 填入 `._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`
 - 解决输入`=`或`;`变量自动补全问题 Window -> Preference ->Java -> Editor -> Content Assist -> 
 勾选 Disable insertion triggers except 'Enter' (按<kbd>Enter</kbd>键才自动补全)
 - XML自动补全 Windows -> preferance -> XML -> XML Files -> Editor -> Content Assist -> Auto Activation下面的
 Prompt when these characters are inserted 填入 `<=:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ `（注意后面有一个空格）
 
-* 解决按下@不提示注解：Window > Preferences > Java > Editor > Content Assist -> Advanced下把`java Proposals`勾上
+* 解决按下@不提示注解：Window -> Preferences -> Java -> Editor -> Content Assist -> Advanced下把`java Proposals`勾上
 
 
 ## 显示内存
