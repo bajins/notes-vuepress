@@ -62,7 +62,7 @@
 
 
 
-## 开源项目
+## 第三方库
 
 * [https://github.com/avelino/awesome-go](https://github.com/avelino/awesome-go)
 * [https://github.com/yinggaozhen/awesome-go-cn](https://github.com/yinggaozhen/awesome-go-cn)
@@ -77,7 +77,6 @@
 | grbac   	| https://github.com/storyicon/grbac                             	|                                             	|
 | gin-jwt 	| https://github.com/appleboy/gin-jwt                            	|                                             	|
 | kit     	| https://github.com/go-kit/kit                                  	| https://gokit.io                           	|
-
 
 
 
@@ -105,7 +104,7 @@
 * 获取固定宽度的字符或字符串：[https://github.com/mattn/go-runewidth](https://github.com/mattn/go-runewidth)
 * Lane包提供队列，优先级队列，堆栈和双端队列：[https://github.com/oleiade/lane](https://github.com/oleiade/lane)
 * 具有历史记录的命令行编辑器：[https://github.com/peterh/liner](https://github.com/peterh/liner)
-
+* 自动控制基于终端或控制台 [https://github.com/Netflix/go-expect](https://github.com/Netflix/go-expect)
 
 
 

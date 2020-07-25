@@ -193,7 +193,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 
 
-## 第三方依赖
+## 第三方库
 
 * [https://github.com/google/guava](https://github.com/google/guava)
 * [https://github.com/SpringForAll](https://github.com/SpringForAll)

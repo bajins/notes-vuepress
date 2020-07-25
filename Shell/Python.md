@@ -20,7 +20,8 @@
 > `PyPy`使用了`JIT`（即时编译）技术，混合了动态编译和静态编译的特性，仍然是一句一句编译源代码，
 > 但是会将翻译过的代码缓存起来以降低性能损耗。相对于静态编译代码，即时编译的代码可以处理延迟绑定并增强安全性。
 
-+ [https://www.python.org](https://www.python.org)
++ [https://github.com/python](https://github.com/python)
+    + [https://www.python.org](https://www.python.org)
     + [https://docs.python.org/zh-cn](https://docs.python.org/zh-cn)
     + [https://www.python.org/ftp/python](https://www.python.org/ftp/python)
     + [http://npm.taobao.org/mirrors/python](http://npm.taobao.org/mirrors/python)
@@ -46,11 +47,28 @@
 + [https://github.com/aio-libs](https://github.com/aio-libs)
 + [Python Selenium教程 - 猿人学Python](https://www.yuanrenxue.com/python-selenium)
 
+
+
+
+## 第三方库
+
++ [https://github.com/jobbole/awesome-python-cn](https://github.com/jobbole/awesome-python-cn)
+
 - [https://github.com/topics/python](https://github.com/topics/python)
     - [https://github.com/ipython](https://github.com/ipython)
     - 用Python实现的所有算法 [https://github.com/TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
     - 纠正以前的控制台命令中的错误 [https://github.com/nvbn/thefuck](https://github.com/nvbn/thefuck)
     - 命令行HTTP客户端 [https://github.com/jakubroztocil/httpie](https://github.com/jakubroztocil/httpie)
+- [https://github.com/topics/expect](https://github.com/topics/expect)
+    - [https://www.nist.gov/services-resources/software/expect](https://www.nist.gov/services-resources/software/expect)
+    - [https://github.com/clarkwang/sexpect](https://github.com/clarkwang/sexpect)
+    - 自动化交互式 [https://github.com/pexpect/pexpect](https://github.com/pexpect/pexpect)
+    - [https://github.com/pytest-dev/pytest](https://github.com/pytest-dev/pytest)
+    - [https://github.com/jacebrowning/pytest-expecter](https://github.com/jacebrowning/pytest-expecter)
+- [https://github.com/topics/ops](https://github.com/topics/ops)
+- [https://github.com/topics/automation](https://github.com/topics/automation)
+
+* [https://github.com/pyecharts/pyecharts](https://github.com/pyecharts/pyecharts)
 
 
 
@@ -256,10 +274,6 @@ call("pip install --upgrade" + ' '.join(packages), shell=True)
 ```bash
 pip uninstall 要卸载的包名
 ```
-
-
-
-
 
 
 
