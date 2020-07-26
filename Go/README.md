@@ -6,7 +6,7 @@
 
 
 
-## flag
+## Flag
 
 + [https://github.com/golang](https://github.com/golang)
 + [https://go.dev](https://go.dev)

@@ -6,7 +6,7 @@
 
 
 
-## flag
+## Flag
 
 + [http://nginx.org/en/download.html](http://nginx.org/en/download.html)
 + [https://github.com/h5bp/server-configs-nginx](https://github.com/h5bp/server-configs-nginx)

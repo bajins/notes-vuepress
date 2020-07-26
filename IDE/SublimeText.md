@@ -5,7 +5,7 @@
 
 
 
-## flag
+## Flag
 
 * [解决 Sublime Text 3 拓展包源无法访问问题](https://github.com/HBLong/channel_v3_daily)
 
