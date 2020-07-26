@@ -7,7 +7,8 @@
 ## Flag
 
 * [Python程序退出方式](https://blog.csdn.net/s_daqing/article/details/104752116)
-
+* [python：subprocess模块](https://www.jianshu.com/p/430c411160f8)
+* [python之pexpect模块](https://blog.csdn.net/pcn01/article/details/104993742)
 
 
 ## os模块
