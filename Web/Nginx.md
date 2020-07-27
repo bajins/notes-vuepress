@@ -31,6 +31,7 @@
 
 * [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
 
+- 目录路径：不管Linux还是Windows都是`/`（正斜杠）
 
 
 ## location

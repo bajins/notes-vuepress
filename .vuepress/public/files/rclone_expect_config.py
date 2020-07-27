@@ -10,51 +10,29 @@
 
 import subprocess
 import os,time
+# 在本机执行命令，并输出命令执行结果
+import pexpect
 
-
-# one_drive_access_token = """授权"""
 
 # 删除原有压缩包
 # os.system("find . -type f -name 'rclone*zip' | xargs rm")
-if not os.path.exists("rclone-v1.52.2-linux-amd64"):
+if not os.path.exists("rclone-v1.52.2-linux-amd64/rclone"):
     returncode = subprocess.call(['wget','https://downloads.rclone.org/v1.52.2/rclone-v1.52.2-linux-amd64.zip'])
     if returncode == 0 :
         subprocess.call(['unzip','rclone-v1.52.2-linux-amd64.zip'])
 
-def write_google_drive_config():
-    """
-    此函数是为了方便写入在其他地方复制过来的GoogleDrive配置，而不需要重新创建配置
-    """
-    google_drive_conf="""
-[gdrive]
-type = drive
-scope = drive
-token = 授权
-"""
-    file = subprocess.getoutput("./rclone-v1.52.2-linux-amd64/rclone config file")
-    file = file.split("\n")[1]
-    with open(file,"r")as f:
-        old_conf = f.read()
-    with open(file,"w+")as f:
-        f.write(old_conf+"\n"+google_drive_conf)
-
-
-# 在本机执行命令，并输出命令执行结果
-import pexpect
-
-child = pexpect.spawn('./rclone-v1.52.2-linux-amd64/rclone config')
-# print(child)
-# 如果返回0说明匹配到了异常
-index=child.expect([pexpect.EOF,'New remote'])
-if index == 1:
-    # n新建远程
-    child.sendline('n')
-
-
-def one_drive(child,drive_name):
+def one_drive(drive_name,access_token=None):
     """
     OneDrive配置
     """
+    child = pexpect.spawn('./rclone-v1.52.2-linux-amd64/rclone config')
+    # print(child)
+    # 如果返回0说明匹配到了异常
+    index=child.expect([pexpect.EOF,'New remote'])
+    if index == 1:
+        # n新建远程
+        child.sendline('n')
+        
     index=child.expect([pexpect.EOF,'name'])
     if index == 1:
         child.sendline(drive_name)
@@ -62,10 +40,9 @@ def one_drive(child,drive_name):
     try:
         index=child.expect([pexpect.EOF,'already exists'])
         if index == 1:
-            print("该远程配置已经存在")
-            print(subprocess.getoutput('./rclone-v1.52.2-linux-amd64/rclone config show'))
-            time.sleep(3)
-            os._exit(0)
+            print("该远程配置已经存在：",drive_name)
+            time.sleep(5)
+            return None
     except:
         pass
     
@@ -94,19 +71,20 @@ def one_drive(child,drive_name):
 
     index=child.expect([pexpect.EOF,'result'])
     if index == 1:
-        # 创建空文件，把授权后的代码保存到此文件中第一行
-        # echo 授权代码 >one_drive_access_token.txt
-        os.mknod("one_drive_access_token.txt")
-        # 等待用户操作时间，秒为单位
-        time.sleep(240)
-        # 读取文件中第一行内容
-        with open("one_drive_access_token.txt","r")as f:
-            one_drive_access_token = f.readlines()
-        if one_drive_access_token == "":
-            raise Exception("读取到授权文件为空，如果操作时间过长，请调整time.sleep")
-        # 如果不想使用单独的文件，可以注释上面几行，并取消注释顶部的one_drive_access_token="""授权"""
+        # 如果传入的授权为空，就在文件中获取
+        if access_token is None:
+            # 创建空文件，把授权后的代码保存到此文件中第一行
+            # echo 授权代码 >one_drive_access_token.txt
+            os.mknod("one_drive_access_token.txt")
+            # 等待用户操作时间，秒为单位
+            time.sleep(240)
+            # 读取文件中第一行内容
+            with open("one_drive_access_token.txt","r")as f:
+                access_token = f.readlines()
+            if access_token == "":
+                raise Exception("读取到授权文件为空，如果操作时间过长，请调整time.sleep")
         # 这里输入在Windows下CMD中获取的access_token
-        child.sendline(one_drive_access_token)
+        child.sendline(access_token)
 
     index=child.expect([pexpect.EOF,'Your choice'])
     if index == 1:
@@ -132,13 +110,22 @@ def one_drive(child,drive_name):
     if index == 1:
         # 输入q，退出配置；n新建；d删除；r重命名；c复制；s设置密码
         child.sendline('q')
-    print(subprocess.getoutput('./rclone-v1.52.2-linux-amd64/rclone config show'))
+#     print(subprocess.getoutput('./rclone-v1.52.2-linux-amd64/rclone config show'))
+    time.sleep(5)
 
 
-def google_drive(child,drive_name):
+def google_drive(drive_name):
     """
     GoogleDrive配置
     """
+    child = pexpect.spawn('./rclone-v1.52.2-linux-amd64/rclone config')
+    # print(child)
+    # 如果返回0说明匹配到了异常
+    index=child.expect([pexpect.EOF,'New remote'])
+    if index == 1:
+        # n新建远程
+        child.sendline('n')
+        
     index=child.expect([pexpect.EOF,'name'])
     if index == 1:
         child.sendline(drive_name)
@@ -146,10 +133,9 @@ def google_drive(child,drive_name):
     try:
         index=child.expect([pexpect.EOF,'already exists'])
         if index == 1:
-            print("该远程配置已经存在")
-            print(subprocess.getoutput('./rclone-v1.52.2-linux-amd64/rclone config show'))
-            time.sleep(3)
-            os._exit(0)
+            print("该远程配置已经存在：",drive_name)
+            time.sleep(5)
+            return None
     except:
         pass
     
@@ -213,6 +199,37 @@ def google_drive(child,drive_name):
     if index == 1:
         # 输入q，退出配置；n新建；d删除；r重命名；c复制；s设置密码
         child.sendline('q')
-    print(subprocess.getoutput('./rclone-v1.52.2-linux-amd64/rclone config show'))
+#     print(subprocess.getoutput('./rclone-v1.52.2-linux-amd64/rclone config show'))
+    time.sleep(5)
 
-one_drive(child,"onedrive")
+
+def write_google_drive_config(name,token,drive_type="drive",scope="drive"):
+    """
+    此函数是为了方便写入在其他地方复制过来的GoogleDrive配置，而不需要重新创建配置
+    """
+    import configparser
+    conf = configparser.ConfigParser()
+    
+    file = subprocess.getoutput("./rclone-v1.52.2-linux-amd64/rclone config file")
+    file = file.split("\n")[1]
+    
+    conf.read(file, encoding="utf-8")
+    node_array=conf.sections()
+    if name not in node_array:
+        conf.add_section(name)
+        conf.set(name,'type',drive_type)
+        conf.set(name,'scope',scope)
+        conf.set(name,'token',token)
+        with open(file,'w') as f:
+            conf.write(f)
+
+
+one_drive_access_token = """授权"""
+
+one_drive("onedrive",one_drive_wulel_access_token)
+
+google_drive_token="""授权"""
+
+write_google_drive_config("gdrive",google_drive_token)
+
+print(subprocess.getoutput('./rclone-v1.52.2-linux-amd64/rclone config show'))
