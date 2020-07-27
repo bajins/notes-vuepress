@@ -521,7 +521,7 @@ select monthname(@dt); -- August
 # 查看root用户
 SHOW GRANTS;
 # 查看指定用户
-SHOW GRANTS FOR 'username'@'host'
+SHOW GRANTS FOR 'root'@'localhost';
 ```
 
 ### 创建用户并授权
@@ -565,8 +565,6 @@ GRANT ALL PRIVILEGES ON database.* TO 'root'@'%' IDENTIFIED BY '密码' WITH GRA
 FLUSH PRIVILEGES;
 # 查看用户信息
 select user,host from mysql.user;
-# 查看权限
-SHOW GRANTS FOR 'root'@'localhost';
 ```
 
 
