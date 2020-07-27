@@ -31,6 +31,9 @@
 
 **URL及参数**
 
+* [(https://mysql-net.github.io/MySqlConnector/connection-options]((https://mysql-net.github.io/MySqlConnector/connection-options)
+    * [https://mysqlconnector.net/connection-options](https://mysqlconnector.net/connection-options)
+
 > `jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8`
 > `&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai`
 
@@ -49,7 +52,7 @@
 | socketTimeout         	| socket操作（读写）超时，单位：毫秒。 0表示永不超时                              	| 0      	| 3.0.1        	|
 | useSSL                	| 是否进行ssl连接                                                                 	|        	|              	|
 | zeroDateTimeBehavior  	| 把零值日期转换为`null`                                                          	|        	|              	|
-| serverTimezone        	| `GMT%2B8` `%2B`是`+`的转义字符,其实就是`GMT+8`,代表东八区。`Asia/Shanghai` 上海 	|        	|              	|
+| serverTimezone        	| `GMT%2B8` `%2B`是`+`的转义字符,其实就是`GMT+8`（'+8:00'）,代表东八区`Asia/Shanghai` 	|        	|              	|
 
 
 
