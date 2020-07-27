@@ -897,4 +897,10 @@ slmgr /ato
 * 文件搜索 [Everything](https://www.voidtools.com)
 * 文件对比 [https://www.beyondcomparepro.com](https://www.beyondcomparepro.com)
 * 福昕PDF阅读器 [https://eyun.baidu.com/s/3bozPGmV](https://eyun.baidu.com/s/3bozPGmV)密码：3131
-* 微软常用运行库 [https://www.lanzous.com/b143614](https://www.lanzous.com/b143614)
+* 微软常用运行库 [https://github.com/abbodi1406/vcredist](https://github.com/abbodi1406/vcredist)
+    * [https://hub.fastgit.org/abbodi1406/vcredist](https://hub.fastgit.org/abbodi1406/vcredist)
+    * [https://github.wuyanzheshui.workers.dev/abbodi1406/vcredist](https://github.wuyanzheshui.workers.dev/abbodi1406/vcredist)
+    * [https://www.lanzoux.com/b0f1dfasd](https://www.lanzoux.com/b0f1dfasd)
+    * [https://www.lanzous.com/b143614](https://www.lanzous.com/b143614)
+* [https://www.diskinternals.com/download](https://www.diskinternals.com/download)
+    * 读取EXT 类型数据盘 [http://www.diskinternals.com/download/Linux_Reader.exe](http://www.diskinternals.com/download/Linux_Reader.exe)

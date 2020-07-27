@@ -1,14 +1,43 @@
-# MySQL配置
+# MySQL安装配置
 
 
 [[toc]]
 
 
+## Flag
+
+* [https://dev.mysql.com/downloads/mysql](https://dev.mysql.com/downloads/mysql)
 
 
-## 配置my.cnf
 
-> 从5.7.17后mysql就没有默认的my_default.cnf文件，需要手动创建
+## Windows版安装
+
+> 这里是介绍免安装版的Mysql
+
+1. 安装服务：`mysqld --install` 如果执行错误需要安装C++运行库
+2. 初始化：`mysqld --initialize --console` 会产生一个随机密码
+    - `mysqld –initialize-insecure` 初始化数据库，并设置默认root密码为空
+    - `mysqladmin -u root password 密码";` 创建root用户的密码
+3. 开启服务：`net start mysql`
+4. 关闭服务：`net stop mysql`
+5. 登录mysql：`mysql -u root -p`
+6. 修改密码：`alter user 'root'@'localhost' identified by '密码';`
+7. 标记删除mysql服务：`sc delete mysql`
+
+
+
+## 配置
+
+* 5.7动态参数 [5.7 Dynamic System Variables](https://dev.mysql.com/doc/refman/5.7/en/dynamic-system-variables.html)
+* 8.0动态参数 [8.0 Dynamic System Variables](https://dev.mysql.com/doc/refman/8.0/en/dynamic-system-variables.html)
+    * [https://dev.mysql.com/doc/refman/8.0/en/innodb-parameters.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-parameters.html)
+    * `set persist` 修改并持久化动态参数
+    * `set persist_only` 持久化静态参数
+
+
+> 从5.7.17后mysql就没有默认的`my_default.cnf`文件，需要手动创建
+
+> windows在mysql目录下创建一个ini或cnf配置文件
 
 ```bash
 vi /etc/my.cnf
@@ -94,7 +123,7 @@ open-files-limit = 8192
 
 ```
 
-## yum安装配置
+### yum安装配置
 
 ```bash
 [client]
@@ -221,7 +250,7 @@ interactive-timeout
 ```
 
 
-## 宝塔面板安装配置
+### 宝塔面板安装配置
 
 ```bash
 [client]

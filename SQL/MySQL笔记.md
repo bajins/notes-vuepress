@@ -550,6 +550,7 @@ CREATE USER 'admin'@'%' IDENTIFIED BY '密码';
 - `privileges` 用户的操作权限，如`INSERT`,`DELETE`,`UPDATE`,`SELECT`等。所有权限则使用`ALL`。
 - `database.table` 数据库名.表名。如果要给该用户授予对所有数据库和表的相应操作权限则可用`*`表示，例如`*.*`
 - `IDENTIFIED` 指定密码，如果不带此属性会导致创建的用户无法远程连接，虽然从`mysql.user`查出`host`为`%`
+- 8.0使用 `IDENTIFIED BY "密码"` 会报错，也就是说必须先创建其他用户再授权（不能授权给自己）
 
 ```sql
 # 创建只读账号
@@ -592,15 +593,17 @@ FLUSH PRIVILEGES;
 > mysql5.7安装完成之后，在`/var/log/mysqld.log`文件中给root生成了一个默认密码。通过下面的方式找到root默认密码，然后登录mysql。
 
 ```bash
+# 其中`root@localhost:`后面部分就是默认密码
 grep 'temporary password' /var/log/mysqld.log
 ```
 
-> 其中`root@localhost:`后面部分就是默认密码
 
 - 修改密码
 
 ```sql
 ALTER USER 'root'@'localhost' IDENTIFIED BY '新密码';
+# 8.0
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 # 刷新权限
 FLUSH PRIVILEGES;
 ```
