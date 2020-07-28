@@ -33,7 +33,7 @@
 * [Linux主流发行版本](https://distrowatch.com/dwres.php?resource=major)
 
 
-## win10 设置
+## Windows10设置
 
 * [小米笔记本Pro黑苹果Win10双系统](https://www.ikxin.com/465.html)
 
@@ -45,6 +45,11 @@
 
 > 点击`网络和共享中心` ——> `更改适配器设置` ——> 双击`WLAN` ——> 点击`无线属性` ——> 勾选`即使网络未广播其名称也连接` 
 
+
+**MSTSC删除记录**
+
+- Windows键 + <kbd>R</kbd>打开`运行` 输入`regedit` 找到 `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Terminal Server Client\Default`
+- 进入 `%USERPROFILE%\Documents` 删除`Default.rdp`文件（默认隐藏）
 
 
 
