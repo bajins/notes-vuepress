@@ -589,3 +589,280 @@ grub2-set-default 0
 
 
 
+
+## 三方工具
+
+```bash
+yum install -y which gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-devel lrzsz \
+lrzsz-devel p7zip p7zip-devel net-tools net-tools-devel vim vim-devel libaio libaio-devel
+```
+
+**`figlet`**
+
+> Linux下的命令行工具，我们经常会看到一些终端工具有一个字符Logo,这些Logo可以通过`Figlet`生成：
+
+```bash
+yum install -y figlet
+```
+
+> 居中显示用 `-c`
+>
+> 从文件导入用 `-p`
+>> 比如从testFile导入`figlet -c -p < testFile`
+>
+> 还可以用`-w`指定宽度。
+>
+> 实时显示时间`watch -n1 "date '+%D%n%T' |figlet -k"`
+
+**`boxes`**
+
+> 这个工具提供了 n 种样式，例如各种动物等，然后你输入的字符就放在这些图案的内部空白处。
+
+```bash
+yum -y install boxes
+```
+
+> 使用boxes -l列出所有的样式。
+
+```bash
+echo [text] | boxes -d [style name]
+# 比如dog
+echo "Hello World" | boxes -d dog
+```
+
+**`Toilet`**
+
+> 可以输出更丰富的样式，它比 `figlet` 命令的效果更有艺术感。
+
+```bash
+echo "Hello World" | toilet -f term -F border --gay
+# 可以有颜色
+toilet -f mono12 -F metal Linux
+# 多种样式
+while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done
+```
+
+
+
+## SVN
+
+* [SVN-Eclipse插件](https://github.com/subclipse/subclipse/wiki)
+
+> 对应`subversion 1.9.x` `http://subclipse.tigris.org/update_1.12.x/`
+
+> `EclipseClassDecompiler`反编译 `https://github.com/cnfree/Eclipse-Class-Decompiler`
+
+**检查已安装**
+
+```bash
+rpm -qa subversion
+```
+
+**安装**
+
+```bash
+yum -y install subversion
+```
+
+**查看已安装版本**
+
+```bash
+svnserve --version
+```
+
+**创建代码库**
+
+- 建立SVN版本库目录
+
+```bash
+mkdir -p /home/svn/svnrepos/test
+```
+
+- 创建SVN版本库
+
+```bash
+svnadmin create /home/svn/svnrepos/test
+```
+
+> 执行上面的命令后，自动建立`svndata`库，
+> `/home/svn/svnrepos/test`文件夹包含了`conf`、`db`、`format`、`hooks`、`locks`、`README.txt`等文件，说明一个SVN库已经建立。
+
+
+**配置代码库**
+
+- 进入`conf`文件夹
+
+```bash
+cd /home/svn/svnrepos/test/conf
+```
+
+- 配置用户密码`passwd`
+
+```bash
+vi passwd
+```
+
+> 在`[users]`节点下添加以下内容(账户=密码)
+
+```bash
+# 账户=密码
+woytu.com=woytu.com
+```
+
+- 配置权限控制`authz`
+
+```bash
+vi authz
+```
+
+> 目的是设置哪些用户可以访问哪些目录，向`authz`文件末尾追加以下内容：
+
+> 设置`[/]`代表根目录下所有的资源,`rw`为读和写，`*`代表所有用户,先按`shift+g`跳到末尾，然后添加
+
+```bash
+[/]
+woytu.com=rw
+*=r
+```
+
+- 配置服务`svnserve.conf`
+
+```bash
+vi svnserve.conf
+```
+
+> 在`[general]`节点下追加以下内容
+
+```bash
+# 匿名访问的权限，可以是read,write,none,默认为read
+anon-access=none
+
+# 使授权用户有写权限
+auth-access=write
+
+# 密码数据库的路径
+password-db=passwd
+
+# 访问控制文件
+authz-db=authz
+
+# 认证命名空间，subversion会在认证提示里显示，并且作为凭证缓存的关键字
+realm = This Is A Repository
+```
+
+> 如果需要创建多个库就需要重复做上面2、3步，并且最后一个目录名是不一样的
+
+- 建立第2个SVN版本库目录
+
+```bash
+mkdir -p /home/svn/svnrepos/test2
+```
+
+- 创建第2个SVN版本库
+
+```bash
+svnadmin create /home/svn/svnrepos/test2
+```
+
+**启动**
+
+```bash
+svnserve -d -r /home/svn/svnrepos/
+```
+
+**查看SVN进程**
+
+```bash
+ps -ef|grep svn
+```
+
+**检测SVN端口**
+
+```bash
+netstat -antlp|grep svnserve
+```
+
+**放开端口**
+
+```bash
+firewall-cmd --zone=public --add-port=3690/tcp --permanent
+firewall-cmd --reload
+```
+ 
+**连接**
+
+> 地址：`svn://host:port/仓库名`
+
+
+**停止SVN**
+
+
+```bash
+# 查找svnserve进程（PID）
+ps -aux | grep svnserve
+# 结束进程
+kill -9 PID
+#或者
+killall svnserve
+```
+
+
+
+## Chrome
+
+* [chrome其他安装方式](https://intoli.com/blog/installing-google-chrome-on-centos)
+
+### rpm包安装
+
+
+```bash
+# 下载rpm包
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+
+# 安装依赖
+yum install -y lsb libXScrnSaver libappindicator-gtk3 liberation-fonts
+
+# 安装chrome
+rpm -ivh google-chrome-stable_current_x86_64.rpm
+# 或者使用yum安装chrome
+yum install -y google-chrome-stable_current_x86_64.rpm
+
+# 查看版本
+google-chrome --version
+
+# 安装chromedriver：一个用来和chrome交互的接口
+yum install -y chromedriver
+
+# 查看安装的chromedriver版本
+chromedriver --version
+```
+
+### 在线安装
+
+- 创建repo文件
+
+```bash
+vi /etc/yum.repos.d/google-chrome.repo
+```
+
+- 添加内容
+
+```bash
+[google-chrome]
+name=google-chrome
+baseurl=http://dl.google.com/linux/chrome/rpm/stable/$basearch
+enabled=1
+gpgcheck=1
+gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
+```
+
+- 安装
+
+```bash
+yum install -y google-chrome-stable
+# 如果安装失败
+yum install google-chrome-stable --nogpgcheck
+```
+
+
+

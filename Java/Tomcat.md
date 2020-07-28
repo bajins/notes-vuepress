@@ -165,3 +165,90 @@ vi webapps/host-manager/META-INF/context.xml
 
 
 
+
+
+## CentOS安装Tomcat
+
+* [https://tomcat.apache.org](https://tomcat.apache.org)
+
+**解压**
+
+```bash
+tar -zxvf apache-tomcat-8.5.31.tar.gz
+```
+
+**重命名目录**
+
+```bash
+mv apache-tomcat-8.5.31 tomcat-8080
+```
+
+**复制目录**
+
+```bash
+cp -r tomcat-8080 tomcat-8082
+```
+
+
+**修改第二个Tomcat配置**
+
+> 进入tomcat-8082的`bin`目录，修改`startup.sh`和`shutdown.sh`两个文件，都添加如下内容
+
+```vim
+######### tomcat 2 ##########
+export JAVA_HOME=JDK安装目录
+export PATH=$PATH:$JAVA_HOME/bin
+export CLASSPATH=$JAVA_HOME/lib
+export CATALINA_HOME=$CATALINA_2_HOME
+export CATALINA_BASE=$CATALINA_2_BASE
+######### tomcat 2 ##########
+```
+
+- 修改第二个tomcat端口,第一个不变
+
+> 进入`/tomcat-8082/conf`中修改`server.xml`修改后示例如下
+
+```xml
+<!-- 关闭端口：8005->9005 -->
+<Server port="9005" shutdown="SHUTDOWN">
+
+<!-- Web端口：8080->8181 -->
+<Connector port="8181" maxHttpHeaderSize="8192"
+maxThreads="150" minSpareThreads="25" maxSpareThreads="75"
+enableLookups="false" redirectPort="8443" acceptCount="100"
+connectionTimeout="20000" disableUploadTimeout="true" />
+
+<!-- 监听端口：8009->9009 -->
+<Connector port="9009" enableLookups="false" redirectPort="8443" protocol="AJP/1.3" />
+```
+
+
+**添加环境变量**
+
+> 在`/etc/profile`文件中加入下面内容配置环境变量
+
+```vim
+########## tomcat 1 ###########
+CATALINA_BASE=/home/tomcat-8080
+CATALINA_HOME=/home/tomcat-8080
+TOMCAT_HOME=/home/tomcat-8080
+export CATALINA_BASE CATALINA_HOME TOMCAT_HOME
+########## tomcat 1############
+
+######### tomcat 2 ##########
+CATALINA_2_BASE=/home/tomcat-8082
+CATALINA_2_HOME=/home/tomcat-8082
+TOMCAT_2_HOME=/home/tomcat-8082
+export CATALINA_2_BASE CATALINA_2_HOME TOMCAT_2_HOME
+########## tomcat 2##########
+```
+
+- 刷新环境变量
+
+> `source`命令也称为“点命令”，也就是一个点符号`.`。`source`命令通常用于重新执行刚修改的初始化文件，使之立即生效
+ 
+```bash
+source /etc/profile 
+# 或者
+. /etc/profile
+```

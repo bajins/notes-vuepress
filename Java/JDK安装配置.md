@@ -1,4 +1,4 @@
-# JDK
+# JDK安装配置
 
 
 [[toc]]
@@ -201,6 +201,68 @@ JAVA_OPTS="
 -XX:+PrintTenuringDistribution
 -XX:+PrintHeapAtGC
 "
+```
+
+
+
+## CentOS安装JDK
+
+**查看已安装**
+
+```bash
+rpm -qa | grep java
+```
+
+**卸载JDK**
+
+```bash
+rpm -e --nodeps 查出来的名称
+```
+
+**查看JDK软件包列表**
+
+```bash
+yum -y list java*
+# 或者
+yum search java | grep -i --color JDK
+```
+
+**yum安装JDK**
+
+```bash
+yum -y install java-1.7.0-openjdk java-1.7.0-openjdk-devel.x86_64
+```
+
+> 通过yum默认安装的路径为`/usr/lib/jvm`
+
+**配置环境变量**
+
+- 在`/etc/profile`文件中加入
+
+```vim
+########## jdk  environment ######################
+export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.181-2.6.14.8.el7_5.x86_64
+export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$PATH:$JAVA_HOME/bin
+########## jdk  environment ######################
+```
+
+- 刷新环境变量文件
+
+```bash
+source /etc/profile
+```
+
+- 查看变量是否生效
+
+```bash
+echo $JAVA_HOME && echo $CLASSPATH
+```
+
+**查看Java版本信息**
+
+```bash
+java -version
 ```
 
 

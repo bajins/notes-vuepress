@@ -8,16 +8,6 @@
 
 ## Flag
 
-+ 扫描任何32位或64位Windows模块（exe，dll，ocx，sys等）的函数：[http://www.dependencywalker.com](http://www.dependencywalker.com)
-+ DLL导出查看器：[http://www.nirsoft.net/utils/dll_export_viewer.html](http://www.nirsoft.net/utils/dll_export_viewer.html)
-+ RegDllView-查看系统上已注册的dll/ ocx/exe文件，从资源管理器注册dll文件：
-    + [http://www.nirsoft.net/utils/registered_dll_view.html](http://www.nirsoft.net/utils/registered_dll_view.html)
-+ Windows 10的system32目录中的所有DLL文件信息：[http://windows10dll.nirsoft.net](http://windows10dll.nirsoft.net)
-+ [https://github.com/jas502n/IDA_Pro_7.2](https://github.com/jas502n/IDA_Pro_7.2)
-+ 下载– NTCore：[https://ntcore.com/?page_id=345](https://ntcore.com/?page_id=345)
-+ 小型命令行实用程序：[http://www.ltr-data.se/opencode.html/#CmdUtils](http://www.ltr-data.se/opencode.html/#CmdUtils)
-
-
 * [Windows 命令-官方文档](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/windows-commands)
 * [windows常用命令](https://www.cnblogs.com/kekec/p/3662125.html)
 * [windows批处理语法](https://www.cnblogs.com/kekec/p/3937530.html)
@@ -925,31 +915,11 @@ sc delete 服务名称
 ```
 
 
-
-## 第三方工具
-
-* [wget-网络请求工具](https://eternallybored.org/misc/wget)
-* [curl-网络请求工具](https://curl.haxx.se/dlwiz/?type=bin)
-    * [curl-GitHub](https://github.com/curl/curl)
-* [jq-解析json工具](https://github.com/stedolan/jq)
-* [Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html)
-    * [http://bcn.bathome.net/s/tool/index.html](http://bcn.bathome.net/s/tool/index.html)
-* [转换位图图像](https://imagemagick.org/index.php)
-* [https://github.com/ritchielawrence/cmdow](https://github.com/ritchielawrence/cmdow)
-
-
 ## 下载文件
-
-- 推荐使用`bat`脚本执行`JavaScript`脚本下载文件
-
-* [从github下载文件的多种方法](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E4%BB%8Egithub%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E6%B3%95)
-
 
 - `certutil`
 
-> 用户备份证书服务管理，每次下载都会有缓存
->
-> 缓存目录：`%USERPROFILE%\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content`
+> 用户备份证书服务管理，每次下载都会有缓存，缓存目录：`%USERPROFILE%\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content`
 
 ```batch
 certutil -urlcache -split -f https://blog-static.cnblogs.com/files/gayhub/bcn.js C:\Windows\bcn.bat
@@ -957,12 +927,10 @@ certutil -urlcache -split -f https://blog-static.cnblogs.com/files/gayhub/bcn.js
 
 - `bitsadmin`
 
-> `bitsadmin.exe` `bitsadmin`是`windows`后台智能传输服务的一个工具，`windows`的自动更新，补丁之类的下载就是用这个工具来实现的。
+> `bitsadmin.exe` 是`windows`后台智能传输服务的一个工具，`windows`的自动更新，补丁之类的下载就是用这个工具来实现的。
 
 ```batch
-:: 无进度条等信息
-bitsadmin /rawreturn /transfer 任务名 https://blog-static.cnblogs.com/files/gayhub/bcn.js C:\Windows\bcn.bat
-:: 有进度条等信息
+:: /priority normal进度条等信息
 bitsadmin /transfer 任务名 /download /priority normal https://blog-static.cnblogs.com/files/gayhub/bcn.js C:\Windows\bcn.bat
 ```
 
