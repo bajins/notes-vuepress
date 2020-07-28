@@ -314,10 +314,9 @@
 
 > 返回值是一个对象，从返回对象中可以获得控制台输出信息和控制台错误信息，即`StdOut` 和 `StdErr` 属性等。
 
-> `Exec`类具有属性`ExitCode`、`ProcessID`、`Status`、`StdErr`、`StdIn`、`StdOut`以及一个函数`Terminate`
->> `Status`属性具有三个值：0为正在执行，1为完成，2为失败
->>
->> 获取输出信息：`StdOut.ReadAll()`
+- `Exec`类具有属性`ExitCode`、`ProcessID`、`Status`、`StdErr`、`StdIn`、`StdOut`以及一个函数`Terminate`
+    - `Status`属性具有三个值：0为正在执行，1为完成，2为失败
+    - 获取输出信息：`StdOut.ReadAll()`
 
 
 ### 特殊文件夹

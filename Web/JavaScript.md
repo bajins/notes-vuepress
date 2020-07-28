@@ -81,6 +81,89 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 
 
 
+## 字符串换行和拼接
+
+**字符串多行换行**
+
+```js
+var x = "我的\
+博客\
+https://www.bajins.com";
+console.log(x);
+```
+
+```js
+var x = "我的"+
+"博客"+
+"https://www.bajins.com";
+console.log(x);
+```
+
+```js
+var x =['我的',
+    '博客',
+    'https://www.bajins.com'
+].join('');
+console.log(x);
+```
+
+```js
+var f = function () {/*
+      我的博客：
+      https://www.bajins.com
+*/};
+
+// 定义一个实现多行字符串的函数
+Function.prototype.multiLine = function () {
+    var str = this.toString().split('\n');
+    return str.slice(1, str.length - 1 ).join('\n');
+}
+
+Function.prototype.getMultiLine = function() {
+    var lines = this.toString();
+    return lines.substring(lines.indexOf("/*") + 3, lines.lastIndexOf("*/"));  
+}
+
+console.log(f.multiLine());
+console.log(f.getMultiLine());
+```
+
+- ECMAScript6语法
+
+```js
+var x = `我的
+博客
+https://www.bajins.com`;
+console.log(x);
+```
+
+
+**字符串拼接**
+
+
+```js
+var x = "我的博客${?}";
+x=x.replace("${?}","https://www.bajins.com");
+console.log(x);
+```
+
+```js
+var b="博客";
+var x = "我的" + b + "https://www.bajins.com";
+console.log(x);
+```
+
+- ECMAScript6语法
+
+```js
+var b="博客";
+var x = `我的${b}https://www.bajins.com`;
+console.log(x);
+```
+
+
+
+
 ## 正则表达式
 
 - `exec`是正则表达式的方法，参数是字符串
@@ -247,7 +330,7 @@ module.exports = {
 };
 ```
 
-## 延时
+## 定时延时
 
 ```js
 //6000毫秒后执行testFunction()函数，只执行一次。
@@ -263,6 +346,11 @@ var interval = window.setInterval(function (){
 }, 6000);
 // 停止执行setInterval循环。
 window.clearInterval(interval);
+
+setInterval(function(){
+    // 业务逻辑
+
+}, 6000);
 ```
 
 ```js

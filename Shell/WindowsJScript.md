@@ -103,7 +103,9 @@ pause&exit
 ```batch
 <!-- :
 @echo off
-for /f "delims=" %%a in ('mshta "%~f0"') do echo;%%a
+::for /f "delims=" %%a in ('mshta "%~f0"') do echo;%%a
+for /f "delims=" %%a in ('mshta "%~f0"') do ( set filePath=%%a)
+echo %filePath%
 pause&exit /b
 -->
 
@@ -111,15 +113,21 @@ pause&exit /b
 <script>
 
 f.click();
-new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).Write(f.value);
+
+alert(f.value);
+
+var sfo = new ActiveXObject('Scripting.FileSystemObject');
+// 获取TextStream对象.参数：0输入流,1输出流,2错误流.
+sfo.GetStandardStream(1).Write(f.value);
 
 var Shell = new ActiveXObject("Shell.Application");
-var Folder = Shell.BrowseForFolder(0, "请选择文件夹", 0); //起始目录为：桌面
+// 起始目录为：桌面
+var Folder = Shell.BrowseForFolder(0, "请选择文件夹", 0);
 if (Folder != null) {
     Folder = Folder.items();
     Folder = Folder.item();
     Folder = Folder.Path;
-    new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).Write(Folder);
+    sfo.GetStandardStream(1).Write(Folder);
 }
 close();
 
@@ -180,11 +188,11 @@ var path = Argv(2);
 * [ActiveXObject对象使用整理](https://blog.csdn.net/chen_zw/article/details/9336375)
 
 - `JScript`中`ActiveXObject`对象是启用并返回`Automation`对象的引用。
-    - 使用方法：`var newObj = new ActiveXObject( servername.typename[, location])`
-        - 其中`newObj`是必选项。要赋值为`ActiveXObject`的变量名。
-        - `servername`是必选项。提供该对象的应用程序的名称。
-        - `typename`是必选项。要创建的对象的类型或类。
-        - `location`是可选项。创建该对象的网络服务器的名称。
+- 使用方法：`var newObj = new ActiveXObject( servername.typename[, location])`
+    - 其中`newObj`是必选项。要赋值为`ActiveXObject`的变量名。
+    - `servername`是必选项。提供该对象的应用程序的名称。
+    - `typename`是必选项。要创建的对象的类型或类。
+    - `location`是可选项。创建该对象的网络服务器的名称。
 
 
 

@@ -43,6 +43,13 @@
 > 这时候我们直接通过JNDI的使用规则取出来我们想要的数据（实例对象）即可。
 
 
+**Windows隐藏窗口后台运行jar包（推荐vbs可设置JVM参数）**
+
+* [hidden_run_jar.bat](/files/hidden_run_jar.bat)
+* [hidden_run_jar.vbs](/files/hidden_run_jar.vbs)
+
+
+
 ## 学习
 
 - [技术集合归档](https://blog.52itstyle.vip/architecture.html)

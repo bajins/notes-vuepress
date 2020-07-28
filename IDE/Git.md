@@ -9,7 +9,8 @@
 
 + [https://github.com/topics/git](https://github.com/topics/git)
 
-* [https://git-scm.com](https://git-scm.com)
+* [https://github.com/git](https://github.com/git)
+  * [https://git-scm.com](https://git-scm.com)
 * [https://www.syntevo.com](https://www.syntevo.com)
 * [https://github.com/github/gitignore](https://github.com/github/gitignore)
 * [为您的项目创建有用的.gitignore文件](https://github.com/toptal/gitignore.io)

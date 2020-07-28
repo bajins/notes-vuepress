@@ -23,6 +23,9 @@
 * [VBScript 函数](https://www.w3school.com.cn/vbscript/vbscript_ref_functions.asp)
 * [https://github.com/MishaVernik/WScirpt](https://github.com/MishaVernik/WScirpt)
 
+- [VBScript MsgBox 函数](https://www.runoob.com/vbscript/func-msgbox.html)
+
+
 
 ## 特殊符号
 
@@ -502,20 +505,23 @@ end function
 * [VBScript - 弹出“文件选择对话框”方法大全！](https://www.cnblogs.com/bitssea/p/12684322.html)
 
 ```vb
-hta="""about:<input type=file id=FILE><script>FILE.click();" & _
-    "new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).WriteLine(FILE.value);" & _
+' GetStandardStream获取TextStream对象.参数：0输入流,1输出流,2错误流.
+hta="""about:<input type=file id=f><script>f.click();" & _
+    "new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).WriteLine(f.value);" & _
     "close();resizeTo(0,0);</script>"""
 ' 打开对话框
 Set oExec = CreateObject("WScript.Shell").Exec("mshta.exe " & hta)
 ' 输出选择的，文件的路径
-MsgBox  oExec.StdOut.ReadLine
+MsgBox oExec.StdOut.ReadLine
 
+' GetStandardStream获取TextStream对象.参数：0输入流,1输出流,2错误流.
 hta="""<input type=file id=f><script>f.click();" & _
-    "new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).Write(f.value)[close()];</script>"""
+    "new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).Write(f.value);" & _
+    "[close()];resizeTo(0,0);</script>"""
 ' 打开对话框
 Set oExec = CreateObject("WScript.Shell").Exec("mshta vbscript:" & hta)
 ' 输出选择的，文件的路径
-MsgBox  oExec.StdOut.ReadAll
+MsgBox oExec.StdOut.ReadAll
 
 
 Function BrowseForFile()
