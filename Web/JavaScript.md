@@ -12,7 +12,10 @@
 
 * [ECMAScript支持度检测](https://github.com/ruanyf/es-checker)
 * [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese)
-
+* [https://github.com/requirejs](https://github.com/requirejs)
+* [https://github.com/amdjs](https://github.com/amdjs)
+* [https://github.com/cmdjs](https://github.com/cmdjs)
+* [https://github.com/seajs](https://github.com/seajs)
 
 
 **手册**
