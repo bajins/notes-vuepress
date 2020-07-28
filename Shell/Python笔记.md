@@ -8,6 +8,7 @@
 
 * [Python程序退出方式](https://blog.csdn.net/s_daqing/article/details/104752116)
 * [python：subprocess模块](https://www.jianshu.com/p/430c411160f8)
+* [python子程序subprocess](https://gaianote.github.io/2018/11/01/python/1.python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/python%E5%AD%90%E7%A8%8B%E5%BA%8Fsubprocess)
 * [python之pexpect模块](https://blog.csdn.net/pcn01/article/details/104993742)
 * [python中ConfigParse模块的用法](https://blog.csdn.net/qq_36119192/article/details/107586877)
 * [Python利用ConfigParser读取配置文件](https://www.cnblogs.com/sui776265233/p/13299490.html)

@@ -26,6 +26,7 @@
 * [https://github.com/mdn](https://github.com/mdn)
 * [https://github.com/Qihoo360](https://github.com/Qihoo360)
 * [https://github.com/IBM](https://github.com/IBM)
+* [https://github.com/uber](https://github.com/uber)
 
 - [https://github.com/TogetherOS](https://github.com/TogetherOS)
 - [https://github.com/lets-blade](https://github.com/lets-blade)

@@ -116,7 +116,7 @@ chrome://flags/#enable-parallel-downloading
     * [https://github.com/AzureZeng/azurezeng.github.io](https://github.com/AzureZeng/azurezeng.github.io)
     * [https://github.azurezeng.com/static/HeaderEditor](https://github.azurezeng.com/static/HeaderEditor)
     * [https://github.com/FirefoxBar/HeaderEditor](https://github.com/FirefoxBar/HeaderEditor)
-
+* [https://github.com/jiacai2050/gooreplacer](https://github.com/jiacai2050/gooreplacer)
 
 
 ### 视图

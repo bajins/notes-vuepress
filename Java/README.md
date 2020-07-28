@@ -34,6 +34,7 @@
 - [收集业务日志，提炼有效数据](https://mp.weixin.qq.com/s/mA8ZqShP0p_t1toTzqpW3Q)
 - [通过filebeat、logstash、rsyslog采集nginx日志的几种方式](https://www.cnblogs.com/xiejava/p/12452434.html)
 - [分布式系统唯一ID生成方案汇总](https://www.cnblogs.com/haoxinyue/p/5208136.html)
+- [设计一个全局异常处理器](https://crossoverjie.top/2019/07/15/wheel/cicada7-exception-handle)
 
 + JMH（Java Microbenchmark Harness）是专门用于代码微基准测试的工具套件
 + [什么是JNDI？](https://blog.csdn.net/gybshen/article/details/82717578)
@@ -71,7 +72,7 @@
 * [https://github.com/hansonwang99/JavaCollection](https://github.com/hansonwang99/JavaCollection)
 * [https://github.com/RedSpider1/concurrent](https://github.com/RedSpider1/concurrent)
 * [https://github.com/javagrowing/JGrowing](https://github.com/javagrowing/JGrowing)
-* [https://github.com/caison/java-knowledge-mind-map](https://github.com/caison/java-knowledge-mind-map)
+* Java服务端知识技能图谱 [https://github.com/caison/java-knowledge-mind-map](https://github.com/caison/java-knowledge-mind-map)
 * [https://github.com/qinxuewu/docs](https://github.com/qinxuewu/docs)
 * [https://github.com/scalad/Note](https://github.com/scalad/Note)
 * [https://github.com/stalary/Source-code-analysis](https://github.com/stalary/Source-code-analysis)
@@ -80,6 +81,8 @@
 * [https://github.com/Childe-Mu/bio-nio-aio-netty-notes](https://github.com/Childe-Mu/bio-nio-aio-netty-notes)
 * [https://github.com/whx123/JavaHome](https://github.com/whx123/JavaHome)
 * [https://developer.ibm.com/zh/technologies/java/gettingstarted](https://developer.ibm.com/zh/technologies/java/gettingstarted)
+* Java实现的算法 [https://github.com/TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)
+* 深入理解Java函数式编程和Streams API [https://github.com/CarpenterLee/JavaLambdaInternals](https://github.com/CarpenterLee/JavaLambdaInternals)
 
 + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
 
@@ -294,10 +297,14 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 **文档**
 
 * [https://github.com/springfox/springfox](https://github.com/springfox/springfox)
-* [https://github.com/SpringForAll/spring-boot-starter-swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)
-* [https://github.com/Swagger2Markup/swagger2markup](https://github.com/Swagger2Markup/swagger2markup)
-* [https://github.com/caspar-chen/swagger-ui-layer](https://github.com/caspar-chen/swagger-ui-layer)
-* [https://github.com/xiaoymin/swagger-bootstrap-ui](https://github.com/xiaoymin/swagger-bootstrap-ui)
+
+* [https://github.com/topics/swagger-ui](https://github.com/topics/swagger-ui)
+    * [https://github.com/swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui)
+    * [https://github.com/SpringForAll/spring-boot-starter-swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)
+    * [https://github.com/Swagger2Markup/swagger2markup](https://github.com/Swagger2Markup/swagger2markup)
+    * [https://github.com/caspar-chen/swagger-ui-layer](https://github.com/caspar-chen/swagger-ui-layer)
+    * [https://github.com/xiaoymin/swagger-bootstrap-ui](https://github.com/xiaoymin/swagger-bootstrap-ui)
+    * [https://github.com/chfree/think-swagger-ui-vuele](https://github.com/chfree/think-swagger-ui-vuele)
 
 + [https://github.com/spring-projects/spring-restdocs](https://github.com/spring-projects/spring-restdocs)
 + [https://github.com/YeDaxia/JApiDocs](https://github.com/YeDaxia/JApiDocs)
