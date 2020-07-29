@@ -68,8 +68,6 @@ if (Argv.length > 0) {
     switch (Argv(0)) {
         case "startup":
             autoStart("startup", "1");
-            var fileName = WScript.ScriptFullName.replace(".bat", ".vbs");
-            createSchedule("SetBingWallpaper", "设置必应壁纸", "bajins", "wscript", '"' + fileName + '" 1');
             break;
         case "?", "help":
         default:
@@ -376,18 +374,20 @@ function autoStart(mode, arguments) {
         // 开机启动目录
         var runDir = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\";
         vbsFileName = runDir + fileName + ".vbs";
-        var fso = new ActiveXObject("Scripting.FileSystemObject");
-        // 创建文件
-        var vbsFile = fso.CreateTextFile(vbsFileName, true);
-        // 填写数据，并增加换行符
-        vbsFile.WriteLine("Set shell = WScript.CreateObject(\"WScript.Shell\")");
-        vbsFile.WriteLine('shell.Run "cmd /c ' + WScript.ScriptFullName + arguments + '", 0, false');
-        // 关闭文件
-        vbsFile.Close();
-    } else {
+    }
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    // 创建文件
+    var vbsFile = fso.CreateTextFile(vbsFileName, true);
+    // 填写数据，并增加换行符
+    vbsFile.WriteLine("Set shell = WScript.CreateObject(\"WScript.Shell\")");
+    vbsFile.WriteLine('shell.Run "cmd /c ' + WScript.ScriptFullName + arguments + '", 0, false');
+    // 关闭文件
+    vbsFile.Close();
+    if ("startup" != mode.toLowerCase()) {
         // 添加开机启动注册表
         var shell = new ActiveXObject("WScript.shell");
         var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\";
         shell.RegWrite(runRegBase + fileName, vbsFileName + arguments);
     }
+    return vbsFileName;
 }
