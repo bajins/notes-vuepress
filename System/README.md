@@ -49,7 +49,7 @@
 **MSTSC删除记录**
 
 - Windows键 + <kbd>R</kbd>打开`运行` 输入`regedit` 找到 `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Terminal Server Client\Default`
-- 进入 `%USERPROFILE%\Documents` 删除`Default.rdp`文件（默认隐藏）
+- 进入 `%USERPROFILE%\Documents` (或`%HOMEPATH%\Documents`) 删除`Default.rdp`文件（默认隐藏）
 
 
 
