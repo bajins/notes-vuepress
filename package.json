@@ -42,7 +42,7 @@
         "axios": "0.19.2",
         "cache-loader": "^4.1.0",
         "leancloud-storage": "^4.6.1",
-        "lodash": "^4.17.15",
+        "lodash": "^4.17.19",
         "lodash.template": "^4.5.0",
         "mixin-deep": "^2.0.1",
         "moment": "^2.27.0",
@@ -53,13 +53,13 @@
         "serialize-javascript": "^4.0.0",
         "set-value": "^3.0.2",
         "valine": "1.4.14",
-        "vue-class-component": "^7.2.3",
+        "vue-class-component": "^7.2.5",
         "vue-click-outside": "^1.1.0",
         "vue-property-decorator": "^9.0.0",
         "vue-toasted": "^1.1.28",
         "vuepress": "^1.5.2",
         "vuepress-plugin-flowchart": "^1.4.3",
         "vuepress-plugin-rss": "^2.0.0",
-        "vuepress-theme-reco": "^1.5.3"
+        "vuepress-theme-reco": "^1.5.4"
     }
 }
