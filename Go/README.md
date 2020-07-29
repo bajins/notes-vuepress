@@ -79,9 +79,6 @@
 | kit     	| https://github.com/go-kit/kit                                  	| https://gokit.io                           	|
 
 
-
-### other
-
 * [golang worker pool ,线程池 , 工作池](https://github.com/xxjwxc/gowp)
 * [模板功能](https://github.com/Masterminds/sprig)
 * [https://github.com/pingcap/tidb](https://github.com/pingcap/tidb)
@@ -105,7 +102,9 @@
 * Lane包提供队列，优先级队列，堆栈和双端队列：[https://github.com/oleiade/lane](https://github.com/oleiade/lane)
 * 具有历史记录的命令行编辑器：[https://github.com/peterh/liner](https://github.com/peterh/liner)
 * 自动控制基于终端或控制台 [https://github.com/Netflix/go-expect](https://github.com/Netflix/go-expect)
-
+* [https://github.com/google/goexpect](https://github.com/google/goexpect)
+* [https://github.com/google/goterm](https://github.com/google/goterm)
+* [https://github.com/ThomasRooney/gexpect](https://github.com/ThomasRooney/gexpect)
 
 
 

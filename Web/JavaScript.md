@@ -82,6 +82,7 @@ document.querySelector("#id").addEventListener("click", testOnclick);
     * [http://www.clipboardjs.cn](http://www.clipboardjs.cn)
 * 用于缩放图像 [https://github.com/francoischalifour/medium-zoom](https://github.com/francoischalifour/medium-zoom)
 * 电子表格数据工具包 [https://github.com/SheetJS](https://github.com/SheetJS)
+* 绑定按键 [https://github.com/jamiebuilds/tinykeys](https://github.com/jamiebuilds/tinykeys)
 
 
 
