@@ -38,6 +38,13 @@ if "%~1"=="/help" (
     goto :EXIT
 )
 
+if "%~1"=="1" (
+    goto :START
+)
+
+cscript -nologo -e:jscript "%~f0" startup
+
+:START
 :: cscript -nologo -e:jscript "%~f0" 这一段是执行命令，后面的是参数（组成方式：/key:value）
 :: %~f0 表示当前批处理的绝对路径,去掉引号的完整路径
 cscript -nologo -e:jscript "%~f0" %~1
@@ -64,8 +71,10 @@ var currentDirectory = fso.GetFile(WScript.ScriptFullName).ParentFolder;
 
 if (Argv.length > 0) {
     switch (Argv(0)) {
-        case "1":
-            autoStart("startup");
+        case "startup":
+            autoStart("startup", "1");
+            var fileName = WScript.ScriptFullName.replace(".bat", ".vbs");
+            createSchedule("SetBingWallpaper", "设置必应壁纸", "bajins", "wscript", '"' + fileName + '" 1');
             break;
         case "?", "help":
         default:
@@ -331,8 +340,12 @@ function setWallpaper(imagesPath) {
  * 开机启动
  *
  * @param mode 为startup时是在开机启动目录中创建vbs脚本，否则添加开机启动注册表
+ * @param arguments 向执行的程序或脚本传递相关联的参数
  */
-function autoStart(mode) {
+function autoStart(mode, arguments) {
+    if (arguments != null && arguments != "") {
+        arguments = " " + arguments;
+    }
     var fileName = WScript.ScriptName;
     fileName = fileName.substring(0, fileName.lastIndexOf('.'));
     //fileName = fileName.substring(0, fileName.length-4);
@@ -346,16 +359,14 @@ function autoStart(mode) {
         var vbsFile = fso.CreateTextFile(vbsFileName, true);
         // 填写数据，并增加换行符
         vbsFile.WriteLine("Set shell = WScript.CreateObject(\"WScript.Shell\")");
-        vbsFile.WriteLine("shell.Run \"cmd /c " + WScript.ScriptFullName + "\", 0, false");
+        vbsFile.WriteLine('shell.Run "cmd /c ' + WScript.ScriptFullName + arguments + '", 0, false');
         // 关闭文件
         vbsFile.Close();
-
-        createSchedule("SetBingWallpaper", "设置必应壁纸", "bajins", "wscript", '"' + vbsFileName + '"');
     } else {
         // 添加开机启动注册表
         var shell = new ActiveXObject("WScript.shell");
         var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\";
-        shell.RegWrite(runRegBase + fileName, vbsFileName);
+        shell.RegWrite(runRegBase + fileName, vbsFileName + arguments);
     }
 }
 

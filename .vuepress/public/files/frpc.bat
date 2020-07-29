@@ -243,7 +243,7 @@ if (ArgvName.Item("help") != "" && ArgvName.Item("help") != null) {
 }
 
 if (ArgvName.Item("autoRun") == "1") {
-    autoStart("startup");
+    autoStart("startup", null);
 }
 
 try {
@@ -577,8 +577,12 @@ function download7z(mode) {
  * 开机启动
  *
  * @param mode 为startup时是在开机启动目录中创建vbs脚本，否则添加开机启动注册表
+ * @param arguments 向执行的程序或脚本传递相关联的参数
  */
-function autoStart(mode) {
+function autoStart(mode, arguments) {
+    if (arguments != null && arguments != "") {
+        arguments = " " + arguments;
+    }
     var fileName = WScript.ScriptName;
     fileName = fileName.substring(0, fileName.lastIndexOf('.'));
     //fileName = fileName.substring(0, fileName.length-4);
@@ -587,18 +591,18 @@ function autoStart(mode) {
         // 开机启动目录
         var runDir = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\";
         vbsFileName = runDir + fileName + ".vbs";
+        var fso = new ActiveXObject("Scripting.FileSystemObject");
+        // 创建文件
+        var vbsFile = fso.CreateTextFile(vbsFileName, true);
+        // 填写数据，并增加换行符
+        vbsFile.WriteLine("Set shell = WScript.CreateObject(\"WScript.Shell\")");
+        vbsFile.WriteLine("shell.Run \"cmd /c ' + WScript.ScriptFullName + arguments + "\", 0, false");
+        // 关闭文件
+        vbsFile.Close();
     } else {
         // 添加开机启动注册表
         var shell = new ActiveXObject("WScript.shell");
         var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\";
-        shell.RegWrite(runRegBase + fileName, vbsFileName);
+        shell.RegWrite(runRegBase + fileName, vbsFileName + arguments);
     }
-    var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // 创建文件
-    var vbsFile = fso.CreateTextFile(vbsFileName, true);
-    // 填写数据，并增加换行符
-    vbsFile.WriteLine("Set shell = WScript.CreateObject(\"WScript.Shell\")");
-    vbsFile.WriteLine("shell.Run \"cmd /c " + WScript.ScriptFullName + "\", 0, false");
-    // 关闭文件
-    vbsFile.Close();
 }
