@@ -16,6 +16,8 @@
 * [https://signal.org](https://signal.org)
 * [https://trello.com](https://trello.com)
 
+- [https://github.com/topics/desktop-app](https://github.com/topics/desktop-app)
+
 
 **博客**
 
@@ -873,14 +875,19 @@ slmgr /ato
 
 ## 邮箱客户端
 
+* [https://github.com/topics/smtp-client](https://github.com/topics/smtp-client)
+* [https://github.com/topics/imap-client](https://github.com/topics/imap-client)
+* [https://github.com/topics/e-mail](https://github.com/topics/e-mail)
+* [https://github.com/topics/mail](https://github.com/topics/e-mail)
 * Mozilla Thunderbird [https://github.com/mozilla-comm](https://github.com/mozilla-comm)
     * [https://github.com/thundernest](https://github.com/thundernest)
     * [https://www.thunderbird.net](https://www.thunderbird.net)
 * [https://www.foxmail.com](https://www.foxmail.com)
-* Outlook
-    * 邮箱配置：`控制面板` --> 搜索`邮件`(或者`mail`)
-* Windows 10 自带邮箱
+* [https://mail.163.com/dashi](https://mail.163.com/dashi)
+* [https://sparkmailapp.com](https://sparkmailapp.com)
+* [http://help.cy-email.com](http://help.cy-email.com)
 * The Bat [https://www.ritlabs.com](https://www.ritlabs.com)
+* Outlook 使用时有自动删除邮件的BUG
 
 
 ## other
