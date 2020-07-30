@@ -451,6 +451,7 @@
 * [https://github.com/apache/openoffice](https://github.com/apache/openoffice)
 * [https://zh-cn.libreoffice.org](https://zh-cn.libreoffice.org)
 * [https://github.com/YerongAI/Office-Tool](https://github.com/YerongAI/Office-Tool)
+    * [https://otp.landian.vip](https://otp.landian.vip)
 
 - [https://office.live.com/start/onedrive.aspx](https://office.live.com/start/onedrive.aspx)
 - [https://www.microsoft.com/zh-cn/microsoft-365/onedrive/download](https://www.microsoft.com/zh-cn/microsoft-365/onedrive/download)
@@ -495,7 +496,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 - 匹配单元格左边英文及其他字符=RegexString(A1,"[^\u4e00-\u9fa5]+")
 - 匹配单元格右边中文及其他字符=RegexString(A1,"[\u4e00-\u9fa5].*")
 
-```visual-basic
+```vb
 Function RegexString(rng As Range, str As String)
 '第一个参数rng为区域保持不变， 添加第二个参数str（作为正则表达式）
   With CreateObject("VBscript.regexp")
@@ -511,7 +512,7 @@ End Function
 ```
 
 
-```visual-basic
+```vb
 'https://blog.csdn.net/wordsin/article/details/80575615
 '自定义函数用于工作表时，必须是被动式的，只是返回一个值，不能处理单元格或在工作表上修改，批注是个例外，不能调用range的方法，如：Find，Range.Replace例外
 Function ReSplit(rng As Range)

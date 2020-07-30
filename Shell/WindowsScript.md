@@ -433,7 +433,7 @@
 
 * [SWbemServices object](https://docs.microsoft.com/zh-cn/windows/win32/wmisdk/swbemservices)
 
-```visual-basic
+```vb
 Set objLocator = CreateObject("WbemScripting.SWbemLocator")
 Set objService = objLocator.ConnectServer(".", "root\cimv2")
 
@@ -504,7 +504,7 @@ for(e = new Enumerator(LoginProfiles) ; !e.atEnd() ; e.moveNext()) {
 
 **数组转换为字符串**
 
-```visual-basic
+```vb
 '数组转换为字符串
 'Writer         Bajins
 'Create Date    2019-10-22
@@ -529,7 +529,7 @@ End Function
 
 **获取对象的属性和值**
 
-```visual-basic
+```vb
 ' 获取对象的属性和值
 'Writer         Bajins
 'Create Date    2019-10-22
@@ -558,7 +558,7 @@ End Function
 
 > 此方式完全不会显示`CMD`窗口（包括闪现）
 
-```visual-basic
+```vb
 ' 获取系统位数
 'Writer         Bajins
 'Create Date    2019-10-22
@@ -585,7 +585,7 @@ End Function
 
 **隐藏窗口运行**
 
-```visual-basic
+```vb
 ' 创建运行命令数组
 commands = Array("D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini")
 
@@ -612,7 +612,7 @@ shell.RegWrite item & keyName, WScript.ScriptFullName
 
 **查看进程是否存在**
 
-```visual-basic
+```vb
 ProcesseName="rclone.exe"
 
 ' 查找进程
@@ -635,7 +635,7 @@ Next
 
 **Ping**
 
-```visual-basic
+```vb
 Function Ping(strHostName) 
   Dim colPingResults, objPingResult, strQuery 
   ' 定义WMI查询
@@ -663,7 +663,7 @@ End Function
 
 **监视网络连接**
 
-```visual-basic
+```vb
 Set objWMIService = GetObject("winmgmts:\\.\root\wmi")
 ' 执行事件订阅查询以接收事件。事件订阅查询定义了要监视的托管环境的更改。发生更改时，WMI基础结构会将事件描述为调用脚本。
 Set colMonitoredEvents = objWMIService.ExecNotificationQuery("Select * from MSNdis_StatusMediaConnect") 
@@ -677,7 +677,7 @@ Loop
 
 **监视网络断开**
 
-```visual-basic
+```vb
 Set objWMIService = GetObject("winmgmts:\\.\root\wmi")
 ' 执行事件订阅查询以接收事件。事件订阅查询定义了要监视的托管环境的更改。发生更改时，WMI基础结构会将事件描述为调用脚本。
 Set colMonitoredEvents = objWMIService.ExecNotificationQuery("Select * from MSNdis_StatusMediaDisconnect") 
@@ -693,7 +693,7 @@ Loop
 
 > 使用API触发图片文件右键菜单上的 `设置为桌面背景(B)`
 
-```visual-basic
+```vb
 Set shApp = CreateObject("Shell.Application")
 ' 获取文件
 Set picFile = CreateObject("Scripting.FileSystemObject").GetFile("C:\Users\bajin\Desktop\CachedImage_1920_1080_POS4.jpg")
@@ -715,7 +715,7 @@ Next
 
 **刷新桌面**
 
-```visual-basic
+```vb
 ' 切换到桌面
 CreateObject("Shell.Application").ToggleDesktop()
 ' 刷新桌面
