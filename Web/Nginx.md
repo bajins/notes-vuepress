@@ -9,9 +9,8 @@
 ## Flag
 
 + [http://nginx.org/en/download.html](http://nginx.org/en/download.html)
+    + [http://nginx.org/en/docs](http://nginx.org/en/docs)
 + [https://github.com/h5bp/server-configs-nginx](https://github.com/h5bp/server-configs-nginx)
-
-
 
 * [Nginx HTTP核心模块指令和内置变量中文说明](https://my.oschina.net/jsan/blog/125861)
 * [nginxbeautifier](https://github.com/vasilevich/nginxbeautifier)
@@ -30,6 +29,8 @@
 
 
 * [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
+
+- 在`nginx.conf`中配置`log_format`（可以配置在`server`中），含义是配置了一个名为`main`的日志格式化的规则，应用在了`access_log`的日志上
 
 
 
@@ -193,7 +194,6 @@ location ~* \.(txt|doc)${
 
 
 
-
 ## rewrite语法
 
 * [https://blog.csdn.net/weixin_40792878/article/details/83316519](https://blog.csdn.net/weixin_40792878/article/details/83316519)
@@ -203,23 +203,18 @@ location ~* \.(txt|doc)${
 > 该指令可以在`server`块或者`location`块中配置
 
 - 语法：`rewrite regex replacement [flag];`
+    - `rewrite`是实现URL重定向的重要指令。
+    - `regex`用来匹配URI的正则表达式；
+    -  `replacement`匹配成功后用来替换URI中被截取内容的字符串，默认情况如果该字符串包含“http://”、"https://"开头，则不会继续向下对URI进行其他处理。直接返回重写的URI给客户端
+    - `flag`用来设置rewrite对URI的处理行为,包含如下数据：
 
-> `rewrite`是实现URL重定向的重要指令。
->
-> `regex`用来匹配URI的正则表达式；
->
-> `replacement`匹配成功后用来替换URI中被截取内容的字符串，默认情况如果该字符串包含“http://”、"https://"开头，
-> 则不会继续向下对URI进行其他处理。直接返回重写的URI给客户端
->
-> `flag`用来设置rewrite对URI的处理行为,包含如下数据：
+| 标记符号  	| 说明                                                                                                                           	|
+|-----------	|--------------------------------------------------------------------------------------------------------------------------------	|
+| last      	| 终止在本location块中处理接收到的URI，并将此处重写的URI作为新的URI使用其他location进行处理。（只是终止当前location的处理）      	|
+| break     	| 将此处重写的URI作为一个新的URI在当前location中继续执行，并不会将新的URI转向其他location。                                      	|
+| redirect  	| 将重写后的URI返回个客户端，状态码是302，表明临时重定向，主要用在replacement字符串不以“http://”，“ https://”或“ $scheme” 开头； 	|
+| permanent 	| 将重写的URI返回客户端，状态码为301,指明是永久重定向；                                                                          	|
 
-
-| 标记符号      | 说明                                                                                      |
-|-----------|-----------------------------------------------------------------------------------------|
-| last      | 终止在本location块中处理接收到的URI，并将此处重写的URI作为新的URI使用其他location进行处理。（只是终止当前location的处理）           |
-| break     | 将此处重写的URI作为一个新的URI在当前location中继续执行，并不会将新的URI转向其他location。                               |
-| redirect  | 将重写后的URI返回个客户端，状态码是302，表明临时重定向，主要用在replacement字符串不以“http://”，“ https://”或“ $scheme” 开头； |
-| permanent | 将重写的URI返回客户端，状态码为301,指明是永久重定向；                                                          |
 
 **Redirect**
 
@@ -292,8 +287,6 @@ location ~* \.(gif|jpg|swf)$ {
 | `$sent_http_名称`              	| 可以设置任意http响应头字段；变量名中的后半部分名称可以替换成任意响应头字段，如需要设置响应头Content-length，$sent_http_content_length即可          	|
 | `$status`                      	| HTTP响应代码                                                                                                                                       	|
 | `$uri`                         	| 请求的URI，不包含主机名，不包含?后的参数                                                                                                           	|
-
-
 
 
 > `$request_body_file` 将客户端请求主体保存在临时文件中。文件处理结束后，此文件需删除。如果需要执意开启此功能，
@@ -383,14 +376,16 @@ if ( $http_user_agent ~ "$mobile_user_agent" ) {
 > nginx无法在`proxy_pass`指令中处理所需的URI部分，因为位于指定的位置（因此是错误消息）。
 > 这是因为nginx是以模块化的方式构建的，每个配置块都是由各个模块在各个阶段读取的。
 
-> `proxy_pass`在以下情况下，指令中不能有URI ：
->> 正则表达式位置
->>
->> 命名的地点
->>
->> if 块
+- `proxy_pass`在以下情况下，指令中不能有URI ：
+    - 正则表达式位置
+    - 命名的地点
+    - if 块
 
 > 解决方案可见[判断`user_agent`](#判断user-agent)
+
+- `proxy_set_header` 设置请求头信息给上游服务器
+- `add_header` 设置响应头信息给浏览器
+
 
 
 
