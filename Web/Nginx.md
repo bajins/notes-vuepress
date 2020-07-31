@@ -18,6 +18,7 @@
 * [nginxconfig配置生成](https://github.com/0xB4LINT/nginxconfig.io)
 * [nginx 变量使用](https://blog.csdn.net/u014296316/article/details/80973530)
 * [Nginx 从入门到实践，万字详解](https://juejin.im/post/5ea931866fb9a043815146fb)
+* Nginx 入门指南 [https://github.com/xuexb/learn-nginx](https://github.com/xuexb/learn-nginx)
 
 
 - [HAProxy 入门](https://jaminzhang.github.io/lb/HAProxy-Get-Started)
