@@ -33,9 +33,17 @@
 * [Linux主流发行版本](https://distrowatch.com/dwres.php?resource=major)
 
 
+
 ## Windows10设置
 
 * [小米笔记本Pro黑苹果Win10双系统](https://www.ikxin.com/465.html)
+
+> 打开后，随便点一个进程右键，查看-查看进程热键-再右键-显示所有进程热键
+
+> 当分区后应该设置主分区为活动分区（选中该主分区右键选择激活分区）
+
+* [比较 Windows 10 的不同版本](https://www.microsoft.com/zh-cn/windowsforbusiness/compare)
+* [Windows 10 版本的版本信息](https://docs.microsoft.com/zh-cn/windows/release-information)
 
 
 **Wifi频繁断线**
@@ -51,6 +59,28 @@
 - Windows键 + <kbd>R</kbd>打开`运行` 输入`regedit` 找到 `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Terminal Server Client\Default`
 - 进入 `%USERPROFILE%\Documents` (或`%HOMEPATH%\Documents`) 删除`Default.rdp`文件（默认隐藏）
 
+
+**此电脑中的7个文件夹**
+
+> win10删除此电脑中六个文件夹：按<kbd>Win</kbd> + <kbd>r</kbd>输入`regedit`进入注册表编辑器，输入并删除其中带`{}`的
+> `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace`
+
+```batch
+:: 删除我的电脑"视频"文件夹
+REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}" /f
+:: 删除我的电脑"文档"文件夹
+REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}" /f
+:: 删除我的电脑"桌面"文件夹
+REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}" /f
+:: 删除我的电脑"音乐"文件夹
+REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}" /f
+:: 删除我的电脑"下载"文件夹
+REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}" /f
+:: 删除我的电脑"图片"文件夹
+REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}" /f
+:: 删除我的电脑"3D对象"文件夹
+REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}" /f
+```
 
 
 ## CloudFlare Workers

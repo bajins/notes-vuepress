@@ -41,7 +41,6 @@ msiexec /a "MSI文件路径" /qn TARGETDIR="解压输出目录绝对路径"
 msg %username% /time:60 "WARNING:a backdoor account is created"
 ```
 
-
 - Windows10当前桌面壁纸：`%AppData%\Microsoft\Windows\Themes\CachedFiles\CachedImage_1920_1080_POS4.jpg`
 - Windows7当前桌面壁纸：`%AppData%\Microsoft\Windows\Themes\TranscodedWallpaper.jpg`
 - 事件日志目录：`%SystemRoot%\System32\Winevt\Logs`
@@ -176,9 +175,6 @@ goto :EXIT
 :: 结束延迟环境变量扩展和命令执行
 endlocal&exit /b %errorlevel%
 ```
-
-
-
 
 
 ## 环境变量
@@ -677,9 +673,7 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 
 > 按`win+r`打开运行窗口，输入`shell:startup`打开启动文件夹，把快捷方式或者软件放入
 
-
 - Win7及以上（当前用户）: `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`
-
 - 启动目录（所有用户）: `%ProgramData%\Microsoft\Windows\Start Menu\Programs\StartUp`
 
 
@@ -723,11 +717,8 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 
 **系统默认注册表位置**
 
-
 - 为所有用户安装的程序：`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall`
-
 - 为当前用户安装的程序：`HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall`
-
 - 64位系统中的32位程序：`HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall`
 
 > 这3个注册表总有一个包含你要找的程序，不包括UWP应用。
@@ -738,8 +729,6 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 > 如果注册表项下面有"SystemComponent"字段并且值等于`1`时，表示这是个系统组件，而不是应用软件。
 
 > 如果注册表项下面有"ParentKeyName"字段则表示该项是某个分类下的子项，一般情况补丁才会有"ParentKeyName"字段。
-
-
 
 
 
@@ -778,21 +767,18 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 
 ### 修改
 
-> `/v` 设置键名(value)
+- `/v` 设置键名(value)
+- `/t` 设置数据类型(type)
+- `/d` 设置添加的值(data)
+- `/f` 表示强制(forbidden)
 
-> `/t` 设置数据类型(type)
-
-> `/d` 设置添加的值(data)
-
-> `/f` 表示强制(forbidden)
-
-- 删除桌面IE图标
+* 删除桌面IE图标
 
 ```batch
 REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{B416D21B-3B22-B6D4-BBD3-BBD452DB3D5B}" /f
 ```
 
-- 修改开机时小数字键盘不开启的问题
++ 修改开机时小数字键盘不开启的问题
 
 ```batch
 REG ADD "HKU\.DEFAULT\Control Panel\Keyboard" /v InitialKeyboardIndicators /t REG_SZ /d 2 /f
@@ -811,7 +797,6 @@ RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters
 
 ```batch
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 自定义命名 /d %0 /f
-
 ```
 
 - 替换默认记事本
@@ -821,7 +806,6 @@ REG ADD "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution 
  /v "Debugger" /t REG_SZ /d "\"记事本程序路径\" -z" /f
 ```
 
-
 - 恢复系统默认记事本
 
 ```batch
@@ -829,9 +813,6 @@ REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Executi
 REG DELETE "HKLM\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
 REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /f
 ```
-
-
-
 
 - Windows Defender
 
@@ -844,10 +825,7 @@ REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "Di
 
 :: 启用Windows Defender
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /d 0 /t REG_DWORD /f   
-   
 ```
-
-
 
 
 ### 窗口设置
@@ -886,6 +864,7 @@ REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v ScreenBufferSize /d 0x03e800
 ```bash
 FOR /F "usebackq delims==" %i IN (`REG QUERY HKCU /v onedrive /s`) DO @echo %i
 ```
+
 
 ## 注册服务
 

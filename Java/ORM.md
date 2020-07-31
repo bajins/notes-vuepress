@@ -1,8 +1,5 @@
 # ORM
 
-> 对象关系映射（Object Relational Mapping，简称ORM）是通过使用描述对象和数据库之间映射的元数据，
-> 将面向对象语言程序中的对象自动持久化到关系数据库中。
-
 
 [[toc]]
 
@@ -10,6 +7,9 @@
 
 
 ## Flag
+
+> 对象关系映射（Object Relational Mapping，简称ORM）是通过使用描述对象和数据库之间映射的元数据，
+> 将面向对象语言程序中的对象自动持久化到关系数据库中。
 
 * [Java，JDBC和MySQL对应数据类型](https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-reference-type-conversions.html)
 * [http://www.squirrelsql.org](http://www.squirrelsql.org)
@@ -22,7 +22,6 @@
 **注意使用的JDBC驱动**
 
 - `com.mysql.jdbc.Driver`是`mysql-connector-java 5`中的，不再推荐使用
-
 - `com.mysql.cj.jdbc.Driver`是`mysql-connector-java 6`中的
 
 > 如果`mysql-connector-java`用的`6.0`以上的，但是你的`driver`用的还是`com.mysql.jdbc.Driver`，就会报错
@@ -167,7 +166,7 @@ List<Invest> is = session.createQuery(sql)
 
 >  spring 的框架提供了getHibernateTemplate().findByCriteria(detachedCriteria) 方法可以很方便地根据DetachedCriteria 来返回查询结果。
 
-- hibernate5.2版本之前createCriteria()查询的方式
+**hibernate5.2版本之前createCriteria()查询的方式**
 
 ```java
 // Restrictions.in传值为数组或list集合
@@ -192,7 +191,7 @@ criteria.add(Restrictions.like("time","%" + "2018-11-13" + "%"));
 criteria.add(Restrictions.sqlRestriction("time like '%2018-11-13%'"));
 ```
 
-- hibernate5.2及之后版本createCriteria()查询的方式
+**hibernate5.2及之后版本createCriteria()查询的方式**
 
 > 原有的session.createCriteria()方法已经过时，替代的方式是使用JPA Criteria。
 

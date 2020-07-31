@@ -617,18 +617,6 @@ End Sub
 
 ## 系统相关
 
-> 打开后，随便点一个进程右键，查看-查看进程热键-再右键-显示所有进程热键
-
-> 当分区后应该设置主分区为活动分区（选中该主分区右键选择激活分区）
-
-> win10删除此电脑中六个文件夹：按<kbd>Win</kbd> + <kbd>r</kbd>输入`regedit`进入注册表编辑器，输入并删除其中带`{}`的
-> `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace`
-
-
-* [比较 Windows 10 的不同版本](https://www.microsoft.com/zh-cn/windowsforbusiness/compare)
-* [Windows 10 版本的版本信息](https://docs.microsoft.com/zh-cn/windows/release-information)
-
-
 ### MSDN
 
 * [https://www.microsoft.com/zh-cn/software-download/windows10](https://www.microsoft.com/zh-cn/software-download/windows10)
