@@ -24,13 +24,22 @@
 * [https://github.com/corretto](https://github.com/corretto)
     * [https://aws.amazon.com/cn/corretto](https://aws.amazon.com/cn/corretto)
 * [https://github.com/zulu-openjdk](https://github.com/zulu-openjdk)
-    * [https://cn.azul.com/downloads/zulu](https://cn.azul.com/downloads/zulu)
+    * [https://www.azul.com/downloads/zulu](https://cn.azul.com/downloads/zulu)
     * [https://cdn.azul.com/zulu/bin](https://cdn.azul.com/zulu/bin)
+* [https://github.com/ojdkbuild/ojdkbuild](https://github.com/ojdkbuild/ojdkbuild)
 * [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)
 * [https://github.com/SAP/SapMachine](https://github.com/SAP/SapMachine)
+    * [https://sap.github.io/SapMachine](https://sap.github.io/SapMachine)
+* [https://github.com/bell-sw](https://github.com/bell-sw)
+    * [https://bell-sw.com/java](https://bell-sw.com/java)
+* [https://github.com/sdkman](https://github.com/sdkman)
+    * [https://sdkman.io](https://sdkman.io)
+* [https://github.com/ScoopInstaller/Java](https://github.com/ScoopInstaller/Java)
 * [https://github.com/alibaba/dragonwell8](https://github.com/alibaba/dragonwell8)
 * [https://developer.ibm.com/javasdk/downloads](https://developer.ibm.com/javasdk/downloads)
 
++ [https://github.com/oracle/graal](https://github.com/oracle/graal)
+    + [https://www.graalvm.org](https://www.graalvm.org)
 
 
 

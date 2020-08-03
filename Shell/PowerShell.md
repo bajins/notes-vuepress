@@ -34,7 +34,9 @@
     * [https://www.nuget.org](https://www.nuget.org)
     * [https://www.powershellgallery.com](https://www.powershellgallery.com)
 * [https://github.com/chocolatey](https://github.com/chocolatey)
+    * [https://chocolatey.org](https://chocolatey.org)
 * [https://github.com/lukesampson/scoop](https://github.com/lukesampson/scoop)
+    * [https://github.com/ScoopInstaller](https://github.com/ScoopInstaller)
 * [https://github.com/cmderdev/cmder](https://github.com/cmderdev/cmder)
 * [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 

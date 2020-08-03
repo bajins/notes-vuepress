@@ -11,6 +11,8 @@
 
 * [https://github.com/git](https://github.com/git)
   * [https://git-scm.com](https://git-scm.com)
+* 对大型文件进行版本控制 [https://github.com/git-lfs](https://github.com/git-lfs)
+  * [https://git-lfs.github.com](https://git-lfs.github.com)
 * [https://www.syntevo.com](https://www.syntevo.com)
 * [https://github.com/github/gitignore](https://github.com/github/gitignore)
 * [为您的项目创建有用的.gitignore文件](https://github.com/toptal/gitignore.io)

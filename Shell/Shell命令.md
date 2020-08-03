@@ -16,7 +16,7 @@
 * [https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
 * [https://github.com/idank/explainshell](https://github.com/idank/explainshell)
 
-
+- 包管理器 [https://github.com/Homebrew](https://github.com/Homebrew)
 - [https://github.com/jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command)
 - [https://man.linuxde.net](https://man.linuxde.net)
 - [https://www.linuxcool.com](https://www.linuxcool.com)
