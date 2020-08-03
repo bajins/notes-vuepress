@@ -291,6 +291,11 @@
 
 ## 播放器
 
++ [https://github.com/topics/playlist](https://github.com/topics/playlist)
++ [https://github.com/topics/iptv](https://github.com/topics/iptv)
++ [https://github.com/topics/m3u](https://github.com/topics/m3u)
++ [https://github.com/iptv-org/iptv](https://github.com/iptv-org/iptv)
+
 * [foobar2000](http://blog.sina.com.cn/go2spa)
 * [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
 * [https://github.com/mpv-player/mpv](https://github.com/mpv-player/mpv)
@@ -308,15 +313,19 @@
 * [Public Version 64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe)
 * [Developer Version 32-bit](http://t1.daumcdn.net/potplayer/beta/PotPlayerSetup.exe)
 * [Developer Version 64-bit](http://t1.daumcdn.net/potplayer/beta/PotPlayerSetup64.exe)
-* [OpenCodec(额外解码包)32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup.exe)
-* [OpenCodec(额外解码包)64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup64.exe)
-* [FFmpegMininum.dll 32-bit](https://get.daum.net/PotPlayer/v4/Module/FFmpeg/FFmpegMininum.dll)
-* [FFmpegMininum.dll 64-bit](https://get.daum.net/PotPlayer64/v4/Module/FFmpeg/FFmpegMininum64.dll)
+* [解码组件包（Open Codec）只要提取HEVC(H265)解码器(FFmpeg.dll) 32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup.exe)
+* [解码组件包（Open Codec）只要提取HEVC(H265)解码器(FFmpeg.dll) 64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup64.exe)
+* [DTS音频解码器（FFmpegMininum.dll） 32-bit](https://get.daum.net/PotPlayer/v4/Module/FFmpeg/FFmpegMininum.dll)
+* [DTS音频解码器（FFmpegMininum.dll） 64-bit](https://get.daum.net/PotPlayer64/v4/Module/FFmpeg/FFmpegMininum64.dll)
 
 > 以上是官网下载地址，将`DNS`改为`8.8.8.8`就可以顺利下载了，若为默认的自动模式（国内DNS）则无法下载。或者使用迅雷下载
 
 * [http://daumpotplayer.com/download](http://daumpotplayer.com/download)
 * [https://www.lanzous.com/b112173](https://www.lanzous.com/b112173)
+* [https://www.lanzoux.com/b0i38vsd](https://www.lanzoux.com/b0i38vsd)
+* [https://www.lanzoux.com/b0f1k59qh](https://www.lanzoux.com/b0f1k59qh)
+* [https://cloud.189.cn/t/AZnUVj3iMjUr](https://cloud.189.cn/t/AZnUVj3iMjUr)
+
 
 
 
