@@ -53,11 +53,12 @@ taskkill /f /im chromedriver.exe
 
 > `Headless Browser`(无头的浏览器)是没有图形用户界面(GUI)的web浏览器，通常是通过编程或命令行界面来控制的
 
++ [https://github.com/topics/webdriver](https://github.com/topics/webdriver)
+
 * [https://w3c.github.io/webdriver](https://w3c.github.io/webdriver)
 * [Headless Browser](https://www.jianshu.com/p/11d519e2d0cb)
 * [https://github.com/mozilla/geckodriver](https://github.com/mozilla/geckodriver)
 * [https://github.com/topics/headless-browser](https://github.com/topics/headless-browser)
-
 
 
 **反爬虫**
@@ -76,8 +77,6 @@ taskkill /f /im chromedriver.exe
 * [http://npm.taobao.org/mirrors/chromedriver](http://npm.taobao.org/mirrors/chromedriver)
 * [headless-chrome官方文档](https://developers.google.com/web/updates/2017/04/headless-chrome)
 * [功能和ChromeOptions官方网站参考](https://sites.google.com/a/chromium.org/chromedriver/capabilities)
-
-
 
 
 
@@ -131,10 +130,13 @@ taskkill /f /im chromedriver.exe
 
 ## selenium
 
++ [https://github.com/topics/selenium](https://github.com/topics/selenium)
++ [https://github.com/topics/testing](https://github.com/topics/testing)
+
 * [https://github.com/SeleniumHQ](https://github.com/SeleniumHQ)
-* [https://selenium.dev/documentation/zh-cn](https://selenium.dev/documentation/zh-cn)
-* [Selenium with Python中文翻译文档](https://selenium-python-zh.readthedocs.io/en/latest/index.html)
-* [`selenium`+`chromedriver`+`BeautifulSoup`](https://github.com/woytu/tool-gui-python/blob/master/utils/ReptileUtil.py)
+    * [https://selenium.dev/documentation/zh-cn](https://selenium.dev/documentation/zh-cn)
+    * [Selenium with Python中文翻译文档](https://selenium-python-zh.readthedocs.io/en/latest/index.html)
+* [https://github.com/seleniumbase](https://github.com/seleniumbase)
 * [Python3-Selenium开启自动化测试](http://qzmvc1.top/Python3-Selenium%E5%BC%80%E5%90%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95.html)
 * [python+selenium 判断元素是否存在，是否可点击，是否被选中](https://www.twblogs.net/a/5c8414bdbd9eee35cd69c929/zh-cn)
 * [EC：expected_conditions判断页面元素](https://www.jianshu.com/p/a94918d49c3c)

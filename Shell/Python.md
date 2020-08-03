@@ -47,6 +47,7 @@
 + [https://github.com/aio-libs](https://github.com/aio-libs)
 + [Python Selenium教程 - 猿人学Python](https://www.yuanrenxue.com/python-selenium)
 
+- [https://github.com/Arronlong/py_scripts](https://github.com/Arronlong/py_scripts)
 
 
 
@@ -67,8 +68,7 @@
     - [https://github.com/jacebrowning/pytest-expecter](https://github.com/jacebrowning/pytest-expecter)
 - [https://github.com/topics/ops](https://github.com/topics/ops)
 - [https://github.com/topics/automation](https://github.com/topics/automation)
-
-* [https://github.com/pyecharts/pyecharts](https://github.com/pyecharts/pyecharts)
+- [https://github.com/pyecharts/pyecharts](https://github.com/pyecharts/pyecharts)
 
 
 

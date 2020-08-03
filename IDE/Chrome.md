@@ -14,11 +14,11 @@
 
 ## Chrome下载
 
-
 * [https://www.chromedownloads.net](https://www.chromedownloads.net)
 * [https://www.iplaysoft.com/tools/chrome](https://www.iplaysoft.com/tools/chrome)
 * [https://tools.shuax.com/chrome](https://tools.shuax.com/chrome)
 * [https://www.chrome64bit.com](https://www.chrome64bit.com)
+* [https://chrome.playes.net/chrome](https://chrome.playes.net/chrome)
 
 
 ## 设置
