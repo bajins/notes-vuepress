@@ -60,6 +60,6 @@
         "vuepress": "^1.5.2",
         "vuepress-plugin-flowchart": "^1.4.3",
         "vuepress-plugin-rss": "^2.0.0",
-        "vuepress-theme-reco": "^1.5.4"
+        "vuepress-theme-reco": "^1.5.5"
     }
 }
