@@ -203,7 +203,7 @@ git commit --amend
 > 这种情况不会进行merge, 强制push后远程文件可能会丢失,不建议使用此方法
 
 ```bash
-# 将本地仓库文件push到远程仓库（-f代表强制）
+# 将本地仓库文件push到远程仓库（-f代表强制 --force）
 git push -u -f origin master
 ```
 
@@ -260,18 +260,29 @@ git log 文件名
 git checkout 复制的hash值 文件名
 ```
 
+- 删除包括历史
+
+```bash
+git filter-branch --force --index-filter "git rm --cached --ignore-unmatch src/main/java/com/bajins/demo/xxx.java" \
+  --prune-empty --tag-name-filter cat -- --all
+```
+
+
 ### 统计
 
 - 查看git上的个人代码量
 
 ```bash
-git log --author="用户名" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' -
+git log --author="用户名" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END \
+  { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' -
 ```
 
 - 统计每个人增删行数
 
 ```bash
-git log --format='%aN' | sort -u | while read name; do echo -en "$name\t"; git log --author="$name" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' -; done
+git log --format='%aN' | sort -u | while read name; do echo -en "$name\t"; git log --author="$name" \
+  --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, \
+  removed lines: %s, total lines: %s\n", add, subs, loc }' -; done
 ```
 
 - 查看仓库提交者排名前五
@@ -328,21 +339,13 @@ git log master..origin/master
 ### 分支
 
 - 查看本地分支`git branch`
-
 - 查看远程分支`git branch -r`
-
 - 查看所有分支`git branch -a`
-
 - 本地创建新的分支`git branch [branch name]`
-
 - 切换到新的分支`git checkout [branch name]`
-
 - 创建+切换分支`git checkout -b [branch name]`
-
 - 推送到指定分支`git push origin [branch name]`
-
 - 删除本地分支`git branch -d [branch name]`
-
 - 删除远程分支,分支名前的冒号代表删除`git push origin :[branch name]`
 
 
@@ -390,6 +393,7 @@ git config --global http.lowSpeedLimit 0
 # 最低速度时间
 git config --global http.lowSpeedTime 999999
 ```
+
 > compression 是压缩的意思，从 clone 的终端输出就知道，服务器会压缩目标文件，然后传输到客户端，客户端再解压。
 > 取值为 [-1, 9]，-1 以 zlib 为默认压缩库，0 表示不进行压缩，1..9 是压缩速度与最终获得文件大小的不同程度的权衡，
 > 数字越大，压缩越慢，当然得到的文件会越小。
