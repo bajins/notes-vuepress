@@ -113,6 +113,7 @@
 + 各大网站的脚本 [https://github.com/Orange-shirt/OrangeJs](https://github.com/Orange-shirt/OrangeJs)
 + [酷我音乐精品破解版本集合地](https://www.lanzoux.com/b05aammje)
     + [酷我音乐_for_Android](https://www.lanzoux.com/b0f1956fc)
+    + [https://yaweimao.lanzous.com/b00z96sod](https://yaweimao.lanzous.com/b00z96sod)
 + [https://github.com/butzist/ActivityLauncher](https://github.com/butzist/ActivityLauncher)
 
 * 文件传输 [http://www.xender.com](http://www.xender.com)
@@ -397,7 +398,7 @@
 
 * [https://sourceforge.net/projects/sevenzip](https://sourceforge.net/projects/sevenzip)
     * [https://www.7-zip.org/download.html](https://www.7-zip.org/download.html)
-    * 打开7zip ——> 点击菜单栏上的`工具` ——> `选项` ——> 点击两个`+`号关联所有默认解压方式到当前账户和所有账户
+    * 打开7zip -> 点击菜单栏上的`工具` -> `选项` -> 点击两个`+`号关联所有默认解压方式到当前账户和所有账户
 * [https://github.com/giorgiotani/PeaZip](https://github.com/giorgiotani/PeaZip)
     * [https://sourceforge.net/projects/peazip](https://sourceforge.net/projects/peazip)
 * [https://github.com/nmoinvaz/minizip](https://github.com/nmoinvaz/minizip)
