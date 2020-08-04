@@ -19,6 +19,13 @@
 - [https://github.com/topics/desktop-app](https://github.com/topics/desktop-app)
 
 
+**浏览器**
+
+* [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
+* [https://www.microsoft.com/en-us/edge](https://www.microsoft.com/en-us/edge)
+* [https://www.firefox.com.cn](https://www.firefox.com.cn)
+
+
 **博客**
 
 * [CRACKSurl](http://cracksurl.com)
@@ -118,23 +125,6 @@
 
 * 文件传输 [http://www.xender.com](http://www.xender.com)
 
-
-
-## 浏览器
-
-* [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
-* [https://www.microsoft.com/en-us/edge](https://www.microsoft.com/en-us/edge)
-
-> 以管理员身份运行Microsoft Edge时不支持登录。请以非管理员身份重新启动Microsoft Edge的解决办法：
-> <kbd>Win</kbd> + <kbd>R</kbd>输入并运行`regedit` -> 地址栏输入
-> `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System` -> 
-> 找到`EnableLUA` 这一项，修改数值为`1`，保存并重启
-                                                                                        
-> 如果`EnableLUA`这项的数值本来就是`1`，改了无效的解决方法：<kbd>Win</kbd> + <kbd>R</kbd> 输入并运行 `gpedit.msc` –> 
-> `计算机配置` –> `windows设置` –> `安全设置` –> `本地策略` –> `安全选项` –> `用户帐户控制：用于内置管理员帐户的管理员批准模式` –> 
-> `启用` –> `重启电脑`
-
-* [https://www.firefox.com.cn](https://www.firefox.com.cn)
 
 
 ## 下载器
