@@ -363,7 +363,7 @@ string &operator+(const string& A,const string& B) //cpp
 - `<sup></sup>`
 - `<sub></sub>`
 - `<br/>`
-- `<details><summary><strong style="font-size:160%;">点击查看</strong></summary></details>`
+- `<details><summary style="font-size:160%;">点击查看</summary></details>`
 
 
 ## 工具
