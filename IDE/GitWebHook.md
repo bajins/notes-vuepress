@@ -5,7 +5,7 @@
 
 
 
-## 介绍
+## Flag
 
 - 手动部署
 
@@ -16,6 +16,11 @@
 > 配置`Gitea`的`WebHook`通知(也可以用`码云`、`Github`、`GitLab`、`gogs`,带`WebHook`功能就行)
 
 > 当我们`push`到仓库时,`Gitea`会主动发送一个通知到我们的服务器,然后服务器接到通知执行我们部署的脚本,开始自动化构建。
+
+
+* [https://github.com/woytu/webhook-go](https://github.com/woytu/webhook-go)
+* [https://github.com/adnanh/webhook](https://github.com/adnanh/webhook)
+
 
 
 
@@ -83,12 +88,6 @@ StartLimitBurst=60
 WantedBy=multi-user.target
 ```
 > 这样就可以实现每次向 master push 代码，自动测试成功并且马上推送到测试环境中。 update.sh 脚本的最后可以加一个 Curl 命令向钉钉或者 slack 发送提醒。
-
-### 第三方项目
-
-* [webhook-go](https://github.com/woytu/webhook-go)
-* [webhook](https://github.com/adnanh/webhook)
-
 
 
 

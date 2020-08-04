@@ -20,6 +20,10 @@
 + 带仪表盘的实时性能监控：[https://github.com/netdata/netdata](https://github.com/netdata/netdata)
 + 云探针、云监控、服务器云监控、多服务器探针 [https://github.com/cppla/ServerStatus](https://github.com/cppla/ServerStatus)
 
+
+- [https://www.gnome.org](https://www.gnome.org)
+
+
 **管理面板**
 
 * [https://github.com/aaPanel/BaoTa](https://github.com/aaPanel/BaoTa)
@@ -136,6 +140,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 
 * [https://github.com/electerm/electerm](https://github.com/electerm/electerm)
+* [https://www.mobatek.net](https://www.mobatek.net)
 
 
 **WEB**

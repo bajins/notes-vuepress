@@ -26,6 +26,8 @@
 + podman [https://github.com/containers](https://github.com/containers)
     + [再见 Docker，是时候拥抱下一代容器工具了](https://mp.weixin.qq.com/s/MDi4RB5V60EGl3ii9usD0Q)
     + [podman初试-和docker对比](https://blog.51cto.com/13447608/2448072)
++ Kubernetes的软件包管理器 [https://github.com/helm](https://github.com/helm)
+
 
 
 **Docker搭建私有仓库**
