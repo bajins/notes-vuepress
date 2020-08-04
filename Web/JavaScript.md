@@ -85,6 +85,40 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * 绑定按键 [https://github.com/jamiebuilds/tinykeys](https://github.com/jamiebuilds/tinykeys)
 
 
+**流程图**
+
++ [https://github.com/topics/diagram](https://github.com/topics/diagram)
++ [https://github.com/topics/flowchart](https://github.com/topics/flowchart)
+
+* 3D库 [https://github.com/mrdoob/three.js](https://github.com/mrdoob/three.js)
+* 图表库 [https://github.com/NorthwoodsSoftware/GoJS](https://github.com/NorthwoodsSoftware/GoJS)
+* [https://github.com/jsplumb](https://github.com/jsplumb)
+* [https://github.com/antvis](https://github.com/antvis)
+* [https://github.com/noflo](https://github.com/noflo)
+* [https://github.com/fex-team](https://github.com/fex-team)
+* [https://github.com/bpmn-io](https://github.com/bpmn-io)
+* [https://github.com/dagrejs](https://github.com/dagrejs)
+* [https://github.com/jgrap](https://github.com/jgraph)
+    * [https://github.com/jinzhanye/pokemon-diagram](https://github.com/jinzhanye/pokemon-diagram)
+    * [mxGraph 入门实例教程](https://segmentfault.com/a/1190000018510996)
+* [https://github.com/fabricjs](https://github.com/fabricjs)
+* [https://github.com/cytoscape](https://github.com/cytoscape)
+* [https://github.com/paperjs](https://github.com/paperjs)
+* [https://github.com/d3](https://github.com/d3)
+* [https://github.com/freegroup/draw2d](https://github.com/freegroup/draw2d)
+* [https://github.com/projectstorm/react-diagrams](https://github.com/projectstorm/react-diagrams)
+* [https://github.com/auto-workflow/AWorkflow](https://github.com/auto-workflow/AWorkflow)
+* [https://github.com/mermaidjs/mermaid-live-editor](https://github.com/mermaidjs/mermaid-live-editor)
+* 实体建模 [https://github.com/jscad](https://github.com/jscad)
+    * [https://github.com/uetchy/cadmio](https://github.com/uetchy/cadmio)
+    * [https://github.com/gilboonet](https://github.com/gilboonet)
+* [https://github.com/adrai](https://github.com/adrai)
+* [https://github.com/socketio](https://github.com/socketio)
+* [https://www.jointjs.com](https://www.jointjs.com)
+    * [https://resources.jointjs.com/tutorials/joint/tutorials/ports.html](https://resources.jointjs.com/tutorials/joint/tutorials/ports.html)
+
+
+
 
 ## 字符串换行和拼接
 

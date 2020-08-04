@@ -58,7 +58,6 @@
 * [https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap)
   * [https://www.bootcss.com](https://www.bootcss.com)
 * [neditor 基于ueditor的更现代化的富文本编辑器，支持HTTPS](https://github.com/notadd/neditor)
-* [WebUploader是一个简单的以HTML5为主，FLASH为辅的现代文件上传组件](https://github.com/fex-team/webuploader)
 * [f2ex.cn 各种前端资源](http://f2ex.cn)
 * [https://github.com/sentsin/layui](https://github.com/sentsin/layui)
 
