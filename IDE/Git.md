@@ -129,9 +129,7 @@ git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
 
-- 编辑配置文件取消
-
-> 直接删除即可
+- 编辑配置文件取消代理，直接删除文件即可
 
 
 
@@ -207,32 +205,21 @@ git commit --amend
 git push -u -f origin master
 ```
 
-### pull强制覆盖本地文件
+### 重置本地修改文件
 
 > 如果有任何本地更改，将会丢失。无论是否有--hard选项，任何未被推送的本地提交都将丢失。
 > 如果您有任何未被Git跟踪的文件(例如上传的用户内容)，这些文件将不会受到影响。
 
 - 在重置之前可以通过从master创建一个分支来维护当前的本地提交
 
-```bash
-git checkout master
-git branch new-branch
-```
-
-> 在此之后，所有旧的提交都将保存在`new-branch`中。然而，没有提交的更改(即使staged)将会丢失。确保存储和提交任何你需要的东西。
+> 在此之后，所有旧的提交都将保存在新的分支中。然而，没有提交的更改(即使staged)将会丢失。确保存储和提交任何你需要的东西。
 
 - 执行重置
 
 ```bash
 # 从远程下载最新的，而不尝试合并或rebase任何东西
 git fetch --all
-# reset将主分支重置为您刚刚获取的内容。
-# --hard选项更改工作树中的所有文件以匹配origin/<branch_name>中的文件
-git reset --hard origin/<branch_name>
-```
-
-```bash
-# reset将主分支重置为您刚刚获取的内容。
+# reset将主分支重置为本地commit的最新版本
 # --hard选项更改工作树中的所有文件以匹配origin/<branch_name>中的文件
 git reset --hard origin/<branch_name>
 # 拉取远端最新代码
@@ -350,7 +337,7 @@ git log master..origin/master
 
 
 
-## 常见问题
+## 常见问题处理
 
 * [git中fatal: Authentication failed的问题](https://blog.csdn.net/qq_34665539/article/details/80408282)
 
