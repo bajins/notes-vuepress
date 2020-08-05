@@ -52,12 +52,6 @@
 * php源码 [https://github.com/ilanyu/offline-download](https://github.com/ilanyu/offline-download)
 * go源码 [https://github.com/ilanyu/offLineDownloader](https://github.com/ilanyu/offLineDownloader)
 * [http://git.aakkc.com](http://git.aakkc.com)
-* [https://github.com/Kaggle](https://github.com/Kaggle)
-    * [https://www.kaggle.com](https://www.kaggle.com)
-        * [https://github.com/Kaggle/kaggle-api#kernels](https://github.com/Kaggle/kaggle-api#kernels)
-        * [https://github.com/Kaggle/kaggle-api#installation](https://github.com/Kaggle/kaggle-api#installation)
-        * [资源默认分配](https://www.kaggle.com/docs/notebooks#technical-specifications)
-    * [GitHub等海外大文件快速中转下载](https://mp.weixin.qq.com/s/DH8jXalZiBcX3KhrPdDw8w)
 * [https://ssh.cloud.google.com](https://ssh.cloud.google.com)
     * [https://cloud.google.com/shell/docs](https://cloud.google.com/shell/docs)
 * [https://github.com/churuxu/xdownload](https://github.com/churuxu/xdownload)
@@ -65,6 +59,35 @@
 * [https://github.com/fhefh2015/Fast-GitHub](https://github.com/fhefh2015/Fast-GitHub)
     * [GitHub加速](https://chrome.google.com/webstore/detail/github%E5%8A%A0%E9%80%9F/mfnkflidjnladnkldfonnaicljppahpg)
 * GitHub代下载服务 [http://g.widyun.com](http://g.widyun.com)
+
+
+**Jupyter Notebook**
+
++ [https://github.com/jupyter](https://github.com/jupyter)
+    + [https://jupyter.org](https://jupyter.org)
+    + [https://zh.wikipedia.org/wiki/Jupyter](https://zh.wikipedia.org/wiki/Jupyter)
++ [https://github.com/markusschanta/awesome-jupyter](https://github.com/markusschanta/awesome-jupyter)
+    + [https://github.com/jupyterhub](https://github.com/jupyterhub)
+        + [https://mybinder.org](https://mybinder.org)
+        + [https://notebooks.gesis.org](https://notebooks.gesis.org)
+    + [https://github.com/jupyterlab](https://github.com/jupyterlab)
+
+* [https://github.com/Kaggle](https://github.com/Kaggle)
+    * [https://www.kaggle.com](https://www.kaggle.com)
+        * [https://github.com/Kaggle/kaggle-api#kernels](https://github.com/Kaggle/kaggle-api#kernels)
+        * [https://github.com/Kaggle/kaggle-api#installation](https://github.com/Kaggle/kaggle-api#installation)
+        * [资源默认分配](https://www.kaggle.com/docs/notebooks#technical-specifications)
+    * [GitHub等海外大文件快速中转下载](https://mp.weixin.qq.com/s/DH8jXalZiBcX3KhrPdDw8w)
+* [https://github.com/googlecolab](https://github.com/googlecolab)
+    * [https://colab.research.google.com](https://colab.research.google.com)
+* [https://aistudio.baidu.com](https://aistudio.baidu.com)
+* CoCalc [https://cocalc.com](https://cocalc.com)
+* Azure notebooks
+* 阿里天池大数据 [https://tianchi.aliyun.com](https://tianchi.aliyun.com)
+* 科赛和鲸 K-lab [https://www.kesci.com](https://www.kesci.com)
+* [https://www.floydhub.com](https://www.floydhub.com)
+* [https://momodel.cn](https://momodel.cn)
+* [https://www.huaweicloud.com/product/modelarts.html](https://www.huaweicloud.com/product/modelarts.html)
 
 
 
@@ -90,7 +113,7 @@
 * [https://www.onlinegdb.com](https://www.onlinegdb.com)
 * [https://wandbox.org](https://wandbox.org)
 * [https://github.com/mattgodbolt/compiler-explorer](https://github.com/mattgodbolt/compiler-explorer)
-
+* [http://pythontutor.com](http://pythontutor.com)
 
 
 ## SublimeText
@@ -311,7 +334,7 @@
 * [https://github.com/microsoft/ethr](https://github.com/microsoft/ethr)
 * [https://www.tcpdump.org](https://www.tcpdump.org)
 * [https://www.wireshark.org](https://www.wireshark.org)
-[BurpSuiteV2.1.06破解版](https://www.waitalone.cn/tools/burpsuite.html)
+    * [BurpSuiteV2.1.06破解版](https://www.waitalone.cn/tools/burpsuite.html)
 * [BurpSuite](https://portswigger.net/burp/communitydownload)
 
 

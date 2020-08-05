@@ -16,6 +16,7 @@
 * [https://github.com/amdjs](https://github.com/amdjs)
 * [https://github.com/cmdjs](https://github.com/cmdjs)
 * [https://github.com/seajs](https://github.com/seajs)
+* 异步编程的反应式扩展rxjs [https://github.com/ReactiveX](https://github.com/ReactiveX)
 
 
 **手册**

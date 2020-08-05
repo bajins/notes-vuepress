@@ -16,6 +16,7 @@
 
 **开源组织**
 
+* 免费学习编码 [https://github.com/freeCodeCamp](https://github.com/freeCodeCamp)
 * [https://github.com/apache](https://github.com/apache)
 * [https://github.com/google](https://github.com/google)
     * [https://github.com/googleapis](https://github.com/googleapis)
@@ -134,6 +135,8 @@
 * [http://wiki.jikexueyuan.com](http://wiki.jikexueyuan.com)
 * [https://cloud.tencent.com/developer/devdocs](https://cloud.tencent.com/developer/devdocs)
 * 极客教程 [https://geek-docs.com](https://geek-docs.com)
+* [https://www.freeaihub.com](https://www.freeaihub.com)
+* [http://www.semlinker.com](http://www.semlinker.com)
 
 
 

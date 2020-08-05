@@ -188,6 +188,7 @@ chrome://flags/#enable-parallel-downloading
 * [https://github.com/privacypass/challenge-bypass-extension](https://github.com/privacypass/challenge-bypass-extension)
 * 人机验证码扩展程序 [https://github.com/dessant/buster](https://github.com/dessant/buster)
 * [google-access-helper](https://github.com/search?o=desc&q=google-access-helper&s=updated&type=Repositories)
+* [http://googlehelper.net](http://googlehelper.net)
 
 
 
