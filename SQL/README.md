@@ -77,6 +77,11 @@
 * [详细介绍mysql索引类型：FULLTEXT、NORMAL、SPATIAL、UNIQUE](https://blog.csdn.net/guo_qiangqiang/article/details/88794971)
 * [MYSQL8.0全文索引使用](https://blog.csdn.net/csdnnhb2014/article/details/104466891)
 
+```sql
+-- 强制使用指定索引
+FORCE INDEX (索引名)
+```
+
 - 普通索引
 
 ```sql
