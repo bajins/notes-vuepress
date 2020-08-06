@@ -194,7 +194,7 @@ cp -r tomcat-8080 tomcat-8082
 
 > 进入tomcat-8082的`bin`目录，修改`startup.sh`和`shutdown.sh`两个文件，都添加如下内容
 
-```vim
+```bash
 ######### tomcat 2 ##########
 export JAVA_HOME=JDK安装目录
 export PATH=$PATH:$JAVA_HOME/bin
@@ -227,7 +227,7 @@ connectionTimeout="20000" disableUploadTimeout="true" />
 
 > 在`/etc/profile`文件中加入下面内容配置环境变量
 
-```vim
+```bash
 ########## tomcat 1 ###########
 CATALINA_BASE=/home/tomcat-8080
 CATALINA_HOME=/home/tomcat-8080

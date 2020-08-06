@@ -59,14 +59,16 @@
 
 **索引**
 
-> 索引是加速搜索引擎检索数据的一种特殊表查询。简单地说，索引是一个指向表中数据的指针。一个数据库中的索引与一本书的索引目录是非常相似的。
+> 索引是加速搜索引擎检索数据的一种特殊表查询。简单地说，索引是一个指向表中数据的指针。
+> 索引也是一张表，该表保存了主键与索引字段，并指向实体表的记录。因为更新表时，MySQL不仅要保存数据，还要保存一下索引文件。
+> 建立索引会占用磁盘空间的索引文件。
+
+> 一个数据库中的索引与一本书的索引目录是非常相似的。
 > 拿汉语字典的目录页（索引）打比方，我们可以按拼音、笔画、偏旁部首等排序的目录（索引）快速查找到需要的字。
+
 > 索引有助于加快 SELECT 查询和 WHERE 子句，但它会减慢使用 UPDATE 和 INSERT 语句时的数据输入。索引可以创建或删除，但不会影响数据。
 > 使用 CREATE INDEX 语句创建索引，它允许命名索引，指定表及要索引的一列或多列，并指示索引是升序排列还是降序排列。
 > 索引也可以是唯一的，与 UNIQUE 约束类似，在列上或列组合上防止重复条目。
-
-> 索引也是一张表，该表保存了主键与索引字段，并指向实体表的记录。因为更新表时，MySQL不仅要保存数据，还要保存一下索引文件。
-> 建立索引会占用磁盘空间的索引文件。
 
 
 * [在线DDL操作 - 官网](https://dev.mysql.com/doc/refman/8.0/en/innodb-online-ddl-operations.html)
@@ -77,27 +79,43 @@
 - 普通索引
 
 ```sql
-CREATE INDEX IndexName ON `TableName`(`字段名`(length));
-ALTER TABLE TableName ADD INDEX IndexName(`字段名`(length));
+CREATE INDEX 索引名 ON 表名(`字段名`(length));
+ALTER TABLE 表名 ADD INDEX IndexName(`字段名`(length));
 ```
 
 - 唯一索引
 
 ```sql
-CREATE UNIQUE INDEX IndexName ON `TableName`(`字段名`(length));
-ALTER TABLE TableName ADD UNIQUE (column_list);
+CREATE UNIQUE INDEX 索引名 ON 表名(`字段名`(length));
+ALTER TABLE 表名 ADD UNIQUE (column_list);
 ```
 
 - 组合索引
 
 ```sql
-CREATE INDEX IndexName On `TableName`(`字段名`(length),`字段名`(length),...);
-ALTER TABLE mytable ADD INDEX index_mytable_id_name　(id,name);
+CREATE INDEX 索引名 On 表名(`字段名`(length),`字段名`(length),...);
+ALTER TABLE 表名 ADD INDEX 索引名 (id,name);
 ```
 
 - 全文索引
 
 * [https://dev.mysql.com/doc/refman/8.0/en/fulltext-search.html](https://dev.mysql.com/doc/refman/8.0/en/fulltext-search.html)
+
+```ini
+# 最小字符长度，默认是4，必须要匹配大于4的才会有返回结果
+ft_min_word_len=2
+# 存储在InnoDB的FULLTEXT索引中的最小词长
+innodb_ft_min_token_size=2
+# 中文检索分词插件，设置分词大小，取值范围是1到10,默认值是2，分词的SIZE越大,索引的体积就越大
+# 注意位置必须放在全文索引的配置后面
+ngram_token_size=1
+```
+
+```sql
+-- 查看所有全文索引相关参数
+SHOW GLOBAL VARIABLES LIKE '%ft%';
+SHOW GLOBAL VARIABLES LIKE 'ngram_token_size';
+```
 
 ```sql
 ALTER TABLE tablename ADD FULLTEXT(column1, column2);
@@ -106,22 +124,23 @@ ALTER TABLE tablename ADD FULLTEXT(column1, column2);
 * [MySQL全文索引之布尔全文索引、查询扩展全文索引](https://blog.csdn.net/yyyxxxs/article/details/100079074)
 
 ```sql
--- 查看所有全文索引相关参数
-SHOW VARIABLES LIKE '%ft%';
 -- 
-SELECT * FROM tablename WHERE MATCH(column1, column2) AGAINST(‘xxx′, ‘sss′, ‘ddd′)
+SELECT * FROM 表名 WHERE MATCH(column1, column2) AGAINST('aa','bb','cc'...);
 -- 使用IN BOOLEAN MODE匹配不完整单词
-SELECT * FROM  表名 WHERE MATCH(字段) AGAINST('关键词' IN BOOLEAN MODE)
+SELECT * FROM  表名 WHERE MATCH(字段) AGAINST('关键词' IN BOOLEAN MODE);
 ```
 
 - 重新构建索引文件
 
+* [重建或修复表或索引 - 官网](https://dev.mysql.com/doc/refman/8.0/en/rebuilding-tables.html)
+
 ```sql
-REPAIR TABLE Address QUICK;
+-- 对于InnoDB存储引擎的表无效
+REPAIR TABLE 表名 QUICK;
 -- InnoDB对表进行索引的重新构建
-ALTER TABLE Address ENGINE=INNODB;
+ALTER TABLE 表名 ENGINE=INNODB;
 -- 使用优化指令也可以起到同样的作用，同时这个指令会完成更多的优化作用。OPTIMIZE TABLE运行过程中，MySQL会锁定表
-OPTIMIZE TABLE Project;
+OPTIMIZE TABLE 表名;
 -- 执行之后会返回如下信息，但实际上是执行成功的
 -- Table does not support optimize, doing recreate + analyze instead
 ```

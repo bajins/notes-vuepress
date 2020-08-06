@@ -341,7 +341,7 @@ setsid python3 ./index.py >/dev/null 2>&1 &
 
 **常见配置如下**
 
-```vim
+```ini
 [program:程序名称]
 user=root
 command=/var/www/main

@@ -248,7 +248,7 @@ yum -y install java-1.7.0-openjdk java-1.7.0-openjdk-devel.x86_64
 
 - 在`/etc/profile`文件中加入
 
-```vim
+```bash
 ########## jdk  environment ######################
 export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.181-2.6.14.8.el7_5.x86_64
 export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar

@@ -43,15 +43,15 @@
 
 ## 横线
 
-```vim
+```
 ***
 ```
 
-```vim
+```
 ---
 ```
 
-```vim
+```
 ___
 ```
 
@@ -309,7 +309,11 @@ ___
 
 ## 代码高亮
 
-> 在三个反引号后面加上编程语言的名字，另起一行开始写代码，最后一行再加上三个反引号。
+> 在三个反引号后面加上编程语言的名字(如果是配置则为`ini`、`conf`、`properties`)，另起一行开始写代码，最后一行再加上三个反引号。
+
+* [https://en.wikipedia.org/wiki/Configuration_file](https://en.wikipedia.org/wiki/Configuration_file)
+* [https://prismjs.com/#supported-languages](https://prismjs.com/#supported-languages)
+
 
 ```Java
 public static void main(String[]args){} //Java

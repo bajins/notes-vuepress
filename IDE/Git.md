@@ -112,7 +112,7 @@ vi ~/.gitconfig
 
 > 在文件末尾添加
 
-```vim
+```ini
 [http]
 proxy = socks5://127.0.0.1:10808
 
