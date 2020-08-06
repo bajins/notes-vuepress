@@ -270,6 +270,7 @@ service mysql status
     * [https://dev.mysql.com/doc/refman/8.0/en/innodb-parameters.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-parameters.html)
     * `set persist` 修改并持久化动态参数
     * `set persist_only` 持久化静态参数
+* [服务器系统变量 - 官网](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html)
 
 
 > 从5.7.17后mysql就没有默认的`my_default.cnf`文件，需要手动创建

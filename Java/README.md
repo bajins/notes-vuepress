@@ -237,6 +237,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/luxiaoxun/NettyRpc](https://github.com/luxiaoxun/NettyRpc)
 
 - [https://github.com/elastic/elasticsearch](https://github.com/elastic/elasticsearch)
+- [https://github.com/apache/lucene-solr](https://github.com/apache/lucene-solr)
 
 * [Kafka安装及入门](http://jaychang.cn/2020/03/15/afka%E5%AE%89%E8%A3%85%E5%8F%8A%E5%85%A5%E9%97%A8)
 
