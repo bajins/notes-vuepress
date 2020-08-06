@@ -126,7 +126,6 @@ OPTIMIZE TABLE Project;
 -- Table does not support optimize, doing recreate + analyze instead
 ```
 
-- 
 
 
 
