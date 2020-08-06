@@ -74,6 +74,7 @@
 * [在线DDL操作 - 官网](https://dev.mysql.com/doc/refman/8.0/en/innodb-online-ddl-operations.html)
 * [MySQL 全文索引实现简单版搜索引擎](https://www.cnblogs.com/YangJiaXin/p/11153579.html)
 * [mysql数据库的索引类型](https://baijiahao.baidu.com/s?id=1641311517406582639)
+* [详细介绍mysql索引类型：FULLTEXT、NORMAL、SPATIAL、UNIQUE](https://blog.csdn.net/guo_qiangqiang/article/details/88794971)
 * [MYSQL8.0全文索引使用](https://blog.csdn.net/csdnnhb2014/article/details/104466891)
 
 - 普通索引
@@ -100,6 +101,7 @@ ALTER TABLE 表名 ADD INDEX 索引名 (id,name);
 - 全文索引
 
 * [https://dev.mysql.com/doc/refman/8.0/en/fulltext-search.html](https://dev.mysql.com/doc/refman/8.0/en/fulltext-search.html)
+* [ngram全文分析器 - 官网](https://dev.mysql.com/doc/refman/8.0/en/fulltext-search-ngram.html)
 
 ```ini
 # 最小字符长度，默认是4，必须要匹配大于4的才会有返回结果
@@ -126,7 +128,7 @@ ALTER TABLE tablename ADD FULLTEXT(column1, column2);
 ```sql
 -- 
 SELECT * FROM 表名 WHERE MATCH(column1, column2) AGAINST('aa','bb','cc'...);
--- 使用IN BOOLEAN MODE匹配不完整单词
+-- 使用IN BOOLEAN MODE匹配不完整单词，默认IN NATURAL LANGUAGE MODE（自然语言模式）
 SELECT * FROM  表名 WHERE MATCH(字段) AGAINST('关键词' IN BOOLEAN MODE);
 ```
 
