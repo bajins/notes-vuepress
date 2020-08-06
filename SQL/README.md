@@ -57,7 +57,7 @@
 * [mysql的varchar与text对比](https://blog.51cto.com/arthur376/2121160)
 
 
-**索引**
+### 索引
 
 > 索引是加速搜索引擎检索数据的一种特殊表查询。简单地说，索引是一个指向表中数据的指针。
 > 索引也是一张表，该表保存了主键与索引字段，并指向实体表的记录。因为更新表时，MySQL不仅要保存数据，还要保存一下索引文件。
@@ -82,14 +82,26 @@
 FORCE INDEX (索引名)
 ```
 
-- 普通索引
+**从数据结构角度**
+
+1. BTREE
+2. HASH
+
+**从物理存储角度**
+
+1. 聚集索引（clustered index）
+2. 非聚集索引（non-clustered index）
+
+**从逻辑角度**
+
+- Normal（普通索引）
 
 ```sql
 CREATE INDEX 索引名 ON 表名(`字段名`(length));
 ALTER TABLE 表名 ADD INDEX IndexName(`字段名`(length));
 ```
 
-- 唯一索引
+- Unique（唯一索引）
 
 ```sql
 CREATE UNIQUE INDEX 索引名 ON 表名(`字段名`(length));
@@ -103,7 +115,9 @@ CREATE INDEX 索引名 On 表名(`字段名`(length),`字段名`(length),...);
 ALTER TABLE 表名 ADD INDEX 索引名 (id,name);
 ```
 
-- 全文索引
+- SPATIAL（空间索引）
+
+- Full Text（全文索引）
 
 * [https://dev.mysql.com/doc/refman/8.0/en/fulltext-search.html](https://dev.mysql.com/doc/refman/8.0/en/fulltext-search.html)
 * [ngram全文分析器 - 官网](https://dev.mysql.com/doc/refman/8.0/en/fulltext-search-ngram.html)
@@ -137,7 +151,7 @@ SELECT * FROM 表名 WHERE MATCH(column1, column2) AGAINST('aa','bb','cc'...);
 SELECT * FROM  表名 WHERE MATCH(字段) AGAINST('关键词' IN BOOLEAN MODE);
 ```
 
-- 重新构建索引文件
+**重新构建索引文件**
 
 * [重建或修复表或索引 - 官网](https://dev.mysql.com/doc/refman/8.0/en/rebuilding-tables.html)
 
