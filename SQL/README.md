@@ -320,16 +320,14 @@ from 表1
 
 
 
-## sql99和sql92分别实现连接和子查询和分页查询
 
+
+### 自连接
 
 - cross join：自然连接。主要用于产生笛卡尔积。
     - `select * from emp cross join dept;`
 - natural join：自然连接。这种情况下，数据库会自动找到一个字段来消除笛卡尔积。一般来说，数据库会找那些通过外键约束关联的字段。因此，有较大的局限性。
     - `select * from emp natural join dept;`
-
-
-### 自连接
 
 > 案例：查询员工名和直接上级的名称
 
@@ -406,7 +404,7 @@ select * from OB_CALL_DATA_LOG rownum<101  minus  select * from OB_CALL_DATA_LOG
 
 
 
-## sql92语法，sql99语法,连接查询
+### 连接查询
 
 
 - 连接查询的分类：
