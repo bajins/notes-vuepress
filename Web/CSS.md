@@ -84,31 +84,46 @@
 
 > `Media Queries`能在不同的条件下使用不同的样式，使页面在不同在终端设备下达到不同的渲染效果。
 
+* [HTML页面适应移动端](https://www.jianshu.com/p/d95579d721a1)
+* [到底什么是像素](https://segmentfault.com/a/1190000017526874)
+* [使用meta标签设置viewport](https://segmentfault.com/a/1190000020218602)
+* [visual viewport、layout viewport和ideal viewport介绍](https://segmentfault.com/a/1190000017542232)
+* [viewport 深入理解](https://www.runoob.com/w3cnote/viewport-deep-understanding.html)
+
+
+```html
+<!-- 使用 Media Queries 必须先在页面中声明，移动设备上的`viewport`就是其屏幕上能用来显示我们的网页的那一块区域-->
+<!-- 该标签最大的作用是让当前viewport的宽度等于设备的宽度，即将viewport由默认变为ideal viewport，同时不允许用户缩放网页（缩放是相对于 ideal viewport来进行缩放的） -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+```
+
+- `width = device-width`：宽度等于当前设备的宽度
+- `initial-scale`：初始的缩放比例（默认设置为1.0）
+- `minimum-scale`：允许用户缩放到的最小比例（默认设置为1.0）
+- `maximum-scale`：允许用户缩放到的最大比例（默认设置为1.0）
+- `user-scalable`：用户是否可以手动缩放（默认设置为no，因为我们不希望用户放大缩小页面）
+
+* [完整示例 MediaQueriesExample.html](/files/MediaQueriesExample.html)
+
+
 > 使用`Media Queries`必须要使用`@media`开头，然后指定媒体类型（也可以称为设备类型），随后是指定媒体特性（也可以称之为设备特性）。
-> 媒体特性的书写方式和样式的书写方式非常相似，主要分为两个部分，而且这两个部分之间使用冒号分隔：
->> 第一个部分指的是媒体特性
->>
->> 第二部分为媒体特性所指定的值
 
 
-- 语法
-
-> @media 设备类型 and|not|only （设备特性）{样式代码}
-
-> `Media Queries`可以使用关键词`and`将多个媒体特性结合在一起。
-> 一个`Media Query`中可以包含0到多个表达式，表达式又可以包含0到多个关键字，以及一种媒体类型。
-
-> `only`的作用是，让那些不支持`Media Query`但是能够读取`Media Type`的设备的浏览器将表达式中的样式隐藏起来。
->> 示例：`@media only screen and (min-width: 768px) {body {background: blue;}}`
->
-> 对于支持`Media Query`的设备来说，正确应用该样式；对于不支持`Media Query`但能够读取`Media Type`的设备，
-> 由于先读取到的是`only`而不是`screen`，将忽略该样式。
->
-> `not`是用来排除某种制定的媒体类型，也就是用来排除符合表达式的设备。换句话说，not关键词表示对后面的表达式执行取反操作。
+- 语法： @media 设备类型 and|not|only （设备特性）{样式代码}
+    - `and`将多个媒体特性结合在一起。可以包含0到多个表达式，表达式又可以包含0到多个关键字，以及一种媒体类型。
+    - `only`的作用是，让那些不支持`Media Query`但是能够读取`Media Type`的设备的浏览器将表达式中的样式隐藏起来。
+        - 示例：`@media only screen and (min-width: 768px) {body {background: blue;}}`
+    - 对于不支持`Media Query`但能够读取`Media Type`的设备，由于先读取到的是`only`而不是`screen`，将忽略该样式。
+    - `not`是用来排除某种制定的媒体类型，也就是用来排除符合表达式的设备。换句话说，`not`关键词表示对后面的表达式执行取反操作。
 
 
 
 ### 设备类型
+
+> 媒体特性的书写方式和样式的书写方式非常相似，主要分为两个部分，而且这两个部分之间使用冒号分隔：
+>> 第一个部分指的是媒体特性
+>>
+>> 第二部分为媒体特性所指定的值
 
 | 值          | 描述                                  |
 |------------|-------------------------------------|
@@ -157,35 +172,15 @@
 | width                   | 定义输出设备中的页面可见区域宽度。                          |
 
 
-### 兼容移动设备
-
-* [HTML页面适应移动端](https://www.jianshu.com/p/d95579d721a1)
-* [到底什么是像素](https://segmentfault.com/a/1190000017526874)
-* [使用meta标签设置viewport](https://segmentfault.com/a/1190000020218602)
-* [visual viewport、layout viewport和ideal viewport介绍](https://segmentfault.com/a/1190000017542232)
-* [viewport 深入理解](https://www.runoob.com/w3cnote/viewport-deep-understanding.html)
-
-
-```html
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-```
-
-> 移动设备上的`viewport`就是其屏幕上能用来显示我们的网页的那一块区域。
-
-- `width = device-width`：宽度等于当前设备的宽度
-- `initial-scale`：初始的缩放比例（默认设置为1.0）
-- `minimum-scale`：允许用户缩放到的最小比例（默认设置为1.0）
-- `maximum-scale`：允许用户缩放到的最大比例（默认设置为1.0）
-- `user-scalable`：用户是否可以手动缩放（默认设置为no，因为我们不希望用户放大缩小页面）
-
-* [完整示例](/files/MediaQueriesExample.html)
-
 
 ### 外联和内嵌样式
 
-```html
+```js
 /* 外联 */
 @import url(style.css) screen and (min-width:1000px);
+```
+
+```html
 <!-- 外联 -->
 <link rel="stylesheet" href="style.css" media="only screen and (max-width:640px)">
 
