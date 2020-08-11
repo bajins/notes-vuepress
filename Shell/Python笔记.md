@@ -413,6 +413,39 @@ top_stats = snapshot.statistics('lineno')  # 快照对象的统计
 
 ## HTTP
 
+* [urllib — URL handling modules](https://docs.python.org/3/library/urllib.html)
+* [http — HTTP modules](https://docs.python.org/3/library/http.html)
+* [https://github.com/psf/requests](https://github.com/psf/requests)
+* [Python3 内置http.client,urllib.request及三方库requests发送请求对比](https://www.cnblogs.com/superhin/p/11455240.html)
+
+```python
+import http.client
+
+# 建立HTTP连接
+conn = http.client.HTTPConnection("api.github.com", timeout=30)
+
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+# 发送GET请求，制定接口路径
+conn.request(method="GET", url='/repos/rclone/rclone/releases/latest', headers={"User-Agent": USER_AGENT})
+# 获取响应
+res = conn.getresponse()
+#  解析相应.进行解码
+print(res.read().decode("utf-8"))
+```
+
+```python
+# 如果import urllib，则在使用urllib.request时会报错
+import urllib.request
+
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+req = urllib.request.Request("https://api.github.com/repos/rclone/rclone/releases/latest",
+                             headers={"User-Agent": USER_AGENT}, method='GET')
+res = urllib.request.urlopen(req, timeout=30)
+# 解析相应.进行解码
+print(res.read().decode("utf-8"))
+```
+
+
 **提交form-data表单**
 
 

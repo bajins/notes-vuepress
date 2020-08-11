@@ -137,6 +137,7 @@
 * 极客教程 [https://geek-docs.com](https://geek-docs.com)
 * [https://www.freeaihub.com](https://www.freeaihub.com)
 * [http://www.semlinker.com](http://www.semlinker.com)
+* [https://www.journaldev.com](https://www.journaldev.com)
 
 
 
