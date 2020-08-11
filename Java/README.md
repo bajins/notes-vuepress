@@ -208,6 +208,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/google/guava](https://github.com/google/guava)
 * [https://github.com/SpringForAll](https://github.com/SpringForAll)
 * [https://github.com/looly/hutool](https://github.com/looly/hutool)
+* [https://github.com/0opslab/opslabJutil](https://github.com/0opslab/opslabJutil)
 * [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
 * [https://github.com/alibaba/easyexcel](https://github.com/alibaba/easyexcel)
 * 输出word [https://github.com/Sayi/poi-tl](https://github.com/Sayi/poi-tl)
@@ -247,6 +248,14 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 * [https://projects.eclipse.org/projects/technology.microprofile](https://projects.eclipse.org/projects/technology.microprofile)
     * [https://github.com/eclipse/microprofile](https://github.com/eclipse/microprofile)
+
+- [https://github.com/topics/mapping](https://github.com/topics/mapping)
+- [https://github.com/topics/bean-mapping](https://github.com/topics/bean-mapping)
+- [https://github.com/topics/javabeans](https://github.com/topics/javabeans)
+- BeanUtils替代 [https://github.com/mapstruct](https://github.com/mapstruct)
+- [https://github.com/orika-mapper](https://github.com/orika-mapper)
+- [https://github.com/DozerMapper](https://github.com/DozerMapper)
+- cglib的BeanCopier
 
 
 **Cache**

@@ -8,9 +8,7 @@
 
 ## Flag
 
-* [https://github.com/JetBrains](https://github.com/JetBrains)
-     * [https://www.jetbrains.com/products.html#type=ide](https://www.jetbrains.com/products.html#type=ide)
-* [JetBrains 系列软件汉化包](https://github.com/pingfangx/TranslatorX)
+* [IDEA设置.zip](/files/IDEA设置.zip)
 
 **Export Settings**
 
