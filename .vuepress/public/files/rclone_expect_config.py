@@ -265,3 +265,9 @@ google_drive_token = """授权"""
 write_google_drive_config("gdrive", google_drive_token)
 
 print(subprocess.getoutput(f'./{dir_name}/rclone config show'))
+
+
+params = " --multi-thread-cutoff 50M --multi-thread-streams 50 --transfers 1000 --checkers 1000"
+params += " --buffer-size 80M --cache-chunk-size 50M --tpslimit-burst 2 --ignore-errors -P"
+
+print(subprocess.getoutput(f'./{dir_name}/rclone sync gdrive:/ onedrive:/ {params}'))
