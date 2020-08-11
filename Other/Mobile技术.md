@@ -48,6 +48,10 @@
 * 微信僵尸好友脚本 [https://github.com/L8426936/auto.js-script](https://github.com/L8426936/auto.js-script)
 
 
+- [https://github.com/huangruiLearn/flutter_hrlweibo](https://github.com/huangruiLearn/flutter_hrlweibo)
+- [https://github.com/sabernwj/cookiej](https://github.com/sabernwj/cookiej)
+
+
 **Hooking**
 
 + [https://github.com/topics/xposed](https://github.com/topics/xposed)
@@ -70,6 +74,7 @@
 **逆向工具**
 
 * [https://github.com/TheCjw/scoop-retools](https://github.com/TheCjw/scoop-retools)
+* [https://github.com/venshine/decompile-apk](https://github.com/venshine/decompile-apk)
 
 | APP NAME         	| HOME PAGE                                                                           	|
 |------------------	|-------------------------------------------------------------------------------------	|

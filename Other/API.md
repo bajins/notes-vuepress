@@ -8,9 +8,10 @@
 ## Flag
 
 * [https://github.com/hongyangAndroid/wanandroid](https://github.com/hongyangAndroid/wanandroid)
-* [https://api.imjad.cn](https://api.imjad.cn)
 * [https://github.com/Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
 * [https://github.com/hitokoto-osc](https://github.com/hitokoto-osc)
+    * [https://developer.hitokoto.cn](https://developer.hitokoto.cn)
+    * [https://api.imjad.cn](https://api.imjad.cn)
 
 - [https://github.com/huanghui0906/API](https://github.com/huanghui0906/API)
 
