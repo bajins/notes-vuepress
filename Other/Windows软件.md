@@ -15,6 +15,7 @@
 * [http://potato.manre.me](http://potato.manre.me)
 * [https://signal.org](https://signal.org)
 * [https://trello.com](https://trello.com)
+* [https://discord.com](https://discord.com)
 
 - [https://github.com/topics/desktop-app](https://github.com/topics/desktop-app)
 
