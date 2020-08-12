@@ -153,7 +153,10 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 
 
-## 后台运行
+## 后台运行Daemon
+
+* [Python版Daemon](/Shell/Python笔记.md#Daemon)
+* [Golang版Daemon更加简易可用](/Go/Go笔记.md#Daemon)
 
 
 ### Tmux
@@ -328,38 +331,6 @@ setsid python3 ./index.py >/dev/null 2>&1 &
     1. `-c`, `--ctty` 将控制终端设置为当前控制终端
     2. `-f`, `--fork` 总是`fork`
     3. `-w`, `--wait` 等待程序退出，并使用相同的返回
-
-
-
-
-### supervisor
-
-> `supervisor`是用`Python`开发的一套通用的进程管理程序，能将一个普通的命令行进程变为后台`daemon`，并监控进程状态，异常退出时能自动重启。
-
-* [http://supervisord.org](http://supervisord.org)
-
-
-**常见配置如下**
-
-```ini
-[program:程序名称]
-user=root
-command=/var/www/main
-stdout_logfile=/var/log/gf-app-stdout.log
-stderr_logfile=/var/log/gf-app-stderr.log
-autostart=true
-autorestart=true
-```
-
-**使用步骤**
-
-1. 使用`sudo service supervisor start`启动`supervisor`服务；
-2. 创建应用配置文件`/etc/supervisor/conf.d/程序名称.conf`, 内容如上;
-3. 使用`sudo supervisorctl`进入`supervisor`管理终端；
-4. 使用`reload`重新读取配置文件并重启当前`supoervisor`管理的所有进程；
-5. 也可以使用`update`重新加载配置(默认不重启)，随后使用`start 程序名称`启动指定的应用程序；
-6. 随后可以使用`status`指令查看当前`supervisor`管理的进程状态；
-
 
 
 

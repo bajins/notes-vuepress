@@ -324,7 +324,6 @@ except ValueError:
 > `Object-Relational Mapping`，把关系数据库的表结构映射到对象上。
 
 - Peewee
-
 - SqlObject
 
 
@@ -735,3 +734,39 @@ else:
 print("".center(40,"="))
 
 ```
+
+
+## Daemon
+
+* [Golang版Daemon更加简易可用](/Go/Go笔记.md#Daemon)
+* [Python守护进程daemon实现](https://cloud.tencent.com/developer/article/1567443)
+
+
+### supervisor
+
+> `supervisor`是用`Python`开发的一套通用的进程管理程序，能将一个普通的命令行进程变为后台`daemon`，并监控进程状态，异常退出时能自动重启。
+
+* [https://github.com/Supervisor/supervisor](https://github.com/Supervisor/supervisor)
+    * [http://supervisord.org](http://supervisord.org)
+
+
+**常见配置如下**
+
+```ini
+[program:程序名称]
+user=root
+command=/var/www/main
+stdout_logfile=/var/log/gf-app-stdout.log
+stderr_logfile=/var/log/gf-app-stderr.log
+autostart=true
+autorestart=true
+```
+
+**使用步骤**
+
+1. 使用`sudo service supervisor start`启动`supervisor`服务；
+2. 创建应用配置文件`/etc/supervisor/conf.d/程序名称.conf`, 内容如上;
+3. 使用`sudo supervisorctl`进入`supervisor`管理终端；
+4. 使用`reload`重新读取配置文件并重启当前`supoervisor`管理的所有进程；
+5. 也可以使用`update`重新加载配置(默认不重启)，随后使用`start 程序名称`启动指定的应用程序；
+6. 随后可以使用`status`指令查看当前`supervisor`管理的进程状态；

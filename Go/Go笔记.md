@@ -642,3 +642,127 @@ func TestGorutine(t *testing.T) {
 * [https://github.com/gohouse/gorose](https://github.com/gohouse/gorose)
 * [https://github.com/go-gorp/gorp](https://github.com/go-gorp/gorp)
 
+
+## Daemon
+
++ [https://en.wikipedia.org/wiki/Daemon_(computing)](https://en.wikipedia.org/wiki/Daemon_(computing))
+
+> 在一个多任务的电脑操作系统中，Daemon（守护进程）是一种在后台执行的电脑程序。此类程序会被以进程的形式初始化
+
+> 通常，守护进程没有任何存在的父进程（即PPID=1），且在UNIX系统进程层级中直接位于init之下。
+> 守护进程程序通常通过如下方法使自己成为守护进程：对一个子进程运行fork，然后使其父进程立即终止，
+> 使得这个子进程能在init下运行。这种方法通常被称为“脱壳”。
+
+* [https://github.com/topics/daemon](https://github.com/topics/daemon)
+* [https://github.com/takama/daemon](https://github.com/takama/daemon)
+* [https://github.com/ochinchina/supervisord](https://github.com/ochinchina/supervisord)
+
+
+
+- 几种实现方式
+
+1. nohup
+2. supervise
+3. Cgo deamon函数
+4. go通过syscall调用fork实现(这个和第3条原理一样)
+
+**Cgo实现**
+
+```go
+package main
+
+import (
+    "fmt"
+    "net"
+    "runtime"
+)
+
+/*
+#include <unistd.h>
+*/
+import "C"
+
+func main() {
+    // 守护进程
+    C.daemon(1, 1)
+    runtime.GOMAXPROCS(runtime.NumCPU())
+    fmt.Println("Starting the server ...")
+    listener, err := net.Listen("tcp", "localhost:8080")
+    if err != nil {
+        fmt.Println("Error listening", err.Error())
+        return
+    }
+
+    for {
+        conn, err := listener.Accept()
+        if err != nil {
+            fmt.Println("error accepting", err.Error())
+            return
+        }
+
+        go doServerStuff(conn)
+    }
+}
+
+func doServerStuff(conn net.Conn) {
+    for {
+        buf := make([]byte, 512)
+        _, err := conn.Read(buf)
+        if err != nil {
+            fmt.Println("Error reading", err.Error())
+            return
+        }
+        fmt.Printf("Received data: %v", string(buf))
+    }
+}
+```
+
+
+**支持goroutine和系统信号监听**
+
+```go
+package main
+ 
+import (
+    "os"
+    "fmt"
+    "os/signal"
+    "syscall"
+    "time"
+    "log"
+    "os/exec"
+)
+func init() {
+    if os.Getppid() != 1{
+        cmd := exec.Command(os.Args[0], os.Args[1:]...)
+        cmd.Start()
+        os.Exit(0)
+    }
+ 
+    // 监听系统信号
+    go func() {
+        _c := make(chan os.Signal, 1)
+        signal.Notify(_c, os.Interrupt, syscall.SIGHUP, syscall.SIGINT, syscall.SIGTERM, syscall.SIGQUIT, syscall.SIGKILL, syscall.SIGTSTP)
+        msg := <- _c
+        log.Println(msg)
+        os.Exit(0)
+    }()
+}
+ 
+func main()  {
+ 
+    go func(){
+        fp, _ := os.OpenFile("log", os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0644)
+        log.SetOutput(fp)
+        for{
+            log.Println(fmt.Sprint("hello ", os.Getpid()))
+            time.Sleep(time.Second * 5)
+        }
+    }()
+ 
+    for{
+        time.Sleep(time.Second * 1000)
+    }
+ 
+}
+```

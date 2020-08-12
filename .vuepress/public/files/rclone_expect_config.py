@@ -18,13 +18,27 @@ import sys
 # 自动执行命令，pip install pexpect
 import pexpect
 
+
+def daemon():
+    """
+    Daemon（守护进程）
+    :return:
+    """
+    # 将当前进程fork为一个守护进程
+    pid = os.fork()
+    if pid > 0:
+        # 父进程退出
+        os._exit(0)
+
+
+# 判断系统架构位数
 if sys.maxsize > 2 ** 32:
     maxbit = "linux-amd64.zip"
 else:
     maxbit = "linux-386.zip"
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
-
+# 请求GitHub api
 req = urllib.request.Request("https://api.github.com/repos/rclone/rclone/releases/latest",
                              headers={"User-Agent": USER_AGENT}, method='GET')
 res = urllib.request.urlopen(req, timeout=30)
@@ -50,9 +64,29 @@ for asset in res_json["assets"]:
         break
 
 
+def run_cmd(cmd, charset="utf8"):
+    """
+    执行shell命令并实时输出回显
+    :param cmd: 执行的命令
+    :param charset: 字符集
+    :return:
+    """
+    # universal_newlines=True, bufsize=1
+    process = subprocess.Popen(cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    # 判断子进程是否结束
+    while process.poll() is None:
+        line = process.stdout.readline()
+        line = line.strip()
+        if line:
+            print(line.decode(charset, 'ignore'))
+
+
 def one_drive(drive_name, access_token=None):
     """
-    OneDrive配置
+    One Drive 配置
+    :param drive_name:  自定义远程配置名称
+    :param access_token:  授权token，为执行 rclone authorize "onedrive" 获取到的token
+    :return:
     """
     child = pexpect.spawn(f'./{dir_name}/rclone config')
     # print(child)
@@ -145,7 +179,9 @@ def one_drive(drive_name, access_token=None):
 
 def google_drive(drive_name):
     """
-    GoogleDrive配置
+    Google Drive 远程配置
+    :param drive_name: 自定义远程配置名称
+    :return:
     """
     child = pexpect.spawn(f'./{dir_name}/rclone config')
     # print(child)
@@ -234,7 +270,12 @@ def google_drive(drive_name):
 
 def write_google_drive_config(name, token, drive_type="drive", scope="drive"):
     """
-    此函数是为了方便写入在其他地方复制过来的GoogleDrive配置，而不需要重新创建配置
+    此函数是为了方便写入在其他地方已经授权复制过来的Google Drive配置，而不需要重新创建配置
+    :param name: 自定义远程配置名称
+    :param token: 授权token
+    :param drive_type: drive类型，一般默认即可
+    :param scope: 一般默认即可
+    :return:
     """
     import configparser
     conf = configparser.ConfigParser()
@@ -256,18 +297,27 @@ def write_google_drive_config(name, token, drive_type="drive", scope="drive"):
             conf.write(f)
 
 
-one_drive_access_token = """授权"""
+"""
+以下为执行rclone自动配置
+"""
 
+one_drive_access_token = """授权"""
 one_drive("onedrive", one_drive_access_token)
 
 google_drive_token = """授权"""
-
 write_google_drive_config("gdrive", google_drive_token)
 
 print(subprocess.getoutput(f'./{dir_name}/rclone config show'))
 
+"""
+以下为执行rclone命令，执行命令不输出回显可在执行命令前加上nohup命令或调用daemon函数
+"""
 
-params = " --multi-thread-cutoff 50M --multi-thread-streams 50 --transfers 1000 --checkers 1000"
-params += " --buffer-size 80M --cache-chunk-size 50M --tpslimit-burst 2 --ignore-errors -P"
+params = " --multi-thread-cutoff 50M --multi-thread-streams 50 --transfers 1000 --checkers 1000 --buffer-size 80M"
+params += "--cache-chunk-size 50M --tpslimit-burst 2 --ignore-errors -P"
 
-print(subprocess.getoutput(f'./{dir_name}/rclone sync gdrive:/ onedrive:/ {params}'))
+# 同步
+run_cmd(f'./{dir_name}/rclone sync gdrive:/ onedrive:/ {params}')
+
+# 去重
+run_cmd(f'./{dir_name}/rclone dedupe --dedupe-mode oldest gdrive:/ {params}')
