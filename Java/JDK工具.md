@@ -550,12 +550,12 @@ jcmd <pid> GC.heap_dump /home/heap.hprof
 
 > 注意参数一定要放在`-jar`命令之前，方可运行成功
 
-```shell
+```bash
 java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=端口 -jar jar包
 ```
 
-```shell
+```bash
 -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=端口 -jar jar包
 ```
 
