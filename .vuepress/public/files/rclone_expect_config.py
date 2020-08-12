@@ -303,8 +303,6 @@ def write_google_drive_config(rclone_dir, name, token, drive_type="drive", scope
             conf.write(f)
 
 
-# daemon()
-
 rclone_dir = download_rclone()
 
 """
@@ -322,6 +320,8 @@ print(subprocess.getoutput(f'./{rclone_dir}/rclone config show'))
 """
 以下为执行rclone命令，执行命令不输出回显可在执行命令前加上nohup命令或调用daemon函数
 """
+
+# daemon()
 
 params = " --multi-thread-cutoff 50M --multi-thread-streams 50 --transfers 1000 --checkers 1000 --buffer-size 80M"
 params += "--cache-chunk-size 50M --tpslimit-burst 2 --ignore-errors -P"
