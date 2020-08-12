@@ -303,6 +303,8 @@ def write_google_drive_config(rclone_dir, name, token, drive_type="drive", scope
             conf.write(f)
 
 
+# daemon()
+
 rclone_dir = download_rclone()
 
 """
