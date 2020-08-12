@@ -31,39 +31,6 @@ def daemon():
         os._exit(0)
 
 
-# 判断系统架构位数
-if sys.maxsize > 2 ** 32:
-    maxbit = "linux-amd64.zip"
-else:
-    maxbit = "linux-386.zip"
-
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
-# 请求GitHub api
-req = urllib.request.Request("https://api.github.com/repos/rclone/rclone/releases/latest",
-                             headers={"User-Agent": USER_AGENT}, method='GET')
-res = urllib.request.urlopen(req, timeout=30)
-# 获取到GitHub返回的release详情
-res_json = json.loads(res.read().decode("utf-8"))
-for asset in res_json["assets"]:
-    # 如果系统架构在当前name中
-    if maxbit in asset["name"]:
-        # 获取当前系统架构的下载链接
-        download_url = asset["browser_download_url"]
-        # rclone压缩包名
-        zip_name = asset["name"]
-        # 删除同名压缩包
-        os.system(f"find . -type f -name '{zip_name}*' | xargs rm")
-        # 解压后目录名
-        dir_name = zip_name.replace(".zip", "")
-        # 删除同名目录，防止目录中的文件已被删除
-        os.system(f"rm -rf {dir_name}")
-        # 下载当前系统架构的文件
-        subprocess.call(['wget', download_url])
-        # 解压
-        subprocess.call(['unzip', zip_name])
-        break
-
-
 def run_cmd(cmd, charset="utf8"):
     """
     执行shell命令并实时输出回显
@@ -81,14 +48,53 @@ def run_cmd(cmd, charset="utf8"):
             print(line.decode(charset, 'ignore'))
 
 
-def one_drive(drive_name, access_token=None):
+def download_rclone():
+    """
+    通过GitHub的api下载rclone最新版本
+    :return:
+    """
+    # 判断系统架构位数
+    if sys.maxsize > 2 ** 32:
+        maxbit = "linux-amd64.zip"
+    else:
+        maxbit = "linux-386.zip"
+    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+    # 请求GitHub api
+    req = urllib.request.Request("https://api.github.com/repos/rclone/rclone/releases/latest",
+                                 headers={"User-Agent": user_agent}, method='GET')
+    res = urllib.request.urlopen(req, timeout=30)
+    # 获取到GitHub返回的release详情
+    res_json = json.loads(res.read().decode("utf-8"))
+
+    for asset in res_json["assets"]:
+        # 如果系统架构在当前name中
+        if maxbit in asset["name"]:
+            # 获取当前系统架构的下载链接
+            download_url = asset["browser_download_url"]
+            # rclone压缩包名
+            zip_name = asset["name"]
+            # 删除同名压缩包
+            os.system(f"find . -type f -name '{zip_name}*' | xargs rm")
+            # 解压后目录名
+            dir_name = zip_name.replace(".zip", "")
+            # 删除同名目录，防止目录中的文件已被删除
+            os.system(f"rm -rf {dir_name}")
+            # 下载当前系统架构的文件
+            subprocess.call(['wget', download_url])
+            # 解压
+            subprocess.call(['unzip', zip_name])
+            return dir_name
+
+
+def one_drive(rclone_dir, drive_name, access_token=None):
     """
     One Drive 配置
+    :param rclone_dir:  rclone运行目录
     :param drive_name:  自定义远程配置名称
     :param access_token:  授权token，为执行 rclone authorize "onedrive" 获取到的token
     :return:
     """
-    child = pexpect.spawn(f'./{dir_name}/rclone config')
+    child = pexpect.spawn(f'./{rclone_dir}/rclone config')
     # print(child)
     # 如果返回0说明匹配到了异常
     index = child.expect([pexpect.EOF, 'New remote'])
@@ -177,13 +183,13 @@ def one_drive(drive_name, access_token=None):
     time.sleep(5)
 
 
-def google_drive(drive_name):
+def google_drive(rclone_dir, drive_name):
     """
     Google Drive 远程配置
     :param drive_name: 自定义远程配置名称
     :return:
     """
-    child = pexpect.spawn(f'./{dir_name}/rclone config')
+    child = pexpect.spawn(f'./{rclone_dir}/rclone config')
     # print(child)
     # 如果返回0说明匹配到了异常
     index = child.expect([pexpect.EOF, 'New remote'])
@@ -268,7 +274,7 @@ def google_drive(drive_name):
     time.sleep(5)
 
 
-def write_google_drive_config(name, token, drive_type="drive", scope="drive"):
+def write_google_drive_config(rclone_dir, name, token, drive_type="drive", scope="drive"):
     """
     此函数是为了方便写入在其他地方已经授权复制过来的Google Drive配置，而不需要重新创建配置
     :param name: 自定义远程配置名称
@@ -280,7 +286,7 @@ def write_google_drive_config(name, token, drive_type="drive", scope="drive"):
     import configparser
     conf = configparser.ConfigParser()
     # 获取rclone配置文件的路径
-    file = subprocess.getoutput(f"./{dir_name}/rclone config file")
+    file = subprocess.getoutput(f"./{rclone_dir}/rclone config file")
     file = file.split("\n")[1]
     # 读取配置
     conf.read(file, encoding="utf-8")
@@ -297,17 +303,19 @@ def write_google_drive_config(name, token, drive_type="drive", scope="drive"):
             conf.write(f)
 
 
+rclone_dir = download_rclone()
+
 """
 以下为执行rclone自动配置
 """
 
 one_drive_access_token = """授权"""
-one_drive("onedrive", one_drive_access_token)
+one_drive(rclone_dir, "onedrive", one_drive_access_token)
 
 google_drive_token = """授权"""
-write_google_drive_config("gdrive", google_drive_token)
+write_google_drive_config(rclone_dir, "gdrive", google_drive_token)
 
-print(subprocess.getoutput(f'./{dir_name}/rclone config show'))
+print(subprocess.getoutput(f'./{rclone_dir}/rclone config show'))
 
 """
 以下为执行rclone命令，执行命令不输出回显可在执行命令前加上nohup命令或调用daemon函数
@@ -317,7 +325,7 @@ params = " --multi-thread-cutoff 50M --multi-thread-streams 50 --transfers 1000 
 params += "--cache-chunk-size 50M --tpslimit-burst 2 --ignore-errors -P"
 
 # 同步
-run_cmd(f'./{dir_name}/rclone sync gdrive:/ onedrive:/ {params}')
+run_cmd(f'./{rclone_dir}/rclone sync gdrive:/ onedrive:/ {params}')
 
 # 去重
-run_cmd(f'./{dir_name}/rclone dedupe --dedupe-mode oldest gdrive:/ {params}')
+run_cmd(f'./{rclone_dir}/rclone dedupe --dedupe-mode oldest gdrive:/ {params}')
