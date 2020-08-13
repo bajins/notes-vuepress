@@ -546,12 +546,12 @@ CREATE USER 'admin'@'%' IDENTIFIED BY '密码';
 **`GRANT`创建用户或授权**
 
 - `GRANT` 用户存在时会进行授权，用户不存在时，创建用户并授权。
+	- 8.0 必须先创建其他用户再授权（不能授权给自己），否则会报错`You are not allowed to create a user with GRANT`
 - `WITH GRANT OPTION` 这个选项表示该用户可以将自己拥有的权限授权给别人
-- `privileges` 用户的操作权限，如`INSERT`,`DELETE`,`UPDATE`,`SELECT`等。所有权限则使用`ALL`。
-- `database.table` 数据库名.表名。授予对所有数据库和表的相应操作权限用`*`表示，例如`*.*`。用<code>`<code>（反引号）包裹。
-- `IDENTIFIED` 指定密码，如果不带此属性会导致创建的用户无法远程连接，虽然从`mysql.user`查出`host`为`%`
-- 8.0使用 `IDENTIFIED BY "密码"` 会报错，也就是说必须先创建其他用户再授权（不能授权给自己）
-
+- `PRIVILEGES` 用户的操作权限，如`INSERT`,`DELETE`,`UPDATE`,`SELECT`等。所有权限则使用`ALL PRIVILEGES`。
+- `database.table` 数据库名.表名，所有数据库和表用`*.*`表示。用<code>`<code>（反引号）包裹。
+- `IDENTIFIED BY` 指定密码，如果不带此属性会导致创建的用户无法远程连接，虽然从`mysql.user`查出`host`为`%`
+	- 8.0 使用此语句会报错
 
 ```sql
 # 创建只读账号
@@ -560,6 +560,8 @@ GRANT SELECT ON database.* TO 'reader'@'%' IDENTIFIED BY "密码";
 GRANT INSERT,DELETE,UPDATE,SELECT ON database.* TO 'writer'@'%' IDENTIFIED BY "密码";
 # 创建拥有所有权限的账户，并且所有主机可登录
 GRANT ALL PRIVILEGES ON database.* TO 'root'@'%' IDENTIFIED BY '密码' WITH GRANT OPTION;
+# MySQL 8.0 为用户授权所有权限
+GRANT ALL PRIVILEGES ON database.* TO 'root'@'%' WITH GRANT OPTION;
 
 # 刷新权限
 FLUSH PRIVILEGES;
