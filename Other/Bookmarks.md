@@ -30,6 +30,7 @@
 * [https://github.com/IBM](https://github.com/IBM)
 * [https://github.com/uber](https://github.com/uber)
 * [https://github.com/oracle](https://github.com/oracle)
+* [https://github.com/square](https://github.com/square)
 
 - [https://github.com/TogetherOS](https://github.com/TogetherOS)
 - [https://github.com/lets-blade](https://github.com/lets-blade)

@@ -104,6 +104,9 @@
 - `okHttp` [https://github.com/square/okhttp](https://github.com/square/okhttp)
 - `Netty` 
 - `google-http-java-client` [https://github.com/googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client)
+- [https://github.com/OpenFeign](https://github.com/OpenFeign)
+- [https://github.com/square/retrofit](https://github.com/square/retrofit)
+    - [https://github.com/LianjiaTech/retrofit-spring-boot-starter](https://github.com/LianjiaTech/retrofit-spring-boot-starter)
 
 * [HTTP客户端连接，选择HttpClient还是OkHttp？](https://juejin.im/post/5e156c80f265da5d3c6de72a)
 

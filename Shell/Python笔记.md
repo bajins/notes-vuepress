@@ -738,7 +738,7 @@ print("".center(40,"="))
 
 ## Daemon
 
-* [Golang版Daemon更加简易可用](/Go/Go笔记.md#Daemon)
+* [Golang版Daemon更加简易可用](/Go/Go笔记.md#daemon)
 * [Python守护进程daemon实现](https://cloud.tencent.com/developer/article/1567443)
 
 
