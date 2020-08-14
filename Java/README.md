@@ -35,6 +35,7 @@
 - [通过filebeat、logstash、rsyslog采集nginx日志的几种方式](https://www.cnblogs.com/xiejava/p/12452434.html)
 - [分布式系统唯一ID生成方案汇总](https://www.cnblogs.com/haoxinyue/p/5208136.html)
 - [设计一个全局异常处理器](https://crossoverjie.top/2019/07/15/wheel/cicada7-exception-handle)
+- [理解、学习与使用 JAVA 中的 OPTIONAL](https://www.cnblogs.com/zhangboyu/p/7580262.html)
 
 + JMH（Java Microbenchmark Harness）是专门用于代码微基准测试的工具套件
 + [什么是JNDI？](https://blog.csdn.net/gybshen/article/details/82717578)

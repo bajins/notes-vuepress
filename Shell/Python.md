@@ -171,7 +171,7 @@ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
 - 编辑文件全局配置
 
-```bash
+```ini
 # Linux环境
 vi ~/.pip/pip.conf 
 # windows环境
@@ -188,8 +188,13 @@ trusted-host=mirrors.aliyun.com
 
 ### 生成依赖管理文件
 
+* [https://github.com/bndr/pipreqs](https://github.com/bndr/pipreqs)
+
 ```bash
+# 对于没有使用虚拟环境，会把系统所有的包都导出
 pip freeze > requirements.txt
+# pipreqs则只导出当前项目依赖库，如果文件存在可以使用--force覆盖，默认不会覆盖
+pipreqs --force --encoding utf-8 ./
 ```
 
 
@@ -202,7 +207,7 @@ pip install --requirement requirements.txt
 
 
 
-### 更新
+### 更新依赖库
 
 **更新pip**
 
@@ -219,8 +224,8 @@ pip3 install --ignore-installed 模块名
 **查看可更新的库**
 
 ```bash
+# --outdated
 pip list -o
-pip list --outdated
 # format有两个选项：columns(有表头), freeze(无表头), json
 pip list --outdated --format=columns
 ```
@@ -236,8 +241,9 @@ pip install --upgrade 要升级的包名
 * [使用pip升级所有包](https://www.codenong.com/2720014)
 
 ```bash
+#  linux 下升级所有 pip 过期包
+pip install `pip list --outdate | sed -n '3,$p' | awk '{print $1}'` --upgrade
 pip freeze --local | grep -v '^-e' | cut -d = -f 1  | xargs -n1 pip install -U
-
 pip list -o --format=freeze | cut -d = -f 1  | xargs -n1 pip install -U
 ```
 
@@ -269,7 +275,7 @@ call("pip install --upgrade" + ' '.join(packages), shell=True)
 ```
 
 
-### 卸载库
+### 卸载依赖库
 
 ```bash
 pip uninstall 要卸载的包名

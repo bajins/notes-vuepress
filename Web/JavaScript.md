@@ -694,3 +694,95 @@ $(document).ready(function () {
     window.utils = {};
 })
 ```
+
+
+## Storage和Cache
+
+* [使用Chrome DevTools查看和编辑本地存储](https://developers.google.com/web/tools/chrome-devtools/storage/localstorage)
+* [Web Storage API](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Storage_API)
+
+> storage存储的数据只能是字符串类型，其他类型的数据需做类型转换
+
+**Cookie和Storage的区别**
+
+1. cookie兼容所有的浏览器（本地cookie谷歌不支持），storage不支持IE6~8;
+2. 二者对存储的内容均有大小限制，前者同源情况写一般不能存储4kb的内容，后者同源一般能存储只能存储5MB的数据
+3. cookie有过期时间，localStorage是永久存储（如果你不手动去删除的话）
+4. 一些浏览器处于安全的角度可能会禁用cookie,但无法禁用localStorage
+
+
+
+**Session Storage**
+
+```js
+sessionStorage.setItem("key", "value");
+var value = sessionStorage.getItem("key");
+sessionStorage.removeItem("key");
+sessionStorage.clear();
+
+var storage = window.sessionStorage;
+for(var i=0, len=storage.length; i<len;i++){
+    var key = storage.key(i);    
+    var value = storage.getItem(key);    
+    console.log(key + "=" + value);
+}
+```
+
+**Local Storage**
+
+```js
+localStorage.getItem('mobile');
+var value = localStorage.setItem('mobile',"要存的数据");
+```
+
+
+**IndexedDB**
+
+* [IndexedDB_API](https://developer.mozilla.org/zh-CN/docs/Web/API/IndexedDB_API)
+* [使用IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB)
+
+**Web SQL**
+
+> 该规范不再处于主动维护中，并且Web应用程序工作组不打算进一步维护它。
+
+* [https://www.w3.org/TR/webdatabase](https://www.w3.org/TR/webdatabase)
+
+**Cahce Storage**
+
+* [https://developer.mozilla.org/zh-CN/docs/Web/API/Cache](https://developer.mozilla.org/zh-CN/docs/Web/API/Cache)
+
+
+**Application Cache**
+
+* [HTML5 - 应用程序缓存(Application Cache)](https://blog.csdn.net/weixin_44198965/article/details/89760924)
+
+**jQuery数据缓存方案**
+
+> 使用隐藏控件或者js全局变量来临时存储数据，全局变量容易导致命名污染，隐藏控件导致经常读写dom浪费性能。jQuery提供了数据缓存方案
+
+- `$.data()`
+- `$.cache`
+- `$.expando`
+- `$.hasData()`
+- `$.removeData()`
+
+```js
+
+var myObj = {};
+// hasData用来判断HTMLElement或JS对象是否具有数据
+console.log(jQuery.hasData($("#a")));// false
+ 
+// data()添加属性
+$.data(myObj, 'name', 'aty');
+console.log(jQuery.hasData(myObj));// true
+ 
+// data()读取属性
+console.log($.data(myObj, 'name'));//aty
+ 
+// removeData删除属性
+$.removeData(myObj, 'name');
+console.log($.data(myObj, 'name'));//undefined
+ 
+// 如果所有属性都被删除,那么hasData返回false
+console.log(jQuery.hasData(myObj));// false
+```
