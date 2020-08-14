@@ -16,41 +16,7 @@
 > 所以真正的参数从下标`2`开始`process.argv.splice(2)`
 
 
-## 第三方依赖
-
-* [https://github.com/liriliri/licia](https://github.com/liriliri/licia)
-* [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
-* [https://github.com/apache/incubator-echarts](https://github.com/apache/incubator-echarts)
-
-**HTTP**
-
-* [https://github.com/wendux/fly](https://github.com/wendux/fly)
-* [https://github.com/github/fetch](https://github.com/github/fetch)
-* [https://github.com/axios/axios](https://github.com/axios/axios)
-
-
-**导出**
-
-* [TableExport](https://github.com/clarketm/TableExport)
-* [tableExport.jquery.plugin](https://github.com/hhurz/tableExport.jquery.plugin)
-* [excellentexport](https://github.com/jmaister/excellentexport)
-
-
-
-**WEB开发**
-
-* [https://github.com/facebook/react](https://github.com/facebook/react)
-    * [https://reactnative.cn](https://reactnative.cn)
-* [https://github.com/angular/angular](https://github.com/angular/angular)
-    * [https://angular.cn](https://angular.cn)
-* [https://github.com/zdhxiong/mdui](https://github.com/zdhxiong/mdui)
-* [https://github.com/baidu/amis](https://github.com/baidu/amis)
-* [https://github.com/alienzhou/web-highlighter](https://github.com/alienzhou/web-highlighter)
-* [https://github.com/josdejong/mathjs](https://github.com/josdejong/mathjs)
-* 单页网站 [https://github.com/alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js)
-
-
-**原生应用开发**
+## 原生应用开发
 
 * [https://github.com/topics/electron](https://github.com/topics/electron)
     * [https://github.com/electron/electron](https://github.com/electron/electron)
@@ -59,21 +25,6 @@
     * [https://github.com/nwjs/nw.js](https://github.com/nwjs/nw.js)
     * [https://github.com/lxp135/NW.jsCnDocs](https://github.com/lxp135/NW.jsCnDocs)
 * [https://github.com/Kagami/mpv.js](https://github.com/Kagami/mpv.js)
-
-
-**Player**
-
-* [萌豚技术组织 | 播放器、音视频、弹幕相关开源开发](https://github.com/MoePlayer)
-* [Plyr–一个轻量级的HTML5播放器](https://github.com/sampotts/plyr)
-
-
-
-**反爬虫**
-
-* [https://github.com/antoinevastel/fpscanner](https://github.com/antoinevastel/fpscanner)
-* [https://github.com/ta7sudan/secan](https://github.com/ta7sudan/secan)
-* [前端如何检测Chrome-Headless不被爬虫虐](https://mlln.cn/2019/07/05/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%A3%80%E6%B5%8BChrome-Headless%E4%B8%8D%E8%A2%AB%E7%88%AC%E8%99%AB%E8%99%90)
-
 
 
 

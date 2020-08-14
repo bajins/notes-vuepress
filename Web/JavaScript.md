@@ -5,9 +5,6 @@
 
 
 
-
-
-
 ## Flag
 
 * [ECMAScript支持度检测](https://github.com/ruanyf/es-checker)
@@ -60,14 +57,16 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 ## 第三方依赖库
 
 * [https://github.com/jquery/jquery](https://github.com/jquery/jquery)
-  * 添加XHR2 responseType支持的jQuery插件 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
-  * [https://github.com/tonytomov/jqGrid](https://github.com/tonytomov/jqGrid)
-  * [https://github.com/jquery-validation](https://github.com/jquery-validation)
-  * [https://github.com/DataTables/DataTables](https://github.com/DataTables/DataTables)
-  * [https://github.com/eonasdan/bootstrap-datetimepicker](https://github.com/eonasdan/bootstrap-datetimepicker)
-  * [https://github.com/vitalets/x-editable](https://github.com/vitalets/x-editable)
-  * [https://github.com/wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table)
-    * [JS组件系列——BootstrapTable 行内编辑解决方案：x-editable](https://www.cnblogs.com/landeanfen/p/5821192.html)
+    * [https://plugins.jquery.com](https://plugins.jquery.com)
+    * 添加XHR2 responseType支持的jQuery插件 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
+    * [https://github.com/tonytomov/jqGrid](https://github.com/tonytomov/jqGrid)
+    * [https://github.com/jquery-validation](https://github.com/jquery-validation)
+        * [https://www.runoob.com/jquery/jquery-plugin-validate.html](https://www.runoob.com/jquery/jquery-plugin-validate.html)
+    * [https://github.com/DataTables/DataTables](https://github.com/DataTables/DataTables)
+    * [https://github.com/eonasdan/bootstrap-datetimepicker](https://github.com/eonasdan/bootstrap-datetimepicker)
+    * [https://github.com/vitalets/x-editable](https://github.com/vitalets/x-editable)
+    * [https://github.com/wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table)
+        * [JS组件系列——BootstrapTable 行内编辑解决方案：x-editable](https://www.cnblogs.com/landeanfen/p/5821192.html)
 * [JavaScript 日期处理类库](https://github.com/moment/moment)
     * [http://momentjs.cn](http://momentjs.cn)
 * [https://github.com/matthewhudson/current-device](https://github.com/matthewhudson/current-device)
@@ -85,6 +84,39 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * 电子表格数据工具包 [https://github.com/SheetJS](https://github.com/SheetJS)
 * 绑定按键 [https://github.com/jamiebuilds/tinykeys](https://github.com/jamiebuilds/tinykeys)
 * 语法高亮 [https://github.com/PrismJS](https://github.com/PrismJS)
+
+
+* [https://github.com/liriliri/licia](https://github.com/liriliri/licia)
+* [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
+* [https://github.com/apache/incubator-echarts](https://github.com/apache/incubator-echarts)
+
+**HTTP**
+
+* [https://github.com/wendux/fly](https://github.com/wendux/fly)
+* [https://github.com/github/fetch](https://github.com/github/fetch)
+* [https://github.com/axios/axios](https://github.com/axios/axios)
+
+
+**导出**
+
+* [TableExport](https://github.com/clarketm/TableExport)
+* [tableExport.jquery.plugin](https://github.com/hhurz/tableExport.jquery.plugin)
+* [excellentexport](https://github.com/jmaister/excellentexport)
+
+
+
+**WEB开发**
+
+* [https://github.com/facebook/react](https://github.com/facebook/react)
+    * [https://reactnative.cn](https://reactnative.cn)
+* [https://github.com/angular/angular](https://github.com/angular/angular)
+    * [https://angular.cn](https://angular.cn)
+* [https://github.com/zdhxiong/mdui](https://github.com/zdhxiong/mdui)
+* [https://github.com/baidu/amis](https://github.com/baidu/amis)
+* [https://github.com/alienzhou/web-highlighter](https://github.com/alienzhou/web-highlighter)
+* [https://github.com/josdejong/mathjs](https://github.com/josdejong/mathjs)
+* 单页网站 [https://github.com/alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js)
+
 
 
 **流程图**
@@ -118,6 +150,22 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * [https://github.com/socketio](https://github.com/socketio)
 * [https://www.jointjs.com](https://www.jointjs.com)
     * [https://resources.jointjs.com/tutorials/joint/tutorials/ports.html](https://resources.jointjs.com/tutorials/joint/tutorials/ports.html)
+
+
+
+
+**Player**
+
+* [萌豚技术组织 | 播放器、音视频、弹幕相关开源开发](https://github.com/MoePlayer)
+* [Plyr–一个轻量级的HTML5播放器](https://github.com/sampotts/plyr)
+
+
+
+**反爬虫**
+
+* [https://github.com/antoinevastel/fpscanner](https://github.com/antoinevastel/fpscanner)
+* [https://github.com/ta7sudan/secan](https://github.com/ta7sudan/secan)
+* [前端如何检测Chrome-Headless不被爬虫虐](https://mlln.cn/2019/07/05/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%A3%80%E6%B5%8BChrome-Headless%E4%B8%8D%E8%A2%AB%E7%88%AC%E8%99%AB%E8%99%90)
 
 
 
