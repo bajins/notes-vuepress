@@ -285,14 +285,15 @@
 + [https://github.com/topics/playlist](https://github.com/topics/playlist)
 + [https://github.com/topics/iptv](https://github.com/topics/iptv)
 + [https://github.com/topics/m3u](https://github.com/topics/m3u)
-+ [https://github.com/iptv-org/iptv](https://github.com/iptv-org/iptv)
++ [https://github.com/iptv-org](https://github.com/iptv-org)
 
 * [foobar2000](http://blog.sina.com.cn/go2spa)
 * [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
 * [https://github.com/mpv-player/mpv](https://github.com/mpv-player/mpv)
+* [https://github.com/xbmc](https://github.com/xbmc)
 * powerDVD
 * MPC-BE
-* MPC-HC
+* [https://github.com/clsid2/mpc-hc](https://github.com/clsid2/mpc-hc)
 * Kmplayer
 * VLC [https://www.videolan.org](https://www.videolan.org)
 

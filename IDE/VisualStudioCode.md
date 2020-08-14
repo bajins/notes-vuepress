@@ -369,5 +369,12 @@ pip install flake8
 * [https://marketplace.visualstudio.com/items?itemName=alibabacloud-cloudtoolkit.toolkit-vscode](https://marketplace.visualstudio.com/items?itemName=alibabacloud-cloudtoolkit.toolkit-vscode)
 
 
+**File Header**
 
-
+* [https://github.com/OBKoro1/koro1FileHeader](https://github.com/OBKoro1/koro1FileHeader)
+* [https://github.com/caizhengxin/vscodefileheader](https://github.com/caizhengxin/vscodefileheader)
+* [https://github.com/bookwormdevelopment/file-header](https://github.com/bookwormdevelopment/file-header)
+* [https://github.com/Raymondhsm/fileHeader](https://github.com/Raymondhsm/fileHeader)
+* [https://github.com/arjunkomath/js-file-header-vscode](https://github.com/arjunkomath/js-file-header-vscode)
+* [https://github.com/DMXL/js-file-header-vscode](https://github.com/DMXL/js-file-header-vscode)
+* [https://github.com/zhaopengme/vscode-fileheader](https://github.com/zhaopengme/vscode-fileheader)

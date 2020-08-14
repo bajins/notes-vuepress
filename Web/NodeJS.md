@@ -311,7 +311,8 @@ request({
 
 ## 爬虫
 
-* [https://github.com/GoogleChrome/puppeteer](https://github.com/GoogleChrome/puppeteer)
+* [https://github.com/webdriverio](https://github.com/webdriverio)
+* [https://github.com/puppeteer](https://github.com/puppeteer)
 * [Puppeteer配置小记](https://www.itfanr.cc/2019/04/10/configuration-development-of-puppeteer)
 * [https://github.com/microsoft/playwright](https://github.com/microsoft/playwright)
 
