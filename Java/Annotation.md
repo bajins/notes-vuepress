@@ -201,6 +201,9 @@
 
 > `JSR-303`是`JAVA EE 6`中的一项子规范，叫做`Bean Validation`，但是这只是一个接口，没有具体实现。
 
++ [https://github.com/topics/validation](https://github.com/topics/validation)
++ [https://github.com/topics/validator](https://github.com/topics/validator)
+
 > `javax.validation.Validation`、`hibernate-validator`和`Spring validtor`
 > 提供了`JSR 303`规范中所有内置constraint 的实现，除此之外还有一些附加的 constraint
 

@@ -12,8 +12,6 @@
 * [SpringCloud和Dubbo](https://www.jianshu.com/p/9fa24196d2ad)
 * [https://github.com/huaweicloud](https://github.com/huaweicloud)
 
-
-
 - [https://github.com/wuyouzhuguli/SpringAll](https://github.com/wuyouzhuguli/SpringAll)
     - [http://www.spring4all.com](http://www.spring4all.com)
 - [https://github.com/mingyang66/spring-parent](https://github.com/mingyang66/spring-parent)
@@ -58,11 +56,9 @@
 
 **依赖注入的三种方式**
 
-> 使用@Autowired注解时： Field （属性变量）注入尽量避免使用，构造器注入适合强制性的注入旨在不变性，Setter 注入适合可变性的注入。
-
-> @Resource
-
-> @Inject
+- 使用@Autowired注解时： Field （属性变量）注入尽量避免使用，构造器注入适合强制性的注入旨在不变性，Setter 注入适合可变性的注入。
+- @Resource
+- @Inject
 
 * [这几个关于Spring 依赖注入的问题你清楚吗？](https://juejin.im/post/5e3811d26fb9a07ca24f3e55)
 * [Field injection is not recommended（Spring IOC不再推荐使用属性注入）](https://segmentfault.com/a/1190000021044999)
@@ -162,14 +158,12 @@
 * [Spring Boot Starter说明](https://www.jianshu.com/p/bbf439c8a203)
 
 - 需要在`pom.xml`中引入为`starter`的依赖
-
 - 然后在`application.yml`或者`application.properties`中配置，无需在其他任何地方配置（如`xml`、`Bean`）
 
 
 **Java代码配置Bean**
 
 - 需要在`pom.xml`中引入不为`starter`的依赖
-
 - 创建一个配置类，然后使用注解`@Configuration`在类上，`@bean`配置方法，方法名是相当于`xml`配置的`id`，
 返回结果相当于将哪个类注入到bean容器中
 
@@ -178,7 +172,6 @@
 **加载自定义xml配置**
 
 - 需要在`pom.xml`中引入不为`starter`的依赖
-
 - 在启动类上使用注解`@ImportResource(locations={"classpath:配置文件路径})`，把自定义的`xml`配置加载进来
 
 
@@ -186,12 +179,10 @@
 **使用注解获取配置文件中的配置**
 
 - `@Value("${配置中的属性名}")`用在Bean的域（属性）上，获取默认配置文件中的属性值
-
 - `@ConfigurationProperties(prefix="配置中的属性名")`用在类名上，获取默认配置文件中的属性值，用`@Resource`引入到其他类
 
 > 必须要让Spring 扫描到该类才能使用，有三种方法：加`@Component`；创建配置类加`@Configuration`，
 再加`@EnableConfigurationProperties(类名.class)`或者创建构造器加`@Bean`
-
 
 - `@PropertySource("classpath:配置文件路径")`用在类名上，获取默认自定义`properties`文件中的属性值，用`@Resource`引入到其他类
 
@@ -217,25 +208,19 @@
 
 - [冒着挂科的风险也要给你们看的 Spring Cloud 入门总结](https://juejin.im/post/5de2553e5188256e885f4fa3)
 
-- `bootstrap.yml`（.properties）
-
-> 用来程序引导时执行，应用于更加早期配置信息读取，如可以使用来配置application.yml中使用到参数等
+- `bootstrap.yml`（.properties）用来程序引导时执行，应用于更加早期配置信息读取，如可以使用来配置application.yml中使用到参数等
 
 > `bootstrap.yml`是被一个父级的`Spring ApplicationContext`加载的。这个父级的`Spring ApplicationContext`是先加载的，
 > 在加载`application.yml`的`ApplicationContext`之前。
 
--  `application.yml`（.properties) 
-
-> 应用程序特有配置信息，可以用来配置后续各个模块中需使用的公共参数等
+-  `application.yml`（.properties) 应用程序特有配置信息，可以用来配置后续各个模块中需使用的公共参数等
 
 
 | 组件                           	| 作用             	| 替代项目                                                    	| 说明                                                                                                                                                 	|
 |--------------------------------	|------------------	|-------------------------------------------------------------	|------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | Alibaba Cloud SchedulerX       	| 分布式任务调度   	| elastic-job、xxl-job                                        	| 阿里中间件团队开发的一款分布式任务调度产品，提供秒级、精准、高可靠、高可用的定时（基于 Cron 表达式）任务调度服务（商业组件）。                       	|
-| Alibaba Nacos                  	|                  	|                                                             	| 一个更易于构建云原生应用的动态服务发现、配置管理和服务管理平台。                                                                                     	|
 | Alibaba RocketMQ               	|                  	|                                                             	| 一款开源的分布式消息系统，基于高可用分布式集群技术，提供低延时的、高可靠的消息发布与订阅服务。                                                       	|
 | Alibaba Seata                  	|                  	|                                                             	|                                                                                                                                                      	|
-| Alibaba Sentinel               	|                  	|                                                             	| 把流量作为切入点，从流量控制、熔断降级、系统负载保护等多个维度保护服务的稳定性。                                                                     	|
 | ElasticSearch+LogStash+Kibana  	| 分布式日志收集   	|                                                             	| logstash（收集）、elasticsearch（存储+搜索）、kibana（展示），我们将这三个组合起来的技术称之为ELK                                                    	|
 | Feign                          	| 声明式HTTP客户端 	| Retrofit                                                    	| 基于动态代理机制，根据注解和选择的机器，拼接请求URL地址，发起请求                                                                                    	|
 | Netflix Archaius               	| 配置管理         	|                                                             	| 提供动态类型化属性、线程安全配置操作、轮询框架、回调机制等功能。可以实现动态获取配置                                                                 	|
@@ -263,7 +248,7 @@
 
 * [分布式日志框架ELK入门](https://blog.csdn.net/piantoutongyang/article/details/88811840)
 * [SpringCloud实践分享 日志收集Kafka ELK](https://juejin.im/post/5d84a83af265da03ee6a92af)
-
+* [【Sentinel（一）】Sentinel介绍与使用](https://blog.csdn.net/noaman_wgs/article/details/103328793)
 
 
 

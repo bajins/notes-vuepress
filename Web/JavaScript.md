@@ -16,6 +16,9 @@
 * 异步编程的反应式扩展rxjs [https://github.com/ReactiveX](https://github.com/ReactiveX)
 * [JS刷新当前页面的几种方法总结](http://www.iqianduan.net/blog/refresh-browser-method)
 
++ [https://github.com/topics/validation](https://github.com/topics/validation)
++ [https://github.com/topics/validator](https://github.com/topics/validator)
+
 
 
 
@@ -65,8 +68,9 @@ document.querySelector("#id").addEventListener("click", testOnclick);
     * [https://plugins.jquery.com](https://plugins.jquery.com)
     * 添加XHR2 responseType支持的jQuery插件 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
     * [https://github.com/tonytomov/jqGrid](https://github.com/tonytomov/jqGrid)
-    * [https://github.com/jquery-validation](https://github.com/jquery-validation)
-        * [https://www.runoob.com/jquery/jquery-plugin-validate.html](https://www.runoob.com/jquery/jquery-plugin-validate.html)
+    * [https://github.com/topics/jquery-validation](https://github.com/topics/jquery-validation)
+        * [https://github.com/jquery-validation](https://github.com/jquery-validation)
+            * [https://www.runoob.com/jquery/jquery-plugin-validate.html](https://www.runoob.com/jquery/jquery-plugin-validate.html)
     * [https://github.com/DataTables/DataTables](https://github.com/DataTables/DataTables)
 * 日期处理类库 [https://github.com/moment/moment](https://github.com/moment/moment)
     * [http://momentjs.cn](http://momentjs.cn)
