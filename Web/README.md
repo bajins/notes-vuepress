@@ -24,6 +24,7 @@
 - [前端解决第三方图片防盗链的办法 - html referrer 访问图片资源403问题](https://github.com/biaochenxuying/blog/issues/31)
 
 + [https://jsbin.com](https://jsbin.com)
++ [f2ex.cn 各种前端资源](http://f2ex.cn)
 
 
 **TypeScript**
@@ -52,14 +53,6 @@
 - [https://nic.eu.org](https://nic.eu.org)
 
 
-
-## 框架
-
-* [https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap)
-  * [https://www.bootcss.com](https://www.bootcss.com)
-* [neditor 基于ueditor的更现代化的富文本编辑器，支持HTTPS](https://github.com/notadd/neditor)
-* [f2ex.cn 各种前端资源](http://f2ex.cn)
-* [https://github.com/sentsin/layui](https://github.com/sentsin/layui)
 
 
 
@@ -97,7 +90,7 @@
 - [https://neocities.org](https://neocities.org)
 
 
-**VuePress主题**
+### VuePress主题
 
 + [https://github.com/topics/vuepress-theme](https://github.com/topics/vuepress-theme)
 

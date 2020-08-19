@@ -59,18 +59,16 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 
 ## 第三方依赖库
 
-* [https://github.com/jquery/jquery](https://github.com/jquery/jquery)
+* [https://github.com/topics/jquery](https://github.com/topics/jquery)
+* [https://github.com/topics/jquery-plugin](https://github.com/topics/jquery-plugin)
+* [https://github.com/jquery](https://github.com/jquery)
     * [https://plugins.jquery.com](https://plugins.jquery.com)
     * 添加XHR2 responseType支持的jQuery插件 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
     * [https://github.com/tonytomov/jqGrid](https://github.com/tonytomov/jqGrid)
     * [https://github.com/jquery-validation](https://github.com/jquery-validation)
         * [https://www.runoob.com/jquery/jquery-plugin-validate.html](https://www.runoob.com/jquery/jquery-plugin-validate.html)
     * [https://github.com/DataTables/DataTables](https://github.com/DataTables/DataTables)
-    * [https://github.com/eonasdan/bootstrap-datetimepicker](https://github.com/eonasdan/bootstrap-datetimepicker)
-    * [https://github.com/vitalets/x-editable](https://github.com/vitalets/x-editable)
-    * [https://github.com/wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table)
-        * [JS组件系列——BootstrapTable 行内编辑解决方案：x-editable](https://www.cnblogs.com/landeanfen/p/5821192.html)
-* [JavaScript 日期处理类库](https://github.com/moment/moment)
+* 日期处理类库 [https://github.com/moment/moment](https://github.com/moment/moment)
     * [http://momentjs.cn](http://momentjs.cn)
 * [https://github.com/matthewhudson/current-device](https://github.com/matthewhudson/current-device)
 * [Babel 是一个JavaScript转换编译器](https://babeljs.io)
@@ -89,9 +87,13 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * 语法高亮 [https://github.com/PrismJS](https://github.com/PrismJS)
 
 
-* [https://github.com/liriliri/licia](https://github.com/liriliri/licia)
-* [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
-* [https://github.com/apache/incubator-echarts](https://github.com/apache/incubator-echarts)
+- [https://github.com/liriliri/licia](https://github.com/liriliri/licia)
+- [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
+- [https://github.com/apache/incubator-echarts](https://github.com/apache/incubator-echarts)
+- [neditor 基于ueditor的更现代化的富文本编辑器，支持HTTPS](https://github.com/notadd/neditor)
+- [https://github.com/sentsin/layui](https://github.com/sentsin/layui)
+
+
 
 **HTTP**
 

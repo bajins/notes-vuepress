@@ -18,7 +18,19 @@
 - [SASS用法指南(阮一峰)](http://www.ruanyifeng.com/blog/2012/06/sass.html)
 
 
-## 第三方依赖
+## 第三方依赖库
+
+- [https://github.com/topics/css-framework](https://github.com/topics/css-framework)
+
++ [https://github.com/topics/bootstrap](https://github.com/topics/bootstrap)
++ [https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap)
+    + [https://www.bootcss.com](https://www.bootcss.com)
+    + [https://github.com/wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table)
+        + [JS组件系列——BootstrapTable 行内编辑解决方案：x-editable](https://www.cnblogs.com/landeanfen/p/5821192.html)
+    + [https://github.com/eonasdan/bootstrap-datetimepicker](https://github.com/eonasdan/bootstrap-datetimepicker)
+    + [https://github.com/vitalets/x-editable](https://github.com/vitalets/x-editable)
++ [https://github.com/jquery/jquery-ui](https://github.com/jquery/jquery-ui)
+
 
 * [最受程序员欢迎的 20 个 CSS 框架](https://www.fuocu.cn/archives/css-frame)
 * [https://github.com/pure-css/pure](https://github.com/pure-css/pure)
@@ -52,7 +64,6 @@
 > `vw`、`vh`、`vmin`、`vmax` 是一种由视窗（`Viewport`）大小来决定的视窗单位，也是相对单位。它相对的不是父节点或者页面的根节点。
 
 > 视窗(`Viewport`)是你的浏览器实际显示内容的区域—，换句话说是你的不包括工具栏和按钮的网页浏览器。
-
 
 > 做移动页面开发时，如果使用`vw`、`wh`设置字体大小，在竖屏和横屏状态下显示的字体大小是不一样的。
 > 这里就可以用到`vmin`和`vmax`使得文字大小在横竖屏下保持一致。
@@ -195,8 +206,34 @@
 ```
 
 
+### 混合应用
 
-### bootstrap css
+```css
+@media all and (orientation : portrait) {
+/*竖屏*/
+}
+@media all and (orientation : landscape) {
+/*横屏*/
+}
+@media screen and (min-width: 1200px) {
+    /*>=1200的设备*/
+}
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+    /*>=960,<=1200的设备*/
+}
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    /*>=768,<=960的设备*/
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /*>=480,<=768的设备*/
+}
+@media only screen and (max-width: 479px) {
+    /*<=480的设备*/
+}
+```
+
+
+**Bootstrap**
 
 
 > 先看下面的代码,这是从`bootstrap`中遍历出来的，`min-width`来确认分别是`768`、`992`、`1200`。
@@ -233,32 +270,6 @@
 }
 @media (max-width: 767px){
 /*<=768的设备*/
-}
-```
-
-### 混合应用
-
-```css
-@media all and (orientation : portrait) {
-/*竖屏*/
-}
-@media all and (orientation : landscape) {
-/*横屏*/
-}
-@media screen and (min-width: 1200px) {
-    /*>=1200的设备*/
-}
-@media screen and (min-width: 960px) and (max-width: 1199px) {
-    /*>=960,<=1200的设备*/
-}
-@media screen and (min-width: 768px) and (max-width: 959px) {
-    /*>=768,<=960的设备*/
-}
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    /*>=480,<=768的设备*/
-}
-@media only screen and (max-width: 479px) {
-    /*<=480的设备*/
 }
 ```
 
