@@ -14,6 +14,9 @@
 * [https://github.com/cmdjs](https://github.com/cmdjs)
 * [https://github.com/seajs](https://github.com/seajs)
 * 异步编程的反应式扩展rxjs [https://github.com/ReactiveX](https://github.com/ReactiveX)
+* [JS刷新当前页面的几种方法总结](http://www.iqianduan.net/blog/refresh-browser-method)
+
+
 
 
 **手册**
@@ -167,6 +170,15 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * [https://github.com/ta7sudan/secan](https://github.com/ta7sudan/secan)
 * [前端如何检测Chrome-Headless不被爬虫虐](https://mlln.cn/2019/07/05/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%A3%80%E6%B5%8BChrome-Headless%E4%B8%8D%E8%A2%AB%E7%88%AC%E8%99%AB%E8%99%90)
 
+
+## 循环loop
+
+- `for` 多次遍历代码块
+- `forEach` 遍历对象属性，不能中断循环（使用`break`语句或使用`return`语句）
+- `for/in` 遍历对象属性，实际是为循环`enumerable`对象而设计，不推荐用`for/in`来循环一个数组
+- `for/of` 可遍历`Array`、`String`、`TypedArray`、`Map`、`Set`、`DOM collections`、`enumerable`、`generators`，弥补了`forEach`和`for/in`循环的短板
+- `while` 当指定条件为 true 时循环一段代码块
+- `do/while` 当指定条件为 true 时循环一段代码块
 
 
 
@@ -557,6 +569,16 @@ document.documentElement.scrollHeight
 
 
 ## 标签默认动作
+
+
+```js
+function test(event){
+    // 阻止事件冒泡
+    event.stopPropagation();
+    // 和event.stopPropagation()效果相同 ，根据浏览器兼容性判断使用哪种方法
+    event.cancelBubble();
+}
+```
 
 - href伪协议
 

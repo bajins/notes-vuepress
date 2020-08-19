@@ -9,6 +9,9 @@
 
 * [https://github.com/guodongxiaren/MySQL-docs](https://github.com/guodongxiaren/MySQL-docs)
 
+- [MySQL系列——MySQL实现序列（Sequence）效果](https://blog.csdn.net/sinat_19351993/article/details/47169789)
+
+
 
 
 ## 常用语句
