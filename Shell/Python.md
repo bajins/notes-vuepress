@@ -48,6 +48,7 @@
 + [Python Selenium教程 - 猿人学Python](https://www.yuanrenxue.com/python-selenium)
 
 - [https://github.com/Arronlong/py_scripts](https://github.com/Arronlong/py_scripts)
+- Python字节码反汇编器/反编译器 [https://github.com/zrax/pycdc](https://github.com/zrax/pycdc)
 
 
 
