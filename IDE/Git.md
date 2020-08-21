@@ -186,15 +186,26 @@ git push --set-upstream origin 分支名称
 ```
 
 
-### 未push之前更改提交
+### 更改提交
 
-> 如果提交了代码到本地，还没push，发现同步时提交的变更内容的注释填写有误。
+> 如果commit注释写错了，只是想改一下注释
 
 ```bash
 # 查看提交文件，里面包含注释和变更内容
 git commit --amend
 # 按v进入编辑模式，更改完成后按esc然后输入:qw! 保存
 ```
+
+- 撤销提交
+
+```bash
+# --mixed 默认参数，不删除工作空间改动代码，撤销commit，并且撤销git add . 操作
+# --soft 不删除工作空间改动代码，撤销commit，不撤销git add . 
+# --hard 删除工作空间改动代码，撤销commit，撤销git add . 
+# HEAD^的代表上一个版本，同HEAD~1，撤销2次commit，使用HEAD~2，以此类推
+git reset HEAD^
+```
+
 
 ### 强制push本地仓库到远程
 

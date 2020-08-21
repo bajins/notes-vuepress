@@ -334,10 +334,6 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 - 在`Python Script`模板中第一行引用：`#parse("File Header")`
 
-> 默认函数注释快捷键：<kbd>"""</kbd> + <kbd>Enter</kbd>
-
-> 注意：如果使用函数注释时无法映射函数参数，在函数名中键入数遍光标，左上角亮起小灯泡，
-> 点击小灯泡（或者使用快捷键<kbd>Alt</kbd> + <kbd>Enter</kbd>），再点击`Insert documentation string stub`选择注释格式
 
 ### 自动导包
 
@@ -353,6 +349,11 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 1. `Docstring format` 选择格式：默认`Plain`（空的）、`Epytext`（Python2）、`reStructuredText`、`NumPy`、`Google`
 2. `Docstrings` -> `Analyze Python code in docstrings` 分析文档字符串中的python代码
 3. `Render external documentation for stdlib` 渲染stdlib的外部文档
+
+- 默认函数注释快捷键：<kbd>"""</kbd> + <kbd>Enter</kbd>
+
+> 注意：如果使用函数注释时无法映射函数参数，在函数名中键入数遍光标，左上角亮起小灯泡，
+> 点击小灯泡（或者使用快捷键<kbd>Alt</kbd> + <kbd>Enter</kbd>），再点击`Insert documentation string stub`选择注释格式
 
 
 ## GoLand

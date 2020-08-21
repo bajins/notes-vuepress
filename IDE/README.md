@@ -61,7 +61,8 @@
 * GitHub代下载服务 [http://g.widyun.com](http://g.widyun.com)
 
 
-**Jupyter Notebook**
+
+### Jupyter Notebook
 
 + [https://github.com/jupyter](https://github.com/jupyter)
     + [https://jupyter.org](https://jupyter.org)
@@ -92,6 +93,7 @@
 * [https://aistudio.baidu.com](https://aistudio.baidu.com)
 * [https://momodel.cn](https://momodel.cn)
 * [https://www.huaweicloud.com/product/modelarts.html](https://www.huaweicloud.com/product/modelarts.html)
+
 
 
 
