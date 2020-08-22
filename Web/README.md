@@ -20,8 +20,8 @@
 
 
 * 前端面试：[https://github.com/haizlin/fe-interview](https://github.com/haizlin/fe-interview)
-
-- [前端解决第三方图片防盗链的办法 - html referrer 访问图片资源403问题](https://github.com/biaochenxuying/blog/issues/31)
+* [前端解决第三方图片防盗链的办法 - html referrer 访问图片资源403问题](https://github.com/biaochenxuying/blog/issues/31)
+* [Serverless——前端的3.0时代](https://zhuanlan.zhihu.com/p/84054729)
 
 + [https://jsbin.com](https://jsbin.com)
 + [f2ex.cn 各种前端资源](http://f2ex.cn)
@@ -129,6 +129,7 @@
 * [https://github.com/heroku](https://github.com/heroku)
   * [https://github.com/heroku/heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static)
   * 示例：[https://woytu.herokuapp.com](https://woytu.herokuapp.com)
+* [https://www.bmob.cn](https://www.bmob.cn)
 * [https://fast.io](https://fast.io)
   * 示例：[https://bajins.imfast.io](https://bajins.imfast.io)
 * [https://www.appveyor.com](https://www.appveyor.com)

@@ -24,6 +24,24 @@
 - [https://www.gnome.org](https://www.gnome.org)
 
 
+**云平台**
+
+* [虚拟化与云计算有什么区别？](https://www.zhihu.com/question/22793847)
+
+> 云服务器（VM，VIRTUAL MACHINE，IAAS）：是在一组集群物理服务器上虚拟出多个类似独立主机的部分，集群中每个主机上都有云主机的一个镜像，
+> 从而大大提高了虚拟主机的安全稳定性。
+
+> 虚拟专用服务器（VPS，VIRTUAL专用服务器，VDS）：采用虚拟软件，VZ或VM在一台物理服务器上虚拟出多个类似独立主机的部分，
+> 能够实现单机多用户，每个部分都可以做单独的操作系统，管理方法同主机一样。
+
+* GCP (Google Cloud Platform) [https://github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform)
+    * [https://cloud.google.com](https://cloud.google.com)
+* AWS [https://aws.amazon.com](https://aws.amazon.com)
+* Azure [https://azure.microsoft.com](https://azure.microsoft.com)
+* Vultr
+* Digital Ocean
+
+
 **管理面板**
 
 * [https://github.com/aaPanel/BaoTa](https://github.com/aaPanel/BaoTa)
