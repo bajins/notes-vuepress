@@ -67,6 +67,8 @@
 
 * [https://cloud.google.com/container-registry](https://cloud.google.com/container-registry)
     * [https://github.com/GoogleContainerTools](https://github.com/GoogleContainerTools)
+    * [https://ssh.cloud.google.com](https://ssh.cloud.google.com)
+        * [https://cloud.google.com/shell/docs](https://cloud.google.com/shell/docs)
 * [https://cloud.ibm.com/cloudfoundry/overview](https://cloud.ibm.com/cloudfoundry/overview)
     * [https://cloud.ibm.com/shell](https://cloud.ibm.com/shell)
     * [http://cli.cloudfoundry.org/zh-Hans/cf](http://cli.cloudfoundry.org/zh-Hans/cf)

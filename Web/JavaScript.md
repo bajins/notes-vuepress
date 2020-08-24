@@ -7,6 +7,8 @@
 
 ## Flag
 
+> Vanilla JS 就是指JavaScript
+
 * [ECMAScript支持度检测](https://github.com/ruanyf/es-checker)
 * [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese)
 * [https://github.com/requirejs](https://github.com/requirejs)

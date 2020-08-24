@@ -52,8 +52,6 @@
 * php源码 [https://github.com/ilanyu/offline-download](https://github.com/ilanyu/offline-download)
 * go源码 [https://github.com/ilanyu/offLineDownloader](https://github.com/ilanyu/offLineDownloader)
 * [http://git.aakkc.com](http://git.aakkc.com)
-* [https://ssh.cloud.google.com](https://ssh.cloud.google.com)
-    * [https://cloud.google.com/shell/docs](https://cloud.google.com/shell/docs)
 * [https://github.com/churuxu/xdownload](https://github.com/churuxu/xdownload)
 * [GitHub 下载加速](https://noshore.cn/github.html)
 * [https://github.com/fhefh2015/Fast-GitHub](https://github.com/fhefh2015/Fast-GitHub)
