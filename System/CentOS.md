@@ -646,11 +646,6 @@ while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1
 
 ## SVN
 
-* [SVN-Eclipse插件](https://github.com/subclipse/subclipse/wiki)
-
-> 对应`subversion 1.9.x` `http://subclipse.tigris.org/update_1.12.x/`
-
-> `EclipseClassDecompiler`反编译 `https://github.com/cnfree/Eclipse-Class-Decompiler`
 
 **检查已安装**
 

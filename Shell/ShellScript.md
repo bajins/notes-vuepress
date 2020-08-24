@@ -17,7 +17,7 @@
 * [Shell中if的使用详解_&&与||的使用详解](https://blog.csdn.net/setul/article/details/80114020)
 * [shell-if判断](https://www.jianshu.com/p/c71e85375e88)
 * [https://github.com/guodongxiaren/Bash](https://github.com/guodongxiaren/Bash)
-
+* [https://github.com/oldratlee/useful-scripts](https://github.com/oldratlee/useful-scripts)
 
 
 ## 自动交互
