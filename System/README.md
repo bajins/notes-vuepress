@@ -23,6 +23,10 @@
 
 - [https://www.gnome.org](https://www.gnome.org)
 
+* [有人说超威半导体（AMD）没有512位高级矢量扩展指令集（AVX512），属于残废，是真的吗？](https://www.zhihu.com/question/367281009)
+* [如何看待Linus Torvalds对AVX512的评价？](https://www.zhihu.com/question/406517759)
+
+
 
 **云平台**
 
@@ -195,7 +199,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 ## 建站资源
 
 * [萌音影视 - 在线影视应用](https://github.com/178146582/moeins)
-[安装教程](https://www.moerats.com/archives/744)
+    * [安装教程](https://www.moerats.com/archives/744)
 * [使用FileManager+基于Python3的爬虫程序建立影音图片库](https://www.moerats.com/archives/501)
 * [使用PlayTube搭建私人的视频网站](https://www.moerats.com/archives/644)
 * [开源有态度的漫画CMS](https://github.com/hiliqi/xiaohuanxiong)

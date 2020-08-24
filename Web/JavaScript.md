@@ -192,6 +192,12 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 
 **字符串多行换行**
 
+- Multiline String 多行字符串
+- Template String 模板字符串
+- Text Blocks 文本块
+
+* [https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/template_strings](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/template_strings)
+
 ```js
 var x = "我的\
 博客\

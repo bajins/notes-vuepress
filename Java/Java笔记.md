@@ -27,6 +27,14 @@
 - [数据库扩展性设计：使用二进制解决一条记录关联多个状态的问题](https://www.cnblogs.com/itfly8/p/6062757.html)
 
 
+## 多行字符串
+
+- Multiline String 多行字符串
+- Template String 模板字符串
+- Text Blocks 文本块
+
+> Java 13 Text Blocks 第一次预览版，Java 14 Text Blocks 第二次预览版，Java 15 Text Blocks 正式版
+
 
 ## 函数重载
 

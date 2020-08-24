@@ -9,6 +9,9 @@
 
 - [Java版本比较](https://mp.weixin.qq.com/s/NEfqPXrcq6O1p7RLf9LWCw)
 
+> [JEP](http://openjdk.java.net/jeps/0)的全称就是`JDK Enhancement Proposals`，简单点讲就像是一个个对JAVA进行改进提案，
+> 这些提案会在合适的时间合适的地点被加入JDK的特定版本。
+
 + [https://docs.oracle.com](https://docs.oracle.com)
     + [https://docs.oracle.com/javase/8/docs](https://docs.oracle.com/javase/8/docs)
     + [https://docs.oracle.com/javase/7/docs](https://docs.oracle.com/javase/7/docs)

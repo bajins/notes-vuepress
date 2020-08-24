@@ -25,6 +25,7 @@
 * [精选的优秀命令行框架](https://github.com/alebcay/awesome-shell)
 * [Linux常用命令汇总](https://blog.csdn.net/Mculover666/article/details/84558280)
 
+- [Linux下Shell脚本字符串单引号、双引号、反引号、反斜杠的作用和区别](https://www.cnblogs.com/EasonJim/p/8018545.html)
 
 
 
