@@ -73,35 +73,45 @@
 
 ### 逆向工具
 
-* [https://github.com/TheCjw/scoop-retools](https://github.com/TheCjw/scoop-retools)
-* [https://github.com/venshine/decompile-apk](https://github.com/venshine/decompile-apk)
++ [https://github.com/topics/reverse-engineering](https://github.com/topics/reverse-engineering)
++ [https://github.com/topics/decompiler](https://github.com/topics/decompiler)
++ [https://github.com/topics/disassembler](https://github.com/topics/disassembler)
 
-| APP NAME         	| HOME PAGE                                                                           	|
-|------------------	|-------------------------------------------------------------------------------------	|
-| apktool          	| https://github.com/iBotPeaches/Apktool                                              	|
-| assetstudio      	| https://github.com/Perfare/AssetStudio                                              	|
-| axmlprinter      	| https://github.com/rednaga/axmlprinter                                              	|
-| baksmali         	| https://github.com/JesusFreke/smali                                                 	|
-| bytecode-viewer  	| https://github.com/Konloch/bytecode-viewer                                          	|
-| cff-explorer     	| http://www.ntcore.com/exsuite.php                                                   	|
-| cfr              	| http://www.benf.org/other/cfr                                                      	|
-| classyshark      	| https://github.com/google/android-classyshark                                       	|
-| dex2jar          	| https://github.com/pxb1988/dex2jar                                                  	|
-| die              	| https://github.com/horsicq/DIE-engine                                               	|
-| dynamorio        	| https://github.com/DynamoRIO/dynamorio                                              	|
-| gda              	| http://www.gda.wiki:9090/index.php                                                  	|
-| ghidra           	| https://ghidra-sre.org                                                             	|
-| il2cppdumper     	| https://github.com/Perfare/Il2CppDumper                                             	|
-| jadx             	| https://github.com/skylot/jadx                                                      	|
-| jd-cmd           	| https://github.com/kwart/jd-cmd                                                     	|
-| libimobiledevice 	| https://github.com/libimobiledevice-win32/imobiledevice-net                         	|
-| luyten           	| https://github.com/deathmarine/Luyten                                               	|
-| pin              	| https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool 	|
-| recaf            	| https://github.com/Col-E/Recaf                                                      	|
-| reko             	| https://github.com/uxmal/reko                                                       	|
-| simplify         	| https://github.com/CalebFenton/simplify                                             	|
-| smali            	| https://github.com/JesusFreke/smali                                                 	|
-| snowman          	| https://derevenets.com                                                             	|
+- [https://github.com/TheCjw/scoop-retools](https://github.com/TheCjw/scoop-retools)
+- [https://github.com/venshine/decompile-apk](https://github.com/venshine/decompile-apk)
+
+* 在线反编译器 [http://www.javadecompilers.com](http://www.javadecompilers.com)
+* [https://github.com/java-decompiler](https://github.com/java-decompiler)
+    * [https://github.com/java-decompiler/jd-gui](https://github.com/java-decompiler/jd-gui)
+* [https://github.com/leibnitz27/cfr](https://github.com/leibnitz27/cfr)
+* [https://github.com/mstrobel/procyon](https://github.com/mstrobel/procyon)
+    * Gui for Procyon [https://github.com/deathmarine/Luyten](https://github.com/deathmarine/Luyten)
+* [https://github.com/fesh0r/fernflower](https://github.com/fesh0r/fernflower)
+   * [https://github.com/MinecraftForge/ForgeFlower](https://github.com/MinecraftForge/ForgeFlower)
+   * [http://the.bytecode.club/fernflower.jar](http://the.bytecode.club/fernflower.jar)
+* [https://github.com/MaxPixelStudios/MinecraftDecompiler](https://github.com/MaxPixelStudios/MinecraftDecompiler)
+* [https://github.com/iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool)
+* [https://github.com/Perfare/AssetStudio](https://github.com/Perfare/AssetStudio)
+* [https://github.com/rednaga/axmlprinter](https://github.com/rednaga/axmlprinter)
+* baksmali [https://github.com/JesusFreke/smali](https://github.com/JesusFreke/smali)
+* bytecode-viewer [https://github.com/Konloch/bytecode-viewer](https://github.com/Konloch/bytecode-viewer)
+* cff-explorer [http://www.ntcore.com/exsuite.php](http://www.ntcore.com/exsuite.php)
+* [https://github.com/google/android-classyshark](https://github.com/google/android-classyshark)
+* dex2jar [https://github.com/pxb1988/dex2jar](https://github.com/pxb1988/dex2jar)
+* [https://github.com/horsicq/DIE-engine](https://github.com/horsicq/DIE-engine)
+* dynamorio [https://github.com/DynamoRIO/dynamorio](https://github.com/DynamoRIO/dynamorio)
+* [http://www.gda.wiki:9090/index.php](http://www.gda.wiki:9090/index.php)
+* [https://ghidra-sre.org](https://ghidra-sre.org)
+* [https://github.com/Perfare/Il2CppDumper](https://github.com/Perfare/Il2CppDumper)
+* [https://github.com/skylot/jadx](https://github.com/skylot/jadx)
+* [https://github.com/kwart/jd-cmd](https://github.com/kwart/jd-cmd)
+* [https://github.com/libimobiledevice-win32/imobiledevice-net](https://github.com/libimobiledevice-win32/imobiledevice-net)
+* [https://software.intel.com/articles/pin-a-dynamic-binary-instrumentation-tool](https://software.intel.com/articles/pin-a-dynamic-binary-instrumentation-tool)
+* [https://github.com/Col-E/Recaf](https://github.com/Col-E/Recaf)
+* [https://github.com/uxmal/reko](https://github.com/uxmal/reko)
+* [https://github.com/CalebFenton/simplify](https://github.com/CalebFenton/simplify)
+* [https://github.com/JesusFreke/smali](https://github.com/JesusFreke/smali)
+* snowman [https://derevenets.com](https://derevenets.com)
 
 
 

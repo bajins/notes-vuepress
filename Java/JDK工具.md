@@ -13,16 +13,10 @@
 * Java和Android堆转储分析器 [https://heaphero.io](https://heaphero.io)
 * java程序跟踪工具 [https://github.com/btraceio/btrace](https://github.com/btraceio/btrace)
 
-+ [https://github.com/topics/reverse-engineering](https://github.com/topics/reverse-engineering)
-+ [https://github.com/topics/decompiler](https://github.com/topics/decompiler)
-+ [Android逆向工具](/Other/MobileNative.md#逆向工具)
-
-* 在线反编译器 [http://www.javadecompilers.com](http://www.javadecompilers.com)
-* [https://github.com/Konloch/bytecode-viewer](https://github.com/Konloch/bytecode-viewer)
-* [https://github.com/fesh0r/fernflower](https://github.com/fesh0r/fernflower)
-   * [https://github.com/MinecraftForge/ForgeFlower](https://github.com/MinecraftForge/ForgeFlower)
-   * [http://the.bytecode.club/fernflower.jar](http://the.bytecode.club/fernflower.jar)
-* [https://github.com/MaxPixelStudios/MinecraftDecompiler](https://github.com/MaxPixelStudios/MinecraftDecompiler)
++ [逆向工具](/Other/MobileNative.md#逆向工具)
++ `javap -verbose 文件` 查看class文件内容
++ [https://github.com/ClassViewer](https://github.com/ClassViewer)
++ [https://github.com/zxh0/classpy](https://github.com/zxh0/classpy)
 
 
 **其他命令**
