@@ -210,6 +210,17 @@
 
 + [申请虚拟信用卡的40个不同渠道](https://sm.link/2020/01/06/66.html)
 
+<details><summary style="font-size:130%;">易购卡(easypayx)</summary>
+
+![](/images/easypayx.png)
+
+![](/images/easypayx可以过的平台.png)
+
+</details>
+
+
+
+
 * 国家代码，电话代码，拨号代码，电话代码，ISO国家代码: [https://countrycode.org](https://countrycode.org)
 * [https://github.com/philipperemy/name-dataset](https://github.com/philipperemy/name-dataset)
 
