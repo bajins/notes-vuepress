@@ -6,6 +6,9 @@
 
 ## Flag
 
++ [https://github.com/openbsd](https://github.com/openbsd)
+    + [https://www.openbsd.org](https://www.openbsd.org)
+
 * [speedtest](https://github.com/adolfintel/speedtest)
 * ssl免费的证书 [https://letsencrypt.org](https://letsencrypt.org)
     * [https://github.com/acmesh-official](https://github.com/acmesh-official)
@@ -56,6 +59,7 @@
     * [https://cloud.google.com](https://cloud.google.com)
 * AWS [https://aws.amazon.com](https://aws.amazon.com)
     * [手把手教你撸12个月亚马逊（AWS）的云服务器](https://www.zhunaozi.com/411.html)
+    * [SSH 密钥对丢失时连接到 Amazon EC2 实例](https://aws.amazon.com/cn/premiumsupport/knowledge-center/user-data-replace-key-pair-ec2)
 * Azure [https://azure.microsoft.com](https://azure.microsoft.com)
 * Vultr
 * Digital Ocean
@@ -154,6 +158,10 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 ## SSH
 
+> Secure Shell（SSH）
+
+> OpenSSH 私钥后缀是`pem`，PuTTY 私钥后缀是`ppk`
+
 * [https://github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
 * [https://github.com/topics/terminal](https://github.com/topics/terminal)
 * [https://github.com/topics/ssh](https://github.com/topics/ssh)
@@ -166,7 +174,8 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 - [https://github.com/topics/sftp-client](https://github.com/topics/sftp-client)
 - [https://github.com/topics/ftp-client](https://github.com/topics/ftp-client)
 
-
+* [https://github.com/openssh](https://github.com/openssh)
+    * [https://www.openssh.com](https://www.openssh.com)
 * [https://github.com/electerm/electerm](https://github.com/electerm/electerm)
 * [https://www.mobatek.net](https://www.mobatek.net)
 
@@ -190,6 +199,8 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 **Windows**
 
 * [https://github.com/topics/windows](https://github.com/topics/windows)
+* [https://github.com/PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable)
+    * [https://github.com/PowerShell/Win32-OpenSSH/wiki](https://github.com/PowerShell/Win32-OpenSSH/wiki)
 * [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
 * [https://github.com/appget](https://github.com/appget)
 * [https://github.com/x64dbg](https://github.com/x64dbg)
@@ -198,6 +209,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
 * [https://github.com/Wox-launcher/Wox](https://github.com/Wox-launcher/Wox)
 * [https://github.com/vercel/hyper](https://github.com/vercel/hyper)
+* PuTTY [https://www.chiark.greenend.org.uk/~sgtatham/putty](https://www.chiark.greenend.org.uk/~sgtatham/putty)
 
 
 
