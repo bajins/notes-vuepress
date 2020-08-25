@@ -212,6 +212,8 @@
 
 <details><summary style="font-size:130%;">易购卡(easypayx)</summary>
 
+* [美国虚拟信用卡开卡平台：EasyPay易购卡(522490，428813)](https://www.vpsdawanjia.com/3377.html)
+
 ![](/images/easypayx.png)
 
 ![](/images/easypayx可以过的平台.png)
