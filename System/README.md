@@ -55,6 +55,7 @@
 * GCP (Google Cloud Platform) [https://github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform)
     * [https://cloud.google.com](https://cloud.google.com)
 * AWS [https://aws.amazon.com](https://aws.amazon.com)
+    * [手把手教你撸12个月亚马逊（AWS）的云服务器](https://www.zhunaozi.com/411.html)
 * Azure [https://azure.microsoft.com](https://azure.microsoft.com)
 * Vultr
 * Digital Ocean

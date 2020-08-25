@@ -31,6 +31,8 @@
 * [https://github.com/uber](https://github.com/uber)
 * [https://github.com/oracle](https://github.com/oracle)
 * [https://github.com/square](https://github.com/square)
+* [https://github.com/aws-samples](https://github.com/aws-samples)
+    * [https://github.com/awsdocs](https://github.com/awsdocs)
 * [https://www.linuxfoundation.org/projects](https://www.linuxfoundation.org/projects)
 
 - [https://github.com/TogetherOS](https://github.com/TogetherOS)
