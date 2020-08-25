@@ -198,7 +198,10 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 **Windows**
 
-* [https://github.com/topics/windows](https://github.com/topics/windows)
++ [https://github.com/topics/windows](https://github.com/topics/windows)
++ [https://github.com/topics/putty](https://github.com/topics/putty)
++ [https://github.com/topics/kitty](https://github.com/topics/kitty)
+
 * [https://github.com/PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable)
     * [https://github.com/PowerShell/Win32-OpenSSH/wiki](https://github.com/PowerShell/Win32-OpenSSH/wiki)
 * [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
@@ -210,6 +213,8 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://github.com/Wox-launcher/Wox](https://github.com/Wox-launcher/Wox)
 * [https://github.com/vercel/hyper](https://github.com/vercel/hyper)
 * PuTTY [https://www.chiark.greenend.org.uk/~sgtatham/putty](https://www.chiark.greenend.org.uk/~sgtatham/putty)
+* [https://github.com/portapps/kitty-portable](https://github.com/portapps/kitty-portable)
+* [https://github.com/cyd01/KiTTY](https://github.com/cyd01/KiTTY)
 
 
 
