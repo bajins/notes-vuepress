@@ -16,11 +16,14 @@
 * [https://github.com/cmdjs](https://github.com/cmdjs)
 * [https://github.com/seajs](https://github.com/seajs)
 * 异步编程的反应式扩展rxjs [https://github.com/ReactiveX](https://github.com/ReactiveX)
-* [JS刷新当前页面的几种方法总结](http://www.iqianduan.net/blog/refresh-browser-method)
 
 + [https://github.com/topics/validation](https://github.com/topics/validation)
 + [https://github.com/topics/validator](https://github.com/topics/validator)
 
+* [JS刷新当前页面的几种方法总结](http://www.iqianduan.net/blog/refresh-browser-method)
+* [js keyup、keypress和keydown事件 详解](https://www.cnblogs.com/manongxiaobing/archive/2012/11/05/2755412.html)
+* [js中keyup-keypress-keydown以及oninput四个事件](https://blog.csdn.net/FGstudy/article/details/101854125)
+* [keydown,keypress,keyup三者之间的区别](https://blog.csdn.net/qq_26102281/article/details/83785085)
 
 
 
