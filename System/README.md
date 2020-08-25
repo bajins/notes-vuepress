@@ -6,7 +6,6 @@
 
 ## Flag
 
-* [http://github.lesschina.com/linux](http://github.lesschina.com/linux)
 * [speedtest](https://github.com/adolfintel/speedtest)
 * ssl免费的证书 [https://letsencrypt.org](https://letsencrypt.org)
     * [https://github.com/acmesh-official](https://github.com/acmesh-official)
@@ -28,7 +27,22 @@
 
 
 
-**云平台**
+**管理面板**
+
+* [https://github.com/aaPanel/BaoTa](https://github.com/aaPanel/BaoTa)
+    * [https://www.bt.cn](https://www.bt.cn)
+* [https://www.xp.cn](https://www.xp.cn)
+
+
+**发行版本**
+
+* [Linux发行版本排行](https://distrowatch.com/dwres.php?resource=popularity)
+* [Linux主流发行版本](https://distrowatch.com/dwres.php?resource=major)
+
+
+
+
+## 云平台
 
 * [虚拟化与云计算有什么区别？](https://www.zhihu.com/question/22793847)
 
@@ -44,19 +58,10 @@
 * Azure [https://azure.microsoft.com](https://azure.microsoft.com)
 * Vultr
 * Digital Ocean
+* [https://www.oracle.com/cn/cloud/free](https://www.oracle.com/cn/cloud/free)
+    * [Always Free Resources](https://docs.cloud.oracle.com/en-us/iaas/Content/FreeTier/freetier.htm#resources)
+    * [申请Oracle Cloud永久免费服务+300美元试用额度](https://51.ruyo.net/14138.html)
 
-
-**管理面板**
-
-* [https://github.com/aaPanel/BaoTa](https://github.com/aaPanel/BaoTa)
-    * [https://www.bt.cn](https://www.bt.cn)
-* [https://www.xp.cn](https://www.xp.cn)
-
-
-**发行版本**
-
-* [Linux发行版本排行](https://distrowatch.com/dwres.php?resource=popularity)
-* [Linux主流发行版本](https://distrowatch.com/dwres.php?resource=major)
 
 
 

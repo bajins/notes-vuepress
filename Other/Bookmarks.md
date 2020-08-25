@@ -302,7 +302,7 @@
 * [Beauty Directory Lister](http://download.ulmt.com)
 * [文章归档 | 孟坤博客](https://mkblog.cn/archives)
 * [Archive | Verne in GitHub](https://einverne.github.io/archive.html)
-* [Windows激活之路 - 标签 - 如有乐享](https://51.ruyo.net/tag/windows%E6%BF%80%E6%B4%BB%E4%B9%8B%E8%B7%AF)
+* [如有乐享](https://51.ruyo.net)
 * [归档 | 学无止境](https://www.ailearn666.com/archives)
 * [Senraの小窝 | 初闻天籁之音，未使心之将来。](http://www.senra.me)
 * [文章归档 - 独自等待&#39;S Blog](https://www.waitalone.cn/archives.html)
