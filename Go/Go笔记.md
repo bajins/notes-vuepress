@@ -19,6 +19,21 @@
 * [File操作](https://blog.csdn.net/TDCQZD/article/details/81835149)
 
 
+**打印**
+
+```go
+// 设置日志初始化参数
+// log.Lshortfile 简要文件路径，log.Llongfile 完整文件路径
+log.SetFlags(log.Lshortfile | log.LstdFlags)
+// 获取当前行数,文件名,函数名(方法名)
+funcName, file, line, ok := runtime.Caller(0)
+if ok {
+	fmt.Println("Func Name=" + runtime.FuncForPC(funcName).Name())
+	fmt.Printf("file: %s    line=%d\n", file, line)
+}
+```
+
+
 **判断**
 
 - 判断结构体是否为空
