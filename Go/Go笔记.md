@@ -19,17 +19,28 @@
 * [File操作](https://blog.csdn.net/TDCQZD/article/details/81835149)
 
 
-**打印**
+**日志**
 
 ```go
-// 设置日志初始化参数
-// log.Lshortfile 简要文件路径，log.Llongfile 完整文件路径
-log.SetFlags(log.Lshortfile | log.LstdFlags)
-// 获取当前行数,文件名,函数名(方法名)
-funcName, file, line, ok := runtime.Caller(0)
-if ok {
-	fmt.Println("Func Name=" + runtime.FuncForPC(funcName).Name())
-	fmt.Printf("file: %s    line=%d\n", file, line)
+func (l *Logger) Log(level Level, format string, args ...interface{}) {
+	l.mu.Lock()
+	defer l.mu.Unlock()
+	// 设置日志初始化参数
+	// log.Lshortfile 简要文件路径，log.Llongfile 完整文件路径
+	//log.SetFlags(log.Lshortfile | log.LstdFlags)
+	dbgLogger := log.New(l.file, "", log.Llongfile|log.LstdFlags)
+	// 传入0为获取当前行数,文件名,函数名(方法名)
+	funcName, file, line, ok := runtime.Caller(2)
+	if !ok {
+		file = "???"
+		line = 0
+	}
+	info := []string{
+		"[" + string(level) + "]",
+		runtime.FuncForPC(funcName).Name(),
+		format,
+	}
+	dbgLogger.Output(3, strings.Join(info, ".")+"\n")
 }
 ```
 
