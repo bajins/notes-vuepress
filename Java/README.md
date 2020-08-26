@@ -124,7 +124,6 @@
 + [Maven详细教程](https://segmentfault.com/a/1190000015077021)
 
 * [http://mvnrepository.com](http://mvnrepository.com)
-* [https://www.webjars.org](https://www.webjars.org)
 
 + maven-jar-plugin 默认的打包插件，用来打普通的project JAR包；
 + maven-shade-plugin 用来打可执行JAR包，也就是所谓的fat JAR包；
@@ -236,6 +235,11 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 * [https://projects.eclipse.org/projects/technology.microprofile](https://projects.eclipse.org/projects/technology.microprofile)
     * [https://github.com/eclipse/microprofile](https://github.com/eclipse/microprofile)
+
+
+- [https://github.com/webjars](https://github.com/webjars)
+    - [https://www.webjars.org](https://www.webjars.org)
+
 
 
 **LOG**

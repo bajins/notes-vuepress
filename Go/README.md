@@ -108,7 +108,72 @@
 
 
 
-## Modules代理
+
+
+## 工具链
+
+- 测试文件中单个函数
+
+```bash
+go test -v 文件名_test.go -test.run 函数名
+# 直接指定函数不指定文件运行
+go test -v -test.run 函数名
+```
+
+| 关键点             	| 说明                                                                                          	|
+|--------------------	|-----------------------------------------------------------------------------------------------	|
+| 导入需要的包       	| import testing (如果你是goland,那么可以忽略，因为ide就自动帮你加上)                           	|
+| 执行命令           	| go test file_test.go                                                                          	|
+| 测试文件命名       	| 必须以_test.go结尾                                                                            	|
+| 功能测试的用力函数 	| 必须以Test开头&&后头跟着的函数名不能以小写字母开头，比如：Testcbs 就是不行的，TestCbs就是ok的 	|
+| 功能测试参数       	| testing.T                                                                                     	|
+| 压力测试用例函数   	| 必须以Benchmark开头&&其后的函数名不能以小写字母开头(例子同上)                                 	|
+| 压力测试参数       	| testing.B                                                                                     	|
+| 测试信息           	| .Log方法，默认情况下是不会显示的，只有在go test -v的时候显示                                  	|
+| 测试控制           	| 通过Error/Errorf/FailNow/Fatal等来进行测试是否是失败，或者在失败的情况下的控制                	|
+| 压力测试命令       	| go test -test.bench file_test.go                                                              	|
+| 压力测试的循环体   	| 使用test.B.N                                                                                  	|
+
+
+
+
+
+## Modules
+
+* [Go Modules 终极入门](https://segmentfault.com/a/1190000021854441)
+
+
+| 命令     	| 说明                                                                  	|
+|----------	|-----------------------------------------------------------------------	|
+| go mod init     	| initialize new module in current directory（在当前目录初始化mod）     	|
+| go mod download 	| download modules to local cache(下载依赖包)                           	|
+| go mod edit     	| edit go.mod from tools or scripts（编辑go.mod                         	|
+| go mod graph    	| print module requirement graph (打印模块依赖图)                       	|
+| go mod tidy     	| add missing and remove unused modules(拉取缺少的模块，移除不用的模块) 	|
+| go mod vendor   	| make vendored copy of dependencies(将依赖复制到vendor下)              	|
+| go mod verify   	| verify dependencies have expected content (验证依赖是否正确）         	|
+| go mod why      	| explain why packages or modules are needed(解释为什么需要依赖)        	|
+
+
+- 查看所有可升级依赖版本 `go list -u -m all`
+
+**添加依赖**
+
+- 添加依赖: `go get github.com/xxx/xxx`
+- 添加指定版本: `go get github.com/xxx/xxx@v1.6.2`
+- 添加指定版本范围: `go get github.com/xxxx/xxx@'<v1.6.2'`
+- 添加指定`commit`的版本：`go get github.com/xxxx/xxx@q2516faf3`
+
+
+**升级依赖**
+
+- 升级`Major`: `go get -u github.com/xxx/xxx`
+- 升级全部依赖的`Minor`或`PATCH`版本: `go get -u`
+- 升级全部依赖的`PATCH`版本: `go get -u=patch`
+
+
+
+### Modules代理
 
 > 查看Go的环境信息`go env`
 
