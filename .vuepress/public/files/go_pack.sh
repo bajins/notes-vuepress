@@ -46,7 +46,7 @@ for item in ${os_arch_array[@]}; do
     echo "环境变量设置成功：$GOOS------$GOARCH"
 
     # 指定编译的二进制文件名
-    binary_file=${os}_${arch}
+    binary_file=$zip_dir
     if [ $os == "windows" ]; then
         binary_file=$binary_file.exe
     fi

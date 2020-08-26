@@ -58,8 +58,12 @@
 * GCP (Google Cloud Platform) [https://github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform)
     * [https://cloud.google.com](https://cloud.google.com)
 * AWS [https://aws.amazon.com](https://aws.amazon.com)
+    * [https://www.cloudping.info](https://www.cloudping.info)
     * [手把手教你撸12个月亚马逊（AWS）的云服务器](https://www.zhunaozi.com/411.html)
     * [SSH 密钥对丢失时连接到 Amazon EC2 实例](https://aws.amazon.com/cn/premiumsupport/knowledge-center/user-data-replace-key-pair-ec2)
+    * [如果丢失私钥，连接到Linux实例](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/replacing-lost-key-pair.html)
+    * [对连接到实例进行故障排除](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstancesConnecting.html)
+    * [修改aws为密码登录，并可以root登录](https://www.jianshu.com/p/40e38a7b185b)
 * Azure [https://azure.microsoft.com](https://azure.microsoft.com)
 * Vultr
 * Digital Ocean
