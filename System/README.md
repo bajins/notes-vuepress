@@ -63,7 +63,6 @@
     * [SSH 密钥对丢失时连接到 Amazon EC2 实例](https://aws.amazon.com/cn/premiumsupport/knowledge-center/user-data-replace-key-pair-ec2)
     * [如果丢失私钥，连接到Linux实例](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/replacing-lost-key-pair.html)
     * [对连接到实例进行故障排除](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstancesConnecting.html)
-    * [修改aws为密码登录，并可以root登录](https://www.jianshu.com/p/40e38a7b185b)
 * Azure [https://azure.microsoft.com](https://azure.microsoft.com)
 * Vultr
 * Digital Ocean
@@ -72,6 +71,32 @@
     * [申请Oracle Cloud永久免费服务+300美元试用额度](https://51.ruyo.net/14138.html)
 
 
+
+## 修改Ubuntu为root登录
+
+
+```bash
+# 重置root密码
+sudo passwd root
+# 切换到root账号
+su
+# 更改ubuntu密码
+passwd ubuntu
+# 编辑sshd_config文件
+vi /etc/ssh/sshd_config
+# 修改如下参数
+PermitRootLogin yes
+PasswordAuthentication yes
+UsePAM no
+# 或者执行命令直接修改
+sed -ri 's/^#?(PermitRootLogin)\s+(yes|no)/\1 yes/' /etc/ssh/sshd_config
+1
+sed -ri 's/^/#/;s/sleep 10"\s+/&\n/' /root/.ssh/authorized_keys
+1
+# 重启ssh
+service sshd restart
+/etc/init.d/ssh restart
+```
 
 
 ## Windows10设置

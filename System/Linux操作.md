@@ -74,9 +74,8 @@ wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://ww
 chmod a+x ~/Network-Reinstall-System-Modify.sh
 ```
 
-
-
 - 安装Linux系统
+
 ```bash
 # ①. 一键网络重装纯净CentOS 7（推荐）
 bash ~/Network-Reinstall-System-Modify.sh -CentOS_7
@@ -283,15 +282,10 @@ tmux new -s 会话名 -d "命令"
 
 > 如果程序在其他目录下则在命令前加入`cd 目录路径 &&`
 
-**只输出错误日志**
-
 ```bash
+# 只输出错误日志
 nohup python3 ./index.py >/dev/null 2>index.log &
-```
-
-**不输出日志**
-
-```bash
+# 不输出日志
 nohup python3 ./index.py >/dev/null 2>&1 &
 ```
 
@@ -301,19 +295,16 @@ nohup python3 ./index.py >/dev/null 2>&1 &
 2. `1`标准输出,在一般使用时，默认的是标准输出
 3. `2`标准错误信息输出
 
-> 可以用来指定需要重定向的标准输入或输出。
->
-> 将某个程序的错误信息输出到log文件中：`./index 2>index.log`。
->
-> 这样标准输出还是在屏幕上，但是错误信息会输出到log文件中。
->
-> 另外，也可以实现0，1，2之间的重定向。`2>&1`：将错误信息重定向到标准输出。
+- 可以用来指定需要重定向的标准输入或输出。
+- 将某个程序的错误信息输出到log文件中：`./index 2>index.log`。
+- 这样标准输出还是在屏幕上，但是错误信息会输出到log文件中。
+- 也可以实现0，1，2之间的重定向。`2>&1`：将错误信息重定向到标准输出。
+
 
 **关于`/dev/null`文件**
 
 > Linux下还有一个特殊的文件`/dev/null`，它就像一个无底洞，所有重定向到它的信息都会消失得无影无踪。
 > 这一点非常有用，当我们不需要回显程序的所有信息时，就可以将输出重定向到`/dev/null`。
-
 
 
 
@@ -359,30 +350,15 @@ wget host:port/file 就可以下载了
 
 ### scp
 
-> 【优点】简单方便，安全可靠；支持限速参数，不占资源，不会提高多少系统负荷
->
-> 【缺点】不支持排除目录 
->
-> 【用法】scp就是secure copy，是用来进行远程文件拷贝的。数据传输使用 ssh，并且和ssh 使用相同的认证方式，提供相同的安全保证 。 
+> scp（Secure Copy Protocol）基于SSH，是用来进行远程文件拷贝的，不支持排除目录，不支持断点续传
 
-
-- 示例
-
-> 把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
 
 ```bash
+# 把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
 scp -P 22 -p /home/work/source.txt work@192.168.0.10:/home/work/
-```
-
-> 把192.168.0.10机器上的source.txt文件拷贝到本地的/home/work目录下
-
-```bash
+# 把192.168.0.10机器上的source.txt文件拷贝到本地的/home/work目录下
 scp -P 22 -p work@192.168.0.10:/home/work/source.txt /home/work/
-```
-
-> 把192.168.0.10机器上的source.txt文件拷贝到192.168.0.11机器的/home/work目录下
-
-```bash
+# 把192.168.0.10机器上的source.txt文件拷贝到192.168.0.11机器的/home/work目录下
 scp -P 22 -p work@192.168.0.10:/home/work/source.txt work@192.168.0.11:/home/work/
 # 拷贝文件夹，加-r参数
 scp -P 22 -p -r /home/work/sourcedir work@192.168.0.10:/home/work/
@@ -390,36 +366,32 @@ scp -P 22 -p -r /home/work/sourcedir work@192.168.0.10:/home/work/
 scp -P 22 -p -r /home/work/sourcedir work@www.myhost.com:/home/work/
 # 显示详情，加-v参数
 scp -P 22 -p -r -v /home/work/sourcedir work@www.myhost.com:/home/work/  
-```
 
-> 将远程主机复制到本地
-
-```bash
+# 将远程主机复制到本地
 scp -P 22 -p root@192.168.214.187:/tmp/demo/f3.log /tmp/files/
 ```
 
-**遇到的问题**
 
-> 输入密码时提示：`Permission denied, please try again.`
+### sftp
 
-- 先修改远程文件夹或文件的权限`chmod -R 777 路径`
-- 修改`PermitRootLogin`允许Root登录
+> sftp（SSH File Transfer Protocol）基于SSH，sftp允许对远程文件（查看目录，删除文件和目录等）进行一系列操作，支持断点续传
 
-```bash
-# 编辑sshd_config文件
-vi /etc/ssh/sshd_config
-# 搜索PermitRootLogin并修改为yes
-/PermitRootLogin
-# 重启ssh
-/etc/init.d/sshd restart
-```
+- `sftp -oPort=端口 用户名@IP` 登录，和ssh一样
+- put 把本地传递到远端（上传）
+- get 把远程传递到本地（下载）
+- ls和lls:ls是看sftp服务器下当前目录下文件， lls是看linux当前目录下的文件。
+- pwd和lpwd:pwd是看远端服务器的目录， 即sftp服务器默认的当前目录。 lpwd是看linux本地目录
+- `mget *.*` 从远端主机接收一批文件至本地主机
+- !command 这个是指在linux上执行command这个命令，比如`!ls`、`!rm a.txt`
+- exit、quit、bye: 退出。
+- help：再强调一下help，登录以后，一个help，基本可以搞定所有命令
 
 
 
 
 ### rsync
 
->【优点】功能强大，操作类似scp，支持排除目录，支持限速参数；还支持本地复制。 
+> 【优点】功能强大，操作类似scp，支持排除目录，支持限速参数；还支持本地复制。 
 >  
 > 【缺点】会耗系统资源，占用I/O
 >  
@@ -452,8 +424,6 @@ rsync -r -v /home/work/sourcedir work@www.myhost.com:/home/work/
 # 排除子目录，注意：--exclude后面的路径不能为绝对路径，必须为相对路径才可以，否则匹配不上，就不会被排除掉。
 rsync -r -v --exclude sourcedir/notinclude /home/work/sourcedir work@www.myhost.com:/home/work/
 ```
-
-
 
 
 
