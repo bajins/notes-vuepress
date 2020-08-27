@@ -39,7 +39,7 @@
 
 ### 语法规则
 
-```nginx
+```conf
 location [=|~|~*|^~] /uri/ {
         ····· 
 }
@@ -47,16 +47,16 @@ location [=|~|~*|^~] /uri/ {
 
 - 修饰符含义
 
-| 规则  	| 说明                                                                                                                                                 	|
-|-------	|------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| `!~*` 	| 不区分大小写，但不匹配的正则                                                                                                                             	|
-| `!~`  	| 区分大小写，但不匹配的正则                                                                                                                               	|
-| `/`   	| 通用匹配，任何请求都会匹配到                                                                                                                         	|
-| `@`   	| 定义一个内部命名的匹配（[等阶于`internal`](https://blog.sometimesnaive.org/article/72)），适用于`error_page`,`try_files`                             	|
+| 规则  	| 说明                                                                                                            	|
+|-------	|------------------------------------------------------------------------------------------------------------------	|
+| `!~*` 	| 不区分大小写，但不匹配的正则                                                                          	|
+| `!~`  	| 区分大小写，但不匹配的正则                                                                                          	|
+| `/`   	| 通用匹配，任何请求都会匹配到                                                                                          	|
+| `@`   	| 定义一个内部命名的匹配（[等阶于`internal`](https://blog.sometimesnaive.org/article/72)），适用于`error_page`,`try_files` 	|
 | `^~`  	| uri以某个常规字符串开头，如请求为`/static/20%/aa`，匹配规则`^~ /static/ /aa`                                      |
-| `~*`  	| 不区分大小写的正则匹配                                                                                                                       	|
-| `~`   	| 区分大小写的正则匹配                                                                                                                         	|
-| `=`   	| 精确匹配                                                                                                                                     	|
+| `~*`  	| 不区分大小写的正则匹配                                                                                  	|
+| `~`   	| 区分大小写的正则匹配                                                                                  	|
+| `=`   	| 精确匹配                                                                                                       	|
 
 
 - 当我们有多个`location`配置的情况下，其匹配顺序为
@@ -111,7 +111,7 @@ location / {
 
 > `internal` 指令用于指定只允许来自本地 `Nginx` 的内部调用，来自外部的访问会直接返回 `404 not found` 状态。
 
-```nginx
+```conf
 # 定义一个内部调用location
 location /internal/ {
     internal;
@@ -139,7 +139,7 @@ location / {
 
 > 命名location中不能再嵌套其它的命名location。
 
-```nginx
+```conf
 # 匹配静态文件
 location ~ .*\.(htm|html|js|css|jpg|png|gif|eot|svg|ttf|woff|woff2)$ {
     # 如果文件不存在
@@ -175,7 +175,7 @@ location @pass {
 
 ### 以后缀设置过期时间
 
-```nginx
+```conf
 location ~* \.(js|css|jpg|jpeg|gif|png|swf)$ {
     if (-f $request_filename) {
         expires 1h;
@@ -186,7 +186,7 @@ location ~* \.(js|css|jpg|jpeg|gif|png|swf)$ {
 
 ### 禁止访问某个目录
 
-```nginx
+```conf
 location ~* \.(txt|doc)${
     root /data/www/wwwroot/linuxtone/test;
     deny all;
@@ -219,7 +219,7 @@ location ~* \.(txt|doc)${
 
 **Redirect**
 
-```nginx
+```conf
 rewrite ^(.*) http://example.com$1 redirect;
 ```
 
@@ -338,11 +338,9 @@ location ~* \.(gif|jpg|swf)$ {
 
 
 
-
-
 ## 判断user_agent
 
-```nginx
+```conf
 # 设置变量
 set $mobile_user_agent "(MIDP)|(WAP)|(UP.Browser)|(Smartphone)
 |(Obigo)|(Mobile)|(AU.Browser)|(wxd.Mms)|(WxdB.Browser)|(CLDC)
@@ -392,7 +390,7 @@ if ( $http_user_agent ~ "$mobile_user_agent" ) {
 
 ## 主配置
 
-```nginx
+```conf
 
 user www www;
 worker_processes auto;
@@ -453,8 +451,9 @@ http {
 
 ## 动静分离配置
 
+**静态文件在本地**
 
-```nginx
+```conf
 server {
     listen 80;
     listen 443 ssl http2;
@@ -518,4 +517,50 @@ server {
     access_log /logs/wwwlog;
     error_log /logs/wwwlog;
 }
+```
+
+
+**静态文件在镜像存储**
+
+```conf
+#PROXY-START/
+location = / {
+    #rewrite (.*) $1index.html;
+    index /index.html;
+}
+# 拦截静态文件后缀
+location ~ .*\.(htm|html|js|css|jpg|png|gif|eot|svg|ttf|woff|woff2)$|/static/ {
+    # 配置静态资源地址
+    #root ./vhost/html;
+	root "/index";
+	# 将此处重写的URI作为一个新的URI在当前location中继续执行，并不会将新的URI转向其他location
+	rewrite ^(.*)$ /index/$1 break;
+	
+	proxy_pass https://test.cos.ap-hongkong.myqcloud.com;
+    #proxy_set_header Host $host;
+	proxy_set_header Host test.cos.ap-hongkong.myqcloud.com;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header REMOTE-HOST $remote_addr;
+    
+    add_header X-Cache $upstream_cache_status;
+    
+    #Set Nginx Cache
+    add_header Cache-Control no-cache;
+}
+location / {
+    proxy_pass http://127.0.0.1:8081;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header REMOTE-HOST $remote_addr;
+    
+    add_header X-Cache $upstream_cache_status;
+    
+    #Set Nginx Cache
+    add_header Cache-Control no-cache;
+    #expires 12h;
+}
+
+#PROXY-END/
 ```
