@@ -20,6 +20,7 @@
 * [Nginx 从入门到实践，万字详解](https://juejin.im/post/5ea931866fb9a043815146fb)
 * Nginx 入门指南 [https://github.com/xuexb/learn-nginx](https://github.com/xuexb/learn-nginx)
 
++ [博客使用Cloudflare和Nginx的相关配置](https://jayshao.com/cloudflare-nginx-ssl)
 
 - [HAProxy 入门](https://jaminzhang.github.io/lb/HAProxy-Get-Started)
 
@@ -364,6 +365,22 @@ if ( $http_user_agent ~ "$mobile_user_agent" ) {
     proxy_set_header X-Real-IP $remote_addr;
     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     proxy_set_header REMOTE-HOST $remote_addr;
+}
+```
+
+```conf
+# cloudflare 默认会在header里面加上’HTTP_CF_IPCOUNTRY’
+# 禁止某些国家, user agent 的访问，配置在http（全局）
+map $http_cf_ipcountry $allow {
+    default yes;
+    US no;
+    CA no;
+    UK no;
+    AU no;
+}
+# 在server或location中配置
+if ($allow = no) {
+    return 403;
 }
 ```
 
