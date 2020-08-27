@@ -46,15 +46,12 @@ checkinstall
 
 - CheckInstall会完成以下任务
 
-> 调用`make install`，然后用`installwatch`监视、记录整个安装过程中添加的文件
+1. 调用`make install`，然后用`installwatch`监视、记录整个安装过程中添加的文件
+2. 等到安装完成，把记录的文件打包，根据不同的系统创建安装包：`.rpm`或`.deb`
+    - 注：安装包会保存在源代码目录，以便复制到其它机器安装，省去重复编译的麻烦。
+3. 移除`make install`安装的文件
+4. 调用系统安装工具来安装第2步创建的安装包：`rpm -i`或`dpkg -i`
 
-> 等到安装完成，把记录的文件打包，根据不同的系统创建安装包：`.rpm`或`.deb`
-
-> 注：安装包会保存在源代码目录，以便复制到其它机器安装，省去重复编译的麻烦。
-
-> 移除`make install`安装的文件
-
-> 调用系统安装工具来安装第2步创建的安装包：`rpm -i`或`dpkg -i`
 
 **卸载`checkinstall`安装的软件**
 
@@ -96,14 +93,16 @@ yum -y groupinstall chinese-support
 **临时**
 
 ```bash
-export LANG=zh_CN.utf8
+export LANG=zh_CN.UTF-8
+export LANGUAGE=zh_CN.UTF-8
 ```
 
 **长久**
 
-> CenOS7修改`vi /etc/locale.conf`文件
->
-> CentOS6修改`vi /etc/sysconfig/i18n`文件
+- CenOS7修改`vi /etc/locale.conf`
+- CentOS6修改`vi /etc/sysconfig/i18n`
+- Ubuntu修改`vi /etc/default/locale`
+    * [Ubuntu修改编码格式为中文](https://blog.csdn.net/qu_learner/article/details/104030765)
 
 ```bash
 LANG="zh_CN.utf8"
@@ -113,32 +112,42 @@ SYSFONT="lat0-sun16"
 ```
 
 ```bash
-localectl  set-locale LANG=zh_CN.utf8
+localectl set-locale LANG=zh_CN.utf8
 ```
 
-### 设置vi显示行号
 
-**编辑以下两个文件**
+### 设置VIM
+
+**解决中文乱码问题**
+
+```bash
+vi /etc/vim/vimrc
+# 在开头或者末尾添加
+set fileencodings=utf-8,gbk,utf-16le,cp1252,iso-8859-15,ucs-bom
+set termencoding=utf-8
+set encoding=utf-8
+```
+
+
+**显示行号**
 
 ```bash
 vi /etc/vimrc
 vi /etc/virc
-```
-
-**在开头或者末尾添加**
-
-```bash
+# 在开头或者末尾添加
 set number
 ```
 
+
+
 ### 欢迎信息
 
-> `vi /etc/motd`这个文件，可以在里面加入自己喜欢的任何欢迎信息，这段信息将会在登录成功后显示！
+- `vi /etc/motd`这个文件，可以在里面加入自己喜欢的任何欢迎信息，这段信息将会在登录成功后显示！
+- `/etc/profile`中设定的变量(全局)的可以作用于任何用户,
+- `/.bashrc`设定的变量(局部)只能继承`/etc/profile`中的变量,他们是”父子”关系
 
-### profile文件
 
-> 为每一个运行bash shell的用户执行此文件.当bash shell被打开时,
-> 该文件被读取（即每次新开一个终端，都会执行bashrc）。
+> 为每一个运行bash shell的用户执行此文件.当bash shell被打开时, 该文件被读取（即每次新开一个终端，都会执行bashrc）。
 >
 > 只要在同一个shell界面，不管多少用户登录都只执行一次
 
@@ -146,8 +155,7 @@ set number
 vi /etc/profile
 ```
 
-> 此文件为系统的每个用户设置环境信息,当用户第一次登录时,该文件被执行.
-> 并从`/etc/profile.d`目录的配置文件中搜集shell的设置。
+> 此文件为系统的每个用户设置环境信息,当用户第一次登录时,该文件被执行. 并从`/etc/profile.d`目录的配置文件中搜集shell的设置。
 >
 > 如果进入shell用普通用户登录后，再用su进入root用户那么将会被执行两次
 
@@ -155,31 +163,20 @@ vi /etc/profile
 vi /etc/bashrc
 ```
 
-> 当root用户登录时执行
-
 ```bash
+# 当root用户登录时执行
 vi /root/.bash_profile
-```
-
-> 当每次root用户退出系统(退出bash shell)时,执行该文件
-
-```bash
+# 当每次root用户退出系统(退出bash shell)时,执行该文件
 vi /root/.bash_logout
-```
-
-> 当root用户登录时以及每次打开新的shell时,该该文件被读取。
-
-```bash
+# 当root用户登录时以及每次打开新的shell时,该该文件被读取。
 vi /root/.bashrc
 ```
 
-> `/etc/profile`中设定的变量(全局)的可以作用于任何用户,
-> `/.bashrc`设定的变量(局部)只能继承`/etc/profile`中的变量,他们是”父子”关系
 
 
 ### ssh欢迎信息
 
-> 输入`shift + g`（就是大写的G）跳转到末尾添加以下内容
+> 输入<kbd>shift</kbd> + <kbd>g</kbd>（就是大写的`G`）跳转到末尾添加以下内容
 
 ```bash
 echo '=========================================================='
@@ -308,13 +305,10 @@ firewall-cmd --zone=public --add-port=8080-8089/tcp --permanent
 firewall-cmd --zone=public --add-port=3306/tcp --permanent
 ```
 
-- 命令含义
+- `--zone` 作用域
+- `--add-port=80/tcp` 添加端口，格式为：端口/通讯协议
+- `--permanent` 永久生效，没有此参数重启后失效
 
-> `--zone` 作用域
-
-> `--add-port=80/tcp` 添加端口，格式为：端口/通讯协议
-
-> `--permanent` 永久生效，没有此参数重启后失效
 
 **配置`firewalld-cmd`**
 

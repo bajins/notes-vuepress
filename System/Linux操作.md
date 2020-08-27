@@ -20,6 +20,8 @@
 - [https://lnmp.org](https://lnmp.org)
 - [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625)
 
+* [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
+
 
 **编辑器**
 
