@@ -9,7 +9,7 @@
 
 > Vanilla JS 就是指JavaScript
 
-* [ECMAScript支持度检测](https://github.com/ruanyf/es-checker)
+* ECMAScript支持度检测 [https://github.com/ruanyf/es-checker](https://github.com/ruanyf/es-checker)
 * [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese)
 * [https://github.com/requirejs](https://github.com/requirejs)
 * [https://github.com/amdjs](https://github.com/amdjs)
@@ -31,9 +31,13 @@
 
 > `HTML`网页中，浏览器通过`script`标签加载脚本的默认语言是`JavaScript`，因此`type="application/javascript"`可以省略。
 
+* [https://github.com/wangdoc/javascript-tutorial](https://github.com/wangdoc/javascript-tutorial)
+    * [https://wangdoc.com/javascript](https://wangdoc.com/javascript)
+* [https://github.com/ruanyf/jstutorial](https://github.com/ruanyf/jstutorial)
+    * [http://javascript.ruanyifeng.com](http://javascript.ruanyifeng.com)
+* ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
 * [浏览器脚本教程](https://www.w3school.com.cn/b.asp)
 * [参考手册](https://www.w3school.com.cn/r.asp)
-* [ECMAScript 6入门](https://github.com/ruanyf/es6tutorial)
 * [ECMAscript和Javascript的区别](https://www.jianshu.com/p/10cfcb536d4a)
 * [es6支持情况](https://kangax.github.io/compat-table/es6)
 * [检查JavaScript文件中的ES版本](https://github.com/dollarshaveclub/es-check)
