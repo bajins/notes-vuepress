@@ -410,11 +410,12 @@
 * 兔2工具合集 [https://www.tool2.cn](https://www.tool2.cn)
 * 爱资料工具（在线实用工具集合） [http://www.toolnb.com](http://www.toolnb.com)
 * 工具导航 [https://hao.logosc.cn](https://hao.logosc.cn)
+* 资源导航 [http://hao.zifh.com](http://hao.zifh.com)
 
 
 
 
-## 视频
+## 音视频
 
 * 阿木影视 [https://www.aosk.online](https://www.aosk.online)
 * 电影推荐（分类别致） [http://www.mvcat.com](http://www.mvcat.com)
@@ -431,6 +432,16 @@
 * VideoFk解析视频 [http://www.videofk.com](http://www.videofk.com)
 * 蓝调网站 [http://lcoc.top/vip2.3](http://lcoc.top/vip2.3)
 * 永久资源采集网 [http://www.yongjiuzy1.com](http://www.yongjiuzy1.com)
+
+
+- [免费下载音乐的网站在哪里?](https://www.zhihu.com/question/356168043)
+- 无损音乐吧 [https://www.dtshot.com](https://www.dtshot.com)
+- 超高无损音乐网 [https://www.sq688.com](https://www.sq688.com)
+- 无损音乐免费下载 [http://www.51ape.com](http://www.51ape.com)
+- [http://tool.liumingye.cn/music](http://tool.liumingye.cn/music)
+
+
+
 
 
 ## 设计
