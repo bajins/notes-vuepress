@@ -21,7 +21,7 @@ actionLink: /#命令
 编译时自动帮你配置菜单栏和侧边栏，最多三层目录结构。
 :::
 ::: tip
-非常多的热心开发者开源主题[Theme](/Web/README.md#VuePress主题)
+非常多的热心开发者开源主题[Theme](/Web/README.md#vuepress主题)
 :::
 
 ::: tip

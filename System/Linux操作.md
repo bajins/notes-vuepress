@@ -156,8 +156,8 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 ## 后台运行Daemon
 
-* [Python版Daemon](/Shell/Python笔记.md#Daemon)
-* [Golang版Daemon更加简易可用](/Go/Go笔记.md#Daemon)
+* [Python版Daemon](/Shell/Python笔记.md#daemon)
+* [Golang版Daemon更加简易可用](/Go/Go笔记.md#daemon)
 
 
 ### Tmux

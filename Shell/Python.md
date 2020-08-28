@@ -41,20 +41,20 @@
 * Python中文网 [https://www.cnpython.com](https://www.cnpython.com)
 
 
-+ [https://github.com/vinta/awesome-python](https://github.com/vinta/awesome-python)
-+ [python3 中执行系统命令](https://www.jianshu.com/p/a19de14c4b57)
-+ [Python图像处理库—-Pillow](https://www.lizenghai.com/archives/17611.html)
-+ [https://github.com/aio-libs](https://github.com/aio-libs)
-+ [Python Selenium教程 - 猿人学Python](https://www.yuanrenxue.com/python-selenium)
-
-- [https://github.com/Arronlong/py_scripts](https://github.com/Arronlong/py_scripts)
-- Python字节码反汇编器/反编译器 [https://github.com/zrax/pycdc](https://github.com/zrax/pycdc)
 
 
 
 ## 第三方库
 
 + [https://github.com/jobbole/awesome-python-cn](https://github.com/jobbole/awesome-python-cn)
++ [https://github.com/vinta/awesome-python](https://github.com/vinta/awesome-python)
++ [python3 中执行系统命令](https://www.jianshu.com/p/a19de14c4b57)
++ [Python图像处理库—-Pillow](https://www.lizenghai.com/archives/17611.html)
++ [https://github.com/aio-libs](https://github.com/aio-libs)
++ [Python Selenium教程 - 猿人学Python](https://www.yuanrenxue.com/python-selenium)
+
+* [https://github.com/Arronlong/py_scripts](https://github.com/Arronlong/py_scripts)
+* Python字节码反汇编器/反编译器 [https://github.com/zrax/pycdc](https://github.com/zrax/pycdc)
 
 - [https://github.com/topics/python](https://github.com/topics/python)
     - [https://github.com/ipython](https://github.com/ipython)
@@ -70,6 +70,44 @@
 - [https://github.com/topics/ops](https://github.com/topics/ops)
 - [https://github.com/topics/automation](https://github.com/topics/automation)
 - [https://github.com/pyecharts/pyecharts](https://github.com/pyecharts/pyecharts)
+
+
+
+
+### Jupyter Notebook
+
++ [https://github.com/jupyter](https://github.com/jupyter)
+    + [https://jupyter.org](https://jupyter.org)
+    + [https://zh.wikipedia.org/wiki/Jupyter](https://zh.wikipedia.org/wiki/Jupyter)
++ [https://github.com/markusschanta/awesome-jupyter](https://github.com/markusschanta/awesome-jupyter)
+    + [https://github.com/jupyterhub](https://github.com/jupyterhub)
+        + [https://mybinder.org](https://mybinder.org)
+        + [https://notebooks.gesis.org](https://notebooks.gesis.org)
+    + [https://github.com/jupyterlab](https://github.com/jupyterlab)
+
+* [https://github.com/Kaggle](https://github.com/Kaggle)
+    * [https://www.kaggle.com](https://www.kaggle.com)
+        * [https://github.com/Kaggle/kaggle-api#kernels](https://github.com/Kaggle/kaggle-api#kernels)
+        * [https://github.com/Kaggle/kaggle-api#installation](https://github.com/Kaggle/kaggle-api#installation)
+        * [资源默认分配](https://www.kaggle.com/docs/notebooks#technical-specifications)
+    * [GitHub等海外大文件快速中转下载](https://mp.weixin.qq.com/s/DH8jXalZiBcX3KhrPdDw8w)
+* [https://github.com/googlecolab](https://github.com/googlecolab)
+    * [https://colab.research.google.com](https://colab.research.google.com)
+* CoCalc [https://cocalc.com](https://cocalc.com)
+* Azure Notebooks [https://notebooks.azure.com](https://notebooks.azure.com)
+    * [Azure Notebooks 预览版概述](https://docs.microsoft.com/zh-cn/azure/notebooks/azure-notebooks-overview)
+* [https://datalore.jetbrains.com](https://datalore.jetbrains.com)
+* [https://www.floydhub.com](https://www.floydhub.com)
+* [https://github.com/rstudio](https://github.com/rstudio)
+    * [https://rstudio.cloud/plans/free](https://rstudio.cloud/plans/free)
+* 阿里天池大数据 [https://tianchi.aliyun.com](https://tianchi.aliyun.com)
+* 科赛和鲸 K-lab [https://www.kesci.com](https://www.kesci.com)
+* [https://aistudio.baidu.com](https://aistudio.baidu.com)
+* [https://momodel.cn](https://momodel.cn)
+* [https://www.huaweicloud.com/product/modelarts.html](https://www.huaweicloud.com/product/modelarts.html)
+
+
+
 
 
 

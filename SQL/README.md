@@ -15,6 +15,21 @@
 * [https://db-engines.com/en/ranking](https://db-engines.com/en/ranking)
 
 
+- [https://github.com/nitzzzu/RedisDesktopManager](https://github.com/nitzzzu/RedisDesktopManager)
+- [https://github.com/kanyways/rdm](https://github.com/kanyways/rdm)
+- [https://github.com/lework/RedisDesktopManager-Windows](https://github.com/lework/RedisDesktopManager-Windows)
+
++ [https://github.com/dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
++ [https://www.heidisql.com](https://www.heidisql.com)
++ [https://www.dbvis.com](https://www.dbvis.com)
++ [https://sourceforge.net/projects/squirrel-sql](https://sourceforge.net/projects/squirrel-sql)
+    + [http://www.squirrelsql.org](http://www.squirrelsql.org)
++ [https://www.activedbsoft.com](https://www.activedbsoft.com)
++ [https://www.razorsql.com](https://www.razorsql.com)
++ [https://www.aquafold.com](https://www.aquafold.com)
+
+
+
 ## MySQL
 
 * [如果是MySQL引起的CPU消耗过大，你会如何优化？](https://www.cnblogs.com/xiaoheliu1024/p/12657929.html)
