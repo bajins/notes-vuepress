@@ -110,22 +110,6 @@
 * [https://www.haorenka.org](https://www.haorenka.org)
 
 
-**Android**
-
-+ [http://www.sharerw.com](http://www.sharerw.com)
-+ [https://htcui.com](https://htcui.com)
-+ [https://www.lanzous.com/b05f9wyf](https://www.lanzous.com/b05f9wyf)
-+ [Balatan](https://forum.release-apk.com/search.php?author_id=49&sr=topics&sf=firstpost)
-+ [https://patch.chelpus.com](https://patch.chelpus.com)
-+ [手机软件下载-智友邦原智友论坛](http://bbs.zhiyoo.net/forum.php?mod=forumdisplay&fid=42&filter=lastpost&orderby=lastpost)
-+ 各大网站的脚本 [https://github.com/Orange-shirt/OrangeJs](https://github.com/Orange-shirt/OrangeJs)
-+ [酷我音乐精品破解版本集合地](https://www.lanzoux.com/b05aammje)
-    + [酷我音乐_for_Android](https://www.lanzoux.com/b0f1956fc)
-    + [https://yaweimao.lanzous.com/b00z96sod](https://yaweimao.lanzous.com/b00z96sod)
-+ [https://github.com/butzist/ActivityLauncher](https://github.com/butzist/ActivityLauncher)
-
-* 文件传输 [http://www.xender.com](http://www.xender.com)
-
 
 
 ## 下载器

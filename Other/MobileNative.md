@@ -130,4 +130,61 @@
 
 
 
+### 软件
 
++ [如何在电脑上下载Google play上的应用？](https://www.zhihu.com/question/22382577/answers/updated)
++ [https://greasyfork.org/zh-CN/scripts/33005-direct-download-from-google-play](https://greasyfork.org/zh-CN/scripts/33005-direct-download-from-google-play)
++ [https://apkpure.com/cn/developer/Microsoft%20Corporation](https://apkpure.com/cn/developer/Microsoft%20Corporation)
+
+* [https://github.com/topics/mobile-app](https://github.com/topics/mobile-app)
+* [https://github.com/topics/apk](https://github.com/topics/apk)
+    * [https://github.com/kivy/python-for-android](https://github.com/kivy/python-for-android)
+    * [https://github.com/safaiyeh/react-native-app-review](https://github.com/safaiyeh/react-native-app-review)
+    * [https://github.com/rnkit/rnkit-in-app-update](https://github.com/rnkit/rnkit-in-app-update)
+* [https://github.com/topics/playstore]
+    * [https://github.com/asmsh/go-playstore-scraper](https://github.com/asmsh/go-playstore-scraper)
+    * [https://github.com/ClaudiuGeorgiu/PlaystoreDownloader](https://github.com/ClaudiuGeorgiu/PlaystoreDownloader)
+    * [https://github.com/aniketkatkar/GPlay-App-AutoInstaller](https://github.com/aniketkatkar/GPlay-App-AutoInstaller)
+    * [https://github.com/NoMore201/googleplay-api](https://github.com/NoMore201/googleplay-api)
+    * [https://github.com/onyxbits/raccoon4](https://github.com/onyxbits/raccoon4)
+    * [https://github.com/feljor/playstore-scraper-with-api](https://github.com/feljor/playstore-scraper-with-api)
+    * [https://github.com/egodigital/node-google-play-store](https://github.com/egodigital/node-google-play-store)
+
+- [https://github.com/microg](https://github.com/microg)
+- [https://github.com/rumboalla/apkupdater](https://github.com/rumboalla/apkupdater)
+- [https://gitlab.com/AuroraOSS/AuroraStore](https://gitlab.com/AuroraOSS/AuroraStore)
+- [https://github.com/yeriomin/YalpStore](https://github.com/yeriomin/YalpStore)
+
+
+* [https://android-apk.org](https://android-apk.org)
+* [https://androidapksfree.com](https://androidapksfree.com)
+* [https://androidappsapk.co](https://androidappsapk.co)
+* [https://apkcombo.com](https://apkcombo.com)
+* [https://apkgk.com](https://apkgk.com)
+* [https://apkpure.com](https://apkpure.com)
+* [https://apksfull.com](https://apksfull.com)
+* [https://apps.evozi.com](https://apps.evozi.com)
+* [https://blackmart.co](https://blackmart.co)
+* [https://sameapk.com](https://sameapk.com)
+* [https://www.androidfreeware.net](https://www.androidfreeware.net)
+* [https://www.apk4fun.com](https://www.apk4fun.com)
+* [https://www.apkfollow.com](https://www.apkfollow.com)
+* [https://www.apkmirror.com](https://www.apkmirror.com)
+* [https://www.apkmonk.com](https://www.apkmonk.com)
+* [https://www.apkturbo.com](https://www.apkturbo.com)
+
+
+
++ [http://www.sharerw.com](http://www.sharerw.com)
++ [https://htcui.com](https://htcui.com)
++ [https://www.lanzous.com/b05f9wyf](https://www.lanzous.com/b05f9wyf)
++ [Balatan](https://forum.release-apk.com/search.php?author_id=49&sr=topics&sf=firstpost)
++ [https://patch.chelpus.com](https://patch.chelpus.com)
++ [手机软件下载-智友邦原智友论坛](http://bbs.zhiyoo.net/forum.php?mod=forumdisplay&fid=42&filter=lastpost&orderby=lastpost)
++ 各大网站的脚本 [https://github.com/Orange-shirt/OrangeJs](https://github.com/Orange-shirt/OrangeJs)
++ [酷我音乐精品破解版本集合地](https://www.lanzoux.com/b05aammje)
+    + [酷我音乐_for_Android](https://www.lanzoux.com/b0f1956fc)
+    + [https://yaweimao.lanzous.com/b00z96sod](https://yaweimao.lanzous.com/b00z96sod)
++ [https://github.com/butzist/ActivityLauncher](https://github.com/butzist/ActivityLauncher)
+
+* 文件传输 [http://www.xender.com](http://www.xender.com)

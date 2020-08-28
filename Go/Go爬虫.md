@@ -7,11 +7,9 @@
 
 ## Flag
 
-* [https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China](https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China)
-
 **[xpath和css选择器](/Web/README.md#xpath和css选择器)**
 
-**[HeadlessBrowser](/Python/Python爬虫.md#headlessbrowser)**
+**[HeadlessBrowser](/Shell/Python爬虫.md#headlessbrowser)**
 
 
 
