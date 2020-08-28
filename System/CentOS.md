@@ -197,7 +197,7 @@ cd /home
 
 
 
-## yum操作
+## YUM和RPM操作
 
 - `yum -y install 包名`（支持*） ：自动选择y，全自动
 - `yum install 包名`（支持*） ：手动选择y or n
@@ -206,19 +206,29 @@ cd /home
 - `rpm -e 包名`（不支持*）：卸载rpm包
 - `yum info nginx`(查看当前版本可选)
 - `yum list installed | grep 包名`（不支持*）：确认是否安装过包
+- `yum -y update` 更新yum源包
 
-### 安装EPEL源
 
 ```bash
+# 安装EPEL源
 yum -y install epel-release 
 ```
 
-
-### 更新yum源包
-
 ```bash
-yum -y update
+# 查询已安装软件包信息
+rpm -qi 软件名
+# 查询已安装软件包安装位置
+rpm -ql 软件名
+# 查看已安装软件依赖
+rpm -qR 软件名
+# 查看已安装软件的配置文件
+rpm -qc 软件名
+# 查询已安装文件所属软件包
+rpm -qf 文件名的绝对路径
+# 安装软件包数量
+rpm -qa | wc -l 
 ```
+
 
 
 ## systemctl
@@ -270,11 +280,7 @@ systemctl stop firewalld.service
 systemctl disable firewalld.service
 # 删除端口
 firewall-cmd --zone= public --remove-port=80/tcp --permanent
-```
 
-### 开启端口
-
-```bash
 # 开启80端口
 firewall-cmd --zone=public --add-port=80/tcp --permanent
 # 开启8080-8089的IP端
@@ -314,38 +320,13 @@ firewall-cmd --query-panic
 ```
 
 
-## rpm
-
-```bash
-# 查询已安装软件包信息
-rpm -qi 软件名
-# 查询已安装软件包安装位置
-rpm -ql 软件名
-# 查看已安装软件依赖
-rpm -qR 软件名
-# 查看已安装软件的配置文件
-rpm -qc 软件名
-# 查询已安装文件所属软件包
-rpm -qf 文件名的绝对路径
-# 安装软件包数量
-rpm -qa | wc -l 
-```
-
 
 ## 内核升级
 
-
-### 手动安装
-
-- 检查当前CentOS系统版本
-
 ```bash
+# 检查当前CentOS系统版本
 cat /etc/redhat-release
-```
-
-- 检查当前CentOS系统内核版本
-
-```bash
+# 检查当前CentOS系统内核版本
 uname -sr
 ```
 
@@ -411,6 +392,8 @@ rpm -qa | grep kernel
 # 删除多余的内核
 yum remove 内核名字
 ```
+
+
 
 ## 一键安装BBR
 
