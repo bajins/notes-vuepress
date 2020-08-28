@@ -194,7 +194,7 @@
 | 移动上一个光标所在处                             	| Ctrl + Alt + ←                            	| Alt + ←                                     	|
 | 移动下一个光标所在处                             	| Ctrl + Alt + →                            	| Alt + →                                     	|
 | 展开所有代码                                     	| Ctrl + Shift + +                          	| Ctrl + Shift + * （小键盘）                 	|
-| 折詡斤有代码                                     	| Ctrl + Shift + -                          	| Ctrl + Shift + / （小键盘）                 	|
+| 折叠有代码                                     	| Ctrl + Shift + -                          	| Ctrl + Shift + / （小键盘）                 	|
 | 选择常用代码块                                   	| Ctrl + Alt + T                            	| Shift + Alt + Z                             	|
 | 可以生成构造器/Getter/Setter等                   	| Alt + Insert                              	| Shift + Alt + S                             	|
 | 编辑源                                           	| F4                                        	|                                             	|
