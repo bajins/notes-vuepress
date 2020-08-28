@@ -5,22 +5,7 @@
 
 
 
-## 卸载软件
-
-### RPM安装
-
-```bash
-rpm -qa | grep 软件名称
-rpm -e --nodeps 列出的软件全名
-```
-
-### yum安装
-
-```bash
-yum remove 软件名
-```
-
-### 源码编译安装
+## 源码安装卸载软件
 
 > 编译时的路径如果指定了`--prefix /usr/local/xxx` 直接`rm -rf /usr/local/xxx`即可。
 >
@@ -140,7 +125,7 @@ set number
 
 
 
-### 欢迎信息
+### SSH会话执行文件
 
 - `vi /etc/motd`这个文件，可以在里面加入自己喜欢的任何欢迎信息，这段信息将会在登录成功后显示！
 - `/etc/profile`中设定的变量(全局)的可以作用于任何用户,
@@ -227,8 +212,9 @@ rpm -qc 软件名
 rpm -qf 文件名的绝对路径
 # 安装软件包数量
 rpm -qa | wc -l 
+rpm -qa | grep 软件名称
+rpm -e --nodeps 列出的软件全名
 ```
-
 
 
 ## systemctl
