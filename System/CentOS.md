@@ -698,7 +698,7 @@ vi /etc/yum.repos.d/google-chrome.repo
 
 - 添加内容
 
-```bash
+```conf
 [google-chrome]
 name=google-chrome
 baseurl=http://dl.google.com/linux/chrome/rpm/stable/$basearch
