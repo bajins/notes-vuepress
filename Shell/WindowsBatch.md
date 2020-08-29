@@ -528,7 +528,7 @@ if not "%errorLevel%" == "0" (
 
 ```batch
 @echo off
-fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",1)(window.close)
+fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",0)(window.close)
 
 :: 下面为执行命令
 
@@ -541,8 +541,8 @@ fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellE
 if '%errorlevel%' NEQ '0' ( goto UACPrompt ) else ( goto GetAdmin )
 :UACPrompt
     ::if not "%~1"=="" set file= ""%~1""
-    ::echo CreateObject("Shell.Application").ShellExecute "cmd.exe", "/c %~s0%file%", "", "runas", 1 > "%temp%\getadmin.vbs"
-    echo CreateObject^("Shell.Application"^).ShellExecute "%~s0", "%*", "", "runas", 1 > "%temp%\getadmin.vbs" 
+    ::echo CreateObject("Shell.Application").ShellExecute "cmd.exe", "/c %~s0%file%", "", "runas", 0 > "%temp%\getadmin.vbs"
+    echo CreateObject^("Shell.Application"^).ShellExecute "%~s0", "%*", "", "runas", 0 > "%temp%\getadmin.vbs" 
     "%temp%\getadmin.vbs"
     exit /B
 :GetAdmin

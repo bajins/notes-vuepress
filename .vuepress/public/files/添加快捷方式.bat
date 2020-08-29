@@ -11,8 +11,8 @@
 if '%errorlevel%' NEQ '0' ( goto UACPrompt ) else ( goto GetAdmin )
 :UACPrompt
     ::if not "%~1"=="" set file= ""%~1""
-    ::echo CreateObject("Shell.Application").ShellExecute "cmd.exe", "/c %~s0%file%", "", "runas", 1 > "%temp%\getadmin.vbs"
-    echo CreateObject^("Shell.Application"^).ShellExecute "%~s0", "%*", "", "runas", 1 > "%temp%\getadmin.vbs" 
+    ::echo CreateObject("Shell.Application").ShellExecute "cmd.exe", "/c %~s0%file%", "", "runas", 0 > "%temp%\getadmin.vbs"
+    echo CreateObject^("Shell.Application"^).ShellExecute "%~s0", "%*", "", "runas", 0 > "%temp%\getadmin.vbs" 
     "%temp%\getadmin.vbs"
     exit /B
 :GetAdmin

@@ -244,15 +244,16 @@
 
 ## Shell
 
-* [https://docs.microsoft.com/zh-cn/windows/win32/shell/shell-entry](https://docs.microsoft.com/zh-cn/windows/win32/shell/shell-entry)
-* [https://docs.microsoft.com/zh-cn/windows/win32/shell/shell](https://docs.microsoft.com/zh-cn/windows/win32/shell/shell)
+* Shell.Application [https://docs.microsoft.com/zh-cn/windows/win32/shell](https://docs.microsoft.com/zh-cn/windows/win32/shell)
+    * [https://docs.microsoft.com/zh-cn/windows/win32/shell/shell](https://docs.microsoft.com/zh-cn/windows/win32/shell/shell)
 * [Wscript.Shell 对象详细介绍](https://www.jb51.net/article/5683_all.htm)
 * [WshShell 对象](https://www.jb51.net/shouce/script56/script56_chs/html/wsobjwshshell.htm)
+* [WScript.Shell 与 Shell.Application 的不同](https://www.cnblogs.com/bitssea/p/12590701.html)
 
 + `Wscript.Shell`对象提供的功能：`New-Object -ComObject "Wscript.Shell" | Get-Member`
 + `Shell.Application`对象提供的功能：`New-Object -ComObject "Shell.Application" | Get-Member`
 
-- `Run` `Exec` 执行`cmd`命令
+- `Run` `Exec` 执行`cmd`命令，同`Shell.Application`的[`ShellExecute`](https://docs.microsoft.com/en-us/windows/win32/shell/shell-shellexecute)
 - `CreateShortcut` 创建快捷方式
 - `SpecialFolders` 访问`Windows`的`shell`文件夹
 - `Environment` 操作环境变量
@@ -317,6 +318,34 @@
 - `Exec`类具有属性`ExitCode`、`ProcessID`、`Status`、`StdErr`、`StdIn`、`StdOut`以及一个函数`Terminate`
     - `Status`属性具有三个值：0为正在执行，1为完成，2为失败
     - 获取输出信息：`StdOut.ReadAll()`
+
+
+
+**Shell.Application运行文件的5种方法**
+
+```vb
+Set objShellApp = CreateObject("Shell.Application")
+Set objFolder = objShellApp.NameSpace("c:/")
+' 方法1
+objFolder.Items().item("demo.exe").invokeverb
+' 方法2
+objFolder.Items().item("demo.exe").InvokeVerbEx
+' 方法3
+objShellApp.Open("C:/demo.exe")
+' 方法4,可以加参数和设置参数值
+objShellApp.ShellExecute "demo.exe","","c:/","", 0
+' 方法5：在文件上打开鼠标邮件点击打开按钮
+Set objFolderItem = objShellApp.NameSpace("C:/").Items().item("demo.exe")
+Set objFIVs = objFolderItem.Verbs()
+For i=0 To objFIVs.Count - 1
+    ' MsgBox objFIVs.Item(i)
+    Set objFIV = objFIVs.Item(i)
+    If objFIV.Name = "打开(&O)" Then '右键菜单中在中文系统是"打开(&O)"，英文自己改
+        objFIV.DoIt
+        Exit For
+    End IF
+Next
+```
 
 
 ### 特殊文件夹
@@ -462,452 +491,4 @@ for(e = new Enumerator(LoginProfiles) ; !e.atEnd() ; e.moveNext()) {
    WScript.Echo(Profile.Name);
    WScript.Echo(Profile.LastLogon);
 }
-```
-
-
-
-## VBScript
-
-* [VBScript](https://docs.microsoft.com/zh-cn/previous-versions//t0aew7h6(v=vs.85))
-* [Visual Basic 指南](https://docs.microsoft.com/zh-cn/dotnet/visual-basic)
-* [VBScript语言参考](https://docs.microsoft.com/zh-cn/previous-versions//d1wf56tt%28v%3dvs.85%29)
-* [VBScript基础知识](https://docs.microsoft.com/zh-cn/previous-versions//0ad0dkea%28v%3dvs.85%29)
-* [VBScript 语言](https://www.tcoline.com/resource/vbs/top_vbs_0.htm)
-* [VBScript 教程](https://code.ziqiangxuetang.com/vbscript/vbscript-tutorial.html)
-* [VBScript 函数](https://www.w3school.com.cn/vbscript/vbscript_ref_functions.asp)
-* [https://github.com/MishaVernik/WScirpt](https://github.com/MishaVernik/WScirpt)
-
-
-### vbs特殊符号
-
-* [String Constants](https://docs.microsoft.com/zh-cn/previous-versions//hh277t8e%28v%3dvs.85%29)
-
-
-| 常数            | 值                             | 描述                         |
-|---------------|-------------------------------|----------------------------|
-| vbCr          | Chr\(13\)                     | 回车符。                       |
-| vbCrLf        | Chr\(13\)&Chr\(10\)           | 回车符与换行符。                   |
-| vbFormFeed    | Chr\(12\)                     | 换页符；在MicrosoftWindows中不适用。 |
-| vbLf          | Chr\(10\)                     | 换行符。                       |
-| vbNewLine     | Chr\(13\)&Chr\(10\)或Chr\(10\) | 平台指定的新行字符；适用于任何平台。         |
-| vbNullChar    | Chr\(0\)                      | 值为0的字符。                    |
-| vbNullString  | 值为0的字符串                       | 与零长度字符串\(""\)不同；用于调用外部过程。  |
-| vbTab         | Chr\(9\)                      | 水平附签。                      |
-| vbVerticalTab | Chr\(11\)                     | 垂直附签；在MicrosoftWindows中不用  |
-
-
-
-
-### vbs函数封装
-
-* [https://github.com/eklam/VbsJson](https://github.com/eklam/VbsJson)
-
-**数组转换为字符串**
-
-```vb
-'数组转换为字符串
-'Writer         Bajins
-'Create Date    2019-10-22
-'arrayName      数组
-'separator      separator
-'Example        ConvertArrayToString(array, ",")
-Public Function ConvertArrayToString(array, separator)
-    Dim elementString
-
-    For Each element In array
-        elementString = elementString + Cstr(element) + separator
-    Next
-
-    elementString = StrReverse(elementString)
-    elementString = Replace(elementString, separator,"",1,1)
-    elementString = StrReverse(elementString)
-    ' 设置返回值
-    ConvertArrayToString = elementString
-End Function
-```
-
-
-**获取对象的属性和值**
-
-```vb
-' 获取对象的属性和值
-'Writer         Bajins
-'Create Date    2019-10-22
-'obj            对象
-'Example        GetObjectPropertieValue(obj)
-Public Function GetObjectPropertieValue(obj)
-    IF Not IsObject(obj) Then
-        'Exit Function
-        Err.Raise Err.Number
-    END IF
-    
-    Dim kv
-    
-    For Each Propertie in obj.Properties_
-       kv = kv & Propertie.name & " : " & Propertie.value & vbCrLf
-    Next
-    
-    kv = "属性数量：" & obj.Properties_.count & vbCrLf & kv
-    
-    ' 设置返回值
-    GetObjectPropertieValue = kv
-End Function
-```
-
-**获取系统信息**
-
-> 此方式完全不会显示`CMD`窗口（包括闪现）
-
-```vb
-' 获取系统位数
-'Writer         Bajins
-'Create Date    2019-10-22
-'Example        GetSystemBit()
-Public Function GetSystemBit()
-    Set WMIService = GetObject("winmgmts:{impersonationlevel=impersonate}!\\.\root\cimv2")
-    Set ComputerSystem = WMIService.InstancesOf("Win32_ComputerSystem")
-
-    For Each System in ComputerSystem
-        IF InStr(System.SystemType,"86") > 0 Then
-            GetSystemBit = "i386"
-            Exit For
-        End IF
-        
-        IF InStr(System.SystemType,"64") > 0 Then
-            GetSystemBit = "amd64"
-            Exit For
-        End IF
-    Next
-
-End Function
-```
-
-
-**隐藏窗口运行**
-
-```vb
-' 创建运行命令数组
-commands = Array("D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini")
-
-' 创建运行命令动态数组
-'Set commands = CreateObject("System.Collections.ArrayList")
-'commands.Add "D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini"
-
-' 启动项键名称
-keyName = "frp"
-
-Set shell = WScript.CreateObject("WScript.Shell")
-
-For Each command In commands
-    ' cmd /c运行之后关闭窗口，0隐藏运行，false不同步运行
-    shell.Run "cmd /c " & command, 0, false
-Next
-
-' 注册表项
-item = "HKCU\Software\Microsoft\Windows\CurrentVersion\Run\"
-
-' 设置开机启动
-shell.RegWrite item & keyName, WScript.ScriptFullName
-```
-
-**查看进程是否存在**
-
-```vb
-ProcesseName="rclone.exe"
-
-' 查找进程
-Set WMIService = GetObject("winmgmts:{impersonationlevel=impersonate}!\\.\root\cimv2")
-Set Processes = WMIService.ExecQuery("select * from win32_process where name='" & ProcesseName & "'")
-
-For Each Process In Processes
-    ' 比较两个字符串
-    If InStr(UCase(Process.name), UCase(ProcesseName)) = 0 Then
-        ' 如果进程存在就不重复执行后面的代码
-        Exit for
-    End If
-    ' 运行程序
-    Set WS = Wscript.CreateObject("Wscript.Shell")
-    WS.Run "rclone mount GDrive:/ x: --cache-dir F:\Temp --vfs-cache-mode writes", 0
-Next
-```
-
-
-
-**Ping**
-
-```vb
-Function Ping(strHostName) 
-  Dim colPingResults, objPingResult, strQuery 
-  ' 定义WMI查询
-  strQuery = "SELECT * FROM Win32_PingStatus WHERE Address = '" & strHostName & "'" 
-  ' 运行WMI查询
-  ' GetObject("winmgmts://./root/cimv2")
-  Set colPingResults = GetObject("winmgmts:root\cimv2").ExecQuery(strQuery) 
-  ' 将查询结果转换为True或False
-  For Each objPingResult In colPingResults 
-    If Not IsObject(objPingResult) Then 
-      Ping = False 
-    Else 
-      If objPingResult.StatusCode = 0 Then 
-        Ping = True 
-      Else 
-        Ping = False 
-      End If 
-      'WScript.Echo "Ping status code for " & strHostName & ": " & objPingResult.StatusCode 
-    End If 
-  Next 
-  Set colPingResults = Nothing 
-End Function
-```
-
-
-**监视网络连接**
-
-```vb
-Set objWMIService = GetObject("winmgmts:\\.\root\wmi")
-' 执行事件订阅查询以接收事件。事件订阅查询定义了要监视的托管环境的更改。发生更改时，WMI基础结构会将事件描述为调用脚本。
-Set colMonitoredEvents = objWMIService.ExecNotificationQuery("Select * from MSNdis_StatusMediaConnect") 
-Do While True 
-    Set strLatestEvent = colMonitoredEvents.NextEvent 
-    Wscript.Echo "已建立网络连接："
-    WScript.Echo strLatestEvent.InstanceName, Now
-    Wscript.Echo 
-Loop
-```
-
-**监视网络断开**
-
-```vb
-Set objWMIService = GetObject("winmgmts:\\.\root\wmi")
-' 执行事件订阅查询以接收事件。事件订阅查询定义了要监视的托管环境的更改。发生更改时，WMI基础结构会将事件描述为调用脚本。
-Set colMonitoredEvents = objWMIService.ExecNotificationQuery("Select * from MSNdis_StatusMediaDisconnect") 
-Do While True 
-    Set strLatestEvent = colMonitoredEvents.NextEvent 
-    Wscript.Echo "网络连接已丢失："
-    WScript.Echo strLatestEvent.InstanceName, Now
-Loop
-```
-
-
-**设置壁纸**
-
-> 使用API触发图片文件右键菜单上的 `设置为桌面背景(B)`
-
-```vb
-Set shApp = CreateObject("Shell.Application")
-' 获取文件
-Set picFile = CreateObject("Scripting.FileSystemObject").GetFile("C:\Users\bajin\Desktop\CachedImage_1920_1080_POS4.jpg")
-' 获取文件上的所有右键菜单项
-' Set items = shApp.NameSpace(picFile.ParentFolder.Path).ParseName(picFile.Name).Verbs()
-Set items = shApp.NameSpace(picFile.ParentFolder.Path).Items().Item(picFile.Name).Verbs()
-' 遍历所有菜单项
-' For i=0 To items.Count - 1
-' Set item = items.Item(i)
-For Each item In items
-    ' 注意执行的脚本文件需要为简体中文编码
-    If item.Name = "设置为桌面背景(&B)" Then
-    ' If strcomp(item.Name,"设置为桌面背景(&B)") = 0 Then
-        item.DoIt
-    END IF
-Next
-```
-
-
-**刷新桌面**
-
-```vb
-' 切换到桌面
-CreateObject("Shell.Application").ToggleDesktop()
-' 刷新桌面
-CreateObject("WScript.Shell").SendKeys("{F5}")
-
-Set WSHShell = CreateObject("WScript.Shell")
-' 切换到桌面
-'WSHShell.AppActivate("Program Manager")
-WSHShell.AppActivate(WSHShell.SpecialFolders("Desktop"))
-' 刷新桌面
-WSHShell.SendKeys("{F5}")
-
-' 下面这两种方式没看出效果
-CreateObject("shell.application").Namespace(0).Self.invokeVerb("R&efresh")
-CreateObject("shell.application").Namespace(&H10).Self.invokeVerb("Refresh")
-
-' 刷新桌面、任务栏、OSD（相当于重启资源管理器）
-Set WSHShell = CreateObject("WScript.Shell")
-WSHShell.Run "regsvr32.exe /s /n /i:/UserInstall %SystemRoot%\system32\themeui.dll", 0, True
-
-' 效果不太好，有时刷新成功，有时失败
-Set WSHShell = CreateObject("WScript.Shell")
-WSHShell.Run "RunDll32 USER32,UpdatePerUserSystemParameters", 0, True
-
-' assoc文件关联时会自动刷新桌面，可能报错
-Set WSHShell = CreateObject("WScript.Shell")
-WSHShell.Run "assoc .=.", 0, True
-
-' 重启资源管理器并恢复打开的目录，暂时不可用
-Function RestartExplorer()
-    Dim arrURL()
-    n = -1
-    Set shApp = CreateObject("Shell.Application")
-    ' 遍历所有打开的窗口
-    For Each oWin In shApp.Windows
-        ' 如果打开的窗口为资源管理器
-        If Instr(1, oWin.FullName, "\explorer.exe", vbTextCompare) Then
-            n = n + 1
-            ReDim Preserve arrURL(n)
-            arrURL(n) = oWin.LocationURL
-            'oWin.Document.folder.title
-            ' 关闭当前打开的文件夹
-            'oWin.quit
-        End If
-    Next
-    ' 结束资源管理器进程
-    CreateObject("WScript.Shell").Run "taskkill /f /im explorer.exe >nul 2>nul&start explorer.exe", 0, True
-    ' 遍历并打开之前的窗口
-    For Each strURL In arrURL
-        'shApp.Open strURL
-        shApp.Explore strURL
-    Next
-End Function
-```
-
-
-## 文件编码转换
-
-```vb
-'-------------------------------------------------
-'函数名称:ReadFile
-'作用:利用AdoDb.Stream对象来读取各种格式的文本文件
-'----------------------------------------------------
-
-Function ReadFile(FileUrl)
-    Dim Str
-    Set stm = CreateObject("Adodb.Stream")
-    stm.Type = 2
-    stm.mode = 3
-    stm.charset = "utf-8"
-    stm.Open
-    stm.loadfromfile FileUrl
-    Str = stm.readtext
-    stm.Close
-    Set stm = Nothing
-    ReadFile = Str
-End Function
-
-'-------------------------------------------------
-'函数名称:WriteToFile
-'作用:利用AdoDb.Stream对象来写入各种格式的文本文件
-'参数:FileUrl-文件相对路径;Str-文件内容;CharSet-编码格式(utf- 8,gb2312.....)
-'----------------------------------------------------
-
-Function WriteToFile (FileUrl, Str)
-    Set stm = CreateObject("Adodb.Stream")
-    stm.Type = 2
-    stm.mode = 3
-    stm.charset = "gb2312"
-    stm.Open
-    stm.WriteText Str
-    stm.SaveToFile FileUrl, 2
-    stm.flush
-    stm.Close
-    Set stm = Nothing
-End Function
-```
-
-```vb
-
-'/*===========================================================
-' * Intro        把要转换的多个文件/文件夹拖到该文件上即可
-' * FileName     ConvertCode.vbs
-' * Author       Florian
-' * Version      v1.0
-' * LastModify  2014-06-11 00:39:58
-' *==========================================================*/
-'-------------------------------------------------
-'设置编码：默认    utf-8    -->    gb2312
-'-------------------------------------------------
-SrcCode="utf-8"
-DestCode="gb2312"
-'-------------------------------------------------
-'解析参数
-'-------------------------------------------------
-Set fs = CreateObject("scripting.filesystemobject")
-Set objArgs = WScript.Arguments
-If objArgs.Count>0 Then
-    For I = 0 To objArgs.Count - 1
-        FileUrl = objArgs(I)
-        Call ConvertDir(FileUrl)
-    Next
-Else
-    MsgBox "没有文件/文件夹被拖入！"
-    wscript.quit
-End If
-MsgBox    "转换成功！"
-'-------------------------------------------------
-'函数名称:ConvertDir
-'作用:将任意目录内的文件进行编码转换
-'-------------------------------------------------
-Function ConvertDir(DirUrl)
-    If fs.FileExists(DirUrl) Then  
-        Call ConvertFile(DirUrl)
-    Else
-        Call SearchDir(DirUrl)
-    End If
-End Function
-
-'-------------------------------------------------
-'函数名称:SearchDir
-'作用:递归查找目录内的文件，进行编码转换
-'-------------------------------------------------
-Function SearchDir(path)
-    Set folder = fs.getfolder(path)
-    Set subfolders = folder.subfolders
-    Set Files = folder.Files    
-    For Each i In Files
-        Call ConvertFile(i.path)
-    Next    
-    For Each j In subfolders        
-        Call SearchDir(j.path)
-    Next
-End Function
-'-------------------------------------------------
-'函数名称:ConvertFile
-'作用:将一个文件进行编码转换
-'-------------------------------------------------
-Function ConvertFile(FileUrl)
-    Call WriteToFile(FileUrl, ReadFile(FileUrl, SrcCode), DestCode)
-End Function
-'-------------------------------------------------
-'函数名称:ReadFile
-'作用:利用AdoDb.Stream对象来读取各种格式的文本文件
-'-------------------------------------------------
-Function ReadFile(FileUrl, CharSet)
-    Dim Str
-    Set stm = CreateObject("Adodb.Stream")
-    stm.Type = 2
-    stm.mode = 3
-    stm.charset = CharSet
-    stm.Open
-    stm.loadfromfile FileUrl
-    Str = stm.readtext
-    stm.Close
-    Set stm = Nothing
-    ReadFile = Str
-End Function
-'-------------------------------------------------
-'函数名称:WriteToFile
-'作用:利用AdoDb.Stream对象来写入各种格式的文本文件
-'-------------------------------------------------
-Function WriteToFile (FileUrl, Str, CharSet)
-    Set stm = CreateObject("Adodb.Stream")
-    stm.Type = 2
-    stm.mode = 3
-    stm.charset = CharSet
-    stm.Open
-    stm.WriteText Str
-    stm.SaveToFile FileUrl, 2
-    stm.flush
-    stm.Close
-    Set stm = Nothing
-End FunctionView Code
 ```

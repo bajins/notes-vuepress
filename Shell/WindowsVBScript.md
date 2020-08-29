@@ -156,6 +156,15 @@ item = "HKCU\Software\Microsoft\Windows\CurrentVersion\Run\"
 shell.RegWrite item & keyName, WScript.ScriptFullName
 ```
 
+
+**Shell.Application**
+
+```vb
+CreateObject("Shell.Application").ShellExecute "demo.exe","","c:/","", 0
+```
+
+
+
 ### 查看进程是否存在
 
 ```vb

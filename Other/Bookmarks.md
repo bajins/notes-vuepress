@@ -143,6 +143,7 @@
 * [https://www.freeaihub.com](https://www.freeaihub.com)
 * [http://www.semlinker.com](http://www.semlinker.com)
 * [https://www.journaldev.com](https://www.journaldev.com)
+* 云海天教程，超详细的免费教程网站！ [https://www.yht7.com](https://www.yht7.com)
 
 
 
