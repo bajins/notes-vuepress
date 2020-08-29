@@ -58,8 +58,10 @@ chrome://flags/#enable-parallel-downloading
 
 ## 插件
 
-* [https://github.com/topics/chrome-extension?o=desc&s=stars](https://github.com/topics/chrome-extension?o=desc&s=stars)
-* [冻结暂时用不到的标签页](https://github.com/deanoemcke/thegreatsuspender)
+* [https://github.com/topics/crx]
+* [https://github.com/topics/chrome-extension](https://github.com/topics/chrome-extension)
+* 冻结暂时用不到的标签页 [https://github.com/deanoemcke/thegreatsuspender](https://github.com/deanoemcke/thegreatsuspender)
+
 
 
 ### 插件下载
@@ -119,25 +121,6 @@ chrome://flags/#enable-parallel-downloading
 * [https://github.com/jiacai2050/gooreplacer](https://github.com/jiacai2050/gooreplacer)
 
 
-### 视图
-
-* [视频转GIF：视频转gif](https://github.com/ColdDay/mp4ToGif)
-* [屏幕录制视频和截图工具：nimbus-screenshot-screen](https://nimbusweb.me/screenshot.php)
-* [屏幕录制视频：video-screen-recorder](https://chrome.google.com/webstore/detail/video-screen-recorder/ononjdlajdkflnocgjiihiipagglgpio)
-* [屏幕录制视频：screen-recorder](https://chrome.google.com/webstore/detail/screen-recorder/hniebljpgcogalllopnjokppmgbhaden)
-* [屏幕录制GIF和截图工具：chrome-capture](https://chrome.google.com/webstore/detail/chrome-capture/ggaabchcecdbomdcnbahdfddfikjmphe)
-* [屏幕录制GIF和截图工具：capture-to-a-gif](https://chrome.google.com/webstore/detail/capture-to-a-gif/eapecadlmfblmnfnojebefkbginhggeh)
-* [截取整个窗口添加一个macOS-ish标题栏：standardized-screenshot](https://chrome.google.com/webstore/detail/standardized-screenshot/pabdhaakclnechgfhmnhkcbmjobeoope)
-* [截取长图工具（整个网页）：full-page-screen-capture](https://gofullpage.com)
-* [一键视频下载器](https://chrome.google.com/webstore/detail/video-downloader-for-web/pgffceondpnmmmlbpmchkldadpclbcph)
-* [Video Downloader for Web](https://chrome.google.com/webstore/detail/video-downloader-for-web/pgffceondpnmmmlbpmchkldadpclbcph)
-* [终极视频下载器](https://chrome.google.com/webstore/detail/ultimate-video-downloader/ahbcaincngigokdjdlcjnfcdoonccngb)
-* [Video Downloader Plus](https://chrome.google.com/webstore/detail/web-video-downloader/adahebendgkgacfmpnmoddebbnfpfkcd)
-* [Video Downloader Pro](https://chrome.google.com/webstore/detail/video-downloader-pro/ccdikaeknpeokoejlpffihfmpfelakcg)
-* [Video Downloader professional](https://chrome.google.com/webstore/detail/video-downloader-professi/bacakpdjpomjaelpkpkabmedhkoongbi)
-
-
-
 
 ### 翻译
 
@@ -169,8 +152,26 @@ chrome://flags/#enable-parallel-downloading
 
 
 
+### 视图
 
-### other
+* 视频转GIF：视频转gif [https://github.com/ColdDay/mp4ToGif](https://github.com/ColdDay/mp4ToGif)
+* [屏幕录制视频和截图工具：nimbus-screenshot-screen](https://nimbusweb.me/screenshot.php)
+* [屏幕录制视频：video-screen-recorder](https://chrome.google.com/webstore/detail/video-screen-recorder/ononjdlajdkflnocgjiihiipagglgpio)
+* [屏幕录制视频：screen-recorder](https://chrome.google.com/webstore/detail/screen-recorder/hniebljpgcogalllopnjokppmgbhaden)
+* [屏幕录制GIF和截图工具：chrome-capture](https://chrome.google.com/webstore/detail/chrome-capture/ggaabchcecdbomdcnbahdfddfikjmphe)
+* [屏幕录制GIF和截图工具：capture-to-a-gif](https://chrome.google.com/webstore/detail/capture-to-a-gif/eapecadlmfblmnfnojebefkbginhggeh)
+* [截取整个窗口添加一个macOS-ish标题栏：standardized-screenshot](https://chrome.google.com/webstore/detail/standardized-screenshot/pabdhaakclnechgfhmnhkcbmjobeoope)
+* [截取长图工具（整个网页）：full-page-screen-capture](https://gofullpage.com)
+* [一键视频下载器](https://chrome.google.com/webstore/detail/video-downloader-for-web/pgffceondpnmmmlbpmchkldadpclbcph)
+* [Video Downloader for Web](https://chrome.google.com/webstore/detail/video-downloader-for-web/pgffceondpnmmmlbpmchkldadpclbcph)
+* [终极视频下载器](https://chrome.google.com/webstore/detail/ultimate-video-downloader/ahbcaincngigokdjdlcjnfcdoonccngb)
+* [Video Downloader Plus](https://chrome.google.com/webstore/detail/web-video-downloader/adahebendgkgacfmpnmoddebbnfpfkcd)
+* [Video Downloader Pro](https://chrome.google.com/webstore/detail/video-downloader-pro/ccdikaeknpeokoejlpffihfmpfelakcg)
+* [Video Downloader professional](https://chrome.google.com/webstore/detail/video-downloader-professi/bacakpdjpomjaelpkpkabmedhkoongbi)
+
+
+
+### Other
 
 * [脚本助手：tampermonkey](https://www.tampermonkey.net)
 * [脚本助手：violentmonkey](https://github.com/violentmonkey/violentmonkey)

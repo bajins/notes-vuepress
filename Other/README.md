@@ -151,6 +151,7 @@
 
 ## 临时邮箱
 
++ [https://smailpro.com](https://smailpro.com)
 
 * [https://shorttimemail.com/zh-Hans](https://shorttimemail.com/zh-Hans)
 * [http://mail.bccto.me](http://mail.bccto.me)
