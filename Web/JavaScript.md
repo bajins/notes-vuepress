@@ -11,11 +11,6 @@
 
 * ECMAScript支持度检测 [https://github.com/ruanyf/es-checker](https://github.com/ruanyf/es-checker)
 * [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese)
-* [https://github.com/requirejs](https://github.com/requirejs)
-* [https://github.com/amdjs](https://github.com/amdjs)
-* [https://github.com/cmdjs](https://github.com/cmdjs)
-* [https://github.com/seajs](https://github.com/seajs)
-* 异步编程的反应式扩展rxjs [https://github.com/ReactiveX](https://github.com/ReactiveX)
 
 + [https://github.com/topics/validation](https://github.com/topics/validation)
 + [https://github.com/topics/validator](https://github.com/topics/validator)
@@ -35,15 +30,27 @@
     * [https://wangdoc.com/javascript](https://wangdoc.com/javascript)
 * [https://github.com/ruanyf/jstutorial](https://github.com/ruanyf/jstutorial)
     * [http://javascript.ruanyifeng.com](http://javascript.ruanyifeng.com)
-* ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
-* [浏览器脚本教程](https://www.w3school.com.cn/b.asp)
-* [参考手册](https://www.w3school.com.cn/r.asp)
+* 浏览器脚本教程 [https://www.w3school.com.cn/b.asp](https://www.w3school.com.cn/b.asp)
+* 参考手册 [https://www.w3school.com.cn/r.asp](https://www.w3school.com.cn/r.asp)
 * [ECMAscript和Javascript的区别](https://www.jianshu.com/p/10cfcb536d4a)
 * [es6支持情况](https://kangax.github.io/compat-table/es6)
 * [检查JavaScript文件中的ES版本](https://github.com/dollarshaveclub/es-check)
 * [文档对象模型 (DOM)](https://developer.mozilla.org/zh-CN/docs/Glossary/DOM)
 * [JavaScript HTML DOM](https://www.w3school.com.cn/js/js_htmldom_document.asp)
 
+
+- 异步编程的反应式扩展rxjs [https://github.com/ReactiveX](https://github.com/ReactiveX)
+- 用于浏览器环境规范
+    - [https://github.com/amdjs](https://github.com/amdjs)
+        - [https://github.com/requirejs](https://github.com/requirejs)
+        - [RequireJS和AMD规范 -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/tool/requirejs.html)
+    - [https://github.com/cmdjs](https://github.com/cmdjs)
+    - [https://github.com/seajs](https://github.com/seajs)
+    - ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
+- 用于Node环境规范
+    - [http://www.commonjs.org](http://www.commonjs.org)
+    - [CommonJS规范 -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/nodejs/module.html)
+- [理解CommonJs、AMD、CMD、ES6模块](https://www.jianshu.com/p/67ce52c93392)
 
 
 **ECMAScript6**
@@ -57,6 +64,15 @@
 
 ```html
 <script type="module" src="/static/js/index.js"></script>
+```
+
+```js
+// ECMAScript Import
+import * as util from 'utils';
+import { util, test } from 'utils';
+
+// CommonJS Require
+const util = require('utils');
 ```
 
 - 在module中绑定事件

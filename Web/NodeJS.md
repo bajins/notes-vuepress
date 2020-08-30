@@ -28,6 +28,7 @@
     * [https://github.com/nwjs/nw.js](https://github.com/nwjs/nw.js)
     * [https://github.com/lxp135/NW.jsCnDocs](https://github.com/lxp135/NW.jsCnDocs)
 * [https://github.com/Kagami/mpv.js](https://github.com/Kagami/mpv.js)
+* 将 Node.js 项目打包到可执行文件中 [https://github.com/vercel/pkg](https://github.com/vercel/pkg)
 
 
 
@@ -269,6 +270,8 @@ request({
 * [https://github.com/puppeteer](https://github.com/puppeteer)
 * [Puppeteer配置小记](https://www.itfanr.cc/2019/04/10/configuration-development-of-puppeteer)
 * [https://github.com/microsoft/playwright](https://github.com/microsoft/playwright)
+* 一个基于webkit的JavaScript API [https://github.com/ariya/phantomjs](https://github.com/ariya/phantomjs)
+    * [PhantomJS -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/tool/phantomjs.html)
 
 **[xpath和css选择器](/Python/Python爬虫.md#xpath和css选择器)**
 **[`chromedriver`](/Python/Python爬虫.md#chromedriver)**

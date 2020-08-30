@@ -16,7 +16,7 @@
 
 - IOS第三方依赖管理工具 [https://cocoapods.org](https://cocoapods.org)
 
-### 框架
+### IOS框架
 
 * [https://github.com/tbl00c/ZZFLEX](https://github.com/tbl00c/ZZFLEX)
 * [https://github.com/marcuswestin/WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge)
@@ -141,7 +141,7 @@
     * [https://github.com/kivy/python-for-android](https://github.com/kivy/python-for-android)
     * [https://github.com/safaiyeh/react-native-app-review](https://github.com/safaiyeh/react-native-app-review)
     * [https://github.com/rnkit/rnkit-in-app-update](https://github.com/rnkit/rnkit-in-app-update)
-* [https://github.com/topics/playstore]
+* [https://github.com/topics/playstore](https://github.com/topics/playstore)
     * [https://github.com/asmsh/go-playstore-scraper](https://github.com/asmsh/go-playstore-scraper)
     * [https://github.com/ClaudiuGeorgiu/PlaystoreDownloader](https://github.com/ClaudiuGeorgiu/PlaystoreDownloader)
     * [https://github.com/aniketkatkar/GPlay-App-AutoInstaller](https://github.com/aniketkatkar/GPlay-App-AutoInstaller)

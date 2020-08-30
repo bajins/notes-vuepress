@@ -282,6 +282,8 @@
 * Kmplayer
 * VLC [https://www.videolan.org](https://www.videolan.org)
 
+- [https://github.com/soimort/you-get](https://github.com/soimort/you-get)
+
 
 **Potplayer**
 
@@ -393,6 +395,11 @@
 
 ## 程序打包
 
++ [https://github.com/topics/installer](https://github.com/topics/installer)
+* [https://github.com/topics/packager](https://github.com/topics/packager)
++ [https://github.com/topics/msi](https://github.com/topics/msi)
++ [https://github.com/topics/exe](https://github.com/topics/exe)
+
 * [单文件制作程序byJexChan](http://blog.sina.com.cn/s/blog_6fd804fe0102wwwf.html)
     * JexChan工具 [https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g](https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g) 提取码s1dk
 * [单文件程序制作一键通by:杏雨梨云](https://www.xyboot.com/portableapp_onekey_ok_3in1)
@@ -415,12 +422,18 @@
 
 ### NSIS
 
++ [https://github.com/topics/nsis](https://github.com/topics/nsis)
+
 * [https://sourceforge.net/projects/nsis](https://sourceforge.net/projects/nsis)
-* [https://nsis.sourceforge.io/Category:Plugins](https://nsis.sourceforge.io/Category:Plugins)
-* [NSIS中文论坛](http://www.nsisfans.com)
+    * [https://nsis.sourceforge.io/Category:Plugins](https://nsis.sourceforge.io/Category:Plugins)
+    * [https://github.com/NSIS-Dev](https://github.com/NSIS-Dev)
+    * NSIS中文论坛 [http://www.nsisfans.com](http://www.nsisfans.com)
 * [https://sourceforge.net/projects/hmne](https://sourceforge.net/projects/hmne)
-* [http://hmne.sourceforge.net](http://hmne.sourceforge.net)
-* 基于NSIS工具自定义XML漂亮UI打包工具：[https://github.com/woytu/NSIS_SetupSkin](https://github.com/woytu/NSIS_SetupSkin)
+    * [http://hmne.sourceforge.net](http://hmne.sourceforge.net)
+* 基于NSIS工具自定义XML漂亮UI打包工具 [https://github.com/woytu/NSIS_SetupSkin](https://github.com/woytu/NSIS_SetupSkin)
+
+- 内置NSIS命令自动完成 [https://github.com/idleberg/sublime-nsis](https://github.com/idleberg/sublime-nsis)
+
 
 
 ### 自解压

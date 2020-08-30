@@ -311,6 +311,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [utf8+bom编码格式 java 文件 转换为 utf8 格式文件](https://github.com/andotorg/utf8bom-to-utf8)
 * [从GBK到UTF8的某些路径中的文件编码转换](https://github.com/downgoon/gbk2utf8)
 * 类路径扫描器和模块扫描器 [https://github.com/classgraph](https://github.com/classgraph)
+* Java 应用程序打包 [https://github.com/fvarrui/JavaPackager](https://github.com/fvarrui/JavaPackager)
+
 
 - [https://github.com/topics/mapping](https://github.com/topics/mapping)
 - [https://github.com/topics/bean-mapping](https://github.com/topics/bean-mapping)
