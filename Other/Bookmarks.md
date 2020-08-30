@@ -14,6 +14,9 @@
 * [https://sourceforge.net](https://sourceforge.net)
 
 
++ [https://github.com/sindresorhus/awesome](https://github.com/sindresorhus/awesome)
+
+
 **开源组织**
 
 * 免费学习编码 [https://github.com/freeCodeCamp](https://github.com/freeCodeCamp)
@@ -109,7 +112,8 @@
 + [https://github.com/royeo/awesome-programming-books](https://github.com/royeo/awesome-programming-books)
 + [https://github.com/justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)
 
-* 书栈网（极力推荐） [https://www.bookstack.cn](https://www.bookstack.cn)
+* 书栈网（极力推荐） [https://github.com/TruthHun/BookStack](https://github.com/TruthHun/BookStack)
+    * [https://www.bookstack.cn](https://www.bookstack.cn)
 * 码农之家（计算机电子书下载） [http://www.xz577.com](http://www.xz577.com)
 * 鸠摩搜书 [http://www.jiumodiary.com](http://www.jiumodiary.com)
 * 云海电子图书馆 [http://www.pdfbook.cn](http://www.pdfbook.cn)
@@ -144,6 +148,8 @@
 * [http://www.semlinker.com](http://www.semlinker.com)
 * [https://www.journaldev.com](https://www.journaldev.com)
 * 云海天教程，超详细的免费教程网站！ [https://www.yht7.com](https://www.yht7.com)
+* 广场· 看云 [https://www.kancloud.cn/explore](https://www.kancloud.cn/explore)
+* 印记中文 -前端开发文档 [https://docschina.org](https://docschina.org)
 
 
 

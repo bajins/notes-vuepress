@@ -85,18 +85,35 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 ```
 
 
-## 第三方依赖库
+## 框架
 
 * [https://github.com/topics/jquery](https://github.com/topics/jquery)
 * [https://github.com/topics/jquery-plugin](https://github.com/topics/jquery-plugin)
 * [https://github.com/jquery](https://github.com/jquery)
-    * [https://plugins.jquery.com](https://plugins.jquery.com)
-    * 添加XHR2 responseType支持的jQuery插件 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
-    * [https://github.com/tonytomov/jqGrid](https://github.com/tonytomov/jqGrid)
-    * [https://github.com/topics/jquery-validation](https://github.com/topics/jquery-validation)
-        * [https://github.com/jquery-validation](https://github.com/jquery-validation)
-            * [https://www.runoob.com/jquery/jquery-plugin-validate.html](https://www.runoob.com/jquery/jquery-plugin-validate.html)
-    * [https://github.com/DataTables/DataTables](https://github.com/DataTables/DataTables)
+* [https://github.com/facebook/react](https://github.com/facebook/react)
+    * [https://reactnative.cn](https://reactnative.cn)
+    * [https://github.com/vercel/next.js](https://github.com/vercel/next.js)
+        * [https://www.nextjs.cn](https://www.nextjs.cn/)
+* [https://github.com/angular/angular](https://github.com/angular/angular)
+    * [https://angular.cn](https://angular.cn)
+* [https://github.com/zdhxiong/mdui](https://github.com/zdhxiong/mdui)
+* [https://github.com/baidu/amis](https://github.com/baidu/amis)
+* [https://github.com/alienzhou/web-highlighter](https://github.com/alienzhou/web-highlighter)
+* [https://github.com/josdejong/mathjs](https://github.com/josdejong/mathjs)
+* 单页网站 [https://github.com/alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js)
+
+
+
+## 第三方依赖库
+
+
+* [https://plugins.jquery.com](https://plugins.jquery.com)
+* 添加XHR2 responseType支持的jQuery插件 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
+* [https://github.com/tonytomov/jqGrid](https://github.com/tonytomov/jqGrid)
+* [https://github.com/topics/jquery-validation](https://github.com/topics/jquery-validation)
+    * [https://github.com/jquery-validation](https://github.com/jquery-validation)
+        * [https://www.runoob.com/jquery/jquery-plugin-validate.html](https://www.runoob.com/jquery/jquery-plugin-validate.html)
+* [https://github.com/DataTables/DataTables](https://github.com/DataTables/DataTables)
 * 日期处理类库 [https://github.com/moment/moment](https://github.com/moment/moment)
     * [http://momentjs.cn](http://momentjs.cn)
 * [https://github.com/matthewhudson/current-device](https://github.com/matthewhudson/current-device)
@@ -136,20 +153,6 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * [TableExport](https://github.com/clarketm/TableExport)
 * [tableExport.jquery.plugin](https://github.com/hhurz/tableExport.jquery.plugin)
 * [excellentexport](https://github.com/jmaister/excellentexport)
-
-
-
-**WEB开发**
-
-* [https://github.com/facebook/react](https://github.com/facebook/react)
-    * [https://reactnative.cn](https://reactnative.cn)
-* [https://github.com/angular/angular](https://github.com/angular/angular)
-    * [https://angular.cn](https://angular.cn)
-* [https://github.com/zdhxiong/mdui](https://github.com/zdhxiong/mdui)
-* [https://github.com/baidu/amis](https://github.com/baidu/amis)
-* [https://github.com/alienzhou/web-highlighter](https://github.com/alienzhou/web-highlighter)
-* [https://github.com/josdejong/mathjs](https://github.com/josdejong/mathjs)
-* 单页网站 [https://github.com/alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js)
 
 
 

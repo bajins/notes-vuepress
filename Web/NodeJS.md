@@ -17,9 +17,14 @@
 
 * [https://github.com/stylus](https://github.com/stylus)
 
+- [https://github.com/webpack/webpack](https://github.com/webpack/webpack)
+    - [https://webpack.js.org](https://webpack.js.org)
+    - [https://www.webpackjs.com](https://www.webpackjs.com)
 
 
 ## 原生应用开发
+
+> 在3大主流渲染引擎里，webview、react native/weex、flutter，复杂度依次降低，渲染性能依次上升。
 
 * [https://github.com/topics/electron](https://github.com/topics/electron)
     * [https://github.com/electron/electron](https://github.com/electron/electron)
@@ -285,7 +290,7 @@ request({
 
 + [https://github.com/topics/vue](https://github.com/topics/vue)
 
-* [https://github.com/vuejs/vue](https://github.com/vuejs/vue)
+* [https://github.com/vuejs](https://github.com/vuejs)
     * [https://cn.vuejs.org](https://cn.vuejs.org)
 * [vue学习笔记](https://www.rumosky.wiki/docs/vue_learning_process)
 
@@ -342,3 +347,71 @@ const resolveRequire = (path) => {
 }
 ```
 
+
+
+
+
+## 小程序
+
+* [https://github.com/search?o=desc&q=weapp&s=updated&type=Repositories](https://github.com/search?o=desc&q=weapp&s=updated&type=Repositories)
+* [微信小程序开发资源汇总](https://github.com/justjavac/awesome-wechat-weapp)
+* [https://github.com/qiushi123/xiaochengxu_demos](https://github.com/qiushi123/xiaochengxu_demos)
+
+- 使用Golang开发的微信SDK: [https://github.com/silenceper/wechat](https://github.com/silenceper/wechat)
+
+
+**框架**
+
+* [https://github.com/dcloudio/uni-app](https://github.com/dcloudio/uni-app)
+* [https://github.com/NervJS/taro](https://github.com/NervJS/taro)
+    * [https://taro.aotu.io](https://taro.aotu.io)
+* [https://github.com/tinajs/tina](https://github.com/tinajs/tina)
+* [https://github.com/didi/chameleon](https://github.com/didi/chameleon)
+* [https://github.com/didi/mpx](https://github.com/didi/mpx)
+* [https://github.com/kaola-fed/megalo](https://github.com/kaola-fed/megalo)
+* [https://github.com/Tencent/wepy](https://github.com/Tencent/wepy)
+* [https://github.com/Meituan-Dianping/mpvue](https://github.com/Meituan-Dianping/mpvue)
+
+
+**Other**
+
+* [https://gitee.com/laeser/demo-weapp](https://gitee.com/laeser/demo-weapp)
+* [小程序海报组件-生成朋友圈分享海报并生成图片](https://github.com/jasondu/wxa-plugin-canvas)
+* [微信小程序Markdown渲染库](https://github.com/TooBug/wemark)
+* [手持弹幕微信小程序版](https://github.com/redblue9771/minibarrage)
+* [https://github.com/super456/weapp_expressTime](https://github.com/super456/weapp_expressTime)
+
+
+
+### 自定义组件
+
+* [https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component](https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component)
+
+
+
+**组件库**
+
+* [https://github.com/youzan/vant-weapp](https://github.com/youzan/vant-weapp)
+* [https://github.com/jisida/VtuWeapp](https://github.com/jisida/VtuWeapp)
+* [https://github.com/wux-weapp/wux-weapp](https://github.com/wux-weapp/wux-weapp)
+* [https://github.com/Tencent/weui](https://github.com/Tencent/weui)
+* [https://github.com/weilanwl/ColorUI](https://github.com/weilanwl/ColorUI)
+
+
+**日历**
+
+* [https://github.com/treadpit/wx_calendar](https://github.com/treadpit/wx_calendar)
+
+
+**授权**
+
+* [https://github.com/misterxu1567/wxMiniProgram-components](https://github.com/misterxu1567/wxMiniProgram-components)
+* [https://github.com/GRW999/auth-component](https://github.com/GRW999/auth-component)
+* [https://github.com/yeyi361936738/mini-login-component](https://github.com/yeyi361936738/mini-login-component)
+* [https://github.com/Skura23/authModal](https://github.com/Skura23/authModal)
+
+
+**搜索**
+
+* [https://github.com/fancaixia/SearchBar](https://github.com/fancaixia/SearchBar)
+* [https://github.com/mindawei/wsSearchView](https://github.com/mindawei/wsSearchView)
