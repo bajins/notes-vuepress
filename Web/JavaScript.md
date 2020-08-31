@@ -91,7 +91,6 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * [https://github.com/topics/jquery-plugin](https://github.com/topics/jquery-plugin)
 * [https://github.com/jquery](https://github.com/jquery)
 * [https://github.com/facebook/react](https://github.com/facebook/react)
-    * [https://reactnative.cn](https://reactnative.cn)
     * [https://github.com/vercel/next.js](https://github.com/vercel/next.js)
         * [https://www.nextjs.cn](https://www.nextjs.cn/)
 * [https://github.com/angular/angular](https://github.com/angular/angular)
