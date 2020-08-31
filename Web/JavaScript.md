@@ -22,7 +22,7 @@
 
 
 
-**手册**
+## 手册
 
 > `HTML`网页中，浏览器通过`script`标签加载脚本的默认语言是`JavaScript`，因此`type="application/javascript"`可以省略。
 

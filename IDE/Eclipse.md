@@ -17,29 +17,14 @@
 - `Windows` -> `Show View` -> `Other` -> 搜索 `Package Exploer`
 
 
+**WebStorm保存后Eclipse自动同步到Tomcat**
 
-## 版本对应关系
+- `File` -> `Settings` -> `Build, Execution, Deployment` -> `Deployment`
+   - 右侧点击`+`号 -> 点击`Local or mounted floder` -> 输入自定义名称 -> `Floder` 选择Eclipse配置的Tomcat部署的当前项目路径
+   - 点击`Mappings`选项卡 -> `Deployment path` 配置部署路径（相对`Floder`的路径） -> 点击`OK`保存
+   - 点击顶部菜单栏 `Tools` -> `Deployment` -> 选择 `Automatic Upload(always)` 自动构建
 
-* [http://www.eclipse.org/downloads/packages](http://www.eclipse.org/downloads/packages)
-* [https://zh.wikipedia.org/wiki/Eclipse](https://zh.wikipedia.org/wiki/Eclipse)
-
-
-| 版本代号 	| 版本 	| 主要发行日期 	| SR1发行日期   	| SR2发行日期    	| N/A           	| JDK最低版本 	|
-|----------	|----------	|------------------	|---------------	|----------------	|---------------	|-------------------	|
-| Callisto 	| 3.2      	| 2006年6月26日    	| N/A           	| N/A            	| N/A           	| JDK1.4            	|
-| Europa   	| 3.3      	| 2007年6月27日    	| 2007年9月28日 	| 2008年2月29日  	| N/A           	| JDK1.5            	|
-| Ganymede 	| 3.4      	| 2008年6月25日    	| 2008年9月24日 	| 2009年2月25日  	| N/A           	| JDK1.5            	|
-| Galileo  	| 3.5      	| 2009年6月24日    	| 2009年9月25日 	| 2010年2月26日  	| N/A           	| JDK1.5            	|
-| Helios   	| 3.6      	| 2010年6月23日    	| 2010年9月24日 	| 2011年2月25日  	| N/A           	| JDK1.5            	|
-| Indigo   	| 3.7      	| 2011年6月22日    	| 2011年9月23日 	| 2012年2月24日  	| N/A           	| JDK1.5            	|
-| Juno     	| 3.8及4.2 	| 2012年6月27日    	| 2012年9月28日 	| 2013年3月1日   	| N/A           	| JDK1.5            	|
-| Kepler   	| 4.3      	| 2013年6月26日    	| 2013年9月27日 	| 2014年2月28日  	| N/A           	| JDK1.6            	|
-| Luna     	| 4.4      	| 2014年6月25日    	| 2014年9月25日 	| 2015年2月27日  	| N/A           	| JDK1.6            	|
-| Mars     	| 4.5      	| 2015年6月24日    	| 2015年9月22日 	| 2016年2月24日  	| N/A           	| JDK1.7            	|
-| 版本代号 	| 版本 	| 主要发行日期 	| 9月份 (*.1)   	| 12月份 (*.2)   	| 3月份 (*.3)   	| JDK最低版本 	|
-| Neon     	| 4.6      	| 2016年6月22日    	| 2016年9月28日 	| 2016年12月21日 	| 2017年3月23日 	| JDK1.8            	|
-| Oxygen   	| 4.7      	| 2017年6月28日    	| 2017年9月27日 	| 2017年12月20日 	| 2018年3月21日 	| JDK1.8      	|
-| Photon   	| 4.8      	| 2018年6月27日    	| 2018年9月     	| 2018年12月     	| 2019年3月     	| JDK1.8      	|
+> 其实原理很简单：就是在保存源码文件的同时，实时更新的时候跳过Eclipse，直接更新到tomcat部署的当前项目目录
 
 
 ## 安装Java EE开发插件
@@ -272,11 +257,8 @@ ${type_declaration}
 ## 设置编码格式
 
 - 设置工作空间编码 `Window` -> `Preferences` -> `General` -> `Workspace` -> `Text file encoding` -> `Other`选择`UTF-8`
-
 - 设置文档编码 `Window` -> `Preferences` -> `General` -> `Content Type` -> `Text` -> `Default encoding`填入`UTF-8`
-
 - 设置Web编码 `Window` -> `Preferences` -> `Web` -> `CSS Files、HTML Files、JSP Files` -> `Encoding`选择`ISO 10646/Unicode(UTF-8)`
-
 - 设置项目的文档编码：选中项目右键 -> `Properties` -> `Resource` -> `Other`选择`UTF-8`
 
 
@@ -284,14 +266,12 @@ ${type_declaration}
 ## 设置Tab为空格
 
 - `Window` -> `Preferences` -> `General` -> `Editors` -> `Text Editors` -> 勾选 `Insert spaces for tabs`
-
 - `Window` -> `Preference` -> `Java` -> `Code Style` -> `Formatter` -> `Edit` -> `Indentation` -> `Tab policy` 选择 `Spaces only`
 
 
 ## 快捷键设置
 
 - `Window` -> `Preference` -> `General` -> `Keys`
-
 - 设置复制一行 搜索`Ctrl+Alt+Down`或者`Copy Lines`即可修改
 
 
