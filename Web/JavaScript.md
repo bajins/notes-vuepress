@@ -20,6 +20,8 @@
 * [js中keyup-keypress-keydown以及oninput四个事件](https://blog.csdn.net/FGstudy/article/details/101854125)
 * [keydown,keypress,keyup三者之间的区别](https://blog.csdn.net/qq_26102281/article/details/83785085)
 
+- [https://github.com/jsdoc](https://github.com/jsdoc)
+- [https://github.com/apidoc](https://github.com/apidoc)
 
 
 ## 手册
