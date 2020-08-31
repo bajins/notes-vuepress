@@ -353,8 +353,16 @@ const resolveRequire = (path) => {
 
 ## 小程序
 
-* [https://github.com/search?o=desc&q=weapp&s=updated&type=Repositories](https://github.com/search?o=desc&q=weapp&s=updated&type=Repositories)
-* [微信小程序开发资源汇总](https://github.com/justjavac/awesome-wechat-weapp)
++ [https://github.com/search?q=weapp](https://github.com/search?q=weapp)
++ [https://github.com/topics/wxapp](https://github.com/topics/wxapp)
++ [https://github.com/topics/weapp](https://github.com/topics/weapp)
++ [https://github.com/topics/wechat](https://github.com/topics/wechat)
++ [https://github.com/topics/minapp](https://github.com/topics/minapp)
++ [https://github.com/topics/wechat-app](https://github.com/topics/wechat-app)
++ [https://github.com/topics/wechat-mini-program](https://github.com/topics/wechat-mini-program)
++ [https://github.com/topics/weixin](https://github.com/topics/weixin)
+
+* [https://github.com/justjavac/awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp)
 * [https://github.com/qiushi123/xiaochengxu_demos](https://github.com/qiushi123/xiaochengxu_demos)
 
 - 使用Golang开发的微信SDK: [https://github.com/silenceper/wechat](https://github.com/silenceper/wechat)
