@@ -12,6 +12,15 @@
 * [Eclipse的Debug各种视图介绍](https://www.cnblogs.com/ZeGod/p/10114049.html)
 
 
+**Clean Up、Format、Clean**
+
+- 顶部菜单 -> `Source` -> `Clean Up` 针对代码的内容进行整理，比如去除无用代码或者引用包。
+- 顶部菜单 -> `Source` -> `Organize Imports` 去除单个类中无用的引用包信息<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd>
+- 顶部菜单 -> `Source` -> `Format` 对代码的格式进行整理，比如设置了`Table`为4个空格，那么将会转换。
+- 顶部菜单 -> `Project` -> `Clean` 根据当前项目情况更新`.classpath`文件的内容，强制检查已安装插件，清除编译信息，重新部署项目。
+- `Servers` -> `Clean` 移除部署应用后清理工程残留文件，如果是手动设置的启动工程路径，也会清理，默认Eclipse部署清理。
+
+
 **项目显示结构**
 
 - `Windows` -> `Show View` -> `Other` -> 搜索 `Package Exploer`

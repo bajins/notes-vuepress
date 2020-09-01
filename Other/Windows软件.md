@@ -493,6 +493,15 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 ## 系统相关
 
+* [在Windows 10 10586版本手动挂载WIM文件以修复DISM源的方法](https://answers.microsoft.com/zh-hans/windows/forum/windows_10-performance/windows-10/7d43c552-e005-40ac-bde7-9f1a9029573a)
+
+- 检查映像是否完整：`DISM.exe /Online /Cleanup-image /Scanhealth`
+- 完成后再修复映像：`DISM.exe /Online /Cleanup-image /Checkhealth`
+- 然后再修复系统：`DISM.exe /Online /Cleanup-image /Restorehealth `
+- 最后检查系统是否修复：`sfc /scannow`
+- `Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase`
+
+
 ### MSDN
 
 * [https://www.microsoft.com/zh-cn/software-download/windows10](https://www.microsoft.com/zh-cn/software-download/windows10)
