@@ -17,14 +17,14 @@
 - `Windows` -> `Show View` -> `Other` -> 搜索 `Package Exploer`
 
 
-**WebStorm保存后Eclipse自动同步到Tomcat**
+**WebStorm保存后跳过Eclipse自动同步到Tomcat**
 
 - `File` -> `Settings` -> `Build, Execution, Deployment` -> `Deployment`
    - 右侧点击`+`号 -> 点击`Local or mounted floder` -> 输入自定义名称 -> `Floder` 选择Eclipse配置的Tomcat部署的当前项目路径
    - 点击`Mappings`选项卡 -> `Deployment path` 配置部署路径（相对`Floder`的路径） -> 点击`OK`保存
    - 点击顶部菜单栏 `Tools` -> `Deployment` -> 选择 `Automatic Upload(always)` 自动构建
 
-> 其实原理很简单：就是在保存源码文件的同时，实时更新的时候跳过Eclipse，直接更新到tomcat部署的当前项目目录
+> 其实原理很简单：就是在保存源码文件的同时，实时编译构建同步的时候跳过Eclipse，直接同步到Tomcat部署的当前项目目录
 
 
 ## 安装Java EE开发插件
