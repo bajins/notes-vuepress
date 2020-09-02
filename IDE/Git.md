@@ -19,13 +19,6 @@
 * [reposurgeon是一种工具,用于编辑版本控制存储库的历史](http://www.catb.org/esr/reposurgeon)
 * [https://github.com/gitextensions/gitextensions](https://github.com/gitextensions/gitextensions)
 
-- [https://github.com/apache/subversion](https://github.com/apache/subversion)
-- [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
-  - [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
-  - [https://tortoisegit.org/download](https://tortoisegit.org/download)
-- [https://github.com/jenkinsci/subversion-plugin](https://github.com/jenkinsci/subversion-plugin)
-- [https://github.com/subclipse](https://github.com/subclipse)
-
 + [常用命令 · git笔记 · 看云](https://www.kancloud.cn/leviio/git/330946)
 + [Git 常用命令及使用详解 - 喵斯基部落](https://www.moewah.com/archives/2292.html)
 + Pro Git 中文版（第二版）: [https://progit.bootcss.com](https://progit.bootcss.com)
@@ -37,6 +30,44 @@
 - [git-pull.bat](/files/git-pull.bat)
 - [git-pull.sh](/files/git-pull.sh)
 
+
+**SVN**
+
+- [https://github.com/apache/subversion](https://github.com/apache/subversion)
+- [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
+  - [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
+  - [https://tortoisegit.org/download](https://tortoisegit.org/download)
+- [https://github.com/jenkinsci/subversion-plugin](https://github.com/jenkinsci/subversion-plugin)
+- [https://github.com/subclipse](https://github.com/subclipse)
+
+
+
+**commit提交规范**
+
+* [linking-a-pull-request-to-an-issue-using-a-keyword](https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword)
+* [angular.js-git-commit-guidelines](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines)
+* [AngularJS Git Commit Message Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y)
+* [关于git提交规范](https://www.jianshu.com/p/6eafeb9b1edb)
+* [git commit 提交规范](https://github.com/woai3c/Front-end-articles/blob/master/git%20commit%20style.md)
+* [https://github.com/commitizen](https://github.com/commitizen)
+
+- bugfix/fix/fixed: 表示修复 bug
+- feature: 表示增加新功能 
+- add: 表示增加类、文件、代码块等
+- delete/del: 表示删除类、文件、代码块等
+- update: 表示对代码块、功能的更新
+- refactor: 表示对代码块、功能重构（即不是新增功能，也不是修改bug的代码变动）
+- arch: 表示输出中间版本，用于测试等
+- release to v1.0.0: 表示打包输出的版本号
+- test：增加测试
+- chore：构建过程或辅助工具的变动
+
+* mod 修改
+* changed ( 完成的任务 )
+* rem:移除（Remove,移除功能）
+* feat：新功能（feature）
+* docs：文档（documentation）
+* style：格式（不影响代码运行的变动）
 
 
 
@@ -283,33 +314,16 @@ git log --format='%aN' | sort -u | while read name; do echo -en "$name\t"; git l
   removed lines: %s, total lines: %s\n", add, subs, loc }' -; done
 ```
 
-- 查看仓库提交者排名前五
-
 ```bash
+# 查看仓库提交者排名前五
 git log --pretty='%aN' | sort | uniq -c | sort -k1 -n -r | head -n 5
-```
-
-- 贡献值统计
-
-```bash
+# 贡献值统计
 git log --pretty='%aN' | sort -u | wc -l
-```
-
-- 提交数统计
-
-```bash
+# 提交数统计
 git log --oneline | wc -l
-```
-
-- 添加或修改的代码行数
-
-```bash
+# 添加或修改的代码行数
 git log --stat|perl -ne 'END { print $c } $c += $1 if /(\d+) insertions/'
-```
-
-- 比较远端和本地分支
-
-```bash
+# 比较远端和本地分支
 git diff master origin/master
 ```
 
@@ -489,165 +503,3 @@ git config --global --unset http.proxy
 ```
 
 
-
-
-## Git服务器
-
-* [https://github.com/gitblit/gitblit](https://github.com/gitblit/gitblit)
-
-**Gogs**
-
-* [https://github.com/gogs/gogs](https://github.com/gogs/gogs)
-  * [Gogs官方文档](https://gogs.io)
-* [Gogs-DockerHub](https://hub.docker.com/r/gogs/gogs)
-* [安装教程](https://www.jianshu.com/p/86c385682ac8)
-
-
-**Gitea**
-
-* [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea)
-  * [Gitea官方文档](https://gitea.io/zh-cn)
-* [Gitea-DockerHub](https://hub.docker.com/r/gitea/gitea)
-
-
-**GitLab**
-
-* [https://gitlab.com/xhang/gitlab/wikis/home](https://gitlab.com/xhang/gitlab/wikis/home)
-* [GitLab Community Edition (中文社区版)](https://github.com/twang2218/gitlab-ce-zh)
-[汉化的 GitLab 社区版 Docker Image](https://hub.docker.com/r/twang2218/gitlab-ce-zh)
-* [https://hub.docker.com/r/bensonfx/gitlab-ce-zh](https://hub.docker.com/r/bensonfx/gitlab-ce-zh)
-* [https://github.com/bensonfx/codeserver](https://github.com/bensonfx/codeserver)
-* [https://hub.docker.com/r/benyoo/gitlab](https://hub.docker.com/r/benyoo/gitlab)
-* [https://hub.docker.com/r/imleafz/gitlab-ce-zh](https://hub.docker.com/r/imleafz/gitlab-ce-zh)
-
-```bash
-version: '2'
-services:
-    gitlab:
-      image: 'twang2218/gitlab-ce-zh:11.1.4'
-      restart: unless-stopped
-      hostname: 'git.woetu.com'
-      environment:
-        TZ: 'Asia/Shanghai'
-        GITLAB_OMNIBUS_CONFIG: |
-          external_url 'http://git.woetu.com'
-          gitlab_rails['time_zone'] = 'Asia/Shanghai'
-          # 需要配置到 gitlab.rb 中的配置可以在这里配置，每个配置一行，注意缩进。
-          # 比如下面的电子邮件的配置：
-          # gitlab_rails['smtp_enable'] = true
-          # gitlab_rails['smtp_address'] = "smtp.exmail.qq.com"
-          # gitlab_rails['smtp_port'] = 465
-          # gitlab_rails['smtp_user_name'] = "xxxx@xx.com"
-          # gitlab_rails['smtp_password'] = "password"
-          # gitlab_rails['smtp_authentication'] = "login"
-          # gitlab_rails['smtp_enable_starttls_auto'] = true
-          # gitlab_rails['smtp_tls'] = true
-          # gitlab_rails['gitlab_email_from'] = 'xxxx@xx.com'
-      ports:
-        - '8099:80'
-        - '442:443'
-        - '22:22'
-      volumes:
-        # - /home/gitlab/config:/home/gitlab/config
-        # - /home/gitlab/data:/home/gitlab/data
-        # - /home/gitlab/logs:/home/gitlab/logs
-        - config:/etc/gitlab
-        - data:/var/opt/gitlab
-        - logs:/var/log/gitlab
-volumes:
-    config:
-    data:
-    logs:
-```
-
-
-
-## GitHub
-
-* [https://github.com/probot/probot](https://github.com/probot/probot)
-* [https://help.github.com/cn](https://help.github.com/cn)
-* 发布成功之后`github pages`的`Custom domain`配置项就被清空：[github-pages-basics](http://wiki.jikexueyuan.com/project/github-pages-basics/cname-file.html)
-* [https://codecov.io](https://codecov.io)
-* [目录 - P3TERX ZONE](https://p3terx.com/archives.html)
-
-
-### 访问速度过慢
-
-* [https://myssl.com/dns_check.html](https://myssl.com/dns_check.html)
-* [http://tool.chinaz.com/dns](http://tool.chinaz.com/dns)
-* [https://www.ipaddress.com](https://www.ipaddress.com)
-* [Windows设置GitHub的Hosts脚本](/files/设置GitHub的Hosts.bat)
-
-
-<details>
-<summary><b>展开查看刷新DNS缓存</b></summary>
-
-- macOS
-
-```bash
-killall -HUP mDNSResponder
-dscacheutil -flushcache
-```
-
-- Windows
-
-```bash
-ipconfig /flushdns
-```
-
-- Linux
-
-```bash
-service nscd restart
-```
-
-- Ubuntu
-
-```bash
-sudo /etc/init.d/dns-clean start
-```
-</details>
-
-
-**克隆代理地址**
-
-* [https://github.com/BaseMax/GitHubMirror](https://github.com/BaseMax/GitHubMirror)
-* [https://github.com/RC1844/FastGithub](https://github.com/RC1844/FastGithub)
-
-- 替换`github.com`为
-  - `github.com.cnpmjs.org`
-  - `jlytgs.com/github_`
-  - `github.dyf62976.workers.dev`
-  - `github.wuyanzheshui.workers.dev`
-  - `github.hsmw.workers.dev`
-  - `github.reycn.workers.dev`
-  - `github.itzmx.com`
-
-* [https://cdn.jsdelivr.net/gh](https://cdn.jsdelivr.net/gh)
-
-
-
-
-### Actions
-
-* [GitHub Actions 入门教程](http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)
-* [Github Actions 尝鲜](https://segmentfault.com/a/1190000020873860)
-* [持续集成](https://blog.lucien.ink/category/ci)
-
-
-> 生成公钥和私钥`ssh-keygen -t rsa -b 4096 -C "yourname@example.com" -f 文件名称 -N ""`（ACTION_DEPLOY_KEY），
-> 或者生成新的个人访问令牌（PERSONAL_TOKEN）[https://github.com/settings/tokens/new](https://github.com/settings/tokens/new)
-
-
-* [https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=deploy-to-github-pages](https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=deploy-to-github-pages)
-* [https://github.com/actions](https://github.com/actions)
-* [https://github.com/sdras/awesome-actions](https://github.com/sdras/awesome-actions)
-* [https://github.com/peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
-* [https://github.com/JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action)
-
-+ [https://github.com/marketplace?type=actions&query=upload+release](https://github.com/marketplace?type=actions&query=upload+release)
-+ [https://github.com/wangyoucao577/go-release-action](https://github.com/wangyoucao577/go-release-action)
-+ [https://github.com/elgohr/Publish-Docker-Github-Action](https://github.com/elgohr/Publish-Docker-Github-Action)
-+ [https://github.com/release-drafter/release-drafter](https://github.com/release-drafter/release-drafter)
-+ [https://github.com/xresloader/upload-to-github-release](https://github.com/xresloader/upload-to-github-release)
-+ [https://github.com/svenstaro/upload-release-action](https://github.com/svenstaro/upload-release-action)
