@@ -40,7 +40,7 @@
 * [https://hub.docker.com/r/imleafz/gitlab-ce-zh](https://hub.docker.com/r/imleafz/gitlab-ce-zh)
 
 
-```bash
+```yml
 version: '2'
 services:
     gitlab:
