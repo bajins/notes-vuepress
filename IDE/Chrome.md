@@ -168,7 +168,7 @@ chrome://flags/#enable-parallel-downloading
 * [Video Downloader Plus](https://chrome.google.com/webstore/detail/web-video-downloader/adahebendgkgacfmpnmoddebbnfpfkcd)
 * [Video Downloader Pro](https://chrome.google.com/webstore/detail/video-downloader-pro/ccdikaeknpeokoejlpffihfmpfelakcg)
 * [Video Downloader professional](https://chrome.google.com/webstore/detail/video-downloader-professi/bacakpdjpomjaelpkpkabmedhkoongbi)
-
+* [https://github.com/684102/HDS-HLS-Video-Downloader](https://github.com/684102/HDS-HLS-Video-Downloader)
 
 
 ### Other

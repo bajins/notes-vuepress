@@ -77,17 +77,17 @@
 + [https://www.algolia.com/docsearch](https://www.algolia.com/docsearch)
 
 
-* [静态编译VuePress](https://github.com/vuejs/vuepress)
+* 静态编译VuePress [https://github.com/vuejs/vuepress](https://github.com/vuejs/vuepress)
     * [https://github.com/vuepressjs/awesome-vuepress](https://github.com/vuepressjs/awesome-vuepress)
-* [静态编译NuxtJs](https://github.com/nuxt/nuxt.js)
-* [静态编译Hexo](https://github.com/hexojs/hexo)
-* [静态编译Hugo](https://github.com/gohugoio/hugo)
-* [静态编译Jekyll](https://github.com/jekyll/jekyll)
+* 静态编译NuxtJs [https://github.com/nuxt](https://github.com/nuxt)
+* 静态编译Hexo [https://github.com/hexojs/hexo](https://github.com/hexojs/hexo)
+* 静态编译Hugo [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
+* 静态编译Jekyll [https://github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
     * [http://jekyllcn.com](http://jekyllcn.com)
     * [https://www.jekyll.com.cn](https://www.jekyll.com.cn)
     * [https://github.com/mattvh/jekyllthemes](https://github.com/mattvh/jekyllthemes)
-* [静态编译Docsite](https://github.com/txd-team/docsite)
-* [运行时驱动Docsify](https://github.com/docsifyjs/docsify)
+* 静态编译Docsite [https://github.com/txd-team/docsite](https://github.com/txd-team/docsite)
+* 运行时驱动Docsify [https://github.com/docsifyjs/docsify](https://github.com/docsifyjs/docsify)
     * [https://github.com/docsifyjs/awesome-docsify](https://github.com/docsifyjs/awesome-docsify)
 * [https://github.com/docpress/docpress](https://github.com/docpress/docpress)
 * [运行时驱动Docute](https://github.com/egoist/docute)
@@ -130,6 +130,13 @@
 
 
 ### 静态部署
+
++ [具有免费许可证的所有平台的Heroku替代方案](https://alternativeto.net/software/heroku/?license=free)
+    + [https://github.com/caprover](https://github.com/caprover)
+    + [https://www.heliohost.org](https://www.heliohost.org)
+    + [https://github.com/hasura](https://github.com/hasura)
+    + [https://github.com/gatsbyjs](https://github.com/gatsbyjs)
+    + [https://www.onworks.net](https://www.onworks.net)
 
 * [https://www.netlify.com](https://www.netlify.com)
     * 示例：[https://woytu.netlify.app](https://woytu.netlify.app)

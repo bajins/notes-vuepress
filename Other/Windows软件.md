@@ -783,6 +783,7 @@ slmgr /ato
 * [https://www.diskinternals.com/download](https://www.diskinternals.com/download)
     * 读取EXT 类型数据盘 [http://www.diskinternals.com/download/Linux_Reader.exe](http://www.diskinternals.com/download/Linux_Reader.exe)
 * [https://github.com/thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe)
+* 远程控制 [https://www.todesk.com](https://www.todesk.com)
 
 - [https://github.com/topics/converter](https://github.com/topics/converter)
     - [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)

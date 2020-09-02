@@ -53,6 +53,7 @@
 
 * JavaScript自动化工具 [https://github.com/hyb1996/Auto.js](https://github.com/hyb1996/Auto.js)
 * 微信僵尸好友脚本 [https://github.com/L8426936/auto.js-script](https://github.com/L8426936/auto.js-script)
+* [https://github.com/huxx16/AutoApiSecret](https://github.com/huxx16/AutoApiSecret)
 
 
 - [https://github.com/huangruiLearn/flutter_hrlweibo](https://github.com/huangruiLearn/flutter_hrlweibo)
@@ -195,3 +196,4 @@
 + [https://github.com/butzist/ActivityLauncher](https://github.com/butzist/ActivityLauncher)
 
 * 文件传输 [http://www.xender.com](http://www.xender.com)
+* [https://github.com/interfect/fenix](https://github.com/interfect/fenix)

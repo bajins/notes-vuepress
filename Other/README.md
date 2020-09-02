@@ -25,6 +25,8 @@
 
 * [https://github.com/search?q=learning&type=Repositories](https://github.com/search?q=learning&type=Repositories)
 
+- [https://stripe.com/zh-cn-us/payments/payment-methods-guide#wechat-pay](https://stripe.com/zh-cn-us/payments/payment-methods-guide#wechat-pay)
+
 
 
 
@@ -210,6 +212,8 @@
 ## 身份和信用卡
 
 + [申请虚拟信用卡的40个不同渠道](https://sm.link/2020/01/06/66.html)
++ [全球付虚拟信用卡申请教程](https://coderschool.cn/3228.html)
++ [虚拟信用卡](https://www.vpsdawanjia.com/category/virtual-card)
 
 <details><summary style="font-size:130%;">易购卡(easypayx)</summary>
 
@@ -256,7 +260,7 @@
 * [https://cc.namsopro.com](https://cc.namsopro.com)
 * [https://www.bestcreditcardgenerator.com](https://www.bestcreditcardgenerator.com)
 * [https://www.bingenerator.net](https://www.bingenerator.net)
-
+* [信用卡卡号生成器及验证器](https://www.yeeach.com/post/1370)
 
 
 **随机生成**
