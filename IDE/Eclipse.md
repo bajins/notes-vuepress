@@ -11,6 +11,8 @@
 * [单行注释自动靠左](https://blog.csdn.net/mp9105/article/details/93343403)
 * [Eclipse的Debug各种视图介绍](https://www.cnblogs.com/ZeGod/p/10114049.html)
 
+- [STS(eclipse)中文注释错位、缩进、被放大BUG解决](https://blog.csdn.net/u013600314/article/details/85262257)
+
 
 **Clean Up、Format、Clean**
 
