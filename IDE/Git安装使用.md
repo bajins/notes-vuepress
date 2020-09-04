@@ -1,4 +1,4 @@
-# Git
+# Git安装使用
 
 
 [[toc]]
@@ -31,44 +31,7 @@
 - [git-pull.sh](/files/git-pull.sh)
 
 
-**SVN**
-
-- [https://github.com/apache/subversion](https://github.com/apache/subversion)
-- [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
-  - [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
-  - [https://tortoisegit.org/download](https://tortoisegit.org/download)
-- [https://github.com/jenkinsci/subversion-plugin](https://github.com/jenkinsci/subversion-plugin)
-- [https://github.com/subclipse](https://github.com/subclipse)
-
-
-
-**commit提交规范**
-
-* [linking-a-pull-request-to-an-issue-using-a-keyword](https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword)
-* [angular.js-git-commit-guidelines](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines)
-* [AngularJS Git Commit Message Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y)
-* [关于git提交规范](https://www.jianshu.com/p/6eafeb9b1edb)
-* [git commit 提交规范](https://github.com/woai3c/Front-end-articles/blob/master/git%20commit%20style.md)
-* [https://github.com/commitizen](https://github.com/commitizen)
-
-- bugfix/fix/fixed: 表示修复 bug
-- feature: 表示增加新功能 
-- add: 表示增加类、文件、代码块等
-- delete/del: 表示删除类、文件、代码块等
-- update: 表示对代码块、功能的更新
-- refactor: 表示对代码块、功能重构（即不是新增功能，也不是修改bug的代码变动）
-- arch: 表示输出中间版本，用于测试等
-- release to v1.0.0: 表示打包输出的版本号
-- test：增加测试
-- chore：构建过程或辅助工具的变动
-
-* mod 修改
-* changed ( 完成的任务 )
-* rem:移除（Remove,移除功能）
-* feat：新功能（feature）
-* docs：文档（documentation）
-* style：格式（不影响代码运行的变动）
-
+**[Commit提交规范](/Other/技术概念规范.md#commit提交规范)**
 
 
 ## 安装最新版

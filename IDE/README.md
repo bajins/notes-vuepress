@@ -12,6 +12,7 @@
     + [https://www.getpostman.com/apps](https://www.getpostman.com/apps)
 + [https://github.com/liyasthomas/postwoman](https://github.com/liyasthomas/postwoman)
     + [https://postwoman.io](https://postwoman.io)
++ IDEA 的`Tools`菜单下有`HTTP Client`可替代postman
 
 * [https://github.com/atom](https://github.com/atom)
 * [https://github.com/geany](https://github.com/geany)
@@ -19,6 +20,15 @@
     * [https://theia-ide.org](https://theia-ide.org)
 
 
+
+**SVN**
+
+- [https://github.com/apache/subversion](https://github.com/apache/subversion)
+- [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
+  - [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
+  - [https://tortoisegit.org/download](https://tortoisegit.org/download)
+- [https://github.com/jenkinsci/subversion-plugin](https://github.com/jenkinsci/subversion-plugin)
+- [https://github.com/subclipse](https://github.com/subclipse)
 
 
 

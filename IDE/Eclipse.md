@@ -30,10 +30,10 @@
 
 **WebStorm保存后跳过Eclipse自动同步到Tomcat**
 
-- `File` -> `Settings` -> `Build, Execution, Deployment` -> `Deployment`
+- `File` -> `Settings` -> `Build, Execution, Deployment` -> `Deployment` （或顶部菜单 `Tools` -> `Deployment` -> `Configuration`）
    - 右侧点击`+`号 -> 点击`Local or mounted floder` -> 输入自定义名称 -> `Floder` 选择Eclipse配置的Tomcat部署的当前项目路径
    - 点击`Mappings`选项卡 -> `Deployment path` 配置部署路径（相对`Floder`的路径） -> 点击`OK`保存
-   - 点击顶部菜单栏 `Tools` -> `Deployment` -> 选择 `Automatic Upload(always)` 自动构建
+   - 点击顶部菜单 `Tools` -> `Deployment` -> 选择 `Automatic Upload(always)` 自动构建
 
 > 其实原理很简单：就是在保存源码文件的同时，实时编译构建同步的时候跳过Eclipse，直接同步到Tomcat部署的当前项目目录
 
@@ -48,9 +48,9 @@
 
 ## 字体大小和背景色
 
-- 调节控制台字体大小 Window -> Preferences -> General -> Appearance -> Colors and Fonts -> Basic -> Text Font -> Edit
-- 调节主窗口字体大小 Window -> Preferences -> General -> Appearance -> Colors and Fonts -> Java -> Java Editor Text Font -> Edit
-- 设置眼睛保护色 Window -> Prefences -> General -> Editors -> Text Editors -> Appearance color optins
+- 调节控制台字体大小 `Window` -> `Preferences` -> `General` -> `Appearance` -> `Colors and Fonts` -> `Basic` -> `Text Font` -> `Edit`
+- 调节主窗口字体大小 `Window` -> `Preferences` -> `General` -> `Appearance` -> `Colors and Fonts` -> `Java` -> `Java Editor Text Font` -> `Edit`
+- 设置眼睛保护色 `Window` -> `Prefences` -> `General` -> `Editors` -> `Text Editors` -> `Appearance color optins`
 
 
 ## 代码格式化
@@ -82,20 +82,18 @@
     - `Format line comments on first column` 格式化第一列上的行注释
 
 
-
-
 ## 自动提示
 
 * [Eclipse 开启代码提示与关闭变量命名补全](https://xienaoban.github.io/posts/32764)
 
-- Window -> Preferences -> Java -> Editor -> Content Assist -> Auto Activation 下的 Auto Activation triggers for java 
+- `Window` -> `Preferences` -> `Java` -> `Editor` -> `Content Assist` -> `Auto Activation` 下的` Auto Activation triggers for java` 
 填入 `._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`
-- 解决输入`=`或`;`变量自动补全问题 Window -> Preference ->Java -> Editor -> Content Assist -> 
-勾选 Disable insertion triggers except 'Enter' (按<kbd>Enter</kbd>键才自动补全)
-- XML自动补全 Windows -> preferance -> XML -> XML Files -> Editor -> Content Assist -> Auto Activation下面的
-Prompt when these characters are inserted 填入 `<=:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ `（注意后面有一个空格）
+- 解决输入`=`或`;`变量自动补全问题 `Window` -> `Preference` ->`Java` -> `Editor` -> `Content Assist` -> 
+勾选 `Disable insertion triggers except 'Enter'` (按<kbd>Enter</kbd>键才自动补全)
+- XML自动补全 `Windows` -> `preferance` -> `XML` -> `XML Files` -> `Editor` -> `Content Assist` -> `Auto Activation`下面的
+`Prompt when these characters are inserted` 填入 `<=:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ `（注意后面有一个空格）
 
-* 解决按下@不提示注解：Window -> Preferences -> Java -> Editor -> Content Assist -> Advanced下把`java Proposals`勾上
+* 解决按下`@`不提示注解：`Window` -> `Preferences` -> `Java` -> `Editor` -> `Content Assist` -> `Advanced` 下把`java Proposals`勾上
 
 
 ## 显示内存
@@ -122,27 +120,26 @@ Prompt when these characters are inserted 填入 `<=:abcdefghijklmnopqrstuvwxyzA
  
 [JVM参数设置](/Java/Tomcat.md#四)
 
-```bash
+```conf
 # JDK8以下
 -Xms128M -Xmx512M -XX:PermSize=64M -XX:MaxPermSize=128M
 # JDK8
 -Xms128M -Xmx512M -XX:MetaspaceSize=512m -XX:MaxMetaspaceSize=1024m
 ```
 
-```diff
--Xms128m JVM初始分配的堆内存
--Xmx512m JVM最大允许分配的堆内存，按需分配
--XX:PermSize=64M JVM初始分配的非堆内存，JDK8之前
--XX:MaxPermSize=128M JVM最大允许分配的非堆内存，按需分配，JDK8之前
--XX:MetaspaceSize=512m 元数据，JDK8
--XX:MaxMetaspaceSize=1024m 最大元数据，JDK8
-```
+- `-Xms128m` JVM初始分配的堆内存
+- `-Xmx512m` JVM最大允许分配的堆内存，按需分配
+- `-XX:PermSize=64M` JVM初始分配的非堆内存，JDK8之前
+- `-XX:MaxPermSize=128M` JVM最大允许分配的非堆内存，按需分配，JDK8之前
+- `-XX:MetaspaceSize=512m` 元数据，JDK8
+- `-XX:MaxMetaspaceSize=1024m` 最大元数据，JDK8
 
-#### 设置JDK参数
+
+**设置JDK参数**
 
 - `Windows` -> `Preference` -> `Java` –> `Installed JREs` -> 选中使用的JDK -> `Edit` -> `Default VM arguments`
 
-#### 设置Tomcat参数
+**设置Tomcat参数**
 
 - `Run` -> `Run Configurations` -> 选中已添加的Tomcat -> `Arguments` -> 在`VM arguments`中换行添加
 
@@ -161,9 +158,7 @@ Prompt when these characters are inserted 填入 `<=:abcdefghijklmnopqrstuvwxyzA
 
 - `Window` -> `Preference` -> `Java` -> `Code Style` -> `Code Template` -> 展开`Comments` -> 
 点击需要设置的类型 -> `Pattern`填入注释模板 -> 勾选 `Automatically add comments for new methods and types`
-
 - 注释的使用：输入`/**`然后回车自动出来
-
 - 创建新文件(New Java files)注释标签
 
 ```java
@@ -188,10 +183,10 @@ ${type_declaration}
 
 ```java
  /**
- * @Fields ${field} : 
- * @author: woytu.com
- * @date: ${date} ${time}
- */
+  * @Fields ${field} : 
+  * @author: woytu.com
+  * @date: ${date} ${time}
+  */
 ```
 
 - 构造函数(Constructors)标签

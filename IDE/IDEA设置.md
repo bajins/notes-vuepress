@@ -90,18 +90,13 @@
 ## 设置序列化ID
 
 - 打开 `File` -> `Settings` -> `Editor` -> `Inspections` -> `Java` -> `Serialization issues`
+     - 勾选`Serializable class without 'serialVersionUID'`
+     - 勾选`'serialVersionUID' field not declared 'private static final long'`
 
-1. 勾选`Serializable class without 'serialVersionUID'`
-2. 勾选`'serialVersionUID' field not declared 'private static final long'`
 
+## 自定义头部注释
 
-## 自定义头部注释和模板
-
-### 自定义头部注释
-
-- 打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Includes`
-
-> 在`File Header`中添加
+- 打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Includes` -> 在`File Header`中添加
 
 ```java
 /**
@@ -118,16 +113,35 @@
 ```
 
 - 引用：打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
+     - 在`Class`、`Interface`、`Enum`三个模板中的`public class ${NAME} {`上一行添加
 
-- 在`Class`、`Interface`、`Enum`三个模板中的`public class ${NAME} {`上一行添加
-
-```java
+```groovy
 #parse("File Header.java")
 ```
 
+* [JavaScript头部注释](#webStorm)
 
-* [JavaScript头部注释](#javascript-file自定义头注释)
 
+## 自定义模板
+
+- 打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files` -> 在`Class`模板中粘贴
+
+```groovy
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+#parse("File Header.java")
+
+public class ${NAME} {
+
+     //private static final Logger logger = LoggerFactory.getLogger(${NAME}.class);
+     private Logger log = LoggerFactory.getLogger(this.getClass());
+     
+}
+```
 
 
 ### 预定义模板变量
@@ -151,37 +165,12 @@
 
 
 
-### 自定义模板
-
-- 打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
-- 在`Class`模板中粘贴
-
-```java
-#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
-
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-#parse("File Header.java")
-
-public class ${NAME} {
-
-     //private static final Logger logger = LoggerFactory.getLogger(${NAME}.class);
-     private Logger log = LoggerFactory.getLogger(this.getClass());
-     
-}
-```
-
-
-
-## 自定义方法注释模板
+## 自定义方法注释
 
 - 默认方法注释快捷键：<kbd>/**</kbd> + <kbd>Enter</kbd>
-
 - Template text
 
-```java
+```groovy
 **
  * 
  * 
@@ -309,7 +298,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 ## PyCharm
 
 
-### Python Script自定义头注释
+**Python Script自定义头注释**
 
 * [预定义模板变量](#预定义模板变量)
 
@@ -331,14 +320,13 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 ```
 
 - 引用：打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
-
-- 在`Python Script`模板中第一行引用：`#parse("File Header")`
+     - 在`Python Script`模板中第一行引用：`#parse("File Header")`
 
 
 ### 自动导包
 
 - 打开`File` -> `Settings` -> `Editor` -> `General` -> `Auto Import`
-- 勾选`Python` -> `Show import popup`
+     - 勾选`Python` -> `Show import popup`
 
 
 
@@ -358,7 +346,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ## GoLand
 
-### Go File自定义头注释
+**Go File自定义头注释**
 
 * [预定义模板变量](#预定义模板变量)
 
@@ -384,7 +372,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ## WebStorm
 
-### JavaScript File自定义头注释
+**JavaScript File自定义头注释**
 
 * [预定义模板变量](#预定义模板变量)
 
@@ -406,37 +394,9 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 
 - 引用：打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
-- 在`JavaScript File`模板中第一行引用：`#parse("File Header.js")`
+     - 在`JavaScript File`模板中第一行引用：`#parse("File Header.js")`
 - 默认函数注释快捷键：<kbd>/**</kbd> + <kbd>Enter</kbd>
 
-
-
-
-
-## 错误解决
-
-### idea无限indexing解决方法
-
-* [IntelliJ IDEA 缓存和索引介绍和清理方法](https://github.com/tengj/IntelliJ-IDEA-Tutorial/blob/newMaster/IntelliJ-IDEA-cache.md)
-
-![](https://github.com/tengj/IntelliJ-IDEA-Tutorial/raw/newMaster/images/xii-a-invalidate-cache-1.jpg)
-
-### OutOfMemoryError
-
-> `idea Exception in thread "http-apr-8080-exec-2" java.lang.OutOfMemoryError: PermGen space`
-
-- 打开顶部菜单`Run` -> `Edit Configurations` -> 应用名称如`SpringBoot` -> `目标项目` -> `Configuration`
-
-- 在`Vm options`中输入
-
-```
--Xms2048m
--Xmx2048m
--XX:MaxPermSize=4096m
--Drebel.spring_plugin=true
--Drebel.spring_mvc_plugin=true
--Drebel.hibernate_plugin=true
-```
 
 
 
