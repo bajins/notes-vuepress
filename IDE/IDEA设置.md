@@ -24,10 +24,10 @@
 
 
 
-## 每次启动进入欢迎界面
+## 启动进入欢迎界面
 
 - 打开`File` -> `Settings` -> `Appearance & Behavior` -> `System Settings`
-- 勾选`Startup/Shutdown`下的`Reopen last project on startup`选项
+     - 勾选`Startup/Shutdown`下的`Reopen last project on startup`选项
 
 
 ## 格式化代码
