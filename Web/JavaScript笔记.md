@@ -133,21 +133,14 @@ console.log(str.match(new RegExp("test(.*)","ig")));
 
 * [flyio](https://wendux.github.io/dist/#/doc/flyio/readme)
 * [HTTP封装](https://github.com/woytu/key-gin/blob/master/static/js/utils)
-
-
-### XMLHttpRequest
-
 * [XMLHttpRequest—必知必会](https://www.jianshu.com/p/918c63045bc3)
 * [XMLHttpRequest封装源码](https://github.com/yanxiaojun617/exercise/tree/master/src/20180410ajax)
 
 - http,XMLHttpRequest,Ajax的关系
-
-> http是浏览器和web服务器交换数据的协议,规范
->
-> XMLHttpRequest是JavaScript的一个对象,是浏览器实现的一组api函数(方法),使用这些函数,浏览器再通过http协议请求和发送数据
->> XMLHttpRequest请求数据>使用js操作dom
->
-> Ajax不是一种技术,是综合多种技术实现交互的模式:用html+css展示页面>使用
+    - http是浏览器和web服务器交换数据的协议,规范
+    - XMLHttpRequest是JavaScript的一个对象,是浏览器实现的一组api函数(方法),使用这些函数,浏览器再通过http协议请求和发送数据
+        - XMLHttpRequest请求数据>使用js操作dom
+    - Ajax不是一种技术,是综合多种技术实现交互的模式:用html+css展示页面>使用
 
 * [ajax和axios、fetch的区别](https://www.jianshu.com/p/8bc48f8fde75)
 * [Fetch API](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API)
@@ -582,6 +575,11 @@ $(document).ready(function () {
 
 * [使用Chrome DevTools查看和编辑本地存储](https://developers.google.com/web/tools/chrome-devtools/storage/localstorage)
 * [Web Storage API](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Storage_API)
+* IndexedDB [IndexedDB_API](https://developer.mozilla.org/zh-CN/docs/Web/API/IndexedDB_API)
+    * [使用IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB)
+* Cahce Storage [https://developer.mozilla.org/zh-CN/docs/Web/API/Cache](https://developer.mozilla.org/zh-CN/docs/Web/API/Cache)
+* Application Cache [HTML5 - 应用程序缓存(Application Cache)](https://blog.csdn.net/weixin_44198965/article/details/89760924)
+
 
 > storage存储的数据只能是字符串类型，其他类型的数据需做类型转换
 
@@ -591,7 +589,6 @@ $(document).ready(function () {
 2. 二者对存储的内容均有大小限制，前者同源情况写一般不能存储4kb的内容，后者同源一般能存储只能存储5MB的数据
 3. cookie有过期时间，localStorage是永久存储（如果你不手动去删除的话）
 4. 一些浏览器处于安全的角度可能会禁用cookie,但无法禁用localStorage
-
 
 
 **Session Storage**
@@ -618,31 +615,14 @@ var value = localStorage.setItem('mobile',"要存的数据");
 ```
 
 
-**IndexedDB**
-
-* [IndexedDB_API](https://developer.mozilla.org/zh-CN/docs/Web/API/IndexedDB_API)
-* [使用IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB)
-
-**Web SQL**
-
-> 该规范不再处于主动维护中，并且Web应用程序工作组不打算进一步维护它。
-
-* [https://www.w3.org/TR/webdatabase](https://www.w3.org/TR/webdatabase)
-
-**Cahce Storage**
-
-* [https://developer.mozilla.org/zh-CN/docs/Web/API/Cache](https://developer.mozilla.org/zh-CN/docs/Web/API/Cache)
-
-
-**Application Cache**
-
-* [HTML5 - 应用程序缓存(Application Cache)](https://blog.csdn.net/weixin_44198965/article/details/89760924)
-
 **jQuery数据缓存方案**
 
 > 使用隐藏控件或者js全局变量来临时存储数据，全局变量容易导致命名污染，隐藏控件导致经常读写dom浪费性能。jQuery提供了数据缓存方案
 
-- `$.data()`
+* [jQuery 源码分析(十) 数据缓存模块 data详解](https://www.cnblogs.com/greatdesert/p/11609111.html)
+* [jQuery数据缓存$.data 的使用以及源码解析](https://segmentfault.com/a/1190000000626031)
+
+- `$.data()` 这是一个底层方法，用于在指定的元素上存取临时数据，一旦页面刷新，之前存放的数据都将被移除
 - `$.cache`
 - `$.expando`
 - `$.hasData()`
