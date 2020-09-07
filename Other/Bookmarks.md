@@ -38,6 +38,7 @@
     * [https://github.com/awsdocs](https://github.com/awsdocs)
 * [https://www.linuxfoundation.org/projects](https://www.linuxfoundation.org/projects)
 * [https://www.fsf.org/resources](https://www.fsf.org/resources)
+* [https://github.com/yahoo](https://github.com/yahoo)
 
 - [https://github.com/TogetherOS](https://github.com/TogetherOS)
 - [https://github.com/lets-blade](https://github.com/lets-blade)

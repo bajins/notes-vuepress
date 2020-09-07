@@ -19,6 +19,7 @@
 * [js keyup、keypress和keydown事件 详解](https://www.cnblogs.com/manongxiaobing/archive/2012/11/05/2755412.html)
 * [js中keyup-keypress-keydown以及oninput四个事件](https://blog.csdn.net/FGstudy/article/details/101854125)
 * [keydown,keypress,keyup三者之间的区别](https://blog.csdn.net/qq_26102281/article/details/83785085)
+* [前端三大框架与 YUI 以及 EXT.js 这类组件化框架最大的区别是什么？](https://www.zhihu.com/question/336968422/answer/762705515)
 
 - [https://github.com/jsdoc](https://github.com/jsdoc)
 - [https://github.com/apidoc](https://github.com/apidoc)
@@ -191,12 +192,10 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 
 
 
-
 **Player**
 
 * [https://github.com/MoePlayer](https://github.com/MoePlayer)
 * Plyr–一个轻量级的HTML5播放器 [https://github.com/sampotts/plyr](https://github.com/sampotts/plyr)
-
 
 
 **反爬虫**
@@ -204,4 +203,71 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * [https://github.com/antoinevastel/fpscanner](https://github.com/antoinevastel/fpscanner)
 * [https://github.com/ta7sudan/secan](https://github.com/ta7sudan/secan)
 * [前端如何检测Chrome-Headless不被爬虫虐](https://mlln.cn/2019/07/05/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%A3%80%E6%B5%8BChrome-Headless%E4%B8%8D%E8%A2%AB%E7%88%AC%E8%99%AB%E8%99%90)
+
+
+
+
+## VueJS
+
++ [https://github.com/topics/vue](https://github.com/topics/vue)
+
+* [https://github.com/vuejs](https://github.com/vuejs)
+    * [https://cn.vuejs.org](https://cn.vuejs.org)
+* [vue学习笔记](https://www.rumosky.wiki/docs/vue_learning_process)
+* [https://github.com/quasarframework](https://github.com/quasarframework)
+
+![](/images/vue生命周期详解.png)
+
+
+* [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
+
+
+### VueJS框架
+
+* [https://madewithvuejs.com](https://madewithvuejs.com)
+* [https://github.com/vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify)
+* [https://github.com/buefy/buefy](https://github.com/buefy/buefy)
+* [https://github.com/bootstrap-vue/bootstrap-vue](https://github.com/bootstrap-vue/bootstrap-vue)
+* [https://github.com/vuematerial/vue-material](https://github.com/vuematerial/vue-material)
+* [https://github.com/uikit/uikit](https://github.com/uikit/uikit)
+* [https://github.com/sdc-alibaba/sui](https://github.com/sdc-alibaba/sui)
+* [https://github.com/FE-Driver/vue-beauty](https://github.com/FE-Driver/vue-beauty)
+* [https://github.com/chenz24/vue-blu](https://github.com/chenz24/vue-blu)
+* [https://github.com/ant-design/ant-design](https://github.com/ant-design/ant-design)
+* [https://github.com/heyui/heyui](https://github.com/heyui/heyui)
+* [https://github.com/at-ui/at-ui](https://github.com/at-ui/at-ui)
+* [https://github.com/view-design/ViewUI](https://github.com/view-design/ViewUI)
+* [https://github.com/ElemeFE/element](https://github.com/ElemeFE/element)
+
+
+
+**Mobile**
+
+* [https://github.com/airyland/vux](https://github.com/airyland/vux)
+* [https://github.com/sdc-alibaba/SUI-Mobile](https://github.com/sdc-alibaba/SUI-Mobile)
+* [https://github.com/ElemeFE/mint-ui](https://github.com/ElemeFE/mint-ui)
+* [https://github.com/didi/cube-ui](https://github.com/didi/cube-ui)
+
+
+### 动态导入组件
+
+```js
+() => import(`@${_this.files.path}.vue`)
+
+//component(resolve) {require([`@${_this.files.path}.vue`], resolve)}
+resolve => require([`@${_this.files.path}.vue`], resolve)
+
+resolve => require.ensure([], () => resolve(require(`@${_this.files.path}.vue`)))
+
+const resolveRequire = (path) => {
+    return resolve => {
+        require.ensure([], (require) => {
+            resolve(require(`@${path}.vue`));
+        });
+    }
+}
+```
+
+
+
 

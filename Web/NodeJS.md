@@ -22,32 +22,6 @@
     - [https://www.webpackjs.com](https://www.webpackjs.com)
 
 
-## 原生应用开发
-
-> 在3大主流渲染引擎里，webview、react native/weex、flutter，复杂度依次降低，渲染性能依次上升。
-
-+ [https://github.com/apache/cordova](https://github.com/apache/cordova)
-
-* [https://github.com/facebook/react-native](https://github.com/facebook/react-native)
-    * [https://reactnative.cn](https://reactnative.cn)
-* [https://github.com/necolas/react-native-web](https://github.com/necolas/react-native-web)
-* [https://github.com/kuaifan/eeui](https://github.com/kuaifan/eeui)
-* [https://github.com/hminghe/weex-amui](https://github.com/hminghe/weex-amui)
-* [https://github.com/bingo-oss/bui-weex](https://github.com/bingo-oss/bui-weex)
-* [https://github.com/apache/incubator-weex](https://github.com/apache/incubator-weex)
-    * [https://github.com/apache/incubator-weex-ui](https://github.com/apache/incubator-weex-ui)
-    * [https://github.com/apache/incubator-weex-site](https://github.com/apache/incubator-weex-site)
-    * [https://segmentfault.com/t/weex](https://segmentfault.com/t/weex)
-* [https://github.com/NativeScript](https://github.com/NativeScript)
-* [https://github.com/topics/electron](https://github.com/topics/electron)
-    * [https://github.com/electron/electron](https://github.com/electron/electron)
-* [使用 node-ffi 构建 Electron 和 C++ Library 混合桌面应用](https://io.hancel.org/2018/05/02/building-an-electron-hybrid-application.html)
-* [https://github.com/topics/nwjs](https://github.com/topics/nwjs)
-    * [https://github.com/nwjs/nw.js](https://github.com/nwjs/nw.js)
-    * [https://github.com/lxp135/NW.jsCnDocs](https://github.com/lxp135/NW.jsCnDocs)
-* [https://github.com/Kagami/mpv.js](https://github.com/Kagami/mpv.js)
-* 将 Node.js 项目打包到可执行文件中 [https://github.com/vercel/pkg](https://github.com/vercel/pkg)
-
 
 
 ## 管理NodeJS
@@ -282,6 +256,36 @@ request({
 
 
 
+
+## 原生应用开发
+
+> 在3大主流渲染引擎里，webview、react native/weex、flutter，复杂度依次降低，渲染性能依次上升。
+
++ [https://github.com/apache/cordova](https://github.com/apache/cordova)
+
+* [https://github.com/facebook/react-native](https://github.com/facebook/react-native)
+    * [https://reactnative.cn](https://reactnative.cn)
+* [https://github.com/necolas/react-native-web](https://github.com/necolas/react-native-web)
+* [https://github.com/kuaifan/eeui](https://github.com/kuaifan/eeui)
+* [https://github.com/hminghe/weex-amui](https://github.com/hminghe/weex-amui)
+* [https://github.com/bingo-oss/bui-weex](https://github.com/bingo-oss/bui-weex)
+* [https://github.com/apache/incubator-weex](https://github.com/apache/incubator-weex)
+    * [https://github.com/apache/incubator-weex-ui](https://github.com/apache/incubator-weex-ui)
+    * [https://github.com/apache/incubator-weex-site](https://github.com/apache/incubator-weex-site)
+    * [https://segmentfault.com/t/weex](https://segmentfault.com/t/weex)
+* [https://github.com/NativeScript](https://github.com/NativeScript)
+* [https://github.com/topics/electron](https://github.com/topics/electron)
+    * [https://github.com/electron/electron](https://github.com/electron/electron)
+* [使用 node-ffi 构建 Electron 和 C++ Library 混合桌面应用](https://io.hancel.org/2018/05/02/building-an-electron-hybrid-application.html)
+* [https://github.com/topics/nwjs](https://github.com/topics/nwjs)
+    * [https://github.com/nwjs/nw.js](https://github.com/nwjs/nw.js)
+    * [https://github.com/lxp135/NW.jsCnDocs](https://github.com/lxp135/NW.jsCnDocs)
+* [https://github.com/Kagami/mpv.js](https://github.com/Kagami/mpv.js)
+* 将 Node.js 项目打包到可执行文件中 [https://github.com/vercel/pkg](https://github.com/vercel/pkg)
+
+
+
+
 ## 爬虫
 
 * [https://github.com/webdriverio](https://github.com/webdriverio)
@@ -296,70 +300,6 @@ request({
 
 * [https://github.com/ebidel/try-puppeteer](https://github.com/ebidel/try-puppeteer)
 * [https://github.com/berstend/puppeteer-extra](https://github.com/berstend/puppeteer-extra)
-
-
-
-## VueJS
-
-+ [https://github.com/topics/vue](https://github.com/topics/vue)
-
-* [https://github.com/vuejs](https://github.com/vuejs)
-    * [https://cn.vuejs.org](https://cn.vuejs.org)
-* [vue学习笔记](https://www.rumosky.wiki/docs/vue_learning_process)
-
-![](/images/vue生命周期详解.png)
-
-
-* [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
-
-
-### VueJS框架
-
-* [https://madewithvuejs.com](https://madewithvuejs.com)
-* [https://github.com/vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify)
-* [https://github.com/buefy/buefy](https://github.com/buefy/buefy)
-* [https://github.com/bootstrap-vue/bootstrap-vue](https://github.com/bootstrap-vue/bootstrap-vue)
-* [https://github.com/vuematerial/vue-material](https://github.com/vuematerial/vue-material)
-* [https://github.com/quasarframework/quasar](https://github.com/quasarframework/quasar)
-* [https://github.com/uikit/uikit](https://github.com/uikit/uikit)
-* [https://github.com/sdc-alibaba/sui](https://github.com/sdc-alibaba/sui)
-* [https://github.com/FE-Driver/vue-beauty](https://github.com/FE-Driver/vue-beauty)
-* [https://github.com/chenz24/vue-blu](https://github.com/chenz24/vue-blu)
-* [https://github.com/ant-design/ant-design](https://github.com/ant-design/ant-design)
-* [https://github.com/heyui/heyui](https://github.com/heyui/heyui)
-* [https://github.com/at-ui/at-ui](https://github.com/at-ui/at-ui)
-* [https://github.com/view-design/ViewUI](https://github.com/view-design/ViewUI)
-* [https://github.com/ElemeFE/element](https://github.com/ElemeFE/element)
-
-
-
-**Mobile**
-
-* [https://github.com/airyland/vux](https://github.com/airyland/vux)
-* [https://github.com/sdc-alibaba/SUI-Mobile](https://github.com/sdc-alibaba/SUI-Mobile)
-* [https://github.com/ElemeFE/mint-ui](https://github.com/ElemeFE/mint-ui)
-* [https://github.com/didi/cube-ui](https://github.com/didi/cube-ui)
-
-
-### 动态导入组件
-
-```js
-() => import(`@${_this.files.path}.vue`)
-
-//component(resolve) {require([`@${_this.files.path}.vue`], resolve)}
-resolve => require([`@${_this.files.path}.vue`], resolve)
-
-resolve => require.ensure([], () => resolve(require(`@${_this.files.path}.vue`)))
-
-const resolveRequire = (path) => {
-    return resolve => {
-        require.ensure([], (require) => {
-            resolve(require(`@${path}.vue`));
-        });
-    }
-}
-```
-
 
 
 

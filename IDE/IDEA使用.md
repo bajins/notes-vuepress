@@ -15,6 +15,7 @@
 - [JetBrains 系列软件汉化包](https://github.com/pingfangx/TranslatorX)
 
 * [IntelliJ IDEA神器使用技巧](https://www.imooc.com/learn/924)
+* [IDEA的基本使用：让你的IDEA有飞一般的感觉](https://blog.csdn.net/fly910905/article/details/77868300)
 
 <details>
 <summary><b>展开查看思维导图</b></summary>
