@@ -259,6 +259,7 @@ Function Lock-WorkStation {
 **解压zip**
 
 * [压缩解压文件](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.archive)
+* [PowerShell-压缩解压缩文件](https://blog.csdn.net/ahxdyz/article/details/93534213)
 
 - PowerShell 5.0或更高版本(已预安装Windows 10和Windows Server 2016)
 

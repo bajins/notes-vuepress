@@ -423,24 +423,25 @@ $(window).resizeEnd({delay: 500}, function () {
 
 ## 标签默认动作
 
+**阻止其他事件触发**
 
 ```js
 function test(event){
     // 阻止事件冒泡
-    event.stopPropagation();
+    event.stopPropagation || event.stopPropagation() || window.event.stopPropagation();
     // 和event.stopPropagation()效果相同 ，根据浏览器兼容性判断使用哪种方法
-    event.cancelBubble();
+    event.cancelBubble || event.cancelBubble() || window.event.cancelBubble();
 }
 ```
 
-- href伪协议
+**href伪协议**
 
 ```html
 <a href="javascript:void(0);" onclick="test()">{{ row.name }}</a>
 ```
 
 
-- 原生方式
+**原生方式**
 
 * [event.preventDefault](https://developer.mozilla.org/zh-CN/docs/Web/API/Event/preventDefault)
 
@@ -470,7 +471,7 @@ function test(event){
 ```
 
 
-- VUE阻止默认行为
+**VUE阻止默认行为**
 
 * [事件修饰符](https://cn.vuejs.org/v2/guide/events.html#%E4%BA%8B%E4%BB%B6%E4%BF%AE%E9%A5%B0%E7%AC%A6)
 * [v-on api](https://cn.vuejs.org/v2/api/#v-on)
