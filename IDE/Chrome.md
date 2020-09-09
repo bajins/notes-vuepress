@@ -43,16 +43,19 @@ chrome://flags/#enable-parallel-downloading
     * [https://github.com/dendoink/FrontendWingman](https://github.com/dendoink/FrontendWingman)
         * [https://www.frontendwingman.com/Chrome](https://www.frontendwingman.com/Chrome)
         * [https://juejin.im/book/5c526902e51d4543805ef35e](https://juejin.im/book/5c526902e51d4543805ef35e)
+* [https://github.com/ChromeDevTools](https://github.com/ChromeDevTools)
 
 - Firefox浏览器开发人员版 [https://www.mozilla.org/zh-CN/firefox/developer](https://www.mozilla.org/zh-CN/firefox/developer)
 
 
-**Network测量资源的加载时间隐藏**
-
-- 老版本，点击`View`后面的多级图（`Show overview`）
-- 新版本，点击最右侧⚙️(设置)去掉 `Show overview` 勾选
-- 勾选`Disable cache`
-
+- Network测量资源的加载时间隐藏
+    - 老版本，点击`View`后面的多级图（`Show overview`）
+    - 新版本，点击最右侧⚙️(设置)去掉 `Show overview` 勾选
+- 勾选`Disable cache` 禁用缓存
+- 启动Chrome时使用参数`--auto-open-devtools-for-tabs` 打开新标签页时自动打开DevTools，已经打开了Chrome`–user-data-dir=./`
+- `Auto-open DevTools for popups` 自动打开DevTools弹出窗口
+    - 老版本， ┇ -> Settings -> Perference -> DevTools
+    - 新版本， ┇ -> More tools -> Settings -> Perference -> Global
 
 
 

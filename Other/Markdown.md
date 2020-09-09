@@ -28,6 +28,7 @@
     - [http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)
 - [https://github.com/carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji)
 - [https://github.com/caiyongji/emoji-list](https://github.com/caiyongji/emoji-list)
+- [https://github.com/12313kaihuang/GitHub-Emoji](https://github.com/12313kaihuang/GitHub-Emoji)
 - [https://github.com/liuchengxu/git-commit-emoji-cn](https://github.com/liuchengxu/git-commit-emoji-cn)
 - [https://github.com/afeld/emoji-css](https://github.com/afeld/emoji-css)
 - [Github 上 emoji 表情的含义及使用规范](https://mkblog.cn/872)
