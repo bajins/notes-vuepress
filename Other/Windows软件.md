@@ -20,6 +20,8 @@
 - [https://github.com/topics/desktop-app](https://github.com/topics/desktop-app)
 
 
+**[Windows系统相关](/System/README.md#windows)**
+
 **浏览器**
 
 * [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
@@ -490,57 +492,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 ```
 
 
-
-## 系统相关
-
-* [在Windows 10 10586版本手动挂载WIM文件以修复DISM源的方法](https://answers.microsoft.com/zh-hans/windows/forum/windows_10-performance/windows-10/7d43c552-e005-40ac-bde7-9f1a9029573a)
-
-- 检查映像是否完整：`DISM.exe /Online /Cleanup-image /Scanhealth`
-- 完成后再修复映像：`DISM.exe /Online /Cleanup-image /Checkhealth`
-- 然后再修复系统：`DISM.exe /Online /Cleanup-image /Restorehealth `
-- 最后检查系统是否修复：`sfc /scannow`
-- `Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase`
-
-
-### MSDN
-
-* [https://www.microsoft.com/zh-cn/software-download/windows10](https://www.microsoft.com/zh-cn/software-download/windows10)
-* [http://msdn.itellyou.cn](http://msdn.itellyou.cn)
-* [https://www.iruanmi.com/msdn](https://www.iruanmi.com/msdn)
-* [http://www.imsdn.cn](http://www.imsdn.cn)
-* [https://uup.rg-adguard.net](https://uup.rg-adguard.net)
-* [https://www.repaik.com/win.html](https://www.repaik.com/win.html)
-* [https://uupdump.ml](https://uupdump.ml)
-* [https://msdn.sjjzm.com](https://msdn.sjjzm.com)
-
-
-### 绿色精简
-
-+ MSMG Toolkit [https://msmgtoolkit.in](https://msmgtoolkit.in)
-+ NTLite [https://www.ntlite.com](https://www.ntlite.com)
-
-* [WINOS ](https://www.winos.me)
-* [绿色系统](http://lvsexitong.com)
-* [网吧系统](http://down.lansedongli.com)
-* [twm000-导航页被定制可修改](http://twm000.top)
-* [Y-OS工作室-导航页被定制可修改](http://y-os.net)
-* [十二星座-导航页被定制可修改](http://www.12xzzx.com)
-* [https://icura.lofter.com](https://icura.lofter.com)
-    * [OneDrive](https://tpedutw-my.sharepoint.com/:f:/g/personal/icura_tp_edu_tw/Ek5lPsUrc_ZJqSDKi7oxsdoBNjbbncnvi8p-90jI0OqUVA)
-
-
-
-### WinPE
-
-* [微PE](http://www.wepe.com.cn)
-* [USBOS](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965&extra=page%3D1)
-* [光卡自己的 PE 项目](https://hikaricalyx.com)
-* [优启时代](http://www.uqi.me/catalog.asp?cate=1)
-
-
-
-
-### 开始菜单
+## 开始菜单
 
 * [https://github.com/coddec/Classic-Shell](https://github.com/coddec/Classic-Shell)
 * [https://github.com/microsoft/PowerToys](https://github.com/microsoft/PowerToys)
@@ -551,14 +503,13 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 1. [https://www.lanzous.com/b279570](https://www.lanzous.com/b279570)
 
 
-### 清理工具
+## 清理工具
 
-* [Win10Clean](https://github.com/ElPumpo/Win10Clean)
+* Win10Clean [https://github.com/ElPumpo/Win10Clean](https://github.com/ElPumpo/Win10Clean)
 * Dism++ [https://github.com/Chuyu-Team](https://github.com/Chuyu-Team)
-* 卸载Windows10自带应用 [10AppsManager](https://www.thewindowsclub.com/10appsmanager-windows-10)
-* [W10Privacy](https://www.winprivacy.de/deutsch-start/download)
-* [PCHunter](http://www.xuetr.com)
-* [Windows 10 Manager](https://www.yamicsoft.com/cn)
+* W10Privacy [https://www.winprivacy.de/deutsch-start/download](https://www.winprivacy.de/deutsch-start/download)
+* PCHunter [http://www.xuetr.com](http://www.xuetr.com)
+* Windows 10 Manager [https://www.yamicsoft.com](https://www.yamicsoft.com)
     * `WMXD7-RG8FP-OYKS3-KHTN6`
 * [https://www.crystalidea.com/uninstall-tool](https://www.crystalidea.com/uninstall-tool)
 * [UninstallTool／Geek／IObitUninstaller／RevoUninstalle](https://lanzous.com/b0f19v03a)
@@ -567,6 +518,24 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * Registry Finder
 * [http://www.hibitsoft.ir](http://www.hibitsoft.ir)
 * Windows Install Clean Up  安装后在安装目录找到`msicuu.exe`运行，然后选中程序点击`remove`
+
+
+**卸载自带应用**
+
++ [Search · install_wim_tweak](https://github.com/search?o=desc&q=install_wim_tweak&s=indexed&type=Code)
+
+* 卸载Windows10自带应用10AppsManager [https://www.thewindowsclub.com/10appsmanager-windows-10](https://www.thewindowsclub.com/10appsmanager-windows-10)
+* [https://github.com/DiChaoWu/Optimize-Windows-10](https://github.com/DiChaoWu/Optimize-Windows-10)
+* [https://github.com/L33Tech/Windows10Tools](https://github.com/L33Tech/Windows10Tools)
+* [https://github.com/myrtus0x0/Pastebin-Scraping-Results](https://github.com/myrtus0x0/Pastebin-Scraping-Results)
+* [https://github.com/simeononsecurity/SAPS](https://github.com/simeononsecurity/SAPS)
+* [https://github.com/kyau/win10tweak](https://github.com/kyau/win10tweak)
+* [https://github.com/wangzy12306/win10](https://github.com/wangzy12306/win10)
+* [https://github.com/Daksh777/windows10-debloat](https://github.com/Daksh777/windows10-debloat)
+* [https://github.com/DirtCaps/CapsTweakerSystem](https://github.com/DirtCaps/CapsTweakerSystem)
+* [https://github.com/kampusbiner/windefenderremoval](https://github.com/kampusbiner/windefenderremoval)
+* [https://github.com/pluswait/workPCT](https://github.com/pluswait/workPCT)
+* [https://github.com/builtbybel/debotnet](https://github.com/builtbybel/debotnet)
 
 
 
@@ -598,152 +567,6 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/Tyrrrz/LightBulb](https://github.com/Tyrrrz/LightBulb)
 * f.lux [https://justgetflux.com](https://justgetflux.com)
 * [https://github.com/emoacht/Monitorian](https://github.com/emoacht/Monitorian)
-
-
-
-## MS相关激活
-
-> 在PowerShell（也可在CMD）中输入命令运行`slmgr.vbs /dti`，按<kbd>Ctrl</kbd> + <kbd>C</kbd>复制，
-> 并粘贴到在线获取确认ID网站：[http://webact.185.hk](http://webact.185.hk)
-
-> 使用命令有两种方式：第一种：按<kbd>Win</kbd> + <kbd>x</kbd> + <kbd>a</kbd>进入PowerShell（也可在CMD中）输入命令运行；
-> 第二种：按<kbd>Win</kbd> + <kbd>r</kbd>输入命令运行，如`slmgr.vbs /dti`，此方式必须有`.vbs`后缀，（推荐使用第一种方式）
-
-* 小爱激活助手 [https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA](https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA) 提取码: gia8
-* 密钥检测的小工具 [https://github.com/FHWWC/KeyCheck](https://github.com/FHWWC/KeyCheck)
-* https://api.jike.info/ms_pid/密钥
-
-
-**Windows命令**
-
-> 在CMD中输入`slmgr`或`slmgr.exe`即可查看所有命令
-
-- `systeminfo` 系统信息
-- `slui 4` 调出电话激活窗口
-- `slmgr.vbs /ipk 密钥` 安装产品密钥
-- `slmgr.vbs /upk` 卸载密钥
-- `slmgr.vbs /ato` 激活密钥
-- `slmgr.vbs /dti` 显示安装ID
-- `slmgr.vbs /atp 确认ID` 输入确认ID（注意这里的ID没有`-`符号）
-- `slmgr.vbs /dlv` 显示详细的许可证信息
-- `slmgr.vbs /xpr` 当前许可证状态的截止日期
-- `slmgr.vbs /dli [激活 ID | All]` 显示许可证信息（默认：当前许可证）
-- `slmgr.vbs /dlv [激活 ID | All]` 显示详细的许可证信息
-- `slmgr.vbs /cpky` 从注册表中清除产品密钥（阻止泄露引起的攻击）
-- `slmgr.vbs /ilc` 许可证文件 安装许可证
-- `slmgr.vbs /rilc` 重新安装系统许可证文件
-- `slmgr.vbs /rearm` 重置计算机的授权状态 （去除水印）
-- `slmgr.vbs /skms` 设置KMS服务器
-- `slmgr.vbs /ckms` 清除KMS服务器名和端口号并设为初始状态
-
-
-**Office命令**
-
-> 在PowerShell（也可在CMD）中输入命令运行并切换到office安装目录
-> `cd "C:\Program Files (x86)\Microsoft Office\Office16"`，如果安装的64位去掉` (x86)`
-
-- `cscript ospp.vbs /inpkey:密钥` 安装产品密钥
-- `cscript ospp.vbs /unpkey:密钥最后五位` 卸载密钥
-- `cscript ospp.vbs /dinstid` 显示安装ID
-- `cscript ospp.vbs /actcid:确认ID` 输入确认ID（注意这里的ID没有`-`符号）
-- `cscript ospp.vbs /act` 在线激活
-- `cscript ospp.vbs /dstatus` 验证激活
-
-
-**错误代码**
-
-- `0xC004C008` 是零售版可以电话激活、网页激活
-- `0xC004C020` 是批量版可以电话激活、运气好可以网页激活
-- `0xC004C060` 已失效
-- `0xC004C003` 已失效
-- `0x80072EE2` 因网络阻塞导致错误,稍等10分钟再重试
-
-
-**office key**
-
-```
-# OFFICE 2019 专业增强版激活码
-W8W6K-3N7KK-PXB9H-8TD8W-BWTH9
-
-# Office19_RTM19_ProPlus2019VL_MAK_AE
-GP3YN-RPX2T-FVYT8-4TPFY-7MKG3
-N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
-6NCGF-GQQ2F-H83HF-9DWMY-92GTG
-```
-
-
-**Windows Key**
-
-* [https://cherishspring.cn/archives/active-win10-office.html](https://cherishspring.cn/archives/active-win10-office.html)
-* [https://notys.xyz](https://notys.xyz)
-* [https://jihuo.ma/tool](https://jihuo.ma/tool)
-* [http://www.aihao.cc](http://www.aihao.cc)
-* [https://jike.info/category/16/账号密钥](https://jike.info/category/16/%E8%B4%A6%E5%8F%B7%E5%AF%86%E9%92%A5)
-
-
-**KMS**
-
-* [https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys](https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys)
-
-+ [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
-+ [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
-+ [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
-+ [https://github.com/netnr/kms](https://github.com/netnr/kms)
-
-
-* [可用的 KMS 列表](https://www.coolhub.top/archives/14)
-* [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)
-* [人人客-微软产品](https://rrkee.com/microsoft)
-* [03k.orgKMS服务](https://03k.org/kms.html)
-* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4)
-* [云萌 Windows 10 激活工具](https://tgsan.github.io/CMWTAT_Digital_Edition)
-* [零散坑KMS服务](https://03k.org/kms.html)
-* [kms.mogeko.me](https://mogeko.me/2019/054)
-* [https://kms.cangshui.net](https://kms.cangshui.net)
-* [https://kms.loli.beer](https://kms.loli.beer)
-* [https://www.moerats.com/kms](https://www.moerats.com/kms)
-* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4/)
-* [https://kms.cangshui.net](https://kms.cangshui.net)
-* [https://www.ghpym.com/kms.html](https://www.ghpym.com/kms.html)
-* [https://github.com/EDragon007/EDragonKMS](https://github.com/EDragon007/EDragonKMS)
-
-
-
-**数字激活**
-
-> 所谓的win10数字权利激活，是一种win10授权方法。该激活方法会记录你的电脑硬件信息，并保存到微软的服务器，
-> 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
-
-> 避免在vpn状态下使用本软件。激活前电脑必须联网，而且必须开启`Windows Update`服务，否则无法激活。
-
-
-
-### Win10家庭升专业
-
-> 注意：Windows10家庭版升级Windows10专业版的密钥不是激活密钥
-
-1. 升级：设置 -> 更新和安全 -> 激活 -> 更改产品秘钥，断网后，填入 下方的升级密钥，重启
-
-```
-4N7JM-CV98F-WY9XX-9D8CF-369TT
-FMPND-XFTD4-67FJC-HDR8C-3YH26
-4N894-WMB2D-PRGHC-BVYW8-CPQGT
-VK7JG-NPHTM-C97JM-9MPGT-3V66T
-W269N-WFGWX-YVC9B-4J6C9-T83GX
-MH37W-N47XK-V7XM9-C7227-GCQG9
-NYW94-47Q7H-7X9TT-W7TXD-JTYPM
-NJ4MX-VQQ7Q-FP3DB-VDGHX-7XM87
-```
-
-2. 联网激活：以管理员打开CMD执行以下命令
-
-```batch
-slmgr.vbs /upk
-slmgr /ipk 激活密钥
-slmgr /skms zh.us.to
-slmgr /ato
-```
-
 
 
 

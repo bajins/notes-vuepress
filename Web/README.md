@@ -347,3 +347,39 @@ certificateBox[1].style.display="list-item";
 certificateBox[1].style.margin="0px";
 ```
 
+
+
+
+## CloudFlare Workers
+
++ [https://subdomainfinder.c99.nl](https://subdomainfinder.c99.nl) 搜索框输入`workers.dev`点击`Start Scan`，
+再按<kbd>Ctrl</kbd> + <kbd>f</kbd> 输入`github`
++ [用Cloudflare CDN 如何自定义节点（CF自选IP）/撸CloudFlare Pro](https://www.moeelf.com/archives/10.html)
+
+
+- [https://github.com/cloudflare/wrangler](https://github.com/cloudflare/wrangler)
+- [https://github.com/search?q=Cloudflare+Workers](https://github.com/search?q=Cloudflare+Workers)
+- [https://github.com/topics/cloudflare-workers](https://github.com/topics/cloudflare-workers)
+- [Cloudflare Workers 创建自定义域名的项目](https://blog.16lab.io/workers-custom-domain)
+- Cloudflare CNAME接入 [https://github.com/ZE3kr/Cloudflare-CNAME-Setup](https://github.com/ZE3kr/Cloudflare-CNAME-Setup)
+
+
+* [https://github.com/netnr/workers](https://github.com/netnr/workers)
+* [https://github.com/aploium/zmirror](https://github.com/aploium/zmirror)
+* 动态博客系统 [https://github.com/kasuganosoras/cloudflare-worker-blog](https://github.com/kasuganosoras/cloudflare-worker-blog)
+* 个人导航网站 [https://github.com/sleepwood/CF-Worker-Dir](https://github.com/sleepwood/CF-Worker-Dir)
+* 一个极简风格的短网址转换 [https://github.com/Closty/duanwangzhi](https://github.com/Closty/duanwangzhi)
+* [基于 Telegraf 框架的 Telegram Bot](https://moe.best/tutorial/cfworker-telegraf-tgbot.html)
+* [使用CloudFlare Workers搭建网站状态监控](https://www.raycoder.me/p/cloudflare-workers-website-monitoring)
+
+
+**代理**
+
+- [https://github.com/topics/reverse-proxy](https://github.com/topics/reverse-proxy)
+- JS 实现的在线代理 [https://github.com/EtherDream/jsproxy](https://github.com/EtherDream/jsproxy)
+- 轻量级Javascript反向代理 [https://github.com/Berkeley-Reject/workers-proxy](https://github.com/Berkeley-Reject/workers-proxy)
+    - [https://github.com/yenpou/Workers-Proxy](https://github.com/yenpou/Workers-Proxy)
+- github release、archive以及项目文件的加速项目 [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
+- [https://github.com/netnr/workers](https://github.com/netnr/workers)
+- [https://github.com/ryanking13/cors](https://github.com/ryanking13/cors)
+- [https://github.com/AlejandroAkbal/Cloudflare-Worker-Cors-Proxy](https://github.com/AlejandroAkbal/Cloudflare-Worker-Cors-Proxy)
