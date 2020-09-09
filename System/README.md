@@ -148,6 +148,25 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 ```
 
 
+**卸载自带应用**
+
++ [Search · install_wim_tweak](https://github.com/search?o=desc&q=install_wim_tweak&s=indexed&type=Code)
+
+* [https://github.com/DiChaoWu/Optimize-Windows-10](https://github.com/DiChaoWu/Optimize-Windows-10)
+* [https://github.com/L33Tech/Windows10Tools](https://github.com/L33Tech/Windows10Tools)
+* [https://github.com/myrtus0x0/Pastebin-Scraping-Results](https://github.com/myrtus0x0/Pastebin-Scraping-Results)
+* [https://github.com/simeononsecurity/SAPS](https://github.com/simeononsecurity/SAPS)
+* [https://github.com/kyau/win10tweak](https://github.com/kyau/win10tweak)
+* [https://github.com/wangzy12306/win10](https://github.com/wangzy12306/win10)
+* [https://github.com/Daksh777/windows10-debloat](https://github.com/Daksh777/windows10-debloat)
+* [https://github.com/DirtCaps/CapsTweakerSystem](https://github.com/DirtCaps/CapsTweakerSystem)
+* [https://github.com/kampusbiner/windefenderremoval](https://github.com/kampusbiner/windefenderremoval)
+* [https://github.com/pluswait/workPCT](https://github.com/pluswait/workPCT)
+* [https://github.com/builtbybel/debotnet](https://github.com/builtbybel/debotnet)
+
+
+
+
 ## CloudFlare Workers
 
 + [https://subdomainfinder.c99.nl](https://subdomainfinder.c99.nl) 搜索框输入`workers.dev`点击`Start Scan`，

@@ -516,6 +516,9 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 ### 绿色精简
 
++ MSMG Toolkit [https://msmgtoolkit.in](https://msmgtoolkit.in)
++ NTLite [https://www.ntlite.com](https://www.ntlite.com)
+
 * [WINOS ](https://www.winos.me)
 * [绿色系统](http://lvsexitong.com)
 * [网吧系统](http://down.lansedongli.com)
