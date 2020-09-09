@@ -52,7 +52,8 @@ chrome://flags/#enable-parallel-downloading
     - 老版本，点击`View`后面的多级图（`Show overview`）
     - 新版本，点击最右侧⚙️(设置)去掉 `Show overview` 勾选
 - 勾选`Disable cache` 禁用缓存
-- 启动Chrome时使用参数`--auto-open-devtools-for-tabs` 打开新标签页时自动打开DevTools，已经打开了Chrome`–user-data-dir=./`
+- `--auto-open-devtools-for-tabs` 打开新标签页时自动打开DevTools，修改 Chrome 的桌面快捷方式，增加启动参数
+    - 已经打开了Chrome，需要先关闭，或使用参数`–user-data-dir=./`
 - `Auto-open DevTools for popups` 自动打开DevTools弹出窗口
     - 老版本， ┇ -> Settings -> Perference -> DevTools
     - 新版本， ┇ -> More tools -> Settings -> Perference -> Global
