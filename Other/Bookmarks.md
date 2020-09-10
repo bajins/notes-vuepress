@@ -29,6 +29,7 @@
 * [https://github.com/ctripcorp](https://github.com/ctripcorp)
 * [https://github.com/vipshop](https://github.com/vipshop)
 * [https://github.com/mdn](https://github.com/mdn)
+    * [https://developer.mozilla.org](https://developer.mozilla.org)
 * [https://github.com/Qihoo360](https://github.com/Qihoo360)
 * [https://github.com/IBM](https://github.com/IBM)
 * [https://github.com/uber](https://github.com/uber)
@@ -284,11 +285,12 @@
 
 ### Web
 
++ [Web 开发技术 | MDN](https://developer.mozilla.org/zh-CN/docs/Web)
+
 * [CNode Node.js专业中文社区](https://cnodejs.org/?tab=good)
-* [Web 开发技术 | MDN](https://developer.mozilla.org/zh-CN/docs/Web)
 * [JavaScript 基础知识](https://zh.javascript.info/first-steps)
 * [Welcome | 临水照影的博客](http://haoqiao.me/index.html)
-* [w3school 在线教程](https://www.w3school.com.cn/index.html)
+* [w3school 在线教程](https://www.w3school.com.cn)
 * [阿西河前端教程丨一个助你成为全栈开发的公益网站](https://www.axihe.com)
 * [JS变量和数据类型及其转化 - Coding_Changes_LIfe - 博客园](https://www.cnblogs.com/luoxuw/p/11438437.html)
 * [https://github.com/justjavac/justjavac.github.com](https://github.com/justjavac/justjavac.github.com)

@@ -45,6 +45,7 @@ chrome://flags/#enable-parallel-downloading
         * [https://juejin.im/book/5c526902e51d4543805ef35e](https://juejin.im/book/5c526902e51d4543805ef35e)
 * [https://github.com/ChromeDevTools](https://github.com/ChromeDevTools)
 
+- Firefox 开发者工具 [https://developer.mozilla.org/zh-CN/docs/Tools](https://developer.mozilla.org/zh-CN/docs/Tools)
 - Firefox浏览器开发人员版 [https://www.mozilla.org/zh-CN/firefox/developer](https://www.mozilla.org/zh-CN/firefox/developer)
 
 

@@ -425,12 +425,24 @@ $(window).resizeEnd({delay: 500}, function () {
 
 **阻止其他事件触发**
 
+- 事件捕获其实有三种方式，事件冒泡只是其中的一种：
+    - （1）IE从里到外（inside→outside）的冒泡型事件。
+    - （2）Netscape4.0从外到里（outside→inside）的捕获型事件。
+    - （3）DOM事件流，先从外到里，再从里到外回到原点（outside→inside→outside）的事件捕获方法。
+- 以下事件不冒泡：blur、focus、load、unload。
+
 ```js
-function test(event){
-    // 阻止事件冒泡
-    event.stopPropagation || event.stopPropagation() || window.event.stopPropagation();
-    // 和event.stopPropagation()效果相同 ，根据浏览器兼容性判断使用哪种方法
-    event.cancelBubble || event.cancelBubble() || window.event.cancelBubble();
+// 阻止事件冒泡
+function stopPropagation(event){
+    //var e = event? event:window.event;
+    var e = window.event || event;
+    if(document.all){  //只有ie识别
+        // 针对IE，在新版本chrome,opera浏览器中已经支持
+        // https://developer.mozilla.org/zh-CN/docs/Web/API/UIEvent/cancelBubble
+        e.cancelBubble = true;
+    }else{
+        e.stopPropagation();
+    }
 }
 ```
 

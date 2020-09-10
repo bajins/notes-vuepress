@@ -8,7 +8,6 @@
 
 ## Flag
 
-* Web 技术教程-W3School [https://www.w3school.com.cn/index.html](https://www.w3school.com.cn/index.html)
 * Web 开发技术-MDN [https://developer.mozilla.org/zh-CN/docs/Web](https://developer.mozilla.org/zh-CN/docs/Web)
 * Web API [https://developer.mozilla.org/zh-CN/docs/Web/API](https://developer.mozilla.org/zh-CN/docs/Web/API)
 * W3C 网页标准教程 [http://www.w3chtml.com](http://www.w3chtml.com)
