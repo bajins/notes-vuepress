@@ -266,6 +266,8 @@ request({
 * [https://github.com/facebook/react-native](https://github.com/facebook/react-native)
     * [https://reactnative.cn](https://reactnative.cn)
 * [https://github.com/necolas/react-native-web](https://github.com/necolas/react-native-web)
+* [https://github.com/angular/angular](https://github.com/angular/angular)
+    * [https://angular.io](https://angular.io)
 * [https://github.com/kuaifan/eeui](https://github.com/kuaifan/eeui)
 * [https://github.com/hminghe/weex-amui](https://github.com/hminghe/weex-amui)
 * [https://github.com/bingo-oss/bui-weex](https://github.com/bingo-oss/bui-weex)

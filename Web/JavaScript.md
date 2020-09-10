@@ -96,13 +96,18 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * [https://github.com/facebook/react](https://github.com/facebook/react)
     * [https://github.com/vercel/next.js](https://github.com/vercel/next.js)
         * [https://www.nextjs.cn](https://www.nextjs.cn)
-* [https://github.com/angular/angular](https://github.com/angular/angular)
+* [https://github.com/angular/angular.js](https://github.com/angular/angular.js)
+    * [https://angularjs.org](https://angularjs.org)
     * [https://angular.cn](https://angular.cn)
 * [https://github.com/zdhxiong/mdui](https://github.com/zdhxiong/mdui)
 * [https://github.com/baidu/amis](https://github.com/baidu/amis)
 * [https://github.com/alienzhou/web-highlighter](https://github.com/alienzhou/web-highlighter)
 * [https://github.com/josdejong/mathjs](https://github.com/josdejong/mathjs)
 * 单页网站 [https://github.com/alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js)
+* [https://github.com/ionic-team](https://github.com/ionic-team)
+* [http://www.jeasyui.com](http://www.jeasyui.com)
+* 图表库 [https://github.com/highcharts](https://github.com/highcharts)
+* 响应式框架 [https://github.com/foundation](https://github.com/foundation)
 
 
 
