@@ -24,6 +24,8 @@
 
 **浏览器**
 
++ [https://browsehappy.com](https://browsehappy.com)
+
 * [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
     * [Chrome下载/插件/DevTools/账号迁移](/IDE/Chrome.md)
 * [https://www.microsoft.com/en-us/edge](https://www.microsoft.com/en-us/edge)

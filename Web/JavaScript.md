@@ -93,6 +93,7 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * [https://github.com/topics/jquery](https://github.com/topics/jquery)
 * [https://github.com/topics/jquery-plugin](https://github.com/topics/jquery-plugin)
 * [https://github.com/jquery](https://github.com/jquery)
+    * jQuery API 中文文档 [https://jquery.cuishifeng.cn](https://jquery.cuishifeng.cn)
 * [https://github.com/facebook/react](https://github.com/facebook/react)
     * [https://github.com/vercel/next.js](https://github.com/vercel/next.js)
         * [https://www.nextjs.cn](https://www.nextjs.cn)
