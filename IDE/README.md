@@ -8,6 +8,9 @@
 
 ## Flag
 
+- [https://github.com/topics/ide](https://github.com/topics/ide)
+- [https://github.com/topics/devtools](https://github.com/topics/devtools)
+
 + [https://github.com/postmanlabs](https://github.com/postmanlabs)
     + [https://www.getpostman.com/apps](https://www.getpostman.com/apps)
 + [https://github.com/liyasthomas/postwoman](https://github.com/liyasthomas/postwoman)
@@ -19,6 +22,7 @@
 * [https://github.com/eclipse-theia/theia](https://github.com/eclipse-theia/theia)
     * [https://theia-ide.org](https://theia-ide.org)
 
+- [https://sonarcloud.io](https://sonarcloud.io)
 
 
 **SVN**
@@ -51,6 +55,7 @@
 ## Online IDE
 
 + [https://github.com/topics/cloud-ide](https://github.com/topics/cloud-ide)
++ [https://github.com/styfle/awesome-online-ide](https://github.com/styfle/awesome-online-ide)
 
 * [https://ide.goorm.io](https://ide.goorm.io)
 * [https://github.com/codesandbox](https://github.com/codesandbox)
@@ -58,13 +63,12 @@
 * [https://glitch.com](https://glitch.com)
 * [https://aws.amazon.com/cn/cloud9](https://aws.amazon.com/cn/cloud9)
 * [https://github.com/eclipse/che](https://github.com/eclipse/che)
+    * [https://github.com/fabric8-launcher](https://github.com/fabric8-launcher)
     * [https://www.eclipse.org/che/getting-started/cloud](https://www.eclipse.org/che/getting-started/cloud)
-    * [https://che.openshift.io](https://che.openshift.io)
-
-[![](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/gitpod-io/gitpod) 是一款在线IDE能即时修改GitHub代码，
-访问仓库：https://gitpod.io/#https://github.com/账户名/仓库名
-
-> 示例：[https://gitpod.io/#github.com/woytu/notes-vuepress](https://gitpod.io/#github.com/woytu/notes-vuepress)
+    * `https://che.openshift.io/dashboard/#/load-factory/?url=https://github.com/账户名/仓库名`
+* [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
+    * `https://gitpod.io/#https://github.com/账户名/仓库名`
+    * [![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/woytu/notes-vuepress)
 
 
 **[静态部署](/Web/README.md#静态部署)**

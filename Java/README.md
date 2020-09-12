@@ -29,6 +29,9 @@
 + [https://github.com/jersey](https://github.com/jersey)
 + [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
     + [下载地址镜像](/Other/README.md#通用镜像)
++ 响应式 [https://github.com/eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x)
+    + [http://vertx.io](http://vertx.io)
+    + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
 
 - [fastjson这么快老外为啥还是热衷 jackson?](https://www.zhihu.com/question/44199956)
 - [JAX-WS与JAX-RS区别是什么？](https://blog.csdn.net/dogiant/article/details/54907506)
