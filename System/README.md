@@ -56,14 +56,15 @@
 > 能够实现单机多用户，每个部分都可以做单独的操作系统，管理方法同主机一样。
 
 * GCP (Google Cloud Platform) [https://github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform)
-    * [https://cloud.google.com](https://cloud.google.com)
-* AWS [https://aws.amazon.com](https://aws.amazon.com)
+    * [https://cloud.google.com/free](https://cloud.google.com/free)
+    * [谷歌云搭建免费服务器并翻墙 | Levon's Blog](https://www.liuvv.com/p/b7e5827a)
+* AWS 免费套餐 [https://console.aws.amazon.com/billing/home#/freetier](https://console.aws.amazon.com/billing/home#/freetier)
     * [https://www.cloudping.info](https://www.cloudping.info)
     * [手把手教你撸12个月亚马逊（AWS）的云服务器](https://www.zhunaozi.com/411.html)
     * [SSH 密钥对丢失时连接到 Amazon EC2 实例](https://aws.amazon.com/cn/premiumsupport/knowledge-center/user-data-replace-key-pair-ec2)
     * [如果丢失私钥，连接到Linux实例](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/replacing-lost-key-pair.html)
     * [对连接到实例进行故障排除](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstancesConnecting.html)
-* Azure [https://azure.microsoft.com](https://azure.microsoft.com)
+* Azure [https://azure.microsoft.com/free]https://azure.microsoft.com/free)
 * Vultr
 * Digital Ocean
 * [https://www.oracle.com/cn/cloud/free](https://www.oracle.com/cn/cloud/free)
@@ -72,7 +73,7 @@
 
 
 
-## 修改Ubuntu为root登录
+## 修改为root登录
 
 
 ```bash
@@ -80,6 +81,7 @@
 sudo passwd root
 # 切换到root账号
 su
+sudo -i
 # 更改ubuntu密码
 passwd ubuntu
 # 编辑sshd_config文件
@@ -88,6 +90,7 @@ vi /etc/ssh/sshd_config
 PermitRootLogin yes
 PasswordAuthentication yes
 UsePAM no
+PubkeyAuthentication yes
 # 或者执行命令直接修改
 sed -ri 's/^#?(PermitRootLogin)\s+(yes|no)/\1 yes/' /etc/ssh/sshd_config
 1
@@ -472,6 +475,8 @@ slmgr /ato
 * [http://tool.chinaz.com/port](http://tool.chinaz.com/port)
 * [https://www.websitepulse.com/tools/china-firewall-test](https://www.websitepulse.com/tools/china-firewall-test)
 * [https://www.vps234.com/ipchecker](https://www.vps234.com/ipchecker)
+* [https://tools.ipip.net/traceroute.php](https://tools.ipip.net/traceroute.php)
+
 
 
 **tracert**
