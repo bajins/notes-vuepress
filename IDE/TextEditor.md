@@ -18,6 +18,7 @@
 * [notepad2](https://github.com/zufuliu/notepad2)
 * [https://www.scintilla.org](https://www.scintilla.org)
 * [http://www.pnotepad.org](http://www.pnotepad.org)
+* [https://github.com/adobe/brackets](https://github.com/adobe/brackets)
 
 
 

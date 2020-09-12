@@ -64,6 +64,7 @@
     * [SSH 密钥对丢失时连接到 Amazon EC2 实例](https://aws.amazon.com/cn/premiumsupport/knowledge-center/user-data-replace-key-pair-ec2)
     * [如果丢失私钥，连接到Linux实例](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/replacing-lost-key-pair.html)
     * [对连接到实例进行故障排除](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstancesConnecting.html)
+    * [如何重试失败的付款？](https://aws.amazon.com/cn/premiumsupport/knowledge-center/retry-unsuccessful-payment)
 * Azure [https://azure.microsoft.com/free]https://azure.microsoft.com/free)
 * Vultr
 * Digital Ocean
@@ -290,7 +291,7 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 
 
 
-### Win10家庭升专业
+### 家庭升专业
 
 > 注意：Windows10家庭版升级Windows10专业版的密钥不是激活密钥
 
@@ -374,7 +375,6 @@ slmgr /ato
 * [https://github.com/Maximus5/ConEmu](https://github.com/Maximus5/ConEmu)
 * [https://github.com/Eugeny/terminus](https://github.com/Eugeny/terminus)
 * [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
-* [https://github.com/Wox-launcher/Wox](https://github.com/Wox-launcher/Wox)
 * [https://github.com/vercel/hyper](https://github.com/vercel/hyper)
 * PuTTY [https://www.chiark.greenend.org.uk/~sgtatham/putty](https://www.chiark.greenend.org.uk/~sgtatham/putty)
 * [https://github.com/portapps/kitty-portable](https://github.com/portapps/kitty-portable)

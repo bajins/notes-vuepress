@@ -10,6 +10,7 @@
 
 **更多软件见：[https://gd.bajins.com](https://gd.bajins.com)**
 
++ [Windows 10 有哪些值得推荐的必装软件？](https://www.zhihu.com/question/35088093)
 
 * [https://git.io](https://git.io)
 * [http://potato.manre.me](http://potato.manre.me)
@@ -29,7 +30,7 @@
 * [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
     * [Chrome下载/插件/DevTools/账号迁移](/IDE/Chrome.md)
 * [https://www.microsoft.com/en-us/edge](https://www.microsoft.com/en-us/edge)
-* [https://www.firefox.com.cn](https://www.firefox.com.cn)
+* [https://www.mozilla.org/zh-CN/firefox/all](https://www.mozilla.org/zh-CN/firefox/all)
 
 
 **博客**
@@ -67,6 +68,7 @@
 * [https://www.zrbk.xyz](https://www.zrbk.xyz)
 * [http://yx.bsh.me](http://yx.bsh.me)
 * [耗子爱吃草](http://www.haozi666.com)
+* [苦瓜甘甜](http://www.kuguagantian.com)
 
 
 **论坛**
@@ -114,7 +116,8 @@
 * [http://lao4g.com](http://lao4g.com)
 * [https://www.haorenka.org](https://www.haorenka.org)
 
-
+- [https://feem.io](https://feem.io)
+- ShareMe
 
 
 ## 下载器
@@ -229,6 +232,7 @@
 * [https://github.com/persepolisdm/persepolis](https://github.com/persepolisdm/persepolis)
 * [https://github.com/P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf)
 * [https://github.com/boypt/simple-torrent](https://github.com/boypt/simple-torrent)
+* [http://lightzhan.xyz/index.php/qdown](http://lightzhan.xyz/index.php/qdown)
 
 
 ### 迅雷
@@ -285,6 +289,7 @@
 * [https://github.com/clsid2/mpc-hc](https://github.com/clsid2/mpc-hc)
 * Kmplayer
 * VLC [https://www.videolan.org](https://www.videolan.org)
+* [https://www.getmusicbee.com](https://www.getmusicbee.com)
 
 - [https://github.com/soimort/you-get](https://github.com/soimort/you-get)
 
@@ -317,6 +322,16 @@
 * [Google开发的图片压缩工具](https://github.com/GoogleChromeLabs/squoosh)
 * [https://github.com/netnr/squoosh](https://github.com/netnr/squoosh)
 * 一个用于快速上传图片并获取图片URL链接的工具 [https://github.com/Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo)
+* [https://www.polaxiong.com](https://www.polaxiong.com)
+* [https://icons8.cn/lunacy](https://icons8.cn/lunacy)
+* [https://www.microsoft.com/design/fluent](https://www.microsoft.com/design/fluent)
+* [https://www.xnview.com](https://www.xnview.com)
+* [https://www.getpaint.net](https://www.getpaint.net)
+* [https://www.gimp.org](https://www.gimp.org)
+
+- [https://affinity.serif.com](https://affinity.serif.com)
+- [https://eagle.cool](https://eagle.cool)
+- [https://www.hellofont.cn](https://www.hellofont.cn)
 
 
 ### Gif软件
@@ -343,9 +358,12 @@
 
 ### 截图
 
-* [https://github.com/ShareX/ShareX](https://github.com/ShareX/ShareX)
++ [https://github.com/topics/screen-capture](https://github.com/topics/screen-capture)
+
+* [https://github.com/ShareX](https://github.com/ShareX)
 * Lightshot [https://app.prntscr.com](https://app.prntscr.com)
-* [https://www.snipaste.com](https://www.snipaste.com)
+* [https://github.com/Snipaste](https://github.com/Snipaste)
+    * [https://www.snipaste.com](https://www.snipaste.com)
 * [https://picpick.app/zh/download](https://picpick.app/zh/download)
 
 
@@ -520,6 +538,9 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * Registry Finder
 * [http://www.hibitsoft.ir](http://www.hibitsoft.ir)
 * Windows Install Clean Up  安装后在安装目录找到`msicuu.exe`运行，然后选中程序点击`remove`
+* 卸载残余清理 [https://github.com/geekuninstaller/translations](https://github.com/geekuninstaller/translations)
+    * [https://geekuninstaller.com](https://geekuninstaller.com)
+* [https://www.ccleaner.com](https://www.ccleaner.com)
 
 
 **卸载自带应用**
@@ -548,7 +569,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.clipboardfusion.com](https://www.clipboardfusion.com)
 * [https://clipber.com](https://clipber.com)
 * [https://ditto-cp.sourceforge.io](https://ditto-cp.sourceforge.io)
-* [http://ditto-cp.sourceforge.net](http://ditto-cp.sourceforge.net)
+    * [http://ditto-cp.sourceforge.net](http://ditto-cp.sourceforge.net)
 * [https://www.nakka.com/soft/clcl/index_eng.html](https://www.nakka.com/soft/clcl/index_eng.html)
 * [https://github.com/Carson-Shook/Winclipper](https://github.com/Carson-Shook/Winclipper)
 * [https://ccyixia.com](https://ccyixia.com)
@@ -595,13 +616,30 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [FFmpeg-视频编辑](https://github.com/FFmpeg/FFmpeg)
 * [显示当前网速、CPU及内存利用率的桌面悬浮窗软件](https://github.com/zhongyang219/TrafficMonitor)
 * [http://wenlei.ys168.com](http://wenlei.ys168.com)
-* [简化快捷键](https://szzhiyang.github.io)
-* [火绒安全](https://www.huorong.cn)
+* 简化快捷键 [https://github.com/szzhiyang](https://github.com/szzhiyang)
+    * [https://github.com/PowerKeys](https://github.com/PowerKeys)
+* 火绒安全 [https://www.huorong.cn](https://www.huorong.cn)
+* 监控 [https://www.glasswire.com](https://www.glasswire.com)
+* [https://entropy6.com/xmeters](https://entropy6.com/xmeters)
+* 进程级的系统优化 [https://bitsum.com](https://bitsum.com)
 * [Windows File Recovery](https://www.microsoft.com/zh-cn/p/windows-file-recovery/9n26s50ln705)
+* 启动器 [https://github.com/Wox-launcher/Wox](https://github.com/Wox-launcher/Wox)
 * 可视化创建符号链接的小工具 [https://github.com/imDema/FreeMove](https://github.com/imDema/FreeMove)
+* ReNamer 批量重命名 [http://www.den4b.com](http://www.den4b.com)
 * 文件搜索 [https://www.listary.com/pro](https://www.listary.com/pro)
 * 文件搜索 [Everything](https://www.voidtools.com)
 * 文件对比 [https://www.beyondcomparepro.com](https://www.beyondcomparepro.com)
+* 文件资源管理器 [https://www.ghisler.com](https://www.ghisler.com)
+* [https://www.xyplorer.com](https://www.xyplorer.com)
+* [http://www.uderzo.it/main_products/space_sniffer](http://www.uderzo.it/main_products/space_sniffer)
+* [https://www.softwareok.com/?seite=Freeware/Q-Dir](https://www.softwareok.com/?seite=Freeware/Q-Dir)
+* 鼠标手势 [https://github.com/yingDev/WGestures](https://github.com/yingDev/WGestures)
+* 效率工具 [https://github.com/cuiliang/Quicker](https://github.com/cuiliang/Quicker)
+* 加强 Capslock 键 [https://github.com/wo52616111/capslock-plus](https://github.com/wo52616111/capslock-plus)
+* 快速查看 [https://github.com/QL-Win/QuickLook](https://github.com/QL-Win/QuickLook)
+* 黑暗模式 [https://github.com/Armin2208/Windows-Auto-Night-Mode](https://github.com/Armin2208/Windows-Auto-Night-Mode)
+* [EarTrumpet 为每个软件单独设置音量](https://www.microsoft.com/zh-cn/p/eartrumpet/9nblggh516xp)
+* 任务栏透明化 [https://github.com/TranslucentTB](https://github.com/TranslucentTB)
 * 福昕PDF阅读器 [https://eyun.baidu.com/s/3bozPGmV](https://eyun.baidu.com/s/3bozPGmV)密码：3131
 * 微软常用运行库 [https://github.com/abbodi1406/vcredist](https://github.com/abbodi1406/vcredist)
     * [https://hub.fastgit.org/abbodi1406/vcredist](https://hub.fastgit.org/abbodi1406/vcredist)
@@ -613,5 +651,5 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe)
 * 远程控制 [https://www.todesk.com](https://www.todesk.com)
 
-- [https://github.com/topics/converter](https://github.com/topics/converter)
+- 文档转换 [https://github.com/topics/converter](https://github.com/topics/converter)
     - [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
