@@ -191,3 +191,93 @@ echo '=========================================================='
 # 切换到home文件夹
 cd /home
 ```
+
+
+
+## 修改为root登录
+
+
+```bash
+# 重置root密码
+sudo passwd root
+# 切换到root账号
+su
+sudo -i
+# 更改ubuntu密码
+passwd ubuntu
+# 编辑sshd_config文件
+vi /etc/ssh/sshd_config
+# 修改如下参数
+PermitRootLogin yes
+PasswordAuthentication yes
+UsePAM no
+PubkeyAuthentication yes
+# 或者执行命令直接修改
+sed -ri 's/^#?(PermitRootLogin)\s+(yes|no)/\1 yes/' /etc/ssh/sshd_config
+1
+sed -ri 's/^/#/;s/sleep 10"\s+/&\n/' /root/.ssh/authorized_keys
+1
+# 重启ssh
+service sshd restart
+/etc/init.d/ssh restart
+```
+
+
+
+
+## 物理资源占用
+
+> 各Linux服务器主流发行版物理资源占用（磁盘和内存），`df -h && free -h`
+
+- CentOS 7.6 64位
+
+```bash
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        485M     0  485M   0% /dev
+tmpfs           496M     0  496M   0% /dev/shm
+tmpfs           496M  424K  496M   1% /run
+tmpfs           496M     0  496M   0% /sys/fs/cgroup
+/dev/vda1        50G  1.8G   46G   4% /
+tmpfs           100M     0  100M   0% /run/user/0
+
+              total        used        free      shared  buff/cache   available
+Mem:           991M         68M        631M        428K        290M        787M
+Swap:            0B          0B          0B
+```
+
+- Debian 9.0 64位
+
+```bash
+Filesystem      Size  Used Avail Use% Mounted on
+udev            424M     0  424M   0% /dev
+tmpfs            87M  1.8M   86M   3% /run
+/dev/vda1        50G  923M   46G   2% /
+tmpfs           435M     0  435M   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           435M     0  435M   0% /sys/fs/cgroup
+tmpfs            87M     0   87M   0% /run/user/0
+
+              total        used        free      shared  buff/cache   available
+Mem:           868M         32M        734M        1.8M        101M        717M
+Swap:            0B          0B          0B
+```
+
+- Ubuntu Server 18.04.1 LTS 64位
+
+```bash
+Filesystem      Size  Used Avail Use% Mounted on
+udev            462M     0  462M   0% /dev
+tmpfs            99M  5.2M   94M   6% /run
+/dev/vda1        50G  2.3G   45G   5% /
+tmpfs           493M     0  493M   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           493M     0  493M   0% /sys/fs/cgroup
+tmpfs            99M     0   99M   0% /run/user/500
+
+              total        used        free      shared  buff/cache   available
+Mem:           985M         95M        355M        5.1M        533M        743M
+Swap:            0B          0B          0B
+```
+
+
+
