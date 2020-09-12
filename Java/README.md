@@ -45,6 +45,9 @@
 - [设计一个全局异常处理器](https://crossoverjie.top/2019/07/15/wheel/cicada7-exception-handle)
 - [理解、学习与使用 JAVA 中的 OPTIONAL](https://www.cnblogs.com/zhangboyu/p/7580262.html)
 - [理解零拷贝（Zero-copy）](https://blog.csdn.net/qq_39615545/article/details/108116820)
+- [可代替 ASM，使用 AnnotationProcessor 做代码插桩](https://www.dazhuanlan.com/2019/10/16/5da5f67797300)
+- [动态代理和Lombok学习](https://blog.csdn.net/qq_41022073/article/details/105342238)
+- [Spring AOP和Lombok是什么原理？](https://www.cnblogs.com/woetu/p/13658575.html)
 
 + JMH（Java Microbenchmark Harness）是专门用于代码微基准测试的工具套件
 + [什么是JNDI？](https://blog.csdn.net/gybshen/article/details/82717578)
@@ -235,6 +238,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 - [https://github.com/elastic/elasticsearch](https://github.com/elastic/elasticsearch)
 - [https://github.com/apache/lucene-solr](https://github.com/apache/lucene-solr)
+- [https://gitee.com/jd-platform-opensource/hotkey](https://gitee.com/jd-platform-opensource/hotkey)
 
 
 + [https://sourceforge.net/projects/jsch](https://sourceforge.net/projects/jsch)
@@ -320,6 +324,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [从GBK到UTF8的某些路径中的文件编码转换](https://github.com/downgoon/gbk2utf8)
 * 类路径扫描器和模块扫描器 [https://github.com/classgraph](https://github.com/classgraph)
 * Java 应用程序打包 [https://github.com/fvarrui/JavaPackager](https://github.com/fvarrui/JavaPackager)
+* [https://github.com/rzwitserloot/lombok](https://github.com/rzwitserloot/lombok)
 
 
 - [https://github.com/topics/mapping](https://github.com/topics/mapping)

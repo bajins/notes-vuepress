@@ -39,6 +39,7 @@
     * [https://github.com/awsdocs](https://github.com/awsdocs)
 * [https://www.linuxfoundation.org/projects](https://www.linuxfoundation.org/projects)
 * [https://www.fsf.org/resources](https://www.fsf.org/resources)
+* [https://projects.ow2.org](https://projects.ow2.org)
 * [https://github.com/yahoo](https://github.com/yahoo)
 * [https://github.com/adobe](https://github.com/adobe)
 

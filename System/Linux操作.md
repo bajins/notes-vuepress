@@ -42,7 +42,8 @@
 - 监控总体带宽使用（批量式输出）：`vnstat`、`ifstat`、`dstat`、`collectl`
 - 每个套接字连接的带宽使用：`iftop`、`iptraf`、`tcptrack`、`pktstat`、`netwatch`、`trafshow`、`jnettop`
 - `ntopng`
-
+- [https://github.com/aristocratos/bashtop](https://github.com/aristocratos/bashtop)
+- [https://github.com/aristocratos/bpytop](https://github.com/aristocratos/bpytop)
 
 
 

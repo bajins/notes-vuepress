@@ -13,8 +13,8 @@
 
 + [https://github.com/postmanlabs](https://github.com/postmanlabs)
     + [https://www.getpostman.com/apps](https://www.getpostman.com/apps)
-+ [https://github.com/liyasthomas/postwoman](https://github.com/liyasthomas/postwoman)
-    + [https://postwoman.io](https://postwoman.io)
++ [https://github.com/hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)
+    + [https://hoppscotch.io](https://hoppscotch.io)
 + IDEA 的`Tools`菜单下有`HTTP Client`可替代postman
 
 * [https://github.com/atom](https://github.com/atom)
@@ -23,6 +23,10 @@
     * [https://theia-ide.org](https://theia-ide.org)
 
 - [https://sonarcloud.io](https://sonarcloud.io)
+- [https://semmle.com](https://semmle.com)
+    - [https://lgtm.com](https://lgtm.com)
+- [https://www.openhub.net](https://www.openhub.net)
+- [https://bestpractices.coreinfrastructure.org](https://bestpractices.coreinfrastructure.org)
 
 
 **SVN**

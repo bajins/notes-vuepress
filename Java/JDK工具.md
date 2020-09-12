@@ -12,6 +12,8 @@
 * Alibaba Java诊断利器Arthas：[https://github.com/alibaba/arthas](https://github.com/alibaba/arthas)
 * Java和Android堆转储分析器 [https://heaphero.io](https://heaphero.io)
 * java程序跟踪工具 [https://github.com/btraceio/btrace](https://github.com/btraceio/btrace)
+* [https://github.com/jboss-javassist/javassist](https://github.com/jboss-javassist/javassist)
+
 
 + [逆向工具](/Other/MobileNative.md#逆向工具)
 + `javap -verbose 文件` 查看class文件内容

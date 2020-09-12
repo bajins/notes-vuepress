@@ -86,6 +86,7 @@
 + [Spring Boot 2.3 新特性优雅停机详解](https://juejin.im/post/5ec1d89de51d454ddf2367ab)
 
 - [Spring Boot 监听 Redis Key 失效事件实现定时任务](https://antoniopeng.com/2020/01/03/springboot/Spring%20Boot%20%E7%9B%91%E5%90%AC%20Redis%20Key%20%E5%A4%B1%E6%95%88%E4%BA%8B%E4%BB%B6%E5%AE%9E%E7%8E%B0%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1)
+- [Spring Boot 无侵入式 实现API接口统一JSON格式返回](https://blog.csdn.net/qq_34347620/article/details/102239179)
 
 > 约定优于配置（convention over configuration），也称作按约定编程，是一种软件设计范式，
 > 旨在减少软件开发人员需做决定的数量，获得简单的好处，而又不失灵活性。

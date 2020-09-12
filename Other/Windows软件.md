@@ -203,6 +203,7 @@
     * [https://www.lanzous.com/b073c7g4f](https://www.lanzous.com/b073c7g4f)
 * [uTorrent／qBittorrent／BitComet](https://www.lanzous.com/b0f1awgqb)
 * [https://github.com/webtorrent](https://github.com/webtorrent)
+* [https://github.com/arvidn/libtorrent](https://github.com/arvidn/libtorrent)
 
 
 **BT-Trackers**
