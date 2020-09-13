@@ -52,6 +52,10 @@
 * GCP (Google Cloud Platform) [https://github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform)
     * [https://cloud.google.com/free](https://cloud.google.com/free)
     * [谷歌云搭建免费服务器并翻墙 | Levon's Blog](https://www.liuvv.com/p/b7e5827a)
+* [https://www.oracle.com/cn/cloud/free](https://www.oracle.com/cn/cloud/free)
+    * [Always Free Resources](https://docs.cloud.oracle.com/en-us/iaas/Content/FreeTier/freetier.htm#resources)
+    * [申请Oracle Cloud永久免费服务+300美元试用额度](https://51.ruyo.net/14138.html)
+* Azure [https://azure.microsoft.com/free](https://azure.microsoft.com/free)
 * AWS 免费套餐 [https://console.aws.amazon.com/billing/home#/freetier](https://console.aws.amazon.com/billing/home#/freetier)
     * [https://www.cloudping.info](https://www.cloudping.info)
     * [手把手教你撸12个月亚马逊（AWS）的云服务器](https://www.zhunaozi.com/411.html)
@@ -59,12 +63,8 @@
     * [如果丢失私钥，连接到Linux实例](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/replacing-lost-key-pair.html)
     * [对连接到实例进行故障排除](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstancesConnecting.html)
     * [如何重试失败的付款？](https://aws.amazon.com/cn/premiumsupport/knowledge-center/retry-unsuccessful-payment)
-* Azure [https://azure.microsoft.com/free](https://azure.microsoft.com/free)
 * Vultr
 * Digital Ocean
-* [https://www.oracle.com/cn/cloud/free](https://www.oracle.com/cn/cloud/free)
-    * [Always Free Resources](https://docs.cloud.oracle.com/en-us/iaas/Content/FreeTier/freetier.htm#resources)
-    * [申请Oracle Cloud永久免费服务+300美元试用额度](https://51.ruyo.net/14138.html)
 
 
 

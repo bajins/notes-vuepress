@@ -199,13 +199,13 @@ cd /home
 
 
 ```bash
-# 重置root密码
+# 重置root密码，其他账户都一样按此方法修改
 sudo passwd root
+# 可能在执行后无效，建议使用上面的命令
+echo root:密码 |sudo chpasswd root
 # 切换到root账号
 su
 sudo -i
-# 更改ubuntu密码
-passwd ubuntu
 ```
 
 **修改sshd_config中的参数**
@@ -217,25 +217,22 @@ vi /etc/ssh/sshd_config
 
 - `UsePAM` 修改为`no`
 - `PermitRootLogin` 修改为`yes`
-- `PubkeyAuthentication` 修改为`yes`
 - `PasswordAuthentication` 修改为`yes`
 
 **或者执行命令直接修改**
 
 ```bash
-echo root:密码 |sudo chpasswd root
-sudo sed -ri 's/^#?(UsePAM)\s+(yes|no)/\1 no/' /etc/ssh/sshd_config
+# -r 支持扩展表达式，-i 直接修改文件内容
 sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
-sudo sed -i 's/^#\?PubkeyAuthentication.*/PubkeyAuthentication yes/g' /etc/ssh/sshd_config;
-sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
-sudo sed -ri 's/^/#/;s/sleep 10"\s+/&\n/' /root/.ssh/authorized_keys
+sudo sed -ri 's/^#?(PasswordAuthentication)\s+(yes|no)/\1 yes/' /etc/ssh/sshd_config;
+# 修改authorized_keys文件（即ssh证书），把ssh-rsa之前的内容都删除掉
+sudo sed -ri 's/^/#/;s/sleep 10"\s+/&\n/' /root/.ssh/authorized_keys;
 ```
 
 **重启ssh**
 
 ```bash
-service sshd restart
-#/etc/init.d/ssh restart
+sudo service sshd restart
 ```
 
 
