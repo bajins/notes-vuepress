@@ -55,6 +55,7 @@
 * [https://www.oracle.com/cn/cloud/free](https://www.oracle.com/cn/cloud/free)
     * [Always Free Resources](https://docs.cloud.oracle.com/en-us/iaas/Content/FreeTier/freetier.htm#resources)
     * [申请Oracle Cloud永久免费服务+300美元试用额度](https://51.ruyo.net/14138.html)
+    * 不建议使用用Oracle Linux镜像，无法设置root密码登录
 * Azure [https://azure.microsoft.com/free](https://azure.microsoft.com/free)
 * AWS 免费套餐 [https://console.aws.amazon.com/billing/home#/freetier](https://console.aws.amazon.com/billing/home#/freetier)
     * [https://www.cloudping.info](https://www.cloudping.info)

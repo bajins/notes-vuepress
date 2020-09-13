@@ -199,9 +199,8 @@ cd /home
 
 
 ```bash
-# 重置root密码，其他账户都一样按此方法修改
+# 重置root密码，其他账户都一样按此方法修改root为指定账户即可
 sudo passwd root
-# 可能在执行后无效，建议使用上面的命令
 echo root:密码 |sudo chpasswd root
 # 切换到root账号
 su
@@ -215,7 +214,6 @@ sudo -i
 vi /etc/ssh/sshd_config
 ```
 
-- `UsePAM` 修改为`no`
 - `PermitRootLogin` 修改为`yes`
 - `PasswordAuthentication` 修改为`yes`
 
