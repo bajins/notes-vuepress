@@ -11,6 +11,7 @@
 
 
 
+
 ## 源码安装卸载软件
 
 > 编译时的路径如果指定了`--prefix /usr/local/xxx` 直接`rm -rf /usr/local/xxx`即可。

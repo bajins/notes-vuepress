@@ -8,11 +8,16 @@
 
 ## Flag
 
-* [Linux手册](https://learn-linux.readthedocs.io/zh_CN/latest)
-* [http://www.linuxbaike.com](http://www.linuxbaike.com)
-* [Linux网络编程](https://network.fasionchan.com/zh_CN/latest/index.html)
-* [OSX操作指南](https://osx-guide.readthedocs.io/zh_CN/latest)
-* [https://github.com/guodongxiaren/LinuxTool](https://github.com/guodongxiaren/LinuxTool)
++ [Linux手册](https://learn-linux.readthedocs.io/zh_CN/latest)
++ [http://www.linuxbaike.com](http://www.linuxbaike.com)
++ [Linux网络编程](https://network.fasionchan.com/zh_CN/latest/index.html)
++ [OSX操作指南](https://osx-guide.readthedocs.io/zh_CN/latest)
++ [https://github.com/guodongxiaren/LinuxTool](https://github.com/guodongxiaren/LinuxTool)
+
+* [vi命令（vi编辑器）](http://c.biancheng.net/vi)
+* [vi 编辑器使用向导](https://wiki.jikexueyuan.com/project/unix/the-vi-editor.html)
+* [Vim 从小白到入门](https://wsgzao.github.io/post/vim)
+* [https://vimjc.com/archives](https://vimjc.com/archives)
 
 
 - [https://lamp.sh](https://lamp.sh)
@@ -23,27 +28,12 @@
 * [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
 
 
-**编辑器**
 
-* [vi命令（vi编辑器）](http://c.biancheng.net/vi)
-* [vi 编辑器使用向导](https://wiki.jikexueyuan.com/project/unix/the-vi-editor.html)
-* [Vim 从小白到入门](https://wsgzao.github.io/post/vim)
-* [https://vimjc.com/archives](https://vimjc.com/archives)
+**发行版本**
 
+* [Linux发行版本排行](https://distrowatch.com/dwres.php?resource=popularity)
+* [Linux主流发行版本](https://distrowatch.com/dwres.php?resource=major)
 
-**监控工具**
-
-* [Linux工程师必备的88个监控工具](https://learn-linux.readthedocs.io/zh_CN/latest/maintenance/monitor/tools/80-linux-monitoring-tools.html)
-
-- `nethogs`: 按进程查看流量占用
-- `ethtool`: 诊断工具
-- `tcpdump`: 抓包工具
-- 监控总体带宽使用：`nload`、`bmon`、`slurm`、`bwm-ng`、`cbm`、`speedometer`、`netload`
-- 监控总体带宽使用（批量式输出）：`vnstat`、`ifstat`、`dstat`、`collectl`
-- 每个套接字连接的带宽使用：`iftop`、`iptraf`、`tcptrack`、`pktstat`、`netwatch`、`trafshow`、`jnettop`
-- `ntopng`
-- [https://github.com/aristocratos/bashtop](https://github.com/aristocratos/bashtop)
-- [https://github.com/aristocratos/bpytop](https://github.com/aristocratos/bpytop)
 
 
 
@@ -518,3 +508,22 @@ IPV6_MTU="1280"
 service network restart
 ```
 
+
+## 监控探针
+
+* [Linux工程师必备的88个监控工具](https://learn-linux.readthedocs.io/zh_CN/latest/maintenance/monitor/tools/80-linux-monitoring-tools.html)
+
+- `nethogs`: 按进程查看流量占用
+- `ethtool`: 诊断工具
+- `tcpdump`: 抓包工具
+- 监控总体带宽使用：`nload`、`bmon`、`slurm`、`bwm-ng`、`cbm`、`speedometer`、`netload`
+- 监控总体带宽使用（批量式输出）：`vnstat`、`ifstat`、`dstat`、`collectl`
+- 每个套接字连接的带宽使用：`iftop`、`iptraf`、`tcptrack`、`pktstat`、`netwatch`、`trafshow`、`jnettop`
+- `ntopng`
+- [https://github.com/aristocratos/bashtop](https://github.com/aristocratos/bashtop)
+- [https://github.com/aristocratos/bpytop](https://github.com/aristocratos/bpytop)
+
++ 带仪表盘的实时性能监控：[https://github.com/netdata/netdata](https://github.com/netdata/netdata)
++ 云探针、云监控、服务器云监控、多服务器探针 [https://github.com/cppla/ServerStatus](https://github.com/cppla/ServerStatus)
++ [https://github.com/CokeMine/ServerStatus-Hotaru](https://github.com/CokeMine/ServerStatus-Hotaru)
++ [https://github.com/BotoX/ServerStatus](https://github.com/BotoX/ServerStatus)
