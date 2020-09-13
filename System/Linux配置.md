@@ -206,21 +206,35 @@ su
 sudo -i
 # 更改ubuntu密码
 passwd ubuntu
+```
+
+**修改sshd_config中的参数**
+
+```bash
 # 编辑sshd_config文件
 vi /etc/ssh/sshd_config
-# 修改如下参数
-PermitRootLogin yes
-PasswordAuthentication yes
-UsePAM no
-PubkeyAuthentication yes
-# 或者执行命令直接修改
-sed -ri 's/^#?(PermitRootLogin)\s+(yes|no)/\1 yes/' /etc/ssh/sshd_config
-1
-sed -ri 's/^/#/;s/sleep 10"\s+/&\n/' /root/.ssh/authorized_keys
-1
-# 重启ssh
+```
+
+- `PermitRootLogin` 修改为`yes`
+- `PasswordAuthentication` 修改为`yes`
+- `UsePAM` 修改为`no`
+- `PubkeyAuthentication` 修改为`yes`
+
+**或者执行命令直接修改**
+
+```bash
+echo root:密码 |sudo chpasswd root
+sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
+sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
+#sed -ri 's/^#?(PermitRootLogin)\s+(yes|no)/\1 yes/' /etc/ssh/sshd_config
+#sed -ri 's/^/#/;s/sleep 10"\s+/&\n/' /root/.ssh/authorized_keys
+```
+
+**重启ssh**
+
+```bash
 service sshd restart
-/etc/init.d/ssh restart
+#/etc/init.d/ssh restart
 ```
 
 
