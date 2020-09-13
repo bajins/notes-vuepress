@@ -55,6 +55,8 @@
 > 虚拟专用服务器（VPS，VIRTUAL专用服务器，VDS）：采用虚拟软件，VZ或VM在一台物理服务器上虚拟出多个类似独立主机的部分，
 > 能够实现单机多用户，每个部分都可以做单独的操作系统，管理方法同主机一样。
 
+**[修改为root登录](/System/Linux配置.md#修改为root登录)**
+
 * GCP (Google Cloud Platform) [https://github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform)
     * [https://cloud.google.com/free](https://cloud.google.com/free)
     * [谷歌云搭建免费服务器并翻墙 | Levon's Blog](https://www.liuvv.com/p/b7e5827a)
@@ -65,7 +67,7 @@
     * [如果丢失私钥，连接到Linux实例](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/replacing-lost-key-pair.html)
     * [对连接到实例进行故障排除](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstancesConnecting.html)
     * [如何重试失败的付款？](https://aws.amazon.com/cn/premiumsupport/knowledge-center/retry-unsuccessful-payment)
-* Azure [https://azure.microsoft.com/free]https://azure.microsoft.com/free)
+* Azure [https://azure.microsoft.com/free](https://azure.microsoft.com/free)
 * Vultr
 * Digital Ocean
 * [https://www.oracle.com/cn/cloud/free](https://www.oracle.com/cn/cloud/free)
