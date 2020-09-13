@@ -215,19 +215,20 @@ passwd ubuntu
 vi /etc/ssh/sshd_config
 ```
 
-- `PermitRootLogin` 修改为`yes`
-- `PasswordAuthentication` 修改为`yes`
 - `UsePAM` 修改为`no`
+- `PermitRootLogin` 修改为`yes`
 - `PubkeyAuthentication` 修改为`yes`
+- `PasswordAuthentication` 修改为`yes`
 
 **或者执行命令直接修改**
 
 ```bash
 echo root:密码 |sudo chpasswd root
+sudo sed -ri 's/^#?(UsePAM)\s+(yes|no)/\1 no/' /etc/ssh/sshd_config
 sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
+sudo sed -i 's/^#\?PubkeyAuthentication.*/PubkeyAuthentication yes/g' /etc/ssh/sshd_config;
 sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
-#sed -ri 's/^#?(PermitRootLogin)\s+(yes|no)/\1 yes/' /etc/ssh/sshd_config
-#sed -ri 's/^/#/;s/sleep 10"\s+/&\n/' /root/.ssh/authorized_keys
+sudo sed -ri 's/^/#/;s/sleep 10"\s+/&\n/' /root/.ssh/authorized_keys
 ```
 
 **重启ssh**
