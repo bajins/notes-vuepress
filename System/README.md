@@ -81,6 +81,9 @@
 
 * [比较 Windows 10 的不同版本](https://www.microsoft.com/zh-cn/windowsforbusiness/compare)
 * [Windows 10 版本的版本信息](https://docs.microsoft.com/zh-cn/windows/release-information)
+* [Windows 10 更新历史记录](https://support.microsoft.com/zh-cn/help/4555932)
+* [Windows 生命周期说明书](https://support.microsoft.com/zh-cn/help/13853/windows-lifecycle-fact-sheet)
+* [将 MBR 分区转换为 GPT](https://docs.microsoft.com/zh-cn/windows/deployment/mbr-to-gpt)
 
 
 **Wifi频繁断线**

@@ -12,6 +12,12 @@
 
 * [https://github.com/gitblit/gitblit](https://github.com/gitblit/gitblit)
 
+- GH存档 [https://www.gharchive.org](https://www.gharchive.org)
+- GitHub每周趋势 [https://github.com/SolaTyolo/gold_github_trending](https://github.com/SolaTyolo/gold_github_trending)
+- GitHub每天趋势 [https://github.com/yangwenmai/github-trending-backup](https://github.com/yangwenmai/github-trending-backup)
+- 记录GitHub趋势 [https://github.com/xiaobaiha/github-trending-history](https://github.com/xiaobaiha/github-trending-history)
+- 获取统计信息 [https://github.com/shroudedcode/devstats](https://github.com/shroudedcode/devstats)
+
 
 **Gogs**
 

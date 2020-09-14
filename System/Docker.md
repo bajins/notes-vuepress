@@ -28,10 +28,18 @@
 + podman [https://github.com/containers](https://github.com/containers)
     + [再见 Docker，是时候拥抱下一代容器工具了](https://mp.weixin.qq.com/s/MDi4RB5V60EGl3ii9usD0Q)
     + [podman初试-和docker对比](https://blog.51cto.com/13447608/2448072)
-+ Kubernetes的软件包管理器 [https://github.com/helm](https://github.com/helm)
-+ [https://github.com/dokku](https://github.com/dokku)
-+ [https://github.com/cloudfoundry](https://github.com/cloudfoundry)
-    + [https://github.com/cloudfoundry-incubator](https://github.com/cloudfoundry-incubator)
+
+* [从开发者的角度比较Kubernetes和Cloud Foundry](http://dockone.io/article/5679)
+* [https://github.com/kubernetes](https://github.com/kubernetes)
+    * [https://kubernetes.io](https://kubernetes.io)
+* Kubernetes的软件包管理器 [https://github.com/helm](https://github.com/helm)
+* [https://github.com/dokku](https://github.com/dokku)
+* [https://github.com/cloudfoundry](https://github.com/cloudfoundry)
+    * [https://github.com/cloudfoundry-incubator](https://github.com/cloudfoundry-incubator)
+    * [https://www.cloudfoundry.org](https://www.cloudfoundry.org)
+* [cloud-foundry 的动态 - SegmentFault 思否](https://segmentfault.com/t/cloud-foundry)
+* 谷歌、IBM、微软、Pivotal、SAP、SUSE、Swisscom、GE
+
 
 
 **Docker搭建私有仓库**
