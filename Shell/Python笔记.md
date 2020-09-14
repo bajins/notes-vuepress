@@ -14,6 +14,15 @@
 * [Python利用ConfigParser读取配置文件](https://www.cnblogs.com/sui776265233/p/13299490.html)
 
 
+## 字符串
+
+- `r""` r-string表示去除转义字符，即`\n`表示一个反斜杠字符，一个字母n，而不是换行。以r开头的字符，常用于正则表达式，对应re模块。
+- `f""` f-string表示在字符串内支持大括号内的python 表达式，如果需要使用大括号字符串，则应输入连续两个大括号 `{{}}`转义
+- `b""` b-string表示这是一个 bytes 对象
+- `u""` u-string表示后面字符串以 Unicode 格式 进行编码，一般用在中文字符串前面，防止因为源码储存格式问题，导致再次使用时出现乱码。
+- `"""内容"""` 表示Multiline String 多行字符串、Template String 模板字符串、Text Blocks 文本块
+
+
 ## os模块
 
 - `os.chdir(path)` 改变当前工作目录
@@ -334,7 +343,7 @@ except ValueError:
 * [Python连接SQLite数据库](https://www.yiibai.com/sqlite/python-with-sqlite.html)
 
 
-### SQLAlchemy
+**SQLAlchemy**
 
 * [https://www.sqlalchemy.org](https://www.sqlalchemy.org)
 * [使用SQLAlchemy](https://www.liaoxuefeng.com/wiki/1016959663602400/1017803857459008)
@@ -463,17 +472,6 @@ if __name__ == '__main__':
         "_wpcf7_version": (None, "5.1.1"),
         "_wpcf7_locale": (None, "en_US"),
         "_wpcf7_unit_tag": (None, "wpcf7-f3016-p4203-o2"),
-        "_wpcf7_container_post": (None, "4203"),
-        "g-recaptcha-response": (None, ""),
-        "md": (None, "setDownload"),
-        "language": (None, "3"),
-        "downloadType": (None, "0"),
-        "licenseType": (None, "0"),
-        "action": (None, "/json/download/process.html"),
-        "user-name": (None, "nb7ospo00@shorttimemail.com"),
-        "email": (None, "nb7ospo00@shorttimemail.com"),
-        "company": (None, ""),
-        "productName": (None, "xshell-download"),
     }
     res = requests.post("https://www.netsarang.com/json/download/process.html", files=data,
                         headers={"User-Agent": USER_AGENT}, verify=False, timeout=600)
@@ -495,17 +493,6 @@ if __name__ == '__main__':
         "_wpcf7_version": "5.1.1",
         "_wpcf7_locale": "en_US",
         "_wpcf7_unit_tag": "wpcf7-f3016-p4203-o2",
-        "_wpcf7_container_post": "4203",
-        "g-recaptcha-response": "",
-        "md": "setDownload",
-        "language": "3",
-        "downloadType": "0",
-        "licenseType": "0",
-        "action": "/json/download/process.html",
-        "user-name": "nb7ospo00@shorttimemail.com",
-        "email": "nb7ospo00@shorttimemail.com",
-        "company": "",
-        "productName": "xshell-download",
     }
     payload = ""
     boundary = "----WebKitFormBoundary67TaDgLkWD9HrhlW"
@@ -534,17 +521,6 @@ if __name__ == '__main__':
         "_wpcf7_version": "5.1.1",
         "_wpcf7_locale": "en_US",
         "_wpcf7_unit_tag": "wpcf7-f3016-p4203-o2",
-        "_wpcf7_container_post": "4203",
-        "g-recaptcha-response": "",
-        "md": "setDownload",
-        "language": "3",
-        "downloadType": "0",
-        "licenseType": "0",
-        "action": "/json/download/process.html",
-        "user-name": "nb7ospo00@shorttimemail.com",
-        "email": "nb7ospo00@shorttimemail.com",
-        "company": "",
-        "productName": "xshell-download",
     }
     # 注意这里的 - 符号的数量，默认有两个
     (payload, content_type) = encode_multipart_formdata(data, boundary='----WebKitFormBoundary67TaDgLkWD9HrhlW')
@@ -572,167 +548,12 @@ if __name__ == '__main__':
             "_wpcf7_version": "5.1.1",
             "_wpcf7_locale": "en_US",
             "_wpcf7_unit_tag": "wpcf7-f3016-p4203-o2",
-            "_wpcf7_container_post": "4203",
-            "g-recaptcha-response": "",
-            "md": "setDownload",
-            "language": "3",
-            "downloadType": "0",
-            "licenseType": "0",
-            "action": "/json/download/process.html",
-            "user-name": "nb7ospo00@shorttimemail.com",
-            "email": "nb7ospo00@shorttimemail.com",
-            "company": "",
-            "productName": "xshell-download",
         }
     )
     res = requests.post("https://www.netsarang.com/json/download/process.html", me,
                         headers={"User-Agent": USER_AGENT, "Content-Type": me.content_type}, verify=False,
                         timeout=600)
     print(res.text)
-```
-
-
-
-
-## 删除文件脚本
-
-```python
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-import os
-import sys
-import time
-import datetime
-import operator
-
-
-def is_valid_date(strdate):
-    # 判断是否是一个有效的日期字符串
-    try:
-        if ":" in strdate:
-            time.strptime(strdate, "%Y-%m-%d %H:%M:%S")
-        else:
-            time.strptime(strdate, "%Y-%m-%d")
-        return True
-    except:
-        return False
-
-
-# 自定义函数
-def getFile(pathName, prefix, suffix, array):
-    # 在函数中释放一个list所占内存
-    del array[:]
-    # 清空list
-    # array.clear()
-    # 获取文件list数组
-    files_list = os.listdir(pathName)
-    # print(files_list) #当前目录路径
-    # 遍历路径下的文件
-    for file in files_list:
-        # 截取文件名
-        fname = os.path.splitext(file)
-
-        if fname[0].count(".") <= 0:
-            # strip()删除任意字符，isdigit()判断是否为数字字符串
-            # if fname[0] == prefix and suffix.isdigit() and fname[1].strip(".").isdigit():
-                # 添加到list中
-                # array.append(file)
-            # strip()删除任意字符，isalpha()判断是否为字母字符串
-            # if fname[0] == prefix and suffix.isalpha() and fname[1].strip(".").isalpha():
-                # 添加到list中
-                # array.append(file)
-            # strip()删除任意字符，isalnum()判断是否为字母、数字、字母数字组合 等字符串
-            if fname[0] == prefix and suffix.isalnum() and fname[1].strip(".").isalnum():
-                # 添加到list中
-                array.append(file)
-        else:
-            splits = fname[0].split(".")
-            # is_valid_date判断是否为日期格式
-            if operator.eq(splits[0], prefix) == 0 and is_valid_date(suffix) and is_valid_date(splits[1]):
-                # 添加到list中
-                array.append(file)
-            # cmp判断两个字符串，如果相等就为0，如果第一个字符串包含第二个为-1，如果第二个包含第一个为1
-            elif operator.eq(splits[0], prefix) == 0 and suffix.isalnum() and fname[1].strip(".").isalnum():
-                # 添加到list中
-                array.append(file)
-    # 排序
-    array.sort()
-    return array
-
-
-print("".center(40,"="))
-if len(sys.argv) < 3:
-    print("请输入参数：第一个参数为文件路径！第二个参数为保留多少个文件！")
-    print("注意文件名后缀如果为数字那么将只删除后缀为数字的文件，同理后缀为字母或者字母数字组成一样的效果！")
-    quit()
-
-print("执行脚本名：", sys.argv[0])
-print("".center(40,":"))
-print(f"执行时间：{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-print("".center(40,":"))
-
-# 参数1为文件路径
-parameter = sys.argv[1]
-# 参数2为要保留的文件个数
-keep = int(sys.argv[2])
-
-# for i in range(1, len(sys.argv)):
-#    print "参数:第", i,"个='", sys.argv[i],"'"
-print("参数："+parameter)
-
-
-n = parameter.rindex('/')  # 从后往前寻找最后一次出现的位置
-if n == -1:
-    print("请输入正确的文件路径！")
-    print("".center(40,"="))
-    quit()
-
-# 截取文件路径
-pathName = parameter[0:n]
-
-# 截取文件名
-fileName = parameter[n+1:]
-# 对文件名拆分
-showCount = fileName.count(".")
-if (showCount > 0):
-    print("文件名中'.'出现的次数："+str(showCount))
-
-split = fileName.split(".")
-# 获取文件前缀
-prefix = split[0]
-# 获取文件后缀,并去掉.
-suffix = split[1].strip(".")
-
-L = []
-# 调用自定义函数
-L = getFile(pathName, prefix, suffix, L)
-# 获取list长度
-leng = len(L)
-print("查找到"+str(leng)+"个文件！")
-
-if leng > keep:
-    if keep > 1:
-        # 循环输入的参数，移除list中元素
-        # reversed这种索引是按从大到小的顺序排列，就相当于range(5-1,-1,-1)
-        for i in range(keep):
-            del L[leng-(i+1)]
-    elif keep == 1:
-        del L[leng-keep]
-
-    for i in L:
-        os.remove(pathName+"/"+i)
-        print("删除文件：", i)
-
-    newL = []
-    # 调用自定义函数
-    newL = getFile(pathName, prefix, suffix, L)
-    print("保留的文件：", newL)
-else:
-    print("没有可删除文件".center(20,"*"))
-
-print("".center(40,"="))
-
 ```
 
 
