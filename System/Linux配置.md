@@ -173,15 +173,9 @@ vi /root/.bashrc
 ```bash
 echo '=========================================================='
 # 查看系统发行版信息
-#cat /etc/os-release
-#lsb_release -a
-# 查询系统版本（包括内核、GCC）
-cat /proc/version
-cat /etc/issue
+sed -n -e 's/PRETTY_NAME=//gp' /etc/os-release
 # 查询内核版本
-#uname -sr
-# 查看cpu相关信息（型号、主频、内核）
-#cat /proc/cpuinfo
+cat /proc/version
 echo '=========================================================='
 # 查询目前所有文件系统的可用空间及使用情形
 df -h
@@ -191,6 +185,29 @@ free -h
 echo '=========================================================='
 # 切换到home文件夹
 cd /home
+```
+
+```bash
+# 查看系统发行版信息
+cat /etc/*release
+cat /etc/os-release
+cat /usr/lib/os-release
+# 输出NAME和VERSION
+source /etc/os-release && echo $PRETTY_NAME
+sed -n -e 's/PRETTY_NAME=//gp' /etc/os-release
+cat /etc/os-release | grep ^PRETTY_NAME= | awk -F= '{print $2}'
+# 输出NAME部分
+sed -n -e '/PRETTY_NAME/ s/^.*=\|"\| .*//gp' /etc/os-release
+cat /etc/os-release | grep "PRETTY_NAME" | sed 's/PRETTY_NAME=//g' | sed 's/["]//g' | awk '{print $1}'
+cat /etc/issue
+cat /etc/issue.net
+# 查询内核版本
+cat /proc/version
+cat /proc/sys/kernel/ostype /proc/sys/kernel/osrelease
+dmesg | grep 'Linux version'
+uname -sr
+# 查看cpu相关信息（型号、主频、内核）
+cat /proc/cpuinfo
 ```
 
 
