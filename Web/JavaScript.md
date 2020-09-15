@@ -114,14 +114,23 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 
 ## 第三方依赖库
 
++ [https://plugins.jquery.com](https://plugins.jquery.com)
++ 添加XHR2 responseType支持的jQuery插件 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
++ [https://github.com/tonytomov/jqGrid](https://github.com/tonytomov/jqGrid)
++ [https://github.com/topics/jquery-validation](https://github.com/topics/jquery-validation)
+    + [https://github.com/jquery-validation](https://github.com/jquery-validation)
+        + [https://www.runoob.com/jquery/jquery-plugin-validate.html](https://www.runoob.com/jquery/jquery-plugin-validate.html)
++ [https://github.com/DataTables/DataTables](https://github.com/DataTables/DataTables)
++ [https://github.com/malihu/malihu-custom-scrollbar-plugin](https://github.com/malihu/malihu-custom-scrollbar-plugin)
++ [https://github.com/rochal/jQuery-slimScroll](https://github.com/rochal/jQuery-slimScroll)
 
-* [https://plugins.jquery.com](https://plugins.jquery.com)
-* 添加XHR2 responseType支持的jQuery插件 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
-* [https://github.com/tonytomov/jqGrid](https://github.com/tonytomov/jqGrid)
-* [https://github.com/topics/jquery-validation](https://github.com/topics/jquery-validation)
-    * [https://github.com/jquery-validation](https://github.com/jquery-validation)
-        * [https://www.runoob.com/jquery/jquery-plugin-validate.html](https://www.runoob.com/jquery/jquery-plugin-validate.html)
-* [https://github.com/DataTables/DataTables](https://github.com/DataTables/DataTables)
+
+* [https://github.com/jashkenas/coffeescript](https://github.com/jashkenas/coffeescript)
+* [https://github.com/observablehq](https://github.com/observablehq)
+* [https://github.com/documentcloud](https://github.com/documentcloud)
+* debounce（防抖）、throttle（节流／限频） [https://github.com/jashkenas/underscore](https://github.com/jashkenas/underscore)
+    * [https://underscorejs.net](https://underscorejs.net)
+* 模板语言 [https://github.com/handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js)
 * 日期处理类库 [https://github.com/moment/moment](https://github.com/moment/moment)
     * [http://momentjs.cn](http://momentjs.cn)
 * [https://github.com/matthewhudson/current-device](https://github.com/matthewhudson/current-device)

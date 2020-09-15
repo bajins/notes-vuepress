@@ -5,6 +5,21 @@
 
 
 
+## Flag
+
+* [https://developer.mozilla.org/zh-CN/docs/Web/HTML](https://developer.mozilla.org/zh-CN/docs/Web/HTML)
+
+**template**
+
+* [https://www.html5rocks.com/zh/tutorials/webcomponents/template](https://www.html5rocks.com/zh/tutorials/webcomponents/template)
+* [https://caniuse.com/?search=template](https://caniuse.com/?search=template)
+
+> 当`type=text/html`或`type="text/template"`的时候，`<script>`片断中定义一个被JS调用的代码，标签里的内容不会被执行，
+> 页面渲染的时，浏览器不会读取script标签中的html代码，所以不会在页面上显示。
+
+* [script type="text/html"](https://blog.csdn.net/qq_37796475/article/details/79342234)
+
+
 
 ## Meta标签
 

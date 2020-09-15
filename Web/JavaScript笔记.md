@@ -7,6 +7,12 @@
 
 ## Flag
 
+* [性能提速：debounce（防抖）、throttle（节流／限频）](https://www.cnblogs.com/hity-tt/p/7852888.html)
+* [js实现 throttle 和 debounce](https://blog.csdn.net/u013475983/article/details/88874248)
+* [函数节流与函数防抖](https://www.cnblogs.com/guohanyang/p/13446062.html)
+* [JS函数节流和分时函数](http://c.biancheng.net/view/5761.html)
+
+
 **循环loop**
 
 - `for` 多次遍历代码块
@@ -350,6 +356,8 @@ document.querySelectorAll()
 
 ## 获取宽高
 
+* [https://developer.mozilla.org/zh-CN/docs/Web/API/Window/matchMedia](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/matchMedia)
+
 ```js
 // 屏幕可用工作区宽度
 screen.availWidth
@@ -405,9 +413,13 @@ document.documentElement.scrollHeight
 
 ## 监听窗口变化
 
+* [window.onresize或者$(window).resize()触发两次](https://blog.csdn.net/soindy/article/details/53886921)
+
 ```js
 window.onresize = function () {
-    $(window).width();
+    var res;
+    if (res){clearTimeout(res)}
+    res = setTimeout(function(){console.log($(window).width(););},20);
 }
 $(window).resize(function () {
     $(window).width();
