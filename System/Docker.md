@@ -33,6 +33,7 @@
 * [https://github.com/kubernetes](https://github.com/kubernetes)
     * [https://kubernetes.io](https://kubernetes.io)
 * Kubernetes的软件包管理器 [https://github.com/helm](https://github.com/helm)
+* [https://github.com/dapr](https://github.com/dapr)
 * [https://github.com/dokku](https://github.com/dokku)
 * [https://github.com/cloudfoundry](https://github.com/cloudfoundry)
     * [https://github.com/cloudfoundry-incubator](https://github.com/cloudfoundry-incubator)

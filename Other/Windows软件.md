@@ -29,7 +29,7 @@
 
 * [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
     * [Chrome下载/插件/DevTools/账号迁移](/IDE/Chrome.md)
-* [https://www.microsoft.com/en-us/edge](https://www.microsoft.com/en-us/edge)
+* [https://www.microsoft.com/zh-cn/edge](https://www.microsoft.com/zh-cn/edge)
 * [https://www.mozilla.org/zh-CN/firefox/all](https://www.mozilla.org/zh-CN/firefox/all)
 
 
