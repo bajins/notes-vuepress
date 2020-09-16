@@ -43,6 +43,7 @@
     * [https://devstats.cncf.io](https://devstats.cncf.io)
 * [https://www.fsf.org/resources](https://www.fsf.org/resources)
 * [https://projects.ow2.org](https://projects.ow2.org)
+* [https://www.openstack.org/software](https://www.openstack.org/software)
 * [https://github.com/yahoo](https://github.com/yahoo)
 * [https://github.com/adobe](https://github.com/adobe)
 

@@ -31,6 +31,7 @@
 
 * [从开发者的角度比较Kubernetes和Cloud Foundry](http://dockone.io/article/5679)
 * [https://github.com/kubernetes](https://github.com/kubernetes)
+    * [https://github.com/kubernetes-incubator](https://github.com/kubernetes-incubator)
     * [https://kubernetes.io](https://kubernetes.io)
 * Kubernetes的软件包管理器 [https://github.com/helm](https://github.com/helm)
 * [https://github.com/dapr](https://github.com/dapr)
@@ -44,6 +45,11 @@
 * Packer
 * 谷歌、IBM、微软、Pivotal、SAP、SUSE、Swisscom、GE
 * DevOps
+* [https://github.com/kata-containers](https://github.com/kata-containers)
+    * [https://www.katacoda.com](https://www.katacoda.com)
+    * [https://github.com/hyperhq](https://github.com/hyperhq)
+        * [https://www.hyperhq.com](https://www.hyperhq.com)
+    * [https://github.com/clearcontainers](https://github.com/clearcontainers)
 
 
 **Docker搭建私有仓库**

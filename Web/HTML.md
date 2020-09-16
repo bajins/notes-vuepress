@@ -19,7 +19,7 @@
 > 当`type=text/html`或`type="text/template"`的时候，`<script>`片断中定义一个被JS调用的代码，标签里的内容不会被执行，
 > 页面渲染的时，浏览器会默认添加`display:none;`并且不会读取script标签中的html代码，所以不会在页面上显示。
 
-> 无法直接操作`<script>`和``<template>`标签内的内容
+> 无法直接操作`<script>`和``<template>`标签内的内容，也不能使用选择器定位子元素
 
 * [script type="text/html"](https://blog.csdn.net/qq_37796475/article/details/79342234)
 

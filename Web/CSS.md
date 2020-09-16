@@ -8,6 +8,7 @@
 
 ## Flag
 
+* [https://drafts.csswg.org/css-cascade](https://drafts.csswg.org/css-cascade)
 * [https://developer.mozilla.org/zh-CN/docs/Web/CSS](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
 * CSS3/CSS2/CSS 教程 [http://www.w3chtml.com/css3](http://www.w3chtml.com/css3)
 * HTML系列教程 [https://www.w3school.com.cn/h.asp](https://www.w3school.com.cn/h.asp)
@@ -458,7 +459,7 @@ div:hover{
 
 
 
-## 优先级和权重
+## 优先级权重恢复
 
 > 权重决定了你css规则怎样被浏览器解析直到生效。css权重关系到你的css规则是怎样显示的
 
@@ -479,3 +480,8 @@ div:hover{
 | 同胞选择器               	| -                      	| 0     	|
 
 * [css的优先级 和 权重](https://www.cnblogs.com/cnblogs-jcy/p/8574177.html)
+
+- [inherit](https://developer.mozilla.org/zh-CN/docs/Web/CSS/inherit) 该值使得属性能够继承祖先设置
+- [initial](https://developer.mozilla.org/zh-CN/docs/Web/CSS/initial) 属于CSS-wide关键字，属性初始值
+- [unset](https://developer.mozilla.org/zh-CN/docs/Web/CSS/unset) 擦除属性申明，如果属性是默认继承属性，等同于inherit，如果属性是非继承属性，等同于initial，unset属于CSS-wide关键字
+- [revert](https://developer.mozilla.org/zh-CN/docs/Web/CSS/revert) 重置当前样式来源（style origin）的样式
