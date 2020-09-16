@@ -45,7 +45,7 @@
         "lodash": "^4.17.20",
         "lodash.template": "^4.5.0",
         "mixin-deep": "^2.0.1",
-        "moment": "^2.27.0",
+        "moment": "^2.28.0",
         "node-sass": "^4.14.1",
         "package": "^1.0.1",
         "querystringify": "2.2.0",
@@ -60,6 +60,6 @@
         "vuepress": "^1.5.4",
         "vuepress-plugin-flowchart": "^1.4.3",
         "vuepress-plugin-rss": "^2.0.0",
-        "vuepress-theme-reco": "^1.5.5"
+        "vuepress-theme-reco": "^1.5.7"
     }
 }
