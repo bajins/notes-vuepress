@@ -57,6 +57,8 @@
     * [申请Oracle Cloud永久免费服务+300美元试用额度](https://51.ruyo.net/14138.html)
     * 不建议使用用Oracle Linux镜像，无法设置root密码登录
 * Azure [https://azure.microsoft.com/free](https://azure.microsoft.com/free)
+    * [https://portal.azure.com](https://portal.azure.com)
+    * [申请微软Azure服务免费12个月+$200 额度+永久免费(25+项服务)](https://www.daniao.org/7057.html)
 * AWS 免费套餐 [https://console.aws.amazon.com/billing/home#/freetier](https://console.aws.amazon.com/billing/home#/freetier)
     * [https://www.cloudping.info](https://www.cloudping.info)
     * [手把手教你撸12个月亚马逊（AWS）的云服务器](https://www.zhunaozi.com/411.html)

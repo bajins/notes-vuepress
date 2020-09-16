@@ -67,9 +67,12 @@
 * [https://glitch.com](https://glitch.com)
 * [https://aws.amazon.com/cn/cloud9](https://aws.amazon.com/cn/cloud9)
 * [https://github.com/eclipse/che](https://github.com/eclipse/che)
+    * [https://github.com/openshift](https://github.com/openshift)
     * [https://github.com/fabric8-launcher](https://github.com/fabric8-launcher)
     * [https://www.eclipse.org/che/getting-started/cloud](https://www.eclipse.org/che/getting-started/cloud)
     * `https://che.openshift.io/dashboard/#/load-factory/?url=https://github.com/账户名/仓库名`
+    * [https://che.openshift.io](https://che.openshift.io)
+    * [https://manage.openshift.com](https://manage.openshift.com)
 * [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
     * `https://gitpod.io/#https://github.com/账户名/仓库名`
     * [![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/woytu/notes-vuepress)

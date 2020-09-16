@@ -259,6 +259,8 @@
 
 ## VSCode插件
 
+* [https://github.com/redhat-developer](https://github.com/redhat-developer)
+
 
 **中文语言**
 

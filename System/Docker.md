@@ -39,8 +39,11 @@
     * [https://github.com/cloudfoundry-incubator](https://github.com/cloudfoundry-incubator)
     * [https://www.cloudfoundry.org](https://www.cloudfoundry.org)
 * [cloud-foundry 的动态 - SegmentFault 思否](https://segmentfault.com/t/cloud-foundry)
+* [https://www.terraform.io](https://www.terraform.io)
+* Ansible
+* Packer
 * 谷歌、IBM、微软、Pivotal、SAP、SUSE、Swisscom、GE
-
+* DevOps
 
 
 **Docker搭建私有仓库**
@@ -92,6 +95,9 @@
     * [https://github.com/CCChieh/IBMYes](https://github.com/CCChieh/IBMYes)
 * [https://github.com/codefresh-io](https://github.com/codefresh-io)
     * [https://codefresh.io](https://codefresh.io)
+* [https://github.com/kubesail](https://github.com/kubesail)
+    * [https://kubesail.com](https://kubesail.com)
+* [https://azure.microsoft.com/zh-cn/services/devops/pipelines](https://azure.microsoft.com/zh-cn/services/devops/pipelines)
 
 
 
