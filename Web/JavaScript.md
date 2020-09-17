@@ -9,6 +9,7 @@
 
 > Vanilla JS 就是指JavaScript
 
+* Ecma 国际，技术委员会 [https://github.com/tc39](https://github.com/tc39)
 * ECMAScript支持度检测 [https://github.com/ruanyf/es-checker](https://github.com/ruanyf/es-checker)
 * [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese)
 
@@ -120,6 +121,7 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 + [https://github.com/topics/jquery-validation](https://github.com/topics/jquery-validation)
     + [https://github.com/jquery-validation](https://github.com/jquery-validation)
         + [https://www.runoob.com/jquery/jquery-plugin-validate.html](https://www.runoob.com/jquery/jquery-plugin-validate.html)
+    + [https://github.com/DiegoLopesLima/Validate](https://github.com/DiegoLopesLima/Validate)
 + [https://github.com/DataTables/DataTables](https://github.com/DataTables/DataTables)
 + [https://github.com/malihu/malihu-custom-scrollbar-plugin](https://github.com/malihu/malihu-custom-scrollbar-plugin)
 + [https://github.com/rochal/jQuery-slimScroll](https://github.com/rochal/jQuery-slimScroll)
@@ -131,10 +133,16 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * debounce（防抖）、throttle（节流／限频） [https://github.com/jashkenas/underscore](https://github.com/jashkenas/underscore)
     * [https://underscorejs.net](https://underscorejs.net)
 * 模板语言 [https://github.com/handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js)
-* 日期处理类库 [https://github.com/moment/moment](https://github.com/moment/moment)
+* 日期处理类库 [https://github.com/moment](https://github.com/moment)
     * [http://momentjs.cn](http://momentjs.cn)
-* [https://github.com/matthewhudson/current-device](https://github.com/matthewhudson/current-device)
-* 转换编译器 [https://babeljs.io](https://babeljs.io)
+    * 你不需要Moment.js [https://github.com/you-dont-need/You-Dont-Need-Momentjs](https://github.com/you-dont-need/You-Dont-Need-Momentjs)
+    * [https://github.com/moment/luxon](https://github.com/moment/luxon)
+* [https://github.com/js-joda](https://github.com/js-joda)
+* [https://github.com/iamkun/dayjs](https://github.com/iamkun/dayjs)
+* [https://github.com/date-fns](https://github.com/date-fns)
+* 当前设备 [https://github.com/matthewhudson/current-device](https://github.com/matthewhudson/current-device)
+* 转换编译器 [https://github.com/babel](https://github.com/babel)
+    * [https://babeljs.io](https://babeljs.io)
     * [https://www.babeljs.cn](https://www.babeljs.cn)
 * 压缩或编码解码库 [https://github.com/photopea](https://github.com/photopea)
 * 压缩 [https://github.com/photopea](https://github.com/nodeca/pako)
