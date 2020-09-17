@@ -19,7 +19,7 @@
 * [https://www.scintilla.org](https://www.scintilla.org)
 * [http://www.pnotepad.org](http://www.pnotepad.org)
 * [https://github.com/adobe/brackets](https://github.com/adobe/brackets)
-
+* [https://github.com/bobbylight](https://github.com/bobbylight)
 
 
 
@@ -33,11 +33,10 @@
 - `Tab`替换为空格：设置->首选项->语言->制表符设置->(勾选上)替换为空格
 - 显示特殊字符
     - 显示回车符，换行符，TAB键，行首，行尾等特殊字符
-    - 视图(V) ⇒ 显示符号 ⇒ 显示空格与制表符
-- 删除未包含内容的行： 
-    - <kbd>Ctrl</kbd> + <kbd>F</kbd> ⇒ 选择`标记`标签页（或者<kbd>Alt</kbd> + <kbd>S</kbd> 然后按
-<kbd>K</kbd>） ⇒ 查找目标输入正则表达式 ⇒ 勾选`正则表达式`、`标记所在行`、`清除上次标记` ⇒ 点击`全部标记`
-    - 点击菜单栏 `搜索` ⇒ `书签` ⇒ `删除未标记行`
+    - 视图(V) -> 显示符号 -> 显示空格与制表符
+- 删除未包含内容的行： <kbd>Ctrl</kbd> + <kbd>F</kbd> -> 选择`标记`标签页（或者<kbd>Alt</kbd> + <kbd>S</kbd> 然后按
+<kbd>K</kbd>） -> 查找目标输入正则表达式 -> 勾选`正则表达式`、`标记所在行`、`清除上次标记` -> 点击`全部标记` ->
+ 点击菜单栏 `搜索` -> `书签` -> `删除未标记行`
 
 
 

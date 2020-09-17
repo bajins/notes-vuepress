@@ -57,11 +57,15 @@
 
 + 垂直标尺： `Window` -> `Preferences` -> `General` -> `Editors` -> `Text Editors` -> `Show Print Margin`
 
-- Java 格式化： `Window` -> `Preferences` -> `Java` -> `Code Style` -> `Formatter` -> `New` -> `Edit` -> `Line Wrapping`
-   - `Maximum Line width`
-   - `Set line width for preview window`
-- `Window` -> `Preferences` -> `Java` -> `Code Style` -> `Formatter` -> `New` -> `Edit` -> `Comments`
-   - `Maximum line width for comments`
+- Java 格式化： `Window` -> `Preferences` -> `Java` -> `Code Style` -> `Formatter` -> `New` -> `Edit`
+   - -> `Line Wrapping`
+      - `Maximum Line width`
+      - `Set line width for preview window`
+      - -> `Binary expressions` -> `Line wrapping policy` -> `Wrap all elements,every elements on a new line`
+      - -> `Function Calls` -> `Qualified invocations` -> `Wrap all elements,every elements on a new line` 连续调用不换行
+      - `Never join already wrapped lines` 不格式化已换行的
+   - -> `Comments`
+      - `Maximum line width for comments`
 - JavaScript 格式化： `Window` -> `Preferences` -> `JavaScript` -> `Code Style` -> `Formatter` -> `New` -> `Edit` -> `Line Wrapping`
    - `Maximum Line width`
    - `Set line width for preview window`

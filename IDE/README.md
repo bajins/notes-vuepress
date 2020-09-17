@@ -106,7 +106,8 @@
 + [https://www.activedbsoft.com](https://www.activedbsoft.com)
 + [https://www.razorsql.com](https://www.razorsql.com)
 + [https://www.aquafold.com](https://www.aquafold.com)
-
++ [https://sourceforge.net/projects/squirrel-sql](https://sourceforge.net/projects/squirrel-sql)
+    + [http://www.squirrelsql.org](http://www.squirrelsql.org)
 
 
 ## 原型设计
