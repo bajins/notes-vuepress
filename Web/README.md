@@ -125,6 +125,7 @@
 * [https://github.com/zhangximufeng/vuepress-theme-mufeng](https://github.com/zhangximufeng/vuepress-theme-mufeng)
 * [https://github.com/ZjBlog/vuepress-theme-zjblog](https://github.com/ZjBlog/vuepress-theme-zjblog)
 * [https://github.com/recoluan/vuepress-theme-reco](https://github.com/recoluan/vuepress-theme-reco)
+* [https://github.com/xugaoyi/vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing)
 * [https://github.com/zp961214/Blog](https://github.com/zp961214/Blog)
 
 
