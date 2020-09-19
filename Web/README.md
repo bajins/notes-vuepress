@@ -79,6 +79,8 @@
 
 * 静态编译VuePress [https://github.com/vuejs/vuepress](https://github.com/vuejs/vuepress)
     * [https://github.com/vuepressjs/awesome-vuepress](https://github.com/vuepressjs/awesome-vuepress)
+    * [https://github.com/search?q=vuepress-theme](https://github.com/search?q=vuepress-theme)
+    * [https://github.com/topics/vuepress-theme](https://github.com/topics/vuepress-theme)
 * 静态编译NuxtJs [https://github.com/nuxt](https://github.com/nuxt)
 * 静态编译Hexo [https://github.com/hexojs/hexo](https://github.com/hexojs/hexo)
 * 静态编译Hugo [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
@@ -99,35 +101,6 @@
 
 - [https://carrd.co](https://carrd.co)
 - [https://neocities.org](https://neocities.org)
-
-
-### VuePress主题
-
-+ [https://github.com/topics/vuepress-theme](https://github.com/topics/vuepress-theme)
-
-* [https://github.com/ktquez/vuepress-theme-ktquez](https://github.com/ktquez/vuepress-theme-ktquez)
-* [https://github.com/zhhlwd/vuepress-theme-indigo-material](https://github.com/zhhlwd/vuepress-theme-indigo-material)
-* [https://github.com/meteorlxy/vuepress-theme-meteorlxy](https://github.com/meteorlxy/vuepress-theme-meteorlxy)
-* [https://github.com/2020807070/vuepress-theme-cchao](https://github.com/2020807070/vuepress-theme-cchao)
-* [https://github.com/tolking/vuepress-theme-ououe](https://github.com/tolking/vuepress-theme-ououe)
-* [https://github.com/ocavue/vuepress-theme-blogue](https://github.com/ocavue/vuepress-theme-blogue)
-* [https://github.com/xuzhongpeng/vuepress-theme-reform](https://github.com/xuzhongpeng/vuepress-theme-reform)
-* [https://github.com/yuicer/vuepress-theme-yuicer](https://github.com/yuicer/vuepress-theme-yuicer)
-* [https://github.com/Coolyang1996/vuepress-theme-eugeo](https://github.com/Coolyang1996/vuepress-theme-eugeo)
-* [https://github.com/YoungsunLi/vuepress-theme-concise](https://github.com/YoungsunLi/vuepress-theme-concise)
-* [https://github.com/hirCodd/vuepress-theme-tassel](https://github.com/hirCodd/vuepress-theme-tassel)
-* [https://github.com/leCapsimRy/vuepress-theme-cycle](https://github.com/leCapsimRy/vuepress-theme-cycle)
-* [https://github.com/a298003154/vuepress-theme-hhh](https://github.com/a298003154/vuepress-theme-hhh)
-* [https://github.com/ms-design/vuepress-theme-fluent](https://github.com/ms-design/vuepress-theme-fluent)
-* [https://github.com/zp961214/vuepress-theme-lovely](https://github.com/zp961214/vuepress-theme-lovely)
-* [https://github.com/HKChen/vuepress-theme-prettyPure](https://github.com/HKChen/vuepress-theme-prettyPure)
-* [https://github.com/summer1874/vuepress-theme-neon](https://github.com/summer1874/vuepress-theme-neon)
-* [https://github.com/zhangximufeng/vuepress-theme-mufeng](https://github.com/zhangximufeng/vuepress-theme-mufeng)
-* [https://github.com/ZjBlog/vuepress-theme-zjblog](https://github.com/ZjBlog/vuepress-theme-zjblog)
-* [https://github.com/recoluan/vuepress-theme-reco](https://github.com/recoluan/vuepress-theme-reco)
-* [https://github.com/xugaoyi/vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing)
-* [https://github.com/zp961214/Blog](https://github.com/zp961214/Blog)
-
 
 
 ### 静态部署

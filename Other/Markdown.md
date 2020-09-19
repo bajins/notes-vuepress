@@ -19,6 +19,7 @@
 * [https://segmentfault.com/markdown](https://segmentfault.com/markdown)
 * [https://github.com/guodongxiaren/README](https://github.com/guodongxiaren/README)
 * [markdown语法大全](https://www.rumosky.wiki/docs/markdown)
+* [https://guides.github.com/features/mastering-markdown](https://guides.github.com/features/mastering-markdown)
 * Markdeep是Markdown的超集 [https://github.com/morgan3d/markdeep](https://github.com/morgan3d/markdeep)
 
 - [https://github.com/topics/emoji](https://github.com/topics/emoji)
