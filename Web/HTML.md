@@ -21,6 +21,8 @@
 
 > 无法直接操作`<script>`和`<template>`标签内的内容，也不能使用选择器定位子元素，所以不建议使用`<div style="display: none">`
 
+> 还有一种方式是使用`<div style="display: none">`然后把标签内容缓存到JS，然后移除这个标签，这样就同等`<script>`和`<template>`
+
 * [script type="text/html"](https://blog.csdn.net/qq_37796475/article/details/79342234)
 
 

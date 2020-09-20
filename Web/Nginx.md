@@ -407,6 +407,9 @@ if ($allow = no) {
 
 ## 主配置
 
+* [Nginx配置文件解析](https://blog.csdn.net/DeliaPu/article/details/108647180)
+* [nginx - HowOldAreYou - 博客园](https://www.cnblogs.com/wxxjianchi/p/13582252.html)
+
 ```conf
 
 user www www;

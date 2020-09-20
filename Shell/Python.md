@@ -93,6 +93,7 @@
     * [GitHub等海外大文件快速中转下载](https://mp.weixin.qq.com/s/DH8jXalZiBcX3KhrPdDw8w)
 * [https://github.com/googlecolab](https://github.com/googlecolab)
     * [https://colab.research.google.com](https://colab.research.google.com)
+* [https://console.cloud.google.com/ai-platform/notebooks](https://console.cloud.google.com/ai-platform/notebooks)
 * CoCalc [https://cocalc.com](https://cocalc.com)
 * Azure Notebooks [https://notebooks.azure.com](https://notebooks.azure.com)
     * [Azure Notebooks 预览版概述](https://docs.microsoft.com/zh-cn/azure/notebooks/azure-notebooks-overview)
