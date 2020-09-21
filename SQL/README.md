@@ -272,6 +272,8 @@ OPTIMIZE TABLE 表名;
 
 
 
+
+
 ## 标准SQL
 
 > 在标准 SQL 中，字符串使用的是单引号。
@@ -451,3 +453,35 @@ select * from OB_CALL_DATA_LOG rownum<101  minus  select * from OB_CALL_DATA_LOG
     - 右外连接，right join右边的是主表： `select b.name,bo.* form boys bo right outer join  beauty b on b.'boyfriend_id' = bo.'id';`
     - 全外连接，等于内连接的结果，加上表1有但表2没有的，加上表2有表一没有的 use girls; `select b.*,bo.* from beauty b full outer join boys bo on b.'boyfriend_id' = 'bo.id';`
     - 交叉连接：`select b.*,bo.* form beauty b cross join boys bo;`
+
+
+
+
+### CASE
+
+> 同其他编程语言中的`switch...case`或`if...else`语句，可以直接在`order by` 后面使用自定义排序
+
+> Case函数在满足了某个符合条件后，剩下的条件将会被自动忽略，因此，即使满足多个条件，执行过程中也只认第一个条件。
+> 在使用 CASE WHEN时，可以把它当作一个没有字段名的字段，字段值根据条件确认，在需要使用字段名时可以是用 `as` 来定义别名。
+
+- 简单Case函数
+
+> 简单Case函数胜在简洁，但是它只适用于这种单字段的单值比较
+
+```sql
+CASE sex
+WHEN '0' THEN '男'
+WHEN '1' THEN '男'
+WHEN '2' THEN '女'
+ELSE '其他' END
+```
+
+- Case搜索函数
+
+> Case搜索函数的优点在于适用于所有比较的情况
+
+```sql
+CASE WHEN sex = '1' and sex = '0' THEN '男'
+WHEN sex = '2' THEN '女'
+ELSE '其他' END
+```

@@ -59,6 +59,7 @@ chrome://flags/#enable-parallel-downloading
     - 老版本， ┇ -> Settings -> Perference -> DevTools
     - 新版本， ┇ -> More tools -> Settings -> Perference -> Global
 
++ `Source` -> 在JS被调用的方法中打断点 -> `Watch`查看变量，`Call Stack` 查看调用堆栈（同`console.trace()`）
 
 
 ## 插件
