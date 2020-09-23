@@ -156,6 +156,13 @@
     - `Organize impots` 自动优化管理导入的包
 
 
+### SUN内部包不存在
+
+> `sun.misc`（sun公司的内部方法，不属于JDK标准库范畴）包下的`BASE64Encoder`及`BASE64Decoder`来进行的
+
+- 项目右键 -> `Build Path` -> `Configure Build Path` -> `Java Build Path` -> `Libraries` -> 展开`JRE System Libraries`
+-> 选中`Access rules` -> 点击`Edit` -> 弹窗点击`Add` -> `Resolution`选择`Accessible` -> `Rule Pattern`输入`**` -> 点击`OK`
+
 
 
 ## 注释模板

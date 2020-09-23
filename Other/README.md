@@ -137,6 +137,18 @@
 **图床**
 
 * [http://img.wang](http://img.wang)
+* 即刻图床 [http://jiketuchuang.com](http://jiketuchuang.com)
+* 图壳 [https://imgkr.com](https://imgkr.com)
+* 开源图床 [https://imgurl.org](https://imgurl.org)
+* 简单图床 [https://img.545141.com](https://img.545141.com)
+* SM.MS [https://sm.ms](https://sm.ms)
+* 牛图网 [https://www.niupic.com](https://www.niupic.com)
+* 路过图床 [https://imgchr.com](https://imgchr.com)
+* 零度图床 [http://pic.ibilibili.xyz](http://pic.ibilibili.xyz)
+* 无畏图床 [https://img.5vwan.com](https://img.5vwan.com)
+* 虫洞图床 [https://dj.ci](https://dj.ci)
+* [https://lookimg.com](https://lookimg.com)
+* [https://imgkr.com](https://imgkr.com)
 
 
 **文件分享**

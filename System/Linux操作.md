@@ -26,7 +26,7 @@
 - [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625)
 
 * [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
-
+* 提供状态线和提示 [https://github.com/powerline/powerline](https://github.com/powerline/powerline)
 
 
 **发行版本**

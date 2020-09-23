@@ -178,6 +178,8 @@ vi /usr/libexec/urlgrabber-ext-down
 
 * [Python包管理工作流](https://frostming.com/2018/09-14/python-packaging-flow)
 
+- `python3-pip`
+
 
 ### 镜像源
 

@@ -196,7 +196,7 @@ git commit --amend
 # --mixed 默认参数，不删除工作空间改动代码，撤销commit，并且撤销git add . 操作
 # --soft 不删除工作空间改动代码，撤销commit，不撤销git add . 
 # --hard 删除工作空间改动代码，撤销commit，撤销git add . 
-# HEAD^的代表上一个版本，同HEAD~1，撤销2次commit，使用HEAD~2，以此类推
+# HEAD^的代表上一个版本，同HEAD~1(或HEAD@{1})，撤销2次commit，使用HEAD~2(或HEAD@{2})，以此类推
 git reset HEAD^
 ```
 
@@ -243,6 +243,7 @@ git config --system --unset credential.helper
 - 查看commit历史，并复制需要回退版本的hash
 
 ```bash
+# 或者git reflog show
 git log 文件名
 ```
 

@@ -355,8 +355,12 @@ slmgr /ato
 
 **Android**
 
-* [https://github.com/termux](https://github.com/termux)
++ [SSH client for Android](https://github.com/search?o=desc&q=SSH+client+for+Android&s=updated&type=Repositories)
+
+* [https://github.com/topics/termux](https://github.com/topics/termux)
+    * [https://github.com/termux](https://github.com/termux)
 * [https://github.com/connectbot/connectbot](https://github.com/connectbot/connectbot)
+* [https://www.juicessh.com](https://www.juicessh.com)
 * [https://github.com/niklas-8/RemoteFiles](https://github.com/niklas-8/RemoteFiles)
 
 
