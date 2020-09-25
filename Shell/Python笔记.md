@@ -443,7 +443,7 @@ print(res.read().decode("utf-8"))
 
 ```python
 import ssl
-# 如果import urllib，则在使用urllib.request时会报错
+# 如果import urllib，在使用urllib.request时会报错
 import urllib.request
 
 
@@ -456,6 +456,9 @@ req = urllib.request.Request("https://api.github.com/repos/rclone/rclone/release
 res = urllib.request.urlopen(req, timeout=30)
 # 解析相应.进行解码
 print(res.read().decode("utf-8"))
+
+# 下载文件
+urllib.request.urlretrieve("https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png")
 ```
 
 
