@@ -48,11 +48,14 @@
 
 + [https://github.com/jobbole/awesome-python-cn](https://github.com/jobbole/awesome-python-cn)
 + [https://github.com/vinta/awesome-python](https://github.com/vinta/awesome-python)
-+ [python3 中执行系统命令](https://www.jianshu.com/p/a19de14c4b57)
-+ [Python图像处理库—-Pillow](https://www.lizenghai.com/archives/17611.html)
-+ [https://github.com/aio-libs](https://github.com/aio-libs)
-+ [Python Selenium教程 - 猿人学Python](https://www.yuanrenxue.com/python-selenium)
++ [Python 常用的标准库以及第三方库有哪些？](https://www.zhihu.com/question/20501628/answers/updated)
 
+* [python3 中执行系统命令](https://www.jianshu.com/p/a19de14c4b57)
+* [Python图像处理库—-Pillow](https://www.lizenghai.com/archives/17611.html)
+* [https://github.com/aio-libs](https://github.com/aio-libs)
+* Python的下一代HTTP客户端 [https://github.com/encode/httpx](https://github.com/encode/httpx)
+* 简单的Python日志记录 [https://github.com/Delgan/loguru](https://github.com/Delgan/loguru)
+* [https://github.com/jpadilla/pyjwt](https://github.com/jpadilla/pyjwt)
 * [https://github.com/Arronlong/py_scripts](https://github.com/Arronlong/py_scripts)
 * Python字节码反汇编器/反编译器 [https://github.com/zrax/pycdc](https://github.com/zrax/pycdc)
 
@@ -70,12 +73,24 @@
 - [https://github.com/topics/ops](https://github.com/topics/ops)
 - [https://github.com/topics/automation](https://github.com/topics/automation)
 - [https://github.com/pyecharts/pyecharts](https://github.com/pyecharts/pyecharts)
+- 简繁转换 [https://github.com/gumblex/zhconv](https://github.com/gumblex/zhconv)
 
+
+**HTML文档解析**
+
+- Beautiful Soup 4 的中文文档 [https://github.com/DeronW/beautifulsoup](https://github.com/DeronW/beautifulsoup)
+    - [https://beautifulsoup.readthedocs.io](https://beautifulsoup.readthedocs.io)
+- [https://github.com/html5lib/html5lib-python](https://github.com/html5lib/html5lib-python)
+- 类似于jQuery的python库 [https://github.com/gawel/pyquery](https://github.com/gawel/pyquery)
+- [https://github.com/lxml/lxml](https://github.com/lxml/lxml)
+- [https://github.com/psf/requests-html](https://github.com/psf/requests-html)
+- [https://github.com/scrapy/parsel](https://github.com/scrapy/parsel)
 
 
 
 ## Jupyter Notebook
 
++ [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab)
 + [https://github.com/jupyter](https://github.com/jupyter)
     + [https://jupyter.org](https://jupyter.org)
     + [https://zh.wikipedia.org/wiki/Jupyter](https://zh.wikipedia.org/wiki/Jupyter)

@@ -288,7 +288,7 @@ done.add_done_callback(thread_call_back)
 ```
 
 
-### asyncio
+### Asyncio协程
 
 * [异步IO](https://www.liaoxuefeng.com/wiki/1016959663602400/1017959540289152)
 * [Python3.5协程学习研究](https://thief.one/2018/06/21/1)
@@ -442,8 +442,13 @@ print(res.read().decode("utf-8"))
 ```
 
 ```python
+import ssl
 # 如果import urllib，则在使用urllib.request时会报错
 import urllib.request
+
+
+# 不验证证书，或者打开Python3文件夹, 执行 Install Certificates.command 文件
+ssl._create_default_https_context = ssl._create_unverified_context
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
 req = urllib.request.Request("https://api.github.com/repos/rclone/rclone/releases/latest",
@@ -461,18 +466,22 @@ print(res.read().decode("utf-8"))
 
 ```python
 import requests
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) " \
              "Chrome/77.0.3865.75 Safari/537.36 "
 
 
 if __name__ == '__main__':
+    # 移除不验证SSL的警告
+    requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
     data = {
         "_wpcf7": (None, "3016"),
         "_wpcf7_version": (None, "5.1.1"),
         "_wpcf7_locale": (None, "en_US"),
         "_wpcf7_unit_tag": (None, "wpcf7-f3016-p4203-o2"),
     }
+    # verify=False移除SSL认证
     res = requests.post("https://www.netsarang.com/json/download/process.html", files=data,
                         headers={"User-Agent": USER_AGENT}, verify=False, timeout=600)
     print(res.text)

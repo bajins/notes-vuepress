@@ -18,7 +18,6 @@
 + [https://github.com/topics/web-crawler](https://github.com/topics/web-crawler)
 
 
-
 * [https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China](https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China)
 * [xvfb可以将屏幕的图像输出给放到虚拟内存中](https://blog.csdn.net/wkb342814892/article/details/81591394)
 * [https://github.com/scrapy/scrapy](https://github.com/scrapy/scrapy)
@@ -33,8 +32,8 @@
 ps -efww|grep LOCAL=chromedriver|grep -v grep|cut -c 9-15|xargs kill -9
 ```
 
-
 ```batch
+:: Windows
 taskkill /f /im chromedriver.exe
 ```
 
