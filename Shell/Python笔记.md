@@ -23,6 +23,56 @@
 - `"""内容"""` 表示Multiline String 多行字符串、Template String 模板字符串、Text Blocks 文本块
 
 
+## 日志打印
+
+* [Python + logging 输出到屏幕，将log日志写入文件](https://www.cnblogs.com/nancyzhu/p/8551506.html)
+* [Python：print显示颜色](https://www.cnblogs.com/hanfe1/p/10664942.html)
+
+```python
+import traceback
+# 打印堆栈信息
+traceback.print_stack()
+
+import sys
+# 当前输出文件和行号
+print("\033[0;31m[%s@%s]\033[0m" % (__file__, sys._getframe().f_lineno), "test")
+
+import logging
+import logging.config
+
+# logging.basicConfig(
+#     level=logging.DEBUG,
+#     format='%(asctime)s [%(threadName)s] [%(name)s] [%(levelname)s] %(filename)s[line:%(lineno)d] %(message)s',
+#     datefmt='%Y-%m-%d %H:%M:%S',
+#     handlers=(logging.StreamHandler(), logging.FileHandler('faker.log'))  # 往屏幕上输出，和输出到文件
+# )
+
+# create logger
+logger_name = "example"
+logger = logging.getLogger(logger_name)
+logger.setLevel(logging.DEBUG)
+
+# create file handler
+log_path = "./faker.log"
+fh = logging.FileHandler(log_path)
+fh.setLevel(logging.WARNING)
+
+# create formatter
+fmt = '%(asctime)s [%(threadName)s] [%(name)s] [%(levelname)s] %(filename)s[line:%(lineno)d] %(message)s'
+
+# add handler and formatter to logger
+fh.setFormatter(logging.Formatter(fmt, '%Y-%m-%d %H:%M:%S'))
+logger.addHandler(fh)
+
+logger.debug('log debug')
+logger.info('log info')
+logger.warning('log warning')
+logger.error('log error')
+logger.critical('log critical')
+```
+
+
+
 ## os模块
 
 - `os.chdir(path)` 改变当前工作目录

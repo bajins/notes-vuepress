@@ -236,9 +236,7 @@
 
 
 
-
 * 国家代码，电话代码，拨号代码，电话代码，ISO国家代码: [https://countrycode.org](https://countrycode.org)
-* [https://github.com/philipperemy/name-dataset](https://github.com/philipperemy/name-dataset)
 
 
 **生成完整用户信息**
@@ -282,25 +280,22 @@
 
 **GitHub**
 
-+ [https://github.com/search?o=desc&q=fake+name&s=updated&type=Repositories](https://github.com/search?o=desc&q=fake+name&s=updated&type=Repositories)
++ [https://github.com/search?q=faker](https://github.com/search?q=faker)
++ [https://pypi.org/search/?q=Faker](https://pypi.org/search/?q=Faker)
 
+- [https://github.com/philipperemy/name-dataset](https://github.com/philipperemy/name-dataset)
 
 * [https://github.com/marak/Faker.js](https://github.com/marak/Faker.js)
-* [https://github.com/thm/uinames](https://github.com/thm/uinames)
 * [https://github.com/RandomAPI/Randomuser.me-Node](https://github.com/RandomAPI/Randomuser.me-Node)
 * [https://github.com/dmgk/faker](https://github.com/dmgk/faker)
 * [https://github.com/arakelian/faker](https://github.com/arakelian/faker)
 * [https://github.com/travishorn/fake-identity](https://github.com/travishorn/fake-identity)
 * [https://github.com/corbanworks](https://github.com/corbanworks)
 * [https://github.com/MrKinauJr/FakeNameGenerator](https://github.com/MrKinauJr/FakeNameGenerator)
-
-+ [https://pypi.org/search/?q=Faker](https://pypi.org/search/?q=Faker)
-
 * [https://github.com/faker-ruby/faker](https://github.com/faker-ruby/faker)
 * [https://github.com/fzaninotto/Faker](https://github.com/fzaninotto/Faker)
 * [https://github.com/joke2k/faker](https://github.com/joke2k/faker)
-    * [faker_examples.py](https://github.com/woytu/reptile-python/blob/master/faker_examples.py)
-* [https://github.com/thiagofigueiro/faker_web](https://github.com/thiagofigueiro/faker_web)
+    * [faker_examples.py](https://github.com/woytu/scripts-python/blob/master/faker_examples.py)
 
 
 
