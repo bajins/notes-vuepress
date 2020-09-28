@@ -281,6 +281,8 @@
 + [https://github.com/topics/m3u](https://github.com/topics/m3u)
 + [https://github.com/iptv-org](https://github.com/iptv-org)
 
+- [https://github.com/FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg)
+
 * [foobar2000](http://blog.sina.com.cn/go2spa)
 * [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
 * [https://github.com/mpv-player/mpv](https://github.com/mpv-player/mpv)
@@ -615,7 +617,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 ## other
 
 * [https://www.sandboxie.com](https://www.sandboxie.com)
-* [FFmpeg-视频编辑](https://github.com/FFmpeg/FFmpeg)
+* [傲梅分区助手PartAssist](https://www.lanzoux.com/b0f1etedc)
 * [显示当前网速、CPU及内存利用率的桌面悬浮窗软件](https://github.com/zhongyang219/TrafficMonitor)
 * [http://wenlei.ys168.com](http://wenlei.ys168.com)
 * 简化快捷键 [https://github.com/szzhiyang](https://github.com/szzhiyang)
@@ -655,3 +657,13 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 - 文档转换 [https://github.com/topics/converter](https://github.com/topics/converter)
     - [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
+
+
++ [http://www.downloadsoftware.ir](http://www.downloadsoftware.ir)
++ [https://www.0daydown.com](https://www.0daydown.com)
++ [https://downloadly.ir](https://downloadly.ir)
++ [https://repack.me](https://repack.me)
++ [https://lrepacks.ru](https://lrepacks.ru)
++ [https://mac-torrents.io](https://mac-torrents.io)
++ [https://4howcrack.com](https://4howcrack.com)
++ [https://free4pc.org](https://free4pc.org)

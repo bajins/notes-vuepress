@@ -301,6 +301,44 @@ cdnjs.cloudflare.com            cdnjs.loli.net
 
 
 
+**Xpath基本语法**
+
+- `/` 从根节点选取，下级节点
+- `//` 任意节点选取
+- `*` 任意标签选取
+- `@` 选取属性
+- `..` 选取当前节点的父节点
+- `text()` 匹配节点全部链接文字
+- `contains(a,b)` 匹配节点部分链接文字
+- `last()` 选取最后一个
+
+
+**Xpath定位和Selector定位的区别**
+
+| 定位方式                                          	| Xpath                                	| Css Selector      	|
+|---------------------------------------------------	|--------------------------------------	|-------------------	|
+| find_element_by_id("id值")                        	| //*[@id="id值"]                      	| #id值             	|
+| find_element_by_name("name值")                    	| //*[@name="name值"]                  	| [name="name值"]   	|
+| find_element_by_class_name("class name")    	        |  class name                     	    | .class name 	|
+| find_element_by_tag_name("标签名")                	| //标签名                             	| 标签名            	|
+| find_element_by_link_text("链接文字")             	| //a[text()="链接文字"]               	| 不支持            	|
+| find_element_by_partial_link_text("部分链接文字") 	| //a[contains(text(),"部分链接文字")] 	| 不支持            	|
+
+
+|  Target                  	|  CSS 3             	|  XPath                          	|
+|--------------------------	|--------------------	|---------------------------------	|
+|  所有元素                	|  *                 	|  //*                            	|
+|  所有的P元素             	|  p                 	|  //p                            	|
+|  所有的p元素的子元素     	|  p > *             	|  //p/*                          	|
+|  根据ID获取元素          	|  /转义/#id         	|  //*[@id= ‘id’]                 	|
+|  根据Class获取元素       	|  .class            	|  //*[contains(@class, ‘class’)] 	|
+|  拥有某个属性的元素      	|  *[title]          	|  //*[@title]                    	|
+|  所有P元素的第一个子元素 	|  p > *:first-child 	|  //p/*[0]                       	|
+|  所有拥有子元素a的P元素  	|  无法实现          	|  //p[a]                         	|
+|  下一个兄弟元素          	|  P + *             	|  //p/following-sibling::*[0]    	|
+
+
+
 
 ## 保存直聘简历
 
