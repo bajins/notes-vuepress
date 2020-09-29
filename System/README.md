@@ -166,7 +166,9 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 ### WinPE
 
-* [微PE](http://www.wepe.com.cn)
+* [http://rufus.ie](http://rufus.ie)
+* [https://github.com/balena-io/etcher](https://github.com/balena-io/etcher)
+* 微PE [http://www.wepe.com.cn](http://www.wepe.com.cn)
 * [USBOS](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965&extra=page%3D1)
 * [光卡自己的 PE 项目](https://hikaricalyx.com)
 * [优启时代](http://www.uqi.me/catalog.asp?cate=1)

@@ -39,6 +39,8 @@
 * [python3基础教程](https://morvanzhou.github.io/tutorials/python-basic/basic)
 * Python中的设计模式和习惯用法的集合 [https://github.com/faif/python-patterns](https://github.com/faif/python-patterns)
 * Python中文网 [https://www.cnpython.com](https://www.cnpython.com)
+* [https://hellopython.readthedocs.io](https://hellopython.readthedocs.io)
+    * [https://github.com/meizhaohui/vueblog](https://github.com/meizhaohui/vueblog)
 
 + [深挖python上下文管理——类的__init__、__enter__、__exit__、__del__在with下的表现](https://blog.csdn.net/qq_27884799/article/details/101535569)
 + [深入理解 Python 中的上下文管理器](https://www.cnblogs.com/wongbingming/p/10519553.html)
@@ -77,6 +79,13 @@
 - [https://github.com/topics/automation](https://github.com/topics/automation)
 - [https://github.com/pyecharts/pyecharts](https://github.com/pyecharts/pyecharts)
 - 简繁转换 [https://github.com/gumblex/zhconv](https://github.com/gumblex/zhconv)
+- [https://github.com/pyexcel](https://github.com/pyexcel)
+- [https://github.com/jmcnamara/XlsxWriter](https://github.com/jmcnamara/XlsxWriter)
+- [https://foss.heptapod.net/openpyxl/openpyxl](https://foss.heptapod.net/openpyxl/openpyxl)
+    - [https://openpyxl.readthedocs.io](https://openpyxl.readthedocs.io)
+- [https://github.com/mhammond/pywin32](https://github.com/mhammond/pywin32)
+    - [winreg --- Windows 注册表访问](https://docs.python.org/zh-cn/3/library/winreg.html)
+
 
 
 **HTML文档解析**

@@ -5,15 +5,6 @@
 
 
 
-
-## Flag
-
-* [winreg --- Windows 注册表访问](https://docs.python.org/zh-cn/3/library/winreg.html)
-
-- [https://github.com/mhammond/pywin32](https://github.com/mhammond/pywin32)
-
-
-
 ## wxPython
 
 * [https://wxpython.org/pages/overview/](https://wxpython.org/pages/overview)
