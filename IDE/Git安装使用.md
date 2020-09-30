@@ -345,6 +345,17 @@ git log master..origin/master
 | 提交本地修改     	| 只需关心子模块即可，子模块的所有操作与普通git项目相同                                      	| 提交执行命令相对复杂一些         	| submodule操作更简单，submodule占优 	|
 
 
+- `git submodule add 链接 路径` 添加子模块，路径建议使用`_`
+- `git submodule init` 初始化子模块
+- `git submodule update` 下载子模块源码
+- `git submodule update --init --recursive` 递归下载子模块的源码，并初始化
+- `git submodule foreach 'git checkout -f'` git强制更新所有submodule
+- `git pull` 把子模块看作单独的仓库，进入到子模块目录下，更新submodule，拉取后项目有需要提交的更新
+- `rm -rf 模块名` 删除子模块目录文件
+- `vim .gitmodules` 移除子模块的索引信息
+- `vim .git/config` 移除子模块的配置信息
+- `rm -rf .git/modules/模块名` 移除子模块的其他信息
+- `git rm --cached 模块名` 删除缓存，提示`fatal: pathspec 'xxxxx' did not match any files` 说明删除干净了
 
 
 
@@ -395,6 +406,8 @@ git config --global http.lowSpeedTime 999999
 > compression 是压缩的意思，从 clone 的终端输出就知道，服务器会压缩目标文件，然后传输到客户端，客户端再解压。
 > 取值为 [-1, 9]，-1 以 zlib 为默认压缩库，0 表示不进行压缩，1..9 是压缩速度与最终获得文件大小的不同程度的权衡，
 > 数字越大，压缩越慢，当然得到的文件会越小。
+
+
 
 ### 提交本地文件失败
 
