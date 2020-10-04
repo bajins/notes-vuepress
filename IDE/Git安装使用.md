@@ -11,8 +11,6 @@
 
 * [https://github.com/git](https://github.com/git)
   * [https://git-scm.com](https://git-scm.com)
-* 对大型文件进行版本控制 [https://github.com/git-lfs](https://github.com/git-lfs)
-  * [https://git-lfs.github.com](https://git-lfs.github.com)
 * [https://www.syntevo.com](https://www.syntevo.com)
 * [https://github.com/github/gitignore](https://github.com/github/gitignore)
 * [为您的项目创建有用的.gitignore文件](https://github.com/toptal/gitignore.io)
@@ -32,6 +30,22 @@
 
 
 **[Commit提交规范](/Other/技术概念规范.md#commit提交规范)**
+
+**Git LFS**
+
+* 对大型文件进行版本控制 [https://github.com/git-lfs](https://github.com/git-lfs)
+  * [https://git-lfs.github.com](https://git-lfs.github.com)
+
+> Git LFS（Large File Storage, 大文件存储）可以把指定的任意文件存在 Git 仓库之外，
+> 而在 Git 仓库中用一个占用空间 1KB 不到的文本指针，可以减小 Git 仓库本身的体积来代替的小工具。
+
+> git每次保存diff，一些大文件发生变化时，整个仓库就会增加很大的体积，导致clone和pull的数据量大增。
+> git push的时候，git lfs会截取要管理的大文件，并将其传至git lfs的服务器中，从而减小仓库的体积。
+
+- `git lfs track "*.gz"` 添加文件到`.gitattributes`追踪记录文件中
+- `git lfs ls-files` 显示当前提交后跟踪的文件列表
+- `git lfs clone` 克隆追踪的文件
+
 
 
 ## 安装最新版
