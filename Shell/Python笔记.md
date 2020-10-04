@@ -14,6 +14,11 @@
 * [Python利用ConfigParser读取配置文件](https://www.cnblogs.com/sui776265233/p/13299490.html)
 
 
+1. 列表和元组相比，可直接调用的函数更多也可以进行更改，但是元组一经定义就无法更改，所以首推列表。
+2. 在python中是没有数组类型的，如果非要使用数组，可以用`numpy`库实现对数组的定义
+
+
+
 ## 字符串
 
 - `r""` r-string表示去除转义字符，即`\n`表示一个反斜杠字符，一个字母n，而不是换行。以r开头的字符，常用于正则表达式，对应re模块。
@@ -473,7 +478,6 @@ top_stats = snapshot.statistics('lineno')  # 快照对象的统计
 
 * [urllib — URL handling modules](https://docs.python.org/3/library/urllib.html)
 * [http — HTTP modules](https://docs.python.org/3/library/http.html)
-* [https://github.com/psf/requests](https://github.com/psf/requests)
 * [Python3 内置http.client,urllib.request及三方库requests发送请求对比](https://www.cnblogs.com/superhin/p/11455240.html)
 
 ```python

@@ -502,3 +502,17 @@ git config --global --unset http.proxy
 ```
 
 
+### push错误
+
+**`The following untracked working tree files would be overwritten by merge/checkout`**
+
+- `git clean -d -fx`
+  - `-n` 显示将要删除的文件和目录；
+  - `-x` 删除忽略文件已经对git来说不识别的文件
+  - `-d` 删除未被添加到git的路径中的文件
+  - `-f` 强制运行
+
+
+**`fatal: refusing to merge unrelated histories`**
+
+- `git pull origin master --allow-unrelated-histories` 可以允许不相关历史提，强制合并

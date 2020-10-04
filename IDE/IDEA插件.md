@@ -26,7 +26,8 @@
 
 ## MyBatisCodeHelper-Pro
 
-* [文档](https://gejun123456.github.io/MyBatisCodeHelper-Pro/#)
+* [https://plugins.jetbrains.com/plugin/14522-mybatiscodehelperpro-marketplace-edition-](https://plugins.jetbrains.com/plugin/14522-mybatiscodehelperpro-marketplace-edition-)
+* [https://github.com/gejun123456/MyBatisCodeHelper-Pro](https://github.com/gejun123456/MyBatisCodeHelper-Pro)
 * [MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
 * [https://zhile.io/categories/software-debug](https://zhile.io/categories/software-debug)
 

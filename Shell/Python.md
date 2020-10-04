@@ -64,6 +64,9 @@ with Test() as t: # 触发__exit__
 * [python3 中执行系统命令](https://www.jianshu.com/p/a19de14c4b57)
 * [Python图像处理库—-Pillow](https://www.lizenghai.com/archives/17611.html)
 * [https://github.com/aio-libs](https://github.com/aio-libs)
+* [https://github.com/psf/requests](https://github.com/psf/requests)
+    * [https://github.com/requests](https://github.com/requests)
+    * [https://github.com/not-kennethreitz](https://github.com/not-kennethreitz)
 * Python的下一代HTTP客户端 [https://github.com/encode/httpx](https://github.com/encode/httpx)
 * 简单的Python日志记录 [https://github.com/Delgan/loguru](https://github.com/Delgan/loguru)
 * [https://github.com/jpadilla/pyjwt](https://github.com/jpadilla/pyjwt)
@@ -209,16 +212,26 @@ vi /usr/libexec/urlgrabber-ext-down
 
 ## pip
 
+* [https://github.com/pypa/pip](https://github.com/pypa/pip)
+    * [https://pypi.org](https://pypi.org)
+* [https://packaging.python.org/tutorials/installing-packages](https://packaging.python.org/tutorials/installing-packages)
 * [Python包管理工作流](https://frostming.com/2018/09-14/python-packaging-flow)
 
 - `python3-pip`
 
+* [https://github.com/conda/conda](https://github.com/conda/conda)
+* [https://github.com/jazzband/pip-tools](https://github.com/jazzband/pip-tools)
+* [https://github.com/python-poetry/poetry](https://github.com/python-poetry/poetry)
+* [https://github.com/pyenv/pyenv](https://github.com/pyenv/pyenv)
+* [https://github.com/asdf-vm/asdf](https://github.com/asdf-vm/asdf)
+    * [https://github.com/danhper/asdf-python](https://github.com/danhper/asdf-python)
+* [https://github.com/frostming/pdm](https://github.com/frostming/pdm)
+* [https://bitbucket.org/virtualenvwrapper/virtualenvwrapper](https://bitbucket.org/virtualenvwrapper/virtualenvwrapper)
+* [https://github.com/davidmarble/virtualenvwrapper-win](https://github.com/davidmarble/virtualenvwrapper-win)
+
+
 
 ### 镜像源
-
-* [https://pypi.python.org](https://pypi.python.org)
-* [https://pypi.org](https://pypi.org)
-
 
 - 阿里云 [https://mirrors.aliyun.com/pypi/simple](https://mirrors.aliyun.com/pypi/simple)
 - 中国科技大学 [https://pypi.mirrors.ustc.edu.cn/simple](https://pypi.mirrors.ustc.edu.cn/simple)

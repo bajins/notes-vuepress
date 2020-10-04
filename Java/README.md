@@ -266,10 +266,15 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 **JSON**
 
-- Jakarta JSON处理规范，API和兼容的实现：[https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
++ [https://github.com/json-schema-org](https://github.com/json-schema-org)
++ Jakarta JSON处理规范，API和兼容的实现：[https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
+
 - [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
 - [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)
 - [https://github.com/google/gson](https://github.com/google/gson)
+- [https://github.com/everit-org/json-schema](https://github.com/everit-org/json-schema)
+- [https://github.com/java-json-tools/json-schema-validator](https://github.com/java-json-tools/json-schema-validator)
+
 
 
 **Cache**
