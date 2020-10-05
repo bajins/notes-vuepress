@@ -12,10 +12,10 @@ exit /b
 
 f.click();
 
-alert("µ±Ç°Ñ¡ÔñµÄÎÄ¼ş£º"+f.value);
+alert("å½“å‰é€‰æ‹©çš„æ–‡ä»¶ï¼š"+f.value);
 
 var sfo = new ActiveXObject('Scripting.FileSystemObject');
-// »ñÈ¡TextStream¶ÔÏó.²ÎÊı£º0ÊäÈëÁ÷,1Êä³öÁ÷,2´íÎóÁ÷.
+// è·å–TextStreamå¯¹è±¡.å‚æ•°ï¼š0è¾“å…¥æµ,1è¾“å‡ºæµ,2é”™è¯¯æµ.
 sfo.GetStandardStream(1).Write(f.value);
 close();
 

@@ -1,6 +1,6 @@
 1>1/* ::
 :: -------------------------------------------------------------------
-::                          ×Ô¶¯ÉèÖÃGitHubHosts
+::                          è‡ªåŠ¨è®¾ç½®GitHubHosts
 ::                     by https://www.bajins.com
 ::                   GitHub https://woytu.github.io
 :: -------------------------------------------------------------------
@@ -24,9 +24,9 @@ if '%errorlevel%' NEQ '0' ( goto UACPrompt ) else ( goto GetAdmin )
 :StartCommand
 ::-------------------------------------------------------------------------------
 
-:: ¿ªÆôÑÓ³Ù»·¾³±äÁ¿À©Õ¹
-:: ½â¾öfor»òifÖĞ²Ù×÷±äÁ¿Ê±ÌáÊ¾ECHO OFFÎÊÌâ£¬ÓÃ!!È¡±äÁ¿
-:: ½â¾öµ÷ÓÃjscriptÌáÊ¾ÃüÁî´íÎóÎÊÌâ
+:: å¼€å¯å»¶è¿Ÿç¯å¢ƒå˜é‡æ‰©å±•
+:: è§£å†³foræˆ–ifä¸­æ“ä½œå˜é‡æ—¶æç¤ºECHO OFFé—®é¢˜ï¼Œç”¨!!å–å˜é‡
+:: è§£å†³è°ƒç”¨jscriptæç¤ºå‘½ä»¤é”™è¯¯é—®é¢˜
 setlocal enabledelayedexpansion
 
 if "%~1"=="/?" (
@@ -45,15 +45,15 @@ if "%~1"=="1" (
 cscript -nologo -e:jscript "%~f0" startup
 
 :START
-:: cscript -nologo -e:jscript "%~f0" ÕâÒ»¶ÎÊÇÖ´ĞĞÃüÁî£¬ºóÃæµÄÊÇ²ÎÊı£¨×é³É·½Ê½£º/key:value£©
-:: %~f0 ±íÊ¾µ±Ç°Åú´¦ÀíµÄ¾ø¶ÔÂ·¾¶,È¥µôÒıºÅµÄÍêÕûÂ·¾¶
+:: cscript -nologo -e:jscript "%~f0" è¿™ä¸€æ®µæ˜¯æ‰§è¡Œå‘½ä»¤ï¼Œåé¢çš„æ˜¯å‚æ•°ï¼ˆç»„æˆæ–¹å¼ï¼š/key:valueï¼‰
+:: %~f0 è¡¨ç¤ºå½“å‰æ‰¹å¤„ç†çš„ç»å¯¹è·¯å¾„,å»æ‰å¼•å·çš„å®Œæ•´è·¯å¾„
 cscript -nologo -e:jscript "%~f0" %~1
 
 
 goto :EXIT
 
 :EXIT
-:: ½áÊøÑÓ³Ù»·¾³±äÁ¿À©Õ¹ºÍÃüÁîÖ´ĞĞ
+:: ç»“æŸå»¶è¿Ÿç¯å¢ƒå˜é‡æ‰©å±•å’Œå‘½ä»¤æ‰§è¡Œ
 endlocal&exit /b %errorlevel%
 */
 
@@ -61,7 +61,7 @@ endlocal&exit /b %errorlevel%
 
 var Argv = WScript.Arguments;
 for (i = 0; i < Argv.length; i++) {
-    WScript.Echo("²ÎÊı£º", Argv(i));
+    WScript.Echo("å‚æ•°ï¼š", Argv(i));
 }
 
 if (Argv.length > 0) {
@@ -71,14 +71,14 @@ if (Argv.length > 0) {
             break;
         case "?", "help":
         default:
-            WScript.Echo("Ë«»÷Ö´ĞĞ¼´¿É£¡");
+            WScript.Echo("åŒå‡»æ‰§è¡Œå³å¯ï¼");
     }
-    // Õı³£ÍË³ö
+    // æ­£å¸¸é€€å‡º
     WScript.Quit(0);
 }
 
 var fso = new ActiveXObject("Scripting.FileSystemObject");
-// µ±Ç°ÎÄ¼şËùÔÚÄ¿Â¼
+// å½“å‰æ–‡ä»¶æ‰€åœ¨ç›®å½•
 var currentDirectory = fso.GetFile(WScript.ScriptFullName).ParentFolder;
 
 var hostsPath = "C:\\Windows\\System32\\drivers\\etc\\hosts";
@@ -153,12 +153,12 @@ for (var i = 0; i < githubDomain.length; i++) {
 // }
 
 // for (var i = 0; i < githubDomain.length; i++) {
-//     // »ñÈ¡token
+//     // è·å–token
 //     var html = request("GET", "http://tool.chinaz.com/dns?type=1&host=" + githubDomain[i], "text", null, null);
 //     var servers = new RegExp("var servers = (.*)", "ig").exec(html);
 //     var sjson = eval("(" + servers + ")");
 //     for (var j = 0; j < sjson.length; j++) {
-//         // »ñÈ¡DNS
+//         // è·å–DNS
 //         var data = { "host": githubDomain[i], "type": 1, "total": 10, "process": 0, "right": 0 };
 //         var url = "http://tool.chinaz.com/AjaxSeo.aspx?t=dns&server=" + sjson.ip + "&id=" + sjson.id;
 //         var dnsJson = eval(request("POST", url, "text", data, null));
@@ -169,13 +169,13 @@ for (var i = 0; i < githubDomain.length; i++) {
 // }
 
 // for (var i = 0; i < githubDomain.length; i++) {
-//     // »ñÈ¡token
+//     // è·å–token
 //     var member = request("GET", "https://www.dns.com/member", "json", null, null);
 //     if (member.code == 1 && msg == "") {
-//         // »ñÈ¡IPºÍhost
+//         // è·å–IPå’Œhost
 //         var getIp = request("POST", "https://www.dns.com/getIp?_token=" + member.data.tk, "json", null, null);
 //         if (getIp.code == 1) {
-//             // ²éÑ¯DNS
+//             // æŸ¥è¯¢DNS
 //             var data = { "host": getIp.data.host, "url": githubDomain[i], "_token": member.data.tk };
 //             var getDns = request("POST", "https://www.dns.com/getDns", "json", data, null);
 //             if (getDns.code == 1) {
@@ -199,7 +199,7 @@ shell.Run("ipconfig /flushdns", 0, true);
 
 
 /**
- * ÅĞ¶ÏÊı×éÖĞÊÇ·ñ°üº¬Ö¸¶¨×Ö·û´®
+ * åˆ¤æ–­æ•°ç»„ä¸­æ˜¯å¦åŒ…å«æŒ‡å®šå­—ç¬¦ä¸²
  *
  * @param arr
  * @param obj
@@ -216,32 +216,32 @@ function isInArray(arr, obj) {
 }
 
 function help() {
-    WScript.Echo("»ù±¾ÓÃ·¨:");
+    WScript.Echo("åŸºæœ¬ç”¨æ³•:");
     WScript.Echo("   " + WScript.ScriptName, "autoRun");
-    WScript.Echo("     autoRun ÊÇ·ñ¿ªÆô¿ª»ú×Ô¶¯ÔËĞĞ£ºÄ¬ÈÏ0²»¿ªÆô,1¿ªÆô");
+    WScript.Echo("     autoRun æ˜¯å¦å¼€å¯å¼€æœºè‡ªåŠ¨è¿è¡Œï¼šé»˜è®¤0ä¸å¼€å¯,1å¼€å¯");
 }
 
 
 /**
- * HTTPÇëÇó
- * ²é¿´·½·¨ÊôĞÔ£ºNew-Object -ComObject "WinHttp.WinHttpRequest.5.1" | Get-Member
+ * HTTPè¯·æ±‚
+ * æŸ¥çœ‹æ–¹æ³•å±æ€§ï¼šNew-Object -ComObject "WinHttp.WinHttpRequest.5.1" | Get-Member
  *
  * @param method        GET,POST
- * @param url           ÇëÇóµØÖ·
+ * @param url           è¯·æ±‚åœ°å€
  * @param dataType      "",text,stream,xml,json
- * @param data          Êı¾İ£¬{key:value}¸ñÊ½
- * @param contentType   ·¢ËÍµÄÊı¾İÀàĞÍ£ºmultipart/form-data¡¢
- * application/x-www-form-urlencoded£¨Ä¬ÈÏ£©¡¢text/plain
+ * @param data          æ•°æ®ï¼Œ{key:value}æ ¼å¼
+ * @param contentType   å‘é€çš„æ•°æ®ç±»å‹ï¼šmultipart/form-dataã€
+ * application/x-www-form-urlencodedï¼ˆé»˜è®¤ï¼‰ã€text/plain
  * @returns {string|Document|any}
  */
 function request(method, url, dataType, data, contentType) {
     if (url == "" || url == null || url.length <= 0) {
-        throw new Error("ÇëÇóurl²»ÄÜÎª¿Õ£¡");
+        throw new Error("è¯·æ±‚urlä¸èƒ½ä¸ºç©ºï¼");
     }
     if (method == "" || method == null || method.length <= 0) {
         method = "GET";
     } else {
-        // °Ñ×Ö·û´®×ª»»Îª´óĞ´
+        // æŠŠå­—ç¬¦ä¸²è½¬æ¢ä¸ºå¤§å†™
         method = method.toUpperCase();
     }
     if (contentType == "" || contentType == null || contentType.length <= 0) {
@@ -272,7 +272,7 @@ function request(method, url, dataType, data, contentType) {
         }
     }
     XMLHTTP.SetTimeouts(0, 1800000, 1800000, 1800000);
-    //½«¶ÔÏó×ª»¯³ÉÎªquerystringĞÎÊ½
+    //å°†å¯¹è±¡è½¬åŒ–æˆä¸ºquerystringå½¢å¼
     var paramarray = [];
     for (key in data) {
         paramarray.push(key + "=" + data[key]);
@@ -280,15 +280,15 @@ function request(method, url, dataType, data, contentType) {
     var params = paramarray.join("&");
     switch (method) {
         case "POST":
-            // 0Òì²½¡¢1Í¬²½
+            // 0å¼‚æ­¥ã€1åŒæ­¥
             XMLHTTP.Open(method, url, 0);
             XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send(params);
             break;
         default:
-            // Ä¬ÈÏGETÇëÇó
+            // é»˜è®¤GETè¯·æ±‚
             if (params == "" || params.length == 0 || params == null) {
-                // 0Òì²½¡¢1Í¬²½
+                // 0å¼‚æ­¥ã€1åŒæ­¥
                 XMLHTTP.Open(method, url, 0);
             } else {
                 XMLHTTP.Open(method, url + "?" + params, 0);
@@ -296,7 +296,7 @@ function request(method, url, dataType, data, contentType) {
             XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send();
     }
-    // °Ñ×Ö·û´®×ª»»ÎªĞ¡Ğ´
+    // æŠŠå­—ç¬¦ä¸²è½¬æ¢ä¸ºå°å†™
     dataType = dataType.toLowerCase();
     switch (dataType) {
         case "text":
@@ -315,30 +315,30 @@ function request(method, url, dataType, data, contentType) {
 
 
 /**
- * ÏÂÔØÎÄ¼ş
- * ²é¿´·½·¨ÊôĞÔ£ºNew-Object -ComObject "ADODB.Stream" | Get-Member
+ * ä¸‹è½½æ–‡ä»¶
+ * æŸ¥çœ‹æ–¹æ³•å±æ€§ï¼šNew-Object -ComObject "ADODB.Stream" | Get-Member
  *
  * @param url
- * @param directory ÎÄ¼ş´æ´¢Ä¿Â¼
- * @param filename  ÎÄ¼şÃû£¬Îª¿ÕÄ¬ÈÏ½ØÈ¡urlÖĞµÄÎÄ¼şÃû
+ * @param directory æ–‡ä»¶å­˜å‚¨ç›®å½•
+ * @param filename  æ–‡ä»¶åï¼Œä¸ºç©ºé»˜è®¤æˆªå–urlä¸­çš„æ–‡ä»¶å
  * @returns {string}
  */
 function download(url, directory, filename) {
     if (url == "" || url == null || url.length <= 0) {
-        throw new Error("ÇëÇóurl²»ÄÜÎª¿Õ£¡");
+        throw new Error("è¯·æ±‚urlä¸èƒ½ä¸ºç©ºï¼");
     }
     if (directory == "" || directory == null || directory.length <= 0) {
-        throw new Error("ÎÄ¼ş´æ´¢Ä¿Â¼²»ÄÜÎª¿Õ£¡");
+        throw new Error("æ–‡ä»¶å­˜å‚¨ç›®å½•ä¸èƒ½ä¸ºç©ºï¼");
     }
     var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // Èç¹ûÄ¿Â¼²»´æÔÚ
+    // å¦‚æœç›®å½•ä¸å­˜åœ¨
     if (!fso.FolderExists(directory)) {
-        // ´´½¨Ä¿Â¼
+        // åˆ›å»ºç›®å½•
         var strFolderName = fso.CreateFolder(directory);
     }
     if (filename == "" || filename == null || filename.length <= 0) {
         filename = url.substring(url.lastIndexOf("/") + 1);
-        // È¥µôÎÄ¼şÃûµÄÌØÊâ·ûºÅ£¨°üÀ¨Ö®Ç°µÄ£©×Ö·û
+        // å»æ‰æ–‡ä»¶åçš„ç‰¹æ®Šç¬¦å·ï¼ˆåŒ…æ‹¬ä¹‹å‰çš„ï¼‰å­—ç¬¦
         filename = filename.replace(/^.*(\&|\=|\?|\/)/ig, "");
     }
     var path = directory + "\\" + filename;
@@ -349,18 +349,18 @@ function download(url, directory, filename) {
     ADO.Write(request("GET", url, ""));
     ADO.SaveToFile(path, 2);
     ADO.Close();
-    // Èç¹ûÎÄ¼ş²»´æÔÚ
+    // å¦‚æœæ–‡ä»¶ä¸å­˜åœ¨
     if (!fso.FileExists(path)) {
-        throw new Error("ÎÄ¼şÏÂÔØÊ§°Ü");
+        throw new Error("æ–‡ä»¶ä¸‹è½½å¤±è´¥");
     }
     return path;
 }
 
 /**
- * ¿ª»úÆô¶¯
+ * å¼€æœºå¯åŠ¨
  *
- * @param mode ÎªstartupÊ±ÊÇÔÚ¿ª»úÆô¶¯Ä¿Â¼ÖĞ´´½¨vbs½Å±¾£¬·ñÔòÌí¼Ó¿ª»úÆô¶¯×¢²á±í
- * @param arguments ÏòÖ´ĞĞµÄ³ÌĞò»ò½Å±¾´«µİÏà¹ØÁªµÄ²ÎÊı
+ * @param mode ä¸ºstartupæ—¶æ˜¯åœ¨å¼€æœºå¯åŠ¨ç›®å½•ä¸­åˆ›å»ºvbsè„šæœ¬ï¼Œå¦åˆ™æ·»åŠ å¼€æœºå¯åŠ¨æ³¨å†Œè¡¨
+ * @param arguments å‘æ‰§è¡Œçš„ç¨‹åºæˆ–è„šæœ¬ä¼ é€’ç›¸å…³è”çš„å‚æ•°
  */
 function autoStart(mode, arguments) {
     if (arguments != null && arguments != "") {
@@ -371,20 +371,20 @@ function autoStart(mode, arguments) {
     //fileName = fileName.substring(0, fileName.length-4);
     var vbsFileName = WScript.ScriptFullName.replace(".bat", ".vbs");
     if ("startup" == mode.toLowerCase()) {
-        // ¿ª»úÆô¶¯Ä¿Â¼
+        // å¼€æœºå¯åŠ¨ç›®å½•
         var runDir = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\";
         vbsFileName = runDir + fileName + ".vbs";
     }
     var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // ´´½¨ÎÄ¼ş
+    // åˆ›å»ºæ–‡ä»¶
     var vbsFile = fso.CreateTextFile(vbsFileName, true);
-    // ÌîĞ´Êı¾İ£¬²¢Ôö¼Ó»»ĞĞ·û
+    // å¡«å†™æ•°æ®ï¼Œå¹¶å¢åŠ æ¢è¡Œç¬¦
     vbsFile.WriteLine("Set shell = WScript.CreateObject(\"WScript.Shell\")");
     vbsFile.WriteLine('shell.Run "cmd /c ' + WScript.ScriptFullName + arguments + '", 0, false');
-    // ¹Ø±ÕÎÄ¼ş
+    // å…³é—­æ–‡ä»¶
     vbsFile.Close();
     if ("startup" != mode.toLowerCase()) {
-        // Ìí¼Ó¿ª»úÆô¶¯×¢²á±í
+        // æ·»åŠ å¼€æœºå¯åŠ¨æ³¨å†Œè¡¨
         var shell = new ActiveXObject("WScript.shell");
         var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\";
         shell.RegWrite(runRegBase + fileName, vbsFileName + arguments);

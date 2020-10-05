@@ -17,6 +17,8 @@
 * [reposurgeon是一种工具,用于编辑版本控制存储库的历史](http://www.catb.org/esr/reposurgeon)
 * [https://github.com/gitextensions/gitextensions](https://github.com/gitextensions/gitextensions)
 
++ [https://github.com/apachecn/git-doc-zh](https://github.com/apachecn/git-doc-zh)
+  + [https://git.apachecn.org](https://git.apachecn.org)
 + [常用命令 · git笔记 · 看云](https://www.kancloud.cn/leviio/git/330946)
 + [Git 常用命令及使用详解 - 喵斯基部落](https://www.moewah.com/archives/2292.html)
 + Pro Git 中文版（第二版）: [https://progit.bootcss.com](https://progit.bootcss.com)
@@ -370,6 +372,78 @@ git log master..origin/master
 - `vim .git/config` 移除子模块的配置信息
 - `rm -rf .git/modules/模块名` 移除子模块的其他信息
 - `git rm --cached 模块名` 删除缓存，提示`fatal: pathspec 'xxxxx' did not match any files` 说明删除干净了
+
+
+
+## 换行符处理
+
+* [行尾序列（换行符）](/Shell/README.md#行尾序列)
+* [Git处理换行符问题](https://segmentfault.com/a/1190000013973362)
+* [为单个仓库或全局配置 Git 处理行结束符](https://docs.github.com/cn/free-pro-team@latest/github/using-git/configuring-git-to-handle-line-endings)
+
+> git 默认会依据平台自动变更文件换行符，在项目根目录下[`.editorconfig`](https://github.com/editorconfig)中设置`end_of_line = lf`
+
+- 当你在签出文件时，将 UNIX 换行符（LF）替换为 Windows 的换行符（CRLF）；
+- 当你在提交文件时，将 CRLF 替换为 LF。
+
+> 如果提交的文件是一个 包含中文字符的UTF-8文件，那么这个“换行符自动转换”功能在提交时不是每次都生效，
+> 尤其是文件中出现中文字符后有换行符时（但签出时的转换处理没有问题）
+
+
+
+**`.gitattributes`**
+
+* 为单个仓库设置 [https://git-scm.com/docs/gitattributes](https://git-scm.com/docs/gitattributes)
+* [8.2 自定义 Git - Git 属性](https://git-scm.com/book/zh/v2/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-Git-%E5%B1%9E%E6%80%A7)
+* [gitattributes (Guides) - Git 中文开发手册 - 开发者手册 - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/section/1138630)
+* [gitattributes](https://git.apachecn.org/#/docs/39)
+
+- `text`
+- `-text`
+- `text=string`
+- `text=auto` 让git自行处理左边匹配的文件使用何种换行符格式，这是默认选项。
+- 未声明，通常不出现该属性即可
+- `!text` 为了覆盖其他文件中的声明，效果同上
+- `binary` 指定为二进制文件，不应该对其中的换行符进行改变。和`-text -diff`等价
+
+
+
+**全局为所有仓库设置**
+
+```bash
+# windows 下是 autocrlf
+
+# 提交时转换为LF，检出时转换为CRLF
+git config --global core.autocrlf true
+
+# 提交时转换为LF，检出时不转换
+git config --global core.autocrlf input
+
+# 推荐，项目中指定了换行，则在任何平台都只用一种换行 \n
+# 提交检出均不转换
+git config --global core.autocrlf false
+
+# SafeCRLF
+
+# 推荐，拒绝提交包含混合换行符的文件
+git config --global core.safecrlf true
+
+# 允许提交包含混合换行符的文件
+git config --global core.safecrlf false
+
+# 提交包含混合换行符的文件时给出警告
+git config --global core.safecrlf warn
+
+#设置行结束符的类型为lf
+git config --global core.eol lf
+
+#设置行结束符的类型为crlf
+git config --global core.eol crlf
+
+#设置行结束符的类型为native, native是指平台默认的行结束符。默认的类型是native
+git config --global core.eol native
+```
+
 
 
 

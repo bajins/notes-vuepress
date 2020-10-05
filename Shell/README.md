@@ -39,48 +39,9 @@
 :wq
 ```
 
-**GIT**
+**[GIT处理换行符](/IDE/Git安装使用.md#换行符处理)**
 
-> git 默认会依据平台自动变更文件换行符，在项目根目录下`.editorconfig`中设置`end_of_line = lf`
 
-> 当你在签出文件时，将 UNIX 换行符（LF）替换为 Windows 的换行符（CRLF）；
-> 当你在提交文件时，将 CRLF 替换为 LF。
-> 如果提交的文件是一个 包含中文字符的UTF-8文件，那么这个“换行符自动转换”功能在提交时不是每次都生效，
-> 尤其是文件中出现中文字符后有换行符时（但签出时的转换处理没有问题）
-
-```bash
-# windows 下是 autocrlf
-
-# 提交时转换为LF，检出时转换为CRLF
-git config --global core.autocrlf true
-
-# 提交时转换为LF，检出时不转换
-git config --global core.autocrlf input
-
-# 推荐，项目中指定了换行，则在任何平台都只用一种换行 \n
-# 提交检出均不转换
-git config --global core.autocrlf false
-
-SafeCRLF
-
-# 推荐，拒绝提交包含混合换行符的文件
-git config --global core.safecrlf true
-
-# 允许提交包含混合换行符的文件
-git config --global core.safecrlf false
-
-# 提交包含混合换行符的文件时给出警告
-git config --global core.safecrlf warn
-
-#设置行结束符的类型为lf
-git config --global core.eol lf
-
-#设置行结束符的类型为crlf
-git config --global core.eol crlf
-
-#设置行结束符的类型为native, native是指平台默认的行结束符。默认的类型是native
-git config --global core.eol native
-```
 
 
 ## batch与shell同义操作符

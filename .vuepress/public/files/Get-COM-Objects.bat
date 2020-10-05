@@ -1,4 +1,4 @@
-:: »ñÈ¡±¾»úËùÓĞ`COM`×é¼ş¶ÔÏó by https://www.bajins.com
+:: è·å–æœ¬æœºæ‰€æœ‰`COM`ç»„ä»¶å¯¹è±¡ by https://www.bajins.com
 @findstr /v "^@.* ^:.*" "%~f0"|powershell -&goto:eof
 
 <#
@@ -26,10 +26,10 @@ function Get-ComObject {
     }
 }
 
-# »ñÈ¡ÏµÍ³°æ±¾Ãû³Æ
+# è·å–ç³»ç»Ÿç‰ˆæœ¬åç§°
 $filename = (Get-WmiObject -class Win32_OperatingSystem).Caption.Trim() -replace ' ', '_'
 $filePath = ".\COMObjects-$($filename).txt"
-# Êä³öµ½ÎÄ¼ş
+# è¾“å‡ºåˆ°æ–‡ä»¶
 Get-ComObject -ListAll > $filePath
 # Get-ComObject -ListAll | Out-File -Encoding "UTF8" $filePath
 
@@ -37,22 +37,22 @@ Get-ComObject -ListAll > $filePath
 Get-COMObjects-Members
 #>
 
-<# Ğ´ÄÚÈİµ½Excel #>
+<# å†™å†…å®¹åˆ°Excel #>
 function writeExcel ([string]$filePath) {
     $lines = Get-Content $filePath | Where-Object { $_ -notmatch '^\s+$' }
 
-    Write-Host "¹²ÓĞ $($lines.Length) ¸öCOM¶ÔÏó"
+    Write-Host "å…±æœ‰ $($lines.Length) ä¸ªCOMå¯¹è±¡"
 
-    # Í¨¹ıCOM×é¼ş·ÃÎÊExcel https://blog.csdn.net/u010288731/article/details/83120205
+    # é€šè¿‡COMç»„ä»¶è®¿é—®Excel https://blog.csdn.net/u010288731/article/details/83120205
     $excel = New-Object -ComObject Excel.Application
     $excel.Visible = $True
     $excel.AlertBeforeOverwriting = $False
     $excel.DisplayAlerts = $False
-    # ´ò¿ªÒ»¸öExcelÎÄµµ
+    # æ‰“å¼€ä¸€ä¸ªExcelæ–‡æ¡£
     # $book = $excel.Workbooks.Open('.\Get-COMObjects-Members.xlsx')
-    # Ìí¼ÓÒ»¸öExcelÎÄµµ
+    # æ·»åŠ ä¸€ä¸ªExcelæ–‡æ¡£
     $book = $excel.Workbooks.Add()
-    # Ìí¼ÓÒ»¸ö¹¤×÷±¡
+    # æ·»åŠ ä¸€ä¸ªå·¥ä½œè–„
     # $sheet = $book.Sheets.Add()
     $sheet = $book.Worksheets.Item(1)
     $sheet.Name = "member"
@@ -91,19 +91,19 @@ function writeExcel ([string]$filePath) {
             Write-Warning $_ + "`n"
         }
     }
-    # ±£´æexcel
+    # ä¿å­˜excel
     # $excel.ActiveWorkBook.SaveAs('.\Get-COMObjects-Members.xlsx')
     $excel.SaveAs('.\COMObjects-Members.xlsx')
 }
 
-<# ±£´æÄÚÈİµ½CSVÎÄ¼ş #>
+<# ä¿å­˜å†…å®¹åˆ°CSVæ–‡ä»¶ #>
 function writeCSV ([string]$filePath) {
     $lines = Get-Content $filePath | Where-Object { $_ -notmatch '^\s+$' }
 
-    Write-Host "¹²ÓĞ $($lines.Length) ¸öCOM¶ÔÏó"
+    Write-Host "å…±æœ‰ $($lines.Length) ä¸ªCOMå¯¹è±¡"
     $fp = "COMObjects-Members.csv"
     if (Test-Path $fp) {
-        # ÎÄ¼ş´æÔÚÔòÉ¾³ı
+        # æ–‡ä»¶å­˜åœ¨åˆ™åˆ é™¤
         Remove-Item $fp
     }
     foreach ($comobj in $lines) {
@@ -114,7 +114,7 @@ function writeCSV ([string]$filePath) {
                 $Name = $_.Name
                 $MemberType = $_.MemberType
                 $Definition = $_.Definition
-                <# ´´½¨×Ô¶¨Òå¶ÔÏó https://www.cnblogs.com/tylerzhou/p/10421574.html #>
+                <# åˆ›å»ºè‡ªå®šä¹‰å¯¹è±¡ https://www.cnblogs.com/tylerzhou/p/10421574.html #>
                 [PSCustomObject]@{
                     Object     = $comobj
                     TypeName   = $TypeName
@@ -131,11 +131,11 @@ function writeCSV ([string]$filePath) {
     }
 }
 
-<# ±£´æÄÚÈİµ½ÎÄ±¾ #>
+<# ä¿å­˜å†…å®¹åˆ°æ–‡æœ¬ #>
 function writeTXT ([string]$filePath) {
     $lines = Get-Content $filePath | Where-Object { $_ -notmatch '^\s+$' }
 
-    Write-Host "¹²ÓĞ $($lines.Length) ¸öCOM¶ÔÏó"
+    Write-Host "å…±æœ‰ $($lines.Length) ä¸ªCOMå¯¹è±¡"
 
     $fp = ".\COMObjects-Members.txt"
 

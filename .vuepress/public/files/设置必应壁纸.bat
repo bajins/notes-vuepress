@@ -1,6 +1,6 @@
 1>1/* ::
 :: -------------------------------------------------------------------
-::                          ×Ô¶¯ÉèÖÃBing±ÚÖ½
+::                          è‡ªåŠ¨è®¾ç½®Bingå£çº¸
 ::                     by https://www.bajins.com
 ::                   GitHub https://woytu.github.io
 :: -------------------------------------------------------------------
@@ -24,9 +24,9 @@ if '%errorlevel%' NEQ '0' ( goto UACPrompt ) else ( goto GetAdmin )
 :StartCommand
 ::-------------------------------------------------------------------------------
 
-:: ¿ªÆôÑÓ³Ù»·¾³±äÁ¿À©Õ¹
-:: ½â¾öfor»òifÖĞ²Ù×÷±äÁ¿Ê±ÌáÊ¾ECHO OFFÎÊÌâ£¬ÓÃ!!È¡±äÁ¿
-:: ½â¾öµ÷ÓÃjscriptÌáÊ¾ÃüÁî´íÎóÎÊÌâ
+:: å¼€å¯å»¶è¿Ÿç¯å¢ƒå˜é‡æ‰©å±•
+:: è§£å†³foræˆ–ifä¸­æ“ä½œå˜é‡æ—¶æç¤ºECHO OFFé—®é¢˜ï¼Œç”¨!!å–å˜é‡
+:: è§£å†³è°ƒç”¨jscriptæç¤ºå‘½ä»¤é”™è¯¯é—®é¢˜
 setlocal enabledelayedexpansion
 
 if "%~1"=="/?" (
@@ -44,15 +44,15 @@ if "%~1"=="1" (
 cscript -nologo -e:jscript "%~f0" startup
 
 :START
-:: cscript -nologo -e:jscript "%~f0" ÕâÒ»¶ÎÊÇÖ´ĞĞÃüÁî£¬ºóÃæµÄÊÇ²ÎÊı£¨×é³É·½Ê½£º/key:value£©
-:: %~f0 ±íÊ¾µ±Ç°Åú´¦ÀíµÄ¾ø¶ÔÂ·¾¶,È¥µôÒıºÅµÄÍêÕûÂ·¾¶
+:: cscript -nologo -e:jscript "%~f0" è¿™ä¸€æ®µæ˜¯æ‰§è¡Œå‘½ä»¤ï¼Œåé¢çš„æ˜¯å‚æ•°ï¼ˆç»„æˆæ–¹å¼ï¼š/key:valueï¼‰
+:: %~f0 è¡¨ç¤ºå½“å‰æ‰¹å¤„ç†çš„ç»å¯¹è·¯å¾„,å»æ‰å¼•å·çš„å®Œæ•´è·¯å¾„
 cscript -nologo -e:jscript "%~f0"
 
 
 goto :EXIT
 
 :EXIT
-:: ½áÊøÑÓ³Ù»·¾³±äÁ¿À©Õ¹ºÍÃüÁîÖ´ĞĞ
+:: ç»“æŸå»¶è¿Ÿç¯å¢ƒå˜é‡æ‰©å±•å’Œå‘½ä»¤æ‰§è¡Œ
 endlocal&exit /b %errorlevel%
 */
 
@@ -61,24 +61,24 @@ endlocal&exit /b %errorlevel%
 
 var Argv = WScript.Arguments;
 for (i = 0; i < Argv.length; i++) {
-    WScript.Echo("²ÎÊı£º", Argv(i));
+    WScript.Echo("å‚æ•°ï¼š", Argv(i));
 }
 
 var fso = new ActiveXObject("Scripting.FileSystemObject");
-// µ±Ç°ÎÄ¼şËùÔÚÄ¿Â¼
+// å½“å‰æ–‡ä»¶æ‰€åœ¨ç›®å½•
 var currentDirectory = fso.GetFile(WScript.ScriptFullName).ParentFolder;
 
 if (Argv.length > 0) {
     switch (Argv(0)) {
         case "startup":
             var fileName = autoStart("startup", "1");
-            createSchedule("SetBingWallpaper", "ÉèÖÃ±ØÓ¦±ÚÖ½", "bajins", "wscript", '"' + fileName + '" 1');
+            createSchedule("SetBingWallpaper", "è®¾ç½®å¿…åº”å£çº¸", "bajins", "wscript", '"' + fileName + '" 1');
             break;
         case "?", "help":
         default:
             help();
     }
-    // Õı³£ÍË³ö
+    // æ­£å¸¸é€€å‡º
     WScript.Quit(0);
 }
 
@@ -88,50 +88,50 @@ var imageUrl = "https://cn.bing.com" + json.images[0].url.split("&")[0];
 var imageName = imageUrl.substring(imageUrl.lastIndexOf("/") + 1).split("=")[1];
 
 var imagePath = download(imageUrl, currentDirectory, imageName);
-// Èç¹ûÎÄ¼ş²»´æÔÚ
+// å¦‚æœæ–‡ä»¶ä¸å­˜åœ¨
 if (!fso.FileExists(imagePath)) {
-    WScript.Echo("Í¼Æ¬¸ñÊ½×ªÎªBMPÊ§°Ü");
+    WScript.Echo("å›¾ç‰‡æ ¼å¼è½¬ä¸ºBMPå¤±è´¥");
     WScript.Quit(1);
 }
 if (fso.FileExists(imagePath)) {
     setWallpaper(imagePath);
     WScript.Sleep(2000);
     fso.DeleteFile(imagePath);
-    WScript.Echo("ÉèÖÃ±ÚÖ½³É¹¦£¡", imagePath);
+    WScript.Echo("è®¾ç½®å£çº¸æˆåŠŸï¼", imagePath);
     WScript.Quit(0);
 } else {
-    WScript.Echo("ÏÂÔØ±ÚÖ½Ê§°Ü£¡");
+    WScript.Echo("ä¸‹è½½å£çº¸å¤±è´¥ï¼");
     WScript.Quit(1);
 }
 
 
 function help() {
-    WScript.Echo("»ù±¾ÓÃ·¨:");
+    WScript.Echo("åŸºæœ¬ç”¨æ³•:");
     WScript.Echo("   " + WScript.ScriptName, "autoRun");
-    WScript.Echo("      autoRun ÊÇ·ñ¿ªÆô¿ª»ú×Ô¶¯ÔËĞĞ£ºÄ¬ÈÏ0²»¿ªÆô,1¿ªÆô");
+    WScript.Echo("      autoRun æ˜¯å¦å¼€å¯å¼€æœºè‡ªåŠ¨è¿è¡Œï¼šé»˜è®¤0ä¸å¼€å¯,1å¼€å¯");
 }
 
 
 /**
- * HTTPÇëÇó
- * ²é¿´·½·¨ÊôĞÔ£ºNew-Object -ComObject "WinHttp.WinHttpRequest.5.1" | Get-Member
+ * HTTPè¯·æ±‚
+ * æŸ¥çœ‹æ–¹æ³•å±æ€§ï¼šNew-Object -ComObject "WinHttp.WinHttpRequest.5.1" | Get-Member
  *
  * @param method        GET,POST
- * @param url           ÇëÇóµØÖ·
+ * @param url           è¯·æ±‚åœ°å€
  * @param dataType      "",text,stream,xml,json
- * @param data          Êı¾İ£¬{key:value}¸ñÊ½
- * @param contentType   ·¢ËÍµÄÊı¾İÀàĞÍ£ºmultipart/form-data¡¢
- * application/x-www-form-urlencoded£¨Ä¬ÈÏ£©¡¢text/plain
+ * @param data          æ•°æ®ï¼Œ{key:value}æ ¼å¼
+ * @param contentType   å‘é€çš„æ•°æ®ç±»å‹ï¼šmultipart/form-dataã€
+ * application/x-www-form-urlencodedï¼ˆé»˜è®¤ï¼‰ã€text/plain
  * @returns {string|Document|any}
  */
 function request(method, url, dataType, data, contentType) {
     if (url == "" || url == null || url.length <= 0) {
-        throw new Error("ÇëÇóurl²»ÄÜÎª¿Õ£¡");
+        throw new Error("è¯·æ±‚urlä¸èƒ½ä¸ºç©ºï¼");
     }
     if (method == "" || method == null || method.length <= 0) {
         method = "GET";
     } else {
-        // °Ñ×Ö·û´®×ª»»Îª´óĞ´
+        // æŠŠå­—ç¬¦ä¸²è½¬æ¢ä¸ºå¤§å†™
         method = method.toUpperCase();
     }
     if (contentType == "" || contentType == null || contentType.length <= 0) {
@@ -162,7 +162,7 @@ function request(method, url, dataType, data, contentType) {
         }
     }
     XMLHTTP.SetTimeouts(0, 1800000, 1800000, 1800000);
-    //½«¶ÔÏó×ª»¯³ÉÎªquerystringĞÎÊ½
+    //å°†å¯¹è±¡è½¬åŒ–æˆä¸ºquerystringå½¢å¼
     var paramarray = [];
     for (key in data) {
         paramarray.push(key + "=" + data[key]);
@@ -170,15 +170,15 @@ function request(method, url, dataType, data, contentType) {
     var params = paramarray.join("&");
     switch (method) {
         case "POST":
-            // 0Òì²½¡¢1Í¬²½
+            // 0å¼‚æ­¥ã€1åŒæ­¥
             XMLHTTP.Open(method, url, 0);
             XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send(params);
             break;
         default:
-            // Ä¬ÈÏGETÇëÇó
+            // é»˜è®¤GETè¯·æ±‚
             if (params == "" || params.length == 0 || params == null) {
-                // 0Òì²½¡¢1Í¬²½
+                // 0å¼‚æ­¥ã€1åŒæ­¥
                 XMLHTTP.Open(method, url, 0);
             } else {
                 XMLHTTP.Open(method, url + "?" + params, 0);
@@ -186,7 +186,7 @@ function request(method, url, dataType, data, contentType) {
             XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send();
     }
-    // °Ñ×Ö·û´®×ª»»ÎªĞ¡Ğ´
+    // æŠŠå­—ç¬¦ä¸²è½¬æ¢ä¸ºå°å†™
     dataType = dataType.toLowerCase();
     switch (dataType) {
         case "text":
@@ -205,30 +205,30 @@ function request(method, url, dataType, data, contentType) {
 
 
 /**
- * ÏÂÔØÎÄ¼ş
- * ²é¿´·½·¨ÊôĞÔ£ºNew-Object -ComObject "ADODB.Stream" | Get-Member
+ * ä¸‹è½½æ–‡ä»¶
+ * æŸ¥çœ‹æ–¹æ³•å±æ€§ï¼šNew-Object -ComObject "ADODB.Stream" | Get-Member
  *
  * @param url
- * @param directory ÎÄ¼ş´æ´¢Ä¿Â¼
- * @param filename  ÎÄ¼şÃû£¬Îª¿ÕÄ¬ÈÏ½ØÈ¡urlÖĞµÄÎÄ¼şÃû
+ * @param directory æ–‡ä»¶å­˜å‚¨ç›®å½•
+ * @param filename  æ–‡ä»¶åï¼Œä¸ºç©ºé»˜è®¤æˆªå–urlä¸­çš„æ–‡ä»¶å
  * @returns {string}
  */
 function download(url, directory, filename) {
     if (url == "" || url == null || url.length <= 0) {
-        throw new Error("ÇëÇóurl²»ÄÜÎª¿Õ£¡");
+        throw new Error("è¯·æ±‚urlä¸èƒ½ä¸ºç©ºï¼");
     }
     if (directory == "" || directory == null || directory.length <= 0) {
-        throw new Error("ÎÄ¼ş´æ´¢Ä¿Â¼²»ÄÜÎª¿Õ£¡");
+        throw new Error("æ–‡ä»¶å­˜å‚¨ç›®å½•ä¸èƒ½ä¸ºç©ºï¼");
     }
     var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // Èç¹ûÄ¿Â¼²»´æÔÚ
+    // å¦‚æœç›®å½•ä¸å­˜åœ¨
     if (!fso.FolderExists(directory)) {
-        // ´´½¨Ä¿Â¼
+        // åˆ›å»ºç›®å½•
         var strFolderName = fso.CreateFolder(directory);
     }
     if (filename == "" || filename == null || filename.length <= 0) {
         filename = url.substring(url.lastIndexOf("/") + 1);
-        // È¥µôÎÄ¼şÃûµÄÌØÊâ·ûºÅ£¨°üÀ¨Ö®Ç°µÄ£©×Ö·û
+        // å»æ‰æ–‡ä»¶åçš„ç‰¹æ®Šç¬¦å·ï¼ˆåŒ…æ‹¬ä¹‹å‰çš„ï¼‰å­—ç¬¦
         filename = filename.replace(/^.*(\&|\=|\?|\/)/ig, "");
     }
     var path = directory + "\\" + filename;
@@ -239,41 +239,41 @@ function download(url, directory, filename) {
     ADO.Write(request("GET", url, ""));
     ADO.SaveToFile(path, 2);
     ADO.Close();
-    // Èç¹ûÎÄ¼ş²»´æÔÚ
+    // å¦‚æœæ–‡ä»¶ä¸å­˜åœ¨
     if (!fso.FileExists(path)) {
-        throw new Error("ÎÄ¼şÏÂÔØÊ§°Ü");
+        throw new Error("æ–‡ä»¶ä¸‹è½½å¤±è´¥");
     }
     return path;
 }
 
 
 /**
- * ÉèÖÃ×ÀÃæ±ÚÖ½
+ * è®¾ç½®æ¡Œé¢å£çº¸
  *
- * @param imagesPath Í¼Æ¬È«Â·¾¶
+ * @param imagesPath å›¾ç‰‡å…¨è·¯å¾„
  */
 function setWallpaper(imagesPath) {
     var shApp = new ActiveXObject("Shell.Application");
-    // »ñÈ¡ÎÄ¼ş
+    // è·å–æ–‡ä»¶
     var picFile = new ActiveXObject("Scripting.FileSystemObject").GetFile(imagesPath);
-    // »ñÈ¡ÎÄ¼şÉÏµÄËùÓĞÓÒ¼ü²Ëµ¥Ïî
+    // è·å–æ–‡ä»¶ä¸Šçš„æ‰€æœ‰å³é”®èœå•é¡¹
     //var items = shApp.NameSpace(picFile.ParentFolder.Path).ParseName(picFile.Name).Verbs();
     var items = shApp.NameSpace(picFile.ParentFolder.Path).Items().Item(picFile.Name).Verbs();
-    // ±éÀúËùÓĞ²Ëµ¥Ïî
+    // éå†æ‰€æœ‰èœå•é¡¹
     for (var i = 0; i < items.Count; i++) {
         var item = items.Item(i);
-        // ×¢ÒâÖ´ĞĞµÄ½Å±¾ÎÄ¼şĞèÒªÎª¼òÌåÖĞÎÄ±àÂë
-        if (item.Name == "ÉèÖÃÎª×ÀÃæ±³¾°(&B)") {
+        // æ³¨æ„æ‰§è¡Œçš„è„šæœ¬æ–‡ä»¶éœ€è¦ä¸ºç®€ä½“ä¸­æ–‡ç¼–ç 
+        if (item.Name == "è®¾ç½®ä¸ºæ¡Œé¢èƒŒæ™¯(&B)") {
             item.DoIt();
         }
     }
 }
 
 /**
- * ¿ª»úÆô¶¯
+ * å¼€æœºå¯åŠ¨
  *
- * @param mode ÎªstartupÊ±ÊÇÔÚ¿ª»úÆô¶¯Ä¿Â¼ÖĞ´´½¨vbs½Å±¾£¬·ñÔòÌí¼Ó¿ª»úÆô¶¯×¢²á±í
- * @param arguments ÏòÖ´ĞĞµÄ³ÌĞò»ò½Å±¾´«µİÏà¹ØÁªµÄ²ÎÊı
+ * @param mode ä¸ºstartupæ—¶æ˜¯åœ¨å¼€æœºå¯åŠ¨ç›®å½•ä¸­åˆ›å»ºvbsè„šæœ¬ï¼Œå¦åˆ™æ·»åŠ å¼€æœºå¯åŠ¨æ³¨å†Œè¡¨
+ * @param arguments å‘æ‰§è¡Œçš„ç¨‹åºæˆ–è„šæœ¬ä¼ é€’ç›¸å…³è”çš„å‚æ•°
  */
 function autoStart(mode, arguments) {
     if (arguments != null && arguments != "") {
@@ -284,20 +284,20 @@ function autoStart(mode, arguments) {
     //fileName = fileName.substring(0, fileName.length-4);
     var vbsFileName = WScript.ScriptFullName.replace(".bat", ".vbs");
     if ("startup" == mode.toLowerCase()) {
-        // ¿ª»úÆô¶¯Ä¿Â¼
+        // å¼€æœºå¯åŠ¨ç›®å½•
         var runDir = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\";
         vbsFileName = runDir + fileName + ".vbs";
     }
     var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // ´´½¨ÎÄ¼ş
+    // åˆ›å»ºæ–‡ä»¶
     var vbsFile = fso.CreateTextFile(vbsFileName, true);
-    // ÌîĞ´Êı¾İ£¬²¢Ôö¼Ó»»ĞĞ·û
+    // å¡«å†™æ•°æ®ï¼Œå¹¶å¢åŠ æ¢è¡Œç¬¦
     vbsFile.WriteLine("Set shell = WScript.CreateObject(\"WScript.Shell\")");
     vbsFile.WriteLine('shell.Run "cmd /c ' + WScript.ScriptFullName + arguments + '", 0, false');
-    // ¹Ø±ÕÎÄ¼ş
+    // å…³é—­æ–‡ä»¶
     vbsFile.Close();
     if ("startup" != mode.toLowerCase()) {
-        // Ìí¼Ó¿ª»úÆô¶¯×¢²á±í
+        // æ·»åŠ å¼€æœºå¯åŠ¨æ³¨å†Œè¡¨
         var shell = new ActiveXObject("WScript.shell");
         var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\";
         shell.RegWrite(runRegBase + fileName, vbsFileName + arguments);
@@ -306,72 +306,72 @@ function autoStart(mode, arguments) {
 }
 
 /**
- * ´´½¨ÈÎÎñ¼Æ»®
+ * åˆ›å»ºä»»åŠ¡è®¡åˆ’
  *
- * @param name ÈÎÎñ¼Æ»®Ãû
- * @param desc ÈÎÎñ¼Æ»®ÃèÊö
- * @param author ÈÎÎñ¼Æ»®´´½¨ÈË
- * @param path Ö´ĞĞµÄ³ÌĞò»ò½Å±¾Â·¾¶
- * @param arguments ÏòÖ´ĞĞµÄ³ÌĞò»ò½Å±¾´«µİÏà¹ØÁªµÄ²ÎÊı
+ * @param name ä»»åŠ¡è®¡åˆ’å
+ * @param desc ä»»åŠ¡è®¡åˆ’æè¿°
+ * @param author ä»»åŠ¡è®¡åˆ’åˆ›å»ºäºº
+ * @param path æ‰§è¡Œçš„ç¨‹åºæˆ–è„šæœ¬è·¯å¾„
+ * @param arguments å‘æ‰§è¡Œçš„ç¨‹åºæˆ–è„šæœ¬ä¼ é€’ç›¸å…³è”çš„å‚æ•°
  */
 function createSchedule(name, desc, author, path, arguments) {
-    // ´´½¨TaskService¶ÔÏó£¬Ìá¹©¶ÔÈÎÎñ¼Æ»®³ÌĞò·şÎñµÄ·ÃÎÊÈ¨ÏŞ£¬ÒÔ¹ÜÀíÒÑ×¢²áµÄÈÎÎñ
+    // åˆ›å»ºTaskServiceå¯¹è±¡ï¼Œæä¾›å¯¹ä»»åŠ¡è®¡åˆ’ç¨‹åºæœåŠ¡çš„è®¿é—®æƒé™ï¼Œä»¥ç®¡ç†å·²æ³¨å†Œçš„ä»»åŠ¡
     var service = new ActiveXObject("Schedule.Service");
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/taskservice-connect
     service.Connect();
 
-    // »ñÈ¡Ò»¸öÎÄ¼ş¼ĞÒÔÔÚÆäÖĞ´´½¨ÈÎÎñ¶¨Òå¡£
+    // è·å–ä¸€ä¸ªæ–‡ä»¶å¤¹ä»¥åœ¨å…¶ä¸­åˆ›å»ºä»»åŠ¡å®šä¹‰ã€‚
     var rootFolder = service.GetFolder("\\");
-    // ·µ»ØÒ»¸ö¿ÕµÄÈÎÎñ¶¨Òå¶ÔÏó£¬²ÎÊı±£Áô¹©½«À´Ê¹ÓÃ£¬±ØĞëÉèÖÃÎª0
+    // è¿”å›ä¸€ä¸ªç©ºçš„ä»»åŠ¡å®šä¹‰å¯¹è±¡ï¼Œå‚æ•°ä¿ç•™ä¾›å°†æ¥ä½¿ç”¨ï¼Œå¿…é¡»è®¾ç½®ä¸º0
     var taskDefinition = service.NewTask(0);
 
-    // ´´½¨RegistrationInfo¶ÔÏó£¬ÉèÖÃÈÎÎñµÄ×¢²áĞÅÏ¢
+    // åˆ›å»ºRegistrationInfoå¯¹è±¡ï¼Œè®¾ç½®ä»»åŠ¡çš„æ³¨å†Œä¿¡æ¯
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/registrationinfo
     var regInfo = taskDefinition.RegistrationInfo;
-    // ÈÎÎñËµÃ÷
+    // ä»»åŠ¡è¯´æ˜
     regInfo.Description = desc;
-    // ´´½¨ÈË
+    // åˆ›å»ºäºº
     regInfo.Author = author;
 
-    // ²Ù×÷¼¯ºÏ£¬ÔËĞĞ³ÌĞò/½Å±¾µÈ¶¯×÷µÄ¼¯ºÏ£¬×î¶à32¸ö¶¯×÷
+    // æ“ä½œé›†åˆï¼Œè¿è¡Œç¨‹åº/è„šæœ¬ç­‰åŠ¨ä½œçš„é›†åˆï¼Œæœ€å¤š32ä¸ªåŠ¨ä½œ
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/actioncollection
     var actions = taskDefinition.Actions;
-    // ´´½¨ÒªÖ´ĞĞµÄÈÎÎñµÄ¶¯×÷£º0ÔËĞĞ½Å±¾»ò³ÌĞò£¬5´¥·¢´¦Àí³ÌĞò£¬6·¢ËÍÓÊ¼ş£¬7ÏÔÊ¾Ò»¸öÏûÏ¢¿ò
+    // åˆ›å»ºè¦æ‰§è¡Œçš„ä»»åŠ¡çš„åŠ¨ä½œï¼š0è¿è¡Œè„šæœ¬æˆ–ç¨‹åºï¼Œ5è§¦å‘å¤„ç†ç¨‹åºï¼Œ6å‘é€é‚®ä»¶ï¼Œ7æ˜¾ç¤ºä¸€ä¸ªæ¶ˆæ¯æ¡†
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/actioncollection-create
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/action#remarks
 
-    // ÏòÈÎÎñÌí¼Ó²Ù×÷ https://docs.microsoft.com/zh-cn/windows/win32/taskschd/execaction
+    // å‘ä»»åŠ¡æ·»åŠ æ“ä½œ https://docs.microsoft.com/zh-cn/windows/win32/taskschd/execaction
     var action = actions.Create(0);
-    // ÏòÈÎÎñÌí¼Ó²Ù×÷
+    // å‘ä»»åŠ¡æ·»åŠ æ“ä½œ
     action.Path = path;
-    // Ïò²Ù×÷ÊµÀı´«µİ²ÎÊı
+    // å‘æ“ä½œå®ä¾‹ä¼ é€’å‚æ•°
     action.Arguments = arguments;
 
-    // Ìá¹©Ö÷Ìå°²È«Ö¤ÊéµÄ½Å±¾¶ÔÏó¡£ÕâĞ©°²È«Æ¾Ö¤ÎªÓëÎ¯ÍĞÈË¹ØÁªµÄÈÎÎñ¶¨ÒåÁË°²È«ÉÏÏÂÎÄ¡£
+    // æä¾›ä¸»ä½“å®‰å…¨è¯ä¹¦çš„è„šæœ¬å¯¹è±¡ã€‚è¿™äº›å®‰å…¨å‡­è¯ä¸ºä¸å§”æ‰˜äººå…³è”çš„ä»»åŠ¡å®šä¹‰äº†å®‰å…¨ä¸Šä¸‹æ–‡ã€‚
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/principal
     var principal = taskDefinition.Principal;
-    // ½«µÇÂ¼ÀàĞÍÉèÖÃÎª½»»¥Ê½µÇÂ¼
+    // å°†ç™»å½•ç±»å‹è®¾ç½®ä¸ºäº¤äº’å¼ç™»å½•
     // principal.LogonType = 3;
-    // »ñÈ¡»òÉèÖÃ±êÊ¶·û£¬¸Ã±êÊ¶·ûÓÃÓÚÖ¸¶¨ÔËĞĞÓëÖ÷ÌåÏà¹ØÁªµÄÈÎÎñËùĞèµÄÌØÈ¨¼¶±ğ¡£
+    // è·å–æˆ–è®¾ç½®æ ‡è¯†ç¬¦ï¼Œè¯¥æ ‡è¯†ç¬¦ç”¨äºæŒ‡å®šè¿è¡Œä¸ä¸»ä½“ç›¸å…³è”çš„ä»»åŠ¡æ‰€éœ€çš„ç‰¹æƒçº§åˆ«ã€‚
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/principal-runlevel
     principal.RunLevel = 1;
 
-    // ´´½¨Ò»¸öTaskSettings¶ÔÏó£¬ÉèÖÃÈÎÎñ¼Æ»®³ÌĞòµÄÈÎÎñÉèÖÃĞÅÏ¢
+    // åˆ›å»ºä¸€ä¸ªTaskSettingså¯¹è±¡ï¼Œè®¾ç½®ä»»åŠ¡è®¡åˆ’ç¨‹åºçš„ä»»åŠ¡è®¾ç½®ä¿¡æ¯
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/tasksettings
     var settings = taskDefinition.Settings;
-    // ¸ÃÖµÖ¸Ê¾ÈÎÎñ¼Æ»®³ÌĞò¿ÉÒÔÔÚ¼Æ»®Ê±¼ä¹ıÈ¥Ö®ºóµÄÈÎºÎÊ±¼äÆô¶¯ÈÎÎñ
+    // è¯¥å€¼æŒ‡ç¤ºä»»åŠ¡è®¡åˆ’ç¨‹åºå¯ä»¥åœ¨è®¡åˆ’æ—¶é—´è¿‡å»ä¹‹åçš„ä»»ä½•æ—¶é—´å¯åŠ¨ä»»åŠ¡
     settings.StartWhenAvailable = true;
     settings.Enabled = true;
     settings.Hidden = false;
 
-    // »ñÈ¡»òÉèÖÃÓÃÓÚÆô¶¯ÈÎÎñµÄ´¥·¢Æ÷µÄ¼¯ºÏ¡£
+    // è·å–æˆ–è®¾ç½®ç”¨äºå¯åŠ¨ä»»åŠ¡çš„è§¦å‘å™¨çš„é›†åˆã€‚
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/trigger
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/triggercollection-create
     var triggers = taskDefinition.Triggers;
-    // ´´½¨ÊÂ¼ş´¥·¢Æ÷
+    // åˆ›å»ºäº‹ä»¶è§¦å‘å™¨
     // https://docs.microsoft.com/en-us/previous-versions//aa446887(v=vs.85)
     var trigger = triggers.Create(0);
-    // ¶¨ÒåÊÂ¼ş²éÑ¯¡£´¥·¢Æ÷½«Æô¶¯ÈÎÎñ£¬µ±ÊÕµ½ÊÂ¼şÊ±¡£
+    // å®šä¹‰äº‹ä»¶æŸ¥è¯¢ã€‚è§¦å‘å™¨å°†å¯åŠ¨ä»»åŠ¡ï¼Œå½“æ”¶åˆ°äº‹ä»¶æ—¶ã€‚
     trigger.Subscription = "<QueryList>" +
         "<Query Id='0'><Select Path='System'>" +
         "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]" +
@@ -380,22 +380,22 @@ function createSchedule(name, desc, author, path, arguments) {
         "*[System/Level=2]" +
         "</Select></Query>" +
         "</QueryList>";
-    // ´´½¨ÏĞÖÃ´¥·¢£¬ÔÚ·¢Éú¿ÕÏĞÇé¿öÊ±Æô¶¯ÈÎÎñµÄ´¥·¢Æ÷
+    // åˆ›å»ºé—²ç½®è§¦å‘ï¼Œåœ¨å‘ç”Ÿç©ºé—²æƒ…å†µæ—¶å¯åŠ¨ä»»åŠ¡çš„è§¦å‘å™¨
     //triggers.Create(6);
-    // ´´½¨×¢²á´¥·¢Æ÷
+    // åˆ›å»ºæ³¨å†Œè§¦å‘å™¨
     triggers.Create(7);
-    // ´´½¨Æô¶¯´¥·¢Æ÷
+    // åˆ›å»ºå¯åŠ¨è§¦å‘å™¨
     triggers.Create(8);
-    // ´´½¨µÇÂ¼´¥·¢Æ÷
+    // åˆ›å»ºç™»å½•è§¦å‘å™¨
     triggers.Create(9);
-    // ÓÃÓÚ´¥·¢¿ØÖÆÌ¨Á¬½Ó»ò¶Ï¿ªÁ¬½Ó£¬Ô¶³ÌÁ¬½Ó»ò¶Ï¿ªÁ¬½Ó»ò¹¤×÷Õ¾Ëø¶¨»ò½âËøÍ¨ÖªµÄÈÎÎñ¡£
+    // ç”¨äºè§¦å‘æ§åˆ¶å°è¿æ¥æˆ–æ–­å¼€è¿æ¥ï¼Œè¿œç¨‹è¿æ¥æˆ–æ–­å¼€è¿æ¥æˆ–å·¥ä½œç«™é”å®šæˆ–è§£é”é€šçŸ¥çš„ä»»åŠ¡ã€‚
     var trigger11 = triggers.Create(11);
-    // »ñÈ¡»òÉèÖÃ½«´¥·¢ÈÎÎñÆô¶¯µÄÖÕ¶Ë·şÎñÆ÷»á»°¸ü¸ÄµÄÀàĞÍ£º7Ëø¶¨£»8½âËø
+    // è·å–æˆ–è®¾ç½®å°†è§¦å‘ä»»åŠ¡å¯åŠ¨çš„ç»ˆç«¯æœåŠ¡å™¨ä¼šè¯æ›´æ”¹çš„ç±»å‹ï¼š7é”å®šï¼›8è§£é”
     trigger11.StateChange = 8;
 
-    // Ê¹ÓÃITaskDefinition½Ó¿ÚÔÚÖ¸¶¨Î»ÖÃ×¢²á£¨´´½¨£©ÈÎÎñÒÔ¶¨ÒåÈÎÎñ
-    // ÓÃ»§IDÓĞ£ºLocal Service ; SYSTEM ; nullÎªµ±Ç°µÇÂ¼µÄÓÃ»§Ãû
-    // ×îºóÒ»Î»²ÎÊıÓ°ÏìÈÎÎñ¼Æ»®ÔËĞĞ
+    // ä½¿ç”¨ITaskDefinitionæ¥å£åœ¨æŒ‡å®šä½ç½®æ³¨å†Œï¼ˆåˆ›å»ºï¼‰ä»»åŠ¡ä»¥å®šä¹‰ä»»åŠ¡
+    // ç”¨æˆ·IDæœ‰ï¼šLocal Service ; SYSTEM ; nullä¸ºå½“å‰ç™»å½•çš„ç”¨æˆ·å
+    // æœ€åä¸€ä½å‚æ•°å½±å“ä»»åŠ¡è®¡åˆ’è¿è¡Œ
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/taskfolder-registertaskdefinition
     rootFolder.RegisterTaskDefinition(name, taskDefinition, 6, null, null, 3);
 }

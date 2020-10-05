@@ -1,21 +1,21 @@
 hta="""about:<input type=file id=f><script>f.click();" & _
     "new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).WriteLine(f.value);" & _
     "close();resizeTo(0,0);</script>"""
-' ´ò¿ª¶Ô»°¿ò
+' æ‰“å¼€å¯¹è¯æ¡†
 Set Shell = CreateObject("WScript.Shell")
 
 Set oExec = Shell.Exec("mshta.exe " & hta)
 
 jarPath = oExec.StdOut.ReadLine
 If jarPath <> "" Then
-    ' Êä³öÑ¡ÔñµÄ£¬ÎÄ¼şµÄÂ·¾¶
-    MsgBox "µ±Ç°Ñ¡ÔñµÄÎÄ¼ş£º" & chr(13) & jarPath, 64
+    ' è¾“å‡ºé€‰æ‹©çš„ï¼Œæ–‡ä»¶çš„è·¯å¾„
+    MsgBox "å½“å‰é€‰æ‹©çš„æ–‡ä»¶ï¼š" & chr(13) & jarPath, 64
 
-    arg = InputBox("JVM²ÎÊı£º", "ÇëÊäÈëĞèÒªĞ¯´øµÄJVM²ÎÊı", "")
+    arg = InputBox("JVMå‚æ•°ï¼š", "è¯·è¾“å…¥éœ€è¦æºå¸¦çš„JVMå‚æ•°", "")
 
     Shell.Run "java -jar " & jarPath & " " & arg, 0, False
 
-    MsgBox "Ö´ĞĞ³É¹¦£¡", 64
+    MsgBox "æ‰§è¡ŒæˆåŠŸï¼", 64
 Else
-    MsgBox "ÇëÑ¡ÔñÎÄ¼ş£¡", 48
+    MsgBox "è¯·é€‰æ‹©æ–‡ä»¶ï¼", 48
 End If

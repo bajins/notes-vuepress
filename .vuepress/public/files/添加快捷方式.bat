@@ -1,5 +1,5 @@
 :: -------------------------------------------------------------------
-::                          Ìí¼Ó¿ì½Ý·½Ê½
+::                          æ·»åŠ å¿«æ·æ–¹å¼
 ::                     by https://www.bajins.com
 ::                   GitHub https://woytu.github.io
 :: -------------------------------------------------------------------
@@ -22,27 +22,27 @@ if '%errorlevel%' NEQ '0' ( goto UACPrompt ) else ( goto GetAdmin )
 :StartCommand
 ::-------------------------------------------------------------------------------
 
-::ÉèÖÃ¿ì½Ý·½Ê½Ãû³Æ£¨±ØÑ¡£©
-:: %~dp0 µ±Ç°ËùÔÚÄ¿Â¼
-:: %0 µ±Ç°Ö´ÐÐ½Å±¾Â·¾¶
-set LnkName=²âÊÔ.exe
+::è®¾ç½®å¿«æ·æ–¹å¼åç§°ï¼ˆå¿…é€‰ï¼‰
+:: %~dp0 å½“å‰æ‰€åœ¨ç›®å½•
+:: %0 å½“å‰æ‰§è¡Œè„šæœ¬è·¯å¾„
+set LnkName=æµ‹è¯•.exe
 
-::ÉèÖÃ¿ì½Ý·½Ê½ÏÔÊ¾µÄËµÃ÷£¨¿ÉÑ¡£©
-set Desc=²âÊÔ
+::è®¾ç½®å¿«æ·æ–¹å¼æ˜¾ç¤ºçš„è¯´æ˜Žï¼ˆå¯é€‰ï¼‰
+set Desc=æµ‹è¯•
 
-:: ÉèÖÃ¿ì½Ý·½Ê½´æ·ÅÂ·¾¶£¬DesKtop¡¢Startup¡¢AllUsersStartup¡¢AllUsersDesktop
+:: è®¾ç½®å¿«æ·æ–¹å¼å­˜æ”¾è·¯å¾„ï¼ŒDesKtopã€Startupã€AllUsersStartupã€AllUsersDesktop
 set folder=DesKtop
 
 
-::ÉèÖÃ³ÌÐò»òÎÄ¼þµÄÍêÕûÂ·¾¶£¨±ØÑ¡£©
+::è®¾ç½®ç¨‹åºæˆ–æ–‡ä»¶çš„å®Œæ•´è·¯å¾„ï¼ˆå¿…é€‰ï¼‰
 set Program=%~dp0%LnkName%
 
-::ÉèÖÃ³ÌÐòµÄ¹¤×÷Â·¾¶£¬Ò»°ãÎª³ÌÐòÖ÷Ä¿Â¼£¬´ËÏîÈôÁô¿Õ£¬½Å±¾½«×ÔÐÐ·ÖÎöÂ·¾¶
+::è®¾ç½®ç¨‹åºçš„å·¥ä½œè·¯å¾„ï¼Œä¸€èˆ¬ä¸ºç¨‹åºä¸»ç›®å½•ï¼Œæ­¤é¡¹è‹¥ç•™ç©ºï¼Œè„šæœ¬å°†è‡ªè¡Œåˆ†æžè·¯å¾„
 set WorkDir=%~dp0
 
 if not defined WorkDir call:GetWorkDir "%Program%"
 
-::´´½¨
+::åˆ›å»º
 (
 	echo Set WshShell=CreateObject("WScript.Shell"^)
 	echo folder=WshShell.SpecialFolders("%folder%"^)
@@ -52,7 +52,7 @@ if not defined WorkDir call:GetWorkDir "%Program%"
 	echo oShellLink.WindowStyle=1
 	echo oShellLink.Description="%Desc%"
 	echo oShellLink.Save
-	echo Msgbox("¿ì½Ý·½Ê½´´½¨³É¹¦£¡"^)
+	echo Msgbox("å¿«æ·æ–¹å¼åˆ›å»ºæˆåŠŸï¼"^)
 ) > makelnk.vbs
 
 makelnk.vbs

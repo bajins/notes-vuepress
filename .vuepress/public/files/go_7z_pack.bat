@@ -3,52 +3,52 @@
 
 @ECHO OFF
 color 0a
-Title GO´ò°ü¹¤¾ß by:bajins.com
-:: ´°¿Ú¸ß¿í40*120
+Title GOæ‰“åŒ…å·¥å…· by:bajins.com
+:: çª—å£é«˜å®½40*120
 REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v WindowSize /d 0x00280078 /f >nul
-:: ÆÁÄ»»º³åÇø¸ß¿í1000*120
+:: å±å¹•ç¼“å†²åŒºé«˜å®½1000*120
 REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v ScreenBufferSize /d 0x03e80078 /f >nul
 
 md "%~dp0$testAdmin$" 2>nul
 if not exist "%~dp0$testAdmin$" (
-    echo bajins²»¾ß±¸ËùÔÚÄ¿Â¼µÄĞ´ÈëÈ¨ÏŞ! >&2
+    echo bajinsä¸å…·å¤‡æ‰€åœ¨ç›®å½•çš„å†™å…¥æƒé™! >&2
     exit /b 1
 ) else rd "%~dp0$testAdmin$"
 
-:: ¿ªÆôÑÓ³Ù»·¾³±äÁ¿À©Õ¹
+:: å¼€å¯å»¶è¿Ÿç¯å¢ƒå˜é‡æ‰©å±•
 setlocal enabledelayedexpansion
 
-:: %~f0 ±íÊ¾µ±Ç°Åú´¦ÀíµÄ¾ø¶ÔÂ·¾¶,È¥µôÒıºÅµÄÍêÕûÂ·¾¶
+:: %~f0 è¡¨ç¤ºå½“å‰æ‰¹å¤„ç†çš„ç»å¯¹è·¯å¾„,å»æ‰å¼•å·çš„å®Œæ•´è·¯å¾„
 cscript -nologo -e:jscript "%~f0" download7z
 if not "%errorlevel%" == "0" (
     @cmd /k
     goto :EXIT
 )
 
-:: ĞèÒª´ò°üµÄÎÄ¼ş»òÎÄ¼ş¼Ğ
+:: éœ€è¦æ‰“åŒ…çš„æ–‡ä»¶æˆ–æ–‡ä»¶å¤¹
 set files=pyutils static
 if "%files%" == "" (
-    echo ÇëÉèÖÃĞèÒª´ò°üµÄ¾²Ì¬ÎÄ¼ş»òÎÄ¼ş¼Ğ
+    echo è¯·è®¾ç½®éœ€è¦æ‰“åŒ…çš„é™æ€æ–‡ä»¶æˆ–æ–‡ä»¶å¤¹
     @cmd /k
     goto :EXIT
 )
 
-:: Ë³ĞòÑ­»·£¬ÉèÖÃ×îºóÒ»¸öÎªµ±Ç°Ä¿Â¼
+:: é¡ºåºå¾ªç¯ï¼Œè®¾ç½®æœ€åä¸€ä¸ªä¸ºå½“å‰ç›®å½•
 for /f "delims=" %%i in ("%cd%") do set projectName=%%~ni
-:: ´ò°üÍê³ÉµÄÎÄ¼şÃüÃûºóÒ»²¿·Ö£¬ÓëÇ°Ò»²¿·Ö½øĞĞ×éºÏ
+:: æ‰“åŒ…å®Œæˆçš„æ–‡ä»¶å‘½ååä¸€éƒ¨åˆ†ï¼Œä¸å‰ä¸€éƒ¨åˆ†è¿›è¡Œç»„åˆ
 set allList=darwin_386,darwin_amd64,freebsd_386,freebsd_amd64,freebsd_arm,
 set allList=%allList%netbsd_386,netbsd_amd64,netbsd_arm,openbsd_386,
 set allList=%allList%openbsd_amd64,windows_386.exe,windows_amd64.exe,
 set allList=%allList%linux_386,linux_amd64,linux_arm,linux_mips,
 set allList=%allList%linux_mips64,linux_mips64le,linux_mipsle,linux_s390x
 
-:: »ñµÃËùÓĞÊÜÖ§³ÖÆ½Ì¨µÄÁĞ±í
+:: è·å¾—æ‰€æœ‰å—æ”¯æŒå¹³å°çš„åˆ—è¡¨
 REM for /f %%i in ('go tool dist list') do set "osArchList=%%i"
 
-:: É¾³ı¾ÉÎÄ¼ş
+:: åˆ é™¤æ—§æ–‡ä»¶
 for %%i in (%allList%) do (
     set binaryFile=%projectName%_%%i
-    :: Èç¹û¶ş½øÖÆÎÄ¼ş´æÔÚÔòÉ¾³ı
+    :: å¦‚æœäºŒè¿›åˆ¶æ–‡ä»¶å­˜åœ¨åˆ™åˆ é™¤
     if exist "!binaryFile!" (
         del !binaryFile!
     )
@@ -64,15 +64,15 @@ for %%i in (%allList%) do (
     )
 )
 
-:: Ê¹ÓÃ7zÑ¹Ëõ
+:: ä½¿ç”¨7zå‹ç¼©
 for %%i in (%allList%) do (
     set binaryFile=%projectName%_%%i
-    :: ±àÒëÉú³É¶ş½øÖÆÔËĞĞÎÄ¼ş£¬·Ö¸îÉèÖÃGOOSºÍGOARCH
+    :: ç¼–è¯‘ç”ŸæˆäºŒè¿›åˆ¶è¿è¡Œæ–‡ä»¶ï¼Œåˆ†å‰²è®¾ç½®GOOSå’ŒGOARCH
     for /f "delims=_ tokens=1,2" %%j in ( "%%i" ) do (
         echo.
         echo.
         echo ::::::::::::::::::::::::::::::::::::::::::
-        echo :::::: ±àÒë!binaryFile! ::::::
+        echo :::::: ç¼–è¯‘!binaryFile! ::::::
         echo ::::::::::::::::::::::::::::::::::::::::::
         echo.
         set Arch=%%k
@@ -81,39 +81,39 @@ for %%i in (%allList%) do (
         )
         set GOOS=%%j
         set GOARCH=!Arch!
-        echo »·¾³±äÁ¿ÉèÖÃ³É¹¦£º!GOOS!------!GOARCH!
+        echo ç¯å¢ƒå˜é‡è®¾ç½®æˆåŠŸï¼š!GOOS!------!GOARCH!
         echo.
         go build -ldflags=-w -i -o !binaryFile!
     )
-    :: !!Îªsetlocal EnableDelayedExpansionÈ¡±äÁ¿µÄÖµ
+    :: !!ä¸ºsetlocal EnableDelayedExpansionå–å˜é‡çš„å€¼
     if not exist "!binaryFile!" (
-        echo ´ò°üÊ§°Ü£¬ÎÄ¼ş²»´æÔÚ
+        echo æ‰“åŒ…å¤±è´¥ï¼Œæ–‡ä»¶ä¸å­˜åœ¨
         @cmd /k
     )
-    :: ÅĞ¶Ï±äÁ¿×Ö·û´®ÖĞÊÇ·ñ°üº¬×Ö·û´®
+    :: åˆ¤æ–­å˜é‡å­—ç¬¦ä¸²ä¸­æ˜¯å¦åŒ…å«å­—ç¬¦ä¸²
     echo %%i | findstr linux >nul && (
-        :: ÓÃ7zÑ¹Ëõ³Étar
+        :: ç”¨7zå‹ç¼©æˆtar
         7za a -ttar !binaryFile!.tar %files% !binaryFile!
-        :: ÓÃ7z°ÑtarÑ¹Ëõ³Égz
+        :: ç”¨7zæŠŠtarå‹ç¼©æˆgz
         7za a -tgzip !binaryFile!.tar.gz !binaryFile!.tar
-        :: É¾³ıtarÎÄ¼ş
+        :: åˆ é™¤taræ–‡ä»¶
         del *.tar
     ) || (
         set zipName=!binaryFile:.exe=!
-        :: ÓÃ7zÑ¹ËõÎÄ¼şÎªzip
+        :: ç”¨7zå‹ç¼©æ–‡ä»¶ä¸ºzip
         7za a !zipName!.zip %files% !binaryFile!
     )
-    :: É¾³ı¶ş½øÖÆÎÄ¼ş
+    :: åˆ é™¤äºŒè¿›åˆ¶æ–‡ä»¶
     del !binaryFile!
 
-    :: ±àÒëÍê³ÉÇåÀí»º´æ
+    :: ç¼–è¯‘å®Œæˆæ¸…ç†ç¼“å­˜
     go clean -cache
 )
 
 goto :EXIT
 
 :EXIT
-:: ½áÊøÑÓ³Ù»·¾³±äÁ¿À©Õ¹ºÍÃüÁîÖ´ĞĞ
+:: ç»“æŸå»¶è¿Ÿç¯å¢ƒå˜é‡æ‰©å±•å’Œå‘½ä»¤æ‰§è¡Œ
 endlocal&exit /b %errorlevel%
 */
 
@@ -122,7 +122,7 @@ endlocal&exit /b %errorlevel%
 
 var Argv = WScript.Arguments;
 for (i = 0; i < Argv.length; i++) {
-    WScript.Echo("²ÎÊı£º", Argv(i));
+    WScript.Echo("å‚æ•°ï¼š", Argv(i));
 }
 
 if (Argv.length > 0) {
@@ -131,33 +131,33 @@ if (Argv.length > 0) {
             download7z();
             break;
         default:
-            WScript.Echo("Ë«»÷Ö´ĞĞ¼´¿É£¡");
+            WScript.Echo("åŒå‡»æ‰§è¡Œå³å¯ï¼");
     }
-    // Õı³£ÍË³ö
+    // æ­£å¸¸é€€å‡º
     WScript.Quit(0);
 }
 
 
 /**
- * HTTPÇëÇó
- * ²é¿´·½·¨ÊôĞÔ£ºNew-Object -ComObject "WinHttp.WinHttpRequest.5.1" | Get-Member
+ * HTTPè¯·æ±‚
+ * æŸ¥çœ‹æ–¹æ³•å±æ€§ï¼šNew-Object -ComObject "WinHttp.WinHttpRequest.5.1" | Get-Member
  *
  * @param method        GET,POST
- * @param url           ÇëÇóµØÖ·
+ * @param url           è¯·æ±‚åœ°å€
  * @param dataType      "",text,stream,xml,json
- * @param data          Êı¾İ£¬{key:value}¸ñÊ½
- * @param contentType   ·¢ËÍµÄÊı¾İÀàĞÍ£ºmultipart/form-data¡¢
- * application/x-www-form-urlencoded£¨Ä¬ÈÏ£©¡¢text/plain
+ * @param data          æ•°æ®ï¼Œ{key:value}æ ¼å¼
+ * @param contentType   å‘é€çš„æ•°æ®ç±»å‹ï¼šmultipart/form-dataã€
+ * application/x-www-form-urlencodedï¼ˆé»˜è®¤ï¼‰ã€text/plain
  * @returns {string|Document|any}
  */
 function request(method, url, dataType, data, contentType) {
     if (url == "" || url == null || url.length <= 0) {
-        throw new Error("ÇëÇóurl²»ÄÜÎª¿Õ£¡");
+        throw new Error("è¯·æ±‚urlä¸èƒ½ä¸ºç©ºï¼");
     }
     if (method == "" || method == null || method.length <= 0) {
         method = "GET";
     } else {
-        // °Ñ×Ö·û´®×ª»»Îª´óĞ´
+        // æŠŠå­—ç¬¦ä¸²è½¬æ¢ä¸ºå¤§å†™
         method = method.toUpperCase();
     }
     if (contentType == "" || contentType == null || contentType.length <= 0) {
@@ -188,7 +188,7 @@ function request(method, url, dataType, data, contentType) {
         }
     }
     XMLHTTP.SetTimeouts(0, 1800000, 1800000, 1800000);
-    //½«¶ÔÏó×ª»¯³ÉÎªquerystringĞÎÊ½
+    //å°†å¯¹è±¡è½¬åŒ–æˆä¸ºquerystringå½¢å¼
     var paramarray = [];
     for (key in data) {
         paramarray.push(key + "=" + data[key]);
@@ -196,15 +196,15 @@ function request(method, url, dataType, data, contentType) {
     var params = paramarray.join("&");
     switch (method) {
         case "POST":
-            // 0Òì²½¡¢1Í¬²½
+            // 0å¼‚æ­¥ã€1åŒæ­¥
             XMLHTTP.Open(method, url, 0);
             XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send(params);
             break;
         default:
-            // Ä¬ÈÏGETÇëÇó
+            // é»˜è®¤GETè¯·æ±‚
             if (params == "" || params.length == 0 || params == null) {
-                // 0Òì²½¡¢1Í¬²½
+                // 0å¼‚æ­¥ã€1åŒæ­¥
                 XMLHTTP.Open(method, url, 0);
             } else {
                 XMLHTTP.Open(method, url + "?" + params, 0);
@@ -212,7 +212,7 @@ function request(method, url, dataType, data, contentType) {
             XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send();
     }
-    // °Ñ×Ö·û´®×ª»»ÎªĞ¡Ğ´
+    // æŠŠå­—ç¬¦ä¸²è½¬æ¢ä¸ºå°å†™
     dataType = dataType.toLowerCase();
     switch (dataType) {
         case "text":
@@ -231,30 +231,30 @@ function request(method, url, dataType, data, contentType) {
 
 
 /**
- * ÏÂÔØÎÄ¼ş
- * ²é¿´·½·¨ÊôĞÔ£ºNew-Object -ComObject "ADODB.Stream" | Get-Member
+ * ä¸‹è½½æ–‡ä»¶
+ * æŸ¥çœ‹æ–¹æ³•å±æ€§ï¼šNew-Object -ComObject "ADODB.Stream" | Get-Member
  *
  * @param url
- * @param directory ÎÄ¼ş´æ´¢Ä¿Â¼
- * @param filename  ÎÄ¼şÃû£¬Îª¿ÕÄ¬ÈÏ½ØÈ¡urlÖĞµÄÎÄ¼şÃû
+ * @param directory æ–‡ä»¶å­˜å‚¨ç›®å½•
+ * @param filename  æ–‡ä»¶åï¼Œä¸ºç©ºé»˜è®¤æˆªå–urlä¸­çš„æ–‡ä»¶å
  * @returns {string}
  */
 function download(url, directory, filename) {
     if (url == "" || url == null || url.length <= 0) {
-        throw new Error("ÇëÇóurl²»ÄÜÎª¿Õ£¡");
+        throw new Error("è¯·æ±‚urlä¸èƒ½ä¸ºç©ºï¼");
     }
     if (directory == "" || directory == null || directory.length <= 0) {
-        throw new Error("ÎÄ¼ş´æ´¢Ä¿Â¼²»ÄÜÎª¿Õ£¡");
+        throw new Error("æ–‡ä»¶å­˜å‚¨ç›®å½•ä¸èƒ½ä¸ºç©ºï¼");
     }
     var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // Èç¹ûÄ¿Â¼²»´æÔÚ
+    // å¦‚æœç›®å½•ä¸å­˜åœ¨
     if (!fso.FolderExists(directory)) {
-        // ´´½¨Ä¿Â¼
+        // åˆ›å»ºç›®å½•
         var strFolderName = fso.CreateFolder(directory);
     }
     if (filename == "" || filename == null || filename.length <= 0) {
         filename = url.substring(url.lastIndexOf("/") + 1);
-        // È¥µôÎÄ¼şÃûµÄÌØÊâ·ûºÅ£¨°üÀ¨Ö®Ç°µÄ£©×Ö·û
+        // å»æ‰æ–‡ä»¶åçš„ç‰¹æ®Šç¬¦å·ï¼ˆåŒ…æ‹¬ä¹‹å‰çš„ï¼‰å­—ç¬¦
         filename = filename.replace(/^.*(\&|\=|\?|\/)/ig, "");
     }
     var path = directory + "\\" + filename;
@@ -265,21 +265,21 @@ function download(url, directory, filename) {
     ADO.Write(request("GET", url, ""));
     ADO.SaveToFile(path, 2);
     ADO.Close();
-    // Èç¹ûÎÄ¼ş²»´æÔÚ
+    // å¦‚æœæ–‡ä»¶ä¸å­˜åœ¨
     if (!fso.FileExists(path)) {
-        throw new Error("ÎÄ¼şÏÂÔØÊ§°Ü");
+        throw new Error("æ–‡ä»¶ä¸‹è½½å¤±è´¥");
     }
     return path;
 }
 
 /**
- * ÏÂÔØ7-Zip
+ * ä¸‹è½½7-Zip
  *
- * @param mode ÏÂÔØÄ£Ê½£ºÄ¬ÈÏ0²»¸²¸ÇÏÂÔØ£¬1¸²¸ÇÏÂÔØ
+ * @param mode ä¸‹è½½æ¨¡å¼ï¼šé»˜è®¤0ä¸è¦†ç›–ä¸‹è½½ï¼Œ1è¦†ç›–ä¸‹è½½
  */
 function download7z(mode) {
     var shell = new ActiveXObject("WScript.shell");
-    // Ö´ĞĞ7zÃüÁîÅĞ¶ÏÊÇ·ñ´æÔÚ
+    // æ‰§è¡Œ7zå‘½ä»¤åˆ¤æ–­æ˜¯å¦å­˜åœ¨
     if (shell.Run("cmd /c 7za", 0, true) == 0 && (!mode || mode == 0)) {
         return;
     }
@@ -297,7 +297,7 @@ function download7z(mode) {
         var url = "https://www.7-zip.org/download.html";
         filename = reg.exec(request("get", url, "text", "", ""));
     }
-    // µ±Ç°ÎÄ¼şËùÔÚÄ¿Â¼
+    // å½“å‰æ–‡ä»¶æ‰€åœ¨ç›®å½•
     var dir = fso.GetFile(WScript.ScriptFullName).ParentFolder;
     var msi = dir + '\\' + filename;
     if (fso.FileExists(msi)) {
@@ -308,7 +308,7 @@ function download7z(mode) {
         fso.DeleteFolder(zipDir);
     }
     download("https://www.7-zip.org/a/" + filename, dir, filename);
-    // ½âÑ¹msiÎÄ¼ş
+    // è§£å‹msiæ–‡ä»¶
     shell.Run('msiexec /a "' + msi + '" /qn TARGETDIR="' + zipDir + '"', 0, true);
     fso.CopyFile(dir + "\\7zip\\Files\\7-Zip\\7z.exe", exe);
     fso.CopyFile(dir + "\\7zip\\Files\\7-Zip\\7z.dll", dll);
@@ -320,7 +320,7 @@ function download7z(mode) {
         fso.DeleteFile(exetra);
     }
     download("https://www.7-zip.org/a/" + filename, dir, filename);
-    // -aoa½âÑ¹²¢¸²¸ÇÎÄ¼ş£¬-o²ÎÊı±ØĞëÓëÖµÖ®¼ä²»ÄÜÓĞ¿Õ¸ñ
+    // -aoaè§£å‹å¹¶è¦†ç›–æ–‡ä»¶ï¼Œ-oå‚æ•°å¿…é¡»ä¸å€¼ä¹‹é—´ä¸èƒ½æœ‰ç©ºæ ¼
     shell.Run('7z x -aoa "' + exetra + '" -o"' + storage + '" 7za.exe 7za.dll', 0, true);
     fso.DeleteFile(exetra);
 }

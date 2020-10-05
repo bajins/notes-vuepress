@@ -3,15 +3,15 @@
 
 @ECHO OFF
 color 0a
-Title FRPCÆô¶¯¹¤¾ß by:bajins.com
-:: ´°¿Ú¸ß¿í40*120
+Title FRPCå¯åŠ¨å·¥å…· by:bajins.com
+:: çª—å£é«˜å®½40*120
 REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v WindowSize /d 0x00280078 /f >nul
-:: ÆÁÄ»»º³åÇø¸ß¿í1000*120
+:: å±å¹•ç¼“å†²åŒºé«˜å®½1000*120
 REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v ScreenBufferSize /d 0x03e80078 /f >nul
 
-:: ¿ªÆôÑÓ³Ù»·¾³±äÁ¿À©Õ¹
-:: ½â¾öfor»òifÖĞ²Ù×÷±äÁ¿Ê±ÌáÊ¾ECHO OFFÎÊÌâ£¬ÓÃ!!È¡±äÁ¿
-:: ½â¾öµ÷ÓÃjscriptÌáÊ¾ÃüÁî´íÎóÎÊÌâ
+:: å¼€å¯å»¶è¿Ÿç¯å¢ƒå˜é‡æ‰©å±•
+:: è§£å†³foræˆ–ifä¸­æ“ä½œå˜é‡æ—¶æç¤ºECHO OFFé—®é¢˜ï¼Œç”¨!!å–å˜é‡
+:: è§£å†³è°ƒç”¨jscriptæç¤ºå‘½ä»¤é”™è¯¯é—®é¢˜
 setlocal enabledelayedexpansion
 
 if "%~1"=="/?" (
@@ -33,21 +33,21 @@ set httpPort=7552
 ECHO.
 ECHO             ==========================================================================
 ECHO.
-ECHO                                      Bajins FRPC¿Í»§¶ËÆô¶¯¹¤¾ß
+ECHO                                      Bajins FRPCå®¢æˆ·ç«¯å¯åŠ¨å·¥å…·
 ECHO.
-ECHO                                      ×÷ÕßÓÊÏä£ºadmin@woytu.com
+ECHO                                      ä½œè€…é‚®ç®±ï¼šadmin@woytu.com
 ECHO.
-ECHO                                  ¸öÈËÖ÷Ò³£ºhttps://www.bajins.com
+ECHO                                  ä¸ªäººä¸»é¡µï¼šhttps://www.bajins.com
 ECHO.
-ECHO                                  github£ºhttps://github.com/woytu
+ECHO                                  githubï¼šhttps://github.com/woytu
 ECHO.
-ECHO                                      Ãâ·ÑÊ¹ÓÃ£¡½ûÖ¹ÓÃÓÚ·Ç·¨ÓÃÍ¾£¡
+ECHO                                      å…è´¹ä½¿ç”¨ï¼ç¦æ­¢ç”¨äºéæ³•ç”¨é€”ï¼
 ECHO.
 ECHO             ==========================================================================
 ECHO.
 ECHO.
 
-:: Ö´ĞĞJavaScript½Å±¾
+:: æ‰§è¡ŒJavaScriptè„šæœ¬
 cscript -nologo -e:jscript "%~f0"
 
 if not "%errorlevel%" == "0" (
@@ -57,21 +57,21 @@ if not "%errorlevel%" == "0" (
 :TUNNEL
 ECHO.
 ECHO.
-ECHO             ÊäÈë×Ô¶¨Òå¶ş¼¶ÓòÃû£¬Èç¡°aa¡± £¬¼´·ÖÅä¸øÄãµÄ´©Í¸ÓòÃûÎª£º¡°aa.%serverHost%¡±
+ECHO             è¾“å…¥è‡ªå®šä¹‰äºŒçº§åŸŸåï¼Œå¦‚â€œaaâ€ ï¼Œå³åˆ†é…ç»™ä½ çš„ç©¿é€åŸŸåä¸ºï¼šâ€œaa.%serverHost%â€
 ECHO.
 ECHO.
 
 :CID
-set /p clientid=ÇëÊäÈë×Ô¶¨Òå¶ş¼¶ÓòÃû£º
+set /p clientid=è¯·è¾“å…¥è‡ªå®šä¹‰äºŒçº§åŸŸåï¼š
 if "%clientid%"=="" (
     goto :CID
 )
 
-:: ÅĞ¶ÏÊÇ·ñÎªÊı×Ö¡¢×ÖÄ¸£¬ÔÚ|Á½¶Ë²»ÄÜÓĞ¿Õ¸ñ
-:: ×¢ÒâÕâÀïÓĞ¸öbug²»ÄÜÓÃ[^0-9]È¡·´£¬Æ¥Åäµ½.»áÍ¨¹ı
+:: åˆ¤æ–­æ˜¯å¦ä¸ºæ•°å­—ã€å­—æ¯ï¼Œåœ¨|ä¸¤ç«¯ä¸èƒ½æœ‰ç©ºæ ¼
+:: æ³¨æ„è¿™é‡Œæœ‰ä¸ªbugä¸èƒ½ç”¨[^0-9]å–åï¼ŒåŒ¹é…åˆ°.ä¼šé€šè¿‡
 ECHO %clientid%|findstr "^[a-z0-9]*$" >nul || (
     ECHO.
-    ECHO.¶ş¼¶ÓòÃû±ØĞëÎªĞ¡Ğ´×ÖÄ¸»òÊı×Ö£¡
+    ECHO.äºŒçº§åŸŸåå¿…é¡»ä¸ºå°å†™å­—æ¯æˆ–æ•°å­—ï¼
     ECHO.
     goto :CID
 )
@@ -80,16 +80,16 @@ ECHO.
 ECHO.
 
 :PT
-set /p port=ÇëÊäÈë±¾µØ¶Ë¿Ú£º
+set /p port=è¯·è¾“å…¥æœ¬åœ°ç«¯å£ï¼š
 if "%port%"=="" (
     goto :PT
 )
 
-:: ÅĞ¶ÏÊÇ·ñÎª´¿Êı×Ö£¬ÔÚ|Á½¶Ë²»ÄÜÓĞ¿Õ¸ñ
-:: ×¢ÒâÕâÀïÓĞ¸öbug²»ÄÜÓÃ[^0-9]È¡·´£¬Æ¥Åäµ½.»áÍ¨¹ı
+:: åˆ¤æ–­æ˜¯å¦ä¸ºçº¯æ•°å­—ï¼Œåœ¨|ä¸¤ç«¯ä¸èƒ½æœ‰ç©ºæ ¼
+:: æ³¨æ„è¿™é‡Œæœ‰ä¸ªbugä¸èƒ½ç”¨[^0-9]å–åï¼ŒåŒ¹é…åˆ°.ä¼šé€šè¿‡
 ECHO %port%|findstr "^[0-9]*$" >nul || (
     ECHO.
-    ECHO.¶Ë¿Ú±ØĞëÎª´¿Êı×Ö£¡
+    ECHO.ç«¯å£å¿…é¡»ä¸ºçº¯æ•°å­—ï¼
     ECHO.
     goto :PT
 )
@@ -97,44 +97,44 @@ ECHO %port%|findstr "^[0-9]*$" >nul || (
 ECHO.
 ECHO.
 
-ECHO ·ÃÎÊµØÖ·£ºhttp://%clientid%.%serverHost%:%httpPort%
+ECHO è®¿é—®åœ°å€ï¼šhttp://%clientid%.%serverHost%:%httpPort%
 
-:: ÅäÖÃÎÄ¼ş
+:: é…ç½®æ–‡ä»¶
 set iniFile="frpc.ini"
-:: ÈÕÖ¾ÎÄ¼ş
+:: æ—¥å¿—æ–‡ä»¶
 set logFile=frpc.log
 
 if exist %iniFile% del frpc.ini >nul
 
 (
     ECHO [common]
-    ECHO # frpsµØÖ·
+    ECHO # frpsåœ°å€
     ECHO server_addr = %serverHost%
-    ECHO # frps¶Ë¿Ú
+    ECHO # frpsç«¯å£
     ECHO server_port = %serverProt%
-    ECHO # frpsÈÏÖ¤ÃÜÂë
+    ECHO # frpsè®¤è¯å¯†ç 
     ECHO token = %token%
-    ECHO # µÇÂ¼Ê§°ÜÖØÊÔ
+    ECHO # ç™»å½•å¤±è´¥é‡è¯•
     ECHO login_fail_exit = true
-    ECHO # Ö¸¶¨ÈÕÖ¾ÎÄ¼ş
+    ECHO # æŒ‡å®šæ—¥å¿—æ–‡ä»¶
     ECHO log_file = %logFile%
-    ECHO # Ö¸¶¨ÈÕÖ¾´òÓ¡¼¶±ğ
+    ECHO # æŒ‡å®šæ—¥å¿—æ‰“å°çº§åˆ«
     ECHO log_level = info
-    ECHO # Ö¸¶¨ÈÕÖ¾´æ´¢×î´óÌìÊı
+    ECHO # æŒ‡å®šæ—¥å¿—å­˜å‚¨æœ€å¤§å¤©æ•°
     ECHO log_max_days = 7
     ECHO. 
     ECHO. 
-    ECHO # ËíµÀÃû³Æ
+    ECHO # éš§é“åç§°
     ECHO [web_%clientid%]
-    ECHO # ·ÃÎÊÀàĞÍ
+    ECHO # è®¿é—®ç±»å‹
     ECHO type = http
-    ECHO # ±¾µØIP
+    ECHO # æœ¬åœ°IP
     ECHO local_ip = 127.0.0.1
-    ECHO # ±¾µØ¶Ë¿Ú
+    ECHO # æœ¬åœ°ç«¯å£
     ECHO local_port = %port%
-    ECHO # ×Ô¶¨Òå¶ş¼¶ÓòÃû
+    ECHO # è‡ªå®šä¹‰äºŒçº§åŸŸå
     ECHO subdomain = %clientid%
-    ECHO # ×Ô¶¨ÒåÓòÃû,subdomainÉèÖÃºóÎŞ·¨Ê¹ÓÃ´Ë²ÎÊı
+    ECHO # è‡ªå®šä¹‰åŸŸå,subdomainè®¾ç½®åæ— æ³•ä½¿ç”¨æ­¤å‚æ•°
     ECHO # custom_domains = %clientid%.%serverHost%
     ECHO. 
 ) > %iniFile%
@@ -144,37 +144,37 @@ ECHO.
 
 
 cd %~dp0
-:: ½áÊø½ø³Ì
+:: ç»“æŸè¿›ç¨‹
 taskkill /f /im frpc.exe 1>nul 2>nul
-:: Èç¹ûÈÕÖ¾ÎÄ¼ş´æÔÚÔòÉ¾³ı
+:: å¦‚æœæ—¥å¿—æ–‡ä»¶å­˜åœ¨åˆ™åˆ é™¤
 if exist %logFile% del %logFile% >nul
 
-:: ÔËĞĞVisualBasicScriptÃüÁî²»ÏÔÊ¾vbs´°¿Ú
+:: è¿è¡ŒVisualBasicScriptå‘½ä»¤ä¸æ˜¾ç¤ºvbsçª—å£
 mshta vbscript:CreateObject("WScript.Shell").Run("cmd /c frpc.exe -c frpc.ini",0,false)(window.close)
 
-ECHO.ÕıÔÚÆô¶¯frpc£¬ÇëÉÔºó......
+ECHO.æ­£åœ¨å¯åŠ¨frpcï¼Œè¯·ç¨å......
 
-:: ÑÓÊ±µÈ´ı10Ãë
+:: å»¶æ—¶ç­‰å¾…10ç§’
 timeout /T 10 /NOBREAK >nul
 
 ECHO.
 ECHO.
 
-:: »ñÈ¡³ÌĞòÔËĞĞPID
+:: è·å–ç¨‹åºè¿è¡ŒPID
 for /f "skip=3 tokens=2" %%a in ('tasklist /fi "imagename eq frpc*"') do set taskReslut= %%a
-:: ÅĞ¶ÏPIDÊÇ·ñÎª¿Õ
+:: åˆ¤æ–­PIDæ˜¯å¦ä¸ºç©º
 if "%taskReslut%"=="" (
     ECHO.
-    ECHO.ÔËĞĞÊ§°Ü£¡
+    ECHO.è¿è¡Œå¤±è´¥ï¼
     ECHO.
     @cmd /k
 ) else (
-    ECHO ÔËĞĞ³É¹¦PID£º%taskReslut%
+    ECHO è¿è¡ŒæˆåŠŸPIDï¼š%taskReslut%
 )
 
 if not exist %logFile% (
     ECHO.
-    ECHO.ÈÕÖ¾ÎÄ¼ş²»´æÔÚ£¡ÇëÊÖ¶¯¼ì²âÊÇ·ñÔËĞĞ³É¹¦£¡
+    ECHO.æ—¥å¿—æ–‡ä»¶ä¸å­˜åœ¨ï¼è¯·æ‰‹åŠ¨æ£€æµ‹æ˜¯å¦è¿è¡ŒæˆåŠŸï¼
     ECHO.
     @cmd /k
 )
@@ -182,21 +182,21 @@ if not exist %logFile% (
 
 findstr /i /c:"login to server failed" %logFile% >nul && (
     ECHO.
-    ECHO.µÇÂ¼µ½·şÎñÆ÷Ê§°Ü£¡
+    ECHO.ç™»å½•åˆ°æœåŠ¡å™¨å¤±è´¥ï¼
     ECHO.
     @cmd /k
 )
 
 findstr /i /c:"start proxy error" %logFile% >nul && (
     ECHO.
-    ECHO.Æô¶¯Ê§°Ü£¬Çë¼ì²éÅäÖÃ»òÖØĞÂÅäÖÃ£¡
+    ECHO.å¯åŠ¨å¤±è´¥ï¼Œè¯·æ£€æŸ¥é…ç½®æˆ–é‡æ–°é…ç½®ï¼
     ECHO.
     @cmd /k
 )
 
 findstr /i /c:"login to server success" %logFile% >nul && (
     ECHO.
-    ECHO.µÇÂ¼frps³É¹¦£¡
+    ECHO.ç™»å½•frpsæˆåŠŸï¼
     ECHO.
 ) || (
     ECHO.
@@ -204,7 +204,7 @@ findstr /i /c:"login to server success" %logFile% >nul && (
 
 findstr /i /c:"start proxy success" %logFile% >nul && (
     ECHO.
-    ECHO.ºóÌ¨Æô¶¯frpcÍê³É£¡
+    ECHO.åå°å¯åŠ¨frpcå®Œæˆï¼
     ECHO.
 ) || (
     ECHO.
@@ -212,7 +212,7 @@ findstr /i /c:"start proxy success" %logFile% >nul && (
 
 
 ECHO.
-ECHO.ÏÂÃæÊÇfrpcÈÕÖ¾ĞÅÏ¢£º
+ECHO.ä¸‹é¢æ˜¯frpcæ—¥å¿—ä¿¡æ¯ï¼š
 ECHO.
 type %logFile%
 ECHO.
@@ -222,7 +222,7 @@ pause
 goto :EXIT
 
 :EXIT
-:: ½áÊøÑÓ³Ù»·¾³±äÁ¿À©Õ¹ºÍÃüÁîÖ´ĞĞ
+:: ç»“æŸå»¶è¿Ÿç¯å¢ƒå˜é‡æ‰©å±•å’Œå‘½ä»¤æ‰§è¡Œ
 endlocal&exit /b %errorlevel%
 
 */
@@ -232,13 +232,13 @@ endlocal&exit /b %errorlevel%
 
 var Argv = WScript.Arguments;
 for (i = 0; i < Argv.length; i++) {
-    WScript.Echo("²ÎÊı£º", Argv(i));
+    WScript.Echo("å‚æ•°ï¼š", Argv(i));
 }
 var ArgvName = Argv.Named;
 
 if (ArgvName.Item("help") != "" && ArgvName.Item("help") != null) {
     help();
-    // Õı³£ÍË³ö
+    // æ­£å¸¸é€€å‡º
     WScript.Quit(0);
 }
 
@@ -249,28 +249,28 @@ if (ArgvName.Item("autoRun") == "1") {
 try {
     run();
 } catch (err) {
-    WScript.Echo("´íÎó£º", err.message);
-    // Òì³£ÍË³ö
+    WScript.Echo("é”™è¯¯ï¼š", err.message);
+    // å¼‚å¸¸é€€å‡º
     WScript.Quit(1);
 }
 
 function run() {
-    // ´´½¨shell¶ÔÏó
+    // åˆ›å»ºshellå¯¹è±¡
     var shell = new ActiveXObject("WScript.shell");
     var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // µ±Ç°ÎÄ¼şËùÔÚÄ¿Â¼
+    // å½“å‰æ–‡ä»¶æ‰€åœ¨ç›®å½•
     var currentDirectory = fso.GetFile(WScript.ScriptFullName).ParentFolder;
 
     var cmd = "cmd /c ";
 
-    WScript.Echo("¿ªÊ¼»ñÈ¡ÏßÉÏ×îĞÂ°æ±¾ºÅ......\n");
+    WScript.Echo("å¼€å§‹è·å–çº¿ä¸Šæœ€æ–°ç‰ˆæœ¬å·......\n");
 
-    // ÇëÇó»ñÈ¡×îĞÂ°æ±¾ĞÅÏ¢
+    // è¯·æ±‚è·å–æœ€æ–°ç‰ˆæœ¬ä¿¡æ¯
     var json = request("get", "https://api.github.com/repos/fatedier/frp/releases/latest", "json");
-    // ×îĞÂ°æ±¾ºÅ
+    // æœ€æ–°ç‰ˆæœ¬å·
     var version = json.name.substring(1);
 
-    WScript.Echo("µ±Ç°ÏßÉÏ×îĞÂ°æ±¾ºÅ£º", version, "\n");
+    WScript.Echo("å½“å‰çº¿ä¸Šæœ€æ–°ç‰ˆæœ¬å·ï¼š", version, "\n");
 
     var sys = getSystem();
     var url = "";
@@ -282,47 +282,47 @@ function run() {
         }
     }
 
-    // ×îĞÂ°æ±¾ÎÄ¼şÃû
+    // æœ€æ–°ç‰ˆæœ¬æ–‡ä»¶å
     var zipName = url.split("/");
     zipName = zipName[zipName.length - 1];
 
     var thisExe = currentDirectory + "\\frpc.exe";
-    // Èç¹ûµ±Ç°Ä¿Â¼´æÔÚÎÄ¼ş
+    // å¦‚æœå½“å‰ç›®å½•å­˜åœ¨æ–‡ä»¶
     if (fso.FileExists(thisExe)) {
-        // Ö´ĞĞÃüÁî£¬²¢È¥µôÖ´ĞĞ½á¹ûÖĞµÄ»»ĞĞ·û
+        // æ‰§è¡Œå‘½ä»¤ï¼Œå¹¶å»æ‰æ‰§è¡Œç»“æœä¸­çš„æ¢è¡Œç¬¦
         var out = shell.Exec(cmd + thisExe + " -v").StdOut.ReadAll().replace(/\n/ig, "");
-        WScript.Echo("±¾µØµ±Ç°Ä¿Â¼ÏÂ³ÌĞò°æ±¾£º", out, "\n");
-        // Èç¹ûÒÑ¾­ÊÇ×îĞÂ°æ±¾
+        WScript.Echo("æœ¬åœ°å½“å‰ç›®å½•ä¸‹ç¨‹åºç‰ˆæœ¬ï¼š", out, "\n");
+        // å¦‚æœå·²ç»æ˜¯æœ€æ–°ç‰ˆæœ¬
         if (version == out) {
             return;
         }
     }
 
-    // ×îĞÂ°æ³ÌĞòÄ¿Â¼
+    // æœ€æ–°ç‰ˆç¨‹åºç›®å½•
     var exeFolder = currentDirectory + "\\" + zipName.substring(0, zipName.length - 4);
-    // ÅĞ¶Ï×îĞÂ°æ³ÌĞòÄ¿Â¼ÊÇ·ñ´æÔÚ
+    // åˆ¤æ–­æœ€æ–°ç‰ˆç¨‹åºç›®å½•æ˜¯å¦å­˜åœ¨
     if (fso.FolderExists(exeFolder)) {
-        // ÒÆ¶¯ÎÄ¼şµ½µ±Ç°Ä¿Â¼
+        // ç§»åŠ¨æ–‡ä»¶åˆ°å½“å‰ç›®å½•
         shell.Run(cmd + "move " + exeFolder + "\\frpc.exe " + currentDirectory, 0, true);
         return;
     }
 
-    // Èç¹ûµ±Ç°Ä¿Â¼´æÔÚÑ¹ËõÎÄ¼ş
+    // å¦‚æœå½“å‰ç›®å½•å­˜åœ¨å‹ç¼©æ–‡ä»¶
     if (fso.FileExists(zipName)) {
-        WScript.Echo("µ±Ç°Ä¿Â¼´æÔÚ×îĞÂ°æÑ¹ËõÎÄ¼ş£¬¿ªÊ¼½âÑ¹......\n");
+        WScript.Echo("å½“å‰ç›®å½•å­˜åœ¨æœ€æ–°ç‰ˆå‹ç¼©æ–‡ä»¶ï¼Œå¼€å§‹è§£å‹......\n");
         decompression(cmd, shell, fso, currentDirectory, zipName, exeFolder);
         return;
     }
 
-    WScript.Echo("¿ªÊ¼ÏÂÔØ×îĞÂ°æ³ÌĞò......\n");
+    WScript.Echo("å¼€å§‹ä¸‹è½½æœ€æ–°ç‰ˆç¨‹åº......\n");
 
     try {
         download(url, currentDirectory);
     } catch (e) {
-        throw new Error("ÏÂÔØÎÄ¼ş´íÎó£º" + e.message);
+        throw new Error("ä¸‹è½½æ–‡ä»¶é”™è¯¯ï¼š" + e.message);
     }
 
-    WScript.Echo("ÏÂÔØÍê³É£¬¿ªÊ¼½âÑ¹......\n");
+    WScript.Echo("ä¸‹è½½å®Œæˆï¼Œå¼€å§‹è§£å‹......\n");
 
     decompression(cmd, shell, fso, currentDirectory, zipName, exeFolder);
 
@@ -330,7 +330,7 @@ function run() {
 
 
 /**
- * ½âÑ¹
+ * è§£å‹
  *
  * @param cmd
  * @param shell
@@ -344,44 +344,44 @@ function decompression(cmd, shell, fso, currentDirectory, zipName, exeFolder) {
     var sp = exeFolder.split("\\");
     var exeName = " " + sp[sp.length - 1] + "\\frpc.exe ";
     download7z();
-    // -aoa½âÑ¹²¢¸²¸ÇÎÄ¼ş
+    // -aoaè§£å‹å¹¶è¦†ç›–æ–‡ä»¶
     shell.Run(cmd + "7za e -aoa " + zipName + exeName, 0, true);
-    // Èç¹ûÎÄ¼ş²»´æÔÚ
+    // å¦‚æœæ–‡ä»¶ä¸å­˜åœ¨
     if (!fso.FileExists(currentDirectory + "\\frpc.exe")) {
-        throw new Error("½âÑ¹Ê§°Ü£¡");
+        throw new Error("è§£å‹å¤±è´¥ï¼");
     }
-    // É¾³ıÏÂÔØµÄzip
+    // åˆ é™¤ä¸‹è½½çš„zip
     fso.DeleteFile(zipName);
-    WScript.Echo("½âÑ¹Íê³É£¡\n");
+    WScript.Echo("è§£å‹å®Œæˆï¼\n");
 }
 
 function help() {
-    WScript.Echo("»ù±¾ÓÃ·¨:");
-    WScript.Echo("   ÏÂÔØ: " + WScript.ScriptName, " autoRun");
-    WScript.Echo("     autoRun ÊÇ·ñ¿ªÆô¿ª»ú×Ô¶¯ÔËĞĞ£ºÄ¬ÈÏ0²»¿ªÆô,1¿ªÆô");
+    WScript.Echo("åŸºæœ¬ç”¨æ³•:");
+    WScript.Echo("   ä¸‹è½½: " + WScript.ScriptName, " autoRun");
+    WScript.Echo("     autoRun æ˜¯å¦å¼€å¯å¼€æœºè‡ªåŠ¨è¿è¡Œï¼šé»˜è®¤0ä¸å¼€å¯,1å¼€å¯");
 }
 
 
 /**
- * HTTPÇëÇó
- * ²é¿´·½·¨ÊôĞÔ£ºNew-Object -ComObject "WinHttp.WinHttpRequest.5.1" | Get-Member
+ * HTTPè¯·æ±‚
+ * æŸ¥çœ‹æ–¹æ³•å±æ€§ï¼šNew-Object -ComObject "WinHttp.WinHttpRequest.5.1" | Get-Member
  *
  * @param method        GET,POST
- * @param url           ÇëÇóµØÖ·
+ * @param url           è¯·æ±‚åœ°å€
  * @param dataType      "",text,stream,xml,json
- * @param data          Êı¾İ£¬{key:value}¸ñÊ½
- * @param contentType   ·¢ËÍµÄÊı¾İÀàĞÍ£ºmultipart/form-data¡¢
- * application/x-www-form-urlencoded£¨Ä¬ÈÏ£©¡¢text/plain
+ * @param data          æ•°æ®ï¼Œ{key:value}æ ¼å¼
+ * @param contentType   å‘é€çš„æ•°æ®ç±»å‹ï¼šmultipart/form-dataã€
+ * application/x-www-form-urlencodedï¼ˆé»˜è®¤ï¼‰ã€text/plain
  * @returns {string|Document|any}
  */
 function request(method, url, dataType, data, contentType) {
     if (url == "" || url == null || url.length <= 0) {
-        throw new Error("ÇëÇóurl²»ÄÜÎª¿Õ£¡");
+        throw new Error("è¯·æ±‚urlä¸èƒ½ä¸ºç©ºï¼");
     }
     if (method == "" || method == null || method.length <= 0) {
         method = "GET";
     } else {
-        // °Ñ×Ö·û´®×ª»»Îª´óĞ´
+        // æŠŠå­—ç¬¦ä¸²è½¬æ¢ä¸ºå¤§å†™
         method = method.toUpperCase();
     }
     if (contentType == "" || contentType == null || contentType.length <= 0) {
@@ -412,7 +412,7 @@ function request(method, url, dataType, data, contentType) {
         }
     }
     XMLHTTP.SetTimeouts(0, 1800000, 1800000, 1800000);
-    //½«¶ÔÏó×ª»¯³ÉÎªquerystringĞÎÊ½
+    //å°†å¯¹è±¡è½¬åŒ–æˆä¸ºquerystringå½¢å¼
     var paramarray = [];
     for (key in data) {
         paramarray.push(key + "=" + data[key]);
@@ -420,15 +420,15 @@ function request(method, url, dataType, data, contentType) {
     var params = paramarray.join("&");
     switch (method) {
         case "POST":
-            // 0Òì²½¡¢1Í¬²½
+            // 0å¼‚æ­¥ã€1åŒæ­¥
             XMLHTTP.Open(method, url, 0);
             XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send(params);
             break;
         default:
-            // Ä¬ÈÏGETÇëÇó
+            // é»˜è®¤GETè¯·æ±‚
             if (params == "" || params.length == 0 || params == null) {
-                // 0Òì²½¡¢1Í¬²½
+                // 0å¼‚æ­¥ã€1åŒæ­¥
                 XMLHTTP.Open(method, url, 0);
             } else {
                 XMLHTTP.Open(method, url + "?" + params, 0);
@@ -436,7 +436,7 @@ function request(method, url, dataType, data, contentType) {
             XMLHTTP.SetRequestHeader("CONTENT-TYPE", contentType);
             XMLHTTP.Send();
     }
-    // °Ñ×Ö·û´®×ª»»ÎªĞ¡Ğ´
+    // æŠŠå­—ç¬¦ä¸²è½¬æ¢ä¸ºå°å†™
     dataType = dataType.toLowerCase();
     switch (dataType) {
         case "text":
@@ -455,30 +455,30 @@ function request(method, url, dataType, data, contentType) {
 
 
 /**
- * ÏÂÔØÎÄ¼ş
- * ²é¿´·½·¨ÊôĞÔ£ºNew-Object -ComObject "ADODB.Stream" | Get-Member
+ * ä¸‹è½½æ–‡ä»¶
+ * æŸ¥çœ‹æ–¹æ³•å±æ€§ï¼šNew-Object -ComObject "ADODB.Stream" | Get-Member
  *
  * @param url
- * @param directory ÎÄ¼ş´æ´¢Ä¿Â¼
- * @param filename  ÎÄ¼şÃû£¬Îª¿ÕÄ¬ÈÏ½ØÈ¡urlÖĞµÄÎÄ¼şÃû
+ * @param directory æ–‡ä»¶å­˜å‚¨ç›®å½•
+ * @param filename  æ–‡ä»¶åï¼Œä¸ºç©ºé»˜è®¤æˆªå–urlä¸­çš„æ–‡ä»¶å
  * @returns {string}
  */
 function download(url, directory, filename) {
     if (url == "" || url == null || url.length <= 0) {
-        throw new Error("ÇëÇóurl²»ÄÜÎª¿Õ£¡");
+        throw new Error("è¯·æ±‚urlä¸èƒ½ä¸ºç©ºï¼");
     }
     if (directory == "" || directory == null || directory.length <= 0) {
-        throw new Error("ÎÄ¼ş´æ´¢Ä¿Â¼²»ÄÜÎª¿Õ£¡");
+        throw new Error("æ–‡ä»¶å­˜å‚¨ç›®å½•ä¸èƒ½ä¸ºç©ºï¼");
     }
     var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // Èç¹ûÄ¿Â¼²»´æÔÚ
+    // å¦‚æœç›®å½•ä¸å­˜åœ¨
     if (!fso.FolderExists(directory)) {
-        // ´´½¨Ä¿Â¼
+        // åˆ›å»ºç›®å½•
         var strFolderName = fso.CreateFolder(directory);
     }
     if (filename == "" || filename == null || filename.length <= 0) {
         filename = url.substring(url.lastIndexOf("/") + 1);
-        // È¥µôÎÄ¼şÃûµÄÌØÊâ·ûºÅ£¨°üÀ¨Ö®Ç°µÄ£©×Ö·û
+        // å»æ‰æ–‡ä»¶åçš„ç‰¹æ®Šç¬¦å·ï¼ˆåŒ…æ‹¬ä¹‹å‰çš„ï¼‰å­—ç¬¦
         filename = filename.replace(/^.*(\&|\=|\?|\/)/ig, "");
     }
     var path = directory + "\\" + filename;
@@ -489,27 +489,27 @@ function download(url, directory, filename) {
     ADO.Write(request("GET", url, ""));
     ADO.SaveToFile(path, 2);
     ADO.Close();
-    // Èç¹ûÎÄ¼ş²»´æÔÚ
+    // å¦‚æœæ–‡ä»¶ä¸å­˜åœ¨
     if (!fso.FileExists(path)) {
-        throw new Error("ÎÄ¼şÏÂÔØÊ§°Ü");
+        throw new Error("æ–‡ä»¶ä¸‹è½½å¤±è´¥");
     }
     return path;
 }
 
 
 /**
- * »ñÈ¡ÏµÍ³ĞÅÏ¢
+ * è·å–ç³»ç»Ÿä¿¡æ¯
  *
  * @returns {{cpu_digits: *, cpu_core_number: *, system: string, os: *}}
  */
 function getSystem() {
     var shell = new ActiveXObject("WScript.shell");
     var system = shell.Environment("SYSTEM");
-    // ²Ù×÷ÏµÍ³
+    // æ“ä½œç³»ç»Ÿ
     var os = system("OS").toLowerCase().split("_")[0];
-    // CPUÎ»Êı
+    // CPUä½æ•°
     var cpuDigits = system("PROCESSOR_ARCHITECTURE").toLowerCase();
-    // CPUºËĞÄÊı
+    // CPUæ ¸å¿ƒæ•°
     var cpuCoreNumber = system("NUMBER_OF_PROCESSORS");
     return {
         "os": os,
@@ -521,13 +521,13 @@ function getSystem() {
 
 
 /**
- * ÏÂÔØ7-Zip
+ * ä¸‹è½½7-Zip
  *
- * @param mode ÏÂÔØÄ£Ê½£ºÄ¬ÈÏ0²»¸²¸ÇÏÂÔØ£¬1¸²¸ÇÏÂÔØ
+ * @param mode ä¸‹è½½æ¨¡å¼ï¼šé»˜è®¤0ä¸è¦†ç›–ä¸‹è½½ï¼Œ1è¦†ç›–ä¸‹è½½
  */
 function download7z(mode) {
     var shell = new ActiveXObject("WScript.shell");
-    // Ö´ĞĞ7zÃüÁîÅĞ¶ÏÊÇ·ñ´æÔÚ
+    // æ‰§è¡Œ7zå‘½ä»¤åˆ¤æ–­æ˜¯å¦å­˜åœ¨
     if (shell.Run("cmd /c 7za", 0, true) == 0 && (!mode || mode == 0)) {
         return;
     }
@@ -545,7 +545,7 @@ function download7z(mode) {
         var url = "https://www.7-zip.org/download.html";
         filename = reg.exec(request("get", url, "text", "", ""));
     }
-    // µ±Ç°ÎÄ¼şËùÔÚÄ¿Â¼
+    // å½“å‰æ–‡ä»¶æ‰€åœ¨ç›®å½•
     var dir = fso.GetFile(WScript.ScriptFullName).ParentFolder;
     var msi = dir + '\\' + filename;
     if (fso.FileExists(msi)) {
@@ -556,7 +556,7 @@ function download7z(mode) {
         fso.DeleteFolder(zipDir);
     }
     download("https://www.7-zip.org/a/" + filename, dir, filename);
-    // ½âÑ¹msiÎÄ¼ş
+    // è§£å‹msiæ–‡ä»¶
     shell.Run('msiexec /a "' + msi + '" /qn TARGETDIR="' + zipDir + '"', 0, true);
     fso.CopyFile(dir + "\\7zip\\Files\\7-Zip\\7z.exe", exe);
     fso.CopyFile(dir + "\\7zip\\Files\\7-Zip\\7z.dll", dll);
@@ -568,16 +568,16 @@ function download7z(mode) {
         fso.DeleteFile(exetra);
     }
     download("https://www.7-zip.org/a/" + filename, dir, filename);
-    // -aoa½âÑ¹²¢¸²¸ÇÎÄ¼ş£¬-o²ÎÊı±ØĞëÓëÖµÖ®¼ä²»ÄÜÓĞ¿Õ¸ñ
+    // -aoaè§£å‹å¹¶è¦†ç›–æ–‡ä»¶ï¼Œ-oå‚æ•°å¿…é¡»ä¸å€¼ä¹‹é—´ä¸èƒ½æœ‰ç©ºæ ¼
     shell.Run('7z x -aoa "' + exetra + '" -o"' + storage + '" 7za.exe 7za.dll', 0, true);
     fso.DeleteFile(exetra);
 }
 
 /**
- * ¿ª»úÆô¶¯
+ * å¼€æœºå¯åŠ¨
  *
- * @param mode ÎªstartupÊ±ÊÇÔÚ¿ª»úÆô¶¯Ä¿Â¼ÖĞ´´½¨vbs½Å±¾£¬·ñÔòÌí¼Ó¿ª»úÆô¶¯×¢²á±í
- * @param arguments ÏòÖ´ĞĞµÄ³ÌĞò»ò½Å±¾´«µİÏà¹ØÁªµÄ²ÎÊı
+ * @param mode ä¸ºstartupæ—¶æ˜¯åœ¨å¼€æœºå¯åŠ¨ç›®å½•ä¸­åˆ›å»ºvbsè„šæœ¬ï¼Œå¦åˆ™æ·»åŠ å¼€æœºå¯åŠ¨æ³¨å†Œè¡¨
+ * @param arguments å‘æ‰§è¡Œçš„ç¨‹åºæˆ–è„šæœ¬ä¼ é€’ç›¸å…³è”çš„å‚æ•°
  */
 function autoStart(mode, arguments) {
     if (arguments != null && arguments != "") {
@@ -588,20 +588,20 @@ function autoStart(mode, arguments) {
     //fileName = fileName.substring(0, fileName.length-4);
     var vbsFileName = WScript.ScriptFullName.replace(".bat", ".vbs");
     if ("startup" == mode.toLowerCase()) {
-        // ¿ª»úÆô¶¯Ä¿Â¼
+        // å¼€æœºå¯åŠ¨ç›®å½•
         var runDir = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\";
         vbsFileName = runDir + fileName + ".vbs";
     }
     var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // ´´½¨ÎÄ¼ş
+    // åˆ›å»ºæ–‡ä»¶
     var vbsFile = fso.CreateTextFile(vbsFileName, true);
-    // ÌîĞ´Êı¾İ£¬²¢Ôö¼Ó»»ĞĞ·û
+    // å¡«å†™æ•°æ®ï¼Œå¹¶å¢åŠ æ¢è¡Œç¬¦
     vbsFile.WriteLine("Set shell = WScript.CreateObject(\"WScript.Shell\")");
     vbsFile.WriteLine('shell.Run "cmd /c ' + WScript.ScriptFullName + arguments + '", 0, false');
-    // ¹Ø±ÕÎÄ¼ş
+    // å…³é—­æ–‡ä»¶
     vbsFile.Close();
     if ("startup" != mode.toLowerCase()) {
-        // Ìí¼Ó¿ª»úÆô¶¯×¢²á±í
+        // æ·»åŠ å¼€æœºå¯åŠ¨æ³¨å†Œè¡¨
         var shell = new ActiveXObject("WScript.shell");
         var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\";
         shell.RegWrite(runRegBase + fileName, vbsFileName + arguments);

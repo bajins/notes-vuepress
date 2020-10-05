@@ -1,4 +1,4 @@
-'ÓÃ·¨£º½«ÎÄ¼ş¼ĞÍÏµ½¸ÃvbsÉÏ£¨»òÕßË«»÷Ñ¡ÔñÎÄ¼ş£©£¬ÊäÈëÒª×ª»»³ÉµÄ×Ö·û±àÂë
+'ç”¨æ³•ï¼šå°†æ–‡ä»¶å¤¹æ‹–åˆ°è¯¥vbsä¸Šï¼ˆæˆ–è€…åŒå‡»é€‰æ‹©æ–‡ä»¶ï¼‰ï¼Œè¾“å…¥è¦è½¬æ¢æˆçš„å­—ç¬¦ç¼–ç 
 Call Run
 
 Function Run()
@@ -10,19 +10,19 @@ Function Run()
         hta="""about:<input type=file id=f><script>f.click();" & _
         "new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).WriteLine(f.value);" & _
         "close();resizeTo(0,0);</script>"""
-        ' ´ò¿ª¶Ô»°¿ò£¬²¢Êä³öÑ¡ÔñµÄ£¬ÎÄ¼şµÄÂ·¾¶
+        ' æ‰“å¼€å¯¹è¯æ¡†ï¼Œå¹¶è¾“å‡ºé€‰æ‹©çš„ï¼Œæ–‡ä»¶çš„è·¯å¾„
         fdpath = CreateObject("WScript.Shell").Exec("mshta.exe " & hta ).StdOut.ReadLine
         If fdpath = "" Then
-            WScript.echo "±ØĞëÊäÈëÎÄ¼şÂ·¾¶"
+            WScript.echo "å¿…é¡»è¾“å…¥æ–‡ä»¶è·¯å¾„"
             WScript.Quit
         End If
     End If
     If WScript.Arguments.Length>=2 Then
         charset = WScript.Arguments(1)
     Else
-        charset = InputBox("×Ö·û±àÂë£¬Ä¬ÈÏUTF-8","ÇëÊäÈë×Ö·û±àÂë","UTF-8")
+        charset = InputBox("å­—ç¬¦ç¼–ç ï¼Œé»˜è®¤UTF-8","è¯·è¾“å…¥å­—ç¬¦ç¼–ç ","UTF-8")
         if charset = "" then
-            WScript.echo "±ØĞëÊäÈë×Ö·û±àÂë"
+            WScript.echo "å¿…é¡»è¾“å…¥å­—ç¬¦ç¼–ç "
             WScript.Quit
         End If
         charset = UCase(charset)
@@ -31,11 +31,11 @@ Function Run()
             and StrComp(charset, "GB2312") <> 0 _
             and StrComp(charset, "UNICODE") <> 0 _
             and StrComp(charset, "ANSI") <> 0 then
-                WScript.echo "²»Ö§³ÖµÄ¸ñÊ½: " & charset
+                WScript.echo "ä¸æ”¯æŒçš„æ ¼å¼: " & charset
                 WScript.Quit
         End if
-        ' ANSI ²¢²»ÊÇÒ»ÖÖ±àÂë£¬ANSI Êµ¼Ê¶ÔÓ¦µÄ±àÂë¸úÏµÍ³ÉèÖÃµÄ´úÂëÒ³ÓĞ¹Ø£¬
-        ' ÔÚ¼òÌåÖĞÎÄÏµÍ³ÖĞ´úÂëÒ³Ä¬ÈÏÊÇ936£¬¶ÔÓ¦ GB2312 ±àÂë
+        ' ANSI å¹¶ä¸æ˜¯ä¸€ç§ç¼–ç ï¼ŒANSI å®é™…å¯¹åº”çš„ç¼–ç è·Ÿç³»ç»Ÿè®¾ç½®çš„ä»£ç é¡µæœ‰å…³ï¼Œ
+        ' åœ¨ç®€ä½“ä¸­æ–‡ç³»ç»Ÿä¸­ä»£ç é¡µé»˜è®¤æ˜¯936ï¼Œå¯¹åº” GB2312 ç¼–ç 
         if charset = "ANSI" then charset = "GB2312"
     End If
     ' Set fso = CreateObject("scripting.filesystemobject")
@@ -46,9 +46,9 @@ Function Run()
     ' Next
 
     oldCharSet = UCase(CheckCode(fdpath))
-    WScript.echo "µ±Ç°±àÂë "& oldCharSet &" ×ª»»³É±àÂë" & charset
+    WScript.echo "å½“å‰ç¼–ç  "& oldCharSet &" è½¬æ¢æˆç¼–ç " & charset
     If StrComp(charset, oldCharSet) = 0 Then
-        MsgBox charset & " == " & oldCharSet,,"×Ö·û±àÂëÏàÍ¬ÌáÊ¾"
+        MsgBox charset & " == " & oldCharSet,,"å­—ç¬¦ç¼–ç ç›¸åŒæç¤º"
         WScript.Quit
     End If
 
@@ -58,10 +58,10 @@ Function Run()
     Else
         WriteToFile fdpath,replace(ReadFile(fdpath,oldCharSet),vbLf,vbCrLf),charset
     End If
-    MsgBox "×ª»»ºó±àÂë£º" & CheckCode(fdpath),,"×Ö·û±àÂë×ª»»½áÊøÌáÊ¾"
+    MsgBox "è½¬æ¢åç¼–ç ï¼š" & CheckCode(fdpath),,"å­—ç¬¦ç¼–ç è½¬æ¢ç»“æŸæç¤º"
 End Function
 
-' UTF-8-BOM ×ª UTF8
+' UTF-8-BOM è½¬ UTF8
 Function UF8NoBOM(Path)
     Set UTFStream = CreateObject("ADODB.Stream")
     UTFStream.Type = 1
@@ -72,7 +72,7 @@ Function UF8NoBOM(Path)
     ' Bin=UTFStream.read(2)
 
     Set BinaryStream = CreateObject("ADODB.Stream")
-    ' ÒÆ¶¯Ê××Ö·ûµÄ×Ö½ÚÊı¾İÖÁÁ÷¿ªÊ¼Î»ÖÃ£¬È¥³ıBOM£¨Ç°3¸ö×Ö½Ú£©
+    ' ç§»åŠ¨é¦–å­—ç¬¦çš„å­—èŠ‚æ•°æ®è‡³æµå¼€å§‹ä½ç½®ï¼Œå»é™¤BOMï¼ˆå‰3ä¸ªå­—èŠ‚ï¼‰
     UTFStream.Position = 3
     BinaryStream.Type = 1
     BinaryStream.Mode = 3
@@ -85,22 +85,22 @@ Function UF8NoBOM(Path)
     UTFStream.Close
 End Function
 
-' ½«¶ÁÈ¡µÄÎÄ¼şÄÚÈİÒÔÖ¸¶¨±àÂëĞ´ÈëÎÄ¼ş UF8WithoutBOM
+' å°†è¯»å–çš„æ–‡ä»¶å†…å®¹ä»¥æŒ‡å®šç¼–ç å†™å…¥æ–‡ä»¶ UF8WithoutBOM
 Function WriteToFile(Path, Str, CharSet)
-    ' ÓÉÓÚUTF8»á×Ô¶¯Ğ´BOM£¬ËùÒÔÊ¹ÓÃUTF-8
+    ' ç”±äºUTF8ä¼šè‡ªåŠ¨å†™BOMï¼Œæ‰€ä»¥ä½¿ç”¨UTF-8
     If StrComp(replace(charset,"-",""), "UTF8BOM") =0 Then
         CharSet = "UTF-8"
     End If
     Set stm = CreateObject("Adodb.Stream")
-    ' ÕâÀï1Îª¶ş½øÖÆ£¬2ÎªÎÄ±¾ĞÍ
+    ' è¿™é‡Œ1ä¸ºäºŒè¿›åˆ¶ï¼Œ2ä¸ºæ–‡æœ¬å‹
     stm.Type = 2
     stm.mode = 3
     stm.charset = CharSet
     stm.Open
-    ' Èç¹ûÎªÎÄ±¾ĞÍÖ»ÄÜÖ¸¶¨ÎªSize£¬Ğ´ÈëÎÄ±¾ºóĞèÒªÈ¥µôBOM
+    ' å¦‚æœä¸ºæ–‡æœ¬å‹åªèƒ½æŒ‡å®šä¸ºSizeï¼Œå†™å…¥æ–‡æœ¬åéœ€è¦å»æ‰BOM
     ' stm.Position = stm.Size
-    ' writeĞ´¶ş½øÖÆ,writetextĞ´ÎÄ±¾ĞÍ£¬
-    ' stream»á×Ô¶¯ÏÈÔÚÁ÷µÄ×î¿ªÊ¼²åÈë3¸ö×Ö½ÚµÄBOM
+    ' writeå†™äºŒè¿›åˆ¶,writetextå†™æ–‡æœ¬å‹ï¼Œ
+    ' streamä¼šè‡ªåŠ¨å…ˆåœ¨æµçš„æœ€å¼€å§‹æ’å…¥3ä¸ªå­—èŠ‚çš„BOM
     stm.WriteText Str
     stm.SaveToFile Path, 2
     ' stm.SetEOS
@@ -109,7 +109,7 @@ Function WriteToFile(Path, Str, CharSet)
     Set stm = Nothing
 End Function
 
-' ÒÔÎÄ¼ş±¾Éí±àÂë¶ÁÈ¡ÎÄ¼ş
+' ä»¥æ–‡ä»¶æœ¬èº«ç¼–ç è¯»å–æ–‡ä»¶
 Function ReadFile(Path, CharSet)
     Set stm = CreateObject("Adodb.Stream")
     stm.Type = 2
@@ -122,7 +122,7 @@ Function ReadFile(Path, CharSet)
     Set stm = Nothing
 End Function
 
-'¸Ãº¯Êı¼ì²é²¢·µ»ØÎÄ¼şµÄ±àÂëÀàĞÍ
+'è¯¥å‡½æ•°æ£€æŸ¥å¹¶è¿”å›æ–‡ä»¶çš„ç¼–ç ç±»å‹
 Function CheckCode(Path)
     Dim slz
     set slz = CreateObject("Adodb.Stream")
@@ -147,7 +147,7 @@ Function CheckCode(Path)
     CheckCode = Codes
 End Function
 
-'½«Byte()Êı×é×ª³ÉString×Ö·û´®
+'å°†Byte()æ•°ç»„è½¬æˆStringå­—ç¬¦ä¸²
 Function read(path)
     Dim ado, a(), i, n
     Set ado = CreateObject("ADODB.Stream")
@@ -161,8 +161,8 @@ Function read(path)
     read = Join(a, "")
 End Function
 
-'×¼È·ÑéÖ¤ÎÄ¼şÊÇ·ñÎªutf-8£¨ÄÜÑéÖ¤ÎŞBOMÍ·µÄuft-8ÎÄ¼ş£©
-Function is_valid_utf8(ByRef input) 'ByRefÒÔÌá¸ßĞ§ÂÊ
+'å‡†ç¡®éªŒè¯æ–‡ä»¶æ˜¯å¦ä¸ºutf-8ï¼ˆèƒ½éªŒè¯æ— BOMå¤´çš„uft-8æ–‡ä»¶ï¼‰
+Function is_valid_utf8(ByRef input) 'ByRefä»¥æé«˜æ•ˆç‡
     Dim s, re
     Set re = New Regexp
     s = "[\xC0-\xDF]([^\x80-\xBF]|$)"
