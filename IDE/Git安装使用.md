@@ -436,6 +436,14 @@ git config --global core.eol crlf
 
 #设置行结束符的类型为native, native是指平台默认的行结束符。默认的类型是native
 git config --global core.eol native
+
+
+# 该命令表示提交命令的时候使用utf-8编码集提交
+git config --global i18n.commitencoding utf-8
+# 该命令表示日志输出时使用utf-8编码集显示
+git config --global i18n.logoutputencoding utf-8
+# 设置LESS字符集为utf-8
+export LESSCHARSET=utf-8
 ```
 
 
