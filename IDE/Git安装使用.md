@@ -10,10 +10,12 @@
 + [https://github.com/topics/git](https://github.com/topics/git)
 
 * [https://github.com/git](https://github.com/git)
+  * [https://github.com/git-for-windows](https://github.com/git-for-windows)
   * [https://git-scm.com](https://git-scm.com)
+  * [https://gitforwindows.org](https://gitforwindows.org)
 * [https://www.syntevo.com](https://www.syntevo.com)
 * [https://github.com/github/gitignore](https://github.com/github/gitignore)
-* [为您的项目创建有用的.gitignore文件](https://github.com/toptal/gitignore.io)
+* [https://github.com/toptal/gitignore.io](https://github.com/toptal/gitignore.io)
 * [reposurgeon是一种工具,用于编辑版本控制存储库的历史](http://www.catb.org/esr/reposurgeon)
 * [https://github.com/gitextensions/gitextensions](https://github.com/gitextensions/gitextensions)
 
@@ -33,20 +35,6 @@
 
 **[Commit提交规范](/Other/技术概念规范.md#commit提交规范)**
 
-**Git LFS**
-
-* 对大型文件进行版本控制 [https://github.com/git-lfs](https://github.com/git-lfs)
-  * [https://git-lfs.github.com](https://git-lfs.github.com)
-
-> Git LFS（Large File Storage, 大文件存储）可以把指定的任意文件存在 Git 仓库之外，
-> 而在 Git 仓库中用一个占用空间 1KB 不到的文本指针，可以减小 Git 仓库本身的体积来代替的小工具。
-
-> git每次保存diff，一些大文件发生变化时，整个仓库就会增加很大的体积，导致clone和pull的数据量大增。
-> git push的时候，git lfs会截取要管理的大文件，并将其传至git lfs的服务器中，从而减小仓库的体积。
-
-- `git lfs track "*.gz"` 添加文件到`.gitattributes`追踪记录文件中
-- `git lfs ls-files` 显示当前提交后跟踪的文件列表
-- `git lfs clone` 克隆追踪的文件
 
 
 
@@ -375,13 +363,11 @@ git log master..origin/master
 
 
 
-## 换行符处理
+## 换行符与大文件处理
 
 * [行尾序列（换行符）](/Shell/README.md#行尾序列)
 * [Git处理换行符问题](https://segmentfault.com/a/1190000013973362)
 * [为单个仓库或全局配置 Git 处理行结束符](https://docs.github.com/cn/free-pro-team@latest/github/using-git/configuring-git-to-handle-line-endings)
-
-> git 默认会依据平台自动变更文件换行符，在项目根目录下[`.editorconfig`](https://github.com/editorconfig)中设置`end_of_line = lf`
 
 - 当你在签出文件时，将 UNIX 换行符（LF）替换为 Windows 的换行符（CRLF）；
 - 当你在提交文件时，将 CRLF 替换为 LF。
@@ -391,12 +377,16 @@ git log master..origin/master
 
 
 
-**`.gitattributes`**
+**gitattributes**
 
 * 为单个仓库设置 [https://git-scm.com/docs/gitattributes](https://git-scm.com/docs/gitattributes)
 * [8.2 自定义 Git - Git 属性](https://git-scm.com/book/zh/v2/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-Git-%E5%B1%9E%E6%80%A7)
 * [gitattributes (Guides) - Git 中文开发手册 - 开发者手册 - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/section/1138630)
 * [gitattributes](https://git.apachecn.org/#/docs/39)
+
++ [https://github.com/topics/gitattributes](https://github.com/topics/gitattributes)
+  + [https://github.com/gitattributes](https://github.com/gitattributes)
+  + [https://github.com/alexkaratarakis/gitattributes](https://github.com/alexkaratarakis/gitattributes)
 
 - `text`
 - `-text`
@@ -405,6 +395,10 @@ git log master..origin/master
 - 未声明，通常不出现该属性即可
 - `!text` 为了覆盖其他文件中的声明，效果同上
 - `binary` 指定为二进制文件，不应该对其中的换行符进行改变。和`-text -diff`等价
+
+
+* [https://github.com/editorconfig](https://github.com/editorconfig) `.editorconfig`中设置`end_of_line = lf`
+* [https://github.com/axvr/ascribe.vim](https://github.com/axvr/ascribe.vim)
 
 
 
@@ -443,6 +437,22 @@ git config --global core.eol crlf
 #设置行结束符的类型为native, native是指平台默认的行结束符。默认的类型是native
 git config --global core.eol native
 ```
+
+
+**Git LFS**
+
+* 对大型文件进行版本控制 [https://github.com/git-lfs](https://github.com/git-lfs)
+  * [https://git-lfs.github.com](https://git-lfs.github.com)
+
+> Git LFS（Large File Storage, 大文件存储）可以把指定的任意文件存在 Git 仓库之外，
+> 而在 Git 仓库中用一个占用空间 1KB 不到的文本指针，可以减小 Git 仓库本身的体积来代替的小工具。
+
+> git每次保存diff，一些大文件发生变化时，整个仓库就会增加很大的体积，导致clone和pull的数据量大增。
+> git push的时候，git lfs会截取要管理的大文件，并将其传至git lfs的服务器中，从而减小仓库的体积。
+
+- `git lfs track "*.gz"` 添加文件到`.gitattributes`追踪记录文件中
+- `git lfs ls-files` 显示当前提交后跟踪的文件列表
+- `git lfs clone` 克隆追踪的文件
 
 
 
