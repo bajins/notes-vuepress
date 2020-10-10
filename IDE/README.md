@@ -197,6 +197,8 @@ Ultimate 版本:
 ## 抓包工具
 
 * Fiddler [https://www.telerik.com/download/fiddler](https://www.telerik.com/download/fiddler)
+    * [https://github.com/gabrielxvx/zh-fiddler](https://github.com/gabrielxvx/zh-fiddler)
+    * [Fiddler抓包工具总结](https://www.cnblogs.com/yyhh/p/5140852.html)
 * [https://github.com/BornToBeRoot/NETworkManager](https://github.com/BornToBeRoot/NETworkManager)
 * [https://github.com/microsoft/ethr](https://github.com/microsoft/ethr)
 * [https://www.tcpdump.org](https://www.tcpdump.org)
@@ -206,6 +208,9 @@ Ultimate 版本:
 * Charles [https://www.charlesproxy.com](https://www.charlesproxy.com)
 * [https://github.com/youzan/zan-proxy](https://github.com/youzan/zan-proxy)
 * [https://github.com/alibaba/lightproxy](https://github.com/alibaba/lightproxy)
+* [https://www.httpwatch.com](https://www.httpwatch.com)
+* [http://www.httpdebugger.com](http://www.httpdebugger.com)
+* [https://github.com/avwo/whistle](https://github.com/avwo/whistle)
 
 
 
