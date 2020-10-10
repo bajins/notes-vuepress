@@ -1,8 +1,8 @@
 {
     "private": true,
-    "version": "1.0.0-alpha.47",
-    "name": "blog",
-    "description": "blog of VuePress",
+    "version": "1.6.0",
+    "name": "notes-vuepress",
+    "description": "notes-vuepress of VuePress",
     "scripts": {
         "dev": "vuepress dev --temp .temp --no-cache",
         "build": "vuepress build --temp .temp --no-cache",
@@ -21,7 +21,9 @@
     "keywords": [
         "documentation",
         "vue",
-        "generator"
+        "generator",
+        "vuepress",
+        "notes-vuepress"
     ],
     "author": "Bajins",
     "license": "MIT",

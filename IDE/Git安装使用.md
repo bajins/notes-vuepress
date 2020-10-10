@@ -381,7 +381,6 @@ git log master..origin/master
 
 * 为单个仓库设置 [https://git-scm.com/docs/gitattributes](https://git-scm.com/docs/gitattributes)
 * [8.2 自定义 Git - Git 属性](https://git-scm.com/book/zh/v2/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-Git-%E5%B1%9E%E6%80%A7)
-* [gitattributes (Guides) - Git 中文开发手册 - 开发者手册 - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/section/1138630)
 * [gitattributes](https://git.apachecn.org/#/docs/39)
 
 + [https://github.com/topics/gitattributes](https://github.com/topics/gitattributes)
@@ -395,6 +394,17 @@ git log master..origin/master
 - 未声明，通常不出现该属性即可
 - `!text` 为了覆盖其他文件中的声明，效果同上
 - `binary` 指定为二进制文件，不应该对其中的换行符进行改变。和`-text -diff`等价
+
+```bash
+# 生成.gitattributes文件
+echo "* text=auto" >.gitattributes
+# 重新规范化所有被git管理的文件
+git add --renormalize .
+# 显示将被规范化的文件
+git status
+# 提交
+git commit -m "Introduce end-of-line normalization"
+```
 
 
 * [https://github.com/editorconfig](https://github.com/editorconfig) `.editorconfig`中设置`end_of_line = lf`
