@@ -88,6 +88,7 @@ with Test() as t: # 触发__exit__
 - [https://github.com/topics/automation](https://github.com/topics/automation)
 - [https://github.com/pyecharts/pyecharts](https://github.com/pyecharts/pyecharts)
 - 简繁转换 [https://github.com/gumblex/zhconv](https://github.com/gumblex/zhconv)
+- 開放中文轉換 [https://github.com/BYVoid/OpenCC](https://github.com/BYVoid/OpenCC)
 - [https://github.com/pyexcel](https://github.com/pyexcel)
 - [https://github.com/jmcnamara/XlsxWriter](https://github.com/jmcnamara/XlsxWriter)
 - [https://foss.heptapod.net/openpyxl/openpyxl](https://foss.heptapod.net/openpyxl/openpyxl)
