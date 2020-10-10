@@ -16,7 +16,8 @@
 
 - [https://siguso.com](https://siguso.com)
 - [https://www.uedbox.com/share](https://www.uedbox.com/share)
-- [showdoc](https://github.com/star7th/showdoc)
+- [https://github.com/star7th/showdoc](https://github.com/star7th/showdoc)
+- [https://github.com/apidoc/apidoc](https://github.com/apidoc/apidoc)
 - [https://github.com/asciidoctor](https://github.com/asciidoctor)
 
 

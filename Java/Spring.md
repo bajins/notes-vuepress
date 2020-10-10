@@ -80,6 +80,7 @@
 * [https://github.com/vector4wang/spring-boot-quick](https://github.com/vector4wang/spring-boot-quick)
 * [https://github.com/kanyways/learning-spring](https://github.com/kanyways/learning-spring)
 * [https://github.com/gf-huanchupk/SpringBootLearning](https://github.com/gf-huanchupk/SpringBootLearning)
+* [https://github.com/xkcoding/spring-boot-demo](https://github.com/xkcoding/spring-boot-demo)
 
 + [Springboot 优雅停止服务的几种方法](https://www.cnblogs.com/huangqingshi/p/11370291.html)
 + [SpringBoot系列: 如何优雅停止服务](https://www.cnblogs.com/exmyth/p/13098831.html)

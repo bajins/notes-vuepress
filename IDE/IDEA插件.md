@@ -8,6 +8,8 @@
 
 * [实用IDEA工具](https://blog.csdn.net/weixin_37645838/article/details/85953193)
 
+- [https://www.jrebel.com/products/jrebel/download](https://www.jrebel.com/products/jrebel/download)
+
 
 ## Free Mybatis plugin
 

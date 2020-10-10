@@ -87,7 +87,7 @@
 * [https://github.com/open-falcon](https://github.com/open-falcon)
 * [https://github.com/open-falcon/mail-provider](https://github.com/open-falcon/mail-provider)
 * [https://github.com/Yanjunhui/chat](https://github.com/Yanjunhui/chat)
-* [https://github.com/ouqiang/gocron](https://github.com/ouqiang/gocron)
+* 定时任务 [https://github.com/ouqiang/gocron](https://github.com/ouqiang/gocron)
 * [https://github.com/robfig/cron](https://github.com/robfig/cron)
 * [https://github.com/jasonlvhit/gocron](https://github.com/jasonlvhit/gocron)
 * [https://github.com/ouqiang/delay-queue](https://github.com/ouqiang/delay-queue)
@@ -106,8 +106,16 @@
 * [https://github.com/google/goexpect](https://github.com/google/goexpect)
 * [https://github.com/google/goterm](https://github.com/google/goterm)
 * [https://github.com/ThomasRooney/gexpect](https://github.com/ThomasRooney/gexpect)
+* [https://github.com/mattn/go-sqlite3](https://github.com/mattn/go-sqlite3)
+* Swagger 2.0 for Go [https://github.com/swaggo](https://github.com/swaggo)
+* [https://github.com/owenliang/go-push](https://github.com/owenliang/go-push)
+* [https://github.com/rs/zerolog](https://github.com/rs/zerolog)
+* [https://github.com/uber-go/zap](https://github.com/uber-go/zap)
+* [https://github.com/apex/log](https://github.com/apex/log)
+* [https://xorm.io](https://xorm.io)
+* [https://github.com/chenhg5/collection](https://github.com/chenhg5/collection)
 
-
+- IP代理池 [https://github.com/henson/proxypool](https://github.com/henson/proxypool)
 
 
 

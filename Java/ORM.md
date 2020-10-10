@@ -60,6 +60,8 @@
 * [https://github.com/mybatis](https://github.com/mybatis)
 * [https://mybatis.org/mybatis-3/zh/dynamic-sql.html](https://mybatis.org/mybatis-3/zh/dynamic-sql.html)
 * [https://github.com/pagehelper/Mybatis-PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)
+* [https://github.com/baomidou/mybatis-plus](https://github.com/baomidou/mybatis-plus)
+
 
 
 **trim标签**

@@ -50,7 +50,7 @@
     * [https://github.com/hyperhq](https://github.com/hyperhq)
         * [https://www.hyperhq.com](https://www.hyperhq.com)
     * [https://github.com/clearcontainers](https://github.com/clearcontainers)
-
+* [https://github.com/chaosblade-io/chaosblade](https://github.com/chaosblade-io/chaosblade)
 
 **Docker搭建私有仓库**
 

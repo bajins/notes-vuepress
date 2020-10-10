@@ -234,7 +234,9 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 - [https://github.com/xuxueli](https://github.com/xuxueli)
 
+* [https://github.com/netty/netty](https://github.com/netty/netty)
 * [https://github.com/luxiaoxun/NettyRpc](https://github.com/luxiaoxun/NettyRpc)
+* [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
 
 - [https://github.com/elastic/elasticsearch](https://github.com/elastic/elasticsearch)
 - [https://github.com/apache/lucene-solr](https://github.com/apache/lucene-solr)
@@ -298,6 +300,9 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/QNJR-GROUP/EasyTransaction](https://github.com/QNJR-GROUP/EasyTransaction)
 * [https://github.com/liuyangming/ByteTCC](https://github.com/liuyangming/ByteTCC)
 * [https://github.com/wchswchs/Hulk](https://github.com/wchswchs/Hulk)
+
+- 数据库中间件 [https://github.com/apache/shardingsphere](https://github.com/apache/shardingsphere)
+- [https://github.com/brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP)
 
 
 
@@ -404,6 +409,11 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 ## 各种好的项目
 
++ [https://gitee.com/renrenio](https://gitee.com/renrenio)
+    + [https://github.com/renrenio](https://github.com/renrenio)
++ [https://github.com/febsteam](https://github.com/febsteam)
++ [https://github.com/hs-web](https://github.com/hs-web)
+
 * [MyBatis-Plus整合项目](http://mp.baomidou.com/guide/#%E4%BC%98%E7%A7%80%E6%A1%88%E4%BE%8B)
 * [king-admin是一个基础权限管理后台，前端：angularJs+bootstrap+gulp，后端：spring-boot+mybatis-plus(分java版和kotlin版)](https://github.com/oukingtim/king-admin)
 * [Guns基于SpringBoot,致力于做更简洁的后台管理系统,完美整合springmvc + shiro + mybatis-plus + beetl + flowable!](https://gitee.com/naan1993/guns)
@@ -429,14 +439,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [MSFM权限管理系统是基于springBoot开发的一套轻量级的系统脚手架](https://gitee.com/wanglingxiao/mysiteforme)
 * [https://github.com/watchdog-framework/watchdog-framework](https://github.com/watchdog-framework/watchdog-framework)
 * [iartisan-admin-template=spring-boot+shiro+sitemesh+mybatis-plus+layui+layuiCMS2.0](https://gitee.com/iartisan/iartisan-admin-template)
-* [renren-security=采用Spring、MyBatis、Shiro框架，开发的一套权限系统](https://github.com/claer-ding/renren-security)
-* [renren-fast-vue](https://github.com/daxiongYang/renren-fast-vue)
-* [hsweb3-demo](https://github.com/hs-web/hsweb3-demo)
 * [qiqiim=springmvc mybatis netty4在线IM，可用于公司内网、外网通讯，客服系统等](https://gitee.com/qiqiim/qiqiim-server)
-* [LayIM=基于HTML5 WebSocket的一款IM即时通讯软件](https://github.com/scalad/LayIM)
 * [https://github.com/Exrick/x-boot](https://github.com/Exrick/x-boot)
-* [https://github.com/wuyouzhuguli/FEBS-Shiro](https://github.com/wuyouzhuguli/FEBS-Shiro)
-* [https://github.com/wuyouzhuguli/FEBS-Cloud](https://github.com/wuyouzhuguli/FEBS-Cloud)
 * [https://gitee.com/stylefeng/guns](https://gitee.com/stylefeng/guns)
 * [mall-swarm是一套微服务商城系统](https://github.com/macrozheng/mall-swarm)
 * [mall项目是一套电商系统，包括前台商城系统及后台管理系统](https://github.com/macrozheng/mall)
@@ -446,7 +450,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * EL-ADMIN 后台管理系统 [https://github.com/elunez/eladmin](https://github.com/elunez/eladmin)
 * SpringBlade SaaS多租户微服务开发平台 [https://github.com/chillzhuang/SpringBlade](https://github.com/chillzhuang/SpringBlade)
 * 基于springboot的一款纯净脚手架 [https://github.com/fuce1314/Springboot_v2](https://github.com/fuce1314/Springboot_v2)
-
+* [https://gitee.com/lovetime/WeAdmin](https://gitee.com/lovetime/WeAdmin)
+* [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
 
 
 
