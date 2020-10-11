@@ -275,6 +275,8 @@ Ultimate 版本:
 | 折叠所有代码                                     	| Ctrl + Shift + -                          	| Ctrl + Shift + / （小键盘）                 	|
 | 选择常用代码块                                   	| Ctrl + Alt + T                            	| Shift + Alt + Z                             	|
 | 可以生成构造器/Getter/Setter等                   	| Alt + Insert                              	| Shift + Alt + S                             	|
+| 将选中字符串的字母转为大写                       	| Ctrl + Shift + U                          	| Ctrl + Shift + X                            	|
+| 将选中字符串的字母转为小写                       	| Ctrl + Shift + U                           	| Ctrl + Shift + Y                            	|
 | 编辑源                                           	| F4                                        	|                                             	|
 | 移动                                             	| F6                                        	|                                             	|
 | 复制                                             	| F5                                        	|                                             	|
@@ -325,7 +327,6 @@ Ultimate 版本:
 | 批量替换                                         	| Ctrl + Shift + R                          	|                                             	|
 | translation插件翻译选中的字符串                  	| Ctrl + Shift + Y                          	|                                             	|
 | 智能代码提示                                     	| Ctrl + Shift + Space                      	|                                             	|
-| 将选中字符串的字母转为大写/小写                  	| Ctrl + Shift + U                          	|                                             	|
 | 删除到行末                                       	| Ctrl + Shift + Delete                     	|                                             	|
 | 标记标签                                         	| Ctrl + Shift + 1,2,3...9                  	|                                             	|
 | 隐藏恢复所有窗口                                 	| Ctrl + Shift + F12                        	|                                             	|
@@ -350,8 +351,6 @@ Ultimate 版本:
 | 在workspace中搜索选中元素的引用                  	|                                           	| Ctrl + Shift + G                            	|
 | 关闭所有窗口                                     	|                                           	| Ctrl + Shift + F4    Ctrl + Shift + W       	|
 | 快速搜索选中字符串                               	|                                           	| Ctrl + Shift + L                            	|
-| 将选中字符串的字母转为大写                       	|                                           	| Ctrl + Shift + X                            	|
-| 将选中字符串的字母转为小写                       	|                                           	| Ctrl + Shift + Y                            	|
 | 下一个视图                                       	|                                           	| Ctrl + F7                                   	|
 | 上一个视图                                       	|                                           	| Ctrl + Shift + F7                           	|
 | 下一个编辑器                                     	|                                           	| Ctrl + F6                                   	|
