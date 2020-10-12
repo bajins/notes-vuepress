@@ -10,6 +10,7 @@
 
 
 * [Marmoset-创建漂亮的代码图片](https://chrome.google.com/webstore/detail/marmoset/npkfpddkpefnmkflhhligbkofhnafieb)
+* 嵌入式框架（CEF） [https://github.com/chromiumembedded](https://github.com/chromiumembedded)
 
 
 ## Chrome下载

@@ -199,6 +199,7 @@ Ultimate 版本:
 * Fiddler [https://www.telerik.com/download/fiddler](https://www.telerik.com/download/fiddler)
     * [https://github.com/gabrielxvx/zh-fiddler](https://github.com/gabrielxvx/zh-fiddler)
     * [Fiddler抓包工具总结](https://www.cnblogs.com/yyhh/p/5140852.html)
+    * [Windows抓包指南①：Proxifier+Fiddler对第三方程序强制抓包](https://www.52pojie.cn/thread-976016-1-1.html)
 * [https://github.com/BornToBeRoot/NETworkManager](https://github.com/BornToBeRoot/NETworkManager)
 * [https://github.com/microsoft/ethr](https://github.com/microsoft/ethr)
 * [https://www.tcpdump.org](https://www.tcpdump.org)
@@ -211,6 +212,14 @@ Ultimate 版本:
 * [https://www.httpwatch.com](https://www.httpwatch.com)
 * [http://www.httpdebugger.com](http://www.httpdebugger.com)
 * [https://github.com/avwo/whistle](https://github.com/avwo/whistle)
+
+- 跨平台的设置代理客户端 [https://www.proxifier.com](https://www.proxifier.com)
+- [https://github.com/mellow-io/mellow](https://github.com/mellow-io/mellow)
+- [https://github.com/Dreamacro/clash](https://github.com/Dreamacro/clash)
+    - [https://github.com/Fndroid/clash_for_windows_pkg](https://github.com/Fndroid/clash_for_windows_pkg)
+    - [Clash for Windows 配置教程](https://bluedoc.io/agentneo/docs/mmee)
+- [https://github.com/snail007/goproxy](https://github.com/snail007/goproxy)
+- SocksCap64 HOOK了Windows Sockets API [https://www.sockscap64.com/sockscap64-official-homepage-chinese](https://www.sockscap64.com/sockscap64-official-homepage-chinese)
 
 
 

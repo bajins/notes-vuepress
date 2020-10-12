@@ -132,6 +132,7 @@
     * [https://xdown.org](https://xdown.org)
 * [https://github.com/subhra74/xdm](https://github.com/subhra74/xdm)
 * [http://www.neatdownloadmanager.com](http://www.neatdownloadmanager.com)
+    * [Neat Download Manager v1.1 汉化版单文件](https://www.lanzoux.com/ic7ky6j)
 * Internet Download Manager [http://www.internetdownloadmanager.com](http://www.internetdownloadmanager.com)
     * [https://eyun.baidu.com/s/3miwISp6](https://eyun.baidu.com/s/3miwISp6)密码：3131
     * [https://www.lanzous.com/b134572](https://www.lanzous.com/b134572)
