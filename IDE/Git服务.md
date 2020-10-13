@@ -192,3 +192,110 @@ sudo /etc/init.d/dns-clean start
 + [https://github.com/gocd](https://github.com/gocd)
 + [https://github.com/travis-ci](https://github.com/travis-ci)
 + [https://github.com/wercker](https://github.com/wercker)
+
+
+
+
+## GitWebHook
+
+- 手动部署
+
+> Vue项目完成后,执行`npm run build`,然后将生成的dist目录下的文件放到web目录下
+
+- WebHooks自动化部署,流程如下:
+
+> 配置`Gitea`的`WebHook`通知(也可以用`码云`、`Github`、`GitLab`、`gogs`,带`WebHook`功能就行)
+
+> 当我们`push`到仓库时,`Gitea`会主动发送一个通知到我们的服务器,然后服务器接到通知执行我们部署的脚本,开始自动化构建。
+
+
+* [https://github.com/woytu/webhook-go](https://github.com/woytu/webhook-go)
+* [https://github.com/adnanh/webhook](https://github.com/adnanh/webhook)
+
+
+
+
+### 配置接收通知
+
+**必备环境**
+
+- 以下命令视自己的环境而执行
+
+```bash
+# git
+yum install -y git
+# node 由于nodejs自带npm所以就不需要手动安装了
+yum install -y nodejs
+# vue-cli
+npm install -g @vue/cli
+```
+
+
+#### 宝塔面板
+
+- 设置宝塔WebHook插件
+
+![](/images/宝塔WebHook设置.png)
+
+- 宝塔WebHook获取url
+
+- param参数需要和脚本里对应起来,我这里写的是pull
+
+> `http://服务器ip:8888/hook?access_key=5C84B7A5UeXYalfNL6WEpi3jdmmxhFlk3jpvEw02BMo84Ak3&param=pull`
+
+![](/images/宝塔WebHook获取url.png)
+
+
+#### netcat命令
+
+* [https://segmentfault.com/a/1190000016626298](https://segmentfault.com/a/1190000016626298)
+
+- 实现监听端口->响应请求->执行脚本部署
+
+- 一直监听 9999 端口，有请求就响应`echo`的内容，并执行指定脚本
+
+```bash
+echo -e "HTTP/1.1 200 ok,glass\r\nConnection: close\r\n\r" |  nc -l 0.0.0.0 9999 ; sh /home/update.sh >> /home/logs/webhook.log 2>&1
+```
+
+> 通过 systemd，可以将这个脚本管理起来，让它永远重启，这样一次部署之后，马上就可以重新监听，等待下一次部署命令。注意要添加 StartLimitInterval ，限制一下执行的频率。
+
+- 最终的`systemd service`如下
+
+```conf
+[Unit]
+Description=Autopull through webhook
+After=network.target
+ 
+[Service]
+User=admin
+Type=simple
+ExecStart=/bin/bash -xc 'echo -e "HTTP/1.1 200 ok,glass\r\nConnection: close\r\n\r" |  nc -l 0.0.0.0 9999 ; sh /home/deploy/update.sh >> /home/logs/webhook.log 2>&1'
+Restart=always
+StartLimitInterval=1min
+StartLimitBurst=60
+ 
+[Install]
+WantedBy=multi-user.target
+```
+> 这样就可以实现每次向 master push 代码，自动测试成功并且马上推送到测试环境中。 update.sh 脚本的最后可以加一个 Curl 命令向钉钉或者 slack 发送提醒。
+
+
+
+
+### 配置WebHook
+
+* [编译项目部署到指定目录.sh](/files/编译项目部署到指定目录.sh)
+* [编译项目部署到GitHub.sh](/files/编译项目部署到GitHub.sh)
+
+
+![](/images/GiteaWebHook设置.png)
+
+
+#### 添加接收通知url
+
+![](/images/GiteaWebHook添加.png)
+
+#### 测试推送
+
+![](/images/GiteaWebHook测试.png)

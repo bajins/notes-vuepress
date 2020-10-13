@@ -116,6 +116,11 @@
 - 选中项目点击右键 -> `Properties` -> `Builders` 在右边取消勾选除`Java Builder`以外的其他选项
 
 
+## 清除workspace历史记录
+
+- `Windows` -> `Preference` -> `General` –> `Startup and Shuodown` -> `Prompt for workspace  on startup`/`Workspaces`
+- 编辑eclipse下的`/configuration/.settings/org.eclipse.ui.ide.prefs` -> `RECENT_WORKSPACES` 删除不需要的目录，以`\n`分隔
+
 
 
 ## 调整运行内存
