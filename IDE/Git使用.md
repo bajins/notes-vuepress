@@ -29,6 +29,12 @@
 
 > `--global`代表全局，保存的配置在用户目录中，Windows在cmd中输入命令查看：`type %USERPROFILE%\.gitconfig`
 
+- `git clone url --depth 1` 克隆最新一条提交记录
+- `git clone url --recursive` 递归克隆
+- `git fetch --unshallow` 完整克隆
+
+
+
 ## 保存用户密码
 
 ```bash
