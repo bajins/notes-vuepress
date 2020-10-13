@@ -217,6 +217,10 @@ sudo /etc/init.d/dns-clean start
 
 ### 配置接收通知
 
+* [编译项目部署到指定目录.sh](/files/编译项目部署到指定目录.sh)
+* [编译项目部署到GitHub.sh](/files/编译项目部署到GitHub.sh)
+
+
 **必备环境**
 
 - 以下命令视自己的环境而执行
@@ -284,10 +288,6 @@ WantedBy=multi-user.target
 
 
 ### 配置WebHook
-
-* [编译项目部署到指定目录.sh](/files/编译项目部署到指定目录.sh)
-* [编译项目部署到GitHub.sh](/files/编译项目部署到GitHub.sh)
-
 
 ![](/images/GiteaWebHook设置.png)
 
