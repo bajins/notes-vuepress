@@ -7,9 +7,6 @@
 
 ## Flag
 
-+ [https://github.com/topics/git](https://github.com/topics/git)
-
-
 + [https://github.com/apachecn/git-doc-zh](https://github.com/apachecn/git-doc-zh)
   + [https://git.apachecn.org](https://git.apachecn.org)
 + [常用命令 · git笔记 · 看云](https://www.kancloud.cn/leviio/git/330946)
@@ -24,7 +21,7 @@
 - [git-pull.sh](/files/git-pull.sh)
 
 
-**[Commit提交规范](/Other/技术概念规范.md#commit提交规范)**
+**[Commit提交规范](/Other/编程规范.md#commit提交规范)**
 
 
 > `--global`代表全局，保存的配置在用户目录中，Windows在cmd中输入命令查看：`type %USERPROFILE%\.gitconfig`
