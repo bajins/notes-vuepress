@@ -58,7 +58,7 @@
         "vue-class-component": "^7.2.6",
         "vue-click-outside": "^1.1.0",
         "vue-property-decorator": "^9.0.2",
-        "vue-router": "^3.4.5",
+        "vue-router": "3.4.5",
         "vue-toasted": "^1.1.28",
         "vuepress": "^1.6.0",
         "vuepress-plugin-flowchart": "^1.4.3",
