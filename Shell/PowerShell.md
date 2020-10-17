@@ -136,6 +136,8 @@ get-appxpackage *xbox* | remove-appxpackage
 
 ## 命令
 
+> `ASCII` 为无BOM`UTF-8`编码
+
 ```powershell
 # 查看输出的命令集
 Get-Command -verb out
