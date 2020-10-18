@@ -355,6 +355,8 @@ git log master..origin/master
 - `!text` 为了覆盖其他文件中的声明，效果同上
 - `binary` 指定为二进制文件，不应该对其中的换行符进行改变。和`-text -diff`等价
 
+* [.gitattributes示例文件](https://github.com/woytu/notes-vuepress/blob/master/.gitattributes)
+
 ```bash
 # 生成.gitattributes文件
 echo "* text=auto" >.gitattributes

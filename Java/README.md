@@ -76,7 +76,7 @@
 * [https://github.com/kdn251/interviews](https://github.com/kdn251/interviews)
 * [https://github.com/doocs/advanced-java](https://github.com/doocs/advanced-java)
     * [https://github.com/doocs/jvm](https://github.com/doocs/jvm)
-* [https://github.com/LingCoder/OnJava8](https://github.com/LingCoder/OnJava8)
+* 《Java编程思想》 第5版  [https://github.com/LingCoder/OnJava8](https://github.com/LingCoder/OnJava8)
 * [https://github.com/CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes)
 * [https://github.com/hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer)
 * [https://github.com/topics/effective-java](https://github.com/topics/effective-java)
