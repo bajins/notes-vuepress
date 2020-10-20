@@ -487,10 +487,6 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/typora](https://github.com/typora)
     * [typora](https://www.typora.io)
 * [MarkPad](https://github.com/Code52/DownmarkerWPF)
-
-> MarkPad 是款开源的 Markdown 编辑器，与 Window 8 风格和谐友好的界面，可以直接在你的博客或者 GitHub 中打开、保存文档，
-> 直接将图片粘贴到 Markdown 文档中。
-
 * [Haroopad](http://pad.haroopress.com/user.html)
 * [https://github.com/MacDownApp/macdown](https://github.com/MacDownApp/macdown)
 * [https://github.com/Zettlr/Zettlr](https://github.com/Zettlr/Zettlr)

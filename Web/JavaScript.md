@@ -43,7 +43,6 @@
 * [JavaScript HTML DOM](https://www.w3school.com.cn/js/js_htmldom_document.asp)
 
 
-- 异步编程的反应式扩展rxjs [https://github.com/ReactiveX](https://github.com/ReactiveX)
 - 用于浏览器环境规范
     - [https://github.com/amdjs](https://github.com/amdjs)
         - [https://github.com/requirejs](https://github.com/requirejs)

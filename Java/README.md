@@ -32,6 +32,9 @@
 + 响应式 [https://github.com/eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x)
     + [http://vertx.io](http://vertx.io)
     + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
++ WebFlux采用的默认反应式框架 [https://github.com/reactor](https://github.com/reactor)
++ 完全实现了Reactive Streams规范 [https://github.com/akka/akka](https://github.com/akka/akka)
+
 
 - [fastjson这么快老外为啥还是热衷 jackson?](https://www.zhihu.com/question/44199956)
 - [JAX-WS与JAX-RS区别是什么？](https://blog.csdn.net/dogiant/article/details/54907506)
@@ -124,6 +127,7 @@
 - [https://github.com/OpenFeign](https://github.com/OpenFeign)
 - [https://github.com/square/retrofit](https://github.com/square/retrofit)
     - [https://github.com/LianjiaTech/retrofit-spring-boot-starter](https://github.com/LianjiaTech/retrofit-spring-boot-starter)
+- 使用Java 8,Netty和Reactive原则 [https://github.com/ratpack/ratpack](https://github.com/ratpack/ratpack)
 
 * [HTTP客户端连接，选择HttpClient还是OkHttp？](https://juejin.im/post/5e156c80f265da5d3c6de72a)
 
@@ -228,7 +232,6 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/auth0/java-jwt](https://github.com/auth0/java-jwt)
 
 + [https://github.com/rabbitmq](https://github.com/rabbitmq)
-+ [https://github.com/reactor](https://github.com/reactor)
 * [Kafka安装及入门](http://jaychang.cn/2020/03/15/afka%E5%AE%89%E8%A3%85%E5%8F%8A%E5%85%A5%E9%97%A8)
 
 

@@ -60,6 +60,12 @@
 - [https://github.com/sabernwj/cookiej](https://github.com/sabernwj/cookiej)
 - [https://github.com/gsantner/markor](https://github.com/gsantner/markor)
 
++ 在linux下运行安卓应用工具xDroid [https://www.linzhuotech.com](https://www.linzhuotech.com)
++ [https://github.com/anbox/anbox](https://github.com/anbox/anbox)
+    + [Linux上运行安卓应用:安装使用Anbox](https://www.cnblogs.com/syisyuan/p/12811595.html)
+
+
+
 
 **Hooking**
 
