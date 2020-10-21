@@ -916,6 +916,8 @@ ts.Write(listcom().join('\r\n'));
 
 ### 创建任务计划
 
+**[Windows中的事件](/Shell/WindowsBatch.md#事件)**
+
 **使用示例见[设置必应壁纸.bat](/files/设置必应壁纸.bat)文件**
 
 ```javascript
@@ -981,98 +983,84 @@ function createSchedule() {
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/triggercollection-create
     var triggers = taskDefinition.Triggers;
 
-    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/trigger-types
-    var triggerTypes = 0;
-    switch (triggerTypes) {
-        case "0":
-            // 创建事件触发器
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/eventtrigger
-            var trigger = triggers.Create(0);
-            // 定义事件查询。触发器将启动任务，当收到事件时。
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/eventtrigger-subscription
-            // https://docs.microsoft.com/zh-cn/previous-versions//aa385231(v=vs.85)
-            trigger.Subscription = "<QueryList>" +
-                "<Query Id='0'><Select Path='System'>" +
-                "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]" +
-                "</Select></Query>" +
-                "<Query Id='1'><Select Path='System'>" +
-                "*[System/Level=2]" +
-                "</Select></Query>" +
-                "</QueryList>";
-            // 获取或设置命名XPath查询的集合
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/eventtrigger-valuequeries
-            var valueQueries = trigger.ValueQueries;
-            valueQueries.Create("eventID", "Event/System/EventRecordID");
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/showmessageaction
-            var action7 = actions.Create(7);
-            action7.Title = "标题";
-            // 需要配合trigger.ValueQueries
-            action7.MessageBody = "这是事件ID：$(eventID)";
-            break;
-        case "1":
-            // 创建时间触发器
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/timetrigger
-            var trigger = triggers.Create(1);
-            break;
-        case "2":
-            // 创建每日触发器
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/dailytrigger
-            var trigger = triggers.Create(2);
-            break;
-        case "3":
-            // 创建每周触发器
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/weeklytrigger
-            var trigger = triggers.Create(3);
-            trigger.DaysOfWeek = 1;
-            // 任务每周运行一次。
-            trigger.WeeksInterval = 1;
-            break;
-        case "4":
-            // 创建根据月度计划启动任务的触发器，在特定月份的特定日期开始
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/monthlytrigger
-            var trigger = triggers.Create(4);
-            break;
-        case "5":
-            // 创建每月DOWT触发器，按月星期几时间表启动任务的触发器
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/monthlydowtrigger
-            var trigger = triggers.Create(5);
-            break;
-        case "6":
-            // 创建闲置触发，在发生空闲情况时启动任务的触发器
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/idletrigger
-            var trigger = triggers.Create(6);
-            break;
-        case "7":
-            // 创建注册触发器
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/registrationtrigger
-            var trigger = triggers.Create(7);
-            break;
-        case "8":
-            // 创建启动触发器
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/boottrigger
-            var trigger = triggers.Create(8);
-            break;
-        case "9":
-            // 创建登录触发器
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/logontrigger
-            var trigger = triggers.Create(9);
-            // 登录指定用户时触发，必须是有效的用户帐户
-            trigger.UserId = "SYSTEM";
-            break;
-        case "11":
-            // 用于触发控制台连接或断开连接，远程连接或断开连接或工作站锁定或解锁通知的任务。
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/sessionstatechangetrigger
-            var trigger = triggers.Create(11);
-            // 获取或设置将触发任务启动的终端服务器会话更改的类型：7锁定；8解锁
-            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/sessionstatechangetrigger-statechange
-            trigger.StateChange = 8;
-            // 继承自Trigger对象。获取触发器的类型。
-            trigger.Type;
-            break;
-        default:
-            return;
-    }
-    // 以下为每一个trigger都有的通用属性
+    
+    // 创建事件触发器
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/eventtrigger
+    var task_trigger_event = triggers.Create(0);
+    // 定义事件查询。触发器将启动任务，当收到事件时。
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/eventtrigger-subscription
+    task_trigger_event.Subscription = "<QueryList>" +
+        "<Query Id='0'><Select Path='System'>" +
+        "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]" +
+        "</Select></Query>" +
+        "<Query Id='1'><Select Path='System'>" +
+        "*[System/Level=2]" +
+        "</Select></Query>" +
+        "</QueryList>";
+    // 获取或设置命名XPath查询的集合
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/eventtrigger-valuequeries
+    var valueQueries = task_trigger_event.ValueQueries;
+    valueQueries.Create("eventID", "Event/System/EventRecordID");
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/showmessageaction
+    var action7 = actions.Create(7);
+    action7.Title = "标题";
+    // 需要配合trigger.ValueQueries
+    action7.MessageBody = "这是事件ID：$(eventID)";
+    
+    // 创建时间触发器
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/timetrigger
+    var task_trigger_time = triggers.Create(1);
+    
+    // 创建每日触发器
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/dailytrigger
+    var task_trigger_daily = triggers.Create(2);
+    
+    // 创建每周触发器
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/weeklytrigger
+    var task_trigger_weekly = triggers.Create(3);
+    task_trigger_weekly.DaysOfWeek = 1;
+    // 任务每周运行一次。
+    task_trigger_weekly.WeeksInterval = 1;
+    
+    // 创建根据月度计划启动任务的触发器，在特定月份的特定日期开始
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/monthlytrigger
+    var task_trigger_monthly = triggers.Create(4);
+    
+    // 创建每月DOWT触发器，按月星期几时间表启动任务的触发器
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/monthlydowtrigger
+    var task_trigger_monthlydow = triggers.Create(5);
+    
+    // 创建闲置触发，在发生空闲情况时启动任务的触发器
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/idletrigger
+    var task_trigger_idle = triggers.Create(6);
+    
+    // 创建注册触发器
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/registrationtrigger
+    var task_trigger_registration = triggers.Create(7);
+    
+    // 创建启动触发器
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/boottrigger
+    var task_trigger_boot = triggers.Create(8);
+    
+    // 创建登录触发器
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/logontrigger
+    var task_trigger_logon = triggers.Create(9);
+    // 登录指定用户时触发，必须是有效的用户帐户
+    task_trigger_logon.UserId = "SYSTEM";
+    
+    // 用于触发控制台连接或断开连接，远程连接或断开连接或工作站锁定或解锁通知的任务。
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/sessionstatechangetrigger
+    var task_session_unlock = triggers.Create(11);
+    // 获取或设置连接到会话的状态更改类型：1本地连接，2断开本地连接，3远程连接，4断开远程连接，7锁定，8解锁
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/sessionstatechangetrigger-statechange
+    task_session_unlock.StateChange = 8;
+    // 继承自Trigger对象。获取触发器的类型。
+    task_session_unlock.Type;
+
+
+    /**
+     * 以下为每一个trigger都有的通用属性
+     */
 
     // 获取或设置触发器的标识符
     trigger.Id = "触发器ID";

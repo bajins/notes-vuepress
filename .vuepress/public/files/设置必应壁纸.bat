@@ -389,9 +389,13 @@ function createSchedule(name, desc, author, path, arguments) {
     // 创建登录触发器
     triggers.Create(9);
     // 用于触发控制台连接或断开连接，远程连接或断开连接或工作站锁定或解锁通知的任务。
-    var trigger11 = triggers.Create(11);
-    // 获取或设置将触发任务启动的终端服务器会话更改的类型：7锁定；8解锁
-    trigger11.StateChange = 8;
+    var task_console_connect = triggers.Create(11);
+    // 获取或设置连接到会话的状态更改类型：1本地连接，2断开本地连接，3远程连接，4断开远程连接，7锁定，8解锁
+    task_console_connect.StateChange = 1;
+    //var task_remote_connect = triggers.Create(11);
+    //task_remote_connect.StateChange = 3;
+    var task_session_unlock = triggers.Create(11);
+    task_session_unlock.StateChange = 8;
 
     // 使用ITaskDefinition接口在指定位置注册（创建）任务以定义任务
     // 用户ID有：Local Service ; SYSTEM ; null为当前登录的用户名
