@@ -32,8 +32,6 @@
 
 * [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
 
-- 在`nginx.conf`中配置`log_format`（可以配置在`server`中），含义是配置了一个名为`main`的日志格式化的规则，应用在了`access_log`的日志上
-
 
 
 ## location
@@ -401,6 +399,63 @@ if ($allow = no) {
 
 - `proxy_set_header` 设置请求头信息给上游服务器
 - `add_header` 设置响应头信息给浏览器
+
+
+
+
+## 日志切割
+
+> 在`nginx.conf`中配置`log_format`（可以配置在`server`中），含义是配置了一个名为`main`的日志格式化的规则，应用在了`access_log`的日志上
+
+
+- 使用到`timeiso8601`内嵌变量来获取时间配置日志循环
+
+```conf
+if ($time_iso8601 ~ "^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})") {
+    set $year $1;
+    set $month $2;
+    set $day $3;
+    set $hour $4;
+    set $minutes $5;
+    set $seconds $6;
+    access_log logs/$year-$month-$day-$hour$minutes$seconds-access.log main;
+} else {
+    access_log logs/access.log main;
+}
+
+# Perl语法
+if ($time_iso8601 ~ "^(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})") {}
+access_log logs/$year-$month-$day-access.log main;
+
+# http块中不允许使用if，使用map替代
+map $time_iso8601 $logdate {
+    '~^(?<ymd>\d{4}-\d{2}-\d{2})'   $ymd;
+    default                         'nodate';
+}
+access_log 'logs/access_${logdate}.log';
+```
+
+- [https://github.com/logrotate/logrotate](https://github.com/logrotate/logrotate)
+
+```bash
+vi /etc/logrotate.d/nginx
+```
+
+> `kill -USR1 cat /usr/local/nginx/logs/nginx.pid` 向nginx主进程发送USR1信号用于重新读取日志文件
+
+```conf
+/var/www/html/ekt/ekt_access.log {
+daily
+rotate 7
+missingok
+dateext
+notifempty
+sharedscripts
+postrotate
+    [ -e /usr/local/nginx/logs/nginx.pid ] && kill -USR1 `cat /usr/local/nginx/logs/nginx.pid`
+endscript
+}
+```
 
 
 

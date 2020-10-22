@@ -77,6 +77,7 @@
 
 ## Windows
 
+* 搜索更新补丁下载 [http://www.catalog.update.microsoft.com](http://www.catalog.update.microsoft.com)
 * [小米笔记本Pro黑苹果Win10双系统](https://www.ikxin.com/465.html)
 
 > 打开后，随便点一个进程右键，查看-查看进程热键-再右键-显示所有进程热键
