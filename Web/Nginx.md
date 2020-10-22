@@ -408,7 +408,9 @@ if ($allow = no) {
 > 在`nginx.conf`中配置`log_format`（可以配置在`server`中），含义是配置了一个名为`main`的日志格式化的规则，应用在了`access_log`的日志上
 
 
-- 使用到`timeiso8601`内嵌变量来获取时间配置日志循环
+**使用到`timeiso8601`内嵌变量来获取时间配置日志循环**
+
+* [简单搞定Nginx日志分割](https://github.com/jingsam/jingsam.github.io/blob/source/source/_posts/2019-01-15-nginx-access-log.md)
 
 ```conf
 if ($time_iso8601 ~ "^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})") {
@@ -434,6 +436,9 @@ map $time_iso8601 $logdate {
 }
 access_log 'logs/access_${logdate}.log';
 ```
+
+
+**日志归档程序logrotate**
 
 - [https://github.com/logrotate/logrotate](https://github.com/logrotate/logrotate)
 
