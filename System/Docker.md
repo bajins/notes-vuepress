@@ -96,7 +96,7 @@
     * [https://cloud.ibm.com/shell](https://cloud.ibm.com/shell)
     * [http://cli.cloudfoundry.org/zh-Hans/cf](http://cli.cloudfoundry.org/zh-Hans/cf)
     - 使用ssh部署代码是错误的。正确做法是先进入 `ibmcloud target --cf` 使用 `ibmcloud cf push`命令
-        - `ibmcloud cf push 容器名 -b php_buildpack -m 256M -c "wget https://downloads.rclone.org/v1.52.2/rclone-v1.52.2-linux-amd64.zip && unzip rclone-v1.52.2-linux-amd64.zip && cd rclone-v1.52.2-linux-amd64"`
+        - `ibmcloud cf push 容器名 -b php_buildpack -m 256M -c "ls && ce /home"`
     - 在push的代码目录里创建.bp-config配置文件，可以修改app的启动行为、可以修改`php.ini`等。否则你的container和其他服务做链接时就会被刷回原始状态。
     - 10天是指开发行为，必须是类似于`ibm cloud cf restart`或者`cf push`这样的行为，可以用纯shell脚本实现。
     * [https://github.com/CCChieh/IBMYes](https://github.com/CCChieh/IBMYes)
