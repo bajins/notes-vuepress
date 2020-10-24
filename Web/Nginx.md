@@ -8,8 +8,12 @@
 
 ## Flag
 
-+ [http://nginx.org/en/download.html](http://nginx.org/en/download.html)
++ [https://github.com/nginx](https://github.com/nginx)
+    + [http://nginx.org/en/download.html](http://nginx.org/en/download.html)
     + [http://nginx.org/en/docs](http://nginx.org/en/docs)
++ [https://github.com/nginxinc](https://github.com/nginxinc)
++ [https://www.nginx.com/nginx-wiki/build/dirhtml/modules](https://www.nginx.com/nginx-wiki/build/dirhtml/modules)
+    + NGINX多种扩展模块 [https://github.com/openresty](https://github.com/openresty)
 + [https://github.com/h5bp/server-configs-nginx](https://github.com/h5bp/server-configs-nginx)
 
 * [Nginx HTTP核心模块指令和内置变量中文说明](https://my.oschina.net/jsan/blog/125861)
@@ -22,7 +26,7 @@
 
 + [博客使用Cloudflare和Nginx的相关配置](https://jayshao.com/cloudflare-nginx-ssl)
 
-- [HAProxy 入门](https://jaminzhang.github.io/lb/HAProxy-Get-Started)
+**[HAProxy 入门](https://jaminzhang.github.io/lb/HAProxy-Get-Started)**
 
 1. [Nginx和HAProxy对比](https://www.zhihu.com/question/34489042/answers/updated)
 2. [HAProxy Nginx LVS 对比](http://www.lgoon.com/detail/22)
@@ -413,6 +417,7 @@ if ($allow = no) {
 * [简单搞定Nginx日志分割](https://github.com/jingsam/jingsam.github.io/blob/source/source/_posts/2019-01-15-nginx-access-log.md)
 
 ```conf
+# 可能出现if条件不成立的情况，推荐在http块中使用map
 if ($time_iso8601 ~ "^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})") {
     set $year $1;
     set $month $2;
@@ -420,10 +425,8 @@ if ($time_iso8601 ~ "^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})") {
     set $hour $4;
     set $minutes $5;
     set $seconds $6;
-    access_log logs/$year-$month-$day-$hour$minutes$seconds-access.log main;
-} else {
-    access_log logs/access.log main;
 }
+access_log logs/$year-$month-$day-$hour$minutes$seconds-access.log main;
 
 # Perl语法
 if ($time_iso8601 ~ "^(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})") {}
@@ -431,10 +434,10 @@ access_log logs/$year-$month-$day-access.log main;
 
 # http块中不允许使用if，使用map替代
 map $time_iso8601 $logdate {
-    '~^(?<ymd>\d{4}-\d{2}-\d{2})'   $ymd;
-    default                         'nodate';
+    '~^(?<ymd>\d{4}-\d{2}-\d{2}-\d{6})'   $ymd;
+    default                               'nodate';
 }
-access_log 'logs/access_${logdate}.log';
+access_log logs/access_${logdate}.log;
 ```
 
 
@@ -449,16 +452,27 @@ vi /etc/logrotate.d/nginx
 > `kill -USR1 cat /usr/local/nginx/logs/nginx.pid` 向nginx主进程发送USR1信号用于重新读取日志文件
 
 ```conf
-/var/www/html/ekt/ekt_access.log {
-daily
-rotate 7
-missingok
-dateext
-notifempty
-sharedscripts
-postrotate
-    [ -e /usr/local/nginx/logs/nginx.pid ] && kill -USR1 `cat /usr/local/nginx/logs/nginx.pid`
-endscript
+/home/nginx/logs/*.log { # 目录下所有以.log结尾的文件
+    daily # 按天切割
+    #dateformat %Y%m%d # 切割后文件后缀，不能使用log，否则会使文件进行继续切割
+    #extension .log # 切割文件后缀
+    rotate 7 # 保留天数
+    #create 0640 root root   # 切割后日志权限
+    missingok
+    dateext
+    notifempty
+    sharedscripts
+    prerotate
+        if [ -d /etc/logrotate.d/nginx ]; then \  # 判断切割文件
+            run-parts /etc/logrotate.d/nginx; \
+        fi \
+    endscript
+    postrotate
+        [ -e /usr/local/nginx/logs/nginx.pid ] && kill -USR1 `cat /home/nginx/logs/nginx.pid`
+    endscript
+    postrotate
+        [ ! -f /var/nginx.pid ] || kill -USR1 `cat /home/nginx/logs/nginx.pid`
+    endscript
 }
 ```
 

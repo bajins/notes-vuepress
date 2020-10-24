@@ -58,6 +58,7 @@
 
 **ECMAScript6**
 
+* [https://github.com/then/promise](https://github.com/then/promise)
 * [在浏览器中使用javascript module](https://www.jianshu.com/p/f7db50cf956f)
 
 - `Uncaught SyntaxError: Cannot use import statement outside a module`

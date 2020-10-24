@@ -81,6 +81,7 @@
     * [https://github.com/vuepressjs/awesome-vuepress](https://github.com/vuepressjs/awesome-vuepress)
     * [https://github.com/search?q=vuepress-theme](https://github.com/search?q=vuepress-theme)
     * [https://github.com/topics/vuepress-theme](https://github.com/topics/vuepress-theme)
+    * [https://github.com/z3by/vuepress-tools/tree/master/packages](https://github.com/z3by/vuepress-tools/tree/master/packages)
 * 静态编译NuxtJs [https://github.com/nuxt](https://github.com/nuxt)
 * 静态编译Hexo [https://github.com/hexojs/hexo](https://github.com/hexojs/hexo)
 * 静态编译Hugo [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
@@ -129,6 +130,7 @@
 * [https://www.appveyor.com](https://www.appveyor.com)
 * [https://kubesail.com](https://kubesail.com)
 * [https://azure.microsoft.com/zh-cn/services/devops/pipelines](https://azure.microsoft.com/zh-cn/services/devops/pipelines)
+* [https://app.buddy.works](https://app.buddy.works)
 
 - 命令行：[https://github.com/sintaxi/surge](https://github.com/sintaxi/surge)
   - [https://surge.sh](https://surge.sh)
