@@ -35,6 +35,9 @@
 - [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
   - [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
   - [https://tortoisegit.org/download](https://tortoisegit.org/download)
+- [https://www.visualsvn.com/downloads](https://www.visualsvn.com/downloads)
+    - [在Windows下使用svn命令行教程及svn命令行的解释](https://blog.csdn.net/yangxiao2shi/article/details/50719286)
+- [https://sliksvn.com/pub](https://sliksvn.com/pub)
 - [https://github.com/jenkinsci/subversion-plugin](https://github.com/jenkinsci/subversion-plugin)
 - [https://github.com/subclipse](https://github.com/subclipse)
 

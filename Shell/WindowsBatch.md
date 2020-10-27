@@ -49,6 +49,9 @@ msg %username% /time:60 "WARNING:a backdoor account is created"
 
 ## 文件操作
 
+* [robocopy复制文件及目录结构](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/robocopy)
+* [xcopy复制文件及目录结构](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/xcopy)
+
 ```batch
 :: 列出文件，类似于linux下的ls
 dir

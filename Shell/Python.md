@@ -135,6 +135,7 @@ with Test() as t: # 触发__exit__
 * CoCalc [https://cocalc.com](https://cocalc.com)
 * Azure Notebooks [https://notebooks.azure.com](https://notebooks.azure.com)
     * [Azure Notebooks 预览版概述](https://docs.microsoft.com/zh-cn/azure/notebooks/azure-notebooks-overview)
+* [https://deepnote.com](https://deepnote.com)
 * [https://datalore.jetbrains.com](https://datalore.jetbrains.com)
 * [https://www.floydhub.com](https://www.floydhub.com)
 * [https://github.com/rstudio](https://github.com/rstudio)

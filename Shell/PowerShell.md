@@ -183,6 +183,25 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 (New-Object System.Net.WebClient).DownloadFile('https://git.io/JvYAg','d:\\7za.exe')
 ```
 
+- 选择文件夹弹窗
+
+```powershell
+function Select-FolderDialog{
+    param([string]$Directory,[string]$Description,[boolean]$ShowNewFolderButton)
+    [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms") | Out-Null
+    $objForm = New-Object System.Windows.Forms.FolderBrowserDialog
+    $objForm.RootFolder = $Directory
+    $objForm.Description = $Description
+    $objForm.ShowNewFolderButton = $ShowNewFolderButton
+    $Show = $objForm.ShowDialog()
+    If ($Show -eq "OK") {
+        Return $objForm.SelectedPath
+    } Else {
+        # 输出错误信息
+        Write-Error "error information here"
+    }
+}
+```
 
 
 - 循环目录
@@ -210,6 +229,46 @@ Get-ChildItem . | ForEach-Object -Process {
 
 ```powershell
 New-Item -ItemType directory -Path 目录的路径
+```
+
+- 复制文件及目录结构
+
+```powershell
+# 源路径最后一个文件夹名为需要复制的目录结构的顶级文件夹名
+Copy-Item -Force -Recurse 源路径 目标路径 -Filter 文件名
+```
+
+- 删除空目录
+
+```powershell
+Get-ChildItem -Path 路径 -Recurse -Force `
+| Where-Object { $_.PSIsContainer -and `
+    (Get-ChildItem -Path $_.FullName -Recurse -Force `
+    | Where-Object { !$_.PSIsContainer }) -eq $null } `
+| Remove-Item -Force -Recurse
+
+Get-ChildItem -recurse | Where {$_.PSIsContainer -and `
+@(Get-ChildItem -Lit $_.Fullname -r | Where {!$_.PSIsContainer}).Length -eq 0} `
+| Remove-Item -recurse -whatif
+
+get-childitem -recurse | ? {$_.GetType() -match"DirectoryInfo"} `
+| ?{ $_.GetFiles().Count -eq 0 -and $_.GetDirectories().Count -eq 0 } | rm -whatif
+
+ls -recurse | where {!@(ls -force $_.fullname)} | rm -whatif -Force
+```
+
+- 删除旧文件（指定日期之前的）
+
+```powershell
+Get-ChildItem -recurse | Where {!$_.PSIsContainer -and `
+$_.LastWriteTime -lt (get-date).AddDays(-31)} | Remove-Item -whatif
+
+Get-ChildItem -Path 路径 -Recurse -Force `
+| Where-Object { !$_.PSIsContainer -and $_.CreationTime -lt (Get-Date).AddDays(-15) } `
+| Remove-Item -Force
+
+get-childitem -recurse | ? {$_.GetType() -match"FileInfo"} `
+| ?{ $_.LastWriteTime -lt [datetime]::now.adddays(-30) } | rm -whatif -Force
 ```
 
 - 格式化时间
