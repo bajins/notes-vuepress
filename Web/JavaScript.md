@@ -41,6 +41,7 @@
 * [检查JavaScript文件中的ES版本](https://github.com/dollarshaveclub/es-check)
 * [文档对象模型 (DOM)](https://developer.mozilla.org/zh-CN/docs/Glossary/DOM)
 * [JavaScript HTML DOM](https://www.w3school.com.cn/js/js_htmldom_document.asp)
+* JavaScript算法和数据结构 [https://github.com/trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 
 
 - 用于浏览器环境规范

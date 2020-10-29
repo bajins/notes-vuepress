@@ -103,6 +103,7 @@
 * Java源码分析 【源码笔记】 [https://github.com/yuanmabiji/Java-SourceCode-Blogs](https://github.com/yuanmabiji/Java-SourceCode-Blogs)
     * [https://github.com/yuanmabiji/jdk1.8-sourcecode-analysis](https://github.com/yuanmabiji/jdk1.8-sourcecode-analysis)
 * [http://github.com/CarpenterLee/JavaLambdaInternals](http://github.com/CarpenterLee/JavaLambdaInternals)
+* [https://github.com/itwanger/javabooks](https://github.com/itwanger/javabooks)
 
 + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
 + [https://github.com/Wizzercn/MqttWk](https://github.com/Wizzercn/MqttWk)

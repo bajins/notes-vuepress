@@ -97,6 +97,7 @@ with Test() as t: # 触发__exit__
 - [https://github.com/mhammond/pywin32](https://github.com/mhammond/pywin32)
     - [winreg --- Windows 注册表访问](https://docs.python.org/zh-cn/3/library/winreg.html)
 
+* [https://github.com/PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 
 
 **HTML文档解析**
