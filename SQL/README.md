@@ -28,6 +28,9 @@
 + [https://www.razorsql.com](https://www.razorsql.com)
 + [https://www.aquafold.com](https://www.aquafold.com)
 
+* [Oracle with as + /*+ materialize*/ 优化](https://blog.csdn.net/qq_34745941/article/details/106897099)
+
+
 
 
 ## MySQL

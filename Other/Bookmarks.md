@@ -50,6 +50,7 @@
 * [https://openinfra.dev/projects](https://openinfra.dev/projects)
 * [https://github.com/yahoo](https://github.com/yahoo)
 * [https://github.com/adobe](https://github.com/adobe)
+* [https://github.com/eclipse](https://github.com/eclipse)
 
 
 - [https://github.com/TogetherOS](https://github.com/TogetherOS)
