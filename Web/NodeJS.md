@@ -307,6 +307,9 @@ request({
 * [https://github.com/ebidel/try-puppeteer](https://github.com/ebidel/try-puppeteer)
 * [https://github.com/berstend/puppeteer-extra](https://github.com/berstend/puppeteer-extra)
 
+- Expect交互 [https://github.com/facebook/jest](https://github.com/facebook/jest)
+- [https://github.com/sinonjs](https://github.com/sinonjs)
+- [https://github.com/chaijs](https://github.com/chaijs)
 
 
 

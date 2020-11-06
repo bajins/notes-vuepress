@@ -23,6 +23,7 @@
 
 * 免费学习编码 [https://github.com/freeCodeCamp](https://github.com/freeCodeCamp)
 * [https://github.com/apache](https://github.com/apache)
+    * [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
 * [https://github.com/google](https://github.com/google)
     * [https://github.com/googleapis](https://github.com/googleapis)
 * [https://github.com/Netflix](https://github.com/Netflix)
@@ -51,6 +52,7 @@
 * [https://github.com/yahoo](https://github.com/yahoo)
 * [https://github.com/adobe](https://github.com/adobe)
 * [https://github.com/eclipse](https://github.com/eclipse)
+    * [https://projects.eclipse.org](https://projects.eclipse.org)
 
 
 - [https://github.com/TogetherOS](https://github.com/TogetherOS)

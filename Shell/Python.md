@@ -28,7 +28,8 @@
 
 * [GO-Node-Python的简单性能比较](https://www.izhongxia.com/posts/64310.html)
 * 内置函数 [https://docs.python.org/zh-cn/3/library/functions.html](https://docs.python.org/zh-cn/3/library/functions.html)
-* [内置异常和函数](https://lichangke.github.io/category/#python)
+* 内置异常 [https://docs.python.org/zh-cn/3/library/exceptions.html](https://docs.python.org/zh-cn/3/library/exceptions.html)
+* [内置异常和函数-LeaCoder](https://lichangke.github.io/category/#python)
 * [Python语言小册](https://python.fasionchan.com/zh_CN/latest/index.html)
 * 最良心的 Python 教程 [https://github.com/TwoWater/Python](https://github.com/TwoWater/Python)
 * [https://github.com/xxg1413/python](https://github.com/xxg1413/python)

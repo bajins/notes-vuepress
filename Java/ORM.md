@@ -16,6 +16,8 @@
 * [http://java-source.net/open-source/sql-clients](http://java-source.net/open-source/sql-clients)
 * 链式SQL框架 [https://github.com/jOOQ](https://github.com/jOOQ)
 
+- [https://github.com/itfsw/mybatis-generator-plugin](https://github.com/itfsw/mybatis-generator-plugin)
+
 
 ## JDBC驱动
 

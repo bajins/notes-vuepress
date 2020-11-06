@@ -22,18 +22,9 @@
     * [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
     * [https://www.oracle.com/java/technologies/java-ee-glance.html](https://www.oracle.com/java/technologies/java-ee-glance.html)
 
-
-+ [https://github.com/javaee](https://github.com/javaee)
 + [https://github.com/eclipse-ee4j](https://github.com/eclipse-ee4j)
     + [https://projects.eclipse.org/jakartaee/releases/8](https://projects.eclipse.org/jakartaee/releases/8)
-+ [https://github.com/jersey](https://github.com/jersey)
-+ [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
-    + [下载地址镜像](/Other/README.md#通用镜像)
-+ 响应式 [https://github.com/eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x)
-    + [http://vertx.io](http://vertx.io)
-    + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
-+ WebFlux采用的默认反应式框架 [https://github.com/reactor](https://github.com/reactor)
-+ 完全实现了Reactive Streams规范 [https://github.com/akka/akka](https://github.com/akka/akka)
+    + [javaEE和javaweb的区别？](https://www.zhihu.com/question/52002845)
 
 
 - [fastjson这么快老外为啥还是热衷 jackson?](https://www.zhihu.com/question/44199956)
@@ -230,6 +221,18 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 ## 第三方库
 
++ [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
+    + [下载地址镜像](/Other/README.md#通用镜像)
++ 响应式 [https://github.com/eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x)
+    + [http://vertx.io](http://vertx.io)
+    + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
++ WebFlux采用的默认反应式框架 [https://github.com/reactor](https://github.com/reactor)
++ 完全实现了Reactive Streams规范 [https://github.com/akka/akka](https://github.com/akka/akka)
++ [https://github.com/netty/netty](https://github.com/netty/netty)
++ [https://github.com/luxiaoxun/NettyRpc](https://github.com/luxiaoxun/NettyRpc)
++ [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
+
+
 * jwt [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)
 * [https://github.com/auth0/java-jwt](https://github.com/auth0/java-jwt)
 
@@ -239,9 +242,6 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 - [https://github.com/xuxueli](https://github.com/xuxueli)
 
-* [https://github.com/netty/netty](https://github.com/netty/netty)
-* [https://github.com/luxiaoxun/NettyRpc](https://github.com/luxiaoxun/NettyRpc)
-* [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
 
 - [https://github.com/elastic/elasticsearch](https://github.com/elastic/elasticsearch)
 - [https://github.com/apache/lucene-solr](https://github.com/apache/lucene-solr)
@@ -325,6 +325,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 + [https://github.com/looly/hutool](https://github.com/looly/hutool)
 + [https://github.com/0opslab/opslabJutil](https://github.com/0opslab/opslabJutil)
 + [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
++ [https://github.com/apache/commons-lang](https://github.com/apache/commons-lang)
 
 * [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
 * [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
