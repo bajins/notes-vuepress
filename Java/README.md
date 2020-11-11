@@ -132,6 +132,7 @@
 + [Maven详细教程](https://segmentfault.com/a/1190000015077021)
 
 * [http://mvnrepository.com](http://mvnrepository.com)
+* [https://search.maven.org](https://search.maven.org)
 
 + maven-jar-plugin 默认的打包插件，用来打普通的project JAR包；
 + maven-shade-plugin 用来打可执行JAR包，也就是所谓的fat JAR包；
@@ -148,6 +149,7 @@
 ### Maven私服搭建
 
 * [https://github.com/sonatype](https://github.com/sonatype)
+    * [https://github.com/sonatype-nexus-community](https://github.com/sonatype-nexus-community)
     * [https://help.sonatype.com/repomanager3/download](https://help.sonatype.com/repomanager3/download)
     * [docker 快速搭建maven私服并上传jar包](https://www.cnblogs.com/yscec/p/12898226.html)
     * [Maven部署jar包到远程仓库](https://blog.csdn.net/ThinkWon/article/details/101483769)
@@ -221,6 +223,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 ## 第三方库
 
++ [https://github.com/typetools](https://github.com/typetools)
 + [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
     + [下载地址镜像](/Other/README.md#通用镜像)
 + 响应式 [https://github.com/eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x)

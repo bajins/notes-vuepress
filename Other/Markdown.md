@@ -410,7 +410,7 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/phodal/mifa](https://github.com/phodal/mifa)
     * [http://relatos.top/md](http://relatos.top/md)
     * [https://md.phodal.com](https://md.phodal.com)
-* [https://github.com/mdnice](https://github.com/mdnice)
+* [https://github.com/mdnice/markdown-nice](https://github.com/mdnice/markdown-nice)
     * [https://mdnice.com](https://mdnice.com)
 * [https://github.com/lyricat/wechat-format](https://github.com/lyricat/wechat-format)
 * [https://github.com/zkqiang/wechat-mdeditor](https://github.com/zkqiang/wechat-mdeditor)
