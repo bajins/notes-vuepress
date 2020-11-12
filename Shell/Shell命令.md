@@ -13,13 +13,7 @@
 > `Shell`管理你与操作系统之间的交互：等待你输入，向操作系统解释你的输入，并且处理各种各样的操作系统的输出结果。
 
 
-* [https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
-* [https://github.com/idank/explainshell](https://github.com/idank/explainshell)
-
 - 包管理器 [https://github.com/Homebrew](https://github.com/Homebrew)
-- [https://github.com/jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command)
-- [https://man.linuxde.net](https://man.linuxde.net)
-- [https://www.linuxcool.com](https://www.linuxcool.com)
 
 
 * [精选的优秀命令行框架](https://github.com/alebcay/awesome-shell)

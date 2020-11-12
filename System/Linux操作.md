@@ -8,11 +8,19 @@
 
 ## Flag
 
-+ [Linux手册](https://learn-linux.readthedocs.io/zh_CN/latest)
++ Linux手册 [https://learn-linux.readthedocs.io/zh_CN/latest](https://learn-linux.readthedocs.io/zh_CN/latest)
 + [http://www.linuxbaike.com](http://www.linuxbaike.com)
 + [Linux网络编程](https://network.fasionchan.com/zh_CN/latest/index.html)
 + [OSX操作指南](https://osx-guide.readthedocs.io/zh_CN/latest)
 + [https://github.com/guodongxiaren/LinuxTool](https://github.com/guodongxiaren/LinuxTool)
++ Linux工具的最常用用法 [https://github.com/me115/linuxtools_rst](https://github.com/me115/linuxtools_rst)
++ [https://github.com/dunwu/linux-tutorial](https://github.com/dunwu/linux-tutorial)
++ [https://github.com/jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command)
++ [https://github.com/jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)
++ [https://github.com/idank/explainshell](https://github.com/idank/explainshell)
++ [https://www.linuxcool.com](https://www.linuxcool.com)
++ [https://man.linuxde.net](https://man.linuxde.net)
++ [Cron 定时任务表达式手册](https://www.gairuo.com/p/cron-expression-sheet)
 
 * [vi命令（vi编辑器）](http://c.biancheng.net/vi)
 * [vi 编辑器使用向导](https://wiki.jikexueyuan.com/project/unix/the-vi-editor.html)

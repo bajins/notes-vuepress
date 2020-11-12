@@ -15,6 +15,7 @@
 * [https://github.com/chewiebug/GCViewer](https://github.com/chewiebug/GCViewer)
 * java程序跟踪工具 [https://github.com/btraceio/btrace](https://github.com/btraceio/btrace)
 * [https://github.com/jboss-javassist/javassist](https://github.com/jboss-javassist/javassist)
+* [https://github.com/aragozin/jvm-tools](https://github.com/aragozin/jvm-tools)
 
 
 + [逆向工具](/Other/MobileNative.md#逆向工具)
