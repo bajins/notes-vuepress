@@ -168,7 +168,7 @@ DELIMITER ;
 
 ## 异常处理
 
-```
+```sql
 DELIMITER $$
 -- 判断删除存储过程
 DROP PROCEDURE IF EXISTS err;
@@ -201,6 +201,6 @@ BEGIN
 END $$
 DELIMITER;
 ```
-```
+```sql
 CALL err();
 ```

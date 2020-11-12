@@ -231,17 +231,9 @@ ORDER BY
 
 > 获得当前日期+时间（date+time）函数
 
-> 除了 `now()` 函数能获得当前的日期时间外，MySQL 中还有下面的函数： 
->> `current_timestamp()`
->>
->> `localtime()`
->>
->> `localtimestamp()`
->
-> 这些日期时间函数，都等同于 `now()`。鉴于 `now()` 函数简短易记，建议总是使用 `now()`来替代上面列出的函数。
-
+- `localtime()`
+- `localtimestamp()`
 - `now()` 
-
 - `current_timestamp()`
 
 ```sql
@@ -269,34 +261,24 @@ CURRENT_TIMESTAMP { + INTERVAL 1 [HOUR|MONTH|WEEK|DAY|MINUTE|...] }
 | MINUTE_SECOND | 分:秒  |
 
 
-- `sysdate()`
-
-> sysdate() 日期时间函数跟 now() 类似，不同之处在于：now() 在执行开始时值就得到了， sysdate() 在函数执行时动态得到值。
+- `sysdate()` 日期时间函数跟 now() 类似，不同之处在于：now() 在执行开始时值就得到了， sysdate() 在函数执行时动态得到值。
 
 ### 获得当前日期
 
-- `curdate() `
-
-> 其中，下面的两个日期函数等同于`curdate()`：
->> `current_date()`
->>
->> `current_date` 
+- `curdate() `下面的两个时间函数同阶
+	- `current_date()`
+	- `current_date` 
 
 ### 获得当前时间time函数
 
-- `curtime()`
-
-> 其中，下面的两个时间函数等同于`curtime()`：
->> `current_time()`
->>
->> `current_time` 
+- `curtime()`下面的两个时间函数同阶
+	- `current_time()`
+	- `current_time` 
 
 ### 获得当前UTC日期时间函数
 
 - `utc_date()`
-
 - `utc_time()`
-
 - `utc_timestamp()`
 
 ### 格式化日期
