@@ -50,7 +50,14 @@ msg %username% /time:60 "WARNING:a backdoor account is created"
 ## 文件操作
 
 * [robocopy复制文件及目录结构](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/robocopy)
+
+```batch
+:: 路径都为文件所在顶级文件夹
+robocopy /ndl /njh /njs /s 源路径 目的路径 复制的文件多个以空格分隔
+```
+
 * [xcopy复制文件及目录结构](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/xcopy)
+* [forfiles遍历文件夹](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/forfiles)
 
 ```batch
 :: 列出文件，类似于linux下的ls

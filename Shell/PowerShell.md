@@ -37,6 +37,7 @@
     * [https://chocolatey.org](https://chocolatey.org)
 * [https://github.com/lukesampson/scoop](https://github.com/lukesampson/scoop)
     * [https://github.com/ScoopInstaller](https://github.com/ScoopInstaller)
+    * [https://github.com/lukesampson/scoop-extras](https://github.com/lukesampson/scoop-extras)
 * [https://github.com/cmderdev/cmder](https://github.com/cmderdev/cmder)
 * [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 
@@ -255,6 +256,12 @@ get-childitem -recurse | ? {$_.GetType() -match"DirectoryInfo"} `
 | ?{ $_.GetFiles().Count -eq 0 -and $_.GetDirectories().Count -eq 0 } | rm -whatif
 
 ls -recurse | where {!@(ls -force $_.fullname)} | rm -whatif -Force
+```
+
+- 递归删除排除之外的文件
+
+```powershell
+dir -Path 源路径 -Include *.* -Exclude @('test.js','test.css','a*') -Recurse | del -Recurse
 ```
 
 - 删除旧文件（指定日期之前的）
