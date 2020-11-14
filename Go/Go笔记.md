@@ -75,6 +75,8 @@ if a == (A{}) {
 
 ## 字符串
 
+* [高性能 golang 生成指定长度随机字符串](https://blog.csdn.net/lsmsrc/article/details/104652533)
+* [https://github.com/gohouse/random](https://github.com/gohouse/random)
 
 ### strings包API
 

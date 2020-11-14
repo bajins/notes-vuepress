@@ -16,7 +16,7 @@
 * [PowerShell 与 cmd 有什么不同？](https://www.zhihu.com/question/22611859/answers/updated)
 * [PowerShell为什么强大](https://www.pstips.net/why-is-powershell-powerful.html)
 
-- [如何使用 PowerShell 文档](https://docs.microsoft.com/zh-cn/powershell/scripting/how-to-use-docs)
+- [PowerShell参考文档](https://docs.microsoft.com/zh-cn/powershell/module/cimcmdlets/?view=powershell-7.1)
 - [PowerShell 在线教程](https://www.pstips.net/powershell-online-tutorials)
 
 * [https://github.com/PowerShell](https://github.com/PowerShell)
@@ -444,3 +444,41 @@ while(1){
 - 获取环境变量的值：`$env:变量名`
 
 
+## 随机字符串
+
+> `48..57`是数字0-9，powershell的范围操作符是`..`，`65..90`是大写字符A到Z，`97..122`是小写字母。
+> 如果需要获取多有的可打印字符（包括空格）的话，范围是`32..127`。
+
+> `[char]`把对应数字转换成字符，例如 `[char](66)`就是B(大写字母B)，C语言使用的小括号来进行类型强制转换。
+
+```powershell
+# 如果不指定-count参数，则前面的list有多少个字符
+# get-random就会获取多少个字符，只是顺序打乱了
+-join((48..57 + 65..90 + 97..122) | get-random -count 6 | %{[char]$_})
+
+# 输出19位数字字符串并在开头拼接x
+(0..13|Get-Random -count 19) -join $null | %{-join ("X",$_)}
+
+# 这里的0..1024相当于循环控制，每循环一次|后面的代码执行一次，
+# 其中在数字字母中随机选一个字符 0..1024, like Perl, loop controller
+-join(0..1024|%{[char][int]((48..57 + 65..90 + 97..122)| Get-Random)})
+
+-join ([char[]](65..90+97..122) | Get-Random -Count 6)
+
+Add-Type -AssemblyName System.Web;[System.Web.Security.Membership]::GeneratePassword(20, 0)
+
+function Get-RandomString() {
+    param(
+    [int]$length=10,
+    # 这里的[int]是类型指定
+    [char[]]$sourcedata
+    )
+
+    for($loop=1; $loop –le $length; $loop++) {
+            $TempPassword+=($sourcedata | GET-RANDOM | %{[char]$_})
+    }
+    return $TempPassword
+}
+
+Get-RandomString -length 14 -sourcedata (48..127)
+```
