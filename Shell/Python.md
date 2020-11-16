@@ -98,6 +98,12 @@ with Test() as t: # 触发__exit__
 - [https://github.com/mhammond/pywin32](https://github.com/mhammond/pywin32)
     - [winreg --- Windows 注册表访问](https://docs.python.org/zh-cn/3/library/winreg.html)
 
+
+**OCR**
+
++ [https://github.com/topics/ocr](https://github.com/topics/ocr)
++ [https://github.com/search?q=ocr](https://github.com/search?q=ocr)
+
 * [https://github.com/PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 
 
@@ -239,6 +245,7 @@ vi /usr/libexec/urlgrabber-ext-down
 ### 镜像源
 
 - 阿里云 [https://mirrors.aliyun.com/pypi/simple](https://mirrors.aliyun.com/pypi/simple)
+- 百度 [https://mirror.baidu.com/pypi/simple](https://mirror.baidu.com/pypi/simple)
 - 中国科技大学 [https://pypi.mirrors.ustc.edu.cn/simple](https://pypi.mirrors.ustc.edu.cn/simple)
 - 清华大学 [https://pypi.tuna.tsinghua.edu.cn/simple](https://pypi.tuna.tsinghua.edu.cn/simple)
 

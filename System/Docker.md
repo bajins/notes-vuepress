@@ -8,7 +8,6 @@
 ## Flag
 
 + [https://github.com/opencontainers](https://github.com/opencontainers)
-
 + [https://github.com/docker](https://github.com/docker)
     + [https://www.docker.com](https://www.docker.com)
     + [https://docs.docker.com](https://docs.docker.com)
@@ -16,7 +15,6 @@
 + [https://github.com/boot2docker](https://github.com/boot2docker)
 + [Docker及图形化管理UI Portainer的搭建](https://juejin.im/post/5da3de28518825651b1e0633)
 + [利用Docker实现后台项目模板化配置部署](https://juejin.im/post/5da81a7d6fb9a04def4e6d6b)
-+ Docker的完整PHP开发环境 [https://github.com/laradock/laradock](https://github.com/laradock/laradock)
 
 * [Docker进阶实用命令](https://sleele.com/2018/09/27/docker%e8%bf%9b%e9%98%b6%e5%ae%9e%e7%94%a8%e5%91%bd%e4%bb%a4/)
 * [https://sleele.com/category/docker/](https://sleele.com/category/docker/)
