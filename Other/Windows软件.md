@@ -373,11 +373,13 @@
 
 **FastStone Capture**
 
-* [FastStone Capture官网](https://www.faststone.org/download.htm)
-* 官网被屏蔽，官方下载地址：`http://www.faststonesoft.net/DN/FSCaptureSetup版本号.exe`
-* [下载最新版本](http://www.faststonesoft.net/DN/FSCaptureSetup.exe)
+* 官网 [https://www.faststone.org](https://www.faststone.org)
+* 官网被屏蔽，没有被屏蔽的下载地址（最新版本去掉版本号）：
+    * `http://www.faststonesoft.net/DN/FSCaptureSetup版本号.exe`
+    * `https://www.faststonesoft.net/DN/FSCapture版本号.zip`
+    * `https://www.faststonesoft.net/DN/FSCaptureSetup版本号.zip`
 
-- 使用说明: 先安装`FSCaptureSetup`程序，安装完成后先不要运行，把下载的汉化文件覆盖到安装目录然后再运行
+> 使用说明: 先安装`FSCaptureSetup`程序，安装完成后先不要运行，把下载的汉化文件覆盖到安装目录然后再运行
 
 - 注册码
 
@@ -655,6 +657,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
     * 读取EXT 类型数据盘 [http://www.diskinternals.com/download/Linux_Reader.exe](http://www.diskinternals.com/download/Linux_Reader.exe)
 * [https://github.com/thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe)
 * 远程控制 [https://www.todesk.com](https://www.todesk.com)
+* 向日葵 [https://sunlogin.oray.com/download](https://sunlogin.oray.com/download)
 
 - 文档转换 [https://github.com/topics/converter](https://github.com/topics/converter)
     - [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)

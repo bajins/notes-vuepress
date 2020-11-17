@@ -101,10 +101,21 @@ with Test() as t: # 触发__exit__
 
 **OCR**
 
++ [https://github.com/topics/machine-learning](https://github.com/topics/machine-learning)
++ [https://github.com/topics/deep-learning](https://github.com/topics/deep-learning)
++ [https://github.com/topics/neural-network](https://github.com/topics/neural-network)
++ [https://github.com/topics/computer-vision](https://github.com/topics/computer-vision)
 + [https://github.com/topics/ocr](https://github.com/topics/ocr)
 + [https://github.com/search?q=ocr](https://github.com/search?q=ocr)
 
+* [https://github.com/alisen39/TrWebOCR](https://github.com/alisen39/TrWebOCR)
+* [https://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)
 * [https://github.com/PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
+
+- [https://github.com/opencv](https://github.com/opencv)
+- [https://github.com/ainize-team](https://github.com/ainize-team)
+    - [![Run on Ainize](https://ainize.ai/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=https://github.com/alisen39/TrWebOCR)
+- [https://github.com/d2l-ai](https://github.com/d2l-ai)
 
 
 **HTML文档解析**
