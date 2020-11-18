@@ -42,6 +42,8 @@
 * [https://github.com/lihangleo2/Imgdots](https://github.com/lihangleo2/Imgdots)
 * [https://github.com/yangchong211/YCVideoPlayer](https://github.com/yangchong211/YCVideoPlayer)
 * [https://github.com/guofudong/KotlinAndroid](https://github.com/guofudong/KotlinAndroid)
+* [https://github.com/Justson/Downloader](https://github.com/Justson/Downloader)
+* [https://github.com/Justson/AgentWeb](https://github.com/Justson/AgentWeb)
 * [Android运行时权限申请库](https://github.com/ysbing/YPermission)
 * 秒级编译方案：[https://github.com/alibaba/freeline](https://github.com/alibaba/freeline)
 * [Android-FFmpeg开源库使用及图片压缩开源工具使用](https://www.jianshu.com/p/e960854d3705)
