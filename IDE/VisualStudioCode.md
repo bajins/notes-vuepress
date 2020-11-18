@@ -9,6 +9,7 @@
 ## Flag
 
 + [https://visualstudio.microsoft.com](https://visualstudio.microsoft.com)
++ [https://github.com/topics/vscode](https://github.com/topics/vscode)
 
 * [https://github.com/microsoft/vscode](https://github.com/microsoft/vscode)
     * [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
@@ -260,6 +261,7 @@
 ## VSCode插件
 
 * [https://github.com/redhat-developer](https://github.com/redhat-developer)
+* [https://github.com/vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons)
 
 
 **中文语言**

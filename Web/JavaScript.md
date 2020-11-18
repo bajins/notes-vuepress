@@ -9,12 +9,9 @@
 
 > Vanilla JS 就是指JavaScript
 
-* Ecma 国际，技术委员会 [https://github.com/tc39](https://github.com/tc39)
-* ECMAScript支持度检测 [https://github.com/ruanyf/es-checker](https://github.com/ruanyf/es-checker)
-* [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese)
-
-+ [https://github.com/topics/validation](https://github.com/topics/validation)
-+ [https://github.com/topics/validator](https://github.com/topics/validator)
++ Ecma 国际，技术委员会 [https://github.com/tc39](https://github.com/tc39)
++ ECMAScript支持度检测 [https://github.com/ruanyf/es-checker](https://github.com/ruanyf/es-checker)
++ [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese)
 
 * [JS刷新当前页面的几种方法总结](http://www.iqianduan.net/blog/refresh-browser-method)
 * [js keyup、keypress和keydown事件 详解](https://www.cnblogs.com/manongxiaobing/archive/2012/11/05/2755412.html)
@@ -39,9 +36,11 @@
 * [ECMAscript和Javascript的区别](https://www.jianshu.com/p/10cfcb536d4a)
 * [es6支持情况](https://kangax.github.io/compat-table/es6)
 * [检查JavaScript文件中的ES版本](https://github.com/dollarshaveclub/es-check)
-* [文档对象模型 (DOM)](https://developer.mozilla.org/zh-CN/docs/Glossary/DOM)
+* 文档对象模型 (DOM) [https://developer.mozilla.org/zh-CN/docs/Glossary/DOM](https://developer.mozilla.org/zh-CN/docs/Glossary/DOM)
 * [JavaScript HTML DOM](https://www.w3school.com.cn/js/js_htmldom_document.asp)
 * JavaScript算法和数据结构 [https://github.com/trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
+* 答题 [https://github.com/lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions)
+* 可读性的代码写法 [https://github.com/ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
 
 
 - 用于浏览器环境规范
@@ -116,6 +115,8 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 
 ## 第三方依赖库
 
++ [https://github.com/topics/validation](https://github.com/topics/validation)
++ [https://github.com/topics/validator](https://github.com/topics/validator)
 + [https://plugins.jquery.com](https://plugins.jquery.com)
 + 添加XHR2 responseType支持的jQuery插件 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
 + [https://github.com/tonytomov/jqGrid](https://github.com/tonytomov/jqGrid)

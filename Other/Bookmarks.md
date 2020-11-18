@@ -84,7 +84,8 @@
 
 - [https://github.com/hoochanlon](https://github.com/hoochanlon)
 - [https://github.com/easychen](https://github.com/easychen)
-
+- 免费服务工具列表 [https://github.com/ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
+- [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis)
 
 
 
@@ -93,6 +94,7 @@
 * [https://github.com/search?q=awesome](https://github.com/search?q=awesome)
 * [https://github.com/topics/awesome](https://github.com/topics/awesome)
 * [https://github.com/topics/awesome-list](https://github.com/topics/awesome-list)
+* 初学者友好项目列表[https://github.com/MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)
 * [思维导图](https://github.com/search?o=desc&q=%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE&s=updated&type=Repositories)
 
 
@@ -131,6 +133,7 @@
 
 + [https://github.com/royeo/awesome-programming-books](https://github.com/royeo/awesome-programming-books)
 + [https://github.com/justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)
++ [https://github.com/EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
 
 * 书栈网（极力推荐） [https://github.com/TruthHun/BookStack](https://github.com/TruthHun/BookStack)
     * [https://www.bookstack.cn](https://www.bookstack.cn)
