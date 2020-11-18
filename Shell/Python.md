@@ -77,7 +77,6 @@ with Test() as t: # 触发__exit__
 
 - [https://github.com/topics/python](https://github.com/topics/python)
     - [https://github.com/ipython](https://github.com/ipython)
-    - 用Python实现的所有算法 [https://github.com/TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
     - 纠正以前的控制台命令中的错误 [https://github.com/nvbn/thefuck](https://github.com/nvbn/thefuck)
     - 命令行HTTP客户端 [https://github.com/jakubroztocil/httpie](https://github.com/jakubroztocil/httpie)
 - [https://github.com/topics/expect](https://github.com/topics/expect)

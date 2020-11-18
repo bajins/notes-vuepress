@@ -89,7 +89,6 @@
 * [https://github.com/Childe-Mu/bio-nio-aio-netty-notes](https://github.com/Childe-Mu/bio-nio-aio-netty-notes)
 * [https://github.com/whx123/JavaHome](https://github.com/whx123/JavaHome)
 * [https://developer.ibm.com/zh/technologies/java/gettingstarted](https://developer.ibm.com/zh/technologies/java/gettingstarted)
-* Java实现的算法 [https://github.com/TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)
 * 深入理解Java函数式编程和Streams API [https://github.com/CarpenterLee/JavaLambdaInternals](https://github.com/CarpenterLee/JavaLambdaInternals)
 * Java源码分析 【源码笔记】 [https://github.com/yuanmabiji/Java-SourceCode-Blogs](https://github.com/yuanmabiji/Java-SourceCode-Blogs)
     * [https://github.com/yuanmabiji/jdk1.8-sourcecode-analysis](https://github.com/yuanmabiji/jdk1.8-sourcecode-analysis)

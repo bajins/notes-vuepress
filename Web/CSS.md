@@ -389,6 +389,8 @@ div:hover{
 
 > 字体居中需使元素与父级元素等宽
 
++ [CSS Flex弹性布局，多个div自动换行，源码](https://www.cnblogs.com/orzzt/p/9713037.html)
+
 * [horizontal-arrangement-flex.html](/files/horizontal-arrangement-flex.html)
 * [horizontal-arrangement-float-left.html](/files/horizontal-arrangement-float-left.html)
 * [horizontal-arrangement-inline-block.html](/files/horizontal-arrangement-inline-block.html)
