@@ -800,3 +800,16 @@ console.log(jQuery.hasData(myObj));// false
 ```
 
 
+
+## JQuery事件点击一次执行多次
+
+```js
+// 先移除再绑定，jQuery 3.0中已弃用此方法
+$('#id').unbind('click').on('click',function(){
+    consoel.log("ok");
+});
+// 先移除再绑定
+$("#id").off("click").on("click",function(){
+    consoel.log("ok");
+})；
+```
