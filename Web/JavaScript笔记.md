@@ -724,44 +724,29 @@ $(document).ready(function () {
 ## Storage和Cache
 
 * [使用Chrome DevTools查看和编辑本地存储](https://developers.google.com/web/tools/chrome-devtools/storage/localstorage)
-* [Web Storage API](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Storage_API)
-* IndexedDB [IndexedDB_API](https://developer.mozilla.org/zh-CN/docs/Web/API/IndexedDB_API)
-    * [使用IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB)
-* Cahce Storage [https://developer.mozilla.org/zh-CN/docs/Web/API/Cache](https://developer.mozilla.org/zh-CN/docs/Web/API/Cache)
-* Application Cache [HTML5 - 应用程序缓存(Application Cache)](https://blog.csdn.net/weixin_44198965/article/details/89760924)
+* [https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Storage_API](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Storage_API)
+    * [https://developer.mozilla.org/zh-CN/docs/Web/API/Storage](https://developer.mozilla.org/zh-CN/docs/Web/API/Storage)
+* [https://developer.mozilla.org/zh-CN/docs/Web/API/IndexedDB_API](https://developer.mozilla.org/zh-CN/docs/Web/API/IndexedDB_API)
+    * [https://developer.mozilla.org/zh-CN/docs/Web/API/IndexedDB_API/Using_IndexedDB](https://developer.mozilla.org/zh-CN/docs/Web/API/IndexedDB_API/Using_IndexedDB)
+* [HTML5 - 应用程序缓存(Application Cache)](https://blog.csdn.net/weixin_44198965/article/details/89760924)
 
 
 > storage存储的数据只能是字符串类型，其他类型的数据需做类型转换
 
-**Cookie和Storage的区别**
-
-1. cookie兼容所有的浏览器（本地cookie谷歌不支持），storage不支持IE6~8;
-2. 二者对存储的内容均有大小限制，前者同源情况写一般不能存储4kb的内容，后者同源一般能存储只能存储5MB的数据
-3. cookie有过期时间，localStorage是永久存储（如果你不手动去删除的话）
-4. 一些浏览器处于安全的角度可能会禁用cookie,但无法禁用localStorage
-
-
-**Session Storage**
-
 ```js
-sessionStorage.setItem("key", "value");
-var value = sessionStorage.getItem("key");
-sessionStorage.removeItem("key");
+sessionStorage.setItem("k", "v");
+var value = sessionStorage.getItem("k");
+console.log(value);
+sessionStorage.removeItem("k");
 sessionStorage.clear();
 
-var storage = window.sessionStorage;
-for(var i=0, len=storage.length; i<len;i++){
-    var key = storage.key(i);    
-    var value = storage.getItem(key);    
+// 跟上面的sessionStorage有一样的方法
+var value = localStorage.setItem('键',"值");
+for(var i=0, len=localStorage.length; i<len; i++){
+    var key = localStorage.key(i);    
+    var value = localStorage.getItem(key);    
     console.log(key + "=" + value);
 }
-```
-
-**Local Storage**
-
-```js
-localStorage.getItem('mobile');
-var value = localStorage.setItem('mobile',"要存的数据");
 ```
 
 
@@ -772,31 +757,25 @@ var value = localStorage.setItem('mobile',"要存的数据");
 * [jQuery 源码分析(十) 数据缓存模块 data详解](https://www.cnblogs.com/greatdesert/p/11609111.html)
 * [jQuery数据缓存$.data 的使用以及源码解析](https://segmentfault.com/a/1190000000626031)
 
-- `$.data()` 这是一个底层方法，用于在指定的元素上存取临时数据，一旦页面刷新，之前存放的数据都将被移除
-- `$.cache`
-- `$.expando`
-- `$.hasData()`
-- `$.removeData()`
+- `$.data()` 用于在指定的元素上存取临时数据，页面刷新数据都将被移除
+- `$.attr()` 绑定数据在标签的属性上，一定要以`data-`开头
 
 ```js
-
-var myObj = {};
 // hasData用来判断HTMLElement或JS对象是否具有数据
-console.log(jQuery.hasData($("#a")));// false
- 
-// data()添加属性
-$.data(myObj, 'name', 'aty');
-console.log(jQuery.hasData(myObj));// true
- 
-// data()读取属性
-console.log($.data(myObj, 'name'));//aty
- 
-// removeData删除属性
-$.removeData(myObj, 'name');
-console.log($.data(myObj, 'name'));//undefined
- 
-// 如果所有属性都被删除,那么hasData返回false
-console.log(jQuery.hasData(myObj));// false
+console.log($("#a").hasData('name'));// false
+
+// 添加数据，值存在`$.cache`中，key使用`$.expando`生成
+$("#a").data('name', '11111111');
+// 标签上`data-`开头属性也是数据
+$("#a").attr("data-name", '2222222222');
+
+// 读取数据，在$.cache中找，没有则去标签的`data-`开头属性中查找
+console.log($("#a").data('name'));
+
+// 删除数据，不能删除标签上`data-`开头属性的数据
+$("#a").removeData('name');
+$("#a").removeAttr('data-name');
+console.log($("#a").data('name'));//undefined
 ```
 
 
