@@ -289,7 +289,35 @@ public static native long currentTimeMillis();
 
 ## HTTP
 
-- Apache HttpClient GET拼接URL参数
+
+**Mime-Type/Content-Type/Media-Type**
+
+- `com.google.common.net.MediaType` guava
+- `javax.ws.rs.core.MediaType` Jersey框架
+- `org.springframework.http.MediaType` spring框架
+
+
+**HTTP**
+
+- `HttpURLConnection` Java自带API
+- `HttpClient` JDK11的API [Java11 HttpClient小试牛刀](https://segmentfault.com/a/1190000016555671)
+- `RestTemplate` 默认实现是`HttpURLConnection`，`ForEntity`返回响应码、响应消息体等，`ForObject`只返回消息体
+- `WebClient`是`Spring 5.0`开始提供的非阻塞响应式编程的Http工具。
+- `Apache HttpComponents` [http://hc.apache.org](http://hc.apache.org)
+- `okHttp` [https://github.com/square/okhttp](https://github.com/square/okhttp)
+- `Netty` 
+- `google-http-java-client` [https://github.com/googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client)
+- `WebSocket` [https://github.com/eclipse-ee4j/websocket-api](https://github.com/eclipse-ee4j/websocket-api)
+- [https://github.com/OpenFeign](https://github.com/OpenFeign)
+- [https://github.com/square/retrofit](https://github.com/square/retrofit)
+    - [https://github.com/LianjiaTech/retrofit-spring-boot-starter](https://github.com/LianjiaTech/retrofit-spring-boot-starter)
+- 使用Java 8,Netty和Reactive原则 [https://github.com/ratpack/ratpack](https://github.com/ratpack/ratpack)
+
+* [HTTP客户端连接，选择HttpClient还是OkHttp？](https://juejin.im/post/5e156c80f265da5d3c6de72a)
+
+
+**Apache HttpClient GET拼接URL参数**
+
 
 ```java
 Map<String, Object> params = new HashMap<>();

@@ -65,11 +65,10 @@
 
 + [https://github.com/Snailclimb/awesome-java](https://github.com/Snailclimb/awesome-java)
 
+* 多个学习项目组织 [https://github.com/doocs](https://github.com/doocs)
 * [https://github.com/Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)
 * [https://github.com/crossoverJie/JCSprout](https://github.com/crossoverJie/JCSprout)
 * [https://github.com/kdn251/interviews](https://github.com/kdn251/interviews)
-* [https://github.com/doocs/advanced-java](https://github.com/doocs/advanced-java)
-    * [https://github.com/doocs/jvm](https://github.com/doocs/jvm)
 * 《Java编程思想》 第5版  [https://github.com/LingCoder/OnJava8](https://github.com/LingCoder/OnJava8)
 * [https://github.com/CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes)
 * [https://github.com/hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer)
@@ -100,30 +99,6 @@
 
 + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
 + [https://github.com/Wizzercn/MqttWk](https://github.com/Wizzercn/MqttWk)
-
-
-**Mime-Type/Content-Type/Media-Type**
-
-- `com.google.common.net.MediaType` guava
-- `javax.ws.rs.core.MediaType` Jersey框架
-- `org.springframework.http.MediaType` spring框架
-
-
-**HTTP**
-
-- `HttpURLConnection` Java自带API
-- `RestTemplate` 默认实现是`HttpURLConnection`，`ForEntity`返回响应码、响应消息体等，`ForObject`只返回消息体
-- `WebClient`是`Spring 5.0`开始提供的非阻塞响应式编程的Http工具。
-- `Apache HttpComponents` [http://hc.apache.org](http://hc.apache.org)
-- `okHttp` [https://github.com/square/okhttp](https://github.com/square/okhttp)
-- `Netty` 
-- `google-http-java-client` [https://github.com/googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client)
-- [https://github.com/OpenFeign](https://github.com/OpenFeign)
-- [https://github.com/square/retrofit](https://github.com/square/retrofit)
-    - [https://github.com/LianjiaTech/retrofit-spring-boot-starter](https://github.com/LianjiaTech/retrofit-spring-boot-starter)
-- 使用Java 8,Netty和Reactive原则 [https://github.com/ratpack/ratpack](https://github.com/ratpack/ratpack)
-
-* [HTTP客户端连接，选择HttpClient还是OkHttp？](https://juejin.im/post/5e156c80f265da5d3c6de72a)
 
 
 
@@ -232,9 +207,11 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
     + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
 + WebFlux采用的默认反应式框架 [https://github.com/reactor](https://github.com/reactor)
 + 完全实现了Reactive Streams规范 [https://github.com/akka/akka](https://github.com/akka/akka)
++ 响应流框架 [https://github.com/Atmosphere](https://github.com/Atmosphere)
 + [https://github.com/netty/netty](https://github.com/netty/netty)
 + [https://github.com/luxiaoxun/NettyRpc](https://github.com/luxiaoxun/NettyRpc)
 + [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
++ [https://github.com/TooTallNate/Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket)
 
 
 * jwt [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)
@@ -278,7 +255,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 **JSON**
 
 + [https://github.com/json-schema-org](https://github.com/json-schema-org)
-+ Jakarta JSON处理规范，API和兼容的实现：[https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
++ Jakarta JSON处理规范 [https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
 
 - [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
 - [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)
@@ -333,14 +310,14 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 * [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
 * [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
-* 对配置内容加密：[https://github.com/ulisesbocchio/jasypt-spring-boot](https://github.com/ulisesbocchio/jasypt-spring-boot)
-* 适用于Java8以下的时间替代项目`joda-time`：[https://github.com/JodaOrg](https://github.com/JodaOrg)
+* 对配置内容加密 [https://github.com/ulisesbocchio/jasypt-spring-boot](https://github.com/ulisesbocchio/jasypt-spring-boot)
+* Java8以下的时间替代项目`joda-time` [https://github.com/JodaOrg](https://github.com/JodaOrg)
 * Google加密 [https://github.com/google/tink](https://github.com/google/tink)
 * bcprov-jdk15on [https://github.com/bcgit/bc-java](https://github.com/bcgit/bc-java)
 * Apache Commons编解码器 [https://github.com/apache/commons-codec](https://github.com/apache/commons-codec)
 * Headless Chrome For Java [https://github.com/fanyong920/jvppeteer](https://github.com/fanyong920/jvppeteer)
-* [utf8+bom编码格式 java 文件 转换为 utf8 格式文件](https://github.com/andotorg/utf8bom-to-utf8)
-* [从GBK到UTF8的某些路径中的文件编码转换](https://github.com/downgoon/gbk2utf8)
+* [https://github.com/andotorg/utf8bom-to-utf8](https://github.com/andotorg/utf8bom-to-utf8)
+* [https://github.com/downgoon/gbk2utf8](https://github.com/downgoon/gbk2utf8)
 * 类路径扫描器和模块扫描器 [https://github.com/classgraph](https://github.com/classgraph)
 * Java 应用程序打包 [https://github.com/fvarrui/JavaPackager](https://github.com/fvarrui/JavaPackager)
 * [https://github.com/rzwitserloot/lombok](https://github.com/rzwitserloot/lombok)
