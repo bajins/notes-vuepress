@@ -28,8 +28,6 @@
 + [https://www.razorsql.com](https://www.razorsql.com)
 + [https://www.aquafold.com](https://www.aquafold.com)
 
-* [Oracle with as + /*+ materialize*/ 优化](https://blog.csdn.net/qq_34745941/article/details/106897099)
-
 
 
 
@@ -184,6 +182,46 @@ OPTIMIZE TABLE 表名;
 -- Table does not support optimize, doing recreate + analyze instead
 ```
 
+
+
+
+## ORACLE
+
+* [Oracle with as + /*+ materialize*/ 优化](https://blog.csdn.net/qq_34745941/article/details/106897099)
+
+
+**分组获取最新一条数据（查询各组最新的一条记录）**
+
+- over partition by 分析函数
+
+```sql
+SELECT * FROM (
+    SELECT ROW_NUMBER() OVER(PARTITION BY 分组字段名 ORDER BY 排序字段名 DESC) rn,t.* FROM test1 t
+    ) WHERE rn = 1;
+
+SELECT * FROM (
+    select eb_vipcode,eb_time,MAX(eb_time) over(partition by eb_vipcode) as "atime" from eb_daskexpdateinfo
+    ) x where eb_time = "atime";
+
+SELECT * FROM (
+    select ID_,COMPANY_NAME,USAGE_RATE,CREATE_TIME
+    ,MAX(CREATE_TIME) over(partition by COMPANY_NAME) as "atime" from SPEC_RATE_ORIGIN
+    ) x where CREATE_TIME = "atime";
+```
+
+- group by
+
+```sql
+SELECT eb_vipcode,MAX(eb_time) AS "atime" FROM eb_daskexpdateinfo group by eb_vipcode
+```
+
+- inner join
+
+```sql
+SELECT A.* FROM SPEC_RATE_ORIGIN A INNER JOIN (
+    SELECT COMPANY_NAME,MAX(CREATE_TIME) AS "atime" FROM SPEC_RATE_ORIGIN group by COMPANY_NAME
+    ) B ON A.COMPANY_NAME = B.COMPANY_NAME AND A.CREATE_TIME = B."atime";
+```
 
 
 
