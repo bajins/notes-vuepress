@@ -69,6 +69,7 @@ with Test() as t: # 触发__exit__
 * [https://github.com/psf/requests](https://github.com/psf/requests)
     * [https://github.com/requests](https://github.com/requests)
     * [https://github.com/not-kennethreitz](https://github.com/not-kennethreitz)
+* [https://github.com/urllib3/urllib3](https://github.com/urllib3/urllib3)
 * Python的下一代HTTP客户端 [https://github.com/encode/httpx](https://github.com/encode/httpx)
 * 简单的Python日志记录 [https://github.com/Delgan/loguru](https://github.com/Delgan/loguru)
 * [https://github.com/jpadilla/pyjwt](https://github.com/jpadilla/pyjwt)

@@ -479,6 +479,8 @@ top_stats = snapshot.statistics('lineno')  # 快照对象的统计
 * [urllib — URL handling modules](https://docs.python.org/3/library/urllib.html)
 * [http — HTTP modules](https://docs.python.org/3/library/http.html)
 * [Python3 内置http.client,urllib.request及三方库requests发送请求对比](https://www.cnblogs.com/superhin/p/11455240.html)
+* [Python urllib、urllib2、urllib3用法及区别](https://blog.csdn.net/jiduochou963/article/details/87564467)
+
 
 ```python
 import http.client
@@ -494,6 +496,7 @@ res = conn.getresponse()
 #  解析相应.进行解码
 print(res.read().decode("utf-8"))
 ```
+
 
 ```python
 import ssl
@@ -511,8 +514,41 @@ res = urllib.request.urlopen(req, timeout=30)
 # 解析相应.进行解码
 print(res.read().decode("utf-8"))
 
-# 下载文件
-urllib.request.urlretrieve("https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png")
+########## 下载文件 ##########
+# 创建一个opener对象
+opener = urllib.request.build_opener()
+# 向opener传入请求头信息
+opener.addheaders = [('User-agent',USER_AGENT)]
+# 将创建好的opener对象装入request
+urllib.request.install_opener(opener)
+filename, res = urllib.request.urlretrieve("https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png", "test.png")
+# 从urlretrieve调用中清理临时文件
+urllib.request.urlcleanup()
+
+# 另一种方式
+# opener = urllib.request.URLopener()
+# 带有我们可以处理的错误处理程序的派生类
+opener = urllib.request.FancyURLopener()
+opener.version = user_agent
+filename = opener.retrieve("https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png", "test.png")
+```
+
+
+```python
+import urllib3
+import json
+ 
+data = json.dumps({'abc': '123'})
+http = urllib3.PoolManager(num_pools=5, headers={'User-Agent': 'ABCDE'})
+# 使用代理来访问某个网站
+# http = urllib3.ProxyManager('http://127.0.0.1:800', headers={'User-Agent': 'ABCDE'})
+
+# request使用fields进行POST请求不需要将 data参数转换成JSON格式，GET请求不需要自己拼接url参数
+# 不过特别要声明的一点是 fielder 和 body 中只能存在一个
+resp1 = http.request('POST', 'http://www.httpbin.org/post', body=data, timeout=5, retries=5, fields=data)
+#resp2 = http.urlopen('POST', 'http://www.httpbin.org/post', body=data, timeout=5, retries=5)
+ 
+print(resp1.data.decode())
 ```
 
 

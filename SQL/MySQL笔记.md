@@ -99,9 +99,10 @@ update table1 set a = elt(floor(rand() * 4) + 1, 5, 7, 11, 13) where b = 84;
 
 ### 查询分组中某字段最大值
 
-> 因为`group by`后取的一条数据默认是按照主键id排序后的第一条，所以对表先排序，然后再分组
 
 ```sql
+SELECT * FROM 表名 GROUP BY 别名.字段 HAVING MAX(别名.字段);
+-- 因为`group by`后取的一条数据默认是按照主键id排序后的第一条，所以对表先排序，然后再分组
 SELECT 别名.* FROM (SELECT * FROM 表名 ORDER BY 字段 DESC) AS 别名 GROUP BY 别名.字段;
 ```
 
