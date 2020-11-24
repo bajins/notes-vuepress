@@ -87,56 +87,7 @@
 
 
 
-## 时间
-
-### JDK8以下时间日期API
-
-#### java.lang.System类
-
-```java
-public static native long currentTimeMillis();
-```
-
-> 用于返回当前时间与1970年1月1日0:0:0之间以毫秒为单位的时间差
-
-> 时间戳
-
-#### java.util.Date类
-
-- 两个构造器
-
-> `new Date();` 当前时间
-
-> `new Date(Long 毫秒数)` 根据毫秒数创建指定日期
-
-- 两个方法的使用
-
-> `toString(`)` 显示当前的年,月,日,时,分,秒
-
-> `getTime()` 获取当前date对象的对应的毫秒数(时间戳)
-
-- `java.util.Date`和`java.sql.Date`互相转换
-
-> `Date date = new java.sql.Date()`
-
-> `java.sql.Date date2 = (java.sql.Date) date;`
-
-> `java.sql.Date date3 = new java.sql.Date(new Date().getTime());`
-
-
-#### java.text.SimpleDateFormat类
-
-> Date类的API不易于国际化,大部分被废弃,`SimpleDateFormat`类 一个与语言环境有关的方式来格式化和解析时间的具体类
-
-> `format()` 方法 按照具体的格式格式化时间
-
-> `parse()` 方法 将字符串解析成时间
-
-
-
-
-
-### JDK8日期时间API
+## 日期时间
 
 * [jdk8时间日期](https://codertang.com/2018/12/24/jdk8-datetime)
 
@@ -146,6 +97,41 @@ public static native long currentTimeMillis();
 - 格式化: 格式化日期只对Date有用,Calendar则不行
 - 线程不安全的,不能处理闰秒等
 - Java8吸收了`Joda-Time`（该项目作者参与了Java8的time包开发）精华，开启了新的API
+
+
+**java.lang.System类**
+
+```java
+// 用于返回当前时间与1970年1月1日0:0:0之间以毫秒为单位的时间戳
+public static native long currentTimeMillis();
+// 返回正在运行的Java虚拟机的当前值,高分辨率时间源，以纳秒为单位
+public static native long nanoTime();
+```
+
+
+**java.util.Date类**
+
+- 两个构造器
+    - `new Date();` 当前时间
+    - `new Date(Long 毫秒数)` 根据毫秒数创建指定日期
+- 两个方法的使用
+    - `toString(`)` 显示当前的年,月,日,时,分,秒
+    - `getTime()` 获取当前date对象的对应的毫秒数(时间戳)
+
++ `java.util.Date`和`java.sql.Date`互相转换
+
+```java
+Date date = new java.sql.Date();
+java.sql.Date date2 = (java.sql.Date) date;
+java.sql.Date date3 = new java.sql.Date(new Date().getTime());
+```
+
+**java.text.SimpleDateFormat类**
+
+> Date类的API不易于国际化，大部分被废弃，并且不是线程安全的
+
+- `format()` 方法 按照具体的格式格式化时间
+- `parse()` 方法 将字符串解析成时间
 
 
 **`java.time`的基础包**

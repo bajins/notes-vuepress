@@ -583,6 +583,13 @@ function stopPropagation(event){
 }
 ```
 
+```css
+/* 使用该样式，会阻止事件的触发。鼠标只会显示为箭头样式 */
+pointer-events: none;
+/* 鼠标禁用样式，然后使用js阻止事件的触发 */
+cursor: not-allowed;
+```
+
 **href伪协议**
 
 ```html
