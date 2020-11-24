@@ -32,9 +32,13 @@
 **WebStorm保存后跳过Eclipse自动同步到Tomcat**
 
 - `File` -> `Settings` -> `Build, Execution, Deployment` -> `Deployment` （或顶部菜单 `Tools` -> `Deployment` -> `Configuration`）
-   - 右侧点击`+`号 -> 点击`Local or mounted floder` -> 输入自定义名称 -> `Floder` 选择Eclipse配置的Tomcat部署的当前项目路径
-   - 点击`Mappings`选项卡 -> `Deployment path` 配置部署路径（相对`Floder`的路径） -> 点击`OK`保存
-   - 点击顶部菜单 `Tools` -> `Deployment` -> 选择 `Automatic Upload(always)` 自动构建
+- 配置一个应用：右侧点击`+`号 -> 点击`Local or mounted floder` -> 输入自定义名称 
+   - 右侧`Connection`页签
+      - `Floder` 选择Eclipse配置的Tomcat部署的当前项目路径
+   - 右侧`Mappings`页签
+      - `Local path` 需要部署的文件路径（相对项目根目录）
+      - `Deployment path` 把`Local path`部署到指定路径（相对`Floder`的路径）一般为`\`
+- 点击顶部菜单 `Tools` -> `Deployment` -> 选择 `Automatic Upload(always)` 自动构建
 
 > 其实原理很简单：就是在保存源码文件的同时，实时编译构建同步的时候跳过Eclipse，直接同步到Tomcat部署的当前项目目录
 
