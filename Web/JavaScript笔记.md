@@ -14,6 +14,16 @@
 * [JS中的call、apply、bind方法详解](https://www.cnblogs.com/moqiutao/p/7371988.html)
 
 
+**回调地狱**
+
+* [浅谈js中的回调地狱问题](https://blog.csdn.net/qq_21602341/article/details/87820778)
+* [JavaScript中的回调地狱及解决方法](https://www.cnblogs.com/wenxuehai/p/10455664.html)
+
+> 什么是回调地狱:通常以javaScript的执行顺序来编写代码,在执行异步代码时,无论以什么顺序简单的执行代码,通常情况会变成许多层级的回调函数堆积
+
+> 解决方法: 1.放弃使用匿名函数,给所有的函数都命名,以名字的方式传递回调函数;2.代码简洁;3.模块儿化,将重复代码写入一个函数体内;4.promise
+
+
 **循环loop**
 
 - `for` 多次遍历代码块
@@ -22,6 +32,26 @@
 - `for/of` 可遍历`Array`、`String`、`TypedArray`、`Map`、`Set`、`DOM collections`、`enumerable`、`generators`，弥补了`forEach`和`for/in`循环的短板
 - `while` 当指定条件为 true 时循环一段代码块
 - `do/while` 当指定条件为 true 时循环一段代码块
+
+
+## 异步协程
+
+* [JavaScript中的协程](https://kylin.dev/2020/06/13/JavaScript%E4%B8%AD%E7%9A%84%E5%8D%8F%E7%A8%8B)
+* [JS 中的协程（Coroutine）](http://zhangchen915.com/index.php/archives/719)
+
+**ES6 co/yield方案**
+
+* [Generator 函数的异步应用](https://es6.ruanyifeng.com/#docs/generator-async)
+
+- Generator 函数是协程在 ES6 的实现，可以交出函数的执行权，`function*`
+    - `yield` 是Generator关键字，异步操作需要暂停的地方（主动交出执行权暂停执行），都用yield语句注明
+    - `next()`恢复执行
+    - `yield*`移交执行权调用另一个协程
+- co: co 模块是著名程序员 TJ Holowaychuk 于 2013 年 6 月发布的一个小工具，用于 Generator 函数的自动执行。
+
+**ES7 async/await 方案**
+
+- async/await是es7的新标准，async函数就是将 Generator 函数的`*`替换成async，将yield替换成await，仅此而已。
 
 
 
@@ -138,9 +168,12 @@ console.log(str.match(new RegExp("test(.*)","ig")));
 
 ## HTTP
 
-> 如果在业务场景中需要请求后端并使用返回数据（理想状态是拿到返回数据后下面的代码才执行），并且在多个地方使用相同请求后端代码
-> ，Ajax中如果使用同步那么有可能会导致不可达异常，如果使用异步请求就不能按时序拿到后端返回值（会跳过）再执行后面的代码
-> ，`解决方案`：应该在封装请求后端代码（异步）函数的参数上传入要在（回调匿名函数中）返回值处理后调用其他代码的函数
+> 如果在业务场景中需要请求后端并使用返回数据（理想状态是拿到返回数据后下面的代码才执行），并且在多个地方使用相同请求后端代码，
+>
+> Ajax中如果使用同步那么有可能会导致不可达异常，如果使用异步请求就不能按时序拿到后端返回值（会跳过）再执行后面的代码，
+>
+> `解决方案`：应该在封装请求后端代码（异步）函数的参数上传入要在（回调匿名函数中）返回值处理后调用其他代码的函数，
+> 这里使用了[尾调用](http://www.ruanyifeng.com/blog/2015/04/tail-call.html) [图解尾调用优化](https://segmentfault.com/a/1190000018441167)
 
 
 * [flyio](https://wendux.github.io/dist/#/doc/flyio/readme)
@@ -148,7 +181,7 @@ console.log(str.match(new RegExp("test(.*)","ig")));
 * [XMLHttpRequest—必知必会](https://www.jianshu.com/p/918c63045bc3)
 * [XMLHttpRequest封装源码](https://github.com/yanxiaojun617/exercise/tree/master/src/20180410ajax)
 
-+ Fetch各浏览器支持情况 [https://caniuse.com/?search=fetch]https://caniuse.com/?search=fetch
++ Fetch各浏览器支持情况 [https://caniuse.com/?search=fetch](https://caniuse.com/?search=fetch)
 + Fetch标准 [https://github.com/whatwg/fetch](https://github.com/whatwg/fetch)
 + [https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API)
 + [https://github.com/github/fetch](https://github.com/github/fetch)
@@ -164,8 +197,8 @@ console.log(str.match(new RegExp("test(.*)","ig")));
 - axios 是一个基于Promise实现版本，本质上也是对原生XMLHttpRequest的封装，符合最新的ES规范
 - fetch不是ajax的进一步封装，而是原生js，没有使用XMLHttpRequest对象，使用了ES6中的promise对象
 
-* [ajax和axios、fetch的区别](https://www.jianshu.com/p/8bc48f8fde75)
 
+**下载文件的几种方式**
 
 ```js
 // 此方法火狐有些版本不支持
@@ -220,7 +253,7 @@ function (formData, url, filename) {
                     a.href = e.target.result;
                     $("body").append(a); // 修复firefox中无法触发click
                     a.click();
-                    resolve(200)
+                    resolve(200);
                     $(a).remove();
                 }
                 // 方式二
@@ -234,6 +267,8 @@ function (formData, url, filename) {
                 a.click();
                 // 释放掉blob对象
                 URL.revokeObjectURL(a.href);
+                resolve(200);
+                a.removeNode(true);
             }
         }
         // 发送ajax请求
@@ -245,7 +280,7 @@ function (formData, url, filename) {
 
 ## 类型判断
 
-### typeof
+**typeof**
 
 > `[]`和`null`被`typeof`解释为`object`类型
 
@@ -265,7 +300,7 @@ console.log(typeof undefined);      // undefined
 console.log(typeof null);           // object
 ```
 
-### instanceof
+**instanceof**
 
 > 直接的字面量值判断数据类型，只有引用数据类型`Array`、`Function`、`Object`被精准判断
 >
@@ -286,7 +321,7 @@ console.log(null instanceof Null);              // 报错
 ```
 
 
-### constructor
+**constructor**
 
 > 如果创建一个对象，更改它的原型，这种方式也变得不可靠了。
 
@@ -303,7 +338,7 @@ console.log((null).constructor == Null);                // 报错
 ```
 
 
-### call
+**call**
 
 > `Object.prototype.toString.call()`即使改变对象的原型，依然会显示正确的数据类型
 

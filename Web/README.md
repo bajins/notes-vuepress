@@ -392,7 +392,7 @@ certificateBox[1].style.margin="0px";
 
 - [https://github.com/topics/reverse-proxy](https://github.com/topics/reverse-proxy)
 - JS 实现的在线代理 [https://github.com/EtherDream/jsproxy](https://github.com/EtherDream/jsproxy)
-- 轻量级Javascript反向代理 [https://github.com/Berkeley-Reject/workers-proxy](https://github.com/Berkeley-Reject/workers-proxy)
+- 轻量级Javascript反向代理 [https://github.com/xiaoyang-liu-cs/booster.js](https://github.com/xiaoyang-liu-cs/booster.js)
     - [https://github.com/yenpou/Workers-Proxy](https://github.com/yenpou/Workers-Proxy)
 - github release、archive以及项目文件的加速项目 [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
 - [https://github.com/netnr/workers](https://github.com/netnr/workers)

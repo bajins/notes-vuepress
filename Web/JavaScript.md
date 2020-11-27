@@ -61,6 +61,8 @@
 
 **ECMAScript6**
 
++ [https://es6.ruanyifeng.com](https://es6.ruanyifeng.com)
+
 * [https://github.com/then/promise](https://github.com/then/promise)
 * [在浏览器中使用javascript module](https://www.jianshu.com/p/f7db50cf956f)
 
