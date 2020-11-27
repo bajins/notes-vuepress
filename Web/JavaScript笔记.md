@@ -278,6 +278,26 @@ function (formData, url, filename) {
 ```
 
 
+**blob转json**
+
+
+```js
+// 如果服务器错误返回
+if (result.data.type === 'application/json') {
+    let reader = new FileReader();
+    reader.readAsText(result.data, 'utf-8');
+    reader.onload = (e) => {
+        console.log(JSON.parse(reader.result));
+        console.log(JSON.parse(e.target.result));
+    }
+    reader.onload = function (e) {
+        console.log(JSON.parse(reader.result));
+        console.log(JSON.parse(e.target.result));
+    }
+}
+```
+
+
 ## 类型判断
 
 **typeof**
@@ -428,99 +448,6 @@ function sleep(delay) {
 function sleep(delay) {
     for(var t = Date.now(); Date.now() - t <= delay;);
 }
-```
-
-
-
-
-## blob转json
-
-
-```js
-// 如果服务器错误返回
-if (result.data.type === 'application/json') {
-    let reader = new FileReader();
-    reader.readAsText(result.data, 'utf-8');
-    reader.onload = (e) => {
-        console.log(JSON.parse(reader.result));
-        console.log(JSON.parse(e.target.result));
-    }
-    reader.onload = function (e) {
-        console.log(JSON.parse(reader.result));
-        console.log(JSON.parse(e.target.result));
-    }
-}
-```
-
-
-
-## 获取元素
-
-```js
-document.getElementById('元素的ID')
-document.getElementsByTagName('元素的标签名')
-// 通过元素的name属性的值获取一组元素
-context.getElementsByName()
-// 通过元素的类名（class的值）
-context.getElementsByClassName()
-// 获取HTML元素
-document.documentElement
-// 获取body元素
-document.body
-// 获取一个(IE6~8下不兼容)
-document.querySelector()
-// 获取多个(IE6~8下不兼容)
-document.querySelectorAll()
-```
-
-
-```js
-// 扩展jQuery实例函数
-jQuery.fn.extend({
-	/**
-	 * 交换任意两个jQuery对象的位置
-	 * @param another
-	 */
-	swap: function(another){
-		var me = this;
-		var cloneMe = me.clone();
-		var temp = $('<span/>');
-		another.before(temp);
-		me.replaceWith(another);
-		temp.replaceWith(cloneMe);
-		return this;
-	}
-});
-
-/* ***调用举例*** */
-var $t1 = $("#t1");
-var $t2 = $("#t2");
-$t1.swap($t2);
-
-// 扩展jQuery实例函数
-jQuery.fn.extend({
-	/**
-	 * 在同辈元素中向上或向下移动
-	 * @param direction 'up'或'down'
-	 */
-	move: function(direction){
-		var me = this;
-		var another = null;
-		if(direction == 'up'){
-			another = me.prev();
-			another.before(me);
-		}else if(direction == 'down'){
-			another = me.next();
-			another.after(me);
-		}
-		return this;
-	}
-});
-
-/* *** 调用举例  ***/
-var $p = $('p#id_2');
-var success = $p.move('up');	//移动成功则为true，否则false
-
 ```
 
 
@@ -831,17 +758,3 @@ $("#a").removeAttr('data-name');
 console.log($("#a").data('name'));//undefined
 ```
 
-
-
-## JQuery事件点击一次执行多次
-
-```js
-// 先移除再绑定，jQuery 3.0中已弃用此方法
-$('#id').unbind('click').on('click',function(){
-    consoel.log("ok");
-});
-// 先移除再绑定
-$("#id").off("click").on("click",function(){
-    consoel.log("ok");
-})；
-```

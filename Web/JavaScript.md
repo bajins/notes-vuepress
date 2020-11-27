@@ -304,6 +304,73 @@ const resolveRequire = (path) => {
 ```
 
 
+## jQuery
+
+
+
+```js
+// 扩展jQuery实例函数
+jQuery.fn.extend({
+	/**
+	 * 交换任意两个jQuery对象的位置
+	 * @param another
+	 */
+	swap: function(another){
+		var me = this;
+		var cloneMe = me.clone();
+		var temp = $('<span/>');
+		another.before(temp);
+		me.replaceWith(another);
+		temp.replaceWith(cloneMe);
+		return this;
+	}
+});
+
+/* ***调用举例*** */
+var $t1 = $("#t1");
+var $t2 = $("#t2");
+$t1.swap($t2);
+
+// 扩展jQuery实例函数
+jQuery.fn.extend({
+	/**
+	 * 在同辈元素中向上或向下移动
+	 * @param direction 'up'或'down'
+	 */
+	move: function(direction){
+		var me = this;
+		var another = null;
+		if(direction == 'up'){
+			another = me.prev();
+			another.before(me);
+		}else if(direction == 'down'){
+			another = me.next();
+			another.after(me);
+		}
+		return this;
+	}
+});
+
+/* *** 调用举例  ***/
+var $p = $('p#id_2');
+var success = $p.move('up');	//移动成功则为true，否则false
+```
+
+
+### 事件点击一次执行多次
+
+```js
+// 先移除再绑定，jQuery 3.0中已弃用此方法
+$('#id').unbind('click').on('click',function(){
+    consoel.log("ok");
+});
+// 先移除再绑定
+$("#id").off("click").on("click",function(){
+    consoel.log("ok");
+});
+```
+
+
 
 
 ## 相关链接
