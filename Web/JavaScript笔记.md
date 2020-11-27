@@ -11,6 +11,7 @@
 * [js实现 throttle 和 debounce](https://blog.csdn.net/u013475983/article/details/88874248)
 * [函数节流与函数防抖](https://www.cnblogs.com/guohanyang/p/13446062.html)
 * [JS函数节流和分时函数](http://c.biancheng.net/view/5761.html)
+* [JS中的call、apply、bind方法详解](https://www.cnblogs.com/moqiutao/p/7371988.html)
 
 
 **循环loop**
@@ -137,30 +138,40 @@ console.log(str.match(new RegExp("test(.*)","ig")));
 
 ## HTTP
 
+> 如果在业务场景中需要请求后端并使用返回数据（理想状态是拿到返回数据后下面的代码才执行），并且在多个地方使用相同请求后端代码
+> ，Ajax中如果使用同步那么有可能会导致不可达异常，如果使用异步请求就不能按时序拿到后端返回值（会跳过）再执行后面的代码
+> ，`解决方案`：应该在封装请求后端代码（异步）函数的参数上传入要在（回调匿名函数中）返回值处理后调用其他代码的函数
+
+
 * [flyio](https://wendux.github.io/dist/#/doc/flyio/readme)
 * [HTTP封装](https://github.com/woytu/key-gin/blob/master/static/js/utils)
 * [XMLHttpRequest—必知必会](https://www.jianshu.com/p/918c63045bc3)
 * [XMLHttpRequest封装源码](https://github.com/yanxiaojun617/exercise/tree/master/src/20180410ajax)
 
-- http,XMLHttpRequest,Ajax的关系
-    - http是浏览器和web服务器交换数据的协议,规范
-    - XMLHttpRequest是JavaScript的一个对象,是浏览器实现的一组api函数(方法),使用这些函数,浏览器再通过http协议请求和发送数据
-        - XMLHttpRequest请求数据>使用js操作dom
-    - Ajax不是一种技术,是综合多种技术实现交互的模式:用html+css展示页面>使用
++ Fetch各浏览器支持情况 [https://caniuse.com/?search=fetch]https://caniuse.com/?search=fetch
++ Fetch标准 [https://github.com/whatwg/fetch](https://github.com/whatwg/fetch)
++ [https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API)
++ [https://github.com/github/fetch](https://github.com/github/fetch)
++ [https://github.com/matthew-andrews/isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch)
++ [https://github.com/qubyte/fetch-ponyfill](https://github.com/qubyte/fetch-ponyfill)
+
+
+**http,XMLHttpRequest,Ajax的关系**
+
+- http是浏览器和web服务器交换数据的协议,规范
+- XMLHttpRequest是JavaScript的一个对象,是浏览器实现的一组api函数(方法),使用这些函数,浏览器再通过http协议请求和发送数据
+- Ajax最核心的依赖是浏览器提供的XMLHttpRequest对象
+- axios 是一个基于Promise实现版本，本质上也是对原生XMLHttpRequest的封装，符合最新的ES规范
+- fetch不是ajax的进一步封装，而是原生js，没有使用XMLHttpRequest对象，使用了ES6中的promise对象
 
 * [ajax和axios、fetch的区别](https://www.jianshu.com/p/8bc48f8fde75)
-* [Fetch API](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API)
-
-> fetch号称是AJAX的替代品，是在ES6出现的，使用了ES6中的promise对象。Fetch是基于promise设计的。
-> Fetch的代码结构比起ajax简单多了，参数有点像jQuery ajax。
-> fetch不是ajax的进一步封装，而是原生js，没有使用XMLHttpRequest对象。
 
 
 ```js
 // 此方法火狐有些版本不支持
 window.location.href = 'https://www.bajins.com/files/设置必应壁纸.bat';
 // 支持所有
-window.location='https://www.bajins.com/files/设置必应壁纸.bat';
+window.location = 'https://www.bajins.com/files/设置必应壁纸.bat';
 
 // iframe
 function(url){

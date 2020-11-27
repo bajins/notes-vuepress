@@ -348,3 +348,25 @@ List<NameValuePair> params = new URIBuilder(request.getURI()).getQueryParams();
 //转换为键值对字符串
 String str = EntityUtils.toString(new UrlEncodedFormEntity(params, Consts.UTF_8));
 ```
+
+
+
+## 泛型generics
+
+* [Java泛型的协变、逆变和不变](https://www.jianshu.com/p/90948ff4a940)
+* [图解java泛型的协变和逆变](https://blog.csdn.net/zy_jibai/article/details/90082239)
+
+- 协变(`<? extends T>`)
+- 逆变(`<? super T>`)
+- 不变(`T`)
+
+
+**泛型三种常用的使用方式：**
+
+* [java 泛型详解-绝对是对泛型方法讲解最详细的，没有之一](https://www.cnblogs.com/coprince/p/8603492.html)
+
+> 可以有多个类型变量
+
+- 泛型类：在类名后指定类型变量，如：`public class Pair<T, U> {`
+- 泛型接口：在接口名后指定类型变量，如：`public interface Generator<T, U> {`
+- 泛型方法：在修饰符后，返回类型前指定类型变量，如：`public static <T extends Object, E> T test(Class<T> a, Class<E> b) {`
