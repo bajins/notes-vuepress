@@ -32,6 +32,7 @@
 
 **SVN**
 
+- [https://github.com/topics/subversion](https://github.com/topics/subversion)
 - [https://github.com/apache/subversion](https://github.com/apache/subversion)
 - [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
   - [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
@@ -41,6 +42,8 @@
 - [https://sliksvn.com/pub](https://sliksvn.com/pub)
 - [https://github.com/jenkinsci/subversion-plugin](https://github.com/jenkinsci/subversion-plugin)
 - [https://github.com/subclipse](https://github.com/subclipse)
+- Subversion for Java [https://svnkit.com](https://svnkit.com)
+- Subversion Edge：RESTful API [https://www.collab.net/downloads/subversion](https://www.collab.net/downloads/subversion)
 
 
 

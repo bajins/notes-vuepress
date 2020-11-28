@@ -54,7 +54,8 @@
 - [https://www.freenom.com](https://www.freenom.com)
 - [https://nic.eu.org](https://nic.eu.org)
 
-
+- 全球加速CDN [https://www.nodecache.com/product/cdn](https://www.nodecache.com/product/cdn) 新客户享500G北美、亚太通用流量包+100G中国直连流量包一个月
+- [如何正确绕开备案使用国内机器](https://www.hqsblog.cn/2019/12/15/237.html)
 
 
 
