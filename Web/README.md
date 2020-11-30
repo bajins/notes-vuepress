@@ -144,7 +144,8 @@
 
 ## CDN
 
-* [https://cdnjs.com](https://cdnjs.com)
+* [https://github.com/cdnjs](https://github.com/cdnjs)
+    * [https://cdnjs.com](https://cdnjs.com)
 * 知乎：[https://unpkg.zhimg.com](https://unpkg.zhimg.com)
 * 饿了么：[https://npm.elemecdn.com](https://npm.elemecdn.com)
 * [https://unpkg.com](https://unpkg.com)

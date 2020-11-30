@@ -34,6 +34,7 @@
     * [https://wangdoc.com/javascript](https://wangdoc.com/javascript)
 * [https://github.com/ruanyf/jstutorial](https://github.com/ruanyf/jstutorial)
     * [http://javascript.ruanyifeng.com](http://javascript.ruanyifeng.com)
+* 现代JavaScript教程 [https://github.com/javascript-tutorial/zh.javascript.info](https://github.com/javascript-tutorial/zh.javascript.info)
 * 浏览器脚本教程 [https://www.w3school.com.cn/b.asp](https://www.w3school.com.cn/b.asp)
 * 参考手册 [https://www.w3school.com.cn/r.asp](https://www.w3school.com.cn/r.asp)
 * [ECMAscript和Javascript的区别](https://www.jianshu.com/p/10cfcb536d4a)
@@ -57,6 +58,8 @@
     - [http://www.commonjs.org](http://www.commonjs.org)
     - [CommonJS规范 -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/nodejs/module.html)
 - [理解CommonJs、AMD、CMD、ES6模块](https://www.jianshu.com/p/67ce52c93392)
+
+* [页面生命周期：DOMContentLoaded，load，beforeunload，unload](https://zh.javascript.info/onload-ondomcontentloaded)
 
 
 **ECMAScript6**

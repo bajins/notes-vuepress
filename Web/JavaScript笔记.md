@@ -416,24 +416,19 @@ module.exports = {
 ## 定时延时
 
 ```js
-//6000毫秒后执行testFunction()函数，只执行一次。
+// 6000毫秒后执行testFunction()函数，只执行一次。
 setTimeout(function (){
     // 业务逻辑
 
 }, 6000);
 
-//每隔6000毫秒执行一次testFunction()函数，执行无数次。
-var interval = window.setInterval(function (){
+// 每隔6000毫秒执行一次testFunction()函数，执行无数次。
+var interval = setInterval(function (){
     // 业务逻辑
 
 }, 6000);
 // 停止执行setInterval循环。
-window.clearInterval(interval);
-
-setInterval(function(){
-    // 业务逻辑
-
-}, 6000);
+clearInterval(interval);
 ```
 
 ```js
@@ -531,7 +526,9 @@ $(window).resizeEnd({delay: 500}, function () {
 ```
 
 
-## 标签默认动作
+## 标签默认事件
+
+* [https://developer.mozilla.org/zh-CN/docs/Web/API/Event](https://developer.mozilla.org/zh-CN/docs/Web/API/Event)
 
 **阻止其他事件触发**
 
@@ -546,13 +543,7 @@ $(window).resizeEnd({delay: 500}, function () {
 function stopPropagation(event){
     //var e = event? event:window.event;
     var e = window.event || event;
-    if(document.all){  //只有ie识别
-        // 针对IE，在新版本chrome,opera浏览器中已经支持
-        // https://developer.mozilla.org/zh-CN/docs/Web/API/UIEvent/cancelBubble
-        e.cancelBubble = true;
-    }else{
-        e.stopPropagation();
-    }
+    e.stopPropagation();
 }
 ```
 
@@ -572,7 +563,9 @@ cursor: not-allowed;
 
 **原生方式**
 
-* [event.preventDefault](https://developer.mozilla.org/zh-CN/docs/Web/API/Event/preventDefault)
+* 取消事件 [event.preventDefault](https://developer.mozilla.org/zh-CN/docs/Web/API/Event/preventDefault)
+* 阻止事件的其他监听器和冒泡 [event.stopImmediatePropagation](https://developer.mozilla.org/zh-CN/docs/Web/API/Event/stopImmediatePropagation)
+* 阻止冒泡 [event.stopPropagation](https://developer.mozilla.org/zh-CN/docs/Web/API/Event/stopPropagation)
 
 ```html
 <a href="https://www.bajins.com" onclick="test();return false;">{{ row.name }}</a>
