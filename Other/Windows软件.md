@@ -251,19 +251,12 @@
 
 ### 百度网盘
 
-* [BaiduPCS](https://github.com/search?o=desc&p=1&q=BaiduPCS&s=updated&type=Repositories)
-* [https://github.com/topics/baiduyun?o=desc&s=updated](https://github.com/topics/baiduyun?o=desc&s=updated)
-* [https://github.com/iikira/BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go)
-* [https://github.com/liuzhuoling2011/baidupcs-web](https://github.com/liuzhuoling2011/baidupcs-web)
-* [https://github.com/loliconer/baidupcs-mobile](https://github.com/loliconer/baidupcs-mobile)
-* [https://github.com/search?q=pdown](https://github.com/search?q=pdown)
-* [https://github.com/lz233/FuckBaiduPCS](https://github.com/lz233/FuckBaiduPCS)
-* [https://github.com/pdown2020/pdown](https://github.com/pdown2020/pdown)
-* [https://github.com/forpdown/pdown](https://github.com/forpdown/pdown)
+* [https://github.com/search?q=BaiduPCS](https://github.com/search?q=BaiduPCS)
+* [https://github.com/topics/baiduyun](https://github.com/topics/baiduyun)
 * [https://yixun.writeas.com/yi-xun](https://yixun.writeas.com/yi-xun)
-* [https://github.com/VIP-Share/Baidu-XunleiVIP](https://github.com/VIP-Share/Baidu-XunleiVIP)
 * [https://github.com/lpg-it/BaiduYunVIP](https://github.com/lpg-it/BaiduYunVIP)
-* http://pan.naifei.cc/?
+* DuPan [https://www.lanzoux.com/b09r8jmhi](https://www.lanzoux.com/b09r8jmhi) 密码：b8ua
+
 
 
 ### 蓝奏云

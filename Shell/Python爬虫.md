@@ -283,7 +283,7 @@ driver.switch_to.window(main_window)
 
 > `OSX`操作系统通过组合键<kbd>COMMAND</kbd> + <kbd>T</kbd>或<kbd>COMMAND</kbd> + <kbd>W</kbd>来实现选项卡的打开/关闭
 
-> 在其他操作系统上，可以使用<kbd>CONTROL</kbd> + <kbd>T</kbd> / <kbd>CONTROL<kbd> + <kbd>W</kbd>
+> 在其他操作系统上，可以使用<kbd>CONTROL</kbd> + <kbd>T</kbd> / <kbd>CONTROL</kbd> + <kbd>W</kbd>
 
 ```python
 # windows 用Keys.CONTROL 如同ctrl+t打开新标签页
