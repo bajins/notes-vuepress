@@ -13,13 +13,29 @@
 * 嵌入式框架（CEF） [https://github.com/chromiumembedded](https://github.com/chromiumembedded)
 
 
-## Chrome下载
 
+
+## 浏览器下载
+
+
+* [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
+    * [Chrome下载/插件/DevTools/账号迁移](/IDE/Chrome.md)
+    * [有更新组件及服务的最新官方稳定版，离线安装包 x64](https://redirector.gvt1.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise64.msi)
+    * [无更新组件及服务的最新官方稳定版，离线安装包 x64](https://redirector.gvt1.com/edgedl/release2/chrome/CUtGVpXHPGLv_SbZcTshgQ_87.0.4280.88/87.0.4280.88_chrome_installer.exe)
 * [https://www.chromedownloads.net](https://www.chromedownloads.net)
 * [https://www.iplaysoft.com/tools/chrome](https://www.iplaysoft.com/tools/chrome)
 * [https://tools.shuax.com/chrome](https://tools.shuax.com/chrome)
 * [https://www.chrome64bit.com](https://www.chrome64bit.com)
 * [https://chrome.playes.net/chrome](https://chrome.playes.net/chrome)
+
+
++ [https://browsehappy.com](https://browsehappy.com)
++ [https://shuax.com](https://shuax.com)
+
+* [https://www.microsoft.com/zh-cn/edge](https://www.microsoft.com/zh-cn/edge)
+    *  [最新官方稳定版离线安装包 x64](https://go.microsoft.com/fwlink/?LinkID=2093437)
+* [https://www.mozilla.org/zh-CN/firefox/all](https://www.mozilla.org/zh-CN/firefox/all)
+
 
 
 ## 设置

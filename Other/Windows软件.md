@@ -9,6 +9,9 @@
 ## Flag
 
 **更多软件见：[https://gd.bajins.com](https://gd.bajins.com)**
+**[Windows系统相关](/System/README.md#windows)**
+**[浏览器下载](/IDE/Chrome.md#浏览器下载)**
+**[Android软件](/Other/MobileNative.md#软件)**
 
 + [Windows 10 有哪些值得推荐的必装软件？](https://www.zhihu.com/question/35088093)
 
@@ -21,31 +24,18 @@
 - [https://github.com/topics/desktop-app](https://github.com/topics/desktop-app)
 
 
-**[Windows系统相关](/System/README.md#windows)**
-
-**浏览器**
-
-+ [https://browsehappy.com](https://browsehappy.com)
-
-* [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
-    * [Chrome下载/插件/DevTools/账号迁移](/IDE/Chrome.md)
-* [https://www.microsoft.com/zh-cn/edge](https://www.microsoft.com/zh-cn/edge)
-* [https://www.mozilla.org/zh-CN/firefox/all](https://www.mozilla.org/zh-CN/firefox/all)
 
 
 **博客**
 
-* [CRACKSurl](http://cracksurl.com)
+* [http://cracksurl.com](http://cracksurl.com)
 * [QiuQuan's Blog](http://www.qiuquan.cc)
-* [mefcl - 学习▪分享](http://mefcl.com)
 * [th_sjy](http://www.th-sjy.com)
-* [v5pc](http://www.v5pc.com/category/syrj)
 * [大眼仔旭](http://www.dayanzai.me)
 * [反斗软件](http://www.apprcn.com)
 * [果核剥壳](https://www.ghpym.com)
 * [zdBryan](https://www.423down.com)
 * [落尘之木](https://www.luochenzhimu.com)
-* [胡萝卜周](http://www.carrotchou.com)
 * [懒得勤快](https://masuit.com/misc/5)
 * [绿软博客](http://liujin-greensoft.lofter.com)
 * [殁漂遥](http://www.laomo.me)
@@ -105,19 +95,14 @@
 
 **other**
 
-* [https://www.naodai.org](https://www.naodai.org)
+* Mac [https://www.naodai.org](https://www.naodai.org)
     * [https://yun.naodai.org/Software](https://yun.naodai.org/Software)
     * [https://go.naodai.org/Software](https://go.naodai.org/Software)
-* [https://delivery.yuntu.com.tw](https://delivery.yuntu.com.tw)
-* [https://www.fxxkmakeding.xyz](https://www.fxxkmakeding.xyz)
+* Mac [https://www.macbl.com](https://www.macbl.com)
+* [https://github.com/xyjoey/fxxkmakeding](https://github.com/xyjoey/fxxkmakeding)
+    * [https://www.fxxkmakeding.xyz](https://www.fxxkmakeding.xyz)
 * [https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367)
-* [http://go.wumings.com](http://go.wumings.com)
-* [https://www.macbl.com](https://www.macbl.com)
-* [http://lao4g.com](http://lao4g.com)
-* [https://www.haorenka.org](https://www.haorenka.org)
 
-- [https://feem.io](https://feem.io)
-- ShareMe
 
 
 ## 下载器
@@ -256,15 +241,6 @@
 * [https://yixun.writeas.com/yi-xun](https://yixun.writeas.com/yi-xun)
 * [https://github.com/lpg-it/BaiduYunVIP](https://github.com/lpg-it/BaiduYunVIP)
 * DuPan [https://www.lanzoux.com/b09r8jmhi](https://www.lanzoux.com/b09r8jmhi) 密码：b8ua
-
-
-
-### 蓝奏云
-
-* [https://github.com/zaxtyson/LanZouCloud-API](https://github.com/zaxtyson/LanZouCloud-API)
-* [https://github.com/zaxtyson/LanZouCloud-CMD](https://github.com/zaxtyson/LanZouCloud-CMD)
-* [https://github.com/rachpt/lanzou-gui](https://github.com/rachpt/lanzou-gui)
-* [https://github.com/vcheckzen/LanzouCloudAPI](https://github.com/vcheckzen/LanzouCloudAPI)
 
 
 
