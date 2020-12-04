@@ -503,6 +503,64 @@ document.body.scrollHeight
 document.documentElement.scrollHeight
 ```
 
+```js
+/**
+ * 把水平滚动条位置和垂直滚动条位置保存在Cookie中
+ */
+function setScrollToCookie() {
+    var scrollTop, scrollLeft;
+    if (typeof window.pageYOffset != 'undefined') {
+        scrollTop = window.pageYOffset;
+        scrollLeft = window.pageXOffset;
+    } else if (typeof document.compatMode != 'undefined' && document.compatMode != 'BackCompat') {
+        scrollTop = document.documentElement.scrollTop;
+        scrollLeft = document.documentElement.scrollLeft;
+    } else if (typeof document.body != 'undefined') {
+        scrollTop = document.body.scrollTop;
+        scrollLeft = document.body.scrollLeft;
+    }
+    var date = new Date();
+    date.setHours(date.getHours() + 1); // 设置cookie的有效期
+    // 创建cookie，保存水平滚动条位置
+    document.cookie = "scrollTop=" + escape(scrollTop) + "; expires=" + date.toGMTString();
+    // 创建cookie，保存垂直滚动条位置
+    document.cookie = "scrollLeft=" + escape(scrollLeft) + "; expires=" + date.toGMTString();
+}
+
+/**
+ * 获取Cookie中存储的信息
+ * 
+ * @param {Stirng} sName 
+ */
+function getCookie(sName) {
+    var arr = document.cookie.match(/(scrollTop|scrollLeft)=([^;]+)(;|$)/);
+    if (arr != null) {
+        var aCookie = document.cookie.split("; "); // 将cookie中的数据切割成数组，方便遍历
+        for (var i = 0; i < aCookie.length; i++) { // 遍历cookie中的数据
+            var aCrumb = aCookie[i].split("="); // 将键和值分开
+            if (sName == aCrumb[0]) { // 判断是否是指定的键
+                return unescape(aCrumb[1]);
+            }
+        }
+    }
+    return null;
+}
+
+/**
+ * 加载页面时自动执行获取cookie保存值的方法
+ */
+window.onload = function () {
+    document.documentElement.scrollLeft = getCookie("scrollLeft");
+    document.body.scrollLeft = getCookie("scrollLeft"); // 获取水平滚动条位置
+    document.documentElement.scrollTop = getCookie("scrollTop");
+    document.body.scrollTop = getCookie("scrollTop"); // 获取垂直滚动条位置
+}
+
+window.onunload = setScrollToCookie();
+
+window.onbeforeunload = setScrollToCookie();
+```
+
 
 ## 监听窗口变化
 

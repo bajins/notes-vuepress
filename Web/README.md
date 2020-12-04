@@ -231,6 +231,15 @@ cdnjs.cloudflare.com            cdnjs.loli.net
 > 然后网页会变成蓝色，到网页点击自己要选择的区域，接下来就会自动跳到`Elements`对应的位置，
 > 在`HTML`的标签上点击鼠标右键->`Copy`->`COpy selector`或者`xpath`，就能复制选择器了。
 
+```js
+document.querySelector("body");// 返回文档中匹配指定css选择器的第一个元素
+document.querySelectorAll("body");
+document.getElementById("id");
+document.getElementsByClassName("name");
+document.getElementsByName("body");// 返回文档中name属性为指定值的元素
+document.getElementsByTagName("a");// 返回文档中指定标签的元素
+```
+
 **css元素选择器**
 
 * [CSS 选择器参考手册](https://www.w3school.com.cn/cssref/css_selectors.ASP)
@@ -254,22 +263,6 @@ cdnjs.cloudflare.com            cdnjs.loli.net
 | E:contains('xxxx')       	| 内容中包含xxxx的E元素                                            	|
 | E:not(s)                 	| 匹配不符合当前选择器的任何元素                                   	|
 
-- 匹配示例
-
-| locator                                    	| 匹配                                                                      	|
-|-----------------------------------------	|---------------------------------------------------------------------------	|
-| css=divcss=div.formdiv                  	| `<div class="formdiv">`                                                     	|
-| css=#recordlistcss=ul#recordlist        	| `<ul id="recordlist">`                                                      	|
-| css=div.subdiv pcss=div.subdiv > ul > p 	| `<p>Heading</p>`                                                            	|
-| css=form + div                          	| `<div class="subdiv">`                                                      	|
-| css=p + licss=p ~ li                    	| 二者定位到的都是`<li>Cat</li>`但是storeCssCount的时候，前者得到1，后者得到4 	|
-| css=form > input[name=username]         	| `<input name="username">`                                                   	|
-| css=input[name$=id][value^=SYS]         	| `<input value="SYS123456" name="vid" type="hidden">`                        	|
-| css=input:not([name$=id][value^=SYS])   	| `<input name="username" type="text"></input>`                               	|
-| css=li:contains('Goa')                  	| `<li>Goat</li>`                                                             	|
-| css=li:not(contains('Goa'))             	| `<li>Cat</li>`                                                              	|
-
-
 
 **`Sizzle`的`Css3`结构性定位**
 
@@ -284,25 +277,6 @@ cdnjs.cloudflare.com            cdnjs.loli.net
 | E:gt(n)         	| 在其父元素中的E子元素集合中排在n位之后的E元素 (n=2，在匹配3,4) 	|
 | E:only-child    	| 父元素的唯一一个子元素且标签为E                                	|
 | E:empty         	| 不包含任何子元素的E元素，注意，文本节点也被看作子元素          	|
-
-
-- 匹配示例
-
-| locator                                                         	| 匹配                                 	|
-|-----------------------------------------------------------------	|--------------------------------------	|
-| css=ul > li:nth(0)                                              	| `<li>Cat</li>`                         	|
-| css=ul > li:first                                               	| `<li>Cat</li>`                         	|
-| css=ul > li:lt(2)                                               	| `<li>Cat</li>`                         	|
-| css=ul > *:nth(0)css=ul > :nth(0)                               	| `<p>Heading</p>`                       	|
-| css=ul > :first                                                 	| `<p>Heading</p>`                       	|
-| css=ul > :even                                                  	| `<p>Heading</p>`                       	|
-| css=ul > *:lastcss=ul > li:last                                 	| `<li>Goat</li>`                        	|
-| css=ul > li:gt(2)                                               	| `<li>Goat</li>`                        	|
-| css=ul > li:even                                                	| Cat, Car                             	|
-| css=ul > li:odd                                                 	| Dog, Goat                            	|
-| css=ul > p:odd                                                  	| [error] not found                    	|
-| css=ul > li:only-childcss=ul > :only-childcss=ul > *:only-child 	| [error] not found (ul没有only-child) 	|
-| css=div.subdiv > :only-child                                    	| `<ul id="recordlist">… … … …</ul>`     	|
 
 
 

@@ -9,8 +9,11 @@
 ## Flag
 
 **更多软件见：[https://gd.bajins.com](https://gd.bajins.com)**
+
 **[Windows系统相关](/System/README.md#windows)**
+
 **[浏览器下载](/IDE/Chrome.md#浏览器下载)**
+
 **[Android软件](/Other/MobileNative.md#软件)**
 
 + [Windows 10 有哪些值得推荐的必装软件？](https://www.zhihu.com/question/35088093)
