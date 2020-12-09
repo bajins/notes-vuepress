@@ -53,6 +53,8 @@
 * [https://github.com/adobe](https://github.com/adobe)
 * [https://github.com/eclipse](https://github.com/eclipse)
     * [https://projects.eclipse.org](https://projects.eclipse.org)
+* OpenJS基金会 [https://github.com/openjs-foundation](https://github.com/openjs-foundation)
+    * [https://openjsf.org/projects](https://openjsf.org/projects)
 
 
 - [https://github.com/TogetherOS](https://github.com/TogetherOS)
@@ -321,6 +323,7 @@
 * [时光机 - FuocaのBlog](https://www.fuocu.cn/archives)
 * [https://www.lanmper.cn](https://www.lanmper.cn)
 * [https://github.com/woai3c/Front-end-articles](https://github.com/woai3c/Front-end-articles)
+* [归档 | EVE | 暴风雨前夕](https://evestorm.github.io/archives)
 
 
 

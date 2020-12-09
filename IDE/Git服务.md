@@ -18,6 +18,7 @@
 - GitHub每天趋势 [https://github.com/yangwenmai/github-trending-backup](https://github.com/yangwenmai/github-trending-backup)
 - 记录GitHub趋势 [https://github.com/xiaobaiha/github-trending-history](https://github.com/xiaobaiha/github-trending-history)
 - 获取统计信息 [https://github.com/shroudedcode/devstats](https://github.com/shroudedcode/devstats)
+- 获取动态生成的GitHub统计信息 [https://github.com/anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
 
 
 **Gogs**

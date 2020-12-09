@@ -30,6 +30,7 @@
 **TypeScript**
 
 * [https://github.com/Microsoft/TypeScript](https://github.com/Microsoft/TypeScript)
+* [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese)
 
 
 **WebAssembly**
@@ -146,34 +147,21 @@
 
 * [https://github.com/cdnjs](https://github.com/cdnjs)
     * [https://cdnjs.com](https://cdnjs.com)
-* 知乎：[https://unpkg.zhimg.com](https://unpkg.zhimg.com)
-* 饿了么：[https://npm.elemecdn.com](https://npm.elemecdn.com)
-* [https://unpkg.com](https://unpkg.com)
-
-- 使用固定的版本号：
-    - `unpkg.com/react@16.0.0/umd/react.production.min.js`
-    - `unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js`
-
-- 也可使用语义化版本范围，或标签来代替固定版本号，亦可忽略版本和标签，直接使用最新的版本。
-    - `unpkg.com/react@^16/umd/react.production.min.js`
-    - `unpkg.com/react/umd/react.production.min.js`
-
-- 如果忽略了文件的路径（例如，使用裸网址 “bare” URL），unpkg 会提供 package.json 里指定的文件，或降级到 main。
-    - `unpkg.com/d3`
-    - `unpkg.com/jquery`
-    - `unpkg.com/three`
-
-> 注：这种方式会产生一次 302 到最新的文件 URL。好处是自动使用最新版，坏处是多一次性跳转，降低了性能。
-
-- 在网址最后添加斜线，可以查看一个包内的所有文件列表。
-    - `unpkg.com/react/`
-    - `unpkg.com/lodash/`
-
-
+* [https://github.com/mjackson/unpkg](https://github.com/mjackson/unpkg)
+    * [https://unpkg.com](https://unpkg.com)
+    - `unpkg.com/react@16.0.0/umd/react.production.min.js` 使用固定的版本号
+    - `unpkg.com/react@^16/umd/react.production.min.js` 使用语义化版本范围
+    - `unpkg.com/react/umd/react.production.min.js` 忽略版本和标签，使用最新版本
+    - `unpkg.com/react` 忽略了文件的路径，会302到最新文件URL
+    - `unpkg.com/react/` 在网址最后添加斜线，查看包内文件列表
 * [https://github.com/jsdelivr/jsdelivr](https://github.com/jsdelivr/jsdelivr)
+    * [https://www.jsdelivr.com](https://www.jsdelivr.com)
+* 知乎 [https://unpkg.zhimg.com](https://unpkg.zhimg.com)
+* 饿了么 [https://npm.elemecdn.com](https://npm.elemecdn.com)
 * [https://www.bootcdn.cn](https://www.bootcdn.cn)
 * [http://staticfile.org](http://staticfile.org)
 * [https://cdn.baomitu.com](https://cdn.baomitu.com)
+
 
 ```
 fonts.gstatic.com               fonts-gstatic.proxy.ustclug.org
@@ -316,6 +304,40 @@ document.getElementsByTagName("a");// 返回文档中指定标签的元素
 |  所有拥有子元素a的P元素  	|  无法实现          	|  //p[a]                         	|
 |  下一个兄弟元素          	|  P + *             	|  //p/following-sibling::*[0]    	|
 
+
+
+
+## 跨域
+
+**浏览器的同源策略**
+
+> 同源策略是一个重要的安全策略，它用于限制一个origin的文档或者它加载的脚本如何能与另一个源的资源进行交互。它能帮助阻隔恶意文档，减少可能被攻击的媒介。
+
+> 如果两个URL的**protocol**(协议,比如http协议,https协议)、**port** (端口号)和 **host**(主机，域名或IP部分) 都相同的话，
+> 则这两个 URL 是**同源**。这个方案也被称为`协议/主机/端口元组`，或者直接是 `元组`。也就是说如果**不满足以上3个条件中的任意一个,则被视为跨域**.
+
+
+**解决跨域问题的几种方式**
+
+- `JSONP` 凡是拥有`src`属性的标签都不受同源策略限制, 缺点是只支持GET请求
+- `CORS` 需要浏览器和后端同时支持, 后端设置以下请求头就可以开启
+    - `Access-Control-Allow-Origin` 如果值为`*`表示允许任何域名的访问
+    - `Access-Control-Allow-Methods` 表明服务器允许客户端使用的请求方法
+    - `Access-Control-Allow-Headers` 表明服务器允许请求中携带的头部字段
+    - `Access-Control-Max-Age` 表明响应的有效时间。在有效时间内，浏览器无须为同一请求再次发起预检请求
+    - `Access-Control-Expose-Headers` 服务器允许浏览器访问的头信息白名单
+    - `Access-Control-Allow-Credentials` 指定了当浏览器的credentials设置为true时是否允许浏览器读取response的内容
+- `postMessage` 可以实现跨文本档、多窗口、跨域消息传递
+- `websocket` HTML5的一个持久化的协议，它实现了浏览器与服务器的全双工通信，也是跨域的一种解决方案
+- `Nginx` 反向代理（其他服务器应用也可），一般用于生产环境
+- `webpack-dev-server` 使用NodeJS服务器中间件`Express`代为获取数据，仅用于开发环境
+    - [https://github.com/webpack/webpack-dev-server](https://github.com/webpack/webpack-dev-server)
+        - [https://webpack.docschina.org/configuration/dev-server/#devserverproxy](https://webpack.docschina.org/configuration/dev-server/#devserverproxy)
+    - [https://github.com/webpack/webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware)
+    - [https://github.com/chimurai/http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware)
+    - [https://github.com/http-party/node-http-proxy](https://github.com/http-party/node-http-proxy)
+    - [https://github.com/expressjs/express](https://github.com/expressjs/express)
+        - [https://expressjs.com/zh-cn/guide/writing-middleware.html](https://expressjs.com/zh-cn/guide/writing-middleware.html)
 
 
 

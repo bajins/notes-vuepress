@@ -11,19 +11,21 @@
 
 + Ecma 国际，技术委员会 [https://github.com/tc39](https://github.com/tc39)
 + ECMAScript支持度检测 [https://github.com/ruanyf/es-checker](https://github.com/ruanyf/es-checker)
-+ [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese)
++ 检查JS文件中的ES版本 [https://github.com/dollarshaveclub/es-check](https://github.com/dollarshaveclub/es-check)
 
 * [JS刷新当前页面的几种方法总结](http://www.iqianduan.net/blog/refresh-browser-method)
 * [js keyup、keypress和keydown事件 详解](https://www.cnblogs.com/manongxiaobing/archive/2012/11/05/2755412.html)
 * [js中keyup-keypress-keydown以及oninput四个事件](https://blog.csdn.net/FGstudy/article/details/101854125)
 * [keydown,keypress,keyup三者之间的区别](https://blog.csdn.net/qq_26102281/article/details/83785085)
 * [前端三大框架与 YUI 以及 EXT.js 这类组件化框架最大的区别是什么？](https://www.zhihu.com/question/336968422/answer/762705515)
+* [ECMAscript和Javascript的区别](https://www.jianshu.com/p/10cfcb536d4a)
 
 - [https://github.com/jsdoc](https://github.com/jsdoc)
 - [https://github.com/apidoc](https://github.com/apidoc)
 
 > [Polyfill](https://developer.mozilla.org/zh-CN/docs/Glossary/Polyfill) 是一块代码（通常是 Web 上的 JavaScript）
 > ，用来为旧浏览器提供它没有原生支持的较新的功能 [https://github.com/financial-times/polyfill-service](https://github.com/financial-times/polyfill-service)
+
 
 
 ## 手册
@@ -37,9 +39,6 @@
 * 现代JavaScript教程 [https://github.com/javascript-tutorial/zh.javascript.info](https://github.com/javascript-tutorial/zh.javascript.info)
 * 浏览器脚本教程 [https://www.w3school.com.cn/b.asp](https://www.w3school.com.cn/b.asp)
 * 参考手册 [https://www.w3school.com.cn/r.asp](https://www.w3school.com.cn/r.asp)
-* [ECMAscript和Javascript的区别](https://www.jianshu.com/p/10cfcb536d4a)
-* [es6支持情况](https://kangax.github.io/compat-table/es6)
-* [检查JavaScript文件中的ES版本](https://github.com/dollarshaveclub/es-check)
 * 文档对象模型 (DOM) [https://developer.mozilla.org/zh-CN/docs/Glossary/DOM](https://developer.mozilla.org/zh-CN/docs/Glossary/DOM)
 * [JavaScript HTML DOM](https://www.w3school.com.cn/js/js_htmldom_document.asp)
 * JavaScript算法和数据结构 [https://github.com/trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
@@ -47,26 +46,35 @@
 * 可读性的代码写法 [https://github.com/ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
 
 
-- 用于浏览器环境规范
-    - [https://github.com/amdjs](https://github.com/amdjs)
-        - [https://github.com/requirejs](https://github.com/requirejs)
-        - [RequireJS和AMD规范 -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/tool/requirejs.html)
-    - [https://github.com/cmdjs](https://github.com/cmdjs)
-    - [https://github.com/seajs](https://github.com/seajs)
-    - ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
-- 用于Node环境规范
-    - [http://www.commonjs.org](http://www.commonjs.org)
-    - [CommonJS规范 -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/nodejs/module.html)
+- [页面生命周期：DOMContentLoaded，load，beforeunload，unload](https://zh.javascript.info/onload-ondomcontentloaded)
+
+
+
+**用于浏览器环境规范**
+
+- [https://github.com/amdjs](https://github.com/amdjs)
+    - [https://github.com/requirejs](https://github.com/requirejs)
+    - [RequireJS和AMD规范 -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/tool/requirejs.html)
+- [https://github.com/cmdjs](https://github.com/cmdjs)
+- [https://github.com/seajs](https://github.com/seajs)
+
+
+
+**用于Node环境规范**
+
+- [http://www.commonjs.org](http://www.commonjs.org)
+- [CommonJS规范 -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/nodejs/module.html)
 - [理解CommonJs、AMD、CMD、ES6模块](https://www.jianshu.com/p/67ce52c93392)
 
-* [页面生命周期：DOMContentLoaded，load，beforeunload，unload](https://zh.javascript.info/onload-ondomcontentloaded)
 
 
 **ECMAScript6**
 
-+ [https://es6.ruanyifeng.com](https://es6.ruanyifeng.com)
+* [es6支持情况](https://kangax.github.io/compat-table/es6)
 
-* [https://github.com/then/promise](https://github.com/then/promise)
++ ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
+    + [https://es6.ruanyifeng.com](https://es6.ruanyifeng.com)
+
 * [在浏览器中使用javascript module](https://www.jianshu.com/p/f7db50cf956f)
 
 - `Uncaught SyntaxError: Cannot use import statement outside a module`
@@ -95,6 +103,7 @@ window.getKey = getKey;
 // ECMAScript6指定元素添加事件
 document.querySelector("#id").addEventListener("click", testOnclick);
 ```
+
 
 
 ## 框架
