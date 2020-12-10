@@ -56,16 +56,16 @@
 | @XmlElementDecl                 	|            	|                                                                                            	|
 | @XmlIDREF                       	|            	|                                                                                            	|
 | @XmlValue                       	|            	|                                                                                            	|
-| @XmlAccessorType                	|            	|                                                                                            	|
+| @XmlAccessorType                	|            	| 控制字段或属性的序列化                                                                    	|
 | @XmlMixed                       	|            	|                                                                                            	|
 | @XmlID                          	|            	|                                                                                            	|
-| @XmlRootElement                 	|            	|                                                                                            	|
+| @XmlRootElement                 	|            	| 根节点,将Java类或枚举类型映射到XML元素                                                       	|
 | @XmlElementRef                  	|            	|                                                                                            	|
 | @XmlEnum                        	|            	|                                                                                            	|
-| @XmlElementWrapper              	|            	|                                                                                            	|
+| @XmlElementWrapper              	|            	| 对于数组或集合（即包含多个元素的成员变量），生成一个包装该数组或集合的XML元素（称为包装器）       	|
 | @XmlEnumValue                   	|            	|                                                                                            	|
-| @XmlType                        	|            	|                                                                                            	|
-| @XmlAccessorOrder               	|            	|                                                                                            	|
+| @XmlType                        	|            	| 对于@XmlElementWrapper标注的属性，不能出现在@XmlType的propOrder列表中                           	|
+| @XmlAccessorOrder               	|            	| 控制JAXB 绑定类中属性和字段的排序                                                         	|
 | @XmlSchemaTypes                 	|            	|                                                                                            	|
 | @XmlInlineBinaryData            	|            	|                                                                                            	|
 | @XmlSchema                      	|            	|                                                                                            	|
@@ -73,17 +73,17 @@
 | @XmlSchemaType                  	|            	|                                                                                            	|
 | @XmlRegistry                    	|            	|                                                                                            	|
 | @XmlList                        	|            	|                                                                                            	|
-| @XmlAttribute                   	|            	|                                                                                            	|
+| @XmlAttribute                   	|            	| 将Java类的一个属性映射到与属性同名的一个XML元素                                                	|
 | @XmlAttachmentRef               	|            	|                                                                                            	|
 | @XmlNs                          	|            	|                                                                                            	|
 | @XmlMimeType                    	|            	|                                                                                            	|
 | @XmlElements                    	|            	|                                                                                            	|
-| @XmlElement                     	|            	|                                                                                            	|
+| @XmlElement                     	|            	| 对于所有@XmlElement标注过的属性，必须出现在@XmlType的propOrder列表中                            	|
 | @XmlElementRefs                 	|            	|                                                                                            	|
 | @XmlTransient                   	|            	|                                                                                            	|
 | @XmlAnyAttribute                	|            	|                                                                                            	|
 | @XmlJavaTypeAdapters            	|            	|                                                                                            	|
-| @XmlJavaTypeAdapter             	|            	|                                                                                            	|
+| @XmlJavaTypeAdapter             	|            	| 使用定制的适配器（即扩展抽象类XmlAdapter并覆盖marshal()和unmarshal()方法），以序列化Java类为XML 	|
 | @Interned                       	|            	|                                                                                            	|
 | @NotNull                        	|            	|                                                                                            	|
 | @Nullable                       	|            	|                                                                                            	|
@@ -268,9 +268,6 @@
 | @FormParam      	| form传递的参数              	| 接受form传递过来的参数。比如：@FormParam("name") String userName                                                                                       	|
 | @BeanParam      	| 通过Bean的形式传递参数      	| 接受client传递的bean类型的参数，同时这个bean可以在属性上配置@FormParam用以解决client的属性名称和bean的属性名称不一致的问题。比如：@BeanParam User user 	|
 | @Context        	| 获得一些系统环境信息        	| 通过@Context可以获得以下信息：UriInfo、ServletConfig、ServletContext、HttpServletRequest、HttpServletResponse和HttpHeaders等                           	|
-| @XmlRootElement 	| 将bean转换为xml             	| 如果要将bean以xml或json的格式返回，必须要这个注解。比如：@XmlRootElementpublic class User{...}                                                         	|
-| @XmlElements    	|                             	|                                                                                                                                                        	|
-| @XmlElement     	|                             	|                                                                                                                                                        	|
 
 
 

@@ -19,6 +19,7 @@
 * [keydown,keypress,keyup三者之间的区别](https://blog.csdn.net/qq_26102281/article/details/83785085)
 * [前端三大框架与 YUI 以及 EXT.js 这类组件化框架最大的区别是什么？](https://www.zhihu.com/question/336968422/answer/762705515)
 * [ECMAscript和Javascript的区别](https://www.jianshu.com/p/10cfcb536d4a)
+* [KeyboardEvent.keyCode已弃用，MDN已经提供了一个解决方案](https://developer.mozilla.org/zh-CN/docs/Web/API/KeyboardEvent/keyCode)
 
 - [https://github.com/jsdoc](https://github.com/jsdoc)
 - [https://github.com/apidoc](https://github.com/apidoc)
@@ -139,7 +140,7 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 
 
 
-## 第三方依赖库
+## 第三方库
 
 + [https://github.com/topics/validation](https://github.com/topics/validation)
 + [https://github.com/topics/validator](https://github.com/topics/validator)
@@ -154,6 +155,7 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 + [https://github.com/malihu/malihu-custom-scrollbar-plugin](https://github.com/malihu/malihu-custom-scrollbar-plugin)
 + [https://github.com/rochal/jQuery-slimScroll](https://github.com/rochal/jQuery-slimScroll)
 + 提示 [https://github.com/calebjacob/tooltipster](https://github.com/calebjacob/tooltipster)
++ [https://github.com/devbridge/jQuery-Autocomplete](https://github.com/devbridge/jQuery-Autocomplete)
 
 
 * [https://github.com/jashkenas/coffeescript](https://github.com/jashkenas/coffeescript)

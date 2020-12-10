@@ -370,6 +370,16 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
     * [导出百万级数据到Excel 文件](https://blog.csdn.net/gd6321374/article/details/90417202)
     * [https://github.com/550690513/large-amount-data-export](https://github.com/550690513/large-amount-data-export)
 
+> XML文件的解析技术有DOM和SAX方式，JAXB（Java Architecture for XML Binding) 是一个业界的标准，是一项根据`XML Schema`产生Java类的技术
+
+* jaxp sun公司开发，直接存在于JDK中
+* [https://github.com/sparklemotion/nokogiri](https://github.com/sparklemotion/nokogiri)
+* [https://github.com/dom4j/dom4j](https://github.com/dom4j/dom4j)
+* [https://github.com/jhy/jsoup](https://github.com/jhy/jsoup)
+* [https://github.com/openjax](https://github.com/openjax)
+* [https://github.com/hunterhacker/jdom](https://github.com/hunterhacker/jdom)
+
+
 
 **测试**
 

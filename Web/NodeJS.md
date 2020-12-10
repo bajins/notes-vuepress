@@ -28,6 +28,7 @@
 
 ## 管理NodeJS
 
+* [https://github.com/tj/n](https://github.com/tj/n)
 
 **rpm**
 
@@ -49,6 +50,8 @@ node -v && npm -v
 **NVM**
 
 > nodeJs版本管理工具,管理nodejs版本和npm版本
+
+* [https://github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)
 
 ```bash
 curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash

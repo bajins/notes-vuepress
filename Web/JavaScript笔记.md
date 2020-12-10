@@ -762,7 +762,7 @@ $(document).ready(function () {
 * [HTML5 - 应用程序缓存(Application Cache)](https://blog.csdn.net/weixin_44198965/article/details/89760924)
 
 
-> storage存储的数据只能是字符串类型，其他类型的数据需做类型转换
+> storage存储的数据只能是字符串类型，其他类型的数据需做类型转换，只要当前浏览器标签页不关闭会一直存在（不管是否进行了链接跳转）
 
 ```js
 sessionStorage.setItem("k", "v");
@@ -784,6 +784,8 @@ for(var i=0, len=localStorage.length; i<len; i++){
 **jQuery数据缓存方案**
 
 > 使用隐藏控件或者js全局变量来临时存储数据，全局变量容易导致命名污染，隐藏控件导致经常读写dom浪费性能。jQuery提供了数据缓存方案
+
+> 同window全局变量或标签元素属性一样只针对于当前页面有效，跳转链接后将清除
 
 * [jQuery 源码分析(十) 数据缓存模块 data详解](https://www.cnblogs.com/greatdesert/p/11609111.html)
 * [jQuery数据缓存$.data 的使用以及源码解析](https://segmentfault.com/a/1190000000626031)

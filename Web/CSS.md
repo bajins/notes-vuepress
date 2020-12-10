@@ -22,7 +22,7 @@
     - [https://less.bootcss.com](https://less.bootcss.com)
 
 
-## 第三方依赖库
+## 第三方库
 
 - [https://github.com/topics/css-framework](https://github.com/topics/css-framework)
 
