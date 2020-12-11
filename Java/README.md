@@ -123,6 +123,8 @@
 * [maven镜像配置文件](/files/settings.xml)
 * [https://maven.aliyun.com/mvn/view](https://maven.aliyun.com/mvn/view)
 
+**[更多镜像源](/Other/#通用镜像)**
+
 
 
 ### Maven私服搭建

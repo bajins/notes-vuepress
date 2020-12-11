@@ -53,6 +53,7 @@
 
 **用于浏览器环境规范**
 
+- [https://github.com/umdjs/umd](https://github.com/umdjs/umd)
 - [https://github.com/amdjs](https://github.com/amdjs)
     - [https://github.com/requirejs](https://github.com/requirejs)
     - [RequireJS和AMD规范 -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/tool/requirejs.html)

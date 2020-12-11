@@ -94,7 +94,10 @@ npm uninstall -g yarn
 
 - `npm i -g nrm` 安装`nrm`，`nrm ls` 查看下载镜像源，`nrm use taobao` 切换镜像源
 
-- 手动配置
+**[更多镜像源](/Other/#通用镜像)**
+
+
+**手动配置**
 
 > 如果使用`yarn`，就把命令开头的`npm`替换为`yarn`
 

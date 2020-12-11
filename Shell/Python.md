@@ -255,6 +255,8 @@ vi /usr/libexec/urlgrabber-ext-down
 
 ### 镜像源
 
+**[更多镜像源](/Other/#通用镜像)**
+
 - 阿里云 [https://mirrors.aliyun.com/pypi/simple](https://mirrors.aliyun.com/pypi/simple)
 - 百度 [https://mirror.baidu.com/pypi/simple](https://mirror.baidu.com/pypi/simple)
 - 中国科技大学 [https://pypi.mirrors.ustc.edu.cn/simple](https://pypi.mirrors.ustc.edu.cn/simple)

@@ -178,6 +178,7 @@
 * 云海天教程，超详细的免费教程网站！ [https://www.yht7.com](https://www.yht7.com)
 * 广场· 看云 [https://www.kancloud.cn/explore](https://www.kancloud.cn/explore)
 * 印记中文 -前端开发文档 [https://docschina.org](https://docschina.org)
+* [https://exploringjs.com](https://exploringjs.com)
 
 
 
@@ -324,6 +325,7 @@
 * [https://www.lanmper.cn](https://www.lanmper.cn)
 * [https://github.com/woai3c/Front-end-articles](https://github.com/woai3c/Front-end-articles)
 * [归档 | EVE | 暴风雨前夕](https://evestorm.github.io/archives)
+* 英文 [2ality – JavaScript and more](https://2ality.com/archive.html)
 
 
 

@@ -231,6 +231,7 @@ go env -w GOSUMDB=off
 
 + [Go Modules Proxy](https://github.com/golang/go/wiki/Modules#are-there-always-on-module-repositories-and-enterprise-proxies)
 
+**[更多镜像源](/Other/#通用镜像)**
 
 * [https://mirrors.aliyun.com/goproxy](https://mirrors.aliyun.com/goproxy)
 * [https://mirrors.cloud.tencent.com/help/go.html](https://mirrors.cloud.tencent.com/help/go.html)
