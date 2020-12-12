@@ -42,6 +42,8 @@
 - [可代替 ASM，使用 AnnotationProcessor 做代码插桩](https://www.dazhuanlan.com/2019/10/16/5da5f67797300)
 - [动态代理和Lombok学习](https://blog.csdn.net/qq_41022073/article/details/105342238)
 - [Spring AOP和Lombok是什么原理？](https://www.cnblogs.com/woetu/p/13658575.html)
+- [这四种对象属性拷贝方式，你都知道吗？](https://www.cnblogs.com/vandusty/p/12757992.html)
+- [领域模型转换那些事儿](https://zhuanlan.zhihu.com/p/86282401)
 
 + [https://gitlab.ow2.org/asm/asm](https://gitlab.ow2.org/asm/asm)
 + [https://asm.ow2.io](https://asm.ow2.io)
@@ -328,13 +330,30 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/rzwitserloot/lombok](https://github.com/rzwitserloot/lombok)
 
 
-- [https://github.com/topics/mapping](https://github.com/topics/mapping)
-- [https://github.com/topics/bean-mapping](https://github.com/topics/bean-mapping)
-- [https://github.com/topics/javabeans](https://github.com/topics/javabeans)
-- BeanUtils替代 [https://github.com/mapstruct](https://github.com/mapstruct)
-- [https://github.com/orika-mapper](https://github.com/orika-mapper)
+
+**数据拷贝**
+
++ [https://github.com/topics/mapping](https://github.com/topics/mapping)
++ [https://github.com/topics/bean-mapping](https://github.com/topics/bean-mapping)
++ [https://github.com/topics/javabeans](https://github.com/topics/javabeans)
+
+* JMH基准测试 [https://github.com/arey/java-object-mapper-benchmark](https://github.com/arey/java-object-mapper-benchmark)
+
+- [https://github.com/apache/commons-beanutils](https://github.com/apache/commons-beanutils)
+- 替代BeanUtils [https://github.com/mapstruct](https://github.com/mapstruct)
+- [https://github.com/orika-mapper/orika](https://github.com/orika-mapper/orika)
 - [https://github.com/DozerMapper](https://github.com/DozerMapper)
-- cglib的BeanCopier
+- [https://github.com/lets-mica/mica](https://github.com/lets-mica/mica)
+    - [https://github.com/yangtu222/BeanUtils](https://github.com/yangtu222/BeanUtils)
+- [cglib的BeanCopier](https://github.com/cglib/cglib/blob/master/cglib/src/main/java/net/sf/cglib/beans/BeanCopier.java)
+- [https://github.com/kordamp/ezmorph](https://github.com/kordamp/ezmorph)
+- [https://github.com/DozerMapper/dozer](https://github.com/DozerMapper/dozer)
+- [https://github.com/modelmapper/modelmapper](https://github.com/modelmapper/modelmapper)
+- [https://github.com/HotelsDotCom/bull](https://github.com/HotelsDotCom/bull)
+- [https://github.com/remondis-it/remap](https://github.com/remondis-it/remap)
+- [https://github.com/roookeee/datus](https://github.com/roookeee/datus)
+- [https://github.com/xebia-france/selma](https://github.com/xebia-france/selma)
+- [https://github.com/jmapper-framework/jmapper-core](https://github.com/jmapper-framework/jmapper-core)
 
 
 
