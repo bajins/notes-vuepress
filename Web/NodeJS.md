@@ -342,6 +342,7 @@ request({
 * [微信小程序Markdown渲染库](https://github.com/TooBug/wemark)
 * [手持弹幕微信小程序版](https://github.com/redblue9771/minibarrage)
 * [https://github.com/super456/weapp_expressTime](https://github.com/super456/weapp_expressTime)
+* [https://github.com/ecomfe/echarts-for-weixin](https://github.com/ecomfe/echarts-for-weixin)
 
 
 

@@ -26,15 +26,6 @@
 
 - [https://github.com/topics/css-framework](https://github.com/topics/css-framework)
 
-+ [https://github.com/topics/bootstrap](https://github.com/topics/bootstrap)
-+ [https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap)
-    + [https://www.bootcss.com](https://www.bootcss.com)
-    + [https://github.com/wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table)
-        + [JS组件系列——BootstrapTable 行内编辑解决方案：x-editable](https://www.cnblogs.com/landeanfen/p/5821192.html)
-    + [https://github.com/eonasdan/bootstrap-datetimepicker](https://github.com/eonasdan/bootstrap-datetimepicker)
-    + [https://github.com/vitalets/x-editable](https://github.com/vitalets/x-editable)
-+ [https://github.com/jquery/jquery-ui](https://github.com/jquery/jquery-ui)
-
 
 * [最受程序员欢迎的 20 个 CSS 框架](https://www.fuocu.cn/archives/css-frame)
 * [https://github.com/pure-css/pure](https://github.com/pure-css/pure)

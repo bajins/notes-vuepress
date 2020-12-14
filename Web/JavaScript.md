@@ -110,10 +110,6 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 
 ## 框架
 
-* [https://github.com/jquery](https://github.com/jquery)
-    * [https://github.com/topics/jquery](https://github.com/topics/jquery)
-    * [https://github.com/topics/jquery-plugin](https://github.com/topics/jquery-plugin)
-    * jQuery API 中文文档 [https://jquery.cuishifeng.cn](https://jquery.cuishifeng.cn)
 * [https://github.com/facebook/react](https://github.com/facebook/react)
     * [https://zh-hans.reactjs.org](https://zh-hans.reactjs.org)
     * [https://github.com/vercel/next.js](https://github.com/vercel/next.js)
@@ -136,68 +132,121 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * 单页网站 [https://github.com/alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js)
 * [https://github.com/ionic-team](https://github.com/ionic-team)
 * [http://www.jeasyui.com](http://www.jeasyui.com)
-* 图表库 [https://github.com/highcharts](https://github.com/highcharts)
 * 响应式框架 [https://github.com/foundation](https://github.com/foundation)
 
 
 
 ## 第三方库
 
-+ [https://github.com/topics/validation](https://github.com/topics/validation)
-+ [https://github.com/topics/validator](https://github.com/topics/validator)
-+ [https://plugins.jquery.com](https://plugins.jquery.com)
-+ 添加XHR2 responseType支持的jQuery插件 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
-+ [https://github.com/tonytomov/jqGrid](https://github.com/tonytomov/jqGrid)
-+ [https://github.com/topics/jquery-validation](https://github.com/topics/jquery-validation)
-    + [https://github.com/jquery-validation](https://github.com/jquery-validation)
-        + [https://www.runoob.com/jquery/jquery-plugin-validate.html](https://www.runoob.com/jquery/jquery-plugin-validate.html)
-    + [https://github.com/DiegoLopesLima/Validate](https://github.com/DiegoLopesLima/Validate)
-+ [https://github.com/DataTables/DataTables](https://github.com/DataTables/DataTables)
-+ [https://github.com/malihu/malihu-custom-scrollbar-plugin](https://github.com/malihu/malihu-custom-scrollbar-plugin)
-+ [https://github.com/rochal/jQuery-slimScroll](https://github.com/rochal/jQuery-slimScroll)
-+ 提示 [https://github.com/calebjacob/tooltipster](https://github.com/calebjacob/tooltipster)
-+ [https://github.com/devbridge/jQuery-Autocomplete](https://github.com/devbridge/jQuery-Autocomplete)
++ [NPM依赖：类库工具](https://www.jianshu.com/p/2a127cfba1cf)
++ [前端开发中用到的npm工具](https://segmentfault.com/a/1190000021865006)
 
-
+* [https://github.com/CreateJS](https://github.com/CreateJS)
+* [https://github.com/ReactiveX/rxjs](https://github.com/ReactiveX/rxjs)
 * [https://github.com/jashkenas/coffeescript](https://github.com/jashkenas/coffeescript)
 * [https://github.com/observablehq](https://github.com/observablehq)
 * [https://github.com/documentcloud](https://github.com/documentcloud)
-* debounce（防抖）、throttle（节流／限频） [https://github.com/jashkenas/underscore](https://github.com/jashkenas/underscore)
-    * [https://underscorejs.net](https://underscorejs.net)
 * 模板语言 [https://github.com/handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js)
-* 日期处理类库 [https://github.com/moment](https://github.com/moment)
-    * [http://momentjs.cn](http://momentjs.cn)
-    * 你不需要Moment.js [https://github.com/you-dont-need/You-Dont-Need-Momentjs](https://github.com/you-dont-need/You-Dont-Need-Momentjs)
-    * [https://github.com/moment/luxon](https://github.com/moment/luxon)
-* [https://github.com/js-joda](https://github.com/js-joda)
-* [https://github.com/iamkun/dayjs](https://github.com/iamkun/dayjs)
-* [https://github.com/date-fns](https://github.com/date-fns)
 * 当前设备 [https://github.com/matthewhudson/current-device](https://github.com/matthewhudson/current-device)
 * 转换编译器 [https://github.com/babel](https://github.com/babel)
     * [https://babeljs.io](https://babeljs.io)
     * [https://www.babeljs.cn](https://www.babeljs.cn)
-* 压缩或编码解码库 [https://github.com/photopea](https://github.com/photopea)
-* 压缩 [https://github.com/photopea](https://github.com/nodeca/pako)
-* [https://github.com/Stuk/jszip](https://github.com/Stuk/jszip)
 * 使浏览器支持require [https://github.com/browserify](https://github.com/browserify)
-* [https://github.com/pixijs/pixi.js](https://github.com/pixijs/pixi.js)
-* 现代化的拷贝文字 [https://github.com/zenorocha/clipboard.js](https://github.com/zenorocha/clipboard.js)
+* 拷贝文字 [https://github.com/zenorocha/clipboard.js](https://github.com/zenorocha/clipboard.js)
     * [http://www.clipboardjs.cn](http://www.clipboardjs.cn)
-* 用于缩放图像 [https://github.com/francoischalifour/medium-zoom](https://github.com/francoischalifour/medium-zoom)
-* SVG绘图编辑器 [https://github.com/SVG-Edit](https://github.com/SVG-Edit)
+* [https://github.com/zeroclipboard/zeroclipboard](https://github.com/zeroclipboard/zeroclipboard)
+* 绑定按键 [https://github.com/jamiebuilds/tinykeys](https://github.com/jamiebuilds/tinykeys)
+* 语法高亮 [https://github.com/PrismJS](https://github.com/PrismJS)
+* [https://github.com/validatorjs/validator.js](https://github.com/validatorjs/validator.js)
+* [https://github.com/zTree/zTree_v3](https://github.com/zTree/zTree_v3)
+* 图片懒加载 [https://github.com/tuupola/lazyload](https://github.com/tuupola/lazyload)
+* Metro风兼瀑布流布局 [https://github.com/desandro/masonry](https://github.com/desandro/masonry)
+* 图片查看 [https://github.com/fengyuanchen/viewerjs](https://github.com/fengyuanchen/viewerjs)
+* [https://github.com/dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe)
+* 响应式导航 [https://github.com/VPenkov/okayNav](https://github.com/VPenkov/okayNav)
+* 拖曳 [https://github.com/desandro/draggabilly](https://github.com/desandro/draggabilly)
+* 拖放 [https://github.com/bevacqua/dragula](https://github.com/bevacqua/dragula)
+* 图像缩放 [https://github.com/kingdido999/zooming](https://github.com/kingdido999/zooming)
+* 文件上传 [https://github.com/fex-team/webuploader](https://github.com/fex-team/webuploader)
+* 国际化 [https://github.com/i18next/i18next](https://github.com/i18next/i18next)
+* 图像中提取颜色 [https://github.com/briangonzalez/rgbaster.js](https://github.com/briangonzalez/rgbaster.js)
+* 模拟数据生成 [https://github.com/nuysoft/Mock](https://github.com/nuysoft/Mock)
+* SVG渲染图像占位符 [https://github.com/imsky/holder](https://github.com/imsky/holder)
+* [https://github.com/dankogai/js-base64](https://github.com/dankogai/js-base64)
+* 交互式医学图像 [https://github.com/cornerstonejs/cornerstone](https://github.com/cornerstonejs/cornerstone)
+
+- [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
+- [https://github.com/sentsin/layui](https://github.com/sentsin/layui)
+
+
+
+**存储/缓存**
+
++ [https://github.com/topics/storage](https://github.com/topics/storage)
++ [https://github.com/topics/localstorage](https://github.com/topics/localstorage)
++ [https://github.com/topics/indexeddb](https://github.com/topics/indexeddb)
+
+* [https://github.com/ustbhuangyi/storage](https://github.com/ustbhuangyi/storage)
+* [https://github.com/jaywcjlove/store.js](https://github.com/jaywcjlove/store.js)
+* [https://github.com/localForage/localForage](https://github.com/localForage/localForage)
+* [https://github.com/typicode/lowdb](https://github.com/typicode/lowdb)
+* [https://github.com/marcuswestin/store.js](https://github.com/marcuswestin/store.js)
+
+
+
+**编辑器**
+
+- [https://github.com/notadd/neditor](https://github.com/notadd/neditor)
+- [https://github.com/mycolorway/simditor](https://github.com/mycolorway/simditor)
+- [https://github.com/summernote/summernote](https://github.com/summernote/summernote)
+- [https://github.com/yabwe/medium-editor](https://github.com/yabwe/medium-editor)
+- [https://github.com/wangeditor-team/wangEditor](https://github.com/wangeditor-team/wangEditor)
+- [https://github.com/ckeditor/ckeditor5](https://github.com/ckeditor/ckeditor5)
+- [https://github.com/kindsoft/kindeditor](https://github.com/kindsoft/kindeditor)
+- [https://github.com/ianstormtaylor/slate](https://github.com/ianstormtaylor/slate)
+- [https://github.com/quilljs/quill](https://github.com/quilljs/quill)
+- [https://github.com/alibaba/GGEditor](https://github.com/alibaba/GGEditor)
+
+
+
+**工具**
+
+* [https://github.com/liriliri/licia](https://github.com/liriliri/licia)
+* [https://github.com/lodash/lodash](https://github.com/lodash/lodash)
+* [[https://github.com/jashkenas]([https://github.com/jashkenas)
+    * debounce（防抖）、throttle（节流／限频） [https://github.com/jashkenas/underscore](https://github.com/jashkenas/underscore)
+    * [https://underscorejs.net](https://underscorejs.net)
+* [https://github.com/ramda/ramda](https://github.com/ramda/ramda)
+* [https://github.com/proYang/outils](https://github.com/proYang/outils)
+* [https://github.com/30-seconds/30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)
+* 工具库 [https://github.com/tnfe/bbo](https://github.com/tnfe/bbo)
+
+
+
+**文档**
+
 * [https://github.com/MrRio/jsPDF](https://github.com/MrRio/jsPDF)
 * [https://github.com/mozilla/pdf.js](https://github.com/mozilla/pdf.js)
 * 电子表格数据工具包 [https://github.com/SheetJS](https://github.com/SheetJS)
-* 绑定按键 [https://github.com/jamiebuilds/tinykeys](https://github.com/jamiebuilds/tinykeys)
-* 语法高亮 [https://github.com/PrismJS](https://github.com/PrismJS)
+
+- 压缩或编码解码库 [https://github.com/photopea](https://github.com/photopea)
+- 压缩 [https://github.com/photopea](https://github.com/nodeca/pako)
+- [https://github.com/Stuk/jszip](https://github.com/Stuk/jszip)
+- [https://gitlab.pagedmedia.org/tools/pagedjs](https://gitlab.pagedmedia.org/tools/pagedjs)
 
 
-- [https://github.com/liriliri/licia](https://github.com/liriliri/licia)
-- [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
-- [https://github.com/apache/incubator-echarts](https://github.com/apache/incubator-echarts)
-- [neditor 基于ueditor的更现代化的富文本编辑器，支持HTTPS](https://github.com/notadd/neditor)
-- [https://github.com/sentsin/layui](https://github.com/sentsin/layui)
 
+**日期时间**
+
++ 替换Moment.js列表 [https://github.com/you-dont-need/You-Dont-Need-Momentjs](https://github.com/you-dont-need/You-Dont-Need-Momentjs)
+
+* 日期处理类库 [https://github.com/moment](https://github.com/moment)
+    * [http://momentjs.cn](http://momentjs.cn)
+    * [https://github.com/moment/luxon](https://github.com/moment/luxon)
+* [https://github.com/iamkun/dayjs](https://github.com/iamkun/dayjs)
+* [https://github.com/js-joda](https://github.com/js-joda)
+* [https://github.com/date-fns](https://github.com/date-fns)
+* [https://github.com/hustcc/timeago.js](https://github.com/hustcc/timeago.js)
 
 
 **HTTP**
@@ -205,6 +254,8 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * [https://github.com/wendux/fly](https://github.com/wendux/fly)
 * [https://github.com/github/fetch](https://github.com/github/fetch)
 * [https://github.com/axios/axios](https://github.com/axios/axios)
+* [https://github.com/umijs/umi-request](https://github.com/umijs/umi-request)
+* [https://github.com/seanmonstar/reqwest](https://github.com/seanmonstar/reqwest)
 
 - [https://github.com/rndme/download](https://github.com/rndme/download)
 
@@ -222,7 +273,6 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 + [https://github.com/topics/diagram](https://github.com/topics/diagram)
 + [https://github.com/topics/flowchart](https://github.com/topics/flowchart)
 
-* 3D库 [https://github.com/mrdoob/three.js](https://github.com/mrdoob/three.js)
 * 图表库 [https://github.com/NorthwoodsSoftware/GoJS](https://github.com/NorthwoodsSoftware/GoJS)
 * [https://github.com/jsplumb](https://github.com/jsplumb)
 * [https://github.com/antvis](https://github.com/antvis)
@@ -248,13 +298,48 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * [https://github.com/socketio](https://github.com/socketio)
 * [https://www.jointjs.com](https://www.jointjs.com)
     * [https://resources.jointjs.com/tutorials/joint/tutorials/ports.html](https://resources.jointjs.com/tutorials/joint/tutorials/ports.html)
+* [https://github.com/jwilber/roughViz](https://github.com/jwilber/roughViz)
+* 图表库 [https://github.com/highcharts](https://github.com/highcharts)
+* [https://github.com/apache/incubator-echarts](https://github.com/apache/incubator-echarts)
+
+
+**动画**
+
+* [https://github.com/animate-css/animate.css](https://github.com/animate-css/animate.css)
+* [https://github.com/juliangarnier/anime](https://github.com/juliangarnier/anime)
+* 3D库 [https://github.com/mrdoob/three.js](https://github.com/mrdoob/three.js)
+* 2D渲染器 [https://github.com/pixijs/pixi.js](https://github.com/pixijs/pixi.js)
+* 用于缩放图像 [https://github.com/francoischalifour/medium-zoom](https://github.com/francoischalifour/medium-zoom)
+* SVG绘图编辑器 [https://github.com/SVG-Edit](https://github.com/SVG-Edit)
+* 图标字体自定义 [https://github.com/uuware/icons-font-customization](https://github.com/uuware/icons-font-customization)
+* [https://github.com/IanLunn/Hover](https://github.com/IanLunn/Hover)
+* [https://github.com/matthieua/WOW](https://github.com/matthieua/WOW)
+* [https://github.com/jlmakes/scrollreveal](https://github.com/jlmakes/scrollreveal)
+* [https://github.com/miniMAC/magic](https://github.com/miniMAC/magic)
+* [https://github.com/fians/Waves](https://github.com/fians/Waves)
+* [https://github.com/visionmedia/move.js](https://github.com/visionmedia/move.js)
+* [https://github.com/julianshapiro/velocity](https://github.com/julianshapiro/velocity)
+* [https://github.com/ustbhuangyi/better-scroll](https://github.com/ustbhuangyi/better-scroll)
+* [https://github.com/mescroll/mescroll](https://github.com/mescroll/mescroll)
+* [https://github.com/tweenjs/tween.js](https://github.com/tweenjs/tween.js)
+* [https://github.com/d3/d3](https://github.com/d3/d3)
+    * [https://github.com/xswei/d3js_doc](https://github.com/xswei/d3js_doc)
 
 
 
 **Player**
 
++ [https://github.com/topics/html5-video](https://github.com/topics/html5-video)
++ [https://github.com/topics/video-player](https://github.com/topics/video-player)
+
 * [https://github.com/MoePlayer](https://github.com/MoePlayer)
-* Plyr–一个轻量级的HTML5播放器 [https://github.com/sampotts/plyr](https://github.com/sampotts/plyr)
+* [https://github.com/sampotts/plyr](https://github.com/sampotts/plyr)
+* [https://github.com/Chimeejs/chimee](https://github.com/Chimeejs/chimee)
+* [https://github.com/bilibili/flv.js](https://github.com/bilibili/flv.js)
+* [https://gitee.com/niandeng/ckplayer](https://gitee.com/niandeng/ckplayer)
+* [https://github.com/Aaaaaaaty/Blog/tree/master/html5player](https://github.com/Aaaaaaaty/Blog/tree/master/html5player)
+* [https://github.com/chiruom/DanmuPlayer](https://github.com/chiruom/DanmuPlayer)
+* 字体滚动 [https://github.com/chenjianfang/scroxt](https://github.com/chenjianfang/scroxt)
 
 
 **反爬虫**
@@ -299,6 +384,16 @@ document.querySelector("#id").addEventListener("click", testOnclick);
 * [https://github.com/ElemeFE/element](https://github.com/ElemeFE/element)
 
 
+**插件/组件**
+
+- [https://github.com/TerryZ/vue-plugins](https://github.com/TerryZ/vue-plugins)
+    - [https://github.com/TerryZ/v-selectpage](https://github.com/TerryZ/v-selectpage)
+    - [https://github.com/TerryZ/v-page](https://github.com/TerryZ/v-page)
+- [https://github.com/xaboy/form-create](https://github.com/xaboy/form-create)
+- [https://github.com/dev-zl/vccvalidate](https://github.com/dev-zl/vccvalidate)
+- [https://github.com/ferrinweb/vue-scroll-box](https://github.com/ferrinweb/vue-scroll-box)
+- [https://github.com/kazupon/vue-i18n](https://github.com/kazupon/vue-i18n)
+
 
 **Mobile**
 
@@ -321,7 +416,7 @@ resolve => require.ensure([], () => resolve(require(`@${_this.files.path}.vue`))
 const resolveRequire = (path) => {
     return resolve => {
         require.ensure([], (require) => {
-            resolve(require(`@${path}.vue`));
+            resolve(require(`@${path}.vue`));        
         });
     }
 }
@@ -330,6 +425,10 @@ const resolveRequire = (path) => {
 
 ## jQuery
 
+* [https://github.com/jquery](https://github.com/jquery)
+    * [https://github.com/topics/jquery](https://github.com/topics/jquery)
+    * [https://github.com/topics/jquery-plugin](https://github.com/topics/jquery-plugin)
+    * jQuery API 中文文档 [https://jquery.cuishifeng.cn](https://jquery.cuishifeng.cn)
 
 
 ```js
@@ -340,7 +439,7 @@ jQuery.fn.extend({
 	 * @param another
 	 */
 	swap: function(another){
-		var me = this;
+		var me = this;    
 		var cloneMe = me.clone();
 		var temp = $('<span/>');
 		another.before(temp);
@@ -368,7 +467,7 @@ jQuery.fn.extend({
 			another = me.prev();
 			another.before(me);
 		}else if(direction == 'down'){
-			another = me.next();
+			another = me.next();        
 			another.after(me);
 		}
 		return this;
@@ -381,6 +480,37 @@ var success = $p.move('up');	//移动成功则为true，否则false
 ```
 
 
+
+**插件/组件**
+
++ [https://github.com/topics/validation](https://github.com/topics/validation)
++ [https://github.com/topics/validator](https://github.com/topics/validator)
++ [https://plugins.jquery.com](https://plugins.jquery.com)
++ 添加XHR2 responseType支持的jQuery插件 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
++ [https://github.com/tonytomov/jqGrid](https://github.com/tonytomov/jqGrid)
++ [https://github.com/topics/jquery-validation](https://github.com/topics/jquery-validation)
+    + [https://github.com/jquery-validation](https://github.com/jquery-validation)
+        + [https://www.runoob.com/jquery/jquery-plugin-validate.html](https://www.runoob.com/jquery/jquery-plugin-validate.html)
+    + [https://github.com/DiegoLopesLima/Validate](https://github.com/DiegoLopesLima/Validate)
++ [https://github.com/DataTables/DataTables](https://github.com/DataTables/DataTables)
++ [https://github.com/malihu/malihu-custom-scrollbar-plugin](https://github.com/malihu/malihu-custom-scrollbar-plugin)
++ [https://github.com/rochal/jQuery-slimScroll](https://github.com/rochal/jQuery-slimScroll)
++ 提示 [https://github.com/calebjacob/tooltipster](https://github.com/calebjacob/tooltipster)
++ [https://github.com/devbridge/jQuery-Autocomplete](https://github.com/devbridge/jQuery-Autocomplete)
++ [https://github.com/rampatra/animatescroll.js](https://github.com/rampatra/animatescroll.js)
++ [https://github.com/wmh/jquery-scrollbox](https://github.com/wmh/jquery-scrollbox)
++ [https://github.com/omcg33/jquery.limarquee](https://github.com/omcg33/jquery.limarquee)
++ 分页 [https://github.com/superRaytin/paginationjs](https://github.com/superRaytin/paginationjs)
++ 图片查看 [https://github.com/fengyuanchen/jquery-viewer](https://github.com/fengyuanchen/jquery-viewer)
++ 视频播放 [https://github.com/jplayer/jPlayer](https://github.com/jplayer/jPlayer)
++ 弹幕 [https://github.com/chiruom/jquery.danmu.js](https://github.com/chiruom/jquery.danmu.js)
++ [https://github.com/jeromeetienne/jquery-qrcode](https://github.com/jeromeetienne/jquery-qrcode)
++ [https://github.com/jquery-i18n-properties/jquery-i18n-properties](https://github.com/jquery-i18n-properties/jquery-i18n-properties)
++ 使用旧版IE警报 [https://github.com/nmsdvid/ie-alert](https://github.com/nmsdvid/ie-alert)
++ 图像放大镜 [https://github.com/mrenzidev/jqzoom](https://github.com/mrenzidev/jqzoom)
+
+
+
 ### 事件点击一次执行多次
 
 ```js
@@ -390,9 +520,25 @@ $('#id').unbind('click').on('click',function(){
 });
 // 先移除再绑定
 $("#id").off("click").on("click",function(){
-    consoel.log("ok");
+    consoel.log("ok");        
 });
 ```
+
+
+## Bootstrap
+
++ [https://github.com/topics/bootstrap](https://github.com/topics/bootstrap)
++ [https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap)
+    + [https://www.bootcss.com](https://www.bootcss.com)
+
+* [https://github.com/jquery/jquery-ui](https://github.com/jquery/jquery-ui)
+* [https://github.com/itsjavi/bootstrap-colorpicker](https://github.com/itsjavi/bootstrap-colorpicker)
+* [https://github.com/kartik-v/bootstrap-fileinput](https://github.com/kartik-v/bootstrap-fileinput)
+* [https://github.com/snapappointments/bootstrap-select](https://github.com/snapappointments/bootstrap-select)
+* [https://github.com/wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table)
+    * [JS组件系列——BootstrapTable 行内编辑解决方案：x-editable](https://www.cnblogs.com/landeanfen/p/5821192.html)
+* 编辑器 [https://github.com/vitalets/x-editable](https://github.com/vitalets/x-editable)
+* [https://github.com/eonasdan/bootstrap-datetimepicker](https://github.com/eonasdan/bootstrap-datetimepicker)
 
 
 
