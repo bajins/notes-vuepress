@@ -214,6 +214,11 @@ cdnjs.cloudflare.com            cdnjs.loli.net
 
 ## xpath和css选择器
 
+* [CSS选择器 - 学习 Web 开发 | MDN](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Building_blocks/Selectors)
+* [CSS 选择器 - CSS（层叠样式表） | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Selectors)
+* [XPath | MDN](https://developer.mozilla.org/zh-CN/docs/Web/XPath)
+* [Introduction to using XPath in JavaScript - JavaScript | MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Introduction_to_using_XPath_in_JavaScript)
+
 > `Chrome`打开网页`F12`后下面的调试工具出来后点击`Elements`左边的那个框框里的鼠标箭头
 > （或者按<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>），
 > 然后网页会变成蓝色，到网页点击自己要选择的区域，接下来就会自动跳到`Elements`对应的位置，
@@ -228,59 +233,31 @@ document.getElementsByName("body");// 返回文档中name属性为指定值的�
 document.getElementsByTagName("a");// 返回文档中指定标签的元素
 ```
 
-**css元素选择器**
-
-* [CSS 选择器参考手册](https://www.w3school.com.cn/cssref/css_selectors.ASP)
-
-| 语法                     	| 说明                                                             	|
-|--------------------------	|------------------------------------------------------------------	|
-| *                        	| 通用元素选择器，匹配任何元素                                     	|
-| E                        	| 标签选择器，匹配所有使用E标签的元素                              	|
-| .info                    	| class选择器，匹配所有class属性中包含info的元素                   	|
-| #footer                  	| id选择器，匹配所有id属性等于footer的元素                         	|
-| E,F                      	| 多元素选择器，同时匹配所有E元素或F元素，E和F之间用逗号分隔       	|
-| E F                      	| 后代元素选择器，匹配所有属于E元素后代的F元素，E和F之间用空格分隔 	|
-| E > F                    	| 子元素选择器，匹配所有E元素的子元素F                             	|
-| E + F                    	| 毗邻元素选择器，匹配紧随E元素之后的同级元素F （只匹配第一个）    	|
-| E ~ F                    	| 同级元素选择器，匹配所有在E元素之后的同级F元素                   	|
-| E[att='val']             	| 属性att的值为val的E元素 （区分大小写）                           	|
-| E[att^='val']            	| 属性att的值以val开头的E元素 （区分大小写）                       	|
-| E[att$='val']            	| 属性att的值以val结尾的E元素 （区分大小写）                       	|
-| E[att*='val']            	| 属性att的值包含val的E元素 （区分大小写）                         	|
-| E[att1='v1'][att2*='v2'] 	| 属性att1的值为v1，att2的值包含v2 （区分大小写）                  	|
-| E:contains('xxxx')       	| 内容中包含xxxx的E元素                                            	|
-| E:not(s)                 	| 匹配不符合当前选择器的任何元素                                   	|
-
-
-**`Sizzle`的`Css3`结构性定位**
-
-| 语法            	| 说明                                                           	|
-|-----------------	|----------------------------------------------------------------	|
-| E:nth(n)E:eq(n) 	| 在其父元素中的E子元素集合中排在第n+1个的E元素 (第一个n=0)      	|
-| E:first         	| 在其父元素中的E子元素集合中排在第1个的E元素                    	|
-| E:last          	| 在其父元素中的E子元素集合中排在最后1个的E元素                  	|
-| E:even          	| 在其父元素中的E子元素集合中排在偶数位的E元素 (0,2,4…)          	|
-| E:odd           	| 在其父元素中的E子元素集合中排在奇数的E元素 (1,3,5…)            	|
-| E:lt(n)         	| 在其父元素中的E子元素集合中排在n位之前的E元素 (n=2,则匹配0,1)  	|
-| E:gt(n)         	| 在其父元素中的E子元素集合中排在n位之后的E元素 (n=2，在匹配3,4) 	|
-| E:only-child    	| 父元素的唯一一个子元素且标签为E                                	|
-| E:empty         	| 不包含任何子元素的E元素，注意，文本节点也被看作子元素          	|
-
-
 
 **Xpath基本语法**
 
-- `/` 从根节点选取，下级节点
-- `//` 任意节点选取
-- `*` 任意标签选取
-- `@` 选取属性
-- `..` 选取当前节点的父节点
-- `text()` 匹配节点全部链接文字
-- `contains(a,b)` 匹配节点部分链接文字
-- `last()` 选取最后一个
+| 表达式                         	| 描述                             	|
+|--------------------------------	|----------------------------------	|
+| nodename                       	| 选取此节点的所有子节点           	|
+| /                              	| 从当前节点选取直接子节点         	|
+| //                             	| 从当前节点选取子孙节点           	|
+| .                              	| 选取当前节点                     	|
+| ..                             	| 选取当前节点的父节点             	|
+| @                              	| 选取属性                         	|
+| *                              	| 选取具有给定属性的所有元素       	|
+| [@attrib]                      	| 选取给定属性具有给定值的所有元素 	|
+| [@attrib='value']              	| 选取所有具有指定元素的直接子节点 	|
+| \|                              	| 选取两个节点，左右两个           	|
+| book[1]                        	| 选取第一个book元素               	|
+| //li[contains(@attrib,value)]  	| 属于模糊定位。                   	|
+| //li[text()='xxx']             	| 选取li标签中的值为xxx的元素      	|
+| //li[last()='xxx']             	| 选取li标签中的值为xxx的最后一个元素 |
+| //li/text()                    	| 选取li标签下的文本内容           	|
 
 
 **Xpath定位和Selector定位的区别**
+
+* [CSS选择器和XPath的比较-XPath |  MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Selectors/Comparison_with_XPath)
 
 | 定位方式                                          	| Xpath                                	| Css Selector      	|
 |---------------------------------------------------	|--------------------------------------	|-------------------	|

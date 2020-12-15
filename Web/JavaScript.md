@@ -430,6 +430,7 @@ const resolveRequire = (path) => {
     * [https://github.com/topics/jquery-plugin](https://github.com/topics/jquery-plugin)
     * jQuery API 中文文档 [https://jquery.cuishifeng.cn](https://jquery.cuishifeng.cn)
 
+- [css选择器和jQuery选择器](https://segmentfault.com/a/1190000010746086)
 
 ```js
 // 扩展jQuery实例函数
