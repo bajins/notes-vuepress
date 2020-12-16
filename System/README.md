@@ -28,6 +28,8 @@
 * [如何看待Linus Torvalds对AVX512的评价？](https://www.zhihu.com/question/406517759)
 
 
+- [https://github.com/rocky-linux](https://github.com/rocky-linux)
+
 
 **管理面板**
 
@@ -58,6 +60,21 @@
     * [Always Free Resources](https://docs.cloud.oracle.com/en-us/iaas/Content/FreeTier/freetier.htm#resources)
     * [申请Oracle Cloud永久免费服务+300美元试用额度](https://51.ruyo.net/14138.html)
     * 不建议使用用Oracle Linux镜像，无法设置root密码登录
+    ```bash
+    # 移除或禁用后台监控
+    yum remove oracle-cloud-agent
+    snap remove oracle-cloud-agent
+
+    systemctl stop oracle-cloud-agent
+    systemctl disable oracle-cloud-agent
+    systemctl stop oracle-cloud-agent-updater
+    systemctl disable oracle-cloud-agent-updater
+
+    systemctl stop snap.oracle-cloud-agent.oracle-cloud-agent-updater.service
+    systemctl disable snap.oracle-cloud-agent.oracle-cloud-agent-updater.service
+    systemctl stop snap.oracle-cloud-agent.oracle-cloud-agent.service
+    systemctl disable snap.oracle-cloud-agent.oracle-cloud-agent.service
+    ```
 * Azure [https://azure.microsoft.com/free](https://azure.microsoft.com/free)
     * [https://portal.azure.com](https://portal.azure.com)
     * [申请微软Azure服务免费12个月+$200 额度+永久免费(25+项服务)](https://www.daniao.org/7057.html)

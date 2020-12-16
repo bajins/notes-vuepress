@@ -20,6 +20,7 @@
 > `PyPy`使用了`JIT`（即时编译）技术，混合了动态编译和静态编译的特性，仍然是一句一句编译源代码，
 > 但是会将翻译过的代码缓存起来以降低性能损耗。相对于静态编译代码，即时编译的代码可以处理延迟绑定并增强安全性。
 
++ [https://github.com/topics/python](https://github.com/topics/python)
 + [https://github.com/python](https://github.com/python)
     + [https://www.python.org](https://www.python.org)
     + [https://docs.python.org/zh-cn](https://docs.python.org/zh-cn)
@@ -53,7 +54,7 @@ with Test() as t: # 触发__exit__
     pass
 ```
 
-- [https://github.com/animalize/qqwry-python3](https://github.com/animalize/qqwry-python3)
+- 纯真IP数据库 [https://github.com/animalize/qqwry-python3](https://github.com/animalize/qqwry-python3)
 
 
 
@@ -63,9 +64,8 @@ with Test() as t: # 触发__exit__
 + [https://github.com/vinta/awesome-python](https://github.com/vinta/awesome-python)
 + [Python 常用的标准库以及第三方库有哪些？](https://www.zhihu.com/question/20501628/answers/updated)
 
-* [python3 中执行系统命令](https://www.jianshu.com/p/a19de14c4b57)
 * [Python图像处理库—-Pillow](https://www.lizenghai.com/archives/17611.html)
-* [https://github.com/aio-libs](https://github.com/aio-libs)
+* 基于异步库 [https://github.com/aio-libs](https://github.com/aio-libs)
 * [https://github.com/psf/requests](https://github.com/psf/requests)
     * [https://github.com/requests](https://github.com/requests)
     * [https://github.com/not-kennethreitz](https://github.com/not-kennethreitz)
@@ -75,11 +75,20 @@ with Test() as t: # 触发__exit__
 * [https://github.com/jpadilla/pyjwt](https://github.com/jpadilla/pyjwt)
 * [https://github.com/Arronlong/py_scripts](https://github.com/Arronlong/py_scripts)
 * Python字节码反汇编器/反编译器 [https://github.com/zrax/pycdc](https://github.com/zrax/pycdc)
+* [https://github.com/pyexcel](https://github.com/pyexcel)
+* [https://github.com/jmcnamara/XlsxWriter](https://github.com/jmcnamara/XlsxWriter)
+* [https://foss.heptapod.net/openpyxl/openpyxl](https://foss.heptapod.net/openpyxl/openpyxl)
+    * [https://openpyxl.readthedocs.io](https://openpyxl.readthedocs.io)
+* [https://github.com/mhammond/pywin32](https://github.com/mhammond/pywin32)
+    * [winreg --- Windows 注册表访问](https://docs.python.org/zh-cn/3/library/winreg.html)
+* 简繁转换 [https://github.com/gumblex/zhconv](https://github.com/gumblex/zhconv)
+* 開放中文轉換 [https://github.com/BYVoid/OpenCC](https://github.com/BYVoid/OpenCC)
+* [https://github.com/pyecharts/pyecharts](https://github.com/pyecharts/pyecharts)
 
-- [https://github.com/topics/python](https://github.com/topics/python)
-    - [https://github.com/ipython](https://github.com/ipython)
-    - 纠正以前的控制台命令中的错误 [https://github.com/nvbn/thefuck](https://github.com/nvbn/thefuck)
-    - 命令行HTTP客户端 [https://github.com/jakubroztocil/httpie](https://github.com/jakubroztocil/httpie)
+
+- 交互式计算 [https://github.com/ipython](https://github.com/ipython)
+- 纠正以前的控制台命令中的错误 [https://github.com/nvbn/thefuck](https://github.com/nvbn/thefuck)
+- 命令行HTTP客户端 [https://github.com/jakubroztocil/httpie](https://github.com/jakubroztocil/httpie)
 - [https://github.com/topics/expect](https://github.com/topics/expect)
     - [https://www.nist.gov/services-resources/software/expect](https://www.nist.gov/services-resources/software/expect)
     - [https://github.com/clarkwang/sexpect](https://github.com/clarkwang/sexpect)
@@ -88,15 +97,7 @@ with Test() as t: # 触发__exit__
     - [https://github.com/jacebrowning/pytest-expecter](https://github.com/jacebrowning/pytest-expecter)
 - [https://github.com/topics/ops](https://github.com/topics/ops)
 - [https://github.com/topics/automation](https://github.com/topics/automation)
-- [https://github.com/pyecharts/pyecharts](https://github.com/pyecharts/pyecharts)
-- 简繁转换 [https://github.com/gumblex/zhconv](https://github.com/gumblex/zhconv)
-- 開放中文轉換 [https://github.com/BYVoid/OpenCC](https://github.com/BYVoid/OpenCC)
-- [https://github.com/pyexcel](https://github.com/pyexcel)
-- [https://github.com/jmcnamara/XlsxWriter](https://github.com/jmcnamara/XlsxWriter)
-- [https://foss.heptapod.net/openpyxl/openpyxl](https://foss.heptapod.net/openpyxl/openpyxl)
-    - [https://openpyxl.readthedocs.io](https://openpyxl.readthedocs.io)
-- [https://github.com/mhammond/pywin32](https://github.com/mhammond/pywin32)
-    - [winreg --- Windows 注册表访问](https://docs.python.org/zh-cn/3/library/winreg.html)
+
 
 
 **OCR**
@@ -109,10 +110,13 @@ with Test() as t: # 触发__exit__
 + [https://github.com/search?q=ocr](https://github.com/search?q=ocr)
 
 * [https://github.com/alisen39/TrWebOCR](https://github.com/alisen39/TrWebOCR)
+    * `pip3 install libtorch numpy opencv-python Pillow tornado`
+    * `apt install libgl1-mesa-glx`
 * [https://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)
 * [https://github.com/PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 
 - [https://github.com/opencv](https://github.com/opencv)
+    - [https://github.com/skvark/opencv-python](https://github.com/skvark/opencv-python)
 - [https://github.com/ainize-team](https://github.com/ainize-team)
     - [![Run on Ainize](https://ainize.ai/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=https://github.com/alisen39/TrWebOCR)
 - [https://github.com/d2l-ai](https://github.com/d2l-ai)
@@ -239,7 +243,7 @@ vi /usr/libexec/urlgrabber-ext-down
 * [https://packaging.python.org/tutorials/installing-packages](https://packaging.python.org/tutorials/installing-packages)
 * [Python包管理工作流](https://frostming.com/2018/09-14/python-packaging-flow)
 
-- `python3-pip`
+- `sudo apt install python3-pip`
 
 * [https://github.com/conda/conda](https://github.com/conda/conda)
 * [https://github.com/jazzband/pip-tools](https://github.com/jazzband/pip-tools)
