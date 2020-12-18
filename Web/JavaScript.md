@@ -12,6 +12,7 @@
 + Ecma 国际，技术委员会 [https://github.com/tc39](https://github.com/tc39)
 + ECMAScript支持度检测 [https://github.com/ruanyf/es-checker](https://github.com/ruanyf/es-checker)
 + 检查JS文件中的ES版本 [https://github.com/dollarshaveclub/es-check](https://github.com/dollarshaveclub/es-check)
++ ES6支持情况 [https://kangax.github.io/compat-table/es6](https://kangax.github.io/compat-table/es6)
 
 * [JS刷新当前页面的几种方法总结](http://www.iqianduan.net/blog/refresh-browser-method)
 * [js keyup、keypress和keydown事件 详解](https://www.cnblogs.com/manongxiaobing/archive/2012/11/05/2755412.html)
@@ -31,12 +32,12 @@
 
 ## 手册
 
-> `HTML`网页中，浏览器通过`script`标签加载脚本的默认语言是`JavaScript`，因此`type="application/javascript"`可以省略。
-
 * [https://github.com/wangdoc/javascript-tutorial](https://github.com/wangdoc/javascript-tutorial)
     * [https://wangdoc.com/javascript](https://wangdoc.com/javascript)
 * [https://github.com/ruanyf/jstutorial](https://github.com/ruanyf/jstutorial)
     * [http://javascript.ruanyifeng.com](http://javascript.ruanyifeng.com)
++ ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
+    + [https://es6.ruanyifeng.com](https://es6.ruanyifeng.com)
 * 现代JavaScript教程 [https://github.com/javascript-tutorial/zh.javascript.info](https://github.com/javascript-tutorial/zh.javascript.info)
 * 浏览器脚本教程 [https://www.w3school.com.cn/b.asp](https://www.w3school.com.cn/b.asp)
 * 参考手册 [https://www.w3school.com.cn/r.asp](https://www.w3school.com.cn/r.asp)
@@ -46,12 +47,11 @@
 * 答题 [https://github.com/lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions)
 * 可读性的代码写法 [https://github.com/ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
 
-
 - [页面生命周期：DOMContentLoaded，load，beforeunload，unload](https://zh.javascript.info/onload-ondomcontentloaded)
 
 
 
-**用于浏览器环境规范**
+**模块规范**
 
 - [https://github.com/umdjs/umd](https://github.com/umdjs/umd)
 - [https://github.com/amdjs](https://github.com/amdjs)
@@ -59,25 +59,67 @@
     - [RequireJS和AMD规范 -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/tool/requirejs.html)
 - [https://github.com/cmdjs](https://github.com/cmdjs)
 - [https://github.com/seajs](https://github.com/seajs)
-
-
-
-**用于Node环境规范**
-
 - [http://www.commonjs.org](http://www.commonjs.org)
 - [CommonJS规范 -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/nodejs/module.html)
-- [理解CommonJs、AMD、CMD、ES6模块](https://www.jianshu.com/p/67ce52c93392)
+- [Module 的语法 - ECMAScript 6入门](https://es6.ruanyifeng.com/#docs/module)
+
+```js
+/**
+ * CommonJS 主要是NodeJs使用
+ */
+module.exports.x = x; // 导出模块
+module.exports  = {};
+// 为了方便，Node为每个模块提供一个exports变量，指向module.exports
+// 注意，不能直接将exports变量指向一个值，因为这样等于切断了exports与module.exports的联系
+//exports.x = x;
+var example = require('./example.js'); // 导入模块
+
+/**
+ * AMD（Asynchronous Module Defination，浏览器端js模块化） 主要是RequireJS使用
+ */
+//定义模块myModule.js
+define(['dependency'],function(){
+   var name = 'Bily';
+   function printName(){
+        console.log(name);
+    }
+    return {
+       printName: printName
+    }
+});
+//加载模块
+require(['myModule],function(my){
+    my.printName();
+});
 
 
+/**
+ * CMD(Common Module Definition,通用模块定义)
+ */
+// cmd1.js
+define(function(require,exports,module){
+  // ...
+  module.exports={
+    // ...
+  }
+});
 
-**ECMAScript6**
+// cmd2.js
+define(function(require,exports,module){
+  var cmd2 = require('./cmd1')
+  // cmd2.xxx  依赖就近书写
+  module.exports={
+     // ...
+  }
+});
 
-* [es6支持情况](https://kangax.github.io/compat-table/es6)
-
-+ ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
-    + [https://es6.ruanyifeng.com](https://es6.ruanyifeng.com)
-
-* [在浏览器中使用javascript module](https://www.jianshu.com/p/f7db50cf956f)
+/**
+ * ECMAScript6
+ */
+export x = x; // 导出模块
+export default {} // 为模块指定默认输出
+import { stat, exists, readFile } from 'fs'; // 导入模块
+```
 
 - `Uncaught SyntaxError: Cannot use import statement outside a module`
 
@@ -86,24 +128,6 @@
 
 ```html
 <script type="module" src="/static/js/index.js"></script>
-```
-
-```js
-// ECMAScript Import
-import * as util from 'utils';
-import { util, test } from 'utils';
-
-// CommonJS Require
-const util = require('utils');
-```
-
-- 在module中绑定事件
-
-```js
-// ECMAScript6使用全局变量配置页面绑定事件
-window.getKey = getKey;
-// ECMAScript6指定元素添加事件
-document.querySelector("#id").addEventListener("click", testOnclick);
 ```
 
 

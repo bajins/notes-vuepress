@@ -371,6 +371,7 @@
 * [时光の轴 – 苍穹の下](https://www.bluesky.cf/%E6%97%B6%E5%85%89%E3%81%AE%E8%BD%B4)
 * [Qiantigers](https://www.qiantigers.top/archives)
 * [归档 | Eicky Blog](https://eicky.com/archives)
+* [趣乐子 – 快乐源于分享](https://www.7lez.com)
 
 
 

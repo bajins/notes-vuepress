@@ -440,6 +440,7 @@ slmgr /ato
 * [https://www.jianshu.com/p/802010d54849](https://www.jianshu.com/p/802010d54849)
 * [https://cloud.tencent.com/developer/article/1332118](https://cloud.tencent.com/developer/article/1332118)
 * [http://winmtr.net/download-winmtr](http://winmtr.net/download-winmtr)
+* [Netcat详解](https://www.cnblogs.com/dalianpai/p/12505678.html)
 
 > 在Linux中有一个更好的网络连通性判断工具，它可以结合ping | nslookup | tracert 来判断网络的相关特性，这个命令就是mtr。
 
@@ -475,7 +476,12 @@ slmgr /ato
 * [https://www.websitepulse.com/tools/china-firewall-test](https://www.websitepulse.com/tools/china-firewall-test)
 * [https://www.vps234.com/ipchecker](https://www.vps234.com/ipchecker)
 * [https://tools.ipip.net/traceroute.php](https://tools.ipip.net/traceroute.php)
-
+* IP范围转换CIDR [https://ip2cidr.com](https://ip2cidr.com)
+* [http://apps.neu.edu.cn/netaggr](http://apps.neu.edu.cn/netaggr)
+* [无类别域间路由（CIDR）网络地址计算器](https://www.sioe.cn/xinqing/CIDR.php)
+* [IPv4 / IPv6 CIDR计算器 | RAKKOTOOLS🔧](https://zh.rakko.tools/tools/27)
+* [http://ip.chacuo.net/ipconvert](http://ip.chacuo.net/ipconvert)
+* [https://github.com/3th1nk/cidr](https://github.com/3th1nk/cidr)
 
 
 **tracert**

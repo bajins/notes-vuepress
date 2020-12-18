@@ -108,12 +108,28 @@ with Test() as t: # 触发__exit__
 + [https://github.com/topics/computer-vision](https://github.com/topics/computer-vision)
 + [https://github.com/topics/ocr](https://github.com/topics/ocr)
 + [https://github.com/search?q=ocr](https://github.com/search?q=ocr)
++ ncnn推理 [https://github.com/topics/ncnn](https://github.com/topics/ncnn)
++ torch推理 [https://github.com/topics/pytorch](https://github.com/topics/pytorch)
+
+
+> `ImportError: libGL.so.1: cannot open shared object file: No such file or directory`
+>> `apt install libgl1-mesa-glx` debian
+>>
+>> `yum install mesa-libGL-devel` centos
+
 
 * [https://github.com/alisen39/TrWebOCR](https://github.com/alisen39/TrWebOCR)
     * `pip3 install libtorch numpy opencv-python Pillow tornado`
-    * `apt install libgl1-mesa-glx`
+* [https://github.com/ianzhao05/textshot](https://github.com/ianzhao05/textshot)
+* [https://github.com/ouyanghuiyu/chineseocr_lite](https://github.com/ouyanghuiyu/chineseocr_lite)
+    * `pip3 install tornado numpy opencv_python onnxruntime Shapely pyclipper Pillow`
 * [https://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)
 * [https://github.com/PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
+* ncnn [https://github.com/Tencent/ncnn](https://github.com/Tencent/ncnn)
+* crnn [https://github.com/meijieru/crnn.pytorch](https://github.com/meijieru/crnn.pytorch)
+* chineseocr [https://github.com/chineseocr/chineseocr](https://github.com/chineseocr/chineseocr)
+* Psenet [https://github.com/WenmuZhou/PSENet.pytorch](https://github.com/WenmuZhou/PSENet.pytorch)
+* 语言模型实现 [https://github.com/lukhy/masr](https://github.com/lukhy/masr)
 
 - [https://github.com/opencv](https://github.com/opencv)
     - [https://github.com/skvark/opencv-python](https://github.com/skvark/opencv-python)
@@ -144,7 +160,6 @@ with Test() as t: # 触发__exit__
     + [https://github.com/jupyterhub](https://github.com/jupyterhub)
         + [https://mybinder.org](https://mybinder.org)
         + [https://notebooks.gesis.org](https://notebooks.gesis.org)
-    + [https://github.com/jupyterlab](https://github.com/jupyterlab)
 
 * [https://github.com/Kaggle](https://github.com/Kaggle)
     * [https://www.kaggle.com](https://www.kaggle.com)
@@ -245,7 +260,8 @@ vi /usr/libexec/urlgrabber-ext-down
 
 - `sudo apt install python3-pip`
 
-* [https://github.com/conda/conda](https://github.com/conda/conda)
+* Anaconda [https://github.com/ContinuumIO](https://github.com/ContinuumIO) 科学包及其依赖项的发行版本
+* [https://github.com/conda/conda](https://github.com/conda/conda) 包及其依赖项和环境的管理工具
 * [https://github.com/jazzband/pip-tools](https://github.com/jazzband/pip-tools)
 * [https://github.com/python-poetry/poetry](https://github.com/python-poetry/poetry)
 * [https://github.com/pyenv/pyenv](https://github.com/pyenv/pyenv)
