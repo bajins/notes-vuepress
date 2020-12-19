@@ -100,44 +100,6 @@ with Test() as t: # 触发__exit__
 
 
 
-**OCR**
-
-+ [https://github.com/topics/machine-learning](https://github.com/topics/machine-learning)
-+ [https://github.com/topics/deep-learning](https://github.com/topics/deep-learning)
-+ [https://github.com/topics/neural-network](https://github.com/topics/neural-network)
-+ [https://github.com/topics/computer-vision](https://github.com/topics/computer-vision)
-+ [https://github.com/topics/ocr](https://github.com/topics/ocr)
-+ [https://github.com/search?q=ocr](https://github.com/search?q=ocr)
-+ ncnn推理 [https://github.com/topics/ncnn](https://github.com/topics/ncnn)
-+ torch推理 [https://github.com/topics/pytorch](https://github.com/topics/pytorch)
-
-
-> `ImportError: libGL.so.1: cannot open shared object file: No such file or directory`
->> `apt install libgl1-mesa-glx` debian
->>
->> `yum install mesa-libGL-devel` centos
-
-
-* [https://github.com/alisen39/TrWebOCR](https://github.com/alisen39/TrWebOCR)
-    * `pip3 install libtorch numpy opencv-python Pillow tornado`
-* [https://github.com/ianzhao05/textshot](https://github.com/ianzhao05/textshot)
-* [https://github.com/ouyanghuiyu/chineseocr_lite](https://github.com/ouyanghuiyu/chineseocr_lite)
-    * `pip3 install tornado numpy opencv_python onnxruntime Shapely pyclipper Pillow`
-* [https://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)
-* [https://github.com/PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
-* ncnn [https://github.com/Tencent/ncnn](https://github.com/Tencent/ncnn)
-* crnn [https://github.com/meijieru/crnn.pytorch](https://github.com/meijieru/crnn.pytorch)
-* chineseocr [https://github.com/chineseocr/chineseocr](https://github.com/chineseocr/chineseocr)
-* Psenet [https://github.com/WenmuZhou/PSENet.pytorch](https://github.com/WenmuZhou/PSENet.pytorch)
-* 语言模型实现 [https://github.com/lukhy/masr](https://github.com/lukhy/masr)
-
-- [https://github.com/opencv](https://github.com/opencv)
-    - [https://github.com/skvark/opencv-python](https://github.com/skvark/opencv-python)
-- [https://github.com/ainize-team](https://github.com/ainize-team)
-    - [![Run on Ainize](https://ainize.ai/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=https://github.com/alisen39/TrWebOCR)
-- [https://github.com/d2l-ai](https://github.com/d2l-ai)
-
-
 **HTML文档解析**
 
 - Beautiful Soup 4 的中文文档 [https://github.com/DeronW/beautifulsoup](https://github.com/DeronW/beautifulsoup)
@@ -185,6 +147,71 @@ with Test() as t: # 触发__exit__
 * [https://www.huaweicloud.com/product/modelarts.html](https://www.huaweicloud.com/product/modelarts.html)
 
 
+
+## 人工智能
+
+> 深度学习是神经网络的深层神经网络。强化学习是独立于机器学习之外的分支，强化学习严格来说不属于机器学习，
+> 机器学习的任务是通过已知的训练集来学习目标函数，而强化学习不需要训练集。
+
+- 机器学习：一切通过优化方法挖掘数据中规律的学科。
+- 深度学习：一切运用了神经网络作为参数结构进行优化的机器学习算法。学习过程是静态的，训练样本是有标签的
+- 强化学习：不仅能利用现有数据，还可以通过对环境的探索获得新数据，并利用新数据循环往复地更新迭代现有模型的机器学习算法。学习过程是动态的，训练是没有标签的
+- 深度强化学习：一切运用了神经网络作为参数结构进行优化的强化学习算法。
+
++ [https://github.com/topics/machine-learning](https://github.com/topics/machine-learning)
++ [https://github.com/topics/deep-learning](https://github.com/topics/deep-learning)
++ [https://github.com/topics/neural-network](https://github.com/topics/neural-network)
++ [https://github.com/topics/computer-vision](https://github.com/topics/computer-vision)
++ ncnn推理 [https://github.com/topics/ncnn](https://github.com/topics/ncnn)
++ torch推理 [https://github.com/topics/pytorch](https://github.com/topics/pytorch)
+
+
+* [https://github.com/Tencent/ncnn](https://github.com/Tencent/ncnn)
+* [https://github.com/onnx/onnx](https://github.com/onnx/onnx)
+* [https://github.com/ARM-software/ComputeLibrary](https://github.com/ARM-software/ComputeLibrary)
+* [https://github.com/apache/incubator-mxnet](https://github.com/apache/incubator-mxnet)
+* [https://github.com/apache/incubator-systemml](https://github.com/apache/incubator-systemml)
+* [https://github.com/tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)
+* [https://github.com/Microsoft/CNTK](https://github.com/Microsoft/CNTK)
+* [https://github.com/deepmind/lab](https://github.com/deepmind/lab)
+* [https://github.com/pytorch/pytorch](https://github.com/pytorch/pytorch)
+* [https://github.com/scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)
+* [https://github.com/xianyi/OpenBLAS](https://github.com/xianyi/OpenBLAS)
+* [https://github.com/Theano/Theano](https://github.com/Theano/Theano)
+* [https://github.com/intel/caffe](https://github.com/intel/caffe)
+* [https://github.com/BVLC/caffe](https://github.com/BVLC/caffe)
+* [https://github.com/torch/torch7](https://github.com/torch/torch7)
+* crnn [https://github.com/meijieru/crnn.pytorch](https://github.com/meijieru/crnn.pytorch)
+* chineseocr [https://github.com/chineseocr/chineseocr](https://github.com/chineseocr/chineseocr)
+* Psenet [https://github.com/WenmuZhou/PSENet.pytorch](https://github.com/WenmuZhou/PSENet.pytorch)
+* 语言模型实现 [https://github.com/lukhy/masr](https://github.com/lukhy/masr)
+
+- [https://github.com/opencv](https://github.com/opencv)
+    - [https://github.com/skvark/opencv-python](https://github.com/skvark/opencv-python)
+- [https://github.com/ainize-team](https://github.com/ainize-team)
+    - [![Run on Ainize](https://ainize.ai/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=https://github.com/alisen39/TrWebOCR)
+- [https://github.com/d2l-ai](https://github.com/d2l-ai)
+
+
+
+**OCR**
+
++ [https://github.com/topics/ocr](https://github.com/topics/ocr)
++ [https://github.com/search?q=ocr](https://github.com/search?q=ocr)
+
+
+- `ImportError: libGL.so.1: cannot open shared object file: No such file or directory`
+    - `apt install libgl1-mesa-glx` debian
+    - `yum install mesa-libGL-devel` centos
+
+
+* [https://github.com/alisen39/TrWebOCR](https://github.com/alisen39/TrWebOCR)
+    * `pip3 install libtorch numpy opencv-python Pillow tornado`
+* [https://github.com/ianzhao05/textshot](https://github.com/ianzhao05/textshot)
+* [https://github.com/ouyanghuiyu/chineseocr_lite](https://github.com/ouyanghuiyu/chineseocr_lite)
+    * `pip3 install tornado numpy opencv_python onnxruntime Shapely pyclipper Pillow`
+* [https://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)
+* [https://github.com/PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 
 
 
