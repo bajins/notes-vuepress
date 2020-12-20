@@ -7,7 +7,6 @@
 
 ## Flag
 
-+ [https://github.com/opencontainers](https://github.com/opencontainers)
 + [https://github.com/docker](https://github.com/docker)
     + [https://www.docker.com](https://www.docker.com)
     + [https://docs.docker.com](https://docs.docker.com)
@@ -23,15 +22,20 @@
 * [随笔分类 - Docker](https://www.cnblogs.com/itoak/category/1769634.html)
 * [https://kany.me/tags/docker](https://kany.me/tags/docker)
 
-+ podman [https://github.com/containers](https://github.com/containers)
-    + [再见 Docker，是时候拥抱下一代容器工具了](https://mp.weixin.qq.com/s/MDi4RB5V60EGl3ii9usD0Q)
-    + [podman初试-和docker对比](https://blog.51cto.com/13447608/2448072)
+
+**其他容器技术**
+
++ OCI开放容器标准 [https://github.com/opencontainers](https://github.com/opencontainers)
+    + [https://opencontainers.org](https://opencontainers.org)
++ 云原生技术图谱 [https://github.com/cncf/landscape](https://github.com/cncf/landscape)
++ [OCI,CRI,CRI-O,Containerd 名词解释](https://blog.csdn.net/weixin_40864891/article/details/86655846)
 
 * [从开发者的角度比较Kubernetes和Cloud Foundry](http://dockone.io/article/5679)
 * [https://github.com/kubernetes](https://github.com/kubernetes)
     * [https://github.com/kubernetes-incubator](https://github.com/kubernetes-incubator)
     * [https://kubernetes.io](https://kubernetes.io)
 * Kubernetes的软件包管理器 [https://github.com/helm](https://github.com/helm)
+* [https://github.com/kinvolk](https://github.com/kinvolk)
 * [https://github.com/dapr](https://github.com/dapr)
 * [https://github.com/dokku](https://github.com/dokku)
 * [https://github.com/cloudfoundry](https://github.com/cloudfoundry)
@@ -39,16 +43,42 @@
     * [https://www.cloudfoundry.org](https://www.cloudfoundry.org)
 * [cloud-foundry 的动态 - SegmentFault 思否](https://segmentfault.com/t/cloud-foundry)
 * [https://www.terraform.io](https://www.terraform.io)
+* [https://github.com/rancher/rancher](https://github.com/rancher/rancher)
+* [https://github.com/mesosphere/marathon](https://github.com/mesosphere/marathon)
 * Ansible
 * Packer
 * 谷歌、IBM、微软、Pivotal、SAP、SUSE、Swisscom、GE
 * DevOps
-* [https://github.com/kata-containers](https://github.com/kata-containers)
-    * [https://www.katacoda.com](https://www.katacoda.com)
-    * [https://github.com/hyperhq](https://github.com/hyperhq)
-        * [https://www.hyperhq.com](https://www.hyperhq.com)
-    * [https://github.com/clearcontainers](https://github.com/clearcontainers)
-* [https://github.com/chaosblade-io/chaosblade](https://github.com/chaosblade-io/chaosblade)
+* [https://github.com/openzfs/zfs](https://github.com/openzfs/zfs)
+* [https://github.com/wekan/wekan](https://github.com/wekan/wekan)
+
+
+- [https://github.com/systemd](https://github.com/systemd)
+    - [systemd-nspawn以及container的学习](https://www.cnblogs.com/godcrying1202/archive/2004/01/13/14122532.html)
+- [https://github.com/coreos](https://github.com/coreos)
+- Linux Container [https://github.com/lxc/lxc](https://github.com/lxc/lxc)
+    - [https://linuxcontainers.org](https://linuxcontainers.org)
+    - [https://github.com/tailhook/unshare](https://github.com/tailhook/unshare)
+- podman [https://github.com/containers](https://github.com/containers)
+    - [再见 Docker，是时候拥抱下一代容器工具了](https://mp.weixin.qq.com/s/MDi4RB5V60EGl3ii9usD0Q)
+    - [podman初试-和docker对比](https://blog.51cto.com/13447608/2448072)
+- [https://github.com/containerd/containerd](https://github.com/containerd/containerd)
+- [https://github.com/moby/moby](https://github.com/moby/moby)
+- [https://github.com/coreos](https://github.com/coreos)
+- [https://github.com/cri-o/cri-o](https://github.com/cri-o/cri-o)
+- [https://github.com/kata-containers](https://github.com/kata-containers)
+    - [https://www.katacoda.com](https://www.katacoda.com)
+    - [https://github.com/hyperhq](https://github.com/hyperhq)
+        - [https://www.hyperhq.com](https://www.hyperhq.com)
+    - [https://github.com/clearcontainers](https://github.com/clearcontainers)
+- [https://github.com/chaosblade-io/chaosblade](https://github.com/chaosblade-io/chaosblade)
+- [https://github.com/alibaba/pouch](https://github.com/alibaba/pouch)
+- [https://github.com/singularity/singularity](https://github.com/singularity/singularity)
+- [https://github.com/apache/mesos](https://github.com/apache/mesos)
+    - [https://github.com/mesos](https://github.com/mesos)
+- [https://github.com/OpenVZ](https://github.com/OpenVZ)
+
+
 
 **Docker搭建私有仓库**
 

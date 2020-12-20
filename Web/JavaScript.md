@@ -66,6 +66,8 @@
 ```js
 /**
  * CommonJS 主要是NodeJs使用
+ * 在一个node执行一个文件时，会给这个文件内生成一个 exports和module对象，而module有一个exports属性。
+ * exports = module.exports = {};
  */
 module.exports.x = x; // 导出模块
 module.exports  = {};
@@ -115,10 +117,15 @@ define(function(require,exports,module){
 
 /**
  * ECMAScript6
+ * export与export default均可用于导出常量、函数、文件、模块等
+ * 在一个文件或模块中，export、import可以有多个，export default仅有一个
+ * 通过export方式导出，在导入时要加{ }，export default则不需要
+ * export能直接导出变量表达式，export default不行。
  */
 export x = x; // 导出模块
 export default {} // 为模块指定默认输出
 import { stat, exists, readFile } from 'fs'; // 导入模块
+var express = require('express');
 ```
 
 - `Uncaught SyntaxError: Cannot use import statement outside a module`
