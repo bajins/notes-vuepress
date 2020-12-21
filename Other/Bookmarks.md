@@ -63,6 +63,7 @@
 - 各种非常棒的学习项目 [https://github.com/jobbole](https://github.com/jobbole)
 - [https://github.com/doocs](https://github.com/doocs)
 - [https://github.com/apachecn](https://github.com/apachecn)
+- [https://github.com/PacktPublishing](https://github.com/PacktPublishing)
 
 
 

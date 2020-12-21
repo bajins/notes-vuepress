@@ -234,6 +234,7 @@ SELECT A.* FROM SPEC_RATE_ORIGIN A INNER JOIN (
 * [SQLite 教程](https://www.runoob.com/sqlite/sqlite-tutorial.html)
 * [SQLite3 数据类型与亲和类型](https://blog.csdn.net/feiyihexin/article/details/99728504)
 
+- [https://github.com/utelle/wxsqlite3](https://github.com/utelle/wxsqlite3)
 
 
 **连接符**
@@ -287,6 +288,7 @@ SELECT A.* FROM SPEC_RATE_ORIGIN A INNER JOIN (
 
 ## MongoDB
 
+* 客户端 [https://github.com/Studio3T/robomongo](https://github.com/Studio3T/robomongo)
 
 
 ## 免费数据库

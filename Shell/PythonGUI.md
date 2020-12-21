@@ -5,8 +5,51 @@
 
 
 
+## Flag
+
+* [https://github.com/pyqtgraph/pyqtgraph](https://github.com/pyqtgraph/pyqtgraph)
+
+
+
+**Tkinter**
+
++ [https://docs.python.org/zh-cn/3/library/tkinter.html](https://docs.python.org/zh-cn/3/library/tkinter.html)
+
+* [https://sourceforge.net/projects/tcl](https://sourceforge.net/projects/tcl)
+* [https://github.com/doudoudzj/tkinter-learn](https://github.com/doudoudzj/tkinter-learn)
+* [https://github.com/doudoudzj/tkinter-examples](https://github.com/doudoudzj/tkinter-examples)
+
+
+**PyQt**
+
+* [https://github.com/qt/qt5](https://github.com/qt/qt5)
+* [https://github.com/pyqt](https://github.com/pyqt)
+* [https://github.com/PyQt5/PyQt](https://github.com/PyQt5/PyQt)
+* [https://github.com/PyQt5/QtDesigner](https://github.com/PyQt5/QtDesigner)
+
++ [https://github.com/ColinDuquesnoy/QDarkStyleSheet](https://github.com/ColinDuquesnoy/QDarkStyleSheet)
++ [https://github.com/mottosso/Qt.py](https://github.com/mottosso/Qt.py)
+
+- PyQt5快速开发与实战 [https://github.com/cxinping/PyQt5](https://github.com/cxinping/PyQt5)
+- PyQt5中文教程 [https://github.com/maicss/PyQt5-Chinese-tutorial](https://github.com/maicss/PyQt5-Chinese-tutorial)
+
+* [pyqt5 参考代码 github 参考项目](https://blog.csdn.net/wowocpp/article/details/105759105)
+
+
+**PyGObject**
+
+* [https://pygobject.readthedocs.io/en/latest/](https://pygobject.readthedocs.io/en/latest)
+
+> `PyGObject`是一个`Python`包，它为基于`GObject`的库提供绑定，例如`GTK`、`GStreamer`、`WebKitGTK`、`GLib`、`GIO`等等。
+
+> 它支持`Linux`，`Windows`和`macOS`，适用于`Python2.7+`、`Python3.5+`、`PyPy`和`PyPy3`。
+
+
+
+
 ## wxPython
 
+* [https://github.com/wxWidgets/wxWidgets](https://github.com/wxWidgets/wxWidgets)
 * [https://wxpython.org/pages/overview/](https://wxpython.org/pages/overview)
 
 > `wxPython`是一个用于`Python`编程语言的跨平台`GUI`工具包。包含流行的`wxWidgets`跨平台库的`GUI`组件，该库是用`C++`编写的。
@@ -16,13 +59,7 @@
 * [http://thisis.yorven.site/blog/index.php/2017/09/16/wxpython-jiaocheng-yi/](http://thisis.yorven.site/blog/index.php/2017/09/16/wxpython-jiaocheng-yi)
 * [https://github.com/necan/wxPython-tutorial/blob/master/1.%E4%BB%8B%E7%BB%8D.md](https://github.com/necan/wxPython-tutorial/blob/master/1.%E4%BB%8B%E7%BB%8D.md)
 * [https://jusene.github.io/2017/12/26/wxpython/](https://jusene.github.io/2017/12/26/wxpython)
-* [http://www.17python.com/?c=9](http://www.17python.com/?c=9)
-* [WxPython教程](https://www.yiibai.com/wxpython)
-
-- [https://www.jianshu.com/p/a3803f130c99](https://www.jianshu.com/p/a3803f130c99)
-- [https://blog.csdn.net/mist99/article/details/80742548](https://blog.csdn.net/mist99/article/details/80742548)
-- [https://blog.csdn.net/xufive/article/details/82665460](https://blog.csdn.net/xufive/article/details/82665460)
-- [https://blog.csdn.net/u014647208/article/details/77895274](https://blog.csdn.net/u014647208/article/details/77895274)
+* [https://github.com/ubbn/wxPython](https://github.com/ubbn/wxPython)
 
 
 > `wx.Window` 是一个基类，许多构件从它继承。包括`wx.Frame`构件。可以在所有的子类中使用`wx.Window`的方法。
@@ -602,15 +639,6 @@ if __name__ == "__main__":
 ```
 
 
-
-
-## PyGObject
-
-* [https://pygobject.readthedocs.io/en/latest/](https://pygobject.readthedocs.io/en/latest)
-
-> `PyGObject`是一个`Python`包，它为基于`GObject`的库提供绑定，例如`GTK`、`GStreamer`、`WebKitGTK`、`GLib`、`GIO`等等。
-
-> 它支持`Linux`，`Windows`和`macOS`，适用于`Python2.7+`、`Python3.5+`、`PyPy`和`PyPy3`。
 
 
 

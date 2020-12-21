@@ -18,7 +18,7 @@
 * [https://github.com/toptal/gitignore.io](https://github.com/toptal/gitignore.io)
 * [reposurgeon是一种工具,用于编辑版本控制存储库的历史](http://www.catb.org/esr/reposurgeon)
 * [https://github.com/gitextensions/gitextensions](https://github.com/gitextensions/gitextensions)
-
+* GUI [https://github.com/git-cola/git-cola](https://github.com/git-cola/git-cola)
 
 
 ## 安装最新版
