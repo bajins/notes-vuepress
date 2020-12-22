@@ -90,7 +90,7 @@ define(['dependency'],function(){
     }
 });
 //加载模块
-require(['myModule],function(my){
+require(['myModule'],function(my){
     my.printName();
 });
 
@@ -509,6 +509,14 @@ jQuery.fn.extend({
 /* *** 调用举例  ***/
 var $p = $('p#id_2');
 var success = $p.move('up');	//移动成功则为true，否则false
+```
+
+```js
+// 原生JS DOM里有一个内置属性outerHTML，用来获取当前节点的html代码(包含当前节点本身)
+$(".test").prop("outerHTML");
+
+// Jquery设置outerHTML
+$('.test').prop('outerHTML', '<div>');
 ```
 
 
