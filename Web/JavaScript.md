@@ -164,6 +164,7 @@ var express = require('express');
 * [https://github.com/ionic-team](https://github.com/ionic-team)
 * [http://www.jeasyui.com](http://www.jeasyui.com)
 * 响应式框架 [https://github.com/foundation](https://github.com/foundation)
+* [https://github.com/jorgebucaran/hyperapp](https://github.com/jorgebucaran/hyperapp)
 
 
 
@@ -205,6 +206,10 @@ var express = require('express');
 * SVG渲染图像占位符 [https://github.com/imsky/holder](https://github.com/imsky/holder)
 * [https://github.com/dankogai/js-base64](https://github.com/dankogai/js-base64)
 * 交互式医学图像 [https://github.com/cornerstonejs/cornerstone](https://github.com/cornerstonejs/cornerstone)
+* 提示和弹出框 [https://github.com/popperjs/popper-core](https://github.com/popperjs/popper-core)
+* alert()和confirm()包装 [https://github.com/makeusabrew/bootbox](https://github.com/makeusabrew/bootbox)
+* 选色器 [https://github.com/bgrins/spectrum](https://github.com/bgrins/spectrum)
+
 
 - [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
 - [https://github.com/sentsin/layui](https://github.com/sentsin/layui)
@@ -251,6 +256,10 @@ var express = require('express');
 * [https://github.com/proYang/outils](https://github.com/proYang/outils)
 * [https://github.com/30-seconds/30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)
 * 工具库 [https://github.com/tnfe/bbo](https://github.com/tnfe/bbo)
+* 代码格式化 [https://github.com/prettier/prettier](https://github.com/prettier/prettier)
+* 转换HTML/XML [https://github.com/posthtml/posthtml](https://github.com/posthtml/posthtml)
+* 幻灯片 [https://github.com/webslides/webslides](https://github.com/webslides/webslides)
+* [https://github.com/gnab/remark](https://github.com/gnab/remark)
 
 
 

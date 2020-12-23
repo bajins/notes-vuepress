@@ -206,6 +206,11 @@
 - [https://github.com/yeriomin/YalpStore](https://github.com/yeriomin/YalpStore)
 
 
+* [https://www.coolapk.com/apk/tag/微博](https://www.coolapk.com/apk/tag/%E5%BE%AE%E5%8D%9A)
+* [https://www.coolapk.com/apk/com.caij.see](https://www.coolapk.com/apk/com.caij.see)
+* [https://www.coolapk.com/apk/com.hengye.share](https://www.coolapk.com/apk/com.hengye.share)
+
+
 
 **下载Google Play Store上的应用**
 

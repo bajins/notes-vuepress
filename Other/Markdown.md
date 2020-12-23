@@ -13,8 +13,8 @@
 > GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，
 > 除了README文件外，issues和wiki均支持markdown语法。
 
-
-* [https://github.com/commonmark](https://github.com/commonmark)
+* [https://daringfireball.net/projects/markdown](https://daringfireball.net/projects/markdown)
+    * [https://daringfireball.net/projects/markdown/dingus](https://daringfireball.net/projects/markdown/dingus)
 * [GitHub Flavored Markdown基本撰写和格式语法](https://help.github.com/cn/github/writing-on-github/basic-writing-and-formatting-syntax)
 * [https://segmentfault.com/markdown](https://segmentfault.com/markdown)
 * [https://github.com/guodongxiaren/README](https://github.com/guodongxiaren/README)
@@ -420,6 +420,10 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://knb.im/mp](https://knb.im/mp)
 * [https://github.com/ufologist/wechat-mp-article](https://github.com/ufologist/wechat-mp-article)
 * [https://github.com/barretlee/online-markdown](https://github.com/barretlee/online-markdown)
+* [https://github.com/wangduanduan/m2w-transform](https://github.com/wangduanduan/m2w-transform)
+    * [https://wdd.js.org/m2w-transform](https://wdd.js.org/m2w-transform)
+* [https://github.com/lyricat/wechat-format](https://github.com/lyricat/wechat-format)
+    * [https://lab.lyric.im/wxformat](https://lab.lyric.im/wxformat)
 
 - [mp-transform-public](https://github.com/ZhuPeng/mp-transform-public)
 
@@ -430,11 +434,10 @@ string &operator+(const string& A,const string& B) //cpp
 > `HTML`表格转`Excel`可以直接在`office Excel`中点击 `数据` -> `自网站` -> `URL` 然后进行操作
 
 * [https://tableconvert.com](https://tableconvert.com)
-* [https://github.com/stevecat/table-magic](https://github.com/stevecat/table-magic)
 * [https://www.tablesgenerator.com/markdown_tables](https://www.tablesgenerator.com/markdown_tables)
 * [https://markdown-convert.com/zh](https://markdown-convert.com/zh)
+* [https://github.com/stevecat/table-magic](https://github.com/stevecat/table-magic)
 * [https://github.com/jakebathman/Markdown-Table-Generator](https://github.com/jakebathman/Markdown-Table-Generator)
-* [https://github.com/domchristie/turndown](https://github.com/domchristie/turndown)
 * [https://github.com/donatj/CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable)
 * [https://github.com/jonmagic/copy-excel-paste-markdown](https://github.com/jonmagic/copy-excel-paste-markdown)
 
@@ -444,6 +447,10 @@ string &operator+(const string& A,const string& B) //cpp
 
 > `TOC` [https://en.wikipedia.org/wiki/Table_of_contents](https://en.wikipedia.org/wiki/Table_of_contents)
 
++ [https://github.com/topics/toc](https://github.com/topics/toc)
++ [https://github.com/topics/table-of-contents](https://github.com/topics/table-of-contents)
++ [https://github.com/topics/toc-generator](https://github.com/topics/toc-generator)
++ [https://github.com/topics/markdown-toc](https://github.com/topics/markdown-toc)
 
 * [https://github.com/dohliam/tocdown](https://github.com/dohliam/tocdown)
     * [https://dohliam.github.io/tocdown](https://dohliam.github.io/tocdown)
@@ -454,19 +461,29 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/dkyaorui/MDToc](https://github.com/dkyaorui/MDToc)
 * [https://github.com/medfreeman/markdown-it-toc-and-anchor](https://github.com/medfreeman/markdown-it-toc-and-anchor)
 * [https://github.com/jonschlinkert/gulp-format-md](https://github.com/jonschlinkert/gulp-format-md)
+* [https://github.com/remarkablemark/mdtocs](https://github.com/remarkablemark/mdtocs)
+    * [https://remarkablemark.org/mdtocs](https://remarkablemark.org/mdtocs)
+* [https://github.com/luciopaiva/markdown-toc](https://github.com/luciopaiva/markdown-toc)
+    * [https://luciopaiva.com/markdown-toc](https://luciopaiva.com/markdown-toc)
 
 
-### 转换器
+### 解析库
+
++ [https://github.com/topics/markdown](https://github.com/topics/markdown)
++ [https://github.com/topics/markdown-to-html](https://github.com/topics/markdown-to-html)
 
 * [https://github.com/domchristie/turndown](https://github.com/domchristie/turndown)
     * [https://domchristie.github.io/turndown](https://domchristie.github.io/turndown)
 * [https://github.com/markdown-it/markdown-it](https://github.com/markdown-it/markdown-it)
 * [https://github.com/markedjs/marked](https://github.com/markedjs/marked)
+    * [https://marked.js.org/demo](https://marked.js.org/demo)
 * [https://github.com/mdnice/markdown-resume](https://github.com/mdnice/markdown-resume)
 * [https://github.com/syfxlin/xkeditor](https://github.com/syfxlin/xkeditor)
 * [https://github.com/pandao/editor.md](https://github.com/pandao/editor.md)
 * [https://github.com/jonschlinkert/remarkable](https://github.com/jonschlinkert/remarkable)
 * [https://github.com/benweet/stackedit](https://github.com/benweet/stackedit)
+* [https://github.com/commonmark/commonmark.js](https://github.com/commonmark/commonmark.js)
+* [https://github.com/showdownjs/showdown](https://github.com/showdownjs/showdown)
 
 
 
@@ -480,6 +497,10 @@ string &operator+(const string& A,const string& B) //cpp
 * Markdown Plus [http://mdp.tylingsoft.com](http://mdp.tylingsoft.com)
 * 小书匠 [http://markdown.xiaoshujiang.com](http://markdown.xiaoshujiang.com)
 * Cmd Markdown [https://www.zybuluo.com/mdeditor](https://www.zybuluo.com/mdeditor)
+* [https://github.com/JP1016/Markdown](https://github.com/JP1016/Markdown)
+* [https://github.com/aromalanil/markItDown](https://github.com/aromalanil/markItDown)
+    * [https://markitdown.netlify.app](https://markitdown.netlify.app)
+
 
 
 ### 本地版客户端
@@ -491,5 +512,7 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/MacDownApp/macdown](https://github.com/MacDownApp/macdown)
 * [https://github.com/Zettlr/Zettlr](https://github.com/Zettlr/Zettlr)
 * [https://github.com/rickstrahl/MarkdownMonster](https://github.com/rickstrahl/MarkdownMonster)
-
-
+* [https://github.com/marktext/marktext](https://github.com/marktext/marktext)
+* [https://github.com/notable/notable](https://github.com/notable/notable)
+* [https://github.com/nhn/tui.editor](https://github.com/nhn/tui.editor)
+* [https://github.com/aguang-xyz/aurora-editor](https://github.com/aguang-xyz/aurora-editor)

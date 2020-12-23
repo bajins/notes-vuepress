@@ -181,6 +181,8 @@
 * 广场· 看云 [https://www.kancloud.cn/explore](https://www.kancloud.cn/explore)
 * 印记中文 -前端开发文档 [https://docschina.org](https://docschina.org)
 * [https://exploringjs.com](https://exploringjs.com)
+* [https://github.com/MrAlex6204/Books](https://github.com/MrAlex6204/Books)
+* [https://github.com/ameizi/DevArticles](https://github.com/ameizi/DevArticles)
 
 
 
