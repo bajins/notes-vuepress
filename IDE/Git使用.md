@@ -16,6 +16,9 @@
 + Git的奇技淫巧: [https://github.com/521xueweihan/git-tips](https://github.com/521xueweihan/git-tips)
 + 猴子都能懂的GIT入门: [https://backlog.com/git-tutorial/cn/contents](https://backlog.com/git-tutorial/cn/contents)
 + [Git与Subversion的命令对比表](https://website-proxy.backlogtool.com/git-tutorial/cn/reference/git-svn.html)
++ [https://github.com/progit](https://github.com/progit)
+  + [http://git-scm.com/book](http://git-scm.com/book)
++ [https://github.com/libgit2](https://github.com/libgit2)
 
 * [Git 团队协作中常用术语 WIP PTAL CC LGTM 等解释](https://blog.csdn.net/kunyus/article/details/93472646)
 

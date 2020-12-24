@@ -23,27 +23,6 @@
     * [https://theia-ide.org](https://theia-ide.org)
 * [https://github.com/VSCodium/vscodium](https://github.com/VSCodium/vscodium)
 
-- [https://sonarcloud.io](https://sonarcloud.io)
-- [https://semmle.com](https://semmle.com)
-    - [https://lgtm.com](https://lgtm.com)
-- [https://www.openhub.net](https://www.openhub.net)
-- [https://bestpractices.coreinfrastructure.org](https://bestpractices.coreinfrastructure.org)
-
-
-**SVN**
-
-- [https://github.com/topics/subversion](https://github.com/topics/subversion)
-- [https://github.com/apache/subversion](https://github.com/apache/subversion)
-- [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
-  - [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
-  - [https://tortoisegit.org/download](https://tortoisegit.org/download)
-- [https://www.visualsvn.com/downloads](https://www.visualsvn.com/downloads)
-    - [在Windows下使用svn命令行教程及svn命令行的解释](https://blog.csdn.net/yangxiao2shi/article/details/50719286)
-- [https://sliksvn.com/pub](https://sliksvn.com/pub)
-- [https://github.com/jenkinsci/subversion-plugin](https://github.com/jenkinsci/subversion-plugin)
-- [https://github.com/subclipse](https://github.com/subclipse)
-- Subversion for Java [https://svnkit.com](https://svnkit.com)
-- Subversion Edge：RESTful API [https://www.collab.net/downloads/subversion](https://www.collab.net/downloads/subversion)
 
 
 
