@@ -11,7 +11,8 @@
 * [https://github.com/oracle/graal](https://github.com/oracle/graal)
 * [http://openjdk.java.net/jeps/333](http://openjdk.java.net/jeps/333)
 
-
+- 通用VM [https://github.com/graalvm](https://github.com/graalvm)
+- [https://github.com/oracle/graal](https://github.com/oracle/graal)
 
 
 

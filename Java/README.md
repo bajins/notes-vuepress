@@ -114,6 +114,10 @@
 
 * [http://mvnrepository.com](http://mvnrepository.com)
 * [https://search.maven.org](https://search.maven.org)
+* [https://nexus.pentaho.org](https://nexus.pentaho.org)
+* [https://public.nexus.pentaho.org](https://public.nexus.pentaho.org)
+* JFrog Bintray [https://github.com/bintray](https://github.com/bintray)
+    * [https://bintray.com](https://bintray.com)
 
 + maven-jar-plugin 默认的打包插件，用来打普通的project JAR包；
 + maven-shade-plugin 用来打可执行JAR包，也就是所谓的fat JAR包；
@@ -223,29 +227,21 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 * jwt [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)
 * [https://github.com/auth0/java-jwt](https://github.com/auth0/java-jwt)
-
-+ [https://github.com/rabbitmq](https://github.com/rabbitmq)
-* [Kafka安装及入门](http://jaychang.cn/2020/03/15/afka%E5%AE%89%E8%A3%85%E5%8F%8A%E5%85%A5%E9%97%A8)
-
-
-- [https://github.com/xuxueli](https://github.com/xuxueli)
-
-
-- [https://github.com/elastic/elasticsearch](https://github.com/elastic/elasticsearch)
-- [https://github.com/apache/lucene-solr](https://github.com/apache/lucene-solr)
-- [https://gitee.com/jd-platform-opensource/hotkey](https://gitee.com/jd-platform-opensource/hotkey)
-
-
-+ [https://sourceforge.net/projects/jsch](https://sourceforge.net/projects/jsch)
-    + [JSch-用java实现服务器远程操作](https://segmentfault.com/a/1190000019967309)
-+ [https://github.com/apache/maven-wagon](https://github.com/apache/maven-wagon)
-
+* [https://github.com/rabbitmq](https://github.com/rabbitmq)
+* [https://github.com/apache/kafka](https://github.com/apache/kafka)
+    * [Kafka安装及入门](http://jaychang.cn/2020/03/15/afka%E5%AE%89%E8%A3%85%E5%8F%8A%E5%85%A5%E9%97%A8)
+    * [https://github.com/spring-projects](https://github.com/spring-projects)
+* [https://github.com/xuxueli](https://github.com/xuxueli)
+* [https://github.com/elastic/elasticsearch](https://github.com/elastic/elasticsearch)
+* [https://github.com/apache/lucene-solr](https://github.com/apache/lucene-solr)
+* [https://gitee.com/jd-platform-opensource/hotkey](https://gitee.com/jd-platform-opensource/hotkey)
+* [https://sourceforge.net/projects/jsch](https://sourceforge.net/projects/jsch)
+    * [JSch-用java实现服务器远程操作](https://segmentfault.com/a/1190000019967309)
+* [https://github.com/apache/maven-wagon](https://github.com/apache/maven-wagon)
 * [https://projects.eclipse.org/projects/technology.microprofile](https://projects.eclipse.org/projects/technology.microprofile)
     * [https://github.com/eclipse/microprofile](https://github.com/eclipse/microprofile)
-
-
-- [https://github.com/webjars](https://github.com/webjars)
-    - [https://www.webjars.org](https://www.webjars.org)
+* [https://github.com/webjars](https://github.com/webjars)
+    * [https://www.webjars.org](https://www.webjars.org)
 
 
 
@@ -314,6 +310,9 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 + [https://github.com/0opslab/opslabJutil](https://github.com/0opslab/opslabJutil)
 + [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
 + [https://github.com/apache/commons-lang](https://github.com/apache/commons-lang)
++ 流式断言器 [https://github.com/assertj](https://github.com/assertj)
+    + [https://assertj.github.io/doc](https://assertj.github.io/doc)
++ [https://github.com/hamcrest/JavaHamcrest](https://github.com/hamcrest/JavaHamcrest)
 
 * [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
 * [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
@@ -490,11 +489,21 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 + [https://github.com/topics/javafx](https://github.com/topics/javafx)
 + [https://github.com/topics/openjfx](https://github.com/topics/openjfx)
++ [https://github.com/topics/javafx-desktop-apps](https://github.com/topics/javafx-desktop-apps)
 + [https://github.com/openjdk/jfx](https://github.com/openjdk/jfx)
 + [https://github.com/javafxports/openjdk-jfx](https://github.com/javafxports/openjdk-jfx)
 + [https://github.com/openjdk/jfx11](https://github.com/openjdk/jfx11)
 + [https://github.com/openjfx](https://github.com/openjfx)
     + [https://openjfx.io](https://openjfx.io)
+
+- [https://github.com/topics/fontawesomefx](https://github.com/topics/fontawesomefx)
+    - [https://bitbucket.org/Jerady/fontawesomefx](https://bitbucket.org/Jerady/fontawesomefx)
+    - [https://bintray.com/jerady/maven/FontAwesomeFX](https://bintray.com/jerady/maven/FontAwesomeFX)
+    - [https://github.com/Jerady/fontawesomefx-jigsaw-modules](https://github.com/Jerady/fontawesomefx-jigsaw-modules)
+- [https://github.com/mhrimaz/AwesomeJavaFX](https://github.com/mhrimaz/AwesomeJavaFX)
+- Google Material Design [https://github.com/jfoenixadmin/JFoenix](https://github.com/jfoenixadmin/JFoenix)
+- [https://github.com/gluonhq/connect](https://github.com/gluonhq/connect)
+- 仪表板 [https://github.com/HanSolo/tilesfx](https://github.com/HanSolo/tilesfx)
 
 * [JavaFX最新消息](http://fxexperience.com)
 * [使用Java 9的模块化来构建零依赖的原生应用](https://www.tuicool.com/articles/eiu2EnR)
@@ -505,3 +514,4 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [JavaFX 实现截图](http://www.private-blog.com/2018/01/29/javafx-%E5%AE%9E%E7%8E%B0webview%E6%88%AA%E5%9B%BE)
 * Java多线程下载GUI [https://github.com/fengxiaocan/Downloader](https://github.com/fengxiaocan/Downloader)
 * [https://github.com/proxyee-down-org/proxyee-down](https://github.com/proxyee-down-org/proxyee-down)
+* [IDEA通过Maven打包JavaFX工程（OpenJFX11）](https://www.cnblogs.com/6b7b5fc3/p/12990161.html)

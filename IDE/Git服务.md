@@ -21,6 +21,9 @@
 - 获取动态生成的GitHub统计信息 [https://github.com/anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
 
 
+* [https://github.com/scm-manager/scm-manager](https://github.com/scm-manager/scm-manager)
+* [https://www.mercurial-scm.org](https://www.mercurial-scm.org)
+
 
 **代码跟踪分析**
 

@@ -22,6 +22,8 @@
 + `javap -verbose 文件` 查看class文件内容
 + [https://github.com/ClassViewer](https://github.com/ClassViewer)
 + [https://github.com/zxh0/classpy](https://github.com/zxh0/classpy)
++ 打包 [https://github.com/shevek/jarjar](https://github.com/shevek/jarjar)
+
 
 
 **其他命令**
