@@ -102,6 +102,7 @@
     * [https://yun.naodai.org/Software](https://yun.naodai.org/Software)
     * [https://go.naodai.org/Software](https://go.naodai.org/Software)
 * Mac [https://www.macbl.com](https://www.macbl.com)
+* [http://xclient.info](http://xclient.info)
 * [https://github.com/xyjoey/fxxkmakeding](https://github.com/xyjoey/fxxkmakeding)
     * [https://www.fxxkmakeding.xyz](https://www.fxxkmakeding.xyz)
 * [https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367)
@@ -457,7 +458,53 @@
 + Office 卸载支持工具 [https://outlookdiagnostics.azureedge.net/sarasetup/SetupProd_OffScrub.exe](https://outlookdiagnostics.azureedge.net/sarasetup/SetupProd_OffScrub.exe)
 + [手动卸载 Office](https://support.microsoft.com/zh-cn/office/%E6%89%8B%E5%8A%A8%E5%8D%B8%E8%BD%BD-office-4e2904ea-25c8-4544-99ee-17696bb3027b)
 
+* 在线文档 [https://personal.onlyoffice.com](https://personal.onlyoffice.com)
 * PDF阅览器 [https://fsfe.org/pdfreaders/pdfreaders.zh.html](https://fsfe.org/pdfreaders/pdfreaders.zh.html)
+
+- [https://shoppy.gg/@mantastyle](https://shoppy.gg/@mantastyle)
+- [https://ip.ci](https://ip.ci)
+- [https://jimschool.org](https://jimschool.org)
+- [https://free365.ltd](https://free365.ltd)
+    - [https://a1_free365.a1od.workers.dev](https://a1_free365.a1od.workers.dev)
+    - [https://e3_free365.a1od.workers.dev](https://e3_free365.a1od.workers.dev)
+    - [https://a1p.zha.bi](https://a1p.zha.bi)
+    - [https://a1_sc.a1od.workers.dev](https://a1_sc.a1od.workers.dev)
+- [https://25t.zxd.workers.dev](https://25t.zxd.workers.dev)
+- [http://xyxywan.gitee.io/web/index.html](http://xyxywan.gitee.io/web/index.html)
+- [https://onedrive.2o.workers.dev](https://onedrive.2o.workers.dev)
+- [http://office.mystrk.gq](http://office.mystrk.gq)
+- [https://ceo.qiantigers.workers.dev](https://ceo.qiantigers.workers.dev)
+- [https://mail365.xyz](https://mail365.xyz)
+- [https://azzzzzz.lx.workers.dev](https://azzzzzz.lx.workers.dev)
+- [https://a1.lx.workers.dev](https://a1.lx.workers.dev)
+- [http://office.zx.al](http://office.zx.al)
+- [https://od.wulel.cn](https://od.wulel.cn)
+- [http://my.ehsrr.com](http://my.ehsrr.com)
+- [https://zcnp.azurewebsites.net](https://zcnp.azurewebsites.net)
+- [https://od.kbbldh.workers.dev](https://od.kbbldh.workers.dev)
+- [http://zcmail.azurewebsites.net](http://zcmail.azurewebsites.net)
+- [https://www.1tb.fun](https://www.1tb.fun)
+- [https://od.malahu.tk](https://od.malahu.tk)
+- [https://malahu.n5.myws.ca](https://malahu.n5.myws.ca)
+- [https://od.wulel.cn](https://od.wulel.cn)
+- [https://tb.mygindex.workers.dev](https://tb.mygindex.workers.dev)
+- [https://a1p.huiju.in](https://a1p.huiju.in)
+- [https://a1.zxd.workers.dev](https://a1.zxd.workers.dev)
+- [https://freea1p.art](https://freea1p.art)
+
+
+**发卡商店**
+
+- [https://shop.luck6.org](https://shop.luck6.org)
+- [https://shop.v2ex.ltd](https://shop.v2ex.ltd)
+- [https://hpg.ac.cn](https://hpg.ac.cn)
+- [https://ip.ci](https://ip.ci)
+- [https://edu.laji.shop](https://edu.laji.shop)
+- [https://21g.in](https://21g.in)
+- [https://shop.15t.in](https://shop.15t.in)
+- [https://shop.xjisme.com](https://shop.xjisme.com)
+- [https://schoolbus.store](https://schoolbus.store)
+
 
 
 ### wps

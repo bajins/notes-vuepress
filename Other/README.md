@@ -186,6 +186,7 @@
 * [http://mail.hrka.net](http://mail.hrka.net)
 * [http://mail.binye.xyz](http://mail.binye.xyz)
 * [http://forsaken.somecolor.cc](http://forsaken.somecolor.cc)
+* [http://mail.0du.win](http://mail.0du.win)
 
 
 

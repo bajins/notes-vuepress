@@ -23,7 +23,7 @@
 + [https://github.com/ClassViewer](https://github.com/ClassViewer)
 + [https://github.com/zxh0/classpy](https://github.com/zxh0/classpy)
 + 打包 [https://github.com/shevek/jarjar](https://github.com/shevek/jarjar)
-
++ [https://github.com/janino-compiler/janino](https://github.com/janino-compiler/janino)
 
 
 **其他命令**

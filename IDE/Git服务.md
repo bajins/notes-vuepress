@@ -23,7 +23,7 @@
 
 * [https://github.com/scm-manager/scm-manager](https://github.com/scm-manager/scm-manager)
 * [https://www.mercurial-scm.org](https://www.mercurial-scm.org)
-
+* 代码语法突出 [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 
 **代码跟踪分析**
 
@@ -33,7 +33,7 @@
 - [https://www.openhub.net](https://www.openhub.net)
 - [https://bestpractices.coreinfrastructure.org](https://bestpractices.coreinfrastructure.org)
 - Gerrit [https://www.gerritcodereview.com](https://www.gerritcodereview.com)
-
+  - [https://gerrit.asterisk.org/Documentation/index.html](https://gerrit.asterisk.org/Documentation/index.html)
 
 
 

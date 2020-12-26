@@ -50,7 +50,7 @@
 * [Go 语言 Web 应用开发系列教程](https://github.com/unknwon/building-web-applications-in-go)
 
 - [https://github.com/studygolang](https://github.com/studygolang)
-
+- 在JVM中运行 [https://github.com/zxh0/jvm.go](https://github.com/zxh0/jvm.go)
 
 
 **Rust**

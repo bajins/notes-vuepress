@@ -101,6 +101,8 @@
 * [http://github.com/CarpenterLee/JavaLambdaInternals](http://github.com/CarpenterLee/JavaLambdaInternals)
 * [https://github.com/itwanger/javabooks](https://github.com/itwanger/javabooks)
 * [https://github.com/donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
+* [https://github.com/crisxuan/bestJavaer](https://github.com/crisxuan/bestJavaer)
+* [https://github.com/fenixsoft/awesome-fenix](https://github.com/fenixsoft/awesome-fenix)
 
 + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
 + [https://github.com/Wizzercn/MqttWk](https://github.com/Wizzercn/MqttWk)

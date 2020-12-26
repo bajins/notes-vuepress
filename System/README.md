@@ -434,6 +434,8 @@ slmgr /ato
 
 ## 路由跟踪
 
+- 查询IP地理信息 [https://github.com/zu1k/nali](https://github.com/zu1k/nali)
+
 **`ping`、`tcptraceroute`、`traceroute`、`mtr`**
 
 * [https://www.cnblogs.com/xzkzzz/p/7413177.html](https://www.cnblogs.com/xzkzzz/p/7413177.html)
