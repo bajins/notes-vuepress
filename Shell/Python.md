@@ -55,7 +55,9 @@ with Test() as t: # 触发__exit__
 ```
 
 - 纯真IP数据库 [https://github.com/animalize/qqwry-python3](https://github.com/animalize/qqwry-python3)
-
+- 反编译 [https://github.com/countercept/python-exe-unpacker](https://github.com/countercept/python-exe-unpacker)
+- 解密MS Office [https://github.com/nolze/msoffcrypto-tool](https://github.com/nolze/msoffcrypto-tool)
+- 网站脱机下载 [https://github.com/xroche/httrack](https://github.com/xroche/httrack)
 
 
 ## 第三方库

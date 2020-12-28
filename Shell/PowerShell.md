@@ -25,6 +25,7 @@
 - WMIC 已弃用替代品 [Get-WmiObject](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.management/get-wmiobject)
 - WMIC 已弃用替代品 [Get-CimInstance](https://docs.microsoft.com/zh-cn/powershell/module/cimcmdlets/get-ciminstance)
 
+* [https://github.com/R3MRUM/PSDecode](https://github.com/R3MRUM/PSDecode)
 
 
 ## 包管理

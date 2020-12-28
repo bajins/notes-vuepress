@@ -9,6 +9,8 @@
 * [实用IDEA工具](https://blog.csdn.net/weixin_37645838/article/details/85953193)
 
 - [https://www.jrebel.com/products/jrebel/download](https://www.jrebel.com/products/jrebel/download)
+- Eclipse代码格式化样式 [https://github.com/krasa/EclipseCodeFormatter](https://github.com/krasa/EclipseCodeFormatter)
+
 
 
 ## Free Mybatis plugin

@@ -8,22 +8,14 @@
 
 + [https://docs.oracle.com/javase/8/docs/technotes/tools](https://docs.oracle.com/javase/8/docs/technotes/tools)
 
-* 无侵入式的jvm监控工具MyPerf4J：[https://github.com/ThinkpadNC5/MyPerf4J](https://github.com/ThinkpadNC5/MyPerf4J)
-* Alibaba Java诊断利器Arthas：[https://github.com/alibaba/arthas](https://github.com/alibaba/arthas)
+* 无侵入式的jvm监控工具MyPerf4J [https://github.com/ThinkpadNC5/MyPerf4J](https://github.com/ThinkpadNC5/MyPerf4J)
+* Alibaba Java诊断利器Arthas [https://github.com/alibaba/arthas](https://github.com/alibaba/arthas)
 * Java和Android堆转储分析器 [https://heaphero.io](https://heaphero.io)
 * GC 日志分析器 [https://gceasy.io](https://gceasy.io)
 * [https://github.com/chewiebug/GCViewer](https://github.com/chewiebug/GCViewer)
 * java程序跟踪工具 [https://github.com/btraceio/btrace](https://github.com/btraceio/btrace)
-* [https://github.com/jboss-javassist/javassist](https://github.com/jboss-javassist/javassist)
-* [https://github.com/aragozin/jvm-tools](https://github.com/aragozin/jvm-tools)
+* 故障排除，监视和性能分析 [https://github.com/aragozin/jvm-tools](https://github.com/aragozin/jvm-tools)
 
-
-+ [逆向工具](/Other/MobileNative.md#逆向工具)
-+ `javap -verbose 文件` 查看class文件内容
-+ [https://github.com/ClassViewer](https://github.com/ClassViewer)
-+ [https://github.com/zxh0/classpy](https://github.com/zxh0/classpy)
-+ 打包 [https://github.com/shevek/jarjar](https://github.com/shevek/jarjar)
-+ [https://github.com/janino-compiler/janino](https://github.com/janino-compiler/janino)
 
 
 **其他命令**
@@ -45,6 +37,40 @@ jstack PID | grep -A 10 $(printf "%x\n" PID)
 # nid：对应的linux操作系统下的TID，就是前面转化的16进制数字
 # tid：这个应该是jvm的jmm内存规范中的唯一地址定位
 ```
+
+
+## 反编译工具
+
++ [https://github.com/topics/reverse-engineering](https://github.com/topics/reverse-engineering)
++ [https://github.com/topics/decompiler](https://github.com/topics/decompiler)
++ [https://github.com/topics/disassembler](https://github.com/topics/disassembler)
+
+* 在线反编译器 [http://www.javadecompilers.com](http://www.javadecompilers.com)
+* [https://github.com/java-decompiler](https://github.com/java-decompiler)
+    * [https://github.com/java-decompiler/jd-gui](https://github.com/java-decompiler/jd-gui)
+* [https://github.com/leibnitz27/cfr](https://github.com/leibnitz27/cfr)
+* [https://github.com/mstrobel/procyon](https://github.com/mstrobel/procyon)
+    * Gui for Procyon [https://github.com/deathmarine/Luyten](https://github.com/deathmarine/Luyten)
+* [https://github.com/fesh0r/fernflower](https://github.com/fesh0r/fernflower)
+   * [https://github.com/MinecraftForge/ForgeFlower](https://github.com/MinecraftForge/ForgeFlower)
+   * [http://the.bytecode.club/fernflower.jar](http://the.bytecode.club/fernflower.jar)
+* [https://github.com/MaxPixelStudios/MinecraftDecompiler](https://github.com/MaxPixelStudios/MinecraftDecompiler)
+* Jar和APK逆向工程套件 [https://github.com/Konloch/bytecode-viewer](https://github.com/Konloch/bytecode-viewer)
+* dex2jar [https://github.com/pxb1988/dex2jar](https://github.com/pxb1988/dex2jar)
+* [https://github.com/horsicq/DIE-engine](https://github.com/horsicq/DIE-engine)
+* [http://www.gda.wiki:9090/index.php](http://www.gda.wiki:9090/index.php)
+* [https://ghidra-sre.org](https://ghidra-sre.org)
+* [https://github.com/skylot/jadx](https://github.com/skylot/jadx)
+* [https://github.com/kwart/jd-cmd](https://github.com/kwart/jd-cmd)
+* [https://software.intel.com/articles/pin-a-dynamic-binary-instrumentation-tool](https://software.intel.com/articles/pin-a-dynamic-binary-instrumentation-tool)
+* [https://github.com/Col-E/Recaf](https://github.com/Col-E/Recaf)
+* [https://github.com/JesusFreke/smali](https://github.com/JesusFreke/smali)
+* snowman [https://derevenets.com](https://derevenets.com)
+* `javap -verbose 文件` 查看class文件内容
+* [https://github.com/ClassViewer](https://github.com/ClassViewer)
+* [https://github.com/zxh0/classpy](https://github.com/zxh0/classpy)
+
+- 反混淆 [https://github.com/java-deobfuscator/deobfuscator](https://github.com/java-deobfuscator/deobfuscator)
 
 
 
