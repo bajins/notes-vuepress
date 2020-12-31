@@ -213,6 +213,14 @@
 
 
 
+**插件**
+
++ [https://maven.apache.org/plugins/index.html](https://maven.apache.org/plugins/index.html)
+
+* [https://github.com/mojohaus/exec-maven-plugin](https://github.com/mojohaus/exec-maven-plugin)
+
+
+
 ### Maven私服搭建
 
 * [https://github.com/sonatype](https://github.com/sonatype)

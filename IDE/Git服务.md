@@ -22,6 +22,7 @@
 * [https://github.com/scm-manager/scm-manager](https://github.com/scm-manager/scm-manager)
 * [https://www.mercurial-scm.org](https://www.mercurial-scm.org)
 * 代码语法突出 [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
+* GitHub的Java API [https://github.com/hub4j/github-api](https://github.com/hub4j/github-api)
 
 **代码跟踪分析**
 

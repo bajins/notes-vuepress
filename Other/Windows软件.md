@@ -414,6 +414,11 @@
     * [InnoSetup中文定制版](http://blog.sina.com.cn/s/blog_89a729a40102xuy4.html)
     * [https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation)
 
+- [https://github.com/wixtoolset/wix3](https://github.com/wixtoolset/wix3)
+- [https://www.ej-technologies.com/download/install4j/files](https://www.ej-technologies.com/download/install4j/files)
+- [https://www.ej-technologies.com/download/exe4j/files](https://www.ej-technologies.com/download/exe4j/files)
+
+
 
 ### AutoIt
 

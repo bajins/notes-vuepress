@@ -432,3 +432,4 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * Java多线程下载GUI [https://github.com/fengxiaocan/Downloader](https://github.com/fengxiaocan/Downloader)
 * [https://github.com/proxyee-down-org/proxyee-down](https://github.com/proxyee-down-org/proxyee-down)
 * [IDEA通过Maven打包JavaFX工程（OpenJFX11）](https://www.cnblogs.com/6b7b5fc3/p/12990161.html)
+* [创建JavaFX项目并用Maven打包](https://www.cnblogs.com/zjwno1/p/13272380.html)

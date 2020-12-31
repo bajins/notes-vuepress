@@ -19,9 +19,14 @@
 * [reposurgeon是一种工具,用于编辑版本控制存储库的历史](http://www.catb.org/esr/reposurgeon)
 * [https://github.com/gitextensions/gitextensions](https://github.com/gitextensions/gitextensions)
 * GUI [https://github.com/git-cola/git-cola](https://github.com/git-cola/git-cola)
-- [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
-    - [https://gitlab.com/tortoisegit/tortoisegit](https://gitlab.com/tortoisegit/tortoisegit)
-    - [https://tortoisegit.org/download](https://tortoisegit.org/download)
+* [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
+    * [https://gitlab.com/tortoisegit/tortoisegit](https://gitlab.com/tortoisegit/tortoisegit)
+    * [https://tortoisegit.org/download](https://tortoisegit.org/download)
+
+
+- Java实现 [https://github.com/eclipse/jgit](https://github.com/eclipse/jgit)
+    - [https://github.com/centic9/jgit-cookbook](https://github.com/centic9/jgit-cookbook)
+
 
 
 

@@ -8,21 +8,23 @@
 
 ## Flag
 
-* Web 开发技术-MDN [https://developer.mozilla.org/zh-CN/docs/Web](https://developer.mozilla.org/zh-CN/docs/Web)
-* Web API [https://developer.mozilla.org/zh-CN/docs/Web/API](https://developer.mozilla.org/zh-CN/docs/Web/API)
-* W3C 网页标准教程 [http://www.w3chtml.com](http://www.w3chtml.com)
++ Web 开发技术-MDN [https://developer.mozilla.org/zh-CN/docs/Web](https://developer.mozilla.org/zh-CN/docs/Web)
++ Web API [https://developer.mozilla.org/zh-CN/docs/Web/API](https://developer.mozilla.org/zh-CN/docs/Web/API)
++ W3C 网页标准教程 [http://www.w3chtml.com](http://www.w3chtml.com)
+
+
 * [https://github.com/junruchen/junruchen.github.io/wiki](https://github.com/junruchen/junruchen.github.io/wiki)
 * [https://github.com/mathjax](https://github.com/mathjax)
 * 前端知识点总结 [https://github.com/zhaiyy/Web-front-end-knowledge-summary](https://github.com/zhaiyy/Web-front-end-knowledge-summary)
 * [https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog)
 * [https://github.com/axuebin/articles](https://github.com/axuebin/articles)
+* 前端面试 [https://github.com/haizlin/fe-interview](https://github.com/haizlin/fe-interview)
 
 - [https://github.com/material-components](https://github.com/material-components)
   - [https://md.maxoxo.design](https://md.maxoxo.design)
 - [https://github.com/webview](https://github.com/webview)
 
 
-* 前端面试：[https://github.com/haizlin/fe-interview](https://github.com/haizlin/fe-interview)
 * [前端解决第三方图片防盗链的办法 - html referrer 访问图片资源403问题](https://github.com/biaochenxuying/blog/issues/31)
 * [Serverless——前端的3.0时代](https://zhuanlan.zhihu.com/p/84054729)
 
@@ -33,6 +35,7 @@
 **TypeScript**
 
 * [https://github.com/Microsoft/TypeScript](https://github.com/Microsoft/TypeScript)
+    * [lib目录下包含了所有JavaScript官方DOM API](https://github.com/microsoft/TypeScript/tree/master/lib)
 * [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese)
 
 
@@ -162,8 +165,12 @@
 * 知乎 [https://unpkg.zhimg.com](https://unpkg.zhimg.com)
 * 饿了么 [https://npm.elemecdn.com](https://npm.elemecdn.com)
 * [https://www.bootcdn.cn](https://www.bootcdn.cn)
-* [http://staticfile.org](http://staticfile.org)
+* [https://github.com/staticfile](https://github.com/staticfile)
+    * [https://staticfile.org](https://staticfile.org)
 * [https://cdn.baomitu.com](https://cdn.baomitu.com)
+
+- [https://developers.google.com/speed/libraries](https://developers.google.com/speed/libraries)
+- [https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview](https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview)
 
 
 ```

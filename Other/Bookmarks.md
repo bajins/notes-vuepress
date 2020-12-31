@@ -142,8 +142,9 @@
 + [https://github.com/justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)
 + [https://github.com/EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
 
-* 书栈网（极力推荐） [https://github.com/TruthHun/BookStack](https://github.com/TruthHun/BookStack)
+* 书栈网 [https://github.com/TruthHun/BookStack](https://github.com/TruthHun/BookStack)
     * [https://www.bookstack.cn](https://www.bookstack.cn)
+* 天赋好书 [https://cntofu.com](https://cntofu.com)
 * 码农之家（计算机电子书下载） [http://www.xz577.com](http://www.xz577.com)
 * 鸠摩搜书 [http://www.jiumodiary.com](http://www.jiumodiary.com)
 * 云海电子图书馆 [http://www.pdfbook.cn](http://www.pdfbook.cn)

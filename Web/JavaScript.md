@@ -171,6 +171,12 @@ var express = require('express');
 * [https://github.com/jorgebucaran/hyperapp](https://github.com/jorgebucaran/hyperapp)
 
 
+- 测试 [https://github.com/karma-runner/karma](https://github.com/karma-runner/karma)
+- [https://github.com/qunitjs](https://github.com/qunitjs)
+- [https://github.com/mochajs/mocha](https://github.com/mochajs/mocha)
+- [https://github.com/jasmine/jasmine](https://github.com/jasmine/jasmine)
+
+
 
 ## 第三方库
 
@@ -214,6 +220,8 @@ var express = require('express');
 * alert()和confirm()包装 [https://github.com/makeusabrew/bootbox](https://github.com/makeusabrew/bootbox)
 * 选色器 [https://github.com/bgrins/spectrum](https://github.com/bgrins/spectrum)
 * [https://github.com/ant-design/ant-design](https://github.com/ant-design/ant-design)
+* 手势交互 [https://github.com/hammerjs/hammer.js](https://github.com/hammerjs/hammer.js)
+* [https://github.com/material-motion/material-motion-js](https://github.com/material-motion/material-motion-js)
 
 - [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
 - [https://github.com/sentsin/layui](https://github.com/sentsin/layui)
@@ -251,6 +259,7 @@ var express = require('express');
 
 **工具**
 
+* [http://github.com/mootools](http://github.com/mootools)
 * [https://github.com/liriliri/licia](https://github.com/liriliri/licia)
 * [https://github.com/lodash/lodash](https://github.com/lodash/lodash)
 * [[https://github.com/jashkenas]([https://github.com/jashkenas)
@@ -381,6 +390,7 @@ var express = require('express');
 * [https://github.com/sampotts/plyr](https://github.com/sampotts/plyr)
 * [https://github.com/Chimeejs/chimee](https://github.com/Chimeejs/chimee)
 * [https://github.com/bilibili/flv.js](https://github.com/bilibili/flv.js)
+* [https://github.com/google/shaka-player](https://github.com/google/shaka-player)
 * [https://gitee.com/niandeng/ckplayer](https://gitee.com/niandeng/ckplayer)
 * [https://github.com/Aaaaaaaty/Blog/tree/master/html5player](https://github.com/Aaaaaaaty/Blog/tree/master/html5player)
 * [https://github.com/chiruom/DanmuPlayer](https://github.com/chiruom/DanmuPlayer)
