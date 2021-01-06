@@ -84,12 +84,6 @@
 
 - [https://github.com/Vove7/retrofit-rest-client](https://github.com/Vove7/retrofit-rest-client)
 - [https://github.com/LiushuiXiaoxia](https://github.com/LiushuiXiaoxia)
-
-* JavaScript自动化工具 [https://github.com/hyb1996/Auto.js](https://github.com/hyb1996/Auto.js)
-* 微信僵尸好友脚本 [https://github.com/L8426936/auto.js-script](https://github.com/L8426936/auto.js-script)
-* [https://github.com/huxx16/AutoApiSecret](https://github.com/huxx16/AutoApiSecret)
-
-
 - [https://github.com/huangruiLearn/flutter_hrlweibo](https://github.com/huangruiLearn/flutter_hrlweibo)
 - [https://github.com/sabernwj/cookiej](https://github.com/sabernwj/cookiej)
 - [https://github.com/gsantner/markor](https://github.com/gsantner/markor)
@@ -98,6 +92,28 @@
 + [https://github.com/anbox/anbox](https://github.com/anbox/anbox)
     + [Linux上运行安卓应用:安装使用Anbox](https://www.cnblogs.com/syisyuan/p/12811595.html)
 
+
+
+
+### 自动化
+
+* [https://tasker.joaoapps.com](https://tasker.joaoapps.com)
+
+**Auto.js**
+
+> JavaScript自动化工具
+
++ [https://github.com/topics/autojs](https://github.com/topics/autojs)
++ [https://github.com/TonyJiangWJ/AutoScriptBase](https://github.com/TonyJiangWJ/AutoScriptBase)
++ [https://github.com/hyb1996/Auto.js](https://github.com/hyb1996/Auto.js)
+    + [https://github.com/SuperMonster002/Hello_Sockpuppet](https://github.com/SuperMonster002/Hello_Sockpuppet)
++ [https://github.com/easy-click/easyclick-libs](https://github.com/easy-click/easyclick-libs)
+
+
+* 清理微信僵尸粉 [https://github.com/L8426936/CleanUpWeChatZombieFans](https://github.com/L8426936/CleanUpWeChatZombieFans)
+* [https://github.com/huxx16/AutoApiSecret](https://github.com/huxx16/AutoApiSecret)
+* [https://github.com/topics/accessibilityservice](https://github.com/topics/accessibilityservice)
+* [https://github.com/Orange-shirt/OrangeJs](https://github.com/Orange-shirt/OrangeJs)
 
 
 
@@ -224,7 +240,6 @@
     + [https://forum.release-apk.com/tag/downloader](https://forum.release-apk.com/tag/downloader)
 + [https://patch.chelpus.com](https://patch.chelpus.com)
 + [手机软件下载-智友邦原智友论坛](http://bbs.zhiyoo.net/forum.php?mod=forumdisplay&fid=42&filter=lastpost&orderby=lastpost)
-+ 各大网站的脚本 [https://github.com/Orange-shirt/OrangeJs](https://github.com/Orange-shirt/OrangeJs)
 + [https://github.com/butzist/ActivityLauncher](https://github.com/butzist/ActivityLauncher)
 
 * 文件传输 [http://www.xender.com](http://www.xender.com)

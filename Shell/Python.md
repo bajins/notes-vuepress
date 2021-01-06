@@ -214,7 +214,7 @@ with Test() as t: # 触发__exit__
     * `pip3 install tornado numpy opencv_python onnxruntime Shapely pyclipper Pillow`
 * [https://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)
 * [https://github.com/PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
-
+* [https://github.com/miaomiaosoft/PandaOCR](https://github.com/miaomiaosoft/PandaOCR)
 
 
 

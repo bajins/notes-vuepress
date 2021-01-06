@@ -39,28 +39,21 @@
 * [果核剥壳](https://www.ghpym.com)
 * [zdBryan](https://www.423down.com)
 * [落尘之木](https://www.luochenzhimu.com)
-* [懒得勤快](https://masuit.com/misc/5)
-* [绿软博客](http://liujin-greensoft.lofter.com)
-* [殁漂遥](http://www.laomo.me)
-* [奇客小栈](http://www.geekotg.com)
+* [懒得勤快](https://masuit.com)
+* [殁漂遥](https://www.mpyit.com)
 * [轻狂志](http://www.flighty.cn)
 * [伤逝的安详](https://www.ssdax.com)
-* [释怀](https://shiove.com/c/9tk)
+* [释怀](https://shiove.com/download.html)
 * [宋永志博客](http://www.songyongzhi.com/SystemTool)
 * [我天哪鸡哥](https://www.wotianna.com)
 * [星空软件共享绿化园地](http://www.xingkbjm.com)
 * [飞扬时空作品](http://blog.sina.com.cn/s/blog_89a729a40102wjwp.html)
 * [翠竹成林](http://msbuild.cn)
-* [http://itjcc.com](http://itjcc.com)
 * [https://myqqjd.com](https://myqqjd.com)
 * [http://www.ypojie.com](http://www.ypojie.com)
 * [https://www.ccava.net](https://www.ccava.net)
-* [https://ymso.net](https://ymso.net)
-* [https://www.wsf1234.com](https://www.wsf1234.com)
-* [http://luxiaoneng.com](http://luxiaoneng.com/category/%e5%b7%a5%e5%85%b7%e5%8c%85)
 * [https://www.zrbk.xyz](https://www.zrbk.xyz)
 * [http://yx.bsh.me](http://yx.bsh.me)
-* [耗子爱吃草](http://www.haozi666.com)
 * [苦瓜甘甜](http://www.kuguagantian.com)
 
 
@@ -107,6 +100,7 @@
     * [https://www.fxxkmakeding.xyz](https://www.fxxkmakeding.xyz)
 * [https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367)
 
+- 万能命令 [https://wanneng.run](https://wanneng.run)
 
 
 ## 下载器
@@ -245,6 +239,8 @@
 * [https://yixun.writeas.com/yi-xun](https://yixun.writeas.com/yi-xun)
 * [https://github.com/lpg-it/BaiduYunVIP](https://github.com/lpg-it/BaiduYunVIP)
 * DuPan [https://www.lanzoux.com/b09r8jmhi](https://www.lanzoux.com/b09r8jmhi) 密码：b8ua
+* [https://cloud189.1t.workers.dev/web](https://cloud189.1t.workers.dev/web)
+
 
 
 
@@ -682,6 +678,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe)
 * 远程控制 [https://www.todesk.com](https://www.todesk.com)
 * 向日葵 [https://sunlogin.oray.com/download](https://sunlogin.oray.com/download)
+* [https://anydesk.com](https://anydesk.com)
 
 - 文档转换 [https://github.com/topics/converter](https://github.com/topics/converter)
     - [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)

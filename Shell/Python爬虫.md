@@ -16,6 +16,7 @@
 + [https://github.com/topics/crawler](https://github.com/topics/crawler)
 + [https://github.com/topics/webcrawler](https://github.com/topics/webcrawler)
 + [https://github.com/topics/web-crawler](https://github.com/topics/web-crawler)
++ [https://github.com/topics/automation](https://github.com/topics/automation)
 
 
 * [https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China](https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China)
@@ -56,6 +57,13 @@ taskkill /f /im chromedriver.exe
 * [https://github.com/KongKong20/WeChatPCHook](https://github.com/KongKong20/WeChatPCHook)
 * [WeChatDownload，批量微信公众号文章下载小工具](https://i.ijrou.com/p/story/WeChatDownload.html)
 * [https://github.com/LeLe86/vWeChatCrawl](https://github.com/LeLe86/vWeChatCrawl)
+
+
+- 京东茅台抢购 [https://github.com/ChinaVolvocars/jd_maotai_seckill](https://github.com/ChinaVolvocars/jd_maotai_seckill)
+- 京东签到 [https://github.com/ruicky/jd_sign_bot](https://github.com/ruicky/jd_sign_bot)
+- [https://github.com/ZainCheung/helper-618](https://github.com/ZainCheung/helper-618)
+- [https://github.com/tychxn/jd-assistant](https://github.com/tychxn/jd-assistant)
+- [https://github.com/xuess/puppeteer-sign](https://github.com/xuess/puppeteer-sign)
 
 
 
