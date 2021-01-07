@@ -419,6 +419,7 @@ slmgr /ato
 * 冷曦博客 - 源码之家-草根站长的资源共享平台: [https://www.lengxi.net](https://www.lengxi.net)
 * [https://github.com/Youngxj/YoungxjTools](https://github.com/Youngxj/YoungxjTools)
 * [https://github.com/netnr/scriptservices](https://github.com/netnr/scriptservices)
+* 协作在线办公套件 [https://github.com/ONLYOFFICE](https://github.com/ONLYOFFICE)
 
 
 **发卡系统**

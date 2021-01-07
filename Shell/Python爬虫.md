@@ -59,7 +59,8 @@ taskkill /f /im chromedriver.exe
 * [https://github.com/LeLe86/vWeChatCrawl](https://github.com/LeLe86/vWeChatCrawl)
 
 
-- 京东茅台抢购 [https://github.com/ChinaVolvocars/jd_maotai_seckill](https://github.com/ChinaVolvocars/jd_maotai_seckill)
+- 京东茅台抢购 [https://github.com/search?q=jd_maotai](https://github.com/search?q=jd_maotai)
+- [https://github.com/search?q=茅台](https://github.com/search?q=%E8%8C%85%E5%8F%B0)
 - 京东签到 [https://github.com/ruicky/jd_sign_bot](https://github.com/ruicky/jd_sign_bot)
 - [https://github.com/ZainCheung/helper-618](https://github.com/ZainCheung/helper-618)
 - [https://github.com/tychxn/jd-assistant](https://github.com/tychxn/jd-assistant)
