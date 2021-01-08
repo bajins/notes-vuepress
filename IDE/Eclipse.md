@@ -62,17 +62,21 @@
 
 ## 代码格式化
 
+* [General > Editors > Text Editors](https://help.eclipse.org/2020-12/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Freference%2Fref-texteditorprefs.htm)
+
 + 垂直标尺： `Window` -> `Preferences` -> `General` -> `Editors` -> `Text Editors` -> `Show Print Margin`
+   + `Print margin column` 行宽
+   + `Allow editors to override the margin column` 
 
 - Java 格式化： `Window` -> `Preferences` -> `Java` -> `Code Style` -> `Formatter` -> `New` -> `Edit`
    - -> `Line Wrapping`
-      - `Maximum Line width`
-      - `Set line width for preview window`
-      - -> `Binary expressions` -> `Line wrapping policy` -> `Wrap all elements,every elements on a new line`
+      - `Maximum Line width` 控制每行的最大字符数
+      - `Set line width for preview window` 设置预览窗口的线宽
+      - -> `Binary expressions` -> `Line wrapping policy` -> `Wrap all elements,every elements on a new line` 将所有元素换行，每个元素都换行
       - -> `Function Calls` -> `Qualified invocations` -> `Wrap all elements,every elements on a new line` 连续调用不换行
       - `Never join already wrapped lines` 不格式化已换行的
    - -> `Comments`
-      - `Maximum line width for comments`
+      - `Maximum line width for comments` 注释的最大行宽
 - JavaScript 格式化： `Window` -> `Preferences` -> `JavaScript` -> `Code Style` -> `Formatter` -> `New` -> `Edit` -> `Line Wrapping`
    - `Maximum Line width`
    - `Set line width for preview window`
@@ -119,7 +123,7 @@
 - 取消验证 `Windows` -> `Preference` –> `validation` -> 点击`Disable All`然后勾选`classpath dependency Validator`
     - `Allow projects to override these preference settings` 允许项目覆盖这些首选项设置
 - 关闭拼写检查 `Windows` -> `Preference` -> `General` –> `editors` -> `Text Editors` -> `spelling`
-- `Windows` -> `Preference` -> `General` -> `Workspace` -> 取消勾选`Build automatically`
+- `Windows` -> `Preference` -> `General` -> `Workspace` --> `Build` -> 取消勾选`Build automatically`
 - 选中项目点击右键 -> `Properties` -> `Builders` 在右边取消勾选除`Java Builder`以外的其他选项
 
 
@@ -158,6 +162,30 @@
 **设置Tomcat参数**
 
 - `Run` -> `Run Configurations` -> 选中已添加的Tomcat -> `Arguments` -> 在`VM arguments`中换行添加
+
+
+
+
+## 设置编码格式
+
+- 设置工作空间编码 `Window` -> `Preferences` -> `General` -> `Workspace` -> `Text file encoding` -> `Other`选择`UTF-8`
+- 设置文档编码 `Window` -> `Preferences` -> `General` -> `Content Type` -> `Text` -> `Default encoding`填入`UTF-8`
+- 设置Web编码 `Window` -> `Preferences` -> `Web` -> `CSS Files、HTML Files、JSP Files` -> `Encoding`选择`ISO 10646/Unicode(UTF-8)`
+- 设置项目的文档编码：选中项目右键 -> `Properties` -> `Resource` -> `Other`选择`UTF-8`
+
+
+
+## 设置Tab为空格
+
+- `Window` -> `Preferences` -> `General` -> `Editors` -> `Text Editors` -> 勾选 `Insert spaces for tabs`
+   - `Remove multiple spaces on backspace/delete` 删除退格键/删除多个空格
+- `Window` -> `Preference` -> `Java` -> `Code Style` -> `Formatter` -> `Edit` -> `Indentation` -> `Tab policy` 选择 `Spaces only`
+
+
+## 快捷键设置
+
+- `Window` -> `Preference` -> `General` -> `Keys`
+- 设置复制一行 搜索`Ctrl+Alt+Down`或者`Copy Lines`即可修改
 
 
 
@@ -282,26 +310,6 @@ ${type_declaration}
  */
 ```
 
-
-## 设置编码格式
-
-- 设置工作空间编码 `Window` -> `Preferences` -> `General` -> `Workspace` -> `Text file encoding` -> `Other`选择`UTF-8`
-- 设置文档编码 `Window` -> `Preferences` -> `General` -> `Content Type` -> `Text` -> `Default encoding`填入`UTF-8`
-- 设置Web编码 `Window` -> `Preferences` -> `Web` -> `CSS Files、HTML Files、JSP Files` -> `Encoding`选择`ISO 10646/Unicode(UTF-8)`
-- 设置项目的文档编码：选中项目右键 -> `Properties` -> `Resource` -> `Other`选择`UTF-8`
-
-
-
-## 设置Tab为空格
-
-- `Window` -> `Preferences` -> `General` -> `Editors` -> `Text Editors` -> 勾选 `Insert spaces for tabs`
-- `Window` -> `Preference` -> `Java` -> `Code Style` -> `Formatter` -> `Edit` -> `Indentation` -> `Tab policy` 选择 `Spaces only`
-
-
-## 快捷键设置
-
-- `Window` -> `Preference` -> `General` -> `Keys`
-- 设置复制一行 搜索`Ctrl+Alt+Down`或者`Copy Lines`即可修改
 
 
 

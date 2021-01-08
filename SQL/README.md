@@ -209,6 +209,15 @@ SELECT A.* FROM SPEC_RATE_ORIGIN A INNER JOIN (
     ) B ON A.COMPANY_NAME = B.COMPANY_NAME AND A.CREATE_TIME = B."atime";
 ```
 
+**一次插入多条数据**
+
+```sql
+INSERT ALL
+ INTO a表(字段) VALUES(各个值1)
+ INTO a表(字段) VALUES(其它值2)
+ INTO a表(字段) VALUES(其它值3)
+SELECT 1 FROM DUAL;
+```
 
 
 

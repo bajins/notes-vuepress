@@ -33,8 +33,8 @@
 ## 格式化代码
 
 - 打开`File` -> `Settings` -> `Editor` -> `Code Style`
-     - 设置`General`下的`Hard wrap at`行宽；
-     - 勾选`General`下的`Wrap on typing`在编码时，超出最大行宽，则自动换行
+     - 设置行宽：`General`下的`Hard wrap at`
+     - 在编码时，超出最大行宽，则自动换行：勾选`General`下的`Wrap on typing`
 
 * 打开`File` -> `Settings` -> `Editor` -> `Code Style` -> `Java` -> `Wrapping and Braces`
      * 勾选`Keep when reformatting`下的`Line breaks`去除每次格式化时自动添加`+`符号
@@ -42,6 +42,7 @@
 
 
 + 缩进参考线： `File` -> `Settings` -> `Appearance & Behavior` -> `Appearance` -> 右边勾选 `Show indent guides`
++ `File` -> `Settings` -> `Editor` -> `General` -> `Appearance` -> 右边勾选 `Show indent guides`
 + 垂直标尺： `File` -> `Settings` -> `Editor` -> `General` -> `Appearance`
      + 2018之前版本，右边勾选 `Show right margin`
      + 2018之后版本，右边勾选 `Show hard wrap guide` 或 `Show hard wrap and visual guides (configured in Code Style options)`

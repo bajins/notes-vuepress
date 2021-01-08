@@ -231,6 +231,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 + 流式断言器 [https://github.com/assertj](https://github.com/assertj)
     + [https://assertj.github.io/doc](https://assertj.github.io/doc)
 + [https://github.com/hamcrest/JavaHamcrest](https://github.com/hamcrest/JavaHamcrest)
++ [https://github.com/robstoll/atrium](https://github.com/robstoll/atrium)
++ 创建不可变对象 [https://github.com/immutables](https://github.com/immutables)
 
 * [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
 * [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
