@@ -378,6 +378,7 @@
 * [Qiantigers](https://www.qiantigers.top/archives)
 * [归档 | Eicky Blog](https://eicky.com/archives)
 * [趣乐子 – 快乐源于分享](https://www.7lez.com)
+* 线工具秘籍 [https://github.com/zhaoolee/OnlineToolsBook](https://github.com/zhaoolee/OnlineToolsBook)
 
 
 

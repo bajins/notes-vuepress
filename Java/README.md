@@ -247,6 +247,9 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * 类路径扫描器和模块扫描器 [https://github.com/classgraph](https://github.com/classgraph)
 * Java 应用程序打包 [https://github.com/fvarrui/JavaPackager](https://github.com/fvarrui/JavaPackager)
 * [https://github.com/rzwitserloot/lombok](https://github.com/rzwitserloot/lombok)
+* 生成输出文本 [https://github.com/apache/freemarker](https://github.com/apache/freemarker)
+    * [https://github.com/freemarker/freemarker3](https://github.com/freemarker/freemarker3)
+    * [http://freemarker.foofun.cn](http://freemarker.foofun.cn)
 
 
 

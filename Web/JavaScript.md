@@ -216,8 +216,6 @@ var express = require('express');
 * SVG渲染图像占位符 [https://github.com/imsky/holder](https://github.com/imsky/holder)
 * [https://github.com/dankogai/js-base64](https://github.com/dankogai/js-base64)
 * 交互式医学图像 [https://github.com/cornerstonejs/cornerstone](https://github.com/cornerstonejs/cornerstone)
-* 提示和弹出框 [https://github.com/popperjs/popper-core](https://github.com/popperjs/popper-core)
-* alert()和confirm()包装 [https://github.com/makeusabrew/bootbox](https://github.com/makeusabrew/bootbox)
 * 选色器 [https://github.com/bgrins/spectrum](https://github.com/bgrins/spectrum)
 * [https://github.com/ant-design/ant-design](https://github.com/ant-design/ant-design)
 * 手势交互 [https://github.com/hammerjs/hammer.js](https://github.com/hammerjs/hammer.js)
@@ -225,7 +223,19 @@ var express = require('express');
 * 自动执行 [https://github.com/gruntjs](https://github.com/gruntjs)
 
 - [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
-- [https://github.com/sentsin/layui](https://github.com/sentsin/layui)
+
+
+
+**弹窗/提示框**
+
++ [https://github.com/topics/dialog](https://github.com/topics/dialog)
++ [https://github.com/topics/popup](https://github.com/topics/popup)
+
+* [https://github.com/sentsin/layui](https://github.com/sentsin/layui)
+* [https://github.com/sentsin/layer](https://github.com/sentsin/layer)
+* [https://github.com/sweetalert2/sweetalert2](https://github.com/sweetalert2/sweetalert2)
+* 提示和弹出框 [https://github.com/popperjs/popper-core](https://github.com/popperjs/popper-core)
+* alert()和confirm()包装 [https://github.com/makeusabrew/bootbox](https://github.com/makeusabrew/bootbox)
 
 
 

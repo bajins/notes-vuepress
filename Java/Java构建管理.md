@@ -17,7 +17,10 @@
 + [https://github.com/jboss-javassist/javassist](https://github.com/jboss-javassist/javassist)
 + [https://github.com/codehaus-plexus/plexus-compiler](https://github.com/codehaus-plexus/plexus-compiler)
 + [https://github.com/eclipse/eclipse.jdt.core](https://github.com/eclipse/eclipse.jdt.core)
-
++ [https://github.com/topics/javacc](https://github.com/topics/javacc)
+    + [https://github.com/javacc/javacc](https://github.com/javacc/javacc)
+    + [https://github.com/javacc21/javacc21](https://github.com/javacc21/javacc21)
+    + [JavaCC官方入门指南-概述](https://www.cnblogs.com/suhaha/p/11733487.html)
 
 
 **持续集成**

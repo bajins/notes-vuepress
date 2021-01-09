@@ -14,6 +14,9 @@
     * [https://api.imjad.cn](https://api.imjad.cn)
 
 - [https://github.com/huanghui0906/API](https://github.com/huanghui0906/API)
+- [https://github.com/wangpinpin/devtools-server](https://github.com/wangpinpin/devtools-server)
+- 狗屁不通文章 [https://github.com/menzi11/BullshitGenerator](https://github.com/menzi11/BullshitGenerator)
+    - [https://github.com/suulnnka/BullshitGenerator](https://github.com/suulnnka/BullshitGenerator)
 
 
 
