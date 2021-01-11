@@ -37,6 +37,7 @@
     * [https://www.bt.cn](https://www.bt.cn)
 * [https://www.xp.cn](https://www.xp.cn)
 * [https://cockpit-project.org](https://cockpit-project.org)
+* 可视化套件 [https://github.com/grafana/grafana](https://github.com/grafana/grafana)
 
 
 

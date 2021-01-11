@@ -18,12 +18,6 @@
 
 + [Windows 10 有哪些值得推荐的必装软件？](https://www.zhihu.com/question/35088093)
 
-* [https://git.io](https://git.io)
-* [http://potato.manre.me](http://potato.manre.me)
-* [https://signal.org](https://signal.org)
-* [https://trello.com](https://trello.com)
-* [https://discord.com](https://discord.com)
-
 - [https://github.com/topics/desktop-app](https://github.com/topics/desktop-app)
 
 
@@ -66,7 +60,37 @@
 * [风铃夜思雨](http://teach.hanzify.org/author/19016.html)
 
 
+**other**
+
+* Mac [https://www.naodai.org](https://www.naodai.org)
+    * [https://yun.naodai.org/Software](https://yun.naodai.org/Software)
+    * [https://go.naodai.org/Software](https://go.naodai.org/Software)
+* Mac [https://www.macbl.com](https://www.macbl.com)
+* [http://xclient.info](http://xclient.info)
+* [https://github.com/xyjoey/fxxkmakeding](https://github.com/xyjoey/fxxkmakeding)
+    * [https://www.fxxkmakeding.xyz](https://www.fxxkmakeding.xyz)
+* [https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367)
+
+- 万能命令 [https://wanneng.run](https://wanneng.run)
+
+
+
+
+## 聊天社交
+
+
+* [https://git.io](https://git.io)
+* [http://potato.manre.me](http://potato.manre.me)
+* [https://github.com/tootsuite](https://github.com/tootsuite)
+* [https://github.com/signalapp](https://github.com/signalapp)
+    * [https://signal.org](https://signal.org)
+* [https://trello.com](https://trello.com)
+* [https://discord.com](https://discord.com)
+
+
 **Telegram**
+
++ [https://github.com/topics/telegram](https://github.com/topics/telegram)
 
 * [https://github.com/topics/telegram](https://github.com/topics/telegram)
     * [https://github.com/goq/telegram-list](https://github.com/goq/telegram-list)
@@ -88,19 +112,6 @@
 - [https://t.me/s/wuaipojie](https://t.me/s/wuaipojie)
 - [https://t.me/s/infosaodaye](https://t.me/s/infosaodaye)
 
-
-**other**
-
-* Mac [https://www.naodai.org](https://www.naodai.org)
-    * [https://yun.naodai.org/Software](https://yun.naodai.org/Software)
-    * [https://go.naodai.org/Software](https://go.naodai.org/Software)
-* Mac [https://www.macbl.com](https://www.macbl.com)
-* [http://xclient.info](http://xclient.info)
-* [https://github.com/xyjoey/fxxkmakeding](https://github.com/xyjoey/fxxkmakeding)
-    * [https://www.fxxkmakeding.xyz](https://www.fxxkmakeding.xyz)
-* [https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367)
-
-- 万能命令 [https://wanneng.run](https://wanneng.run)
 
 
 ## 下载器

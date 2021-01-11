@@ -46,8 +46,10 @@ taskkill /f /im chromedriver.exe
     + [https://github.com/IshanManchanda/pyreCAPTCHA](https://github.com/IshanManchanda/pyreCAPTCHA)
     + [https://github.com/tafalk/recaptcha-token-resolver-function](https://github.com/tafalk/recaptcha-token-resolver-function)
 + 使用HTTP拦截器来实现cloudflare请求 [https://github.com/sayem314/hooman](https://github.com/sayem314/hooman)
++ Hashcat破解队列系统 [https://github.com/f0cker/crackq](https://github.com/f0cker/crackq)
++ 电话号码的高级信息收集 [https://github.com/sundowndev/PhoneInfoga](https://github.com/sundowndev/PhoneInfoga)
 
-* [微信公众号爬取研究](https://github.com/DropsDevopsOrg/ECommerceCrawlers/wiki/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%88%AC%E5%8F%96%E7%A0%94%E7%A9%B6)
+* [微信公众号爬取研究](https://github.com/DropsDevopsOrg/ECommerceCrawlers)
 * [微信公众号爬虫](https://github.com/search?o=desc&q=%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%88%AC%E8%99%AB&s=updated&type=Repositories)
 * [https://github.com/wnma3mz/wechat_articles_spider](https://github.com/wnma3mz/wechat_articles_spider)
 * [WeChat Hook](https://github.com/search?o=desc&q=WeChat+Hook&s=updated&type=Repositories)
@@ -65,6 +67,7 @@ taskkill /f /im chromedriver.exe
 - [https://github.com/ZainCheung/helper-618](https://github.com/ZainCheung/helper-618)
 - [https://github.com/tychxn/jd-assistant](https://github.com/tychxn/jd-assistant)
 - [https://github.com/xuess/puppeteer-sign](https://github.com/xuess/puppeteer-sign)
+- [https://github.com/zqjzqj/mtSecKill](https://github.com/zqjzqj/mtSecKill)
 
 
 
