@@ -77,6 +77,9 @@
       - `Never join already wrapped lines` 不格式化已换行的
    - -> `Comments`
       - `Maximum line width for comments` 注释的最大行宽
+      - `Enable Javadoc comment formatting` 启用Javadoc注释格式
+      - `Enable block comment formatting` 启用块注释格式
+      - `Format line comments on first column` 格式化第一列上的行注释
 - JavaScript 格式化： `Window` -> `Preferences` -> `JavaScript` -> `Code Style` -> `Formatter` -> `New` -> `Edit` -> `Line Wrapping`
    - `Maximum Line width`
    - `Set line width for preview window`
@@ -86,15 +89,6 @@
    - `Line width`
    - `Inline Elements` 选中所有 -> `Remove`
 
-
-**设置不格式化注释**
-
-> Eclipse默认自带的风格模板不能直接操作，需要先创建一个新的风格模板才能操作
-
-- `Windows` -> `Preference` -> `Java` –> `Code Style` -> `Formatter` -> `Edit` -> `Comments`
-    - `Enable Javadoc comment formatting` 启用Javadoc注释格式
-    - `Enable block comment formatting` 启用块注释格式
-    - `Format line comments on first column` 格式化第一列上的行注释
 
 
 ## 自动提示

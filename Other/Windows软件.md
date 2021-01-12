@@ -475,20 +475,6 @@
 
 
 
-**发卡商店**
-
-- [https://shop.luck6.org](https://shop.luck6.org)
-- [https://shop.v2ex.ltd](https://shop.v2ex.ltd)
-- [https://hpg.ac.cn](https://hpg.ac.cn)
-- [https://ip.ci](https://ip.ci)
-- [https://edu.laji.shop](https://edu.laji.shop)
-- [https://21g.in](https://21g.in)
-- [https://shop.15t.in](https://shop.15t.in)
-- [https://shop.xjisme.com](https://shop.xjisme.com)
-- [https://schoolbus.store](https://schoolbus.store)
-
-
-
 ### wps
 
 - 打开WPS的安装目录（默认为`%UserProfile%\AppData\Local\Kingsoft\WPS Office`），找到`ksomisc.exe`，

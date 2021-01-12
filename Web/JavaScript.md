@@ -555,6 +555,17 @@ $('.test').prop('outerHTML', '<div>');
 ```
 
 
+**`attr()`和`prop()`的区别**
+
+* [jQuery中attr()与prop()的区别](https://blog.csdn.net/tel13259437538/article/details/84639431)
+* [jQuery中prop和attr区别](https://www.cnblogs.com/guanghe/p/10592727.html)
+
+- `attr()` 方法设置或返回被选元素的`属性值`。`attribute` 是 `HTML` 标签上的特性（属性），它的值只能够是字符串；
+- `prop()` 方法设置或返回被选元素的`属性和值`。`property` 是 `DOM` 中的属性，是 `JavaScript` 里的对象；
+
+> 官方建议具有 `true` 和 `false` 两个属性的属性，如 `checked`, `selected` 或者 `disabled` 使用`prop()`，其他的使用 `attr()`
+
+
 
 **插件/组件**
 
