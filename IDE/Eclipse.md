@@ -13,6 +13,8 @@
 * [http://www.eclipse.org/downloads/packages](http://www.eclipse.org/downloads/packages)
 * [单行注释自动靠左](https://blog.csdn.net/mp9105/article/details/93343403)
 * [Eclipse的Debug各种视图介绍](https://www.cnblogs.com/ZeGod/p/10114049.html)
+* [https://github.com/eclipse/wildwebdeveloper](https://github.com/eclipse/wildwebdeveloper)
+   * Mars之后版本不再集成支持JavaScript需要安装插件，参考[Tern Eclipse IDE](https://marketplace.eclipse.org/content/tern-eclipse-ide)
 
 - [STS(eclipse)中文注释错位、缩进、被放大BUG解决](https://blog.csdn.net/u013600314/article/details/85262257)
 
@@ -64,15 +66,21 @@
 
 * [General > Editors > Text Editors](https://help.eclipse.org/2020-12/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Freference%2Fref-texteditorprefs.htm)
 
-+ 垂直标尺： `Window` -> `Preferences` -> `General` -> `Editors` -> `Text Editors` -> `Show Print Margin`
+
+**垂直标尺**
+
++ `Window` -> `Preferences` -> `General` -> `Editors` -> `Text Editors` -> `Show Print Margin`
    + `Print margin column` 行宽
    + `Allow editors to override the margin column` 
 
-- Java 格式化： `Window` -> `Preferences` -> `Java` -> `Code Style` -> `Formatter` -> `New` -> `Edit`
+
+**Java 格式化**
+
+- `Window` -> `Preferences` -> `Java` -> `Code Style` -> `Formatter` -> `New` -> `Edit`
    - -> `Line Wrapping`
       - `Maximum Line width` 控制每行的最大字符数
       - `Set line width for preview window` 设置预览窗口的线宽
-      - -> `Binary expressions` -> `Line wrapping policy` -> `Wrap all elements,every elements on a new line` 将所有元素换行，每个元素都换行
+      - -> `Wrapping settings` -> `Binary expressions` -> `Line wrapping policy` -> `Wrap all elements,every elements on a new line` 将所有元素换行，每个元素都换行
       - -> `Function Calls` -> `Qualified invocations` -> `Wrap all elements,every elements on a new line` 连续调用不换行
       - `Never join already wrapped lines` 不格式化已换行的
    - -> `Comments` 注释
@@ -81,20 +89,31 @@
       - `Enable Javadoc comment formatting` 启用Javadoc注释格式
       - `Enable block comment formatting` 启用块注释格式（每一行以`*`开头）
       - `Enable line comment formatting` 启用行注释格式
-         - `Format line comments on first column` 格式化注释与注释符之间的间距
+         - `Format line comments on first column` 格式化代码与注释符之间的间距
       - `Enable header comment formatting` 启用标题注释格式
       - `Preserve whitespace between code and line comments` 保留代码和行注释之间的空格
       - `Never indent line comments on first column` 切勿在第一列缩进行注释
       - `Never indent block comments on first column` 切勿在第一列缩进块注释
       - `Never join lines` 从不连接线
-- JavaScript 格式化： `Window` -> `Preferences` -> `JavaScript` -> `Code Style` -> `Formatter` -> `New` -> `Edit` -> `Line Wrapping`
-   - `Maximum Line width`
-   - `Set line width for preview window`
-- `Window` -> `Preferences` -> `JavaScript` -> `Code Style` -> `Formatter` -> `New` -> `Edit` -> `Comments`
-   - `Maximum line width for comments`
-- JSP|HTML页面 格式化： `Window` -> `Preferences` -> `Web` -> `HTML Files` -> `Editor`
+
+
+**JavaScript 格式化**
+
+- `Window` -> `Preferences` -> `JavaScript` -> `Code Style` -> `Formatter` -> `New` -> `Edit`
+   - -> `Line Wrapping`
+      - `Maximum Line width`
+      - `Set line width for preview window`
+   - -> `Comments`
+      - `Maximum line width for comments`
+
+
+**JSP|HTML|CSS 格式化**
+
+- `Window` -> `Preferences` -> `Web` -> `HTML Files` / `CSS Files` -> `Editor`
    - `Line width`
    - `Inline Elements` 选中所有 -> `Remove`
+   - `Indent using spaces` 缩进使用空格
+   - `Indentation size` 缩进使用多少个字符
 
 
 

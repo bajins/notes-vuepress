@@ -567,6 +567,15 @@ $('.test').prop('outerHTML', '<div>');
 
 
 
+**`readonly`属性对`radio`、`select`、`checkbox`这三个表单无效，设置`disabled`属性后，读取不到值**
+
+- 把表单值存入`<input type="hidden" >`中，如果代码中要改变选中则同时要赋值给该输入框
+- 提交表单前先移除`disabled`属性，不提交表单时或提交表单后设置`disabled`属性（代码中要改变选中前先移除`disabled`属性）
+- 只设置没有选中的input框`disabled`属性 （代码中要改变选中时先移除`disabled`属性）
+
+
+
+
 **插件/组件**
 
 + [https://github.com/topics/validation](https://github.com/topics/validation)

@@ -33,37 +33,34 @@
 ## 格式化代码
 
 - 打开`File` -> `Settings` -> `Editor` -> `Code Style`
-     - 设置行宽：`General`下的`Hard wrap at`
-     - 在编码时，超出最大行宽，则自动换行：勾选`General`下的`Wrap on typing`
+     - -> `General`
+          - `Hard wrap at` 设置行宽，会在格式化的时候强制插入换行符，形成显示效果上的换行
+          - `Wrap on typing` 在编码时，超出最大行宽，则自动换行
+     - -> `Java` -> `Wrapping and Braces`
+          - 勾选`Keep when reformatting`下的`Line breaks` 去除每次格式化时自动添加`+`符号
+          - 勾选`Keep when reformatting`下的`Ensure right margin is not exceeded` 自动换行
+          - `Comment at first column false` 代码格式化的时候保证`commet`符号在代码块附近
+     - -> `Java` -> 右边选择`JavaDoc`
+          - `Enable JavaDoc Formatting` 启用JavaDoc格式化
+          - `Wrap at right margin` 右边缘换行，当最后一个单词会超出边界时，自动换行
+          - `Do not wrap one line comments` 同一行注释不要换行
+          - `Preserve line feeds` 保留换行
 
-* 打开`File` -> `Settings` -> `Editor` -> `Code Style` -> `Java` -> `Wrapping and Braces`
-     * 勾选`Keep when reformatting`下的`Line breaks`去除每次格式化时自动添加`+`符号
-     * 勾选`Keep when reformatting`下的`Ensure right margin is not exceeded`自动换行
-
-
-+ 缩进参考线： `File` -> `Settings` -> `Appearance & Behavior` -> `Appearance` -> 右边勾选 `Show indent guides`
-+ `File` -> `Settings` -> `Editor` -> `General` -> `Appearance` -> 右边勾选 `Show indent guides`
-+ 垂直标尺： `File` -> `Settings` -> `Editor` -> `General` -> `Appearance`
-     + 2018之前版本，右边勾选 `Show right margin`
-     + 2018之后版本，右边勾选 `Show hard wrap guide` 或 `Show hard wrap and visual guides (configured in Code Style options)`
-+ `File` -> `Settings` -> `Editor` -> `Code Style`
-     + `Hard wrap at` 会在格式化的时候强制插入换行符，形成显示效果上的换行
-     + `Wrap on typing` 输入字符会动态监测是否插入换行符
 +  `File` -> `Settings` -> `Editor` -> `General` -> 右边`Soft wrap` （只会在 IDEA 的显示效果上有换行的效果，实际上并没有换行符）
 
 
-**格式化代码注释处理**
+**缩进参考线**
 
-- 打开`File` -> `Settings` -> `Editor` -> `Code Style` -> `Java` -> 右边选择`JavaDoc`
++ `File` -> `Settings` -> `Appearance & Behavior` -> `Appearance` -> 右边勾选 `Show indent guides`
++ `File` -> `Settings` -> `Editor` -> `General` -> `Appearance` -> 右边勾选 `Show indent guides`
 
-1. `Enable JavaDoc Formatting`启用JavaDoc格式化
-2. `Wrap at right margin`右边缘换行，当最后一个单词会超出边界时，自动换行
-3. `Do not wrap one line comments`同一行注释不要换行
-4. `Preserve line feeds`保留换行
 
-- 右边选择`Wrapping and Braces`
+**垂直标尺**
 
-1. `Comment at first column false`代码格式化的时候保证`commet`符号在代码块附近
++ `File` -> `Settings` -> `Editor` -> `General` -> `Appearance`
+     + 2018之前版本，右边勾选 `Show right margin`
+     + 2018之后版本，右边勾选 `Show hard wrap guide` 或 `Show hard wrap and visual guides (configured in Code Style options)`
+
 
 
 ## 去掉提示重复代码
