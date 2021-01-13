@@ -75,11 +75,18 @@
       - -> `Binary expressions` -> `Line wrapping policy` -> `Wrap all elements,every elements on a new line` 将所有元素换行，每个元素都换行
       - -> `Function Calls` -> `Qualified invocations` -> `Wrap all elements,every elements on a new line` 连续调用不换行
       - `Never join already wrapped lines` 不格式化已换行的
-   - -> `Comments`
+   - -> `Comments` 注释
       - `Maximum line width for comments` 注释的最大行宽
+         - `Count width from comment's starting position` 从注释的开始位置计算宽度
       - `Enable Javadoc comment formatting` 启用Javadoc注释格式
-      - `Enable block comment formatting` 启用块注释格式
-      - `Format line comments on first column` 格式化第一列上的行注释
+      - `Enable block comment formatting` 启用块注释格式（每一行以`*`开头）
+      - `Enable line comment formatting` 启用行注释格式
+         - `Format line comments on first column` 格式化注释与注释符之间的间距
+      - `Enable header comment formatting` 启用标题注释格式
+      - `Preserve whitespace between code and line comments` 保留代码和行注释之间的空格
+      - `Never indent line comments on first column` 切勿在第一列缩进行注释
+      - `Never indent block comments on first column` 切勿在第一列缩进块注释
+      - `Never join lines` 从不连接线
 - JavaScript 格式化： `Window` -> `Preferences` -> `JavaScript` -> `Code Style` -> `Formatter` -> `New` -> `Edit` -> `Line Wrapping`
    - `Maximum Line width`
    - `Set line width for preview window`

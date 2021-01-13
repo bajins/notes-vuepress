@@ -235,6 +235,8 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 **Office命令**
 
+* [用于管理 Office 批量激活的工具](https://docs.microsoft.com/zh-cn/DeployOffice/vlactivation/tools-to-manage-volume-activation-of-office)
+
 > 在PowerShell（也可在CMD）中输入命令运行并切换到office安装目录
 > `cd "C:\Program Files (x86)\Microsoft Office\Office16"`，如果安装的64位去掉` (x86)`
 

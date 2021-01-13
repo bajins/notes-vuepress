@@ -462,6 +462,10 @@
 
 ## Office
 
++ [https://github.com/topics/office](https://github.com/topics/office)
++ [https://github.com/topics/office-tools](https://github.com/topics/office-tools)
++ [Office 部署工具概述](https://docs.microsoft.com/zh-cn/deployoffice/overview-office-deployment-tool)
+
 * [https://github.com/apache/openoffice](https://github.com/apache/openoffice)
 * [https://zh-cn.libreoffice.org](https://zh-cn.libreoffice.org)
 * [https://github.com/YerongAI/Office-Tool](https://github.com/YerongAI/Office-Tool)
