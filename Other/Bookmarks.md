@@ -86,7 +86,8 @@
     * [https://legacy.gitbook.com/@waylau](https://legacy.gitbook.com/@waylau)
 * 后端开发常用框架文档及中文翻译 [https://github.com/docs4dev](https://github.com/docs4dev)
     * [https://www.docs4dev.com](https://www.docs4dev.com)
-
+* 视频讲座 [https://github.com/Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses)
+* 成为Web开发人员的路线图 [https://github.com/kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
 
 - [https://github.com/hoochanlon](https://github.com/hoochanlon)
 - [https://github.com/easychen](https://github.com/easychen)

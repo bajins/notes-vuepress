@@ -34,7 +34,7 @@
 
 
 
-## 手册
+## 学习
 
 * [https://github.com/wangdoc/javascript-tutorial](https://github.com/wangdoc/javascript-tutorial)
     * [https://wangdoc.com/javascript](https://wangdoc.com/javascript)
@@ -50,6 +50,7 @@
 * JavaScript算法和数据结构 [https://github.com/trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 * 答题 [https://github.com/lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions)
 * 可读性的代码写法 [https://github.com/ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
+* [https://github.com/felipefialho/frontend-challenges](https://github.com/felipefialho/frontend-challenges)
 
 - [页面生命周期：DOMContentLoaded，load，beforeunload，unload](https://zh.javascript.info/onload-ondomcontentloaded)
 
@@ -166,6 +167,7 @@ var express = require('express');
 * 语法高亮 [https://github.com/PrismJS](https://github.com/PrismJS)
 * [https://github.com/validatorjs/validator.js](https://github.com/validatorjs/validator.js)
 * [https://github.com/zTree/zTree_v3](https://github.com/zTree/zTree_v3)
+* 文件上传 [https://github.com/fex-team/webuploader](https://github.com/fex-team/webuploader)
 * 图片懒加载 [https://github.com/tuupola/lazyload](https://github.com/tuupola/lazyload)
 * Metro风兼瀑布流布局 [https://github.com/desandro/masonry](https://github.com/desandro/masonry)
 * 图片查看 [https://github.com/fengyuanchen/viewerjs](https://github.com/fengyuanchen/viewerjs)
@@ -174,7 +176,6 @@ var express = require('express');
 * 拖曳 [https://github.com/desandro/draggabilly](https://github.com/desandro/draggabilly)
 * 拖放 [https://github.com/bevacqua/dragula](https://github.com/bevacqua/dragula)
 * 图像缩放 [https://github.com/kingdido999/zooming](https://github.com/kingdido999/zooming)
-* 文件上传 [https://github.com/fex-team/webuploader](https://github.com/fex-team/webuploader)
 * 国际化 [https://github.com/i18next/i18next](https://github.com/i18next/i18next)
 * 图像中提取颜色 [https://github.com/briangonzalez/rgbaster.js](https://github.com/briangonzalez/rgbaster.js)
 * 模拟数据生成 [https://github.com/nuysoft/Mock](https://github.com/nuysoft/Mock)
@@ -331,6 +332,8 @@ var express = require('express');
 * [https://github.com/jwilber/roughViz](https://github.com/jwilber/roughViz)
 * 图表库 [https://github.com/highcharts](https://github.com/highcharts)
 * [https://github.com/apache/incubator-echarts](https://github.com/apache/incubator-echarts)
+* [https://github.com/imgcook/imove](https://github.com/imgcook/imove)
+* [https://github.com/antvis/X6](https://github.com/antvis/X6)
 
 
 **动画**

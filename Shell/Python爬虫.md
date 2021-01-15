@@ -68,6 +68,7 @@ taskkill /f /im chromedriver.exe
 - [https://github.com/tychxn/jd-assistant](https://github.com/tychxn/jd-assistant)
 - [https://github.com/xuess/puppeteer-sign](https://github.com/xuess/puppeteer-sign)
 - [https://github.com/zqjzqj/mtSecKill](https://github.com/zqjzqj/mtSecKill)
+- [https://github.com/Yx1aoq1/jdms](https://github.com/Yx1aoq1/jdms)
 
 
 

@@ -274,6 +274,7 @@ SELECT 1 FROM DUAL;
 * [https://github.com/guodongxiaren/redis-wiki](https://github.com/guodongxiaren/redis-wiki)
 * redis常用特性：[https://github.com/LxyTe/redis](https://github.com/LxyTe/redis)
 
+- JuiceFS是基于Redis和S3构建的分布式POSIX文件系统 [https://github.com/juicedata/juicefs](https://github.com/juicedata/juicefs)
 
 
 ## Memcached
