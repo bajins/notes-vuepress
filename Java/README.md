@@ -45,6 +45,7 @@
 - [这四种对象属性拷贝方式，你都知道吗？](https://www.cnblogs.com/vandusty/p/12757992.html)
 - [领域模型转换那些事儿](https://zhuanlan.zhihu.com/p/86282401)
 - [Reactive programming 一种技术 各自表述](https://mercyblitz.github.io/2018/07/25/Reactive-Programming-%E4%B8%80%E7%A7%8D%E6%8A%80%E6%9C%AF-%E5%90%84%E8%87%AA%E8%A1%A8%E8%BF%B0)
+- [Java正则多次匹配和多次组匹配](https://www.cnblogs.com/ElEGenT/p/13158108.html)
 
 + [https://gitlab.ow2.org/asm/asm](https://gitlab.ow2.org/asm/asm)
 + [https://asm.ow2.io](https://asm.ow2.io)
@@ -247,9 +248,13 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * 类路径扫描器和模块扫描器 [https://github.com/classgraph](https://github.com/classgraph)
 * Java 应用程序打包 [https://github.com/fvarrui/JavaPackager](https://github.com/fvarrui/JavaPackager)
 * [https://github.com/rzwitserloot/lombok](https://github.com/rzwitserloot/lombok)
-* 生成输出文本 [https://github.com/apache/freemarker](https://github.com/apache/freemarker)
+* 模板引擎生成输出文本 [https://github.com/apache/freemarker](https://github.com/apache/freemarker)
     * [https://github.com/freemarker/freemarker3](https://github.com/freemarker/freemarker3)
     * [http://freemarker.foofun.cn](http://freemarker.foofun.cn)
+    * [https://github.com/GreedyStar/generator](https://github.com/GreedyStar/generator)
+* [https://github.com/apache/velocity-engine](https://github.com/apache/velocity-engine)
+* [https://github.com/thymeleaf](https://github.com/thymeleaf)
+
 
 
 

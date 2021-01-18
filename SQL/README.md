@@ -176,6 +176,25 @@ OPTIMIZE TABLE 表名;
 * [Oracle with as + /*+ materialize*/ 优化](https://blog.csdn.net/qq_34745941/article/details/106897099)
 
 
+**系统表**
+
+- `USER_TABLES` 当前用户拥有的表：`TABLE_NAME`,`TABLESPACE_NAME`,`LAST_ANALYZED`
+- `DBA_TABLES` 包括系统表：多了`OWER`列
+- `ALL_TABLES` 所有用户的表：多了`OWER`列
+- `ALL_OBJECTS` 当前用户有访问权限的所有对象：`OWER`,`OBJECT_NAME`,`SUBOBJECT_NAME`,`OBJECT_ID`,`CREATED`,`LAST_DDL_TIME`,`TIMESTAMP`,`STATUS`
+- `USER_TAB_COLUMNS` 当前用户拥有的表字段
+- `ALL_TAB_COLUMNS`
+- `DBA_TAB_COLUMNS`
+- `USER_TAB_COMMENTS` 当前用户拥有的表注释 ：`TABLE_NAME`,`TABLE_TYPE`,`COMMENTS`
+- `DBA_TAB_COMMENTS` ：多了`OWER`列
+- `ALL_TAB_COMMENTS` ：多了`OWER`列
+- `USER_COL_COMMENTS` 当前用户拥有的表字段注释 ： `TABLE_NAME`,`COLUMN_NAME`,`COMMENTS`
+- `DBA_COL_COMMENTS` ：多了`OWER`列
+- `ALL_COL_COMMENTS` ：多了`OWER`列
+
+> `SELECT * FROM USER_TAB_COMMENTS WHERE COMMENTS LIKE '%摘要%'`
+
+
 **分组获取最新一条数据（查询各组最新的一条记录）**
 
 - over partition by 分析函数

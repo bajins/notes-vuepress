@@ -141,6 +141,19 @@ get-appxpackage *xbox* | remove-appxpackage
 > `ASCII` 为无BOM`UTF-8`编码
 
 ```powershell
+# 列出所有的环境变量
+Get-ChildItem env: 
+dir env:
+ls env:
+# 获取环境变量的值
+$env:变量名
+# 删除环境变量
+del env:变量名
+# 更新环境变量
+$env:变量名="变量值"
+# .NET方法操作可以全局生效
+[environment]::SetEnvironmentvariable("变量名", "值", "值")
+
 # 查看输出的命令集
 Get-Command -verb out
 
@@ -231,6 +244,18 @@ Get-ChildItem . | ForEach-Object -Process {
 
 ```powershell
 New-Item -ItemType directory -Path 目录的路径
+# 只列出目录
+Dir | Where-Object { $_ -is [System.IO.DirectoryInfo] }
+Dir | Where-Object { $_.PSIsContainer }
+Dir | Where-Object { $_.Mode.Substring(0,1) -eq "d" }
+# 只列出文件
+Dir | Where-Object { $_ -is [System.IO.FileInfo] }
+Dir | Where-Object { $_.PSIsContainer -eq $false}
+Dir | Where-Object { $_.Mode.Substring(0,1) -ne "d" }
+# 通过管道过滤2020年5月12日后更改过的文件
+Dir | Where-Object { $_.CreationTime -gt [datetime]::Parse("May 12, 2020") }
+# 获取2周以内更改过的文件
+Dir | Where-Object { $_.CreationTime -gt (Get-Date).AddDays(-14) }
 ```
 
 - 复制文件及目录结构
@@ -238,6 +263,11 @@ New-Item -ItemType directory -Path 目录的路径
 ```powershell
 # 源路径最后一个文件夹名为需要复制的目录结构的顶级文件夹名
 Copy-Item -Force -Recurse 源路径 目标路径 -Filter 文件名
+# .create()方法可以创建不存在的目录
+[IO.DirectoryInfo]$to |% {$_.create(); cp $from $_}
+# 复制多个文件到指定目录
+get-childitem -path "D:\demo" -include @('test.java','test.js') -recurse `
+| copy-item -destination (new-item -path "$env:HOMEPATH\Desktop\demo" -type "directory")
 ```
 
 - 删除空目录
@@ -437,12 +467,6 @@ while(1){
 
 
 
-### 系统环境变量
-
-
-- 列出所有的环境变量：`Get-ChildItem env:` 同 `dir env:`
-
-- 获取环境变量的值：`$env:变量名`
 
 
 ## 随机字符串

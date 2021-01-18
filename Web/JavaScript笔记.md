@@ -164,6 +164,12 @@ console.log(new RegExp("var servers = (.*)","ig").exec(str));
 console.log(str.match(new RegExp("var servers = (.*)","ig")));
 console.log(new RegExp("test(.*)","ig").exec(str));
 console.log(str.match(new RegExp("test(.*)","ig")));
+
+// 匹配多个${}
+var reg = /(\${.*?\})/g;
+var reg = /\$\{[^\}]+\}/g;
+var str = "如何匹配到 ${A0111}${A0117}  现在好像只能匹配一个。";
+str.match(reg);
 ```
 
 

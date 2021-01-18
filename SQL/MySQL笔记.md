@@ -17,6 +17,12 @@
 ## 常用语句
 
 
+```sql
+-- 根据表注释查找对应的表
+SELECT TABLE_NAME 表名,TABLE_COMMENT '表注解' FROM INFORMATION_SCHEMA.TABLES
+ WHERE TABLE_SCHEMA = '数据库名' AND TABLE_COMMENT  LIKE '%注释关键词%';
+```
+
 ### 命令行
 
 > 可以用shell脚本操作mysql数据库，使用mysql的`-e`参数可以执行各种sql的(创建，删除，增，删，改、查)等各种操作。

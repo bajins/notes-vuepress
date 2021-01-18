@@ -180,6 +180,7 @@ var express = require('express');
 * 图像中提取颜色 [https://github.com/briangonzalez/rgbaster.js](https://github.com/briangonzalez/rgbaster.js)
 * 模拟数据生成 [https://github.com/nuysoft/Mock](https://github.com/nuysoft/Mock)
 * SVG渲染图像占位符 [https://github.com/imsky/holder](https://github.com/imsky/holder)
+* 动画引擎 [https://github.com/julianshapiro/velocity](https://github.com/julianshapiro/velocity)
 * [https://github.com/dankogai/js-base64](https://github.com/dankogai/js-base64)
 * 交互式医学图像 [https://github.com/cornerstonejs/cornerstone](https://github.com/cornerstonejs/cornerstone)
 * 选色器 [https://github.com/bgrins/spectrum](https://github.com/bgrins/spectrum)
@@ -187,6 +188,7 @@ var express = require('express');
 * 手势交互 [https://github.com/hammerjs/hammer.js](https://github.com/hammerjs/hammer.js)
 * [https://github.com/material-motion/material-motion-js](https://github.com/material-motion/material-motion-js)
 * 自动执行 [https://github.com/gruntjs](https://github.com/gruntjs)
+* velocity模板语法的JS实现 [https://github.com/shepherdwind/velocity.js](https://github.com/shepherdwind/velocity.js)
 
 - [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
 

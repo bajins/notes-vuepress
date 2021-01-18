@@ -13,6 +13,11 @@
 
 * [https://github.com/microsoft/vscode](https://github.com/microsoft/vscode)
     * [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
+* [https://github.com/microsoft/vscode-docs](https://github.com/microsoft/vscode-docs)
+    * [默认键盘快捷键](https://code.visualstudio.com/docs/getstarted/keybindings#_default-keyboard-shortcuts)
+    * [Keyboard shortcuts forWindows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+    * [Keyboard shortcuts for macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+    * [Keyboard shortcuts for Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 * [VSCode教程](https://www.php.cn/tool/vscode)
 * [https://github.com/Microsoft/vcpkg](https://github.com/Microsoft/vcpkg)
     * [适用于Windows，Linux和MacOS的C ++库管理器](https://docs.microsoft.com/zh-cn/cpp/build/vcpkg)
@@ -109,6 +114,8 @@
 | Ctrl + /             | 切换行注释 Toggle line comment                       |
 | Shift + Alt + A      | 切换块注释 Toggle block comment                      |
 | Alt + Z              | 切换换行 Toggle word wrap                           |
+| CTRL + ALT + X       | 转换为大写 transform To Uppercase                    |
+| CTRL + ALT + Y       | 转换为小写 transform To Lowercase                    |
 
 
 
