@@ -238,7 +238,49 @@ INSERT ALL
 SELECT 1 FROM DUAL;
 ```
 
+**插入或更新 upsert**
 
+* [SQL语句 存在就更新不存在就插入](https://www.jianshu.com/p/602ba0b8395b)
+* [merge into 的用法](https://blog.csdn.net/weixin_40374341/article/details/109239544)
+
+
+```sql
+MERGE INTO table_name alias1   
+USING (table|view|sub_query) alias2  
+ON (join condition)   
+WHEN MATCHED THEN   
+    UPDATE table_name SET col1 = col_val1
+WHEN NOT MATCHED THEN   
+    INSERT (column_list) VALUES (column_values);
+```
+
+
+
+## Postgre
+
++ [https://github.com/topics/postgrest](https://github.com/topics/postgrest)
++ [https://github.com/topics/postgresql](https://github.com/topics/postgresql)
++ [https://github.com/dhamaniasad/awesome-postgres](https://github.com/dhamaniasad/awesome-postgres)
+
+* [https://github.com/citusdata](https://github.com/citusdata)
+* [https://github.com/postgres/postgres](https://github.com/postgres/postgres)
+    * [Postgre系统目录](http://postgres.cn/docs/13/catalogs.html)
+* [https://github.com/PostgREST/postgrest](https://github.com/PostgREST/postgrest)
+
+- 文本搜索和分析 [https://github.com/zombodb/zombodb](https://github.com/zombodb/zombodb)
+- [https://github.com/supabase/supabase](https://github.com/supabase/supabase)
+
+* [Postgresql库常用系统表](https://blog.csdn.net/jsbylibo/article/details/108448400)
+* [postgreSQL-如何查数据库表、字段以及字段类型、注释等信息？](https://www.cnblogs.com/eva-wu/p/3455404.html)
+
+- [PostgreSQL upsert(插入更新)教程](https://blog.csdn.net/neweastsun/article/details/112147693)
+
+```sql
+-- 插入或更新 upsert
+INSERT INTO table_name(column_list) 
+VALUES(value_list)
+ON CONFLICT target action;
+```
 
 
 ## SQLite3

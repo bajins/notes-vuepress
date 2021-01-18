@@ -216,7 +216,7 @@ $.is(":checked");
 - 把表单值存入`<input type="hidden" >`中，如果代码中要改变选中则同时要赋值给该输入框
 - 提交表单前先移除`disabled`属性，不提交表单时或提交表单后设置`disabled`属性（代码中要改变选中前先移除`disabled`属性）
 - 只设置没有选中的input框`disabled`属性 （代码中要改变选中时先移除`disabled`属性）
-
+	* [设置单选框radio不可选（禁用）](https://blog.csdn.net/qq_39615545/article/details/112561630)
 
 
 
