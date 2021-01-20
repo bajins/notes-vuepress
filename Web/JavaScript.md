@@ -216,6 +216,8 @@ var express = require('express');
 * [https://github.com/ustbhuangyi/storage](https://github.com/ustbhuangyi/storage)
 * [https://github.com/jaywcjlove/store.js](https://github.com/jaywcjlove/store.js)
 * [https://github.com/localForage/localForage](https://github.com/localForage/localForage)
+    * [https://github.com/xmoyking/localForage-cn](https://github.com/xmoyking/localForage-cn)
+        * [https://localforage.docschina.org](https://localforage.docschina.org)
 * [https://github.com/typicode/lowdb](https://github.com/typicode/lowdb)
 * [https://github.com/marcuswestin/store.js](https://github.com/marcuswestin/store.js)
 
@@ -253,7 +255,7 @@ var express = require('express');
 * 转换HTML/XML [https://github.com/posthtml/posthtml](https://github.com/posthtml/posthtml)
 * 幻灯片 [https://github.com/webslides/webslides](https://github.com/webslides/webslides)
 * [https://github.com/gnab/remark](https://github.com/gnab/remark)
-
+* 正则表达式 [https://github.com/slevithan/XRegExp](https://github.com/slevithan/XRegExp)
 
 
 **文档**

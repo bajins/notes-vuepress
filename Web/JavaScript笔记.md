@@ -27,7 +27,9 @@
 
 **循环loop**
 
-- `for` 多次遍历代码块
+* [JS中集合对象(Array、Map、Set)及类数组对象的使用与对比](https://github.com/quanzaiyu/hexo-blog/blob/master/source/_posts/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3JavaScript%20-%20JS%E4%B8%AD%E9%9B%86%E5%90%88%E5%AF%B9%E8%B1%A1(Array%E3%80%81Map%E3%80%81Set)%E5%8F%8A%E7%B1%BB%E6%95%B0%E7%BB%84%E5%AF%B9%E8%B1%A1%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E5%AF%B9%E6%AF%94.md)
+
+- `for/i` 多次遍历代码块
 - `forEach` 遍历对象属性，不能中断循环（使用`break`语句或使用`return`语句）
 - `for/in` 遍历对象属性，实际是为循环`enumerable`对象而设计，不推荐用`for/in`来循环一个数组
 - `for/of` 可遍历`Array`、`String`、`TypedArray`、`Map`、`Set`、`DOM collections`、`enumerable`、`generators`，弥补了`forEach`和`for/in`循环的短板
@@ -510,63 +512,6 @@ document.body.scrollHeight
 document.documentElement.scrollHeight
 ```
 
-```js
-/**
- * 把水平滚动条位置和垂直滚动条位置保存在Cookie中
- */
-function setScrollToCookie() {
-    var scrollTop, scrollLeft;
-    if (typeof window.pageYOffset != 'undefined') {
-        scrollTop = window.pageYOffset;
-        scrollLeft = window.pageXOffset;
-    } else if (typeof document.compatMode != 'undefined' && document.compatMode != 'BackCompat') {
-        scrollTop = document.documentElement.scrollTop;
-        scrollLeft = document.documentElement.scrollLeft;
-    } else if (typeof document.body != 'undefined') {
-        scrollTop = document.body.scrollTop;
-        scrollLeft = document.body.scrollLeft;
-    }
-    var date = new Date();
-    date.setHours(date.getHours() + 1); // 设置cookie的有效期
-    // 创建cookie，保存水平滚动条位置
-    document.cookie = "scrollTop=" + escape(scrollTop) + "; expires=" + date.toGMTString();
-    // 创建cookie，保存垂直滚动条位置
-    document.cookie = "scrollLeft=" + escape(scrollLeft) + "; expires=" + date.toGMTString();
-}
-
-/**
- * 获取Cookie中存储的信息
- * 
- * @param {Stirng} sName 
- */
-function getCookie(sName) {
-    var arr = document.cookie.match(/(scrollTop|scrollLeft)=([^;]+)(;|$)/);
-    if (arr != null) {
-        var aCookie = document.cookie.split("; "); // 将cookie中的数据切割成数组，方便遍历
-        for (var i = 0; i < aCookie.length; i++) { // 遍历cookie中的数据
-            var aCrumb = aCookie[i].split("="); // 将键和值分开
-            if (sName == aCrumb[0]) { // 判断是否是指定的键
-                return unescape(aCrumb[1]);
-            }
-        }
-    }
-    return null;
-}
-
-/**
- * 加载页面时自动执行获取cookie保存值的方法
- */
-window.onload = function () {
-    document.documentElement.scrollLeft = getCookie("scrollLeft");
-    document.body.scrollLeft = getCookie("scrollLeft"); // 获取水平滚动条位置
-    document.documentElement.scrollTop = getCookie("scrollTop");
-    document.body.scrollTop = getCookie("scrollTop"); // 获取垂直滚动条位置
-}
-
-window.onunload = setScrollToCookie();
-
-window.onbeforeunload = setScrollToCookie();
-```
 
 
 ## 监听窗口变化
@@ -594,6 +539,7 @@ $(window).resizeEnd({delay: 500}, function () {
 ## 标签默认事件
 
 * [https://developer.mozilla.org/zh-CN/docs/Web/API/Event](https://developer.mozilla.org/zh-CN/docs/Web/API/Event)
+
 
 **阻止其他事件触发**
 
@@ -761,6 +707,8 @@ $(document).ready(function () {
 
 ## Storage和Cache
 
++ [技术指南-MDN](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps#%E6%8A%80%E6%9C%AF%E6%8C%87%E5%8D%97)
+
 * [使用Chrome DevTools查看和编辑本地存储](https://developers.google.com/web/tools/chrome-devtools/storage/localstorage)
 * [https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Storage_API](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Storage_API)
     * [https://developer.mozilla.org/zh-CN/docs/Web/API/Storage](https://developer.mozilla.org/zh-CN/docs/Web/API/Storage)
@@ -785,6 +733,64 @@ for(var i=0, len=localStorage.length; i<len; i++){
     var value = localStorage.getItem(key);    
     console.log(key + "=" + value);
 }
+```
+
+```js
+/**
+ * 把水平滚动条位置和垂直滚动条位置保存在Cookie中
+ */
+function setScrollToCookie() {
+    var scrollTop, scrollLeft;
+    if (typeof window.pageYOffset != 'undefined') {
+        scrollTop = window.pageYOffset;
+        scrollLeft = window.pageXOffset;
+    } else if (typeof document.compatMode != 'undefined' && document.compatMode != 'BackCompat') {
+        scrollTop = document.documentElement.scrollTop;
+        scrollLeft = document.documentElement.scrollLeft;
+    } else if (typeof document.body != 'undefined') {
+        scrollTop = document.body.scrollTop;
+        scrollLeft = document.body.scrollLeft;
+    }
+    var date = new Date();
+    date.setHours(date.getHours() + 1); // 设置cookie的有效期
+    // 创建cookie，保存水平滚动条位置
+    document.cookie = "scrollTop=" + escape(scrollTop) + "; expires=" + date.toGMTString();
+    // 创建cookie，保存垂直滚动条位置
+    document.cookie = "scrollLeft=" + escape(scrollLeft) + "; expires=" + date.toGMTString();
+}
+
+/**
+ * 获取Cookie中存储的信息
+ * 
+ * @param {Stirng} sName 
+ */
+function getCookie(sName) {
+    var arr = document.cookie.match(/(scrollTop|scrollLeft)=([^;]+)(;|$)/);
+    if (arr != null) {
+        var aCookie = document.cookie.split("; "); // 将cookie中的数据切割成数组，方便遍历
+        for (var i = 0; i < aCookie.length; i++) { // 遍历cookie中的数据
+            var aCrumb = aCookie[i].split("="); // 将键和值分开
+            if (sName == aCrumb[0]) { // 判断是否是指定的键
+                return unescape(aCrumb[1]);
+            }
+        }
+    }
+    return null;
+}
+
+/**
+ * 加载页面时自动执行获取cookie保存值的方法
+ */
+window.onload = function () {
+    document.documentElement.scrollLeft = getCookie("scrollLeft");
+    document.body.scrollLeft = getCookie("scrollLeft"); // 获取水平滚动条位置
+    document.documentElement.scrollTop = getCookie("scrollTop");
+    document.body.scrollTop = getCookie("scrollTop"); // 获取垂直滚动条位置
+}
+
+window.onunload = setScrollToCookie();
+
+window.onbeforeunload = setScrollToCookie();
 ```
 
 

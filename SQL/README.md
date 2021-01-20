@@ -59,6 +59,22 @@
 * [mysql的varchar与text对比](https://blog.51cto.com/arthur376/2121160)
 
 
+
+**通过分组聚合GROUP_CONCAT实现分析函数（开窗函数）**
+
+* [Mysql 分组聚合实现 over partition by 功能](https://blog.csdn.net/jishanwang/article/details/87179461)
+
+```sql
+SELECT
+  product_id,
+  branch,
+  GROUP_CONCAT(t.stock ORDER BY t.stock DESC ) stocks
+FROM (SELECT *
+      FROM product_stock) t
+GROUP BY product_id,branch
+```
+
+
 ### 索引
 
 > 索引是加速搜索引擎检索数据的一种特殊表查询。简单地说，索引是一个指向表中数据的指针。
@@ -197,7 +213,7 @@ OPTIMIZE TABLE 表名;
 
 **分组获取最新一条数据（查询各组最新的一条记录）**
 
-- over partition by 分析函数
+- over partition by 分析函数（开窗函数）
 
 ```sql
 SELECT * FROM (
@@ -375,6 +391,9 @@ ON CONFLICT target action;
 
 
 ## 标准SQL
+
+* [SQL标准简介](https://cloud.tencent.com/developer/article/1442564)
+
 
 > 在标准 SQL 中，字符串使用的是单引号。
 
@@ -585,3 +604,10 @@ CASE WHEN sex = '1' and sex = '0' THEN '男'
 WHEN sex = '2' THEN '女'
 ELSE '其他' END
 ```
+
+
+
+### SQL2003
+
+> 开窗函数简介:与聚合函数一样，开窗函数也是对行集组进行聚合计算，但是它不像普通聚合函数那样每组只返回一个值
+> ，开窗函数可以为每组返回多个值，因为开窗函数所执行聚合计算的行集组是窗口

@@ -22,6 +22,21 @@
     - [https://less.bootcss.com](https://less.bootcss.com)
 
 
+**各种隐藏HTML元素的区别**
+
+1. `display:none;` 一旦显示为隐藏，则其子元素也隐藏，并且不占用任何位置，JS将获取不到子元素
+2. `visiblity:hidden` 设置为隐藏，占据页面空间，其子元素不隐藏，占用位置，不可点击
+3. `transform:scale(0);` 缩放为0，占据页面空间，占用位置，不可点击
+4. `height:0` 高度为0，不可点击
+5. `opacity:0` 透明度，取值范围（0-1），0不显示，占据页面空间，占用位置，并且可以点击
+6. `z-index:-10; position:relative;` 层级，`z-index`属性需要搭配`positon`属性一块使用，不然设置了不起作用
+7. `position:absolute; left:-5000; top:-5000;` 绝对定位方式移出可视区域，不影响页面布局，脱标
+8. `cli-path:polygon(0px 0px , 0px 0px,0px 0px,0px 0px)` 通过裁剪盒子，不脱标
+9. `position:absolute; clip:rect(0px 0px 0px 0px);` 通过裁剪绝对定位的盒子，脱标
+10. `removeChild` 用JS暂时从DOM树上摘下，但并未从后台清除，如需再次生成必须要用`appendChild`来生成
+
+
+
 ## 第三方库
 
 - [https://github.com/topics/css-framework](https://github.com/topics/css-framework)
@@ -480,3 +495,77 @@ div:hover{
 - [initial](https://developer.mozilla.org/zh-CN/docs/Web/CSS/initial) 属于CSS-wide关键字，属性初始值
 - [unset](https://developer.mozilla.org/zh-CN/docs/Web/CSS/unset) 擦除属性申明，如果属性是默认继承属性，等同于inherit，如果属性是非继承属性，等同于initial，unset属于CSS-wide关键字
 - [revert](https://developer.mozilla.org/zh-CN/docs/Web/CSS/revert) 重置当前样式来源（style origin）的样式
+
+
+
+
+## 输入框勾选样式
+
+```css
+input[type='checkbox'] {
+    cursor: pointer;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    font-size: 16px;
+    visibility: hidden;
+}
+input[type='checkbox']::after {
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    color: #fff;
+    border: 1px solid #b1b1b1;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    visibility: visible;
+    padding-left: 0px;
+    text-align: center;
+    content: ' ';
+    /*border-radius: 50%;*/
+    box-sizing: border-box;
+}
+
+input[type='checkbox']:checked::after {
+    background-color: #4db7ff;
+    border: none;
+    content: '\2713';
+    font-size: 14px;
+    font-weight: bold;
+}
+```
+
+```css
+input[type='checkbox'] {
+    cursor: pointer;
+    position: relative;
+    width: 13px;
+    height: 13px;
+    font-size: 13px;
+    margin-right: 5px;
+    visibility: hidden;
+}
+input[type='checkbox']::after {
+    position: absolute;
+    top: 2px;
+    color: #fff;
+    border: 1px solid #4db7ff;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    visibility: visible;
+    padding-left: 0px;
+    text-align: center;
+    content: ' ';
+    box-sizing: border-box;
+}
+ 
+input[type='checkbox']:checked::after {
+    color: #4db7ff;
+    border: 1px solid #4db7ff;
+    content: '\2713';
+    font-size: 12px;
+}
+```
+
