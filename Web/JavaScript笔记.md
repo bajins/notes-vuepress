@@ -145,6 +145,20 @@ console.log(x);
 ```
 
 
+**在指定位置插入字符串**
+
+```js
+let reg = new RegExp('(.{'+位置+'})','g');
+let str = 字符串.replace(reg,'$1要插入的字符串');
+
+// 可能在循环中无效
+let str = 字符串.slice(0, 位置) + "要插入的字符串" + 字符串.slice(位置);
+
+let textArry = 字符串.split('');
+textArry.splice(位置, 0, "要插入的字符串");
+let str = textArry.join('');
+```
+
 
 
 ## 正则表达式

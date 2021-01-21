@@ -27,6 +27,7 @@
 
 > [Polyfill](https://developer.mozilla.org/zh-CN/docs/Glossary/Polyfill) 是一块代码（通常是 Web 上的 JavaScript）
 > ，用来为旧浏览器提供它没有原生支持的较新的功能 [https://github.com/financial-times/polyfill-service](https://github.com/financial-times/polyfill-service)
+> [https://github.com/taylorhakes/promise-polyfill](https://github.com/taylorhakes/promise-polyfill)
 
 
 - 恶意软件分析 [https://github.com/HynekPetrak/malware-jail](https://github.com/HynekPetrak/malware-jail)
@@ -198,10 +199,14 @@ var express = require('express');
 
 + [https://github.com/topics/dialog](https://github.com/topics/dialog)
 + [https://github.com/topics/popup](https://github.com/topics/popup)
++ [https://github.com/topics/confirm](https://github.com/topics/confirm)
++ [https://github.com/topics/alert](https://github.com/topics/alert)
++ [https://github.com/topics/ajax](https://github.com/topics/ajax)
 
 * [https://github.com/sentsin/layui](https://github.com/sentsin/layui)
 * [https://github.com/sentsin/layer](https://github.com/sentsin/layer)
 * [https://github.com/sweetalert2/sweetalert2](https://github.com/sweetalert2/sweetalert2)
+    * [https://www.sweetalert2.cn](https://www.sweetalert2.cn)
 * 提示和弹出框 [https://github.com/popperjs/popper-core](https://github.com/popperjs/popper-core)
 * alert()和confirm()包装 [https://github.com/makeusabrew/bootbox](https://github.com/makeusabrew/bootbox)
 

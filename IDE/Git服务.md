@@ -25,6 +25,8 @@
 * 代码语法突出 [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 * GitHub的Java API [https://github.com/hub4j/github-api](https://github.com/hub4j/github-api)
 
+
+
 **代码跟踪分析**
 
 - [https://sonarcloud.io](https://sonarcloud.io)
@@ -127,6 +129,13 @@ volumes:
 * [http://tool.chinaz.com/dns](http://tool.chinaz.com/dns)
 * [https://www.ipaddress.com](https://www.ipaddress.com)
 * [Windows设置GitHub的Hosts脚本](/files/设置GitHub的Hosts.bat)
+* [https://codechina.csdn.net/mirrors](https://codechina.csdn.net/mirrors)
+* [https://github.com/FastGitORG](https://github.com/FastGitORG)
+    * [https://hub.fastgit.org](https://hub.fastgit.org)
+    * [https://toolwa.com/github](https://toolwa.com/github)
+* github release、archive以及项目文件的加速项目 [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
+    * [https://gh.api.99988866.xyz](https://gh.api.99988866.xyz)
+    * [https://ghproxy.com](https://ghproxy.com)
 
 
 **刷新DNS缓存**
