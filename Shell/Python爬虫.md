@@ -69,6 +69,11 @@ taskkill /f /im chromedriver.exe
 - [https://github.com/xuess/puppeteer-sign](https://github.com/xuess/puppeteer-sign)
 - [https://github.com/zqjzqj/mtSecKill](https://github.com/zqjzqj/mtSecKill)
 - [https://github.com/Yx1aoq1/jdms](https://github.com/Yx1aoq1/jdms)
+- [https://github.com/shylocks/Loon](https://github.com/shylocks/Loon)
+- [https://github.com/LXK9301/jd_scripts/tree/master](https://github.com/LXK9301/jd_scripts/tree/master)
+- [https://github.com/NobyDa/Script/tree/master](https://github.com/NobyDa/Script/tree/master)
+- [https://github.com/yangtingxiao/QuantumultX](https://github.com/yangtingxiao/QuantumultX)
+- [https://github.com/chavyleung/scripts](https://github.com/chavyleung/scripts)
 
 
 

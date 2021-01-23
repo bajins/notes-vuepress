@@ -136,6 +136,8 @@ volumes:
 * github release、archive以及项目文件的加速项目 [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
     * [https://gh.api.99988866.xyz](https://gh.api.99988866.xyz)
     * [https://ghproxy.com](https://ghproxy.com)
+* [https://gitee.com/mirrors](https://gitee.com/mirrors)
+
 
 
 **刷新DNS缓存**
