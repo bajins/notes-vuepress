@@ -28,7 +28,13 @@
 * [如何看待Linus Torvalds对AVX512的评价？](https://www.zhihu.com/question/406517759)
 
 
+**开源操作系统**
+
+* [Linux发行版本排行](https://distrowatch.com/dwres.php?resource=popularity)
+* [Linux主流发行版本](https://distrowatch.com/dwres.php?resource=major)
 - [https://github.com/rocky-linux](https://github.com/rocky-linux)
+- [https://github.com/SerenityOS/serenity](https://github.com/SerenityOS/serenity)
+
 
 
 **管理面板**

@@ -195,7 +195,7 @@ with Test() as t: # 触发__exit__
     - [![Run on Ainize](https://ainize.ai/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=https://github.com/alisen39/TrWebOCR)
 - [https://github.com/d2l-ai](https://github.com/d2l-ai)
 - 视频感知 [https://github.com/open-mmlab/mmtracking](https://github.com/open-mmlab/mmtracking)
-
+- [https://github.com/scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)
 
 
 **OCR**

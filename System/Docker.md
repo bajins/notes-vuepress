@@ -79,6 +79,7 @@
 - [https://github.com/apache/mesos](https://github.com/apache/mesos)
     - [https://github.com/mesos](https://github.com/mesos)
 - [https://github.com/OpenVZ](https://github.com/OpenVZ)
+- [https://github.com/firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker)
 
 
 

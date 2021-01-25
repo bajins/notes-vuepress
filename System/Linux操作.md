@@ -37,13 +37,6 @@
 * 提供状态线和提示 [https://github.com/powerline/powerline](https://github.com/powerline/powerline)
 
 
-**发行版本**
-
-* [Linux发行版本排行](https://distrowatch.com/dwres.php?resource=popularity)
-* [Linux主流发行版本](https://distrowatch.com/dwres.php?resource=major)
-
-
-
 
 
 ## 重装系统

@@ -31,7 +31,7 @@
 
 
 - 恶意软件分析 [https://github.com/HynekPetrak/malware-jail](https://github.com/HynekPetrak/malware-jail)
-
+- 物联网的超轻量级JavaScript引擎 [https://github.com/jerryscript-project/jerryscript](https://github.com/jerryscript-project/jerryscript)
 
 
 
@@ -49,6 +49,7 @@
 * 文档对象模型 (DOM) [https://developer.mozilla.org/zh-CN/docs/Glossary/DOM](https://developer.mozilla.org/zh-CN/docs/Glossary/DOM)
 * [https://github.com/Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript)
 * [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30)
+* [https://github.com/30-seconds/30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)
 * JavaScript算法和数据结构 [https://github.com/trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 * 答题 [https://github.com/lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions)
 * 可读性的代码写法 [https://github.com/ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
@@ -344,6 +345,9 @@ var express = require('express');
 * [https://github.com/apache/incubator-echarts](https://github.com/apache/incubator-echarts)
 * [https://github.com/imgcook/imove](https://github.com/imgcook/imove)
 * [https://github.com/antvis/X6](https://github.com/antvis/X6)
+
+- 虚拟白板 [https://github.com/excalidraw/excalidraw](https://github.com/excalidraw/excalidraw)
+
 
 
 **动画**
