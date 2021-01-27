@@ -243,12 +243,16 @@
 
 + [http://www.sharerw.com](http://www.sharerw.com)
 + [https://htcui.com](https://htcui.com)
-+ [https://www.lanzous.com/b05f9wyf](https://www.lanzous.com/b05f9wyf)
 + [https://forum.release-apk.com/viewforum.php?f=5](https://forum.release-apk.com/viewforum.php?f=5)
     + [https://forum.release-apk.com/tag/downloader](https://forum.release-apk.com/tag/downloader)
 + [https://patch.chelpus.com](https://patch.chelpus.com)
 + [手机软件下载-智友邦原智友论坛](http://bbs.zhiyoo.net/forum.php?mod=forumdisplay&fid=42&filter=lastpost&orderby=lastpost)
 + [https://github.com/butzist/ActivityLauncher](https://github.com/butzist/ActivityLauncher)
++ [https://github.com/yoyodadada/haoruanfenxiang](https://github.com/yoyodadada/haoruanfenxiang)
++ [https://dongji.lanzoui.com/b05alr4pi](https://dongji.lanzoui.com/b05alr4pi)
++ [https://www.lanzous.com/b05f9wyf](https://www.lanzous.com/b05f9wyf)
++ [https://dongji.lanzoui.com/b05a873cb](https://dongji.lanzoui.com/b05a873cb)
++ [https://dongji.lanzoui.com/b05a93hje](https://dongji.lanzoui.com/b05a93hje)
 
 * 文件传输 [http://www.xender.com](http://www.xender.com)
 * [https://github.com/interfect/fenix](https://github.com/interfect/fenix)

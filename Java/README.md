@@ -132,6 +132,7 @@
 * [https://github.com/aCoder2013/blog](https://github.com/aCoder2013/blog)
 * [https://github.com/guang19/framework-learning](https://github.com/guang19/framework-learning)
 * Java多线程编程核心技术 [https://github.com/loveincode/java-multi-thread-programming](https://github.com/loveincode/java-multi-thread-programming)
+* 项目实践讲解 [https://github.com/RudeCrab/rude-java](https://github.com/RudeCrab/rude-java)
 
 + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
 + [https://github.com/Wizzercn/MqttWk](https://github.com/Wizzercn/MqttWk)
@@ -176,7 +177,6 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/rabbitmq](https://github.com/rabbitmq)
 * [https://github.com/apache/kafka](https://github.com/apache/kafka)
     * [Kafka安装及入门](http://jaychang.cn/2020/03/15/afka%E5%AE%89%E8%A3%85%E5%8F%8A%E5%85%A5%E9%97%A8)
-    * [https://github.com/spring-projects](https://github.com/spring-projects)
 * [https://github.com/xuxueli](https://github.com/xuxueli)
 * [https://github.com/elastic/elasticsearch](https://github.com/elastic/elasticsearch)
 * [https://github.com/apache/lucene-solr](https://github.com/apache/lucene-solr)
@@ -194,11 +194,14 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 **LOG**
 
 + [https://github.com/topics/logging](https://github.com/topics/logging)
++ [https://github.com/topics/logback](https://github.com/topics/logback)
 
 * [https://github.com/apache/logging-log4j2](https://github.com/apache/logging-log4j2)
 * [https://github.com/qos-ch](https://github.com/qos-ch)
     * [https://github.com/qos-ch/logback](https://github.com/qos-ch/logback)
-
+    * [https://github.com/logstash/logstash-logback-encoder](https://github.com/logstash/logstash-logback-encoder)
+    * [https://github.com/YLongo/logback-chinese-manual](https://github.com/YLongo/logback-chinese-manual)
+    * [http://www.logback.cn](http://www.logback.cn)
 
 
 **JSON**
@@ -255,6 +258,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 + [https://github.com/looly/hutool](https://github.com/looly/hutool)
 + [https://github.com/0opslab/opslabJutil](https://github.com/0opslab/opslabJutil)
 + [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
++ [spring framework util](https://github.com/spring-projects/spring-framework/tree/master/spring-core/src/main/java/org/springframework/util)
 + [https://github.com/apache/commons-lang](https://github.com/apache/commons-lang)
 + 流式断言器 [https://github.com/assertj](https://github.com/assertj)
     + [https://assertj.github.io/doc](https://assertj.github.io/doc)
@@ -293,17 +297,17 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 * JMH基准测试 [https://github.com/arey/java-object-mapper-benchmark](https://github.com/arey/java-object-mapper-benchmark)
 
-- [https://github.com/apache/commons-beanutils](https://github.com/apache/commons-beanutils)
-- 替代BeanUtils [https://github.com/mapstruct](https://github.com/mapstruct)
+- [Spring Beanutils](https://github.com/spring-projects/spring-framework/blob/master/spring-beans/src/main/java/org/springframework/beans/BeanUtils.java)
+- [https://github.com/mapstruct](https://github.com/mapstruct)
+- Apache BeanUtils [https://github.com/apache/commons-beanutils](https://github.com/apache/commons-beanutils)
 - [https://github.com/orika-mapper/orika](https://github.com/orika-mapper/orika)
-- [https://github.com/DozerMapper](https://github.com/DozerMapper)
+- [https://github.com/DozerMapper/dozer](https://github.com/DozerMapper/dozer)
 - [https://github.com/lets-mica/mica](https://github.com/lets-mica/mica)
     - [https://github.com/yangtu222/BeanUtils](https://github.com/yangtu222/BeanUtils)
 - [cglib的BeanCopier](https://github.com/cglib/cglib/blob/master/cglib/src/main/java/net/sf/cglib/beans/BeanCopier.java)
 - [https://github.com/kordamp/ezmorph](https://github.com/kordamp/ezmorph)
-- [https://github.com/DozerMapper/dozer](https://github.com/DozerMapper/dozer)
-- [https://github.com/modelmapper/modelmapper](https://github.com/modelmapper/modelmapper)
 - [https://github.com/HotelsDotCom/bull](https://github.com/HotelsDotCom/bull)
+- [https://github.com/modelmapper/modelmapper](https://github.com/modelmapper/modelmapper)
 - [https://github.com/remondis-it/remap](https://github.com/remondis-it/remap)
 - [https://github.com/roookeee/datus](https://github.com/roookeee/datus)
 - [https://github.com/xebia-france/selma](https://github.com/xebia-france/selma)
