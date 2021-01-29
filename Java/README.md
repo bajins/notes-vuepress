@@ -77,6 +77,13 @@
 * [https://github.com/crossoverJie/JCSprout](https://github.com/crossoverJie/JCSprout)
 * [https://github.com/kdn251/interviews](https://github.com/kdn251/interviews)
 * 《Java编程思想》 第5版  [https://github.com/LingCoder/OnJava8](https://github.com/LingCoder/OnJava8)
+* [https://github.com/Syasuker/OnJava8-zh](https://github.com/Syasuker/OnJava8-zh)
+* [https://github.com/Knn120/OnJava8-PDF](https://github.com/Knn120/OnJava8-PDF)
+* Java Tutorials 中文版 [https://github.com/pingfangx/java-tutorials-in-chinese](https://github.com/pingfangx/java-tutorials-in-chinese)
+* [https://github.com/jast90/The-Java-Tutorials-CN](https://github.com/jast90/The-Java-Tutorials-CN)
+* Java Servlet 3.1 规范 [https://github.com/waylau/servlet-3.1-specification](https://github.com/waylau/servlet-3.1-specification)
+* [https://github.com/flance/java-servlet-specification-4.0](https://github.com/flance/java-servlet-specification-4.0)
+* Java 8 函数式编程 [https://github.com/glen9527/Java-8-Lambdas-zh](https://github.com/glen9527/Java-8-Lambdas-zh)
 * [https://github.com/CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes)
 * [https://github.com/hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer)
 * [https://github.com/search?q=effective-java](https://github.com/search?q=effective-java)
@@ -84,11 +91,16 @@
     * [https://github.com/clxering/Effective-Java-3rd-edition-Chinese-English-bilingual](https://github.com/clxering/Effective-Java-3rd-edition-Chinese-English-bilingual)
     * [https://gitee.com/liuzidong/effctive-java-3rd-chinese](https://gitee.com/liuzidong/effctive-java-3rd-chinese)
     * [https://gitee.com/lin-mt/effective-java-third-edition](https://gitee.com/lin-mt/effective-java-third-edition)
+    * [https://github.com/Wasabi1234/EffectiveJava3-zh](https://github.com/Wasabi1234/EffectiveJava3-zh)
+* Java 9 模块化开发 [https://github.com/ledudu/Java-9-Modularity-zh](https://github.com/ledudu/Java-9-Modularity-zh)
+* Vert.x Java开发者指南 [https://github.com/vertxfun/vertx-guide-for-java-devs-cn](https://github.com/vertxfun/vertx-guide-for-java-devs-cn)
 * [https://github.com/hansonwang99/JavaCollection](https://github.com/hansonwang99/JavaCollection)
 * [https://github.com/NotFound9/interviewGuide](https://github.com/NotFound9/interviewGuide)
 * [https://github.com/RedSpider1/concurrent](https://github.com/RedSpider1/concurrent)
 * [https://github.com/javagrowing/JGrowing](https://github.com/javagrowing/JGrowing)
 * Java服务端知识技能图谱 [https://github.com/caison/java-knowledge-mind-map](https://github.com/caison/java-knowledge-mind-map)
+* [https://github.com/singgel/JAVA](https://github.com/singgel/JAVA)
+* [https://github.com/waylau/essential-java](https://github.com/waylau/essential-java)
 * [https://github.com/qinxuewu/docs](https://github.com/qinxuewu/docs)
 * [https://github.com/scalad/Note](https://github.com/scalad/Note)
 * [https://github.com/fuzhengwei/CodeGuide](https://github.com/fuzhengwei/CodeGuide)
@@ -103,6 +115,7 @@
     * [https://github.com/yuanmabiji/jdk1.8-sourcecode-analysis](https://github.com/yuanmabiji/jdk1.8-sourcecode-analysis)
 * [http://github.com/CarpenterLee/JavaLambdaInternals](http://github.com/CarpenterLee/JavaLambdaInternals)
 * [https://github.com/itwanger/javabooks](https://github.com/itwanger/javabooks)
+* 计算机经典书籍 [https://github.com/forthespada/CS-Books](https://github.com/forthespada/CS-Books)
 * 系统设计入门 [https://github.com/donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
 * [https://github.com/crisxuan/bestJavaer](https://github.com/crisxuan/bestJavaer)
 * [https://github.com/fenixsoft/awesome-fenix](https://github.com/fenixsoft/awesome-fenix)
@@ -128,11 +141,13 @@
 * [https://github.com/dahuoyzs/javapdf](https://github.com/dahuoyzs/javapdf)
 * [https://github.com/Jstarfish/JavaKeeper](https://github.com/Jstarfish/JavaKeeper)
 * [https://github.com/Byron4j/CookBook](https://github.com/Byron4j/CookBook)
+* [https://github.com/basicExploration/books](https://github.com/basicExploration/books)
 * [https://github.com/fenixsoft/jvm_book](https://github.com/fenixsoft/jvm_book)
 * [https://github.com/aCoder2013/blog](https://github.com/aCoder2013/blog)
 * [https://github.com/guang19/framework-learning](https://github.com/guang19/framework-learning)
 * Java多线程编程核心技术 [https://github.com/loveincode/java-multi-thread-programming](https://github.com/loveincode/java-multi-thread-programming)
 * 项目实践讲解 [https://github.com/RudeCrab/rude-java](https://github.com/RudeCrab/rude-java)
+* Java OpenTelemetry 测试指南 [https://github.com/chenmudu/open-telemetry-java-guides](https://github.com/chenmudu/open-telemetry-java-guides)
 
 + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
 + [https://github.com/Wizzercn/MqttWk](https://github.com/Wizzercn/MqttWk)
@@ -161,6 +176,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 + [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
     + [下载地址镜像](/Other/README.md#通用镜像)
 + 响应式 [https://github.com/eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x)
+    + [https://github.com/vert-x3](https://github.com/vert-x3)
     + [http://vertx.io](http://vertx.io)
     + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
 + WebFlux采用的默认反应式框架 [https://github.com/reactor](https://github.com/reactor)
@@ -188,7 +204,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
     * [https://github.com/eclipse/microprofile](https://github.com/eclipse/microprofile)
 * [https://github.com/webjars](https://github.com/webjars)
     * [https://www.webjars.org](https://www.webjars.org)
-
+* 图形验证码 [https://github.com/whvcse/EasyCaptcha](https://github.com/whvcse/EasyCaptcha)
+* [https://github.com/orclight/jcaptcha](https://github.com/orclight/jcaptcha)
 
 
 **LOG**
@@ -285,7 +302,9 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
     * [https://github.com/GreedyStar/generator](https://github.com/GreedyStar/generator)
 * [https://github.com/apache/velocity-engine](https://github.com/apache/velocity-engine)
 * [https://github.com/thymeleaf](https://github.com/thymeleaf)
-
+* 中文转拼音 [https://github.com/houbb/pinyin](https://github.com/houbb/pinyin)
+* [https://github.com/toolgood/ToolGood.Words](https://github.com/toolgood/ToolGood.Words)
+* 中文繁简体转换 [https://github.com/houbb/opencc4j](https://github.com/houbb/opencc4j)
 
 
 
@@ -478,3 +497,4 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/proxyee-down-org/proxyee-down](https://github.com/proxyee-down-org/proxyee-down)
 * [IDEA通过Maven打包JavaFX工程（OpenJFX11）](https://www.cnblogs.com/6b7b5fc3/p/12990161.html)
 * [创建JavaFX项目并用Maven打包](https://www.cnblogs.com/zjwno1/p/13272380.html)
+* 基于javafx8代码生成器 [https://github.com/EliMirren](https://github.com/EliMirren)

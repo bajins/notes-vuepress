@@ -171,6 +171,7 @@ var express = require('express');
 * [https://github.com/validatorjs/validator.js](https://github.com/validatorjs/validator.js)
 * [https://github.com/zTree/zTree_v3](https://github.com/zTree/zTree_v3)
 * 文件上传 [https://github.com/fex-team/webuploader](https://github.com/fex-team/webuploader)
+* [https://github.com/lovefc/fcup2](https://github.com/lovefc/fcup2)
 * 图片懒加载 [https://github.com/tuupola/lazyload](https://github.com/tuupola/lazyload)
 * Metro风兼瀑布流布局 [https://github.com/desandro/masonry](https://github.com/desandro/masonry)
 * 图片查看 [https://github.com/fengyuanchen/viewerjs](https://github.com/fengyuanchen/viewerjs)

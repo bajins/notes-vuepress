@@ -443,6 +443,7 @@ access_log logs/access_${logdate}.log;
 
 **日志归档程序logrotate**
 
+- [https://github.com/fordmason/cronolog](https://github.com/fordmason/cronolog)
 - [https://github.com/logrotate/logrotate](https://github.com/logrotate/logrotate)
 
 ```bash

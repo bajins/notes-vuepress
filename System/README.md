@@ -295,7 +295,7 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 + [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
 + [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
 + [https://github.com/netnr/kms](https://github.com/netnr/kms)
-
++ [https://official-kmspico.com](https://official-kmspico.com)
 
 * [可用的 KMS 列表](https://www.coolhub.top/archives/14)
 * [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)

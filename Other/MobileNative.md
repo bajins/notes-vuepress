@@ -44,6 +44,7 @@
 
 + [https://dartpad.dartlang.org](https://dartpad.dartlang.org)
 + [https://dartpad.cn](https://dartpad.cn)
++ [https://github.com/shichunlei/flutter_app](https://github.com/shichunlei/flutter_app)
 
 - 干货 [https://github.com/fujianlian/GankFlutter](https://github.com/fujianlian/GankFlutter)
 
