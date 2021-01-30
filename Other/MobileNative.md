@@ -47,7 +47,7 @@
 + [https://github.com/shichunlei/flutter_app](https://github.com/shichunlei/flutter_app)
 
 - 干货 [https://github.com/fujianlian/GankFlutter](https://github.com/fujianlian/GankFlutter)
-
+- [https://github.com/xmcy0011/CoffeeChat](https://github.com/xmcy0011/CoffeeChat)
 
 
 

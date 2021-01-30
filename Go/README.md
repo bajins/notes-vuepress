@@ -9,6 +9,7 @@
 ## Flag
 
 + [https://github.com/golang](https://github.com/golang)
++ [https://github.com/pkg](https://github.com/pkg)
 + [https://go.dev](https://go.dev)
 + [https://golang.google.cn/dl](https://golang.google.cn/dl)
     + [https://gomirrors.org](https://gomirrors.org)
@@ -53,6 +54,12 @@
 - 在JVM中运行 [https://github.com/zxh0/jvm.go](https://github.com/zxh0/jvm.go)
 
 
+* [【Golang】实现文件服务器断点续传](https://rehtt.com/index.php/archives/220)
+* [Go实现HTTP断点续传多线程下载](https://jasonkayzk.github.io/2020/09/28/Go%E5%AE%9E%E7%8E%B0HTTP%E6%96%AD%E7%82%B9%E7%BB%AD%E4%BC%A0%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8B%E8%BD%BD)
+* [https://github.com/hwholiday/file_storage](https://github.com/hwholiday/file_storage)
+
+
+
 **Rust**
 
 * [https://github.com/rust-lang](https://github.com/rust-lang)
@@ -86,8 +93,14 @@
 | kit     	| https://github.com/go-kit/kit                                  	| https://gokit.io                           	|
 
 
-* [golang worker pool ,线程池 , 工作池](https://github.com/xxjwxc/gowp)
-* [模板功能](https://github.com/Masterminds/sprig)
+
+* [https://github.com/giampaolo/psutil](https://github.com/giampaolo/psutil)
+* [https://github.com/shirou/gopsutil](https://github.com/shirou/gopsutil)
+* JSON解析器 [https://github.com/json-iterator](https://github.com/json-iterator)
+* [https://github.com/deckarep/golang-set](https://github.com/deckarep/golang-set)
+* [https://github.com/chenhg5/collection](https://github.com/chenhg5/collection)
+* 线程池 工作池 [https://github.com/xxjwxc/gowp](https://github.com/xxjwxc/gowp)
+* 模板功能 [https://github.com/Masterminds/sprig](https://github.com/Masterminds/sprig)
 * 分布式关系型数据库 [https://github.com/pingcap/tidb](https://github.com/pingcap/tidb)
     * [https://pingcap.com](https://pingcap.com)
 * [https://github.com/flike/kingshard](https://github.com/flike/kingshard)
@@ -103,12 +116,14 @@
 * [https://github.com/go-xorm](https://github.com/go-xorm)
 * [https://github.com/libragen/felix](https://github.com/libragen/felix)
 * [https://github.com/spf13/viper](https://github.com/spf13/viper)
-* 对象存储：[https://github.com/minio/minio](https://github.com/minio/minio)
-* [https://github.com/parnurzeal/gorequest](https://github.com/parnurzeal/gorequest)
-* 快速生成ASCII表格：[https://github.com/olekukonko/tablewriter](https://github.com/olekukonko/tablewriter)
-* 获取固定宽度的字符或字符串：[https://github.com/mattn/go-runewidth](https://github.com/mattn/go-runewidth)
-* Lane包提供队列，优先级队列，堆栈和双端队列：[https://github.com/oleiade/lane](https://github.com/oleiade/lane)
-* 具有历史记录的命令行编辑器：[https://github.com/peterh/liner](https://github.com/peterh/liner)
+* [https://github.com/eventials/go-tus](https://github.com/eventials/go-tus)
+* 对象存储 [https://github.com/minio/minio](https://github.com/minio/minio)
+* [https://github.com/sjqzhang/go-fastdfs](https://github.com/sjqzhang/go-fastdfs)
+* 监视文件或目录更改 [https://github.com/radovskyb/watcher](https://github.com/radovskyb/watcher)
+* 快速生成ASCII表格 [https://github.com/olekukonko/tablewriter](https://github.com/olekukonko/tablewriter)
+* 获取固定宽度的字符或字符串 [https://github.com/mattn/go-runewidth](https://github.com/mattn/go-runewidth)
+* Lane包提供队列，优先级队列，堆栈和双端队列 [https://github.com/oleiade/lane](https://github.com/oleiade/lane)
+* 具有历史记录的命令行编辑器 [https://github.com/peterh/liner](https://github.com/peterh/liner)
 * 自动控制基于终端或控制台 [https://github.com/Netflix/go-expect](https://github.com/Netflix/go-expect)
 * [https://github.com/google/goexpect](https://github.com/google/goexpect)
 * [https://github.com/google/goterm](https://github.com/google/goterm)
@@ -120,7 +135,8 @@
 * [https://github.com/uber-go/zap](https://github.com/uber-go/zap)
 * [https://github.com/apex/log](https://github.com/apex/log)
 * [https://xorm.io](https://xorm.io)
-* [https://github.com/chenhg5/collection](https://github.com/chenhg5/collection)
+* HTTP实现 [https://github.com/valyala/fasthttp](https://github.com/valyala/fasthttp)
+* [https://github.com/parnurzeal/gorequest](https://github.com/parnurzeal/gorequest)
 
 - IP代理池 [https://github.com/henson/proxypool](https://github.com/henson/proxypool)
 

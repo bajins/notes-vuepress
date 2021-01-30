@@ -336,6 +336,8 @@ wget host:port/file 就可以下载了
 ```
 
 * [https://github.com/schollz/croc](https://github.com/schollz/croc)
+* [https://github.com/simon-budig/woof](https://github.com/simon-budig/woof)
+* [https://github.com/stackp/Droopy](https://github.com/stackp/Droopy)
 
 > 号称`croc`通过压缩和多路复用比`wormhole`，`rsync`，`scp`更快（加速`1.5`倍至`4`倍）
 
