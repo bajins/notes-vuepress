@@ -18,6 +18,10 @@
 - [https://github.com/wangpinpin/devtools-server](https://github.com/wangpinpin/devtools-server)
 - 狗屁不通文章 [https://github.com/menzi11/BullshitGenerator](https://github.com/menzi11/BullshitGenerator)
     - [https://github.com/suulnnka/BullshitGenerator](https://github.com/suulnnka/BullshitGenerator)
+- [https://github.com/egotong/nows](https://github.com/egotong/nows)
+- [https://github.com/zhaoolee/ChineseBQB](https://github.com/zhaoolee/ChineseBQB)
+- [https://github.com/wangpinpin/devtools-server](https://github.com/wangpinpin/devtools-server)
+- 
 
 
 

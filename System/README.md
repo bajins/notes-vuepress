@@ -32,8 +32,14 @@
 
 * [Linux发行版本排行](https://distrowatch.com/dwres.php?resource=popularity)
 * [Linux主流发行版本](https://distrowatch.com/dwres.php?resource=major)
+
 - [https://github.com/rocky-linux](https://github.com/rocky-linux)
+- [https://www.oracle.com/linux](https://www.oracle.com/linux)
+- 将CentOS切换到Oracle脚本 [https://github.com/oracle/centos2ol](https://github.com/oracle/centos2ol)
 - [https://github.com/SerenityOS/serenity](https://github.com/SerenityOS/serenity)
+- [https://github.com/clearos](https://github.com/clearos)
+- [http://springdale.math.ias.edu](http://springdale.math.ias.edu/)
+- [https://github.com/cloudlinux](https://github.com/cloudlinux)
 
 
 
@@ -366,6 +372,7 @@ slmgr /ato
 * [https://github.com/topics/ssh-client](https://github.com/topics/ssh-client)
 * [https://github.com/topics/ssh2](https://github.com/topics/ssh2)
 * [https://github.com/topics/ssh](https://github.com/topics/ssh)
+* [https://github.com/topics/remote-access](https://github.com/topics/remote-access)
 
 
 - [https://github.com/topics/sftp](https://github.com/topics/sftp)

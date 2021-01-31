@@ -653,6 +653,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * 远程控制 [https://www.todesk.com](https://www.todesk.com)
 * 向日葵 [https://sunlogin.oray.com/download](https://sunlogin.oray.com/download)
 * [https://anydesk.com](https://anydesk.com)
+* 投屏 [https://github.com/pavlobu/deskreen](https://github.com/pavlobu/deskreen)
+* [https://github.com/topics/second-screen](https://github.com/topics/second-screen)
 * 获取本机WiFi密码二维码 [https://github.com/sdushantha/wifi-password](https://github.com/sdushantha/wifi-password)
 
 - 文档转换 [https://github.com/topics/converter](https://github.com/topics/converter)
