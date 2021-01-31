@@ -30,6 +30,8 @@
 * [GO-Node-Python的简单性能比较](https://www.izhongxia.com/posts/64310.html)
 * 内置函数 [https://docs.python.org/zh-cn/3/library/functions.html](https://docs.python.org/zh-cn/3/library/functions.html)
 * 内置异常 [https://docs.python.org/zh-cn/3/library/exceptions.html](https://docs.python.org/zh-cn/3/library/exceptions.html)
+* [List Comprehensions](https://www.python.org/dev/peps/pep-0202/#reference-implementation)
+* [列表显示/列表解析](https://docs.python.org/zh-cn/3/reference/expressions.html#list-displays)
 * [内置异常和函数-LeaCoder](https://lichangke.github.io/category/#python)
 * [Python语言小册](https://python.fasionchan.com/zh_CN/latest/index.html)
 * 最良心的 Python 教程 [https://github.com/TwoWater/Python](https://github.com/TwoWater/Python)
@@ -87,6 +89,8 @@ with Test() as t: # 触发__exit__
 * 简繁转换 [https://github.com/gumblex/zhconv](https://github.com/gumblex/zhconv)
 * 開放中文轉換 [https://github.com/BYVoid/OpenCC](https://github.com/BYVoid/OpenCC)
 * [https://github.com/pyecharts/pyecharts](https://github.com/pyecharts/pyecharts)
+* 获取字符编码 [https://github.com/chardet/chardet](https://github.com/chardet/chardet)
+* [https://github.com/PyYoshi/cChardet](https://github.com/PyYoshi/cChardet)
 
 
 - 交互式计算 [https://github.com/ipython](https://github.com/ipython)

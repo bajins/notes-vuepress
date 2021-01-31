@@ -121,6 +121,8 @@
     + [https://github.com/hasura](https://github.com/hasura)
     + [https://github.com/gatsbyjs](https://github.com/gatsbyjs)
     + [https://www.onworks.net](https://www.onworks.net)
+    + [<img src="https://aka.ms/deploytoazurebutton" height="30px">](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fheartexlabs%2Flabel-studio%2Fmaster%2Fazuredeploy.json)
+    + [<img src="https://deploy.cloud.run/button.svg" height="30px">](https://deploy.cloud.run)
 
 * [https://www.netlify.com](https://www.netlify.com)
     * 示例：[https://woytu.netlify.app](https://woytu.netlify.app)
@@ -130,7 +132,7 @@
     * 示例：[https://woytu.now.sh](https://woytu.now.sh)
 * [https://github.com/vercel](https://github.com/vercel)
     * [https://vercel.com](https://vercel.com)
-* [https://github.com/heroku](https://github.com/heroku)
+* [<img src="https://www.herokucdn.com/deploy/button.svg" height="30px">](https://github.com/heroku)
     * [https://github.com/heroku/heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static)
     * 示例：[https://woytu.herokuapp.com](https://woytu.herokuapp.com)
 * [https://www.bmob.cn](https://www.bmob.cn)
