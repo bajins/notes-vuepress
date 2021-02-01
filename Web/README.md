@@ -134,7 +134,8 @@
     * [https://vercel.com](https://vercel.com)
 * [<img src="https://www.herokucdn.com/deploy/button.svg" height="30px">](https://github.com/heroku)
     * [https://github.com/heroku/heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static)
-    * 示例：[https://woytu.herokuapp.com](https://woytu.herokuapp.com)
+    * 在 [https://t.me/nf_share](https://t.me/nf_share) 搜索`验证卡`或`heroku`
+    * 示例：[https://woetu.herokuapp.com](https://woetu.herokuapp.com)
 * [https://www.bmob.cn](https://www.bmob.cn)
 * [https://fast.io](https://fast.io)
     * 示例：[https://bajins.imfast.io](https://bajins.imfast.io)
