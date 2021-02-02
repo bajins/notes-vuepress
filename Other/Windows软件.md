@@ -319,13 +319,8 @@
 - [https://affinity.serif.com](https://affinity.serif.com)
 - [https://eagle.cool](https://eagle.cool)
 - [https://www.hellofont.cn](https://www.hellofont.cn)
-
-
-### Gif软件
-
-* [https://github.com/NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif)
-* [https://www.bandisoft.com/honeycam](https://www.bandisoft.com/honeycam)
-* [http://www.bahraniapps.com](http://www.bahraniapps.com)
+- 录屏 [https://github.com/obsproject/obs-studio](https://github.com/obsproject/obs-studio)
+- [https://github.com/aseprite/aseprite](https://github.com/aseprite/aseprite)
 
 
 
@@ -337,6 +332,18 @@
 
 
 
+### Gif软件
+
++ [https://github.com/topics/webcam](https://github.com/topics/webcam)
++ [https://github.com/davisonio/awesome-gif](https://github.com/davisonio/awesome-gif)
+
+* [https://github.com/NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif)
+* [https://www.bandisoft.com/honeycam](https://www.bandisoft.com/honeycam)
+* GifCam [http://blog.bahraniapps.com](http://blog.bahraniapps.com)
+
+- Gif压缩 [https://gifcompressor.com/zh/](https://gifcompressor.com/zh/)
+
+
 ### Icon图标
 
 * [https://icofx.ro](https://icofx.ro)
@@ -346,12 +353,14 @@
 ### 截图
 
 + [https://github.com/topics/screen-capture](https://github.com/topics/screen-capture)
++ [https://github.com/topics/screencast](https://github.com/topics/screencast)
 
 * [https://github.com/ShareX](https://github.com/ShareX)
 * Lightshot [https://app.prntscr.com](https://app.prntscr.com)
 * [https://github.com/Snipaste](https://github.com/Snipaste)
     * [https://www.snipaste.com](https://www.snipaste.com)
 * [https://picpick.app/zh/download](https://picpick.app/zh/download)
+* [https://github.com/smasherprog/screen_capture_lite](https://github.com/smasherprog/screen_capture_lite)
 
 
 **FastStone Capture**
