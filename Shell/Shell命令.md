@@ -384,8 +384,10 @@ find . | xargs grep -ril 'content'
 ## 列出目录
 
 ```bash
-ls -l |grep "^d" |awk '{print $9}'
-ls -F |grep "/$"
+ls -l | grep "^d" | awk '{print $9}'
+ls -F | grep "/$"
+ls | sed "s:^:`pwd`/: "
+ls -1 | awk '{print i$0}' i=`pwd`'/'
 ls -d */
 ls -ad */
 ```

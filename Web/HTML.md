@@ -15,7 +15,7 @@
 
 
 
-**template**
+**template代码片段**
 
 * [https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/template](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/template)
 * [https://www.html5rocks.com/zh/tutorials/webcomponents/template](https://www.html5rocks.com/zh/tutorials/webcomponents/template)
@@ -23,12 +23,9 @@
 * [https://caniuse.com/?search=template](https://caniuse.com/?search=template)
 * [关于template标签用法总结(含vue中的用法总结)](https://blog.csdn.net/u010510187/article/details/100356624)
 
-> 当`type=text/html`或`type="text/template"`的时候，`<script>`片断中定义一个被JS调用的代码，标签里的内容不会被执行，
-> 页面渲染的时，浏览器会默认添加`display:none;`并且不会读取script标签中的html代码，所以不会在页面上渲染显示。
-
-> 无法直接操作`<script>`和`<template>`标签内的内容，也不能使用选择器定位子元素，
-> 所以不建议使用`<div style="display: none">`（可能会与脚本复用后的id等重复）。
-> 当然使用`<div style="display: none">`可以把标签内容缓存到JS变量或作为标签属性内容，然后移除这个标签
+- `<script>` 和 `<template>`（推荐） 标签内的内容页面不会渲染，浏览器会默认添加`display: none;`，也不能使用选择器定位子元素
+- `<script type=text/html >` 或 `<script type="text/template" >` 定义一个被JS调用的代码，内容不会被执行
+- `<div style="display: none">` 与复用DOM结构后的id等重复：可以把DOM结构缓存到JS变量或标签属性内容，然后移除这个标签
 
 * [script type="text/html"](https://blog.csdn.net/qq_37796475/article/details/79342234)
 
