@@ -111,8 +111,6 @@
 * [https://github.com/robfig/cron](https://github.com/robfig/cron)
 * [https://github.com/jasonlvhit/gocron](https://github.com/jasonlvhit/gocron)
 * [https://github.com/ouqiang/delay-queue](https://github.com/ouqiang/delay-queue)
-* [https://github.com/grpc](https://github.com/grpc)
-    * [gRPC 官方文档中文版](http://doc.oschina.net/grpc?t=56831)
 * [https://github.com/go-xorm](https://github.com/go-xorm)
 * [https://github.com/libragen/felix](https://github.com/libragen/felix)
 * [https://github.com/spf13/viper](https://github.com/spf13/viper)

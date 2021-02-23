@@ -148,6 +148,9 @@
 
 - 取消验证 `Windows` -> `Preference` –> `validation` -> 点击`Disable All`然后勾选`classpath dependency Validator`
     - `Allow projects to override these preference settings` 允许项目覆盖这些首选项设置
+    - `Suspend all validators` 暂停所有验证器
+    - `Save all modified resources automatically prior to validating` 验证之前自动保存所有修改的资源
+    - `Show a confirmation dialog when performing manual validations` 执行手动验证时显示确认对话框
 - 关闭拼写检查 `Windows` -> `Preference` -> `General` –> `editors` -> `Text Editors` -> `spelling`
 - 选中项目点击右键 -> `Properties` -> `Builders` 在右边取消勾选除`Java Builder`以外的其他选项
 

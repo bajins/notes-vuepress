@@ -37,6 +37,73 @@
 
 
 
+**颜色**
+
+- 十六进制色 `background-color:#0000ff;`
+- RGB 颜色 `background-color:rgb(255,0,0);`
+- RGBA 颜色 `background-color:rgba(255,0,0,0.5);` 最后一个参数是介于 0.0（完全透明）与 1.0（完全不透明）的数字
+- HSL 颜色 `background-color:hsl(120,65%,75%);` 是hue（色调）、saturation（饱和度）、lightness（亮度），颜色柱面坐标表示法
+- HSLA 颜色 `background-color:hsla(120,65%,75%,0.3);`
+- 预定义/跨浏览器颜色名 `background-color:red;`
+
+* [CSS颜色代码大全](https://www.cnblogs.com/cnblogs-jcy/p/5689033.html)
+* [CSS 颜色名称](https://www.w3school.com.cn/cssref/css_colornames.asp)
+
+
+**17种标准颜色（HTML 4标准只定义了16种颜色，CSS2.1添加橙色）**
+
+| 英文名  | 中文   | 示例                            |
+|---------|--------|---------------------------------|
+| aqua    | 浅绿色 | <font color='aqua'>▇▇</font>    |
+| black   | 黑色   | <font color='black'>▇▇</font>   |
+| blue    | 蓝色   | <font color='blue'>▇▇</font>    |
+| fuchsia | 紫红色 | <font color='fuchsia'>▇▇</font> |
+| gray    | 灰色   | <font color='gray'>▇▇</font>    |
+| green   | 绿色   | <font color='green'>▇▇</font>   |
+| lime    | 石灰   | <font color='lime'>▇▇</font>    |
+| maroon  | 栗色   | <font color='maroon'>▇▇</font>  |
+| navy    | 海军   | <font color='navy'>▇▇</font>    |
+| olive   | 橄榄色 | <font color='olive'>▇▇</font>   |
+| orange  | 橙色   | <font color='orange'>▇▇</font>  |
+| purple  | 紫色   | <font color='purple'>▇▇</font>  |
+| red     | 红色   | <font color='red'>▇▇</font>     |
+| silver  | 银色   | <font color='silver'>▇▇</font>  |
+| teal    | 蓝绿色 | <font color='teal'>▇▇</font>    |
+| white   | 白色   | <font color='white'>▇▇</font>   |
+| yellow  | 黄色   | <font color='yellow'>▇▇</font>  |
+
+
+
+| 英文名    | 中文 | RGB对照 | 示例 |
+|-----------|------|---------|------|
+| blue      | 蓝   | #007bff | <font color="#007bff">▇▇</font>   |
+| cyan      | 青   | #17a2b8 | <font color="#17a2b8">▇▇</font>   |
+| dark      | 黑   | #343a40 | <font color="#343a40">▇▇</font>   |
+| gray      | 灰   | #6c757d | <font color="#6c757d">▇▇</font>   |
+| gray-dark | 灰黑 | #343a40 | <font color="#343a40">▇▇</font>   |
+| green     | 绿   | #28a745 | <font color="#28a745">▇▇</font>   |
+| indigo    | 靛蓝 | #6610f2 | <font color="#6610f2">▇▇</font>   |
+| orange    | 橙   | #fd7e14 | <font color="#fd7e14">▇▇</font>   |
+| pink      | 粉   | #e83e8c | <font color="#e83e8c">▇▇</font>   |
+| purple    | 紫   | #6f42c1 | <font color="#6f42c1">▇▇</font>   |
+| red       | 红   | #dc3545 | <font color="#dc3545">▇▇</font>   |
+| teal      | 蓝绿 | #20c997 | <font color="#20c997">▇▇</font>   |
+| white     | 白   | #fff    | <font color="#fff">▇▇</font>      |
+| yellow    | 黄   | #ffc107 | <font color="#ffc107">▇▇</font>   |
+| –         | –    | –       | –    |
+| primary   | 主要 | #007bff | <font color="#007bff">▇▇</font>   |
+| secondary | 次要 | #6c757d | <font color="#6c757d">▇▇</font>   |
+| success   | 成功 | #28a745 | <font color="#28a745">▇▇</font>   |
+| info      | 信息 | #17a2b8 | <font color="#17a2b8">▇▇</font>   |
+| warning   | 警告 | #ffc107 | <font color="#ffc107">▇▇</font>   |
+| danger    | 危险 | #dc3545 | <font color="#dc3545">▇▇</font>   |
+| light     | 浅色 | #f8f9fa | <font color="#f8f9fa">▇▇</font>   |
+
+
+
+
+
+
 ## 第三方库
 
 - [https://github.com/topics/css-framework](https://github.com/topics/css-framework)
