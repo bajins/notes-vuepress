@@ -171,6 +171,7 @@ with Test() as t: # 触发__exit__
 + [https://github.com/topics/computer-vision](https://github.com/topics/computer-vision)
 + ncnn推理 [https://github.com/topics/ncnn](https://github.com/topics/ncnn)
 + torch推理 [https://github.com/topics/pytorch](https://github.com/topics/pytorch)
++ [https://github.com/topics/text-recognition](https://github.com/topics/text-recognition)
 
 
 * [https://github.com/Tencent/ncnn](https://github.com/Tencent/ncnn)
@@ -182,6 +183,8 @@ with Test() as t: # 触发__exit__
 * [https://github.com/Microsoft/CNTK](https://github.com/Microsoft/CNTK)
 * [https://github.com/deepmind/lab](https://github.com/deepmind/lab)
 * [https://github.com/pytorch/pytorch](https://github.com/pytorch/pytorch)
+* [https://github.com/OpenNMT](https://github.com/OpenNMT)
+* [https://github.com/huggingface](https://github.com/huggingface)
 * [https://github.com/scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)
 * [https://github.com/xianyi/OpenBLAS](https://github.com/xianyi/OpenBLAS)
 * [https://github.com/Theano/Theano](https://github.com/Theano/Theano)
@@ -189,12 +192,12 @@ with Test() as t: # 触发__exit__
 * [https://github.com/BVLC/caffe](https://github.com/BVLC/caffe)
 * [https://github.com/torch/torch7](https://github.com/torch/torch7)
 * crnn [https://github.com/meijieru/crnn.pytorch](https://github.com/meijieru/crnn.pytorch)
-* chineseocr [https://github.com/chineseocr/chineseocr](https://github.com/chineseocr/chineseocr)
 * Psenet [https://github.com/WenmuZhou/PSENet.pytorch](https://github.com/WenmuZhou/PSENet.pytorch)
 * 语言模型实现 [https://github.com/lukhy/masr](https://github.com/lukhy/masr)
 
 - [https://github.com/opencv](https://github.com/opencv)
     - [https://github.com/skvark/opencv-python](https://github.com/skvark/opencv-python)
+    - [https://github.com/makelove/OpenCV-Python-Tutorial](https://github.com/makelove/OpenCV-Python-Tutorial)
 - [https://github.com/ainize-team](https://github.com/ainize-team)
     - [![Run on Ainize](https://ainize.ai/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=https://github.com/alisen39/TrWebOCR)
 - [https://github.com/d2l-ai](https://github.com/d2l-ai)
@@ -218,8 +221,9 @@ with Test() as t: # 触发__exit__
 * [https://github.com/ianzhao05/textshot](https://github.com/ianzhao05/textshot)
 * [https://github.com/ouyanghuiyu/chineseocr_lite](https://github.com/ouyanghuiyu/chineseocr_lite)
     * `pip3 install tornado numpy opencv_python onnxruntime Shapely pyclipper Pillow`
+* [https://github.com/chineseocr](https://github.com/chineseocr)
 * [https://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)
-* [https://github.com/PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
+* 百度飞桨 [https://github.com/PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 * [https://github.com/miaomiaosoft/PandaOCR](https://github.com/miaomiaosoft/PandaOCR)
 
 

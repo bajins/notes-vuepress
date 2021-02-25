@@ -63,7 +63,6 @@
 - 各种非常棒的学习项目 [https://github.com/jobbole](https://github.com/jobbole)
 - [https://github.com/doocs](https://github.com/doocs)
 - [https://github.com/apachecn](https://github.com/apachecn)
-- [https://github.com/PacktPublishing](https://github.com/PacktPublishing)
 
 
 
@@ -145,6 +144,8 @@
 + [https://github.com/royeo/awesome-programming-books](https://github.com/royeo/awesome-programming-books)
 + [https://github.com/justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)
 + [https://github.com/EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
++ [https://github.com/PacktPublishing](https://github.com/PacktPublishing)
+
 
 * 书栈网 [https://github.com/TruthHun/BookStack](https://github.com/TruthHun/BookStack)
     * [https://www.bookstack.cn](https://www.bookstack.cn)
