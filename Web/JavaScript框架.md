@@ -52,6 +52,8 @@
 * [vue学习笔记](https://www.rumosky.wiki/docs/vue_learning_process)
 * [https://github.com/quasarframework](https://github.com/quasarframework)
 
++ [https://github.com/vitejs/vite](https://github.com/vitejs/vite)
+
 ![](/images/vue生命周期详解.png)
 
 
@@ -229,11 +231,11 @@ $.is(":checked");
 + [https://plugins.jquery.com](https://plugins.jquery.com)
 
 * 添加XHR2 responseType支持的jQuery插件 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
-* [https://github.com/tonytomov/jqGrid](https://github.com/tonytomov/jqGrid)
 * [https://github.com/topics/jquery-validation](https://github.com/topics/jquery-validation)
     * [https://github.com/jquery-validation](https://github.com/jquery-validation)
         * [https://www.runoob.com/jquery/jquery-plugin-validate.html](https://www.runoob.com/jquery/jquery-plugin-validate.html)
     * [https://github.com/DiegoLopesLima/Validate](https://github.com/DiegoLopesLima/Validate)
+* [https://github.com/tonytomov/jqGrid](https://github.com/tonytomov/jqGrid)
 * [https://github.com/DataTables/DataTables](https://github.com/DataTables/DataTables)
 * [https://github.com/malihu/malihu-custom-scrollbar-plugin](https://github.com/malihu/malihu-custom-scrollbar-plugin)
 * [https://github.com/rochal/jQuery-slimScroll](https://github.com/rochal/jQuery-slimScroll)
@@ -278,7 +280,7 @@ $("#id").off("click").on("click",function(){
     + [https://www.bootcss.com](https://www.bootcss.com)
 
 * [https://github.com/jquery/jquery-ui](https://github.com/jquery/jquery-ui)
-* [https://github.com/itsjavi/bootstrap-colorpicker](https://github.com/itsjavi/bootstrap-colorpicker)
+* 颜色选择器 [https://github.com/itsjavi/bootstrap-colorpicker](https://github.com/itsjavi/bootstrap-colorpicker)
 * [https://github.com/wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table)
     * [JS组件系列——BootstrapTable 行内编辑解决方案：x-editable](https://www.cnblogs.com/landeanfen/p/5821192.html)
 * 编辑器 [https://github.com/vitalets/x-editable](https://github.com/vitalets/x-editable)

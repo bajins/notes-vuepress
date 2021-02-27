@@ -82,14 +82,16 @@
 + [https://github.com/topics/static-blog](https://github.com/topics/static-blog)
 + [不蒜子文章统计](http://busuanzi.ibruce.info)
     + [https://www.npmjs.com/search?q=keywords:busuanzi](https://www.npmjs.com/search?q=keywords:busuanzi)
-+ [https://www.algolia.com/docsearch](https://www.algolia.com/docsearch)
++ 搜索 [https://www.algolia.com/docsearch](https://www.algolia.com/docsearch)
 
 
 * 静态编译VuePress [https://github.com/vuejs/vuepress](https://github.com/vuejs/vuepress)
-    * [https://github.com/vuepressjs/awesome-vuepress](https://github.com/vuepressjs/awesome-vuepress)
+    * [https://github.com/vuepress/vuepress-next](https://github.com/vuepress/vuepress-next)
+    * [https://github.com/vuepress/awesome-vuepress](https://github.com/vuepress/awesome-vuepress)
     * [https://github.com/search?q=vuepress-theme](https://github.com/search?q=vuepress-theme)
     * [https://github.com/topics/vuepress-theme](https://github.com/topics/vuepress-theme)
     * [https://github.com/z3by/vuepress-tools/tree/master/packages](https://github.com/z3by/vuepress-tools/tree/master/packages)
+* [https://github.com/vuejs/vitepress](https://github.com/vuejs/vitepress)
 * 静态编译NuxtJs [https://github.com/nuxt](https://github.com/nuxt)
 * 静态编译Hexo [https://github.com/hexojs/hexo](https://github.com/hexojs/hexo)
 * 静态编译Hugo [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)

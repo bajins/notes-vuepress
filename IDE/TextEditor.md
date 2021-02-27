@@ -38,6 +38,7 @@
 <kbd>K</kbd>） -> 查找目标输入正则表达式 -> 勾选`正则表达式`、`标记所在行`、`清除上次标记` -> 点击`全部标记` ->
  点击菜单栏 `搜索` -> `书签` -> `删除未标记行`
 
+* 在UTF-8下使用`[\x{4e00}-\x{9fa5}]`匹配中文 [http://www.crifan.com/files/doc/docbook/rec_soft_npp/release/htmls/npp_func_regex_replace.html](http://www.crifan.com/files/doc/docbook/rec_soft_npp/release/htmls/npp_func_regex_replace.html)
 
 
 

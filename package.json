@@ -63,6 +63,6 @@
         "vuepress": "^1.8.2",
         "vuepress-plugin-flowchart": "^1.4.3",
         "vuepress-plugin-rss": "^2.0.0",
-        "vuepress-theme-reco": "^1.6.5"
+        "vuepress-theme-reco": "^1.6.0"
     }
 }

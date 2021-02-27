@@ -60,6 +60,38 @@ taskkill /f /im chromedriver.exe
 * [WeChatDownload，批量微信公众号文章下载小工具](https://i.ijrou.com/p/story/WeChatDownload.html)
 * [https://github.com/LeLe86/vWeChatCrawl](https://github.com/LeLe86/vWeChatCrawl)
 
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzg3NjE1MTczMQ==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5ODUwNzY1Nw==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU4NzU0MDIzOQ==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4Mjc1NjE0Mw==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIxMDAwMDAxMw==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxODcyNjEzNQ==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI1NTI3MzEwMg==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU4ODI1MjA3NQ==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIyMzgyODkxMQ==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxNjk4ODE4OQ==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIzNzYxNDYzNw==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI3NzE0NjcwMg==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzg2OTA0Njk0OA==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA3MjMwMzg2Nw==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkwMDE1MzkwNQ==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzODE3OTI0Ng==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI4MTIxNDcxOQ==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI3ODcxMzQzMw==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA3ODQ0Mzg2OA==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIwMTY0NDU3Nw==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI4Njc5NjM1NQ==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU1NTkwODE4Mw==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIwOTE2MzU4NA==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI0NzEyODIyOA==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzUzMzQ2MDIyMA==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzg3NjIxMjA1Ng==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI4NjExMDA4NQ==
+- https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI0OTQ4NzY5NA==
+
+
+
+**开源脚本**
 
 - 京东茅台抢购 [https://github.com/search?q=jd_maotai](https://github.com/search?q=jd_maotai)
 - [https://github.com/search?q=茅台](https://github.com/search?q=%E8%8C%85%E5%8F%B0)
