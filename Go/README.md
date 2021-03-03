@@ -49,6 +49,7 @@
 * [神奇的 Go 语言](http://go.ctolib.com/docs/read/magical-go-c-index.html)
 * [https://github.com/TiantianUpup/go-study](https://github.com/TiantianUpup/go-study)
 * [Go 语言 Web 应用开发系列教程](https://github.com/unknwon/building-web-applications-in-go)
+* [https://github.com/rubyhan1314/Golang-100-Days](https://github.com/rubyhan1314/Golang-100-Days)
 
 - [https://github.com/studygolang](https://github.com/studygolang)
 - 在JVM中运行 [https://github.com/zxh0/jvm.go](https://github.com/zxh0/jvm.go)
@@ -65,6 +66,12 @@
 * [https://github.com/rust-lang](https://github.com/rust-lang)
 * [http://www.rust-lang.org](http://www.rust-lang.org)
 * [http://doc.rust-lang.org](http://doc.rust-lang.org)
+
+- [https://budshome.com](https://budshome.com)
+- [https://github.com/mesalock-linux/mesalink](https://github.com/mesalock-linux/mesalink)
+- [https://github.com/ctz/rustls](https://github.com/ctz/rustls)
+- [https://github.com/briansmith/webpki](https://github.com/briansmith/webpki)
+- [https://github.com/briansmith/ring](https://github.com/briansmith/ring)
 
 
 **C/C++**

@@ -49,6 +49,9 @@ taskkill /f /im chromedriver.exe
 + Hashcat破解队列系统 [https://github.com/f0cker/crackq](https://github.com/f0cker/crackq)
 + 电话号码的高级信息收集 [https://github.com/sundowndev/PhoneInfoga](https://github.com/sundowndev/PhoneInfoga)
 
+
+## 开源脚本
+
 * [微信公众号爬取研究](https://github.com/DropsDevopsOrg/ECommerceCrawlers)
 * [微信公众号爬虫](https://github.com/search?o=desc&q=%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%88%AC%E8%99%AB&s=updated&type=Repositories)
 * [https://github.com/wnma3mz/wechat_articles_spider](https://github.com/wnma3mz/wechat_articles_spider)
@@ -91,7 +94,12 @@ taskkill /f /im chromedriver.exe
 
 
 
-**开源脚本**
+**签到**
+
+* [https://github.com/Sitoi/dailycheckin](https://github.com/Sitoi/dailycheckin)
+
+
+**京东**
 
 - 京东茅台抢购 [https://github.com/search?q=jd_maotai](https://github.com/search?q=jd_maotai)
 - [https://github.com/search?q=茅台](https://github.com/search?q=%E8%8C%85%E5%8F%B0)
@@ -106,6 +114,16 @@ taskkill /f /im chromedriver.exe
 - [https://github.com/NobyDa/Script/tree/master](https://github.com/NobyDa/Script/tree/master)
 - [https://github.com/yangtingxiao/QuantumultX](https://github.com/yangtingxiao/QuantumultX)
 - [https://github.com/chavyleung/scripts](https://github.com/chavyleung/scripts)
+
+
+**联通**
+
+* [https://github.com/2368693074/39shouting](https://github.com/2368693074/39shouting)
+* [https://github.com/srcrs/UnicomTask](https://github.com/srcrs/UnicomTask)
+* [https://github.com/mixool/HiCnUnicom](https://github.com/mixool/HiCnUnicom)
+* [https://github.com/hzys/HiCnUnicom](https://github.com/hzys/HiCnUnicom)
+* [https://github.com/zhangatle/XY-UNICOM](https://github.com/zhangatle/XY-UNICOM)
+* [https://github.com/ChuJian2/AutoSignMachine](https://github.com/ChuJian2/AutoSignMachine)
 
 
 

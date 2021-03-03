@@ -21,7 +21,8 @@
 * [VSCode教程](https://www.php.cn/tool/vscode)
 * [https://github.com/Microsoft/vcpkg](https://github.com/Microsoft/vcpkg)
     * [适用于Windows，Linux和MacOS的C ++库管理器](https://docs.microsoft.com/zh-cn/cpp/build/vcpkg)
-
+* [https://github.com/cdr/code-server](https://github.com/cdr/code-server)
+* [https://github.com/gr2m/app-stats-action](https://github.com/gr2m/app-stats-action)
 
 
 

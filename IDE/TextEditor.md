@@ -38,6 +38,10 @@
 <kbd>K</kbd>） -> 查找目标输入正则表达式 -> 勾选`正则表达式`、`标记所在行`、`清除上次标记` -> 点击`全部标记` ->
  点击菜单栏 `搜索` -> `书签` -> `删除未标记行`
 
+- 下划线转驼峰：查找目标:`([a-z])_([a-z])` 查找“小写_小写”，括号用来分组，替换为：`\1\u\2`替换为第一组和第二组的大写
+- 驼峰转下划线：查找目标：`([a-z])([A-Z])` 查找“小写大写”的组合，括号用来分组，替换为：`\1_\l\2`替换为第一组加下滑线加第二组，第二组小写`\l`是小写的`L`
+
+
 * 在UTF-8下使用`[\x{4e00}-\x{9fa5}]`匹配中文 [http://www.crifan.com/files/doc/docbook/rec_soft_npp/release/htmls/npp_func_regex_replace.html](http://www.crifan.com/files/doc/docbook/rec_soft_npp/release/htmls/npp_func_regex_replace.html)
 
 

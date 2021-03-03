@@ -10,21 +10,9 @@
 + [https://github.com/semantic-release](https://github.com/semantic-release)
 
 * [https://github.com/gitblit/gitblit](https://github.com/gitblit/gitblit)
-
-- GH存档 [https://www.gharchive.org](https://www.gharchive.org)
-- GitHub每周趋势 [https://github.com/SolaTyolo/gold_github_trending](https://github.com/SolaTyolo/gold_github_trending)
-- GitHub每天趋势 [https://github.com/yangwenmai/github-trending-backup](https://github.com/yangwenmai/github-trending-backup)
-- 记录GitHub趋势 [https://github.com/xiaobaiha/github-trending-history](https://github.com/xiaobaiha/github-trending-history)
-- 获取统计信息 [https://github.com/shroudedcode/devstats](https://github.com/shroudedcode/devstats)
-- 获取动态生成的GitHub统计信息 [https://github.com/anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
-- [你在 GitHub 上看到过的最有意思的项目是什么？ - 知乎](https://www.zhihu.com/question/23498424)
-
-
 * [https://github.com/scm-manager/scm-manager](https://github.com/scm-manager/scm-manager)
 * [https://www.mercurial-scm.org](https://www.mercurial-scm.org)
 * 代码语法突出 [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-* GitHub的Java API [https://github.com/hub4j/github-api](https://github.com/hub4j/github-api)
-
 
 
 **代码跟踪分析**
@@ -113,6 +101,7 @@ volumes:
 
 + [https://github.com/github](https://github.com/github)
 
+* [https://github.com/all-contributors/all-contributors](https://github.com/all-contributors/all-contributors)
 * [https://github.com/probot/probot](https://github.com/probot/probot)
 * [https://help.github.com/cn](https://help.github.com/cn)
 * 发布成功之后`github pages`的`Custom domain`配置项就被清空：[github-pages-basics](http://wiki.jikexueyuan.com/project/github-pages-basics/cname-file.html)
@@ -120,6 +109,26 @@ volumes:
 * [目录 - P3TERX ZONE](https://p3terx.com/archives.html)
 
 - [https://github.com/zenodo/zenodo](https://github.com/zenodo/zenodo)
+- 手动同步fork [https://blog.blueskyclouds.com/jsfx/58.html](https://blog.blueskyclouds.com/jsfx/58.html)
+- [https://github.com/wei/git-sync](https://github.com/wei/git-sync)
+- [https://github.com/repo-sync](https://github.com/repo-sync)
+- 自动同步fork [https://github.com/wei/pull](https://github.com/wei/pull)
+    - [https://github.com/BlueskyClouds/My-Actions/blob/master/backUp/gitSync.md](https://github.com/BlueskyClouds/My-Actions/blob/master/backUp/gitSync.md)
+- GitHub的Java API [https://github.com/hub4j/github-api](https://github.com/hub4j/github-api)
+
+
+**统计**
+
+- GH存档 [https://www.gharchive.org](https://www.gharchive.org)
+- GitHub每周趋势 [https://github.com/SolaTyolo/gold_github_trending](https://github.com/SolaTyolo/gold_github_trending)
+- GitHub每天趋势 [https://github.com/yangwenmai/github-trending-backup](https://github.com/yangwenmai/github-trending-backup)
+- 记录GitHub趋势 [https://github.com/xiaobaiha/github-trending-history](https://github.com/xiaobaiha/github-trending-history)
+- 获取统计信息 [https://github.com/shroudedcode/devstats](https://github.com/shroudedcode/devstats)
+- 获取动态生成的GitHub统计信息 [https://github.com/anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+- 获取访问统计 http://profile-counter.glitch.me/用户名/count.svg
+- 历史Star数 https://starchart.cc/用户名/My-Actions.svg
+- [你在 GitHub 上看到过的最有意思的项目是什么？ - 知乎](https://www.zhihu.com/question/23498424)
+
 
 
 
@@ -197,19 +206,26 @@ sudo /etc/init.d/dns-clean start
 > 生成公钥和私钥`ssh-keygen -t rsa -b 4096 -C "yourname@example.com" -f 文件名称 -N ""`（ACTION_DEPLOY_KEY），
 > 或者生成新的个人访问令牌（PERSONAL_TOKEN）[https://github.com/settings/tokens/new](https://github.com/settings/tokens/new)
 
++ [https://github.com/actions](https://github.com/actions)
++ [https://github.com/topics/github-pages](https://github.com/topics/github-pages)
++ [https://github.com/topics/gh-pages](https://github.com/topics/gh-pages)
++ [https://github.com/topics/deploy](https://github.com/topics/deploy)
++ [https://github.com/topics/deployment](https://github.com/topics/deployment)
++ [https://github.com/topics/github-actions](https://github.com/topics/github-actions)
++ [https://github.com/topics/github-action](https://github.com/topics/github-action)
++ [https://github.com/sdras/awesome-actions](https://github.com/sdras/awesome-actions)
++ [https://github.com/topics/workflow](https://github.com/topics/workflow)
 
-* [https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=deploy-to-github-pages](https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=deploy-to-github-pages)
-* [https://github.com/actions](https://github.com/actions)
-* [https://github.com/sdras/awesome-actions](https://github.com/sdras/awesome-actions)
+* `deploy-to-github-pages`、`pages`、`deploy`
 * [https://github.com/peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
 * [https://github.com/JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action)
+* `upload release`
+* [https://github.com/wangyoucao577/go-release-action](https://github.com/wangyoucao577/go-release-action)
+* [https://github.com/elgohr/Publish-Docker-Github-Action](https://github.com/elgohr/Publish-Docker-Github-Action)
+* [https://github.com/release-drafter/release-drafter](https://github.com/release-drafter/release-drafter)
+* [https://github.com/xresloader/upload-to-github-release](https://github.com/xresloader/upload-to-github-release)
+* [https://github.com/svenstaro/upload-release-action](https://github.com/svenstaro/upload-release-action)
 
-+ [https://github.com/marketplace?type=actions&query=upload+release](https://github.com/marketplace?type=actions&query=upload+release)
-+ [https://github.com/wangyoucao577/go-release-action](https://github.com/wangyoucao577/go-release-action)
-+ [https://github.com/elgohr/Publish-Docker-Github-Action](https://github.com/elgohr/Publish-Docker-Github-Action)
-+ [https://github.com/release-drafter/release-drafter](https://github.com/release-drafter/release-drafter)
-+ [https://github.com/xresloader/upload-to-github-release](https://github.com/xresloader/upload-to-github-release)
-+ [https://github.com/svenstaro/upload-release-action](https://github.com/svenstaro/upload-release-action)
 
 
 **第三方CI**

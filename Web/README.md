@@ -84,6 +84,8 @@
     + [https://www.npmjs.com/search?q=keywords:busuanzi](https://www.npmjs.com/search?q=keywords:busuanzi)
 + 搜索 [https://www.algolia.com/docsearch](https://www.algolia.com/docsearch)
 
+- 静态站点生成器列表 [https://github.com/jamstack/jamstack.org](https://github.com/jamstack/jamstack.org)
+    - [https://jamstack.org/generators](https://jamstack.org/generators)
 
 * 静态编译VuePress [https://github.com/vuejs/vuepress](https://github.com/vuejs/vuepress)
     * [https://github.com/vuepress/vuepress-next](https://github.com/vuepress/vuepress-next)
@@ -92,9 +94,6 @@
     * [https://github.com/topics/vuepress-theme](https://github.com/topics/vuepress-theme)
     * [https://github.com/z3by/vuepress-tools/tree/master/packages](https://github.com/z3by/vuepress-tools/tree/master/packages)
 * [https://github.com/vuejs/vitepress](https://github.com/vuejs/vitepress)
-* 静态编译NuxtJs [https://github.com/nuxt](https://github.com/nuxt)
-* 静态编译Hexo [https://github.com/hexojs/hexo](https://github.com/hexojs/hexo)
-* 静态编译Hugo [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
 * 静态编译Jekyll [https://github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
     * [http://jekyllcn.com](http://jekyllcn.com)
     * [https://www.jekyll.com.cn](https://www.jekyll.com.cn)
@@ -102,11 +101,22 @@
 * 静态编译Docsite [https://github.com/txd-team/docsite](https://github.com/txd-team/docsite)
 * 运行时驱动Docsify [https://github.com/docsifyjs/docsify](https://github.com/docsifyjs/docsify)
     * [https://github.com/docsifyjs/awesome-docsify](https://github.com/docsifyjs/awesome-docsify)
-* [https://github.com/docpress/docpress](https://github.com/docpress/docpress)
-* [运行时驱动Docute](https://github.com/egoist/docute)
-* [从仓库生成文档](https://github.com/readthedocs/readthedocs.org)
+* 运行时驱动 [https://github.com/egoist/docute](https://github.com/egoist/docute)
+* 从仓库生成文档 [https://github.com/readthedocs](https://github.com/readthedocs)
 * [https://github.com/getgridea/gridea](https://github.com/getgridea/gridea)
 * [https://github.com/facebook/docusaurus](https://github.com/facebook/docusaurus)
+
+
+**API接口Web服务**
+
+- [https://siguso.com](https://siguso.com)
+- [https://www.uedbox.com/share](https://www.uedbox.com/share)
+- [https://github.com/star7th/showdoc](https://github.com/star7th/showdoc)
+- [https://github.com/apidoc/apidoc](https://github.com/apidoc/apidoc)
+- [https://github.com/asciidoctor](https://github.com/asciidoctor)
+- [https://github.com/thx/rap2-delos](https://github.com/thx/rap2-delos)
+- [https://github.com/YMFE/yapi](https://github.com/YMFE/yapi)
+- [https://github.com/wiztools/rest-client](https://github.com/wiztools/rest-client)
 
 
 **创建自己的免费网站**

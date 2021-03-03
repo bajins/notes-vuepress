@@ -32,20 +32,32 @@
 
 **SVN**
 
-- [https://github.com/topics/subversion](https://github.com/topics/subversion)
++ [https://github.com/topics/subversion](https://github.com/topics/subversion)
+
 - [https://github.com/apache/subversion](https://github.com/apache/subversion)
-- [https://zh.osdn.net/projects/tortoisesvn](https://zh.osdn.net/projects/tortoisesvn)
+    - windows服务端 [https://www.visualsvn.com](https://www.visualsvn.com)
     - [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
+- Edge：RESTful API [https://www.collab.net/downloads/subversion](https://www.collab.net/downloads/subversion)
+    - [http://sharpsvn.open.collab.net](http://sharpsvn.open.collab.net)
+    - [如何在windows系统下搭建SVN服务器](https://blog.csdn.net/weixin_52588152/article/details/111659773)
 - [https://www.wandisco.com/source-code-management/subversion](https://www.wandisco.com/source-code-management/subversion)
-- [https://www.visualsvn.com/downloads](https://www.visualsvn.com/downloads)
-    - [在Windows下使用svn命令行教程及svn命令行的解释](https://blog.csdn.net/yangxiao2shi/article/details/50719286)
 - [https://sliksvn.com/pub](https://sliksvn.com/pub)
 - [https://github.com/jenkinsci/subversion-plugin](https://github.com/jenkinsci/subversion-plugin)
 - [https://github.com/subclipse](https://github.com/subclipse)
     - [http://subversion.apache.org/packages.html](http://subversion.apache.org/packages.html)
     - Subversion for Java [https://svnkit.com](https://svnkit.com)
-- Subversion Edge：RESTful API [https://www.collab.net/downloads/subversion](https://www.collab.net/downloads/subversion)
-- [http://sharpsvn.open.collab.net](http://sharpsvn.open.collab.net)
+
+
+
+**Git与SVN区别**
+
+- git是分布式，svn是集中式；
+- svn只有一个中央版本库，而git有无限个；
+- svn有全局的版本号，git没有；
+- git不必联网就可以看到所有的log，svn必须联网；
+- git保存的是元数据，svn是复制整个文档；
+- git强调分支，svn只是不同的文件目录，就是copy
+
 
 
 

@@ -22,17 +22,6 @@
 * GitHub上的游戏项目 [https://github.com/leereilly/games](https://github.com/leereilly/games)
 
 
-**API接口Web服务**
-
-- [https://siguso.com](https://siguso.com)
-- [https://www.uedbox.com/share](https://www.uedbox.com/share)
-- [https://github.com/star7th/showdoc](https://github.com/star7th/showdoc)
-- [https://github.com/apidoc/apidoc](https://github.com/apidoc/apidoc)
-- [https://github.com/asciidoctor](https://github.com/asciidoctor)
-- [https://github.com/thx/rap2-delos](https://github.com/thx/rap2-delos)
-- [https://github.com/YMFE/yapi](https://github.com/YMFE/yapi)
-- [https://github.com/wiztools/rest-client](https://github.com/wiztools/rest-client)
-
 
 
 ## 通用镜像

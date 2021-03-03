@@ -77,6 +77,7 @@
 + [https://github.com/pengMaster/BestNote](https://github.com/pengMaster/BestNote)
 + [https://github.com/Omooo/Android-Notes](https://github.com/Omooo/Android-Notes)
 
+* [https://github.com/wave-chtj/BaseIotUtils](https://github.com/wave-chtj/BaseIotUtils)
 * [https://github.com/lihangleo2/Imgdots](https://github.com/lihangleo2/Imgdots)
 * [https://github.com/yangchong211/YCVideoPlayer](https://github.com/yangchong211/YCVideoPlayer)
 * [https://github.com/guofudong/KotlinAndroid](https://github.com/guofudong/KotlinAndroid)
