@@ -34,7 +34,8 @@ module.exports = {
         }
     },
     // 留空则使用.vuepress/theme下的自定义主题
-    theme: 'reco',
+    theme: '',
+    // theme: 'reco', https://github.com/vuepress-reco
     themeConfig: {
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL,当你提供了 themeConfig.repo 选项，
         // 将会自动在每个页面的导航栏生成生成一个 GitHub 链接，以及在页面的底部生成一个 "Edit this page" 链接。
@@ -48,14 +49,14 @@ module.exports = {
         },
         // 博客设置
         // blogConfig: {
-        // category: {
-        // location: 2, // 在导航栏菜单中所占的位置，默认2
-        // text: 'Category' // 默认 “分类”
-        // },
-        // tag: {
-        // location: 3, // 在导航栏菜单中所占的位置，默认3
-        // text: 'Tag' // 默认 “标签”
-        // }
+        //     category: {
+        //         location: 2, // 在导航栏菜单中所占的位置，默认2
+        //         text: 'Category' // 默认 “分类”
+        //     },
+        //     tag: {
+        //         location: 3, // 在导航栏菜单中所占的位置，默认3
+        //         text: 'Tag' // 默认 “标签”
+        //     }
         // },
         editLinkText: '在 GitHub 上编辑此页',
         nav: utils.getNavigationMenu("./").concat(require('./nav')),
@@ -90,9 +91,7 @@ module.exports = {
         // 用于缩放图像的JavaScript库
         ['@vuepress/medium-zoom', true],
         // 提供 Google Analytics ID 以启用集成。
-        ['@vuepress/google-analytics', {
-            ga: 'UA-137200206-1'
-        }],
+        ['@vuepress/google-analytics', { ga: 'UA-137200206-1' }],
         // 流程图
         ['flowchart'],
         ['@vuepress/last-updated', {
@@ -100,33 +99,37 @@ module.exports = {
                 // 不要忘了安装 npm install -S moment
                 const moment = require('moment');
                 moment.locale(lang);
-                return moment(timestamp).fromNow();
+                // return moment(timestamp).fromNow();
+                return moment(timestamp).format('YYYY-MM-DD HH:mm:ss');
             }
         }],
-        ['@vuepress/search', {
-            searchMaxSuggestions: 10
-        }],
+        ['@vuepress/search', { searchMaxSuggestions: 10 }],
         ['@vuepress/active-header-links', {
-            sidebarLinkSelector: '.sidebar-link',
-            headerAnchorSelector: '.header-anchor'
+            sidebarLinkSelector: '.sidebar-link', headerAnchorSelector: '.header-anchor'
         }],
         ['@vuepress-reco/vuepress-plugin-rss', {
-            site_url: 'https://woytu.github.io',
+            site_url: 'https://bajins.com',
             copyright: "bajins.com",
             //filter:"",
             count: "20",
         }],
-        // 添加自定义容器
-        // ['container', {
-        //     type: 'vue',
-        //     before: '<pre class="vue-container"><code>',
-        //     after: '</code></pre>',
-        // }],
-        // ['container', {
-        //     type: 'upgrade',
-        //     before: info => `<UpgradePath title="${info}">`,
-        //     after: '</UpgradePath>',
-        // }],
+        // https://github.com/znicholasbrown/vuepress-plugin-code-copy
+        ["vuepress-plugin-code-copy", true],
+        // https://github.com/ekoeryanto/vuepress-plugin-sitemap
+        ['sitemap', { hostname: 'https://bajins.com' }],
+        // https://github.com/webmasterish/vuepress-plugin-autometa
+        ['autometa', { site: { name: 'bajins' }, canonical_base: 'https://bajins.com' }],
+        // https://github.com/webmasterish/vuepress-plugin-feed
+        ['feed', { canonical_base: 'https://bajins.com' }],
+        // https://github.com/shanyuhai123/vuepress-plugin-auto-sidebar
+        ["vuepress-plugin-auto-sidebar", {}],
+        // https://github.com/xuekai-china/vuepress-plugin-right-anchor
+        ['vuepress-plugin-right-anchor'],
+        // https://github.com/zq99299/vuepress-plugin
+        ['vuepress-plugin-baidu-tongji-analytics', { key: '1a6c542ce78046e639afb5b37f298a51' }],
+        // https://github.com/leoloso/vuepress-plugin-plausible-analytics
+        ["plausible-analytics"],
+        [require('./plugins/lifecycle.js')],
     ],
     markdown: {
         // 是否在每个代码块的左侧显示行号。

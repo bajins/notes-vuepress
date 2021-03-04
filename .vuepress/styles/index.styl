@@ -1,4 +1,4 @@
-#app .page-title, #app .theme-reco-content.content__default, #app footer, #app .page-nav, #app .comments-wrapper {
+#app .page-title, #app .theme-reco-content.content__default, #app .theme-default-content.content__default, #app footer, #app .page-nav, #app .comments-wrapper {
     max-width: 960px !important;
     // padding: 1.5rem !important;
 }
@@ -14,6 +14,12 @@
 .page .page-title {
     // 调整标题容器边距
     padding: 0rem 1.5rem !important;
+}
+
+.theme-default-content.content__default h1:first-child {
+    padding-top: unset !important;
+    margin-top: unset !important;
+    margin-bottom: unset !important;
 }
 
 #app .theme-reco-content.content__default > h1, #app .theme-reco-content.content__default > p:nth-child(2) {

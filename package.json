@@ -59,8 +59,17 @@
         "vue-router": "3.5.1",
         "vue-toasted": "^1.1.28",
         "vuepress": "^1.8.2",
+        "vuepress-plugin-baidu-tongji-analytics": "^1.0.2",
+        "vuepress-plugin-code-copy": "^1.0.6",
         "vuepress-plugin-flowchart": "^1.4.3",
-        "vuepress-plugin-rss": "^2.0.0",
+        "vuepress-plugin-sitemap": "^2.3.1",
         "vuepress-theme-reco": "^1.6.0"
+    },
+    "devDependencies": {
+        "vuepress-plugin-auto-sidebar": "^1.5.0",
+        "vuepress-plugin-autometa": "^0.1.13",
+        "vuepress-plugin-feed": "^0.1.9",
+        "vuepress-plugin-plausible-analytics": "^0.2.1",
+        "vuepress-plugin-right-anchor": "^0.4.8"
     }
 }
