@@ -122,11 +122,30 @@ module.exports = {
         // https://github.com/webmasterish/vuepress-plugin-feed
         ['feed', { canonical_base: 'https://bajins.com' }],
         // https://github.com/shanyuhai123/vuepress-plugin-auto-sidebar
-        ["vuepress-plugin-auto-sidebar", {}],
+        ["vuepress-plugin-auto-sidebar", {}],// 自动生成侧边栏
         // https://github.com/xuekai-china/vuepress-plugin-right-anchor
-        ['vuepress-plugin-right-anchor'],
+        // ['vuepress-plugin-right-anchor'], // 页面右侧添加定位导航栏
         // https://github.com/zq99299/vuepress-plugin
-        ['vuepress-plugin-baidu-tongji-analytics', { key: '1a6c542ce78046e639afb5b37f298a51' }],
+        // ['vuepress-plugin-baidu-tongji-analytics', { key: '1a6c542ce78046e639afb5b37f298a51' }],
+        ['vuepress-plugin-toolbar', {// https://zq99299.github.io/vuepress-plugin/vuepress-plugin-toolbar
+            'pageNav': {
+                name: '导航'
+            },
+            opts: [
+                {
+                    icon: '',
+                    name: '优惠券',
+                    link: '',
+                    popover: {
+                        title: '这只是友情推荐',
+                        type: 'image',
+                        imageUrl: 'data:image/png;base64,这里是 Base64图片编码代码作为图片源',
+                    }
+                }
+            ]
+        }],
+        // https://github.com/ludanxer/catalog-graph
+        ['vuepress-plugin-catalog-graph'],
         // https://github.com/leoloso/vuepress-plugin-plausible-analytics
         ["plausible-analytics"],
         [require('./plugins/lifecycle.js')],

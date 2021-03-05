@@ -37,6 +37,13 @@
 
 
 
+## 第三方库
+
+* [https://github.com/isaacs/minimatch](https://github.com/isaacs/minimatch)
+* [https://github.com/mrmlnc/fast-glob](https://github.com/mrmlnc/fast-glob)
+
+
+
 ## 管理NodeJS
 
 * [https://github.com/tj/n](https://github.com/tj/n)

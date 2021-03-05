@@ -60,9 +60,11 @@
         "vue-toasted": "^1.1.28",
         "vuepress": "^1.8.2",
         "vuepress-plugin-baidu-tongji-analytics": "^1.0.2",
+        "vuepress-plugin-toolbar":"^1.0.1",
         "vuepress-plugin-code-copy": "^1.0.6",
         "vuepress-plugin-flowchart": "^1.4.3",
         "vuepress-plugin-sitemap": "^2.3.1",
+        "vuepress-plugin-catalog-graph":"^0.2.8",
         "vuepress-theme-reco": "^1.6.0"
     },
     "devDependencies": {
