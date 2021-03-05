@@ -139,7 +139,7 @@ module.exports = {
                     popover: {
                         title: '这只是友情推荐',
                         type: 'image',
-                        imageUrl: 'data:image/png;base64,这里是 Base64图片编码代码作为图片源',
+                        imageUrl: 'https://lookimg.com/images/2021/03/05/Plclvr.png',
                     }
                 }
             ]
