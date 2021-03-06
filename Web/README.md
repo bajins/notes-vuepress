@@ -84,6 +84,8 @@
     + [https://www.npmjs.com/search?q=keywords:busuanzi](https://www.npmjs.com/search?q=keywords:busuanzi)
 + 搜索 [https://www.algolia.com/docsearch](https://www.algolia.com/docsearch)
 + [https://github.com/ekalinin/sitemap.js](https://github.com/ekalinin/sitemap.js)
++ 网页加载进度 [https://github.com/CodeByZach/pace](https://github.com/CodeByZach/pace)
++ 天气 [https://weatherwidget.io](https://weatherwidget.io)
 
 - 静态站点生成器列表 [https://github.com/jamstack/jamstack.org](https://github.com/jamstack/jamstack.org)
     - [https://jamstack.org/generators](https://jamstack.org/generators)
@@ -164,12 +166,86 @@
 
 
 
+## 留言社区
+
+* [注册一个新的 OAuth Application](https://github.com/settings/applications/new)
+* 问卷调查 [https://www.typeform.com](https://www.typeform.com)
+
+
+**留言评论**
+
+* [https://www.livere.com](https://www.livere.com)
+* [https://github.com/xCss/Valine](https://github.com/xCss/Valine)
+    * [https://github.com/DesertsP/Valine-Admin](https://github.com/DesertsP/Valine-Admin)
+* 小部件 [https://github.com/widgetbot-io](https://github.com/widgetbot-io)
+* [https://chatra.com](https://chatra.com)
+* [https://crisp.chat](https://crisp.chat)
+* [https://disqus.com](https://disqus.com)
+* [https://github.com/gitalk/gitalk](https://github.com/gitalk/gitalk)
+    * [Gitalk评论插件使用教程](https://segmentfault.com/a/1190000018072952)
+* [https://github.com/meteorlxy/vssue](https://github.com/meteorlxy/vssue)
+* [https://github.com/imsun/gitment](https://github.com/imsun/gitment)
+* [https://github.com/EZForever/gitment-mod](https://github.com/EZForever/gitment-mod)
+* [https://github.com/utterance/utterances](https://github.com/utterance/utterances)
+* [https://github.com/coralproject/talk](https://github.com/coralproject/talk)
+* [https://github.com/vkuznecovas/mouthful](https://github.com/vkuznecovas/mouthful)
+* [https://github.com/cheng-kang/wildfire](https://github.com/cheng-kang/wildfire)
+* [https://github.com/Ericwyn/Ponza](https://github.com/Ericwyn/Ponza)
+* [https://github.com/aonemd/jazl](https://github.com/aonemd/jazl)
+* [https://github.com/art-deco/akashic.page](https://github.com/art-deco/akashic.page)
+
+
++ [https://github.com/Buzut/jamments](https://github.com/Buzut/jamments)
++ [https://github.com/sheychen290/comtodon](https://github.com/sheychen290/comtodon)
++ [https://github.com/qwqcode/Artalk](https://github.com/qwqcode/Artalk)
++ [https://github.com/patarapolw/aloud](https://github.com/patarapolw/aloud)
++ [https://github.com/umputun/remark42](https://github.com/umputun/remark42)
++ [https://github.com/pozitron57/open-source-comments](https://github.com/pozitron57/open-source-comments)
+
+
+
+**讨论社区**
+
+* [https://github.com/withspectrum](https://github.com/withspectrum)
+* [https://github.com/discourse/discourse](https://github.com/discourse/discourse)
+* [https://gitter.im](https://gitter.im)
+
+
+
+## 匿名分享
+
+**图床**
+
+* [http://img.wang](http://img.wang)
+* 即刻图床 [http://jiketuchuang.com](http://jiketuchuang.com)
+* 图壳 [https://imgkr.com](https://imgkr.com)
+* 开源图床 [https://imgurl.org](https://imgurl.org)
+* 简单图床 [https://img.545141.com](https://img.545141.com)
+* SM.MS [https://sm.ms](https://sm.ms)
+* 牛图网 [https://www.niupic.com](https://www.niupic.com)
+* 路过图床 [https://imgchr.com](https://imgchr.com)
+* 零度图床 [http://pic.ibilibili.xyz](http://pic.ibilibili.xyz)
+* 无畏图床 [https://img.5vwan.com](https://img.5vwan.com)
+* 虫洞图床 [https://dj.ci](https://dj.ci)
+* [https://lookimg.com](https://lookimg.com)
+* [https://imgkr.com](https://imgkr.com)
+
+
+**文件分享**
+
+* [https://www.file.io](https://www.file.io)
+* [https://uplovd.com](https://uplovd.com)
+* [https://anonfiles.com](https://anonfiles.com)
+
+
+
 
 ## CloudFlare
 
 + [https://github.com/cloudflare](https://github.com/cloudflare)
     + 静态部署 [https://pages.cloudflare.com](https://pages.cloudflare.com)
         + 示例 [https://woytu-github-io.pages.dev](https://woytu-github-io.pages.dev)
+    + 注意：在自定义域中和在DNS中如果配置了`@`，会导致Workers自定义域名无法访问，只配置`www`即可
     + [https://www.cloudflare.com/zh-cn/analytics](https://www.cloudflare.com/zh-cn/analytics)
     + [https://www.cloudflare.com/zh-cn/web-analytics](https://www.cloudflare.com/zh-cn/web-analytics)
     + [https://www.cloudflare.com/zh-cn/ssl](https://www.cloudflare.com/zh-cn/ssl)
@@ -183,7 +259,7 @@
 + [https://github.com/search?q=Cloudflare+Workers](https://github.com/search?q=Cloudflare+Workers)
 + [https://github.com/topics/cloudflare-workers](https://github.com/topics/cloudflare-workers)
 
-- [Cloudflare Workers 创建自定义域名的项目](https://blog.16lab.io/workers-custom-domain)
+- DNS：`AAAA 子域名 100::`或`CNAME 子域名 项目名.子域.workers.dev`不论workers.dev子域是否关闭都可使用
 - Cloudflare CNAME接入 [https://github.com/ZE3kr/Cloudflare-CNAME-Setup](https://github.com/ZE3kr/Cloudflare-CNAME-Setup)
 - [https://subdomainfinder.c99.nl](https://subdomainfinder.c99.nl) 搜索框输入`workers.dev`点击`Start Scan`，再按<kbd>Ctrl</kbd> + <kbd>f</kbd> 输入`github`
 - [用Cloudflare CDN 如何自定义节点（CF自选IP）/撸CloudFlare Pro](https://www.moeelf.com/archives/10.html)
