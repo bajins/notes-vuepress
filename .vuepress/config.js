@@ -137,7 +137,7 @@ module.exports = {
                     name: '优惠券',
                     link: '',
                     popover: {
-                        title: '这只是友情推荐',
+                        title: '这只是友情客串',
                         type: 'image',
                         imageUrl: 'https://lookimg.com/images/2021/03/05/Plclvr.png',
                     }

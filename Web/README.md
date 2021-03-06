@@ -56,16 +56,6 @@
 
 
 
-## 免费域名
-
-- [https://www.freenom.com](https://www.freenom.com)
-- [https://nic.eu.org](https://nic.eu.org)
-
-- 全球加速CDN [https://www.nodecache.com/product/cdn](https://www.nodecache.com/product/cdn) 新客户享500G北美、亚太通用流量包+100G中国直连流量包一个月
-- [如何正确绕开备案使用国内机器](https://www.hqsblog.cn/2019/12/15/237.html)
-
-
-
 ## 静态博客或文档
 
 + [https://github.com/topics/website](https://github.com/topics/website)
@@ -122,10 +112,22 @@
 - [https://github.com/wiztools/rest-client](https://github.com/wiztools/rest-client)
 
 
+
+免费域名
+
+- [https://www.freenom.com](https://www.freenom.com)
+- [https://nic.eu.org](https://nic.eu.org)
+
+* 全球加速CDN [https://www.nodecache.com/product/cdn](https://www.nodecache.com/product/cdn) 新客户享500G北美、亚太通用流量包+100G中国直连流量包一个月
+* [如何正确绕开备案使用国内机器](https://www.hqsblog.cn/2019/12/15/237.html)
+
+
+
 **创建自己的免费网站**
 
 - [https://carrd.co](https://carrd.co)
 - [https://neocities.org](https://neocities.org)
+
 
 
 ### 静态部署
@@ -220,15 +222,12 @@
 * 即刻图床 [http://jiketuchuang.com](http://jiketuchuang.com)
 * 图壳 [https://imgkr.com](https://imgkr.com)
 * 开源图床 [https://imgurl.org](https://imgurl.org)
-* 简单图床 [https://img.545141.com](https://img.545141.com)
+* [https://github.com/icret/easyImages2.0](https://github.com/icret/easyImages2.0)
+    * 简单图床 [https://img.545141.com](https://img.545141.com)
 * SM.MS [https://sm.ms](https://sm.ms)
 * 牛图网 [https://www.niupic.com](https://www.niupic.com)
 * 路过图床 [https://imgchr.com](https://imgchr.com)
-* 零度图床 [http://pic.ibilibili.xyz](http://pic.ibilibili.xyz)
-* 无畏图床 [https://img.5vwan.com](https://img.5vwan.com)
-* 虫洞图床 [https://dj.ci](https://dj.ci)
 * [https://lookimg.com](https://lookimg.com)
-* [https://imgkr.com](https://imgkr.com)
 
 
 **文件分享**
