@@ -6,19 +6,19 @@ actionLink: /#命令
 
 # 使用
 
-:::
+::: tip
 基于本仓库可快速创建你自己的文档网站。
 [高亮语法支持列表](https://prismjs.com/#supported-languages)
 [https://github.com/PrismJS](https://github.com/PrismJS)
 :::
-:::
+::: tip
 编译时自动帮你配置菜单栏和侧边栏，最多三层目录结构。
 :::
-:::
+::: tip
 非常多的热心开发者开源主题[vuepress-theme](https://github.com/search?q=vuepress-theme)
 :::
 
-:::
+::: tip
 如果觉得使用[VuePress](https://vuepress.vuejs.org)不便，
 可使用静态博客写作客户端[gridea](https://github.com/getgridea/gridea)
 :::
