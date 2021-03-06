@@ -230,17 +230,3 @@
 * [https://github.com/joke2k/faker](https://github.com/joke2k/faker)
     * [faker - 测试数据生成 | Tonny's Blog](https://codertang.com/2020/09/05/python-faker)
     * [faker_examples.py](https://github.com/woytu/scripts-python/blob/master/faker_examples.py)
-
-
-
-## yaml
-
-| 特殊符 	| 说明                           	|
-|--------	|--------------------------------	|
-| `\n\`    	| `\n`换行，\后面字符串继续写      	|
-| `|`      	| 文中自动换行，文末新增一空行   	|
-| `|+`     	| 文中自动换行，文末新增两空行   	|
-| `|-`     	| 文中自动换行 ，文末不新增行    	|
-| `>`      	| 文中不自动换行，文末新增一空行 	|
-| `>+`     	| 文中不自动换行，文末新增两空行 	|
-| `>-`     	| 文中不自动换行，文末不新增行   	|
