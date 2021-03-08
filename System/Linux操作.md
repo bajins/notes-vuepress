@@ -231,6 +231,8 @@ tmux new -s 会话名 -d "命令"
 > `Screen`是一款由`GNU`计划开发的用于命令行终端切换的自由软件。用户可以通过该软件同时连接多个本地或远程的命令行会话，并在其间自由切换。
 > `GNU Screen`可以看作是窗口管理器的命令行界面版本。它提供了统一的管理多个会话的界面和相应的功能。 
 
+* [http://www.gnu.org/software/screen](http://www.gnu.org/software/screen)
+
 
 **命令**
 
@@ -267,6 +269,24 @@ tmux new -s 会话名 -d "命令"
 
 > 进入后它是`vi style keybindings`。对于拷贝文字，第一次空格设置开始标记，然后用<kbd>h</kbd>、<kbd>j</kbd>、<kbd>k</kbd>、
 > <kbd>l</kbd>、<kbd>w</kbd>移动光标，第二次空格完成拷贝。粘贴用<kbd>]</kbd>
+
+
+**开机启动screen并执行指定shell**
+
+- 新建一个`start.sh`文件，示例路径：`/home/start.sh`
+- 文件中输入如下代码
+    ```sh
+    screen_name="当前会话名称"
+    screen -dmS $screen_name
+    cmd="要执行的命令"
+    screen -x -S $screen_name -p 0 -X stuff "$cmd"
+    screen -x -S $screen_name -p 0 -X stuff $'\n'
+    screen -x -S $screen_name -p 0 -X stuff "exit"
+    ```
+- 按<kbd>esc</kbd>然后再按<kbd>:</kbd>输入`wq`保存
+- 输入`vi /etc/rc.d/rc.local`按<kbd>i</kbd>或<kbd>Insert</kbd>再按<kbd>Shift</kbd> + <kbd>g</kbd>
+（就是大写的G）跳转到末尾添加命令输入`/home/start.sh`
+
 
 
 

@@ -19,8 +19,6 @@
     * [Keyboard shortcuts for macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
     * [Keyboard shortcuts for Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 * [VSCode教程](https://www.php.cn/tool/vscode)
-* [https://github.com/Microsoft/vcpkg](https://github.com/Microsoft/vcpkg)
-    * [适用于Windows，Linux和MacOS的C ++库管理器](https://docs.microsoft.com/zh-cn/cpp/build/vcpkg)
 * [https://github.com/cdr/code-server](https://github.com/cdr/code-server)
 * [https://github.com/gr2m/app-stats-action](https://github.com/gr2m/app-stats-action)
 
@@ -270,11 +268,7 @@
 
 * [https://github.com/redhat-developer](https://github.com/redhat-developer)
 * [https://github.com/vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons)
-
-
-**中文语言**
-
-> `Chinese (Simplified) Language Pack for Visual Studio Code`
+* 比较 [https://github.com/moshfeu/vscode-compare-folders](https://github.com/moshfeu/vscode-compare-folders)
 
 
 **translate-var**

@@ -28,6 +28,7 @@
 
 * [https://github.com/notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus)
 * [替换默认记事本](https://npp-user-manual.org/docs/other-resources/#notepad-replacement)
+* 比较 [https://github.com/pnedev/compare-plugin](https://github.com/pnedev/compare-plugin)
 
 - 查看快捷键：`设置` –> `管理快捷键` -> `Scintilla命令`
 - `Tab`替换为空格：设置->首选项->语言->制表符设置->(勾选上)替换为空格

@@ -86,6 +86,8 @@
 * [Android运行时权限申请库](https://github.com/ysbing/YPermission)
 * 秒级编译方案：[https://github.com/alibaba/freeline](https://github.com/alibaba/freeline)
 * [Android-FFmpeg开源库使用及图片压缩开源工具使用](https://www.jianshu.com/p/e960854d3705)
+* [https://github.com/google/dagger](https://github.com/google/dagger)
+* 查看包差异 [https://github.com/JakeWharton/diffuse](https://github.com/JakeWharton/diffuse)
 
 + [归档 | Homurax's Blog](https://blog.homurax.com/archives)
 

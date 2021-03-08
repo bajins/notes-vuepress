@@ -78,6 +78,18 @@
 
 
 
+## 代码比较器
+
++ [https://github.com/topics/compare](https://github.com/topics/compare)
++ [https://github.com/topics/compare-files](https://github.com/topics/compare-files)
+
+* [https://www.scootersoftware.com](https://www.scootersoftware.com)
+* [https://www.ultraedit.com/products/ultracompare](https://www.ultraedit.com/products/ultracompare)
+* [https://github.com/winmerge/winmerge](https://github.com/winmerge/winmerge)
+* [https://www.devart.com/codecompare](https://www.devart.com/codecompare)
+
+
+
 ## 数据库
 
 + [https://github.com/search?q=database+tool](https://github.com/search?q=database+tool)

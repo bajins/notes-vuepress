@@ -97,7 +97,7 @@ npm run dev
 # 修改.vuepress/public/CNAME中的域名
 
 # 如果发布到GitHub请见：项目的Actions部署配置
-# Actions教程：https://www.bajins.com/IDE/Git.html#actions
+# Actions教程：https://www.bajins.com/IDE/Git%E6%9C%8D%E5%8A%A1.html#actions
 
 ```
 

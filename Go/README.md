@@ -79,7 +79,9 @@
 * [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui)
 * [https://github.com/FlaxEngine/FlaxEngine](https://github.com/FlaxEngine/FlaxEngine)
 * 树莓派 [https://github.com/raspberrypi](https://github.com/raspberrypi)
-
+* 包管理 [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg)
+    * [适用于Windows，Linux和MacOS的C ++库管理器](https://docs.microsoft.com/zh-cn/cpp/build/vcpkg)
+* [https://github.com/conan-io/conan](https://github.com/conan-io/conan)
 
 
 

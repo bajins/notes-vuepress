@@ -8,7 +8,7 @@
 # Flag
 
 * 各个版本控件支持库 [https://pkgs.org](https://pkgs.org)
-
+* 软件包管理器 [https://github.com/NixOS/nix](https://github.com/NixOS/nix)
 
 
 
@@ -209,6 +209,58 @@ uname -sr
 # 查看cpu相关信息（型号、主频、内核）
 cat /proc/cpuinfo
 ```
+
+
+
+
+## 开机启动
+
+**添加命令到`/etc/rc.local`文件末尾**
+
+> 编辑`/etc/rc.local`或者`/etc/rc.d/rc.local`（前者是后者的软连接）文件，
+> 按<kbd>Shift</kbd> + <kbd>g</kbd>（就是大写的G）跳转到末尾添加运行命令
+>> 执行的程序需要写绝对路径，添加到系统环境变量的除外
+
+> 为防止启动执行失败，最好执行一次`chmod +x /etc/rc.d/rc.local`进行授权
+
+
+**crontab**
+
+```bash
+crontab -e
+@reboot 运行程序命令
+```
+
+
+**脚本文件放在`/etc/profile.d/`目录下**
+
+- `chkconfig`
+
+1. 创建软连接或者复制脚本到`/etc/init.d/`或者`/etc/rc.d/init.d/`（前者是后者的软连接）下
+
+> 注意脚本文件开头一定要添加以下几行代码，否侧会提示`chkconfig`不支持
+
+```bash
+#!/bin/sh
+# - 64 36 分别代表运行级别，启动优先权，关闭优先权
+# chkconfig: - 64 36
+# description: Supervisor Server
+# processname: supervisord
+```
+
+2. 添加启动项
+
+```bash
+chkconfig --add 脚本名
+chkconfig 脚本名 on
+```
+
+3. 检查是否设置成功
+
+```bash
+chkconfig --list | grep 脚本名
+```
+
 
 
 

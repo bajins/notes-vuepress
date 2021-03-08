@@ -13,6 +13,7 @@
 * [https://github.com/scm-manager/scm-manager](https://github.com/scm-manager/scm-manager)
 * [https://www.mercurial-scm.org](https://www.mercurial-scm.org)
 * 代码语法突出 [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
+* Git核心方法的可移植的纯C实现 [https://github.com/libgit2/libgit2](https://github.com/libgit2/libgit2)
 
 
 **代码跟踪分析**
