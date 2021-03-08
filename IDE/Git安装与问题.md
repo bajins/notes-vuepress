@@ -37,6 +37,10 @@
 - [https://github.com/apache/subversion](https://github.com/apache/subversion)
     - windows服务端 [https://www.visualsvn.com](https://www.visualsvn.com)
     - [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
+
+> 按装`VisualSVN`后客户端使用报错：`执行上下文错误: 由于目标计算机积极拒绝，无法连接。`，需要在`服务`列表中找到相关服务 -> 
+> 右键打开属性 -> 点击登录页签修改`登录身份`为`本地系统账户` -> 点击常规页签修改`启动类型`为`自启动`，再点击启动
+
 - Edge：RESTful API [https://www.collab.net/downloads/subversion](https://www.collab.net/downloads/subversion)
     - [http://sharpsvn.open.collab.net](http://sharpsvn.open.collab.net)
     - [如何在windows系统下搭建SVN服务器](https://blog.csdn.net/weixin_52588152/article/details/111659773)

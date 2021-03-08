@@ -179,7 +179,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
     + [https://github.com/vert-x3](https://github.com/vert-x3)
     + [http://vertx.io](http://vertx.io)
     + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
-+ WebFlux采用的默认反应式框架 [https://github.com/reactor](https://github.com/reactor)
++ WebFlux默认反应式框架 [https://github.com/reactor](https://github.com/reactor)
 + 完全实现了Reactive Streams规范 [https://github.com/akka/akka](https://github.com/akka/akka)
 + 响应流框架 [https://github.com/Atmosphere](https://github.com/Atmosphere)
 + [https://github.com/netty/netty](https://github.com/netty/netty)

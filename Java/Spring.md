@@ -20,6 +20,7 @@
     - [http://www.spring4all.com](http://www.spring4all.com)
 - [https://github.com/mingyang66/spring-parent](https://github.com/mingyang66/spring-parent)
 - Spring源码阅读 [https://github.com/seaswalker/spring-analysis](https://github.com/seaswalker/spring-analysis)
+- Spring 实战第五版中文翻译 [https://github.com/PotoYang/spring-in-action-v5-translate](https://github.com/PotoYang/spring-in-action-v5-translate)
 
 + [https://start.aliyun.com](https://start.aliyun.com)
 
