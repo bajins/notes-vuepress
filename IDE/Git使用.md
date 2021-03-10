@@ -178,6 +178,7 @@ git reset HEAD^
 
 ```bash
 # 将本地仓库文件push到远程仓库（-f代表强制 --force）
+# --allow-unrelated-histories 允许合并不相关的历史
 git push -u -f origin master
 ```
 

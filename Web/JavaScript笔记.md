@@ -159,6 +159,16 @@ textArry.splice(位置, 0, "要插入的字符串");
 let str = textArry.join('');
 ```
 
+**首字母转换为大写**
+
+```js
+let name = "bajins";
+// 提取首字母转换为大写并与其余的字母拼接起来(3种方法)
+var name = name.charAt(0).toUpperCase() + name.slice(1);
+var name = name.slice(0,1).toUpperCase() + name.slice(1);
+var name = name.subString(0,1).toUpperCase() + name.subString(1);
+```
+
 
 
 ## 正则表达式
