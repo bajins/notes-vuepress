@@ -74,6 +74,12 @@
 
 
 
+
+---
+
+
+
+
 ## GsonFormat
 
 * [https://github.com/zzz40500/GsonFormat](https://github.com/zzz40500/GsonFormat)
@@ -192,6 +198,21 @@
 * [https://plugins.jetbrains.com/plugin/13562-googleprotobuftool](https://plugins.jetbrains.com/plugin/13562-googleprotobuftool)
 
 
+## CodeMaker
+
+> 一个用于Java / Scala生成代码的插件，支持自定义代码模板
+
+* [https://github.com/x-hansong/CodeMaker](https://github.com/x-hansong/CodeMaker)
+
+
+## Jackson Generator Plugin
+
+> 快速在 class 和 json 间相互生成
+
+* [https://plugins.jetbrains.com/plugin/7678-jackson-generator-plugin](https://plugins.jetbrains.com/plugin/7678-jackson-generator-plugin)
+* [https://github.com/klamborowski/JacksonGenerator](https://github.com/klamborowski/JacksonGenerator)
+
+
 
 ## Lombok plugin
 
@@ -202,20 +223,10 @@
 ![](https://upload-images.jianshu.io/upload_images/11962894-59615f71a052e3b4.gif)
 
 
-## Translation
-
-* [https://plugins.jetbrains.com/plugin/8579-translation](https://plugins.jetbrains.com/plugin/8579-translation)
-
-> 最好用的翻译插件，功能很强大，界面很漂亮
-
-![](https://upload-images.jianshu.io/upload_images/11962894-1f7936b32d920801.gif)
 
 
-## probie
 
-* [https://plugins.jetbrains.com/plugin/13397-probie](https://plugins.jetbrains.com/plugin/13397-probie)
-
-> 这款插件可以让英语没那么好的开发者在定义类、方法、参数的时候更为合理，增加代码可读性。同时，也可以帮助我们快速的翻译英文注释来理解源码内容！
+---
 
 
 
@@ -234,6 +245,27 @@
 
 * [https://plugins.jetbrains.com/plugin/2162](https://plugins.jetbrains.com/plugin/2162)
 
+
+
+---
+
+
+
+
+## Translation
+
+* [https://plugins.jetbrains.com/plugin/8579-translation](https://plugins.jetbrains.com/plugin/8579-translation)
+
+> 最好用的翻译插件，功能很强大，界面很漂亮
+
+![](https://upload-images.jianshu.io/upload_images/11962894-1f7936b32d920801.gif)
+
+
+## probie
+
+* [https://plugins.jetbrains.com/plugin/13397-probie](https://plugins.jetbrains.com/plugin/13397-probie)
+
+> 这款插件可以让英语没那么好的开发者在定义类、方法、参数的时候更为合理，增加代码可读性。同时，也可以帮助我们快速的翻译英文注释来理解源码内容！
 
 
 
@@ -284,11 +316,15 @@
 
 
 
+---
+
+
+
 ## VisualVM Launcher
 
-* [https://github.com/krasa/VisualVMLauncher](https://github.com/krasa/VisualVMLauncher)
-
 > 运行java程序的时候启动visualvm，方便查看jvm的情况 比如堆内存大小的分配，某个对象占用了多大的内存，jvm调优必备工具
+
+* [https://github.com/krasa/VisualVMLauncher](https://github.com/krasa/VisualVMLauncher)
 
 ![](/images/VisualVM-Launcher.gif)
 
@@ -327,17 +363,23 @@
 
 ## ASM Bytecode Outline
 
-* [https://github.com/melix/asm-bytecode-intellij](https://github.com/melix/asm-bytecode-intellij)
-
 > 查看 Class 类的字节码
+
+* [https://github.com/melix/asm-bytecode-intellij](https://github.com/melix/asm-bytecode-intellij)
 
 
 ## stackoverflow
 
-* [https://github.com/gejun123456/IntellijGoToStackOverFlow](https://github.com/gejun123456/IntellijGoToStackOverFlow)
-
 > 这个插件对于查找问题特别方便，定位异常，点击右键快速跳转到`stackoverflow`网站，每次至少为你节约了`10`秒。
 
+* [https://github.com/gejun123456/IntellijGoToStackOverFlow](https://github.com/gejun123456/IntellijGoToStackOverFlow)
+
+
+## AceJump
+
+> 快速将光标导航到编辑器中可见的任何位置，快速定位突出显示代码中所有指定的字符
+
+* [https://github.com/acejump/AceJump](https://github.com/acejump/AceJump)
 
 
 ## Codota
@@ -393,6 +435,13 @@
 - 要为当前 java 文件中的所有元素生成 javadocs，请按 shift + ctrl + alt + G。
 - 删除当前/选定元素上的 javadocs 请按 shift + alt + Z。
 - 删除当前类所有元素上的 javadocs：请按 shift + ctrl + alt + Z。
+
+
+## Grep Console
+
+> 让 Console 日志有颜色，可以对 trace，debug，info，warn，error 配置不同的颜色
+
+* [https://github.com/krasa/GrepConsole](https://github.com/krasa/GrepConsole)
 
 
 ## Git Commit Template

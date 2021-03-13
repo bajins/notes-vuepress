@@ -262,6 +262,9 @@
 * [https://github.com/interfect/fenix](https://github.com/interfect/fenix)
 * [https://feem.io](https://feem.io)
 * ShareMe [https://rawapk.com/mi-drop-apk-download](https://rawapk.com/mi-drop-apk-download)
+    * [https://apkpure.com/cn/shareme-1-file-sharing-data-transfer-app/com.xiaomi.midrop](https://apkpure.com/cn/shareme-1-file-sharing-data-transfer-app/com.xiaomi.midrop)
+* ShareMi [https://apkpure.com/cn/sharemi-fast-transfer-file-fast-share-file/com.xlab.xdrop](https://apkpure.com/cn/sharemi-fast-transfer-file-fast-share-file/com.xlab.xdrop)
+* 文件闪传 [https://github.com/skyhacker2/skyhacker2.github.com/blob/master/blog/p/projects/index.md](https://github.com/skyhacker2/skyhacker2.github.com/blob/master/blog/p/projects/index.md)
 
 
 **音乐下载**
