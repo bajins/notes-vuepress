@@ -167,6 +167,7 @@ let name = "bajins";
 var name = name.charAt(0).toUpperCase() + name.slice(1);
 var name = name.slice(0,1).toUpperCase() + name.slice(1);
 var name = name.subString(0,1).toUpperCase() + name.subString(1);
+var name = name.replace(name.charAt(0), name.charAt(0).toUpperCase());
 ```
 
 

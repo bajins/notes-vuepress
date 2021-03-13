@@ -220,6 +220,8 @@ Ultimate 版本:
 
 ## 抓包工具
 
++ [https://github.com/topics/packets](https://github.com/topics/packets)
+
 * Fiddler [https://www.telerik.com/download/fiddler](https://www.telerik.com/download/fiddler)
     * [https://github.com/gabrielxvx/zh-fiddler](https://github.com/gabrielxvx/zh-fiddler)
     * [Fiddler抓包工具总结](https://www.cnblogs.com/yyhh/p/5140852.html)
@@ -237,7 +239,12 @@ Ultimate 版本:
 * [http://www.httpdebugger.com](http://www.httpdebugger.com)
 * [https://github.com/avwo/whistle](https://github.com/avwo/whistle)
 
+- [https://github.com/topics/traffic](https://github.com/topics/traffic)
+- [https://github.com/topics/proxifier](https://github.com/topics/proxifier)
 - 跨平台的设置代理客户端 [https://www.proxifier.com](https://www.proxifier.com)
+    - `L6Z8A-XY2J4-BTZ3P-ZZ7DF-A2Q9C`（Portable Edition）
+    - `5EZ8G-C3WL5-B56YG-SCXM9-6QZAP`（Standard Edition）
+    - `P427L-9Y552-5433E-8DSR3-58Z68`（MAC）
 - [https://github.com/mellow-io/mellow](https://github.com/mellow-io/mellow)
 - [https://github.com/Dreamacro/clash](https://github.com/Dreamacro/clash)
     - [https://github.com/Fndroid/clash_for_windows_pkg](https://github.com/Fndroid/clash_for_windows_pkg)
