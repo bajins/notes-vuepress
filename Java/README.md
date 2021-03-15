@@ -49,9 +49,10 @@
 
 + [https://gitlab.ow2.org/asm/asm](https://gitlab.ow2.org/asm/asm)
 + [https://asm.ow2.io](https://asm.ow2.io)
-
 + JMH（Java Microbenchmark Harness）是专门用于代码微基准测试的工具套件
 + [什么是JNDI？](https://blog.csdn.net/gybshen/article/details/82717578)
++ [Web项目中Junit测试如何添加JNDI](https://www.cnblogs.com/Oliver1993/p/13630786.html)
++ [https://github.com/h-thurow/Simple-JNDI](https://github.com/h-thurow/Simple-JNDI)
 
 > JNDI是Java Naming and Directory Interface（Java命名与目录接口）其实和Spring依赖注入差不多的效果，
 > 就是我们可以将我们需要的类注册进去，然后一般我们都是使用该类的实例对象，这时候因为刚才我们已经给每个类按照JNDI的规范进行了注入，
@@ -233,7 +234,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 - [https://github.com/google/gson](https://github.com/google/gson)
 - [https://github.com/everit-org/json-schema](https://github.com/everit-org/json-schema)
 - [https://github.com/java-json-tools/json-schema-validator](https://github.com/java-json-tools/json-schema-validator)
-
+- 使用XPath语法取值 [https://github.com/json-path/JsonPath](https://github.com/json-path/JsonPath)
 
 
 **Cache**
@@ -384,10 +385,23 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 **测试**
 
++ [https://github.com/topics/mock](https://github.com/topics/mock)
+
+> 所谓的mock就是创建一个类的虚假的对象，在测试环境中，用来替换掉真实的对象，以达到两大目的：
+> 1. 验证这个对象的某些方法的调用情况，调用了多少次，参数是什么等等;
+> 2. 指定这个对象的某些方法的行为，返回特定的值，或者是执行特定的动作
+
 * [https://github.com/junit-team/junit4](https://github.com/junit-team/junit4)
 * [https://github.com/houbb/junitperf](https://github.com/houbb/junitperf)
 * 测试 [https://github.com/testcontainers](https://github.com/testcontainers)
-
+* [https://github.com/mock-server](https://github.com/mock-server)
+* [https://github.com/mockito](https://github.com/mockito)
+* [https://github.com/spockframework](https://github.com/spockframework)
+* [https://github.com/jmock-developers](https://github.com/jmock-developers)
+* [https://github.com/cbeust/testng](https://github.com/cbeust/testng)
+* [https://github.com/jsonzou/jmockdata](https://github.com/jsonzou/jmockdata)
+* [https://github.com/dbunit/dbunit-mirror](https://github.com/dbunit/dbunit-mirror)
+* [https://github.com/easymock](https://github.com/easymock)
 
 
 
