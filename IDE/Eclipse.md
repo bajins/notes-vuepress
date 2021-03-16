@@ -344,8 +344,7 @@ ${type_declaration}
 
 ## 插件
 
-- [SVN-Eclipse插件](https://github.com/subclipse/subclipse/wiki)
-   - 对应`subversion 1.9.x` `http://subclipse.tigris.org/update_1.12.x/`
+- SVN [https://github.com/subclipse](https://github.com/subclipse)
 - 反编译 [https://github.com/cnfree/Eclipse-Class-Decompiler](https://github.com/cnfree/Eclipse-Class-Decompiler)
 
 

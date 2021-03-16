@@ -126,6 +126,7 @@
 
 * [https://github.com/xdown-org](https://github.com/xdown-org)
     * [https://xdown.org](https://xdown.org)
+    * [https://dl.xdown.org](https://dl.xdown.org)
 * [https://github.com/subhra74/xdm](https://github.com/subhra74/xdm)
 * [http://www.neatdownloadmanager.com](http://www.neatdownloadmanager.com)
     * [Neat Download Manager v1.1 汉化版单文件](https://www.lanzoux.com/ic7ky6j)
@@ -133,6 +134,8 @@
     * [https://eyun.baidu.com/s/3miwISp6](https://eyun.baidu.com/s/3miwISp6)密码：3131
     * [https://www.lanzous.com/b134572](https://www.lanzous.com/b134572)
     * [https://www.lanzous.com/b0i6zkze](https://www.lanzous.com/b0i6zkze)
+    * [https://pan.lanzous.com/b0f1agvxc](https://pan.lanzous.com/b0f1agvxc)
+    * [https://pan.lanzous.com/b0f1997eb](https://pan.lanzous.com/b0f1997eb)
 * [猎鹰下载器 EagleGet](http://www.eagleget.com/cn/)
 * [Free Download Manager](http://www.freedownloadmanager.org/download.htm)
 * [https://github.com/hugetiny/negibox](https://github.com/hugetiny/negibox)
@@ -253,7 +256,7 @@
 * [https://github.com/lpg-it/BaiduYunVIP](https://github.com/lpg-it/BaiduYunVIP)
 * DuPan [https://www.lanzoux.com/b09r8jmhi](https://www.lanzoux.com/b09r8jmhi) 密码：b8ua
 * [https://cloud189.1t.workers.dev/web](https://cloud189.1t.workers.dev/web)
-
+* [http://down.5nb.me](http://down.5nb.me)
 
 
 

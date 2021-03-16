@@ -21,7 +21,7 @@
     * [「Certbot」- ocsp.int-x3.letsencrypt.org Read timed out](http://blog.k4nz.com/%E3%80%8Ccertbot%E3%80%8D-ocsp-int-x3-letsencrypt-org-read-timed-out)
 * 像libevent，libev和libuv一样，libhv提供具有非阻塞IO和计时器的事件循环: [https://github.com/ithewei/libhv](https://github.com/ithewei/libhv)
 
-
+- [https://github.bajins.com/ansible/ansible](https://github.bajins.com/ansible/ansible)
 - [https://www.gnome.org](https://www.gnome.org)
 
 * [有人说超威半导体（AMD）没有512位高级矢量扩展指令集（AVX512），属于残废，是真的吗？](https://www.zhihu.com/question/367281009)

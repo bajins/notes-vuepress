@@ -264,6 +264,9 @@ var express = require('express');
 
 **工具**
 
++ [https://github.com/topics/workers](https://github.com/topics/workers)
++ [https://github.com/topics/web-worker](https://github.com/topics/web-worker)
+
 * [http://github.com/mootools](http://github.com/mootools)
 * [https://github.com/liriliri/licia](https://github.com/liriliri/licia)
 * [https://github.com/lodash/lodash](https://github.com/lodash/lodash)

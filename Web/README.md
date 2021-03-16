@@ -241,6 +241,7 @@
 
 ## CloudFlare
 
++ [https://github.com/topics/cloudflare](https://github.com/topics/cloudflare)
 + [https://github.com/cloudflare](https://github.com/cloudflare)
     + 静态部署 [https://pages.cloudflare.com](https://pages.cloudflare.com)
         + 示例 [https://woytu-github-io.pages.dev](https://woytu-github-io.pages.dev)
@@ -275,7 +276,10 @@
 
 **代理**
 
-- [https://github.com/topics/reverse-proxy](https://github.com/topics/reverse-proxy)
++ [https://github.com/search?q=reverse-proxy+cloudflare-workers](https://github.com/search?q=reverse-proxy+cloudflare-workers)
++ [https://github.com/search?q=proxy+cloudflare-workers](https://github.com/search?q=proxy+cloudflare-workers)
++ [https://github.com/topics/reverse-proxy](https://github.com/topics/reverse-proxy)
+
 - JS 实现的在线代理 [https://github.com/EtherDream/jsproxy](https://github.com/EtherDream/jsproxy)
 - 轻量级Javascript反向代理 [https://github.com/xiaoyang-liu-cs/booster.js](https://github.com/xiaoyang-liu-cs/booster.js)
     - [https://github.com/yenpou/Workers-Proxy](https://github.com/yenpou/Workers-Proxy)
@@ -283,7 +287,7 @@
 - [https://github.com/ryanking13/cors](https://github.com/ryanking13/cors)
 - [https://github.com/AlejandroAkbal/Cloudflare-Worker-Cors-Proxy](https://github.com/AlejandroAkbal/Cloudflare-Worker-Cors-Proxy)
 
-
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=)
 
 
 
