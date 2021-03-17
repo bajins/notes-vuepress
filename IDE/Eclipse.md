@@ -240,27 +240,23 @@
 
 ## 注释模板
 
-- `Window` -> `Preference` -> `Java` -> `Code Style` -> `Code Template` -> 展开`Comments` -> 
++ `Window` -> `Preference` -> `Java` -> `Code Style` -> `Code Template` -> 展开`Comments` -> 
 点击需要设置的类型 -> `Pattern`填入注释模板 -> 勾选 `Automatically add comments for new methods and types`
-- 注释的使用：输入`/**`然后回车自动出来
-- 创建新文件(New Java files)注释标签
++ 注释的使用：输入`/**`然后回车自动出来
+
+- 创建新文件(New Java files)注释标签（在文件第一行）
+- 主体声明类型(Types)注释标签
 
 ```java
-${filecomment}
-${package_declaration}
-
-
 /**
  * @Title: ${file_name}
  * @Package ${package_name}
  * @Description: 
- * @author: woytu.com
+ * @author: bajins.com
  * @date: ${date} ${time}
  * @version V1.0
- * @Copyright: ${year} woytu.com Inc. All rights reserved.
+ * @Copyright: ${year} bajins.com Inc. All rights reserved.
  */
-${typecomment}
-${type_declaration}
 ```
 
 - 字段(Fields)注释标签
@@ -268,7 +264,7 @@ ${type_declaration}
 ```java
  /**
   * @Fields ${field} : 
-  * @author: woytu.com
+  * @author: bajins.com
   * @date: ${date} ${time}
   */
 ```
@@ -279,7 +275,7 @@ ${type_declaration}
 /**
  * @Title: ${enclosing_type}
  * ${tags}
- * @author: woytu.com
+ * @author: bajins.com
  * @date: ${date} ${time}
  */
 ```
@@ -290,7 +286,7 @@ ${type_declaration}
 /**
  * 
  * ${tags} ${return_type}
- * @author: woytu.com
+ * @author: bajins.com
  * @date: ${date} ${time}
  */
 ```
@@ -303,7 +299,7 @@ ${type_declaration}
  * <p>Description: </p>
  * ${tags}
  * ${see_to_overridden}
- * @author: woytu.com
+ * @author: bajins.com
  * @date: ${date} ${time}
  */
 ```
@@ -314,7 +310,7 @@ ${type_declaration}
 /**
  * ${tags}
  * ${see_to_target}
- * @author: woytu.com
+ * @author: bajins.com
  * @date: ${date} ${time}
  */
 ```
@@ -326,7 +322,7 @@ ${type_declaration}
  * @Title: ${enclosing_method} <BR>
  * @Description: please write your description <BR>
  * @return: ${field_type} <BR>
- * @author: woytu.com
+ * @author: bajins.com
  * @date: ${date} ${time}
  */
 ```
@@ -338,7 +334,7 @@ ${type_declaration}
  * @Title: ${enclosing_method} <BR>
  * @Description: please write your description <BR>
  * @return: ${field_type} <BR>
- * @author: woytu.com
+ * @author: bajins.com
  * @date: ${date} ${time}
  */
 ```
