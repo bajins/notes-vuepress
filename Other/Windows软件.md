@@ -26,6 +26,7 @@
 **博客**
 
 * [http://cracksurl.com](http://cracksurl.com)
+* [https://www.softdownload.com.br](https://www.softdownload.com.br)
 * [QiuQuan's Blog](http://www.qiuquan.cc)
 * [th_sjy](http://www.th-sjy.com)
 * [大眼仔旭](http://www.dayanzai.me)
@@ -128,16 +129,14 @@
     * [https://xdown.org](https://xdown.org)
     * [https://dl.xdown.org](https://dl.xdown.org)
 * [https://github.com/subhra74/xdm](https://github.com/subhra74/xdm)
-* [http://www.neatdownloadmanager.com](http://www.neatdownloadmanager.com)
-    * [Neat Download Manager v1.1 汉化版单文件](https://www.lanzoux.com/ic7ky6j)
-* Internet Download Manager [http://www.internetdownloadmanager.com](http://www.internetdownloadmanager.com)
-    * [https://eyun.baidu.com/s/3miwISp6](https://eyun.baidu.com/s/3miwISp6)密码：3131
+* NDM [http://www.neatdownloadmanager.com](http://www.neatdownloadmanager.com)
+* IDM [http://www.internetdownloadmanager.com](http://www.internetdownloadmanager.com)
     * [https://www.lanzous.com/b134572](https://www.lanzous.com/b134572)
     * [https://www.lanzous.com/b0i6zkze](https://www.lanzous.com/b0i6zkze)
     * [https://pan.lanzous.com/b0f1agvxc](https://pan.lanzous.com/b0f1agvxc)
     * [https://pan.lanzous.com/b0f1997eb](https://pan.lanzous.com/b0f1997eb)
-* [猎鹰下载器 EagleGet](http://www.eagleget.com/cn/)
-* [Free Download Manager](http://www.freedownloadmanager.org/download.htm)
+* 猎鹰下载器 [http://www.eagleget.com](http://www.eagleget.com)
+* FDM [http://www.freedownloadmanager.org](http://www.freedownloadmanager.org/download.htm)
 * [https://github.com/hugetiny/negibox](https://github.com/hugetiny/negibox)
 * [https://github.com/agalwood/Motrix](https://github.com/agalwood/Motrix)
 * [https://sourceforge.net/projects/urlget](https://sourceforge.net/projects/urlget)
@@ -254,7 +253,7 @@
 * [https://github.com/topics/baiduyun](https://github.com/topics/baiduyun)
 * [https://yixun.writeas.com/yi-xun](https://yixun.writeas.com/yi-xun)
 * [https://github.com/lpg-it/BaiduYunVIP](https://github.com/lpg-it/BaiduYunVIP)
-* DuPan [https://www.lanzoux.com/b09r8jmhi](https://www.lanzoux.com/b09r8jmhi) 密码：b8ua
+* DuPan [https://www.lanzous.com/b09r8jmhi](https://www.lanzous.com/b09r8jmhi) 密码：b8ua
 * [https://cloud189.1t.workers.dev/web](https://cloud189.1t.workers.dev/web)
 * [http://down.5nb.me](http://down.5nb.me)
 
@@ -300,8 +299,8 @@
 
 * [http://daumpotplayer.com/download](http://daumpotplayer.com/download)
 * [https://www.lanzous.com/b112173](https://www.lanzous.com/b112173)
-* [https://www.lanzoux.com/b0i38vsd](https://www.lanzoux.com/b0i38vsd)
-* [https://www.lanzoux.com/b0f1k59qh](https://www.lanzoux.com/b0f1k59qh)
+* [https://www.lanzous.com/b0i38vsd](https://www.lanzous.com/b0i38vsd)
+* [https://www.lanzous.com/b0f1k59qh](https://www.lanzous.com/b0f1k59qh)
 * [https://cloud.189.cn/t/AZnUVj3iMjUr](https://cloud.189.cn/t/AZnUVj3iMjUr)
 
 
@@ -331,7 +330,6 @@
 
 * [由微博大神@vposy制作Adobe全系列](https://weibo.com/vposy?is_hot=1)
 * [Adobe软件单独下载方法-官方](https://sleele.com/2019/05/05/adobe/)
-* [https://eyun.baidu.com/s/3mizNp4O](https://eyun.baidu.com/s/3mizNp4O)密码：3131
 
 
 
@@ -358,6 +356,8 @@
 + [https://github.com/topics/screen-capture](https://github.com/topics/screen-capture)
 + [https://github.com/topics/screencast](https://github.com/topics/screencast)
 
+* [https://github.com/flameshot-org/flameshot](https://github.com/flameshot-org/flameshot)
+* [https://github.com/greenshot](https://github.com/greenshot)
 * [https://github.com/ShareX](https://github.com/ShareX)
 * Lightshot [https://app.prntscr.com](https://app.prntscr.com)
 * [https://github.com/Snipaste](https://github.com/Snipaste)
@@ -398,7 +398,6 @@
 **WinSnap**
 
 * [https://www.ntwind.com/software/winsnap.html](https://www.ntwind.com/software/winsnap.html)
-* [https://eyun.baidu.com/s/3geM3SFD](https://eyun.baidu.com/s/3geM3SFD) 密码：3131
 * [https://www.lanzous.com/b189177/](https://www.lanzous.com/b189177/)
 * [https://pan.baidu.com/s/1qWIF7lE](https://pan.baidu.com/s/1qWIF7lE)
 
@@ -532,7 +531,6 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 **StartIsBack++**
 
-0. [https://eyun.baidu.com/s/3eTL5mMY](https://eyun.baidu.com/s/3eTL5mMY)密码：3131
 1. [https://www.lanzous.com/b279570](https://www.lanzous.com/b279570)
 
 
@@ -547,7 +545,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.crystalidea.com/uninstall-tool](https://www.crystalidea.com/uninstall-tool)
 * Total Uninstall [https://www.martau.com](https://www.martau.com)
 * [UninstallTool／Geek／IObitUninstaller／RevoUninstalle](https://lanzous.com/b0f19v03a)
-* [RegWorkshop／RegCool](https://www.lanzoux.com/b0f1jf9mh)
+* [RegWorkshop／RegCool](https://www.lanzous.com/b0f1jf9mh)
 * [https://kurtzimmermann.com](https://kurtzimmermann.com)
 * Registry Finder
 * [http://www.hibitsoft.ir](http://www.hibitsoft.ir)
@@ -627,7 +625,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 ## other
 
 * [https://www.sandboxie.com](https://www.sandboxie.com)
-* [傲梅分区助手PartAssist](https://www.lanzoux.com/b0f1etedc)
+* [傲梅分区助手PartAssist](https://www.lanzous.com/b0f1etedc)
 * [显示当前网速、CPU及内存利用率的桌面悬浮窗软件](https://github.com/zhongyang219/TrafficMonitor)
 * [http://wenlei.ys168.com](http://wenlei.ys168.com)
 * 简化快捷键 [https://github.com/szzhiyang](https://github.com/szzhiyang)
@@ -654,11 +652,10 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * 黑暗模式 [https://github.com/Armin2208/Windows-Auto-Night-Mode](https://github.com/Armin2208/Windows-Auto-Night-Mode)
 * [EarTrumpet 为每个软件单独设置音量](https://www.microsoft.com/zh-cn/p/eartrumpet/9nblggh516xp)
 * 任务栏透明化 [https://github.com/TranslucentTB](https://github.com/TranslucentTB)
-* 福昕PDF阅读器 [https://eyun.baidu.com/s/3bozPGmV](https://eyun.baidu.com/s/3bozPGmV)密码：3131
 * 微软常用运行库 [https://github.com/abbodi1406/vcredist](https://github.com/abbodi1406/vcredist)
     * [https://hub.fastgit.org/abbodi1406/vcredist](https://hub.fastgit.org/abbodi1406/vcredist)
     * [https://github.wuyanzheshui.workers.dev/abbodi1406/vcredist](https://github.wuyanzheshui.workers.dev/abbodi1406/vcredist)
-    * [https://www.lanzoux.com/b0f1dfasd](https://www.lanzoux.com/b0f1dfasd)
+    * [https://www.lanzous.com/b0f1dfasd](https://www.lanzous.com/b0f1dfasd)
     * [https://www.lanzous.com/b143614](https://www.lanzous.com/b143614)
 * [https://www.diskinternals.com/download](https://www.diskinternals.com/download)
     * 读取EXT 类型数据盘 [http://www.diskinternals.com/download/Linux_Reader.exe](http://www.diskinternals.com/download/Linux_Reader.exe)

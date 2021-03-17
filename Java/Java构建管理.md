@@ -159,7 +159,12 @@
 
 ## Maven
 
++ [https://github.com/ibofine/mavenbook](https://github.com/ibofine/mavenbook)
+    + [https://ibofine.github.io/mavenbook](https://ibofine.github.io/mavenbook)
 + [Maven详细教程](https://segmentfault.com/a/1190000015077021)
++ [史上最全的maven的pom.xml文件详解](https://www.cnblogs.com/hafiz/p/5360195.html)
++ [Maven - 花落花开](http://www.hualuohuakai.net/tags/Maven)
++ maven手册 [https://github.com/inuter/Maven-Notebook](https://github.com/inuter/Maven-Notebook)
 
 * [http://mvnrepository.com](http://mvnrepository.com)
 * [https://search.maven.org](https://search.maven.org)
@@ -171,6 +176,7 @@
 + maven-jar-plugin 默认的打包插件，用来打普通的project JAR包；
 + maven-shade-plugin 用来打可执行JAR包，也就是所谓的fat JAR包；
 + maven-assembly-plugin 支持自定义的打包结构，也可以定制依赖项等。
++ [https://github.com/apache/maven-wagon](https://github.com/apache/maven-wagon)
 
 
 

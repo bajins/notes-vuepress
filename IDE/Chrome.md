@@ -115,7 +115,8 @@ chrome://flags/#enable-parallel-downloading
 * [crx4chrome](https://www.crx4chrome.com)
 * [https://www.extfans.com](https://www.extfans.com)
 * [https://www.gugeapps.net](https://www.gugeapps.net)
- 
+* [https://getman.cn/chrome](https://getman.cn/chrome)
+
 
 
 ### GitHub相关
@@ -181,7 +182,7 @@ chrome://flags/#enable-parallel-downloading
 * [https://ublock.org](https://ublock.org)
 * [https://github.com/AdguardTeam](https://github.com/AdguardTeam)
 
-- AdGuard Android 解锁高级版 [https://www.lanzoux.com/b0f19420h](https://www.lanzoux.com/b0f19420h)
+- AdGuard Android 解锁高级版 [https://www.lanzous.com/b0f19420h](https://www.lanzous.com/b0f19420h)
 
 **过滤规则**
 

@@ -59,9 +59,12 @@
 
 
 
-**依赖注入的三种方式**
+### 依赖注入的三种方式
 
-- 使用@Autowired注解时： Field （属性变量）注入尽量避免使用，构造器注入适合强制性的注入旨在不变性，Setter 注入适合可变性的注入。
+- @Autowired
+    - Field （属性变量）[Field injection is not recommended（不再推荐使用字段注入）](https://zhuanlan.zhihu.com/p/92395282)
+    - 构造器注入适合强制性的注入旨在不变性
+    - Setter 注入适合可变性的注入。
 - @Resource
 - @Inject
 
