@@ -224,6 +224,11 @@
     - `Organize impots` 自动优化管理导入的包
 
 
+## 右键new选项
+
+- `Window` -> `Perspective` -> `Customize Perspective...` -> `Shortcuts`界面 -> `Submenus`列中选中`Java`
+
+
 ### SUN内部包不存在
 
 > `sun.misc`（sun公司的内部方法，不属于JDK标准库范畴）包下的`BASE64Encoder`及`BASE64Decoder`来进行的
