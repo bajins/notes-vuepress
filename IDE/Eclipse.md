@@ -349,7 +349,10 @@
 
 - SVN [https://github.com/subclipse](https://github.com/subclipse)
 - 反编译Decompiler [https://github.com/ecd-plugin/ecd](https://github.com/ecd-plugin/ecd)
+    - `Window` -> `Preferences` -> `General` -> `Editors` -> `File Associations` -> 右侧在`File types`中选中
+    `*.class without source` 在`Associated editors`中选中`Class Decompiler Viewer`点击`Default`
 - [https://github.com/iloveeclipse/plugins/wiki](https://github.com/iloveeclipse/plugins/wiki)
+- [https://github.com/java-decompiler/jd-eclipse](https://github.com/java-decompiler/jd-eclipse)
 - [https://github.com/cnfree/Eclipse-Class-Decompiler](https://github.com/cnfree/Eclipse-Class-Decompiler)
 - [https://github.com/helospark/import-jar-as-project](https://github.com/helospark/import-jar-as-project)
 
