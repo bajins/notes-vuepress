@@ -345,8 +345,14 @@
 
 ## 插件
 
++ `-vmargs -DproxySet=true -DproxyHost=aProxyAddress -DproxyPort=aProxyPort` 启动代理参数
+
 - SVN [https://github.com/subclipse](https://github.com/subclipse)
-- 反编译 [https://github.com/cnfree/Eclipse-Class-Decompiler](https://github.com/cnfree/Eclipse-Class-Decompiler)
+- 反编译Decompiler [https://github.com/ecd-plugin/ecd](https://github.com/ecd-plugin/ecd)
+- [https://github.com/iloveeclipse/plugins/wiki](https://github.com/iloveeclipse/plugins/wiki)
+- [https://github.com/cnfree/Eclipse-Class-Decompiler](https://github.com/cnfree/Eclipse-Class-Decompiler)
+- [https://github.com/helospark/import-jar-as-project](https://github.com/helospark/import-jar-as-project)
+
 
 
 **Cloud Toolkit**
