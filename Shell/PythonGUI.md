@@ -10,6 +10,8 @@
 * [https://github.com/pyqtgraph/pyqtgraph](https://github.com/pyqtgraph/pyqtgraph)
 * 流程图 [https://github.com/leon-thomm/Ryven](https://github.com/leon-thomm/Ryven)
 
+- [https://github.com/zwjjiaozhu/gitchat_download](https://github.com/zwjjiaozhu/gitchat_download)
+
 
 **Tkinter**
 

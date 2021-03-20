@@ -294,8 +294,14 @@ request({
     * [https://github.com/nwjs/nw.js](https://github.com/nwjs/nw.js)
     * [https://github.com/lxp135/NW.jsCnDocs](https://github.com/lxp135/NW.jsCnDocs)
 * [https://github.com/Kagami/mpv.js](https://github.com/Kagami/mpv.js)
+* [https://github.com/apache/cordova](https://github.com/apache/cordova)
 * 将 Node.js 项目打包到可执行文件中 [https://github.com/vercel/pkg](https://github.com/vercel/pkg)
-
+* [https://github.com/facebook/react-native](https://github.com/facebook/react-native)
+    * [https://github.com/reactnativecn](https://github.com/reactnativecn)
+        * [https://reactnative.cn](https://reactnative.cn)
+    * [https://github.com/necolas/react-native-web](https://github.com/necolas/react-native-web)
+    * [https://github.com/microsoft/react-native-windows](https://github.com/microsoft/react-native-windows)
+    * [https://snack.expo.io](https://snack.expo.io)
 
 - [https://github.com/revery-ui/revery](https://github.com/revery-ui/revery)
 

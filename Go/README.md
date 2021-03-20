@@ -61,6 +61,14 @@
 
 
 
+**插件化开发**
+
+* [GoLang 插件化开发](https://blog.csdn.net/qq_42038407/article/details/108925286)
+
+
+
+
+
 **Rust**
 
 * [https://github.com/rust-lang](https://github.com/rust-lang)

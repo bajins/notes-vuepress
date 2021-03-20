@@ -249,7 +249,6 @@ Ultimate 版本:
 - [https://github.com/Dreamacro/clash](https://github.com/Dreamacro/clash)
     - [https://github.com/Fndroid/clash_for_windows_pkg](https://github.com/Fndroid/clash_for_windows_pkg)
     - [Clash for Windows 配置教程](https://bluedoc.io/agentneo/docs/mmee)
-- [https://github.com/snail007/goproxy](https://github.com/snail007/goproxy)
 - SocksCap64 HOOK了Windows Sockets API [https://www.sockscap64.com/sockscap64-official-homepage-chinese](https://www.sockscap64.com/sockscap64-official-homepage-chinese)
 
 

@@ -15,6 +15,7 @@
 + [https://github.com/janino-compiler/janino](https://github.com/janino-compiler/janino)
 + [https://github.com/Elzawawy/java-bytecode-generator](https://github.com/Elzawawy/java-bytecode-generator)
 + [https://github.com/jboss-javassist/javassist](https://github.com/jboss-javassist/javassist)
++ [https://github.com/ronmamo/reflections](https://github.com/ronmamo/reflections)
 + [https://github.com/codehaus-plexus/plexus-compiler](https://github.com/codehaus-plexus/plexus-compiler)
 + [https://github.com/eclipse/eclipse.jdt.core](https://github.com/eclipse/eclipse.jdt.core)
 + [https://github.com/topics/javacc](https://github.com/topics/javacc)
