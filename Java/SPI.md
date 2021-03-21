@@ -12,15 +12,17 @@
 * [AVA SPI机制详解](https://www.jianshu.com/p/25b3559ecc47)
 * [深入理解SPI机制](https://www.jianshu.com/p/3a3edbcd8f24)
 
+- OSGI（Open Service Gateway Initiative），是一个由OSGi Alliance发起的以Java为技术平台的动态模块化规范
+- Jigsaw Java9 modules
+- 观察者设计模式
+
+
 
 ## 什么是 SPI？
 
 SPI 全称为（Service Provider Interface），字面意思为服务提供者接口，是**JDK 内置的一种服务提供发现机制**。
 这一机制为很多框架的扩展提供了可能，比如在 Dubbo、JDBC、Spring Boot 中都使用到了 SPI 机制。
 说白了就是提供给“服务提供厂商”或者“插件开发者”使用的接口
-
-OSGI（Open Service Gateway Initiative），是一个由OSGi Alliance发起的以Java为技术平台的动态模块化规范
-Jigsaw Java9 modules
 
 SPI 是一种动态发现替换机制，例如我们在学习 Java Web 的时候连接数据库使用的 java.sql.Driver 接口，可以根据不同的驱动，
 连接不同的数据库，如常用的 MySQL 或者 Oracle 数据库,，我们在使用 JDBC 连接数据库的时候首先需要的就是连接驱动：
