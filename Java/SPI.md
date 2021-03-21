@@ -14,7 +14,7 @@
 
 - OSGI（Open Service Gateway Initiative），是一个由OSGi Alliance发起的以Java为技术平台的动态模块化规范
 - Jigsaw Java9 modules
-- 观察者设计模式
+- 观察者设计模式 [Java设计模式之观察者模式](https://blog.csdn.net/wanggang514260663/article/details/86138144)
 - Spring 实现`ApplicationContextAware`接口获取到指定接口的所有实现
 
 

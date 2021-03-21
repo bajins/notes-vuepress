@@ -280,12 +280,15 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
 - `org.springframework.http.MediaType` spring框架
 
 
-**HTTP**
+**HTTP实现依赖库**
 
 - `HttpURLConnection` Java自带API
 - `HttpClient` JDK11的API [Java11 HttpClient小试牛刀](https://segmentfault.com/a/1190000016555671)
-- `RestTemplate` 默认实现是`HttpURLConnection`，`ForEntity`返回响应码、响应消息体等，`ForObject`只返回消息体
-- `WebClient`是`Spring 5.0`开始提供的非阻塞响应式编程的Http工具。
+- `RestTemplate` 默认实现是`HttpURLConnection`，默认使用HttpMessageConverter将Http消息转换成POJO 或POJO转化成Http消息
+    - `ForEntity`返回响应码、响应消息体等
+    - `ForObject`只返回消息体
+    - `exchange` 配合`HttpEntity`或`RequestEntity`使用，返回`ResponseEntity`
+- `WebClient` 是`Spring 5.0`开始提供的非阻塞响应式编程的Http工具。
 - `Apache HttpComponents` [http://hc.apache.org](http://hc.apache.org)
 - `okHttp` [https://github.com/square/okhttp](https://github.com/square/okhttp)
 - `Netty` 
