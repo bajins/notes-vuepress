@@ -184,6 +184,22 @@
 - 测试 [https://github.com/robolectric](https://github.com/robolectric)
 
 
+
+**插件化框架**
+
+- Dynamic-load-apk
+- DroidPlugin
+- DyLA : Dynamic-load-apk @singwhatiwanna, 百度
+- DiLA : Direct-Load-apk @FinalLody
+- APF : Android-Plugin-Framework @limpoxe
+- ACDD : ACDD @bunnyblue
+- DyAPK : DynamicAPK @TediWang, 携程
+- DPG : DroidPlugin @cmzy, 360
+
+
+
+
+
 ### 软件
 
 + [如何在电脑上下载Google play上的应用？](https://www.zhihu.com/question/22382577/answers/updated)

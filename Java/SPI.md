@@ -17,6 +17,8 @@
 - 观察者设计模式 [Java设计模式之观察者模式](https://blog.csdn.net/wanggang514260663/article/details/86138144)
 - Spring 实现`ApplicationContextAware`接口获取到指定接口的所有实现
 
+* [https://github.com/Enaium/BullPlugin](https://github.com/Enaium/BullPlugin)
+* springboot插件式开发框架 [https://gitee.com/starblues/springboot-plugin-framework-parent](https://gitee.com/starblues/springboot-plugin-framework-parents)
 
 
 ## 什么是 SPI？

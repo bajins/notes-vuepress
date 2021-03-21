@@ -47,6 +47,8 @@
 ## 管理NodeJS
 
 * [https://github.com/tj/n](https://github.com/tj/n)
+* [https://github.com/Jrohy/nodejs-install](https://github.com/Jrohy/nodejs-install)
+
 
 **rpm**
 

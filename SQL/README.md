@@ -14,6 +14,9 @@
 - [https://github.com/flyway/flyway](https://github.com/flyway/flyway)
 
 * [https://db-engines.com/en/ranking](https://db-engines.com/en/ranking)
+* 分布式 [https://github.com/cockroachdb/cockroach](https://github.com/cockroachdb/cockroach)
+* [https://github.com/influxdata/influxdb](https://github.com/influxdata/influxdb)
+
 
 
 

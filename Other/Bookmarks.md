@@ -189,7 +189,8 @@
 * [https://exploringjs.com](https://exploringjs.com)
 * [https://github.com/MrAlex6204/Books](https://github.com/MrAlex6204/Books)
 * [https://github.com/ameizi/DevArticles](https://github.com/ameizi/DevArticles)
-
+* [https://developer.aliyun.com/topic/promotion-ebook](https://developer.aliyun.com/topic/promotion-ebook)
+* [https://developer.aliyun.com/ebook](https://developer.aliyun.com/ebook)
 
 
 ## 技术博客

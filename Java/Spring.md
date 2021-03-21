@@ -309,6 +309,7 @@
 
 -  `application.yml`（.properties) 应用程序特有配置信息，可以用来配置后续各个模块中需使用的公共参数等
 
+* [https://github.com/hashicorp/terraform](https://github.com/hashicorp/terraform)
 * [https://github.com/hashicorp/consul](https://github.com/hashicorp/consul)
     * Consul免费注册中心 [https://portal.cloud.hashicorp.com](https://portal.cloud.hashicorp.com)
 
