@@ -51,6 +51,16 @@
     - [http://subversion.apache.org/packages.html](http://subversion.apache.org/packages.html)
     - Subversion for Java [https://svnkit.com](https://svnkit.com)
 
+* [TortoiseSVN打分支、合并分支、切换分支](https://blog.csdn.net/justry_deng/article/details/82259470)
+
+```bash
+# SVN不同分支，进行比对
+svn diff -r 1100:1323
+```
+
+> 选中要比对的一个分支，<kbd>Shift</kbd>+右键+选中`TorsoiseSVN` -> `diff with url`，然后填入另外一个要比对的分支url即可
+
+
 
 
 **Git与SVN区别**

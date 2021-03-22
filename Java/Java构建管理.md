@@ -9,19 +9,13 @@
 
 + [https://github.com/gradle/gradle](https://github.com/gradle/gradle)
 + [https://github.com/sbt/sbt](https://github.com/sbt/sbt)
-+ [https://github.com/sakerbuild/saker.build](https://github.com/sakerbuild/saker.build)
++ 增量构建 [https://github.com/sakerbuild/saker.build](https://github.com/sakerbuild/saker.build)
 + [https://github.com/sakerbuild/saker.java.compiler](https://github.com/sakerbuild/saker.java.compiler)
 + 打包 [https://github.com/shevek/jarjar](https://github.com/shevek/jarjar)
 + [https://github.com/janino-compiler/janino](https://github.com/janino-compiler/janino)
-+ [https://github.com/Elzawawy/java-bytecode-generator](https://github.com/Elzawawy/java-bytecode-generator)
-+ [https://github.com/jboss-javassist/javassist](https://github.com/jboss-javassist/javassist)
-+ [https://github.com/ronmamo/reflections](https://github.com/ronmamo/reflections)
 + [https://github.com/codehaus-plexus/plexus-compiler](https://github.com/codehaus-plexus/plexus-compiler)
 + [https://github.com/eclipse/eclipse.jdt.core](https://github.com/eclipse/eclipse.jdt.core)
-+ [https://github.com/topics/javacc](https://github.com/topics/javacc)
-    + [https://github.com/javacc/javacc](https://github.com/javacc/javacc)
-    + [https://github.com/javacc21/javacc21](https://github.com/javacc21/javacc21)
-    + [JavaCC官方入门指南-概述](https://www.cnblogs.com/suhaha/p/11733487.html)
+
 
 
 **持续集成**

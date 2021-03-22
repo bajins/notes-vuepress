@@ -174,6 +174,9 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 ## 第三方库
 
+* [https://github.com/akullpp/awesome-java](https://github.com/akullpp/awesome-java)
+
+
 + [https://github.com/typetools](https://github.com/typetools)
 + [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
     + [下载地址镜像](/Other/README.md#通用镜像)
@@ -187,6 +190,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 + [https://github.com/netty/netty](https://github.com/netty/netty)
 + [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
 + [https://github.com/TooTallNate/Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket)
++ Web框架 [https://github.com/perwendel/spark](https://github.com/perwendel/spark)
 
 
 * jwt [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)
@@ -207,6 +211,9 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
     * [https://www.webjars.org](https://www.webjars.org)
 * 图形验证码 [https://github.com/whvcse/EasyCaptcha](https://github.com/whvcse/EasyCaptcha)
 * [https://github.com/orclight/jcaptcha](https://github.com/orclight/jcaptcha)
+* 线程间消息传递 [https://github.com/lmax-exchange/disruptor](https://github.com/lmax-exchange/disruptor)
+* 依赖关系注入器 [https://github.com/google/dagger](https://github.com/google/dagger)
+
 
 - Markdown解析器 [https://github.com/vsch/flexmark-java](https://github.com/vsch/flexmark-java)
 
@@ -279,6 +286,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 + [https://github.com/google/guava](https://github.com/google/guava)
 + [https://github.com/SpringForAll](https://github.com/SpringForAll)
 + [https://github.com/looly/hutool](https://github.com/looly/hutool)
++ [https://github.com/oblac/jodd](https://github.com/oblac/jodd)
 + [https://github.com/0opslab/opslabJutil](https://github.com/0opslab/opslabJutil)
 + [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
 + [spring framework util](https://github.com/spring-projects/spring-framework/tree/master/spring-core/src/main/java/org/springframework/util)
@@ -287,7 +295,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
     + [https://assertj.github.io/doc](https://assertj.github.io/doc)
 + [https://github.com/hamcrest/JavaHamcrest](https://github.com/hamcrest/JavaHamcrest)
 + [https://github.com/robstoll/atrium](https://github.com/robstoll/atrium)
-+ 创建不可变对象 [https://github.com/immutables](https://github.com/immutables)
++ [https://github.com/archine/tools](https://github.com/archine/tools)
+
 
 * [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
 * [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
@@ -300,18 +309,35 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * Headless Chrome For Java [https://github.com/fanyong920/jvppeteer](https://github.com/fanyong920/jvppeteer)
 * [https://github.com/andotorg/utf8bom-to-utf8](https://github.com/andotorg/utf8bom-to-utf8)
 * [https://github.com/downgoon/gbk2utf8](https://github.com/downgoon/gbk2utf8)
-* 类路径扫描器和模块扫描器 [https://github.com/classgraph](https://github.com/classgraph)
-* Java 应用程序打包 [https://github.com/fvarrui/JavaPackager](https://github.com/fvarrui/JavaPackager)
-* [https://github.com/rzwitserloot/lombok](https://github.com/rzwitserloot/lombok)
+* 中文转拼音 [https://github.com/houbb/pinyin](https://github.com/houbb/pinyin)
+* [https://github.com/toolgood/ToolGood.Words](https://github.com/toolgood/ToolGood.Words)
+* 中文繁简体转换 [https://github.com/houbb/opencc4j](https://github.com/houbb/opencc4j)
+
+
+
+**对象/类/文件生成器/字节码操作**
+
 * 模板引擎生成输出文本 [https://github.com/apache/freemarker](https://github.com/apache/freemarker)
     * [https://github.com/freemarker/freemarker3](https://github.com/freemarker/freemarker3)
     * [http://freemarker.foofun.cn](http://freemarker.foofun.cn)
     * [https://github.com/GreedyStar/generator](https://github.com/GreedyStar/generator)
 * [https://github.com/apache/velocity-engine](https://github.com/apache/velocity-engine)
 * [https://github.com/thymeleaf](https://github.com/thymeleaf)
-* 中文转拼音 [https://github.com/houbb/pinyin](https://github.com/houbb/pinyin)
-* [https://github.com/toolgood/ToolGood.Words](https://github.com/toolgood/ToolGood.Words)
-* 中文繁简体转换 [https://github.com/houbb/opencc4j](https://github.com/houbb/opencc4j)
+* 类路径扫描器和模块扫描器 [https://github.com/classgraph](https://github.com/classgraph)
+* Java 应用程序打包 [https://github.com/fvarrui/JavaPackager](https://github.com/fvarrui/JavaPackager)
+* [https://github.com/rzwitserloot/lombok](https://github.com/rzwitserloot/lombok)
+* 创建不可变对象 [https://github.com/immutables](https://github.com/immutables)
+* [https://github.com/EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo)
+* [https://github.com/javaparser](https://github.com/javaparser)
+* [https://github.com/square/javapoet](https://github.com/square/javapoet)
+* [https://github.com/raphw/byte-buddy](https://github.com/raphw/byte-buddy)
+* [https://github.com/topics/javacc](https://github.com/topics/javacc)
+    * [https://github.com/javacc/javacc](https://github.com/javacc/javacc)
+    * [https://github.com/javacc21/javacc21](https://github.com/javacc21/javacc21)
+    * [JavaCC官方入门指南-概述](https://www.cnblogs.com/suhaha/p/11733487.html)
+* [https://github.com/Elzawawy/java-bytecode-generator](https://github.com/Elzawawy/java-bytecode-generator)
+* [https://github.com/jboss-javassist/javassist](https://github.com/jboss-javassist/javassist)
+* 元数据分析 [https://github.com/ronmamo/reflections](https://github.com/ronmamo/reflections)
 
 
 
@@ -508,6 +534,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 - [https://github.com/gluonhq/connect](https://github.com/gluonhq/connect)
 - 仪表板 [https://github.com/HanSolo/tilesfx](https://github.com/HanSolo/tilesfx)
 - 进度条 [https://github.com/ctongfei/progressbar](https://github.com/ctongfei/progressbar)
+- 3D [https://github.com/JogAmp](https://github.com/JogAmp)
+- 跨平台访问本机API [https://github.com/LWJGL](https://github.com/LWJGL)
 
 * [JavaFX最新消息](http://fxexperience.com)
 * [使用Java 9的模块化来构建零依赖的原生应用](https://www.tuicool.com/articles/eiu2EnR)
