@@ -10,8 +10,14 @@
 + [http://openjdk.java.net/projects/code-tools](http://openjdk.java.net/projects/code-tools)
 + [https://github.com/openjdk/jmc](https://github.com/openjdk/jmc)
 
-* 无侵入式的jvm监控工具MyPerf4J [https://github.com/ThinkpadNC5/MyPerf4J](https://github.com/ThinkpadNC5/MyPerf4J)
+- [https://github.com/topics/diagnosis](https://github.com/topics/diagnosis)
+- [https://github.com/topics/trace](https://github.com/topics/trace)
+- [https://github.com/topics/agent](https://github.com/topics/agent)
+
 * Alibaba Java诊断利器Arthas [https://github.com/alibaba/arthas](https://github.com/alibaba/arthas)
+* [https://github.com/vipshop/vjtools](https://github.com/vipshop/vjtools)
+* [https://github.com/qunarcorp/bistoury](https://github.com/qunarcorp/bistoury)
+* 无侵入式的jvm监控工具MyPerf4J [https://github.com/ThinkpadNC5/MyPerf4J](https://github.com/ThinkpadNC5/MyPerf4J)
 * Java和Android堆转储分析器 [https://heaphero.io](https://heaphero.io)
 * GC 日志分析器 [https://gceasy.io](https://gceasy.io)
 * [https://github.com/chewiebug/GCViewer](https://github.com/chewiebug/GCViewer)

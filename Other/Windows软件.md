@@ -542,7 +542,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * PCHunter [http://www.xuetr.com](http://www.xuetr.com)
 * Windows 10 Manager [https://www.yamicsoft.com](https://www.yamicsoft.com)
     * `WMXD7-RG8FP-OYKS3-KHTN6`
-* [https://www.crystalidea.com/uninstall-tool](https://www.crystalidea.com/uninstall-tool)
+* Uninstall Tool [https://crystalidea.com/uninstall-tool](https://crystalidea.com/uninstall-tool)
 * Total Uninstall [https://www.martau.com](https://www.martau.com)
 * [UninstallTool／Geek／IObitUninstaller／RevoUninstalle](https://lanzous.com/b0f19v03a)
 * [RegWorkshop／RegCool](https://www.lanzous.com/b0f1jf9mh)

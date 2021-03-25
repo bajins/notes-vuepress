@@ -394,3 +394,34 @@
 * [quartz-scheduler建表SQL](https://github.com/quartz-scheduler/quartz/tree/master/quartz-core/src/main/resources/org/quartz/impl/jdbcjobstore)
 
 
+
+
+## Spring MVC
+
+**redirect重定向**
+
+> redirect重定向可以跳转到任意服务器地址，传递时要对中文编码进行处理
+
+```java
+@RequestMapping(value="/test", method = { RequestMethod.POST, RequestMethod.GET })
+public ModelAndView testredirect(HttpServletResponse response){
+    response.sendRedirect("/index");// 参数可以直接拼接在url上
+    return null;
+}
+@RequestMapping("/testredirect")
+public String testredirect(Model model, RedirectAttributes attr) {
+	attr.addAttribute("test", "51gjie");// 跳转地址带参数
+    attr.addFlashAttribute("u2", "51gjie");// 跳转地址不带参数，只存在body中
+	return "redirect:/user/users";// 参数可以直接拼接在url上
+}
+@RequestMapping(value="/toredirect",method = { RequestMethod.POST, RequestMethod.GET })
+public  ModelAndView toredirect(String userName){
+    ModelAndView  model = new ModelAndView("/main/index");// 参数可以直接拼接在url上
+    // 把userName参数带入到controller的RedirectAttributes中
+    model.addObject("userName", userName);
+    return model;
+}
+```
+
+
+

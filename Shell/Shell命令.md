@@ -463,6 +463,8 @@ grep -rl "XXX" --exclude="*.sql" ./* | wc -l
 ```bash
 find * | grep -v '\(*.jpg\|*.png)' | xargs rm
 rm -rf !(*.jpg|*.png)
+# rm删除除去指定文件的剩余所有文件 (rm 反向删除）
+rm -rf `ls |grep -v "^ab.txt$"`
 ```
 
 > 如果报错：`-bash: !: event not found` 需要开启通配符功能
