@@ -104,7 +104,7 @@ chrome://flags/#enable-parallel-downloading
 * [https://github.com/topics/crx](https://github.com/topics/crx)
 * [https://github.com/topics/chrome-extension](https://github.com/topics/chrome-extension)
 * 冻结暂时用不到的标签页 [https://github.com/deanoemcke/thegreatsuspender](https://github.com/deanoemcke/thegreatsuspender)
-
+* 防止通过 URL 跟踪用户 [https://github.com/ClearURLs](https://github.com/ClearURLs)
 
 
 ### 插件下载

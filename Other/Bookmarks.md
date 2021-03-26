@@ -293,6 +293,7 @@
 * [archives - 沉默王二博客](http://www.itwanger.com/archives.html)
 * [archives - bugstack虫洞栈](https://bugstack.cn/archives.html)
 * [归档 | IT宅-arthinking's blog](https://www.itzhai.com/archives)
+* [归档 | 张振伟的博客](https://zhangzw.com/archives)
 
 
 

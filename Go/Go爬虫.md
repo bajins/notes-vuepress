@@ -11,7 +11,8 @@
 
 **[HeadlessBrowser](/Shell/Python爬虫.md#headlessbrowser)**
 
-
+- 类似于BeautifulSoup [https://github.com/anaskhan96/soup](https://github.com/anaskhan96/soup)
+- 基于DevTools协议的高级驱动程序 [https://github.com/go-rod/rod](https://github.com/go-rod/rod)
 
 
 ## HTML解析

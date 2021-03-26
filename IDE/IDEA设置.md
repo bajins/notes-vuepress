@@ -21,7 +21,7 @@
 5. MavenVersion
 6. SDK Table
 
-
+> `File` -> `Power Save Mode`(节电模式) 勾选后将会导致提示、自动加载等都不生效
 
 
 ## 启动进入欢迎界面

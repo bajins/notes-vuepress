@@ -24,6 +24,14 @@
    - `Build automatically`（同`Project`菜单下的按钮） 自动编译
 
 
+**xml文件头部文件报错**
+
+- `%USERPROFILE%\.lemminx\cache\头部文件的链接地址路径`
+
+> 示例：链接地址为`http://mybatis.org/dtd/mybatis-3-config.dtd`
+> 文件路径为`%USERPROFILE%\.lemminx\cache\http\mybatis.org\dtd\mybatis-3-config.dtd`
+
+
 **Clean Up、Format、Clean**
 
 - 顶部菜单 -> `Source` -> `Clean Up` 针对代码的内容进行整理，比如去除无用代码或者引用包。

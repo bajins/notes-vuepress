@@ -256,6 +256,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
     - [JAVA中使用springBoot和Ehcache3.X无xml配置和xml配置](https://blog.csdn.net/Gentlemike/article/details/80403967)
     - [ehcache之offheap](http://www.luyixian.cn/news_show_332650.aspx)
     - [https://github.com/Terracotta-OSS/offheap-store](https://github.com/Terracotta-OSS/offheap-store)
+    - [Ehcache缓存从2.10升到3.5.0版本的简单用法和踩坑经验](https://segmentfault.com/a/1190000020791300)
 * [https://github.com/ben-manes/caffeine](https://github.com/ben-manes/caffeine)
 * GuavaCache使用示例 [https://github.com/songyaxu/guava-cache](https://github.com/songyaxu/guava-cache)
 

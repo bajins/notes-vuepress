@@ -53,6 +53,9 @@
 
 - [https://github.com/studygolang](https://github.com/studygolang)
 - 在JVM中运行 [https://github.com/zxh0/jvm.go](https://github.com/zxh0/jvm.go)
+- 开发环境 [https://github.com/JohnStarich/go-wasm](https://github.com/JohnStarich/go-wasm)
+- 分布式跟踪后端 [https://github.com/grafana/tempo](https://github.com/grafana/tempo)
+- 监视和配置网络设备的工具 [https://github.com/inexio/thola](https://github.com/inexio/thola)
 
 
 * [【Golang】实现文件服务器断点续传](https://rehtt.com/index.php/archives/220)
@@ -64,8 +67,6 @@
 **插件化开发**
 
 * [GoLang 插件化开发](https://blog.csdn.net/qq_42038407/article/details/108925286)
-
-
 
 
 
@@ -155,12 +156,30 @@
 * [https://xorm.io](https://xorm.io)
 * HTTP实现 [https://github.com/valyala/fasthttp](https://github.com/valyala/fasthttp)
 * [https://github.com/parnurzeal/gorequest](https://github.com/parnurzeal/gorequest)
+* 图表库 [https://github.com/go-echarts](https://github.com/go-echarts)
+* 生成和管理调色板 [https://github.com/muesli/gamut](https://github.com/muesli/gamut)
+* 任务排队系统 [https://git.sr.ht/~sircmpwn/dowork](https://git.sr.ht/~sircmpwn/dowork)
+* 监控 [https://github.com/prometheus](https://github.com/prometheus)
+* k均值聚类算法 [https://github.com/muesli/kmeans](https://github.com/muesli/kmeans)
+* 有向图 [https://github.com/autom8ter/dagger](https://github.com/autom8ter/dagger)
+* JWT [https://github.com/kataras/jwt](https://github.com/kataras/jwt)
+* 程序抖动问题定位 [https://github.com/mosn/holmes](https://github.com/mosn/holmes)
+* 内容协作 [https://github.com/pydio/cells](https://github.com/pydio/cells)
+* API开发的云平台 [https://github.com/micro](https://github.com/micro)
+* 高性能游戏服务器框架 [https://github.com/lonng/nano](https://github.com/lonng/nano)
+* 对图像序列（例如延时拍摄）进行闪烁处理 [https://github.com/StruffelProductions/simple-deflicker](https://github.com/StruffelProductions/simple-deflicker)
+* 控制台进度条显示 [https://github.com/vardius/progress-go](https://github.com/vardius/progress-go)
+
 
 - IP代理池 [https://github.com/henson/proxypool](https://github.com/henson/proxypool)
+- 与Discord的API进行交互 [https://github.com/skwair/harmony](https://github.com/skwair/harmony)
+
 
 
 
 ## 工具链
+
+* 调试器 [https://github.com/go-delve/delve](https://github.com/go-delve/delve)
 
 - 测试文件中单个函数
 
