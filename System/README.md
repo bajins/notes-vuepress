@@ -208,6 +208,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [光卡自己的 PE 项目](https://hikaricalyx.com)
 * [优启时代](http://www.uqi.me/catalog.asp?cate=1)
 * [https://github.com/ventoy/Ventoy](https://github.com/ventoy/Ventoy)
+* [http://wintool.cc](http://wintool.cc)
 
 
 

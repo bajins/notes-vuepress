@@ -125,26 +125,22 @@
 + [https://github.com/topics/download-manager](https://github.com/topics/download-manager)
 
 
-* [https://github.com/xdown-org](https://github.com/xdown-org)
+* XDown [https://github.com/xdown-org](https://github.com/xdown-org)
     * [https://xdown.org](https://xdown.org)
     * [https://dl.xdown.org](https://dl.xdown.org)
-* [https://github.com/subhra74/xdm](https://github.com/subhra74/xdm)
 * NDM [http://www.neatdownloadmanager.com](http://www.neatdownloadmanager.com)
 * IDM [http://www.internetdownloadmanager.com](http://www.internetdownloadmanager.com)
-    * [https://www.lanzous.com/b134572](https://www.lanzous.com/b134572)
-    * [https://www.lanzous.com/b0i6zkze](https://www.lanzous.com/b0i6zkze)
+    * 睿派克 [https://www.lanzous.com/b134572](https://www.lanzous.com/b134572)
+    * 闻雷 [https://www.lanzous.com/b0i6zkze](https://www.lanzous.com/b0i6zkze)
     * [https://pan.lanzous.com/b0f1agvxc](https://pan.lanzous.com/b0f1agvxc)
     * [https://pan.lanzous.com/b0f1997eb](https://pan.lanzous.com/b0f1997eb)
 * 猎鹰下载器 [http://www.eagleget.com](http://www.eagleget.com)
 * FDM [http://www.freedownloadmanager.org](http://www.freedownloadmanager.org/download.htm)
+* [https://github.com/subhra74/xdm](https://github.com/subhra74/xdm)
 * [https://github.com/hugetiny/negibox](https://github.com/hugetiny/negibox)
 * [https://github.com/agalwood/Motrix](https://github.com/agalwood/Motrix)
 * [https://sourceforge.net/projects/urlget](https://sourceforge.net/projects/urlget)
 * [https://github.com/axel-download-accelerator/axel](https://github.com/axel-download-accelerator/axel)
-
-> 【诚通网盘下载提示】：点击下载后，立马取消（就是点击浏览器左上角的`X`按钮停止访问），然后再次点击下载，可以提速好几倍
-
-* [网赚网盘下载辅助工具](http://www.oceancoder.cn/post/net-disk-download-helper.html)
 * 迅雷、快车、旋风下载链接转换脚本 [https://github.com/chinsyo/delink](https://github.com/chinsyo/delink)
 
 
@@ -247,7 +243,7 @@
 * [https://kkocdko.github.io/category/Software](https://kkocdko.github.io/category/Software)
 
 
-### 百度网盘
+### 云盘网盘
 
 * [https://github.com/search?q=BaiduPCS](https://github.com/search?q=BaiduPCS)
 * [https://github.com/topics/baiduyun](https://github.com/topics/baiduyun)
@@ -256,6 +252,15 @@
 * DuPan [https://www.lanzous.com/b09r8jmhi](https://www.lanzous.com/b09r8jmhi) 密码：b8ua
 * [https://cloud189.1t.workers.dev/web](https://cloud189.1t.workers.dev/web)
 * [http://down.5nb.me](http://down.5nb.me)
+* [https://github.com/chian0sen/baiduwp](https://github.com/chian0sen/baiduwp)
+* [https://github.com/yuantuo666/baiduwp](https://github.com/yuantuo666/baiduwp)
+* [https://github.com/yuantuo666/baiduwp-php](https://github.com/yuantuo666/baiduwp-php)
+* [https://kinhdown.kinh.cc](https://kinhdown.kinh.cc)
+
+> 【诚通网盘下载提示】：点击下载后，立马取消（就是点击浏览器左上角的`X`按钮停止访问），然后再次点击下载，可以提速好几倍
+
+* [网赚网盘下载辅助工具](http://www.oceancoder.cn/post/net-disk-download-helper.html)
+
 
 
 

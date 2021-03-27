@@ -48,6 +48,11 @@
 
 ## GitLab
 
+
+> root用户登录，右上角头像，Settings -> Preferences -> Localization -> Language，选择“简体中文”即可。
+> 高版本的GitLab自带了中文语言包，可以通过上述方式直接切换。如果找不到该选项，表示你的版本还不支持。只能通过安装中文插件进行汉化。
+
+
 * [https://gitlab.com/xhang/gitlab/wikis/home](https://gitlab.com/xhang/gitlab/wikis/home)
 * [GitLab Community Edition (中文社区版)](https://github.com/twang2218/gitlab-ce-zh)
     * [汉化的 GitLab 社区版 Docker Image](https://hub.docker.com/r/twang2218/gitlab-ce-zh)
@@ -55,6 +60,7 @@
 * [https://github.com/bensonfx/codeserver](https://github.com/bensonfx/codeserver)
 * [https://hub.docker.com/r/benyoo/gitlab](https://hub.docker.com/r/benyoo/gitlab)
 * [https://hub.docker.com/r/imleafz/gitlab-ce-zh](https://hub.docker.com/r/imleafz/gitlab-ce-zh)
+* [https://crowdin.com/project/gitlab-ee](https://crowdin.com/project/gitlab-ee)
 
 
 ```yml
