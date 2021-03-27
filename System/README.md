@@ -43,6 +43,31 @@
 
 
 
+
+
+## 监控探针
+
++ [https://github.com/topics/apm](https://github.com/topics/apm)
+
+* [Linux工程师必备的88个监控工具](https://learn-linux.readthedocs.io/zh_CN/latest/maintenance/monitor/tools/80-linux-monitoring-tools.html)
+
+- `nethogs`: 按进程查看流量占用
+- `ethtool`: 诊断工具
+- `tcpdump`: 抓包工具
+- 监控总体带宽使用：`nload`、`bmon`、`slurm`、`bwm-ng`、`cbm`、`speedometer`、`netload`
+- 监控总体带宽使用（批量式输出）：`vnstat`、`ifstat`、`dstat`、`collectl`
+- 每个套接字连接的带宽使用：`iftop`、`iptraf`、`tcptrack`、`pktstat`、`netwatch`、`trafshow`、`jnettop`
+- `ntopng`
+- [https://github.com/aristocratos/bashtop](https://github.com/aristocratos/bashtop)
+- [https://github.com/aristocratos/bpytop](https://github.com/aristocratos/bpytop)
+
++ 带仪表盘的实时性能监控 [https://github.com/netdata/netdata](https://github.com/netdata/netdata)
++ 云探针、云监控、服务器云监控、多服务器探针 [https://github.com/cppla/ServerStatus](https://github.com/cppla/ServerStatus)
++ [https://github.com/CokeMine/ServerStatus-Hotaru](https://github.com/CokeMine/ServerStatus-Hotaru)
++ [https://github.com/BotoX/ServerStatus](https://github.com/BotoX/ServerStatus)
+
+
+
 **管理面板**
 
 * [https://github.com/aaPanel/BaoTa](https://github.com/aaPanel/BaoTa)

@@ -199,6 +199,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/rabbitmq](https://github.com/rabbitmq)
 * [https://github.com/apache/kafka](https://github.com/apache/kafka)
     * [Kafka安装及入门](http://jaychang.cn/2020/03/15/afka%E5%AE%89%E8%A3%85%E5%8F%8A%E5%85%A5%E9%97%A8)
+* [https://github.com/apache/pulsar](https://github.com/apache/pulsar)
 * [https://github.com/vectorizedio/redpanda](https://github.com/vectorizedio/redpanda)
 * [https://github.com/xuxueli](https://github.com/xuxueli)
 * [https://github.com/elastic/elasticsearch](https://github.com/elastic/elasticsearch)
