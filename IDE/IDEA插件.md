@@ -172,6 +172,7 @@
 > 一键调用一个对象的所有set方法并且赋予默认值 在对象字段多的时候非常方便
 
 * [https://github.com/gejun123456/intellij-generateAllSetMethod](https://github.com/gejun123456/intellij-generateAllSetMethod)
+* [https://github.com/Adrninistrator/GenSetterCalls](https://github.com/Adrninistrator/GenSetterCalls)
 
 ![](https://upload-images.jianshu.io/upload_images/11962894-bd972369154914fa.gif)
 

@@ -590,6 +590,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 
 - [https://copiedapp.com](https://copiedapp.com)
+- [一个实用的剪贴板小工具——TimeClip](https://www.devsong.org/article/127)
 
 
 

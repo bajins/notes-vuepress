@@ -24,6 +24,46 @@
    - `Build automatically`（同`Project`菜单下的按钮） 自动编译
 
 
+**快捷生成调用实例set方法**
+
+1. 进入实例类，打开`Type Hierarchy`视图并在视图中选中所有set方法复制，快捷键<kbd>F4</kbd>
+2. 使用以下方法生成
+
+```java
+/**
+ * 生成所有set调用方法并复制到剪贴板
+ * 
+ * @param clazz
+ */
+public static void getSetter(Class<?> clazz) {
+   String name = clazz.getSimpleName();
+   String subName = name.substring(0, 1);
+   name = name.replace(subName, subName.toLowerCase());
+   StringJoiner joiner = new StringJoiner(System.getProperty("line.separator"));// 获取系统换行符
+   for (Method m : clazz.getMethods()) {
+      if (m.getName().startsWith("set")) {
+            joiner.add(String.format(name + ".%s();", m.getName()));
+      }
+   }
+   // 获取系统剪贴板
+   Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+   // 封装文本内容
+   Transferable trans = new StringSelection(joiner.toString());
+   // 把文本内容设置到系统剪贴板
+   if (trans.isDataFlavorSupported(DataFlavor.stringFlavor)) {
+      clipboard.setContents(trans, null);
+      try {
+            String string = (String) trans.getTransferData(DataFlavor.stringFlavor); // 转换内容到字符串
+            System.out.println(string);
+      } catch (Exception ex) {
+            ex.printStackTrace(); // 错误处理
+      }
+   }
+}
+```
+
+
+
 **xml文件头部文件报错**
 
 - `%USERPROFILE%\.lemminx\cache\头部文件的链接地址路径`
@@ -135,14 +175,16 @@
 
 * [Eclipse 开启代码提示与关闭变量命名补全](https://xienaoban.github.io/posts/32764)
 
-- `Window` -> `Preferences` -> `Java` -> `Editor` -> `Content Assist` -> `Auto Activation` 下的` Auto Activation triggers for java` 
-填入 `._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`
-- 解决输入`=`或`;`变量自动补全问题 `Window` -> `Preference` ->`Java` -> `Editor` -> `Content Assist` -> 
-勾选 `Disable insertion triggers except 'Enter'` (按<kbd>Enter</kbd>键才自动补全)
+- `Window` -> `Preferences` -> `Java` -> `Editor` -> `Content Assist`
+    - `Auto Activation` 下的` Auto Activation triggers for java` 填入 `._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`
+    - 解决输入`=`或`;`变量自动补全问题：勾选 `Disable insertion triggers except 'Enter'` (按<kbd>Enter</kbd>键才自动补全)
 - XML自动补全 `Windows` -> `preferance` -> `XML` -> `XML Files` -> `Editor` -> `Content Assist` -> `Auto Activation`下面的
 `Prompt when these characters are inserted` 填入 `<=:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ `（注意后面有一个空格）
 
 * 解决按下`@`不提示注解：`Window` -> `Preferences` -> `Java` -> `Editor` -> `Content Assist` -> `Advanced` 下把`java Proposals`勾上
+* `Enable non-blocking completion(does not affect open editors)` 启用非阻塞完成（不影响打开的编辑器）
+
+
 
 
 ## 显示内存
