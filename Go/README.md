@@ -121,6 +121,8 @@
 * [https://github.com/deckarep/golang-set](https://github.com/deckarep/golang-set)
 * [https://github.com/chenhg5/collection](https://github.com/chenhg5/collection)
 * 线程池 工作池 [https://github.com/xxjwxc/gowp](https://github.com/xxjwxc/gowp)
+* 反射库高级抽象 [https://github.com/oleiade/reflections](https://github.com/oleiade/reflections)
+* 反射库包装 [https://github.com/hedzr/ref](https://github.com/hedzr/ref)
 * 模板功能 [https://github.com/Masterminds/sprig](https://github.com/Masterminds/sprig)
 * 分布式关系型数据库 [https://github.com/pingcap/tidb](https://github.com/pingcap/tidb)
     * [https://pingcap.com](https://pingcap.com)

@@ -17,6 +17,11 @@
 * 链式SQL框架 [https://github.com/jOOQ](https://github.com/jOOQ)
 
 - [https://github.com/itfsw/mybatis-generator-plugin](https://github.com/itfsw/mybatis-generator-plugin)
+- CRUD生成器 [https://github.com/SanjinKurelic/MVCGenerator](https://github.com/SanjinKurelic/MVCGenerator)
+
+
+
+
 
 
 ## JDBC驱动

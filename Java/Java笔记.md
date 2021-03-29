@@ -277,7 +277,7 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
 
 - `com.google.common.net.MediaType` guava
 - `javax.ws.rs.core.MediaType` Jersey框架
-- `org.springframework.http.MediaType` spring框架
+- `org.springframework.http.MediaType`和`org.springframework.util.MimeTypeUtils` spring框架
 
 
 **HTTP实现依赖库**

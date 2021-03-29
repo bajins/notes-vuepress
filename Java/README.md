@@ -218,6 +218,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 
 - Markdown解析器 [https://github.com/vsch/flexmark-java](https://github.com/vsch/flexmark-java)
+- 数学表达式 [https://github.com/mariuszgromada/MathParser.org-mXparser](https://github.com/mariuszgromada/MathParser.org-mXparser)
+- 数学框架 [https://github.com/Ismail-Mekni/mxreflection](https://github.com/Ismail-Mekni/mxreflection)
 
 
 **[HTTP](/Java/Java笔记.md#HTTP)**
@@ -340,7 +342,10 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
     * [JavaCC官方入门指南-概述](https://www.cnblogs.com/suhaha/p/11733487.html)
 * [https://github.com/Elzawawy/java-bytecode-generator](https://github.com/Elzawawy/java-bytecode-generator)
 * [https://github.com/jboss-javassist/javassist](https://github.com/jboss-javassist/javassist)
-* 元数据分析 [https://github.com/ronmamo/reflections](https://github.com/ronmamo/reflections)
+* 反射工具包 [https://github.com/ronmamo/reflections](https://github.com/ronmamo/reflections)
+* 可缓存反射 [https://github.com/OxideWaveLength/Java-BetterReflection](https://github.com/OxideWaveLength/Java-BetterReflection)
+* 属性比对器 [https://github.com/dadiyang/equator](https://github.com/dadiyang/equator)
+* 对象比较属性和审核 [https://github.com/javers/javers](https://github.com/javers/javers)
 
 
 
@@ -367,6 +372,12 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 - [https://github.com/roookeee/datus](https://github.com/roookeee/datus)
 - [https://github.com/xebia-france/selma](https://github.com/xebia-france/selma)
 - [https://github.com/jmapper-framework/jmapper-core](https://github.com/jmapper-framework/jmapper-core)
+
+
+
+**加密**
+
+* bcprov-jdk15on [http://www.bouncycastle.org/java.html](http://www.bouncycastle.org/java.html) Bouncy Castle Crypto
 
 
 

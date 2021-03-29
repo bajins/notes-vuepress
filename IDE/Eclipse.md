@@ -290,8 +290,9 @@ public static void getSetter(Class<?> clazz) {
 
 ## 注释模板
 
-+ `Window` -> `Preference` -> `Java` -> `Code Style` -> `Code Template` -> 展开`Comments` -> 
-点击需要设置的类型 -> `Pattern`填入注释模板 -> 勾选 `Automatically add comments for new methods and types`
++ `Window` -> `Preference` -> `Java` -> `Code Style` -> `Code Templates`
+   + 展开`Comments` -> 点击选中子项（`files`、`Types`） -> `Pattern`填入注释模板
+   + 勾选 `Automatically add comments for new methods and types` 自动为新方法和类型添加注释
 + 注释的使用：输入`/**`然后回车自动出来
 
 - 创建新文件(New Java files)注释标签（在文件第一行）
