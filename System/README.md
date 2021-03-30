@@ -136,6 +136,7 @@
 
 * 搜索更新补丁下载 [http://www.catalog.update.microsoft.com](http://www.catalog.update.microsoft.com)
 * [小米笔记本Pro黑苹果Win10双系统](https://www.ikxin.com/465.html)
+* [https://github.com/nullpo-head/WSL-Hello-sudo](https://github.com/nullpo-head/WSL-Hello-sudo)
 
 > 打开后，随便点一个进程右键，查看-查看进程热键-再右键-显示所有进程热键
 
@@ -387,73 +388,6 @@ slmgr /skms zh.us.to
 slmgr /ato
 ```
 
-
-
-
-
-## SSH
-
-> Secure Shell（SSH）
-
-> OpenSSH 私钥后缀是`pem`，PuTTY 私钥后缀是`ppk`
-
-* [https://github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
-* [https://github.com/topics/terminal](https://github.com/topics/terminal)
-* [https://github.com/topics/ssh](https://github.com/topics/ssh)
-* [https://github.com/topics/ssh-client](https://github.com/topics/ssh-client)
-* [https://github.com/topics/ssh2](https://github.com/topics/ssh2)
-* [https://github.com/topics/ssh](https://github.com/topics/ssh)
-* [https://github.com/topics/remote-access](https://github.com/topics/remote-access)
-
-
-- [https://github.com/topics/sftp](https://github.com/topics/sftp)
-- [https://github.com/topics/sftp-client](https://github.com/topics/sftp-client)
-- [https://github.com/topics/ftp-client](https://github.com/topics/ftp-client)
-
-* [https://github.com/openssh](https://github.com/openssh)
-    * [https://www.openssh.com](https://www.openssh.com)
-* [https://github.com/electerm/electerm](https://github.com/electerm/electerm)
-* [https://www.mobatek.net](https://www.mobatek.net)
-
-
-**WEB**
-
-* [xterm.js](https://github.com/xtermjs/xterm.js)
-* [webssh](https://github.com/huashengdun/webssh)
-* [WebSSH2](https://github.com/billchurch/WebSSH2)
-* [https://github.com/mscdex/ssh2](https://github.com/mscdex/ssh2)
-
-
-**Android**
-
-+ [SSH client for Android](https://github.com/search?o=desc&q=SSH+client+for+Android&s=updated&type=Repositories)
-
-* [https://github.com/topics/termux](https://github.com/topics/termux)
-    * [https://github.com/termux](https://github.com/termux)
-* [https://github.com/connectbot/connectbot](https://github.com/connectbot/connectbot)
-* [https://www.juicessh.com](https://www.juicessh.com)
-* [https://github.com/niklas-8/RemoteFiles](https://github.com/niklas-8/RemoteFiles)
-
-
-
-**Windows**
-
-+ [https://github.com/topics/windows](https://github.com/topics/windows)
-+ [https://github.com/topics/putty](https://github.com/topics/putty)
-+ [https://github.com/topics/kitty](https://github.com/topics/kitty)
-
-* [https://github.com/PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable)
-    * [https://github.com/PowerShell/Win32-OpenSSH/wiki](https://github.com/PowerShell/Win32-OpenSSH/wiki)
-* [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
-* [https://github.com/appget](https://github.com/appget)
-* [https://github.com/x64dbg](https://github.com/x64dbg)
-* [https://github.com/Maximus5/ConEmu](https://github.com/Maximus5/ConEmu)
-* [https://github.com/Eugeny/terminus](https://github.com/Eugeny/terminus)
-* [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
-* [https://github.com/vercel/hyper](https://github.com/vercel/hyper)
-* PuTTY [https://www.chiark.greenend.org.uk/~sgtatham/putty](https://www.chiark.greenend.org.uk/~sgtatham/putty)
-* [https://github.com/portapps/kitty-portable](https://github.com/portapps/kitty-portable)
-* [https://github.com/cyd01/KiTTY](https://github.com/cyd01/KiTTY)
 
 
 
