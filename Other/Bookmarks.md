@@ -449,6 +449,7 @@
 * 软件下载 [https://www.unyoo.com](https://www.unyoo.com)
 * MSDN我告诉你（windows10系统镜像下载） [https://msdn.itellyou.cn](https://msdn.itellyou.cn)
 * 团队协作和文档 [https://www.notion.so](https://www.notion.so)
+* [https://github.com/mattermost/focalboard](https://github.com/mattermost/focalboard)
 
 
 

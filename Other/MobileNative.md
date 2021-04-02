@@ -84,6 +84,7 @@
 * 查看包差异 [https://github.com/JakeWharton/diffuse](https://github.com/JakeWharton/diffuse)
 
 + [归档 | Homurax's Blog](https://blog.homurax.com/archives)
++ [Android：JNI 与 NDK到底是什么？](https://blog.csdn.net/carson_ho/article/details/73250163)
 
 - [https://github.com/Vove7/retrofit-rest-client](https://github.com/Vove7/retrofit-rest-client)
 - [https://github.com/LiushuiXiaoxia](https://github.com/LiushuiXiaoxia)

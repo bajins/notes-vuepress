@@ -32,6 +32,7 @@
 + 云原生技术图谱 [https://github.com/cncf/landscape](https://github.com/cncf/landscape)
 + [OCI,CRI,CRI-O,Containerd 名词解释](https://blog.csdn.net/weixin_40864891/article/details/86655846)
 
+* Go编写的迷你Docker [https://github.com/shuveb/containers-the-hard-way](https://github.com/shuveb/containers-the-hard-way)
 * [从开发者的角度比较Kubernetes和Cloud Foundry](http://dockone.io/article/5679)
 * [https://github.com/kubernetes](https://github.com/kubernetes)
     * [https://github.com/kubernetes-incubator](https://github.com/kubernetes-incubator)

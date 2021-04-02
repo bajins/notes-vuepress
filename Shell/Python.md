@@ -209,6 +209,7 @@ with Test() as t: # 触发__exit__
 **OCR**
 
 + [https://github.com/topics/ocr](https://github.com/topics/ocr)
++ [https://github.com/topics/ocr-recognition](https://github.com/topics/ocr-recognition)
 + [https://github.com/search?q=ocr](https://github.com/search?q=ocr)
 
 

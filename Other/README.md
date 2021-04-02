@@ -20,6 +20,7 @@
 - [https://stripe.com/zh-cn-us/payments/payment-methods-guide#wechat-pay](https://stripe.com/zh-cn-us/payments/payment-methods-guide#wechat-pay)
 
 * GitHub上的游戏项目 [https://github.com/leereilly/games](https://github.com/leereilly/games)
+* 免费可商用字体 [https://github.com/wordshub/free-font](https://github.com/wordshub/free-font)
 
 
 

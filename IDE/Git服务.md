@@ -121,6 +121,7 @@ volumes:
 - [https://github.com/wei/git-sync](https://github.com/wei/git-sync)
 - [https://github.com/repo-sync](https://github.com/repo-sync)
 - 自动同步fork [https://github.com/wei/pull](https://github.com/wei/pull)
+    - [https://github.com/apps/pull](https://github.com/apps/pull)
     - [https://github.com/BlueskyClouds/My-Actions/blob/master/backUp/gitSync.md](https://github.com/BlueskyClouds/My-Actions/blob/master/backUp/gitSync.md)
 - GitHub的Java API [https://github.com/hub4j/github-api](https://github.com/hub4j/github-api)
 
