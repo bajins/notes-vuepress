@@ -27,6 +27,7 @@
 + [博客使用Cloudflare和Nginx的相关配置](https://jayshao.com/cloudflare-nginx-ssl)
 
 * [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
+    * [Caddy2 简明教程 - bleem](https://mritd.com/2021/01/07/lets-start-using-caddy2)
 * [https://github.com/traefik/traefik](https://github.com/traefik/traefik)
 * [https://github.com/haproxy/haproxy](https://github.com/haproxy/haproxy)
     * HAProxy入门 [https://jaminzhang.github.io/lb/HAProxy-Get-Started](https://jaminzhang.github.io/lb/HAProxy-Get-Started)

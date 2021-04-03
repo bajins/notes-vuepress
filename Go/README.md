@@ -16,6 +16,7 @@
     + [https://www.godoc.org](https://www.godoc.org)
 
 
+* go文档中文翻译 [https://github.com/polaris1119/pkgdoc](https://github.com/polaris1119/pkgdoc)
 * [Go 语言文档中文翻译](https://github.com/Go-zh/go)
 * [Go 标准库中文文档](https://github.com/huangz1990/cngolib.com)
 * [https://github.com/taigacute/GoDoc-CN](https://github.com/taigacute/GoDoc-CN)
@@ -61,6 +62,9 @@
 * [【Golang】实现文件服务器断点续传](https://rehtt.com/index.php/archives/220)
 * [Go实现HTTP断点续传多线程下载](https://jasonkayzk.github.io/2020/09/28/Go%E5%AE%9E%E7%8E%B0HTTP%E6%96%AD%E7%82%B9%E7%BB%AD%E4%BC%A0%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8B%E8%BD%BD)
 * [https://github.com/hwholiday/file_storage](https://github.com/hwholiday/file_storage)
+
+
+- Gopher日报 [https://github.com/bigwhite/gopherdaily](https://github.com/bigwhite/gopherdaily)
 
 
 
@@ -112,12 +116,20 @@
 | grbac   	| https://github.com/storyicon/grbac                             	|                                             	|
 | gin-jwt 	| https://github.com/appleboy/gin-jwt                            	|                                             	|
 | kit     	| https://github.com/go-kit/kit                                  	| https://gokit.io                           	|
+| Fiber    	| https://github.com/gofiber/fiber                                  | https://gofiber.io                           	|
+
+
++ [https://github.com/gotomicro](https://github.com/gotomicro)
++ [https://github.com/go-playground](https://github.com/go-playground)
++ [https://github.com/modern-go](https://github.com/modern-go)
 
 
 
+* HTTP路由器和URL匹配器 [https://github.com/gorilla/mux](https://github.com/gorilla/mux)
 * [https://github.com/giampaolo/psutil](https://github.com/giampaolo/psutil)
 * [https://github.com/shirou/gopsutil](https://github.com/shirou/gopsutil)
 * JSON解析器 [https://github.com/json-iterator](https://github.com/json-iterator)
+* [https://github.com/json-iterator/go](https://github.com/json-iterator/go)
 * [https://github.com/deckarep/golang-set](https://github.com/deckarep/golang-set)
 * [https://github.com/chenhg5/collection](https://github.com/chenhg5/collection)
 * 线程池 工作池 [https://github.com/xxjwxc/gowp](https://github.com/xxjwxc/gowp)
@@ -171,6 +183,12 @@
 * 高性能游戏服务器框架 [https://github.com/lonng/nano](https://github.com/lonng/nano)
 * 对图像序列（例如延时拍摄）进行闪烁处理 [https://github.com/StruffelProductions/simple-deflicker](https://github.com/StruffelProductions/simple-deflicker)
 * 控制台进度条显示 [https://github.com/vardius/progress-go](https://github.com/vardius/progress-go)
+* 文件系统 [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
+* 计算文件的SHA256 [https://github.com/benbjohnson/hashfs](https://github.com/benbjohnson/hashfs)
+* [https://github.com/mattn/go-colorable](https://github.com/mattn/go-colorable)
+* 模板引擎 [https://github.com/valyala/quicktemplate](https://github.com/valyala/quicktemplate)
+* 编解码器 [https://github.com/ugorji/go](https://github.com/ugorji/go)
+* Golang注解 [https://github.com/MarcGrol/golangAnnotations](https://github.com/MarcGrol/golangAnnotations)
 
 
 - IP代理池 [https://github.com/henson/proxypool](https://github.com/henson/proxypool)
@@ -182,6 +200,11 @@
 ## 工具链
 
 * 调试器 [https://github.com/go-delve/delve](https://github.com/go-delve/delve)
+* 实时重新加载 [github.com/cosmtrek/air](github.com/cosmtrek/air)
+    * [Go 每日一库之 air](https://segmentfault.com/a/1190000025186913)
+* [深入理解Go之generate](https://segmentfault.com/a/1190000020158429)
+
+
 
 - 测试文件中单个函数
 

@@ -38,6 +38,7 @@
     * [https://github.com/kubernetes-incubator](https://github.com/kubernetes-incubator)
     * [https://kubernetes.io](https://kubernetes.io)
 * Kubernetes的软件包管理器 [https://github.com/helm](https://github.com/helm)
+* [https://github.com/rook/rook](https://github.com/rook/rook)
 * [https://github.com/lensapp/lens](https://github.com/lensapp/lens)
 * [https://github.com/jenkins-x](https://github.com/jenkins-x)
 * [https://github.com/kinvolk](https://github.com/kinvolk)

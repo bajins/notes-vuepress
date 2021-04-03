@@ -22,6 +22,8 @@
     - [https://www.graalvm.org/reference-manual/native-image](https://www.graalvm.org/reference-manual/native-image)
 - [https://github.com/oracle/graal](https://github.com/oracle/graal)
 - [https://github.com/spring-projects-experimental/spring-native](https://github.com/spring-projects-experimental/spring-native)
+- [https://openval.eu/jdk](https://openval.eu/jdk)
+- [https://github.com/spaceflint7/bluebonnet](https://github.com/spaceflint7/bluebonnet)
 
 
 

@@ -17,6 +17,7 @@
 * 分布式 [https://github.com/cockroachdb/cockroach](https://github.com/cockroachdb/cockroach)
 * [https://github.com/influxdata/influxdb](https://github.com/influxdata/influxdb)
 * 分布式图形数据库 [https://github.com/JanusGraph](https://github.com/JanusGraph)
+* [https://github.com/VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)
 
 
 

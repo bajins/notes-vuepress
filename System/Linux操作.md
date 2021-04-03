@@ -35,6 +35,7 @@
 
 * [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
 * 提供状态线和提示 [https://github.com/powerline/powerline](https://github.com/powerline/powerline)
+* 替换服务器的固件 [https://github.com/linuxboot/linuxboot](https://github.com/linuxboot/linuxboot)
 
 
 
@@ -150,6 +151,7 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 * [Python版Daemon](/Shell/Python笔记.md#daemon)
 * [Golang版Daemon更加简易可用](/Go/Go笔记.md#daemon)
+* [https://github.com/canonical/pebble](https://github.com/canonical/pebble)
 
 
 ### Tmux

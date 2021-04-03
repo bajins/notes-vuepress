@@ -11,16 +11,6 @@
 + [Go语言-打包静态文件](https://c.isme.pub/2019/01/10/go-static)
 
 
-* [https://github.com/go-bindata/go-bindata](https://github.com/go-bindata/go-bindata)
-* [https://github.com/shuLhan/go-bindata](https://github.com/shuLhan/go-bindata)
-* [https://github.com/elazarl/go-bindata-assetfs](https://github.com/elazarl/go-bindata-assetfs)
-* [https://github.com/rakyll/statik](https://github.com/rakyll/statik)
-* [https://github.com/GeertJohan/go.rice](https://github.com/GeertJohan/go.rice)
-* [https://github.com/mjibson/esc](https://github.com/mjibson/esc)
-* [https://github.com/UnnoTed/fileb0x](https://github.com/UnnoTed/fileb0x)
-* [https://github.com/gobuffalo/packr](https://github.com/gobuffalo/packr)
-
-
 > 下载打包脚本[go_7z_pack.bat](/files/go_7z_pack.bat)或[go_pack.sh](/files/go_pack.sh)文件并保存到项目根目录中，
 > 且修改脚本中的`files`变量保存执行脚本即可
 
@@ -33,6 +23,11 @@
 > 交叉编译是在一个平台上生成另一个平台上的可执行代码。同一个体系结构可以运行不同的操作系统；
 > 同样，同一个操作系统也可以在不同的体系结构上运行。
 
+
+
+
+## 第三方库
+
 * [https://github.com/mitchellh/gox](https://github.com/mitchellh/gox)
 * [https://github.com/wheelcomplex/goxx](https://github.com/wheelcomplex/goxx)
 * [https://github.com/goreleaser/goreleaser](https://github.com/goreleaser/goreleaser)
@@ -42,7 +37,53 @@
 * [https://github.com/storyicon/gos](https://github.com/storyicon/gos)
 * [https://github.com/docker/golang-cross](https://github.com/docker/golang-cross)
 * [https://github.com/im4x5yn74x/dropper2](https://github.com/im4x5yn74x/dropper2)
+* Go编译器 [https://github.com/tinygo-org/tinygo](https://github.com/tinygo-org/tinygo)
+* [https://github.com/llvm/llvm-project](https://github.com/llvm/llvm-project)
+
+
+**嵌入静态资源**
+
+* [https://github.com/go-bindata/go-bindata](https://github.com/go-bindata/go-bindata)
 * [https://github.com/caixw/gobuild](https://github.com/caixw/gobuild)
+* [https://github.com/shuLhan/go-bindata](https://github.com/shuLhan/go-bindata)
+* [https://github.com/elazarl/go-bindata-assetfs](https://github.com/elazarl/go-bindata-assetfs)
+* [https://github.com/rakyll/statik](https://github.com/rakyll/statik)
+* [https://github.com/GeertJohan/go.rice](https://github.com/GeertJohan/go.rice)
+* [https://github.com/mjibson/esc](https://github.com/mjibson/esc)
+* [https://github.com/UnnoTed/fileb0x](https://github.com/UnnoTed/fileb0x)
+* [https://github.com/gobuffalo/packr](https://github.com/gobuffalo/packr)
+* [https://github.com/alecthomas/gobundle](https://github.com/alecthomas/gobundle)
+* [https://github.com/go-playground/statics](https://github.com/go-playground/statics)
+* [https://github.com/knadh/stuffbin](https://github.com/knadh/stuffbin)
+* [https://github.com/omeid/go-resources](https://github.com/omeid/go-resources)
+* [https://github.com/phogolabs/parcello](https://github.com/phogolabs/parcello)
+* [https://github.com/pyros2097/go-embed](https://github.com/pyros2097/go-embed)
+* [https://github.com/shurcooL/vfsgen](https://github.com/shurcooL/vfsgen)
+* [https://github.com/wlbr/templify](https://github.com/wlbr/templify)
+* [https://perkeep.org/pkg/fileembed](https://perkeep.org/pkg/fileembed)
+* [https://github.com/kevinburke/go-bindata](https://github.com/kevinburke/go-bindata)
+* [https://github.com/markbates/pkger](https://github.com/markbates/pkger)
+
+
+
+
+## embed内嵌文件
+
+* [https://github.com/golang/proposal/blob/master/design/draft-embed.md](https://github.com/golang/proposal/blob/master/design/draft-embed.md)
+
+> 在go1.6版本之前要想把资源文件嵌入到编译的二进制包中必须用第三方包（除非你自己有实现），要么把所有文件压缩在一起
+
+- embed一共有三种数据格式
+
+| 数据类型 	| 说明                                                                                                	|
+|----------	|-----------------------------------------------------------------------------------------------------	|
+| []byte   	| 表示数据存储为二进制格式，如果只使用[]byte和string需要以import (_ "embed")的形式引入embed标准库     	|
+| string   	| 表示数据被编码成utf8编码的字符串，因此不要用这个格式嵌入二进制文件比如图片，引入embed的规则同[]byte 	|
+| embed.FS 	| 表示存储多个文件和目录的结构，[]byte和string只能存储单个文件                                        	|
+
+* [Go1.16 中发布的内嵌静态资源功能](https://mp.weixin.qq.com/s/SiCTV7R2wA_I2nCQkC3GGQ)
+* go:embed扩展 [https://github.com/alimy/embedx](https://github.com/alimy/embedx)
+
 
 
 
@@ -57,17 +98,11 @@
 * [https://github.com/golang/go/blob/master/src/cmd/dist/build.go#L1513](https://github.com/golang/go/blob/master/src/cmd/dist/build.go#L1513)
 
 - `go tool dist list` 获得所有受支持平台的列表
-
-> `GOOS` 目标可执行程序运行操作系统，支持`darwin`、`freebsd`、`linux`、`windows`
-
-> `GOARCH` 目标平台的体系架构，包括`386`、`amd64`、`arm`
-
-> `CGO_ENABLED` CGO开关
-
-> `-o` 参数为指定输出程序文件名
-
-
-- 编译完成清理缓存`go clean -cache`
+- `GOOS` 目标可执行程序运行操作系统，支持`darwin`、`freebsd`、`linux`、`windows`
+- `GOARCH` 目标平台的体系架构，包括`386`、`amd64`、`arm`
+- `CGO_ENABLED` CGO开关
+- `-o` 参数为指定输出程序文件名
+- `go clean -cache` 编译完成清理缓存
 
 
 **`-ldflags`选项**
@@ -82,6 +117,8 @@
 go build -ldflags "-X main.VERSION=1.0.0 -X 'main.BUILD_TIME=`date`' \
 -X 'main.GO_VERSION=`go version`' -X 'main.commitHash=`git rev-parse HEAD`'"
 ```
+
+
 
 ### windows
 
