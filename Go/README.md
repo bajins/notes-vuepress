@@ -51,6 +51,7 @@
 * [https://github.com/TiantianUpup/go-study](https://github.com/TiantianUpup/go-study)
 * [Go 语言 Web 应用开发系列教程](https://github.com/unknwon/building-web-applications-in-go)
 * [https://github.com/rubyhan1314/Golang-100-Days](https://github.com/rubyhan1314/Golang-100-Days)
+* [Go 编程实例 Go by Example](https://learnku.com/docs/gobyexample/2020)
 
 - [https://github.com/studygolang](https://github.com/studygolang)
 - 在JVM中运行 [https://github.com/zxh0/jvm.go](https://github.com/zxh0/jvm.go)
@@ -62,9 +63,13 @@
 * [【Golang】实现文件服务器断点续传](https://rehtt.com/index.php/archives/220)
 * [Go实现HTTP断点续传多线程下载](https://jasonkayzk.github.io/2020/09/28/Go%E5%AE%9E%E7%8E%B0HTTP%E6%96%AD%E7%82%B9%E7%BB%AD%E4%BC%A0%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8B%E8%BD%BD)
 * [https://github.com/hwholiday/file_storage](https://github.com/hwholiday/file_storage)
+* [Golang信号处理和优雅退出守护进程](https://www.jianshu.com/p/ae72ad58ecb6)
 
 
 - Gopher日报 [https://github.com/bigwhite/gopherdaily](https://github.com/bigwhite/gopherdaily)
+
+
+**[Windows下可以安装MinGW-w64、MSYS2、Cygwin](/Shell/WindowsShell.md)以调用GCC，Windows10下推荐使用WSL**
 
 
 
@@ -122,6 +127,11 @@
 + [https://github.com/gotomicro](https://github.com/gotomicro)
 + [https://github.com/go-playground](https://github.com/go-playground)
 + [https://github.com/modern-go](https://github.com/modern-go)
++ [https://github.com/urfave](https://github.com/urfave)
+    + [https://github.com/urfave/negroni](https://github.com/urfave/negroni)
+    + []
++ [https://github.com/spf13](https://github.com/spf13)
++ [https://github.com/nanopack](https://github.com/nanopack)
 
 
 
@@ -150,6 +160,7 @@
 * [https://github.com/libragen/felix](https://github.com/libragen/felix)
 * [https://github.com/spf13/viper](https://github.com/spf13/viper)
 * [https://github.com/eventials/go-tus](https://github.com/eventials/go-tus)
+* [https://github.com/patrickmn/go-cache](https://github.com/patrickmn/go-cache)
 * 对象存储 [https://github.com/minio/minio](https://github.com/minio/minio)
 * [https://github.com/sjqzhang/go-fastdfs](https://github.com/sjqzhang/go-fastdfs)
 * 监视文件或目录更改 [https://github.com/radovskyb/watcher](https://github.com/radovskyb/watcher)
@@ -177,6 +188,7 @@
 * k均值聚类算法 [https://github.com/muesli/kmeans](https://github.com/muesli/kmeans)
 * 有向图 [https://github.com/autom8ter/dagger](https://github.com/autom8ter/dagger)
 * JWT [https://github.com/kataras/jwt](https://github.com/kataras/jwt)
+* [https://github.com/dgrijalva/jwt-go](https://github.com/dgrijalva/jwt-go)
 * 程序抖动问题定位 [https://github.com/mosn/holmes](https://github.com/mosn/holmes)
 * 内容协作 [https://github.com/pydio/cells](https://github.com/pydio/cells)
 * API开发的云平台 [https://github.com/micro](https://github.com/micro)
@@ -189,6 +201,7 @@
 * 模板引擎 [https://github.com/valyala/quicktemplate](https://github.com/valyala/quicktemplate)
 * 编解码器 [https://github.com/ugorji/go](https://github.com/ugorji/go)
 * Golang注解 [https://github.com/MarcGrol/golangAnnotations](https://github.com/MarcGrol/golangAnnotations)
+* [https://github.com/sbinet/go-python](https://github.com/sbinet/go-python)
 
 
 - IP代理池 [https://github.com/henson/proxypool](https://github.com/henson/proxypool)
@@ -200,7 +213,7 @@
 ## 工具链
 
 * 调试器 [https://github.com/go-delve/delve](https://github.com/go-delve/delve)
-* 实时重新加载 [github.com/cosmtrek/air](github.com/cosmtrek/air)
+* 实时重新加载 [https://github.com/cosmtrek/air](https://github.com/cosmtrek/air)
     * [Go 每日一库之 air](https://segmentfault.com/a/1190000025186913)
 * [深入理解Go之generate](https://segmentfault.com/a/1190000020158429)
 

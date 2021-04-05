@@ -13,15 +13,17 @@
 > `PowerShell`提供对`COM`（组件对象模型）和`WMI`（Windows管理规范）的完全访问，具有丰富的控制与自动化的系统管理能力，
 > 能够轻松地做到实时、大规模的管理系统。获取本机所有`COM`组件对象脚本 [Get-COM-Objects.ps1](/files/Get-COM-Objects.ps1)
 
++ [https://github.com/janikvonrotz/awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)
++ [https://github.com/PowerShell](https://github.com/PowerShell)
+
 * [PowerShell 与 cmd 有什么不同？](https://www.zhihu.com/question/22611859/answers/updated)
 * [PowerShell为什么强大](https://www.pstips.net/why-is-powershell-powerful.html)
 
 - [PowerShell参考文档](https://docs.microsoft.com/zh-cn/powershell/module/cimcmdlets/?view=powershell-7.1)
 - [PowerShell 在线教程](https://www.pstips.net/powershell-online-tutorials)
-
-* [https://github.com/PowerShell](https://github.com/PowerShell)
-* [安装适用于 Linux 的 Windows 子系统](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
-
+- [Powershell入门指南(一)·PowerShell及CLI发展](https://zhuanlan.zhihu.com/p/60797627)
+- [PowerShell入门指南(二)·挑战CMD和Bash的PowerShell](https://zhuanlan.zhihu.com/p/60798130)
+- [PowerShell入门指南(三)·一门新的编程语言](https://zhuanlan.zhihu.com/p/76708298)
 - WMIC 已弃用替代品 [Get-WmiObject](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.management/get-wmiobject)
 - WMIC 已弃用替代品 [Get-CimInstance](https://docs.microsoft.com/zh-cn/powershell/module/cimcmdlets/get-ciminstance)
 

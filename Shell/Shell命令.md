@@ -12,8 +12,9 @@
 >
 > `Shell`管理你与操作系统之间的交互：等待你输入，向操作系统解释你的输入，并且处理各种各样的操作系统的输出结果。
 
-
-- 包管理器 [https://github.com/Homebrew](https://github.com/Homebrew)
++ [https://github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
++ [https://github.com/awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash)
++ 包管理器 [https://github.com/Homebrew](https://github.com/Homebrew)
 
 
 * [精选的优秀命令行框架](https://github.com/alebcay/awesome-shell)

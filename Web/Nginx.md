@@ -15,6 +15,9 @@
 + [https://www.nginx.com/nginx-wiki/build/dirhtml/modules](https://www.nginx.com/nginx-wiki/build/dirhtml/modules)
     + NGINX多种扩展模块 [https://github.com/openresty](https://github.com/openresty)
 + [https://github.com/h5bp/server-configs-nginx](https://github.com/h5bp/server-configs-nginx)
++ [https://github.com/digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io)
+    + [https://www.digitalocean.com/community/tools/nginx](https://www.digitalocean.com/community/tools/nginx)
+
 
 * [Nginx HTTP核心模块指令和内置变量中文说明](https://my.oschina.net/jsan/blog/125861)
 * [nginxbeautifier](https://github.com/vasilevich/nginxbeautifier)

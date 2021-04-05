@@ -39,6 +39,8 @@
 
 ## 第三方库
 
++ [https://github.com/parro-it/awesome-micro-npm-packages](https://github.com/parro-it/awesome-micro-npm-packages)
+
 * [https://github.com/isaacs/minimatch](https://github.com/isaacs/minimatch)
 * [https://github.com/mrmlnc/fast-glob](https://github.com/mrmlnc/fast-glob)
 

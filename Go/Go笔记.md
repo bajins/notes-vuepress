@@ -147,12 +147,17 @@ func StringBuilder(p []string) string {
 
 
 
-## 路径操作
+## IO操作
 
 > Go标准库中还有`path`和`path/filepath`函数有点重复,大部分情况下建议使用`path/filepath`
 
 > 两者区别是：`path`使用`/`作为路径分隔符，`path/filepath`判断系统使用不同的路径分隔符
 
+
+**从 Go 1.16 开始会废弃 io/ioutil 包，相关的功能会挪到 io 包或 os 包**
+
+* [https://github.com/golang/go/issues/40025](https://github.com/golang/go/issues/40025)
+* [https://github.com/golang/go/issues/42026](https://github.com/golang/go/issues/42026)
 
 
 ### path包
@@ -195,6 +200,10 @@ func StringBuilder(p []string) string {
 | Glob(pattern string) (matches []string, err error)    	| 返回所有匹配的文件                      	|
 | IsAbs(path string) (b bool)                           	| 判断路径是不是绝对路径                  	|
 | Match(pattern, name string) (matched bool, err error) 	| 匹配文件名，完全匹配则返回true          	|
+
+
+
+
 
 
 ## 异常和恢复

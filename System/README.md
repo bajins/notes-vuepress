@@ -61,6 +61,7 @@
 - [https://github.com/aristocratos/bashtop](https://github.com/aristocratos/bashtop)
 - [https://github.com/aristocratos/bpytop](https://github.com/aristocratos/bpytop)
 
++ [https://github.com/topics/system-information](https://github.com/topics/system-information)
 + 带仪表盘的实时性能监控 [https://github.com/netdata/netdata](https://github.com/netdata/netdata)
 + 云探针、云监控、服务器云监控、多服务器探针 [https://github.com/cppla/ServerStatus](https://github.com/cppla/ServerStatus)
 + [https://github.com/CokeMine/ServerStatus-Hotaru](https://github.com/CokeMine/ServerStatus-Hotaru)
@@ -136,7 +137,6 @@
 
 * 搜索更新补丁下载 [http://www.catalog.update.microsoft.com](http://www.catalog.update.microsoft.com)
 * [小米笔记本Pro黑苹果Win10双系统](https://www.ikxin.com/465.html)
-* [https://github.com/nullpo-head/WSL-Hello-sudo](https://github.com/nullpo-head/WSL-Hello-sudo)
 
 > 打开后，随便点一个进程右键，查看-查看进程热键-再右键-显示所有进程热键
 

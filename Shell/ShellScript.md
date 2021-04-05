@@ -11,6 +11,14 @@
 > `Shell`脚本（`shell script`），是一种为`Shell`编写的脚本程序。
 > `Shell`脚本文件的名称可以任意，但为了避免被误以为是普通文件，建议将`.sh`后缀加上，以表示是一个脚本文件。
 
++ [https://github.com/topics/bash](https://github.com/topics/bash)
++ [https://github.com/topics/shell](https://github.com/topics/shell)
++ 静态分析shell语法规范 [https://github.com/koalaman/shellcheck](https://github.com/koalaman/shellcheck)
+    + [https://www.shellcheck.net](https://www.shellcheck.net)
+    + [shellcheck 规范](https://my.oschina.net/2688/blog/736548)
++ [https://github.com/ComplianceAsCode/content](https://github.com/ComplianceAsCode/content)
++ 格式化 [https://github.com/mvdan/sh](https://github.com/mvdan/sh)
+
 * [Shell 教程](https://www.runoob.com/linux/linux-shell.html)
 * [Linux Shell脚本学习指南](http://c.biancheng.net/shell)
 * [Shell命令脚本初步认识，Shell脚本入门](https://www.jianshu.com/p/3782970dec75)
@@ -18,6 +26,7 @@
 * [shell-if判断](https://www.jianshu.com/p/c71e85375e88)
 * [https://github.com/guodongxiaren/Bash](https://github.com/guodongxiaren/Bash)
 * [https://github.com/oldratlee/useful-scripts](https://github.com/oldratlee/useful-scripts)
+* [https://github.com/chen-shang/baseshell](https://github.com/chen-shang/baseshell)
 
 
 > 在shell脚本中，通常将`EOF`与 `<<` 结合使用，表示后续的输入作为子命令或子Shell的输入，直到遇到`EOF`为止，再返回到主Shell。

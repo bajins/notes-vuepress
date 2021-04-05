@@ -1,4 +1,4 @@
-# WindowsGCC
+# WindowsShell
 
 
 [[toc]]
@@ -8,8 +8,29 @@
 ## Flag
 
 * [第三方针对各种不同系统制作的GCC安装包](http://gcc.gnu.org/install/binaries.html)
+* [https://github.com/topics/cygwin](https://github.com/topics/cygwin)
 * [http://www.cygwin.com](http://www.cygwin.com)
+    * [归档 | silaoA的博客](https://silaoa.github.io/archives)
 * [https://sourceware.org](https://sourceware.org)
+
+
+
+**WSL**
+
++ [https://github.com/topics/windows-subsystem](https://github.com/topics/windows-subsystem)
++ [https://github.com/topics/wsl](https://github.com/topics/wsl)
++ [https://github.com/topics/windows-subsystem-linux](https://github.com/topics/windows-subsystem-linux)
++ [https://github.com/topics/windows-subsystem-for-linux](https://github.com/topics/windows-subsystem-for-linux)
++ [https://github.com/sirredbeard/Awesome-WSL](https://github.com/sirredbeard/Awesome-WSL)
+
+* [https://github.com/yuk7/ArchWSL](https://github.com/yuk7/ArchWSL)
+    * [https://wsldl-pg.github.io/ArchW-docs/locale/zh-CN](https://wsldl-pg.github.io/ArchW-docs/locale/zh-CN)
+* [安装适用于 Linux 的 Windows 子系统](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
+* [https://github.com/microsoft/WSL](https://github.com/microsoft/WSL)
+    * [https://github.com/sirredbeard/Awesome-WSL](https://github.com/sirredbeard/Awesome-WSL)
+
+- [https://github.com/nullpo-head/WSL-Hello-sudo](https://github.com/nullpo-head/WSL-Hello-sudo)
+
 
 
 **C语言的编译器有很多种，不同的平台下有不同的编译器**
@@ -49,6 +70,8 @@
 
 > 可以把`MinGW`视为`MS Visual C++/Studio`的开源替代品
 
++ [https://github.com/topics/mingw](https://github.com/topics/mingw)
++ [https://github.com/topics/mingw-w64](https://github.com/topics/mingw-w64)
 
 * [http://mingw-w64.org](http://mingw-w64.org)
 
@@ -132,6 +155,8 @@ gcc -v && g++ -v
 
 > `MSYS2`不完全是基于`MinGW`的，至少其原生工具都是链接到自带的一套特定版本的`Cygwin DLL`的。
 > 基本上只是用`libalpm`管理`MSYS2`、`MinGW-w64`和`MinGW`三个不同子系统的软件包
+
++ [https://github.com/topics/msys2](https://github.com/topics/msys2)
 
 * [http://www.msys2.org](http://www.msys2.org)
 * [https://github.com/msys2](https://github.com/msys2)

@@ -322,6 +322,7 @@
 * [Archives-阳明的博客|Kubernetes|Istio|Prometheus|Python|Golang|云原生](https://www.qikqiak.com/archives)
 * [归档 - 大俊的博客](https://darjun.github.io/post)
     * [https://github.com/darjun/go-daily-lib](https://github.com/darjun/go-daily-lib)
+* [归档 | Pure White](https://www.purewhite.io/archives)
 
 
 

@@ -18,6 +18,11 @@
 * [https://github.com/influxdata/influxdb](https://github.com/influxdata/influxdb)
 * 分布式图形数据库 [https://github.com/JanusGraph](https://github.com/JanusGraph)
 * [https://github.com/VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)
+* [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
+* [https://github.com/etcd-io/bbolt](https://github.com/etcd-io/bbolt)
+* [https://github.com/jnwatson/py-lmdb](https://github.com/jnwatson/py-lmdb)
+* [https://github.com/google/leveldb](https://github.com/google/leveldb)
+* [https://github.com/couchbase/moss](https://github.com/couchbase/moss)
 
 
 
