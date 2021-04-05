@@ -23,11 +23,11 @@
 + [https://github.com/topics/windows-subsystem-for-linux](https://github.com/topics/windows-subsystem-for-linux)
 + [https://github.com/sirredbeard/Awesome-WSL](https://github.com/sirredbeard/Awesome-WSL)
 
+* [https://github.com/microsoft/WSL](https://github.com/microsoft/WSL)
+* [https://docs.microsoft.com/zh-cn/windows/wsl](https://docs.microsoft.com/zh-cn/windows/wsl)
+    * [手动下载适用于 Linux 的 Windows 子系统发行版包](https://docs.microsoft.com/zh-cn/windows/wsl/install-manual)
 * [https://github.com/yuk7/ArchWSL](https://github.com/yuk7/ArchWSL)
     * [https://wsldl-pg.github.io/ArchW-docs/locale/zh-CN](https://wsldl-pg.github.io/ArchW-docs/locale/zh-CN)
-* [安装适用于 Linux 的 Windows 子系统](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
-* [https://github.com/microsoft/WSL](https://github.com/microsoft/WSL)
-    * [https://github.com/sirredbeard/Awesome-WSL](https://github.com/sirredbeard/Awesome-WSL)
 
 - [https://github.com/nullpo-head/WSL-Hello-sudo](https://github.com/nullpo-head/WSL-Hello-sudo)
 
