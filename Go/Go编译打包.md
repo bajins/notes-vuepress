@@ -70,6 +70,8 @@
 ## embed内嵌文件
 
 * [https://github.com/golang/proposal/blob/master/design/draft-embed.md](https://github.com/golang/proposal/blob/master/design/draft-embed.md)
+* go:embed扩展 [https://github.com/alimy/embedx](https://github.com/alimy/embedx)
+
 
 > 在go1.6版本之前要想把资源文件嵌入到编译的二进制包中必须用第三方包（除非你自己有实现），要么把所有文件压缩在一起
 
@@ -82,7 +84,7 @@
 | embed.FS 	| 表示存储多个文件和目录的结构，[]byte和string只能存储单个文件                                        	|
 
 * [Go1.16 中发布的内嵌静态资源功能](https://mp.weixin.qq.com/s/SiCTV7R2wA_I2nCQkC3GGQ)
-* go:embed扩展 [https://github.com/alimy/embedx](https://github.com/alimy/embedx)
+* [golang1.16内嵌静态资源指南](https://www.cnblogs.com/apocelipes/p/13907858.html)
 
 
 

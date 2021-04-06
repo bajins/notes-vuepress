@@ -16,19 +16,6 @@
 
 
 
-**C语言的编译器有很多种，不同的平台下有不同的编译器**
-
-* [主流C语言编译器有哪些？](http://c.biancheng.net/view/144.html)
-
-- Windows 下常用的是微软开发的 Visual C++，它被集成在 Visual Studio 中，一般不单独使用；
-- Linux 下常用的是 GUN 组织开发的 GCC，很多 Linux 发行版都自带 GCC；
-- Mac 下常用的是 LLVM/Clang，它被集成在 Xcode 中（Xcode 以前集成的是 GCC，后来由于 GCC 的不配合才改为 LLVM/Clang，LLVM/Clang 的性能比 GCC 更加强大）。
-
-> Visual C++（简称 MSVC）是由微软开发的，只能用于 Windows 操作系统；GCC 和 LLVM Clang 除了可用于 Windows 操作系统之外，主要用于 Unix/Linux 操作系统。
-
-
-
-
 ## WSL
 
 + [https://github.com/topics/wsl](https://github.com/topics/wsl)
@@ -44,6 +31,10 @@
     * [手动下载适用于 Linux 的 Windows 子系统发行版包](https://docs.microsoft.com/zh-cn/windows/wsl/install-manual)
 * [https://github.com/yuk7/ArchWSL](https://github.com/yuk7/ArchWSL)
     * [https://wsldl-pg.github.io/ArchW-docs/locale/zh-CN](https://wsldl-pg.github.io/ArchW-docs/locale/zh-CN)
+* [关于使用WSL2出现“参考的对象类型不支持尝试的操作”的解决方法](https://zhuanlan.zhihu.com/p/151392411)
+    * [https://github.com/microsoft/WSL/issues/4177](https://github.com/microsoft/WSL/issues/4177)
+* [https://github.com/shayne/go-wsl2-host](https://github.com/shayne/go-wsl2-host)
+* [https://github.com/microsoft/WSL/issues/4210#issuecomment-648570493](https://github.com/microsoft/WSL/issues/4210#issuecomment-648570493)
 
 - [https://github.com/nullpo-head/WSL-Hello-sudo](https://github.com/nullpo-head/WSL-Hello-sudo)
 
