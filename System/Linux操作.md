@@ -28,11 +28,25 @@
 * [https://vimjc.com/archives](https://vimjc.com/archives)
 
 
-- [https://lamp.sh](https://lamp.sh)
-- [https://oneinstack.com](https://oneinstack.com)
-- [https://lnmp.org](https://lnmp.org)
-- [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625)
 
+
+**软件套件**
+
++ [https://github.com/topics/lamp](https://github.com/topics/lamp)
++ [https://github.com/topics/lnmp](https://github.com/topics/lnmp)
++ [https://github.com/topics/lemp](https://github.com/topics/lemp)
+
+- [https://github.com/teddysun/lamp](https://github.com/teddysun/lamp)
+    - [https://lamp.sh](https://lamp.sh)
+- [https://github.com/oneinstack/oneinstack](https://github.com/oneinstack/oneinstack)
+    - [https://oneinstack.com](https://oneinstack.com)
+- [https://github.com/licess/lnmp](https://github.com/licess/lnmp)
+    - [https://lnmp.org](https://lnmp.org)
+- [https://sourceforge.net/projects/xampp](https://sourceforge.net/projects/xampp)
+    - [https://www.apachefriends.org](https://www.apachefriends.org)
+- [https://sourceforge.net/projects/wampserver](https://sourceforge.net/projects/wampserver)
+
+* [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625)
 * [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
 * 提供状态线和提示 [https://github.com/powerline/powerline](https://github.com/powerline/powerline)
 * 替换服务器的固件 [https://github.com/linuxboot/linuxboot](https://github.com/linuxboot/linuxboot)

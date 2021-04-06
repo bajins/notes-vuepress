@@ -38,39 +38,31 @@
 
 ### 教育网镜像站
 
-**东北地区：**
-* 东北大学（[IPv4 & IPv6](http://mirror.neu.edu.cn), [IPv6](http://mirror.neu6.edu.cn)）
-* 大连理工大学（[IPv4 & IPv6](http://mirror.dlut.edu.cn)）
-* 大连东软信息学院（[IPv4 & IPv6](http://mirrors.neusoft.edu.cn)）
-* 哈尔滨工业大学（[IPv4 & IPv6](http://run.hit.edu.cn), [IPv6](http://run.hit6.edu.cn)）
+* [https://github.com/zzh1996/USTC-Network-Resources](https://github.com/zzh1996/USTC-Network-Resources)
+* [https://github.com/ideal/mirror](https://github.com/ideal/mirror)
 
-**华北地区：**
-* 清华大学（[IPv4 & IPv6](http://mirrors.tuna.tsinghua.edu.cn), [IPv4](http://mirrors.4.tuna.tsinghua.edu.cn), [IPv6](http://mirrors.6.tuna.tsinghua.edu.cn)）
-* 北京外国语大学（[IPv4](https://mirrors.bfsu.edu.cn)）
-* 北京理工大学（[IPv4](http://mirror.bit.edu.cn), [IPv6](http://mirror.bit6.edu.cn)）
-* 北京交通大学（[IPv4 & IPv6](http://mirror.bjtu.edu.cn)）
-* 天津大学（[IPv4](http://mirror.tju.edu.cn), [IPv6](http://mirror.tju6.edu.cn)）
 
-**华东北地区：**
-* 中国科学技术大学（[IPv4 & IPv6](http://mirrors.ustc.edu.cn), [IPv4](http://mirrors4.ustc.edu.cn), [IPv6](http://mirrors6.ustc.edu.cn)）
+| 名称             	| IPv4 & IPv6                          	| IPv4                                  	| IPv6                                  	| GitHub                       	|
+|------------------	|--------------------------------------	|---------------------------------------	|---------------------------------------	|------------------------------	|
+| 东北大学         	| http://mirror.neu.edu.cn             	|                                       	|                                       	|                              	|
+| 大连理工大学     	| http://mirror.dlut.edu.cn            	|                                       	|                                       	|                              	|
+| 大连东软信息学院 	| http://mirrors.neusoft.edu.cn        	|                                       	|                                       	|                              	|
+| 哈尔滨工业大学   	| http://mirrors.hit.edu.cn            	|                                       	|                                       	| https://github.com/hitlug    	|
+| 清华大学         	| https://mirrors.tuna.tsinghua.edu.cn 	| https://mirrors4.tuna.tsinghua.edu.cn 	| https://mirrors6.tuna.tsinghua.edu.cn 	| https://github.com/tuna      	|
+| 北京外国语大学   	| https://mirrors.bfsu.edu.cn          	| https://mirrors4.bfsu.edu.cn          	| https://mirrors6.bfsu.edu.cn          	|                              	|
+| 北京理工大学     	|                                      	|                                       	|                                       	|                              	|
+| 北京交通大学     	| https://mirror.bjtu.edu.cn           	|                                       	|                                       	| https://github.com/bjtulug   	|
+| 天津大学         	|                                      	|                                       	|                                       	|                              	|
+| 中国科学技术大学 	| https://mirrors.ustc.edu.cn          	| https://ipv4.mirrors.ustc.edu.cn      	| https://ipv6.mirrors.ustc.edu.cn      	| https://github.com/ustclug   	|
+| 华中科技大学     	|                                      	| http://mirrors.hust.edu.cn            	|                                       	|                              	|
+| 中国地质大学     	|                                      	|                                       	|                                       	|                              	|
+| 上海交通大学     	|                                      	| http://ftp.sjtu.edu.cn                	|                                       	|                              	|
+| 浙江大学         	| http://mirrors.zju.edu.cn            	|                                       	|                                       	|                              	|
+| 厦门大学         	|                                      	|                                       	|                                       	|                              	|
+| 中山大学         	|                                      	|                                       	|                                       	|                              	|
+| 兰州大学         	| http://mirror.lzu.edu.cn             	|                                       	|                                       	| https://github.com/LZUOSS    	|
+| 重庆大学         	|                                      	| https://mirrors.cqu.edu.cn            	|                                       	| https://github.com/cqumirror 	|
 
-**华中地区：**
-* 华中科技大学（[IPv4](http://mirrors.hust.edu.cn)）
-* 中国地质大学（[IPv4 & IPv6](http://mirrors.cug.edu.cn), [IPv6](http://mirrors.cug6.edu.cn)）
-
-**华东南地区：**
-* 上海交通大学（[IPv4](http://ftp.sjtu.edu.cn), [IPv6](http://ftp6.sjtu.edu.cn)）
-* 浙江大学（[IPv4 & IPv6](http://mirrors.zju.edu.cn)）
-* 厦门大学（[IPv4 & IPv6](http://mirrors.xmu.edu.cn), [IPv6](http://mirrors.xmu6.edu.cn)）
-
-**华南地区：**
-* 中山大学（[IPv4](http://mirror.sysu.edu.cn)）
-
-**西北地区：**
-* 兰州大学（[IPv4 & IPv6](http://mirror.lzu.edu.cn)）
-
-**西南地区：**
-* 重庆大学（[IPv4](http://mirrors.cqu.edu.cn)）
 
 
 

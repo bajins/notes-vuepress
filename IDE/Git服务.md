@@ -17,18 +17,6 @@
 * 来自配置错误的网站的 Git 仓库泄漏 [https://github.com/liamg/gitjacker](https://github.com/liamg/gitjacker)
 
 
-**代码跟踪分析**
-
-- [https://sonarcloud.io](https://sonarcloud.io)
-- [https://semmle.com](https://semmle.com)
-    - [https://lgtm.com](https://lgtm.com)
-- [https://www.openhub.net](https://www.openhub.net)
-- [https://bestpractices.coreinfrastructure.org](https://bestpractices.coreinfrastructure.org)
-- Gerrit [https://www.gerritcodereview.com](https://www.gerritcodereview.com)
-  - [https://gerrit.asterisk.org/Documentation/index.html](https://gerrit.asterisk.org/Documentation/index.html)
-
-
-
 
 **Gogs**
 

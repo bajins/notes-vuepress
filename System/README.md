@@ -42,7 +42,8 @@
 - [https://github.com/cloudlinux](https://github.com/cloudlinux)
 - [https://www.debian.org](https://www.debian.org)
     - [https://github.com/atzlinux/debian-cn](https://github.com/atzlinux/debian-cn)
-
+- [https://antixlinux.com](https://antixlinux.com)
+- [https://mxlinux.org](https://mxlinux.org)
 
 
 

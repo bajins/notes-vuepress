@@ -66,7 +66,6 @@
 * Ansible
 * Packer
 * 谷歌、IBM、微软、Pivotal、SAP、SUSE、Swisscom、GE
-* DevOps
 * [https://github.com/openzfs/zfs](https://github.com/openzfs/zfs)
 * [https://github.com/wekan/wekan](https://github.com/wekan/wekan)
 
