@@ -19,6 +19,7 @@
 * [PowerShell 与 cmd 有什么不同？](https://www.zhihu.com/question/22611859/answers/updated)
 * [PowerShell为什么强大](https://www.pstips.net/why-is-powershell-powerful.html)
 
+- [https://docs.microsoft.com/zh-cn/powershell](https://docs.microsoft.com/zh-cn/powershell)
 - [PowerShell参考文档](https://docs.microsoft.com/zh-cn/powershell/module/cimcmdlets/?view=powershell-7.1)
 - [PowerShell 在线教程](https://www.pstips.net/powershell-online-tutorials)
 - [Powershell入门指南(一)·PowerShell及CLI发展](https://zhuanlan.zhihu.com/p/60797627)

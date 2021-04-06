@@ -24,6 +24,7 @@
 * [随笔分类 - Docker](https://www.cnblogs.com/itoak/category/1769634.html)
 * 容器自动化构建 [https://kany.me/tags/docker](https://kany.me/tags/docker)
 * [在 Windows 10 底下不使用 Hyper-V 安裝 Docker](http://skychang.github.io/2019/03/30/Docker-Install_Docker_Without_HyperV_In_Windows_10)
+* [https://docs.microsoft.com/zh-cn/virtualization/windowscontainers/quick-start/set-up-environment](https://docs.microsoft.com/zh-cn/virtualization/windowscontainers/quick-start/set-up-environment)
 
 
 

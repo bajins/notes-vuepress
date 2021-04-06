@@ -205,6 +205,8 @@
 + [https://github.com/topics/putty](https://github.com/topics/putty)
 + [https://github.com/topics/kitty](https://github.com/topics/kitty)
 
+- [https://docs.microsoft.com/zh-cn/documentation](https://docs.microsoft.com/zh-cn/documentation)
+
 * [https://github.com/PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable)
     * [https://github.com/PowerShell/Win32-OpenSSH/wiki](https://github.com/PowerShell/Win32-OpenSSH/wiki)
 * [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
