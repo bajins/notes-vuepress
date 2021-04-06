@@ -191,12 +191,13 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 **系统相关**
 
 * [在Windows 10 10586版本手动挂载WIM文件以修复DISM源的方法](https://answers.microsoft.com/zh-hans/windows/forum/windows_10-performance/windows-10/7d43c552-e005-40ac-bde7-9f1a9029573a)
+* [清理 WinSxS 文件夹](https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/clean-up-the-winsxs-folder)
+* [Windows 10 DISM Command-Line 选项](https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/deployment-image-servicing-and-management--dism--command-line-options)
 
 - 检查映像是否完整：`DISM.exe /Online /Cleanup-image /Scanhealth`
 - 完成后再修复映像：`DISM.exe /Online /Cleanup-image /Checkhealth`
 - 然后再修复系统：`DISM.exe /Online /Cleanup-image /Restorehealth `
 - 最后检查系统是否修复：`sfc /scannow`
-- `Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase`
 
 
 ### MSDN
@@ -228,6 +229,8 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 
 ### WinPE
+
++ [Windows PE (WinPE)](https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/winpe-intro)
 
 * [http://rufus.ie](http://rufus.ie)
 * [https://github.com/balena-io/etcher](https://github.com/balena-io/etcher)
