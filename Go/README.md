@@ -71,6 +71,7 @@
 
 > C语言的编译器有很多种，不同的平台下有不同的编译器
 
+* [第三方针对各种不同系统制作的GCC安装包](http://gcc.gnu.org/install/binaries.html)
 * [主流C语言编译器有哪些？](http://c.biancheng.net/view/144.html)
 
 - Windows 下常用的是微软开发的 Visual C++，它被集成在 Visual Studio 中，一般不单独使用；
