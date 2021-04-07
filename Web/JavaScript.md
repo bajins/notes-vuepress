@@ -284,6 +284,7 @@ var express = require('express');
 * 幻灯片 [https://github.com/webslides/webslides](https://github.com/webslides/webslides)
 * [https://github.com/gnab/remark](https://github.com/gnab/remark)
 * 正则表达式 [https://github.com/slevithan/XRegExp](https://github.com/slevithan/XRegExp)
+* 数字精度 [https://github.com/josdejong/mathjs](https://github.com/josdejong/mathjs)
 
 
 **文档**

@@ -40,6 +40,8 @@
 + [https://dartpad.dartlang.org](https://dartpad.dartlang.org)
 + [https://dartpad.cn](https://dartpad.cn)
 + [https://github.com/shichunlei/flutter_app](https://github.com/shichunlei/flutter_app)
++ [https://github.com/qq326646683/flutter_tencentplayer](https://github.com/qq326646683/flutter_tencentplayer)
++ [https://github.com/rhymelph/r_upgrade](https://github.com/rhymelph/r_upgrade)
 
 - 干货 [https://github.com/fujianlian/GankFlutter](https://github.com/fujianlian/GankFlutter)
 - [https://github.com/xmcy0011/CoffeeChat](https://github.com/xmcy0011/CoffeeChat)

@@ -116,6 +116,8 @@ volumes:
 
 **统计**
 
+* [https://github.com/topics/hacktoberfest](https://github.com/topics/hacktoberfest)
+
 - GH存档 [https://www.gharchive.org](https://www.gharchive.org)
 - GitHub每周趋势 [https://github.com/SolaTyolo/gold_github_trending](https://github.com/SolaTyolo/gold_github_trending)
 - GitHub每天趋势 [https://github.com/yangwenmai/github-trending-backup](https://github.com/yangwenmai/github-trending-backup)

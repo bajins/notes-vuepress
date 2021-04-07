@@ -9,6 +9,7 @@
 ## Flag
 
 + Linux手册 [https://learn-linux.readthedocs.io/zh_CN/latest](https://learn-linux.readthedocs.io/zh_CN/latest)
++ [https://github.com/tldr-pages/tldr](https://github.com/tldr-pages/tldr)
 + [http://www.linuxbaike.com](http://www.linuxbaike.com)
 + [Linux网络编程](https://network.fasionchan.com/zh_CN/latest/index.html)
 + [OSX操作指南](https://osx-guide.readthedocs.io/zh_CN/latest)

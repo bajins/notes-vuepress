@@ -28,6 +28,8 @@
 
 ## MySQL
 
+* [https://github.com/phpmyadmin/phpmyadmin](https://github.com/phpmyadmin/phpmyadmin)
+* [https://github.com/vrana/adminer](https://github.com/vrana/adminer)
 * [如果是MySQL引起的CPU消耗过大，你会如何优化？](https://www.cnblogs.com/xiaoheliu1024/p/12657929.html)
 
 ![](/images/sql执行顺序.png)
