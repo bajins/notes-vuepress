@@ -350,10 +350,13 @@ git log master..origin/master
 * [gitattributes](https://git.apachecn.org/#/docs/39)
 
 + [https://github.com/topics/gitattributes](https://github.com/topics/gitattributes)
-  + [https://github.com/gitattributes](https://github.com/gitattributes)
-  + [https://github.com/alexkaratarakis/gitattributes](https://github.com/alexkaratarakis/gitattributes)
+    + [https://github.com/gitattributes](https://github.com/gitattributes)
+    + [https://github.com/alexkaratarakis/gitattributes](https://github.com/alexkaratarakis/gitattributes)
 
 - `text`
+    - `linguist-language` 设置语言
+    - `working-tree-encoding` 设置字符集编码
+    - `eol` 设置换行符（`crlf`、`lf`）
 - `-text`
 - `text=string`
 - `text=auto` 让git自行处理左边匹配的文件使用何种换行符格式，这是默认选项。

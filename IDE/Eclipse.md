@@ -39,7 +39,7 @@ public static void getSetter(Class<?> clazz) {
    String name = clazz.getSimpleName();
    String subName = name.substring(0, 1);
    name = name.replace(subName, subName.toLowerCase());
-   StringJoiner joiner = new StringJoiner(System.getProperty("line.separator"));// 获取系统换行符
+   StringJoiner joiner = new StringJoiner(System.lineSeparator());// 获取系统换行符
    for (Method m : clazz.getMethods()) {
       if (m.getName().startsWith("set")) {
             joiner.add(String.format(name + ".%s();", m.getName()));

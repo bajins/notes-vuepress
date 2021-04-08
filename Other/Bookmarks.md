@@ -394,7 +394,8 @@
 * [归档 | Eicky Blog](https://eicky.com/archives)
 * [趣乐子 – 快乐源于分享](https://www.7lez.com)
 * 线工具秘籍 [https://github.com/zhaoolee/OnlineToolsBook](https://github.com/zhaoolee/OnlineToolsBook)
-
+* [https://github.com/BlueSkyXN](https://github.com/BlueSkyXN)
+    * [https://www.blueskyxn.com](https://www.blueskyxn.com)
 
 
 
@@ -479,7 +480,7 @@
 * 爱资料工具（在线实用工具集合） [http://www.toolnb.com](http://www.toolnb.com)
 * 工具导航 [https://hao.logosc.cn](https://hao.logosc.cn)
 * 资源导航 [http://hao.zifh.com](http://hao.zifh.com)
-
+* [https://www.mjjloc.com](https://www.mjjloc.com)
 
 
 

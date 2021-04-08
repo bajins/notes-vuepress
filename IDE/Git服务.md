@@ -145,6 +145,7 @@ volumes:
     * [https://gh.api.99988866.xyz](https://gh.api.99988866.xyz)
     * [https://ghproxy.com](https://ghproxy.com)
 * [https://gitee.com/mirrors](https://gitee.com/mirrors)
+* [https://github.xxyyzz.workers.dev](https://github.xxyyzz.workers.dev)
 
 
 
