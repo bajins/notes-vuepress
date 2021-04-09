@@ -31,33 +31,29 @@
 
 ```java
 /**
- * 生成所有set调用方法并复制到剪贴板
+ * 生成实例所有set调用方法并复制到剪贴板
  * 
  * @param clazz
  */
-public static void getSetter(Class<?> clazz) {
+public static void createInstanceSetter(Class<?> clazz) {
    String name = clazz.getSimpleName();
    String subName = name.substring(0, 1);
    name = name.replace(subName, subName.toLowerCase());
    StringJoiner joiner = new StringJoiner(System.lineSeparator());// 获取系统换行符
    for (Method m : clazz.getMethods()) {
       if (m.getName().startsWith("set")) {
-            joiner.add(String.format(name + ".%s();", m.getName()));
+            joiner.add(name + "." + m.getName() + "();");
       }
    }
-   // 获取系统剪贴板
-   Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+   String Content = joiner.toString()；
    // 封装文本内容
-   Transferable trans = new StringSelection(joiner.toString());
+   Transferable trans = new StringSelection(Content);
    // 把文本内容设置到系统剪贴板
    if (trans.isDataFlavorSupported(DataFlavor.stringFlavor)) {
+      // 获取系统剪贴板
+      Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
       clipboard.setContents(trans, null);
-      try {
-            String string = (String) trans.getTransferData(DataFlavor.stringFlavor); // 转换内容到字符串
-            System.out.println(string);
-      } catch (Exception ex) {
-            ex.printStackTrace(); // 错误处理
-      }
+      System.out.println(Content);
    }
 }
 ```
