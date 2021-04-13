@@ -154,6 +154,7 @@ var express = require('express');
 + [NPM依赖：类库工具](https://www.jianshu.com/p/2a127cfba1cf)
 + [前端开发中用到的npm工具](https://segmentfault.com/a/1190000021865006)
 
+* [https://github.com/mobxjs](https://github.com/mobxjs)
 * [https://github.com/CreateJS](https://github.com/CreateJS)
 * [https://github.com/ReactiveX/rxjs](https://github.com/ReactiveX/rxjs)
 * [https://github.com/jashkenas/coffeescript](https://github.com/jashkenas/coffeescript)

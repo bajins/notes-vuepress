@@ -13,7 +13,6 @@
     + [http://nginx.org/en/docs](http://nginx.org/en/docs)
 + [https://github.com/nginxinc](https://github.com/nginxinc)
 + [https://www.nginx.com/nginx-wiki/build/dirhtml/modules](https://www.nginx.com/nginx-wiki/build/dirhtml/modules)
-    + NGINX多种扩展模块 [https://github.com/openresty](https://github.com/openresty)
 + [https://github.com/h5bp/server-configs-nginx](https://github.com/h5bp/server-configs-nginx)
 + [https://github.com/digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io)
     + [https://www.digitalocean.com/community/tools/nginx](https://www.digitalocean.com/community/tools/nginx)
@@ -26,8 +25,29 @@
 * [nginx 变量使用](https://blog.csdn.net/u014296316/article/details/80973530)
 * [Nginx 从入门到实践，万字详解](https://juejin.im/post/5ea931866fb9a043815146fb)
 * Nginx 入门指南 [https://github.com/xuexb/learn-nginx](https://github.com/xuexb/learn-nginx)
+* [标签: Nginx | 原少子杨](https://iziyang.github.io/tags/nginx)
 
 + [博客使用Cloudflare和Nginx的相关配置](https://jayshao.com/cloudflare-nginx-ssl)
+
+
+
+**Nginx扩展模块**
+
++ [https://github.com/topics/lua](https://github.com/topics/lua)
++ [https://github.com/lua/lua](https://github.com/lua/lua)
++ [https://github.com/LuaJIT/LuaJIT](https://github.com/LuaJIT/LuaJIT)
++ 包管理 [https://github.com/luarocks/luarocks](https://github.com/luarocks/luarocks)
++ Lua 5.3 手册中文版 [https://github.com/cloudwu/lua53doc](https://github.com/cloudwu/lua53doc)
+
+* Lua多种扩展模块 [https://github.com/openresty](https://github.com/openresty)
+* [https://github.com/loveshell/ngx_lua_waf](https://github.com/loveshell/ngx_lua_waf)
+* [https://github.com/ledgetech/lua-resty-http](https://github.com/ledgetech/lua-resty-http)
+* [https://github.com/starjun/openstar](https://github.com/starjun/openstar)
+* [https://gitee.com/tianhao26/openresty_forwarding_log](https://gitee.com/tianhao26/openresty_forwarding_log)
+
+
+
+**其他同类程序**
 
 * [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
     * [Caddy2 简明教程 - bleem](https://mritd.com/2021/01/07/lets-start-using-caddy2)

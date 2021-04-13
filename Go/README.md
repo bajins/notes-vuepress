@@ -226,6 +226,8 @@
 * 编解码器 [https://github.com/ugorji/go](https://github.com/ugorji/go)
 * Golang注解 [https://github.com/MarcGrol/golangAnnotations](https://github.com/MarcGrol/golangAnnotations)
 * [https://github.com/sbinet/go-python](https://github.com/sbinet/go-python)
+* [https://github.com/yuin/gopher-lua](https://github.com/yuin/gopher-lua)
+* [https://github.com/Shopify/go-lua](https://github.com/Shopify/go-lua)
 
 
 - IP代理池 [https://github.com/henson/proxypool](https://github.com/henson/proxypool)
