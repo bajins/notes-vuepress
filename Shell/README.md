@@ -156,7 +156,7 @@
 
 > Secure Shell（SSH）
 
-> OpenSSH 私钥后缀是`pem`，PuTTY 私钥后缀是`ppk`
+> [OpenSSH](https://github.com/openssl/openssl) 私钥后缀是`pem`，PuTTY 私钥后缀是`ppk`
 
 * [https://github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
 * [https://github.com/topics/terminal](https://github.com/topics/terminal)

@@ -26,6 +26,7 @@
 * [Nginx 从入门到实践，万字详解](https://juejin.im/post/5ea931866fb9a043815146fb)
 * Nginx 入门指南 [https://github.com/xuexb/learn-nginx](https://github.com/xuexb/learn-nginx)
 * [标签: Nginx | 原少子杨](https://iziyang.github.io/tags/nginx)
+* [Nginx从入门到实践](https://segmentfault.com/blog/siguoya-nginx)
 
 + [博客使用Cloudflare和Nginx的相关配置](https://jayshao.com/cloudflare-nginx-ssl)
 
@@ -33,6 +34,9 @@
 
 **Nginx扩展模块**
 
++ [https://www.nginx.com/resources/wiki/modules](https://www.nginx.com/resources/wiki/modules)
++ [https://github.com/search?q=nginx-module](https://github.com/search?q=nginx-module)
++ [https://github.com/topics/nginx-module](https://github.com/topics/nginx-module)
 + [https://github.com/topics/lua](https://github.com/topics/lua)
 + [https://github.com/lua/lua](https://github.com/lua/lua)
 + [https://github.com/LuaJIT/LuaJIT](https://github.com/LuaJIT/LuaJIT)
@@ -40,10 +44,128 @@
 + Lua 5.3 手册中文版 [https://github.com/cloudwu/lua53doc](https://github.com/cloudwu/lua53doc)
 
 * Lua多种扩展模块 [https://github.com/openresty](https://github.com/openresty)
+    * [https://openresty.org/cn](https://openresty.org/cn)
+    * [OpenResty 概要及原理科普](https://honeypps.com/architect/introduction-of-openresty)
+    * [openresty 的动态 - SegmentFault 思否](https://segmentfault.com/t/openresty)
+    * [https://www.nginx.com/resources/wiki/modules/lua](https://www.nginx.com/resources/wiki/modules/lua)
+* [https://github.com/iresty/nginx-lua-module-zh-wiki](https://github.com/iresty/nginx-lua-module-zh-wiki)
 * [https://github.com/loveshell/ngx_lua_waf](https://github.com/loveshell/ngx_lua_waf)
 * [https://github.com/ledgetech/lua-resty-http](https://github.com/ledgetech/lua-resty-http)
 * [https://github.com/starjun/openstar](https://github.com/starjun/openstar)
+* [https://github.com/zhouchangxun/ngx_healthcheck_module](https://github.com/zhouchangxun/ngx_healthcheck_module)
+* [https://github.com/vozlt/nginx-module-vts](https://github.com/vozlt/nginx-module-vts)
 * [https://gitee.com/tianhao26/openresty_forwarding_log](https://gitee.com/tianhao26/openresty_forwarding_log)
+
+
+- content_by_lua_file
+
+```lua
+-- content_by_lua_file
+local cjson = require("cjson");
+local resp_body = ngx.arg[1];
+ngx.say("<p>hello, world</p>");
+ngx.ctx.buffered = (ngx.ctx.buffered or "") .. resp_body;
+if (ngx.arg[2]) then
+    ngx.ctx.resp_body = ngx.ctx.buffered;
+end
+
+local req_header = ngx.req.get_headers();
+ngx.ctx.req_header = req_header;
+ngx.req.read_body();
+ngx.ctx.req_body = ngx.req.get_body_data();
+ngx.log(ngx.ERR, "server: ", req_header);
+
+local auth = 'Basic ' .. ngx.var.auth -- basic认证
+if headers['authorization'] ~= auth then
+    ngx.status = 401
+    ngx.header['WWW-Authenticate'] = 'Basic realm="this is my domain"'
+    ngx.say('Unauthorized')
+else
+    -- proxy传入一个'@'开头的location内部路径
+    return ngx.exec(ngx.var.proxy)
+end
+
+local res = ngx.location.capture("/") -- 请求
+if res then
+    ngx.say("status: ", res.status)
+    ngx.say("body:")
+    ngx.print(res.body)
+end
+
+ngx.log(ngx.ERR, ngx.var.request_body)
+```
+
+
+- body_filter_by_lua_file
+
+```lua
+-- body_filter_by_lua_file:
+-- 获取当前响应数据
+local chunk, eof = ngx.arg[1], ngx.arg[2]
+local cjson = require("cjson");
+
+-- 定义全局变量，收集全部响应
+if ngx.ctx.buffered == nil then
+    ngx.ctx.buffered = {}
+end
+
+-- 如果非最后一次响应，将当前响应赋值
+if chunk ~= "" and not ngx.is_subrequest then
+    table.insert(ngx.ctx.buffered, chunk)
+    -- ngx.log(ngx.ERR,"-------- 2 --------")
+    -- 将当前响应赋值为空，以修改后的内容作为最终响应
+    ngx.arg[1] = nil
+end
+
+-- 如果为最后一次响应，对所有响应数据进行处理
+if eof then
+    -- 获取所有响应数据
+    local whole = table.concat(ngx.ctx.buffered)
+    ngx.ctx.buffered = nil
+    
+    -- ngx.log(ngx.ERR,"-------- 3 --------")
+    ngx.log(ngx.ERR,whole)
+    -- 内容有指定IP
+    if string.find(whole, "100.100.100.100") > 0
+        and string.find(req_headers.host, "172.16.0.91") > 0 -- 请求url是指定IP
+        and string.find(ngx.var.remote_addr, "192.168") > 0 -- 客户端是内网IP
+    then
+        whole = string.gsub(whole, "100%.100%.100%.100", "172%.16%.0%.91") -- 替换
+    end
+
+    -- 重新赋值响应数据，以修改后的内容作为最终响应
+    ngx.arg[1] = whole
+end
+```
+
+- header_filter_by_lua_file
+
+```lua
+-- header_filter_by_lua_file
+local cjson = require("cjson");
+
+local resp_headers = ngx.resp.get_headers() -- 响应头
+local resp_location = resp_headers.location -- 响应地址
+local req_headers = ngx.req.get_headers() -- 请求头 host referer
+-- ngx.log(ngx.ERR,cjson.encode(req_headers))
+
+-- if string.find(req_headers.host, "172.16.0.91") > 0 -- 请求url是指定IP
+    -- and ngx.status == ngx.HTTP_MOVED_TEMPORARILY -- 重定向
+    -- and string.find(ngx.header.location, "100.100.100.100") > 0 -- 响应头是指定IP
+    -- and string.find(ngx.var.remote_addr, "192.168") > 0 -- 客户端是内网IP
+local leng = string.find(ngx.var.remote_addr, "192.168")
+if leng ~= nil and leng> 0 -- 客户端是内网IP
+then
+    ngx.var.host = string.gsub(ngx.var.host, "100%.100%.100%.100", "172%.16%.0%.91")
+    -- 替换
+    ngx.header['location'] = string.gsub(resp_location, "100%.100%.100%.100", "172%.16%.0%.91")
+end
+ngx.log(ngx.ERR,cjson.encode(ngx.resp.get_headers()))
+
+-- if ngx.var.remote_addr == "172.16.0.91" then
+    -- resp_headers
+-- end
+```
 
 
 
@@ -58,6 +180,61 @@
     2. [HAProxy Nginx LVS 对比](http://www.lgoon.com/detail/22)
     3. [负载均衡器对比(LVS、Nginx、Haproxy)](https://vimll.com/?p=886)
     4. [各大API网关性能比较](https://segmentfault.com/a/1190000018838988)
+
+
+
+
+## 编译安装
+
+* [Nginx 核心模块与配置实践](https://juejin.cn/post/6868289389722763272)
+
+
+**openssl: error while loading shared libraries: libssl.so.1.1: cannot open shared object file**
+
+```bash
+# 查找一下libssl.so.1.1的位置，然后链接到/usr/lib64/libssl.so.1.1即可。
+find / -name libssl.so.1.1
+ln -s /usr/local/lib64/libssl.so.1.1  /usr/lib64/libssl.so.1.1
+ln -s /usr/local/lib64/libcrypto.so.1.1  /usr/lib64/libcrypto.so.1.1
+openssl version
+```
+
+**libssl.so.1.1: cannot open shared object file: No such file or directory**
+
+> Centos7 默认提供的 openssl 版本是 1.0.2，报错是因为openssl 库的安装位置不正确或未安装 1.1 以上版本的问题
+
+```bash
+#从官网下载，去掉文件名，直接访问链接获取最新的包链接
+# wget https://www.openssl.org/source/openssl-1.1.1k.tar.gz
+#腾讯云提供的镜像，去掉文件名，直接访问链接获取最新的包链接
+wget https://mirrors.cloud.tencent.com/openssl/source/openssl-1.1.1k.tar.gz
+tar -xvf openssl-1.1.1k.tar.gz
+cd openssl-1.1.1k
+yum -y install gcc automake autoconf libtool make
+./config shared --openssldir=/usr/local/openssl --prefix=/usr/local/openssl
+make clean && make && make install
+```
+
+- `openssl version` 如果看到版本号还是低版本
+
+```bash
+echo "/usr/local/lib64/" >> /etc/ld.so.conf
+ldconfig
+```
+
+- 还是有问题执行以下方式
+
+```bash
+# 备份
+mv /usr/bin/openssl /usr/bin/openssl.old
+mv /usr/lib/openssl /usr/lib/openssl.old
+# 创建软链接
+ln -s /usr/local/openssl/bin/openssl /usr/bin/openssl
+ln -s /usr/local/openssl/include/openssl /usr/include/openssl
+# 写配置
+echo "/usr/local/openssl/lib" >> /etc/ld.so.conf
+ldconfig -v
+```
 
 
 
