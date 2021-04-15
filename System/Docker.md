@@ -39,6 +39,7 @@
 
 ## 其他容器技术
 
++ [https://github.com/topics/containers](https://github.com/topics/containers)
 + OCI开放容器标准 [https://github.com/opencontainers](https://github.com/opencontainers)
     + [https://opencontainers.org](https://opencontainers.org)
 + 云原生技术图谱 [https://github.com/cncf/landscape](https://github.com/cncf/landscape)
@@ -46,7 +47,6 @@
 
 * Go编写的迷你Docker [https://github.com/shuveb/containers-the-hard-way](https://github.com/shuveb/containers-the-hard-way)
 * [https://github.com/falcosecurity](https://github.com/falcosecurity)
-* [https://github.com/cncf](https://github.com/cncf)
 * [https://github.com/draios](https://github.com/draios)
 * [从开发者的角度比较Kubernetes和Cloud Foundry](http://dockone.io/article/5679)
 * [https://github.com/kubernetes](https://github.com/kubernetes)

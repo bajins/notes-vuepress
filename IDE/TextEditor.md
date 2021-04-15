@@ -8,7 +8,9 @@
 ## Flag
 
 
-* [http://www.gnu.org/software/emacs](http://www.gnu.org/software/emacs)
+* [https://github.com/GNOME/gedit](https://github.com/GNOME/gedit)
+* [https://github.com/emacs-tw/awesome-emacs](https://github.com/emacs-tw/awesome-emacs)
+    * [http://www.gnu.org/software/emacs](http://www.gnu.org/software/emacs)
 * [https://www.nano-editor.org](https://www.nano-editor.org)
 * [https://vim.org](https://vim.org)
     * [https://github.com/neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
@@ -20,6 +22,9 @@
 * [http://www.pnotepad.org](http://www.pnotepad.org)
 * [https://github.com/adobe/brackets](https://github.com/adobe/brackets)
 * [https://github.com/bobbylight](https://github.com/bobbylight)
+* [https://github.com/textmate](https://github.com/textmate)
+* [https://github.com/Komodo/KomodoEdit](https://github.com/Komodo/KomodoEdit)
+* [https://github.com/geany/geany](https://github.com/geany/geany)
 
 
 

@@ -12,7 +12,6 @@
     + [http://nginx.org/en/download.html](http://nginx.org/en/download.html)
     + [http://nginx.org/en/docs](http://nginx.org/en/docs)
 + [https://github.com/nginxinc](https://github.com/nginxinc)
-+ [https://www.nginx.com/nginx-wiki/build/dirhtml/modules](https://www.nginx.com/nginx-wiki/build/dirhtml/modules)
 + [https://github.com/h5bp/server-configs-nginx](https://github.com/h5bp/server-configs-nginx)
 + [https://github.com/digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io)
     + [https://www.digitalocean.com/community/tools/nginx](https://www.digitalocean.com/community/tools/nginx)
@@ -32,9 +31,31 @@
 
 
 
-**Nginx扩展模块**
+
+**其他同类程序**
+
+* [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
+    * [Caddy2 简明教程 - bleem](https://mritd.com/2021/01/07/lets-start-using-caddy2)
+* [https://github.com/traefik/traefik](https://github.com/traefik/traefik)
+* [https://github.com/haproxy/haproxy](https://github.com/haproxy/haproxy)
+    * HAProxy入门 [https://jaminzhang.github.io/lb/HAProxy-Get-Started](https://jaminzhang.github.io/lb/HAProxy-Get-Started)
+    1. [Nginx和HAProxy对比](https://www.zhihu.com/question/34489042/answers/updated)
+    2. [HAProxy Nginx LVS 对比](http://www.lgoon.com/detail/22)
+    3. [负载均衡器对比(LVS、Nginx、Haproxy)](https://vimll.com/?p=886)
+    4. [各大API网关性能比较](https://segmentfault.com/a/1190000018838988)
+* [https://github.com/envoyproxy/envoy](https://github.com/envoyproxy/envoy)
+    * [https://github.com/projectcontour/contour](https://github.com/projectcontour/contour)
+    * [https://github.com/datawire/ambassador](https://github.com/datawire/ambassador)
+    * [https://github.com/projectcontour/gimbal](https://github.com/projectcontour/gimbal)
+* [https://github.com/zalando/skipper](https://github.com/zalando/skipper)
+
+
+
+
+## 扩展模块插件
 
 + [https://www.nginx.com/resources/wiki/modules](https://www.nginx.com/resources/wiki/modules)
++ [https://www.nginx.com/nginx-wiki/build/dirhtml/modules](https://www.nginx.com/nginx-wiki/build/dirhtml/modules)
 + [https://github.com/search?q=nginx-module](https://github.com/search?q=nginx-module)
 + [https://github.com/topics/nginx-module](https://github.com/topics/nginx-module)
 + [https://github.com/topics/lua](https://github.com/topics/lua)
@@ -48,6 +69,7 @@
     * [OpenResty 概要及原理科普](https://honeypps.com/architect/introduction-of-openresty)
     * [openresty 的动态 - SegmentFault 思否](https://segmentfault.com/t/openresty)
     * [https://www.nginx.com/resources/wiki/modules/lua](https://www.nginx.com/resources/wiki/modules/lua)
+    * [https://github.com/moonbingbing/openresty-best-practices](https://github.com/moonbingbing/openresty-best-practices)
 * [https://github.com/iresty/nginx-lua-module-zh-wiki](https://github.com/iresty/nginx-lua-module-zh-wiki)
 * [https://github.com/loveshell/ngx_lua_waf](https://github.com/loveshell/ngx_lua_waf)
 * [https://github.com/ledgetech/lua-resty-http](https://github.com/ledgetech/lua-resty-http)
@@ -64,6 +86,7 @@
 local cjson = require("cjson");
 local resp_body = ngx.arg[1];
 ngx.say("<p>hello, world</p>");
+-- 响应体
 ngx.ctx.buffered = (ngx.ctx.buffered or "") .. resp_body;
 if (ngx.arg[2]) then
     ngx.ctx.resp_body = ngx.ctx.buffered;
@@ -96,11 +119,12 @@ ngx.log(ngx.ERR, ngx.var.request_body)
 ```
 
 
-- body_filter_by_lua_file
+- [body_filter_by_lua_file](https://zhuanlan.zhihu.com/p/67904411)
 
 ```lua
--- body_filter_by_lua_file:
--- 获取当前响应数据
+-- body_filter_by_lua_file:可能会在一次请求中多次调用
+
+-- 获取当前响应数据，如果不想要后续的输出内容，设置ngx.arg[2]=true
 local chunk, eof = ngx.arg[1], ngx.arg[2]
 local cjson = require("cjson");
 
@@ -111,7 +135,7 @@ end
 
 -- 如果非最后一次响应，将当前响应赋值
 if chunk ~= "" and not ngx.is_subrequest then
-    table.insert(ngx.ctx.buffered, chunk)
+    table.insert(ngx.ctx.buffered, chunk) -- 将每一次的响应缓存
     -- ngx.log(ngx.ERR,"-------- 2 --------")
     -- 将当前响应赋值为空，以修改后的内容作为最终响应
     ngx.arg[1] = nil
@@ -126,9 +150,9 @@ if eof then
     -- ngx.log(ngx.ERR,"-------- 3 --------")
     ngx.log(ngx.ERR,whole)
     -- 内容有指定IP
-    if string.find(whole, "100.100.100.100") > 0
-        and string.find(req_headers.host, "172.16.0.91") > 0 -- 请求url是指定IP
-        and string.find(ngx.var.remote_addr, "192.168") > 0 -- 客户端是内网IP
+    if string.match(whole, "100.100.100.100")
+        and string.match(req_headers.host, "172.16.0.91") -- 请求url是指定IP
+        and string.match(ngx.var.remote_addr, "192.168") -- 客户端是内网IP
     then
         whole = string.gsub(whole, "100%.100%.100%.100", "172%.16%.0%.91") -- 替换
     end
@@ -149,14 +173,14 @@ local resp_location = resp_headers.location -- 响应地址
 local req_headers = ngx.req.get_headers() -- 请求头 host referer
 -- ngx.log(ngx.ERR,cjson.encode(req_headers))
 
--- if string.find(req_headers.host, "172.16.0.91") > 0 -- 请求url是指定IP
+-- if string.match(req_headers.host, "172.16.0.91") -- 请求url是指定IP
     -- and ngx.status == ngx.HTTP_MOVED_TEMPORARILY -- 重定向
-    -- and string.find(ngx.header.location, "100.100.100.100") > 0 -- 响应头是指定IP
-    -- and string.find(ngx.var.remote_addr, "192.168") > 0 -- 客户端是内网IP
+    -- and string.match(ngx.header.location, "100.100.100.100") -- 响应头是指定IP
+    -- and string.match(ngx.var.remote_addr, "192.168") -- 客户端是内网IP
 local leng = string.find(ngx.var.remote_addr, "192.168")
-if leng ~= nil and leng> 0 -- 客户端是内网IP
+if leng ~= nil and leng > 0 -- 客户端是内网IP
 then
-    ngx.var.host = string.gsub(ngx.var.host, "100%.100%.100%.100", "172%.16%.0%.91")
+    ngx.req.set_header("host", string.gsub(ngx.var.host, "100%.100%.100%.100", "172%.16%.0%.91"))
     -- 替换
     ngx.header['location'] = string.gsub(resp_location, "100%.100%.100%.100", "172%.16%.0%.91")
 end
@@ -167,19 +191,6 @@ ngx.log(ngx.ERR,cjson.encode(ngx.resp.get_headers()))
 -- end
 ```
 
-
-
-**其他同类程序**
-
-* [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
-    * [Caddy2 简明教程 - bleem](https://mritd.com/2021/01/07/lets-start-using-caddy2)
-* [https://github.com/traefik/traefik](https://github.com/traefik/traefik)
-* [https://github.com/haproxy/haproxy](https://github.com/haproxy/haproxy)
-    * HAProxy入门 [https://jaminzhang.github.io/lb/HAProxy-Get-Started](https://jaminzhang.github.io/lb/HAProxy-Get-Started)
-    1. [Nginx和HAProxy对比](https://www.zhihu.com/question/34489042/answers/updated)
-    2. [HAProxy Nginx LVS 对比](http://www.lgoon.com/detail/22)
-    3. [负载均衡器对比(LVS、Nginx、Haproxy)](https://vimll.com/?p=886)
-    4. [各大API网关性能比较](https://segmentfault.com/a/1190000018838988)
 
 
 

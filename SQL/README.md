@@ -354,7 +354,7 @@ ON CONFLICT target action;
 ## Redis
 
 + [https://redis.io/documentation](https://redis.io/documentation)
-+ [https://github.com/huangz1990/redis-3.0-annotated](https://github.com/huangz1990/redis-3.0-annotated)
++ 源码注释 [https://github.com/huangz1990/redis-3.0-annotated](https://github.com/huangz1990/redis-3.0-annotated)
 
 * [https://github.com/huangz1990/redis](https://github.com/huangz1990/redis)
     * [http://redisdoc.com](http://redisdoc.com)

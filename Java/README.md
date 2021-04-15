@@ -218,6 +218,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 
 - Markdown解析器 [https://github.com/vsch/flexmark-java](https://github.com/vsch/flexmark-java)
+- [https://github.com/math4j](https://github.com/math4j)
 - 数学表达式 [https://github.com/mariuszgromada/MathParser.org-mXparser](https://github.com/mariuszgromada/MathParser.org-mXparser)
 - 数学框架 [https://github.com/Ismail-Mekni/mxreflection](https://github.com/Ismail-Mekni/mxreflection)
 

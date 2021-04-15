@@ -43,7 +43,8 @@
     * [https://github.com/awsdocs](https://github.com/awsdocs)
 * [https://www.linuxfoundation.org/projects](https://www.linuxfoundation.org/projects)
     * [https://github.com/cncf](https://github.com/cncf)
-    * [https://www.cncf.io/services-for-projects](https://www.cncf.io/services-for-projects)
+    * [https://www.cncf.io/projects](https://www.cncf.io/projects)
+    * [https://www.cncf.io/sandbox-projects](https://www.cncf.io/sandbox-projects)
     * [https://devstats.cncf.io](https://devstats.cncf.io)
 * [https://www.fsf.org/resources](https://www.fsf.org/resources)
 * [https://projects.ow2.org](https://projects.ow2.org)
@@ -63,6 +64,7 @@
 - 各种非常棒的学习项目 [https://github.com/jobbole](https://github.com/jobbole)
 - [https://github.com/doocs](https://github.com/doocs)
 - [https://github.com/apachecn](https://github.com/apachecn)
+- [https://github.com/need-to-know](https://github.com/need-to-know)
 
 
 
