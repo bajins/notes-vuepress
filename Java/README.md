@@ -192,6 +192,9 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 + [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
 + [https://github.com/TooTallNate/Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket)
 + Web框架 [https://github.com/perwendel/spark](https://github.com/perwendel/spark)
++ [https://github.com/topics/shiro](https://github.com/topics/shiro)
+    + [https://github.com/johntostring/spring-boot-shiro](https://github.com/johntostring/spring-boot-shiro)
+    + [https://github.com/YuxingXie/shiro](https://github.com/YuxingXie/shiro)
 
 
 * jwt [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)

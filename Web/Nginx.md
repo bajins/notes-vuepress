@@ -173,10 +173,10 @@ local resp_location = resp_headers.location -- 响应地址
 local req_headers = ngx.req.get_headers() -- 请求头 host referer
 -- ngx.log(ngx.ERR,cjson.encode(req_headers))
 
--- if string.match(req_headers.host, "172.16.0.91") -- 请求url是指定IP
-    -- and ngx.status == ngx.HTTP_MOVED_TEMPORARILY -- 重定向
+-- if ngx.status == ngx.HTTP_MOVED_TEMPORARILY -- 重定向
     -- and string.match(ngx.header.location, "100.100.100.100") -- 响应头是指定IP
     -- and string.match(ngx.var.remote_addr, "192.168") -- 客户端是内网IP
+-- if ngx.header.location and not string.match(ngx.header.location, ngx.var.http_host) then -- 响应地址不包含请求url
 local leng = string.find(ngx.var.remote_addr, "192.168")
 if leng ~= nil and leng > 0 -- 客户端是内网IP
 then

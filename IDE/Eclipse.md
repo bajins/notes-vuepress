@@ -160,10 +160,16 @@ public static void createInstanceSetter(Class<?> clazz) {
 **JSP|HTML|CSS 格式化**
 
 - `Window` -> `Preferences` -> `Web` -> `HTML Files` / `CSS Files` -> `Editor`
-   - `Line width`
+   - `Line width` 行宽
    - `Inline Elements` 选中所有 -> `Remove`
    - `Indent using spaces` 缩进使用空格
    - `Indentation size` 缩进使用多少个字符
+
+
+**XML**
+
+- `Window` -> `Preferences` -> `Web` -> `XML` -> `XML Files` -> `Editor`
+   - `Formatting` -> `Line width` 行宽
 
 
 
