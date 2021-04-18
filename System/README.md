@@ -11,6 +11,7 @@
 
 * [speedtest](https://github.com/adolfintel/speedtest)
 * ssl免费的证书 [https://letsencrypt.org](https://letsencrypt.org)
+    * [https://github.com/zenhack/simp_le](https://github.com/zenhack/simp_le)
     * [https://github.com/acmesh-official](https://github.com/acmesh-official)
         * [HTTPS之acme.sh申请证书](https://www.cnblogs.com/tu240302975/p/13370867.html)
     * [https://github.com/win-acme](https://github.com/win-acme)

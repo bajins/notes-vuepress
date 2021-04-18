@@ -246,6 +246,8 @@ var express = require('express');
         * [https://localforage.docschina.org](https://localforage.docschina.org)
 * [https://github.com/typicode/lowdb](https://github.com/typicode/lowdb)
 * [https://github.com/marcuswestin/store.js](https://github.com/marcuswestin/store.js)
+* 保存文件 [https://github.com/eligrey/FileSaver.js](https://github.com/eligrey/FileSaver.js)
+* [https://github.com/jimmywarting/StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js)
 
 
 
@@ -296,7 +298,7 @@ var express = require('express');
 
 - 压缩或编码解码库 [https://github.com/photopea](https://github.com/photopea)
 - 压缩 [https://github.com/photopea](https://github.com/nodeca/pako)
-- [https://github.com/Stuk/jszip](https://github.com/Stuk/jszip)
+- 读取和编辑zip [https://github.com/Stuk/jszip](https://github.com/Stuk/jszip)
 - [https://gitlab.pagedmedia.org/tools/pagedjs](https://gitlab.pagedmedia.org/tools/pagedjs)
 
 

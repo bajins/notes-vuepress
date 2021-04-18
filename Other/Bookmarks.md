@@ -234,6 +234,7 @@
 * [https://github.com/rgb-24bit](https://github.com/rgb-24bit)
     * [https://rgb-24bit.github.io](https://rgb-24bit.github.io)
 * [归档 - 朱小厮的博客](https://honeypps.com/archives)
+* [归档 - SoulChild随笔记](https://soulchild.cn/archives.html)
 
 
 

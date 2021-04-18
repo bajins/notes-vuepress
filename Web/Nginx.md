@@ -9,12 +9,13 @@
 ## Flag
 
 + [https://github.com/nginx](https://github.com/nginx)
-    + [http://nginx.org/en/download.html](http://nginx.org/en/download.html)
-    + [http://nginx.org/en/docs](http://nginx.org/en/docs)
+    + [https://nginx.org/en/download.html](http://nginx.org/en/download.html)
+    + [https://nginx.org/en/docs](http://nginx.org/en/docs)
 + [https://github.com/nginxinc](https://github.com/nginxinc)
 + [https://github.com/h5bp/server-configs-nginx](https://github.com/h5bp/server-configs-nginx)
 + [https://github.com/digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io)
     + [https://www.digitalocean.com/community/tools/nginx](https://www.digitalocean.com/community/tools/nginx)
++ [https://github.com/alibaba/tengine](https://github.com/alibaba/tengine)
 
 
 * [Nginx HTTP核心模块指令和内置变量中文说明](https://my.oschina.net/jsan/blog/125861)
@@ -28,7 +29,7 @@
 * [Nginx从入门到实践](https://segmentfault.com/blog/siguoya-nginx)
 
 + [博客使用Cloudflare和Nginx的相关配置](https://jayshao.com/cloudflare-nginx-ssl)
-
++ [https://github.com/nginx-proxy/nginx-proxy](https://github.com/nginx-proxy/nginx-proxy)
 
 
 
@@ -117,80 +118,6 @@ end
 
 ngx.log(ngx.ERR, ngx.var.request_body)
 ```
-
-
-- [body_filter_by_lua_file](https://zhuanlan.zhihu.com/p/67904411)
-
-```lua
--- body_filter_by_lua_file:可能会在一次请求中多次调用
-
--- 获取当前响应数据，如果不想要后续的输出内容，设置ngx.arg[2]=true
-local chunk, eof = ngx.arg[1], ngx.arg[2]
-local cjson = require("cjson");
-
--- 定义全局变量，收集全部响应
-if ngx.ctx.buffered == nil then
-    ngx.ctx.buffered = {}
-end
-
--- 如果非最后一次响应，将当前响应赋值
-if chunk ~= "" and not ngx.is_subrequest then
-    table.insert(ngx.ctx.buffered, chunk) -- 将每一次的响应缓存
-    -- ngx.log(ngx.ERR,"-------- 2 --------")
-    -- 将当前响应赋值为空，以修改后的内容作为最终响应
-    ngx.arg[1] = nil
-end
-
--- 如果为最后一次响应，对所有响应数据进行处理
-if eof then
-    -- 获取所有响应数据
-    local whole = table.concat(ngx.ctx.buffered)
-    ngx.ctx.buffered = nil
-    
-    -- ngx.log(ngx.ERR,"-------- 3 --------")
-    ngx.log(ngx.ERR,whole)
-    -- 内容有指定IP
-    if string.match(whole, "100.100.100.100")
-        and string.match(req_headers.host, "172.16.0.91") -- 请求url是指定IP
-        and string.match(ngx.var.remote_addr, "192.168") -- 客户端是内网IP
-    then
-        whole = string.gsub(whole, "100%.100%.100%.100", "172%.16%.0%.91") -- 替换
-    end
-
-    -- 重新赋值响应数据，以修改后的内容作为最终响应
-    ngx.arg[1] = whole
-end
-```
-
-- header_filter_by_lua_file
-
-```lua
--- header_filter_by_lua_file
-local cjson = require("cjson");
-
-local resp_headers = ngx.resp.get_headers() -- 响应头
-local resp_location = resp_headers.location -- 响应地址
-local req_headers = ngx.req.get_headers() -- 请求头 host referer
--- ngx.log(ngx.ERR,cjson.encode(req_headers))
-
--- if ngx.status == ngx.HTTP_MOVED_TEMPORARILY -- 重定向
-    -- and string.match(ngx.header.location, "100.100.100.100") -- 响应头是指定IP
-    -- and string.match(ngx.var.remote_addr, "192.168") -- 客户端是内网IP
--- if ngx.header.location and not string.match(ngx.header.location, ngx.var.http_host) then -- 响应地址不包含请求url
-local leng = string.find(ngx.var.remote_addr, "192.168")
-if leng ~= nil and leng > 0 -- 客户端是内网IP
-then
-    ngx.req.set_header("host", string.gsub(ngx.var.host, "100%.100%.100%.100", "172%.16%.0%.91"))
-    -- 替换
-    ngx.header['location'] = string.gsub(resp_location, "100%.100%.100%.100", "172%.16%.0%.91")
-end
-ngx.log(ngx.ERR,cjson.encode(ngx.resp.get_headers()))
-
--- if ngx.var.remote_addr == "172.16.0.91" then
-    -- resp_headers
--- end
-```
-
 
 
 
@@ -330,11 +257,13 @@ location / {
 # 定义一个内部调用location
 location /internal/ {
     internal;
+    # https://nginx.org/en/docs/http/ngx_http_proxy_module.html
     proxy_pass http://192.168.1.110:8091;
     proxy_set_header Host $host;
     proxy_set_header X-Real-IP $remote_addr;
     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     proxy_set_header REMOTE-HOST $remote_addr;
+    # 修改响应头中的"Location"和"Refresh"字段
     # 解决https->nginx->http->tomcat重定向问题
     proxy_redirect ~^http://([^:]+)(:\d+)?(.*)$ https://$1$3;
 }
@@ -377,11 +306,13 @@ location / {
     }
 }
 location @pass {
+    # https://nginx.org/en/docs/http/ngx_http_proxy_module.html
     proxy_pass http://192.168.1.110:8091;
     proxy_set_header Host $host;
     proxy_set_header X-Real-IP $remote_addr;
     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     proxy_set_header REMOTE-HOST $remote_addr;
+    # 修改响应头中的"Location"和"Refresh"字段
     # 解决https->nginx->http->tomcat重定向问题
     proxy_redirect ~^http://([^:]+)(:\d+)?(.*)$  https://$1$3;
 }
