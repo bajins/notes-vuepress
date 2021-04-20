@@ -89,6 +89,7 @@
 * [https://github.com/kanyways/learning-spring](https://github.com/kanyways/learning-spring)
 * [https://github.com/gf-huanchupk/SpringBootLearning](https://github.com/gf-huanchupk/SpringBootLearning)
 * [https://github.com/xkcoding/spring-boot-demo](https://github.com/xkcoding/spring-boot-demo)
+* [https://github.com/xuwujing/springBoot-study](https://github.com/xuwujing/springBoot-study)
 
 + [Springboot 优雅停止服务的几种方法](https://www.cnblogs.com/huangqingshi/p/11370291.html)
 + [SpringBoot系列: 如何优雅停止服务](https://www.cnblogs.com/exmyth/p/13098831.html)
@@ -359,7 +360,7 @@
 * [过滤器列表](https://docs.spring.io/spring-security/site/docs/5.3.1.RELEASE/reference/html5/#servlet-security-filters)
 * [标准过滤器别名和顺序](https://docs.spring.io/spring-security/site/docs/5.3.1.RELEASE/reference/html5/#filter-stack)
 
-
+- [https://github.com/Snailclimb/spring-security-jwt-guide](https://github.com/Snailclimb/spring-security-jwt-guide)
 
 
 **拦截器和过滤器区别**
@@ -373,6 +374,7 @@
 - 过滤器需要在servlet容器中实现，拦截器可以适用于javaEE，javaSE等各种环境
 - 拦截器可以调用IOC容器中的各种依赖，而过滤器不能
 - 过滤器只能在请求的前后使用，而拦截器可以详细到每个方法
+
 
 
 

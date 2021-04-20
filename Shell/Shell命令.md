@@ -350,16 +350,12 @@ ls -ad */
 
 > `find`用于查找文件
 
-> `grep`用于查找文件内容的行
->> `-r`递归查找
->>
->> `-l`列出匹配的文件名
->>
->> `-n`列出所在的行号
->>
->> `--include="*.text"`只查找后缀名是`.text`的文件
->> 
->> `--exclude="*.sql"`查找除了后缀名是`.sql`的文件
+- `grep`用于查找文件内容的行
+    - `-r`递归查找
+    - `-l`列出匹配的文件名
+    - `-n`列出所在的行号
+    -  `--include="*.text"`只查找后缀名是`.text`的文件
+    - `--exclude="*.sql"`查找除了后缀名是`.sql`的文件
 
 > `xargs`命令是给其他命令传递参数的一个过滤器，也是组合多个命令的一个工具，它擅成长将标准输入数据转换成命令行参数。
 
@@ -376,56 +372,34 @@ ls -ad */
 
 ```bash
 find -name test
-```
-
-> 查看录前目录下文件名中含有字符串的文件，`*`为通配符，可以按需要使用
-
-```bash
+# 查找并排除多个文件
+find ./ -not \( -name "*.jpg" -o -name "*.png" \)
+find ./ -not -name "*.jpg" -o -name "*.png"
+find ./ -not \( -name "*.jpg" -or -name "*.png" \)
+find ./ -not -name "*.jpg" -or -name "*.png"
+# 查看录前目录下文件名中含有字符串的文件，`*`为通配符，可以按需要使用
 find -name '*XXX*'
-```
-
-> 在当前目录下查看所有目录并排序
-
-```bash
+# 在当前目录下查看所有目录并排序
 find -type d | sort
+# 查找指定时间内的文件
+find 文件路径 -type f -newermt '起始时间' -a -not -newermt '结束时间'
+# 查找当前目录下文件内容匹配的字符串，输出：`全路径文件名:字符串所在行内容`
+find . -type f | xargs grep "XXX"
+find . | xargs grep -ri "XXX"
+# 查找当前目录下文件内容匹配的字符串，输出：`字符串所在行内容`
+find /XXX/XXX -type f -exec grep "XXX" {} \;
+# 查找当前目录下文件内容匹配的字符串，输出：`文件名`
+find . | xargs grep -ril "XXX"
 ```
 
->  在指定文件中（一个或多个）查找并出含字符串的行
-
 ```bash
+# 在指定文件中（一个或多个）查找并出含字符串的行
 grep 'XXX' text1.txt text2.txt
-```
-
-> 在以t开头的文件中查找并出含字符串的行
-
-```bash
+# 在以t开头的文件中查找并出含字符串的行
 grep 'XXX' t*
 ```
 
-> 查找指定时间内的文件
 
-```bash
-find 文件路径 -type f -newermt '起始时间' -a -not -newermt '结束时间'
-```
-
-> 查找当前目录下文件内容匹配的字符串，输出：`全路径文件名:字符串所在行内容`
-
-```bash
-find . -type f | xargs grep "XXX"
-find . | xargs grep -ri "XXX"
-```
-
-> 查找当前目录下文件内容匹配的字符串，输出：`字符串所在行内容`
-
-```bash
-find /XXX/XXX -type f -exec grep "XXX" {} \;
-```
-
-> 查找当前目录下文件内容匹配的字符串，输出：`文件名`
-
-```bash
-find . | xargs grep -ril "XXX"
-```
 
 ## 批量替换文件内容
 
@@ -459,19 +433,14 @@ grep -rl "XXX" --exclude="*.sql" ./* | wc -l
 
 ## 删除文件
 
-**删除并排除文件**
+**删除排除的其他文件**
 
 ```bash
 find * | grep -v '\(*.jpg\|*.png)' | xargs rm
-rm -rf !(*.jpg|*.png)
+#报错：`-bash: !: event not found` 需要开启通配符功能
+shopt -s extglob && rm -rf !(*.jpg|*.png) && shopt -u extglob
 # rm删除除去指定文件的剩余所有文件 (rm 反向删除）
-rm -rf `ls |grep -v "^ab.txt$"`
-```
-
-> 如果报错：`-bash: !: event not found` 需要开启通配符功能
-
-```bash
-shopt -s extglob
+rm -rf `ls | grep -v "^ab.txt$"`
 ```
 
 
