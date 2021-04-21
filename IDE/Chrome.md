@@ -11,12 +11,20 @@
 
 * [Marmoset-创建漂亮的代码图片](https://chrome.google.com/webstore/detail/marmoset/npkfpddkpefnmkflhhligbkofhnafieb)
 * 嵌入式框架（CEF） [https://github.com/chromiumembedded](https://github.com/chromiumembedded)
+* [https://github.com/arnoldthebat/chromiumos](https://github.com/arnoldthebat/chromiumos)
+
+- HTML转换为PDF [https://github.com/wkhtmltopdf](https://github.com/wkhtmltopdf)
 
 
 
 
 ## 浏览器下载
 
++ [https://github.com/topics/chromium](https://github.com/topics/chromium)
++ [https://github.com/topics/chrome](https://github.com/topics/chrome)
++ [https://github.com/chromium/chromium](https://github.com/chromium/chromium)
++ [https://github.com/googlechrome](https://github.com/googlechrome)
++ [https://github.com/GoogleChromeLabs](https://github.com/GoogleChromeLabs)
 
 * [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
     * [Chrome下载/插件/DevTools/账号迁移](/IDE/Chrome.md)
@@ -28,12 +36,18 @@
 * [https://www.chrome64bit.com](https://www.chrome64bit.com)
 * [https://chrome.playes.net/chrome](https://chrome.playes.net/chrome)
 
+- 删除Google Web服务依赖项 [https://github.com/Eloston/ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)
+- [https://github.com/nwjs/chromium.src](https://github.com/nwjs/chromium.src)
+
 
 + [https://browsehappy.com](https://browsehappy.com)
 + [https://shuax.com](https://shuax.com)
 
-* [https://www.microsoft.com/zh-cn/edge](https://www.microsoft.com/zh-cn/edge)
+* [https://www.microsoftedgeinsider.com](https://www.microsoftedgeinsider.com)
+    * [https://www.microsoft.com/zh-cn/edge](https://www.microsoft.com/zh-cn/edge)
     *  [最新官方稳定版离线安装包 x64](https://go.microsoft.com/fwlink/?LinkID=2093437)
+    * [https://www.microsoftedgeinsider.com](https://www.microsoftedgeinsider.com)
+    * [https://docs.microsoft.com/zh-cn/microsoft-edge](https://docs.microsoft.com/zh-cn/microsoft-edge)
 * [https://www.mozilla.org/zh-CN/firefox/all](https://www.mozilla.org/zh-CN/firefox/all)
 
 
@@ -52,7 +66,7 @@ chrome://flags/#enable-parallel-downloading
 
 + [https://github.com/search?q=chrome-dev-tools](https://github.com/search?q=chrome-dev-tools)
 
-* [https://github.com/googlechrome](https://github.com/googlechrome)
+* [https://github.com/ChromeDevTools](https://github.com/ChromeDevTools)
 * [https://github.com/GoogleChrome/devtools-docs](https://github.com/GoogleChrome/devtools-docs)
     * [https://developer.chrome.com/devtools/index](https://developer.chrome.com/devtools/index)
     * [https://devtools.chrome.com](https://devtools.chrome.com)
@@ -62,9 +76,9 @@ chrome://flags/#enable-parallel-downloading
     * [https://github.com/dendoink/FrontendWingman](https://github.com/dendoink/FrontendWingman)
         * [https://www.frontendwingman.com/Chrome](https://www.frontendwingman.com/Chrome)
         * [https://juejin.im/book/5c526902e51d4543805ef35e](https://juejin.im/book/5c526902e51d4543805ef35e)
-* [https://github.com/ChromeDevTools](https://github.com/ChromeDevTools)
 * [https://github.com/blittle/chrome-dev-tools](https://github.com/blittle/chrome-dev-tools)
 * Chrome开发者工具中文手册 [https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools](https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools)
+* [https://github.com/ahangchen/Chromium_doc_zh](https://github.com/ahangchen/Chromium_doc_zh)
 
 - Firefox 开发者工具 [https://developer.mozilla.org/zh-CN/docs/Tools](https://developer.mozilla.org/zh-CN/docs/Tools)
 - Firefox浏览器开发人员版 [https://www.mozilla.org/zh-CN/firefox/developer](https://www.mozilla.org/zh-CN/firefox/developer)
