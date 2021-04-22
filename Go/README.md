@@ -172,6 +172,7 @@
 * 模板功能 [https://github.com/Masterminds/sprig](https://github.com/Masterminds/sprig)
 * 分布式关系型数据库 [https://github.com/pingcap/tidb](https://github.com/pingcap/tidb)
     * [https://pingcap.com](https://pingcap.com)
+* [https://github.com/jordan-wright/email](https://github.com/jordan-wright/email)
 * [https://github.com/flike/kingshard](https://github.com/flike/kingshard)
 * [https://github.com/open-falcon](https://github.com/open-falcon)
 * [https://github.com/open-falcon/mail-provider](https://github.com/open-falcon/mail-provider)

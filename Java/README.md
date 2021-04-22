@@ -96,6 +96,7 @@
     * [https://gitee.com/lin-mt/effective-java-third-edition](https://gitee.com/lin-mt/effective-java-third-edition)
     * [https://github.com/Wasabi1234/EffectiveJava3-zh](https://github.com/Wasabi1234/EffectiveJava3-zh)
 * Clean Code [https://github.com/topics/clean-code](https://github.com/topics/clean-code)
+* 精通 Java 并发编程（第2 版 ） [https://github.com/Jueee/ConcurrencyWithJava](https://github.com/Jueee/ConcurrencyWithJava)
 * Java 9 模块化开发 [https://github.com/ledudu/Java-9-Modularity-zh](https://github.com/ledudu/Java-9-Modularity-zh)
 * Vert.x Java开发者指南 [https://github.com/vertxfun/vertx-guide-for-java-devs-cn](https://github.com/vertxfun/vertx-guide-for-java-devs-cn)
 * [https://github.com/hansonwang99/JavaCollection](https://github.com/hansonwang99/JavaCollection)
@@ -152,6 +153,7 @@
 * Java多线程编程核心技术 [https://github.com/loveincode/java-multi-thread-programming](https://github.com/loveincode/java-multi-thread-programming)
 * 项目实践讲解 [https://github.com/RudeCrab/rude-java](https://github.com/RudeCrab/rude-java)
 * Java OpenTelemetry 测试指南 [https://github.com/chenmudu/open-telemetry-java-guides](https://github.com/chenmudu/open-telemetry-java-guides)
+* [https://github.com/spring2go/staffjoy](https://github.com/spring2go/staffjoy)
 
 + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
 + [https://github.com/Wizzercn/MqttWk](https://github.com/Wizzercn/MqttWk)

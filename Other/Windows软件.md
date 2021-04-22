@@ -34,7 +34,7 @@
 * [果核剥壳](https://www.ghpym.com)
 * [zdBryan](https://www.423down.com)
 * [落尘之木](https://www.luochenzhimu.com)
-* [懒得勤快](https://masuit.com)
+* [懒得勤快](https://ldqk.org)
 * [殁漂遥](https://www.mpyit.com)
 * [轻狂志](http://www.flighty.cn)
 * [伤逝的安详](https://www.ssdax.com)

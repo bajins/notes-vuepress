@@ -26,6 +26,7 @@
 * [在 Windows 10 底下不使用 Hyper-V 安裝 Docker](http://skychang.github.io/2019/03/30/Docker-Install_Docker_Without_HyperV_In_Windows_10)
 * [https://docs.microsoft.com/zh-cn/virtualization/windowscontainers/quick-start/set-up-environment](https://docs.microsoft.com/zh-cn/virtualization/windowscontainers/quick-start/set-up-environment)
 
+- 测试容器 [https://github.com/testcontainers](https://github.com/testcontainers)
 
 
 **Docker搭建私有仓库**
@@ -53,6 +54,7 @@
     * [https://github.com/kubernetes-incubator](https://github.com/kubernetes-incubator)
     * [https://kubernetes.io](https://kubernetes.io)
 * Kubernetes的软件包管理器 [https://github.com/helm](https://github.com/helm)
+* Ansible脚本安装K8S集群 [https://github.com/easzlab/kubeasz](https://github.com/easzlab/kubeasz)
 * [https://github.com/rook/rook](https://github.com/rook/rook)
 * [https://github.com/lensapp/lens](https://github.com/lensapp/lens)
 * [https://github.com/jenkins-x](https://github.com/jenkins-x)

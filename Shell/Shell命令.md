@@ -437,12 +437,15 @@ grep -rl "XXX" --exclude="*.sql" ./* | wc -l
 
 ```bash
 find * | grep -v '\(*.jpg\|*.png)' | xargs rm
+find . -maxdepth 1 ! -name 'dist' -type f -exec rm -v {} +
 #报错：`-bash: !: event not found` 需要开启通配符功能
 shopt -s extglob && rm -rf !(*.jpg|*.png) && shopt -u extglob
 # rm删除除去指定文件的剩余所有文件 (rm 反向删除）
 rm -rf `ls | grep -v "^ab.txt$"`
+rm -rf `ls | egrep -v '(config.js|dist)'`
+# 递归当前目录
+rm -f `find * -name "*" | egrep -v '(*.jpg|*.png)'`
 ```
-
 
 
 **删除指定时间前的文件**

@@ -70,6 +70,7 @@
 + 云探针、云监控、服务器云监控、多服务器探针 [https://github.com/cppla/ServerStatus](https://github.com/cppla/ServerStatus)
 + [https://github.com/CokeMine/ServerStatus-Hotaru](https://github.com/CokeMine/ServerStatus-Hotaru)
 + [https://github.com/BotoX/ServerStatus](https://github.com/BotoX/ServerStatus)
+* [https://github.com/jimmy201602/webterminal](https://github.com/jimmy201602/webterminal)
 
 
 
