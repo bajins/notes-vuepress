@@ -82,6 +82,14 @@
 > C加载自己配置文件要用`classpath*`，否则A加载配置文件无法加载到C的配置文件
 
 
+| 前缀         | 例子                             | 说明                          |
+|------------|--------------------------------|-----------------------------|
+| classpath: | classpath:com/myapp/config.xml | 从classpath中加载。              |
+| file:      | file:/data/config.xml          | 作为 URL 从文件系统中加载。            |
+| http:      | http://myserver/logo.png       | 作为 URL 加载。                  |
+| (none)     | /data/config.xml               | 根据 ApplicationContext 进行判断。 |
+
+
 
 
 ## 日期时间
