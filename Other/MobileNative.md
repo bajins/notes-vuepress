@@ -205,10 +205,6 @@
 
 ### 软件
 
-+ [如何在电脑上下载Google play上的应用？](https://www.zhihu.com/question/22382577/answers/updated)
-+ [https://greasyfork.org/zh-CN/scripts/33005-direct-download-from-google-play](https://greasyfork.org/zh-CN/scripts/33005-direct-download-from-google-play)
-+ [https://apkpure.com/cn/developer/Microsoft%20Corporation](https://apkpure.com/cn/developer/Microsoft%20Corporation)
-
 * [https://github.com/topics/mobile-app](https://github.com/topics/mobile-app)
 * [https://github.com/topics/apk](https://github.com/topics/apk)
     * [https://github.com/kivy/python-for-android](https://github.com/kivy/python-for-android)
@@ -238,6 +234,9 @@
 
 **下载Google Play Store上的应用**
 
++ [如何在电脑上下载Google play上的应用？](https://www.zhihu.com/question/22382577/answers/updated)
++ [https://greasyfork.org/zh-CN/scripts/33005-direct-download-from-google-play](https://greasyfork.org/zh-CN/scripts/33005-direct-download-from-google-play)
+
 * [https://android-apk.org](https://android-apk.org)
 * [https://androidapksfree.com](https://androidapksfree.com)
 * [https://androidappsapk.co](https://androidappsapk.co)
@@ -256,6 +255,9 @@
 * [https://www.apkturbo.com](https://www.apkturbo.com)
 * [https://downloadapk.online](https://downloadapk.online)
 * [https://dlandroid.com](https://dlandroid.com)
+
++ [https://apkpure.com/cn/developer/Microsoft%20Corporation](https://apkpure.com/cn/developer/Microsoft%20Corporation)
+
 
 
 **破解软件下载**

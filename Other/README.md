@@ -22,6 +22,19 @@
 * GitHub上的游戏项目 [https://github.com/leereilly/games](https://github.com/leereilly/games)
 * 免费可商用字体 [https://github.com/wordshub/free-font](https://github.com/wordshub/free-font)
 * IP库 [https://db-ip.com](https://db-ip.com)
+* 消息通知 [https://github.com/topics/push-notifications](https://github.com/topics/push-notifications)
+* [https://github.com/topics/notifications](https://github.com/topics/notifications)
+* [https://github.com/Finb/bark-server](https://github.com/Finb/bark-server)
+* [https://github.com/Finb/Bark](https://github.com/Finb/Bark)
+* [https://github.com/wahao/Bark-MP-helper](https://github.com/wahao/Bark-MP-helper)
+* [https://github.com/easychen](https://github.com/easychen)
+    * [http://sc.ftqq.com](http://sc.ftqq.com)
+* [https://ifttt.com/maker_webhooks](https://ifttt.com/maker_webhooks)
+* [https://www.pushplus.plus](https://www.pushplus.plus)
+* [https://pushplus.hxtrip.com](https://pushplus.hxtrip.com)
+* [https://github.com/wxpusher](https://github.com/wxpusher)
+
+
 
 
 
