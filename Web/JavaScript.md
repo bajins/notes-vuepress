@@ -248,6 +248,7 @@ var express = require('express');
 * [https://github.com/marcuswestin/store.js](https://github.com/marcuswestin/store.js)
 * 保存文件 [https://github.com/eligrey/FileSaver.js](https://github.com/eligrey/FileSaver.js)
 * [https://github.com/jimmywarting/StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js)
+* [https://github.com/adiwajshing/keyed-db](https://github.com/adiwajshing/keyed-db)
 
 
 
@@ -413,6 +414,7 @@ var express = require('express');
 * [https://github.com/Aaaaaaaty/Blog/tree/master/html5player](https://github.com/Aaaaaaaty/Blog/tree/master/html5player)
 * [https://github.com/chiruom/DanmuPlayer](https://github.com/chiruom/DanmuPlayer)
 * 字体滚动 [https://github.com/chenjianfang/scroxt](https://github.com/chenjianfang/scroxt)
+* [https://github.com/kalkih/mini-media-player](https://github.com/kalkih/mini-media-player)
 
 
 **反爬虫**

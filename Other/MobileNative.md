@@ -105,24 +105,31 @@
 
 ### 自动化
 
+* [https://github.com/appium](https://github.com/appium)
 * [https://tasker.joaoapps.com](https://tasker.joaoapps.com)
+
 
 **Auto.js**
 
 > JavaScript自动化工具
 
++ [https://github.com/search?q=autojs](https://github.com/search?q=autojs)
 + [https://github.com/topics/autojs](https://github.com/topics/autojs)
-+ [https://github.com/TonyJiangWJ/AutoScriptBase](https://github.com/TonyJiangWJ/AutoScriptBase)
 + [https://github.com/hyb1996/Auto.js](https://github.com/hyb1996/Auto.js)
     + [https://github.com/SuperMonster002/Hello_Sockpuppet](https://github.com/SuperMonster002/Hello_Sockpuppet)
++ [https://github.com/TonyJiangWJ/AutoScriptBase](https://github.com/TonyJiangWJ/AutoScriptBase)
++ [https://github.com/demoshang/autojs-replace-inrt](https://github.com/demoshang/autojs-replace-inrt)
 + [https://github.com/easy-click/easyclick-libs](https://github.com/easy-click/easyclick-libs)
++ [https://github.com/snailuncle/autojsDemo](https://github.com/snailuncle/autojsDemo)
++ [https://github.com/ivanwhaf/xxqg-helper](https://github.com/ivanwhaf/xxqg-helper)
 
 
-* 清理微信僵尸粉 [https://github.com/L8426936/CleanUpWeChatZombieFans](https://github.com/L8426936/CleanUpWeChatZombieFans)
-* [https://github.com/huxx16/AutoApiSecret](https://github.com/huxx16/AutoApiSecret)
 * [https://github.com/topics/accessibilityservice](https://github.com/topics/accessibilityservice)
 * [https://github.com/Orange-shirt/OrangeJs](https://github.com/Orange-shirt/OrangeJs)
+* 清理微信僵尸粉 [https://github.com/L8426936/CleanUpWeChatZombieFans](https://github.com/L8426936/CleanUpWeChatZombieFans)
 * [https://github.com/georgehuan1994/DingDing-Automatic-Clock-in](https://github.com/georgehuan1994/DingDing-Automatic-Clock-in)
+* 蚂蚁森林能量 [https://github.com/SuperMonster003/Ant-Forest](https://github.com/SuperMonster003/Ant-Forest)
+* [https://github.com/kwu130/Alipay](https://github.com/kwu130/Alipay)
 
 
 

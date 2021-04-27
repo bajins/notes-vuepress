@@ -103,7 +103,6 @@ with Test() as t: # 触发__exit__
     - [https://github.com/pytest-dev/pytest](https://github.com/pytest-dev/pytest)
     - [https://github.com/jacebrowning/pytest-expecter](https://github.com/jacebrowning/pytest-expecter)
 - [https://github.com/topics/ops](https://github.com/topics/ops)
-- [https://github.com/topics/automation](https://github.com/topics/automation)
 
 
 

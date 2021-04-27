@@ -18,10 +18,12 @@
 + [https://github.com/alibaba/tengine](https://github.com/alibaba/tengine)
 
 
+* [https://github.com/hfpp2012/nginx-tutorial](https://github.com/hfpp2012/nginx-tutorial)
 * [Nginx HTTP核心模块指令和内置变量中文说明](https://my.oschina.net/jsan/blog/125861)
-* [nginxbeautifier](https://github.com/vasilevich/nginxbeautifier)
-* [nginx-config-formatter](https://github.com/1connect/nginx-config-formatter)
-* [nginxconfig配置生成](https://github.com/0xB4LINT/nginxconfig.io)
+* [https://github.com/topics/nginx-configuration](https://github.com/topics/nginx-configuration)
+* 配置格式化 [https://github.com/vasilevich/nginxbeautifier](https://github.com/vasilevich/nginxbeautifier)
+* [https://github.com/slomkowski/nginx-config-formatter](https://github.com/1connect/nginx-config-formatter)
+* 配置生成 [https://github.com/0xB4LINT/nginxconfig.io](https://github.com/0xB4LINT/nginxconfig.io)
 * [nginx 变量使用](https://blog.csdn.net/u014296316/article/details/80973530)
 * [Nginx 从入门到实践，万字详解](https://juejin.im/post/5ea931866fb9a043815146fb)
 * Nginx 入门指南 [https://github.com/xuexb/learn-nginx](https://github.com/xuexb/learn-nginx)
