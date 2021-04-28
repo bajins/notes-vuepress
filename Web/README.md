@@ -13,6 +13,7 @@
 + W3C 网页标准教程 [http://www.w3chtml.com](http://www.w3chtml.com)
 
 
+* 开发人员设计资源 [https://github.com/bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers)
 * [https://github.com/junruchen/junruchen.github.io/wiki](https://github.com/junruchen/junruchen.github.io/wiki)
 * [https://github.com/mathjax](https://github.com/mathjax)
 * 前端知识点总结 [https://github.com/zhaiyy/Web-front-end-knowledge-summary](https://github.com/zhaiyy/Web-front-end-knowledge-summary)

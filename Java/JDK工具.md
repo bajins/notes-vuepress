@@ -79,7 +79,8 @@ jstack PID | grep -A 10 $(printf "%x\n" PID)
 * [https://github.com/Col-E/Recaf](https://github.com/Col-E/Recaf)
 * [https://github.com/JesusFreke/smali](https://github.com/JesusFreke/smali)
 * snowman [https://derevenets.com](https://derevenets.com)
-* `javap -verbose 文件` 查看class文件内容
+* `javap -verbose 文件` 查看class文件内容 [https://github.com/topics/bytecode](https://github.com/topics/bytecode)
+* 字节码查看器 [https://github.com/ingokegel/jclasslib](https://github.com/ingokegel/jclasslib)
 * [https://github.com/ClassViewer](https://github.com/ClassViewer)
 * [https://github.com/zxh0/classpy](https://github.com/zxh0/classpy)
 

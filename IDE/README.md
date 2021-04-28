@@ -17,6 +17,7 @@
     + [https://hoppscotch.io](https://hoppscotch.io)
 + IDEA 的`Tools`菜单下有`HTTP Client`可替代postman
 
+* [https://github.com/apache/netbeans](https://github.com/apache/netbeans)
 * [https://github.com/atom](https://github.com/atom)
 * [https://github.com/geany](https://github.com/geany)
 * [https://github.com/eclipse-theia/theia](https://github.com/eclipse-theia/theia)
@@ -96,10 +97,13 @@
 + [https://github.com/search?q=SQL+client](https://github.com/search?q=SQL+client)
 
 * [https://github.com/dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
+* [https://www.jetbrains.com/zh-cn/datagrip](https://www.jetbrains.com/zh-cn/datagrip)
 * [https://www.navicat.com](https://www.navicat.com)
     * [https://github.com/search?q=navicat](https://github.com/search?q=navicat)
+* [https://codeberg.org/sql-workbench/workbench](https://codeberg.org/sql-workbench/workbench)
+    * [https://www.sql-workbench.eu](https://www.sql-workbench.eu)
 * [https://www.heidisql.com](https://www.heidisql.com)
-* [https://www.dbvis.com](https://www.dbvis.com)
+* DbVisualizer [https://www.dbvis.com](https://www.dbvis.com)
 * [https://sourceforge.net/projects/squirrel-sql](https://sourceforge.net/projects/squirrel-sql)
     * [http://www.squirrelsql.org](http://www.squirrelsql.org)
 * [https://www.activedbsoft.com](https://www.activedbsoft.com)
@@ -116,51 +120,13 @@
 * [https://github.com/dbkangaroo/kangaroo](https://github.com/dbkangaroo/kangaroo)
 * [https://github.com/Fabio286/antares](https://github.com/Fabio286/antares)
 * [https://www.devart.com/products.html#ide](https://www.devart.com/products.html#ide)
-    * [Devart dbForge 系列数据库管理工具无限试用补丁](https://blog.fishlee.net/2019/06/13/devart-dbforge-%e7%b3%bb%e5%88%97%e6%95%b0%e6%8d%ae%e5%ba%93%e7%ae%a1%e7%90%86%e5%b7%a5%e5%85%b7%e6%97%a0%e9%99%90%e8%af%95%e7%94%a8%e8%a1%a5%e4%b8%81/)
 * Web的SQL编辑器 [https://github.com/sqlpad/sqlpad](https://github.com/sqlpad/sqlpad)
 * [https://github.com/OmniDB/OmniDB](https://github.com/OmniDB/OmniDB)
+* [https://github.com/webyog/sqlyog-community](https://github.com/webyog/sqlyog-community)
 
 + Go编写的数据库迁移 [https://github.com/golang-migrate/migrate](https://github.com/golang-migrate/migrate)
 
-- [https://github.com/webyog/sqlyog-community](https://github.com/webyog/sqlyog-community)
-- Sqlyog增加试用期：<kbd>win</kbd>+<kbd>r</kbd> -> 输入`regedit` -> 进入注册表
-    - 旧版：在`计算机\HKEY_CURRENT_USER\Software\{906D6D9F-AB51-429F……}`删除`InD110`即可
-    - 新版：在`计算机\HKEY_CURRENT_USER\SOFTWARE\{d58cb4b1-47f3-45cb-a209-f298d0c3f756}`删除`InD110`即可
-```
-姓 名（Name）：ttrar
-序 列 号（Code）：8d8120df-a5c3-4989-8f47-5afc79c56e7c
 
-姓 名（Name）：ttrar
-序 列 号（Code）：59adfdfe-bcb0-4762-8267-d7fccf16beda
-
-姓 名（Name）：ttrar
-序 列 号（Code）：ec38d297-0543-4679-b098-4baadf91f983
-
-姓 名（Name）：ttrar
-序 列 号（Code）：8d8120df-a5c3-4989-8f47-5afc79c56e7c
-
-
-ccbfc13e-c31d-42ce-8939-3c7e63ed5417
-a56ea5da-f30b-4fb1-8a05-95f346a9b20b
-a0fe8645-3916-45d4-9976-cb6b88fecc6c
-b70d7f66-dac2-4462-bf51-c4e9347da76
-
-Professional: 8e053a86-cdd3-48ed-b5fe-94c51b3d343c
-Enterprise:   a46683b0-d3ec-4c16-8e3c-198d25a7fb52
-Ultimate:     60c1b896-7c22-4405-9f46-a6bce776ab36
-
-Professional 版本:
-注册名：luoye2562
-注册码：ec38d297-0543-4679-b098-4baadf91f983
-
-Enterprise 版本:
-注册名：luoye2562
-注册码: 59adfdfe-bcb0-4762-8267-d7fccf16beda
-
-Ultimate 版本:
-注册名：luoye2562
-注册码: 8d8120df-a5c3-4989-8f47-5afc79c56e7c
-```
 
 
 

@@ -68,6 +68,9 @@
 
 - [https://github.com/gcc-mirror/gcc](https://github.com/gcc-mirror/gcc)
 
++ [https://github.com/ImpulseAdventure/GUIslice-Builder](https://github.com/ImpulseAdventure/GUIslice-Builder)
+    + [https://github.com/ImpulseAdventure/GUIslice](https://github.com/ImpulseAdventure/GUIslice)
+
 
 > C语言的编译器有很多种，不同的平台下有不同的编译器
 

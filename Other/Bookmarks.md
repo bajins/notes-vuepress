@@ -17,6 +17,7 @@
 + [https://github.com/sindresorhus/awesome](https://github.com/sindresorhus/awesome)
 + [https://awesomeopensource.com](https://awesomeopensource.com)
 + [https://github.com/bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)
++ [https://github.com/tuvtran/project-based-learning](https://github.com/tuvtran/project-based-learning)
 
 
 **开源组织**
