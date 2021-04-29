@@ -154,6 +154,7 @@
 * 项目实践讲解 [https://github.com/RudeCrab/rude-java](https://github.com/RudeCrab/rude-java)
 * Java OpenTelemetry 测试指南 [https://github.com/chenmudu/open-telemetry-java-guides](https://github.com/chenmudu/open-telemetry-java-guides)
 * [https://github.com/spring2go/staffjoy](https://github.com/spring2go/staffjoy)
+* [https://github.com/lenve/javaboy-code-samples](https://github.com/lenve/javaboy-code-samples)
 
 + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
 + [https://github.com/Wizzercn/MqttWk](https://github.com/Wizzercn/MqttWk)
@@ -192,6 +193,9 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 + WebFlux默认反应式框架 [https://github.com/reactor](https://github.com/reactor)
 + 完全实现了Reactive Streams规范 [https://github.com/akka/akka](https://github.com/akka/akka)
 + 响应流框架 [https://github.com/Atmosphere](https://github.com/Atmosphere)
++ [https://github.com/akka](https://github.com/akka)
+    + [https://github.com/akka-fusion](https://github.com/akka-fusion)
+    + [https://github.com/playframework](https://github.com/playframework)
 + [https://github.com/netty/netty](https://github.com/netty/netty)
 + [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
 + [https://github.com/TooTallNate/Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket)
@@ -221,6 +225,9 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/orclight/jcaptcha](https://github.com/orclight/jcaptcha)
 * 线程间消息传递 [https://github.com/lmax-exchange/disruptor](https://github.com/lmax-exchange/disruptor)
 * 依赖关系注入器 [https://github.com/google/dagger](https://github.com/google/dagger)
+* [https://github.com/redisson](https://github.com/redisson)
+* [https://github.com/kilim/kilim](https://github.com/kilim/kilim)
+* 规划引擎 [https://github.com/kiegroup](https://github.com/kiegroup)
 
 
 - Markdown解析器 [https://github.com/vsch/flexmark-java](https://github.com/vsch/flexmark-java)
@@ -260,7 +267,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 **Cache**
 
-* [https://github.com/ehcache/ehcache3](https://github.com/ehcache/ehcache3)
+* [https://github.com/ehcache](https://github.com/ehcache)
     - [http://www.ehcache.org/apidocs](http://www.ehcache.org/apidocs)
     - [Ehcache3配置使用](https://segmentfault.com/a/1190000022502212)
     - [JAVA中使用springBoot和Ehcache3.X无xml配置和xml配置](https://blog.csdn.net/Gentlemike/article/details/80403967)
@@ -382,6 +389,33 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 
 
+**Schedule**
+
++ [https://github.com/topics/schedule](https://github.com/topics/schedule)
++ [https://github.com/topics/scheduler](https://github.com/topics/scheduler)
++ [https://github.com/topics/scheduled-jobs](https://github.com/topics/scheduled-jobs)
++ [https://github.com/topics/job](https://github.com/topics/job)
++ [https://github.com/topics/cron](https://github.com/topics/cron)
++ [https://github.com/topics/time](https://github.com/topics/time)
+
+* [https://github.com/apache/shardingsphere-elasticjob](https://github.com/apache/shardingsphere-elasticjob)
+* [https://github.com/apache/dolphinscheduler](https://github.com/apache/dolphinscheduler)
+* [https://github.com/attemper/attemper](https://github.com/attemper/attemper)
+* [https://github.com/quartz-scheduler/quartz](https://github.com/quartz-scheduler/quartz)
+    * [quartz-scheduler建表SQL](https://github.com/quartz-scheduler/quartz/tree/master/quartz-core/src/main/resources/org/quartz/impl/jdbcjobstore)
+    * [分布式任务调度系统(Quartz动态管理集群部署)](https://blog.csdn.net/qq_42978802/article/details/106570346)
+* [https://github.com/vipshop/Saturn](https://github.com/vipshop/Saturn)
+* [https://github.com/ltsopensource/light-task-scheduler](https://github.com/ltsopensource/light-task-scheduler)
+* [https://github.com/xuxueli/xxl-job](https://github.com/xuxueli/xxl-job)
+* [https://github.com/lukas-krecan/ShedLock](https://github.com/lukas-krecan/ShedLock)
+* [https://github.com/Netflix/Fenzo](https://github.com/Netflix/Fenzo)
+* [https://github.com/PowerJob/PowerJob](https://github.com/PowerJob/PowerJob)
+* [https://github.com/HubSpot/Singularity](https://github.com/HubSpot/Singularity)
+* [https://github.com/siaorg/sia-task](https://github.com/siaorg/sia-task)
+
+
+
+
 **加密**
 
 * bcprov-jdk15on [http://www.bouncycastle.org/java.html](http://www.bouncycastle.org/java.html) Bouncy Castle Crypto
@@ -452,6 +486,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/jsonzou/jmockdata](https://github.com/jsonzou/jmockdata)
 * [https://github.com/dbunit/dbunit-mirror](https://github.com/dbunit/dbunit-mirror)
 * [https://github.com/easymock](https://github.com/easymock)
+* [https://github.com/Terracotta-OSS/angela](https://github.com/Terracotta-OSS/angela)
 
 
 

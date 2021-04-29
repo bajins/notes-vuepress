@@ -186,6 +186,8 @@
     * [https://github.com/robfig/cron](https://github.com/robfig/cron)
     * [https://github.com/jasonlvhit/gocron](https://github.com/jasonlvhit/gocron)
 * [https://github.com/ouqiang/delay-queue](https://github.com/ouqiang/delay-queue)
+* [https://github.com/beanstalkd/go-beanstalk](https://github.com/beanstalkd/go-beanstalk)
+* [https://github.com/tal-tech/go-queue](https://github.com/tal-tech/go-queue)
 * [https://github.com/go-xorm](https://github.com/go-xorm)
 * [https://github.com/libragen/felix](https://github.com/libragen/felix)
 * [https://github.com/spf13/viper](https://github.com/spf13/viper)

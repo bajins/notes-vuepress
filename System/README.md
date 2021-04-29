@@ -152,6 +152,9 @@
 * [Windows 10 更新历史记录](https://support.microsoft.com/zh-cn/help/4555932)
 * [Windows 生命周期说明书](https://support.microsoft.com/zh-cn/help/13853/windows-lifecycle-fact-sheet)
 * [将 MBR 分区转换为 GPT](https://docs.microsoft.com/zh-cn/windows/deployment/mbr-to-gpt)
+* [Window环境下的内网NTP时间同步配置](https://blog.csdn.net/qq_36141369/article/details/109215318)
+* [局域网中主机间的时间同步](https://blog.csdn.net/antony1776/article/details/108358147)
+
 
 
 **Wifi频繁断线**

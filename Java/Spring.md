@@ -90,6 +90,7 @@
 * [https://github.com/gf-huanchupk/SpringBootLearning](https://github.com/gf-huanchupk/SpringBootLearning)
 * [https://github.com/xkcoding/spring-boot-demo](https://github.com/xkcoding/spring-boot-demo)
 * [https://github.com/xuwujing/springBoot-study](https://github.com/xuwujing/springBoot-study)
+* [https://github.com/houko/SpringBootUnity](https://github.com/houko/SpringBootUnity)
 
 + [Springboot 优雅停止服务的几种方法](https://www.cnblogs.com/huangqingshi/p/11370291.html)
 + [SpringBoot系列: 如何优雅停止服务](https://www.cnblogs.com/exmyth/p/13098831.html)
@@ -392,9 +393,6 @@
 > 会另起一个线程执行调度，不会发生阻塞问题，但调度过多时可能导致数据处理异常，抛出异常后，同一个任务后续仍然会触发
 
 - `TBSchedule`
-
-* [https://github.com/quartz-scheduler/quartz](https://github.com/quartz-scheduler/quartz)
-* [quartz-scheduler建表SQL](https://github.com/quartz-scheduler/quartz/tree/master/quartz-core/src/main/resources/org/quartz/impl/jdbcjobstore)
 
 
 
