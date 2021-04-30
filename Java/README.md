@@ -180,6 +180,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 ## 第三方库
 
 * [https://github.com/akullpp/awesome-java](https://github.com/akullpp/awesome-java)
+* [https://github.com/hashicorp](https://github.com/hashicorp)
+
 
 
 + [https://github.com/xuxueli](https://github.com/xuxueli)

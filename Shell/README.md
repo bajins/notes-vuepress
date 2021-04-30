@@ -159,6 +159,7 @@
 > [OpenSSH](https://github.com/openssl/openssl) 私钥后缀是`pem`，PuTTY 私钥后缀是`ppk`
 
 * [https://github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
+* [https://github.com/topics/fish](https://github.com/topics/fish)
 * [https://github.com/topics/terminal](https://github.com/topics/terminal)
 * [https://github.com/topics/ssh](https://github.com/topics/ssh)
 * [https://github.com/topics/ssh-client](https://github.com/topics/ssh-client)

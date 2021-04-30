@@ -7,6 +7,8 @@
 
 ## Flag
 
++ [https://github.com/topics/nodejs](https://github.com/topics/nodejs)
++ [https://github.com/topics/node-js](https://github.com/topics/node-js)
 + [https://github.com/denoland/deno](https://github.com/denoland/deno)
 + [https://github.com/nodejs](https://github.com/nodejs)
     + [https://nodejs.org/zh-cn](https://nodejs.org/zh-cn)
@@ -45,28 +47,25 @@
 * glob [https://github.com/micromatch/extglob](https://github.com/micromatch/extglob)
 * [https://github.com/isaacs/minimatch](https://github.com/isaacs/minimatch)
 * [https://github.com/mrmlnc/fast-glob](https://github.com/mrmlnc/fast-glob)
+* [https://github.com/reworkcss](https://github.com/reworkcss)
+* [https://github.com/visionmedia](https://github.com/visionmedia)
 
 
 
 ## 管理NodeJS
 
++ [https://github.com/topics/versioning](https://github.com/topics/versioning)
++ [https://github.com/topics/version-manager](https://github.com/topics/version-manager)
++ [https://github.com/topics/dependency-manager](https://github.com/topics/dependency-manager)
++ [https://github.com/topics/environment](https://github.com/topics/environment)
+
 * [https://github.com/tj/n](https://github.com/tj/n)
+    * [https://github.com/mklement0/n-install](https://github.com/mklement0/n-install)
 * [https://github.com/Jrohy/nodejs-install](https://github.com/Jrohy/nodejs-install)
-
-
-**rpm**
-
-> npm与Node.js一起存在，这意味着当您下载并安装Node.js时，您会自动在计算机上安装npm
-
+* [https://github.com/nodenv/nodenv](https://github.com/nodenv/nodenv)
 * [https://github.com/nodesource/distributions](https://github.com/nodesource/distributions)
 
 ```bash
-# CentOS安装
-# 到https://github.com/nodesource/distributions#installation-instructions-1
-# 复制更新软件源命令，并执行
-curl -sL https://rpm.nodesource.com/setup_12.x | bash -
-# 安装
-yum install -y nodejs
 # 检查Node.js和NPM版本
 node -v && npm -v
 ```
@@ -75,7 +74,9 @@ node -v && npm -v
 
 > nodeJs版本管理工具,管理nodejs版本和npm版本
 
+* [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
 * [https://github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)
+* [https://github.com/lukechilds/zsh-nvm](https://github.com/lukechilds/zsh-nvm)
 
 ```bash
 curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash

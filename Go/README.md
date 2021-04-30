@@ -64,6 +64,7 @@
 * 树莓派 [https://github.com/raspberrypi](https://github.com/raspberrypi)
 * 包管理 [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg)
     * [适用于Windows，Linux和MacOS的C ++库管理器](https://docs.microsoft.com/zh-cn/cpp/build/vcpkg)
+* [https://github.com/clibs](https://github.com/clibs)
 * [https://github.com/conan-io/conan](https://github.com/conan-io/conan)
 
 - [https://github.com/gcc-mirror/gcc](https://github.com/gcc-mirror/gcc)
@@ -158,6 +159,7 @@
 + [https://github.com/spf13](https://github.com/spf13)
 + [https://github.com/nanopack](https://github.com/nanopack)
 + [https://github.com/go-logr](https://github.com/go-logr)
++ [https://github.com/apex](https://github.com/apex)
 
 
 
@@ -209,7 +211,6 @@
 * [https://github.com/owenliang/go-push](https://github.com/owenliang/go-push)
 * [https://github.com/rs/zerolog](https://github.com/rs/zerolog)
 * [https://github.com/uber-go/zap](https://github.com/uber-go/zap)
-* [https://github.com/apex/log](https://github.com/apex/log)
 * [https://xorm.io](https://xorm.io)
 * HTTP实现 [https://github.com/valyala/fasthttp](https://github.com/valyala/fasthttp)
 * [https://github.com/parnurzeal/gorequest](https://github.com/parnurzeal/gorequest)
@@ -232,6 +233,7 @@
 * [https://github.com/mattn/go-colorable](https://github.com/mattn/go-colorable)
 * 模板引擎 [https://github.com/valyala/quicktemplate](https://github.com/valyala/quicktemplate)
 * 编解码器 [https://github.com/ugorji/go](https://github.com/ugorji/go)
+* AES256 GCM [https://github.com/sumup-oss/vaulted](https://github.com/sumup-oss/vaulted)
 * Golang注解 [https://github.com/MarcGrol/golangAnnotations](https://github.com/MarcGrol/golangAnnotations)
 * [https://github.com/sbinet/go-python](https://github.com/sbinet/go-python)
 * [https://github.com/yuin/gopher-lua](https://github.com/yuin/gopher-lua)
@@ -246,6 +248,11 @@
 
 ## 工具链
 
+* 安装最新go [https://github.com/golang/tools/tree/master/cmd/getgo](https://github.com/golang/tools/tree/master/cmd/getgo)
+* go版本管理 [https://github.com/stefanmaric/g](https://github.com/stefanmaric/g)
+* [https://github.com/voidint/g](https://github.com/voidint/g)
+* [https://github.com/moovweb/gvm](https://github.com/moovweb/gvm)
+* [https://github.com/syndbg/goenv](https://github.com/syndbg/goenv)
 * 调试器 [https://github.com/go-delve/delve](https://github.com/go-delve/delve)
 * 实时重新加载 [https://github.com/cosmtrek/air](https://github.com/cosmtrek/air)
     * [Go 每日一库之 air](https://segmentfault.com/a/1190000025186913)

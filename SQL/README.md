@@ -24,6 +24,7 @@
 * [https://github.com/google/leveldb](https://github.com/google/leveldb)
 * [https://github.com/couchbase/moss](https://github.com/couchbase/moss)
 * [https://github.com/memcached/memcached](https://github.com/memcached/memcached)
+* [https://github.com/sirixdb](https://github.com/sirixdb)
 
 
 

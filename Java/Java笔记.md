@@ -278,6 +278,19 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
 ## HTTP
 
 
+**常量**
+
+- `java.net.HttpURLConnection`
+- `io.netty.handler.codec.http.HttpResponseStatus`
+- `org.springframework.http.HttpStatus`
+- `org.apache.http.HttpStatus`
+- `org.asynchttpclient.util.HttpConstants`
+- `org.apache.http.protocol.HTTP`
+- `org.springframework.http.HttpHeaders`
+- `javax.ws.rs.HttpMethod`
+- `org.springframework.http.HttpMethod`
+
+
 **Mime-Type/Content-Type/Media-Type**
 
 - `com.google.common.net.MediaType` guava
