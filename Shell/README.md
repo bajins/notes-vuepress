@@ -14,6 +14,22 @@
 
 - 命令行参考大全（Linux、macOS、CMD、PowerShell、VB Script）[https://ss64.com](https://ss64.com)
 - [https://www.robvanderwoude.com](https://www.robvanderwoude.com)
+- [流行的 Linux 发行版包管理器命令的对应关系](https://wiki.archlinux.org/index.php/Pacman_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Rosetta_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
+- [Linux包管理器及包安装工具基础知识](https://blog.csdn.net/u013430110/article/details/107329350)
+
++ 包管理器 [https://github.com/Homebrew](https://github.com/Homebrew)
++ [https://github.com/AppImage](https://github.com/AppImage)
++ [https://github.com/flatpak/flatpak](https://github.com/flatpak/flatpak)
++ [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
+
+
+
+**第三方的软件包搜索引擎：**
+
+- http://pkgs.org
+- http://rpmfind.net
+- http://rpm.pbone.net
+
 
 
 **推荐所有shell脚本都使用sh实现，[Windows可安装Git（集成MinGW-w64）、MinGW-w64、MSYS2、Cygwin](/Shell/WindowsShell.md)**
@@ -178,7 +194,7 @@
 * [https://github.com/openssh](https://github.com/openssh)
     * [https://www.openssh.com](https://www.openssh.com)
 * [https://github.com/electerm/electerm](https://github.com/electerm/electerm)
-* MobaXterm [https://www.mobatek.net](https://www.mobatek.net)
+* [https://github.com/nvbn/thefuck](https://github.com/nvbn/thefuck)
 
 
 **WEB**
@@ -212,6 +228,7 @@
 * [https://github.com/PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable)
     * [https://github.com/PowerShell/Win32-OpenSSH/wiki](https://github.com/PowerShell/Win32-OpenSSH/wiki)
 * [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
+    * [https://docs.microsoft.com/zh-cn/windows/terminal](https://docs.microsoft.com/zh-cn/windows/terminal)
 * [https://github.com/appget](https://github.com/appget)
 * [https://github.com/x64dbg](https://github.com/x64dbg)
 * [https://github.com/Maximus5/ConEmu](https://github.com/Maximus5/ConEmu)
@@ -221,6 +238,8 @@
 * PuTTY [https://www.chiark.greenend.org.uk/~sgtatham/putty](https://www.chiark.greenend.org.uk/~sgtatham/putty)
 * [https://github.com/portapps/kitty-portable](https://github.com/portapps/kitty-portable)
 * [https://github.com/cyd01/KiTTY](https://github.com/cyd01/KiTTY)
+* MobaXterm [https://www.mobatek.net](https://www.mobatek.net)
+
 
 
 

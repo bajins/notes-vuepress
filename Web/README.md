@@ -186,7 +186,7 @@
 * [https://chatra.com](https://chatra.com)
 * [https://crisp.chat](https://crisp.chat)
 * [https://disqus.com](https://disqus.com)
-* [https://github.com/gitalk/gitalk](https://github.com/gitalk/gitalk)
+* [https://github.com/gitalk](https://github.com/gitalk)
     * [Gitalk评论插件使用教程](https://segmentfault.com/a/1190000018072952)
 * [https://github.com/meteorlxy/vssue](https://github.com/meteorlxy/vssue)
 * [https://github.com/imsun/gitment](https://github.com/imsun/gitment)

@@ -79,8 +79,6 @@
 
 ## 聊天社交
 
-
-* [https://git.io](https://git.io)
 * [http://potato.manre.me](http://potato.manre.me)
 * [https://github.com/tootsuite](https://github.com/tootsuite)
 * [https://github.com/signalapp](https://github.com/signalapp)
@@ -95,26 +93,40 @@
 **Telegram**
 
 + [https://github.com/topics/telegram](https://github.com/topics/telegram)
++ [https://github.com/topics/telegram-api](https://github.com/topics/telegram-api)
 
-* [https://github.com/topics/telegram](https://github.com/topics/telegram)
-    * [https://github.com/goq/telegram-list](https://github.com/goq/telegram-list)
-    * [https://github.com/telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop)
-    * [https://github.com/DrKLO/Telegram](https://github.com/DrKLO/Telegram)
-* [https://telegram.zczc.men](https://telegram.zczc.men)
-* [https://github.com/zhukov/webogram](https://github.com/zhukov/webogram)
-    * [https://zhukov.github.io/webogram](https://zhukov.github.io/webogram)
+* [https://github.com/goq/telegram-list](https://github.com/goq/telegram-list)
+* [https://telegram.org/apps#source-code](https://telegram.org/apps#source-code)
+    * 跨平台库 [https://github.com/tdlib](https://github.com/tdlib)
+    * Android [https://github.com/DrKLO/Telegram](https://github.com/DrKLO/Telegram)
+    * iOS [https://github.com/TelegramMessenger/Telegram-iOS](https://github.com/TelegramMessenger/Telegram-iOS)
+    * macOS [https://github.com/overtake/TelegramSwift](https://github.com/overtake/TelegramSwift)
+    * Windows [https://github.com/telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop)
+    * [https://github.com/UnigramDev/Unigram](https://github.com/UnigramDev/Unigram)
+    * web [https://github.com/morethanwords/tweb](https://github.com/morethanwords/tweb)
+    * [https://github.com/Ajaxy/telegram-tt](https://github.com/Ajaxy/telegram-tt)
+    * [https://telegram.zczc.men](https://telegram.zczc.men)
+    * [https://github.com/zhukov/webogram](https://github.com/zhukov/webogram)
+        * [https://zhukov.github.io/webogram](https://zhukov.github.io/webogram)
+    * [https://github.com/evgeny-nadymov/telegram-react](https://github.com/evgeny-nadymov/telegram-react)
+        * [https://evgeny-nadymov.github.io/telegram-react](https://evgeny-nadymov.github.io/telegram-react)
+    * 命令行 [https://github.com/vysheng/tg](https://github.com/vysheng/tg)
+    * [https://github.com/kenorb-contrib/tg](https://github.com/kenorb-contrib/tg)
+    * [https://github.com/Dineshkarthik/telegram_media_downloader](https://github.com/Dineshkarthik/telegram_media_downloader)
 * [https://github.com/idealclover/Telegram-Channel-Mirror](https://github.com/idealclover/Telegram-Channel-Mirror)
 
-+ [https://t.me/Tele_zh_CN](https://t.me/Tele_zh_CN)
 + [https://congcong0806.github.io/tags/#Telegram](https://congcong0806.github.io/tags/#Telegram)
+    + [Telegram 官方客户端支持中文语言](https://github.com/congcong0806/congcong0806.github.io/blob/master/_posts/2019-02-21-Telegram.md)
 + 群组导航bot [https://t.me/zh_groups_bot](https://t.me/zh_groups_bot)
 + 群组导航bot [https://t.me/hao1234bot](https://t.me/hao1234bot)
 + telegram 资源频道搜索 [http://www.sssoou.com](http://www.sssoou.com)
 + [Telegram群组/频道/机器人推荐](https://www.newlearner.site/2018/10/19/telegram-group/channel/bot.html)
 + [Telegram一份更完整的群组推荐，包含社群/频道/机器人](https://blog.liyuans.com/archives/telegram-recommendation.html)
 
+- [https://github.com/chill117/proxy-lists](https://github.com/chill117/proxy-lists)
 - [https://t.me/s/wuaipojie](https://t.me/s/wuaipojie)
 - [https://t.me/s/infosaodaye](https://t.me/s/infosaodaye)
+
 
 
 
@@ -272,8 +284,13 @@
 + [https://github.com/topics/m3u](https://github.com/topics/m3u)
 + [https://github.com/iptv-org](https://github.com/iptv-org)
 
+- [https://github.com/topics/fft](https://github.com/topics/fft)
+- [https://github.com/topics/ffmpeg](https://github.com/topics/ffmpeg)
+- [https://github.com/topics/mpeg](https://github.com/topics/mpeg)
+- [https://github.com/topics/mp4](https://github.com/topics/mp4)
 - [https://github.com/FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg)
 - [https://medlexo.ml/cn.php](https://medlexo.ml/cn.php)
+- [https://github.com/HandBrake/HandBrake](https://github.com/HandBrake/HandBrake)
 
 * [foobar2000](http://blog.sina.com.cn/go2spa)
 * [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)

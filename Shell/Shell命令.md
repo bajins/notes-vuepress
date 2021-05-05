@@ -12,12 +12,8 @@
 >
 > `Shell`管理你与操作系统之间的交互：等待你输入，向操作系统解释你的输入，并且处理各种各样的操作系统的输出结果。
 
-+ [https://github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
 + [https://github.com/awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash)
-+ 包管理器 [https://github.com/Homebrew](https://github.com/Homebrew)
 
-
-* [精选的优秀命令行框架](https://github.com/alebcay/awesome-shell)
 * [Linux常用命令汇总](https://blog.csdn.net/Mculover666/article/details/84558280)
 
 - [Linux下Shell脚本字符串单引号、双引号、反引号、反斜杠的作用和区别](https://www.cnblogs.com/EasonJim/p/8018545.html)

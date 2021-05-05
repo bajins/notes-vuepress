@@ -46,6 +46,9 @@
 - [https://antixlinux.com](https://antixlinux.com)
 - [https://mxlinux.org](https://mxlinux.org)
 - [https://github.com/canonical-web-and-design](https://github.com/canonical-web-and-design)
+- [https://github.com/BlackArch](https://github.com/BlackArch)
+- [https://gitlab.com/kalilinux](https://gitlab.com/kalilinux)
+    - [https://www.kali.org](https://www.kali.org)
 
 
 

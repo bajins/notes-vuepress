@@ -213,9 +213,6 @@
     - `5EZ8G-C3WL5-B56YG-SCXM9-6QZAP`（Standard Edition）
     - `P427L-9Y552-5433E-8DSR3-58Z68`（MAC）
 - [https://github.com/mellow-io/mellow](https://github.com/mellow-io/mellow)
-- [https://github.com/Dreamacro/clash](https://github.com/Dreamacro/clash)
-    - [https://github.com/Fndroid/clash_for_windows_pkg](https://github.com/Fndroid/clash_for_windows_pkg)
-    - [Clash for Windows 配置教程](https://bluedoc.io/agentneo/docs/mmee)
 - SocksCap64 HOOK了Windows Sockets API [https://www.sockscap64.com/sockscap64-official-homepage-chinese](https://www.sockscap64.com/sockscap64-official-homepage-chinese)
 
 
