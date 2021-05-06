@@ -10,6 +10,8 @@
 > Shell俗称壳（用来区别于核），是指“为使用者提供操作界面”的软件（命令解析器），
 > Shell也用于泛指所有为用户提供操作界面的程序，也就是程序和用户交互的层面
 
+> 终端（Terminal）是控制台（Console）设备内的软件程序。shell是终端向用户发送输入的程序。shell生成输出并将其传回终端进行显示。
+
 * [https://en.wikipedia.org/wiki/Shell_(computing)](https://en.wikipedia.org/wiki/Shell_(computing))
 
 - 命令行参考大全（Linux、macOS、CMD、PowerShell、VB Script）[https://ss64.com](https://ss64.com)
