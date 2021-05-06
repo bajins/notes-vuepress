@@ -320,12 +320,16 @@ request({
 * [https://github.com/puppeteer](https://github.com/puppeteer)
     * [https://github.com/adieuadieu/serverless-chrome](https://github.com/adieuadieu/serverless-chrome)
     * [https://github.com/N0taN3rd/chrome-remote-interface-extra](https://github.com/N0taN3rd/chrome-remote-interface-extra)
+    * [https://github.com/cowchimp/headless-devtools](https://github.com/cowchimp/headless-devtools)
     * [Puppeteer配置小记](https://www.itfanr.cc/2019/04/10/configuration-development-of-puppeteer)
     * [https://github.com/zhaoqize/puppeteer-api-zh_CN](https://github.com/zhaoqize/puppeteer-api-zh_CN)
 * 自动化 [https://github.com/microsoft/playwright](https://github.com/microsoft/playwright)
+* [https://github.com/getgauge/taiko](https://github.com/getgauge/taiko)
+* [https://github.com/milankinen/cuic](https://github.com/milankinen/cuic)
 * 基于webkit的JavaScript API [https://github.com/ariya/phantomjs](https://github.com/ariya/phantomjs)
     * [PhantomJS -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/tool/phantomjs.html)
 * [https://github.com/cyrus-and/chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface)
+* [https://github.com/TracerBench/chrome-debugging-client](https://github.com/TracerBench/chrome-debugging-client)
 
 - [https://github.com/inu1255/soulsign-chrome](https://github.com/inu1255/soulsign-chrome)
 

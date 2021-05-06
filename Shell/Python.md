@@ -104,6 +104,9 @@ with Test() as t: # 触发__exit__
     - 自动化交互式 [https://github.com/pexpect/pexpect](https://github.com/pexpect/pexpect)
     - [https://github.com/pytest-dev/pytest](https://github.com/pytest-dev/pytest)
     - [https://github.com/jacebrowning/pytest-expecter](https://github.com/jacebrowning/pytest-expecter)
+- [https://github.com/fabric](https://github.com/fabric)
+- [https://github.com/pyinvoke/invoke](https://github.com/pyinvoke/invoke)
+- [https://github.com/paramiko](https://github.com/paramiko)
 - [https://github.com/topics/ops](https://github.com/topics/ops)
 
 

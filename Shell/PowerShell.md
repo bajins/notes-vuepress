@@ -356,6 +356,16 @@ Function Lock-WorkStation {
 ```
 
 
+**查看进程启动参数**
+
+```powershell
+# 查看所有进程
+wmic process get caption,commandline /value
+# 查看单个进程
+wmic process where caption="svchost.exe" get caption,commandline /value
+wmic process get caption,commandline /value | findstr "svchost.exe"
+```
+
 
 
 **解压zip**

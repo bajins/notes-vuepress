@@ -65,11 +65,14 @@ chrome://flags/#enable-parallel-downloading
 ## DevTools
 
 + [https://github.com/search?q=chrome-dev-tools](https://github.com/search?q=chrome-dev-tools)
++ [https://github.com/topics/chrome-debugging-protocol](https://github.com/topics/chrome-debugging-protocol)
 
 * [https://github.com/ChromeDevTools](https://github.com/ChromeDevTools)
+* [https://github.com/ChromeDevTools/awesome-chrome-devtools](https://github.com/ChromeDevTools/awesome-chrome-devtools)
 * [https://github.com/GoogleChrome/devtools-docs](https://github.com/GoogleChrome/devtools-docs)
     * [https://developer.chrome.com/devtools/index](https://developer.chrome.com/devtools/index)
     * [https://devtools.chrome.com](https://devtools.chrome.com)
+    * [https://developer.chrome.com/docs/devtools/#chrome-remote-interface](https://developer.chrome.com/docs/devtools/#chrome-remote-interface)
     * [https://developers.google.com/web/tools/chrome-devtools](https://developers.google.com/web/tools/chrome-devtools)
     * [https://github.com/leeon/chrome_devtool_book](https://github.com/leeon/chrome_devtool_book)
         * [https://leeon.gitbooks.io/devtools](https://leeon.gitbooks.io/devtools)
