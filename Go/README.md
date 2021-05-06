@@ -32,7 +32,7 @@
 - Gopher日报 [https://github.com/bigwhite/gopherdaily](https://github.com/bigwhite/gopherdaily)
 
 
-**[Windows下可以安装MinGW-w64、MSYS2、Cygwin](/Shell/WindowsShell.md)以调用GCC，Windows10下推荐使用WSL**
+**[Windows下可以安装MinGW-w64、MSYS2、Cygwin](/Shell/ShellWindows.md)以调用GCC，Windows10下推荐使用WSL**
 
 
 

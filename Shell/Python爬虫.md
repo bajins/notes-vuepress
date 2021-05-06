@@ -73,6 +73,7 @@ taskkill /f /im chromedriver.exe
 
 * [https://github.com/Sitoi/dailycheckin](https://github.com/Sitoi/dailycheckin)
 * [https://github.com/BlueSkyClouds/My-Actions](https://github.com/BlueSkyClouds/My-Actions)
+* [https://github.com/mengshouer/CheckinBox](https://github.com/mengshouer/CheckinBox)
 
 
 **京东**

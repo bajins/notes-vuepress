@@ -32,7 +32,7 @@
 
 
 
-**推荐所有shell脚本都使用sh实现，[Windows可安装Git（集成MinGW-w64）、MinGW-w64、MSYS2、Cygwin](/Shell/WindowsShell.md)**
+**推荐所有shell脚本都使用sh实现，[Windows可安装Git（集成MinGW-w64）、MinGW-w64、MSYS2、Cygwin](/Shell/ShellWindows.md)**
 **Windows10下推荐使用WSL**
 
 

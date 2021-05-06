@@ -9,6 +9,9 @@
 
 * [https://github.com/pyqtgraph/pyqtgraph](https://github.com/pyqtgraph/pyqtgraph)
 * 流程图 [https://github.com/leon-thomm/Ryven](https://github.com/leon-thomm/Ryven)
+* 自动操作GUI [https://github.com/asweigart/pyautogui](https://github.com/asweigart/pyautogui)
+    * [Python自动操作GUI神器PyAutoGUI](https://silaoa.github.io/2020/2020-11-27-Python%E8%87%AA%E5%8A%A8%E6%93%8D%E4%BD%9CGUI%E7%A5%9E%E5%99%A8PyAutoGUI.html)
+* [https://github.com/pywinauto/pywinauto](https://github.com/pywinauto/pywinauto)
 
 - [https://github.com/zwjjiaozhu/gitchat_download](https://github.com/zwjjiaozhu/gitchat_download)
 
