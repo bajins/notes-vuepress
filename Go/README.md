@@ -42,52 +42,6 @@
 
 
 
-**Rust**
-
-* [https://github.com/rust-lang](https://github.com/rust-lang)
-* [http://www.rust-lang.org](http://www.rust-lang.org)
-* [http://doc.rust-lang.org](http://doc.rust-lang.org)
-
-- [Rust - 花落花开](http://www.hualuohuakai.net/tags/Rust)
-- [https://budshome.com](https://budshome.com)
-- [https://github.com/mesalock-linux/mesalink](https://github.com/mesalock-linux/mesalink)
-- [https://github.com/ctz/rustls](https://github.com/ctz/rustls)
-- [https://github.com/briansmith/webpki](https://github.com/briansmith/webpki)
-- [https://github.com/briansmith/ring](https://github.com/briansmith/ring)
-- [https://github.com/atroche/rust-headless-chrome](https://github.com/atroche/rust-headless-chrome)
-* [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
-
-
-**C/C++**
-
-* [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui)
-* [https://github.com/FlaxEngine/FlaxEngine](https://github.com/FlaxEngine/FlaxEngine)
-* 树莓派 [https://github.com/raspberrypi](https://github.com/raspberrypi)
-* 包管理 [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg)
-    * [适用于Windows，Linux和MacOS的C ++库管理器](https://docs.microsoft.com/zh-cn/cpp/build/vcpkg)
-* [https://github.com/clibs](https://github.com/clibs)
-* [https://github.com/conan-io/conan](https://github.com/conan-io/conan)
-* [https://github.com/gcc-mirror/gcc](https://github.com/gcc-mirror/gcc)
-
-+ [https://github.com/qinguoyi/TinyWebServer](https://github.com/qinguoyi/TinyWebServer)
-+ [https://github.com/ImpulseAdventure/GUIslice-Builder](https://github.com/ImpulseAdventure/GUIslice-Builder)
-    + [https://github.com/ImpulseAdventure/GUIslice](https://github.com/ImpulseAdventure/GUIslice)
-
-
-> C语言的编译器有很多种，不同的平台下有不同的编译器
-
-* [第三方针对各种不同系统制作的GCC安装包](http://gcc.gnu.org/install/binaries.html)
-* [主流C语言编译器有哪些？](http://c.biancheng.net/view/144.html)
-
-- Windows 下常用的是微软开发的 Visual C++，它被集成在 Visual Studio 中，一般不单独使用；
-- Linux 下常用的是 GUN 组织开发的 GCC，很多 Linux 发行版都自带 GCC；
-- Mac 下常用的是 LLVM/Clang，它被集成在 Xcode 中（Xcode 以前集成的是 GCC，后来由于 GCC 的不配合才改为 LLVM/Clang，LLVM/Clang 的性能比 GCC 更加强大）。
-
-> Visual C++（简称 MSVC）是由微软开发的，只能用于 Windows 操作系统；GCC 和 LLVM Clang 除了可用于 Windows 操作系统之外，主要用于 Unix/Linux 操作系统。
-
-
-
-
 
 ## 学习
 

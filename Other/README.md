@@ -15,10 +15,11 @@
 + [python、java、c、go执行速度对比](https://www.jianshu.com/p/d60eff598aa0)
 
 
-* [https://github.com/search?q=learning&type=Repositories](https://github.com/search?q=learning&type=Repositories)
+* [https://github.com/search?q=learning](https://github.com/search?q=learning)
 
 - [https://stripe.com/zh-cn-us/payments/payment-methods-guide#wechat-pay](https://stripe.com/zh-cn-us/payments/payment-methods-guide#wechat-pay)
 
+* 编程语言排行 [https://www.tiobe.com/tiobe-index](https://www.tiobe.com/tiobe-index)
 * GitHub上的游戏项目 [https://github.com/leereilly/games](https://github.com/leereilly/games)
 * 免费可商用字体 [https://github.com/wordshub/free-font](https://github.com/wordshub/free-font)
 * IP库 [https://db-ip.com](https://db-ip.com)
@@ -33,6 +34,100 @@
 * [https://www.pushplus.plus](https://www.pushplus.plus)
 * [https://pushplus.hxtrip.com](https://pushplus.hxtrip.com)
 * [https://github.com/wxpusher](https://github.com/wxpusher)
+
+
+
+
+## 其他编程语言
+
+
+**Rust**
+
+* [https://github.com/rust-lang](https://github.com/rust-lang)
+* [http://www.rust-lang.org](http://www.rust-lang.org)
+* [http://doc.rust-lang.org](http://doc.rust-lang.org)
+
+- [Rust - 花落花开](http://www.hualuohuakai.net/tags/Rust)
+- [https://budshome.com](https://budshome.com)
+- [https://github.com/mesalock-linux/mesalink](https://github.com/mesalock-linux/mesalink)
+- [https://github.com/ctz/rustls](https://github.com/ctz/rustls)
+- [https://github.com/briansmith/webpki](https://github.com/briansmith/webpki)
+- [https://github.com/briansmith/ring](https://github.com/briansmith/ring)
+- [https://github.com/atroche/rust-headless-chrome](https://github.com/atroche/rust-headless-chrome)
+* [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
+
+
+**C/C++**
+
+* [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui)
+* [https://github.com/FlaxEngine/FlaxEngine](https://github.com/FlaxEngine/FlaxEngine)
+* 树莓派 [https://github.com/raspberrypi](https://github.com/raspberrypi)
+* 包管理 [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg)
+    * [适用于Windows，Linux和MacOS的C ++库管理器](https://docs.microsoft.com/zh-cn/cpp/build/vcpkg)
+* [https://github.com/clibs](https://github.com/clibs)
+* [https://github.com/conan-io/conan](https://github.com/conan-io/conan)
+* [https://github.com/gcc-mirror/gcc](https://github.com/gcc-mirror/gcc)
+
++ [https://github.com/qinguoyi/TinyWebServer](https://github.com/qinguoyi/TinyWebServer)
++ [https://github.com/ImpulseAdventure/GUIslice-Builder](https://github.com/ImpulseAdventure/GUIslice-Builder)
+    + [https://github.com/ImpulseAdventure/GUIslice](https://github.com/ImpulseAdventure/GUIslice)
+
+
+> C语言的编译器有很多种，不同的平台下有不同的编译器
+
+* [第三方针对各种不同系统制作的GCC安装包](http://gcc.gnu.org/install/binaries.html)
+* [主流C语言编译器有哪些？](http://c.biancheng.net/view/144.html)
+
+- Windows 下常用的是微软开发的 Visual C++（MSVC）、Clang、CMake 或 MS Build；
+- Linux 下常用的是 GUN 组织开发的 GCC，很多 Linux 发行版都自带 GCC；
+- Mac 下常用的是 LLVM/Clang，它被集成在 Xcode 中（Xcode 以前集成的是 GCC，后来由于 GCC 的不配合才改为 LLVM/Clang，LLVM/Clang 的性能比 GCC 更加强大）。
+
+> Visual C++（简称 MSVC）是由微软开发的，只能用于 Windows 操作系统；GCC 和 LLVM Clang 除了可用于 Windows 操作系统之外，主要用于 Unix/Linux 操作系统。
+
+
+
+**dotnet(.NET)/CSharp**
+
++ [https://github.com/dotnet-foundation](https://github.com/dotnet-foundation)
+    + [https://dotnetfoundation.org/projects](https://dotnetfoundation.org/projects)
+
+* [https://github.com/dotnet](https://github.com/dotnet)
+    * [https://docs.microsoft.com/zh-cn/dotnet](https://docs.microsoft.com/zh-cn/dotnet)
+    * [https://dotnet.microsoft.com](https://dotnet.microsoft.com)
+* 包管理 [https://docs.microsoft.com/zh-cn/nuget](https://docs.microsoft.com/zh-cn/nuget)
+* [https://github.com/mono/mono](https://github.com/mono/mono)
+* [https://docs.microsoft.com/zh-cn/aspnet](https://docs.microsoft.com/zh-cn/aspnet)
+* [https://docs.microsoft.com/zh-cn/cpp](https://docs.microsoft.com/zh-cn/cpp)
+* [https://github.com/xamarin](https://github.com/xamarin)
+    * [https://docs.microsoft.com/zh-cn/xamarin](https://docs.microsoft.com/zh-cn/xamarin)
+
+- [https://docs.microsoft.com/zh-cn/windows/win32/apiindex/windows-api-list](https://docs.microsoft.com/zh-cn/windows/win32/apiindex/windows-api-list)
+- [https://visualstudio.microsoft.com/zh-hans/vs](https://visualstudio.microsoft.com/zh-hans/vs)
+
+
+
+**TypeScript**
+
+* [https://github.com/Microsoft/TypeScript](https://github.com/Microsoft/TypeScript)
+    * [lib目录下包含了所有JavaScript官方DOM API](https://github.com/microsoft/TypeScript/tree/master/lib)
+* [https://www.typescriptlang.org](https://www.typescriptlang.org)
+* [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese)
+
+
+**WebAssembly**
+
++ [https://github.com/topics/wasm](https://github.com/topics/wasm)
+
+* [https://github.com/WebAssembly](https://github.com/WebAssembly)
+* [https://developer.mozilla.org/zh-CN/docs/WebAssembly](https://developer.mozilla.org/zh-CN/docs/WebAssembly)
+* [https://webassembly.org](https://webassembly.org)
+* [https://www.wasm.com.cn](https://www.wasm.com.cn)
+
+- Mozilla：可以用 Rust + WebAssembly 作为 JavaScript 替代
+- Google：可以用 Dart + WebAssembly 作为 JavaScript 替代
+- Microsoft：可以用 TypeScript/AssemblyScript + WebAssembly 作为 JavaScript 替代
+
+* [https://github.com/ShizukuIchi/winXP](https://github.com/ShizukuIchi/winXP)
 
 
 

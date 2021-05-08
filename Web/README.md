@@ -33,27 +33,6 @@
 + [f2ex.cn 各种前端资源](http://f2ex.cn)
 
 
-**TypeScript**
-
-* [https://github.com/Microsoft/TypeScript](https://github.com/Microsoft/TypeScript)
-    * [lib目录下包含了所有JavaScript官方DOM API](https://github.com/microsoft/TypeScript/tree/master/lib)
-* [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese)
-
-
-**WebAssembly**
-
-+ [https://github.com/topics/wasm](https://github.com/topics/wasm)
-
-* [https://github.com/WebAssembly](https://github.com/WebAssembly)
-* [https://developer.mozilla.org/zh-CN/docs/WebAssembly](https://developer.mozilla.org/zh-CN/docs/WebAssembly)
-* [https://webassembly.org](https://webassembly.org)
-* [https://www.wasm.com.cn](https://www.wasm.com.cn)
-
-- Mozilla：可以用 Rust + WebAssembly 作为 JavaScript 替代
-- Google：可以用 Dart + WebAssembly 作为 JavaScript 替代
-- Microsoft：可以用 TypeScript/AssemblyScript + WebAssembly 作为 JavaScript 替代
-
-* [https://github.com/ShizukuIchi/winXP](https://github.com/ShizukuIchi/winXP)
 
 
 
