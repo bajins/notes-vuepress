@@ -18,11 +18,19 @@
 - [https://www.robvanderwoude.com](https://www.robvanderwoude.com)
 - [流行的 Linux 发行版包管理器命令的对应关系](https://wiki.archlinux.org/index.php/Pacman_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Rosetta_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 - [Linux包管理器及包安装工具基础知识](https://blog.csdn.net/u013430110/article/details/107329350)
+- GUI [什么是X11-Forwarding](https://blog.csdn.net/weixin_41668084/article/details/113361765)
 
 + 包管理器 [https://github.com/Homebrew](https://github.com/Homebrew)
 + [https://github.com/AppImage](https://github.com/AppImage)
 + [https://github.com/flatpak/flatpak](https://github.com/flatpak/flatpak)
 + [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
++ 多个shell软件包镜像 [https://github.com/mirror](https://github.com/mirror)
+
+- 命令补全 [https://github.com/scop/bash-completion](https://github.com/scop/bash-completion)
+- [https://sourceforge.net/projects/zsh](https://sourceforge.net/projects/zsh)
+- [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+- [https://github.com/Bash-it/bash-it](https://github.com/Bash-it/bash-it)
+
 
 
 
@@ -172,9 +180,9 @@
 
 ## SSH
 
-> Secure Shell（SSH）
+> Secure Shell（SSH）/bourne shell(sh或bsh)/KornShell(ksh)
 
-> [OpenSSH](https://github.com/openssl/openssl) 私钥后缀是`pem`，PuTTY 私钥后缀是`ppk`
+> OpenSSH 私钥后缀是`pem`，PuTTY 私钥后缀是`ppk`
 
 * [https://github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
 * [https://github.com/topics/fish](https://github.com/topics/fish)
@@ -185,14 +193,15 @@
 * [https://github.com/topics/ssh](https://github.com/topics/ssh)
 * [https://github.com/topics/remote-access](https://github.com/topics/remote-access)
 * [https://github.com/mskyaxl/wsl-terminal](https://github.com/mskyaxl/wsl-terminal)
-* [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
-
 
 - [https://github.com/topics/sftp](https://github.com/topics/sftp)
 - [https://github.com/topics/sftp-client](https://github.com/topics/sftp-client)
 - [https://github.com/topics/ftp-client](https://github.com/topics/ftp-client)
 
+* [https://github.com/janmojzis/tinyssh](https://github.com/janmojzis/tinyssh)
+* [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
 * [https://github.com/HaleyWang/SpringRemote](https://github.com/HaleyWang/SpringRemote)
+* OpenSSH [https://github.com/openssl](https://github.com/openssl)
 * [https://github.com/openssh](https://github.com/openssh)
     * [https://www.openssh.com](https://www.openssh.com)
 * [https://github.com/electerm/electerm](https://github.com/electerm/electerm)
@@ -201,15 +210,15 @@
 
 **WEB**
 
-* [xterm.js](https://github.com/xtermjs/xterm.js)
-* [webssh](https://github.com/huashengdun/webssh)
-* [WebSSH2](https://github.com/billchurch/WebSSH2)
+* [https://github.com/xtermjs/xterm.js](https://github.com/xtermjs/xterm.js)
+* [https://github.com/huashengdun/webssh](https://github.com/huashengdun/webssh)
+* [https://github.com/billchurch/WebSSH2](https://github.com/billchurch/WebSSH2)
 * [https://github.com/mscdex/ssh2](https://github.com/mscdex/ssh2)
 
 
 **Android**
 
-+ [SSH client for Android](https://github.com/search?o=desc&q=SSH+client+for+Android&s=updated&type=Repositories)
++ [SSH client for Android](https://github.com/search?q=SSH+client+for+Android)
 
 * [https://github.com/topics/termux](https://github.com/topics/termux)
     * [https://github.com/termux](https://github.com/termux)
@@ -219,7 +228,7 @@
 
 
 
-**Windows**
+**Windows终端复用器**
 
 + [https://github.com/topics/windows](https://github.com/topics/windows)
 + [https://github.com/topics/putty](https://github.com/topics/putty)

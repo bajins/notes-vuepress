@@ -169,6 +169,7 @@
 * [https://xorm.io](https://xorm.io)
 * HTTP实现 [https://github.com/valyala/fasthttp](https://github.com/valyala/fasthttp)
 * [https://github.com/parnurzeal/gorequest](https://github.com/parnurzeal/gorequest)
+* [https://github.com/go-session](https://github.com/go-session)
 * 图表库 [https://github.com/go-echarts](https://github.com/go-echarts)
 * 生成和管理调色板 [https://github.com/muesli/gamut](https://github.com/muesli/gamut)
 * 任务排队系统 [https://git.sr.ht/~sircmpwn/dowork](https://git.sr.ht/~sircmpwn/dowork)

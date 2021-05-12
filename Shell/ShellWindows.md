@@ -71,7 +71,7 @@
 + [https://github.com/topics/msvc](https://github.com/topics/msvc)
 
 * [http://mingw-w64.org](http://mingw-w64.org)
-
+    * [https://github.com/mirror/mingw-w64](https://github.com/mirror/mingw-w64)
 
 
 ### MinGW-w64下载

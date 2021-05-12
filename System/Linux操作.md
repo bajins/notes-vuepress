@@ -169,13 +169,17 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 * [Python版Daemon](/Shell/Python笔记.md#daemon)
 * [Golang版Daemon更加简易可用](/Go/Go笔记.md#daemon)
 * [https://github.com/canonical/pebble](https://github.com/canonical/pebble)
+* [https://github.com/kovidgoyal/kitty](https://github.com/kovidgoyal/kitty)
 
 
 ### Tmux
 
 > `tmux`是一款`Linux`下的终端复用工具，可以开启不同的终端窗口来将应用程序作为后台守护进程执行，即使远程连接的SSH断开也不会影响程序的执行。
 
+* [https://github.com/search?q=tmux](https://github.com/search?q=tmux)
 * [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
+* [https://github.com/gpakosz/.tmux](https://github.com/gpakosz/.tmux)
+* [https://github.com/tmux-plugins](https://github.com/tmux-plugins)
 * [http://www.ruanyifeng.com/blog/2019/10/tmux.html](http://www.ruanyifeng.com/blog/2019/10/tmux.html)
 * [https://louiszhai.github.io/2017/09/30/tmux](https://louiszhai.github.io/2017/09/30/tmux)
 * [https://gist.github.com/MohamedAlaa/2961058](https://gist.github.com/MohamedAlaa/2961058)

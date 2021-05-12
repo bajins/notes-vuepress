@@ -43,7 +43,6 @@
     * [https://github.com/ScoopInstaller](https://github.com/ScoopInstaller)
     * [https://github.com/lukesampson/scoop-extras](https://github.com/lukesampson/scoop-extras)
 * [https://github.com/cmderdev/cmder](https://github.com/cmderdev/cmder)
-* [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 
 
 

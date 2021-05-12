@@ -89,6 +89,11 @@
 * [https://github.com/matrix-org](https://github.com/matrix-org)
 * [https://github.com/GetStream](https://github.com/GetStream)
 
+- [https://github.com/topics/curses](https://github.com/topics/curses)
+- [https://github.com/topics/ncurses](https://github.com/topics/ncurses)
+- [https://github.com/profanity-im/profanity](https://github.com/profanity-im/profanity)
+- [https://github.com/irssi/irssi](https://github.com/irssi/irssi)
+
 
 **Telegram**
 
