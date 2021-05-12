@@ -114,6 +114,9 @@
     * [https://github.com/kenorb-contrib/tg](https://github.com/kenorb-contrib/tg)
     * [https://github.com/Dineshkarthik/telegram_media_downloader](https://github.com/Dineshkarthik/telegram_media_downloader)
 * [https://github.com/idealclover/Telegram-Channel-Mirror](https://github.com/idealclover/Telegram-Channel-Mirror)
+* [https://github.com/kiwiirc](https://github.com/kiwiirc)
+    * [https://freenode.net](https://freenode.net)
+    * [https://webchat.freenode.net](https://webchat.freenode.net)
 
 + [https://congcong0806.github.io/tags/#Telegram](https://congcong0806.github.io/tags/#Telegram)
     + [Telegram 官方客户端支持中文语言](https://github.com/congcong0806/congcong0806.github.io/blob/master/_posts/2019-02-21-Telegram.md)
@@ -347,6 +350,7 @@
 - [https://www.hellofont.cn](https://www.hellofont.cn)
 - 录屏 [https://github.com/obsproject/obs-studio](https://github.com/obsproject/obs-studio)
 - [https://github.com/aseprite/aseprite](https://github.com/aseprite/aseprite)
+- 必应壁纸 [https://www.microsoft.com/zh-cn/bing/bing-wallpaper-msn](https://www.microsoft.com/zh-cn/bing/bing-wallpaper-msn)
 
 
 

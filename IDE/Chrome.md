@@ -106,8 +106,7 @@ chrome://flags/#enable-parallel-downloading
 
 > 很有可能是开启了`Pretty Print`（JS编辑框左下角的`{}`）导致
 
-- `Source` -> JS编辑框左下角的`{}`如果有则点击一下再看JS是否可编辑
-- 新版本， 点击最右侧⚙️(Settings) -> Perference -> Restore defaults and reload
+- 新版本， 点击最右侧⚙️(Settings) -> Perference -> Restore defaults and reload （重置设置）
 - 老版本， ┇ -> More tools -> Settings -> Perference -> Restore defaults and reload
 - 关闭Chrome -> `%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\` -> 编辑 `Preferences.json` -> `prettyPrintInfobarDisabled: false`
 

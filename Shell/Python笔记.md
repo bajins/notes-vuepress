@@ -544,7 +544,7 @@ print(res.read().decode("utf-8"))
 # 创建一个opener对象
 opener = urllib.request.build_opener()
 # 向opener传入请求头信息
-opener.addheaders = [('User-agent',USER_AGENT)]
+opener.addheaders.append(('User-agent', USER_AGENT))
 # 将创建好的opener对象装入request
 urllib.request.install_opener(opener)
 filename, res = urllib.request.urlretrieve("https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png", "test.png")
