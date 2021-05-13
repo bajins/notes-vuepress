@@ -11,6 +11,9 @@
 * [http://hsqldb.org](http://hsqldb.org)
 * [https://github.com/FirebirdSQL/firebird](https://github.com/FirebirdSQL/firebird)
 
+- 同步 [https://github.com/alibaba/DataX](https://github.com/alibaba/DataX)
+- 日志解析订阅和消费 [https://github.com/alibaba/canal](https://github.com/alibaba/canal)
+- [https://github.com/ucarGroup/DataLink](https://github.com/ucarGroup/DataLink)
 - [https://github.com/flyway/flyway](https://github.com/flyway/flyway)
 
 * [https://db-engines.com/en/ranking](https://db-engines.com/en/ranking)
@@ -25,6 +28,7 @@
 * [https://github.com/couchbase/moss](https://github.com/couchbase/moss)
 * [https://github.com/memcached/memcached](https://github.com/memcached/memcached)
 * [https://github.com/sirixdb](https://github.com/sirixdb)
+* [https://github.com/scylladb/scylla](https://github.com/scylladb/scylla)
 
 
 

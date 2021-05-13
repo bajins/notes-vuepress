@@ -18,6 +18,7 @@
 + [https://awesomeopensource.com](https://awesomeopensource.com)
 + [https://github.com/bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)
 + [https://github.com/tuvtran/project-based-learning](https://github.com/tuvtran/project-based-learning)
++ IT技术知识开源图谱 [https://codechina.csdn.net/dev-roadmap](https://codechina.csdn.net/dev-roadmap)
 
 
 **开源组织**
@@ -153,6 +154,7 @@
 + [https://github.com/PacktPublishing](https://github.com/PacktPublishing)
 
 
+* 计算机电子书 [https://github.com/itdevbooks/pdf](https://github.com/itdevbooks/pdf)
 * 书栈网 [https://github.com/TruthHun/BookStack](https://github.com/TruthHun/BookStack)
     * [https://www.bookstack.cn](https://www.bookstack.cn)
 * 天赋好书 [https://cntofu.com](https://cntofu.com)
@@ -306,6 +308,7 @@
 * [archives - bugstack虫洞栈](https://bugstack.cn/archives.html)
 * [归档 | IT宅-arthinking's blog](https://www.itzhai.com/archives)
 * [归档 | 张振伟的博客](https://zhangzw.com/archives)
+* [JMCui - 博客园](https://www.cnblogs.com/jmcui)
 
 
 

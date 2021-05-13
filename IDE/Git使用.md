@@ -7,19 +7,23 @@
 
 ## Flag
 
++ [https://github.com/progit](https://github.com/progit)
+  + [http://git-scm.com/book](http://git-scm.com/book)
+  + [https://github.com/progit/progit2-zh](https://github.com/progit/progit2-zh)
+  + [https://github.com/progit-cn](https://github.com/progit-cn)
+    + Pro Git 中文版（第二版） [https://progit.bootcss.com](https://progit.bootcss.com)
+    + [https://codechina_dev.gitcode.host/progit2](https://codechina_dev.gitcode.host/progit2)
 + [https://github.com/apachecn/git-doc-zh](https://github.com/apachecn/git-doc-zh)
-    + [https://git.apachecn.org](https://git.apachecn.org)
+  + [https://git.apachecn.org](https://git.apachecn.org)
 + [常用命令 · git笔记 · 看云](https://www.kancloud.cn/leviio/git/330946)
 + [Git 常用命令及使用详解 - 喵斯基部落](https://www.moewah.com/archives/2292.html)
-+ Pro Git 中文版（第二版）: [https://progit.bootcss.com](https://progit.bootcss.com)
 + Git速查手册 [https://github.com/arslanbilal/git-cheat-sheet](https://github.com/arslanbilal/git-cheat-sheet)
     + [https://www.rumosky.wiki/docs/learngit](https://www.rumosky.wiki/docs/learngit)
 + Git的奇技淫巧: [https://github.com/521xueweihan/git-tips](https://github.com/521xueweihan/git-tips)
 + 猴子都能懂的GIT入门: [https://backlog.com/git-tutorial/cn/contents](https://backlog.com/git-tutorial/cn/contents)
 + [Git与Subversion的命令对比表](https://website-proxy.backlogtool.com/git-tutorial/cn/reference/git-svn.html)
-+ [https://github.com/progit](https://github.com/progit)
-    + [http://git-scm.com/book](http://git-scm.com/book)
 + [https://github.com/libgit2](https://github.com/libgit2)
++ 在线学 Git [https://codechina_dev.gitcode.host/learn-git-branching](https://codechina_dev.gitcode.host/learn-git-branching)
 
 * [Git 团队协作中常用术语 WIP PTAL CC LGTM 等解释](https://blog.csdn.net/kunyus/article/details/93472646)
 

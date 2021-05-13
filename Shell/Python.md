@@ -93,6 +93,7 @@ with Test() as t: # 触发__exit__
 * [https://github.com/pyecharts/pyecharts](https://github.com/pyecharts/pyecharts)
 * 获取字符编码 [https://github.com/chardet/chardet](https://github.com/chardet/chardet)
 * [https://github.com/PyYoshi/cChardet](https://github.com/PyYoshi/cChardet)
+* NLP资源库 [https://github.com/fighting41love/funNLP](https://github.com/fighting41love/funNLP)
 
 
 - 交互式计算 [https://github.com/ipython](https://github.com/ipython)

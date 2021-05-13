@@ -8,6 +8,7 @@
 ## Flag
 
 - [Java版本比较](https://mp.weixin.qq.com/s/NEfqPXrcq6O1p7RLf9LWCw)
+- [Java 9-16 新增语法元素一览](https://segmentfault.com/a/1190000039714550)
 - JVM 动态脚本语言 [https://github.com/apache/groovy](https://github.com/apache/groovy)
     - [http://groovy-lang.org/syntax.html](http://groovy-lang.org/syntax.html)
 
@@ -47,6 +48,7 @@
 - [领域模型转换那些事儿](https://zhuanlan.zhihu.com/p/86282401)
 - [Reactive programming 一种技术 各自表述](https://mercyblitz.github.io/2018/07/25/Reactive-Programming-%E4%B8%80%E7%A7%8D%E6%8A%80%E6%9C%AF-%E5%90%84%E8%87%AA%E8%A1%A8%E8%BF%B0)
 - [Java正则多次匹配和多次组匹配](https://www.cnblogs.com/ElEGenT/p/13158108.html)
+- [https://www.zhihu.com/people/rednaxelafx](https://www.zhihu.com/people/rednaxelafx)
 
 
 + [https://gitlab.ow2.org/asm/asm](https://gitlab.ow2.org/asm/asm)
@@ -100,9 +102,10 @@
 * Java 9 模块化开发 [https://github.com/ledudu/Java-9-Modularity-zh](https://github.com/ledudu/Java-9-Modularity-zh)
 * Vert.x Java开发者指南 [https://github.com/vertxfun/vertx-guide-for-java-devs-cn](https://github.com/vertxfun/vertx-guide-for-java-devs-cn)
 * [https://github.com/hansonwang99/JavaCollection](https://github.com/hansonwang99/JavaCollection)
-* [https://github.com/NotFound9/interviewGuide](https://github.com/NotFound9/interviewGuide)
+* 后端技术总结 [https://github.com/NotFound9/interviewGuide](https://github.com/NotFound9/interviewGuide)
 * [https://github.com/RedSpider1/concurrent](https://github.com/RedSpider1/concurrent)
 * [https://github.com/javagrowing/JGrowing](https://github.com/javagrowing/JGrowing)
+* 面试题 [https://github.com/souyunku/DevBooks](https://github.com/souyunku/DevBooks)
 * Java服务端知识技能图谱 [https://github.com/caison/java-knowledge-mind-map](https://github.com/caison/java-knowledge-mind-map)
 * JAVA书籍存放库 [https://github.com/singgel/JAVA](https://github.com/singgel/JAVA)
 * [https://github.com/waylau/essential-java](https://github.com/waylau/essential-java)
@@ -561,6 +564,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * 基于springboot的一款纯净脚手架 [https://github.com/fuce1314/Springboot_v2](https://github.com/fuce1314/Springboot_v2)
 * [https://gitee.com/lovetime/WeAdmin](https://gitee.com/lovetime/WeAdmin)
 * [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
+* 企业级低代码平台 [https://github.com/zhangdaiscott/jeecg-boot](https://github.com/zhangdaiscott/jeecg-boot)
 
 
 

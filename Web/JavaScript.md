@@ -38,12 +38,18 @@
 
 ## 学习
 
++ [https://github.com/topics/es6](https://github.com/topics/es6)
++ [https://github.com/topics/es2016](https://github.com/topics/es2016)
++ [https://github.com/topics/linting](https://github.com/topics/linting)
+
 * [https://github.com/wangdoc/javascript-tutorial](https://github.com/wangdoc/javascript-tutorial)
     * [https://wangdoc.com/javascript](https://wangdoc.com/javascript)
 * [https://github.com/ruanyf/jstutorial](https://github.com/ruanyf/jstutorial)
     * [http://javascript.ruanyifeng.com](http://javascript.ruanyifeng.com)
-+ ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
-    + [https://es6.ruanyifeng.com](https://es6.ruanyifeng.com)
+* ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
+    * [https://es6.ruanyifeng.com](https://es6.ruanyifeng.com)
+* [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
+* [https://github.com/sivan/javascript-style-guide](https://github.com/sivan/javascript-style-guide)
 * 现代JavaScript教程 [https://github.com/javascript-tutorial/zh.javascript.info](https://github.com/javascript-tutorial/zh.javascript.info)
 * 浏览器脚本教程 [https://www.w3school.com.cn/b.asp](https://www.w3school.com.cn/b.asp)
 * 参考手册 [https://www.w3school.com.cn/r.asp](https://www.w3school.com.cn/r.asp)
@@ -51,7 +57,6 @@
 * [https://github.com/Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript)
 * [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30)
 * [https://github.com/30-seconds/30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)
-* JavaScript算法和数据结构 [https://github.com/trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 * 答题 [https://github.com/lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions)
 * Clean Code [https://github.com/ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
 * [https://github.com/felipefialho/frontend-challenges](https://github.com/felipefialho/frontend-challenges)
@@ -59,7 +64,11 @@
 * [https://github.com/icepy/Front-End-Develop-Guide](https://github.com/icepy/Front-End-Develop-Guide)
 * [https://github.com/you-dont-need](https://github.com/you-dont-need)
 * [https://github.com/getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
+* [https://github.com/Asabeneh/JavaScript-for-Everyone](https://github.com/Asabeneh/JavaScript-for-Everyone)
+* JavaScript的学习代码总结 [https://github.com/csxiaoyaojianxian/JavaScriptStudy](https://github.com/csxiaoyaojianxian/JavaScriptStudy)
 
+- [ES6、ES7、ES8特性一锅炖(ES6、ES7、ES8学习指南)](https://juejin.cn/post/6844903679976275976)
+- [ES6、ES7、ES8、ES9、ES10新特性一览](https://juejin.cn/post/6844903811622912014)
 - [页面生命周期：DOMContentLoaded，load，beforeunload，unload](https://zh.javascript.info/onload-ondomcontentloaded)
 
 
