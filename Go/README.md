@@ -150,8 +150,6 @@
 * [https://github.com/spf13/viper](https://github.com/spf13/viper)
 * [https://github.com/eventials/go-tus](https://github.com/eventials/go-tus)
 * [https://github.com/patrickmn/go-cache](https://github.com/patrickmn/go-cache)
-* 对象存储 [https://github.com/minio/minio](https://github.com/minio/minio)
-* [https://github.com/sjqzhang/go-fastdfs](https://github.com/sjqzhang/go-fastdfs)
 * 监视文件或目录更改 [https://github.com/radovskyb/watcher](https://github.com/radovskyb/watcher)
 * 快速生成ASCII表格 [https://github.com/olekukonko/tablewriter](https://github.com/olekukonko/tablewriter)
 * 获取固定宽度的字符或字符串 [https://github.com/mattn/go-runewidth](https://github.com/mattn/go-runewidth)
