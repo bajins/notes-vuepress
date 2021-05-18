@@ -7,7 +7,6 @@
 
 ## Flag
 
-
 * [https://github.com/GNOME/gedit](https://github.com/GNOME/gedit)
 * [https://github.com/emacs-tw/awesome-emacs](https://github.com/emacs-tw/awesome-emacs)
     * [http://www.gnu.org/software/emacs](http://www.gnu.org/software/emacs)

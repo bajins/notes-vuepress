@@ -163,6 +163,8 @@ var express = require('express');
 
 ## 第三方库
 
++ [https://github.com/topics/front-end](https://github.com/topics/front-end)
++ [https://github.com/topics/component](https://github.com/topics/component)
 + [NPM依赖：类库工具](https://www.jianshu.com/p/2a127cfba1cf)
 + [前端开发中用到的npm工具](https://segmentfault.com/a/1190000021865006)
 
@@ -186,46 +188,25 @@ var express = require('express');
 * 语法高亮 [https://github.com/PrismJS](https://github.com/PrismJS)
 * [https://github.com/validatorjs/validator.js](https://github.com/validatorjs/validator.js)
 * [https://github.com/zTree/zTree_v3](https://github.com/zTree/zTree_v3)
-* 文件上传 [https://github.com/fex-team/webuploader](https://github.com/fex-team/webuploader)
-* [https://github.com/lovefc/fcup2](https://github.com/lovefc/fcup2)
-* 图片懒加载 [https://github.com/tuupola/lazyload](https://github.com/tuupola/lazyload)
-* Metro风兼瀑布流布局 [https://github.com/desandro/masonry](https://github.com/desandro/masonry)
-* 图片查看 [https://github.com/fengyuanchen/viewerjs](https://github.com/fengyuanchen/viewerjs)
-* [https://github.com/dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe)
-* 响应式导航 [https://github.com/VPenkov/okayNav](https://github.com/VPenkov/okayNav)
-* 拖曳 [https://github.com/desandro/draggabilly](https://github.com/desandro/draggabilly)
-* 拖放 [https://github.com/bevacqua/dragula](https://github.com/bevacqua/dragula)
-* 图像缩放 [https://github.com/kingdido999/zooming](https://github.com/kingdido999/zooming)
 * 国际化 [https://github.com/i18next/i18next](https://github.com/i18next/i18next)
-* 图像中提取颜色 [https://github.com/briangonzalez/rgbaster.js](https://github.com/briangonzalez/rgbaster.js)
 * 模拟数据生成 [https://github.com/nuysoft/Mock](https://github.com/nuysoft/Mock)
-* SVG渲染图像占位符 [https://github.com/imsky/holder](https://github.com/imsky/holder)
-* 动画引擎 [https://github.com/julianshapiro/velocity](https://github.com/julianshapiro/velocity)
 * [https://github.com/dankogai/js-base64](https://github.com/dankogai/js-base64)
-* 交互式医学图像 [https://github.com/cornerstonejs/cornerstone](https://github.com/cornerstonejs/cornerstone)
 * 选色器 [https://github.com/bgrins/spectrum](https://github.com/bgrins/spectrum)
 * [https://github.com/ant-design/ant-design](https://github.com/ant-design/ant-design)
 * 手势交互 [https://github.com/hammerjs/hammer.js](https://github.com/hammerjs/hammer.js)
 * [https://github.com/material-motion/material-motion-js](https://github.com/material-motion/material-motion-js)
 * 自动执行 [https://github.com/gruntjs](https://github.com/gruntjs)
 * velocity模板语法的JS实现 [https://github.com/shepherdwind/velocity.js](https://github.com/shepherdwind/velocity.js)
+* banner [https://github.com/kenwheeler/slick](https://github.com/kenwheeler/slick)
+* 范围滑块 [https://github.com/leongersen/noUiSlider](https://github.com/leongersen/noUiSlider)
+* 动画加载指示器 [https://github.com/tobiasahlin/SpinKit](https://github.com/tobiasahlin/SpinKit)
+* 级联网格布局库 [https://github.com/desandro/masonry](https://github.com/desandro/masonry)
+* 数字和货币格式 [https://github.com/leongersen/wnumb](https://github.com/leongersen/wnumb)
+* CSS的编码样式格式化 [https://github.com/csscomb/csscomb.js](https://github.com/csscomb/csscomb.js)
+* 清理HTML并防止XSS攻击 [https://github.com/cure53/DOMPurify](https://github.com/cure53/DOMPurify)
 
 - [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
 - [https://github.com/HTMLElements](https://github.com/HTMLElements)
-
-
-**数据表格**
-
-+ [https://github.com/topics/data-table](https://github.com/topics/data-table)
-+ [https://github.com/topics/grid](https://github.com/topics/grid)
-+ [https://github.com/topics/table](https://github.com/topics/table)
-+ [https://github.com/topics/datatable](https://github.com/topics/datatable)
-
-* [https://github.com/frappe/datatable](https://github.com/frappe/datatable)
-* [https://github.com/fiduswriter/Simple-DataTables](https://github.com/fiduswriter/Simple-DataTables)
-* [https://github.com/baukh789/GridManager](https://github.com/baukh789/GridManager)
-* [https://github.com/ag-grid/ag-grid](https://github.com/ag-grid/ag-grid)
-* [https://github.com/future-architect/cheetah-grid](https://github.com/future-architect/cheetah-grid)
 
 
 
@@ -304,6 +285,36 @@ var express = require('express');
 * 数字精度 [https://github.com/josdejong/mathjs](https://github.com/josdejong/mathjs)
 
 
+**日期时间**
+
++ 替换Moment.js列表 [https://github.com/you-dont-need/You-Dont-Need-Momentjs](https://github.com/you-dont-need/You-Dont-Need-Momentjs)
+
+* 日期处理类库 [https://github.com/moment](https://github.com/moment)
+    * [http://momentjs.cn](http://momentjs.cn)
+    * [https://github.com/moment/luxon](https://github.com/moment/luxon)
+* [https://github.com/iamkun/dayjs](https://github.com/iamkun/dayjs)
+* [https://github.com/js-joda](https://github.com/js-joda)
+* [https://github.com/date-fns](https://github.com/date-fns)
+* [https://github.com/hustcc/timeago.js](https://github.com/hustcc/timeago.js)
+* [https://github.com/flatpickr](https://github.com/flatpickr)
+
+
+**HTTP**
+
+* [https://github.com/wendux/fly](https://github.com/wendux/fly)
+* [https://github.com/github/fetch](https://github.com/github/fetch)
+* [https://github.com/axios/axios](https://github.com/axios/axios)
+* [https://github.com/umijs/umi-request](https://github.com/umijs/umi-request)
+* [https://github.com/seanmonstar/reqwest](https://github.com/seanmonstar/reqwest)
+* 在html元素绑定请求 [https://github.com/bigskysoftware/intercooler-js](https://github.com/bigskysoftware/intercooler-js)
+* [https://github.com/bigskysoftware/htmx](https://github.com/bigskysoftware/htmx)
+* [https://github.com/js-cookie](https://github.com/js-cookie)
+
+- [https://github.com/rndme/download](https://github.com/rndme/download)
+- 文件上传 [https://github.com/fex-team/webuploader](https://github.com/fex-team/webuploader)
+- [https://github.com/lovefc/fcup2](https://github.com/lovefc/fcup2)
+
+
 **文档**
 
 * [https://github.com/MrRio/jsPDF](https://github.com/MrRio/jsPDF)
@@ -317,28 +328,32 @@ var express = require('express');
 
 
 
-**日期时间**
+**拖动/拖拽/拖放**
 
-+ 替换Moment.js列表 [https://github.com/you-dont-need/You-Dont-Need-Momentjs](https://github.com/you-dont-need/You-Dont-Need-Momentjs)
++ [https://github.com/topics/drag-and-drop](https://github.com/topics/drag-and-drop)
++ [https://github.com/topics/drag-drop](https://github.com/topics/drag-drop)
++ [https://github.com/topics/vanilla](https://github.com/topics/vanilla)
++ [https://github.com/topics/dragging](https://github.com/topics/dragging)
 
-* 日期处理类库 [https://github.com/moment](https://github.com/moment)
-    * [http://momentjs.cn](http://momentjs.cn)
-    * [https://github.com/moment/luxon](https://github.com/moment/luxon)
-* [https://github.com/iamkun/dayjs](https://github.com/iamkun/dayjs)
-* [https://github.com/js-joda](https://github.com/js-joda)
-* [https://github.com/date-fns](https://github.com/date-fns)
-* [https://github.com/hustcc/timeago.js](https://github.com/hustcc/timeago.js)
+* 拖曳 [https://github.com/desandro/draggabilly](https://github.com/desandro/draggabilly)
+* 拖放 [https://github.com/bevacqua/dragula](https://github.com/bevacqua/dragula)
+* 拖动表格行 [https://github.com/isocra/TableDnD](https://github.com/isocra/TableDnD)
+* [https://github.com/SortableJS](https://github.com/SortableJS)
 
 
-**HTTP**
+**数据表格**
 
-* [https://github.com/wendux/fly](https://github.com/wendux/fly)
-* [https://github.com/github/fetch](https://github.com/github/fetch)
-* [https://github.com/axios/axios](https://github.com/axios/axios)
-* [https://github.com/umijs/umi-request](https://github.com/umijs/umi-request)
-* [https://github.com/seanmonstar/reqwest](https://github.com/seanmonstar/reqwest)
++ [https://github.com/topics/data-table](https://github.com/topics/data-table)
++ [https://github.com/topics/grid](https://github.com/topics/grid)
++ [https://github.com/topics/table](https://github.com/topics/table)
++ [https://github.com/topics/datatable](https://github.com/topics/datatable)
 
-- [https://github.com/rndme/download](https://github.com/rndme/download)
+* [https://github.com/frappe/datatable](https://github.com/frappe/datatable)
+* [https://github.com/fiduswriter/Simple-DataTables](https://github.com/fiduswriter/Simple-DataTables)
+* [https://github.com/baukh789/GridManager](https://github.com/baukh789/GridManager)
+* [https://github.com/ag-grid/ag-grid](https://github.com/ag-grid/ag-grid)
+* [https://github.com/future-architect/cheetah-grid](https://github.com/future-architect/cheetah-grid)
+
 
 
 **导出**
@@ -346,6 +361,20 @@ var express = require('express');
 * [TableExport](https://github.com/clarketm/TableExport)
 * [tableExport.jquery.plugin](https://github.com/hhurz/tableExport.jquery.plugin)
 * [excellentexport](https://github.com/jmaister/excellentexport)
+
+
+
+**媒体/图片/图像**
+
+* 图片懒加载 [https://github.com/tuupola/lazyload](https://github.com/tuupola/lazyload)
+* Metro风兼瀑布流布局 [https://github.com/desandro/masonry](https://github.com/desandro/masonry)
+* 图片查看 [https://github.com/fengyuanchen/viewerjs](https://github.com/fengyuanchen/viewerjs)
+* [https://github.com/dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe)
+* 响应式导航 [https://github.com/VPenkov/okayNav](https://github.com/VPenkov/okayNav)
+* 图像缩放 [https://github.com/kingdido999/zooming](https://github.com/kingdido999/zooming)
+* 图像中提取颜色 [https://github.com/briangonzalez/rgbaster.js](https://github.com/briangonzalez/rgbaster.js)
+* SVG渲染图像占位符 [https://github.com/imsky/holder](https://github.com/imsky/holder)
+* 交互式医学图像 [https://github.com/cornerstonejs/cornerstone](https://github.com/cornerstonejs/cornerstone)
 
 
 
@@ -410,6 +439,7 @@ var express = require('express');
 * [https://github.com/tweenjs/tween.js](https://github.com/tweenjs/tween.js)
 * [https://github.com/d3/d3](https://github.com/d3/d3)
     * [https://github.com/xswei/d3js_doc](https://github.com/xswei/d3js_doc)
+* 动画引擎 [https://github.com/julianshapiro/velocity](https://github.com/julianshapiro/velocity)
 
 
 

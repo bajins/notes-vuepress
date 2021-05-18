@@ -494,3 +494,47 @@ book.name = test
 | @ApiResponse       	| code         	| 整形                  	| 可用在@ApiResponses里                                           	|
 |                    	| message      	| 字符串                	| 错误描述                                                        	|
 |                    	|              	|                       	| @ApiResponse(code = 200, message = "Successful")                	|
+
+
+
+
+## Jackson
+
+| 注解名称                  	| 作用域 	| 说明   	|
+|---------------------------	|--------	|--------	|
+| @JacksonAnnotation        	|        	|        	|
+| @JacksonAnnotationsInside 	|        	|        	|
+| @JacksonAnnotationValue   	|        	|        	|
+| @JacksonInject            	|        	|        	|
+| @JsonAlias                	|        	|        	|
+| @JsonAnyGetter            	|        	|        	|
+| @JsonAnySetter            	|        	|        	|
+| @JsonAutoDetect           	|        	|        	|
+| @JsonBackReference        	|        	|        	|
+| @JsonClassDescription     	|        	|        	|
+| @JsonCreator              	|        	|        	|
+| @JsonEnumDefaultValue     	|        	|        	|
+| @JsonFilter               	|        	|        	|
+| @JsonFormat               	|        	| 格式化 	|
+| @JsonGetter               	|        	|        	|
+| @JsonIdentityInfo         	|        	|        	|
+| @JsonIdentityReference    	|        	|        	|
+| @JsonIgnore               	|        	|        	|
+| @JsonIgnoreProperties     	|        	|        	|
+| @JsonIgnoreType           	|        	|        	|
+| @JsonInclude              	|        	|        	|
+| @JsonManagedReference     	|        	|        	|
+| @JsonMerge                	|        	|        	|
+| @JsonProperty             	|        	|        	|
+| @JsonPropertyDescription  	|        	|        	|
+| @JsonPropertyOrder        	|        	|        	|
+| @JsonRawValue             	|        	|        	|
+| @JsonRootName             	|        	|        	|
+| @JsonSetter               	|        	|        	|
+| @JsonSubTypes             	|        	|        	|
+| @JsonTypeId               	|        	|        	|
+| @JsonTypeInfo             	|        	|        	|
+| @JsonTypeName             	|        	|        	|
+| @JsonUnwrapped            	|        	|        	|
+| @JsonValue                	|        	|        	|
+| @JsonView                 	|        	|        	|

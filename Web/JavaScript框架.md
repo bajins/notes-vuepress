@@ -256,6 +256,8 @@ $.is(":checked");
 * 下拉选择框 [https://github.com/snapappointments/bootstrap-select](https://github.com/snapappointments/bootstrap-select)
 	* [https://www.bootstrapselect.cn](https://www.bootstrapselect.cn)
 * [https://github.com/Eonasdan/tempus-dominus](https://github.com/Eonasdan/tempus-dominus)
+* 模态框 [https://github.com/kylefox/jquery-modal](https://github.com/kylefox/jquery-modal)
+* [https://github.com/maxazan/jquery-treegrid](https://github.com/maxazan/jquery-treegrid)
 
 
 
