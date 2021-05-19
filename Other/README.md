@@ -40,6 +40,11 @@
 
 ## 其他编程语言
 
+* CPU仿真器框架 [https://github.com/unicorn-engine/unicorn](https://github.com/unicorn-engine/unicorn)
+* [https://github.com/virt-manager/virt-manager](https://github.com/virt-manager/virt-manager)
+* [https://www.qemu.org](https://www.qemu.org)
+* [https://gitlab.com/libvirt/libvirt](https://gitlab.com/libvirt/libvirt)
+
 
 **Rust**
 
@@ -195,21 +200,54 @@
 
 ## 临时邮箱
 
++ [https://github.com/topics/disposable-emails](https://github.com/topics/disposable-emails)
++ [https://github.com/topics/disposable-email](https://github.com/topics/disposable-email)
++ [https://github.com/topics/temporary-email](https://github.com/topics/temporary-email)
++ [https://github.com/topics/tempmail](https://github.com/topics/tempmail)
++ [https://github.com/topics/trashmail](https://github.com/topics/trashmail)
++ [https://github.com/topics/10minutemail](https://github.com/topics/10minutemail)
 + [https://smailpro.com](https://smailpro.com)
+
+- [https://github.com/KevCui/1secmail](https://github.com/KevCui/1secmail)
+    - [https://www.1secmail.com/api](https://www.1secmail.com/api)
+- [https://github.com/KevCui/getnada](https://github.com/KevCui/getnada)
+    - [https://getnada.com](https://getnada.com)
+- [https://github.com/KevCui/tempmail](https://github.com/KevCui/tempmail)
+    - [https://temp-mail.org/zh](https://temp-mail.org/zh)
 
 * [https://www.linshiyouxiang.net](https://www.linshiyouxiang.net)
 * [http://24mail.chacuo.net](http://24mail.chacuo.net)
+    * [https://github.com/Xavier-Lam/24mail](https://github.com/Xavier-Lam/24mail)
 * [https://www.guerrillamail.com/zh](https://www.guerrillamail.com/zh)
-* [https://temp-mail.org/zh](https://temp-mail.org/zh)
 * [https://www.moakt.com/zh](https://www.moakt.com/zh)
+* [https://rootsh.com](https://rootsh.com)
 * [http://www.yopmail.com/zh](http://www.yopmail.com/zh)
 * [https://10minutemail.com](https://10minutemail.com)
-* [http://www.incognitomail.com](http://www.incognitomail.com)
+* [https://github.com/Zaczero/10MinuteMail.net](https://github.com/Zaczero/10MinuteMail.net)
+    * [https://10minutemail.net](https://10minutemail.net)
+* [https://www.minuteinbox.com](https://www.minuteinbox.com)
 * [http://mailcatch.com/en/disposable-email](http://mailcatch.com/en/disposable-email)
 * [https://www.mintemail.com](https://www.mintemail.com)
 * [http://www.maildu.de](http://www.maildu.de)
 * [https://xkx.me](https://xkx.me)
-
+* [https://mail.td](https://mail.td)
+* [https://temp-mail.org](https://temp-mail.org)
+* [https://www.guerrillamail.com/zh/inbox](https://www.guerrillamail.com/zh/inbox)
+* [http://www.mailinator.com](http://www.mailinator.com)
+* [http://www.tempinbox.com](http://www.tempinbox.com)
+* [https://www.crazymailing.com/zh](https://www.crazymailing.com/zh)
+* [http://www.mytrashmail.com](http://www.mytrashmail.com)
+* [https://www.tempmailbox.net](https://www.tempmailbox.net)
+* [https://tempmailin.com](https://tempmailin.com)
+* [https://www.fakemail.net](https://www.fakemail.net)
+* [https://btemp.com](https://btemp.com)
+* [https://www.disposablemail.com](https://www.disposablemail.com)
+* [https://gmailnator.com](https://gmailnator.com)
+* [https://www.tempemails.net](https://www.tempemails.net)
+* [https://mail.tm](https://mail.tm)
+* [https://tempmail.net](https://tempmail.net)
+* [https://mailpoof.com](https://mailpoof.com)
+* [https://www.emailondeck.com](https://www.emailondeck.com)
 
 
 
@@ -358,6 +396,7 @@
 - [https://github.com/philipperemy/name-dataset](https://github.com/philipperemy/name-dataset)
 
 * [https://github.com/marak/Faker.js](https://github.com/marak/Faker.js)
+    * [https://github.com/lestoni/faker-cli](https://github.com/lestoni/faker-cli)
 * [https://github.com/RandomAPI/Randomuser.me-Node](https://github.com/RandomAPI/Randomuser.me-Node)
 * [https://github.com/dmgk/faker](https://github.com/dmgk/faker)
 * [https://github.com/arakelian/faker](https://github.com/arakelian/faker)

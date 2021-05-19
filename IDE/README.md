@@ -103,6 +103,7 @@
 * [https://www.jetbrains.com/zh-cn/datagrip](https://www.jetbrains.com/zh-cn/datagrip)
 * [https://www.navicat.com](https://www.navicat.com)
     * [https://github.com/search?q=navicat](https://github.com/search?q=navicat)
+    * [https://github.com/HyperSine](https://github.com/HyperSine)
 * [https://codeberg.org/sql-workbench/workbench](https://codeberg.org/sql-workbench/workbench)
     * [https://www.sql-workbench.eu](https://www.sql-workbench.eu)
 * [https://www.heidisql.com](https://www.heidisql.com)

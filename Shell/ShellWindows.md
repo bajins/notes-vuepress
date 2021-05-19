@@ -78,6 +78,7 @@
 
 * [mingw-w64-release](https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/#readme)
 * [mingw-w64-release](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/#readme)
+* [https://github.com/HyperSine/mingw-w64-build](https://github.com/HyperSine/mingw-w64-build)
 
 > 首先看到的是源码，要把页面滚动到最底部才能看到编译好的在线安装程序和离线压缩包
 
