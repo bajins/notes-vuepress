@@ -175,7 +175,7 @@
         - [https://pan.baidu.com/s/1_wma1SuhGBC6Aku6X4iRXQ](https://pan.baidu.com/s/1_wma1SuhGBC6Aku6X4iRXQ)
 * 二进制反编译 [https://github.com/uxmal/reko](https://github.com/uxmal/reko)
 - 提取/解压缩 [https://github.com/Perfare/AssetStudio](https://github.com/Perfare/AssetStudio)
-- [手机抓包神器HttpCanary](https://www.lanzous.com/b0f1b9v6j)
+- [手机抓包神器HttpCanary](https://www.lanzoui.com/b0f1b9v6j)
 - C-S架构渗透测试 [https://github.com/theLSA/CS-checklist](https://github.com/theLSA/CS-checklist)
 - [https://github.com/fireeye/flare-vm](https://github.com/fireeye/flare-vm)
 - [https://github.com/DynamoRIO/dynamorio](https://github.com/DynamoRIO/dynamorio)
@@ -280,7 +280,7 @@
 + [https://github.com/butzist/ActivityLauncher](https://github.com/butzist/ActivityLauncher)
 + [https://github.com/yoyodadada/haoruanfenxiang](https://github.com/yoyodadada/haoruanfenxiang)
 + [https://dongji.lanzoui.com/b05alr4pi](https://dongji.lanzoui.com/b05alr4pi)
-+ [https://www.lanzous.com/b05f9wyf](https://www.lanzous.com/b05f9wyf)
++ [https://www.lanzoui.com/b05f9wyf](https://www.lanzoui.com/b05f9wyf)
 + [https://dongji.lanzoui.com/b05a873cb](https://dongji.lanzoui.com/b05a873cb)
 + [https://dongji.lanzoui.com/b05a93hje](https://dongji.lanzoui.com/b05a93hje)
 
@@ -295,13 +295,13 @@
 
 **音乐下载**
 
-+ [酷我音乐精品破解版本集合地](https://www.lanzous.com/b05aammje)
-+ [酷我音乐_for_Android](https://www.lanzous.com/b0f1956fc)
-+ [https://yaweimao.lanzous.com/b00z96sod](https://yaweimao.lanzous.com/b00z96sod)
++ [酷我音乐精品破解版本集合地](https://www.lanzoui.com/b05aammje)
++ [酷我音乐_for_Android](https://www.lanzoui.com/b0f1956fc)
++ [https://yaweimao.lanzoui.com/b00z96sod](https://yaweimao.lanzoui.com/b00z96sod)
 
-* [音乐下载工具⠀for⠀Windows](https://pan.lanzous.com/b0f1c1t5e)
-* [音乐下载应用](https://pan.lanzous.com/b0f1kkdlg)
+* [音乐下载工具⠀for⠀Windows](https://pan.lanzoui.com/b0f1c1t5e)
+* [音乐下载应用](https://pan.lanzoui.com/b0f1kkdlg)
 * [听下音乐](https://bgg.lanzoui.com/b02bjj8pa)
-* [静听音乐](http://pan.lanzous.com/b04aslz3c)
+* [静听音乐](http://pan.lanzoui.com/b04aslz3c)
 
 

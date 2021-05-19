@@ -199,7 +199,7 @@ chrome://flags/#enable-parallel-downloading
 * [https://ublock.org](https://ublock.org)
 * [https://github.com/AdguardTeam](https://github.com/AdguardTeam)
 
-- AdGuard Android 解锁高级版 [https://www.lanzous.com/b0f19420h](https://www.lanzous.com/b0f19420h)
+- AdGuard Android 解锁高级版 [https://www.lanzoui.com/b0f19420h](https://www.lanzoui.com/b0f19420h)
 
 **过滤规则**
 

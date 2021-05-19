@@ -151,10 +151,10 @@
     * [https://dl.xdown.org](https://dl.xdown.org)
 * NDM [http://www.neatdownloadmanager.com](http://www.neatdownloadmanager.com)
 * IDM [http://www.internetdownloadmanager.com](http://www.internetdownloadmanager.com)
-    * 睿派克 [https://www.lanzous.com/b134572](https://www.lanzous.com/b134572)
-    * 闻雷 [https://www.lanzous.com/b0i6zkze](https://www.lanzous.com/b0i6zkze)
-    * [https://pan.lanzous.com/b0f1agvxc](https://pan.lanzous.com/b0f1agvxc)
-    * [https://pan.lanzous.com/b0f1997eb](https://pan.lanzous.com/b0f1997eb)
+    * 睿派克 [https://www.lanzoui.com/b134572](https://www.lanzoui.com/b134572)
+    * 闻雷 [https://www.lanzoui.com/b0i6zkze](https://www.lanzoui.com/b0i6zkze)
+    * [https://pan.lanzoui.com/b0f1agvxc](https://pan.lanzoui.com/b0f1agvxc)
+    * [https://pan.lanzoui.com/b0f1997eb](https://pan.lanzoui.com/b0f1997eb)
 * 猎鹰下载器 [http://www.eagleget.com](http://www.eagleget.com)
 * FDM [http://www.freedownloadmanager.org](http://www.freedownloadmanager.org/download.htm)
 * [https://github.com/subhra74/xdm](https://github.com/subhra74/xdm)
@@ -208,16 +208,16 @@
 **客户端**
 
 * [https://www.bitcomet.com](https://www.bitcomet.com)
-    * [https://www.lanzous.com/b073c7g4f](https://www.lanzous.com/b073c7g4f)
+    * [https://www.lanzoui.com/b073c7g4f](https://www.lanzoui.com/b073c7g4f)
 * [https://github.com/qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent)
-    *[ https://www.lanzous.com/b073jjwta](https://www.lanzous.com/b073jjwta)
+    *[ https://www.lanzoui.com/b073jjwta](https://www.lanzoui.com/b073jjwta)
 * [https://github.com/c0re100/qBittorrent-Enhanced-Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition)
-    * [https://www.lanzous.com/b073dnr7g](https://www.lanzous.com/b073dnr7g)
+    * [https://www.lanzoui.com/b073dnr7g](https://www.lanzoui.com/b073dnr7g)
 * [https://transmissionbt.com](https://transmissionbt.com)
 * [https://deluge-torrent.org](https://deluge-torrent.org)
 * [https://www.utorrent.com](https://www.utorrent.com)
-    * [https://www.lanzous.com/b073c7g4f](https://www.lanzous.com/b073c7g4f)
-* [uTorrent／qBittorrent／BitComet](https://www.lanzous.com/b0f1awgqb)
+    * [https://www.lanzoui.com/b073c7g4f](https://www.lanzoui.com/b073c7g4f)
+* [uTorrent／qBittorrent／BitComet](https://www.lanzoui.com/b0f1awgqb)
 * [https://github.com/webtorrent](https://github.com/webtorrent)
 * [https://github.com/arvidn/libtorrent](https://github.com/arvidn/libtorrent)
 
@@ -257,9 +257,9 @@
 > 由于总所周知的原因（大家都将迅雷叫吸血雷：只下载不上传），下载Magnet链接（磁力）、Torrent文件（比特流种子）、
 > ED2K（eMule电驴）等请使用`Bit Torrent`工具
 
-* [https://www.lanzous.com/b906590](https://www.lanzous.com/b906590)
-* [https://www.lanzous.com/b505936](https://www.lanzous.com/b505936)
-* [https://www.lanzous.com/b393275](https://www.lanzous.com/b393275)
+* [https://www.lanzoui.com/b906590](https://www.lanzoui.com/b906590)
+* [https://www.lanzoui.com/b505936](https://www.lanzoui.com/b505936)
+* [https://www.lanzoui.com/b393275](https://www.lanzoui.com/b393275)
 * [https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q](https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q)
 * [https://kkocdko.github.io/category/Software](https://kkocdko.github.io/category/Software)
 
@@ -270,7 +270,7 @@
 * [https://github.com/topics/baiduyun](https://github.com/topics/baiduyun)
 * [https://yixun.writeas.com/yi-xun](https://yixun.writeas.com/yi-xun)
 * [https://github.com/lpg-it/BaiduYunVIP](https://github.com/lpg-it/BaiduYunVIP)
-* DuPan [https://www.lanzous.com/b09r8jmhi](https://www.lanzous.com/b09r8jmhi) 密码：b8ua
+* DuPan [https://www.lanzoui.com/b09r8jmhi](https://www.lanzoui.com/b09r8jmhi) 密码：b8ua
 * [https://cloud189.1t.workers.dev/web](https://cloud189.1t.workers.dev/web)
 * [http://down.5nb.me](http://down.5nb.me)
 * [https://github.com/chian0sen/baiduwp](https://github.com/chian0sen/baiduwp)
@@ -282,6 +282,7 @@
 
 * [网赚网盘下载辅助工具](http://www.oceancoder.cn/post/net-disk-download-helper.html)
 
+> 蓝奏云网盘最新地址：`lanzou.com` `lanzoui.com` `lanzoux.com`
 
 
 
@@ -330,9 +331,9 @@
 > 以上是官网下载地址，将`DNS`改为`8.8.8.8`就可以顺利下载了，若为默认的自动模式（国内DNS）则无法下载。或者使用迅雷下载
 
 * [http://daumpotplayer.com/download](http://daumpotplayer.com/download)
-* [https://www.lanzous.com/b112173](https://www.lanzous.com/b112173)
-* [https://www.lanzous.com/b0i38vsd](https://www.lanzous.com/b0i38vsd)
-* [https://www.lanzous.com/b0f1k59qh](https://www.lanzous.com/b0f1k59qh)
+* [https://www.lanzoui.com/b112173](https://www.lanzoui.com/b112173)
+* [https://www.lanzoui.com/b0i38vsd](https://www.lanzoui.com/b0i38vsd)
+* [https://www.lanzoui.com/b0f1k59qh](https://www.lanzoui.com/b0f1k59qh)
 * [https://cloud.189.cn/t/AZnUVj3iMjUr](https://cloud.189.cn/t/AZnUVj3iMjUr)
 
 
@@ -431,7 +432,7 @@
 **WinSnap**
 
 * [https://www.ntwind.com/software/winsnap.html](https://www.ntwind.com/software/winsnap.html)
-* [https://www.lanzous.com/b189177/](https://www.lanzous.com/b189177/)
+* [https://www.lanzoui.com/b189177/](https://www.lanzoui.com/b189177/)
 * [https://pan.baidu.com/s/1qWIF7lE](https://pan.baidu.com/s/1qWIF7lE)
 
 
@@ -564,7 +565,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 **StartIsBack++**
 
-1. [https://www.lanzous.com/b279570](https://www.lanzous.com/b279570)
+1. [https://www.lanzoui.com/b279570](https://www.lanzoui.com/b279570)
 
 
 ## 清理工具
@@ -577,8 +578,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
     * `WMXD7-RG8FP-OYKS3-KHTN6`
 * Uninstall Tool [https://crystalidea.com/uninstall-tool](https://crystalidea.com/uninstall-tool)
 * Total Uninstall [https://www.martau.com](https://www.martau.com)
-* [UninstallTool／Geek／IObitUninstaller／RevoUninstalle](https://lanzous.com/b0f19v03a)
-* [RegWorkshop／RegCool](https://www.lanzous.com/b0f1jf9mh)
+* [UninstallTool／Geek／IObitUninstaller／RevoUninstalle](https://lanzoui.com/b0f19v03a)
+* [RegWorkshop／RegCool](https://www.lanzoui.com/b0f1jf9mh)
 * [https://kurtzimmermann.com](https://kurtzimmermann.com)
 * Registry Finder
 * [http://www.hibitsoft.ir](http://www.hibitsoft.ir)
@@ -659,7 +660,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 ## other
 
 * [https://www.sandboxie.com](https://www.sandboxie.com)
-* [傲梅分区助手PartAssist](https://www.lanzous.com/b0f1etedc)
+* [傲梅分区助手PartAssist](https://www.lanzoui.com/b0f1etedc)
 * [显示当前网速、CPU及内存利用率的桌面悬浮窗软件](https://github.com/zhongyang219/TrafficMonitor)
 * [http://wenlei.ys168.com](http://wenlei.ys168.com)
 * 简化快捷键 [https://github.com/szzhiyang](https://github.com/szzhiyang)
@@ -690,8 +691,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * 微软常用运行库 [https://github.com/abbodi1406/vcredist](https://github.com/abbodi1406/vcredist)
     * [https://hub.fastgit.org/abbodi1406/vcredist](https://hub.fastgit.org/abbodi1406/vcredist)
     * [https://github.wuyanzheshui.workers.dev/abbodi1406/vcredist](https://github.wuyanzheshui.workers.dev/abbodi1406/vcredist)
-    * [https://www.lanzous.com/b0f1dfasd](https://www.lanzous.com/b0f1dfasd)
-    * [https://www.lanzous.com/b143614](https://www.lanzous.com/b143614)
+    * [https://www.lanzoui.com/b0f1dfasd](https://www.lanzoui.com/b0f1dfasd)
+    * [https://www.lanzoui.com/b143614](https://www.lanzoui.com/b143614)
 * [https://www.diskinternals.com/download](https://www.diskinternals.com/download)
     * 读取EXT 类型数据盘 [http://www.diskinternals.com/download/Linux_Reader.exe](http://www.diskinternals.com/download/Linux_Reader.exe)
 * [https://github.com/thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe)
