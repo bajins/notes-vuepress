@@ -9,8 +9,6 @@
 
 - [Java版本比较](https://mp.weixin.qq.com/s/NEfqPXrcq6O1p7RLf9LWCw)
 - [Java 9-16 新增语法元素一览](https://segmentfault.com/a/1190000039714550)
-- JVM 动态脚本语言 [https://github.com/apache/groovy](https://github.com/apache/groovy)
-    - [http://groovy-lang.org/syntax.html](http://groovy-lang.org/syntax.html)
 
 > [JEP](http://openjdk.java.net/jeps/0)的全称就是`JDK Enhancement Proposals`，简单点讲就像是一个个对JAVA进行改进提案，
 > 这些提案会在合适的时间合适的地点被加入JDK的特定版本。
@@ -196,11 +194,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
     + [http://vertx.io](http://vertx.io)
     + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
 + WebFlux默认反应式框架 [https://github.com/reactor](https://github.com/reactor)
-+ 完全实现了Reactive Streams规范 [https://github.com/akka/akka](https://github.com/akka/akka)
 + 响应流框架 [https://github.com/Atmosphere](https://github.com/Atmosphere)
-+ [https://github.com/akka](https://github.com/akka)
-    + [https://github.com/akka-fusion](https://github.com/akka-fusion)
-    + [https://github.com/playframework](https://github.com/playframework)
 + [https://github.com/netty/netty](https://github.com/netty/netty)
 + [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
 + [https://github.com/TooTallNate/Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket)

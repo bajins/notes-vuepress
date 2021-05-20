@@ -190,9 +190,8 @@
 * AES256 GCM [https://github.com/sumup-oss/vaulted](https://github.com/sumup-oss/vaulted)
 * Golang注解 [https://github.com/MarcGrol/golangAnnotations](https://github.com/MarcGrol/golangAnnotations)
 * [https://github.com/sbinet/go-python](https://github.com/sbinet/go-python)
-* [https://github.com/yuin/gopher-lua](https://github.com/yuin/gopher-lua)
-* [https://github.com/Shopify/go-lua](https://github.com/Shopify/go-lua)
 * [https://github.com/refraction-networking/utls](https://github.com/refraction-networking/utls)
+* 十进制数 [https://github.com/shopspring/decimal](https://github.com/shopspring/decimal)
 
 
 - IP代理池 [https://github.com/henson/proxypool](https://github.com/henson/proxypool)

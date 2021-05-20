@@ -61,11 +61,7 @@
 + [https://www.nginx.com/nginx-wiki/build/dirhtml/modules](https://www.nginx.com/nginx-wiki/build/dirhtml/modules)
 + [https://github.com/search?q=nginx-module](https://github.com/search?q=nginx-module)
 + [https://github.com/topics/nginx-module](https://github.com/topics/nginx-module)
-+ [https://github.com/topics/lua](https://github.com/topics/lua)
-+ [https://github.com/lua/lua](https://github.com/lua/lua)
-+ [https://github.com/LuaJIT/LuaJIT](https://github.com/LuaJIT/LuaJIT)
-+ 包管理 [https://github.com/luarocks/luarocks](https://github.com/luarocks/luarocks)
-+ Lua 5.3 手册中文版 [https://github.com/cloudwu/lua53doc](https://github.com/cloudwu/lua53doc)
+
 
 * Lua多种扩展模块 [https://github.com/openresty](https://github.com/openresty)
     * [https://openresty.org/cn](https://openresty.org/cn)

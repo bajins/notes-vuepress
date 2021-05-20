@@ -51,6 +51,7 @@
 * [https://github.com/rust-lang](https://github.com/rust-lang)
 * [http://www.rust-lang.org](http://www.rust-lang.org)
 * [http://doc.rust-lang.org](http://doc.rust-lang.org)
+* [https://github.com/rust-zh/faq](https://github.com/rust-zh/faq)
 
 - [Rust - 花落花开](http://www.hualuohuakai.net/tags/Rust)
 - [https://budshome.com](https://budshome.com)
@@ -91,6 +92,35 @@
 - Mac 下常用的是 LLVM/Clang，它被集成在 Xcode 中（Xcode 以前集成的是 GCC，后来由于 GCC 的不配合才改为 LLVM/Clang，LLVM/Clang 的性能比 GCC 更加强大）。
 
 > Visual C++（简称 MSVC）是由微软开发的，只能用于 Windows 操作系统；GCC 和 LLVM Clang 除了可用于 Windows 操作系统之外，主要用于 Unix/Linux 操作系统。
+
+
+
+**Scala**
+
++ [https://github.com/scala/scala](https://github.com/scala/scala)
+
+* [https://github.com/scala-js/scala-js](https://github.com/scala-js/scala-js)
+    * [https://github.com/akka-js/akka.js](https://github.com/akka-js/akka.js)
+* [https://github.com/akkadotnet/akka.net](https://github.com/akkadotnet/akka.net)
+* 完全实现了Reactive Streams规范 [https://github.com/akka/akka](https://github.com/akka/akka)
+* [https://github.com/akka](https://github.com/akka)
+    * [https://github.com/akka-fusion](https://github.com/akka-fusion)
+    * [https://github.com/playframework](https://github.com/playframework)
+* [https://github.com/akka/akka-http](https://github.com/akka/akka-http)
+
+
+
+**Kotlin**
+
++ [https://github.com/JetBrains/kotlin](https://github.com/JetBrains/kotlin)
++ [https://www.kotlincn.net](https://www.kotlincn.net)
+
+
+
+**Groovy**
+
+- JVM 动态脚本语言 [https://github.com/apache/groovy](https://github.com/apache/groovy)
+    - [http://groovy-lang.org/syntax.html](http://groovy-lang.org/syntax.html)
 
 
 
@@ -137,6 +167,17 @@
 
 * [https://github.com/ShizukuIchi/winXP](https://github.com/ShizukuIchi/winXP)
 
+
+**Lua**
+
++ [https://github.com/topics/lua](https://github.com/topics/lua)
++ [https://github.com/lua/lua](https://github.com/lua/lua)
++ [https://github.com/LuaJIT/LuaJIT](https://github.com/LuaJIT/LuaJIT)
++ 包管理 [https://github.com/luarocks/luarocks](https://github.com/luarocks/luarocks)
++ Lua 5.3 手册中文版 [https://github.com/cloudwu/lua53doc](https://github.com/cloudwu/lua53doc)
+
+* [https://github.com/yuin/gopher-lua](https://github.com/yuin/gopher-lua)
+* [https://github.com/Shopify/go-lua](https://github.com/Shopify/go-lua)
 
 
 
@@ -206,7 +247,7 @@
 + [https://github.com/topics/tempmail](https://github.com/topics/tempmail)
 + [https://github.com/topics/trashmail](https://github.com/topics/trashmail)
 + [https://github.com/topics/10minutemail](https://github.com/topics/10minutemail)
-+ [https://smailpro.com](https://smailpro.com)
++ 发送邮件 [http://tool.chacuo.net/mailsend](http://tool.chacuo.net/mailsend)
 
 - [https://github.com/KevCui/1secmail](https://github.com/KevCui/1secmail)
     - [https://www.1secmail.com/api](https://www.1secmail.com/api)
@@ -215,6 +256,7 @@
 - [https://github.com/KevCui/tempmail](https://github.com/KevCui/tempmail)
     - [https://temp-mail.org/zh](https://temp-mail.org/zh)
 
+* [https://smailpro.com](https://smailpro.com)
 * [https://www.linshiyouxiang.net](https://www.linshiyouxiang.net)
 * [http://24mail.chacuo.net](http://24mail.chacuo.net)
     * [https://github.com/Xavier-Lam/24mail](https://github.com/Xavier-Lam/24mail)
