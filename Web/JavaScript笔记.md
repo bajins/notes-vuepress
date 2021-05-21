@@ -171,6 +171,53 @@ var name = name.replace(name.charAt(0), name.charAt(0).toUpperCase());
 ```
 
 
+## 计算字符占用宽度
+
+```js
+/**
+ * 使用canvas.measureText计算并返回给定字体的给定文本的宽度（以像素为单位）。
+ * 
+ * @param {String} text 文本
+ * @param {String} font 字体 (e.g. "bold 14px verdana").
+ * 
+ * @see https://stackoverflow.com/questions/118241/calculate-text-width-with-javascript/21015393#21015393
+ */
+function getTextWidth(text, font="bold 12pt arial") {
+    // 重用canvas对象以获得更好的性能
+    var canvas = getTextWidth.canvas || (getTextWidth.canvas = document.createElement("canvas"));
+    var context = canvas.getContext("2d"); 
+    context.font = font;
+    var metrics = context.measureText(text);
+    return metrics.width;
+}
+ 
+console.log(getTextWidth("hello there!", "bold 12pt arial"));
+// 通过 DOM 测量，这种方法在字符串中含有多个空格时，测出来的宽度会一样
+let dom = document.createElement('span');
+dom.style.display = 'inline-block';
+document.body.appendChild(dom);
+dom.textContent = '这是测试';
+console.log(dom.clientWidth);
+document.body.removeChild(dom);
+```
+
+## 函数默认参数
+
+```js
+function haosy(name,age){// 利用短路原则赋值
+    name=name||'测试';
+    age=age||1;
+}
+function test(name='测试',age=1){// 基本用法
+}
+// 与解构赋值默认值结合，如果不传入参数的时候，每次都要 haosy({}) 要写 {} 比较麻烦
+function test({name='测试',age=1}){
+}
+function test({name='测试',age=1}={}){// 双重默认值
+}
+```
+
+
 
 ## 正则表达式
 

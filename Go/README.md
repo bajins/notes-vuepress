@@ -92,6 +92,9 @@
 
 * [https://github.com/avelino/awesome-go](https://github.com/avelino/awesome-go)
 * [https://github.com/yinggaozhen/awesome-go-cn](https://github.com/yinggaozhen/awesome-go-cn)
+* web框架基准测试 [https://github.com/smallnest/go-web-framework-benchmark](https://github.com/smallnest/go-web-framework-benchmark)
+* 序列化工具基准测试 [https://github.com/smallnest/gosercomp](https://github.com/smallnest/gosercomp)
+* [https://github.com/smallnest/rpcx](https://github.com/smallnest/rpcx)
 
 
 | 框架    	| GitHub                                                         	| 官网                                        	|
@@ -115,10 +118,10 @@
 + [https://github.com/nanopack](https://github.com/nanopack)
 + [https://github.com/go-logr](https://github.com/go-logr)
 + [https://github.com/apex](https://github.com/apex)
++  [https://github.com/gorilla](https://github.com/gorilla)
 
 
 
-* HTTP路由器和URL匹配器 [https://github.com/gorilla/mux](https://github.com/gorilla/mux)
 * [https://github.com/julienschmidt/httprouter](https://github.com/julienschmidt/httprouter)
 * [https://github.com/giampaolo/psutil](https://github.com/giampaolo/psutil)
 * [https://github.com/shirou/gopsutil](https://github.com/shirou/gopsutil)
@@ -192,6 +195,7 @@
 * [https://github.com/sbinet/go-python](https://github.com/sbinet/go-python)
 * [https://github.com/refraction-networking/utls](https://github.com/refraction-networking/utls)
 * 十进制数 [https://github.com/shopspring/decimal](https://github.com/shopspring/decimal)
+* 布隆过滤器 [https://github.com/bits-and-blooms](https://github.com/bits-and-blooms)
 
 
 - IP代理池 [https://github.com/henson/proxypool](https://github.com/henson/proxypool)

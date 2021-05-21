@@ -149,10 +149,10 @@ public static void createInstanceSetter(Class<?> clazz) {
 
 **JavaScript 格式化**
 
-- `Window` -> `Preferences` -> `JavaScript` -> `Code Style` -> `Formatter` -> `New` -> `Edit`
-   - -> `Line Wrapping`
-      - `Maximum Line width`
-      - `Set line width for preview window`
+- `Window` -> `Preferences` -> `HTML Files` -> `Client-side JavaScript` -> `Code Style` -> `Formatter` -> `New` -> `Edit`
+   - -> `Line Wrapping` 行宽
+      - `Maximum Line width` 
+      - `Set line width for preview window` 设置预览窗口的线宽
    - -> `Comments`
       - `Maximum line width for comments`
 

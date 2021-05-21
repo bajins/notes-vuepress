@@ -110,6 +110,7 @@ with Test() as t: # 触发__exit__
 - [https://github.com/pyinvoke/invoke](https://github.com/pyinvoke/invoke)
 - [https://github.com/paramiko](https://github.com/paramiko)
 - [https://github.com/topics/ops](https://github.com/topics/ops)
+- 访问java类库 [https://github.com/jpype-project/jpype](https://github.com/jpype-project/jpype)
 
 
 
