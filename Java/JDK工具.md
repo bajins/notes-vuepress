@@ -15,6 +15,7 @@
 - [https://github.com/topics/agent](https://github.com/topics/agent)
 
 * Alibaba Java诊断利器Arthas [https://github.com/alibaba/arthas](https://github.com/alibaba/arthas)
+* [https://github.com/spring-projects/spring-loaded](https://github.com/spring-projects/spring-loaded)
 * [https://github.com/vipshop/vjtools](https://github.com/vipshop/vjtools)
 * [https://github.com/qunarcorp/bistoury](https://github.com/qunarcorp/bistoury)
 * 无侵入式的jvm监控工具MyPerf4J [https://github.com/ThinkpadNC5/MyPerf4J](https://github.com/ThinkpadNC5/MyPerf4J)

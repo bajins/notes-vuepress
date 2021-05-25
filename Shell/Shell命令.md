@@ -172,6 +172,14 @@ printf "%x\n" 值
 
 ## 进程与线程
 
+**查看进程启动路径**
+
+```bash
+ps -aux | grep nginx
+# 每个进程启动之后在 /proc下面有一个于pid对应的路径
+ls -l /proc/PID
+```
+
 
 **查看系统进程和线程限制**
 

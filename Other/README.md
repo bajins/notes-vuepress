@@ -81,6 +81,9 @@
 + [https://github.com/ImpulseAdventure/GUIslice-Builder](https://github.com/ImpulseAdventure/GUIslice-Builder)
     + [https://github.com/ImpulseAdventure/GUIslice](https://github.com/ImpulseAdventure/GUIslice)
 + [https://github.com/Alinshans/MyTinySTL](https://github.com/Alinshans/MyTinySTL)
++ [https://github.com/DaveGamble/cJSON](https://github.com/DaveGamble/cJSON)
++ [https://github.com/Exiv2/exiv2](https://github.com/Exiv2/exiv2)
+
 
 > C语言的编译器有很多种，不同的平台下有不同的编译器
 
@@ -178,6 +181,7 @@
 
 * [https://github.com/yuin/gopher-lua](https://github.com/yuin/gopher-lua)
 * [https://github.com/Shopify/go-lua](https://github.com/Shopify/go-lua)
+* [https://github.com/mpx/lua-cjson](https://github.com/mpx/lua-cjson)
 
 
 

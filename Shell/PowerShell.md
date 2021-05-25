@@ -79,17 +79,6 @@
 Get-AppxPackage | Select Name,PackageFullName
 ```
 
-- 恢复应用程序
-
-```powershell
-# 应用商店
-add-appxpackage -register "C:\Program Files\WindowsApps\*Store*\AppxManifest.xml" -disabledevelopmentmode
-# 计算器
-Get-AppxPackage *calculator* -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
-# 日历、邮件
-Get-AppxPackage Microsoft.windowscommunicationsapps -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
-```
-
 - 卸载应用程序
 
 ```powershell
@@ -134,6 +123,17 @@ get-appxpackage *maps* | remove-appxpackage
 get-appxpackage *soundrecorder* | remove-appxpackage
 # XBox
 get-appxpackage *xbox* | remove-appxpackage
+```
+
+- 恢复应用程序
+
+```powershell
+# 应用商店
+add-appxpackage -register "C:\Program Files\WindowsApps\*Store*\AppxManifest.xml" -disabledevelopmentmode
+# 计算器
+Get-AppxPackage *calculator* -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+# 日历、邮件
+Get-AppxPackage Microsoft.windowscommunicationsapps -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 ```
 
 

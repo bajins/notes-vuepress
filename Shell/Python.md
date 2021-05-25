@@ -64,6 +64,8 @@ with Test() as t: # 触发__exit__
 - 解密MS Office [https://github.com/nolze/msoffcrypto-tool](https://github.com/nolze/msoffcrypto-tool)
 - 网站脱机下载 [https://github.com/xroche/httrack](https://github.com/xroche/httrack)
 - 自动构建 [https://github.com/buildbot/buildbot](https://github.com/buildbot/buildbot)
+- web文件扫描 [https://github.com/topics/dirbuster](https://github.com/topics/dirbuster)
+- [https://github.com/H4ckForJob/dirmap](https://github.com/H4ckForJob/dirmap)
 
 
 ## 第三方库

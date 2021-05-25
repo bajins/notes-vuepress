@@ -9,7 +9,9 @@
 * [实用IDEA工具](https://blog.csdn.net/weixin_37645838/article/details/85953193)
 
 - [https://www.jrebel.com/products/jrebel/download](https://www.jrebel.com/products/jrebel/download)
-- Eclipse代码格式化样式 [https://github.com/krasa/EclipseCodeFormatter](https://github.com/krasa/EclipseCodeFormatter)
+    - [http://jrebel.cicoding.cn](http://jrebel.cicoding.cn)
+    - [http://jrebel.cicoding.cn/guid](http://jrebel.cicoding.cn/guid)
+- Eclipse代码格式化风格 [https://github.com/krasa/EclipseCodeFormatter](https://github.com/krasa/EclipseCodeFormatter)
 
 
 
@@ -318,6 +320,14 @@
 
 
 ---
+
+
+
+## Arthas
+
+* [https://github.com/WangJi92/arthas-idea-plugin](https://github.com/WangJi92/arthas-idea-plugin)
+
+> [支持热更新 mybatis mapper.xml](https://wangji.blog.csdn.net/article/details/116615427)
 
 
 

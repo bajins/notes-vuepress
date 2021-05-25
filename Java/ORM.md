@@ -67,6 +67,8 @@
 * [https://github.com/pagehelper/Mybatis-PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)
 * [https://github.com/baomidou/mybatis-plus](https://github.com/baomidou/mybatis-plus)
 
+- [https://github.com/alexdyysp/MybatisHandBook](https://github.com/alexdyysp/MybatisHandBook)
+
 
 
 **trim标签**
