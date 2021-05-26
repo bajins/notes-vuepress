@@ -563,6 +563,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://gitee.com/lovetime/WeAdmin](https://gitee.com/lovetime/WeAdmin)
 * [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
 * 企业级低代码平台 [https://github.com/zhangdaiscott/jeecg-boot](https://github.com/zhangdaiscott/jeecg-boot)
+* 停车场管理 [https://github.com/981011512/--](https://github.com/981011512/--)
 
 
 

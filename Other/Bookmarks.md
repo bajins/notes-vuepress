@@ -65,7 +65,7 @@
 * [https://www.fsf.org/resources](https://www.fsf.org/resources)
 * [https://projects.ow2.org](https://projects.ow2.org)
 * [https://www.openstack.org/software](https://www.openstack.org/software)
-* [https://openinfra.dev/projects](https://openinfra.dev/projects)
+* OpenInfra Foundation [https://openinfra.dev/projects](https://openinfra.dev/projects)
 * [https://github.com/yahoo](https://github.com/yahoo)
 * [https://github.com/adobe](https://github.com/adobe)
 * [https://github.com/eclipse](https://github.com/eclipse)

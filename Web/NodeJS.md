@@ -28,6 +28,7 @@
     - [https://github.com/webpack-contrib](https://github.com/webpack-contrib)
     - [https://webpack.js.org](https://webpack.js.org)
     - [https://www.webpackjs.com](https://www.webpackjs.com)
+    - 深入浅出 Webpack [https://github.com/gwuhaolin/dive-into-webpack](https://github.com/gwuhaolin/dive-into-webpack)
 - [https://github.com/sveltejs/svelte](https://github.com/sveltejs/svelte)
 - 2009年，npm
 - 2012年，grunt

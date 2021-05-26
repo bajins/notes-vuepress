@@ -13,6 +13,9 @@
 > 在3大主流渲染引擎里，webview、weex/react native、flutter，复杂度依次降低，渲染性能依次上升。
 
 
+* REST API抽象  [https://github.com/appwrite](https://github.com/appwrite)
+
+
 **[原生桌面应用](/Web/NodeJS.md#原生桌面应用)**
 
 * Vue.js [https://github.com/kuaifan/eeui](https://github.com/kuaifan/eeui)

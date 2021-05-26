@@ -15,6 +15,10 @@
 
 * Tomcat集群Redis会话管理器 [https://github.com/ran-jit/tomcat-cluster-redis-session-manager](https://github.com/ran-jit/tomcat-cluster-redis-session-manager)
 
+- [归档 | 回忆飘如雪](http://gv7.me/archives)
+- [Shiro的反序列化漏洞，以及内存马技术](https://blog.csdn.net/localhost01/article/details/107340698)
+- [Java Agent 从入门到内存马](https://xz.aliyun.com/t/9450)
+
 
 
 ## 执行器（线程池）

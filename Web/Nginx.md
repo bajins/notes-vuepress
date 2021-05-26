@@ -77,6 +77,8 @@
 * [https://github.com/vozlt/nginx-module-vts](https://github.com/vozlt/nginx-module-vts)
 * [https://gitee.com/tianhao26/openresty_forwarding_log](https://gitee.com/tianhao26/openresty_forwarding_log)
 
+- [浅谈OpenResty中的body_filter_by_lua*](https://zhuanlan.zhihu.com/p/67904411)
+
 
 - content_by_lua_file
 

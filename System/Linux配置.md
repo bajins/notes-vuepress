@@ -7,8 +7,15 @@
 
 # Flag
 
+* [https://www.kernel.org](https://www.kernel.org)
 * 各个版本控件支持库 [https://pkgs.org](https://pkgs.org)
 * 软件包管理器 [https://github.com/NixOS/nix](https://github.com/NixOS/nix)
+* 编译嵌入式 [https://github.com/buildroot/buildroot](https://github.com/buildroot/buildroot)
+* [https://github.com/Entware](https://github.com/Entware)
+* [https://github.com/topics/openwrt](https://github.com/topics/openwrt)
+    * [https://github.com/openwrt/openwrt](https://github.com/openwrt/openwrt)
+* [https://github.com/open-power](https://github.com/open-power)
+* 服务器音频播放器 [https://github.com/badaix/snapcast](https://github.com/badaix/snapcast)
 
 
 

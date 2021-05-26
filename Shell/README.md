@@ -30,6 +30,7 @@
 - [https://sourceforge.net/projects/zsh](https://sourceforge.net/projects/zsh)
 - [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 - [https://github.com/Bash-it/bash-it](https://github.com/Bash-it/bash-it)
+- [https://github.com/0dayCTF/reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator)
 
 
 

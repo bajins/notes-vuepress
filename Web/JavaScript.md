@@ -70,7 +70,7 @@
 - [ES6、ES7、ES8特性一锅炖(ES6、ES7、ES8学习指南)](https://juejin.cn/post/6844903679976275976)
 - [ES6、ES7、ES8、ES9、ES10新特性一览](https://juejin.cn/post/6844903811622912014)
 - [页面生命周期：DOMContentLoaded，load，beforeunload，unload](https://zh.javascript.info/onload-ondomcontentloaded)
-
+- 压缩 [https://github.com/evanw/esbuild](https://github.com/evanw/esbuild)
 
 
 **模块规范**
@@ -452,6 +452,7 @@ var express = require('express');
 * [https://github.com/sampotts/plyr](https://github.com/sampotts/plyr)
 * [https://github.com/Chimeejs/chimee](https://github.com/Chimeejs/chimee)
 * [https://github.com/bilibili/flv.js](https://github.com/bilibili/flv.js)
+* [https://github.com/xqq/mpegts.js](https://github.com/xqq/mpegts.js)
 * [https://github.com/google/shaka-player](https://github.com/google/shaka-player)
 * [https://gitee.com/niandeng/ckplayer](https://gitee.com/niandeng/ckplayer)
 * [https://github.com/Aaaaaaaty/Blog/tree/master/html5player](https://github.com/Aaaaaaaty/Blog/tree/master/html5player)

@@ -301,6 +301,7 @@
 - [https://github.com/ShiftMediaProject/FFmpeg](https://github.com/ShiftMediaProject/FFmpeg)
 - [https://medlexo.ml/cn.php](https://medlexo.ml/cn.php)
 - [https://github.com/HandBrake/HandBrake](https://github.com/HandBrake/HandBrake)
+- 跨平台音乐制作 [https://github.com/LMMS/lmms](https://github.com/LMMS/lmms)
 
 * [foobar2000](http://blog.sina.com.cn/go2spa)
 * [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
@@ -657,6 +658,24 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * Outlook 使用时有自动删除邮件的BUG
 
 
+
+## 远程控制
+
++ [远程桌面客户端 | Microsoft Docs](https://docs.microsoft.com/zh-cn/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)
++ [https://github.com/topics/remote-desktop](https://github.com/topics/remote-desktop)
++ [https://github.com/topics/remote-access](https://github.com/topics/remote-access)
+
+* [https://www.todesk.com](https://www.todesk.com)
+* [https://www.teamviewer.com](https://www.teamviewer.com)
+* [http://trustviewer.com](http://trustviewer.com)
+* [https://github.com/rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
+* 向日葵 [https://sunlogin.oray.com/download](https://sunlogin.oray.com/download)
+* [https://anydesk.com](https://anydesk.com)
+* 投屏 [https://github.com/pavlobu/deskreen](https://github.com/pavlobu/deskreen)
+* [https://github.com/topics/second-screen](https://github.com/topics/second-screen)
+
+
+
 ## other
 
 * [https://www.sandboxie.com](https://www.sandboxie.com)
@@ -699,13 +718,6 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.diskinternals.com/download](https://www.diskinternals.com/download)
     * 读取EXT 类型数据盘 [http://www.diskinternals.com/download/Linux_Reader.exe](http://www.diskinternals.com/download/Linux_Reader.exe)
 * [https://github.com/thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe)
-* 远程控制 [https://www.todesk.com](https://www.todesk.com)
-* [https://www.teamviewer.com](https://www.teamviewer.com)
-* [http://trustviewer.com](http://trustviewer.com)
-* 向日葵 [https://sunlogin.oray.com/download](https://sunlogin.oray.com/download)
-* [https://anydesk.com](https://anydesk.com)
-* 投屏 [https://github.com/pavlobu/deskreen](https://github.com/pavlobu/deskreen)
-* [https://github.com/topics/second-screen](https://github.com/topics/second-screen)
 * 获取本机WiFi密码二维码 [https://github.com/sdushantha/wifi-password](https://github.com/sdushantha/wifi-password)
 * 禁用触摸板 [https://touchfreeze.net](https://touchfreeze.net)
 * [https://github.com/VoodooI2C/VoodooI2CELAN](https://github.com/VoodooI2C/VoodooI2CELAN)
