@@ -41,6 +41,7 @@
     * FLUTTER_STORAGE_BASE_URL [https://storage.flutter-io.cn](https://storage.flutter-io.cn)
 
 + [https://dartpad.dartlang.org](https://dartpad.dartlang.org)
++ [https://dart.cn/tools/dart2native](https://dart.cn/tools/dart2native)
 + [https://dartpad.cn](https://dartpad.cn)
 + [https://github.com/shichunlei/flutter_app](https://github.com/shichunlei/flutter_app)
 + [https://github.com/qq326646683/flutter_tencentplayer](https://github.com/qq326646683/flutter_tencentplayer)
@@ -148,13 +149,17 @@
 * [https://github.com/mar-v-in/ArtHook](https://github.com/mar-v-in/ArtHook)
 * [https://github.com/avs333/Nougat_dlfunctions](https://github.com/avs333/Nougat_dlfunctions)
 * [https://github.com/asLody/VirtualApp](https://github.com/asLody/VirtualApp)
-* [https://github.com/tiann/epic](https://github.com/tiann/epic)
+* 太极 [https://github.com/tiann/epic](https://github.com/tiann/epic)
     * [http://weishu.me/archives](http://weishu.me/archives)
 * [https://github.com/android-hacker/VirtualXposed](https://github.com/android-hacker/VirtualXposed)
 * [https://github.com/taichi-framework/TaiChi](https://github.com/taichi-framework/TaiChi)
     * [https://taichi.cool](https://taichi.cool)
     * [https://github.com/Magisk-Modules-Repo](https://github.com/Magisk-Modules-Repo)
-
+* EdXp
+* LSP
+* Dreamland（梦境框架）
+* Riru 框架（SandHook、YAHFA）
+* BugHook（应用转生）
 
 
 

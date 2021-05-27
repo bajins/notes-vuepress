@@ -200,7 +200,7 @@
 
 - 实时视频流服务器 [https://github.com/gwuhaolin/livego](https://github.com/gwuhaolin/livego)
 - IP代理池 [https://github.com/henson/proxypool](https://github.com/henson/proxypool)
-- 与Discord的API进行交互 [https://github.com/skwair/harmony](https://github.com/skwair/harmony)
+
 
 
 

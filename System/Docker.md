@@ -29,6 +29,7 @@
 * [https://docs.microsoft.com/zh-cn/virtualization/windowscontainers/quick-start/set-up-environment](https://docs.microsoft.com/zh-cn/virtualization/windowscontainers/quick-start/set-up-environment)
 
 - 测试容器 [https://github.com/testcontainers](https://github.com/testcontainers)
+- 自己动手写docker [https://github.com/xianlubird/mydocker](https://github.com/xianlubird/mydocker)
 
 
 **Docker搭建私有仓库**
@@ -54,6 +55,7 @@
 * [从开发者的角度比较Kubernetes和Cloud Foundry](http://dockone.io/article/5679)
 * [https://github.com/kubernetes](https://github.com/kubernetes)
     * [https://github.com/kubernetes-incubator](https://github.com/kubernetes-incubator)
+    * [https://github.com/kubernetes-sigs](https://github.com/kubernetes-sigs)
     * [https://kubernetes.io](https://kubernetes.io)
 * Kubernetes的软件包管理器 [https://github.com/helm](https://github.com/helm)
 * Ansible脚本安装K8S集群 [https://github.com/easzlab/kubeasz](https://github.com/easzlab/kubeasz)

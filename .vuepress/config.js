@@ -141,6 +141,15 @@ module.exports = {
                         type: 'image',
                         imageUrl: 'https://lookimg.com/images/2021/03/05/Plclvr.png',
                     }
+                }, {
+                    icon: '',
+                    name: '饿了么优惠券',
+                    link: '',
+                    popover: {
+                        title: '饿了么扫码领红包',
+                        type: 'image',
+                        imageUrl: 'https://lookimg.com/images/2021/05/27/PNqMD9.jpg',
+                    }
                 }
             ]
         }],

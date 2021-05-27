@@ -44,6 +44,8 @@
 * [https://github.com/virt-manager/virt-manager](https://github.com/virt-manager/virt-manager)
 * [https://www.qemu.org](https://www.qemu.org)
 * [https://gitlab.com/libvirt/libvirt](https://gitlab.com/libvirt/libvirt)
+* 开发证书 [https://github.com/topics/certificates](https://github.com/topics/certificates)
+* [https://github.com/FiloSottile/mkcert](https://github.com/FiloSottile/mkcert)
 
 
 **Rust**
@@ -83,6 +85,9 @@
 + [https://github.com/Alinshans/MyTinySTL](https://github.com/Alinshans/MyTinySTL)
 + [https://github.com/DaveGamble/cJSON](https://github.com/DaveGamble/cJSON)
 + [https://github.com/Exiv2/exiv2](https://github.com/Exiv2/exiv2)
++ [https://github.com/madler/zlib](https://github.com/madler/zlib)
++ [https://github.com/zeux/pugixml](https://github.com/zeux/pugixml)
++ [https://github.com/google/leveldb](https://github.com/google/leveldb)
 
 
 > C语言的编译器有很多种，不同的平台下有不同的编译器
@@ -101,6 +106,7 @@
 **Scala**
 
 + [https://github.com/scala/scala](https://github.com/scala/scala)
++ [https://github.com/Centaur/repox](https://github.com/Centaur/repox)
 
 * [https://github.com/scala-js/scala-js](https://github.com/scala-js/scala-js)
     * [https://github.com/akka-js/akka.js](https://github.com/akka-js/akka.js)
@@ -141,10 +147,13 @@
 * [https://docs.microsoft.com/zh-cn/cpp](https://docs.microsoft.com/zh-cn/cpp)
 * [https://github.com/xamarin](https://github.com/xamarin)
     * [https://docs.microsoft.com/zh-cn/xamarin](https://docs.microsoft.com/zh-cn/xamarin)
+* [https://github.com/microsoft/Windows-universal-samples](https://github.com/microsoft/Windows-universal-samples)
 
 - [https://docs.microsoft.com/zh-cn/windows/win32/apiindex/windows-api-list](https://docs.microsoft.com/zh-cn/windows/win32/apiindex/windows-api-list)
 - [https://visualstudio.microsoft.com/zh-hans/vs](https://visualstudio.microsoft.com/zh-hans/vs)
 
+* [https://github.com/ModernFlyouts-Community/ModernFlyouts](https://github.com/ModernFlyouts-Community/ModernFlyouts)
+* [https://github.com/openhardwaremonitor/openhardwaremonitor](https://github.com/openhardwaremonitor/openhardwaremonitor)
 
 
 **TypeScript**

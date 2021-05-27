@@ -122,6 +122,7 @@
 * [https://github.com/Chalarangelo/mini.css](https://github.com/Chalarangelo/mini.css)
 * [https://github.com/olton/Metro-UI-CSS](https://github.com/olton/Metro-UI-CSS)
 * [https://github.com/storybookjs/storybook](https://github.com/storybookjs/storybook)
+* [https://github.com/saadeghi/daisyui](https://github.com/saadeghi/daisyui)
 
 
 

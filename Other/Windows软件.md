@@ -85,6 +85,8 @@
     * [https://signal.org](https://signal.org)
 * [https://trello.com](https://trello.com)
 * [https://discord.com](https://discord.com)
+    * 与Discord的API进行交互 [https://github.com/skwair/harmony](https://github.com/skwair/harmony)
+    * [https://github.com/discordjs/discord.js](https://github.com/discordjs/discord.js)
 * P2P [https://github.com/berty/berty](https://github.com/berty/berty)
 * [https://github.com/matrix-org](https://github.com/matrix-org)
 * [https://github.com/GetStream](https://github.com/GetStream)
@@ -399,6 +401,8 @@
     * [https://www.snipaste.com](https://www.snipaste.com)
 * [https://picpick.app/zh/download](https://picpick.app/zh/download)
 * [https://github.com/smasherprog/screen_capture_lite](https://github.com/smasherprog/screen_capture_lite)
+* [https://www.techsmith.com/products.html](https://www.techsmith.com/products.html)
+    * [https://www.snagit.com](https://www.snagit.com)
 
 
 **FastStone Capture**
@@ -709,6 +713,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/ccseer/Seer](https://github.com/ccseer/Seer)
 * 黑暗模式 [https://github.com/Armin2208/Windows-Auto-Night-Mode](https://github.com/Armin2208/Windows-Auto-Night-Mode)
 * [EarTrumpet 为每个软件单独设置音量](https://www.microsoft.com/zh-cn/p/eartrumpet/9nblggh516xp)
+* [https://github.com/mydockfinder/mydockfinder](https://github.com/mydockfinder/mydockfinder)
+    * [https://www.mydockfinder.com](https://www.mydockfinder.com)
 * 任务栏透明化 [https://github.com/TranslucentTB](https://github.com/TranslucentTB)
 * 微软常用运行库 [https://github.com/abbodi1406/vcredist](https://github.com/abbodi1406/vcredist)
     * [https://hub.fastgit.org/abbodi1406/vcredist](https://hub.fastgit.org/abbodi1406/vcredist)
