@@ -89,6 +89,7 @@
 * [Android-FFmpeg开源库使用及图片压缩开源工具使用](https://www.jianshu.com/p/e960854d3705)
 * 查看包差异 [https://github.com/JakeWharton/diffuse](https://github.com/JakeWharton/diffuse)
 * 使用SQLite [https://github.com/guolindev/LitePal](https://github.com/guolindev/LitePal)
+* 反射 [https://github.com/tiann/FreeReflection](https://github.com/tiann/FreeReflection)
 
 + [归档 | Homurax's Blog](https://blog.homurax.com/archives)
 + [Android：JNI 与 NDK到底是什么？](https://blog.csdn.net/carson_ho/article/details/73250163)
@@ -142,22 +143,37 @@
 **Hooking**
 
 + [https://github.com/topics/xposed](https://github.com/topics/xposed)
++ [https://github.com/topics/inline-hook](https://github.com/topics/inline-hook)
 
 * [https://github.com/topjohnwu/Magisk](https://github.com/topjohnwu/Magisk)
 * [https://github.com/rovo89/Xposed](https://github.com/rovo89/Xposed)
     * [https://repo.xposed.info](https://repo.xposed.info)
+* [https://github.com/ElderDrivers/EdXposed](https://github.com/ElderDrivers/EdXposed)
 * [https://github.com/mar-v-in/ArtHook](https://github.com/mar-v-in/ArtHook)
 * [https://github.com/avs333/Nougat_dlfunctions](https://github.com/avs333/Nougat_dlfunctions)
+* [https://github.com/RikkaApps/Riru](https://github.com/RikkaApps/Riru)
+* 梦境框架 [https://github.com/canyie/Dreamland](https://github.com/canyie/Dreamland)
 * [https://github.com/asLody/VirtualApp](https://github.com/asLody/VirtualApp)
+    * [https://github.com/ServenScorpion/VirtualApp11](https://github.com/ServenScorpion/VirtualApp11)
+* [https://github.com/asLody/whale](https://github.com/asLody/whale)
+* [https://github.com/nnjun/BlackBox/network/members](https://github.com/nnjun/BlackBox/network/members)
+* [https://github.com/2-young-2-simple/VirtualApp](https://github.com/2-young-2-simple/VirtualApp)
+* [https://github.com/didi/VirtualAPK](https://github.com/didi/VirtualAPK)
+* [https://github.com/ganyao114/SandVXposed](https://github.com/ganyao114/SandVXposed)
 * 太极 [https://github.com/tiann/epic](https://github.com/tiann/epic)
     * [http://weishu.me/archives](http://weishu.me/archives)
 * [https://github.com/android-hacker/VirtualXposed](https://github.com/android-hacker/VirtualXposed)
 * [https://github.com/taichi-framework/TaiChi](https://github.com/taichi-framework/TaiChi)
     * [https://taichi.cool](https://taichi.cool)
     * [https://github.com/Magisk-Modules-Repo](https://github.com/Magisk-Modules-Repo)
+* [https://github.com/ganyao114/SandHook](https://github.com/ganyao114/SandHook)
+* [https://github.com/canyie/pine](https://github.com/canyie/pine)
+* [https://github.com/PAGalaxyLab/YAHFA](https://github.com/PAGalaxyLab/YAHFA)
+* [https://github.com/turing-technician/FastHook](https://github.com/turing-technician/FastHook)
+* [https://github.com/LSPosed/LSPosed](https://github.com/LSPosed/LSPosed)
+    * [https://github.com/Xposed-Modules-Repo](https://github.com/Xposed-Modules-Repo)
 * EdXp
 * LSP
-* Dreamland（梦境框架）
 * Riru 框架（SandHook、YAHFA）
 * BugHook（应用转生）
 
@@ -176,6 +192,7 @@
 * 反混淆 [https://github.com/CalebFenton/simplify](https://github.com/CalebFenton/simplify)
 
 
+- [https://github.com/CodingGay/BlackDex](https://github.com/CodingGay/BlackDex)
 - unity il2cpp逆向工程 [https://github.com/Perfare/Il2CppDumper](https://github.com/Perfare/Il2CppDumper)
 - CFF Explorer进程PE查看 [http://www.ntcore.com/exsuite.php](http://www.ntcore.com/exsuite.php)
     - [https://github.com/bfosterjr/CFFExtensions](https://github.com/bfosterjr/CFFExtensions)

@@ -677,6 +677,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://anydesk.com](https://anydesk.com)
 * 投屏 [https://github.com/pavlobu/deskreen](https://github.com/pavlobu/deskreen)
 * [https://github.com/topics/second-screen](https://github.com/topics/second-screen)
+* [https://github.com/quasar/Quasar](https://github.com/quasar/Quasar)
 
 
 

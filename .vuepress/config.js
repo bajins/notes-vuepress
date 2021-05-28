@@ -143,7 +143,7 @@ module.exports = {
                     }
                 }, {
                     icon: '',
-                    name: '饿了么优惠券',
+                    name: '饿了么',
                     link: '',
                     popover: {
                         title: '饿了么扫码领红包',

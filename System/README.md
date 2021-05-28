@@ -74,6 +74,7 @@
 + [https://github.com/CokeMine/ServerStatus-Hotaru](https://github.com/CokeMine/ServerStatus-Hotaru)
 + [https://github.com/BotoX/ServerStatus](https://github.com/BotoX/ServerStatus)
 * [https://github.com/jimmy201602/webterminal](https://github.com/jimmy201602/webterminal)
+* [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
 
 
 
