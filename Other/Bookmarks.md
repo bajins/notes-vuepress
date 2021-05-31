@@ -44,7 +44,7 @@
 * [https://github.com/square](https://github.com/square)
 * [https://github.com/aws-samples](https://github.com/aws-samples)
     * [https://github.com/awsdocs](https://github.com/awsdocs)
-
+* [https://github.com/hashicorp](https://github.com/hashicorp)
 
 - [https://github.com/TogetherOS](https://github.com/TogetherOS)
 - [https://github.com/lets-blade](https://github.com/lets-blade)
@@ -121,6 +121,7 @@
 * 初学者友好项目列表[https://github.com/MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)
 * [思维导图](https://github.com/search?o=desc&q=%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE&s=updated&type=Repositories)
 * [https://github.com/polaris1119/awesome-cheatsheets-cn](https://github.com/polaris1119/awesome-cheatsheets-cn)
+* 学习主题清单 [https://github.com/jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
 
 
 

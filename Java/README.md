@@ -17,10 +17,6 @@
     + [https://docs.oracle.com/javase/8/docs](https://docs.oracle.com/javase/8/docs)
     + [https://docs.oracle.com/javase/7/docs](https://docs.oracle.com/javase/7/docs)
 
-* [https://www.oracle.com/cn/downloads](https://www.oracle.com/cn/downloads)
-    * [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
-    * [https://www.oracle.com/java/technologies/java-ee-glance.html](https://www.oracle.com/java/technologies/java-ee-glance.html)
-
 + [https://github.com/eclipse-ee4j](https://github.com/eclipse-ee4j)
     + [https://projects.eclipse.org/jakartaee/releases/8](https://projects.eclipse.org/jakartaee/releases/8)
     + [javaEE和javaweb的区别？](https://www.zhihu.com/question/52002845)
@@ -156,6 +152,7 @@
 * Java OpenTelemetry 测试指南 [https://github.com/chenmudu/open-telemetry-java-guides](https://github.com/chenmudu/open-telemetry-java-guides)
 * [https://github.com/spring2go/staffjoy](https://github.com/spring2go/staffjoy)
 * [https://github.com/lenve/javaboy-code-samples](https://github.com/lenve/javaboy-code-samples)
+* 系统重构与迁移指南 [https://github.com/phodal/migration](https://github.com/phodal/migration)
 
 + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
 + [https://github.com/Wizzercn/MqttWk](https://github.com/Wizzercn/MqttWk)

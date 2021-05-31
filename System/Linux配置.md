@@ -18,6 +18,11 @@
 * 服务器音频播放器 [https://github.com/badaix/snapcast](https://github.com/badaix/snapcast)
 
 
+- [https://github.com/littlekernel/lk](https://github.com/littlekernel/lk)
+    - [Little Kernel 代码走读（一） – 易也技术](http://yiiyee.cn/blog/2019/08/28/lk1)
+    - [https://github.com/dahliaOS/fimage](https://github.com/dahliaOS/fimage)
+
+
 
 ## 源码安装卸载软件
 

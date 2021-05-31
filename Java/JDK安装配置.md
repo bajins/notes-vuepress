@@ -14,6 +14,9 @@
 * [https://www.ej-technologies.com](https://www.ej-technologies.com)
 * [https://github.com/oracle/graal](https://github.com/oracle/graal)
 * [http://openjdk.java.net/jeps/333](http://openjdk.java.net/jeps/333)
+* [https://www.oracle.com/cn/downloads](https://www.oracle.com/cn/downloads)
+    * [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
+    * [https://www.oracle.com/java/technologies/java-ee-glance.html](https://www.oracle.com/java/technologies/java-ee-glance.html)
 
 - [https://github.com/topics/native-image](https://github.com/topics/native-image)
     - [GraalVM Native Image介绍](https://aijishu.com/a/1060000000090571)

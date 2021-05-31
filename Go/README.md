@@ -163,6 +163,9 @@
 * [https://github.com/google/goterm](https://github.com/google/goterm)
 * [https://github.com/ThomasRooney/gexpect](https://github.com/ThomasRooney/gexpect)
 * [https://github.com/mattn/go-sqlite3](https://github.com/mattn/go-sqlite3)
+* [https://github.com/nakagami/firebirdsql](https://github.com/nakagami/firebirdsql)
+* [https://github.com/lib/pq](https://github.com/lib/pq)
+* [https://github.com/jackc/pgx](https://github.com/jackc/pgx)
 * Swagger 2.0 for Go [https://github.com/swaggo](https://github.com/swaggo)
 * [https://github.com/owenliang/go-push](https://github.com/owenliang/go-push)
 * [https://github.com/rs/zerolog](https://github.com/rs/zerolog)
@@ -196,6 +199,7 @@
 * [https://github.com/refraction-networking/utls](https://github.com/refraction-networking/utls)
 * 十进制数 [https://github.com/shopspring/decimal](https://github.com/shopspring/decimal)
 * 布隆过滤器 [https://github.com/bits-and-blooms](https://github.com/bits-and-blooms)
+* 错误合并 [https://github.com/hashicorp/go-multierror](https://github.com/hashicorp/go-multierror)
 
 
 - 实时视频流服务器 [https://github.com/gwuhaolin/livego](https://github.com/gwuhaolin/livego)

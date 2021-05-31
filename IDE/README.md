@@ -128,10 +128,6 @@
 * [https://github.com/OmniDB/OmniDB](https://github.com/OmniDB/OmniDB)
 * [https://github.com/webyog/sqlyog-community](https://github.com/webyog/sqlyog-community)
 
-+ Go编写的数据库迁移 [https://github.com/golang-migrate/migrate](https://github.com/golang-migrate/migrate)
-
-
-
 
 
 **Redis**

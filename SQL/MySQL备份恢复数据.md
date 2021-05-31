@@ -183,6 +183,31 @@ mysqldump -R -E -h主机地址 -P端口 -u用户名 -p --all-databases > /home/a
 mysqldump -R -E -u用户名 -p 数据库名 | mysql 新数据库名 -u用户名 -p密码
 ```
 
+- 如果提示如下错误，执行`vi /etc/my.cnf`
+
+> `mysqldump: [Warning] Using a password on the command line interface can be insecure`
+
+```ini
+# [mysqldump]
+[client]
+# 查看mysql.scok位置 netstat -ln | grep mysql
+#socket = /tmp/mysql.scok
+default-character-set = utf8mb4
+host = 127.0.0.1
+user = root
+password = '123'
+```
+
+```bash
+# 导出
+mysqldump --defaults-extra-file=/etc/my.cnf 新数据库名 > database.sql
+# 导入
+mysql --defaults-extra-file=/etc/my.cnf 新数据库名 < database.sql
+```
+
+
+
+
 ```batch
 @echo off
 
@@ -223,84 +248,6 @@ mysql -h主机地址 -P端口 -u用户名 -p密码 数据库名 < backupfile.sql
 
 ```bash
 mysqldump -R -E -h导出的主机地址 -P端口 -u用户名 -p 数据库名 | mysql -h导入的主机地址 -P端口 -u用户名 -p密码 -C 数据库名
-```
-
-
-
-### mysqldump其他命令
-
-> `mysqldump`导入导出结构，数据，存储过程，函数，事件，触发器
-
-```
-1.①导出一个库结构
-
-mysqldump -d dbname -u root -p > xxx.sql
-
-②导出多个库结构
-
-mysqldump -d -B dbname1 dbname2 -u root -p > xxx.sql
-
-2.①导出一个库数据
-
-mysqldump -t dbname -u root -p > xxx.sql
-
-②导出多个库数据
-
-mysqldump -t -B dbname1 dbname2 -u root -p > xxx.sql
- 
-
-3.①导出一个库结构以及数据
-
-mysqldump dbname1 -u root -p > xxx.sql
-
-②导出多个库结构以及数据
-
-mysqldump -B dbname1 dbname2 -u root -p > xxx.sql
-
--------------------------数据表操作-----------------------------
-
-4.①导出一个表结构
-
-mysqldump -d dbname1 tablename1 -u root -p > xxx.sql
-
-②导出多个表结构
-
-mysqldump -d -B dbname1 --tables tablename1 tablename2 -u root -p > xxx.sql
- 
-
-5.①导出一个表数据
-
-mysqldump -t dbname1 tablename1 -u root -p > xxx.sql
-
-②导出多个表数据
-
-mysqldump -d -B dbname1 --tables tablename1 tablename2 -u root -p > xxx.sql
- 
-
-6.①导出一个表结构以及数据
-
-mysqldump dbname1 tablename1 -u root -p > xxx.sql
-
-②导出多个表结构以及数据
-
-mysqldump -B dbname1 --tables tablename1 tablename2 -u root -p > xxx.sql
-
--------------------------存储过程、函数操作-----------------------------
-
-7.只导出存储过程和函数(不导出结构和数据，要同时导出结构的话，需要同时使用-d)
-
-mysqldump -R -ndt dbname1 -u root -p > xxx.sql
- 
--------------------------事件操作-----------------------------
-8.只导出事件
-
-mysqldump -E -ndt dbname1 -u root -p > xxx.sql
- 
--------------------------触发器操作-----------------------------
-
-9.不导出触发器（触发器是默认导出的–triggers，使用–skip-triggers屏蔽导出触发器）
-
-mysqldump --skip-triggers dbname1 -u root -p > xxx.sql
 ```
 
 

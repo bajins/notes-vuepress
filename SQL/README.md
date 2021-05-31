@@ -7,17 +7,26 @@
 
 ## Flag
 
-* [http://www.h2database.com](http://www.h2database.com)
-* [http://hsqldb.org](http://hsqldb.org)
-* [https://github.com/FirebirdSQL/firebird](https://github.com/FirebirdSQL/firebird)
-
 - 同步 [https://github.com/alibaba/DataX](https://github.com/alibaba/DataX)
 - 日志解析订阅和消费 [https://github.com/alibaba/canal](https://github.com/alibaba/canal)
 - [https://github.com/ucarGroup/DataLink](https://github.com/ucarGroup/DataLink)
 - [https://github.com/flyway/flyway](https://github.com/flyway/flyway)
+- 迁移 [https://github.com/topics/migrations](https://github.com/topics/migrations)
+- [https://github.com/topics/migration](https://github.com/topics/migration)
+- Go编写的数据库迁移 [https://github.com/golang-migrate/migrate](https://github.com/golang-migrate/migrate)
+- PostgreSQL迁移 [https://github.com/jackc/tern](https://github.com/jackc/tern)
 
+
+**其他数据库**
+
+* [http://www.h2database.com](http://www.h2database.com)
+* [http://hsqldb.org](http://hsqldb.org)
+* [https://github.com/FirebirdSQL/firebird](https://github.com/FirebirdSQL/firebird)
+* [https://github.com/alibaba/PolarDB-for-PostgreSQL](https://github.com/alibaba/PolarDB-for-PostgreSQL)
 * [https://db-engines.com/en/ranking](https://db-engines.com/en/ranking)
 * 分布式 [https://github.com/cockroachdb/cockroach](https://github.com/cockroachdb/cockroach)
+* [https://github.com/apache/cassandra](https://github.com/apache/cassandra)
+* CrateDB [https://github.com/crate/crate](https://github.com/crate/crate)
 * [https://github.com/influxdata/influxdb](https://github.com/influxdata/influxdb)
 * 分布式图形数据库 [https://github.com/JanusGraph](https://github.com/JanusGraph)
 * [https://github.com/VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)
@@ -29,6 +38,11 @@
 * [https://github.com/memcached/memcached](https://github.com/memcached/memcached)
 * [https://github.com/sirixdb](https://github.com/sirixdb)
 * [https://github.com/scylladb/scylla](https://github.com/scylladb/scylla)
+* 面向列的数据库 [https://github.com/ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)
+* 图数据库 [https://github.com/neo4j/neo4j](https://github.com/neo4j/neo4j)
+* Go 嵌入式 (S)QL 数据库 [https://gitlab.com/cznic/ql](https://gitlab.com/cznic/ql)
+
+
 
 
 
@@ -323,6 +337,7 @@ ON CONFLICT target action;
 * [SQLite 教程](https://www.runoob.com/sqlite/sqlite-tutorial.html)
 * [SQLite3 数据类型与亲和类型](https://blog.csdn.net/feiyihexin/article/details/99728504)
 
+- 加密 [https://github.com/sqlcipher/sqlcipher](https://github.com/sqlcipher/sqlcipher)
 - [https://github.com/utelle/wxsqlite3](https://github.com/utelle/wxsqlite3)
 - 分布式关系数据库 [https://github.com/rqlite/rqlite](https://github.com/rqlite/rqlite)
 

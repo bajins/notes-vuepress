@@ -13,7 +13,9 @@
 + W3C 网页标准教程 [http://www.w3chtml.com](http://www.w3chtml.com)
 
 
+* [https://github.com/microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
 * 开发人员设计资源 [https://github.com/bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers)
+* [https://github.com/jobbole/awesome-design-cn](https://github.com/jobbole/awesome-design-cn)
 * [https://github.com/junruchen/junruchen.github.io/wiki](https://github.com/junruchen/junruchen.github.io/wiki)
 * [https://github.com/mathjax](https://github.com/mathjax)
 * 前端知识点总结 [https://github.com/zhaiyy/Web-front-end-knowledge-summary](https://github.com/zhaiyy/Web-front-end-knowledge-summary)
@@ -29,6 +31,7 @@
 * [前端解决第三方图片防盗链的办法 - html referrer 访问图片资源403问题](https://github.com/biaochenxuying/blog/issues/31)
 * [Serverless——前端的3.0时代](https://zhuanlan.zhihu.com/p/84054729)
 
++ 前端精读周刊 [https://github.com/ascoders/weekly](https://github.com/ascoders/weekly)
 + [https://jsbin.com](https://jsbin.com)
 + [f2ex.cn 各种前端资源](http://f2ex.cn)
 
