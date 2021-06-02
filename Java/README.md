@@ -153,6 +153,10 @@
 * [https://github.com/spring2go/staffjoy](https://github.com/spring2go/staffjoy)
 * [https://github.com/lenve/javaboy-code-samples](https://github.com/lenve/javaboy-code-samples)
 * 系统重构与迁移指南 [https://github.com/phodal/migration](https://github.com/phodal/migration)
+* [https://github.com/0voice/expert_readed_books](https://github.com/0voice/expert_readed_books)
+* [https://github.com/DreamCats/java-notes](https://github.com/DreamCats/java-notes)
+* [https://github.com/winterbe/java8-tutorial](https://github.com/winterbe/java8-tutorial)
+    * Java 8 简明教程 [https://github.com/wizardforcel/modern-java-zh](https://github.com/wizardforcel/modern-java-zh)
 
 + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
 + [https://github.com/Wizzercn/MqttWk](https://github.com/Wizzercn/MqttWk)

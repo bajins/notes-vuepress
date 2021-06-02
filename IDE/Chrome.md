@@ -82,6 +82,9 @@ chrome://flags/#enable-parallel-downloading
 * [https://github.com/blittle/chrome-dev-tools](https://github.com/blittle/chrome-dev-tools)
 * Chrome开发者工具中文手册 [https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools](https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools)
 * [https://github.com/ahangchen/Chromium_doc_zh](https://github.com/ahangchen/Chromium_doc_zh)
+* [Chrome工具-查看dom元素绑定的事件](https://blog.csdn.net/weixin_38080573/article/details/105200212)
+* [F12找到页面某一元素所绑定的点击事件](https://www.cnblogs.com/111testing/p/11448316.html)
+* [如何使用chrome浏览器进行js调试找出元素绑定的点击事件](https://www.cnblogs.com/itjeff/p/11692342.html)
 
 - Firefox 开发者工具 [https://developer.mozilla.org/zh-CN/docs/Tools](https://developer.mozilla.org/zh-CN/docs/Tools)
 - Firefox浏览器开发人员版 [https://www.mozilla.org/zh-CN/firefox/developer](https://www.mozilla.org/zh-CN/firefox/developer)

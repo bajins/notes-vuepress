@@ -16,12 +16,13 @@
     * [https://github.com/openwrt/openwrt](https://github.com/openwrt/openwrt)
 * [https://github.com/open-power](https://github.com/open-power)
 * 服务器音频播放器 [https://github.com/badaix/snapcast](https://github.com/badaix/snapcast)
-
+* 桌面 [https://github.com/kernelslacker/trinity](https://github.com/kernelslacker/trinity)
+* [https://kde.org/zh-cn/plasma-desktop](https://kde.org/zh-cn/plasma-desktop)
 
 - [https://github.com/littlekernel/lk](https://github.com/littlekernel/lk)
     - [Little Kernel 代码走读（一） – 易也技术](http://yiiyee.cn/blog/2019/08/28/lk1)
     - [https://github.com/dahliaOS/fimage](https://github.com/dahliaOS/fimage)
-
+    - [https://fuchsia.fsf.org.cn](https://fuchsia.fsf.org.cn)
 
 
 ## 源码安装卸载软件

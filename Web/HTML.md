@@ -14,7 +14,6 @@
 
 
 
-
 **template代码片段**
 
 * [https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/template](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/template)
@@ -29,6 +28,13 @@
 
 * [script type="text/html"](https://blog.csdn.net/qq_37796475/article/details/79342234)
 
+
+
+**select框默认选项为空白**
+
+```html
+<option selected="selected" disabled="disabled"  style='display: none' value=''></option>
+```
 
 
 ## Meta标签

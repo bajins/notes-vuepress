@@ -25,6 +25,8 @@
 * [https://github.com/alibaba/PolarDB-for-PostgreSQL](https://github.com/alibaba/PolarDB-for-PostgreSQL)
 * [https://db-engines.com/en/ranking](https://db-engines.com/en/ranking)
 * 分布式 [https://github.com/cockroachdb/cockroach](https://github.com/cockroachdb/cockroach)
+* [https://github.com/pingcap/tidb](https://github.com/pingcap/tidb)
+    * [https://pingcap.com](https://pingcap.com)
 * [https://github.com/apache/cassandra](https://github.com/apache/cassandra)
 * CrateDB [https://github.com/crate/crate](https://github.com/crate/crate)
 * [https://github.com/influxdata/influxdb](https://github.com/influxdata/influxdb)
@@ -41,7 +43,7 @@
 * 面向列的数据库 [https://github.com/ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)
 * 图数据库 [https://github.com/neo4j/neo4j](https://github.com/neo4j/neo4j)
 * Go 嵌入式 (S)QL 数据库 [https://gitlab.com/cznic/ql](https://gitlab.com/cznic/ql)
-
+* [https://github.com/oceanbase/oceanbase](https://github.com/oceanbase/oceanbase)
 
 
 
@@ -64,6 +66,7 @@
 * [https://www.sqlgate.com](https://www.sqlgate.com)
 * [https://www.jetprofiler.com](https://www.jetprofiler.com)
 * [https://www.solarwinds.com/zh/database-performance-monitoring-software](https://www.solarwinds.com/zh/database-performance-monitoring-software)
+* 高可用复制管理工具 [https://github.com/openark/orchestrator](https://github.com/openark/orchestrator)
 
 
 
