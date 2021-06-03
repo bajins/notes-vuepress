@@ -155,6 +155,7 @@
 
 * [https://github.com/ModernFlyouts-Community/ModernFlyouts](https://github.com/ModernFlyouts-Community/ModernFlyouts)
 * [https://github.com/openhardwaremonitor/openhardwaremonitor](https://github.com/openhardwaremonitor/openhardwaremonitor)
+* poi [https://github.com/nissl-lab/npoi](https://github.com/nissl-lab/npoi)
 
 
 **TypeScript**
@@ -188,6 +189,11 @@
 + [https://github.com/LuaJIT/LuaJIT](https://github.com/LuaJIT/LuaJIT)
 + 包管理 [https://github.com/luarocks/luarocks](https://github.com/luarocks/luarocks)
 + Lua 5.3 手册中文版 [https://github.com/cloudwu/lua53doc](https://github.com/cloudwu/lua53doc)
++ [Lua语言-入门语法](https://bedebug.com/archives/lua0)
+
+- [https://github.com/EmmyLua/IntelliJ-EmmyLua](https://github.com/EmmyLua/IntelliJ-EmmyLua)
+    - [https://emmylua.github.io/zh_CN](https://emmylua.github.io/zh_CN)
+- [https://www.eclipse.org/ldt](https://www.eclipse.org/ldt)
 
 * [https://github.com/yuin/gopher-lua](https://github.com/yuin/gopher-lua)
 * [https://github.com/Shopify/go-lua](https://github.com/Shopify/go-lua)

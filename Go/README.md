@@ -198,6 +198,7 @@
 * 十进制数 [https://github.com/shopspring/decimal](https://github.com/shopspring/decimal)
 * 布隆过滤器 [https://github.com/bits-and-blooms](https://github.com/bits-and-blooms)
 * 错误合并 [https://github.com/hashicorp/go-multierror](https://github.com/hashicorp/go-multierror)
+* excel [https://github.com/360EntSecGroup-Skylar/excelize](https://github.com/360EntSecGroup-Skylar/excelize)
 
 
 - 实时视频流服务器 [https://github.com/gwuhaolin/livego](https://github.com/gwuhaolin/livego)

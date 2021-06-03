@@ -49,6 +49,13 @@
 - [https://github.com/BlackArch](https://github.com/BlackArch)
 - [https://gitlab.com/kalilinux](https://gitlab.com/kalilinux)
     - [https://www.kali.org](https://www.kali.org)
+- [https://github.com/SerenityOS](https://github.com/SerenityOS)
+
+* [https://github.com/topics/openwrt](https://github.com/topics/openwrt)
+    * [https://github.com/openwrt/openwrt](https://github.com/openwrt/openwrt)
+* [https://github.com/open-power](https://github.com/open-power)
+* [https://github.com/Entware](https://github.com/Entware)
+
 
 
 

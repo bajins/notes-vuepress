@@ -90,6 +90,7 @@
 * 查看包差异 [https://github.com/JakeWharton/diffuse](https://github.com/JakeWharton/diffuse)
 * 使用SQLite [https://github.com/guolindev/LitePal](https://github.com/guolindev/LitePal)
 * 反射 [https://github.com/tiann/FreeReflection](https://github.com/tiann/FreeReflection)
+* [https://github.com/Dsiner/UIUtil](https://github.com/Dsiner/UIUtil)
 
 + [归档 | Homurax's Blog](https://blog.homurax.com/archives)
 + [Android：JNI 与 NDK到底是什么？](https://blog.csdn.net/carson_ho/article/details/73250163)

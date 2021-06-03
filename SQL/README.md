@@ -44,6 +44,7 @@
 * 图数据库 [https://github.com/neo4j/neo4j](https://github.com/neo4j/neo4j)
 * Go 嵌入式 (S)QL 数据库 [https://gitlab.com/cznic/ql](https://gitlab.com/cznic/ql)
 * [https://github.com/oceanbase/oceanbase](https://github.com/oceanbase/oceanbase)
+* [https://github.com/roseduan/rosedb](https://github.com/roseduan/rosedb)
 
 
 

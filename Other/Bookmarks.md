@@ -318,6 +318,8 @@
 * [归档 | IT宅-arthinking's blog](https://www.itzhai.com/archives)
 * [归档 | 张振伟的博客](https://zhangzw.com/archives)
 * [JMCui - 博客园](https://www.cnblogs.com/jmcui)
+* [Archives | 三秋](https://lushunjian.gitee.io/archives)
+* [归档 | 在码圈](https://bedebug.com/archives)
 
 
 
@@ -348,6 +350,7 @@
     * [https://github.com/darjun/go-daily-lib](https://github.com/darjun/go-daily-lib)
 * [归档 | Pure White](https://www.purewhite.io/archives)
 * [Archives | 鸟窝](https://colobu.com/archives)
+* [酷 壳 – COOLSHELL](https://coolshell.cn/featured)
 
 
 

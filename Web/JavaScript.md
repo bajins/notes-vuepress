@@ -181,6 +181,7 @@ var express = require('express');
     * [https://babeljs.io](https://babeljs.io)
     * [https://www.babeljs.cn](https://www.babeljs.cn)
 * 使浏览器支持require [https://github.com/browserify](https://github.com/browserify)
+* [https://github.com/babel/babelify](https://github.com/babel/babelify)
 * 拷贝文字 [https://github.com/zenorocha/clipboard.js](https://github.com/zenorocha/clipboard.js)
     * [http://www.clipboardjs.cn](http://www.clipboardjs.cn)
 * [https://github.com/zeroclipboard/zeroclipboard](https://github.com/zeroclipboard/zeroclipboard)
@@ -317,28 +318,32 @@ var express = require('express');
 
 **文档**
 
++ [https://github.com/topics/poi](https://github.com/topics/poi)
++ [https://github.com/topics/excel](https://github.com/topics/excel)
++ [https://github.com/topics/word](https://github.com/topics/word)
+
 * [https://github.com/MrRio/jsPDF](https://github.com/MrRio/jsPDF)
 * [https://github.com/mozilla/pdf.js](https://github.com/mozilla/pdf.js)
-* 电子表格数据工具包 [https://github.com/SheetJS](https://github.com/SheetJS)
+* excel [https://github.com/dtjohnson/xlsx-populate](https://github.com/dtjohnson/xlsx-populate)
+    * [前端生成导出Excel](https://lushunjian.gitee.io/2020/08/08/qian-duan-sheng-cheng-dao-chu-excel)
+    * [https://www.npmjs.com/package/xlsx-populate#style-reference](https://www.npmjs.com/package/xlsx-populate#style-reference)
+* [https://github.com/SheetJS](https://github.com/SheetJS)
+    * [https://github.com/protobi/js-xlsx](https://github.com/protobi/js-xlsx)
+    * [https://github.com/Ctrl-Ling/XLSX-Style-Utils](https://github.com/Ctrl-Ling/XLSX-Style-Utils)
+    * [https://github.com/skyrocks/x-xlsx-style](https://github.com/skyrocks/x-xlsx-style)
+    * [https://github.com/duhaohao/xlsx-styleable](https://github.com/duhaohao/xlsx-styleable)
+* [https://github.com/d-band/better-xlsx](https://github.com/d-band/better-xlsx)
+* [https://github.com/mengshukeji/Luckysheet](https://github.com/mengshukeji/Luckysheet)
+* [https://github.com/ag-grid/ag-grid](https://github.com/ag-grid/ag-grid)
+* [https://github.com/exceljs/exceljs](https://github.com/exceljs/exceljs)
+* TableExport [https://github.com/clarketm/TableExport](https://github.com/clarketm/TableExport)
+* tableExport.jquery.plugin [https://github.com/hhurz/tableExport.jquery.plugin](https://github.com/hhurz/tableExport.jquery.plugin)
+* excellentexport [https://github.com/jmaister/excellentexport](https://github.com/jmaister/excellentexport)
 
 - 压缩或编码解码库 [https://github.com/photopea](https://github.com/photopea)
 - 压缩 [https://github.com/photopea](https://github.com/nodeca/pako)
 - 读取和编辑zip [https://github.com/Stuk/jszip](https://github.com/Stuk/jszip)
 - [https://gitlab.pagedmedia.org/tools/pagedjs](https://gitlab.pagedmedia.org/tools/pagedjs)
-
-
-
-**拖动/拖拽/拖放**
-
-+ [https://github.com/topics/drag-and-drop](https://github.com/topics/drag-and-drop)
-+ [https://github.com/topics/drag-drop](https://github.com/topics/drag-drop)
-+ [https://github.com/topics/vanilla](https://github.com/topics/vanilla)
-+ [https://github.com/topics/dragging](https://github.com/topics/dragging)
-
-* 拖曳 [https://github.com/desandro/draggabilly](https://github.com/desandro/draggabilly)
-* 拖放 [https://github.com/bevacqua/dragula](https://github.com/bevacqua/dragula)
-* 拖动表格行 [https://github.com/isocra/TableDnD](https://github.com/isocra/TableDnD)
-* [https://github.com/SortableJS](https://github.com/SortableJS)
 
 
 **数据表格**
@@ -355,12 +360,17 @@ var express = require('express');
 * [https://github.com/future-architect/cheetah-grid](https://github.com/future-architect/cheetah-grid)
 
 
+**拖动/拖拽/拖放**
 
-**导出**
++ [https://github.com/topics/drag-and-drop](https://github.com/topics/drag-and-drop)
++ [https://github.com/topics/drag-drop](https://github.com/topics/drag-drop)
++ [https://github.com/topics/vanilla](https://github.com/topics/vanilla)
++ [https://github.com/topics/dragging](https://github.com/topics/dragging)
 
-* [TableExport](https://github.com/clarketm/TableExport)
-* [tableExport.jquery.plugin](https://github.com/hhurz/tableExport.jquery.plugin)
-* [excellentexport](https://github.com/jmaister/excellentexport)
+* 拖曳 [https://github.com/desandro/draggabilly](https://github.com/desandro/draggabilly)
+* 拖放 [https://github.com/bevacqua/dragula](https://github.com/bevacqua/dragula)
+* 拖动表格行 [https://github.com/isocra/TableDnD](https://github.com/isocra/TableDnD)
+* [https://github.com/SortableJS](https://github.com/SortableJS)
 
 
 
