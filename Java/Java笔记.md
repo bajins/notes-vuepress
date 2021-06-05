@@ -226,36 +226,77 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
 
 ## Java异常
 
-### Java内置异常
+* [Java中的异常处理](https://blog.csdn.net/weixin_52566131/article/details/117132098)
 
 ![](/images/Java内置异常.png)
 
-|未经检查的RuntimeException异常| 说明 |
-|-----------|----------|
-|ArithmeticException | 算术错误，如被0除 |
-| ArrayIndexOutOfBoundsException | 数组下标出界 |
-| ArrayStoreException | 数组元素赋值类型不兼容 |
-| ClassCastException | 非法强制转换类型 |
-| IllegalArgumentException | 调用方法的参数非法 |
-| IllegalMonitorStateException | 非法监控操作，如等待一个未锁定线程 |
-| IllegalStateException | 环境或应用状态不正确 |
-| IllegalThreadStateException | 请求操作与当前线程状态不兼容 |
-| IndexOutOfBoundsException | 某些类型索引越界 |
-| NullPointerException | 非法使用空引用 |
-| NumberFormatException | 字符串到数字格式非法转换 |
-| SecurityException | 试图违反安全性 |
-| StringIndexOutOfBounds | 试图在字符串边界之外索引 |
-| UnsupportedOperationException | 遇到不支持的操作 |
 
-|Java定义在java.lang中的检查的异常| 说明 |
-|-----------|----------|
-| ClassNotFoundException | 找不到类 |
-| CloneNotSupportedException | 试图克隆一个不能实现Cloneable接口的对象 |
-| IllegalAccessException | 对一个类的访问被拒绝 |
-| InstantiationException | 试图创建一个抽象类或者抽象接口的对象 |
-| InterruptedException | 一个线程被另一个线程中断 |
-| NoSuchFieldException | 请求的字段不存在 |
-| NoSuchMethodException | 请求的方法不存在 |
+
+| 未经检查的异常                  	| 说明                                                             	|
+|---------------------------------	|------------------------------------------------------------------	|
+| ArithmeticException             	| 算术错误，如被0除                                                	|
+| ArrayIndexOutOfBoundsException  	| 数组下标出界                                                     	|
+| ArrayStoreException             	| 数组元素赋值类型不兼容                                           	|
+| ClassCastException              	| 非法强制转换类型                                                 	|
+| EnumConstantNotPresentException 	| 枚举常量不存在异常。                                             	|
+| EOFException                    	| 文件已结束异常                                                   	|
+| Exception                       	| 根异常。用以描述应用程序希望捕获的情况。                         	|
+| FileNotFoundException           	| 文件未找到异常                                                   	|
+| IllegalArgumentException        	| 调用方法的参数非法                                               	|
+| IllegalMonitorStateException    	| 非法监控操作，如等待一个未锁定线程                               	|
+| IllegalStateException           	| 环境或应用状态不正确                                             	|
+| IllegalThreadStateException     	| 请求操作与当前线程状态不兼容                                     	|
+| IndexOutOfBoundsException       	| 某些类型索引越界                                                 	|
+| IOException                     	| 输入输出异常                                                     	|
+| NegativeArrayException          	| 数组负下标异常                                                   	|
+| NegativeArraySizeException      	| 数组大小为负值异常。当使用负数大小值创建数组时抛出该异常。       	|
+| NullPointerException            	| 非法使用空引用                                                   	|
+| NumberFormatException           	| 字符串到数字格式非法转换                                         	|
+| RuntimeException                	| 运行时异常。是所有Java虚拟机正常操作期间可以被抛出的异常的父类。 	|
+| SecurityException               	| 试图违反安全性                                                   	|
+| SQLException                    	| 操作数据库异常                                                   	|
+| StringIndexOutOfBoundsException 	| 试图在字符串边界之外索引                                         	|
+| TypeNotPresentException         	| 类型不存在异常。                                                 	|
+| UnsupportedOperationException   	| 遇到不支持的操作                                                 	|
+
+
+
+| 检查的异常                 	| 说明                                    	|
+|----------------------------	|-----------------------------------------	|
+| ClassNotFoundException     	| 找不到类                                	|
+| CloneNotSupportedException 	| 试图克隆一个不能实现Cloneable接口的对象 	|
+| IllegalAccessException     	| 对一个类的访问被拒绝                    	|
+| InstantiationException     	| 试图创建一个抽象类或者抽象接口的对象    	|
+| InterruptedException       	| 一个线程被另一个线程中断                	|
+| NoSuchFieldException       	| 请求的字段不存在                        	|
+| NoSuchMethodException      	| 请求的方法不存在                        	|
+
+
+| 错误                                   	| 说明               	|
+|----------------------------------------	|--------------------	|
+| java.lang.AbstractMethodError          	| 抽象方法错误       	|
+| java.lang.AssertionError               	| 断言错             	|
+| java.lang.ClassCircularityError        	| 类循环依赖错误     	|
+| java.lang.ClassFormatError             	| 类格式错误         	|
+| java.lang.Error                        	| 错误               	|
+| java.lang.ExceptionInInitializerError  	| 初始化程序错误     	|
+| java.lang.IllegalAccessError           	| 违法访问错误       	|
+| java.lang.IncompatibleClassChangeError 	| 不兼容的类变化错误 	|
+| java.lang.InstantiationError           	| 实例化错误         	|
+| java.lang.InternalError                	| 内部错误           	|
+| java.lang.LinkageError                 	| 链接错误           	|
+| java.lang.NoClassDefFoundError         	| 未找到类定义错误   	|
+| java.lang.NoSuchFieldError             	| 域不存在错误       	|
+| java.lang.NoSuchMethodError            	| 方法不存在错误     	|
+| java.lang.OutOfMemoryError             	| 内存不足错误       	|
+| java.lang.StackOverflowError           	| 堆栈溢出错误       	|
+| java.lang.UnknownError                 	| 未知错误           	|
+| java.lang.UnsatisfiedLinkError         	| 未满足的链接错误   	|
+| java.lang.UnsupportedClassVersionError 	| 不支持的类版本错误 	|
+| java.lang.VerifyError                  	| 验证错误           	|
+| java.lang.VirtualMachineError          	| 虚拟机错误         	|
+| java.lang.ThreadDeath                     | 线程结束           	|
+
 
 
 

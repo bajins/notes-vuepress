@@ -16,6 +16,8 @@
 * Git核心方法的可移植的纯C实现 [https://github.com/libgit2/libgit2](https://github.com/libgit2/libgit2)
 * 来自配置错误的网站的 Git 仓库泄漏 [https://github.com/liamg/gitjacker](https://github.com/liamg/gitjacker)
 * [https://github.com/search?q=googlesource](https://github.com/search?q=googlesource)
+* 自动补全 [https://github.com/dahlbyk/posh-git](https://github.com/dahlbyk/posh-git)
+* [https://github.com/JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
 
 
 **Gogs**

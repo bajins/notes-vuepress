@@ -117,6 +117,7 @@
 * [https://www.oracle.com/cn/cloud/free](https://www.oracle.com/cn/cloud/free)
     * [Always Free Resources](https://docs.cloud.oracle.com/en-us/iaas/Content/FreeTier/freetier.htm#resources)
     * [https://cloud.oracle.com/usage/reports](https://cloud.oracle.com/usage/reports)
+    * [https://cloud.oracle.com/limits](https://cloud.oracle.com/limits)
     * [https://51.ruyo.net/tag/oracle-cloud](https://51.ruyo.net/tag/oracle-cloud)
     * 不建议使用用Oracle Linux镜像，无法设置root密码登录
     ```bash

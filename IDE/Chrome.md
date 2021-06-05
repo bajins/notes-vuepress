@@ -237,6 +237,9 @@ chrome://flags/#enable-parallel-downloading
 ### Other
 
 * [脚本助手：tampermonkey](https://www.tampermonkey.net)
+    * [https://greasyfork.org](https://greasyfork.org)
+    * [https://openuserjs.org](https://openuserjs.org)
+    * [https://github.com/Mottie/GitHub-userscripts](https://github.com/Mottie/GitHub-userscripts)
 * [脚本助手：violentmonkey](https://github.com/violentmonkey/violentmonkey)
 * [阅读模式：reader-view](https://chrome.google.com/webstore/detail/reader-view/iibolhpkjjmoepndefdmdlmbpfhlgjpl)
 * [阅读模式：just-read](https://github.com/ZachSaucier/Just-Read)
