@@ -53,6 +53,7 @@
 
 * [https://github.com/topics/openwrt](https://github.com/topics/openwrt)
     * [https://github.com/openwrt/openwrt](https://github.com/openwrt/openwrt)
+    * [https://github.com/coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
 * [https://github.com/open-power](https://github.com/open-power)
 * [https://github.com/Entware](https://github.com/Entware)
 

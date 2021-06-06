@@ -45,8 +45,6 @@
 - [https://www.zhihu.com/people/rednaxelafx](https://www.zhihu.com/people/rednaxelafx)
 
 
-+ [https://gitlab.ow2.org/asm/asm](https://gitlab.ow2.org/asm/asm)
-+ [https://asm.ow2.io](https://asm.ow2.io)
 + JMH（Java Microbenchmark Harness）是专门用于代码微基准测试的工具套件
 + [什么是JNDI？](https://blog.csdn.net/gybshen/article/details/82717578)
 + [Web项目中Junit测试如何添加JNDI](https://www.cnblogs.com/Oliver1993/p/13630786.html)
@@ -341,6 +339,10 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 **对象/类/文件生成器/字节码操作**
 
++ [https://gitlab.ow2.org/asm/asm](https://gitlab.ow2.org/asm/asm)
++ [https://asm.ow2.io](https://asm.ow2.io)
++ [http://asm.ow2.org](http://asm.ow2.org)
+
 * 模板引擎生成输出文本 [https://github.com/apache/freemarker](https://github.com/apache/freemarker)
     * [https://github.com/freemarker/freemarker3](https://github.com/freemarker/freemarker3)
     * [http://freemarker.foofun.cn](http://freemarker.foofun.cn)
@@ -351,7 +353,9 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * Java 应用程序打包 [https://github.com/fvarrui/JavaPackager](https://github.com/fvarrui/JavaPackager)
 * [https://github.com/rzwitserloot/lombok](https://github.com/rzwitserloot/lombok)
 * 创建不可变对象 [https://github.com/immutables](https://github.com/immutables)
-* [https://github.com/EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo)
+* [https://github.com/google/auto](https://github.com/google/auto)
+* [https://github.com/EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo) ASM
+* NBeanCopyUtil采用的是Javassist
 * [https://github.com/javaparser](https://github.com/javaparser)
 * [https://github.com/square/javapoet](https://github.com/square/javapoet)
 * [https://github.com/raphw/byte-buddy](https://github.com/raphw/byte-buddy)

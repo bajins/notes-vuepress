@@ -304,6 +304,9 @@
 - [https://medlexo.ml/cn.php](https://medlexo.ml/cn.php)
 - [https://github.com/HandBrake/HandBrake](https://github.com/HandBrake/HandBrake)
 - 跨平台音乐制作 [https://github.com/LMMS/lmms](https://github.com/LMMS/lmms)
+- 音频分割器 [https://github.com/idlesign/deflacue](https://github.com/idlesign/deflacue)
+- [https://cue-splitter.medieval.it](https://cue-splitter.medieval.it)
+- [http://www.medieval.it/cuesplitter-pc/menu-id-71.html](http://www.medieval.it/cuesplitter-pc/menu-id-71.html)
 
 * [foobar2000](http://blog.sina.com.cn/go2spa)
 * [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
