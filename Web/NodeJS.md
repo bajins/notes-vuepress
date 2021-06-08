@@ -310,6 +310,10 @@ request({
     * [https://github.com/necolas/react-native-web](https://github.com/necolas/react-native-web)
     * [https://github.com/microsoft/react-native-windows](https://github.com/microsoft/react-native-windows)
     * [https://snack.expo.io](https://snack.expo.io)
+* [https://github.com/c-smile/sciter-sdk](https://github.com/c-smile/sciter-sdk)
+    * [https://github.com/c-smile/sciter-js-sdk](https://github.com/c-smile/sciter-js-sdk)
+    * [https://sciter.com](https://sciter.com)
+* [https://github.com/bellard/quickjs](https://github.com/bellard/quickjs)
 
 - [https://github.com/revery-ui/revery](https://github.com/revery-ui/revery)
 

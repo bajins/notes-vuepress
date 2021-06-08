@@ -35,6 +35,7 @@
 * [Linux主流发行版本](https://distrowatch.com/dwres.php?resource=major)
 
 - [https://github.com/rocky-linux](https://github.com/rocky-linux)
+- [https://github.com/AlmaLinux](https://github.com/AlmaLinux)
 - [https://www.oracle.com/linux](https://www.oracle.com/linux)
 - 将CentOS切换到Oracle脚本 [https://github.com/oracle/centos2ol](https://github.com/oracle/centos2ol)
 - [https://github.com/SerenityOS/serenity](https://github.com/SerenityOS/serenity)
@@ -169,6 +170,9 @@
 * [将 MBR 分区转换为 GPT](https://docs.microsoft.com/zh-cn/windows/deployment/mbr-to-gpt)
 * [Window环境下的内网NTP时间同步配置](https://blog.csdn.net/qq_36141369/article/details/109215318)
 * [局域网中主机间的时间同步](https://blog.csdn.net/antony1776/article/details/108358147)
+* [Windows云服务器如何配置多用户登录？（Windows 2012）](https://support.huaweicloud.com/trouble-ecs/zh-cn_topic_0138876622.html)
+* [https://github.com/stascorp/rdpwrap](https://github.com/stascorp/rdpwrap)
+    * [Windows远程桌面单/多用户同时登录](https://blog.csdn.net/Aaron_Miller/article/details/109534277)
 
 
 

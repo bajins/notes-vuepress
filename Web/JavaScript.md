@@ -167,10 +167,10 @@ var express = require('express');
 + [https://github.com/topics/component](https://github.com/topics/component)
 + [NPM依赖：类库工具](https://www.jianshu.com/p/2a127cfba1cf)
 + [前端开发中用到的npm工具](https://segmentfault.com/a/1190000021865006)
++ [https://github.com/component](https://github.com/component)
++ [https://github.com/mobxjs](https://github.com/mobxjs)
++ [https://github.com/CreateJS](https://github.com/CreateJS)
 
-* [https://github.com/component](https://github.com/component)
-* [https://github.com/mobxjs](https://github.com/mobxjs)
-* [https://github.com/CreateJS](https://github.com/CreateJS)
 * [https://github.com/ReactiveX/rxjs](https://github.com/ReactiveX/rxjs)
 * [https://github.com/jashkenas/coffeescript](https://github.com/jashkenas/coffeescript)
 * [https://github.com/observablehq](https://github.com/observablehq)
@@ -407,9 +407,7 @@ var express = require('express');
 * [https://github.com/jgrap](https://github.com/jgraph)
     * [https://github.com/jinzhanye/pokemon-diagram](https://github.com/jinzhanye/pokemon-diagram)
     * [mxGraph 入门实例教程](https://segmentfault.com/a/1190000018510996)
-* [https://github.com/fabricjs](https://github.com/fabricjs)
 * [https://github.com/cytoscape](https://github.com/cytoscape)
-* [https://github.com/paperjs](https://github.com/paperjs)
 * [https://github.com/d3](https://github.com/d3)
 * [https://github.com/freegroup/draw2d](https://github.com/freegroup/draw2d)
 * [https://github.com/projectstorm/react-diagrams](https://github.com/projectstorm/react-diagrams)
@@ -429,17 +427,30 @@ var express = require('express');
 * [https://github.com/antvis/X6](https://github.com/antvis/X6)
 
 - 虚拟白板 [https://github.com/excalidraw/excalidraw](https://github.com/excalidraw/excalidraw)
+- 头像生成 [https://github.com/multiavatar/Multiavatar](https://github.com/multiavatar/Multiavatar)
 
 
 
-**动画**
+**动画/WebGL**
+
++ [https://github.com/KhronosGroup/WebGL](https://github.com/KhronosGroup/WebGL)
 
 * [https://github.com/animate-css/animate.css](https://github.com/animate-css/animate.css)
 * [https://github.com/juliangarnier/anime](https://github.com/juliangarnier/anime)
 * 3D库 [https://github.com/mrdoob/three.js](https://github.com/mrdoob/three.js)
-* 2D渲染器 [https://github.com/pixijs/pixi.js](https://github.com/pixijs/pixi.js)
+* 2D渲染器 [https://github.com/pixijs/pixijs](https://github.com/pixijs/pixijs)
 * 用于缩放图像 [https://github.com/francoischalifour/medium-zoom](https://github.com/francoischalifour/medium-zoom)
+* [https://github.com/pa7/heatmap.js](https://github.com/pa7/heatmap.js)
+* [https://github.com/konvajs/konva](https://github.com/konvajs/konva)
+* [https://github.com/processing/p5.js](https://github.com/processing/p5.js)
+* [https://github.com/photonstorm/phaser](https://github.com/photonstorm/phaser)
+* [https://github.com/williamngan/pts](https://github.com/williamngan/pts)
+* [https://github.com/KaliedaRik/Scrawl-canvas](https://github.com/KaliedaRik/Scrawl-canvas)
+* [https://github.com/jeremyckahn/rekapi](https://github.com/jeremyckahn/rekapi)
+* [https://github.com/danzen/zimjs](https://github.com/danzen/zimjs)
 * SVG绘图编辑器 [https://github.com/SVG-Edit](https://github.com/SVG-Edit)
+* [https://github.com/fabricjs](https://github.com/fabricjs)
+* [https://github.com/paperjs](https://github.com/paperjs)
 * 图标字体自定义 [https://github.com/uuware/icons-font-customization](https://github.com/uuware/icons-font-customization)
 * [https://github.com/IanLunn/Hover](https://github.com/IanLunn/Hover)
 * [https://github.com/matthieua/WOW](https://github.com/matthieua/WOW)
@@ -454,6 +465,11 @@ var express = require('express');
 * [https://github.com/d3/d3](https://github.com/d3/d3)
     * [https://github.com/xswei/d3js_doc](https://github.com/xswei/d3js_doc)
 * 动画引擎 [https://github.com/julianshapiro/velocity](https://github.com/julianshapiro/velocity)
+* [https://github.com/toji/gl-matrix](https://github.com/toji/gl-matrix)
+* [https://github.com/playcanvas/engine](https://github.com/playcanvas/engine)
+    * [https://playcanvas.com](https://playcanvas.com)
+* [https://github.com/redcamel/RedGL2](https://github.com/redcamel/RedGL2)
+* [https://github.com/kitware/vtk-js](https://github.com/kitware/vtk-js)
 
 
 

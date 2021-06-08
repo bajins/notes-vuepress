@@ -332,7 +332,9 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
 - `org.springframework.http.HttpMethod`
 
 
-**Mime-Type/Content-Type/Media-Type**
+**Mime/Content-Type/Media-Type**
+
++ [https://github.com/topics/mime](https://github.com/topics/mime)
 
 - `com.google.common.net.MediaType` guava
 - `javax.ws.rs.core.MediaType` Jersey框架

@@ -64,6 +64,7 @@
 - [https://github.com/atroche/rust-headless-chrome](https://github.com/atroche/rust-headless-chrome)
 - [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
 - [https://github.com/local-group](https://github.com/local-group)
+- [https://github.com/staktrace/quoted-printable](https://github.com/staktrace/quoted-printable)
 
 
 

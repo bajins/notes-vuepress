@@ -395,6 +395,7 @@
 
 + [https://github.com/topics/screen-capture](https://github.com/topics/screen-capture)
 + [https://github.com/topics/screencast](https://github.com/topics/screencast)
++ [https://github.com/topics/screenshot](https://github.com/topics/screenshot)
 
 * [https://github.com/flameshot-org/flameshot](https://github.com/flameshot-org/flameshot)
 * [https://github.com/greenshot](https://github.com/greenshot)
@@ -619,6 +620,10 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 ## 剪贴板
 
++ [https://github.com/topics/clipboard](https://github.com/topics/clipboard)
++ [https://github.com/topics/paste](https://github.com/topics/paste)
++ [https://github.com/topics/pastebin](https://github.com/topics/pastebin)
+
 * [https://github.com/hluk/CopyQ](https://github.com/hluk/CopyQ) 可设置<kbd>Win</kbd> + <kbd>v</kbd>快捷键
 * [https://www.clipboardfusion.com](https://www.clipboardfusion.com)
 * [https://clipber.com](https://clipber.com)
@@ -629,6 +634,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://ccyixia.com](https://ccyixia.com)
 * [https://www.52pojie.cn/thread-953460-1-1.html](https://www.52pojie.cn/thread-953460-1-1.html)
 * [http://1clipboard.io](http://1clipboard.io)
+* 粘贴到文件 [https://github.com/huiyadanli/PasteEx](https://github.com/huiyadanli/PasteEx)
 
 
 - [https://copiedapp.com](https://copiedapp.com)
@@ -672,12 +678,12 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 + [https://github.com/topics/remote-desktop](https://github.com/topics/remote-desktop)
 + [https://github.com/topics/remote-access](https://github.com/topics/remote-access)
 
-* [https://www.todesk.com](https://www.todesk.com)
 * [https://www.teamviewer.com](https://www.teamviewer.com)
+* [https://anydesk.com](https://anydesk.com)
 * [http://trustviewer.com](http://trustviewer.com)
 * [https://github.com/rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
+* [https://www.todesk.com](https://www.todesk.com)
 * 向日葵 [https://sunlogin.oray.com/download](https://sunlogin.oray.com/download)
-* [https://anydesk.com](https://anydesk.com)
 * 投屏 [https://github.com/pavlobu/deskreen](https://github.com/pavlobu/deskreen)
 * [https://github.com/topics/second-screen](https://github.com/topics/second-screen)
 * [https://github.com/quasar/Quasar](https://github.com/quasar/Quasar)
@@ -702,6 +708,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * ReNamer 批量重命名 [http://www.den4b.com](http://www.den4b.com)
 * 文件搜索 [https://www.listary.com/pro](https://www.listary.com/pro)
 * 文件搜索 [Everything](https://www.voidtools.com)
+    * [https://github.com/stnkl/EverythingToolbar](https://github.com/stnkl/EverythingToolbar)
 * 文件对比 [https://www.beyondcomparepro.com](https://www.beyondcomparepro.com)
 * 文件同步 [https://freefilesync.org](https://freefilesync.org)
 * 文件资源管理器 [https://www.ghisler.com](https://www.ghisler.com)
