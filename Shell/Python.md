@@ -175,6 +175,7 @@ with Test() as t: # 触发__exit__
 - 强化学习：不仅能利用现有数据，还可以通过对环境的探索获得新数据，并利用新数据循环往复地更新迭代现有模型的机器学习算法。学习过程是动态的，训练是没有标签的
 - 深度强化学习：一切运用了神经网络作为参数结构进行优化的强化学习算法。
 
++ [https://github.com/Charmve/computer-vision-in-action](https://github.com/Charmve/computer-vision-in-action)
 + [https://github.com/topics/machine-learning](https://github.com/topics/machine-learning)
 + [https://github.com/topics/deep-learning](https://github.com/topics/deep-learning)
 + [https://github.com/topics/neural-network](https://github.com/topics/neural-network)

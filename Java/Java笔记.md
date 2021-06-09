@@ -299,11 +299,19 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
 
 
 
-
-
 ## 协程
 
-> Java语言并没有对协程的原生支持，但是某些开源框架模拟出了协程的功能
+> Java语言并没有对协程的原生支持，但是某些开源框架模拟出了协程的功能，`Project Loom` `AJDK-Wisp`
+
+- coroutine解决的是"协作式多任务"
+- visitor（访问者）模式解决的是"对修改关闭，对扩展开放", "它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作"
+
+
++ [https://github.com/topics/coroutines](https://github.com/topics/coroutines)
++ [https://github.com/topics/coroutine](https://github.com/topics/coroutine)
++ [https://github.com/topics/async](https://github.com/topics/async)
++ [https://github.com/topics/async-await](https://github.com/topics/async-await)
++ [https://github.com/topics/asynchronous](https://github.com/topics/asynchronous)
 
 
 * [异步时代-java的协程路在何方](https://www.cnblogs.com/tohxyblog/p/10712798.html)
@@ -313,6 +321,10 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
     * [Kilim工作原理](http://chen-tao.github.io/2015/10/02/kilim-work-way/)
 * [https://github.com/puniverse/quasar](https://github.com/puniverse/quasar)
     * [quasar从原理到代码应用](https://blog.csdn.net/guzhangyu12345/article/details/84666423)
+* [https://github.com/esoco/coroutines](https://github.com/esoco/coroutines)
+* [https://github.com/offbynull/coroutines](https://github.com/offbynull/coroutines)
+* [https://github.com/electronicarts/ea-async](https://github.com/electronicarts/ea-async)
+
 
 
 

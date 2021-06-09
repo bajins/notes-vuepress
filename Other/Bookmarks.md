@@ -109,7 +109,6 @@
 - [https://github.com/hoochanlon](https://github.com/hoochanlon)
 - [https://github.com/easychen](https://github.com/easychen)
 - 免费服务工具列表 [https://github.com/ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
-- [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis)
 
 
 
@@ -164,6 +163,7 @@
 + [https://github.com/justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)
 + [https://github.com/EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
 + [https://github.com/PacktPublishing](https://github.com/PacktPublishing)
++ [https://github.com/CodingDocs](https://github.com/CodingDocs)
 
 
 * 计算机电子书 [https://github.com/itdevbooks/pdf](https://github.com/itdevbooks/pdf)

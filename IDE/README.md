@@ -76,6 +76,8 @@
     * `https://gitpod.io/#https://github.com/账户名/仓库名`
     * [![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/woytu/notes-vuepress)
 * [https://github.com/features/codespaces](https://github.com/features/codespaces)
+* [https://github.com/ekzhang/rustpad](https://github.com/ekzhang/rustpad)
+
 
 
 **[静态部署](/Web/README.md#静态部署)**

@@ -9,6 +9,7 @@
 
 + [https://github.com/semantic-release](https://github.com/semantic-release)
 
+* 首次贡献 [https://github.com/firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)
 * [https://github.com/gitblit/gitblit](https://github.com/gitblit/gitblit)
 * [https://github.com/scm-manager/scm-manager](https://github.com/scm-manager/scm-manager)
 * [https://www.mercurial-scm.org](https://www.mercurial-scm.org)
@@ -18,6 +19,7 @@
 * [https://github.com/search?q=googlesource](https://github.com/search?q=googlesource)
 * 自动补全 [https://github.com/dahlbyk/posh-git](https://github.com/dahlbyk/posh-git)
 * [https://github.com/JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
+* 依赖项更新 [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate)
 
 
 **Gogs**

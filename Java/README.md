@@ -227,9 +227,9 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * 线程间消息传递 [https://github.com/lmax-exchange/disruptor](https://github.com/lmax-exchange/disruptor)
 * 依赖关系注入器 [https://github.com/google/dagger](https://github.com/google/dagger)
 * [https://github.com/redisson](https://github.com/redisson)
-* [https://github.com/kilim/kilim](https://github.com/kilim/kilim)
 * 规划引擎 [https://github.com/kiegroup](https://github.com/kiegroup)
 * [https://github.com/MyCATApache](https://github.com/MyCATApache)
+* [https://github.com/alibaba/transmittable-thread-local](https://github.com/alibaba/transmittable-thread-local)
 
 
 - Markdown解析器 [https://github.com/vsch/flexmark-java](https://github.com/vsch/flexmark-java)

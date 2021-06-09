@@ -23,6 +23,7 @@
 * [https://sourceforge.net/projects/tcl](https://sourceforge.net/projects/tcl)
 * [https://github.com/doudoudzj/tkinter-learn](https://github.com/doudoudzj/tkinter-learn)
 * [https://github.com/doudoudzj/tkinter-examples](https://github.com/doudoudzj/tkinter-examples)
+* [https://github.com/ParthJadhav/Tkinter-Designer](https://github.com/ParthJadhav/Tkinter-Designer)
 
 
 **PyQt**

@@ -22,6 +22,7 @@
 - [https://github.com/zhaoolee/ChineseBQB](https://github.com/zhaoolee/ChineseBQB)
 - [https://github.com/wangpinpin/devtools-server](https://github.com/wangpinpin/devtools-server)
 - 最全中华古诗词 [https://github.com/chinese-poetry](https://github.com/chinese-poetry)
+- [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis)
 
 
 

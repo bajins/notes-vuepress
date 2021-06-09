@@ -94,6 +94,7 @@
 - [https://github.com/thx/rap2-delos](https://github.com/thx/rap2-delos)
 - [https://github.com/YMFE/yapi](https://github.com/YMFE/yapi)
 - [https://github.com/wiztools/rest-client](https://github.com/wiztools/rest-client)
+- [https://github.com/pedronauck/docz](https://github.com/pedronauck/docz)
 
 
 
@@ -138,6 +139,8 @@
     * [https://github.com/heroku/heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static)
     * 在 [https://t.me/nf_share](https://t.me/nf_share) 搜索`验证卡`或`heroku`
     * 示例：[https://woetu.herokuapp.com](https://woetu.herokuapp.com)
+* [https://github.com/ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
+    * [https://www.deta.sh](https://www.deta.sh)
 * [https://www.bmob.cn](https://www.bmob.cn)
 * [https://fast.io](https://fast.io)
     * 示例：[https://bajins.imfast.io](https://bajins.imfast.io)

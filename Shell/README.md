@@ -31,7 +31,8 @@
 - [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 - [https://github.com/Bash-it/bash-it](https://github.com/Bash-it/bash-it)
 - [https://github.com/0dayCTF/reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator)
-
+- 命令执行演示 [https://github.com/maaslalani/slides](https://github.com/maaslalani/slides)
+- [https://github.com/d0c-s4vage/lookatme](https://github.com/d0c-s4vage/lookatme)
 
 
 
