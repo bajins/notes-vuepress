@@ -30,7 +30,6 @@
 * [https://github.com/apache/cassandra](https://github.com/apache/cassandra)
 * CrateDB [https://github.com/crate/crate](https://github.com/crate/crate)
 * [https://github.com/influxdata/influxdb](https://github.com/influxdata/influxdb)
-* 分布式图形数据库 [https://github.com/JanusGraph](https://github.com/JanusGraph)
 * [https://github.com/VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)
 * [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 * [https://github.com/etcd-io/bbolt](https://github.com/etcd-io/bbolt)
@@ -41,10 +40,18 @@
 * [https://github.com/sirixdb](https://github.com/sirixdb)
 * [https://github.com/scylladb/scylla](https://github.com/scylladb/scylla)
 * 面向列的数据库 [https://github.com/ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)
-* 图数据库 [https://github.com/neo4j/neo4j](https://github.com/neo4j/neo4j)
 * Go 嵌入式 (S)QL 数据库 [https://gitlab.com/cznic/ql](https://gitlab.com/cznic/ql)
 * [https://github.com/oceanbase/oceanbase](https://github.com/oceanbase/oceanbase)
 * [https://github.com/roseduan/rosedb](https://github.com/roseduan/rosedb)
+* [https://github.com/greenplum-db/gpdb](https://github.com/greenplum-db/gpdb)
+
+
+
+**[图数据库](https://zh.wikipedia.org/wiki/%E5%9B%BE%E6%95%B0%E6%8D%AE%E5%BA%93)**
+
+* 分布式图形数据库 [https://github.com/JanusGraph](https://github.com/JanusGraph)
+* [https://github.com/JanusGraph/janusgraph](https://github.com/JanusGraph/janusgraph)
+* 图数据库 [https://github.com/neo4j/neo4j](https://github.com/neo4j/neo4j)
 
 
 

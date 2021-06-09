@@ -19,7 +19,6 @@
     * [Keyboard shortcuts for macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
     * [Keyboard shortcuts for Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 * [VSCode教程](https://www.php.cn/tool/vscode)
-* [https://github.com/cdr/code-server](https://github.com/cdr/code-server)
 * [https://github.com/gr2m/app-stats-action](https://github.com/gr2m/app-stats-action)
 
 

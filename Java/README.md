@@ -16,6 +16,7 @@
 + [https://docs.oracle.com](https://docs.oracle.com)
     + [https://docs.oracle.com/javase/8/docs](https://docs.oracle.com/javase/8/docs)
     + [https://docs.oracle.com/javase/7/docs](https://docs.oracle.com/javase/7/docs)
+    + [JavaBeans 规范](https://www.oracle.com/java/technologies/javase/javabeans-spec.html)
 + [https://github.com/eclipse-ee4j](https://github.com/eclipse-ee4j)
     + [https://projects.eclipse.org/jakartaee/releases/8](https://projects.eclipse.org/jakartaee/releases/8)
     + [javaEE和javaweb的区别？](https://www.zhihu.com/question/52002845)
@@ -202,6 +203,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 + [https://github.com/topics/shiro](https://github.com/topics/shiro)
     + [https://github.com/johntostring/spring-boot-shiro](https://github.com/johntostring/spring-boot-shiro)
     + [https://github.com/YuxingXie/shiro](https://github.com/YuxingXie/shiro)
++ 简单的Web框架 [https://github.com/javalin](https://github.com/javalin)
 
 
 * jwt [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)
@@ -599,6 +601,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 - 进度条 [https://github.com/ctongfei/progressbar](https://github.com/ctongfei/progressbar)
 - 3D [https://github.com/JogAmp](https://github.com/JogAmp)
 - 跨平台访问本机API [https://github.com/LWJGL](https://github.com/LWJGL)
+- JavaFX的游戏超集 [https://github.com/AlmasB/FXGL](https://github.com/AlmasB/FXGL)
 
 
 * [https://github.com/864381832/xJavaFxTool](https://github.com/864381832/xJavaFxTool)

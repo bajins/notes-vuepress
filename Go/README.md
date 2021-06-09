@@ -200,6 +200,9 @@
 * 错误合并 [https://github.com/hashicorp/go-multierror](https://github.com/hashicorp/go-multierror)
 * excel [https://github.com/360EntSecGroup-Skylar/excelize](https://github.com/360EntSecGroup-Skylar/excelize)
 * Quoted-printable [https://github.com/sloonz/go-qprintable](https://github.com/sloonz/go-qprintable)
+* GUI [https://github.com/visualfc/atk](https://github.com/visualfc/atk)
+* 测试 [https://github.com/sclevine/spec](https://github.com/sclevine/spec)
+* [https://github.com/onsi/ginkgo](https://github.com/onsi/ginkgo)
 
 
 - 实时视频流服务器 [https://github.com/gwuhaolin/livego](https://github.com/gwuhaolin/livego)

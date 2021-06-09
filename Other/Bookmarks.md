@@ -45,6 +45,7 @@
 * [https://github.com/aws-samples](https://github.com/aws-samples)
     * [https://github.com/awsdocs](https://github.com/awsdocs)
 * [https://github.com/hashicorp](https://github.com/hashicorp)
+* [https://tanzu.vmware.com/cn/open-source](https://tanzu.vmware.com/cn/open-source)
 
 - [https://github.com/TogetherOS](https://github.com/TogetherOS)
 - [https://github.com/lets-blade](https://github.com/lets-blade)
@@ -76,6 +77,7 @@
 * [https://sfconservancy.org/projects/current](https://sfconservancy.org/projects/current)
 * [https://github.com/openeuler-mirror](https://github.com/openeuler-mirror)
 * [https://github.com/terracotta-oss](https://github.com/terracotta-oss)
+* [https://lfaidata.foundation/projects](https://lfaidata.foundation/projects)
 
 
 

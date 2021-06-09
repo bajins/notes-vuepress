@@ -46,6 +46,12 @@
 * [https://gitlab.com/libvirt/libvirt](https://gitlab.com/libvirt/libvirt)
 * 开发证书 [https://github.com/topics/certificates](https://github.com/topics/certificates)
 * [https://github.com/FiloSottile/mkcert](https://github.com/FiloSottile/mkcert)
+* UI [https://github.com/sciter-sdk](https://github.com/sciter-sdk)
+    * [https://github.com/c-smile/sciter-sdk](https://github.com/c-smile/sciter-sdk)
+    * [https://github.com/c-smile/sciter-js-sdk](https://github.com/c-smile/sciter-js-sdk)
+    * [https://sciter.com](https://sciter.com)
+* [https://github.com/bellard/quickjs](https://github.com/bellard/quickjs)
+* [https://github.com/tcltk](https://github.com/tcltk)
 
 
 **Rust**
@@ -65,6 +71,7 @@
 - [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
 - [https://github.com/local-group](https://github.com/local-group)
 - [https://github.com/staktrace/quoted-printable](https://github.com/staktrace/quoted-printable)
+- UI [https://github.com/linebender/druid](https://github.com/linebender/druid)
 
 
 
@@ -125,6 +132,8 @@
 
 + [https://github.com/JetBrains/kotlin](https://github.com/JetBrains/kotlin)
 + [https://www.kotlincn.net](https://www.kotlincn.net)
++ [https://github.com/kotlinresources/kotlin-resources](https://github.com/kotlinresources/kotlin-resources)
+    + [https://www.kotlinresources.com](https://www.kotlinresources.com)
 
 
 

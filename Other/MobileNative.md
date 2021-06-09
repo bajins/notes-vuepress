@@ -92,6 +92,7 @@
 * 反射 [https://github.com/tiann/FreeReflection](https://github.com/tiann/FreeReflection)
 * [https://github.com/Dsiner/UIUtil](https://github.com/Dsiner/UIUtil)
 
+
 + [归档 | Homurax's Blog](https://blog.homurax.com/archives)
 + [Android：JNI 与 NDK到底是什么？](https://blog.csdn.net/carson_ho/article/details/73250163)
 
@@ -191,6 +192,7 @@
 * 解析和打印Android Manifest文件 [https://github.com/rednaga/axmlprinter](https://github.com/rednaga/axmlprinter)
 * [https://github.com/google/android-classyshark](https://github.com/google/android-classyshark)
 * 反混淆 [https://github.com/CalebFenton/simplify](https://github.com/CalebFenton/simplify)
+* [https://github.com/vaibhavpandeyvpz/apkstudio](https://github.com/vaibhavpandeyvpz/apkstudio)
 
 
 - [https://github.com/CodingGay/BlackDex](https://github.com/CodingGay/BlackDex)

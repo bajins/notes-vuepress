@@ -133,7 +133,8 @@
     * 示例：[https://woytu.now.sh](https://woytu.now.sh)
 * [https://github.com/vercel](https://github.com/vercel)
     * [https://vercel.com](https://vercel.com)
-* [<img src="https://www.herokucdn.com/deploy/button.svg" height="30px">](https://github.com/heroku)
+* [<img src="https://www.herokucdn.com/deploy/button.svg" height="30px">](https://github.com/topics/heroku)
+    * [https://github.com/heroku](https://github.com/heroku)
     * [https://github.com/heroku/heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static)
     * 在 [https://t.me/nf_share](https://t.me/nf_share) 搜索`验证卡`或`heroku`
     * 示例：[https://woetu.herokuapp.com](https://woetu.herokuapp.com)
@@ -196,6 +197,7 @@
 * [https://github.com/withspectrum](https://github.com/withspectrum)
 * [https://github.com/discourse/discourse](https://github.com/discourse/discourse)
 * [https://gitter.im](https://gitter.im)
+* [https://github.com/ReplCustoms/ReplCustoms](https://github.com/ReplCustoms/ReplCustoms)
 
 
 
