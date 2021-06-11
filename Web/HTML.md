@@ -26,8 +26,6 @@
 - `<script type=text/html >` 或 `<script type="text/template" >` 定义一个被JS调用的代码，内容不会被执行
 - `<div style="display: none">` 与复用DOM结构后的id等重复：可以把DOM结构缓存到JS变量或标签属性内容，然后移除这个标签
 
-* [script type="text/html"](https://blog.csdn.net/qq_37796475/article/details/79342234)
-
 
 
 **select框默认选项为空白**

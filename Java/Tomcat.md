@@ -7,6 +7,7 @@
 
 ## Flag
 
++ [https://github.com/topics/tomcat](https://github.com/topics/tomcat)
 + [https://github.com/apache/tomcat](https://github.com/apache/tomcat)
 + [https://github.com/wildfly/wildfly](https://github.com/wildfly/wildfly)
 + [https://github.com/undertow-io/undertow](https://github.com/undertow-io/undertow)
@@ -14,10 +15,13 @@
 + [https://github.com/eclipse-ee4j/grizzly](https://github.com/eclipse-ee4j/grizzly)
 
 * Tomcat集群Redis会话管理器 [https://github.com/ran-jit/tomcat-cluster-redis-session-manager](https://github.com/ran-jit/tomcat-cluster-redis-session-manager)
+* [https://github.com/apache/apr](https://github.com/apache/apr)
+
 
 - [归档 | 回忆飘如雪](http://gv7.me/archives)
 - [Shiro的反序列化漏洞，以及内存马技术](https://blog.csdn.net/localhost01/article/details/107340698)
 - [Java Agent 从入门到内存马](https://xz.aliyun.com/t/9450)
+- [Tomcat性能监控与调优](https://blog.51cto.com/zero01/2145077)
 
 
 
@@ -54,6 +58,10 @@
 
 > Connector是连接器，负责接收客户的请求，以及向客户端回送响应的消息。所以 Connector的优化是重要部分。
 默认情况下 Tomcat只支持200线程访问，超过这个数量的连接将被等待甚至超时放弃，所以我们需要提高这方面的处理能力。
+
+- [Tomcat 连接器Connector 的三种运行模式 Bio、Nio、Apr](https://blog.csdn.net/qq_34556414/article/details/109176069)
+
+
 
 | 参数 | 说明  |
 | ------------ | ------------ |
@@ -95,6 +103,7 @@
         maxConnections="10000"
         SSLEnabled="false"/>
 ```
+
 
 ## 禁用AJP连接器
 

@@ -166,6 +166,7 @@
 + [https://github.com/CodingDocs](https://github.com/CodingDocs)
 
 
+* [https://github.com/netkiller/netkiller.github.io](https://github.com/netkiller/netkiller.github.io)
 * 计算机电子书 [https://github.com/itdevbooks/pdf](https://github.com/itdevbooks/pdf)
 * 书栈网 [https://github.com/TruthHun/BookStack](https://github.com/TruthHun/BookStack)
     * [https://www.bookstack.cn](https://www.bookstack.cn)
@@ -323,6 +324,7 @@
 * [JMCui - 博客园](https://www.cnblogs.com/jmcui)
 * [Archives | 三秋](https://lushunjian.gitee.io/archives)
 * [归档 | 在码圈](https://bedebug.com/archives)
+* [疯狂创客圈](https://www.cnblogs.com/crazymakercircle)
 
 
 

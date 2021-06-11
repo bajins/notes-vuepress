@@ -52,6 +52,7 @@
     * [https://sciter.com](https://sciter.com)
 * [https://github.com/bellard/quickjs](https://github.com/bellard/quickjs)
 * [https://github.com/tcltk](https://github.com/tcltk)
+* 小型构建系统 [https://github.com/ninja-build/ninja](https://github.com/ninja-build/ninja)
 
 
 **Rust**

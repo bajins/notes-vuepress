@@ -175,7 +175,6 @@
 * 图表库 [https://github.com/go-echarts](https://github.com/go-echarts)
 * 生成和管理调色板 [https://github.com/muesli/gamut](https://github.com/muesli/gamut)
 * 任务排队系统 [https://git.sr.ht/~sircmpwn/dowork](https://git.sr.ht/~sircmpwn/dowork)
-* 监控 [https://github.com/prometheus](https://github.com/prometheus)
 * k均值聚类算法 [https://github.com/muesli/kmeans](https://github.com/muesli/kmeans)
 * 有向图 [https://github.com/autom8ter/dagger](https://github.com/autom8ter/dagger)
 * JWT [https://github.com/kataras/jwt](https://github.com/kataras/jwt)
