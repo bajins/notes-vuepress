@@ -206,6 +206,7 @@ chrome://flags/#enable-parallel-downloading
 * ADB [https://getadblock.com](https://getadblock.com)
 * [https://ublock.org](https://ublock.org)
 * [https://github.com/AdguardTeam](https://github.com/AdguardTeam)
+* [https://github.com/iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome)
 
 - AdGuard Android 解锁高级版 [https://www.lanzoui.com/b0f19420h](https://www.lanzoui.com/b0f19420h)
 

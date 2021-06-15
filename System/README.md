@@ -241,6 +241,22 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 - 最后检查系统是否修复：`sfc /scannow`
 
 
+**密码修改/破解/清除**
+
+* [https://github.com/search?q=chntpw](https://github.com/search?q=chntpw)
+* [http://pogostick.net/~pnh/ntpasswd](http://pogostick.net/~pnh/ntpasswd)
+
+>  ch＝change ；nt＝window NT；pw＝password；
+
+* NTPWEdit [http://cdslow.org.ru](http://cdslow.org.ru)
+* PassFab 4WinKey
+* Passper WinSenior
+
+- [Windows10登陆密码破解](https://zhuanlan.zhihu.com/p/166349447)
+- [Win10 开机密码破解](https://blog.csdn.net/qq_46620129/article/details/113204312)
+
+
+
 ### MSDN
 
 * [https://www.microsoft.com/zh-cn/software-download/windows10](https://www.microsoft.com/zh-cn/software-download/windows10)
@@ -253,19 +269,23 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://msdn.sjjzm.com](https://msdn.sjjzm.com)
 
 
+
 ### 绿色精简
 
 + MSMG Toolkit [https://msmgtoolkit.in](https://msmgtoolkit.in)
 + NTLite [https://www.ntlite.com](https://www.ntlite.com)
 
-* [WINOS ](https://www.winos.me)
-* [绿色系统](http://lvsexitong.com)
-* [网吧系统](http://down.lansedongli.com)
+* iCura [iCura的帖子  - 远景论坛 - 微软极客社区](http://i.pcbeta.com/home.php?mod=space&uid=4631987&do=thread&view=me&from=space)
+    * [OneDrive](https://tpedutw-my.sharepoint.com/:f:/g/personal/icura_tp_edu_tw/Ek5lPsUrc_ZJqSDKi7oxsdoBNjbbncnvi8p-90jI0OqUVA)
+* WINOS [https://www.winos.me](https://www.winos.me)
+* 绿色系统 [http://lvsexitong.com](http://lvsexitong.com)
+* 网吧系统 [http://down.lansedongli.com](http://down.lansedongli.com)
 * [twm000-导航页被定制可修改](http://twm000.top)
 * [Y-OS工作室-导航页被定制可修改](http://y-os.net)
 * [十二星座-导航页被定制可修改](http://www.12xzzx.com)
-* [https://icura.lofter.com](https://icura.lofter.com)
-    * [OneDrive](https://tpedutw-my.sharepoint.com/:f:/g/personal/icura_tp_edu_tw/Ek5lPsUrc_ZJqSDKi7oxsdoBNjbbncnvi8p-90jI0OqUVA)
+* win7 [https://www.newxitong.com](https://www.newxitong.com)
+* 网吧无盘 [http://www.wupanbao.com](http://www.wupanbao.com)
+* [https://www.sysmini.com](https://www.sysmini.com)
 
 
 
@@ -295,6 +315,12 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * 小爱激活助手 [https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA](https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA) 提取码: gia8
 * 密钥检测的小工具 [https://github.com/FHWWC/KeyCheck](https://github.com/FHWWC/KeyCheck)
 * https://api.jike.info/ms_pid/密钥
+* [https://webact.sjjzm.com](https://webact.sjjzm.com)
+* [https://key.sjjzm.com](https://key.sjjzm.com)
+
+
+- [Win10/Office安装与激活](https://www.cherishspring.cn/archives/woactive.html)
+- [Windows和Office通用批量许可证密钥 (GVLK)](https://www.cherishspring.cn/archives/gvlk.html)
 
 
 **Windows命令**
@@ -359,8 +385,10 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 
 **Windows Key**
 
-* [https://cherishspring.cn/archives/active-win10-office.html](https://cherishspring.cn/archives/active-win10-office.html)
-* [https://notys.xyz](https://notys.xyz)
+> 所谓的win10数字权利激活，是一种win10授权方法。该激活方法会记录你的电脑硬件信息，并保存到微软的服务器，
+> 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
+
+* [https://cherishspring.cn/journals](https://cherishspring.cn/journals)
 * [https://jihuo.ma/tool](https://jihuo.ma/tool)
 * [http://www.aihao.cc](http://www.aihao.cc)
 * [https://jike.info/category/16/账号密钥](https://jike.info/category/16/%E8%B4%A6%E5%8F%B7%E5%AF%86%E9%92%A5)
@@ -372,6 +400,8 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 
 * [https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys](https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys)
 
++ [Windows 10 Digital Activation](http://forum.ru-board.com/topic.cgi?forum=2&topic=5820&start=0)
+    * [https://www.solidfiles.com/folder/bd7165a0d4](https://www.solidfiles.com/folder/bd7165a0d4)
 + [https://github.com/ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey)
 + [https://github.com/zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator)
 + [https://github.com/abbodi1406/WHD](https://github.com/abbodi1406/WHD)
@@ -396,15 +426,6 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 * [https://kms.cangshui.net](https://kms.cangshui.net)
 * [https://www.ghpym.com/kms.html](https://www.ghpym.com/kms.html)
 * [https://github.com/EDragon007/EDragonKMS](https://github.com/EDragon007/EDragonKMS)
-
-
-
-**数字激活**
-
-> 所谓的win10数字权利激活，是一种win10授权方法。该激活方法会记录你的电脑硬件信息，并保存到微软的服务器，
-> 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
-
-> 避免在vpn状态下使用本软件。激活前电脑必须联网，而且必须开启`Windows Update`服务，否则无法激活。
 
 
 

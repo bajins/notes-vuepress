@@ -154,6 +154,7 @@
 * [https://github.com/dotnet](https://github.com/dotnet)
     * [https://docs.microsoft.com/zh-cn/dotnet](https://docs.microsoft.com/zh-cn/dotnet)
     * [https://dotnet.microsoft.com](https://dotnet.microsoft.com)
+    * [https://dotnet.microsoft.com/download/dotnet-framework](https://dotnet.microsoft.com/download/dotnet-framework)
 * 包管理 [https://docs.microsoft.com/zh-cn/nuget](https://docs.microsoft.com/zh-cn/nuget)
 * [https://github.com/mono/mono](https://github.com/mono/mono)
 * [https://docs.microsoft.com/zh-cn/aspnet](https://docs.microsoft.com/zh-cn/aspnet)
