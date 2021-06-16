@@ -164,9 +164,11 @@
 + [https://github.com/EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
 + [https://github.com/PacktPublishing](https://github.com/PacktPublishing)
 + [https://github.com/CodingDocs](https://github.com/CodingDocs)
++ [https://github.com/programthink](https://github.com/programthink)
 
 
 * [https://github.com/netkiller/netkiller.github.io](https://github.com/netkiller/netkiller.github.io)
+* [https://github.com/trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
 * 计算机电子书 [https://github.com/itdevbooks/pdf](https://github.com/itdevbooks/pdf)
 * 书栈网 [https://github.com/TruthHun/BookStack](https://github.com/TruthHun/BookStack)
     * [https://www.bookstack.cn](https://www.bookstack.cn)

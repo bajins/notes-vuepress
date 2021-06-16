@@ -25,6 +25,7 @@
 + [https://github.com/flatpak/flatpak](https://github.com/flatpak/flatpak)
 + [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
 + 多个shell软件包镜像 [https://github.com/mirror](https://github.com/mirror)
++ [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
 
 - 命令补全 [https://github.com/scop/bash-completion](https://github.com/scop/bash-completion)
 - [https://sourceforge.net/projects/zsh](https://sourceforge.net/projects/zsh)

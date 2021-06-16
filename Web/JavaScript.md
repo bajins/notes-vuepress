@@ -205,6 +205,7 @@ var express = require('express');
 * 数字和货币格式 [https://github.com/leongersen/wnumb](https://github.com/leongersen/wnumb)
 * CSS的编码样式格式化 [https://github.com/csscomb/csscomb.js](https://github.com/csscomb/csscomb.js)
 * 清理HTML并防止XSS攻击 [https://github.com/cure53/DOMPurify](https://github.com/cure53/DOMPurify)
+* 识别手写 [https://github.com/jadeocr/jadeocr](https://github.com/jadeocr/jadeocr)
 
 - [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
 - [https://github.com/HTMLElements](https://github.com/HTMLElements)

@@ -102,6 +102,7 @@ with Test() as t: # 触发__exit__
 - 交互式计算 [https://github.com/ipython](https://github.com/ipython)
 - 纠正以前的控制台命令中的错误 [https://github.com/nvbn/thefuck](https://github.com/nvbn/thefuck)
 - 命令行HTTP客户端 [https://github.com/jakubroztocil/httpie](https://github.com/jakubroztocil/httpie)
+- 终端样式 [https://github.com/willmcgugan/rich](https://github.com/willmcgugan/rich)
 - [https://github.com/topics/expect](https://github.com/topics/expect)
     - [https://www.nist.gov/services-resources/software/expect](https://www.nist.gov/services-resources/software/expect)
     - [https://github.com/clarkwang/sexpect](https://github.com/clarkwang/sexpect)
@@ -234,6 +235,7 @@ with Test() as t: # 触发__exit__
 * [https://github.com/ouyanghuiyu/chineseocr_lite](https://github.com/ouyanghuiyu/chineseocr_lite)
     * `pip3 install tornado numpy opencv_python onnxruntime Shapely pyclipper Pillow`
 * [https://github.com/chineseocr](https://github.com/chineseocr)
+* [https://github.com/Greedysky/TTKOCR](https://github.com/Greedysky/TTKOCR)
 * [https://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)
 * 百度飞桨 [https://github.com/PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 * [https://github.com/miaomiaosoft/PandaOCR](https://github.com/miaomiaosoft/PandaOCR)
