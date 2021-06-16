@@ -351,6 +351,9 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
 - `com.google.common.net.MediaType` guava
 - `javax.ws.rs.core.MediaType` Jersey框架
 - `org.springframework.http.MediaType`和`org.springframework.util.MimeTypeUtils` spring框架
+- 在Tomcat配置文件`conf/web.xml`中的`Default MIME Type Mappings`部分定义
+- nginx配置文件`conf/mime.types`中定义
+
 
 
 **HTTP实现依赖库**

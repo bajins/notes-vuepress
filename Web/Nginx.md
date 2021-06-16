@@ -30,13 +30,20 @@
 * [标签: Nginx | 原少子杨](https://iziyang.github.io/tags/nginx)
 * [Nginx从入门到实践](https://segmentfault.com/blog/siguoya-nginx)
 
-+ [博客使用Cloudflare和Nginx的相关配置](https://jayshao.com/cloudflare-nginx-ssl)
+- [Nginx 高性能优化配置实战总结](https://segmentfault.com/a/1190000037788252)
+- [nginx 优化的六点方法](https://zhuanlan.zhihu.com/p/149946545)
+- [Nginx-性能优化](https://juejin.cn/post/6844904122068680711)
+- [博客使用Cloudflare和Nginx的相关配置](https://jayshao.com/cloudflare-nginx-ssl)
+
 + [https://github.com/nginx-proxy/nginx-proxy](https://github.com/nginx-proxy/nginx-proxy)
+
 
 
 
 **其他同类程序**
 
+* [https://github.com/apache/httpd](https://github.com/apache/httpd)
+* [https://github.com/lighttpd](https://github.com/lighttpd)
 * [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
     * [Caddy2 简明教程 - bleem](https://mritd.com/2021/01/07/lets-start-using-caddy2)
 * [https://github.com/traefik/traefik](https://github.com/traefik/traefik)

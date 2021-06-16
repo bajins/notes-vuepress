@@ -15,6 +15,7 @@
 - [https://github.com/topics/migration](https://github.com/topics/migration)
 - Go编写的数据库迁移 [https://github.com/golang-migrate/migrate](https://github.com/golang-migrate/migrate)
 - PostgreSQL迁移 [https://github.com/jackc/tern](https://github.com/jackc/tern)
+- [https://github.com/DTStack/flinkx](https://github.com/DTStack/flinkx)
 
 
 **其他数据库**
