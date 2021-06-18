@@ -87,6 +87,8 @@
 * [https://github.com/clibs](https://github.com/clibs)
 * [https://github.com/conan-io/conan](https://github.com/conan-io/conan)
 * [https://github.com/gcc-mirror/gcc](https://github.com/gcc-mirror/gcc)
+* C++ 那些事 [https://github.com/Light-City/CPlusPlusThings](https://github.com/Light-City/CPlusPlusThings)
+
 
 + [https://github.com/qinguoyi/TinyWebServer](https://github.com/qinguoyi/TinyWebServer)
 + [https://github.com/ImpulseAdventure/GUIslice-Builder](https://github.com/ImpulseAdventure/GUIslice-Builder)
@@ -162,6 +164,7 @@
 * [https://github.com/xamarin](https://github.com/xamarin)
     * [https://docs.microsoft.com/zh-cn/xamarin](https://docs.microsoft.com/zh-cn/xamarin)
 * [https://github.com/microsoft/Windows-universal-samples](https://github.com/microsoft/Windows-universal-samples)
+* 测试 [https://github.com/restsharp/RestSharp](https://github.com/restsharp/RestSharp)
 
 - [https://docs.microsoft.com/zh-cn/windows/win32/apiindex/windows-api-list](https://docs.microsoft.com/zh-cn/windows/win32/apiindex/windows-api-list)
 - [https://visualstudio.microsoft.com/zh-hans/vs](https://visualstudio.microsoft.com/zh-hans/vs)

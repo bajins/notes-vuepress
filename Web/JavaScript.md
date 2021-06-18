@@ -187,6 +187,7 @@ var express = require('express');
 * [https://github.com/zeroclipboard/zeroclipboard](https://github.com/zeroclipboard/zeroclipboard)
 * 绑定按键 [https://github.com/jamiebuilds/tinykeys](https://github.com/jamiebuilds/tinykeys)
 * 语法高亮 [https://github.com/PrismJS](https://github.com/PrismJS)
+* [https://github.com/shikijs/shiki](https://github.com/shikijs/shiki)
 * [https://github.com/validatorjs/validator.js](https://github.com/validatorjs/validator.js)
 * [https://github.com/zTree/zTree_v3](https://github.com/zTree/zTree_v3)
 * 国际化 [https://github.com/i18next/i18next](https://github.com/i18next/i18next)

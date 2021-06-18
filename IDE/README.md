@@ -11,11 +11,6 @@
 - [https://github.com/topics/ide](https://github.com/topics/ide)
 - [https://github.com/topics/devtools](https://github.com/topics/devtools)
 
-+ [https://github.com/postmanlabs](https://github.com/postmanlabs)
-    + [https://www.getpostman.com/apps](https://www.getpostman.com/apps)
-+ [https://github.com/hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)
-    + [https://hoppscotch.io](https://hoppscotch.io)
-+ IDEA 的`Tools`菜单下有`HTTP Client`可替代postman
 
 * [https://github.com/apache/netbeans](https://github.com/apache/netbeans)
 * [https://github.com/atom](https://github.com/atom)
@@ -26,6 +21,29 @@
 
 - 代码搜索和替换 [https://github.com/comby-tools/comby](https://github.com/comby-tools/comby)
 - [https://github.com/dsznajder/vscode-es7-javascript-react-snippets](https://github.com/dsznajder/vscode-es7-javascript-react-snippets)
+
+
+
+## 测试
+
++ [https://github.com/apache/jmeter](https://github.com/apache/jmeter)
++ [https://github.com/postmanlabs](https://github.com/postmanlabs)
+    + [https://www.getpostman.com/apps](https://www.getpostman.com/apps)
++ [https://github.com/SmartBear/soapui](https://github.com/SmartBear/soapui)
+    + [https://www.soapui.org](https://www.soapui.org)
++ [https://github.com/hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)
+    + [https://hoppscotch.io](https://hoppscotch.io)
++ [https://github.com/katalon-studio](https://github.com/katalon-studio)
++ [https://github.com/wisdom-projects/rest-client](https://github.com/wisdom-projects/rest-client)
++ [https://gitee.com/itestwork/itest](https://gitee.com/itestwork/itest)
++ [https://github.com/seagull1985/LuckyFrameClient](https://github.com/seagull1985/LuckyFrameClient)
++ [https://github.com/zyanycall/stressTestPlatform](https://github.com/zyanycall/stressTestPlatform)
++ [https://www.apipost.cn](https://www.apipost.cn)
++ [https://www.microfocus.com/zh-cn/products/loadrunner-professional](https://www.microfocus.com/zh-cn/products/loadrunner-professional)
++ IDEA 的`Tools`菜单下有`HTTP Client`可替代postman
+
+- mac paw [https://github.com/luckymarmot](https://github.com/luckymarmot)
+
 
 
 

@@ -50,6 +50,8 @@
 * [https://github.com/mrmlnc/fast-glob](https://github.com/mrmlnc/fast-glob)
 * [https://github.com/reworkcss](https://github.com/reworkcss)
 * [https://github.com/visionmedia](https://github.com/visionmedia)
+* CMS [https://github.com/strapi/strapi](https://github.com/strapi/strapi)
+
 
 
 

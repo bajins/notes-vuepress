@@ -90,6 +90,7 @@
 * P2P [https://github.com/berty/berty](https://github.com/berty/berty)
 * [https://github.com/matrix-org](https://github.com/matrix-org)
 * [https://github.com/GetStream](https://github.com/GetStream)
+* [https://github.com/RocketChat](https://github.com/RocketChat)
 
 - [https://github.com/topics/curses](https://github.com/topics/curses)
 - [https://github.com/topics/ncurses](https://github.com/topics/ncurses)

@@ -14,7 +14,9 @@ module.exports = {
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
         ['meta', { name: 'msapplication-TileImage', content: '/images/icons/logo.png' }],
         ['meta', { name: 'msapplication-TileColor', content: '#ffffff' }],
-        ['meta', { name: 'keywords', content: 'bajins,vue,vuepress,vuepress-theme,theme,主题,vuepress主题,blog,vuepress-blog,java,python,shell,sql,golang,script,shell script,nginx,windows,去广告,androd,google drive,one drive,idea,eclipse,git,小程序' }],
+        ['meta', { name: 'keywords', content: `bajins,vue,vuepress,vuepress-theme,theme,主题,vuepress主题,blog
+        ,vuepress-blog,java,python,shell,sql,golang,script,shell script,nginx,windows,去广告,androd,google drive
+        ,one drive,idea,eclipse,git,小程序` }],
         ['meta', { name: 'referrer', content: 'never' }],
         ['script', { type: 'text/javascript', src: '/assets/js/load.js' }],
     ],
@@ -23,6 +25,7 @@ module.exports = {
     dest: './docs',
     // temp: './.temp',
     // cache: 'false',
+    lang: "zh-CN", // https://v2.vuepress.vuejs.org/zh/reference/config.html#lang
     locales: {
         // 键名是该语言所属的子路径
         // 作为特例，默认语言可以使用 '/' 作为其路径。
@@ -74,19 +77,11 @@ module.exports = {
     // 插件 https://vuepress.github.io/zh/
     plugins: [
         // 返回顶部按钮true显示、false不显示
-        ['@vuepress/back-to-top', false],
+        ['@vuepress/back-to-top', true],
         ['@vuepress/pwa', {
             // 如果设置为 true，VuePress 将自动生成并注册一个 Service Worker，
             // 用于缓存页面的内容以供离线使用（仅会在生产环境中启用）
-            serviceWorker: true,
-            // 使用自定义组件
-            // popupComponent: 'MySWUpdatePopup',
-            // 本选项开启了一个用于刷新内容的弹窗
-            // updatePopup: true
-            updatePopup: {
-                message: "发现新内容可用",
-                buttonText: "刷新"
-            }
+            serviceWorker: true
         }],
         // 用于缩放图像的JavaScript库
         ['@vuepress/medium-zoom', true],
@@ -104,6 +99,18 @@ module.exports = {
             }
         }],
         ['@vuepress/search', { searchMaxSuggestions: 10 }],
+        ['@vuepress/docsearch', {
+            apiKey: '<API_KEY>',
+            indexName: '<INDEX_NAME>',
+            locales: {
+                '/': {
+                    placeholder: 'Search',
+                },
+                '/zh/': {
+                    placeholder: '搜索',
+                },
+            },
+        }],
         ['@vuepress/active-header-links', {
             sidebarLinkSelector: '.sidebar-link', headerAnchorSelector: '.header-anchor'
         }],

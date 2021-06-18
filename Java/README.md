@@ -204,6 +204,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
     + [https://github.com/johntostring/spring-boot-shiro](https://github.com/johntostring/spring-boot-shiro)
     + [https://github.com/YuxingXie/shiro](https://github.com/YuxingXie/shiro)
 + 简单的Web框架 [https://github.com/javalin](https://github.com/javalin)
++ 工作流框架 [https://github.com/Activiti/Activiti](https://github.com/Activiti/Activiti)
+    + [https://github.com/henryyan/activiti-in-action-codes](https://github.com/henryyan/activiti-in-action-codes)
 
 
 * jwt [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)
@@ -497,7 +499,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/dbunit/dbunit-mirror](https://github.com/dbunit/dbunit-mirror)
 * [https://github.com/easymock](https://github.com/easymock)
 * [https://github.com/Terracotta-OSS/angela](https://github.com/Terracotta-OSS/angela)
-
+* [https://github.com/rest-assured/rest-assured](https://github.com/rest-assured/rest-assured)
+* [https://github.com/intuit/karate](https://github.com/intuit/karate)
 
 
 

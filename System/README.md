@@ -399,9 +399,12 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 **KMS**
 
 * [https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys](https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys)
+* [https://github.com/search?q=数字权利](https://github.com/search?q=%E6%95%B0%E5%AD%97%E6%9D%83%E5%88%A9)
 
 + [Windows 10 Digital Activation](http://forum.ru-board.com/topic.cgi?forum=2&topic=5820&start=0)
     * [https://www.solidfiles.com/folder/bd7165a0d4](https://www.solidfiles.com/folder/bd7165a0d4)
++ 云萌 [https://github.com/TGSAN/CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition)
+    + [https://tgsan.github.io/CMWTAT_Digital_Edition](https://tgsan.github.io/CMWTAT_Digital_Edition)
 + [https://github.com/ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey)
 + [https://github.com/zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator)
 + [https://github.com/abbodi1406/WHD](https://github.com/abbodi1406/WHD)
@@ -416,7 +419,6 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 * [人人客-微软产品](https://rrkee.com/microsoft)
 * [03k.orgKMS服务](https://03k.org/kms.html)
 * [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4)
-* [云萌 Windows 10 激活工具](https://tgsan.github.io/CMWTAT_Digital_Edition)
 * [零散坑KMS服务](https://03k.org/kms.html)
 * [kms.mogeko.me](https://mogeko.me/2019/054)
 * [https://kms.cangshui.net](https://kms.cangshui.net)

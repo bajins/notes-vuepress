@@ -137,6 +137,7 @@
 * 思否 [https://segmentfault.com](https://segmentfault.com)
 * 掘金 [https://juejin.im](https://juejin.im)
 * 简书 [https://www.jianshu.com](https://www.jianshu.com)
+* 知乎 [http://www.zhihu.com](http://www.zhihu.com)
 * TED（最优质的演讲） [https://www.ted.com](https://www.ted.com)
 * 谷粉学术 [https://gfsoso.99lb.net/scholar.html](https://gfsoso.99lb.net/scholar.html)
 * 大学资源网 [http://www.dxzy163.com](http://www.dxzy163.com)
@@ -147,7 +148,6 @@
 * 网易云课堂 [http://study.163.com](http://study.163.com)
 * 哔哩哔哩弹幕网 [http://www.bilibili.com](http://www.bilibili.com)
 * 我要自学网 [http://www.51zxw.net](http://www.51zxw.net)
-* 知乎 [http://www.zhihu.com](http://www.zhihu.com)
 * 学堂在线 [http://www.xuetangx.com](http://www.xuetangx.com)
 * 爱课程 [http://www.icourses.cn](http://www.icourses.cn)
 * 猫咪论文 [https://lunwen.im](https://lunwen.im)
@@ -564,6 +564,7 @@
 * 查字体网站 [https://fonts.safe.360.cn](https://fonts.safe.360.cn)
 * 爱给网（免费素材下载的网站，包括音效、配乐，3D、视频、游戏，平面、教程） [http://www.aigei.com](http://www.aigei.com)
 * 在线视频剪辑 [https://bilibili.clipchamp.com/editor](https://bilibili.clipchamp.com/editor)
+* 图标生成 [https://realfavicongenerator.net](https://realfavicongenerator.net)
 
 
 ## 文档

@@ -97,6 +97,12 @@ with Test() as t: # 触发__exit__
 * 获取字符编码 [https://github.com/chardet/chardet](https://github.com/chardet/chardet)
 * [https://github.com/PyYoshi/cChardet](https://github.com/PyYoshi/cChardet)
 * NLP资源库 [https://github.com/fighting41love/funNLP](https://github.com/fighting41love/funNLP)
+* 分布式任务 [https://github.com/celery/celery](https://github.com/celery/celery)
+    * [https://github.com/open-source-translation/celery-cn](https://github.com/open-source-translation/celery-cn)
+    * [https://www.celerycn.io](https://www.celerycn.io)
+* web [https://github.com/tiangolo/fastapi](https://github.com/tiangolo/fastapi)
+* [https://github.com/pallets/flask](https://github.com/pallets/flask)
+    * [https://dormousehole.readthedocs.io](https://dormousehole.readthedocs.io)
 
 
 - 交互式计算 [https://github.com/ipython](https://github.com/ipython)
