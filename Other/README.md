@@ -17,7 +17,17 @@
 
 * [https://github.com/search?q=learning](https://github.com/search?q=learning)
 
+- [https://mianbaoduo.com/o/lab](https://mianbaoduo.com/o/lab)
+    - 赞赏 [https://dun.mianbaoduo.com](https://dun.mianbaoduo.com)
+    - [https://mianbaoduo.com/help/#/lightning](https://mianbaoduo.com/help/#/lightning)
 - [https://stripe.com/zh-cn-us/payments/payment-methods-guide#wechat-pay](https://stripe.com/zh-cn-us/payments/payment-methods-guide#wechat-pay)
+- [https://github.com/biezhi/profit/wiki](https://github.com/biezhi/profit/wiki)
+- [https://github.com/topics/donate](https://github.com/topics/donate)
+    - 博客赞赏插件 [https://github.com/isArtJay/simple-zanshang](https://github.com/isArtJay/simple-zanshang)
+    - [https://github.com/Kaiyuan/sponsor-page](https://github.com/Kaiyuan/sponsor-page)
+    - [https://github.com/ihoey/Playing-reward](https://github.com/ihoey/Playing-reward)
+    - [https://github.com/nooldey/sponsor](https://github.com/nooldey/sponsor)
+
 
 * 编程语言排行 [https://www.tiobe.com/tiobe-index](https://www.tiobe.com/tiobe-index)
 * GitHub上的游戏项目 [https://github.com/leereilly/games](https://github.com/leereilly/games)
@@ -35,6 +45,10 @@
 * [https://pushplus.hxtrip.com](https://pushplus.hxtrip.com)
 * [https://github.com/wxpusher](https://github.com/wxpusher)
 * 实时崩溃报告 [https://github.com/getsentry](https://github.com/getsentry)
+
+
+- 水印 [https://github.com/topics/watermark](https://github.com/topics/watermark)
+- [https://github.com/dxcweb/watermark](https://github.com/dxcweb/watermark)
 
 
 
@@ -100,6 +114,8 @@
 + [https://github.com/zeux/pugixml](https://github.com/zeux/pugixml)
 + [https://github.com/google/leveldb](https://github.com/google/leveldb)
 + [https://github.com/jmpews/Dobby](https://github.com/jmpews/Dobby)
+
+- 反汇编： C32asm、MYCCL、OD、IDA、softICE、WinDbg
 
 
 > C语言的编译器有很多种，不同的平台下有不同的编译器

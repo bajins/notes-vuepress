@@ -206,6 +206,8 @@ yum remove 内核名字
 
 ## 一键安装BBR
 
++ [https://github.com/ylx2016/Linux-NetSpeed](https://github.com/ylx2016/Linux-NetSpeed)
+
 * [秋水逸冰](https://github.com/teddysun/across)
 
 - 下载并执行脚本

@@ -8,6 +8,7 @@
 ## Flag
 
 + [https://github.com/gradle/gradle](https://github.com/gradle/gradle)
+    + [https://github.com/johnrengelman/shadow](https://github.com/johnrengelman/shadow)
 + [https://github.com/sbt/sbt](https://github.com/sbt/sbt)
 + 增量构建 [https://github.com/sakerbuild/saker.build](https://github.com/sakerbuild/saker.build)
 + [https://github.com/sakerbuild/saker.java.compiler](https://github.com/sakerbuild/saker.java.compiler)
