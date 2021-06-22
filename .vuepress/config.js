@@ -38,7 +38,7 @@ module.exports = {
     },
     // 留空则使用.vuepress/theme下的自定义主题
     theme: '',
-    // theme: 'reco', https://github.com/vuepress-reco
+    // theme: 'reco', // https://github.com/vuepress-reco
     themeConfig: {
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL,当你提供了 themeConfig.repo 选项，
         // 将会自动在每个页面的导航栏生成生成一个 GitHub 链接，以及在页面的底部生成一个 "Edit this page" 链接。
@@ -50,17 +50,6 @@ module.exports = {
             appId: 'm9S5QXsdju39LvMs8ooRRIiF-MdYXbMMI', // your appId
             appKey: 'UfBRjySkb4bjPiFuH0Pxe3a9', // your appKey
         },
-        // 博客设置
-        // blogConfig: {
-        //     category: {
-        //         location: 2, // 在导航栏菜单中所占的位置，默认2
-        //         text: 'Category' // 默认 “分类”
-        //     },
-        //     tag: {
-        //         location: 3, // 在导航栏菜单中所占的位置，默认3
-        //         text: 'Tag' // 默认 “标签”
-        //     }
-        // },
         editLinkText: '在 GitHub 上编辑此页',
         nav: utils.getNavigationMenu("./").concat(require('./nav')),
         logo: '/images/icons/logo.png',
@@ -98,19 +87,6 @@ module.exports = {
                 return moment(timestamp).format('YYYY-MM-DD HH:mm:ss');
             }
         }],
-        ['@vuepress/search', { searchMaxSuggestions: 10 }],
-        ['@vuepress/docsearch', {
-            apiKey: '<API_KEY>',
-            indexName: '<INDEX_NAME>',
-            locales: {
-                '/': {
-                    placeholder: 'Search',
-                },
-                '/zh/': {
-                    placeholder: '搜索',
-                },
-            },
-        }],
         ['@vuepress/active-header-links', {
             sidebarLinkSelector: '.sidebar-link', headerAnchorSelector: '.header-anchor'
         }],
@@ -120,6 +96,8 @@ module.exports = {
             //filter:"",
             count: "20",
         }],
+        // 全文搜索 https://github.com/z3by/vuepress-plugin-flexsearch
+        ['flexsearch'],
         // https://github.com/znicholasbrown/vuepress-plugin-code-copy
         ["vuepress-plugin-code-copy", true],
         // https://github.com/ekoeryanto/vuepress-plugin-sitemap
@@ -150,13 +128,8 @@ module.exports = {
                     }
                 }, {
                     icon: '',
-                    name: '饿了么',
+                    name: '顿顿饭',
                     link: '',
-                    popover: {
-                        title: '饿了么扫码领红包',
-                        type: 'image',
-                        imageUrl: 'https://lookimg.com/images/2021/05/27/PNqMD9.jpg',
-                    }
                 }
             ]
         }],
