@@ -168,11 +168,19 @@
 * [https://www.drift.com](https://www.drift.com)
 
 
+
 **留言评论**
 
++ [https://github.com/topics/comments](https://github.com/topics/comments)
++ [https://github.com/topics/comment-system](https://github.com/topics/comment-system)
+
+
+* [https://github.com/MiniValine](https://github.com/MiniValine)
 * [https://www.livere.com](https://www.livere.com)
 * [https://github.com/xCss/Valine](https://github.com/xCss/Valine)
     * [https://github.com/DesertsP/Valine-Admin](https://github.com/DesertsP/Valine-Admin)
+    * [https://github.com/walinejs/waline](https://github.com/walinejs/waline)
+* [https://github.com/djyde/cusdis](https://github.com/djyde/cusdis)
 * 小部件 [https://github.com/widgetbot-io](https://github.com/widgetbot-io)
 * [https://chatra.com](https://chatra.com)
 * [https://crisp.chat](https://crisp.chat)
@@ -189,7 +197,11 @@
 * [https://github.com/Ericwyn/Ponza](https://github.com/Ericwyn/Ponza)
 * [https://github.com/aonemd/jazl](https://github.com/aonemd/jazl)
 * [https://github.com/art-deco/akashic.page](https://github.com/art-deco/akashic.page)
+* [https://github.com/aloud-comments](https://github.com/aloud-comments)
+* [https://github.com/MHuiG/ohhho](https://github.com/MHuiG/ohhho)
 
+- [第三方评论系统之我见](https://www.yunyoujun.cn/share/third-party-comment-system)
+- 垃圾过滤 [https://akismet.com/development](https://akismet.com/development)
 
 + [https://github.com/Buzut/jamments](https://github.com/Buzut/jamments)
 + [https://github.com/sheychen290/comtodon](https://github.com/sheychen290/comtodon)
@@ -223,6 +235,9 @@
 * 牛图网 [https://www.niupic.com](https://www.niupic.com)
 * 路过图床 [https://imgchr.com](https://imgchr.com)
 * [https://lookimg.com](https://lookimg.com)
+* [https://img.cy](https://img.cy)
+* [https://imgur.com](https://imgur.com)
+
 
 
 **文件分享**

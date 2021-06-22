@@ -208,6 +208,13 @@ git reset --hard origin/<branch_name>
 git pull
 ```
 
+```bash
+# 暂时忽略对文件做的修改
+git update-index --assume-unchanged 路径
+# 重新标识对文件做的修改
+git update-index --no-assume-unchanged 路径
+```
+
 
 ## 清除用户名密码
 

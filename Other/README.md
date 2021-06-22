@@ -45,6 +45,7 @@
 * [https://pushplus.hxtrip.com](https://pushplus.hxtrip.com)
 * [https://github.com/wxpusher](https://github.com/wxpusher)
 * 实时崩溃报告 [https://github.com/getsentry](https://github.com/getsentry)
+* License [https://app.fossa.com](https://app.fossa.com)
 
 
 - 水印 [https://github.com/topics/watermark](https://github.com/topics/watermark)
