@@ -34,6 +34,7 @@
 - [https://github.com/0dayCTF/reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator)
 - 命令执行演示 [https://github.com/maaslalani/slides](https://github.com/maaslalani/slides)
 - [https://github.com/d0c-s4vage/lookatme](https://github.com/d0c-s4vage/lookatme)
+- [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
 
 
 

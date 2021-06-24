@@ -29,6 +29,8 @@
 * [https://github.com/saleson/fm-dynamic-compiler](https://github.com/saleson/fm-dynamic-compiler)
 * [https://github.com/gperftools/gperftools](https://github.com/gperftools/gperftools)
 * [https://www.yourkit.com/java/profiler](https://www.yourkit.com/java/profiler)
+* 内存分析 [https://projects.eclipse.org/projects/tools.mat](https://projects.eclipse.org/projects/tools.mat)
+   * [https://github.com/vlsi/mat-calcite-plugin](https://github.com/vlsi/mat-calcite-plugin)
 
 
 
@@ -50,6 +52,9 @@ jstack PID | grep -A 10 $(printf "%x\n" PID)
 
 # nid：对应的linux操作系统下的TID，就是前面转化的16进制数字
 # tid：这个应该是jvm的jmm内存规范中的唯一地址定位
+
+jmap -dump:live,format=b,file=/tmp/heapdump.hprof PID
+/usr/lib/jvm/jdk-YOUR-VERSION/bin/jcmd PID GC.heap_dump /tmp/heapdump.hprof
 ```
 
 

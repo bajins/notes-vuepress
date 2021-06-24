@@ -31,6 +31,7 @@
 - [https://www.atlassian.com/zh/software/bamboo](https://www.atlassian.com/zh/software/bamboo)
 - [https://github.com/technomancy/leiningen](https://github.com/technomancy/leiningen)
 - [https://github.com/ansible/ansible](https://github.com/ansible/ansible)
+- 自动化部署 [https://github.com/dreamans/syncd](https://github.com/dreamans/syncd)
 
 
 

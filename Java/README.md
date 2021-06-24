@@ -268,6 +268,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 - [https://github.com/everit-org/json-schema](https://github.com/everit-org/json-schema)
 - [https://github.com/java-json-tools/json-schema-validator](https://github.com/java-json-tools/json-schema-validator)
 - 使用XPath语法取值 [https://github.com/json-path/JsonPath](https://github.com/json-path/JsonPath)
+- [https://github.com/square/moshi](https://github.com/square/moshi)
 
 
 **Cache**

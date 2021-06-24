@@ -156,6 +156,7 @@
 * iData（论文搜索） [http://www.cn-ki.net](http://www.cn-ki.net)
 * 文泉考试 [https://www.wqkaoshi.com](https://www.wqkaoshi.com)
 * 通过实践学习 [https://scrimba.com](https://scrimba.com)
+* [https://www.geeksforgeeks.org](https://www.geeksforgeeks.org)
 
 
 
@@ -258,6 +259,7 @@
     * [https://rgb-24bit.github.io](https://rgb-24bit.github.io)
 * [归档 - 朱小厮的博客](https://honeypps.com/archives)
 * [归档 - SoulChild随笔记](https://soulchild.cn/archives.html)
+* [Archive | Verne in GitHub](https://einverne.github.io/archive.html)
 
 
 

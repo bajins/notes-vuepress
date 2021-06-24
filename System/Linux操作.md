@@ -366,6 +366,18 @@ setsid python3 ./index.py >/dev/null 2>&1 &
 
 ## 传输文件
 
++ [https://github.com/topics/synchronization](https://github.com/topics/synchronization)
+* [https://github.com/topics/sync](https://github.com/topics/sync)
++ [https://github.com/topics/peer-to-peer](https://github.com/topics/peer-to-peer)
++ [https://github.com/topics/p2p](https://github.com/topics/p2p)
+
+
+* [https://github.com/syncthing/syncthing](https://github.com/syncthing/syncthing)
+* Resilio Sync [https://github.com/bt-sync](https://github.com/bt-sync)
+    * [https://www.resilio.com/platforms/desktop](https://www.resilio.com/platforms/desktop)
+* 微力同步国内 [http://www.verysync.com](http://www.verysync.com)
+
+
 > 首先进入需要搭建web服务器的目录，然后在输入下面的命令，端口号默认`8000`
 
 ```bash
@@ -437,8 +449,11 @@ scp -P 22 -p root@192.168.214.187:/tmp/demo/f3.log /tmp/files/
 > 【用法】rsync是类unix系统下的数据镜像备份工具，从软件的命名上就可以看出来了——remote sync。
 > 它的操作方式和scp和相似，但是比scp强大很多。使用双冒号分割主机名和文件路径时，是使用rsync服务器
 
++ [https://github.com/topics/rsync](https://github.com/topics/rsync)
+
 * [https://rsync.samba.org](https://rsync.samba.org)
-* [https://github.com/axkibe/lsyncd](https://github.com/axkibe/lsyncd)
+* [https://github.com/probonopd/zsync-curl](https://github.com/probonopd/zsync-curl)
+* [http://zsync.moria.org.uk](http://zsync.moria.org.uk)
 
 
 ```bash
