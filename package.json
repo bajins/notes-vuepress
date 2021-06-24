@@ -51,7 +51,6 @@
         "querystringify": "2.2.0",
         "serialize-javascript": "^6.0.0",
         "set-value": "^4.0.0",
-        "valine": "1.4.14",
         "vue-class-component": "^7.2.6",
         "vue-click-outside": "^1.1.0",
         "vue-property-decorator": "^9.1.2",
