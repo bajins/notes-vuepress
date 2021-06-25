@@ -373,15 +373,17 @@ setsid python3 ./index.py >/dev/null 2>&1 &
 
 
 * [https://github.com/syncthing/syncthing](https://github.com/syncthing/syncthing)
+    * [https://github.com/canton7/SyncTrayzor](https://github.com/canton7/SyncTrayzor)
+    * [Syncthing 开源文件同步工具](https://jiangliheng.github.io/2021/06/10/syncthing)
 * Resilio Sync [https://github.com/bt-sync](https://github.com/bt-sync)
     * [https://www.resilio.com/platforms/desktop](https://www.resilio.com/platforms/desktop)
 * 微力同步国内 [http://www.verysync.com](http://www.verysync.com)
 * [https://github.com/schollz/croc](https://github.com/schollz/croc)
     * 号称`croc`通过压缩和多路复用比`wormhole`，`rsync`，`scp`更快（加速`1.5`倍至`4`倍）
+* [https://github.com/magic-wormhole/magic-wormhole](https://github.com/magic-wormhole/magic-wormhole)
 * [https://github.com/simon-budig/woof](https://github.com/simon-budig/woof)
 * [https://github.com/stackp/Droopy](https://github.com/stackp/Droopy)
 * 命令行共享文件 [https://github.com/dutchcoders/transfer.sh](https://github.com/dutchcoders/transfer.sh)
-* [https://github.com/magic-wormhole/magic-wormhole](https://github.com/magic-wormhole/magic-wormhole)
 
 
 > 首先进入需要搭建web服务器的目录，然后在输入下面的命令，端口号默认`8000`
