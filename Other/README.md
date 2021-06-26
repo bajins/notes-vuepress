@@ -68,6 +68,9 @@
 * [https://github.com/bellard/quickjs](https://github.com/bellard/quickjs)
 * [https://github.com/tcltk](https://github.com/tcltk)
 * 小型构建系统 [https://github.com/ninja-build/ninja](https://github.com/ninja-build/ninja)
+* 软件逆向工程框架 [https://github.com/NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
+* 文件系统 [https://github.com/ipfs](https://github.com/ipfs)
+
 
 
 **Rust**
@@ -88,6 +91,7 @@
 - [https://github.com/local-group](https://github.com/local-group)
 - [https://github.com/staktrace/quoted-printable](https://github.com/staktrace/quoted-printable)
 - UI [https://github.com/linebender/druid](https://github.com/linebender/druid)
+- 文件系统 [https://github.com/zboxfs/zbox](https://github.com/zboxfs/zbox)
 
 
 
@@ -115,6 +119,7 @@
 + [https://github.com/zeux/pugixml](https://github.com/zeux/pugixml)
 + [https://github.com/google/leveldb](https://github.com/google/leveldb)
 + [https://github.com/jmpews/Dobby](https://github.com/jmpews/Dobby)
++ 分析调试测试器 [https://github.com/dfeneyrou/palanteer](https://github.com/dfeneyrou/palanteer)
 
 - 反汇编： C32asm、MYCCL、OD、IDA、softICE、WinDbg
 

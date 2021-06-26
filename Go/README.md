@@ -126,6 +126,8 @@
 * [https://github.com/giampaolo/psutil](https://github.com/giampaolo/psutil)
 * [https://github.com/shirou/gopsutil](https://github.com/shirou/gopsutil)
 * JSON解析器 [https://github.com/json-iterator](https://github.com/json-iterator)
+* [https://github.com/mailru/easyjson](https://github.com/mailru/easyjson)
+* [https://github.com/minio/simdjson-go](https://github.com/minio/simdjson-go)
 * [https://github.com/json-iterator/go](https://github.com/json-iterator/go)
 * [https://github.com/deckarep/golang-set](https://github.com/deckarep/golang-set)
 * [https://github.com/chenhg5/collection](https://github.com/chenhg5/collection)
@@ -202,6 +204,9 @@
 * GUI [https://github.com/visualfc/atk](https://github.com/visualfc/atk)
 * 测试 [https://github.com/sclevine/spec](https://github.com/sclevine/spec)
 * [https://github.com/onsi/ginkgo](https://github.com/onsi/ginkgo)
+* 读取PDF [https://github.com/ledongthuc/pdf](https://github.com/ledongthuc/pdf)
+* [https://github.com/gorilla/websocket](https://github.com/gorilla/websocket)
+
 
 
 - 实时视频流服务器 [https://github.com/gwuhaolin/livego](https://github.com/gwuhaolin/livego)

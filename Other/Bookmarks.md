@@ -123,6 +123,7 @@
 * [思维导图](https://github.com/search?o=desc&q=%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE&s=updated&type=Repositories)
 * [https://github.com/polaris1119/awesome-cheatsheets-cn](https://github.com/polaris1119/awesome-cheatsheets-cn)
 * 学习主题清单 [https://github.com/jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
+* [https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh](https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh)
 
 
 

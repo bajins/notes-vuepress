@@ -383,6 +383,7 @@ setsid python3 ./index.py >/dev/null 2>&1 &
 * [https://github.com/magic-wormhole/magic-wormhole](https://github.com/magic-wormhole/magic-wormhole)
 * [https://github.com/simon-budig/woof](https://github.com/simon-budig/woof)
 * [https://github.com/stackp/Droopy](https://github.com/stackp/Droopy)
+* [https://github.com/Peergos/Peergos](https://github.com/Peergos/Peergos)
 * 命令行共享文件 [https://github.com/dutchcoders/transfer.sh](https://github.com/dutchcoders/transfer.sh)
 
 

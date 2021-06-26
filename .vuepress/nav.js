@@ -4,7 +4,7 @@ module.exports = [{
             // text: '',
             items: [{
                     text: 'WeChat小程序',
-                    link: 'https://www.woetu.com'
+                    link: 'https://www.gotoxi.com'
                 },
                 {
                     text: '获取XShell',
@@ -16,7 +16,7 @@ module.exports = [{
                 },
                 {
                     text: 'OneDrive',
-                    link: 'https://od.bajins.com'
+                    link: 'https://od.gotoxi.com'
                 },
             ]
         },

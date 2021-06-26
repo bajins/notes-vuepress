@@ -66,6 +66,7 @@
 * [https://github.com/getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
 * [https://github.com/Asabeneh/JavaScript-for-Everyone](https://github.com/Asabeneh/JavaScript-for-Everyone)
 * JavaScript的学习代码总结 [https://github.com/csxiaoyaojianxian/JavaScriptStudy](https://github.com/csxiaoyaojianxian/JavaScriptStudy)
+* [https://github.com/30-seconds](https://github.com/30-seconds)
 
 - [ES6、ES7、ES8特性一锅炖(ES6、ES7、ES8学习指南)](https://juejin.cn/post/6844903679976275976)
 - [ES6、ES7、ES8、ES9、ES10新特性一览](https://juejin.cn/post/6844903811622912014)
@@ -247,6 +248,7 @@ var express = require('express');
 * 保存文件 [https://github.com/eligrey/FileSaver.js](https://github.com/eligrey/FileSaver.js)
 * [https://github.com/jimmywarting/StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js)
 * [https://github.com/adiwajshing/keyed-db](https://github.com/adiwajshing/keyed-db)
+* [https://github.com/gruns/ImmortalDB](https://github.com/gruns/ImmortalDB)
 
 
 

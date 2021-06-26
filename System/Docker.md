@@ -32,6 +32,8 @@
 - 自己动手写docker [https://github.com/xianlubird/mydocker](https://github.com/xianlubird/mydocker)
 - 云原生构建包 [https://github.com/buildpacks](https://github.com/buildpacks)
 - 构建应用程序 [https://github.com/paketo-buildpacks](https://github.com/paketo-buildpacks)
+- [https://github.com/dragonflyoss/Dragonfly](https://github.com/dragonflyoss/Dragonfly)
+- [https://github.com/Alluxio/alluxio](https://github.com/Alluxio/alluxio)
 
 
 **Docker搭建私有仓库**
@@ -61,8 +63,9 @@
     * [https://github.com/kubernetes-incubator](https://github.com/kubernetes-incubator)
     * [https://github.com/kubernetes-sigs](https://github.com/kubernetes-sigs)
     * [https://kubernetes.io](https://kubernetes.io)
-* Kubernetes的软件包管理器 [https://github.com/helm](https://github.com/helm)
-* Ansible脚本安装K8S集群 [https://github.com/easzlab/kubeasz](https://github.com/easzlab/kubeasz)
+    * 存储 [https://github.com/openebs/openebs](https://github.com/openebs/openebs)
+    * 软件包管理器 [https://github.com/helm](https://github.com/helm)
+    * 脚本安装K8S集群 [https://github.com/easzlab/kubeasz](https://github.com/easzlab/kubeasz)
 * [https://github.com/rook/rook](https://github.com/rook/rook)
 * [https://github.com/lensapp/lens](https://github.com/lensapp/lens)
 * [https://github.com/jenkins-x](https://github.com/jenkins-x)
@@ -81,6 +84,7 @@
 * 谷歌、IBM、微软、Pivotal、SAP、SUSE、Swisscom、GE
 * [https://github.com/openzfs/zfs](https://github.com/openzfs/zfs)
 * [https://github.com/wekan/wekan](https://github.com/wekan/wekan)
+* [https://github.com/google/gvisor](https://github.com/google/gvisor)
 
 
 - [https://github.com/systemd](https://github.com/systemd)
