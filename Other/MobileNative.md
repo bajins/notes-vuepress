@@ -104,7 +104,7 @@
 - [https://github.com/gsantner/markor](https://github.com/gsantner/markor)
 
 + adb和fastboot [https://github.com/fast-geek/Android-Tool](https://github.com/fast-geek/Android-Tool)
-+ 在linux下运行安卓应用工具xDroid [https://www.linzhuotech.com](https://www.linzhuotech.com)
++ 在linux下运行安卓应用xDroid [https://www.linzhuotech.com](https://www.linzhuotech.com)
 + [https://github.com/anbox/anbox](https://github.com/anbox/anbox)
     + [Linux上运行安卓应用:安装使用Anbox](https://www.cnblogs.com/syisyuan/p/12811595.html)
 + 安卓上运行的安卓模拟器 [http://www.vmos.cn](http://www.vmos.cn)

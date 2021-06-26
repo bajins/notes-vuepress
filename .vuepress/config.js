@@ -119,17 +119,13 @@ module.exports = {
             opts: [
                 {
                     icon: '',
-                    name: '优惠券',
+                    name: '',
                     link: '',
                     popover: {
-                        title: '这只是友情客串',
+                        title: '',
                         type: 'image',
-                        imageUrl: 'https://lookimg.com/images/2021/03/05/Plclvr.png',
+                        imageUrl: '',
                     }
-                }, {
-                    icon: '',
-                    name: '顿顿饭',
-                    link: '',
                 }
             ]
         }],
