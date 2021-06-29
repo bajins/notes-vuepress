@@ -148,9 +148,9 @@ with Test() as t: # 触发__exit__
 
 * [https://github.com/Kaggle](https://github.com/Kaggle)
     * [https://www.kaggle.com](https://www.kaggle.com)
-        * [https://github.com/Kaggle/kaggle-api#kernels](https://github.com/Kaggle/kaggle-api#kernels)
-        * [https://github.com/Kaggle/kaggle-api#installation](https://github.com/Kaggle/kaggle-api#installation)
-        * [资源默认分配](https://www.kaggle.com/docs/notebooks#technical-specifications)
+    * [https://github.com/Kaggle/kaggle-api#installation](https://github.com/Kaggle/kaggle-api#installation)
+    * [https://github.com/Kaggle/kaggle-api#kernels](https://github.com/Kaggle/kaggle-api#kernels)
+    * [资源默认分配](https://www.kaggle.com/docs/notebooks#technical-specifications)
     * [GitHub等海外大文件快速中转下载](https://mp.weixin.qq.com/s/DH8jXalZiBcX3KhrPdDw8w)
 * [https://github.com/googlecolab](https://github.com/googlecolab)
     * [https://colab.research.google.com](https://colab.research.google.com)

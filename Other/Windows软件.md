@@ -112,6 +112,8 @@
     * Windows [https://github.com/telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop)
     * [https://github.com/UnigramDev/Unigram](https://github.com/UnigramDev/Unigram)
     * web [https://github.com/morethanwords/tweb](https://github.com/morethanwords/tweb)
+        * [https://webk.telegram.org](https://webk.telegram.org)
+        * [https://webz.telegram.org](https://webz.telegram.org)
     * [https://github.com/Ajaxy/telegram-tt](https://github.com/Ajaxy/telegram-tt)
     * [https://telegram.zczc.men](https://telegram.zczc.men)
     * [https://github.com/zhukov/webogram](https://github.com/zhukov/webogram)
@@ -693,6 +695,29 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 
 
+## 文件管理
+
++ [https://github.com/topics/compare](https://github.com/topics/compare)
++ [https://github.com/topics/compare-files](https://github.com/topics/compare-files)
+
+* [https://github.com/winmerge/winmerge](https://github.com/winmerge/winmerge)
+* [https://www.scootersoftware.com](https://www.scootersoftware.com)
+* [https://www.ultraedit.com/products/ultracompare](https://www.ultraedit.com/products/ultracompare)
+* [https://www.devart.com/codecompare](https://www.devart.com/codecompare)
+* 文件对比 [https://www.beyondcomparepro.com](https://www.beyondcomparepro.com)
+* 文件同步 [https://freefilesync.org](https://freefilesync.org)
+* 文件搜索 [https://www.listary.com/pro](https://www.listary.com/pro)
+* 文件搜索 [Everything](https://www.voidtools.com)
+    * [https://github.com/stnkl/EverythingToolbar](https://github.com/stnkl/EverythingToolbar)
+* ReNamer 批量重命名 [http://www.den4b.com](http://www.den4b.com)
+* 文件资源管理器 [https://www.ghisler.com](https://www.ghisler.com)
+* [https://www.softwareok.com/?seite=Freeware/Q-Dir](https://www.softwareok.com/?seite=Freeware/Q-Dir)
+* [https://www.xyplorer.com](https://www.xyplorer.com)
+* [http://www.uderzo.it/main_products/space_sniffer](http://www.uderzo.it/main_products/space_sniffer)
+
+
+
+
 ## other
 
 * [https://www.sandboxie.com](https://www.sandboxie.com)
@@ -708,17 +733,6 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [Windows File Recovery](https://www.microsoft.com/zh-cn/p/windows-file-recovery/9n26s50ln705)
 * 启动器 [https://github.com/Wox-launcher/Wox](https://github.com/Wox-launcher/Wox)
 * 可视化创建符号链接的小工具 [https://github.com/imDema/FreeMove](https://github.com/imDema/FreeMove)
-* ReNamer 批量重命名 [http://www.den4b.com](http://www.den4b.com)
-* 文件搜索 [https://www.listary.com/pro](https://www.listary.com/pro)
-* 文件搜索 [Everything](https://www.voidtools.com)
-    * [https://github.com/stnkl/EverythingToolbar](https://github.com/stnkl/EverythingToolbar)
-* 文件对比 [https://www.beyondcomparepro.com](https://www.beyondcomparepro.com)
-* 文件同步 [https://freefilesync.org](https://freefilesync.org)
-* 文件资源管理器 [https://www.ghisler.com](https://www.ghisler.com)
-* [http://www.softwareok.com/?Freeware/Q-Dir](http://www.softwareok.com/?Freeware/Q-Dir)
-* [https://www.xyplorer.com](https://www.xyplorer.com)
-* [http://www.uderzo.it/main_products/space_sniffer](http://www.uderzo.it/main_products/space_sniffer)
-* [https://www.softwareok.com/?seite=Freeware/Q-Dir](https://www.softwareok.com/?seite=Freeware/Q-Dir)
 * 鼠标手势 [https://github.com/yingDev/WGestures](https://github.com/yingDev/WGestures)
 * 效率工具 [https://github.com/cuiliang/Quicker](https://github.com/cuiliang/Quicker)
 * 加强 Capslock 键 [https://github.com/wo52616111/capslock-plus](https://github.com/wo52616111/capslock-plus)
