@@ -45,7 +45,6 @@
 * [https://zmister.com](https://zmister.com)
 * [python3基础教程](https://morvanzhou.github.io/tutorials/python-basic/basic)
 * Python中的设计模式和习惯用法的集合 [https://github.com/faif/python-patterns](https://github.com/faif/python-patterns)
-* Python中文网 [https://www.cnpython.com](https://www.cnpython.com)
 * [https://hellopython.readthedocs.io](https://hellopython.readthedocs.io)
     * [https://github.com/meizhaohui/vueblog](https://github.com/meizhaohui/vueblog)
 * [https://github.com/Pierian-Data/Complete-Python-3-Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp)
@@ -145,6 +144,7 @@ with Test() as t: # 触发__exit__
     + [https://github.com/jupyterhub](https://github.com/jupyterhub)
         + [https://mybinder.org](https://mybinder.org)
         + [https://notebooks.gesis.org](https://notebooks.gesis.org)
++ [jupyter notebook中%与!的区别](https://blog.csdn.net/sinat_27889599/article/details/105509444)
 
 * [https://github.com/Kaggle](https://github.com/Kaggle)
     * [https://www.kaggle.com](https://www.kaggle.com)
@@ -314,6 +314,7 @@ vi /usr/libexec/urlgrabber-ext-down
 
 * [https://github.com/pypa/pip](https://github.com/pypa/pip)
     * [https://pypi.org](https://pypi.org)
+    * [https://www.cnpython.com/pypi](https://www.cnpython.com/pypi)
 * [https://packaging.python.org/tutorials/installing-packages](https://packaging.python.org/tutorials/installing-packages)
 * [Python包管理工作流](https://frostming.com/2018/09-14/python-packaging-flow)
 

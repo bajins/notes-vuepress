@@ -456,11 +456,12 @@ scp -P 22 -p root@192.168.214.187:/tmp/demo/f3.log /tmp/files/
 * [https://rsync.samba.org](https://rsync.samba.org)
 * [https://github.com/probonopd/zsync-curl](https://github.com/probonopd/zsync-curl)
 * [http://zsync.moria.org.uk](http://zsync.moria.org.uk)
+* [rsync 用法教程](https://www.ruanyifeng.com/blog/2020/08/rsync.html)
 
 
 ```bash
 # 把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
-rsync /home/work/source.txt work@192.168.0.10:/home/work/
+rsync -e 'ssh -p 22' /home/work/source.txt work@192.168.0.10:/home/work/
 
 # 把192.168.0.10机器上的source.txt文件拷贝到本地的/home/work目录下
 rsync work@192.168.0.10:/home/work/source.txt /home/work/

@@ -254,7 +254,7 @@ chrome://flags/#enable-parallel-downloading
 * [保存一个链接列表，以便稍后阅读：reading-list](https://github.com/alexpdraper/reading-list)
 * [二维码生成器：quick-qr-code-generator](https://chrome.google.com/webstore/detail/quick-qr-code-generator/afpbjjgbdimpioenaedcjgkaigggcdpp)
 * [二维码生成器：qr-code-generator-and-rea](https://c7sky.com/web-extension-qrcode.html)
-* [代理助手：proxy-switchyomega](https://github.com/FelisCatus/SwitchyOmega)
+* 代理助手 [https://github.com/FelisCatus/SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega)
 * [清除浏览器历史记录/缓存/Cookie：super-history-cache-clean](https://chrome.google.com/webstore/detail/super-history-cache-clean/afelaengidkffdcabnhdoeojoeoonfcn)
 * [清除浏览器历史记录/缓存/Cookie：chrome-cleaner](https://chrome.google.com/webstore/detail/chrome-cleaner/lbpddeimojmbpkbfckjpnbpehgnbpnnl)
 * [https://github.com/adam-p/markdown-here](https://github.com/adam-p/markdown-here)

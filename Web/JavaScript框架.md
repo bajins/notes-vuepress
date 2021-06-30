@@ -101,6 +101,12 @@
 * [https://github.com/didi/cube-ui](https://github.com/didi/cube-ui)
 
 
+**项目**
+
+* [https://github.com/zhontai/Admin.UI](https://github.com/zhontai/Admin.UI)
+
+
+
 ### 动态导入组件
 
 ```js
