@@ -150,6 +150,7 @@
 * [https://github.com/topjohnwu/Magisk](https://github.com/topjohnwu/Magisk)
 * [https://github.com/rovo89/Xposed](https://github.com/rovo89/Xposed)
     * [https://repo.xposed.info](https://repo.xposed.info)
+    * 非root的Xposed [https://github.com/lianglixin/SandVXposed](https://github.com/lianglixin/SandVXposed)
 * [https://github.com/ElderDrivers/EdXposed](https://github.com/ElderDrivers/EdXposed)
 * [https://github.com/mar-v-in/ArtHook](https://github.com/mar-v-in/ArtHook)
 * [https://github.com/avs333/Nougat_dlfunctions](https://github.com/avs333/Nougat_dlfunctions)
@@ -175,9 +176,13 @@
 * [https://github.com/LSPosed/LSPosed](https://github.com/LSPosed/LSPosed)
     * [https://github.com/Xposed-Modules-Repo](https://github.com/Xposed-Modules-Repo)
 * EdXp
-* LSP
+* LSP （LSPosed Manager框架）
 * Riru 框架（SandHook、YAHFA）
 * BugHook（应用转生）
+* Xpatch
+* SPatch（天鉴）
+* [https://github.com/monkeylord/XServer](https://github.com/monkeylord/XServer)
+* [https://github.com/Mocha-L/QuJing](https://github.com/Mocha-L/QuJing)
 
 
 
@@ -301,10 +306,11 @@
 
 + [http://www.sharerw.com](http://www.sharerw.com)
 + [https://htcui.com](https://htcui.com)
++ [https://fsylr.com](https://fsylr.com)
++ [https://www.vxat.com](https://www.vxat.com)
 + [https://forum.release-apk.com/viewforum.php?f=5](https://forum.release-apk.com/viewforum.php?f=5)
     + [https://forum.release-apk.com/tag/downloader](https://forum.release-apk.com/tag/downloader)
 + [https://patch.chelpus.com](https://patch.chelpus.com)
-+ [手机软件下载-智友邦原智友论坛](http://bbs.zhiyoo.net/forum.php?mod=forumdisplay&fid=42&filter=lastpost&orderby=lastpost)
 + [https://github.com/butzist/ActivityLauncher](https://github.com/butzist/ActivityLauncher)
 + [https://github.com/yoyodadada/haoruanfenxiang](https://github.com/yoyodadada/haoruanfenxiang)
 + [https://dongji.lanzoui.com/b05alr4pi](https://dongji.lanzoui.com/b05alr4pi)
@@ -330,6 +336,7 @@
 + [酷我音乐精品破解版本集合地](https://www.lanzoui.com/b05aammje)
 + [酷我音乐_for_Android](https://www.lanzoui.com/b0f1956fc)
 + [https://yaweimao.lanzoui.com/b00z96sod](https://yaweimao.lanzoui.com/b00z96sod)
++ [https://www.lanzoui.com/b720230](https://www.lanzoui.com/b720230)
 
 * [音乐下载工具⠀for⠀Windows](https://pan.lanzoui.com/b0f1c1t5e)
 * [音乐下载应用](https://pan.lanzoui.com/b0f1kkdlg)

@@ -51,6 +51,7 @@
 * [https://github.com/reworkcss](https://github.com/reworkcss)
 * [https://github.com/visionmedia](https://github.com/visionmedia)
 * CMS [https://github.com/strapi/strapi](https://github.com/strapi/strapi)
+* ORM [https://github.com/prisma/prisma](https://github.com/prisma/prisma)
 
 
 

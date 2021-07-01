@@ -98,6 +98,7 @@
     * [Prometheus监控tomcat+jvm](https://www.cnblogs.com/you-men/p/13216976.html)
 * [https://github.com/wolfpld/tracy](https://github.com/wolfpld/tracy)
 * [https://github.com/geerlingguy/internet-pi](https://github.com/geerlingguy/internet-pi)
+* [https://github.com/SigNoz/signoz](https://github.com/SigNoz/signoz)
 
 
 - [https://github.com/bigbully/Dapper-translation](https://github.com/bigbully/Dapper-translation)

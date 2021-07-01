@@ -83,7 +83,7 @@
 * [Go 编程实例 Go by Example](https://learnku.com/docs/gobyexample/2020)
 * [https://github.com/lexkong/apiserver_demos](https://github.com/lexkong/apiserver_demos)
 * 中文学习资料 [https://github.com/gwuhaolin/golang-book](https://github.com/gwuhaolin/golang-book)
-
+* 设计模式 [https://github.com/tmrts/go-patterns](https://github.com/tmrts/go-patterns)
 
 
 

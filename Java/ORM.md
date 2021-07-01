@@ -69,6 +69,8 @@
 
 - [https://github.com/alexdyysp/MybatisHandBook](https://github.com/alexdyysp/MybatisHandBook)
 
+* [干掉mapper.xml！MyBatis新特性动态SQL](https://cloud.tencent.com/developer/article/1769767)
+* [Mybatis 源码分析 (一) Mapper扫描及代理](https://cofcool.github.io/tech/2018/06/20/mybatis-sourcecode-1)
 
 
 **trim标签**

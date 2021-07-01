@@ -136,11 +136,19 @@
 + telegram 资源频道搜索 [http://www.sssoou.com](http://www.sssoou.com)
 + [Telegram群组/频道/机器人推荐](https://www.newlearner.site/2018/10/19/telegram-group/channel/bot.html)
 + [Telegram一份更完整的群组推荐，包含社群/频道/机器人](https://blog.liyuans.com/archives/telegram-recommendation.html)
++ [https://github.com/ffffffff0x/Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy)
 
-- [https://github.com/chill117/proxy-lists](https://github.com/chill117/proxy-lists)
+
+- [https://www.tg-me.com](https://www.tg-me.com)
+- [https://www.hottg.com](https://www.hottg.com)
 - [https://t.me/s/wuaipojie](https://t.me/s/wuaipojie)
 - [https://t.me/s/infosaodaye](https://t.me/s/infosaodaye)
-
+- [https://t.me/s/ssrshares](https://t.me/s/ssrshares)
+- [https://t.me/s/mtplinks](https://t.me/s/mtplinks)
+- [https://t.me/s/socks5list](https://t.me/s/socks5list)
+- [https://t.me/s/SSRSUB](https://t.me/s/SSRSUB)
+- [https://t.me/s/mtpclub](https://t.me/s/mtpclub)
+- [https://t.me/s/FQ_FREE](https://t.me/s/FQ_FREE)
 
 
 
@@ -324,6 +332,7 @@
 * [https://www.getmusicbee.com](https://www.getmusicbee.com)
 
 - [https://github.com/soimort/you-get](https://github.com/soimort/you-get)
+- [https://www.midomi.com](https://www.midomi.com)
 
 
 **Potplayer**
