@@ -8,15 +8,14 @@
 ## Flag
 
 + [https://github.com/eclipse/eclipse](https://github.com/eclipse/eclipse)
+   + [https://www.eclipse.org/ide](https://www.eclipse.org/ide)
+   + [http://www.eclipse.org/downloads/packages](http://www.eclipse.org/downloads/packages)
+   + [https://github.com/eclipse/wildwebdeveloper](https://github.com/eclipse/wildwebdeveloper)
+      + Mars之后版本不再集成支持JavaScript需要安装插件，参考[Tern Eclipse IDE](https://marketplace.eclipse.org/content/tern-eclipse-ide)
 
-* [https://www.eclipse.org/ide](https://www.eclipse.org/ide)
-* [http://www.eclipse.org/downloads/packages](http://www.eclipse.org/downloads/packages)
 * [单行注释自动靠左](https://blog.csdn.net/mp9105/article/details/93343403)
 * [Eclipse的Debug各种视图介绍](https://www.cnblogs.com/ZeGod/p/10114049.html)
-* [https://github.com/eclipse/wildwebdeveloper](https://github.com/eclipse/wildwebdeveloper)
-   * Mars之后版本不再集成支持JavaScript需要安装插件，参考[Tern Eclipse IDE](https://marketplace.eclipse.org/content/tern-eclipse-ide)
-
-- [STS(eclipse)中文注释错位、缩进、被放大BUG解决](https://blog.csdn.net/u013600314/article/details/85262257)
+* [STS(eclipse)中文注释错位、缩进、被放大BUG解决](https://blog.csdn.net/u013600314/article/details/85262257)
 
 
 - `Windows` -> `Preference` -> `General` -> `Workspace` --> `Build`
