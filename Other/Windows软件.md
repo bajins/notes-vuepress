@@ -91,6 +91,7 @@
 * [https://github.com/matrix-org](https://github.com/matrix-org)
 * [https://github.com/GetStream](https://github.com/GetStream)
 * [https://github.com/RocketChat](https://github.com/RocketChat)
+* [https://github.com/TrevorAttema/OTGMessenger](https://github.com/TrevorAttema/OTGMessenger)
 
 - [https://github.com/topics/curses](https://github.com/topics/curses)
 - [https://github.com/topics/ncurses](https://github.com/topics/ncurses)
