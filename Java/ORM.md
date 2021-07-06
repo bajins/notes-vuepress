@@ -112,6 +112,56 @@
 ```
 
 
+**Oracle 的in query list 的大小要不大于1000**
+
+```java
+List<String> taskLists = new ArrayList<>();
+taskLists.addAll(tasksToArchive);
+int times = tasksToArchive.size() % 1000 == 0 ? tasksToArchive.size() / 1000 : (tasksToArchive.size() / 1000 + 1);
+List<IAccountingTask> tasksToArchiveList = new ArrayList<IAccountingTask>();
+if (taskLists != null && !taskLists.isEmpty()) {
+    for (int i = 0; i < times; i++) {
+        List<? extends IAccountingTask> tempList;
+        if ((i + 1) * 1000 <= taskLists.size()) {
+            tempList = persistenceManager.getSession().getAll(AccountingTask.class,
+                    taskLists.subList(i * 1000, (i + 1) * 1000));
+        } else {
+            tempList = persistenceManager.getSession().getAll(AccountingTask.class,
+                    taskLists.subList(i * 1000, taskLists.size()));
+        }
+        tasksToArchiveList.addAll(tempList);
+    }
+}
+
+List<TransactRepViewModel> result = new ArrayList<TransactRepViewModel>();
+final List<List<String>> partitions = ListUtils.partition(clientIdList, 999);
+for (List<String> partition : partitions) {
+    result.addAll(yourRepo.findByClientIdList(partition, startDate, endDate);)
+}
+```
+
+
+```xml
+<foreach collection="sessionIds" item="session_id" open="(" close=")" separator="," index="index">
+    <if test="index == 0">
+      session_id in (
+    </if>
+    <!-- 多个if判断原因：
+           sql in 最大只有1000个参数。
+           foreach 只去掉了最后一个‘,’
+           数据库表中sessionId是非空设置
+    -->
+    <if test="index != 0 and index % 500 == 0">
+      '' ) or session_id in (
+    </if>
+    #{session_id}
+    <if test="index == sessionIds.size - 1">
+      )
+    </if>
+</foreach>
+```
+
+
 
 
 ## Hibernate
@@ -185,7 +235,7 @@ List<String> status = Arrays.asList(InvestConstants.InvestStatus.REPAYING,Invest
 DetachedCriteria criteria = DetachedCriteria.forClass(InvestExtensionPlan.class);
 criteria.createAlias("invest", "i");// 当查询关联第三张表时，第二张表需要取别名
 criteria.add(Restrictions.eq("i.loan.id", loanExtensionPlan.getLoan().getId()));
-criteria.add(Restrictions.in("status", status));
+criteria.add(Restrictions.in("status", status)); // 可解决ORACLE in 大于1000问题
 criteria.addOrder(Order.desc("period"));// 添加排序
 
 // 查询一范围内的的数据,需借助Criteria来查询
@@ -193,6 +243,21 @@ Criteria cri = criteria.getExecutableCriteria(ht.getSessionFactory().getCurrentS
 cri.setFirstResult(firstResult);// 从第几条开始
 cri.setMaxResults(maxResults);// 查询多少条
 List<InvestExtensionPlan> investExtensionPlans = ht.findByCriteria(criteria);
+
+
+// 可解决ORACLE in 大于1000问题
+private void addCriteriaIn(String propertyName, List<?> list, Criteria criteria) {
+    Disjunction or = Restrictions.disjunction();
+    if (list.size() > 1000) {
+        while (list.size() > 1000) {
+            List<?> subList = list.subList(0, 1000);
+            or.add(Restrictions.in(propertyName, subList));
+            list.subList(0, 1000).clear();
+        }
+    }
+    or.add(Restrictions.in(propertyName, list));
+    criteria.add(or);
+}
 ```
 
 > 模糊查询和自定义查询
@@ -272,7 +337,7 @@ try {
 
 ### 关闭session
 
-```
+```java
 if (session != null) {
 	session.flush();
 	session.clear();

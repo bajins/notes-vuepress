@@ -59,7 +59,41 @@
 
 
 
-### 依赖注入的三种方式
+**事务**
+
+* [Spring事务嵌套导致的异常,Transaction rolled back because it has been marked as rollback-only](https://blog.csdn.net/qq_42216791/article/details/105684663)
+* [Spring事务嵌套引发的血案---Transaction rolled back because it has been marked as rollback-only](https://blog.csdn.net/f641385712/article/details/80445912)
+* [Spring事务方法嵌套引发的异常与问题分析](https://zhuanlan.zhihu.com/p/69215235)
+* [Spring事务管理嵌套事务详解 : 同一个类中，一个方法调用另外一个有事务的方法](https://blog.csdn.net/levae1024/article/details/82998386)
+* [Spring 事务嵌套无效](https://blog.csdn.net/m0_37701381/article/details/85066711)
+* [spring嵌套事务问题](https://blog.csdn.net/qq_32300143/article/details/116162515)
+
+```java
+// 手动回滚事务
+TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
+
+// 手动管理事务
+@Autowired
+private DataSourceTransactionManager transactionManager;
+/*@Autowired
+TransactionDefinition transactionDefinition;*/
+
+ // 设置事务隔离级别，开启新事务
+DefaultTransactionDefinition def = new DefaultTransactionDefinition(TransactionDefinition.PROPAGATION_REQUIRES_NEW);
+//def.setPropagationBehavior(TransactionDefinition.PROPAGATION_REQUIRES_NEW);
+// 获得事务状态
+TransactionStatus status = transactionManager.getTransaction(def);
+try {
+    transactionManager.commit(status); // 提交
+} catch (Exception e) {
+    transactionManager.rollback(status); // 回滚数据库
+}
+```
+
+
+
+
+## 依赖注入的三种方式
 
 - @Autowired
     - Field （属性变量）[Field injection is not recommended（不再推荐使用字段注入）](https://zhuanlan.zhihu.com/p/92395282)
@@ -74,7 +108,6 @@
 * [Field injection is not recommended](https://www.jianshu.com/p/7f20176f2a40)
 * [@Autowired警告：Field injection is not recommended](https://www.jianshu.com/p/36db3e167958)
 * [使用@Autowired注解警告Field injection is not recommended](https://blog.csdn.net/zhangjingao/article/details/81094529)
-
 
 
 

@@ -292,7 +292,8 @@ SELECT A.* FROM SPEC_RATE_ORIGIN A INNER JOIN (
     ) B ON A.COMPANY_NAME = B.COMPANY_NAME AND A.CREATE_TIME = B."atime";
 ```
 
-**一次插入多条数据**
+
+**一次执行多条SQL**
 
 ```sql
 INSERT ALL
@@ -301,6 +302,21 @@ INSERT ALL
  INTO a表(字段) VALUES(其它值3)
 SELECT 1 FROM DUAL;
 ```
+
+- 使用`begin…end;`
+
+* [如何在Oracle中一次执行多条sql语句](https://www.cnblogs.com/teamleader/archive/2007/05/31/765943.html)
+
+```sql
+begin
+insert into table_name (列名,列名) values (express,express);
+insert into table_name (列名,列名) values (express,express);
+insert into table_name (列名,列名) values (express,express);
+insert into table_name (列名,列名) values (express,express);
+end;
+```
+
+
 
 **插入或更新 upsert**
 

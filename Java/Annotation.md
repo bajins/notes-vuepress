@@ -274,10 +274,6 @@
 
 ## Spring
 
-```java
-// 手动回滚事务
-TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
-```
 
 ### 声明bean的注解
 

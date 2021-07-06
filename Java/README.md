@@ -104,6 +104,7 @@
 * [https://github.com/qinxuewu/docs](https://github.com/qinxuewu/docs)
 * [https://github.com/scalad/Note](https://github.com/scalad/Note)
 * [https://github.com/fuzhengwei/CodeGuide](https://github.com/fuzhengwei/CodeGuide)
+* 设计模式 [https://github.com/fuzhengwei/itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design)
 * [https://github.com/stalary/Source-code-analysis](https://github.com/stalary/Source-code-analysis)
 * [https://github.com/nibnait/algorithms](https://github.com/nibnait/algorithms)
 * [https://github.com/Childe-Mu/java_notes](https://github.com/Childe-Mu/java_notes)
