@@ -361,7 +361,7 @@
 
 ## 图片
 
-* [Google开发的图片压缩工具](https://github.com/GoogleChromeLabs/squoosh)
+* 图片压缩工具 [https://github.com/GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh)
 * [https://github.com/netnr/squoosh](https://github.com/netnr/squoosh)
 * 一个用于快速上传图片并获取图片URL链接的工具 [https://github.com/Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo)
 * [https://www.polaxiong.com](https://www.polaxiong.com)

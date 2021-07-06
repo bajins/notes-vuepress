@@ -307,6 +307,15 @@ request({
     * [https://github.com/lxp135/NW.jsCnDocs](https://github.com/lxp135/NW.jsCnDocs)
 * [https://github.com/Kagami/mpv.js](https://github.com/Kagami/mpv.js)
 * [https://github.com/apache/cordova](https://github.com/apache/cordova)
+    * [https://github.com/apache/cordova-docs](https://github.com/apache/cordova-docs)
+        * [https://cordova.axuer.com](https://cordova.axuer.com)
+    * [https://github.com/apache/cordova-lib](https://github.com/apache/cordova-lib)
+    * [https://github.com/apache/cordova-cli](https://github.com/apache/cordova-cli)
+    * [https://github.com/apache/cordova-create](https://github.com/apache/cordova-create)
+    * [https://github.com/apache/cordova-serve](https://github.com/apache/cordova-serve)
+    * [https://github.com/apache/cordova-js](https://github.com/apache/cordova-js)
+    * [https://github.com/apache/cordova-android](https://github.com/apache/cordova-android)
+    * [https://github.com/apache/cordova-ios](https://github.com/apache/cordova-ios)
 * 将 Node.js 项目打包到可执行文件中 [https://github.com/vercel/pkg](https://github.com/vercel/pkg)
 * [https://github.com/facebook/react-native](https://github.com/facebook/react-native)
     * [https://github.com/reactnativecn](https://github.com/reactnativecn)
@@ -314,6 +323,7 @@ request({
     * [https://github.com/necolas/react-native-web](https://github.com/necolas/react-native-web)
     * [https://github.com/microsoft/react-native-windows](https://github.com/microsoft/react-native-windows)
     * [https://snack.expo.io](https://snack.expo.io)
+* 创建桌面应用 [https://github.com/nativefier/nativefier](https://github.com/nativefier/nativefier)
 
 - [https://github.com/revery-ui/revery](https://github.com/revery-ui/revery)
 

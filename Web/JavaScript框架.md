@@ -30,7 +30,7 @@
 * [https://github.com/baidu/amis](https://github.com/baidu/amis)
 * [https://github.com/alienzhou/web-highlighter](https://github.com/alienzhou/web-highlighter)
 * 单页网站 [https://github.com/alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js)
-* [https://github.com/ionic-team](https://github.com/ionic-team)
+* 跨平台 [https://github.com/ionic-team](https://github.com/ionic-team)
 * [http://www.jeasyui.com](http://www.jeasyui.com)
 * 响应式框架 [https://github.com/foundation](https://github.com/foundation)
 * [https://github.com/jorgebucaran/hyperapp](https://github.com/jorgebucaran/hyperapp)
