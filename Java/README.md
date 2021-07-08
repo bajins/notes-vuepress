@@ -14,6 +14,7 @@
 > 这些提案会在合适的时间合适的地点被加入JDK的特定版本。
 
 + [https://docs.oracle.com](https://docs.oracle.com)
+    + [https://docs.oracle.com/javase/8/index.html](https://docs.oracle.com/javase/8/index.html)
     + [https://docs.oracle.com/javase/8/docs](https://docs.oracle.com/javase/8/docs)
     + [https://docs.oracle.com/javase/7/docs](https://docs.oracle.com/javase/7/docs)
     + [JavaBeans 规范](https://www.oracle.com/java/technologies/javase/javabeans-spec.html)
@@ -66,6 +67,7 @@
 
 - [技术集合归档](https://blog.52itstyle.vip/architecture.html)
 - Java 全栈知识体系 [https://www.pdai.tech](https://www.pdai.tech)
+- [http://tutorials.jenkov.com](http://tutorials.jenkov.com)
 
 + [https://github.com/Snailclimb/awesome-java](https://github.com/Snailclimb/awesome-java)
 
@@ -589,11 +591,24 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 + [https://github.com/topics/javafx](https://github.com/topics/javafx)
 + [https://github.com/topics/openjfx](https://github.com/topics/openjfx)
 + [https://github.com/topics/javafx-desktop-apps](https://github.com/topics/javafx-desktop-apps)
+
+
 + [https://github.com/openjdk/jfx](https://github.com/openjdk/jfx)
+    * [https://docs.oracle.com/javase/8/javafx/user-interface-tutorial](https://docs.oracle.com/javase/8/javafx/user-interface-tutorial)
 + [https://github.com/javafxports/openjdk-jfx](https://github.com/javafxports/openjdk-jfx)
 + [https://github.com/openjdk/jfx11](https://github.com/openjdk/jfx11)
 + [https://github.com/openjfx](https://github.com/openjfx)
     + [https://openjfx.io](https://openjfx.io)
+    + [https://openjfx.cn](https://openjfx.cn)
++ [https://code.makery.ch/zh-cn/library/javafx-tutorial](https://code.makery.ch/zh-cn/library/javafx-tutorial)
++ [https://segmentfault.com/t/javafx](https://segmentfault.com/t/javafx)
++ [https://gluonhq.com/products/javafx](https://gluonhq.com/products/javafx)
++ SceneBuilder [https://gluonhq.com/products/scene-builder](https://gluonhq.com/products/scene-builder)
+    + [SceneBuilder例子](https://gluonhq.com/developers/samples)
+
+
+
+**第三方依赖**
 
 - [https://github.com/topics/fontawesomefx](https://github.com/topics/fontawesomefx)
     - [https://bitbucket.org/Jerady/fontawesomefx](https://bitbucket.org/Jerady/fontawesomefx)
@@ -610,19 +625,28 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 - 进度条 [https://github.com/ctongfei/progressbar](https://github.com/ctongfei/progressbar)
 - 3D [https://github.com/JogAmp](https://github.com/JogAmp)
 - 跨平台访问本机API [https://github.com/LWJGL](https://github.com/LWJGL)
+- 嵌入chrome内核浏览器 [https://jxbrowser-support.teamdev.com](https://jxbrowser-support.teamdev.com)
 - JavaFX的游戏超集 [https://github.com/AlmasB/FXGL](https://github.com/AlmasB/FXGL)
+- Bootstrap样式 [https://github.com/dicolar/jbootx](https://github.com/dicolar/jbootx)
 
+
+
+**Other**
 
 * [https://github.com/864381832/xJavaFxTool](https://github.com/864381832/xJavaFxTool)
 * [JavaFX最新消息](http://fxexperience.com)
 * [使用Java 9的模块化来构建零依赖的原生应用](https://www.tuicool.com/articles/eiu2EnR)
 * [JavaFX、OSGi、Eclipse开源资料](http://www.javafxchina.net/main)
-* [SceneBuilder](http://gluonhq.com/products/scene-builder)
-* [SceneBuilder例子](http://gluonhq.com/developers/samples)
 * [JavaFx+Springboot+Maven 开发打包教程](https://segmentfault.com/a/1190000014037443)
 * [JavaFX 实现截图](http://www.private-blog.com/2018/01/29/javafx-%E5%AE%9E%E7%8E%B0webview%E6%88%AA%E5%9B%BE)
-* Java多线程下载GUI [https://github.com/fengxiaocan/Downloader](https://github.com/fengxiaocan/Downloader)
 * [https://github.com/proxyee-down-org/proxyee-down](https://github.com/proxyee-down-org/proxyee-down)
 * [IDEA通过Maven打包JavaFX工程（OpenJFX11）](https://www.cnblogs.com/6b7b5fc3/p/12990161.html)
 * [创建JavaFX项目并用Maven打包](https://www.cnblogs.com/zjwno1/p/13272380.html)
+
+
+**示例项目**
+
+* Java多线程下载GUI [https://github.com/fengxiaocan/Downloader](https://github.com/fengxiaocan/Downloader)
 * 基于javafx8代码生成器 [https://github.com/EliMirren](https://github.com/EliMirren)
+* [https://github.com/fuzhengwei/NaiveChat](https://github.com/fuzhengwei/NaiveChat)
+* 连接打印机 [https://gitee.com/qnloft/thb_client](https://gitee.com/qnloft/thb_client)

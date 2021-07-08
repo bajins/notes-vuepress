@@ -20,6 +20,20 @@
 - [https://github.com/topics/classloader](https://github.com/topics/classloader)
 
 * [https://jar-download.com](https://jar-download.com)
+* 可执行文件打包 [https://github.com/izpack/izpack](https://github.com/izpack/izpack)
+    * [https://sourceforge.net/projects/packjacket](https://sourceforge.net/projects/packjacket)
+* [https://sourceforge.net/projects/launch4j](https://sourceforge.net/projects/launch4j)
+* [https://github.com/poidasmith/winrun4j](https://github.com/poidasmith/winrun4j)
+* [https://sourceforge.net/projects/vainstall](https://sourceforge.net/projects/vainstall)
+* [https://github.com/BrunoReX/jsmooth](https://github.com/BrunoReX/jsmooth)
+* [https://sourceforge.net/projects/packlet](https://sourceforge.net/projects/packlet)
+* [https://sourceforge.net/projects/jpackit](https://sourceforge.net/projects/jpackit)
+* [https://sourceforge.net/projects/one-jar](https://sourceforge.net/projects/one-jar)
+* [https://sourceforge.net/projects/autojar](https://sourceforge.net/projects/autojar)
+* [https://sourceforge.net/projects/mjar](https://sourceforge.net/projects/mjar)
+* [把Java应用程序安装成一个Windows NT服务或Unix Daemon](https://wrapper.tanukisoftware.com/doc/english/download.jsp)
+
+
 
 
 **持续集成**

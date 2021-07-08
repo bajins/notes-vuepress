@@ -32,6 +32,9 @@
 * 内存分析 [https://projects.eclipse.org/projects/tools.mat](https://projects.eclipse.org/projects/tools.mat)
    * [https://github.com/vlsi/mat-calcite-plugin](https://github.com/vlsi/mat-calcite-plugin)
 
+- [抛开IDE，了解一下javac如何编译](https://imshuai.com/using-javac)
+- [使用javac编译工程](https://www.cnblogs.com/ZiYangZhou/p/8536828.html)
+
 
 
 **其他命令**
@@ -56,6 +59,8 @@ jstack PID | grep -A 10 $(printf "%x\n" PID)
 jmap -dump:live,format=b,file=/tmp/heapdump.hprof PID
 /usr/lib/jvm/jdk-YOUR-VERSION/bin/jcmd PID GC.heap_dump /tmp/heapdump.hprof
 ```
+
+
 
 
 ## 反编译工具

@@ -68,7 +68,10 @@
 * [Spring 事务嵌套无效](https://blog.csdn.net/m0_37701381/article/details/85066711)
 * [spring嵌套事务问题](https://blog.csdn.net/qq_32300143/article/details/116162515)
 
+
 ```java
+// REQUIRES_NEW 与 NESTED 前者是内层异常影响外层，外层不影响内层；后者正好相反，内层加try catch后 异常不影响外层，外层会影响内层
+@Transactional(rollbackFor = Exception.class, propagation = Propagation.REQUIRES_NEW)
 // 手动回滚事务
 TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
 

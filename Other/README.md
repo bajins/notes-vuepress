@@ -16,6 +16,10 @@
 
 
 * [https://github.com/search?q=learning](https://github.com/search?q=learning)
+* 英语词汇 [http://testyourvocab.com](http://testyourvocab.com)
+* [https://testyourculture.com](https://testyourculture.com)
+* [https://liuxue.ef.com.cn/epi](https://liuxue.ef.com.cn/epi)
+* [https://freerice.com/categories/english-vocabulary](https://freerice.com/categories/english-vocabulary)
 
 - [https://mianbaoduo.com/o/lab](https://mianbaoduo.com/o/lab)
     - 赞赏 [https://dun.mianbaoduo.com](https://dun.mianbaoduo.com)
