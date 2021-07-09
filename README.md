@@ -78,6 +78,8 @@ actionLink: /#命令
 
 ## 命令
 
+[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/bajins/notes-vuepress)
+
 ``` bash
 # 先克隆本仓库
 git clone https://github.com/woytu/notes-vuepress.git
