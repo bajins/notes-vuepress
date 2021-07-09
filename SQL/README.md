@@ -35,7 +35,7 @@
 * [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 * [https://github.com/etcd-io/bbolt](https://github.com/etcd-io/bbolt)
 * [https://github.com/jnwatson/py-lmdb](https://github.com/jnwatson/py-lmdb)
-* [https://github.com/google/leveldb](https://github.com/google/leveldb)
+* K/V数据库 [https://github.com/google/leveldb](https://github.com/google/leveldb)
 * [https://github.com/couchbase/moss](https://github.com/couchbase/moss)
 * [https://github.com/memcached/memcached](https://github.com/memcached/memcached)
 * [https://github.com/sirixdb](https://github.com/sirixdb)

@@ -113,7 +113,7 @@ chrome://flags/#enable-parallel-downloading
 
 **Source中的JS无法实时修改**
 
-> 很有可能是开启了`Pretty Print`（JS编辑框左下角的`{}`）导致
+> 很有可能是开启了`Pretty Print`（JS编辑框左下角的`{}`）导致，最新版本会把美化的代码开启新的窗口
 
 - 新版本， 点击最右侧⚙️(Settings) -> Perference -> Restore defaults and reload （重置设置）
 - 老版本， ┇ -> More tools -> Settings -> Perference -> Restore defaults and reload

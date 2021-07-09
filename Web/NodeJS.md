@@ -220,6 +220,27 @@ npm install
 
 
 
+### 正式发布包
+
+> 不要使用其他npm源，如：taobao
+
+```bash
+# 先去https://www.npmjs.com注册个账号，然后在命令行使用
+# 根据提示输入用户名密码即可
+npm adduser
+# 发布
+npm publish
+
+# 升级补丁版本号
+npm version patch
+# 升级小版本号
+npm version minor
+# 升级大版本号
+npm version major
+```
+
+
+
 
 ## 解析
 

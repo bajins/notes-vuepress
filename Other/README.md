@@ -121,7 +121,6 @@
 + [https://github.com/Exiv2/exiv2](https://github.com/Exiv2/exiv2)
 + [https://github.com/madler/zlib](https://github.com/madler/zlib)
 + [https://github.com/zeux/pugixml](https://github.com/zeux/pugixml)
-+ [https://github.com/google/leveldb](https://github.com/google/leveldb)
 + [https://github.com/jmpews/Dobby](https://github.com/jmpews/Dobby)
 + 分析调试测试器 [https://github.com/dfeneyrou/palanteer](https://github.com/dfeneyrou/palanteer)
 + [https://github.com/ossrs/srs](https://github.com/ossrs/srs)

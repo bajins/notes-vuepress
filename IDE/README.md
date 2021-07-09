@@ -96,7 +96,7 @@
 * [https://github.com/eclipse/orion.client](https://github.com/eclipse/orion.client)
 * [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
     * `https://gitpod.io/#https://github.com/账户名/仓库名`
-    * [![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/woytu/notes-vuepress)
+    * [![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/bajins/notes-vuepress)
 * [https://github.com/features/codespaces](https://github.com/features/codespaces)
 * [https://github.com/ekzhang/rustpad](https://github.com/ekzhang/rustpad)
 
