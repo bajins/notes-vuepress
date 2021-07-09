@@ -105,6 +105,8 @@
     * [https://www.docs4dev.com](https://www.docs4dev.com)
 * 视频讲座 [https://github.com/Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses)
 * 成为Web开发人员的路线图 [https://github.com/kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
+* [https://github.com/SmartKeyerror/Psyduck](https://github.com/SmartKeyerror/Psyduck)
+* 面试题 [https://github.com/0voice/campus_recruitmen_questions](https://github.com/0voice/campus_recruitmen_questions)
 
 - [https://github.com/hoochanlon](https://github.com/hoochanlon)
 - [https://github.com/easychen](https://github.com/easychen)

@@ -705,6 +705,9 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/fmeringdal/nettu-meet](https://github.com/fmeringdal/nettu-meet)
 
 
+- ScreenWings 反截屏
+
+
 
 ## 文件管理
 

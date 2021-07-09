@@ -15,6 +15,11 @@
 
 * REST API抽象  [https://github.com/appwrite](https://github.com/appwrite)
 
+- [https://github.com/material-components](https://github.com/material-components)
+  - [https://md.maxoxo.design](https://md.maxoxo.design)
+
+
+
 
 **[原生桌面应用](/Web/NodeJS.md#原生桌面应用)**
 
@@ -91,6 +96,20 @@
 * 使用SQLite [https://github.com/guolindev/LitePal](https://github.com/guolindev/LitePal)
 * 反射 [https://github.com/tiann/FreeReflection](https://github.com/tiann/FreeReflection)
 * [https://github.com/Dsiner/UIUtil](https://github.com/Dsiner/UIUtil)
+* [https://github.com/jonfinerty/Once](https://github.com/jonfinerty/Once)
+* 打包 [https://github.com/Meituan-Dianping/walle](https://github.com/Meituan-Dianping/walle)
+* 媒体管理 [https://github.com/bumptech/glide](https://github.com/bumptech/glide)
+* [https://github.com/yanzhenjie/SwipeRecyclerView](https://github.com/yanzhenjie/SwipeRecyclerView)
+* 停止应用程序 [https://github.com/XYScience/StopApp](https://github.com/XYScience/StopApp)
+* 版本检测升级 [https://github.com/AlexLiuSheng/CheckVersionLib](https://github.com/AlexLiuSheng/CheckVersionLib)
+* 关于页面 [https://github.com/medyo/android-about-page](https://github.com/medyo/android-about-page)
+* [https://github.com/MegatronKing/StringFog](https://github.com/MegatronKing/StringFog)
+* zip压缩 [https://github.com/zeroturnaround/zt-zip](https://github.com/zeroturnaround/zt-zip)
+* 对话框 [https://github.com/afollestad/material-dialogs](https://github.com/afollestad/material-dialogs)
+* 许可证对话框 [https://github.com/PSDev/LicensesDialog](https://github.com/PSDev/LicensesDialog)
+* JQuery [https://github.com/jdeferred/jdeferred](https://github.com/jdeferred/jdeferred)
+
+
 
 
 + [归档 | Homurax's Blog](https://blog.homurax.com/archives)
@@ -139,6 +158,7 @@
 * [https://github.com/georgehuan1994/DingDing-Automatic-Clock-in](https://github.com/georgehuan1994/DingDing-Automatic-Clock-in)
 * 蚂蚁森林能量 [https://github.com/SuperMonster003/Ant-Forest](https://github.com/SuperMonster003/Ant-Forest)
 * [https://github.com/kwu130/Alipay](https://github.com/kwu130/Alipay)
+* 钉钉打卡 [https://github.com/rxrw/autojs-dingtalk](https://github.com/rxrw/autojs-dingtalk)
 
 
 
@@ -163,9 +183,11 @@
 * [https://github.com/2-young-2-simple/VirtualApp](https://github.com/2-young-2-simple/VirtualApp)
 * [https://github.com/didi/VirtualAPK](https://github.com/didi/VirtualAPK)
 * [https://github.com/ganyao114/SandVXposed](https://github.com/ganyao114/SandVXposed)
+* [https://github.com/android-hacker/VirtualXposed](https://github.com/android-hacker/VirtualXposed)
 * 太极 [https://github.com/tiann/epic](https://github.com/tiann/epic)
     * [http://weishu.me/archives](http://weishu.me/archives)
-* [https://github.com/android-hacker/VirtualXposed](https://github.com/android-hacker/VirtualXposed)
+    * 钉钉模块 [https://github.com/anysoft/xposed-rimet](https://github.com/anysoft/xposed-rimet)
+    * [https://github.com/sky-wei/xposed-rimet](https://github.com/sky-wei/xposed-rimet)
 * [https://github.com/taichi-framework/TaiChi](https://github.com/taichi-framework/TaiChi)
     * [https://taichi.cool](https://taichi.cool)
     * [https://github.com/Magisk-Modules-Repo](https://github.com/Magisk-Modules-Repo)
@@ -193,7 +215,6 @@
 * [https://github.com/iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool)
     * [https://github.com/TheCjw/scoop-retools](https://github.com/TheCjw/scoop-retools)
 * [https://github.com/venshine/decompile-apk](https://github.com/venshine/decompile-apk)
-* smali/baksmali [https://github.com/JesusFreke/smali](https://github.com/JesusFreke/smali)
 * 解析和打印Android Manifest文件 [https://github.com/rednaga/axmlprinter](https://github.com/rednaga/axmlprinter)
 * [https://github.com/google/android-classyshark](https://github.com/google/android-classyshark)
 * 反混淆 [https://github.com/CalebFenton/simplify](https://github.com/CalebFenton/simplify)

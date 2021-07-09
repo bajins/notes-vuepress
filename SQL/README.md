@@ -370,7 +370,7 @@ ON CONFLICT target action;
 * [SQLite 教程](https://www.runoob.com/sqlite/sqlite-tutorial.html)
 * [SQLite3 数据类型与亲和类型](https://blog.csdn.net/feiyihexin/article/details/99728504)
 
-- 加密 [https://github.com/sqlcipher/sqlcipher](https://github.com/sqlcipher/sqlcipher)
+- 加密SQLite [https://github.com/sqlcipher](https://github.com/sqlcipher)
 - [https://github.com/utelle/wxsqlite3](https://github.com/utelle/wxsqlite3)
 - 分布式关系数据库 [https://github.com/rqlite/rqlite](https://github.com/rqlite/rqlite)
 

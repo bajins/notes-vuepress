@@ -14,6 +14,7 @@
 * HTML系列教程 [https://www.w3school.com.cn/h.asp](https://www.w3school.com.cn/h.asp)
 * [http://css.doyoe.com/](http://css.doyoe.com)
 * CSS/CSS3 中文参考文档手册 [http://css.cuishifeng.cn](http://css.cuishifeng.cn)
+* [https://github.com/adamschwartz/magic-of-css](https://github.com/adamschwartz/magic-of-css)
 
 - [https://github.com/sass](https://github.com/sass)
     - Sass教程 Sass中文文档: [https://www.sass.hk/docs](https://www.sass.hk/docs)

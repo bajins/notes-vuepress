@@ -95,6 +95,8 @@ taskkill /f /im chromedriver.exe
 - [https://github.com/yangtingxiao/QuantumultX](https://github.com/yangtingxiao/QuantumultX)
 - [https://github.com/chavyleung/scripts](https://github.com/chavyleung/scripts)
 - [https://github.com/inoyna11/jd28](https://github.com/inoyna11/jd28)
+- [https://github.com/Tsukasa007/my_script](https://github.com/Tsukasa007/my_script)
+- [https://github.com/zero205/JD_tencent_scf](https://github.com/zero205/JD_tencent_scf)
 
 
 **联通**

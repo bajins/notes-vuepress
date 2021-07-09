@@ -23,6 +23,9 @@
    - `Build automatically`（同`Project`菜单下的按钮） 自动编译
 
 
+> 创建`Dynamic Web Project`项目结构静态资源目录为：`WebContent`/`WebRoot`，idea创建的为`web`
+
+
 **快捷生成调用实例set方法**
 
 1. 进入实例类，打开`Type Hierarchy`视图并在视图中选中所有set方法复制，快捷键<kbd>F4</kbd>
