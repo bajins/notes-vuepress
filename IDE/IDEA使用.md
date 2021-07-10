@@ -8,11 +8,11 @@
 
 + [https://github.com/JetBrains](https://github.com/JetBrains)
      + [https://www.jetbrains.com/products.html#type=ide](https://www.jetbrains.com/products.html#type=ide)
-+ [https://github.com/judasn/IntelliJ-IDEA-Tutorial](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
++ 简体中文专题教程 [https://github.com/judasn/IntelliJ-IDEA-Tutorial](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
 
 - [教育邮箱免费申请JetBrains教育许可证](https://mp.weixin.qq.com/s/XFoOBeTaBwBAsRgadxMLfQ)
 - [JetBrains全系列软件激活教程激活码以及JetBrains系列软件汉化包](https://www.fuocu.cn/archives/jetbrains-crack)
-- [JetBrains 系列软件汉化包](https://github.com/pingfangx/TranslatorX)
+- [JetBrains 2019.3系列软件汉化包](https://github.com/pingfangx/TranslatorX)
 
 * [IntelliJ IDEA神器使用技巧](https://www.imooc.com/learn/924)
 * [IDEA的基本使用：让你的IDEA有飞一般的感觉](https://blog.csdn.net/fly910905/article/details/77868300)

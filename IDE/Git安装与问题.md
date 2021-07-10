@@ -22,7 +22,8 @@
 * [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
     * [https://gitlab.com/tortoisegit/tortoisegit](https://gitlab.com/tortoisegit/tortoisegit)
     * [https://tortoisegit.org/download](https://tortoisegit.org/download)
-
+* SmartGit 是一款优秀的图形化Git仓库管理工具；
+* SmartSVN 是一款优秀的图形化SVN仓库管理工具
 
 - Java实现 [https://github.com/eclipse/jgit](https://github.com/eclipse/jgit)
     - [https://github.com/centic9/jgit-cookbook](https://github.com/centic9/jgit-cookbook)

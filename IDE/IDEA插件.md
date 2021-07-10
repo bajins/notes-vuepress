@@ -36,6 +36,7 @@
 * [https://github.com/gejun123456/MyBatisCodeHelper-Pro](https://github.com/gejun123456/MyBatisCodeHelper-Pro)
 * [MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
 * [https://zhile.io/categories/software-debug](https://zhile.io/categories/software-debug)
+    * [Jetbrains系列产品重置试用方法](https://zhile.io/2020/11/18/jetbrains-eval-reset-da33a93d.html)
 
 ![](https://upload-images.jianshu.io/upload_images/11962894-7690faea398dd0c6.gif)
 

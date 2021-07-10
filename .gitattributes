@@ -4,6 +4,7 @@
 # Enable syntax highlighting for files with `.gitattributes` extensions.
 *.gitattributes linguist-language=gitattributes
 # Auto detect text files and perform LF normalization
+*.cmd text linguist-language=batch working-tree-encoding=GB2312 eol=crlf
 *.bat text linguist-language=batch working-tree-encoding=GB2312 eol=crlf
 *.psl text linguist-language=PowerShell working-tree-encoding=GB2312 eol=crlf
 *.vbs text linguist-language=Visual-Basic-Script working-tree-encoding=GB2312 eol=crlf
