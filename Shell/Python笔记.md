@@ -13,6 +13,7 @@
 * [python中ConfigParse模块的用法](https://blog.csdn.net/qq_36119192/article/details/107586877)
 * [Python利用ConfigParser读取配置文件](https://www.cnblogs.com/sui776265233/p/13299490.html)
 
+- [python队列的使用及总结](https://blog.csdn.net/h18208975507/article/details/108275293)
 
 1. 列表和元组相比，可直接调用的函数更多也可以进行更改，但是元组一经定义就无法更改，所以首推列表。
 2. 在python中是没有数组类型的，如果非要使用数组，可以用`numpy`库实现对数组的定义
