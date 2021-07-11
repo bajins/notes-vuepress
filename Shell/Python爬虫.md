@@ -77,6 +77,7 @@ taskkill /f /im chromedriver.exe
 * [https://github.com/BlueSkyClouds/My-Actions](https://github.com/BlueSkyClouds/My-Actions)
 * [https://github.com/mengshouer/CheckinBox](https://github.com/mengshouer/CheckinBox)
 * [https://github.com/leecobaby/shortcuts](https://github.com/leecobaby/shortcuts)
+* [https://github.com/Wenmoux/checkbox](https://github.com/Wenmoux/checkbox)
 
 
 **京东**
