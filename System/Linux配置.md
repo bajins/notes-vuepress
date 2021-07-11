@@ -177,6 +177,8 @@ vi /root/.bashrc
 
 ### ssh欢迎信息
 
+* [https://github.com/taills/sysinfo](https://github.com/taills/sysinfo)
+
 > 输入<kbd>shift</kbd> + <kbd>g</kbd>（就是大写的`G`）跳转到末尾添加以下内容
 
 ```bash

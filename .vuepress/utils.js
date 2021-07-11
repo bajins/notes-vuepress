@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const {exec} = require('child_process');
+const { exec } = require('child_process');
 
 /**
  * 执行命令
@@ -11,7 +11,7 @@ const {exec} = require('child_process');
 function execute(command, dir) {
     // exec函数第一个参数是要执行的命令，第二个函数是配置选项，第三个参数是回调函数，
     // 第二个参数中一个比较常用的就是子进程的工作目录
-    exec(command, {cwd: dir}, (err, stdout, stderr) => {
+    exec(command, { cwd: dir }, (err, stdout, stderr) => {
         if (err) {
             console.log(err);
             return;
@@ -154,11 +154,11 @@ function getSidebar(dirPath, filesList, targetObj = {}) {
         if (fs.statSync(childrenPath).isDirectory()) {
             let item;
             if (targetObj["children"]) {
-                item = {title: file, children: [], parent: dirPath.cuttingPathWith()};
+                item = { title: file, children: [], parent: dirPath.cuttingPathWith() };
                 // 把更深层的子文件夹装入上级子文件夹数组中
                 targetObj["children"].push(item);
             } else {
-                item = {title: file, children: []};
+                item = { title: file, children: [] };
                 // 装入构造同级文件夹下的子文件夹对象
                 filesList.push(item);
             }
@@ -201,7 +201,7 @@ function getNavigationMenu(rootPath) {
         let realpath = path.join(rootPath, file);
         // 判断是否为文件夹
         if (fs.lstatSync(realpath).isDirectory()) {
-            nav.push({text: file, link: `/${file}/`});
+            nav.push({ text: file, link: `/${file}/` });
         }
     });
     return nav;
@@ -219,20 +219,23 @@ function setStaticFile(rootPath, fileStr) {
     let files = fs.readdirSync(rootPath).sort();
     // 遍历获取到的文件夹内容
     files.forEach(function (file, index, array) {
-        // 获取规范的绝对路径
-        // let realpath = fs.realpathSync(rootPath + "/" + value);
-        // 拼接为绝对路径
-        // let realpath = path.resolve(rootPath, file)
-        // 获取相对路径
-        let realpath = path.join(rootPath, file);
-        // 拼接为相对路径
-        // let realpath = path.join(rootPath, file)
-        // 判断是否为文件夹
-        if (fs.lstatSync(realpath).isDirectory()) {
-            setStaticFile(realpath, fileStr);
-        } else {
-            realpath = realpath.substring(realpath.indexOf("files"));
-            fileStr = `${fileStr}\r\n[${file}](/${realpath.replaceAll("\\\\", "/")})\r\n`;
+        let reg = new RegExp(".gitattributes|LICENSE|README.md|.git", ig);
+        if (!reg.test(file)) {
+            // 获取规范的绝对路径
+            // let realpath = fs.realpathSync(rootPath + "/" + value);
+            // 拼接为绝对路径
+            // let realpath = path.resolve(rootPath, file)
+            // 获取相对路径
+            let realpath = path.join(rootPath, file);
+            // 拼接为相对路径
+            // let realpath = path.join(rootPath, file)
+            // 判断是否为文件夹
+            if (fs.lstatSync(realpath).isDirectory()) {
+                setStaticFile(realpath, fileStr);
+            } else {
+                realpath = realpath.substring(realpath.indexOf("files"));
+                fileStr = `${fileStr}\r\n[${file}](/${realpath.replaceAll("\\\\", "/")})\r\n`;
+            }
         }
     });
     // 文件末尾追加内容
