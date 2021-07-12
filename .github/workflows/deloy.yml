@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
+      # - run: 
 
       - name: Setup Node
         uses: actions/setup-node@v1
@@ -30,6 +31,6 @@ jobs:
           PUBLISH_BRANCH: master
           PUBLISH_DIR: ./docs
           FORCE_ORPHAN: true
-          USER_NAME: woytu
-          USER_EMAIL: admin@woytu.com
+          USER_NAME: bajins
+          USER_EMAIL: admin@bajins.com
 #        env: # 设置环境变量并赋值

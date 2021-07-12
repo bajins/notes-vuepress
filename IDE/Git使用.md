@@ -333,11 +333,17 @@ git log master..origin/master
 - `git submodule update --init --recursive` 递归下载子模块的源码，并初始化
 - `git submodule foreach 'git checkout -f'` git强制更新所有submodule
 - `git pull` 把子模块看作单独的仓库，进入到子模块目录下，更新submodule，拉取后项目有需要提交的更新
-- `rm -rf 模块名` 删除子模块目录文件
+- `git clone url --recurse-submodules` 递归地将项目中所有子模块的代码拉取
+
+
+**删除子模块**
+
 - `vim .gitmodules` 移除子模块的索引信息
-- `vim .git/config` 移除子模块的配置信息
+- `git submodule deinit` 删除`.git/config`中的模块信息，加上参数`--force`子模块工作区内即使有本地的修改，也会被移除
+- `rm -rf 模块文件夹` 删除子模块目录文件
 - `rm -rf .git/modules/模块名` 移除子模块的其他信息
 - `git rm --cached 模块名` 删除缓存，提示`fatal: pathspec 'xxxxx' did not match any files` 说明删除干净了
+
 
 
 
