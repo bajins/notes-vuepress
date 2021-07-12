@@ -1,0 +1,3 @@
+[submodule ".vuepress/public/files/scripts_shell"]
+	path = .vuepress/public/files/scripts_shell
+	url = https://github.com/bajins/scripts_shell.git
