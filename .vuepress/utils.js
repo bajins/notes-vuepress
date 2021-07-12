@@ -163,9 +163,7 @@ function getSidebar(dirPath, filesList, targetObj = {}) {
                 filesList.push(item);
             }
             getSidebar(childrenPath, filesList, item);
-        }
-        // 必须是md文件
-        else if (file.endsWith(".md")) {
+        } else if (file.endsWith(".md")) { // 必须是md文件
             let fileName = file.slice(0, -3);
             if ("README" == fileName) {
                 fileName = '';
@@ -214,13 +212,13 @@ function getNavigationMenu(rootPath) {
  * @param rootPath 路径
  * @return Array
  */
-function setStaticFile(rootPath, fileStr) {
+function setStaticFile(rootPath) {
     // 读取文件夹
     let files = fs.readdirSync(rootPath).sort();
     // 遍历获取到的文件夹内容
     files.forEach(function (file, index, array) {
-        let reg = new RegExp(".gitattributes|LICENSE|README.md|.git", ig);
-        if (!reg.test(file)) {
+        let reg = new RegExp(".gitattributes|LICENSE|README.md|.git", "ig");
+        if (!reg.test(file)) { // 过滤文件
             // 获取规范的绝对路径
             // let realpath = fs.realpathSync(rootPath + "/" + value);
             // 拼接为绝对路径
@@ -231,17 +229,17 @@ function setStaticFile(rootPath, fileStr) {
             // let realpath = path.join(rootPath, file)
             // 判断是否为文件夹
             if (fs.lstatSync(realpath).isDirectory()) {
-                setStaticFile(realpath, fileStr);
+                setStaticFile(realpath);
             } else {
                 realpath = realpath.substring(realpath.indexOf("files"));
-                fileStr = `${fileStr}\r\n[${file}](/${realpath.replaceAll("\\\\", "/")})\r\n`;
+                let fileStr = `\r\n[${file}](/${realpath.replaceAll("\\\\", "/")})\r\n`;
+                // 文件末尾追加内容
+                fs.appendFile("files.md", fileStr, 'utf8', function (err) {
+                    if (err) {
+                        console.error("文件追加内容失败,原因是：" + err);
+                    }
+                });
             }
-        }
-    });
-    // 文件末尾追加内容
-    fs.appendFile("files.md", fileStr, 'utf8', function (err) {
-        if (err) {
-            console.log("文件追加内容失败,原因是：" + err);
         }
     });
 }
@@ -249,11 +247,11 @@ function setStaticFile(rootPath, fileStr) {
 // 写入文件内容
 fs.writeFile("files.md", "# 文件\r\n", "utf8", error => {
     if (error) {
-        return console.log("文件写入内容失败,原因是：" + error.message);
+        return console.error("文件写入内容失败,原因是：" + error.message);
     }
 });
 
-setStaticFile(".vuepress/public/files", "");
+setStaticFile(".vuepress/public/files");
 
 
 function test(files) {

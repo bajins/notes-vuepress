@@ -223,7 +223,8 @@
 
 * [https://github.com/Microsoft/TypeScript](https://github.com/Microsoft/TypeScript)
     * [lib目录下包含了所有JavaScript官方DOM API](https://github.com/microsoft/TypeScript/tree/master/lib)
-* [https://www.typescriptlang.org](https://www.typescriptlang.org)
+    * [https://www.typescriptlang.org](https://www.typescriptlang.org)
+    * [https://www.tslang.cn](https://www.tslang.cn)
 * [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese)
 
 
