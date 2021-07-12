@@ -227,6 +227,8 @@
     * [https://www.tslang.cn](https://www.tslang.cn)
 * [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese)
 
+-  IO解码/编码 [https://github.com/gcanti/io-ts](https://github.com/gcanti/io-ts)
+
 
 **WebAssembly**
 

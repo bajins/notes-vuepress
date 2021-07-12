@@ -210,6 +210,7 @@ var express = require('express');
 * 清理HTML并防止XSS攻击 [https://github.com/cure53/DOMPurify](https://github.com/cure53/DOMPurify)
 * 识别手写 [https://github.com/jadeocr/jadeocr](https://github.com/jadeocr/jadeocr)
 * 全文搜索 [https://github.com/nextapps-de/flexsearch](https://github.com/nextapps-de/flexsearch)
+* 类型检查 [https://github.com/facebook/flow](https://github.com/facebook/flow)
 
 - [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
 - [https://github.com/HTMLElements](https://github.com/HTMLElements)
