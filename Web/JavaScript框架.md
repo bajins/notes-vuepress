@@ -268,6 +268,7 @@ $.is(":checked");
 * [https://github.com/Eonasdan/tempus-dominus](https://github.com/Eonasdan/tempus-dominus)
 * 模态框 [https://github.com/kylefox/jquery-modal](https://github.com/kylefox/jquery-modal)
 * [https://github.com/maxazan/jquery-treegrid](https://github.com/maxazan/jquery-treegrid)
+* 日期和时间选择器 [https://github.com/xdan/datetimepicker](https://github.com/xdan/datetimepicker)
 
 
 

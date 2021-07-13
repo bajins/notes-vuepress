@@ -213,6 +213,7 @@ sudo /etc/init.d/dns-clean start
 > 或者生成新的个人访问令牌（PERSONAL_TOKEN）[https://github.com/settings/tokens/new](https://github.com/settings/tokens/new)
 
 + [https://github.com/actions](https://github.com/actions)
+    + 检出项目 [https://github.com/actions/checkout](https://github.com/actions/checkout)
 + [https://github.com/topics/github-pages](https://github.com/topics/github-pages)
 + [https://github.com/topics/gh-pages](https://github.com/topics/gh-pages)
 + [https://github.com/topics/deploy](https://github.com/topics/deploy)

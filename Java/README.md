@@ -588,6 +588,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 ## JavaFX
 
+> ui库第一代是awt，第二代是swing，第三代是javafx
+
 + [https://github.com/topics/javafx](https://github.com/topics/javafx)
 + [https://github.com/topics/openjfx](https://github.com/topics/openjfx)
 + [https://github.com/topics/javafx-desktop-apps](https://github.com/topics/javafx-desktop-apps)

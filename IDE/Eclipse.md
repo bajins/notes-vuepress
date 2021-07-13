@@ -26,6 +26,22 @@
 > 创建`Dynamic Web Project`项目结构静态资源目录为：`WebContent`/`WebRoot`，idea创建的为`web`
 
 
+
+**查看类类图及继承关系**
+
++ 选中类，右键然后有以下选项
+   + `Open Declaration` <kdb>F3</kdb>
+   + `Open Type Hierarchy` <kdb>F4</kdb> 打开类层次结构查看窗口，显示包括它的父类和子类
+      + `Show the Subtype Hierarchy` 只查看子类
+      + `Show the Supertype Hierarchy` 只查看父类
+   + `Open Call Hierarchy` <kdb>Ctrl</kdb>+<kdb>Alt</kdb>+<kdb>H</kdb>
+   + `Show in Breadcrumb` <kdb>Alt</kdb>+<kdb>Shift</kdb>+<kdb>B</kdb> 面包屑导航
+   + `Quick Outline` <kdb>Ctrl</kdb>+<kdb>O</kdb>
+   + `Quick Type Hierarchy` <kdb>Ctrl</kdb>+<kdb>T</kdb>  打开类层次结构查看弹窗，显示包括它的父类和子类
+
+
+
+
 **快捷生成调用实例set方法**
 
 1. 进入实例类，打开`Type Hierarchy`视图并在视图中选中所有set方法复制，快捷键<kbd>F4</kbd>

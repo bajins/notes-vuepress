@@ -17,6 +17,19 @@
 * [IntelliJ IDEA神器使用技巧](https://www.imooc.com/learn/924)
 * [IDEA的基本使用：让你的IDEA有飞一般的感觉](https://blog.csdn.net/fly910905/article/details/77868300)
 
+
+
+**查看类类图及继承关系**
+
++ 选中类右键 -> `Diagram` -> `Show Diagram` <kdb>Ctrl</kdb>+<kdb>Alt</kdb>+<kdb>Shift</kdb>+<kdb>U</kdb>
+    + 选中关系图中的名称，点击右键查看实现类 `Show Implementations` <kdb>Ctrl</kdb>+<kdb>Alt</kdb>+<kdb>B</kdb>
+    + 选中关系图中的名称，点击右键查看父类 `Show Parents` <kdb>Ctrl</kdb>+<kdb>Alt</kdb>+<kdb>P</kdb>
+
+- 蓝色实线箭头是指继承关系
+- 绿色虚线箭头是指接口实现关系
+
+
+
 <details>
 <summary><b>展开查看思维导图</b></summary>
 <img src="/images/IDEA使用技巧.png" alt>
