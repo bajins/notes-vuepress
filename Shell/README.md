@@ -211,6 +211,8 @@
 * [https://github.com/electerm/electerm](https://github.com/electerm/electerm)
 * [https://github.com/nvbn/thefuck](https://github.com/nvbn/thefuck)
 
+- [https://www.termius.com](https://www.termius.com)
+
 
 **WEB**
 

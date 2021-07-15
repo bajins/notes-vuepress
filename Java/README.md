@@ -44,6 +44,7 @@
 - [Reactive programming 一种技术 各自表述](https://mercyblitz.github.io/2018/07/25/Reactive-Programming-%E4%B8%80%E7%A7%8D%E6%8A%80%E6%9C%AF-%E5%90%84%E8%87%AA%E8%A1%A8%E8%BF%B0)
 - [Java正则多次匹配和多次组匹配](https://www.cnblogs.com/ElEGenT/p/13158108.html)
 - [https://www.zhihu.com/people/rednaxelafx](https://www.zhihu.com/people/rednaxelafx)
+- [Java 正则表达式详解](https://segmentfault.com/a/1190000009162306)
 
 
 + JMH（Java Microbenchmark Harness）是专门用于代码微基准测试的工具套件
@@ -222,6 +223,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/vectorizedio/redpanda](https://github.com/vectorizedio/redpanda)
 * [https://github.com/topics/elasticsearch](https://github.com/topics/elasticsearch)
     * [https://github.com/elastic/elasticsearch](https://github.com/elastic/elasticsearch)
+    * elasticsearch开源替代 [https://github.com/opensearch-project](https://github.com/opensearch-project)
 * [https://github.com/apache/lucene-solr](https://github.com/apache/lucene-solr)
 * [https://gitee.com/jd-platform-opensource/hotkey](https://gitee.com/jd-platform-opensource/hotkey)
 * [https://sourceforge.net/projects/jsch](https://sourceforge.net/projects/jsch)
@@ -489,6 +491,12 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 **测试**
 
 + [https://github.com/topics/mock](https://github.com/topics/mock)
++ [https://github.com/topics/testing](https://github.com/topics/testing)
++ [https://github.com/topics/unittesting](https://github.com/topics/unittesting)
++ [https://github.com/topics/fake-data](https://github.com/topics/fake-data)
++ [https://github.com/topics/dataset](https://github.com/topics/dataset)
++ [https://github.com/topics/data-generation](https://github.com/topics/data-generation)
+
 
 > 所谓的mock就是创建一个类的虚假的对象，在测试环境中，用来替换掉真实的对象，以达到两大目的：
 > 1. 验证这个对象的某些方法的调用情况，调用了多少次，参数是什么等等;
@@ -502,12 +510,19 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/spockframework](https://github.com/spockframework)
 * [https://github.com/jmock-developers](https://github.com/jmock-developers)
 * [https://github.com/cbeust/testng](https://github.com/cbeust/testng)
-* [https://github.com/jsonzou/jmockdata](https://github.com/jsonzou/jmockdata)
+* 生成测试数据 [https://github.com/jsonzou/jmockdata](https://github.com/jsonzou/jmockdata)
+* [https://github.com/DiUS/java-faker](https://github.com/DiUS/java-faker)
+* [https://github.com/yindz/common-random](https://github.com/yindz/common-random)
+* [https://github.com/binarywang/java-testdata-generator](https://github.com/binarywang/java-testdata-generator)
+* [https://github.com/Double-O-Seven/stubr](https://github.com/Double-O-Seven/stubr)
+* [https://github.com/autonomx](https://github.com/autonomx)
 * [https://github.com/dbunit/dbunit-mirror](https://github.com/dbunit/dbunit-mirror)
 * [https://github.com/easymock](https://github.com/easymock)
 * [https://github.com/Terracotta-OSS/angela](https://github.com/Terracotta-OSS/angela)
 * [https://github.com/rest-assured/rest-assured](https://github.com/rest-assured/rest-assured)
 * [https://github.com/intuit/karate](https://github.com/intuit/karate)
+
+- [https://github.com/mryingjie/common-insert](https://github.com/mryingjie/common-insert)
 
 
 

@@ -182,6 +182,9 @@
 + [https://github.com/kotlinresources/kotlin-resources](https://github.com/kotlinresources/kotlin-resources)
     + [https://www.kotlinresources.com](https://www.kotlinresources.com)
 
+- [https://github.com/mockk/mockk](https://github.com/mockk/mockk)
+- [https://github.com/kotest/kotest](https://github.com/kotest/kotest)
+- [https://github.com/appmattus/kotlinfixture](https://github.com/appmattus/kotlinfixture)
 
 
 **Groovy**

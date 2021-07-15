@@ -414,14 +414,22 @@ public static void createInstanceSetter(Class<?> clazz) {
 
 
 
-## 插件
+## 插件安装使用
+
+> 一般插件都有`plugins`和`features`两个文件夹，复制到eclipse安装目录即可
 
 + `-vmargs -DproxySet=true -DproxyHost=aProxyAddress -DproxyPort=aProxyPort` 启动代理参数
 
 - SVN [https://github.com/subclipse](https://github.com/subclipse)
-- 反编译Decompiler [https://github.com/ecd-plugin/ecd](https://github.com/ecd-plugin/ecd)
-    - `Window` -> `Preferences` -> `General` -> `Editors` -> `File Associations` -> 右侧在`File types`中选中
-    `*.class without source` 在`Associated editors`中选中`Class Decompiler Viewer`点击`Default`
+
+
+**反编译Decompiler**
+
++ `Window` -> `Preferences` -> `General` -> `Editors` -> `File Associations`
+   + 在`File types`选中`*.class` 或 `*.class without source`
+   + 在`Associated editors`选中`Class Decompiler Viewer`点击`Default`
+
+- [https://github.com/ecd-plugin/ecd](https://github.com/ecd-plugin/ecd)
 - [https://github.com/iloveeclipse/plugins/wiki](https://github.com/iloveeclipse/plugins/wiki)
 - [https://github.com/java-decompiler/jd-eclipse](https://github.com/java-decompiler/jd-eclipse)
 - [https://github.com/cnfree/Eclipse-Class-Decompiler](https://github.com/cnfree/Eclipse-Class-Decompiler)

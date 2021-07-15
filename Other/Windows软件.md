@@ -735,6 +735,16 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 
 
+**密码管理**
+
+> cloud-based TOTP apps
+
+* [1Password](https://support.1password.com/one-time-passwords)
+* [Authy](https://authy.com/guides/github)
+* [LastPass Authenticator](https://support.logmeininc.com/lastpass/help/lastpass-authenticator-lp030014)
+* [Microsoft Authenticator](https://www.microsoft.com/zh-cn/account/authenticator)
+
+
 
 
 ## other

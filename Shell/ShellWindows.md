@@ -31,6 +31,7 @@
     * [手动下载适用于 Linux 的 Windows 子系统发行版包](https://docs.microsoft.com/zh-cn/windows/wsl/install-manual)
 * [https://github.com/yuk7/ArchWSL](https://github.com/yuk7/ArchWSL)
     * [https://wsldl-pg.github.io/ArchW-docs/locale/zh-CN](https://wsldl-pg.github.io/ArchW-docs/locale/zh-CN)
+* [https://github.com/agowa338/WSL-DistroLauncher-Alpine](https://github.com/agowa338/WSL-DistroLauncher-Alpine)
 * [关于使用WSL2出现“参考的对象类型不支持尝试的操作”的解决方法](https://zhuanlan.zhihu.com/p/151392411)
     * [https://github.com/microsoft/WSL/issues/4177](https://github.com/microsoft/WSL/issues/4177)
 * [https://github.com/shayne/go-wsl2-host](https://github.com/shayne/go-wsl2-host)
