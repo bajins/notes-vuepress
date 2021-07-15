@@ -16,6 +16,9 @@
 * [http://java-source.net/open-source/sql-clients](http://java-source.net/open-source/sql-clients)
 * 链式SQL框架 [https://github.com/jOOQ](https://github.com/jOOQ)
 * [https://github.com/querydsl/querydsl](https://github.com/querydsl/querydsl)
+* [https://github.com/BatooOrg/BatooJPA](https://github.com/BatooOrg/BatooJPA)
+* [https://github.com/eclipse-ee4j/eclipselink](https://github.com/eclipse-ee4j/eclipselink)
+* [https://github.com/apache/openjpa](https://github.com/apache/openjpa)
 
 - [https://github.com/itfsw/mybatis-generator-plugin](https://github.com/itfsw/mybatis-generator-plugin)
 - CRUD生成器 [https://github.com/SanjinKurelic/MVCGenerator](https://github.com/SanjinKurelic/MVCGenerator)
@@ -165,6 +168,10 @@ for (List<String> partition : partitions) {
 
 
 ## Hibernate
+
+* [https://github.com/hibernate](https://github.com/hibernate)
+
+
 
 ### 返回结果接收方式
 

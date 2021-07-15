@@ -724,14 +724,17 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * Everything [https://www.voidtools.com](https://www.voidtools.com)
     * [https://github.com/stnkl/EverythingToolbar](https://github.com/stnkl/EverythingToolbar)
 * ReNamer 批量重命名 [http://www.den4b.com](http://www.den4b.com)
+* 文件去重 [http://www.alldup.info](http://www.alldup.info)
 * 文件资源管理器 [https://www.ghisler.com](https://www.ghisler.com)
 * [https://www.softwareok.com/?seite=Freeware/Q-Dir](https://www.softwareok.com/?seite=Freeware/Q-Dir)
 * [https://www.xyplorer.com](https://www.xyplorer.com)
 * [http://www.uderzo.it/main_products/space_sniffer](http://www.uderzo.it/main_products/space_sniffer)
 * [Windows File Recovery](https://www.microsoft.com/zh-cn/p/windows-file-recovery/9n26s50ln705)
+* [https://github.com/violet7pan/XYplorer_Help](https://github.com/violet7pan/XYplorer_Help)
 * [https://www.diskinternals.com/download](https://www.diskinternals.com/download)
     * 读取EXT 类型数据盘 [http://www.diskinternals.com/download/Linux_Reader.exe](http://www.diskinternals.com/download/Linux_Reader.exe)
 * [傲梅分区助手PartAssist](https://www.lanzoui.com/b0f1etedc)
+
 
 
 
@@ -743,7 +746,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [Authy](https://authy.com/guides/github)
 * [LastPass Authenticator](https://support.logmeininc.com/lastpass/help/lastpass-authenticator-lp030014)
 * [Microsoft Authenticator](https://www.microsoft.com/zh-cn/account/authenticator)
-
+* Eziriz IntelliLock
 
 
 

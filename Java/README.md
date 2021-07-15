@@ -214,6 +214,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 + 云原生框架 [https://github.com/quarkusio/quarkus](https://github.com/quarkusio/quarkus)
 
 
+* [https://github.com/eclipse-ee4j/soteria](https://github.com/eclipse-ee4j/soteria)
+* 权限认证框架 [https://github.com/dromara/Sa-Token](https://github.com/dromara/Sa-Token)
 * jwt [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)
 * [https://github.com/auth0/java-jwt](https://github.com/auth0/java-jwt)
 * [https://github.com/rabbitmq](https://github.com/rabbitmq)
@@ -266,9 +268,13 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 **JSON**
 
+> JSON-B，即Java API for JSON Binding
+
 + [https://github.com/json-schema-org](https://github.com/json-schema-org)
 + Jakarta JSON处理规范 [https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
 
+- [https://github.com/eclipse-ee4j/yasson](https://github.com/eclipse-ee4j/yasson)
+- [https://github.com/apache/johnzon](https://github.com/apache/johnzon)
 - [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
 - [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)
 - [https://github.com/google/gson](https://github.com/google/gson)

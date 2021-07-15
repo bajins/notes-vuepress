@@ -32,6 +32,7 @@
 * [https://github.com/Netflix](https://github.com/Netflix)
 * [https://github.com/alibaba](https://github.com/alibaba)
 * [https://github.com/tencent](https://github.com/tencent)
+* [https://github.com/bytedance](https://github.com/bytedance)
 * [https://github.com/huawei](https://github.com/huawei)
 * [https://github.com/ctripcorp](https://github.com/ctripcorp)
 * [https://github.com/vipshop](https://github.com/vipshop)

@@ -204,6 +204,10 @@
 + [https://github.com/topics/validation](https://github.com/topics/validation)
 + [https://github.com/topics/validator](https://github.com/topics/validator)
 
+* [https://github.com/apache/bval](https://github.com/apache/bval)
+* [https://github.com/hibernate/hibernate-validator](https://github.com/hibernate/hibernate-validator)
+* [https://github.com/neoremind/fluent-validator](https://github.com/neoremind/fluent-validator)
+
 > `javax.validation.Validation`、`hibernate-validator`和`Spring validtor`
 > 提供了`JSR 303`规范中所有内置constraint 的实现，除此之外还有一些附加的 constraint
 

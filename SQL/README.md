@@ -50,6 +50,8 @@
 * [https://github.com/baidu/BaikalDB](https://github.com/baidu/BaikalDB)
 * [https://gitee.com/mirrors/EdgeFS](https://gitee.com/mirrors/EdgeFS)
 * [https://github.com/Tencent/paxosstore](https://github.com/Tencent/paxosstore)
+* [https://github.com/taosdata/TDengine](https://github.com/taosdata/TDengine)
+* [https://github.com/infinispan/infinispan](https://github.com/infinispan/infinispan)
 
 
 

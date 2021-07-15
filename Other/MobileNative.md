@@ -54,6 +54,7 @@
 
 - 干货 [https://github.com/fujianlian/GankFlutter](https://github.com/fujianlian/GankFlutter)
 - [https://github.com/xmcy0011/CoffeeChat](https://github.com/xmcy0011/CoffeeChat)
+- [https://github.com/Sangwan5688/BlackHole](https://github.com/Sangwan5688/BlackHole)
 
 
 
@@ -108,7 +109,8 @@
 * 对话框 [https://github.com/afollestad/material-dialogs](https://github.com/afollestad/material-dialogs)
 * 许可证对话框 [https://github.com/PSDev/LicensesDialog](https://github.com/PSDev/LicensesDialog)
 * JQuery [https://github.com/jdeferred/jdeferred](https://github.com/jdeferred/jdeferred)
-
+* 播放器 [https://github.com/Bilibili/ijkplayer](https://github.com/Bilibili/ijkplayer)
+* [https://github.com/CarGuo/GSYVideoPlayer](https://github.com/CarGuo/GSYVideoPlayer)
 
 
 

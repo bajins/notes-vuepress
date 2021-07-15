@@ -207,6 +207,7 @@
 * [https://github.com/onsi/ginkgo](https://github.com/onsi/ginkgo)
 * 读取PDF [https://github.com/ledongthuc/pdf](https://github.com/ledongthuc/pdf)
 * [https://github.com/gorilla/websocket](https://github.com/gorilla/websocket)
+* 微服务RPC框架 [https://github.com/cloudwego/kitex](https://github.com/cloudwego/kitex)
 
 
 
