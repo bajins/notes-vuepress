@@ -208,6 +208,7 @@
 * 读取PDF [https://github.com/ledongthuc/pdf](https://github.com/ledongthuc/pdf)
 * [https://github.com/gorilla/websocket](https://github.com/gorilla/websocket)
 * 微服务RPC框架 [https://github.com/cloudwego/kitex](https://github.com/cloudwego/kitex)
+* 微服务 [https://github.com/go-kratos/kratos](https://github.com/go-kratos/kratos)
 
 
 

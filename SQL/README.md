@@ -54,6 +54,9 @@
 * [https://github.com/infinispan/infinispan](https://github.com/infinispan/infinispan)
 
 
+- 矢量数据库 [https://github.com/milvus-io/milvus](https://github.com/milvus-io/milvus)
+
+
 
 **[图数据库](https://zh.wikipedia.org/wiki/%E5%9B%BE%E6%95%B0%E6%8D%AE%E5%BA%93)**
 
