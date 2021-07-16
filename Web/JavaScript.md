@@ -319,6 +319,8 @@ var express = require('express');
 
 * [https://github.com/wendux/fly](https://github.com/wendux/fly)
 * [https://github.com/github/fetch](https://github.com/github/fetch)
+* [https://github.com/qubyte/fetch-ponyfill](https://github.com/qubyte/fetch-ponyfill)
+* [https://github.com/matthew-andrews/isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch)
 * [https://github.com/axios/axios](https://github.com/axios/axios)
 * [https://github.com/umijs/umi-request](https://github.com/umijs/umi-request)
 * [https://github.com/seanmonstar/reqwest](https://github.com/seanmonstar/reqwest)

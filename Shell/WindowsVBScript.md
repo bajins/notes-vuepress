@@ -47,6 +47,17 @@
 * [https://github.com/eklam/VbsJson](https://github.com/eklam/VbsJson)
 
 
+### 自动关闭弹窗
+
+```vb
+' TimeOut 单位为秒
+Public Sub MsgBoxTimeout(Text, Title, TimeOut)
+    Set WshShell = CreateObject("WScript.Shell")
+    WshShell.Popup Text, TimeOut, Title
+End Sub
+```
+
+
 
 ### 数组转换为字符串
 

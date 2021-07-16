@@ -106,9 +106,6 @@ str.match(reg);
 + Fetch各浏览器支持情况 [https://caniuse.com/?search=fetch](https://caniuse.com/?search=fetch)
 + Fetch标准 [https://github.com/whatwg/fetch](https://github.com/whatwg/fetch)
 + [https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API)
-+ [https://github.com/github/fetch](https://github.com/github/fetch)
-+ [https://github.com/matthew-andrews/isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch)
-+ [https://github.com/qubyte/fetch-ponyfill](https://github.com/qubyte/fetch-ponyfill)
 
 
 **http,XMLHttpRequest,Ajax的关系**
