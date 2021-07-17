@@ -46,6 +46,7 @@
 - [https://github.com/technomancy/leiningen](https://github.com/technomancy/leiningen)
 - [https://github.com/ansible/ansible](https://github.com/ansible/ansible)
 - 自动化部署 [https://github.com/dreamans/syncd](https://github.com/dreamans/syncd)
+- [https://github.com/jitpack/jitpack.io](https://github.com/jitpack/jitpack.io)
 
 
 
@@ -191,6 +192,10 @@
 + maven-shade-plugin 用来打可执行JAR包，也就是所谓的fat JAR包；
 + maven-assembly-plugin 支持自定义的打包结构，也可以定制依赖项等。
 + [https://github.com/apache/maven-wagon](https://github.com/apache/maven-wagon)
++ [https://github.com/takari/maven-wrapper](https://github.com/takari/maven-wrapper)
+
+- [开源的一小步----开源类库传至Maven中央仓库]https://www.cnblogs.com/shook/p/14415856.html)
+- [Maven(6) Java上传本地jar包到maven中央仓库](https://blog.csdn.net/qq_38225558/article/details/94381467)
 
 
 

@@ -676,6 +676,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 - [https://github.com/goxr3plus/FX-BorderlessScene](https://github.com/goxr3plus/FX-BorderlessScene)
 - 布局算法 [https://github.com/AmaronUI/amaronui-layouts](https://github.com/AmaronUI/amaronui-layouts)
 - [https://github.com/kirill-grouchnikov/radiance](https://github.com/kirill-grouchnikov/radiance)
+- 无边框窗口 [https://github.com/micheljung/fxstage](https://github.com/micheljung/fxstage)
+- [https://github.com/micheljung/jfx-waitomo-theme](https://github.com/micheljung/jfx-waitomo-theme)
 
 
 

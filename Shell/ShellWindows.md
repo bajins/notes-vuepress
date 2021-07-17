@@ -12,6 +12,8 @@
     * [Cygwin | silaoA的博客](https://silaoa.github.io/tags/Cygwin)
 * [https://sourceware.org](https://sourceware.org)
 
+- [https://github.com/OpenPGP/openpgp.org](https://github.com/OpenPGP/openpgp.org)
+- GPG密钥 [https://www.gpg4win.org](https://www.gpg4win.org)
 
 
 
