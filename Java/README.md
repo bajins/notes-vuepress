@@ -184,6 +184,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 ## 第三方库
 
 * [https://github.com/akullpp/awesome-java](https://github.com/akullpp/awesome-java)
+* [https://github.com/topics/java-library](https://github.com/topics/java-library)
 * [https://github.com/hashicorp](https://github.com/hashicorp)
 
 
@@ -248,6 +249,10 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 - [https://github.com/math4j](https://github.com/math4j)
 - 数学表达式 [https://github.com/mariuszgromada/MathParser.org-mXparser](https://github.com/mariuszgromada/MathParser.org-mXparser)
 - 数学框架 [https://github.com/Ismail-Mekni/mxreflection](https://github.com/Ismail-Mekni/mxreflection)
+- 读取mp3文件 [https://github.com/mpatric/mp3agic](https://github.com/mpatric/mp3agic)
+- 地理空间数据 [https://github.com/geotools/geotools](https://github.com/geotools/geotools)
+- [https://github.com/geoserver/geoserver](https://github.com/geoserver/geoserver)
+- 几何图形 [https://github.com/GeoLatte/geolatte-geom](https://github.com/GeoLatte/geolatte-geom)
 
 
 **[HTTP](/Java/Java笔记.md#HTTP)**
@@ -629,28 +634,47 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 + SceneBuilder [https://gluonhq.com/products/scene-builder](https://gluonhq.com/products/scene-builder)
     + [SceneBuilder例子](https://gluonhq.com/developers/samples)
 
+- [https://github.com/FXDocs/docs](https://github.com/FXDocs/docs)
+
 
 
 **第三方依赖**
 
-- [https://github.com/topics/fontawesomefx](https://github.com/topics/fontawesomefx)
-    - [https://bitbucket.org/Jerady/fontawesomefx](https://bitbucket.org/Jerady/fontawesomefx)
-    - [https://bintray.com/jerady/maven/FontAwesomeFX](https://bintray.com/jerady/maven/FontAwesomeFX)
-    - [https://github.com/Jerady/fontawesomefx-jigsaw-modules](https://github.com/Jerady/fontawesomefx-jigsaw-modules)
++ [https://github.com/topics/javafx-library](https://github.com/topics/javafx-library)
++ [https://github.com/topics/javafx-8](https://github.com/topics/javafx-8)
++ [https://github.com/mhrimaz/AwesomeJavaFX](https://github.com/mhrimaz/AwesomeJavaFX)
++ [https://github.com/topics/fontawesomefx](https://github.com/topics/fontawesomefx)
+    + [https://bitbucket.org/Jerady/fontawesomefx](https://bitbucket.org/Jerady/fontawesomefx)
+    + [https://bintray.com/jerady/maven/FontAwesomeFX](https://bintray.com/jerady/maven/FontAwesomeFX)
+    + [https://github.com/Jerady/fontawesomefx-jigsaw-modules](https://github.com/Jerady/fontawesomefx-jigsaw-modules)
++ [https://github.com/JFXtras](https://github.com/JFXtras)
++ [https://github.com/JonathanGiles](https://github.com/JonathanGiles)
+
+
 - [https://github.com/FXMisc](https://github.com/FXMisc)
 - SVG [https://github.com/blackears/svgSalamander](https://github.com/blackears/svgSalamander)
-- [https://github.com/mhrimaz/AwesomeJavaFX](https://github.com/mhrimaz/AwesomeJavaFX)
+- [https://github.com/jfree/jfreesvg](https://github.com/jfree/jfreesvg)
+- [https://github.com/piusalfred/ikonfx](https://github.com/piusalfred/ikonfx)
 - [https://github.com/openrndr/openrndr](https://github.com/openrndr/openrndr)
 - 扁平UI [https://github.com/JFormDesigner/FlatLaf](https://github.com/JFormDesigner/FlatLaf)
+- UI 控件 [https://github.com/controlsfx](https://github.com/controlsfx)
 - Google Material Design [https://github.com/jfoenixadmin/JFoenix](https://github.com/jfoenixadmin/JFoenix)
 - [https://github.com/gluonhq/connect](https://github.com/gluonhq/connect)
 - 仪表板 [https://github.com/HanSolo/tilesfx](https://github.com/HanSolo/tilesfx)
 - 进度条 [https://github.com/ctongfei/progressbar](https://github.com/ctongfei/progressbar)
 - 3D [https://github.com/JogAmp](https://github.com/JogAmp)
+- [https://github.com/saalfeldlab/paintera](https://github.com/saalfeldlab/paintera)
+- [https://github.com/jfree/fxgraphics2d](https://github.com/jfree/fxgraphics2d)
 - 跨平台访问本机API [https://github.com/LWJGL](https://github.com/LWJGL)
 - 嵌入chrome内核浏览器 [https://jxbrowser-support.teamdev.com](https://jxbrowser-support.teamdev.com)
 - JavaFX的游戏超集 [https://github.com/AlmasB/FXGL](https://github.com/AlmasB/FXGL)
 - Bootstrap样式 [https://github.com/dicolar/jbootx](https://github.com/dicolar/jbootx)
+- 缩放 [https://github.com/miho/ScaledFX](https://github.com/miho/ScaledFX)
+- [https://github.com/tom91136/GestureFX](https://github.com/tom91136/GestureFX)
+- 富文本 [https://github.com/FXMisc/RichTextFX](https://github.com/FXMisc/RichTextFX)
+- [https://github.com/goxr3plus/FX-BorderlessScene](https://github.com/goxr3plus/FX-BorderlessScene)
+- 布局算法 [https://github.com/AmaronUI/amaronui-layouts](https://github.com/AmaronUI/amaronui-layouts)
+- [https://github.com/kirill-grouchnikov/radiance](https://github.com/kirill-grouchnikov/radiance)
 
 
 
@@ -673,3 +697,6 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * 基于javafx8代码生成器 [https://github.com/EliMirren](https://github.com/EliMirren)
 * [https://github.com/fuzhengwei/NaiveChat](https://github.com/fuzhengwei/NaiveChat)
 * 连接打印机 [https://gitee.com/qnloft/thb_client](https://gitee.com/qnloft/thb_client)
+* 词汇猎人 [https://github.com/VocabHunter/VocabHunter](https://github.com/VocabHunter/VocabHunter)
+* 播放器 [https://github.com/goxr3plus/XR3Player](https://github.com/goxr3plus/XR3Player)
+* 音视频转换 [https://github.com/goxr3plus/XR3Converter](https://github.com/goxr3plus/XR3Converter)

@@ -211,6 +211,9 @@ var express = require('express');
 * 识别手写 [https://github.com/jadeocr/jadeocr](https://github.com/jadeocr/jadeocr)
 * 全文搜索 [https://github.com/nextapps-de/flexsearch](https://github.com/nextapps-de/flexsearch)
 * 类型检查 [https://github.com/facebook/flow](https://github.com/facebook/flow)
+* 树视图/树网格插件 [https://github.com/mar10/fancytree](https://github.com/mar10/fancytree)
+* 交互式地图 [https://github.com/openlayers/openlayers](https://github.com/openlayers/openlayers)
+    * [https://github.com/ghettovoice/ol-mapscale](https://github.com/ghettovoice/ol-mapscale)
 
 - [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
 - [https://github.com/HTMLElements](https://github.com/HTMLElements)

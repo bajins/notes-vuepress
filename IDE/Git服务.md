@@ -54,6 +54,7 @@
 * [https://hub.docker.com/r/imleafz/gitlab-ce-zh](https://hub.docker.com/r/imleafz/gitlab-ce-zh)
 * [https://crowdin.com/project/gitlab-ee](https://crowdin.com/project/gitlab-ee)
 * clone所有项目 [https://github.com/huchao1009/gitlab-projects-clone](https://github.com/huchao1009/gitlab-projects-clone)
+* [https://git.openldap.org](https://git.openldap.org)
 
 
 ```yml

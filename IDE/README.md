@@ -30,6 +30,7 @@
 + [https://github.com/postmanlabs](https://github.com/postmanlabs)
     + [https://www.getpostman.com/apps](https://www.getpostman.com/apps)
     + [使用Postman调试SpringBoot程序发现返回值格式是xml](https://blog.csdn.net/clapAlong/article/details/106541926)
++ [https://github.com/Kong/insomnia](https://github.com/Kong/insomnia)
 + [https://github.com/SmartBear/soapui](https://github.com/SmartBear/soapui)
     + [https://www.soapui.org](https://www.soapui.org)
 + [https://github.com/hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)

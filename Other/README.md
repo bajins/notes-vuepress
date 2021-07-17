@@ -144,6 +144,7 @@
 + [https://github.com/o3de/o3de](https://github.com/o3de/o3de)
 + web [https://github.com/sogou/workflow](https://github.com/sogou/workflow)
 + 2D和3D跨平台游戏引擎 [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
++ [https://github.com/canonical/raft](https://github.com/canonical/raft)
 
 
 - 反汇编： C32asm、MYCCL、OD、IDA、softICE、WinDbg

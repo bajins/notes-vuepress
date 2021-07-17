@@ -7,6 +7,8 @@
 
 ## Flag
 
+> SQL,NoSQL和NewSQL
+
 - 同步 [https://github.com/alibaba/DataX](https://github.com/alibaba/DataX)
 - 日志解析订阅和消费 [https://github.com/alibaba/canal](https://github.com/alibaba/canal)
 - [https://github.com/ucarGroup/DataLink](https://github.com/ucarGroup/DataLink)
@@ -20,10 +22,16 @@
 
 **其他数据库**
 
++ [https://github.com/cmu-db/dbdb.io](https://github.com/cmu-db/dbdb.io)
++ [https://github.com/polardb](https://github.com/polardb)
+
+* sqlite克隆 [https://github.com/cstack/db_tutorial](https://github.com/cstack/db_tutorial)
 * [http://www.h2database.com](http://www.h2database.com)
 * [http://hsqldb.org](http://hsqldb.org)
 * [https://github.com/FirebirdSQL/firebird](https://github.com/FirebirdSQL/firebird)
 * [https://github.com/alibaba/PolarDB-for-PostgreSQL](https://github.com/alibaba/PolarDB-for-PostgreSQL)
+* [https://github.com/greenplum-db/gpdb](https://github.com/greenplum-db/gpdb)
+* [https://github.com/citusdata/citus](https://github.com/citusdata/citus)
 * [https://db-engines.com/en/ranking](https://db-engines.com/en/ranking)
 * 分布式 [https://github.com/cockroachdb/cockroach](https://github.com/cockroachdb/cockroach)
 * [https://github.com/pingcap/tidb](https://github.com/pingcap/tidb)
@@ -32,28 +40,45 @@
 * CrateDB [https://github.com/crate/crate](https://github.com/crate/crate)
 * [https://github.com/influxdata/influxdb](https://github.com/influxdata/influxdb)
 * [https://github.com/VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)
-* [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
+* 使用Raft算法 [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 * [https://github.com/etcd-io/bbolt](https://github.com/etcd-io/bbolt)
 * [https://github.com/jnwatson/py-lmdb](https://github.com/jnwatson/py-lmdb)
+* [https://github.com/basho/riak](https://github.com/basho/riak)
 * K/V数据库 [https://github.com/google/leveldb](https://github.com/google/leveldb)
 * [https://github.com/couchbase/moss](https://github.com/couchbase/moss)
 * [https://github.com/memcached/memcached](https://github.com/memcached/memcached)
 * [https://github.com/sirixdb](https://github.com/sirixdb)
 * [https://github.com/scylladb/scylla](https://github.com/scylladb/scylla)
+* [https://github.com/erthink/libmdbx](https://github.com/erthink/libmdbx)
+* [https://github.com/EQ-Alpha/KeyDB](https://github.com/EQ-Alpha/KeyDB)
+* [https://github.com/apache/incubator-pegasus](https://github.com/apache/incubator-pegasus)
+* [https://github.com/FoundationDB/fdb-record-layer](https://github.com/FoundationDB/fdb-record-layer)
 * 面向列的数据库 [https://github.com/ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)
 * Go 嵌入式 (S)QL 数据库 [https://gitlab.com/cznic/ql](https://gitlab.com/cznic/ql)
 * [https://github.com/oceanbase/oceanbase](https://github.com/oceanbase/oceanbase)
 * [https://github.com/roseduan/rosedb](https://github.com/roseduan/rosedb)
 * [https://github.com/greenplum-db/gpdb](https://github.com/greenplum-db/gpdb)
 * 时间序列数据库 [https://github.com/OpenTSDB/opentsdb](https://github.com/OpenTSDB/opentsdb)
+* [https://github.com/timescale/timescaledb](https://github.com/timescale/timescaledb)
 * [https://github.com/apache/hbase](https://github.com/apache/hbase)
 * [https://github.com/baidu/BaikalDB](https://github.com/baidu/BaikalDB)
 * [https://gitee.com/mirrors/EdgeFS](https://gitee.com/mirrors/EdgeFS)
 * [https://github.com/Tencent/paxosstore](https://github.com/Tencent/paxosstore)
 * [https://github.com/taosdata/TDengine](https://github.com/taosdata/TDengine)
 * [https://github.com/infinispan/infinispan](https://github.com/infinispan/infinispan)
+* 内存关系数据库 [https://github.com/VoltDB/voltdb](https://github.com/VoltDB/voltdb)
+* [https://github.com/memsql](https://github.com/memsql)
+    * [https://www.singlestore.com](https://www.singlestore.com)
+* [https://github.com/cmu-db/noisepage](https://github.com/cmu-db/noisepage)
+* 多模型数据库 [https://github.com/arangodb/arangodb](https://github.com/arangodb/arangodb)
 
 
+- [https://github.com/LMDB/lmdb](https://github.com/LMDB/lmdb)
+    - [https://git.openldap.org/openldap/openldap](https://git.openldap.org/openldap/openldap)
+- 物联网时间序列数据库 [https://github.com/apache/iotdb](https://github.com/apache/iotdb)
+- [https://github.com/griddb/griddb](https://github.com/griddb/griddb)
+- 移动数据库 [https://github.com/realm/realm-core](https://github.com/realm/realm-core)
+- 数据流 [https://github.com/mit-pdos/noria](https://github.com/mit-pdos/noria)
 - 矢量数据库 [https://github.com/milvus-io/milvus](https://github.com/milvus-io/milvus)
 
 
@@ -86,6 +111,7 @@
 * [https://www.jetprofiler.com](https://www.jetprofiler.com)
 * [https://www.solarwinds.com/zh/database-performance-monitoring-software](https://www.solarwinds.com/zh/database-performance-monitoring-software)
 * 高可用复制管理工具 [https://github.com/openark/orchestrator](https://github.com/openark/orchestrator)
+* 水平切片集群扩展 [https://github.com/vitessio/vitess](https://github.com/vitessio/vitess)
 
 
 
@@ -411,6 +437,7 @@ ON CONFLICT target action;
 
 ## Redis
 
++ [https://github.com/redis](https://github.com/redis)
 + [https://redis.io/documentation](https://redis.io/documentation)
 + 源码注释 [https://github.com/huangz1990/redis-3.0-annotated](https://github.com/huangz1990/redis-3.0-annotated)
 
@@ -433,6 +460,7 @@ ON CONFLICT target action;
 ## MongoDB
 
 * 客户端 [https://github.com/Studio3T/robomongo](https://github.com/Studio3T/robomongo)
+* 存储引擎模块 [https://github.com/mongodb-partners/mongo-rocks](https://github.com/mongodb-partners/mongo-rocks)
 
 - [MongoDB 高级查询](https://segmentfault.com/a/1190000018006375)
 
