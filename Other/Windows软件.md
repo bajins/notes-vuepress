@@ -19,7 +19,7 @@
 + [Windows 10 有哪些值得推荐的必装软件？](https://www.zhihu.com/question/35088093)
 
 - [https://github.com/topics/desktop-app](https://github.com/topics/desktop-app)
-
+- [https://github.com/awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
 
 
@@ -746,6 +746,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [Authy](https://authy.com/guides/github)
 * [LastPass Authenticator](https://support.logmeininc.com/lastpass/help/lastpass-authenticator-lp030014)
 * [Microsoft Authenticator](https://www.microsoft.com/zh-cn/account/authenticator)
+* KeePass [https://keepass.info](https://keepass.info)
 * Eziriz IntelliLock
 
 

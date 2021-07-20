@@ -209,6 +209,7 @@
 * [https://github.com/gorilla/websocket](https://github.com/gorilla/websocket)
 * 微服务RPC框架 [https://github.com/cloudwego/kitex](https://github.com/cloudwego/kitex)
 * 微服务 [https://github.com/go-kratos/kratos](https://github.com/go-kratos/kratos)
+* 基于 WebRTC 的分布式音频/视频室 [https://github.com/livekit/livekit-server](https://github.com/livekit/livekit-server)
 
 
 

@@ -15,6 +15,7 @@
 + [python、java、c、go执行速度对比](https://www.jianshu.com/p/d60eff598aa0)
 + [如何选择开源许可证？](http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html)
 * [如何选择开源许可证？](https://blog.csdn.net/wadefelix/article/details/6384317)
+* License [https://app.fossa.com](https://app.fossa.com)
 
 
 * [https://github.com/search?q=learning](https://github.com/search?q=learning)
@@ -40,9 +41,9 @@
 * 编程语言排行 [https://www.tiobe.com/tiobe-index](https://www.tiobe.com/tiobe-index)
 * GitHub上的游戏项目 [https://github.com/leereilly/games](https://github.com/leereilly/games)
 * 免费可商用字体 [https://github.com/wordshub/free-font](https://github.com/wordshub/free-font)
+* 字体 [https://github.com/lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai)
 * IP库 [https://db-ip.com](https://db-ip.com)
 * 实时崩溃报告 [https://github.com/getsentry](https://github.com/getsentry)
-* License [https://app.fossa.com](https://app.fossa.com)
 
 
 - 水印 [https://github.com/topics/watermark](https://github.com/topics/watermark)
@@ -147,6 +148,7 @@
 + web [https://github.com/sogou/workflow](https://github.com/sogou/workflow)
 + 2D和3D跨平台游戏引擎 [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
 + [https://github.com/canonical/raft](https://github.com/canonical/raft)
++ 低分辨率的输入生成高分辨率 [https://github.com/GPUOpen-Effects/FidelityFX-FSR](https://github.com/GPUOpen-Effects/FidelityFX-FSR)
 
 
 - 反汇编： C32asm、MYCCL、OD、IDA、softICE、WinDbg
