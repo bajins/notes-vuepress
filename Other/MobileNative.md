@@ -85,7 +85,7 @@
 + [https://github.com/Omooo/Android-Notes](https://github.com/Omooo/Android-Notes)
 
 
-
+* [https://github.com/afkT/DevUtils](https://github.com/afkT/DevUtils)
 * [https://github.com/DyncKathline](https://github.com/DyncKathline)
 * [https://github.com/wave-chtj/BaseIotUtils](https://github.com/wave-chtj/BaseIotUtils)
 * [https://github.com/lihangleo2/Imgdots](https://github.com/lihangleo2/Imgdots)

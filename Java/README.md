@@ -651,6 +651,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
     + [https://github.com/Jerady/fontawesomefx-jigsaw-modules](https://github.com/Jerady/fontawesomefx-jigsaw-modules)
 + [https://github.com/JFXtras](https://github.com/JFXtras)
 + [https://github.com/JonathanGiles](https://github.com/JonathanGiles)
++ [https://github.com/Drombler](https://github.com/Drombler)
+
 
 
 - [https://github.com/FXMisc](https://github.com/FXMisc)

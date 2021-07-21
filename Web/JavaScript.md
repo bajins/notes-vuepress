@@ -42,8 +42,8 @@
 + [https://github.com/topics/es2016](https://github.com/topics/es2016)
 + [https://github.com/topics/linting](https://github.com/topics/linting)
 
-* [https://github.com/wangdoc/javascript-tutorial](https://github.com/wangdoc/javascript-tutorial)
-    * [https://wangdoc.com/javascript](https://wangdoc.com/javascript)
+* [https://github.com/wangdoc](https://github.com/wangdoc)
+    * [https://wangdoc.com](https://wangdoc.com)
 * [https://github.com/ruanyf/jstutorial](https://github.com/ruanyf/jstutorial)
     * [http://javascript.ruanyifeng.com](http://javascript.ruanyifeng.com)
 * ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
