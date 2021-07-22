@@ -296,7 +296,7 @@
 * [https://www.coolapk.com/apk/tag/微博](https://www.coolapk.com/apk/tag/%E5%BE%AE%E5%8D%9A)
 * see [https://caij.coding.net/public](https://caij.coding.net/public)
 * YouTube [https://github.com/YTVanced/VancedManager](https://github.com/YTVanced/VancedManager)
-
+* 谷歌框架 [https://opengapps.org](https://opengapps.org)
 
 
 **下载Google Play Store上的应用**
