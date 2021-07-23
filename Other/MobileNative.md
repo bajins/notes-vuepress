@@ -99,6 +99,7 @@
 * 查看包差异 [https://github.com/JakeWharton/diffuse](https://github.com/JakeWharton/diffuse)
 * 使用SQLite [https://github.com/guolindev/LitePal](https://github.com/guolindev/LitePal)
 * 反射 [https://github.com/tiann/FreeReflection](https://github.com/tiann/FreeReflection)
+* [https://github.com/linkedin/dexmaker](https://github.com/linkedin/dexmaker)
 * [https://github.com/Dsiner/UIUtil](https://github.com/Dsiner/UIUtil)
 * [https://github.com/jonfinerty/Once](https://github.com/jonfinerty/Once)
 * 打包 [https://github.com/Meituan-Dianping/walle](https://github.com/Meituan-Dianping/walle)

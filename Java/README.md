@@ -344,7 +344,6 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 
 * [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
-* [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
 * 对配置内容加密 [https://github.com/ulisesbocchio/jasypt-spring-boot](https://github.com/ulisesbocchio/jasypt-spring-boot)
 * Java8以下的时间替代项目`joda-time` [https://github.com/JodaOrg](https://github.com/JodaOrg)
 * [https://github.com/iandarwin/date4j](https://github.com/iandarwin/date4j)
@@ -365,6 +364,10 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 + [https://gitlab.ow2.org/asm/asm](https://gitlab.ow2.org/asm/asm)
 + [https://asm.ow2.io](https://asm.ow2.io)
 + [http://asm.ow2.org](http://asm.ow2.org)
++ [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
++ [https://www.eclipse.org/aspectj](https://www.eclipse.org/aspectj)
+
+
 
 * 模板引擎生成输出文本 [https://github.com/apache/freemarker](https://github.com/apache/freemarker)
     * [https://github.com/freemarker/freemarker3](https://github.com/freemarker/freemarker3)
@@ -389,6 +392,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/Elzawawy/java-bytecode-generator](https://github.com/Elzawawy/java-bytecode-generator)
 * [https://github.com/jboss-javassist/javassist](https://github.com/jboss-javassist/javassist)
 * 反射工具包 [https://github.com/ronmamo/reflections](https://github.com/ronmamo/reflections)
+* [https://github.com/EsotericSoftware/reflectasm](https://github.com/EsotericSoftware/reflectasm)
 * 可缓存反射 [https://github.com/OxideWaveLength/Java-BetterReflection](https://github.com/OxideWaveLength/Java-BetterReflection)
 * 属性比对器 [https://github.com/dadiyang/equator](https://github.com/dadiyang/equator)
 * 对象比较属性和审核 [https://github.com/javers/javers](https://github.com/javers/javers)
@@ -623,6 +627,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 * [https://github.com/openjdk/jfx](https://github.com/openjdk/jfx)
     * [https://docs.oracle.com/javase/8/javafx/user-interface-tutorial](https://docs.oracle.com/javase/8/javafx/user-interface-tutorial)
+    * [https://docs.oracle.com/javase/8/javafx/api/javafx/fxml/doc-files/introduction_to_fxml.html](https://docs.oracle.com/javase/8/javafx/api/javafx/fxml/doc-files/introduction_to_fxml.html)
 * [https://github.com/javafxports/openjdk-jfx](https://github.com/javafxports/openjdk-jfx)
 * [https://github.com/openjdk/jfx11](https://github.com/openjdk/jfx11)
 * [https://github.com/openjfx](https://github.com/openjfx)
@@ -632,6 +637,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://segmentfault.com/t/javafx](https://segmentfault.com/t/javafx)
 * [https://gluonhq.com/products/javafx](https://gluonhq.com/products/javafx)
 * SceneBuilder [https://gluonhq.com/products/scene-builder](https://gluonhq.com/products/scene-builder)
+    * [https://www.oracle.com/java/technologies/javase/javafxscenebuilder-info.html](https://www.oracle.com/java/technologies/javase/javafxscenebuilder-info.html)
     * [SceneBuilder例子](https://gluonhq.com/developers/samples)
 
 - [https://github.com/FXDocs/docs](https://github.com/FXDocs/docs)

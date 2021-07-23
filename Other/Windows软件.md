@@ -334,6 +334,8 @@
 
 - [https://github.com/soimort/you-get](https://github.com/soimort/you-get)
 - [https://www.midomi.com](https://www.midomi.com)
+- [https://github.com/musescore/MuseScore](https://github.com/musescore/MuseScore)
+- [https://github.com/Xmader/musescore-downloader](https://github.com/Xmader/musescore-downloader)
 
 
 **Potplayer**

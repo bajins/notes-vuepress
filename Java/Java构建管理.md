@@ -16,6 +16,7 @@
 + [https://github.com/janino-compiler/janino](https://github.com/janino-compiler/janino)
 + [https://github.com/codehaus-plexus/plexus-compiler](https://github.com/codehaus-plexus/plexus-compiler)
 + [https://github.com/eclipse/eclipse.jdt.core](https://github.com/eclipse/eclipse.jdt.core)
++ [https://www.jetbrains.com/help/idea/java-compiler.html](https://www.jetbrains.com/help/idea/java-compiler.html)
 
 - [https://github.com/topics/classloader](https://github.com/topics/classloader)
 

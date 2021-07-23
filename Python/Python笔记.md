@@ -29,55 +29,6 @@
 - `"""内容"""` 表示Multiline String 多行字符串、Template String 模板字符串、Text Blocks 文本块
 
 
-## 日志打印
-
-* [Python + logging 输出到屏幕，将log日志写入文件](https://www.cnblogs.com/nancyzhu/p/8551506.html)
-* [Python：print显示颜色](https://www.cnblogs.com/hanfe1/p/10664942.html)
-
-```python
-import traceback
-# 打印堆栈信息
-traceback.print_stack()
-
-import sys
-# 当前输出文件和行号
-print("\033[0;31m[%s@%s]\033[0m" % (__file__, sys._getframe().f_lineno), "test")
-
-import logging
-import logging.config
-
-# logging.basicConfig(
-#     level=logging.DEBUG,
-#     format='%(asctime)s [%(threadName)s] [%(name)s] [%(levelname)s] %(filename)s[line:%(lineno)d] %(message)s',
-#     datefmt='%Y-%m-%d %H:%M:%S',
-#     handlers=(logging.StreamHandler(), logging.FileHandler('faker.log'))  # 往屏幕上输出，和输出到文件
-# )
-
-# create logger
-logger_name = "example"
-logger = logging.getLogger(logger_name)
-logger.setLevel(logging.DEBUG)
-
-# create file handler
-log_path = "./faker.log"
-fh = logging.FileHandler(log_path)
-fh.setLevel(logging.WARNING)
-
-# create formatter
-fmt = '%(asctime)s [%(threadName)s] [%(name)s] [%(levelname)s] %(filename)s[line:%(lineno)d] %(message)s'
-
-# add handler and formatter to logger
-fh.setFormatter(logging.Formatter(fmt, '%Y-%m-%d %H:%M:%S'))
-logger.addHandler(fh)
-
-logger.debug('log debug')
-logger.info('log info')
-logger.warning('log warning')
-logger.error('log error')
-logger.critical('log critical')
-```
-
-
 
 ## os模块
 
@@ -194,110 +145,6 @@ shutil.rmtree( src )
 
 
 * [Python3 文件 I/O 操作](https://www.jianshu.com/p/507b14111f56?from=timeline)
-
-
-
-## 输入参数
-
-```python
-# host=input("请输入数据库IP地址：")
-# port=input("请输入数据库端口：")
-# user=input("请输入数据库用户名：")
-# dbPasswd=input("请输入数据库密码：")
-# database=input("请输入数据库名：")
-# charset=input("请输入数据库字符编码：")
-# dbSQL=input("请输入数据库查询SQL：")
-
-# 设置参数
-parser = argparse.ArgumentParser(description='manual to this script')
-parser.add_argument('--host', '-host', type=str, default='localhost', help='请输入数据库IP地址')
-parser.add_argument('--port', '-port', type=int, default=3306, help='请输入数据库端口')
-parser.add_argument('--user', '-user', type=str, default='root', help='请输入数据库用户名')
-parser.add_argument('--password', '-pwd', type=str, default=None, help='请输入数据库密码')
-parser.add_argument('--database', '-db', type=str, default=None, help='请输入数据库名')
-parser.add_argument('--charset', '-charset', type=str, default='UTF8', help='请输入数据库字符编码')
-
-# 获取参数值
-args = parser.parse_args()
-host = args.host
-port = args.port
-user = args.user
-password = args.password
-database = args.database
-charset = args.charset
-```
-
-
-## 随机
-
-```python
-# 随机大于0 且小于1 之间的小数
-random.random()
-# 随机一个大于0小于9的小数
-random.uniform(0,9)
-
-# 随机一个大于等于1且小于等于5的整数
-random.randint(1,5)
-# 随机一个大于等于1且小于等于10之间的奇数，其中2表示递增基数
-random.randrange(1,10,2)
-
-# 随机返回参数列表中任意一个元素
-random.choice(['123','abc',52,[1,2]])
-# 随机返回参数列表中任意两个元素，参数二指定返回的数量
-random.sample(['123','abc',52,[1,2]],2)
-
-# 打乱列表顺序
-random.shuffle([1,2,5,7,9,10])
-```
-
-
-## 系统信息
-
-```python
-print('system and bit'.center(40, '-'))
-print(platform.architecture(), '\n')
-
-print('system and deatial'.center(40, '-'))
-print(platform.platform(), '\n')
-
-print('system'.center(40, '-'))
-print(platform.system(), '\n')
-
-print('version'.center(40, '-'))
-print(platform.version(), '\n')
-
-print('系统信息'.center(40, '-'))
-print(platform.uname(), '\n')
-
-print("python Version".center(40, '-'))
-print(platform.python_version(), '\n')
-```
-
-
-## 配置
-
-```python
-def generate_yaml_doc_PyYaml(yaml_file, py_object):
-    import yaml # pip install PyYaml
-    #yaml.warnings({'YAMLLoadWarning':False}) # 不显示警告
-    fs = open(yaml_file, 'r+', encoding='utf-8')
-    yaml.dump(py_object, fs) #写
-    
-    datas = yaml.load(fs.read(), Loader=yaml.FullLoader) # 读
-    print(datas)
-    
-    file.close()
-
-def generate_yaml_doc_ruamel(yaml_file, py_object):
-    from ruamel import yaml # pip3 install ruamel.yaml
-    fs = open(yaml_file, 'r+', encoding='utf-8')
-    yaml.dump(py_object, fs, Dumper=yaml.RoundTripDumper) # 写
-    
-    data = yaml.load(fs.read(), Loader=yaml.Loader) # 读
-    print(data)
-    
-    file.close()
-```
 
 
 
@@ -441,8 +288,8 @@ pip install sqlalchemy
 * [Python3-定时任务五种实现方式](https://blog.51cto.com/huangyg/2367088)
 
 1. sched模块`sched.scheduler`
-2. 循环+sleep
-3. 线程模块中Timer类`threading.Timer`
+2. 循环+`time.sleep()`、`asyncio.sleep()` 用的是`application scheduler`
+3. 线程模块中Timer类`threading.Timer` 用的是`system scheduler`
 4. 第三方模块：schedule
 5. 定时框架：APScheduler、Celery
 
