@@ -7,11 +7,6 @@
 
 ## Flag
 
-> Shell俗称壳（用来区别于核），是指“为使用者提供操作界面”的软件（命令解析器），
-> Shell也用于泛指所有为用户提供操作界面的程序，也就是程序和用户交互的层面
-
-> 终端（Terminal）是控制台（Console）设备内的软件程序。shell是终端向用户发送输入的程序。shell生成输出并将其传回终端进行显示。
-
 * [https://en.wikipedia.org/wiki/Shell_(computing)](https://en.wikipedia.org/wiki/Shell_(computing))
 
 - 命令行参考大全（Linux、macOS、CMD、PowerShell、VB Script）[https://ss64.com](https://ss64.com)
@@ -35,6 +30,25 @@
 - 命令执行演示 [https://github.com/maaslalani/slides](https://github.com/maaslalani/slides)
 - [https://github.com/d0c-s4vage/lookatme](https://github.com/d0c-s4vage/lookatme)
 - [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
+
+
+
+**`terminal`、`shell`、`tty`、`console` 之间的区别**
+
++ [`terminal`、`shell`、`tty`、`console` 之间的确切区别是什么？](https://unix.stackexchange.com/questions/4126/what-is-the-exact-difference-between-a-terminal-a-shell-a-tty-and-a-con)
+
+- Kernel：任何现代操作系统的最内部，它直接与实际硬件交互
+- terminal：真实用户坐在它后面的东西。 可能是物理终端（罕见）或伪终端（xterm、ssh）或虚拟终端（Linux 中的 vty）
+- shell：俗称壳（用来区别于核），是指“为使用者提供操作界面”的软件（命令解析器），帮助用户与系统交互的应用程序（bash、tcsh 等）。
+- tty：支持终端的终端或内核子系统。
+- console：报告状态和错误的东西 (/dev/console) 或连接到计算机的物理键盘和视频显示器。
+
+* terminal = tty = text input/output environment
+* console = physical terminal
+* shell = command line interpreter
+
+
+> 终端（Terminal）是控制台（Console）设备内的软件程序。shell是终端向用户发送输入的程序。shell生成输出并将其传回终端进行显示。
 
 
 
@@ -74,6 +88,59 @@
 ```
 
 **[GIT处理换行符](/IDE/Git使用.md#换行符与大文件处理)**
+
+
+
+
+## 第三方SSH
+
+> Secure Shell（SSH）/bourne shell(sh或bsh)/KornShell(ksh)
+
+> OpenSSH 私钥后缀是`pem`，PuTTY 私钥后缀是`ppk`
+
+* [https://github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
+* [https://github.com/topics/fish](https://github.com/topics/fish)
+* [https://github.com/topics/terminal](https://github.com/topics/terminal)
+* [https://github.com/topics/ssh](https://github.com/topics/ssh)
+* [https://github.com/topics/ssh-client](https://github.com/topics/ssh-client)
+* [https://github.com/topics/ssh2](https://github.com/topics/ssh2)
+* [https://github.com/topics/ssh](https://github.com/topics/ssh)
+* [https://github.com/topics/remote-access](https://github.com/topics/remote-access)
+* [https://github.com/mskyaxl/wsl-terminal](https://github.com/mskyaxl/wsl-terminal)
+
+- [https://github.com/topics/sftp](https://github.com/topics/sftp)
+- [https://github.com/topics/sftp-client](https://github.com/topics/sftp-client)
+- [https://github.com/topics/ftp-client](https://github.com/topics/ftp-client)
+
+* [https://github.com/janmojzis/tinyssh](https://github.com/janmojzis/tinyssh)
+* [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
+* [https://github.com/HaleyWang/SpringRemote](https://github.com/HaleyWang/SpringRemote)
+* OpenSSH [https://github.com/openssl](https://github.com/openssl)
+* [https://github.com/openssh](https://github.com/openssh)
+    * [https://www.openssh.com](https://www.openssh.com)
+* [https://github.com/electerm/electerm](https://github.com/electerm/electerm)
+* [https://github.com/nvbn/thefuck](https://github.com/nvbn/thefuck)
+
+- [https://www.termius.com](https://www.termius.com)
+
+
+**WEB**
+
+* [https://github.com/xtermjs/xterm.js](https://github.com/xtermjs/xterm.js)
+* [https://github.com/huashengdun/webssh](https://github.com/huashengdun/webssh)
+* [https://github.com/billchurch/WebSSH2](https://github.com/billchurch/WebSSH2)
+* [https://github.com/mscdex/ssh2](https://github.com/mscdex/ssh2)
+
+
+**Android**
+
++ [SSH client for Android](https://github.com/search?q=SSH+client+for+Android)
+
+* [https://github.com/topics/termux](https://github.com/topics/termux)
+    * [https://github.com/termux](https://github.com/termux)
+* [https://github.com/connectbot/connectbot](https://github.com/connectbot/connectbot)
+* [https://www.juicessh.com](https://www.juicessh.com)
+* [https://github.com/niklas-8/RemoteFiles](https://github.com/niklas-8/RemoteFiles)
 
 
 
@@ -178,85 +245,5 @@
 * jq-解析json工具 [https://github.com/stedolan/jq](https://github.com/stedolan/jq)
 * 转换位图图像 [https://github.com/ImageMagick](https://github.com/ImageMagick)
 * [https://github.com/ritchielawrence/cmdow](https://github.com/ritchielawrence/cmdow)
-
-
-
-
-## SSH
-
-> Secure Shell（SSH）/bourne shell(sh或bsh)/KornShell(ksh)
-
-> OpenSSH 私钥后缀是`pem`，PuTTY 私钥后缀是`ppk`
-
-* [https://github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
-* [https://github.com/topics/fish](https://github.com/topics/fish)
-* [https://github.com/topics/terminal](https://github.com/topics/terminal)
-* [https://github.com/topics/ssh](https://github.com/topics/ssh)
-* [https://github.com/topics/ssh-client](https://github.com/topics/ssh-client)
-* [https://github.com/topics/ssh2](https://github.com/topics/ssh2)
-* [https://github.com/topics/ssh](https://github.com/topics/ssh)
-* [https://github.com/topics/remote-access](https://github.com/topics/remote-access)
-* [https://github.com/mskyaxl/wsl-terminal](https://github.com/mskyaxl/wsl-terminal)
-
-- [https://github.com/topics/sftp](https://github.com/topics/sftp)
-- [https://github.com/topics/sftp-client](https://github.com/topics/sftp-client)
-- [https://github.com/topics/ftp-client](https://github.com/topics/ftp-client)
-
-* [https://github.com/janmojzis/tinyssh](https://github.com/janmojzis/tinyssh)
-* [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
-* [https://github.com/HaleyWang/SpringRemote](https://github.com/HaleyWang/SpringRemote)
-* OpenSSH [https://github.com/openssl](https://github.com/openssl)
-* [https://github.com/openssh](https://github.com/openssh)
-    * [https://www.openssh.com](https://www.openssh.com)
-* [https://github.com/electerm/electerm](https://github.com/electerm/electerm)
-* [https://github.com/nvbn/thefuck](https://github.com/nvbn/thefuck)
-
-- [https://www.termius.com](https://www.termius.com)
-
-
-**WEB**
-
-* [https://github.com/xtermjs/xterm.js](https://github.com/xtermjs/xterm.js)
-* [https://github.com/huashengdun/webssh](https://github.com/huashengdun/webssh)
-* [https://github.com/billchurch/WebSSH2](https://github.com/billchurch/WebSSH2)
-* [https://github.com/mscdex/ssh2](https://github.com/mscdex/ssh2)
-
-
-**Android**
-
-+ [SSH client for Android](https://github.com/search?q=SSH+client+for+Android)
-
-* [https://github.com/topics/termux](https://github.com/topics/termux)
-    * [https://github.com/termux](https://github.com/termux)
-* [https://github.com/connectbot/connectbot](https://github.com/connectbot/connectbot)
-* [https://www.juicessh.com](https://www.juicessh.com)
-* [https://github.com/niklas-8/RemoteFiles](https://github.com/niklas-8/RemoteFiles)
-
-
-
-**Windows终端复用器**
-
-+ [https://github.com/topics/windows](https://github.com/topics/windows)
-+ [https://github.com/topics/putty](https://github.com/topics/putty)
-+ [https://github.com/topics/kitty](https://github.com/topics/kitty)
-
-- [https://docs.microsoft.com/zh-cn/documentation](https://docs.microsoft.com/zh-cn/documentation)
-
-* [https://github.com/PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable)
-    * [https://github.com/PowerShell/Win32-OpenSSH/wiki](https://github.com/PowerShell/Win32-OpenSSH/wiki)
-* [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
-    * [https://docs.microsoft.com/zh-cn/windows/terminal](https://docs.microsoft.com/zh-cn/windows/terminal)
-* [https://github.com/appget](https://github.com/appget)
-* [https://github.com/x64dbg](https://github.com/x64dbg)
-* [https://github.com/Maximus5/ConEmu](https://github.com/Maximus5/ConEmu)
-* [https://github.com/Eugeny/terminus](https://github.com/Eugeny/terminus)
-* [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
-* [https://github.com/vercel/hyper](https://github.com/vercel/hyper)
-* PuTTY [https://www.chiark.greenend.org.uk/~sgtatham/putty](https://www.chiark.greenend.org.uk/~sgtatham/putty)
-* [https://github.com/portapps/kitty-portable](https://github.com/portapps/kitty-portable)
-* [https://github.com/cyd01/KiTTY](https://github.com/cyd01/KiTTY)
-* MobaXterm [https://www.mobatek.net](https://www.mobatek.net)
-
-
 
 

@@ -94,6 +94,8 @@
 * 软件逆向工程框架 [https://github.com/NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
 * 文件系统 [https://github.com/ipfs](https://github.com/ipfs)
 * [https://github.com/webview](https://github.com/webview)
+* 压缩位图 [https://github.com/RoaringBitmap](https://github.com/RoaringBitmap)
+* 近似成员过滤器 [https://github.com/FastFilter](https://github.com/FastFilter)
 
 
 
@@ -150,6 +152,10 @@
 + 2D和3D跨平台游戏引擎 [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
 + [https://github.com/canonical/raft](https://github.com/canonical/raft)
 + 低分辨率的输入生成高分辨率 [https://github.com/GPUOpen-Effects/FidelityFX-FSR](https://github.com/GPUOpen-Effects/FidelityFX-FSR)
++ 压缩整数列表 [https://github.com/lemire/simdcomp](https://github.com/lemire/simdcomp)
++ [https://github.com/lemire/SIMDCompressionAndIntersection](https://github.com/lemire/SIMDCompressionAndIntersection)
++ [https://github.com/lemire/FastPFor](https://github.com/lemire/FastPFor)
++ JSON [https://github.com/simdjson/simdjson](https://github.com/simdjson/simdjson)
 
 
 - 反汇编： C32asm、MYCCL、OD、IDA、softICE、WinDbg

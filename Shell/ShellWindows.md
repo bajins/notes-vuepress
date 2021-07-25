@@ -15,6 +15,38 @@
 - [https://github.com/OpenPGP/openpgp.org](https://github.com/OpenPGP/openpgp.org)
 - GPG密钥 [https://www.gpg4win.org](https://www.gpg4win.org)
 
+* Linux开发Windows程序环境 [https://midipix.org](https://midipix.org)
+    * [https://dev.midipix.org](https://dev.midipix.org)
+    * [https://github.com/lalbornoz/midipix_build](https://github.com/lalbornoz/midipix_build)
+
+
+
+## 终端复用器
+
++ [https://github.com/topics/windows](https://github.com/topics/windows)
++ [https://github.com/topics/putty](https://github.com/topics/putty)
++ [https://github.com/topics/kitty](https://github.com/topics/kitty)
+
+- [https://docs.microsoft.com/zh-cn/documentation](https://docs.microsoft.com/zh-cn/documentation)
+
+* Cygwin终端 [https://github.com/mintty/mintty](https://github.com/mintty/mintty)
+* WSL终端 [https://github.com/mintty/wsltty](https://github.com/mintty/wsltty)
+* [https://github.com/PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable)
+    * [https://github.com/PowerShell/Win32-OpenSSH/wiki](https://github.com/PowerShell/Win32-OpenSSH/wiki)
+* [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
+    * [https://docs.microsoft.com/zh-cn/windows/terminal](https://docs.microsoft.com/zh-cn/windows/terminal)
+* [https://github.com/appget](https://github.com/appget)
+* [https://github.com/x64dbg](https://github.com/x64dbg)
+* [https://github.com/Maximus5/ConEmu](https://github.com/Maximus5/ConEmu)
+* [https://github.com/Eugeny/terminus](https://github.com/Eugeny/terminus)
+* [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
+* [https://github.com/vercel/hyper](https://github.com/vercel/hyper)
+* PuTTY [https://www.chiark.greenend.org.uk/~sgtatham/putty](https://www.chiark.greenend.org.uk/~sgtatham/putty)
+* [https://github.com/portapps/kitty-portable](https://github.com/portapps/kitty-portable)
+* [https://github.com/cyd01/KiTTY](https://github.com/cyd01/KiTTY)
+* MobaXterm [https://www.mobatek.net](https://www.mobatek.net)
+
+
 
 
 ## WSL

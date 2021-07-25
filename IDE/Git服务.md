@@ -22,6 +22,9 @@
 * 依赖项更新 [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate)
 
 
+- [https://pagure.io](https://pagure.io)
+
+
 **Gogs**
 
 * [https://github.com/gogs/gogs](https://github.com/gogs/gogs)
