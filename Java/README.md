@@ -711,3 +711,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * 词汇猎人 [https://github.com/VocabHunter/VocabHunter](https://github.com/VocabHunter/VocabHunter)
 * 播放器 [https://github.com/goxr3plus/XR3Player](https://github.com/goxr3plus/XR3Player)
 * 音视频转换 [https://github.com/goxr3plus/XR3Converter](https://github.com/goxr3plus/XR3Converter)
+* [https://github.com/yhy0/ExpDemo-JavaFX](https://github.com/yhy0/ExpDemo-JavaFX)
+* [https://github.com/ZhouRuikang015/javafx-havefun](https://github.com/ZhouRuikang015/javafx-havefun)
+* [https://github.com/WBB1997/BingWallpaper](https://github.com/WBB1997/BingWallpaper)
+
