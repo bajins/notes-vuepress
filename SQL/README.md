@@ -403,6 +403,7 @@ ON CONFLICT target action;
 
 - 加密SQLite [https://github.com/sqlcipher](https://github.com/sqlcipher)
 - [https://github.com/utelle/wxsqlite3](https://github.com/utelle/wxsqlite3)
+- Java实现 [https://sqljet.com](https://sqljet.com)
 - 分布式关系数据库 [https://github.com/rqlite/rqlite](https://github.com/rqlite/rqlite)
 
 

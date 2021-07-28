@@ -32,14 +32,19 @@
 * 内存分析 [https://projects.eclipse.org/projects/tools.mat](https://projects.eclipse.org/projects/tools.mat)
    * [https://github.com/vlsi/mat-calcite-plugin](https://github.com/vlsi/mat-calcite-plugin)
 
-- [抛开IDE，了解一下javac如何编译](https://imshuai.com/using-javac)
-- [使用javac编译工程](https://www.cnblogs.com/ZiYangZhou/p/8536828.html)
 
 
 
 **其他命令**
 
+- [抛开IDE，了解一下javac如何编译](https://imshuai.com/using-javac)
+- [使用javac编译工程](https://www.cnblogs.com/ZiYangZhou/p/8536828.html)
+
+
 ```bash
+javac -encoding utf-8 -cp ".;webapp\WEB-INF\lib\*" -d target src\com\bajins\utils\*.java
+java -cf bajins.war .
+
 # 获取当前JVM默认参数
 java -XX:+PrintFlagsFinal -version | grep MaxHeapSize
 
