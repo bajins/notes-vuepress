@@ -101,6 +101,9 @@
 * [https://github.com/features/codespaces](https://github.com/features/codespaces)
 * [https://github.com/ekzhang/rustpad](https://github.com/ekzhang/rustpad)
 
+- [https://github.com/codota/tabnine](https://github.com/codota/tabnine)
+    - [https://www.tabnine.com](https://www.tabnine.com)
+
 
 
 **[静态部署](/Web/README.md#静态部署)**

@@ -37,6 +37,8 @@
 * 比较 [https://github.com/pnedev/compare-plugin](https://github.com/pnedev/compare-plugin)
 
 - 查看快捷键：`设置` –> `管理快捷键` -> `Scintilla命令`
+    - `SCI_SELECTIONDUPLICATE` 复制当前行
+    - `SCI_LINEDELETE` 删除当前行
 - `Tab`替换为空格：设置->首选项->语言->制表符设置->(勾选上)替换为空格
 - 显示特殊字符
     - 显示回车符，换行符，TAB键，行首，行尾等特殊字符

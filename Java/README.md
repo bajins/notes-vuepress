@@ -66,11 +66,13 @@
 
 ## 学习
 
-- [技术集合归档](https://blog.52itstyle.vip/architecture.html)
-- Java 全栈知识体系 [https://www.pdai.tech](https://www.pdai.tech)
-- [http://tutorials.jenkov.com](http://tutorials.jenkov.com)
-
++ [技术集合归档](https://blog.52itstyle.vip/architecture.html)
++ Java 全栈知识体系 [https://www.pdai.tech](https://www.pdai.tech)
++ [http://tutorials.jenkov.com](http://tutorials.jenkov.com)
++ [https://javadox.com](https://javadox.com)
++ [https://javadoc.io](https://javadoc.io)
 + [https://github.com/Snailclimb/awesome-java](https://github.com/Snailclimb/awesome-java)
+
 
 * 多个学习项目组织 [https://github.com/doocs](https://github.com/doocs)
 * [https://github.com/Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)

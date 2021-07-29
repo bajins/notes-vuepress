@@ -34,6 +34,7 @@
 * [https://github.com/citusdata/citus](https://github.com/citusdata/citus)
 * [https://db-engines.com/en/ranking](https://db-engines.com/en/ranking)
 * 分布式 [https://github.com/cockroachdb/cockroach](https://github.com/cockroachdb/cockroach)
+* [https://github.com/rethinkdb](https://github.com/rethinkdb)
 * [https://github.com/pingcap/tidb](https://github.com/pingcap/tidb)
     * [https://pingcap.com](https://pingcap.com)
 * [https://github.com/apache/cassandra](https://github.com/apache/cassandra)
@@ -363,6 +364,33 @@ WHEN MATCHED THEN
     UPDATE table_name SET col1 = col_val1
 WHEN NOT MATCHED THEN   
     INSERT (column_list) VALUES (column_values);
+```
+
+
+**修改字段**
+
+* [Oracle两种临时表的创建及使用方法](https://www.cnblogs.com/beloved-bq/p/12561512.html)
+
+```sql
+-- 创建会话级临时表来存储原数据，并删除表数据
+CREATE GLOBAL TEMPORARY TABLE TEST_BAK AS (SELECT * FROM TEST);
+
+-- 查看临时表数据
+SELECT * FROM TEST_BAK;
+
+-- 清空数据
+DELETE FROM TEST;
+-- 将目标字段数据清空
+--UPDATE TEST SET MEASURED = NULL;
+
+-- 修改表字段
+ALTER TABLE TEST MODIFY MEASURED NUMBER(18,6);
+
+-- 还原表结构
+INSERT INTO TEST SELECT * FROM TEST_BAK;
+
+-- 删除临时表
+DROP TABLE TEST_BAK;
 ```
 
 

@@ -238,6 +238,7 @@
 * [https://github.com/ModernFlyouts-Community/ModernFlyouts](https://github.com/ModernFlyouts-Community/ModernFlyouts)
 * [https://github.com/openhardwaremonitor/openhardwaremonitor](https://github.com/openhardwaremonitor/openhardwaremonitor)
 * poi [https://github.com/nissl-lab/npoi](https://github.com/nissl-lab/npoi)
+* WPF控件 [https://github.com/HandyOrg/HandyControl](https://github.com/HandyOrg/HandyControl)
 
 - [https://github.com/WilliamXu96/ABP-MicroService](https://github.com/WilliamXu96/ABP-MicroService)
 
