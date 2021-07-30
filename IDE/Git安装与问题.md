@@ -57,6 +57,10 @@
 ```bash
 # SVN不同分支，进行比对
 svn diff -r 1100:1323
+# 获取所有SVN提交作者用户名的列表
+# https://stackoverflow.com/questions/2494984/how-to-get-a-list-of-all-subversion-commit-author-usernames
+svn log --quiet | awk '/^r/ {print $3}' | sort | uniq
+svn log --quiet | grep "^r" | awk '{print $3}' | sort | uniq
 ```
 
 > 选中要比对的一个分支，<kbd>Shift</kbd>+右键+选中`TorsoiseSVN` -> `diff with url`，然后填入另外一个要比对的分支url即可
