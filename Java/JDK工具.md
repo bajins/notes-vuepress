@@ -102,6 +102,9 @@ jmap -dump:live,format=b,file=/tmp/heapdump.hprof PID
 * [https://github.com/zxh0/classpy](https://github.com/zxh0/classpy)
 
 - 反混淆 [https://github.com/java-deobfuscator/deobfuscator](https://github.com/java-deobfuscator/deobfuscator)
+- [jlink - 将一组模块及其依赖项组装并优化为自定义运行时映像](https://docs.oracle.com/en/java/javase/13/docs/specs/man/jlink.html)
+- [JDK14之jpackage命令](https://zhuanlan.zhihu.com/p/110087548)
+- [大家都是怎么发布Java客户端程序的？难道让用户自己装JRE？](https://www.zhihu.com/question/48990017)
 
 
 
@@ -133,6 +136,8 @@ jmap -dump:live,format=b,file=/tmp/heapdump.hprof PID
 | javap.exe        | class文件反编译工具                                             |
 | extcheck.exe     | 用于检测jar包中的问题                                             |
 | jcmd.exe         | Java命令行(Java Command)，用于向正在运行的JVM发送诊断命令请求。               |
+
+
 
 ### 安全工具
 

@@ -27,6 +27,7 @@
 - [https://mianbaoduo.com/o/lab](https://mianbaoduo.com/o/lab)
     - 赞赏 [https://dun.mianbaoduo.com](https://dun.mianbaoduo.com)
     - [https://mianbaoduo.com/help/#/lightning](https://mianbaoduo.com/help/#/lightning)
+- [https://afdian.net](https://afdian.net)
 - [https://stripe.com/zh-cn-us/payments/payment-methods-guide#wechat-pay](https://stripe.com/zh-cn-us/payments/payment-methods-guide#wechat-pay)
 - [https://github.com/biezhi/profit/wiki](https://github.com/biezhi/profit/wiki)
 - [https://github.com/topics/donate](https://github.com/topics/donate)
@@ -84,18 +85,25 @@
 * [https://gitlab.com/libvirt/libvirt](https://gitlab.com/libvirt/libvirt)
 * 开发证书 [https://github.com/topics/certificates](https://github.com/topics/certificates)
 * [https://github.com/FiloSottile/mkcert](https://github.com/FiloSottile/mkcert)
-* UI [https://github.com/sciter-sdk](https://github.com/sciter-sdk)
-    * [https://github.com/c-smile/sciter-sdk](https://github.com/c-smile/sciter-sdk)
-    * [https://github.com/c-smile/sciter-js-sdk](https://github.com/c-smile/sciter-js-sdk)
-    * [https://sciter.com](https://sciter.com)
-* [https://github.com/bellard/quickjs](https://github.com/bellard/quickjs)
-* [https://github.com/tcltk](https://github.com/tcltk)
 * 小型构建系统 [https://github.com/ninja-build/ninja](https://github.com/ninja-build/ninja)
 * 软件逆向工程框架 [https://github.com/NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
 * 文件系统 [https://github.com/ipfs](https://github.com/ipfs)
 * [https://github.com/webview](https://github.com/webview)
 * 压缩位图 [https://github.com/RoaringBitmap](https://github.com/RoaringBitmap)
 * 近似成员过滤器 [https://github.com/FastFilter](https://github.com/FastFilter)
+
+
+**多语言UI框架**
+
+* [https://github.com/sciter-sdk](https://github.com/sciter-sdk)
+    * [https://github.com/c-smile/sciter-sdk](https://github.com/c-smile/sciter-sdk)
+    * [https://github.com/c-smile/sciter-js-sdk](https://github.com/c-smile/sciter-js-sdk)
+    * [https://sciter.com](https://sciter.com)
+* [https://gitlab.gnome.org/GNOME/gtk](https://gitlab.gnome.org/GNOME/gtk)
+    * [https://www.gtk.org](https://www.gtk.org)
+* [https://github.com/bellard/quickjs](https://github.com/bellard/quickjs)
+* [https://github.com/tcltk](https://github.com/tcltk)
+* [https://www.qt.io](https://www.qt.io)
 
 
 
@@ -124,8 +132,11 @@
 **C/C++**
 
 * [https://zh.cppreference.com](https://zh.cppreference.com)
-* [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui)
-* [https://github.com/FlaxEngine/FlaxEngine](https://github.com/FlaxEngine/FlaxEngine)
+* UI [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui)
+* [https://github.com/cimgui/cimgui](https://github.com/cimgui/cimgui)
+* 3D游戏引擎 [https://github.com/FlaxEngine/FlaxEngine](https://github.com/FlaxEngine/FlaxEngine)
+* [https://github.com/mellinoe/veldrid](https://github.com/mellinoe/veldrid)
+* 2D [https://github.com/google/skia](https://github.com/google/skia)
 * 树莓派 [https://github.com/raspberrypi](https://github.com/raspberrypi)
 * 包管理 [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg)
     * [适用于Windows，Linux和MacOS的C ++库管理器](https://docs.microsoft.com/zh-cn/cpp/build/vcpkg)
@@ -203,6 +214,8 @@
 - [https://github.com/kotest/kotest](https://github.com/kotest/kotest)
 - [https://github.com/appmattus/kotlinfixture](https://github.com/appmattus/kotlinfixture)
 - [https://github.com/ktorio/ktor](https://github.com/ktorio/ktor)
+- UI [https://github.com/jetbrains/compose-jb](https://github.com/jetbrains/compose-jb)
+    - [https://www.jetbrains.com/lp/compose](https://www.jetbrains.com/lp/compose)
 
 
 **Groovy**
@@ -217,12 +230,16 @@
 
 + [https://github.com/dotnet-foundation](https://github.com/dotnet-foundation)
     + [https://dotnetfoundation.org/projects](https://dotnetfoundation.org/projects)
++ [https://github.com/xunit](https://github.com/xunit)
++ [https://github.com/AdrienTorris/awesome-blazor](https://github.com/AdrienTorris/awesome-blazor)
++ [https://github.com/adamralph](https://github.com/adamralph)
 
 * [https://github.com/dotnet](https://github.com/dotnet)
     * [https://docs.microsoft.com/zh-cn/dotnet](https://docs.microsoft.com/zh-cn/dotnet)
     * [https://dotnet.microsoft.com](https://dotnet.microsoft.com)
     * [https://dotnet.microsoft.com/download/dotnet-framework](https://dotnet.microsoft.com/download/dotnet-framework)
-* 包管理 [https://docs.microsoft.com/zh-cn/nuget](https://docs.microsoft.com/zh-cn/nuget)
+    * [https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
+    * 包管理 [https://docs.microsoft.com/zh-cn/nuget](https://docs.microsoft.com/zh-cn/nuget)
 * [https://github.com/mono/mono](https://github.com/mono/mono)
 * [https://docs.microsoft.com/zh-cn/aspnet](https://docs.microsoft.com/zh-cn/aspnet)
 * [https://docs.microsoft.com/zh-cn/cpp](https://docs.microsoft.com/zh-cn/cpp)
@@ -230,6 +247,9 @@
     * [https://docs.microsoft.com/zh-cn/xamarin](https://docs.microsoft.com/zh-cn/xamarin)
 * [https://github.com/microsoft/Windows-universal-samples](https://github.com/microsoft/Windows-universal-samples)
 * 测试 [https://github.com/restsharp/RestSharp](https://github.com/restsharp/RestSharp)
+* 权限 [https://github.com/IdentityServer/IdentityServer4](https://github.com/IdentityServer/IdentityServer4)
+* [https://github.com/AzureAD](https://github.com/AzureAD)
+* 断言 [https://github.com/fluentassertions](https://github.com/fluentassertions)
 
 - [https://docs.microsoft.com/zh-cn/windows/win32/apiindex/windows-api-list](https://docs.microsoft.com/zh-cn/windows/win32/apiindex/windows-api-list)
 - [https://visualstudio.microsoft.com/zh-hans/vs](https://visualstudio.microsoft.com/zh-hans/vs)
@@ -239,6 +259,14 @@
 * [https://github.com/openhardwaremonitor/openhardwaremonitor](https://github.com/openhardwaremonitor/openhardwaremonitor)
 * poi [https://github.com/nissl-lab/npoi](https://github.com/nissl-lab/npoi)
 * WPF控件 [https://github.com/HandyOrg/HandyControl](https://github.com/HandyOrg/HandyControl)
+* UI [https://github.com/SteveSandersonMS/WebWindow](https://github.com/SteveSandersonMS/WebWindow)
+* [https://github.com/tryphotino](https://github.com/tryphotino)
+* [https://github.com/mono/mono](https://github.com/mono/mono)
+* [https://github.com/qmlnet/qmlnet](https://github.com/qmlnet/qmlnet)
+* [https://github.com/mellinoe/ImGui.NET](https://github.com/mellinoe/ImGui.NET)
+* [https://github.com/picoe/Eto](https://github.com/picoe/Eto)
+* [https://github.com/AvaloniaUI](https://github.com/AvaloniaUI)
+* [https://github.com/JBildstein/SpiderEye](https://github.com/JBildstein/SpiderEye)
 
 - [https://github.com/WilliamXu96/ABP-MicroService](https://github.com/WilliamXu96/ABP-MicroService)
 

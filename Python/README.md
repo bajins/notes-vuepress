@@ -36,6 +36,7 @@
 * [https://github.com/jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days)
 * [内置异常和函数-LeaCoder](https://lichangke.github.io/category/#python)
 * [Python语言小册](https://python.fasionchan.com/zh_CN/latest/index.html)
+* [https://github.com/revolunet/PythonBooks](https://github.com/revolunet/PythonBooks)
 * 最良心的 Python 教程 [https://github.com/TwoWater/Python](https://github.com/TwoWater/Python)
 * [https://github.com/xxg1413/python](https://github.com/xxg1413/python)
 * [https://github.com/yidao620c/python3-cookbook](https://github.com/yidao620c/python3-cookbook)

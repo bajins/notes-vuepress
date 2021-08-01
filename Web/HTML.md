@@ -13,6 +13,8 @@
 + [https://developer.mozilla.org/zh-CN/docs/Web/HTML](https://developer.mozilla.org/zh-CN/docs/Web/HTML)
 + [https://github.com/thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
+- [https://github.com/bradtraversy/50projects50days](https://github.com/bradtraversy/50projects50days)
+
 
 **template代码片段**
 

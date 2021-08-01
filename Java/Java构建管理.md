@@ -9,6 +9,8 @@
 
 + [https://github.com/gradle/gradle](https://github.com/gradle/gradle)
     + [https://github.com/johnrengelman/shadow](https://github.com/johnrengelman/shadow)
+    + 自定义运行时映像 [https://github.com/beryx](https://github.com/beryx)
+    + 创建支持包重定位 [https://github.com/johnrengelman/shadow](https://github.com/johnrengelman/shadow)
 + [https://github.com/sbt/sbt](https://github.com/sbt/sbt)
 + 增量构建 [https://github.com/sakerbuild/saker.build](https://github.com/sakerbuild/saker.build)
 + [https://github.com/sakerbuild/saker.java.compiler](https://github.com/sakerbuild/saker.java.compiler)

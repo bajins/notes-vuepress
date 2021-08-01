@@ -51,6 +51,7 @@
 ## .ignore
 
 * [https://github.com/JetBrains/idea-gitignore](https://github.com/JetBrains/idea-gitignore)
+* [https://github.com/hsz/intellij-foldable-projectview](https://github.com/hsz/intellij-foldable-projectview)
 
 > 生成各种ignore文件，一键创建git ignore文件的模板，免得自己去写
 

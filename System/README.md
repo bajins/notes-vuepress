@@ -409,7 +409,7 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 * [https://github.com/search?q=数字权利](https://github.com/search?q=%E6%95%B0%E5%AD%97%E6%9D%83%E5%88%A9)
 
 + [Windows 10 Digital Activation](http://forum.ru-board.com/topic.cgi?forum=2&topic=5820&start=0)
-    * [https://www.solidfiles.com/folder/bd7165a0d4](https://www.solidfiles.com/folder/bd7165a0d4)
+    * [https://www.solidfiles.com/folder/bd7165a0d4/](https://www.solidfiles.com/folder/bd7165a0d4/)
 + 云萌 [https://github.com/TGSAN/CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition)
     + [https://tgsan.github.io/CMWTAT_Digital_Edition](https://tgsan.github.io/CMWTAT_Digital_Edition)
 + [https://github.com/ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey)

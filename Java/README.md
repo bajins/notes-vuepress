@@ -359,6 +359,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * 中文转拼音 [https://github.com/houbb/pinyin](https://github.com/houbb/pinyin)
 * [https://github.com/toolgood/ToolGood.Words](https://github.com/toolgood/ToolGood.Words)
 * 中文繁简体转换 [https://github.com/houbb/opencc4j](https://github.com/houbb/opencc4j)
+* [https://github.com/xiaodaojava/sunshine](https://github.com/xiaodaojava/sunshine)
 
 
 
@@ -717,4 +718,6 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/yhy0/ExpDemo-JavaFX](https://github.com/yhy0/ExpDemo-JavaFX)
 * [https://github.com/ZhouRuikang015/javafx-havefun](https://github.com/ZhouRuikang015/javafx-havefun)
 * [https://github.com/WBB1997/BingWallpaper](https://github.com/WBB1997/BingWallpaper)
+* 翻译 [https://github.com/omegat-org/omegat](https://github.com/omegat-org/omegat)
+    * [https://sourceforge.net/projects/omegat](https://sourceforge.net/projects/omegat)
 

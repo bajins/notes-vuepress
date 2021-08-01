@@ -71,6 +71,8 @@
 
 > 按<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd>输入`install`选择`Package Control: Install Package`再输入插件名称
 
+* [https://github.com/facelessuser/MarkdownPreview](https://github.com/facelessuser/MarkdownPreview)
+
 - ChineseLocalizations
 
 > 很简单的一个插件，现在支持汉化Sublime Text2，Sublime Text3。

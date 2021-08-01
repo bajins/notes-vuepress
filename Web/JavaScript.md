@@ -13,6 +13,7 @@
 + ECMAScript支持度检测 [https://github.com/ruanyf/es-checker](https://github.com/ruanyf/es-checker)
 + 检查JS文件中的ES版本 [https://github.com/dollarshaveclub/es-check](https://github.com/dollarshaveclub/es-check)
 + ES6支持情况 [https://kangax.github.io/compat-table/es6](https://kangax.github.io/compat-table/es6)
++ [https://www.javascript.com](https://www.javascript.com)
 
 * [JS刷新当前页面的几种方法总结](http://www.iqianduan.net/blog/refresh-browser-method)
 * [js keyup、keypress和keydown事件 详解](https://www.cnblogs.com/manongxiaobing/archive/2012/11/05/2755412.html)
@@ -46,6 +47,7 @@
     * [https://wangdoc.com](https://wangdoc.com)
 * [https://github.com/ruanyf/jstutorial](https://github.com/ruanyf/jstutorial)
     * [http://javascript.ruanyifeng.com](http://javascript.ruanyifeng.com)
+* [https://github.com/revolunet/JSbooks](https://github.com/revolunet/JSbooks)
 * ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
     * [https://es6.ruanyifeng.com](https://es6.ruanyifeng.com)
 * [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
