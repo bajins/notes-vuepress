@@ -681,6 +681,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 - [https://github.com/jfree/fxgraphics2d](https://github.com/jfree/fxgraphics2d)
 - 跨平台访问本机API [https://github.com/LWJGL](https://github.com/LWJGL)
 - 嵌入chrome内核浏览器 [https://jxbrowser-support.teamdev.com](https://jxbrowser-support.teamdev.com)
+- [https://github.com/kingsleyljc/web_browser](https://github.com/kingsleyljc/web_browser)
 - JavaFX的游戏超集 [https://github.com/AlmasB/FXGL](https://github.com/AlmasB/FXGL)
 - 缩放 [https://github.com/miho/ScaledFX](https://github.com/miho/ScaledFX)
 - [https://github.com/tom91136/GestureFX](https://github.com/tom91136/GestureFX)
