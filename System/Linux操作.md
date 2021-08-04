@@ -23,6 +23,7 @@
 + [https://www.linuxcool.com](https://www.linuxcool.com)
 + [https://man.linuxde.net](https://man.linuxde.net)
 + [Cron 定时任务表达式手册](https://www.gairuo.com/p/cron-expression-sheet)
++ Linux内核模块编程指南 [https://github.com/sysprog21/lkmpg](https://github.com/sysprog21/lkmpg)
 
 * [vi命令（vi编辑器）](http://c.biancheng.net/vi)
 * [vi 编辑器使用向导](https://wiki.jikexueyuan.com/project/unix/the-vi-editor.html)

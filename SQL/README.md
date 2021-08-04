@@ -37,6 +37,7 @@
 * [https://github.com/rethinkdb](https://github.com/rethinkdb)
 * [https://github.com/pingcap/tidb](https://github.com/pingcap/tidb)
     * [https://pingcap.com](https://pingcap.com)
+* [https://github.com/yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db)
 * [https://github.com/apache/cassandra](https://github.com/apache/cassandra)
 * CrateDB [https://github.com/crate/crate](https://github.com/crate/crate)
 * [https://github.com/influxdata/influxdb](https://github.com/influxdata/influxdb)

@@ -79,6 +79,8 @@
 
 ## 其他编程语言
 
++ [https://github.com/MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)
+
 * CPU仿真器框架 [https://github.com/unicorn-engine/unicorn](https://github.com/unicorn-engine/unicorn)
 * [https://github.com/virt-manager/virt-manager](https://github.com/virt-manager/virt-manager)
 * [https://www.qemu.org](https://www.qemu.org)
@@ -167,6 +169,7 @@
 + [https://github.com/lemire/SIMDCompressionAndIntersection](https://github.com/lemire/SIMDCompressionAndIntersection)
 + [https://github.com/lemire/FastPFor](https://github.com/lemire/FastPFor)
 + JSON [https://github.com/simdjson/simdjson](https://github.com/simdjson/simdjson)
++ 音乐可视化 [https://github.com/projectM-visualizer/projectm](https://github.com/projectM-visualizer/projectm)
 
 
 - 反汇编： C32asm、MYCCL、OD、IDA、softICE、WinDbg

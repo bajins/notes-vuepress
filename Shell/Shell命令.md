@@ -13,6 +13,7 @@
 > `Shell`管理你与操作系统之间的交互：等待你输入，向操作系统解释你的输入，并且处理各种各样的操作系统的输出结果。
 
 + [https://github.com/awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash)
++ 命令替代品 [https://github.com/ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix)
 
 * [Linux常用命令汇总](https://blog.csdn.net/Mculover666/article/details/84558280)
 

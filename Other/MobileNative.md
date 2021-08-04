@@ -297,9 +297,9 @@
 - [https://github.com/rumboalla/apkupdater](https://github.com/rumboalla/apkupdater)
 - [https://gitlab.com/AuroraOSS/AuroraStore](https://gitlab.com/AuroraOSS/AuroraStore)
 - [https://github.com/yeriomin/YalpStore](https://github.com/yeriomin/YalpStore)
+- [https://flathub.org](https://flathub.org)
 
 
-* [https://www.coolapk.com/apk/tag/微博](https://www.coolapk.com/apk/tag/%E5%BE%AE%E5%8D%9A)
 * see [https://caij.coding.net/public](https://caij.coding.net/public)
 * YouTube [https://github.com/YTVanced/VancedManager](https://github.com/YTVanced/VancedManager)
 * 谷歌框架 [https://opengapps.org](https://opengapps.org)
@@ -349,20 +349,6 @@
 + [https://dongji.lanzoui.com/b05a873cb](https://dongji.lanzoui.com/b05a873cb)
 + [https://dongji.lanzoui.com/b05a93hje](https://dongji.lanzoui.com/b05a93hje)
 
-* 文件传输 [http://www.xender.com](http://www.xender.com)
-* [https://github.com/interfect/fenix](https://github.com/interfect/fenix)
-* [https://feem.io](https://feem.io)
-* [https://github.com/szimek/sharedrop](https://github.com/szimek/sharedrop)
-    * [https://www.w3.org/TR/webrtc](https://www.w3.org/TR/webrtc)
-    * [https://github.com/RTC-Developer/WebRTC-Documentation-in-Chinese](https://github.com/RTC-Developer/WebRTC-Documentation-in-Chinese)
-    * [https://developer.mozilla.org/zh-CN/docs/Web/API/WebRTC_API](https://developer.mozilla.org/zh-CN/docs/Web/API/WebRTC_API)
-* ShareMe [https://rawapk.com/mi-drop-apk-download](https://rawapk.com/mi-drop-apk-download)
-    * [https://apkpure.com/cn/shareme-1-file-sharing-data-transfer-app/com.xiaomi.midrop](https://apkpure.com/cn/shareme-1-file-sharing-data-transfer-app/com.xiaomi.midrop)
-* ShareMi [https://apkpure.com/cn/sharemi-fast-transfer-file-fast-share-file/com.xlab.xdrop](https://apkpure.com/cn/sharemi-fast-transfer-file-fast-share-file/com.xlab.xdrop)
-* 文件闪传 [https://github.com/skyhacker2/skyhacker2.github.com/blob/master/blog/p/projects/index.md](https://github.com/skyhacker2/skyhacker2.github.com/blob/master/blog/p/projects/index.md)
-* K-9邮件 [https://github.com/k9mail](https://github.com/k9mail)
-
-
 
 **音乐下载**
 
@@ -375,6 +361,28 @@
 * [音乐下载应用](https://pan.lanzoui.com/b0f1kkdlg)
 * [听下音乐](https://bgg.lanzoui.com/b02bjj8pa)
 * [静听音乐](http://pan.lanzoui.com/b04aslz3c)
+
+
+**其他**
+
++ [https://github.com/topics/game](https://github.com/topics/game)
++ [https://github.com/topics/mobile-game](https://github.com/topics/mobile-game)
++ [https://github.com/topics/multiplatform](https://github.com/topics/multiplatform)
+
+
+* 文件传输 [http://www.xender.com](http://www.xender.com)
+* [https://github.com/interfect/fenix](https://github.com/interfect/fenix)
+* [https://feem.io](https://feem.io)
+* [https://github.com/szimek/sharedrop](https://github.com/szimek/sharedrop)
+    * [https://www.w3.org/TR/webrtc](https://www.w3.org/TR/webrtc)
+    * [https://github.com/RTC-Developer/WebRTC-Documentation-in-Chinese](https://github.com/RTC-Developer/WebRTC-Documentation-in-Chinese)
+    * [https://developer.mozilla.org/zh-CN/docs/Web/API/WebRTC_API](https://developer.mozilla.org/zh-CN/docs/Web/API/WebRTC_API)
+* ShareMe [https://rawapk.com/mi-drop-apk-download](https://rawapk.com/mi-drop-apk-download)
+    * [https://apkpure.com/cn/shareme-1-file-sharing-data-transfer-app/com.xiaomi.midrop](https://apkpure.com/cn/shareme-1-file-sharing-data-transfer-app/com.xiaomi.midrop)
+* ShareMi [https://apkpure.com/cn/sharemi-fast-transfer-file-fast-share-file/com.xlab.xdrop](https://apkpure.com/cn/sharemi-fast-transfer-file-fast-share-file/com.xlab.xdrop)
+* 文件闪传 [https://github.com/skyhacker2/skyhacker2.github.com/blob/master/blog/p/projects/index.md](https://github.com/skyhacker2/skyhacker2.github.com/blob/master/blog/p/projects/index.md)
+* K-9邮件 [https://github.com/k9mail](https://github.com/k9mail)
+* 沙盒塔防游戏 [https://github.com/Anuken/Mindustry](https://github.com/Anuken/Mindustry)
 
 
 

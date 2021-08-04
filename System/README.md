@@ -196,6 +196,8 @@
 * [https://github.com/stascorp/rdpwrap](https://github.com/stascorp/rdpwrap)
     * [Windows远程桌面单/多用户同时登录](https://blog.csdn.net/Aaron_Miller/article/details/109534277)
 
+- [https://sdi-tool.org](https://sdi-tool.org)
+- [https://www.iobit.com/en/driver-booster.php](https://www.iobit.com/en/driver-booster.php)
 
 
 **Wifi频繁断线**
