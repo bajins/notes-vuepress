@@ -22,8 +22,12 @@
 
 - [https://github.com/topics/classloader](https://github.com/topics/classloader)
 
+
+
+**可执行文件打包**
+
 * [https://jar-download.com](https://jar-download.com)
-* 可执行文件打包 [https://github.com/izpack/izpack](https://github.com/izpack/izpack)
+* [https://github.com/izpack/izpack](https://github.com/izpack/izpack)
     * [https://sourceforge.net/projects/packjacket](https://sourceforge.net/projects/packjacket)
 * [https://sourceforge.net/projects/launch4j](https://sourceforge.net/projects/launch4j)
 * [https://github.com/poidasmith/winrun4j](https://github.com/poidasmith/winrun4j)
@@ -36,6 +40,9 @@
 * [https://sourceforge.net/projects/mjar](https://sourceforge.net/projects/mjar)
 * [把Java应用程序安装成一个Windows NT服务或Unix Daemon](https://wrapper.tanukisoftware.com/doc/english/download.jsp)
 
+- [https://exe4j.apponic.com](https://exe4j.apponic.com)
+- [JavaFx应用打包](https://blog.csdn.net/paopao_wu/article/details/107641976)
+- [如何将 JavaFX 的程序打包成 exe，更进一步制作一个windows 安装程序?](https://www.zhihu.com/question/364933451)
 
 
 
@@ -177,6 +184,8 @@
 
 ## Maven
 
++ [https://maven.apache.org](https://maven.apache.org)
+    + [https://maven.apache.org/plugins/index.html](https://maven.apache.org/plugins/index.html)
 + [https://github.com/ibofine/mavenbook](https://github.com/ibofine/mavenbook)
     + [https://ibofine.github.io/mavenbook](https://ibofine.github.io/mavenbook)
 + [Maven详细教程](https://segmentfault.com/a/1190000015077021)
@@ -196,6 +205,8 @@
 + maven-assembly-plugin 支持自定义的打包结构，也可以定制依赖项等。
 + [https://github.com/apache/maven-wagon](https://github.com/apache/maven-wagon)
 + [https://github.com/takari/maven-wrapper](https://github.com/takari/maven-wrapper)
++ [https://github.com/mojohaus/exec-maven-plugin](https://github.com/mojohaus/exec-maven-plugin)
+
 
 - [开源的一小步----开源类库传至Maven中央仓库](https://www.cnblogs.com/shook/p/14415856.html)
 - [Maven(6) Java上传本地jar包到maven中央仓库](https://blog.csdn.net/qq_38225558/article/details/94381467)
@@ -242,13 +253,6 @@
 + [如何利用maven插件部署项目到远程运行环境](https://blog.csdn.net/lushuifa/article/details/106163624)
 + [使用site-maven-plugin在github上搭建公有仓库](http://www.flydean.com/apache-maven-git-repository)
 
-
-
-**插件**
-
-+ [https://maven.apache.org/plugins/index.html](https://maven.apache.org/plugins/index.html)
-
-* [https://github.com/mojohaus/exec-maven-plugin](https://github.com/mojohaus/exec-maven-plugin)
 
 
 

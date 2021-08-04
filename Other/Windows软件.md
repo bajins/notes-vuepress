@@ -485,8 +485,8 @@
     * JexChan工具 [https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g](https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g) 提取码s1dk
 * [单文件程序制作一键通by:杏雨梨云](https://www.xyboot.com/portableapp_onekey_ok_3in1)
 * [https://github.com/lxfly2000/7zsfx](https://github.com/lxfly2000/7zsfx)
-* [UltraModernUI](https://github.com/SuperPat45/UltraModernUI)
-* [Inno-by-KngStr](https://github.com/KngStr/Inno-All-in-One-Setup)
+* UltraModernUI [https://github.com/SuperPat45/UltraModernUI](https://github.com/SuperPat45/UltraModernUI)
+* Inno-by-KngStr [https://github.com/KngStr/Inno-All-in-One-Setup](https://github.com/KngStr/Inno-All-in-One-Setup)
 * [Advanced Installer官方](https://www.advancedinstaller.com/download.html)
 * [https://github.com/upx/upx](https://github.com/upx/upx)
     * [UPXShell汉化版](http://blog.sina.com.cn/s/blog_89a729a40102wjwo.html)
@@ -495,6 +495,7 @@
     * [https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation)
 
 - [https://github.com/wixtoolset/wix3](https://github.com/wixtoolset/wix3)
+    - [https://wixtoolset.org](https://wixtoolset.org)
 - [https://www.ej-technologies.com/download/install4j/files](https://www.ej-technologies.com/download/install4j/files)
 - [https://www.ej-technologies.com/download/exe4j/files](https://www.ej-technologies.com/download/exe4j/files)
 

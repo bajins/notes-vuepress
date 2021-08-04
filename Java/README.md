@@ -691,6 +691,10 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 - [https://github.com/kirill-grouchnikov/radiance](https://github.com/kirill-grouchnikov/radiance)
 - 无边框窗口 [https://github.com/micheljung/fxstage](https://github.com/micheljung/fxstage)
 - [https://github.com/micheljung/jfx-waitomo-theme](https://github.com/micheljung/jfx-waitomo-theme)
+- 对话框 [https://github.com/dustinkredmond/FXAlert](https://github.com/dustinkredmond/FXAlert)
+
+
+* Maven打包 [https://github.com/javafx-maven-plugin](https://github.com/javafx-maven-plugin)
 
 
 

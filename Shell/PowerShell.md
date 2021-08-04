@@ -156,6 +156,7 @@ del env:变量名
 $env:变量名="变量值"
 # .NET方法操作可以全局生效
 [environment]::SetEnvironmentvariable("变量名", "值", "值")
+[environment]::GetEnvironmentvariable("变量名", "变量名")
 
 # 查看输出的命令集
 Get-Command -verb out
