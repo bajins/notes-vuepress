@@ -253,6 +253,7 @@
 * 权限 [https://github.com/IdentityServer/IdentityServer4](https://github.com/IdentityServer/IdentityServer4)
 * [https://github.com/AzureAD](https://github.com/AzureAD)
 * 断言 [https://github.com/fluentassertions](https://github.com/fluentassertions)
+* 导入导出 [https://github.com/dotnetcore/Magicodes.IE](https://github.com/dotnetcore/Magicodes.IE)
 
 - [https://docs.microsoft.com/zh-cn/windows/win32/apiindex/windows-api-list](https://docs.microsoft.com/zh-cn/windows/win32/apiindex/windows-api-list)
 - [https://visualstudio.microsoft.com/zh-hans/vs](https://visualstudio.microsoft.com/zh-hans/vs)

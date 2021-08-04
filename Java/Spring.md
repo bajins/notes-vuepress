@@ -128,6 +128,8 @@ try {
 * [https://github.com/xuwujing/springBoot-study](https://github.com/xuwujing/springBoot-study)
 * [https://github.com/houko/SpringBootUnity](https://github.com/houko/SpringBootUnity)
 * [https://github.com/hemin1003/spring-boot-study](https://github.com/hemin1003/spring-boot-study)
+* [https://github.com/smltq/spring-boot-demo](https://github.com/smltq/spring-boot-demo)
+
 
 + [Springboot 优雅停止服务的几种方法](https://www.cnblogs.com/huangqingshi/p/11370291.html)
 + [SpringBoot系列: 如何优雅停止服务](https://www.cnblogs.com/exmyth/p/13098831.html)

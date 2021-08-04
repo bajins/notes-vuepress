@@ -8,8 +8,7 @@
 ## Flag
 
 + [https://github.com/topics/jvm](https://github.com/topics/jvm)
-+ [https://github.com/topics/openjdk](https://github.com/topics/openjdk)
-+ [https://github.com/topics/jdk](https://github.com/topics/jdk)
+
 
 * [https://www.ej-technologies.com](https://www.ej-technologies.com)
 * [https://github.com/oracle/graal](https://github.com/oracle/graal)
@@ -17,6 +16,7 @@
 * [https://www.oracle.com/cn/downloads](https://www.oracle.com/cn/downloads)
     * [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
     * [https://www.oracle.com/java/technologies/java-ee-glance.html](https://www.oracle.com/java/technologies/java-ee-glance.html)
+
 
 - [https://github.com/topics/native-image](https://github.com/topics/native-image)
     - [GraalVM Native Image介绍](https://aijishu.com/a/1060000000090571)
@@ -33,10 +33,16 @@
 
 ## OpenJDK
 
++ [https://github.com/topics/openjdk](https://github.com/topics/openjdk)
++ [https://github.com/topics/jdk](https://github.com/topics/jdk)
+
+
 * [https://github.com/openjdk](https://github.com/openjdk)
     * [http://hg.openjdk.java.net](http://hg.openjdk.java.net)
-    * [https://github.com/unofficial-openjdk/openjdk](https://github.com/unofficial-openjdk/openjdk)
 * [https://github.com/AdoptOpenJDK](https://github.com/AdoptOpenJDK)
+    * [https://adoptopenjdk.net](https://adoptopenjdk.net)
+* [https://github.com/adoptium](https://github.com/adoptium)
+    * [https://adoptium.net](https://adoptium.net)
 * [https://github.com/corretto](https://github.com/corretto)
     * [https://aws.amazon.com/cn/corretto](https://aws.amazon.com/cn/corretto)
 * [https://github.com/zulu-openjdk](https://github.com/zulu-openjdk)
