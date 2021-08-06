@@ -37,7 +37,7 @@
 * [https://www.chrome64bit.com](https://www.chrome64bit.com)
 * [https://chrome.playes.net/chrome](https://chrome.playes.net/chrome)
 
-- 删除Google Web服务依赖项 [https://github.com/Eloston/ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)
+- 无Google Web服务浏览器 [https://github.com/Eloston/ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)
 - [https://github.com/nwjs/chromium.src](https://github.com/nwjs/chromium.src)
 
 

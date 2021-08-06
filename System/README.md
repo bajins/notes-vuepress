@@ -143,6 +143,8 @@
     * [https://cloud.oracle.com/usage/reports](https://cloud.oracle.com/usage/reports)
     * [https://cloud.oracle.com/limits](https://cloud.oracle.com/limits)
     * [https://51.ruyo.net/tag/oracle-cloud](https://51.ruyo.net/tag/oracle-cloud)
+    * [Linux挂载存储卷](https://www.cnblogs.com/woetu/p/15106983.html)
+    * [Oracle Cloud 甲骨文云中给 VPS 添加新的块存储（CentOS 8.3.2011 磁盘分区和扩容）过程记录](https://blog.csdn.net/weixin_59409704/article/details/118461147)
     * 不建议使用用Oracle Linux镜像，无法设置root密码登录
     ```bash
     # 移除或禁用后台监控
