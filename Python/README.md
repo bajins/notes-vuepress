@@ -245,6 +245,9 @@ with Test() as t: # 触发__exit__
 - `ImportError: libGL.so.1: cannot open shared object file: No such file or directory`
     - `apt install libgl1-mesa-glx` debian
     - `yum install mesa-libGL-devel` centos
+- ` Could not find library geos_c or load any of its variants ['libgeos_c.so.1', 'libgeos_c.so']`
+    - `apt install libgeos-dev` debian
+    - `yum install geos-devel` centos
 
 
 * [https://github.com/alisen39/TrWebOCR](https://github.com/alisen39/TrWebOCR)

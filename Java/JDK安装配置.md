@@ -236,7 +236,7 @@ JAVA_OPTS="
 
 
 
-## CentOS安装JDK
+## Linux安装JDK
 
 **查看已安装**
 
@@ -258,23 +258,28 @@ yum -y list java*
 yum search java | grep -i --color JDK
 ```
 
+> `jdk-headless`为最小安装包，Java Runtime Environment (JRE) 主要包含了 Java 虚拟机（JVM），类和允许运行 Java 程序的二进制包。
+> Java Development Kit (JDK) 包含 JRE 和用于构建 Java 应用的开发/调试工具和库文件
+
 **yum安装JDK**
 
 ```bash
-yum -y install java-1.7.0-openjdk java-1.7.0-openjdk-devel.x86_64
+yum -y install java-1.8-openjdk java-1.7.0-openjdk-devel.x86_64
 ```
 
 > 通过yum默认安装的路径为`/usr/lib/jvm`
 
 **配置环境变量**
 
-- 在`/etc/profile`文件中加入
+- 在`/etc/profile`或`/etc/environment`文件中使用`gedit`或者`vim`或者`nano`加入以下几行内容
 
 ```bash
 ########## jdk  environment ######################
-export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.181-2.6.14.8.el7_5.x86_64
-export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-export PATH=$PATH:$JAVA_HOME/bin
+export JAVA_HOME=/usr/lib/jvm/java-1.8-openjdk
+# jdk8需要配置jre的环境
+export JRE_HOME=$JAVA_HOME/jre
+export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib:$JRE_HOME/lib
+export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 ########## jdk  environment ######################
 ```
 

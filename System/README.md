@@ -20,7 +20,6 @@
         * [获取证书（并选择插件）-官方文档](https://certbot.eff.org/docs/using.html#getting-certificates-and-choosing-plugins)
     * [临时处理OCSP域名无法访问的问题](https://holmesian.org/letsencrypt-ocsp-fix)
     * [「Certbot」- ocsp.int-x3.letsencrypt.org Read timed out](http://blog.k4nz.com/%E3%80%8Ccertbot%E3%80%8D-ocsp-int-x3-letsencrypt-org-read-timed-out)
-* 像libevent，libev和libuv一样，libhv提供具有非阻塞IO和计时器的事件循环 [https://github.com/ithewei/libhv](https://github.com/ithewei/libhv)
 
 - [https://github.com/ansible/ansible](https://github.com/ansible/ansible)
 - [https://www.gnome.org](https://www.gnome.org)

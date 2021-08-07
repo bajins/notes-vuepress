@@ -120,6 +120,7 @@
 * JQuery [https://github.com/jdeferred/jdeferred](https://github.com/jdeferred/jdeferred)
 * 播放器 [https://github.com/Bilibili/ijkplayer](https://github.com/Bilibili/ijkplayer)
 * [https://github.com/CarGuo/GSYVideoPlayer](https://github.com/CarGuo/GSYVideoPlayer)
+* 内存泄漏检测 [https://github.com/square/leakcanary](https://github.com/square/leakcanary)
 
 
 

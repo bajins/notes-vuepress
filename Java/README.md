@@ -213,6 +213,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
     + [https://github.com/henryyan/activiti-in-action-codes](https://github.com/henryyan/activiti-in-action-codes)
 + [https://github.com/apache/hadoop](https://github.com/apache/hadoop)
 + 云原生框架 [https://github.com/quarkusio/quarkus](https://github.com/quarkusio/quarkus)
++ [https://github.com/bootique/bootique](https://github.com/bootique/bootique)
 + 全堆栈框架 [https://github.com/micronaut-projects](https://github.com/micronaut-projects)
 
 
@@ -256,6 +257,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 - 地理空间数据 [https://github.com/geotools/geotools](https://github.com/geotools/geotools)
 - [https://github.com/geoserver/geoserver](https://github.com/geoserver/geoserver)
 - 几何图形 [https://github.com/GeoLatte/geolatte-geom](https://github.com/GeoLatte/geolatte-geom)
+- 科学计算 [https://github.com/deeplearning4j/nd4j](https://github.com/deeplearning4j/nd4j)
 
 
 **[HTTP](/Java/Java笔记.md#HTTP)**
@@ -304,6 +306,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/ben-manes/caffeine](https://github.com/ben-manes/caffeine)
 * GuavaCache使用示例 [https://github.com/songyaxu/guava-cache](https://github.com/songyaxu/guava-cache)
 * 存储和检索海量数据 [https://github.com/dCache/dcache](https://github.com/dCache/dcache)
+* 高效键值对存储 [https://github.com/OpenHFT/Chronicle-Map](https://github.com/OpenHFT/Chronicle-Map)
 
 
 
@@ -351,7 +354,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * Java8以下的时间替代项目`joda-time` [https://github.com/JodaOrg](https://github.com/JodaOrg)
 * [https://github.com/iandarwin/date4j](https://github.com/iandarwin/date4j)
 * Google加密 [https://github.com/google/tink](https://github.com/google/tink)
-* bcprov-jdk15on [https://github.com/bcgit/bc-java](https://github.com/bcgit/bc-java)
+* bcprov-jdk15on [https://github.com/bcgit/bc-java](https://github.com/bcgit/bc-java) Bouncy Castle Crypto
 * Apache Commons编解码器 [https://github.com/apache/commons-codec](https://github.com/apache/commons-codec)
 * Headless Chrome For Java [https://github.com/fanyong920/jvppeteer](https://github.com/fanyong920/jvppeteer)
 * [https://github.com/andotorg/utf8bom-to-utf8](https://github.com/andotorg/utf8bom-to-utf8)
@@ -360,6 +363,11 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/toolgood/ToolGood.Words](https://github.com/toolgood/ToolGood.Words)
 * 中文繁简体转换 [https://github.com/houbb/opencc4j](https://github.com/houbb/opencc4j)
 * [https://github.com/xiaodaojava/sunshine](https://github.com/xiaodaojava/sunshine)
+*  数据可视化 [https://github.com/jtablesaw/tablesaw](https://github.com/jtablesaw/tablesaw)
+* 字符串编码解码 [https://github.com/shekhargulati/strman-java](https://github.com/shekhargulati/strman-java)
+* 元组 [https://github.com/javatuples](https://github.com/javatuples)
+    * [在Java中使用元组类型的利器javatuples](https://blog.csdn.net/lijingjingchn/article/details/87279294)
+* 结构工具 [https://github.com/vavr-io/vavr](https://github.com/vavr-io/vavr)
 
 
 
@@ -455,13 +463,6 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 
 
-
-**加密**
-
-* bcprov-jdk15on [http://www.bouncycastle.org/java.html](http://www.bouncycastle.org/java.html) Bouncy Castle Crypto
-
-
-
 **地区数据**
 
 + [https://github.com/topics/area](https://github.com/topics/area)
@@ -490,6 +491,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 + [https://github.com/YeDaxia/JApiDocs](https://github.com/YeDaxia/JApiDocs)
 
 * [https://github.com/alibaba/easyexcel](https://github.com/alibaba/easyexcel)
+* [https://github.com/plutext/docx4j](https://github.com/plutext/docx4j)
+* 报表 [https://community.jaspersoft.com](https://community.jaspersoft.com)
 * 输出word [https://github.com/Sayi/poi-tl](https://github.com/Sayi/poi-tl)
 * [https://github.com/apache/poi](https://github.com/apache/poi)
     * [http://poi.apache.org/components/spreadsheet](http://poi.apache.org/components/spreadsheet)
@@ -660,12 +663,12 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 + [https://github.com/JFXtras](https://github.com/JFXtras)
 + [https://github.com/JonathanGiles](https://github.com/JonathanGiles)
 + [https://github.com/Drombler](https://github.com/Drombler)
++ [https://github.com/jfree](https://github.com/jfree)
 
 
 
 - [https://github.com/FXMisc](https://github.com/FXMisc)
 - SVG [https://github.com/blackears/svgSalamander](https://github.com/blackears/svgSalamander)
-- [https://github.com/jfree/jfreesvg](https://github.com/jfree/jfreesvg)
 - [https://github.com/piusalfred/ikonfx](https://github.com/piusalfred/ikonfx)
 - [https://github.com/openrndr/openrndr](https://github.com/openrndr/openrndr)
 - 扁平UI [https://github.com/JFormDesigner/FlatLaf](https://github.com/JFormDesigner/FlatLaf)
@@ -678,7 +681,6 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 - 进度条 [https://github.com/ctongfei/progressbar](https://github.com/ctongfei/progressbar)
 - 3D [https://github.com/JogAmp](https://github.com/JogAmp)
 - [https://github.com/saalfeldlab/paintera](https://github.com/saalfeldlab/paintera)
-- [https://github.com/jfree/fxgraphics2d](https://github.com/jfree/fxgraphics2d)
 - 跨平台访问本机API [https://github.com/LWJGL](https://github.com/LWJGL)
 - 嵌入chrome内核浏览器 [https://jxbrowser-support.teamdev.com](https://jxbrowser-support.teamdev.com)
 - [https://github.com/kingsleyljc/web_browser](https://github.com/kingsleyljc/web_browser)
@@ -692,6 +694,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 - 无边框窗口 [https://github.com/micheljung/fxstage](https://github.com/micheljung/fxstage)
 - [https://github.com/micheljung/jfx-waitomo-theme](https://github.com/micheljung/jfx-waitomo-theme)
 - 对话框 [https://github.com/dustinkredmond/FXAlert](https://github.com/dustinkredmond/FXAlert)
+*  数据框可视化 [https://github.com/PatMartin/Dex](https://github.com/PatMartin/Dex)
 
 
 * Maven打包 [https://github.com/javafx-maven-plugin](https://github.com/javafx-maven-plugin)

@@ -95,6 +95,9 @@
 * 近似成员过滤器 [https://github.com/FastFilter](https://github.com/FastFilter)
 
 
+- [https://github.com/JuliaLang/julia](https://github.com/JuliaLang/julia)
+
+
 **多语言UI框架**
 
 * [https://github.com/sciter-sdk](https://github.com/sciter-sdk)
@@ -170,6 +173,10 @@
 + [https://github.com/lemire/FastPFor](https://github.com/lemire/FastPFor)
 + JSON [https://github.com/simdjson/simdjson](https://github.com/simdjson/simdjson)
 + 音乐可视化 [https://github.com/projectM-visualizer/projectm](https://github.com/projectM-visualizer/projectm)
++ [https://github.com/ithewei/libhv](https://github.com/ithewei/libhv)
++ [https://github.com/libevent/libevent](https://github.com/libevent/libevent)
++ [https://github.com/enki/libev](https://github.com/enki/libev)
++ [https://github.com/libuv/libuv](https://github.com/libuv/libuv)
 
 
 - 反汇编： C32asm、MYCCL、OD、IDA、softICE、WinDbg
