@@ -278,7 +278,7 @@ yum -y install java-1.8-openjdk java-1.7.0-openjdk-devel.x86_64
 export JAVA_HOME=/usr/lib/jvm/java-1.8-openjdk
 # jdk8需要配置jre的环境
 export JRE_HOME=$JAVA_HOME/jre
-export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib:$JRE_HOME/lib
+export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib
 export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 ########## jdk  environment ######################
 ```
@@ -303,4 +303,17 @@ java -version
 
 
 
+## Windows环境变量
+
+```batch
+setx /m JAVA_HOME "C:\Program Files\Java\jre1.8.0_171"
+
+setx /m CATALINA_HOME "D:\apache-tomcat-8.5.30"
+
+setx /m JRE_HOME "%JAVA_HOME%\jre;"
+
+setx /m CLASSPATH ".;%JAVA_HOME%\lib;%JRE_HOME%\lib;"
+
+setx /m Path "%PATH%;%JAVA_HOME%\bin;%JRE_HOME%\bin;%MAVEN_HOME%\bin;%CATALINA_HOME%\bin;"
+```
 

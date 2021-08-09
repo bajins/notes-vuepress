@@ -179,6 +179,7 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 * [https://github.com/search?q=tmux](https://github.com/search?q=tmux)
 * [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
+    * [can't create socket: Permission denied](https://github.com/tmux/tmux/issues/1215)
 * [https://github.com/gpakosz/.tmux](https://github.com/gpakosz/.tmux)
 * [https://github.com/tmux-plugins](https://github.com/tmux-plugins)
 * [http://www.ruanyifeng.com/blog/2019/10/tmux.html](http://www.ruanyifeng.com/blog/2019/10/tmux.html)

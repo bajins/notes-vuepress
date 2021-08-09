@@ -159,25 +159,14 @@
 * [https://github.com/DreamCats/java-notes](https://github.com/DreamCats/java-notes)
 * [https://github.com/winterbe/java8-tutorial](https://github.com/winterbe/java8-tutorial)
     * Java 8 简明教程 [https://github.com/wizardforcel/modern-java-zh](https://github.com/wizardforcel/modern-java-zh)
+* [https://github.com/zq99299/java-tutorial](https://github.com/zq99299/java-tutorial)
+
 
 + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
 + [https://github.com/Wizzercn/MqttWk](https://github.com/Wizzercn/MqttWk)
 + 程序员考公务员 [https://github.com/coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy)
 
 
-## windows环境变量
-
-```batch
-setx /m JAVA_HOME "C:\Program Files\Java\jre1.8.0_171"
-
-setx /m CATALINA_HOME "D:\apache-tomcat-8.5.30"
-
-setx /m CLASSPATH ".;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;%CATALINA_HOME%\lib;"
-
-setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATALINA_HOME%\bin;"
-```
-
-* [https://github.com/zq99299/java-tutorial](https://github.com/zq99299/java-tutorial)
 
 
 
@@ -368,6 +357,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * 元组 [https://github.com/javatuples](https://github.com/javatuples)
     * [在Java中使用元组类型的利器javatuples](https://blog.csdn.net/lijingjingchn/article/details/87279294)
 * 结构工具 [https://github.com/vavr-io/vavr](https://github.com/vavr-io/vavr)
+* [https://github.com/eclipse/eclipse-collections](https://github.com/eclipse/eclipse-collections)
 
 
 

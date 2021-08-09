@@ -1,4 +1,4 @@
-# CAS和Shiro内外网双IP动态访问
+# CAS和Shiro内外网访问
 
 > 由于有需求要实现内外网双IP访问同一个应用，但是当前已部署的应用使用的cas+shiro的跳转url在spring的配置xml中写死的，所以需要实现判断来源HOST动态单点登录和跳转
 

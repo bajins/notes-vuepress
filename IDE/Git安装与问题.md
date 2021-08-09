@@ -30,44 +30,6 @@
 
 
 
-
-**SVN**
-
-+ [https://github.com/topics/subversion](https://github.com/topics/subversion)
-
-- [https://github.com/apache/subversion](https://github.com/apache/subversion)
-    - windows服务端 [https://www.visualsvn.com](https://www.visualsvn.com)
-    - [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
-
-> 按装`VisualSVN`后客户端使用报错：`执行上下文错误: 由于目标计算机积极拒绝，无法连接。`，需要在`服务`列表中找到相关服务 -> 
-> 右键打开属性 -> 点击登录页签修改`登录身份`为`本地系统账户` -> 点击常规页签修改`启动类型`为`自启动`，再点击启动
-
-- Edge：RESTful API [https://www.collab.net/downloads/subversion](https://www.collab.net/downloads/subversion)
-    - [http://sharpsvn.open.collab.net](http://sharpsvn.open.collab.net)
-    - [如何在windows系统下搭建SVN服务器](https://blog.csdn.net/weixin_52588152/article/details/111659773)
-- [https://www.wandisco.com/source-code-management/subversion](https://www.wandisco.com/source-code-management/subversion)
-- [https://sliksvn.com/pub](https://sliksvn.com/pub)
-- [https://github.com/jenkinsci/subversion-plugin](https://github.com/jenkinsci/subversion-plugin)
-- [https://github.com/subclipse](https://github.com/subclipse)
-    - [http://subversion.apache.org/packages.html](http://subversion.apache.org/packages.html)
-    - Subversion for Java [https://svnkit.com](https://svnkit.com)
-
-* [TortoiseSVN打分支、合并分支、切换分支](https://blog.csdn.net/justry_deng/article/details/82259470)
-
-```bash
-# SVN不同分支，进行比对
-svn diff -r 1100:1323
-# 获取所有SVN提交作者用户名的列表
-# https://stackoverflow.com/questions/2494984/how-to-get-a-list-of-all-subversion-commit-author-usernames
-svn log --quiet | awk '/^r/ {print $3}' | sort | uniq
-svn log --quiet | grep "^r" | awk '{print $3}' | sort | uniq
-```
-
-> 选中要比对的一个分支，<kbd>Shift</kbd>+右键+选中`TorsoiseSVN` -> `diff with url`，然后填入另外一个要比对的分支url即可
-
-
-
-
 **Git与SVN区别**
 
 - git是分布式，svn是集中式；
