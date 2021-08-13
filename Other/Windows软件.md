@@ -748,8 +748,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 * WizTree [https://diskanalyzer.com](https://diskanalyzer.com)
 * Treesize [https://www.jam-software.com/treesize_free](https://www.jam-software.com/treesize_free)
+* [https://sourceforge.net/projects/windirstat](https://sourceforge.net/projects/windirstat)
 * SpaceSniffer [http://www.uderzo.it/main_products/space_sniffer/index.html](http://www.uderzo.it/main_products/space_sniffer/index.html)
-
 
 
 
