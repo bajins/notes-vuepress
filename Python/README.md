@@ -166,6 +166,8 @@ with Test() as t: # 触发__exit__
     * [https://colab.research.google.com](https://colab.research.google.com)
     * [https://github.com/PradyumnaKrishna/Colab-Hacks](https://github.com/PradyumnaKrishna/Colab-Hacks)
 * [https://console.cloud.google.com/ai-platform/notebooks](https://console.cloud.google.com/ai-platform/notebooks)
+* [https://devcloud.intel.com/zh/edge](https://devcloud.intel.com/zh/edge)
+    * [https://notebooks.edge.devcloud.intel.com](https://notebooks.edge.devcloud.intel.com)
 * CoCalc [https://cocalc.com](https://cocalc.com)
 * Azure Notebooks [https://notebooks.azure.com](https://notebooks.azure.com)
     * [Azure Notebooks 预览版概述](https://docs.microsoft.com/zh-cn/azure/notebooks/azure-notebooks-overview)

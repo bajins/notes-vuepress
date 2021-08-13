@@ -717,11 +717,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 + [https://github.com/topics/compare](https://github.com/topics/compare)
 + [https://github.com/topics/compare-files](https://github.com/topics/compare-files)
 
-* [https://github.com/winmerge/winmerge](https://github.com/winmerge/winmerge)
-* [https://www.scootersoftware.com](https://www.scootersoftware.com)
-* [https://www.ultraedit.com/products/ultracompare](https://www.ultraedit.com/products/ultracompare)
-* [https://www.devart.com/codecompare](https://www.devart.com/codecompare)
-* 文件对比 [https://www.beyondcomparepro.com](https://www.beyondcomparepro.com)
+
 * 文件同步 [https://freefilesync.org](https://freefilesync.org)
 * 文件搜索 [https://www.listary.com/pro](https://www.listary.com/pro)
 * Everything [https://www.voidtools.com](https://www.voidtools.com)
@@ -739,9 +735,25 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [傲梅分区助手PartAssist](https://www.lanzoui.com/b0f1etedc)
 
 
+**文件对比**
+
+* [https://github.com/winmerge/winmerge](https://github.com/winmerge/winmerge)
+* [https://www.scootersoftware.com](https://www.scootersoftware.com)
+* [https://www.ultraedit.com/products/ultracompare](https://www.ultraedit.com/products/ultracompare)
+* [https://www.devart.com/codecompare](https://www.devart.com/codecompare)
+* [https://www.beyondcomparepro.com](https://www.beyondcomparepro.com)
 
 
-**密码管理**
+**磁盘空间分析器**
+
+* WizTree [https://diskanalyzer.com](https://diskanalyzer.com)
+* Treesize [https://www.jam-software.com/treesize_free](https://www.jam-software.com/treesize_free)
+* SpaceSniffer [http://www.uderzo.it/main_products/space_sniffer/index.html](http://www.uderzo.it/main_products/space_sniffer/index.html)
+
+
+
+
+## 密码管理
 
 > cloud-based TOTP apps
 
