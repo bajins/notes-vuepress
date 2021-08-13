@@ -96,6 +96,9 @@
 
 
 - [https://github.com/JuliaLang/julia](https://github.com/JuliaLang/julia)
+- [https://github.com/nim-lang/Nim](https://github.com/nim-lang/Nim)
+    - [https://nim-lang.org](https://nim-lang.org)
+    - [https://github.com/xmonader/nimdays](https://github.com/xmonader/nimdays)
 
 
 **多语言UI框架**
@@ -119,6 +122,8 @@
 * [http://doc.rust-lang.org](http://doc.rust-lang.org)
 * [https://github.com/rust-zh/faq](https://github.com/rust-zh/faq)
 
+
+- [https://github.com/tomassedovic/roguelike-tutorial](https://github.com/tomassedovic/roguelike-tutorial)
 - [Rust - 花落花开](http://www.hualuohuakai.net/tags/Rust)
 - [https://budshome.com](https://budshome.com)
 - [https://github.com/mesalock-linux/mesalink](https://github.com/mesalock-linux/mesalink)
@@ -131,6 +136,11 @@
 - [https://github.com/staktrace/quoted-printable](https://github.com/staktrace/quoted-printable)
 - UI [https://github.com/linebender/druid](https://github.com/linebender/druid)
 - 文件系统 [https://github.com/zboxfs/zbox](https://github.com/zboxfs/zbox)
+- 游戏引擎 [https://github.com/PistonDevelopers/piston](https://github.com/PistonDevelopers/piston)
+- 搜索算法 [https://github.com/hora-search/hora](https://github.com/hora-search/hora)
+
+
+* [https://github.com/a5huynh/defender-game](https://github.com/a5huynh/defender-game)
 
 
 
@@ -142,6 +152,7 @@
 * 3D游戏引擎 [https://github.com/FlaxEngine/FlaxEngine](https://github.com/FlaxEngine/FlaxEngine)
 * [https://github.com/mellinoe/veldrid](https://github.com/mellinoe/veldrid)
 * 2D [https://github.com/google/skia](https://github.com/google/skia)
+* [https://github.com/JoeyDeVries/LearnOpenGL](https://github.com/JoeyDeVries/LearnOpenGL)
 * 树莓派 [https://github.com/raspberrypi](https://github.com/raspberrypi)
 * 包管理 [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg)
     * [适用于Windows，Linux和MacOS的C ++库管理器](https://docs.microsoft.com/zh-cn/cpp/build/vcpkg)

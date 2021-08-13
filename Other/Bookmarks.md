@@ -130,12 +130,14 @@
 * Linux应用程序 [https://github.com/luong-komorebi/Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software)
 * [https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
 * [https://github.com/shekhargulati/99-problems](https://github.com/shekhargulati/99-problems)
+* [https://github.com/danistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x)
 
 
 
 ## 学习
 
 + [https://github.com/topics/leetcode](https://github.com/topics/leetcode)
++ [https://github.com/yifeikong/reverse-interview-zh](https://github.com/yifeikong/reverse-interview-zh)
 
 * CSDN [https://www.csdn.net](https://www.csdn.net)
 * 博客园 [https://www.cnblogs.com](https://www.cnblogs.com)
@@ -164,6 +166,7 @@
 * 文泉考试 [https://www.wqkaoshi.com](https://www.wqkaoshi.com)
 * 通过实践学习 [https://scrimba.com](https://scrimba.com)
 * [https://www.geeksforgeeks.org](https://www.geeksforgeeks.org)
+* [https://flaviocopes.com](https://flaviocopes.com)
 
 
 

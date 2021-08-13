@@ -31,6 +31,9 @@
 * [https://vimjc.com/archives](https://vimjc.com/archives)
 
 
+- [https://github.com/busyloop/lolcat](https://github.com/busyloop/lolcat)
+- 替代find [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
+
 
 
 **软件套件**

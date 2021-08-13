@@ -91,7 +91,7 @@ public static void createInstanceSetter(Class<?> clazz) {
 - 顶部菜单 -> `Source` -> `Clean Up` 针对代码的内容进行整理，比如去除无用代码或者引用包。
 - 顶部菜单 -> `Source` -> `Organize Imports` 去除单个类中无用的引用包信息<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd>
 - 顶部菜单 -> `Source` -> `Format` 对代码的格式进行整理，比如设置了`Table`为4个空格，那么将会转换。
-- 顶部菜单 -> `Project` -> `Clean` 根据当前项目情况更新`.classpath`文件的内容，强制检查已安装插件，清除编译信息，重新部署项目。
+- 顶部菜单 -> `Project` -> `Clean` 根据项目`.classpath`文件，清除编译信息，重新部署到`Java Build Path`下的`Default output folder`中。
 - `Servers` -> `Clean` 是指原先编译到tomcat服务器上的程序，先清除掉，然后再重新编译。
 - `Servers` -> `Clean Tomcat Work Directory...` 将已发布项目中存放jsp转译后的class文件的work目录删除
 

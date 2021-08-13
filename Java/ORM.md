@@ -22,6 +22,22 @@
 
 - [https://github.com/itfsw/mybatis-generator-plugin](https://github.com/itfsw/mybatis-generator-plugin)
 - CRUD生成器 [https://github.com/SanjinKurelic/MVCGenerator](https://github.com/SanjinKurelic/MVCGenerator)
+- 数据库中间件 [https://github.com/apache/shardingsphere](https://github.com/apache/shardingsphere)
+- 连接池 [https://github.com/brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP)
+
+
+
+**Transaction**
+
+* [https://github.com/Dromara](https://github.com/Dromara)
+* [https://github.com/codingapi/tx-lcn](https://github.com/codingapi/tx-lcn)
+* [https://github.com/seata/seata](https://github.com/seata/seata)
+* [https://github.com/changmingxie/tcc-transaction](https://github.com/changmingxie/tcc-transaction)
+* [https://github.com/QNJR-GROUP/EasyTransaction](https://github.com/QNJR-GROUP/EasyTransaction)
+* [https://github.com/liuyangming/ByteTCC](https://github.com/liuyangming/ByteTCC)
+* [https://github.com/wchswchs/Hulk](https://github.com/wchswchs/Hulk)
+
+
 
 
 

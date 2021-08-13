@@ -299,20 +299,6 @@
 
 
 
-**Transaction**
-
-* [https://github.com/Dromara](https://github.com/Dromara)
-* [https://github.com/codingapi/tx-lcn](https://github.com/codingapi/tx-lcn)
-* [https://github.com/seata/seata](https://github.com/seata/seata)
-* [https://github.com/changmingxie/tcc-transaction](https://github.com/changmingxie/tcc-transaction)
-* [https://github.com/QNJR-GROUP/EasyTransaction](https://github.com/QNJR-GROUP/EasyTransaction)
-* [https://github.com/liuyangming/ByteTCC](https://github.com/liuyangming/ByteTCC)
-* [https://github.com/wchswchs/Hulk](https://github.com/wchswchs/Hulk)
-
-- 数据库中间件 [https://github.com/apache/shardingsphere](https://github.com/apache/shardingsphere)
-- [https://github.com/brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP)
-
-
 
 **延迟队列**
 
@@ -672,6 +658,7 @@
 - 3D [https://github.com/JogAmp](https://github.com/JogAmp)
 - [https://github.com/saalfeldlab/paintera](https://github.com/saalfeldlab/paintera)
 - 跨平台访问本机API [https://github.com/LWJGL](https://github.com/LWJGL)
+    - [https://github.com/lwjglgamedev/lwjglbook-bookcontents](https://github.com/lwjglgamedev/lwjglbook-bookcontents)
 - 嵌入chrome内核浏览器 [https://jxbrowser-support.teamdev.com](https://jxbrowser-support.teamdev.com)
 - [https://github.com/kingsleyljc/web_browser](https://github.com/kingsleyljc/web_browser)
 - JavaFX的游戏超集 [https://github.com/AlmasB/FXGL](https://github.com/AlmasB/FXGL)
