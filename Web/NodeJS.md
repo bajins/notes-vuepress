@@ -65,11 +65,16 @@
 + [https://github.com/topics/dependency-manager](https://github.com/topics/dependency-manager)
 + [https://github.com/topics/environment](https://github.com/topics/environment)
 
+- [https://nodejs.org/zh-cn/download/package-manager](https://nodejs.org/zh-cn/download/package-manager)
+
 * [https://github.com/tj/n](https://github.com/tj/n)
     * [https://github.com/mklement0/n-install](https://github.com/mklement0/n-install)
 * [https://github.com/Jrohy/nodejs-install](https://github.com/Jrohy/nodejs-install)
+* [https://github.com/jasongin/nvs](https://github.com/jasongin/nvs)
 * [https://github.com/nodenv/nodenv](https://github.com/nodenv/nodenv)
 * [https://github.com/nodesource/distributions](https://github.com/nodesource/distributions)
+* [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm)
+
 
 ```bash
 # 检查Node.js和NPM版本

@@ -7,10 +7,10 @@
 
 # Flag
 
-* [https://www.kernel.org](https://www.kernel.org)
-* 各个版本控件支持库 [https://pkgs.org](https://pkgs.org)
-* 软件包管理器 [https://github.com/NixOS/nix](https://github.com/NixOS/nix)
-* 编译嵌入式 [https://github.com/buildroot/buildroot](https://github.com/buildroot/buildroot)
++ [https://www.kernel.org](https://www.kernel.org)
+
+
+* 编译嵌入式Linux [https://github.com/buildroot/buildroot](https://github.com/buildroot/buildroot)
 * 服务器音频播放器 [https://github.com/badaix/snapcast](https://github.com/badaix/snapcast)
 * 桌面 [https://github.com/kernelslacker/trinity](https://github.com/kernelslacker/trinity)
 * [https://kde.org/zh-cn/plasma-desktop](https://kde.org/zh-cn/plasma-desktop)
@@ -19,6 +19,8 @@
     - [Little Kernel 代码走读（一） – 易也技术](http://yiiyee.cn/blog/2019/08/28/lk1)
     - [https://github.com/dahliaOS/fimage](https://github.com/dahliaOS/fimage)
     - [https://fuchsia.fsf.org.cn](https://fuchsia.fsf.org.cn)
+
+
 
 
 ## 源码安装卸载软件

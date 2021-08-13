@@ -155,6 +155,7 @@
 
 + [https://github.com/search?q=autojs](https://github.com/search?q=autojs)
 + [https://github.com/topics/autojs](https://github.com/topics/autojs)
+* [https://github.com/topics/accessibilityservice](https://github.com/topics/accessibilityservice)
 + [https://github.com/hyb1996/Auto.js](https://github.com/hyb1996/Auto.js)
     + [https://github.com/SuperMonster002/Hello_Sockpuppet](https://github.com/SuperMonster002/Hello_Sockpuppet)
 + [https://github.com/TonyJiangWJ/AutoScriptBase](https://github.com/TonyJiangWJ/AutoScriptBase)
@@ -162,9 +163,9 @@
 + [https://github.com/easy-click/easyclick-libs](https://github.com/easy-click/easyclick-libs)
 + [https://github.com/snailuncle/autojsDemo](https://github.com/snailuncle/autojsDemo)
 + [https://github.com/ivanwhaf/xxqg-helper](https://github.com/ivanwhaf/xxqg-helper)
++ [https://github.com/hamibot](https://github.com/hamibot)
 
 
-* [https://github.com/topics/accessibilityservice](https://github.com/topics/accessibilityservice)
 * [https://github.com/Orange-shirt/OrangeJs](https://github.com/Orange-shirt/OrangeJs)
 * 清理微信僵尸粉 [https://github.com/L8426936/CleanUpWeChatZombieFans](https://github.com/L8426936/CleanUpWeChatZombieFans)
 * [https://github.com/georgehuan1994/DingDing-Automatic-Clock-in](https://github.com/georgehuan1994/DingDing-Automatic-Clock-in)

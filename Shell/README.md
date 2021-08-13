@@ -14,14 +14,6 @@
 - [流行的 Linux 发行版包管理器命令的对应关系](https://wiki.archlinux.org/index.php/Pacman_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Rosetta_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 - [Linux包管理器及包安装工具基础知识](https://blog.csdn.net/u013430110/article/details/107329350)
 - GUI [什么是X11-Forwarding](https://blog.csdn.net/weixin_41668084/article/details/113361765)
-
-+ 包管理器 [https://github.com/Homebrew](https://github.com/Homebrew)
-+ [https://github.com/AppImage](https://github.com/AppImage)
-+ [https://github.com/flatpak/flatpak](https://github.com/flatpak/flatpak)
-+ [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
-+ 多个shell软件包镜像 [https://github.com/mirror](https://github.com/mirror)
-+ [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
-
 - 命令补全 [https://github.com/scop/bash-completion](https://github.com/scop/bash-completion)
 - [https://sourceforge.net/projects/zsh](https://sourceforge.net/projects/zsh)
 - [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
@@ -51,6 +43,28 @@
 > 终端（Terminal）是控制台（Console）设备内的软件程序。shell是终端向用户发送输入的程序。shell生成输出并将其传回终端进行显示。
 
 
+**推荐所有shell脚本都使用sh实现，[Windows可安装Git（集成MinGW-w64）、MinGW-w64、MSYS2、Cygwin](/Shell/ShellWindows.md)**
+**Windows10下推荐使用WSL**
+
+
+
+
+## 包管理
+
+* 软件包管理器 [https://github.com/NixOS/nix](https://github.com/NixOS/nix)
+* [https://github.com/joyent/pkgsrc](https://github.com/joyent/pkgsrc)
++ [https://github.com/Homebrew/brew](https://github.com/Homebrew/brew)
++ [https://github.com/AppImage](https://github.com/AppImage)
++ [https://github.com/flatpak/flatpak](https://github.com/flatpak/flatpak)
++ [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
+* snap应用商店 [https://snapcraft.io](https://snapcraft.io)
+    * [https://docs.snapcraft.io/core/install](https://docs.snapcraft.io/core/install)
++ 多个shell软件包镜像 [https://github.com/mirror](https://github.com/mirror)
++ [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
+* 各个版本控件支持库 [https://pkgs.org](https://pkgs.org)
+
+- mac [https://github.com/macports](https://github.com/macports)
+
 
 **第三方的软件包搜索引擎：**
 
@@ -59,9 +73,6 @@
 - http://rpm.pbone.net
 
 
-
-**推荐所有shell脚本都使用sh实现，[Windows可安装Git（集成MinGW-w64）、MinGW-w64、MSYS2、Cygwin](/Shell/ShellWindows.md)**
-**Windows10下推荐使用WSL**
 
 
 

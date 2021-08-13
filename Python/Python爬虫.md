@@ -109,7 +109,12 @@ taskkill /f /im chromedriver.exe
 * [https://github.com/srcrs/UnicomTask](https://github.com/srcrs/UnicomTask)
 * [https://github.com/mixool/HiCnUnicom](https://github.com/mixool/HiCnUnicom)
 * [https://github.com/hzys/HiCnUnicom](https://github.com/hzys/HiCnUnicom)
+* [https://github.com/mexxcheng/iread_signin](https://github.com/mexxcheng/iread_signin)
 * [https://github.com/ChuJian2/AutoSignMachine](https://github.com/ChuJian2/AutoSignMachine)
+* [https://github.com/simo8102/chinaunicom-AutoSignMachine](https://github.com/simo8102/chinaunicom-AutoSignMachine)
+* [https://github.com/bigmax706/AutoSign](https://github.com/bigmax706/AutoSign)
+* [https://github.com/750421628/39shouting](https://github.com/750421628/39shouting)
+* [https://github.com/Gsangu/UnicomGetCoin](https://github.com/Gsangu/UnicomGetCoin)
 
 
 
