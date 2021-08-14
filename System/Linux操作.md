@@ -248,8 +248,6 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 ```bash
 # 创建新会话并在后台执行命令
 tmux new -s 会话名 -d "命令"
-
-tmux new -s 会话名 -d "命令"
 ```
 
 

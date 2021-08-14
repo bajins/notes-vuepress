@@ -141,3 +141,48 @@
 ```
 
 
+## 页面刷新汇总
+
+- history.go(0) // 刷新当前页
+- history.go(1) // 返回上一页
+- location.reload()
+- location=location
+- location.assign(location)
+- document.execCommand('Refresh')
+- window.navigate(location)
+- location.replace(location)
+- document.URL=location.href
+
+
+**刷新页面内嵌框架**
+
+- window.parent.frames[1].location.reload();
+- window.parent.frames.bottom.location.reload();
+- window.parent.frames["bottom"].location.reload();
+- window.parent.frames.item(1).location.reload();
+- window.parent.frames.item('bottom').location.reload();
+- window.parent.bottom.location.reload();
+- window.parent['bottom'].location.reload();
+
+**页面自动刷新**
+
+```html
+<meta http-equiv="refresh" content="20">
+<!-- 其中20指每隔20秒刷新一次页面 -->
+```
+
+**页面开窗口或关闭时自动刷新**
+
+```html
+<body onload="opener.location.reload()"> 开窗时刷新 
+<body onUnload="opener.location.reload()"> 关闭时刷新 
+<script language="javascript"> 
+window.opener.document.location.reload() 
+</script>
+```
+
+**参考：**
+
+* [JS中实现页面跳转和刷新方法总结](https://juejin.cn/post/6844903925741682696)
+* [JS刷新当前页面的几种方法总结](http://www.iqianduan.net/blog/refresh-browser-method)
+

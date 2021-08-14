@@ -463,4 +463,33 @@ public  ModelAndView toredirect(String userName){
 ```
 
 
+## Spring AOP原理
+
+1. AOP: 其实现的关键就在于 AOP 框架自动创建的 AOP 代理，AOP 代理则可分为静态代理和动态代理两大类
+    1. 其中静态代理是指使用 AOP 框架提供的命令进行编译，从而在编译阶段就可生成 AOP 代理类，因此也称为编译时增强；静态代理分为：编译时织入（特殊编译器实现）、类加载时织入（特殊的类加载器实现）。静态代理的代表为AspectJ；
+    2. 而动态代理则在运行时借助于 JDK 动态代理、CGLIB 等在内存中“临时”生成 AOP 动态代理类，因此也被称为运行时增强。动态代理分为：JDK动态代理（基于接口来实现）、CGLib（基于类实现）。而动态代理则以Spring AOP为代表。
+2. Spring AOP：只支持动态代理，通过两种方式进行实现：
+    1. JDK动态代理，通过反射实现，只支持对实现接口的类进行代理
+    2. CGLib动态字节码注入方式实现代理。
+
+
+## JDK动态代理:
+
+JDK中的动态代理是通过反射类Proxy反射机制生成一个实现代理接口的匿名类，在调用具体方法前调用InvocationHandler回调接口实现的，但是JDK中所有要进行动态代理的类必须要实现一个接口，也就是说只能对该类所实现接口中定义的方法进行代理，这在实际编程中有一定的局限性，而且使用反射的效率也不高
+
+## Cglib
+
+cglib动态代理是利用asm开源包，对代理对象类的class文件加载进来，通过修改其字节码生成子类来处理。
+
+动态生成一个要代理的子类，子类重写要代理的类的所有不是final的方法。在子类中采用方法拦截技术拦截所有的父类方法的调用，顺势织入横切逻辑
+
+ASM是一个java字节码操纵框架，它能被用来动态生成类或者增强既有类的功能。ASM 可以直接产生二进制 class 文件，也可以在类被加载入 Java 虚拟机之前动态改变类行为
+
+ 
+
+## Lombok原理
+
+1. 定义编译期的注解 `@Retention(RetentionPolicy.SOURCE)`
+2. 利用`JSR269 api(Pluggable Annotation Processing API )`编译期的注解处理器 （AbstractProcessor在编译时指定一个processor类来对编译阶段的注解进行干预，Lombok的注解处理器：AnnotationProcessor）
+3. 利用`tools.jar`的`javac` api处理`AST`(抽象语法树)，将功能注册进jar包
 

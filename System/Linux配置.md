@@ -373,4 +373,181 @@ Swap:            0B          0B          0B
 ```
 
 
+# Linux挂载存储卷
+
+
+## 基本概念
+
+
+1、 物理卷—–PV（Physical Volume）
+物理卷在逻辑卷管理中处于最底层，它可以是实际物理硬盘上的分区，也可以是整个物理硬盘。
+
+2、 卷组——–VG（Volumne Group）
+卷组建立在物理卷之上，一个卷组中至少要包括一个物理卷，在卷组建立之后可动态添加物理卷到卷组中。一个逻辑卷管理系统工程中可以只有一个卷组，也可以拥有多个卷组。
+
+3、 逻辑卷—–LV（Logical Volume）
+逻辑卷建立在卷组之上，卷组中的未分配空间可以用于建立新的逻辑卷，逻辑卷建立后可以动态地扩展和缩小空间。系统中的多个逻辑卷要以属于同一个卷组，也可以属于不同的多个卷组。
+
+4、 物理区域–PE（Physical Extent）
+物理区域是物理卷中可用于分配的最小存储单元，物理区域的大小可根据实际情况在建立物理卷时指定。物理区域大小一旦确定将不能更改，同一卷组中的所有物理卷的物理区域大小需要一致。
+
+5、 逻辑区域―LE（Logical Extent）
+逻辑区域是逻辑卷中可用于分配的最小存储单元，逻辑区域的大小取决于逻辑卷所在卷组中的物理区域的大小。
+
+6、 卷组描述区域—–（Volume Group Descriptor Area）
+卷组描述区域存在于每个物理卷中，用于描述物理卷本身、物理卷所属卷组、卷组中的逻辑卷及逻辑卷中物理区域的分配等所有信息，卷组描述区域是在使用pvcreate建立物理卷时建立的。
+
+
+
+## 基础命令
+
+### 物理卷命令
+
+```bash
+pvscan #在系统的所有磁盘中搜索已存在的物理卷
+pvdisplay 物理卷全路径名称 #用于显示指定物理卷的属性。
+pvdata 物理卷全路径名称 #用于显示物理卷的卷组描述区域信息，用于调试目的。
+pvchange Cx|--allocation {y|n} 物理卷全路径名 #用于改变物理卷的分配许可设置物理卷的创建与删除命令
+pvcreate 设备全路径名 #用于在磁盘或磁盘分区上创建物理卷初始化信息，以便对该物理卷进行逻辑卷管理。
+pvmove 源物理卷全路径我[目的物理卷全路径名] #用于把某物理卷中的数据转移到同卷组中其他的特刊卷中。
+```
+
+### 卷组命令
+
+```bash
+vgscan #检测系统中所有磁盘
+vgck [卷组名] #用于检查卷组中卷组描述区域信息的一致性。
+vgdisplay [卷组名] #显示卷组的属性信息
+vgrename 原卷组名 新卷组名
+vgchange -a y|n [卷组名] #改变卷组的相应属性。是否可分配
+vgchange -l 最大逻辑卷数 #卷组可容纳最大逻辑卷数
+vgchange -x y|n [卷组名] #卷是否有效
+vgmknodes [卷组名|卷组路径] #用于建立（重新建立）已有卷组目录和其中的设备文件卷组配置的备份与恢复命令
+vgcfgbackup [卷组名] #把卷组中的VGDA信息备份到“/etc/lvmconf”目录中的文件
+vgcfgrestore -n 卷组名 物理卷全路命名 #从备份文件中必得指定物理卷的信息卷组的建立与删除命令
+vgcreate 卷组名 物理卷全路径名[物理卷全路径名]
+vgmove 卷组名
+```
+
+### 卷组的扩充与缩小命令
+
+```bash
+vgextend 卷组名 物理卷全路径名[物理卷全路径名]
+vgreduce 卷组名 物理卷全路径名[物理卷全路径名]
+```
+
+### 卷组的合并与拆分
+
+```bash
+vgsplit 现有卷组 新卷组 物理卷全路径名[物理卷全路径名]
+```
+
+### 卷组的输入与输出命令
+
+```bash
+vgexport 卷组名
+vgimport 卷组名 卷组中的物理卷[卷组中的物理卷]
+```
+
+### 逻辑卷命令
+
+```bash
+lvscan
+lvdisplay 逻辑卷全路径名[逻辑卷全路径名]
+lvrename 旧逻辑卷全路径名 新逻辑卷全路径名
+lvrename 卷组名 旧逻辑卷名 新逻辑卷名
+lvchange
+e2fsadm -L +|- 逻辑卷增减量 逻辑卷全路径名
+```
+
+### 逻辑卷的创建与删除命令
+
+```bash
+lvcreate
+lvremove
+```
+
+### 逻辑卷的扩充与缩小命令
+
+```bash
+lvextend -L|--size +逻辑卷大小增量 逻辑卷全路径名
+lvreduce q -L|--size +逻辑卷减小量 逻辑卷全路径名
+```
+
+### 逻辑卷管理命令
+
+```bash
+lvmdiskscan #检测所有的SCSI、IDE等存储设备
+lvmchange -R|--reset #复位逻辑卷管理器
+lvmsadc [日志文件全路径名] #收信逻辑卷管理器读写统计信息，保存到日志文件中。
+lvmsar 日志文件全路径名 #从lvmsadc命令生成的日志文件中读取并报告逻辑卷管理器的读写统计信息。
+```
+
+
+
+## 挂载方案
+
+
+### 方案一
+
+> 直接挂载。但是是用逻辑卷的名称挂载。硬盘上的数据还在。
+
+```bash
+# 查看物理卷 pvscan
+pvs
+# 查看卷组 vgdisplay
+vgs
+# vgcreate vg名字 需要加入这个vg的pv分区
+# vgextend  vg名称  pv分区
+# 激活逻辑卷
+vgchange -ay /dev/VolGroup00
+# vgdisplay
+# 创建分区
+lvcreate -L 分区大小+单位  -n  lv分区名称   vg名称
+# 删除分区
+lvremove 分区位置(/dev/disk_lvm/name)
+```
+
+```bash
+# 查看服务器物理分区，逻辑卷的信息
+fdisk -l
+# 查看逻辑卷的具体信息
+lvdisplay
+# 挂载
+mount /dev/VolGroup/lv_home /store
+```
+ 
+
+### 方案二
+
+> 格式化再挂载。硬盘上的数据清除了。
+
+```bash
+# 直接格式化分区
+mkfs -t ext4 -c /dev/sda3
+# 挂载硬盘
+mount /dev/sda3 /store
+```
+
+
+## 扩容
+
+
+```bash
+# 查看磁盘挂载信息
+df -h
+# 列出系统上所有的磁盘
+lsblk
+# 列出设备的uuid
+blkid
+# 查询文件系统状态
+dumpe2fs
+# 扩容
+lvextend -L 50G /dev/mapper/ubuntu--vg-ubuntu--lv
+# 全部空间都给这个盘
+lvextend -l +100%FREE /dev/mapper/ubuntu--vg-ubuntu--lv
+# 重新计算磁盘大小
+resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv
+```
+
 
