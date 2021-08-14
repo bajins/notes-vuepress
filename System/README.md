@@ -29,6 +29,18 @@
 * [如何看待Linus Torvalds对AVX512的评价？](https://www.zhihu.com/question/406517759)
 
 
+**USB启动盘**
+
+- [https://github.com/pbatard/rufus](https://github.com/pbatard/rufus)
+- [https://github.com/unetbootin/unetbootin](https://github.com/unetbootin/unetbootin)
+- [https://www.pendrivelinux.com](https://www.pendrivelinux.com)
+
+* 克隆部署 [https://github.com/canonical/cloud-init](https://github.com/canonical/cloud-init)
+* [https://github.com/canonical/multipass](https://github.com/canonical/multipass)
+
+
+
+
 **开源操作系统**
 
 * [Linux发行版本排行](https://distrowatch.com/dwres.php?resource=popularity)
@@ -302,6 +314,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 ### WinPE
 
 + [Windows PE (WinPE)](https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/winpe-intro)
++ [Windows USB/DVD 下载工具](https://www.microsoft.com/zh-cn/download/windows-usb-dvd-download-tool)
 
 * [http://rufus.ie](http://rufus.ie)
 * [https://github.com/balena-io/etcher](https://github.com/balena-io/etcher)
