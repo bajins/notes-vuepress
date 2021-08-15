@@ -23,7 +23,7 @@
 
 
 
-## 源码安装卸载软件
+## 源码安装卸载
 
 > 编译时的路径如果指定了`--prefix /usr/local/xxx` 直接`rm -rf /usr/local/xxx`即可。
 >
@@ -63,7 +63,10 @@ CentOS: rpm -e package_name
 Ubuntu: dpkg -r package_name
 ```
 
+
+
 ## 初次配置
+
 
 ### 修改时区为亚洲上海
 
@@ -71,7 +74,8 @@ Ubuntu: dpkg -r package_name
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 ```
 
-### 查看系统语言
+
+### 安装简体中文语言包
 
 ```bash
 #查看系统当前使用语言包
@@ -79,8 +83,6 @@ locale
 #查看系统拥有语言包
 locale -a
 ```
-
-### 安装简体中文语言包
 
 > 如果没有zh_CN.utf8就需要安装简体中文语言包
 
@@ -145,9 +147,12 @@ set number
 
 ### SSH会话执行文件
 
-- `vi /etc/motd`这个文件，可以在里面加入自己喜欢的任何欢迎信息，这段信息将会在登录成功后显示！
+- `/etc/motd`这个文件，可以在里面加入自己喜欢的任何欢迎信息，这段信息将会在登录成功后显示！
 - `/etc/profile`中设定的变量(全局)的可以作用于任何用户,
 - `/.bashrc`设定的变量(局部)只能继承`/etc/profile`中的变量,他们是”父子”关系
+- `/root/.bash_profile` 当root用户登录时执行
+- `/root/.bash_logout` 当每次root用户退出系统(退出bash shell)时,执行该文件
+- `/root/.bashrc` 当root用户登录时以及每次打开新的shell时,该该文件被读取。
 
 
 > 为每一个运行bash shell的用户执行此文件.当bash shell被打开时, 该文件被读取（即每次新开一个终端，都会执行bashrc）。
@@ -166,18 +171,9 @@ vi /etc/profile
 vi /etc/bashrc
 ```
 
-```bash
-# 当root用户登录时执行
-vi /root/.bash_profile
-# 当每次root用户退出系统(退出bash shell)时,执行该文件
-vi /root/.bash_logout
-# 当root用户登录时以及每次打开新的shell时,该该文件被读取。
-vi /root/.bashrc
-```
 
 
-
-### ssh欢迎信息
+**欢迎信息**
 
 * [https://github.com/taills/sysinfo](https://github.com/taills/sysinfo)
 
@@ -373,6 +369,7 @@ Swap:            0B          0B          0B
 ```
 
 
+
 ## 挂载存储卷
 
 
@@ -427,20 +424,20 @@ vgcreate 卷组名 物理卷全路径名[物理卷全路径名]
 vgmove 卷组名
 ```
 
-### 卷组的扩充与缩小命令
+### 卷组扩充与缩小
 
 ```bash
 vgextend 卷组名 物理卷全路径名[物理卷全路径名]
 vgreduce 卷组名 物理卷全路径名[物理卷全路径名]
 ```
 
-### 卷组的合并与拆分
+### 卷组合并与拆分
 
 ```bash
 vgsplit 现有卷组 新卷组 物理卷全路径名[物理卷全路径名]
 ```
 
-### 卷组的输入与输出命令
+### 卷组输入与输出
 
 ```bash
 vgexport 卷组名
@@ -458,14 +455,14 @@ lvchange
 e2fsadm -L +|- 逻辑卷增减量 逻辑卷全路径名
 ```
 
-### 逻辑卷的创建与删除命令
+### 逻辑卷创建与删除
 
 ```bash
 lvcreate
 lvremove
 ```
 
-### 逻辑卷的扩充与缩小命令
+### 逻辑卷扩充与缩小
 
 ```bash
 lvextend -L|--size +逻辑卷大小增量 逻辑卷全路径名

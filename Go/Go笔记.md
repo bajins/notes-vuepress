@@ -593,26 +593,9 @@ func TestGorutine(t *testing.T) {
 
 ## Daemon
 
-+ [https://en.wikipedia.org/wiki/Daemon_(computing)](https://en.wikipedia.org/wiki/Daemon_(computing))
-
-> 在一个多任务的电脑操作系统中，Daemon（守护进程）是一种在后台执行的电脑程序。此类程序会被以进程的形式初始化
-
-> 通常，守护进程没有任何存在的父进程（即PPID=1），且在UNIX系统进程层级中直接位于init之下。
-> 守护进程程序通常通过如下方法使自己成为守护进程：对一个子进程运行fork，然后使其父进程立即终止，
-> 使得这个子进程能在init下运行。这种方法通常被称为“脱壳”。
-
-* [https://github.com/topics/daemon](https://github.com/topics/daemon)
 * [https://github.com/takama/daemon](https://github.com/takama/daemon)
-* [https://github.com/ochinchina/supervisord](https://github.com/ochinchina/supervisord)
 
 
-
-- 几种实现方式
-
-1. nohup
-2. supervise
-3. Cgo deamon函数
-4. go通过syscall调用fork实现(这个和第3条原理一样)
 
 **Cgo实现**
 
@@ -667,6 +650,8 @@ func doServerStuff(conn net.Conn) {
 
 
 **支持goroutine和系统信号监听**
+
+> go通过syscall调用fork实现(这个和Cgo deamon函数原理一样)
 
 ```go
 package main

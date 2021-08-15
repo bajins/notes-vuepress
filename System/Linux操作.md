@@ -33,10 +33,13 @@
 
 - [https://github.com/busyloop/lolcat](https://github.com/busyloop/lolcat)
 - 替代find [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
+- [https://gitlab.freedesktop.org](https://gitlab.freedesktop.org)
+    - [https://www.freedesktop.org](https://www.freedesktop.org)
 
 
 
-**软件套件**
+
+## 软件套件
 
 + [https://github.com/topics/lamp](https://github.com/topics/lamp)
 + [https://github.com/topics/lnmp](https://github.com/topics/lnmp)
@@ -170,10 +173,69 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 ## 后台运行Daemon
 
-* [Python版Daemon](/Shell/Python笔记.md#daemon)
-* [Golang版Daemon更加简易可用](/Go/Go笔记.md#daemon)
-* [https://github.com/canonical/pebble](https://github.com/canonical/pebble)
-* [https://github.com/kovidgoyal/kitty](https://github.com/kovidgoyal/kitty)
++ [https://en.wikipedia.org/wiki/Daemon_(computing)](https://en.wikipedia.org/wiki/Daemon_(computing))
+
+> 在一个多任务的电脑操作系统中，Daemon（守护进程）是一种在后台执行的电脑程序。此类程序会被以进程的形式初始化
+
+> 通常，守护进程没有任何存在的父进程（即PPID=1），且在UNIX系统进程层级中直接位于init之下。
+> 守护进程程序通常通过如下方法使自己成为守护进程：对一个子进程运行fork，然后使其父进程立即终止，
+> 使得这个子进程能在init下运行。这种方法通常被称为“脱壳”。
+
+
++ [https://github.com/topics/init](https://github.com/topics/init)
++ [https://github.com/topics/services](https://github.com/topics/services)
+* [https://github.com/topics/daemon](https://github.com/topics/daemon)
+
+
+- [https://github.com/systemd/systemd](https://github.com/systemd/systemd)
+    - [Systemd简介](https://www.jianshu.com/p/d8f79010dc04)
+- [https://savannah.nongnu.org/projects/sysvinit](https://savannah.nongnu.org/projects/sysvinit)
+- [https://github.com/Yelp/dumb-init](https://github.com/Yelp/dumb-init)
+- [https://github.com/canonical/pebble](https://github.com/canonical/pebble)
+- [https://mmonit.com/monit](https://mmonit.com/monit)
+- [https://busybox.net](https://busybox.net)
+- [http://smarden.org/runit](http://smarden.org/runit)
+- [http://www.fefe.de/minit](http://www.fefe.de/minit)
+- [http://upstart.ubuntu.com](http://upstart.ubuntu.com)
+    - [https://launchpad.net/upstart](https://launchpad.net/upstart)
+- [https://github.com/ateska/ramona](https://github.com/ateska/ramona)
+
+
+* 会话 [https://github.com/kovidgoyal/kitty](https://github.com/kovidgoyal/kitty)
+
+
+
+### supervisor
+
+> `supervisor`是用`Python`开发的一套通用的进程管理程序，能将一个普通的命令行进程变为后台`daemon`，并监控进程状态，异常退出时能自动重启。
+
+* [https://github.com/Supervisor/supervisor](https://github.com/Supervisor/supervisor)
+    * [http://supervisord.org](http://supervisord.org)
+    * [使用 supervisor 管理进程](https://einverne.github.io/post/2017/07/use-supervisor-to-manage-process.html)
+* go实现 [https://github.com/ochinchina/supervisord](https://github.com/ochinchina/supervisord)
+
+
+**常见配置如下**
+
+```ini
+[program:程序名称]
+user=root
+command=/var/www/main
+stdout_logfile=/var/log/gf-app-stdout.log
+stderr_logfile=/var/log/gf-app-stderr.log
+autostart=true
+autorestart=true
+```
+
+**使用步骤**
+
+1. 使用`sudo service supervisor start`启动`supervisor`服务；
+2. 创建应用配置文件`/etc/supervisor/conf.d/程序名称.conf`, 内容如上;
+3. 使用`sudo supervisorctl`进入`supervisor`管理终端；
+4. 使用`reload`重新读取配置文件并重启当前`supoervisor`管理的所有进程；
+5. 也可以使用`update`重新加载配置(默认不重启)，随后使用`start 程序名称`启动指定的应用程序；
+6. 随后可以使用`status`指令查看当前`supervisor`管理的进程状态；
+
 
 
 ### Tmux
