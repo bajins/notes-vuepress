@@ -38,7 +38,6 @@
 * [https://github.com/docker/golang-cross](https://github.com/docker/golang-cross)
 * [https://github.com/im4x5yn74x/dropper2](https://github.com/im4x5yn74x/dropper2)
 * Go编译器 [https://github.com/tinygo-org/tinygo](https://github.com/tinygo-org/tinygo)
-* [https://github.com/llvm/llvm-project](https://github.com/llvm/llvm-project)
 
 
 **嵌入静态资源**

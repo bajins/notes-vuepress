@@ -19,6 +19,31 @@
 
 > 从Java源码中提取的所有注解
 
+```python
+# 获取所有Java中的注解
+import os, re
+
+dir_path="./jdk8u"
+
+ans = set() # 无序的不重复元素序列
+
+for r, d, f in os.walk(dir_path):
+    for file in f:
+        fp = os.path.join(r, file)
+        if ".java" in file and not re.search('[0-9]+|Test', file, re.I):
+            try:
+                with open(fp, "r", encoding="utf8") as rf:
+                    an = re.compile(r'public @interface (.*) \{', re.I).findall(rf.read())
+                    if an and len(an) > 0:
+                        ans.add("@" + an[0])
+            except:
+                pass
+
+print('\n'.join(ans))
+```
+
+
+
 | 注解                            	| 版本       	| 说明                                                                                       	|
 |---------------------------------	|------------	|--------------------------------------------------------------------------------------------	|
 | @WebParam                       	|            	| 表示方法的参数                                                                             	|

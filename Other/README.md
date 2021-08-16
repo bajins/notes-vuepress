@@ -160,8 +160,10 @@
     * [适用于Windows，Linux和MacOS的C ++库管理器](https://docs.microsoft.com/zh-cn/cpp/build/vcpkg)
 * [https://github.com/clibs](https://github.com/clibs)
 * [https://github.com/conan-io/conan](https://github.com/conan-io/conan)
+* 编译器 [https://github.com/llvm/llvm-project](https://github.com/llvm/llvm-project)
 * [https://github.com/gcc-mirror/gcc](https://github.com/gcc-mirror/gcc)
 * C++ 那些事 [https://github.com/Light-City/CPlusPlusThings](https://github.com/Light-City/CPlusPlusThings)
+
 
 
 + [https://github.com/qinguoyi/TinyWebServer](https://github.com/qinguoyi/TinyWebServer)
@@ -280,6 +282,7 @@
 * [https://github.com/AzureAD](https://github.com/AzureAD)
 * 断言 [https://github.com/fluentassertions](https://github.com/fluentassertions)
 * 导入导出 [https://github.com/dotnetcore/Magicodes.IE](https://github.com/dotnetcore/Magicodes.IE)
+* 工具 [https://github.com/bing-framework/Bing.NetCore](https://github.com/bing-framework/Bing.NetCore)
 
 
 - [https://docs.microsoft.com/zh-cn/windows/win32/apiindex/windows-api-list](https://docs.microsoft.com/zh-cn/windows/win32/apiindex/windows-api-list)
