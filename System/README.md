@@ -175,6 +175,7 @@
 * Azure [https://azure.microsoft.com/free](https://azure.microsoft.com/free)
     * [https://portal.azure.com](https://portal.azure.com)
     * [申请微软Azure服务免费12个月+$200 额度+永久免费(25+项服务)](https://www.daniao.org/7057.html)
+    * [免费试用微软2个月Windows 365云桌面，4核心+16G内存+128SSD](https://51.ruyo.net/17291.html)
 * AWS 免费套餐 [https://console.aws.amazon.com/billing/home#/freetier](https://console.aws.amazon.com/billing/home#/freetier)
     * [https://www.cloudping.info](https://www.cloudping.info)
     * [手把手教你撸12个月亚马逊（AWS）的云服务器](https://www.zhunaozi.com/411.html)
@@ -186,7 +187,10 @@
 * Digital Ocean
 * 网易云电脑 [http://cg.163.com](http://cg.163.com)
 * [https://rs1.es](https://rs1.es)
+    * [RS1.ES 免费Linux云服务器，单次使用3小时](https://51.ruyo.net/17314.html)
     * [使用hyperbeam.com来白嫖rs1.es](https://www.misakano.eu.org/2021/08/15/%E4%BD%BF%E7%94%A8hyperbeam-com%E6%9D%A5%E7%99%BD%E5%AB%96rs1-es)
+* [https://vps.apponfly.com](https://vps.apponfly.com)
+    * [无限免费试用30分钟的Windows Server服务器](https://51.ruyo.net/17365.html)
 
 
 

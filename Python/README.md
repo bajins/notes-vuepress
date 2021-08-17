@@ -168,6 +168,7 @@ with Test() as t: # 触发__exit__
 * [https://console.cloud.google.com/ai-platform/notebooks](https://console.cloud.google.com/ai-platform/notebooks)
 * [https://devcloud.intel.com/zh/edge](https://devcloud.intel.com/zh/edge)
     * [https://notebooks.edge.devcloud.intel.com](https://notebooks.edge.devcloud.intel.com)
+    * [https://academic.edge.devcloud.intel.com](https://academic.edge.devcloud.intel.com)
     * [申请英特尔(Intel DevCloud) 80核心 256G内存 免费云服务器](https://51.ruyo.net/17346.html)
 * CoCalc [https://cocalc.com](https://cocalc.com)
 * Azure Notebooks [https://notebooks.azure.com](https://notebooks.azure.com)

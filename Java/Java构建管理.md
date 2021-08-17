@@ -194,12 +194,15 @@
 + [Maven - 花落花开](http://www.hualuohuakai.net/tags/Maven)
 + maven手册 [https://github.com/inuter/Maven-Notebook](https://github.com/inuter/Maven-Notebook)
 
+
 * [http://mvnrepository.com](http://mvnrepository.com)
 * [https://search.maven.org](https://search.maven.org)
 * [https://nexus.pentaho.org](https://nexus.pentaho.org)
 * [https://public.nexus.pentaho.org](https://public.nexus.pentaho.org)
 * JFrog Bintray [https://github.com/bintray](https://github.com/bintray)
     * [https://bintray.com](https://bintray.com)
+* [https://packages.aliyun.com](https://packages.aliyun.com)
+
 
 + maven-jar-plugin 默认的打包插件，用来打普通的project JAR包；
 + maven-shade-plugin 用来打可执行JAR包，也就是所谓的fat JAR包；

@@ -217,6 +217,17 @@ dmesg | grep 'Linux version'
 uname -sr
 # 查看cpu相关信息（型号、主频、内核）
 cat /proc/cpuinfo
+# 查看CPU信息（型号）
+cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
+# 查看物理CPU个数
+cat /proc/cpuinfo| grep "physical id"| sort| uniq| wc -l
+grep 'physical id' /proc/cpuinfo | sort -u
+# 查看每个物理CPU中core的个数(即核数)
+cat /proc/cpuinfo| grep "cpu cores"| uniq
+grep 'core id' /proc/cpuinfo | sort -u | wc -l
+# 查看逻辑CPU的个数
+cat /proc/cpuinfo| grep "processor"| wc -l
+grep 'processor' /proc/cpuinfo | sort -u | wc -l
 ```
 
 
@@ -283,6 +294,8 @@ echo root:密码 |sudo chpasswd root
 # 切换到root账号
 su
 sudo -i
+# 强制删除用户（会同时删除相关目录）
+userdel -rf name
 ```
 
 **修改sshd_config中的参数**
@@ -309,6 +322,7 @@ sudo sed -ri 's/^/#/;s/sleep 10"\s+/&\n/' /root/.ssh/authorized_keys;
 
 ```bash
 sudo service sshd restart
+sudo service ssh --full-restart
 ```
 
 
