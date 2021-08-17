@@ -36,6 +36,7 @@
     - [https://github.com/ihoey/Playing-reward](https://github.com/ihoey/Playing-reward)
     - [https://github.com/nooldey/sponsor](https://github.com/nooldey/sponsor)
 - [![](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com)
+- [https://opencollective.com](https://opencollective.com)
 
 
 
