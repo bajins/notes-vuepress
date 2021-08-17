@@ -55,8 +55,7 @@
 * [https://github.com/goodking-bq/timing-clock-in-dingding](https://github.com/goodking-bq/timing-clock-in-dingding)
 * [https://github.com/zhaoyunxing92/dingtalk](https://github.com/zhaoyunxing92/dingtalk)
 * [https://github.com/daixianceng/cron_dingding](https://github.com/daixianceng/cron_dingding)
-* 网易云电脑 [http://cg.163.com](http://cg.163.com)
-* [https://rs1.es](https://rs1.es)
+
 
 
 

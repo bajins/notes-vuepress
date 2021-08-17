@@ -184,7 +184,9 @@
     * [如何重试失败的付款？](https://aws.amazon.com/cn/premiumsupport/knowledge-center/retry-unsuccessful-payment)
 * Vultr
 * Digital Ocean
-
+* 网易云电脑 [http://cg.163.com](http://cg.163.com)
+* [https://rs1.es](https://rs1.es)
+    * [使用hyperbeam.com来白嫖rs1.es](https://www.misakano.eu.org/2021/08/15/%E4%BD%BF%E7%94%A8hyperbeam-com%E6%9D%A5%E7%99%BD%E5%AB%96rs1-es)
 
 
 

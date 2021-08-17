@@ -261,13 +261,15 @@ yum search java | grep -i --color JDK
 > `jdk-headless`为最小安装包，Java Runtime Environment (JRE) 主要包含了 Java 虚拟机（JVM），类和允许运行 Java 程序的二进制包。
 > Java Development Kit (JDK) 包含 JRE 和用于构建 Java 应用的开发/调试工具和库文件
 
+
 **yum安装JDK**
 
+> 通过yum默认安装的路径为`/usr/lib/jvm`
+
 ```bash
-yum -y install java-1.8-openjdk java-1.7.0-openjdk-devel.x86_64
+yum -y install java-1.8-openjdk java-1.8.0-openjdk-devel.x86_64
 ```
 
-> 通过yum默认安装的路径为`/usr/lib/jvm`
 
 **配置环境变量**
 
@@ -283,21 +285,17 @@ export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 ########## jdk  environment ######################
 ```
 
-- 刷新环境变量文件
 
 ```bash
+# 刷新环境变量文件
 source /etc/profile
-```
-
-- 查看变量是否生效
-
-```bash
+# 查看变量是否生效
 echo $JAVA_HOME && echo $CLASSPATH
-```
-
-**查看Java版本信息**
-
-```bash
+# 源码安装时系统注册此jdk
+update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.8.0_191/bin/java 300
+# 安装了多个版本jdk，通过以下命令在这些版本之间切换
+update-alternatives –config java
+# 查看Java版本信息
 java -version
 ```
 
