@@ -100,6 +100,8 @@
 - [https://github.com/nim-lang/Nim](https://github.com/nim-lang/Nim)
     - [https://nim-lang.org](https://nim-lang.org)
     - [https://github.com/xmonader/nimdays](https://github.com/xmonader/nimdays)
+- TXL [https://www.txl.ca](https://www.txl.ca)
+    - 软件克隆检测 [https://www.txl.ca/txl-nicaddownload.html](https://www.txl.ca/txl-nicaddownload.html)
 
 
 **多语言UI框架**

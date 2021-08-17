@@ -44,6 +44,7 @@
 * [https://coding.net](https://coding.net)
 * [https://pagure.io](https://pagure.io)
 * [https://github.com/bytebase/bytebase](https://github.com/bytebase/bytebase)
+* 软件相似度比较 [https://copycat.gitee.com](https://copycat.gitee.com)
 
 
 
