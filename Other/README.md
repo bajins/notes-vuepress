@@ -285,6 +285,8 @@
 * 断言 [https://github.com/fluentassertions](https://github.com/fluentassertions)
 * 导入导出 [https://github.com/dotnetcore/Magicodes.IE](https://github.com/dotnetcore/Magicodes.IE)
 * 工具 [https://github.com/bing-framework/Bing.NetCore](https://github.com/bing-framework/Bing.NetCore)
+* Web框架 [https://github.com/abpframework/abp](https://github.com/abpframework/abp)
+    * [https://github.com/EasyAbp](https://github.com/EasyAbp)
 
 
 - [https://docs.microsoft.com/zh-cn/windows/win32/apiindex/windows-api-list](https://docs.microsoft.com/zh-cn/windows/win32/apiindex/windows-api-list)

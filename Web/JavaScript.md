@@ -485,6 +485,7 @@ var express = require('express');
     * [https://playcanvas.com](https://playcanvas.com)
 * [https://github.com/redcamel/RedGL2](https://github.com/redcamel/RedGL2)
 * [https://github.com/kitware/vtk-js](https://github.com/kitware/vtk-js)
+* [https://github.com/scottcgi/MojoJS-Animation](https://github.com/scottcgi/MojoJS-Animation)
 
 
 
