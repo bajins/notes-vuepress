@@ -167,7 +167,6 @@ with Test() as t: # 触发__exit__
 
 
 
-
 ## Jupyter Notebook
 
 + [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab)
@@ -179,34 +178,6 @@ with Test() as t: # 触发__exit__
         + [https://mybinder.org](https://mybinder.org)
         + [https://notebooks.gesis.org](https://notebooks.gesis.org)
 + [jupyter notebook中%与!的区别](https://blog.csdn.net/sinat_27889599/article/details/105509444)
-
-* [https://github.com/Kaggle](https://github.com/Kaggle)
-    * [https://www.kaggle.com](https://www.kaggle.com)
-    * [https://github.com/Kaggle/kaggle-api#installation](https://github.com/Kaggle/kaggle-api#installation)
-    * [https://github.com/Kaggle/kaggle-api#kernels](https://github.com/Kaggle/kaggle-api#kernels)
-    * [资源默认分配](https://www.kaggle.com/docs/notebooks#technical-specifications)
-    * [GitHub等海外大文件快速中转下载](https://mp.weixin.qq.com/s/DH8jXalZiBcX3KhrPdDw8w)
-* [https://github.com/googlecolab](https://github.com/googlecolab)
-    * [https://colab.research.google.com](https://colab.research.google.com)
-    * [https://github.com/PradyumnaKrishna/Colab-Hacks](https://github.com/PradyumnaKrishna/Colab-Hacks)
-* [https://console.cloud.google.com/ai-platform/notebooks](https://console.cloud.google.com/ai-platform/notebooks)
-* [https://devcloud.intel.com/zh/edge](https://devcloud.intel.com/zh/edge)
-    * [https://notebooks.edge.devcloud.intel.com](https://notebooks.edge.devcloud.intel.com)
-    * [https://academic.edge.devcloud.intel.com](https://academic.edge.devcloud.intel.com)
-    * [申请英特尔(Intel DevCloud) 80核心 256G内存 免费云服务器](https://51.ruyo.net/17346.html)
-* CoCalc [https://cocalc.com](https://cocalc.com)
-* Azure Notebooks [https://notebooks.azure.com](https://notebooks.azure.com)
-    * [Azure Notebooks 预览版概述](https://docs.microsoft.com/zh-cn/azure/notebooks/azure-notebooks-overview)
-* [https://deepnote.com](https://deepnote.com)
-* [https://datalore.jetbrains.com](https://datalore.jetbrains.com)
-* [https://www.floydhub.com](https://www.floydhub.com)
-* [https://github.com/rstudio](https://github.com/rstudio)
-    * [https://rstudio.cloud/plans/free](https://rstudio.cloud/plans/free)
-* 阿里天池大数据 [https://tianchi.aliyun.com](https://tianchi.aliyun.com)
-* 科赛和鲸 K-lab [https://www.kesci.com](https://www.kesci.com)
-* [https://aistudio.baidu.com](https://aistudio.baidu.com)
-* [https://momodel.cn](https://momodel.cn)
-* [https://www.huaweicloud.com/product/modelarts.html](https://www.huaweicloud.com/product/modelarts.html)
 
 
 

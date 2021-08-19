@@ -32,7 +32,7 @@ module.exports = [{
                 },
                 {
                     text: 'Windows软件',
-                    link: '/Other/Windows软件'
+                    link: '/System/Windows软件'
                 },
                 {
                     text: 'Markdown工具',

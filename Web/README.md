@@ -112,51 +112,6 @@
 
 
 
-### 静态部署
-
-+ [具有免费许可证的所有平台的Heroku替代方案](https://alternativeto.net/software/heroku/?license=free)
-    + [https://github.com/caprover](https://github.com/caprover)
-    + [https://www.heliohost.org](https://www.heliohost.org)
-    + [https://github.com/hasura](https://github.com/hasura)
-    + [https://github.com/gatsbyjs](https://github.com/gatsbyjs)
-    + [https://www.onworks.net](https://www.onworks.net)
-    + [<img src="https://aka.ms/deploytoazurebutton" height="30px">](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fheartexlabs%2Flabel-studio%2Fmaster%2Fazuredeploy.json)
-    + [<img src="https://deploy.cloud.run/button.svg" height="30px">](https://deploy.cloud.run)
-
-* [https://www.netlify.com](https://www.netlify.com)
-    * 示例：[https://woytu.netlify.app](https://woytu.netlify.app)
-* [https://slack.com/get-started](https://slack.com/get-started)
-* [https://docs.travis-ci.com/user/tutorial](https://docs.travis-ci.com/user/tutorial)
-* [https://github.com/zeit](https://github.com/zeit)
-    * 示例：[https://woytu.now.sh](https://woytu.now.sh)
-* [https://github.com/vercel](https://github.com/vercel)
-    * [https://vercel.com](https://vercel.com)
-* [<img src="https://www.herokucdn.com/deploy/button.svg" height="30px">](https://github.com/topics/heroku)
-    * [https://github.com/heroku](https://github.com/heroku)
-    * [https://github.com/heroku/heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static)
-    * 在 [https://t.me/nf_share](https://t.me/nf_share) 搜索`验证卡`或`heroku`
-    * 示例：[https://woetu.herokuapp.com](https://woetu.herokuapp.com)
-* [https://github.com/ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
-    * [https://www.deta.sh](https://www.deta.sh)
-* [https://www.bmob.cn](https://www.bmob.cn)
-* [https://fast.io](https://fast.io)
-    * 示例：[https://bajins.imfast.io](https://bajins.imfast.io)
-* [https://www.appveyor.com](https://www.appveyor.com)
-* [https://kubesail.com](https://kubesail.com)
-* [https://azure.microsoft.com/zh-cn/services/devops/pipelines](https://azure.microsoft.com/zh-cn/services/devops/pipelines)
-* [https://app.buddy.works](https://app.buddy.works)
-* [https://render.com](https://render.com)
-* [https://cloudbase.net](https://cloudbase.net)
-
-
-- 命令行 [https://github.com/sintaxi/surge](https://github.com/sintaxi/surge)
-  - [https://surge.sh](https://surge.sh)
-- 命令行 [https://github.com/firebase/firebase-tools](https://github.com/firebase/firebase-tools)
-    - [https://console.firebase.google.com](https://console.firebase.google.com)
-- [https://github.com/supabase/supabase](https://github.com/supabase/supabase)
-
-
-
 ## 留言社区
 
 * [注册一个新的 OAuth Application](https://github.com/settings/applications/new)
@@ -490,25 +445,5 @@ document.getElementsByTagName("a");// 返回文档中指定标签的元素
     - [https://github.com/expressjs/express](https://github.com/expressjs/express)
         - [https://expressjs.com/zh-cn/guide/writing-middleware.html](https://expressjs.com/zh-cn/guide/writing-middleware.html)
 
-
-
-## 保存直聘简历
-
-> 执行以下JS然后保存页面，打开保存到本地的页面再打印即可
-
-```js
-document.querySelector("body").style.margin="0px";
-document.querySelector(".header").style.display="none";
-document.querySelector(".template-container").style.paddingTop="14px";
-document.querySelector(".template-container").style.paddingBottom="0px";
-document.querySelector(".preview-box").style.margin="0 auto";
-document.querySelector(".preview-box").style.borderRadius="0";
-document.querySelector(".preview-box").style.boxShadow="none";
-var certificateBox = document.querySelectorAll(".certificate-box .item");
-certificateBox[0].style.display="list-item";
-certificateBox[0].style.margin="0px";
-certificateBox[1].style.display="list-item";
-certificateBox[1].style.margin="0px";
-```
 
 

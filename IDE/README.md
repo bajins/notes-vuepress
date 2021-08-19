@@ -35,50 +35,11 @@
 + [https://github.com/Microsoft/monaco-editor](https://github.com/Microsoft/monaco-editor)
 
 
-* [https://github.com/codespaces](https://github.com/codespaces)
-* [https://github.com/conwnet/github1s](https://github.com/conwnet/github1s)
-    * [https://github1s.com](https://github1s.com)
-    * [https://github.com/surfcodes/surf](https://github.com/surfcodes/surf)
-* [https://github.com/replit](https://github.com/replit)
-    * [https://github.com/ReplAPI-it](https://github.com/ReplAPI-it)
-    * [https://replit.com](https://replit.com)
-* [https://github.com/stackblitz](https://github.com/stackblitz)
-    * [https://stackblitz.com](https://stackblitz.com)
-* [https://github.com/sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph)
-* [https://ide.goorm.io](https://ide.goorm.io)
-* [https://github.com/codesandbox](https://github.com/codesandbox)
-    * [https://codesandbox.io](https://codesandbox.io)
-* [https://glitch.com](https://glitch.com)
-* [https://aws.amazon.com/cn/cloud9](https://aws.amazon.com/cn/cloud9)
-* [https://github.com/eclipse/dirigible](https://github.com/eclipse/dirigible)
-* [https://github.com/eclipse/che](https://github.com/eclipse/che)
-    * [https://github.com/openshift](https://github.com/openshift)
-    * [https://github.com/fabric8-launcher](https://github.com/fabric8-launcher)
-    * [https://www.eclipse.org/che/getting-started/cloud](https://www.eclipse.org/che/getting-started/cloud)
-    * `https://che.openshift.io/dashboard/#/load-factory/?url=https://github.com/账户名/仓库名`
-    * [https://che.openshift.io](https://che.openshift.io)
-    * [https://manage.openshift.com](https://manage.openshift.com)
-* [https://github.com/eclipse/orion.server](https://github.com/eclipse/orion.server)
-* [https://github.com/eclipse/orion.client](https://github.com/eclipse/orion.client)
-* [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
-    * `https://gitpod.io/#https://github.com/账户名/仓库名`
-    * [![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/bajins/notes-vuepress)
-* [https://github.com/features/codespaces](https://github.com/features/codespaces)
-* [https://github.com/ekzhang/rustpad](https://github.com/ekzhang/rustpad)
-* coding [https://github.com/Coding/WebIDE](https://github.com/Coding/WebIDE)
-    * [https://cloudstudio.net](https://cloudstudio.net)
-* [https://codeup.aliyun.com](https://codeup.aliyun.com)
-    * [https://ide.aliyun.com](https://ide.aliyun.com)
-
-
 - [https://github.com/codota/tabnine](https://github.com/codota/tabnine)
     - [https://www.tabnine.com](https://www.tabnine.com)
 - [https://github.com/WebIDEorg/WebIDE-OS](https://github.com/WebIDEorg/WebIDE-OS)
 - [https://github.com/os-js](https://github.com/os-js)
 
-
-
-**[静态部署](/Web/README.md#静态部署)**
 
 
 **在线运行代码**

@@ -10,8 +10,6 @@
 
 **更多软件见：[https://gd.bajins.com](https://gd.bajins.com)**
 
-**[Windows系统相关](/System/README.md#windows)**
-
 **[浏览器下载](/IDE/Chrome.md#浏览器下载)**
 
 **[Android软件](/Other/MobileNative.md#软件)**
@@ -275,21 +273,14 @@
 * [https://www.lanzoui.com/b906590](https://www.lanzoui.com/b906590)
 * [https://www.lanzoui.com/b505936](https://www.lanzoui.com/b505936)
 * [https://www.lanzoui.com/b393275](https://www.lanzoui.com/b393275)
-* [https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q](https://pan.baidu.com/s/17ProRXk22QRHTogSKQ2m2Q)
-* [https://kkocdko.github.io/category/Software](https://kkocdko.github.io/category/Software)
 
 
 ### 云盘网盘
 
 * [https://github.com/search?q=BaiduPCS](https://github.com/search?q=BaiduPCS)
 * [https://github.com/topics/baiduyun](https://github.com/topics/baiduyun)
-* [https://yixun.writeas.com/yi-xun](https://yixun.writeas.com/yi-xun)
-* [https://github.com/lpg-it/BaiduYunVIP](https://github.com/lpg-it/BaiduYunVIP)
-* DuPan [https://www.lanzoui.com/b09r8jmhi](https://www.lanzoui.com/b09r8jmhi) 密码：b8ua
 * [https://cloud189.1t.workers.dev/web](https://cloud189.1t.workers.dev/web)
 * [http://down.5nb.me](http://down.5nb.me)
-* [https://github.com/chian0sen/baiduwp](https://github.com/chian0sen/baiduwp)
-* [https://github.com/yuantuo666/baiduwp](https://github.com/yuantuo666/baiduwp)
 * [https://github.com/yuantuo666/baiduwp-php](https://github.com/yuantuo666/baiduwp-php)
 * [https://kinhdown.kinh.cc](https://kinhdown.kinh.cc)
 

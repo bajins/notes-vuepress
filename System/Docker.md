@@ -155,35 +155,6 @@
 
 
 
-
-## 容器服务器
-
-* [https://console.cloud.google.com/appengine](https://console.cloud.google.com/appengine)
-* [https://cloud.google.com/container-registry](https://cloud.google.com/container-registry)
-    * [https://github.com/GoogleContainerTools](https://github.com/GoogleContainerTools)
-    * [https://ssh.cloud.google.com](https://ssh.cloud.google.com)
-        * [https://shell.cloud.google.com](https://shell.cloud.google.com)
-        * [https://cloud.google.com/shell/docs](https://cloud.google.com/shell/docs)
-* [https://cloud.ibm.com/cloudfoundry/overview](https://cloud.ibm.com/cloudfoundry/overview)
-    * [https://cloud.ibm.com/shell](https://cloud.ibm.com/shell)
-    * [http://cli.cloudfoundry.org/zh-Hans/cf](http://cli.cloudfoundry.org/zh-Hans/cf)
-    - 使用ssh部署代码是错误的。正确做法是先进入 `ibmcloud target --cf` 使用 `ibmcloud cf push`命令
-        - `ibmcloud cf push 容器名 -b php_buildpack -m 256M -c "ls && ce /home"`
-    - 在push的代码目录里创建.bp-config配置文件，可以修改app的启动行为、可以修改`php.ini`等。否则你的container和其他服务做链接时就会被刷回原始状态。
-    - 10天是指开发行为，必须是类似于`ibm cloud cf restart`或者`cf push`这样的行为，可以用纯shell脚本实现。
-    * [https://github.com/CCChieh/IBMYes](https://github.com/CCChieh/IBMYes)
-* [https://github.com/codefresh-io](https://github.com/codefresh-io)
-    * [https://codefresh.io](https://codefresh.io)
-* [https://github.com/kubesail](https://github.com/kubesail)
-    * [https://kubesail.com](https://kubesail.com)
-* [https://azure.microsoft.com/zh-cn/services/devops/pipelines](https://azure.microsoft.com/zh-cn/services/devops/pipelines)
-* [https://github.com/containerum](https://github.com/containerum)
-* 樱花 [https://arukas.io](https://arukas.io)
-* Oracle [https://app.wercker.com](https://app.wercker.com)
-
-
-
-
 ## Docker命令
 
 ```bash

@@ -14,7 +14,6 @@
 * [https://github.com/arnoldthebat/chromiumos](https://github.com/arnoldthebat/chromiumos)
 
 - HTML转换为PDF [https://github.com/wkhtmltopdf](https://github.com/wkhtmltopdf)
-- 在线浏览器 [https://hyperbeam.com](https://hyperbeam.com)
 
 
 
