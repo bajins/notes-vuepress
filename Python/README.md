@@ -49,6 +49,9 @@
 * [https://hellopython.readthedocs.io](https://hellopython.readthedocs.io)
     * [https://github.com/meizhaohui/vueblog](https://github.com/meizhaohui/vueblog)
 * [https://github.com/Pierian-Data/Complete-Python-3-Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp)
+* 流式数据处理 [https://github.com/sandabuliu/python-stream](https://github.com/sandabuliu/python-stream)
+
+
 
 + [深挖python上下文管理——类的__init__、__enter__、__exit__、__del__在with下的表现](https://blog.csdn.net/qq_27884799/article/details/101535569)
 + [深入理解 Python 中的上下文管理器](https://www.cnblogs.com/wongbingming/p/10519553.html)
@@ -109,9 +112,13 @@ with Test() as t: # 触发__exit__
 * web [https://github.com/tiangolo/fastapi](https://github.com/tiangolo/fastapi)
 * [https://github.com/pallets/flask](https://github.com/pallets/flask)
     * [https://dormousehole.readthedocs.io](https://dormousehole.readthedocs.io)
+* 数据科学Web [https://github.com/plotly/dash](https://github.com/plotly/dash)
 * 定时任务 [https://github.com/agronholm/apscheduler](https://github.com/agronholm/apscheduler)
     * [https://apscheduler.readthedocs.io](https://apscheduler.readthedocs.io)
 * ORM [https://github.com/sqlalchemy/sqlalchemy](https://github.com/sqlalchemy/sqlalchemy)
+* 打印输出为表格 [https://github.com/jazzband/prettytable](https://github.com/jazzband/prettytable)
+* [https://github.com/astanin/python-tabulate](https://github.com/astanin/python-tabulate)
+
 
 
 - 交互式计算 [https://github.com/ipython](https://github.com/ipython)
@@ -141,6 +148,23 @@ with Test() as t: # 触发__exit__
 - [https://github.com/lxml/lxml](https://github.com/lxml/lxml)
 - [https://github.com/psf/requests-html](https://github.com/psf/requests-html)
 - [https://github.com/scrapy/parsel](https://github.com/scrapy/parsel)
+
+
+**PING/TCPING**
+
++ [https://github.com/topics/ping](https://github.com/topics/ping)
++ [https://github.com/topics/icmp-ping](https://github.com/topics/icmp-ping)
++ [https://github.com/topics/tcp](https://github.com/topics/tcp)
++ [https://github.com/topics/tcping](https://github.com/topics/tcping)
+
+- [用Python实现PING](https://blog.csdn.net/weixin_41855723/article/details/96184297)
+
+* [https://github.com/kyan001/ping3](https://github.com/kyan001/ping3)
+* [https://github.com/romana/multi-ping](https://github.com/romana/multi-ping)
+* [https://github.com/zhengxiaowai/tcping](https://github.com/zhengxiaowai/tcping)
+    * [https://github.com/rami3l/ting](https://github.com/rami3l/ting)
+* [https://github.com/alessandromaggio/pythonping](https://github.com/alessandromaggio/pythonping)
+
 
 
 

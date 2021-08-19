@@ -43,6 +43,30 @@
 > 终端（Terminal）是控制台（Console）设备内的软件程序。shell是终端向用户发送输入的程序。shell生成输出并将其传回终端进行显示。
 
 
+
+**sh、dash、bash、tcsh、csh、ash、bsh、ksh的区别**
+
+> 文件头定义为`#!/bin/bash`, 且使用`bash xx.sh`执行； 文件头定义为`#!/bin/sh`, 且使用`sh xx.sh`执行遵照 POSIX 规范
+
+- Bourne shell (sh)
+
+> UNIX 最初使用，且在每种 UNIX 上都可以使用。在 shell 编程方面相当优秀，但在处理与用户的交互方面做得不如其他几种shell
+
+- C shell (csh) 一个语法上接近于C语言的shell
+- Korn shell (ksh) 完全向上兼容 Bourne shell 并包含了 C shell 的很多特性
+- Bourne Again shell (bash)
+
+> Linux默认缺省shell。即 bash 是 Bourne shell 的扩展，与 Bourne shell 完全向后兼容，包含了很多 C shell 和 Korn shell 中的优点
+
+- Debian Almquist Shell(dash)
+
+> GNU/Linux 操作系统中的 /bin/sh 本是 bash (Bourne-Again Shell) 的符号链接，但鉴于 bash 过于复杂
+> ，有人把 bash 从 NetBSD 移植到 Linux 并更名为 dash (Debian Almquist Shell)，并建议将 /bin/sh 指向它
+> ，以获得更快的脚本执行速度。Dash Shell 比 Bash Shell 小的多，符合POSIX标准
+
+
+
+
 **推荐所有shell脚本都使用sh实现，[Windows可安装Git（集成MinGW-w64）、MinGW-w64、MSYS2、Cygwin](/Shell/ShellWindows.md)**
 **Windows10下推荐使用WSL**
 

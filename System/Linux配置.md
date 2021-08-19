@@ -22,6 +22,13 @@
 
 
 
+```bash
+# 查看/bin/sh指向的解释器
+ls /bin/sh -al
+# 重新配置dash，并选择“no”，即不使用dash
+sudo dpkg-reconfigure dash
+```
+
 
 ## 源码安装卸载
 
