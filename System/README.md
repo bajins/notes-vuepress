@@ -157,7 +157,6 @@
     * [https://cloud.oracle.com/usage/reports](https://cloud.oracle.com/usage/reports)
     * [https://cloud.oracle.com/limits](https://cloud.oracle.com/limits)
     * [https://51.ruyo.net/tag/oracle-cloud](https://51.ruyo.net/tag/oracle-cloud)
-    * [Linux挂载存储卷](https://www.cnblogs.com/woetu/p/15106983.html)
     * [Oracle Cloud 甲骨文云中给 VPS 添加新的块存储（CentOS 8.3.2011 磁盘分区和扩容）过程记录](https://blog.csdn.net/weixin_59409704/article/details/118461147)
     * 不建议使用用Oracle Linux镜像，无法设置root密码登录
     ```bash
@@ -198,10 +197,17 @@
 
 ### Cloud Shell
 
-* [https://ssh.cloud.google.com](https://ssh.cloud.google.com)
-        * [https://shell.cloud.google.com](https://shell.cloud.google.com)
-        * [https://cloud.google.com/shell/docs](https://cloud.google.com/shell/docs)
+* [http://ide.cloud.google.com](http://ide.cloud.google.com)
+    * [https://ssh.cloud.google.com](https://ssh.cloud.google.com)
+    * [https://shell.cloud.google.com](https://shell.cloud.google.com)
+    * [https://cloud.google.com/shell/docs](https://cloud.google.com/shell/docs)
 * [https://cloud.ibm.com/shell](https://cloud.ibm.com/shell)
+* [https://cloud.oracle.com/?cloudshell=true](https://cloud.oracle.com/?cloudshell=true)
+    * `https://console.us-<region>-1.oraclecloud.com/a/<tenancy>?cloudshell=true`
+* [https://github.com/Azure/CloudShell](https://github.com/Azure/CloudShell)
+    * [http://shell.azure.com](http://shell.azure.com)
+* [https://console.aws.amazon.com/cloudshell](https://console.aws.amazon.com/cloudshell)
+* [https://shell.aliyun.com](https://shell.aliyun.com)
 
 
 
@@ -225,6 +231,10 @@
 * [https://github.com/containerum](https://github.com/containerum)
 * 樱花 [https://arukas.io](https://arukas.io)
 * Oracle [https://app.wercker.com](https://app.wercker.com)
+
+
+
+**Functions**
 
 
 

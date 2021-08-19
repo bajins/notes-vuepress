@@ -42,6 +42,7 @@
 * [https://github.com/IBM](https://github.com/IBM)
 * [https://github.com/uber](https://github.com/uber)
 * [https://github.com/oracle](https://github.com/oracle)
+    * [https://oss.oracle.com](https://oss.oracle.com)
 * [https://github.com/square](https://github.com/square)
 * [https://github.com/aws-samples](https://github.com/aws-samples)
     * [https://github.com/awsdocs](https://github.com/awsdocs)
