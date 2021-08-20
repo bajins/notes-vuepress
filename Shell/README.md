@@ -14,6 +14,10 @@
 - [流行的 Linux 发行版包管理器命令的对应关系](https://wiki.archlinux.org/index.php/Pacman_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Rosetta_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 - [Linux包管理器及包安装工具基础知识](https://blog.csdn.net/u013430110/article/details/107329350)
 - GUI [什么是X11-Forwarding](https://blog.csdn.net/weixin_41668084/article/details/113361765)
+
+
+**命令助手**
+
 - 命令补全 [https://github.com/scop/bash-completion](https://github.com/scop/bash-completion)
 - [https://sourceforge.net/projects/zsh](https://sourceforge.net/projects/zsh)
 - [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
@@ -88,6 +92,7 @@
 * 各个版本控件支持库 [https://pkgs.org](https://pkgs.org)
 
 - mac [https://github.com/macports](https://github.com/macports)
+- [https://github.com/kidonng/sushi](https://github.com/kidonng/sushi)
 
 
 **第三方的软件包搜索引擎：**

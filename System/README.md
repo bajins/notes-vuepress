@@ -50,7 +50,6 @@
 - [https://github.com/AlmaLinux](https://github.com/AlmaLinux)
 - [https://www.oracle.com/linux](https://www.oracle.com/linux)
 - 将CentOS切换到Oracle脚本 [https://github.com/oracle/centos2ol](https://github.com/oracle/centos2ol)
-- [https://github.com/SerenityOS/serenity](https://github.com/SerenityOS/serenity)
 - [https://github.com/clearos](https://github.com/clearos)
 - [http://springdale.math.ias.edu](http://springdale.math.ias.edu/)
 - [https://github.com/cloudlinux](https://github.com/cloudlinux)
@@ -88,6 +87,9 @@
 - 监控总体带宽使用（批量式输出）：`vnstat`、`ifstat`、`dstat`、`collectl`
 - 每个套接字连接的带宽使用：`iftop`、`iptraf`、`tcptrack`、`pktstat`、`netwatch`、`trafshow`、`jnettop`
 - `ntopng`
+- perf、sar、ksar、mpstat、uptime、vmstat、pidstat、time、cpustat、munin、glances、atop、nmon、pcp-gui
+- [https://github.com/htop-dev/htop](https://github.com/htop-dev/htop)
+- 视图监视器 [https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet](https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet)
 - [https://github.com/aristocratos/bashtop](https://github.com/aristocratos/bashtop)
 - [https://github.com/aristocratos/bpytop](https://github.com/aristocratos/bpytop)
 
@@ -297,8 +299,9 @@
     * [https://colab.research.google.com](https://colab.research.google.com)
     * [https://github.com/PradyumnaKrishna/Colab-Hacks](https://github.com/PradyumnaKrishna/Colab-Hacks)
 * [https://devcloud.intel.com/zh/edge](https://devcloud.intel.com/zh/edge)
-    * [https://notebooks.edge.devcloud.intel.com](https://notebooks.edge.devcloud.intel.com)
+    * [https://devcloud.intel.com/zh/edge/advanced/connect_and_create](https://devcloud.intel.com/zh/edge/advanced/connect_and_create)
     * [https://academic.edge.devcloud.intel.com](https://academic.edge.devcloud.intel.com)
+    * [https://notebooks.edge.devcloud.intel.com](https://notebooks.edge.devcloud.intel.com)
     * [申请英特尔(Intel DevCloud) 80核心 256G内存 免费云服务器](https://51.ruyo.net/17346.html)
 * CoCalc [https://cocalc.com](https://cocalc.com)
 * Azure Notebooks [https://notebooks.azure.com](https://notebooks.azure.com)

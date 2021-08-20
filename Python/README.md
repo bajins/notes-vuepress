@@ -223,6 +223,8 @@ with Test() as t: # 触发__exit__
 * Psenet [https://github.com/WenmuZhou/PSENet.pytorch](https://github.com/WenmuZhou/PSENet.pytorch)
 * 语言模型实现 [https://github.com/lukhy/masr](https://github.com/lukhy/masr)
 * 实时语音克隆 [https://github.com/CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
+* [https://github.com/babysor/Realtime-Voice-Clone-Chinese](https://github.com/babysor/Realtime-Voice-Clone-Chinese)
+
 
 - [https://github.com/opencv](https://github.com/opencv)
     - [https://github.com/skvark/opencv-python](https://github.com/skvark/opencv-python)

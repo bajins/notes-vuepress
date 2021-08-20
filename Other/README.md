@@ -16,6 +16,7 @@
 + [如何选择开源许可证？](http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html)
 * [如何选择开源许可证？](https://blog.csdn.net/wadefelix/article/details/6384317)
 * License [https://app.fossa.com](https://app.fossa.com)
+* [https://creativecommons.org](https://creativecommons.org)
 
 
 * [https://github.com/search?q=learning](https://github.com/search?q=learning)
@@ -142,6 +143,7 @@
 - 文件系统 [https://github.com/zboxfs/zbox](https://github.com/zboxfs/zbox)
 - 游戏引擎 [https://github.com/PistonDevelopers/piston](https://github.com/PistonDevelopers/piston)
 - 搜索算法 [https://github.com/hora-search/hora](https://github.com/hora-search/hora)
+- 桌面应用程序 [https://github.com/tauri-apps/tauri](https://github.com/tauri-apps/tauri)
 
 
 * [https://github.com/a5huynh/defender-game](https://github.com/a5huynh/defender-game)
@@ -189,6 +191,7 @@
 + [https://github.com/lemire/SIMDCompressionAndIntersection](https://github.com/lemire/SIMDCompressionAndIntersection)
 + [https://github.com/lemire/FastPFor](https://github.com/lemire/FastPFor)
 + JSON [https://github.com/simdjson/simdjson](https://github.com/simdjson/simdjson)
++ [https://github.com/nlohmann/json](https://github.com/nlohmann/json)
 + 音乐可视化 [https://github.com/projectM-visualizer/projectm](https://github.com/projectM-visualizer/projectm)
 + [https://github.com/ithewei/libhv](https://github.com/ithewei/libhv)
 + [https://github.com/libevent/libevent](https://github.com/libevent/libevent)

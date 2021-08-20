@@ -15,6 +15,8 @@
     * [https://github.com/neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
     * [https://github.com/thaerkh/vim-workspace](https://github.com/thaerkh/vim-workspace)
     * [https://github.com/neovim/neovim](https://github.com/neovim/neovim)
+    * [https://github.com/NvChad/NvChad](https://github.com/NvChad/NvChad)
+    * [https://github.com/ms-jpq/coq_nvim](https://github.com/ms-jpq/coq_nvim)
 * [C#写的记事本](https://github.com/topics/notepad?l=c%23)
 * [C++写的记事本](https://github.com/topics/notepad?l=c%2B%2B)
 * [Notepad3](https://github.com/rizonesoft/Notepad3)
