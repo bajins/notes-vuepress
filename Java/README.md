@@ -344,6 +344,7 @@
     * [在Java中使用元组类型的利器javatuples](https://blog.csdn.net/lijingjingchn/article/details/87279294)
 * 结构工具 [https://github.com/vavr-io/vavr](https://github.com/vavr-io/vavr)
 * [https://github.com/eclipse/eclipse-collections](https://github.com/eclipse/eclipse-collections)
+* 比较文本差异 [https://github.com/java-diff-utils/java-diff-utils](https://github.com/java-diff-utils/java-diff-utils)
 
 
 
@@ -680,13 +681,11 @@
 
 **Other**
 
-* [https://github.com/864381832/xJavaFxTool](https://github.com/864381832/xJavaFxTool)
 * [JavaFX最新消息](http://fxexperience.com)
 * [使用Java 9的模块化来构建零依赖的原生应用](https://www.tuicool.com/articles/eiu2EnR)
 * [JavaFX、OSGi、Eclipse开源资料](http://www.javafxchina.net/main)
 * [JavaFx+Springboot+Maven 开发打包教程](https://segmentfault.com/a/1190000014037443)
 * [JavaFX 实现截图](http://www.private-blog.com/2018/01/29/javafx-%E5%AE%9E%E7%8E%B0webview%E6%88%AA%E5%9B%BE)
-* [https://github.com/proxyee-down-org/proxyee-down](https://github.com/proxyee-down-org/proxyee-down)
 * [IDEA通过Maven打包JavaFX工程（OpenJFX11）](https://www.cnblogs.com/6b7b5fc3/p/12990161.html)
 * [创建JavaFX项目并用Maven打包](https://www.cnblogs.com/zjwno1/p/13272380.html)
 
@@ -694,6 +693,7 @@
 **示例项目**
 
 * Java多线程下载GUI [https://github.com/fengxiaocan/Downloader](https://github.com/fengxiaocan/Downloader)
+* [https://github.com/proxyee-down-org/proxyee-down](https://github.com/proxyee-down-org/proxyee-down)
 * 基于javafx8代码生成器 [https://github.com/EliMirren](https://github.com/EliMirren)
 * [https://github.com/fuzhengwei/NaiveChat](https://github.com/fuzhengwei/NaiveChat)
 * 连接打印机 [https://gitee.com/qnloft/thb_client](https://gitee.com/qnloft/thb_client)
@@ -705,4 +705,5 @@
 * [https://github.com/WBB1997/BingWallpaper](https://github.com/WBB1997/BingWallpaper)
 * 翻译 [https://github.com/omegat-org/omegat](https://github.com/omegat-org/omegat)
     * [https://sourceforge.net/projects/omegat](https://sourceforge.net/projects/omegat)
+
 
