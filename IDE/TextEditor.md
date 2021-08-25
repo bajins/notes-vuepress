@@ -30,6 +30,9 @@
 * [https://github.com/geany/geany](https://github.com/geany/geany)
 
 
+- [https://www.texmacs.org](https://www.texmacs.org)
+- [https://github.com/XmacsLabs/Xmacs](https://github.com/XmacsLabs/Xmacs)
+
 
 
 ## Notepad++

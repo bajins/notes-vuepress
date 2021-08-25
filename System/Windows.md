@@ -133,8 +133,6 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 + [Windows PE (WinPE)](https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/winpe-intro)
 + [Windows USB/DVD 下载工具](https://www.microsoft.com/zh-cn/download/windows-usb-dvd-download-tool)
 
-* [http://rufus.ie](http://rufus.ie)
-* [https://github.com/balena-io/etcher](https://github.com/balena-io/etcher)
 * 微PE [http://www.wepe.com.cn](http://www.wepe.com.cn)
 * [USBOS](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965&extra=page%3D1)
 * [光卡自己的 PE 项目](https://hikaricalyx.com)

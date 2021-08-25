@@ -32,6 +32,7 @@
 **USB启动盘**
 
 - [https://github.com/pbatard/rufus](https://github.com/pbatard/rufus)
+- [https://github.com/balena-io/etcher](https://github.com/balena-io/etcher)
 - [https://github.com/unetbootin/unetbootin](https://github.com/unetbootin/unetbootin)
 - [https://www.pendrivelinux.com](https://www.pendrivelinux.com)
 
@@ -62,6 +63,9 @@
 - [https://gitlab.com/kalilinux](https://gitlab.com/kalilinux)
     - [https://www.kali.org](https://www.kali.org)
 - [https://github.com/SerenityOS](https://github.com/SerenityOS)
+- [https://www.haiku-os.org](https://www.haiku-os.org)
+- [https://github.com/linuxmint](https://github.com/linuxmint)
+
 
 * [https://github.com/topics/openwrt](https://github.com/topics/openwrt)
     * [https://github.com/openwrt/openwrt](https://github.com/openwrt/openwrt)
