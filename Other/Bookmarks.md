@@ -175,6 +175,7 @@
 + [https://github.com/marcojakob/code.makery.ch](https://github.com/marcojakob/code.makery.ch)
 
 
+* [https://github.com/cs-books/influential-cs-books](https://github.com/cs-books/influential-cs-books)
 * [https://github.com/netkiller/netkiller.github.io](https://github.com/netkiller/netkiller.github.io)
 * [https://github.com/trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
 * 计算机电子书 [https://github.com/itdevbooks/pdf](https://github.com/itdevbooks/pdf)

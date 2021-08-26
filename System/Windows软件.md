@@ -754,6 +754,9 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [Microsoft Authenticator](https://www.microsoft.com/zh-cn/account/authenticator)
 * KeePass [https://keepass.info](https://keepass.info)
 * Eziriz IntelliLock
+* [https://www.lastpass.com](https://www.lastpass.com)
+* [https://github.com/bitwarden](https://github.com/bitwarden)
+* [https://www.passwordstore.org](https://www.passwordstore.org)
 
 
 
@@ -773,6 +776,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * 鼠标手势 [https://github.com/yingDev/WGestures](https://github.com/yingDev/WGestures)
 * 鼠标增强 [https://github.com/majorworld/MousePlus](https://github.com/majorworld/MousePlus)
 * 效率工具 [https://github.com/cuiliang/Quicker](https://github.com/cuiliang/Quicker)
+* [https://u.tools](https://u.tools)
 * 加强Capslock键 [https://github.com/wo52616111/capslock-plus](https://github.com/wo52616111/capslock-plus)
 * 快速查看 [https://github.com/QL-Win/QuickLook](https://github.com/QL-Win/QuickLook)
 * [https://github.com/shibayan/WinQuickLook](https://github.com/shibayan/WinQuickLook)

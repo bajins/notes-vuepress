@@ -192,33 +192,34 @@ volumes:
     * [https://ghproxy.com](https://ghproxy.com)
 * [https://gitee.com/mirrors](https://gitee.com/mirrors)
 * [https://github.xxyyzz.workers.dev](https://github.xxyyzz.workers.dev)
+* [https://github.com/dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub)
+* GitHub代下载服务 [http://g.widyun.com](http://g.widyun.com)
+
+
+
++ [Jupyter Notebook](/Python/Python.md#jupyter-notebook)
+
+* php源码 [https://github.com/ilanyu/offline-download](https://github.com/ilanyu/offline-download)
+* go源码 [https://github.com/ilanyu/offLineDownloader](https://github.com/ilanyu/offLineDownloader)
+* [http://git.aakkc.com](http://git.aakkc.com)
+* [https://github.com/churuxu/xdownload](https://github.com/churuxu/xdownload)
+* [GitHub 下载加速](https://noshore.cn/github.html)
+* [https://github.com/fhefh2015/Fast-GitHub](https://github.com/fhefh2015/Fast-GitHub)
+    * [GitHub加速](https://chrome.google.com/webstore/detail/github%E5%8A%A0%E9%80%9F/mfnkflidjnladnkldfonnaicljppahpg)
 
 
 
 **刷新DNS缓存**
 
-- macOS
-
 ```bash
+# macOS
 killall -HUP mDNSResponder
 dscacheutil -flushcache
-```
-
-- Windows
-
-```bash
+# Windows
 ipconfig /flushdns
-```
-
-- Linux
-
-```bash
+# Linux
 service nscd restart
-```
-
-- Ubuntu
-
-```bash
+# Ubuntu
 sudo /etc/init.d/dns-clean start
 ```
 

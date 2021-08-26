@@ -312,6 +312,7 @@
 + [如何在电脑上下载Google play上的应用？](https://www.zhihu.com/question/22382577/answers/updated)
 + [https://greasyfork.org/zh-CN/scripts/33005-direct-download-from-google-play](https://greasyfork.org/zh-CN/scripts/33005-direct-download-from-google-play)
 
+* [https://github.com/rehmatworks/gplaydl](https://github.com/rehmatworks/gplaydl)
 * [https://android-apk.org](https://android-apk.org)
 * [https://androidapksfree.com](https://androidapksfree.com)
 * [https://androidappsapk.co](https://androidappsapk.co)

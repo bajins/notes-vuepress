@@ -67,6 +67,7 @@
     * 存储 [https://github.com/openebs/openebs](https://github.com/openebs/openebs)
     * 软件包管理器 [https://github.com/helm](https://github.com/helm)
     * 脚本安装K8S集群 [https://github.com/easzlab/kubeasz](https://github.com/easzlab/kubeasz)
+    * [https://github.com/armosec/kubescape](https://github.com/armosec/kubescape)
 * [https://github.com/rook/rook](https://github.com/rook/rook)
 * [https://github.com/lensapp/lens](https://github.com/lensapp/lens)
 * [https://github.com/jenkins-x](https://github.com/jenkins-x)

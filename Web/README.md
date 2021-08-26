@@ -83,6 +83,7 @@
 **API接口文档管理**
 
 - [https://siguso.com](https://siguso.com)
+- [https://easydoc.net](https://easydoc.net)
 - [https://www.uedbox.com/share](https://www.uedbox.com/share)
 - [https://github.com/star7th/showdoc](https://github.com/star7th/showdoc)
 - [https://github.com/apidoc/apidoc](https://github.com/apidoc/apidoc)

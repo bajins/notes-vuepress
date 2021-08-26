@@ -50,6 +50,7 @@
     * [https://github.com/meizhaohui/vueblog](https://github.com/meizhaohui/vueblog)
 * [https://github.com/Pierian-Data/Complete-Python-3-Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp)
 * 流式数据处理 [https://github.com/sandabuliu/python-stream](https://github.com/sandabuliu/python-stream)
+* [https://github.com/Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python)
 
 
 
@@ -62,6 +63,9 @@ with Test() as t: # 触发__exit__
     pass
 ```
 
+
+**工具**
+
 - 纯真IP数据库 [https://github.com/animalize/qqwry-python3](https://github.com/animalize/qqwry-python3)
 - 反编译 [https://github.com/countercept/python-exe-unpacker](https://github.com/countercept/python-exe-unpacker)
 - 解密MS Office [https://github.com/nolze/msoffcrypto-tool](https://github.com/nolze/msoffcrypto-tool)
@@ -69,6 +73,8 @@ with Test() as t: # 触发__exit__
 - 自动构建 [https://github.com/buildbot/buildbot](https://github.com/buildbot/buildbot)
 - web文件扫描 [https://github.com/topics/dirbuster](https://github.com/topics/dirbuster)
 - [https://github.com/H4ckForJob/dirmap](https://github.com/H4ckForJob/dirmap)
+- [https://github.com/DIGITALCRIMINAL/OnlyFans](https://github.com/DIGITALCRIMINAL/OnlyFans)
+
 
 
 ## 第三方库
@@ -167,7 +173,7 @@ with Test() as t: # 触发__exit__
 
 
 
-## Jupyter Notebook
+**Jupyter Notebook**
 
 + [https://github.com/jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab)
 + [https://github.com/jupyter](https://github.com/jupyter)
