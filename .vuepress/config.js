@@ -119,10 +119,10 @@ module.exports = {
             opts: [
                 {
                     icon: '',
-                    name: '饿了么红包',
+                    name: '饿了么',
                     link: '',
                     popover: {
-                        title: '',
+                        title: '扫码领取饿了么红包',
                         type: 'image',
                         imageUrl: 'https://i.imgur.com/n2fpw74.jpg',
                     }
@@ -132,7 +132,7 @@ module.exports = {
                     name: '美团红包',
                     link: '',
                     popover: {
-                        title: '',
+                        title: '扫码领取美团红包',
                         type: 'image',
                         imageUrl: 'https://i.imgur.com/u0wdcIP.png',
                     }

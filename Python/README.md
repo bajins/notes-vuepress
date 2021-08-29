@@ -267,6 +267,7 @@ with Test() as t: # 触发__exit__
 * [https://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)
 * 百度飞桨 [https://github.com/PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 * [https://github.com/miaomiaosoft/PandaOCR](https://github.com/miaomiaosoft/PandaOCR)
+* [https://github.com/WenmuZhou/PytorchOCR](https://github.com/WenmuZhou/PytorchOCR)
 
 
 

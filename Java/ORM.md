@@ -57,8 +57,8 @@
 * [(https://mysql-net.github.io/MySqlConnector/connection-options]((https://mysql-net.github.io/MySqlConnector/connection-options)
     * [https://mysqlconnector.net/connection-options](https://mysqlconnector.net/connection-options)
 
-> `jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8`
-> `&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai`
+> `jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false`
+> `&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai`
 
 | 参数名称              	| 参数说明                                                                        	| 缺省值 	| 最低版本要求 	|
 |-----------------------	|---------------------------------------------------------------------------------	|--------	|--------------	|
@@ -76,6 +76,10 @@
 | useSSL                	| 是否进行ssl连接                                                                 	|        	|              	|
 | zeroDateTimeBehavior  	| 把零值日期转换为`null`                                                          	|        	|              	|
 | serverTimezone        	| `GMT%2B8` `%2B`是`+`的转义字符,其实就是`GMT+8`（'+8:00'）,代表东八区`Asia/Shanghai` 	|        	|              	|
+
+- `useTimeZone` 为true时，会开启服务器和客户端之间的时区转换，只有`useLegacyDatetimeCode = true`时才回生效
+- `useLegacyDatetimeCode` 默认为true，为false时: `useTimezone`, `useJDBCCompliantTimezoneShift`, `useGmtMillisForDatetimes`, `useFastDateParsing` 这几个参数都会无效
+
 
 
 
