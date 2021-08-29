@@ -119,12 +119,22 @@ module.exports = {
             opts: [
                 {
                     icon: '',
-                    name: '',
+                    name: '饿了么红包',
                     link: '',
                     popover: {
                         title: '',
                         type: 'image',
-                        imageUrl: '',
+                        imageUrl: 'https://i.imgur.com/n2fpw74.jpg',
+                    }
+                },
+                {
+                    icon: '',
+                    name: '美团红包',
+                    link: '',
+                    popover: {
+                        title: '',
+                        type: 'image',
+                        imageUrl: 'https://i.imgur.com/u0wdcIP.png',
                     }
                 }
             ]

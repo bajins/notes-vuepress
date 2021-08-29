@@ -363,6 +363,7 @@
 * [https://www.xnview.com](https://www.xnview.com)
 * [https://www.getpaint.net](https://www.getpaint.net)
 * [https://www.gimp.org](https://www.gimp.org)
+* 3D创作 [https://www.blender.org](https://www.blender.org)
 
 - [https://affinity.serif.com](https://affinity.serif.com)
 - [https://eagle.cool](https://eagle.cool)
@@ -644,6 +645,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.52pojie.cn/thread-953460-1-1.html](https://www.52pojie.cn/thread-953460-1-1.html)
 * [http://1clipboard.io](http://1clipboard.io)
 * 粘贴到文件 [https://github.com/huiyadanli/PasteEx](https://github.com/huiyadanli/PasteEx)
+* [http://clipdiary.com](http://clipdiary.com)
 
 
 - [https://copiedapp.com](https://copiedapp.com)
@@ -683,10 +685,11 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 ## 远程控制
 
-+ [远程桌面客户端 | Microsoft Docs](https://docs.microsoft.com/zh-cn/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)
 + [https://github.com/topics/remote-desktop](https://github.com/topics/remote-desktop)
 + [https://github.com/topics/remote-access](https://github.com/topics/remote-access)
 
+
+* [远程桌面客户端 | Microsoft Remote Desktop](https://docs.microsoft.com/zh-cn/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)
 * [https://www.teamviewer.com](https://www.teamviewer.com)
 * [https://anydesk.com](https://anydesk.com)
 * [http://trustviewer.com](http://trustviewer.com)
@@ -721,6 +724,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [http://www.uderzo.it/main_products/space_sniffer](http://www.uderzo.it/main_products/space_sniffer)
 * [Windows File Recovery](https://www.microsoft.com/zh-cn/p/windows-file-recovery/9n26s50ln705)
 * [https://github.com/violet7pan/XYplorer_Help](https://github.com/violet7pan/XYplorer_Help)
+* [http://multicommander.com](http://multicommander.com)
 * [https://www.diskinternals.com/download](https://www.diskinternals.com/download)
     * 读取EXT 类型数据盘 [http://www.diskinternals.com/download/Linux_Reader.exe](http://www.diskinternals.com/download/Linux_Reader.exe)
 * [傲梅分区助手PartAssist](https://www.lanzoui.com/b0f1etedc)

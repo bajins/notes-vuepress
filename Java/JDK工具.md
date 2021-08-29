@@ -34,6 +34,7 @@
    * [https://github.com/vlsi/mat-calcite-plugin](https://github.com/vlsi/mat-calcite-plugin)
 * 监控统计 [https://github.com/worstcase/gumshoe](https://github.com/worstcase/gumshoe)
 * [https://github.com/stevensouza/automon](https://github.com/stevensouza/automon)
+* [https://github.com/zrbcool/pepper-metrics](https://github.com/zrbcool/pepper-metrics)
 
 
 

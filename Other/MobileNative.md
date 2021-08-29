@@ -90,6 +90,13 @@
 + [https://github.com/Omooo/Android-Notes](https://github.com/Omooo/Android-Notes)
 
 
+
+- [https://github.com/arduino/Arduino](https://github.com/arduino/Arduino)
+- [https://www.visualmicro.com](https://www.visualmicro.com)
+- [https://github.com/Sloeber/arduino-eclipse-plugin](https://github.com/Sloeber/arduino-eclipse-plugin)
+
+
+
 * [https://github.com/afkT/DevUtils](https://github.com/afkT/DevUtils)
 * [https://github.com/DyncKathline](https://github.com/DyncKathline)
 * [https://github.com/wave-chtj/BaseIotUtils](https://github.com/wave-chtj/BaseIotUtils)
