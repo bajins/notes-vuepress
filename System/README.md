@@ -67,6 +67,9 @@
 - [https://github.com/SerenityOS](https://github.com/SerenityOS)
 - [https://www.haiku-os.org](https://www.haiku-os.org)
 - [https://github.com/linuxmint](https://github.com/linuxmint)
+- [https://github.com/cutefishos-ubuntu](https://github.com/cutefishos-ubuntu)
+- [https://gitlab.archlinux.org/archlinux](https://gitlab.archlinux.org/archlinux)
+- 支持Linux和安卓应用 [https://github.com/JingOS-team/JingOS](https://github.com/JingOS-team/JingOS)
 
 
 * [https://github.com/topics/openwrt](https://github.com/topics/openwrt)
