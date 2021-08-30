@@ -522,3 +522,4 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/notable/notable](https://github.com/notable/notable)
 * [https://github.com/nhn/tui.editor](https://github.com/nhn/tui.editor)
 * [https://github.com/aguang-xyz/aurora-editor](https://github.com/aguang-xyz/aurora-editor)
+* 笔记 [https://github.com/laurent22/joplin](https://github.com/laurent22/joplin)

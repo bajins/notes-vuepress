@@ -195,6 +195,7 @@ volumes:
 * [https://github.com/dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub)
 * GitHub代下载服务 [http://g.widyun.com](http://g.widyun.com)
 
+- [https://gitee.com/organizations/mirrors_trending/projects](https://gitee.com/organizations/mirrors_trending/projects)
 
 
 + [Jupyter Notebook](/Python/Python.md#jupyter-notebook)

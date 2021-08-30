@@ -28,6 +28,7 @@
 * [https://github.com/textmate](https://github.com/textmate)
 * [https://github.com/Komodo/KomodoEdit](https://github.com/Komodo/KomodoEdit)
 * [https://github.com/geany/geany](https://github.com/geany/geany)
+* [https://github.com/lite-xl/lite-xl](https://github.com/lite-xl/lite-xl)
 
 
 - [https://www.texmacs.org](https://www.texmacs.org)

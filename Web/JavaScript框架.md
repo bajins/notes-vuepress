@@ -34,6 +34,7 @@
 * [http://www.jeasyui.com](http://www.jeasyui.com)
 * 响应式框架 [https://github.com/foundation](https://github.com/foundation)
 * [https://github.com/jorgebucaran/hyperapp](https://github.com/jorgebucaran/hyperapp)
+* [https://github.com/umijs](https://github.com/umijs)
 
 
 - 测试 [https://github.com/karma-runner/karma](https://github.com/karma-runner/karma)

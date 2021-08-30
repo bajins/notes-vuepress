@@ -16,6 +16,10 @@
 
 **MySQL优化工具**
 
++ 压测 [https://github.com/topics/sysbench](https://github.com/topics/sysbench)
+  + [Mysql专栏 - 线上调优与压力测试](https://www.52pojie.cn/thread-1502301-1-1.html)
+
+
 * [https://github.com/major/MySQLTuner-perl](https://github.com/major/MySQLTuner-perl)
 * [https://github.com/BMDan/tuning-primer.sh](https://github.com/BMDan/tuning-primer.sh)
 * pt-query-digest、pt-variable-advisor：[https://www.percona.com/downloads/percona-toolkit/LATEST/](https://www.percona.com/downloads/percona-toolkit/LATEST/)

@@ -239,6 +239,8 @@ chrome://flags/#enable-parallel-downloading
 * [Video Downloader professional](https://chrome.google.com/webstore/detail/video-downloader-professi/bacakpdjpomjaelpkpkabmedhkoongbi)
 * [https://github.com/684102/HDS-HLS-Video-Downloader](https://github.com/684102/HDS-HLS-Video-Downloader)
 
+- 黑暗阅读器 [https://github.com/darkreader/darkreader](https://github.com/darkreader/darkreader)
+
 
 ### Other
 
