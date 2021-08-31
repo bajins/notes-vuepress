@@ -88,7 +88,7 @@
 - [https://github.com/TerryZ/vue-plugins](https://github.com/TerryZ/vue-plugins)
     - [https://github.com/TerryZ/v-selectpage](https://github.com/TerryZ/v-selectpage)
     - [https://github.com/TerryZ/v-page](https://github.com/TerryZ/v-page)
-- [https://github.com/xaboy/form-create](https://github.com/xaboy/form-create)
+- 动态表单生成 [https://github.com/xaboy/form-create](https://github.com/xaboy/form-create)
 - [https://github.com/dev-zl/vccvalidate](https://github.com/dev-zl/vccvalidate)
 - [https://github.com/ferrinweb/vue-scroll-box](https://github.com/ferrinweb/vue-scroll-box)
 - [https://github.com/kazupon/vue-i18n](https://github.com/kazupon/vue-i18n)

@@ -124,7 +124,8 @@ module.exports = {
                     popover: {
                         title: '扫码领取饿了么红包',
                         type: 'image',
-                        imageUrl: 'https://i.imgur.com/n2fpw74.jpg',
+                        // imageUrl: 'https://i.imgur.com/n2fpw74.jpg',
+                        imageUrl: 'https://static01.imgkr.com/temp/472bc8289879436a9001716482a844fe.jpg',
                     }
                 },
                 {
@@ -134,7 +135,8 @@ module.exports = {
                     popover: {
                         title: '扫码领取美团红包',
                         type: 'image',
-                        imageUrl: 'https://i.imgur.com/u0wdcIP.png',
+                        // imageUrl: 'https://i.imgur.com/u0wdcIP.png',
+                        imageUrl: 'https://static01.imgkr.com/temp/74ec61e2df4f47709599407fca487255.png',
                     }
                 }
             ]

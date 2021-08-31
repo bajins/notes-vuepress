@@ -196,7 +196,6 @@ var express = require('express');
 * 模拟数据生成 [https://github.com/nuysoft/Mock](https://github.com/nuysoft/Mock)
 * [https://github.com/dankogai/js-base64](https://github.com/dankogai/js-base64)
 * 选色器 [https://github.com/bgrins/spectrum](https://github.com/bgrins/spectrum)
-* [https://github.com/ant-design/ant-design](https://github.com/ant-design/ant-design)
 * 手势交互 [https://github.com/hammerjs/hammer.js](https://github.com/hammerjs/hammer.js)
 * [https://github.com/material-motion/material-motion-js](https://github.com/material-motion/material-motion-js)
 * 自动执行 [https://github.com/gruntjs](https://github.com/gruntjs)
