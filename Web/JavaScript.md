@@ -507,6 +507,7 @@ var express = require('express');
 * [https://github.com/chiruom/DanmuPlayer](https://github.com/chiruom/DanmuPlayer)
 * 字体滚动 [https://github.com/chenjianfang/scroxt](https://github.com/chenjianfang/scroxt)
 * [https://github.com/kalkih/mini-media-player](https://github.com/kalkih/mini-media-player)
+* [https://github.com/jwplayer/jwplayer](https://github.com/jwplayer/jwplayer)
 
 
 **反爬虫**

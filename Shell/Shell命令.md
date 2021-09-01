@@ -140,33 +140,12 @@ ls -l | awk "/postfix|dovecot/"
 
 > `crontab`命令常用于Unix和类Unix的操作系统之中，用于设置周期性被执行的指令
 
-### 编辑crontab文件
-
 ```bash
+# 编辑crontab文件
 crontab -e
 ```
 
-### 输入定时任务命令
-
-```bash
-# 每分钟输出一次当前时间
-* * * * * echo `date` >> /log.log
-# 每天凌晨1点30分执行清理内存脚本，并且输出到日志
-30 1 * * *  /bin/bash /home/rememory.sh >> /home/rememory.log 2>&1
-# 每天凌晨1点30分执行删除MySQL日志文件，并且输出到日志
-30 1 * * *  python /home/delete_file.py 文件带后缀的路径 保留的文件个数 >> /home/delete_file.log 2>&1
-# 每隔3天,1点30分执行，并且输出到日志
-30 1 */3 * * /bin/bash 文件路径 >> 输出日志文件路径 2>&1
-# 设置每20天清理一次（日志清理太频繁不方便以后按日志排错）
-0 0 */20 * * /bin/bash /home/cleanLog.sh >> /home/cleanLog.log 2>&1
-
-# 设置每小时执行一次
-0 */1 * * *  执行命令
-```
-
-> 在linux中的直接执行shell脚本可以用相对路径找到文件,但是如果通过计划任务`crontab`执行shell脚本时，却不能通过相对路径找到文件!
->
-> 可以使用pwd命令获取目录`pwd`'/文件名'
+> 在linux中执行shell脚本可以用相对路径找到文件,但是如果通过计划任务`crontab`执行shell脚本时，却不能通过相对路径找到文件!
 
 
 ## 进制转换

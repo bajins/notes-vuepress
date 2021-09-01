@@ -52,6 +52,7 @@
     + [https://www.npmjs.com/search?q=keywords:busuanzi](https://www.npmjs.com/search?q=keywords:busuanzi)
 + 搜索 [https://github.com/algolia/docsearch](https://github.com/algolia/docsearch)
     + [https://www.algolia.com/docsearch](https://www.algolia.com/docsearch)
++ [https://sourcegraph.com/search](https://sourcegraph.com/search)
 + [https://github.com/ekalinin/sitemap.js](https://github.com/ekalinin/sitemap.js)
 + 网页加载进度 [https://github.com/CodeByZach/pace](https://github.com/CodeByZach/pace)
 + 天气 [https://weatherwidget.io](https://weatherwidget.io)
@@ -64,8 +65,8 @@
     * [https://github.com/vuepress/awesome-vuepress](https://github.com/vuepress/awesome-vuepress)
     * [https://github.com/search?q=vuepress-theme](https://github.com/search?q=vuepress-theme)
     * [https://github.com/topics/vuepress-theme](https://github.com/topics/vuepress-theme)
-    * [https://github.com/z3by/vuepress-tools/tree/master/packages](https://github.com/z3by/vuepress-tools/tree/master/packages)
-* [https://github.com/vuejs/vitepress](https://github.com/vuejs/vitepress)
+    * [https://github.com/z3by/vuepress-tools](https://github.com/z3by/vuepress-tools)
+    * [https://github.com/vuejs/vitepress](https://github.com/vuejs/vitepress)
 * 静态编译Jekyll [https://github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
     * [http://jekyllcn.com](http://jekyllcn.com)
     * [https://www.jekyll.com.cn](https://www.jekyll.com.cn)
@@ -101,7 +102,6 @@
 - [https://www.freenom.com](https://www.freenom.com)
 - [https://nic.eu.org](https://nic.eu.org)
 
-* 全球加速CDN [https://www.nodecache.com/product/cdn](https://www.nodecache.com/product/cdn) 新客户享500G北美、亚太通用流量包+100G中国直连流量包一个月
 * [如何正确绕开备案使用国内机器](https://www.hqsblog.cn/2019/12/15/237.html)
 
 

@@ -380,6 +380,7 @@
 * [https://github.com/Youngxj/YoungxjTools](https://github.com/Youngxj/YoungxjTools)
 * [https://github.com/netnr/scriptservices](https://github.com/netnr/scriptservices)
 * 协作在线办公套件 [https://github.com/ONLYOFFICE](https://github.com/ONLYOFFICE)
+* 媒体服务器 [https://github.com/MediaBrowser/Emby.Releases](https://github.com/MediaBrowser/Emby.Releases)
 
 
 **发卡系统**

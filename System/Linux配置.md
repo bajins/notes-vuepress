@@ -127,6 +127,26 @@ SYSFONT="lat0-sun16"
 localectl set-locale LANG=zh_CN.utf8
 ```
 
+### 安装字体
+
+```bash
+# 安装字体配置和字体索引指令
+yum install -y fontconfig mkfontscale
+sudo apt-get -y install fontconfig xfonts-utils
+# 查看字体
+fc-list
+# 查看系统中已经安装的中文字体
+fc-list :lang=zh
+# 进入C:\Windows\Fonts把MSYH.TTF（微软雅黑字体文件）和simhei.tty（黑体常规）文件
+# 上传到linux服务器/usr/share/fonts/my_fonts下
+
+# 建立字体索引信息
+mkfontscale
+mkfontdir
+# 更新字体缓存
+fc-cache
+```
+
 
 ### 设置VIM
 
