@@ -397,6 +397,7 @@
 ## 路由跟踪
 
 - 查询IP地理信息 [https://github.com/zu1k/nali](https://github.com/zu1k/nali)
+- DNS扫描 [https://github.com/pwnesia/dnstake](https://github.com/pwnesia/dnstake)
 
 **`ping`、`tcptraceroute`、`traceroute`、`mtr`**
 

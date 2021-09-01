@@ -27,6 +27,12 @@
 
 
 
+* [java编译器编码和JVM编码问题？](https://www.zhihu.com/question/30977092)
+* Linux中，JVM默认编码为UTF-8，在`catalina.sh`配置`JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=UTF-8"`
+* Windows中，JVM默认编码为GBK，在`catalina.bat`配置`set JAVA_OPTS=%JAVA_OPTS% -Dfile.encoding=UTF-8`
+
+
+
 ## 执行器（线程池）
 
 > `Executor` Tomcat默认没有启用线程池，在tomcat中每一个用户请求都是一个线程，所以可以使用线程池提高性能。
