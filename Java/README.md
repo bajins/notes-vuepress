@@ -652,6 +652,7 @@
 - [https://github.com/openrndr/openrndr](https://github.com/openrndr/openrndr)
 - 扁平UI [https://github.com/JFormDesigner/FlatLaf](https://github.com/JFormDesigner/FlatLaf)
 - UI 控件 [https://github.com/controlsfx](https://github.com/controlsfx)
+- [https://github.com/eclipse/nebula](https://github.com/eclipse/nebula)
 - Google Material Design [https://github.com/jfoenixadmin/JFoenix](https://github.com/jfoenixadmin/JFoenix)
 - Bootstrap样式 [https://github.com/dicolar/jbootx](https://github.com/dicolar/jbootx)
 - [https://github.com/edvin/tornadofx-controls](https://github.com/edvin/tornadofx-controls)

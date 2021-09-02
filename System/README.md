@@ -219,6 +219,11 @@
     * [http://shell.azure.com](http://shell.azure.com)
 * [https://console.aws.amazon.com/cloudshell](https://console.aws.amazon.com/cloudshell)
 * [https://shell.aliyun.com](https://shell.aliyun.com)
+* [https://www.katacoda.com](https://www.katacoda.com)
+    * [https://www.katacoda.com/courses/ubuntu/playground](https://www.katacoda.com/courses/ubuntu/playground)
+    * [https://www.katacoda.com/courses/ubuntu/playground1804](https://www.katacoda.com/courses/ubuntu/playground1804)
+    * [https://www.katacoda.com/courses/ubuntu/playground1904](https://www.katacoda.com/courses/ubuntu/playground1904)
+    * [https://www.katacoda.com/courses/ubuntu/playground2004](https://www.katacoda.com/courses/ubuntu/playground2004)
 
 
 

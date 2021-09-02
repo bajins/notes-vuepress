@@ -179,34 +179,56 @@ volumes:
 
 ### 访问速度过慢
 
-* [https://myssl.com/dns_check.html](https://myssl.com/dns_check.html)
-* [http://tool.chinaz.com/dns](http://tool.chinaz.com/dns)
-* [https://www.ipaddress.com](https://www.ipaddress.com)
-* [Windows设置GitHub的Hosts脚本](/files/设置GitHub的Hosts.bat)
-* [https://codechina.csdn.net/mirrors](https://codechina.csdn.net/mirrors)
-* [https://github.com/FastGitORG](https://github.com/FastGitORG)
-    * [https://hub.fastgit.org](https://hub.fastgit.org)
-    * [https://toolwa.com/github](https://toolwa.com/github)
-* github release、archive以及项目文件的加速项目 [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
-    * [https://gh.api.99988866.xyz](https://gh.api.99988866.xyz)
-    * [https://ghproxy.com](https://ghproxy.com)
-* [https://gitee.com/mirrors](https://gitee.com/mirrors)
-* [https://github.xxyyzz.workers.dev](https://github.xxyyzz.workers.dev)
-* [https://github.com/dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub)
-* GitHub代下载服务 [http://g.widyun.com](http://g.widyun.com)
-
-- [https://gitee.com/organizations/mirrors_trending/projects](https://gitee.com/organizations/mirrors_trending/projects)
-
-
 + [Jupyter Notebook](/Python/Python.md#jupyter-notebook)
 
 * php源码 [https://github.com/ilanyu/offline-download](https://github.com/ilanyu/offline-download)
 * go源码 [https://github.com/ilanyu/offLineDownloader](https://github.com/ilanyu/offLineDownloader)
 * [http://git.aakkc.com](http://git.aakkc.com)
 * [https://github.com/churuxu/xdownload](https://github.com/churuxu/xdownload)
-* [GitHub 下载加速](https://noshore.cn/github.html)
+* GitHub下载加速 [https://noshore.cn/github.html](https://noshore.cn/github.html)
 * [https://github.com/fhefh2015/Fast-GitHub](https://github.com/fhefh2015/Fast-GitHub)
     * [GitHub加速](https://chrome.google.com/webstore/detail/github%E5%8A%A0%E9%80%9F/mfnkflidjnladnkldfonnaicljppahpg)
+* [https://myssl.com/dns_check.html](https://myssl.com/dns_check.html)
+* [http://tool.chinaz.com/dns](http://tool.chinaz.com/dns)
+* [https://www.ipaddress.com](https://www.ipaddress.com)
+* [Windows设置GitHub的Hosts脚本](/files/设置GitHub的Hosts.bat)
+
+- [https://gitee.com/organizations/mirrors_trending/projects](https://gitee.com/organizations/mirrors_trending/projects)
+
+
+* [https://codechina.csdn.net/mirrors](https://codechina.csdn.net/mirrors)
+* [https://github.com/FastGitORG](https://github.com/FastGitORG)
+    * [https://hub.fastgit.org](https://hub.fastgit.org) 中国香港
+    * [https://toolwa.com/github](https://toolwa.com/github)
+* [https://github.com/docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar)
+* [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
+    * [https://gh.api.99988866.xyz](https://gh.api.99988866.xyz) 美国
+    * [https://ghproxy.com](https://ghproxy.com) 韩国首尔
+* [https://gitee.com/mirrors](https://gitee.com/mirrors)
+* [https://github.xxyyzz.workers.dev](https://github.xxyyzz.workers.dev)
+* [https://github.com/dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub)
+* GitHub代下载服务 [http://g.widyun.com](http://g.widyun.com)
+* [https://gh.msx.workers.dev](https://gh.msx.workers.dev) 美国
+* [https://gh.xiu2.xyz](https://gh.xiu2.xyz) 美国（自建
+* [https://gh.argv.cc](https://gh.argv.cc) 美国
+* [https://git.yumenaka.net](https://git.yumenaka.net) 美国
+* [https://download.fastgit.org](https://download.fastgit.org) 日本
+* [https://gitclone.com	中国浙江](https://gitclone.com) 中国浙江
+* [https://github.com.cnpmjs.org](https://github.com.cnpmjs.org) 新加坡
+
+
+**Git Clone SSH 加速**
+
+* `git@git.zhlh6.cn` 中国北京
+* `git@hub.fastgit.org` 中国香港
+
+
+**Raw 文件加速**
+
+* [https://cdn.jsdelivr.net](https://cdn.jsdelivr.net) 中国国内
+* [https://raw.fastgit.org](https://raw.fastgit.org) 中国香港
+* [https://cdn.staticaly.com](https://cdn.staticaly.com) 日本东京
+
 
 
 

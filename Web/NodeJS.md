@@ -416,6 +416,7 @@ request({
 
 * [https://github.com/justjavac/awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp)
 * [https://github.com/qiushi123/xiaochengxu_demos](https://github.com/qiushi123/xiaochengxu_demos)
+* [https://github.com/YanxinNet/uView](https://github.com/YanxinNet/uView)
 
 - 使用Golang开发的微信SDK: [https://github.com/silenceper/wechat](https://github.com/silenceper/wechat)
 

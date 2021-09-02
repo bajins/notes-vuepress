@@ -428,8 +428,15 @@ public static void createInstanceSetter(Class<?> clazz) {
 + `Window` -> `Preferences` -> `General` -> `Editors` -> `File Associations`
    + 在`File types`选中`*.class` 或 `*.class without source`
    + 在`Associated editors`选中`Class Decompiler Viewer`点击`Default`
++ `Window` -> `Preferences` -> `Java` -> `Decompiler`
+   + `Escape unicode characters` 转义unicode字符
+   + `Realign line numbers` 重新对齐行号
+   + `Show original line numbers` 显示原始行号
+   + `Show metadata` 显示元数据
+
 
 - [https://github.com/ecd-plugin/ecd](https://github.com/ecd-plugin/ecd)
+   - [https://ecd-plugin.github.io/update](https://ecd-plugin.github.io/update)
 - [https://github.com/iloveeclipse/plugins/wiki](https://github.com/iloveeclipse/plugins/wiki)
 - [https://github.com/java-decompiler/jd-eclipse](https://github.com/java-decompiler/jd-eclipse)
 - [https://github.com/cnfree/Eclipse-Class-Decompiler](https://github.com/cnfree/Eclipse-Class-Decompiler)
@@ -442,4 +449,4 @@ public static void createInstanceSetter(Class<?> clazz) {
 > 帮助开发者更高效地开发、测试、诊断并部署应用。通过插件，可以将本地应用一键部署到任意服务器
 
 * [http://toolkit.aliyun.com/eclipse](http://toolkit.aliyun.com/eclipse)
-
+* [https://github.com/HPCToolkit/hpcviewer.e4](https://github.com/HPCToolkit/hpcviewer.e4)

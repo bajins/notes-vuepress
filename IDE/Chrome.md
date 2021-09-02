@@ -248,6 +248,7 @@ chrome://flags/#enable-parallel-downloading
     * [https://greasyfork.org](https://greasyfork.org)
     * [https://openuserjs.org](https://openuserjs.org)
     * [https://github.com/Mottie/GitHub-userscripts](https://github.com/Mottie/GitHub-userscripts)
+    * [https://github.com/XIU2/UserScript](https://github.com/XIU2/UserScript)
 * [脚本助手：violentmonkey](https://github.com/violentmonkey/violentmonkey)
 * [阅读模式：reader-view](https://chrome.google.com/webstore/detail/reader-view/iibolhpkjjmoepndefdmdlmbpfhlgjpl)
 * [阅读模式：just-read](https://github.com/ZachSaucier/Just-Read)
