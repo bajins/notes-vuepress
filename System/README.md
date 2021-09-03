@@ -335,6 +335,8 @@
 
 ### WebIDE
 
+* [https://github.dev](https://github.dev) 在仓库按点<kbd>.</kbd>键
+* [https://vscode.dev](https://vscode.dev)
 * [https://github.com/codespaces](https://github.com/codespaces)
 * [https://github.com/conwnet/github1s](https://github.com/conwnet/github1s)
     * [https://github1s.com](https://github1s.com)
