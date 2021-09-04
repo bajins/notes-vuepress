@@ -204,6 +204,8 @@
     * [使用hyperbeam.com来白嫖rs1.es](https://www.misakano.eu.org/2021/08/15/%E4%BD%BF%E7%94%A8hyperbeam-com%E6%9D%A5%E7%99%BD%E5%AB%96rs1-es)
 * [https://vps.apponfly.com](https://vps.apponfly.com)
     * [无限免费试用30分钟的Windows Server服务器](https://51.ruyo.net/17365.html)
+* [https://www.onworks.net](https://www.onworks.net)
+
 
 
 ### Cloud Shell
@@ -262,7 +264,6 @@
     + [https://www.heliohost.org](https://www.heliohost.org)
     + [https://github.com/hasura](https://github.com/hasura)
     + [https://github.com/gatsbyjs](https://github.com/gatsbyjs)
-    + [https://www.onworks.net](https://www.onworks.net)
     + [<img src="https://aka.ms/deploytoazurebutton" height="30px">](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fheartexlabs%2Flabel-studio%2Fmaster%2Fazuredeploy.json)
     + [<img src="https://deploy.cloud.run/button.svg" height="30px">](https://deploy.cloud.run)
 

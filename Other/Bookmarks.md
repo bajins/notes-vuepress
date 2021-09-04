@@ -380,6 +380,7 @@
 * [归档 | Pure White](https://www.purewhite.io/archives)
 * [Archives | 鸟窝](https://colobu.com/archives)
 * [酷 壳 – COOLSHELL](https://coolshell.cn/featured)
+* 程序员麻辣烫的blog [https://github.com/shidawuhen/shidawuhen.github.io](https://github.com/shidawuhen/shidawuhen.github.io)
 
 
 

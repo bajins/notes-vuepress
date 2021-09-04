@@ -257,7 +257,8 @@ with Test() as t: # 触发__exit__
     - `apt install libgeos-dev` debian
     - `yum install geos-devel` centos
 
-
+* [https://github.com/PearOCR](https://github.com/PearOCR)
+    * [https://pearocr.com](https://pearocr.com)
 * [https://github.com/alisen39/TrWebOCR](https://github.com/alisen39/TrWebOCR)
     * `pip3 install libtorch numpy opencv-python Pillow tornado`
 * [https://github.com/ianzhao05/textshot](https://github.com/ianzhao05/textshot)
