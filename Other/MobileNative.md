@@ -51,6 +51,7 @@
 + [https://github.com/shichunlei/flutter_app](https://github.com/shichunlei/flutter_app)
 + [https://github.com/qq326646683/flutter_tencentplayer](https://github.com/qq326646683/flutter_tencentplayer)
 + [https://github.com/rhymelph/r_upgrade](https://github.com/rhymelph/r_upgrade)
++ web框架 [https://github.com/angulardart/angular](https://github.com/angulardart/angular)
 
 - 干货 [https://github.com/fujianlian/GankFlutter](https://github.com/fujianlian/GankFlutter)
 - [https://github.com/xmcy0011/CoffeeChat](https://github.com/xmcy0011/CoffeeChat)
@@ -148,6 +149,8 @@
 + 安卓上运行的安卓模拟器 [http://www.vmos.cn](http://www.vmos.cn)
     + [https://github.com/Flytreels/vpro-romedit](https://github.com/Flytreels/vpro-romedit)
     + [https://github.com/you2032/Pure-ROM](https://github.com/you2032/Pure-ROM)
++ [解决雷电/夜神/逍遥模拟器系统5.1以上无法抓包的问题](https://www.52pojie.cn/thread-1505329-1-1.html)
+
 
 
 ### 自动化
@@ -254,6 +257,8 @@
 - [https://github.com/fireeye/flare-vm](https://github.com/fireeye/flare-vm)
 - [https://github.com/DynamoRIO/dynamorio](https://github.com/DynamoRIO/dynamorio)
 - [https://github.com/libimobiledevice-win32/imobiledevice-net](https://github.com/libimobiledevice-win32/imobiledevice-net)
+- [https://gfx-tools.com](https://gfx-tools.com)
+- [https://crowdin.com/project/proxydroid](https://crowdin.com/project/proxydroid)
 
 
 
@@ -338,6 +343,8 @@
 * [https://www.apkturbo.com](https://www.apkturbo.com)
 * [https://downloadapk.online](https://downloadapk.online)
 * [https://dlandroid.com](https://dlandroid.com)
+* [https://cn.apkshub.com](https://cn.apkshub.com)
+
 
 + [https://apkpure.com/cn/developer/Microsoft%20Corporation](https://apkpure.com/cn/developer/Microsoft%20Corporation)
 

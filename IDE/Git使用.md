@@ -308,7 +308,7 @@ git log master..origin/master
 - 推送到指定分支`git push origin [branch name]`
 - 删除本地分支`git branch -d [branch name]`
 - 删除远程分支,分支名前的冒号代表删除`git push origin :[branch name]`
-
+- `for b in git branch -r | grep -v -- '->'; do git branch --track ${b##origin/} $b; done` [一次性拉取仓库的所有分支](https://gitee.com/help/articles/4284#%E6%96%B9%E6%B3%95%E4%BA%8C%E6%8E%A8%E8%8D%90%E6%AF%94%E8%BE%83%E5%A4%9A%E5%88%86%E6%94%AF%E7%9A%84%E4%BB%93%E5%BA%93)
 
 
 ## SubModule与SubTree

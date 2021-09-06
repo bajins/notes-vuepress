@@ -181,13 +181,15 @@ volumes:
 
 + [Jupyter Notebook](/Python/Python.md#jupyter-notebook)
 
+> 可以使用`git config --global url."https://github.com".insteadOf https://hub.fastgit.org`来替换url
+
 * php源码 [https://github.com/ilanyu/offline-download](https://github.com/ilanyu/offline-download)
 * go源码 [https://github.com/ilanyu/offLineDownloader](https://github.com/ilanyu/offLineDownloader)
 * [http://git.aakkc.com](http://git.aakkc.com)
 * [https://github.com/churuxu/xdownload](https://github.com/churuxu/xdownload)
 * GitHub下载加速 [https://noshore.cn/github.html](https://noshore.cn/github.html)
 * [https://github.com/fhefh2015/Fast-GitHub](https://github.com/fhefh2015/Fast-GitHub)
-    * [GitHub加速](https://chrome.google.com/webstore/detail/github%E5%8A%A0%E9%80%9F/mfnkflidjnladnkldfonnaicljppahpg)
+* [http://g.widyun.com](http://g.widyun.com)
 * [https://myssl.com/dns_check.html](https://myssl.com/dns_check.html)
 * [http://tool.chinaz.com/dns](http://tool.chinaz.com/dns)
 * [https://www.ipaddress.com](https://www.ipaddress.com)
@@ -204,10 +206,11 @@ volumes:
 * [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
     * [https://gh.api.99988866.xyz](https://gh.api.99988866.xyz) 美国
     * [https://ghproxy.com](https://ghproxy.com) 韩国首尔
+    * [https://shrill-pond-3e81.hunsh.workers.dev](https://shrill-pond-3e81.hunsh.workers.dev)
+    * [https://github.91chifun.workers.dev](https://github.91chifun.workers.dev)
 * [https://gitee.com/mirrors](https://gitee.com/mirrors)
 * [https://github.xxyyzz.workers.dev](https://github.xxyyzz.workers.dev)
 * [https://github.com/dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub)
-* GitHub代下载服务 [http://g.widyun.com](http://g.widyun.com)
 * [https://gh.msx.workers.dev](https://gh.msx.workers.dev) 美国
 * [https://gh.xiu2.xyz](https://gh.xiu2.xyz) 美国（自建
 * [https://gh.argv.cc](https://gh.argv.cc) 美国

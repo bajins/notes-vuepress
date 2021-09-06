@@ -25,19 +25,13 @@
 * [https://liuxue.ef.com.cn/epi](https://liuxue.ef.com.cn/epi)
 * [https://freerice.com/categories/english-vocabulary](https://freerice.com/categories/english-vocabulary)
 
-- [https://mianbaoduo.com/o/lab](https://mianbaoduo.com/o/lab)
-    - 赞赏 [https://dun.mianbaoduo.com](https://dun.mianbaoduo.com)
-    - [https://mianbaoduo.com/help/#/lightning](https://mianbaoduo.com/help/#/lightning)
-- [https://afdian.net](https://afdian.net)
-- [https://stripe.com/zh-cn-us/payments/payment-methods-guide#wechat-pay](https://stripe.com/zh-cn-us/payments/payment-methods-guide#wechat-pay)
-- [https://github.com/biezhi/profit/wiki](https://github.com/biezhi/profit/wiki)
-- [https://github.com/topics/donate](https://github.com/topics/donate)
-    - 博客赞赏插件 [https://github.com/isArtJay/simple-zanshang](https://github.com/isArtJay/simple-zanshang)
-    - [https://github.com/Kaiyuan/sponsor-page](https://github.com/Kaiyuan/sponsor-page)
-    - [https://github.com/ihoey/Playing-reward](https://github.com/ihoey/Playing-reward)
-    - [https://github.com/nooldey/sponsor](https://github.com/nooldey/sponsor)
-- [![](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com)
-- [https://opencollective.com](https://opencollective.com)
+
+- 水印 [https://github.com/topics/watermark](https://github.com/topics/watermark)
+- [https://github.com/dxcweb/watermark](https://github.com/dxcweb/watermark)
+- [https://github.com/Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx)
+- [https://github.com/Atmosphere-NX/Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)
+- [https://github.com/switchbrew](https://github.com/switchbrew)
+- [https://github.com/skyline-emu/skyline](https://github.com/skyline-emu/skyline)
 
 
 
@@ -50,12 +44,25 @@
 * 实时崩溃报告 [https://github.com/getsentry](https://github.com/getsentry)
 
 
-- 水印 [https://github.com/topics/watermark](https://github.com/topics/watermark)
-- [https://github.com/dxcweb/watermark](https://github.com/dxcweb/watermark)
-- [https://github.com/Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx)
-- [https://github.com/Atmosphere-NX/Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)
-- [https://github.com/switchbrew](https://github.com/switchbrew)
-- [https://github.com/skyline-emu/skyline](https://github.com/skyline-emu/skyline)
+
+
+**赞赏/赞助/打赏**
+
+- [https://mianbaoduo.com/o/lab](https://mianbaoduo.com/o/lab)
+    - [https://dun.mianbaoduo.com](https://dun.mianbaoduo.com)
+    - [https://mianbaoduo.com/help/#/lightning](https://mianbaoduo.com/help/#/lightning)
+- [https://afdian.net](https://afdian.net)
+- [https://stripe.com/zh-cn-us/payments/payment-methods-guide#wechat-pay](https://stripe.com/zh-cn-us/payments/payment-methods-guide#wechat-pay)
+- [https://github.com/biezhi/profit/wiki](https://github.com/biezhi/profit/wiki)
+- [https://github.com/topics/donate](https://github.com/topics/donate)
+    - 博客赞赏插件 [https://github.com/isArtJay/simple-zanshang](https://github.com/isArtJay/simple-zanshang)
+    - [https://github.com/Kaiyuan/sponsor-page](https://github.com/Kaiyuan/sponsor-page)
+    - [https://github.com/ihoey/Playing-reward](https://github.com/ihoey/Playing-reward)
+    - [https://github.com/nooldey/sponsor](https://github.com/nooldey/sponsor)
+- [![](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com)
+- [https://opencollective.com](https://opencollective.com)
+- [https://www.patreon.com](https://www.patreon.com)
+- [https://www.paypal.com/paypalme](https://www.paypal.com/paypalme)
 
 
 
@@ -63,6 +70,8 @@
 
 + [https://github.com/topics/push-notifications](https://github.com/topics/push-notifications)
 + [https://github.com/topics/notifications](https://github.com/topics/notifications)
++ [https://github.com/topics/push](https://github.com/topics/push)
++ [https://github.com/topics/mipush](https://github.com/topics/mipush)
 
 * [https://github.com/CaoMeiYouRen/push-all-in-one](https://github.com/CaoMeiYouRen/push-all-in-one)
 * [https://github.com/Finb/bark-server](https://github.com/Finb/bark-server)
@@ -74,6 +83,7 @@
 * [https://www.pushplus.plus](https://www.pushplus.plus)
 * [https://pushplus.hxtrip.com](https://pushplus.hxtrip.com)
 * [https://github.com/wxpusher](https://github.com/wxpusher)
+* [https://github.com/MiPushFramework/MiPushFramework](https://github.com/MiPushFramework/MiPushFramework)
 
 
 

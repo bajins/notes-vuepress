@@ -40,13 +40,13 @@
         "@vuepress/plugin-nprogress": "^1.8.2",
         "@vuepress/plugin-pwa": "^1.8.2",
         "@vuepress/theme-vue": "^1.8.2",
-        "axios": "0.21.1",
+        "axios": "0.21.3",
         "leancloud-storage": "^4.11.1",
         "lodash": "^4.17.21",
         "lodash.template": "^4.5.0",
         "mixin-deep": "^2.0.1",
         "moment": "^2.29.1",
-        "node-sass": "^6.0.0",
+        "node-sass": "^6.0.1",
         "package": "^1.0.1",
         "querystringify": "2.2.0",
         "serialize-javascript": "^6.0.0",
@@ -65,11 +65,11 @@
         "vuepress-plugin-toolbar": "^1.0.1"
     },
     "devDependencies": {
-        "vuepress-plugin-auto-sidebar": "^2.3.0",
+        "vuepress-plugin-auto-sidebar": "^2.3.2",
         "vuepress-plugin-autometa": "^0.1.13",
         "vuepress-plugin-feed": "^0.1.9",
         "vuepress-plugin-flexsearch-plus": "^0.2.1",
         "vuepress-plugin-plausible-analytics": "^0.2.1",
-        "vuepress-plugin-right-anchor": "^0.5.0"
+        "vuepress-plugin-right-anchor": "^0.5.3"
     }
 }
