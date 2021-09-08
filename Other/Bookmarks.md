@@ -49,6 +49,7 @@
 * [https://github.com/hashicorp](https://github.com/hashicorp)
 * [https://tanzu.vmware.com/cn/open-source](https://tanzu.vmware.com/cn/open-source)
 * [https://opensource.samsung.com](https://opensource.samsung.com)
+* [https://github.com/amzn](https://github.com/amzn)
 
 - [https://github.com/TogetherOS](https://github.com/TogetherOS)
 - [https://github.com/lets-blade](https://github.com/lets-blade)
@@ -81,12 +82,15 @@
 * [https://github.com/openeuler-mirror](https://github.com/openeuler-mirror)
 * [https://github.com/terracotta-oss](https://github.com/terracotta-oss)
 * [https://lfaidata.foundation/projects](https://lfaidata.foundation/projects)
+* [https://github.com/girlscript/winter-of-contributing](https://github.com/girlscript/winter-of-contributing)
 
 
 
 
 **开源个人**
 
+* [https://github.com/wangdoc](https://github.com/wangdoc)
+    * [https://wangdoc.com](https://wangdoc.com)
 * [https://github.com/tj](https://github.com/tj)
 * [https://github.com/qinxuewu](https://github.com/qinxuewu)
 * [https://github.com/judasn](https://github.com/judasn)

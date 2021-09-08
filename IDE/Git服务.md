@@ -36,6 +36,8 @@
 * Git工具 [https://github.com/GitTools](https://github.com/GitTools)
 * SmartGit 是一款优秀的图形化Git仓库管理工具
 * SmartSVN 是一款优秀的图形化SVN仓库管理工具
+* 根据日志生成Changelog [https://github.com/orhun/git-cliff](https://github.com/orhun/git-cliff)
+
 
 - Java实现 [https://github.com/eclipse/jgit](https://github.com/eclipse/jgit)
     - [https://github.com/centic9/jgit-cookbook](https://github.com/centic9/jgit-cookbook)

@@ -96,7 +96,7 @@
 - 监控总体带宽使用（批量式输出）：`vnstat`、`ifstat`、`dstat`、`collectl`
 - 每个套接字连接的带宽使用：`iftop`、`iptraf`、`tcptrack`、`pktstat`、`netwatch`、`trafshow`、`jnettop`
 - `ntopng`
-- perf、sar、ksar、mpstat、uptime、vmstat、pidstat、time、cpustat、munin、glances、atop、nmon、pcp-gui
+- perf、sar、ksar、mpstat、uptime、vmstat、pidstat、time、cpustat、munin、glances、atop、nmon、pcp-gui、nfsstat、netstat、iostat
 - [https://github.com/htop-dev/htop](https://github.com/htop-dev/htop)
 - 视图监视器 [https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet](https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet)
 - [https://github.com/aristocratos/bashtop](https://github.com/aristocratos/bashtop)

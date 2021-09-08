@@ -11,6 +11,8 @@
     + [https://github.com/johnrengelman/shadow](https://github.com/johnrengelman/shadow)
     + 自定义运行时映像 [https://github.com/beryx](https://github.com/beryx)
     + 创建支持包重定位 [https://github.com/johnrengelman/shadow](https://github.com/johnrengelman/shadow)
++ [https://github.com/topics/bazel](https://github.com/topics/bazel)
++ [https://github.com/bazelbuild](https://github.com/bazelbuild)
 + [https://github.com/sbt/sbt](https://github.com/sbt/sbt)
 + 增量构建 [https://github.com/sakerbuild/saker.build](https://github.com/sakerbuild/saker.build)
 + [https://github.com/sakerbuild/saker.java.compiler](https://github.com/sakerbuild/saker.java.compiler)
@@ -19,6 +21,7 @@
 + [https://github.com/codehaus-plexus/plexus-compiler](https://github.com/codehaus-plexus/plexus-compiler)
 + [https://github.com/eclipse/eclipse.jdt.core](https://github.com/eclipse/eclipse.jdt.core)
 + [https://www.jetbrains.com/help/idea/java-compiler.html](https://www.jetbrains.com/help/idea/java-compiler.html)
++ 混淆工具 [https://github.com/yWorks/yGuard](https://github.com/yWorks/yGuard)
 
 - [https://github.com/topics/classloader](https://github.com/topics/classloader)
 
@@ -229,6 +232,7 @@
 
 - [https://github.com/spotify/docker-maven-plugin](https://github.com/spotify/docker-maven-plugin)
 - [https://github.com/spotify/dockerfile-maven](https://github.com/spotify/dockerfile-maven)
+- [https://github.com/khanhas/spicetify-cli](https://github.com/khanhas/spicetify-cli)
 - [https://github.com/fabric8io/docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin)
 - [https://github.com/GoogleContainerTools/jib](https://github.com/GoogleContainerTools/jib)
 - [https://github.com/lazyboyl/docker-develop-maven-plugin](https://github.com/lazyboyl/docker-develop-maven-plugin)

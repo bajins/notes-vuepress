@@ -206,6 +206,7 @@ with Test() as t: # 触发__exit__
 + ncnn推理 [https://github.com/topics/ncnn](https://github.com/topics/ncnn)
 + torch推理 [https://github.com/topics/pytorch](https://github.com/topics/pytorch)
 + [https://github.com/topics/text-recognition](https://github.com/topics/text-recognition)
++ [https://github.com/alexeygrigorev/mlbookcamp-code](https://github.com/alexeygrigorev/mlbookcamp-code)
 
 
 * [https://github.com/Tencent/ncnn](https://github.com/Tencent/ncnn)

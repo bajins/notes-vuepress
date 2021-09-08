@@ -43,8 +43,7 @@
 + [https://github.com/topics/es2016](https://github.com/topics/es2016)
 + [https://github.com/topics/linting](https://github.com/topics/linting)
 
-* [https://github.com/wangdoc](https://github.com/wangdoc)
-    * [https://wangdoc.com](https://wangdoc.com)
+
 * [https://github.com/ruanyf/jstutorial](https://github.com/ruanyf/jstutorial)
     * [http://javascript.ruanyifeng.com](http://javascript.ruanyifeng.com)
 * [https://github.com/revolunet/JSbooks](https://github.com/revolunet/JSbooks)
@@ -173,17 +172,21 @@ var express = require('express');
 + [https://github.com/mobxjs](https://github.com/mobxjs)
 + [https://github.com/CreateJS](https://github.com/CreateJS)
 
+
+- 转换编译器 [https://github.com/babel](https://github.com/babel)
+    - [https://babeljs.io](https://babeljs.io)
+    - [https://www.babeljs.cn](https://www.babeljs.cn)
+- 使浏览器支持require [https://github.com/browserify](https://github.com/browserify)
+- [https://github.com/babel/babelify](https://github.com/babel/babelify)
+- 标准库 [https://github.com/zloirock/core-js](https://github.com/zloirock/core-js)
+
+
 * [https://github.com/ReactiveX/rxjs](https://github.com/ReactiveX/rxjs)
 * [https://github.com/jashkenas/coffeescript](https://github.com/jashkenas/coffeescript)
 * [https://github.com/observablehq](https://github.com/observablehq)
 * [https://github.com/documentcloud](https://github.com/documentcloud)
 * 模板语言 [https://github.com/handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js)
 * 当前设备 [https://github.com/matthewhudson/current-device](https://github.com/matthewhudson/current-device)
-* 转换编译器 [https://github.com/babel](https://github.com/babel)
-    * [https://babeljs.io](https://babeljs.io)
-    * [https://www.babeljs.cn](https://www.babeljs.cn)
-* 使浏览器支持require [https://github.com/browserify](https://github.com/browserify)
-* [https://github.com/babel/babelify](https://github.com/babel/babelify)
 * 拷贝文字 [https://github.com/zenorocha/clipboard.js](https://github.com/zenorocha/clipboard.js)
     * [http://www.clipboardjs.cn](http://www.clipboardjs.cn)
 * [https://github.com/zeroclipboard/zeroclipboard](https://github.com/zeroclipboard/zeroclipboard)

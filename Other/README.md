@@ -63,6 +63,7 @@
 - [https://opencollective.com](https://opencollective.com)
 - [https://www.patreon.com](https://www.patreon.com)
 - [https://www.paypal.com/paypalme](https://www.paypal.com/paypalme)
+- [https://www.paypal.com/donate](https://www.paypal.com/donate)
 
 
 

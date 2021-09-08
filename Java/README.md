@@ -122,6 +122,7 @@
 * [https://github.com/itwanger/javabooks](https://github.com/itwanger/javabooks)
 * 计算机经典书籍 [https://github.com/forthespada/CS-Books](https://github.com/forthespada/CS-Books)
 * 系统设计入门 [https://github.com/donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
+* 设计数据密集型应用 [https://github.com/Vonng/ddia](https://github.com/Vonng/ddia)
 * [https://github.com/crisxuan/bestJavaer](https://github.com/crisxuan/bestJavaer)
 * [https://github.com/fenixsoft/awesome-fenix](https://github.com/fenixsoft/awesome-fenix)
 * [https://github.com/AobingJava/JavaFamily](https://github.com/AobingJava/JavaFamily)
@@ -324,6 +325,8 @@
 + [https://github.com/hamcrest/JavaHamcrest](https://github.com/hamcrest/JavaHamcrest)
 + [https://github.com/robstoll/atrium](https://github.com/robstoll/atrium)
 + [https://github.com/archine/tools](https://github.com/archine/tools)
++ 规则引擎 [https://github.com/j-easy](https://github.com/j-easy)
+    + [Java规则引擎 Easy Rules](https://www.cnblogs.com/cjsblog/archive/2020/06/11/13088017.html)
 
 
 * [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
@@ -486,6 +489,7 @@
 * [https://github.com/jhy/jsoup](https://github.com/jhy/jsoup)
 * [https://github.com/openjax](https://github.com/openjax)
 * [https://github.com/hunterhacker/jdom](https://github.com/hunterhacker/jdom)
+* [https://github.com/x-stream/xstream](https://github.com/x-stream/xstream)
 
 
 
