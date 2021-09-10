@@ -704,6 +704,7 @@
 * 基于javafx8代码生成器 [https://github.com/EliMirren](https://github.com/EliMirren)
 * [https://github.com/fuzhengwei/NaiveChat](https://github.com/fuzhengwei/NaiveChat)
 * 连接打印机 [https://gitee.com/qnloft/thb_client](https://gitee.com/qnloft/thb_client)
+* [https://github.com/Zhao2018Mr/webPrint](https://github.com/Zhao2018Mr/webPrint)
 * 词汇猎人 [https://github.com/VocabHunter/VocabHunter](https://github.com/VocabHunter/VocabHunter)
 * 播放器 [https://github.com/goxr3plus/XR3Player](https://github.com/goxr3plus/XR3Player)
 * 音视频转换 [https://github.com/goxr3plus/XR3Converter](https://github.com/goxr3plus/XR3Converter)

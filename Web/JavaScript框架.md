@@ -275,6 +275,31 @@ $.is(":checked");
 
 
 
+
+
+**打印**
+
++ [window.print 浏览器打印全集](https://ruizer.github.io/2019/07/23/window-print-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%93%E5%8D%B0%E5%85%A8%E9%9B%86)
+
+
+- [https://github.com/topics/print](https://github.com/topics/print)
+- [https://github.com/topics/printing](https://github.com/topics/printing)
+- [https://github.com/DoersGuild/jQuery.print](https://github.com/DoersGuild/jQuery.print)
+- [https://github.com/crabbly/Print.js](https://github.com/crabbly/Print.js)
+- [https://github.com/jasonday/printThis](https://github.com/jasonday/printThis)
+- [https://github.com/tojocky/node-printer](https://github.com/tojocky/node-printer)
+- [https://github.com/NielsLeenheer/EscPosEncoder](https://github.com/NielsLeenheer/EscPosEncoder)
+- [https://github.com/mscdex/print](https://github.com/mscdex/print)
+- [https://github.com/etimbo/jquery-print-preview-plugin](https://github.com/etimbo/jquery-print-preview-plugin)
+- [https://github.com/dsandor/dymojs](https://github.com/dsandor/dymojs)
+- [https://github.com/SimonWaldherr/zplgfa](https://github.com/SimonWaldherr/zplgfa)
+- [https://github.com/clawsoftware/clawPDF](https://github.com/clawsoftware/clawPDF)
+- [https://github.com/jimevins/glabels-qt](https://github.com/jimevins/glabels-qt)
+- [https://github.com/juesai2015/PrinterPOSDemo](https://github.com/juesai2015/PrinterPOSDemo)
+
+
+
+
 ### 事件点击一次执行多次
 
 ```js

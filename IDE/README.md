@@ -18,6 +18,8 @@
 * [https://github.com/eclipse-theia/theia](https://github.com/eclipse-theia/theia)
     * [https://theia-ide.org](https://theia-ide.org)
 * [https://github.com/VSCodium/vscodium](https://github.com/VSCodium/vscodium)
+* GoIDE [https://github.com/visualfc/liteide](https://github.com/visualfc/liteide)
+* [https://sourceforge.net/projects/liteide](https://sourceforge.net/projects/liteide)
 
 - 代码搜索和替换 [https://github.com/comby-tools/comby](https://github.com/comby-tools/comby)
 - [https://github.com/dsznajder/vscode-es7-javascript-react-snippets](https://github.com/dsznajder/vscode-es7-javascript-react-snippets)

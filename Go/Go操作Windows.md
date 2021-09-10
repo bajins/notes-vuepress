@@ -11,6 +11,45 @@
 > Golang调用windows下的dll动态库中的函数使用`syscall`调用
 
 * GUI [https://github.com/lxn/walk](https://github.com/lxn/walk)
+* [https://github.com/lxn/win](https://github.com/lxn/win)
+
+
+
+
+**打印机打印**
+
++ [https://github.com/topics/printer](https://github.com/topics/printer)
++ [https://github.com/search?q=raw+print](https://github.com/search?q=raw+print)
++ [https://github.com/search?p=3&q=direct+print](https://github.com/search?p=3&q=direct+print)
++ [https://github.com/search?q=Bluetooth+printing](https://github.com/search?q=Bluetooth+printing)
+
+
+* 串口通信 [https://github.com/tarm/serial](https://github.com/tarm/serial)
+* [https://github.com/kenshaw/escpos](https://github.com/kenshaw/escpos)
+* [https://github.com/google/gousb](https://github.com/google/gousb)
+* [https://github.com/alexbrainman/printer](https://github.com/alexbrainman/printer)
+* [https://github.com/janftacnik/sim-printer](https://github.com/janftacnik/sim-printer)
+* COM [https://github.com/mattn/go-adodb](https://github.com/mattn/go-adodb)
+* [https://github.com/go-ole/go-ole](https://github.com/go-ole/go-ole)
+
+
+> 打印机通信协议RAW（printer-job-language，端口9100）与LPR（Line Printer Daemon Protocol，端口515）、
+> 互联网打印协议(IPP；InternetPrintingProtocol，端口631)；
+
+- 打印机控制语言
+    - Epson公司的ESC/POS命令集
+    - HP公司的PCL命令集
+    - Adobe公司的PostScript(简称PS)命令集
+
+* [Printer Operation / 5.8. Printing in a TCP/IP Network](https://www.novell.com/documentation/suse91/suselinux-adminguide/html/ch05s08.html)
+* [浏览器打印方案调研](https://juejin.cn/post/6844904164938498055)
+* [https://www.webprinter.cn/doc/theory](https://www.webprinter.cn/doc/theory)
+* [https://gitee.com/gscloudplugin/gscloudplugin](https://gitee.com/gscloudplugin/gscloudplugin)
+* [https://docs.microsoft.com/zh-cn/windows/win32/printdocs/print-spooler-api](https://docs.microsoft.com/zh-cn/windows/win32/printdocs/print-spooler-api)
+* [https://docs.microsoft.com/zh-cn/troubleshoot/windows/win32/win32-raw-data-to-printer](https://docs.microsoft.com/zh-cn/troubleshoot/windows/win32/win32-raw-data-to-printer)
+* [https://www.compuphase.com/software_spool.htm](https://www.compuphase.com/software_spool.htm)
+* [https://github.com/lockerace/RawPrintingHTTPServer](https://github.com/lockerace/RawPrintingHTTPServer)
+
 
 
 
