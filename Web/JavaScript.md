@@ -256,6 +256,12 @@ var express = require('express');
 * [https://github.com/jimmywarting/StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js)
 * [https://github.com/adiwajshing/keyed-db](https://github.com/adiwajshing/keyed-db)
 * [https://github.com/gruns/ImmortalDB](https://github.com/gruns/ImmortalDB)
+* [https://github.com/dfahlander/Dexie.js](https://github.com/dfahlander/Dexie.js)
+* [https://github.com/pouchdb/pouchdb](https://github.com/pouchdb/pouchdb)
+* [https://github.com/jakearchibald/idb](https://github.com/jakearchibald/idb)
+* [https://github.com/jakearchibald/idb-keyval](https://github.com/jakearchibald/idb-keyval)
+* [https://github.com/ujjwalguptaofficial/JsStore](https://github.com/ujjwalguptaofficial/JsStore)
+* [https://github.com/google/lovefield](https://github.com/google/lovefield)
 
 
 

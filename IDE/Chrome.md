@@ -27,14 +27,15 @@
 + [https://github.com/GoogleChromeLabs](https://github.com/GoogleChromeLabs)
 
 * [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
-    * [Chrome下载/插件/DevTools/账号迁移](/IDE/Chrome.md)
     * [有更新组件及服务的最新官方稳定版，离线安装包 x64](https://redirector.gvt1.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise64.msi)
     * [无更新组件及服务的最新官方稳定版，离线安装包 x64](https://redirector.gvt1.com/edgedl/release2/chrome/CUtGVpXHPGLv_SbZcTshgQ_87.0.4280.88/87.0.4280.88_chrome_installer.exe)
 * [https://www.chromedownloads.net](https://www.chromedownloads.net)
 * [https://www.iplaysoft.com/tools/chrome](https://www.iplaysoft.com/tools/chrome)
-* [https://tools.shuax.com/chrome](https://tools.shuax.com/chrome)
 * [https://www.chrome64bit.com](https://www.chrome64bit.com)
 * [https://chrome.playes.net/chrome](https://chrome.playes.net/chrome)
+* [https://api.pzhacm.org/iivb/cu.json](https://api.pzhacm.org/iivb/cu.json)
+* [https://github.com/lyonna/ChromeOfflineInstallerDownloadAPI](https://github.com/lyonna/ChromeOfflineInstallerDownloadAPI)
+    * [http://viewver.coolpage.biz/chrome.php](http://viewver.coolpage.biz/chrome.php)
 
 - 无Google Web服务浏览器 [https://github.com/Eloston/ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)
 - [https://github.com/nwjs/chromium.src](https://github.com/nwjs/chromium.src)

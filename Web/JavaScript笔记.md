@@ -220,8 +220,6 @@ function test(event){
 * [HTML5 - 应用程序缓存(Application Cache)](https://blog.csdn.net/weixin_44198965/article/details/89760924)
 
 
-> storage存储的数据只能是字符串类型，其他类型的数据需做类型转换，只要当前浏览器标签页不关闭会一直存在（不管是否进行了链接跳转）
-
 ```js
 sessionStorage.setItem("k", "v");
 var value = sessionStorage.getItem("k");
