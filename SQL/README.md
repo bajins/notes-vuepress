@@ -9,15 +9,25 @@
 
 > SQL,NoSQL和NewSQL
 
+
+
+
+
+**备份/迁移/同步/导入导出**
+
++ [https://github.com/topics/binlog](https://github.com/topics/binlog)
++ [https://github.com/topics/flashback](https://github.com/topics/flashback)
++ 迁移 [https://github.com/topics/migrations](https://github.com/topics/migrations)
++ [https://github.com/topics/migration](https://github.com/topics/migration)
+
 - 同步 [https://github.com/alibaba/DataX](https://github.com/alibaba/DataX)
 - 日志解析订阅和消费 [https://github.com/alibaba/canal](https://github.com/alibaba/canal)
 - [https://github.com/ucarGroup/DataLink](https://github.com/ucarGroup/DataLink)
 - [https://github.com/flyway/flyway](https://github.com/flyway/flyway)
-- 迁移 [https://github.com/topics/migrations](https://github.com/topics/migrations)
-- [https://github.com/topics/migration](https://github.com/topics/migration)
 - Go编写的数据库迁移 [https://github.com/golang-migrate/migrate](https://github.com/golang-migrate/migrate)
 - PostgreSQL迁移 [https://github.com/jackc/tern](https://github.com/jackc/tern)
 - [https://github.com/DTStack/flinkx](https://github.com/DTStack/flinkx)
+
 
 
 

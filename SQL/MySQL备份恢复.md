@@ -1,4 +1,4 @@
-# MySQL备份恢复数据
+# MySQL备份恢复
 
 
 [[toc]]
@@ -10,10 +10,11 @@
 ## binlog2sql
 
 > 使用此方式之前一定是MySQL开启了bin-log的才可行，如果没有安装开源工具`binlog2sql`那么请安装。
-
+>
 > binlog2sql是一款简单易用的binlog解析工具，其中一个功能就是生成回滚SQL。
 
 * [https://github.com/danfengcao/binlog2sql](https://github.com/danfengcao/binlog2sql)
+* [https://github.com/Michaelsky0913/binlog2sql](https://github.com/Michaelsky0913/binlog2sql)
 
 
 ```bash
@@ -155,6 +156,7 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' \
     - `--lock-tables`
     - `--set-charset`
     - `--disable-keys`
+
 1. --opt 在创建表结构之前 会有 DROP TABLE IF EXISTS
 2. 原表在创建的时候指定了AUTO_INCREMENT，在使用了--opt 仍然和建表时候一样存在参数，在使用参数--skip-opt的时候，忽略了此参数AUTO_INCREMENT
 3. 在使用参数--opt的时候，创建表的类型，字符集等等都是默认参数ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;当使用了--skip-opt的时候，这些参数都给忽略了
@@ -162,6 +164,8 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' \
 
 
 ### mysqldump导出
+
+* [Access denied; you need (at least one of) the SUPER privilege(s) for this operation](https://stackoverflow.com/questions/44015692/access-denied-you-need-at-least-one-of-the-super-privileges-for-this-operat)
 
 ```bash
 # 只导出结构&函数&事件&触发器使用
@@ -244,7 +248,7 @@ gunzip < backup.sql.gz | mysql -h主机地址 -P端口 -u用户名 -p密码 数�
 mysql -h主机地址 -P端口 -u用户名 -p密码 数据库名 < backupfile.sql
 ```
 
-### mysqldump两台主机同步备份
+### mysqldump两台主机同步
 
 ```bash
 mysqldump -R -E -h导出的主机地址 -P端口 -u用户名 -p 数据库名 | mysql -h导入的主机地址 -P端口 -u用户名 -p密码 -C 数据库名
