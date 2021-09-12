@@ -150,7 +150,6 @@
 * [https://github.com/topics/ssh-client](https://github.com/topics/ssh-client)
 * [https://github.com/topics/ssh2](https://github.com/topics/ssh2)
 * [https://github.com/topics/ssh](https://github.com/topics/ssh)
-* [https://github.com/topics/remote-access](https://github.com/topics/remote-access)
 * [https://github.com/mskyaxl/wsl-terminal](https://github.com/mskyaxl/wsl-terminal)
 
 - [https://github.com/topics/sftp](https://github.com/topics/sftp)

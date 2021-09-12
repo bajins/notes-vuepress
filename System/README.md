@@ -144,6 +144,17 @@
 
 
 
+**VNC**
+
++ [https://github.com/topics/vnc](https://github.com/topics/vnc)
++ [https://github.com/topics/vnc-client](https://github.com/topics/vnc-client)
+
+* [https://github.com/novnc/noVNC](https://github.com/novnc/noVNC)
+* [https://github.com/balena-io-playground/xserver-web-vnc](https://github.com/balena-io-playground/xserver-web-vnc)
+
+
+
+
 
 ## 云平台
 

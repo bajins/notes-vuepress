@@ -95,6 +95,8 @@
 - [https://github.com/arduino/Arduino](https://github.com/arduino/Arduino)
 - [https://www.visualmicro.com](https://www.visualmicro.com)
 - [https://github.com/Sloeber/arduino-eclipse-plugin](https://github.com/Sloeber/arduino-eclipse-plugin)
+- [https://github.com/platformio](https://github.com/platformio)
+- [https://blynk.cloud](https://blynk.cloud)
 
 
 
