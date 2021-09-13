@@ -87,6 +87,8 @@
 * 中文学习资料 [https://github.com/gwuhaolin/golang-book](https://github.com/gwuhaolin/golang-book)
 * 设计模式 [https://github.com/tmrts/go-patterns](https://github.com/tmrts/go-patterns)
 * [https://github.com/0voice/Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang)
+* [https://github.com/golang-design/under-the-hood](https://github.com/golang-design/under-the-hood)
+* [https://github.com/cch123/golang-notes](https://github.com/cch123/golang-notes)
 
 
 
@@ -221,6 +223,9 @@
 * [https://github.com/hashicorp/hcl](https://github.com/hashicorp/hcl)
 * 结构转换 [https://github.com/mitchellh/mapstructure](https://github.com/mitchellh/mapstructure)
 * [github.com/go-redis/redis](github.com/go-redis/redis)
+* [https://github.com/seccomp/libseccomp-golang](https://github.com/seccomp/libseccomp-golang)
+* 创建PDF [https://github.com/johnfercher/maroto](https://github.com/johnfercher/maroto)
+* [https://github.com/jung-kurt/gofpdf](https://github.com/jung-kurt/gofpdf)
 
 
 

@@ -350,6 +350,9 @@
 * 结构工具 [https://github.com/vavr-io/vavr](https://github.com/vavr-io/vavr)
 * [https://github.com/eclipse/eclipse-collections](https://github.com/eclipse/eclipse-collections)
 * 比较文本差异 [https://github.com/java-diff-utils/java-diff-utils](https://github.com/java-diff-utils/java-diff-utils)
+* 打印协议实现 [https://github.com/HPInc/jipp](https://github.com/HPInc/jipp)
+* [https://github.com/freemansoft/jacob-project](https://github.com/freemansoft/jacob-project)
+* [https://sourceforge.net/projects/jacob-project](https://sourceforge.net/projects/jacob-project)
 
 
 

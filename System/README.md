@@ -46,6 +46,7 @@
 
 ## 开源操作系统
 
+* [https://github.com/topics/operating-system](https://github.com/topics/operating-system)
 * [Linux发行版本排行](https://distrowatch.com/dwres.php?resource=popularity)
 * [Linux主流发行版本](https://distrowatch.com/dwres.php?resource=major)
 
@@ -77,6 +78,12 @@
     * [https://github.com/coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
 * [https://github.com/open-power](https://github.com/open-power)
 * [https://github.com/Entware](https://github.com/Entware)
+* [https://github.com/tock/tock](https://github.com/tock/tock)
+    * [https://github.com/google/OpenSK](https://github.com/google/OpenSK)
+* [https://makecode.microbit.org](https://makecode.microbit.org)
+* [https://github.com/droogmic/microrust](https://github.com/droogmic/microrust)
+* [https://github.com/ARMmbed](https://github.com/ARMmbed)
+* 物联网 [https://github.com/RT-Thread/rt-thread](https://github.com/RT-Thread/rt-thread)
 
 
 - 交换机操作系统 [https://github.com/stratum/stratum](https://github.com/stratum/stratum)
@@ -350,6 +357,7 @@
 * [https://github.dev](https://github.dev) 在仓库按点<kbd>.</kbd>键
 * [https://vscode.dev](https://vscode.dev)
 * [https://github.com/codespaces](https://github.com/codespaces)
+* [https://gitlab.com/-/ide/project](https://gitlab.com/-/ide/project)
 * [https://github.com/conwnet/github1s](https://github.com/conwnet/github1s)
     * [https://github1s.com](https://github1s.com)
     * [https://github.com/surfcodes/surf](https://github.com/surfcodes/surf)
