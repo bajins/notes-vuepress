@@ -300,6 +300,7 @@ var express = require('express');
 * 幻灯片 [https://github.com/webslides/webslides](https://github.com/webslides/webslides)
 * [https://github.com/gnab/remark](https://github.com/gnab/remark)
 * 正则表达式 [https://github.com/slevithan/XRegExp](https://github.com/slevithan/XRegExp)
+* 编码转换 [https://github.com/ashtuchkin/iconv-lite](https://github.com/ashtuchkin/iconv-lite)
 
 - 数字精度 [https://github.com/topics/arbitrary-precision](https://github.com/topics/arbitrary-precision)
 - [https://github.com/topics/bigdecimal](https://github.com/topics/bigdecimal)

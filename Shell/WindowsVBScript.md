@@ -616,6 +616,9 @@ save.Close
 ## VBA
 
 + [Visual Basic for Applications (VBA) 语言参考](https://docs.microsoft.com/zh-cn/office/vba/api/overview/language-reference)
++ Microsoft Office Development [https://bettersolutions.com](https://bettersolutions.com)
++ [VBA学习笔记](https://www.zhihu.com/people/xia-xi-lan/posts)
++ [xcel之VBA简单宏编程](https://blog.csdn.net/wordsin/article/details/80575615)
 + [VBA学习笔记](https://www.zhihu.com/people/xia-xi-lan/posts)
 + [xcel之VBA简单宏编程](https://blog.csdn.net/wordsin/article/details/80575615)
 

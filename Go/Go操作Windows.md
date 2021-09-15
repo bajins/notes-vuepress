@@ -37,6 +37,7 @@
 * [https://github.com/go-ole/go-ole](https://github.com/go-ole/go-ole)
 * [https://github.com/phin1x/go-ipp](https://github.com/phin1x/go-ipp)
 * [https://github.com/SimonWaldherr/ups](https://github.com/SimonWaldherr/ups)
+* 打印编码 [https://github.com/sloonz/go-qprintable](https://github.com/sloonz/go-qprintable)
 
 
 > 打印机通信协议RAW（printer-job-language，端口9100）与LPR（Line Printer Daemon Protocol，端口515）、

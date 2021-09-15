@@ -289,6 +289,8 @@ $.is(":checked");
 - [https://github.com/jasonday/printThis](https://github.com/jasonday/printThis)
 - [https://github.com/tojocky/node-printer](https://github.com/tojocky/node-printer)
 - [https://github.com/NielsLeenheer/EscPosEncoder](https://github.com/NielsLeenheer/EscPosEncoder)
+- [https://github.com/bigrocs/escpos-win](https://github.com/bigrocs/escpos-win)
+	- [https://github.com/bigrocs/node-escpos-win](https://github.com/bigrocs/node-escpos-win)
 - [https://github.com/mscdex/print](https://github.com/mscdex/print)
 - [https://github.com/etimbo/jquery-print-preview-plugin](https://github.com/etimbo/jquery-print-preview-plugin)
 - [https://github.com/dsandor/dymojs](https://github.com/dsandor/dymojs)

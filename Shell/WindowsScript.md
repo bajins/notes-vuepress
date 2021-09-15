@@ -12,10 +12,7 @@
 * [Windows脚本和Windows Script Host的属性和方法及子对象](https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/bstcxhf7(v=vs.84)#in-this-section)
 * [https://github.com/mrpapercut/wscript](https://github.com/mrpapercut/wscript)
 
-+ [Visual Basic for Applications (VBA) 语言参考](https://docs.microsoft.com/zh-cn/office/vba/api/overview/language-reference)
-+ Microsoft Office Development [https://bettersolutions.com](https://bettersolutions.com)
-+ [VBA学习笔记](https://www.zhihu.com/people/xia-xi-lan/posts)
-+ [xcel之VBA简单宏编程](https://blog.csdn.net/wordsin/article/details/80575615)
+
 + 批处理之家 [http://www.bathome.net](http://www.bathome.net)
 + 中国DOS联盟 [DOS批处理 & 脚本技术（批处理室）](http://cndos.fam.cx/forum/forumdisplay.php?fid=23)
 
