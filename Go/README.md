@@ -218,6 +218,7 @@
 * 微服务 [https://github.com/go-kratos/kratos](https://github.com/go-kratos/kratos)
 * 基于 WebRTC 的分布式音频/视频室 [https://github.com/livekit/livekit-server](https://github.com/livekit/livekit-server)
 * [https://github.com/satori/go.uuid](https://github.com/satori/go.uuid)
+* [https://github.com/google/uuid](https://github.com/google/uuid)
 * 环境变量 [https://github.com/subosito/gotenv](https://github.com/subosito/gotenv)
 * [https://github.com/magiconair/properties](https://github.com/magiconair/properties)
 * [https://github.com/hashicorp/hcl](https://github.com/hashicorp/hcl)
@@ -226,6 +227,8 @@
 * [https://github.com/seccomp/libseccomp-golang](https://github.com/seccomp/libseccomp-golang)
 * 创建PDF [https://github.com/johnfercher/maroto](https://github.com/johnfercher/maroto)
 * [https://github.com/jung-kurt/gofpdf](https://github.com/jung-kurt/gofpdf)
+* 构建命令行 [https://github.com/urfave/cli](https://github.com/urfave/cli)
+* 内核模糊器 [https://github.com/google/syzkaller](https://github.com/google/syzkaller)
 
 
 

@@ -324,6 +324,7 @@ var express = require('express');
 * [https://github.com/date-fns](https://github.com/date-fns)
 * [https://github.com/hustcc/timeago.js](https://github.com/hustcc/timeago.js)
 * [https://github.com/flatpickr](https://github.com/flatpickr)
+* [https://github.com/fullcalendar/fullcalendar](https://github.com/fullcalendar/fullcalendar)
 
 
 **HTTP**

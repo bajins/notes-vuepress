@@ -355,6 +355,8 @@
 * [https://sourceforge.net/projects/jacob-project](https://sourceforge.net/projects/jacob-project)
 * [https://github.com/anastaciocintra/escpos-coffee](https://github.com/anastaciocintra/escpos-coffee)
 * [https://github.com/SubLuLu/thermal_printer](https://github.com/SubLuLu/thermal_printer)
+* [https://github.com/givengao/xsg-aggregation-printer-cloud](https://github.com/givengao/xsg-aggregation-printer-cloud)
+* [https://github.com/gixxi/lambdaroyal-ws-printing-server](https://github.com/gixxi/lambdaroyal-ws-printing-server)
 
 
 
