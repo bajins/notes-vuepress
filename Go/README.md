@@ -229,6 +229,8 @@
 * [https://github.com/jung-kurt/gofpdf](https://github.com/jung-kurt/gofpdf)
 * 构建命令行 [https://github.com/urfave/cli](https://github.com/urfave/cli)
 * 内核模糊器 [https://github.com/google/syzkaller](https://github.com/google/syzkaller)
+* Markdown处理 [https://github.com/russross/blackfriday](https://github.com/russross/blackfriday)
+*  markdown转roff [https://github.com/cpuguy83/go-md2man](https://github.com/cpuguy83/go-md2man)
 
 
 
