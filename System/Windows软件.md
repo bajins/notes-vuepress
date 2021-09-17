@@ -808,6 +808,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/VoodooI2C/VoodooI2CELAN](https://github.com/VoodooI2C/VoodooI2CELAN)
     * [https://www.penghubingzhou.cn/tags/I2C](https://www.penghubingzhou.cn/tags/I2C)
 * 查找泄漏密码 [https://github.com/HaveIBeenPwned](https://github.com/HaveIBeenPwned)
+* GTA游戏 [https://github.com/GTAmodding/re3](https://github.com/GTAmodding/re3)
 
 - 文档转换 [https://github.com/topics/converter](https://github.com/topics/converter)
     - [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)

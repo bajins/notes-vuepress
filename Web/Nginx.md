@@ -37,7 +37,7 @@
 
 + [https://github.com/nginx-proxy/nginx-proxy](https://github.com/nginx-proxy/nginx-proxy)
 + [https://github.com/evertramos/nginx-proxy-automation](https://github.com/evertramos/nginx-proxy-automation)
-
++ [https://github.com/onlyGuo/nginx-gui](https://github.com/onlyGuo/nginx-gui)
 
 
 **其他同类程序**

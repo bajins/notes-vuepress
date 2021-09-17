@@ -473,7 +473,7 @@
     * [https://github.com/SpringForAll/spring-boot-starter-swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)
     * [https://github.com/Swagger2Markup/swagger2markup](https://github.com/Swagger2Markup/swagger2markup)
     * [https://github.com/caspar-chen/swagger-ui-layer](https://github.com/caspar-chen/swagger-ui-layer)
-    * [https://github.com/xiaoymin/swagger-bootstrap-ui](https://github.com/xiaoymin/swagger-bootstrap-ui)
+    * knife4j [https://github.com/xiaoymin/swagger-bootstrap-ui](https://github.com/xiaoymin/swagger-bootstrap-ui)
     * [https://github.com/chfree/think-swagger-ui-vuele](https://github.com/chfree/think-swagger-ui-vuele)
 
 + [https://github.com/spring-projects/spring-restdocs](https://github.com/spring-projects/spring-restdocs)
