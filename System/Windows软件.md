@@ -85,6 +85,7 @@
 * [https://discord.com](https://discord.com)
     * 与Discord的API进行交互 [https://github.com/skwair/harmony](https://github.com/skwair/harmony)
     * [https://github.com/discordjs/discord.js](https://github.com/discordjs/discord.js)
+    * [https://github.com/jagrosh/MusicBot](https://github.com/jagrosh/MusicBot)
 * P2P [https://github.com/berty/berty](https://github.com/berty/berty)
 * [https://github.com/matrix-org](https://github.com/matrix-org)
 * [https://github.com/GetStream](https://github.com/GetStream)

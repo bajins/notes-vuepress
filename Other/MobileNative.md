@@ -490,7 +490,7 @@
 * [https://github.com/hexingbo/treader](https://github.com/hexingbo/treader)
 * [https://github.com/bifan-wei/HwTxtReader](https://github.com/bifan-wei/HwTxtReader)
 * [https://github.com/smuyyh/BookReader](https://github.com/smuyyh/BookReader)
-
+* [https://github.com/newbiechen1024/NovelReader](https://github.com/newbiechen1024/NovelReader)
 
 
 ### IOS

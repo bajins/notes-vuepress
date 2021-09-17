@@ -177,6 +177,7 @@
 + [https://github.com/CodingDocs](https://github.com/CodingDocs)
 + [https://github.com/programthink](https://github.com/programthink)
 + [https://github.com/marcojakob/code.makery.ch](https://github.com/marcojakob/code.makery.ch)
++ [https://github.com/imarvinle/awesome-cs-books](https://github.com/imarvinle/awesome-cs-books)
 
 
 * [https://github.com/cs-books/influential-cs-books](https://github.com/cs-books/influential-cs-books)

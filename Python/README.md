@@ -51,6 +51,7 @@
 * [https://github.com/Pierian-Data/Complete-Python-3-Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp)
 * 流式数据处理 [https://github.com/sandabuliu/python-stream](https://github.com/sandabuliu/python-stream)
 * [https://github.com/Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python)
+* [https://github.com/Python-World/python-mini-projects](https://github.com/Python-World/python-mini-projects)
 
 
 
