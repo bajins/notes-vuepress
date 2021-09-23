@@ -148,7 +148,8 @@ Get-AppxPackage Microsoft.windowscommunicationsapps -AllUsers| Foreach {Add-Appx
 
 ```powershell
 # 列出所有的环境变量
-Get-ChildItem env: 
+Get-ChildItem env:
+gci env:
 dir env:
 ls env:
 # 获取环境变量的值
@@ -158,7 +159,9 @@ del env:变量名
 # 更新环境变量
 $env:变量名="变量值"
 # .NET方法操作可以全局生效
-[environment]::SetEnvironmentvariable("变量名", "值", "值")
+[environment]::SetEnvironmentvariable("变量名", "值", [EnvironmentVariableTarget]::User)  # 修改当前用户的环境变量（永久），只对新进程有效
+[environment]::SetEnvironmentvariable("变量名", "值", [EnvironmentVariableTarget]::Machine)  # 设置系统环境变量（永久），只对新进程有效，需要管理员权限
+[environment]::SetEnvironmentvariable("变量名", "值", "User")  # target 也可用字符串指定
 [environment]::GetEnvironmentvariable("变量名", "变量名")
 
 # 查看输出的命令集
@@ -482,6 +485,100 @@ while(1){
 }
 ```
 
+
+## 常用命令
+
+* [Powershell基础入门及常见用法](https://blog.csdn.net/weixin_39775577/article/details/113628194)
+* [How to do what head, tail, more, less, sed do in Powershell?](https://stackoverflow.com/questions/9682024/how-to-do-what-head-tail-more-less-sed-do-in-powershell)
+
+```powershell
+# 查看别名对应的真实命令
+get-alias
+
+# 查看命名位置（类似 Linux Shell 的 which）
+get-command xxx
+gcm xxx
+
+# 通过关键字查找 powershell 命令
+gcm | select-string <keyword>
+
+# 通过关键字查找 powershell 命令和环境变量中的程序，比较慢
+gcm * | select-string <keyword>
+
+# 类似 linux 的 find/ls 命令
+get-childitem -Recurse -Include *.py
+gci -r -i *.py
+
+# 清空终端的输出
+clear-host
+clear
+
+# 查看文件内容
+get-content xx.py | more
+get-content xx.py | out-host -paging
+cat xx.py
+gc xx.py
+# ReadCount是指每次发送给管道的文本行数，0代表全部
+# Tail只返回指定结尾行数的文本
+# -wait 一直等待监听
+Get-Content 文件路径 -ReadCount 0 -Tail 5 -Wait
+# 编码转换
+Get-Content filename1 -encoding default | set-content filename2 -encoding utf8
+
+# 字符串搜索，不能对对象使用
+# 类似 linux 的 grep 命令
+cat xxx.log | select-string <pattern>
+gci env: | out-string  -stream | select-string <pattern>  # 需要先使用 out-string 将对象转换成 string
+gci env: | where-object {$_.Name -like <pattern>}
+
+# 计算输出的行数/对象个数
+gci env: | measure-object
+gci env: | measure  # 这是缩写
+
+# 查看所有进程
+get-process | more
+ps | more  # 别名
+
+# 查找某进程（替代掉 tasklist）
+get-process -name exp*,power*  # 使用正则查找进程
+get-process | select-string <pattern>  # 效果同上
+
+# 通过 id 杀掉某进程（替代掉 taskkill）
+# 也可以通过 -Name 用正则匹配进程
+stop-process <pid>
+kill <pid>  # 别名
+
+# 网络相关命令
+## 1. dns 相关(dns-client)
+Clear-DnsClientCache  # 清除 dns 缓存（替换掉 `ipconfig /flushdns`）
+Get-DnsClientCache  # 查看 dns 缓存
+Resolve-DnsName baidu.com  # 解析域名
+
+## 2. TCP/IP 相关命令
+Get-Command Get-Net*  # 查看所有 TCP/IP 相关的命令
+
+Get-NetIPAddress  # 查看 IP 地址
+Get-NetIPInterface  # 查看 IP 接口
+Get-NetRoute        # 查看路由表
+Get-NetNeighbor     # 获取链路层 MAC 地址缓存
+Get-NetTCPConnection   # 查看 TCP 连接
+### 也可以对 TCP/IP 的 IP 地址、接口、路由表进行增删改
+New-NetRoute
+Remove-NetNeighbor  # 清除 MAC 地址缓存
+
+# 关机/重启
+stop-computer
+restart-computer
+
+# windows 计算 hash 值
+# 功能等同于 linux 下的 sha256sum/sha1sum/sha512sum/md5sum
+Get-FileHash -Path /path/to/file -Algorithm SHA256
+Get-FileHash -Path /path/to/file -Algorithm SHA256  | Format-List  # 用 format 修改格式化效果
+
+# base64 编解码
+[Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes("xxx"))  # base64 编码
+[Text.Encoding]::UTF8.GetString([Convert]::FromBase64String("eHh4"))  # 解码
+```
 
 
 

@@ -154,8 +154,14 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' \
     - `--quick`
     - `--extended-insert`
     - `--lock-tables`
-    - `--set-charset`
+    - `--skip-set-charset`
     - `--disable-keys`
+    - `--default-character-set=utf8`
+    - `--hex-blob` 使用十六进制符号转储二进制字符串列
+    - `--single-transaction`
+    - `--flush-logs`
+    - `--compress`
+
 
 1. --opt 在创建表结构之前 会有 DROP TABLE IF EXISTS
 2. 原表在创建的时候指定了AUTO_INCREMENT，在使用了--opt 仍然和建表时候一样存在参数，在使用参数--skip-opt的时候，忽略了此参数AUTO_INCREMENT
@@ -169,19 +175,19 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' \
 
 ```bash
 # 只导出结构&函数&事件&触发器使用
-mysqldump -R -E -d -h需要备份的主机地址 -P端口 -u用户名 -p 数据库名 > /home/backup.sql
+mysqldump -R -E -d -h需要备份的主机地址 -P端口 -u用户名 -p 数据库名 --default-character-set=utf8> /home/backup.sql
 
 # 只导出存储过程和函数可使用
-mysqldump -R -ntd -h需要备份的主机地址 -P端口 -u用户名 -p 数据库名 > /home/backup.sql
+mysqldump -R -ntd -h需要备份的主机地址 -P端口 -u用户名 -p 数据库名 --default-character-set=utf8> /home/backup.sql
 
 # 导出单个数据库中所有(结构&数据&存储过程&函数&事件&触发器)到sql文件
-mysqldump -R -E -h需要备份的主机地址 -P端口 -u用户名 -p 数据库名 > /home/backup.sql
+mysqldump -R -E -h需要备份的主机地址 -P端口 -u用户名 -p 数据库名 --default-character-set=utf8> /home/backup.sql
 
 # mysqldump 备份并压缩sql文件
-mysqldump -R -E -h主机地址 -P端口 -u用户名 -p 数据库名 | gzip > /home/backup.sql.gz
+mysqldump -R -E -h主机地址 -P端口 -u用户名 -p 数据库名 --default-character-set=utf8 | gzip > /home/backup.sql.gz
 
 # 备份所有的数据库到一个sql文件
-mysqldump -R -E -h主机地址 -P端口 -u用户名 -p --all-databases > /home/all.sql
+mysqldump -R -E -h主机地址 -P端口 -u用户名 -p --all-databases --default-character-set=utf8> /home/all.sql
 
 # 从一个数据库导出到另一个数据库
 mysqldump -R -E -u用户名 -p 数据库名 | mysql 新数据库名 -u用户名 -p密码

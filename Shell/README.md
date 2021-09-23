@@ -126,13 +126,53 @@
 ```vim
 # 显示格式。
 :set ff
-# 设置为unix格式
+# 设置为unix格式，dos为windows
 :set ff=unix
 # 保存
 :wq
 ```
 
 **[GIT处理换行符](/IDE/Git使用.md#换行符与大文件处理)**
+
+
+
+## 文件编码转换
+
+- [如何在 Linux 中将文件编码转换为 UTF-8](https://linux.cn/article-7959-1.html)
+- [https://www.gnu.org/software/libiconv](https://www.gnu.org/software/libiconv)
+    - [https://github.com/winlibs/libiconv](https://github.com/winlibs/libiconv)
+    - [https://github.com/processone/iconv](https://github.com/processone/iconv)
+- [https://github.com/qiniu/iconv](https://github.com/qiniu/iconv)
+- [https://github.com/ashtuchkin/iconv-lite](https://github.com/ashtuchkin/iconv-lite)
+
+
+**跨平台**
+
+| 工具                  | 描述                 |
+|---------------------|--------------------|
+| iconv               | 提供标准的程序和API来进行编码转换 |
+| convert_encoding.py | 基于Python的文本文件转换工具  |
+| decodeh.py          | 提供算法和模块来谈测字符的编码    |
+
+
+**Linux**
+
+| 工具     | 描述               | 使用                      |
+|--------|------------------|-------------------------|
+| vim    | 使用vim直接进行文件的编码转换 | :set fileencoding=utf-8 |
+| recode | 转换文件编码           |                         |
+| Utrac  | 转换文件编码           |                         |
+| cstocs | 转换文件编码           |                         |
+| convmv | 转换文件名编码          |                         |
+| enca   | 分析给定文件的编码        |                         |
+
+
+
+**Windows**
+
+| 工具    | 描述      |
+|-------|---------|
+| cscvt | 字符集转换工具 |
 
 
 

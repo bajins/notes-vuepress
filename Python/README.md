@@ -119,6 +119,7 @@ with Test() as t: # 触发__exit__
 * web [https://github.com/tiangolo/fastapi](https://github.com/tiangolo/fastapi)
 * [https://github.com/pallets/flask](https://github.com/pallets/flask)
     * [https://dormousehole.readthedocs.io](https://dormousehole.readthedocs.io)
+* [https://github.com/frappe/frappe](https://github.com/frappe/frappe)
 * 数据科学Web [https://github.com/plotly/dash](https://github.com/plotly/dash)
 * 定时任务 [https://github.com/agronholm/apscheduler](https://github.com/agronholm/apscheduler)
     * [https://apscheduler.readthedocs.io](https://apscheduler.readthedocs.io)

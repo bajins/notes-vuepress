@@ -217,7 +217,8 @@
     * [在 Gin 项目中使用 WebSocket](https://www.cnblogs.com/chnmig/p/14463837.html)
 * 微服务RPC框架 [https://github.com/cloudwego/kitex](https://github.com/cloudwego/kitex)
 * 微服务 [https://github.com/go-kratos/kratos](https://github.com/go-kratos/kratos)
-* 基于 WebRTC 的分布式音频/视频室 [https://github.com/livekit/livekit-server](https://github.com/livekit/livekit-server)
+* [https://github.com/shanbay/gobay](https://github.com/shanbay/gobay)
+* 基于WebRTC的分布式音频/视频室 [https://github.com/livekit/livekit-server](https://github.com/livekit/livekit-server)
 * [https://github.com/satori/go.uuid](https://github.com/satori/go.uuid)
 * [https://github.com/google/uuid](https://github.com/google/uuid)
 * 环境变量 [https://github.com/subosito/gotenv](https://github.com/subosito/gotenv)
@@ -231,7 +232,8 @@
 * 构建命令行 [https://github.com/urfave/cli](https://github.com/urfave/cli)
 * 内核模糊器 [https://github.com/google/syzkaller](https://github.com/google/syzkaller)
 * Markdown处理 [https://github.com/russross/blackfriday](https://github.com/russross/blackfriday)
-*  markdown转roff [https://github.com/cpuguy83/go-md2man](https://github.com/cpuguy83/go-md2man)
+* markdown转roff [https://github.com/cpuguy83/go-md2man](https://github.com/cpuguy83/go-md2man)
+* 队列任务 [https://github.com/gocraft/work](https://github.com/gocraft/work)
 
 
 

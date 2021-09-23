@@ -286,3 +286,14 @@ source /etc/profile
 # 或者
 . /etc/profile
 ```
+
+
+## window运行
+
+* [在文件头部添加隐藏窗口运行](/Shell/WindowsBatch.md#隐藏窗口运行)并修改以下文件，执行不显示dos窗口
+
+```batch
+:: window下tomcat在当前窗口启动，不在一个新的窗口启动：把start改为run
+call "%EXECUTABLE%" start %CMD_LINE_ARGS%
+call "%EXECUTABLE%" run %CMD_LINE_ARGS%
+```

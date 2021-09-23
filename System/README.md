@@ -20,7 +20,7 @@
         * [获取证书（并选择插件）-官方文档](https://certbot.eff.org/docs/using.html#getting-certificates-and-choosing-plugins)
     * [临时处理OCSP域名无法访问的问题](https://holmesian.org/letsencrypt-ocsp-fix)
     * [「Certbot」- ocsp.int-x3.letsencrypt.org Read timed out](http://blog.k4nz.com/%E3%80%8Ccertbot%E3%80%8D-ocsp-int-x3-letsencrypt-org-read-timed-out)
-* [https://github.com/myspaghetti/macos-virtualbox](https://github.com/myspaghetti/macos-virtualbox)
+* Linux中国 翻译组 [https://github.com/LCTT](https://github.com/LCTT)
 
 
 - [https://github.com/ansible/ansible](https://github.com/ansible/ansible)
@@ -31,7 +31,7 @@
 * [如何看待Linus Torvalds对AVX512的评价？](https://www.zhihu.com/question/406517759)
 
 
-**USB启动盘**
+## USB启动盘
 
 - [https://github.com/pbatard/rufus](https://github.com/pbatard/rufus)
 - [https://github.com/balena-io/etcher](https://github.com/balena-io/etcher)
@@ -40,7 +40,7 @@
 
 * 克隆部署 [https://github.com/canonical/cloud-init](https://github.com/canonical/cloud-init)
 * [https://github.com/canonical/multipass](https://github.com/canonical/multipass)
-
+* BIOS [https://github.com/coreboot](https://github.com/coreboot)
 
 
 
@@ -87,6 +87,7 @@
 
 
 - 交换机操作系统 [https://github.com/stratum/stratum](https://github.com/stratum/stratum)
+- [https://github.com/myspaghetti/macos-virtualbox](https://github.com/myspaghetti/macos-virtualbox)
 
 
 

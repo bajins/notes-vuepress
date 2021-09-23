@@ -59,7 +59,9 @@
 
 
 
-**事务**
+## 事务
+
++ [org.springframework.transaction.annotation.Propagation](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/transaction/annotation/Propagation.html)
 
 * [Spring事务嵌套导致的异常,Transaction rolled back because it has been marked as rollback-only](https://blog.csdn.net/qq_42216791/article/details/105684663)
 * [Spring事务嵌套引发的血案---Transaction rolled back because it has been marked as rollback-only](https://blog.csdn.net/f641385712/article/details/80445912)
@@ -72,8 +74,7 @@
 ```java
 // REQUIRES_NEW 与 NESTED 前者是内层异常影响外层，外层不影响内层；后者正好相反，内层加try catch后 异常不影响外层，外层会影响内层
 @Transactional(rollbackFor = Exception.class, propagation = Propagation.REQUIRES_NEW)
-// 手动回滚事务
-TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
+
 
 // 手动管理事务
 @Autowired
@@ -87,16 +88,23 @@ DefaultTransactionDefinition def = new DefaultTransactionDefinition(TransactionD
 // 获得事务状态
 TransactionStatus status = transactionManager.getTransaction(def);
 try {
-    transactionManager.commit(status); // 提交
+    
 } catch (Exception e) {
+    if(!TransactionAspectSupport.currentTransactionStatus().isRollbackOnly()){
+        TransactionAspectSupport.currentTransactionStatus().setRollbackOnly(); // 手动回滚事务
+    }
     transactionManager.rollback(status); // 回滚数据库
+} finally {
+    if (status !=null && status.isNewTransaction() && !status.isCompleted()){
+        transactionManager.commit(status); // 提交
+    }
 }
 ```
 
 
 
 
-## 依赖注入的三种方式
+## 依赖注入
 
 - @Autowired
     - Field （属性变量）[Field injection is not recommended（不再推荐使用字段注入）](https://zhuanlan.zhihu.com/p/92395282)

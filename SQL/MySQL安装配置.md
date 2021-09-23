@@ -11,6 +11,15 @@
 * [https://github.com/MariaDB](https://github.com/MariaDB)
 
 
+- [如何在 Ubuntu 20.04 上安装 MySQL](https://linuxize.com/post/how-to-install-mysql-on-ubuntu-20-04)
+- [ubuntu20 使用命令安装 mysql](https://www.cnblogs.com/cnwcl/p/13785655.html)
+- [ubuntu20 安装和配置mysql8.0.23](https://segmentfault.com/a/1190000039203507)
+- [ubuntu20安装mysql8](https://www.jianshu.com/p/9e69e0e38665)
+- [ubuntu20.04安装mysql8.0](https://blog.csdn.net/lduzhenlin/article/details/113243476)
+
+> 在MySQL 8.0上，`auth_socket`默认情况下，root用户通过插件进行身份验证。该auth_socket插件对localhost通过Unix套接字文件
+> 从进行连接的用户进行身份验证。这意味着您不能通过提供密码来以root用户身份进行身份验证。
+
 
 ## Windows版安装
 
@@ -33,7 +42,6 @@
 ### yum安装
 
 * [https://dev.mysql.com/doc/mysql-yum-repo-quick-guide/en/](https://dev.mysql.com/doc/mysql-yum-repo-quick-guide/en)
-
 * [https://blog.imzhengfei.com/centos-7-an-zhuang-pei-zhi-mysql/](https://blog.imzhengfei.com/centos-7-an-zhuang-pei-zhi-mysql)
 
 > 首先`CentOS7`默认已经不支持`mysql`，因为收费了你懂得，所以内部集成了`mariadb`，
@@ -284,7 +292,7 @@ vi /etc/my.cnf
 
 > 按`i`后输入以下内容
 
-```bash
+```conf
 [mysqld]
 # sql_mode = NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES 
 
@@ -364,7 +372,7 @@ open-files-limit = 8192
 
 ### yum安装配置
 
-```bash
+```conf
 [client]
 #password   = your_password
 port        = 3306
@@ -491,7 +499,7 @@ interactive-timeout
 
 ### 宝塔面板安装配置
 
-```bash
+```conf
 [client]
 #password   = your_password
 port        = 3306
@@ -609,8 +617,3 @@ interactive-timeout
 ```
 
 > 按`ESC`后输入`:wq`退出
-
-
-
-
-# [返回顶部](#readme)

@@ -162,6 +162,7 @@
     * Java 8 简明教程 [https://github.com/wizardforcel/modern-java-zh](https://github.com/wizardforcel/modern-java-zh)
 * [https://github.com/zq99299/java-tutorial](https://github.com/zq99299/java-tutorial)
 * 常用框架源码赏析 [https://github.com/doocs/source-code-hunter](https://github.com/doocs/source-code-hunter)
+* [https://github.com/RichardWarburton/java-8-lambdas-exercises](https://github.com/RichardWarburton/java-8-lambdas-exercises)
 
 
 + [https://github.com/mr-ping/RabbitMQ_into_Chinese](https://github.com/mr-ping/RabbitMQ_into_Chinese)
