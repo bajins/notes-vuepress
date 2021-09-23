@@ -6,8 +6,17 @@
 
 
 
+## Flag
+
+* 热备份 [https://github.com/percona/percona-xtrabackup](https://github.com/percona/percona-xtrabackup)
+* [https://github.com/blylei/frabit](https://github.com/blylei/frabit)
+
+
+
 
 ## binlog2sql
+
++ [https://dev.mysql.com/doc/refman/8.0/en/mysqlbinlog.html](https://dev.mysql.com/doc/refman/8.0/en/mysqlbinlog.html)
 
 > 使用此方式之前一定是MySQL开启了bin-log的才可行，如果没有安装开源工具`binlog2sql`那么请安装。
 >
@@ -15,6 +24,7 @@
 
 * [https://github.com/danfengcao/binlog2sql](https://github.com/danfengcao/binlog2sql)
 * [https://github.com/Michaelsky0913/binlog2sql](https://github.com/Michaelsky0913/binlog2sql)
+
 
 
 ```bash
@@ -38,7 +48,7 @@ binlog_row_image = full
 
 ```sql
 select, super/replication client, replication slave
-#建议授权
+-- 建议授权
 GRANT SELECT, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 
 ```
 
@@ -121,6 +131,8 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' \
 
 ## mysqldump
 
++ [https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)
+
 > 如果是在本机上备份本机的数据库地址和端口可以不要，如果是在本机上备份其他主机上的数据库就需要地址和端口
 
 - [MySQL备份并删除历史.sh](/files/MySQL备份并删除历史.sh)
@@ -169,6 +181,14 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' \
 4. 导出原表中的数据，--opt是一个insert多个value，在使用了--skip-opt的时候，是多个insert组成的；
 
 
+```sql
+-- 查看字符编码的系统变量
+show variables like '%char%';
+-- 设置默认的字符集为utf8
+set character_set_database=utf8;
+```
+
+
 ### mysqldump导出
 
 * [Access denied; you need (at least one of) the SUPER privilege(s) for this operation](https://stackoverflow.com/questions/44015692/access-denied-you-need-at-least-one-of-the-super-privileges-for-this-operat)
@@ -176,19 +196,14 @@ python binlog2sql/binlog2sql.py -h127.0.0.1 -P端口 -u账号 -p'密码' \
 ```bash
 # 只导出结构&函数&事件&触发器使用
 mysqldump -R -E -d -h需要备份的主机地址 -P端口 -u用户名 -p 数据库名 --default-character-set=utf8> /home/backup.sql
-
 # 只导出存储过程和函数可使用
 mysqldump -R -ntd -h需要备份的主机地址 -P端口 -u用户名 -p 数据库名 --default-character-set=utf8> /home/backup.sql
-
 # 导出单个数据库中所有(结构&数据&存储过程&函数&事件&触发器)到sql文件
 mysqldump -R -E -h需要备份的主机地址 -P端口 -u用户名 -p 数据库名 --default-character-set=utf8> /home/backup.sql
-
 # mysqldump 备份并压缩sql文件
 mysqldump -R -E -h主机地址 -P端口 -u用户名 -p 数据库名 --default-character-set=utf8 | gzip > /home/backup.sql.gz
-
 # 备份所有的数据库到一个sql文件
 mysqldump -R -E -h主机地址 -P端口 -u用户名 -p --all-databases --default-character-set=utf8> /home/all.sql
-
 # 从一个数据库导出到另一个数据库
 mysqldump -R -E -u用户名 -p 数据库名 | mysql 新数据库名 -u用户名 -p密码
 ```
@@ -217,7 +232,6 @@ mysql --defaults-extra-file=/etc/my.cnf 新数据库名 < database.sql
 
 
 
-
 ```batch
 @echo off
 
@@ -241,15 +255,32 @@ forfiles /p %dirPath% /m backup_*.sql -d -14 /c "cmd /c del /f @path"
 ```
 
 
+
+**Windows导出，Linux导入编码问题**
+
+```bash
+mysqldump db –default-character-set=latin1 -r utf8.dump
+# 把里面的 CHARSET=latin1 替换为 CHARSET=utf8，删掉其中的 SET NAMES latin1
+sed -e s,CHARSET=latin1,CHARSET=utf8,g < utf8.dump > utf8.dump.edited
+# 导入
+mysql -uroot -p --default-character-set=utf8 db
+```
+
+```sql
+-- 设置数据库编码
+SET names utf8;
+SOURCE utf8.dump.edited;
+```
+
+
+
 ### mysqldump导入
 
 ```bash
 # 用mysqldump导入本地sql文件
 mysqldump -h主机地址 -P端口 -u用户名 数据库名 < /home/backup.sql
-
 # mysql直接用压缩文件恢复
 gunzip < backup.sql.gz | mysql -h主机地址 -P端口 -u用户名 -p密码 数据库名
-
 # mysql从本地sql文件导入
 mysql -h主机地址 -P端口 -u用户名 -p密码 数据库名 < backupfile.sql
 ```

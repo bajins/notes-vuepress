@@ -524,6 +524,16 @@ gc xx.py
 Get-Content 文件路径 -ReadCount 0 -Tail 5 -Wait
 # 编码转换
 Get-Content filename1 -encoding default | set-content filename2 -encoding utf8
+gc log.txt | select -first 10 # head
+gc log.txt -head 10
+gc -TotalCount 10 log.txt     # also head
+gc log.txt -ReadCount 5 | %{$_;throw "pipeline end!"} # head
+gc log.txt | select -last 10  # tail
+gc -Tail 10 log.txt           # also tail (since PSv3), also much faster than above option
+gc log.txt | more             # or less if you have it installed
+gc log.txt | %{ $_ -replace '\d+', '($0)' } # sed Where-Object Foreach-Object Select-Object
+gc log.txt | %{$num=0;}{$num++; if($num -gt 2 -and $num -lt 7){"$num $_"}} # sed
+gc log.txt | %{$num=0;}{$num++;"$num $_"} # cat -n
 
 # 字符串搜索，不能对对象使用
 # 类似 linux 的 grep 命令

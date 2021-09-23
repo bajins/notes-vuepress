@@ -24,16 +24,17 @@
 
 ## 第三方工具
 
-+ 扫描任何32位或64位Windows模块（exe，dll，ocx，sys等）的函数 [http://www.dependencywalker.com](http://www.dependencywalker.com)
-+ DLL导出查看器 [http://www.nirsoft.net/utils/dll_export_viewer.html](http://www.nirsoft.net/utils/dll_export_viewer.html)
-+ RegDllView-查看系统上已注册的dll/ ocx/exe文件，从资源管理器注册dll文件：
-    + [http://www.nirsoft.net/utils/registered_dll_view.html](http://www.nirsoft.net/utils/registered_dll_view.html)
-+ Windows 10的system32目录中的所有DLL文件信息 [http://windows10dll.nirsoft.net](http://windows10dll.nirsoft.net)
-+ 下载– NTCore [https://ntcore.com/?page_id=345](https://ntcore.com/?page_id=345)
-+ 小型命令行实用程序 [http://www.ltr-data.se/opencode.html/#CmdUtils](http://www.ltr-data.se/opencode.html/#CmdUtils)
+* 扫描任何32位或64位Windows模块（exe，dll，ocx，sys等）的函数 [http://www.dependencywalker.com](http://www.dependencywalker.com)
+* DLL导出查看器 [http://www.nirsoft.net/utils/dll_export_viewer.html](http://www.nirsoft.net/utils/dll_export_viewer.html)
+* RegDllView-查看系统上已注册的dll/ ocx/exe文件，从资源管理器注册dll文件：
+    * [http://www.nirsoft.net/utils/registered_dll_view.html](http://www.nirsoft.net/utils/registered_dll_view.html)
+* Windows 10的system32目录中的所有DLL文件信息 [http://windows10dll.nirsoft.net](http://windows10dll.nirsoft.net)
+* 下载– NTCore [https://ntcore.com/?page_id=345](https://ntcore.com/?page_id=345)
+* 小型命令行实用程序 [http://www.ltr-data.se/opencode.html/#CmdUtils](http://www.ltr-data.se/opencode.html/#CmdUtils)
 * 网络请求工具 [https://eternallybored.org/misc/wget](https://eternallybored.org/misc/wget)
 * 窗口控制 [https://github.com/ritchielawrence/cmdow](https://github.com/ritchielawrence/cmdow)
-
+* [日志分析工具Log Parser](https://www.microsoft.com/en-us/download/details.aspx?id=24659)
+    * [日志分析-LogParser使用方法](https://blog.csdn.net/weixin_41073877/article/details/112917207)
 
 
 
