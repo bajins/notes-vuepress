@@ -27,6 +27,12 @@
 - [数据库扩展性设计：使用二进制解决一条记录关联多个状态的问题](https://www.cnblogs.com/itfly8/p/6062757.html)
 
 
+* 有状态就是有数据存储功能。有状态对象(Stateful Bean)，就是有实例变量的对象，可以保存数据，是非线程安全的。在不同方法调用间不保留任何状态。
+* 无状态就是一次操作，不能保存数据。无状态对象(Stateless Bean)，就是没有实例变量的对象 .不能保存数据，是不变类，是线程安全的。
+
+
+
+
 ## 多行字符串
 
 - Multiline String 多行字符串
@@ -438,6 +444,14 @@ String str = EntityUtils.toString(new UrlEncodedFormEntity(params, Consts.UTF_8)
 - 不变(`T`)
 
 
+**泛型的通配符**
+
+- ? 表示不确定的类型
+- T (type) 表示具体的类型
+- K V (key value) 分别代表键值中的Key Value
+- E (element) 代表Element
+
+
 **泛型三种常用的使用方式：**
 
 * [java 泛型详解-绝对是对泛型方法讲解最详细的，没有之一](https://www.cnblogs.com/coprince/p/8603492.html)
@@ -447,3 +461,4 @@ String str = EntityUtils.toString(new UrlEncodedFormEntity(params, Consts.UTF_8)
 - 泛型类：在类名后指定类型变量，如：`public class Pair<T, U> {`
 - 泛型接口：在接口名后指定类型变量，如：`public interface Generator<T, U> {`
 - 泛型方法：在修饰符后，返回类型前指定类型变量，如：`public static <T extends Object, E> T test(Class<T> a, Class<E> b) {`
+

@@ -95,6 +95,7 @@
     * [https://gitee.com/lin-mt/effective-java-third-edition](https://gitee.com/lin-mt/effective-java-third-edition)
     * [https://github.com/Wasabi1234/EffectiveJava3-zh](https://github.com/Wasabi1234/EffectiveJava3-zh)
 * 精通 Java 并发编程（第2 版 ） [https://github.com/Jueee/ConcurrencyWithJava](https://github.com/Jueee/ConcurrencyWithJava)
+* 设计原理和模式中的并行编程 [http://gee.cs.oswego.edu/dl/cpj/index.html](http://gee.cs.oswego.edu/dl/cpj/index.html)
 * Java 9 模块化开发 [https://github.com/ledudu/Java-9-Modularity-zh](https://github.com/ledudu/Java-9-Modularity-zh)
 * Vert.x Java开发者指南 [https://github.com/vertxfun/vertx-guide-for-java-devs-cn](https://github.com/vertxfun/vertx-guide-for-java-devs-cn)
 * [https://github.com/hansonwang99/JavaCollection](https://github.com/hansonwang99/JavaCollection)
@@ -490,6 +491,7 @@
     * [导出百万级数据到Excel 文件](https://blog.csdn.net/gd6321374/article/details/90417202)
     * [https://github.com/550690513/large-amount-data-export](https://github.com/550690513/large-amount-data-export)
 * PDF操作 [https://github.com/topics/pdfbox](https://github.com/topics/pdfbox)
+* [https://github.com/itext](https://github.com/itext)
 
 
 > XML文件的解析技术有DOM和SAX方式，JAXB（Java Architecture for XML Binding) 是一个业界的标准，是一项根据`XML Schema`产生Java类的技术

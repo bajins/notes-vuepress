@@ -80,7 +80,7 @@
 @Autowired
 private DataSourceTransactionManager transactionManager;
 /*@Autowired
-TransactionDefinition transactionDefinition;*/
+private TransactionDefinition transactionDefinition;*/
 
  // 设置事务隔离级别，开启新事务
 DefaultTransactionDefinition def = new DefaultTransactionDefinition(TransactionDefinition.PROPAGATION_REQUIRES_NEW);
@@ -91,12 +91,16 @@ try {
     
 } catch (Exception e) {
     if(!TransactionAspectSupport.currentTransactionStatus().isRollbackOnly()){
-        TransactionAspectSupport.currentTransactionStatus().setRollbackOnly(); // 手动回滚事务
+        TransactionAspectSupport.currentTransactionStatus().setRollbackOnly(); // 标记事务回滚
     }
-    transactionManager.rollback(status); // 回滚数据库
+    if(!status.isRollbackOnly()){
+        status.setRollbackOnly(); // 标记事务回滚
+    }
+    // https://www.cnblogs.com/yaohuiqin/p/9486975.html
+    transactionManager.rollback(status); // 回滚事务，设置completed为完成状态，清理事务资源
 } finally {
     if (status !=null && status.isNewTransaction() && !status.isCompleted()){
-        transactionManager.commit(status); // 提交
+        transactionManager.commit(status); // 如果rollBackOnly状态被设置将回滚，否则执行正常的事务提交操作
     }
 }
 ```
@@ -120,6 +124,7 @@ try {
 * [@Autowired警告：Field injection is not recommended](https://www.jianshu.com/p/36db3e167958)
 * [使用@Autowired注解警告Field injection is not recommended](https://blog.csdn.net/zhangjingao/article/details/81094529)
 
+- [Spring中获取request的几种方法，及其线程安全性分析](https://www.cnblogs.com/kismetv/p/8757260.html)
 
 
 

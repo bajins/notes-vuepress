@@ -13,6 +13,8 @@
 * 编译嵌入式Linux [https://github.com/buildroot/buildroot](https://github.com/buildroot/buildroot)
 * 服务器音频播放器 [https://github.com/badaix/snapcast](https://github.com/badaix/snapcast)
 * 桌面 [https://github.com/kernelslacker/trinity](https://github.com/kernelslacker/trinity)
+* [https://github.com/wine-mirror/wine](https://github.com/wine-mirror/wine)
+* [https://github.com/ValveSoftware](https://github.com/ValveSoftware)
 * [https://kde.org/zh-cn/plasma-desktop](https://kde.org/zh-cn/plasma-desktop)
 
 - [https://github.com/littlekernel/lk](https://github.com/littlekernel/lk)

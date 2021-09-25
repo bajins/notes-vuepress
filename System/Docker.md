@@ -35,6 +35,7 @@
 - 构建应用程序 [https://github.com/paketo-buildpacks](https://github.com/paketo-buildpacks)
 - [https://github.com/dragonflyoss/Dragonfly](https://github.com/dragonflyoss/Dragonfly)
 - [https://github.com/Alluxio/alluxio](https://github.com/Alluxio/alluxio)
+- [https://github.com/weaveworks/weave](https://github.com/weaveworks/weave)
 
 
 **Docker搭建私有仓库**
