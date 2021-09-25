@@ -179,8 +179,6 @@
 
 * [https://github.com/akullpp/awesome-java](https://github.com/akullpp/awesome-java)
 * [https://github.com/topics/java-library](https://github.com/topics/java-library)
-* [https://github.com/hashicorp](https://github.com/hashicorp)
-
 
 
 + [https://github.com/xuxueli](https://github.com/xuxueli)

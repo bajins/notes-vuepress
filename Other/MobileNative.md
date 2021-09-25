@@ -148,6 +148,7 @@
 + 在linux下运行安卓应用xDroid [https://www.linzhuotech.com](https://www.linzhuotech.com)
 + [https://github.com/anbox/anbox](https://github.com/anbox/anbox)
     + [Linux上运行安卓应用:安装使用Anbox](https://www.cnblogs.com/syisyuan/p/12811595.html)
++ [https://github.com/waydroid/waydroid](https://github.com/waydroid/waydroid)
 + 安卓上运行的安卓模拟器 [http://www.vmos.cn](http://www.vmos.cn)
     + [https://github.com/Flytreels/vpro-romedit](https://github.com/Flytreels/vpro-romedit)
     + [https://github.com/you2032/Pure-ROM](https://github.com/you2032/Pure-ROM)

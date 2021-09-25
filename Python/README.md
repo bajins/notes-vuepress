@@ -229,10 +229,12 @@ with Test() as t: # 触发__exit__
 * [https://github.com/BVLC/caffe](https://github.com/BVLC/caffe)
 * [https://github.com/torch/torch7](https://github.com/torch/torch7)
 * crnn [https://github.com/meijieru/crnn.pytorch](https://github.com/meijieru/crnn.pytorch)
+* [https://github.com/Megvii-BaseDetection/YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
 * Psenet [https://github.com/WenmuZhou/PSENet.pytorch](https://github.com/WenmuZhou/PSENet.pytorch)
 * 语言模型实现 [https://github.com/lukhy/masr](https://github.com/lukhy/masr)
 * 实时语音克隆 [https://github.com/CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
 * [https://github.com/babysor/Realtime-Voice-Clone-Chinese](https://github.com/babysor/Realtime-Voice-Clone-Chinese)
+* [https://github.com/babysor/MockingBird](https://github.com/babysor/MockingBird)
 * 视频抠图 [https://github.com/PeterL1n/RobustVideoMatting](https://github.com/PeterL1n/RobustVideoMatting)
 
 
@@ -273,6 +275,7 @@ with Test() as t: # 触发__exit__
 * 百度飞桨 [https://github.com/PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 * [https://github.com/miaomiaosoft/PandaOCR](https://github.com/miaomiaosoft/PandaOCR)
 * [https://github.com/WenmuZhou/PytorchOCR](https://github.com/WenmuZhou/PytorchOCR)
+* [https://github.com/microsoft/unilm](https://github.com/microsoft/unilm)
 
 
 

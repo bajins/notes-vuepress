@@ -129,6 +129,8 @@
 +  [https://github.com/gorilla](https://github.com/gorilla)
 + [https://github.com/eolinker](https://github.com/eolinker)
 + 数据库驱动 [https://github.com/go-sql-driver](https://github.com/go-sql-driver)
++ [https://github.com/hashicorp](https://github.com/hashicorp)
+
 
 
 * [https://github.com/julienschmidt/httprouter](https://github.com/julienschmidt/httprouter)
@@ -206,7 +208,6 @@
 * [https://github.com/refraction-networking/utls](https://github.com/refraction-networking/utls)
 * 十进制数 [https://github.com/shopspring/decimal](https://github.com/shopspring/decimal)
 * 布隆过滤器 [https://github.com/bits-and-blooms](https://github.com/bits-and-blooms)
-* 错误合并 [https://github.com/hashicorp/go-multierror](https://github.com/hashicorp/go-multierror)
 * excel [https://github.com/360EntSecGroup-Skylar/excelize](https://github.com/360EntSecGroup-Skylar/excelize)
 * Quoted-printable [https://github.com/sloonz/go-qprintable](https://github.com/sloonz/go-qprintable)
 * GUI [https://github.com/visualfc/atk](https://github.com/visualfc/atk)
@@ -223,7 +224,6 @@
 * [https://github.com/google/uuid](https://github.com/google/uuid)
 * 环境变量 [https://github.com/subosito/gotenv](https://github.com/subosito/gotenv)
 * [https://github.com/magiconair/properties](https://github.com/magiconair/properties)
-* [https://github.com/hashicorp/hcl](https://github.com/hashicorp/hcl)
 * 结构转换 [https://github.com/mitchellh/mapstructure](https://github.com/mitchellh/mapstructure)
 * [github.com/go-redis/redis](github.com/go-redis/redis)
 * [https://github.com/seccomp/libseccomp-golang](https://github.com/seccomp/libseccomp-golang)
