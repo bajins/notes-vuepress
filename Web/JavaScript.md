@@ -22,6 +22,7 @@
 * [前端三大框架与 YUI 以及 EXT.js 这类组件化框架最大的区别是什么？](https://www.zhihu.com/question/336968422/answer/762705515)
 * [ECMAscript和Javascript的区别](https://www.jianshu.com/p/10cfcb536d4a)
 * [KeyboardEvent.keyCode已弃用，MDN已经提供了一个解决方案](https://developer.mozilla.org/zh-CN/docs/Web/API/KeyboardEvent/keyCode)
+* [JS 获取内网 IP 地址（兼容谷歌浏览器）](https://jueee.github.io/2021/03/2021-03-01-JS%E8%8E%B7%E5%8F%96%E5%86%85%E7%BD%91IP%E5%9C%B0%E5%9D%80%EF%BC%88%E5%85%BC%E5%AE%B9%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%EF%BC%89)
 
 - [https://github.com/jsdoc](https://github.com/jsdoc)
 - [https://github.com/apidoc](https://github.com/apidoc)
@@ -230,8 +231,7 @@ var express = require('express');
 + [https://github.com/topics/alert](https://github.com/topics/alert)
 + [https://github.com/topics/ajax](https://github.com/topics/ajax)
 
-* [https://github.com/sentsin/layui](https://github.com/sentsin/layui)
-* [https://github.com/sentsin/layer](https://github.com/sentsin/layer)
+
 * [https://github.com/sweetalert2/sweetalert2](https://github.com/sweetalert2/sweetalert2)
     * [https://www.sweetalert2.cn](https://www.sweetalert2.cn)
 * 提示和弹出框 [https://github.com/popperjs/popper-core](https://github.com/popperjs/popper-core)

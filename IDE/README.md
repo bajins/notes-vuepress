@@ -251,7 +251,7 @@
 | 递进式向左选择代码（一样）                       	| Shift + Alt + ←                           	| Shift + Alt + ←                             	|
 | 跳到指定行                                       	| Ctrl + G                                  	| Ctrl + L                                    	|
 | 光标处往上添加空行                               	| Ctrl + Alt + Enter                        	| Ctrl + Shift + Enter                        	|
-| 代码提示                                         	| Ctrl + Alt + 空格                         	| Alt + /                                     	|
+| 代码提示(Basic)                                  | Ctrl + 空格                         	        | Alt + /                                     	|
 | 取消撤销                                         	| Ctrl + Shift + Z                          	| Ctrl + Y                                    	|
 | 选中区域取消注释                                 	| Ctrl + Shift + /                          	| Ctrl + Shift + \                            	|
 | 添加或取消注释                                   	| Ctrl + /                                  	| Ctrl + /     Ctrl + Shift + C               	|
@@ -260,8 +260,8 @@
 | 打开文件结构图                                   	| Ctrl + F12   Alt + 7                      	| Ctrl + F3    Ctrl + O                       	|
 | 编译项目                                         	| Ctrl + F9                                 	| Ctrl + B（编译所有项目）                    	|
 | 全局查找class                                    	| Ctrl + N                                  	| Project-BuiId Project      Ctrl + Shift + T 	|
-| 全局搜索                                          	| Ctrl + Shift + F                          	| Ctrl + H                                    	|
-| 根据文件名当前工作空间查找文件                   	| Ctrl + Shift + N                          	| Ctrl + Shift + R                            	|
+| 全局搜索                                          | Ctrl + Shift + F                          	| Ctrl + H                                    	|
+| 根据文件名当前工作空间查找文件                   	  | Ctrl + Shift + N                          	  | Ctrl + Shift + R                            |
 | 删除整行                                         	| Shift + Delete    Ctrl + Y                	| Ctrl + D                                    	|
 | 向下复制一行                                     	| Ctrl + D                                  	| Ctrl + Alt + ↓                              	|
 | 向上移动整行                                     	| Shift + Alt + ↑                           	| Alt + ↑                                     	|
@@ -306,7 +306,7 @@
 | 快速抽取方法                                     	| Ctrl + Alt + M                            	|                                             	|
 | 对选中的代码弹出环绕选确出层                     	| Ctrl + Alt + T                            	|                                             	|
 | 快速引进变量                                     	| Ctrl + Alt + V                            	|                                             	|
-| 寻找类或是变量被调用的地方，以弹出框的方式显示   	| Ctrl + Alt + F7                           	|                                             	|
+| 寻找类或是变量被调用的地方，以弹出框的方式显示   	  | Ctrl + Alt + F7                           	  |                                             	|
 | 动态模板环绕                                     	| Ctrl + Alt + J                            	|                                             	|
 | 内联                                             	| Ctrl + Alt + N                            	|                                             	|
 | 安去删除字段或方法                               	| Alt + Delete                              	|                                             	|
@@ -352,9 +352,9 @@
 | 运行（Run）选择的项目                            	| Shift + Alt + F10                         	|                                             	|
 | 调试（Debug）选择的项目                          	| Shift + Alt + F9                          	|                                             	|
 | 最近修改记录                                     	| Shift + Alt + C                           	|                                             	|
-| 把焦点从编辑器移到最近使用的工具窗口             	| F12                                       	|                                             	|
+| 把焦点从编辑器移到最近使用的工具窗口             	  | F12                                       	  |                                             	|
 | 实现方法                                         	| Ctrl + I                                  	|                                             	|
-| 查找整个工程中使用的某一个类、方法或者变量的位置 	| Alt + F7                                  	|                                             	|
+| 查找整个工程中使用的某一个类、方法或者变量的位置 	   | Alt + F7                                  	   |                                             	|
 | 跳转到导航栏                                     	| Alt + Home                                	|                                             	|
 | 快速修正                                         	|                                           	| Ctrl + 1                                    	|
 | 打开外部Java文档                                 	|                                           	| Shift + F2                                  	|
