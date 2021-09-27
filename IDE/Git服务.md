@@ -150,6 +150,7 @@ volumes:
 * 发布成功之后`github pages`的`Custom domain`配置项就被清空：[github-pages-basics](http://wiki.jikexueyuan.com/project/github-pages-basics/cname-file.html)
 * [https://codecov.io](https://codecov.io)
 * [目录 - P3TERX ZONE](https://p3terx.com/archives.html)
+* [https://github.com/tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet)
 
 - [https://github.com/zenodo/zenodo](https://github.com/zenodo/zenodo)
 - 手动同步fork [https://blog.blueskyclouds.com/jsfx/58.html](https://blog.blueskyclouds.com/jsfx/58.html)

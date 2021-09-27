@@ -35,6 +35,7 @@
 
 - 恶意软件分析 [https://github.com/HynekPetrak/malware-jail](https://github.com/HynekPetrak/malware-jail)
 - 物联网的超轻量级JavaScript引擎 [https://github.com/jerryscript-project/jerryscript](https://github.com/jerryscript-project/jerryscript)
+- 嵌入式系统的微型JS引擎 [https://github.com/cesanta/elk](https://github.com/cesanta/elk)
 
 
 
