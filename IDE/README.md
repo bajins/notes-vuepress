@@ -93,6 +93,7 @@
 + [https://github.com/search?q=SQL+client](https://github.com/search?q=SQL+client)
 
 * [https://github.com/dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
+    * [https://dbeaver.io](https://dbeaver.io)
 * [https://www.jetbrains.com/zh-cn/datagrip](https://www.jetbrains.com/zh-cn/datagrip)
 * [https://www.navicat.com](https://www.navicat.com)
     * [https://github.com/search?q=navicat](https://github.com/search?q=navicat)

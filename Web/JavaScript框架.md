@@ -252,7 +252,7 @@ $.is(":checked");
 + [https://github.com/topics/validator](https://github.com/topics/validator)
 + [https://plugins.jquery.com](https://plugins.jquery.com)
 
-* 添加XHR2 responseType支持的jQuery插件 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
+* 添加XHR2 responseType支持 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
 * [https://github.com/topics/jquery-validation](https://github.com/topics/jquery-validation)
     * [https://github.com/jquery-validation](https://github.com/jquery-validation)
         * [https://www.runoob.com/jquery/jquery-plugin-validate.html](https://www.runoob.com/jquery/jquery-plugin-validate.html)
