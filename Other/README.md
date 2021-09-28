@@ -237,7 +237,6 @@
 * spoofBox：[http://www.spoofbox.com](http://www.spoofbox.com)
 * SmsReceiver：[https://sms.ndtan.net](https://sms.ndtan.net)
 * OnlineSIM：[http://onlinesim.ru](http://onlinesim.ru)
-* Twilio：[https://www.twilio.com](https://www.twilio.com)
 * SELLAITE：[http://sms.sellaite.com](http://sms.sellaite.com)
 * Receive SMS Online：[http://receive-sms-online.com](http://receive-sms-online.com)
 * Receive-SMS：[https://receive-sms.com](https://receive-sms.com)

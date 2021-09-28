@@ -109,6 +109,7 @@
 - 视图监视器 [https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet](https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet)
 - [https://github.com/aristocratos/bashtop](https://github.com/aristocratos/bashtop)
 - [https://github.com/aristocratos/bpytop](https://github.com/aristocratos/bpytop)
+- [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
 
 
 * [https://github.com/topics/system-information](https://github.com/topics/system-information)
@@ -288,7 +289,6 @@
 
 * [https://www.netlify.com](https://www.netlify.com)
     * 示例：[https://woytu.netlify.app](https://woytu.netlify.app)
-* [https://slack.com/get-started](https://slack.com/get-started)
 * [https://docs.travis-ci.com/user/tutorial](https://docs.travis-ci.com/user/tutorial)
 * [https://github.com/zeit](https://github.com/zeit)
     * 示例：[https://woytu.now.sh](https://woytu.now.sh)
@@ -407,8 +407,37 @@
 * 冷曦博客 - 源码之家-草根站长的资源共享平台: [https://www.lengxi.net](https://www.lengxi.net)
 * [https://github.com/Youngxj/YoungxjTools](https://github.com/Youngxj/YoungxjTools)
 * [https://github.com/netnr/scriptservices](https://github.com/netnr/scriptservices)
-* 协作在线办公套件 [https://github.com/ONLYOFFICE](https://github.com/ONLYOFFICE)
 * 媒体服务器 [https://github.com/MediaBrowser/Emby.Releases](https://github.com/MediaBrowser/Emby.Releases)
+
+
+
+**协作/在线**
+
+* 协作在线办公套件 [https://github.com/ONLYOFFICE](https://github.com/ONLYOFFICE)
+* [https://github.com/ether/etherpad-lite](https://github.com/ether/etherpad-lite)
+* [https://github.com/anytypeio](https://github.com/anytypeio)
+* 团队协作和文档 [https://www.notion.so](https://www.notion.so)
+* 腾讯文档 [http://docs.qq.com](http://docs.qq.com)
+* [https://github.com/seatable](https://github.com/seatable)
+* [https://slack.com](https://slack.com)
+    * [https://slack.com/get-started](https://slack.com/get-started)
+* [https://www.twilio.com](https://www.twilio.com)
+* [https://trello.com](https://trello.com)
+* [https://airtable.com](https://airtable.com)
+* [https://www.teambition.com](https://www.teambition.com)
+* [https://bitable.feishu.cn](https://bitable.feishu.cn)
+* [https://worktile.com](https://worktile.com)
+* [https://tower.im](https://tower.im)
+* [https://www.mingdao.com](https://www.mingdao.com)
+* [http://github.com/vikadata](http://github.com/vikadata)
+* [https://www.treelab.com.cn](https://www.treelab.com.cn)
+* [https://www.wolai.com](https://www.wolai.com)
+* [https://www.qingque.cn](https://www.qingque.cn)
+* [https://hipacloud.com](https://hipacloud.com)
+* [https://www.microsoft.com/zh-cn/microsoft-365/microsoft-lists](https://www.microsoft.com/zh-cn/microsoft-365/microsoft-lists)
+* [https://clickup.com](https://clickup.com)
+* [https://coda.io](https://coda.io)
+
 
 
 **发卡系统**

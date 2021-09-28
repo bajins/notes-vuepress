@@ -523,7 +523,6 @@
 * 果核剥壳（软件下载） [https://www.ghpym.com](https://www.ghpym.com)
 * 软件下载 [https://www.unyoo.com](https://www.unyoo.com)
 * MSDN我告诉你（windows10系统镜像下载） [https://msdn.itellyou.cn](https://msdn.itellyou.cn)
-* 团队协作和文档 [https://www.notion.so](https://www.notion.so)
 * [https://github.com/mattermost/focalboard](https://github.com/mattermost/focalboard)
 
 
@@ -608,7 +607,6 @@
 * PDF处理 [https://www.pdfpai.com](https://www.pdfpai.com)
 * PDF处理 [https://www.hipdf.cn](https://www.hipdf.cn)
 * 图片压缩，PDF处理 [https://docsmall.com](https://docsmall.com)
-* 腾讯文档（在线协作编辑和管理文档） [http://docs.qq.com](http://docs.qq.com)
 * iLovePDF（在线转换PDF利器） [http://www.ilovepdf.com](http://www.ilovepdf.com)
 * PPT在线制作 [https://www.woodo.cn](https://www.woodo.cn)
 * PDF24工具（pdf处理工具） [https://tools.pdf24.org/en](https://tools.pdf24.org/en)

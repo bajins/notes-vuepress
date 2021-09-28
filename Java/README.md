@@ -613,6 +613,7 @@
 * 停车场管理 [https://github.com/981011512/--](https://github.com/981011512/--)
 * [https://github.com/zhangdaiscott/JimuReport](https://github.com/zhangdaiscott/JimuReport)
 * 数据可视化分析 [https://github.com/dataease](https://github.com/dataease)
+* [https://github.com/YunaiV/ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro)
 
 
 
