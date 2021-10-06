@@ -98,7 +98,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 ### MSDN
 
-* [https://www.microsoft.com/zh-cn/software-download/windows10](https://www.microsoft.com/zh-cn/software-download/windows10)
+* [https://www.microsoft.com/zh-cn/software-download](https://www.microsoft.com/zh-cn/software-download)
 * [http://msdn.itellyou.cn](http://msdn.itellyou.cn)
 * [https://www.iruanmi.com/msdn](https://www.iruanmi.com/msdn)
 * [http://www.imsdn.cn](http://www.imsdn.cn)
