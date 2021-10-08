@@ -225,6 +225,8 @@
 * [https://vps.apponfly.com](https://vps.apponfly.com)
     * [无限免费试用30分钟的Windows Server服务器](https://51.ruyo.net/17365.html)
 * [https://www.onworks.net](https://www.onworks.net)
+* [https://hax.co.id](https://hax.co.id)
+    * [白嫖hax的1C512M免费VPS，让您实现白嫖VPS之梦](https://blog.misaka.sbs/202110/12.html)
 
 
 
@@ -534,6 +536,7 @@
 * [IPv4 / IPv6 CIDR计算器 | RAKKOTOOLS🔧](https://zh.rakko.tools/tools/27)
 * [http://ip.chacuo.net/ipconvert](http://ip.chacuo.net/ipconvert)
 * [https://github.com/3th1nk/cidr](https://github.com/3th1nk/cidr)
+* [https://www.oldking.net](https://www.oldking.net)
 
 
 **tracert**

@@ -357,6 +357,8 @@
 * [https://github.com/jaskey](https://github.com/jaskey)
     * [https://jaskey.github.io](https://jaskey.github.io)
 * [归档 | 阿牛的博客](https://iogogogo.github.io/archives)
+* [https://996geek.com](https://996geek.com)
+    * [https://binarylife.icu](https://binarylife.icu)
 
 
 
