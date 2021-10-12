@@ -31,27 +31,28 @@
 
 
 
-## DML/DDL/DCL
+## DDL/DML/DQL/DCL/TCL
 
-- DDL(data definition language) 数据定义语言，用于定义和管理 SQL 数据库中的所有对象的语言
+- DDL(Data Definition Language) 数据定义语言，用于定义和管理 SQL 数据库中的所有对象的语言
     1. CREATE - 创建
     2. ALTER - 修改
     3. DROP - 删除
     4. TRUNCATE - 移除
     5. COMMENT - 注释
     6. RENAME - 重命名
-- DML(data manipulation language) 数据操纵语言，用于SQL中处理数据等操作统称为数据操纵语言
-    1. SELECT - 查询
-    2. INSERT - 添加
-    3. UPDATE - 更新
-    4. DELETE - 删除
-    5. CALL - 调用
-    6. EXPLAIN - 解释
-    7. LOCK TABLE - 锁，用于控制并发
+- DML(Data Manipulation Language) 数据操纵语言，用于SQL中处理数据等操作统称为数据操纵语言，对模式对象内的数据执行查询
+    1. INSERT - 添加
+    2. UPDATE - 更新
+    3. DELETE - 删除
+    4. CALL - 调用
+    5. EXPLAIN PLAN - 解释
+    6. LOCK TABLE - 锁，用于控制并发
+- DQL(Data Query Language) 数据查询语言，根据传递给它的查询获取一些模式关系
+    1. SELECT - 用于从数据库中检索数据
 - DCL(Data Control Language) 数据控制语言，用来授予或回收访问数据库的某种特权
     1. GRANT - 授权 允许对象的创建者给某用户或某组或所有用户(PUBLIC)某些特定的权限。
     2. REVOKE - 收回已经授予的权限
-- TCL(Transaction Control Language) 事务控制语言
+- TCL(Transaction Control Language) 事务控制语言/存储过程控制预言
     1. COMMIT - 提交保存已完成的工作
     2. SAVEPOINT - 在事务中设置保存点，可以回滚到此处
     3. ROLLBACK - 回滚
@@ -60,6 +61,7 @@
 
 ![](/images/ddl-dml-dcl.png)
 ![](/images/ddl-dml-dcl-tcl.png)
+![](/images/SQL语言.png)
 
 
 
