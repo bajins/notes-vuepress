@@ -17,19 +17,21 @@
 + [https://github.com/PowerShell](https://github.com/PowerShell)
 
 * [PowerShell 与 cmd 有什么不同？](https://www.zhihu.com/question/22611859/answers/updated)
-* [PowerShell为什么强大](https://www.pstips.net/why-is-powershell-powerful.html)
 
 - [https://docs.microsoft.com/zh-cn/powershell](https://docs.microsoft.com/zh-cn/powershell)
 - [PowerShell参考文档](https://docs.microsoft.com/zh-cn/powershell/module/cimcmdlets/?view=powershell-7.1)
+- [PowerShell为什么强大](https://www.pstips.net/why-is-powershell-powerful.html)
 - [PowerShell 在线教程](https://www.pstips.net/powershell-online-tutorials)
 - [Powershell入门指南(一)·PowerShell及CLI发展](https://zhuanlan.zhihu.com/p/60797627)
 - [PowerShell入门指南(二)·挑战CMD和Bash的PowerShell](https://zhuanlan.zhihu.com/p/60798130)
 - [PowerShell入门指南(三)·一门新的编程语言](https://zhuanlan.zhihu.com/p/76708298)
+- [PowerShell提速和多线程](https://www.pstips.net/speeding-up-powershell-multithreading.html)
 - WMIC 已弃用替代品 [Get-WmiObject](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.management/get-wmiobject)
 - WMIC 已弃用替代品 [Get-CimInstance](https://docs.microsoft.com/zh-cn/powershell/module/cimcmdlets/get-ciminstance)
 
 * [https://github.com/R3MRUM/PSDecode](https://github.com/R3MRUM/PSDecode)
-
+* [https://github.com/rootclay/Powershell-Attack-Guide](https://github.com/rootclay/Powershell-Attack-Guide)
+* [https://github.com/rootclay/Windows-Access-Control](https://github.com/rootclay/Windows-Access-Control)
 
 
 
@@ -59,7 +61,7 @@
 > 正则表达式排除以`@`和`:`开头的行，并将其他所有内容传递给Power Shell
 
 ```batch
-@findstr /v "^@.* ^:.*" "%~f0"|powershell -&goto:eof
+@findstr /v "^@.* ^:.*" "%~f0"|powershell -WindowStyle Hidden -ExecutionPolicy Bypass -&goto:eof
 <# 从这里开始是 Power Shell代码 #>
 ```
 
@@ -67,9 +69,9 @@
 
 ```batch
 <# ::
-@powershell -<%~f0 &goto:eof
+@powershell -WindowStyle Hidden -ExecutionPolicy Bypass -<%~f0 &goto:eof
 #>
-# 从这里开始是 Power Shell代码
+# 保存到bat文件中可以双击执行，从这里开始是Power Shell代码
 ```
 
 
@@ -196,6 +198,22 @@ dir 'HKLM:\SOFTWARE\Microsoft\NET Framework Setup\NDP' | sort-object name -Desce
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
+```ps1
+# https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms
+# https://docs.microsoft.com/zh-tw/dotnet/api/microsoft.win32
+# https://docs.microsoft.com/zh-cn/dotnet/api/microsoft.visualbasic
+# 加载引用程序集
+[void][System.Reflection.Assembly]::LoadWithPartialName('System.Windows.Forms');
+$null = [System.Reflection.Assembly]::LoadWithPartialName('System.Windows.Forms');
+[System.Reflection.Assembly]::LoadWithPartialName('System.Windows.Forms')  | Out-Null; # 最慢
+Add-Type -assembly "System.Windows.Forms"
+Add-Type -AssemblyName System.Windows.Forms
+
+[void][System.Windows.Forms.MessageBox]::Show("弹窗");
+```
+
+
+
 - 下载代码并通过`Invoke-Expression`执行
 
 ```powershell
@@ -206,26 +224,6 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 
 ```powershell
 (New-Object System.Net.WebClient).DownloadFile('https://git.io/JvYAg','d:\\7za.exe')
-```
-
-- 选择文件夹弹窗
-
-```powershell
-function Select-FolderDialog{
-    param([string]$Directory,[string]$Description,[boolean]$ShowNewFolderButton)
-    [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms") | Out-Null
-    $objForm = New-Object System.Windows.Forms.FolderBrowserDialog
-    $objForm.RootFolder = $Directory
-    $objForm.Description = $Description
-    $objForm.ShowNewFolderButton = $ShowNewFolderButton
-    $Show = $objForm.ShowDialog()
-    If ($Show -eq "OK") {
-        Return $objForm.SelectedPath
-    } Else {
-        # 输出错误信息
-        Write-Error "error information here"
-    }
-}
 ```
 
 
@@ -323,25 +321,6 @@ get-childitem -recurse | ? {$_.GetType() -match"FileInfo"} `
 
 ```powershell
 Get-Date -Format 'yyy-MM-dd hh:mm:ss'
-```
-
-- 下载安装7z
-
-```powershell
-$response = Invoke-WebRequest -Uri https://www.7-zip.org/download.html
-# 获取文件名
-$match = $response.Content | Select-String -Pattern '<A href="(?<url>a\/7z\d+-x64\.msi)">Download<\/A>'
-# 拼接下载url
-$url = "https://www.7-zip.org/" + $match.Matches[0].Groups['url'].Value
-# 请求下载
-Invoke-WebRequest -Uri $url -OutFile 7zip.msi
-# 使用msiexec解压msi到7zip目录
-$process = Start-Process msiexec -ArgumentList "/a 7zip.msi /qn TARGETDIR=`"$(Get-Location)\7zip`"" -PassThru
-Wait-Process -Id $process.id
-Move-Item 7zip/Files/7-Zip/7z.exe 7z.exe -Force
-Move-Item 7zip/Files/7-Zip/7z.dll 7z.dll -Force
-Remove-Item –path 7zip –Recurse
-Remove-Item –path 7zip.msi
 ```
 
 
@@ -522,7 +501,7 @@ gc xx.py
 # Tail只返回指定结尾行数的文本
 # -wait 一直等待监听
 Get-Content 文件路径 -ReadCount 0 -Tail 5 -Wait
-# 编码转换
+# 编码转换 [System.Text.Encoding]::ASCII
 Get-Content filename1 -encoding default | set-content filename2 -encoding utf8
 gc log.txt | select -first 10 # head
 gc log.txt -head 10
@@ -630,4 +609,31 @@ function Get-RandomString() {
 }
 
 Get-RandomString -length 14 -sourcedata (48..127)
+```
+
+
+## HTTP服务
+
+```ps1
+start-job { 
+    $p="d:\"
+    #$p = Get-Location.path #获取当前用户的目录
+    $H=New-Object Net.HttpListener
+    $H.Prefixes.Add("http://+:8889/")
+    $H.Start()
+    While ($H.IsListening) {
+        $HC=$H.GetContext()
+        $HR=$HC.Response
+        $HR.Headers.Add("Content-Type","text/plain")
+
+        $file=Join-Path $p ($HC.Request).RawUrl
+        $text=[IO.File]::ReadAllText($file)
+        $text=[Text.Encoding]::UTF8.GetBytes($text)
+
+        $HR.ContentLength64 = $text.Length
+        $HR.OutputStream.Write($text,0,$text.Length)
+        $HR.Close()
+    }
+    $H.Stop()
+}
 ```

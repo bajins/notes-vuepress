@@ -530,6 +530,17 @@ end function
 
 ```vb
 Function SelectFile()
+    Set WshShell = WScript.CreateObject("WScript.Shell")
+    Set oExec = WshShell.Exec("powershell -WindowStyle Hidden -ExecutionPolicy Bypass " & _
+    "[void][System.Reflection.Assembly]::LoadWithPartialName('System.Windows.Forms');" & _
+    "$dialog = New-Object 'System.Windows.Forms.OpenFileDialog';" & _
+    "$dialog.Title ='请选择文件';" & _
+    "$dialog.filter ='All|*.*|PowerShell|*.ps1';" & _
+    "if ($dialog.ShowDialog() -eq 'OK') {$dialog.FileName;} Else {Out-Null}")
+    SelectFile = oExec.StdOut.ReadAll
+End Function
+
+Function SelectFile()
     ' GetStandardStream获取TextStream对象.参数：0输入流,1输出流,2错误流.
     ' "new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).Write(f.value);" & _
     hta="""about:<input type=file id=f><script>f.click();" & _
