@@ -76,6 +76,7 @@
 
 ## SublimeText
 
+- [https://github.com/SublimeText](https://github.com/SublimeTexts)
 - [https://www.sublimetext.com](https://www.sublimetext.com)
     - [http://www.sublimetext.cn](http://www.sublimetext.cn)
 - [sublimetext破解](https://www.abbeyok.com/archives/337)

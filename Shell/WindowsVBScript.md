@@ -46,6 +46,15 @@
 
 * [https://github.com/eklam/VbsJson](https://github.com/eklam/VbsJson)
 
+```vb
+Set regex = New RegExp
+Set regex = CreateObject("VBScript.RegExp")
+regex.Global = True
+regex.MultiLine = True
+regex.Pattern = "^\s*\n"
+str = regex.Replace(str, "")
+```
+
 
 ### 自动关闭弹窗
 
@@ -519,33 +528,56 @@ end function
 
 ### 选择文件对话框
 
-* [VBScript - 弹出“文件选择对话框”方法大全！](https://www.cnblogs.com/bitssea/p/12684322.html)
-
 ```vb
-' GetStandardStream获取TextStream对象.参数：0输入流,1输出流,2错误流.
-hta="""about:<input type=file id=f><script>f.click();" & _
-    "new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).WriteLine(f.value);" & _
-    "close();resizeTo(0,0);</script>"""
-' 打开对话框
-Set oExec = CreateObject("WScript.Shell").Exec("mshta.exe " & hta)
-' 输出选择的，文件的路径
-MsgBox oExec.StdOut.ReadLine
+Function SelectFile()
+    ' GetStandardStream获取TextStream对象.参数：0输入流,1输出流,2错误流.
+    ' "new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).Write(f.value);" & _
+    hta="""about:<input type=file id=f><script>f.click();" & _
+        "new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).WriteLine(f.value);" & _
+        "close();resizeTo(0,0);</script>"""
+    ' 打开对话框
+    Set oExec = CreateObject("WScript.Shell").Exec("mshta.exe " & hta)
 
-' GetStandardStream获取TextStream对象.参数：0输入流,1输出流,2错误流.
-hta="""<input type=file id=f><script>f.click();" & _
-    "new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).Write(f.value);" & _
-    "[close()];resizeTo(0,0);</script>"""
-' 打开对话框
-Set oExec = CreateObject("WScript.Shell").Exec("mshta vbscript:" & hta)
-' 输出选择的，文件的路径
-MsgBox oExec.StdOut.ReadAll
-
-
-Function BrowseForFile()
-    Dim shell : Set shell = CreateObject("Shell.Application")
-    Dim file : Set file = shell.BrowseForFolder(0, "Choose a file:", &H4000, "C:\")
-    BrowseForFile = file.self.Path
+    StrLine = oExec.StdOut.ReadLine
+    ' StrLine = oExec.StdOut.ReadAll
+    If StrLine <> "" And InStr(StrLine, Chr(13)) > 0 Then
+        ' SelectFile = Left(StrLine, Pos - 1)
+        SelectFile = StrLine
+    Else
+        SelectFile = ""
+    End If
 End Function
+
+' sIniDir 为初始化目录
+' sFilter 为文件后缀 示例："*.*,*.txt"
+Function GetFileDlgEx(sIniDir, sFilter, sTitle)
+    sIniDir = Replace(sIniDir, "\", "\\")
+    ' Set regex = New RegExp
+    Set regex = CreateObject("VBScript.RegExp")
+    regex.Global = True
+    regex.MultiLine = True
+    regex.Pattern = ";|\|"
+    sFilter = regex.Replace(sFilter, ",")
+    DIM sf
+    For Each i In Split(sFilter, ",")
+        sf = sf & i & "|" & i & "|"
+    Next
+    sFilter = sf
+    hta="""about:<object id=d classid=clsid:3050f4e1-98b5-11cf-bb82-00aa00bdce0b></object>" & _
+    "<script>moveTo(0,-9999);" & _
+    "eval(new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(0)" & _
+    ".Read("&Len(sIniDir)+Len(sFilter)+Len(sTitle)+41&"));" & _
+    "function window.onload(){" & _
+    "var p=/[^\0]*/;" & _
+    "new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1)" & _
+    ".Write(p.exec(d.object.openfiledlg(iniDir,null,filter,title)));" & _
+    "close();" & _
+    "}</script><hta:application showintaskbar=no />"""
+    Set oDlg = CreateObject("WScript.Shell").Exec("mshta.exe " & hta) 
+    oDlg.StdIn.Write "var iniDir='" & sIniDir & "';var filter='" & sFilter & "';var title='" & sTitle & "';" 
+    GetFileDlgEx = oDlg.StdOut.ReadAll 
+End Function
+
 
 Function BrowseForFile()
     With CreateObject("WScript.Shell")
@@ -569,11 +601,21 @@ End Function
 
 
 Function SelectFolder(default)
+    Set objShell = CreateObject("Shell.Application")
     If IsNull(default) Then
-        default = "::{20D04FE0-3AEA-1069-A2D8-08002B30309D}"
+        ' Set objFolder = objShell.Namespace(&H11) ' 获取当前计算机
+        ' default = objFolder.Self.Path
+        default = 0
     End If
-    Set Folder = CreateObject("Shell.Application").BrowseForFolder(0, "", 0, default)
-    If Folder Is Nothing Then
+    ' https://docs.microsoft.com/zh-cn/windows/win32/shell/shell-browseforfolder
+    ' 第一个参数：为对话框的窗体句柄，一般设置为0
+    ' 第二个参数：为打开窗体的说明
+    ' 第三个参数：0/1/2/3/257/4097/8193/12289/16385/20481只从列表进行选择（列表内容不一样），
+    '       529没有路径输入框，513没有路径输入框和新建文件夹按钮，&H10（17）有路径输入框，
+    '       &H4000可看到文件但选择将报错;
+    ' 第四个参数：起始路径根文件夹，0/12/15/16为桌面，1/2/3/4/5/6/7/8/9/10/11/13/14/17/18/19/20/21/22
+    Set Folder = objShell.BrowseForFolder(0, "请选择一个文件夹:", &H10 , default) 
+    If Folder Is Nothing Then 
         SelectFolder = ""
     Else
         SelectFolder = Folder.Self.Path

@@ -268,7 +268,11 @@
 * [https://github.com/redhat-developer](https://github.com/redhat-developer)
 * [https://github.com/vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons)
 * 比较 [https://github.com/moshfeu/vscode-compare-folders](https://github.com/moshfeu/vscode-compare-folders)
+* [https://github.com/Axosoft/vscode-gitlens](https://github.com/Axosoft/vscode-gitlens)
 
+- [https://github.com/Serpen/VBS-VSCode](https://github.com/Serpen/VBS-VSCode)
+- [https://github.com/karb0f0s/vscode-vbscript](https://github.com/karb0f0s/vscode-vbscript)
+- [https://github.com/Luncher91/VBScript-vscode](https://github.com/Luncher91/VBScript-vscode)
 
 **translate-var**
 

@@ -468,6 +468,7 @@
 + [https://github.com/topics/msi](https://github.com/topics/msi)
 + [https://github.com/topics/exe](https://github.com/topics/exe)
 
+* Enigma Virtual Box [https://enigmaprotector.com/cn/aboutvb.html](https://enigmaprotector.com/cn/aboutvb.html)
 * [单文件制作程序byJexChan](http://blog.sina.com.cn/s/blog_6fd804fe0102wwwf.html)
     * JexChan工具 [https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g](https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g) 提取码s1dk
 * [单文件程序制作一键通by:杏雨梨云](https://www.xyboot.com/portableapp_onekey_ok_3in1)

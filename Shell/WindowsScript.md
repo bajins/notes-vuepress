@@ -11,6 +11,9 @@
 * [Scripting](https://docs.microsoft.com/zh-cn/previous-versions/ms950396(v=msdn.10))
 * [Windows脚本和Windows Script Host的属性和方法及子对象](https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/bstcxhf7(v=vs.84)#in-this-section)
 * [https://github.com/mrpapercut/wscript](https://github.com/mrpapercut/wscript)
+* [JScript 和 VBScript](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/scripting-articles)
+* [VBScript 脚本技术> HTA](https://www.robvanderwoude.com/vbstech_hta.php)
+* [HTA程序：VBS/JS脚本GUI](https://www.cnblogs.com/nutix/p/5135642.html)
 
 
 + 批处理之家 [http://www.bathome.net](http://www.bathome.net)
@@ -242,7 +245,6 @@
 ## Shell
 
 * Shell.Application [https://docs.microsoft.com/zh-cn/windows/win32/shell](https://docs.microsoft.com/zh-cn/windows/win32/shell)
-    * [https://docs.microsoft.com/zh-cn/windows/win32/shell/shell](https://docs.microsoft.com/zh-cn/windows/win32/shell/shell)
 * [Wscript.Shell 对象详细介绍](https://www.jb51.net/article/5683_all.htm)
 * [WshShell 对象](https://www.jb51.net/shouce/script56/script56_chs/html/wsobjwshshell.htm)
 * [WScript.Shell 与 Shell.Application 的不同](https://www.cnblogs.com/bitssea/p/12590701.html)
