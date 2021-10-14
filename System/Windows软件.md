@@ -32,7 +32,7 @@
 * [果核剥壳](https://www.ghpym.com)
 * [zdBryan](https://www.423down.com)
 * [落尘之木](https://www.luochenzhimu.com)
-* [懒得勤快](https://ldqk.org)
+* [懒得勤快](https://ldqk.xyz)
 * [殁漂遥](https://www.mpyit.com)
 * [轻狂志](http://www.flighty.cn)
 * [伤逝的安详](https://www.ssdax.com)
@@ -295,7 +295,7 @@
 
 
 
-## 播放器
+## 音视频
 
 + [https://github.com/topics/playlist](https://github.com/topics/playlist)
 + [https://github.com/topics/iptv](https://github.com/topics/iptv)
@@ -346,6 +346,26 @@
 
 
 
+### 录屏
+
++ [https://github.com/topics/screen-recorder](https://github.com/topics/screen-recorder)
++ [https://github.com/topics/screen-recording](https://github.com/topics/screen-recording)
++ [https://github.com/topics/video-recording](https://github.com/topics/video-recording)
+
+* [https://github.com/obsproject/obs-studio](https://github.com/obsproject/obs-studio)
+* [https://github.com/ShareX](https://github.com/ShareX)
+* [https://github.com/aseprite/aseprite](https://github.com/aseprite/aseprite)
+* [https://github.com/akon47/ScreenRecorder](https://github.com/akon47/ScreenRecorder)
+* 班迪录屏Bandicam [https://www.bandicam.com](https://www.bandicam.com)
+* 傲软录屏ApowerREC [https://www.apowersoft.com](https://www.apowersoft.com)
+* [https://fraps.com](https://fraps.com)
+* [https://exkode.com/dxtory-features-en.html](https://exkode.com/dxtory-features-en.html)
+* Snagit/Camtasia [https://www.techsmith.com](https://www.techsmith.com)
+    * [https://www.snagit.com](https://www.snagit.com)
+* [https://www.nvidia.com/en-us/geforce/geforce-experience/shadowplay](https://www.nvidia.com/en-us/geforce/geforce-experience/shadowplay)
+* [https://www.nvidia.cn/geforce/geforce-experience/shadowplay](https://www.nvidia.cn/geforce/geforce-experience/shadowplay)
+
+
 
 ## 图片
 
@@ -363,9 +383,8 @@
 - [https://affinity.serif.com](https://affinity.serif.com)
 - [https://eagle.cool](https://eagle.cool)
 - [https://www.hellofont.cn](https://www.hellofont.cn)
-- 录屏 [https://github.com/obsproject/obs-studio](https://github.com/obsproject/obs-studio)
-- [https://github.com/aseprite/aseprite](https://github.com/aseprite/aseprite)
 - 必应壁纸 [https://www.microsoft.com/zh-cn/bing/bing-wallpaper-msn](https://www.microsoft.com/zh-cn/bing/bing-wallpaper-msn)
+
 
 
 
@@ -402,14 +421,10 @@
 
 * [https://github.com/flameshot-org/flameshot](https://github.com/flameshot-org/flameshot)
 * [https://github.com/greenshot](https://github.com/greenshot)
-* [https://github.com/ShareX](https://github.com/ShareX)
 * Lightshot [https://app.prntscr.com](https://app.prntscr.com)
 * [https://github.com/Snipaste](https://github.com/Snipaste)
     * [https://www.snipaste.com](https://www.snipaste.com)
 * [https://picpick.app/zh/download](https://picpick.app/zh/download)
-* [https://github.com/smasherprog/screen_capture_lite](https://github.com/smasherprog/screen_capture_lite)
-* [https://www.techsmith.com/products.html](https://www.techsmith.com/products.html)
-    * [https://www.snagit.com](https://www.snagit.com)
 
 
 **FastStone Capture**
