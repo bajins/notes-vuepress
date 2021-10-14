@@ -314,6 +314,7 @@ git log master..origin/master
 ## SubModule与SubTree
 
 * [Git - 子模块](https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97)
+* [子模块有修改未提交，报错fatal: remote error: upload-pack: not our ref](https://stackoverflow.com/questions/61163082/why-does-git-submodule-update-fail-with-fatal-remote-error-upload-pack-not-o)
 
 - submodule只存在引用，代码Pull和Push都只能和 被依赖的项目关联。类似于引用
 - subtree直接克隆被依赖项目，代码Pull和Push根据需要和主项目或被依赖项目关联。类似于拷贝
