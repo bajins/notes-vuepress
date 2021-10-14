@@ -39,8 +39,8 @@
 
 * [https://github.com/openjdk](https://github.com/openjdk)
     * [http://hg.openjdk.java.net](http://hg.openjdk.java.net)
-* [https://github.com/AdoptOpenJDK](https://github.com/AdoptOpenJDK)
-    * [https://adoptopenjdk.net](https://adoptopenjdk.net)
+* ~~[https://github.com/AdoptOpenJDK](https://github.com/AdoptOpenJDK)~~
+    * ~~[https://adoptopenjdk.net](https://adoptopenjdk.net)~~
 * [https://github.com/adoptium](https://github.com/adoptium)
     * [https://adoptium.net](https://adoptium.net)
 * [https://github.com/corretto](https://github.com/corretto)
