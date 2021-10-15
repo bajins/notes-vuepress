@@ -7,13 +7,18 @@
 
 ## Flag
 
-> Vanilla JS 就是指JavaScript
+> 对网页行为进行编程，Vanilla JS 就是指JavaScript（ECMAscript）
 
++ [https://www.w3.org](https://www.w3.org)
++ [https://www.ecma-international.org](https://www.ecma-international.org)
 + Ecma 国际，技术委员会 [https://github.com/tc39](https://github.com/tc39)
++ [https://github.com/75team/tc39](https://github.com/75team/tc39)
++ [https://github.com/JSCIG](https://github.com/JSCIG)
++ WHATWG技术的标准 [https://github.com/whatwg](https://github.com/whatwg)
+    + [https://spec.whatwg.org](https://spec.whatwg.org)
 + ECMAScript支持度检测 [https://github.com/ruanyf/es-checker](https://github.com/ruanyf/es-checker)
 + 检查JS文件中的ES版本 [https://github.com/dollarshaveclub/es-check](https://github.com/dollarshaveclub/es-check)
 + ES6支持情况 [https://kangax.github.io/compat-table/es6](https://kangax.github.io/compat-table/es6)
-+ [https://www.javascript.com](https://www.javascript.com)
 
 * [JS刷新当前页面的几种方法总结](http://www.iqianduan.net/blog/refresh-browser-method)
 * [js keyup、keypress和keydown事件 详解](https://www.cnblogs.com/manongxiaobing/archive/2012/11/05/2755412.html)
@@ -24,8 +29,6 @@
 * [KeyboardEvent.keyCode已弃用，MDN已经提供了一个解决方案](https://developer.mozilla.org/zh-CN/docs/Web/API/KeyboardEvent/keyCode)
 * [JS 获取内网 IP 地址（兼容谷歌浏览器）](https://jueee.github.io/2021/03/2021-03-01-JS%E8%8E%B7%E5%8F%96%E5%86%85%E7%BD%91IP%E5%9C%B0%E5%9D%80%EF%BC%88%E5%85%BC%E5%AE%B9%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%EF%BC%89)
 
-- [https://github.com/jsdoc](https://github.com/jsdoc)
-- [https://github.com/apidoc](https://github.com/apidoc)
 
 
 > [Polyfill](https://developer.mozilla.org/zh-CN/docs/Glossary/Polyfill) 是一块代码（通常是 Web 上的 JavaScript）
@@ -51,7 +54,9 @@
 * [https://github.com/revolunet/JSbooks](https://github.com/revolunet/JSbooks)
 * ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
     * [https://es6.ruanyifeng.com](https://es6.ruanyifeng.com)
+* [https://github.com/rse/es6-features](https://github.com/rse/es6-features)
 * [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
+* [https://www.javascript.com](https://www.javascript.com)
 * 现代JavaScript教程 [https://github.com/javascript-tutorial/zh.javascript.info](https://github.com/javascript-tutorial/zh.javascript.info)
 * 浏览器脚本教程 [https://www.w3school.com.cn/b.asp](https://www.w3school.com.cn/b.asp)
 * 参考手册 [https://www.w3school.com.cn/r.asp](https://www.w3school.com.cn/r.asp)
@@ -69,6 +74,10 @@
 * JavaScript的学习代码总结 [https://github.com/csxiaoyaojianxian/JavaScriptStudy](https://github.com/csxiaoyaojianxian/JavaScriptStudy)
 * [https://github.com/30-seconds](https://github.com/30-seconds)
 * 前端面试手册 [https://github.com/yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook)
+* [https://github.com/loverajoel/jstips](https://github.com/loverajoel/jstips)
+* 1212/1024 [https://www.javascriptcn.com](https://www.javascriptcn.com)
+* [https://github.com/superherojs/superherojs](https://github.com/superherojs/superherojs)
+
 
 - [ES6、ES7、ES8特性一锅炖(ES6、ES7、ES8学习指南)](https://juejin.cn/post/6844903679976275976)
 - [ES6、ES7、ES8、ES9、ES10新特性一览](https://juejin.cn/post/6844903811622912014)
@@ -173,6 +182,7 @@ var express = require('express');
 + [https://github.com/component](https://github.com/component)
 + [https://github.com/mobxjs](https://github.com/mobxjs)
 + [https://github.com/CreateJS](https://github.com/CreateJS)
++ [https://github.com/kangax](https://github.com/kangax)
 
 
 - 转换编译器 [https://github.com/babel](https://github.com/babel)
@@ -297,6 +307,7 @@ var express = require('express');
 * [https://github.com/30-seconds/30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)
 * 工具库 [https://github.com/tnfe/bbo](https://github.com/tnfe/bbo)
 * 代码格式化 [https://github.com/prettier/prettier](https://github.com/prettier/prettier)
+* [https://github.com/beautify-web/js-beautify](https://github.com/beautify-web/js-beautify)
 * 转换HTML/XML [https://github.com/posthtml/posthtml](https://github.com/posthtml/posthtml)
 * 幻灯片 [https://github.com/webslides/webslides](https://github.com/webslides/webslides)
 * [https://github.com/gnab/remark](https://github.com/gnab/remark)
@@ -307,6 +318,10 @@ var express = require('express');
 - [https://github.com/topics/bigdecimal](https://github.com/topics/bigdecimal)
 - [https://github.com/josdejong/mathjs](https://github.com/josdejong/mathjs)
 - [https://github.com/MikeMcl](https://github.com/MikeMcl)
+- [https://github.com/BenjaminVanRyseghem/numbro](https://github.com/BenjaminVanRyseghem/numbro)
+- [https://github.com/gastonmesseri/numerable](https://github.com/gastonmesseri/numerable)
+- [https://github.com/adamwdraper/Numeral-js](https://github.com/adamwdraper/Numeral-js)
+- [https://github.com/entronad/number-display](https://github.com/entronad/number-display)
 
 
 **日期时间**
@@ -468,6 +483,7 @@ var express = require('express');
 * [https://github.com/juliangarnier/anime](https://github.com/juliangarnier/anime)
 * 3D库 [https://github.com/mrdoob/three.js](https://github.com/mrdoob/three.js)
 * 2D渲染器 [https://github.com/pixijs/pixijs](https://github.com/pixijs/pixijs)
+* [https://github.com/erincatto/box2d](https://github.com/erincatto/box2d)
 * 用于缩放图像 [https://github.com/francoischalifour/medium-zoom](https://github.com/francoischalifour/medium-zoom)
 * [https://github.com/pa7/heatmap.js](https://github.com/pa7/heatmap.js)
 * [https://github.com/konvajs/konva](https://github.com/konvajs/konva)
@@ -565,7 +581,6 @@ var express = require('express');
 * cssnano [https://www.cssnano.cn](https://www.cssnano.cn)
 * PostCSS [https://www.postcss.com.cn](https://www.postcss.com.cn)
 * Jest [https://www.jestjs.cn](https://www.jestjs.cn)
-* WebAssembly [https://www.wasm.com.cn](https://www.wasm.com.cn)
 * Deno [https://www.denojs.cn](https://www.denojs.cn)
 
 

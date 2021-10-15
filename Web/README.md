@@ -15,6 +15,7 @@
 
 * [https://github.com/microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
 * 开发人员设计资源 [https://github.com/bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers)
+* Web开源项目 [https://github.com/bestofjs/bestofjs-webui](https://github.com/bestofjs/bestofjs-webui)
 * [https://github.com/jobbole/awesome-design-cn](https://github.com/jobbole/awesome-design-cn)
 * [https://github.com/junruchen/junruchen.github.io/wiki](https://github.com/junruchen/junruchen.github.io/wiki)
 * [https://github.com/mathjax](https://github.com/mathjax)
@@ -89,6 +90,7 @@
 - [https://github.com/star7th/showdoc](https://github.com/star7th/showdoc)
 - [https://github.com/doxygen/doxygen](https://github.com/doxygen/doxygen)
 - [https://github.com/apidoc/apidoc](https://github.com/apidoc/apidoc)
+- [https://github.com/jsdoc](https://github.com/jsdoc)
 - [https://github.com/asciidoctor](https://github.com/asciidoctor)
 - [https://github.com/thx/rap2-delos](https://github.com/thx/rap2-delos)
 - [https://github.com/YMFE/yapi](https://github.com/YMFE/yapi)

@@ -8,6 +8,8 @@
 
 ## Flag
 
+> 规定网页的布局
+
 * [https://drafts.csswg.org/css-cascade](https://drafts.csswg.org/css-cascade)
 * [https://developer.mozilla.org/zh-CN/docs/Web/CSS](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
 * CSS3/CSS2/CSS 教程 [http://www.w3chtml.com/css3](http://www.w3chtml.com/css3)

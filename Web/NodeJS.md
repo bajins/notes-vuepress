@@ -59,6 +59,7 @@
 * CMS [https://github.com/strapi/strapi](https://github.com/strapi/strapi)
 * ORM [https://github.com/prisma/prisma](https://github.com/prisma/prisma)
 * 解析器、压缩器、压缩器和美化 [https://github.com/mishoo/UglifyJS](https://github.com/mishoo/UglifyJS)
+* SQL查询 [https://github.com/knex/knex](https://github.com/knex/knex)
 
 
 

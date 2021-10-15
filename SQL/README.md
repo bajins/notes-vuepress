@@ -23,7 +23,7 @@
 - 同步 [https://github.com/alibaba/DataX](https://github.com/alibaba/DataX)
 - 日志解析订阅和消费 [https://github.com/alibaba/canal](https://github.com/alibaba/canal)
 - [https://github.com/ucarGroup/DataLink](https://github.com/ucarGroup/DataLink)
-- [https://github.com/flyway/flyway](https://github.com/flyway/flyway)
+- 数据库迁移 [https://github.com/flyway/flyway](https://github.com/flyway/flyway)
 - Go编写的数据库迁移 [https://github.com/golang-migrate/migrate](https://github.com/golang-migrate/migrate)
 - PostgreSQL迁移 [https://github.com/jackc/tern](https://github.com/jackc/tern)
 - [https://github.com/DTStack/flinkx](https://github.com/DTStack/flinkx)

@@ -285,7 +285,8 @@ $.is(":checked");
 * [https://github.com/maxazan/jquery-treegrid](https://github.com/maxazan/jquery-treegrid)
 * 日期和时间选择器 [https://github.com/xdan/datetimepicker](https://github.com/xdan/datetimepicker)
 * UI [https://github.com/IgniteUI/ignite-ui](https://github.com/IgniteUI/ignite-ui)
-
+* [https://github.com/madrobby/zepto](https://github.com/madrobby/zepto)
+* [https://github.com/ded/script.js](https://github.com/ded/script.js)
 
 
 
