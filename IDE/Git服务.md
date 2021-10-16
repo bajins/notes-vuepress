@@ -185,13 +185,14 @@ volumes:
 
 + [Jupyter Notebook](/Python/Python.md#jupyter-notebook)
 
-> 可以使用`git config --global url."https://github.com".insteadOf https://hub.fastgit.org`来替换url
+> 可以使用`git config --global url."github.com".insteadOf hub.fastgit.org`来替换url
 
 * php源码 [https://github.com/ilanyu/offline-download](https://github.com/ilanyu/offline-download)
 * go源码 [https://github.com/ilanyu/offLineDownloader](https://github.com/ilanyu/offLineDownloader)
 * [http://git.aakkc.com](http://git.aakkc.com)
 * [https://github.com/churuxu/xdownload](https://github.com/churuxu/xdownload)
 * GitHub下载加速 [https://noshore.cn/github.html](https://noshore.cn/github.html)
+* [https://d.serctl.com](https://d.serctl.com)
 * [https://github.com/fhefh2015/Fast-GitHub](https://github.com/fhefh2015/Fast-GitHub)
 * [http://g.widyun.com](http://g.widyun.com)
 * [https://myssl.com/dns_check.html](https://myssl.com/dns_check.html)

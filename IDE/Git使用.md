@@ -70,37 +70,18 @@ git config --global credential.helper store
 - 使用命令设置
 
 ```bash
+# --global全局（会在.gitconfig文件中添加相关配置，所以可手动编辑文件），去掉或者使用--local为当前仓库（局部）
+# 使用 --unset 参数可取消设置
 # socks5代理，如果是http则把socks5替换为http，https同理
 git config --global http.proxy 'socks5://127.0.0.1:10808'
 git config --global https.proxy 'socks5://127.0.0.1:10808'
+# 只针对某个域名代理
+git config --global https."github.com".proxy "socks5://127.0.0.1:10808"
+# 最优方式，--add参数会添加多个
+git config remote.origin.proxy "socks5://127.0.0.1:10808"
+# 替换为镜像URL
+git config --global url."github.com".insteadOf "hub.fastgit.org"
 ```
-
-- 编辑配置文件设置
-
-```bash
-vi ~/.gitconfig
-```
-
-> 在文件末尾添加
-
-```ini
-[http]
-proxy = socks5://127.0.0.1:10808
-
-[https]
-proxy = socks5://127.0.0.1:10808
-```
-
-**取消代理**
-
-- 命令
-
-```bash
-git config --global --unset http.proxy
-git config --global --unset https.proxy
-```
-
-- 编辑配置文件取消代理，直接删除文件即可
 
 
 
