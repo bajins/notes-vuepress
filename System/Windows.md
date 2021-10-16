@@ -319,10 +319,11 @@ slmgr /ato
 20. <kdb>Win</kdb>+<kdb>X</kdb> 呼出简易开始菜单
 21. <kdb>Win</kdb>+<kdb>Z</kdb> 打开窗口布局
 22. <kdb>Win</kdb>+<kdb>空格</kdb> 切换输入法
-23. <kdb>Win</kdb>+ <kdb>→</kdb>/<kdb>↑</kdb>/<kdb>←</kdb>/<kdb>↓</kdb> 窗口排版
+23. <kdb>Win</kdb>+<kdb>→</kdb>/<kdb>↑</kdb>/<kdb>←</kdb>/<kdb>↓</kdb> 窗口排版
 24. <kdb>Win</kdb>+<kdb>TAB</kdb> 虚拟桌面切换
 25. <kdb>Win</kdb>+<kdb>Ctrl</kdb>+<kdb>D</kdb> 新建虚拟桌面
 26. <kdb>Win</kdb>+<kdb>Prtscn</kdb> 一键截屏
 27. <kdb>Win</kdb>+<kdb>Shift</kdb>+<kdb>S</kdb> 专业屏幕
 28. <kdb>Win</kdb>+<kdb>Home</kdb> 最小化非活动窗口
 29. <kdb>Win</kdb>+<kdb>1~9</kdb> 切换任务栏左起第1~9个程序
+30. <kdb>Alt</kdb>+<kdb>Shift</kdb>+<kdb>←</kdb>/<kdb>→</kdb> 虚拟桌面窗口移动
