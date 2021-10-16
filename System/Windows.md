@@ -294,3 +294,35 @@ slmgr /ipk 激活密钥
 slmgr /skms zh.us.to
 slmgr /ato
 ```
+
+## 快捷键
+
+1. <kdb>Win</kdb>+<kdb>A</kdb> 打开快速设置面板
+2. <kdb>Win</kdb>+<kdb>B</kdb> 快速跳转系统托盘
+3. <kdb>Win</kdb>+<kdb>C</kdb> 打开 Microsoft Teams
+4. <kdb>Win</kdb>+<kdb>D</kdb> 快速显示桌面
+5. <kdb>Win</kdb>+<kdb>E</kdb> 打开资源管理器
+6. <kdb>Win</kdb>+<kdb>F</kdb> 一键提交反馈
+7. <kdb>Win</kdb>+<kdb>G</kdb> 启动 Xbox Game Bar
+8. <kdb>Win</kdb>+<kdb>H</kdb> 语音听写
+9. <kdb>Win</kdb>+<kdb>I</kdb> 打开设置
+10. <kdb>Win</kdb>+<kdb>K</kdb> 投屏到其他设备
+11. <kdb>Win</kdb>+<kdb>L</kdb> 锁屏
+12. <kdb>Win</kdb>+<kdb>M</kdb> 窗口最小化
+13. <kdb>Win</kdb>+<kdb>N</kdb> 打开通知面板/月历面板
+14. <kdb>Win</kdb>+<kdb>P</kdb> 修改投影模式
+15. <kdb>Win</kdb>+<kdb>Q</kdb>/<kdb>Win</kdb>+<kdb>S</kdb> 一键搜索
+16. <kdb>Win</kdb>+<kdb>R</kdb> 运行
+17. <kdb>Win</kdb>+<kdb>T</kdb> 查看已打开程序缩略图
+18. <kdb>Win</kdb>+<kdb>V</kdb> 打开云剪贴板
+19. <kdb>Win</kdb>+<kdb>W</kdb> 呼出资讯与兴趣栏
+20. <kdb>Win</kdb>+<kdb>X</kdb> 呼出简易开始菜单
+21. <kdb>Win</kdb>+<kdb>Z</kdb> 打开窗口布局
+22. <kdb>Win</kdb>+<kdb>空格</kdb> 切换输入法
+23. <kdb>Win</kdb>+ <kdb>→</kdb>/<kdb>↑</kdb>/<kdb>←</kdb>/<kdb>↓</kdb> 窗口排版
+24. <kdb>Win</kdb>+<kdb>TAB</kdb> 虚拟桌面切换
+25. <kdb>Win</kdb>+<kdb>Ctrl</kdb>+<kdb>D</kdb> 新建虚拟桌面
+26. <kdb>Win</kdb>+<kdb>Prtscn</kdb> 一键截屏
+27. <kdb>Win</kdb>+<kdb>Shift</kdb>+<kdb>S</kdb> 专业屏幕
+28. <kdb>Win</kdb>+<kdb>Home</kdb> 最小化非活动窗口
+29. <kdb>Win</kdb>+<kdb>1~9</kdb> 切换任务栏左起第1~9个程序
