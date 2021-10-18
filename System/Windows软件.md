@@ -596,7 +596,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 **StartIsBack++**
 
-1. [https://www.lanzoui.com/b279570](https://www.lanzoui.com/b279570)
+* [https://www.startisback.com](https://www.startisback.com)
+* [https://www.lanzoui.com/b279570](https://www.lanzoui.com/b279570)
 
 
 ## 清理工具
