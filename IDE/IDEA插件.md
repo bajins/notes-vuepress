@@ -12,7 +12,12 @@
     - [http://jrebel.cicoding.cn](http://jrebel.cicoding.cn)
     - [http://jrebel.cicoding.cn/guid](http://jrebel.cicoding.cn/guid)
 - Eclipse代码格式化风格 [https://github.com/krasa/EclipseCodeFormatter](https://github.com/krasa/EclipseCodeFormatter)
+- 主题 [http://soft-hub.cn](http://soft-hub.cn)
 
+* [https://repo.idechajian.com](https://repo.idechajian.com)
+* [https://plugins.zhile.io](https://plugins.zhile.io)
+
+> `计算机\HKEY_CURRENT_USER\SOFTWARE\JavaSoft\Prefs`
 
 
 ## Free Mybatis plugin
@@ -37,6 +42,8 @@
 * [MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
 * [https://zhile.io/categories/software-debug](https://zhile.io/categories/software-debug)
     * [Jetbrains系列产品重置试用方法](https://zhile.io/2020/11/18/jetbrains-eval-reset-da33a93d.html)
+    * [https://gitee.com/pengzhile/ide-eval-resetter](https://gitee.com/pengzhile/ide-eval-resetter)
+    * [https://jetbra.in/s](https://jetbra.in/s)
 
 ![](https://upload-images.jianshu.io/upload_images/11962894-7690faea398dd0c6.gif)
 

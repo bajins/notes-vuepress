@@ -260,7 +260,7 @@
 + [maven远程部署war包到tomcat8服务器](https://blog.csdn.net/qq_23994787/article/details/106161124)
 + [如何利用maven插件部署项目到远程运行环境](https://blog.csdn.net/lushuifa/article/details/106163624)
 + [使用site-maven-plugin在github上搭建公有仓库](http://www.flydean.com/apache-maven-git-repository)
-
++ [Maven中央仓库项目上传指南](https://mikuac.com/archives/942)
 
 
 

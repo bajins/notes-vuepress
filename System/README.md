@@ -26,6 +26,7 @@
 - [https://github.com/ansible/ansible](https://github.com/ansible/ansible)
 - [https://www.gnome.org](https://www.gnome.org)
 - 加密覆盖文件系统 [https://github.com/rfjakob/gocryptfs](https://github.com/rfjakob/gocryptfs)
+- 天气卫星 [https://github.com/sam210723/xrit-rx](https://github.com/sam210723/xrit-rx)
 
 * [有人说超威半导体（AMD）没有512位高级矢量扩展指令集（AVX512），属于残废，是真的吗？](https://www.zhihu.com/question/367281009)
 * [如何看待Linus Torvalds对AVX512的评价？](https://www.zhihu.com/question/406517759)
@@ -132,6 +133,7 @@
 * [https://github.com/wolfpld/tracy](https://github.com/wolfpld/tracy)
 * [https://github.com/geerlingguy/internet-pi](https://github.com/geerlingguy/internet-pi)
 * [https://github.com/SigNoz/signoz](https://github.com/SigNoz/signoz)
+* [https://github.com/prometheus/snmp_exporter](https://github.com/prometheus/snmp_exporter)
 
 
 - [https://github.com/bigbully/Dapper-translation](https://github.com/bigbully/Dapper-translation)
