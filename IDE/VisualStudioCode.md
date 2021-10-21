@@ -269,6 +269,7 @@
 * [https://github.com/vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons)
 * 比较 [https://github.com/moshfeu/vscode-compare-folders](https://github.com/moshfeu/vscode-compare-folders)
 * [https://github.com/Axosoft/vscode-gitlens](https://github.com/Axosoft/vscode-gitlens)
+* 协作 [https://github.com/MicrosoftDocs/live-share](https://github.com/MicrosoftDocs/live-share)
 
 - [https://github.com/Serpen/VBS-VSCode](https://github.com/Serpen/VBS-VSCode)
 - [https://github.com/karb0f0s/vscode-vbscript](https://github.com/karb0f0s/vscode-vbscript)

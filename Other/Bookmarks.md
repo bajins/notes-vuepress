@@ -80,7 +80,6 @@
     * [https://openjsf.org/projects](https://openjsf.org/projects)
 * [https://sfconservancy.org/projects/current](https://sfconservancy.org/projects/current)
 * [https://github.com/openeuler-mirror](https://github.com/openeuler-mirror)
-* [https://github.com/terracotta-oss](https://github.com/terracotta-oss)
 * [https://lfaidata.foundation/projects](https://lfaidata.foundation/projects)
 * [https://github.com/girlscript/winter-of-contributing](https://github.com/girlscript/winter-of-contributing)
 
