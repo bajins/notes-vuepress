@@ -359,13 +359,7 @@
 * [https://github.com/eclipse/eclipse-collections](https://github.com/eclipse/eclipse-collections)
 * [https://github.com/topics/comparator](https://github.com/topics/comparator)
 * 比较文本差异 [https://github.com/java-diff-utils/java-diff-utils](https://github.com/java-diff-utils/java-diff-utils)
-* 打印协议实现 [https://github.com/HPInc/jipp](https://github.com/HPInc/jipp)
-* [https://github.com/freemansoft/jacob-project](https://github.com/freemansoft/jacob-project)
-* [https://sourceforge.net/projects/jacob-project](https://sourceforge.net/projects/jacob-project)
-* [https://github.com/anastaciocintra/escpos-coffee](https://github.com/anastaciocintra/escpos-coffee)
-* [https://github.com/SubLuLu/thermal_printer](https://github.com/SubLuLu/thermal_printer)
-* [https://github.com/givengao/xsg-aggregation-printer-cloud](https://github.com/givengao/xsg-aggregation-printer-cloud)
-* [https://github.com/gixxi/lambdaroyal-ws-printing-server](https://github.com/gixxi/lambdaroyal-ws-printing-server)
+
 
 
 
@@ -697,7 +691,7 @@
 - 无边框窗口 [https://github.com/micheljung/fxstage](https://github.com/micheljung/fxstage)
 - [https://github.com/micheljung/jfx-waitomo-theme](https://github.com/micheljung/jfx-waitomo-theme)
 - 对话框 [https://github.com/dustinkredmond/FXAlert](https://github.com/dustinkredmond/FXAlert)
-*  数据框可视化 [https://github.com/PatMartin/Dex](https://github.com/PatMartin/Dex)
+- 数据框可视化 [https://github.com/PatMartin/Dex](https://github.com/PatMartin/Dex)
 
 
 * Maven打包 [https://github.com/javafx-maven-plugin](https://github.com/javafx-maven-plugin)
@@ -721,8 +715,6 @@
 * [https://github.com/proxyee-down-org/proxyee-down](https://github.com/proxyee-down-org/proxyee-down)
 * 基于javafx8代码生成器 [https://github.com/EliMirren](https://github.com/EliMirren)
 * [https://github.com/fuzhengwei/NaiveChat](https://github.com/fuzhengwei/NaiveChat)
-* 连接打印机 [https://gitee.com/qnloft/thb_client](https://gitee.com/qnloft/thb_client)
-* [https://github.com/Zhao2018Mr/webPrint](https://github.com/Zhao2018Mr/webPrint)
 * 词汇猎人 [https://github.com/VocabHunter/VocabHunter](https://github.com/VocabHunter/VocabHunter)
 * 播放器 [https://github.com/goxr3plus/XR3Player](https://github.com/goxr3plus/XR3Player)
 * 音视频转换 [https://github.com/goxr3plus/XR3Converter](https://github.com/goxr3plus/XR3Converter)
