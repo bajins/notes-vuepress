@@ -381,6 +381,7 @@ request({
     * [PhantomJS -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/tool/phantomjs.html)
 * [https://github.com/cyrus-and/chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface)
 * [https://github.com/TracerBench/chrome-debugging-client](https://github.com/TracerBench/chrome-debugging-client)
+* [https://github.com/laurentj/slimerjs](https://github.com/laurentj/slimerjs)
 
 - [https://github.com/inu1255/soulsign-chrome](https://github.com/inu1255/soulsign-chrome)
 

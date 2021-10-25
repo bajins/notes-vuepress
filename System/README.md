@@ -10,16 +10,6 @@
     + [https://www.openbsd.org](https://www.openbsd.org)
 
 * [speedtest](https://github.com/adolfintel/speedtest)
-* ssl免费的证书 [https://letsencrypt.org](https://letsencrypt.org)
-    * [https://github.com/zenhack/simp_le](https://github.com/zenhack/simp_le)
-    * [https://github.com/acmesh-official](https://github.com/acmesh-official)
-        * [HTTPS之acme.sh申请证书](https://www.cnblogs.com/tu240302975/p/13370867.html)
-    * [https://github.com/win-acme](https://github.com/win-acme)
-    * [https://github.com/certbot](https://github.com/certbot)
-        * [https://certbot.eff.org](https://certbot.eff.org)
-        * [获取证书（并选择插件）-官方文档](https://certbot.eff.org/docs/using.html#getting-certificates-and-choosing-plugins)
-    * [临时处理OCSP域名无法访问的问题](https://holmesian.org/letsencrypt-ocsp-fix)
-    * [「Certbot」- ocsp.int-x3.letsencrypt.org Read timed out](http://blog.k4nz.com/%E3%80%8Ccertbot%E3%80%8D-ocsp-int-x3-letsencrypt-org-read-timed-out)
 * Linux中国 翻译组 [https://github.com/LCTT](https://github.com/LCTT)
 
 
@@ -30,6 +20,23 @@
 
 * [有人说超威半导体（AMD）没有512位高级矢量扩展指令集（AVX512），属于残废，是真的吗？](https://www.zhihu.com/question/367281009)
 * [如何看待Linus Torvalds对AVX512的评价？](https://www.zhihu.com/question/406517759)
+
+
+**SSL证书**
+
+* [https://github.com/zerossl](https://github.com/zerossl)
+* [https://letsencrypt.org](https://letsencrypt.org)
+* [https://github.com/zenhack/simp_le](https://github.com/zenhack/simp_le)
+* [https://github.com/acmesh-official](https://github.com/acmesh-official)
+    * [HTTPS之acme.sh申请证书](https://www.cnblogs.com/tu240302975/p/13370867.html)
+* [https://github.com/win-acme](https://github.com/win-acme)
+* [https://github.com/certbot](https://github.com/certbot)
+    * [https://certbot.eff.org](https://certbot.eff.org)
+    * [获取证书（并选择插件）-官方文档](https://certbot.eff.org/docs/using.html#getting-certificates-and-choosing-plugins)
+* [临时处理OCSP域名无法访问的问题](https://holmesian.org/letsencrypt-ocsp-fix)
+* [「Certbot」- ocsp.int-x3.letsencrypt.org Read timed out](http://blog.k4nz.com/%E3%80%8Ccertbot%E3%80%8D-ocsp-int-x3-letsencrypt-org-read-timed-out)
+
+
 
 
 ## USB启动盘
@@ -320,9 +327,6 @@
 
 - 命令行 [https://github.com/sintaxi/surge](https://github.com/sintaxi/surge)
   - [https://surge.sh](https://surge.sh)
-- 命令行 [https://github.com/firebase/firebase-tools](https://github.com/firebase/firebase-tools)
-    - [https://console.firebase.google.com](https://console.firebase.google.com)
-- [https://github.com/supabase/supabase](https://github.com/supabase/supabase)
 
 
 

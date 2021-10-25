@@ -17,7 +17,10 @@
 
 - [https://github.com/material-components](https://github.com/material-components)
   - [https://md.maxoxo.design](https://md.maxoxo.design)
-
+- [https://github.com/googlecodelabs](https://github.com/googlecodelabs)
+- 命令行 [https://github.com/firebase/firebase-tools](https://github.com/firebase/firebase-tools)
+    - [https://console.firebase.google.com](https://console.firebase.google.com)
+- [https://github.com/supabase/supabase](https://github.com/supabase/supabase)
 
 
 
@@ -32,30 +35,46 @@
 
 
 
-**Flutter**
 
-- [https://github.com/AweiLoveAndroid/Flutter-learning](https://github.com/AweiLoveAndroid/Flutter-learning)
+## Flutter
 
-* [https://github.com/googlecodelabs](https://github.com/googlecodelabs)
-* [https://github.com/flutter](https://github.com/flutter)
-    * [https://flutter.cn](https://flutter.cn)
-    * [https://github.com/flutterchina/flutter-in-action](https://github.com/flutterchina/flutter-in-action)
-        * [https://flutterchina.club](https://flutterchina.club)
-    * [https://codelabs.flutter-io.cn](https://codelabs.flutter-io.cn)
-    * PUB_HOSTED_URL [https://pub.flutter-io.cn](https://pub.flutter-io.cn)
-    * FLUTTER_STORAGE_BASE_URL [https://storage.flutter-io.cn](https://storage.flutter-io.cn)
++ [https://github.com/flutter](https://github.com/flutter)
+    + [https://flutter.cn](https://flutter.cn)
+    + [https://github.com/flutterchina/flutter-in-action](https://github.com/flutterchina/flutter-in-action)
+        + [https://flutterchina.club](https://flutterchina.club)
+    + [https://codelabs.flutter-io.cn](https://codelabs.flutter-io.cn)
+    + PUB_HOSTED_URL [https://pub.flutter-io.cn](https://pub.flutter-io.cn)
+    + FLUTTER_STORAGE_BASE_URL [https://storage.flutter-io.cn](https://storage.flutter-io.cn)
++ [https://github.com/AweiLoveAndroid/Flutter-learning](https://github.com/AweiLoveAndroid/Flutter-learning)
 
-+ [https://dartpad.dartlang.org](https://dartpad.dartlang.org)
-+ [https://dart.cn/tools/dart2native](https://dart.cn/tools/dart2native)
-+ [https://dartpad.cn](https://dartpad.cn)
-+ [https://github.com/shichunlei/flutter_app](https://github.com/shichunlei/flutter_app)
-+ [https://github.com/qq326646683/flutter_tencentplayer](https://github.com/qq326646683/flutter_tencentplayer)
-+ [https://github.com/rhymelph/r_upgrade](https://github.com/rhymelph/r_upgrade)
-+ web框架 [https://github.com/angulardart/angular](https://github.com/angulardart/angular)
+> Bloc、Hook、less/ful、GetX，不同的状态管理方案
+
+* [https://github.com/mitesh77/Best-Flutter-UI-Templates](https://github.com/mitesh77/Best-Flutter-UI-Templates)
+* 动态化框架 [https://github.com/wuba/fair](https://github.com/wuba/fair)
+* [https://github.com/ddikman/flutter-rerunnable-future-builder](https://github.com/ddikman/flutter-rerunnable-future-builder)
+* web前端 [https://github.com/openkraken/kraken](https://github.com/openkraken/kraken)
+* [https://github.com/lvivski/start](https://github.com/lvivski/start)
+* UI [https://github.com/Rannie/flui](https://github.com/Rannie/flui)
+* Dev Tools [https://github.com/irdevp/flutter_stetho](https://github.com/irdevp/flutter_stetho)
+* [https://github.com/shichunlei/flutter_app](https://github.com/shichunlei/flutter_app)
+* [https://github.com/qq326646683/flutter_tencentplayer](https://github.com/qq326646683/flutter_tencentplayer)
+* 升级/下载插件 [https://github.com/rhymelph/r_upgrade](https://github.com/rhymelph/r_upgrade)
 
 - 干货 [https://github.com/fujianlian/GankFlutter](https://github.com/fujianlian/GankFlutter)
 - [https://github.com/xmcy0011/CoffeeChat](https://github.com/xmcy0011/CoffeeChat)
 - [https://github.com/Sangwan5688/BlackHole](https://github.com/Sangwan5688/BlackHole)
+- 翻译 [https://github.com/biyidev/biyi_app](https://github.com/biyidev/biyi_app)
+
+
+**Dart**
+
++ [https://dartpad.dartlang.org](https://dartpad.dartlang.org)
++ [https://dart.cn/tools/dart2native](https://dart.cn/tools/dart2native)
++ [https://dartpad.cn](https://dartpad.cn)
+
+
+* web框架 [https://github.com/angulardart/angular](https://github.com/angulardart/angular)
+* 多窗口 [https://gitlab.com/wolfenrain/multi_window](https://gitlab.com/wolfenrain/multi_window)
 
 
 
@@ -100,6 +119,7 @@
 
 
 
+* [https://github.com/getActivity](https://github.com/getActivity)
 * [https://github.com/afkT/DevUtils](https://github.com/afkT/DevUtils)
 * [https://github.com/DyncKathline](https://github.com/DyncKathline)
 * [https://github.com/wave-chtj/BaseIotUtils](https://github.com/wave-chtj/BaseIotUtils)
@@ -131,6 +151,10 @@
 * 播放器 [https://github.com/Bilibili/ijkplayer](https://github.com/Bilibili/ijkplayer)
 * [https://github.com/CarGuo/GSYVideoPlayer](https://github.com/CarGuo/GSYVideoPlayer)
 * 内存泄漏检测 [https://github.com/square/leakcanary](https://github.com/square/leakcanary)
+* GPS [https://gitlab.com/gpsd/gpsd](https://gitlab.com/gpsd/gpsd)
+* [https://sourceforge.net/projects/viking](https://sourceforge.net/projects/viking)
+* [https://github.com/navit-gps/navit](https://github.com/navit-gps/navit)
+* [https://gitlab.freedesktop.org/geoclue/geoclue](https://gitlab.freedesktop.org/geoclue/geoclue)
 
 
 
@@ -403,8 +427,8 @@
 * 文件闪传 [https://github.com/skyhacker2/skyhacker2.github.com/blob/master/blog/p/projects/index.md](https://github.com/skyhacker2/skyhacker2.github.com/blob/master/blog/p/projects/index.md)
 * K-9邮件 [https://github.com/k9mail](https://github.com/k9mail)
 * 沙盒塔防游戏 [https://github.com/Anuken/Mindustry](https://github.com/Anuken/Mindustry)
-
-
+* 1DM/IDM [https://www.apps2sd.info/idmp/faq](https://www.apps2sd.info/idmp/faq)
+* FDM [https://www.freedownloadmanager.org/zh/download-fdm-for-android.htm](https://www.freedownloadmanager.org/zh/download-fdm-for-android.htm)
 
 
 

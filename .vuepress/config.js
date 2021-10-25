@@ -119,7 +119,7 @@ module.exports = {
             opts: [
                 {
                     icon: '',
-                    name: '支付宝红包',
+                    name: '支付宝',
                     link: '',
                     popover: {
                         title: '扫码领取支付宝红包',
@@ -130,10 +130,10 @@ module.exports = {
                 },
                 {
                     icon: '',
-                    name: '饿了么红包',
+                    name: '饿了么',
                     link: '',
                     popover: {
-                        title: '扫码领取饿了么红包',
+                        title: '用APP扫码最高翻3倍',
                         type: 'image',
                         // imageUrl: 'https://i.imgur.com/n2fpw74.jpg',
                         imageUrl: 'https://static01.imgkr.com/temp/472bc8289879436a9001716482a844fe.jpg',

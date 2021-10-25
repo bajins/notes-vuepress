@@ -23,6 +23,8 @@
 - 开发环境 [https://github.com/JohnStarich/go-wasm](https://github.com/JohnStarich/go-wasm)
 - 分布式跟踪后端 [https://github.com/grafana/tempo](https://github.com/grafana/tempo)
 - 监视和配置网络设备的工具 [https://github.com/inexio/thola](https://github.com/inexio/thola)
+- [https://github.com/dominikh/go-tools](https://github.com/dominikh/go-tools)
+- json生成go数据结构 [https://github.com/misakafs/json-to-go](https://github.com/misakafs/json-to-go)
 
 
 * [【Golang】实现文件服务器断点续传](https://rehtt.com/index.php/archives/220)
@@ -156,6 +158,9 @@
 * [https://github.com/beanstalkd/go-beanstalk](https://github.com/beanstalkd/go-beanstalk)
 * [https://github.com/tal-tech/go-queue](https://github.com/tal-tech/go-queue)
 * [https://github.com/go-xorm](https://github.com/go-xorm)
+* [https://github.com/zhihu/norm](https://github.com/zhihu/norm)
+* [https://gitea.com/xorm/xorm](https://gitea.com/xorm/xorm)
+    * [https://xorm.io](https://xorm.io)
 * [https://github.com/libragen/felix](https://github.com/libragen/felix)
 * [https://github.com/eventials/go-tus](https://github.com/eventials/go-tus)
 * 缓存 [https://github.com/patrickmn/go-cache](https://github.com/patrickmn/go-cache)
@@ -178,7 +183,6 @@
 * [https://github.com/owenliang/go-push](https://github.com/owenliang/go-push)
 * [https://github.com/rs/zerolog](https://github.com/rs/zerolog)
 * [https://github.com/uber-go/zap](https://github.com/uber-go/zap)
-* [https://xorm.io](https://xorm.io)
 * HTTP实现 [https://github.com/valyala/fasthttp](https://github.com/valyala/fasthttp)
 * [https://github.com/parnurzeal/gorequest](https://github.com/parnurzeal/gorequest)
 * [https://github.com/go-session](https://github.com/go-session)
@@ -234,6 +238,7 @@
 * Markdown处理 [https://github.com/russross/blackfriday](https://github.com/russross/blackfriday)
 * markdown转roff [https://github.com/cpuguy83/go-md2man](https://github.com/cpuguy83/go-md2man)
 * 队列任务 [https://github.com/gocraft/work](https://github.com/gocraft/work)
+* 媒体类型 [http://github.com/gabriel-vasile/mimetype](http://github.com/gabriel-vasile/mimetype)
 
 
 
