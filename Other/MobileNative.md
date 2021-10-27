@@ -247,6 +247,7 @@
 * [https://github.com/turing-technician/FastHook](https://github.com/turing-technician/FastHook)
 * [https://github.com/LSPosed/LSPosed](https://github.com/LSPosed/LSPosed)
     * [https://github.com/Xposed-Modules-Repo](https://github.com/Xposed-Modules-Repo)
+    * [https://github.com/ADeltaX/WSAGAScript](https://github.com/ADeltaX/WSAGAScript)
 * EdXp
 * LSP （LSPosed Manager框架）
 * Riru 框架（SandHook、YAHFA）

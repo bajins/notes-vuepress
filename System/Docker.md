@@ -36,6 +36,7 @@
 - [https://github.com/dragonflyoss/Dragonfly](https://github.com/dragonflyoss/Dragonfly)
 - [https://github.com/Alluxio/alluxio](https://github.com/Alluxio/alluxio)
 - [https://github.com/weaveworks/weave](https://github.com/weaveworks/weave)
+- [https://github.com/jessfraz/dockerfiles](https://github.com/jessfraz/dockerfiles)
 
 
 **Docker搭建私有仓库**

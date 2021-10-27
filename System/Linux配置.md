@@ -16,6 +16,7 @@
 * [https://github.com/wine-mirror/wine](https://github.com/wine-mirror/wine)
 * [https://github.com/ValveSoftware](https://github.com/ValveSoftware)
 * [https://kde.org/zh-cn/plasma-desktop](https://kde.org/zh-cn/plasma-desktop)
+* Arch Linux 安装 [https://github.com/ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus)
 
 - [https://github.com/littlekernel/lk](https://github.com/littlekernel/lk)
     - [Little Kernel 代码走读（一） – 易也技术](http://yiiyee.cn/blog/2019/08/28/lk1)

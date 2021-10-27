@@ -754,10 +754,17 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 **文件对比**
 
 * [https://github.com/winmerge/winmerge](https://github.com/winmerge/winmerge)
-* [https://www.scootersoftware.com](https://www.scootersoftware.com)
+    * [https://sourceforge.net/projects/winmerge](https://sourceforge.net/projects/winmerge)
+* [https://gitlab.gnome.org/GNOME/meld](https://gitlab.gnome.org/GNOME/meld)
+    * [https://meldmerge.org](https://meldmerge.org)
+* [https://sourceforge.net/projects/diffuse](https://sourceforge.net/projects/diffuse)
+* [https://www.sourcegear.com/diffmerge](https://www.sourcegear.com/diffmerge)
+* Beyond Compare [https://www.scootersoftware.com](https://www.scootersoftware.com)
 * [https://www.ultraedit.com/products/ultracompare](https://www.ultraedit.com/products/ultracompare)
 * [https://www.devart.com/codecompare](https://www.devart.com/codecompare)
 * [https://www.beyondcomparepro.com](https://www.beyondcomparepro.com)
+* [https://www.deltawalker.com](https://www.deltawalker.com)
+* Araxis Merge [https://www.araxis.com/merge](https://www.araxis.com/merge)
 
 
 **磁盘空间分析器**

@@ -485,6 +485,7 @@ var express = require('express');
 * 3D库 [https://github.com/mrdoob/three.js](https://github.com/mrdoob/three.js)
 * 2D渲染器 [https://github.com/pixijs/pixijs](https://github.com/pixijs/pixijs)
 * [https://github.com/erincatto/box2d](https://github.com/erincatto/box2d)
+* [https://github.com/KilledByAPixel/LittleJS](https://github.com/KilledByAPixel/LittleJS)
 * 用于缩放图像 [https://github.com/francoischalifour/medium-zoom](https://github.com/francoischalifour/medium-zoom)
 * [https://github.com/pa7/heatmap.js](https://github.com/pa7/heatmap.js)
 * [https://github.com/konvajs/konva](https://github.com/konvajs/konva)

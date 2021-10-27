@@ -21,6 +21,7 @@
 + [https://github.com/eclipse-ee4j](https://github.com/eclipse-ee4j)
     + [https://projects.eclipse.org/jakartaee/releases/8](https://projects.eclipse.org/jakartaee/releases/8)
     + [javaEE和javaweb的区别？](https://www.zhihu.com/question/52002845)
+* 生成代码 [https://github.com/moshowgame/SpringBootCodeGenerator](https://github.com/moshowgame/SpringBootCodeGenerator)
 
 
 - [fastjson这么快老外为啥还是热衷 jackson?](https://www.zhihu.com/question/44199956)

@@ -11,6 +11,7 @@
 + Web 开发技术-MDN [https://developer.mozilla.org/zh-CN/docs/Web](https://developer.mozilla.org/zh-CN/docs/Web)
 + Web API [https://developer.mozilla.org/zh-CN/docs/Web/API](https://developer.mozilla.org/zh-CN/docs/Web/API)
 + W3C 网页标准教程 [http://www.w3chtml.com](http://www.w3chtml.com)
++ [https://github.com/immersive-web](https://github.com/immersive-web)
 
 
 * [https://github.com/microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
@@ -420,7 +421,7 @@ document.getElementsByTagName("a");// 返回文档中指定标签的元素
 
 
 
-## 跨域
+## 跨域/跨源
 
 **浏览器的同源策略**
 
@@ -440,7 +441,7 @@ document.getElementsByTagName("a");// 返回文档中指定标签的元素
     - `Access-Control-Max-Age` 表明响应的有效时间。在有效时间内，浏览器无须为同一请求再次发起预检请求
     - `Access-Control-Expose-Headers` 服务器允许浏览器访问的头信息白名单
     - `Access-Control-Allow-Credentials` 指定了当浏览器的credentials设置为true时是否允许浏览器读取response的内容
-- `postMessage` 可以实现跨文本档、多窗口、跨域消息传递
+- `postMessage` 可以实现跨文本档、多窗口（iframe间通信最完美的办法）、跨域消息传递
 - `websocket` HTML5的一个持久化的协议，它实现了浏览器与服务器的全双工通信，也是跨域的一种解决方案
 - `Nginx` 反向代理（其他服务器应用也可），一般用于生产环境
 - `webpack-dev-server` 使用NodeJS服务器中间件`Express`代为获取数据，仅用于开发环境
@@ -453,4 +454,7 @@ document.getElementsByTagName("a");// 返回文档中指定标签的元素
         - [https://expressjs.com/zh-cn/guide/writing-middleware.html](https://expressjs.com/zh-cn/guide/writing-middleware.html)
 
 
+* [浏览器同源政策及其规避方法](https://www.ruanyifeng.com/blog/2016/04/same-origin-policy.html)
+* [https://developer.mozilla.org/zh-CN/docs/Web/API/Window/postMessage](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/postMessage)
+* [https://github.com/ChrisSong1994/FrameMessage](https://github.com/ChrisSong1994/FrameMessage)
 

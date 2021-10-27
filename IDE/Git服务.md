@@ -15,21 +15,18 @@
   * [https://github.com/git-for-windows](https://github.com/git-for-windows)
   * [https://git-scm.com](https://git-scm.com)
   * [https://gitforwindows.org](https://gitforwindows.org)
-* [https://www.syntevo.com](https://www.syntevo.com)
-* [https://github.com/github/gitignore](https://github.com/github/gitignore)
+* 忽略提交 [https://github.com/github/gitignore](https://github.com/github/gitignore)
 * [https://github.com/toptal/gitignore.io](https://github.com/toptal/gitignore.io)
-* [reposurgeon是一种工具,用于编辑版本控制存储库的历史](http://www.catb.org/esr/reposurgeon)
-* [https://github.com/gitextensions/gitextensions](https://github.com/gitextensions/gitextensions)
+* 编辑版本控制存储库的历史 [http://www.catb.org/esr/reposurgeon](http://www.catb.org/esr/reposurgeon)
 * GUI [https://github.com/git-cola/git-cola](https://github.com/git-cola/git-cola)
+* [https://github.com/gitextensions/gitextensions](https://github.com/gitextensions/gitextensions)
 * [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
     * [https://gitlab.com/tortoisegit/tortoisegit](https://gitlab.com/tortoisegit/tortoisegit)
     * [https://tortoisegit.org/download](https://tortoisegit.org/download)
-* [https://github.com/gitblit/gitblit](https://github.com/gitblit/gitblit)
-* [https://github.com/scm-manager/scm-manager](https://github.com/scm-manager/scm-manager)
-* [https://www.mercurial-scm.org](https://www.mercurial-scm.org)
+* [https://www.syntevo.com](https://www.syntevo.com)
 * 代码语法突出 [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 * Git核心方法的可移植的纯C实现 [https://github.com/libgit2/libgit2](https://github.com/libgit2/libgit2)
-* 来自配置错误的网站的 Git 仓库泄漏 [https://github.com/liamg/gitjacker](https://github.com/liamg/gitjacker)
+* 来自配置错误的网站的Git仓库泄漏 [https://github.com/liamg/gitjacker](https://github.com/liamg/gitjacker)
 * 自动补全 [https://github.com/dahlbyk/posh-git](https://github.com/dahlbyk/posh-git)
 * [https://github.com/JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
 * 依赖项更新 [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate)
@@ -37,10 +34,10 @@
 * SmartGit 是一款优秀的图形化Git仓库管理工具
 * SmartSVN 是一款优秀的图形化SVN仓库管理工具
 * 根据日志生成Changelog [https://github.com/orhun/git-cliff](https://github.com/orhun/git-cliff)
-
-
-- Java实现 [https://github.com/eclipse/jgit](https://github.com/eclipse/jgit)
-    - [https://github.com/centic9/jgit-cookbook](https://github.com/centic9/jgit-cookbook)
+* Java实现 [https://github.com/eclipse/jgit](https://github.com/eclipse/jgit)
+    * [https://github.com/centic9/jgit-cookbook](https://github.com/centic9/jgit-cookbook)
+* [https://github.com/gitblit/gitblit](https://github.com/gitblit/gitblit)
+* [https://github.com/scm-manager/scm-manager](https://github.com/scm-manager/scm-manager)
 
 
 * [https://code.aliyun.com](https://code.aliyun.com)
@@ -48,6 +45,14 @@
 * [https://pagure.io](https://pagure.io)
 * [https://github.com/bytebase/bytebase](https://github.com/bytebase/bytebase)
 * 软件相似度比较 [https://copycat.gitee.com](https://copycat.gitee.com)
+
+
+**其他版本控制系统**
+
+* [https://www.perforce.com](https://www.perforce.com)
+* [https://www.mercurial-scm.org](https://www.mercurial-scm.org)
+* [https://www.nongnu.org/cvs](https://www.nongnu.org/cvs)
+* [https://bazaar.canonical.com](https://bazaar.canonical.com)
 
 
 
