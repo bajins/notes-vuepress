@@ -21,6 +21,8 @@
 * [VSCode教程](https://www.php.cn/tool/vscode)
 * [https://github.com/gr2m/app-stats-action](https://github.com/gr2m/app-stats-action)
 
+- [https://github.com/Microsoft/language-server-protocol](https://github.com/Microsoft/language-server-protocol)
+
 
 
 ## 设置
