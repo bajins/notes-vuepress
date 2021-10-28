@@ -214,7 +214,7 @@
 + [https://github.com/topics/cloudflare](https://github.com/topics/cloudflare)
 + [https://github.com/cloudflare](https://github.com/cloudflare)
     + 静态部署 [https://pages.cloudflare.com](https://pages.cloudflare.com)
-        + 示例 [https://woytu-github-io.pages.dev](https://woytu-github-io.pages.dev)
+        + 示例 [https://bajins-github-io.pages.dev](https://bajins-github-io.pages.dev)
     + 注意：在自定义域中和在DNS中如果配置了`@`，会导致Workers自定义域名无法访问，只配置`www`即可
     + [https://www.cloudflare.com/zh-cn/analytics](https://www.cloudflare.com/zh-cn/analytics)
     + [https://www.cloudflare.com/zh-cn/web-analytics](https://www.cloudflare.com/zh-cn/web-analytics)

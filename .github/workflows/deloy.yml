@@ -35,7 +35,7 @@ jobs:
         with: # 为预定义变量赋值
 #          DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-          EXTERNAL_REPOSITORY: woytu/woytu.github.io
+          EXTERNAL_REPOSITORY: bajins/bajins.github.io
           PUBLISH_BRANCH: master
           PUBLISH_DIR: ./docs
           FORCE_ORPHAN: true

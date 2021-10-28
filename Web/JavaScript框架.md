@@ -55,6 +55,7 @@
 * [https://github.com/reacttips-dev/codebases](https://github.com/reacttips-dev/codebases)
 * [https://github.com/mui-org/material-ui](https://github.com/mui-org/material-ui)
 * [https://github.com/ant-design/ant-design](https://github.com/ant-design/ant-design)
+* [https://github.com/DouyinFE/semi-design](https://github.com/DouyinFE/semi-design)
 
 
 

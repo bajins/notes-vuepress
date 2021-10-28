@@ -8,7 +8,7 @@ module.exports = [{
                 },
                 {
                     text: '获取XShell',
-                    link: 'https://github.com/woytu/tool-gin'
+                    link: 'https://github.com/bajins/tool-gin'
                 },
                 {
                     text: 'GoogleDrive',

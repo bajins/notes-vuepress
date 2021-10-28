@@ -82,7 +82,7 @@ actionLink: /#命令
 
 ``` bash
 # 先克隆本仓库
-git clone https://github.com/woytu/notes-vuepress.git
+git clone https://github.com/bajins/notes-vuepress.git
 
 # 保留上面目录结构列出的文件和文件夹，其他的全部删除
 

@@ -335,7 +335,7 @@ sudo /etc/init.d/dns-clean start
 - 当我们`push`到仓库时,`Gitea`会主动发送一个通知到我们的服务器,然后服务器接到通知执行我们部署的脚本,开始自动化构建。
 
 
-* [https://github.com/woytu/webhook-go](https://github.com/woytu/webhook-go)
+* [https://github.com/bajins/webhook-go](https://github.com/bajins/webhook-go)
 * [https://github.com/adnanh/webhook](https://github.com/adnanh/webhook)
 * [https://github.com/pre-commit](https://github.com/pre-commit)
 
@@ -518,11 +518,11 @@ git config --global http.lowSpeedTime 999999
 
 ```diff
 [root@foundation38 demo]# git push -u origin master
-Username for 'https://github.com': woytu
-Password for 'https://woytu@github.com': 
-To https://github.com/woytu/test.git
+Username for 'https://github.com': bajins
+Password for 'https://bajins@github.com': 
+To https://github.com/bajins/test.git
  ! [rejected]        master -> master (non-fast-forward)
-error: failed to push some refs to 'https://github.com/woytu/test.git'
+error: failed to push some refs to 'https://github.com/bajins/test.git'
 hint: Updates were rejected because the tip of your current branch is behind
 hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
 hint: before pushing again.

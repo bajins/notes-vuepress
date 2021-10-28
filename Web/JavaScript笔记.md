@@ -99,7 +99,7 @@ str.match(reg);
 
 
 * [flyio](https://wendux.github.io/dist/#/doc/flyio/readme)
-* [HTTP封装](https://github.com/woytu/key-gin/blob/master/static/js/utils)
+* [HTTP封装](https://github.com/bajins/key-gin/blob/master/static/js/utils)
 * [XMLHttpRequest—必知必会](https://www.jianshu.com/p/918c63045bc3)
 * [XMLHttpRequest封装源码](https://github.com/yanxiaojun617/exercise/tree/master/src/20180410ajax)
 

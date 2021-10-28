@@ -157,7 +157,7 @@ echo 'password' | passwd -stdin username
 - 方式一
 
 ```bash
-push_url=https://github.com/woytu/woytu.github.io.git
+push_url=https://github.com/bajins/bajins.github.io.git
 push_username=admin
 push_password=admin
 
@@ -193,7 +193,7 @@ expect eof
 - 方式二
 
 ```bash
-push_url=https://github.com/woytu/woytu.github.io.git
+push_url=https://github.com/bajins/bajins.github.io.git
 push_username=admin
 push_password=admin
 
@@ -233,7 +233,7 @@ EOF
 ```bash
 #!/usr/bin/expect
 
-set push_url "https://github.com/woytu/woytu.github.io.git"
+set push_url "https://github.com/bajins/bajins.github.io.git"
 set push_username "admin"
 set push_password "admin"
 

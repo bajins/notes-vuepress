@@ -301,10 +301,10 @@
     + [<img src="https://deploy.cloud.run/button.svg" height="30px">](https://deploy.cloud.run)
 
 * [https://www.netlify.com](https://www.netlify.com)
-    * 示例：[https://woytu.netlify.app](https://woytu.netlify.app)
+    * 示例：[https://bajins.netlify.app](https://bajins.netlify.app)
 * [https://docs.travis-ci.com/user/tutorial](https://docs.travis-ci.com/user/tutorial)
 * [https://github.com/zeit](https://github.com/zeit)
-    * 示例：[https://woytu.now.sh](https://woytu.now.sh)
+    * 示例：[https://bajins.now.sh](https://bajins.now.sh)
 * [https://github.com/vercel](https://github.com/vercel)
     * [https://vercel.com](https://vercel.com)
 * [<img src="https://www.herokucdn.com/deploy/button.svg" height="30px">](https://github.com/topics/heroku)

@@ -83,7 +83,7 @@ vi passwd
 
 ```conf
 # 账户=密码
-woytu.com=woytu.com
+bajins.com=bajins.com
 ```
 
 - 配置权限控制`authz`
@@ -97,7 +97,7 @@ vi authz
 
 ```conf
 [/]
-woytu.com=rw
+bajins.com=rw
 *=r
 ```
 

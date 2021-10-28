@@ -2,7 +2,7 @@ const utils = require('./utils');
 const path = require('path');
 
 // GitHub仓库地址
-const repo = "https://github.com/woytu/woytu.github.io.git";
+const repo = "https://github.com/bajins/bajins.github.io.git";
 
 /**
  * 推送编译后的静态文件

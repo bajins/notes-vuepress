@@ -523,7 +523,7 @@
     * NSIS中文论坛 [http://www.nsisfans.com](http://www.nsisfans.com)
 * [https://sourceforge.net/projects/hmne](https://sourceforge.net/projects/hmne)
     * [http://hmne.sourceforge.net](http://hmne.sourceforge.net)
-* 基于NSIS工具自定义XML漂亮UI打包工具 [https://github.com/woytu/NSIS_SetupSkin](https://github.com/woytu/NSIS_SetupSkin)
+* 基于NSIS工具自定义XML漂亮UI打包工具 [https://github.com/bajins/NSIS_SetupSkin](https://github.com/bajins/NSIS_SetupSkin)
 
 - 内置NSIS命令自动完成 [https://github.com/idleberg/sublime-nsis](https://github.com/idleberg/sublime-nsis)
 

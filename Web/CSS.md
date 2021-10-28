@@ -528,7 +528,7 @@ div:hover{
 
 * [伪类 - CSS（层叠样式表） | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-classes)
 * [伪元素 - CSS（层叠样式表） | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/pseudo-elements)
-* [伪元素组成的时间线](https://github.com/woytu/notes-vuepress/commits/master)
+* [伪元素组成的时间线](https://github.com/bajins/notes-vuepress/commits/master)
 
 
 - 分割线
