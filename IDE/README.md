@@ -13,7 +13,6 @@
 
 * [https://github.com/apache/netbeans](https://github.com/apache/netbeans)
 * [https://github.com/atom](https://github.com/atom)
-* [https://github.com/geany](https://github.com/geany)
 * [https://github.com/eclipse-theia/theia](https://github.com/eclipse-theia/theia)
     * [https://theia-ide.org](https://theia-ide.org)
 * [https://github.com/VSCodium/vscodium](https://github.com/VSCodium/vscodium)
