@@ -17,6 +17,7 @@
 * [strconv包使用](https://my.oschina.net/byonds/blog/488492)
 * [runtime包](https://www.jianshu.com/p/84bac7932394)
 * [File操作](https://blog.csdn.net/TDCQZD/article/details/81835149)
+* [golang的指针类型,unsafe.Pointer类型和uintptr类型的区别](https://www.jianshu.com/p/1a49b361d2a1)
 
 
 **日志**

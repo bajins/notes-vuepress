@@ -188,6 +188,7 @@
 * 计算机电子书 [https://github.com/itdevbooks/pdf](https://github.com/itdevbooks/pdf)
 * 书栈网 [https://github.com/TruthHun/BookStack](https://github.com/TruthHun/BookStack)
     * [https://www.bookstack.cn](https://www.bookstack.cn)
+* [https://www.topgoer.cn](https://www.topgoer.cn)
 * 天赋好书 [https://cntofu.com](https://cntofu.com)
 * 码农之家（计算机电子书下载） [http://www.xz577.com](http://www.xz577.com)
 * 鸠摩搜书 [http://www.jiumodiary.com](http://www.jiumodiary.com)
@@ -392,6 +393,7 @@
 * 程序员麻辣烫的blog [https://github.com/shidawuhen/shidawuhen.github.io](https://github.com/shidawuhen/shidawuhen.github.io)
 * [归档 | Djaigo blog](https://blog.djaigo.com/archives)
 * [https://github.com/wweir/wweir.github.io](https://github.com/wweir/wweir.github.io)
+* [归档 | 李文周的博客](https://www.liwenzhou.com/archives)
 
 
 

@@ -91,6 +91,10 @@
 * [https://github.com/0voice/Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang)
 * [https://github.com/golang-design/under-the-hood](https://github.com/golang-design/under-the-hood)
 * [https://github.com/cch123/golang-notes](https://github.com/cch123/golang-notes)
+* [https://www.topgoer.com](https://www.topgoer.com)
+* [https://github.com/iswbm](https://github.com/iswbm)
+    * [https://golang.iswbm.com](https://golang.iswbm.com)
+    * [https://magic.iswbm.com](https://magic.iswbm.com)
 
 
 
@@ -239,6 +243,7 @@
 * markdown转roff [https://github.com/cpuguy83/go-md2man](https://github.com/cpuguy83/go-md2man)
 * 队列任务 [https://github.com/gocraft/work](https://github.com/gocraft/work)
 * 媒体类型 [http://github.com/gabriel-vasile/mimetype](http://github.com/gabriel-vasile/mimetype)
+* 图片转换 [https://github.com/gographics/imagick](https://github.com/gographics/imagick)
 
 
 
