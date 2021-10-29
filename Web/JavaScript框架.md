@@ -250,6 +250,24 @@ $.is(":checked");
 	* [设置单选框radio不可选（禁用）](https://blog.csdn.net/qq_39615545/article/details/112561630)
 
 
+**根据文本获取元素**
+
+```js
+$.fn.findByContentText = function (text) {
+    return $(this).contents().filter(function () {
+        return $(this).text().trim() == text.trim();
+    });
+};
+
+var search = $( "ul li label" ).filter( function () {
+    return $( this ).text().toLowerCase().indexOf( "text".toLowerCase() ) >= 0;
+}).first(); // .last()
+
+ 
+$('div:contains("test"):not(:has(*)):last').css('background-color', 'red');
+```
+
+
 
 ### jQuery插件/组件
 
