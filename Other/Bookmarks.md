@@ -184,6 +184,7 @@
 
 
 * [https://github.com/cs-books/influential-cs-books](https://github.com/cs-books/influential-cs-books)
+* [https://github.com/trsoliu/e-books](https://github.com/trsoliu/e-books)
 * [https://github.com/netkiller/netkiller.github.io](https://github.com/netkiller/netkiller.github.io)
 * 计算机电子书 [https://github.com/itdevbooks/pdf](https://github.com/itdevbooks/pdf)
 * 书栈网 [https://github.com/TruthHun/BookStack](https://github.com/TruthHun/BookStack)

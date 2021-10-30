@@ -38,8 +38,6 @@
 
 * 编程语言排行 [https://www.tiobe.com/tiobe-index](https://www.tiobe.com/tiobe-index)
 * GitHub上的游戏项目 [https://github.com/leereilly/games](https://github.com/leereilly/games)
-* 免费可商用字体 [https://github.com/wordshub/free-font](https://github.com/wordshub/free-font)
-* 字体 [https://github.com/lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai)
 * IP库 [https://db-ip.com](https://db-ip.com)
 * 谷歌全球IP地址库 [https://github.com/justjavac/Google-IPs](https://github.com/justjavac/Google-IPs)
 * 实时崩溃报告 [https://github.com/getsentry](https://github.com/getsentry)

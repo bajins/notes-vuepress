@@ -136,6 +136,7 @@
 + [https://github.com/eolinker](https://github.com/eolinker)
 + 数据库驱动 [https://github.com/go-sql-driver](https://github.com/go-sql-driver)
 + [https://github.com/hashicorp](https://github.com/hashicorp)
++ [https://github.com/boombuler](https://github.com/boombuler)
 
 
 
@@ -222,6 +223,12 @@
 * 测试 [https://github.com/sclevine/spec](https://github.com/sclevine/spec)
 * [https://github.com/onsi/ginkgo](https://github.com/onsi/ginkgo)
 * 读取PDF [https://github.com/ledongthuc/pdf](https://github.com/ledongthuc/pdf)
+* [https://github.com/google/go-tika](https://github.com/google/go-tika)
+* 免费有水印 [https://github.com/unidoc](https://github.com/unidoc)
+* 创建PDF [https://github.com/johnfercher/maroto](https://github.com/johnfercher/maroto)
+    * [https://github.com/Vale-sail/maroto](https://github.com/Vale-sail/maroto)
+* [https://github.com/jung-kurt/gofpdf](https://github.com/jung-kurt/gofpdf)
+* [https://github.com/tiechui1994/gopdf](https://github.com/tiechui1994/gopdf)
 * WebSocket [https://github.com/gorilla/websocket](https://github.com/gorilla/websocket)
     * [在 Gin 项目中使用 WebSocket](https://www.cnblogs.com/chnmig/p/14463837.html)
 * 微服务RPC框架 [https://github.com/cloudwego/kitex](https://github.com/cloudwego/kitex)
@@ -235,8 +242,6 @@
 * 结构转换 [https://github.com/mitchellh/mapstructure](https://github.com/mitchellh/mapstructure)
 * [github.com/go-redis/redis](github.com/go-redis/redis)
 * [https://github.com/seccomp/libseccomp-golang](https://github.com/seccomp/libseccomp-golang)
-* 创建PDF [https://github.com/johnfercher/maroto](https://github.com/johnfercher/maroto)
-* [https://github.com/jung-kurt/gofpdf](https://github.com/jung-kurt/gofpdf)
 * 构建命令行 [https://github.com/urfave/cli](https://github.com/urfave/cli)
 * 内核模糊器 [https://github.com/google/syzkaller](https://github.com/google/syzkaller)
 * Markdown处理 [https://github.com/russross/blackfriday](https://github.com/russross/blackfriday)

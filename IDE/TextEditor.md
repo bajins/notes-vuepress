@@ -12,6 +12,7 @@
     * [http://www.gnu.org/software/emacs](http://www.gnu.org/software/emacs)
 * [https://github.com/geany/geany](https://github.com/geany/geany)
 * [https://www.nano-editor.org](https://www.nano-editor.org)
+* [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
 * [https://vim.org](https://vim.org)
     * [https://github.com/neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
     * [https://github.com/thaerkh/vim-workspace](https://github.com/thaerkh/vim-workspace)

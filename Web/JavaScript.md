@@ -364,12 +364,6 @@ var express = require('express');
 
 **文档**
 
-+ [https://github.com/topics/poi](https://github.com/topics/poi)
-+ [https://github.com/topics/excel](https://github.com/topics/excel)
-+ [https://github.com/topics/word](https://github.com/topics/word)
-+ [https://github.com/topics/pdf](https://github.com/topics/pdf)
-
-
 * [https://github.com/bblanchon/pdfium-binaries](https://github.com/bblanchon/pdfium-binaries)
 * [https://github.com/MrRio/jsPDF](https://github.com/MrRio/jsPDF)
 * [https://github.com/mozilla/pdf.js](https://github.com/mozilla/pdf.js)

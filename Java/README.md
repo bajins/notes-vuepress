@@ -491,6 +491,8 @@
     * [导出百万级数据到Excel 文件](https://blog.csdn.net/gd6321374/article/details/90417202)
     * [https://github.com/550690513/large-amount-data-export](https://github.com/550690513/large-amount-data-export)
 * PDF操作 [https://github.com/topics/pdfbox](https://github.com/topics/pdfbox)
+* [https://github.com/apache/pdfbox](https://github.com/apache/pdfbox)
+* [https://github.com/apache/tika](https://github.com/apache/tika)
 * [https://github.com/itext](https://github.com/itext)
 * [https://github.com/ofdrw/ofdrw](https://github.com/ofdrw/ofdrw)
 
