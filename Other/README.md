@@ -111,13 +111,13 @@
 |------------------	|--------------------------------------	|---------------------------------------	|---------------------------------------	|------------------------------	|
 | 东北大学         	| http://mirror.neu.edu.cn             	|                                       	|                                       	|                              	|
 | 大连理工大学     	| http://mirror.dlut.edu.cn            	|                                       	|                                       	|                              	|
-| 大连东软信息学院 	| http://mirrors.neusoft.edu.cn        	|                                       	|                                       	|                              	|
+| 大连东软信息学院 	| https://mirrors.neusoft.edu.cn        |                                       	|                                       	|                              	|
 | 哈尔滨工业大学   	| http://mirrors.hit.edu.cn            	|                                       	|                                       	| https://github.com/hitlug    	|
 | 清华大学         	| https://mirrors.tuna.tsinghua.edu.cn 	| https://mirrors4.tuna.tsinghua.edu.cn 	| https://mirrors6.tuna.tsinghua.edu.cn 	| https://github.com/tuna      	|
 | 北京外国语大学   	| https://mirrors.bfsu.edu.cn          	| https://mirrors4.bfsu.edu.cn          	| https://mirrors6.bfsu.edu.cn          	|                              	|
 | 北京理工大学     	|                                      	|                                       	|                                       	|                              	|
 | 北京交通大学     	| https://mirror.bjtu.edu.cn           	|                                       	|                                       	| https://github.com/bjtulug   	|
-| 天津大学         	|                                      	|                                       	|                                       	|                              	|
+|南京大学电子科学中心| https://mirrors.nju.edu.cn           |                                       	|                                       	|                              	|
 | 中国科学技术大学 	| https://mirrors.ustc.edu.cn          	| https://ipv4.mirrors.ustc.edu.cn      	| https://ipv6.mirrors.ustc.edu.cn      	| https://github.com/ustclug   	|
 | 华中科技大学     	|                                      	| http://mirrors.hust.edu.cn            	|                                       	|                              	|
 | 中国地质大学     	|                                      	|                                       	|                                       	|                              	|

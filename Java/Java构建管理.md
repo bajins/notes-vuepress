@@ -11,6 +11,7 @@
     + [https://github.com/johnrengelman/shadow](https://github.com/johnrengelman/shadow)
     + 自定义运行时映像 [https://github.com/beryx](https://github.com/beryx)
     + 创建支持包重定位 [https://github.com/johnrengelman/shadow](https://github.com/johnrengelman/shadow)
++ [https://github.com/package-url](https://github.com/package-url)
 + [https://github.com/topics/bazel](https://github.com/topics/bazel)
 + [https://github.com/bazelbuild](https://github.com/bazelbuild)
 + [https://github.com/sbt/sbt](https://github.com/sbt/sbt)
@@ -24,6 +25,7 @@
 + 混淆工具 [https://github.com/yWorks/yGuard](https://github.com/yWorks/yGuard)
 
 - [https://github.com/topics/classloader](https://github.com/topics/classloader)
+- [https://github.com/technomancy/leiningen](https://github.com/technomancy/leiningen)
 
 * [原来实现项目多环境打包部署是如此的简单](https://www.cnblogs.com/hafiz/p/7559976.html)
 

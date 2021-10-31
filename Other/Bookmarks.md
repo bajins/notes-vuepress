@@ -285,7 +285,15 @@
 * [Spring-WebSocket · essay-note](https://zq99299.github.io/essay-note/chapter/websocket/spring.html)
 * [Java技术栈](http://www.javastack.cn)
 * [archives - 纯洁的微笑博客](http://www.ityouknow.com/archives.html)
+
+> `$("#btw-modal-wrap, #read-more-wrap").remove();$("#container,.article.article-type-post.lock").css("height", "unset");`
+>
+> `localStorage.setItem("TOKEN_" + blogId, blogId)` search `BTWPlugin`
+
 * [程序猿DD | Java | Spring Boot | Spring Cloud | 最新干货分享](http://blog.didispace.com)
+* [https://github.com/hengboy](https://github.com/hengboy)
+    * [https://gitee.com/hengboy](https://gitee.com/hengboy)
+    * [程序员恒宇少年 | SpringBoot | SpringCloud | Java - 个人博客](https://blog.yuqiyu.com)
 * [Java知音-一个专注于技术分享的网站](https://www.javazhiyin.com)
 * [Archive | crossoverJie's Blog](https://crossoverjie.top/archives)
 * [Java入门基础教程_Java开发学习书籍-极客学院Wiki](http://wiki.jikexueyuan.com/list/java)

@@ -209,6 +209,8 @@
 + [https://github.com/bootique/bootique](https://github.com/bootique/bootique)
 + 全堆栈框架 [https://github.com/micronaut-projects](https://github.com/micronaut-projects)
 + [https://github.com/ClouGence/hasor](https://github.com/ClouGence/hasor)
++ [https://github.com/minbox-projects](https://github.com/minbox-projects)
+    + [https://gitee.com/minbox-projects](https://gitee.com/minbox-projects)
 
 
 * [https://github.com/eclipse-ee4j/soteria](https://github.com/eclipse-ee4j/soteria)

@@ -36,6 +36,8 @@
      - -> `General`
           - `Hard wrap at` 设置行宽，会在格式化的时候强制插入换行符，形成显示效果上的换行
           - `Wrap on typing` 在编码时，超出最大行宽，则自动换行
+          - `Appearance` -> `Show whitespaces` 设置显示空白字符
+     - `Java` 在右侧的 `Use tab character` 不勾选，设置tab为4个空格
      - -> `Java` -> `Wrapping and Braces`
           - 勾选`Keep when reformatting`下的`Line breaks` 去除每次格式化时自动添加`+`符号
           - 勾选`Keep when reformatting`下的`Ensure right margin is not exceeded` 自动换行
