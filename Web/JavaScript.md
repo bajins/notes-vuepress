@@ -324,6 +324,9 @@ var express = require('express');
 - [https://github.com/adamwdraper/Numeral-js](https://github.com/adamwdraper/Numeral-js)
 - [https://github.com/entronad/number-display](https://github.com/entronad/number-display)
 
+* mock [https://github.com/chancejs/chancejs](https://github.com/chancejs/chancejs)
+
+
 
 **日期时间**
 

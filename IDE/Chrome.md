@@ -51,6 +51,8 @@
     * [https://www.microsoftedgeinsider.com](https://www.microsoftedgeinsider.com)
     * [https://docs.microsoft.com/zh-cn/microsoft-edge](https://docs.microsoft.com/zh-cn/microsoft-edge)
 * [https://www.mozilla.org/zh-CN/firefox/all](https://www.mozilla.org/zh-CN/firefox/all)
+    * [https://sourceforge.net/projects/libportable](https://sourceforge.net/projects/libportable)
+    * [https://ftp.mozilla.org/pub/firefox/releases](https://ftp.mozilla.org/pub/firefox/releases)
 * [https://github.com/vivaldi](https://github.com/vivaldi)
     * [https://vivaldi.com](https://vivaldi.com)
 * [https://github.com/brave](https://github.com/brave)
