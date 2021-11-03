@@ -40,21 +40,6 @@
 * [https://github.com/scm-manager/scm-manager](https://github.com/scm-manager/scm-manager)
 
 
-* [https://code.aliyun.com](https://code.aliyun.com)
-* [https://coding.net](https://coding.net)
-* [https://pagure.io](https://pagure.io)
-* [https://github.com/bytebase/bytebase](https://github.com/bytebase/bytebase)
-* 软件相似度比较 [https://copycat.gitee.com](https://copycat.gitee.com)
-
-
-**其他版本控制系统**
-
-* [https://www.perforce.com](https://www.perforce.com)
-* [https://www.mercurial-scm.org](https://www.mercurial-scm.org)
-* [https://www.nongnu.org/cvs](https://www.nongnu.org/cvs)
-* [https://bazaar.canonical.com](https://bazaar.canonical.com)
-
-
 
 **Git与SVN区别**
 
@@ -64,6 +49,27 @@
 - git不必联网就可以看到所有的log，svn必须联网；
 - git保存的是元数据，svn是复制整个文档；
 - git强调分支，svn只是不同的文件目录，就是copy
+
+
+
+**其他版本控制系统软件**
+
+* [https://www.perforce.com](https://www.perforce.com)
+* [https://www.mercurial-scm.org](https://www.mercurial-scm.org)
+* [https://www.nongnu.org/cvs](https://www.nongnu.org/cvs)
+* [https://bazaar.canonical.com](https://bazaar.canonical.com)
+* [https://github.com/bytebase/bytebase](https://github.com/bytebase/bytebase)
+
+
+
+**其他版本控制服务**
+
+* [https://code.aliyun.com](https://code.aliyun.com)
+* [https://coding.net](https://coding.net)
+* [https://git.code.tencent.com](https://git.code.tencent.com)
+* [https://pagure.io](https://pagure.io)
+* 软件相似度比较 [https://copycat.gitee.com](https://copycat.gitee.com)
+
 
 
 **Gogs**

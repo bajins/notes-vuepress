@@ -325,6 +325,7 @@ var express = require('express');
 - [https://github.com/entronad/number-display](https://github.com/entronad/number-display)
 
 * mock [https://github.com/chancejs/chancejs](https://github.com/chancejs/chancejs)
+* [https://github.com/TommyLemon/APIAuto](https://github.com/TommyLemon/APIAuto)
 
 
 
