@@ -368,9 +368,6 @@ var express = require('express');
 
 **文档**
 
-* [https://github.com/bblanchon/pdfium-binaries](https://github.com/bblanchon/pdfium-binaries)
-* [https://github.com/MrRio/jsPDF](https://github.com/MrRio/jsPDF)
-* [https://github.com/mozilla/pdf.js](https://github.com/mozilla/pdf.js)
 * excel [https://github.com/dtjohnson/xlsx-populate](https://github.com/dtjohnson/xlsx-populate)
     * [前端生成导出Excel](https://lushunjian.gitee.io/2020/08/08/qian-duan-sheng-cheng-dao-chu-excel)
     * [https://www.npmjs.com/package/xlsx-populate#style-reference](https://www.npmjs.com/package/xlsx-populate#style-reference)

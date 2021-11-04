@@ -57,7 +57,7 @@
 
 ## wxPython
 
-* [https://github.com/wxWidgets/wxWidgets](https://github.com/wxWidgets/wxWidgets)
+* [https://github.com/wxWidgets/Phoenix](https://github.com/wxWidgets/Phoenix)
 * [https://wxpython.org/pages/overview/](https://wxpython.org/pages/overview)
 
 > `wxPython`是一个用于`Python`编程语言的跨平台`GUI`工具包。包含流行的`wxWidgets`跨平台库的`GUI`组件，该库是用`C++`编写的。

@@ -492,11 +492,6 @@
     * [http://poi.apache.org/components/spreadsheet](http://poi.apache.org/components/spreadsheet)
     * [导出百万级数据到Excel 文件](https://blog.csdn.net/gd6321374/article/details/90417202)
     * [https://github.com/550690513/large-amount-data-export](https://github.com/550690513/large-amount-data-export)
-* PDF操作 [https://github.com/topics/pdfbox](https://github.com/topics/pdfbox)
-* [https://github.com/apache/pdfbox](https://github.com/apache/pdfbox)
-* [https://github.com/apache/tika](https://github.com/apache/tika)
-* [https://github.com/itext](https://github.com/itext)
-* [https://github.com/ofdrw/ofdrw](https://github.com/ofdrw/ofdrw)
 
 
 > XML文件的解析技术有DOM和SAX方式，JAXB（Java Architecture for XML Binding) 是一个业界的标准，是一项根据`XML Schema`产生Java类的技术

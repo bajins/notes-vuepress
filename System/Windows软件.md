@@ -471,7 +471,7 @@
 * [https://sourceforge.net/projects/sevenzip](https://sourceforge.net/projects/sevenzip)
     * [https://www.7-zip.org/download.html](https://www.7-zip.org/download.html)
     * 打开7zip -> 点击菜单栏上的`工具` -> `选项` -> 点击两个`+`号关联所有默认解压方式到当前账户和所有账户
-* [https://github.com/giorgiotani/PeaZip](https://github.com/giorgiotani/PeaZip)
+* [https://github.com/peazip/PeaZip](https://github.com/peazip/PeaZip)
     * [https://sourceforge.net/projects/peazip](https://sourceforge.net/projects/peazip)
 * [https://github.com/nmoinvaz/minizip](https://github.com/nmoinvaz/minizip)
 
@@ -553,9 +553,7 @@
 + [手动卸载 Office](https://support.microsoft.com/zh-cn/office/%E6%89%8B%E5%8A%A8%E5%8D%B8%E8%BD%BD-office-4e2904ea-25c8-4544-99ee-17696bb3027b)
 
 * 在线文档 [https://personal.onlyoffice.com](https://personal.onlyoffice.com)
-* PDF阅览器 [https://fsfe.org/pdfreaders/pdfreaders.zh.html](https://fsfe.org/pdfreaders/pdfreaders.zh.html)
-* [https://zh.pdf24.org](https://zh.pdf24.org)
-* [https://mupdf.com](https://mupdf.com)
+
 
 
 

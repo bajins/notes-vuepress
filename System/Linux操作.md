@@ -31,12 +31,6 @@
 * [https://vimjc.com/archives](https://vimjc.com/archives)
 
 
-- [https://github.com/busyloop/lolcat](https://github.com/busyloop/lolcat)
-- 替代find [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
-- [https://gitlab.freedesktop.org](https://gitlab.freedesktop.org)
-    - [https://www.freedesktop.org](https://www.freedesktop.org)
-
-
 
 
 ## 软件套件
@@ -60,6 +54,22 @@
 * [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
 * 提供状态线和提示 [https://github.com/powerline/powerline](https://github.com/powerline/powerline)
 * 替换服务器的固件 [https://github.com/linuxboot/linuxboot](https://github.com/linuxboot/linuxboot)
+
+
+- [https://github.com/busyloop/lolcat](https://github.com/busyloop/lolcat)
+- 替代find [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
+- Linux开源软件 [https://github.com/freedesktop](https://github.com/freedesktop)
+    - [https://gitlab.freedesktop.org](https://gitlab.freedesktop.org)
+    - [https://www.freedesktop.org](https://www.freedesktop.org)
+- [https://koji.fedoraproject.org](https://koji.fedoraproject.org)
+- [https://download.gnome.org/binaries](https://download.gnome.org/binaries)
+- [https://download-fallback.gnome.org/binaries](https://download-fallback.gnome.org/binaries)
+- [https://ftp.acc.umu.se/pub/gnome/binaries](https://ftp.acc.umu.se/pub/gnome/binaries)
+- [https://download.savannah.gnu.org](https://download.savannah.gnu.org)
+- [https://sourceforge.net/projects/pkgconfiglite](https://sourceforge.net/projects/pkgconfiglite)
+- [https://sourceforge.net/projects/lcms](https://sourceforge.net/projects/lcms)
+- [https://www.cairographics.org](https://www.cairographics.org)
+- [https://sourceforge.net/projects/libpng](https://sourceforge.net/projects/libpng)
 
 
 
