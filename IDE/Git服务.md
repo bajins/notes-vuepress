@@ -209,6 +209,8 @@ volumes:
 * [Windows设置GitHub的Hosts脚本](/files/设置GitHub的Hosts.bat)
 
 - [https://gitee.com/organizations/mirrors_trending/projects](https://gitee.com/organizations/mirrors_trending/projects)
+- [https://gitee.com/docmirror/dev-sidecar](https://gitee.com/docmirror/dev-sidecar)
+- [https://github.com/docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar)
 
 
 * [https://codechina.csdn.net/mirrors](https://codechina.csdn.net/mirrors)

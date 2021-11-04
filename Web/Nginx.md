@@ -38,6 +38,8 @@
 + [https://github.com/nginx-proxy/nginx-proxy](https://github.com/nginx-proxy/nginx-proxy)
 + [https://github.com/evertramos/nginx-proxy-automation](https://github.com/evertramos/nginx-proxy-automation)
 + [https://github.com/onlyGuo/nginx-gui](https://github.com/onlyGuo/nginx-gui)
++ 文件服务器 [https://github.com/Naereen/Nginx-Fancyindex-Theme](https://github.com/Naereen/Nginx-Fancyindex-Theme)
++ [https://github.com/aperezdc/ngx-fancyindex](https://github.com/aperezdc/ngx-fancyindex)
 
 
 **其他同类程序**

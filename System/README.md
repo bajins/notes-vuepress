@@ -423,6 +423,8 @@
 
 **协作/在线**
 
++ [https://github.com/microsoft/FluidFramework](https://github.com/microsoft/FluidFramework)
+
 * 协作在线办公套件 [https://github.com/ONLYOFFICE](https://github.com/ONLYOFFICE)
 * [https://github.com/ether/etherpad-lite](https://github.com/ether/etherpad-lite)
 * [https://github.com/anytypeio](https://github.com/anytypeio)

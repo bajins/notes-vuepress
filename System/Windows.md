@@ -78,6 +78,8 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}" /f
 ```
 
+* [win10简单脚本一步卸载Cortana](https://www.wenjinyu.me/zh/an-easy-step-to-uninstall-cortana-in-win10)
+
 
 **系统相关**
 

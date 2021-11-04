@@ -376,7 +376,6 @@
 * 一个用于快速上传图片并获取图片URL链接的工具 [https://github.com/Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo)
 * [https://www.polaxiong.com](https://www.polaxiong.com)
 * [https://icons8.cn/lunacy](https://icons8.cn/lunacy)
-* [https://www.microsoft.com/design/fluent](https://www.microsoft.com/design/fluent)
 * [https://www.xnview.com](https://www.xnview.com)
 * [https://www.getpaint.net](https://www.getpaint.net)
 * [https://www.gimp.org](https://www.gimp.org)
