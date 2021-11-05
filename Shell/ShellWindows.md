@@ -125,6 +125,7 @@
 
 * [http://mingw-w64.org](http://mingw-w64.org)
     * [https://github.com/mirror/mingw-w64](https://github.com/mirror/mingw-w64)
+* 包管理 [https://packages.msys2.org](https://packages.msys2.org)
 
 
 ### MinGW-w64下载
@@ -209,8 +210,8 @@ gcc -v && g++ -v
 
 + [https://github.com/topics/msys2](https://github.com/topics/msys2)
 
-* [http://www.msys2.org](http://www.msys2.org)
 * [https://github.com/msys2](https://github.com/msys2)
+    * [http://www.msys2.org](http://www.msys2.org)
 * [msys2配置记录](https://www.jianshu.com/p/c740b71e7775)
 * [清华大学MSYS2镜像](https://mirror.tuna.tsinghua.edu.cn/help/msys2)
 * [中国科学技术大学MSYS2镜像](http://mirrors.ustc.edu.cn/help/msys2.html)
