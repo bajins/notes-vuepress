@@ -46,6 +46,7 @@
     + PUB_HOSTED_URL [https://pub.flutter-io.cn](https://pub.flutter-io.cn)
     + FLUTTER_STORAGE_BASE_URL [https://storage.flutter-io.cn](https://storage.flutter-io.cn)
 + [https://github.com/AweiLoveAndroid/Flutter-learning](https://github.com/AweiLoveAndroid/Flutter-learning)
++ [https://github.com/vandadnp/flutter-tips-and-tricks](https://github.com/vandadnp/flutter-tips-and-tricks)
 
 > Bloc、Hook、less/ful、GetX，不同的状态管理方案
 
@@ -59,6 +60,8 @@
 * [https://github.com/shichunlei/flutter_app](https://github.com/shichunlei/flutter_app)
 * [https://github.com/qq326646683/flutter_tencentplayer](https://github.com/qq326646683/flutter_tencentplayer)
 * 升级/下载插件 [https://github.com/rhymelph/r_upgrade](https://github.com/rhymelph/r_upgrade)
+* [https://github.com/KevinZhang19870314/flutter_getx_boilerplate](https://github.com/KevinZhang19870314/flutter_getx_boilerplate)
+
 
 - 干货 [https://github.com/fujianlian/GankFlutter](https://github.com/fujianlian/GankFlutter)
 - [https://github.com/xmcy0011/CoffeeChat](https://github.com/xmcy0011/CoffeeChat)

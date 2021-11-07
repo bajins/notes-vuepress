@@ -295,6 +295,7 @@
 * [https://github.com/staticfile](https://github.com/staticfile)
     * [https://staticfile.org](https://staticfile.org)
 * [https://cdn.baomitu.com](https://cdn.baomitu.com)
+* [https://www.skypack.dev](https://www.skypack.dev)
 
 - [https://developers.google.com/speed/libraries](https://developers.google.com/speed/libraries)
 - [https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview](https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview)

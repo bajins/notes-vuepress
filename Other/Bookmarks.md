@@ -408,8 +408,6 @@
 
 ### Web
 
-+ [Web 开发技术 | MDN](https://developer.mozilla.org/zh-CN/docs/Web)
-
 * [CNode Node.js专业中文社区](https://cnodejs.org/?tab=good)
 * [JavaScript 基础知识](https://zh.javascript.info/first-steps)
 * [Welcome | 临水照影的博客](http://haoqiao.me/index.html)
@@ -425,6 +423,8 @@
 * 英文 [2ality – JavaScript and more](https://2ality.com/archive.html)
 * [蓝色帅-橙子哥 - 博客园](https://www.cnblogs.com/lhl66)
 * [Timeline | Jioho 的博客](http://jioho.gitee.io/blog/timeline)
+* [速冻鱼blog](https://sudongyuer.github.io)
+* [https://github.com/lxchuan12](https://github.com/lxchuan12)
 
 
 

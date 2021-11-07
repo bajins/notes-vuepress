@@ -54,6 +54,7 @@
 * [https://github.com/revolunet/JSbooks](https://github.com/revolunet/JSbooks)
 * ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
     * [https://es6.ruanyifeng.com](https://es6.ruanyifeng.com)
+* [https://github.com/30-seconds](https://github.com/30-seconds)
 * [https://github.com/rse/es6-features](https://github.com/rse/es6-features)
 * [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
 * [https://www.javascript.com](https://www.javascript.com)
@@ -63,7 +64,6 @@
 * 文档对象模型 (DOM) [https://developer.mozilla.org/zh-CN/docs/Glossary/DOM](https://developer.mozilla.org/zh-CN/docs/Glossary/DOM)
 * [https://github.com/Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript)
 * [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30)
-* [https://github.com/30-seconds/30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)
 * 答题 [https://github.com/lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions)
 * [https://github.com/felipefialho/frontend-challenges](https://github.com/felipefialho/frontend-challenges)
 * [https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)
@@ -71,12 +71,12 @@
 * [https://github.com/you-dont-need](https://github.com/you-dont-need)
 * [https://github.com/getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
 * [https://github.com/Asabeneh/JavaScript-for-Everyone](https://github.com/Asabeneh/JavaScript-for-Everyone)
-* JavaScript的学习代码总结 [https://github.com/csxiaoyaojianxian/JavaScriptStudy](https://github.com/csxiaoyaojianxian/JavaScriptStudy)
-* [https://github.com/30-seconds](https://github.com/30-seconds)
+* 学习代码总结 [https://github.com/csxiaoyaojianxian/JavaScriptStudy](https://github.com/csxiaoyaojianxian/JavaScriptStudy)
 * 前端面试手册 [https://github.com/yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook)
 * [https://github.com/loverajoel/jstips](https://github.com/loverajoel/jstips)
-* 1212/1024 [https://www.javascriptcn.com](https://www.javascriptcn.com)
+* [https://www.javascriptcn.com](https://www.javascriptcn.com) 1212/1024
 * [https://github.com/superherojs/superherojs](https://github.com/superherojs/superherojs)
+* 单行代码 [https://github.com/1milligram/1loc](https://github.com/1milligram/1loc)
 
 
 - [ES6、ES7、ES8特性一锅炖(ES6、ES7、ES8学习指南)](https://juejin.cn/post/6844903679976275976)
@@ -304,7 +304,6 @@ var express = require('express');
     * [https://underscorejs.net](https://underscorejs.net)
 * [https://github.com/ramda/ramda](https://github.com/ramda/ramda)
 * [https://github.com/proYang/outils](https://github.com/proYang/outils)
-* [https://github.com/30-seconds/30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)
 * 工具库 [https://github.com/tnfe/bbo](https://github.com/tnfe/bbo)
 * 代码格式化 [https://github.com/prettier/prettier](https://github.com/prettier/prettier)
 * [https://github.com/beautify-web/js-beautify](https://github.com/beautify-web/js-beautify)
@@ -388,6 +387,12 @@ var express = require('express');
 - 压缩 [https://github.com/photopea](https://github.com/nodeca/pako)
 - 读取和编辑zip [https://github.com/Stuk/jszip](https://github.com/Stuk/jszip)
 - [https://gitlab.pagedmedia.org/tools/pagedjs](https://gitlab.pagedmedia.org/tools/pagedjs)
+- API文档 [https://github.com/stoplightio](https://github.com/stoplightio)
+- [https://github.com/yeyan1996/free-swagger](https://github.com/yeyan1996/free-swagger)
+- [https://github.com/swagger-api/swagger-js](https://github.com/swagger-api/swagger-js)
+- [https://github.com/superwf/ts-gear](https://github.com/superwf/ts-gear)
+- [https://github.com/acacode/swagger-typescript-api](https://github.com/acacode/swagger-typescript-api)
+- [https://github.com/Manweill/swagger-axios-codegen](https://github.com/Manweill/swagger-axios-codegen)
 
 
 **数据表格**
@@ -478,6 +483,7 @@ var express = require('express');
 * [https://github.com/animate-css/animate.css](https://github.com/animate-css/animate.css)
 * [https://github.com/juliangarnier/anime](https://github.com/juliangarnier/anime)
 * 3D库 [https://github.com/mrdoob/three.js](https://github.com/mrdoob/three.js)
+* 3D地球和2D地图 [https://github.com/CesiumGS/cesium](https://github.com/CesiumGS/cesium)
 * 2D渲染器 [https://github.com/pixijs/pixijs](https://github.com/pixijs/pixijs)
 * [https://github.com/erincatto/box2d](https://github.com/erincatto/box2d)
 * [https://github.com/KilledByAPixel/LittleJS](https://github.com/KilledByAPixel/LittleJS)

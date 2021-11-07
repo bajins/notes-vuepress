@@ -45,6 +45,7 @@
 - 2015年，fis3
 - 2017年，webpack3
 
+* [https://github.com/wuhao000/aegis-tools](https://github.com/wuhao000/aegis-tools)
 
 
 
@@ -113,6 +114,9 @@ nvm install <最新的版本号>
 * [https://github.com/Unitech/pm2](https://github.com/Unitech/pm2)
 * [https://github.com/npm](https://github.com/npm)
 * [https://github.com/yarnpkg](https://github.com/yarnpkg)
+* [https://github.com/pnpm/pnpm](https://github.com/pnpm/pnpm)
+
+- [https://github.com/antfu/ni](https://github.com/antfu/ni)
 
 
 ### 管理yarn
@@ -358,6 +362,7 @@ request({
     * [https://github.com/microsoft/react-native-windows](https://github.com/microsoft/react-native-windows)
     * [https://snack.expo.io](https://snack.expo.io)
     * [https://github.com/streamich/react-use](https://github.com/streamich/react-use)
+    * [https://github.com/FaridSafi/react-native-gifted-chat](https://github.com/FaridSafi/react-native-gifted-chat)
 * 创建桌面应用 [https://github.com/nativefier/nativefier](https://github.com/nativefier/nativefier)
 * [https://github.com/meteor/meteor](https://github.com/meteor/meteor)
 
