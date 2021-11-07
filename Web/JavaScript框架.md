@@ -314,7 +314,6 @@ $('div:contains("test"):not(:has(*)):last').css('background-color', 'red');
 
 
 - [https://github.com/jakerella/jquery-mockjax](https://github.com/jakerella/jquery-mockjax)
-- [https://github.com/nuysoft/Mock](https://github.com/nuysoft/Mock)
 
 
 
