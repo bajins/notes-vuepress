@@ -83,6 +83,7 @@
     * [https://signal.org](https://signal.org)
 * [https://trello.com](https://trello.com)
 * [https://libera.chat](https://libera.chat)
+* [https://teams.microsoft.com](https://teams.microsoft.com)
 * [https://discord.com](https://discord.com)
     * 与Discord的API进行交互 [https://github.com/skwair/harmony](https://github.com/skwair/harmony)
     * [https://github.com/discordjs/discord.js](https://github.com/discordjs/discord.js)
