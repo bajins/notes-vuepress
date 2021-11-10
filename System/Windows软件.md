@@ -204,6 +204,7 @@
 
 **磁力搜索**
 
+- [https://github.com/Olament/gDHT](https://github.com/Olament/gDHT)
 - 流媒体播放 [https://github.com/Stremio](https://github.com/Stremio)
 - 磁力链接聚合搜索 [https://github.com/xiandanin/magnetW](https://github.com/xiandanin/magnetW)
 - [阿虚同学的储物间](http://kyon945.ys168.com)
@@ -738,6 +739,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * ReNamer 批量重命名 [http://www.den4b.com](http://www.den4b.com)
 * 文件去重 [http://www.alldup.info](http://www.alldup.info)
 * 文件资源管理器 [https://www.ghisler.com](https://www.ghisler.com)
+* [https://github.com/tablacus/TablacusExplorer](https://github.com/tablacus/TablacusExplorer)
 * [https://www.softwareok.com/?seite=Freeware/Q-Dir](https://www.softwareok.com/?seite=Freeware/Q-Dir)
 * [https://www.xyplorer.com](https://www.xyplorer.com)
 * [http://www.uderzo.it/main_products/space_sniffer](http://www.uderzo.it/main_products/space_sniffer)

@@ -14,9 +14,9 @@
 + [最详细的PS快捷键大全](http://www.360doc.com/content/19/0507/02/9060464_833889392.shtml)
 + [python、java、c、go执行速度对比](https://www.jianshu.com/p/d60eff598aa0)
 + [如何选择开源许可证？](http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html)
-* [如何选择开源许可证？](https://blog.csdn.net/wadefelix/article/details/6384317)
-* License [https://app.fossa.com](https://app.fossa.com)
-* [https://creativecommons.org](https://creativecommons.org)
++ [如何选择开源许可证？](https://blog.csdn.net/wadefelix/article/details/6384317)
++ License [https://app.fossa.com](https://app.fossa.com)
++ [https://creativecommons.org](https://creativecommons.org)
 
 
 * [https://github.com/search?q=learning](https://github.com/search?q=learning)

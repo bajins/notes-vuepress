@@ -28,6 +28,10 @@
 - [https://github.com/spring-projects-experimental/spring-native](https://github.com/spring-projects-experimental/spring-native)
 - [https://openval.eu/jdk](https://openval.eu/jdk)
 - [https://github.com/spaceflint7/bluebonnet](https://github.com/spaceflint7/bluebonnet)
+- iOS [https://github.com/ibinti/bugvm](https://github.com/ibinti/bugvm)
+- [https://github.com/robovm/robovm](https://github.com/robovm/robovm)
+    - [https://github.com/MobiVM/robovm](https://github.com/MobiVM/robovm)
+- [https://sourceforge.net/projects/xmlvm](https://sourceforge.net/projects/xmlvm)
 
 
 
@@ -54,9 +58,12 @@
     * [https://sap.github.io/SapMachine](https://sap.github.io/SapMachine)
 * [https://github.com/bell-sw](https://github.com/bell-sw)
     * [https://bell-sw.com/pages/downloads](https://bell-sw.com/pages/downloads)
-* [https://github.com/alibaba/dragonwell8](https://github.com/alibaba/dragonwell8)
 * [https://developer.ibm.com/javasdk/downloads](https://developer.ibm.com/javasdk/downloads)
 * [https://github.com/eclipse/openj9](https://github.com/eclipse/openj9)
+* [https://github.com/microsoft/openjdk](https://github.com/microsoft/openjdk)
+    * [https://www.microsoft.com/openjdk](https://www.microsoft.com/openjdk)
+    * [https://docs.microsoft.com/zh-cn/java](https://docs.microsoft.com/zh-cn/java)
+* [https://github.com/alibaba/dragonwell8](https://github.com/alibaba/dragonwell8)
 
 
 - 软件开发套件管理器 [https://github.com/sdkman](https://github.com/sdkman)

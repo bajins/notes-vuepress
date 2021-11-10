@@ -126,6 +126,7 @@
 * [http://mingw-w64.org](http://mingw-w64.org)
     * [https://github.com/mirror/mingw-w64](https://github.com/mirror/mingw-w64)
 * 包管理 [https://packages.msys2.org](https://packages.msys2.org)
+* [https://gstreamer.freedesktop.org/data/pkg/windows](https://gstreamer.freedesktop.org/data/pkg/windows)
 
 
 ### MinGW-w64下载

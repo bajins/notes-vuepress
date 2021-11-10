@@ -91,6 +91,7 @@
 * [https://makecode.microbit.org](https://makecode.microbit.org)
 * [https://github.com/droogmic/microrust](https://github.com/droogmic/microrust)
 * [https://github.com/ARMmbed](https://github.com/ARMmbed)
+* [https://github.com/thepowersgang/rust_os](https://github.com/thepowersgang/rust_os)
 * 物联网 [https://github.com/RT-Thread/rt-thread](https://github.com/RT-Thread/rt-thread)
 
 

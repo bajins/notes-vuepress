@@ -9,7 +9,6 @@
 
 + [https://github.com/topics/nodejs](https://github.com/topics/nodejs)
 + [https://github.com/topics/node-js](https://github.com/topics/node-js)
-+ [https://github.com/denoland/deno](https://github.com/denoland/deno)
 + [https://github.com/nodejs](https://github.com/nodejs)
     + [https://nodejs.org/zh-cn](https://nodejs.org/zh-cn)
 
