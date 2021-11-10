@@ -19,14 +19,6 @@
 + [https://creativecommons.org](https://creativecommons.org)
 
 
-* [https://github.com/search?q=learning](https://github.com/search?q=learning)
-* 英语词汇 [http://testyourvocab.com](http://testyourvocab.com)
-* [https://testyourculture.com](https://testyourculture.com)
-* [https://liuxue.ef.com.cn/epi](https://liuxue.ef.com.cn/epi)
-* [https://freerice.com/categories/english-vocabulary](https://freerice.com/categories/english-vocabulary)
-* 黑客背单词 [https://sourceforge.net/projects/reciteword](https://sourceforge.net/projects/reciteword)
-
-
 - 水印 [https://github.com/topics/watermark](https://github.com/topics/watermark)
 - [https://github.com/dxcweb/watermark](https://github.com/dxcweb/watermark)
 - [https://github.com/Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx)

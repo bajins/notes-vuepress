@@ -284,6 +284,7 @@ taskkill /f /im chromedriver.exe
 - [Save Page WE](https://chrome.google.com/webstore/detail/save-page-we/dhhpefjklgkmgeafimnjhojgjamoafof)
 - [https://github.com/danny0838/webscrapbook](https://github.com/danny0838/webscrapbook)
 - [https://github.com/mika-cn/maoxian-web-clipper](https://github.com/mika-cn/maoxian-web-clipper)
+- 自动化 [https://github.com/Kholid060/automa](https://github.com/Kholid060/automa)
 
 * [GOOGLE 人机验证(RECAPTCHA)无法显示解决方案(可解决大多数 CSP 问题)](https://blog.azurezeng.com/recaptcha-use-in-china)
     * [https://github.com/AzureZeng/azurezeng.github.io](https://github.com/AzureZeng/azurezeng.github.io)
