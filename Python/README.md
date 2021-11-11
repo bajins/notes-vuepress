@@ -27,6 +27,8 @@
     + [https://www.python.org/ftp/python](https://www.python.org/ftp/python)
     + [http://npm.taobao.org/mirrors/python](http://npm.taobao.org/mirrors/python)
 + [https://github.com/psf](https://github.com/psf)
++ [https://github.com/Python-World](https://github.com/Python-World)
+
 
 * [GO-Node-Python的简单性能比较](https://www.izhongxia.com/posts/64310.html)
 * 内置函数 [https://docs.python.org/zh-cn/3/library/functions.html](https://docs.python.org/zh-cn/3/library/functions.html)
@@ -51,7 +53,6 @@
 * [https://github.com/Pierian-Data/Complete-Python-3-Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp)
 * 流式数据处理 [https://github.com/sandabuliu/python-stream](https://github.com/sandabuliu/python-stream)
 * [https://github.com/Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python)
-* [https://github.com/Python-World/python-mini-projects](https://github.com/Python-World/python-mini-projects)
 
 
 
@@ -209,6 +210,7 @@ with Test() as t: # 触发__exit__
 + torch推理 [https://github.com/topics/pytorch](https://github.com/topics/pytorch)
 + [https://github.com/topics/text-recognition](https://github.com/topics/text-recognition)
 + [https://github.com/alexeygrigorev/mlbookcamp-code](https://github.com/alexeygrigorev/mlbookcamp-code)
++ [https://github.com/huggingface](https://github.com/huggingface)
 
 
 * [https://github.com/Tencent/ncnn](https://github.com/Tencent/ncnn)
@@ -221,7 +223,6 @@ with Test() as t: # 触发__exit__
 * [https://github.com/deepmind/lab](https://github.com/deepmind/lab)
 * [https://github.com/pytorch/pytorch](https://github.com/pytorch/pytorch)
 * [https://github.com/OpenNMT](https://github.com/OpenNMT)
-* [https://github.com/huggingface](https://github.com/huggingface)
 * [https://github.com/scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)
 * [https://github.com/xianyi/OpenBLAS](https://github.com/xianyi/OpenBLAS)
 * [https://github.com/Theano/Theano](https://github.com/Theano/Theano)

@@ -58,6 +58,7 @@
 * [https://github.com/DouyinFE/semi-design](https://github.com/DouyinFE/semi-design)
 * [https://github.com/alibaba/ice](https://github.com/alibaba/ice)
 * [https://github.com/tannerlinsley/react-query](https://github.com/tannerlinsley/react-query)
+* [https://github.com/Shopify/hydrogen](https://github.com/Shopify/hydrogen)
 
 
 
