@@ -21,6 +21,7 @@
 * [https://github.com/antchfx](https://github.com/antchfx) htmlquery使用xpath选择器
 * [https://github.com/PuerkitoBio/goquery](https://github.com/PuerkitoBio/goquery) goquery使用css选择器
 * [https://github.com/gocolly/colly](https://github.com/gocolly/colly)
+* [https://github.com/go-predator/predator](https://github.com/go-predator/predator)
 
 
 

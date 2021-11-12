@@ -90,6 +90,8 @@
 * [https://github.com/jinht/ShopCarAnimation](https://github.com/jinht/ShopCarAnimation)
 
 - IOS第三方依赖管理工具 [https://cocoapods.org](https://cocoapods.org)
+- 解锁功能 [https://github.com/VirgilClyne/iRingo](https://github.com/VirgilClyne/iRingo)
+
 
 ### IOS框架
 

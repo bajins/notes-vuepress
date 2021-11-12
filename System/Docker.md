@@ -71,6 +71,7 @@
     * 脚本安装K8S集群 [https://github.com/easzlab/kubeasz](https://github.com/easzlab/kubeasz)
     * [https://github.com/armosec/kubescape](https://github.com/armosec/kubescape)
     * [https://github.com/fanux/sealos](https://github.com/fanux/sealos)
+    * [https://github.com/clusternet/clusternet](https://github.com/clusternet/clusternet)
 * [https://github.com/rook/rook](https://github.com/rook/rook)
 * [https://github.com/lensapp/lens](https://github.com/lensapp/lens)
 * [https://github.com/jenkins-x](https://github.com/jenkins-x)
