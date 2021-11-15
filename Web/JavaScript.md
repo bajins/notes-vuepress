@@ -62,7 +62,6 @@
     * [https://es6.ruanyifeng.com](https://es6.ruanyifeng.com)
 * [https://github.com/30-seconds](https://github.com/30-seconds)
 * [https://github.com/rse/es6-features](https://github.com/rse/es6-features)
-* [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
 * [https://www.javascript.com](https://www.javascript.com)
 * 现代JavaScript教程 [https://github.com/javascript-tutorial/zh.javascript.info](https://github.com/javascript-tutorial/zh.javascript.info)
 * 浏览器脚本教程 [https://www.w3school.com.cn/b.asp](https://www.w3school.com.cn/b.asp)

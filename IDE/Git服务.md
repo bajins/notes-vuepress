@@ -196,8 +196,6 @@ volumes:
 
 ### 访问速度过慢
 
-+ [Jupyter Notebook](/Python/Python.md#jupyter-notebook)
-
 > 可以使用`git config --global url."github.com".insteadOf hub.fastgit.org`来替换url
 
 * php源码 [https://github.com/ilanyu/offline-download](https://github.com/ilanyu/offline-download)

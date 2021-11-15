@@ -94,6 +94,7 @@
 - [https://github.com/shufflewzc/faker2](https://github.com/shufflewzc/faker2)
 - [https://github.com/smiek2221/scripts](https://github.com/smiek2221/scripts)
 - [https://github.com/Aaron-lv/sync](https://github.com/Aaron-lv/sync)
+- [https://github.com/zero205/JD_tencent_scf](https://github.com/zero205/JD_tencent_scf)
 
 
 **联通**

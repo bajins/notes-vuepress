@@ -80,6 +80,7 @@ ls -l | grep test | awk '{print $5}' | sed -n '2p'
 
 
 
+* [https://github.com/adrianscheff/useful-sed](https://github.com/adrianscheff/useful-sed)
 
 - `awk` 文本处理命令，`print`后面是你要获取第几列
 - `sed` 行编辑器，`-n`是指定第几行。
@@ -89,8 +90,6 @@ ls -l | grep test | awk '{print $5}' | sed -n '2p'
     - `c` 替换
     - `w` 写入
     - `i` 插入
-
-
 - `cut`命令用于显示每行从开头算起num1到num2的文字
     - `-b` ：以字节为单位进行分割。这些字节位置将忽略多字节字符边界，除非也指定了`-n`标志。
     - `-c` ：以字符为单位进行分割。

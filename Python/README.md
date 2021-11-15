@@ -28,6 +28,7 @@
     + [http://npm.taobao.org/mirrors/python](http://npm.taobao.org/mirrors/python)
 + [https://github.com/psf](https://github.com/psf)
 + [https://github.com/Python-World](https://github.com/Python-World)
++ [https://github.com/taichi-dev/taichi](https://github.com/taichi-dev/taichi)
 
 
 * [GO-Node-Python的简单性能比较](https://www.izhongxia.com/posts/64310.html)
