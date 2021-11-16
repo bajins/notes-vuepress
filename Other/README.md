@@ -16,6 +16,7 @@
 + [如何选择开源许可证？](http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html)
 + [如何选择开源许可证？](https://blog.csdn.net/wadefelix/article/details/6384317)
 + License [https://app.fossa.com](https://app.fossa.com)
++ 开源指南 [https://github.com/github/opensource.guide](https://github.com/github/opensource.guide)
 + [https://creativecommons.org](https://creativecommons.org)
 
 

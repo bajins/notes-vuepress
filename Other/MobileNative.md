@@ -182,6 +182,7 @@
     + [https://github.com/Flytreels/vpro-romedit](https://github.com/Flytreels/vpro-romedit)
     + [https://github.com/you2032/Pure-ROM](https://github.com/you2032/Pure-ROM)
 + [解决雷电/夜神/逍遥模拟器系统5.1以上无法抓包的问题](https://www.52pojie.cn/thread-1505329-1-1.html)
++ PC显示和控制 [https://github.com/Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)
 
 
 

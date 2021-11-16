@@ -353,6 +353,7 @@ taskkill /f /im chromedriver.exe
     * [https://github.com/Mottie/GitHub-userscripts](https://github.com/Mottie/GitHub-userscripts)
     * [https://github.com/XIU2/UserScript](https://github.com/XIU2/UserScript)
 * [脚本助手：violentmonkey](https://github.com/violentmonkey/violentmonkey)
+* 解锁加密音乐 [https://github.com/unlock-music/unlock-music](https://github.com/unlock-music/unlock-music)
 * [阅读模式：reader-view](https://chrome.google.com/webstore/detail/reader-view/iibolhpkjjmoepndefdmdlmbpfhlgjpl)
 * [阅读模式：just-read](https://github.com/ZachSaucier/Just-Read)
 * [https://github.com/rNeomy/reader-view](https://github.com/rNeomy/reader-view)

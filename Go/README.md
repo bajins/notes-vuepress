@@ -211,6 +211,7 @@
 * 模板引擎 [https://github.com/valyala/quicktemplate](https://github.com/valyala/quicktemplate)
 * 编解码器 [https://github.com/ugorji/go](https://github.com/ugorji/go)
 * 编码 [https://github.com/axgle/mahonia](https://github.com/axgle/mahonia)
+* 加密 [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 * AES256 GCM [https://github.com/sumup-oss/vaulted](https://github.com/sumup-oss/vaulted)
 * Golang注解 [https://github.com/MarcGrol/golangAnnotations](https://github.com/MarcGrol/golangAnnotations)
 * [https://github.com/sbinet/go-python](https://github.com/sbinet/go-python)
