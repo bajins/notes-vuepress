@@ -14,7 +14,8 @@ module.exports = {
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
         ['meta', { name: 'msapplication-TileImage', content: '/images/icons/logo.png' }],
         ['meta', { name: 'msapplication-TileColor', content: '#ffffff' }],
-        ['meta', { name: 'keywords', content: `bajins,vue,vuepress,vuepress-theme,theme,主题,vuepress主题,blog
+        ['meta', {
+            name: 'keywords', content: `bajins,vue,vuepress,vuepress-theme,theme,主题,vuepress主题,blog
         ,vuepress-blog,java,python,shell,sql,golang,script,shell script,nginx,windows,去广告,androd,google drive
         ,one drive,idea,eclipse,git,小程序` }],
         ['meta', { name: 'referrer', content: 'never' }],
@@ -132,12 +133,16 @@ module.exports = {
                     icon: '',
                     name: '饿了么',
                     link: '',
-                    popover: {
+                    popover: [{
                         title: '用APP扫码最高翻3倍',
                         type: 'image',
                         // imageUrl: 'https://i.imgur.com/n2fpw74.jpg',
                         imageUrl: 'https://static01.imgkr.com/temp/472bc8289879436a9001716482a844fe.jpg',
-                    }
+                    }, {
+                        title: '扫码享优惠',
+                        type: 'image',
+                        imageUrl: 'https://static01.imgkr.com/temp/6d3b6811e8a4474481c52f8d7f2dfbf4.png',
+                    }]
                 },
                 {
                     icon: '',

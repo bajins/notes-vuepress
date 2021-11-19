@@ -430,6 +430,7 @@
 * [https://github.com/ether/etherpad-lite](https://github.com/ether/etherpad-lite)
 * [https://github.com/anytypeio](https://github.com/anytypeio)
 * 团队协作和文档 [https://www.notion.so](https://www.notion.so)
+* [https://github.com/AppFlowy-IO/appflowy](https://github.com/AppFlowy-IO/appflowy)
 * 腾讯文档 [http://docs.qq.com](http://docs.qq.com)
 * [https://github.com/seatable](https://github.com/seatable)
 * [https://slack.com](https://slack.com)
@@ -498,6 +499,7 @@
 
 - 查询IP地理信息 [https://github.com/zu1k/nali](https://github.com/zu1k/nali)
 - DNS扫描 [https://github.com/pwnesia/dnstake](https://github.com/pwnesia/dnstake)
+- [https://github.com/zartbot/ztrace](https://github.com/zartbot/ztrace)
 
 **`ping`、`tcptraceroute`、`traceroute`、`mtr`**
 

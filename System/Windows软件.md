@@ -258,6 +258,7 @@
 * [https://github.com/DeSireFire/animeTrackerList](https://github.com/DeSireFire/animeTrackerList)
 * [https://github.com/1265578519/OpenTracker](https://github.com/1265578519/OpenTracker)
 * [http://opentrackr.org](http://opentrackr.org)
+* [https://github.com/sabersalv/awesome-pt](https://github.com/sabersalv/awesome-pt)
 
 
 
@@ -814,6 +815,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * 鼠标手势 [https://github.com/yingDev/WGestures](https://github.com/yingDev/WGestures)
 * 鼠标增强 [https://github.com/majorworld/MousePlus](https://github.com/majorworld/MousePlus)
 * 效率工具 [https://github.com/cuiliang/Quicker](https://github.com/cuiliang/Quicker)
+* [https://www.sordum.org](https://www.sordum.org)
 * [https://u.tools](https://u.tools)
 * 加强Capslock键 [https://github.com/wo52616111/capslock-plus](https://github.com/wo52616111/capslock-plus)
 * 快速查看 [https://github.com/QL-Win/QuickLook](https://github.com/QL-Win/QuickLook)

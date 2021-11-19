@@ -236,6 +236,7 @@ var express = require('express');
 * 树视图/树网格插件 [https://github.com/mar10/fancytree](https://github.com/mar10/fancytree)
 * 交互式地图 [https://github.com/openlayers/openlayers](https://github.com/openlayers/openlayers)
     * [https://github.com/ghettovoice/ol-mapscale](https://github.com/ghettovoice/ol-mapscale)
+* book阅读 [https://github.com/johnfactotum/foliate](https://github.com/johnfactotum/foliate)
 
 - [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
 - [https://github.com/HTMLElements](https://github.com/HTMLElements)
@@ -548,6 +549,7 @@ var express = require('express');
 * 字体滚动 [https://github.com/chenjianfang/scroxt](https://github.com/chenjianfang/scroxt)
 * [https://github.com/kalkih/mini-media-player](https://github.com/kalkih/mini-media-player)
 * [https://github.com/jwplayer/jwplayer](https://github.com/jwplayer/jwplayer)
+* [https://github.com/phoboslab/jsmpeg](https://github.com/phoboslab/jsmpeg)
 
 
 **反爬虫**

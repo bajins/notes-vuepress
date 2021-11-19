@@ -21,7 +21,8 @@
 
 - 代码搜索和替换 [https://github.com/comby-tools/comby](https://github.com/comby-tools/comby)
 - [https://github.com/dsznajder/vscode-es7-javascript-react-snippets](https://github.com/dsznajder/vscode-es7-javascript-react-snippets)
-* 工具 [https://github.com/864381832/xJavaFxTool](https://github.com/864381832/xJavaFxTool)
+- 工具 [https://github.com/864381832/xJavaFxTool](https://github.com/864381832/xJavaFxTool)
+- WakaTime [https://github.com/muety/wakapi](https://github.com/muety/wakapi)
 
 
 
