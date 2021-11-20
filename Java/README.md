@@ -247,6 +247,7 @@
     + [http://vertx.io](http://vertx.io)
     + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
 + WebFlux默认反应式框架 [https://github.com/reactor](https://github.com/reactor)
+    + [翻译文档中文版](http://htmlpreview.github.io/?https://github.com/get-set/reactor-core/blob/master-zh/src/docs/index.html)
 + 响应流框架 [https://github.com/Atmosphere](https://github.com/Atmosphere)
 + [https://github.com/netty/netty](https://github.com/netty/netty)
 + [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
