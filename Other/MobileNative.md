@@ -67,6 +67,8 @@
 - [https://github.com/xmcy0011/CoffeeChat](https://github.com/xmcy0011/CoffeeChat)
 - [https://github.com/Sangwan5688/BlackHole](https://github.com/Sangwan5688/BlackHole)
 - 翻译 [https://github.com/biyidev/biyi_app](https://github.com/biyidev/biyi_app)
+- [https://github.com/huangruiLearn/flutter_hrlweibo](https://github.com/huangruiLearn/flutter_hrlweibo)
+- [https://github.com/sabernwj/cookiej](https://github.com/sabernwj/cookiej)
 
 
 **Dart**
@@ -89,6 +91,11 @@
 * [https://github.com/pujiaxin33/JXSegmentedView](https://github.com/pujiaxin33/JXSegmentedView)
 * [https://github.com/jinht/ShopCarAnimation](https://github.com/jinht/ShopCarAnimation)
 
+
++ IDE [https://www.jetbrains.com/zh-cn/objc](https://www.jetbrains.com/zh-cn/objc)
+
+
+
 - IOS第三方依赖管理工具 [https://cocoapods.org](https://cocoapods.org)
 - 解锁功能 [https://github.com/VirgilClyne/iRingo](https://github.com/VirgilClyne/iRingo)
 
@@ -106,16 +113,16 @@
 + [https://github.com/android](https://github.com/android)
     + [https://developer.android.com](https://developer.android.com)
     + [https://developer.android.google.cn](https://developer.android.google.cn)
++ [https://github.com/aosp-mirror](https://github.com/aosp-mirror)
+    + [https://github.com/AospExtended](https://github.com/AospExtended)
++ [https://github.com/aosp-riscv](https://github.com/aosp-riscv)
 + [https://developer.android.google.cn/jetpack/compose](https://developer.android.google.cn/jetpack/compose)
 + [https://developer.android.google.cn/jetpack/androidx/compose-roadmap](https://developer.android.google.cn/jetpack/androidx/compose-roadmap)
 + [https://android-arsenal.com](https://android-arsenal.com)
-+ 面试题 [https://github.com/Blankj/AndroidOfferKiller](https://github.com/Blankj/AndroidOfferKiller)
-+ [https://github.com/jeanboydev/Android-ReadTheFuckingSourceCode](https://github.com/jeanboydev/Android-ReadTheFuckingSourceCode)
-+ [https://github.com/pengMaster/BestNote](https://github.com/pengMaster/BestNote)
-+ [https://github.com/Omooo/Android-Notes](https://github.com/Omooo/Android-Notes)
 
 
-
+- IDE [https://developer.android.google.cn/studio](https://developer.android.google.cn/studio)
+    - [https://github.com/Vove7/retrofit-rest-client](https://github.com/Vove7/retrofit-rest-client)
 - [https://github.com/arduino/Arduino](https://github.com/arduino/Arduino)
 - [https://www.visualmicro.com](https://www.visualmicro.com)
 - [https://github.com/Sloeber/arduino-eclipse-plugin](https://github.com/Sloeber/arduino-eclipse-plugin)
@@ -123,55 +130,13 @@
 - [https://blynk.cloud](https://blynk.cloud)
 
 
-
-* [https://github.com/getActivity](https://github.com/getActivity)
-* [https://github.com/afkT/DevUtils](https://github.com/afkT/DevUtils)
-* [https://github.com/DyncKathline](https://github.com/DyncKathline)
-* [https://github.com/wave-chtj/BaseIotUtils](https://github.com/wave-chtj/BaseIotUtils)
-* [https://github.com/lihangleo2/Imgdots](https://github.com/lihangleo2/Imgdots)
-* [https://github.com/yangchong211/YCVideoPlayer](https://github.com/yangchong211/YCVideoPlayer)
-* [https://github.com/guofudong/KotlinAndroid](https://github.com/guofudong/KotlinAndroid)
-* [https://github.com/Justson/Downloader](https://github.com/Justson/Downloader)
-* [https://github.com/Justson/AgentWeb](https://github.com/Justson/AgentWeb)
-* [Android运行时权限申请库](https://github.com/ysbing/YPermission)
-* 秒级编译方案 [https://github.com/alibaba/freeline](https://github.com/alibaba/freeline)
-* [Android-FFmpeg开源库使用及图片压缩开源工具使用](https://www.jianshu.com/p/e960854d3705)
-* 查看包差异 [https://github.com/JakeWharton/diffuse](https://github.com/JakeWharton/diffuse)
-* 使用SQLite [https://github.com/guolindev/LitePal](https://github.com/guolindev/LitePal)
-* 反射 [https://github.com/tiann/FreeReflection](https://github.com/tiann/FreeReflection)
-* [https://github.com/linkedin/dexmaker](https://github.com/linkedin/dexmaker)
-* [https://github.com/Dsiner/UIUtil](https://github.com/Dsiner/UIUtil)
-* [https://github.com/jonfinerty/Once](https://github.com/jonfinerty/Once)
-* 打包 [https://github.com/Meituan-Dianping/walle](https://github.com/Meituan-Dianping/walle)
-* 媒体管理 [https://github.com/bumptech/glide](https://github.com/bumptech/glide)
-* [https://github.com/yanzhenjie/SwipeRecyclerView](https://github.com/yanzhenjie/SwipeRecyclerView)
-* 停止应用程序 [https://github.com/XYScience/StopApp](https://github.com/XYScience/StopApp)
-* 版本检测升级 [https://github.com/AlexLiuSheng/CheckVersionLib](https://github.com/AlexLiuSheng/CheckVersionLib)
-* 关于页面 [https://github.com/medyo/android-about-page](https://github.com/medyo/android-about-page)
-* [https://github.com/MegatronKing/StringFog](https://github.com/MegatronKing/StringFog)
-* zip压缩 [https://github.com/zeroturnaround/zt-zip](https://github.com/zeroturnaround/zt-zip)
-* 对话框 [https://github.com/afollestad/material-dialogs](https://github.com/afollestad/material-dialogs)
-* 许可证对话框 [https://github.com/PSDev/LicensesDialog](https://github.com/PSDev/LicensesDialog)
-* JQuery [https://github.com/jdeferred/jdeferred](https://github.com/jdeferred/jdeferred)
-* 播放器 [https://github.com/Bilibili/ijkplayer](https://github.com/Bilibili/ijkplayer)
-* [https://github.com/CarGuo/GSYVideoPlayer](https://github.com/CarGuo/GSYVideoPlayer)
-* 内存泄漏检测 [https://github.com/square/leakcanary](https://github.com/square/leakcanary)
-* GPS [https://gitlab.com/gpsd/gpsd](https://gitlab.com/gpsd/gpsd)
-* [https://sourceforge.net/projects/viking](https://sourceforge.net/projects/viking)
-* [https://github.com/navit-gps/navit](https://github.com/navit-gps/navit)
-* [https://gitlab.freedesktop.org/geoclue/geoclue](https://gitlab.freedesktop.org/geoclue/geoclue)
-
-
-
++ 面试题 [https://github.com/Blankj/AndroidOfferKiller](https://github.com/Blankj/AndroidOfferKiller)
++ [https://github.com/jeanboydev/Android-ReadTheFuckingSourceCode](https://github.com/jeanboydev/Android-ReadTheFuckingSourceCode)
++ [https://github.com/pengMaster/BestNote](https://github.com/pengMaster/BestNote)
++ [https://github.com/Omooo/Android-Notes](https://github.com/Omooo/Android-Notes)
 + [归档 | Homurax's Blog](https://blog.homurax.com/archives)
 + [Android：JNI 与 NDK到底是什么？](https://blog.csdn.net/carson_ho/article/details/73250163)
 
-- [https://github.com/aosp-mirror](https://github.com/aosp-mirror)
-- [https://github.com/Vove7/retrofit-rest-client](https://github.com/Vove7/retrofit-rest-client)
-- [https://github.com/LiushuiXiaoxia](https://github.com/LiushuiXiaoxia)
-- [https://github.com/huangruiLearn/flutter_hrlweibo](https://github.com/huangruiLearn/flutter_hrlweibo)
-- [https://github.com/sabernwj/cookiej](https://github.com/sabernwj/cookiej)
-- [https://github.com/gsantner/markor](https://github.com/gsantner/markor)
 
 + adb和fastboot [https://github.com/fast-geek/Android-Tool](https://github.com/fast-geek/Android-Tool)
 + 在linux下运行安卓应用xDroid [https://www.linzhuotech.com](https://www.linzhuotech.com)
@@ -296,7 +261,49 @@
 
 
 
-### 框架
+### 第三方依赖库
+
+* [https://github.com/getActivity](https://github.com/getActivity)
+* [https://github.com/LiushuiXiaoxia](https://github.com/LiushuiXiaoxia)
+* [https://github.com/afkT/DevUtils](https://github.com/afkT/DevUtils)
+* [https://github.com/DyncKathline](https://github.com/DyncKathline)
+* [https://github.com/wave-chtj/BaseIotUtils](https://github.com/wave-chtj/BaseIotUtils)
+* [https://github.com/lihangleo2/Imgdots](https://github.com/lihangleo2/Imgdots)
+* [https://github.com/yangchong211/YCVideoPlayer](https://github.com/yangchong211/YCVideoPlayer)
+* [https://github.com/guofudong/KotlinAndroid](https://github.com/guofudong/KotlinAndroid)
+* [https://github.com/Justson/Downloader](https://github.com/Justson/Downloader)
+* [https://github.com/Justson/AgentWeb](https://github.com/Justson/AgentWeb)
+* [Android运行时权限申请库](https://github.com/ysbing/YPermission)
+* 秒级编译方案 [https://github.com/alibaba/freeline](https://github.com/alibaba/freeline)
+* [Android-FFmpeg开源库使用及图片压缩开源工具使用](https://www.jianshu.com/p/e960854d3705)
+* 查看包差异 [https://github.com/JakeWharton/diffuse](https://github.com/JakeWharton/diffuse)
+* 使用SQLite [https://github.com/guolindev/LitePal](https://github.com/guolindev/LitePal)
+* 反射 [https://github.com/tiann/FreeReflection](https://github.com/tiann/FreeReflection)
+* [https://github.com/linkedin/dexmaker](https://github.com/linkedin/dexmaker)
+* [https://github.com/Dsiner/UIUtil](https://github.com/Dsiner/UIUtil)
+* [https://github.com/jonfinerty/Once](https://github.com/jonfinerty/Once)
+* 打包 [https://github.com/Meituan-Dianping/walle](https://github.com/Meituan-Dianping/walle)
+* 媒体管理 [https://github.com/bumptech/glide](https://github.com/bumptech/glide)
+* [https://github.com/yanzhenjie/SwipeRecyclerView](https://github.com/yanzhenjie/SwipeRecyclerView)
+* 停止应用程序 [https://github.com/XYScience/StopApp](https://github.com/XYScience/StopApp)
+* 版本检测升级 [https://github.com/AlexLiuSheng/CheckVersionLib](https://github.com/AlexLiuSheng/CheckVersionLib)
+* 关于页面 [https://github.com/medyo/android-about-page](https://github.com/medyo/android-about-page)
+* [https://github.com/MegatronKing/StringFog](https://github.com/MegatronKing/StringFog)
+* zip压缩 [https://github.com/zeroturnaround/zt-zip](https://github.com/zeroturnaround/zt-zip)
+* 对话框 [https://github.com/afollestad/material-dialogs](https://github.com/afollestad/material-dialogs)
+* 许可证对话框 [https://github.com/PSDev/LicensesDialog](https://github.com/PSDev/LicensesDialog)
+* JQuery [https://github.com/jdeferred/jdeferred](https://github.com/jdeferred/jdeferred)
+* 播放器 [https://github.com/Bilibili/ijkplayer](https://github.com/Bilibili/ijkplayer)
+* [https://github.com/CarGuo/GSYVideoPlayer](https://github.com/CarGuo/GSYVideoPlayer)
+* 内存泄漏检测 [https://github.com/square/leakcanary](https://github.com/square/leakcanary)
+* GPS [https://gitlab.com/gpsd/gpsd](https://gitlab.com/gpsd/gpsd)
+* [https://sourceforge.net/projects/viking](https://sourceforge.net/projects/viking)
+* [https://github.com/navit-gps/navit](https://github.com/navit-gps/navit)
+* [https://gitlab.freedesktop.org/geoclue/geoclue](https://gitlab.freedesktop.org/geoclue/geoclue)
+
+
+
+**框架**
 
 * [https://github.com/ddnosh/AndroidQuick](https://github.com/ddnosh/AndroidQuick)
 * [https://github.com/ddnosh?tab=repositories](https://github.com/ddnosh?tab=repositories)
@@ -349,6 +356,7 @@
 
 
 * see [https://caij.coding.net/public](https://caij.coding.net/public)
+* 文本编辑器 [https://github.com/gsantner/markor](https://github.com/gsantner/markor)
 * YouTube [https://github.com/YTVanced/VancedManager](https://github.com/YTVanced/VancedManager)
 * 谷歌框架 [https://opengapps.org](https://opengapps.org)
 

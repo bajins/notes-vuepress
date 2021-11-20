@@ -20,6 +20,12 @@
 * [golang的指针类型,unsafe.Pointer类型和uintptr类型的区别](https://www.jianshu.com/p/1a49b361d2a1)
 
 
+<details>
+<summary><b>展开查看初始化顺序</b></summary>
+<img src="/images/go的man和init执行过程.png" alt>
+</details>
+
+
 **日志**
 
 ```go
