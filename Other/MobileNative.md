@@ -261,7 +261,7 @@
 
 
 
-### 第三方依赖库
+### 第三方依赖
 
 * [https://github.com/getActivity](https://github.com/getActivity)
 * [https://github.com/LiushuiXiaoxia](https://github.com/LiushuiXiaoxia)

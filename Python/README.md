@@ -86,6 +86,7 @@ with Test() as t: # 触发__exit__
 + [https://github.com/vinta/awesome-python](https://github.com/vinta/awesome-python)
 + [Python 常用的标准库以及第三方库有哪些？](https://www.zhihu.com/question/20501628/answers/updated)
 
+* 应用监控 [https://github.com/SolarEdgeTech/pyctuator](https://github.com/SolarEdgeTech/pyctuator)
 * [Python图像处理库—-Pillow](https://www.lizenghai.com/archives/17611.html)
 * 基于异步库 [https://github.com/aio-libs](https://github.com/aio-libs)
 * 协程 [https://github.com/python-greenlet/greenlet](https://github.com/python-greenlet/greenlet)

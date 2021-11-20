@@ -18,6 +18,10 @@
     * [https://www.oracle.com/java/technologies/java-ee-glance.html](https://www.oracle.com/java/technologies/java-ee-glance.html)
 
 
+
+
+**通用VM/本地镜像**
+
 - [https://github.com/topics/native-image](https://github.com/topics/native-image)
     - [GraalVM Native Image介绍](https://aijishu.com/a/1060000000090571)
     - [下一代JVM：GraalVM的十大特性](http://it.deepinmind.com/jvm/2019/08/27/graalvm-ten-things.html)
@@ -26,6 +30,7 @@
 - SubstrateVM [https://github.com/oracle/graal](https://github.com/oracle/graal)
     - [https://github.com/westinyang/java-graalvm-start](https://github.com/westinyang/java-graalvm-start)
 - [https://github.com/spring-projects-experimental/spring-native](https://github.com/spring-projects-experimental/spring-native)
+- [https://docs.spring.io/spring-native/docs/current/reference/htmlsingle](https://docs.spring.io/spring-native/docs/current/reference/htmlsingle)
 - [https://openval.eu/jdk](https://openval.eu/jdk)
 - [https://github.com/spaceflint7/bluebonnet](https://github.com/spaceflint7/bluebonnet)
 - iOS [https://github.com/ibinti/bugvm](https://github.com/ibinti/bugvm)
@@ -43,6 +48,7 @@
 
 * [https://github.com/openjdk](https://github.com/openjdk)
     * [http://hg.openjdk.java.net](http://hg.openjdk.java.net)
+    * [https://github.com/ojdkbuild/ojdkbuild](https://github.com/ojdkbuild/ojdkbuild)
 * ~~[https://github.com/AdoptOpenJDK](https://github.com/AdoptOpenJDK)~~
     * ~~[https://adoptopenjdk.net](https://adoptopenjdk.net)~~
 * [https://github.com/adoptium](https://github.com/adoptium)
@@ -52,17 +58,16 @@
 * [https://github.com/zulu-openjdk](https://github.com/zulu-openjdk)
     * [https://www.azul.com/downloads/zulu](https://cn.azul.com/downloads/zulu)
     * [https://cdn.azul.com/zulu/bin](https://cdn.azul.com/zulu/bin)
-* [https://github.com/ojdkbuild/ojdkbuild](https://github.com/ojdkbuild/ojdkbuild)
-* [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)
-* [https://github.com/SAP/SapMachine](https://github.com/SAP/SapMachine)
-    * [https://sap.github.io/SapMachine](https://sap.github.io/SapMachine)
 * [https://github.com/bell-sw](https://github.com/bell-sw)
     * [https://bell-sw.com/pages/downloads](https://bell-sw.com/pages/downloads)
-* [https://developer.ibm.com/javasdk/downloads](https://developer.ibm.com/javasdk/downloads)
-* [https://github.com/eclipse/openj9](https://github.com/eclipse/openj9)
+* [https://github.com/SAP/SapMachine](https://github.com/SAP/SapMachine)
+    * [https://sap.github.io/SapMachine](https://sap.github.io/SapMachine)
+* [https://developer.ibm.com/javasdk](https://developer.ibm.com/javasdk)
+* [https://developers.redhat.com/products/openjdk](https://developers.redhat.com/products/openjdk)
 * [https://github.com/microsoft/openjdk](https://github.com/microsoft/openjdk)
     * [https://www.microsoft.com/openjdk](https://www.microsoft.com/openjdk)
     * [https://docs.microsoft.com/zh-cn/java](https://docs.microsoft.com/zh-cn/java)
+* [https://github.com/eclipse-openj9/openj9](https://github.com/eclipse-openj9/openj9)
 * [https://github.com/alibaba/dragonwell8](https://github.com/alibaba/dragonwell8)
 
 

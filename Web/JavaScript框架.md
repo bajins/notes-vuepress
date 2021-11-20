@@ -341,6 +341,7 @@ $("#id").off("click").on("click",function(){
 + [https://github.com/topics/bootstrap](https://github.com/topics/bootstrap)
 + [https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap)
     + [https://www.bootcss.com](https://www.bootcss.com)
+	+ [https://getbootstrap.com](https://getbootstrap.com)
 
 * [https://github.com/jquery/jquery-ui](https://github.com/jquery/jquery-ui)
 * 颜色选择器 [https://github.com/itsjavi/bootstrap-colorpicker](https://github.com/itsjavi/bootstrap-colorpicker)

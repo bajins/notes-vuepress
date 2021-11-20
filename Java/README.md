@@ -177,45 +177,20 @@
 
 ## 第三方库
 
-* [https://github.com/akullpp/awesome-java](https://github.com/akullpp/awesome-java)
-* [https://github.com/topics/java-library](https://github.com/topics/java-library)
-
-
++ [https://github.com/akullpp/awesome-java](https://github.com/akullpp/awesome-java)
++ [https://github.com/topics/java-library](https://github.com/topics/java-library)
 + [https://github.com/xuxueli](https://github.com/xuxueli)
 + [https://github.com/typetools](https://github.com/typetools)
 + [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
     + [下载地址镜像](/Other/README.md#通用镜像)
-+ [https://github.com/topics/nio](https://github.com/topics/nio)
-+ [https://github.com/topics/java-nio](https://github.com/topics/java-nio)
-+ 响应式 [https://github.com/eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x)
-    + [https://github.com/vert-x3](https://github.com/vert-x3)
-    + [http://vertx.io](http://vertx.io)
-    + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
-+ WebFlux默认反应式框架 [https://github.com/reactor](https://github.com/reactor)
-+ 响应流框架 [https://github.com/Atmosphere](https://github.com/Atmosphere)
-+ [https://github.com/netty/netty](https://github.com/netty/netty)
-+ [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
-+ [https://github.com/TooTallNate/Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket)
-+ Web框架 [https://github.com/perwendel/spark](https://github.com/perwendel/spark)
-+ [https://github.com/topics/shiro](https://github.com/topics/shiro)
-    + [https://github.com/johntostring/spring-boot-shiro](https://github.com/johntostring/spring-boot-shiro)
-    + [https://github.com/YuxingXie/shiro](https://github.com/YuxingXie/shiro)
-+ 简单的Web框架 [https://github.com/javalin](https://github.com/javalin)
-+ 工作流框架 [https://github.com/Activiti/Activiti](https://github.com/Activiti/Activiti)
-    + [https://github.com/henryyan/activiti-in-action-codes](https://github.com/henryyan/activiti-in-action-codes)
-+ [https://github.com/apache/hadoop](https://github.com/apache/hadoop)
-+ 云原生框架 [https://github.com/quarkusio/quarkus](https://github.com/quarkusio/quarkus)
-+ [https://github.com/bootique/bootique](https://github.com/bootique/bootique)
-+ 全堆栈框架 [https://github.com/micronaut-projects](https://github.com/micronaut-projects)
-+ [https://github.com/ClouGence/hasor](https://github.com/ClouGence/hasor)
-+ [https://github.com/minbox-projects](https://github.com/minbox-projects)
-    + [https://gitee.com/minbox-projects](https://gitee.com/minbox-projects)
 
 
 * [https://github.com/eclipse-ee4j/soteria](https://github.com/eclipse-ee4j/soteria)
 * 权限认证框架 [https://github.com/dromara/Sa-Token](https://github.com/dromara/Sa-Token)
 * jwt [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)
 * [https://github.com/auth0/java-jwt](https://github.com/auth0/java-jwt)
+* 消息数据传递 [https://github.com/apache/camel](https://github.com/apache/camel)
+* [https://github.com/solacedev](https://github.com/solacedev)
 * [https://github.com/rabbitmq](https://github.com/rabbitmq)
 * [https://github.com/apache/kafka](https://github.com/apache/kafka)
     * [Kafka安装及入门](http://jaychang.cn/2020/03/15/afka%E5%AE%89%E8%A3%85%E5%8F%8A%E5%85%A5%E9%97%A8)
@@ -230,7 +205,7 @@
     * [JSch-用java实现服务器远程操作](https://segmentfault.com/a/1190000019967309)
 * [https://projects.eclipse.org/projects/technology.microprofile](https://projects.eclipse.org/projects/technology.microprofile)
     * [https://github.com/eclipse/microprofile](https://github.com/eclipse/microprofile)
-* [https://github.com/webjars](https://github.com/webjars)
+* 嵌入静态资源 [https://github.com/webjars](https://github.com/webjars)
     * [https://www.webjars.org](https://www.webjars.org)
 * 图形验证码 [https://github.com/whvcse/EasyCaptcha](https://github.com/whvcse/EasyCaptcha)
 * [https://github.com/orclight/jcaptcha](https://github.com/orclight/jcaptcha)
@@ -260,8 +235,40 @@
         - [https://community.jaspersoft.com](https://community.jaspersoft.com)
 
 
-
 **[HTTP](/Java/Java笔记.md#HTTP)**
+
+
+**框架**
+
++ [https://github.com/topics/nio](https://github.com/topics/nio)
++ [https://github.com/topics/java-nio](https://github.com/topics/java-nio)
++ 响应式 [https://github.com/eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x)
+    + [https://github.com/vert-x3](https://github.com/vert-x3)
+    + [http://vertx.io](http://vertx.io)
+    + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
++ WebFlux默认反应式框架 [https://github.com/reactor](https://github.com/reactor)
++ 响应流框架 [https://github.com/Atmosphere](https://github.com/Atmosphere)
++ [https://github.com/netty/netty](https://github.com/netty/netty)
++ [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
++ [https://github.com/TooTallNate/Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket)
++ Web框架 [https://github.com/perwendel/spark](https://github.com/perwendel/spark)
++ [https://github.com/topics/shiro](https://github.com/topics/shiro)
+    + [https://github.com/johntostring/spring-boot-shiro](https://github.com/johntostring/spring-boot-shiro)
+    + [https://github.com/YuxingXie/shiro](https://github.com/YuxingXie/shiro)
++ 简单的Web框架 [https://github.com/javalin](https://github.com/javalin)
++ 工作流框架 [https://github.com/Activiti/Activiti](https://github.com/Activiti/Activiti)
+    + [https://github.com/henryyan/activiti-in-action-codes](https://github.com/henryyan/activiti-in-action-codes)
++ [https://github.com/apache/hadoop](https://github.com/apache/hadoop)
++ 云原生框架 [https://github.com/quarkusio/quarkus](https://github.com/quarkusio/quarkus)
++ [https://github.com/bootique/bootique](https://github.com/bootique/bootique)
++ 全堆栈框架 [https://github.com/micronaut-projects](https://github.com/micronaut-projects)
++ [https://github.com/ClouGence/hasor](https://github.com/ClouGence/hasor)
++ [https://github.com/minbox-projects](https://github.com/minbox-projects)
+    + [https://gitee.com/minbox-projects](https://gitee.com/minbox-projects)
++ [https://github.com/microprofile](https://github.com/microprofile)
+    + [https://microprofile.io](https://microprofile.io)
++ [https://github.com/vaadin](https://github.com/vaadin)
+
 
 
 **LOG**
@@ -353,7 +360,7 @@
 * [https://github.com/toolgood/ToolGood.Words](https://github.com/toolgood/ToolGood.Words)
 * 中文繁简体转换 [https://github.com/houbb/opencc4j](https://github.com/houbb/opencc4j)
 * [https://github.com/xiaodaojava/sunshine](https://github.com/xiaodaojava/sunshine)
-*  数据可视化 [https://github.com/jtablesaw/tablesaw](https://github.com/jtablesaw/tablesaw)
+* 数据可视化 [https://github.com/jtablesaw/tablesaw](https://github.com/jtablesaw/tablesaw)
 * 字符串编码解码 [https://github.com/shekhargulati/strman-java](https://github.com/shekhargulati/strman-java)
 * 元组 [https://github.com/javatuples](https://github.com/javatuples)
     * [在Java中使用元组类型的利器javatuples](https://blog.csdn.net/lijingjingchn/article/details/87279294)
