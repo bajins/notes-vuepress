@@ -239,6 +239,7 @@ var express = require('express');
 * 交互式地图 [https://github.com/openlayers/openlayers](https://github.com/openlayers/openlayers)
     * [https://github.com/ghettovoice/ol-mapscale](https://github.com/ghettovoice/ol-mapscale)
 * book阅读 [https://github.com/johnfactotum/foliate](https://github.com/johnfactotum/foliate)
+* 并发 [https://github.com/rxaviers/async-pool](https://github.com/rxaviers/async-pool)
 
 - [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
 - [https://github.com/HTMLElements](https://github.com/HTMLElements)
