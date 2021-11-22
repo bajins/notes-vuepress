@@ -95,6 +95,15 @@
 
 
 
+* [https://github.com/WSA-Community/WSAGAScript](https://github.com/WSA-Community/WSAGAScript)
+* [https://github.com/LSPosed/MagiskOnWSA](https://github.com/LSPosed/MagiskOnWSA)
+* [https://github.com/LSPosed/WSA-Kernel-SU](https://github.com/LSPosed/WSA-Kernel-SU)
+* [https://github.com/opengapps/opengapps](https://github.com/opengapps/opengapps)
+    * [https://sourceforge.net/projects/opengapps](https://sourceforge.net/projects/opengapps)
+
+
+
+
 ## MinGW-w64
 
 > `MinGW`的全称是：`Minimalist GNU on Windows` 。它实际上是将经典的开源`C`语言编译器`GCC`移植到了`Windows`平台下，

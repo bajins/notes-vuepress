@@ -85,6 +85,8 @@
 
 ## IOS
 
++ [https://github.com/apple/swift](https://github.com/apple/swift)
+
 * [https://github.com/pikacode/EBBannerView/blob/master/README_CHS.md](https://github.com/pikacode/EBBannerView/blob/master/README_CHS.md)
 * [https://github.com/CodeTips?tab=repositories](https://github.com/CodeTips?tab=repositories)
 * [https://github.com/dudongge/DDGDataCache_OC](https://github.com/dudongge/DDGDataCache_OC)
@@ -218,7 +220,6 @@
 * [https://github.com/turing-technician/FastHook](https://github.com/turing-technician/FastHook)
 * [https://github.com/LSPosed/LSPosed](https://github.com/LSPosed/LSPosed)
     * [https://github.com/Xposed-Modules-Repo](https://github.com/Xposed-Modules-Repo)
-    * [https://github.com/ADeltaX/WSAGAScript](https://github.com/ADeltaX/WSAGAScript)
 * EdXp
 * LSP （LSPosed Manager框架）
 * Riru 框架（SandHook、YAHFA）
@@ -442,6 +443,7 @@
 * 文件闪传 [https://github.com/skyhacker2/skyhacker2.github.com/blob/master/blog/p/projects/index.md](https://github.com/skyhacker2/skyhacker2.github.com/blob/master/blog/p/projects/index.md)
 * K-9邮件 [https://github.com/k9mail](https://github.com/k9mail)
 * 沙盒塔防游戏 [https://github.com/Anuken/Mindustry](https://github.com/Anuken/Mindustry)
+* [https://github.com/PojavLauncherTeam](https://github.com/PojavLauncherTeam)
 * 1DM/IDM [https://www.apps2sd.info/idmp/faq](https://www.apps2sd.info/idmp/faq)
 * FDM [https://www.freedownloadmanager.org/zh/download-fdm-for-android.htm](https://www.freedownloadmanager.org/zh/download-fdm-for-android.htm)
 

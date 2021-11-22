@@ -97,6 +97,8 @@
 
 - 交换机操作系统 [https://github.com/stratum/stratum](https://github.com/stratum/stratum)
 - [https://github.com/myspaghetti/macos-virtualbox](https://github.com/myspaghetti/macos-virtualbox)
+- [https://github.com/osresearch/heads](https://github.com/osresearch/heads)
+- [https://github.com/hardenedvault/vaultboot](https://github.com/hardenedvault/vaultboot)
 
 
 

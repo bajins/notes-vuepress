@@ -1,6 +1,6 @@
 ---
 home: true
-actionText: 快速上手 →
+actionText: Work-Life Balance →
 actionLink: /#命令
 ---
 

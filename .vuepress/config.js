@@ -120,29 +120,24 @@ module.exports = {
             opts: [
                 {
                     icon: '',
-                    name: '支付宝',
+                    name: '扫码享优惠',
                     link: '',
                     popover: {
-                        title: '扫码领取支付宝红包',
+                        title: '饿了么扫码享优惠',
                         type: 'image',
-                        // imageUrl: 'https://i.imgur.com/6Oh79jG.jpeg',
-                        imageUrl: 'https://static01.imgkr.com/temp/9b527526c6f042c58dcd6ea6ec532adf.jpg',
+                        imageUrl: 'https://static01.imgkr.com/temp/6d3b6811e8a4474481c52f8d7f2dfbf4.png',
                     }
                 },
                 {
                     icon: '',
                     name: '饿了么',
                     link: '',
-                    popover: [{
+                    popover: {
                         title: '用APP扫码最高翻3倍',
                         type: 'image',
                         // imageUrl: 'https://i.imgur.com/n2fpw74.jpg',
                         imageUrl: 'https://static01.imgkr.com/temp/472bc8289879436a9001716482a844fe.jpg',
-                    }, {
-                        title: '扫码享优惠',
-                        type: 'image',
-                        imageUrl: 'https://static01.imgkr.com/temp/6d3b6811e8a4474481c52f8d7f2dfbf4.png',
-                    }]
+                    }
                 },
                 {
                     icon: '',
