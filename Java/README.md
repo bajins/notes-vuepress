@@ -19,6 +19,7 @@
     + [https://docs.oracle.com/javase/7/docs](https://docs.oracle.com/javase/7/docs)
     + [JavaBeans 规范](https://www.oracle.com/java/technologies/javase/javabeans-spec.html)
 + [https://github.com/eclipse-ee4j](https://github.com/eclipse-ee4j)
+    + [https://github.com/javaee](https://github.com/javaee)
     + [https://projects.eclipse.org/jakartaee/releases/8](https://projects.eclipse.org/jakartaee/releases/8)
     + [javaEE和javaweb的区别？](https://www.zhihu.com/question/52002845)
 * 生成代码 [https://github.com/moshowgame/SpringBootCodeGenerator](https://github.com/moshowgame/SpringBootCodeGenerator)
