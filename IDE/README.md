@@ -92,6 +92,8 @@
 
 + [https://github.com/search?q=database+tool](https://github.com/search?q=database+tool)
 + [https://github.com/search?q=SQL+client](https://github.com/search?q=SQL+client)
++ [https://gitee.com/explore/dbmanager](https://gitee.com/explore/dbmanager)
+
 
 * [https://github.com/dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
     * [https://dbeaver.io](https://dbeaver.io)
@@ -139,6 +141,10 @@
 - [https://github.com/lework/RedisDesktopManager-Windows](https://github.com/lework/RedisDesktopManager-Windows)
 
 
+**数据建模**
+
+* PDMan [https://gitee.com/robergroup/chiner](https://gitee.com/robergroup/chiner)
+* PowerDesigner [https://www.sap.com/products/powerdesigner-data-modeling-tools.html](https://www.sap.com/products/powerdesigner-data-modeling-tools.html)
 
 
 
@@ -168,6 +174,7 @@
 * [https://github.com/jgraph/drawio](https://github.com/jgraph/drawio)
 * [https://www.processon.com](https://www.processon.com)
 * [https://gitmind.cn](https://gitmind.cn)
+
 
 **本地客户端**
 

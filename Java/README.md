@@ -226,6 +226,7 @@
 - 数学框架 [https://github.com/Ismail-Mekni/mxreflection](https://github.com/Ismail-Mekni/mxreflection)
 - 读取mp3文件 [https://github.com/mpatric/mp3agic](https://github.com/mpatric/mp3agic)
 - [https://github.com/sedmelluq/lavaplayer](https://github.com/sedmelluq/lavaplayer)
+- 多媒体检索 [https://github.com/vitrivr](https://github.com/vitrivr)
 - 地理空间数据 [https://github.com/geotools/geotools](https://github.com/geotools/geotools)
 - [https://github.com/geoserver/geoserver](https://github.com/geoserver/geoserver)
 - 几何图形 [https://github.com/GeoLatte/geolatte-geom](https://github.com/GeoLatte/geolatte-geom)

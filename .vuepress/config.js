@@ -120,7 +120,7 @@ module.exports = {
             opts: [
                 {
                     icon: '',
-                    name: '扫码享优惠',
+                    name: '享优惠',
                     link: '',
                     popover: {
                         title: '饿了么扫码享优惠',

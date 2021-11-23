@@ -27,6 +27,9 @@
 - Go编写的数据库迁移 [https://github.com/golang-migrate/migrate](https://github.com/golang-migrate/migrate)
 - PostgreSQL迁移 [https://github.com/jackc/tern](https://github.com/jackc/tern)
 - [https://github.com/DTStack/flinkx](https://github.com/DTStack/flinkx)
+- [https://gitee.com/ghi/dbsyncer](https://gitee.com/ghi/dbsyncer)
+- [https://github.com/jeessy2/backup-x](https://github.com/jeessy2/backup-x)
+- [https://github.com/jeessy2/backup-db](https://github.com/jeessy2/backup-db)
 
 
 
