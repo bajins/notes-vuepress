@@ -40,6 +40,7 @@
 + [https://github.com/onlyGuo/nginx-gui](https://github.com/onlyGuo/nginx-gui)
 + 文件服务器 [https://github.com/Naereen/Nginx-Fancyindex-Theme](https://github.com/Naereen/Nginx-Fancyindex-Theme)
 + [https://github.com/aperezdc/ngx-fancyindex](https://github.com/aperezdc/ngx-fancyindex)
++ 监控请求 [https://github.com/lebinh/ngxtop](https://github.com/lebinh/ngxtop)
 
 
 **其他同类程序**

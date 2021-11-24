@@ -346,6 +346,8 @@
 + [https://github.com/archine/tools](https://github.com/archine/tools)
 + 规则引擎 [https://github.com/j-easy](https://github.com/j-easy)
     + [Java规则引擎 Easy Rules](https://www.cnblogs.com/cjsblog/archive/2020/06/11/13088017.html)
++ 并发数据结构 [https://github.com/JCTools/JCTools](https://github.com/JCTools/JCTools)
++ [https://github.com/carrotsearch/hppc](https://github.com/carrotsearch/hppc)
 
 
 * [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)

@@ -105,6 +105,7 @@
 ## 监控探针
 
 + [https://github.com/topics/apm](https://github.com/topics/apm)
++ [https://github.com/topics/system-information](https://github.com/topics/system-information)
 
 * [Linux工程师必备的88个监控工具](https://learn-linux.readthedocs.io/zh_CN/latest/maintenance/monitor/tools/80-linux-monitoring-tools.html)
 
@@ -118,14 +119,11 @@
 - perf、sar、ksar、mpstat、uptime、vmstat、pidstat、time、cpustat、munin、glances、atop、nmon、pcp-gui、nfsstat、netstat、iostat
 - [https://github.com/htop-dev/htop](https://github.com/htop-dev/htop)
 - 视图监视器 [https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet](https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet)
-- [https://github.com/aristocratos/bashtop](https://github.com/aristocratos/bashtop)
-- [https://github.com/aristocratos/bpytop](https://github.com/aristocratos/bpytop)
-- [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
+- [https://github.com/aristocratos](https://github.com/aristocratos)
 
 
-* [https://github.com/topics/system-information](https://github.com/topics/system-information)
 * 带仪表盘的实时性能监控 [https://github.com/netdata/netdata](https://github.com/netdata/netdata)
-* 云探针、云监控、服务器云监控、多服务器探针 [https://github.com/cppla/ServerStatus](https://github.com/cppla/ServerStatus)
+* [https://github.com/cppla/ServerStatus](https://github.com/cppla/ServerStatus)
 * [https://github.com/CokeMine/ServerStatus-Hotaru](https://github.com/CokeMine/ServerStatus-Hotaru)
 * [https://github.com/BotoX/ServerStatus](https://github.com/BotoX/ServerStatus)
 * [https://github.com/jimmy201602/webterminal](https://github.com/jimmy201602/webterminal)
@@ -137,13 +135,11 @@
 * 分布式追踪系统 [https://github.com/openzipkin/zipkin](https://github.com/openzipkin/zipkin)
 * [https://github.com/dianping/cat](https://github.com/dianping/cat)
 * [https://github.com/elastic/apm-server](https://github.com/elastic/apm-server)
-* [https://github.com/psi-probe/psi-probe](https://github.com/psi-probe/psi-probe)
-* [https://github.com/prometheus/prometheus](https://github.com/prometheus/prometheus)
+* [https://github.com/prometheus](https://github.com/prometheus)
     * [Prometheus监控tomcat+jvm](https://www.cnblogs.com/you-men/p/13216976.html)
 * [https://github.com/wolfpld/tracy](https://github.com/wolfpld/tracy)
 * [https://github.com/geerlingguy/internet-pi](https://github.com/geerlingguy/internet-pi)
 * [https://github.com/SigNoz/signoz](https://github.com/SigNoz/signoz)
-* [https://github.com/prometheus/snmp_exporter](https://github.com/prometheus/snmp_exporter)
 
 
 - [https://github.com/bigbully/Dapper-translation](https://github.com/bigbully/Dapper-translation)

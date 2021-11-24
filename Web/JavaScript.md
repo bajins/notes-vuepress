@@ -319,6 +319,7 @@ var express = require('express');
 * 工具库 [https://github.com/tnfe/bbo](https://github.com/tnfe/bbo)
 * 代码格式化 [https://github.com/prettier/prettier](https://github.com/prettier/prettier)
 * [https://github.com/beautify-web/js-beautify](https://github.com/beautify-web/js-beautify)
+* [https://github.com/brodybits/prettierx](https://github.com/brodybits/prettierx)
 * 转换HTML/XML [https://github.com/posthtml/posthtml](https://github.com/posthtml/posthtml)
 * 幻灯片 [https://github.com/webslides/webslides](https://github.com/webslides/webslides)
 * [https://github.com/gnab/remark](https://github.com/gnab/remark)

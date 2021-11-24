@@ -57,6 +57,7 @@
     * [https://vivaldi.com](https://vivaldi.com)
 * [https://github.com/brave](https://github.com/brave)
     * [https://brave.com](https://brave.com)
+    * [https://github.com/brave-experiments](https://github.com/brave-experiments)
 
 
 
@@ -310,6 +311,7 @@ taskkill /f /im chromedriver.exe
 * [https://ublock.org](https://ublock.org)
 * [https://github.com/AdguardTeam](https://github.com/AdguardTeam)
 * [https://github.com/iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome)
+* [https://github.com/SugarCoatJS](https://github.com/SugarCoatJS)
 
 - AdGuard Android 解锁高级版 [https://www.lanzoui.com/b0f19420h](https://www.lanzoui.com/b0f19420h)
 

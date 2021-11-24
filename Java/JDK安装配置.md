@@ -49,12 +49,6 @@
 * [https://github.com/alibaba/dragonwell8](https://github.com/alibaba/dragonwell8)
 
 
-- 软件开发套件管理器 [https://github.com/sdkman](https://github.com/sdkman)
-    - [https://sdkman.io](https://sdkman.io)
-- [https://github.com/ScoopInstaller/Java](https://github.com/ScoopInstaller/Java)
-- [https://github.com/ojdkbuild/ojdkbuild](https://github.com/ojdkbuild/ojdkbuild)
-
-
 
 
 ## 源码包

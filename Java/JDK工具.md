@@ -60,7 +60,7 @@ jmap -dump:live,format=b,file=/tmp/heapdump.hprof PID
 
 **远程Debug参数**
 
-> 注意参数一定要放在`-jar`命令之前，方可运行成功
+> 附加调试器到进程：注意参数一定要放在`-jar`命令之前，方可运行成功
 
 ```bash
 java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
@@ -258,7 +258,7 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 
 | 工具名称          | 用途                                                             |
 |---------------|----------------------------------------------------------------|
-| [jvisualvm.exe](https://github.com/oracle/visualvm/releases) | 一个图形化的Java虚拟机。从OracleJDK9开始，不再包含。 |
+| jvisualvm.exe | 一个图形化的Java虚拟机。从OracleJDK9开始，不再包含。 |
 | jconsole.exe  | java监视台和管理控制台                                                  |
 | jps.exe       | JVM Process Status进程状态工具。列出目标系统的HotSpot JVM                   |
 | jstat.exe     | 按照命令行的具体要求记录和收集一个JVM的性能数据                                      |
@@ -268,6 +268,8 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 
 
 #### VisualVM
+
+* [https://github.com/visualvm/visualvm.github.io](https://github.com/visualvm/visualvm.github.io)
 
 > 从`Oracle JDK 9`开始，不再包含。需到GitHub下载[https://github.com/oracle/visualvm/releases](https://github.com/oracle/visualvm/releases)
 

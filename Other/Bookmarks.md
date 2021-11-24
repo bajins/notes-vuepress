@@ -186,6 +186,7 @@
 + [https://github.com/marcojakob/code.makery.ch](https://github.com/marcojakob/code.makery.ch)
 + [https://github.com/imarvinle/awesome-cs-books](https://github.com/imarvinle/awesome-cs-books)
 + [https://github.com/xitu/gold-miner](https://github.com/xitu/gold-miner)
++ [https://github.com/coding-fans](https://github.com/coding-fans)
 
 
 * [https://github.com/cs-books/influential-cs-books](https://github.com/cs-books/influential-cs-books)
