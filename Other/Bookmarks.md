@@ -187,6 +187,7 @@
 
 ## 书籍
 
++ [https://github.com/search?q=Books](https://github.com/search?q=Books)
 + [https://github.com/royeo/awesome-programming-books](https://github.com/royeo/awesome-programming-books)
 + [https://github.com/justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)
 + [https://github.com/EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
@@ -226,9 +227,7 @@
 * [wizardforcel (@wizardforcel) on GitBook · GitBook (Legacy)](https://legacy.gitbook.com/@wizardforcel)
 * [代码拾遗 - 高质量的代码教程](https://www.codemore.top/archives)
 * [https://www.w3cschool.cn](https://www.w3cschool.cn)
-* [https://wiki.imooc.com](https://wiki.imooc.com)
 * [http://codingdict.com/tutorials](http://codingdict.com/tutorials)
-* [https://epubw.com](https://epubw.com)
 * [http://www.allitebooks.org](http://www.allitebooks.org)
 * [https://mm.edrawsoft.cn/community/15/1](https://mm.edrawsoft.cn/community/15/1)
 * 收集整理下一些软件或系统的官方手册 [https://www.haiyun.me/doc.html](https://www.haiyun.me/doc.html)
@@ -240,9 +239,7 @@
 * 云海天教程，超详细的免费教程网站！ [https://www.yht7.com](https://www.yht7.com)
 * 广场· 看云 [https://www.kancloud.cn/explore](https://www.kancloud.cn/explore)
 * 印记中文 -前端开发文档 [https://docschina.org](https://docschina.org)
-* [https://exploringjs.com](https://exploringjs.com)
 * [https://github.com/MrAlex6204/Books](https://github.com/MrAlex6204/Books)
-* [https://github.com/ameizi/DevArticles](https://github.com/ameizi/DevArticles)
 * [https://developer.aliyun.com/topic/promotion-ebook](https://developer.aliyun.com/topic/promotion-ebook)
 * [https://developer.aliyun.com/ebook](https://developer.aliyun.com/ebook)
 

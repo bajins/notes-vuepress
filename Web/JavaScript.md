@@ -58,6 +58,7 @@
 * [https://github.com/ruanyf/jstutorial](https://github.com/ruanyf/jstutorial)
     * [http://javascript.ruanyifeng.com](http://javascript.ruanyifeng.com)
 * [https://github.com/revolunet/JSbooks](https://github.com/revolunet/JSbooks)
+* 面向程序员的JavaScript书籍 [https://exploringjs.com](https://exploringjs.com)
 * ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
     * [https://es6.ruanyifeng.com](https://es6.ruanyifeng.com)
 * [https://github.com/30-seconds](https://github.com/30-seconds)
