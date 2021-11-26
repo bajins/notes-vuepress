@@ -384,7 +384,6 @@
 * [https://aws.amazon.com/cn/cloud9](https://aws.amazon.com/cn/cloud9)
 * [https://github.com/eclipse/dirigible](https://github.com/eclipse/dirigible)
 * [https://github.com/eclipse/che](https://github.com/eclipse/che)
-    * [https://github.com/openshift](https://github.com/openshift)
     * [https://github.com/fabric8-launcher](https://github.com/fabric8-launcher)
     * [https://www.eclipse.org/che/getting-started/cloud](https://www.eclipse.org/che/getting-started/cloud)
     * `https://che.openshift.io/dashboard/#/load-factory/?url=https://github.com/账户名/仓库名`

@@ -14,8 +14,7 @@
 * [https://sourceforge.net](https://sourceforge.net)
 
 
-+ [https://github.com/sindresorhus/awesome](https://github.com/sindresorhus/awesome)
-+ [https://awesomeopensource.com](https://awesomeopensource.com)
+
 + 隐私 [https://github.com/pluja/awesome-privacy](https://github.com/pluja/awesome-privacy)
 + [https://github.com/bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)
 + [https://github.com/tuvtran/project-based-learning](https://github.com/tuvtran/project-based-learning)
@@ -125,10 +124,14 @@
 **很棒的项目**
 
 + [https://github.com/topics/snippets](https://github.com/topics/snippets)
++ [https://github.com/search?q=awesome](https://github.com/search?q=awesome)
++ [https://github.com/topics/awesome](https://github.com/topics/awesome)
++ [https://github.com/topics/awesome-list](https://github.com/topics/awesome-list)
 
-* [https://github.com/search?q=awesome](https://github.com/search?q=awesome)
-* [https://github.com/topics/awesome](https://github.com/topics/awesome)
-* [https://github.com/topics/awesome-list](https://github.com/topics/awesome-list)
+
+* [https://awesomeopensource.com](https://awesomeopensource.com)
+* [https://github.com/sindresorhus/awesome](https://github.com/sindresorhus/awesome)
+* [https://github.com/icopy-site/awesome-cn](https://github.com/icopy-site/awesome-cn)
 * [思维导图](https://github.com/search?o=desc&q=%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE&s=updated&type=Repositories)
 * [https://github.com/polaris1119/awesome-cheatsheets-cn](https://github.com/polaris1119/awesome-cheatsheets-cn)
 * 学习主题清单 [https://github.com/jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
@@ -145,15 +148,22 @@
 - 预览项目HTML [https://github.com/htmlpreview/htmlpreview.github.com](https://github.com/htmlpreview/htmlpreview.github.com)
 
 
+* Mac文档查询工具 [https://github.com/Kapeli](https://github.com/Kapeli)
+    * [https://kapeli.com/dash](https://kapeli.com/dash)
+    * [https://github.com/wuudjac/godocdash](https://github.com/wuudjac/godocdash)
+    * [https://github.com/technosophos/dashing](https://github.com/technosophos/dashing)
+    * [https://github.com/Robzz/cargo-docset](https://github.com/Robzz/cargo-docset)
+    * [https://github.com/theasta/jsdoc-dash-template](https://github.com/theasta/jsdoc-dash-template)
+* Windows和Linux文档查询工具 [https://github.com/zealdocs/zeal](https://github.com/zealdocs/zeal)
+* [https://velocity.silverlakesoftware.com](https://velocity.silverlakesoftware.com)
+
+
 
 ## 学习
 
 + [https://github.com/topics/leetcode](https://github.com/topics/leetcode)
 + [https://github.com/yifeikong/reverse-interview-zh](https://github.com/yifeikong/reverse-interview-zh)
 
-* CSDN [https://www.csdn.net](https://www.csdn.net)
-* 掘金 [https://juejin.im](https://juejin.im)
-* 知乎 [http://www.zhihu.com](http://www.zhihu.com)
 * TED（最优质的演讲） [https://www.ted.com](https://www.ted.com)
 * 谷粉学术 [https://gfsoso.99lb.net/scholar.html](https://gfsoso.99lb.net/scholar.html)
 * 大学资源网 [http://www.dxzy163.com](http://www.dxzy163.com)
@@ -189,6 +199,7 @@
 + [https://github.com/coding-fans](https://github.com/coding-fans)
 
 
+* 互联网上的免费书籍 [https://github.com/ruanyf/free-books](https://github.com/ruanyf/free-books)
 * [https://github.com/cs-books/influential-cs-books](https://github.com/cs-books/influential-cs-books)
 * [https://github.com/trsoliu/e-books](https://github.com/trsoliu/e-books)
 * [https://github.com/netkiller/netkiller.github.io](https://github.com/netkiller/netkiller.github.io)
@@ -219,12 +230,8 @@
 * [http://codingdict.com/tutorials](http://codingdict.com/tutorials)
 * [https://epubw.com](https://epubw.com)
 * [http://www.allitebooks.org](http://www.allitebooks.org)
-* [http://www.dcsdn.com](http://www.dcsdn.com)
-* 互联网上的免费书籍 [https://github.com/ruanyf/free-books](https://github.com/ruanyf/free-books)
-* 开源文档中文镜像站 [https://github.com/icopy-site/icopy-site.github.io](https://github.com/icopy-site/icopy-site.github.io)
 * [https://mm.edrawsoft.cn/community/15/1](https://mm.edrawsoft.cn/community/15/1)
 * 收集整理下一些软件或系统的官方手册 [https://www.haiyun.me/doc.html](https://www.haiyun.me/doc.html)
-* [http://wiki.jikexueyuan.com](http://wiki.jikexueyuan.com)
 * [https://cloud.tencent.com/developer/devdocs](https://cloud.tencent.com/developer/devdocs)
 * 极客教程 [https://geek-docs.com](https://geek-docs.com)
 * [https://www.freeaihub.com](https://www.freeaihub.com)

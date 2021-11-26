@@ -33,6 +33,40 @@
 
 
 
+## 包管理
+
+- [流行的 Linux 发行版包管理器命令的对应关系](https://wiki.archlinux.org/index.php/Pacman_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Rosetta_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
+- [Linux包管理器及包安装工具基础知识](https://blog.csdn.net/u013430110/article/details/107329350)
+
+* 软件包管理器 [https://github.com/NixOS/nix](https://github.com/NixOS/nix)
+* [https://github.com/joyent/pkgsrc](https://github.com/joyent/pkgsrc)
+* [https://github.com/Homebrew/brew](https://github.com/Homebrew/brew)
+* [https://github.com/AppImage](https://github.com/AppImage)
+* [https://github.com/flatpak/flatpak](https://github.com/flatpak/flatpak)
+* [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
+* snap应用商店 [https://snapcraft.io](https://snapcraft.io)
+    * [https://docs.snapcraft.io/core/install](https://docs.snapcraft.io/core/install)
+* 多个shell软件包镜像 [https://github.com/mirror](https://github.com/mirror)
+* [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
+* 各个版本控件支持库 [https://pkgs.org](https://pkgs.org)
+* [https://github.com/makedeb](https://github.com/makedeb)
+* [https://mpr.hunterwittenborn.com](https://mpr.hunterwittenborn.com)
+* [https://www.flatpak.org](https://www.flatpak.org)
+* [https://store.steampowered.com](https://store.steampowered.com)
+
+
+- mac [https://github.com/macports](https://github.com/macports)
+- [https://github.com/kidonng/sushi](https://github.com/kidonng/sushi)
+
+
+**第三方的软件包搜索引擎：**
+
+- http://pkgs.org
+- http://rpmfind.net
+- http://rpm.pbone.net
+
+
+
 ## 软件套件
 
 + [https://github.com/topics/lamp](https://github.com/topics/lamp)

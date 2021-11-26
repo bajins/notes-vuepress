@@ -63,6 +63,9 @@
 * SQL查询 [https://github.com/knex/knex](https://github.com/knex/knex)
 * 日志 [https://github.com/trentm/node-bunyan](https://github.com/trentm/node-bunyan)
 * [https://github.com/pillarjs/send](https://github.com/pillarjs/send)
+* 断言 [https://github.com/chaijs](https://github.com/chaijs)
+* Expect交互 [https://github.com/facebook/jest](https://github.com/facebook/jest)
+* [https://github.com/sinonjs](https://github.com/sinonjs)
 
 
 
@@ -359,6 +362,7 @@ request({
 * [https://github.com/facebook/react-native](https://github.com/facebook/react-native)
     * [https://github.com/reactnativecn](https://github.com/reactnativecn)
         * [https://reactnative.cn](https://reactnative.cn)
+    * [https://github.com/react-navigation](https://github.com/react-navigation)
     * [https://github.com/necolas/react-native-web](https://github.com/necolas/react-native-web)
     * [https://github.com/microsoft/react-native-windows](https://github.com/microsoft/react-native-windows)
     * [https://snack.expo.io](https://snack.expo.io)
@@ -381,7 +385,11 @@ request({
     * [https://github.com/cowchimp/headless-devtools](https://github.com/cowchimp/headless-devtools)
     * [Puppeteer配置小记](https://www.itfanr.cc/2019/04/10/configuration-development-of-puppeteer)
     * [https://github.com/zhaoqize/puppeteer-api-zh_CN](https://github.com/zhaoqize/puppeteer-api-zh_CN)
+    * [https://github.com/ebidel/try-puppeteer](https://github.com/ebidel/try-puppeteer)
+    * [https://github.com/berstend/puppeteer-extra](https://github.com/berstend/puppeteer-extra)
 * 自动化 [https://github.com/microsoft/playwright](https://github.com/microsoft/playwright)
+* [https://github.com/cypress-io/cypress](https://github.com/cypress-io/cypress)
+* [https://github.com/aerokube](https://github.com/aerokube)
 * [https://github.com/getgauge/taiko](https://github.com/getgauge/taiko)
 * [https://github.com/milankinen/cuic](https://github.com/milankinen/cuic)
 * 基于webkit的JavaScript API [https://github.com/ariya/phantomjs](https://github.com/ariya/phantomjs)
@@ -397,13 +405,6 @@ request({
 **[xpath和css选择器](/Python/Python爬虫.md#xpath和css选择器)**
 
 **[`chromedriver`](/Python/Python爬虫.md#chromedriver)**
-
-* [https://github.com/ebidel/try-puppeteer](https://github.com/ebidel/try-puppeteer)
-* [https://github.com/berstend/puppeteer-extra](https://github.com/berstend/puppeteer-extra)
-
-- Expect交互 [https://github.com/facebook/jest](https://github.com/facebook/jest)
-- [https://github.com/sinonjs](https://github.com/sinonjs)
-- [https://github.com/chaijs](https://github.com/chaijs)
 
 
 **脚本**

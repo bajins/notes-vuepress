@@ -19,28 +19,30 @@
 
 
 * [https://github.com/hfpp2012/nginx-tutorial](https://github.com/hfpp2012/nginx-tutorial)
-* [Nginx HTTP核心模块指令和内置变量中文说明](https://my.oschina.net/jsan/blog/125861)
-* [https://github.com/topics/nginx-configuration](https://github.com/topics/nginx-configuration)
-* 配置格式化 [https://github.com/vasilevich/nginxbeautifier](https://github.com/vasilevich/nginxbeautifier)
-* [https://github.com/slomkowski/nginx-config-formatter](https://github.com/1connect/nginx-config-formatter)
-* 配置生成 [https://github.com/0xB4LINT/nginxconfig.io](https://github.com/0xB4LINT/nginxconfig.io)
-* [nginx 变量使用](https://blog.csdn.net/u014296316/article/details/80973530)
-* [Nginx 从入门到实践，万字详解](https://juejin.im/post/5ea931866fb9a043815146fb)
 * Nginx 入门指南 [https://github.com/xuexb/learn-nginx](https://github.com/xuexb/learn-nginx)
 * [标签: Nginx | 原少子杨](https://iziyang.github.io/tags/nginx)
+* [Nginx HTTP核心模块指令和内置变量中文说明](https://my.oschina.net/jsan/blog/125861)
+* [nginx 变量使用](https://blog.csdn.net/u014296316/article/details/80973530)
+* [Nginx 从入门到实践，万字详解](https://juejin.im/post/5ea931866fb9a043815146fb)
 * [Nginx从入门到实践](https://segmentfault.com/blog/siguoya-nginx)
+* [Nginx流控](https://www.cnblogs.com/zjfjava/p/10947264.html)
+* [Nginx 高性能优化配置实战总结](https://segmentfault.com/a/1190000037788252)
+* [nginx 优化的六点方法](https://zhuanlan.zhihu.com/p/149946545)
+* [Nginx-性能优化](https://juejin.cn/post/6844904122068680711)
+* [博客使用Cloudflare和Nginx的相关配置](https://jayshao.com/cloudflare-nginx-ssl)
 
-- [Nginx 高性能优化配置实战总结](https://segmentfault.com/a/1190000037788252)
-- [nginx 优化的六点方法](https://zhuanlan.zhihu.com/p/149946545)
-- [Nginx-性能优化](https://juejin.cn/post/6844904122068680711)
-- [博客使用Cloudflare和Nginx的相关配置](https://jayshao.com/cloudflare-nginx-ssl)
 
++ [https://github.com/topics/nginx-configuration](https://github.com/topics/nginx-configuration)
+* 配置生成 [https://github.com/0xB4LINT/nginxconfig.io](https://github.com/0xB4LINT/nginxconfig.io)
++ 配置格式化 [https://github.com/vasilevich/nginxbeautifier](https://github.com/vasilevich/nginxbeautifier)
++ [https://github.com/slomkowski/nginx-config-formatter](https://github.com/1connect/nginx-config-formatter)
 + [https://github.com/nginx-proxy/nginx-proxy](https://github.com/nginx-proxy/nginx-proxy)
 + [https://github.com/evertramos/nginx-proxy-automation](https://github.com/evertramos/nginx-proxy-automation)
 + [https://github.com/onlyGuo/nginx-gui](https://github.com/onlyGuo/nginx-gui)
 + 文件服务器 [https://github.com/Naereen/Nginx-Fancyindex-Theme](https://github.com/Naereen/Nginx-Fancyindex-Theme)
 + [https://github.com/aperezdc/ngx-fancyindex](https://github.com/aperezdc/ngx-fancyindex)
 + 监控请求 [https://github.com/lebinh/ngxtop](https://github.com/lebinh/ngxtop)
+
 
 
 **其他同类程序**
@@ -86,6 +88,8 @@
 * [https://github.com/zhouchangxun/ngx_healthcheck_module](https://github.com/zhouchangxun/ngx_healthcheck_module)
 * [https://github.com/vozlt/nginx-module-vts](https://github.com/vozlt/nginx-module-vts)
 * [https://gitee.com/tianhao26/openresty_forwarding_log](https://gitee.com/tianhao26/openresty_forwarding_log)
+* [https://github.com/cuber/ngx_http_google_filter_module](https://github.com/cuber/ngx_http_google_filter_module)
+    * [Nginx 配置谷歌镜像站](https://plusls.github.io/linux/nginx/configure-nginx-google-mirror)
 
 - [浅谈OpenResty中的body_filter_by_lua*](https://zhuanlan.zhihu.com/p/67904411)
 

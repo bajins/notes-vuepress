@@ -29,13 +29,15 @@
 * [https://github.com/umijs](https://github.com/umijs)
 * Serverless [https://github.com/midwayjs](https://github.com/midwayjs)
 * [https://github.com/modern-js-dev](https://github.com/modern-js-dev)
+* WEB组件 [https://github.com/ing-bank/lion](https://github.com/ing-bank/lion)
+* [https://github.com/open-wc/open-wc](https://github.com/open-wc/open-wc)
+* [https://github.com/modernweb-dev/web](https://github.com/modernweb-dev/web)
+* [https://github.com/lit](https://github.com/lit)
 
 
 - 测试 [https://github.com/karma-runner/karma](https://github.com/karma-runner/karma)
 - [https://github.com/qunitjs](https://github.com/qunitjs)
-- [https://github.com/mochajs/mocha](https://github.com/mochajs/mocha)
 - [https://github.com/jasmine/jasmine](https://github.com/jasmine/jasmine)
-- [https://github.com/cypress-io/cypress](https://github.com/cypress-io/cypress)
 
 
 
