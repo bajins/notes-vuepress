@@ -39,6 +39,7 @@
     * [https://developer.mozilla.org](https://developer.mozilla.org)
 * [https://github.com/Qihoo360](https://github.com/Qihoo360)
 * [https://github.com/IBM](https://github.com/IBM)
+    * [https://www.ibm.com/opensource/open-projects](https://www.ibm.com/opensource/open-projects)
 * [https://github.com/uber](https://github.com/uber)
 * [https://github.com/oracle](https://github.com/oracle)
     * [https://oss.oracle.com](https://oss.oracle.com)

@@ -434,13 +434,14 @@ public static void createInstanceSetter(Class<?> clazz) {
    + `Show original line numbers` 显示原始行号
    + `Show metadata` 显示元数据
 
-
+- Web开发插件 [https://github.com/eclipse/wildwebdeveloper](https://github.com/eclipse/wildwebdeveloper)
 - [https://github.com/ecd-plugin/ecd](https://github.com/ecd-plugin/ecd)
    - [https://ecd-plugin.github.io/update](https://ecd-plugin.github.io/update)
 - [https://github.com/iloveeclipse/plugins/wiki](https://github.com/iloveeclipse/plugins/wiki)
 - [https://github.com/java-decompiler/jd-eclipse](https://github.com/java-decompiler/jd-eclipse)
 - [https://github.com/cnfree/Eclipse-Class-Decompiler](https://github.com/cnfree/Eclipse-Class-Decompiler)
 - [https://github.com/helospark/import-jar-as-project](https://github.com/helospark/import-jar-as-project)
+- 测试 [https://github.com/ot4i/perf-harness](https://github.com/ot4i/perf-harness)
 
 
 
