@@ -51,6 +51,8 @@
 ## 第三方库
 
 + [https://github.com/parro-it/awesome-micro-npm-packages](https://github.com/parro-it/awesome-micro-npm-packages)
++ [https://github.com/TanninOne](https://github.com/TanninOne)
+
 
 * glob [https://github.com/micromatch/extglob](https://github.com/micromatch/extglob)
 * [https://github.com/isaacs/minimatch](https://github.com/isaacs/minimatch)
@@ -66,6 +68,12 @@
 * 断言 [https://github.com/chaijs](https://github.com/chaijs)
 * Expect交互 [https://github.com/facebook/jest](https://github.com/facebook/jest)
 * [https://github.com/sinonjs](https://github.com/sinonjs)
+* USB [https://github.com/schakko/node-usb](https://github.com/schakko/node-usb)
+* [https://github.com/node-usb](https://github.com/node-usb)
+* 字体管理 [https://github.com/foliojs/font-manager](https://github.com/foliojs/font-manager)
+* 访问头文件 [https://github.com/charto/nbind](https://github.com/charto/nbind)
+* 正则表达式 [https://github.com/CJex/regulex](https://github.com/CJex/regulex)
+
 
 
 

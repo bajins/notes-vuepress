@@ -93,6 +93,8 @@
 * [https://github.com/ARMmbed](https://github.com/ARMmbed)
 * [https://github.com/thepowersgang/rust_os](https://github.com/thepowersgang/rust_os)
 * 物联网 [https://github.com/RT-Thread/rt-thread](https://github.com/RT-Thread/rt-thread)
+* 树莓派 [https://github.com/raspberrypi](https://github.com/raspberrypi)
+* [https://github.com/pftf](https://github.com/pftf)
 
 
 - 交换机操作系统 [https://github.com/stratum/stratum](https://github.com/stratum/stratum)

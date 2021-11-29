@@ -17,6 +17,8 @@
 * 跨平台 [https://github.com/kivy](https://github.com/kivy)
 * [https://github.com/beeware](https://github.com/beeware)
     * [https://github.com/pybee](https://github.com/pybee)
+* 命令行转GUI [https://github.com/chriskiehl/Gooey](https://github.com/chriskiehl/Gooey)
+
 
 - [https://github.com/zwjjiaozhu/gitchat_download](https://github.com/zwjjiaozhu/gitchat_download)
 

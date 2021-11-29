@@ -14,9 +14,13 @@
 - GUI [什么是X11-Forwarding](https://blog.csdn.net/weixin_41668084/article/details/113361765)
 
 
+
+
 **命令助手**
 
 - 命令补全 [https://github.com/scop/bash-completion](https://github.com/scop/bash-completion)
+* [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
+* [https://github.com/beyondgrep/ack3](https://github.com/beyondgrep/ack3)
 - [https://sourceforge.net/projects/zsh](https://sourceforge.net/projects/zsh)
 - [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 - [https://github.com/Bash-it/bash-it](https://github.com/Bash-it/bash-it)
