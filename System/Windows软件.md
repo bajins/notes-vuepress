@@ -324,6 +324,9 @@
 * VLC [https://www.videolan.org](https://www.videolan.org)
 * [https://www.getmusicbee.com](https://www.getmusicbee.com)
 
+
+- [https://github.com/Chocobozzz/PeerTube](https://github.com/Chocobozzz/PeerTube)
+    - [https://framagit.org/framasoft/peertube/search-index](https://framagit.org/framasoft/peertube/search-index)
 - [https://github.com/soimort/you-get](https://github.com/soimort/you-get)
 - [https://www.midomi.com](https://www.midomi.com)
 - [https://github.com/musescore/MuseScore](https://github.com/musescore/MuseScore)

@@ -69,6 +69,7 @@
 * [https://coding.net](https://coding.net)
 * [https://git.code.tencent.com](https://git.code.tencent.com)
 * [https://pagure.io](https://pagure.io)
+* [https://framagit.org](https://framagit.org)
 * 软件相似度比较 [https://copycat.gitee.com](https://copycat.gitee.com)
 
 
