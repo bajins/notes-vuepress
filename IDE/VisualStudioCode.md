@@ -10,6 +10,7 @@
 
 + [https://github.com/topics/vscode](https://github.com/topics/vscode)
 
+
 * [https://github.com/microsoft/vscode](https://github.com/microsoft/vscode)
     * [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
     * [https://marketplace.visualstudio.com](https://marketplace.visualstudio.com)
@@ -21,7 +22,15 @@
 * [VSCode教程](https://www.php.cn/tool/vscode)
 * [https://github.com/gr2m/app-stats-action](https://github.com/gr2m/app-stats-action)
 
-- [https://github.com/Microsoft/language-server-protocol](https://github.com/Microsoft/language-server-protocol)
+
+- 语言服务器协议 [https://github.com/Microsoft/language-server-protocol](https://github.com/Microsoft/language-server-protocol)
+    - [Standalone Server (tsserver)](https://github.com/Microsoft/TypeScript/wiki/Standalone-Server-%28tsserver%29)
+    - [https://github.com/typescript-language-server](https://github.com/typescript-language-server)
+- [https://docs.microsoft.com/zh-cn/visualstudio/extensibility/language-server-protocol](https://docs.microsoft.com/zh-cn/visualstudio/extensibility/language-server-protocol)
+- [https://microsoft.github.io/language-server-protocol](https://microsoft.github.io/language-server-protocol)
+    - [https://github.com/lsif/lsif.github.io](https://github.com/lsif/lsif.github.io)
+    - [https://github.com/langserver/langserver.github.io](https://github.com/langserver/langserver.github.io)
+
 
 
 
