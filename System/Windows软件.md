@@ -77,10 +77,15 @@
 
 ## 聊天社交
 
+> E2EE(端到端加密)：[Diffie-Hellman](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)密钥交换算法、AES(-CBC)对称加密算法
+
+* [https://github.com/keybase](https://github.com/keybase)
 * [http://potato.manre.me](http://potato.manre.me)
 * [https://github.com/tootsuite](https://github.com/tootsuite)
 * [https://github.com/signalapp](https://github.com/signalapp)
     * [https://signal.org](https://signal.org)
+* [https://github.com/threema-ch](https://github.com/threema-ch)
+* [https://github.com/Viber](https://github.com/Viber)
 * [https://trello.com](https://trello.com)
 * [https://libera.chat](https://libera.chat)
 * [https://teams.microsoft.com](https://teams.microsoft.com)

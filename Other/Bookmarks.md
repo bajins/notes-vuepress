@@ -208,6 +208,7 @@
 * 计算机电子书 [https://github.com/itdevbooks/pdf](https://github.com/itdevbooks/pdf)
 * 书栈网 [https://github.com/TruthHun/BookStack](https://github.com/TruthHun/BookStack)
     * [https://www.bookstack.cn](https://www.bookstack.cn)
+* [http://shouce.jb51.net](http://shouce.jb51.net)
 * [https://www.topgoer.cn](https://www.topgoer.cn)
 * 天赋好书 [https://cntofu.com](https://cntofu.com)
 * 码农之家（计算机电子书下载） [http://www.xz577.com](http://www.xz577.com)

@@ -30,6 +30,8 @@
 - [https://microsoft.github.io/language-server-protocol](https://microsoft.github.io/language-server-protocol)
     - [https://github.com/lsif/lsif.github.io](https://github.com/lsif/lsif.github.io)
     - [https://github.com/langserver/langserver.github.io](https://github.com/langserver/langserver.github.io)
+- [https://github.com/Microsoft/debug-adapter-protocol](https://github.com/Microsoft/debug-adapter-protocol)
+- [https://github.com/Microsoft/vscode-debugadapter-node](https://github.com/Microsoft/vscode-debugadapter-node)
 
 
 
