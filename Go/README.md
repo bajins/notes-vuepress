@@ -259,11 +259,13 @@
 * 格式化yaml [https://github.com/UltiRequiem/yamlfmt](https://github.com/UltiRequiem/yamlfmt)
 * 通道工具 [https://github.com/Ksloveyuan/channelx](https://github.com/Ksloveyuan/channelx)
 * 配置加载 [https://github.com/cristalhq/aconfig](https://github.com/cristalhq/aconfig
+* gin panic [https://github.com/xkkhy/agave](https://github.com/xkkhy/agave)
 
 
 
 - 实时视频流服务器 [https://github.com/gwuhaolin/livego](https://github.com/gwuhaolin/livego)
 - IP代理池 [https://github.com/henson/proxypool](https://github.com/henson/proxypool)
+- [https://github.com/3xxx/engineercms](https://github.com/3xxx/engineercms)
 
 
 

@@ -18,6 +18,7 @@
 + License [https://app.fossa.com](https://app.fossa.com)
 + 开源指南 [https://github.com/github/opensource.guide](https://github.com/github/opensource.guide)
 + [https://creativecommons.org](https://creativecommons.org)
++ [https://opensource.org/licenses](https://opensource.org/licenses)
 
 
 - 水印 [https://github.com/topics/watermark](https://github.com/topics/watermark)
@@ -74,12 +75,26 @@
 * [https://github.com/wahao/Bark-MP-helper](https://github.com/wahao/Bark-MP-helper)
 * [https://github.com/easychen](https://github.com/easychen)
     * [http://sc.ftqq.com](http://sc.ftqq.com)
+    * [https://github.com/saucer-man/wepush](https://github.com/saucer-man/wepush)
 * [https://ifttt.com/maker_webhooks](https://ifttt.com/maker_webhooks)
 * [https://www.pushplus.plus](https://www.pushplus.plus)
 * [https://pushplus.hxtrip.com](https://pushplus.hxtrip.com)
 * [https://github.com/wxpusher](https://github.com/wxpusher)
 * [https://github.com/MiPushFramework/MiPushFramework](https://github.com/MiPushFramework/MiPushFramework)
+* [https://github.com/chinuno-usami/server_tan](https://github.com/chinuno-usami/server_tan)
 
+
+- [https://github.com/guanguans/notify](https://github.com/guanguans/notify)
+- [https://github.com/pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder)
+- [https://github.com/Gomaxx/android-notification-forwarder](https://github.com/Gomaxx/android-notification-forwarder)
+
+
+* [https://github.com/DanceJJJ/go-dingtalk](https://github.com/DanceJJJ/go-dingtalk)
+* [https://github.com/goodking-bq/timing-clock-in-dingding](https://github.com/goodking-bq/timing-clock-in-dingding)
+* [https://github.com/zhaoyunxing92/dingtalk](https://github.com/zhaoyunxing92/dingtalk)
+* [https://github.com/daixianceng/cron_dingding](https://github.com/daixianceng/cron_dingding)
+* [https://github.com/cloverzrg/wechat-work-message-push-go](https://github.com/cloverzrg/wechat-work-message-push-go)
+* [https://github.com/xinjiayu/NoticeServices](https://github.com/xinjiayu/NoticeServices)
 
 
 

@@ -434,7 +434,6 @@ public static void createInstanceSetter(Class<?> clazz) {
    + `Show original line numbers` 显示原始行号
    + `Show metadata` 显示元数据
 
-- Web开发插件 [https://github.com/eclipse/wildwebdeveloper](https://github.com/eclipse/wildwebdeveloper)
 - [https://github.com/ecd-plugin/ecd](https://github.com/ecd-plugin/ecd)
    - [https://ecd-plugin.github.io/update](https://ecd-plugin.github.io/update)
 - [https://github.com/iloveeclipse/plugins/wiki](https://github.com/iloveeclipse/plugins/wiki)

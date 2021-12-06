@@ -100,6 +100,7 @@
 * [https://github.com/TrevorAttema/OTGMessenger](https://github.com/TrevorAttema/OTGMessenger)
 * [https://github.com/igniterealtime](https://github.com/igniterealtime)
 * [https://github.com/chatwoot](https://github.com/chatwoot)
+* [https://github.com/mastodon/mastodon](https://github.com/mastodon/mastodon)
 
 - [https://github.com/topics/curses](https://github.com/topics/curses)
 - [https://github.com/topics/ncurses](https://github.com/topics/ncurses)

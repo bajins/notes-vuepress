@@ -25,10 +25,6 @@
 - [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis)
 
 
-* [https://github.com/DanceJJJ/go-dingtalk](https://github.com/DanceJJJ/go-dingtalk)
-* [https://github.com/goodking-bq/timing-clock-in-dingding](https://github.com/goodking-bq/timing-clock-in-dingding)
-* [https://github.com/zhaoyunxing92/dingtalk](https://github.com/zhaoyunxing92/dingtalk)
-* [https://github.com/daixianceng/cron_dingding](https://github.com/daixianceng/cron_dingding)
 
 
 **图片**
