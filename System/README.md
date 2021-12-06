@@ -13,7 +13,6 @@
 * Linux中国 翻译组 [https://github.com/LCTT](https://github.com/LCTT)
 
 
-- [https://github.com/ansible/ansible](https://github.com/ansible/ansible)
 - [https://www.gnome.org](https://www.gnome.org)
 - 加密覆盖文件系统 [https://github.com/rfjakob/gocryptfs](https://github.com/rfjakob/gocryptfs)
 - 天气卫星 [https://github.com/sam210723/xrit-rx](https://github.com/sam210723/xrit-rx)
@@ -160,6 +159,7 @@
 * [https://github.com/GitSquared/edex-ui](https://github.com/GitSquared/edex-ui)
 * [https://github.com/hestiacp/hestiacp](https://github.com/hestiacp/hestiacp)
 * [http://amh.sh](http://amh.sh)
+* [http://www.batchshell.cn](http://www.batchshell.cn)
 
 
 
@@ -429,6 +429,7 @@
 * [https://github.com/ether/etherpad-lite](https://github.com/ether/etherpad-lite)
 * [https://github.com/anytypeio](https://github.com/anytypeio)
 * 团队协作和文档 [https://www.notion.so](https://www.notion.so)
+* [https://github.com/mattermost/focalboard](https://github.com/mattermost/focalboard)
 * [https://github.com/AppFlowy-IO/appflowy](https://github.com/AppFlowy-IO/appflowy)
 * 腾讯文档 [http://docs.qq.com](http://docs.qq.com)
 * [https://github.com/seatable](https://github.com/seatable)

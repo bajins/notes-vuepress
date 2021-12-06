@@ -157,6 +157,8 @@
     * [https://github.com/theasta/jsdoc-dash-template](https://github.com/theasta/jsdoc-dash-template)
 * Windows和Linux文档查询工具 [https://github.com/zealdocs/zeal](https://github.com/zealdocs/zeal)
 * [https://velocity.silverlakesoftware.com](https://velocity.silverlakesoftware.com)
+* 代码浏览器 [https://github.com/KDAB/codebrowser](https://github.com/KDAB/codebrowser)
+    * [https://blog.weghos.com](https://blog.weghos.com)
 
 
 
@@ -499,8 +501,6 @@
 
 * 上班摸鱼必备（假装电脑系统升级） [http://fakeupdate.net](http://fakeupdate.net)
 * PIECES 拼图（30 个 CSS 碎片进行拼图，呈现 30 种濒临灭绝的动物） [http://www.species-in-pieces.com](http://www.species-in-pieces.com)
-* 图片立体像素画 [https://pissang.github.io/voxelize-image](https://pissang.github.io/voxelize-image)
-* 福利单词（一个不太正经的背单词网站） [http://dict.ftqq.com](http://dict.ftqq.com)
 * 查无此人（刷新网站，展现一张AI 生成的人脸照片） [https://thispersondoesnotexist.com](https://thispersondoesnotexist.com)
 * 在线制作地图图例 [https://mapchart.net](https://mapchart.net)
 * 创意光线绘画 [http://weavesilk.com](http://weavesilk.com)
@@ -512,51 +512,8 @@
 * 术语在线 [http://www.termonline.cn](http://www.termonline.cn)
 
 
-## 写代码
 
-* GitHub [https://github.com](https://github.com)
-* 码云 [https://gitee.com](https://gitee.com)
-* 源码之家 [https://www.mycodes.net](https://www.mycodes.net)
-* JSON to Dart [https://javiercbk.github.io/json\_to\_dart](https://javiercbk.github.io/json\_to\_dart)
-* Json在线解析验证 [https://www.json.cn](https://www.json.cn)
-* 在线接口测试（Getman） [https://getman.cn](https://getman.cn)
-
-
-## 资源搜索
-
-* DogeDoge搜索引擎 [http://www.dogedoge.com](http://www.dogedoge.com)
-* 秘迹搜索 [https://mijisou.com](https://mijisou.com)
-* 小白盘 [https://www.xiaobaipan.com](https://www.xiaobaipan.com)
-* 云盘精灵（资源搜索） [http://www.yunpanjingling.com](http://www.yunpanjingling.com)
-* 虫部落（资源搜索） [http://www.chongbuluo.com](http://www.chongbuluo.com)
-* 如风搜（资源搜索） [http://www.rufengso.net](http://www.rufengso.net)
-* 爱扒 [https://www.zyboe.com](https://www.zyboe.com)
-
-
-## 小工具
-
-+ [静态博客或文档](/Web/README.md#静态博客或文档)
-
-* 奶牛快传（在线传输文件利器） [http://cowtransfer.com](http://cowtransfer.com)
-* 文叔叔（大文件传输，不限速） [https://www.wenshushu.cn](https://www.wenshushu.cn)
-* 云端超级应用空间（PS，PPT，Excel，Ai） [https://uzer.me](https://uzer.me)
-* 香当网（年终总结，个人简历，事迹材料，租赁合同，演讲稿） [https://www.xiangdang.net](https://www.xiangdang.net)
-* 二维码生成 [https://cli.im](https://cli.im)
-* 搜狗翻译 [http://fanyi.sogou.com](http://fanyi.sogou.com)
-* 熵数（图表制作，数据可视化） [https://dydata.io/appv2/#/pages/index/home](https://dydata.io/appv2/#/pages/index/home)
-* 拷贝兔 [https://cp.anyknew.com](https://cp.anyknew.com)
-* 图片无限变放大 [http://bigjpg.com/zh](http://bigjpg.com/zh)
-* 幕布（在线大纲笔记工具） [http://mubu.com](http://mubu.com)
-* 在线转换器（在线转换器转换任何测量单位） [https://zh.justcnw.com](https://zh.justcnw.com)
-* 调查问卷制作 [https://www.wenjuan.com](https://www.wenjuan.com)
-* 果核剥壳（软件下载） [https://www.ghpym.com](https://www.ghpym.com)
-* 软件下载 [https://www.unyoo.com](https://www.unyoo.com)
-* MSDN我告诉你（windows10系统镜像下载） [https://msdn.itellyou.cn](https://msdn.itellyou.cn)
-* [https://github.com/mattermost/focalboard](https://github.com/mattermost/focalboard)
-
-
-
-### 导航页
+## 导航页
 
 * 世界各国网址大全 [http://www.world68.com](http://www.world68.com)
 * 小森林导航 [http://www.xsldh6.com](http://www.xsldh6.com)
@@ -668,4 +625,8 @@
 * 极像素（超高清大图） [https://www.sigoo.com](https://www.sigoo.com)
 * 免费版权图片搜索 [https://www.logosc.cn/so](https://www.logosc.cn/so)
 * [http://www.gooico.com](http://www.gooico.com)
-
+* [https://cleanup.pictures](https://cleanup.pictures)
+* [https://www.gaituya.com/ps](https://www.gaituya.com/ps)
+* [https://imagecompressor.com/zh](https://imagecompressor.com/zh)
+* [https://tinyPNG.com](https://tinyPNG.com)
+* [https://picwish.cn](https://picwish.cn)

@@ -23,6 +23,7 @@
 * [https://github.com/beyondgrep/ack3](https://github.com/beyondgrep/ack3)
 - [https://sourceforge.net/projects/zsh](https://sourceforge.net/projects/zsh)
 - [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+- [https://github.com/zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [https://github.com/Bash-it/bash-it](https://github.com/Bash-it/bash-it)
 - [https://github.com/0dayCTF/reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator)
 - 命令执行演示 [https://github.com/maaslalani/slides](https://github.com/maaslalani/slides)

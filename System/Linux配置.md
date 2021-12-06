@@ -335,16 +335,17 @@ userdel -rf name
 vi /etc/ssh/sshd_config
 ```
 
-- `PermitRootLogin` 修改为`yes`
-- `PasswordAuthentication` 修改为`yes`
+- `PermitRootLogin` 修改为`yes` 允许远程root用户登入
+- `PasswordAuthentication` 修改为`yes` 允许使用用户名密码方式登入
 
 **或者执行命令直接修改**
 
 ```bash
 # -r 支持扩展表达式，-i 直接修改文件内容
+sudo sed -i 's/^#\?Port.*/Port 22/g' /etc/ssh/sshd_config;
 sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
 sudo sed -ri 's/^#?(PasswordAuthentication)\s+(yes|no)/\1 yes/' /etc/ssh/sshd_config;
-# 修改authorized_keys文件（即ssh证书），把ssh-rsa之前的内容都删除掉
+# 修改authorized_keys文件（即ssh证书），把ssh-rsa之前的内容都删除掉（酌情执行）
 sudo sed -ri 's/^/#/;s/sleep 10"\s+/&\n/' /root/.ssh/authorized_keys;
 ```
 

@@ -81,6 +81,7 @@
 * [https://github.com/microsoft/WSL2-Linux-Kernel](https://github.com/microsoft/WSL2-Linux-Kernel)
 * [https://docs.microsoft.com/zh-cn/windows/wsl](https://docs.microsoft.com/zh-cn/windows/wsl)
     * [手动下载适用于 Linux 的 Windows 子系统发行版包](https://docs.microsoft.com/zh-cn/windows/wsl/install-manual#downloading-distributions)
+    * [适用于x64计算机的 WSL2 Linux内核更新包](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
 * [https://github.com/yuk7/ArchWSL](https://github.com/yuk7/ArchWSL)
     * [https://wsldl-pg.github.io/ArchW-docs/locale/zh-CN](https://wsldl-pg.github.io/ArchW-docs/locale/zh-CN)
 * [https://github.com/agowa338/WSL-DistroLauncher-Alpine](https://github.com/agowa338/WSL-DistroLauncher-Alpine)
@@ -100,6 +101,32 @@
 * [https://github.com/LSPosed/WSA-Kernel-SU](https://github.com/LSPosed/WSA-Kernel-SU)
 * [https://github.com/opengapps/opengapps](https://github.com/opengapps/opengapps)
     * [https://sourceforge.net/projects/opengapps](https://sourceforge.net/projects/opengapps)
+
+
+
+**设置默认root用户登录**
+
+```bash
+ubuntu2004.exe config --default-user root
+```
+
+
+**Ubuntu安装ssh**
+
+> WSL Ubuntu子系统自带的ssh服务无法连接，需卸载后重新安装
+
+```bash
+sudo apt purge -y openssh-server
+sudo apt remove -y openssh-server
+sudo apt install -y openssh-server
+```
+
+**设置开机自启**
+
+```bash
+vim /etc/init.wsl
+#添加service ssh start设置ssh服务开机自启
+```
 
 
 
