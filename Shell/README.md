@@ -131,11 +131,11 @@
 
 | 工具     | 描述               | 使用                      |
 |--------|------------------|-------------------------|
-| vim    | 使用vim直接进行文件的编码转换 | :set fileencoding=utf-8 |
+| vim    | 转换文件编码      | :set fileencoding=utf-8 |
 | recode | 转换文件编码           |                         |
 | Utrac  | 转换文件编码           |                         |
 | cstocs | 转换文件编码           |                         |
-| convmv | 转换文件名编码          |                         |
+| convmv | 转换文件名编码          | convmv -f GBK -t UTF-8 --notest *.zip |
 | enca   | 分析给定文件的编码        |                         |
 
 

@@ -807,7 +807,6 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 ## other
 
-* [https://www.sandboxie.com](https://www.sandboxie.com)
 * 监控网速CPU及内存 [https://github.com/zhongyang219/TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
 * [https://github.com/processhacker/processhacker](https://github.com/processhacker/processhacker)
 * [http://wenlei.ys168.com](http://wenlei.ys168.com)

@@ -50,6 +50,8 @@
 * [https://tanzu.vmware.com/cn/open-source](https://tanzu.vmware.com/cn/open-source)
 * [https://opensource.samsung.com](https://opensource.samsung.com)
 * [https://github.com/amzn](https://github.com/amzn)
+* [https://github.com/openstack](https://github.com/openstack)
+
 
 - [https://github.com/TogetherOS](https://github.com/TogetherOS)
 - [https://github.com/lets-blade](https://github.com/lets-blade)
@@ -139,7 +141,8 @@
 * [https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh](https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh)
 * Linux应用程序 [https://github.com/luong-komorebi/Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software)
 * [https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
-* [https://github.com/shekhargulati/99-problems](https://github.com/shekhargulati/99-problems)
+* 九十九个问题 [https://github.com/shekhargulati/99-problems](https://github.com/shekhargulati/99-problems)
+* [https://github.com/JosephZhu1983/java-common-mistakes](https://github.com/JosephZhu1983/java-common-mistakes)
 * [https://github.com/danistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x)
 
 - 免费服务工具列表 [https://github.com/ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)

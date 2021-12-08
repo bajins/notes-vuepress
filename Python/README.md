@@ -240,6 +240,7 @@ with Test() as t: # 触发__exit__
 * [https://github.com/babysor/MockingBird](https://github.com/babysor/MockingBird)
 * 视频抠图 [https://github.com/PeterL1n/RobustVideoMatting](https://github.com/PeterL1n/RobustVideoMatting)
 * 提高分辨率 [https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement)
+* 换脸 [https://github.com/iperov/DeepFaceLab](https://github.com/iperov/DeepFaceLab)
 
 
 - [https://github.com/opencv](https://github.com/opencv)

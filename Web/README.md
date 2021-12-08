@@ -94,6 +94,7 @@
 - [https://easydoc.net](https://easydoc.net)
 - [https://www.uedbox.com/share](https://www.uedbox.com/share)
 - [https://github.com/star7th/showdoc](https://github.com/star7th/showdoc)
+- [https://github.com/mylxsw/wizard](https://github.com/mylxsw/wizard)
 - [https://github.com/doxygen/doxygen](https://github.com/doxygen/doxygen)
 - [https://github.com/apidoc/apidoc](https://github.com/apidoc/apidoc)
 - [https://github.com/jsdoc](https://github.com/jsdoc)

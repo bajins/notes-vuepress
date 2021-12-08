@@ -11,6 +11,7 @@
 
 * [speedtest](https://github.com/adolfintel/speedtest)
 * Linux中国 翻译组 [https://github.com/LCTT](https://github.com/LCTT)
+* DPDK工程师手册 [https://github.com/0voice/dpdk_engineer_manual](https://github.com/0voice/dpdk_engineer_manual)
 
 
 - [https://www.gnome.org](https://www.gnome.org)
@@ -100,6 +101,7 @@
 - [https://github.com/myspaghetti/macos-virtualbox](https://github.com/myspaghetti/macos-virtualbox)
 - [https://github.com/osresearch/heads](https://github.com/osresearch/heads)
 - [https://github.com/hardenedvault/vaultboot](https://github.com/hardenedvault/vaultboot)
+- [https://github.com/pld-linux](https://github.com/pld-linux)
 
 
 
@@ -160,6 +162,28 @@
 * [https://github.com/hestiacp/hestiacp](https://github.com/hestiacp/hestiacp)
 * [http://amh.sh](http://amh.sh)
 * [http://www.batchshell.cn](http://www.batchshell.cn)
+
+
+
+**Dashboard**
+
+- [https://github.com/keen/dashboards](https://github.com/keen/dashboards)
+- [https://github.com/Smashing/smashing](https://github.com/Smashing/smashing)
+    - [https://github.com/Shopify/dashing](https://github.com/Shopify/dashing)
+- [https://github.com/Hygieia/Hygieia](https://github.com/Hygieia/Hygieia)
+- [https://github.com/Reportr/dashboard](https://github.com/Reportr/dashboard)
+- [https://github.com/elastic/kibana](https://github.com/elastic/kibana)
+- [https://github.com/getredash/redash](https://github.com/getredash/redash)
+- [https://github.com/apache/superset](https://github.com/apache/superset)
+- [https://github.com/metabase/metabase](https://github.com/metabase/metabase)
+- [https://github.com/cube-js/cube.js](https://github.com/cube-js/cube.js)
+- [https://github.com/Freeboard/freeboard](https://github.com/Freeboard/freeboard)
+- [https://github.com/bokeh/bokeh](https://github.com/bokeh/bokeh)
+- [https://github.com/streamlit/streamlit](https://github.com/streamlit/streamlit)
+- [https://github.com/altair-viz/altair](https://github.com/altair-viz/altair)
+- [https://github.com/zabbix](https://github.com/zabbix)
+    - [https://github.com/alexanderzobnin/grafana-zabbix](https://github.com/alexanderzobnin/grafana-zabbix)
+    - [https://github.com/zhausong/zabbix-book](https://github.com/zhausong/zabbix-book)
 
 
 

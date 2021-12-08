@@ -46,7 +46,6 @@
 * [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
 * snap应用商店 [https://snapcraft.io](https://snapcraft.io)
     * [https://docs.snapcraft.io/core/install](https://docs.snapcraft.io/core/install)
-* 多个shell软件包镜像 [https://github.com/mirror](https://github.com/mirror)
 * [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
 * 各个版本控件支持库 [https://pkgs.org](https://pkgs.org)
 * [https://github.com/makedeb](https://github.com/makedeb)

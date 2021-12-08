@@ -166,6 +166,8 @@
 * 常用框架源码赏析 [https://github.com/doocs/source-code-hunter](https://github.com/doocs/source-code-hunter)
 * [https://github.com/RichardWarburton/java-8-lambdas-exercises](https://github.com/RichardWarburton/java-8-lambdas-exercises)
 * [https://github.com/ameizi/DevArticles](https://github.com/ameizi/DevArticles)
+* demo [https://github.com/brucevsked/vskeddemolist](https://github.com/brucevsked/vskeddemolist)
+
 
 
 + [https://github.com/mr-ping/RabbitMQ_into_Chinese](https://github.com/mr-ping/RabbitMQ_into_Chinese)
@@ -227,6 +229,8 @@
 - 数学框架 [https://github.com/Ismail-Mekni/mxreflection](https://github.com/Ismail-Mekni/mxreflection)
 - 读取mp3文件 [https://github.com/mpatric/mp3agic](https://github.com/mpatric/mp3agic)
 - [https://github.com/sedmelluq/lavaplayer](https://github.com/sedmelluq/lavaplayer)
+- [https://github.com/cemfi/meico](https://github.com/cemfi/meico)
+    - [https://github.com/music-encoding](https://github.com/music-encoding)
 - 多媒体检索 [https://github.com/vitrivr](https://github.com/vitrivr)
 - 地理空间数据 [https://github.com/geotools/geotools](https://github.com/geotools/geotools)
 - [https://github.com/geoserver/geoserver](https://github.com/geoserver/geoserver)

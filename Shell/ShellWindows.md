@@ -12,8 +12,22 @@
     * [Cygwin | silaoA的博客](https://silaoa.github.io/tags/Cygwin)
 * [https://sourceware.org](https://sourceware.org)
 
+
+- 实用工具 [https://docs.microsoft.com/zh-cn/sysinternals](https://docs.microsoft.com/zh-cn/sysinternals)
+- [https://github.com/Sysinternals](https://github.com/Sysinternals)
 - [https://github.com/OpenPGP/openpgp.org](https://github.com/OpenPGP/openpgp.org)
 - GPG密钥 [https://www.gpg4win.org](https://www.gpg4win.org)
+- 虚拟机 [https://docs.microsoft.com/zh-cn/virtualization](https://docs.microsoft.com/zh-cn/virtualization)
+- [https://github.com/vmware](https://github.com/vmware)
+    - [https://customerconnect.vmware.com/cn/downloads](https://customerconnect.vmware.com/cn/downloads)
+- [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+    - [https://github.com/hyperbox](https://github.com/hyperbox)
+- [https://github.com/xenserver](https://github.com/xenserver)
+- mac上的虚拟机 [https://www.parallels.com](https://www.parallels.com)
+- 多个shell软件包镜像 [https://github.com/mirror](https://github.com/mirror)
+- [https://github.com/svn2github](https://github.com/svn2github)
+- 沙箱 [https://github.com/sandboxie-plus](https://github.com/sandboxie-plus)
+
 
 * Linux开发Windows程序环境 [https://midipix.org](https://midipix.org)
     * [https://dev.midipix.org](https://dev.midipix.org)
@@ -109,6 +123,8 @@
 ```bash
 ubuntu2004.exe config --default-user root
 ```
+
+**[修改为root登录](/System/Linux配置.md#修改为root登录)**
 
 
 **Ubuntu安装ssh**

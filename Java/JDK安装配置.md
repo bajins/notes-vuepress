@@ -262,6 +262,9 @@ rpm -e --nodeps 查出来的名称
 **查看JDK软件包列表**
 
 ```bash
+# 安装之前最好先更新一下源
+yum update -y
+# 列出可用安装包
 yum -y list java*
 # 或者
 yum search java | grep -i --color JDK

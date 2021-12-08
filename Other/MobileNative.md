@@ -159,6 +159,7 @@
 
 * [https://github.com/appium](https://github.com/appium)
 * [https://tasker.joaoapps.com](https://tasker.joaoapps.com)
+* [https://github.com/openatx/uiautomator2](https://github.com/openatx/uiautomator2)
 
 
 **Auto.js**
