@@ -156,6 +156,7 @@ volumes:
 
 + [https://github.com/github](https://github.com/github)
 
+* GitHub漫游指南 [https://github.com/phodal/github](https://github.com/phodal/github)
 * 首次贡献 [https://github.com/firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)
 * [https://github.com/all-contributors/all-contributors](https://github.com/all-contributors/all-contributors)
 * [https://github.com/probot/probot](https://github.com/probot/probot)

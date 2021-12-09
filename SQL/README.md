@@ -9,7 +9,7 @@
 
 > SQL,NoSQL和NewSQL
 
-
+* 自学SQL网 [http://xuesql.cn](http://xuesql.cn)
 * 数据库压测 [https://github.com/akopytov/sysbench](https://github.com/akopytov/sysbench)
 
 

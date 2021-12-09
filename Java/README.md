@@ -13,6 +13,7 @@
 > [JEP](http://openjdk.java.net/jeps/0)的全称就是`JDK Enhancement Proposals`，简单点讲就像是一个个对JAVA进行改进提案，
 > 这些提案会在合适的时间合适的地点被加入JDK的特定版本。
 
++ [https://github.com/topics/java](https://github.com/topics/java)
 + [https://docs.oracle.com](https://docs.oracle.com)
     + [https://docs.oracle.com/javase/8/index.html](https://docs.oracle.com/javase/8/index.html)
     + [https://docs.oracle.com/javase/8/docs](https://docs.oracle.com/javase/8/docs)
@@ -76,6 +77,7 @@
 + [https://github.com/Snailclimb/awesome-java](https://github.com/Snailclimb/awesome-java)
 
 
+* 在线课程 [https://codegym.cc/zh](https://codegym.cc/zh)
 * 多个学习项目组织 [https://github.com/doocs](https://github.com/doocs)
 * [https://github.com/Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)
 * [https://github.com/crossoverJie/JCSprout](https://github.com/crossoverJie/JCSprout)
@@ -90,6 +92,7 @@
 * Java 8 函数式编程 [https://github.com/glen9527/Java-8-Lambdas-zh](https://github.com/glen9527/Java-8-Lambdas-zh)
 * [https://github.com/CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes)
 * [https://github.com/hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer)
+* [https://github.com/bethrobson/Head-First-Java](https://github.com/bethrobson/Head-First-Java)
 * Effective Java [https://github.com/search?q=effective-java](https://github.com/search?q=effective-java)
     * [https://github.com/sjsdfg/effective-java-3rd-chinese](https://github.com/sjsdfg/effective-java-3rd-chinese)
     * [https://github.com/clxering/Effective-Java-3rd-edition-Chinese-English-bilingual](https://github.com/clxering/Effective-Java-3rd-edition-Chinese-English-bilingual)
@@ -99,7 +102,6 @@
 * 精通 Java 并发编程（第2 版 ） [https://github.com/Jueee/ConcurrencyWithJava](https://github.com/Jueee/ConcurrencyWithJava)
 * 设计原理和模式中的并行编程 [http://gee.cs.oswego.edu/dl/cpj/index.html](http://gee.cs.oswego.edu/dl/cpj/index.html)
 * Java 9 模块化开发 [https://github.com/ledudu/Java-9-Modularity-zh](https://github.com/ledudu/Java-9-Modularity-zh)
-* Vert.x Java开发者指南 [https://github.com/vertxfun/vertx-guide-for-java-devs-cn](https://github.com/vertxfun/vertx-guide-for-java-devs-cn)
 * [https://github.com/hansonwang99/JavaCollection](https://github.com/hansonwang99/JavaCollection)
 * 后端技术总结 [https://github.com/NotFound9/interviewGuide](https://github.com/NotFound9/interviewGuide)
 * [https://github.com/RedSpider1/concurrent](https://github.com/RedSpider1/concurrent)
@@ -167,6 +169,8 @@
 * [https://github.com/RichardWarburton/java-8-lambdas-exercises](https://github.com/RichardWarburton/java-8-lambdas-exercises)
 * [https://github.com/ameizi/DevArticles](https://github.com/ameizi/DevArticles)
 * demo [https://github.com/brucevsked/vskeddemolist](https://github.com/brucevsked/vskeddemolist)
+* [https://github.com/biezhi/30-seconds-of-java8](https://github.com/biezhi/30-seconds-of-java8)
+* 并发专题 [https://github.com/CL0610/Java-concurrency](https://github.com/CL0610/Java-concurrency)
 
 
 
@@ -253,6 +257,9 @@
     + [https://github.com/vert-x3](https://github.com/vert-x3)
     + [http://vertx.io](http://vertx.io)
     + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
+    + 开发者指南 [https://github.com/vertxfun/vertx-guide-for-java-devs-cn](https://github.com/vertxfun/vertx-guide-for-java-devs-cn)
+    + [https://github.com/VertxChina/vertx-translation-chinese](https://github.com/VertxChina/vertx-translation-chinese)
+    + [https://github.com/vertx-china](https://github.com/vertx-china)
 + WebFlux默认反应式框架 [https://github.com/reactor](https://github.com/reactor)
     + [翻译文档中文版](http://htmlpreview.github.io/?https://github.com/get-set/reactor-core/blob/master-zh/src/docs/index.html)
 + 响应流框架 [https://github.com/Atmosphere](https://github.com/Atmosphere)

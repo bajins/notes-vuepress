@@ -24,6 +24,8 @@
 + [https://man.linuxde.net](https://man.linuxde.net)
 + [Cron 定时任务表达式手册](https://www.gairuo.com/p/cron-expression-sheet)
 + Linux内核模块编程指南 [https://github.com/sysprog21/lkmpg](https://github.com/sysprog21/lkmpg)
++ [http://www.linux-commands-examples.com](http://www.linux-commands-examples.com)
+
 
 * [vi命令（vi编辑器）](http://c.biancheng.net/vi)
 * [vi 编辑器使用向导](https://wiki.jikexueyuan.com/project/unix/the-vi-editor.html)
@@ -31,6 +33,10 @@
 * [https://vimjc.com/archives](https://vimjc.com/archives)
 
 
+- 腾讯云动手实验室 [https://cloud.tencent.com/developer/labs](https://cloud.tencent.com/developer/labs)
+- 阿里云体验实验室 [https://developer.aliyun.com/adc/labs](https://developer.aliyun.com/adc/labs)
+- 阿里云知行实验室 [https://start.aliyun.com](https://start.aliyun.com)
+- 华为云沙箱实验室 [https://lab.huaweicloud.com](https://lab.huaweicloud.com)
 
 
 ## 包管理
