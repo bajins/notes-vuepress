@@ -94,6 +94,7 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 
 * Java诊断利器Arthas [https://github.com/alibaba/arthas](https://github.com/alibaba/arthas)
     * [https://arthas.aliyun.com/doc/quick-start.html](https://arthas.aliyun.com/doc/quick-start.html)
+    * [https://github.com/dromara/cubic](https://github.com/dromara/cubic)
 * [https://github.com/spring-projects/spring-loaded](https://github.com/spring-projects/spring-loaded)
 * [https://github.com/vipshop/vjtools](https://github.com/vipshop/vjtools)
 * [https://github.com/qunarcorp/bistoury](https://github.com/qunarcorp/bistoury)
