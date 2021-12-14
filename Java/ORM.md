@@ -29,7 +29,6 @@
 
 **Transaction**
 
-* [https://github.com/Dromara](https://github.com/Dromara)
 * [https://github.com/codingapi/tx-lcn](https://github.com/codingapi/tx-lcn)
 * [https://github.com/seata/seata](https://github.com/seata/seata)
 * [https://github.com/changmingxie/tcc-transaction](https://github.com/changmingxie/tcc-transaction)

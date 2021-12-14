@@ -268,6 +268,7 @@
 - 实时视频流服务器 [https://github.com/gwuhaolin/livego](https://github.com/gwuhaolin/livego)
 - IP代理池 [https://github.com/henson/proxypool](https://github.com/henson/proxypool)
 - [https://github.com/3xxx/engineercms](https://github.com/3xxx/engineercms)
+- [https://github.com/flipped-aurora/gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin)
 
 
 

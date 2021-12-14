@@ -47,7 +47,6 @@
 - [https://www.pendrivelinux.com](https://www.pendrivelinux.com)
 
 * 克隆部署 [https://github.com/canonical/cloud-init](https://github.com/canonical/cloud-init)
-* [https://github.com/canonical/multipass](https://github.com/canonical/multipass)
 * BIOS [https://github.com/coreboot](https://github.com/coreboot)
 
 

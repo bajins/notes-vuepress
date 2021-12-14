@@ -191,10 +191,10 @@
 + [https://github.com/typetools](https://github.com/typetools)
 + [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
     + [下载地址镜像](/Other/README.md#通用镜像)
++ [https://github.com/dromara](https://github.com/dromara)
 
 
 * [https://github.com/eclipse-ee4j/soteria](https://github.com/eclipse-ee4j/soteria)
-* 权限认证框架 [https://github.com/dromara/Sa-Token](https://github.com/dromara/Sa-Token)
 * jwt [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)
 * [https://github.com/auth0/java-jwt](https://github.com/auth0/java-jwt)
 * 消息数据传递 [https://github.com/apache/camel](https://github.com/apache/camel)
@@ -346,7 +346,6 @@
 
 + [https://github.com/google/guava](https://github.com/google/guava)
 + [https://github.com/SpringForAll](https://github.com/SpringForAll)
-+ [https://github.com/looly/hutool](https://github.com/looly/hutool)
 + [https://github.com/oblac/jodd](https://github.com/oblac/jodd)
 + [https://github.com/0opslab/opslabJutil](https://github.com/0opslab/opslabJutil)
 + [https://github.com/houbb/heaven](https://github.com/houbb/heaven)

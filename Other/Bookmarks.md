@@ -391,6 +391,7 @@
     * [https://www.pangjian.me](https://www.pangjian.me)
 * [Archives - 白菜不是菜](https://iminto.github.io/archives)
 * [https://github.com/zq99299/repository-summary](https://github.com/zq99299/repository-summary)
+* [https://github.com/moxi624/LearningNotes](https://github.com/moxi624/LearningNotes)
 
 
 
@@ -448,6 +449,7 @@
 * [Timeline | Jioho 的博客](http://jioho.gitee.io/blog/timeline)
 * [速冻鱼blog](https://sudongyuer.github.io)
 * [https://github.com/lxchuan12](https://github.com/lxchuan12)
+* [https://github.com/zxuqian/zxuqian.cn](https://github.com/zxuqian/zxuqian.cn)
 
 
 

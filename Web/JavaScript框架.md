@@ -50,6 +50,9 @@
 + [https://github.com/reactjs](https://github.com/reactjs)
 
 
+* [https://github.com/reduxjs](https://github.com/reduxjs)
+	* [https://github.com/react-guide](https://github.com/react-guide)
+	* [https://github.com/camsong/redux-in-chinese](https://github.com/camsong/redux-in-chinese)
 * [https://github.com/softchris/react-book](https://github.com/softchris/react-book)
 * [https://github.com/Asabeneh/30-Days-Of-React](https://github.com/Asabeneh/30-Days-Of-React)
 * [https://github.com/gajus/babel-plugin-react-css-modules](https://github.com/gajus/babel-plugin-react-css-modules)
