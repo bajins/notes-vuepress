@@ -1,25 +1,27 @@
 ---
 home: true
-actionText: 
-actionLink: 
-actions:
-  - text: Work-Life Balance →
-    link: /#命令
-    type: primary
-  - text: Introduction
-    link: /#catalog-graph
-    type: secondary
-features:
-  - title: 文档完善
-    details: 基于本仓库可快速创建你自己的文档网站。[高亮语法支持列表](https://prismjs.com/#supported-languages)[PrismJS](https://github.com/PrismJS)[Shiki](https://github.com/shikijs/shiki)
-  - title: 菜单结构
-    details: 编译时自动帮你配置菜单栏和侧边栏，最多三层目录结构。
-  - title: 开源主题
-    details: 非常多的热心开发者开源主题[vuepress-theme](https://github.com/search?q=vuepress-theme)
-  - title: 其他选项
-    details: 如果觉得使用[VuePress](https://v2.vuepress.vuejs.org)[vitepress](https://vitepress.vuejs.org)不便，可使用静态博客写作客户端[gridea](https://github.com/getgridea/gridea)
-footer: MIT Licensed | Copyright © 2018-present Bajins
+actionText: Work-Life Balance →
+actionLink: /#命令
 ---
+
+# 使用
+
+::: tip
+基于本仓库可快速创建你自己的文档网站。
+[高亮语法支持列表](https://prismjs.com/#supported-languages)
+[PrismJS](https://github.com/PrismJS)[Shiki](https://github.com/shikijs/shiki)
+:::
+::: tip
+编译时自动帮你配置菜单栏和侧边栏，最多三层目录结构。
+:::
+::: tip
+非常多的热心开发者开源主题[vuepress-theme](https://github.com/search?q=vuepress-theme)
+:::
+
+::: tip
+如果觉得使用[VuePress](https://v2.vuepress.vuejs.org)[vitepress](https://vitepress.vuejs.org)不便，
+可使用静态博客写作客户端[gridea](https://github.com/getgridea/gridea)
+:::
 
 ## 目录结构
 
