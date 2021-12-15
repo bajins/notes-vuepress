@@ -799,7 +799,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [Microsoft Authenticator](https://www.microsoft.com/zh-cn/account/authenticator)
 * KeePass [https://keepass.info](https://keepass.info)
 * Eziriz IntelliLock
-* [https://www.lastpass.com](https://www.lastpass.com)
+* [https://github.com/lastpass](https://github.com/lastpass)
+    * [https://www.lastpass.com](https://www.lastpass.com)
 * [https://github.com/bitwarden](https://github.com/bitwarden)
 * [https://www.passwordstore.org](https://www.passwordstore.org)
 

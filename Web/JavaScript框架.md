@@ -38,6 +38,7 @@
 - 测试 [https://github.com/karma-runner/karma](https://github.com/karma-runner/karma)
 - [https://github.com/qunitjs](https://github.com/qunitjs)
 - [https://github.com/jasmine/jasmine](https://github.com/jasmine/jasmine)
+- [https://github.com/dequelabs/axe-core](https://github.com/dequelabs/axe-core)
 
 
 
@@ -312,7 +313,15 @@ $('div:contains("test"):not(:has(*)):last').css('background-color', 'red');
 * 文件上传 [https://github.com/kartik-v/bootstrap-fileinput](https://github.com/kartik-v/bootstrap-fileinput)
 * 下拉选择框 [https://github.com/snapappointments/bootstrap-select](https://github.com/snapappointments/bootstrap-select)
 	* [https://www.bootstrapselect.cn](https://www.bootstrapselect.cn)
+* [https://github.com/selectize/selectize.js](https://github.com/selectize/selectize.js)
+* [https://github.com/select2/select2](https://github.com/select2/select2)
+* [https://github.com/wenzhixin/multiple-select](https://github.com/wenzhixin/multiple-select)
+* [https://github.com/ciaoca/cxSelect](https://github.com/ciaoca/cxSelect)
 * [https://github.com/Eonasdan/tempus-dominus](https://github.com/Eonasdan/tempus-dominus)
+* [https://github.com/harvesthq/chosen](https://github.com/harvesthq/chosen)
+* [https://github.com/Robdel12/DropKick](https://github.com/Robdel12/DropKick)
+* [https://github.com/lou/multi-select](https://github.com/lou/multi-select)
+* [https://github.com/gfranko/jquery.selectBoxIt.js](https://github.com/gfranko/jquery.selectBoxIt.js)
 * 模态框 [https://github.com/kylefox/jquery-modal](https://github.com/kylefox/jquery-modal)
 * [https://github.com/sentsin/layui](https://github.com/sentsin/layui)
 * [https://github.com/sentsin/layer](https://github.com/sentsin/layer)
