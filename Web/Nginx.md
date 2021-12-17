@@ -81,57 +81,21 @@
     * [openresty 的动态 - SegmentFault 思否](https://segmentfault.com/t/openresty)
     * [https://www.nginx.com/resources/wiki/modules/lua](https://www.nginx.com/resources/wiki/modules/lua)
     * [https://github.com/moonbingbing/openresty-best-practices](https://github.com/moonbingbing/openresty-best-practices)
+    * [浅谈OpenResty中的body_filter_by_lua*](https://zhuanlan.zhihu.com/p/67904411)
+    * [ngx.re模块和lua正则匹配的区别](https://www.bilibili.com/read/cv5038242)
+        * [https://github.com/openresty/lua-nginx-module#ngxrematch](https://github.com/openresty/lua-nginx-module#ngxrematch)
+    * [Openresty+lua实现动态upstream](https://www.jianshu.com/p/5167325edb09)
+    * [NGINX 结合 lua 动态修改upstream](https://blog.csdn.net/force_eagle/article/details/51966333)
 * [https://github.com/iresty/nginx-lua-module-zh-wiki](https://github.com/iresty/nginx-lua-module-zh-wiki)
 * [https://github.com/loveshell/ngx_lua_waf](https://github.com/loveshell/ngx_lua_waf)
 * [https://github.com/ledgetech/lua-resty-http](https://github.com/ledgetech/lua-resty-http)
+* [https://github.com/3scale/cors-proxy](https://github.com/3scale/cors-proxy)
 * [https://github.com/starjun/openstar](https://github.com/starjun/openstar)
 * [https://github.com/zhouchangxun/ngx_healthcheck_module](https://github.com/zhouchangxun/ngx_healthcheck_module)
 * [https://github.com/vozlt/nginx-module-vts](https://github.com/vozlt/nginx-module-vts)
 * [https://gitee.com/tianhao26/openresty_forwarding_log](https://gitee.com/tianhao26/openresty_forwarding_log)
 * [https://github.com/cuber/ngx_http_google_filter_module](https://github.com/cuber/ngx_http_google_filter_module)
     * [Nginx 配置谷歌镜像站](https://plusls.github.io/linux/nginx/configure-nginx-google-mirror)
-
-- [浅谈OpenResty中的body_filter_by_lua*](https://zhuanlan.zhihu.com/p/67904411)
-
-
-- content_by_lua_file
-
-```lua
--- content_by_lua_file
-local cjson = require("cjson");
-local resp_body = ngx.arg[1];
-ngx.say("<p>hello, world</p>");
--- 响应体
-ngx.ctx.buffered = (ngx.ctx.buffered or "") .. resp_body;
-if (ngx.arg[2]) then
-    ngx.ctx.resp_body = ngx.ctx.buffered;
-end
-
-local req_header = ngx.req.get_headers();
-ngx.ctx.req_header = req_header;
-ngx.req.read_body();
-ngx.ctx.req_body = ngx.req.get_body_data();
-ngx.log(ngx.ERR, "server: ", req_header);
-
-local auth = 'Basic ' .. ngx.var.auth -- basic认证
-if headers['authorization'] ~= auth then
-    ngx.status = 401
-    ngx.header['WWW-Authenticate'] = 'Basic realm="this is my domain"'
-    ngx.say('Unauthorized')
-else
-    -- proxy传入一个'@'开头的location内部路径
-    return ngx.exec(ngx.var.proxy)
-end
-
-local res = ngx.location.capture("/") -- 请求
-if res then
-    ngx.say("status: ", res.status)
-    ngx.say("body:")
-    ngx.print(res.body)
-end
-
-ngx.log(ngx.ERR, ngx.var.request_body)
-```
 
 
 

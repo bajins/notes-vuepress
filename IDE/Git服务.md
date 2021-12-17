@@ -31,6 +31,7 @@
 * [https://github.com/JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
 * 依赖项更新 [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate)
 * Git工具 [https://github.com/GitTools](https://github.com/GitTools)
+* [https://github.com/sosedoff/gitkit](https://github.com/sosedoff/gitkit)
 * SmartGit 是一款优秀的图形化Git仓库管理工具
 * SmartSVN 是一款优秀的图形化SVN仓库管理工具
 * 根据日志生成Changelog [https://github.com/orhun/git-cliff](https://github.com/orhun/git-cliff)

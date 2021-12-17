@@ -97,16 +97,10 @@ location /test {
 > 使用纯Nginx+Lua实现 **[`lua-nginx-module`时序图](https://github.com/openresty/lua-nginx-module#lua_load_resty_core)，点击链接后向上滑动**
 
 
+**完整实现脚本见[https://github.com/bajins/scripts_shell](https://github.com/bajins/scripts_shell)**
+
+
 * [access_by_lua*](https://github.com/openresty/lua-nginx-module#access_by_lua) 替换请求头Host和`service`参数
-```lua
-local uri_args = ngx.req.get_uri_args()
-local outerIP = "100%.100%.100%.100"
-local insideIP = "172%.16%.0%.91"
-if uri_args["service"] then
-    uri_args["service"] = string.gsub(uri_args["service"], outerIP, insideIP)
-    ngx.req.set_uri_args(uri_args)
-end
-```
 
 > 此方式可以使用Nginx全局变量实现，但可自定义程度范围不大
 
@@ -119,80 +113,9 @@ if ($arg_service){
 }
 ```
 
-
 * [header_filter_by_lua*](https://github.com/openresty/lua-nginx-module#header_filter_by_lua) 替换响应头Location和Refresh
-```lua
-local resp_headers = ngx.resp.get_headers() -- 响应头
-local resp_location = resp_headers.location -- 响应地址
-local outerIP = "100%.100%.100%.100"
-local insideIP = "172%.16%.0%.91"
-if resp_location  ~= nil
-    -- 判断响应Host是否为客户端访问Host
-    and not string.match(ngx.header.location, ngx.var.http_host)
-then
-	ngx.header['location'] = string.gsub(resp_location, insideIP, outerIP)
-end
-```
 
 > 其实此方式也可以使用Nginx第三方模块实现：[headers-more-nginx-module](https://github.com/openresty/headers-more-nginx-module)
-
-
-**完整脚本**
-
-```lua
--- access_by_lua_file:
-local cjson = require("cjson");
-
-local req_headers = ngx.req.get_headers() -- 请求头
-local resp_headers = ngx.resp.get_headers() -- 响应头
-
-local uri_args = ngx.req.get_uri_args()
-
--- ngx.log(ngx.ERR, "header_filter_by_lua::::req_headers请求头：》》》\n", cjson.encode(req_headers), "\n《《《")
--- ngx.log(ngx.ERR, "header_filter_by_lua::::出参resp_headers响应头：》》》\n", cjson.encode(resp_headers), "\n《《《")
-
--- 替换请求参数
-if uri_args["service"] then
-    -- 替换外网IP，需在server或location中设置以下两个变量
-    -- set $outerIP "100%.100%.100%.100"; # 外网IP
-    -- set $insideIP  "172%.16%.0%.91"; # 内网IP
-    uri_args["service"] = string.gsub(uri_args["service"], ngx.var.outerIP, ngx.var.insideIP)
-    ngx.req.set_uri_args(uri_args)
-end
-
-if string.match(req_headers.host, ngx.var.outerIP) then
-    -- ngx.req.set_header("Host", string.gsub(req_headers.host, ngx.var.outerIP, ngx.var.insideIP))
-    -- ngx.req.set_header("X-Real-IP", "172.16.0.91")
-    -- ngx.var.remote_addr = "172.16.0.91"
-end
-```
-
-```lua
--- header_filter_by_lua_file:
-local cjson = require("cjson");
-
-local req_headers = ngx.req.get_headers() -- 请求头
-local resp_headers = ngx.resp.get_headers() -- 响应头
-ngx.header.content_length = nil -- body_filter_by_lua*替换内容后需要置空内容长度
-
--- ngx.log(ngx.ERR, "header_filter_by_lua::::req_headers请求头：》》》\n", cjson.encode(req_headers), "\n《《《")
--- ngx.log(ngx.ERR, "header_filter_by_lua::::出参resp_headers响应头：》》》\n", cjson.encode(resp_headers), "\n《《《")
-
--- 替换返回响应头
-if ngx.header.location ~= nil
-    -- 判断响应Host是否为客户端访问Host
-    and not string.match(ngx.header.location, ngx.var.http_host)
-then
-    -- 替换响应头中的外网IP，需在server或location中设置以下两个变量
-    -- set $outerIP "100%.100%.100%.100"; # 外网IP
-    -- set $insideIP  "172%.16%.0%.91"; # 内网IP
-    ngx.header['location'] = string.gsub(resp_headers.location, ngx.var.insideIP, ngx.var.outerIP)
-end
-
-if resp_headers.refresh then
-    ngx.header['refresh'] = string.gsub(resp_headers.refresh, ngx.var.insideIP, ngx.var.outerIP)
-end
-```
 
 
 

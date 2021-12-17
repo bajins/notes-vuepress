@@ -64,6 +64,8 @@
 * 在UTF-8下使用`[\x{4e00}-\x{9fa5}]`匹配中文 [http://www.crifan.com/files/doc/docbook/rec_soft_npp/release/htmls/npp_func_regex_replace.html](http://www.crifan.com/files/doc/docbook/rec_soft_npp/release/htmls/npp_func_regex_replace.html)
 
 
+> notepad++未保存的文件的缓存文件地址：`%AppData%\Notepad++\backup`
+
 
 
 **匹配多个相同字符中的某一个**
