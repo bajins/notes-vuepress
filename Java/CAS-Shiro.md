@@ -99,6 +99,8 @@ location /test {
 
 **完整实现脚本见[https://github.com/bajins/scripts_shell](https://github.com/bajins/scripts_shell)**
 
+> 后端返回的地址全部填NGINX的内网IP:port（端口内外网是一致的），当为外网IP请求进来时，把URL替换成NGINX的内网IP，返回时替换内网IP为外网IP
+
 
 * [access_by_lua*](https://github.com/openresty/lua-nginx-module#access_by_lua) 替换请求头Host和`service`参数
 

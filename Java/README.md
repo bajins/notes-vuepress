@@ -555,6 +555,8 @@
 * [https://github.com/cbeust/testng](https://github.com/cbeust/testng)
 * 生成测试数据 [https://github.com/jsonzou/jmockdata](https://github.com/jsonzou/jmockdata)
 * [https://github.com/DiUS/java-faker](https://github.com/DiUS/java-faker)
+* [https://github.com/j-easy/easy-random](https://github.com/j-easy/easy-random)
+* [https://github.com/Devskiller/jfairy](https://github.com/Devskiller/jfairy)
 * [https://github.com/yindz/common-random](https://github.com/yindz/common-random)
 * [https://github.com/binarywang/java-testdata-generator](https://github.com/binarywang/java-testdata-generator)
 * [https://github.com/Double-O-Seven/stubr](https://github.com/Double-O-Seven/stubr)

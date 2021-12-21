@@ -132,6 +132,7 @@
 - [https://github.com/Sloeber/arduino-eclipse-plugin](https://github.com/Sloeber/arduino-eclipse-plugin)
 - [https://github.com/platformio](https://github.com/platformio)
 - [https://blynk.cloud](https://blynk.cloud)
+- 解决合并冲突Gradle插件 [https://github.com/2BAB/Seal](https://github.com/2BAB/Seal)
 
 
 + 面试题 [https://github.com/Blankj/AndroidOfferKiller](https://github.com/Blankj/AndroidOfferKiller)

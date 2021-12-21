@@ -40,10 +40,12 @@
 * [https://plugins.jetbrains.com/plugin/14522-mybatiscodehelperpro-marketplace-edition-](https://plugins.jetbrains.com/plugin/14522-mybatiscodehelperpro-marketplace-edition-)
 * [https://github.com/gejun123456/MyBatisCodeHelper-Pro](https://github.com/gejun123456/MyBatisCodeHelper-Pro)
 * [MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
-* [https://zhile.io/categories/software-debug](https://zhile.io/categories/software-debug)
-    * [Jetbrains系列产品重置试用方法](https://zhile.io/2020/11/18/jetbrains-eval-reset-da33a93d.html)
+* [https://zhile.io/archives](https://zhile.io/archives)
+    * `jetbrains-agent`/`FineAgent`/`plugin-fineagent`
+    * `BetterIntelliJ`
     * [https://gitee.com/pengzhile/ide-eval-resetter](https://gitee.com/pengzhile/ide-eval-resetter)
     * [https://jetbra.in/s](https://jetbra.in/s)
+    * [https://github.com/ja-netfilter/ja-netfilter](https://github.com/ja-netfilter/ja-netfilter)
 
 ![](https://upload-images.jianshu.io/upload_images/11962894-7690faea398dd0c6.gif)
 

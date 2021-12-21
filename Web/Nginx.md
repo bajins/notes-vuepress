@@ -32,8 +32,9 @@
 * [博客使用Cloudflare和Nginx的相关配置](https://jayshao.com/cloudflare-nginx-ssl)
 
 
++ 开发工具包 [https://github.com/vision5/ngx_devel_kit](https://github.com/vision5/ngx_devel_kit)
 + [https://github.com/topics/nginx-configuration](https://github.com/topics/nginx-configuration)
-* 配置生成 [https://github.com/0xB4LINT/nginxconfig.io](https://github.com/0xB4LINT/nginxconfig.io)
++ 配置生成 [https://github.com/0xB4LINT/nginxconfig.io](https://github.com/0xB4LINT/nginxconfig.io)
 + 配置格式化 [https://github.com/vasilevich/nginxbeautifier](https://github.com/vasilevich/nginxbeautifier)
 + [https://github.com/slomkowski/nginx-config-formatter](https://github.com/1connect/nginx-config-formatter)
 + [https://github.com/nginx-proxy/nginx-proxy](https://github.com/nginx-proxy/nginx-proxy)
@@ -42,6 +43,25 @@
 + 文件服务器 [https://github.com/Naereen/Nginx-Fancyindex-Theme](https://github.com/Naereen/Nginx-Fancyindex-Theme)
 + [https://github.com/aperezdc/ngx-fancyindex](https://github.com/aperezdc/ngx-fancyindex)
 + 监控请求 [https://github.com/lebinh/ngxtop](https://github.com/lebinh/ngxtop)
+
+
+```bash
+# 启动
+nignx -c /usr/local/nginx/conf/nginx.conf
+nginx -p `pwd`/.. -c conf/nginx.conf
+# 快速关闭，可能不保存相关信息，并迅速终止web服务
+nginx -s stop
+kill -s quit PID
+# 平稳关闭，保存相关信息，有安排的结束web服务
+nginx -s quit
+# 重新打开日志文件
+nginx -s reopen
+# 重载配置
+nginx -s reload
+# 验证配置
+nginx -t
+```
+
 
 
 
@@ -81,6 +101,7 @@
     * [openresty 的动态 - SegmentFault 思否](https://segmentfault.com/t/openresty)
     * [https://www.nginx.com/resources/wiki/modules/lua](https://www.nginx.com/resources/wiki/modules/lua)
     * [https://github.com/moonbingbing/openresty-best-practices](https://github.com/moonbingbing/openresty-best-practices)
+    * [https://github.com/gityf/ngx_lua_thrift](https://github.com/gityf/ngx_lua_thrift)
     * [浅谈OpenResty中的body_filter_by_lua*](https://zhuanlan.zhihu.com/p/67904411)
     * [ngx.re模块和lua正则匹配的区别](https://www.bilibili.com/read/cv5038242)
         * [https://github.com/openresty/lua-nginx-module#ngxrematch](https://github.com/openresty/lua-nginx-module#ngxrematch)
