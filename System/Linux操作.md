@@ -39,6 +39,11 @@
 - 华为云沙箱实验室 [https://lab.huaweicloud.com](https://lab.huaweicloud.com)
 
 
+* [ubuntu版本系统升级](https://blog.csdn.net/qq_40907977/article/details/106407373)
+
+
+
+
 ## 包管理
 
 - [流行的 Linux 发行版包管理器命令的对应关系](https://wiki.archlinux.org/index.php/Pacman_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Rosetta_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))

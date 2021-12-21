@@ -378,6 +378,7 @@ request({
     * [https://snack.expo.io](https://snack.expo.io)
     * [https://github.com/streamich/react-use](https://github.com/streamich/react-use)
     * [https://github.com/FaridSafi/react-native-gifted-chat](https://github.com/FaridSafi/react-native-gifted-chat)
+    * [https://github.com/stoneWeb/react-native-parabolic](https://github.com/stoneWeb/react-native-parabolic)
 * 创建桌面应用 [https://github.com/nativefier/nativefier](https://github.com/nativefier/nativefier)
 * [https://github.com/meteor/meteor](https://github.com/meteor/meteor)
 

@@ -84,6 +84,19 @@
 > 保留字不能用于字段名，比如desc，此时也需要加入反引号，并且insert等使用时也要加上反引号
 
 
+**SQL处理TREE树形结构**
+
+- `start with 起始位置 connect by prior 本级=上级`
+- `start with 起始位置 connect by 本级=上级`
+- `connect by 本级=上级`
+
+<details>
+<summary style="font-size:160%;">点击查看说明图</summary>
+![](/images/sql-tree.jpg)
+</details>
+
+
+
 ### SQL1992
 
 **sql分类**

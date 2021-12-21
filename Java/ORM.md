@@ -93,6 +93,8 @@
 
 * [干掉mapper.xml！MyBatis新特性动态SQL](https://cloud.tencent.com/developer/article/1769767)
 * [Mybatis 源码分析 (一) Mapper扫描及代理](https://cofcool.github.io/tech/2018/06/20/mybatis-sourcecode-1)
+* [一条sql查出树形结构数据](https://my.oschina.net/u/2326864/blog/1622990)
+* [Sql中对于树形结构的处理](https://blog.csdn.net/weixin_43794897/article/details/88534992)
 
 
 **trim标签**
