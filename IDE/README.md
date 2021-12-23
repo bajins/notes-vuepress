@@ -96,9 +96,15 @@
 
 * [https://github.com/dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
     * [https://dbeaver.io](https://dbeaver.io)
-    * [https://dbeaver.com](https://dbeaver.com)
+    * [https://dbeaver.com/download/enterprise](https://dbeaver.com/download/enterprise)
     * [DBeaver Enterprise 21.0 企业版激活方法](https://zhile.io/2019/05/08/dbeaver-license-crack.html)
-    * [DBeaver21下载与安装教程](https://blog.csdn.net/u012234419/article/details/120091206)
+    ```ini
+    # 删除jre目录，安装jdk11或以上版本，把以下两行添加到`-vmargs`之前
+    -vm
+    C:\Program Files\Java\jdk-17.0.1\bin
+    # 解压dbeaver-agent-latest.zip到dbeaver目录，添加此行到最后
+    -javaagent:./dbeaver-agent.jar
+    ```
 * [https://www.jetbrains.com/zh-cn/datagrip](https://www.jetbrains.com/zh-cn/datagrip)
 * [https://www.navicat.com](https://www.navicat.com)
     * [https://github.com/search?q=navicat](https://github.com/search?q=navicat)

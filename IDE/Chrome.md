@@ -14,7 +14,6 @@
 * [https://github.com/arnoldthebat/chromiumos](https://github.com/arnoldthebat/chromiumos)
 
 
-- HTML转换为PDF [https://github.com/wkhtmltopdf](https://github.com/wkhtmltopdf)
 - [ERR_UNSAFE_PORT浏览器安全端口问题无法访问的解决方案](https://blog.csdn.net/kjcxmx/article/details/118122483)
 
 

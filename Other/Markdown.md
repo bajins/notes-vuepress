@@ -494,6 +494,7 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/commonmark/commonmark.js](https://github.com/commonmark/commonmark.js)
 * [https://github.com/showdownjs/showdown](https://github.com/showdownjs/showdown)
 * [https://github.com/github/markup](https://github.com/github/markup)
+* [https://github.com/mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)
 
 
 
@@ -515,8 +516,8 @@ string &operator+(const string& A,const string& B) //cpp
 
 ### 本地版客户端
 
-* [https://github.com/typora](https://github.com/typora)
-    * [https://www.typora.io](https://www.typora.io)
+* ~~[https://github.com/typora](https://github.com/typora)~~
+    * ~~[https://www.typora.io](https://www.typora.io)~~
 * [https://github.com/Saul-Mirone/milkdown](https://github.com/Saul-Mirone/milkdown)
 * [https://github.com/laurent22/joplin](https://github.com/laurent22/joplin)
 * MarkPad [https://github.com/Code52/DownmarkerWPF](https://github.com/Code52/DownmarkerWPF)
@@ -525,6 +526,8 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/Zettlr/Zettlr](https://github.com/Zettlr/Zettlr)
 * [https://github.com/rickstrahl/MarkdownMonster](https://github.com/rickstrahl/MarkdownMonster)
 * [https://github.com/marktext/marktext](https://github.com/marktext/marktext)
+    * [https://marktext.app](https://marktext.app)
+* [https://obsidian.md](https://obsidian.md)
 * [https://github.com/notable/notable](https://github.com/notable/notable)
 * [https://github.com/nhn/tui.editor](https://github.com/nhn/tui.editor)
 * [https://github.com/aguang-xyz/aurora-editor](https://github.com/aguang-xyz/aurora-editor)

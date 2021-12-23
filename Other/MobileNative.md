@@ -47,6 +47,7 @@
     + FLUTTER_STORAGE_BASE_URL [https://storage.flutter-io.cn](https://storage.flutter-io.cn)
 + [https://github.com/AweiLoveAndroid/Flutter-learning](https://github.com/AweiLoveAndroid/Flutter-learning)
 + [https://github.com/vandadnp/flutter-tips-and-tricks](https://github.com/vandadnp/flutter-tips-and-tricks)
++ [Flutter 入门与实战](https://juejin.cn/column/6960631670378594311)
 
 > Bloc、Hook、less/ful、GetX，不同的状态管理方案
 
@@ -66,6 +67,7 @@
 - 干货 [https://github.com/fujianlian/GankFlutter](https://github.com/fujianlian/GankFlutter)
 - [https://github.com/xmcy0011/CoffeeChat](https://github.com/xmcy0011/CoffeeChat)
 - [https://github.com/Sangwan5688/BlackHole](https://github.com/Sangwan5688/BlackHole)
+- 摸鱼 [https://github.com/AlexV525/flutter_touch_fish_on_macos](https://github.com/AlexV525/flutter_touch_fish_on_macos)
 - 翻译 [https://github.com/biyidev/biyi_app](https://github.com/biyidev/biyi_app)
 - [https://github.com/huangruiLearn/flutter_hrlweibo](https://github.com/huangruiLearn/flutter_hrlweibo)
 - [https://github.com/sabernwj/cookiej](https://github.com/sabernwj/cookiej)
@@ -133,6 +135,7 @@
 - [https://github.com/platformio](https://github.com/platformio)
 - [https://blynk.cloud](https://blynk.cloud)
 - 解决合并冲突Gradle插件 [https://github.com/2BAB/Seal](https://github.com/2BAB/Seal)
+- trace 工具 [https://github.com/bytedance/btrace](https://github.com/bytedance/btrace)
 
 
 + 面试题 [https://github.com/Blankj/AndroidOfferKiller](https://github.com/Blankj/AndroidOfferKiller)

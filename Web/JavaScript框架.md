@@ -106,7 +106,6 @@
 * [https://github.com/at-ui/at-ui](https://github.com/at-ui/at-ui)
 * [https://github.com/view-design/ViewUI](https://github.com/view-design/ViewUI)
 * [https://github.com/ElemeFE/element](https://github.com/ElemeFE/element)
-* [https://github.com/SimulatedGREG/electron-vue](https://github.com/SimulatedGREG/electron-vue)
 * [https://github.com/mint-ui](https://github.com/mint-ui)
 
 

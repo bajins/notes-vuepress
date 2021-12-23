@@ -183,12 +183,15 @@ volumes:
 
 * [https://github.com/topics/hacktoberfest](https://github.com/topics/hacktoberfest)
 
+
 - GH存档 [https://www.gharchive.org](https://www.gharchive.org)
+- [https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
 - GitHub每周趋势 [https://github.com/SolaTyolo/gold_github_trending](https://github.com/SolaTyolo/gold_github_trending)
 - GitHub每天趋势 [https://github.com/yangwenmai/github-trending-backup](https://github.com/yangwenmai/github-trending-backup)
 - 记录GitHub趋势 [https://github.com/xiaobaiha/github-trending-history](https://github.com/xiaobaiha/github-trending-history)
     - [https://github.oldjpg.com](https://github.oldjpg.com)
 - [https://github.com/techgaun/active-forks](https://github.com/techgaun/active-forks)
+- [https://giters.com](https://giters.com)
 - 获取统计信息 [https://github.com/shroudedcode/devstats](https://github.com/shroudedcode/devstats)
 - 获取动态生成的GitHub统计信息 [https://github.com/anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
 - 获取访问统计 http://profile-counter.glitch.me/用户名/count.svg

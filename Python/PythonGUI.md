@@ -31,6 +31,7 @@
 * [https://github.com/doudoudzj/tkinter-learn](https://github.com/doudoudzj/tkinter-learn)
 * [https://github.com/doudoudzj/tkinter-examples](https://github.com/doudoudzj/tkinter-examples)
 * [https://github.com/ParthJadhav/Tkinter-Designer](https://github.com/ParthJadhav/Tkinter-Designer)
+* [https://github.com/honghaier-game/TKinterDesigner](https://github.com/honghaier-game/TKinterDesigner)
 
 
 **PyQt**

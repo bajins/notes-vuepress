@@ -126,7 +126,6 @@
 * [http://github.com/CarpenterLee/JavaLambdaInternals](http://github.com/CarpenterLee/JavaLambdaInternals)
 * [https://github.com/itwanger/javabooks](https://github.com/itwanger/javabooks)
 * 计算机经典书籍 [https://github.com/forthespada/CS-Books](https://github.com/forthespada/CS-Books)
-* 设计数据密集型应用 [https://github.com/Vonng/ddia](https://github.com/Vonng/ddia)
 * [https://github.com/crisxuan/bestJavaer](https://github.com/crisxuan/bestJavaer)
 * [https://github.com/fenixsoft/awesome-fenix](https://github.com/fenixsoft/awesome-fenix)
 * [https://github.com/AobingJava/JavaFamily](https://github.com/AobingJava/JavaFamily)

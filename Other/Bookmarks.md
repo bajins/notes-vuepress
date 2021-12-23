@@ -140,7 +140,6 @@
 * 学习主题清单 [https://github.com/jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
 * [https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh](https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh)
 * Linux应用程序 [https://github.com/luong-komorebi/Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software)
-* [https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
 * 九十九个问题 [https://github.com/shekhargulati/99-problems](https://github.com/shekhargulati/99-problems)
 * [https://github.com/JosephZhu1983/java-common-mistakes](https://github.com/JosephZhu1983/java-common-mistakes)
 * [https://github.com/danistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x)

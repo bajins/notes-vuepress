@@ -353,6 +353,7 @@ request({
 * [https://github.com/topics/electron](https://github.com/topics/electron)
     * [https://github.com/electron/electron](https://github.com/electron/electron)
     * [https://github.com/electron-userland](https://github.com/electron-userland)
+    * [https://github.com/SimulatedGREG/electron-vue](https://github.com/SimulatedGREG/electron-vue)
 * [使用 node-ffi 构建 Electron 和 C++ Library 混合桌面应用](https://io.hancel.org/2018/05/02/building-an-electron-hybrid-application.html)
 * [https://github.com/topics/nwjs](https://github.com/topics/nwjs)
     * [https://github.com/nwjs/nw.js](https://github.com/nwjs/nw.js)
@@ -408,6 +409,8 @@ request({
 * [https://github.com/cyrus-and/chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface)
 * [https://github.com/TracerBench/chrome-debugging-client](https://github.com/TracerBench/chrome-debugging-client)
 * [https://github.com/laurentj/slimerjs](https://github.com/laurentj/slimerjs)
+* [https://github.com/vitest-dev/vitest](https://github.com/vitest-dev/vitest)
+
 
 - [https://github.com/inu1255/soulsign-chrome](https://github.com/inu1255/soulsign-chrome)
 
