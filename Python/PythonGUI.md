@@ -574,6 +574,7 @@ if __name__ == "__main__":
 > `PySide2`模块提供对`QtCore`，`QtGui`等各个Qt模块的访问。还附带了`Shiboken2`、`CPython`绑定代码生成器，
 > 可用于为`C`或`C++`代码生成`Python`绑定。
 
+* [https://github.com/PySide](https://github.com/PySide)
 * [https://wiki.qt.io/Qt_for_Python/zh](https://wiki.qt.io/Qt_for_Python/zh)
 * [https://gaianote.github.io/2018/09/15/PyQt5%E5%AD%A6%E4%B9%A0%E4%B9%8Bline-edit/](https://gaianote.github.io/2018/09/15/PyQt5%E5%AD%A6%E4%B9%A0%E4%B9%8Bline-edit)
 * [一看就懂的Python图形界面开发：PyQt5/PySide2](https://zmister.com/archives/docs/easy-pyqt)

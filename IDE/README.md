@@ -35,6 +35,7 @@
 + [https://github.com/styfle/awesome-online-ide](https://github.com/styfle/awesome-online-ide)
 + [https://github.com/cdr/code-server](https://github.com/cdr/code-server)
 + [https://github.com/Microsoft/monaco-editor](https://github.com/Microsoft/monaco-editor)
++ [https://github.com/DTStack/molecule](https://github.com/DTStack/molecule)
 
 
 - [https://github.com/WebIDEorg/WebIDE-OS](https://github.com/WebIDEorg/WebIDE-OS)

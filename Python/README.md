@@ -73,7 +73,6 @@ with Test() as t: # 触发__exit__
 - 反编译 [https://github.com/countercept/python-exe-unpacker](https://github.com/countercept/python-exe-unpacker)
 - 解密MS Office [https://github.com/nolze/msoffcrypto-tool](https://github.com/nolze/msoffcrypto-tool)
 - 网站脱机下载 [https://github.com/xroche/httrack](https://github.com/xroche/httrack)
-- 自动构建 [https://github.com/buildbot/buildbot](https://github.com/buildbot/buildbot)
 - web文件扫描 [https://github.com/topics/dirbuster](https://github.com/topics/dirbuster)
 - [https://github.com/H4ckForJob/dirmap](https://github.com/H4ckForJob/dirmap)
 - [https://github.com/DIGITALCRIMINAL/OnlyFans](https://github.com/DIGITALCRIMINAL/OnlyFans)
@@ -122,6 +121,8 @@ with Test() as t: # 触发__exit__
 * web [https://github.com/tiangolo/fastapi](https://github.com/tiangolo/fastapi)
 * [https://github.com/pallets/flask](https://github.com/pallets/flask)
     * [https://dormousehole.readthedocs.io](https://dormousehole.readthedocs.io)
+* [https://github.com/Pylons](https://github.com/Pylons)
+* [https://github.com/bottlepy/bottle](https://github.com/bottlepy/bottle)
 * [https://github.com/frappe/frappe](https://github.com/frappe/frappe)
 * 数据科学Web [https://github.com/plotly/dash](https://github.com/plotly/dash)
 * 定时任务 [https://github.com/agronholm/apscheduler](https://github.com/agronholm/apscheduler)
@@ -129,12 +130,15 @@ with Test() as t: # 触发__exit__
 * ORM [https://github.com/sqlalchemy/sqlalchemy](https://github.com/sqlalchemy/sqlalchemy)
 * 打印输出为表格 [https://github.com/jazzband/prettytable](https://github.com/jazzband/prettytable)
 * [https://github.com/astanin/python-tabulate](https://github.com/astanin/python-tabulate)
+* SQLModel模型 [https://github.com/tiangolo/sqlmodel](https://github.com/tiangolo/sqlmodel)
 
 
 
 - 交互式计算 [https://github.com/ipython](https://github.com/ipython)
 - 纠正以前的控制台命令中的错误 [https://github.com/nvbn/thefuck](https://github.com/nvbn/thefuck)
 - 命令行HTTP客户端 [https://github.com/jakubroztocil/httpie](https://github.com/jakubroztocil/httpie)
+- SSHv2协议 [https://github.com/paramiko/paramiko](https://github.com/paramiko/paramiko)
+- shell [https://github.com/xonsh/xonsh](https://github.com/xonsh/xonsh)
 - 终端样式 [https://github.com/willmcgugan/rich](https://github.com/willmcgugan/rich)
 - [https://github.com/topics/expect](https://github.com/topics/expect)
     - [https://www.nist.gov/services-resources/software/expect](https://www.nist.gov/services-resources/software/expect)
@@ -159,6 +163,9 @@ with Test() as t: # 触发__exit__
 - [https://github.com/lxml/lxml](https://github.com/lxml/lxml)
 - [https://github.com/psf/requests-html](https://github.com/psf/requests-html)
 - [https://github.com/scrapy/parsel](https://github.com/scrapy/parsel)
+- [https://github.com/edgewall/genshi](https://github.com/edgewall/genshi)
+- A​​tom和RSS [https://github.com/kurtmckee/feedparser](https://github.com/kurtmckee/feedparser)
+
 
 
 **PING/TCPING**
@@ -240,6 +247,7 @@ with Test() as t: # 触发__exit__
 * [https://github.com/babysor/MockingBird](https://github.com/babysor/MockingBird)
 * 视频抠图 [https://github.com/PeterL1n/RobustVideoMatting](https://github.com/PeterL1n/RobustVideoMatting)
 * 提高分辨率 [https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement)
+* [https://github.com/CompVis/latent-diffusion](https://github.com/CompVis/latent-diffusion)
 * 换脸 [https://github.com/iperov/DeepFaceLab](https://github.com/iperov/DeepFaceLab)
 
 
