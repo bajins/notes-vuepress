@@ -99,6 +99,7 @@
     * [手动下载适用于 Linux 的 Windows 子系统发行版包](https://docs.microsoft.com/zh-cn/windows/wsl/install-manual#downloading-distributions)
     * [适用于x64计算机的 WSL2 Linux内核更新包](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
 * 性能评测 [https://github.com/microsoft/Microsoft-Performance-Tools-Linux-Android](https://github.com/microsoft/Microsoft-Performance-Tools-Linux-Android)
+* [https://github.com/alesimula/wsa_pacman](https://github.com/alesimula/wsa_pacman)
 * [https://github.com/yuk7/ArchWSL](https://github.com/yuk7/ArchWSL)
     * [https://wsldl-pg.github.io/ArchW-docs/locale/zh-CN](https://wsldl-pg.github.io/ArchW-docs/locale/zh-CN)
 * [https://github.com/agowa338/WSL-DistroLauncher-Alpine](https://github.com/agowa338/WSL-DistroLauncher-Alpine)
@@ -106,6 +107,7 @@
     * [https://github.com/microsoft/WSL/issues/4177](https://github.com/microsoft/WSL/issues/4177)
 * [https://github.com/shayne/go-wsl2-host](https://github.com/shayne/go-wsl2-host)
 * [https://github.com/microsoft/WSL/issues/4210#issuecomment-648570493](https://github.com/microsoft/WSL/issues/4210#issuecomment-648570493)
+
 
 - [https://docs.microsoft.com/zh-cn/virtualization](https://docs.microsoft.com/zh-cn/virtualization)
 - [https://docs.microsoft.com/zh-cn/windows-server/virtualization](https://docs.microsoft.com/zh-cn/windows-server/virtualization)

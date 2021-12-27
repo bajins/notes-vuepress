@@ -14,8 +14,16 @@
 - Eclipse代码格式化风格 [https://github.com/krasa/EclipseCodeFormatter](https://github.com/krasa/EclipseCodeFormatter)
 - 主题 [http://soft-hub.cn](http://soft-hub.cn)
 
-* [https://repo.idechajian.com](https://repo.idechajian.com)
-* [https://plugins.zhile.io](https://plugins.zhile.io)
+
+* [https://www.jetbrains.com/idea/download/other.html](https://www.jetbrains.com/idea/download/other.html)
+* [https://zhile.io/archives](https://zhile.io/archives)
+    * `jetbrains-agent`(v3.2.0为2020.1.4及以下版本)/`FineAgent`/`plugin-fineagent`
+    * `BetterIntelliJ`
+    * [v2.3.5为`2021.2.2`及以下版本重置试用插件](https://zhile.io/2020/11/18/jetbrains-eval-reset-da33a93d.html)
+    * [https://jetbra.in/s](https://jetbra.in/s)
+    * [https://github.com/ja-netfilter/ja-netfilter](https://github.com/ja-netfilter/ja-netfilter)
+    * [https://repo.idechajian.com](https://repo.idechajian.com)
+    * [https://plugins.zhile.io](https://plugins.zhile.io)
 
 > `计算机\HKEY_CURRENT_USER\SOFTWARE\JavaSoft\Prefs`
 
@@ -40,12 +48,7 @@
 * [https://plugins.jetbrains.com/plugin/14522-mybatiscodehelperpro-marketplace-edition-](https://plugins.jetbrains.com/plugin/14522-mybatiscodehelperpro-marketplace-edition-)
 * [https://github.com/gejun123456/MyBatisCodeHelper-Pro](https://github.com/gejun123456/MyBatisCodeHelper-Pro)
 * [MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
-* [https://zhile.io/archives](https://zhile.io/archives)
-    * `jetbrains-agent`/`FineAgent`/`plugin-fineagent`
-    * `BetterIntelliJ`
-    * [https://gitee.com/pengzhile/ide-eval-resetter](https://gitee.com/pengzhile/ide-eval-resetter)
-    * [https://jetbra.in/s](https://jetbra.in/s)
-    * [https://github.com/ja-netfilter/ja-netfilter](https://github.com/ja-netfilter/ja-netfilter)
+
 
 ![](https://upload-images.jianshu.io/upload_images/11962894-7690faea398dd0c6.gif)
 

@@ -300,6 +300,9 @@
     - `unpkg.com/react/` 在网址最后添加斜线，查看包内文件列表
 * [https://github.com/jsdelivr/jsdelivr](https://github.com/jsdelivr/jsdelivr)
     * [https://www.jsdelivr.com](https://www.jsdelivr.com)
+    * `gcore.jsdelivr.net`
+    * `fastly.jsdelivr.net`
+    * `originfastly.jsdelivr.net`
 * 知乎 [https://unpkg.zhimg.com](https://unpkg.zhimg.com)
 * 饿了么 [https://npm.elemecdn.com](https://npm.elemecdn.com)
 * [https://www.bootcdn.cn](https://www.bootcdn.cn)
@@ -310,6 +313,7 @@
 
 - [https://developers.google.com/speed/libraries](https://developers.google.com/speed/libraries)
 - [https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview](https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview)
+- [前端JS/CSS静态资源公共库免费CDN加速汇总](https://51.ruyo.net/12387.html)
 
 
 ```
