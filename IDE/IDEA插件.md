@@ -19,7 +19,7 @@
 * [https://zhile.io/archives](https://zhile.io/archives)
     * `jetbrains-agent`(v3.2.0为2020.1.4及以下版本)/`FineAgent`/`plugin-fineagent`
     * `BetterIntelliJ`
-    * [v2.3.5为`2021.2.2`及以下版本重置试用插件](https://zhile.io/2020/11/18/jetbrains-eval-reset-da33a93d.html)
+    * [v2.3.5为2021.2.4(2021.2.3开始需要登录)及以下版本重置试用插件](https://zhile.io/2020/11/18/jetbrains-eval-reset-da33a93d.html)
     * [https://jetbra.in/s](https://jetbra.in/s)
     * [https://github.com/ja-netfilter/ja-netfilter](https://github.com/ja-netfilter/ja-netfilter)
     * [https://repo.idechajian.com](https://repo.idechajian.com)
