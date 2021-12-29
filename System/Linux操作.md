@@ -63,6 +63,9 @@
 * [https://mpr.hunterwittenborn.com](https://mpr.hunterwittenborn.com)
 * [https://www.flatpak.org](https://www.flatpak.org)
 * [https://store.steampowered.com](https://store.steampowered.com)
+* [https://flatpak.org](https://flatpak.org)
+    * [https://flathub.org](https://flathub.org)
+    * [https://github.com/tchx84/Flatseal](https://github.com/tchx84/Flatseal)
 
 
 - mac [https://github.com/macports](https://github.com/macports)

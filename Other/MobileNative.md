@@ -360,7 +360,6 @@
 - [https://github.com/rumboalla/apkupdater](https://github.com/rumboalla/apkupdater)
 - [https://gitlab.com/AuroraOSS/AuroraStore](https://gitlab.com/AuroraOSS/AuroraStore)
 - [https://github.com/yeriomin/YalpStore](https://github.com/yeriomin/YalpStore)
-- [https://flathub.org](https://flathub.org)
 
 
 * see [https://caij.coding.net/public](https://caij.coding.net/public)
