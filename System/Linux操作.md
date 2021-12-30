@@ -120,7 +120,6 @@
 - [https://sourceforge.net/projects/pkgconfiglite](https://sourceforge.net/projects/pkgconfiglite)
 - [https://sourceforge.net/projects/lcms](https://sourceforge.net/projects/lcms)
 - [https://www.cairographics.org](https://www.cairographics.org)
-- [https://sourceforge.net/projects/libpng](https://sourceforge.net/projects/libpng)
 
 
 

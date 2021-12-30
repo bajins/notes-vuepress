@@ -77,6 +77,9 @@
 - [https://github.com/linuxmint](https://github.com/linuxmint)
 - [https://github.com/cutefishos-ubuntu](https://github.com/cutefishos-ubuntu)
 - [https://gitlab.archlinux.org/archlinux](https://gitlab.archlinux.org/archlinux)
+- [https://github.com/NetBSD](https://github.com/NetBSD)
+- [https://github.com/freebsd](https://github.com/freebsd)
+- Windows兼容操作系统 [https://github.com/reactos](https://github.com/reactos)
 - 支持Linux和安卓应用 [https://github.com/JingOS-team/JingOS](https://github.com/JingOS-team/JingOS)
 
 

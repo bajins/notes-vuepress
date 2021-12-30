@@ -16,6 +16,7 @@
 * [https://github.com/wine-mirror/wine](https://github.com/wine-mirror/wine)
 * [https://github.com/ValveSoftware](https://github.com/ValveSoftware)
 * [https://kde.org/zh-cn/plasma-desktop](https://kde.org/zh-cn/plasma-desktop)
+* [https://www.enlightenment.org](https://www.enlightenment.org)
 * Arch Linux 安装 [https://github.com/ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus)
 
 - [https://github.com/littlekernel/lk](https://github.com/littlekernel/lk)
