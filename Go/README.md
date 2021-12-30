@@ -99,6 +99,7 @@
     * [https://magic.iswbm.com](https://magic.iswbm.com)
 * Go语法树入门 [https://github.com/chai2010/go-ast-book](https://github.com/chai2010/go-ast-book)
 * [https://github.com/halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go)
+* 周刊 [https://github.com/polaris1119/golangweekly](https://github.com/polaris1119/golangweekly)
 
 
 - Go子语言 [https://github.com/chai2010/ugo-compiler-book](https://github.com/chai2010/ugo-compiler-book)

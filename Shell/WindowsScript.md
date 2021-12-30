@@ -31,6 +31,57 @@
 
 
 
+## 系统环境变量
+
+| 环境变量                  	| 作用                                                                        	|
+|---------------------------	|-----------------------------------------------------------------------------	|
+| %ALLUSERSPROFILE%         	| 指所有用户的用户目录，通常是C:/ProgramData                                  	|
+| %APPDATA%                 	| 指当前用户的Application Data目录，通常是C:/Users/当前用户名/AppData/Roaming 	|
+| %CD%                      	| 列出当前目录。                                                              	|
+| %CLIENTNAME%              	| 列出联接到终端服务会话时客户端的NETBIOS名。                                 	|
+| %CMDCMDLINE%              	| 列出启动当前cmd.exe所使用的命令行。                                         	|
+| %CMDEXTVERSION%           	| 命令出当前命令处理程序扩展版本号。                                          	|
+| %CommonProgramFiles%      	| 指公用文件（Common Files）目录， 通常是C:/Program Files/Common Files        	|
+| %COMMONPROGRAMFILES(x86)% 	| C:\Program Files (x86)\Common Files                                         	|
+| %COMPUTERNAME%            	| 列出了计算机名。                                                            	|
+| %COMSPEC%                 	| 列出了可执行命令外壳（命令处理程序）的路径。                                	|
+| %DATE%                    	| 列出当前日期。                                                              	|
+| %ERRORLEVEL%              	| 列出了最近使用的命令的错误代码。                                            	|
+| %HOMEDRIVE%               	| 同%SYSTEMDRIVE%                                                             	|
+| %HOMEDRIVE%%HOMEPATH%     	| 同%USERPROFILE%                                                   	|
+| %HOMEPATH%                	| 同%USERPROFILE%                                                             	|
+| %HOMESHARE%               	| 列出用户共享主目录的网络路径。                                              	|
+| %LOCALAPPDATA%            	| C:\Users\用户名\AppData\Local                                               	|
+| %LOGONSERVER%             	| 返回验证当前登录会话的域控制器的名称。                                      	|
+| %NUMBER_OF_PROCESSORS%    	| 计算机上运行的处理器数目。                                                  	|
+| %OS%                      	| 用户工作站所用的操作系统。                                                  	|
+| %PATH%                    	| 路径环境变量。                                                              	|
+| %PATHEXT%                 	| 列出操作系统认为可被执行的文件扩展名，通常为 .com、 .exe、.bat 或 .cmd      	|
+| %PROCESSOR_ARCHITECTURE%  	| 用户工作站使用的处理器类型。                                                	|
+| %PROCESSOR_IDENTFIER%     	| 列出了处理器的描述。                                                        	|
+| %PROCESSOR_LEVEL%         	| 列出了计算机的处理器的型号。                                                	|
+| %PROCESSOR_REVISION%      	| 列出了处理器的修订号。                                                      	|
+| %PROGRAMDATA%             	| C:\ProgramData                                                              	|
+| %ProgramFiles%            	| 指Program Files的路径，通常是C:/Program Files                               	|
+| %PROGRAMFILES(X86)%       	| C:\Program Files (x86)                                                      	|
+| %PROMPT%                  	| 列出了当前命令解释器的命令提示设置。                                        	|
+| %PUBLIC%                  	| C:\Users\Public                                                             	|
+| %RANDOM%                  	| 列出界于0 和 32767之间的随机十进制数。                                      	|
+| %SESSIONNAME%             	| 列出连接到终端服务会话时的连接和会话名。                                    	|
+| %SYSTEM%                  	| C':\WINDOWS\SYSTEM32                                                        	|
+| %SYSTEMDRIVE%             	| 系统所在的本地驱动器（例如，c:）。                                          	|
+| %SYSTEMROOT%              	| 指Windows系统所在的目录,通常是C:/Windows                                    	|
+| %TEMP%                    	| 指当前用户的临时文件目录，通常是C:/Users/当前用户名/AppData/Local/Temp      	|
+| %TIME%                    	| 列出当前时间。                                                              	|
+| %TMP%                     	| 同%TEMP%                                                                    	|
+| %USERDOMAIN%              	| 列出了包含用户帐号的域的名字。                                              	|
+| %USERNAME%                	| 列出当前登录的用户的名字。                                                  	|
+| %USERPROFILE%             	| 指当前帐户的用户目录通常是C:/Users/当前用户名                               	|
+| %WINDIR%                  	| 同%SYSTEMROOT%                                                              	|
+
+
+
+
 ## WScript对象
 
 > 所有的`Wscript`对象都存放在`WSHOM.ocx`文件中
@@ -264,26 +315,6 @@
 - `ExpandEnvironmentStrings` 返回环境变量的扩展值
     - `ExpandEnvironmentStrings("%USERNAME%")` 获取用户名
     - `ExpandEnvironmentStrings("%ComputerName%")` 获取计算机名
-
-| 变量名                     | 说明                                       |
-|-------------------------|------------------------------------------|
-| NUMBER_OF_PROCESSORS    | 计算机上运行的处理器数目。                            |
-| PROCESSOR_ARCHITECTURE  | 用户工作站使用的处理器类型。                           |
-| PROCESSOR_IDENTIFIER    | 用户工作站的处理器 ID。                            |
-| PROCESSOR_LEVEL         | 用户工作站的处理器级。                              |
-| PROCESSOR_REVISION      | 用户工作站的处理器版本。                             |
-| OS                      | 用户工作站所用的操作系统。                            |
-| COMSPEC                 | 用于运行“命令提示”窗口的命令（通常为 cmd.exe）。            |
-| HOMEDRIVE               | 本地主驱动器（通常为 C 驱动器）。                       |
-| HOMEPATH                | 用户的默认路径（在 Windows NT 上通常为 usersdefault）。 |
-| PATH                    | 路径环境变量。                                  |
-| PATHEXT                 | 可执行文件的扩展名（通常为 .com、 .exe、.bat 或 .cmd）。   |
-| PROMPT                  | 命令提示符（通常为 ＄P＄G）。                         |
-| SYSTEMDRIVE             | 系统所在的本地驱动器（例如，c:）。                       |
-| SYSTEMROOT              | 系统目录（例如，c:winnt）。和 WINDIR 相同。            |
-| WINDIR                  | 系统目录（例如 c:winnt）。和 SYSTEMROOT 相同。        |
-| TEMP                    | 存储临时文件的目录（例如，c:temp）。用户可更改。              |
-| TMP                     | 存储临时文件的目录（例如，c:temp）。用户可更改。              |
 
 
 

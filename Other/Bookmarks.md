@@ -85,6 +85,10 @@
 * [https://github.com/openeuler-mirror](https://github.com/openeuler-mirror)
 * [https://lfaidata.foundation/projects](https://lfaidata.foundation/projects)
 * [https://github.com/girlscript/winter-of-contributing](https://github.com/girlscript/winter-of-contributing)
+* [https://github.com/hardenedlinux](https://github.com/hardenedlinux)
+    * [https://gitlab.com/hardenedlinux](https://gitlab.com/hardenedlinux)
+    * [https://github.com/NalaGinrut](https://github.com/NalaGinrut)
+    * [https://gitlab.com/NalaGinrut](https://gitlab.com/NalaGinrut)
 
 
 
