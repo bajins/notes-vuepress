@@ -131,6 +131,7 @@ with Test() as t: # 触发__exit__
 * 打印输出为表格 [https://github.com/jazzband/prettytable](https://github.com/jazzband/prettytable)
 * [https://github.com/astanin/python-tabulate](https://github.com/astanin/python-tabulate)
 * SQLModel模型 [https://github.com/tiangolo/sqlmodel](https://github.com/tiangolo/sqlmodel)
+* 串口 [https://github.com/pyserial/pyserial](https://github.com/pyserial/pyserial)
 
 
 

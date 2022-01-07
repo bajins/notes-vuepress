@@ -13,6 +13,7 @@
 * 恢复Win10任务菜单 [https://github.com/valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher)
 * 手机运行Win10 [https://github.com/edk2-porting](https://github.com/edk2-porting)
 * [https://github.com/WOA-Project](https://github.com/WOA-Project)
+* 删除预安装 [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
 
 
 

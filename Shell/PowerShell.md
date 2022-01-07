@@ -49,6 +49,7 @@
     * [https://github.com/ScoopInstaller](https://github.com/ScoopInstaller)
     * [https://github.com/lukesampson/scoop-extras](https://github.com/lukesampson/scoop-extras)
 * [https://github.com/cmderdev/cmder](https://github.com/cmderdev/cmder)
+* [https://github.com/appget](https://github.com/appget)
 
 
 

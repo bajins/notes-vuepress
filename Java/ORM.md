@@ -35,6 +35,7 @@
 * [https://github.com/QNJR-GROUP/EasyTransaction](https://github.com/QNJR-GROUP/EasyTransaction)
 * [https://github.com/liuyangming/ByteTCC](https://github.com/liuyangming/ByteTCC)
 * [https://github.com/wchswchs/Hulk](https://github.com/wchswchs/Hulk)
+* [https://github.com/atomikos/transactions-essentials](https://github.com/atomikos/transactions-essentials)
 
 
 
