@@ -43,6 +43,12 @@
 + 文件服务器 [https://github.com/Naereen/Nginx-Fancyindex-Theme](https://github.com/Naereen/Nginx-Fancyindex-Theme)
 + [https://github.com/aperezdc/ngx-fancyindex](https://github.com/aperezdc/ngx-fancyindex)
 + 监控请求 [https://github.com/lebinh/ngxtop](https://github.com/lebinh/ngxtop)
++ 负载均衡保活 [https://github.com/acassen/keepalived](https://github.com/acassen/keepalived)
+    + [https://github.com/garenchan/keepalived-doc](https://github.com/garenchan/keepalived-doc)
+    + [高可用实践——Keepalived踩坑记录](https://zhuanlan.zhihu.com/p/148136167)
++ 高可用集群 [https://github.com/ClusterLabs](https://github.com/ClusterLabs)
+    + Heartbeat [http://www.linux-ha.org](http://www.linux-ha.org)
+
 
 
 ```bash

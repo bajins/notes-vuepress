@@ -66,6 +66,9 @@
 * [https://flatpak.org](https://flatpak.org)
     * [https://flathub.org](https://flathub.org)
     * [https://github.com/tchx84/Flatseal](https://github.com/tchx84/Flatseal)
+* [https://github.com/openSUSE](https://github.com/openSUSE)
+
+
 
 
 - mac [https://github.com/macports](https://github.com/macports)

@@ -375,6 +375,9 @@ var express = require('express');
 * 在html元素绑定请求 [https://github.com/bigskysoftware/intercooler-js](https://github.com/bigskysoftware/intercooler-js)
 * [https://github.com/bigskysoftware/htmx](https://github.com/bigskysoftware/htmx)
 * [https://github.com/js-cookie](https://github.com/js-cookie)
+* [https://github.com/zimv/websocket-heartbeat-js](https://github.com/zimv/websocket-heartbeat-js)
+
+
 
 - [https://github.com/rndme/download](https://github.com/rndme/download)
 - 文件上传 [https://github.com/fex-team/webuploader](https://github.com/fex-team/webuploader)
