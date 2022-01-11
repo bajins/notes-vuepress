@@ -31,6 +31,9 @@
 * [Windows云服务器如何配置多用户登录？（Windows 2012）](https://support.huaweicloud.com/trouble-ecs/zh-cn_topic_0138876622.html)
 * [https://github.com/stascorp/rdpwrap](https://github.com/stascorp/rdpwrap)
     * [Windows远程桌面单/多用户同时登录](https://blog.csdn.net/Aaron_Miller/article/details/109534277)
+* [英特尔® 显卡控制面板从 Microsoft* Store 中下架](https://www.intel.cn/content/www/cn/zh/support/articles/000058733/graphics.html)
+
+
 
 - [https://sdi-tool.org](https://sdi-tool.org)
 - [https://www.iobit.com/en/driver-booster.php](https://www.iobit.com/en/driver-booster.php)

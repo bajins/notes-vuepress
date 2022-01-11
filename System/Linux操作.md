@@ -67,6 +67,7 @@
     * [https://flathub.org](https://flathub.org)
     * [https://github.com/tchx84/Flatseal](https://github.com/tchx84/Flatseal)
 * [https://github.com/openSUSE](https://github.com/openSUSE)
+* [https://github.com/calamares](https://github.com/calamares)
 
 
 
