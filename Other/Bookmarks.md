@@ -51,6 +51,9 @@
 * [https://opensource.samsung.com](https://opensource.samsung.com)
 * [https://github.com/amzn](https://github.com/amzn)
 * [https://github.com/openstack](https://github.com/openstack)
+* [https://opensource.adobe.com](https://opensource.adobe.com)
+    * [https://github.com/adobe](https://github.com/adobe)
+    * [https://www.adobe.io/open](https://www.adobe.io/open)
 
 
 - [https://github.com/TogetherOS](https://github.com/TogetherOS)

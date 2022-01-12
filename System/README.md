@@ -215,6 +215,7 @@
 
 - 在线浏览器 [https://hyperbeam.com](https://hyperbeam.com)
 - SaaS、PaaS和IaaS [https://github.com/ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
+- Faas [https://opendev.org/x/picasso](https://opendev.org/x/picasso)
 
 
 

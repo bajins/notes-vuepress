@@ -574,8 +574,6 @@ var express = require('express');
 
 ## 相关链接
 
-* Bootstrap中文网 [https://www.bootcss.com](https://www.bootcss.com)
-* React [https://reactjs.bootcss.com](https://reactjs.bootcss.com)
 * Next.js [https://www.nextjs.cn](https://www.nextjs.cn)
 * Docusaurus [https://www.docusaurus.cn](https://www.docusaurus.cn)
 * Blitz [https://www.blitzjs.cn](https://www.blitzjs.cn)
@@ -589,7 +587,6 @@ var express = require('express');
 * Nuxt.js [https://www.nuxtjs.cn](https://www.nuxtjs.cn)
 * Gridsome [https://www.gridsome.cn](https://www.gridsome.cn)
 * Preact [https://www.preactjs.com.cn](https://www.preactjs.com.cn)
-* Svelte [https://www.sveltejs.cn](https://www.sveltejs.cn)
 * Sapper [https://www.sapperjs.com](https://www.sapperjs.com)
 * Webpack [https://www.webpackjs.com](https://www.webpackjs.com)
 * Rollup.js [https://www.rollupjs.com](https://www.rollupjs.com)

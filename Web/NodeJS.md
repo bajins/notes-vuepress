@@ -35,7 +35,6 @@
     - [https://webpack.js.org](https://webpack.js.org)
     - [https://www.webpackjs.com](https://www.webpackjs.com)
     - 深入浅出 Webpack [https://github.com/gwuhaolin/dive-into-webpack](https://github.com/gwuhaolin/dive-into-webpack)
-- [https://github.com/sveltejs/svelte](https://github.com/sveltejs/svelte)
 - [https://github.com/parcel-bundler/parcel](https://github.com/parcel-bundler/parcel)
 - [https://github.com/snowpackjs/snowpack](https://github.com/snowpackjs/snowpack)
 - 2009年，npm
@@ -345,46 +344,6 @@ request({
 });
 ```
 
-
-
-
-## 原生桌面应用
-
-* [https://github.com/topics/electron](https://github.com/topics/electron)
-    * [https://github.com/electron/electron](https://github.com/electron/electron)
-    * [https://github.com/electron-userland](https://github.com/electron-userland)
-    * [https://github.com/SimulatedGREG/electron-vue](https://github.com/SimulatedGREG/electron-vue)
-* [使用 node-ffi 构建 Electron 和 C++ Library 混合桌面应用](https://io.hancel.org/2018/05/02/building-an-electron-hybrid-application.html)
-* [https://github.com/topics/nwjs](https://github.com/topics/nwjs)
-    * [https://github.com/nwjs/nw.js](https://github.com/nwjs/nw.js)
-    * [https://github.com/lxp135/NW.jsCnDocs](https://github.com/lxp135/NW.jsCnDocs)
-* [https://github.com/Kagami/mpv.js](https://github.com/Kagami/mpv.js)
-* [https://github.com/apache/cordova](https://github.com/apache/cordova)
-    * [https://github.com/apache/cordova-docs](https://github.com/apache/cordova-docs)
-        * [https://cordova.axuer.com](https://cordova.axuer.com)
-    * [https://github.com/apache/cordova-lib](https://github.com/apache/cordova-lib)
-    * [https://github.com/apache/cordova-cli](https://github.com/apache/cordova-cli)
-    * [https://github.com/apache/cordova-create](https://github.com/apache/cordova-create)
-    * [https://github.com/apache/cordova-serve](https://github.com/apache/cordova-serve)
-    * [https://github.com/apache/cordova-js](https://github.com/apache/cordova-js)
-    * [https://github.com/apache/cordova-android](https://github.com/apache/cordova-android)
-    * [https://github.com/apache/cordova-ios](https://github.com/apache/cordova-ios)
-* 将 Node.js 项目打包到可执行文件中 [https://github.com/vercel/pkg](https://github.com/vercel/pkg)
-* [https://github.com/facebook/react-native](https://github.com/facebook/react-native)
-    * [https://github.com/reactnativecn](https://github.com/reactnativecn)
-        * [https://reactnative.cn](https://reactnative.cn)
-    * [https://github.com/react-navigation](https://github.com/react-navigation)
-    * [https://github.com/necolas/react-native-web](https://github.com/necolas/react-native-web)
-    * [https://github.com/microsoft/react-native-windows](https://github.com/microsoft/react-native-windows)
-    * [https://snack.expo.io](https://snack.expo.io)
-    * [https://github.com/streamich/react-use](https://github.com/streamich/react-use)
-    * [https://github.com/FaridSafi/react-native-gifted-chat](https://github.com/FaridSafi/react-native-gifted-chat)
-    * [https://github.com/stoneWeb/react-native-parabolic](https://github.com/stoneWeb/react-native-parabolic)
-* 创建桌面应用 [https://github.com/nativefier/nativefier](https://github.com/nativefier/nativefier)
-* [https://github.com/meteor/meteor](https://github.com/meteor/meteor)
-
-
-- [https://github.com/revery-ui/revery](https://github.com/revery-ui/revery)
 
 
 

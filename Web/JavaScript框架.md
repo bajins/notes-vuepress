@@ -22,7 +22,6 @@
 * [https://github.com/baidu/amis](https://github.com/baidu/amis)
 * [https://github.com/alienzhou/web-highlighter](https://github.com/alienzhou/web-highlighter)
 * 单页网站 [https://github.com/alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js)
-* 跨平台 [https://github.com/ionic-team](https://github.com/ionic-team)
 * [http://www.jeasyui.com](http://www.jeasyui.com)
 * 响应式框架 [https://github.com/foundation](https://github.com/foundation)
 * [https://github.com/jorgebucaran/hyperapp](https://github.com/jorgebucaran/hyperapp)
@@ -33,6 +32,8 @@
 * [https://github.com/open-wc/open-wc](https://github.com/open-wc/open-wc)
 * [https://github.com/modernweb-dev/web](https://github.com/modernweb-dev/web)
 * [https://github.com/lit](https://github.com/lit)
+* 框架环境 [https://github.com/meteor](https://github.com/meteor)
+
 
 
 - 测试 [https://github.com/karma-runner/karma](https://github.com/karma-runner/karma)
@@ -48,6 +49,7 @@
     + [https://zh-hans.reactjs.org](https://zh-hans.reactjs.org)
     + [https://github.com/vercel/next.js](https://github.com/vercel/next.js)
         + [https://www.nextjs.cn](https://www.nextjs.cn)
+	+ [https://reactjs.bootcss.com](https://reactjs.bootcss.com)
 + [https://github.com/reactjs](https://github.com/reactjs)
 
 
@@ -120,6 +122,7 @@
 - [https://github.com/ferrinweb/vue-scroll-box](https://github.com/ferrinweb/vue-scroll-box)
 - [https://github.com/kazupon/vue-i18n](https://github.com/kazupon/vue-i18n)
 - 表格 [https://github.com/handsontable](https://github.com/handsontable)
+- [https://github.com/nathantsoi/vue-native-websocket](https://github.com/nathantsoi/vue-native-websocket)
 
 
 **Mobile**

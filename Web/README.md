@@ -17,6 +17,7 @@
 * 代码提示 [https://github.com/webhintio](https://github.com/webhintio)
 * [https://github.com/microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
 * 开发人员设计资源 [https://github.com/bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers)
+* Web组件 [https://github.com/webcomponents](https://github.com/webcomponents)
 * Web开源项目 [https://github.com/bestofjs/bestofjs-webui](https://github.com/bestofjs/bestofjs-webui)
 * [https://github.com/the-benchmarker/website](https://github.com/the-benchmarker/website)
 * [https://github.com/jobbole/awesome-design-cn](https://github.com/jobbole/awesome-design-cn)

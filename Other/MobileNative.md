@@ -7,12 +7,6 @@
 
 ## Flag
 
-* [移动开发技术简介-三种跨平台技术从框架角度对比](https://github.com/flutterchina/flutter-in-action/blob/master/docs/chapter1/mobile_development_intro.md#116-%E5%B0%8F%E7%BB%93)
-* [从 React Native 到 Flutter，移动跨平台方案的真相](https://leancloudblog.com/cong-react-native-dao-flutter-yi-dong-kua-ping-tai-fang-an-de-zhen-xiang)
-
-> 在3大主流渲染引擎里，webview、weex/react native、flutter，复杂度依次降低，渲染性能依次上升。
-
-
 * REST API抽象  [https://github.com/appwrite](https://github.com/appwrite)
 
 - [https://github.com/material-components](https://github.com/material-components)
@@ -24,19 +18,99 @@
 
 
 
-**[原生桌面应用](/Web/NodeJS.md#原生桌面应用)**
+
+## 跨平台
+
+* [跨平台解决方案的技术分析](https://blog.csdn.net/LuckyWinty/article/details/119657634)
+
+
+### 桌面应用
+
+* [https://github.com/topics/electron](https://github.com/topics/electron)
+    * [https://github.com/electron/electron](https://github.com/electron/electron)
+    * [https://github.com/electron-userland](https://github.com/electron-userland)
+    * [https://github.com/SimulatedGREG/electron-vue](https://github.com/SimulatedGREG/electron-vue)
+* [使用 node-ffi 构建 Electron 和 C++ Library 混合桌面应用](https://io.hancel.org/2018/05/02/building-an-electron-hybrid-application.html)
+* [https://github.com/topics/nwjs](https://github.com/topics/nwjs)
+    * [https://github.com/nwjs/nw.js](https://github.com/nwjs/nw.js)
+    * [https://github.com/lxp135/NW.jsCnDocs](https://github.com/lxp135/NW.jsCnDocs)
+* [https://github.com/Kagami/mpv.js](https://github.com/Kagami/mpv.js)
+* 打包可执行文件 [https://github.com/vercel/pkg](https://github.com/vercel/pkg)
+* 网页转桌面应用 [https://github.com/nativefier/nativefier](https://github.com/nativefier/nativefier)
+
+
+- [https://github.com/revery-ui/revery](https://github.com/revery-ui/revery)
+
+
+
+
+### 移动应用
+
+> iOS、Android、PWA(Progressive Web Apps)
+
+* [移动开发技术简介-三种跨平台技术从框架角度对比](https://github.com/flutterchina/flutter-in-action/blob/master/docs/chapter1/mobile_development_intro.md#116-%E5%B0%8F%E7%BB%93)
+* [从 React Native 到 Flutter，移动跨平台方案的真相](https://leancloudblog.com/cong-react-native-dao-flutter-yi-dong-kua-ping-tai-fang-an-de-zhen-xiang)
+
+> 在3大主流渲染引擎里，webview、weex/react native、flutter，复杂度依次降低，渲染性能依次上升。
+
+
+
+**混合应用Hybrid**
+
+> WebView(Android)、WKWebView(ios)
+
+* [https://github.com/apache/cordova](https://github.com/apache/cordova)
+    * [https://github.com/apache/cordova-docs](https://github.com/apache/cordova-docs)
+        * [https://cordova.axuer.com](https://cordova.axuer.com)
+    * [https://github.com/apache/cordova-lib](https://github.com/apache/cordova-lib)
+    * [https://github.com/apache/cordova-cli](https://github.com/apache/cordova-cli)
+    * [https://github.com/apache/cordova-create](https://github.com/apache/cordova-create)
+    * [https://github.com/apache/cordova-serve](https://github.com/apache/cordova-serve)
+    * [https://github.com/apache/cordova-js](https://github.com/apache/cordova-js)
+    * [https://github.com/apache/cordova-android](https://github.com/apache/cordova-android)
+    * [https://github.com/apache/cordova-ios](https://github.com/apache/cordova-ios)
+    * [https://github.com/phonegap](https://github.com/phonegap)
+* 跨平台 [https://github.com/ionic-team](https://github.com/ionic-team)
+* [https://github.com/framework7io](https://github.com/framework7io)
+* [https://github.com/OnsenUI/OnsenUI](https://github.com/OnsenUI/OnsenUI)
+* [https://github.com/monaca](https://github.com/monaca)
+
+
+
+**原生渲染**
 
 * Vue.js [https://github.com/kuaifan/eeui](https://github.com/kuaifan/eeui)
+* [https://github.com/GeekyAnts/vue-native-core](https://github.com/GeekyAnts/vue-native-core)
 * [https://github.com/apache/incubator-weex](https://github.com/apache/incubator-weex)
     * [https://github.com/apache/incubator-weex-ui](https://github.com/apache/incubator-weex-ui)
     * [https://github.com/apache/incubator-weex-site](https://github.com/apache/incubator-weex-site)
     * [https://segmentfault.com/t/weex](https://segmentfault.com/t/weex)
+* [https://github.com/sveltejs/svelte](https://github.com/sveltejs/svelte)
+    * [https://www.sveltejs.cn](https://www.sveltejs.cn)
 * [https://github.com/NativeScript](https://github.com/NativeScript)
+* [https://github.com/facebook/react-native](https://github.com/facebook/react-native)
+    * [https://github.com/reactnativecn](https://github.com/reactnativecn)
+        * [https://reactnative.cn](https://reactnative.cn)
+    * [https://github.com/react-navigation](https://github.com/react-navigation)
+    * [https://github.com/necolas/react-native-web](https://github.com/necolas/react-native-web)
+    * [https://github.com/microsoft/react-native-macos](https://github.com/microsoft/react-native-macos)
+    * [https://github.com/microsoft/react-native-windows](https://github.com/microsoft/react-native-windows)
+    * [https://github.com/react-native-tvos](https://github.com/react-native-tvos)
+    * [https://github.com/valence-native](https://github.com/valence-native)
+    * [https://snack.expo.io](https://snack.expo.io)
+    * [https://github.com/streamich/react-use](https://github.com/streamich/react-use)
+    * [https://github.com/FaridSafi/react-native-gifted-chat](https://github.com/FaridSafi/react-native-gifted-chat)
+    * [https://github.com/stoneWeb/react-native-parabolic](https://github.com/stoneWeb/react-native-parabolic)
+    * [https://github.com/adobe/react-spectrum](https://github.com/adobe/react-spectrum)
+* Titanium [https://github.com/appcelerator](https://github.com/appcelerator)
+* C# [https://github.com/xamarin](https://github.com/xamarin)
+    * [https://docs.microsoft.com/zh-cn/xamarin](https://docs.microsoft.com/zh-cn/xamarin)
+* Java/Kotlin [https://github.com/codenameone](https://github.com/codenameone)
+* 游戏 [https://github.com/coronalabs](https://github.com/coronalabs)
 
 
 
-
-## Flutter
+### Flutter
 
 + [https://github.com/flutter](https://github.com/flutter)
     + [https://flutter.cn](https://flutter.cn)
@@ -309,6 +383,7 @@
 * [https://sourceforge.net/projects/viking](https://sourceforge.net/projects/viking)
 * [https://github.com/navit-gps/navit](https://github.com/navit-gps/navit)
 * [https://gitlab.freedesktop.org/geoclue/geoclue](https://gitlab.freedesktop.org/geoclue/geoclue)
+* 图片下载和缓存 [https://github.com/square/picasso](https://github.com/square/picasso)
 
 
 
