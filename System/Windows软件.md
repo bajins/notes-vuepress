@@ -178,6 +178,7 @@
 * Qdown [https://lightzhan.xyz/index.php/qdown](https://lightzhan.xyz/index.php/qdown)
 * NDM [http://www.neatdownloadmanager.com](http://www.neatdownloadmanager.com)
 * IDM [http://www.internetdownloadmanager.com](http://www.internetdownloadmanager.com)
+    * [https://github.com/MotooriKashin/ef2](https://github.com/MotooriKashin/ef2)
     * 睿派克 [https://www.lanzoui.com/b134572](https://www.lanzoui.com/b134572)
     * 闻雷 [https://www.lanzoui.com/b0i6zkze](https://www.lanzoui.com/b0i6zkze)
     * [https://pan.lanzoui.com/b0f1agvxc](https://pan.lanzoui.com/b0f1agvxc)
@@ -279,6 +280,9 @@
 * [https://github.com/P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf)
 * [https://github.com/boypt/simple-torrent](https://github.com/boypt/simple-torrent)
 * [http://lightzhan.xyz/index.php/qdown](http://lightzhan.xyz/index.php/qdown)
+* GUI [https://github.com/Xmader/aria-ng-gui](https://github.com/Xmader/aria-ng-gui)
+* [https://github.com/Xmader/aria-ng-gui-android](https://github.com/Xmader/aria-ng-gui-android)
+
 
 
 ### 迅雷
@@ -296,9 +300,7 @@
 * [https://github.com/search?q=BaiduPCS](https://github.com/search?q=BaiduPCS)
 * [https://github.com/topics/baiduyun](https://github.com/topics/baiduyun)
 * [https://cloud189.1t.workers.dev/web](https://cloud189.1t.workers.dev/web)
-* [http://down.5nb.me](http://down.5nb.me)
 * [https://github.com/yuantuo666/baiduwp-php](https://github.com/yuantuo666/baiduwp-php)
-* [https://kinhdown.kinh.cc](https://kinhdown.kinh.cc)
 
 > 【诚通网盘下载提示】：点击下载后，立马取消（就是点击浏览器左上角的`X`按钮停止访问），然后再次点击下载，可以提速好几倍
 
