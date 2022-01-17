@@ -37,23 +37,24 @@
 * [List Comprehensions](https://www.python.org/dev/peps/pep-0202/#reference-implementation)
 * [列表显示/列表解析](https://docs.python.org/zh-cn/3/reference/expressions.html#list-displays)
 * [https://github.com/jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days)
-* [内置异常和函数-LeaCoder](https://lichangke.github.io/category/#python)
+* 内置异常和函数-LeaCoder [https://lichangke.github.io/category/#python](https://lichangke.github.io/category/#python)
 * [Python语言小册](https://python.fasionchan.com/zh_CN/latest/index.html)
 * [https://github.com/revolunet/PythonBooks](https://github.com/revolunet/PythonBooks)
-* 最良心的 Python 教程 [https://github.com/TwoWater/Python](https://github.com/TwoWater/Python)
+* 教程 [https://github.com/TwoWater/Python](https://github.com/TwoWater/Python)
 * [https://github.com/xxg1413/python](https://github.com/xxg1413/python)
 * [https://github.com/yidao620c/python3-cookbook](https://github.com/yidao620c/python3-cookbook)
 * [https://github.com/eastlakeside/interpy-zh](https://github.com/eastlakeside/interpy-zh)
 * [https://github.com/cloga/scipy-lecture-notes_cn](https://github.com/cloga/scipy-lecture-notes_cn)
 * [https://www.junmajinlong.com/python/index](https://www.junmajinlong.com/python/index)
 * [https://zmister.com](https://zmister.com)
-* [python3基础教程](https://morvanzhou.github.io/tutorials/python-basic/basic)
-* Python中的设计模式和习惯用法的集合 [https://github.com/faif/python-patterns](https://github.com/faif/python-patterns)
+* 基础教程 [https://morvanzhou.github.io/tutorials/python-basic/basic](https://morvanzhou.github.io/tutorials/python-basic/basic)
+* 设计模式和集合 [https://github.com/faif/python-patterns](https://github.com/faif/python-patterns)
 * [https://hellopython.readthedocs.io](https://hellopython.readthedocs.io)
     * [https://github.com/meizhaohui/vueblog](https://github.com/meizhaohui/vueblog)
 * [https://github.com/Pierian-Data/Complete-Python-3-Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp)
 * 流式数据处理 [https://github.com/sandabuliu/python-stream](https://github.com/sandabuliu/python-stream)
 * [https://github.com/Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python)
+* [https://github.com/cycleuser/ThinkPython-CN](https://github.com/cycleuser/ThinkPython-CN)
 
 
 
@@ -366,6 +367,7 @@ vi /usr/libexec/urlgrabber-ext-down
 - `sudo apt install python3-pip`
 
 * Anaconda [https://github.com/ContinuumIO](https://github.com/ContinuumIO) 科学包及其依赖项的发行版本
+    * [https://github.com/Anaconda-Platform](https://github.com/Anaconda-Platform)
 * [https://github.com/conda/conda](https://github.com/conda/conda) 包及其依赖项和环境的管理工具
 * [https://github.com/jazzband/pip-tools](https://github.com/jazzband/pip-tools)
 * [https://github.com/python-poetry/poetry](https://github.com/python-poetry/poetry)

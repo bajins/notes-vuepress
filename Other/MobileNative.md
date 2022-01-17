@@ -103,6 +103,7 @@
     * [https://github.com/FaridSafi/react-native-gifted-chat](https://github.com/FaridSafi/react-native-gifted-chat)
     * [https://github.com/stoneWeb/react-native-parabolic](https://github.com/stoneWeb/react-native-parabolic)
     * [https://github.com/adobe/react-spectrum](https://github.com/adobe/react-spectrum)
+    * [https://github.com/infinitered](https://github.com/infinitered)
 * Titanium [https://github.com/appcelerator](https://github.com/appcelerator)
 * C# [https://github.com/xamarin](https://github.com/xamarin)
     * [https://docs.microsoft.com/zh-cn/xamarin](https://docs.microsoft.com/zh-cn/xamarin)

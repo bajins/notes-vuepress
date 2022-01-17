@@ -155,7 +155,6 @@
 * [https://wiki.openjdk.java.net/display/zgc/Main](https://wiki.openjdk.java.net/display/zgc/Main)
 * [G1垃圾收集器入门](https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html)
 * [Java平台，标准版HotSpot虚拟机垃圾收集调优指南](https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/introduction.html)
-* [Java HotSpot VM选项 - 仅适用于JDK 7和早期版本](https://www.oracle.com/java/technologies/javase/vmoptions-jsp.html)
 * [Java SE 6 HotSpot 虚拟机垃圾收集优化](https://www.oracle.com/java/technologies/javase/gc-tuning-6.html)
 
 - JVM配置工具 [https://render.alipay.com/p/s/jvm-generate/JvmGenerate](https://render.alipay.com/p/s/jvm-generate/JvmGenerate)
@@ -173,6 +172,13 @@
 
 
 ### 常用参数
+
+* [Java HotSpot 虚拟机选项](https://www.oracle.com/java/technologies/javase/vmoptions-jsp.html)
+* [JVM参数配置说明](https://help.aliyun.com/document_detail/148851.html)
+* [JVM内存配置最佳实践](https://help.aliyun.com/document_detail/383255.html)
+* [JVM核心参数图解](https://zhuanlan.zhihu.com/p/372417251)
+* [JVM优化之 -Xss -Xms -Xmx -Xmn 参数设置](https://blog.csdn.net/yrwan95/article/details/82826519)
+
 
 | 参数                                  	| 说明                                                                                                                                                                                                                                                                    	|
 |---------------------------------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|

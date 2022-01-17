@@ -343,7 +343,6 @@
 **随机生成**
 
 * [https://www.randomlists.com](https://www.randomlists.com)
-* [https://rawgit.com/Marak/faker.js/master/examples/browser/index.html](https://rawgit.com/Marak/faker.js/master/examples/browser/index.html)
 * [https://randomprofile.com](https://randomprofile.com)
 * [https://fakedetail.com](https://fakedetail.com)
 
@@ -355,7 +354,7 @@
 
 - [https://github.com/philipperemy/name-dataset](https://github.com/philipperemy/name-dataset)
 
-* [https://github.com/marak/Faker.js](https://github.com/marak/Faker.js)
+* [https://github.com/faker-js/faker](https://github.com/faker-js/faker)
     * [https://github.com/lestoni/faker-cli](https://github.com/lestoni/faker-cli)
 * [https://github.com/RandomAPI/Randomuser.me-Node](https://github.com/RandomAPI/Randomuser.me-Node)
 * [https://github.com/dmgk/faker](https://github.com/dmgk/faker)
