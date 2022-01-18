@@ -94,7 +94,6 @@
 * [https://github.com/microsoft/WSL2-Linux-Kernel](https://github.com/microsoft/WSL2-Linux-Kernel)
 * [https://docs.microsoft.com/zh-cn/windows/wsl](https://docs.microsoft.com/zh-cn/windows/wsl)
     * [手动下载适用于 Linux 的 Windows 子系统发行版包](https://docs.microsoft.com/zh-cn/windows/wsl/install-manual#downloading-distributions)
-    * [适用于x64计算机的 WSL2 Linux内核更新包](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
 * 性能评测 [https://github.com/microsoft/Microsoft-Performance-Tools-Linux-Android](https://github.com/microsoft/Microsoft-Performance-Tools-Linux-Android)
 * [https://github.com/alesimula/wsa_pacman](https://github.com/alesimula/wsa_pacman)
 * [https://github.com/yuk7/ArchWSL](https://github.com/yuk7/ArchWSL)
@@ -117,6 +116,18 @@
 * [https://github.com/LSPosed/WSA-Kernel-SU](https://github.com/LSPosed/WSA-Kernel-SU)
 * [https://github.com/opengapps/opengapps](https://github.com/opengapps/opengapps)
     * [https://sourceforge.net/projects/opengapps](https://sourceforge.net/projects/opengapps)
+
+
+**`wsl --update`执行错误问题**
+
+* `C:\Windows\SoftwareDistribution\Download` 下载的`wsl_update_x64.msi`文件缓存路径
+
+- [https://github.com/microsoft/WSL/issues/5014](https://github.com/microsoft/WSL/issues/5014)
+- [https://github.com/microsoft/WSL/issues/5035](https://github.com/microsoft/WSL/issues/5035)
+- [https://github.com/microsoft/WSL/issues/5642](https://github.com/microsoft/WSL/issues/5642)
+- [https://www.catalog.update.microsoft.com/Search.aspx?q=wsl](https://www.catalog.update.microsoft.com/Search.aspx?q=wsl)
+
+> 自动内核更新，请启用 Windows 更新设置: `设置` -> `更新和安全` -> `高级选项` -> `在更新 Windows 时接收其他 Microsoft 产品的更新`
 
 
 
