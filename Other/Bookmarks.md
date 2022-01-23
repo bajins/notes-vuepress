@@ -194,6 +194,8 @@
 * 通过实践学习 [https://scrimba.com](https://scrimba.com)
 * [https://www.geeksforgeeks.org](https://www.geeksforgeeks.org)
 * [https://flaviocopes.com](https://flaviocopes.com)
+* [https://topbook.cc](https://topbook.cc)
+    * [https://www.zhihu.com/org/topbook](https://www.zhihu.com/org/topbook)
 
 
 
@@ -599,6 +601,7 @@
 * 爱给网（免费素材下载的网站，包括音效、配乐，3D、视频、游戏，平面、教程） [http://www.aigei.com](http://www.aigei.com)
 * 在线视频剪辑 [https://bilibili.clipchamp.com/editor](https://bilibili.clipchamp.com/editor)
 * 图标生成 [https://realfavicongenerator.net](https://realfavicongenerator.net)
+* [https://github.com/faviator/faviator](https://github.com/faviator/faviator)
 
 
 ## 文档

@@ -264,6 +264,8 @@
 * 通道工具 [https://github.com/Ksloveyuan/channelx](https://github.com/Ksloveyuan/channelx)
 * 配置加载 [https://github.com/cristalhq/aconfig](https://github.com/cristalhq/aconfig
 * gin panic [https://github.com/xkkhy/agave](https://github.com/xkkhy/agave)
+* 特性开关 [https://github.com/markphelps/flipt](https://github.com/markphelps/flipt)
+* [https://github.com/checkr/flagr](https://github.com/checkr/flagr)
 
 
 

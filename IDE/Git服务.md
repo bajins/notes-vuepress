@@ -212,18 +212,17 @@ volumes:
 * [https://myssl.com/dns_check.html](https://myssl.com/dns_check.html)
 * [http://tool.chinaz.com/dns](http://tool.chinaz.com/dns)
 * [https://www.ipaddress.com](https://www.ipaddress.com)
-* [Windows设置GitHub的Hosts脚本](/files/设置GitHub的Hosts.bat)
+* [https://greasyfork.org/zh-CN/scripts/412245](https://greasyfork.org/zh-CN/scripts/412245)
 
 - [https://gitee.com/organizations/mirrors_trending/projects](https://gitee.com/organizations/mirrors_trending/projects)
 - [https://gitee.com/docmirror/dev-sidecar](https://gitee.com/docmirror/dev-sidecar)
-- [https://github.com/docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar)
+    - [https://github.com/docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar)
 
 
 * [https://codechina.csdn.net/mirrors](https://codechina.csdn.net/mirrors)
 * [https://github.com/FastGitORG](https://github.com/FastGitORG)
     * [https://hub.fastgit.org](https://hub.fastgit.org) 中国香港
     * [https://toolwa.com/github](https://toolwa.com/github)
-* [https://github.com/docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar)
 * [https://d.serctl.com](https://d.serctl.com)
 * [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
     * [http://git.aakkc.com](http://git.aakkc.com)

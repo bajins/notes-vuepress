@@ -273,7 +273,10 @@
 + 简单的Web框架 [https://github.com/javalin](https://github.com/javalin)
 + 工作流框架 [https://github.com/Activiti/Activiti](https://github.com/Activiti/Activiti)
     + [https://github.com/henryyan/activiti-in-action-codes](https://github.com/henryyan/activiti-in-action-codes)
-+ [https://github.com/apache/hadoop](https://github.com/apache/hadoop)
++ [https://github.com/kiegroup/jbpm](https://github.com/kiegroup/jbpm)
++ [https://github.com/flowable](https://github.com/flowable)
++ [https://github.com/espertechinc/esper](https://github.com/espertechinc/esper)
++ 大数据 [https://github.com/apache/hadoop](https://github.com/apache/hadoop)
 + 云原生框架 [https://github.com/quarkusio/quarkus](https://github.com/quarkusio/quarkus)
 + [https://github.com/bootique/bootique](https://github.com/bootique/bootique)
 + 全堆栈框架 [https://github.com/micronaut-projects](https://github.com/micronaut-projects)
@@ -360,6 +363,19 @@
     + [Java规则引擎 Easy Rules](https://www.cnblogs.com/cjsblog/archive/2020/06/11/13088017.html)
 + 并发数据结构 [https://github.com/JCTools/JCTools](https://github.com/JCTools/JCTools)
 + [https://github.com/carrotsearch/hppc](https://github.com/carrotsearch/hppc)
++ 特性开关 [https://github.com/ff4j/ff4j](https://github.com/ff4j/ff4j)
+    + [FF4J（特性框架）简介及入门](https://blog.csdn.net/MichaelJY1991/article/details/83510360)
+    + [微服务版本分支管理与特性开关](https://www.jianshu.com/p/304697cdb440)
++ [https://github.com/togglz/togglz](https://github.com/togglz/togglz)
++ 规则引擎 [https://github.com/j-easy/easy-rules](https://github.com/j-easy/easy-rules)
++ [https://github.com/killme2008/aviatorscript](https://github.com/killme2008/aviatorscript)
+    + [Aviator—Java表达式求值引擎的使用](https://blog.csdn.net/starcrm/article/details/108558135)
++ [https://github.com/kiegroup/drools](https://github.com/kiegroup/drools)
++ [https://github.com/mvel/mvel](https://github.com/mvel/mvel)
++ [https://github.com/alibaba/QLExpress](https://github.com/alibaba/QLExpress)
++ [https://github.com/zjn-zjn/ice](https://github.com/zjn-zjn/ice)
++ [https://github.com/youseries/urule](https://github.com/youseries/urule)
++ [https://github.com/deonwu/ik-expression](https://github.com/deonwu/ik-expression)
 
 
 * [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
@@ -482,6 +498,7 @@
 * [https://github.com/PowerJob/PowerJob](https://github.com/PowerJob/PowerJob)
 * [https://github.com/HubSpot/Singularity](https://github.com/HubSpot/Singularity)
 * [https://github.com/siaorg/sia-task](https://github.com/siaorg/sia-task)
+* [https://github.com/nmyphp/tbschedule](https://github.com/nmyphp/tbschedule)
 
 
 
@@ -647,6 +664,7 @@
 * [https://github.com/zhangdaiscott/JimuReport](https://github.com/zhangdaiscott/JimuReport)
 * 数据可视化分析 [https://github.com/dataease](https://github.com/dataease)
 * [https://github.com/YunaiV/ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro)
+* 实时风控引擎 [https://github.com/wfh45678/radar](https://github.com/wfh45678/radar)
 
 
 
