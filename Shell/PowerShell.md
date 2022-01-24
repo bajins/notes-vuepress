@@ -116,6 +116,11 @@ get-appxpackage *bingsports* | remove-appxpackage
 get-appxpackage *bingweather* | remove-appxpackage
 # OneNote
 get-appxpackage *onenote* | remove-appxpackage
+# 便笺 https://onenote.com/stickynotes
+get-appxpackage *stickynotes* | remove-appxpackage
+# TODO https://to-do.microsoft.com
+# https://www.microsoft.com/zh-cn/microsoft-365/microsoft-to-do-list-app
+get-appxpackage *todo* | remove-appxpackage
 # 闹钟和时钟
 get-appxpackage *alarms* | remove-appxpackage
 # 计算器

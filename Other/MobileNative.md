@@ -444,14 +444,21 @@
 * 文本编辑器 [https://github.com/gsantner/markor](https://github.com/gsantner/markor)
 * YouTube [https://github.com/YTVanced/VancedManager](https://github.com/YTVanced/VancedManager)
 * 谷歌框架 [https://opengapps.org](https://opengapps.org)
+* [https://github.com/Aefyr/SAI](https://github.com/Aefyr/SAI)
+* [https://github.com/machiav3lli/oandbackupx](https://github.com/machiav3lli/oandbackupx)
+* 幸运补丁 [https://www.luckypatchers.com](https://www.luckypatchers.com)
 
 
 **下载Google Play Store上的应用**
 
 + [如何在电脑上下载Google play上的应用？](https://www.zhihu.com/question/22382577/answers/updated)
-+ [https://greasyfork.org/zh-CN/scripts/33005-direct-download-from-google-play](https://greasyfork.org/zh-CN/scripts/33005-direct-download-from-google-play)
++ [https://greasyfork.org/zh-CN/scripts/33005](https://greasyfork.org/zh-CN/scripts/33005)
+
 
 * [https://github.com/rehmatworks/gplaydl](https://github.com/rehmatworks/gplaydl)
+* [https://github.com/evozi](https://github.com/evozi)
+* [https://apkpremier.com](https://apkpremier.com)
+* [https://apkdl.in](https://apkdl.in)
 * [https://android-apk.org](https://android-apk.org)
 * [https://androidapksfree.com](https://androidapksfree.com)
 * [https://androidappsapk.co](https://androidappsapk.co)
@@ -471,10 +478,13 @@
 * [https://downloadapk.online](https://downloadapk.online)
 * [https://dlandroid.com](https://dlandroid.com)
 * [https://cn.apkshub.com](https://cn.apkshub.com)
+* [https://apk-dl.com](https://apk-dl.com)
 
 
 + [https://apkpure.com/cn/developer/Microsoft%20Corporation](https://apkpure.com/cn/developer/Microsoft%20Corporation)
-
++ [Microsoft Corporation](https://play.google.com/store/apps/dev?id=6720847872553662727)
++ [https://m.apkpure.com/cn/developer/Google%20LLC](https://m.apkpure.com/cn/developer/Google%20LLC)
++ [Google LLC](https://play.google.com/store/apps/dev?id=5700313618786177705)
 
 
 **破解软件下载**

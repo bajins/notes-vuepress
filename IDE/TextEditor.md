@@ -98,6 +98,9 @@
 > 按<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd>输入`install`选择`Package Control: Install Package`再输入插件名称
 
 * [https://github.com/facelessuser/MarkdownPreview](https://github.com/facelessuser/MarkdownPreview)
+* 本地化菜单 [https://github.com/zam1024t/LocalizedMenu](https://github.com/zam1024t/LocalizedMenu)
+* 侧边栏右键增强 [https://github.com/52fisher/SideBarEnhancements](https://github.com/52fisher/SideBarEnhancements)
+* 插件管理器 [https://github.com/wbond/package_control](https://github.com/wbond/package_control)
 
 - ChineseLocalizations
 
