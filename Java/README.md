@@ -483,6 +483,10 @@
 * [https://github.com/HubSpot/Singularity](https://github.com/HubSpot/Singularity)
 * [https://github.com/siaorg/sia-task](https://github.com/siaorg/sia-task)
 
+- 时间轮（RingBufferWheel）
+- [无锁环形缓冲RingBuffer的原理及Java实现](https://blog.csdn.net/jkqwd1222/article/details/82194305)
+- [关于动态定时任务的解决方案](https://www.cnblogs.com/rolayblog/p/14167061.html)
+
 
 
 **地区数据**
@@ -549,6 +553,8 @@
 > 2. 指定这个对象的某些方法的行为，返回特定的值，或者是执行特定的动作
 
 * [https://github.com/junit-team/junit4](https://github.com/junit-team/junit4)
+    * [https://sourceforge.net/projects/dbunit](https://sourceforge.net/projects/dbunit)
+* [https://github.com/powermock/powermock](https://github.com/powermock/powermock)
 * [https://github.com/houbb/junitperf](https://github.com/houbb/junitperf)
 * 测试 [https://github.com/testcontainers](https://github.com/testcontainers)
 * [https://github.com/mock-server](https://github.com/mock-server)

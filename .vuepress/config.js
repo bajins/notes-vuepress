@@ -152,8 +152,6 @@ module.exports = {
                 }
             ]
         }],
-        // https://github.com/ludanxer/catalog-graph
-        ['vuepress-plugin-catalog-graph'],
         // https://github.com/leoloso/vuepress-plugin-plausible-analytics
         ["plausible-analytics"],
         [require('./plugins/lifecycle.js')],
