@@ -113,11 +113,6 @@
     - [https://gitlab.freedesktop.org](https://gitlab.freedesktop.org)
     - [https://www.freedesktop.org](https://www.freedesktop.org)
 - [https://koji.fedoraproject.org](https://koji.fedoraproject.org)
-- [https://github.com/GNOME](https://github.com/GNOME)
-    - [https://download.gnome.org/binaries](https://download.gnome.org/binaries)
-    - [https://download-fallback.gnome.org/binaries](https://download-fallback.gnome.org/binaries)
-- [https://github.com/KDE](https://github.com/KDE)
-- [https://github.com/swaywm](https://github.com/swaywm)
 - [https://ftp.gnu.org](https://ftp.gnu.org)
 - [https://ftp.acc.umu.se/pub/gnome/binaries](https://ftp.acc.umu.se/pub/gnome/binaries)
 - [https://download.savannah.gnu.org](https://download.savannah.gnu.org)
@@ -125,6 +120,26 @@
 - [https://sourceforge.net/projects/lcms](https://sourceforge.net/projects/lcms)
 - [https://www.cairographics.org](https://www.cairographics.org)
 
+
+
+**桌面环境**
+
+- [https://github.com/GNOME](https://github.com/GNOME)
+    - [https://download.gnome.org/binaries](https://download.gnome.org/binaries)
+    - [https://download-fallback.gnome.org/binaries](https://download-fallback.gnome.org/binaries)
+- [https://github.com/KDE](https://github.com/KDE)
+- [https://github.com/lxde](https://github.com/lxde)
+- [https://www.xfce.org](https://www.xfce.org)
+    - [https://github.com/xfce-mirror](https://github.com/xfce-mirror)
+- [https://github.com/mate-desktop](https://github.com/mate-desktop)
+- [https://spins.fedoraproject.org/cinnamon](https://spins.fedoraproject.org/cinnamon)
+    - [https://github.com/linuxmint/cinnamon](https://github.com/linuxmint/cinnamon)
+- [http://www.trinitydesktop.org](http://www.trinitydesktop.org)
+- [https://github.com/swaywm](https://github.com/swaywm)
+- [https://www.deepin.org/zh/dde](https://www.deepin.org/zh/dde)
+
+- 图标 [https://github.com/PapirusDevelopmentTeam/papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+* Linux桌面壁纸 [https://github.com/pgc062020/DailyDesktopWallpaperPlus](https://github.com/pgc062020/DailyDesktopWallpaperPlus)
 
 
 

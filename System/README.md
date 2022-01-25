@@ -79,6 +79,9 @@
 - [https://gitlab.archlinux.org/archlinux](https://gitlab.archlinux.org/archlinux)
 - [https://github.com/NetBSD](https://github.com/NetBSD)
 - [https://github.com/freebsd](https://github.com/freebsd)
+- [https://github.com/linuxdeepin](https://github.com/linuxdeepin)
+    - [https://github.com/martyr-deepin](https://github.com/martyr-deepin)
+- Solus [https://getsol.us](https://getsol.us)
 - Windows兼容操作系统 [https://github.com/reactos](https://github.com/reactos)
 - 支持Linux和安卓应用 [https://github.com/JingOS-team/JingOS](https://github.com/JingOS-team/JingOS)
 
