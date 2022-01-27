@@ -317,7 +317,7 @@
 
 > `$("#btw-modal-wrap, #read-more-wrap").remove();$("#container,.article.article-type-post.lock").css("height", "unset");`
 >
-> `localStorage.setItem("TOKEN_" + blogId, blogId)` search `BTWPlugin`
+> `const blogId = /blogId: '(.*)'/.exec($("script").text())[1];localStorage.setItem("TOKEN_" + blogId, blogId);` search `BTWPlugin`
 
 * [程序猿DD | Java | Spring Boot | Spring Cloud | 最新干货分享](http://blog.didispace.com)
 * [https://github.com/hengboy](https://github.com/hengboy)

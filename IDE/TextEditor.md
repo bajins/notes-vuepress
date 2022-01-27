@@ -28,7 +28,8 @@
 * [notepad2](https://github.com/zufuliu/notepad2)
 * [https://www.scintilla.org](https://www.scintilla.org)
 * [http://www.pnotepad.org](http://www.pnotepad.org)
-* [https://github.com/adobe/brackets](https://github.com/adobe/brackets)
+* [https://github.com/brackets-cont/brackets](https://github.com/brackets-cont/brackets)
+    * [https://github.com/adobe/brackets](https://github.com/adobe/brackets)
 * [https://github.com/bobbylight](https://github.com/bobbylight)
 * [https://github.com/textmate](https://github.com/textmate)
 * [https://github.com/Komodo/KomodoEdit](https://github.com/Komodo/KomodoEdit)
@@ -59,6 +60,10 @@
 
 - 下划线转驼峰：查找目标:`([a-z])_([a-z])` 查找“小写_小写”，括号用来分组，替换为：`\1\u\2`替换为第一组和第二组的大写
 - 驼峰转下划线：查找目标：`([a-z])([A-Z])` 查找“小写大写”的组合，括号用来分组，替换为：`\1_\l\2`替换为第一组加下滑线加第二组，第二组小写`\l`是小写的`L`
+
+1. `\U` 将匹配项转为大写(Upper)
+2. `\L` 将匹配项转为小写(Lower)
+3. `\E` 终止转换(End)
 
 
 * 在UTF-8下使用`[\x{4e00}-\x{9fa5}]`匹配中文 [http://www.crifan.com/files/doc/docbook/rec_soft_npp/release/htmls/npp_func_regex_replace.html](http://www.crifan.com/files/doc/docbook/rec_soft_npp/release/htmls/npp_func_regex_replace.html)

@@ -57,6 +57,8 @@
 * [Linux发行版本排行](https://distrowatch.com/dwres.php?resource=popularity)
 * [Linux主流发行版本](https://distrowatch.com/dwres.php?resource=major)
 
+
+- [https://github.com/torvalds/linux](https://github.com/torvalds/linux)
 - [https://github.com/rocky-linux](https://github.com/rocky-linux)
 - [https://github.com/AlmaLinux](https://github.com/AlmaLinux)
 - [https://www.oracle.com/linux](https://www.oracle.com/linux)

@@ -325,6 +325,7 @@
 * 解析和打印Android Manifest文件 [https://github.com/rednaga/axmlprinter](https://github.com/rednaga/axmlprinter)
 * [https://github.com/google/android-classyshark](https://github.com/google/android-classyshark)
 * 反混淆 [https://github.com/CalebFenton/simplify](https://github.com/CalebFenton/simplify)
+* [http://apk-deguard.com](http://apk-deguard.com)
 * [https://github.com/vaibhavpandeyvpz/apkstudio](https://github.com/vaibhavpandeyvpz/apkstudio)
 
 
