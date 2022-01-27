@@ -150,6 +150,7 @@
 * [https://github.com/wolfpld/tracy](https://github.com/wolfpld/tracy)
 * [https://github.com/geerlingguy/internet-pi](https://github.com/geerlingguy/internet-pi)
 * [https://github.com/SigNoz/signoz](https://github.com/SigNoz/signoz)
+* 集群监控 [https://github.com/ganglia](https://github.com/ganglia)
 
 
 - [https://github.com/bigbully/Dapper-translation](https://github.com/bigbully/Dapper-translation)
@@ -174,23 +175,27 @@
 
 **Dashboard**
 
-- [https://github.com/keen/dashboards](https://github.com/keen/dashboards)
-- [https://github.com/Smashing/smashing](https://github.com/Smashing/smashing)
-    - [https://github.com/Shopify/dashing](https://github.com/Shopify/dashing)
-- [https://github.com/Hygieia/Hygieia](https://github.com/Hygieia/Hygieia)
-- [https://github.com/Reportr/dashboard](https://github.com/Reportr/dashboard)
-- [https://github.com/elastic/kibana](https://github.com/elastic/kibana)
-- [https://github.com/getredash/redash](https://github.com/getredash/redash)
-- [https://github.com/apache/superset](https://github.com/apache/superset)
-- [https://github.com/metabase/metabase](https://github.com/metabase/metabase)
-- [https://github.com/cube-js/cube.js](https://github.com/cube-js/cube.js)
-- [https://github.com/Freeboard/freeboard](https://github.com/Freeboard/freeboard)
-- [https://github.com/bokeh/bokeh](https://github.com/bokeh/bokeh)
-- [https://github.com/streamlit/streamlit](https://github.com/streamlit/streamlit)
-- [https://github.com/altair-viz/altair](https://github.com/altair-viz/altair)
-- [https://github.com/zabbix](https://github.com/zabbix)
-    - [https://github.com/alexanderzobnin/grafana-zabbix](https://github.com/alexanderzobnin/grafana-zabbix)
-    - [https://github.com/zhausong/zabbix-book](https://github.com/zhausong/zabbix-book)
+* [https://github.com/keen/dashboards](https://github.com/keen/dashboards)
+* [https://github.com/Smashing/smashing](https://github.com/Smashing/smashing)
+    * [https://github.com/Shopify/dashing](https://github.com/Shopify/dashing)
+* [https://github.com/Hygieia/Hygieia](https://github.com/Hygieia/Hygieia)
+* [https://github.com/Reportr/dashboard](https://github.com/Reportr/dashboard)
+* [https://github.com/elastic/kibana](https://github.com/elastic/kibana)
+* [https://github.com/getredash/redash](https://github.com/getredash/redash)
+* [https://github.com/apache/superset](https://github.com/apache/superset)
+* [https://github.com/metabase/metabase](https://github.com/metabase/metabase)
+* [https://github.com/cube-js/cube.js](https://github.com/cube-js/cube.js)
+* [https://github.com/Freeboard/freeboard](https://github.com/Freeboard/freeboard)
+* [https://github.com/bokeh/bokeh](https://github.com/bokeh/bokeh)
+* [https://github.com/streamlit/streamlit](https://github.com/streamlit/streamlit)
+* [https://github.com/altair-viz/altair](https://github.com/altair-viz/altair)
+* [https://github.com/zabbix](https://github.com/zabbix)
+    * [https://github.com/alexanderzobnin/grafana-zabbix](https://github.com/alexanderzobnin/grafana-zabbix)
+    * [https://github.com/zhausong/zabbix-book](https://github.com/zhausong/zabbix-book)
+* [https://github.com/NagiosEnterprises](https://github.com/NagiosEnterprises)
+    * [https://github.com/nagios-plugins](https://github.com/nagios-plugins)
+    * [https://www.nagios.org](https://www.nagios.org)
+    * [https://www.nagios.com](https://www.nagios.com)
 
 
 
