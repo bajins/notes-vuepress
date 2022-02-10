@@ -126,6 +126,7 @@
 - [https://github.com/microsoft/WSL/issues/5035](https://github.com/microsoft/WSL/issues/5035)
 - [https://github.com/microsoft/WSL/issues/5642](https://github.com/microsoft/WSL/issues/5642)
 - [https://www.catalog.update.microsoft.com/Search.aspx?q=wsl](https://www.catalog.update.microsoft.com/Search.aspx?q=wsl)
+- [Windows Subsystem for Linux Update错误0x80070643的真正解决方法](https://blog.csdn.net/yihuajack/article/details/117469533)
 
 > 自动内核更新，请启用 Windows 更新设置: `设置` -> `更新和安全` -> `高级选项` -> `在更新 Windows 时接收其他 Microsoft 产品的更新`
 

@@ -244,6 +244,10 @@
     - [https://github.com/jeecgboot](https://github.com/jeecgboot)
     - [https://github.com/TIBCOSoftware](https://github.com/TIBCOSoftware)
         - [https://community.jaspersoft.com](https://community.jaspersoft.com)
+- 大数据 [https://github.com/apache/spark](https://github.com/apache/spark)
+- [https://github.com/apache/flink](https://github.com/apache/flink)
+- [https://github.com/apache/hive](https://github.com/apache/hive)
+- [https://github.com/apache/impala](https://github.com/apache/impala)
 
 
 **[HTTP](/Java/Java笔记.md#HTTP)**
@@ -486,6 +490,7 @@
 * [https://github.com/attemper/attemper](https://github.com/attemper/attemper)
 + [https://github.com/azkaban/azkaban](https://github.com/azkaban/azkaban)
 + [https://github.com/apache/airflow](https://github.com/apache/airflow)
+    + [https://github.com/astronomer](https://github.com/astronomer)
     + [https://github.com/teamclairvoyant](https://github.com/teamclairvoyant)
 * [https://github.com/quartz-scheduler/quartz](https://github.com/quartz-scheduler/quartz)
     * [quartz-scheduler建表SQL](https://github.com/quartz-scheduler/quartz/tree/master/quartz-core/src/main/resources/org/quartz/impl/jdbcjobstore)

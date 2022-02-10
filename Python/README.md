@@ -198,6 +198,7 @@ with Test() as t: # 触发__exit__
         + [https://mybinder.org](https://mybinder.org)
         + [https://notebooks.gesis.org](https://notebooks.gesis.org)
 + [jupyter notebook中%与!的区别](https://blog.csdn.net/sinat_27889599/article/details/105509444)
++ [https://github.com/zjffdu/zeppelin-notebook](https://github.com/zjffdu/zeppelin-notebook)
 
 
 

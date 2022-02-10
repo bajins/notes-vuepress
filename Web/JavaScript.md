@@ -329,6 +329,8 @@ var express = require('express');
 * 正则表达式 [https://github.com/slevithan/XRegExp](https://github.com/slevithan/XRegExp)
 * 编码转换 [https://github.com/ashtuchkin/iconv-lite](https://github.com/ashtuchkin/iconv-lite)
 * HTML复选框 [https://github.com/bryanbraun/checkboxland](https://github.com/bryanbraun/checkboxland)
+* 加密 [https://github.com/travist/jsencrypt](https://github.com/travist/jsencrypt)
+
 
 - 数字精度 [https://github.com/topics/arbitrary-precision](https://github.com/topics/arbitrary-precision)
 - [https://github.com/topics/bigdecimal](https://github.com/topics/bigdecimal)
