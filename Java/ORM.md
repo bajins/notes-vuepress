@@ -19,6 +19,9 @@
 * [https://github.com/BatooOrg/BatooJPA](https://github.com/BatooOrg/BatooJPA)
 * [https://github.com/eclipse-ee4j/eclipselink](https://github.com/eclipse-ee4j/eclipselink)
 * [https://github.com/apache/openjpa](https://github.com/apache/openjpa)
+* [https://github.com/spring-projects/spring-data-jdbc](https://github.com/spring-projects/spring-data-jdbc)
+* 只读查询 [https://github.com/ejlchina/bean-searcher](https://github.com/ejlchina/bean-searcher)
+
 
 - [https://github.com/itfsw/mybatis-generator-plugin](https://github.com/itfsw/mybatis-generator-plugin)
 - CRUD生成器 [https://github.com/SanjinKurelic/MVCGenerator](https://github.com/SanjinKurelic/MVCGenerator)

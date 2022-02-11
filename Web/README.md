@@ -45,6 +45,16 @@
 
 
 
+<details>
+<summary style="font-size:160%;">点击查看浏览器缓存</summary>
+<a href="https://www.jianshu.com/p/fbdf565afc48">JS 浏览器缓存</a>
+
+![](/images/js浏览器缓存.png)
+</details>
+
+
+
+
 ## 静态博客或文档
 
 + [https://github.com/topics/website](https://github.com/topics/website)
