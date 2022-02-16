@@ -36,7 +36,10 @@
     - [https://www.webpackjs.com](https://www.webpackjs.com)
     - 深入浅出 Webpack [https://github.com/gwuhaolin/dive-into-webpack](https://github.com/gwuhaolin/dive-into-webpack)
 - [https://github.com/parcel-bundler/parcel](https://github.com/parcel-bundler/parcel)
+    - [https://www.parceljs.cn](https://www.parceljs.cn)
 - [https://github.com/snowpackjs/snowpack](https://github.com/snowpackjs/snowpack)
+- [https://github.com/rollup/rollup](https://github.com/rollup/rollup)
+    - [https://www.rollupjs.com](https://www.rollupjs.com)
 - 2009年，npm
 - 2012年，grunt
 - 2012年，bower

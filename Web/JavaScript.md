@@ -45,6 +45,8 @@
 - [https://github.com/boa-dev/boa](https://github.com/boa-dev/boa)
 - [https://github.com/denoland/deno](https://github.com/denoland/deno)
 - [https://github.com/servo/servo](https://github.com/servo/servo)
+- [https://github.com/bellard/quickjs](https://github.com/bellard/quickjs)
+- [https://github.com/saghul/txiki.js](https://github.com/saghul/txiki.js)
 
 
 
@@ -521,6 +523,7 @@ var express = require('express');
 * [https://github.com/fabricjs](https://github.com/fabricjs)
 * [https://github.com/paperjs](https://github.com/paperjs)
 * 图标字体自定义 [https://github.com/uuware/icons-font-customization](https://github.com/uuware/icons-font-customization)
+* [https://github.com/07akioni/xicons](https://github.com/07akioni/xicons)
 * [https://github.com/IanLunn/Hover](https://github.com/IanLunn/Hover)
 * [https://github.com/matthieua/WOW](https://github.com/matthieua/WOW)
 * [https://github.com/jlmakes/scrollreveal](https://github.com/jlmakes/scrollreveal)

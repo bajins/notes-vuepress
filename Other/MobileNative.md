@@ -21,7 +21,14 @@
 
 ## 跨平台
 
+> webview绑定（macOS 上利用 WebKit，在 Windows 上利用 WebView2，在 Linux 上利用 WebKitGTK）、内嵌JS引擎、原生渲染（weex/react native、flutter、编译转码），复杂度依次降低，渲染性能依次上升
+
 * [跨平台解决方案的技术分析](https://blog.csdn.net/LuckyWinty/article/details/119657634)
+* Java/Kotlin [https://github.com/codenameone](https://github.com/codenameone)
+* C# [https://github.com/xamarin](https://github.com/xamarin)
+    * [https://docs.microsoft.com/zh-cn/xamarin](https://docs.microsoft.com/zh-cn/xamarin)
+* 游戏 [https://github.com/coronalabs](https://github.com/coronalabs)
+
 
 
 ### 桌面应用
@@ -35,11 +42,50 @@
     * [https://github.com/nwjs/nw.js](https://github.com/nwjs/nw.js)
     * [https://github.com/lxp135/NW.jsCnDocs](https://github.com/lxp135/NW.jsCnDocs)
 * [https://github.com/Kagami/mpv.js](https://github.com/Kagami/mpv.js)
+* [https://github.com/alexflint/gallium](https://github.com/alexflint/gallium)
+* [https://github.com/revery-ui/revery](https://github.com/revery-ui/revery)
+    * [https://github.com/reasonml/reason](https://github.com/reasonml/reason)
+* [https://github.com/fltk](https://github.com/fltk)
+* Rust [https://github.com/yewstack/yew](https://github.com/yewstack/yew)
+* [https://github.com/iced-rs/iced](https://github.com/iced-rs/iced)
+* [https://github.com/fltk-rs](https://github.com/fltk-rs)
+* [https://github.com/linebender/druid](https://github.com/linebender/druid)
+* [https://github.com/slint-ui](https://github.com/slint-ui)
+* [https://github.com/emilk/egui](https://github.com/emilk/egui)
 * 打包可执行文件 [https://github.com/vercel/pkg](https://github.com/vercel/pkg)
 * 网页转桌面应用 [https://github.com/nativefier/nativefier](https://github.com/nativefier/nativefier)
 
 
-- [https://github.com/revery-ui/revery](https://github.com/revery-ui/revery)
+
+**多语言UI框架**
+
+* [https://github.com/sciter-sdk](https://github.com/sciter-sdk)
+    * [https://github.com/c-smile/sciter-sdk](https://github.com/c-smile/sciter-sdk)
+    * [https://github.com/c-smile/sciter-js-sdk](https://github.com/c-smile/sciter-js-sdk)
+    * [https://sciter.com](https://sciter.com)
+* [https://gitlab.gnome.org/GNOME/gtk](https://gitlab.gnome.org/GNOME/gtk)
+    * [https://www.gtk.org](https://www.gtk.org)
+    * [https://github.com/gtk-rs](https://github.com/gtk-rs)
+    * [https://webkitgtk.org](https://webkitgtk.org)
+    * [https://webkit.org](https://webkit.org)
+    * [https://github.com/sonnyp/Tangram](https://github.com/sonnyp/Tangram)
+* [https://github.com/tcltk](https://github.com/tcltk)
+* [https://github.com/wxWidgets](https://github.com/wxWidgets)
+* [https://www.qt.io](https://www.qt.io)
+    * Go [https://github.com/therecipe/qt](https://github.com/therecipe/qt)
+    * [https://github.com/visualfc/goqt](https://github.com/visualfc/goqt)
+    * [https://github.com/kitech/qt.go](https://github.com/kitech/qt.go)
+    * [https://github.com/rust-qt](https://github.com/rust-qt)
+    * [https://github.com/d-e-s-o/gui](https://github.com/d-e-s-o/gui)
+    * [https://github.com/redox-os/orbtk](https://github.com/redox-os/orbtk)
+    * [https://github.com/filcuc/DOtherSide](https://github.com/filcuc/DOtherSide)
+* webview绑定 [https://github.com/webview](https://github.com/webview)
+    * [https://github.com/Boscop/web-view](https://github.com/Boscop/web-view)
+    * [https://github.com/alexislozano/neutrino](https://github.com/alexislozano/neutrino)
+    * [https://github.com/forbesmyester/wv-linewise](https://github.com/forbesmyester/wv-linewise)
+    * [https://github.com/tauri-apps/tauri](https://github.com/tauri-apps/tauri)
+* [https://github.com/Nitrux](https://github.com/Nitrux)
+    * [https://mauikit.org](https://mauikit.org)
 
 
 
@@ -50,8 +96,6 @@
 
 * [移动开发技术简介-三种跨平台技术从框架角度对比](https://github.com/flutterchina/flutter-in-action/blob/master/docs/chapter1/mobile_development_intro.md#116-%E5%B0%8F%E7%BB%93)
 * [从 React Native 到 Flutter，移动跨平台方案的真相](https://leancloudblog.com/cong-react-native-dao-flutter-yi-dong-kua-ping-tai-fang-an-de-zhen-xiang)
-
-> 在3大主流渲染引擎里，webview、weex/react native、flutter，复杂度依次降低，渲染性能依次上升。
 
 
 
@@ -105,10 +149,6 @@
     * [https://github.com/adobe/react-spectrum](https://github.com/adobe/react-spectrum)
     * [https://github.com/infinitered](https://github.com/infinitered)
 * Titanium [https://github.com/appcelerator](https://github.com/appcelerator)
-* C# [https://github.com/xamarin](https://github.com/xamarin)
-    * [https://docs.microsoft.com/zh-cn/xamarin](https://docs.microsoft.com/zh-cn/xamarin)
-* Java/Kotlin [https://github.com/codenameone](https://github.com/codenameone)
-* 游戏 [https://github.com/coronalabs](https://github.com/coronalabs)
 
 
 
@@ -139,6 +179,7 @@
 * 升级/下载插件 [https://github.com/rhymelph/r_upgrade](https://github.com/rhymelph/r_upgrade)
 * [https://github.com/KevinZhang19870314/flutter_getx_boilerplate](https://github.com/KevinZhang19870314/flutter_getx_boilerplate)
 * css转Flutter [https://github.com/drawcall/c2f](https://github.com/drawcall/c2f)
+* [https://github.com/leoafarias/fvm](https://github.com/leoafarias/fvm)
 
 
 - 干货 [https://github.com/fujianlian/GankFlutter](https://github.com/fujianlian/GankFlutter)
@@ -148,6 +189,7 @@
 - 翻译 [https://github.com/biyidev/biyi_app](https://github.com/biyidev/biyi_app)
 - [https://github.com/huangruiLearn/flutter_hrlweibo](https://github.com/huangruiLearn/flutter_hrlweibo)
 - [https://github.com/sabernwj/cookiej](https://github.com/sabernwj/cookiej)
+- [https://github.com/DingMouRen/flutter_tiktok](https://github.com/DingMouRen/flutter_tiktok)
 
 
 **Dart**

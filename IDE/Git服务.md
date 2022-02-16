@@ -190,6 +190,7 @@ volumes:
 - GitHub每天趋势 [https://github.com/yangwenmai/github-trending-backup](https://github.com/yangwenmai/github-trending-backup)
 - 记录GitHub趋势 [https://github.com/xiaobaiha/github-trending-history](https://github.com/xiaobaiha/github-trending-history)
     - [https://github.oldjpg.com](https://github.oldjpg.com)
+- [https://github.com/GitHubDaily](https://github.com/GitHubDaily)
 - [https://github.com/techgaun/active-forks](https://github.com/techgaun/active-forks)
 - [https://giters.com](https://giters.com)
 - 获取统计信息 [https://github.com/shroudedcode/devstats](https://github.com/shroudedcode/devstats)

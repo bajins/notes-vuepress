@@ -54,6 +54,8 @@
 * [https://opensource.adobe.com](https://opensource.adobe.com)
     * [https://github.com/adobe](https://github.com/adobe)
     * [https://www.adobe.io/open](https://www.adobe.io/open)
+* [https://github.com/redhatofficial](https://github.com/redhatofficial)
+    * [https://redhatofficial.github.io](https://redhatofficial.github.io)
 
 
 - [https://github.com/TogetherOS](https://github.com/TogetherOS)
@@ -150,6 +152,8 @@
 * 九十九个问题 [https://github.com/shekhargulati/99-problems](https://github.com/shekhargulati/99-problems)
 * [https://github.com/JosephZhu1983/java-common-mistakes](https://github.com/JosephZhu1983/java-common-mistakes)
 * [https://github.com/danistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x)
+* 开源替代方案 [https://opensource.com/tags/alternatives](https://opensource.com/tags/alternatives)
+
 
 - 免费服务工具列表 [https://github.com/ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
 - [https://github.com/trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)

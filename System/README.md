@@ -207,6 +207,12 @@
 * [https://github.com/novnc/noVNC](https://github.com/novnc/noVNC)
 * [https://github.com/balena-io-playground/xserver-web-vnc](https://github.com/balena-io-playground/xserver-web-vnc)
 
+- Xen [https://xenbits.xensource.com](https://xenbits.xensource.com)
+- QEMU [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
+- KVM [https://www.linux-kvm.org](https://www.linux-kvm.org)
+- [https://gitlab.com/libvirt](https://gitlab.com/libvirt)
+    - [https://github.com/virt-manager](https://github.com/virt-manager)
+- [https://github.com/libguestfs](https://github.com/libguestfs)
 
 
 
