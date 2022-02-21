@@ -191,6 +191,7 @@ var express = require('express');
 + [https://github.com/mobxjs](https://github.com/mobxjs)
 + [https://github.com/CreateJS](https://github.com/CreateJS)
 + [https://github.com/kangax](https://github.com/kangax)
++ [https://github.com/alyssaxuu](https://github.com/alyssaxuu)
 
 
 - 转换编译器 [https://github.com/babel](https://github.com/babel)

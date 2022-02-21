@@ -273,7 +273,6 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 + [https://github.com/netnr/kms](https://github.com/netnr/kms)
 + [https://official-kmspico.com](https://official-kmspico.com)
 
-* [可用的 KMS 列表](https://www.coolhub.top/archives/14)
 * [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)
 * [人人客-微软产品](https://rrkee.com/microsoft)
 * [03k.orgKMS服务](https://03k.org/kms.html)

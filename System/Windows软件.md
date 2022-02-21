@@ -565,6 +565,7 @@
 * [https://zh-cn.libreoffice.org](https://zh-cn.libreoffice.org)
 * [https://github.com/YerongAI/Office-Tool](https://github.com/YerongAI/Office-Tool)
     * [https://otp.landian.vip](https://otp.landian.vip)
+    * [https://www.coolhub.top](https://www.coolhub.top)
 
 + Office 卸载支持工具 [https://outlookdiagnostics.azureedge.net/sarasetup/SetupProd_OffScrub.exe](https://outlookdiagnostics.azureedge.net/sarasetup/SetupProd_OffScrub.exe)
 + [手动卸载 Office](https://support.microsoft.com/zh-cn/office/%E6%89%8B%E5%8A%A8%E5%8D%B8%E8%BD%BD-office-4e2904ea-25c8-4544-99ee-17696bb3027b)

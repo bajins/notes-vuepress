@@ -183,6 +183,7 @@
 * [https://github.com/eventials/go-tus](https://github.com/eventials/go-tus)
 * 缓存 [https://github.com/patrickmn/go-cache](https://github.com/patrickmn/go-cache)
 * [https://github.com/bluele/gcache](https://github.com/bluele/gcache)
+* [https://github.com/golang/groupcache](https://github.com/golang/groupcache)
 * 监视文件或目录更改 [https://github.com/radovskyb/watcher](https://github.com/radovskyb/watcher)
 * 文件监听 [https://github.com/fsnotify/fsnotify](https://github.com/fsnotify/fsnotify)
 * 快速生成ASCII表格 [https://github.com/olekukonko/tablewriter](https://github.com/olekukonko/tablewriter)

@@ -171,6 +171,8 @@
 * demo [https://github.com/brucevsked/vskeddemolist](https://github.com/brucevsked/vskeddemolist)
 * [https://github.com/biezhi/30-seconds-of-java8](https://github.com/biezhi/30-seconds-of-java8)
 * 并发专题 [https://github.com/CL0610/Java-concurrency](https://github.com/CL0610/Java-concurrency)
+* [https://github.com/itwanger/toBeBetterJavaer](https://github.com/itwanger/toBeBetterJavaer)
+
 
 
 
@@ -380,6 +382,7 @@
 + [https://github.com/zjn-zjn/ice](https://github.com/zjn-zjn/ice)
 + [https://github.com/youseries/urule](https://github.com/youseries/urule)
 + [https://github.com/deonwu/ik-expression](https://github.com/deonwu/ik-expression)
++ 线程池 [https://github.com/acmenlt/dynamic-threadpool](https://github.com/acmenlt/dynamic-threadpool)
 
 
 * [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
