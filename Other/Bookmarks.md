@@ -127,6 +127,8 @@
 * [https://github.com/SmartKeyerror/Psyduck](https://github.com/SmartKeyerror/Psyduck)
 * 面试题 [https://github.com/0voice/campus_recruitmen_questions](https://github.com/0voice/campus_recruitmen_questions)
 * 反问面试官 [https://github.com/viraptor/reverse-interview](https://github.com/viraptor/reverse-interview)
+- [https://github.com/vvmdx/Sec-Interview-4-2023](https://github.com/vvmdx/Sec-Interview-4-2023)
+
 
 - [https://github.com/hoochanlon](https://github.com/hoochanlon)
 - [https://github.com/easychen](https://github.com/easychen)
@@ -157,9 +159,12 @@
 
 - 免费服务工具列表 [https://github.com/ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
 - [https://github.com/trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
+- [https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo)
 - [https://github.com/sdmg15/Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
 - [https://github.com/ttys3](https://github.com/ttys3)
+- [https://github.com/lmmentel/awesome-time-series](https://github.com/lmmentel/awesome-time-series)
 - 预览项目HTML [https://github.com/htmlpreview/htmlpreview.github.com](https://github.com/htmlpreview/htmlpreview.github.com)
+
 
 
 * Mac文档查询工具 [https://github.com/Kapeli](https://github.com/Kapeli)
@@ -172,7 +177,9 @@
 * [https://velocity.silverlakesoftware.com](https://velocity.silverlakesoftware.com)
 * 代码浏览器 [https://github.com/KDAB/codebrowser](https://github.com/KDAB/codebrowser)
     * [https://blog.weghos.com](https://blog.weghos.com)
-
+* 在线考试系统
+    * Java实现 [https://github.com/lsgwr/spring-boot-online-exam](https://github.com/lsgwr/spring-boot-online-exam)
+    * Python实现 [https://github.com/xingxingzaixian/django-drf-online-exam](https://github.com/xingxingzaixian/django-drf-online-exam)
 
 
 ## 学习
@@ -408,7 +415,7 @@
 * [https://github.com/moxi624/LearningNotes](https://github.com/moxi624/LearningNotes)
 * [https://github.com/2227324689](https://github.com/2227324689)
     * [https://2227324689.github.io](https://2227324689.github.io)
-
+* [https://xiaoflyfish.cn](https://xiaoflyfish.cn)
 
 
 ### Go

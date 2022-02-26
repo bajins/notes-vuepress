@@ -79,6 +79,7 @@
 - [https://github.com/linuxmint](https://github.com/linuxmint)
 - [https://github.com/cutefishos-ubuntu](https://github.com/cutefishos-ubuntu)
 - [https://gitlab.archlinux.org/archlinux](https://gitlab.archlinux.org/archlinux)
+    - [https://github.com/NakanoMikuOrg/arch-guide](https://github.com/NakanoMikuOrg/arch-guide)
 - [https://github.com/NetBSD](https://github.com/NetBSD)
 - [https://github.com/freebsd](https://github.com/freebsd)
 - [https://github.com/linuxdeepin](https://github.com/linuxdeepin)
@@ -553,6 +554,8 @@
 * [https://cloud.tencent.com/developer/article/1332118](https://cloud.tencent.com/developer/article/1332118)
 * [http://winmtr.net/download-winmtr](http://winmtr.net/download-winmtr)
 * [Netcat详解](https://www.cnblogs.com/dalianpai/p/12505678.html)
+* [http://www.dest-unreach.org/socat](http://www.dest-unreach.org/socat)
+* [https://github.com/vi/websocat](https://github.com/vi/websocat)
 
 > 在Linux中有一个更好的网络连通性判断工具，它可以结合ping | nslookup | tracert 来判断网络的相关特性，这个命令就是mtr。
 

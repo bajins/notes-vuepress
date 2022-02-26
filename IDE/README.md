@@ -25,6 +25,9 @@
 - WakaTime [https://github.com/muety/wakapi](https://github.com/muety/wakapi)
 - 代码补全AI [https://github.com/codota/tabnine](https://github.com/codota/tabnine)
     - [https://www.tabnine.com](https://www.tabnine.com)
+- [https://github.com/veler/DevToys](https://github.com/veler/DevToys)
+
+
 
 
 ## Online IDE

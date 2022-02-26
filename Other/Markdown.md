@@ -533,3 +533,6 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/aguang-xyz/aurora-editor](https://github.com/aguang-xyz/aurora-editor)
 * 笔记 [https://github.com/laurent22/joplin](https://github.com/laurent22/joplin)
 * [https://github.com/evernote](https://github.com/evernote)
+* [https://github.com/zadam/trilium](https://github.com/zadam/trilium)
+* [https://github.com/flxzt/rnote](https://github.com/flxzt/rnote)
+

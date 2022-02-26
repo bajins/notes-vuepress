@@ -23,7 +23,8 @@
 - [https://github.com/wangpinpin/devtools-server](https://github.com/wangpinpin/devtools-server)
 - 最全中华古诗词 [https://github.com/chinese-poetry](https://github.com/chinese-poetry)
 - [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis)
-
+- [https://github.com/NiuTrans/Classical-Modern](https://github.com/NiuTrans/Classical-Modern)
+- 做饭 [https://github.com/Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook)
 
 
 

@@ -333,6 +333,8 @@ var express = require('express');
 * 编码转换 [https://github.com/ashtuchkin/iconv-lite](https://github.com/ashtuchkin/iconv-lite)
 * HTML复选框 [https://github.com/bryanbraun/checkboxland](https://github.com/bryanbraun/checkboxland)
 * 加密 [https://github.com/travist/jsencrypt](https://github.com/travist/jsencrypt)
+* [https://github.com/dmarman/sha256algorithm](https://github.com/dmarman/sha256algorithm)
+* 数据库可视化 [https://github.com/lana-k/sqliteviz](https://github.com/lana-k/sqliteviz)
 
 
 - 数字精度 [https://github.com/topics/arbitrary-precision](https://github.com/topics/arbitrary-precision)

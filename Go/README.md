@@ -88,6 +88,7 @@
 * [https://github.com/rubyhan1314/Golang-100-Days](https://github.com/rubyhan1314/Golang-100-Days)
 * [Go 编程实例 Go by Example](https://learnku.com/docs/gobyexample/2020)
 * [https://github.com/lexkong/apiserver_demos](https://github.com/lexkong/apiserver_demos)
+* [https://github.com/jiujuan/go-collection](https://github.com/jiujuan/go-collection)
 * 中文学习资料 [https://github.com/gwuhaolin/golang-book](https://github.com/gwuhaolin/golang-book)
 * 设计模式 [https://github.com/tmrts/go-patterns](https://github.com/tmrts/go-patterns)
 * [https://github.com/0voice/Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang)
@@ -99,6 +100,7 @@
     * [https://magic.iswbm.com](https://magic.iswbm.com)
 * Go语法树入门 [https://github.com/chai2010/go-ast-book](https://github.com/chai2010/go-ast-book)
 * [https://github.com/halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go)
+* Go泛型入门 [https://github.com/akutz/go-generics-the-hard-way](https://github.com/akutz/go-generics-the-hard-way)
 * 周刊 [https://github.com/polaris1119/golangweekly](https://github.com/polaris1119/golangweekly)
 
 

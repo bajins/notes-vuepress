@@ -58,6 +58,9 @@
 * 网页转桌面应用 [https://github.com/nativefier/nativefier](https://github.com/nativefier/nativefier)
 
 
+- 网易云播放器 [https://github.com/qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic)
+- [https://github.com/listen1](https://github.com/listen1)
+
 
 **多语言UI框架**
 
@@ -182,6 +185,7 @@
 * [https://github.com/KevinZhang19870314/flutter_getx_boilerplate](https://github.com/KevinZhang19870314/flutter_getx_boilerplate)
 * css转Flutter [https://github.com/drawcall/c2f](https://github.com/drawcall/c2f)
 * [https://github.com/leoafarias/fvm](https://github.com/leoafarias/fvm)
+* 图表 [https://github.com/entronad/graphic](https://github.com/entronad/graphic)
 
 
 - 干货 [https://github.com/fujianlian/GankFlutter](https://github.com/fujianlian/GankFlutter)
@@ -192,6 +196,7 @@
 - [https://github.com/huangruiLearn/flutter_hrlweibo](https://github.com/huangruiLearn/flutter_hrlweibo)
 - [https://github.com/sabernwj/cookiej](https://github.com/sabernwj/cookiej)
 - [https://github.com/DingMouRen/flutter_tiktok](https://github.com/DingMouRen/flutter_tiktok)
+- 音乐播放器 [https://github.com/harmonoid/harmonoid](https://github.com/harmonoid/harmonoid)
 
 
 **Dart**

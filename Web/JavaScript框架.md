@@ -32,7 +32,10 @@
 * [https://github.com/open-wc/open-wc](https://github.com/open-wc/open-wc)
 * [https://github.com/modernweb-dev/web](https://github.com/modernweb-dev/web)
 * [https://github.com/lit](https://github.com/lit)
+* [https://github.com/solidjs/solid](https://github.com/solidjs/solid)
+* [https://github.com/preactjs/preact](https://github.com/preactjs/preact)
 * 框架环境 [https://github.com/meteor](https://github.com/meteor)
+
 
 
 
