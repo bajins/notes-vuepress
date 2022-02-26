@@ -34,6 +34,9 @@
 - [git-pull.sh](/files/git-pull.sh)
 
 
+> 脚本没有写的权限：在`git-bash.exe`文件或快捷方式上鼠标`右键` -> `属性` -> `兼容性` -> 勾选`以管理员身份运行此程序` -> `确定`
+
+
 **[Commit提交规范](/Other/编程规范.md#commit提交规范)**
 
 
