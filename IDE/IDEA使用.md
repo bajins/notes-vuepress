@@ -1,11 +1,3 @@
-<!--
- * @Author: your name
- * @Date: 2021-10-19 13:07:04
- * @LastEditTime: 2022-02-26 17:00:58
- * @LastEditors: your name
- * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- * @FilePath: \notes-vuepress\IDE\IDEA使用.md
--->
 # IDEA使用
 
 [[toc]]
@@ -16,6 +8,7 @@
 
 + [https://github.com/JetBrains](https://github.com/JetBrains)
      + [https://www.jetbrains.com/products.html#type=ide](https://www.jetbrains.com/products.html#type=ide)
+     + [https://www.jetbrains.com/idea/download/other.html](https://www.jetbrains.com/idea/download/other.html)
 + 简体中文专题教程 [https://github.com/judasn/IntelliJ-IDEA-Tutorial](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
 
 - [教育邮箱免费申请JetBrains教育许可证](https://mp.weixin.qq.com/s/XFoOBeTaBwBAsRgadxMLfQ)

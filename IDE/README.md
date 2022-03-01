@@ -105,7 +105,7 @@
     ```ini
     # 删除jre目录，安装jdk11或以上版本，把以下两行添加到`-vmargs`之前
     -vm
-    C:\Program Files\Java\jdk-17.0.1\bin
+    C:\Program Files\Java\jdk-17.0.2\bin
     # 解压dbeaver-agent-latest.zip到dbeaver目录，添加此行到最后
     -javaagent:./dbeaver-agent.jar
     ```

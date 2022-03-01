@@ -576,6 +576,7 @@
 
 
 * 文件传输 [http://www.xender.com](http://www.xender.com)
+* [https://gitlab.com/fdroid/fdroid-nearby](https://gitlab.com/fdroid/fdroid-nearby)
 * [https://github.com/interfect/fenix](https://github.com/interfect/fenix)
 * [https://feem.io](https://feem.io)
 * [https://github.com/szimek/sharedrop](https://github.com/szimek/sharedrop)
