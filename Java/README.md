@@ -221,11 +221,11 @@
 * 图形验证码 [https://github.com/whvcse/EasyCaptcha](https://github.com/whvcse/EasyCaptcha)
 * [https://github.com/orclight/jcaptcha](https://github.com/orclight/jcaptcha)
 * 线程间消息传递 [https://github.com/lmax-exchange/disruptor](https://github.com/lmax-exchange/disruptor)
+* [https://github.com/alibaba/transmittable-thread-local](https://github.com/alibaba/transmittable-thread-local)
 * 依赖关系注入器 [https://github.com/google/dagger](https://github.com/google/dagger)
 * [https://github.com/redisson](https://github.com/redisson)
 * 规划引擎 [https://github.com/kiegroup](https://github.com/kiegroup)
 * [https://github.com/MyCATApache](https://github.com/MyCATApache)
-* [https://github.com/alibaba/transmittable-thread-local](https://github.com/alibaba/transmittable-thread-local)
 * 验证码 [https://github.com/ramostear/Happy-Captcha](https://github.com/ramostear/Happy-Captcha)
 
 
@@ -674,7 +674,6 @@
 * SpringBlade SaaS多租户微服务开发平台 [https://github.com/chillzhuang/SpringBlade](https://github.com/chillzhuang/SpringBlade)
 * 基于springboot的一款纯净脚手架 [https://github.com/fuce1314/Springboot_v2](https://github.com/fuce1314/Springboot_v2)
 * [https://gitee.com/lovetime/WeAdmin](https://gitee.com/lovetime/WeAdmin)
-* [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
 * 停车场管理 [https://github.com/981011512/--](https://github.com/981011512/--)
 * [https://github.com/zhangdaiscott/JimuReport](https://github.com/zhangdaiscott/JimuReport)
 * 数据可视化分析 [https://github.com/dataease](https://github.com/dataease)
