@@ -21,6 +21,23 @@
 * springboot插件式开发框架 [https://gitee.com/starblues/springboot-plugin-framework-parent](https://gitee.com/starblues/springboot-plugin-framework-parents)
 
 
+
+**热插拔/热加载/热部署/热更新**
+
+* [https://www.jrebel.com/products/jrebel/download](https://www.jrebel.com/products/jrebel/download)
+    * [http://jrebel.cicoding.cn](http://jrebel.cicoding.cn)
+    * [http://jrebel.cicoding.cn/guid](http://jrebel.cicoding.cn/guid)
+* [https://github.com/spring-projects/spring-loaded](https://github.com/spring-projects/spring-loaded)
+* [https://github.com/HotswapProjects](https://github.com/HotswapProjects)
+* [https://github.com/dcevm](https://github.com/dcevm)
+    * [https://ssw.jku.at/dcevm](https://ssw.jku.at/dcevm)
+* [https://github.com/TravaOpenJDK](https://github.com/TravaOpenJDK)
+* [https://github.com/fakereplace](https://github.com/fakereplace)
+* [https://github.com/jmarranz/relproxy](https://github.com/jmarranz/relproxy)
+* [https://github.com/cm4j](https://github.com/cm4j)
+
+
+
 ## 什么是 SPI？
 
 SPI 全称为（Service Provider Interface），字面意思为服务提供者接口，是**JDK 内置的一种服务提供发现机制**。

@@ -8,9 +8,7 @@
 
 * [实用IDEA工具](https://blog.csdn.net/weixin_37645838/article/details/85953193)
 
-- [https://www.jrebel.com/products/jrebel/download](https://www.jrebel.com/products/jrebel/download)
-    - [http://jrebel.cicoding.cn](http://jrebel.cicoding.cn)
-    - [http://jrebel.cicoding.cn/guid](http://jrebel.cicoding.cn/guid)
+
 - Eclipse代码格式化风格 [https://github.com/krasa/EclipseCodeFormatter](https://github.com/krasa/EclipseCodeFormatter)
 - 主题 [http://soft-hub.cn](http://soft-hub.cn)
 
@@ -337,6 +335,7 @@
 ---
 
 
+* [https://github.com/dubreuia/intellij-plugin-save-actions](https://github.com/dubreuia/intellij-plugin-save-actions)
 
 ## Arthas
 
@@ -353,6 +352,7 @@
 * [https://github.com/krasa/VisualVMLauncher](https://github.com/krasa/VisualVMLauncher)
 
 ![](/images/VisualVM-Launcher.gif)
+
 
 
 
