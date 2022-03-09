@@ -25,6 +25,7 @@
 + [Cron 定时任务表达式手册](https://www.gairuo.com/p/cron-expression-sheet)
 + Linux内核模块编程指南 [https://github.com/sysprog21/lkmpg](https://github.com/sysprog21/lkmpg)
 + [http://www.linux-commands-examples.com](http://www.linux-commands-examples.com)
++ [https://github.com/abarrak/linux-sysops-handbook](https://github.com/abarrak/linux-sysops-handbook)
 
 
 * [vi命令（vi编辑器）](http://c.biancheng.net/vi)

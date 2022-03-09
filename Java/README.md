@@ -541,6 +541,7 @@
     * [https://github.com/caspar-chen/swagger-ui-layer](https://github.com/caspar-chen/swagger-ui-layer)
     * knife4j [https://github.com/xiaoymin/swagger-bootstrap-ui](https://github.com/xiaoymin/swagger-bootstrap-ui)
     * [https://github.com/chfree/think-swagger-ui-vuele](https://github.com/chfree/think-swagger-ui-vuele)
+    * [https://gitee.com/xiaoym/knife4j](https://gitee.com/xiaoym/knife4j)
 
 + [https://github.com/spring-projects/spring-restdocs](https://github.com/spring-projects/spring-restdocs)
 + [https://github.com/YeDaxia/JApiDocs](https://github.com/YeDaxia/JApiDocs)
