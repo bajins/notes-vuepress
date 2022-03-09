@@ -311,23 +311,6 @@
     * [http://www.logback.cn](http://www.logback.cn)
 
 
-**JSON**
-
-> JSON-B，即Java API for JSON Binding
-
-+ [https://github.com/json-schema-org](https://github.com/json-schema-org)
-+ Jakarta JSON处理规范 [https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
-
-- [https://github.com/eclipse-ee4j/yasson](https://github.com/eclipse-ee4j/yasson)
-- [https://github.com/apache/johnzon](https://github.com/apache/johnzon)
-- [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
-- [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)
-- [https://github.com/google/gson](https://github.com/google/gson)
-- [https://github.com/everit-org/json-schema](https://github.com/everit-org/json-schema)
-- [https://github.com/java-json-tools/json-schema-validator](https://github.com/java-json-tools/json-schema-validator)
-- 使用XPath语法取值 [https://github.com/json-path/JsonPath](https://github.com/json-path/JsonPath)
-- [https://github.com/square/moshi](https://github.com/square/moshi)
-
 
 **Cache**
 
@@ -339,10 +322,11 @@
     - [Ehcache缓存从2.10升到3.5.0版本的简单用法和踩坑经验](https://segmentfault.com/a/1190000020791300)
 * 分布式 [https://github.com/Terracotta-OSS/offheap-store](https://github.com/Terracotta-OSS/offheap-store)
 * [https://github.com/ben-manes/caffeine](https://github.com/ben-manes/caffeine)
+* [https://github.com/xiaolyuh/layering-cache](https://github.com/xiaolyuh/layering-cache)
 * GuavaCache使用示例 [https://github.com/songyaxu/guava-cache](https://github.com/songyaxu/guava-cache)
 * 存储和检索海量数据 [https://github.com/dCache/dcache](https://github.com/dCache/dcache)
 * 高效键值对存储 [https://github.com/OpenHFT/Chronicle-Map](https://github.com/OpenHFT/Chronicle-Map)
-
+* Redis云管理平台 [https://github.com/sohutv/cachecloud](https://github.com/sohutv/cachecloud)
 
 
 
@@ -414,15 +398,13 @@
 
 
 
-
-**对象/类/文件生成器/字节码操作**
+**对象/类/字节码/序列化/反序列化**
 
 + [https://gitlab.ow2.org/asm/asm](https://gitlab.ow2.org/asm/asm)
 + [https://asm.ow2.io](https://asm.ow2.io)
 + [http://asm.ow2.org](http://asm.ow2.org)
 + [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
 + [https://www.eclipse.org/aspectj](https://www.eclipse.org/aspectj)
-
 
 
 * 模板引擎生成输出文本 [https://github.com/apache/freemarker](https://github.com/apache/freemarker)
@@ -436,7 +418,6 @@
 * [https://github.com/rzwitserloot/lombok](https://github.com/rzwitserloot/lombok)
 * 创建不可变对象 [https://github.com/immutables](https://github.com/immutables)
 * [https://github.com/google/auto](https://github.com/google/auto)
-* [https://github.com/EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo) ASM
 * NBeanCopyUtil采用的是Javassist
 * [https://github.com/javaparser](https://github.com/javaparser)
 * [https://github.com/square/javapoet](https://github.com/square/javapoet)
@@ -452,6 +433,27 @@
 * 可缓存反射 [https://github.com/OxideWaveLength/Java-BetterReflection](https://github.com/OxideWaveLength/Java-BetterReflection)
 * 属性比对器 [https://github.com/dadiyang/equator](https://github.com/dadiyang/equator)
 * 对象比较属性和审核 [https://github.com/javers/javers](https://github.com/javers/javers)
+* ASM序列化 [https://github.com/EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo)
+* 序列化 [https://github.com/protocolbuffers](https://github.com/protocolbuffers)
+* [https://github.com/protostuff](https://github.com/protostuff)
+    * [https://gitlab.com/dyu](https://gitlab.com/dyu)
+
+
+> JSON-B，即Java API for JSON Binding
+
++ [https://github.com/json-schema-org](https://github.com/json-schema-org)
++ Jakarta JSON处理规范 [https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
+
+* [https://github.com/eclipse-ee4j/yasson](https://github.com/eclipse-ee4j/yasson)
+* [https://github.com/apache/johnzon](https://github.com/apache/johnzon)
+* [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
+* [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)
+* [https://github.com/google/gson](https://github.com/google/gson)
+* [https://github.com/everit-org/json-schema](https://github.com/everit-org/json-schema)
+* [https://github.com/java-json-tools/json-schema-validator](https://github.com/java-json-tools/json-schema-validator)
+* 使用XPath语法取值 [https://github.com/json-path/JsonPath](https://github.com/json-path/JsonPath)
+* [https://github.com/square/moshi](https://github.com/square/moshi)
+
 
 
 
