@@ -151,6 +151,7 @@
 * [https://github.com/wolfpld/tracy](https://github.com/wolfpld/tracy)
 * [https://github.com/geerlingguy/internet-pi](https://github.com/geerlingguy/internet-pi)
 * [https://github.com/SigNoz/signoz](https://github.com/SigNoz/signoz)
+* [https://github.com/Lakr233/Rayon](https://github.com/Lakr233/Rayon)
 * 集群监控 [https://github.com/ganglia](https://github.com/ganglia)
 
 

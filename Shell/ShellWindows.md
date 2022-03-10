@@ -112,8 +112,6 @@
 
 
 * [https://github.com/WSA-Community/WSAGAScript](https://github.com/WSA-Community/WSAGAScript)
-* [https://github.com/LSPosed/MagiskOnWSA](https://github.com/LSPosed/MagiskOnWSA)
-* [https://github.com/LSPosed/WSA-Kernel-SU](https://github.com/LSPosed/WSA-Kernel-SU)
 * [https://github.com/opengapps/opengapps](https://github.com/opengapps/opengapps)
     * [https://sourceforge.net/projects/opengapps](https://sourceforge.net/projects/opengapps)
 

@@ -328,10 +328,11 @@
 * [https://github.com/rovo89/Xposed](https://github.com/rovo89/Xposed)
     * [https://repo.xposed.info](https://repo.xposed.info)
     * 非root的Xposed [https://github.com/lianglixin/SandVXposed](https://github.com/lianglixin/SandVXposed)
-* [https://github.com/ElderDrivers/EdXposed](https://github.com/ElderDrivers/EdXposed)
+    * [https://github.com/GravityBox/GravityBox](https://github.com/GravityBox/GravityBox)
+* EdXposed [https://github.com/ElderDrivers](https://github.com/ElderDrivers)
 * [https://github.com/mar-v-in/ArtHook](https://github.com/mar-v-in/ArtHook)
 * [https://github.com/avs333/Nougat_dlfunctions](https://github.com/avs333/Nougat_dlfunctions)
-* [https://github.com/RikkaApps/Riru](https://github.com/RikkaApps/Riru)
+* Riru [https://github.com/RikkaApps](https://github.com/RikkaApps)
 * 梦境框架 [https://github.com/canyie/Dreamland](https://github.com/canyie/Dreamland)
 * [https://github.com/asLody/VirtualApp](https://github.com/asLody/VirtualApp)
     * [https://github.com/ServenScorpion/VirtualApp11](https://github.com/ServenScorpion/VirtualApp11)
@@ -341,27 +342,30 @@
 * [https://github.com/didi/VirtualAPK](https://github.com/didi/VirtualAPK)
 * [https://github.com/ganyao114/SandVXposed](https://github.com/ganyao114/SandVXposed)
 * [https://github.com/android-hacker/VirtualXposed](https://github.com/android-hacker/VirtualXposed)
-* 太极 [https://github.com/tiann/epic](https://github.com/tiann/epic)
+* [https://github.com/tiann/epic](https://github.com/tiann/epic)
     * [http://weishu.me/archives](http://weishu.me/archives)
     * 钉钉模块 [https://github.com/anysoft/xposed-rimet](https://github.com/anysoft/xposed-rimet)
     * [https://github.com/sky-wei/xposed-rimet](https://github.com/sky-wei/xposed-rimet)
-* [https://github.com/taichi-framework/TaiChi](https://github.com/taichi-framework/TaiChi)
-    * [https://taichi.cool](https://taichi.cool)
+* 太极 [https://github.com/taichi-framework](https://github.com/taichi-framework)
     * [https://github.com/Magisk-Modules-Repo](https://github.com/Magisk-Modules-Repo)
+    * [https://github.com/artharyoung/TaiChi-ModuleList](https://github.com/artharyoung/TaiChi-ModuleList)
 * [https://github.com/ganyao114/SandHook](https://github.com/ganyao114/SandHook)
 * [https://github.com/canyie/pine](https://github.com/canyie/pine)
 * [https://github.com/PAGalaxyLab/YAHFA](https://github.com/PAGalaxyLab/YAHFA)
 * [https://github.com/turing-technician/FastHook](https://github.com/turing-technician/FastHook)
-* [https://github.com/LSPosed/LSPosed](https://github.com/LSPosed/LSPosed)
+* [https://github.com/LSPosed](https://github.com/LSPosed)
     * [https://github.com/Xposed-Modules-Repo](https://github.com/Xposed-Modules-Repo)
-* EdXp
-* LSP （LSPosed Manager框架）
-* Riru 框架（SandHook、YAHFA）
+    * [https://github.com/ThePieMonster/HideMockLocation](https://github.com/ThePieMonster/HideMockLocation)
 * BugHook（应用转生）
 * Xpatch
 * SPatch（天鉴）
+* Zygisk
 * [https://github.com/monkeylord/XServer](https://github.com/monkeylord/XServer)
 * [https://github.com/Mocha-L/QuJing](https://github.com/Mocha-L/QuJing)
+* 虚拟定位 [https://github.com/Lerist/FakeLocation](https://github.com/Lerist/FakeLocation)
+* [https://github.com/pengliangAndroid/VirtualLocation](https://github.com/pengliangAndroid/VirtualLocation)
+* [https://github.com/virjarRatel/ratelvirtuallocation](https://github.com/virjarRatel/ratelvirtuallocation)
+* [https://github.com/bigsinger/fakegps](https://github.com/bigsinger/fakegps)
 
 
 
