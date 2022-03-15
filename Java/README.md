@@ -278,6 +278,7 @@
 + [https://github.com/topics/shiro](https://github.com/topics/shiro)
     + [https://github.com/johntostring/spring-boot-shiro](https://github.com/johntostring/spring-boot-shiro)
     + [https://github.com/YuxingXie/shiro](https://github.com/YuxingXie/shiro)
++ [https://github.com/resteasy](https://github.com/resteasy)
 + 简单的Web框架 [https://github.com/javalin](https://github.com/javalin)
 + 工作流框架 [https://github.com/Activiti/Activiti](https://github.com/Activiti/Activiti)
     + [https://github.com/henryyan/activiti-in-action-codes](https://github.com/henryyan/activiti-in-action-codes)
@@ -540,8 +541,8 @@
     * [https://github.com/Swagger2Markup/swagger2markup](https://github.com/Swagger2Markup/swagger2markup)
     * [https://github.com/caspar-chen/swagger-ui-layer](https://github.com/caspar-chen/swagger-ui-layer)
     * knife4j [https://github.com/xiaoymin/swagger-bootstrap-ui](https://github.com/xiaoymin/swagger-bootstrap-ui)
+        * [https://gitee.com/xiaoym/knife4j](https://gitee.com/xiaoym/knife4j)
     * [https://github.com/chfree/think-swagger-ui-vuele](https://github.com/chfree/think-swagger-ui-vuele)
-    * [https://gitee.com/xiaoym/knife4j](https://gitee.com/xiaoym/knife4j)
 
 + [https://github.com/spring-projects/spring-restdocs](https://github.com/spring-projects/spring-restdocs)
 + [https://github.com/YeDaxia/JApiDocs](https://github.com/YeDaxia/JApiDocs)
@@ -738,6 +739,7 @@
 - UI 控件 [https://github.com/controlsfx](https://github.com/controlsfx)
 - [https://github.com/eclipse/nebula](https://github.com/eclipse/nebula)
 - [https://github.com/dlsc-software-consulting-gmbh](https://github.com/dlsc-software-consulting-gmbh)
+- [https://github.com/metawidget](https://github.com/metawidget)
 - Google Material Design [https://github.com/jfoenixadmin/JFoenix](https://github.com/jfoenixadmin/JFoenix)
 - Bootstrap样式 [https://github.com/dicolar/jbootx](https://github.com/dicolar/jbootx)
 - [https://github.com/edvin/tornadofx-controls](https://github.com/edvin/tornadofx-controls)
@@ -761,6 +763,7 @@
 - [https://github.com/micheljung/jfx-waitomo-theme](https://github.com/micheljung/jfx-waitomo-theme)
 - 对话框 [https://github.com/dustinkredmond/FXAlert](https://github.com/dustinkredmond/FXAlert)
 - 数据框可视化 [https://github.com/PatMartin/Dex](https://github.com/PatMartin/Dex)
+- 校验 [https://github.com/effad/ValidatorFX](https://github.com/effad/ValidatorFX)
 
 
 * Maven打包 [https://github.com/javafx-maven-plugin](https://github.com/javafx-maven-plugin)

@@ -278,9 +278,6 @@
 + [https://github.com/anbox/anbox](https://github.com/anbox/anbox)
     + [Linux上运行安卓应用:安装使用Anbox](https://www.cnblogs.com/syisyuan/p/12811595.html)
 + [https://github.com/waydroid/waydroid](https://github.com/waydroid/waydroid)
-+ 安卓上运行的安卓模拟器 [http://www.vmos.cn](http://www.vmos.cn)
-    + [https://github.com/Flytreels/vpro-romedit](https://github.com/Flytreels/vpro-romedit)
-    + [https://github.com/you2032/Pure-ROM](https://github.com/you2032/Pure-ROM)
 + [解决雷电/夜神/逍遥模拟器系统5.1以上无法抓包的问题](https://www.52pojie.cn/thread-1505329-1-1.html)
 + PC显示和控制 [https://github.com/Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)
 
@@ -319,40 +316,19 @@
 
 
 
-**Hooking**
+### Hooking
 
 + [https://github.com/topics/xposed](https://github.com/topics/xposed)
 + [https://github.com/topics/inline-hook](https://github.com/topics/inline-hook)
 
-* [https://github.com/topjohnwu/Magisk](https://github.com/topjohnwu/Magisk)
 * [https://github.com/rovo89/Xposed](https://github.com/rovo89/Xposed)
     * [https://repo.xposed.info](https://repo.xposed.info)
     * 非root的Xposed [https://github.com/lianglixin/SandVXposed](https://github.com/lianglixin/SandVXposed)
     * [https://github.com/GravityBox/GravityBox](https://github.com/GravityBox/GravityBox)
+* [https://github.com/topjohnwu/Magisk](https://github.com/topjohnwu/Magisk)
 * EdXposed [https://github.com/ElderDrivers](https://github.com/ElderDrivers)
-* [https://github.com/mar-v-in/ArtHook](https://github.com/mar-v-in/ArtHook)
-* [https://github.com/avs333/Nougat_dlfunctions](https://github.com/avs333/Nougat_dlfunctions)
 * Riru [https://github.com/RikkaApps](https://github.com/RikkaApps)
 * 梦境框架 [https://github.com/canyie/Dreamland](https://github.com/canyie/Dreamland)
-* [https://github.com/asLody/VirtualApp](https://github.com/asLody/VirtualApp)
-    * [https://github.com/ServenScorpion/VirtualApp11](https://github.com/ServenScorpion/VirtualApp11)
-* [https://github.com/asLody/whale](https://github.com/asLody/whale)
-* [https://github.com/nnjun/BlackBox/network/members](https://github.com/nnjun/BlackBox/network/members)
-* [https://github.com/2-young-2-simple/VirtualApp](https://github.com/2-young-2-simple/VirtualApp)
-* [https://github.com/didi/VirtualAPK](https://github.com/didi/VirtualAPK)
-* [https://github.com/ganyao114/SandVXposed](https://github.com/ganyao114/SandVXposed)
-* [https://github.com/android-hacker/VirtualXposed](https://github.com/android-hacker/VirtualXposed)
-* [https://github.com/tiann/epic](https://github.com/tiann/epic)
-    * [http://weishu.me/archives](http://weishu.me/archives)
-    * 钉钉模块 [https://github.com/anysoft/xposed-rimet](https://github.com/anysoft/xposed-rimet)
-    * [https://github.com/sky-wei/xposed-rimet](https://github.com/sky-wei/xposed-rimet)
-* 太极 [https://github.com/taichi-framework](https://github.com/taichi-framework)
-    * [https://github.com/Magisk-Modules-Repo](https://github.com/Magisk-Modules-Repo)
-    * [https://github.com/artharyoung/TaiChi-ModuleList](https://github.com/artharyoung/TaiChi-ModuleList)
-* [https://github.com/ganyao114/SandHook](https://github.com/ganyao114/SandHook)
-* [https://github.com/canyie/pine](https://github.com/canyie/pine)
-* [https://github.com/PAGalaxyLab/YAHFA](https://github.com/PAGalaxyLab/YAHFA)
-* [https://github.com/turing-technician/FastHook](https://github.com/turing-technician/FastHook)
 * [https://github.com/LSPosed](https://github.com/LSPosed)
     * [https://github.com/Xposed-Modules-Repo](https://github.com/Xposed-Modules-Repo)
     * [https://github.com/ThePieMonster/HideMockLocation](https://github.com/ThePieMonster/HideMockLocation)
@@ -360,12 +336,43 @@
 * Xpatch
 * SPatch（天鉴）
 * Zygisk
+* [https://github.com/mar-v-in/ArtHook](https://github.com/mar-v-in/ArtHook)
+* [https://github.com/canyie/pine](https://github.com/canyie/pine)
+* [https://github.com/avs333/Nougat_dlfunctions](https://github.com/avs333/Nougat_dlfunctions)
 * [https://github.com/monkeylord/XServer](https://github.com/monkeylord/XServer)
 * [https://github.com/Mocha-L/QuJing](https://github.com/Mocha-L/QuJing)
 * 虚拟定位 [https://github.com/Lerist/FakeLocation](https://github.com/Lerist/FakeLocation)
+* [https://github.com/WaterlooBridge/FakeLocation](https://github.com/WaterlooBridge/FakeLocation)
+* [https://github.com/Mikotwa/FuckLocation](https://github.com/Mikotwa/FuckLocation)
 * [https://github.com/pengliangAndroid/VirtualLocation](https://github.com/pengliangAndroid/VirtualLocation)
 * [https://github.com/virjarRatel/ratelvirtuallocation](https://github.com/virjarRatel/ratelvirtuallocation)
 * [https://github.com/bigsinger/fakegps](https://github.com/bigsinger/fakegps)
+* [https://github.com/liujiayu5566/MockGps](https://github.com/liujiayu5566/MockGps)
+* 模拟定位检测 [https://github.com/kamaravichow/mockcheck-android](https://github.com/kamaravichow/mockcheck-android)
+* [https://github.com/GantMan/jail-monkey](https://github.com/GantMan/jail-monkey)
+
+
+**免ROOT**
+
+* [https://github.com/asLody](https://github.com/asLody)
+    * [https://github.com/ServenScorpion/VirtualApp11](https://github.com/ServenScorpion/VirtualApp11)
+* [https://github.com/nnjun/BlackBox/network/members](https://github.com/nnjun/BlackBox/network/members)
+* [https://github.com/2-young-2-simple/VirtualApp](https://github.com/2-young-2-simple/VirtualApp)
+* [https://github.com/didi/VirtualAPK](https://github.com/didi/VirtualAPK)
+* [https://github.com/android-hacker](https://github.com/android-hacker)
+* [https://github.com/tiann/epic](https://github.com/tiann/epic)
+    * [http://weishu.me/archives](http://weishu.me/archives)
+    * 钉钉模块 [https://github.com/anysoft/xposed-rimet](https://github.com/anysoft/xposed-rimet)
+    * [https://github.com/sky-wei/xposed-rimet](https://github.com/sky-wei/xposed-rimet)
+* 太极 [https://github.com/taichi-framework](https://github.com/taichi-framework)
+    * [https://github.com/Magisk-Modules-Repo](https://github.com/Magisk-Modules-Repo)
+    * [https://github.com/artharyoung/TaiChi-ModuleList](https://github.com/artharyoung/TaiChi-ModuleList)
+* [https://github.com/PAGalaxyLab/YAHFA](https://github.com/PAGalaxyLab/YAHFA)
+* [https://github.com/turing-technician](https://github.com/turing-technician)
++ 安卓上的安卓模拟器 [http://www.vmos.cn](http://www.vmos.cn)
+    + [https://github.com/Flytreels/vpro-romedit](https://github.com/Flytreels/vpro-romedit)
+    + [https://github.com/you2032/Pure-ROM](https://github.com/you2032/Pure-ROM)
+
 
 
 
@@ -493,6 +500,7 @@
 - [https://github.com/rumboalla/apkupdater](https://github.com/rumboalla/apkupdater)
 - [https://gitlab.com/AuroraOSS/AuroraStore](https://gitlab.com/AuroraOSS/AuroraStore)
 - [https://github.com/yeriomin/YalpStore](https://github.com/yeriomin/YalpStore)
+- [https://gitlab.com/AuroraOSS/auroradroid](https://gitlab.com/AuroraOSS/auroradroid)
 
 
 * see [https://caij.coding.net/public](https://caij.coding.net/public)

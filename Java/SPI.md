@@ -22,19 +22,26 @@
 
 
 
-**热插拔/热加载/热部署/热更新**
+**热插拔/热加载/热部署/热更新/HotSwap**
 
 * [https://www.jrebel.com/products/jrebel/download](https://www.jrebel.com/products/jrebel/download)
     * [http://jrebel.cicoding.cn](http://jrebel.cicoding.cn)
     * [http://jrebel.cicoding.cn/guid](http://jrebel.cicoding.cn/guid)
 * [https://github.com/spring-projects/spring-loaded](https://github.com/spring-projects/spring-loaded)
 * [https://github.com/HotswapProjects](https://github.com/HotswapProjects)
+    * [https://github.com/TravaOpenJDK](https://github.com/TravaOpenJDK)
 * [https://github.com/dcevm](https://github.com/dcevm)
     * [https://ssw.jku.at/dcevm](https://ssw.jku.at/dcevm)
-* [https://github.com/TravaOpenJDK](https://github.com/TravaOpenJDK)
 * [https://github.com/fakereplace](https://github.com/fakereplace)
 * [https://github.com/jmarranz/relproxy](https://github.com/jmarranz/relproxy)
 * [https://github.com/cm4j](https://github.com/cm4j)
+
+
+- [https://github.com/dmitry-zhuravlev/hotswap-agent-intellij-plugin#solution](https://github.com/dmitry-zhuravlev/hotswap-agent-intellij-plugin#solution)
+- [深入探索 Java 热部署](https://mp.weixin.qq.com/s/ydupBExb2LLhtC2ZuBsInA)
+- [java热更新class如何实现？](https://segmentfault.com/q/1010000041393137)
+- [Java的类加载机制及热部署的原理](https://blog.csdn.net/qq_36434742/article/details/117227309)
+
 
 
 

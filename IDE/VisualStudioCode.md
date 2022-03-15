@@ -32,6 +32,7 @@
     - [https://github.com/langserver/langserver.github.io](https://github.com/langserver/langserver.github.io)
 - [https://github.com/Microsoft/debug-adapter-protocol](https://github.com/Microsoft/debug-adapter-protocol)
 - [https://github.com/Microsoft/vscode-debugadapter-node](https://github.com/Microsoft/vscode-debugadapter-node)
+- [https://github.com/sublimelsp/LSP](https://github.com/sublimelsp/LSP)
 
 
 

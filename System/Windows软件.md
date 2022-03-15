@@ -322,6 +322,8 @@
 
 - [https://cue-splitter.medieval.it](https://cue-splitter.medieval.it)
 - [http://www.medieval.it/cuesplitter-pc/menu-id-71.html](http://www.medieval.it/cuesplitter-pc/menu-id-71.html)
+- 编码解码器 [https://www.free-codecs.com](https://www.free-codecs.com)
+
 
 * [foobar2000](http://blog.sina.com.cn/go2spa)
 * [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
@@ -385,6 +387,7 @@
 * [https://www.nvidia.com/en-us/geforce/geforce-experience/shadowplay](https://www.nvidia.com/en-us/geforce/geforce-experience/shadowplay)
 * [https://www.nvidia.cn/geforce/geforce-experience/shadowplay](https://www.nvidia.cn/geforce/geforce-experience/shadowplay)
 * EVCapture [https://www.ieway.cn/evcapture.html](https://www.ieway.cn/evcapture.html)
+* ZD Screen Recorder [http://www.zdsoft.com](http://www.zdsoft.com)
 
 
 
@@ -404,7 +407,9 @@
 - [https://eagle.cool](https://eagle.cool)
 - [https://www.hellofont.cn](https://www.hellofont.cn)
 - 必应壁纸 [https://www.microsoft.com/zh-cn/bing/bing-wallpaper-msn](https://www.microsoft.com/zh-cn/bing/bing-wallpaper-msn)
-
+- [https://www.wallpaperengine.io](https://www.wallpaperengine.io)
+- [https://www.rainmeter.net](https://www.rainmeter.net)
+    - [https://zhutix.com/tag/rainmeter](https://zhutix.com/tag/rainmeter)
 
 
 
@@ -412,6 +417,7 @@
 
 * [由微博大神@vposy制作Adobe全系列](https://weibo.com/vposy?is_hot=1)
 * [Adobe软件单独下载方法-官方](https://sleele.com/2019/05/05/adobe/)
+* [https://github.com/webmproject/WebPShop](https://github.com/webmproject/WebPShop)
 
 
 
@@ -445,6 +451,7 @@
 * [https://github.com/Snipaste](https://github.com/Snipaste)
     * [https://www.snipaste.com](https://www.snipaste.com)
 * [https://picpick.app/zh/download](https://picpick.app/zh/download)
+* HyperSnap [https://www.hyperionics.com](https://www.hyperionics.com)
 
 
 **FastStone Capture**
