@@ -421,6 +421,8 @@ public static void createInstanceSetter(Class<?> clazz) {
 + `-vmargs -DproxySet=true -DproxyHost=aProxyAddress -DproxyPort=aProxyPort` 启动代理参数
 
 - SVN [https://github.com/subclipse](https://github.com/subclipse)
+    - [http://subversion.apache.org/packages.html](http://subversion.apache.org/packages.html)
+    - Subversion for Java [https://svnkit.com](https://svnkit.com)
 
 
 **反编译Decompiler**

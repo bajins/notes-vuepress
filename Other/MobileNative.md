@@ -271,6 +271,7 @@
 + [归档 | Homurax's Blog](https://blog.homurax.com/archives)
 + [Android：JNI 与 NDK到底是什么？](https://blog.csdn.net/carson_ho/article/details/73250163)
 + 进程保活 [https://github.com/peakerlu/appkeepLive](https://github.com/peakerlu/appkeepLive)
++ [「安卓果酱」存档](https://cn.apkjam.com/archives)
 
 
 + adb和fastboot [https://github.com/fast-geek/Android-Tool](https://github.com/fast-geek/Android-Tool)
@@ -350,6 +351,13 @@
 * [https://github.com/liujiayu5566/MockGps](https://github.com/liujiayu5566/MockGps)
 * 模拟定位检测 [https://github.com/kamaravichow/mockcheck-android](https://github.com/kamaravichow/mockcheck-android)
 * [https://github.com/GantMan/jail-monkey](https://github.com/GantMan/jail-monkey)
+* 阻止运行 [https://www.coolapk.com/apk/me.piebridge.forcestopgb](https://www.coolapk.com/apk/me.piebridge.forcestopgb)
+* 黑白门 [https://www.coolapk.com/apk/com.example.bwappdoor](https://www.coolapk.com/apk/com.example.bwappdoor)
+* Greenify绿色守护 [https://www.coolapk.com/apk/com.oasisfeng.greenify](https://www.coolapk.com/apk/com.oasisfeng.greenify)
+* 黑阈 [https://www.coolapk.com/apk/me.piebridge.brevent](https://www.coolapk.com/apk/me.piebridge.brevent)
+    * [https://brevent.jianyv.com](https://brevent.jianyv.com)
+    * [https://brevent.sh](https://brevent.sh)
+
 
 
 **免ROOT**
@@ -369,10 +377,22 @@
     * [https://github.com/artharyoung/TaiChi-ModuleList](https://github.com/artharyoung/TaiChi-ModuleList)
 * [https://github.com/PAGalaxyLab/YAHFA](https://github.com/PAGalaxyLab/YAHFA)
 * [https://github.com/turing-technician](https://github.com/turing-technician)
-+ 安卓上的安卓模拟器 [http://www.vmos.cn](http://www.vmos.cn)
-    + [https://github.com/Flytreels/vpro-romedit](https://github.com/Flytreels/vpro-romedit)
-    + [https://github.com/you2032/Pure-ROM](https://github.com/you2032/Pure-ROM)
 
+
+
+**虚拟机**
+
++ [android 12 phantom processes 分析](https://wp.xskydev.com)
++ [安卓12解除进程限制的三种方式](https://mp.weixin.qq.com/s/hzOULTBppD70IyOYYfi_qw)
+
+
+* 虚拟大师VMOS [http://www.vmos.cn](http://www.vmos.cn)
+    * [https://github.com/Flytreels/vpro-romedit](https://github.com/Flytreels/vpro-romedit)
+    * [https://github.com/you2032/Pure-ROM](https://github.com/you2032/Pure-ROM)
+* 光速虚拟机VPhoneGaGa [https://www.gsxnj.cn](https://www.gsxnj.cn)
+    * [https://www.coolapk.com/apk/com.vphonegaga.titan](https://www.coolapk.com/apk/com.vphonegaga.titan)
+* 51虚拟机 [https://51xnj.com](https://51xnj.com)
+* [http://www.eaqiang.com](http://www.eaqiang.com)
 
 
 
@@ -604,6 +624,8 @@
 * [https://github.com/PojavLauncherTeam](https://github.com/PojavLauncherTeam)
 * 1DM/IDM [https://www.apps2sd.info/idmp/faq](https://www.apps2sd.info/idmp/faq)
 * FDM [https://www.freedownloadmanager.org/zh/download-fdm-for-android.htm](https://www.freedownloadmanager.org/zh/download-fdm-for-android.htm)
+* 压缩解压 [http://www.unisapps.com](http://www.unisapps.com)
+* 工具箱 [https://github.com/helloklf/vtools](https://github.com/helloklf/vtools)
 
 
 

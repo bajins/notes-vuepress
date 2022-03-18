@@ -213,6 +213,15 @@ cat /proc/sys/vm/max_map_count
 cat /proc/进程PID/status
 ```
 
+**批量杀掉筛选进程**
+
+- `ps -ef | grep 名称 | grep -v grep | awk '{print $2}' | xargs kill -9`
+- `ps -ef | grep 名称 | grep -v grep | cut -c 9-15 | xargs kill -9`
+
+* [Linux下批量杀掉筛选进程](https://blog.csdn.net/weiyichenlun/article/details/59108463)
+
+
+
 **查看线程树**
 
 > 如果不跟进程PID就查看系统中所有的进行线程树

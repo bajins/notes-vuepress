@@ -102,6 +102,12 @@
 * [https://github.com/halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go)
 * Go泛型入门 [https://github.com/akutz/go-generics-the-hard-way](https://github.com/akutz/go-generics-the-hard-way)
 * 周刊 [https://github.com/polaris1119/golangweekly](https://github.com/polaris1119/golangweekly)
+* [https://gobyexample.com](https://gobyexample.com)
+* [https://golang3.eddycjy.com](https://golang3.eddycjy.com)
+* [https://draveness.me/golang](https://draveness.me/golang)
+* [https://talkgo.org](https://talkgo.org)
+* [https://github.com/golang101/golang101](https://github.com/golang101/golang101)
+* [https://github.com/yongxinz/gopher](https://github.com/yongxinz/gopher)
 
 
 - Go子语言 [https://github.com/chai2010/ugo-compiler-book](https://github.com/chai2010/ugo-compiler-book)
@@ -186,6 +192,7 @@
 * 缓存 [https://github.com/patrickmn/go-cache](https://github.com/patrickmn/go-cache)
 * [https://github.com/bluele/gcache](https://github.com/bluele/gcache)
 * [https://github.com/golang/groupcache](https://github.com/golang/groupcache)
+* [https://github.com/muesli/cache2go](https://github.com/muesli/cache2go)
 * 监视文件或目录更改 [https://github.com/radovskyb/watcher](https://github.com/radovskyb/watcher)
 * 文件监听 [https://github.com/fsnotify/fsnotify](https://github.com/fsnotify/fsnotify)
 * 快速生成ASCII表格 [https://github.com/olekukonko/tablewriter](https://github.com/olekukonko/tablewriter)
@@ -269,6 +276,7 @@
 * gin panic [https://github.com/xkkhy/agave](https://github.com/xkkhy/agave)
 * 特性开关 [https://github.com/markphelps/flipt](https://github.com/markphelps/flipt)
 * [https://github.com/checkr/flagr](https://github.com/checkr/flagr)
+* 分布式唯一ID [https://github.com/yongxinz/id-maker](https://github.com/yongxinz/id-maker)
 
 
 
@@ -292,6 +300,11 @@
 * 实时重新加载 [https://github.com/cosmtrek/air](https://github.com/cosmtrek/air)
     * [Go 每日一库之 air](https://segmentfault.com/a/1190000025186913)
 * [深入理解Go之generate](https://segmentfault.com/a/1190000020158429)
+* [https://github.com/gohouse/converter](https://github.com/gohouse/converter)
+* [https://github.com/Zhwt/yaml-to-go](https://github.com/Zhwt/yaml-to-go)
+* [https://github.com/mholt/json-to-go](https://github.com/mholt/json-to-go)
+* 正则在线测试 [http://regoio.herokuapp.com](http://regoio.herokuapp.com)
+* 接口和结构体UML [https://www.dumels.com](https://www.dumels.com)
 
 
 
