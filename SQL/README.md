@@ -12,6 +12,7 @@
 * [https://github.com/dunwu/db-tutorial](https://github.com/dunwu/db-tutorial)
 * 自学SQL网 [http://xuesql.cn](http://xuesql.cn)
 * 数据库压测 [https://github.com/akopytov/sysbench](https://github.com/akopytov/sysbench)
+* [https://github.com/stcarrez/sql-benchmark](https://github.com/stcarrez/sql-benchmark)
 
 
 **备份/迁移/同步/导入导出**

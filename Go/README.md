@@ -13,7 +13,7 @@
     + 官方的辅助包 [golang.org/x](https://github.com/golang/go/wiki/X-Repositories)
     + [https://golang.com.cn](https://golang.com.cn)
 + [https://go.dev](https://go.dev)
-+ [https://golang.google.cn/dl](https://golang.google.cn/dl)
+    + [https://golang.google.cn/dl](https://golang.google.cn/dl)
     + [https://gomirrors.org](https://gomirrors.org)
     + [https://www.godoc.org](https://www.godoc.org)
     + [https://studygolang.com/dl](https://studygolang.com/dl)
@@ -108,6 +108,7 @@
 * [https://talkgo.org](https://talkgo.org)
 * [https://github.com/golang101/golang101](https://github.com/golang101/golang101)
 * [https://github.com/yongxinz/gopher](https://github.com/yongxinz/gopher)
+* 日报 [https://github.com/bigwhite/gopherdaily](https://github.com/bigwhite/gopherdaily)
 
 
 - Go子语言 [https://github.com/chai2010/ugo-compiler-book](https://github.com/chai2010/ugo-compiler-book)

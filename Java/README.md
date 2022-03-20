@@ -196,6 +196,7 @@
 + [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
     + [下载地址镜像](/Other/README.md#通用镜像)
 + [https://github.com/dromara](https://github.com/dromara)
++ [https://github.com/shulieTech](https://github.com/shulieTech)
 
 
 * [https://github.com/eclipse-ee4j/soteria](https://github.com/eclipse-ee4j/soteria)
@@ -419,6 +420,7 @@
 * [https://github.com/rzwitserloot/lombok](https://github.com/rzwitserloot/lombok)
 * 创建不可变对象 [https://github.com/immutables](https://github.com/immutables)
 * [https://github.com/google/auto](https://github.com/google/auto)
+* [https://github.com/Randgalt/record-builder](https://github.com/Randgalt/record-builder)
 * NBeanCopyUtil采用的是Javassist
 * [https://github.com/javaparser](https://github.com/javaparser)
 * [https://github.com/square/javapoet](https://github.com/square/javapoet)
@@ -607,6 +609,8 @@
 * [https://github.com/rest-assured/rest-assured](https://github.com/rest-assured/rest-assured)
 * [https://github.com/intuit/karate](https://github.com/intuit/karate)
 * [https://github.com/kevin-wang001/mockj](https://github.com/kevin-wang001/mockj)
+* 模糊测试
+* [https://gitlab.com/gitlab-org/security-products/analyzers/fuzzers](https://gitlab.com/gitlab-org/security-products/analyzers/fuzzers)
 
 - [https://github.com/mryingjie/common-insert](https://github.com/mryingjie/common-insert)
 

@@ -26,6 +26,7 @@
 + Linux内核模块编程指南 [https://github.com/sysprog21/lkmpg](https://github.com/sysprog21/lkmpg)
 + [http://www.linux-commands-examples.com](http://www.linux-commands-examples.com)
 + [https://github.com/abarrak/linux-sysops-handbook](https://github.com/abarrak/linux-sysops-handbook)
++ [https://github.com/leezhenghui/leezhenghui.github.io](https://github.com/leezhenghui/leezhenghui.github.io)
 
 
 * [vi命令（vi编辑器）](http://c.biancheng.net/vi)

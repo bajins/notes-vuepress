@@ -387,6 +387,7 @@
 
 
 * 虚拟大师VMOS [http://www.vmos.cn](http://www.vmos.cn)
+    * [https://www.coolapk.com/apk/com.vmos.pro](https://www.coolapk.com/apk/com.vmos.pro)
     * [https://github.com/Flytreels/vpro-romedit](https://github.com/Flytreels/vpro-romedit)
     * [https://github.com/you2032/Pure-ROM](https://github.com/you2032/Pure-ROM)
 * 光速虚拟机VPhoneGaGa [https://www.gsxnj.cn](https://www.gsxnj.cn)
@@ -576,6 +577,7 @@
 + [https://htcui.com](https://htcui.com)
 + [https://fsylr.com](https://fsylr.com)
 + [https://www.vxat.com](https://www.vxat.com)
++ [https://www.lxapk.com](https://www.lxapk.com)
 + [https://forum.release-apk.com/viewforum.php?f=5](https://forum.release-apk.com/viewforum.php?f=5)
     + [https://forum.release-apk.com/tag/downloader](https://forum.release-apk.com/tag/downloader)
 + [https://patch.chelpus.com](https://patch.chelpus.com)

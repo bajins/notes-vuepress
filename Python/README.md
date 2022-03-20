@@ -133,6 +133,9 @@ with Test() as t: # 触发__exit__
 * [https://github.com/astanin/python-tabulate](https://github.com/astanin/python-tabulate)
 * SQLModel模型 [https://github.com/tiangolo/sqlmodel](https://github.com/tiangolo/sqlmodel)
 * 串口 [https://github.com/pyserial/pyserial](https://github.com/pyserial/pyserial)
+* 模糊测试 [https://github.com/google/clusterfuzz](https://github.com/google/clusterfuzz)
+* [https://github.com/jtpereyda/boofuzz](https://github.com/jtpereyda/boofuzz)
+* [https://github.com/nccgroup/fuzzowski](https://github.com/nccgroup/fuzzowski)
 
 
 
@@ -250,6 +253,7 @@ with Test() as t: # 触发__exit__
 * [https://github.com/babysor/Realtime-Voice-Clone-Chinese](https://github.com/babysor/Realtime-Voice-Clone-Chinese)
 * [https://github.com/babysor/MockingBird](https://github.com/babysor/MockingBird)
 * 视频抠图 [https://github.com/PeterL1n/RobustVideoMatting](https://github.com/PeterL1n/RobustVideoMatting)
+* [https://github.com/senguptaumd/Background-Matting](https://github.com/senguptaumd/Background-Matting)
 * 提高分辨率 [https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement)
 * [https://github.com/CompVis/latent-diffusion](https://github.com/CompVis/latent-diffusion)
 * 换脸 [https://github.com/iperov/DeepFaceLab](https://github.com/iperov/DeepFaceLab)
