@@ -6,13 +6,14 @@
 
 ## Flag
 
+> [是时候给大家介绍 Spring Boot/Cloud 背后豪华的研发团队了](https://github.com/ityouknow/ityouknow.github.io/blob/master/_posts/2019/releases/2019-01-03-spring-pivotal.md)
+
 + [https://github.com/topics/spring](https://github.com/topics/spring)
 + [https://github.com/topics/spring-boot](https://github.com/topics/spring-boot)
 + [https://github.com/topics/spring-cloud](https://github.com/topics/spring-cloud)
 
 * [https://github.com/spring-projects](https://github.com/spring-projects)
     * [https://spring.io/projects](https://spring.io/projects)
-    * Spring Tools 4 [https://github.com/spring-projects/sts4](https://github.com/spring-projects/sts4)
 * [https://github.com/spring-guides](https://github.com/spring-guides)
 * 应用监控 [https://github.com/codecentric/spring-boot-admin](https://github.com/codecentric/spring-boot-admin)
 + [https://github.com/Nepxion](https://github.com/Nepxion)

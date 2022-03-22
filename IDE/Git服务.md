@@ -71,6 +71,7 @@
 * [https://git.code.tencent.com](https://git.code.tencent.com)
 * [https://pagure.io](https://pagure.io)
 * [https://framagit.org](https://framagit.org)
+* [https://git.hit.edu.cn](https://git.hit.edu.cn)
 * 软件相似度比较 [https://copycat.gitee.com](https://copycat.gitee.com)
 
 
@@ -109,6 +110,7 @@
 * clone所有项目 [https://github.com/huchao1009/gitlab-projects-clone](https://github.com/huchao1009/gitlab-projects-clone)
 * [https://git.openldap.org](https://git.openldap.org)
 * [https://gitlab.com/gitlab-org/gitlab-runner](https://gitlab.com/gitlab-org/gitlab-runner)
+
 
 
 ```yml

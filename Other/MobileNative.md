@@ -172,6 +172,7 @@
 
 > Bloc、Hook、less/ful、GetX，不同的状态管理方案
 
+* [https://github.com/OpenFlutter](https://github.com/OpenFlutter)
 * [https://github.com/mitesh77/Best-Flutter-UI-Templates](https://github.com/mitesh77/Best-Flutter-UI-Templates)
 * 动态化框架 [https://github.com/wuba/fair](https://github.com/wuba/fair)
 * [https://github.com/ddikman/flutter-rerunnable-future-builder](https://github.com/ddikman/flutter-rerunnable-future-builder)
@@ -186,6 +187,7 @@
 * css转Flutter [https://github.com/drawcall/c2f](https://github.com/drawcall/c2f)
 * [https://github.com/leoafarias/fvm](https://github.com/leoafarias/fvm)
 * 图表 [https://github.com/entronad/graphic](https://github.com/entronad/graphic)
+* 自动启动 [https://github.com/leanflutter/launch_at_startup](https://github.com/leanflutter/launch_at_startup)
 
 
 - 干货 [https://github.com/fujianlian/GankFlutter](https://github.com/fujianlian/GankFlutter)
@@ -197,6 +199,7 @@
 - [https://github.com/sabernwj/cookiej](https://github.com/sabernwj/cookiej)
 - [https://github.com/DingMouRen/flutter_tiktok](https://github.com/DingMouRen/flutter_tiktok)
 - 音乐播放器 [https://github.com/harmonoid/harmonoid](https://github.com/harmonoid/harmonoid)
+- [https://github.com/waifu-project/movie](https://github.com/waifu-project/movie)
 
 
 **Dart**

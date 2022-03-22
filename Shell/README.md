@@ -163,10 +163,13 @@
 * [https://github.com/topics/ssh2](https://github.com/topics/ssh2)
 * [https://github.com/topics/ssh](https://github.com/topics/ssh)
 * [https://github.com/mskyaxl/wsl-terminal](https://github.com/mskyaxl/wsl-terminal)
+* 主题配色 [https://github.com/mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
+
 
 - [https://github.com/topics/sftp](https://github.com/topics/sftp)
 - [https://github.com/topics/sftp-client](https://github.com/topics/sftp-client)
 - [https://github.com/topics/ftp-client](https://github.com/topics/ftp-client)
+
 
 * [https://github.com/janmojzis/tinyssh](https://github.com/janmojzis/tinyssh)
 * [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
@@ -177,6 +180,8 @@
     * [https://www.openssh.com](https://www.openssh.com)
 * [https://github.com/electerm/electerm](https://github.com/electerm/electerm)
 * [https://github.com/nvbn/thefuck](https://github.com/nvbn/thefuck)
+* [https://github.com/Eugeny/tabby](https://github.com/Eugeny/tabby)
+
 
 - [https://www.termius.com](https://www.termius.com)
 
