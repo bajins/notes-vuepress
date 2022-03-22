@@ -17,6 +17,13 @@
 - [https://www.gnome.org](https://www.gnome.org)
 - 加密覆盖文件系统 [https://github.com/rfjakob/gocryptfs](https://github.com/rfjakob/gocryptfs)
 - 天气卫星 [https://github.com/sam210723/xrit-rx](https://github.com/sam210723/xrit-rx)
+- CCProxy [http://www.ccproxy.com](http://www.ccproxy.com)
+    * [局域内网的服务器利用跳板机访问互联网](https://51.ruyo.net/17717.html)
+    ```
+    序列号：JHEHIHCDDAHC
+    注册码：15f7f78febfaee55afeafefff7cb7fdfb3
+    ```
+
 
 * [有人说超威半导体（AMD）没有512位高级矢量扩展指令集（AVX512），属于残废，是真的吗？](https://www.zhihu.com/question/367281009)
 * [如何看待Linus Torvalds对AVX512的评价？](https://www.zhihu.com/question/406517759)
