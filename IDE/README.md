@@ -18,6 +18,8 @@
 * [https://github.com/VSCodium/vscodium](https://github.com/VSCodium/vscodium)
 * GoIDE [https://github.com/visualfc/liteide](https://github.com/visualfc/liteide)
 * [https://sourceforge.net/projects/liteide](https://sourceforge.net/projects/liteide)
+* [https://github.com/lapce](https://github.com/lapce)
+
 
 - 代码搜索和替换 [https://github.com/comby-tools/comby](https://github.com/comby-tools/comby)
 - [https://github.com/dsznajder/vscode-es7-javascript-react-snippets](https://github.com/dsznajder/vscode-es7-javascript-react-snippets)
