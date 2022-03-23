@@ -39,6 +39,19 @@
 - [https://www.iobit.com/en/driver-booster.php](https://www.iobit.com/en/driver-booster.php)
 
 
+**Windows11右键菜单**
+
+```batch
+:: 恢复Win10右键菜单
+reg add HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32 /f /ve
+:: 恢复Win11右键菜单
+reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /va /f
+:: 在任务管理器中，重启资源管理器
+taskkill /f /im explorer.exe & start explorer.exe
+```
+
+* [Windows 11 Classic Context menu](https://www.sordum.org/14479/windows-11-classic-context-menu-v1-1)
+
 
 **软件配置注册表**
 
