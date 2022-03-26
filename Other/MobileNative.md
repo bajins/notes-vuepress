@@ -284,6 +284,7 @@
 + [https://github.com/waydroid/waydroid](https://github.com/waydroid/waydroid)
 + [解决雷电/夜神/逍遥模拟器系统5.1以上无法抓包的问题](https://www.52pojie.cn/thread-1505329-1-1.html)
 + PC显示和控制 [https://github.com/Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)
+    + [https://github.com/Tomotoes/scrcpy-gui](https://github.com/Tomotoes/scrcpy-gui)
 
 
 
@@ -336,6 +337,7 @@
 * [https://github.com/LSPosed](https://github.com/LSPosed)
     * [https://github.com/Xposed-Modules-Repo](https://github.com/Xposed-Modules-Repo)
     * [https://github.com/ThePieMonster/HideMockLocation](https://github.com/ThePieMonster/HideMockLocation)
+    * [https://www.ghxi.com/lsposed.html](https://www.ghxi.com/lsposed.html)
 * BugHook（应用转生）
 * Xpatch
 * SPatch（天鉴）
@@ -360,6 +362,9 @@
 * 黑阈 [https://www.coolapk.com/apk/me.piebridge.brevent](https://www.coolapk.com/apk/me.piebridge.brevent)
     * [https://brevent.jianyv.com](https://brevent.jianyv.com)
     * [https://brevent.sh](https://brevent.sh)
+* [Fuck Shell脱壳工具使用方法](https://www.bilibili.com/video/av56970799)
+    * [https://www.lanzoui.com/i4qkz9e](https://www.lanzoui.com/i4qkz9e)
+* 反射大师
 
 
 
@@ -380,6 +385,7 @@
     * [https://github.com/artharyoung/TaiChi-ModuleList](https://github.com/artharyoung/TaiChi-ModuleList)
 * [https://github.com/PAGalaxyLab/YAHFA](https://github.com/PAGalaxyLab/YAHFA)
 * [https://github.com/turing-technician](https://github.com/turing-technician)
+* 黑盒 [https://github.com/black-binary/BlackBox](https://github.com/black-binary/BlackBox)
 
 
 
@@ -393,6 +399,7 @@
     * [https://www.coolapk.com/apk/com.vmos.pro](https://www.coolapk.com/apk/com.vmos.pro)
     * [https://github.com/Flytreels/vpro-romedit](https://github.com/Flytreels/vpro-romedit)
     * [https://github.com/you2032/Pure-ROM](https://github.com/you2032/Pure-ROM)
+    * [https://www.ghxi.com/vmospro.html](https://www.ghxi.com/vmospro.html)
 * 光速虚拟机VPhoneGaGa [https://www.gsxnj.cn](https://www.gsxnj.cn)
     * [https://www.coolapk.com/apk/com.vphonegaga.titan](https://www.coolapk.com/apk/com.vphonegaga.titan)
 * 51虚拟机 [https://51xnj.com](https://51xnj.com)

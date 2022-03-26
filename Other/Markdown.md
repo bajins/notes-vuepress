@@ -535,4 +535,5 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/evernote](https://github.com/evernote)
 * [https://github.com/zadam/trilium](https://github.com/zadam/trilium)
 * [https://github.com/flxzt/rnote](https://github.com/flxzt/rnote)
+* [https://github.com/pbek/QOwnNotes](https://github.com/pbek/QOwnNotes)
 

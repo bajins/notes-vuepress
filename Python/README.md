@@ -297,6 +297,7 @@ with Test() as t: # 触发__exit__
 * [https://github.com/miaomiaosoft/PandaOCR](https://github.com/miaomiaosoft/PandaOCR)
 * [https://github.com/WenmuZhou/PytorchOCR](https://github.com/WenmuZhou/PytorchOCR)
 * [https://github.com/microsoft/unilm](https://github.com/microsoft/unilm)
+* 语音识别 [github.com/microsoft/NeuralSpeech](github.com/microsoft/NeuralSpeech)
 
 
 

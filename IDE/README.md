@@ -24,6 +24,7 @@
 - 代码搜索和替换 [https://github.com/comby-tools/comby](https://github.com/comby-tools/comby)
 - [https://github.com/dsznajder/vscode-es7-javascript-react-snippets](https://github.com/dsznajder/vscode-es7-javascript-react-snippets)
 - 工具 [https://github.com/864381832/xJavaFxTool](https://github.com/864381832/xJavaFxTool)
+- [https://github.com/baiy/Ctool](https://github.com/baiy/Ctool)
 - WakaTime [https://github.com/muety/wakapi](https://github.com/muety/wakapi)
 - 代码补全AI [https://github.com/codota/tabnine](https://github.com/codota/tabnine)
     - [https://www.tabnine.com](https://www.tabnine.com)

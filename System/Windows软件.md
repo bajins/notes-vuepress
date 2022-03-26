@@ -110,6 +110,7 @@
 - [https://github.com/irssi/irssi](https://github.com/irssi/irssi)
 - [https://github.com/fonoster/fonoster](https://github.com/fonoster/fonoster)
 - 视频会议 [https://github.com/OpenVidu](https://github.com/OpenVidu)
+- Instagram [https://github.com/jigar-sable/instagram-mern](https://github.com/jigar-sable/instagram-mern)
 
 
 **Telegram**

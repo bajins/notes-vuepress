@@ -11,6 +11,7 @@
     + [https://github.com/johnrengelman/shadow](https://github.com/johnrengelman/shadow)
     + 自定义运行时映像 [https://github.com/beryx](https://github.com/beryx)
     + 创建支持包重定位 [https://github.com/johnrengelman/shadow](https://github.com/johnrengelman/shadow)
+    + [https://github.com/Omico/Gradm](https://github.com/Omico/Gradm)
 + [https://github.com/package-url](https://github.com/package-url)
 + [https://github.com/topics/bazel](https://github.com/topics/bazel)
 + [https://github.com/bazelbuild](https://github.com/bazelbuild)

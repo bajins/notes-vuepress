@@ -735,6 +735,7 @@
 
 
 
+- [https://github.com/dustinkredmond](https://github.com/dustinkredmond)
 - [https://github.com/FXMisc](https://github.com/FXMisc)
 - SVG [https://github.com/blackears/svgSalamander](https://github.com/blackears/svgSalamander)
 - [https://github.com/piusalfred/ikonfx](https://github.com/piusalfred/ikonfx)
@@ -765,7 +766,6 @@
 - [https://github.com/kirill-grouchnikov/radiance](https://github.com/kirill-grouchnikov/radiance)
 - 无边框窗口 [https://github.com/micheljung/fxstage](https://github.com/micheljung/fxstage)
 - [https://github.com/micheljung/jfx-waitomo-theme](https://github.com/micheljung/jfx-waitomo-theme)
-- 对话框 [https://github.com/dustinkredmond/FXAlert](https://github.com/dustinkredmond/FXAlert)
 - 数据框可视化 [https://github.com/PatMartin/Dex](https://github.com/PatMartin/Dex)
 - 校验 [https://github.com/effad/ValidatorFX](https://github.com/effad/ValidatorFX)
 
