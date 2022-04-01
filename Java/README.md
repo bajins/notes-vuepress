@@ -212,6 +212,7 @@
 * [https://github.com/topics/elasticsearch](https://github.com/topics/elasticsearch)
     * [https://github.com/elastic/elasticsearch](https://github.com/elastic/elasticsearch)
     * elasticsearch开源替代 [https://github.com/opensearch-project](https://github.com/opensearch-project)
+    * [https://github.com/arkime/arkime](https://github.com/arkime/arkime)
 * [https://github.com/apache/lucene-solr](https://github.com/apache/lucene-solr)
 * [https://gitee.com/jd-platform-opensource/hotkey](https://gitee.com/jd-platform-opensource/hotkey)
 * [https://sourceforge.net/projects/jsch](https://sourceforge.net/projects/jsch)

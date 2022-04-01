@@ -463,6 +463,11 @@
 - 删除当前类所有元素上的 javadocs：请按 shift + ctrl + alt + Z。
 
 
+## easy_javadoc
+
+* [https://github.com/starcwang/easy_javadoc](https://github.com/starcwang/easy_javadoc)
+
+
 ## Grep Console
 
 > 让 Console 日志有颜色，可以对 trace，debug，info，warn，error 配置不同的颜色

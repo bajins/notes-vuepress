@@ -127,7 +127,6 @@
 * [https://www.razorsql.com](https://www.razorsql.com)
 * [https://www.aquafold.com](https://www.aquafold.com)
 * [https://github.com/TablePlus](https://github.com/TablePlus)
-* [https://github.com/metabase/metabase](https://github.com/metabase/metabase)
 * [https://github.com/trinodb/trino](https://github.com/trinodb/trino)
 * [https://github.com/ocelot-inc/ocelotgui](https://github.com/ocelot-inc/ocelotgui)
 * [https://github.com/beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)

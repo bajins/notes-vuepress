@@ -408,6 +408,7 @@ try {
 + [https://github.com/siaorg/sia-gateway](https://github.com/siaorg/sia-gateway)
 + 日志收集 [https://github.com/apache/flume](https://github.com/apache/flume)
     + [https://flume.liyifeng.org](https://flume.liyifeng.org)
++ [https://github.com/fayechenlong/plumelog](https://github.com/fayechenlong/plumelog)
 
 
 

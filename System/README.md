@@ -23,6 +23,7 @@
     序列号：JHEHIHCDDAHC
     注册码：15f7f78febfaee55afeafefff7cb7fdfb3
     ```
+- MAC取证 [https://github.com/jipegit/OSXAuditor](https://github.com/jipegit/OSXAuditor)
 
 
 * [有人说超威半导体（AMD）没有512位高级矢量扩展指令集（AVX512），属于残废，是真的吗？](https://www.zhihu.com/question/367281009)

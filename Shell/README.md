@@ -175,6 +175,7 @@
 * [https://github.com/janmojzis/tinyssh](https://github.com/janmojzis/tinyssh)
 * [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
 * [https://github.com/nxshell](https://github.com/nxshell)
+    * [https://sourceforge.net/projects/nxshell](https://sourceforge.net/projects/nxshell)
 * [https://github.com/HaleyWang/SpringRemote](https://github.com/HaleyWang/SpringRemote)
 * OpenSSH [https://github.com/openssl](https://github.com/openssl)
 * [https://github.com/sfackler/rust-openssl](https://github.com/sfackler/rust-openssl)

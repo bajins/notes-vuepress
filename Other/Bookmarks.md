@@ -418,6 +418,9 @@
 * [https://github.com/2227324689](https://github.com/2227324689)
     * [https://2227324689.github.io](https://2227324689.github.io)
 * [https://xiaoflyfish.cn](https://xiaoflyfish.cn)
+* [归档|Nanyin's Blog](https://nanyiniu.github.io/archives)
+* [归档 | gudqs7's note](https://gudqs7.github.io/archives)
+
 
 
 ### Go
