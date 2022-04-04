@@ -60,6 +60,7 @@
 
 - 网易云播放器 [https://github.com/qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic)
 - [https://github.com/listen1](https://github.com/listen1)
+- [https://github.com/ciderapp/Cider](https://github.com/ciderapp/Cider)
 
 
 **多语言UI框架**
@@ -347,7 +348,8 @@
 * [https://github.com/avs333/Nougat_dlfunctions](https://github.com/avs333/Nougat_dlfunctions)
 * [https://github.com/monkeylord/XServer](https://github.com/monkeylord/XServer)
 * [https://github.com/Mocha-L/QuJing](https://github.com/Mocha-L/QuJing)
-* 虚拟定位 [https://github.com/Lerist/FakeLocation](https://github.com/Lerist/FakeLocation)
+* 虚拟定位 [https://github.com/M66B/XPrivacyLua](https://github.com/M66B/XPrivacyLua)
+* [https://github.com/Lerist/FakeLocation](https://github.com/Lerist/FakeLocation)
 * [https://github.com/WaterlooBridge/FakeLocation](https://github.com/WaterlooBridge/FakeLocation)
 * [https://github.com/Mikotwa/FuckLocation](https://github.com/Mikotwa/FuckLocation)
 * [https://github.com/pengliangAndroid/VirtualLocation](https://github.com/pengliangAndroid/VirtualLocation)
@@ -456,6 +458,7 @@
 * [Android-FFmpeg开源库使用及图片压缩开源工具使用](https://www.jianshu.com/p/e960854d3705)
 * 查看包差异 [https://github.com/JakeWharton/diffuse](https://github.com/JakeWharton/diffuse)
 * 使用SQLite [https://github.com/guolindev/LitePal](https://github.com/guolindev/LitePal)
+* [https://github.com/requery/sqlite-android](https://github.com/requery/sqlite-android)
 * 反射 [https://github.com/tiann/FreeReflection](https://github.com/tiann/FreeReflection)
 * [https://github.com/linkedin/dexmaker](https://github.com/linkedin/dexmaker)
 * [https://github.com/Dsiner/UIUtil](https://github.com/Dsiner/UIUtil)
@@ -479,6 +482,7 @@
 * [https://github.com/navit-gps/navit](https://github.com/navit-gps/navit)
 * [https://gitlab.freedesktop.org/geoclue/geoclue](https://gitlab.freedesktop.org/geoclue/geoclue)
 * 图片下载和缓存 [https://github.com/square/picasso](https://github.com/square/picasso)
+* 串口 [https://github.com/GeekBugs/Android-SerialPort](https://github.com/GeekBugs/Android-SerialPort)
 
 
 

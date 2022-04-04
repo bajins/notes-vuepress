@@ -246,6 +246,7 @@
 * excel [https://github.com/360EntSecGroup-Skylar/excelize](https://github.com/360EntSecGroup-Skylar/excelize)
 * Quoted-printable [https://github.com/sloonz/go-qprintable](https://github.com/sloonz/go-qprintable)
 * GUI [https://github.com/visualfc/atk](https://github.com/visualfc/atk)
+* [https://github.com/vugu/vugu](https://github.com/vugu/vugu)
 * 测试 [https://github.com/sclevine/spec](https://github.com/sclevine/spec)
 * [https://github.com/onsi/ginkgo](https://github.com/onsi/ginkgo)
 * WebSocket [https://github.com/gorilla/websocket](https://github.com/gorilla/websocket)

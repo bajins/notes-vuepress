@@ -252,6 +252,7 @@ with Test() as t: # 触发__exit__
 * 实时语音克隆 [https://github.com/CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
 * [https://github.com/babysor/Realtime-Voice-Clone-Chinese](https://github.com/babysor/Realtime-Voice-Clone-Chinese)
 * [https://github.com/babysor/MockingBird](https://github.com/babysor/MockingBird)
+* [https://github.com/cnlinxi/book-text-to-speech](https://github.com/cnlinxi/book-text-to-speech)
 * 视频抠图 [https://github.com/PeterL1n/RobustVideoMatting](https://github.com/PeterL1n/RobustVideoMatting)
 * [https://github.com/senguptaumd/Background-Matting](https://github.com/senguptaumd/Background-Matting)
 * 提高分辨率 [https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement)
@@ -267,6 +268,7 @@ with Test() as t: # 触发__exit__
 - 动手学深度学习 [https://github.com/d2l-ai](https://github.com/d2l-ai)
 - 视频感知 [https://github.com/open-mmlab/mmtracking](https://github.com/open-mmlab/mmtracking)
 - [https://github.com/scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)
+- 数据管道 [https://github.com/orchest](https://github.com/orchest)
 
 
 **OCR**

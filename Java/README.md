@@ -211,7 +211,7 @@
 * [https://github.com/vectorizedio/redpanda](https://github.com/vectorizedio/redpanda)
 * [https://github.com/topics/elasticsearch](https://github.com/topics/elasticsearch)
     * [https://github.com/elastic/elasticsearch](https://github.com/elastic/elasticsearch)
-    * elasticsearch开源替代 [https://github.com/opensearch-project](https://github.com/opensearch-project)
+    * 开源替代 [https://github.com/opensearch-project](https://github.com/opensearch-project)
     * [https://github.com/arkime/arkime](https://github.com/arkime/arkime)
 * [https://github.com/apache/lucene-solr](https://github.com/apache/lucene-solr)
 * [https://gitee.com/jd-platform-opensource/hotkey](https://gitee.com/jd-platform-opensource/hotkey)
@@ -276,11 +276,14 @@
 + [https://github.com/netty/netty](https://github.com/netty/netty)
 + [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
 + [https://github.com/TooTallNate/Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket)
++ [https://github.com/smallrye](https://github.com/smallrye)
 + Web框架 [https://github.com/perwendel/spark](https://github.com/perwendel/spark)
 + [https://github.com/topics/shiro](https://github.com/topics/shiro)
     + [https://github.com/johntostring/spring-boot-shiro](https://github.com/johntostring/spring-boot-shiro)
     + [https://github.com/YuxingXie/shiro](https://github.com/YuxingXie/shiro)
 + [https://github.com/resteasy](https://github.com/resteasy)
++ [https://github.com/vaadin](https://github.com/vaadin)
++ [https://sourceforge.net/projects/openxava](https://sourceforge.net/projects/openxava)
 + 简单的Web框架 [https://github.com/javalin](https://github.com/javalin)
 + 工作流框架 [https://github.com/Activiti/Activiti](https://github.com/Activiti/Activiti)
     + [https://github.com/henryyan/activiti-in-action-codes](https://github.com/henryyan/activiti-in-action-codes)
@@ -296,7 +299,6 @@
     + [https://gitee.com/minbox-projects](https://gitee.com/minbox-projects)
 + [https://github.com/microprofile](https://github.com/microprofile)
     + [https://microprofile.io](https://microprofile.io)
-+ [https://github.com/vaadin](https://github.com/vaadin)
 + [https://github.com/OpenLiberty](https://github.com/OpenLiberty)
 
 
@@ -312,6 +314,7 @@
     * [https://github.com/logstash/logstash-logback-encoder](https://github.com/logstash/logstash-logback-encoder)
     * [https://github.com/YLongo/logback-chinese-manual](https://github.com/YLongo/logback-chinese-manual)
     * [http://www.logback.cn](http://www.logback.cn)
+    * [Spring框架下异步日志收集及验证是否生效](https://wangbaiyuan.cn/verify-effectiveness-of-asynchronous-log-collection-under-spring-framework.html)
 
 
 

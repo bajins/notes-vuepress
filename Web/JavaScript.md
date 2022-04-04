@@ -204,6 +204,7 @@ var express = require('express');
 
 * [https://github.com/ReactiveX/rxjs](https://github.com/ReactiveX/rxjs)
 * [https://github.com/jashkenas/coffeescript](https://github.com/jashkenas/coffeescript)
+    * [编译成 JS 的语言列表](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS)
 * [https://github.com/observablehq](https://github.com/observablehq)
 * [https://github.com/documentcloud](https://github.com/documentcloud)
 * 模板引擎 [https://github.com/handlebars-lang](https://github.com/handlebars-lang)

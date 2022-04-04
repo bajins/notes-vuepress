@@ -117,6 +117,7 @@
 * [https://github.com/lltx](https://github.com/lltx)
 * [https://github.com/halfrost](https://github.com/halfrost)
 * [https://github.com/changkun](https://github.com/changkun)
+* [https://github.com/chinanf-boy](https://github.com/chinanf-boy)
 * [https://github.com/waylau](https://github.com/waylau)
     * [Archive | waylau.com](https://waylau.com/archive)
     * [Books | waylau.com](https://waylau.com/books)
@@ -455,7 +456,10 @@
 * [归档 | Djaigo blog](https://blog.djaigo.com/archives)
 * [https://github.com/wweir/wweir.github.io](https://github.com/wweir/wweir.github.io)
 * [归档 | 李文周的博客](https://www.liwenzhou.com/archives)
-
+* [https://github.com/cyningsun/cyningsun.github.io](https://github.com/cyningsun/cyningsun.github.io)
+    * [https://www.cyningsun.com/archives](https://www.cyningsun.com/archives)
+* [归档 | 阿然的博客](https://www.gocode.top/archives)
+    * [https://github.com/chinaran](https://github.com/chinaran)
 
 
 ### Web
