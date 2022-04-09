@@ -26,8 +26,11 @@
 - [PowerShell入门指南(二)·挑战CMD和Bash的PowerShell](https://zhuanlan.zhihu.com/p/60798130)
 - [PowerShell入门指南(三)·一门新的编程语言](https://zhuanlan.zhihu.com/p/76708298)
 - [PowerShell提速和多线程](https://www.pstips.net/speeding-up-powershell-multithreading.html)
+- [PowerShell - 随笔分类 - 门前有根大呲花 - 博客园](https://www.cnblogs.com/MerLin-LiuNian/category/2027025.html)
 - WMIC 已弃用替代品 [Get-WmiObject](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.management/get-wmiobject)
 - WMIC 已弃用替代品 [Get-CimInstance](https://docs.microsoft.com/zh-cn/powershell/module/cimcmdlets/get-ciminstance)
+- [https://forsenergy.com](https://forsenergy.com)
+
 
 * [https://github.com/R3MRUM/PSDecode](https://github.com/R3MRUM/PSDecode)
 * [https://github.com/rootclay/Powershell-Attack-Guide](https://github.com/rootclay/Powershell-Attack-Guide)
@@ -143,9 +146,11 @@ get-appxpackage *xbox* | remove-appxpackage
 # 应用商店
 add-appxpackage -register "C:\Program Files\WindowsApps\*Store*\AppxManifest.xml" -disabledevelopmentmode
 # 计算器
-Get-AppxPackage *calculator* -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Get-AppxPackage *calculator* -AllUsers| Foreach {`
+Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 # 日历、邮件
-Get-AppxPackage Microsoft.windowscommunicationsapps -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Get-AppxPackage Microsoft.windowscommunicationsapps -AllUsers| Foreach {`
+Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 ```
 
 
@@ -167,9 +172,12 @@ del env:变量名
 # 更新环境变量
 $env:变量名="变量值"
 # .NET方法操作可以全局生效
-[environment]::SetEnvironmentvariable("变量名", "值", [EnvironmentVariableTarget]::User)  # 修改当前用户的环境变量（永久），只对新进程有效
-[environment]::SetEnvironmentvariable("变量名", "值", [EnvironmentVariableTarget]::Machine)  # 设置系统环境变量（永久），只对新进程有效，需要管理员权限
-[environment]::SetEnvironmentvariable("变量名", "值", "User")  # target 也可用字符串指定
+# 修改当前用户的环境变量（永久），只对新进程有效
+[environment]::SetEnvironmentvariable("变量名", "值", [EnvironmentVariableTarget]::User)
+# 设置系统环境变量（永久），只对新进程有效，需要管理员权限
+[environment]::SetEnvironmentvariable("变量名", "值", [EnvironmentVariableTarget]::Machine)
+# target 也可用字符串指定
+[environment]::SetEnvironmentvariable("变量名", "值", "User")
 [environment]::GetEnvironmentvariable("变量名", "变量名")
 
 # 查看输出的命令集
@@ -178,8 +186,11 @@ Get-Command -verb out
 Export-Csv
 Export-CliXML
 Out-file
-Out-GridView
+Out-GridView # 独立弹窗
 ConvertTo-HTML | Out-file
+echo
+Write-Output
+out-host
 ```
 
 - 查看版本
@@ -284,6 +295,15 @@ Dir | Where-Object { $_.Mode.Substring(0,1) -ne "d" }
 Dir | Where-Object { $_.CreationTime -gt [datetime]::Parse("May 12, 2020") }
 # 获取2周以内更改过的文件
 Dir | Where-Object { $_.CreationTime -gt (Get-Date).AddDays(-14) }
+```
+
+- 重命名
+
+```ps1
+ls -Recurse -File -Include *.war,*.jar | ForEach-Object { Rename-Item -Path $_.fullname -newname ('test_' + $_.name)}
+ls -Recurse -File -Include *.war,*.jar | ForEach-Object { Rename-Item -Path $_.fullname -newname ($_.name -replace 'test_','')}
+ls -Recurse -File -Include *.war,*.jar | ForEach-Object -Begin {$count = 1}  -Process{`
+ Rename-Item -Path $_.fullname -newname "$_.basename$count$_.Extension";$count++}
 ```
 
 - 复制文件及目录结构

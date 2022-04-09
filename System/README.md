@@ -227,7 +227,10 @@
 - [https://gitlab.com/libvirt](https://gitlab.com/libvirt)
     - [https://github.com/virt-manager](https://github.com/virt-manager)
 - [https://github.com/libguestfs](https://github.com/libguestfs)
-
+- [https://github.com/proxmoxer](https://github.com/proxmoxer)
+    - [https://www.proxmox.com](https://www.proxmox.com)
+- [https://github.com/oVirt](https://github.com/oVirt)
+    - [https://github.com/cnovirt](https://github.com/cnovirt)
 
 
 
@@ -296,6 +299,8 @@
 * [https://www.onworks.net](https://www.onworks.net)
 * [https://hax.co.id](https://hax.co.id)
     * [白嫖hax的1C512M免费VPS，让您实现白嫖VPS之梦](https://blog.misaka.sbs/202110/12.html)
+* 无影云桌面 [https://eds.aliyun.com](https://eds.aliyun.com)
+* [https://windows365.microsoft.com](https://windows365.microsoft.com)
 
 
 
