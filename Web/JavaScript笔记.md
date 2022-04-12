@@ -325,3 +325,29 @@ $("#a").removeAttr('data-name');
 console.log($("#a").data('name'));//undefined
 ```
 
+## 自动触发事件
+
+* [https://developer.mozilla.org/zh-CN/docs/Web/API/Event](https://developer.mozilla.org/zh-CN/docs/Web/API/Event)
+
+```js
+var event = document.createEvent('Event'); // 创建
+event.initEvent('keydown', true, false); // 初始化
+event = Object.assign(event, {
+    ctrlKey: false,
+    metaKey: false,
+    altKey: false,
+    which: 13,
+    keyCode: 13, // 回车
+    key: 'Enter',
+    code: 'Enter'
+});
+var inp = document.querySelector('.input');
+inp.value = new Date().toLocaleString();
+inp.dispatchEvent(event); // 触发
+inp.detachEvent(event); // 事件删除
+
+
+var e = $.Event("keydown") || jQuery.Event("keydown"); // 创建事件
+e.keyCode = 13; // 回车
+$("input").trigger(e); // 触发事件
+```

@@ -31,13 +31,6 @@
 
 
 
-* Linux开发Windows程序环境 [https://midipix.org](https://midipix.org)
-    * [https://dev.midipix.org](https://dev.midipix.org)
-    * [https://github.com/lalbornoz/midipix_build](https://github.com/lalbornoz/midipix_build)
-* 包管理器 [http://win-builds.org](http://win-builds.org)
-
-
-
 
 ## 第三方工具
 
@@ -52,30 +45,6 @@
 * 窗口控制 [https://github.com/ritchielawrence/cmdow](https://github.com/ritchielawrence/cmdow)
 * [日志分析工具Log Parser](https://www.microsoft.com/en-us/download/details.aspx?id=24659)
     * [日志分析-LogParser使用方法](https://blog.csdn.net/weixin_41073877/article/details/112917207)
-
-
-
-## 终端复用器
-
-+ [https://github.com/topics/windows](https://github.com/topics/windows)
-+ [https://github.com/topics/putty](https://github.com/topics/putty)
-+ [https://github.com/topics/kitty](https://github.com/topics/kitty)
-
-- [https://docs.microsoft.com/zh-cn/documentation](https://docs.microsoft.com/zh-cn/documentation)
-
-* Cygwin终端 [https://github.com/mintty/mintty](https://github.com/mintty/mintty)
-* WSL终端 [https://github.com/mintty/wsltty](https://github.com/mintty/wsltty)
-* [https://github.com/PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable)
-    * [https://github.com/PowerShell/Win32-OpenSSH/wiki](https://github.com/PowerShell/Win32-OpenSSH/wiki)
-* [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
-    * [https://docs.microsoft.com/zh-cn/windows/terminal](https://docs.microsoft.com/zh-cn/windows/terminal)
-* [https://github.com/Maximus5/ConEmu](https://github.com/Maximus5/ConEmu)
-* [https://github.com/Eugeny/terminus](https://github.com/Eugeny/terminus)
-* [https://github.com/vercel/hyper](https://github.com/vercel/hyper)
-* PuTTY [https://www.chiark.greenend.org.uk/~sgtatham/putty](https://www.chiark.greenend.org.uk/~sgtatham/putty)
-* [https://github.com/portapps/kitty-portable](https://github.com/portapps/kitty-portable)
-* [https://github.com/cyd01/KiTTY](https://github.com/cyd01/KiTTY)
-* MobaXterm [https://www.mobatek.net](https://www.mobatek.net)
 
 
 

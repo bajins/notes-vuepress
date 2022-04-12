@@ -15,13 +15,12 @@
 
 * [https://www.jetbrains.com/idea/download/other.html](https://www.jetbrains.com/idea/download/other.html)
 * [https://zhile.io/archives](https://zhile.io/archives)
-    * `jetbrains-agent`(v3.2.0为2020.1.4及以下版本)/`FineAgent`/`plugin-fineagent`
-    * `BetterIntelliJ`
-    * `jetbrains-eval-reset` v2.3.5为2021.2.4(2021.2.3开始需要登录)及以下版本重置试用插件
+    * `jetbrains-agent`(v3.2.0为2020.1.4及以下版本)/`FineAgent`/`plugin-fineagent`/`BetterIntelliJ`
+    * `jetbrains-eval-reset`（[IDE Eval Reset](https://gitee.com/pengzhile/ide-eval-resetter)）v2.3.5为2021.2.4(2021.2.3开始需要登录)及以下版本重置试用插件
         * [https://repo.idechajian.com](https://repo.idechajian.com)
         * [https://plugins.zhile.io](https://plugins.zhile.io)
+    * [https://github.com/ja-netfilter](https://github.com/ja-netfilter) 2021.3
     * [https://jetbra.in/s](https://jetbra.in/s)
-    * 2021.3 [https://github.com/ja-netfilter](https://github.com/ja-netfilter)
 
 
 > `计算机\HKEY_CURRENT_USER\SOFTWARE\JavaSoft\Prefs`
