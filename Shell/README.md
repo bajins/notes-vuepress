@@ -209,9 +209,6 @@
 + [https://github.com/topics/kitty](https://github.com/topics/kitty)
 
 
-- [https://docs.microsoft.com/zh-cn/documentation](https://docs.microsoft.com/zh-cn/documentation)
-
-
 * [https://github.com/kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm)
 * [https://github.com/nxshell](https://github.com/nxshell)
     * [https://sourceforge.net/projects/nxshell](https://sourceforge.net/projects/nxshell)

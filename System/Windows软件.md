@@ -141,6 +141,7 @@
     * [https://github.com/kenorb-contrib/tg](https://github.com/kenorb-contrib/tg)
     * python api框架 [https://github.com/pyrogram](https://github.com/pyrogram)
     * [https://github.com/Dineshkarthik/telegram_media_downloader](https://github.com/Dineshkarthik/telegram_media_downloader)
+    * [https://github.com/alfem/telegram-download-daemon](https://github.com/alfem/telegram-download-daemon)
 * [https://github.com/idealclover/Telegram-Channel-Mirror](https://github.com/idealclover/Telegram-Channel-Mirror)
 * [https://github.com/kiwiirc](https://github.com/kiwiirc)
     * [https://freenode.net](https://freenode.net)

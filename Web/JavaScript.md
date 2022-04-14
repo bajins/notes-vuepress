@@ -307,6 +307,7 @@ var express = require('express');
 - [https://github.com/ianstormtaylor/slate](https://github.com/ianstormtaylor/slate)
 - [https://github.com/quilljs/quill](https://github.com/quilljs/quill)
 - [https://github.com/alibaba/GGEditor](https://github.com/alibaba/GGEditor)
+- [https://github.com/facebook/lexical](https://github.com/facebook/lexical)
 
 
 

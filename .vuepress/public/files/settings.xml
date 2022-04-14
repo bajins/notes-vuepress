@@ -252,6 +252,27 @@ under the License.
         <url>http://maven.oschina.net/content/groups/public/</url>
         <mirrorOf>central</mirrorOf>
     </mirror>
+    <!-- Maven antelink -->
+    <mirror>
+        <id>antelink</id>
+        <name>antelink</name>
+        <url>http://maven.antelink.com/content/repositories/central/</url>
+        <mirrorOf>central</mirrorOf>
+    </mirror>
+    <!-- Maven openkoala -->
+    <mirror>
+        <id>openkoala</id>
+        <name>openkoala</name>
+        <url>http://nexus.openkoala.org/nexus/content/groups/Koala-release/</url>
+        <mirrorOf>central</mirrorOf>
+    </mirror>
+    <!-- Maven tmatesoft -->
+    <mirror>
+        <id>tmatesoft</id>
+        <name>tmatesoft</name>
+        <url>http://maven.tmatesoft.com/content/groups/public/</url>
+        <mirrorOf>central</mirrorOf>
+    </mirror>
   </mirrors>
 
   <!-- profiles

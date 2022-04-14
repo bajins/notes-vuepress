@@ -136,6 +136,7 @@ with Test() as t: # 触发__exit__
 * 模糊测试 [https://github.com/google/clusterfuzz](https://github.com/google/clusterfuzz)
 * [https://github.com/jtpereyda/boofuzz](https://github.com/jtpereyda/boofuzz)
 * [https://github.com/nccgroup/fuzzowski](https://github.com/nccgroup/fuzzowski)
+* 图片 [https://github.com/imageio/imageio](https://github.com/imageio/imageio)
 
 
 

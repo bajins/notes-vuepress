@@ -88,6 +88,8 @@
 * [https://github.com/Knn120/OnJava8-PDF](https://github.com/Knn120/OnJava8-PDF)
 * Java Tutorials 中文版 [https://github.com/pingfangx/java-tutorials-in-chinese](https://github.com/pingfangx/java-tutorials-in-chinese)
 * [https://github.com/jast90/The-Java-Tutorials-CN](https://github.com/jast90/The-Java-Tutorials-CN)
+* 翻译文档 [https://github.com/docs4dev](https://github.com/docs4dev)
+    * [https://www.docs4dev.com](https://www.docs4dev.com)
 * Java Servlet 3.1 规范 [https://github.com/waylau/servlet-3.1-specification](https://github.com/waylau/servlet-3.1-specification)
 * [https://github.com/flance/java-servlet-specification-4.0](https://github.com/flance/java-servlet-specification-4.0)
 * Java 8 函数式编程 [https://github.com/glen9527/Java-8-Lambdas-zh](https://github.com/glen9527/Java-8-Lambdas-zh)
@@ -401,6 +403,15 @@
 * [https://github.com/topics/comparator](https://github.com/topics/comparator)
 * 比较文本差异 [https://github.com/java-diff-utils/java-diff-utils](https://github.com/java-diff-utils/java-diff-utils)
 * [https://github.com/ejlchina](https://github.com/ejlchina)
+
+- 条码 [https://github.com/zxing/zxing](https://github.com/zxing/zxing)
+    - [Java 条形码生成](https://www.cnblogs.com/lixin-link/p/15359508.html)
+- [https://github.com/woo-j/OkapiBarcode](https://github.com/woo-j/OkapiBarcode)
+- [https://github.com/lessthanoptimal/BoofCV](https://github.com/lessthanoptimal/BoofCV)
+- [https://sourceforge.net/projects/barcode4j](https://sourceforge.net/projects/barcode4j)
+- [https://sourceforge.net/projects/jbarcode](https://sourceforge.net/projects/jbarcode)
+- 图片压缩 [https://github.com/coobird/thumbnailator](https://github.com/coobird/thumbnailator)
+    - [http://projects.coobird.net](http://projects.coobird.net)
 
 
 
