@@ -21,6 +21,7 @@
     * [Keyboard shortcuts for Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 * [VSCode教程](https://www.php.cn/tool/vscode)
 * [https://github.com/gr2m/app-stats-action](https://github.com/gr2m/app-stats-action)
+* [https://github.com/coder](https://github.com/coder)
 
 
 - 语言服务器协议 [https://github.com/Microsoft/language-server-protocol](https://github.com/Microsoft/language-server-protocol)
@@ -284,10 +285,14 @@
 * 比较 [https://github.com/moshfeu/vscode-compare-folders](https://github.com/moshfeu/vscode-compare-folders)
 * [https://github.com/Axosoft/vscode-gitlens](https://github.com/Axosoft/vscode-gitlens)
 * 协作 [https://github.com/MicrosoftDocs/live-share](https://github.com/MicrosoftDocs/live-share)
+* [https://github.com/njpanderson/push](https://github.com/njpanderson/push) 类似于jet brains的`Deployment Automatic Upload`
+
+
 
 - [https://github.com/Serpen/VBS-VSCode](https://github.com/Serpen/VBS-VSCode)
 - [https://github.com/karb0f0s/vscode-vbscript](https://github.com/karb0f0s/vscode-vbscript)
 - [https://github.com/Luncher91/VBScript-vscode](https://github.com/Luncher91/VBScript-vscode)
+
 
 **translate-var**
 

@@ -59,6 +59,8 @@ taskkill /f /im explorer.exe & start explorer.exe
 - `计算机\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store`
 - `计算机\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search\JumplistData`
 - `计算机\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage`
+- `计算机\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders`
+- `计算机\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders` 用户目录
 - `计算机\HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache`
 
 
@@ -130,7 +132,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 
 
-### MSDN
+## MSDN
 
 * [https://www.microsoft.com/zh-cn/software-download](https://www.microsoft.com/zh-cn/software-download)
 * [http://msdn.itellyou.cn](http://msdn.itellyou.cn)
@@ -143,7 +145,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 
 
-### 绿色精简
+## 绿色精简
 
 + MSMG Toolkit [https://msmgtoolkit.in](https://msmgtoolkit.in)
 + NTLite [https://www.ntlite.com](https://www.ntlite.com)
@@ -162,7 +164,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 
 
-### WinPE
+## WinPE
 
 + [Windows PE (WinPE)](https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/winpe-intro)
 + [Windows USB/DVD 下载工具](https://www.microsoft.com/zh-cn/download/windows-usb-dvd-download-tool)
@@ -176,14 +178,55 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 
 
-## MS相关激活
+## MS激活
 
-> 在PowerShell（也可在CMD）中输入命令运行`slmgr.vbs /dti`，按<kbd>Ctrl</kbd> + <kbd>C</kbd>复制，
-> 并粘贴到在线获取确认ID网站：[http://webact.185.hk](http://webact.185.hk)
 
-> 使用命令有两种方式：第一种：按<kbd>Win</kbd> + <kbd>x</kbd> + <kbd>a</kbd>进入PowerShell（也可在CMD中）输入命令运行；
-> 第二种：按<kbd>Win</kbd> + <kbd>r</kbd>输入命令运行，如`slmgr.vbs /dti`，此方式必须有`.vbs`后缀，（推荐使用第一种方式）
+## KMS
 
+* [https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys](https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys)
+* [https://github.com/search?q=数字权利](https://github.com/search?q=%E6%95%B0%E5%AD%97%E6%9D%83%E5%88%A9)
+
+
++ [Windows 10 Digital Activation](http://forum.ru-board.com/topic.cgi?forum=2&topic=5820&start=0)
+    + [https://www.solidfiles.com/folder/bd7165a0d4/](https://www.solidfiles.com/folder/bd7165a0d4/)
++ 云萌 [https://github.com/TGSAN/CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition)
+    + [https://tgsan.github.io/CMWTAT_Digital_Edition](https://tgsan.github.io/CMWTAT_Digital_Edition)
++ [https://github.com/ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey)
++ [https://github.com/zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator)
++ [https://github.com/abbodi1406/WHD](https://github.com/abbodi1406/WHD)
++ [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
++ [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
++ [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
++ [https://github.com/netnr/kms](https://github.com/netnr/kms)
++ [https://official-kmspico.com](https://official-kmspico.com)
+
+
+* [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)
+* [人人客-微软产品](https://rrkee.com/microsoft)
+* [03k.orgKMS服务](https://03k.org/kms.html)
+* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4)
+* [零散坑KMS服务](https://03k.org/kms.html)
+* [kms.mogeko.me](https://mogeko.me/2019/054)
+* [https://kms.cangshui.net](https://kms.cangshui.net)
+* [https://kms.loli.beer](https://kms.loli.beer)
+* [https://www.moerats.com/kms](https://www.moerats.com/kms)
+* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4/)
+* [https://kms.cangshui.net](https://kms.cangshui.net)
+* [https://www.ghpym.com/kms.html](https://www.ghpym.com/kms.html)
+* [https://github.com/EDragon007/EDragonKMS](https://github.com/EDragon007/EDragonKMS)
+
+
+## KEY
+
+> 所谓的win10数字权利激活，是一种win10授权方法。该激活方法会记录你的电脑硬件信息，并保存到微软的服务器，
+> 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
+
+* [https://cherishspring.cn/journals](https://cherishspring.cn/journals)
+    * [Win10/Office安装与激活](https://www.cherishspring.cn/archives/woactive.html)
+    * [Windows和Office通用批量许可证密钥 (GVLK)](https://www.cherishspring.cn/archives/gvlk.html)
+* [https://jihuo.ma/tool](https://jihuo.ma/tool)
+* [http://www.aihao.cc](http://www.aihao.cc)
+* [https://jike.info/category/16/账号密钥](https://jike.info/category/16/%E8%B4%A6%E5%8F%B7%E5%AF%86%E9%92%A5)
 * 小爱激活助手 [https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA](https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA) 提取码: gia8
 * 密钥检测的小工具 [https://github.com/FHWWC/KeyCheck](https://github.com/FHWWC/KeyCheck)
 * https://api.jike.info/ms_pid/密钥
@@ -191,8 +234,24 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://key.sjjzm.com](https://key.sjjzm.com)
 
 
-- [Win10/Office安装与激活](https://www.cherishspring.cn/archives/woactive.html)
-- [Windows和Office通用批量许可证密钥 (GVLK)](https://www.cherishspring.cn/archives/gvlk.html)
+- [https://github.com/massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
+
+
+> 在PowerShell（也可在CMD）中输入命令运行`slmgr.vbs /dti`，按<kbd>Ctrl</kbd> + <kbd>C</kbd>复制，
+> 并粘贴到在线获取确认ID网站：[http://webact.185.hk](http://webact.185.hk)
+
+> 使用命令有两种方式：第一种：按<kbd>Win</kbd> + <kbd>x</kbd> + <kbd>a</kbd>进入PowerShell（也可在CMD中）输入命令运行；
+> 第二种：按<kbd>Win</kbd> + <kbd>r</kbd>输入命令运行，如`slmgr.vbs /dti`，此方式必须有`.vbs`后缀，（推荐使用第一种方式）
+
+
+**错误代码**
+
+- `0xC004C008` 是零售版可以电话激活、网页激活
+- `0xC004C020` 是批量版可以电话激活、运气好可以网页激活
+- `0xC004C060` 已失效
+- `0xC004C003` 已失效
+- `0x80072EE2` 因网络阻塞导致错误,稍等10分钟再重试
+
 
 
 **Windows命令**
@@ -233,14 +292,6 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 - `cscript ospp.vbs /dstatus` 验证激活
 
 
-**错误代码**
-
-- `0xC004C008` 是零售版可以电话激活、网页激活
-- `0xC004C020` 是批量版可以电话激活、运气好可以网页激活
-- `0xC004C060` 已失效
-- `0xC004C003` 已失效
-- `0x80072EE2` 因网络阻塞导致错误,稍等10分钟再重试
-
 
 **office key**
 
@@ -254,51 +305,6 @@ N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
 6NCGF-GQQ2F-H83HF-9DWMY-92GTG
 ```
 
-
-**Windows Key**
-
-> 所谓的win10数字权利激活，是一种win10授权方法。该激活方法会记录你的电脑硬件信息，并保存到微软的服务器，
-> 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
-
-* [https://cherishspring.cn/journals](https://cherishspring.cn/journals)
-* [https://jihuo.ma/tool](https://jihuo.ma/tool)
-* [http://www.aihao.cc](http://www.aihao.cc)
-* [https://jike.info/category/16/账号密钥](https://jike.info/category/16/%E8%B4%A6%E5%8F%B7%E5%AF%86%E9%92%A5)
-
-- [https://github.com/massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
-
-
-**KMS**
-
-* [https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys](https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys)
-* [https://github.com/search?q=数字权利](https://github.com/search?q=%E6%95%B0%E5%AD%97%E6%9D%83%E5%88%A9)
-
-+ [Windows 10 Digital Activation](http://forum.ru-board.com/topic.cgi?forum=2&topic=5820&start=0)
-    * [https://www.solidfiles.com/folder/bd7165a0d4/](https://www.solidfiles.com/folder/bd7165a0d4/)
-+ 云萌 [https://github.com/TGSAN/CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition)
-    + [https://tgsan.github.io/CMWTAT_Digital_Edition](https://tgsan.github.io/CMWTAT_Digital_Edition)
-+ [https://github.com/ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey)
-+ [https://github.com/zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator)
-+ [https://github.com/abbodi1406/WHD](https://github.com/abbodi1406/WHD)
-+ [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
-+ [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
-+ [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
-+ [https://github.com/netnr/kms](https://github.com/netnr/kms)
-+ [https://official-kmspico.com](https://official-kmspico.com)
-
-* [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)
-* [人人客-微软产品](https://rrkee.com/microsoft)
-* [03k.orgKMS服务](https://03k.org/kms.html)
-* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4)
-* [零散坑KMS服务](https://03k.org/kms.html)
-* [kms.mogeko.me](https://mogeko.me/2019/054)
-* [https://kms.cangshui.net](https://kms.cangshui.net)
-* [https://kms.loli.beer](https://kms.loli.beer)
-* [https://www.moerats.com/kms](https://www.moerats.com/kms)
-* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4/)
-* [https://kms.cangshui.net](https://kms.cangshui.net)
-* [https://www.ghpym.com/kms.html](https://www.ghpym.com/kms.html)
-* [https://github.com/EDragon007/EDragonKMS](https://github.com/EDragon007/EDragonKMS)
 
 
 
@@ -360,3 +366,4 @@ slmgr /ato
 28. <kdb>Win</kdb>+<kdb>Home</kdb> 最小化非活动窗口
 29. <kdb>Win</kdb>+<kdb>1~9</kdb> 切换任务栏左起第1~9个程序
 30. <kdb>Alt</kdb>+<kdb>Shift</kdb>+<kdb>←</kdb>/<kdb>→</kdb> 虚拟桌面窗口移动
+

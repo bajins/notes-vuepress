@@ -137,6 +137,7 @@ with Test() as t: # 触发__exit__
 * [https://github.com/jtpereyda/boofuzz](https://github.com/jtpereyda/boofuzz)
 * [https://github.com/nccgroup/fuzzowski](https://github.com/nccgroup/fuzzowski)
 * 图片 [https://github.com/imageio/imageio](https://github.com/imageio/imageio)
+* 扫描PDF [https://github.com/baicunko/scanyourpdf](https://github.com/baicunko/scanyourpdf)
 
 
 

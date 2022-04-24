@@ -15,8 +15,6 @@
 * [https://github.com/spring-projects](https://github.com/spring-projects)
     * [https://spring.io/projects](https://spring.io/projects)
 * [https://github.com/spring-guides](https://github.com/spring-guides)
-* 应用监控 [https://github.com/codecentric/spring-boot-admin](https://github.com/codecentric/spring-boot-admin)
-+ [https://github.com/Nepxion](https://github.com/Nepxion)
 
 
 - [https://github.com/wuyouzhuguli/SpringAll](https://github.com/wuyouzhuguli/SpringAll)

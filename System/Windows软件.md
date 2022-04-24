@@ -18,7 +18,8 @@
 
 - [https://github.com/topics/desktop-app](https://github.com/topics/desktop-app)
 - [https://github.com/awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
-
+- [https://www.solvusoft.com/zh-cn/file-extensions](https://www.solvusoft.com/zh-cn/file-extensions)
+- [https://www.fileviewpro.com/zh-cn](https://www.fileviewpro.com/zh-cn)
 
 
 **博客**
@@ -754,6 +755,10 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * 即启远程 [https://www.jqyou.com](https://www.jqyou.com)
 * DBadmin [https://slser.com](https://slser.com)
 * Zoho Assist [https://www.zoho.com/assist](https://www.zoho.com/assist)
+* [https://www.zoho.com](https://www.zoho.com)
+* [https://www.anyviewer.com](https://www.anyviewer.com)
+* [https://www.remoteutilities.com](https://www.remoteutilities.com)
+* [https://remotedesktop.google.com](https://remotedesktop.google.com)
 
 
 - ScreenWings 反截屏
@@ -786,6 +791,12 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.diskinternals.com/download](https://www.diskinternals.com/download)
     * 读取EXT 类型数据盘 [http://www.diskinternals.com/download/Linux_Reader.exe](http://www.diskinternals.com/download/Linux_Reader.exe)
 * [傲梅分区助手PartAssist](https://www.lanzoui.com/b0f1etedc)
+* 文件快速复制 [https://fastcopy.jp](https://fastcopy.jp)
+    * [https://github.com/shirouzu/FastCopy](https://github.com/shirouzu/FastCopy)
+    * [https://github.com/Mapaler/FastCopy-M](https://github.com/Mapaler/FastCopy-M)
+* [https://github.com/kevinwu1024/ExtremeCopy](https://github.com/kevinwu1024/ExtremeCopy)
+* [https://www.codesector.com/teracopy](https://www.codesector.com/teracopy)
+
 
 
 **文件对比**
@@ -874,6 +885,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
     * [https://www.penghubingzhou.cn/tags/I2C](https://www.penghubingzhou.cn/tags/I2C)
 * 查找泄漏密码 [https://github.com/HaveIBeenPwned](https://github.com/HaveIBeenPwned)
 * GTA游戏 [https://github.com/GTAmodding/re3](https://github.com/GTAmodding/re3)
+
 
 - 文档转换 [https://github.com/topics/converter](https://github.com/topics/converter)
     - [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)

@@ -120,34 +120,22 @@ module.exports = {
             opts: [
                 {
                     icon: '',
-                    name: '享优惠',
-                    link: '',
+                    name: 'GoogleDrive',
+                    link: 'https://gd.bajins.com',
                     popover: {
-                        title: '饿了么扫码享优惠',
+                        title: 'GoogleDrive',
                         type: 'image',
-                        imageUrl: 'https://static01.imgkr.com/temp/6d3b6811e8a4474481c52f8d7f2dfbf4.png',
+                        imageUrl: 'https://cdn.arstechnica.net/wp-content/uploads/2021/07/Google-Drive-800x420.jpg',
                     }
                 },
                 {
                     icon: '',
-                    name: '饿了么',
-                    link: '',
+                    name: 'OneDrive',
+                    link: 'https://od.bajins.com',
                     popover: {
-                        title: '用APP扫码最高翻3倍',
+                        title: 'OneDrive',
                         type: 'image',
-                        // imageUrl: 'https://i.imgur.com/n2fpw74.jpg',
-                        imageUrl: 'https://static01.imgkr.com/temp/472bc8289879436a9001716482a844fe.jpg',
-                    }
-                },
-                {
-                    icon: '',
-                    name: '美团红包',
-                    link: '',
-                    popover: {
-                        title: '扫码领取美团红包',
-                        type: 'image',
-                        // imageUrl: 'https://i.imgur.com/u0wdcIP.png',
-                        imageUrl: 'https://static01.imgkr.com/temp/74ec61e2df4f47709599407fca487255.png',
+                        imageUrl: 'https://p.sfx.ms/OneDriveLogoTile.png',
                     }
                 }
             ]

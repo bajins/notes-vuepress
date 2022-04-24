@@ -242,16 +242,8 @@
 * QPA [https://github.com/l7dpi/openQPA](https://github.com/l7dpi/openQPA)
 * [Microsoft Network Monitor](https://www.microsoft.com/en-us/download/details.aspx?id=4865)
 
-- [https://github.com/topics/traffic](https://github.com/topics/traffic)
-- [https://github.com/topics/proxifier](https://github.com/topics/proxifier)
-- 跨平台的设置代理客户端 [https://www.proxifier.com](https://www.proxifier.com)
-    - `L6Z8A-XY2J4-BTZ3P-ZZ7DF-A2Q9C`（Portable Edition）
-    - `5EZ8G-C3WL5-B56YG-SCXM9-6QZAP`（Standard Edition）
-    - `P427L-9Y552-5433E-8DSR3-58Z68`（MAC）
-- [https://github.com/mellow-io/mellow](https://github.com/mellow-io/mellow)
-- SocksCap64 HOOK了Windows Sockets API [https://www.sockscap64.com/sockscap64-official-homepage-chinese](https://www.sockscap64.com/sockscap64-official-homepage-chinese)
 
-* [Windows抓包与网络分析工具总结](https://blog.csdn.net/a82514921/article/details/104609924)
+- [Windows抓包与网络分析工具总结](https://blog.csdn.net/a82514921/article/details/104609924)
 
 
 

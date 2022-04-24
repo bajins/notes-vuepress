@@ -358,6 +358,9 @@
 * [https://github.com/liujiayu5566/MockGps](https://github.com/liujiayu5566/MockGps)
 * 模拟定位检测 [https://github.com/kamaravichow/mockcheck-android](https://github.com/kamaravichow/mockcheck-android)
 * [https://github.com/GantMan/jail-monkey](https://github.com/GantMan/jail-monkey)
+* [https://github.com/w568w/XposedChecker](https://github.com/w568w/XposedChecker)
+* [https://github.com/vvb2060/XposedDetector](https://github.com/vvb2060/XposedDetector)
+* [https://github.com/brevent/genuine](https://github.com/brevent/genuine)
 * 阻止运行 [https://www.coolapk.com/apk/me.piebridge.forcestopgb](https://www.coolapk.com/apk/me.piebridge.forcestopgb)
 * 黑白门 [https://www.coolapk.com/apk/com.example.bwappdoor](https://www.coolapk.com/apk/com.example.bwappdoor)
 * Greenify绿色守护 [https://www.coolapk.com/apk/com.oasisfeng.greenify](https://www.coolapk.com/apk/com.oasisfeng.greenify)
@@ -367,6 +370,7 @@
 * [Fuck Shell脱壳工具使用方法](https://www.bilibili.com/video/av56970799)
     * [https://www.lanzoui.com/i4qkz9e](https://www.lanzoui.com/i4qkz9e)
 * 反射大师
+* 灰色按钮 [https://github.com/githubwing/DroidSword](https://github.com/githubwing/DroidSword)
 
 
 
@@ -375,6 +379,7 @@
 * [https://github.com/asLody](https://github.com/asLody)
     * [https://github.com/ServenScorpion/VirtualApp11](https://github.com/ServenScorpion/VirtualApp11)
 * [https://github.com/nnjun/BlackBox/network/members](https://github.com/nnjun/BlackBox/network/members)
+* [https://github.com/FBlackBox/BlackBox](https://github.com/FBlackBox/BlackBox)
 * [https://github.com/2-young-2-simple/VirtualApp](https://github.com/2-young-2-simple/VirtualApp)
 * [https://github.com/didi/VirtualAPK](https://github.com/didi/VirtualAPK)
 * [https://github.com/android-hacker](https://github.com/android-hacker)
@@ -405,7 +410,9 @@
 * 光速虚拟机VPhoneGaGa [https://www.gsxnj.cn](https://www.gsxnj.cn)
     * [https://www.coolapk.com/apk/com.vphonegaga.titan](https://www.coolapk.com/apk/com.vphonegaga.titan)
 * 51虚拟机 [https://51xnj.com](https://51xnj.com)
+* [https://zh.x8sb.com](https://zh.x8sb.com)
 * [http://www.eaqiang.com](http://www.eaqiang.com)
+* 两仪 [https://www.coolapk.com/apk/io.twoyi](https://www.coolapk.com/apk/io.twoyi)
 
 
 
@@ -423,7 +430,7 @@
 * [https://github.com/vaibhavpandeyvpz/apkstudio](https://github.com/vaibhavpandeyvpz/apkstudio)
 
 
-- [https://github.com/CodingGay/BlackDex](https://github.com/CodingGay/BlackDex)
+- [https://github.com/CodingGay](https://github.com/CodingGay)
 - unity il2cpp逆向工程 [https://github.com/Perfare/Il2CppDumper](https://github.com/Perfare/Il2CppDumper)
 - CFF Explorer进程PE查看 [http://www.ntcore.com/exsuite.php](http://www.ntcore.com/exsuite.php)
     - [https://github.com/bfosterjr/CFFExtensions](https://github.com/bfosterjr/CFFExtensions)
@@ -530,6 +537,8 @@
     * [https://github.com/onyxbits/raccoon4](https://github.com/onyxbits/raccoon4)
     * [https://github.com/feljor/playstore-scraper-with-api](https://github.com/feljor/playstore-scraper-with-api)
     * [https://github.com/egodigital/node-google-play-store](https://github.com/egodigital/node-google-play-store)
+* [https://github.com/SimpleMobileTools](https://github.com/SimpleMobileTools)
+
 
 - [https://github.com/microg](https://github.com/microg)
 - [https://github.com/rumboalla/apkupdater](https://github.com/rumboalla/apkupdater)

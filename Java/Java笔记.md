@@ -411,6 +411,7 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
 **Mime/Content-Type/Media-Type**
 
 + [https://github.com/topics/mime](https://github.com/topics/mime)
++ [https://www.solvusoft.com/en/mime-multipurpose-internet-mail-extensions](https://www.solvusoft.com/en/mime-multipurpose-internet-mail-extensions)
 
 - `com.google.common.net.MediaType` guava
 - `javax.ws.rs.core.MediaType` Jersey框架

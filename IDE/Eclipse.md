@@ -20,9 +20,11 @@
 * [STS(eclipse)中文注释错位、缩进、被放大BUG解决](https://blog.csdn.net/u013600314/article/details/85262257)
 
 
-- `Windows` -> `Preference` -> `General` -> `Workspace` --> `Build`
-   - `Save automatically before manual build` 在手动构建之前自动保存
-   - `Build automatically`（同`Project`菜单下的按钮） 自动编译
+- `Windows` -> `Preference` -> `General` -> `Workspace`
+   -> `Build`
+      - `Save automatically before manual build` 在手动构建之前自动保存
+      - `Build automatically`（同`Project`菜单下的按钮） 自动编译
+   -> `Refresh using native hooks or polling` 自动刷新文件
 
 
 > 创建`Dynamic Web Project`项目结构静态资源目录为：`WebContent`/`WebRoot`，idea创建的为`web`

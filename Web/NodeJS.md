@@ -17,6 +17,7 @@
 * [https://developer.ibm.com/zh/technologies/node-js](https://developer.ibm.com/zh/technologies/node-js)
 * [https://github.com/alsotang/node-lessons](https://github.com/alsotang/node-lessons)
 * [https://github.com/cnodejs](https://github.com/cnodejs)
+* [https://github.com/amplication](https://github.com/amplication)
 
 
 > `node`执行脚本时获取参数`process.argv`数组，下标`0`为执行程序的绝对路径，下标`1`为脚本的绝对路径，
@@ -49,6 +50,7 @@
 - 2017年，webpack3
 
 * [https://github.com/wuhao000/aegis-tools](https://github.com/wuhao000/aegis-tools)
+* [https://github.com/fuchengwei/deploy-cli-service](https://github.com/fuchengwei/deploy-cli-service)
 
 
 

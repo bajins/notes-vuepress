@@ -48,6 +48,7 @@
     * [https://docs.microsoft.com/zh-cn/java](https://docs.microsoft.com/zh-cn/java)
 * [https://github.com/eclipse-openj9/openj9](https://github.com/eclipse-openj9/openj9)
 * [https://github.com/alibaba/dragonwell8](https://github.com/alibaba/dragonwell8)
+* [https://github.com/Tencent/TencentKona-8](https://github.com/Tencent/TencentKona-8)
 
 
 

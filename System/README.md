@@ -165,6 +165,12 @@
 * [https://github.com/SigNoz/signoz](https://github.com/SigNoz/signoz)
 * [https://github.com/Lakr233/Rayon](https://github.com/Lakr233/Rayon)
 * 集群监控 [https://github.com/ganglia](https://github.com/ganglia)
+* Cacti
+* icinga
+* Ntop
+* 应用监控 [https://github.com/codecentric/spring-boot-admin](https://github.com/codecentric/spring-boot-admin)
+* [https://github.com/Nepxion](https://github.com/Nepxion)
+* [https://github.com/sohutv/mqcloud](https://github.com/sohutv/mqcloud)
 
 
 - [https://github.com/bigbully/Dapper-translation](https://github.com/bigbully/Dapper-translation)

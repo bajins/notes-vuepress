@@ -193,6 +193,7 @@ volumes:
 - GitHub每周趋势 [https://github.com/SolaTyolo/gold_github_trending](https://github.com/SolaTyolo/gold_github_trending)
 - GitHub每天趋势 [https://github.com/yangwenmai/github-trending-backup](https://github.com/yangwenmai/github-trending-backup)
 - [https://github.com/HelloGitHub-Team/Article](https://github.com/HelloGitHub-Team/Article)
+- [https://github.com/tophubs](https://github.com/tophubs)
 - 记录GitHub趋势 [https://github.com/xiaobaiha/github-trending-history](https://github.com/xiaobaiha/github-trending-history)
     - [https://github.oldjpg.com](https://github.oldjpg.com)
 - [https://github.com/GitHubDaily](https://github.com/GitHubDaily)
@@ -219,6 +220,9 @@ volumes:
 * [http://tool.chinaz.com/dns](http://tool.chinaz.com/dns)
 * [https://www.ipaddress.com](https://www.ipaddress.com)
 * [https://greasyfork.org/zh-CN/scripts/412245](https://greasyfork.org/zh-CN/scripts/412245)
+* [https://trli.coding.net/public](https://trli.coding.net/public)
+* [https://github.com/Potterli20/hosts](https://github.com/Potterli20/hosts)
+
 
 - [https://gitee.com/organizations/mirrors_trending/projects](https://gitee.com/organizations/mirrors_trending/projects)
 - [https://gitee.com/docmirror/dev-sidecar](https://gitee.com/docmirror/dev-sidecar)
