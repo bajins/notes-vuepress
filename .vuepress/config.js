@@ -120,22 +120,32 @@ module.exports = {
             opts: [
                 {
                     icon: '',
-                    name: 'GoogleDrive',
+                    name: 'GD',
                     link: 'https://gd.bajins.com',
                     popover: {
                         title: 'GoogleDrive',
                         type: 'image',
                         imageUrl: 'https://cdn.arstechnica.net/wp-content/uploads/2021/07/Google-Drive-800x420.jpg',
+                        more: {
+                            newWindow: true,
+                            link: 'https://gd.bajins.com',
+                            name: '了解更多'
+                        }
                     }
                 },
                 {
                     icon: '',
-                    name: 'OneDrive',
+                    name: 'OD',
                     link: 'https://od.bajins.com',
                     popover: {
                         title: 'OneDrive',
                         type: 'image',
                         imageUrl: 'https://p.sfx.ms/OneDriveLogoTile.png',
+                        more: {
+                            newWindow: true,
+                            link: 'https://od.bajins.com',
+                            name: '了解更多'
+                        }
                     }
                 }
             ]
