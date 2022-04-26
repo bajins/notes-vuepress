@@ -74,6 +74,15 @@
 
 
 ```java
+/*
+Propagation.REQUIRED	如果当前存在事务，则加入该事务；如果当前没有事务，则创建一个新的事务。这是默认值。
+Propagation.REQUIRES_NEW	创建一个新的事务，如果当前存在事务，则把当前事务挂起。
+Propagation.SUPPORTS	如果当前存在事务，则加入该事务；如果当前没有事务，则以非事务的方式继续运行。
+Propagation.NOT_SUPPORTED	以非事务方式运行，如果当前存在事务，则把当前事务挂起。
+Propagation.NEVER	以非事务方式运行，如果当前存在事务，则抛出异常。
+Propagation.MANDATORY	如果当前存在事务，则加入该事务；如果当前没有事务，则抛出异常。
+Propagation.NESTED	如果当前存在事务，则创建一个事务作为当前事务的嵌套事务来运行；如果当前没有事务，则该取值等价于Propagation.REQUIRED
+*/
 // REQUIRES_NEW 与 NESTED 前者是内层异常影响外层，外层不影响内层；后者正好相反，内层加try catch后 异常不影响外层，外层会影响内层
 @Transactional(rollbackFor = Exception.class, propagation = Propagation.REQUIRES_NEW)
 
@@ -84,7 +93,7 @@ private DataSourceTransactionManager transactionManager;
 /*@Autowired
 private TransactionDefinition transactionDefinition;*/
 
- // 设置事务隔离级别，开启新事务
+// 设置事务隔离级别，开启新事务
 DefaultTransactionDefinition def = new DefaultTransactionDefinition(TransactionDefinition.PROPAGATION_REQUIRES_NEW);
 //def.setPropagationBehavior(TransactionDefinition.PROPAGATION_REQUIRES_NEW);
 // 获得事务状态
@@ -92,7 +101,7 @@ TransactionStatus status = transactionManager.getTransaction(def);
 try {
     
 } catch (Exception e) {
-    if(!TransactionAspectSupport.currentTransactionStatus().isRollbackOnly()){
+    if(!TransactionAspectSupport.currentTransactionStatus().isRollbackOnly()){ // 获取当前最大事务
         TransactionAspectSupport.currentTransactionStatus().setRollbackOnly(); // 标记事务回滚
     }
     if(!status.isRollbackOnly()){
@@ -101,7 +110,7 @@ try {
     // https://www.cnblogs.com/yaohuiqin/p/9486975.html
     transactionManager.rollback(status); // 回滚事务，设置completed为完成状态，清理事务资源
 } finally {
-    if (status !=null && status.isNewTransaction() && !status.isCompleted()){
+    if (status !=null && status.isNewTransaction() && !status.isCompleted() && !status.isRollbackOnly()){
         transactionManager.commit(status); // 如果rollBackOnly状态被设置将回滚，否则执行正常的事务提交操作
     }
 }
