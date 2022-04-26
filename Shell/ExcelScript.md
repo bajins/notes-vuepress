@@ -18,6 +18,7 @@
 + [https://docs.microsoft.com/zh-cn/office/dev/add-ins/excel](https://docs.microsoft.com/zh-cn/office/dev/add-ins/excel)
 
 
+- `=IF(IFERROR(FIND("不良",B2),0),"不良品仓",IF(IFERROR(FIND("待检",B2),0),"待检仓",IF(IFERROR(FIND("报废",B2),0),"报废仓",IF(IFERROR(FIND("良",B2),0),"良品仓",""))))`
 - 匹配单元格左边英文及其他字符=RegexString(A1,"[^\u4e00-\u9fa5]+")
 - 匹配单元格右边中文及其他字符=RegexString(A1,"[\u4e00-\u9fa5].*")
 
