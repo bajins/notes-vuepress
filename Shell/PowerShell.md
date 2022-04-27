@@ -88,6 +88,24 @@
 
 ```powershell
 Get-AppxPackage | Select Name,PackageFullName
+
+# 查看Windows已装的自带应用
+Get-AppxProvisionedPackage -online | % {
+    # 使用清单获取安装位置
+    $loc = Split-Path ( [Environment]::ExpandEnvironmentVariables($_.InstallLocation) ) -Parent
+    If ((Split-Path $loc -Leaf) -ieq 'AppxMetadata') {
+        $loc = Split-Path $loc -Parent
+    }
+    # 获取查找相关文件夹的模式
+    $matching = Join-Path -Path (Split-Path $loc -Parent) -ChildPath "$($_.DisplayName)*"
+    $size = "{0:N2}MB" -f ((
+        Get-ChildItem $matching -Recurse -ErrorAction Ignore | Measure-Object -Property Length -Sum
+        ).Sum / 1MB)
+    # 将结果添加到输出
+    $_ | Add-Member -NotePropertyName Size -NotePropertyValue $size
+    $_ | Add-Member -NotePropertyName InstallFolder -NotePropertyValue $loc
+    $_
+} | Select DisplayName, PackageName, Version, InstallFolder, Size
 ```
 
 - 卸载应用程序

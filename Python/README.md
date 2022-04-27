@@ -77,6 +77,7 @@ with Test() as t: # 触发__exit__
 - web文件扫描 [https://github.com/topics/dirbuster](https://github.com/topics/dirbuster)
 - [https://github.com/H4ckForJob/dirmap](https://github.com/H4ckForJob/dirmap)
 - [https://github.com/DIGITALCRIMINAL/OnlyFans](https://github.com/DIGITALCRIMINAL/OnlyFans)
+- WiFi扫描破解 [https://github.com/TheSadError/NIVOS](https://github.com/TheSadError/NIVOS)
 
 
 

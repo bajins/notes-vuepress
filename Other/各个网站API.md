@@ -26,6 +26,7 @@
 - [https://github.com/NiuTrans/Classical-Modern](https://github.com/NiuTrans/Classical-Modern)
 - 做饭 [https://github.com/Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook)
 - [https://github.com/YunYouJun/cook](https://github.com/YunYouJun/cook)
+- 中文歌词 [https://github.com/dengxiuqi/ChineseLyrics](https://github.com/dengxiuqi/ChineseLyrics)
 
 
 

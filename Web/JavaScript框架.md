@@ -22,6 +22,7 @@
 * [https://github.com/baidu/amis](https://github.com/baidu/amis)
 * [https://github.com/alienzhou/web-highlighter](https://github.com/alienzhou/web-highlighter)
 * [https://github.com/jashkenas/backbone](https://github.com/jashkenas/backbone)
+* [https://github.com/horizon-ui/horizon-ui-chakra](https://github.com/horizon-ui/horizon-ui-chakra)
 * 单页网站 [https://github.com/alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js)
 * [http://www.jeasyui.com](http://www.jeasyui.com)
 * 响应式框架 [https://github.com/foundation](https://github.com/foundation)

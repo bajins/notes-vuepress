@@ -10,6 +10,7 @@
 - [https://www.yiibai.com/powershell](https://www.yiibai.com/powershell)
 - [PowerShell注册表](https://www.pstips.net/tag/%e6%b3%a8%e5%86%8c%e8%a1%a8)
 - [使用注册表条目](https://docs.microsoft.com/zh-cn/powershell/scripting/samples/working-with-registry-entries)
+- [控制台暂停](https://stackoverflow.com/questions/3963100/how-do-you-do-a-pause-with-powershell-2-0)
 
 
 
@@ -102,6 +103,19 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 
 ```powershell
 (New-Object System.Net.WebClient).DownloadFile('https://git.io/JvYAg','d:\\7za.exe')
+```
+
+- 实现`du -sh`统计文件夹大小
+
+```ps1
+param([string]$Directory) 
+get-childitem $Directory | % {
+    $f = $_ ; 
+    get-childitem -r $_.FullName | 
+      measure-object -property length -sum | 			
+        select @{Name="Name";Expression={$f}},
+        @{Name="Sum (MB)"; Expression={"{0:N1}" -f ($_.sum / 1MB)}}
+}
 ```
 
 
