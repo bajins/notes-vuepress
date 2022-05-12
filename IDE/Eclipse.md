@@ -134,6 +134,7 @@ public static void createInstanceSetter(Class<?> clazz) {
 - 设置眼睛保护色 `Window` -> `Prefences` -> `General` -> `Editors` -> `Text Editors` -> `Appearance color optins`
 
 
+
 ## 代码格式化
 
 * [General > Editors > Text Editors](https://help.eclipse.org/2020-12/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Freference%2Fref-texteditorprefs.htm)
@@ -192,6 +193,26 @@ public static void createInstanceSetter(Class<?> clazz) {
 
 - `Window` -> `Preferences` -> `Web` -> `XML` -> `XML Files` -> `Editor`
    - `Formatting` -> `Line width` 行宽
+
+
+
+## 设置编码格式
+
+- 设置工作空间编码 `Window` -> `Preferences` -> `General` -> `Workspace` -> `Text file encoding` -> `Other`选择`UTF-8`
+- 设置文档编码 `Window` -> `Preferences` -> `General` -> `Content Type` -> `Text` -> `Default encoding`填入`UTF-8`
+- 设置Web编码 `Window` -> `Preferences` -> `Web` -> `CSS Files`、`HTML Files`、`JSP Files` -> `Encoding`选择`ISO 10646/Unicode(UTF-8)`
+- 设置项目的文档编码：选中项目右键 -> `Properties` -> `Resource` -> `Other`选择`UTF-8`
+
+
+
+## 设置Tab为空格
+
+- `Window` -> `Preferences` -> `General` -> `Editors` -> `Text Editors` -> 勾选 `Insert spaces for tabs`
+   - `Remove multiple spaces on backspace/delete` 删除退格键/删除多个空格
+- `Window` -> `Preference` -> `Java` -> `Code Style` -> `Formatter` -> `Edit` -> `Indentation` -> `Tab policy` 选择 `Spaces only`
+- `Window` -> `Preferences` -> `Web` -> `CSS Files`、`HTML Files`、`JSP Files` -> `Editor`
+   - `lndent using spaces` 选中
+   - `lndentation size` 空格数
 
 
 
@@ -265,23 +286,6 @@ public static void createInstanceSetter(Class<?> clazz) {
 
 - `Run` -> `Run Configurations` -> 选中已添加的Tomcat -> `Arguments` -> 在`VM arguments`中换行添加
 
-
-
-
-## 设置编码格式
-
-- 设置工作空间编码 `Window` -> `Preferences` -> `General` -> `Workspace` -> `Text file encoding` -> `Other`选择`UTF-8`
-- 设置文档编码 `Window` -> `Preferences` -> `General` -> `Content Type` -> `Text` -> `Default encoding`填入`UTF-8`
-- 设置Web编码 `Window` -> `Preferences` -> `Web` -> `CSS Files、HTML Files、JSP Files` -> `Encoding`选择`ISO 10646/Unicode(UTF-8)`
-- 设置项目的文档编码：选中项目右键 -> `Properties` -> `Resource` -> `Other`选择`UTF-8`
-
-
-
-## 设置Tab为空格
-
-- `Window` -> `Preferences` -> `General` -> `Editors` -> `Text Editors` -> 勾选 `Insert spaces for tabs`
-   - `Remove multiple spaces on backspace/delete` 删除退格键/删除多个空格
-- `Window` -> `Preference` -> `Java` -> `Code Style` -> `Formatter` -> `Edit` -> `Indentation` -> `Tab policy` 选择 `Spaces only`
 
 
 ## 快捷键设置

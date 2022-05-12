@@ -71,6 +71,7 @@
 - [https://github.com/torvalds/linux](https://github.com/torvalds/linux)
 - [https://github.com/rocky-linux](https://github.com/rocky-linux)
 - [https://github.com/AlmaLinux](https://github.com/AlmaLinux)
+- [https://github.com/microsoft/CBL-Mariner](https://github.com/microsoft/CBL-Mariner)
 - [https://www.oracle.com/linux](https://www.oracle.com/linux)
 - 将CentOS切换到Oracle脚本 [https://github.com/oracle/centos2ol](https://github.com/oracle/centos2ol)
 - [https://github.com/clearos](https://github.com/clearos)

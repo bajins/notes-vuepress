@@ -309,6 +309,7 @@
 | 可以生成构造器/Getter/Setter等                   	| Alt + Insert                              	| Shift + Alt + S                             	|
 | 将选中字符串的字母转为大写                       	| Ctrl + Shift + U                          	| Ctrl + Shift + X                            	|
 | 将选中字符串的字母转为小写                       	| Ctrl + Shift + U                           	| Ctrl + Shift + Y                            	|
+| 多行同时编辑                                     	| Ctrl + Shift + Alt  Alt + 鼠标左键           | Shift + Alt + A                              	|
 | 编辑源                                           	| F4                                        	|                                             	|
 | 移动                                             	| F6                                        	|                                             	|
 | 复制                                             	| F5                                        	|                                             	|

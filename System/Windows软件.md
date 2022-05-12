@@ -114,6 +114,7 @@
 - [https://github.com/fonoster/fonoster](https://github.com/fonoster/fonoster)
 - 视频会议 [https://github.com/OpenVidu](https://github.com/OpenVidu)
 - Instagram [https://github.com/jigar-sable/instagram-mern](https://github.com/jigar-sable/instagram-mern)
+- 类twitter [https://github.com/bluesky-social/adx](https://github.com/bluesky-social/adx)
 
 
 **Telegram**
@@ -636,7 +637,6 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * Win10Clean [https://github.com/ElPumpo/Win10Clean](https://github.com/ElPumpo/Win10Clean)
 * Dism++ [https://github.com/Chuyu-Team](https://github.com/Chuyu-Team)
 * W10Privacy [https://www.winprivacy.de/deutsch-start/download](https://www.winprivacy.de/deutsch-start/download)
-* PCHunter [http://www.xuetr.com](http://www.xuetr.com)
 * Windows 10 Manager [https://www.yamicsoft.com](https://www.yamicsoft.com)
     * `WMXD7-RG8FP-OYKS3-KHTN6`
 * Uninstall Tool [https://crystalidea.com/uninstall-tool](https://crystalidea.com/uninstall-tool)
@@ -856,6 +856,12 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * RTSS [https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html)
 * 简化快捷键 [https://github.com/szzhiyang](https://github.com/szzhiyang)
     * [https://github.com/PowerKeys](https://github.com/PowerKeys)
+* 热键占用 [https://github.com/BlackINT3/OpenArk](https://github.com/BlackINT3/OpenArk)
+* PCHunter [http://www.xuetr.com](http://www.xuetr.com)
+* [FindGlobalHotkey](https://www.zhihu.com/question/21020398/answer/989951735)
+* [https://sourceforge.net/projects/powertool](https://sourceforge.net/projects/powertool)
+* [https://github.com/mdelura/GHotKeys](https://github.com/mdelura/GHotKeys)
+* ~~Windows Hotkey Explorer~~
 * 火绒安全 [https://www.huorong.cn](https://www.huorong.cn)
 * 可视化创建符号链接 [https://github.com/imDema/FreeMove](https://github.com/imDema/FreeMove)
 * 鼠标手势 [https://github.com/yingDev](https://github.com/yingDev)
@@ -885,6 +891,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
     * [https://www.penghubingzhou.cn/tags/I2C](https://www.penghubingzhou.cn/tags/I2C)
 * 查找泄漏密码 [https://github.com/HaveIBeenPwned](https://github.com/HaveIBeenPwned)
 * GTA游戏 [https://github.com/GTAmodding/re3](https://github.com/GTAmodding/re3)
+* [https://github.com/theVakhovskeIsTaken/holoiso](https://github.com/theVakhovskeIsTaken/holoiso)
+* [https://github.com/Plagman/gamescope](https://github.com/Plagman/gamescope)
 
 
 - 文档转换 [https://github.com/topics/converter](https://github.com/topics/converter)
