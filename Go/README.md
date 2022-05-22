@@ -94,6 +94,7 @@
 * [https://github.com/0voice/Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang)
 * [https://github.com/golang-design](https://github.com/golang-design)
 * [https://github.com/cch123/golang-notes](https://github.com/cch123/golang-notes)
+* [https://github.com/pibigstar/go-demo](https://github.com/pibigstar/go-demo)
 * [https://www.topgoer.com](https://www.topgoer.com)
 * [https://github.com/iswbm](https://github.com/iswbm)
     * [https://golang.iswbm.com](https://golang.iswbm.com)
@@ -114,6 +115,8 @@
 - Go子语言 [https://github.com/chai2010/ugo-compiler-book](https://github.com/chai2010/ugo-compiler-book)
 - [https://github.com/wa-lang/wa](https://github.com/wa-lang/wa)
 
+
+* [Go_想变厉害的大白菜的博客-CSDN博客](https://blog.csdn.net/weixin_44211968/category_11464667.html)
 
 
 
@@ -139,6 +142,7 @@
 | gin-jwt 	| https://github.com/appleboy/gin-jwt                            	|                                             	|
 | kit     	| https://github.com/go-kit/kit                                  	| https://gokit.io                           	|
 | Fiber    	| https://github.com/gofiber/fiber                                  | https://gofiber.io                           	|
+| revel    	| https://github.com/revel/revel                                    | https://github.com/revel/revel               	|
 
 
 + 分布式 [https://github.com/asim/go-micro](https://github.com/asim/go-micro)
@@ -158,9 +162,12 @@
 + [https://github.com/boombuler](https://github.com/boombuler)
 + [https://github.com/goplus](https://github.com/goplus)
 + [https://github.com/gliderlabs](https://github.com/gliderlabs)
++ [https://github.com/mailru](https://github.com/mailru)
 
 
 
+* 工具包 [https://github.com/dablelv/go-huge-util](https://github.com/dablelv/go-huge-util)
+* [https://github.com/xxjwxc/public](https://github.com/xxjwxc/public)
 * [https://github.com/julienschmidt/httprouter](https://github.com/julienschmidt/httprouter)
 * [https://github.com/giampaolo/psutil](https://github.com/giampaolo/psutil)
 * [https://github.com/shirou/gopsutil](https://github.com/shirou/gopsutil)
@@ -195,8 +202,6 @@
 * [https://github.com/bluele/gcache](https://github.com/bluele/gcache)
 * [https://github.com/golang/groupcache](https://github.com/golang/groupcache)
 * [https://github.com/muesli/cache2go](https://github.com/muesli/cache2go)
-* 监视文件或目录更改 [https://github.com/radovskyb/watcher](https://github.com/radovskyb/watcher)
-* 文件监听 [https://github.com/fsnotify/fsnotify](https://github.com/fsnotify/fsnotify)
 * 快速生成ASCII表格 [https://github.com/olekukonko/tablewriter](https://github.com/olekukonko/tablewriter)
 * 获取固定宽度的字符或字符串 [https://github.com/mattn/go-runewidth](https://github.com/mattn/go-runewidth)
 * Lane包提供队列，优先级队列，堆栈和双端队列 [https://github.com/oleiade/lane](https://github.com/oleiade/lane)
@@ -208,7 +213,7 @@
 * [https://github.com/mattn/go-sqlite3](https://github.com/mattn/go-sqlite3)
 * [https://github.com/nakagami/firebirdsql](https://github.com/nakagami/firebirdsql)
 * [https://github.com/lib/pq](https://github.com/lib/pq)
-* [https://github.com/jackc/pgx](https://github.com/jackc/pgx)
+* PostgreSQL驱动 [https://github.com/jackc/pgx](https://github.com/jackc/pgx)
 * Swagger 2.0 for Go [https://github.com/swaggo](https://github.com/swaggo)
 * [https://github.com/owenliang/go-push](https://github.com/owenliang/go-push)
 * [https://github.com/rs/zerolog](https://github.com/rs/zerolog)
@@ -252,6 +257,9 @@
 * [https://github.com/onsi/ginkgo](https://github.com/onsi/ginkgo)
 * WebSocket [https://github.com/gorilla/websocket](https://github.com/gorilla/websocket)
     * [在 Gin 项目中使用 WebSocket](https://www.cnblogs.com/chnmig/p/14463837.html)
+    * [https://github.com/kone-net/go-chat](https://github.com/kone-net/go-chat)
+* [https://github.com/gobwas/ws](https://github.com/gobwas/ws)
+    * [性能优化实战：百万级WebSockets和Go语言](https://segmentfault.com/a/1190000011162605)
 * 微服务RPC框架 [https://github.com/cloudwego/kitex](https://github.com/cloudwego/kitex)
 * [https://github.com/hekmon/transmissionrpc](https://github.com/hekmon/transmissionrpc)
 * 微服务 [https://github.com/go-kratos/kratos](https://github.com/go-kratos/kratos)
@@ -262,6 +270,7 @@
 * 环境变量 [https://github.com/subosito/gotenv](https://github.com/subosito/gotenv)
 * [https://github.com/magiconair/properties](https://github.com/magiconair/properties)
 * 结构转换 [https://github.com/mitchellh/mapstructure](https://github.com/mitchellh/mapstructure)
+* [https://github.com/deckarep/golang-set](https://github.com/deckarep/golang-set)
 * [github.com/go-redis/redis](github.com/go-redis/redis)
 * [https://github.com/seccomp/libseccomp-golang](https://github.com/seccomp/libseccomp-golang)
 * 构建命令行 [https://github.com/urfave/cli](https://github.com/urfave/cli)
@@ -274,12 +283,28 @@
 * 地图 [https://github.com/tidwall/tile38](https://github.com/tidwall/tile38)
 * 限速 [https://github.com/Narasimha1997/ratelimiter](https://github.com/Narasimha1997/ratelimiter)
 * 格式化yaml [https://github.com/UltiRequiem/yamlfmt](https://github.com/UltiRequiem/yamlfmt)
+* 配置文件 [https://github.com/jinzhu/configor](https://github.com/jinzhu/configor)
+* [https://github.com/go-yaml/yaml](https://github.com/go-yaml/yaml)
+* [https://github.com/go-ini/ini](https://github.com/go-ini/ini)
+* [https://github.com/unknwon/goconfig](https://github.com/unknwon/goconfig)
+* [https://github.com/hyahm/goconfig](https://github.com/hyahm/goconfig)
+* [https://github.com/joho/godotenv](https://github.com/joho/godotenv)
+* [https://github.com/golobby/config](https://github.com/golobby/config)
+* [https://github.com/delfanhao/go-conf](https://github.com/delfanhao/go-conf)
+* [https://github.com/hashicorp/hcl](https://github.com/hashicorp/hcl)
+* [https://github.com/koding/multiconfig](https://github.com/koding/multiconfig)
+* [https://github.com/kelseyhightower/envconfig](https://github.com/kelseyhightower/envconfig)
+* [https://github.com/kelseyhightower/confd](https://github.com/kelseyhightower/confd)
+* 配置热加载 [https://github.com/spf13/viper](https://github.com/spf13/viper)
+* 文件监听 [https://github.com/fsnotify/fsnotify](https://github.com/fsnotify/fsnotify)
+* 监视文件或目录更改 [https://github.com/radovskyb/watcher](https://github.com/radovskyb/watcher)
 * 通道工具 [https://github.com/Ksloveyuan/channelx](https://github.com/Ksloveyuan/channelx)
 * 配置加载 [https://github.com/cristalhq/aconfig](https://github.com/cristalhq/aconfig
 * gin panic [https://github.com/xkkhy/agave](https://github.com/xkkhy/agave)
 * 特性开关 [https://github.com/markphelps/flipt](https://github.com/markphelps/flipt)
 * [https://github.com/checkr/flagr](https://github.com/checkr/flagr)
 * 分布式唯一ID [https://github.com/yongxinz/id-maker](https://github.com/yongxinz/id-maker)
+* shell [https://github.com/creack/pty](https://github.com/creack/pty)
 
 
 
@@ -302,6 +327,11 @@
 * 调试器 [https://github.com/go-delve/delve](https://github.com/go-delve/delve)
 * 实时重新加载 [https://github.com/cosmtrek/air](https://github.com/cosmtrek/air)
     * [Go 每日一库之 air](https://segmentfault.com/a/1190000025186913)
+* [https://github.com/gravityblast/fresh](https://github.com/gravityblast/fresh)
+* [https://github.com/beego/bee](https://github.com/beego/bee)
+* [https://github.com/silenceper/gowatch](https://github.com/silenceper/gowatch)
+* [https://github.com/codegangsta/gin](https://github.com/codegangsta/gin)
+* [https://github.com/oxequa/realize](https://github.com/oxequa/realize)
 * [深入理解Go之generate](https://segmentfault.com/a/1190000020158429)
 * [https://github.com/gohouse/converter](https://github.com/gohouse/converter)
 * [https://github.com/Zhwt/yaml-to-go](https://github.com/Zhwt/yaml-to-go)

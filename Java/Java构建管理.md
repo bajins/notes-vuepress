@@ -57,7 +57,7 @@
 **持续集成**
 
 - [https://github.com/jenkinsci](https://github.com/jenkinsci)
-  - [https://www.jenkins.io](https://www.jenkins.io)
+    - [https://www.jenkins.io](https://www.jenkins.io)
 - Jenkins前身 [https://github.com/hudson](https://github.com/hudson)
 - [https://www.jetbrains.com/zh-cn/teamcity](https://www.jetbrains.com/zh-cn/teamcity)
 - [https://www.atlassian.com/zh/software/bamboo](https://www.atlassian.com/zh/software/bamboo)

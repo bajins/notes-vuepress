@@ -751,6 +751,7 @@
 - [https://github.com/eclipse/nebula](https://github.com/eclipse/nebula)
 - [https://github.com/dlsc-software-consulting-gmbh](https://github.com/dlsc-software-consulting-gmbh)
 - [https://github.com/metawidget](https://github.com/metawidget)
+- [https://github.com/palexdev/MaterialFX](https://github.com/palexdev/MaterialFX)
 - Google Material Design [https://github.com/jfoenixadmin/JFoenix](https://github.com/jfoenixadmin/JFoenix)
 - Bootstrap样式 [https://github.com/dicolar/jbootx](https://github.com/dicolar/jbootx)
 - [https://github.com/edvin/tornadofx-controls](https://github.com/edvin/tornadofx-controls)

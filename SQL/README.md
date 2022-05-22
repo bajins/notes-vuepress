@@ -13,6 +13,7 @@
 * 自学SQL网 [http://xuesql.cn](http://xuesql.cn)
 * 数据库压测 [https://github.com/akopytov/sysbench](https://github.com/akopytov/sysbench)
 * [https://github.com/stcarrez/sql-benchmark](https://github.com/stcarrez/sql-benchmark)
+* 优化和改写 [https://github.com/XiaoMi/soar](https://github.com/XiaoMi/soar)
 
 
 **备份/迁移/同步/导入导出**

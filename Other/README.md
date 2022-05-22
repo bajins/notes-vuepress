@@ -259,7 +259,7 @@
 
 * 超级云短信： [http://www.bfkdim.com](http://www.bfkdim.com)
 * 隐私短信：[https://www.yinsiduanxin.com](https://www.yinsiduanxin.com)
-* 云短信： [https://www.materialtools.com](https://www.materialtools.com)
+* 云短信： [https://www.storytrain.info](https://www.storytrain.info)
 * 在线短信：[http://www.smszk.com](http://www.smszk.com)
 * 游客短信：[https://www.visitorsms.com/cn](https://www.visitorsms.com/cn)
 * 免费接码：[https://www.becmd.com](https://www.becmd.com)

@@ -408,6 +408,10 @@
 * [https://www.getpaint.net](https://www.getpaint.net)
 * [https://www.gimp.org](https://www.gimp.org)
 * 3D创作 [https://www.blender.org](https://www.blender.org)
+* Icon矢量图 [https://inkscape.org/zh-hans](https://inkscape.org/zh-hans)
+* [https://icofx.ro](https://icofx.ro)
+* Axialis-IconWorkshop 官网 [https://www.axialis.com/download/#software](https://www.axialis.com/download/#software)
+
 
 - [https://affinity.serif.com](https://affinity.serif.com)
 - [https://eagle.cool](https://eagle.cool)
@@ -438,11 +442,6 @@
 
 - Gif压缩 [https://gifcompressor.com/zh/](https://gifcompressor.com/zh/)
 
-
-### Icon图标
-
-* [https://icofx.ro](https://icofx.ro)
-* Axialis-IconWorkshop 官网 [https://www.axialis.com/download/#software](https://www.axialis.com/download/#software)
 
 
 ### 截图

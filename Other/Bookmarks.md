@@ -150,11 +150,13 @@
 * [https://github.com/polaris1119/awesome-cheatsheets-cn](https://github.com/polaris1119/awesome-cheatsheets-cn)
 * 学习主题清单 [https://github.com/jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
 * [https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh](https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh)
+* 程序员技能图谱 [https://github.com/TeamStuQ/skill-map](https://github.com/TeamStuQ/skill-map)
 * Linux应用程序 [https://github.com/luong-komorebi/Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software)
 * 九十九个问题 [https://github.com/shekhargulati/99-problems](https://github.com/shekhargulati/99-problems)
 * [https://github.com/JosephZhu1983/java-common-mistakes](https://github.com/JosephZhu1983/java-common-mistakes)
 * [https://github.com/danistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x)
 * 开源替代方案 [https://opensource.com/tags/alternatives](https://opensource.com/tags/alternatives)
+
 
 
 - 免费服务工具列表 [https://github.com/ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)

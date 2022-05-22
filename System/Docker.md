@@ -84,6 +84,7 @@
     * [https://github.com/kubernetes-sigs](https://github.com/kubernetes-sigs)
     * [https://github.com/tektoncd/pipeline](https://github.com/tektoncd/pipeline)
     * [https://github.com/rancher/fleet](https://github.com/rancher/fleet)
+    * [https://github.com/splunk/qbec](https://github.com/splunk/qbec)
 * [https://github.com/openshift](https://github.com/openshift)
 * [https://github.com/rook/rook](https://github.com/rook/rook)
 * [https://github.com/lensapp/lens](https://github.com/lensapp/lens)
