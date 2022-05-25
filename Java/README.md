@@ -778,6 +778,7 @@
 
 
 * Maven打包 [https://github.com/javafx-maven-plugin](https://github.com/javafx-maven-plugin)
+* UAC提权 [https://github.com/dyorgio/run-as-root](https://github.com/dyorgio/run-as-root)
 
 
 

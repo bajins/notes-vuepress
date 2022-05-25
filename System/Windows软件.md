@@ -105,6 +105,7 @@
 * [https://github.com/mastodon/mastodon](https://github.com/mastodon/mastodon)
 * [https://github.com/napthedev/fireverse](https://github.com/napthedev/fireverse)
 * [https://github.com/papercups-io/papercups](https://github.com/papercups-io/papercups)
+* [https://github.com/rumsystem/quorum](https://github.com/rumsystem/quorum)
 
 
 - [https://github.com/topics/curses](https://github.com/topics/curses)

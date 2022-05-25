@@ -338,6 +338,7 @@ var express = require('express');
 * 加密 [https://github.com/travist/jsencrypt](https://github.com/travist/jsencrypt)
 * [https://github.com/dmarman/sha256algorithm](https://github.com/dmarman/sha256algorithm)
 * 数据库可视化 [https://github.com/lana-k/sqliteviz](https://github.com/lana-k/sqliteviz)
+* JSON校验 [https://github.com/ozkxr/match-json](https://github.com/ozkxr/match-json)
 
 
 - 数字精度 [https://github.com/topics/arbitrary-precision](https://github.com/topics/arbitrary-precision)

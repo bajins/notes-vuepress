@@ -172,6 +172,8 @@
 * 应用监控 [https://github.com/codecentric/spring-boot-admin](https://github.com/codecentric/spring-boot-admin)
 * [https://github.com/Nepxion](https://github.com/Nepxion)
 * [https://github.com/sohutv/mqcloud](https://github.com/sohutv/mqcloud)
+* 日志集中管理 [https://github.com/logdna](https://github.com/logdna)
+* [https://github.com/allinurl/goaccess](https://github.com/allinurl/goaccess)
 
 
 - [https://github.com/bigbully/Dapper-translation](https://github.com/bigbully/Dapper-translation)

@@ -80,6 +80,7 @@
 * 访问头文件 [https://github.com/charto/nbind](https://github.com/charto/nbind)
 * 正则表达式 [https://github.com/CJex/regulex](https://github.com/CJex/regulex)
 * 特性开关 [https://github.com/Unleash/unleash](https://github.com/Unleash/unleash)
+* Excel [https://github.com/optilude/xlsx-template](https://github.com/optilude/xlsx-template)
 
 
 

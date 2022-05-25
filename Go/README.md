@@ -145,6 +145,7 @@
 | revel    	| https://github.com/revel/revel                                    | https://github.com/revel/revel               	|
 
 
++ [https://github.com/xyproto/algernon](https://github.com/xyproto/algernon)
 + 分布式 [https://github.com/asim/go-micro](https://github.com/asim/go-micro)
 + [https://github.com/gotomicro](https://github.com/gotomicro)
 + [https://github.com/go-playground](https://github.com/go-playground)
@@ -167,10 +168,12 @@
 
 
 * 工具包 [https://github.com/dablelv/go-huge-util](https://github.com/dablelv/go-huge-util)
+* [https://github.com/gookit](https://github.com/gookit)
 * [https://github.com/xxjwxc/public](https://github.com/xxjwxc/public)
-* [https://github.com/julienschmidt/httprouter](https://github.com/julienschmidt/httprouter)
+* [https://github.com/shenghui0779/yiigo](https://github.com/shenghui0779/yiigo)
 * [https://github.com/giampaolo/psutil](https://github.com/giampaolo/psutil)
 * [https://github.com/shirou/gopsutil](https://github.com/shirou/gopsutil)
+* [https://github.com/julienschmidt/httprouter](https://github.com/julienschmidt/httprouter)
 * JSON解析器 [https://github.com/json-iterator](https://github.com/json-iterator)
 * [https://github.com/mailru/easyjson](https://github.com/mailru/easyjson)
 * [https://github.com/minio/simdjson-go](https://github.com/minio/simdjson-go)
@@ -282,14 +285,15 @@
 * 图片转换 [https://github.com/gographics/imagick](https://github.com/gographics/imagick)
 * 地图 [https://github.com/tidwall/tile38](https://github.com/tidwall/tile38)
 * 限速 [https://github.com/Narasimha1997/ratelimiter](https://github.com/Narasimha1997/ratelimiter)
-* 格式化yaml [https://github.com/UltiRequiem/yamlfmt](https://github.com/UltiRequiem/yamlfmt)
-* 配置文件 [https://github.com/jinzhu/configor](https://github.com/jinzhu/configor)
-* [https://github.com/go-yaml/yaml](https://github.com/go-yaml/yaml)
-* [https://github.com/go-ini/ini](https://github.com/go-ini/ini)
-* [https://github.com/unknwon/goconfig](https://github.com/unknwon/goconfig)
-* [https://github.com/hyahm/goconfig](https://github.com/hyahm/goconfig)
-* [https://github.com/joho/godotenv](https://github.com/joho/godotenv)
+* 配置文件 [https://github.com/go-ini/ini](https://github.com/go-ini/ini)
+* [https://github.com/jinzhu/configor](https://github.com/jinzhu/configor)
+* [https://github.com/gookit/config](https://github.com/gookit/config)
 * [https://github.com/golobby/config](https://github.com/golobby/config)
+* [https://github.com/hyahm/goconfig](https://github.com/hyahm/goconfig)
+* [https://github.com/unknwon/goconfig](https://github.com/unknwon/goconfig)
+* [https://github.com/go-yaml/yaml](https://github.com/go-yaml/yaml)
+* [https://github.com/UltiRequiem/yamlfmt](https://github.com/UltiRequiem/yamlfmt)
+* [https://github.com/joho/godotenv](https://github.com/joho/godotenv)
 * [https://github.com/delfanhao/go-conf](https://github.com/delfanhao/go-conf)
 * [https://github.com/hashicorp/hcl](https://github.com/hashicorp/hcl)
 * [https://github.com/koding/multiconfig](https://github.com/koding/multiconfig)
@@ -312,7 +316,9 @@
 - IP代理池 [https://github.com/henson/proxypool](https://github.com/henson/proxypool)
 - [https://github.com/3xxx/engineercms](https://github.com/3xxx/engineercms)
 - [https://github.com/flipped-aurora/gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin)
-
+- [https://github.com/go-admin-team/go-admin](https://github.com/go-admin-team/go-admin)
+- [https://github.com/LyricTian/gin-admin](https://github.com/LyricTian/gin-admin)
+- [https://github.com/hzwy23/hauth](https://github.com/hzwy23/hauth)
 
 
 
