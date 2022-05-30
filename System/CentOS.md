@@ -72,62 +72,6 @@ chkconfig --list | grep mysqld
 chkconfig mysqld on
 ```
 
-## firewalld
-
-```bash
-# 查看firewalld状态，发现当前是dead状态，即防火墙未开启。
-systemctl status firewalld
-# 开启防火墙，没有任何提示即开启成功。
-systemctl start firewalld
-# 查看已开放的端口(默认不开放任何端口)
-firewall-cmd --list-ports
-# 重启防火墙
-firewall-cmd --reload
-# 停止防火墙
-systemctl stop firewalld.service
-# 禁止防火墙开机启动
-systemctl disable firewalld.service
-# 删除端口
-firewall-cmd --zone= public --remove-port=80/tcp --permanent
-
-# 开启80端口
-firewall-cmd --zone=public --add-port=80/tcp --permanent
-# 开启8080-8089的IP端
-firewall-cmd --zone=public --add-port=8080-8089/tcp --permanent
-# 开启3306端口
-firewall-cmd --zone=public --add-port=3306/tcp --permanent
-```
-
-- `--zone` 作用域
-- `--add-port=80/tcp` 添加端口，格式为：端口/通讯协议
-- `--permanent` 永久生效，没有此参数重启后失效
-
-
-**配置`firewalld-cmd`**
-
-```bash
-# 查看版本
-firewall-cmd --version
-# 查看帮助
-firewall-cmd --help
-# 显示状态
-firewall-cmd --state
-# 查看所有打开的端口
-firewall-cmd --zone=public --list-ports
-# 更新防火墙规则
-firewall-cmd --reload
-# 查看区域信息
-firewall-cmd --get-active-zones
-# 查看指定接口所属区域
-firewall-cmd --get-zone-of-interface=eth0
-# 拒绝所有包
-firewall-cmd --panic-on
-# 取消拒绝状态
-firewall-cmd --panic-off
-# 查看是否拒绝
-firewall-cmd --query-panic
-```
-
 
 
 ## 内核升级

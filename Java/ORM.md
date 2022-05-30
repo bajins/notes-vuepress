@@ -20,6 +20,7 @@
 * [https://github.com/eclipse-ee4j/eclipselink](https://github.com/eclipse-ee4j/eclipselink)
 * [https://github.com/apache/openjpa](https://github.com/apache/openjpa)
 * [https://github.com/spring-projects/spring-data-jdbc](https://github.com/spring-projects/spring-data-jdbc)
+* [https://github.com/apache/commons-dbutils](https://github.com/apache/commons-dbutils)
 * 只读查询 [https://github.com/ejlchina/bean-searcher](https://github.com/ejlchina/bean-searcher)
 
 

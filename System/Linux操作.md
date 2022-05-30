@@ -72,8 +72,6 @@
 * [https://github.com/calamares](https://github.com/calamares)
 
 
-
-
 - mac [https://github.com/macports](https://github.com/macports)
 - [https://github.com/kidonng/sushi](https://github.com/kidonng/sushi)
 
