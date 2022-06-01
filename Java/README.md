@@ -397,6 +397,7 @@
 - [https://sourceforge.net/projects/jbarcode](https://sourceforge.net/projects/jbarcode)
 - 图片压缩 [https://github.com/coobird/thumbnailator](https://github.com/coobird/thumbnailator)
     - [http://projects.coobird.net](http://projects.coobird.net)
+- [https://github.com/eclipsesource/J2V8](https://github.com/eclipsesource/J2V8)
 
 
 
@@ -562,6 +563,8 @@
     * [http://poi.apache.org/components/spreadsheet](http://poi.apache.org/components/spreadsheet)
     * [导出百万级数据到Excel 文件](https://blog.csdn.net/gd6321374/article/details/90417202)
     * [https://github.com/550690513/large-amount-data-export](https://github.com/550690513/large-amount-data-export)
+* [https://github.com/opensagres](https://github.com/opensagres)
+* [https://github.com/MSPaintIDE/NewOCR](https://github.com/MSPaintIDE/NewOCR)
 
 
 > XML文件的解析技术有DOM和SAX方式，JAXB（Java Architecture for XML Binding) 是一个业界的标准，是一项根据`XML Schema`产生Java类的技术

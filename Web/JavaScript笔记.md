@@ -351,3 +351,14 @@ var e = $.Event("keydown") || jQuery.Event("keydown"); // 创建事件
 e.keyCode = 13; // 回车
 $("input").trigger(e); // 触发事件
 ```
+
+
+## 合并对象
+
+```js
+Object.assing({}, obj);
+{...{}, ...obj}
+
+// Jquery
+$.extend({}, obj)
+```

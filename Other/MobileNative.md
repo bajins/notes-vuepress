@@ -124,6 +124,7 @@
 * [https://github.com/framework7io](https://github.com/framework7io)
 * [https://github.com/OnsenUI/OnsenUI](https://github.com/OnsenUI/OnsenUI)
 * [https://github.com/monaca](https://github.com/monaca)
+* [https://github.com/eclipsesource/tabris-js](https://github.com/eclipsesource/tabris-js)
 
 
 
