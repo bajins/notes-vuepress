@@ -163,7 +163,7 @@
 
 + [https://github.com/flutter](https://github.com/flutter)
     + [https://flutter.cn](https://flutter.cn)
-    + [https://github.com/flutterchina/flutter-in-action](https://github.com/flutterchina/flutter-in-action)
+    + [https://github.com/flutterchina](https://github.com/flutterchina)
         + [https://flutterchina.club](https://flutterchina.club)
     + [https://codelabs.flutter-io.cn](https://codelabs.flutter-io.cn)
     + PUB_HOSTED_URL [https://pub.flutter-io.cn](https://pub.flutter-io.cn)

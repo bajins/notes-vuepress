@@ -25,6 +25,12 @@
 ## 查看网络
 
 ```bash
+# 查询系统中缓存的ARP表，ARP表用来维护IP地址与MAC地址的对应关系
+arp -an
+# 
+ip a
+ifconfig
+
 # 输出当前的ESTABLISHED和TIME_WAIT数
 netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'
 netstat -ant | awk '

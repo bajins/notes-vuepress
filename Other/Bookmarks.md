@@ -109,7 +109,6 @@
 * [https://github.com/TiantianUpup](https://github.com/TiantianUpup)
 * [https://github.com/cicadasmile](https://github.com/cicadasmile)
 * [https://github.com/brianway](https://github.com/brianway)
-* [https://github.com/michaelliao](https://github.com/michaelliao)
 * [https://github.com/Blankj](https://github.com/Blankj)
 * [https://github.com/ityouknow](https://github.com/ityouknow)
 * [https://github.com/eugenp](https://github.com/eugenp)

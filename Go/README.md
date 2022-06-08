@@ -254,6 +254,7 @@
 * 十进制数 [https://github.com/shopspring/decimal](https://github.com/shopspring/decimal)
 * 布隆过滤器 [https://github.com/bits-and-blooms](https://github.com/bits-and-blooms)
 * excel [https://github.com/360EntSecGroup-Skylar/excelize](https://github.com/360EntSecGroup-Skylar/excelize)
+* [https://github.com/qax-os/excelize](https://github.com/qax-os/excelize)
 * Quoted-printable [https://github.com/sloonz/go-qprintable](https://github.com/sloonz/go-qprintable)
 * GUI [https://github.com/visualfc/atk](https://github.com/visualfc/atk)
 * [https://github.com/vugu/vugu](https://github.com/vugu/vugu)

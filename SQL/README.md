@@ -14,6 +14,13 @@
 * 数据库压测 [https://github.com/akopytov/sysbench](https://github.com/akopytov/sysbench)
 * [https://github.com/stcarrez/sql-benchmark](https://github.com/stcarrez/sql-benchmark)
 * 优化和改写 [https://github.com/XiaoMi/soar](https://github.com/XiaoMi/soar)
+* [https://www.1keydata.com/cn/sql](https://www.1keydata.com/cn/sql)
+* [https://www.twle.cn/l/yufei/sql/sql-basic-index.html](https://www.twle.cn/l/yufei/sql/sql-basic-index.html)
+* [https://www.begtut.com/sql/sql-ref-keywords.html](https://www.begtut.com/sql/sql-ref-keywords.html)
+* [https://wizardforcel.gitbooks.io/w3school-sql](https://wizardforcel.gitbooks.io/w3school-sql)
+* HiveSQL教程 [https://www.gairuo.com/p/hive-sql-tutorial](https://www.gairuo.com/p/hive-sql-tutorial)
+
+
 
 
 **备份/迁移/同步/导入导出**
