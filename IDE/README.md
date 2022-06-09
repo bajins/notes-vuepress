@@ -12,13 +12,14 @@
 
 
 * [https://github.com/apache/netbeans](https://github.com/apache/netbeans)
-* [https://github.com/atom](https://github.com/atom)
+* ~~[https://github.com/atom](https://github.com/atom)~~
 * [https://github.com/eclipse-theia/theia](https://github.com/eclipse-theia/theia)
     * [https://theia-ide.org](https://theia-ide.org)
 * [https://github.com/VSCodium/vscodium](https://github.com/VSCodium/vscodium)
 * GoIDE [https://github.com/visualfc/liteide](https://github.com/visualfc/liteide)
 * [https://sourceforge.net/projects/liteide](https://sourceforge.net/projects/liteide)
 * [https://github.com/lapce](https://github.com/lapce)
+* [https://github.com/zed-industries](https://github.com/zed-industries)
 
 
 - 代码搜索和替换 [https://github.com/comby-tools/comby](https://github.com/comby-tools/comby)

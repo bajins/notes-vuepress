@@ -7,14 +7,9 @@
 
 ## Flag
 
-+ [https://github.com/topics/git](https://github.com/topics/git)
 + [https://github.com/semantic-release](https://github.com/semantic-release)
 
 
-* [https://github.com/git](https://github.com/git)
-  * [https://github.com/git-for-windows](https://github.com/git-for-windows)
-  * [https://git-scm.com](https://git-scm.com)
-  * [https://gitforwindows.org](https://gitforwindows.org)
 * 忽略提交 [https://github.com/github/gitignore](https://github.com/github/gitignore)
 * [https://github.com/toptal/gitignore.io](https://github.com/toptal/gitignore.io)
 * 编辑版本控制存储库的历史 [http://www.catb.org/esr/reposurgeon](http://www.catb.org/esr/reposurgeon)
@@ -230,19 +225,19 @@ volumes:
 
 
 * [https://codechina.csdn.net/mirrors](https://codechina.csdn.net/mirrors)
+* [https://gitee.com/mirrors](https://gitee.com/mirrors)
 * [https://github.com/FastGitORG](https://github.com/FastGitORG)
     * [https://hub.fastgit.org](https://hub.fastgit.org) 中国香港
     * [https://toolwa.com/github](https://toolwa.com/github)
-* [https://d.serctl.com](https://d.serctl.com)
+* [https://github.com/dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub)
 * [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
     * [http://git.aakkc.com](http://git.aakkc.com)
     * [https://gh.api.99988866.xyz](https://gh.api.99988866.xyz) 美国
     * [https://ghproxy.com](https://ghproxy.com) 韩国首尔
     * [https://shrill-pond-3e81.hunsh.workers.dev](https://shrill-pond-3e81.hunsh.workers.dev)
     * [https://github.91chifun.workers.dev](https://github.91chifun.workers.dev)
-* [https://gitee.com/mirrors](https://gitee.com/mirrors)
+* [https://d.serctl.com](https://d.serctl.com)
 * [https://github.xxyyzz.workers.dev](https://github.xxyyzz.workers.dev)
-* [https://github.com/dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub)
 * [https://gh.msx.workers.dev](https://gh.msx.workers.dev) 美国
 * [https://gh.xiu2.xyz](https://gh.xiu2.xyz) 美国（自建
 * [https://gh.argv.cc](https://gh.argv.cc) 美国

@@ -313,6 +313,8 @@
 * [https://github.com/checkr/flagr](https://github.com/checkr/flagr)
 * 分布式唯一ID [https://github.com/yongxinz/id-maker](https://github.com/yongxinz/id-maker)
 * shell [https://github.com/creack/pty](https://github.com/creack/pty)
+* 单元测试 [https://github.com/maxbrunsfeld/counterfeiter](https://github.com/maxbrunsfeld/counterfeiter)
+* [https://github.com/onsi/gomega](https://github.com/onsi/gomega)
 
 
 

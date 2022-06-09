@@ -49,6 +49,8 @@
 - [https://github.com/ycm-core/ycmd](https://github.com/ycm-core/ycmd)
 
 
+* 语法增量解析 [https://github.com/tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter)
+
 
 
 ## 设置
