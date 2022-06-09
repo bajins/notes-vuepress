@@ -56,6 +56,16 @@
     + [Linux Virtual Server](https://www.zhihu.com/topic/19607051/newest)
     + [LVS nat模式和DR模式简介](https://blog.51cto.com/u_11566825/2130705)
     + [VIP和RIP不同网段的LVS和keepalived高可用](https://blog.51cto.com/bbotte/1584925)
++ DNS [https://github.com/topics/dns-server](https://github.com/topics/dns-server)
+    + [https://github.com/topics/service-discovery](https://github.com/topics/service-discovery)
+    + [https://github.com/topics/cncf](https://github.com/topics/cncf)
+    + [https://github.com/coredns/coredns](https://github.com/coredns/coredns)
+    + [https://github.com/skynetservices/skydns](https://github.com/skynetservices/skydns)
+    + [https://github.com/google/proto-quic](https://github.com/google/proto-quic)
+    + [https://github.com/google/quiche](https://github.com/google/quiche)(https://github.com/google/quiche)
+    + [https://github.com/lucas-clemente/quic-go](https://github.com/lucas-clemente/quic-go)
+    + [https://github.com/topics/http3](https://github.com/topics/http3)
+    + [https://github.com/topics/quic](https://github.com/topics/quic)
 
 
 
