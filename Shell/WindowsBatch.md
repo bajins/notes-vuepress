@@ -48,6 +48,18 @@ msg %username% /time:60 "WARNING:a backdoor account is created"
 - 事件日志目录：`%SystemRoot%\System32\Winevt\Logs`
 
 
+**获取用户名**
+
+```batch
+echo %username%
+net user
+whoami
+query user
+quser
+```
+
+
+
 
 ## 文件操作
 

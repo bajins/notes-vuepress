@@ -389,6 +389,9 @@
 * [https://github.com/topics/comparator](https://github.com/topics/comparator)
 * 比较文本差异 [https://github.com/java-diff-utils/java-diff-utils](https://github.com/java-diff-utils/java-diff-utils)
 * [https://github.com/ejlchina](https://github.com/ejlchina)
+* 获取系统信息 [https://github.com/oshi/oshi](https://github.com/oshi/oshi)
+* [https://github.com/HaraldWalker/user-agent-utils](https://github.com/HaraldWalker/user-agent-utils)
+
 
 - 条码 [https://github.com/zxing/zxing](https://github.com/zxing/zxing)
     - [Java 条形码生成](https://www.cnblogs.com/lixin-link/p/15359508.html)

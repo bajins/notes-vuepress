@@ -200,6 +200,7 @@
 * [https://github.com/zhihu/norm](https://github.com/zhihu/norm)
 * [https://gitea.com/xorm/xorm](https://gitea.com/xorm/xorm)
     * [https://xorm.io](https://xorm.io)
+* [https://github.com/xormplus/xorm](https://github.com/xormplus/xorm)
 * [https://github.com/libragen/felix](https://github.com/libragen/felix)
 * [https://github.com/eventials/go-tus](https://github.com/eventials/go-tus)
 * 缓存 [https://github.com/patrickmn/go-cache](https://github.com/patrickmn/go-cache)

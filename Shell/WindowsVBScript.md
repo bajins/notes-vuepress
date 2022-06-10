@@ -151,6 +151,26 @@ Public Function GetSystemBit()
 End Function
 ```
 
+```vb
+Set objWMIService = GetObject("winmgmts://./root/cimv2")
+'通过wmi获取激活状态的网络适配器对象后，读取IPAddress、Description、MACAddress
+Set adapters = objWMIService.ExecQuery("Select * From Win32_NetworkAdapterConfiguration Where IPEnabled = True")
+Set wshell = Wscript.CreateObject("Wscript.Shell")
+
+'直接从环境变量里取计算机名、当前用户名
+result ="HOSTNAME: 【" & wshell.ExpandEnvironmentStrings("%COMPUTERNAME%") & _ 
+        "】" & vbcrlf & "USER: 【" & wshell.ExpandEnvironmentStrings("%USERNAME%") & "】"
+
+For Each adapter in adapters
+  With adapter
+    result = result & vbcrlf & vbcrlf & .Description & ":" & _ 
+            vbcrlf & "MAC:【" & .MACAddress & "】" & vbcrlf & "IP:【" &  join(.IPAddress, ", ") & "】"
+  End With
+Next
+
+msgbox result
+```
+
 
 ### 隐藏窗口运行
 

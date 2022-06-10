@@ -213,6 +213,9 @@
 
 ## 匿名分享
 
+* [https://github.com/LucienShui/PasteMe](https://github.com/LucienShui/PasteMe)
+* [https://github.com/PasteUs/PasteMeGoBackend](https://github.com/PasteUs/PasteMeGoBackend)
+
 **图床**
 
 * [http://img.wang](http://img.wang)
