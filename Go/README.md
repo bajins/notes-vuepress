@@ -94,6 +94,7 @@
 * [https://github.com/0voice/Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang)
 * [https://github.com/golang-design](https://github.com/golang-design)
 * [https://github.com/cch123/golang-notes](https://github.com/cch123/golang-notes)
+* [https://github.com/shgopher/GOFamily](https://github.com/shgopher/GOFamily)
 * [https://github.com/pibigstar/go-demo](https://github.com/pibigstar/go-demo)
 * [https://www.topgoer.com](https://www.topgoer.com)
 * [https://github.com/iswbm](https://github.com/iswbm)
@@ -145,7 +146,9 @@
 | revel    	| https://github.com/revel/revel                                    | https://github.com/revel/revel               	|
 
 
++ [https://github.com/go-martini/martini](https://github.com/go-martini/martini)
 + [https://github.com/xyproto/algernon](https://github.com/xyproto/algernon)
++ [https://github.com/urfave](https://github.com/urfave)
 + 分布式 [https://github.com/asim/go-micro](https://github.com/asim/go-micro)
 + [https://github.com/gotomicro](https://github.com/gotomicro)
 + [https://github.com/go-playground](https://github.com/go-playground)
@@ -164,6 +167,10 @@
 + [https://github.com/goplus](https://github.com/goplus)
 + [https://github.com/gliderlabs](https://github.com/gliderlabs)
 + [https://github.com/mailru](https://github.com/mailru)
++ [https://github.com/mholt](https://github.com/mholt)
++ [https://github.com/moul](https://github.com/moul)
++ [https://github.com/frobware](https://github.com/frobware)
++ [https://github.com/juju](https://github.com/juju)
 
 
 
@@ -209,7 +216,7 @@
 * [https://github.com/muesli/cache2go](https://github.com/muesli/cache2go)
 * 快速生成ASCII表格 [https://github.com/olekukonko/tablewriter](https://github.com/olekukonko/tablewriter)
 * 获取固定宽度的字符或字符串 [https://github.com/mattn/go-runewidth](https://github.com/mattn/go-runewidth)
-* Lane包提供队列，优先级队列，堆栈和双端队列 [https://github.com/oleiade/lane](https://github.com/oleiade/lane)
+* 队列 [https://github.com/oleiade/lane](https://github.com/oleiade/lane)
 * 具有历史记录的命令行编辑器 [https://github.com/peterh/liner](https://github.com/peterh/liner)
 * 自动控制基于终端或控制台 [https://github.com/Netflix/go-expect](https://github.com/Netflix/go-expect)
 * [https://github.com/google/goexpect](https://github.com/google/goexpect)
@@ -219,7 +226,7 @@
 * [https://github.com/nakagami/firebirdsql](https://github.com/nakagami/firebirdsql)
 * [https://github.com/lib/pq](https://github.com/lib/pq)
 * PostgreSQL驱动 [https://github.com/jackc/pgx](https://github.com/jackc/pgx)
-* Swagger 2.0 for Go [https://github.com/swaggo](https://github.com/swaggo)
+* Swagger2 [https://github.com/swaggo](https://github.com/swaggo)
 * [https://github.com/owenliang/go-push](https://github.com/owenliang/go-push)
 * [https://github.com/rs/zerolog](https://github.com/rs/zerolog)
 * [https://github.com/uber-go/zap](https://github.com/uber-go/zap)
@@ -282,6 +289,7 @@
 * [https://github.com/seccomp/libseccomp-golang](https://github.com/seccomp/libseccomp-golang)
 * 构建命令行 [https://github.com/urfave/cli](https://github.com/urfave/cli)
 * [https://github.com/go-cmd/cmd](https://github.com/go-cmd/cmd)
+* [https://github.com/charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea)
 * 内核模糊器 [https://github.com/google/syzkaller](https://github.com/google/syzkaller)
 * Markdown处理 [https://github.com/russross/blackfriday](https://github.com/russross/blackfriday)
 * markdown转roff [https://github.com/cpuguy83/go-md2man](https://github.com/cpuguy83/go-md2man)
@@ -313,9 +321,11 @@
 * 特性开关 [https://github.com/markphelps/flipt](https://github.com/markphelps/flipt)
 * [https://github.com/checkr/flagr](https://github.com/checkr/flagr)
 * 分布式唯一ID [https://github.com/yongxinz/id-maker](https://github.com/yongxinz/id-maker)
+* [https://github.com/bwmarrin/snowflake](https://github.com/bwmarrin/snowflake)
 * shell [https://github.com/creack/pty](https://github.com/creack/pty)
 * 单元测试 [https://github.com/maxbrunsfeld/counterfeiter](https://github.com/maxbrunsfeld/counterfeiter)
 * [https://github.com/onsi/gomega](https://github.com/onsi/gomega)
+* CLI [https://github.com/blend/go-sdk](https://github.com/blend/go-sdk)
 
 
 
@@ -348,7 +358,6 @@
 * [深入理解Go之generate](https://segmentfault.com/a/1190000020158429)
 * [https://github.com/gohouse/converter](https://github.com/gohouse/converter)
 * [https://github.com/Zhwt/yaml-to-go](https://github.com/Zhwt/yaml-to-go)
-* [https://github.com/mholt/json-to-go](https://github.com/mholt/json-to-go)
 * 正则在线测试 [http://regoio.herokuapp.com](http://regoio.herokuapp.com)
 * 接口和结构体UML [https://www.dumels.com](https://www.dumels.com)
 

@@ -81,6 +81,7 @@
 * 正则表达式 [https://github.com/CJex/regulex](https://github.com/CJex/regulex)
 * 特性开关 [https://github.com/Unleash/unleash](https://github.com/Unleash/unleash)
 * Excel [https://github.com/optilude/xlsx-template](https://github.com/optilude/xlsx-template)
+* 分布式ID [https://github.com/cloudyan/snowflake](https://github.com/cloudyan/snowflake)
 
 
 

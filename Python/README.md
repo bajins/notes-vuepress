@@ -261,6 +261,7 @@ with Test() as t: # 触发__exit__
 * 提高分辨率 [https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement)
 * [https://github.com/CompVis/latent-diffusion](https://github.com/CompVis/latent-diffusion)
 * 换脸 [https://github.com/iperov/DeepFaceLab](https://github.com/iperov/DeepFaceLab)
+* 视频制作 [https://github.com/elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot)
 
 
 - [https://github.com/opencv](https://github.com/opencv)

@@ -217,6 +217,7 @@
 + [https://github.com/apache/maven-wagon](https://github.com/apache/maven-wagon)
 + [https://github.com/takari/maven-wrapper](https://github.com/takari/maven-wrapper)
 + [https://github.com/mojohaus/exec-maven-plugin](https://github.com/mojohaus/exec-maven-plugin)
++ [https://github.com/mathieucarbou/license-maven-plugin](https://github.com/mathieucarbou/license-maven-plugin)
 
 
 - [开源的一小步----开源类库传至Maven中央仓库](https://www.cnblogs.com/shook/p/14415856.html)

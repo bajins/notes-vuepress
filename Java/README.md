@@ -36,6 +36,7 @@
 - [收集业务日志，提炼有效数据](https://mp.weixin.qq.com/s/mA8ZqShP0p_t1toTzqpW3Q)
 - [通过filebeat、logstash、rsyslog采集nginx日志的几种方式](https://www.cnblogs.com/xiejava/p/12452434.html)
 - [分布式系统唯一ID生成方案汇总](https://www.cnblogs.com/haoxinyue/p/5208136.html)
+    - [理解Snowflake算法的实现原理](https://www.cnblogs.com/throwable/p/13467763.html)
 - [设计一个全局异常处理器](https://crossoverjie.top/2019/07/15/wheel/cicada7-exception-handle)
 - [理解、学习与使用 JAVA 中的 OPTIONAL](https://www.cnblogs.com/zhangboyu/p/7580262.html)
 - [理解零拷贝（Zero-copy）](https://blog.csdn.net/qq_39615545/article/details/108116820)
@@ -391,6 +392,8 @@
 * [https://github.com/ejlchina](https://github.com/ejlchina)
 * 获取系统信息 [https://github.com/oshi/oshi](https://github.com/oshi/oshi)
 * [https://github.com/HaraldWalker/user-agent-utils](https://github.com/HaraldWalker/user-agent-utils)
+* 分布式ID [https://github.com/zjcscut/framework-mesh](https://github.com/zjcscut/framework-mesh)
+* [https://github.com/Meituan-Dianping/Leaf](https://github.com/Meituan-Dianping/Leaf)
 
 
 - 条码 [https://github.com/zxing/zxing](https://github.com/zxing/zxing)

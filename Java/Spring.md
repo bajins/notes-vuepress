@@ -61,6 +61,13 @@
 
 
 
+**启动错误**
+
+> `NoClassDefFoundError: Could not initialize class org.springframework.beans.factory.BeanCreationException`
+>
+> 可能是内存大小不够，加参数：`-Xms1024M -Xmx2048M -XX:MetaspaceSize=512m -XX:MaxMetaspaceSize=2048m -Xss5120k`
+
+
 ## 事务
 
 + [org.springframework.transaction.annotation.Propagation](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/transaction/annotation/Propagation.html)
@@ -96,6 +103,9 @@ private TransactionDefinition transactionDefinition;*/
 // 设置事务隔离级别，开启新事务
 DefaultTransactionDefinition def = new DefaultTransactionDefinition(TransactionDefinition.PROPAGATION_REQUIRES_NEW);
 //def.setPropagationBehavior(TransactionDefinition.PROPAGATION_REQUIRES_NEW);
+
+// foreach start
+
 // 获得事务状态
 TransactionStatus status = transactionManager.getTransaction(def);
 try {
@@ -114,6 +124,7 @@ try {
         transactionManager.commit(status); // 如果rollBackOnly状态被设置将回滚，否则执行正常的事务提交操作
     }
 }
+// foreach end
 ```
 
 

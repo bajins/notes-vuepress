@@ -895,6 +895,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * GTA游戏 [https://github.com/GTAmodding/re3](https://github.com/GTAmodding/re3)
 * [https://github.com/theVakhovskeIsTaken/holoiso](https://github.com/theVakhovskeIsTaken/holoiso)
 * [https://github.com/Plagman/gamescope](https://github.com/Plagman/gamescope)
+* [https://github.com/open-goal/jak-project](https://github.com/open-goal/jak-project)
 
 
 - 文档转换 [https://github.com/topics/converter](https://github.com/topics/converter)

@@ -46,6 +46,7 @@
 ## Notepad++
 
 * [https://github.com/notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus)
+* 插件 [https://github.com/notepad-plus-plus/nppPluginList](https://github.com/notepad-plus-plus/nppPluginList)
 * [替换默认记事本](https://npp-user-manual.org/docs/other-resources/#notepad-replacement)
 * 比较 [https://github.com/pnedev/compare-plugin](https://github.com/pnedev/compare-plugin)
 
