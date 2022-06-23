@@ -12,6 +12,7 @@
    + [https://www.eclipse.org/downloads/packages](https://www.eclipse.org/downloads/packages)
    + [https://github.com/eclipse/wildwebdeveloper](https://github.com/eclipse/wildwebdeveloper)
       + Mars之后版本不再集成支持JavaScript需要安装插件，参考[Tern Eclipse IDE](https://marketplace.eclipse.org/content/tern-eclipse-ide)
++ 设置 [https://github.com/vorburger/opendaylight-eclipse-setup](https://github.com/vorburger/opendaylight-eclipse-setup)
 + Spring Tools 4 [https://github.com/spring-projects/sts4](https://github.com/spring-projects/sts4)
 
 

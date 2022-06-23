@@ -650,8 +650,6 @@
     * [https://apkpure.com/cn/shareme-1-file-sharing-data-transfer-app/com.xiaomi.midrop](https://apkpure.com/cn/shareme-1-file-sharing-data-transfer-app/com.xiaomi.midrop)
 * ShareMi [https://apkpure.com/cn/sharemi-fast-transfer-file-fast-share-file/com.xlab.xdrop](https://apkpure.com/cn/sharemi-fast-transfer-file-fast-share-file/com.xlab.xdrop)
 * 文件闪传 [https://github.com/skyhacker2/skyhacker2.github.com/blob/master/blog/p/projects/index.md](https://github.com/skyhacker2/skyhacker2.github.com/blob/master/blog/p/projects/index.md)
-* K-9邮件 [https://github.com/k9mail](https://github.com/k9mail)
-* [https://github.com/M66B/FairEmail](https://github.com/M66B/FairEmail)
 * 沙盒塔防游戏 [https://github.com/Anuken/Mindustry](https://github.com/Anuken/Mindustry)
 * [https://github.com/PojavLauncherTeam](https://github.com/PojavLauncherTeam)
 * 1DM/IDM [https://www.apps2sd.info/idmp/faq](https://www.apps2sd.info/idmp/faq)

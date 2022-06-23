@@ -21,11 +21,15 @@
 
 * [https://github.com/Boris-code/feapder](https://github.com/Boris-code/feapder)
 * [https://github.com/pyppeteer/pyppeteer](https://github.com/pyppeteer/pyppeteer)
+* [https://github.com/hyperiongray/trio-chrome-devtools-protocol](https://github.com/hyperiongray/trio-chrome-devtools-protocol)
+* [https://github.com/chuckus/chromewhip](https://github.com/chuckus/chromewhip)
+* [https://github.com/fate0/pychrome](https://github.com/fate0/pychrome)
+* [https://github.com/fake-name/ChromeController](https://github.com/fake-name/ChromeController)
 * [https://github.com/N0taN3rd/chrome-remote-interface-py](https://github.com/N0taN3rd/chrome-remote-interface-py)
 * [https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China](https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China)
 * [xvfb可以将屏幕的图像输出给放到虚拟内存中](https://blog.csdn.net/wkb342814892/article/details/81591394)
 * [https://github.com/scrapy/scrapy](https://github.com/scrapy/scrapy)
-* [https://github.com/ssssssss-team/spider-flow](https://github.com/ssssssss-team/spider-flow)
+* [https://github.com/mouday/spider-admin-pro](https://github.com/mouday/spider-admin-pro)
 
 
 **[xpath和css选择器](/Web/README.md#xpath和css选择器)**
@@ -51,6 +55,7 @@
 + [https://github.com/search?q=微信公众号爬虫](https://github.com/search?q=微信公众号爬虫)
 + [https://github.com/search?q=WeChat+Hook](https://github.com/search?q=WeChat+Hook)
 
+* 搜索社交账户 [https://github.com/sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)
 * [https://github.com/DropsDevopsOrg/ECommerceCrawlers](https://github.com/DropsDevopsOrg/ECommerceCrawlers)
 * [https://github.com/wnma3mz/wechat_articles_spider](https://github.com/wnma3mz/wechat_articles_spider)
 * [https://github.com/wwg88888888/WeChatExt](https://github.com/wwg88888888/WeChatExt)
@@ -121,7 +126,9 @@
 
 * [https://github.com/SeleniumHQ](https://github.com/SeleniumHQ)
     * [https://selenium.dev/documentation/zh-cn](https://selenium.dev/documentation/zh-cn)
-    * [Selenium with Python中文翻译文档](https://selenium-python-zh.readthedocs.io/en/latest/index.html)
+    * [https://github.com/caoruiy/selenium-python-docs-zh](https://github.com/caoruiy/selenium-python-docs-zh)
+    * [https://selenium-python-zh.readthedocs.io](https://selenium-python-zh.readthedocs.io)
+    * [https://wizardforcel.gitbooks.io/selenium-doc](https://wizardforcel.gitbooks.io/selenium-doc)
 * [https://github.com/seleniumbase](https://github.com/seleniumbase)
 * [Python3-Selenium开启自动化测试](http://qzmvc1.top/Python3-Selenium%E5%BC%80%E5%90%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95.html)
 * [python+selenium 判断元素是否存在，是否可点击，是否被选中](https://www.twblogs.net/a/5c8414bdbd9eee35cd69c929/zh-cn)

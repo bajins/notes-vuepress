@@ -11,9 +11,10 @@
 
 **[HeadlessBrowser](/IDE/Chrome.md#HeadlessBrowser)**
 
-- 类似于BeautifulSoup [https://github.com/anaskhan96/soup](https://github.com/anaskhan96/soup)
-- 基于DevTools协议的高级驱动程序 [https://github.com/go-rod/rod](https://github.com/go-rod/rod)
+- [https://github.com/go-rod/rod](https://github.com/go-rod/rod)
 - [https://github.com/derekparker/delve](https://github.com/derekparker/delve)
+- [https://github.com/mafredri/cdp](https://github.com/mafredri/cdp)
+- 类BeautifulSoup [https://github.com/anaskhan96/soup](https://github.com/anaskhan96/soup)
 
 
 ## HTML解析

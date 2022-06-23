@@ -231,9 +231,9 @@ volumes:
     * [https://toolwa.com/github](https://toolwa.com/github)
 * [https://github.com/dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub)
 * [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
+    * [https://ghproxy.com](https://ghproxy.com) 韩国首尔
     * [http://git.aakkc.com](http://git.aakkc.com)
     * [https://gh.api.99988866.xyz](https://gh.api.99988866.xyz) 美国
-    * [https://ghproxy.com](https://ghproxy.com) 韩国首尔
     * [https://shrill-pond-3e81.hunsh.workers.dev](https://shrill-pond-3e81.hunsh.workers.dev)
     * [https://github.91chifun.workers.dev](https://github.91chifun.workers.dev)
 * [https://d.serctl.com](https://d.serctl.com)

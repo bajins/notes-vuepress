@@ -715,13 +715,19 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 ## 邮箱客户端
 
-* [https://github.com/topics/smtp-client](https://github.com/topics/smtp-client)
-* [https://github.com/topics/imap-client](https://github.com/topics/imap-client)
-* [https://github.com/topics/e-mail](https://github.com/topics/e-mail)
-* [https://github.com/topics/mail](https://github.com/topics/e-mail)
-* Mozilla Thunderbird [https://github.com/mozilla-comm](https://github.com/mozilla-comm)
-    * [https://github.com/thundernest](https://github.com/thundernest)
++ [https://github.com/topics/smtp-client](https://github.com/topics/smtp-client)
++ [https://github.com/topics/imap-client](https://github.com/topics/imap-client)
++ [https://github.com/topics/e-mail](https://github.com/topics/e-mail)
++ [https://github.com/topics/mail](https://github.com/topics/e-mail)
+
+
+* Thunderbird [https://github.com/mozilla-comm](https://github.com/mozilla-comm)
+    * [https://github.com/thundernest/k-9](https://github.com/thundernest/k-9)
     * [https://www.thunderbird.net](https://www.thunderbird.net)
+    * [https://github.com/fastaddons/WebTranslate](https://github.com/fastaddons/WebTranslate)
+    * [https://github.com/itagagaki/DeepL-Selected-Text](https://github.com/itagagaki/DeepL-Selected-Text)
+    * K-9邮件 [https://github.com/k9mail](https://github.com/k9mail)
+    * [https://github.com/M66B/FairEmail](https://github.com/M66B/FairEmail)
 * [https://www.foxmail.com](https://www.foxmail.com)
 * [https://mail.163.com/dashi](https://mail.163.com/dashi)
 * [https://sparkmailapp.com](https://sparkmailapp.com)

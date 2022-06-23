@@ -197,7 +197,7 @@ for (List<String> partition : partitions) {
 ## Hibernate
 
 * [https://github.com/hibernate](https://github.com/hibernate)
-
+* [https://github.com/vladmihalcea/hypersistence-optimizer](https://github.com/vladmihalcea/hypersistence-optimizer)
 
 
 ### 返回结果接收方式

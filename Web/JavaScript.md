@@ -192,6 +192,7 @@ var express = require('express');
 + [https://github.com/CreateJS](https://github.com/CreateJS)
 + [https://github.com/kangax](https://github.com/kangax)
 + [https://github.com/alyssaxuu](https://github.com/alyssaxuu)
++ [https://github.com/tomayac](https://github.com/tomayac)
 
 
 - 转换编译器 [https://github.com/babel](https://github.com/babel)
@@ -282,8 +283,6 @@ var express = require('express');
         * [https://localforage.docschina.org](https://localforage.docschina.org)
 * [https://github.com/typicode/lowdb](https://github.com/typicode/lowdb)
 * [https://github.com/marcuswestin/store.js](https://github.com/marcuswestin/store.js)
-* 保存文件 [https://github.com/eligrey/FileSaver.js](https://github.com/eligrey/FileSaver.js)
-* [https://github.com/jimmywarting/StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js)
 * [https://github.com/adiwajshing/keyed-db](https://github.com/adiwajshing/keyed-db)
 * [https://github.com/gruns/ImmortalDB](https://github.com/gruns/ImmortalDB)
 * [https://github.com/dfahlander/Dexie.js](https://github.com/dfahlander/Dexie.js)
@@ -390,9 +389,18 @@ var express = require('express');
 
 
 
-- [https://github.com/rndme/download](https://github.com/rndme/download)
+- [https://github.com/wicg/file-system-access](https://github.com/wicg/file-system-access)
+- [https://github.com/GoogleChromeLabs/browser-fs-access](https://github.com/GoogleChromeLabs/browser-fs-access)
+- [https://web.dev/file-system-access](https://web.dev/file-system-access)
+- [https://github.com/whatwg/fs](https://github.com/whatwg/fs)
 - 文件上传 [https://github.com/fex-team/webuploader](https://github.com/fex-team/webuploader)
+- [https://github.com/imcuttle/moUploader](https://github.com/imcuttle/moUploader)
 - [https://github.com/lovefc/fcup2](https://github.com/lovefc/fcup2)
+- 保存文件 [https://github.com/eligrey/FileSaver.js](https://github.com/eligrey/FileSaver.js)
+- [https://github.com/rndme/download](https://github.com/rndme/download)
+- [https://github.com/jimmywarting/StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js)
+- [https://github.com/jimmywarting/native-file-system-adapter](https://github.com/jimmywarting/native-file-system-adapter)
+
 
 
 **文档**

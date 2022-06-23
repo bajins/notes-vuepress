@@ -339,6 +339,7 @@
 + [https://github.com/oblac/jodd](https://github.com/oblac/jodd)
 + [https://github.com/0opslab/opslabJutil](https://github.com/0opslab/opslabJutil)
 + [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
++ [https://github.com/paganini2008/devtools](https://github.com/paganini2008/devtools)
 + [spring framework util](https://github.com/spring-projects/spring-framework/tree/master/spring-core/src/main/java/org/springframework/util)
 + [https://github.com/apache/commons-lang](https://github.com/apache/commons-lang)
 + 流式断言器 [https://github.com/assertj](https://github.com/assertj)
@@ -560,6 +561,8 @@
         * [https://gitee.com/xiaoym/knife4j](https://gitee.com/xiaoym/knife4j)
     * [https://github.com/chfree/think-swagger-ui-vuele](https://github.com/chfree/think-swagger-ui-vuele)
 
++ [https://github.com/maxcellent/javadoc.io](https://github.com/maxcellent/javadoc.io)
+    + [https://www.javadoc.io](https://www.javadoc.io)
 + [https://github.com/spring-projects/spring-restdocs](https://github.com/spring-projects/spring-restdocs)
 + [https://github.com/YeDaxia/JApiDocs](https://github.com/YeDaxia/JApiDocs)
 
@@ -583,6 +586,21 @@
 * [https://github.com/openjax](https://github.com/openjax)
 * [https://github.com/hunterhacker/jdom](https://github.com/hunterhacker/jdom)
 * [https://github.com/x-stream/xstream](https://github.com/x-stream/xstream)
+* 爬虫 [推荐一些优秀的开源Java爬虫项目](https://zhuanlan.zhihu.com/p/24844250)
+* [https://github.com/fanyong920/jvppeteer](https://github.com/fanyong920/jvppeteer)
+* [https://github.com/kklisura/chrome-devtools-java-client](https://github.com/kklisura/chrome-devtools-java-client)
+* [https://github.com/assertthat/selenium-shutterbug](https://github.com/assertthat/selenium-shutterbug)
+* [https://github.com/code4craft/webmagic](https://github.com/code4craft/webmagic)
+* [https://github.com/internetarchive/heritrix3](https://github.com/internetarchive/heritrix3)
+* [https://github.com/yasserg/crawler4j](https://github.com/yasserg/crawler4j)
+* [https://github.com/apache/nutch](https://github.com/apache/nutch)
+* [https://github.com/xtuhcy/gecco](https://github.com/xtuhcy/gecco)
+* [https://gitee.com/ssssssss-team/spider-flow](https://gitee.com/ssssssss-team/spider-flow)
+* [https://github.com/CrawlScript/WebCollector](https://github.com/CrawlScript/WebCollector)
+* [https://gitee.com/l-weiwei/Spiderman2](https://gitee.com/l-weiwei/Spiderman2)
+* [https://gitee.com/flashsword20/webmagic](https://gitee.com/flashsword20/webmagic)
+* [https://github.com/zhegexiaohuozi/SeimiCrawler](https://github.com/zhegexiaohuozi/SeimiCrawler)
+
 
 
 

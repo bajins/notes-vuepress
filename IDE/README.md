@@ -119,6 +119,7 @@
     C:\Program Files\Java\jdk-17.0.2\bin
     # 解压dbeaver-agent-latest.zip到dbeaver目录，添加此行到最后
     -javaagent:./dbeaver-agent.jar
+    -Dlm.debug.mode=true
     ```
 * [https://www.jetbrains.com/zh-cn/datagrip](https://www.jetbrains.com/zh-cn/datagrip)
 * [https://www.navicat.com](https://www.navicat.com)

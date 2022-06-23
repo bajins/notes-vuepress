@@ -81,10 +81,13 @@ chrome://flags/#enable-parallel-downloading
 + [https://github.com/search?q=chrome-dev-tools](https://github.com/search?q=chrome-dev-tools)
 + [https://github.com/topics/chrome-debugging-protocol](https://github.com/topics/chrome-debugging-protocol)
 
+
 * [https://github.com/v8](https://github.com/v8)
     * [https://github.com/justjavac/v8.js.cn](https://github.com/justjavac/v8.js.cn)
 * [https://github.com/ChromeDevTools](https://github.com/ChromeDevTools)
 * [https://github.com/ChromeDevTools/awesome-chrome-devtools](https://github.com/ChromeDevTools/awesome-chrome-devtools)
+* [https://github.com/RemoteDebug](https://github.com/RemoteDebug)
+* [https://github.com/html5rocks/www.html5rocks.com](https://github.com/html5rocks/www.html5rocks.com)
 * [https://github.com/GoogleChrome/devtools-docs](https://github.com/GoogleChrome/devtools-docs)
     * [https://developer.chrome.com/devtools/index](https://developer.chrome.com/devtools/index)
     * [https://devtools.chrome.com](https://devtools.chrome.com)

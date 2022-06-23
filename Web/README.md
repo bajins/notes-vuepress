@@ -27,6 +27,7 @@
 * 前端知识点总结 [https://github.com/zhaiyy/Web-front-end-knowledge-summary](https://github.com/zhaiyy/Web-front-end-knowledge-summary)
 * [https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog)
 * [https://github.com/axuebin/articles](https://github.com/axuebin/articles)
+* [https://github.com/LiangJunrong/document-library](https://github.com/LiangJunrong/document-library)
 * 前端面试 [https://github.com/haizlin/fe-interview](https://github.com/haizlin/fe-interview)
 * [https://edu.aliyun.com/roadmap/frontend](https://edu.aliyun.com/roadmap/frontend)
 * [前端解决第三方图片防盗链的办法 - html referrer 访问图片资源403问题](https://github.com/biaochenxuying/blog/issues/31)
@@ -290,8 +291,8 @@
 + [https://github.com/search?q=proxy+cloudflare-workers](https://github.com/search?q=proxy+cloudflare-workers)
 + [https://github.com/topics/reverse-proxy](https://github.com/topics/reverse-proxy)
 
-- JS 实现的在线代理 [https://github.com/EtherDream/jsproxy](https://github.com/EtherDream/jsproxy)
-- 轻量级Javascript反向代理 [https://github.com/xiaoyang-liu-cs/booster.js](https://github.com/xiaoyang-liu-cs/booster.js)
+- [https://github.com/EtherDream/jsproxy](https://github.com/EtherDream/jsproxy)
+- [https://github.com/xiaoyang-liu-cs/booster.js](https://github.com/xiaoyang-liu-cs/booster.js)
     - [https://github.com/yenpou/Workers-Proxy](https://github.com/yenpou/Workers-Proxy)
 - [https://github.com/netnr/workers](https://github.com/netnr/workers)
 - [https://github.com/ryanking13/cors](https://github.com/ryanking13/cors)
