@@ -230,6 +230,8 @@
 
 
 + IDE [https://www.jetbrains.com/zh-cn/objc](https://www.jetbrains.com/zh-cn/objc)
++ [https://github.com/Carthage/Carthage](https://github.com/Carthage/Carthage)
++ [https://cocoapods.org](https://cocoapods.org)
 
 
 
@@ -469,6 +471,7 @@
 * 查看包差异 [https://github.com/JakeWharton/diffuse](https://github.com/JakeWharton/diffuse)
 * 使用SQLite [https://github.com/guolindev/LitePal](https://github.com/guolindev/LitePal)
 * [https://github.com/requery/sqlite-android](https://github.com/requery/sqlite-android)
+* [https://github.com/Tencent/wcdb](https://github.com/Tencent/wcdb)
 * 反射 [https://github.com/tiann/FreeReflection](https://github.com/tiann/FreeReflection)
 * [https://github.com/linkedin/dexmaker](https://github.com/linkedin/dexmaker)
 * [https://github.com/Dsiner/UIUtil](https://github.com/Dsiner/UIUtil)

@@ -30,7 +30,9 @@
 * [如何看待Linus Torvalds对AVX512的评价？](https://www.zhihu.com/question/406517759)
 
 
-**SSL证书**
+
+
+## SSL证书
 
 * [https://github.com/zerossl](https://github.com/zerossl)
 * [https://letsencrypt.org](https://letsencrypt.org)
@@ -93,6 +95,7 @@
 - [https://github.com/cutefishos-ubuntu](https://github.com/cutefishos-ubuntu)
 - [https://gitlab.archlinux.org/archlinux](https://gitlab.archlinux.org/archlinux)
     - [https://github.com/NakanoMikuOrg/arch-guide](https://github.com/NakanoMikuOrg/arch-guide)
+    - 安装 [https://github.com/ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus)
 - [https://github.com/NetBSD](https://github.com/NetBSD)
 - [https://github.com/freebsd](https://github.com/freebsd)
 - [https://github.com/linuxdeepin](https://github.com/linuxdeepin)
@@ -100,6 +103,12 @@
 - Solus [https://getsol.us](https://getsol.us)
 - Windows兼容操作系统 [https://github.com/reactos](https://github.com/reactos)
 - 支持Linux和安卓应用 [https://github.com/JingOS-team/JingOS](https://github.com/JingOS-team/JingOS)
+- 编译嵌入式Linux [https://github.com/buildroot/buildroot](https://github.com/buildroot/buildroot)
+- [https://github.com/littlekernel/lk](https://github.com/littlekernel/lk)
+    - [Little Kernel 代码走读（一） – 易也技术](http://yiiyee.cn/blog/2019/08/28/lk1)
+    - [https://github.com/dahliaOS/fimage](https://github.com/dahliaOS/fimage)
+    - [https://fuchsia.fsf.org.cn](https://fuchsia.fsf.org.cn)
+
 
 
 * [https://github.com/topics/openwrt](https://github.com/topics/openwrt)
@@ -126,7 +135,20 @@
 
 
 
-## 监控探针
+## 软件
+
+
+* 服务器音频播放器 [https://github.com/badaix/snapcast](https://github.com/badaix/snapcast)
+* 桌面 [https://github.com/kernelslacker/trinity](https://github.com/kernelslacker/trinity)
+* [https://github.com/wine-mirror/wine](https://github.com/wine-mirror/wine)
+* [https://github.com/ValveSoftware](https://github.com/ValveSoftware)
+* [https://kde.org/zh-cn/plasma-desktop](https://kde.org/zh-cn/plasma-desktop)
+* [https://www.enlightenment.org](https://www.enlightenment.org)
+* [https://github.com/muesli/duf](https://github.com/muesli/duf)
+
+
+
+### 监控探针
 
 + [https://github.com/topics/apm](https://github.com/topics/apm)
 + [https://github.com/topics/system-information](https://github.com/topics/system-information)
@@ -227,6 +249,98 @@
     - [https://www.proxmox.com](https://www.proxmox.com)
 - [https://github.com/oVirt](https://github.com/oVirt)
     - [https://github.com/cnovirt](https://github.com/cnovirt)
+
+
+
+
+### 建站资源
+
+* [萌音影视 - 在线影视应用](https://github.com/178146582/moeins)
+    * [安装教程](https://www.moerats.com/archives/744)
+* [使用FileManager+基于Python3的爬虫程序建立影音图片库](https://www.moerats.com/archives/501)
+* [使用PlayTube搭建私人的视频网站](https://www.moerats.com/archives/644)
+* [开源有态度的漫画CMS](https://github.com/hiliqi/xiaohuanxiong)
+* 冷曦博客 - 源码之家-草根站长的资源共享平台: [https://www.lengxi.net](https://www.lengxi.net)
+* [https://github.com/Youngxj/YoungxjTools](https://github.com/Youngxj/YoungxjTools)
+* [https://github.com/netnr/scriptservices](https://github.com/netnr/scriptservices)
+* 媒体服务器 [https://github.com/MediaBrowser/Emby.Releases](https://github.com/MediaBrowser/Emby.Releases)
+
+
+
+**协作/在线**
+
++ [https://github.com/microsoft/FluidFramework](https://github.com/microsoft/FluidFramework)
+
+* 协作在线办公套件 [https://github.com/ONLYOFFICE](https://github.com/ONLYOFFICE)
+* [https://github.com/ether/etherpad-lite](https://github.com/ether/etherpad-lite)
+* [https://github.com/anytypeio](https://github.com/anytypeio)
+* 团队协作和文档 [https://www.notion.so](https://www.notion.so)
+* [https://github.com/mattermost/focalboard](https://github.com/mattermost/focalboard)
+* [https://github.com/AppFlowy-IO/appflowy](https://github.com/AppFlowy-IO/appflowy)
+* 腾讯文档 [http://docs.qq.com](http://docs.qq.com)
+* [https://github.com/seatable](https://github.com/seatable)
+* [https://slack.com](https://slack.com)
+    * [https://slack.com/get-started](https://slack.com/get-started)
+* [https://www.twilio.com](https://www.twilio.com)
+* [https://trello.com](https://trello.com)
+* [https://airtable.com](https://airtable.com)
+* [https://www.teambition.com](https://www.teambition.com)
+* [https://bitable.feishu.cn](https://bitable.feishu.cn)
+* [https://worktile.com](https://worktile.com)
+* [https://tower.im](https://tower.im)
+* [https://www.mingdao.com](https://www.mingdao.com)
+* [http://github.com/vikadata](http://github.com/vikadata)
+* [https://www.treelab.com.cn](https://www.treelab.com.cn)
+* [https://www.wolai.com](https://www.wolai.com)
+* [https://www.qingque.cn](https://www.qingque.cn)
+* [https://hipacloud.com](https://hipacloud.com)
+* [https://www.microsoft.com/zh-cn/microsoft-365/microsoft-lists](https://www.microsoft.com/zh-cn/microsoft-365/microsoft-lists)
+* [https://clickup.com](https://clickup.com)
+* [https://coda.io](https://coda.io)
+* [https://github.com/kuaifan/dootask](https://github.com/kuaifan/dootask)
+
+
+
+**发卡系统**
+
+* [github search](https://github.com/search?q=%E5%8F%91%E5%8D%A1%E7%B3%BB%E7%BB%9F&type=Repositories)
+* [https://github.com/zlkbdotnet/zfaka](https://github.com/zlkbdotnet/zfaka)
+* [https://github.com/Tai7sy/card-system](https://github.com/Tai7sy/card-system)
+* [https://github.com/assimon/shanhufaka](https://github.com/assimon/shanhufaka)
+* [https://github.com/maddog888/kmxts](https://github.com/maddog888/kmxts)
+
+
+
+**企业建站**
+
++ [https://github.com/topics/cms](https://github.com/topics/cms)
++ [https://github.com/topics/headless-cms](https://github.com/topics/headless-cms)
++ [https://github.com/topics/customizable](https://github.com/topics/customizable)
+
+
+* [https://github.com/WordPress/WordPress](https://github.com/WordPress/WordPress)
+    * [https://github.com/topics/wordpress-theme](https://github.com/topics/wordpress-theme)
+    * [https://github.com/syfxlin/origami](https://github.com/syfxlin/origami)
+    * [https://github.com/solstice23/argon-theme](https://github.com/solstice23/argon-theme)
+    * [https://github.com/owen0o0/WebStack](https://github.com/owen0o0/WebStack)
+    * [https://github.com/visualmodo/Pollen](https://github.com/visualmodo/Pollen)
+    * [https://github.com/elementor](https://github.com/elementor)
+    * [https://github.com/ThemeFuse/Brizy](https://github.com/ThemeFuse/Brizy)
+    * [https://github.com/topics/divi](https://github.com/topics/divi)
+    * [https://flatsome3.uxthemes.com/features/ux-page-builder](https://flatsome3.uxthemes.com/features/ux-page-builder)
+    * [https://www.dukeyin.com/product/wordpress-multipurpose-theme-dukeyin](https://www.dukeyin.com/product/wordpress-multipurpose-theme-dukeyin)
+* [https://github.com/joomla/joomla-cms](https://github.com/joomla/joomla-cms)
+* [https://github.com/drupal/drupal](https://github.com/drupal/drupal)
+* 织梦CMS [https://github.com/dedecms/DedeCMS](https://github.com/dedecms/DedeCMS)
+* [https://gitee.com/Discuz/DiscuzX](https://gitee.com/Discuz/DiscuzX)
+* [http://www.pageadmin.net](http://www.pageadmin.net)
+* [https://www.jtbc.cn](https://www.jtbc.cn)
+* [https://github.com/mlogclub/bbs-go](https://github.com/mlogclub/bbs-go)
+* [https://github.com/wejectchen/Ginblog](https://github.com/wejectchen/Ginblog)
+* [https://github.com/BuilderIO/builder](https://github.com/BuilderIO/builder)
+* [https://github.com/plone](https://github.com/plone)
+* Java [https://github.com/halo-dev](https://github.com/halo-dev)
+
 
 
 
@@ -464,178 +578,4 @@
 
 
 
-
-
-## 建站资源
-
-* [萌音影视 - 在线影视应用](https://github.com/178146582/moeins)
-    * [安装教程](https://www.moerats.com/archives/744)
-* [使用FileManager+基于Python3的爬虫程序建立影音图片库](https://www.moerats.com/archives/501)
-* [使用PlayTube搭建私人的视频网站](https://www.moerats.com/archives/644)
-* [开源有态度的漫画CMS](https://github.com/hiliqi/xiaohuanxiong)
-* 冷曦博客 - 源码之家-草根站长的资源共享平台: [https://www.lengxi.net](https://www.lengxi.net)
-* [https://github.com/Youngxj/YoungxjTools](https://github.com/Youngxj/YoungxjTools)
-* [https://github.com/netnr/scriptservices](https://github.com/netnr/scriptservices)
-* 媒体服务器 [https://github.com/MediaBrowser/Emby.Releases](https://github.com/MediaBrowser/Emby.Releases)
-
-
-
-**协作/在线**
-
-+ [https://github.com/microsoft/FluidFramework](https://github.com/microsoft/FluidFramework)
-
-* 协作在线办公套件 [https://github.com/ONLYOFFICE](https://github.com/ONLYOFFICE)
-* [https://github.com/ether/etherpad-lite](https://github.com/ether/etherpad-lite)
-* [https://github.com/anytypeio](https://github.com/anytypeio)
-* 团队协作和文档 [https://www.notion.so](https://www.notion.so)
-* [https://github.com/mattermost/focalboard](https://github.com/mattermost/focalboard)
-* [https://github.com/AppFlowy-IO/appflowy](https://github.com/AppFlowy-IO/appflowy)
-* 腾讯文档 [http://docs.qq.com](http://docs.qq.com)
-* [https://github.com/seatable](https://github.com/seatable)
-* [https://slack.com](https://slack.com)
-    * [https://slack.com/get-started](https://slack.com/get-started)
-* [https://www.twilio.com](https://www.twilio.com)
-* [https://trello.com](https://trello.com)
-* [https://airtable.com](https://airtable.com)
-* [https://www.teambition.com](https://www.teambition.com)
-* [https://bitable.feishu.cn](https://bitable.feishu.cn)
-* [https://worktile.com](https://worktile.com)
-* [https://tower.im](https://tower.im)
-* [https://www.mingdao.com](https://www.mingdao.com)
-* [http://github.com/vikadata](http://github.com/vikadata)
-* [https://www.treelab.com.cn](https://www.treelab.com.cn)
-* [https://www.wolai.com](https://www.wolai.com)
-* [https://www.qingque.cn](https://www.qingque.cn)
-* [https://hipacloud.com](https://hipacloud.com)
-* [https://www.microsoft.com/zh-cn/microsoft-365/microsoft-lists](https://www.microsoft.com/zh-cn/microsoft-365/microsoft-lists)
-* [https://clickup.com](https://clickup.com)
-* [https://coda.io](https://coda.io)
-* [https://github.com/kuaifan/dootask](https://github.com/kuaifan/dootask)
-
-
-
-**发卡系统**
-
-* [github search](https://github.com/search?q=%E5%8F%91%E5%8D%A1%E7%B3%BB%E7%BB%9F&type=Repositories)
-* [https://github.com/zlkbdotnet/zfaka](https://github.com/zlkbdotnet/zfaka)
-* [https://github.com/Tai7sy/card-system](https://github.com/Tai7sy/card-system)
-* [https://github.com/assimon/shanhufaka](https://github.com/assimon/shanhufaka)
-* [https://github.com/maddog888/kmxts](https://github.com/maddog888/kmxts)
-
-
-
-**企业建站**
-
-+ [https://github.com/topics/cms](https://github.com/topics/cms)
-+ [https://github.com/topics/headless-cms](https://github.com/topics/headless-cms)
-+ [https://github.com/topics/customizable](https://github.com/topics/customizable)
-
-
-* [https://github.com/WordPress/WordPress](https://github.com/WordPress/WordPress)
-    * [https://github.com/topics/wordpress-theme](https://github.com/topics/wordpress-theme)
-    * [https://github.com/syfxlin/origami](https://github.com/syfxlin/origami)
-    * [https://github.com/solstice23/argon-theme](https://github.com/solstice23/argon-theme)
-    * [https://github.com/owen0o0/WebStack](https://github.com/owen0o0/WebStack)
-    * [https://github.com/visualmodo/Pollen](https://github.com/visualmodo/Pollen)
-    * [https://github.com/elementor](https://github.com/elementor)
-    * [https://github.com/ThemeFuse/Brizy](https://github.com/ThemeFuse/Brizy)
-    * [https://github.com/topics/divi](https://github.com/topics/divi)
-    * [https://flatsome3.uxthemes.com/features/ux-page-builder](https://flatsome3.uxthemes.com/features/ux-page-builder)
-    * [https://www.dukeyin.com/product/wordpress-multipurpose-theme-dukeyin](https://www.dukeyin.com/product/wordpress-multipurpose-theme-dukeyin)
-* [https://github.com/joomla/joomla-cms](https://github.com/joomla/joomla-cms)
-* [https://github.com/drupal/drupal](https://github.com/drupal/drupal)
-* 织梦CMS [https://github.com/dedecms/DedeCMS](https://github.com/dedecms/DedeCMS)
-* [https://gitee.com/Discuz/DiscuzX](https://gitee.com/Discuz/DiscuzX)
-* [http://www.pageadmin.net](http://www.pageadmin.net)
-* [https://www.jtbc.cn](https://www.jtbc.cn)
-* [https://github.com/mlogclub/bbs-go](https://github.com/mlogclub/bbs-go)
-* [https://github.com/wejectchen/Ginblog](https://github.com/wejectchen/Ginblog)
-* [https://github.com/BuilderIO/builder](https://github.com/BuilderIO/builder)
-* [https://github.com/plone](https://github.com/plone)
-* Java [https://github.com/halo-dev](https://github.com/halo-dev)
-
-
-
-
-## 路由跟踪
-
-- 查询IP地理信息 [https://github.com/zu1k/nali](https://github.com/zu1k/nali)
-- DNS扫描 [https://github.com/pwnesia/dnstake](https://github.com/pwnesia/dnstake)
-- [https://github.com/zartbot/ztrace](https://github.com/zartbot/ztrace)
-
-**`ping`、`tcptraceroute`、`traceroute`、`mtr`**
-
-* [https://www.cnblogs.com/xzkzzz/p/7413177.html](https://www.cnblogs.com/xzkzzz/p/7413177.html)
-* [https://www.jianshu.com/p/802010d54849](https://www.jianshu.com/p/802010d54849)
-* [https://cloud.tencent.com/developer/article/1332118](https://cloud.tencent.com/developer/article/1332118)
-* [http://winmtr.net/download-winmtr](http://winmtr.net/download-winmtr)
-* [Netcat详解](https://www.cnblogs.com/dalianpai/p/12505678.html)
-* [http://www.dest-unreach.org/socat](http://www.dest-unreach.org/socat)
-* [https://github.com/vi/websocat](https://github.com/vi/websocat)
-
-> 在Linux中有一个更好的网络连通性判断工具，它可以结合ping | nslookup | tracert 来判断网络的相关特性，这个命令就是mtr。
-
-> 注意：MTR使用的raw sockets是绕过TCP/IP协议，需要ROOT权限来执行，因此如果以普通用户身份来执行mtr会出错，
-> 提示“mtr: unable to get raw sockets”
-
-* [tcpping- 禁止了ICMP协议（ping命令）也能用](http://www.vdberg.org/~richard/tcpping.html)
-    * [https://github.com/deajan/tcpping](https://github.com/deajan/tcpping)
-
-> `tcpping`脚本依赖`tcptraceroute` 组件，所以必须先安装`yum install tcptraceroute`
-
-
-* [https://elifulkerson.com/projects/](https://elifulkerson.com/projects/)
-
-> 注意`tcpping`与`tcping` 是不同的两款工具
-
-* [https://docs.microsoft.com/zh-cn/sysinternals/downloads/psping](https://docs.microsoft.com/zh-cn/sysinternals/downloads/psping)
-* [https://code.google.com/archive/p/paping/downloads](https://code.google.com/archive/p/paping/downloads)
-
-> `PsPing` 是微软 `PSTools` 工具套件中的其中一个命令。除了 `ICMP` ping 测试，主要用来测试 TCP 端口的连通性，
-> 还可以测试 `TCP/UDP` 网络时延和带宽。不过， `PsPing` 只能在 Windows 中运行。Linux 可以使用 `PaPing` （跨平台的开源工具）。
-
-* [https://github.com/antirez/hping](https://github.com/antirez/hping)
-
-
-**常用网站**
-
-* [http://ipcheck.need.sh](http://ipcheck.need.sh)
-* [https://torch.njs.app](https://torch.njs.app)
-* 瓦工的全球ping工具 [http://ping.pe](http://ping.pe)
-* [https://www.yougetsignal.com/tools/open-ports](https://www.yougetsignal.com/tools/open-ports)
-* [http://tool.chinaz.com/port](http://tool.chinaz.com/port)
-* [https://www.websitepulse.com/tools/china-firewall-test](https://www.websitepulse.com/tools/china-firewall-test)
-* [https://www.vps234.com/ipchecker](https://www.vps234.com/ipchecker)
-* [https://tools.ipip.net/traceroute.php](https://tools.ipip.net/traceroute.php)
-* IP范围转换CIDR [https://ip2cidr.com](https://ip2cidr.com)
-* [http://apps.neu.edu.cn/netaggr](http://apps.neu.edu.cn/netaggr)
-* [无类别域间路由（CIDR）网络地址计算器](https://www.sioe.cn/xinqing/CIDR.php)
-* [IPv4 / IPv6 CIDR计算器 | RAKKOTOOLS🔧](https://zh.rakko.tools/tools/27)
-* [http://ip.chacuo.net/ipconvert](http://ip.chacuo.net/ipconvert)
-* [https://github.com/3th1nk/cidr](https://github.com/3th1nk/cidr)
-* [https://www.oldking.net](https://www.oldking.net)
-
-
-**tracert**
-
-> `Tracert` 列出分组经过的路由节点，以及它在IP 网络中每一跳的延迟（这里的延迟是指：分组从信息源发送到目的地所需的时间，
-> 延迟也分为许多的种类——传播延迟、传输延迟、处理延迟、排队延迟等，是大多数网站性能的瓶颈之一）.
-
-```batch
-tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout] [-R] [-S srcaddr] [-4] [-6] target_name
-```
-
-**选项**
-
-- `-d` 指定不将 IP 地址解析到主机名称。
-- `-h maximum_hops` 指定跃点数以跟踪到称为 target_name 的主机的路由。
-- `-j host-list` 指定 Tracert 实用程序数据包所采用路径中的路由器接口列表。
-- `-w timeout` 等待 timeout 为每次回复所指定的毫秒数。
-- `target_name` 目标主机的名称或 IP 地址。
-
-**示例**
-
-```bash
-tracert www.bajins.com
-```
 

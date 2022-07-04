@@ -402,7 +402,7 @@
 
 * 图片压缩工具 [https://github.com/GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh)
 * [https://github.com/netnr/squoosh](https://github.com/netnr/squoosh)
-* 一个用于快速上传图片并获取图片URL链接的工具 [https://github.com/Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo)
+* 上传图片并获取图片URL链接 [https://github.com/Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo)
 * [https://www.polaxiong.com](https://www.polaxiong.com)
 * [https://icons8.cn/lunacy](https://icons8.cn/lunacy)
 * [https://www.xnview.com](https://www.xnview.com)
@@ -412,6 +412,7 @@
 * Icon矢量图 [https://inkscape.org/zh-hans](https://inkscape.org/zh-hans)
 * [https://icofx.ro](https://icofx.ro)
 * Axialis-IconWorkshop 官网 [https://www.axialis.com/download/#software](https://www.axialis.com/download/#software)
+* [https://github.com/darktable-org/darktable](https://github.com/darktable-org/darktable)
 
 
 - [https://affinity.serif.com](https://affinity.serif.com)

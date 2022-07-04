@@ -272,3 +272,10 @@ $null = $window.Show();
 Start-Sleep -Seconds 10;
 $window.Close();
 ```
+
+### 获取所有COM组件
+
+```ps1
+gci HKLM:\Software\Classes -ea 0| ? {$_.PSChildName -match '^\w+\.\w+$' -and (gp "$($_.PSPath)\CLSID" -ea 0)} | ft PSChildName
+```
+

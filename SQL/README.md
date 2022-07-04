@@ -21,6 +21,9 @@
 * HiveSQL教程 [https://www.gairuo.com/p/hive-sql-tutorial](https://www.gairuo.com/p/hive-sql-tutorial)
 
 
+- [数据库分库分表Java实战经验总结](https://bbs.huaweicloud.com/blogs/286564)
+- [数据库分区](https://www.jianshu.com/p/8bfe4ed00f88)
+- [数据库分区、分表、分库、分片](https://blog.csdn.net/chezong/article/details/123322973)
 
 
 **备份/迁移/同步/导入导出**
@@ -50,7 +53,7 @@
     1. CREATE - 创建
     2. ALTER - 修改
     3. DROP - 删除
-    4. TRUNCATE - 移除
+    4. TRUNCATE - 截断/移除，立即回收磁盘空间，而不需要后续的VACUUM操作
     5. COMMENT - 注释
     6. RENAME - 重命名
 - DML(Data Manipulation Language) 数据操纵语言，用于SQL中处理数据等操作统称为数据操纵语言，对模式对象内的数据执行查询

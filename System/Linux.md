@@ -1,4 +1,4 @@
-# Linux操作
+# Linux
 
 
 [[toc]]
@@ -8,6 +8,7 @@
 
 ## Flag
 
++ [https://www.kernel.org](https://www.kernel.org)
 + Linux手册 [https://learn-linux.readthedocs.io/zh_CN/latest](https://learn-linux.readthedocs.io/zh_CN/latest)
 + [https://github.com/tldr-pages/tldr](https://github.com/tldr-pages/tldr)
 + [http://www.linuxbaike.com](http://www.linuxbaike.com)
@@ -679,45 +680,5 @@ wget https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench.sh && b
 wget https://raw.githubusercontent.com/oooldking/script/master/superspeed.sh \
 && chmod +x superspeed.sh && bash superspeed.sh
 ```
-
-
-
-## 网卡
-
-### MTU
-
-> MTU经过网卡传输的数据包的最大传输单元,传输设备的MTU值不规范造成传输失败的情况
-
-**查看MTU值**
-
-```bash
-cat /sys/class/net/eth0/mtu
-```
-
-**临时更改MTU值**
-
-```bash
-echo "1476" > /sys/class/net/eth0/mtu
-# 或者
-# ifconfig 网口名 mtu 数值
-ifconfig eth0 mtu 1476
-```
-
-**永久更改MTU值**
-
-```bash
-vi /etc/sysconfig/network-scripts/ifcfg-eth0
-# 在DEVICE=eth0下面加入
-MTU=1476
-# 启用IPv6地址的，修改IPv6 mtu的参数为
-IPV6_MTU="1280"
-```
-
-**重启网络接口**
-
-```bash
-service network restart
-```
-
 
 

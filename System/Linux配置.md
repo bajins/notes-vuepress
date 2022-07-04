@@ -7,23 +7,6 @@
 
 # Flag
 
-+ [https://www.kernel.org](https://www.kernel.org)
-
-
-* 编译嵌入式Linux [https://github.com/buildroot/buildroot](https://github.com/buildroot/buildroot)
-* 服务器音频播放器 [https://github.com/badaix/snapcast](https://github.com/badaix/snapcast)
-* 桌面 [https://github.com/kernelslacker/trinity](https://github.com/kernelslacker/trinity)
-* [https://github.com/wine-mirror/wine](https://github.com/wine-mirror/wine)
-* [https://github.com/ValveSoftware](https://github.com/ValveSoftware)
-* [https://kde.org/zh-cn/plasma-desktop](https://kde.org/zh-cn/plasma-desktop)
-* [https://www.enlightenment.org](https://www.enlightenment.org)
-* Arch Linux 安装 [https://github.com/ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus)
-
-- [https://github.com/littlekernel/lk](https://github.com/littlekernel/lk)
-    - [Little Kernel 代码走读（一） – 易也技术](http://yiiyee.cn/blog/2019/08/28/lk1)
-    - [https://github.com/dahliaOS/fimage](https://github.com/dahliaOS/fimage)
-    - [https://fuchsia.fsf.org.cn](https://fuchsia.fsf.org.cn)
-
 
 
 ```bash
@@ -355,63 +338,6 @@ sudo sed -ri 's/^/#/;s/sleep 10"\s+/&\n/' /root/.ssh/authorized_keys;
 ```bash
 sudo service sshd restart
 sudo service ssh --full-restart
-```
-
-
-
-
-## 物理资源占用
-
-> 各Linux服务器主流发行版物理资源占用（磁盘和内存），`df -h && free -h`
-
-- CentOS 7.6 64位
-
-```bash
-Filesystem      Size  Used Avail Use% Mounted on
-devtmpfs        485M     0  485M   0% /dev
-tmpfs           496M     0  496M   0% /dev/shm
-tmpfs           496M  424K  496M   1% /run
-tmpfs           496M     0  496M   0% /sys/fs/cgroup
-/dev/vda1        50G  1.8G   46G   4% /
-tmpfs           100M     0  100M   0% /run/user/0
-
-              total        used        free      shared  buff/cache   available
-Mem:           991M         68M        631M        428K        290M        787M
-Swap:            0B          0B          0B
-```
-
-- Debian 9.0 64位
-
-```bash
-Filesystem      Size  Used Avail Use% Mounted on
-udev            424M     0  424M   0% /dev
-tmpfs            87M  1.8M   86M   3% /run
-/dev/vda1        50G  923M   46G   2% /
-tmpfs           435M     0  435M   0% /dev/shm
-tmpfs           5.0M     0  5.0M   0% /run/lock
-tmpfs           435M     0  435M   0% /sys/fs/cgroup
-tmpfs            87M     0   87M   0% /run/user/0
-
-              total        used        free      shared  buff/cache   available
-Mem:           868M         32M        734M        1.8M        101M        717M
-Swap:            0B          0B          0B
-```
-
-- Ubuntu Server 18.04.1 LTS 64位
-
-```bash
-Filesystem      Size  Used Avail Use% Mounted on
-udev            462M     0  462M   0% /dev
-tmpfs            99M  5.2M   94M   6% /run
-/dev/vda1        50G  2.3G   45G   5% /
-tmpfs           493M     0  493M   0% /dev/shm
-tmpfs           5.0M     0  5.0M   0% /run/lock
-tmpfs           493M     0  493M   0% /sys/fs/cgroup
-tmpfs            99M     0   99M   0% /run/user/500
-
-              total        used        free      shared  buff/cache   available
-Mem:           985M         95M        355M        5.1M        533M        743M
-Swap:            0B          0B          0B
 ```
 
 

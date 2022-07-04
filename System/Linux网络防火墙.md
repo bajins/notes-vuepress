@@ -56,9 +56,6 @@ netstat -antp |grep "ESTABLISHED" |awk '{print $5}'|awk -F : '{print $4}'|sort |
 
 
 
-
-
-
 ## iptables
 
 + iptables [https://www.netfilter.org](https://www.netfilter.org)
@@ -198,3 +195,128 @@ firewall-cmd --panic-off
 # 查看是否拒绝
 firewall-cmd --query-panic
 ```
+
+
+
+
+## 路由跟踪
+
+- 查询IP地理信息 [https://github.com/zu1k/nali](https://github.com/zu1k/nali)
+- DNS扫描 [https://github.com/pwnesia/dnstake](https://github.com/pwnesia/dnstake)
+- [https://github.com/zartbot/ztrace](https://github.com/zartbot/ztrace)
+
+**`ping`、`tcptraceroute`、`traceroute`、`mtr`**
+
+* [https://www.cnblogs.com/xzkzzz/p/7413177.html](https://www.cnblogs.com/xzkzzz/p/7413177.html)
+* [https://www.jianshu.com/p/802010d54849](https://www.jianshu.com/p/802010d54849)
+* [https://cloud.tencent.com/developer/article/1332118](https://cloud.tencent.com/developer/article/1332118)
+* [http://winmtr.net/download-winmtr](http://winmtr.net/download-winmtr)
+* [Netcat详解](https://www.cnblogs.com/dalianpai/p/12505678.html)
+* [http://www.dest-unreach.org/socat](http://www.dest-unreach.org/socat)
+* [https://github.com/vi/websocat](https://github.com/vi/websocat)
+
+> 在Linux中有一个更好的网络连通性判断工具，它可以结合ping | nslookup | tracert 来判断网络的相关特性，这个命令就是mtr。
+
+> 注意：MTR使用的raw sockets是绕过TCP/IP协议，需要ROOT权限来执行，因此如果以普通用户身份来执行mtr会出错，
+> 提示“mtr: unable to get raw sockets”
+
+* [tcpping- 禁止了ICMP协议（ping命令）也能用](http://www.vdberg.org/~richard/tcpping.html)
+    * [https://github.com/deajan/tcpping](https://github.com/deajan/tcpping)
+
+> `tcpping`脚本依赖`tcptraceroute` 组件，所以必须先安装`yum install tcptraceroute`
+
+
+* [https://elifulkerson.com/projects/](https://elifulkerson.com/projects/)
+
+> 注意`tcpping`与`tcping` 是不同的两款工具
+
+* [https://docs.microsoft.com/zh-cn/sysinternals/downloads/psping](https://docs.microsoft.com/zh-cn/sysinternals/downloads/psping)
+* [https://code.google.com/archive/p/paping/downloads](https://code.google.com/archive/p/paping/downloads)
+
+> `PsPing` 是微软 `PSTools` 工具套件中的其中一个命令。除了 `ICMP` ping 测试，主要用来测试 TCP 端口的连通性，
+> 还可以测试 `TCP/UDP` 网络时延和带宽。不过， `PsPing` 只能在 Windows 中运行。Linux 可以使用 `PaPing` （跨平台的开源工具）。
+
+* [https://github.com/antirez/hping](https://github.com/antirez/hping)
+
+
+**常用网站**
+
+* [http://ipcheck.need.sh](http://ipcheck.need.sh)
+* [https://torch.njs.app](https://torch.njs.app)
+* 瓦工的全球ping工具 [http://ping.pe](http://ping.pe)
+* [https://www.yougetsignal.com/tools/open-ports](https://www.yougetsignal.com/tools/open-ports)
+* [http://tool.chinaz.com/port](http://tool.chinaz.com/port)
+* [https://www.websitepulse.com/tools/china-firewall-test](https://www.websitepulse.com/tools/china-firewall-test)
+* [https://www.vps234.com/ipchecker](https://www.vps234.com/ipchecker)
+* [https://tools.ipip.net/traceroute.php](https://tools.ipip.net/traceroute.php)
+* IP范围转换CIDR [https://ip2cidr.com](https://ip2cidr.com)
+* [http://apps.neu.edu.cn/netaggr](http://apps.neu.edu.cn/netaggr)
+* [无类别域间路由（CIDR）网络地址计算器](https://www.sioe.cn/xinqing/CIDR.php)
+* [IPv4 / IPv6 CIDR计算器 | RAKKOTOOLS🔧](https://zh.rakko.tools/tools/27)
+* [http://ip.chacuo.net/ipconvert](http://ip.chacuo.net/ipconvert)
+* [https://github.com/3th1nk/cidr](https://github.com/3th1nk/cidr)
+* [https://www.oldking.net](https://www.oldking.net)
+
+
+**tracert**
+
+> `Tracert` 列出分组经过的路由节点，以及它在IP 网络中每一跳的延迟（这里的延迟是指：分组从信息源发送到目的地所需的时间，
+> 延迟也分为许多的种类——传播延迟、传输延迟、处理延迟、排队延迟等，是大多数网站性能的瓶颈之一）.
+
+```batch
+tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout] [-R] [-S srcaddr] [-4] [-6] target_name
+```
+
+**选项**
+
+- `-d` 指定不将 IP 地址解析到主机名称。
+- `-h maximum_hops` 指定跃点数以跟踪到称为 target_name 的主机的路由。
+- `-j host-list` 指定 Tracert 实用程序数据包所采用路径中的路由器接口列表。
+- `-w timeout` 等待 timeout 为每次回复所指定的毫秒数。
+- `target_name` 目标主机的名称或 IP 地址。
+
+**示例**
+
+```bash
+tracert www.bajins.com
+```
+
+
+
+## 网卡
+
+### MTU
+
+> MTU经过网卡传输的数据包的最大传输单元,传输设备的MTU值不规范造成传输失败的情况
+
+**查看MTU值**
+
+```bash
+cat /sys/class/net/eth0/mtu
+```
+
+**临时更改MTU值**
+
+```bash
+echo "1476" > /sys/class/net/eth0/mtu
+# 或者
+# ifconfig 网口名 mtu 数值
+ifconfig eth0 mtu 1476
+```
+
+**永久更改MTU值**
+
+```bash
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+# 在DEVICE=eth0下面加入
+MTU=1476
+# 启用IPv6地址的，修改IPv6 mtu的参数为
+IPV6_MTU="1280"
+```
+
+**重启网络接口**
+
+```bash
+service network restart
+```
+
