@@ -10,6 +10,8 @@
 > SQL,NoSQL和NewSQL
 
 * [https://github.com/dunwu/db-tutorial](https://github.com/dunwu/db-tutorial)
+* [https://docs.aws.amazon.com/zh_cn/redshift/latest/dg/cm_chap_SQLCommandRef.html](https://docs.aws.amazon.com/zh_cn/redshift/latest/dg/cm_chap_SQLCommandRef.html)
+* [https://www.alibabacloud.com/help/zh/analyticdb-for-mysql/latest/sql-manual](https://www.alibabacloud.com/help/zh/analyticdb-for-mysql/latest/sql-manual)
 * 自学SQL网 [http://xuesql.cn](http://xuesql.cn)
 * 数据库压测 [https://github.com/akopytov/sysbench](https://github.com/akopytov/sysbench)
 * [https://github.com/stcarrez/sql-benchmark](https://github.com/stcarrez/sql-benchmark)
@@ -313,5 +315,34 @@ ELSE '其他' END
 
 ### SQL2003
 
-> 开窗函数简介:与聚合函数一样，开窗函数也是对行集组进行聚合计算，但是它不像普通聚合函数那样每组只返回一个值
+* [窗口函数](https://docs.aws.amazon.com/zh_cn/redshift/latest/dg/c_Window_functions.html)
+
+> 开窗函数（开窗函数）简介:与聚合函数一样，开窗函数也是对行集组进行聚合计算，但是它不像普通聚合函数那样每组只返回一个值
 > ，开窗函数可以为每组返回多个值，因为开窗函数所执行聚合计算的行集组是窗口
+
+> 窗口函数是一种分析型的OLAP函数，OLAP是online analytical processing的简称，意思是对数据库数据进行实时分析处理
+
+
+**窗口函数可以用在以下两种函数：**
+1. 专用窗口函数：
+    - `rank()`：按升序顺序，如果有并列名次的行，会占用下一名次的位置。
+    - `dese_rank()`：按降序顺序，如果并列名次的行，不占用下一名次的位置。
+    - `row_number()`：不考虑并列名次的情况。
+2. 聚合函数：`sun()`,`avg()`,`count()`,`max()`,`min()`
+3. 向前向后取值：`lag()`，`lead()`
+4. 百分位：`percent_rank()`
+5. 取值函数：`first_value()`，`last_value()`，`nth_value()`
+6. 分箱函数：`ntile()`
+
+
+**窗口函数语法**
+
+```sql
+<窗口函数> over (partition by <用于分组的列名> order by <用于排序的列名>)
+```
+
+**应用场景：**
+
+1. topN问题
+2. 经典排名问题
+3. 在每个组里比较的问题
