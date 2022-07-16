@@ -15,6 +15,7 @@
 * [https://github.com/spring-projects](https://github.com/spring-projects)
     * [https://spring.io/projects](https://spring.io/projects)
 * [https://github.com/spring-guides](https://github.com/spring-guides)
+* [https://github.com/fmarchioni/masterspringboot](https://github.com/fmarchioni/masterspringboot)
 
 
 - [https://github.com/wuyouzhuguli/SpringAll](https://github.com/wuyouzhuguli/SpringAll)

@@ -10,6 +10,7 @@
 
 + Web 开发技术-MDN [https://developer.mozilla.org/zh-CN/docs/Web](https://developer.mozilla.org/zh-CN/docs/Web)
 + Web API [https://developer.mozilla.org/zh-CN/docs/Web/API](https://developer.mozilla.org/zh-CN/docs/Web/API)
++ [https://github.com/w3c](https://github.com/w3c)
 + W3C 网页标准教程 [http://www.w3chtml.com](http://www.w3chtml.com)
 + [https://github.com/immersive-web](https://github.com/immersive-web)
 + IETF [https://tools.ietf.org](https://tools.ietf.org)
@@ -137,6 +138,8 @@
 
 - [https://www.freenom.com](https://www.freenom.com)
 - [https://nic.eu.org](https://nic.eu.org)
+    - [人人都可申请拥有EU.org免费域名](https://51.ruyo.net/17863.html)
+
 
 * [如何正确绕开备案使用国内机器](https://www.hqsblog.cn/2019/12/15/237.html)
 

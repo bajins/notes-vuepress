@@ -58,6 +58,7 @@
 
 - [https://github.com/dustinkredmond](https://github.com/dustinkredmond)
 - [https://github.com/FXMisc](https://github.com/FXMisc)
+    - 富文本 [https://github.com/FXMisc/RichTextFX](https://github.com/FXMisc/RichTextFX)
 - SVG [https://github.com/blackears/svgSalamander](https://github.com/blackears/svgSalamander)
 - [https://github.com/piusalfred/ikonfx](https://github.com/piusalfred/ikonfx)
 - [https://github.com/openrndr/openrndr](https://github.com/openrndr/openrndr)
@@ -67,11 +68,14 @@
 - [https://github.com/dlsc-software-consulting-gmbh](https://github.com/dlsc-software-consulting-gmbh)
 - [https://github.com/metawidget](https://github.com/metawidget)
 - [https://github.com/palexdev/MaterialFX](https://github.com/palexdev/MaterialFX)
+- 主题 [https://github.com/weisJ/darklaf]https://github.com/weisJ/darklaf
+    - [https://github.com/bulenkov/Darcula](https://github.com/bulenkov/Darcula)
 - Google Material Design [https://github.com/jfoenixadmin/JFoenix](https://github.com/jfoenixadmin/JFoenix)
 - Bootstrap样式 [https://github.com/dicolar/jbootx](https://github.com/dicolar/jbootx)
 - [https://github.com/edvin/tornadofx-controls](https://github.com/edvin/tornadofx-controls)
 - [https://github.com/gluonhq/connect](https://github.com/gluonhq/connect)
 - 日历 [https://github.com/dlsc-software-consulting-gmbh/CalendarFX](https://github.com/dlsc-software-consulting-gmbh/CalendarFX)
+- 表单 [https://github.com/dlsc-software-consulting-gmbh/FormsFX](https://github.com/dlsc-software-consulting-gmbh/FormsFX)
 - 仪表板 [https://github.com/HanSolo/tilesfx](https://github.com/HanSolo/tilesfx)
 - 进度条 [https://github.com/ctongfei/progressbar](https://github.com/ctongfei/progressbar)
 - 3D [https://github.com/JogAmp](https://github.com/JogAmp)
@@ -83,7 +87,6 @@
 - JavaFX的游戏超集 [https://github.com/AlmasB/FXGL](https://github.com/AlmasB/FXGL)
 - 缩放 [https://github.com/miho/ScaledFX](https://github.com/miho/ScaledFX)
 - [https://github.com/tom91136/GestureFX](https://github.com/tom91136/GestureFX)
-- 富文本 [https://github.com/FXMisc/RichTextFX](https://github.com/FXMisc/RichTextFX)
 - [https://github.com/goxr3plus/FX-BorderlessScene](https://github.com/goxr3plus/FX-BorderlessScene)
 - 布局算法 [https://github.com/AmaronUI/amaronui-layouts](https://github.com/AmaronUI/amaronui-layouts)
 - [https://github.com/kirill-grouchnikov/radiance](https://github.com/kirill-grouchnikov/radiance)
@@ -91,6 +94,11 @@
 - [https://github.com/micheljung/jfx-waitomo-theme](https://github.com/micheljung/jfx-waitomo-theme)
 - 数据框可视化 [https://github.com/PatMartin/Dex](https://github.com/PatMartin/Dex)
 - 校验 [https://github.com/effad/ValidatorFX](https://github.com/effad/ValidatorFX)
+- ffmpeg [https://github.com/a-schild/jave2](https://github.com/a-schild/jave2)
+- 图标包 [https://github.com/kordamp/ikonli](https://github.com/kordamp/ikonli)
+- 键盘和鼠标 [https://github.com/kwhat/jnativehook](https://github.com/kwhat/jnativehook)
+- 数据绑定 [https://github.com/TomasMikula/EasyBind](https://github.com/TomasMikula/EasyBind)
+- 终端仿真器 [https://github.com/javaterminal/TerminalFX](https://github.com/javaterminal/TerminalFX)
 
 
 * Maven打包 [https://github.com/javafx-maven-plugin](https://github.com/javafx-maven-plugin)

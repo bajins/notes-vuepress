@@ -75,14 +75,23 @@
 
 + [https://github.com/apache/jmeter](https://github.com/apache/jmeter)
     + [https://github.com/Blazemeter](https://github.com/Blazemeter)
+    + Apache Benchmark `apt-get install apache2-utils` / `yum install httpd-tools`
+    + [https://www.apachehaus.com](https://www.apachehaus.com)
+    + [https://www.apachelounge.com](https://www.apachelounge.com)
+    + BitNami WAMP Stack
+    + WampServer
+    + XAMPP
 + [https://github.com/postmanlabs](https://github.com/postmanlabs)
     + [https://www.getpostman.com/apps](https://www.getpostman.com/apps)
     + [https://github.com/topics/postman](https://github.com/topics/postman)
     + [https://github.com/hlmd/Postman-cn](https://github.com/hlmd/Postman-cn)
     + [使用Postman调试SpringBoot程序发现返回值格式是xml](https://blog.csdn.net/clapAlong/article/details/106541926)
+    + [postman 可以做接口并发测试么？](https://www.zhihu.com/question/280155125/answer/475789464)
 + [https://github.com/Kong/insomnia](https://github.com/Kong/insomnia)
 + [https://github.com/SmartBear/soapui](https://github.com/SmartBear/soapui)
     + [https://www.soapui.org](https://www.soapui.org)
+    + [SoapUI 入门指南](https://blog.csdn.net/duleilewuhen/article/details/125127161)
+    + [SoapUI接口测试工具最全实用教程](https://zhuanlan.zhihu.com/p/517806567)
 + [https://github.com/hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)
     + [https://hoppscotch.io](https://hoppscotch.io)
 + [https://github.com/katalon-studio](https://github.com/katalon-studio)
@@ -94,8 +103,12 @@
 + [https://github.com/apifox](https://github.com/apifox)
     + [https://gitee.com/apifox](https://gitee.com/apifox)
     + [https://www.apifox.cn](https://www.apifox.cn)
-+ [https://www.microfocus.com/zh-cn/products/loadrunner-professional](https://www.microfocus.com/zh-cn/products/loadrunner-professional)
++ LoadRunner [https://www.microfocus.com/zh-cn/products#all-L](https://www.microfocus.com/zh-cn/products#all-L)
+    + [https://liushilive.github.io/github_exercise_performance_testing](https://liushilive.github.io/github_exercise_performance_testing)
+    + [性能测试入门——LoadRunner使用初探](https://zhuanlan.zhihu.com/p/24812449)
++ QTP [https://www.microfocus.com/zh-cn/products#all-U](https://www.microfocus.com/zh-cn/products#all-U)
 + IDEA 的`Tools`菜单下有`HTTP Client`可替代postman
+
 
 - mac paw [https://github.com/luckymarmot](https://github.com/luckymarmot)
 

@@ -496,6 +496,8 @@
 * [https://gitlab.freedesktop.org/geoclue/geoclue](https://gitlab.freedesktop.org/geoclue/geoclue)
 * 图片下载和缓存 [https://github.com/square/picasso](https://github.com/square/picasso)
 * 串口 [https://github.com/GeekBugs/Android-SerialPort](https://github.com/GeekBugs/Android-SerialPort)
+* 验证校验 [https://github.com/thyrlian/AwesomeValidation](https://github.com/thyrlian/AwesomeValidation)
+* [https://github.com/ragunathjawahar/android-saripaar](https://github.com/ragunathjawahar/android-saripaar)
 
 
 

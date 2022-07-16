@@ -22,7 +22,7 @@
     + [JavaBeans 规范](https://www.oracle.com/java/technologies/javase/javabeans-spec.html)
 + [https://github.com/eclipse-ee4j](https://github.com/eclipse-ee4j)
     + [https://github.com/javaee](https://github.com/javaee)
-    + [https://projects.eclipse.org/jakartaee/releases/8](https://projects.eclipse.org/jakartaee/releases/8)
+    + [https://projects.eclipse.org/jakartaee](https://projects.eclipse.org/jakartaee)
     + [javaEE和javaweb的区别？](https://www.zhihu.com/question/52002845)
 * 生成代码 [https://github.com/moshowgame/SpringBootCodeGenerator](https://github.com/moshowgame/SpringBootCodeGenerator)
 
@@ -462,6 +462,8 @@
 + [https://github.com/json-schema-org](https://github.com/json-schema-org)
 + Jakarta JSON处理规范 [https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
 
+* [https://github.com/cliftonlabs/json-simple](https://github.com/cliftonlabs/json-simple)
+    * [https://github.com/fangyidong/json-simple](https://github.com/fangyidong/json-simple)
 * [https://github.com/eclipse-ee4j/yasson](https://github.com/eclipse-ee4j/yasson)
 * [https://github.com/apache/johnzon](https://github.com/apache/johnzon)
 * [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
@@ -564,6 +566,7 @@
 + [https://github.com/maxcellent/javadoc.io](https://github.com/maxcellent/javadoc.io)
     + [https://www.javadoc.io](https://www.javadoc.io)
 + [https://github.com/spring-projects/spring-restdocs](https://github.com/spring-projects/spring-restdocs)
+    + [https://github.com/ScaCap/spring-auto-restdocs](https://github.com/ScaCap/spring-auto-restdocs)
 + [https://github.com/YeDaxia/JApiDocs](https://github.com/YeDaxia/JApiDocs)
 
 * [https://github.com/alibaba/easyexcel](https://github.com/alibaba/easyexcel)

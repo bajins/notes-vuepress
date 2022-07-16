@@ -357,6 +357,7 @@
 * [https://github.com/faker-js/faker](https://github.com/faker-js/faker)
     * [https://github.com/lestoni/faker-cli](https://github.com/lestoni/faker-cli)
 * [https://github.com/RandomAPI/Randomuser.me-Node](https://github.com/RandomAPI/Randomuser.me-Node)
+* [https://github.com/benkeen/generatedata](https://github.com/benkeen/generatedata)
 * [https://github.com/dmgk/faker](https://github.com/dmgk/faker)
 * [https://github.com/arakelian/faker](https://github.com/arakelian/faker)
 * [https://github.com/travishorn/fake-identity](https://github.com/travishorn/fake-identity)

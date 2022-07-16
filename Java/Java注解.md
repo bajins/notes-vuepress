@@ -1,4 +1,4 @@
-# Annotation
+# Java注解
 
 
 [[toc]]
@@ -229,14 +229,23 @@ print('\n'.join(ans))
 + [https://github.com/topics/validation](https://github.com/topics/validation)
 + [https://github.com/topics/validator](https://github.com/topics/validator)
 
+
+* [https://github.com/apache/commons-validator](https://github.com/apache/commons-validator)
 * [https://github.com/apache/bval](https://github.com/apache/bval)
-* [https://github.com/hibernate/hibernate-validator](https://github.com/hibernate/hibernate-validator)
+* [https://github.com/jakartaee/validation](https://github.com/jakartaee/validation)
+    * [https://beanvalidation.org](https://beanvalidation.org)
+    * [https://github.com/hibernate/hibernate-validator](https://github.com/hibernate/hibernate-validator)
+    * [https://github.com/nomemory/java-bean-validation-extension](https://github.com/nomemory/java-bean-validation-extension)
+    * [https://github.com/Baeldung/spring-security-registration](https://github.com/Baeldung/spring-security-registration)
+    * [https://github.com/jirutka/validator-collection](https://github.com/jirutka/validator-collection)
+    * [https://github.com/Naoghuman/lib-validation](https://github.com/Naoghuman/lib-validation)
 * [https://github.com/neoremind/fluent-validator](https://github.com/neoremind/fluent-validator)
+* [https://github.com/making/yavi](https://github.com/making/yavi)
+
 
 > `javax.validation.Validation`、`hibernate-validator`和`Spring validtor`
 > 提供了`JSR 303`规范中所有内置constraint 的实现，除此之外还有一些附加的 constraint
 
-* [https://beanvalidation.org](https://beanvalidation.org)
 * [这么写参数校验(validator)就不会被劝退了](https://juejin.im/post/5d3fbeb46fb9a06b317b3c48)
 * [四款数据校验的类(Validate)](https://blog.csdn.net/king101125s/article/details/104356059)
 
