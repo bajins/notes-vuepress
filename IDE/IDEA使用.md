@@ -17,6 +17,9 @@
 
 * [IntelliJ IDEA神器使用技巧](https://www.imooc.com/learn/924)
 * [IDEA的基本使用：让你的IDEA有飞一般的感觉](https://blog.csdn.net/fly910905/article/details/77868300)
+* [挑战idea社区版Javaweb开发](https://www.jianshu.com/p/dc8f3508a8ba)
+* [无需破解，使用IDEA社区版开发Web项目](https://juejin.cn/post/6904998792999731207)
+* [已经足够好用的IDEA社区版](https://www.jianshu.com/p/c98c8d75f71d)
 
 
 

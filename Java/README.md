@@ -199,6 +199,7 @@
     + [下载地址镜像](/Other/README.md#通用镜像)
 + [https://github.com/dromara](https://github.com/dromara)
 + [https://github.com/shulieTech](https://github.com/shulieTech)
++ [https://github.com/codehaus](https://github.com/codehaus)
 
 
 * [https://github.com/eclipse-ee4j/soteria](https://github.com/eclipse-ee4j/soteria)
@@ -280,6 +281,10 @@
 + [https://github.com/flowable](https://github.com/flowable)
 + [https://github.com/espertechinc/esper](https://github.com/espertechinc/esper)
 + 大数据 [https://github.com/apache/hadoop](https://github.com/apache/hadoop)
+    + Spark、Flink、Hive、MapReduce、Presto、Impala
+    + [https://github.com/apache/parquet-mr](https://github.com/apache/parquet-mr)
+    + [https://github.com/apache/parquet-format](https://github.com/apache/parquet-format)
+    + [https://github.com/apache/orc](https://github.com/apache/orc)
 + 云原生框架 [https://github.com/quarkusio/quarkus](https://github.com/quarkusio/quarkus)
 + [https://github.com/bootique/bootique](https://github.com/bootique/bootique)
 + 全堆栈框架 [https://github.com/micronaut-projects](https://github.com/micronaut-projects)
@@ -347,6 +352,7 @@
 + [https://github.com/hamcrest/JavaHamcrest](https://github.com/hamcrest/JavaHamcrest)
 + [https://github.com/robstoll/atrium](https://github.com/robstoll/atrium)
 + [https://github.com/archine/tools](https://github.com/archine/tools)
++ [https://github.com/amaembo/streamex](https://github.com/amaembo/streamex)
 + 规则引擎 [https://github.com/j-easy](https://github.com/j-easy)
     + [Java规则引擎 Easy Rules](https://www.cnblogs.com/cjsblog/archive/2020/06/11/13088017.html)
 + 并发数据结构 [https://github.com/JCTools/JCTools](https://github.com/JCTools/JCTools)
@@ -406,6 +412,11 @@
 - 图片压缩 [https://github.com/coobird/thumbnailator](https://github.com/coobird/thumbnailator)
     - [http://projects.coobird.net](http://projects.coobird.net)
 - [https://github.com/eclipsesource/J2V8](https://github.com/eclipsesource/J2V8)
+- 压缩文件 [https://github.com/junrar/junrar](https://github.com/junrar/junrar)
+- [https://sourceforge.net/projects/sevenzipjbind](https://sourceforge.net/projects/sevenzipjbind)
+    - [https://github.com/borisbrodski/sevenzipjbinding](https://github.com/borisbrodski/sevenzipjbinding)
+- [https://github.com/srikanth-lingala/zip4j](https://github.com/srikanth-lingala/zip4j)
+- [https://github.com/apache/commons-compress](https://github.com/apache/commons-compress)
 
 
 

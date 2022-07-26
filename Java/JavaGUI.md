@@ -53,6 +53,7 @@
 + [https://github.com/JonathanGiles](https://github.com/JonathanGiles)
 + [https://github.com/Drombler](https://github.com/Drombler)
 + [https://github.com/jfree](https://github.com/jfree)
++ [https://github.com/gluonhq](https://github.com/gluonhq)
 
 
 
@@ -63,6 +64,7 @@
 - [https://github.com/piusalfred/ikonfx](https://github.com/piusalfred/ikonfx)
 - [https://github.com/openrndr/openrndr](https://github.com/openrndr/openrndr)
 - 扁平UI [https://github.com/JFormDesigner/FlatLaf](https://github.com/JFormDesigner/FlatLaf)
+- [https://github.com/mgarin/weblaf](https://github.com/mgarin/weblaf)
 - UI 控件 [https://github.com/controlsfx](https://github.com/controlsfx)
 - [https://github.com/eclipse/nebula](https://github.com/eclipse/nebula)
 - [https://github.com/dlsc-software-consulting-gmbh](https://github.com/dlsc-software-consulting-gmbh)
@@ -73,10 +75,10 @@
 - Google Material Design [https://github.com/jfoenixadmin/JFoenix](https://github.com/jfoenixadmin/JFoenix)
 - Bootstrap样式 [https://github.com/dicolar/jbootx](https://github.com/dicolar/jbootx)
 - [https://github.com/edvin/tornadofx-controls](https://github.com/edvin/tornadofx-controls)
-- [https://github.com/gluonhq/connect](https://github.com/gluonhq/connect)
 - 日历 [https://github.com/dlsc-software-consulting-gmbh/CalendarFX](https://github.com/dlsc-software-consulting-gmbh/CalendarFX)
 - 表单 [https://github.com/dlsc-software-consulting-gmbh/FormsFX](https://github.com/dlsc-software-consulting-gmbh/FormsFX)
 - 仪表板 [https://github.com/HanSolo/tilesfx](https://github.com/HanSolo/tilesfx)
+- [https://github.com/fair-acc/chart-fx](https://github.com/fair-acc/chart-fx)
 - 进度条 [https://github.com/ctongfei/progressbar](https://github.com/ctongfei/progressbar)
 - 3D [https://github.com/JogAmp](https://github.com/JogAmp)
 - [https://github.com/saalfeldlab/paintera](https://github.com/saalfeldlab/paintera)

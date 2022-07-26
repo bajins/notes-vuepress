@@ -36,6 +36,7 @@
     * [https://github.com/centic9/jgit-cookbook](https://github.com/centic9/jgit-cookbook)
 * [https://github.com/gitblit/gitblit](https://github.com/gitblit/gitblit)
 * [https://github.com/scm-manager/scm-manager](https://github.com/scm-manager/scm-manager)
+*  [https://github.com/projectkudu/kudu](https://github.com/projectkudu/kudu)
 
 
 

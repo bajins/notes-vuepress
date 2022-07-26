@@ -14,12 +14,6 @@
 > 原生的`CPython`解释器已经足够满足日常编程，加上很多科学计算库底层都是`C`/`C++`写的，一般不会用`Python`做密集计算。
 
 
-> 当你从官网下载并安装好`Python`后，就自带了一个`CPython`解释器，是使用最广的`Python`解释器，
-> 我们在终端使用`python xxx.py`命令就是调用的`CPython`解释器。
-
-> `PyPy`使用了`JIT`（即时编译）技术，混合了动态编译和静态编译的特性，仍然是一句一句编译源代码，
-> 但是会将翻译过的代码缓存起来以降低性能损耗。相对于静态编译代码，即时编译的代码可以处理延迟绑定并增强安全性。
-
 + [https://github.com/topics/python](https://github.com/topics/python)
 + [https://github.com/python](https://github.com/python)
     + [https://www.python.org](https://www.python.org)
@@ -57,7 +51,7 @@
 * [https://github.com/cycleuser/ThinkPython-CN](https://github.com/cycleuser/ThinkPython-CN)
 
 
-
++ [Python中的GIL机制详解](https://zhuanlan.zhihu.com/p/353555643)
 + [深挖python上下文管理——类的__init__、__enter__、__exit__、__del__在with下的表现](https://blog.csdn.net/qq_27884799/article/details/101535569)
 + [深入理解 Python 中的上下文管理器](https://www.cnblogs.com/wongbingming/p/10519553.html)
 
@@ -66,6 +60,21 @@ test = Test() # 触发__del__
 with Test() as t: # 触发__exit__
     pass
 ```
+
+**三方编译器**
+
+> `PyPy`使用了`JIT`（即时编译）技术，混合了动态编译和静态编译的特性，仍然是一句一句编译源代码，
+> 但是会将翻译过的代码缓存起来以降低性能损耗。相对于静态编译代码，即时编译的代码可以处理延迟绑定并增强安全性。
+
+* [https://www.pypy.org](https://www.pypy.org)
+    * [https://github.com/topics/pypy](https://github.com/topics/pypy)
+    * [https://github.com/mozillazg/pypy](https://github.com/mozillazg/pypy)
+* [https://github.com/pyston/pyston](https://github.com/pyston/pyston)
+* [https://github.com/stackless-dev/stackless](https://github.com/stackless-dev/stackless)
+* [https://github.com/jython/jython](https://github.com/jython/jython)
+* [https://github.com/IronLanguages](https://github.com/IronLanguages)
+    * [https://ironpython.net](https://ironpython.net)
+
 
 
 **工具**
@@ -87,6 +96,7 @@ with Test() as t: # 触发__exit__
 + [https://github.com/vinta/awesome-python](https://github.com/vinta/awesome-python)
 + [Python 常用的标准库以及第三方库有哪些？](https://www.zhihu.com/question/20501628/answers/updated)
 
+
 * 应用监控 [https://github.com/SolarEdgeTech/pyctuator](https://github.com/SolarEdgeTech/pyctuator)
 * [Python图像处理库—-Pillow](https://www.lizenghai.com/archives/17611.html)
 * 基于异步库 [https://github.com/aio-libs](https://github.com/aio-libs)
@@ -101,6 +111,7 @@ with Test() as t: # 触发__exit__
     * [https://www.tornadoweb.org](https://www.tornadoweb.org)
 * [https://github.com/twisted](https://github.com/twisted)
 * [https://github.com/encode/httpx](https://github.com/encode/httpx)
+* [https://github.com/httpie/httpie](https://github.com/httpie/httpie)
 * 日志 [https://github.com/Delgan/loguru](https://github.com/Delgan/loguru)
 * [https://github.com/jpadilla/pyjwt](https://github.com/jpadilla/pyjwt)
 * [https://github.com/Arronlong/py_scripts](https://github.com/Arronlong/py_scripts)

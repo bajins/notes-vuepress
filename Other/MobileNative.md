@@ -441,7 +441,7 @@
     - [https://github.com/bfosterjr/CFFExtensions](https://github.com/bfosterjr/CFFExtensions)
     - [https://github.com/Steve1920/courseManage](https://github.com/Steve1920/courseManage)
         - [https://pan.baidu.com/s/1_wma1SuhGBC6Aku6X4iRXQ](https://pan.baidu.com/s/1_wma1SuhGBC6Aku6X4iRXQ)
-* 二进制反编译 [https://github.com/uxmal/reko](https://github.com/uxmal/reko)
+- 二进制反编译 [https://github.com/uxmal/reko](https://github.com/uxmal/reko)
 - 提取/解压缩 [https://github.com/Perfare/AssetStudio](https://github.com/Perfare/AssetStudio)
 - [手机抓包神器HttpCanary](https://www.lanzoui.com/b0f1b9v6j)
 - C-S架构渗透测试 [https://github.com/theLSA/CS-checklist](https://github.com/theLSA/CS-checklist)
@@ -450,6 +450,10 @@
 - [https://github.com/libimobiledevice-win32/imobiledevice-net](https://github.com/libimobiledevice-win32/imobiledevice-net)
 - [https://gfx-tools.com](https://gfx-tools.com)
 - [https://crowdin.com/project/proxydroid](https://crowdin.com/project/proxydroid)
+- [https://github.com/linchaolong/ApkToolPlus](https://github.com/linchaolong/ApkToolPlus)
+- [https://github.com/lxdvs/apk2gold](https://github.com/lxdvs/apk2gold)
+- [https://github.com/dana-at-cp/backdoor-apk](https://github.com/dana-at-cp/backdoor-apk)
+- [https://github.com/stray-coding/android_decompile_tool](https://github.com/stray-coding/android_decompile_tool)
 
 
 
@@ -477,6 +481,8 @@
 * [https://github.com/Dsiner/UIUtil](https://github.com/Dsiner/UIUtil)
 * [https://github.com/jonfinerty/Once](https://github.com/jonfinerty/Once)
 * 打包 [https://github.com/Meituan-Dianping/walle](https://github.com/Meituan-Dianping/walle)
+* [https://github.com/CtripMobile/DynamicAPK](https://github.com/CtripMobile/DynamicAPK)
+* 签名 [https://github.com/patrickfav/uber-apk-signer](https://github.com/patrickfav/uber-apk-signer)
 * 媒体管理 [https://github.com/bumptech/glide](https://github.com/bumptech/glide)
 * [https://github.com/yanzhenjie/SwipeRecyclerView](https://github.com/yanzhenjie/SwipeRecyclerView)
 * 停止应用程序 [https://github.com/XYScience/StopApp](https://github.com/XYScience/StopApp)
@@ -498,6 +504,7 @@
 * 串口 [https://github.com/GeekBugs/Android-SerialPort](https://github.com/GeekBugs/Android-SerialPort)
 * 验证校验 [https://github.com/thyrlian/AwesomeValidation](https://github.com/thyrlian/AwesomeValidation)
 * [https://github.com/ragunathjawahar/android-saripaar](https://github.com/ragunathjawahar/android-saripaar)
+* [https://github.com/jiangxincode/ApkToolBoxGUI](https://github.com/jiangxincode/ApkToolBoxGUI)
 
 
 
@@ -555,6 +562,21 @@
 - [https://gitlab.com/AuroraOSS/auroradroid](https://gitlab.com/AuroraOSS/auroradroid)
 
 
+* [https://github.com/pipiscrew/html2apk](https://github.com/pipiscrew/html2apk)
+* [https://github.com/darkshredder/web-to-app-action](https://github.com/darkshredder/web-to-app-action)
+* [https://github.com/ynloultratech/web2apk](https://github.com/ynloultratech/web2apk)
+* [https://github.com/mohssineAboutaj/web-to-apk](https://github.com/mohssineAboutaj/web-to-apk)
+* [https://github.com/RikudouSage/PwaToTwa](https://github.com/RikudouSage/PwaToTwa)
+* [https://github.com/AKPR2007/website-to-apk](https://github.com/AKPR2007/website-to-apk)
+* [https://github.com/successtar/web-to-app](https://github.com/successtar/web-to-app)
+* [https://github.com/fh-rabbi/Html-Css-Js-Web-View-Apk-Template](https://github.com/fh-rabbi/Html-Css-Js-Web-View-Apk-Template)
+* 一个木函 [http://www.woobx.cn](http://www.woobx.cn)
+* [https://www.coolapk.com/apk/com.One.WoodenLetter](https://www.coolapk.com/apk/com.One.WoodenLetter)
+* [https://www.coolapk.com/apk/cn.coldsong.fusionapp](https://www.coolapk.com/apk/cn.coldsong.fusionapp)
+* [https://hermit.chimbori.com/features/premium](https://hermit.chimbori.com/features/premium)
+* [https://www.apicloud.com/autogeneration](https://www.apicloud.com/autogeneration)
+* [https://websitetoapk.com](https://websitetoapk.com)
+* 网页转exe [https://github.com/nativefier/nativefier](https://github.com/nativefier/nativefier)
 * see [https://caij.coding.net/public](https://caij.coding.net/public)
 * 文本编辑器 [https://github.com/gsantner/markor](https://github.com/gsantner/markor)
 * YouTube [https://github.com/YTVanced/VancedManager](https://github.com/YTVanced/VancedManager)
@@ -570,6 +592,7 @@
 + [https://greasyfork.org/zh-CN/scripts/33005](https://greasyfork.org/zh-CN/scripts/33005)
 
 
+* [https://github.com/apkonline/apk-downloader](https://github.com/apkonline/apk-downloader)
 * [https://github.com/rehmatworks/gplaydl](https://github.com/rehmatworks/gplaydl)
 * [https://github.com/evozi](https://github.com/evozi)
 * [https://apkpremier.com](https://apkpremier.com)

@@ -325,6 +325,8 @@
 * 单元测试 [https://github.com/maxbrunsfeld/counterfeiter](https://github.com/maxbrunsfeld/counterfeiter)
 * [https://github.com/onsi/gomega](https://github.com/onsi/gomega)
 * CLI [https://github.com/blend/go-sdk](https://github.com/blend/go-sdk)
+* 定时器 [https://github.com/antlabs/timer](https://github.com/antlabs/timer)
+* 替换DOCX中的文本 [https://github.com/nguyenthenguyen/docx](https://github.com/nguyenthenguyen/docx)
 
 
 

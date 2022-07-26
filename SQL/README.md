@@ -23,11 +23,6 @@
 * HiveSQL教程 [https://www.gairuo.com/p/hive-sql-tutorial](https://www.gairuo.com/p/hive-sql-tutorial)
 
 
-- [数据库分库分表Java实战经验总结](https://bbs.huaweicloud.com/blogs/286564)
-- [数据库分区](https://www.jianshu.com/p/8bfe4ed00f88)
-- [数据库分区、分表、分库、分片](https://blog.csdn.net/chezong/article/details/123322973)
-
-
 **备份/迁移/同步/导入导出**
 
 + [https://github.com/topics/binlog](https://github.com/topics/binlog)
@@ -45,6 +40,37 @@
 - [https://gitee.com/ghi/dbsyncer](https://gitee.com/ghi/dbsyncer)
 - [https://github.com/jeessy2/backup-x](https://github.com/jeessy2/backup-x)
 - [https://github.com/jeessy2/backup-db](https://github.com/jeessy2/backup-db)
+
+
+
+
+
+## 数据库设计
+
+
+**范式：Normal Format**
+
+> 符合某一种级别的关系模式的集合，表示一个关系内部各属性之间的联系的合理化程度。一个数据库表之间的所有字段之间的联系的合理性。
+
+- 范式是离散数学里的概念
+- 范式目标是在满足组织和存储的前提下使数据结构冗余最小化
+- 范式级别越高，表的级别就越标准
+
+
++ 第一范式：1NF，确保表中每一列数据的原子性，不可再分！
++ 第二范式：2NF，在满足第一范式的基础上，确保列数据要跟主键关联，不能出现部分依赖。
++ 第三范式：3NF，再满足第二范式的基础上，保证每一列数据都要跟主键直接关联，不能出现传递依赖。
++ BCNF范式,4NF,5NF
++ 反范式：用空间换时间，通过适当的数据冗余提高查询效率，但冗余数据会牺牲数据一致性
+
+
+* [数据库设计-表结构的设计范式](https://zhuanlan.zhihu.com/p/353493253)
+* [数据库设计三大范式](https://www.cnblogs.com/jingzh/p/15270698.html)
+
+
+- [数据库分库分表Java实战经验总结](https://bbs.huaweicloud.com/blogs/286564)
+- [数据库分区](https://www.jianshu.com/p/8bfe4ed00f88)
+- [数据库分区、分表、分库、分片](https://blog.csdn.net/chezong/article/details/123322973)
 
 
 
