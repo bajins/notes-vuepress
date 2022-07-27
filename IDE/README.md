@@ -119,6 +119,7 @@
 
 + [https://github.com/search?q=database+tool](https://github.com/search?q=database+tool)
 + [https://github.com/search?q=SQL+client](https://github.com/search?q=SQL+client)
++ [https://github.com/topics/database-gui](https://github.com/topics/database-gui)
 + [https://gitee.com/explore/dbmanager](https://gitee.com/explore/dbmanager)
 
 
@@ -169,11 +170,20 @@
 **Redis**
 
 + [https://github.com/topics/redis-client](https://github.com/topics/redis-client)
++ [https://github.com/search?q=redis-manager](https://github.com/search?q=redis-manager)
 
-* [https://github.com/nitzzzu/RedisDesktopManager](https://github.com/nitzzzu/RedisDesktopManager)
-* [https://github.com/kanyways/rdm](https://github.com/kanyways/rdm)
-* [https://github.com/lework/RedisDesktopManager-Windows](https://github.com/lework/RedisDesktopManager-Windows)
+
+* [https://github.com/uglide/RedisDesktopManager](https://github.com/uglide/RedisDesktopManager)
+    * [https://github.com/kanyways/rdm](https://github.com/kanyways/rdm)
+    * [https://github.com/lework/RedisDesktopManager-Windows](https://github.com/lework/RedisDesktopManager-Windows)
+    * [https://github.com/FuckDoctors/rdm-builder](https://github.com/FuckDoctors/rdm-builder)
+    * [https://github.com/nitzzzu/RedisDesktopManager](https://github.com/nitzzzu/RedisDesktopManager)
 * [https://github.com/qishibo/AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager)
+* [https://github.com/fastogt/fastonosql](https://github.com/fastogt/fastonosql)
+* [https://github.com/fuyoo/bs-redis-desktop-client](https://github.com/fuyoo/bs-redis-desktop-client)
+* [https://github.com/patrikx3/redis-ui](https://github.com/patrikx3/redis-ui)
+* [https://github.com/ekvedaras/redis-gui](https://github.com/ekvedaras/redis-gui)
+
 
 
 **数据建模**

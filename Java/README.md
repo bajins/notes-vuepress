@@ -216,7 +216,6 @@
 * 线程间消息传递 [https://github.com/lmax-exchange/disruptor](https://github.com/lmax-exchange/disruptor)
 * [https://github.com/alibaba/transmittable-thread-local](https://github.com/alibaba/transmittable-thread-local)
 * 依赖关系注入器 [https://github.com/google/dagger](https://github.com/google/dagger)
-* [https://github.com/redisson](https://github.com/redisson)
 * 规划引擎 [https://github.com/kiegroup](https://github.com/kiegroup)
 * [https://github.com/MyCATApache](https://github.com/MyCATApache)
 * 验证码 [https://github.com/ramostear/Happy-Captcha](https://github.com/ramostear/Happy-Captcha)
