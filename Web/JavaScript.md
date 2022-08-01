@@ -418,6 +418,7 @@ var express = require('express');
 * [https://github.com/mengshukeji/Luckysheet](https://github.com/mengshukeji/Luckysheet)
 * [https://github.com/ag-grid/ag-grid](https://github.com/ag-grid/ag-grid)
 * [https://github.com/exceljs/exceljs](https://github.com/exceljs/exceljs)
+* [https://github.com/mengshukeji/Luckyexcel](https://github.com/mengshukeji/Luckyexcel)
 * TableExport [https://github.com/clarketm/TableExport](https://github.com/clarketm/TableExport)
 * tableExport.jquery.plugin [https://github.com/hhurz/tableExport.jquery.plugin](https://github.com/hhurz/tableExport.jquery.plugin)
 * excellentexport [https://github.com/jmaister/excellentexport](https://github.com/jmaister/excellentexport)
