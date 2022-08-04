@@ -727,10 +727,7 @@
 * 基于springboot的一款纯净脚手架 [https://github.com/fuce1314/Springboot_v2](https://github.com/fuce1314/Springboot_v2)
 * [https://gitee.com/lovetime/WeAdmin](https://gitee.com/lovetime/WeAdmin)
 * 停车场管理 [https://github.com/981011512/--](https://github.com/981011512/--)
-* [https://github.com/zhangdaiscott/JimuReport](https://github.com/zhangdaiscott/JimuReport)
-* 数据可视化分析 [https://github.com/dataease](https://github.com/dataease)
-* [https://github.com/YunaiV/ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro)
-* 实时风控引擎 [https://github.com/wfh45678/radar](https://github.com/wfh45678/radar)
+
 
 
 

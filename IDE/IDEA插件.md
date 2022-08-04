@@ -20,6 +20,7 @@
         * [https://repo.idechajian.com](https://repo.idechajian.com)
         * [https://plugins.zhile.io](https://plugins.zhile.io)
     * [https://github.com/ja-netfilter](https://github.com/ja-netfilter) 2021.3(2022.1起弃用`mymap`插件)
+        * [https://gitee.com/ja-netfilter](https://gitee.com/ja-netfilter)
     * [https://jetbra.in/s](https://jetbra.in/s)
 
 
