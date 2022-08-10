@@ -95,6 +95,7 @@
 * [https://github.com/cloudfoundry](https://github.com/cloudfoundry)
     * [https://github.com/cloudfoundry-incubator](https://github.com/cloudfoundry-incubator)
     * [https://www.cloudfoundry.org](https://www.cloudfoundry.org)
+* [https://github.com/distribution/distribution](https://github.com/distribution/distribution)
 * [cloud-foundry 的动态 - SegmentFault 思否](https://segmentfault.com/t/cloud-foundry)
 * [https://www.terraform.io](https://www.terraform.io)
 * [https://github.com/rancher/rancher](https://github.com/rancher/rancher)

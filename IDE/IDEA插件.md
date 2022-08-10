@@ -22,6 +22,12 @@
     * [https://github.com/ja-netfilter](https://github.com/ja-netfilter) 2021.3(2022.1起弃用`mymap`插件)
         * [https://gitee.com/ja-netfilter](https://gitee.com/ja-netfilter)
     * [https://jetbra.in/s](https://jetbra.in/s)
+* [利用授权服务器(License Server)激活Jetbrains全家桶](https://51.ruyo.net/17780.html)
+    * [https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth](https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth)
+* [如何批量挖掘Jetbrains系列产品激活服务器](https://t.me/s/Ru05hui/123)
+    * [https://fofa.info](https://fofa.info)
+* [如何找Jetbrains激活服务器](https://hostloc.com/thread-999341-1-1.html)
+    * [https://search.censys.io](https://search.censys.io)
 
 
 > `计算机\HKEY_CURRENT_USER\SOFTWARE\JavaSoft\Prefs`

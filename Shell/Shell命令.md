@@ -90,6 +90,8 @@ ls -l | grep test | awk '{print $5}' | sed -n '2p'
 
 
 * [https://github.com/adrianscheff/useful-sed](https://github.com/adrianscheff/useful-sed)
+* [shell＞sed (对文件的内容进行替换）](https://blog.csdn.net/qq_42069216/article/details/104425018)
+
 
 - `awk` 文本处理命令，`print`后面是你要获取第几列
 - `sed` 行编辑器，`-n`是指定第几行。

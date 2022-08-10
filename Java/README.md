@@ -272,6 +272,7 @@
 + 简单的Web框架 [https://github.com/javalin](https://github.com/javalin)
 + 工作流框架 [https://github.com/Activiti/Activiti](https://github.com/Activiti/Activiti)
     + [https://github.com/henryyan/activiti-in-action-codes](https://github.com/henryyan/activiti-in-action-codes)
+    + [https://github.com/shenzhanwang/Spring-activiti](https://github.com/shenzhanwang/Spring-activiti)
 + [https://github.com/kiegroup/jbpm](https://github.com/kiegroup/jbpm)
 + [https://github.com/flowable](https://github.com/flowable)
 + [https://github.com/espertechinc/esper](https://github.com/espertechinc/esper)

@@ -41,6 +41,7 @@
 - [Github 上 emoji 表情的含义及使用规范](https://mkblog.cn/872)
 - [https://github.com/mkdocs/mkdocs](https://github.com/mkdocs/mkdocs)
 - 转PDF [https://github.com/realdennis/md2pdf](https://github.com/realdennis/md2pdf)
+- [https://github.com/BlueHatbRit/mdpdf](https://github.com/BlueHatbRit/mdpdf)
 
 
 > 表情（两个冒号包围的字符）,比如`:blush:`，可以显示 :blush:

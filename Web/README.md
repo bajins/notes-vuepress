@@ -262,7 +262,7 @@
 
 - [https://github.com/BlueSkyXN/CFIP](https://github.com/BlueSkyXN/CFIP)
 - [https://github.com/yuantuo666/cfip](https://github.com/yuantuo666/cfip)
-
+- [https://github.com/XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest)
 
 
 
