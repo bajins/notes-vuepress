@@ -171,6 +171,7 @@
 + [https://github.com/moul](https://github.com/moul)
 + [https://github.com/frobware](https://github.com/frobware)
 + [https://github.com/juju](https://github.com/juju)
+* PostgreSQL [https://github.com/jackc/pgx](https://github.com/jackc/pgx)
 
 
 
@@ -204,11 +205,12 @@
 * [https://github.com/ouqiang/delay-queue](https://github.com/ouqiang/delay-queue)
 * [https://github.com/beanstalkd/go-beanstalk](https://github.com/beanstalkd/go-beanstalk)
 * [https://github.com/tal-tech/go-queue](https://github.com/tal-tech/go-queue)
-* [https://github.com/go-xorm](https://github.com/go-xorm)
+* ORM [https://github.com/go-xorm](https://github.com/go-xorm)
 * [https://github.com/zhihu/norm](https://github.com/zhihu/norm)
 * [https://gitea.com/xorm/xorm](https://gitea.com/xorm/xorm)
     * [https://xorm.io](https://xorm.io)
 * [https://github.com/xormplus/xorm](https://github.com/xormplus/xorm)
+* [https://github.com/huandu/go-sqlbuilder](https://github.com/huandu/go-sqlbuilder)
 * [https://github.com/libragen/felix](https://github.com/libragen/felix)
 * [https://github.com/eventials/go-tus](https://github.com/eventials/go-tus)
 * 缓存 [https://github.com/patrickmn/go-cache](https://github.com/patrickmn/go-cache)
@@ -226,7 +228,6 @@
 * [https://github.com/mattn/go-sqlite3](https://github.com/mattn/go-sqlite3)
 * [https://github.com/nakagami/firebirdsql](https://github.com/nakagami/firebirdsql)
 * [https://github.com/lib/pq](https://github.com/lib/pq)
-* PostgreSQL驱动 [https://github.com/jackc/pgx](https://github.com/jackc/pgx)
 * Swagger2 [https://github.com/swaggo](https://github.com/swaggo)
 * [https://github.com/owenliang/go-push](https://github.com/owenliang/go-push)
 * [https://github.com/rs/zerolog](https://github.com/rs/zerolog)

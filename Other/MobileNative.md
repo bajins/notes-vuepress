@@ -259,6 +259,7 @@
 + [https://developer.android.google.cn/jetpack/androidx/compose-roadmap](https://developer.android.google.cn/jetpack/androidx/compose-roadmap)
 + [https://android-arsenal.com](https://android-arsenal.com)
 + [https://github.com/lineageos](https://github.com/lineageos)
++ [https://github.com/idisfkj/android-api-analysis](https://github.com/idisfkj/android-api-analysis)
 
 
 - IDE [https://developer.android.google.cn/studio](https://developer.android.google.cn/studio)
@@ -485,6 +486,7 @@
 * 签名 [https://github.com/patrickfav/uber-apk-signer](https://github.com/patrickfav/uber-apk-signer)
 * 媒体管理 [https://github.com/bumptech/glide](https://github.com/bumptech/glide)
 * [https://github.com/yanzhenjie/SwipeRecyclerView](https://github.com/yanzhenjie/SwipeRecyclerView)
+* 启动时初始化 [https://github.com/idisfkj/android-startup](https://github.com/idisfkj/android-startup)
 * 停止应用程序 [https://github.com/XYScience/StopApp](https://github.com/XYScience/StopApp)
 * 版本检测升级 [https://github.com/AlexLiuSheng/CheckVersionLib](https://github.com/AlexLiuSheng/CheckVersionLib)
 * 关于页面 [https://github.com/medyo/android-about-page](https://github.com/medyo/android-about-page)

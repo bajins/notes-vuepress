@@ -46,6 +46,7 @@
 
 - PyQt5快速开发与实战 [https://github.com/cxinping/PyQt5](https://github.com/cxinping/PyQt5)
 - PyQt5中文教程 [https://github.com/maicss/PyQt5-Chinese-tutorial](https://github.com/maicss/PyQt5-Chinese-tutorial)
+- [https://github.com/maicss/PyQt-Chinese-tutorial](https://github.com/maicss/PyQt-Chinese-tutorial)
 
 * [pyqt5 参考代码 github 参考项目](https://blog.csdn.net/wowocpp/article/details/105759105)
 
