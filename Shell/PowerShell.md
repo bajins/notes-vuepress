@@ -62,6 +62,8 @@
 
 ## 在batch中嵌入运行
 
+* [PowerShell常用命令及使用方法](https://blog.csdn.net/Captain_RB/article/details/111604033)
+
 > 由于Power Shell默认没有开启运行脚本策略，可以以此方式解决
 
 > 正则表达式排除以`@`和`:`开头的行，并将其他所有内容传递给Power Shell

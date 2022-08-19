@@ -164,24 +164,6 @@
     * [https://opensource.newrelic.com](https://opensource.newrelic.com)
 * [https://github.com/pinpoint-apm/pinpoint](https://github.com/pinpoint-apm/pinpoint)
 * [https://github.com/apache/skywalking](https://github.com/apache/skywalking)
-* 分布式追踪系统 [https://github.com/openzipkin/zipkin](https://github.com/openzipkin/zipkin)
-* [https://github.com/dianping/cat](https://github.com/dianping/cat)
-* [https://github.com/elastic/apm-server](https://github.com/elastic/apm-server)
-* [https://github.com/prometheus](https://github.com/prometheus)
-    * [Prometheus监控tomcat+jvm](https://www.cnblogs.com/you-men/p/13216976.html)
-* [https://github.com/wolfpld/tracy](https://github.com/wolfpld/tracy)
-* [https://github.com/geerlingguy/internet-pi](https://github.com/geerlingguy/internet-pi)
-* [https://github.com/SigNoz/signoz](https://github.com/SigNoz/signoz)
-* [https://github.com/Lakr233/Rayon](https://github.com/Lakr233/Rayon)
-* 集群监控 [https://github.com/ganglia](https://github.com/ganglia)
-* Cacti
-* icinga
-* Ntop
-* 应用监控 [https://github.com/codecentric/spring-boot-admin](https://github.com/codecentric/spring-boot-admin)
-* [https://github.com/Nepxion](https://github.com/Nepxion)
-* [https://github.com/sohutv/mqcloud](https://github.com/sohutv/mqcloud)
-* 日志集中管理 [https://github.com/logdna](https://github.com/logdna)
-* [https://github.com/allinurl/goaccess](https://github.com/allinurl/goaccess)
 
 
 - [https://github.com/bigbully/Dapper-translation](https://github.com/bigbully/Dapper-translation)

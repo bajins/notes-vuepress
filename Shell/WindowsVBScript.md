@@ -47,6 +47,7 @@
 * [https://github.com/eklam/VbsJson](https://github.com/eklam/VbsJson)
 * [进度条](https://stackoverflow.com/questions/18216027/vbscript-script-progress-notification)
 * [进度条](https://stackoverflow.com/questions/50514348/how-do-i-make-a-fake-progress-bar-in-vbscript)
+* [WScript/VBScript实现ZIP文件的压缩或解压(ZipCompressor)](https://wangye.org/blog/archives/767/)
 
 
 ```vb

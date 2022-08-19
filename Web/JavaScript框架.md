@@ -322,6 +322,7 @@ $('div:contains("test"):not(:has(*)):last').css('background-color', 'red');
 * 文件上传 [https://github.com/kartik-v/bootstrap-fileinput](https://github.com/kartik-v/bootstrap-fileinput)
 * 下拉选择框 [https://github.com/snapappointments/bootstrap-select](https://github.com/snapappointments/bootstrap-select)
 	* [https://www.bootstrapselect.cn](https://www.bootstrapselect.cn)
+* [https://github.com/davidstutz/bootstrap-multiselect](https://github.com/davidstutz/bootstrap-multiselect)
 * [https://github.com/selectize/selectize.js](https://github.com/selectize/selectize.js)
 * [https://github.com/select2/select2](https://github.com/select2/select2)
 * [https://github.com/wenzhixin/multiple-select](https://github.com/wenzhixin/multiple-select)
