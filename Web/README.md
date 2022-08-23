@@ -47,8 +47,6 @@
 
 
 
-
-
 <details>
 <summary style="font-size:160%;">点击查看浏览器缓存</summary>
 <a href="https://www.jianshu.com/p/fbdf565afc48">JS 浏览器缓存</a>
@@ -82,6 +80,7 @@
 + [https://github.com/ekalinin/sitemap.js](https://github.com/ekalinin/sitemap.js)
 + 网页加载进度 [https://github.com/CodeByZach/pace](https://github.com/CodeByZach/pace)
 + 天气 [https://weatherwidget.io](https://weatherwidget.io)
+
 
 - 静态站点生成器列表 [https://github.com/jamstack/jamstack.org](https://github.com/jamstack/jamstack.org)
     - [https://jamstack.org/generators](https://jamstack.org/generators)
@@ -132,25 +131,6 @@
 - Swift或Objective-C [https://github.com/realm/jazzy](https://github.com/realm/jazzy)
 - Java [https://github.com/Kapeli/javadocset](https://github.com/Kapeli/javadocset)
 
-
-
-### 免费域名
-
-- [https://www.freenom.com](https://www.freenom.com)
-- [https://nic.eu.org](https://nic.eu.org)
-    - [人人都可申请拥有EU.org免费域名](https://51.ruyo.net/17863.html)
-- [https://www.nom.za](https://www.nom.za)
-    - [免费申请南非 NOM.za 免费域名](https://51.ruyo.net/17968.html)
-
-
-* [如何正确绕开备案使用国内机器](https://www.hqsblog.cn/2019/12/15/237.html)
-
-
-
-**创建自己的免费网站**
-
-- [https://carrd.co](https://carrd.co)
-- [https://neocities.org](https://neocities.org)
 
 
 
@@ -214,38 +194,6 @@
 * [https://github.com/discourse/discourse](https://github.com/discourse/discourse)
 * [https://gitter.im](https://gitter.im)
 * [https://github.com/ReplCustoms/ReplCustoms](https://github.com/ReplCustoms/ReplCustoms)
-
-
-
-## 匿名分享
-
-* [https://github.com/LucienShui/PasteMe](https://github.com/LucienShui/PasteMe)
-* [https://github.com/PasteUs/PasteMeGoBackend](https://github.com/PasteUs/PasteMeGoBackend)
-
-**图床**
-
-* [http://img.wang](http://img.wang)
-* 即刻图床 [http://jiketuchuang.com](http://jiketuchuang.com)
-* 图壳 [https://imgkr.com](https://imgkr.com)
-* 开源图床 [https://imgurl.org](https://imgurl.org)
-* [https://github.com/icret/easyImages2.0](https://github.com/icret/easyImages2.0)
-    * 简单图床 [https://img.545141.com](https://img.545141.com)
-* SM.MS [https://sm.ms](https://sm.ms)
-* 牛图网 [https://www.niupic.com](https://www.niupic.com)
-* 路过图床 [https://imgchr.com](https://imgchr.com)
-* [https://lookimg.com](https://lookimg.com)
-* [https://img.cy](https://img.cy)
-* [https://imgur.com](https://imgur.com)
-
-
-
-**文件分享**
-
-* [https://www.file.io](https://www.file.io)
-* [https://uplovd.com](https://uplovd.com)
-* [https://anonfiles.com](https://anonfiles.com)
-* [https://uptobox.com](https://uptobox.com)
-* [https://www.mediafire.com](https://www.mediafire.com)
 
 
 

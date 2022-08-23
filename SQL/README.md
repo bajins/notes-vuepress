@@ -1,6 +1,5 @@
 # SQL
 
-
 [[toc]]
 
 
@@ -63,56 +62,198 @@
 
 
 
-
-## 数据库设计
-
-
-**范式：Normal Format**
-
-> 符合某一种级别的关系模式的集合，表示一个关系内部各属性之间的联系的合理化程度。一个数据库表之间的所有字段之间的联系的合理性。
-
-- 范式是离散数学里的概念
-- 范式目标是在满足组织和存储的前提下使数据结构冗余最小化
-- 范式级别越高，表的级别就越标准
+## 其他数据库
 
 
-+ 第一范式：1NF，确保表中每一列数据的原子性，不可再分！
-+ 第二范式：2NF，在满足第一范式的基础上，确保列数据要跟主键关联，不能出现部分依赖。
-+ 第三范式：3NF，再满足第二范式的基础上，保证每一列数据都要跟主键直接关联，不能出现传递依赖。
-+ BCNF范式,4NF,5NF
-+ 反范式：用空间换时间，通过适当的数据冗余提高查询效率，但冗余数据会牺牲数据一致性
++ [https://github.com/cmu-db/dbdb.io](https://github.com/cmu-db/dbdb.io)
++ [https://github.com/polardb](https://github.com/polardb)
++ [https://db-engines.com/en/ranking](https://db-engines.com/en/ranking)
 
 
-* [数据库设计-表结构的设计范式](https://zhuanlan.zhihu.com/p/353493253)
-* [数据库设计三大范式](https://www.cnblogs.com/jingzh/p/15270698.html)
+* sqlite克隆 [https://github.com/cstack/db_tutorial](https://github.com/cstack/db_tutorial)
+* [http://www.h2database.com](http://www.h2database.com)
+* [http://hsqldb.org](http://hsqldb.org)
+* [https://github.com/FirebirdSQL/firebird](https://github.com/FirebirdSQL/firebird)
+* [https://github.com/citusdata/citus](https://github.com/citusdata/citus)
+* 分布式 [https://github.com/cockroachdb/cockroach](https://github.com/cockroachdb/cockroach)
+* [https://github.com/apache/ignite](https://github.com/apache/ignite)
+    * [http://blog.nimblex.cn/archives](http://blog.nimblex.cn/archives)
+    * [https://www.ignite-service.cn/doc/java](https://www.ignite-service.cn/doc/java)
+    * [https://github.com/owen-jia/ignite-yardstick](https://github.com/owen-jia/ignite-yardstick)
+* [https://github.com/rethinkdb](https://github.com/rethinkdb)
+* [https://github.com/pingcap/tidb](https://github.com/pingcap/tidb)
+    * [https://pingcap.com](https://pingcap.com)
+* [https://github.com/tikv/tikv](https://github.com/tikv/tikv)
+* [https://github.com/yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db)
+* [https://github.com/prestodb/presto](https://github.com/prestodb/presto)
+* [https://github.com/apache/cassandra](https://github.com/apache/cassandra)
+* [https://github.com/apache/kudu](https://github.com/apache/kudu)
+* DynamoDB
+* [https://github.com/KvrocksLabs/kvrocks](https://github.com/KvrocksLabs/kvrocks)
+* CrateDB [https://github.com/crate/crate](https://github.com/crate/crate)
+* [https://github.com/influxdata/influxdb](https://github.com/influxdata/influxdb)
+* [https://github.com/VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)
+* 使用Raft算法 [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
+* [https://github.com/etcd-io/bbolt](https://github.com/etcd-io/bbolt)
+* [https://github.com/jnwatson/py-lmdb](https://github.com/jnwatson/py-lmdb)
+* [https://github.com/basho/riak](https://github.com/basho/riak)
+* K/V数据库 [https://github.com/google/leveldb](https://github.com/google/leveldb)
+* [https://github.com/couchbase/moss](https://github.com/couchbase/moss)
+* [https://github.com/memcached/memcached](https://github.com/memcached/memcached)
+* [https://github.com/sirixdb](https://github.com/sirixdb)
+* [https://github.com/scylladb/scylla](https://github.com/scylladb/scylla)
+* [https://github.com/erthink/libmdbx](https://github.com/erthink/libmdbx)
+* [https://github.com/EQ-Alpha/KeyDB](https://github.com/EQ-Alpha/KeyDB)
+* [https://github.com/apache/incubator-pegasus](https://github.com/apache/incubator-pegasus)
+* [https://github.com/FoundationDB/fdb-record-layer](https://github.com/FoundationDB/fdb-record-layer)
+* [https://github.com/flower-corp/rosedb](https://github.com/flower-corp/rosedb)
+* [https://github.com/hivedb/hive](https://github.com/hivedb/hive)
+* [https://github.com/facebook/rocksdb](https://github.com/facebook/rocksdb)
+* [https://github.com/cockroachdb/pebble](https://github.com/cockroachdb/pebble)
+* [https://github.com/pmqs/BerkeleyDB](https://github.com/pmqs/BerkeleyDB)
+* 面向列的数据库 [https://github.com/ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)
+* Go嵌入式(S)QL数据库 [https://gitlab.com/cznic/ql](https://gitlab.com/cznic/ql)
+* [https://github.com/oceanbase/oceanbase](https://github.com/oceanbase/oceanbase)
+* [https://github.com/roseduan/rosedb](https://github.com/roseduan/rosedb)
+* 时间序列数据库 [https://github.com/OpenTSDB/opentsdb](https://github.com/OpenTSDB/opentsdb)
+* [https://github.com/timescale/timescaledb](https://github.com/timescale/timescaledb)
+* [https://github.com/apache/hbase](https://github.com/apache/hbase)
+* [https://github.com/baidu/BaikalDB](https://github.com/baidu/BaikalDB)
+* [https://gitee.com/mirrors/EdgeFS](https://gitee.com/mirrors/EdgeFS)
+* [https://github.com/Tencent/paxosstore](https://github.com/Tencent/paxosstore)
+* [https://github.com/taosdata/TDengine](https://github.com/taosdata/TDengine)
+* [https://github.com/infinispan/infinispan](https://github.com/infinispan/infinispan)
+* [https://github.com/griddb/griddb](https://github.com/griddb/griddb)
+* [https://github.com/RocksCloud/rocksredis](https://github.com/RocksCloud/rocksredis)
+* 物联网 [https://github.com/apache/iotdb](https://github.com/apache/iotdb)
+* 内存关系数据库 [https://github.com/VoltDB/voltdb](https://github.com/VoltDB/voltdb)
+* [https://github.com/memsql](https://github.com/memsql)
+    * [https://www.singlestore.com](https://www.singlestore.com)
+* [https://github.com/cmu-db/noisepage](https://github.com/cmu-db/noisepage)
+* 不可变数据库 [https://github.com/codenotary/immudb](https://github.com/codenotary/immudb)
 
 
-- [数据库分库分表Java实战经验总结](https://bbs.huaweicloud.com/blogs/286564)
-- [数据库分区](https://www.jianshu.com/p/8bfe4ed00f88)
-- [数据库分区、分表、分库、分片](https://blog.csdn.net/chezong/article/details/123322973)
+
+- [https://github.com/bridgedb/BridgeDb](https://github.com/bridgedb/BridgeDb)
+- 移动数据库 [https://github.com/realm/realm-core](https://github.com/realm/realm-core)
+- 数据流 [https://github.com/mit-pdos/noria](https://github.com/mit-pdos/noria)
+- 矢量数据库 [https://github.com/milvus-io/milvus](https://github.com/milvus-io/milvus)
+- [https://github.com/topics/spark](https://github.com/topics/spark)
+    - [https://github.com/apache/spark](https://github.com/apache/spark)
+    - [https://github.com/spark-jobserver](https://github.com/spark-jobserver)
+    - [https://github.com/JerryLead/SparkInternals](https://github.com/JerryLead/SparkInternals)
+    - [https://github.com/lw-lin/CoolplaySpark](https://github.com/lw-lin/CoolplaySpark)
+    - [https://github.com/databricks/koalas](https://github.com/databricks/koalas)
+- [https://github.com/snowflakedb](https://github.com/snowflakedb)
+- [https://www.microsoft.com/zh-cn/sql-server](https://www.microsoft.com/zh-cn/sql-server)
 
 
 
 
-## 免费数据库
+**[图数据库](https://zh.wikipedia.org/wiki/%E5%9B%BE%E6%95%B0%E6%8D%AE%E5%BA%93)**
 
-**MySQL**
+* 图数据库 [https://github.com/neo4j/neo4j](https://github.com/neo4j/neo4j)
+* [https://github.com/distributedio/titan](https://github.com/distributedio/titan)
+* 分布式图形数据库 [https://github.com/JanusGraph](https://github.com/JanusGraph)
+* [https://github.com/JanusGraph/janusgraph](https://github.com/JanusGraph/janusgraph)
+* [https://github.com/sones/sones](https://github.com/sones/sones)
+* [https://github.com/CodyKochmann/graphdb](https://github.com/CodyKochmann/graphdb)
+* 图形数据库 [https://github.com/vesoft-inc/nebula](https://github.com/vesoft-inc/nebula)
+* [https://github.com/orientechnologies/orientdb](https://github.com/orientechnologies/orientdb)
+* [https://github.com/arangodb/arangodb](https://github.com/arangodb/arangodb)
+* 多模型数据库 [https://github.com/arangodb/arangodb](https://github.com/arangodb/arangodb)
+* [https://github.com/apache/couchdb](https://github.com/apache/couchdb)
+* [https://github.com/apache/incubator-hugegraph](https://github.com/apache/incubator-hugegraph)
+* [https://github.com/TrinityCore/TrinityCore](https://github.com/TrinityCore/TrinityCore)
+* [https://github.com/cayleygraph/cayley](https://github.com/cayleygraph/cayley)
+* [https://objectivity.com/infinitegraph](https://objectivity.com/infinitegraph)
+    * [https://infinitegraph.com](https://infinitegraph.com)
+    * [https://github.com/objectivity/JavaULBTraining](https://github.com/objectivity/JavaULBTraining)
+* [https://allegrograph.com](https://allegrograph.com)
 
-* [https://remotemysql.com](https://remotemysql.com)
-* [https://www.db4free.net](https://www.db4free.net)
 
 
-**SQLServer**
 
-* [https://www.gearhost.com](https://www.gearhost.com)
+## Redis
 
-
-**PostgresqlSQL**
-
-* [https://www.elephantsql.com](https://www.elephantsql.com)
-* [https://memfiredb.com](https://memfiredb.com)
++ [https://github.com/redis](https://github.com/redis)
++ [https://redis.io/documentation](https://redis.io/documentation)
 
 
-**Redis**
+* [https://github.com/huangz1990](https://github.com/huangz1990)
+    * [http://redisdoc.com](http://redisdoc.com)
+    * [http://doc.redisfans.com](http://doc.redisfans.com)
+* [https://github.com/antirez/redis-doc](https://github.com/antirez/redis-doc)
+    * [http://www.redis.cn/documentation.html](http://www.redis.cn/documentation.html)
+* [https://github.com/guodongxiaren/redis-wiki](https://github.com/guodongxiaren/redis-wiki)
+* redis常用特性 [https://github.com/LxyTe/redis](https://github.com/LxyTe/redis)
 
-* [https://redislabs.com/redis-enterprise-deployment](https://redislabs.com/redis-enterprise-deployment)
+
+- 基于Redis和S3分布式POSIX文件系统 [https://github.com/juicedata/juicefs](https://github.com/juicedata/juicefs)
+
+
+**Java客户端**
+
+* [https://github.com/redisson](https://github.com/redisson)
+* [https://github.com/RedisJSON](https://github.com/RedisJSON)
+* [https://github.com/lettuce-io/lettuce-core](https://github.com/lettuce-io/lettuce-core)
+    * [Lettuce相较于Jedis有哪些优缺点？](https://www.zhihu.com/question/53124685)
+
+
+
+**存储方式**
+
+- 适合用 String 存储的情况：
+    - 每次需要访问大量的字段
+    - 存储的结构具有多层嵌套的时候
+- 适合用 Hash 存储的情况：
+    - 在大多数情况中只需要访问少量字段
+    - 自己始终知道哪些字段可用，防止使用 mget 时获取不到想要的数据
+
+
+**安装**
+
+```bash
+wget https://download.redis.io/redis-stable.tar.gz
+tar -zvf redis-stable.tar.gz
+cd redis-stable
+make
+make install
+cp redis.conf /etc/redis.conf
+vi /etc/redis.conf
+```
+
+> 输入`/daemon`按<kdb>A</kdb>或<kdb>i</kdb>把`daemonize no`改成`daemonize yes`
+> 允许任意IP访问：输入`/NETWORK`搜索，替换`bind 127.0.0.1`为`bind 0.0.0.0`
+> 设置访问密码：输入`/SECURITY`搜索，取消注释`requirepass foobared`
+> 修改`protected-mode yes`(保护模式，需配置设置访问密码) 为 `protected-mode no`
+
+
+```bash
+# 启动
+redis-server /etc/redis.conf
+ps -ef | grep redis
+# 连接redis
+redis-cli -p 端口 -a 密码
+# 配置设置密码，不会修改配置文件
+config set requirepass 密码
+# 单实例关闭redis
+redis-cli shutdown
+# 多实例关闭，指定端口关闭redis
+redis-cli -p 6379 shutdown
+```
+
+
+
+## MongoDB
+
++ [https://github.com/mongodb](https://github.com/mongodb)
+
+
+* 客户端 [https://github.com/Studio3T/robomongo](https://github.com/Studio3T/robomongo)
+* 存储引擎模块 [https://github.com/mongodb-partners/mongo-rocks](https://github.com/mongodb-partners/mongo-rocks)
+* [https://github.com/erikolson186/zangodb](https://github.com/erikolson186/zangodb)
+
+- [MongoDB 高级查询](https://segmentfault.com/a/1190000018006375)
+
+
