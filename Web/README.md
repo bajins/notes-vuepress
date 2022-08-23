@@ -139,6 +139,8 @@
 - [https://www.freenom.com](https://www.freenom.com)
 - [https://nic.eu.org](https://nic.eu.org)
     - [人人都可申请拥有EU.org免费域名](https://51.ruyo.net/17863.html)
+- [https://www.nom.za](https://www.nom.za)
+    - [免费申请南非 NOM.za 免费域名](https://51.ruyo.net/17968.html)
 
 
 * [如何正确绕开备案使用国内机器](https://www.hqsblog.cn/2019/12/15/237.html)

@@ -335,6 +335,7 @@
 * 替换DOCX中的文本 [https://github.com/nguyenthenguyen/docx](https://github.com/nguyenthenguyen/docx)
 * [https://github.com/sajari/docconv](https://github.com/sajari/docconv)
 * [https://github.com/unidoc](https://github.com/unidoc)
+* 二维码 [https://github.com/yeqown/go-qrcode](https://github.com/yeqown/go-qrcode)
 
 
 

@@ -1,4 +1,4 @@
-# 
+# JavaGUI
 
 
 [[toc]]
