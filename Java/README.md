@@ -338,6 +338,8 @@
 
 + [https://github.com/google/guava](https://github.com/google/guava)
 + [https://github.com/SpringForAll](https://github.com/SpringForAll)
++ [https://github.com/ifeilong](https://github.com/ifeilong)
++ [https://github.com/dromara/hutool](https://github.com/dromara/hutool)
 + [https://github.com/oblac/jodd](https://github.com/oblac/jodd)
 + [https://github.com/0opslab/opslabJutil](https://github.com/0opslab/opslabJutil)
 + [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
@@ -585,6 +587,7 @@
     * [http://poi.apache.org/components/spreadsheet](http://poi.apache.org/components/spreadsheet)
     * [导出百万级数据到Excel 文件](https://blog.csdn.net/gd6321374/article/details/90417202)
     * [https://github.com/550690513/large-amount-data-export](https://github.com/550690513/large-amount-data-export)
+* [https://gitee.com/lemur/easypoi](https://gitee.com/lemur/easypoi)
 * [https://github.com/opensagres](https://github.com/opensagres)
 * [https://github.com/MSPaintIDE/NewOCR](https://github.com/MSPaintIDE/NewOCR)
 
@@ -691,7 +694,9 @@
     + [https://github.com/renrenio](https://github.com/renrenio)
 + [https://github.com/febsteam](https://github.com/febsteam)
 + [https://github.com/hs-web](https://github.com/hs-web)
++ [https://gitee.com/xiaonuobase](https://gitee.com/xiaonuobase)
 + [https://github.com/hiparker/opsli-boot](https://github.com/hiparker/opsli-boot)
++ [https://gitee.com/Thinkingcao/projects](https://gitee.com/Thinkingcao/projects)
 
 
 * [MyBatis-Plus整合项目](http://mp.baomidou.com/guide/#%E4%BC%98%E7%A7%80%E6%A1%88%E4%BE%8B)

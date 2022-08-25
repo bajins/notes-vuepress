@@ -462,9 +462,10 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
     - `ForObject`只返回消息体
     - `exchange` 配合`HttpEntity`或`RequestEntity`使用，返回`ResponseEntity`
 - `WebClient` 是`Spring 5.0`开始提供的非阻塞响应式编程的Http工具。
-- `Apache HttpComponents` [http://hc.apache.org](http://hc.apache.org)
+- `Apache HttpComponents` [https://github.com/apache/httpcomponents-client](https://github.com/apache/httpcomponents-client)
 - `okHttp` [https://github.com/square/okhttp](https://github.com/square/okhttp)
 - `Unirest` [https://github.com/Kong/unirest-java](https://github.com/Kong/unirest-java)
+- [https://github.com/dromara/forest](https://github.com/dromara/forest)
 - `Netty` 
 - `google-http-java-client` [https://github.com/googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client)
 - `WebSocket` [https://github.com/eclipse-ee4j/websocket-api](https://github.com/eclipse-ee4j/websocket-api)

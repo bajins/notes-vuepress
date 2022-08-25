@@ -135,6 +135,8 @@
 
 
 - [https://github.com/bridgedb/BridgeDb](https://github.com/bridgedb/BridgeDb)
+- 去中心化 [https://github.com/dolthub/dolt](https://github.com/dolthub/dolt)
+    - [https://github.com/attic-labs/noms](https://github.com/attic-labs/noms)
 - 移动数据库 [https://github.com/realm/realm-core](https://github.com/realm/realm-core)
 - 数据流 [https://github.com/mit-pdos/noria](https://github.com/mit-pdos/noria)
 - 矢量数据库 [https://github.com/milvus-io/milvus](https://github.com/milvus-io/milvus)
