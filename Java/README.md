@@ -1,8 +1,6 @@
 # Java
 
-
 [[toc]]
-
 
 
 ## Flag
@@ -50,6 +48,7 @@
 - [Java正则多次匹配和多次组匹配](https://www.cnblogs.com/ElEGenT/p/13158108.html)
 - [https://www.zhihu.com/people/rednaxelafx](https://www.zhihu.com/people/rednaxelafx)
 - [Java 正则表达式详解](https://segmentfault.com/a/1190000009162306)
+- [java的native方法](https://www.zhihu.com/question/28001771)
 
 
 + JMH（Java Microbenchmark Harness）是专门用于代码微基准测试的工具套件

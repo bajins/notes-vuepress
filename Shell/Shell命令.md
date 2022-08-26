@@ -1,9 +1,6 @@
 # Shell命令
 
-
 [[toc]]
-
-
 
 
 ## Flag
@@ -15,6 +12,7 @@
 + [https://github.com/awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash)
 + 命令替代品 [https://github.com/ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix)
 + [https://github.com/vastutsav/command-line-quick-reference](https://github.com/vastutsav/command-line-quick-reference)
++ [https://github.com/onetrueawk/awk](https://github.com/onetrueawk/awk)
 
 * [Linux常用命令汇总](https://blog.csdn.net/Mculover666/article/details/84558280)
 
