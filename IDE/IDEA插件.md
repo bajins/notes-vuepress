@@ -1,6 +1,5 @@
 # IDEA插件
 
-
 [[toc]]
 
 
@@ -21,7 +20,8 @@
         * [https://plugins.zhile.io](https://plugins.zhile.io)
     * [https://github.com/ja-netfilter](https://github.com/ja-netfilter) 2021.3(2022.1起弃用`mymap`插件)
         * [https://gitee.com/ja-netfilter](https://gitee.com/ja-netfilter)
-    * [https://jetbra.in/s](https://jetbra.in/s)
+        * [https://jetbra.in/s](https://jetbra.in/s)
+        * [https://github.com/sinlmao/plugin-fineagent](https://github.com/sinlmao/plugin-fineagent)
 * [利用授权服务器(License Server)激活Jetbrains全家桶](https://51.ruyo.net/17780.html)
     * [https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth](https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth)
 * [如何批量挖掘Jetbrains系列产品激活服务器](https://t.me/s/Ru05hui/123)
@@ -552,5 +552,7 @@
 ![](https://plugins.jetbrains.com/files/13466/screenshot_20629.png)
 
 
+## BurpBountyPro
 
+* [https://github.com/googleweb/loader](https://github.com/googleweb/loader)
 

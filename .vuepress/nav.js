@@ -3,20 +3,20 @@ module.exports = [{
     items: [{
             // text: '',
             items: [{
-                    text: 'WeChat小程序',
-                    link: 'https://www.gotoxi.com'
+                    text: '动态编译博客',
+                    link: 'https://www.gotoxo.com'
                 },
                 {
                     text: '获取XShell',
                     link: 'https://github.com/bajins/tool-gin'
                 },
                 {
-                    text: 'GoogleDrive',
-                    link: 'https://gd.bajins.com'
+                    text: 'GitHub',
+                    link: 'https://g.bajins.eu.org'
                 },
                 {
-                    text: 'OneDrive',
-                    link: 'https://od.gotoxi.com'
+                    text: 'GitHub',
+                    link: 'https://g.woetu.eu.org'
                 },
             ]
         },

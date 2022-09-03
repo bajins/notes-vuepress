@@ -1,8 +1,6 @@
 # Eclipse
 
-
 [[toc]]
-
 
 
 ## Flag
@@ -50,36 +48,7 @@
 **快捷生成调用实例set方法**
 
 1. 进入实例类，打开`Type Hierarchy`视图并在视图中选中所有set方法复制，快捷键<kbd>F4</kbd>
-2. 使用以下方法生成
-
-```java
-/**
- * 生成实例所有set调用方法并复制到剪贴板
- * 
- * @param clazz
- */
-public static void createInstanceSetter(Class<?> clazz) {
-   String name = clazz.getSimpleName();
-   String subName = name.substring(0, 1);
-   name = name.replace(subName, subName.toLowerCase());
-   StringJoiner joiner = new StringJoiner(System.lineSeparator());// 获取系统换行符
-   for (Method m : clazz.getMethods()) {
-      if (m.getName().startsWith("set")) {
-            joiner.add(name + "." + m.getName() + "();");
-      }
-   }
-   String Content = joiner.toString()；
-   // 封装文本内容
-   Transferable trans = new StringSelection(Content);
-   // 把文本内容设置到系统剪贴板
-   if (trans.isDataFlavorSupported(DataFlavor.stringFlavor)) {
-      // 获取系统剪贴板
-      Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-      clipboard.setContents(trans, null);
-      System.out.println(Content);
-   }
-}
-```
+2. [使用反射获取方法生成](https://github.com/bajins/java-clazz/blob/master/src/com/bajins/clazz/JavaFxLearning.java#L63)
 
 
 

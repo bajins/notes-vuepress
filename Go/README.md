@@ -34,8 +34,6 @@
 * [Golang信号处理和优雅退出守护进程](https://www.jianshu.com/p/ae72ad58ecb6)
 
 
-- Gopher日报 [https://github.com/bigwhite/gopherdaily](https://github.com/bigwhite/gopherdaily)
-
 
 **[Windows下可以安装MinGW-w64、MSYS2、Cygwin](/Shell/ShellWindows.md)以调用GCC，Windows10下推荐使用WSL**
 
