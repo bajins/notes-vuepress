@@ -188,6 +188,7 @@
 * [https://github.com/antirez/redis-doc](https://github.com/antirez/redis-doc)
     * [http://www.redis.cn/documentation.html](http://www.redis.cn/documentation.html)
 * [https://github.com/guodongxiaren/redis-wiki](https://github.com/guodongxiaren/redis-wiki)
+* [https://github.com/yu-linfeng/redis5.x_tutorial](https://github.com/yu-linfeng/redis5.x_tutorial)
 * redis常用特性 [https://github.com/LxyTe/redis](https://github.com/LxyTe/redis)
 
 

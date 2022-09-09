@@ -289,6 +289,7 @@ taskkill /f /im chromedriver.exe
 * [https://github.com/joue-quroi/cookie-editor](https://github.com/joue-quroi/cookie-editor)
     * [https://add0n.com/cookie-editor.html](https://add0n.com/cookie-editor.html)
 
+
 - 网页保存 [https://github.com/gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile)
 - [https://github.com/vsDizzy/SaveAsMHT](https://github.com/vsDizzy/SaveAsMHT)
 - [https://github.com/brian-girko/save-as-mhtml](https://github.com/brian-girko/save-as-mhtml)
@@ -296,6 +297,10 @@ taskkill /f /im chromedriver.exe
 - [https://github.com/danny0838/webscrapbook](https://github.com/danny0838/webscrapbook)
 - [https://github.com/mika-cn/maoxian-web-clipper](https://github.com/mika-cn/maoxian-web-clipper)
 - 自动化 [https://github.com/Kholid060/automa](https://github.com/Kholid060/automa)
+- 启用复制 [https://github.com/FallenMax/chrome-extension-allow-copy](https://github.com/FallenMax/chrome-extension-allow-copy)
+- [https://github.com/JohnWong/EnableCopy](https://github.com/JohnWong/EnableCopy)
+- [EnableCopy 启用复制](https://microsoftedge.microsoft.com/addons/detail/enablecopy-%E5%90%AF%E7%94%A8%E5%A4%8D%E5%88%B6/llliiggfcgkdbhhgcjggbnldibljaggg)
+
 
 * [GOOGLE 人机验证(RECAPTCHA)无法显示解决方案(可解决大多数 CSP 问题)](https://blog.azurezeng.com/recaptcha-use-in-china)
     * [https://github.com/AzureZeng/azurezeng.github.io](https://github.com/AzureZeng/azurezeng.github.io)

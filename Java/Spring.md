@@ -167,6 +167,7 @@ try {
 * [https://github.com/houko/SpringBootUnity](https://github.com/houko/SpringBootUnity)
 * [https://github.com/hemin1003/spring-boot-study](https://github.com/hemin1003/spring-boot-study)
 * [https://github.com/smltq/spring-boot-demo](https://github.com/smltq/spring-boot-demo)
+* [https://github.com/liuyueyi/spring-boot-demo](https://github.com/liuyueyi/spring-boot-demo)
 
 
 + [Springboot 优雅停止服务的几种方法](https://www.cnblogs.com/huangqingshi/p/11370291.html)

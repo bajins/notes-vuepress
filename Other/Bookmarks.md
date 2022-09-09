@@ -1,8 +1,6 @@
 # Bookmarks
 
-
 [[toc]]
-
 
 
 ## Flag
@@ -210,6 +208,18 @@
 * [https://flaviocopes.com](https://flaviocopes.com)
 * [https://topbook.cc](https://topbook.cc)
     * [https://www.zhihu.com/org/topbook](https://www.zhihu.com/org/topbook)
+
+
+**CSDN取消屏蔽**
+
+```js
+const c = document.getElementById("article_content");
+c.style.height="auto";
+c.style.overflow="auto";
+document.querySelector("#mainBox > main > div.hide-article-box.hide-article-pos.text-center").remove();
+// 添加至浏览器标签，解决登陆后复制
+javascript:document.body.contentEditable='true';document.designMode='on'; void 0
+```
 
 
 
