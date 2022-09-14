@@ -169,7 +169,14 @@
 ## 设置编码格式
 
 - 设置工作空间编码 `Window` -> `Preferences` -> `General` -> `Workspace` -> `Text file encoding` -> `Other`选择`UTF-8`
-- 设置文档编码 `Window` -> `Preferences` -> `General` -> `Content Type` -> `Text` -> `Default encoding`填入`UTF-8`
+- 设置文档编码 `Window` -> `Preferences` -> `General` -> `Content Type` -> `Text`
+   - -> `Default encoding`填入`UTF-8`
+   - -> 展开`Text` -> 选中`Java Properties File` -> `Default encoding`填入`UTF-8` 设置Properties编码
+   - -> 展开`Text` -> 选中`Spring Properties File` -> `Default encoding`填入`UTF-8`
+   - -> 展开`Text` -> 选中`JSP` -> `Default encoding`填入`UTF-8` 设置JSP编码
+   - -> 展开`Text` -> 展开`JSP` -> `JSP Fragment` -> `Default encoding`填入`UTF-8`
+   - -> 展开`Text` -> 展开`JSP` -> `JSP Tag Definition` -> `Default encoding`填入`UTF-8`
+   - -> 展开`Text` -> 展开`JSP` -> 展开`JSP Tag Definition` -> `XML JSP Tag Definition` -> `Default encoding`填入`UTF-8`
 - 设置Web编码 `Window` -> `Preferences` -> `Web` -> `CSS Files`、`HTML Files`、`JSP Files` -> `Encoding`选择`ISO 10646/Unicode(UTF-8)`
 - 设置项目的文档编码：选中项目右键 -> `Properties` -> `Resource` -> `Other`选择`UTF-8`
 

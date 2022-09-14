@@ -338,6 +338,8 @@
 
 **工具**
 
++ [https://commons.apache.org](https://commons.apache.org)
+    + [https://github.com/apache?q=commons](https://github.com/apache?q=commons)
 + [https://github.com/google/guava](https://github.com/google/guava)
 + [https://github.com/SpringForAll](https://github.com/SpringForAll)
 + [https://github.com/ifeilong](https://github.com/ifeilong)
@@ -347,7 +349,6 @@
 + [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
 + [https://github.com/paganini2008/devtools](https://github.com/paganini2008/devtools)
 + [spring framework util](https://github.com/spring-projects/spring-framework/tree/master/spring-core/src/main/java/org/springframework/util)
-+ [https://github.com/apache/commons-lang](https://github.com/apache/commons-lang)
 + 流式断言器 [https://github.com/assertj](https://github.com/assertj)
     + [https://assertj.github.io/doc](https://assertj.github.io/doc)
 + [https://github.com/hamcrest/JavaHamcrest](https://github.com/hamcrest/JavaHamcrest)
@@ -381,7 +382,6 @@
 * [https://github.com/iandarwin/date4j](https://github.com/iandarwin/date4j)
 * Google加密 [https://github.com/google/tink](https://github.com/google/tink)
 * bcprov-jdk15on [https://github.com/bcgit/bc-java](https://github.com/bcgit/bc-java) Bouncy Castle Crypto
-* Apache Commons编解码器 [https://github.com/apache/commons-codec](https://github.com/apache/commons-codec)
 * Headless Chrome For Java [https://github.com/fanyong920/jvppeteer](https://github.com/fanyong920/jvppeteer)
 * [https://github.com/andotorg/utf8bom-to-utf8](https://github.com/andotorg/utf8bom-to-utf8)
 * [https://github.com/downgoon/gbk2utf8](https://github.com/downgoon/gbk2utf8)
@@ -416,7 +416,6 @@
 - [https://sourceforge.net/projects/sevenzipjbind](https://sourceforge.net/projects/sevenzipjbind)
     - [https://github.com/borisbrodski/sevenzipjbinding](https://github.com/borisbrodski/sevenzipjbinding)
 - [https://github.com/srikanth-lingala/zip4j](https://github.com/srikanth-lingala/zip4j)
-- [https://github.com/apache/commons-compress](https://github.com/apache/commons-compress)
 
 
 
@@ -740,6 +739,7 @@
 * SpringBlade SaaS多租户微服务开发平台 [https://github.com/chillzhuang/SpringBlade](https://github.com/chillzhuang/SpringBlade)
 * 基于springboot的一款纯净脚手架 [https://github.com/fuce1314/Springboot_v2](https://github.com/fuce1314/Springboot_v2)
 * [https://gitee.com/lovetime/WeAdmin](https://gitee.com/lovetime/WeAdmin)
+* [https://github.com/ssssssss-team/magic-api](https://github.com/ssssssss-team/magic-api)
 * 停车场管理 [https://github.com/981011512/--](https://github.com/981011512/--)
 
 

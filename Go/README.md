@@ -296,6 +296,7 @@
 * Markdown处理 [https://github.com/russross/blackfriday](https://github.com/russross/blackfriday)
 * markdown转roff [https://github.com/cpuguy83/go-md2man](https://github.com/cpuguy83/go-md2man)
 * 队列任务 [https://github.com/gocraft/work](https://github.com/gocraft/work)
+* [https://github.com/txn2/rxtx](https://github.com/txn2/rxtx)
 * 媒体类型 [http://github.com/gabriel-vasile/mimetype](http://github.com/gabriel-vasile/mimetype)
 * 图片转换 [https://github.com/gographics/imagick](https://github.com/gographics/imagick)
 * 地图 [https://github.com/tidwall/tile38](https://github.com/tidwall/tile38)

@@ -27,6 +27,7 @@
 - [https://blynk.cloud](https://blynk.cloud)
 - 解决合并冲突Gradle插件 [https://github.com/2BAB/Seal](https://github.com/2BAB/Seal)
 - trace 工具 [https://github.com/bytedance/btrace](https://github.com/bytedance/btrace)
+- 备份提取 [https://github.com/nelenkov/android-backup-extractor](https://github.com/nelenkov/android-backup-extractor)
 
 
 + [https://github.com/pengxurui/AndroidFamily](https://github.com/pengxurui/AndroidFamily)
