@@ -1,8 +1,6 @@
 # Java构建管理
 
-
 [[toc]]
-
 
 
 ## Flag
@@ -204,6 +202,8 @@
 + maven手册 [https://github.com/inuter/Maven-Notebook](https://github.com/inuter/Maven-Notebook)
 
 
+**仓库**
+
 * [http://mvnrepository.com](http://mvnrepository.com)
 * [https://search.maven.org](https://search.maven.org)
 * [https://nexus.pentaho.org](https://nexus.pentaho.org)
@@ -212,6 +212,8 @@
     * [https://bintray.com](https://bintray.com)
 * [https://packages.aliyun.com](https://packages.aliyun.com)
 
+
+**插件**
 
 + maven-jar-plugin 默认的打包插件，用来打普通的project JAR包；
 + maven-shade-plugin 用来打可执行JAR包，也就是所谓的fat JAR包；

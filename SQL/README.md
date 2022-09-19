@@ -202,6 +202,9 @@
 * [https://github.com/lettuce-io/lettuce-core](https://github.com/lettuce-io/lettuce-core)
     * [Lettuce相较于Jedis有哪些优缺点？](https://www.zhihu.com/question/53124685)
 
+**C#客户端**
+
+* [https://github.com/imperugo/StackExchange.Redis.Extensions](https://github.com/imperugo/StackExchange.Redis.Extensions)
 
 
 **存储方式**
