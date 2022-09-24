@@ -8,10 +8,9 @@
 + [https://github.com/eclipse/eclipse](https://github.com/eclipse/eclipse)
    + [https://www.eclipse.org/ide](https://www.eclipse.org/ide)
    + [https://www.eclipse.org/downloads/packages](https://www.eclipse.org/downloads/packages)
-   + [https://github.com/eclipse/wildwebdeveloper](https://github.com/eclipse/wildwebdeveloper)
-      + Mars之后版本不再集成支持JavaScript需要安装插件，参考[Tern Eclipse IDE](https://marketplace.eclipse.org/content/tern-eclipse-ide)
 + 设置 [https://github.com/vorburger/opendaylight-eclipse-setup](https://github.com/vorburger/opendaylight-eclipse-setup)
-+ Spring Tools 4 [https://github.com/spring-projects/sts4](https://github.com/spring-projects/sts4)
++ Spring Tools[https://github.com/spring-projects/sts4](https://github.com/spring-projects/sts4)
+   + [https://spring.io/tools](https://spring.io/tools)
 
 
 * [单行注释自动靠左](https://blog.csdn.net/mp9105/article/details/93343403)
@@ -73,6 +72,12 @@
 **项目显示结构**
 
 - `Windows` -> `Show View` -> `Other` -> 搜索 `Package Exploer`
+- `Windows` -> `Show View` -> `Other` -> 搜索 `Tasks` 查看待办任务
+
++ `Window` -> `Preferences` -> `Java` -> `Compiler` -> `Task tags` 定义任务标签
+   + `// TODO` 表示尚未完成的待办事项。
+   + `// XXX` 表示被注释的代码虽然实现了功能，但是实现方案有待商榷，希望将来能改进。
+   + `// FIXME` 表示被注释的代码需要被修正。
 
 
 **WebStorm保存后跳过Eclipse自动同步到Tomcat**
@@ -405,9 +410,17 @@
 
 + `-vmargs -DproxySet=true -DproxyHost=aProxyAddress -DproxyPort=aProxyPort` 启动代理参数
 
-- SVN [https://github.com/subclipse](https://github.com/subclipse)
-    - [http://subversion.apache.org/packages.html](http://subversion.apache.org/packages.html)
-    - Subversion for Java [https://svnkit.com](https://svnkit.com)
+
+- [https://github.com/eclipse/wildwebdeveloper](https://github.com/eclipse/wildwebdeveloper)
+   - Mars之后版本不再集成支持JavaScript需要安装插件，参考[Tern Eclipse IDE](https://marketplace.eclipse.org/content/tern-eclipse-ide)
+   - [https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0](https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0)
+- SVN [https://www.eclipse.org/subversive](https://www.eclipse.org/subversive)
+   - [https://polarion.plm.automation.siemens.com/products/svn](https://polarion.plm.automation.siemens.com/products/svn)
+- [https://github.com/subclipse](https://github.com/subclipse)
+   - [https://subclipse.github.io/snapshots](https://subclipse.github.io/snapshots)
+   - [http://subversion.apache.org/packages.html](http://subversion.apache.org/packages.html)
+   - Subversion for Java [https://svnkit.com](https://svnkit.com)
+
 
 
 **反编译Decompiler**

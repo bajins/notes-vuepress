@@ -440,6 +440,14 @@ grep "原字符串" * -R | awk -F: '{print $1}' | sort | uniq | xargs sed -i 's/
 grep -rl "XXX" --exclude="*.sql" ./* | wc -l
 ```
 
+**批量清空文件内容**
+
+```bash
+find logs/ -type f -name "*.log" | xargs -I dellist sh -c 'cat /dev/null > dellist'
+find logs/ -type f -name "*.log" | xargs -I % sh -c '> %'
+```
+
+
 ## 删除文件
 
 **删除排除的其他文件**
@@ -478,6 +486,8 @@ find 目录 -mtime +天数 -name "*.tar.*" -exec rm -rf {} \;
 
 # 删除目录下N天前文件名为tar.gz后缀的文件或目录
 find 目录 -mtime +天数 -name "*.tar.gz" | xargs -I {} rm -rf {}
+# 删除当前目录下所有文件
+ls | xargs -I % sh -c 'rm ./%'
 ```
 
 

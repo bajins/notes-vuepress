@@ -1,8 +1,6 @@
 # JDK安装配置
 
-
 [[toc]]
-
 
 
 ## Flag
@@ -10,7 +8,7 @@
 + [https://github.com/topics/jvm](https://github.com/topics/jvm)
 
 
-* [http://openjdk.java.net/jeps/333](http://openjdk.java.net/jeps/333)
+* JEP [http://openjdk.java.net/jeps](http://openjdk.java.net/jeps)
 * [https://www.oracle.com/cn/downloads](https://www.oracle.com/cn/downloads)
 * [https://www.oracle.com/java](https://www.oracle.com/java)
     * [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
@@ -48,9 +46,11 @@
 * [https://github.com/microsoft/openjdk](https://github.com/microsoft/openjdk)
     * [https://www.microsoft.com/openjdk](https://www.microsoft.com/openjdk)
     * [https://docs.microsoft.com/zh-cn/java](https://docs.microsoft.com/zh-cn/java)
-* [https://github.com/eclipse-openj9/openj9](https://github.com/eclipse-openj9/openj9)
 * [https://github.com/alibaba/dragonwell8](https://github.com/alibaba/dragonwell8)
 * [https://github.com/Tencent/TencentKona-8](https://github.com/Tencent/TencentKona-8)
+
+
+- OpenJ9 [https://github.com/eclipse-openj9/openj9](https://github.com/eclipse-openj9/openj9)
 
 
 

@@ -819,9 +819,10 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.sourcegear.com/diffmerge](https://www.sourcegear.com/diffmerge)
 * Beyond Compare [https://www.scootersoftware.com](https://www.scootersoftware.com)
 * [https://www.ultraedit.com/products/ultracompare](https://www.ultraedit.com/products/ultracompare)
-* [https://www.devart.com/codecompare](https://www.devart.com/codecompare)
+* Code Compare [https://www.devart.com/codecompare](https://www.devart.com/codecompare)
 * [https://www.beyondcomparepro.com](https://www.beyondcomparepro.com)
 * [https://www.deltawalker.com](https://www.deltawalker.com)
+* Altova DiffDog [https://www.altova.com/diffdog](https://www.altova.com/diffdog)
 * Araxis Merge [https://www.araxis.com/merge](https://www.araxis.com/merge)
 
 

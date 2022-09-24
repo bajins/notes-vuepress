@@ -72,32 +72,27 @@
 
 ## SQL1992
 
-**sql分类**
-
-1. 笛卡尔积 （表乘表）
-2. 等值连接 表的连接条件使用 `=`
-3. 非等值连接 表的连接条件使用 `>、>=、 <、<=、!=、any` 等
-4. 自连接 自己连接自己
-5. 外连接
-1. 左外连接，`+` 在等号右边
-2. 右外连接，`+` 在等号左边
-3. `+` 在哪一边的列，该表就补充null
-
  
 
 ## SQL1999
 
 **sql分类**
 
-1. cross join 交叉连接 （笛卡尔积） ，不需要on关键字
+> `+` 在哪一边的列，该表就补充null
+
+
+1. cross join 交叉连接 （笛卡尔积，表乘表） ，不需要on关键字
 2. natural join 自然连接 （找两个表中相同的列，进行等值匹配），不需要on关键字
 3. inner join 内连接
     - 必须有on关键字，on表示连接条件
-    - inner关键字可以省略
-    - outer join 外连接，outer关键字可以省略
-    - left outer join
-    - right outer join
-    - full outer join
+    - inner 关键字可以省略
+4. outer join 外连接，outer关键字可以省略
+    - left outer join 左外连接，`+` 在等号右边
+    - right outer join 右外连接，`+` 在等号左边
+    - full outer join 全外连接
+5. 等值连接 表的连接条件使用 `=`
+6. 非等值连接 表的连接条件使用 `>、>=、 <、<=、!=、any` 等
+7. 自连接 自己连接自己
 
 
 **sql99语法：通过join关键字实现连接**

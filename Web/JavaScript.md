@@ -193,6 +193,7 @@ var express = require('express');
 + [https://github.com/kangax](https://github.com/kangax)
 + [https://github.com/alyssaxuu](https://github.com/alyssaxuu)
 + [https://github.com/tomayac](https://github.com/tomayac)
++ [https://github.com/fengyuanchen](https://github.com/fengyuanchen)
 
 
 - 转换编译器 [https://github.com/babel](https://github.com/babel)
