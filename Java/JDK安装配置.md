@@ -227,8 +227,9 @@ JAVA_OPTS="
 -Xmx2688M
 -Xms2688M
 -Xmn960m
--XX:MaxMetaspaceSize=512M
+-Xss8m
 -XX:MetaspaceSize=512M
+-XX:MaxMetaspaceSize=512M
 -XX:+UseConcMarkSweepGC
 -XX:CMSInitiatingOccupancyFraction=70
 -XX:+UseCMSInitiatingOccupancyOnly

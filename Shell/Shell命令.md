@@ -443,8 +443,10 @@ grep -rl "XXX" --exclude="*.sql" ./* | wc -l
 **批量清空文件内容**
 
 ```bash
-find logs/ -type f -name "*.log" | xargs -I dellist sh -c 'cat /dev/null > dellist'
+# %为变量名
+find logs/ -type f -name "*.log" | xargs -I % sh -c 'cat /dev/null > %'
 find logs/ -type f -name "*.log" | xargs -I % sh -c '> %'
+find logs/ -type f -name "*.log" -exec sh -c "> {}" \;
 ```
 
 

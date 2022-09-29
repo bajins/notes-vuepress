@@ -420,6 +420,9 @@
    - [https://subclipse.github.io/snapshots](https://subclipse.github.io/snapshots)
    - [http://subversion.apache.org/packages.html](http://subversion.apache.org/packages.html)
    - Subversion for Java [https://svnkit.com](https://svnkit.com)
+- [https://github.com/jacoco/jacoco](https://github.com/jacoco/jacoco)
+- [https://github.com/eclipse/eclemma](https://github.com/eclipse/eclemma)
+- [https://dbeaver.io/download](https://dbeaver.io/download)
 
 
 
