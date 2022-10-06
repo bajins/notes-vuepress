@@ -142,6 +142,7 @@
 - 矢量数据库 [https://github.com/milvus-io/milvus](https://github.com/milvus-io/milvus)
 - [https://github.com/topics/spark](https://github.com/topics/spark)
     - [https://github.com/apache/spark](https://github.com/apache/spark)
+        - [https://github.com/allwefantasy/spark-binlog](https://github.com/allwefantasy/spark-binlog)
     - [https://github.com/spark-jobserver](https://github.com/spark-jobserver)
     - [https://github.com/JerryLead/SparkInternals](https://github.com/JerryLead/SparkInternals)
     - [https://github.com/lw-lin/CoolplaySpark](https://github.com/lw-lin/CoolplaySpark)

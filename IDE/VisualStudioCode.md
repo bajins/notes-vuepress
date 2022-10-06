@@ -1,9 +1,6 @@
 # VisualStudioCode
 
-
 [[toc]]
-
-
 
 
 ## Flag
@@ -22,34 +19,6 @@
 * [VSCode教程](https://www.php.cn/tool/vscode)
 * [https://github.com/gr2m/app-stats-action](https://github.com/gr2m/app-stats-action)
 * [https://github.com/coder](https://github.com/coder)
-
-
-
-
-## 语言服务器协议
-
-- [https://github.com/Microsoft/language-server-protocol](https://github.com/Microsoft/language-server-protocol)
-    - [Standalone Server (tsserver)](https://github.com/Microsoft/TypeScript/wiki/Standalone-Server-%28tsserver%29)
-    - [https://github.com/typescript-language-server](https://github.com/typescript-language-server)
-- [https://docs.microsoft.com/zh-cn/visualstudio/extensibility/language-server-protocol](https://docs.microsoft.com/zh-cn/visualstudio/extensibility/language-server-protocol)
-- [https://microsoft.github.io/language-server-protocol](https://microsoft.github.io/language-server-protocol)
-    - [https://github.com/lsif/lsif.github.io](https://github.com/lsif/lsif.github.io)
-    - [https://github.com/langserver/langserver.github.io](https://github.com/langserver/langserver.github.io)
-- [https://github.com/Microsoft/debug-adapter-protocol](https://github.com/Microsoft/debug-adapter-protocol)
-- [https://github.com/Microsoft/vscode-debugadapter-node](https://github.com/Microsoft/vscode-debugadapter-node)
-- [https://github.com/sublimelsp/LSP](https://github.com/sublimelsp/LSP)
-- [https://github.com/redhat-developer/quarkus-ls](https://github.com/redhat-developer/quarkus-ls)
-- [https://github.com/TypeFox](https://github.com/TypeFox)
-- [https://github.com/xtext](https://github.com/xtext)
-- [https://github.com/kieler](https://github.com/kieler)
-- [https://github.com/langium/langium](https://github.com/langium/langium)
-- [https://github.com/emacs-lsp](https://github.com/emacs-lsp)
-- Java [https://github.com/eclipse/eclipse.jdt.ls](https://github.com/eclipse/eclipse.jdt.ls)
-- [https://github.com/eclipse/lsp4e](https://github.com/eclipse/lsp4e)
-- [https://github.com/ycm-core/ycmd](https://github.com/ycm-core/ycmd)
-
-
-* 语法增量解析 [https://github.com/tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter)
 
 
 

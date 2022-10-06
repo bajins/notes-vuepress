@@ -422,8 +422,14 @@
    - Subversion for Java [https://svnkit.com](https://svnkit.com)
 - [https://github.com/jacoco/jacoco](https://github.com/jacoco/jacoco)
 - [https://github.com/eclipse/eclemma](https://github.com/eclipse/eclemma)
-- [https://dbeaver.io/download](https://dbeaver.io/download)
-
+- 数据库 [https://dbeaver.io/download](https://dbeaver.io/download)
+- 折叠代码块 [https://github.com/stefaneidelloth/EclipseFolding](https://github.com/stefaneidelloth/EclipseFolding)
+   - [https://sourceforge.net/projects/coffeeby1](https://sourceforge.net/projects/coffeeby1)
+   - [user-defined-code-folding-regions-in-eclipse](https://stackoverflow.com/questions/53229638/user-defined-code-folding-regions-in-eclipse)
+   - [https://github.com/sky1983/EclipseFolding](https://github.com/sky1983/EclipseFolding)
+   > 将插件放在`eclipse\dropins`，重启eclipse，`Window` -> `Preferences` -> `Java` -> `Editor` -> `Folding`
+   > 在`Select folding to use`项选择：`Coffee Bytes Java Folding`
+- [https://github.com/GrowThinky/AnnotationSupportEclipsePlugin](https://github.com/GrowThinky/AnnotationSupportEclipsePlugin)
 
 
 **反编译Decompiler**

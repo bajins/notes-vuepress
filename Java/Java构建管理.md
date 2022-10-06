@@ -223,6 +223,7 @@
 + [https://github.com/mojohaus/exec-maven-plugin](https://github.com/mojohaus/exec-maven-plugin)
 + [https://github.com/mathieucarbou/license-maven-plugin](https://github.com/mathieucarbou/license-maven-plugin)
 + [https://github.com/mojohaus](https://github.com/mojohaus)
++ 构建自动清理 [https://github.com/castor-software/depclean](https://github.com/castor-software/depclean)
 
 
 

@@ -1,9 +1,6 @@
 # IDE
 
-
 [[toc]]
-
-
 
 
 ## Flag
@@ -276,6 +273,62 @@
 
 
 - [Windows抓包与网络分析工具总结](https://blog.csdn.net/a82514921/article/details/104609924)
+
+
+
+## 语言服务器协议
+
+- [https://github.com/Microsoft/language-server-protocol](https://github.com/Microsoft/language-server-protocol)
+    - [Standalone Server (tsserver)](https://github.com/Microsoft/TypeScript/wiki/Standalone-Server-%28tsserver%29)
+    - [https://github.com/typescript-language-server](https://github.com/typescript-language-server)
+- [https://docs.microsoft.com/zh-cn/visualstudio/extensibility/language-server-protocol](https://docs.microsoft.com/zh-cn/visualstudio/extensibility/language-server-protocol)
+- [https://microsoft.github.io/language-server-protocol](https://microsoft.github.io/language-server-protocol)
+    - [https://github.com/lsif/lsif.github.io](https://github.com/lsif/lsif.github.io)
+    - [https://github.com/langserver/langserver.github.io](https://github.com/langserver/langserver.github.io)
+- [https://github.com/Microsoft/debug-adapter-protocol](https://github.com/Microsoft/debug-adapter-protocol)
+- [https://github.com/Microsoft/vscode-debugadapter-node](https://github.com/Microsoft/vscode-debugadapter-node)
+- [https://github.com/sublimelsp/LSP](https://github.com/sublimelsp/LSP)
+- [https://github.com/redhat-developer/quarkus-ls](https://github.com/redhat-developer/quarkus-ls)
+- [https://github.com/TypeFox](https://github.com/TypeFox)
+- [https://github.com/xtext](https://github.com/xtext)
+- [https://github.com/kieler](https://github.com/kieler)
+- [https://github.com/langium/langium](https://github.com/langium/langium)
+- [https://github.com/emacs-lsp](https://github.com/emacs-lsp)
+- Java [https://github.com/eclipse/eclipse.jdt.ls](https://github.com/eclipse/eclipse.jdt.ls)
+- [https://github.com/eclipse/lsp4e](https://github.com/eclipse/lsp4e)
+- [https://github.com/ycm-core/ycmd](https://github.com/ycm-core/ycmd)
+
+
+
+**语法和词法解析器**
+
+> AST(Abstract Syntax Tree)-抽象语法树：抽象地将源代码根据语法生成对应的树状结构。
+
+* [https://github.com/antlr](https://github.com/antlr)
+    > [ANTLR(ANother Tool for Language Recognition ) 是一种语言工具](https://www.jianshu.com/p/dc1b68dfe2d7)
+* [https://github.com/javacc](https://github.com/javacc)
+* [https://github.com/SableCC/sablecc](https://github.com/SableCC/sablecc)
+    * [https://sourceforge.net/projects/sablecc](https://sourceforge.net/projects/sablecc)
+* [https://github.com/jhipster/prettier-java](https://github.com/jhipster/prettier-java)
+* JS [https://github.com/estools/escodegen](https://github.com/estools/escodegen)
+* [https://github.com/acornjs](https://github.com/acornjs)
+* [https://github.com/foysavas/babelon](https://github.com/foysavas/babelon)
+* [https://github.com/millermedeiros/esformatter](https://github.com/millermedeiros/esformatter)
+* [https://github.com/Chevrotain/chevrotain](https://github.com/Chevrotain/chevrotain)
+* MLSQL [https://github.com/byzer-org](https://github.com/byzer-org)
+    * [https://www.mlsql.tech](https://www.mlsql.tech)
+    * [https://github.com/allwefantasy/mlsql-lang-vscode-plugin](https://github.com/allwefantasy/mlsql-lang-vscode-plugin)
+* 语法增量解析 [https://github.com/tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter)
+* AST浏览器 [https://github.com/fkling/astexplorer](https://github.com/fkling/astexplorer)
+    * [https://astexplorer.net](https://astexplorer.net)
+* [https://github.com/gen-codes/astql](https://github.com/gen-codes/astql)
+* [https://github.com/codemirror](https://github.com/codemirror)
+* [https://github.com/pbkit/pbkit](https://github.com/pbkit/pbkit)
+
+
+- [Lex与YACC详解](https://zhuanlan.zhihu.com/p/143867739)
+
+
 
 
 

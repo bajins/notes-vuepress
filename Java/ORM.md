@@ -1,9 +1,6 @@
 # ORM
 
-
 [[toc]]
-
-
 
 
 ## Flag
@@ -23,6 +20,7 @@
 * [https://github.com/apache/commons-dbutils](https://github.com/apache/commons-dbutils)
 * 只读查询 [https://github.com/ejlchina/bean-searcher](https://github.com/ejlchina/bean-searcher)
 * [https://github.com/speedment](https://github.com/speedment)
+* SQL解析和验证器 [https://github.com/apache/calcite](https://github.com/apache/calcite)
 
 
 - [https://github.com/itfsw/mybatis-generator-plugin](https://github.com/itfsw/mybatis-generator-plugin)
