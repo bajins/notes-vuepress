@@ -13,15 +13,18 @@
 
 + [https://github.com/topics/java](https://github.com/topics/java)
 + [https://docs.oracle.com](https://docs.oracle.com)
+    + [https://www.oracle.com/cn/java/technologies](https://www.oracle.com/cn/java/technologies)
     + [https://www.oracle.com/cn/java/technologies/java-se-api-doc.html](https://www.oracle.com/cn/java/technologies/java-se-api-doc.html)
     + [https://docs.oracle.com/javase/8/index.html](https://docs.oracle.com/javase/8/index.html)
     + [https://docs.oracle.com/javase/8/docs](https://docs.oracle.com/javase/8/docs)
     + [https://docs.oracle.com/javase/7/docs](https://docs.oracle.com/javase/7/docs)
-    + [JavaBeans 规范](https://www.oracle.com/java/technologies/javase/javabeans-spec.html)
+    + [JavaBeans 规范](https://www.oracle.com/cn/java/technologies/javase/javabeans-spec.html)
+    + [https://github.com/jcp-org](https://github.com/jcp-org)
 + [https://github.com/eclipse-ee4j](https://github.com/eclipse-ee4j)
     + [https://github.com/javaee](https://github.com/javaee)
     + [https://projects.eclipse.org/jakartaee](https://projects.eclipse.org/jakartaee)
     + [javaEE和javaweb的区别？](https://www.zhihu.com/question/52002845)
++ [https://github.com/jakartaee](https://github.com/jakartaee)
 * [https://github.com/javaee-samples](https://github.com/javaee-samples)
 * 生成代码 [https://github.com/moshowgame/SpringBootCodeGenerator](https://github.com/moshowgame/SpringBootCodeGenerator)
 * 序列化基准测试 [https://github.com/eishay/jvm-serializers](https://github.com/eishay/jvm-serializers)
@@ -221,7 +224,11 @@
 * 规划引擎 [https://github.com/kiegroup](https://github.com/kiegroup)
 * [https://github.com/MyCATApache](https://github.com/MyCATApache)
 * 验证码 [https://github.com/ramostear/Happy-Captcha](https://github.com/ramostear/Happy-Captcha)
-
+* 邮件 [https://github.com/eclipse-ee4j/mail](https://github.com/eclipse-ee4j/mail)
+    * [https://github.com/javaee/javamail](https://github.com/javaee/javamail)
+    * [https://www.oracle.com/cn/java/technologies/javamail-releases.html](https://www.oracle.com/cn/java/technologies/javamail-releases.html)
+* [https://github.com/eclipse-ee4j/jaf](https://github.com/eclipse-ee4j/jaf)
+    * [https://github.com/javaee/activation](https://github.com/javaee/activation)
 
 
 - Markdown解析器 [https://github.com/vsch/flexmark-java](https://github.com/vsch/flexmark-java)
@@ -293,6 +300,7 @@
 + [https://github.com/microprofile](https://github.com/microprofile)
     + [https://microprofile.io](https://microprofile.io)
 + [https://github.com/OpenLiberty](https://github.com/OpenLiberty)
++ 微服务 [https://github.com/helidon-io](https://github.com/helidon-io)
 
 
 
@@ -300,6 +308,11 @@
 
 + [https://github.com/topics/logging](https://github.com/topics/logging)
 + [https://github.com/topics/logback](https://github.com/topics/logback)
+
+
+- [log4j —> JUL—> JCL—> slf4j —> logback —> log4j2](https://www.cnblogs.com/lydms/p/16549233.html)
+- [输出debug日志前需要isDebugEnabled吗](https://blog.csdn.net/u013332124/article/details/82469960)
+
 
 * [https://github.com/apache/logging-log4j2](https://github.com/apache/logging-log4j2)
 * [https://github.com/qos-ch](https://github.com/qos-ch)

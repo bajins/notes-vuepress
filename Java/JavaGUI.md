@@ -33,7 +33,7 @@
 * [https://segmentfault.com/t/javafx](https://segmentfault.com/t/javafx)
 * [https://gluonhq.com/products/javafx](https://gluonhq.com/products/javafx)
 * SceneBuilder [https://gluonhq.com/products/scene-builder](https://gluonhq.com/products/scene-builder)
-    * [https://www.oracle.com/java/technologies/javase/javafxscenebuilder-info.html](https://www.oracle.com/java/technologies/javase/javafxscenebuilder-info.html)
+    * [https://www.oracle.com/cn/java/technologies/javase/javafxscenebuilder-info.html](https://www.oracle.com/cn/java/technologies/javase/javafxscenebuilder-info.html)
     * [SceneBuilder例子](https://gluonhq.com/developers/samples)
 
 - [https://github.com/FXDocs/docs](https://github.com/FXDocs/docs)

@@ -123,7 +123,12 @@ echo "1:3:5" | cut -d : -f 3
 
 ### 过滤多个结果
 
+* [www.gnu.org/software/grep](www.gnu.org/software/grep)
+
 ```bash
+# grep -A n 可以显示匹配内容以及后面的n行内容
+# grep -B n 可以显示匹配内容以及前面的n行内容
+# grep -C n 可以显示匹配内容以及前后面的n行内容
 ls -l | grep "postfix\|dovecot"
 # 或者
 ls -l | grep -e postfix -e dovecot

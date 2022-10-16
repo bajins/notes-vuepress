@@ -112,7 +112,7 @@
 
 ## 代码格式化
 
-* [General > Editors > Text Editors](https://help.eclipse.org/2020-12/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Freference%2Fref-texteditorprefs.htm)
+* [General > Editors > Text Editors](https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Freference%2Fref-texteditorprefs.htm)
 
 
 **垂直标尺**
@@ -147,7 +147,7 @@
 
 **JavaScript 格式化**
 
-- `Window` -> `Preferences` -> `HTML Files` -> `Client-side JavaScript` -> `Code Style` -> `Formatter` -> `New` -> `Edit`
+- `Window` -> `Preferences` -> `Web` -> `Client-side JavaScript` -> `Code Style` -> `Formatter` -> `New` -> `Edit`
    - -> `Line Wrapping` 行宽
       - `Maximum Line width` 
       - `Set line width for preview window` 设置预览窗口的线宽
@@ -408,6 +408,8 @@
 
 > 一般插件都有`plugins`和`features`两个文件夹，复制到eclipse安装目录即可
 
+* [Eclipse插件开发](https://blog.csdn.net/chenhangx/article/details/119863089)
+
 + `-vmargs -DproxySet=true -DproxyHost=aProxyAddress -DproxyPort=aProxyPort` 启动代理参数
 
 
@@ -430,6 +432,7 @@
    > 将插件放在`eclipse\dropins`，重启eclipse，`Window` -> `Preferences` -> `Java` -> `Editor` -> `Folding`
    > 在`Select folding to use`项选择：`Coffee Bytes Java Folding`
 - [https://github.com/GrowThinky/AnnotationSupportEclipsePlugin](https://github.com/GrowThinky/AnnotationSupportEclipsePlugin)
+- [https://github.com/qiangitchen/tlv8ide](https://github.com/qiangitchen/tlv8ide)
 
 
 **反编译Decompiler**

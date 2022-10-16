@@ -107,6 +107,8 @@
 * [https://github.com/openzfs/zfs](https://github.com/openzfs/zfs)
 * [https://github.com/wekan/wekan](https://github.com/wekan/wekan)
 * [https://github.com/google/gvisor](https://github.com/google/gvisor)
+* [https://github.com/fnproject](https://github.com/fnproject)
+* [https://github.com/verrazzano](https://github.com/verrazzano)
 
 
 - [systemd-nspawn以及container的学习](https://www.cnblogs.com/godcrying1202/archive/2004/01/13/14122532.html)

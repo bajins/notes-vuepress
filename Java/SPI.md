@@ -41,6 +41,8 @@
 - [深入探索 Java 热部署](https://mp.weixin.qq.com/s/ydupBExb2LLhtC2ZuBsInA)
 - [java热更新class如何实现？](https://segmentfault.com/q/1010000041393137)
 - [Java的类加载机制及热部署的原理](https://blog.csdn.net/qq_36434742/article/details/117227309)
+- [JAVA热部署，通过agent进行代码增量热替换](https://www.cnblogs.com/zyl2016/p/13666945.html)
+- [Java 调试技术 JPDA 架构解读](https://blog.csdn.net/java_dazhuzhu/article/details/119575060)
 
 
 

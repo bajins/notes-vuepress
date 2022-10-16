@@ -11,8 +11,8 @@
 * JEP [http://openjdk.java.net/jeps](http://openjdk.java.net/jeps)
 * [https://www.oracle.com/cn/downloads](https://www.oracle.com/cn/downloads)
 * [https://www.oracle.com/java](https://www.oracle.com/java)
-    * [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
-    * [https://www.oracle.com/java/technologies/java-ee-glance.html](https://www.oracle.com/java/technologies/java-ee-glance.html)
+    * [https://www.oracle.com/cn/java/technologies/javase-downloads.html](https://www.oracle.com/cn/java/technologies/javase-downloads.html)
+    * [https://www.oracle.com/cn/java/technologies/java-ee-glance.html](https://www.oracle.com/cn/java/technologies/java-ee-glance.html)
 
 
 
@@ -25,8 +25,9 @@
 * [https://github.com/openjdk](https://github.com/openjdk)
     * [http://hg.openjdk.java.net](http://hg.openjdk.java.net)
     * [https://github.com/ojdkbuild/ojdkbuild](https://github.com/ojdkbuild/ojdkbuild)
+    * [https://github.com/oracle-actions/setup-java](https://github.com/oracle-actions/setup-java)
     * [https://dev.java](https://dev.java)
-    * [https://www.oracle.com/java/technologies/downloads](https://www.oracle.com/java/technologies/downloads)
+    * [https://www.oracle.com/cn/java/technologies/downloads](https://www.oracle.com/cn/java/technologies/downloads)
 * ~~[https://github.com/AdoptOpenJDK](https://github.com/AdoptOpenJDK)~~
     * ~~[https://adoptopenjdk.net](https://adoptopenjdk.net)~~
 * [https://github.com/adoptium](https://github.com/adoptium)
@@ -155,14 +156,14 @@
 
 ## JVM
 
-+ [有关Java HotSpot VM的常见问题](https://www.oracle.com/java/technologies/hotspotfaq.html)
++ [有关Java HotSpot VM的常见问题](https://www.oracle.com/cn/java/technologies/hotspotfaq.html)
 + [JVM的那些常用参数以及命令](https://segmentfault.com/a/1190000020656202)
 
 * [http://jdk.java.net/zgc/](http://jdk.java.net/zgc/)
 * [https://wiki.openjdk.java.net/display/zgc/Main](https://wiki.openjdk.java.net/display/zgc/Main)
 * [G1垃圾收集器入门](https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html)
 * [Java平台，标准版HotSpot虚拟机垃圾收集调优指南](https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/introduction.html)
-* [Java SE 6 HotSpot 虚拟机垃圾收集优化](https://www.oracle.com/java/technologies/javase/gc-tuning-6.html)
+* [Java SE 6 HotSpot 虚拟机垃圾收集优化](https://www.oracle.com/cn/java/technologies/javase/gc-tuning-6.html)
 
 - JVM配置工具 [https://render.alipay.com/p/s/jvm-generate/JvmGenerate](https://render.alipay.com/p/s/jvm-generate/JvmGenerate)
 - [http://jvmmemory.com](http://jvmmemory.com)
@@ -180,7 +181,7 @@
 
 ### 常用参数
 
-* [Java HotSpot 虚拟机选项](https://www.oracle.com/java/technologies/javase/vmoptions-jsp.html)
+* [Java HotSpot 虚拟机选项](https://www.oracle.com/cn/java/technologies/javase/vmoptions-jsp.html)
 * [JVM参数配置说明](https://help.aliyun.com/document_detail/148851.html)
 * [JVM内存配置最佳实践](https://help.aliyun.com/document_detail/383255.html)
 * [JVM核心参数图解](https://zhuanlan.zhihu.com/p/372417251)
