@@ -265,6 +265,10 @@
 * 验证校验 [https://github.com/thyrlian/AwesomeValidation](https://github.com/thyrlian/AwesomeValidation)
 * [https://github.com/ragunathjawahar/android-saripaar](https://github.com/ragunathjawahar/android-saripaar)
 * [https://github.com/jiangxincode/ApkToolBoxGUI](https://github.com/jiangxincode/ApkToolBoxGUI)
+* 断点续传 [https://github.com/yaowen369/DownloadHelper](https://github.com/yaowen369/DownloadHelper)
+* [https://github.com/majidgolshadi/Android-Download-Manager-Pro](https://github.com/majidgolshadi/Android-Download-Manager-Pro)
+* 蓝牙 [https://github.com/BasicAirData/BluetoothHelper](https://github.com/BasicAirData/BluetoothHelper)
+* 图像裁剪 [https://github.com/mike14u/croperino](https://github.com/mike14u/croperino)
 
 
 

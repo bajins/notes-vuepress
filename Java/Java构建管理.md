@@ -24,6 +24,8 @@
 + [https://www.jetbrains.com/help/idea/java-compiler.html](https://www.jetbrains.com/help/idea/java-compiler.html)
 + [https://github.com/alwans/code-diff](https://github.com/alwans/code-diff)
 + 混淆工具 [https://github.com/yWorks/yGuard](https://github.com/yWorks/yGuard)
++ 消除NullPointerException [https://github.com/uber/NullAway](https://github.com/uber/NullAway)
++ 静态类型检查 [https://github.com/google/error-prone](https://github.com/google/error-prone)
 
 
 - [https://github.com/topics/classloader](https://github.com/topics/classloader)

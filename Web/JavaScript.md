@@ -1,8 +1,6 @@
 # JavaScript
 
-
 [[toc]]
-
 
 
 ## Flag
@@ -80,6 +78,8 @@
 * [https://github.com/getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
 * [https://github.com/Asabeneh/JavaScript-for-Everyone](https://github.com/Asabeneh/JavaScript-for-Everyone)
 * 学习代码总结 [https://github.com/csxiaoyaojianxian/JavaScriptStudy](https://github.com/csxiaoyaojianxian/JavaScriptStudy)
+* [https://github.com/comehope/front-end-daily-challenges](https://github.com/comehope/front-end-daily-challenges)
+* [https://github.com/gothinkster/realworld](https://github.com/gothinkster/realworld)
 * 前端面试手册 [https://github.com/yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook)
 * [https://github.com/loverajoel/jstips](https://github.com/loverajoel/jstips)
 * [https://www.javascriptcn.com](https://www.javascriptcn.com) 1212/1024
@@ -194,6 +194,7 @@ var express = require('express');
 + [https://github.com/alyssaxuu](https://github.com/alyssaxuu)
 + [https://github.com/tomayac](https://github.com/tomayac)
 + [https://github.com/fengyuanchen](https://github.com/fengyuanchen)
++ [https://github.com/helpers](https://github.com/helpers)
 
 
 - 转换编译器 [https://github.com/babel](https://github.com/babel)
@@ -246,6 +247,7 @@ var express = require('express');
 * 树视图/树网格插件 [https://github.com/mar10/fancytree](https://github.com/mar10/fancytree)
 * 交互式地图 [https://github.com/openlayers/openlayers](https://github.com/openlayers/openlayers)
     * [https://github.com/ghettovoice/ol-mapscale](https://github.com/ghettovoice/ol-mapscale)
+* [https://github.com/openstreetmap](https://github.com/openstreetmap)
 * book阅读 [https://github.com/johnfactotum/foliate](https://github.com/johnfactotum/foliate)
 * 并发 [https://github.com/rxaviers/async-pool](https://github.com/rxaviers/async-pool)
 * 控制导入行为 [https://github.com/WICG/import-maps](https://github.com/WICG/import-maps)
@@ -322,8 +324,8 @@ var express = require('express');
 * [http://github.com/mootools](http://github.com/mootools)
 * [https://github.com/liriliri/licia](https://github.com/liriliri/licia)
 * [https://github.com/lodash/lodash](https://github.com/lodash/lodash)
-* [[https://github.com/jashkenas]([https://github.com/jashkenas)
-    * debounce（防抖）、throttle（节流／限频） [https://github.com/jashkenas/underscore](https://github.com/jashkenas/underscore)
+* [https://github.com/jashkenas](https://github.com/jashkenas)
+    * [https://github.com/jashkenas/underscore](https://github.com/jashkenas/underscore)
     * [https://underscorejs.net](https://underscorejs.net)
 * [https://github.com/ramda/ramda](https://github.com/ramda/ramda)
 * [https://github.com/proYang/outils](https://github.com/proYang/outils)

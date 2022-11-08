@@ -1,16 +1,17 @@
 # JavaScript笔记
 
-
 [[toc]]
-
 
 
 ## Flag
 
 * [性能提速：debounce（防抖）、throttle（节流／限频）](https://www.cnblogs.com/hity-tt/p/7852888.html)
 * [js实现 throttle 和 debounce](https://blog.csdn.net/u013475983/article/details/88874248)
+* [7分钟理解JS的节流、防抖及使用场景](https://juejin.cn/post/6844903669389885453)
+* [JavaScript中高阶函数的魅力](https://juejin.cn/post/6844903668651819016)
 * [函数节流与函数防抖](https://www.cnblogs.com/guohanyang/p/13446062.html)
-* [JS函数节流和分时函数](http://c.biancheng.net/view/5761.html)
+* [JS进阶篇1---函数节流（throttle）](https://segmentfault.com/a/1190000019577510)
+* [js防止重复触发事件](https://segmentfault.com/a/1190000012147456)
 * [JS中的call、apply、bind方法详解](https://www.cnblogs.com/moqiutao/p/7371988.html)
 
 
@@ -132,6 +133,8 @@ str.match(reg);
     - （3）DOM事件流，先从外到里，再从里到外回到原点（outside→inside→outside）的事件捕获方法。
 - 以下事件不冒泡：blur、focus、load、unload。
 
+> focus事件是在冒泡到document之后再返回到原来的元素上面才被触发
+
 ```js
 // 阻止事件冒泡
 function stopPropagation(event){
@@ -180,8 +183,8 @@ function test(){
 <a href="https://www.bajins.com" onclick="test();return false;">{{ row.name }}</a>
 <script>
 function test(event){
-    event = event || window.event;
-    window.event? window.event.returnValue = false : event.preventDefault();
+    event = window.event || arguments.callee.caller.arguments[0] || event;
+    event.returnValue = false : event.preventDefault();
 }
 </script>
 ```
@@ -328,7 +331,6 @@ console.log($("#a").data('name'));//undefined
 ## 自动触发事件
 
 * [https://developer.mozilla.org/zh-CN/docs/Web/API/Event](https://developer.mozilla.org/zh-CN/docs/Web/API/Event)
-* [js防止重复触发事件](https://segmentfault.com/a/1190000012147456)
 
 ```js
 var event = document.createEvent('Event'); // 创建

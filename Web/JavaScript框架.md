@@ -129,6 +129,7 @@
 - [https://github.com/kazupon/vue-i18n](https://github.com/kazupon/vue-i18n)
 - 表格 [https://github.com/handsontable](https://github.com/handsontable)
 - [https://github.com/nathantsoi/vue-native-websocket](https://github.com/nathantsoi/vue-native-websocket)
+- JSON生成SQL [https://github.com/liyupi/sql-generator](https://github.com/liyupi/sql-generator)
 
 
 **Mobile**

@@ -113,6 +113,9 @@
 
 
 * [Go_想变厉害的大白菜的博客-CSDN博客](https://blog.csdn.net/weixin_44211968/category_11464667.html)
+* [Go的隐秘世界：Goroutine调度机制概览](https://zhuanlan.zhihu.com/p/244054940)
+* [golang调度学习-调度流程](https://blog.csdn.net/diaosssss/article/details/93066804)
+* [系统调用，ptrace，go语言syscall](https://blog.csdn.net/weixin_49393427/article/details/115259733)
 
 
 

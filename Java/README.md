@@ -88,7 +88,6 @@
 * [https://github.com/quanke](https://github.com/quanke)
 * [https://github.com/Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)
 * [https://github.com/crossoverJie/JCSprout](https://github.com/crossoverJie/JCSprout)
-* [https://github.com/kdn251/interviews](https://github.com/kdn251/interviews)
 * 《Java编程思想》 第5版  [https://github.com/LingCoder/OnJava8](https://github.com/LingCoder/OnJava8)
 * [https://github.com/Syasuker/OnJava8-zh](https://github.com/Syasuker/OnJava8-zh)
 * [https://github.com/Knn120/OnJava8-PDF](https://github.com/Knn120/OnJava8-PDF)
@@ -136,7 +135,6 @@
     * [https://github.com/yuanmabiji/jdk1.8-sourcecode-analysis](https://github.com/yuanmabiji/jdk1.8-sourcecode-analysis)
 * [http://github.com/CarpenterLee/JavaLambdaInternals](http://github.com/CarpenterLee/JavaLambdaInternals)
 * [https://github.com/itwanger/javabooks](https://github.com/itwanger/javabooks)
-* 计算机经典书籍 [https://github.com/forthespada/CS-Books](https://github.com/forthespada/CS-Books)
 * [https://github.com/crisxuan/bestJavaer](https://github.com/crisxuan/bestJavaer)
 * [https://github.com/fenixsoft/awesome-fenix](https://github.com/fenixsoft/awesome-fenix)
 * [https://github.com/AobingJava/JavaFamily](https://github.com/AobingJava/JavaFamily)
@@ -181,9 +179,10 @@
 * demo [https://github.com/brucevsked/vskeddemolist](https://github.com/brucevsked/vskeddemolist)
 * [https://github.com/biezhi/30-seconds-of-java8](https://github.com/biezhi/30-seconds-of-java8)
 * [https://github.com/jufeng98/java-master](https://github.com/jufeng98/java-master)
+* [https://github.com/yrojha4ever/JavaStud](https://github.com/yrojha4ever/JavaStud)
 * 并发专题 [https://github.com/CL0610/Java-concurrency](https://github.com/CL0610/Java-concurrency)
 * [https://github.com/itwanger/toBeBetterJavaer](https://github.com/itwanger/toBeBetterJavaer)
-
+* [https://github.com/vgrazi/JavaConcurrentAnimatedReboot](https://github.com/vgrazi/JavaConcurrentAnimatedReboot)
 
 
 + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
@@ -218,8 +217,6 @@
     * [https://www.webjars.org](https://www.webjars.org)
 * 图形验证码 [https://github.com/whvcse/EasyCaptcha](https://github.com/whvcse/EasyCaptcha)
 * [https://github.com/orclight/jcaptcha](https://github.com/orclight/jcaptcha)
-* 线程间消息传递 [https://github.com/lmax-exchange/disruptor](https://github.com/lmax-exchange/disruptor)
-* [https://github.com/alibaba/transmittable-thread-local](https://github.com/alibaba/transmittable-thread-local)
 * 依赖关系注入器 [https://github.com/google/dagger](https://github.com/google/dagger)
 * 规划引擎 [https://github.com/kiegroup](https://github.com/kiegroup)
 * [https://github.com/MyCATApache](https://github.com/MyCATApache)
@@ -301,6 +298,7 @@
     + [https://microprofile.io](https://microprofile.io)
 + [https://github.com/OpenLiberty](https://github.com/OpenLiberty)
 + 微服务 [https://github.com/helidon-io](https://github.com/helidon-io)
++ [https://github.com/jhipster/generator-jhipster](https://github.com/jhipster/generator-jhipster)
 
 
 
@@ -384,8 +382,13 @@
 + [https://github.com/alibaba/QLExpress](https://github.com/alibaba/QLExpress)
 + [https://github.com/zjn-zjn/ice](https://github.com/zjn-zjn/ice)
 + [https://github.com/youseries/urule](https://github.com/youseries/urule)
++ [https://github.com/aalansehaiyang/risk-talk](https://github.com/aalansehaiyang/risk-talk)
++ [https://github.com/wfh45678/radar](https://github.com/wfh45678/radar)
 + [https://github.com/deonwu/ik-expression](https://github.com/deonwu/ik-expression)
 + 线程池 [https://github.com/acmenlt/dynamic-threadpool](https://github.com/acmenlt/dynamic-threadpool)
++ 线程间消息传递 [https://github.com/lmax-exchange/disruptor](https://github.com/lmax-exchange/disruptor)
++ [https://github.com/alibaba/transmittable-thread-local](https://github.com/alibaba/transmittable-thread-local)
+
 
 
 * [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
@@ -408,12 +411,16 @@
 * 结构工具 [https://github.com/vavr-io/vavr](https://github.com/vavr-io/vavr)
 * [https://github.com/eclipse/eclipse-collections](https://github.com/eclipse/eclipse-collections)
 * [https://github.com/topics/comparator](https://github.com/topics/comparator)
+* 规则 [https://github.com/xmolecules/jmolecules](https://github.com/xmolecules/jmolecules)
 * 比较文本差异 [https://github.com/java-diff-utils/java-diff-utils](https://github.com/java-diff-utils/java-diff-utils)
 * [https://github.com/ejlchina](https://github.com/ejlchina)
 * 获取系统信息 [https://github.com/oshi/oshi](https://github.com/oshi/oshi)
 * [https://github.com/HaraldWalker/user-agent-utils](https://github.com/HaraldWalker/user-agent-utils)
 * 分布式ID [https://github.com/zjcscut/framework-mesh](https://github.com/zjcscut/framework-mesh)
 * [https://github.com/Meituan-Dianping/Leaf](https://github.com/Meituan-Dianping/Leaf)
+* 执行脚本 [https://github.com/beanshell](https://github.com/beanshell)
+* [https://github.com/fleipold/jproc](https://github.com/fleipold/jproc)
+
 
 
 - 条码 [https://github.com/zxing/zxing](https://github.com/zxing/zxing)
@@ -429,6 +436,7 @@
 - [https://sourceforge.net/projects/sevenzipjbind](https://sourceforge.net/projects/sevenzipjbind)
     - [https://github.com/borisbrodski/sevenzipjbinding](https://github.com/borisbrodski/sevenzipjbinding)
 - [https://github.com/srikanth-lingala/zip4j](https://github.com/srikanth-lingala/zip4j)
+- 重试 [https://github.com/houbb/sisyphus](https://github.com/houbb/sisyphus)
 
 
 
@@ -468,7 +476,7 @@
     * [https://github.com/javacc21/javacc21](https://github.com/javacc21/javacc21)
     * [JavaCC官方入门指南-概述](https://www.cnblogs.com/suhaha/p/11733487.html)
 * [https://github.com/Elzawawy/java-bytecode-generator](https://github.com/Elzawawy/java-bytecode-generator)
-* [https://github.com/jboss-javassist/javassist](https://github.com/jboss-javassist/javassist)
+* JAVA programming ASSISTant [https://github.com/jboss-javassist](https://github.com/jboss-javassist)
 * 反射工具包 [https://github.com/ronmamo/reflections](https://github.com/ronmamo/reflections)
 * [https://github.com/EsotericSoftware/reflectasm](https://github.com/EsotericSoftware/reflectasm)
 * 可缓存反射 [https://github.com/OxideWaveLength/Java-BetterReflection](https://github.com/OxideWaveLength/Java-BetterReflection)
@@ -617,7 +625,8 @@
 * [https://github.com/openjax](https://github.com/openjax)
 * [https://github.com/hunterhacker/jdom](https://github.com/hunterhacker/jdom)
 * [https://github.com/x-stream/xstream](https://github.com/x-stream/xstream)
-* 爬虫 [推荐一些优秀的开源Java爬虫项目](https://zhuanlan.zhihu.com/p/24844250)
+* 爬虫 [https://github.com/bonigarcia/webdrivermanager](https://github.com/bonigarcia/webdrivermanager)
+    * [推荐一些优秀的开源Java爬虫项目](https://zhuanlan.zhihu.com/p/24844250)
 * [https://github.com/fanyong920/jvppeteer](https://github.com/fanyong920/jvppeteer)
 * [https://github.com/kklisura/chrome-devtools-java-client](https://github.com/kklisura/chrome-devtools-java-client)
 * [https://github.com/assertthat/selenium-shutterbug](https://github.com/assertthat/selenium-shutterbug)

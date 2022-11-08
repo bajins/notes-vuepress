@@ -1,9 +1,6 @@
 # Windows软件
 
-
 [[toc]]
-
-
 
 
 ## Flag
@@ -33,7 +30,7 @@
 * [果核剥壳](https://www.ghpym.com)
 * [zdBryan](https://www.423down.com)
 * [落尘之木](https://www.luochenzhimu.com)
-* [懒得勤快](https://ldqk.xyz)
+* [懒得勤快](https://masuit.org)
 * [殁漂遥](https://www.mpyit.com)
 * [轻狂志](http://www.flighty.cn)
 * [伤逝的安详](https://www.ssdax.com)
@@ -636,6 +633,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 ## 清理工具
 
+* [https://pcmanager.microsoft.com](https://pcmanager.microsoft.com)
 * Win10Clean [https://github.com/ElPumpo/Win10Clean](https://github.com/ElPumpo/Win10Clean)
 * Dism++ [https://github.com/Chuyu-Team](https://github.com/Chuyu-Team)
 * W10Privacy [https://www.winprivacy.de/deutsch-start/download](https://www.winprivacy.de/deutsch-start/download)

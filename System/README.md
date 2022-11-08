@@ -37,6 +37,11 @@
 - [https://github.com/balena-io/etcher](https://github.com/balena-io/etcher)
 - [https://github.com/unetbootin/unetbootin](https://github.com/unetbootin/unetbootin)
 - [https://www.pendrivelinux.com](https://www.pendrivelinux.com)
+- [https://github.com/u-boot/u-boot](https://github.com/u-boot/u-boot)
+    - [https://source.denx.de/u-boot/u-boot](https://source.denx.de/u-boot/u-boot)
+- [https://github.com/Freescale](https://github.com/Freescale)
+- [https://github.com/alientek-openedv/Products](https://github.com/alientek-openedv/Products)
+
 
 * 克隆部署 [https://github.com/canonical/cloud-init](https://github.com/canonical/cloud-init)
 * BIOS [https://github.com/coreboot](https://github.com/coreboot)

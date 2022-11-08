@@ -322,6 +322,7 @@ taskkill /f /im chromedriver.exe
 
 * ABP [https://github.com/adblockplus](https://github.com/adblockplus)
 * ubo [https://github.com/gorhill/uBlock](https://github.com/gorhill/uBlock)
+    * [https://github.com/uBlock-LLC](https://github.com/uBlock-LLC)
 * ADB [https://getadblock.com](https://getadblock.com)
 * [https://ublock.org](https://ublock.org)
 * [https://github.com/AdguardTeam](https://github.com/AdguardTeam)

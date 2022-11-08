@@ -14,7 +14,9 @@
 * 链式SQL框架 [https://github.com/jOOQ](https://github.com/jOOQ)
 * [https://github.com/querydsl/querydsl](https://github.com/querydsl/querydsl)
 * [https://github.com/BatooOrg/BatooJPA](https://github.com/BatooOrg/BatooJPA)
-* [https://github.com/eclipse-ee4j/eclipselink](https://github.com/eclipse-ee4j/eclipselink)
+* toplink [https://github.com/eclipse-ee4j/eclipselink](https://github.com/eclipse-ee4j/eclipselink)
+* [https://github.com/datanucleus](https://github.com/datanucleus)
+* [https://github.com/liquibase](https://github.com/liquibase)
 * [https://github.com/apache/openjpa](https://github.com/apache/openjpa)
 * [https://github.com/spring-projects/spring-data-jdbc](https://github.com/spring-projects/spring-data-jdbc)
 * [https://github.com/apache/commons-dbutils](https://github.com/apache/commons-dbutils)
@@ -25,8 +27,19 @@
 
 - [https://github.com/itfsw/mybatis-generator-plugin](https://github.com/itfsw/mybatis-generator-plugin)
 - CRUD生成器 [https://github.com/SanjinKurelic/MVCGenerator](https://github.com/SanjinKurelic/MVCGenerator)
+- [https://github.com/jeddict/jeddict](https://github.com/jeddict/jeddict)
+- [https://codverter.com/src/sqltoclass](https://codverter.com/src/sqltoclass)
+- [https://gitee.com/l0km/sql2java](https://gitee.com/l0km/sql2java)
+    - [https://sourceforge.net/projects/sql2java](https://sourceforge.net/projects/sql2java)
+    - [https://github.com/xgp/sql2java](https://github.com/xgp/sql2java)
+- [https://github.com/blinkfox/zealot](https://github.com/blinkfox/zealot)
+- [https://github.com/vipbooks/TableGo](https://github.com/vipbooks/TableGo)
+- [https://github.com/jahlborn/sqlbuilder](https://github.com/jahlborn/sqlbuilder)
+- 表结构文档生成 [https://github.com/pingfangushi/screw](https://github.com/pingfangushi/screw)
 - 数据库中间件 [https://github.com/apache/shardingsphere](https://github.com/apache/shardingsphere)
 - 连接池 [https://github.com/brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP)
+- [https://github.com/alibaba/druid](https://github.com/alibaba/druid)
+    - [Java工具篇之Druid SQL语法解析树](https://developer.aliyun.com/article/1000273)
 
 
 
@@ -197,6 +210,7 @@ for (List<String> partition : partitions) {
 
 * [https://github.com/hibernate](https://github.com/hibernate)
 * [https://github.com/vladmihalcea/hypersistence-optimizer](https://github.com/vladmihalcea/hypersistence-optimizer)
+* [https://github.com/jeecgboot/MiniDao](https://github.com/jeecgboot/MiniDao)
 
 
 ### 返回结果接收方式
