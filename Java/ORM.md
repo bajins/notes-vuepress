@@ -16,7 +16,6 @@
 * [https://github.com/BatooOrg/BatooJPA](https://github.com/BatooOrg/BatooJPA)
 * toplink [https://github.com/eclipse-ee4j/eclipselink](https://github.com/eclipse-ee4j/eclipselink)
 * [https://github.com/datanucleus](https://github.com/datanucleus)
-* [https://github.com/liquibase](https://github.com/liquibase)
 * [https://github.com/apache/openjpa](https://github.com/apache/openjpa)
 * [https://github.com/spring-projects/spring-data-jdbc](https://github.com/spring-projects/spring-data-jdbc)
 * [https://github.com/apache/commons-dbutils](https://github.com/apache/commons-dbutils)

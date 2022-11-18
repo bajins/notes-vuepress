@@ -102,6 +102,14 @@
 - [https://sourceforge.net/projects/xampp](https://sourceforge.net/projects/xampp)
     - [https://www.apachefriends.org](https://www.apachefriends.org)
 - [https://sourceforge.net/projects/wampserver](https://sourceforge.net/projects/wampserver)
+- 基础软件包 [https://github.com/coreutils](https://github.com/coreutils)
+- [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
+- [https://busybox.net](https://busybox.net)
+    - [https://github.com/meefik/busybox](https://github.com/meefik/busybox)
+    - [https://busybox.jrummyapps.com](https://busybox.jrummyapps.com)
+- [https://landley.net/toybox](https://landley.net/toybox)
+    - [https://github.com/landley/toybox](https://github.com/landley/toybox)
+
 
 * [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625)
 * [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
@@ -274,8 +282,6 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 - [https://github.com/Yelp/dumb-init](https://github.com/Yelp/dumb-init)
 - [https://github.com/canonical/pebble](https://github.com/canonical/pebble)
 - [https://mmonit.com/monit](https://mmonit.com/monit)
-- [https://busybox.net](https://busybox.net)
-    - [https://github.com/meefik/busybox](https://github.com/meefik/busybox)
 - [http://smarden.org/runit](http://smarden.org/runit)
 - [http://www.fefe.de/minit](http://www.fefe.de/minit)
 - [http://upstart.ubuntu.com](http://upstart.ubuntu.com)
@@ -512,26 +518,6 @@ setsid python3 ./index.py >/dev/null 2>&1 &
 
 
 ## 传输文件
-
-+ [https://github.com/topics/synchronization](https://github.com/topics/synchronization)
-+ [https://github.com/topics/sync](https://github.com/topics/sync)
-+ [https://github.com/topics/peer-to-peer](https://github.com/topics/peer-to-peer)
-+ [https://github.com/topics/p2p](https://github.com/topics/p2p)
-
-
-* [https://github.com/syncthing/syncthing](https://github.com/syncthing/syncthing)
-    * [https://github.com/canton7/SyncTrayzor](https://github.com/canton7/SyncTrayzor)
-    * [Syncthing 开源文件同步工具](https://jiangliheng.github.io/2021/06/10/syncthing)
-* Resilio Sync [https://github.com/bt-sync](https://github.com/bt-sync)
-    * [https://www.resilio.com/platforms/desktop](https://www.resilio.com/platforms/desktop)
-* 微力同步国内 [http://www.verysync.com](http://www.verysync.com)
-* [https://github.com/schollz/croc](https://github.com/schollz/croc)
-    * 号称`croc`通过压缩和多路复用比`wormhole`，`rsync`，`scp`更快（加速`1.5`倍至`4`倍）
-* [https://github.com/magic-wormhole/magic-wormhole](https://github.com/magic-wormhole/magic-wormhole)
-* [https://github.com/simon-budig/woof](https://github.com/simon-budig/woof)
-* [https://github.com/stackp/Droopy](https://github.com/stackp/Droopy)
-* [https://github.com/Peergos/Peergos](https://github.com/Peergos/Peergos)
-* 命令行共享文件 [https://github.com/dutchcoders/transfer.sh](https://github.com/dutchcoders/transfer.sh)
 
 
 > 首先进入需要搭建web服务器的目录，然后在输入下面的命令，端口号默认`8000`

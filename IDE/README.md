@@ -325,6 +325,8 @@
 * [https://github.com/gen-codes/astql](https://github.com/gen-codes/astql)
 * [https://github.com/codemirror](https://github.com/codemirror)
 * [https://github.com/pbkit/pbkit](https://github.com/pbkit/pbkit)
+* [https://github.com/tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter)
+    * [https://tree-sitter.github.io/tree-sitter](https://tree-sitter.github.io/tree-sitter)
 
 
 - [Lex与YACC详解](https://zhuanlan.zhihu.com/p/143867739)

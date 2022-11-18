@@ -49,6 +49,8 @@
     * [https://docs.microsoft.com/zh-cn/java](https://docs.microsoft.com/zh-cn/java)
 * [https://github.com/alibaba/dragonwell8](https://github.com/alibaba/dragonwell8)
 * [https://github.com/Tencent/TencentKona-8](https://github.com/Tencent/TencentKona-8)
+* [https://github.com/Tencent/TencentKona-11](https://github.com/Tencent/TencentKona-11)
+* [https://github.com/Tencent/TencentKona-17](https://github.com/Tencent/TencentKona-17)
 
 
 - OpenJ9 [https://github.com/eclipse-openj9/openj9](https://github.com/eclipse-openj9/openj9)
@@ -56,79 +58,6 @@
 
 
 ![](/images/JDK版本生命周期.jpg)
-
-
-
-
-## 源码包
-
-- JavaFX源码：JDK安装目录下的`javafx-src.zip`文件
-- Java源码：JDK安装目录下的`src.zip`文件
-
-> IDEA查看源码都是从这两个ZIP文件加载，查看源码解压ZIP到`Maven`项目的`src/main/java`下，或者直接解压到普通项目`src`下
-
-> `rt.jar` 是JAVA基础类库，包含`lang`在内的大部分功能，而且`rt.jar`默认就在根`classloader`的加载路径里面
-
-> 在 `java.util.concurrent`、`java.security`、`javax.cropty`、`javax.security` 四个包中就占了两个（多线程、安全）
-
-**多线程（multi-threading and concurrent）**
-
-1. 关键词：volatile, sychronized
-2. 传统的线程 API：java.lang.Thread, java.lang.Runnable, java.lang.ThreadGroup, Object#wait, Object#notify, Object#notifyAll
-3. JDK 5 并发包（java.util.concurrent）API：线程池、任务执行器、计数信号量、倒计数门闩、并发集合（并发 Map、阻塞队列等）、
-基于 CPU CAS 指令的原子 API（java.util.concurrent.atomic）、锁 API（java.util.concurrent.lock）和条件对象等。
-4. 作为个人知识提升，还需要理解诸如自旋锁、分离锁、分拆锁、读写锁等的同步锁策略，以及可重入锁、锁的公平性的意义。
-以及各种并发锁的算法，比如：Peterson锁、Bakery锁 等等，以及现代 CPU 体系结构
-
-> 涉及多线程及并发的 API 在 java.lang 中及 java.util.concurrent.* 中。
-
-**网络（network communication）**
-
-> java.net、javax.net
-
-1. 阻塞 TCP 通信、阻塞 UDP 通信、组播
-2. 非阻塞 TCP 通信、非阻塞 UDP 通信
-3. 客户端通信 API（java.net.URL, java.net.URLConnection 等类库）
-
-涉及网络通信的 API 都在 java.net 和 java.nio.channels 包中。这里的网络已经将 RMI 相关包 java.rmi, javax.rmi 都排除了。
-
-**安全（security, cryptography and AAA）**
-
-1. Java 加密类库 JCA
-2. Java 加密类库扩展 JCE
-3. 涉及密码学知识点的消息摘要、消息认证码、对称加密、非对称加密、数字签名
-4. 涉及网络通信证书管理工具（keytool）及 API（PKI、X.509证书）
-5. 基于 SSL/TLS 的安全网络通信 API（JSSE），包括：密钥库管理、信任库管理、阻塞 SSL 通信和非阻塞 SSL 通信等等
-6. Java 认证及授权服务（JAAS）API
-
-涉及安全的东西都在：
-
-- java.security（JCA、JCE、数字证书，以及 JCE 的 SPI）
-- javax.net（SSL/TLS）
-- javax.security（JAAS）
-- javax.crypto（密码学）
-- keytool 的 JDK 工具 
-
-
-**`java`、`javax`、`sun`、`org`包有什么区别**
-
-> 都是jdk提供的类包，且都是在`rt.jar`中。
-
-- `java.*` java标准的一部分，是对外承诺的java开发接口，通常要保持向后兼容，一般不会轻易修改。
-- `javax.*` java标准的一部分，但是没有包含在标准库中，一般属于标准库的扩展。通常属于某个特定领域，不是一般性的api。
-
-> 以扩展的方式提供api，以避免jdk的标准库过大。当然某些早期的javax，后来被并入到标准库中，所有也应该属于新版本JDK的标准库。
-> 比如jmx，java 5以前是以扩展方式提供，但是jdk5以后就做为标准库的一部分了，所有javax.management也是jdk5的标准库的一部分。
-
-- `com.sun.*` 是sun的hotspot虚拟机中`java.*` 和 `javax.*`的实现类。
-
-> 因为不是sun对外公开承诺的接口，所以根据根据实现的需要随时增减，因此在不同版本的hotspot中可能是不同的，
-> 而且在其他的jdk实现中是没有的，调用这些类，可能不会向后兼容，所以一般不推荐使用。
-
-- `org.omg.*` 是由企业或者组织提供的java类库，大部分不是sun公司提供的，同`com.sun.*`，不具备向后兼容性，会根据需要随时增减。
-
-> 其中比较常用的是w3c提供的对XML、网页、服务器的类和接口。
-
 
 
 
@@ -150,7 +79,6 @@
 - [https://github.com/robovm/robovm](https://github.com/robovm/robovm)
     - [https://github.com/MobiVM/robovm](https://github.com/MobiVM/robovm)
 - [https://sourceforge.net/projects/xmlvm](https://sourceforge.net/projects/xmlvm)
-
 
 
 
@@ -342,3 +270,73 @@ setx /m CLASSPATH ".;%JAVA_HOME%\lib;%JRE_HOME%\lib;"
 setx /m Path "%PATH%;%JAVA_HOME%\bin;%JRE_HOME%\bin;%MAVEN_HOME%\bin;%CATALINA_HOME%\bin;"
 ```
 
+
+
+## 源码包
+
+- JavaFX源码：JDK安装目录下的`javafx-src.zip`文件
+- Java源码：JDK安装目录下的`src.zip`文件
+
+> IDEA查看源码都是从这两个ZIP文件加载，查看源码解压ZIP到`Maven`项目的`src/main/java`下，或者直接解压到普通项目`src`下
+
+> `rt.jar` 是JAVA基础类库，包含`lang`在内的大部分功能，而且`rt.jar`默认就在根`classloader`的加载路径里面
+
+> 在 `java.util.concurrent`、`java.security`、`javax.cropty`、`javax.security` 四个包中就占了两个（多线程、安全）
+
+**多线程（multi-threading and concurrent）**
+
+1. 关键词：volatile, sychronized
+2. 传统的线程 API：java.lang.Thread, java.lang.Runnable, java.lang.ThreadGroup, Object#wait, Object#notify, Object#notifyAll
+3. JDK 5 并发包（java.util.concurrent）API：线程池、任务执行器、计数信号量、倒计数门闩、并发集合（并发 Map、阻塞队列等）、
+基于 CPU CAS 指令的原子 API（java.util.concurrent.atomic）、锁 API（java.util.concurrent.lock）和条件对象等。
+4. 作为个人知识提升，还需要理解诸如自旋锁、分离锁、分拆锁、读写锁等的同步锁策略，以及可重入锁、锁的公平性的意义。
+以及各种并发锁的算法，比如：Peterson锁、Bakery锁 等等，以及现代 CPU 体系结构
+
+> 涉及多线程及并发的 API 在 java.lang 中及 java.util.concurrent.* 中。
+
+**网络（network communication）**
+
+> java.net、javax.net
+
+1. 阻塞 TCP 通信、阻塞 UDP 通信、组播
+2. 非阻塞 TCP 通信、非阻塞 UDP 通信
+3. 客户端通信 API（java.net.URL, java.net.URLConnection 等类库）
+
+涉及网络通信的 API 都在 java.net 和 java.nio.channels 包中。这里的网络已经将 RMI 相关包 java.rmi, javax.rmi 都排除了。
+
+**安全（security, cryptography and AAA）**
+
+1. Java 加密类库 JCA
+2. Java 加密类库扩展 JCE
+3. 涉及密码学知识点的消息摘要、消息认证码、对称加密、非对称加密、数字签名
+4. 涉及网络通信证书管理工具（keytool）及 API（PKI、X.509证书）
+5. 基于 SSL/TLS 的安全网络通信 API（JSSE），包括：密钥库管理、信任库管理、阻塞 SSL 通信和非阻塞 SSL 通信等等
+6. Java 认证及授权服务（JAAS）API
+
+涉及安全的东西都在：
+
+- java.security（JCA、JCE、数字证书，以及 JCE 的 SPI）
+- javax.net（SSL/TLS）
+- javax.security（JAAS）
+- javax.crypto（密码学）
+- keytool 的 JDK 工具 
+
+
+**`java`、`javax`、`sun`、`org`包有什么区别**
+
+> 都是jdk提供的类包，且都是在`rt.jar`中。
+
+- `java.*` java标准的一部分，是对外承诺的java开发接口，通常要保持向后兼容，一般不会轻易修改。
+- `javax.*` java标准的一部分，但是没有包含在标准库中，一般属于标准库的扩展。通常属于某个特定领域，不是一般性的api。
+
+> 以扩展的方式提供api，以避免jdk的标准库过大。当然某些早期的javax，后来被并入到标准库中，所有也应该属于新版本JDK的标准库。
+> 比如jmx，java 5以前是以扩展方式提供，但是jdk5以后就做为标准库的一部分了，所有javax.management也是jdk5的标准库的一部分。
+
+- `com.sun.*` 是sun的hotspot虚拟机中`java.*` 和 `javax.*`的实现类。
+
+> 因为不是sun对外公开承诺的接口，所以根据根据实现的需要随时增减，因此在不同版本的hotspot中可能是不同的，
+> 而且在其他的jdk实现中是没有的，调用这些类，可能不会向后兼容，所以一般不推荐使用。
+
+- `org.omg.*` 是由企业或者组织提供的java类库，大部分不是sun公司提供的，同`com.sun.*`，不具备向后兼容性，会根据需要随时增减。
+
+> 其中比较常用的是w3c提供的对XML、网页、服务器的类和接口。

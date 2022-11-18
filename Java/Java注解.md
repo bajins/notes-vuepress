@@ -1,8 +1,6 @@
 # Java注解
 
-
 [[toc]]
-
 
 
 ## Flag
@@ -458,19 +456,34 @@ book.name = test
 
 - `@EnableWebMvc` 在配置类中开启Web MVC的配置支持，如一些ViewResolver或者MessageConverter等，若无此句，重写WebMvcConfigurerAdapter方法（用于对SpringMVC的配置）。
 - `@Controller` 声明该类为SpringMVC中的Controller
+- `@RestController` 该注解为一个组合注解，相当于`@Controller`和`@ResponseBody`的组合
 - `@RequestMapping` 用于映射Web请求，包括访问路径和参数（类或方法上）
-- `@ResponseBody` 支持将返回值放在response内，而不是一个页面，通常用户返回json数据（返回值旁或方法上）
-- `@RequestBody` 允许request的参数在request体中，而不是在直接连接在地址后面。（放在参数前）
-- `@PathVariable` 用于接收路径上使用`{}`声明的参数，比如`@RequestMapping(“/hello/{name}”)`申明的路径，将注解放在参数中前，即可获取该值，通常作为Restful的接口实现方法。
-    - [获取Spring中@PathVariable注解里带点的完整参数](https://blog.csdn.net/m0_56069948/article/details/124791784)
-- `@RequestParam` 用于接收参数（在实际使用中，如果变量名与参数名相同可不使用此注解），`GET`为`?`后面的查询参数，`POST`为body中的表单参数；可与`@PathVariable`同时使用
-- `@RestController` 该注解为一个组合注解，相当于`@Controller`和`@ResponseBody`的组合，注解在类上，意味着，该Controller的所有方法都默认加上了`@ResponseBody`。
-- `@ControllerAdvice` 通过该注解，我们可以将对于控制器的全局配置放置在同一个位置，注解了`@Controller`的类的方法可使用
-`@ExceptionHandler`、`@InitBinder`、`@ModelAttribute`注解到方法上，这对所有注解了 `@RequestMapping`的控制器内的方法有效。
-- `@ExceptionHandler` 用于全局处理控制器里的异常
-- `@InitBinder` 用来设置WebDataBinder，WebDataBinder用来自动绑定前台请求参数到Model中。
-- `@ModelAttribute` 本来的作用是绑定键值对到Model里，在`@ControllerAdvice`中是让全局的`@RequestMapping`都能获得在此处设置的键值对。
-
+    - `@PathVariable` 用于接收url路径上使用`{}`声明的参数，将注解放在参数中前，即可获取该值，通常作为Restful的接口实现方法。
+        - [获取Spring中@PathVariable注解里带点的完整参数](https://blog.csdn.net/m0_56069948/article/details/124791784)
+    - `@RequestParam` 用于接收参数（如果变量名与参数名相同可不使用此注解），`GET`为`?`后面的查询参数，`POST`为body中的表单参数和URL参数；
+    - `@RequestBody` 适用于请求体格式为`application/json`，只能用于接收JSON对象，body中的内容
+    - `@RequestPart` 适用于请求体格式为`multipart/form-data`，可嵌套复杂的请求域（JSON，XML），既可以接收对象又可以接收二进制数据
+- `@ResponseBody` 将返回内容序列化为json字符串（返回值旁或方法上）
+- `@SessionAttributes`
+- `@SessionAttribute`
+- `@CookieValue`
+- `@CrossOrigin`
+- `@Mapping`
+- `@PutMapping`
+- `@PatchMapping`
+- `@PostMapping`
+- `@DeleteMapping`
+- `@GetMapping`
+- `@ValueConstants`
+- `@MatrixVariable`
+- `@RequestHeader`
+- `@RequestAttribute`
+- `@ResponseStatus`
+- `@ControllerAdvice` 全局控制器，注解了`@Controller`的类的方法可使用，这对所有注解了`@RequestMapping`的控制器内的方法有效。
+    - `@ExceptionHandler` 用于全局处理控制器里的异常处理方法（全局异常捕获）
+    - `@InitBinder` 用来设置WebDataBinder（用来自动绑定前台请求参数到Model中）。
+    - `@ModelAttribute` 本来的作用是绑定键值对到Model里，在`@ControllerAdvice`中是让全局的`@RequestMapping`都能获得在此处设置的键值对。
+- `@RestControllerAdvice`
 
 
 

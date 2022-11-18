@@ -278,6 +278,9 @@ taskkill /f /im chromedriver.exe
 
 ### 开发助手
 
++ [https://github.com/zhaoolee/ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes)
+
+
 * [swagger-bootstrap-ui](https://chrome.google.com/webstore/detail/swagger-bootstrap-ui/dhkcgihkeepociepfdeeppmdgbdooahh)
 * [快速进行HTML/CSS/JS编辑展示：web-maker](https://github.com/chinchang/web-maker)
 * [WEB前端助手：WEB前端助手(FeHelper)](https://github.com/zxlie/FeHelper)

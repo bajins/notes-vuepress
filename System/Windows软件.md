@@ -63,7 +63,7 @@
     * [https://yun.naodai.org/Software](https://yun.naodai.org/Software)
     * [https://go.naodai.org/Software](https://go.naodai.org/Software)
 * Mac [https://www.macbl.com](https://www.macbl.com)
-* [http://xclient.info](http://xclient.info)
+* [https://xclient.info](https://xclient.info)
 * [https://github.com/xyjoey/fxxkmakeding](https://github.com/xyjoey/fxxkmakeding)
     * [https://www.fxxkmakeding.xyz](https://www.fxxkmakeding.xyz)
 * [https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367)
@@ -77,6 +77,7 @@
 
 > E2EE(端到端加密)：[Diffie-Hellman](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)密钥交换算法、AES(-CBC)对称加密算法
 
+* [https://github.com/landrok/activitypub](https://github.com/landrok/activitypub)
 * [https://github.com/keybase](https://github.com/keybase)
 * [http://potato.manre.me](http://potato.manre.me)
 * [https://github.com/tootsuite](https://github.com/tootsuite)
@@ -779,7 +780,6 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 + [https://github.com/topics/compare-files](https://github.com/topics/compare-files)
 
 
-* 文件同步 [https://freefilesync.org](https://freefilesync.org)
 * 文件搜索 [https://www.listary.com/pro](https://www.listary.com/pro)
 * Everything [https://www.voidtools.com](https://www.voidtools.com)
     * [https://github.com/stnkl/EverythingToolbar](https://github.com/stnkl/EverythingToolbar)

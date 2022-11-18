@@ -11,6 +11,7 @@
 * [https://github.com/microsoft/vscode](https://github.com/microsoft/vscode)
     * [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
     * [https://marketplace.visualstudio.com](https://marketplace.visualstudio.com)
+    * [https://github.com/microsoft/vscode-anycode](https://github.com/microsoft/vscode-anycode)
 * [https://github.com/microsoft/vscode-docs](https://github.com/microsoft/vscode-docs)
     * [默认键盘快捷键](https://code.visualstudio.com/docs/getstarted/keybindings#_default-keyboard-shortcuts)
     * [Keyboard shortcuts forWindows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
@@ -19,6 +20,8 @@
 * [VSCode教程](https://www.php.cn/tool/vscode)
 * [https://github.com/gr2m/app-stats-action](https://github.com/gr2m/app-stats-action)
 * [https://github.com/coder](https://github.com/coder)
+* [https://github.com/flathub/com.vscodium.codium](https://github.com/flathub/com.vscodium.codium)
+    * [https://vscodium.com](https://vscodium.com)
 
 
 

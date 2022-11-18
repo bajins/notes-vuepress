@@ -298,6 +298,7 @@ $('div:contains("test"):not(:has(*)):last').css('background-color', 'red');
 + [https://github.com/topics/validator](https://github.com/topics/validator)
 + [https://plugins.jquery.com](https://plugins.jquery.com)
 
+
 * 添加XHR2 responseType支持 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
 * [https://github.com/topics/jquery-validation](https://github.com/topics/jquery-validation)
     * [https://github.com/jquery-validation](https://github.com/jquery-validation)
@@ -321,6 +322,7 @@ $('div:contains("test"):not(:has(*)):last').css('background-color', 'red');
 * 使用旧版IE警报 [https://github.com/nmsdvid/ie-alert](https://github.com/nmsdvid/ie-alert)
 * 图像放大镜 [https://github.com/mrenzidev/jqzoom](https://github.com/mrenzidev/jqzoom)
 * 文件上传 [https://github.com/kartik-v/bootstrap-fileinput](https://github.com/kartik-v/bootstrap-fileinput)
+* [https://github.com/jquery-form/form](https://github.com/jquery-form/form)
 * 下拉选择框 [https://github.com/snapappointments/bootstrap-select](https://github.com/snapappointments/bootstrap-select)
 	* [https://www.bootstrapselect.cn](https://www.bootstrapselect.cn)
 * [https://github.com/davidstutz/bootstrap-multiselect](https://github.com/davidstutz/bootstrap-multiselect)
@@ -341,6 +343,7 @@ $('div:contains("test"):not(:has(*)):last').css('background-color', 'red');
 * UI [https://github.com/IgniteUI/ignite-ui](https://github.com/IgniteUI/ignite-ui)
 * [https://github.com/madrobby/zepto](https://github.com/madrobby/zepto)
 * [https://github.com/ded/script.js](https://github.com/ded/script.js)
+* [https://github.com/malsup/blockui](https://github.com/malsup/blockui)
 
 
 - [https://github.com/jakerella/jquery-mockjax](https://github.com/jakerella/jquery-mockjax)

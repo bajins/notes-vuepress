@@ -296,23 +296,14 @@
 ## FindBugs-IDEA
 
 * [https://plugins.jetbrains.com/plugin/3847-findbugs-idea](https://plugins.jetbrains.com/plugin/3847-findbugs-idea)
+* [https://github.com/andrepdo/findbugs-idea](https://github.com/andrepdo/findbugs-idea)
+    * [https://sourceforge.net/projects/findbugs](https://sourceforge.net/projects/findbugs)
+    * [https://andrepdo.github.io/findbugs-idea](https://andrepdo.github.io/findbugs-idea)
 
 > 检测代码中可能的bug及不规范的位置，检测的模式相比p3c更多，写完代码后检测下 避免低级bug，强烈建议用一下，一不小心就发现很多老代码的bug
 
 ![](https://upload-images.jianshu.io/upload_images/11962894-971a0da4b7fde363.gif)
 
-
-## p3c
-
-* [https://github.com/alibaba/p3c](https://github.com/alibaba/p3c)
-
-> 阿里巴巴出品的java代码规范插件,可以扫描整个项目 找到不规范的地方 并且大部分可以自动修复 
-
-
-
-## Alibaba Java Coding Guidelines
-
-> 阿里巴巴代码规范检查插件，当然规范可以参考《阿里巴巴Java开发手册》
 
 
 ## CheckStyle-IDEA

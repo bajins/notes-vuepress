@@ -433,6 +433,7 @@
    > 在`Select folding to use`项选择：`Coffee Bytes Java Folding`
 - [https://github.com/GrowThinky/AnnotationSupportEclipsePlugin](https://github.com/GrowThinky/AnnotationSupportEclipsePlugin)
 - [https://github.com/qiangitchen/tlv8ide](https://github.com/qiangitchen/tlv8ide)
+- [https://github.com/gildur/SimplePropertiesEditor](https://github.com/gildur/SimplePropertiesEditor)
 
 
 **反编译Decompiler**

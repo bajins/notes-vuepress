@@ -1,8 +1,6 @@
 # Git使用
 
-
 [[toc]]
-
 
 
 ## Flag
@@ -18,7 +16,10 @@
   + [https://github.com/microsoft/scalar](https://github.com/microsoft/scalar)
   + [https://github.com/microsoft/vfsforgit](https://github.com/microsoft/vfsforgit)
   + [https://github.com/microsoft/git](https://github.com/microsoft/git)
-
+  + [https://github.com/jonas/tig](https://github.com/jonas/tig)
++ [https://github.com/GerritCodeReview/git-repo](https://github.com/GerritCodeReview/git-repo)
++ [https://github.com/PJK/libcbor](https://github.com/PJK/libcbor)
++ [https://github.com/Yubico/libfido2](https://github.com/Yubico/libfido2)
 
 
 * [https://github.com/progit](https://github.com/progit)
@@ -450,7 +451,7 @@ export LESSCHARSET=utf-8
 ```
 
 
-**Git LFS**
+## Git LFS
 
 * 对大型文件进行版本控制 [https://github.com/git-lfs](https://github.com/git-lfs)
   * [https://git-lfs.github.com](https://git-lfs.github.com)

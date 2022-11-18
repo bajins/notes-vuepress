@@ -1,12 +1,9 @@
 # Windows
 
-
 [[toc]]
 
 
-
 ## Flag
-
 
 * 搜索更新补丁下载 [http://www.catalog.update.microsoft.com](http://www.catalog.update.microsoft.com)
 * [小米笔记本Pro黑苹果Win10双系统](https://www.ikxin.com/465.html)
@@ -151,6 +148,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 + MSMG Toolkit [https://msmgtoolkit.in](https://msmgtoolkit.in)
 + NTLite [https://www.ntlite.com](https://www.ntlite.com)
 
+
 * iCura [iCura的帖子  - 远景论坛 - 微软极客社区](http://i.pcbeta.com/home.php?mod=space&uid=4631987&do=thread&view=me&from=space)
     * [OneDrive](https://tpedutw-my.sharepoint.com/:f:/g/personal/icura_tp_edu_tw/Ek5lPsUrc_ZJqSDKi7oxsdoBNjbbncnvi8p-90jI0OqUVA)
 * WINOS [https://www.winos.me](https://www.winos.me)
@@ -182,7 +180,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 ## MS激活
 
 
-## KMS
+### KMS
 
 * [https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys](https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys)
 * [https://github.com/search?q=数字权利](https://github.com/search?q=%E6%95%B0%E5%AD%97%E6%9D%83%E5%88%A9)
@@ -217,7 +215,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://github.com/EDragon007/EDragonKMS](https://github.com/EDragon007/EDragonKMS)
 
 
-## KEY
+### KEY
 
 > 所谓的win10数字权利激活，是一种win10授权方法。该激活方法会记录你的电脑硬件信息，并保存到微软的服务器，
 > 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
