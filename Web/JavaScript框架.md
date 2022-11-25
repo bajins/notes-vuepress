@@ -323,6 +323,7 @@ $('div:contains("test"):not(:has(*)):last').css('background-color', 'red');
 * 图像放大镜 [https://github.com/mrenzidev/jqzoom](https://github.com/mrenzidev/jqzoom)
 * 文件上传 [https://github.com/kartik-v/bootstrap-fileinput](https://github.com/kartik-v/bootstrap-fileinput)
 * [https://github.com/jquery-form/form](https://github.com/jquery-form/form)
+* ~~[https://github.com/FineUploader/fine-uploader](https://github.com/FineUploader/fine-uploader)~~
 * 下拉选择框 [https://github.com/snapappointments/bootstrap-select](https://github.com/snapappointments/bootstrap-select)
 	* [https://www.bootstrapselect.cn](https://www.bootstrapselect.cn)
 * [https://github.com/davidstutz/bootstrap-multiselect](https://github.com/davidstutz/bootstrap-multiselect)

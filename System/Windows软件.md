@@ -101,6 +101,7 @@
 * [https://github.com/igniterealtime](https://github.com/igniterealtime)
 * [https://github.com/chatwoot](https://github.com/chatwoot)
 * [https://github.com/mastodon/mastodon](https://github.com/mastodon/mastodon)
+* [https://github.com/pixelfed/pixelfed](https://github.com/pixelfed/pixelfed)
 * [https://github.com/napthedev/fireverse](https://github.com/napthedev/fireverse)
 * [https://github.com/papercups-io/papercups](https://github.com/papercups-io/papercups)
 * [https://github.com/rumsystem/quorum](https://github.com/rumsystem/quorum)

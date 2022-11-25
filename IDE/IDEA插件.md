@@ -63,6 +63,7 @@
 > 直接将Mybatis执行的sql脚本显示出来，无需处理，可以直接复制出来执行
 
 * [https://github.com/kookob/mybatis-log-plugin](https://github.com/kookob/mybatis-log-plugin)
+* [https://github.com/PerccyKing/batslog](https://github.com/PerccyKing/batslog)
 
 
 ## .ignore
