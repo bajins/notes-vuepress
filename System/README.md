@@ -110,6 +110,7 @@
 * [https://github.com/thepowersgang/rust_os](https://github.com/thepowersgang/rust_os)
 * 物联网 [https://github.com/RT-Thread/rt-thread](https://github.com/RT-Thread/rt-thread)
 * 树莓派 [https://github.com/raspberrypi](https://github.com/raspberrypi)
+    * [https://github.com/guysoft](https://github.com/guysoft)
 * [https://github.com/pftf](https://github.com/pftf)
 
 
@@ -164,6 +165,7 @@
 * [https://github.com/aaPanel/BaoTa](https://github.com/aaPanel/BaoTa)
     * [https://www.bt.cn](https://www.bt.cn)
 * [https://www.xp.cn](https://www.xp.cn)
+* [https://github.com/YunoHost](https://github.com/YunoHost)
 * [https://cockpit-project.org](https://cockpit-project.org)
 * 可视化套件 [https://github.com/grafana/grafana](https://github.com/grafana/grafana)
 * [https://github.com/GitSquared/edex-ui](https://github.com/GitSquared/edex-ui)

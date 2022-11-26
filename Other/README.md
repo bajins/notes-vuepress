@@ -56,6 +56,7 @@
 - [![](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com)
 - [https://opencollective.com](https://opencollective.com)
 - [https://www.patreon.com](https://www.patreon.com)
+- [https://liberapay.com](https://liberapay.com)
 - [https://www.paypal.com/paypalme](https://www.paypal.com/paypalme)
 - [https://www.paypal.com/donate](https://www.paypal.com/donate)
 - [https://ko-fi.com](https://ko-fi.com)

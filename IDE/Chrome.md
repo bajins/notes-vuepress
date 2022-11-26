@@ -26,10 +26,11 @@
 
 
 * [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
+    * [https://chromeenterprise.google/intl/zh_CN/browser/download](https://chromeenterprise.google/intl/zh_CN/browser/download)
     * 有更新组件 https://redirector.gvt1.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise64.msi
     * 有更新组件 https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi
-    * 无更新组件 https://redirector.gvt1.com/edgedl/release2/chrome/nlhof2sp2ioclgozupfzrxytxi_107.0.5304.107/107.0.5304.107_chrome_installer.exe
-    * 无更新组件 https://edgedl.me.gvt1.com/edgedl/release2/chrome/nlhof2sp2ioclgozupfzrxytxi_107.0.5304.107/107.0.5304.107_chrome_installer.exe
+    * 无更新组件 https://redirector.gvt1.com/edgedl/release2/chrome/od2lllrxuumm2zm5pdlk6xdgnm_107.0.5304.122/107.0.5304.122_chrome_installer.exe
+    * 无更新组件 https://edgedl.me.gvt1.com/edgedl/release2/chrome/od2lllrxuumm2zm5pdlk6xdgnm_107.0.5304.122/107.0.5304.122_chrome_installer.exe
     * [Chrome历史离线包 不带更新模块](https://www.lanzouh.com/b112274)
 * [https://www.chromedownloads.net](https://www.chromedownloads.net)
 * [https://www.iplaysoft.com/tools/chrome](https://www.iplaysoft.com/tools/chrome)
@@ -53,8 +54,8 @@
     * [https://docs.microsoft.com/zh-cn/microsoft-edge](https://docs.microsoft.com/zh-cn/microsoft-edge)
     * 不显示新建标签页广告资讯和网址（微软对中国区特供）强制本地NTP，添加快捷方式运行参数：`--force-local-ntp`
 * [https://www.mozilla.org/zh-CN/firefox/all](https://www.mozilla.org/zh-CN/firefox/all)
-    * [https://sourceforge.net/projects/libportable](https://sourceforge.net/projects/libportable)
     * [https://ftp.mozilla.org/pub/firefox/releases](https://ftp.mozilla.org/pub/firefox/releases)
+    * [https://sourceforge.net/projects/libportable](https://sourceforge.net/projects/libportable)
 * [https://github.com/vivaldi](https://github.com/vivaldi)
     * [https://vivaldi.com](https://vivaldi.com)
 * [https://github.com/brave](https://github.com/brave)

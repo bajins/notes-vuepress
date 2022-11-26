@@ -62,6 +62,8 @@
 
 **其他版本控制服务**
 
+* [https://codeberg.org](https://codeberg.org)
+* [https://git.pleroma.social](https://git.pleroma.social)
 * [https://code.aliyun.com](https://code.aliyun.com)
 * [https://coding.net](https://coding.net)
 * [https://git.code.tencent.com](https://git.code.tencent.com)

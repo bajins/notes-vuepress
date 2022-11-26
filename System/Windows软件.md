@@ -77,7 +77,10 @@
 
 > E2EE(端到端加密)：[Diffie-Hellman](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)密钥交换算法、AES(-CBC)对称加密算法
 
-* [https://github.com/landrok/activitypub](https://github.com/landrok/activitypub)
++ Fediverse
++ [https://github.com/landrok/activitypub](https://github.com/landrok/activitypub)
+
+
 * [https://github.com/keybase](https://github.com/keybase)
 * [http://potato.manre.me](http://potato.manre.me)
 * [https://github.com/tootsuite](https://github.com/tootsuite)
@@ -101,10 +104,21 @@
 * [https://github.com/igniterealtime](https://github.com/igniterealtime)
 * [https://github.com/chatwoot](https://github.com/chatwoot)
 * [https://github.com/mastodon/mastodon](https://github.com/mastodon/mastodon)
+    * [https://github.com/nolanlawson/pinafore](https://github.com/nolanlawson/pinafore)
+    * [https://github.com/tuskyapp/Tusky](https://github.com/tuskyapp/Tusky)
 * [https://github.com/pixelfed/pixelfed](https://github.com/pixelfed/pixelfed)
 * [https://github.com/napthedev/fireverse](https://github.com/napthedev/fireverse)
 * [https://github.com/papercups-io/papercups](https://github.com/papercups-io/papercups)
 * [https://github.com/rumsystem/quorum](https://github.com/rumsystem/quorum)
+* [https://github.com/owncast/owncast](https://github.com/owncast/owncast)
+* [https://github.com/LemmyNet/lemmy](https://github.com/LemmyNet/lemmy)
+* [https://github.com/superseriousbusiness/gotosocial](https://github.com/superseriousbusiness/gotosocial)
+* [https://github.com/friendica/friendica](https://github.com/friendica/friendica)
+* [https://framagit.org/hubzilla/core](https://framagit.org/hubzilla/core)
+    * [https://hubzilla.org](https://hubzilla.org)
+* [https://github.com/diaspora](https://github.com/diaspora)
+* [https://github.com/misskey-dev/misskey](https://github.com/misskey-dev/misskey)
+* [https://git.pleroma.social/pleroma/pleroma](https://git.pleroma.social/pleroma/pleroma)
 
 
 - [https://github.com/topics/curses](https://github.com/topics/curses)
@@ -126,6 +140,7 @@
 * [https://telegram.org/apps#source-code](https://telegram.org/apps#source-code)
     * 跨平台库 [https://github.com/tdlib](https://github.com/tdlib)
     * Android [https://github.com/DrKLO/Telegram](https://github.com/DrKLO/Telegram)
+    * [https://github.com/Telegram-FOSS-Team/Telegram-FOSS](https://github.com/Telegram-FOSS-Team/Telegram-FOSS)
     * iOS [https://github.com/TelegramMessenger/Telegram-iOS](https://github.com/TelegramMessenger/Telegram-iOS)
     * macOS [https://github.com/overtake/TelegramSwift](https://github.com/overtake/TelegramSwift)
     * Windows [https://github.com/telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop)
