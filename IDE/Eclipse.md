@@ -434,6 +434,7 @@
 - [https://github.com/GrowThinky/AnnotationSupportEclipsePlugin](https://github.com/GrowThinky/AnnotationSupportEclipsePlugin)
 - [https://github.com/qiangitchen/tlv8ide](https://github.com/qiangitchen/tlv8ide)
 - [https://github.com/gildur/SimplePropertiesEditor](https://github.com/gildur/SimplePropertiesEditor)
+- [https://github.com/FeatureIDE/FeatureIDE](https://github.com/FeatureIDE/FeatureIDE)
 
 
 **反编译Decompiler**

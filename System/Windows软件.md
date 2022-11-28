@@ -46,6 +46,7 @@
 * [https://www.zrbk.xyz](https://www.zrbk.xyz)
 * [http://yx.bsh.me](http://yx.bsh.me)
 * [苦瓜甘甜](http://www.kuguagantian.com)
+* [https://ylface.com](https://ylface.com)
 
 
 **论坛**
@@ -303,6 +304,7 @@
 * [https://github.com/persepolisdm/persepolis](https://github.com/persepolisdm/persepolis)
 * [https://github.com/P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf)
 * [https://github.com/boypt/simple-torrent](https://github.com/boypt/simple-torrent)
+* [https://github.com/SuperNG6](https://github.com/SuperNG6)
 * [http://lightzhan.xyz/index.php/qdown](http://lightzhan.xyz/index.php/qdown)
 * GUI [https://github.com/Xmader/aria-ng-gui](https://github.com/Xmader/aria-ng-gui)
 * [https://github.com/Xmader/aria-ng-gui-android](https://github.com/Xmader/aria-ng-gui-android)
@@ -440,10 +442,21 @@
 
 
 
-**Photoshop CC**
+**Photoshop**
 
-* [由微博大神@vposy制作Adobe全系列](https://weibo.com/vposy?is_hot=1)
+* [https://github.com/search?q=Photoshop](https://github.com/search?q=Photoshop)
+* https://weibo.com/vposy
+* TEAmo (茶末余香)
 * [Adobe软件单独下载方法-官方](https://sleele.com/2019/05/05/adobe/)
+* [https://sysin.cn/archive](https://sysin.cn/archive)
+* https://pan.baidu.com/s/1Z4_iJNcq7koRt3vN7KxB3w?pwd=6g8x
+* 全套插件一键安装无限制版,无需填写注册码，直接点击“继续” https://cloud.189.cn/t/iqm6jiJJZBVv
+* Extensions Plus For PS CC https://lanzoui.com/iapsbaj
+* DeliciousRetouch 5 https://ldqk.lanzoux.com/ibdcm0d
+* https://inmac.org
+* https://cmacapps.com
+* https://mac-torrent-download.net
+* https://tntzii.com
 * [https://github.com/webmproject/WebPShop](https://github.com/webmproject/WebPShop)
 
 

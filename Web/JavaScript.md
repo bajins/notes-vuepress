@@ -61,6 +61,8 @@
 * 面向程序员的JavaScript书籍 [https://exploringjs.com](https://exploringjs.com)
 * ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
     * [https://es6.ruanyifeng.com](https://es6.ruanyifeng.com)
+* [https://github.com/daumann/ECMAScript-new-features-list](https://github.com/daumann/ECMAScript-new-features-list)
+* [https://github.com/sudheerj/ECMAScript-features](https://github.com/sudheerj/ECMAScript-features)
 * [https://github.com/30-seconds](https://github.com/30-seconds)
 * [https://github.com/rse/es6-features](https://github.com/rse/es6-features)
 * [https://www.javascript.com](https://www.javascript.com)

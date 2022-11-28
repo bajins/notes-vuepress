@@ -349,6 +349,8 @@
 * [https://github.com/Aefyr/SAI](https://github.com/Aefyr/SAI)
 * [https://github.com/machiav3lli/oandbackupx](https://github.com/machiav3lli/oandbackupx)
 * 幸运补丁 [https://www.luckypatchers.com](https://www.luckypatchers.com)
+* 图片处理 [https://website.facetuneapp.com](https://website.facetuneapp.com)
+* [https://www.lightricks.com](https://www.lightricks.com)
 
 
 **下载Google Play Store上的应用**

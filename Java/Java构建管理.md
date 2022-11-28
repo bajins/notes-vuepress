@@ -220,12 +220,12 @@
 + maven-jar-plugin 默认的打包插件，用来打普通的project JAR包；
 + maven-shade-plugin 用来打可执行JAR包，也就是所谓的fat JAR包；
 + maven-assembly-plugin 支持自定义的打包结构，也可以定制依赖项等。
++ 插件大全 [https://github.com/mojohaus](https://github.com/mojohaus)
 + [https://github.com/apache/maven-wagon](https://github.com/apache/maven-wagon)
 + [https://github.com/takari/maven-wrapper](https://github.com/takari/maven-wrapper)
-+ [https://github.com/mojohaus/exec-maven-plugin](https://github.com/mojohaus/exec-maven-plugin)
 + [https://github.com/mathieucarbou/license-maven-plugin](https://github.com/mathieucarbou/license-maven-plugin)
-+ [https://github.com/mojohaus](https://github.com/mojohaus)
 + 构建自动清理 [https://github.com/castor-software/depclean](https://github.com/castor-software/depclean)
++ 模块化 [https://github.com/moditect/layrry](https://github.com/moditect/layrry)
 
 
 
@@ -262,8 +262,6 @@
 
 **打包部署到服务器**
 
-+ [https://github.com/mojohaus](https://github.com/mojohaus)
-+ [https://github.com/mojohaus/wagon-maven-plugin](https://github.com/mojohaus/wagon-maven-plugin)
 + [https://github.com/apache/tomcat-maven-plugin](https://github.com/apache/tomcat-maven-plugin)
 + [https://mvnrepository.com/artifact/org.apache.tomcat.maven](https://mvnrepository.com/artifact/org.apache.tomcat.maven)
 + [https://github.com/codehaus-cargo](https://github.com/codehaus-cargo)
