@@ -330,18 +330,6 @@ sudo /etc/init.d/dns-clean start
 
 
 
-**第三方CI**
-
-+ [CI services](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/ci-configuration.md)
-+ [https://github.com/opencpu](https://github.com/opencpu)
-+ [https://github.com/circleci](https://github.com/circleci)
-+ [https://github.com/codeship](https://github.com/codeship)
-+ [https://github.com/gocd](https://github.com/gocd)
-+ [https://github.com/travis-ci](https://github.com/travis-ci)
-+ [https://github.com/wercker](https://github.com/wercker)
-
-
-
 
 ## GitWebHook
 

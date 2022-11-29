@@ -17,6 +17,7 @@
 * [https://www.begtut.com/sql/sql-ref-keywords.html](https://www.begtut.com/sql/sql-ref-keywords.html)
 * [https://wizardforcel.gitbooks.io/w3school-sql](https://wizardforcel.gitbooks.io/w3school-sql)
 * HiveSQL教程 [https://www.gairuo.com/p/hive-sql-tutorial](https://www.gairuo.com/p/hive-sql-tutorial)
+* 加密 [https://github.com/hashicorp/vault](https://github.com/hashicorp/vault)
 
 
 **备份/迁移/同步/导入导出**

@@ -14,6 +14,7 @@
 * 链式SQL框架 [https://github.com/jOOQ](https://github.com/jOOQ)
 * [https://github.com/querydsl/querydsl](https://github.com/querydsl/querydsl)
 * [https://github.com/BatooOrg/BatooJPA](https://github.com/BatooOrg/BatooJPA)
+* [https://github.com/aaberg/sql2o](https://github.com/aaberg/sql2o)
 * toplink [https://github.com/eclipse-ee4j/eclipselink](https://github.com/eclipse-ee4j/eclipselink)
 * [https://github.com/datanucleus](https://github.com/datanucleus)
 * [https://github.com/apache/openjpa](https://github.com/apache/openjpa)

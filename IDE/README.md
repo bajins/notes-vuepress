@@ -19,6 +19,30 @@
 * [https://github.com/zed-industries](https://github.com/zed-industries)
 
 
+
+**代码跟踪分析**
+
+- [https://sonarcloud.io](https://sonarcloud.io)
+    - [https://github.com/SonarSource/sonarqube](https://github.com/SonarSource/sonarqube)
+- [https://github.com/pmd/pmd](https://github.com/pmd/pmd)
+- [https://github.com/snyk/cli](https://github.com/snyk/cli)
+- [https://semmle.com](https://semmle.com)
+    - [https://lgtm.com](https://lgtm.com)
+- [https://www.openhub.net](https://www.openhub.net)
+- [https://github.com/Checkmarx](https://github.com/Checkmarx)
+- [https://github.com/codacy](https://github.com/codacy)
+- [https://github.com/veracode](https://github.com/veracode)
+- [https://bestpractices.coreinfrastructure.org](https://bestpractices.coreinfrastructure.org)
+- Gerrit [https://github.com/GerritCodeReview/gerrit](https://github.com/GerritCodeReview/gerrit)
+    - [https://www.gerritcodereview.com](https://www.gerritcodereview.com)
+    - [https://gerrit.asterisk.org/Documentation/index.html](https://gerrit.asterisk.org/Documentation/index.html)
+- C/C++ [https://dwheeler.com/flawfinder](https://dwheeler.com/flawfinder)
+- .NET [https://github.com/security-code-scan/security-code-scan](https://github.com/security-code-scan/security-code-scan)
+
+
+
+**Dev Tools/DevOps/CI/CD/Developer Experience (DX)**
+
 - 代码搜索和替换 [https://github.com/comby-tools/comby](https://github.com/comby-tools/comby)
 - [https://github.com/dsznajder/vscode-es7-javascript-react-snippets](https://github.com/dsznajder/vscode-es7-javascript-react-snippets)
 - 工具 [https://github.com/864381832/xJavaFxTool](https://github.com/864381832/xJavaFxTool)
@@ -29,6 +53,36 @@
 - [https://github.com/veler/DevToys](https://github.com/veler/DevToys)
 - [https://github.com/VUEngine](https://github.com/VUEngine)
 - [https://github.com/kiteco](https://github.com/kiteco)
+- [https://github.com/atlassian](https://github.com/atlassian)
+- 界面设计 [https://github.com/figma](https://github.com/figma)
+- [https://github.com/planetscale](https://github.com/planetscale)
+
+
+
++ [技术|什么是 CI/CD？](https://linux.cn/article-9926-1.html)
+
+- CI(Continuous Integration) 持续集成概念
+- CD(Continuous Deployment) 是持续部署
+- CD(Continuous delivery) 交持续交付
+
+> CI/CD优点是，重复的工作用自动化来代替、减少时间成本、版本发布时间减短了。
+> 当开发每天会提交多次代码到主干上，会做一些重复性的动作时，就可以用持续集成环境来操作。
+
+
+* [https://github.com/devstream-io/devstream](https://github.com/devstream-io/devstream)
+    * [https://github.com/merico-dev/stream](https://github.com/merico-dev/stream)
+* [https://github.com/TestLinkOpenSourceTRMS/testlink-code](https://github.com/TestLinkOpenSourceTRMS/testlink-code)
+    * [https://sourceforge.net/projects/testlink](https://sourceforge.net/projects/testlink)
+
+
++ [CI services](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/ci-configuration.md)
++ [https://github.com/opencpu](https://github.com/opencpu)
++ [https://github.com/circleci](https://github.com/circleci)
++ [https://github.com/codeship](https://github.com/codeship)
++ [https://github.com/gocd](https://github.com/gocd)
++ [https://github.com/travis-ci](https://github.com/travis-ci)
++ [https://github.com/wercker](https://github.com/wercker)
+
 
 
 
@@ -332,6 +386,27 @@
 
 - [Lex与YACC详解](https://zhuanlan.zhihu.com/p/143867739)
 
+
+
+
+## 项目管理
+
++ [https://github.com/topics/bug](https://github.com/topics/bug)
++ [https://github.com/topics/project](https://github.com/topics/project)
++ [https://github.com/topics/task](https://github.com/topics/task)
++ [https://github.com/topics/project-management](https://github.com/topics/project-management)
+
+
+* 禅道 [https://github.com/easysoft/zentaopms](https://github.com/easysoft/zentaopms)
+    * [https://gitee.com/wwccss/zentaopms](https://gitee.com/wwccss/zentaopms)
+* [https://github.com/mantisbt/mantisbt](https://github.com/mantisbt/mantisbt)
+* [https://www.atlassian.com/zh/software/jira](https://www.atlassian.com/zh/software/jira)
+    * [https://github.com/integrations/jira](https://github.com/integrations/jira)
+* [https://github.com/mantisbt/mantisbt](https://github.com/mantisbt/mantisbt)
+* [https://github.com/redmine/redmine](https://github.com/redmine/redmine)
+* [https://gitee.com/itestwork/itest](https://gitee.com/itestwork/itest)
+* [https://github.com/hyahm/ITflow](https://github.com/hyahm/ITflow)
+* [https://www.tapd.cn](https://www.tapd.cn)
 
 
 

@@ -45,6 +45,7 @@
 
 
 * 工具包 [https://github.com/dablelv/go-huge-util](https://github.com/dablelv/go-huge-util)
+* [https://github.com/uber-go](https://github.com/uber-go)
 * [https://github.com/gookit](https://github.com/gookit)
 * [https://github.com/VividCortex](https://github.com/VividCortex)
 * [https://github.com/xxjwxc/public](https://github.com/xxjwxc/public)
@@ -101,7 +102,6 @@
 * Swagger2 [https://github.com/swaggo](https://github.com/swaggo)
 * [https://github.com/owenliang/go-push](https://github.com/owenliang/go-push)
 * [https://github.com/rs/zerolog](https://github.com/rs/zerolog)
-* [https://github.com/uber-go/zap](https://github.com/uber-go/zap)
 * HTTP [https://github.com/valyala/fasthttp](https://github.com/valyala/fasthttp)
 * [https://github.com/parnurzeal/gorequest](https://github.com/parnurzeal/gorequest)
 * [https://github.com/go-session](https://github.com/go-session)
@@ -171,6 +171,7 @@
 * markdown转roff [https://github.com/cpuguy83/go-md2man](https://github.com/cpuguy83/go-md2man)
 * 队列任务 [https://github.com/gocraft/work](https://github.com/gocraft/work)
 * [https://github.com/txn2/rxtx](https://github.com/txn2/rxtx)
+* [https://github.com/RichardKnop/machinery](https://github.com/RichardKnop/machinery)
 * 媒体类型 [http://github.com/gabriel-vasile/mimetype](http://github.com/gabriel-vasile/mimetype)
 * 图片转换 [https://github.com/gographics/imagick](https://github.com/gographics/imagick)
 * 地图 [https://github.com/tidwall/tile38](https://github.com/tidwall/tile38)
