@@ -22,6 +22,7 @@
 + [https://github.com/psf](https://github.com/psf)
 + [https://github.com/Python-World](https://github.com/Python-World)
 + [https://github.com/taichi-dev/taichi](https://github.com/taichi-dev/taichi)
++ [https://github.com/kennethreitz/pep8.org](https://github.com/kennethreitz/pep8.org)
 
 
 * [GO-Node-Python的简单性能比较](https://www.izhongxia.com/posts/64310.html)
@@ -130,6 +131,7 @@ with Test() as t: # 触发__exit__
 * 分布式任务 [https://github.com/celery/celery](https://github.com/celery/celery)
     * [https://github.com/open-source-translation/celery-cn](https://github.com/open-source-translation/celery-cn)
     * [https://www.celerycn.io](https://www.celerycn.io)
+* [https://github.com/dask](https://github.com/dask)
 * web [https://github.com/tiangolo/fastapi](https://github.com/tiangolo/fastapi)
 * [https://github.com/pallets/flask](https://github.com/pallets/flask)
     * [https://dormousehole.readthedocs.io](https://dormousehole.readthedocs.io)

@@ -198,6 +198,7 @@
 * [https://github.com/biezhi/30-seconds-of-java8](https://github.com/biezhi/30-seconds-of-java8)
 * [https://github.com/jufeng98/java-master](https://github.com/jufeng98/java-master)
 * [https://github.com/yrojha4ever/JavaStud](https://github.com/yrojha4ever/JavaStud)
+* [https://github.com/BNYMellon/CodeKatas](https://github.com/BNYMellon/CodeKatas)
 * 并发专题 [https://github.com/CL0610/Java-concurrency](https://github.com/CL0610/Java-concurrency)
 * [https://github.com/itwanger/toBeBetterJavaer](https://github.com/itwanger/toBeBetterJavaer)
 * [https://github.com/vgrazi/JavaConcurrentAnimatedReboot](https://github.com/vgrazi/JavaConcurrentAnimatedReboot)
@@ -265,6 +266,7 @@
 * [https://github.com/smart-cloud/smart-cloud](https://github.com/smart-cloud/smart-cloud)
 * [https://github.com/shuzheng/zheng](https://github.com/shuzheng/zheng)
 * [https://github.com/kekingcn/kkFileView](https://github.com/kekingcn/kkFileView)
-
+* 博客 [https://github.com/88250/solo](https://github.com/88250/solo)
+* [https://github.com/adlered/bolo-solo](https://github.com/adlered/bolo-solo)
 
 

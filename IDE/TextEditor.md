@@ -1,8 +1,6 @@
 # TextTditor
 
-
 [[toc]]
-
 
 
 ## Flag
@@ -22,6 +20,7 @@
     * [https://github.com/nvim-treesitter](https://github.com/nvim-treesitter)
     * [https://github.com/KillTheMule/nvim-rs](https://github.com/KillTheMule/nvim-rs)
     * [https://github.com/neovide/neovide](https://github.com/neovide/neovide)
+    * [https://github.com/nshen/learn-neovim-lua](https://github.com/nshen/learn-neovim-lua)
 * [https://github.com/helix-editor/helix](https://github.com/helix-editor/helix)
 * [https://github.com/file-acomplaint/kyun](https://github.com/file-acomplaint/kyun)
 * [C#写的记事本](https://github.com/topics/notepad?l=c%23)
@@ -36,6 +35,7 @@
 * [https://github.com/textmate](https://github.com/textmate)
 * [https://github.com/Komodo/KomodoEdit](https://github.com/Komodo/KomodoEdit)
 * [https://github.com/lite-xl/lite-xl](https://github.com/lite-xl/lite-xl)
+* [https://github.com/Alexey-T/CudaText](https://github.com/Alexey-T/CudaText)
 
 
 - [https://www.texmacs.org](https://www.texmacs.org)

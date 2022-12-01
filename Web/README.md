@@ -110,6 +110,8 @@
 
 **API接口文档管理**
 
++ OpenAPI规范 [https://github.com/OAI](https://github.com/OAI)
+
 - [https://siguso.com](https://siguso.com)
 - [https://easydoc.net](https://easydoc.net)
 - [https://www.uedbox.com/share](https://www.uedbox.com/share)
@@ -118,7 +120,12 @@
 - [https://github.com/doxygen/doxygen](https://github.com/doxygen/doxygen)
 - [https://github.com/apidoc/apidoc](https://github.com/apidoc/apidoc)
 - [https://github.com/jsdoc](https://github.com/jsdoc)
-- [https://github.com/asciidoctor](https://github.com/asciidoctor)
+- [https://asciidoc.org](https://asciidoc.org)
+    - [https://sourceforge.net/projects/asciidoc](https://sourceforge.net/projects/asciidoc)
+    - [https://gitlab.eclipse.org/eclipse-wg/asciidoc-wg](https://gitlab.eclipse.org/eclipse-wg/asciidoc-wg)
+    - [https://github.com/asciidoctor](https://github.com/asciidoctor)
+    - [https://github.com/asciidoc-py/asciidoc-py](https://github.com/asciidoc-py/asciidoc-py)
+    - [https://github.com/asciidocfx/AsciidocFX](https://github.com/asciidocfx/AsciidocFX)
 - [https://github.com/thx/rap2-delos](https://github.com/thx/rap2-delos)
 - [https://github.com/YMFE/yapi](https://github.com/YMFE/yapi)
     - [https://github.com/fjc0k/YApi-X](https://github.com/fjc0k/YApi-X)
@@ -127,9 +134,13 @@
 - [https://github.com/EhsanTang/ApiManager](https://github.com/EhsanTang/ApiManager)
 - [https://github.com/smart-doc-group](https://github.com/smart-doc-group)
     - [https://gitee.com/smart-doc-team](https://gitee.com/smart-doc-team)
+- [https://github.com/apiaryio/api-blueprint](https://github.com/apiaryio/api-blueprint)
+    - [https://github.com/Aconex/drakov](https://github.com/Aconex/drakov)
+    - [https://github.com/localmed/api-mock](https://github.com/localmed/api-mock)
+    - [https://github.com/danielgtaylor/aglio](https://github.com/danielgtaylor/aglio)
 - Swift或Objective-C [https://github.com/realm/jazzy](https://github.com/realm/jazzy)
 - Java [https://github.com/Kapeli/javadocset](https://github.com/Kapeli/javadocset)
-
+- [https://github.com/MaxxtonGroup/microdocs](https://github.com/MaxxtonGroup/microdocs)
 
 
 

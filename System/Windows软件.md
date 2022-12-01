@@ -934,10 +934,6 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/open-goal/jak-project](https://github.com/open-goal/jak-project)
 
 
-- 文档转换 [https://github.com/topics/converter](https://github.com/topics/converter)
-    - [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
-
-
 + [http://www.downloadsoftware.ir](http://www.downloadsoftware.ir)
 + [https://www.0daydown.com](https://www.0daydown.com)
 + [https://downloadly.ir](https://downloadly.ir)

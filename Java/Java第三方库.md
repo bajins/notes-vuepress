@@ -17,6 +17,8 @@
 + [https://github.com/dromara](https://github.com/dromara)
 + [https://github.com/shulieTech](https://github.com/shulieTech)
 + [https://github.com/codehaus](https://github.com/codehaus)
++ [https://github.com/rohankumardubey](https://github.com/rohankumardubey)
++ [https://github.com/orgs/deepin-community](https://github.com/orgs/deepin-community)
 
 
 * [https://github.com/eclipse-ee4j/soteria](https://github.com/eclipse-ee4j/soteria)
@@ -117,6 +119,7 @@
 + [https://github.com/oblac/jodd](https://github.com/oblac/jodd)
 + [https://github.com/0opslab/opslabJutil](https://github.com/0opslab/opslabJutil)
 + [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
++ [https://github.com/avaje](https://github.com/avaje)
 + [https://github.com/paganini2008/devtools](https://github.com/paganini2008/devtools)
 + [spring framework util](https://github.com/spring-projects/spring-framework/tree/master/spring-core/src/main/java/org/springframework/util)
 + 流式断言器 [https://github.com/assertj](https://github.com/assertj)
@@ -349,8 +352,7 @@
 
 **文档**
 
-+ [https://github.com/springfox/springfox](https://github.com/springfox/springfox)
-
+* [https://github.com/springfox/springfox](https://github.com/springfox/springfox)
 * [https://github.com/topics/swagger-ui](https://github.com/topics/swagger-ui)
     * [https://github.com/swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui)
     * [https://github.com/SpringForAll/spring-boot-starter-swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)
@@ -359,22 +361,29 @@
     * knife4j [https://github.com/xiaoymin/swagger-bootstrap-ui](https://github.com/xiaoymin/swagger-bootstrap-ui)
         * [https://gitee.com/xiaoym/knife4j](https://gitee.com/xiaoym/knife4j)
     * [https://github.com/chfree/think-swagger-ui-vuele](https://github.com/chfree/think-swagger-ui-vuele)
+    * [https://github.com/MaxxtonGroup/swagger2markup](https://github.com/MaxxtonGroup/swagger2markup)
 * [https://github.com/maxcellent/javadoc.io](https://github.com/maxcellent/javadoc.io)
     * [https://www.javadoc.io](https://www.javadoc.io)
 * [https://github.com/spring-projects/spring-restdocs](https://github.com/spring-projects/spring-restdocs)
     * [https://github.com/ScaCap/spring-auto-restdocs](https://github.com/ScaCap/spring-auto-restdocs)
 * [https://github.com/YeDaxia/JApiDocs](https://github.com/YeDaxia/JApiDocs)
+
+
+
+**xml/json/word/excel**
+
 * [https://github.com/jxlsteam](https://github.com/jxlsteam)
     * [https://sourceforge.net/projects/jxls](https://sourceforge.net/projects/jxls)
 * [https://github.com/alibaba/easyexcel](https://github.com/alibaba/easyexcel)
 * [https://github.com/plutext/docx4j](https://github.com/plutext/docx4j)
-* 输出word [https://github.com/Sayi/poi-tl](https://github.com/Sayi/poi-tl)
 * [https://github.com/apache/poi](https://github.com/apache/poi)
     * [http://poi.apache.org/components/spreadsheet](http://poi.apache.org/components/spreadsheet)
     * [导出百万级数据到Excel 文件](https://blog.csdn.net/gd6321374/article/details/90417202)
     * [https://github.com/550690513/large-amount-data-export](https://github.com/550690513/large-amount-data-export)
 * [https://gitee.com/lemur/easypoi](https://gitee.com/lemur/easypoi)
 * [https://github.com/opensagres](https://github.com/opensagres)
+* [https://sourceforge.net/projects/jexcelapi](https://sourceforge.net/projects/jexcelapi)
+* 输出word [https://github.com/Sayi/poi-tl](https://github.com/Sayi/poi-tl)
 * [https://github.com/MSPaintIDE/NewOCR](https://github.com/MSPaintIDE/NewOCR)
 
 
@@ -488,7 +497,8 @@
 + [https://github.com/allwefantasy/ServiceFramework](https://github.com/allwefantasy/ServiceFramework)
 + [https://github.com/javalin](https://github.com/javalin)
 + [https://github.com/actframework](https://github.com/actframework)
-+ [https://github.com/avaje/avaje-http](https://github.com/avaje/avaje-http)
++ [https://github.com/primefaces/primefaces](https://github.com/primefaces/primefaces)
++ [https://github.com/restlet](https://github.com/restlet)
 + 工作流框架 [https://github.com/Activiti/Activiti](https://github.com/Activiti/Activiti)
     + [https://github.com/henryyan/activiti-in-action-codes](https://github.com/henryyan/activiti-in-action-codes)
     + [https://github.com/shenzhanwang/Spring-activiti](https://github.com/shenzhanwang/Spring-activiti)
@@ -502,6 +512,7 @@
     + [https://github.com/apache/orc](https://github.com/apache/orc)
 + 云原生框架 [https://github.com/quarkusio/quarkus](https://github.com/quarkusio/quarkus)
 + [https://github.com/bootique/bootique](https://github.com/bootique/bootique)
++ [https://github.com/piranhacloud](https://github.com/piranhacloud)
 + 全堆栈框架 [https://github.com/micronaut-projects](https://github.com/micronaut-projects)
 + [https://github.com/ClouGence/hasor](https://github.com/ClouGence/hasor)
 + [https://github.com/minbox-projects](https://github.com/minbox-projects)

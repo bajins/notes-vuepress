@@ -156,6 +156,7 @@
     * [https://github.com/stoneWeb/react-native-parabolic](https://github.com/stoneWeb/react-native-parabolic)
     * [https://github.com/adobe/react-spectrum](https://github.com/adobe/react-spectrum)
     * [https://github.com/infinitered](https://github.com/infinitered)
+    * [https://github.com/palantir/blueprint](https://github.com/palantir/blueprint)
 * Titanium [https://github.com/appcelerator](https://github.com/appcelerator)
 
 

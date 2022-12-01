@@ -24,7 +24,6 @@
 
 * [https://github.com/progit](https://github.com/progit)
   * [http://git-scm.com/book](http://git-scm.com/book)
-  * [https://github.com/progit/progit2-zh](https://github.com/progit/progit2-zh)
   * [https://github.com/progit-cn](https://github.com/progit-cn)
     * Pro Git 中文版（第二版） [https://progit.bootcss.com](https://progit.bootcss.com)
     * [https://codechina_dev.gitcode.host/progit2](https://codechina_dev.gitcode.host/progit2)
