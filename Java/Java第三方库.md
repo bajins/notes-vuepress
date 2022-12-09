@@ -5,6 +5,10 @@
 
 ## Flag
 
++ [现在常用的java框架有哪些?](https://www.zhihu.com/question/362802033)
++ [Java开发主流框架是什么？](https://www.zhihu.com/question/307745171)
+
+
 **[HTTP](/Java/Java笔记.md#HTTP)**
 
 
@@ -120,15 +124,23 @@
 + [https://github.com/0opslab/opslabJutil](https://github.com/0opslab/opslabJutil)
 + [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
 + [https://github.com/avaje](https://github.com/avaje)
++ [https://github.com/derive4j/derive4j](https://github.com/derive4j/derive4j)
 + [https://github.com/paganini2008/devtools](https://github.com/paganini2008/devtools)
 + [spring framework util](https://github.com/spring-projects/spring-framework/tree/master/spring-core/src/main/java/org/springframework/util)
 + 流式断言器 [https://github.com/assertj](https://github.com/assertj)
     + [https://assertj.github.io/doc](https://assertj.github.io/doc)
+    + [https://github.com/joel-costigliola/assertj](https://github.com/joel-costigliola/assertj)
     + FEST [https://github.com/alexruiz](https://github.com/alexruiz)
 + [https://github.com/hamcrest/JavaHamcrest](https://github.com/hamcrest/JavaHamcrest)
 + [https://github.com/robstoll/atrium](https://github.com/robstoll/atrium)
 + [https://github.com/archine/tools](https://github.com/archine/tools)
++ 函数增强 [https://github.com/resilience4j](https://github.com/resilience4j)
++ [https://github.com/vavr-io/vavr](https://github.com/vavr-io/vavr)
 + [https://github.com/amaembo/streamex](https://github.com/amaembo/streamex)
++ [https://github.com/poetix/protonpack](https://github.com/poetix/protonpack)
++ [https://github.com/robertvazan/noexception](https://github.com/robertvazan/noexception)
++ [https://github.com/inferred/FreeBuilder](https://github.com/inferred/FreeBuilder)
++ [https://github.com/RichardWarburton/lambda-behave](https://github.com/RichardWarburton/lambda-behave)
 + 规则引擎 [https://github.com/j-easy](https://github.com/j-easy)
     + [Java规则引擎 Easy Rules](https://www.cnblogs.com/cjsblog/archive/2020/06/11/13088017.html)
 + 并发数据结构 [https://github.com/JCTools/JCTools](https://github.com/JCTools/JCTools)
@@ -147,6 +159,7 @@
 + [https://github.com/youseries/urule](https://github.com/youseries/urule)
 + [https://github.com/aalansehaiyang/risk-talk](https://github.com/aalansehaiyang/risk-talk)
 + [https://github.com/deonwu/ik-expression](https://github.com/deonwu/ik-expression)
++ Native本地调用 [https://github.com/java-native-access/jna](https://github.com/java-native-access/jna)
 + 线程池 [https://github.com/acmenlt/dynamic-threadpool](https://github.com/acmenlt/dynamic-threadpool)
 + 线程间消息传递 [https://github.com/lmax-exchange/disruptor](https://github.com/lmax-exchange/disruptor)
 + [https://github.com/alibaba/transmittable-thread-local](https://github.com/alibaba/transmittable-thread-local)
@@ -170,7 +183,6 @@
 * 字符串编码解码 [https://github.com/shekhargulati/strman-java](https://github.com/shekhargulati/strman-java)
 * 元组 [https://github.com/javatuples](https://github.com/javatuples)
     * [在Java中使用元组类型的利器javatuples](https://blog.csdn.net/lijingjingchn/article/details/87279294)
-* 结构工具 [https://github.com/vavr-io/vavr](https://github.com/vavr-io/vavr)
 * [https://github.com/eclipse/eclipse-collections](https://github.com/eclipse/eclipse-collections)
 * [https://github.com/topics/comparator](https://github.com/topics/comparator)
 * 规则 [https://github.com/xmolecules/jmolecules](https://github.com/xmolecules/jmolecules)
@@ -199,6 +211,39 @@
     - [https://github.com/borisbrodski/sevenzipjbinding](https://github.com/borisbrodski/sevenzipjbinding)
 - [https://github.com/srikanth-lingala/zip4j](https://github.com/srikanth-lingala/zip4j)
 - 重试 [https://github.com/houbb/sisyphus](https://github.com/houbb/sisyphus)
+
+
+
++ HTTP [https://github.com/apache/httpcomponents-client](https://github.com/apache/httpcomponents-client)
++ [https://github.com/square/okhttp](https://github.com/square/okhttp)
++ [https://github.com/Kong/unirest-java](https://github.com/Kong/unirest-java)
++ [https://github.com/dromara/forest](https://github.com/dromara/forest)
++ [https://github.com/googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client)
++ [https://github.com/eclipse-ee4j/websocket-api](https://github.com/eclipse-ee4j/websocket-api)
++ [https://github.com/OpenFeign](https://github.com/OpenFeign)
++ [https://github.com/square/retrofit](https://github.com/square/retrofit)
+    + [https://github.com/LianjiaTech/retrofit-spring-boot-starter](https://github.com/LianjiaTech/retrofit-spring-boot-starter)
++ [https://github.com/ratpack/ratpack](https://github.com/ratpack/ratpack)
++ [https://github.com/TooTallNate/Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket)
++ [https://github.com/bootique/bootique](https://github.com/bootique/bootique)
++ [https://github.com/jooby-project/jooby](https://github.com/jooby-project/jooby)
++ [https://github.com/spotify/apollo](https://github.com/spotify/apollo)
++ 响应式 [https://github.com/eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x)
+    + [https://github.com/vert-x3](https://github.com/vert-x3)
+    + [http://vertx.io](http://vertx.io)
+    + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
+    + 开发者指南 [https://github.com/vertxfun/vertx-guide-for-java-devs-cn](https://github.com/vertxfun/vertx-guide-for-java-devs-cn)
+    + [https://github.com/VertxChina/vertx-translation-chinese](https://github.com/VertxChina/vertx-translation-chinese)
+    + [https://github.com/vertx-china](https://github.com/vertx-china)
++ [https://github.com/reactor](https://github.com/reactor)
+    + [翻译文档中文版](http://htmlpreview.github.io/?https://github.com/get-set/reactor-core/blob/master-zh/src/docs/index.html)
++ [https://github.com/Atmosphere](https://github.com/Atmosphere)
++ [https://github.com/netty/netty](https://github.com/netty/netty)
+    + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
+    + [https://github.com/Childe-Mu/bio-nio-aio-netty-notes](https://github.com/Childe-Mu/bio-nio-aio-netty-notes)
++ [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
++ [https://github.com/smallrye](https://github.com/smallrye)
+
 
 
 
@@ -248,28 +293,6 @@
 * 序列化 [https://github.com/protocolbuffers](https://github.com/protocolbuffers)
 * [https://github.com/protostuff](https://github.com/protostuff)
     * [https://gitlab.com/dyu](https://gitlab.com/dyu)
-
-
-> JSON-B，即Java API for JSON Binding
-
-+ [https://github.com/json-schema-org](https://github.com/json-schema-org)
-+ Jakarta JSON处理规范 [https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
-
-
-* [https://github.com/cliftonlabs/json-simple](https://github.com/cliftonlabs/json-simple)
-    * [https://github.com/fangyidong/json-simple](https://github.com/fangyidong/json-simple)
-* [https://github.com/eclipse-ee4j/yasson](https://github.com/eclipse-ee4j/yasson)
-* [https://github.com/apache/johnzon](https://github.com/apache/johnzon)
-* [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
-* [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)
-* [https://github.com/google/gson](https://github.com/google/gson)
-* [https://github.com/alibaba/fastjson](https://github.com/alibaba/fastjson)
-* [https://github.com/alibaba/fastjson2](https://github.com/alibaba/fastjson2)
-* [https://github.com/everit-org/json-schema](https://github.com/everit-org/json-schema)
-* [https://github.com/java-json-tools/json-schema-validator](https://github.com/java-json-tools/json-schema-validator)
-* 使用XPath语法取值 [https://github.com/json-path/JsonPath](https://github.com/json-path/JsonPath)
-* [https://github.com/square/moshi](https://github.com/square/moshi)
-
 
 
 
@@ -385,6 +408,7 @@
 * [https://sourceforge.net/projects/jexcelapi](https://sourceforge.net/projects/jexcelapi)
 * 输出word [https://github.com/Sayi/poi-tl](https://github.com/Sayi/poi-tl)
 * [https://github.com/MSPaintIDE/NewOCR](https://github.com/MSPaintIDE/NewOCR)
+* 转换 [https://github.com/documents4j/documents4j](https://github.com/documents4j/documents4j)
 
 
 > XML文件的解析技术有DOM和SAX方式，JAXB（Java Architecture for XML Binding) 是一个业界的标准，是一项根据`XML Schema`产生Java类的技术
@@ -412,6 +436,27 @@
 * [https://gitee.com/flashsword20/webmagic](https://gitee.com/flashsword20/webmagic)
 * [https://github.com/zhegexiaohuozi/SeimiCrawler](https://github.com/zhegexiaohuozi/SeimiCrawler)
 
+
+
+> JSON-B，即Java API for JSON Binding
+
++ [https://github.com/json-schema-org](https://github.com/json-schema-org)
++ Jakarta JSON处理规范 [https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
+
+
+* [https://github.com/cliftonlabs/json-simple](https://github.com/cliftonlabs/json-simple)
+    * [https://github.com/fangyidong/json-simple](https://github.com/fangyidong/json-simple)
+* [https://github.com/eclipse-ee4j/yasson](https://github.com/eclipse-ee4j/yasson)
+* [https://github.com/apache/johnzon](https://github.com/apache/johnzon)
+* [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
+* [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)
+* [https://github.com/google/gson](https://github.com/google/gson)
+* [https://github.com/alibaba/fastjson](https://github.com/alibaba/fastjson)
+* [https://github.com/alibaba/fastjson2](https://github.com/alibaba/fastjson2)
+* [https://github.com/everit-org/json-schema](https://github.com/everit-org/json-schema)
+* [https://github.com/java-json-tools/json-schema-validator](https://github.com/java-json-tools/json-schema-validator)
+* 使用XPath语法取值 [https://github.com/json-path/JsonPath](https://github.com/json-path/JsonPath)
+* [https://github.com/square/moshi](https://github.com/square/moshi)
 
 
 
@@ -447,6 +492,7 @@
 * [https://github.com/TNG/ArchUnit](https://github.com/TNG/ArchUnit)
 * [https://github.com/jmockit](https://github.com/jmockit)
 * [https://github.com/pact-foundation](https://github.com/pact-foundation)
+* [https://github.com/szpak/mockito-java8](https://github.com/szpak/mockito-java8)
 * 生成测试数据 [https://github.com/jsonzou/jmockdata](https://github.com/jsonzou/jmockdata)
 * [https://github.com/DiUS/java-faker](https://github.com/DiUS/java-faker)
 * [https://github.com/j-easy/easy-random](https://github.com/j-easy/easy-random)
@@ -473,20 +519,6 @@
 
 + [https://github.com/topics/nio](https://github.com/topics/nio)
 + [https://github.com/topics/java-nio](https://github.com/topics/java-nio)
-+ 响应式 [https://github.com/eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x)
-    + [https://github.com/vert-x3](https://github.com/vert-x3)
-    + [http://vertx.io](http://vertx.io)
-    + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
-    + 开发者指南 [https://github.com/vertxfun/vertx-guide-for-java-devs-cn](https://github.com/vertxfun/vertx-guide-for-java-devs-cn)
-    + [https://github.com/VertxChina/vertx-translation-chinese](https://github.com/VertxChina/vertx-translation-chinese)
-    + [https://github.com/vertx-china](https://github.com/vertx-china)
-+ WebFlux默认反应式框架 [https://github.com/reactor](https://github.com/reactor)
-    + [翻译文档中文版](http://htmlpreview.github.io/?https://github.com/get-set/reactor-core/blob/master-zh/src/docs/index.html)
-+ 响应流框架 [https://github.com/Atmosphere](https://github.com/Atmosphere)
-+ [https://github.com/netty/netty](https://github.com/netty/netty)
-+ [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
-+ [https://github.com/TooTallNate/Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket)
-+ [https://github.com/smallrye](https://github.com/smallrye)
 + Web框架 [https://github.com/perwendel/spark](https://github.com/perwendel/spark)
 + [https://github.com/topics/shiro](https://github.com/topics/shiro)
     + [https://github.com/johntostring/spring-boot-shiro](https://github.com/johntostring/spring-boot-shiro)
@@ -511,7 +543,6 @@
     + [https://github.com/apache/parquet-format](https://github.com/apache/parquet-format)
     + [https://github.com/apache/orc](https://github.com/apache/orc)
 + 云原生框架 [https://github.com/quarkusio/quarkus](https://github.com/quarkusio/quarkus)
-+ [https://github.com/bootique/bootique](https://github.com/bootique/bootique)
 + [https://github.com/piranhacloud](https://github.com/piranhacloud)
 + 全堆栈框架 [https://github.com/micronaut-projects](https://github.com/micronaut-projects)
 + [https://github.com/ClouGence/hasor](https://github.com/ClouGence/hasor)

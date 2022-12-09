@@ -99,6 +99,7 @@
 * Java Servlet 3.1 规范 [https://github.com/waylau/servlet-3.1-specification](https://github.com/waylau/servlet-3.1-specification)
 * [https://github.com/flance/java-servlet-specification-4.0](https://github.com/flance/java-servlet-specification-4.0)
 * Java 8 函数式编程 [https://github.com/glen9527/Java-8-Lambdas-zh](https://github.com/glen9527/Java-8-Lambdas-zh)
+* [https://www.manning.com/books/java-8-in-action](https://www.manning.com/books/java-8-in-action)
 * [https://github.com/CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes)
 * [https://github.com/hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer)
 * [https://github.com/bethrobson/Head-First-Java](https://github.com/bethrobson/Head-First-Java)
@@ -129,7 +130,6 @@
 * [https://github.com/stalary/Source-code-analysis](https://github.com/stalary/Source-code-analysis)
 * [https://github.com/nibnait/algorithms](https://github.com/nibnait/algorithms)
 * [https://github.com/Childe-Mu/java_notes](https://github.com/Childe-Mu/java_notes)
-* [https://github.com/Childe-Mu/bio-nio-aio-netty-notes](https://github.com/Childe-Mu/bio-nio-aio-netty-notes)
 * [https://github.com/whx123/JavaHome](https://github.com/whx123/JavaHome)
 * [https://developer.ibm.com/zh/technologies/java/gettingstarted](https://developer.ibm.com/zh/technologies/java/gettingstarted)
 * 深入理解Java函数式编程和Streams API [https://github.com/CarpenterLee/JavaLambdaInternals](https://github.com/CarpenterLee/JavaLambdaInternals)
@@ -205,7 +205,6 @@
 * [https://space.bilibili.com/435498550](https://space.bilibili.com/435498550)
 
 
-+ [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
 + [https://github.com/Wizzercn/MqttWk](https://github.com/Wizzercn/MqttWk)
 + 程序员考公务员 [https://github.com/coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy)
 

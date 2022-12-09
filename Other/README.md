@@ -58,6 +58,7 @@
 - [https://www.patreon.com](https://www.patreon.com)
 - [https://liberapay.com](https://liberapay.com)
 - [https://www.paypal.com/paypalme](https://www.paypal.com/paypalme)
+    - [https://paypal.me](https://paypal.me)
 - [https://www.paypal.com/donate](https://www.paypal.com/donate)
 - [https://ko-fi.com](https://ko-fi.com)
 - [https://flattr.com](https://flattr.com)

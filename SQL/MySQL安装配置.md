@@ -8,7 +8,6 @@
 
 * [https://github.com/mysql](https://github.com/mysql)
 * [https://dev.mysql.com/downloads/mysql](https://dev.mysql.com/downloads/mysql)
-* [https://github.com/MariaDB](https://github.com/MariaDB)
 
 
 - [如何在 Ubuntu 20.04 上安装 MySQL](https://linuxize.com/post/how-to-install-mysql-on-ubuntu-20-04)

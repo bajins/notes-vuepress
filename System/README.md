@@ -158,22 +158,41 @@
 + [https://github.com/topics/system-information](https://github.com/topics/system-information)
 
 
-* 带仪表盘的实时性能监控 [https://github.com/netdata/netdata](https://github.com/netdata/netdata)
 * [https://github.com/cppla/ServerStatus](https://github.com/cppla/ServerStatus)
 * [https://github.com/CokeMine/ServerStatus-Hotaru](https://github.com/CokeMine/ServerStatus-Hotaru)
 * [https://github.com/BotoX/ServerStatus](https://github.com/BotoX/ServerStatus)
-* [https://github.com/jimmy201602/webterminal](https://github.com/jimmy201602/webterminal)
-* [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
+* [https://github.com/netdata/netdata](https://github.com/netdata/netdata)
 * [https://github.com/newrelic](https://github.com/newrelic)
     * [https://opensource.newrelic.com](https://opensource.newrelic.com)
-* [https://github.com/pinpoint-apm/pinpoint](https://github.com/pinpoint-apm/pinpoint)
-* [https://github.com/apache/skywalking](https://github.com/apache/skywalking)
+* [https://github.com/Reportr](https://github.com/Reportr)
 
 
+
+- 堡垒机 [https://github.com/jimmy201602/webterminal](https://github.com/jimmy201602/webterminal)
 - [https://github.com/bigbully/Dapper-translation](https://github.com/bigbully/Dapper-translation)
     - [https://bigbully.github.io/Dapper-translation](https://bigbully.github.io/Dapper-translation)
 - [Linux工程师必备的88个监控工具](https://learn-linux.readthedocs.io/zh_CN/latest/maintenance/monitor/tools/80-linux-monitoring-tools.html)
 
+
+
+**APM**
+
+* [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
+* [https://github.com/pinpoint-apm/pinpoint](https://github.com/pinpoint-apm/pinpoint)
+* [https://github.com/apache/skywalking](https://github.com/apache/skywalking)
+* [https://github.com/Hygieia/Hygieia](https://github.com/Hygieia/Hygieia)
+* [https://github.com/zabbix](https://github.com/zabbix)
+    * [https://github.com/alexanderzobnin/grafana-zabbix](https://github.com/alexanderzobnin/grafana-zabbix)
+    * [https://github.com/zhausong/zabbix-book](https://github.com/zhausong/zabbix-book)
+* [https://github.com/NagiosEnterprises](https://github.com/NagiosEnterprises)
+    * [https://github.com/nagios-plugins](https://github.com/nagios-plugins)
+    * [https://www.nagios.org](https://www.nagios.org)
+    * [https://www.nagios.com](https://www.nagios.com)
+* [https://github.com/elastic/apm-server](https://github.com/elastic/apm-server)
+* [https://github.com/prometheus](https://github.com/prometheus)
+    * [Prometheus监控tomcat+jvm](https://www.cnblogs.com/you-men/p/13216976.html)
+    * [https://iqsing.github.io/categories/prometheus](https://iqsing.github.io/categories/prometheus)
+* [https://github.com/scouter-project/scouter](https://github.com/scouter-project/scouter)
 
 
 
@@ -189,32 +208,6 @@
 * [https://github.com/hestiacp/hestiacp](https://github.com/hestiacp/hestiacp)
 * [http://amh.sh](http://amh.sh)
 * [http://www.batchshell.cn](http://www.batchshell.cn)
-
-
-
-**Dashboard**
-
-* [https://github.com/keen/dashboards](https://github.com/keen/dashboards)
-* [https://github.com/Smashing/smashing](https://github.com/Smashing/smashing)
-    * [https://github.com/Shopify/dashing](https://github.com/Shopify/dashing)
-* [https://github.com/Hygieia/Hygieia](https://github.com/Hygieia/Hygieia)
-* [https://github.com/Reportr/dashboard](https://github.com/Reportr/dashboard)
-* [https://github.com/elastic/kibana](https://github.com/elastic/kibana)
-* [https://github.com/getredash/redash](https://github.com/getredash/redash)
-* [https://github.com/apache/superset](https://github.com/apache/superset)
-* [https://github.com/metabase/metabase](https://github.com/metabase/metabase)
-* [https://github.com/cube-js/cube.js](https://github.com/cube-js/cube.js)
-* [https://github.com/Freeboard/freeboard](https://github.com/Freeboard/freeboard)
-* [https://github.com/bokeh/bokeh](https://github.com/bokeh/bokeh)
-* [https://github.com/streamlit/streamlit](https://github.com/streamlit/streamlit)
-* [https://github.com/altair-viz/altair](https://github.com/altair-viz/altair)
-* [https://github.com/zabbix](https://github.com/zabbix)
-    * [https://github.com/alexanderzobnin/grafana-zabbix](https://github.com/alexanderzobnin/grafana-zabbix)
-    * [https://github.com/zhausong/zabbix-book](https://github.com/zhausong/zabbix-book)
-* [https://github.com/NagiosEnterprises](https://github.com/NagiosEnterprises)
-    * [https://github.com/nagios-plugins](https://github.com/nagios-plugins)
-    * [https://www.nagios.org](https://www.nagios.org)
-    * [https://www.nagios.com](https://www.nagios.com)
 
 
 

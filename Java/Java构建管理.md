@@ -60,6 +60,7 @@
 
 - [https://github.com/jenkinsci](https://github.com/jenkinsci)
     - [https://www.jenkins.io](https://www.jenkins.io)
+    - [https://github.com/cloudbees](https://github.com/cloudbees)
 - Jenkins前身 [https://github.com/hudson](https://github.com/hudson)
 - [https://www.jetbrains.com/zh-cn/teamcity](https://www.jetbrains.com/zh-cn/teamcity)
 - [https://www.atlassian.com/zh/software/bamboo](https://www.atlassian.com/zh/software/bamboo)
@@ -224,8 +225,10 @@
 + [https://github.com/apache/maven-wagon](https://github.com/apache/maven-wagon)
 + [https://github.com/takari/maven-wrapper](https://github.com/takari/maven-wrapper)
 + [https://github.com/mathieucarbou/license-maven-plugin](https://github.com/mathieucarbou/license-maven-plugin)
++ [https://github.com/pentaho/maven-parent-poms](https://github.com/pentaho/maven-parent-poms)
 + 构建自动清理 [https://github.com/castor-software/depclean](https://github.com/castor-software/depclean)
 + 模块化 [https://github.com/moditect/layrry](https://github.com/moditect/layrry)
++ 检测旧版API [https://github.com/gaul/modernizer-maven-plugin](https://github.com/gaul/modernizer-maven-plugin)
 
 
 

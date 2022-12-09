@@ -71,11 +71,6 @@
 + [https://db-engines.com/en/ranking](https://db-engines.com/en/ranking)
 
 
-* sqlite克隆 [https://github.com/cstack/db_tutorial](https://github.com/cstack/db_tutorial)
-* [http://www.h2database.com](http://www.h2database.com)
-* [http://hsqldb.org](http://hsqldb.org)
-* [https://github.com/FirebirdSQL/firebird](https://github.com/FirebirdSQL/firebird)
-* [https://github.com/citusdata/citus](https://github.com/citusdata/citus)
 * 分布式 [https://github.com/cockroachdb/cockroach](https://github.com/cockroachdb/cockroach)
 * [https://github.com/apache/ignite](https://github.com/apache/ignite)
     * [http://blog.nimblex.cn/archives](http://blog.nimblex.cn/archives)
