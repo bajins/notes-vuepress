@@ -1,8 +1,6 @@
 # Python爬虫
 
-
 [[toc]]
-
 
 
 ## Flag
@@ -123,6 +121,8 @@
 
 + [https://github.com/topics/selenium](https://github.com/topics/selenium)
 + [https://github.com/topics/testing](https://github.com/topics/testing)
+
+
 
 * [https://github.com/SeleniumHQ](https://github.com/SeleniumHQ)
     * [https://selenium.dev/documentation/zh-cn](https://selenium.dev/documentation/zh-cn)
@@ -294,12 +294,13 @@ driver.execute_script( "return document.documentElement.outerHTML" )
 
 
 
-## m3u8解析下载解密合并
+## m3u8解析下载
 
 > M3U8有两层：第一层存放的是流信息（EXT-X-STREAM-INF）和第二层的下载链接，第二层才是存放加密（EXT-X-KEY）和`ts`文件的下载地址
 
 * [https://github.com/globocom/m3u8](https://github.com/globocom/m3u8)
 * [https://github.com/canhlinh/hlsdl](https://github.com/canhlinh/hlsdl)
+* [https://github.com/HeiSir2014/M3U8-Downloader](https://github.com/HeiSir2014/M3U8-Downloader)
 * [什么是m3u8文件](https://www.jianshu.com/p/2a5403234b14)
 * [加密的ts+m3u8合并](https://www.junmajinlong.com/others/ts_m3u8)
 * [关于m3u8格式的视频文件ts转mp4下载和key加密问题](https://www.cnblogs.com/String-Lee/p/11391893.html)

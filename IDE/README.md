@@ -86,6 +86,19 @@
 
 
 
+## 版本控制
+
+* [https://www.perforce.com](https://www.perforce.com)
+* [https://www.mercurial-scm.org](https://www.mercurial-scm.org)
+* [https://www.nongnu.org/cvs](https://www.nongnu.org/cvs)
+* [https://bazaar.canonical.com](https://bazaar.canonical.com)
+* [https://github.com/bytebase/bytebase](https://github.com/bytebase/bytebase)
+* [https://nest.pijul.com/pijul/pijul](https://nest.pijul.com/pijul/pijul)
+  * [https://pijul.org](https://pijul.org)
+
+
+
+
 ## Online IDE
 
 > Web(Cloud)IDE
@@ -206,7 +219,6 @@
 * [https://www.razorsql.com](https://www.razorsql.com)
 * [https://www.aquafold.com](https://www.aquafold.com)
 * [https://github.com/TablePlus](https://github.com/TablePlus)
-* [https://github.com/trinodb/trino](https://github.com/trinodb/trino)
 * [https://github.com/ocelot-inc/ocelotgui](https://github.com/ocelot-inc/ocelotgui)
 * [https://github.com/beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)
 * Python 自动提示[https://github.com/dbcli](https://github.com/dbcli)
@@ -274,6 +286,7 @@
 
 * [https://github.com/jgraph/drawio](https://github.com/jgraph/drawio)
     * [https://app.diagrams.net](https://app.diagrams.net)
+* [https://github.com/umlet/umlet](https://github.com/umlet/umlet)
 * [https://www.processon.com](https://www.processon.com)
 * [https://gitmind.cn](https://gitmind.cn)
 
@@ -356,6 +369,7 @@
 - Java [https://github.com/eclipse/eclipse.jdt.ls](https://github.com/eclipse/eclipse.jdt.ls)
 - [https://github.com/eclipse/lsp4e](https://github.com/eclipse/lsp4e)
 - [https://github.com/ycm-core/ycmd](https://github.com/ycm-core/ycmd)
+- [https://github.com/Genuitec](https://github.com/Genuitec)
 
 
 

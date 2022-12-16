@@ -24,6 +24,12 @@
 > webview绑定（macOS 上利用 WebKit，在 Windows 上利用 WebView2，在 Linux 上利用 WebKitGTK）、内嵌JS引擎、
 > 原生渲染（weex/react native、flutter、编译转码），复杂度依次降低，渲染性能依次上升
 
+
++ [https://github.com/topics/gui](https://github.com/topics/gui)
++ [https://github.com/topics/widget](https://github.com/topics/widget)
++ [https://github.com/topics/qt5](https://github.com/topics/qt5)
+
+
 * [跨平台解决方案的技术分析](https://blog.csdn.net/LuckyWinty/article/details/119657634)
 * Java/Kotlin [https://github.com/codenameone](https://github.com/codenameone)
 * C# [https://github.com/xamarin](https://github.com/xamarin)
@@ -49,6 +55,7 @@
 * [https://github.com/revery-ui/revery](https://github.com/revery-ui/revery)
     * [https://github.com/reasonml/reason](https://github.com/reasonml/reason)
 * [https://github.com/fltk](https://github.com/fltk)
+* [https://github.com/nodegui](https://github.com/nodegui)
 * Rust [https://github.com/yewstack/yew](https://github.com/yewstack/yew)
 * [https://github.com/iced-rs/iced](https://github.com/iced-rs/iced)
 * [https://github.com/fltk-rs](https://github.com/fltk-rs)
@@ -333,6 +340,7 @@
 * [https://github.com/bifan-wei/HwTxtReader](https://github.com/bifan-wei/HwTxtReader)
 * [https://github.com/smuyyh/BookReader](https://github.com/smuyyh/BookReader)
 * [https://github.com/newbiechen1024/NovelReader](https://github.com/newbiechen1024/NovelReader)
+* [https://github.com/gmathi/NovelLibrary](https://github.com/gmathi/NovelLibrary)
 
 
 ### IOS

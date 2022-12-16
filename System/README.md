@@ -149,6 +149,7 @@
 * [https://github.com/google/quiche](https://github.com/google/quiche)(https://github.com/google/quiche)
 * [https://github.com/lucas-clemente/quic-go](https://github.com/lucas-clemente/quic-go)
 * [https://github.com/letsencrypt/challtestsrv](https://github.com/letsencrypt/challtestsrv)
+* [https://github.com/rthalley/dnspython](https://github.com/rthalley/dnspython)
 
 
 
@@ -165,6 +166,9 @@
 * [https://github.com/newrelic](https://github.com/newrelic)
     * [https://opensource.newrelic.com](https://opensource.newrelic.com)
 * [https://github.com/Reportr](https://github.com/Reportr)
+* [https://github.com/tracecompass](https://github.com/tracecompass)
+    * [https://github.com/lttng](https://github.com/lttng)
+    * [https://github.com/eclipse-cdt-cloud](https://github.com/eclipse-cdt-cloud)
 
 
 

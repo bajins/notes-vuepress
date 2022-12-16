@@ -479,9 +479,14 @@
 + [https://github.com/topics/screen-capture](https://github.com/topics/screen-capture)
 + [https://github.com/topics/screencast](https://github.com/topics/screencast)
 + [https://github.com/topics/screenshot](https://github.com/topics/screenshot)
++ [https://github.com/topics/image-editing](https://github.com/topics/image-editing)
++ [https://github.com/topics/image-processing](https://github.com/topics/image-processing)
++ [https://github.com/topics/capture](https://github.com/topics/capture)
+
 
 * [https://github.com/flameshot-org/flameshot](https://github.com/flameshot-org/flameshot)
 * [https://github.com/greenshot](https://github.com/greenshot)
+* [https://github.com/ckaiser/Lightscreen](https://github.com/ckaiser/Lightscreen)
 * Lightshot [https://app.prntscr.com](https://app.prntscr.com)
 * [https://github.com/Snipaste](https://github.com/Snipaste)
     * [https://www.snipaste.com](https://www.snipaste.com)
@@ -493,13 +498,11 @@
 
 * 官网 [https://www.faststone.org](https://www.faststone.org)
 * 官网被屏蔽，没有被屏蔽的下载地址（最新版本去掉版本号）：
-    * `http://www.faststonesoft.net/DN/FSCaptureSetup版本号.exe`
+    * `https://www.faststonesoft.net/DN/FSCaptureSetup版本号.exe`
     * `https://www.faststonesoft.net/DN/FSCapture版本号.zip`
     * `https://www.faststonesoft.net/DN/FSCaptureSetup版本号.zip`
 
 > 使用说明: 先安装`FSCaptureSetup`程序，安装完成后先不要运行，把下载的汉化文件覆盖到安装目录然后再运行
-
-- 注册码
 
 ```
 用户名：1028 
@@ -555,9 +558,10 @@
 * [Advanced Installer官方](https://www.advancedinstaller.com/download.html)
 * [https://github.com/upx/upx](https://github.com/upx/upx)
     * [UPXShell汉化版](http://blog.sina.com.cn/s/blog_89a729a40102wjwo.html)
-* [https://jrsoftware.org](https://jrsoftware.org)
+* Inno Setup [https://jrsoftware.org](https://jrsoftware.org)
     * [InnoSetup中文定制版](http://blog.sina.com.cn/s/blog_89a729a40102xuy4.html)
     * [https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation)
+    * [https://sourceforge.net/projects/istool](https://sourceforge.net/projects/istool)
 
 - [https://github.com/wixtoolset/wix3](https://github.com/wixtoolset/wix3)
     - [https://wixtoolset.org](https://wixtoolset.org)

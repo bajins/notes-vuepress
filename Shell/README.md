@@ -9,6 +9,9 @@
 
 - 命令行参考大全（Linux、macOS、CMD、PowerShell、VB Script）[https://ss64.com](https://ss64.com)
 - [https://www.robvanderwoude.com](https://www.robvanderwoude.com)
+- [https://github.com/jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)
+- [https://github.com/idank/explainshell](https://github.com/idank/explainshell)
+- [https://www.shellscript.sh](https://www.shellscript.sh)
 - GUI [什么是X11-Forwarding](https://blog.csdn.net/weixin_41668084/article/details/113361765)
 
 

@@ -67,8 +67,14 @@
 * [https://github.com/visionmedia](https://github.com/visionmedia)
 * CMS [https://github.com/strapi/strapi](https://github.com/strapi/strapi)
 * ORM [https://github.com/prisma/prisma](https://github.com/prisma/prisma)
-* 解析器、压缩器、压缩器和美化 [https://github.com/mishoo/UglifyJS](https://github.com/mishoo/UglifyJS)
+* [https://github.com/jugglingdb](https://github.com/jugglingdb)
+* [https://github.com/dresende/node-orm2](https://github.com/dresende/node-orm2)
+* [https://github.com/sequelize/sequelize](https://github.com/sequelize/sequelize)
+* [https://github.com/vincit/objection.js](https://github.com/vincit/objection.js)
+* [https://github.com/bookshelf/bookshelf](https://github.com/bookshelf/bookshelf)
+* [https://github.com/balderdashy/waterline](https://github.com/balderdashy/waterline)
 * SQL查询 [https://github.com/knex/knex](https://github.com/knex/knex)
+* 解析器、压缩器、压缩器和美化 [https://github.com/mishoo/UglifyJS](https://github.com/mishoo/UglifyJS)
 * 日志 [https://github.com/trentm/node-bunyan](https://github.com/trentm/node-bunyan)
 * [https://github.com/pillarjs/send](https://github.com/pillarjs/send)
 * 断言 [https://github.com/chaijs](https://github.com/chaijs)
@@ -84,6 +90,8 @@
 * 特性开关 [https://github.com/Unleash/unleash](https://github.com/Unleash/unleash)
 * Excel [https://github.com/optilude/xlsx-template](https://github.com/optilude/xlsx-template)
 * 分布式ID [https://github.com/cloudyan/snowflake](https://github.com/cloudyan/snowflake)
+* REST [https://github.com/restify](https://github.com/restify)
+* [https://github.com/senchalabs/connect](https://github.com/senchalabs/connect)
 
 
 

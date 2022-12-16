@@ -23,6 +23,8 @@
 + [https://github.com/codehaus](https://github.com/codehaus)
 + [https://github.com/rohankumardubey](https://github.com/rohankumardubey)
 + [https://github.com/orgs/deepin-community](https://github.com/orgs/deepin-community)
++ [https://github.com/xerial](https://github.com/xerial)
++ [https://github.com/Willena](https://github.com/Willena)
 
 
 * [https://github.com/eclipse-ee4j/soteria](https://github.com/eclipse-ee4j/soteria)
@@ -89,6 +91,9 @@
 
 **Cache**
 
++ [https://github.com/search?q=bitmap](https://github.com/search?q=bitmap)
+
+
 * [https://github.com/ehcache](https://github.com/ehcache)
     - [http://www.ehcache.org/apidocs](http://www.ehcache.org/apidocs)
     - [Ehcache3配置使用](https://segmentfault.com/a/1190000022502212)
@@ -102,6 +107,7 @@
 * 存储和检索海量数据 [https://github.com/dCache/dcache](https://github.com/dCache/dcache)
 * 高效键值对存储 [https://github.com/OpenHFT/Chronicle-Map](https://github.com/OpenHFT/Chronicle-Map)
 * Redis云管理平台 [https://github.com/sohutv/cachecloud](https://github.com/sohutv/cachecloud)
+* 压缩位图 [https://github.com/RoaringBitmap](https://github.com/RoaringBitmap)
 
 
 
@@ -126,6 +132,7 @@
 + [https://github.com/avaje](https://github.com/avaje)
 + [https://github.com/derive4j/derive4j](https://github.com/derive4j/derive4j)
 + [https://github.com/paganini2008/devtools](https://github.com/paganini2008/devtools)
++ [https://github.com/YattaSolutions](https://github.com/YattaSolutions)
 + [spring framework util](https://github.com/spring-projects/spring-framework/tree/master/spring-core/src/main/java/org/springframework/util)
 + 流式断言器 [https://github.com/assertj](https://github.com/assertj)
     + [https://assertj.github.io/doc](https://assertj.github.io/doc)
@@ -284,6 +291,7 @@
     * [JavaCC官方入门指南-概述](https://www.cnblogs.com/suhaha/p/11733487.html)
 * [https://github.com/Elzawawy/java-bytecode-generator](https://github.com/Elzawawy/java-bytecode-generator)
 * JAVA programming ASSISTant [https://github.com/jboss-javassist](https://github.com/jboss-javassist)
+* [https://github.com/jbosstools](https://github.com/jbosstools)
 * 反射工具包 [https://github.com/ronmamo/reflections](https://github.com/ronmamo/reflections)
 * [https://github.com/EsotericSoftware/reflectasm](https://github.com/EsotericSoftware/reflectasm)
 * 可缓存反射 [https://github.com/OxideWaveLength/Java-BetterReflection](https://github.com/OxideWaveLength/Java-BetterReflection)
@@ -406,9 +414,11 @@
 * [https://gitee.com/lemur/easypoi](https://gitee.com/lemur/easypoi)
 * [https://github.com/opensagres](https://github.com/opensagres)
 * [https://sourceforge.net/projects/jexcelapi](https://sourceforge.net/projects/jexcelapi)
+* [https://github.com/aspose](https://github.com/aspose)
 * 输出word [https://github.com/Sayi/poi-tl](https://github.com/Sayi/poi-tl)
 * [https://github.com/MSPaintIDE/NewOCR](https://github.com/MSPaintIDE/NewOCR)
 * 转换 [https://github.com/documents4j/documents4j](https://github.com/documents4j/documents4j)
+* [https://sourceforge.net/projects/csvjdbc](https://sourceforge.net/projects/csvjdbc)
 
 
 > XML文件的解析技术有DOM和SAX方式，JAXB（Java Architecture for XML Binding) 是一个业界的标准，是一项根据`XML Schema`产生Java类的技术
@@ -422,6 +432,7 @@
 * [https://github.com/x-stream/xstream](https://github.com/x-stream/xstream)
 * 爬虫 [https://github.com/bonigarcia/webdrivermanager](https://github.com/bonigarcia/webdrivermanager)
     * [推荐一些优秀的开源Java爬虫项目](https://zhuanlan.zhihu.com/p/24844250)
+* [https://github.com/Ardesco/Selenium-Maven-Template](https://github.com/Ardesco/Selenium-Maven-Template)
 * [https://github.com/fanyong920/jvppeteer](https://github.com/fanyong920/jvppeteer)
 * [https://github.com/kklisura/chrome-devtools-java-client](https://github.com/kklisura/chrome-devtools-java-client)
 * [https://github.com/assertthat/selenium-shutterbug](https://github.com/assertthat/selenium-shutterbug)
@@ -487,6 +498,7 @@
 * [https://github.com/jmock-developers](https://github.com/jmock-developers)
 * [https://github.com/cbeust/testng](https://github.com/cbeust/testng)
 * [https://github.com/google/truth](https://github.com/google/truth)
+* [https://github.com/arquillian](https://github.com/arquillian)
 * [https://github.com/awaitility/awaitility](https://github.com/awaitility/awaitility)
 * [https://github.com/wiremock/wiremock](https://github.com/wiremock/wiremock)
 * [https://github.com/TNG/ArchUnit](https://github.com/TNG/ArchUnit)

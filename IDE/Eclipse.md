@@ -205,6 +205,7 @@
 - `Window` -> `Preferences` -> `Java` -> `Editor` -> `Content Assist`
     - `Auto Activation` 下的` Auto Activation triggers for java` 填入 `._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`
     - 解决输入`=`或`;`变量自动补全问题：勾选 `Disable insertion triggers except 'Enter'` (按<kbd>Enter</kbd>键才自动补全)
+    - 展开后选中`Advanced` 勾选所有，其中最重要的是`Java Proposals`
 - XML自动补全 `Windows` -> `preferance` -> `XML` -> `XML Files` -> `Editor` -> `Content Assist` -> `Auto Activation`下面的
 `Prompt when these characters are inserted` 填入 `<=:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ `（注意后面有一个空格）
 
@@ -413,6 +414,8 @@
 + `-vmargs -DproxySet=true -DproxyHost=aProxyAddress -DproxyPort=aProxyPort` 启动代理参数
 
 
+- [https://marketplace.eclipse.org/metrics/successful_installs/last30days](https://marketplace.eclipse.org/metrics/successful_installs/last30days)
+- [https://github.com/de-jcup](https://github.com/de-jcup)
 - [https://github.com/eclipse/wildwebdeveloper](https://github.com/eclipse/wildwebdeveloper)
    - Mars之后版本不再集成支持JavaScript需要安装插件，参考[Tern Eclipse IDE](https://marketplace.eclipse.org/content/tern-eclipse-ide)
    - [https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0](https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0)
@@ -435,6 +438,14 @@
 - [https://github.com/qiangitchen/tlv8ide](https://github.com/qiangitchen/tlv8ide)
 - [https://github.com/gildur/SimplePropertiesEditor](https://github.com/gildur/SimplePropertiesEditor)
 - [https://github.com/FeatureIDE/FeatureIDE](https://github.com/FeatureIDE/FeatureIDE)
+- [https://github.com/nodj/AutoDeriv](https://github.com/nodj/AutoDeriv)
+- [https://www.esito.no/en/promo-g9](https://www.esito.no/en/promo-g9)
+- 文本编辑器 [https://github.com/fabioz/LiClipseText](https://github.com/fabioz/LiClipseText)
+- GUI设计 [https://github.com/eclipse/windowbuilder](https://github.com/eclipse/windowbuilder)
+- [https://community.jaspersoft.com/project/jaspersoft-studio](https://community.jaspersoft.com/project/jaspersoft-studio)
+- 开发风格 [https://www.genuitec.com/products/devstyle](https://www.genuitec.com/products/devstyle)
+
+
 
 
 **反编译Decompiler**

@@ -8,6 +8,8 @@
 > 对象关系映射（Object Relational Mapping，简称ORM）是通过使用描述对象和数据库之间映射的元数据，
 > 将面向对象语言程序中的对象自动持久化到关系数据库中。
 
+
+* [https://sourceforge.net/projects/jpox](https://sourceforge.net/projects/jpox)
 * [Java，JDBC和MySQL对应数据类型](https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-reference-type-conversions.html)
 * [http://www.squirrelsql.org](http://www.squirrelsql.org)
 * [http://java-source.net/open-source/sql-clients](http://java-source.net/open-source/sql-clients)

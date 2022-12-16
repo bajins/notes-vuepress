@@ -218,6 +218,9 @@
 
 ## 第三方依赖
 
++ [https://github.com/search?q=vertica](https://github.com/search?q=vertica)
+
+
 * [https://github.com/Baseflow](https://github.com/Baseflow)
 * [https://github.com/getActivity](https://github.com/getActivity)
 * [https://github.com/LiushuiXiaoxia](https://github.com/LiushuiXiaoxia)
@@ -270,6 +273,7 @@
 * [https://github.com/majidgolshadi/Android-Download-Manager-Pro](https://github.com/majidgolshadi/Android-Download-Manager-Pro)
 * 蓝牙 [https://github.com/BasicAirData/BluetoothHelper](https://github.com/BasicAirData/BluetoothHelper)
 * 图像裁剪 [https://github.com/mike14u/croperino](https://github.com/mike14u/croperino)
+* 进度 [https://github.com/lzyzsd/CircleProgress](https://github.com/lzyzsd/CircleProgress)
 
 
 

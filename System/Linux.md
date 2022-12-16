@@ -16,8 +16,6 @@
 + [https://github.com/GTFOBins](https://github.com/GTFOBins)
 + [https://github.com/dunwu/linux-tutorial](https://github.com/dunwu/linux-tutorial)
 + [https://github.com/jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command)
-+ [https://github.com/jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)
-+ [https://github.com/idank/explainshell](https://github.com/idank/explainshell)
 + [https://www.linuxcool.com](https://www.linuxcool.com)
 + [https://man.linuxde.net](https://man.linuxde.net)
 + [Cron 定时任务表达式手册](https://www.gairuo.com/p/cron-expression-sheet)
@@ -35,14 +33,6 @@
 * [vi 编辑器使用向导](https://wiki.jikexueyuan.com/project/unix/the-vi-editor.html)
 * [Vim 从小白到入门](https://wsgzao.github.io/post/vim)
 * [https://vimjc.com/archives](https://vimjc.com/archives)
-
-
-- 腾讯云动手实验室 [https://cloud.tencent.com/developer/labs](https://cloud.tencent.com/developer/labs)
-- 阿里云体验实验室 [https://developer.aliyun.com/adc/labs](https://developer.aliyun.com/adc/labs)
-- 阿里云知行实验室 [https://start.aliyun.com](https://start.aliyun.com)
-- 华为云沙箱实验室 [https://lab.huaweicloud.com](https://lab.huaweicloud.com)
-
-
 * [ubuntu版本系统升级](https://blog.csdn.net/qq_40907977/article/details/106407373)
 
 
@@ -128,6 +118,7 @@
 - [https://download.savannah.gnu.org](https://download.savannah.gnu.org)
 - [https://sourceforge.net/projects/pkgconfiglite](https://sourceforge.net/projects/pkgconfiglite)
 - [https://sourceforge.net/projects/lcms](https://sourceforge.net/projects/lcms)
+- [https://github.com/Xfennec/progress](https://github.com/Xfennec/progress)
 
 
 
