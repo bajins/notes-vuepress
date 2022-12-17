@@ -30,6 +30,7 @@
     * [https://www.oracle.com/cn/java/technologies/downloads](https://www.oracle.com/cn/java/technologies/downloads)
 * ~~[https://github.com/AdoptOpenJDK](https://github.com/AdoptOpenJDK)~~
     * ~~[https://adoptopenjdk.net](https://adoptopenjdk.net)~~
+    * [https://github.com/Adopt-a-JSR](https://github.com/Adopt-a-JSR)
 * [https://github.com/adoptium](https://github.com/adoptium)
     * [https://adoptium.net](https://adoptium.net)
 * [https://github.com/corretto](https://github.com/corretto)

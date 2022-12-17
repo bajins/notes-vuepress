@@ -385,6 +385,7 @@
 
 * [https://github.com/animate-css/animate.css](https://github.com/animate-css/animate.css)
 * [https://github.com/juliangarnier/anime](https://github.com/juliangarnier/anime)
+* [https://github.com/greensock/GSAP](https://github.com/greensock/GSAP)
 * 3D库 [https://github.com/mrdoob/three.js](https://github.com/mrdoob/three.js)
 * 3D地球和2D地图 [https://github.com/CesiumGS/cesium](https://github.com/CesiumGS/cesium)
 * 2D渲染器 [https://github.com/pixijs/pixijs](https://github.com/pixijs/pixijs)

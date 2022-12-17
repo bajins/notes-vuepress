@@ -25,6 +25,9 @@
 + [https://github.com/orgs/deepin-community](https://github.com/orgs/deepin-community)
 + [https://github.com/xerial](https://github.com/xerial)
 + [https://github.com/Willena](https://github.com/Willena)
++ [https://github.com/OpenHFT](https://github.com/OpenHFT)
+    + [https://github.com/peter-lawrey](https://github.com/peter-lawrey)
++ [https://github.com/aalmiray](https://github.com/aalmiray)
 
 
 * [https://github.com/eclipse-ee4j/soteria](https://github.com/eclipse-ee4j/soteria)
@@ -40,7 +43,6 @@
 * 图形验证码 [https://github.com/whvcse/EasyCaptcha](https://github.com/whvcse/EasyCaptcha)
 * [https://github.com/orclight/jcaptcha](https://github.com/orclight/jcaptcha)
 * 依赖关系注入器 [https://github.com/google/dagger](https://github.com/google/dagger)
-* 规划引擎 [https://github.com/kiegroup](https://github.com/kiegroup)
 * [https://github.com/MyCATApache](https://github.com/MyCATApache)
 * 验证码 [https://github.com/ramostear/Happy-Captcha](https://github.com/ramostear/Happy-Captcha)
 * 邮件 [https://github.com/eclipse-ee4j/mail](https://github.com/eclipse-ee4j/mail)
@@ -141,6 +143,7 @@
 + [https://github.com/hamcrest/JavaHamcrest](https://github.com/hamcrest/JavaHamcrest)
 + [https://github.com/robstoll/atrium](https://github.com/robstoll/atrium)
 + [https://github.com/archine/tools](https://github.com/archine/tools)
++ [https://github.com/moditect](https://github.com/moditect)
 + 函数增强 [https://github.com/resilience4j](https://github.com/resilience4j)
 + [https://github.com/vavr-io/vavr](https://github.com/vavr-io/vavr)
 + [https://github.com/amaembo/streamex](https://github.com/amaembo/streamex)
@@ -151,6 +154,7 @@
 + 规则引擎 [https://github.com/j-easy](https://github.com/j-easy)
     + [Java规则引擎 Easy Rules](https://www.cnblogs.com/cjsblog/archive/2020/06/11/13088017.html)
 + 并发数据结构 [https://github.com/JCTools/JCTools](https://github.com/JCTools/JCTools)
++ [https://github.com/real-logic](https://github.com/real-logic)
 + [https://github.com/carrotsearch/hppc](https://github.com/carrotsearch/hppc)
 + 特性开关 [https://github.com/ff4j/ff4j](https://github.com/ff4j/ff4j)
     + [FF4J（特性框架）简介及入门](https://blog.csdn.net/MichaelJY1991/article/details/83510360)
@@ -167,9 +171,11 @@
 + [https://github.com/aalansehaiyang/risk-talk](https://github.com/aalansehaiyang/risk-talk)
 + [https://github.com/deonwu/ik-expression](https://github.com/deonwu/ik-expression)
 + Native本地调用 [https://github.com/java-native-access/jna](https://github.com/java-native-access/jna)
++ [https://github.com/jnr](https://github.com/jnr)
 + 线程池 [https://github.com/acmenlt/dynamic-threadpool](https://github.com/acmenlt/dynamic-threadpool)
 + 线程间消息传递 [https://github.com/lmax-exchange/disruptor](https://github.com/lmax-exchange/disruptor)
 + [https://github.com/alibaba/transmittable-thread-local](https://github.com/alibaba/transmittable-thread-local)
++ 地理哈希 [https://github.com/kungfoo/geohash-java](https://github.com/kungfoo/geohash-java)
 
 
 
@@ -192,6 +198,7 @@
     * [在Java中使用元组类型的利器javatuples](https://blog.csdn.net/lijingjingchn/article/details/87279294)
 * [https://github.com/eclipse/eclipse-collections](https://github.com/eclipse/eclipse-collections)
 * [https://github.com/topics/comparator](https://github.com/topics/comparator)
+* [https://github.com/magicwerk/brownies-collections](https://github.com/magicwerk/brownies-collections)
 * 规则 [https://github.com/xmolecules/jmolecules](https://github.com/xmolecules/jmolecules)
 * 比较文本差异 [https://github.com/java-diff-utils/java-diff-utils](https://github.com/java-diff-utils/java-diff-utils)
 * [https://github.com/ejlchina](https://github.com/ejlchina)
@@ -285,15 +292,17 @@
 * [https://github.com/javaparser](https://github.com/javaparser)
 * [https://github.com/square/javapoet](https://github.com/square/javapoet)
 * [https://github.com/raphw/byte-buddy](https://github.com/raphw/byte-buddy)
-* [https://github.com/topics/javacc](https://github.com/topics/javacc)
+* 语词法分析 [https://github.com/topics/javacc](https://github.com/topics/javacc)
     * [https://github.com/javacc/javacc](https://github.com/javacc/javacc)
     * [https://github.com/javacc21/javacc21](https://github.com/javacc21/javacc21)
     * [JavaCC官方入门指南-概述](https://www.cnblogs.com/suhaha/p/11733487.html)
+* [https://github.com/ftomassetti/JavaCC2ANTLR](https://github.com/ftomassetti/JavaCC2ANTLR)
 * [https://github.com/Elzawawy/java-bytecode-generator](https://github.com/Elzawawy/java-bytecode-generator)
 * JAVA programming ASSISTant [https://github.com/jboss-javassist](https://github.com/jboss-javassist)
 * [https://github.com/jbosstools](https://github.com/jbosstools)
 * 反射工具包 [https://github.com/ronmamo/reflections](https://github.com/ronmamo/reflections)
 * [https://github.com/EsotericSoftware/reflectasm](https://github.com/EsotericSoftware/reflectasm)
+* [https://github.com/leangen/geantyref](https://github.com/leangen/geantyref)
 * 可缓存反射 [https://github.com/OxideWaveLength/Java-BetterReflection](https://github.com/OxideWaveLength/Java-BetterReflection)
 * 属性比对器 [https://github.com/dadiyang/equator](https://github.com/dadiyang/equator)
 * 对象比较属性和审核 [https://github.com/javers/javers](https://github.com/javers/javers)
@@ -342,7 +351,6 @@
 + [https://github.com/topics/time](https://github.com/topics/time)
 
 
-* [https://github.com/apache/shardingsphere-elasticjob](https://github.com/apache/shardingsphere-elasticjob)
 * [https://github.com/apache/dolphinscheduler](https://github.com/apache/dolphinscheduler)
 * [https://github.com/attemper/attemper](https://github.com/attemper/attemper)
 * [https://github.com/azkaban/azkaban](https://github.com/azkaban/azkaban)
@@ -466,8 +474,8 @@
 * [https://github.com/alibaba/fastjson2](https://github.com/alibaba/fastjson2)
 * [https://github.com/everit-org/json-schema](https://github.com/everit-org/json-schema)
 * [https://github.com/java-json-tools/json-schema-validator](https://github.com/java-json-tools/json-schema-validator)
-* 使用XPath语法取值 [https://github.com/json-path/JsonPath](https://github.com/json-path/JsonPath)
 * [https://github.com/square/moshi](https://github.com/square/moshi)
+* 使用XPath语法取值 [https://github.com/json-path/JsonPath](https://github.com/json-path/JsonPath)
 
 
 
@@ -549,6 +557,7 @@
 + [https://github.com/kiegroup/jbpm](https://github.com/kiegroup/jbpm)
 + [https://github.com/flowable](https://github.com/flowable)
 + [https://github.com/espertechinc/esper](https://github.com/espertechinc/esper)
++ 规划引擎 [https://github.com/kiegroup](https://github.com/kiegroup)
 + 大数据 [https://github.com/apache/hadoop](https://github.com/apache/hadoop)
     + Spark、Flink、Hive、MapReduce、Presto、Impala
     + [https://github.com/apache/parquet-mr](https://github.com/apache/parquet-mr)

@@ -5,16 +5,20 @@
 
 ## Flag
 
++ [https://github.com/kordamp/gm](https://github.com/kordamp/gm)
 + [https://github.com/gradle/gradle](https://github.com/gradle/gradle)
     + [https://github.com/johnrengelman/shadow](https://github.com/johnrengelman/shadow)
     + 自定义运行时映像 [https://github.com/beryx](https://github.com/beryx)
     + 创建支持包重定位 [https://github.com/johnrengelman/shadow](https://github.com/johnrengelman/shadow)
     + [https://github.com/Omico/Gradm](https://github.com/Omico/Gradm)
+    + [https://github.com/gdubw/gng](https://github.com/gdubw/gng)
 + [https://github.com/package-url](https://github.com/package-url)
 + [https://github.com/topics/bazel](https://github.com/topics/bazel)
 + [https://github.com/bazelbuild](https://github.com/bazelbuild)
 + [https://github.com/sbt/sbt](https://github.com/sbt/sbt)
 + [https://github.com/camunda](https://github.com/camunda)
++ [https://github.com/jbangdev](https://github.com/jbangdev)
++ [https://github.com/sormuras/bach](https://github.com/sormuras/bach)
 + 增量构建 [https://github.com/sakerbuild/saker.build](https://github.com/sakerbuild/saker.build)
 + [https://github.com/sakerbuild/saker.java.compiler](https://github.com/sakerbuild/saker.java.compiler)
 + 打包 [https://github.com/shevek/jarjar](https://github.com/shevek/jarjar)
@@ -68,6 +72,7 @@
 - [https://github.com/ansible/ansible](https://github.com/ansible/ansible)
 - 自动化部署 [https://github.com/dreamans/syncd](https://github.com/dreamans/syncd)
 - [https://github.com/jitpack/jitpack.io](https://github.com/jitpack/jitpack.io)
+- [https://github.com/jreleaser](https://github.com/jreleaser)
 
 
 

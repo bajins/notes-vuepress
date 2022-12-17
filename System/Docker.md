@@ -36,7 +36,6 @@
 * [https://github.com/yeasy/docker_practice](https://github.com/yeasy/docker_practice)
 
 
-- 测试容器 [https://github.com/testcontainers](https://github.com/testcontainers)
 - 自己动手写docker [https://github.com/xianlubird/mydocker](https://github.com/xianlubird/mydocker)
 - 云原生构建包 [https://github.com/buildpacks](https://github.com/buildpacks)
 - 构建应用程序 [https://github.com/paketo-buildpacks](https://github.com/paketo-buildpacks)

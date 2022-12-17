@@ -18,6 +18,10 @@
 * [https://wizardforcel.gitbooks.io/w3school-sql](https://wizardforcel.gitbooks.io/w3school-sql)
 * HiveSQL教程 [https://www.gairuo.com/p/hive-sql-tutorial](https://www.gairuo.com/p/hive-sql-tutorial)
 * 加密 [https://github.com/hashicorp/vault](https://github.com/hashicorp/vault)
+* 通用SQL解析 [https://www.sqlparser.com](https://www.sqlparser.com)
+* [https://github.com/search?p=9&q=data+to+sql](https://github.com/search?p=9&q=data+to+sql)
+* [https://github.com/search?q=generate+sql](https://github.com/search?l=Java&q=generate+sql)
+
 
 
 **备份/迁移/同步/导入导出**
@@ -38,6 +42,7 @@
 - [https://gitee.com/ghi/dbsyncer](https://gitee.com/ghi/dbsyncer)
 - [https://github.com/jeessy2/backup-x](https://github.com/jeessy2/backup-x)
 - [https://github.com/jeessy2/backup-db](https://github.com/jeessy2/backup-db)
+- [https://github.com/database-mesh](https://github.com/database-mesh)
 
 
 
@@ -69,6 +74,7 @@
 + [https://github.com/cmu-db/dbdb.io](https://github.com/cmu-db/dbdb.io)
 + [https://github.com/polardb](https://github.com/polardb)
 + [https://db-engines.com/en/ranking](https://db-engines.com/en/ranking)
++ [https://github.com/wbtlb](https://github.com/wbtlb)
 
 
 * [https://github.com/SQream](https://github.com/SQream)
@@ -89,6 +95,7 @@
 * [https://github.com/cubrid](https://github.com/cubrid)
 * [https://github.com/pingcap/tidb](https://github.com/pingcap/tidb)
     * [https://pingcap.com](https://pingcap.com)
+* [https://github.com/tidb-incubator](https://github.com/tidb-incubator)
 * [https://github.com/tikv/tikv](https://github.com/tikv/tikv)
 * [https://github.com/yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db)
 * [https://github.com/prestodb/presto](https://github.com/prestodb/presto)
@@ -118,6 +125,7 @@
     * [https://github.com/xiaomi/pegasus-rocksdb](https://github.com/xiaomi/pegasus-rocksdb)
     * [https://github.com/apache/incubator-pegasus](https://github.com/apache/incubator-pegasus)
 * [https://github.com/pmqs/BerkeleyDB](https://github.com/pmqs/BerkeleyDB)
+* [https://github.com/apache/incubator-kvrocks](https://github.com/apache/incubator-kvrocks)
 * 面向列的数据库 [https://github.com/ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)
 * Go嵌入式(S)QL数据库 [https://gitlab.com/cznic/ql](https://gitlab.com/cznic/ql)
 * [https://github.com/oceanbase/oceanbase](https://github.com/oceanbase/oceanbase)
@@ -132,12 +140,16 @@
 * [https://github.com/griddb/griddb](https://github.com/griddb/griddb)
 * [https://github.com/RocksCloud/rocksredis](https://github.com/RocksCloud/rocksredis)
 * [https://github.com/MonetDB/MonetDB](https://github.com/MonetDB/MonetDB)
+* [https://github.com/CeresDB/ceresdb](https://github.com/CeresDB/ceresdb)
 * 物联网 [https://github.com/apache/iotdb](https://github.com/apache/iotdb)
 * 内存关系数据库 [https://github.com/VoltDB/voltdb](https://github.com/VoltDB/voltdb)
 * [https://github.com/memsql](https://github.com/memsql)
     * [https://www.singlestore.com](https://www.singlestore.com)
 * [https://github.com/cmu-db/noisepage](https://github.com/cmu-db/noisepage)
 * 不可变数据库 [https://github.com/codenotary/immudb](https://github.com/codenotary/immudb)
+* [https://github.com/stoneatom/stonedb](https://github.com/stoneatom/stonedb)
+* [https://github.com/dragonflydb](https://github.com/dragonflydb)
+* [https://github.com/surrealdb/surrealdb](https://github.com/surrealdb/surrealdb)
 
 
 
@@ -146,6 +158,8 @@
     - [https://github.com/attic-labs/noms](https://github.com/attic-labs/noms)
 - 移动数据库 [https://github.com/realm/realm-core](https://github.com/realm/realm-core)
 - 数据流 [https://github.com/mit-pdos/noria](https://github.com/mit-pdos/noria)
+- [https://github.com/risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave)
+- OLAP [https://github.com/risinglightdb/risinglight](https://github.com/risinglightdb/risinglight)
 - 矢量数据库 [https://github.com/milvus-io/milvus](https://github.com/milvus-io/milvus)
 - [https://github.com/topics/spark](https://github.com/topics/spark)
     - [https://github.com/apache/spark](https://github.com/apache/spark)

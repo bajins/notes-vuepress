@@ -124,6 +124,18 @@
 * [https://github.com/mattgodbolt/compiler-explorer](https://github.com/mattgodbolt/compiler-explorer)
 * [http://pythontutor.com](http://pythontutor.com)
 * [https://codepen.io](https://codepen.io)
+* [https://github.com/jsfiddle](https://github.com/jsfiddle)
+* [https://jsrun.net](https://jsrun.net)
+* [https://www.sololearn.com](https://www.sololearn.com)
+* [https://www.figma.com](https://www.figma.com)
+* [https://www.browserstack.com](https://www.browserstack.com)
+* [https://responsivedesignchecker.com](https://responsivedesignchecker.com)
+* [http://ami.responsivedesign.is](http://ami.responsivedesign.is)
+* [https://css-grid-layout-generator.pw](https://css-grid-layout-generator.pw)
+* [https://webcode.tools/css-generator](https://webcode.tools/css-generator)
+* [https://css3generator.com](https://css3generator.com)
+* [https://petercollingridge.appspot.com/svg-optimiser](https://petercollingridge.appspot.com/svg-optimiser)
+* [https://jakearchibald.github.io/svgomg](https://jakearchibald.github.io/svgomg)
 * [https://github.com/Mohamed99ayman/Online-Compiler](https://github.com/Mohamed99ayman/Online-Compiler)
 * [https://code.xueersi.com/ide/code/1](https://code.xueersi.com/ide/code/1)
 
@@ -401,7 +413,9 @@
 
 
 - [Lex与YACC详解](https://zhuanlan.zhihu.com/p/143867739)
-
+- [https://github.com/search?q=yacc](https://github.com/search?q=yacc)
+- [https://github.com/topics/yacc](https://github.com/topics/yacc)
+- [Pisa-Proxy SQL 解析之 Lex & Yacc](https://zhuanlan.zhihu.com/p/538735834)
 
 
 
