@@ -76,6 +76,7 @@
 * [Network programming with Go 中文翻译版本](https://github.com/astaxie/NPWG_zh)
 * [Revel 框架手册](http://gorevel.cn/docs/manual/index.html)
 * [学习Go语言](http://mikespook.com/learning-go)
+* [https://github.com/miguelmota/ethereum-development-with-go-book](https://github.com/miguelmota/ethereum-development-with-go-book)
 * [神奇的 Go 语言](http://go.ctolib.com/docs/read/magical-go-c-index.html)
 * [https://github.com/TiantianUpup/go-study](https://github.com/TiantianUpup/go-study)
 * [Go 语言 Web 应用开发系列教程](https://github.com/unknwon/building-web-applications-in-go)

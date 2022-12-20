@@ -32,10 +32,6 @@
 
 * [跨平台解决方案的技术分析](https://blog.csdn.net/LuckyWinty/article/details/119657634)
 * Java/Kotlin [https://github.com/codenameone](https://github.com/codenameone)
-* C# [https://github.com/xamarin](https://github.com/xamarin)
-    * [https://docs.microsoft.com/zh-cn/xamarin](https://docs.microsoft.com/zh-cn/xamarin)
-* [https://github.com/dotnet/maui](https://github.com/dotnet/maui)
-    * [https://docs.microsoft.com/zh-cn/dotnet/maui](https://docs.microsoft.com/zh-cn/dotnet/maui)
 * 游戏 [https://github.com/coronalabs](https://github.com/coronalabs)
 
 
