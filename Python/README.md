@@ -150,6 +150,7 @@ with Test() as t: # 触发__exit__
 * [https://github.com/nccgroup/fuzzowski](https://github.com/nccgroup/fuzzowski)
 * 图片 [https://github.com/imageio/imageio](https://github.com/imageio/imageio)
 * SQL查询日志文件 [https://github.com/samuel/squawk](https://github.com/samuel/squawk)
+* 编码检测 [https://github.com/PyYoshi/uchardet](https://github.com/PyYoshi/uchardet)
 
 
 

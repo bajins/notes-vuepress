@@ -122,6 +122,7 @@
 
 **工具**
 
++ [https://github.com/bytedeco](https://github.com/bytedeco)
 + [https://commons.apache.org](https://commons.apache.org)
     + [https://github.com/apache?q=commons](https://github.com/apache?q=commons)
 + [https://github.com/google/guava](https://github.com/google/guava)
@@ -176,6 +177,11 @@
 + 线程间消息传递 [https://github.com/lmax-exchange/disruptor](https://github.com/lmax-exchange/disruptor)
 + [https://github.com/alibaba/transmittable-thread-local](https://github.com/alibaba/transmittable-thread-local)
 + 地理哈希 [https://github.com/kungfoo/geohash-java](https://github.com/kungfoo/geohash-java)
++ 编码检测 [https://sourceforge.net/projects/jchardet](https://sourceforge.net/projects/jchardet)
++ [https://github.com/albfernandez/juniversalchardet](https://github.com/albfernandez/juniversalchardet)
++ [https://github.com/thkoch2001/juniversalchardet](https://github.com/thkoch2001/juniversalchardet)
++ [https://sourceforge.net/projects/cpdetector](https://sourceforge.net/projects/cpdetector)
++ URL解析 [https://github.com/smola/galimatias](https://github.com/smola/galimatias)
 
 
 
@@ -211,12 +217,16 @@
 
 
 
+- 字体文件解析 [https://sourceforge.net/projects/fontbox](https://sourceforge.net/projects/fontbox)
 - 条码 [https://github.com/zxing/zxing](https://github.com/zxing/zxing)
     - [Java 条形码生成](https://www.cnblogs.com/lixin-link/p/15359508.html)
 - [https://github.com/woo-j/OkapiBarcode](https://github.com/woo-j/OkapiBarcode)
 - [https://github.com/lessthanoptimal/BoofCV](https://github.com/lessthanoptimal/BoofCV)
 - [https://sourceforge.net/projects/barcode4j](https://sourceforge.net/projects/barcode4j)
 - [https://sourceforge.net/projects/jbarcode](https://sourceforge.net/projects/jbarcode)
+- 图片处理 [https://github.com/jai-imageio](https://github.com/jai-imageio)
+- [https://github.com/levigo/jbig2-imageio](https://github.com/levigo/jbig2-imageio)
+- [https://github.com/haraldk/TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys)
 - 图片压缩 [https://github.com/coobird/thumbnailator](https://github.com/coobird/thumbnailator)
     - [http://projects.coobird.net](http://projects.coobird.net)
 - [https://github.com/eclipsesource/J2V8](https://github.com/eclipsesource/J2V8)
@@ -224,6 +234,7 @@
 - [https://sourceforge.net/projects/sevenzipjbind](https://sourceforge.net/projects/sevenzipjbind)
     - [https://github.com/borisbrodski/sevenzipjbinding](https://github.com/borisbrodski/sevenzipjbinding)
 - [https://github.com/srikanth-lingala/zip4j](https://github.com/srikanth-lingala/zip4j)
+- [https://tukaani.org/xz/java.html](https://tukaani.org/xz/java.html)
 - 重试 [https://github.com/houbb/sisyphus](https://github.com/houbb/sisyphus)
 
 
@@ -420,13 +431,14 @@
     * [导出百万级数据到Excel 文件](https://blog.csdn.net/gd6321374/article/details/90417202)
     * [https://github.com/550690513/large-amount-data-export](https://github.com/550690513/large-amount-data-export)
 * [https://gitee.com/lemur/easypoi](https://gitee.com/lemur/easypoi)
-* [https://github.com/opensagres](https://github.com/opensagres)
 * [https://sourceforge.net/projects/jexcelapi](https://sourceforge.net/projects/jexcelapi)
 * [https://github.com/aspose](https://github.com/aspose)
 * 输出word [https://github.com/Sayi/poi-tl](https://github.com/Sayi/poi-tl)
 * [https://github.com/MSPaintIDE/NewOCR](https://github.com/MSPaintIDE/NewOCR)
 * 转换 [https://github.com/documents4j/documents4j](https://github.com/documents4j/documents4j)
 * [https://sourceforge.net/projects/csvjdbc](https://sourceforge.net/projects/csvjdbc)
+* [https://github.com/opensagres](https://github.com/opensagres)
+* [https://github.com/jodconverter/jodconverter](https://github.com/jodconverter/jodconverter)
 
 
 > XML文件的解析技术有DOM和SAX方式，JAXB（Java Architecture for XML Binding) 是一个业界的标准，是一项根据`XML Schema`产生Java类的技术
@@ -469,6 +481,8 @@
 * [https://github.com/apache/johnzon](https://github.com/apache/johnzon)
 * [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
 * [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)
+* [https://github.com/kordamp/json-lib](https://github.com/kordamp/json-lib)
+    * [https://sourceforge.net/projects/json-lib](https://sourceforge.net/projects/json-lib)
 * [https://github.com/google/gson](https://github.com/google/gson)
 * [https://github.com/alibaba/fastjson](https://github.com/alibaba/fastjson)
 * [https://github.com/alibaba/fastjson2](https://github.com/alibaba/fastjson2)

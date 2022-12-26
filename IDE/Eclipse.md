@@ -26,7 +26,7 @@
 
 
 > 创建`Dynamic Web Project`项目结构静态资源目录为：`WebContent`/`WebRoot`，idea创建的为`web`
-
+> 导入的项目没有正确自动识别：在项目上右键选择`Properties`然后检查`Project Facets`和`Project Natures`
 
 
 **查看类图及继承关系**

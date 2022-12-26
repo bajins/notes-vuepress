@@ -185,6 +185,7 @@
     * [https://underscorejs.net](https://underscorejs.net)
 * [https://github.com/ramda/ramda](https://github.com/ramda/ramda)
 * [https://github.com/proYang/outils](https://github.com/proYang/outils)
+* [https://github.com/jsuites/jsuites](https://github.com/jsuites/jsuites)
 * 工具库 [https://github.com/tnfe/bbo](https://github.com/tnfe/bbo)
 * 代码格式化 [https://github.com/prettier/prettier](https://github.com/prettier/prettier)
 * [https://github.com/beautify-web/js-beautify](https://github.com/beautify-web/js-beautify)
@@ -270,7 +271,8 @@
 
 **文档**
 
-* excel [https://github.com/dtjohnson/xlsx-populate](https://github.com/dtjohnson/xlsx-populate)
+* excel [https://github.com/exceljs/exceljs](https://github.com/exceljs/exceljs)
+* [https://github.com/dtjohnson/xlsx-populate](https://github.com/dtjohnson/xlsx-populate)
     * [前端生成导出Excel](https://lushunjian.gitee.io/2020/08/08/qian-duan-sheng-cheng-dao-chu-excel)
     * [https://www.npmjs.com/package/xlsx-populate#style-reference](https://www.npmjs.com/package/xlsx-populate#style-reference)
 * [https://github.com/SheetJS](https://github.com/SheetJS)
@@ -279,13 +281,15 @@
     * [https://github.com/skyrocks/x-xlsx-style](https://github.com/skyrocks/x-xlsx-style)
     * [https://github.com/duhaohao/xlsx-styleable](https://github.com/duhaohao/xlsx-styleable)
 * [https://github.com/d-band/better-xlsx](https://github.com/d-band/better-xlsx)
-* [https://github.com/mengshukeji/Luckysheet](https://github.com/mengshukeji/Luckysheet)
+* [https://github.com/dream-num/Luckysheet](https://github.com/dream-num/Luckysheet)
+* [https://github.com/dream-num/Luckyexcel](https://github.com/dream-num/Luckyexcel)
 * [https://github.com/ag-grid/ag-grid](https://github.com/ag-grid/ag-grid)
-* [https://github.com/exceljs/exceljs](https://github.com/exceljs/exceljs)
-* [https://github.com/mengshukeji/Luckyexcel](https://github.com/mengshukeji/Luckyexcel)
 * TableExport [https://github.com/clarketm/TableExport](https://github.com/clarketm/TableExport)
 * tableExport.jquery.plugin [https://github.com/hhurz/tableExport.jquery.plugin](https://github.com/hhurz/tableExport.jquery.plugin)
 * excellentexport [https://github.com/jmaister/excellentexport](https://github.com/jmaister/excellentexport)
+* [https://github.com/jspreadsheet](https://github.com/jspreadsheet)
+* docx-preview [https://github.com/VolodymyrBaydalka/docxjs](https://github.com/VolodymyrBaydalka/docxjs)
+
 
 - 压缩或编码解码库 [https://github.com/photopea](https://github.com/photopea)
 - 压缩 [https://github.com/photopea](https://github.com/nodeca/pako)

@@ -214,6 +214,7 @@
 
 * [http://mvnrepository.com](http://mvnrepository.com)
 * [https://search.maven.org](https://search.maven.org)
+* [https://www.mvncenter.com](https://www.mvncenter.com)
 * [https://nexus.pentaho.org](https://nexus.pentaho.org)
 * [https://public.nexus.pentaho.org](https://public.nexus.pentaho.org)
 * JFrog Bintray [https://github.com/bintray](https://github.com/bintray)

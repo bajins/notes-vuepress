@@ -355,6 +355,7 @@
 * 幸运补丁 [https://www.luckypatchers.com](https://www.luckypatchers.com)
 * 图片处理 [https://website.facetuneapp.com](https://website.facetuneapp.com)
 * [https://www.lightricks.com](https://www.lightricks.com)
+* 磁力下载 [https://github.com/proninyaroslav/libretorrent](https://github.com/proninyaroslav/libretorrent)
 
 
 **下载Google Play Store上的应用**

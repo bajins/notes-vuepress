@@ -13,7 +13,7 @@
 * [https://www.oracle.com/java](https://www.oracle.com/java)
     * [https://www.oracle.com/cn/java/technologies/javase-downloads.html](https://www.oracle.com/cn/java/technologies/javase-downloads.html)
     * [https://www.oracle.com/cn/java/technologies/java-ee-glance.html](https://www.oracle.com/cn/java/technologies/java-ee-glance.html)
-
+* 版本管理 [https://github.com/jingxiang/java-switch](https://github.com/jingxiang/java-switch)
 
 
 ## OpenJDK

@@ -380,6 +380,8 @@ $("#id").off("click").on("click",function(){
     * [JS组件系列——BootstrapTable 行内编辑解决方案：x-editable](https://www.cnblogs.com/landeanfen/p/5821192.html)
 * 编辑器 [https://github.com/vitalets/x-editable](https://github.com/vitalets/x-editable)
 
+
 - [https://github.com/vinorodrigues/bootstrap-dark](https://github.com/vinorodrigues/bootstrap-dark)
 - [https://github.com/yuantuo666/bootstrap-dark](https://github.com/yuantuo666/bootstrap-dark)
 - [https://github.com/themefisher](https://github.com/themefisher)
+- [https://github.com/keaukraine/bootstrap4-fs-modal](https://github.com/keaukraine/bootstrap4-fs-modal)
