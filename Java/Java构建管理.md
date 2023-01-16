@@ -235,6 +235,7 @@
 + 构建自动清理 [https://github.com/castor-software/depclean](https://github.com/castor-software/depclean)
 + 模块化 [https://github.com/moditect/layrry](https://github.com/moditect/layrry)
 + 检测旧版API [https://github.com/gaul/modernizer-maven-plugin](https://github.com/gaul/modernizer-maven-plugin)
++ [https://github.com/mojohaus/build-helper-maven-plugin](https://github.com/mojohaus/build-helper-maven-plugin)
 
 
 

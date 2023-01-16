@@ -85,6 +85,7 @@
 * [https://github.com/lexkong/apiserver_demos](https://github.com/lexkong/apiserver_demos)
 * [https://github.com/jiujuan/go-collection](https://github.com/jiujuan/go-collection)
 * 中文学习资料 [https://github.com/gwuhaolin/golang-book](https://github.com/gwuhaolin/golang-book)
+* [https://github.com/jincheng9/go-tutorial](https://github.com/jincheng9/go-tutorial)
 * 设计模式 [https://github.com/tmrts/go-patterns](https://github.com/tmrts/go-patterns)
 * [https://github.com/0voice/Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang)
 * [https://github.com/golang-design](https://github.com/golang-design)

@@ -306,7 +306,8 @@
 **本地客户端**
 
 * [Mind Mapper官方安装包](http://www.mindmapper.com/download-product)
-* [XMind 8官方下载](http://dl2.xmind.cn/xmind-8-update8-windows.exe)
+* [https://github.com/xmindltd](https://github.com/xmindltd)
+    * [XMind 8官方下载](http://dl2.xmind.cn/xmind-8-update8-windows.exe)
 * [MindManager 2019](https://www.naodai.org/archives/51.html)
 * [Mindjet MindManager官方安装包x64](http://dwnld.mindjet.com/stubs/Builds/MindManager2020/20_0_334/64Bit/MindManager%202020.msi)
 * [MindMaster](https://www.edrawsoft.com/mindmaster)

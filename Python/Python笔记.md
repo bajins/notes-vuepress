@@ -1,6 +1,5 @@
 # Python笔记
 
-
 [[toc]]
 
 
@@ -18,6 +17,18 @@
 
 1. 列表和元组相比，可直接调用的函数更多也可以进行更改，但是元组一经定义就无法更改，所以首推列表。
 2. 在python中是没有数组类型的，如果非要使用数组，可以用`numpy`库实现对数组的定义
+
+
+**ModuleNotFoundError: No module named 'Crypto'解决方案**
+
+```bash
+# pycrypto和crypto是同一个库，已经停止更新
+pip uninstall pycrypto crypto
+# pycryptodome是crypto的延伸版本，用法同crypto
+pip install pycryptodome
+```
+
+> 如果上述方法仍不能解决问题，可以找到Python安装目录的`\Lib\site-packages`目录，手动将`crypto`改为`Crypto`
 
 
 

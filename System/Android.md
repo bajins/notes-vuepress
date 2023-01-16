@@ -77,7 +77,6 @@
 
 
 * [https://github.com/Orange-shirt/OrangeJs](https://github.com/Orange-shirt/OrangeJs)
-* 清理微信僵尸粉 [https://github.com/L8426936/CleanUpWeChatZombieFans](https://github.com/L8426936/CleanUpWeChatZombieFans)
 * [https://github.com/georgehuan1994/DingDing-Automatic-Clock-in](https://github.com/georgehuan1994/DingDing-Automatic-Clock-in)
 * 蚂蚁森林能量 [https://github.com/SuperMonster003/Ant-Forest](https://github.com/SuperMonster003/Ant-Forest)
 * [https://github.com/kwu130/Alipay](https://github.com/kwu130/Alipay)
@@ -219,6 +218,7 @@
 ## 第三方依赖
 
 + [https://github.com/search?q=vertica](https://github.com/search?q=vertica)
++ [https://github.com/Trinea/android-open-project](https://github.com/Trinea/android-open-project)
 
 
 * [https://github.com/Baseflow](https://github.com/Baseflow)
@@ -227,6 +227,7 @@
 * [https://github.com/afkT/DevUtils](https://github.com/afkT/DevUtils)
 * [https://github.com/DyncKathline](https://github.com/DyncKathline)
 * [https://github.com/wave-chtj/BaseIotUtils](https://github.com/wave-chtj/BaseIotUtils)
+* [https://github.com/l123456789jy/Lazy](https://github.com/l123456789jy/Lazy)
 * [https://github.com/lihangleo2/Imgdots](https://github.com/lihangleo2/Imgdots)
 * [https://github.com/yangchong211/YCVideoPlayer](https://github.com/yangchong211/YCVideoPlayer)
 * [https://github.com/guofudong/KotlinAndroid](https://github.com/guofudong/KotlinAndroid)

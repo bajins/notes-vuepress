@@ -184,6 +184,7 @@
 + [https://github.com/hs-web](https://github.com/hs-web)
 + [https://gitee.com/xiaonuobase](https://gitee.com/xiaonuobase)
 + [https://github.com/hiparker/opsli-boot](https://github.com/hiparker/opsli-boot)
++ [https://github.com/dibo-software/diboot](https://github.com/dibo-software/diboot)
 + [https://gitee.com/Thinkingcao/projects](https://gitee.com/Thinkingcao/projects)
 
 
@@ -229,7 +230,15 @@
 * [https://github.com/smart-cloud/smart-cloud](https://github.com/smart-cloud/smart-cloud)
 * [https://github.com/shuzheng/zheng](https://github.com/shuzheng/zheng)
 * [https://github.com/kekingcn/kkFileView](https://github.com/kekingcn/kkFileView)
+    * Windows `http://kkfileview.keking.cn/kkFileView-4.1.0.zip`
+    * Linux `http://kkfileview.keking.cn/kkFileView-4.1.0.tar.gz`
+    * Docker `http://kkfileview.keking.cn/kkFileView-4.1.0-docker.tar`
+    * [启动时报错 a process with acceptString ‘socket,host=](https://blog.csdn.net/weixin_43128854/article/details/128236271)
+    * `http://view.officeapps.live.com/op/view.aspx?src=`
+    * [Office文档在线预览服务器](https://www.jianshu.com/p/c67d103484a4)
+    * [微软office web apps 服务器搭建之在线文档预览](https://www.cnblogs.com/lovechengcheng/p/4117391.html)
+    * [https://github.com/dounine?tab=repositories&q=windows-server](https://github.com/dounine?tab=repositories&q=windows-server)
 * 博客 [https://github.com/88250/solo](https://github.com/88250/solo)
 * [https://github.com/adlered/bolo-solo](https://github.com/adlered/bolo-solo)
-
-
+* [https://github.com/o2oa/o2oa](https://github.com/o2oa/o2oa)
+* [https://github.com/wildfirechat/im-server](https://github.com/wildfirechat/im-server)

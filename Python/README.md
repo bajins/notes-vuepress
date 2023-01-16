@@ -115,8 +115,6 @@ with Test() as t: # 触发__exit__
 * 日志 [https://github.com/Delgan/loguru](https://github.com/Delgan/loguru)
 * [https://github.com/jpadilla/pyjwt](https://github.com/jpadilla/pyjwt)
 * [https://github.com/Arronlong/py_scripts](https://github.com/Arronlong/py_scripts)
-* 字节码反汇编器/反编译器 [https://github.com/zrax/pycdc](https://github.com/zrax/pycdc)
-* 逆向 [https://github.com/frida/frida](https://github.com/frida/frida)
 * [https://github.com/pyexcel](https://github.com/pyexcel)
 * [https://github.com/jmcnamara/XlsxWriter](https://github.com/jmcnamara/XlsxWriter)
 * [https://foss.heptapod.net/openpyxl/openpyxl](https://foss.heptapod.net/openpyxl/openpyxl)
