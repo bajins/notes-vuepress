@@ -174,7 +174,7 @@
 ## 设置编码格式
 
 - 设置工作空间编码 `Window` -> `Preferences` -> `General` -> `Workspace` -> `Text file encoding` -> `Other`选择`UTF-8`
-- 设置文档编码 `Window` -> `Preferences` -> `General` -> `Content Type` -> `Text`
+- 设置文档编码 `Window` -> `Preferences` -> `General` -> `Content Type` -> `Text`（填入编码后一定要点击`Update`）
    - -> `Default encoding`填入`UTF-8`
    - -> 展开`Text` -> 选中`Java Properties File` -> `Default encoding`填入`UTF-8` 设置Properties编码
    - -> 展开`Text` -> 选中`Spring Properties File` -> `Default encoding`填入`UTF-8`

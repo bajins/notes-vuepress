@@ -161,12 +161,16 @@ set number
 
 ### SSH会话执行文件
 
-- `/etc/motd`这个文件，可以在里面加入自己喜欢的任何欢迎信息，这段信息将会在登录成功后显示！
-- `/etc/profile`中设定的变量(全局)的可以作用于任何用户,
-- `/.bashrc`设定的变量(局部)只能继承`/etc/profile`中的变量,他们是”父子”关系
-- `/root/.bash_profile` 当root用户登录时执行
-- `/root/.bash_logout` 当每次root用户退出系统(退出bash shell)时,执行该文件
-- `/root/.bashrc` 当root用户登录时以及每次打开新的shell时,该该文件被读取。
+- `/etc/motd` 可以在里面加入自己喜欢的任何欢迎信息，这段信息将会在登录成功后显示
+- `/etc/profile` 中设定的变量(全局)的可以作用于任何用户
+- `/.bashrc` 设定的变量(局部)只能继承`/etc/profile`中的变量,他们是”父子”关系
+- `/~/.bash_profile` 当前用户登录时执行
+- `/~/.bash_logout` 当前用户每次退出系统(退出shell)时执行
+- `/~/.bashrc` 当前用户登录时以及每次打开新的shell时,该文件被读取
+
++ `export key=value` 设置变量
++ `source 文件路径` 刷新配置文件，立即执行（变量、程序、脚本）
++ `PATH=$PATH:` 全局变量，不同值之间用`:`分割，存储在`~/.bash_profile`里
 
 
 > 为每一个运行bash shell的用户执行此文件.当bash shell被打开时, 该文件被读取（即每次新开一个终端，都会执行bashrc）。

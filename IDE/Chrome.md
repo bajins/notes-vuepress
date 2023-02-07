@@ -45,6 +45,7 @@
 
 - 无Google Web服务浏览器 [https://github.com/Eloston/ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)
 - [https://github.com/nwjs/chromium.src](https://github.com/nwjs/chromium.src)
+- [https://github.com/fathyb/carbonyl](https://github.com/fathyb/carbonyl)
 
 
 * [https://www.microsoftedgeinsider.com](https://www.microsoftedgeinsider.com)

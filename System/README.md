@@ -109,6 +109,8 @@
 * [https://github.com/ARMmbed](https://github.com/ARMmbed)
 * [https://github.com/thepowersgang/rust_os](https://github.com/thepowersgang/rust_os)
 * 物联网 [https://github.com/RT-Thread/rt-thread](https://github.com/RT-Thread/rt-thread)
+* [https://github.com/zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr)
+    * [https://github.com/Linaro](https://github.com/Linaro)
 * 树莓派 [https://github.com/raspberrypi](https://github.com/raspberrypi)
     * [https://github.com/guysoft](https://github.com/guysoft)
 * [https://github.com/pftf](https://github.com/pftf)
@@ -132,10 +134,12 @@
 * [https://www.enlightenment.org](https://www.enlightenment.org)
 * [https://github.com/muesli/duf](https://github.com/muesli/duf)
 * [https://github.com/ukui](https://github.com/ukui)
+* 管理 [https://github.com/puppetlabs/puppet](https://github.com/puppetlabs/puppet)
 
 
 
 **DNS**
+
 + [https://github.com/topics/dns-server](https://github.com/topics/dns-server)
 + [https://github.com/topics/service-discovery](https://github.com/topics/service-discovery)
 + [https://github.com/topics/cncf](https://github.com/topics/cncf)
@@ -145,6 +149,7 @@
 
 * [https://github.com/coredns/coredns](https://github.com/coredns/coredns)
 * [https://github.com/skynetservices/skydns](https://github.com/skynetservices/skydns)
+* [https://github.com/PowerDNS](https://github.com/PowerDNS)
 * [https://github.com/google/proto-quic](https://github.com/google/proto-quic)
 * [https://github.com/google/quiche](https://github.com/google/quiche)(https://github.com/google/quiche)
 * [https://github.com/lucas-clemente/quic-go](https://github.com/lucas-clemente/quic-go)
@@ -157,6 +162,8 @@
 
 + [https://github.com/topics/apm](https://github.com/topics/apm)
 + [https://github.com/topics/system-information](https://github.com/topics/system-information)
++ [https://github.com/monitoring-plugins](https://github.com/monitoring-plugins)
+    + 监控插件开发指南 [https://www.monitoring-plugins.org](https://www.monitoring-plugins.org)
 
 
 * [https://github.com/cppla/ServerStatus](https://github.com/cppla/ServerStatus)
@@ -194,26 +201,33 @@
     * [https://github.com/nagios-plugins](https://github.com/nagios-plugins)
     * [https://www.nagios.org](https://www.nagios.org)
     * [https://www.nagios.com](https://www.nagios.com)
+    * [https://github.com/HariSekhon/Nagios-Plugins](https://github.com/HariSekhon/Nagios-Plugins)
+* [https://github.com/naemon](https://github.com/naemon)
+* [https://github.com/naparuba/shinken](https://github.com/naparuba/shinken)
+* [https://github.com/Icinga](https://github.com/Icinga)
+* Checkmk [https://github.com/tribe29](https://github.com/tribe29)
+* [https://github.com/cacti](https://github.com/cacti)
+* [https://github.com/ntop/ntopng](https://github.com/ntop/ntopng)
 * [https://github.com/elastic/apm-server](https://github.com/elastic/apm-server)
 * [https://github.com/prometheus](https://github.com/prometheus)
     * [Prometheus监控tomcat+jvm](https://www.cnblogs.com/you-men/p/13216976.html)
     * [https://iqsing.github.io/categories/prometheus](https://iqsing.github.io/categories/prometheus)
 * [https://github.com/scouter-project/scouter](https://github.com/scouter-project/scouter)
+* 可视化套件 [https://github.com/grafana/grafana](https://github.com/grafana/grafana)
+* [https://github.com/GitSquared/edex-ui](https://github.com/GitSquared/edex-ui)
 
 
 
-**管理面板**
+### 管理面板
 
 * [https://github.com/aaPanel/BaoTa](https://github.com/aaPanel/BaoTa)
     * [https://www.bt.cn](https://www.bt.cn)
 * [https://www.xp.cn](https://www.xp.cn)
 * [https://github.com/YunoHost](https://github.com/YunoHost)
 * [https://cockpit-project.org](https://cockpit-project.org)
-* 可视化套件 [https://github.com/grafana/grafana](https://github.com/grafana/grafana)
-* [https://github.com/GitSquared/edex-ui](https://github.com/GitSquared/edex-ui)
-* [https://github.com/hestiacp/hestiacp](https://github.com/hestiacp/hestiacp)
 * [http://amh.sh](http://amh.sh)
 * [http://www.batchshell.cn](http://www.batchshell.cn)
+* [https://github.com/hestiacp/hestiacp](https://github.com/hestiacp/hestiacp)
 
 
 

@@ -138,7 +138,8 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [http://www.imsdn.cn](http://www.imsdn.cn)
 * [https://uup.rg-adguard.net](https://uup.rg-adguard.net)
 * [https://www.repaik.com/win.html](https://www.repaik.com/win.html)
-* [https://uupdump.ml](https://uupdump.ml)
+* [https://github.com/uup-dump](https://github.com/uup-dump)
+    * [https://uupdump.net](https://uupdump.net)
 * [https://msdn.sjjzm.com](https://msdn.sjjzm.com)
 
 

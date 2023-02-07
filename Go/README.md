@@ -19,7 +19,6 @@
 
 - [https://github.com/studygolang](https://github.com/studygolang)
 - 在JVM中运行 [https://github.com/zxh0/jvm.go](https://github.com/zxh0/jvm.go)
-- 分布式跟踪后端 [https://github.com/grafana/tempo](https://github.com/grafana/tempo)
 - 监视和配置网络设备的工具 [https://github.com/inexio/thola](https://github.com/inexio/thola)
 - [https://github.com/dominikh/go-tools](https://github.com/dominikh/go-tools)
 - json生成go数据结构 [https://github.com/misakafs/json-to-go](https://github.com/misakafs/json-to-go)

@@ -537,6 +537,8 @@
 * [https://github.com/autonomx](https://github.com/autonomx)
 * [https://github.com/dbunit/dbunit-mirror](https://github.com/dbunit/dbunit-mirror)
 * [https://github.com/easymock](https://github.com/easymock)
+* [https://github.com/datafaker-net/datafaker](https://github.com/datafaker-net/datafaker)
+* [https://github.com/instancio/instancio](https://github.com/instancio/instancio)
 * [https://github.com/Terracotta-OSS/angela](https://github.com/Terracotta-OSS/angela)
 * [https://github.com/rest-assured/rest-assured](https://github.com/rest-assured/rest-assured)
 * [https://github.com/selenide/selenide](https://github.com/selenide/selenide)

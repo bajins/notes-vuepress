@@ -30,6 +30,19 @@
 + 混淆工具 [https://github.com/yWorks/yGuard](https://github.com/yWorks/yGuard)
 + 消除NullPointerException [https://github.com/uber/NullAway](https://github.com/uber/NullAway)
 + 静态类型检查 [https://github.com/google/error-prone](https://github.com/google/error-prone)
++ [https://github.com/TouK/sputnik](https://github.com/TouK/sputnik)
++ [https://github.com/soot-oss/soot](https://github.com/soot-oss/soot)
++ [https://github.com/wala](https://github.com/wala)
++ [https://github.com/plast-lab/doop-mirror](https://github.com/plast-lab/doop-mirror)
+    + [如何快速上手指针分析工具doop？](https://www.zhihu.com/question/499028330)
++ [https://github.com/souffle-lang/souffle](https://github.com/souffle-lang/souffle)
++ [https://github.com/spotbugs](https://github.com/spotbugs)
+    + [https://github.com/mebigfatguy/fb-contrib](https://github.com/mebigfatguy/fb-contrib)
++ [https://github.com/findbugsproject/findbugs](https://github.com/findbugsproject/findbugs)
+    + [https://sourceforge.net/projects/findbugs](https://sourceforge.net/projects/findbugs)
+    + [https://github.com/KengoTODA/findbugs-slf4j](https://github.com/KengoTODA/findbugs-slf4j)
++ [https://github.com/pascal-lab/Tai-e](https://github.com/pascal-lab/Tai-e)
+
 
 
 - [https://github.com/topics/classloader](https://github.com/topics/classloader)

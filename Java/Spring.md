@@ -25,6 +25,7 @@
 - Spring源码阅读 [https://github.com/seaswalker/spring-analysis](https://github.com/seaswalker/spring-analysis)
 - Spring 实战第五版中文翻译 [https://github.com/PotoYang/spring-in-action-v5-translate](https://github.com/PotoYang/spring-in-action-v5-translate)
 - [https://github.com/dunwu/spring-tutorial](https://github.com/dunwu/spring-tutorial)
+- [https://github.com/piomin](https://github.com/piomin)
 
 
 * [SpringCloud和Dubbo](https://www.jianshu.com/p/9fa24196d2ad)
@@ -52,6 +53,7 @@
 + [Spring WebFlux快速上手](https://blog.csdn.net/get_set/article/details/79480233)
 
 * [Spring MVC or WebFlux?](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux-framework-choice)
+* [让Spring MVC返回HTML类型的视图](https://juejin.cn/post/6844903747089334285)
 
 
 **注解生成Bean默认命名规则**

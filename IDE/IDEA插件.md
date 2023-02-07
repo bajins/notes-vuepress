@@ -299,7 +299,6 @@
 
 * [https://plugins.jetbrains.com/plugin/3847-findbugs-idea](https://plugins.jetbrains.com/plugin/3847-findbugs-idea)
 * [https://github.com/andrepdo/findbugs-idea](https://github.com/andrepdo/findbugs-idea)
-    * [https://sourceforge.net/projects/findbugs](https://sourceforge.net/projects/findbugs)
     * [https://andrepdo.github.io/findbugs-idea](https://andrepdo.github.io/findbugs-idea)
 
 > 检测代码中可能的bug及不规范的位置，检测的模式相比p3c更多，写完代码后检测下 避免低级bug，强烈建议用一下，一不小心就发现很多老代码的bug

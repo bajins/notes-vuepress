@@ -57,6 +57,8 @@
 - OpenJ9 [https://github.com/eclipse-openj9/openj9](https://github.com/eclipse-openj9/openj9)
 
 
+* [https://www.oracle.com/java/technologies/java-se-support-roadmap.html](https://www.oracle.com/java/technologies/java-se-support-roadmap.html)
+* [Oracle Java SE Support Roadmap：支持JDK 8到2030年](https://blog.csdn.net/f641385712/article/details/124732654)
 
 ![](/images/JDK版本生命周期.jpg)
 
