@@ -6,6 +6,7 @@
 ## Flag
 
 + [https://github.com/topics/ide](https://github.com/topics/ide)
++ [https://github.com/topics/devops](https://github.com/topics/devops)
 
 
 * [https://github.com/apache/netbeans](https://github.com/apache/netbeans)
@@ -17,6 +18,7 @@
 * [https://sourceforge.net/projects/liteide](https://sourceforge.net/projects/liteide)
 * [https://github.com/lapce](https://github.com/lapce)
 * [https://github.com/zed-industries](https://github.com/zed-industries)
+* DevOps指南 [https://github.com/Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide)
 
 
 

@@ -68,6 +68,7 @@
 - 大数据 [https://github.com/apache/flink](https://github.com/apache/flink)
 - [https://github.com/apache/hive](https://github.com/apache/hive)
 - [https://github.com/apache/impala](https://github.com/apache/impala)
+- 物联网 [https://github.com/jetlinks](https://github.com/jetlinks)
 
 
 
@@ -174,6 +175,7 @@
 + Native本地调用 [https://github.com/java-native-access/jna](https://github.com/java-native-access/jna)
 + [https://github.com/jnr](https://github.com/jnr)
 + 线程池 [https://github.com/acmenlt/dynamic-threadpool](https://github.com/acmenlt/dynamic-threadpool)
++ [https://github.com/opengoofy/hippo4j](https://github.com/opengoofy/hippo4j)
 + 线程间消息传递 [https://github.com/lmax-exchange/disruptor](https://github.com/lmax-exchange/disruptor)
 + [https://github.com/alibaba/transmittable-thread-local](https://github.com/alibaba/transmittable-thread-local)
 + 地理哈希 [https://github.com/kungfoo/geohash-java](https://github.com/kungfoo/geohash-java)
@@ -544,6 +546,7 @@
 * [https://github.com/selenide/selenide](https://github.com/selenide/selenide)
 * [https://github.com/intuit/karate](https://github.com/intuit/karate)
 * [https://github.com/kevin-wang001/mockj](https://github.com/kevin-wang001/mockj)
+* [https://github.com/mtedone/podam](https://github.com/mtedone/podam)
 * 模糊测试
 * [https://gitlab.com/gitlab-org/security-products/analyzers/fuzzers](https://gitlab.com/gitlab-org/security-products/analyzers/fuzzers)
 

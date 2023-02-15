@@ -342,6 +342,7 @@
 * [https://github.com/AKPR2007/website-to-apk](https://github.com/AKPR2007/website-to-apk)
 * [https://github.com/successtar/web-to-app](https://github.com/successtar/web-to-app)
 * [https://github.com/fh-rabbi/Html-Css-Js-Web-View-Apk-Template](https://github.com/fh-rabbi/Html-Css-Js-Web-View-Apk-Template)
+* 冻结APP [https://github.com/aistra0528/Hail](https://github.com/aistra0528/Hail)
 * 一个木函 [http://www.woobx.cn](http://www.woobx.cn)
 * [https://www.coolapk.com/apk/com.One.WoodenLetter](https://www.coolapk.com/apk/com.One.WoodenLetter)
 * [https://www.coolapk.com/apk/cn.coldsong.fusionapp](https://www.coolapk.com/apk/cn.coldsong.fusionapp)

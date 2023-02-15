@@ -365,3 +365,22 @@ Object.assing({}, obj);
 // Jquery
 $.extend({}, obj)
 ```
+
+
+## 选择器特殊符转义
+
+```js
+function escapeSelector(src) {
+    // javascript正则表达式中的特殊字符
+    const jsSpecialChars = ["\\", "^", "$", "*", "?", ".", "+", "(", ")", "[", "]", "|", "{", "}"];
+    for (const sc of jsSpecialChars) {
+        src = src.replace(new RegExp("\\" + sc, "g"), "\\" + sc);
+    }
+    // jquery中的特殊字符,不是正则表达式中的特殊字符
+    const jquerySpecialChars = ["~", "`", "@", "#", "%", "&", "=", "'", "\"", ":", ";", "<", ">", ",", "/"];
+    for (const sc of jquerySpecialChars) {
+        src = src.replace(new RegExp(sc, "g"), "\\" + sc);
+    }
+    return src;
+}
+```
