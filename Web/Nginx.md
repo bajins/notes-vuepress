@@ -224,6 +224,8 @@ location [=|~|~*|^~] /uri/ {
 
 **示例**
 
+* [nginx的root和alias详解](https://mp.weixin.qq.com/s/eMXrIaTRpoyZdPsoF_tMCQ)
+
 ```
 # 匹配网站根，通过域名访问网站首页比较频繁，使用这个会加速处理，官网如是说。
 # 这里是直接转发给后端应用服务器了，也可以是一个静态首页

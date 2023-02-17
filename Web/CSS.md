@@ -205,6 +205,10 @@
 > `Media Queries`能在不同的条件下使用不同的样式，使页面在不同在终端设备下达到不同的渲染效果。
 
 + [https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Media_queries](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Media_queries)
++ [https://developer.mozilla.org/zh-CN/docs/Web/HTML/Viewport_meta_tag](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Viewport_meta_tag)
++ [https://viewportsizer.com/devices](https://viewportsizer.com/devices)
++ [https://experienceleague.adobe.com/docs/target/using/experiences/vec/mobile-viewports.html](https://experienceleague.adobe.com/docs/target/using/experiences/vec/mobile-viewports.html)
+
 
 * [HTML页面适应移动端](https://www.jianshu.com/p/d95579d721a1)
 * [到底什么是像素](https://segmentfault.com/a/1190000017526874)
@@ -212,12 +216,14 @@
 * [visual viewport、layout viewport和ideal viewport介绍](https://segmentfault.com/a/1190000017542232)
 * [viewport 深入理解](https://www.runoob.com/w3cnote/viewport-deep-understanding.html)
 
+- [https://github.com/search?q=viewport](https://github.com/search?q=viewport)
+- [https://github.com/pazguille/viewport](https://github.com/pazguille/viewport)
 
 ```html
 <!-- 使用 Media Queries 必须先在页面中声明，移动设备上的`viewport`就是其屏幕上能用来显示我们的网页的那一块区域。
     该标签最大的作用是让当前viewport的宽度等于设备的宽度，即将viewport由默认变为ideal viewport，
     同时不允许用户缩放网页（缩放是相对于 ideal viewport来进行缩放的） -->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
 - `width = device-width`：宽度等于当前设备的宽度

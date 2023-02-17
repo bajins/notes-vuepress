@@ -181,6 +181,11 @@
 * [https://plugins.jetbrains.com/plugin/13595-code-generator](https://plugins.jetbrains.com/plugin/13595-code-generator)
 
 
+## EasyCode
+
+* [https://github.com/makejavas/EasyCode](https://github.com/makejavas/EasyCode)
+
+
 ## codehelper.generator
 
 > 生成器，可以更轻松，更高效地生成代码。

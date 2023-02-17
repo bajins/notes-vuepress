@@ -276,6 +276,7 @@
 * [https://github.com/majidgolshadi/Android-Download-Manager-Pro](https://github.com/majidgolshadi/Android-Download-Manager-Pro)
 * 蓝牙 [https://github.com/BasicAirData/BluetoothHelper](https://github.com/BasicAirData/BluetoothHelper)
 * 图像裁剪 [https://github.com/mike14u/croperino](https://github.com/mike14u/croperino)
+* 图表库 [https://github.com/PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 * 进度 [https://github.com/lzyzsd/CircleProgress](https://github.com/lzyzsd/CircleProgress)
 
 

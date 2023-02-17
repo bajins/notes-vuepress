@@ -370,6 +370,10 @@
 - [https://github.com/qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic)
 
 
+* [https://github.com/NAStool/nas-tools](https://github.com/NAStool/nas-tools)
+* [https://github.com/liu673cn/box](https://github.com/liu673cn/box)
+
+
 **Potplayer**
 
 * [http://potplayer.daum.net](http://potplayer.daum.net)
@@ -937,6 +941,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/theVakhovskeIsTaken/holoiso](https://github.com/theVakhovskeIsTaken/holoiso)
 * [https://github.com/Plagman/gamescope](https://github.com/Plagman/gamescope)
 * [https://github.com/open-goal/jak-project](https://github.com/open-goal/jak-project)
+* [https://github.com/alexbatalov/fallout1-ce](https://github.com/alexbatalov/fallout1-ce)
 
 
 + [http://www.downloadsoftware.ir](http://www.downloadsoftware.ir)

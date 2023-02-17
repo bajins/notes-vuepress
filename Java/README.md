@@ -216,6 +216,7 @@
 * [qiqiim=springmvc mybatis netty4在线IM，可用于公司内网、外网通讯，客服系统等](https://gitee.com/qiqiim/qiqiim-server)
 * [https://github.com/Exrick/x-boot](https://github.com/Exrick/x-boot)
 * [https://gitee.com/stylefeng/guns](https://gitee.com/stylefeng/guns)
+* [https://github.com/yangzongzhuan/RuoYi](https://github.com/yangzongzhuan/RuoYi)
 * [mall-swarm是一套微服务商城系统](https://github.com/macrozheng/mall-swarm)
 * [mall项目是一套电商系统，包括前台商城系统及后台管理系统](https://github.com/macrozheng/mall)
 * [基于SpringBoot2.x、SpringCloud并采用前后端分离的多租户系统架构微服务开发平台](https://gitee.com/ibyte/M-Pass)

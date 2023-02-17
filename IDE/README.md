@@ -18,7 +18,6 @@
 * [https://sourceforge.net/projects/liteide](https://sourceforge.net/projects/liteide)
 * [https://github.com/lapce](https://github.com/lapce)
 * [https://github.com/zed-industries](https://github.com/zed-industries)
-* DevOps指南 [https://github.com/Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide)
 
 
 
@@ -58,6 +57,8 @@
 - [https://github.com/atlassian](https://github.com/atlassian)
 - 界面设计 [https://github.com/figma](https://github.com/figma)
 - [https://github.com/planetscale](https://github.com/planetscale)
+- DevOps指南 [https://github.com/Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide)
+- [https://github.com/annfelix/DEVOPS-WORLD](https://github.com/annfelix/DEVOPS-WORLD)
 
 
 
@@ -171,6 +172,7 @@
     + [https://www.soapui.org](https://www.soapui.org)
     + [SoapUI 入门指南](https://blog.csdn.net/duleilewuhen/article/details/125127161)
     + [SoapUI接口测试工具最全实用教程](https://zhuanlan.zhihu.com/p/517806567)
++ [https://github.com/metersphere](https://github.com/metersphere)
 + [https://github.com/hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)
     + [https://hoppscotch.io](https://hoppscotch.io)
 + [https://github.com/katalon-studio](https://github.com/katalon-studio)
