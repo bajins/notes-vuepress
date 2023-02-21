@@ -28,6 +28,8 @@ arp -an
 # 
 ip a
 ifconfig
+# 提取主机上的IP信息
+ip add|grep "global"|awk'{print $2}'|awk -F/'{print $1}'
 
 # 输出当前的ESTABLISHED和TIME_WAIT数
 netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'

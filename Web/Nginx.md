@@ -695,7 +695,10 @@ http {
     limit_conn_zone $binary_remote_addr zone=perip:10m;
     limit_conn_zone $server_name zone=perserver:10m;
     server_tokens off;
+    # 关闭日志
     access_log off;
+    # 输出日志
+    #error_log /dev/null;
 }
 ```
 

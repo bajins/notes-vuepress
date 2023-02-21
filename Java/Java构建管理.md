@@ -13,8 +13,6 @@
     + [https://github.com/Omico/Gradm](https://github.com/Omico/Gradm)
     + [https://github.com/gdubw/gng](https://github.com/gdubw/gng)
 + [https://github.com/package-url](https://github.com/package-url)
-+ [https://github.com/topics/bazel](https://github.com/topics/bazel)
-+ [https://github.com/bazelbuild](https://github.com/bazelbuild)
 + [https://github.com/sbt/sbt](https://github.com/sbt/sbt)
 + [https://github.com/camunda](https://github.com/camunda)
 + [https://github.com/jbangdev](https://github.com/jbangdev)

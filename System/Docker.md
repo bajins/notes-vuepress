@@ -1,8 +1,6 @@
 # Docker
 
-
 [[toc]]
-
 
 
 ## Flag
@@ -37,8 +35,6 @@
 
 
 - 自己动手写docker [https://github.com/xianlubird/mydocker](https://github.com/xianlubird/mydocker)
-- 云原生构建包 [https://github.com/buildpacks](https://github.com/buildpacks)
-- 构建应用程序 [https://github.com/paketo-buildpacks](https://github.com/paketo-buildpacks)
 - [https://github.com/dragonflyoss/Dragonfly](https://github.com/dragonflyoss/Dragonfly)
 - [https://github.com/Alluxio/alluxio](https://github.com/Alluxio/alluxio)
 - [https://github.com/weaveworks/weave](https://github.com/weaveworks/weave)

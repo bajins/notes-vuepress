@@ -325,6 +325,8 @@ find / -type f -size +100M -print0 | xargs -0 du -hm | sort -nr
 # 查找从根目录下查找大于100M的文件，并显示文件的属性信息
 find / -type f -size +100M -print0 | xargs -0 ls -l
 
+# 查看子文件夹大小 -x 跳过其他文件系统
+du -h -x --max-depth=1
 # 查看当前文件夹下的文件夹占用大小并排序
 du -h --max-depth=2 | sort -n
 
