@@ -15,8 +15,7 @@
 
 + 隐私 [https://github.com/pluja/awesome-privacy](https://github.com/pluja/awesome-privacy)
 + [https://github.com/bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)
-+ [https://github.com/tuvtran/project-based-learning](https://github.com/tuvtran/project-based-learning)
-+ IT技术知识开源图谱 [https://codechina.csdn.net/dev-roadmap](https://codechina.csdn.net/dev-roadmap)
++ IT技术知识开源图谱 [https://gitcode.net/dev-roadmap](https://gitcode.net/dev-roadmap)
 
 
 **开源组织**
@@ -122,12 +121,6 @@
     * [Archive | waylau.com](https://waylau.com/archive)
     * [Books | waylau.com](https://waylau.com/books)
     * [https://legacy.gitbook.com/@waylau](https://legacy.gitbook.com/@waylau)
-* 视频讲座 [https://github.com/Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses)
-* 成为Web开发人员的路线图 [https://github.com/kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
-* [https://github.com/SmartKeyerror/Psyduck](https://github.com/SmartKeyerror/Psyduck)
-* 面试题 [https://github.com/0voice/campus_recruitmen_questions](https://github.com/0voice/campus_recruitmen_questions)
-* 反问面试官 [https://github.com/viraptor/reverse-interview](https://github.com/viraptor/reverse-interview)
-- [https://github.com/vvmdx/Sec-Interview-4-2023](https://github.com/vvmdx/Sec-Interview-4-2023)
 
 
 - [https://github.com/hoochanlon](https://github.com/hoochanlon)
@@ -151,6 +144,11 @@
 * 学习主题清单 [https://github.com/jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
 * [https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh](https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh)
 * [https://github.com/yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)
+* [https://github.com/practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning)
+* 学习开发路线图 [https://github.com/kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
+* [https://github.com/SmartKeyerror/Psyduck](https://github.com/SmartKeyerror/Psyduck)
+* [https://github.com/microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
+* 开发人员设计资源 [https://github.com/bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers)
 * 程序员技能图谱 [https://github.com/TeamStuQ/skill-map](https://github.com/TeamStuQ/skill-map)
 * [https://github.com/codecrafters-io](https://github.com/codecrafters-io)
 * [https://github.com/girliemac/a-picture-is-worth-a-1000-words](https://github.com/girliemac/a-picture-is-worth-a-1000-words)
@@ -158,6 +156,10 @@
 * 九十九个问题 [https://github.com/shekhargulati/99-problems](https://github.com/shekhargulati/99-problems)
 * [https://github.com/JosephZhu1983/java-common-mistakes](https://github.com/JosephZhu1983/java-common-mistakes)
 * [https://github.com/danistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x)
+* 视频讲座 [https://github.com/Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses)
+* 面试题 [https://github.com/0voice/campus_recruitmen_questions](https://github.com/0voice/campus_recruitmen_questions)
+* 反问面试官 [https://github.com/viraptor/reverse-interview](https://github.com/viraptor/reverse-interview)
+* [https://github.com/vvmdx/Sec-Interview-4-2023](https://github.com/vvmdx/Sec-Interview-4-2023)
 * 开源替代方案 [https://opensource.com/tags/alternatives](https://opensource.com/tags/alternatives)
 
 
@@ -182,9 +184,9 @@
 * [https://velocity.silverlakesoftware.com](https://velocity.silverlakesoftware.com)
 * 代码浏览器 [https://github.com/KDAB/codebrowser](https://github.com/KDAB/codebrowser)
     * [https://blog.weghos.com](https://blog.weghos.com)
-* 在线考试系统
-    * Java实现 [https://github.com/lsgwr/spring-boot-online-exam](https://github.com/lsgwr/spring-boot-online-exam)
-    * Python实现 [https://github.com/xingxingzaixian/django-drf-online-exam](https://github.com/xingxingzaixian/django-drf-online-exam)
+* Java考试系统 [https://github.com/lsgwr/spring-boot-online-exam](https://github.com/lsgwr/spring-boot-online-exam)
+* Python考试系统 [https://github.com/xingxingzaixian/django-drf-online-exam](https://github.com/xingxingzaixian/django-drf-online-exam)
+
 
 
 ## 学习

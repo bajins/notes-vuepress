@@ -5,7 +5,8 @@
 
 ## Flag
 
-
+* [https://github.com/PSPDFKit-labs/browserslist.dev](https://github.com/PSPDFKit-labs/browserslist.dev)
+    * [https://browserslist.dev](https://browserslist.dev)
 * [Marmoset-创建漂亮的代码图片](https://chrome.google.com/webstore/detail/marmoset/npkfpddkpefnmkflhhligbkofhnafieb)
 * 嵌入式框架（CEF） [https://github.com/chromiumembedded](https://github.com/chromiumembedded)
 * [https://github.com/arnoldthebat/chromiumos](https://github.com/arnoldthebat/chromiumos)
@@ -344,6 +345,7 @@ taskkill /f /im chromedriver.exe
 * [https://github.com/lmk123/crx-selection-translate](https://github.com/lmk123/crx-selection-translate)
 * [https://github.com/magic-FE/translate-man](https://github.com/magic-FE/translate-man)
 * [https://github.com/EdgeTranslate/EdgeTranslate](https://github.com/EdgeTranslate/EdgeTranslate)
+* [https://github.com/immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate)
 
 
 
