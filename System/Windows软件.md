@@ -348,6 +348,9 @@
 - [https://cue-splitter.medieval.it](https://cue-splitter.medieval.it)
 - [http://www.medieval.it/cuesplitter-pc/menu-id-71.html](http://www.medieval.it/cuesplitter-pc/menu-id-71.html)
 - 编码解码器 [https://www.free-codecs.com](https://www.free-codecs.com)
+- 视频编辑 [https://github.com/mltframework/shotcut](https://github.com/mltframework/shotcut)
+- [https://github.com/mifi/lossless-cut](https://github.com/mifi/lossless-cut)
+- [https://github.com/ozmartian/vidcutter](https://github.com/ozmartian/vidcutter)
 
 
 * [foobar2000](http://blog.sina.com.cn/go2spa)
@@ -371,7 +374,7 @@
 - [https://github.com/qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic)
 
 
-* [https://github.com/NAStool/nas-tools](https://github.com/NAStool/nas-tools)
+* 电视盒子 [https://github.com/NAStool/nas-tools](https://github.com/NAStool/nas-tools)
 * [https://github.com/liu673cn/box](https://github.com/liu673cn/box)
 
 
@@ -407,6 +410,7 @@
 * [https://github.com/ShareX](https://github.com/ShareX)
 * [https://github.com/aseprite/aseprite](https://github.com/aseprite/aseprite)
 * [https://github.com/akon47/ScreenRecorder](https://github.com/akon47/ScreenRecorder)
+* [https://github.com/wulkano/Kap](https://github.com/wulkano/Kap)
 * 班迪录屏Bandicam [https://www.bandicam.com](https://www.bandicam.com)
 * 傲软录屏ApowerREC [https://www.apowersoft.com](https://www.apowersoft.com)
 * [https://fraps.com](https://fraps.com)
@@ -429,12 +433,14 @@
 * [https://icons8.cn/lunacy](https://icons8.cn/lunacy)
 * [https://www.xnview.com](https://www.xnview.com)
 * [https://www.getpaint.net](https://www.getpaint.net)
-* [https://www.gimp.org](https://www.gimp.org)
+* [https://gitlab.gnome.org/GNOME/gimp](https://gitlab.gnome.org/GNOME/gimp)
+    * [https://www.gimp.org](https://www.gimp.org)
 * 3D创作 [https://www.blender.org](https://www.blender.org)
 * Icon矢量图 [https://inkscape.org/zh-hans](https://inkscape.org/zh-hans)
 * [https://icofx.ro](https://icofx.ro)
 * Axialis-IconWorkshop 官网 [https://www.axialis.com/download/#software](https://www.axialis.com/download/#software)
 * [https://github.com/darktable-org/darktable](https://github.com/darktable-org/darktable)
+* [https://amadine.com](https://amadine.com)
 
 
 - [https://affinity.serif.com](https://affinity.serif.com)
@@ -444,6 +450,7 @@
 - [https://www.wallpaperengine.io](https://www.wallpaperengine.io)
 - [https://www.rainmeter.net](https://www.rainmeter.net)
     - [https://zhutix.com/tag/rainmeter](https://zhutix.com/tag/rainmeter)
+- [https://al.chemy.org](https://al.chemy.org)
 
 
 
@@ -926,6 +933,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://getrolan.com](https://getrolan.com)
 * 黑暗模式 [https://github.com/Armin2208/Windows-Auto-Night-Mode](https://github.com/Armin2208/Windows-Auto-Night-Mode)
 * [https://github.com/jonls/redshift](https://github.com/jonls/redshift)
+* 休息提醒 [https://github.com/rcaelers/workrave](https://github.com/rcaelers/workrave)
 * 桌面 [https://www.coodesker.com](https://www.coodesker.com)
 * [EarTrumpet 为每个软件单独设置音量](https://www.microsoft.com/zh-cn/p/eartrumpet/9nblggh516xp)
 * 磁贴美化 [https://github.com/XIU2/TileTool](https://github.com/XIU2/TileTool)

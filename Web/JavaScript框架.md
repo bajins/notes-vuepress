@@ -92,6 +92,7 @@
 * [vue学习笔记](https://www.rumosky.wiki/docs/vue_learning_process)
 * [https://github.com/quasarframework](https://github.com/quasarframework)
 * [https://github.com/TuSimple/naive-ui](https://github.com/TuSimple/naive-ui)
+* [https://github.com/epicmaxco/vuestic-ui](https://github.com/epicmaxco/vuestic-ui)
 
 + [https://github.com/vitejs/vite](https://github.com/vitejs/vite)
 

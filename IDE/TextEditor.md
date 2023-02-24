@@ -5,6 +5,11 @@
 
 ## Flag
 
++ [https://github.com/topics/notepad?l=c%23](https://github.com/topics/notepad?l=c%23)
++ [https://github.com/topics/notepad?l=c%2B%2B](https://github.com/topics/notepad?l=c%2B%2B)
+
+
+
 * [https://github.com/GNOME/gedit](https://github.com/GNOME/gedit)
 * [https://github.com/emacs-tw/awesome-emacs](https://github.com/emacs-tw/awesome-emacs)
     * [http://www.gnu.org/software/emacs](http://www.gnu.org/software/emacs)
@@ -24,10 +29,8 @@
     * [https://github.com/LazyVim/LazyVim](https://github.com/LazyVim/LazyVim)
 * [https://github.com/helix-editor/helix](https://github.com/helix-editor/helix)
 * [https://github.com/file-acomplaint/kyun](https://github.com/file-acomplaint/kyun)
-* [C#写的记事本](https://github.com/topics/notepad?l=c%23)
-* [C++写的记事本](https://github.com/topics/notepad?l=c%2B%2B)
-* [Notepad3](https://github.com/rizonesoft/Notepad3)
-* [notepad2](https://github.com/zufuliu/notepad2)
+* [https://github.com/rizonesoft/Notepad3](https://github.com/rizonesoft/Notepad3)
+* [https://github.com/zufuliu/notepad2](https://github.com/zufuliu/notepad2)
 * [https://www.scintilla.org](https://www.scintilla.org)
 * [http://www.pnotepad.org](http://www.pnotepad.org)
 * [https://github.com/brackets-cont/brackets](https://github.com/brackets-cont/brackets)
@@ -37,6 +40,7 @@
 * [https://github.com/Komodo/KomodoEdit](https://github.com/Komodo/KomodoEdit)
 * [https://github.com/lite-xl/lite-xl](https://github.com/lite-xl/lite-xl)
 * [https://github.com/Alexey-T/CudaText](https://github.com/Alexey-T/CudaText)
+* [https://sourceforge.net/projects/bluefish](https://sourceforge.net/projects/bluefish)
 
 
 - [https://www.texmacs.org](https://www.texmacs.org)
