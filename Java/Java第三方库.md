@@ -196,6 +196,9 @@
 * 对配置内容加密 [https://github.com/ulisesbocchio/jasypt-spring-boot](https://github.com/ulisesbocchio/jasypt-spring-boot)
 * Google加密 [https://github.com/google/tink](https://github.com/google/tink)
 * bcprov-jdk15on [https://github.com/bcgit/bc-java](https://github.com/bcgit/bc-java) Bouncy Castle Crypto
+* [https://github.com/fzakaria/ascii85](https://github.com/fzakaria/ascii85)
+* [https://github.com/rbuck/java-codecs](https://github.com/rbuck/java-codecs)
+* [https://github.com/biagioT/java-uudecoder](https://github.com/biagioT/java-uudecoder)
 * Headless Chrome For Java [https://github.com/fanyong920/jvppeteer](https://github.com/fanyong920/jvppeteer)
 * [https://github.com/andotorg/utf8bom-to-utf8](https://github.com/andotorg/utf8bom-to-utf8)
 * [https://github.com/downgoon/gbk2utf8](https://github.com/downgoon/gbk2utf8)
