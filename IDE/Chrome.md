@@ -346,6 +346,7 @@ taskkill /f /im chromedriver.exe
 * [https://github.com/magic-FE/translate-man](https://github.com/magic-FE/translate-man)
 * [https://github.com/EdgeTranslate/EdgeTranslate](https://github.com/EdgeTranslate/EdgeTranslate)
 * [https://github.com/immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate)
+* [https://github.com/OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX)
 
 
 

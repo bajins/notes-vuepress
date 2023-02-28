@@ -49,6 +49,7 @@
 - [https://github.com/servo/servo](https://github.com/servo/servo)
 - [https://github.com/bellard/quickjs](https://github.com/bellard/quickjs)
 - [https://github.com/saghul/txiki.js](https://github.com/saghul/txiki.js)
+- [https://github.com/oven-sh/bun](https://github.com/oven-sh/bun)
 
 
 

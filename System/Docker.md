@@ -100,7 +100,6 @@
 * Ansible
 * Packer
 * 谷歌、IBM、微软、Pivotal、SAP、SUSE、Swisscom、GE
-* [https://github.com/openzfs/zfs](https://github.com/openzfs/zfs)
 * [https://github.com/wekan/wekan](https://github.com/wekan/wekan)
 * [https://github.com/google/gvisor](https://github.com/google/gvisor)
 * [https://github.com/fnproject](https://github.com/fnproject)
@@ -204,6 +203,7 @@ docker rm -f test-centos
 * [Docker Compose 详解](https://www.jianshu.com/p/658911a8cff3)
 * [Docker Compose 配置文件详解](https://www.jianshu.com/p/2217cfed29d7)
 * [docker run 和 docker-compose 配置挂载 Volume 并运行 nginx](https://www.jianshu.com/p/e11e01b9d675)
+* [https://github.com/Haxxnet/Compose-Examples](https://github.com/Haxxnet/Compose-Examples)
 
 
 > Compose 文件是一个 YAML , 主要定义了 `services`,`networks` 和 `volumes`，其默认路径是 `./docker-compose.yml`

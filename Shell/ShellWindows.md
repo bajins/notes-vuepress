@@ -159,6 +159,8 @@ vim /etc/init.wsl
 + [https://github.com/topics/mingw-w64](https://github.com/topics/mingw-w64)
 + [https://github.com/topics/msvc](https://github.com/topics/msvc)
 
+
+* [https://osdn.net/projects/mingw](https://osdn.net/projects/mingw)
 * [http://mingw-w64.org](http://mingw-w64.org)
     * [https://github.com/mirror/mingw-w64](https://github.com/mirror/mingw-w64)
 * 包管理 [https://packages.msys2.org](https://packages.msys2.org)

@@ -88,6 +88,7 @@
     * [https://github.com/rust-qt](https://github.com/rust-qt)
     * [https://github.com/d-e-s-o/gui](https://github.com/d-e-s-o/gui)
     * [https://github.com/redox-os/orbtk](https://github.com/redox-os/orbtk)
+        * [https://gitlab.redox-os.org/redox-os](https://gitlab.redox-os.org/redox-os)
     * [https://github.com/filcuc/DOtherSide](https://github.com/filcuc/DOtherSide)
 * webview绑定 [https://github.com/webview](https://github.com/webview)
     * [https://github.com/Boscop/web-view](https://github.com/Boscop/web-view)
