@@ -191,9 +191,9 @@
 
 * [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
     * [https://sourceforge.net/projects/htmlunit](https://sourceforge.net/projects/htmlunit)
-* 对配置内容加密 [https://github.com/ulisesbocchio/jasypt-spring-boot](https://github.com/ulisesbocchio/jasypt-spring-boot)
 * Java8以下的时间替代项目`joda-time` [https://github.com/JodaOrg](https://github.com/JodaOrg)
 * [https://github.com/iandarwin/date4j](https://github.com/iandarwin/date4j)
+* 对配置内容加密 [https://github.com/ulisesbocchio/jasypt-spring-boot](https://github.com/ulisesbocchio/jasypt-spring-boot)
 * Google加密 [https://github.com/google/tink](https://github.com/google/tink)
 * bcprov-jdk15on [https://github.com/bcgit/bc-java](https://github.com/bcgit/bc-java) Bouncy Castle Crypto
 * Headless Chrome For Java [https://github.com/fanyong920/jvppeteer](https://github.com/fanyong920/jvppeteer)
