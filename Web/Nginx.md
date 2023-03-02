@@ -109,6 +109,7 @@ nginx -t
 
 * Lua多种扩展模块 [https://github.com/openresty](https://github.com/openresty)
     * [https://openresty.org/cn](https://openresty.org/cn)
+    * [https://openresty-reference.readthedocs.io](https://openresty-reference.readthedocs.io)
     * [OpenResty 概要及原理科普](https://honeypps.com/architect/introduction-of-openresty)
     * [openresty 的动态 - SegmentFault 思否](https://segmentfault.com/t/openresty)
     * [https://www.nginx.com/resources/wiki/modules/lua](https://www.nginx.com/resources/wiki/modules/lua)

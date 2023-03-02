@@ -19,6 +19,7 @@
 * [https://sourceforge.net/projects/liteide](https://sourceforge.net/projects/liteide)
 * [https://github.com/lapce](https://github.com/lapce)
 * [https://github.com/zed-industries](https://github.com/zed-industries)
+* [https://github.com/capistrano/sshkit](https://github.com/capistrano/sshkit)
 
 
 

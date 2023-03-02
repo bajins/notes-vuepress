@@ -245,3 +245,7 @@
 * [https://github.com/o2oa/o2oa](https://github.com/o2oa/o2oa)
 * [https://github.com/wildfirechat/im-server](https://github.com/wildfirechat/im-server)
 * [https://github.com/xiweicheng/tms](https://github.com/xiweicheng/tms)
+* [https://github.com/KouShenhai/KCloud-Platform-Alibaba](https://github.com/KouShenhai/KCloud-Platform-Alibaba)
+* [https://github.com/shiyindaxiaojie/eden-demo-cola](https://github.com/shiyindaxiaojie/eden-demo-cola)
+* [https://github.com/argouml-tigris-org](https://github.com/argouml-tigris-org)
+

@@ -882,7 +882,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 > cloud-based TOTP apps
 
-* [1Password](https://support.1password.com/one-time-passwords)
+* [https://github.com/1Password](https://github.com/1Password)
 * [Authy](https://authy.com/guides/github)
 * [LastPass Authenticator](https://support.logmeininc.com/lastpass/help/lastpass-authenticator-lp030014)
 * [Microsoft Authenticator](https://www.microsoft.com/zh-cn/account/authenticator)
@@ -892,6 +892,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
     * [https://www.lastpass.com](https://www.lastpass.com)
 * [https://github.com/bitwarden](https://github.com/bitwarden)
 * [https://www.passwordstore.org](https://www.passwordstore.org)
+* [https://github.com/Infisical/infisical](https://github.com/Infisical/infisical)
 
 
 

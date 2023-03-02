@@ -55,7 +55,7 @@
 * Rust [https://github.com/yewstack/yew](https://github.com/yewstack/yew)
 * [https://github.com/iced-rs/iced](https://github.com/iced-rs/iced)
 * [https://github.com/fltk-rs](https://github.com/fltk-rs)
-* [https://github.com/linebender/druid](https://github.com/linebender/druid)
+* [https://github.com/linebender](https://github.com/linebender)
 * [https://github.com/slint-ui](https://github.com/slint-ui)
 * [https://github.com/emilk/egui](https://github.com/emilk/egui)
 * 打包可执行文件 [https://github.com/vercel/pkg](https://github.com/vercel/pkg)

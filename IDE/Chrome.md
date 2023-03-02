@@ -64,6 +64,7 @@
     * [https://brave.com](https://brave.com)
     * [https://github.com/brave-experiments](https://github.com/brave-experiments)
 * [https://github.com/kiwibrowser](https://github.com/kiwibrowser)
+* [https://github.com/minbrowser](https://github.com/minbrowser)
 
 
 - TOR [https://github.com/alecmuffett/real-world-onion-sites](https://github.com/alecmuffett/real-world-onion-sites)

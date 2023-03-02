@@ -144,6 +144,7 @@
 * 测试 [https://github.com/sclevine/spec](https://github.com/sclevine/spec)
 * [https://github.com/onsi/ginkgo](https://github.com/onsi/ginkgo)
 * [https://github.com/spectolabs/hoverfly](https://github.com/spectolabs/hoverfly)
+* [https://github.com/stretchr/testify](https://github.com/stretchr/testify)
 * WebSocket [https://github.com/gorilla/websocket](https://github.com/gorilla/websocket)
     * [在 Gin 项目中使用 WebSocket](https://www.cnblogs.com/chnmig/p/14463837.html)
     * [https://github.com/kone-net/go-chat](https://github.com/kone-net/go-chat)

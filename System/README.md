@@ -57,6 +57,7 @@
 
 
 - [https://github.com/torvalds/linux](https://github.com/torvalds/linux)
+    - [https://github.com/Rust-for-Linux](https://github.com/Rust-for-Linux)
 - [https://github.com/rocky-linux](https://github.com/rocky-linux)
 - [https://github.com/AlmaLinux](https://github.com/AlmaLinux)
 - [https://github.com/microsoft/CBL-Mariner](https://github.com/microsoft/CBL-Mariner)
