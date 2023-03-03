@@ -88,6 +88,7 @@
 + [https://github.com/gocd](https://github.com/gocd)
 + [https://github.com/travis-ci](https://github.com/travis-ci)
 + [https://github.com/wercker](https://github.com/wercker)
++ [https://github.com/codemagic-ci-cd](https://github.com/codemagic-ci-cd)
 
 
 

@@ -6,13 +6,19 @@
 ## Flag
 
 + [https://github.com/android](https://github.com/android)
+    + [https://developers.google.cn](https://developers.google.cn)
     + [https://developer.android.com](https://developer.android.com)
     + [https://developer.android.google.cn](https://developer.android.google.cn)
+    + [https://source.android.google.cn](https://source.android.google.cn)
+    + [https://developer.android.google.cn/jetpack/compose](https://developer.android.google.cn/jetpack/compose)
+    + [https://developer.android.google.cn/jetpack/androidx/compose-roadmap](https://developer.android.google.cn/jetpack/androidx/compose-roadmap)
+    + [https://developer.android.google.cn/studio/run/win-usb](https://developer.android.google.cn/studio/run/win-usb)
+    + [全网最全最细Android Studio 安装和使用教程](https://zhuanlan.zhihu.com/p/528196912)
 + [https://github.com/aosp-mirror](https://github.com/aosp-mirror)
     + [https://github.com/AospExtended](https://github.com/AospExtended)
 + [https://github.com/aosp-riscv](https://github.com/aosp-riscv)
-+ [https://developer.android.google.cn/jetpack/compose](https://developer.android.google.cn/jetpack/compose)
-+ [https://developer.android.google.cn/jetpack/androidx/compose-roadmap](https://developer.android.google.cn/jetpack/androidx/compose-roadmap)
++ [https://github.com/inferjay/AndroidDevTools](https://github.com/inferjay/AndroidDevTools)
+    + [https://www.androiddevtools.cn](https://www.androiddevtools.cn)
 + [https://android-arsenal.com](https://android-arsenal.com)
 + [https://github.com/lineageos](https://github.com/lineageos)
 + [https://github.com/idisfkj/android-api-analysis](https://github.com/idisfkj/android-api-analysis)
@@ -32,6 +38,7 @@
 - 备份提取 [https://github.com/nelenkov/android-backup-extractor](https://github.com/nelenkov/android-backup-extractor)
 
 
++ [https://github.com/xieyuliang/Note-Android](https://github.com/xieyuliang/Note-Android)
 + [https://github.com/pengxurui/AndroidFamily](https://github.com/pengxurui/AndroidFamily)
 + 面试题 [https://github.com/Blankj/AndroidOfferKiller](https://github.com/Blankj/AndroidOfferKiller)
 + [https://github.com/jeanboydev/Android-ReadTheFuckingSourceCode](https://github.com/jeanboydev/Android-ReadTheFuckingSourceCode)
@@ -41,8 +48,6 @@
 + [Android：JNI 与 NDK到底是什么？](https://blog.csdn.net/carson_ho/article/details/73250163)
 + 进程保活 [https://github.com/peakerlu/appkeepLive](https://github.com/peakerlu/appkeepLive)
 + [「安卓果酱」存档](https://cn.apkjam.com/archives)
-
-
 + adb和fastboot [https://github.com/fast-geek/Android-Tool](https://github.com/fast-geek/Android-Tool)
 + 在linux下运行安卓应用xDroid [https://www.linzhuotech.com](https://www.linzhuotech.com)
 + [https://github.com/anbox/anbox](https://github.com/anbox/anbox)

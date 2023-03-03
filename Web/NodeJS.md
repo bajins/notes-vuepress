@@ -92,6 +92,7 @@
 * 分布式ID [https://github.com/cloudyan/snowflake](https://github.com/cloudyan/snowflake)
 * REST [https://github.com/restify](https://github.com/restify)
 * [https://github.com/senchalabs/connect](https://github.com/senchalabs/connect)
+* 压缩解压文件 [https://github.com/quentinrossetti/node-7z](https://github.com/quentinrossetti/node-7z)
 
 
 
