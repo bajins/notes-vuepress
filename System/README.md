@@ -215,6 +215,7 @@
 * [https://github.com/prometheus](https://github.com/prometheus)
     * [Prometheus监控tomcat+jvm](https://www.cnblogs.com/you-men/p/13216976.html)
     * [https://iqsing.github.io/categories/prometheus](https://iqsing.github.io/categories/prometheus)
+* [https://github.com/ccfos/nightingale](https://github.com/ccfos/nightingale)
 * [https://github.com/scouter-project/scouter](https://github.com/scouter-project/scouter)
 * 可视化套件 [https://github.com/grafana/grafana](https://github.com/grafana/grafana)
 * [https://github.com/GitSquared/edex-ui](https://github.com/GitSquared/edex-ui)

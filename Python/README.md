@@ -136,6 +136,7 @@ with Test() as t: # 触发__exit__
 * [https://github.com/Pylons](https://github.com/Pylons)
 * [https://github.com/bottlepy/bottle](https://github.com/bottlepy/bottle)
 * [https://github.com/frappe/frappe](https://github.com/frappe/frappe)
+* [https://github.com/zauberzeug/nicegui](https://github.com/zauberzeug/nicegui)
 * 定时任务 [https://github.com/agronholm/apscheduler](https://github.com/agronholm/apscheduler)
     * [https://apscheduler.readthedocs.io](https://apscheduler.readthedocs.io)
 * ORM [https://github.com/sqlalchemy/sqlalchemy](https://github.com/sqlalchemy/sqlalchemy)

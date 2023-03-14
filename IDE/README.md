@@ -42,6 +42,8 @@
 - C/C++ [https://dwheeler.com/flawfinder](https://dwheeler.com/flawfinder)
 - .NET [https://github.com/security-code-scan/security-code-scan](https://github.com/security-code-scan/security-code-scan)
 - 计算代码行数 [https://github.com/AlDanial/cloc](https://github.com/AlDanial/cloc)
+- 代码覆盖率 [https://github.com/codedx/codepulse](https://github.com/codedx/codepulse)
+- [https://github.com/jacoco/jacoco](https://github.com/jacoco/jacoco)
 
 
 
@@ -73,12 +75,6 @@
 
 > CI/CD优点是，重复的工作用自动化来代替、减少时间成本、版本发布时间减短了。
 > 当开发每天会提交多次代码到主干上，会做一些重复性的动作时，就可以用持续集成环境来操作。
-
-
-* [https://github.com/devstream-io/devstream](https://github.com/devstream-io/devstream)
-    * [https://github.com/merico-dev/stream](https://github.com/merico-dev/stream)
-* [https://github.com/TestLinkOpenSourceTRMS/testlink-code](https://github.com/TestLinkOpenSourceTRMS/testlink-code)
-    * [https://sourceforge.net/projects/testlink](https://sourceforge.net/projects/testlink)
 
 
 + [CI services](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/ci-configuration.md)
@@ -155,6 +151,7 @@
 
 * [https://github.com/topics/testing](https://github.com/topics/testing)
 * [https://github.com/topics/test-automation](https://github.com/topics/test-automation)
+* [https://github.com/jumper2014/awesome-test-tool](https://github.com/jumper2014/awesome-test-tool)
 
 
 + [https://github.com/apache/jmeter](https://github.com/apache/jmeter)
@@ -184,6 +181,7 @@
 + [https://gitee.com/itestwork/itest](https://gitee.com/itestwork/itest)
 + [https://github.com/seagull1985/LuckyFrameClient](https://github.com/seagull1985/LuckyFrameClient)
 + [https://github.com/zyanycall/stressTestPlatform](https://github.com/zyanycall/stressTestPlatform)
++ [https://github.com/Postcatlab/postcat](https://github.com/Postcatlab/postcat)
 + [https://github.com/Apipost-Team](https://github.com/Apipost-Team)
     + [https://www.apipost.cn](https://www.apipost.cn)
 + [https://github.com/apifox](https://github.com/apifox)
@@ -191,6 +189,8 @@
     + [https://www.apifox.cn](https://www.apifox.cn)
 + [https://github.com/eolinker](https://github.com/eolinker)
     + [https://www.eolink.com](https://www.eolink.com)
++ [https://github.com/feisuanyz/SoFlu-adp](https://github.com/feisuanyz/SoFlu-adp)
++ [https://github.com/httprunner](https://github.com/httprunner)
 + LoadRunner [https://www.microfocus.com/zh-cn/products#all-L](https://www.microfocus.com/zh-cn/products#all-L)
     + [https://liushilive.github.io/github_exercise_performance_testing](https://liushilive.github.io/github_exercise_performance_testing)
     + [性能测试入门——LoadRunner使用初探](https://zhuanlan.zhihu.com/p/24812449)
@@ -199,7 +199,8 @@
 
 
 - mac paw [https://github.com/luckymarmot](https://github.com/luckymarmot)
-
+- [https://github.com/f0ng/poc2jar](https://github.com/f0ng/poc2jar)
+- [https://github.com/ffffffff0x/BerylEnigma](https://github.com/ffffffff0x/BerylEnigma)
 
 
 
@@ -454,7 +455,10 @@
 * [https://gitee.com/itestwork/itest](https://gitee.com/itestwork/itest)
 * [https://github.com/hyahm/ITflow](https://github.com/hyahm/ITflow)
 * [https://www.tapd.cn](https://www.tapd.cn)
-
+* [https://github.com/devstream-io/devstream](https://github.com/devstream-io/devstream)
+    * [https://github.com/merico-dev/stream](https://github.com/merico-dev/stream)
+* [https://github.com/TestLinkOpenSourceTRMS/testlink-code](https://github.com/TestLinkOpenSourceTRMS/testlink-code)
+    * [https://sourceforge.net/projects/testlink](https://sourceforge.net/projects/testlink)
 
 
 

@@ -28,6 +28,7 @@
 * [https://github.com/Netflix](https://github.com/Netflix)
 * [https://github.com/alibaba](https://github.com/alibaba)
     * [https://tech.taobao.org/open-source](https://tech.taobao.org/open-source)
+* [https://github.com/alipay](https://github.com/alipay)
 * [https://github.com/tencent](https://github.com/tencent)
 * [https://github.com/bytedance](https://github.com/bytedance)
 * [https://github.com/huawei](https://github.com/huawei)

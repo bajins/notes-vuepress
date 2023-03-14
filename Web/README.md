@@ -93,6 +93,7 @@
     * [https://www.jekyll.com.cn](https://www.jekyll.com.cn)
     * [https://github.com/mattvh/jekyllthemes](https://github.com/mattvh/jekyllthemes)
 * 静态编译Docsite [https://github.com/txd-team/docsite](https://github.com/txd-team/docsite)
+* [https://github.com/tangly1024/NotionNext](https://github.com/tangly1024/NotionNext)
 * 运行时驱动Docsify [https://github.com/docsifyjs/docsify](https://github.com/docsifyjs/docsify)
     * [https://github.com/docsifyjs/awesome-docsify](https://github.com/docsifyjs/awesome-docsify)
 * 运行时驱动 [https://github.com/egoist/docute](https://github.com/egoist/docute)

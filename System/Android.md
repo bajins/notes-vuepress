@@ -49,6 +49,7 @@
 + 进程保活 [https://github.com/peakerlu/appkeepLive](https://github.com/peakerlu/appkeepLive)
 + [「安卓果酱」存档](https://cn.apkjam.com/archives)
 + adb和fastboot [https://github.com/fast-geek/Android-Tool](https://github.com/fast-geek/Android-Tool)
++ [https://github.com/yangchong211/YCAndroidTool](https://github.com/yangchong211/YCAndroidTool)
 + 在linux下运行安卓应用xDroid [https://www.linzhuotech.com](https://www.linzhuotech.com)
 + [https://github.com/anbox/anbox](https://github.com/anbox/anbox)
     + [Linux上运行安卓应用:安装使用Anbox](https://www.cnblogs.com/syisyuan/p/12811595.html)
