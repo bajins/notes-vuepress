@@ -9,8 +9,6 @@
 
 **[浏览器下载](/IDE/Chrome.md#浏览器下载)**
 
-**[Android软件](/Other/MobileNative.md#软件)**
-
 + [Windows 10 有哪些值得推荐的必装软件？](https://www.zhihu.com/question/35088093)
 
 - [https://github.com/topics/desktop-app](https://github.com/topics/desktop-app)
@@ -43,8 +41,6 @@
 * [https://myqqjd.com](https://myqqjd.com)
 * [http://www.ypojie.com](http://www.ypojie.com)
 * [https://www.ccava.net](https://www.ccava.net)
-* [https://www.zrbk.xyz](https://www.zrbk.xyz)
-* [http://yx.bsh.me](http://yx.bsh.me)
 * [苦瓜甘甜](http://www.kuguagantian.com)
 * [https://ylface.com](https://ylface.com)
 
@@ -450,6 +446,7 @@
 - [https://www.rainmeter.net](https://www.rainmeter.net)
     - [https://zhutix.com/tag/rainmeter](https://zhutix.com/tag/rainmeter)
 - [https://al.chemy.org](https://al.chemy.org)
+- 模拟iPhone截图 [https://shots.so](https://shots.so)
 
 
 

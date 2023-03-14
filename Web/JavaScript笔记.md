@@ -13,6 +13,7 @@
 * [JS进阶篇1---函数节流（throttle）](https://segmentfault.com/a/1190000019577510)
 * [js防止重复触发事件](https://segmentfault.com/a/1190000012147456)
 * [JS中的call、apply、bind方法详解](https://www.cnblogs.com/moqiutao/p/7371988.html)
+* [js实现replaceAll方法](https://blog.csdn.net/fukaiit/article/details/83245943)
 
 
 **回调地狱**
@@ -152,6 +153,13 @@ cursor: not-allowed;
 ```
 
 **href伪协议**
+
+> `javascript:` 是一个伪协议，表示在触发默认动作时，执行一段JavaScript代码。
+
+- `javascript:;` 表示什么都不执行，点击时没有任何反应。
+- `#`点击后，页面默认上滚到页的顶部，`οnclick="return false"`或`event.returnValue=false;` 防止上滚到页的顶部
+- `####` 用2个到4个`#`或`#all`，一个无意义的标签指定，不做任何处理。
+- `javascript：void(0);` 表示一个死链接，执行空事件
 
 ```html
 <a href="javascript:void(0);" onclick="test()">{{ row.name }}</a>

@@ -444,6 +444,7 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
 
 **Mime/Content-Type/Media-Type**
 
++ [https://github.com/search?q=mime](https://github.com/search?q=mime)
 + [https://github.com/topics/mime](https://github.com/topics/mime)
 + [https://github.com/mime-types](https://github.com/mime-types)
 + [https://www.solvusoft.com/en/mime-multipurpose-internet-mail-extensions](https://www.solvusoft.com/en/mime-multipurpose-internet-mail-extensions)

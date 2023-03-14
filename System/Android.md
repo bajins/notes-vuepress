@@ -410,13 +410,14 @@
 **破解软件下载**
 
 + [http://www.sharerw.com](http://www.sharerw.com)
-+ [https://htcui.com](https://htcui.com)
 + [https://fsylr.com](https://fsylr.com)
 + [https://www.vxat.com](https://www.vxat.com)
++ [https://xcxymw.com](https://xcxymw.com)
 + [https://www.lxapk.com](https://www.lxapk.com)
 + [https://www.nite07.com](https://www.nite07.com)
-+ [https://www.6yit.com](https://www.6yit.com)
 + [https://www.whg6.com](https://www.whg6.com)
+* [https://www.lan-sha.com](https://www.lan-sha.com)
++ [https://liteapks.com](https://liteapks.com)
 + [https://forum.release-apk.com/viewforum.php?f=5](https://forum.release-apk.com/viewforum.php?f=5)
     + [https://forum.release-apk.com/tag/downloader](https://forum.release-apk.com/tag/downloader)
 + [https://patch.chelpus.com](https://patch.chelpus.com)
@@ -441,7 +442,7 @@
 * [静听音乐](http://pan.lanzoui.com/b04aslz3c)
 
 
-**其他**
+### 其他
 
 + [https://github.com/topics/game](https://github.com/topics/game)
 + [https://github.com/topics/mobile-game](https://github.com/topics/mobile-game)
@@ -471,3 +472,49 @@
 * 浏览器 [https://github.com/tuyafeng/Via](https://github.com/tuyafeng/Via)
 * 阅读器 [https://github.com/koreader/koreader](https://github.com/koreader/koreader)
 
+
+### 证件照
+
++ https://wwa.lanzoui.com/b04bz873e 提取码：9886
++ https://pan.baidu.com/s/1L21hwqtztFnuXLTcuyzH6Q 提取码：u4nw
+
+
+* 最美证件照
+* 精英证件照
+* 乐拍证件照
+* 懒人证件照
+* 证件照极拍
+* 智能证件照
+* 自助证件照
+* 免费证件照
+* 最美电子证件照
+* 证件照研究院
+* 证件照随拍
+* ID PHOTO + Retouch
+* 证照之星
+* 华图证件照拍摄（微信小程序）
+* 陕西中公证件照（微信小程序）
+* 粉笔证件照（微信小程序）
+* 智绘证件照（微信小程序）
+* 佐糖证件照（网页／微信小程序）
+* 凡科快图（网页）
+* 小呆证件照（微信小程序）
+* 证照拍（微信小程序）
+
+**怎么拍出好看的证件照？**
+
+- 选对衣服
+
+> 浅色背景，尽量选深色衣服来拍，你也不想和背景融为一体吧...如果是白底照片，选黑色的一般不会出错，显瘦又显白。深色背景，就选浅色衣服，强烈对比会让人显得更白嫩。
+>
+> 在选对色调的情况下，尽量避免穿高领，脖子长还好，脖子短简直要命，最好是穿一件儿衬衫去照相馆。
+>
+> 穿衬衫也是有些讲究的，最好是不系最上面的一颗扣子，这样能起到修长脖子的作用。
+
+- 要会“藏下巴”
+
+> 胖子就傲娇一点，别低头，双下巴会出来。如果稍微仰头也还是没办法藏住下巴，试试收紧肩胛骨，会有意想不到的收获。
+
+- 看镜头上方3cm处
+
+> 眼睛要大！那么，拍照的时候微微抬眼，看镜头上方3cm处，这样会撑起眼睛来，显得眼睛大些。

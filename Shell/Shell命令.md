@@ -179,6 +179,8 @@ printf "%x\n" 值
 ps -aux | grep nginx
 # 每个进程启动之后在 /proc下面有一个于pid对应的路径
 ls -l /proc/PID
+
+ps -A | grep "nginx" | awk '{print "/proc/"$1"/exe"}' | xargs ls -l
 ```
 
 

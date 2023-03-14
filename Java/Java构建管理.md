@@ -223,6 +223,9 @@
 
 **仓库**
 
++ [https://github.com/jvm-repo-rebuild/reproducible-central](https://github.com/jvm-repo-rebuild/reproducible-central)
+
+
 * [http://mvnrepository.com](http://mvnrepository.com)
 * [https://search.maven.org](https://search.maven.org)
 * [https://www.mvncenter.com](https://www.mvncenter.com)
@@ -231,6 +234,7 @@
 * JFrog Bintray [https://github.com/bintray](https://github.com/bintray)
     * [https://bintray.com](https://bintray.com)
 * [https://packages.aliyun.com](https://packages.aliyun.com)
+
 
 
 **插件**
@@ -247,6 +251,7 @@
 + 模块化 [https://github.com/moditect/layrry](https://github.com/moditect/layrry)
 + 检测旧版API [https://github.com/gaul/modernizer-maven-plugin](https://github.com/gaul/modernizer-maven-plugin)
 + [https://github.com/mojohaus/build-helper-maven-plugin](https://github.com/mojohaus/build-helper-maven-plugin)
++ 排序 [https://github.com/Ekryd/sortpom](https://github.com/Ekryd/sortpom)
 
 
 
