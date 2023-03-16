@@ -1,9 +1,6 @@
 # WindowsBatch
 
-
 [[toc]]
-
-
 
 
 ## Flag

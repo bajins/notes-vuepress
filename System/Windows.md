@@ -18,6 +18,7 @@
 
 > 当分区后应该设置主分区为活动分区（选中该主分区右键选择激活分区）
 
+* [关闭Windows的下载目录的自动分组功能](https://www.meowpass.com/pages/81c01d)
 * [比较 Windows 10 的不同版本](https://www.microsoft.com/zh-cn/windowsforbusiness/compare)
 * [Windows 10 版本的版本信息](https://docs.microsoft.com/zh-cn/windows/release-information)
 * [Windows 10 更新历史记录](https://support.microsoft.com/zh-cn/help/4555932)

@@ -1,8 +1,6 @@
 # PowerShell
 
-
 [[toc]]
-
 
 
 ## Flag
