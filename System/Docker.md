@@ -35,8 +35,6 @@
 
 
 - 自己动手写docker [https://github.com/xianlubird/mydocker](https://github.com/xianlubird/mydocker)
-- [https://github.com/dragonflyoss/Dragonfly](https://github.com/dragonflyoss/Dragonfly)
-- [https://github.com/Alluxio/alluxio](https://github.com/Alluxio/alluxio)
 - [https://github.com/weaveworks/weave](https://github.com/weaveworks/weave)
 - [https://github.com/jessfraz/dockerfiles](https://github.com/jessfraz/dockerfiles)
 

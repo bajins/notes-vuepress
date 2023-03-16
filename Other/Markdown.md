@@ -550,4 +550,4 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/flxzt/rnote](https://github.com/flxzt/rnote)
 * [https://github.com/pbek/QOwnNotes](https://github.com/pbek/QOwnNotes)
 * [https://github.com/usememos/memos](https://github.com/usememos/memos)
-
+* [https://github.com/standardnotes](https://github.com/standardnotes)

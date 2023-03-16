@@ -416,6 +416,7 @@
 * [https://www.nvidia.com/en-us/geforce/geforce-experience/shadowplay](https://www.nvidia.com/en-us/geforce/geforce-experience/shadowplay)
 * [https://www.nvidia.cn/geforce/geforce-experience/shadowplay](https://www.nvidia.cn/geforce/geforce-experience/shadowplay)
 * EVCapture [https://www.ieway.cn/evcapture.html](https://www.ieway.cn/evcapture.html)
+* [https://lusun.com](https://lusun.com)
 * ZD Screen Recorder [http://www.zdsoft.com](http://www.zdsoft.com)
 
 

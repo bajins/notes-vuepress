@@ -10,7 +10,7 @@
 
 
 * [https://github.com/adolfintel/speedtest](https://github.com/adolfintel/speedtest)
-* Linux中国 翻译组 [https://github.com/LCTT](https://github.com/LCTT)
+* Linux中国翻译组 [https://github.com/LCTT](https://github.com/LCTT)
 * DPDK工程师手册 [https://github.com/0voice/dpdk_engineer_manual](https://github.com/0voice/dpdk_engineer_manual)
 
 

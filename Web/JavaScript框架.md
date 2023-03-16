@@ -94,7 +94,6 @@
 * [https://github.com/TuSimple/naive-ui](https://github.com/TuSimple/naive-ui)
 * [https://github.com/epicmaxco/vuestic-ui](https://github.com/epicmaxco/vuestic-ui)
 
-+ [https://github.com/vitejs/vite](https://github.com/vitejs/vite)
 
 ![](/images/vue生命周期详解.png)
 
