@@ -140,6 +140,7 @@
 * [https://github.com/postcss/postcss](https://github.com/postcss/postcss)
 * [https://github.com/ansible-semaphore/semaphore](https://github.com/ansible-semaphore/semaphore)
 * [https://www.telerik.com/kendo-ui](https://www.telerik.com/kendo-ui)
+* [https://github.com/shadcn/ui](https://github.com/shadcn/ui)
 * 图标 [https://github.com/FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
 
 

@@ -46,6 +46,7 @@
 + [https://github.com/topics/javafx-library](https://github.com/topics/javafx-library)
 + [https://github.com/topics/javafx-8](https://github.com/topics/javafx-8)
 + [https://github.com/mhrimaz/AwesomeJavaFX](https://github.com/mhrimaz/AwesomeJavaFX)
++ [https://github.com/Typhon0/AnimateFX](https://github.com/Typhon0/AnimateFX)
 + [https://github.com/topics/fontawesomefx](https://github.com/topics/fontawesomefx)
     + [https://bitbucket.org/Jerady/fontawesomefx](https://bitbucket.org/Jerady/fontawesomefx)
     + [https://bintray.com/jerady/maven/FontAwesomeFX](https://bintray.com/jerady/maven/FontAwesomeFX)

@@ -199,6 +199,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 + [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
 + [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
 + [https://github.com/netnr/kms](https://github.com/netnr/kms)
++ [https://github.com/ikxin/kms-tools](https://github.com/ikxin/kms-tools)
 + [https://official-kmspico.com](https://official-kmspico.com)
 
 
@@ -212,7 +213,6 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://kms.loli.beer](https://kms.loli.beer)
 * [https://www.moerats.com/kms](https://www.moerats.com/kms)
 * [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4/)
-* [https://kms.cangshui.net](https://kms.cangshui.net)
 * [https://www.ghpym.com/kms.html](https://www.ghpym.com/kms.html)
 * [https://github.com/EDragon007/EDragonKMS](https://github.com/EDragon007/EDragonKMS)
 

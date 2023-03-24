@@ -10,6 +10,8 @@
 * [https://standards.iso.org/ittf/PubliclyAvailableStandards/index.html](https://standards.iso.org/ittf/PubliclyAvailableStandards/index.html)
 * [SQL标准简介](https://cloud.tencent.com/developer/article/1442564)
 * [数据库必知词汇：SQL标准](https://developer.aliyun.com/article/745815)
+* [SQL数据库中什么是游标？](https://www.zhihu.com/question/59114952/answer/2477832680)
+* [SQL之游标](https://www.cnblogs.com/xiao02fang/p/12567687.html)
 
 
 > 在标准 SQL 中，字符串使用的是单引号。

@@ -126,6 +126,7 @@
 - 视频会议 [https://github.com/OpenVidu](https://github.com/OpenVidu)
 - Instagram [https://github.com/jigar-sable/instagram-mern](https://github.com/jigar-sable/instagram-mern)
 - 类twitter [https://github.com/bluesky-social/adx](https://github.com/bluesky-social/adx)
+- [https://github.com/lensterxyz/lenster](https://github.com/lensterxyz/lenster)
 
 
 **Telegram**
@@ -679,6 +680,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://pcmanager.microsoft.com](https://pcmanager.microsoft.com)
 * Win10Clean [https://github.com/ElPumpo/Win10Clean](https://github.com/ElPumpo/Win10Clean)
 * Dism++ [https://github.com/Chuyu-Team](https://github.com/Chuyu-Team)
+* [http://www.tbtool.cn](http://www.tbtool.cn)
 * W10Privacy [https://www.winprivacy.de/deutsch-start/download](https://www.winprivacy.de/deutsch-start/download)
 * Windows 10 Manager [https://www.yamicsoft.com](https://www.yamicsoft.com)
     * `WMXD7-RG8FP-OYKS3-KHTN6`
@@ -810,6 +812,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.anyviewer.com](https://www.anyviewer.com)
 * [https://www.remoteutilities.com](https://www.remoteutilities.com)
 * [https://remotedesktop.google.com](https://remotedesktop.google.com)
+* [https://github.com/kimmknight/remoteapptool](https://github.com/kimmknight/remoteapptool)
 
 
 - ScreenWings 反截屏

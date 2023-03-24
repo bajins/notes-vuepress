@@ -6,6 +6,7 @@
 ## Flag
 
 + [https://github.com/semantic-release](https://github.com/semantic-release)
++ [https://github.com/GerritCodeReview/git-repo](https://github.com/GerritCodeReview/git-repo)
 
 
 * 忽略提交 [https://github.com/github/gitignore](https://github.com/github/gitignore)
@@ -77,8 +78,13 @@
 > 高版本的GitLab自带了中文语言包，可以通过上述方式直接切换。如果找不到该选项，表示你的版本还不支持。只能通过安装中文插件进行汉化。
 
 
++ [https://gitlab.com/gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab)
+    + [https://gitlab.cn/install/ce-or-ee](https://gitlab.cn/install/ce-or-ee)
++ [https://gitlab.com/gitlab-org/gitlab-runner](https://gitlab.com/gitlab-org/gitlab-runner)
+
+
 * [https://gitlab.com/xhang/gitlab/wikis/home](https://gitlab.com/xhang/gitlab/wikis/home)
-* [GitLab Community Edition (中文社区版)](https://github.com/twang2218/gitlab-ce-zh)
+* [https://github.com/twang2218/gitlab-ce-zh](https://github.com/twang2218/gitlab-ce-zh)
     * [汉化的 GitLab 社区版 Docker Image](https://hub.docker.com/r/twang2218/gitlab-ce-zh)
 * [https://hub.docker.com/r/bensonfx/gitlab-ce-zh](https://hub.docker.com/r/bensonfx/gitlab-ce-zh)
 * [https://github.com/bensonfx/codeserver](https://github.com/bensonfx/codeserver)
@@ -87,7 +93,6 @@
 * [https://crowdin.com/project/gitlab-ee](https://crowdin.com/project/gitlab-ee)
 * clone所有项目 [https://github.com/huchao1009/gitlab-projects-clone](https://github.com/huchao1009/gitlab-projects-clone)
 * [https://git.openldap.org](https://git.openldap.org)
-* [https://gitlab.com/gitlab-org/gitlab-runner](https://gitlab.com/gitlab-org/gitlab-runner)
 
 
 

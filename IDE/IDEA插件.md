@@ -131,7 +131,7 @@
 
 ## JSON-P to JSON generator
 
-> 使用[JSON-P](https://github.com/eclipse-ee4j/jsonp)在Java文件中自动创建`toJson()`方法
+> 在Java文件中自动创建`toJson()`方法
 
 * [https://plugins.jetbrains.com/plugin/13724-json-p-to-json-generator](https://plugins.jetbrains.com/plugin/13724-json-p-to-json-generator)
 

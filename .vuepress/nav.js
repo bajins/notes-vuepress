@@ -2,9 +2,14 @@ module.exports = [{
     text: '更多资源',
     items: [{
             // text: '',
-            items: [{
+            items: [
+                {
                     text: '动态编译博客',
                     link: 'https://www.gotoxo.com'
+                },
+                {
+                    text: '博客备份',
+                    link: 'https://notes-vuepress.pages.dev'
                 },
                 {
                     text: '获取XShell',

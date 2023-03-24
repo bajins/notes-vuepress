@@ -17,7 +17,6 @@
   + [https://github.com/microsoft/vfsforgit](https://github.com/microsoft/vfsforgit)
   + [https://github.com/microsoft/git](https://github.com/microsoft/git)
   + [https://github.com/jonas/tig](https://github.com/jonas/tig)
-+ [https://github.com/GerritCodeReview/git-repo](https://github.com/GerritCodeReview/git-repo)
 + [https://github.com/PJK/libcbor](https://github.com/PJK/libcbor)
 + [https://github.com/Yubico/libfido2](https://github.com/Yubico/libfido2)
 

@@ -479,10 +479,13 @@
 
 
 
-> JSON-B，即Java API for JSON Binding
+> JSON-B，即Java API for JSON Binding。
 
 + [https://github.com/json-schema-org](https://github.com/json-schema-org)
-+ Jakarta JSON处理规范 [https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
++ JSON-P [https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
++ Java反序列化备忘单 [https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet](https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet)
++ JSON库基准测试[https://github.com/fabienrenaud/java-json-benchmark](https://github.com/fabienrenaud/java-json-benchmark)
++ [https://github.com/eishay/jvm-serializers](https://github.com/eishay/jvm-serializers)
 
 
 * [https://github.com/cliftonlabs/json-simple](https://github.com/cliftonlabs/json-simple)
@@ -587,11 +590,6 @@
 + [https://github.com/flowable](https://github.com/flowable)
 + [https://github.com/espertechinc/esper](https://github.com/espertechinc/esper)
 + 规划引擎 [https://github.com/kiegroup](https://github.com/kiegroup)
-+ 大数据 [https://github.com/apache/hadoop](https://github.com/apache/hadoop)
-    + Spark、Flink、Hive、MapReduce、Presto、Impala
-    + [https://github.com/apache/parquet-mr](https://github.com/apache/parquet-mr)
-    + [https://github.com/apache/parquet-format](https://github.com/apache/parquet-format)
-    + [https://github.com/apache/orc](https://github.com/apache/orc)
 + 云原生框架 [https://github.com/quarkusio/quarkus](https://github.com/quarkusio/quarkus)
 + [https://github.com/piranhacloud](https://github.com/piranhacloud)
 + 全堆栈框架 [https://github.com/micronaut-projects](https://github.com/micronaut-projects)

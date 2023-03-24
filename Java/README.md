@@ -12,6 +12,7 @@
 > 这些提案会在合适的时间合适的地点被加入JDK的特定版本。
 
 + [https://github.com/topics/java](https://github.com/topics/java)
++ [https://github.com/jcp-org](https://github.com/jcp-org)
 + [https://docs.oracle.com](https://docs.oracle.com)
     + [https://www.oracle.com/cn/java/technologies](https://www.oracle.com/cn/java/technologies)
     + [https://www.oracle.com/cn/java/technologies/java-se-api-doc.html](https://www.oracle.com/cn/java/technologies/java-se-api-doc.html)
@@ -19,7 +20,6 @@
     + [https://docs.oracle.com/javase/8/docs](https://docs.oracle.com/javase/8/docs)
     + [https://docs.oracle.com/javase/7/docs](https://docs.oracle.com/javase/7/docs)
     + [JavaBeans 规范](https://www.oracle.com/cn/java/technologies/javase/javabeans-spec.html)
-    + [https://github.com/jcp-org](https://github.com/jcp-org)
 + [https://github.com/eclipse-ee4j](https://github.com/eclipse-ee4j)
     + [https://github.com/javaee](https://github.com/javaee)
     + [https://projects.eclipse.org/jakartaee](https://projects.eclipse.org/jakartaee)
@@ -28,6 +28,10 @@
 * [https://github.com/javaee-samples](https://github.com/javaee-samples)
 * 生成代码 [https://github.com/moshowgame/SpringBootCodeGenerator](https://github.com/moshowgame/SpringBootCodeGenerator)
 * 序列化基准测试 [https://github.com/eishay/jvm-serializers](https://github.com/eishay/jvm-serializers)
+* Java Web安全 [https://github.com/javaweb-sec/javaweb-sec](https://github.com/javaweb-sec/javaweb-sec)
+* [https://github.com/su18](https://github.com/su18)
+* [https://github.com/phith0n](https://github.com/phith0n)
+* [https://github.com/vulhub](https://github.com/vulhub)
 
 
 **Windows隐藏窗口后台运行jar包（推荐vbs可设置JVM参数）**
@@ -58,8 +62,6 @@
 * [https://github.com/Knn120/OnJava8-PDF](https://github.com/Knn120/OnJava8-PDF)
 * Java Tutorials 中文版 [https://github.com/pingfangx/java-tutorials-in-chinese](https://github.com/pingfangx/java-tutorials-in-chinese)
 * [https://github.com/jast90/The-Java-Tutorials-CN](https://github.com/jast90/The-Java-Tutorials-CN)
-* 翻译文档 [https://github.com/docs4dev](https://github.com/docs4dev)
-    * [https://www.docs4dev.com](https://www.docs4dev.com)
 * Java Servlet 3.1 规范 [https://github.com/waylau/servlet-3.1-specification](https://github.com/waylau/servlet-3.1-specification)
 * [https://github.com/flance/java-servlet-specification-4.0](https://github.com/flance/java-servlet-specification-4.0)
 * Java 8 函数式编程 [https://github.com/glen9527/Java-8-Lambdas-zh](https://github.com/glen9527/Java-8-Lambdas-zh)
@@ -181,6 +183,7 @@
     + [https://github.com/renrenio](https://github.com/renrenio)
 + [https://github.com/nutzam/nutz](https://github.com/nutzam/nutz)
 + [https://github.com/febsteam](https://github.com/febsteam)
++ [https://github.com/thinkgem/jeesite4](https://github.com/thinkgem/jeesite4)
 + [https://github.com/hs-web](https://github.com/hs-web)
 + [https://gitee.com/xiaonuobase](https://gitee.com/xiaonuobase)
 + [https://github.com/hiparker/opsli-boot](https://github.com/hiparker/opsli-boot)

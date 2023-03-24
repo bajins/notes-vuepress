@@ -5,6 +5,8 @@
 
 ## Flag
 
+> DBS（Data Base System，数据库系统）包括：DB（数据库）和DBMS（database management system，数据库管理系统）
+
 * [https://github.com/dunwu/db-tutorial](https://github.com/dunwu/db-tutorial)
 * [https://docs.aws.amazon.com/zh_cn/redshift/latest/dg/cm_chap_SQLCommandRef.html](https://docs.aws.amazon.com/zh_cn/redshift/latest/dg/cm_chap_SQLCommandRef.html)
 * [https://www.alibabacloud.com/help/zh/analyticdb-for-mysql/latest/sql-manual](https://www.alibabacloud.com/help/zh/analyticdb-for-mysql/latest/sql-manual)
@@ -105,6 +107,7 @@
 * [https://github.com/KvrocksLabs/kvrocks](https://github.com/KvrocksLabs/kvrocks)
 * CrateDB [https://github.com/crate/crate](https://github.com/crate/crate)
 * [https://github.com/influxdata/influxdb](https://github.com/influxdata/influxdb)
+    * [https://github.com/InfluxCommunity](https://github.com/InfluxCommunity)
 * [https://github.com/VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)
 * 使用Raft算法 [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 * [https://github.com/etcd-io/bbolt](https://github.com/etcd-io/bbolt)
