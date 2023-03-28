@@ -5,8 +5,9 @@
 
 ## Flag
 
-> Structured Query Language：SQL92、SQL99、SQL-86、SQL-89、SQL:2003、SQL:2008、SQL:2011、SQL:2016
+> Structured Query Language：SQL86、SQL89、SQL92、SQL99、SQL2003、SQL2008、SQL2011、SQL2016
 
+* [https://github.com/crate/sql-99](https://github.com/crate/sql-99)
 * [https://standards.iso.org/ittf/PubliclyAvailableStandards/index.html](https://standards.iso.org/ittf/PubliclyAvailableStandards/index.html)
 * [SQL标准简介](https://cloud.tencent.com/developer/article/1442564)
 * [数据库必知词汇：SQL标准](https://developer.aliyun.com/article/745815)

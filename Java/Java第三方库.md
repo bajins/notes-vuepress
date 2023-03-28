@@ -326,9 +326,8 @@
 * 属性比对器 [https://github.com/dadiyang/equator](https://github.com/dadiyang/equator)
 * 对象比较属性和审核 [https://github.com/javers/javers](https://github.com/javers/javers)
 * ASM序列化 [https://github.com/EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo)
-* 序列化 [https://github.com/protocolbuffers](https://github.com/protocolbuffers)
-* [https://github.com/protostuff](https://github.com/protostuff)
-    * [https://gitlab.com/dyu](https://gitlab.com/dyu)
+* 堆内存处理 [https://github.com/airlift/slice](https://github.com/airlift/slice)
+
 
 
 

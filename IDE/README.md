@@ -437,6 +437,12 @@
 - [Pisa-Proxy SQL 解析之 Lex & Yacc](https://zhuanlan.zhihu.com/p/538735834)
 
 
+> Lex（A Lexical Analyzer Generator）用于生成词法分析器，用于把输入分割成一个个有意义的词块（称为token）
+>
+> Yacc（Yet Another Compiler-Compiler）用于生成语法解析器，用于确定上述分隔好的token之间的关联
+>
+> Flex是由Vern Paxon实现的一个Lex，Bison则是GNU版本的YACC
+
 
 ## 项目管理
 

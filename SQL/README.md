@@ -7,6 +7,7 @@
 
 > DBS（Data Base System，数据库系统）包括：DB（数据库）和DBMS（database management system，数据库管理系统）
 
+* [https://github.com/pingcap/awesome-database-learning](https://github.com/pingcap/awesome-database-learning)
 * [https://github.com/dunwu/db-tutorial](https://github.com/dunwu/db-tutorial)
 * [https://docs.aws.amazon.com/zh_cn/redshift/latest/dg/cm_chap_SQLCommandRef.html](https://docs.aws.amazon.com/zh_cn/redshift/latest/dg/cm_chap_SQLCommandRef.html)
 * [https://www.alibabacloud.com/help/zh/analyticdb-for-mysql/latest/sql-manual](https://www.alibabacloud.com/help/zh/analyticdb-for-mysql/latest/sql-manual)
@@ -21,8 +22,12 @@
 * HiveSQL教程 [https://www.gairuo.com/p/hive-sql-tutorial](https://www.gairuo.com/p/hive-sql-tutorial)
 * 加密 [https://github.com/hashicorp/vault](https://github.com/hashicorp/vault)
 * 通用SQL解析 [https://www.sqlparser.com](https://www.sqlparser.com)
+    * [https://github.com/sqlparser](https://github.com/sqlparser)
 * [https://github.com/search?p=9&q=data+to+sql](https://github.com/search?p=9&q=data+to+sql)
 * [https://github.com/search?q=generate+sql](https://github.com/search?l=Java&q=generate+sql)
+* [https://github.com/search?q=sqlparser](https://github.com/search?l=Java&q=sqlparser)
+* [https://github.com/search?q=sql+visitor](https://github.com/search?q=sql+visitor)
+* [https://github.com/topics/sql-statement](https://github.com/topics/sql-statement)
 
 
 
@@ -89,6 +94,7 @@
 * [https://github.com/Xeograph](https://github.com/Xeograph)
 * [https://github.com/forcedotcom](https://github.com/forcedotcom)
 * 分布式 [https://github.com/cockroachdb](https://github.com/cockroachdb)
+    * [https://github.com/auxten/postgresql-parser](https://github.com/auxten/postgresql-parser)
 * [https://github.com/apache/ignite](https://github.com/apache/ignite)
     * [http://blog.nimblex.cn/archives](http://blog.nimblex.cn/archives)
     * [https://www.ignite-service.cn/doc/java](https://www.ignite-service.cn/doc/java)

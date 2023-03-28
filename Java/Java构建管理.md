@@ -19,8 +19,8 @@
 + [https://github.com/sormuras/bach](https://github.com/sormuras/bach)
 + 增量构建 [https://github.com/sakerbuild/saker.build](https://github.com/sakerbuild/saker.build)
 + [https://github.com/sakerbuild/saker.java.compiler](https://github.com/sakerbuild/saker.java.compiler)
++ 动态编译 [https://github.com/janino-compiler/janino](https://github.com/janino-compiler/janino)
 + 打包 [https://github.com/shevek/jarjar](https://github.com/shevek/jarjar)
-+ [https://github.com/janino-compiler/janino](https://github.com/janino-compiler/janino)
 + [https://github.com/codehaus-plexus/plexus-compiler](https://github.com/codehaus-plexus/plexus-compiler)
 + [https://github.com/eclipse/eclipse.jdt.core](https://github.com/eclipse/eclipse.jdt.core)
 + [https://www.jetbrains.com/help/idea/java-compiler.html](https://www.jetbrains.com/help/idea/java-compiler.html)
@@ -45,6 +45,7 @@
 
 - [https://github.com/topics/classloader](https://github.com/topics/classloader)
 - [https://github.com/technomancy/leiningen](https://github.com/technomancy/leiningen)
+- [https://java-source.net](https://java-source.net)
 
 * [原来实现项目多环境打包部署是如此的简单](https://www.cnblogs.com/hafiz/p/7559976.html)
 
