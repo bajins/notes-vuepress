@@ -5,6 +5,7 @@
 
 ## Flag
 
+- [Michael Redlich-Java近期新闻](https://www.infoq.cn/profile/416A67CDBAA4DC)
 - [Java版本比较](https://mp.weixin.qq.com/s/NEfqPXrcq6O1p7RLf9LWCw)
 - [Java 9-16 新增语法元素一览](https://segmentfault.com/a/1190000039714550)
 
@@ -52,6 +53,17 @@
 + [https://github.com/search?q=Interview](https://github.com/search?q=Interview)
 
 
+- Java新功能 [https://github.com/wesleyegberto/java-new-features](https://github.com/wesleyegberto/java-new-features)
+    - [https://github.com/rokon12/project-loom-slides-and-demo-code](https://github.com/rokon12/project-loom-slides-and-demo-code)
+    - [https://github.com/nipafx](https://github.com/nipafx)
+- [https://github.com/hepengju/java-new-features](https://github.com/hepengju/java-new-features)
+- [https://github.com/GreyZeng/java_new_features](https://github.com/GreyZeng/java_new_features)
+- [https://github.com/javamultiplex/java-new-features](https://github.com/javamultiplex/java-new-features)
+* Java8函数式编程 [https://github.com/glen9527/Java-8-Lambdas-zh](https://github.com/glen9527/Java-8-Lambdas-zh)
+* [https://www.manning.com/books/java-8-in-action](https://www.manning.com/books/java-8-in-action)
+* [https://github.com/CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes)
+* [https://github.com/hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer)
+* [https://github.com/bethrobson/Head-First-Java](https://github.com/bethrobson/Head-First-Java)
 * 在线课程 [https://codegym.cc/zh](https://codegym.cc/zh)
 * 多个学习项目组织 [https://github.com/doocs](https://github.com/doocs)
 * [https://github.com/quanke](https://github.com/quanke)
@@ -64,11 +76,6 @@
 * [https://github.com/jast90/The-Java-Tutorials-CN](https://github.com/jast90/The-Java-Tutorials-CN)
 * Java Servlet 3.1 规范 [https://github.com/waylau/servlet-3.1-specification](https://github.com/waylau/servlet-3.1-specification)
 * [https://github.com/flance/java-servlet-specification-4.0](https://github.com/flance/java-servlet-specification-4.0)
-* Java 8 函数式编程 [https://github.com/glen9527/Java-8-Lambdas-zh](https://github.com/glen9527/Java-8-Lambdas-zh)
-* [https://www.manning.com/books/java-8-in-action](https://www.manning.com/books/java-8-in-action)
-* [https://github.com/CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes)
-* [https://github.com/hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer)
-* [https://github.com/bethrobson/Head-First-Java](https://github.com/bethrobson/Head-First-Java)
 * Effective Java [https://github.com/search?q=effective-java](https://github.com/search?q=effective-java)
     * [https://github.com/sjsdfg/effective-java-3rd-chinese](https://github.com/sjsdfg/effective-java-3rd-chinese)
     * [https://github.com/clxering/Effective-Java-3rd-edition-Chinese-English-bilingual](https://github.com/clxering/Effective-Java-3rd-edition-Chinese-English-bilingual)

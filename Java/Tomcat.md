@@ -13,6 +13,8 @@
 + [https://github.com/undertow-io/undertow](https://github.com/undertow-io/undertow)
 + [https://github.com/eclipse/jetty.project](https://github.com/eclipse/jetty.project)
 + [https://github.com/eclipse-ee4j/grizzly](https://github.com/eclipse-ee4j/grizzly)
++ [https://github.com/eclipse-ee4j/glassfish](https://github.com/eclipse-ee4j/glassfish)
+    + [https://github.com/payara/Payara](https://github.com/payara/Payara)
 
 
 * Tomcat集群Redis会话管理器 [https://github.com/ran-jit/tomcat-cluster-redis-session-manager](https://github.com/ran-jit/tomcat-cluster-redis-session-manager)

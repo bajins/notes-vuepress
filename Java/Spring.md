@@ -173,6 +173,7 @@ try {
 * [https://github.com/liuyueyi/spring-boot-demo](https://github.com/liuyueyi/spring-boot-demo)
 * [https://github.com/TianShengBingFeiNiuRen/springboot-util](https://github.com/TianShengBingFeiNiuRen/springboot-util)
 * [https://github.com/WinterChenS/springboot-learning-experience](https://github.com/WinterChenS/springboot-learning-experience)
+* [https://github.com/jesusfc/springboot3-java17](https://github.com/jesusfc/springboot3-java17)
 * 测试 [https://github.com/codecentric/chaos-monkey-spring-boot](https://github.com/codecentric/chaos-monkey-spring-boot)
 
 

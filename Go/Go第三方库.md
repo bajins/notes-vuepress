@@ -119,6 +119,7 @@
 * JWT [https://github.com/kataras/jwt](https://github.com/kataras/jwt)
 * [https://github.com/dgrijalva/jwt-go](https://github.com/dgrijalva/jwt-go)
 * [https://github.com/dexidp/dex](https://github.com/dexidp/dex)
+* [https://github.com/lestrrat-go/jwx](https://github.com/lestrrat-go/jwx)
 * 程序抖动问题定位 [https://github.com/mosn/holmes](https://github.com/mosn/holmes)
 * 内容协作 [https://github.com/pydio/cells](https://github.com/pydio/cells)
 * API开发的云平台 [https://github.com/micro](https://github.com/micro)
