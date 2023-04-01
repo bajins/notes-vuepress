@@ -14,6 +14,7 @@
 * [js防止重复触发事件](https://segmentfault.com/a/1190000012147456)
 * [JS中的call、apply、bind方法详解](https://www.cnblogs.com/moqiutao/p/7371988.html)
 * [js实现replaceAll方法](https://blog.csdn.net/fukaiit/article/details/83245943)
+* [如何在 JavaScript 中清空数组？](https://www.huntsbot.com/qa/rDZ6/how-do-i-empty-an-array-in-javascript)
 
 
 **回调地狱**
