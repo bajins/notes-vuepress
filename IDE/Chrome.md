@@ -5,9 +5,11 @@
 
 ## Flag
 
++ [Web 浏览器简史](https://www.mozilla.org/zh-CN/firefox/browsers/browser-history)
+
+
 * [https://github.com/PSPDFKit-labs/browserslist.dev](https://github.com/PSPDFKit-labs/browserslist.dev)
     * [https://browserslist.dev](https://browserslist.dev)
-* [Marmoset-创建漂亮的代码图片](https://chrome.google.com/webstore/detail/marmoset/npkfpddkpefnmkflhhligbkofhnafieb)
 * 嵌入式框架（CEF） [https://github.com/chromiumembedded](https://github.com/chromiumembedded)
 * [https://github.com/arnoldthebat/chromiumos](https://github.com/arnoldthebat/chromiumos)
 
@@ -271,17 +273,20 @@ taskkill /f /im chromedriver.exe
 * [https://github.com/topics/chrome-extension](https://github.com/topics/chrome-extension)
 * 冻结暂时用不到的标签页 [https://github.com/deanoemcke/thegreatsuspender](https://github.com/deanoemcke/thegreatsuspender)
 * 防止通过 URL 跟踪用户 [https://github.com/ClearURLs](https://github.com/ClearURLs)
+* [Marmoset-创建漂亮的代码图片](https://chrome.google.com/webstore/detail/marmoset/npkfpddkpefnmkflhhligbkofhnafieb)
+
 
 
 ### 插件下载
 
-* [4星以上开发工具扩展](https://chrome.google.com/webstore/category/ext/11-web-development?_feature=free&_feature=4stars)
+* [https://www.crxsoso.com](https://www.crxsoso.com)
 * [http://crxdown.com](http://crxdown.com)
 * [chrome-extension-downloader](https://chrome-extension-downloader.com)
 * [crx4chrome](https://www.crx4chrome.com)
 * [https://www.extfans.com](https://www.extfans.com)
 * [https://www.gugeapps.net](https://www.gugeapps.net)
 * [https://getman.cn/chrome](https://getman.cn/chrome)
+
 
 
 
@@ -398,12 +403,17 @@ taskkill /f /im chromedriver.exe
 
 ### Other
 
-* [脚本助手：tampermonkey](https://www.tampermonkey.net)
-    * [https://greasyfork.org](https://greasyfork.org)
-    * [https://openuserjs.org](https://openuserjs.org)
+* 脚本助手 [https://github.com/Tampermonkey](https://github.com/Tampermonkey)
+    * [https://github.com/JasonBarnabe/greasyfork](https://github.com/JasonBarnabe/greasyfork)
+    * [https://github.com/OpenUserJs/OpenUserJS.org](https://github.com/OpenUserJs/OpenUserJS.org)
+    * [https://www.userscript.zone](https://www.userscript.zone)
     * [https://github.com/Mottie/GitHub-userscripts](https://github.com/Mottie/GitHub-userscripts)
     * [https://github.com/XIU2/UserScript](https://github.com/XIU2/UserScript)
-* [脚本助手：violentmonkey](https://github.com/violentmonkey/violentmonkey)
+    * [https://github.com/hmjz100/Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)
+    * [https://github.com/syhyz1990](https://github.com/syhyz1990)
+        * [https://www.youxiaohou.com](https://www.youxiaohou.com)
+* [https://github.com/violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey)
+* [https://github.com/greasemonkey/greasemonkey](https://github.com/greasemonkey/greasemonkey)
 * 解锁加密音乐 [https://github.com/unlock-music/unlock-music](https://github.com/unlock-music/unlock-music)
 * [阅读模式：reader-view](https://chrome.google.com/webstore/detail/reader-view/iibolhpkjjmoepndefdmdlmbpfhlgjpl)
 * [阅读模式：just-read](https://github.com/ZachSaucier/Just-Read)

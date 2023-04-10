@@ -24,7 +24,8 @@
     序列号：JHEHIHCDDAHC
     注册码：15f7f78febfaee55afeafefff7cb7fdfb3
     ```
-
+- 无线渗透硬件 [https://github.com/flipperdevices/flipperzero-firmware](https://github.com/flipperdevices/flipperzero-firmware)
+    - [https://github.com/DarkFlippers/unleashed-firmware](https://github.com/DarkFlippers/unleashed-firmware)
 
 
 * [有人说超威半导体（AMD）没有512位高级矢量扩展指令集（AVX512），属于残废，是真的吗？](https://www.zhihu.com/question/367281009)
@@ -253,7 +254,18 @@
     - [https://www.proxmox.com](https://www.proxmox.com)
 - [https://github.com/oVirt](https://github.com/oVirt)
     - [https://github.com/cnovirt](https://github.com/cnovirt)
-
+- 虚拟机 [https://docs.microsoft.com/zh-cn/virtualization](https://docs.microsoft.com/zh-cn/virtualization)
+- [https://github.com/vmware](https://github.com/vmware)
+    - [https://customerconnect.vmware.com/cn/downloads](https://customerconnect.vmware.com/cn/downloads)
+- [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+    - [https://github.com/hyperbox](https://github.com/hyperbox)
+- [https://github.com/xenserver](https://github.com/xenserver)
+- [https://github.com/canonical/multipass](https://github.com/canonical/multipass)
+- 微型虚拟机 [https://github.com/firecracker-microvm](https://github.com/firecracker-microvm)
+- [https://github.com/kata-containers/kata-containers](https://github.com/kata-containers/kata-containers)
+- [https://github.com/kestra-io/kestra](https://github.com/kestra-io/kestra)
+- IOT虚拟机 [https://github.com/projectacrn](https://github.com/projectacrn)
+- mac上的虚拟机 [https://www.parallels.com](https://www.parallels.com)
 
 
 

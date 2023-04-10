@@ -21,6 +21,8 @@
 * [https://github.com/zed-industries](https://github.com/zed-industries)
 * [https://github.com/capistrano/sshkit](https://github.com/capistrano/sshkit)
 * JSON可视化 [https://github.com/AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com)
+* AI加持 [https://github.com/new-ai-company/ide](https://github.com/new-ai-company/ide)
+* [https://github.com/e2b-dev/e2b](https://github.com/e2b-dev/e2b)
 
 
 
@@ -318,6 +320,7 @@
 * [https://www.processon.com](https://www.processon.com)
 * [https://gitmind.cn](https://gitmind.cn)
 * [https://www.omnigroup.com/omnigraffle](https://www.omnigroup.com/omnigraffle)
+* [https://github.com/terrastruct/d2](https://github.com/terrastruct/d2)
 
 
 **本地客户端**

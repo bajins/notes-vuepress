@@ -294,21 +294,6 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 
 
-**office key**
-
-```
-# OFFICE 2019 专业增强版激活码
-W8W6K-3N7KK-PXB9H-8TD8W-BWTH9
-
-# Office19_RTM19_ProPlus2019VL_MAK_AE
-GP3YN-RPX2T-FVYT8-4TPFY-7MKG3
-N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
-6NCGF-GQQ2F-H83HF-9DWMY-92GTG
-```
-
-
-
-
 ### 家庭升专业
 
 > 注意：Windows10家庭版升级Windows10专业版的密钥不是激活密钥

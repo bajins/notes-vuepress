@@ -1,8 +1,6 @@
 # ShellWindows
 
-
 [[toc]]
-
 
 
 ## Flag
@@ -17,15 +15,6 @@
 - [https://github.com/Sysinternals](https://github.com/Sysinternals)
 - [https://github.com/OpenPGP/openpgp.org](https://github.com/OpenPGP/openpgp.org)
 - GPG密钥 [https://www.gpg4win.org](https://www.gpg4win.org)
-- 虚拟机 [https://docs.microsoft.com/zh-cn/virtualization](https://docs.microsoft.com/zh-cn/virtualization)
-- [https://github.com/vmware](https://github.com/vmware)
-    - [https://customerconnect.vmware.com/cn/downloads](https://customerconnect.vmware.com/cn/downloads)
-- [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
-    - [https://github.com/hyperbox](https://github.com/hyperbox)
-- [https://github.com/xenserver](https://github.com/xenserver)
-- [https://github.com/canonical/multipass](https://github.com/canonical/multipass)
-- IOT虚拟机 [https://github.com/projectacrn](https://github.com/projectacrn)
-- mac上的虚拟机 [https://www.parallels.com](https://www.parallels.com)
 - 多个shell软件包镜像 [https://github.com/mirror](https://github.com/mirror)
 - [https://github.com/svn2github](https://github.com/svn2github)
 - 沙箱 [https://github.com/sandboxie-plus](https://github.com/sandboxie-plus)

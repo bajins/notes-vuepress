@@ -130,9 +130,7 @@
 - 集群管理器 [https://github.com/apache/mesos](https://github.com/apache/mesos)
     - [https://github.com/mesos](https://github.com/mesos)
 - [https://github.com/OpenVZ](https://github.com/OpenVZ)
-- 微型虚拟机 [https://github.com/firecracker-microvm](https://github.com/firecracker-microvm)
-- [https://github.com/kata-containers/kata-containers](https://github.com/kata-containers/kata-containers)
-- [https://github.com/kestra-io/kestra](https://github.com/kestra-io/kestra)
+
 
 
 **运行时**
