@@ -192,6 +192,7 @@
 + [https://github.com/febsteam](https://github.com/febsteam)
 + [https://github.com/thinkgem/jeesite4](https://github.com/thinkgem/jeesite4)
 + [https://github.com/hs-web](https://github.com/hs-web)
++ [https://github.com/erupts/erupt](https://github.com/erupts/erupt)
 + [https://gitee.com/xiaonuobase](https://gitee.com/xiaonuobase)
 + [https://github.com/hiparker/opsli-boot](https://github.com/hiparker/opsli-boot)
 + [https://github.com/dibo-software/diboot](https://github.com/dibo-software/diboot)

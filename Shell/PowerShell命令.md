@@ -449,6 +449,10 @@ get-process | select-string <pattern>  # 效果同上
 # 也可以通过 -Name 用正则匹配进程
 stop-process <pid>
 kill <pid>  # 别名
+Get-Process -Name 名称 | Stop-Process
+Get-Process -Name 名称 | foreach-object{$_.Kill()}
+Get-WmiObject Win32_Process -Filter "name = 'notepad.exe'" | ForEach-Object{$_.Terminate()  | Out-Null }
+Get-WmiObject Win32_Process -Filter "name = 'notepad.exe'" | Invoke-WmiMethod -Name Terminate | Out-Null
 
 # 网络相关命令
 ## 1. dns 相关(dns-client)

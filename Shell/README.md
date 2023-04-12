@@ -181,6 +181,8 @@
 * [https://github.com/HaleyWang/SpringRemote](https://github.com/HaleyWang/SpringRemote)
 * [https://github.com/openssh](https://github.com/openssh)
     * [https://www.openssh.com](https://www.openssh.com)
+    * [https://github.com/openssh-rust/openssh](https://github.com/openssh-rust/openssh)
+    * [https://slproweb.com/products/Win32OpenSSL.html](https://slproweb.com/products/Win32OpenSSL.html)
 * [https://github.com/warpdotdev](https://github.com/warpdotdev)
 
 

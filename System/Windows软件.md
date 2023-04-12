@@ -880,19 +880,33 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 ## 密码管理
 
-> cloud-based TOTP apps
+> two-factor (2FA)：TOTP(Time-based One-Time Password), HOTP(HMAC-based one-time password)
+
++ [https://github.com/topics/2fa](https://github.com/topics/2fa)
++ [https://github.com/topics/totp](https://github.com/topics/totp)
++ [https://github.com/topics/hotp](https://github.com/topics/hotp)
+
 
 * [https://github.com/1Password](https://github.com/1Password)
-* [Authy](https://authy.com/guides/github)
+* [https://authy.com](https://authy.com)
+    * [https://github.com/momaek/authy](https://github.com/momaek/authy)
+    * [https://github.com/BrandonPotter/GoogleAuthenticator](https://github.com/BrandonPotter/GoogleAuthenticator)
+    * [https://github.com/alexzorin/authy](https://github.com/alexzorin/authy)
 * [LastPass Authenticator](https://support.logmeininc.com/lastpass/help/lastpass-authenticator-lp030014)
-* [Microsoft Authenticator](https://www.microsoft.com/zh-cn/account/authenticator)
+* [Microsoft Authenticator](https://www.microsoft.com/zh-cn/security/mobile-authenticator-app)
 * KeePass [https://keepass.info](https://keepass.info)
+* [https://www.keepersecurity.com](https://www.keepersecurity.com)
 * Eziriz IntelliLock
 * [https://github.com/lastpass](https://github.com/lastpass)
     * [https://www.lastpass.com](https://www.lastpass.com)
 * [https://github.com/bitwarden](https://github.com/bitwarden)
 * [https://www.passwordstore.org](https://www.passwordstore.org)
 * [https://github.com/Infisical/infisical](https://github.com/Infisical/infisical)
+* [https://www.microfocus.com/zh-cn/cyberres/identity-access-management](https://www.microfocus.com/zh-cn/cyberres/identity-access-management)
+* [https://www.secureauth.com](https://www.secureauth.com)
+* Dashlane
+* N-able Passportal
+* Teleport
 
 
 

@@ -157,14 +157,14 @@
 
 **北京交通大学**
 
-* IPv4&IPv6 [https://mirror.bjtu.edu.cn](https://mirror.bjtu.edu.cn)
 * [https://github.com/bjtulug](https://github.com/bjtulug)
+* IPv4&IPv6 [https://mirror.bjtu.edu.cn](https://mirror.bjtu.edu.cn)
 
 
 **南京大学电子科学中心**
 
-* IPv4&IPv6 [https://mirrors.nju.edu.cn](https://mirrors.nju.edu.cn)
 * [https://github.com/nju-lug](https://github.com/nju-lug)
+* IPv4&IPv6 [https://mirrors.nju.edu.cn](https://mirrors.nju.edu.cn)
 
 
 **中国科学技术大学**
@@ -182,7 +182,9 @@
 
 **上海交通大学**
 
-* IPv4 [http://ftp.sjtu.edu.cn](http://ftp.sjtu.edu.cn)
+* [https://github.com/sjtug](https://github.com/sjtug)
+* IPv4 [https://mirror.sjtu.edu.cn](https://mirror.sjtu.edu.cn)
+* [https://mirrors.sjtug.sjtu.edu.cn](https://mirrors.sjtug.sjtu.edu.cn)
 
 
 **浙江大学**

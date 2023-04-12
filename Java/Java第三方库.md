@@ -106,6 +106,7 @@
     - [Ehcache缓存从2.10升到3.5.0版本的简单用法和踩坑经验](https://segmentfault.com/a/1190000020791300)
 * 分布式 [https://github.com/Terracotta-OSS/offheap-store](https://github.com/Terracotta-OSS/offheap-store)
 * [https://github.com/ben-manes/caffeine](https://github.com/ben-manes/caffeine)
+    * [https://github.com/ck-jesse/l2cache](https://github.com/ck-jesse/l2cache)
 * [https://github.com/xiaolyuh/layering-cache](https://github.com/xiaolyuh/layering-cache)
 * GuavaCache使用示例 [https://github.com/songyaxu/guava-cache](https://github.com/songyaxu/guava-cache)
 * 存储和检索海量数据 [https://github.com/dCache/dcache](https://github.com/dCache/dcache)

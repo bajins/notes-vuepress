@@ -25,8 +25,9 @@
 - [PowerShell入门指南(三)·一门新的编程语言](https://zhuanlan.zhihu.com/p/76708298)
 - [PowerShell提速和多线程](https://www.pstips.net/speeding-up-powershell-multithreading.html)
 - [PowerShell - 随笔分类 - 门前有根大呲花 - 博客园](https://www.cnblogs.com/MerLin-LiuNian/category/2027025.html)
-- WMIC 已弃用替代品 [Get-WmiObject](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.management/get-wmiobject)
-- WMIC 已弃用替代品 [Get-CimInstance](https://docs.microsoft.com/zh-cn/powershell/module/cimcmdlets/get-ciminstance)
+- WMIC替代品 [https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.management/get-wmiobject](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.management/get-wmiobject)
+- [https://docs.microsoft.com/zh-cn/powershell/module/cimcmdlets/get-ciminstance](https://docs.microsoft.com/zh-cn/powershell/module/cimcmdlets/get-ciminstance)
+- [https://learn.microsoft.com/zh-cn/windows/win32/wmisdk](https://learn.microsoft.com/zh-cn/windows/win32/wmisdk)
 - [https://forsenergy.com](https://forsenergy.com)
 - [https://www.yiibai.com/powershell](https://www.yiibai.com/powershell)
 

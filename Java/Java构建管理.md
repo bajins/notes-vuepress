@@ -56,6 +56,7 @@
 * [https://github.com/izpack/izpack](https://github.com/izpack/izpack)
     * [https://sourceforge.net/projects/packjacket](https://sourceforge.net/projects/packjacket)
 * [https://sourceforge.net/projects/launch4j](https://sourceforge.net/projects/launch4j)
+    * [https://github.com/orphan-oss/launch4j-maven-plugin](https://github.com/orphan-oss/launch4j-maven-plugin)
 * [https://github.com/poidasmith/winrun4j](https://github.com/poidasmith/winrun4j)
 * [https://sourceforge.net/projects/vainstall](https://sourceforge.net/projects/vainstall)
 * [https://github.com/BrunoReX/jsmooth](https://github.com/BrunoReX/jsmooth)

@@ -1,6 +1,5 @@
 # Go笔记
 
-
 [[toc]]
 
 
@@ -18,6 +17,7 @@
 * [runtime包](https://www.jianshu.com/p/84bac7932394)
 * [File操作](https://blog.csdn.net/TDCQZD/article/details/81835149)
 * [golang的指针类型,unsafe.Pointer类型和uintptr类型的区别](https://www.jianshu.com/p/1a49b361d2a1)
+* [CGO封装CPP库的一些最佳实践](https://tecknight.xyz/blog/cgo%E5%B0%81%E8%A3%85cpp%E5%BA%93%E7%9A%84%E4%B8%80%E4%BA%9B%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)
 
 
 <details>
@@ -84,6 +84,7 @@ if a == (A{}) {
 
 * [高性能 golang 生成指定长度随机字符串](https://blog.csdn.net/lsmsrc/article/details/104652533)
 * [https://github.com/gohouse/random](https://github.com/gohouse/random)
+
 
 ### strings包API
 

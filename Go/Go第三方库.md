@@ -9,6 +9,7 @@
 * [https://github.com/yinggaozhen/awesome-go-cn](https://github.com/yinggaozhen/awesome-go-cn)
 * web框架基准测试 [https://github.com/smallnest/go-web-framework-benchmark](https://github.com/smallnest/go-web-framework-benchmark)
 * 序列化工具基准测试 [https://github.com/smallnest/gosercomp](https://github.com/smallnest/gosercomp)
+* [https://github.com/julienschmidt/go-http-routing-benchmark](https://github.com/julienschmidt/go-http-routing-benchmark)
 * 压测工具 [https://github.com/link1st/go-stress-testing](https://github.com/link1st/go-stress-testing)
 * 监控运行 [https://github.com/thejerf/suture](https://github.com/thejerf/suture)
 * [https://github.com/PagerDuty](https://github.com/PagerDuty)
@@ -147,6 +148,7 @@
 * [https://github.com/onsi/ginkgo](https://github.com/onsi/ginkgo)
 * [https://github.com/spectolabs/hoverfly](https://github.com/spectolabs/hoverfly)
 * [https://github.com/stretchr/testify](https://github.com/stretchr/testify)
+* [https://github.com/go-check/check](https://github.com/go-check/check)
 * WebSocket [https://github.com/gorilla/websocket](https://github.com/gorilla/websocket)
     * [在 Gin 项目中使用 WebSocket](https://www.cnblogs.com/chnmig/p/14463837.html)
     * [https://github.com/kone-net/go-chat](https://github.com/kone-net/go-chat)
@@ -172,6 +174,8 @@
 * [https://github.com/urfave/cli](https://github.com/urfave/cli)
 * [https://github.com/go-cmd/cmd](https://github.com/go-cmd/cmd)
 * [https://github.com/charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea)
+* [https://github.com/ogier/pflag](https://github.com/ogier/pflag)
+* CLI [https://github.com/blend/go-sdk](https://github.com/blend/go-sdk)
 * shell [https://github.com/creack/pty](https://github.com/creack/pty)
 * 生成x86程序 [https://github.com/mmcloughlin/avo](https://github.com/mmcloughlin/avo)
 * 内核模糊器 [https://github.com/google/syzkaller](https://github.com/google/syzkaller)
@@ -210,12 +214,13 @@
 * [https://github.com/bwmarrin/snowflake](https://github.com/bwmarrin/snowflake)
 * 单元测试 [https://github.com/maxbrunsfeld/counterfeiter](https://github.com/maxbrunsfeld/counterfeiter)
 * [https://github.com/onsi/gomega](https://github.com/onsi/gomega)
-* CLI [https://github.com/blend/go-sdk](https://github.com/blend/go-sdk)
 * 定时器 [https://github.com/antlabs/timer](https://github.com/antlabs/timer)
 * 替换DOCX中的文本 [https://github.com/nguyenthenguyen/docx](https://github.com/nguyenthenguyen/docx)
 * [https://github.com/sajari/docconv](https://github.com/sajari/docconv)
 * [https://github.com/unidoc](https://github.com/unidoc)
 * 二维码 [https://github.com/yeqown/go-qrcode](https://github.com/yeqown/go-qrcode)
+* 日志 [https://github.com/go-clog](https://github.com/go-clog)
+* 国际化 [https://github.com/go-i18n](https://github.com/go-i18n)
 
 
 
@@ -241,3 +246,7 @@
 | kit     	| https://github.com/go-kit/kit                                  	| https://gokit.io                           	|
 | Fiber    	| https://github.com/gofiber/fiber                                  | https://gofiber.io                           	|
 | revel    	| https://github.com/revel/revel                                    | https://github.com/revel/revel               	|
+
+
+* [https://github.com/go-macaron](https://github.com/go-macaron)
+* [https://github.com/flamego/flamego](https://github.com/flamego/flamego)

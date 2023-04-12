@@ -26,7 +26,7 @@
 
 * 扫描任何32位或64位Windows模块（exe，dll，ocx，sys等）的函数 [http://www.dependencywalker.com](http://www.dependencywalker.com)
 * DLL导出查看器 [http://www.nirsoft.net/utils/dll_export_viewer.html](http://www.nirsoft.net/utils/dll_export_viewer.html)
-* RegDllView-查看系统上已注册的dll/ ocx/exe文件，从资源管理器注册dll文件：
+* RegDllView-查看系统上已注册的dll/ocx/exe文件，从资源管理器注册dll文件：
     * [http://www.nirsoft.net/utils/registered_dll_view.html](http://www.nirsoft.net/utils/registered_dll_view.html)
 * Windows 10的system32目录中的所有DLL文件信息 [http://windows10dll.nirsoft.net](http://windows10dll.nirsoft.net)
 * 下载– NTCore [https://ntcore.com/?page_id=345](https://ntcore.com/?page_id=345)
@@ -47,6 +47,7 @@
 + [https://github.com/topics/windows-subsystem-for-linux](https://github.com/topics/windows-subsystem-for-linux)
 + [https://github.com/sirredbeard/Awesome-WSL](https://github.com/sirredbeard/Awesome-WSL)
 
+
 * [https://github.com/microsoft/WSL](https://github.com/microsoft/WSL)
 * [https://github.com/microsoft/wslg](https://github.com/microsoft/wslg)
 * [https://github.com/Microsoft/WSL-DistroLauncher](https://github.com/Microsoft/WSL-DistroLauncher)
@@ -60,6 +61,9 @@
 * [https://github.com/yuk7/ArchWSL](https://github.com/yuk7/ArchWSL)
     * [https://wsldl-pg.github.io/ArchW-docs/locale/zh-CN](https://wsldl-pg.github.io/ArchW-docs/locale/zh-CN)
 * [https://github.com/agowa338/WSL-DistroLauncher-Alpine](https://github.com/agowa338/WSL-DistroLauncher-Alpine)
+* [https://github.com/topics/wsl-debian](https://github.com/topics/wsl-debian)
+    * [wsl2+Debian11+切换安装目录+换源基本设置](https://blog.csdn.net/zongjinyun123/article/details/122778012)
+    * [https://www.debian.org/mirror/list](https://www.debian.org/mirror/list)
 * [关于使用WSL2出现“参考的对象类型不支持尝试的操作”的解决方法](https://zhuanlan.zhihu.com/p/151392411)
     * [https://github.com/microsoft/WSL/issues/4177](https://github.com/microsoft/WSL/issues/4177)
 * [https://github.com/shayne/go-wsl2-host](https://github.com/shayne/go-wsl2-host)
@@ -89,6 +93,8 @@
 
 > 自动内核更新，请启用 Windows 更新设置: `设置` -> `更新和安全` -> `高级选项` -> `在更新 Windows 时接收其他 Microsoft 产品的更新`
 
+> `netsh winsock reset`解决`Error code: Wsl/Service/0x800706f7`错误
+
 
 
 **设置默认root用户登录**
@@ -100,15 +106,18 @@ ubuntu2004.exe config --default-user root
 **[修改为root登录](/System/Linux配置.md#修改为root登录)**
 
 
-**Ubuntu安装ssh**
+**安装SSH远程连接**
 
-> WSL Ubuntu子系统自带的ssh服务无法连接，需卸载后重新安装
+> WSL 子系统自带的ssh服务无法连接，需卸载后重新安装
 
 ```bash
 sudo apt purge -y openssh-server
 sudo apt remove -y openssh-server
 sudo apt install -y openssh-server
 ```
+
+* [xshell连接wsl](https://www.cnblogs.com/hieroglyphs/p/16407054.html)
+
 
 **设置开机自启**
 

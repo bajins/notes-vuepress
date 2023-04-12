@@ -27,6 +27,8 @@
 * [nginx 优化的六点方法](https://zhuanlan.zhihu.com/p/149946545)
 * [Nginx-性能优化](https://juejin.cn/post/6844904122068680711)
 * [博客使用Cloudflare和Nginx的相关配置](https://jayshao.com/cloudflare-nginx-ssl)
+* [Nginx——Nginx负载均衡](https://blog.csdn.net/weixin_44623055/article/details/124715177)
+* [Nginx--流量限制（最有用的功能之一）](https://blog.csdn.net/liji133122/article/details/126667277)
 
 
 + 开发工具包 [https://github.com/vision5/ngx_devel_kit](https://github.com/vision5/ngx_devel_kit)

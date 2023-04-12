@@ -15,6 +15,7 @@
     + [https://www.godoc.org](https://www.godoc.org)
     + [https://studygolang.com/dl](https://studygolang.com/dl)
 + [https://github.com/golangclub/golangcn.org](https://github.com/golangclub/golangcn.org)
++ 缩短GO包导入URL [https://github.com/niemeyer/gopkg](https://github.com/niemeyer/gopkg)
 
 
 - [https://github.com/studygolang](https://github.com/studygolang)
@@ -85,6 +86,7 @@
 * [https://github.com/jiujuan/go-collection](https://github.com/jiujuan/go-collection)
 * 中文学习资料 [https://github.com/gwuhaolin/golang-book](https://github.com/gwuhaolin/golang-book)
 * [https://github.com/jincheng9/go-tutorial](https://github.com/jincheng9/go-tutorial)
+* [https://github.com/unknwon/go-study-index](https://github.com/unknwon/go-study-index)
 * 设计模式 [https://github.com/tmrts/go-patterns](https://github.com/tmrts/go-patterns)
 * [https://github.com/0voice/Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang)
 * [https://github.com/golang-design](https://github.com/golang-design)
