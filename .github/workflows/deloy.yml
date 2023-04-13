@@ -84,14 +84,12 @@ jobs:
           cp -r \
             Go IDE Java Other Python Shell SQL System Web .vuepress/public/images .vuepress/public/files \
             notes-docsify
-          echo "-------------------------------------------------------------"
-          ls -h
-          echo "-------------------------------------------------------------"
-          find $GITHUB_WORKSPACE
-          echo "-------------------------------------------------------------"
+          # echo "-------------------------------------------------------------"
+          # find $GITHUB_WORKSPACE
+          # echo "-------------------------------------------------------------"
           cd notes-docsify
-          chmod +x .git/hooks/pre-commit
           echo -e '#!/bin/bash\n\n./push.sh'>.git/hooks/pre-commit
+          chmod +x .git/hooks/pre-commit
           git add -A
           git commit -m "update"
           git push
@@ -101,6 +99,4 @@ jobs:
         with:
           output: 'json'
           fileOutput: 'json'
-
-      - name: Show files changed
-        run: cat $HOME/files.json
+      -run: cat $HOME/files.json
