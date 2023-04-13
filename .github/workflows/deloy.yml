@@ -100,6 +100,7 @@ jobs:
           # echo "-------------------------------------------------------------"
           cd notes-docsify
           echo -e '#!/bin/bash\n\n./push.sh'>.git/hooks/pre-commit
+          chmod +x ./push.sh
           chmod +x .git/hooks/pre-commit
           git add -A
           git commit -m "sync"
