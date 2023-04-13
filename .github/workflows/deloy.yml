@@ -66,12 +66,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        # with:
+        #   path: notes-vuepress
 
       - name: Checkout notes-docsify repo
         uses: actions/checkout@v3
         with:
           repository: bajins/notes-docsify
-          path: /home/notes-docsify
+          path: notes-docsify
           token: ${{ secrets.PERSONAL_TOKEN }}
 
       - name: Sync
@@ -79,7 +81,10 @@ jobs:
           find /home/notes-docsify -maxdepth 1 -printf '%P\n' \
             | grep -Ev ".git.*|.nojekyll|CNAME|README.*|index.*|push.*|wercker.*" \
             | xargs rm -rf
+          ls -h ../
+          echo "------------------------"
           ls -h $GITHUB_WORKSPACE
+          echo "------------------------"
           ls -h /home/notes-docsify
           cp -r \
             Go IDE Java Other Python Shell SQL System Web .vuepress/public/images .vuepress/public/files \
