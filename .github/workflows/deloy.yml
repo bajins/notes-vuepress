@@ -1,9 +1,18 @@
+# https://docs.github.com/zh/actions
 name: blog deploy
 
 on:
+  workflow_dispatch: # 启用手动触发工作流
   push:
     branches:
       - master
+  pull_request:
+
+
+permissions: # 操作权限
+  contents: read
+  pull-requests: read
+
 
 jobs:
   build-deploy:

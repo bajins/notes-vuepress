@@ -1,9 +1,18 @@
-name: blog deploy
+# https://docs.github.com/zh/actions
+name: blog sync
 
 on:
+  workflow_dispatch: # 启用手动触发工作流
   push:
     branches:
       - master
+  pull_request:
+
+
+permissions: # 操作权限
+  contents: read
+  pull-requests: read
+
 
 jobs:
   sync-repository: # 同步文件到其他库
@@ -33,3 +42,12 @@ jobs:
           git add -A
           git commit -m "update"
           git push
+      
+      - name: Gather files changed
+        uses: trilom/file-changes-action@1.2.4
+        with:
+          output: 'json'
+          fileOutput: 'json'
+
+      - name: Show files changed
+        run: cat $HOME/files.json
