@@ -66,11 +66,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          # /home/runner/work/notes-vuepress/notes-vuepress
+          # path: 
 
       - name: Checkout notes-docsify repo
         uses: actions/checkout@v3
         with:
           repository: bajins/notes-docsify
+          # /home/runner/work/notes-vuepress/notes-vuepress/notes-docsify
           path: notes-docsify
           token: ${{ secrets.PERSONAL_TOKEN }}
 
@@ -99,4 +103,4 @@ jobs:
         with:
           output: 'json'
           fileOutput: 'json'
-      -run: cat $HOME/files.json
+      - run: cat $HOME/files.json
