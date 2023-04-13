@@ -27,7 +27,7 @@ jobs:
       #     git config --global http.postBuffer 524288000
       #     export LESSCHARSET=utf-8
       - name: Checkout
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
         with:
           # Whether to checkout submodules: `true` to checkout submodules or `recursive` to
           # recursively checkout submodules.
@@ -60,3 +60,41 @@ jobs:
           USER_NAME: bajins
           USER_EMAIL: admin@bajins.com
           # env: # 设置环境变量并赋值
+
+  sync-repository: # 同步文件到其他库
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Checkout notes-docsify repo
+        uses: actions/checkout@v3
+        with:
+          repository: bajins/notes-docsify
+          path: notes-docsify
+          token: ${{ secrets.PERSONAL_TOKEN }}
+
+      - name: Sync
+        run: |
+          find notes-docsify -maxdepth 1 -printf '%P\n' \
+            | grep -Ev ".git.*|.nojekyll|CNAME|README.*|index.*|push.*|wercker.*" \
+            | xargs rm -rf
+          ls -h $GITHUB_WORKSPACE
+          cp -r \
+            Go IDE Java Other Python Shell SQL System Web .vuepress/public/images .vuepress/public/files \
+            notes-docsify
+          cd notes-docsify
+          chmod +x .git/hooks/pre-commit
+          echo -e '#!/bin/bash\n\n./push.sh'>.git/hooks/pre-commit
+          git add -A
+          git commit -m "update"
+          git push
+      
+      - name: Gather files changed
+        uses: trilom/file-changes-action@1.2.4
+        with:
+          output: 'json'
+          fileOutput: 'json'
+
+      - name: Show files changed
+        run: cat $HOME/files.json
