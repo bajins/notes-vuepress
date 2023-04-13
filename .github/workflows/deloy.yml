@@ -15,59 +15,59 @@ permissions: # 操作权限
 
 
 jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      # - name: Encoding
-      #   run: |
-      #     git config --global i18n.logoutputencoding utf-8
-      #     git config --global i18n.commitencoding utf-8
-      #     git config --global core.quotepath false
-      #     git config --global http.version HTTP/1.1
-      #     git config --global http.postBuffer 524288000
-      #     export LESSCHARSET=utf-8
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          # Whether to checkout submodules: `true` to checkout submodules or `recursive` to
-          # recursively checkout submodules.
-          #
-          # When the `ssh-key` input is not provided, SSH URLs beginning with
-          # `git@github.com:` are converted to HTTPS.
-          #
-          # Default: false
-          submodules: 'true'
+  # build-deploy:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     # - name: Encoding
+  #     #   run: |
+  #     #     git config --global i18n.logoutputencoding utf-8
+  #     #     git config --global i18n.commitencoding utf-8
+  #     #     git config --global core.quotepath false
+  #     #     git config --global http.version HTTP/1.1
+  #     #     git config --global http.postBuffer 524288000
+  #     #     export LESSCHARSET=utf-8
+  #     - name: Checkout
+  #       uses: actions/checkout@v3
+  #       with:
+  #         # Whether to checkout submodules: `true` to checkout submodules or `recursive` to
+  #         # recursively checkout submodules.
+  #         #
+  #         # When the `ssh-key` input is not provided, SSH URLs beginning with
+  #         # `git@github.com:` are converted to HTTPS.
+  #         #
+  #         # Default: false
+  #         submodules: 'true'
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '12.x'
+  #     - name: Setup Node
+  #       uses: actions/setup-node@v3
+  #       with:
+  #         node-version: '12.x'
 
-      # - run: npm ci
-      - run: npm install
-      - run: npm run build
+  #     # - run: npm ci
+  #     - run: npm install
+  #     - run: npm run build
 
-      # https://github.com/peaceiris/actions-gh-pages
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3.7.3
-        with: # 为预定义变量赋值
-          # DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-          EXTERNAL_REPOSITORY: bajins/bajins.github.io
-          PUBLISH_BRANCH: master
-          PUBLISH_DIR: ./docs
-          FORCE_ORPHAN: true
-          USER_NAME: bajins
-          USER_EMAIL: admin@bajins.com
-          # env: # 设置环境变量并赋值
+  #     # https://github.com/peaceiris/actions-gh-pages
+  #     - name: Deploy
+  #       uses: peaceiris/actions-gh-pages@v3.7.3
+  #       with: # 为预定义变量赋值
+  #         # DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+  #         PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+  #         EXTERNAL_REPOSITORY: bajins/bajins.github.io
+  #         PUBLISH_BRANCH: master
+  #         PUBLISH_DIR: ./docs
+  #         FORCE_ORPHAN: true
+  #         USER_NAME: bajins
+  #         USER_EMAIL: admin@bajins.com
+  #         # env: # 设置环境变量并赋值
 
   sync-repository: # 同步文件到其他库
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        # with:
-        #   path: notes-vuepress
+        with:
+          path: ${{ github.repository.name }}
 
       - name: Checkout notes-docsify repo
         uses: actions/checkout@v3
@@ -78,18 +78,18 @@ jobs:
 
       - name: Sync
         run: |
-          find /home/notes-docsify -maxdepth 1 -printf '%P\n' \
+          find notes-docsify -maxdepth 1 -printf '%P\n' \
             | grep -Ev ".git.*|.nojekyll|CNAME|README.*|index.*|push.*|wercker.*" \
             | xargs rm -rf
           ls -h ../
           echo "------------------------"
           ls -h $GITHUB_WORKSPACE
           echo "------------------------"
-          ls -h /home/notes-docsify
+          ls -h /notes-docsify
           cp -r \
             Go IDE Java Other Python Shell SQL System Web .vuepress/public/images .vuepress/public/files \
-            /home/notes-docsify
-          cd /home/notes-docsify
+            notes-docsify
+          cd notes-docsify
           chmod +x .git/hooks/pre-commit
           echo -e '#!/bin/bash\n\n./push.sh'>.git/hooks/pre-commit
           git add -A
