@@ -84,10 +84,8 @@ jobs:
             | grep -Ev ".git.*|.nojekyll|CNAME|README.*|index.*|push.*|wercker.*" \
             | xargs rm -rf
           cd ..
-          ls -h ../
-          ls -h ../../
           echo "------------------------"
-          # find $GITHUB_WORKSPACE
+          find $GITHUB_WORKSPACE
           echo "------------------------"
           cp -r \
             Go IDE Java Other Python Shell SQL System Web .vuepress/public/images .vuepress/public/files \
