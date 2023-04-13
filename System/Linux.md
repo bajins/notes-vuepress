@@ -45,6 +45,8 @@
 
 * 软件包管理器 [https://github.com/NixOS/nix](https://github.com/NixOS/nix)
 * [https://github.com/joyent/pkgsrc](https://github.com/joyent/pkgsrc)
+* [https://github.com/TritonDataCenter/pkgsrc](https://github.com/TritonDataCenter/pkgsrc)
+    * [https://github.com/NetBSDfr](https://github.com/NetBSDfr)
 * [https://github.com/Homebrew/brew](https://github.com/Homebrew/brew)
 * [https://github.com/AppImage](https://github.com/AppImage)
 * [https://github.com/flatpak/flatpak](https://github.com/flatpak/flatpak)

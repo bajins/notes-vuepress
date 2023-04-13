@@ -348,6 +348,10 @@ find / -name 'path' -type d
 find . | xargs grep -ri 'content'
 # 查找内容只显示文件名称
 find . | xargs grep -ril 'content'
+
+# 查找文件并去除./
+find -maxdepth 1 -printf '%P\n'
+find -maxdepth 1 | cut -c3-
 ```
 
 ## 列出目录

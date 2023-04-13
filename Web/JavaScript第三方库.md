@@ -18,6 +18,8 @@
 + [https://github.com/fengyuanchen](https://github.com/fengyuanchen)
 + [https://github.com/helpers](https://github.com/helpers)
 +  [https://github.com/DevExpress](https://github.com/DevExpress)
++ [https://github.com/XboxYan](https://github.com/XboxYan)
++ [https://github.com/yued-fe](https://github.com/yued-fe)
 
 
 - 转换编译器 [https://github.com/babel](https://github.com/babel)
@@ -355,6 +357,8 @@
 * [https://github.com/fex-team](https://github.com/fex-team)
 * [https://github.com/highcharts](https://github.com/highcharts)
 * [https://github.com/apache/incubator-echarts](https://github.com/apache/incubator-echarts)
+* [https://github.com/timqian/chart.xkcd](https://github.com/timqian/chart.xkcd)
+
 * [https://github.com/imgcook/imove](https://github.com/imgcook/imove)
 * [https://github.com/bpmn-io](https://github.com/bpmn-io)
 * [https://github.com/dagrejs](https://github.com/dagrejs)

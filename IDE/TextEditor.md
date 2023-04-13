@@ -5,9 +5,7 @@
 
 ## Flag
 
-+ [https://github.com/topics/notepad?l=c%23](https://github.com/topics/notepad?l=c%23)
-+ [https://github.com/topics/notepad?l=c%2B%2B](https://github.com/topics/notepad?l=c%2B%2B)
-
++ [https://github.com/topics/notepad](https://github.com/topics/notepad)
 
 
 * [https://github.com/GNOME/gedit](https://github.com/GNOME/gedit)
@@ -31,6 +29,8 @@
 * [https://github.com/file-acomplaint/kyun](https://github.com/file-acomplaint/kyun)
 * [https://github.com/rizonesoft/Notepad3](https://github.com/rizonesoft/Notepad3)
 * [https://github.com/zufuliu/notepad2](https://github.com/zufuliu/notepad2)
+* [https://github.com/dail8859/NotepadNext](https://github.com/dail8859/NotepadNext)
+* [https://github.com/0x7c13/Notepads](https://github.com/0x7c13/Notepads)
 * [https://www.scintilla.org](https://www.scintilla.org)
 * [http://www.pnotepad.org](http://www.pnotepad.org)
 * [https://github.com/brackets-cont/brackets](https://github.com/brackets-cont/brackets)
@@ -51,6 +51,7 @@
 ## Notepad++
 
 * [https://github.com/notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus)
+* [https://github.com/cxasm/notepad--](https://github.com/cxasm/notepad--)
 * [替换默认记事本](https://npp-user-manual.org/docs/other-resources/#notepad-replacement)
 * 插件 [https://github.com/notepad-plus-plus/nppPluginList](https://github.com/notepad-plus-plus/nppPluginList)
 * [https://github.com/pnedev/comparePlus](https://github.com/pnedev/comparePlus)

@@ -5,7 +5,10 @@
 
 ## Flag
 
-* [https://en.wikipedia.org/wiki/Shell_(computing)](https://en.wikipedia.org/wiki/Shell_(computing))
++ [https://en.wikipedia.org/wiki/Shell_(computing)](https://en.wikipedia.org/wiki/Shell_(computing))
++ [https://github.com/topics/shell](https://github.com/topics/shell)
++ [https://github.com/search?q=shell](https://github.com/search?q=shell)
+
 
 - 命令行参考大全（Linux、macOS、CMD、PowerShell、VB Script）[https://ss64.com](https://ss64.com)
 - [https://www.robvanderwoude.com](https://www.robvanderwoude.com)
@@ -250,6 +253,7 @@
     * [https://sourceforge.net/projects/winscp](https://sourceforge.net/projects/winscp)
     * [https://github.com/search?q=winscp](https://github.com/search?q=winscp)
 * Cygwin终端 [https://github.com/mintty/mintty](https://github.com/mintty/mintty)
+    * [https://github.com/rprichard/winpty](https://github.com/rprichard/winpty)
 * WSL终端 [https://github.com/mintty/wsltty](https://github.com/mintty/wsltty)
 * MacOS [https://github.com/gnachman/iTerm2](https://github.com/gnachman/iTerm2)
     * [https://sourceforge.net/projects/iterm](https://sourceforge.net/projects/iterm)

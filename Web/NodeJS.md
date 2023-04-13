@@ -100,6 +100,7 @@
 * REST [https://github.com/restify](https://github.com/restify)
 * [https://github.com/senchalabs/connect](https://github.com/senchalabs/connect)
 * 压缩解压文件 [https://github.com/quentinrossetti/node-7z](https://github.com/quentinrossetti/node-7z)
+* WEB框架 [https://github.com/marblejs/marble](https://github.com/marblejs/marble)
 
 
 
