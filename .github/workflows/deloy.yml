@@ -66,8 +66,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          path: ${{ github.repository.name }}
+        # with:
+        #   path: ${{ github.repository.name }}
 
       - name: Checkout notes-docsify repo
         uses: actions/checkout@v3
@@ -78,12 +78,14 @@ jobs:
 
       - name: Sync
         run: |
-          find notes-docsify -maxdepth 1 -printf '%P\n' \
+          cd notes-docsify
+          find . -maxdepth 1 -printf '%P\n' \
             | grep -Ev ".git.*|.nojekyll|CNAME|README.*|index.*|push.*|wercker.*" \
             | xargs rm -rf
+          cd ..
           ls -h ../
           echo "------------------------"
-          ls -h $GITHUB_WORKSPACE
+          find $GITHUB_WORKSPACE
           echo "------------------------"
           ls -h /notes-docsify
           cp -r \
