@@ -25,6 +25,8 @@ jobs:
   #     #     git config --global core.quotepath false
   #     #     git config --global http.version HTTP/1.1
   #     #     git config --global http.postBuffer 524288000
+  #     #     git config --global user.email "admin@bajins.com"
+  #     #     git config --global user.name "bajins"
   #     #     export LESSCHARSET=utf-8
   #     - name: Checkout
   #       uses: actions/checkout@v3
@@ -64,6 +66,11 @@ jobs:
   sync-repository: # 同步文件到其他库
     runs-on: ubuntu-latest
     steps:
+      - name: Global
+        run: |
+          git config --global user.email "admin@bajins.com"
+          git config --global user.name "bajins"
+
       - name: Checkout
         uses: actions/checkout@v3
         with:
@@ -95,7 +102,7 @@ jobs:
           echo -e '#!/bin/bash\n\n./push.sh'>.git/hooks/pre-commit
           chmod +x .git/hooks/pre-commit
           git add -A
-          git commit -m "update"
+          git commit -m "sync"
           git push
       
       - name: Gather files changed
