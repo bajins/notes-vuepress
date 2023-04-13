@@ -67,13 +67,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         # with:
-        #   path: ${{ github.repository.name }}
+        #   # https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables
+        #   # 在环境变量$GITHUB_WORKSPACE下
+        #   # /home/runner/work/仓库名/仓库名/path
+        #   path: 
 
       - name: Checkout notes-docsify repo
         uses: actions/checkout@v3
         with:
           repository: bajins/notes-docsify
-          path: notes-docsify
           token: ${{ secrets.PERSONAL_TOKEN }}
 
       - name: Sync
@@ -84,10 +86,10 @@ jobs:
             | xargs rm -rf
           cd ..
           ls -h ../
+          ls -h ../../
           echo "------------------------"
-          find $GITHUB_WORKSPACE
+          # find $GITHUB_WORKSPACE
           echo "------------------------"
-          ls -h /notes-docsify
           cp -r \
             Go IDE Java Other Python Shell SQL System Web .vuepress/public/images .vuepress/public/files \
             notes-docsify
