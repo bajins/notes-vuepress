@@ -66,16 +66,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        # with:
-        #   # https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables
-        #   # 在环境变量$GITHUB_WORKSPACE下
-        #   # /home/runner/work/仓库名/仓库名/path
-        #   path: 
+      - run: |
+          cd ..
+          ls -h
 
       - name: Checkout notes-docsify repo
         uses: actions/checkout@v3
         with:
           repository: bajins/notes-docsify
+          path: notes-docsify
           token: ${{ secrets.PERSONAL_TOKEN }}
 
       - name: Sync
