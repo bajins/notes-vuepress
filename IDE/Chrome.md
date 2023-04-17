@@ -430,6 +430,7 @@ taskkill /f /im chromedriver.exe
 * 人机验证码扩展程序 [https://github.com/dessant/buster](https://github.com/dessant/buster)
 * [google-access-helper](https://github.com/search?o=desc&q=google-access-helper&s=updated&type=Repositories)
 * [http://googlehelper.net](http://googlehelper.net)
+* 抠图 [https://github.com/kevmo314/magic-copy](https://github.com/kevmo314/magic-copy)
 
 
 

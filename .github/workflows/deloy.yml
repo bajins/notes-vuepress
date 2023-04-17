@@ -106,10 +106,3 @@ jobs:
           git add -A
           git commit -m "sync"
           git push
-      
-      - name: Gather files changed
-        uses: trilom/file-changes-action@1.2.4
-        with:
-          output: 'json'
-          fileOutput: 'json'
-      - run: cat $HOME/files.json

@@ -33,6 +33,7 @@
 * Git速查手册 [https://github.com/arslanbilal/git-cheat-sheet](https://github.com/arslanbilal/git-cheat-sheet)
     * [https://www.rumosky.wiki/docs/learngit](https://www.rumosky.wiki/docs/learngit)
 * 命令行提示 [https://github.com/o2sh/onefetch](https://github.com/o2sh/onefetch)
+* [https://github.com/nvie/git-toolbelt](https://github.com/nvie/git-toolbelt)
 * Git的奇技淫巧: [https://github.com/521xueweihan/git-tips](https://github.com/521xueweihan/git-tips)
 * 猴子都能懂的GIT入门: [https://backlog.com/git-tutorial/cn/contents](https://backlog.com/git-tutorial/cn/contents)
 * [Git与Subversion的命令对比表](https://website-proxy.backlogtool.com/git-tutorial/cn/reference/git-svn.html)

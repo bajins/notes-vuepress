@@ -148,6 +148,7 @@
 **项目**
 
 * [https://github.com/zhontai/Admin.UI](https://github.com/zhontai/Admin.UI)
+* [https://github.com/HalseySpicy/Geeker-Admin](https://github.com/HalseySpicy/Geeker-Admin)
 * 扫描PDF [https://github.com/rwv/lookscanned.io](https://github.com/rwv/lookscanned.io)
 
 
