@@ -129,6 +129,8 @@
 - [https://github.com/SergioBenitez/Rocket](https://github.com/SergioBenitez/Rocket)
 - [https://github.com/hyperium](https://github.com/hyperium)
 - [https://github.com/swc-project/swc](https://github.com/swc-project/swc)
+- [https://github.com/poem-web/poem](https://github.com/poem-web/poem)
+    - [https://github.com/Parrhesia-Base/poem-proxy](https://github.com/Parrhesia-Base/poem-proxy)
 - [https://github.com/seanmonstar/warp](https://github.com/seanmonstar/warp)
     - [Rust Web框架warp使用](https://blog.csdn.net/kk3909/article/details/107219815)
 - [https://github.com/feather-rs](https://github.com/feather-rs)

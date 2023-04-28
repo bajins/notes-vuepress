@@ -33,7 +33,6 @@
 * [https://github.com/numpy/numpydoc](https://github.com/numpy/numpydoc)
 * [https://github.com/pycco-docs/pycco](https://github.com/pycco-docs/pycco)
 * [https://github.com/Python-Markdown/markdown](https://github.com/Python-Markdown/markdown)
-* [https://github.com/doxygen/doxygen](https://github.com/doxygen/doxygen)
 * [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
 
 

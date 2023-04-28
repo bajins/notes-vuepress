@@ -21,6 +21,7 @@
 + [https://github.com/urfave](https://github.com/urfave)
 + [https://github.com/cloudquery](https://github.com/cloudquery)
 + [https://github.com/GoAdminGroup](https://github.com/GoAdminGroup)
+* [https://github.com/essentialkaos](https://github.com/essentialkaos)
 + 分布式 [https://github.com/asim/go-micro](https://github.com/asim/go-micro)
 + [https://github.com/gotomicro](https://github.com/gotomicro)
 + [https://github.com/go-playground](https://github.com/go-playground)
@@ -56,6 +57,8 @@
 * [https://github.com/giampaolo/psutil](https://github.com/giampaolo/psutil)
 * [https://github.com/shirou/gopsutil](https://github.com/shirou/gopsutil)
 * [https://github.com/liyue201/gostl](https://github.com/liyue201/gostl)
+* [https://github.com/guonaihong/gout](https://github.com/guonaihong/gout)
+* [https://github.com/ghetzel/go-stockutil](https://github.com/ghetzel/go-stockutil)
 * [https://github.com/julienschmidt/httprouter](https://github.com/julienschmidt/httprouter)
 * JSON解析器 [https://github.com/json-iterator](https://github.com/json-iterator)
 * [https://github.com/mailru/easyjson](https://github.com/mailru/easyjson)
@@ -123,7 +126,6 @@
 * [https://github.com/lestrrat-go/jwx](https://github.com/lestrrat-go/jwx)
 * 程序抖动问题定位 [https://github.com/mosn/holmes](https://github.com/mosn/holmes)
 * 内容协作 [https://github.com/pydio/cells](https://github.com/pydio/cells)
-* API开发的云平台 [https://github.com/micro](https://github.com/micro)
 * 高性能游戏服务器框架 [https://github.com/lonng/nano](https://github.com/lonng/nano)
 * 对图像序列（例如延时拍摄）进行闪烁处理 [https://github.com/StruffelProductions/simple-deflicker](https://github.com/StruffelProductions/simple-deflicker)
 * 控制台进度条显示 [https://github.com/vardius/progress-go](https://github.com/vardius/progress-go)
@@ -253,3 +255,8 @@
 
 * [https://github.com/go-macaron](https://github.com/go-macaron)
 * [https://github.com/flamego/flamego](https://github.com/flamego/flamego)
+* [https://github.com/xinliangnote/go-gin-api](https://github.com/xinliangnote/go-gin-api)
+* 微服务 [https://github.com/micro](https://github.com/micro)
+* [https://github.com/zeromicro/go-zero](https://github.com/zeromicro/go-zero)
+* [https://github.com/go-micro/go-micro](https://github.com/go-micro/go-micro)
+

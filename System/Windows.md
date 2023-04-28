@@ -31,6 +31,7 @@
     * [Windows远程桌面单/多用户同时登录](https://blog.csdn.net/Aaron_Miller/article/details/109534277)
 * [英特尔® 显卡控制面板从 Microsoft* Store 中下架](https://www.intel.cn/content/www/cn/zh/support/articles/000058733/graphics.html)
 * [https://www.intel.cn/content/www/cn/zh/download-center/home.html](https://www.intel.cn/content/www/cn/zh/download-center/home.html)
+* [Win11 下蓝牙设备突然消失，不能正常使用解决方法](https://blog.csdn.net/weixin_45331893/article/details/126680545)
 
 
 

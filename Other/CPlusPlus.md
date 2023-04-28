@@ -95,6 +95,7 @@
 * [https://github.com/simdjson/simdjson](https://github.com/simdjson/simdjson)
 * [https://github.com/nlohmann/json](https://github.com/nlohmann/json)
 * XML [https://github.com/zeux/pugixml](https://github.com/zeux/pugixml)
+* [https://github.com/Tencent/rapidjson](https://github.com/Tencent/rapidjson)
 * HTML [https://github.com/csb6/html-plus-plus](https://github.com/csb6/html-plus-plus)
 * web [https://github.com/qinguoyi/TinyWebServer](https://github.com/qinguoyi/TinyWebServer)
 * [https://github.com/sogou/workflow](https://github.com/sogou/workflow)
