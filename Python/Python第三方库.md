@@ -1,0 +1,122 @@
+# Python第三方库
+
+[[toc]]
+
+
+## FLAG
+
+
++ [https://github.com/jobbole/awesome-python-cn](https://github.com/jobbole/awesome-python-cn)
++ [https://github.com/vinta/awesome-python](https://github.com/vinta/awesome-python)
++ [Python 常用的标准库以及第三方库有哪些？](https://www.zhihu.com/question/20501628/answers/updated)
+
+
+* 应用监控 [https://github.com/SolarEdgeTech/pyctuator](https://github.com/SolarEdgeTech/pyctuator)
+* [Python图像处理库—-Pillow](https://www.lizenghai.com/archives/17611.html)
+* 基于异步库 [https://github.com/aio-libs](https://github.com/aio-libs)
+* 协程 [https://github.com/python-greenlet/greenlet](https://github.com/python-greenlet/greenlet)
+    * [https://github.com/gevent/gevent](https://github.com/gevent/gevent)
+        * [https://greenlet.readthedocs.io](https://greenlet.readthedocs.io)
+* HTTP [https://github.com/psf/requests](https://github.com/psf/requests)
+    * [https://github.com/requests](https://github.com/requests)
+    * [https://github.com/not-kennethreitz](https://github.com/not-kennethreitz)
+* [https://github.com/urllib3/urllib3](https://github.com/urllib3/urllib3)
+* [https://github.com/tornadoweb/tornado](https://github.com/tornadoweb/tornado)
+    * [https://www.tornadoweb.org](https://www.tornadoweb.org)
+* [https://github.com/twisted](https://github.com/twisted)
+* [https://github.com/encode/httpx](https://github.com/encode/httpx)
+* [https://github.com/httpie/httpie](https://github.com/httpie/httpie)
+* 日志 [https://github.com/Delgan/loguru](https://github.com/Delgan/loguru)
+* [https://github.com/jpadilla/pyjwt](https://github.com/jpadilla/pyjwt)
+* [https://github.com/Arronlong/py_scripts](https://github.com/Arronlong/py_scripts)
+* [https://github.com/pyexcel](https://github.com/pyexcel)
+* [https://github.com/jmcnamara/XlsxWriter](https://github.com/jmcnamara/XlsxWriter)
+* [https://foss.heptapod.net/openpyxl/openpyxl](https://foss.heptapod.net/openpyxl/openpyxl)
+    * [https://openpyxl.readthedocs.io](https://openpyxl.readthedocs.io)
+* [https://github.com/mhammond/pywin32](https://github.com/mhammond/pywin32)
+    * [winreg --- Windows 注册表访问](https://docs.python.org/zh-cn/3/library/winreg.html)
+* 简繁转换 [https://github.com/gumblex/zhconv](https://github.com/gumblex/zhconv)
+* 開放中文轉換 [https://github.com/BYVoid/OpenCC](https://github.com/BYVoid/OpenCC)
+* [https://github.com/pyecharts/pyecharts](https://github.com/pyecharts/pyecharts)
+* 获取字符编码 [https://github.com/chardet/chardet](https://github.com/chardet/chardet)
+* [https://github.com/PyYoshi/cChardet](https://github.com/PyYoshi/cChardet)
+* 分布式任务 [https://github.com/celery/celery](https://github.com/celery/celery)
+    * [https://github.com/open-source-translation/celery-cn](https://github.com/open-source-translation/celery-cn)
+    * [https://www.celerycn.io](https://www.celerycn.io)
+* [https://github.com/dask](https://github.com/dask)
+* web [https://github.com/tiangolo/fastapi](https://github.com/tiangolo/fastapi)
+* [https://github.com/pallets/flask](https://github.com/pallets/flask)
+    * [https://dormousehole.readthedocs.io](https://dormousehole.readthedocs.io)
+* [https://github.com/Pylons](https://github.com/Pylons)
+* [https://github.com/bottlepy/bottle](https://github.com/bottlepy/bottle)
+* [https://github.com/frappe/frappe](https://github.com/frappe/frappe)
+* [https://github.com/zauberzeug/nicegui](https://github.com/zauberzeug/nicegui)
+* [https://github.com/pynecone-io/pynecone](https://github.com/pynecone-io/pynecone)
+* 定时任务 [https://github.com/agronholm/apscheduler](https://github.com/agronholm/apscheduler)
+    * [https://apscheduler.readthedocs.io](https://apscheduler.readthedocs.io)
+* ORM [https://github.com/sqlalchemy/sqlalchemy](https://github.com/sqlalchemy/sqlalchemy)
+* 打印输出为表格 [https://github.com/jazzband/prettytable](https://github.com/jazzband/prettytable)
+* [https://github.com/astanin/python-tabulate](https://github.com/astanin/python-tabulate)
+* SQLModel模型 [https://github.com/tiangolo/sqlmodel](https://github.com/tiangolo/sqlmodel)
+* 串口 [https://github.com/pyserial/pyserial](https://github.com/pyserial/pyserial)
+* 模糊测试 [https://github.com/google/clusterfuzz](https://github.com/google/clusterfuzz)
+* [https://github.com/jtpereyda/boofuzz](https://github.com/jtpereyda/boofuzz)
+* [https://github.com/nccgroup/fuzzowski](https://github.com/nccgroup/fuzzowski)
+* 图片 [https://github.com/imageio/imageio](https://github.com/imageio/imageio)
+* SQL查询日志文件 [https://github.com/samuel/squawk](https://github.com/samuel/squawk)
+* 编码检测 [https://github.com/PyYoshi/uchardet](https://github.com/PyYoshi/uchardet)
+* 截图 [https://github.com/BoboTiG/python-mss](https://github.com/BoboTiG/python-mss)
+* 数据处理 [https://github.com/tableau](https://github.com/tableau)
+
+
+
+- [https://github.com/zopefoundation](https://github.com/zopefoundation)
+- 交互式计算 [https://github.com/ipython](https://github.com/ipython)
+- 纠正以前的控制台命令中的错误 [https://github.com/nvbn/thefuck](https://github.com/nvbn/thefuck)
+- 命令行HTTP客户端 [https://github.com/jakubroztocil/httpie](https://github.com/jakubroztocil/httpie)
+- SSHv2协议 [https://github.com/paramiko/paramiko](https://github.com/paramiko/paramiko)
+- shell [https://github.com/xonsh/xonsh](https://github.com/xonsh/xonsh)
+- 终端样式 [https://github.com/willmcgugan/rich](https://github.com/willmcgugan/rich)
+- [https://github.com/topics/expect](https://github.com/topics/expect)
+    - [https://www.nist.gov/services-resources/software/expect](https://www.nist.gov/services-resources/software/expect)
+    - [https://github.com/clarkwang/sexpect](https://github.com/clarkwang/sexpect)
+    - 自动化交互式 [https://github.com/pexpect/pexpect](https://github.com/pexpect/pexpect)
+    - [https://github.com/pytest-dev/pytest](https://github.com/pytest-dev/pytest)
+    - [https://github.com/jacebrowning/pytest-expecter](https://github.com/jacebrowning/pytest-expecter)
+- [https://github.com/fabric](https://github.com/fabric)
+- [https://github.com/pyinvoke/invoke](https://github.com/pyinvoke/invoke)
+- [https://github.com/paramiko](https://github.com/paramiko)
+- [https://github.com/topics/ops](https://github.com/topics/ops)
+- 访问java类库 [https://github.com/jpype-project/jpype](https://github.com/jpype-project/jpype)
+
+
+
+**HTML文档解析**
+
+- Beautiful Soup 4 的中文文档 [https://github.com/DeronW/beautifulsoup](https://github.com/DeronW/beautifulsoup)
+    - [https://beautifulsoup.readthedocs.io](https://beautifulsoup.readthedocs.io)
+- [https://github.com/html5lib/html5lib-python](https://github.com/html5lib/html5lib-python)
+- 类似于jQuery的python库 [https://github.com/gawel/pyquery](https://github.com/gawel/pyquery)
+- [https://github.com/lxml/lxml](https://github.com/lxml/lxml)
+- [https://github.com/psf/requests-html](https://github.com/psf/requests-html)
+- [https://github.com/scrapy/parsel](https://github.com/scrapy/parsel)
+- [https://github.com/edgewall/genshi](https://github.com/edgewall/genshi)
+- A​​tom和RSS [https://github.com/kurtmckee/feedparser](https://github.com/kurtmckee/feedparser)
+
+
+
+**PING/TCPING**
+
++ [https://github.com/topics/ping](https://github.com/topics/ping)
++ [https://github.com/topics/icmp-ping](https://github.com/topics/icmp-ping)
++ [https://github.com/topics/tcp](https://github.com/topics/tcp)
++ [https://github.com/topics/tcping](https://github.com/topics/tcping)
+
+- [用Python实现PING](https://blog.csdn.net/weixin_41855723/article/details/96184297)
+
+* [https://github.com/kyan001/ping3](https://github.com/kyan001/ping3)
+* [https://github.com/romana/multi-ping](https://github.com/romana/multi-ping)
+* [https://github.com/zhengxiaowai/tcping](https://github.com/zhengxiaowai/tcping)
+    * [https://github.com/rami3l/ting](https://github.com/rami3l/ting)
+* [https://github.com/alessandromaggio/pythonping](https://github.com/alessandromaggio/pythonping)
+

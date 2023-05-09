@@ -8,9 +8,12 @@
 - [Michael Redlich-Java近期新闻](https://www.infoq.cn/profile/416A67CDBAA4DC)
 - [Java版本比较](https://mp.weixin.qq.com/s/NEfqPXrcq6O1p7RLf9LWCw)
 - [Java 9-16 新增语法元素一览](https://segmentfault.com/a/1190000039714550)
+- [Java 速查手册](https://bbs.csdn.net/topics/609815996)
+
 
 > [JEP](http://openjdk.java.net/jeps/0)的全称就是`JDK Enhancement Proposals`，简单点讲就像是一个个对JAVA进行改进提案，
 > 这些提案会在合适的时间合适的地点被加入JDK的特定版本。
+
 
 + [https://github.com/topics/java](https://github.com/topics/java)
 + [https://github.com/jcp-org](https://github.com/jcp-org)
@@ -26,6 +29,8 @@
     + [https://projects.eclipse.org/jakartaee](https://projects.eclipse.org/jakartaee)
     + [javaEE和javaweb的区别？](https://www.zhihu.com/question/52002845)
 + [https://github.com/jakartaee](https://github.com/jakartaee)
+
+
 * [https://github.com/javaee-samples](https://github.com/javaee-samples)
 * 生成代码 [https://github.com/moshowgame/SpringBootCodeGenerator](https://github.com/moshowgame/SpringBootCodeGenerator)
 * 序列化基准测试 [https://github.com/eishay/jvm-serializers](https://github.com/eishay/jvm-serializers)
@@ -53,12 +58,12 @@
 + [https://github.com/search?q=Interview](https://github.com/search?q=Interview)
 
 
-- Java新功能 [https://github.com/wesleyegberto/java-new-features](https://github.com/wesleyegberto/java-new-features)
-    - [https://github.com/rokon12/project-loom-slides-and-demo-code](https://github.com/rokon12/project-loom-slides-and-demo-code)
-    - [https://github.com/nipafx](https://github.com/nipafx)
-- [https://github.com/hepengju/java-new-features](https://github.com/hepengju/java-new-features)
-- [https://github.com/GreyZeng/java_new_features](https://github.com/GreyZeng/java_new_features)
-- [https://github.com/javamultiplex/java-new-features](https://github.com/javamultiplex/java-new-features)
+* Java新功能 [https://github.com/wesleyegberto/java-new-features](https://github.com/wesleyegberto/java-new-features)
+    * [https://github.com/rokon12/project-loom-slides-and-demo-code](https://github.com/rokon12/project-loom-slides-and-demo-code)
+    * [https://github.com/nipafx](https://github.com/nipafx)
+* [https://github.com/hepengju/java-new-features](https://github.com/hepengju/java-new-features)
+* [https://github.com/GreyZeng/java_new_features](https://github.com/GreyZeng/java_new_features)
+* [https://github.com/javamultiplex/java-new-features](https://github.com/javamultiplex/java-new-features)
 * Java8函数式编程 [https://github.com/glen9527/Java-8-Lambdas-zh](https://github.com/glen9527/Java-8-Lambdas-zh)
 * [https://www.manning.com/books/java-8-in-action](https://www.manning.com/books/java-8-in-action)
 * [https://github.com/CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes)
@@ -130,7 +135,7 @@
 * [https://github.com/fenixsoft/awesome-fenix](https://github.com/fenixsoft/awesome-fenix)
 * [https://github.com/AobingJava/JavaFamily](https://github.com/AobingJava/JavaFamily)
 * JDK源码阅读笔记 [https://github.com/kangjianwei/LearningJDK](https://github.com/kangjianwei/LearningJDK)
-* JDK源码阅读笔记 [https://github.com/seaswalker/jdk-sourcecode-analysis](https://github.com/seaswalker/jdk-sourcecode-analysis)
+* [https://github.com/seaswalker/jdk-sourcecode-analysis](https://github.com/seaswalker/jdk-sourcecode-analysis)
 * [https://github.com/wupeixuan/JDKSourceCode1.8](https://github.com/wupeixuan/JDKSourceCode1.8)
 * JDK8 实现 JVM [https://github.com/guxingke/mini-jvm](https://github.com/guxingke/mini-jvm)
 * [https://github.com/diguage/jdk-source-analysis](https://github.com/diguage/jdk-source-analysis)
@@ -156,7 +161,7 @@
 * [https://github.com/guang19/framework-learning](https://github.com/guang19/framework-learning)
 * Java多线程编程核心技术 [https://github.com/loveincode/java-multi-thread-programming](https://github.com/loveincode/java-multi-thread-programming)
 * 项目实践讲解 [https://github.com/RudeCrab/rude-java](https://github.com/RudeCrab/rude-java)
-* Java OpenTelemetry 测试指南 [https://github.com/chenmudu/open-telemetry-java-guides](https://github.com/chenmudu/open-telemetry-java-guides)
+* Java OpenTelemetry测试指南 [https://github.com/chenmudu/open-telemetry-java-guides](https://github.com/chenmudu/open-telemetry-java-guides)
 * [https://github.com/spring2go/staffjoy](https://github.com/spring2go/staffjoy)
 * [https://github.com/lenve/javaboy-code-samples](https://github.com/lenve/javaboy-code-samples)
 * [https://github.com/0voice/expert_readed_books](https://github.com/0voice/expert_readed_books)
