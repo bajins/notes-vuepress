@@ -554,7 +554,7 @@
 ## 程序打包
 
 + [https://github.com/topics/installer](https://github.com/topics/installer)
-* [https://github.com/topics/packager](https://github.com/topics/packager)
++ [https://github.com/topics/packager](https://github.com/topics/packager)
 + [https://github.com/topics/msi](https://github.com/topics/msi)
 + [https://github.com/topics/exe](https://github.com/topics/exe)
 

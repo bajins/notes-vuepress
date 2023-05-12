@@ -428,6 +428,8 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
 
 ## HTTP
 
+* [在 Java 中下载的文件会出现乱码是为什么？](https://www.zhihu.com/question/596302946)
+
 
 **常量**
 

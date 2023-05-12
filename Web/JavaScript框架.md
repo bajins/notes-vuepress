@@ -328,6 +328,8 @@ $('div:contains("test"):not(:has(*)):last').css('background-color', 'red');
 * 使用旧版IE警报 [https://github.com/nmsdvid/ie-alert](https://github.com/nmsdvid/ie-alert)
 * 图像放大镜 [https://github.com/mrenzidev/jqzoom](https://github.com/mrenzidev/jqzoom)
 * 文件上传 [https://github.com/kartik-v/bootstrap-fileinput](https://github.com/kartik-v/bootstrap-fileinput)
+	* [https://plugins.krajee.com/file-input](https://plugins.krajee.com/file-input)
+	* [http://www.bootstrap-fileinput.com](http://www.bootstrap-fileinput.com)
 * [https://github.com/jquery-form/form](https://github.com/jquery-form/form)
 * ~~[https://github.com/FineUploader/fine-uploader](https://github.com/FineUploader/fine-uploader)~~
 * 下拉选择框 [https://github.com/snapappointments/bootstrap-select](https://github.com/snapappointments/bootstrap-select)

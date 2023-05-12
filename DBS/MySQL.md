@@ -15,6 +15,7 @@
 * [如果是MySQL引起的CPU消耗过大，你会如何优化？](https://www.cnblogs.com/xiaoheliu1024/p/12657929.html)
 * 全文搜索 [https://github.com/mengzhuo/sqlalchemy-fulltext-search](https://github.com/mengzhuo/sqlalchemy-fulltext-search)
 * [MySQL系列——MySQL实现序列（Sequence）效果](https://blog.csdn.net/sinat_19351993/article/details/47169789)
+* [MySQL索引数据结构入门](https://segmentfault.com/a/1190000043655061)
 
 
 ![](/images/sql执行顺序.png)

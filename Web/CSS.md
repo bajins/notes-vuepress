@@ -407,7 +407,7 @@
     - `inherit` 规定应该从父元素继承`white-space`属性的值
 
 
-- `word-wrap: normal|break-word;` 标明是否允许浏览器在单词内进行断句，防止当一个字符串太长而找不到它的自然断句点时产生溢出现象。 
+- `overflow-wrap: normal|break-word;` 标明是否允许浏览器在单词内进行断句，防止当一个字符串太长而找不到它的自然断句点时产生溢出现象。 
     - `normal` 只在允许的断字点换行(浏览器保持默认处理) 
     - `break-word` 在长单词或URL地址内部进行换行 
 

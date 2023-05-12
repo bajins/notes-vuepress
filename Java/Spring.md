@@ -98,10 +98,15 @@ Propagation.NESTED	如果当前存在事务，则创建一个事务作为当前�
 // REQUIRES_NEW 与 NESTED 前者是内层异常影响外层，外层不影响内层；后者正好相反，内层加try catch后 异常不影响外层，外层会影响内层
 @Transactional(rollbackFor = Exception.class, propagation = Propagation.REQUIRES_NEW)
 
+@Autowired
+private TransactionTemplate transactionTemplate;
+
 
 // 手动管理事务
 @Autowired
 private DataSourceTransactionManager transactionManager;
+/*@Autowired
+private PlatformTransactionManager platformTransactionManager;*/
 /*@Autowired
 private TransactionDefinition transactionDefinition;*/
 
