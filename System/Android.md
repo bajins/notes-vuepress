@@ -473,6 +473,9 @@
 * 李跳跳 [https://wwe.lanzouw.com/b01v0g3wj](https://wwe.lanzouw.com/b01v0g3wj) 1233
     * [李跳跳进阶指南](https://juejin.cn/post/6938590373740544007)
 * 浏览器 [https://github.com/tuyafeng/Via](https://github.com/tuyafeng/Via)
+* [https://www.xbext.com](https://www.xbext.com)
+* [https://www.twinkstar.com](https://www.twinkstar.com)
+* [https://x5.tencent.com](https://x5.tencent.com)
 * 阅读器 [https://github.com/koreader/koreader](https://github.com/koreader/koreader)
 
 

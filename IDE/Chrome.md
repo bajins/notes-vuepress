@@ -369,14 +369,17 @@ taskkill /f /im chromedriver.exe
 
 - AdGuard Android 解锁高级版 [https://www.lanzoui.com/b0f19420h](https://www.lanzoui.com/b0f19420h)
 
+
 **过滤规则**
 
+- [https://github.com/damengzhu](https://github.com/damengzhu)
 - [https://gitee.com/halflife/list](https://gitee.com/halflife/list)
 - [https://gitee.com/xinggsf/Adblock-Rule](https://gitee.com/xinggsf/Adblock-Rule)
 - [https://github.com/cjx82630/cjxlist](https://github.com/cjx82630/cjxlist)
 - 视频跳过广告和VIP视频解析脚本 ot mofiter（秒杀视频网站播放广告） https://greasyfork.org/scripts/373063
-- 【ChinaList+EasyList(修正)】http://sub.adtchrome.com/adt-chinalist-easylist.txt
-- 【Easylist China】https://easylist-downloads.adblockplus.org/easylistchina.txt
+- [http://sub.adtchrome.com/adt-chinalist-easylist.txt](http://sub.adtchrome.com/adt-chinalist-easylist.txt)
+- [https://easylist-downloads.adblockplus.org/easylistchina.txt](https://easylist-downloads.adblockplus.org/easylistchina.txt)
+- [https://lemon399-markrender.vercel.app](https://lemon399-markrender.vercel.app)
 
 
 

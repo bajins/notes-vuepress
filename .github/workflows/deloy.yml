@@ -94,8 +94,9 @@ jobs:
             | xargs rm -rf
           cd ../
           cp -r \
-            Go IDE Java Other Python Shell SQL System Web .vuepress/public/images .vuepress/public/files \
+            `ls -A | grep -Ev ".git|.github|.vuepress|.gitattributes|.gitignore|.gitmodules|package.json|README.md"`\
             notes-docsify
+          cp -r .vuepress/public/images .vuepress/public/files notes-docsify
           # echo "-------------------------------------------------------------"
           # find $GITHUB_WORKSPACE
           # echo "-------------------------------------------------------------"

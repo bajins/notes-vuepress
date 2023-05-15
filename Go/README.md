@@ -100,6 +100,7 @@
 * Go语法树入门 [https://github.com/chai2010/go-ast-book](https://github.com/chai2010/go-ast-book)
 * [https://github.com/halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go)
 * Go泛型入门 [https://github.com/akutz/go-generics-the-hard-way](https://github.com/akutz/go-generics-the-hard-way)
+* Golang开发手记 [https://github.com/kevinyan815/gocookbook](https://github.com/kevinyan815/gocookbook)
 * 周刊 [https://github.com/polaris1119/golangweekly](https://github.com/polaris1119/golangweekly)
 * [https://gobyexample.com](https://gobyexample.com)
 * [https://golang3.eddycjy.com](https://golang3.eddycjy.com)
