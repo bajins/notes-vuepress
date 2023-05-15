@@ -93,8 +93,9 @@ jobs:
             | grep -Ev ".git.*|.nojekyll|CNAME|README.*|index.*|push.*|wercker.*" \
             | xargs rm -rf
           cd ../
-          cp -r \
-            `ls -A | grep -Ev ".git|.github|.vuepress|.gitattributes|.gitignore|.gitmodules|package.json|README.md"`\
+          ls -lh
+          cp -r `ls -A | grep -Ev \
+            ".git|.github|.vuepress|.gitattributes|.gitignore|.gitmodules|package.json|README.md|notes-docsify"`\
             notes-docsify
           cp -r .vuepress/public/images .vuepress/public/files notes-docsify
           # echo "-------------------------------------------------------------"
