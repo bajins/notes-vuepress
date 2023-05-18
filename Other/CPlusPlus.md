@@ -107,6 +107,7 @@
 * [https://github.com/ossrs/srs](https://github.com/ossrs/srs)
 * 流媒体 [https://github.com/rgaufman/live555](https://github.com/rgaufman/live555)
 * [https://github.com/Kurento/kurento-media-server](https://github.com/Kurento/kurento-media-server)
+* 音频识别 [https://github.com/acoustid](https://github.com/acoustid)
 * 单元测试 [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2)
 * [https://github.com/google/googletest](https://github.com/google/googletest)
     * [https://github.com/kinow/gtest-tap-listener](https://github.com/kinow/gtest-tap-listener)

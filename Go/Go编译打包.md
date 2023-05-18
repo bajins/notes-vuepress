@@ -1,9 +1,6 @@
 # Go编译打包
 
-
 [[toc]]
-
-
 
 
 ## Flag
@@ -40,6 +37,7 @@
 * Go编译器 [https://github.com/tinygo-org/tinygo](https://github.com/tinygo-org/tinygo)
 
 
+
 **嵌入静态资源**
 
 * [https://github.com/go-bindata/go-bindata](https://github.com/go-bindata/go-bindata)
@@ -51,7 +49,6 @@
 * [https://github.com/mjibson/esc](https://github.com/mjibson/esc)
 * [https://github.com/UnnoTed/fileb0x](https://github.com/UnnoTed/fileb0x)
 * [https://github.com/gobuffalo/packr](https://github.com/gobuffalo/packr)
-* [https://github.com/alecthomas/gobundle](https://github.com/alecthomas/gobundle)
 * [https://github.com/go-playground/statics](https://github.com/go-playground/statics)
 * [https://github.com/knadh/stuffbin](https://github.com/knadh/stuffbin)
 * [https://github.com/omeid/go-resources](https://github.com/omeid/go-resources)

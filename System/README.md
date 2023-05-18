@@ -153,6 +153,8 @@
 + [https://github.com/topics/quic](https://github.com/topics/quic)
 
 
+* [https://thekelleys.org.uk/dnsmasq](https://thekelleys.org.uk/dnsmasq)
+    * [https://dnsmasq.org](https://dnsmasq.org)
 * [https://github.com/coredns/coredns](https://github.com/coredns/coredns)
 * [https://github.com/skynetservices/skydns](https://github.com/skynetservices/skydns)
 * [https://github.com/PowerDNS](https://github.com/PowerDNS)

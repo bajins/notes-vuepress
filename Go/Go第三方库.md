@@ -21,7 +21,9 @@
 + [https://github.com/urfave](https://github.com/urfave)
 + [https://github.com/cloudquery](https://github.com/cloudquery)
 + [https://github.com/GoAdminGroup](https://github.com/GoAdminGroup)
-* [https://github.com/essentialkaos](https://github.com/essentialkaos)
++ [https://github.com/essentialkaos](https://github.com/essentialkaos)
++ [https://github.com/alecthomas](https://github.com/alecthomas)
++ [https://github.com/golangci](https://github.com/golangci)
 + 分布式 [https://github.com/asim/go-micro](https://github.com/asim/go-micro)
 + [https://github.com/gotomicro](https://github.com/gotomicro)
 + [https://github.com/go-playground](https://github.com/go-playground)
@@ -44,7 +46,7 @@
 + [https://github.com/moul](https://github.com/moul)
 + [https://github.com/frobware](https://github.com/frobware)
 + [https://github.com/juju](https://github.com/juju)
-* PostgreSQL [https://github.com/jackc/pgx](https://github.com/jackc/pgx)
++ PostgreSQL [https://github.com/jackc/pgx](https://github.com/jackc/pgx)
 
 
 

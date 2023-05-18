@@ -435,7 +435,7 @@
 
 **xml/json/word/excel**
 
-* [https://github.com/jxlsteam](https://github.com/jxlsteam)
+* Excel [https://github.com/jxlsteam](https://github.com/jxlsteam)
     * [https://sourceforge.net/projects/jxls](https://sourceforge.net/projects/jxls)
 * [https://github.com/alibaba/easyexcel](https://github.com/alibaba/easyexcel)
 * [https://github.com/plutext/docx4j](https://github.com/plutext/docx4j)
@@ -444,9 +444,12 @@
     * [导出百万级数据到Excel 文件](https://blog.csdn.net/gd6321374/article/details/90417202)
     * [https://github.com/550690513/large-amount-data-export](https://github.com/550690513/large-amount-data-export)
 * [https://gitee.com/lemur/easypoi](https://gitee.com/lemur/easypoi)
+* [https://github.com/dhatim/fastexcel](https://github.com/dhatim/fastexcel)
 * [https://sourceforge.net/projects/jexcelapi](https://sourceforge.net/projects/jexcelapi)
 * [https://github.com/aspose](https://github.com/aspose)
 * [https://github.com/liaochong/myexcel](https://github.com/liaochong/myexcel)
+* [https://github.com/monitorjbl/excel-streaming-reader](https://github.com/monitorjbl/excel-streaming-reader)
+* [https://github.com/crealytics/spark-excel](https://github.com/crealytics/spark-excel)
 * 输出word [https://github.com/Sayi/poi-tl](https://github.com/Sayi/poi-tl)
 * [https://github.com/MSPaintIDE/NewOCR](https://github.com/MSPaintIDE/NewOCR)
 * 转换 [https://github.com/documents4j/documents4j](https://github.com/documents4j/documents4j)

@@ -189,6 +189,10 @@
     - [https://github.com/databricks/koalas](https://github.com/databricks/koalas)
 - [https://github.com/snowflakedb](https://github.com/snowflakedb)
 - [https://www.microsoft.com/zh-cn/sql-server](https://www.microsoft.com/zh-cn/sql-server)
+- [https://github.com/typesense/typesense](https://github.com/typesense/typesense)
+- [https://github.com/weaviate/weaviate](https://github.com/weaviate/weaviate)
+- [https://github.com/qdrant/qdrant](https://github.com/qdrant/qdrant)
+- [https://github.com/chroma-core/chroma](https://github.com/chroma-core/chroma)
 
 
 

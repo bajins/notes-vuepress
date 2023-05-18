@@ -151,6 +151,7 @@
 
 ## 第三方依赖
 
+* [https://github.com/aaronpowell](https://github.com/aaronpowell)
 * [https://github.com/MonkSoul](https://github.com/MonkSoul)
 * [https://github.com/novotnyllc](https://github.com/novotnyllc)
 * [https://github.com/reactiveui](https://github.com/reactiveui)
@@ -206,6 +207,7 @@
 * [https://github.com/BaristaLabs/chrome-dev-tools](https://github.com/BaristaLabs/chrome-dev-tools)
 * SPA [https://github.com/jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture)
 * json [https://github.com/JamesNK/Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)
+* 验证 [https://github.com/VerifyTests/Verify](https://github.com/VerifyTests/Verify)
 
 
 - [https://github.com/yswenli](https://github.com/yswenli)

@@ -320,7 +320,6 @@ $('div:contains("test"):not(:has(*)):last').css('background-color', 'red');
 * [https://github.com/wmh/jquery-scrollbox](https://github.com/wmh/jquery-scrollbox)
 * [https://github.com/omcg33/jquery.limarquee](https://github.com/omcg33/jquery.limarquee)
 * 分页 [https://github.com/superRaytin/paginationjs](https://github.com/superRaytin/paginationjs)
-* 图片查看 [https://github.com/fengyuanchen/jquery-viewer](https://github.com/fengyuanchen/jquery-viewer)
 * 视频播放 [https://github.com/jplayer/jPlayer](https://github.com/jplayer/jPlayer)
 * 弹幕 [https://github.com/chiruom/jquery.danmu.js](https://github.com/chiruom/jquery.danmu.js)
 * [https://github.com/jeromeetienne/jquery-qrcode](https://github.com/jeromeetienne/jquery-qrcode)

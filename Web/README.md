@@ -173,6 +173,7 @@
     * [https://github.com/DesertsP/Valine-Admin](https://github.com/DesertsP/Valine-Admin)
     * [https://github.com/walinejs/waline](https://github.com/walinejs/waline)
 * [https://github.com/djyde/cusdis](https://github.com/djyde/cusdis)
+* [https://github.com/schn4ck/schnack](https://github.com/schn4ck/schnack)
 * 小部件 [https://github.com/widgetbot-io](https://github.com/widgetbot-io)
 * [https://chatra.com](https://chatra.com)
 * [https://crisp.chat](https://crisp.chat)

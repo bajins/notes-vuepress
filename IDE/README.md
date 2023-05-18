@@ -279,10 +279,23 @@
 
 
 
-**数据建模**
+### 数据库建模
 
-* PDMan [https://gitee.com/robergroup/chiner](https://gitee.com/robergroup/chiner)
++ [https://github.com/topics/diagram-editor](https://github.com/topics/diagram-editor)
+
+
+* [https://www.heidisql.com](https://www.heidisql.com)
+* [https://gitee.com/robergroup/pdmaner](https://gitee.com/robergroup/pdmaner)
 * PowerDesigner [https://www.sap.com/products/powerdesigner-data-modeling-tools.html](https://www.sap.com/products/powerdesigner-data-modeling-tools.html)
+* [http://www.borland.com/together](http://www.borland.com/together)
+* [https://www.toadworld.com/products/toad-data-modeler](https://www.toadworld.com/products/toad-data-modeler)
+* [https://dbschema.com](https://dbschema.com)
+* [https://www.vertabelo.com](https://www.vertabelo.com)
+* [https://www.dbvis.com](https://www.dbvis.com)
+* [https://www.dbdesigner.net](https://www.dbdesigner.net)
+* [https://modelright.com](https://modelright.com)
+* [https://sourceforge.net/projects/mogwai](https://sourceforge.net/projects/mogwai)
+* [https://editor.ponyorm.com](https://editor.ponyorm.com)
 
 
 
@@ -315,9 +328,18 @@
 
 ## 思维导图
 
+> Unified Modeling Language (UML) 又称统一建模语言或标准建模语言，是始于1997年一个OMG标准，
+它是一个支持模型化和软件系统开发的图形化语言，为软件开发的所有阶段提供模 型化和可视化支持，包括由需求分析到规格，到构造和配置。
+面向对象的分析与设计(OOA&D，OOAD)方法的发展在 80 年代末 至 90 年代中出现了一个高潮，UML 是这个高潮的产物。
+它不仅统一了Booch、Rumbaugh和Jacobson的表示方法，而且对其作了进一步的发展，并最终统一为大众所接受的标准建模语言。
+
+> 软件开发的时候，系统设计师/系统架构师给出 UML 设计图， 程序员将来要根据 UML 设计图进行编码/开发。
+
+
 * [https://github.com/jgraph/drawio](https://github.com/jgraph/drawio)
     * [https://app.diagrams.net](https://app.diagrams.net)
 * [https://github.com/umlet/umlet](https://github.com/umlet/umlet)
+* [https://github.com/staruml](https://github.com/staruml)
 * [https://www.processon.com](https://www.processon.com)
 * [https://gitmind.cn](https://gitmind.cn)
 * [https://www.omnigroup.com/omnigraffle](https://www.omnigroup.com/omnigraffle)

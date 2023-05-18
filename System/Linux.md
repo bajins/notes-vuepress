@@ -578,33 +578,35 @@ scp -P 22 -p root@192.168.214.187:/tmp/demo/f3.log /tmp/files/
 
 + [https://github.com/topics/rsync](https://github.com/topics/rsync)
 
-* [https://rsync.samba.org](https://rsync.samba.org)
+
+* [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
+    * [https://rsync.samba.org](https://rsync.samba.org)
 * [https://github.com/probonopd/zsync-curl](https://github.com/probonopd/zsync-curl)
 * [http://zsync.moria.org.uk](http://zsync.moria.org.uk)
 * [rsync 用法教程](https://www.ruanyifeng.com/blog/2020/08/rsync.html)
+* [rsync 参数说明及使用参数笔记好文摘抄](https://www.cnblogs.com/koushuige/p/9162920.html)
 
 
 ```bash
+# -P 由两个参数组成：--partial 恢复某些原因而中断的传输，--progress 显示传输进度。
 # 把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
-rsync -e 'ssh -p 22' /home/work/source.txt work@192.168.0.10:/home/work/
+rsync -avP -e 'ssh -p 22' /home/work/source.txt work@192.168.0.10:/home/work/
 
 # 把192.168.0.10机器上的source.txt文件拷贝到本地的/home/work目录下
-rsync work@192.168.0.10:/home/work/source.txt /home/work/
+rsync -avP work@192.168.0.10:/home/work/source.txt /home/work/
 
 # 把192.168.0.10机器上的source.txt文件拷贝到192.168.0.11机器的/home/work目录下
-rsync work@192.168.0.10:/home/work/source.txt work@192.168.0.11:/home/work/
+rsync -avP work@192.168.0.10:/home/work/source.txt work@192.168.0.11:/home/work/
 
-# 拷贝文件夹，加-r参数
-rsync -r /home/work/sourcedir work@192.168.0.10:/home/work/
+# -r拷贝文件夹  当前服务器 -> 远程服务器
+rsync -avP -r /home/work/sourcedir work@192.168.0.10:/home/work/
+rsync -avP --progress -e ssh root@IP:/path/ /path/
 
 # 使用主机名
-rsync -r /home/work/sourcedir work@www.myhost.com:/home/work/
-
-# 显示详情，加-v参数
-rsync -r -v /home/work/sourcedir work@www.myhost.com:/home/work/
+rsync -avP -r /home/work/sourcedir work@www.myhost.com:/home/work/
 
 # 排除子目录，注意：--exclude后面的路径不能为绝对路径，必须为相对路径才可以，否则匹配不上，就不会被排除掉。
-rsync -r -v --exclude sourcedir/notinclude /home/work/sourcedir work@www.myhost.com:/home/work/
+rsync -avP -r -v --exclude sourcedir/notinclude /home/work/sourcedir work@www.myhost.com:/home/work/
 ```
 
 

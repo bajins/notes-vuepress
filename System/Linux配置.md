@@ -1,8 +1,6 @@
 # Linux配置
 
-
 [[toc]]
-
 
 
 # Flag
