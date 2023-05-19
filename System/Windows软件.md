@@ -369,6 +369,7 @@
 - [https://github.com/musescore/MuseScore](https://github.com/musescore/MuseScore)
 - [https://github.com/Xmader/musescore-downloader](https://github.com/Xmader/musescore-downloader)
 - [https://github.com/qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic)
+- 字幕 [https://github.com/foxofice/sub_share](https://github.com/foxofice/sub_share)
 
 
 * 电视盒子 [https://github.com/NAStool/nas-tools](https://github.com/NAStool/nas-tools)

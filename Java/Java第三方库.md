@@ -449,6 +449,7 @@
 * [https://github.com/aspose](https://github.com/aspose)
 * [https://github.com/liaochong/myexcel](https://github.com/liaochong/myexcel)
 * [https://github.com/monitorjbl/excel-streaming-reader](https://github.com/monitorjbl/excel-streaming-reader)
+* [https://github.com/jeecgboot/autopoi](https://github.com/jeecgboot/autopoi)
 * [https://github.com/crealytics/spark-excel](https://github.com/crealytics/spark-excel)
 * 输出word [https://github.com/Sayi/poi-tl](https://github.com/Sayi/poi-tl)
 * [https://github.com/MSPaintIDE/NewOCR](https://github.com/MSPaintIDE/NewOCR)
