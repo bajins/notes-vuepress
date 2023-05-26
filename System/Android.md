@@ -287,6 +287,7 @@
 * 图像裁剪 [https://github.com/mike14u/croperino](https://github.com/mike14u/croperino)
 * 图表库 [https://github.com/PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 * 进度 [https://github.com/lzyzsd/CircleProgress](https://github.com/lzyzsd/CircleProgress)
+* [https://github.com/sunjinxi1994/EasyPoi](https://github.com/sunjinxi1994/EasyPoi)
 
 
 
@@ -478,6 +479,7 @@
 * [https://www.twinkstar.com](https://www.twinkstar.com)
 * [https://x5.tencent.com](https://x5.tencent.com)
 * 阅读器 [https://github.com/koreader/koreader](https://github.com/koreader/koreader)
+* 启动器 [https://github.com/NeoApplications/Neo-Launcher](https://github.com/NeoApplications/Neo-Launcher)
 
 
 ### 证件照

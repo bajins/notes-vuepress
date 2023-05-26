@@ -407,41 +407,7 @@ ORDER BY
 
 ## 时间函数
 
-
-### 获取当前日期时间
-
-> 获得当前日期+时间（date+time）函数
-
-- `localtime()`
-- `localtimestamp()`
 - `now()` 
-- `current_timestamp()`
-
-```sql
-CURRENT_TIMESTAMP { + INTERVAL 1 [HOUR|MONTH|WEEK|DAY|MINUTE|...] }
-```
-
-- `INTERVAL`时间单位
-
-| unit          | 说明  |
-|---------------|-----|
-| YEAR          | 年   |
-| QUARTER       | 季度  |
-| MONTH         | 月   |
-| DAY           | 天   |
-| HOUR          | 时   |
-| MINUTE        | 分   |
-| WEEK          | 周   |
-| SECOND        | 秒   |
-| YEAR_MONTH    | 年:月  |
-| DAY_HOUR      | 日:时 |
-| DAY_MINUTE    | 日:分 |
-| DAY_SECOND    | 日:秒  |
-| HOUR_MINUTE   | 时:分 |
-| HOUR_SECOND   | 时:秒  |
-| MINUTE_SECOND | 分:秒  |
-
-
 - `sysdate()` 日期时间函数跟 now() 类似，不同之处在于：now() 在执行开始时值就得到了， sysdate() 在函数执行时动态得到值。
 
 ### 获得当前日期
@@ -505,7 +471,6 @@ CONCAT(LEFT(REPLACE(UUID(),'-',''),18),DATE_FORMAT(NOW(), '%Y%m%d%H%i%S'))
 ### 日期增加或者减去一个时间间隔
 
 - `date_add()`
-
 - `date_sub()`
 
 ```sql

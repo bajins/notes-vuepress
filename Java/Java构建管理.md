@@ -229,6 +229,7 @@
 
 
 * [http://mvnrepository.com](http://mvnrepository.com)
+* [https://central.sonatype.com](https://central.sonatype.com)
 * [https://search.maven.org](https://search.maven.org)
 * [https://www.mvncenter.com](https://www.mvncenter.com)
 * [https://nexus.pentaho.org](https://nexus.pentaho.org)
