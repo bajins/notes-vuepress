@@ -7,11 +7,53 @@
 
 > Structured Query Language：SQL86、SQL89、SQL92、SQL99、SQL2003、SQL2008、SQL2011、SQL2016
 
-> ANSI SQL标准
+**SQL标准主要由以下几个组织制定和维护**
+
++ ISO/IEC JTC 1/SC 32 - 国际标准化组织,负责数据管理和交换。
++ ANSI X3H2 - 美国国家标准协会下属的一个委员会,负责数据库语言标准。
++ SQL标准委员会(SQL Standards Committee) - 包括数据库供应商和用户在内的多个组织,负责制定SQL标准。
+
+**SQL标准文档包括**
+
++ SQL/Foundation - 基本SQL语法和功能。包含SELECT、DDL等语句。
++ SQL/Framework - 数据定义和控制语言。包括数据库对象和权限管理。
++ SQL/CLI - SQL调用接口的标准规范。
++ SQL/PSM - SQL的编程语言绑定规范。
++ SQL/MED - 联合多数据库的标准。
 
 
+**ISO SQL标准**
+
++ [https://www.iso.org/sql-standards.html](https://www.iso.org/sql-standards.html)
++ Framework (SQL/Framework)：https://www.iso.org/standard/63555.html
++ Foundation (SQL/Foundation)：https://www.iso.org/standard/50515.html
++ Call-Level Interface (SQL/CLI)：https://www.iso.org/standard/63556.html
++ Persistent Stored Modules (SQL/PSM)：https://www.iso.org/standard/65919.html
++ Row Pattern Recognition (SQL/RPR)：https://www.iso.org/standard/65920.html
++ Management of External Data (SQL/MED)：https://www.iso.org/standard/63559.html
++ Object Language Bindings (SQL/OLB)：https://www.iso.org/standard/50517.html
++ Information and Definition Schemas (SQL/Schemata)：https://www.iso.org/standard/50516.html
++ SQL Routines and Types using the Java TM Programming Language (SQL/JRT)：https://www.iso.org/standard/65921.html
++ XML-Related Specifications (SQL/XML)：https://www.iso.org/standard/50518.html
+
+
+* SQL2011：https://www.iso.org/standard/53798.html
+* SQL2016：https://www.iso.org/standard/63400.html
 * [https://github.com/crate/sql-99](https://github.com/crate/sql-99)
 * [https://standards.iso.org/ittf/PubliclyAvailableStandards/index.html](https://standards.iso.org/ittf/PubliclyAvailableStandards/index.html)
+
+
+**ANSI SQL标准**
+
++ [http://webstore.ansi.org/find=sql](http://webstore.ansi.org/find=sql)
++ SQL/Foundation (ANSI/INCITS 461): http://webstore.ansi.org/FindStandards.aspx?FacilityID=1&SearchString=sql%2ffoundation+
++ SQL/Framework (INCITS/ISO/IEC 9075-2): http://webstore.ansi.org/RecordDetail.aspx?sku=INCITS%2fISO%2fIEC+9075-2%3a2008
++ SQL/CLI (ANSI INCITS 445): https://webstore.ansi.org/RecordDetail.aspx?sku=INCITS+445-2008
++ SQL/PSM (ANSI INCITS/ISO/IEC 9075-4): http://webstore.ansi.org/RecordDetail.aspx?sku=INCITS%2fISO%2fIEC+9075-4%3a2008
+
+
+
+* [推荐性国家标准查询-数据库](https://openstd.samr.gov.cn/bzgk/gb/std_list_type?r=0.07737708182276615&page=1&pageSize=50&p.p1=2&p.p2=%E6%95%B0%E6%8D%AE%E5%BA%93&p.p5=PUBLISHED&p.p90=circulation_date&p.p91=desc)
 * [SQL标准简介](https://cloud.tencent.com/developer/article/1442564)
 * [数据库必知词汇：SQL标准](https://developer.aliyun.com/article/745815)
 * [SQL数据库中什么是游标？](https://www.zhihu.com/question/59114952/answer/2477832680)

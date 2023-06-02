@@ -160,17 +160,23 @@
 
 ## CSS3新单位和计算
 
-* [https://www.w3.org/TR/css3-values/#length-value](https://www.w3.org/TR/css3-values/#length-value)
+* [https://www.w3.org/TR/css3-values/#lengths](https://www.w3.org/TR/css3-values/#lengths)
 * [https://developer.mozilla.org/zh-CN/docs/Web/CSS/length](https://developer.mozilla.org/zh-CN/docs/Web/CSS/length)
 
 | 单位 	| 说明                                                                          	|
 |------	|-------------------------------------------------------------------------------	|
+| px   	| 一像素（pixel） 	|
+| cm   	| 一厘米。`1cm = 96px / 2.54` 	|
+| mm   	| 一毫米。`1mm = 1/10 * 1cm` 	|
+| in   	| 一英寸。`1in = 2.54cm = 96px`	|
+| pc   	| 一磅（point），72 分之一英寸。`1pc = 12pt = 1/6 * 1in` 	|
+| pt   	| 一磅（point），72 分之一英寸。`1pt = 1/12 * 1pc = 1/72 * 1in`	|
+| ch   	| 数字 0 的宽度                                                                 	|
 | em   	| 相对于应用在当前元素的字体尺寸。一般浏览器字体大小默认为16px，则2em == 32px； 	|
 | ex   	| 依赖于英文字母小 x 的高度                                                     	|
-| ch   	| 数字 0 的宽度                                                                 	|
 | rem  	| 根元素（html）的 font-size                                                    	|
-| vw   	| viewpoint width，视窗宽度，1vw=视窗宽度的1%                                   	|
 | vh   	| viewpoint height，视窗高度，1vh=视窗高度的1%                                  	|
+| vw   	| viewpoint width，视窗宽度，1vw=视窗宽度的1%                                   	|
 | vmin 	| vw和vh中较小的那个。                                                          	|
 | vmax 	| vw和vh中较大的那个。                                                          	|
 

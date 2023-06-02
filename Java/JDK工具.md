@@ -27,15 +27,14 @@ java -cf bajins.war .
 # 获取当前JVM默认参数
 java -XX:+PrintFlagsFinal -version | grep MaxHeapSize
 
-# 找出占用CPU高（或执行时间长）的线程PID
-top -H -p $(pgrep java)
-top -Hp $(pgrep java)
-# TID等同PID
+# 通过进程ID(PID)找出占用CPU高（或执行时间长）的线程ID(TID)
+top -H -c -p $(pgrep java)
+top -Hpc $(pgrep java)
 ps -mp $(pgrep java) -o THREAD,tid,time | sort -rn
 
-# 打印堆栈异常信息，过滤转换为16进制的PID，-A 30显示后30行
-jstack PID | grep $(printf "%x\n" PID) -A 30
-jstack PID | grep -A 10 $(printf "%x\n" PID)
+# 打印堆栈异常信息，过滤转换为16进制的TID，-A 30显示后30行
+jstack -l PID | grep $(printf "%x\n" TID) -A 30
+jstack -l PID | grep -A 10 $(printf "%x\n" TID)
 
 # nid：对应的linux操作系统下的TID，就是前面转化的16进制数字
 # tid：这个应该是jvm的jmm内存规范中的唯一地址定位
