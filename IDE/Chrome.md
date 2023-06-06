@@ -183,6 +183,7 @@ chrome://flags/#enable-parallel-downloading
 * [Headless Browser](https://www.jianshu.com/p/11d519e2d0cb)
 * [https://github.com/mozilla/geckodriver](https://github.com/mozilla/geckodriver)
 * [https://github.com/topics/headless-browser](https://github.com/topics/headless-browser)
+* [https://github.com/browserless](https://github.com/browserless)
 
 
 **反爬虫**
@@ -404,19 +405,32 @@ taskkill /f /im chromedriver.exe
 - 黑暗阅读器 [https://github.com/darkreader/darkreader](https://github.com/darkreader/darkreader)
 
 
-### Other
 
-* 脚本助手 [https://github.com/Tampermonkey](https://github.com/Tampermonkey)
-    * [https://github.com/JasonBarnabe/greasyfork](https://github.com/JasonBarnabe/greasyfork)
-    * [https://github.com/OpenUserJs/OpenUserJS.org](https://github.com/OpenUserJs/OpenUserJS.org)
-    * [https://www.userscript.zone](https://www.userscript.zone)
-    * [https://github.com/Mottie/GitHub-userscripts](https://github.com/Mottie/GitHub-userscripts)
-    * [https://github.com/XIU2/UserScript](https://github.com/XIU2/UserScript)
+### 脚本助手
+
+- [https://github.com/JasonBarnabe/greasyfork](https://github.com/JasonBarnabe/greasyfork)
+    - [https://github.com/F9y4ng/GreasyFork-Scripts](https://github.com/F9y4ng/GreasyFork-Scripts)
+    - [https://github.com/Mottie/GitHub-userscripts](https://github.com/Mottie/GitHub-userscripts)
+    - [https://github.com/XIU2/UserScript](https://github.com/XIU2/UserScript)
+- [https://github.com/OpenUserJs/OpenUserJS.org](https://github.com/OpenUserJs/OpenUserJS.org)
+- [https://github.com/scriptscat](https://github.com/scriptscat)
+- [https://www.userscript.zone](https://www.userscript.zone)
+
+
+* 篡改猴 [https://github.com/Tampermonkey](https://github.com/Tampermonkey)
+    * [https://bbs.tampermonkey.net.cn](https://bbs.tampermonkey.net.cn)
     * [https://github.com/hmjz100/Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)
     * [https://github.com/syhyz1990](https://github.com/syhyz1990)
         * [https://www.youxiaohou.com](https://www.youxiaohou.com)
-* [https://github.com/violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey)
-* [https://github.com/greasemonkey/greasemonkey](https://github.com/greasemonkey/greasemonkey)
+    * CSDN去广告 [https://github.com/adlered/CSDNGreener](https://github.com/adlered/CSDNGreener)
+* 暴力猴 [https://github.com/violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey)
+* 油猴 [https://github.com/greasemonkey/greasemonkey](https://github.com/greasemonkey/greasemonkey)
+
+
+
+
+### Other
+
 * 解锁加密音乐 [https://github.com/unlock-music/unlock-music](https://github.com/unlock-music/unlock-music)
 * [阅读模式：reader-view](https://chrome.google.com/webstore/detail/reader-view/iibolhpkjjmoepndefdmdlmbpfhlgjpl)
 * [阅读模式：just-read](https://github.com/ZachSaucier/Just-Read)

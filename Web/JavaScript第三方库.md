@@ -319,6 +319,7 @@
 * [https://github.com/baukh789/GridManager](https://github.com/baukh789/GridManager)
 * [https://github.com/ag-grid/ag-grid](https://github.com/ag-grid/ag-grid)
 * [https://github.com/future-architect/cheetah-grid](https://github.com/future-architect/cheetah-grid)
+* [https://github.com/alibaba/x-render](https://github.com/alibaba/x-render)
 
 
 **拖动/拖拽/拖放**

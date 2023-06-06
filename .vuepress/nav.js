@@ -13,7 +13,7 @@ module.exports = [{
                 },
                 {
                     text: '获取XShell',
-                    link: 'https://github.com/bajins/tool-gin'
+                    link: 'https://tool.bajins.com'
                 },
                 {
                     text: 'GitHub',

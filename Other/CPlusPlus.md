@@ -26,6 +26,7 @@
 * [https://github.com/changkun/modern-cpp-tutorial](https://github.com/changkun/modern-cpp-tutorial)
 * [https://github.com/Alinshans/MyTinySTL](https://github.com/Alinshans/MyTinySTL)
 * [https://github.com/Changhe160/cplusplus2020-2021-2](https://github.com/Changhe160/cplusplus2020-2021-2)
+* [https://github.com/lkimuk](https://github.com/lkimuk)
 * 学习路线图 [https://github.com/salmer/CppDeveloperRoadmap](https://github.com/salmer/CppDeveloperRoadmap)
 * [https://github.com/CDDSCLab/training-plan](https://github.com/CDDSCLab/training-plan)
 * [https://github.com/changgyhub/leetcode_101](https://github.com/changgyhub/leetcode_101)
@@ -101,6 +102,7 @@
 * [https://github.com/sogou/workflow](https://github.com/sogou/workflow)
 * [https://github.com/jpbarrette/curlpp](https://github.com/jpbarrette/curlpp)
 * [https://github.com/elnormous/HTTPRequest](https://github.com/elnormous/HTTPRequest)
+* URL解析 [https://github.com/ada-url/ada](https://github.com/ada-url/ada)
 * 分布式网络框架 [https://github.com/Bwar/Nebula](https://github.com/Bwar/Nebula)
 * 分析调试测试器 [https://github.com/dfeneyrou/palanteer](https://github.com/dfeneyrou/palanteer)
 * 实时视频 [https://github.com/ossrs/srs](https://github.com/ossrs/srs)
@@ -136,6 +138,7 @@
 * 地理空间 [https://github.com/osgeo](https://github.com/osgeo)
 * [https://github.com/postgis](https://github.com/postgis)
 * 编码检测 [https://github.com/freedesktop/uchardet](https://github.com/freedesktop/uchardet)
+* [https://github.com/simdutf/simdutf](https://github.com/simdutf/simdutf)
 * 游戏引擎 [https://github.com/minetest/minetest](https://github.com/minetest/minetest)
 
 

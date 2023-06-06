@@ -18,6 +18,7 @@
 * [https://github.com/alsotang/node-lessons](https://github.com/alsotang/node-lessons)
 * [https://github.com/cnodejs](https://github.com/cnodejs)
 * [https://github.com/amplication](https://github.com/amplication)
+* 基准测试 [https://github.com/RafaelGSS/nodejs-bench-operations](https://github.com/RafaelGSS/nodejs-bench-operations)
 
 
 > `node`执行脚本时获取参数`process.argv`数组，下标`0`为执行程序的绝对路径，下标`1`为脚本的绝对路径，

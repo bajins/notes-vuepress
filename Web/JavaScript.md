@@ -188,3 +188,20 @@ var express = require('express');
 
 
 
+
+## 微前端
+
+> Micro-frontends
+
+* [https://github.com/smapiot/piral](https://github.com/smapiot/piral)
+* [https://github.com/single-spa](https://github.com/single-spa)
+* [https://github.com/teambit/bit](https://github.com/teambit/bit)
+* [https://github.com/systemjs](https://github.com/systemjs)
+* [https://github.com/opencomponents](https://github.com/opencomponents)
+* [https://github.com/umijs/qiankun](https://github.com/umijs/qiankun)
+* [https://github.com/SAP/luigi](https://github.com/SAP/luigi)
+* [https://github.com/frintjs/frint](https://github.com/frintjs/frint)
+* [https://github.com/puzzle-js](https://github.com/puzzle-js)
+
+
+- [基于 Webpack Module Federation，这可能是一个比较优雅的微前端解决方案](https://juejin.cn/post/7020607552190677000)

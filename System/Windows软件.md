@@ -116,6 +116,7 @@
 * [https://github.com/diaspora](https://github.com/diaspora)
 * [https://github.com/misskey-dev/misskey](https://github.com/misskey-dev/misskey)
 * [https://git.pleroma.social/pleroma/pleroma](https://git.pleroma.social/pleroma/pleroma)
+* [https://github.com/Minds](https://github.com/Minds)
 
 
 - [https://github.com/topics/curses](https://github.com/topics/curses)
@@ -251,6 +252,7 @@
 - [http://www.2btjia.com](http://www.2btjia.com)
 - [https://www.pianku.tv](https://www.pianku.tv)
 - [https://cili001.com](http://cili001.com)
+- [https://github.com/2004content/rarbg](https://github.com/2004content/rarbg)
 
 > 特征码（该字符串，一般是40个字的一串字母和数字的组合）下载：打开BT下载工具（迅雷、BitComet、BitTorrent、uTorrent等等），
 > 例如比特彗星，点击磁链，直接粘贴下载即可。如果使用迅雷的话还需要在特征码前面加上`magnet:?xt=urn:btih:`
@@ -972,6 +974,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/open-goal/jak-project](https://github.com/open-goal/jak-project)
 * [https://github.com/alexbatalov/fallout1-ce](https://github.com/alexbatalov/fallout1-ce)
 * [https://github.com/yuzu-emu](https://github.com/yuzu-emu)
+* [https://github.com/HolographicWings/TOTK-Mods-collection](https://github.com/HolographicWings/TOTK-Mods-collection)
+* [https://github.com/SwagSoftware/Kisak-Strike](https://github.com/SwagSoftware/Kisak-Strike)
 
 
 + [http://www.downloadsoftware.ir](http://www.downloadsoftware.ir)
