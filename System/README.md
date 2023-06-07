@@ -177,6 +177,7 @@
 * [https://github.com/cppla/ServerStatus](https://github.com/cppla/ServerStatus)
 * [https://github.com/CokeMine/ServerStatus-Hotaru](https://github.com/CokeMine/ServerStatus-Hotaru)
 * [https://github.com/BotoX/ServerStatus](https://github.com/BotoX/ServerStatus)
+* [https://github.com/chaos-zhu/easynode](https://github.com/chaos-zhu/easynode)
 * [https://github.com/netdata/netdata](https://github.com/netdata/netdata)
 * [https://github.com/newrelic](https://github.com/newrelic)
     * [https://opensource.newrelic.com](https://opensource.newrelic.com)

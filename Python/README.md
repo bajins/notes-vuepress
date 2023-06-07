@@ -71,6 +71,7 @@ with Test() as t: # 触发__exit__
 - [https://github.com/H4ckForJob/dirmap](https://github.com/H4ckForJob/dirmap)
 - [https://github.com/DIGITALCRIMINAL/OnlyFans](https://github.com/DIGITALCRIMINAL/OnlyFans)
 - WiFi扫描破解 [https://github.com/TheSadError/NIVOS](https://github.com/TheSadError/NIVOS)
+- CLI工具 [https://github.com/kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)
 
 
 

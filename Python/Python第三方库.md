@@ -67,7 +67,7 @@
 * SQL查询日志文件 [https://github.com/samuel/squawk](https://github.com/samuel/squawk)
 * 编码检测 [https://github.com/PyYoshi/uchardet](https://github.com/PyYoshi/uchardet)
 * 截图 [https://github.com/BoboTiG/python-mss](https://github.com/BoboTiG/python-mss)
-* 数据处理 [https://github.com/tableau](https://github.com/tableau)
+
 
 
 

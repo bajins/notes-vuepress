@@ -23,10 +23,12 @@
 - [https://github.com/less](https://github.com/less)
     - [https://less.bootcss.com](https://less.bootcss.com)
 - CSS规约 [https://github.com/stylelint/stylelint](https://github.com/stylelint/stylelint)
+- [https://github.com/ubershmekel/cssbed](https://github.com/ubershmekel/cssbed)
 
 
 
 * [现代 CSS 高阶技巧，完美的波浪进度条效果](https://segmentfault.com/a/1190000043081752)
+* 可折叠树 [https://iamkate.com/code/tree-views](https://iamkate.com/code/tree-views)
 
 
 **各种隐藏HTML元素的区别**
@@ -142,7 +144,10 @@
 * [https://github.com/ansible-semaphore/semaphore](https://github.com/ansible-semaphore/semaphore)
 * [https://www.telerik.com/kendo-ui](https://www.telerik.com/kendo-ui)
 * [https://github.com/shadcn/ui](https://github.com/shadcn/ui)
-* 图标 [https://github.com/FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
+* [https://github.com/radix-ui](https://github.com/radix-ui)
+* 矢量图标 [https://github.com/FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
+* [https://www.iconfont.cn](https://www.iconfont.cn)
+* [https://www.iconbolt.com](https://www.iconbolt.com)
 
 
 - [最受程序员欢迎的 20 个 CSS 框架](https://www.fuocu.cn/archives/css-frame)

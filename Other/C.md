@@ -14,6 +14,7 @@
 * [https://github.com/tangtangcoding/C-C-](https://github.com/tangtangcoding/C-C-)
 * [https://github.com/SolerHo/CprimerPlus-6e-Notes](https://github.com/SolerHo/CprimerPlus-6e-Notes)
 * [https://www.tutorialspoint.com/cprogramming](https://www.tutorialspoint.com/cprogramming)
+* C语言手册 [https://github.com/VernonGrant/gnu-c-language-manual](https://github.com/VernonGrant/gnu-c-language-manual)
 
 
 - [C语言内存泄露很严重，如何应对？](https://blog.csdn.net/devcloud/article/details/108335912)
@@ -130,6 +131,7 @@
 * [https://github.com/lwip-tcpip/lwip](https://github.com/lwip-tcpip/lwip)
 * 解析json工具 [https://github.com/stedolan/jq](https://github.com/stedolan/jq)
     * [https://stedolan.github.io/jq](https://stedolan.github.io/jq)
+* [https://github.com/Barenboim/json-parser](https://github.com/Barenboim/json-parser)
 * 转换位图图像 [https://github.com/ImageMagick](https://github.com/ImageMagick)
 * Markdown [https://github.com/commonmark/cmark](https://github.com/commonmark/cmark)
 * [https://github.com/MDeiml/tree-sitter-markdown](https://github.com/MDeiml/tree-sitter-markdown)
@@ -183,6 +185,7 @@
 * 音乐可视化 [https://github.com/projectM-visualizer/projectm](https://github.com/projectM-visualizer/projectm)
 * [https://github.com/FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg)
     * [https://ffmpeg.org](https://ffmpeg.org)
+    * [https://ffmpeg.guide](https://ffmpeg.guide)
 * [https://github.com/BtbN/FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds)
 * [https://github.com/ShiftMediaProject/FFmpeg](https://github.com/ShiftMediaProject/FFmpeg)
 * [https://github.com/ashellunts/ffmpeg-to-webrtc](https://github.com/ashellunts/ffmpeg-to-webrtc)

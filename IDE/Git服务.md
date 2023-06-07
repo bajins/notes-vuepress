@@ -152,6 +152,7 @@ volumes:
 * [目录 - P3TERX ZONE](https://p3terx.com/archives.html)
 * [https://github.com/tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet)
 
+
 - [https://github.com/zenodo/zenodo](https://github.com/zenodo/zenodo)
 - 手动同步fork [https://blog.blueskyclouds.com/jsfx/58.html](https://blog.blueskyclouds.com/jsfx/58.html)
 - [https://github.com/wei/git-sync](https://github.com/wei/git-sync)
@@ -169,6 +170,7 @@ volumes:
 
 - GitHub存档 [https://www.gharchive.org](https://www.gharchive.org)
 - [https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
+- 开源项目刊栏: [https://github.com/521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub)
 - GitHub每周趋势 [https://github.com/SolaTyolo/gold_github_trending](https://github.com/SolaTyolo/gold_github_trending)
 - GitHub每天趋势 [https://github.com/yangwenmai/github-trending-backup](https://github.com/yangwenmai/github-trending-backup)
 - [https://github.com/HelloGitHub-Team/Article](https://github.com/HelloGitHub-Team/Article)

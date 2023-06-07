@@ -442,6 +442,7 @@
 * Axialis-IconWorkshop 官网 [https://www.axialis.com/download/#software](https://www.axialis.com/download/#software)
 * [https://github.com/darktable-org/darktable](https://github.com/darktable-org/darktable)
 * [https://amadine.com](https://amadine.com)
+* 提高分辨率 [https://github.com/Djdefrag/QualityScaler](https://github.com/Djdefrag/QualityScaler)
 
 
 - [https://affinity.serif.com](https://affinity.serif.com)

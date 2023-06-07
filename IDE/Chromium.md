@@ -1,4 +1,4 @@
-# Chrome
+# Chromium
 
 [[toc]]
 
@@ -10,6 +10,7 @@
 
 * [https://github.com/PSPDFKit-labs/browserslist.dev](https://github.com/PSPDFKit-labs/browserslist.dev)
     * [https://browserslist.dev](https://browserslist.dev)
+* [https://github.com/WebKit](https://github.com/WebKit)
 * 嵌入式框架（CEF） [https://github.com/chromiumembedded](https://github.com/chromiumembedded)
 * [https://github.com/arnoldthebat/chromiumos](https://github.com/arnoldthebat/chromiumos)
 
@@ -28,13 +29,15 @@
 + [https://github.com/GoogleChromeLabs](https://github.com/GoogleChromeLabs)
 
 
+
+**Chrome**
+
 * [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
     * [https://chromeenterprise.google/intl/zh_CN/browser/download](https://chromeenterprise.google/intl/zh_CN/browser/download)
     * 有更新组件 https://redirector.gvt1.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise64.msi
     * 有更新组件 https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi
-    * 无更新组件 https://redirector.gvt1.com/edgedl/release2/chrome/od2lllrxuumm2zm5pdlk6xdgnm_107.0.5304.122/107.0.5304.122_chrome_installer.exe
-    * 无更新组件 https://edgedl.me.gvt1.com/edgedl/release2/chrome/od2lllrxuumm2zm5pdlk6xdgnm_107.0.5304.122/107.0.5304.122_chrome_installer.exe
-    * [Chrome历史离线包 不带更新模块](https://www.lanzouh.com/b112274)
+    * 无更新组件 https://redirector.gvt1.com/edgedl/release2/chrome/acv6l7uqv5vm3zjnrialpp3qy3qq_114.0.5735.110/114.0.5735.110_chrome_installer.exe
+    * 无更新组件 https://edgedl.me.gvt1.com/edgedl/release2/chrome/acv6l7uqv5vm3zjnrialpp3qy3qq_114.0.5735.110/114.0.5735.110_chrome_installer.exe
 * [https://www.chromedownloads.net](https://www.chromedownloads.net)
 * [https://www.iplaysoft.com/tools/chrome](https://www.iplaysoft.com/tools/chrome)
 * [https://www.chrome64bit.com](https://www.chrome64bit.com)
@@ -42,6 +45,8 @@
 * [https://api.pzhacm.org/iivb/cu.json](https://api.pzhacm.org/iivb/cu.json)
 * [https://github.com/lyonna/ChromeOfflineInstallerDownloadAPI](https://github.com/lyonna/ChromeOfflineInstallerDownloadAPI)
     * [http://viewver.coolpage.biz/chrome.php](http://viewver.coolpage.biz/chrome.php)
+* 耍下 [https://github.com/icy37785/chrome_plus](https://github.com/icy37785/chrome_plus)
+
 
 
 **其他浏览器**
@@ -58,7 +63,7 @@
     * [https://docs.microsoft.com/zh-cn/microsoft-edge](https://docs.microsoft.com/zh-cn/microsoft-edge)
     * 不显示新建标签页广告资讯和网址（微软对中国区特供）强制本地NTP，添加快捷方式运行参数：`--force-local-ntp`
 * [https://www.mozilla.org/zh-CN/firefox/all](https://www.mozilla.org/zh-CN/firefox/all)
-    * [https://ftp.mozilla.org/pub/firefox/releases](https://ftp.mozilla.org/pub/firefox/releases)
+    * [https://ftp.mozilla.org/pub/firefox/releases/](https://ftp.mozilla.org/pub/firefox/releases/)
     * [https://sourceforge.net/projects/libportable](https://sourceforge.net/projects/libportable)
 * [https://github.com/vivaldi](https://github.com/vivaldi)
     * [https://vivaldi.com](https://vivaldi.com)

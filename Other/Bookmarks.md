@@ -6,10 +6,12 @@
 ## Flag
 
 * [130 余个相见恨晚的超实用网站](https://blog.csdn.net/qq_43901693/article/details/100606828)
-* 开源项目刊栏: [https://github.com/521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub)
-* [https://github.oldjpg.com](https://github.oldjpg.com)
 * [https://octoverse.github.com/#top-languages](https://octoverse.github.com/#top-languages)
-* [https://sourceforge.net](https://sourceforge.net)
+* 初学者 [https://github.com/search?q=beginners](https://github.com/search?q=beginners)
+* [https://github.com/topics/learning](https://github.com/topics/learning)
+* [https://github.com/topics/education](https://github.com/topics/education)
+* [https://github.com/topics/tutorials](https://github.com/topics/tutorials)
+* [https://github.com/topics/curriculum](https://github.com/topics/curriculum)
 
 
 
@@ -304,7 +306,6 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * 码力全开（产品/设计师/独立开发者的资源库） [https://www.maliquankai.com/designnav](https://www.maliquankai.com/designnav)
 * 免费音频素材 [https://icons8.cn/music](https://icons8.cn/music)
 * 新CG儿（视频素材模板，无水印+免费下载） [https://www.newcger.com](https://www.newcger.com)
-* Iconfont（阿里巴巴矢量图标库） [https://www.iconfont.cn](https://www.iconfont.cn)
 * 小图标下载 [https://www.easyicon.net](https://www.easyicon.net)
 * [https://github.com/Templarian/MaterialDesign](https://github.com/Templarian/MaterialDesign)
 * Flight Icon [https://www.flighticon.co](https://www.flighticon.co)
