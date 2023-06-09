@@ -238,6 +238,7 @@
 * [基于SpringBoot2.x、SpringCloud并采用前后端分离的多租户系统架构微服务开发平台](https://gitee.com/ibyte/M-Pass)
 * [https://github.com/techa03/goodsKill](https://github.com/techa03/goodsKill)
 * [Hasor是一套基于 Java 语言的开发框架](https://github.com/zycgit/hasor)
+* [https://github.com/enilu/web-flash](https://github.com/enilu/web-flash)
 * 行为验证码 [https://github.com/anji-plus/captcha](https://github.com/anji-plus/captcha)
 * EL-ADMIN 后台管理系统 [https://github.com/elunez/eladmin](https://github.com/elunez/eladmin)
 * SpringBlade SaaS多租户微服务开发平台 [https://github.com/chillzhuang/SpringBlade](https://github.com/chillzhuang/SpringBlade)

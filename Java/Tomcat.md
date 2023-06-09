@@ -161,8 +161,10 @@ tomcat.util.http.parser.HttpParser.requestTargetAllow=|{}
 
 
 
+## 问题及解决方案
 
-## 403AccessDenied
+
+### 403AccessDenied
 
 > `tomcat8`以上管理页面提示`403 Access Denied`问题
 
@@ -201,6 +203,14 @@ vi webapps/host-manager/META-INF/context.xml
 ```
 
 
+
+### 启动时一直卡100%
+
+> 有可能是mybatis的mapperXML多了（比如删除了dao，而没有删除xml），还有可能是xml内的语法或元素错误（比如两个标签的id重复）
+> ，或者没有对用到的实体类进行扫描
+
+* [eclipse+tomcat 启动已有工程时卡在starting100%状态的解决办法](https://www.dandelioncloud.cn/article/details/1510442490028216321)
+* [tomcat启动时卡在100%（preparing launch delegate...）](https://bbs.csdn.net/topics/392322747)
 
 
 

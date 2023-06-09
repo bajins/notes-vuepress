@@ -143,6 +143,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://github.com/uup-dump](https://github.com/uup-dump)
     * [https://uupdump.net](https://uupdump.net)
 * [https://msdn.sjjzm.com](https://msdn.sjjzm.com)
+* XP密钥生成 [https://github.com/Neo-Desktop/WindowsXPKg](https://github.com/Neo-Desktop/WindowsXPKg)
 
 
 

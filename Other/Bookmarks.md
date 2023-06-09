@@ -27,6 +27,7 @@
     * [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
 * [https://github.com/google](https://github.com/google)
     * [https://github.com/googleapis](https://github.com/googleapis)
+    * [https://github.com/GoogleChromeLabs](https://github.com/GoogleChromeLabs)
 * [https://github.com/Netflix](https://github.com/Netflix)
 * [https://github.com/alibaba](https://github.com/alibaba)
     * [https://tech.taobao.org/open-source](https://tech.taobao.org/open-source)

@@ -43,7 +43,6 @@
 * [https://github.com/jparsec/jparsec](https://github.com/jparsec/jparsec)
 
 
-- [https://github.com/itfsw/mybatis-generator-plugin](https://github.com/itfsw/mybatis-generator-plugin)
 - CRUD生成器 [https://github.com/SanjinKurelic/MVCGenerator](https://github.com/SanjinKurelic/MVCGenerator)
 - [https://github.com/jeddict/jeddict](https://github.com/jeddict/jeddict)
 - [https://codverter.com/src/sqltoclass](https://codverter.com/src/sqltoclass)
@@ -126,7 +125,11 @@
 * [https://github.com/baomidou/mybatis-plus](https://github.com/baomidou/mybatis-plus)
 * [https://github.com/davidfantasy/mybatis-plus-generator-ui](https://github.com/davidfantasy/mybatis-plus-generator-ui)
 
+
 - [https://github.com/alexdyysp/MybatisHandBook](https://github.com/alexdyysp/MybatisHandBook)
+- [https://github.com/fengwenyi/mybatis-plus-code-generator](https://github.com/fengwenyi/mybatis-plus-code-generator)
+- [https://github.com/itfsw/mybatis-generator-plugin](https://github.com/itfsw/mybatis-generator-plugin)
+
 
 * [干掉mapper.xml！MyBatis新特性动态SQL](https://cloud.tencent.com/developer/article/1769767)
 * [Mybatis 源码分析 (一) Mapper扫描及代理](https://cofcool.github.io/tech/2018/06/20/mybatis-sourcecode-1)

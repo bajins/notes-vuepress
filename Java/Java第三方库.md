@@ -55,6 +55,7 @@
     * [https://www.oracle.com/cn/java/technologies/javamail-releases.html](https://www.oracle.com/cn/java/technologies/javamail-releases.html)
 * [https://github.com/eclipse-ee4j/jaf](https://github.com/eclipse-ee4j/jaf)
     * [https://github.com/javaee/activation](https://github.com/javaee/activation)
+* 短信对接 [https://github.com/dromara/SMS4J](https://github.com/dromara/SMS4J)
 
 
 - Markdown解析器 [https://github.com/vsch/flexmark-java](https://github.com/vsch/flexmark-java)
