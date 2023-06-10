@@ -117,6 +117,7 @@
 * [https://github.com/misskey-dev/misskey](https://github.com/misskey-dev/misskey)
 * [https://git.pleroma.social/pleroma/pleroma](https://git.pleroma.social/pleroma/pleroma)
 * [https://github.com/Minds](https://github.com/Minds)
+* [https://github.com/jeremyckahn/chitchatter](https://github.com/jeremyckahn/chitchatter)
 
 
 - [https://github.com/topics/curses](https://github.com/topics/curses)

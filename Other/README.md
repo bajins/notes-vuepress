@@ -238,6 +238,7 @@
 + [https://github.com/topics/tempmail](https://github.com/topics/tempmail)
 + [https://github.com/topics/trashmail](https://github.com/topics/trashmail)
 + [https://github.com/topics/10minutemail](https://github.com/topics/10minutemail)
++ 一次性邮件列表 [https://github.com/Fcmam5/jelban-js](https://github.com/Fcmam5/jelban-js)
 + 发送邮件 [http://tool.chacuo.net/mailsend](http://tool.chacuo.net/mailsend)
 
 - [https://github.com/KevCui/1secmail](https://github.com/KevCui/1secmail)

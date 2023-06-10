@@ -171,6 +171,7 @@
 - [https://github.com/alibaba/GGEditor](https://github.com/alibaba/GGEditor)
 - [https://github.com/facebook/lexical](https://github.com/facebook/lexical)
 - [https://github.com/AykutSarac/jsonvisio.com](https://github.com/AykutSarac/jsonvisio.com)
+- [https://github.com/Hufe921/canvas-editor](https://github.com/Hufe921/canvas-editor)
 
 
 
@@ -202,6 +203,7 @@
 * [https://github.com/dmarman/sha256algorithm](https://github.com/dmarman/sha256algorithm)
 * 数据库可视化 [https://github.com/lana-k/sqliteviz](https://github.com/lana-k/sqliteviz)
 * JSON校验 [https://github.com/ozkxr/match-json](https://github.com/ozkxr/match-json)
+* 二维码 [https://github.com/ciaochaos/qrbtf](https://github.com/ciaochaos/qrbtf)
 
 
 - 数字精度 [https://github.com/topics/arbitrary-precision](https://github.com/topics/arbitrary-precision)

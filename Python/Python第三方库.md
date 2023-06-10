@@ -52,6 +52,7 @@
 * [https://github.com/frappe/frappe](https://github.com/frappe/frappe)
 * [https://github.com/zauberzeug/nicegui](https://github.com/zauberzeug/nicegui)
 * [https://github.com/pynecone-io/pynecone](https://github.com/pynecone-io/pynecone)
+* [https://github.com/reactive-python/reactpy](https://github.com/reactive-python/reactpy)
 * 定时任务 [https://github.com/agronholm/apscheduler](https://github.com/agronholm/apscheduler)
     * [https://apscheduler.readthedocs.io](https://apscheduler.readthedocs.io)
 * ORM [https://github.com/sqlalchemy/sqlalchemy](https://github.com/sqlalchemy/sqlalchemy)
