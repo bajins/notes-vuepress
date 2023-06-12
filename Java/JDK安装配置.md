@@ -48,7 +48,7 @@
 * [https://github.com/microsoft/openjdk](https://github.com/microsoft/openjdk)
     * [https://www.microsoft.com/openjdk](https://www.microsoft.com/openjdk)
     * [https://docs.microsoft.com/zh-cn/java](https://docs.microsoft.com/zh-cn/java)
-* [https://github.com/alibaba/dragonwell8](https://github.com/alibaba/dragonwell8)
+* [https://github.com/dragonwell-project](https://github.com/dragonwell-project)
 * [https://github.com/Tencent/TencentKona-8](https://github.com/Tencent/TencentKona-8)
 * [https://github.com/Tencent/TencentKona-11](https://github.com/Tencent/TencentKona-11)
 * [https://github.com/Tencent/TencentKona-17](https://github.com/Tencent/TencentKona-17)

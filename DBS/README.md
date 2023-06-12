@@ -150,6 +150,8 @@
 * [https://github.com/oceanbase/oceanbase](https://github.com/oceanbase/oceanbase)
 * [https://github.com/roseduan/rosedb](https://github.com/roseduan/rosedb)
 * 时间序列数据库 [https://github.com/OpenTSDB/opentsdb](https://github.com/OpenTSDB/opentsdb)
+* [https://github.com/timescale/timescaledb](https://github.com/timescale/timescaledb)
+* [https://github.com/questdb/questdb](https://github.com/questdb/questdb)
 * [https://github.com/apache/hbase](https://github.com/apache/hbase)
 * [https://github.com/baidu/BaikalDB](https://github.com/baidu/BaikalDB)
 * [https://gitee.com/mirrors/EdgeFS](https://gitee.com/mirrors/EdgeFS)

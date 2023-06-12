@@ -25,6 +25,7 @@
 + [https://github.com/eclipse/eclipse.jdt.core](https://github.com/eclipse/eclipse.jdt.core)
 + [https://www.jetbrains.com/help/idea/java-compiler.html](https://www.jetbrains.com/help/idea/java-compiler.html)
 + [https://github.com/alwans/code-diff](https://github.com/alwans/code-diff)
++ [https://github.com/policeman-tools/forbidden-apis](https://github.com/policeman-tools/forbidden-apis)
 + 混淆工具 [https://github.com/yWorks/yGuard](https://github.com/yWorks/yGuard)
 + 消除NullPointerException [https://github.com/uber/NullAway](https://github.com/uber/NullAway)
 + 静态类型检查 [https://github.com/google/error-prone](https://github.com/google/error-prone)
@@ -40,6 +41,7 @@
     + [https://sourceforge.net/projects/findbugs](https://sourceforge.net/projects/findbugs)
     + [https://github.com/KengoTODA/findbugs-slf4j](https://github.com/KengoTODA/findbugs-slf4j)
 + [https://github.com/pascal-lab/Tai-e](https://github.com/pascal-lab/Tai-e)
++ [https://github.com/find-sec-bugs/find-sec-bugs](https://github.com/find-sec-bugs/find-sec-bugs)
 + JAR文件分析 [https://github.com/kordamp/jarviz](https://github.com/kordamp/jarviz)
 
 

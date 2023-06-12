@@ -7,8 +7,7 @@
 
 > Golang调用windows下的dll动态库中的函数使用`syscall`调用
 
-* GUI [https://github.com/lxn/walk](https://github.com/lxn/walk)
-* [https://github.com/lxn/win](https://github.com/lxn/win)
+* GUI [https://github.com/lxn](https://github.com/lxn)
 * [https://github.com/chzyer/readline](https://github.com/chzyer/readline)
 * [https://github.com/go-ole/go-ole](https://github.com/go-ole/go-ole)
 * [https://github.com/yusufpapurcu/wmi](https://github.com/yusufpapurcu/wmi)

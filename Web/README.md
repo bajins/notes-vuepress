@@ -119,8 +119,6 @@
 
 **API接口文档管理**
 
-+ OpenAPI规范 [https://github.com/OAI](https://github.com/OAI)
-
 - [https://siguso.com](https://siguso.com)
 - [https://easydoc.net](https://easydoc.net)
 - [https://www.uedbox.com/share](https://www.uedbox.com/share)

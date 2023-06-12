@@ -47,6 +47,7 @@
 * web [https://github.com/tiangolo/fastapi](https://github.com/tiangolo/fastapi)
 * [https://github.com/pallets/flask](https://github.com/pallets/flask)
     * [https://dormousehole.readthedocs.io](https://dormousehole.readthedocs.io)
+    * [https://github.com/greyli/helloflask](https://github.com/greyli/helloflask)
 * [https://github.com/Pylons](https://github.com/Pylons)
 * [https://github.com/bottlepy/bottle](https://github.com/bottlepy/bottle)
 * [https://github.com/frappe/frappe](https://github.com/frappe/frappe)

@@ -537,6 +537,7 @@
 * [https://github.com/junit-team](https://github.com/junit-team)
     * [https://sourceforge.net/projects/dbunit](https://sourceforge.net/projects/dbunit)
     * [https://github.com/piotrturski/zohhak](https://github.com/piotrturski/zohhak)
+* [https://github.com/jqwik-team](https://github.com/jqwik-team)
 * [https://github.com/powermock/powermock](https://github.com/powermock/powermock)
 * [https://github.com/houbb/junitperf](https://github.com/houbb/junitperf)
 * 测试 [https://github.com/testcontainers](https://github.com/testcontainers)
