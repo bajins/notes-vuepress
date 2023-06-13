@@ -1,13 +1,11 @@
 # HTML
 
-
 [[toc]]
-
 
 
 ## Flag
 
-> 定义网页的内容
+> Hypertext Markup Language：定义网页的内容
 
 + 标准规范 [https://github.com/whatwg/html](https://github.com/whatwg/html)
 + [https://github.com/whatwg/dom](https://github.com/whatwg/dom)

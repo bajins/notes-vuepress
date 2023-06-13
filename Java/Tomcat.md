@@ -7,14 +7,7 @@
 
 + [https://github.com/topics/tomcat](https://github.com/topics/tomcat)
 + [https://github.com/apache/tomcat](https://github.com/apache/tomcat)
-+ [https://github.com/Aresyi/HowTomcatWorks](https://github.com/Aresyi/HowTomcatWorks)
-+ [https://github.com/wildfly/wildfly](https://github.com/wildfly/wildfly)
-    + [https://github.com/thorntail/thorntail](https://github.com/thorntail/thorntail)
-+ [https://github.com/undertow-io/undertow](https://github.com/undertow-io/undertow)
-+ [https://github.com/eclipse/jetty.project](https://github.com/eclipse/jetty.project)
-+ [https://github.com/eclipse-ee4j/grizzly](https://github.com/eclipse-ee4j/grizzly)
-+ [https://github.com/eclipse-ee4j/glassfish](https://github.com/eclipse-ee4j/glassfish)
-    + [https://github.com/payara/Payara](https://github.com/payara/Payara)
+    + [https://tomcat.apache.org](https://tomcat.apache.org)
 
 
 * Tomcat集群Redis会话管理器 [https://github.com/ran-jit/tomcat-cluster-redis-session-manager](https://github.com/ran-jit/tomcat-cluster-redis-session-manager)
@@ -33,6 +26,20 @@
 * [java编译器编码和JVM编码问题？](https://www.zhihu.com/question/30977092)
 * Linux中，JVM默认编码为UTF-8，在`catalina.sh`配置`JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=UTF-8"`
 * Windows中，JVM默认编码为GBK，在`catalina.bat`配置`set JAVA_OPTS=%JAVA_OPTS% -Dfile.encoding=UTF-8`
+
+
+
+
+## 其他应用服务器
+
++ [https://github.com/Aresyi/HowTomcatWorks](https://github.com/Aresyi/HowTomcatWorks)
++ [https://github.com/wildfly/wildfly](https://github.com/wildfly/wildfly)
+    + [https://github.com/thorntail/thorntail](https://github.com/thorntail/thorntail)
++ [https://github.com/undertow-io/undertow](https://github.com/undertow-io/undertow)
++ [https://github.com/eclipse/jetty.project](https://github.com/eclipse/jetty.project)
++ [https://github.com/eclipse-ee4j/grizzly](https://github.com/eclipse-ee4j/grizzly)
++ [https://github.com/eclipse-ee4j/glassfish](https://github.com/eclipse-ee4j/glassfish)
+    + [https://github.com/payara/Payara](https://github.com/payara/Payara)
 
 
 

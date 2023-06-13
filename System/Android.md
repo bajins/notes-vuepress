@@ -480,6 +480,7 @@
 * [https://x5.tencent.com](https://x5.tencent.com)
 * 阅读器 [https://github.com/koreader/koreader](https://github.com/koreader/koreader)
 * 启动器 [https://github.com/NeoApplications/Neo-Launcher](https://github.com/NeoApplications/Neo-Launcher)
+* 无限词典 [https://github.com/KnIfER/PlainDictionaryAPP](https://github.com/KnIfER/PlainDictionaryAPP)
 
 
 ### 证件照

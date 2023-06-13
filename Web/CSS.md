@@ -5,7 +5,7 @@
 
 ## Flag
 
-> 规定网页的布局
+> Cascading Style Sheets：规定网页的布局
 
 * [https://drafts.csswg.org/css-cascade](https://drafts.csswg.org/css-cascade)
 * [https://developer.mozilla.org/zh-CN/docs/Web/CSS](https://developer.mozilla.org/zh-CN/docs/Web/CSS)

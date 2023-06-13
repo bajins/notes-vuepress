@@ -1,7 +1,7 @@
 module.exports = [{
-    text: '更多资源',
+    text: '快捷链接',
     items: [{
-            // text: '',
+            text: '外部链接',
             items: [
                 {
                     text: '动态编译博客',
@@ -16,17 +16,21 @@ module.exports = [{
                     link: 'https://tool.bajins.com'
                 },
                 {
-                    text: 'GitHub',
+                    text: 'OCR图片识别',
+                    link: 'https://tr.bajins.com'
+                },
+                {
+                    text: 'GitHub反代',
                     link: 'https://g.bajins.eu.org'
                 },
                 {
-                    text: 'GitHub',
+                    text: 'GitHub反代',
                     link: 'https://g.woetu.eu.org'
                 },
             ]
         },
         {
-            // text: 'Other',
+            text: '内部链接',
             items: [{
                     text: '文件',
                     link: '/files'
