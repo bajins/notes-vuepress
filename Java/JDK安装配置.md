@@ -87,14 +87,14 @@
 
 ## JVM
 
-+ [有关Java HotSpot VM的常见问题](https://www.oracle.com/cn/java/technologies/hotspotfaq.html)
++ [https://www.oracle.com/cn/java/technologies/hotspotfaq.html](https://www.oracle.com/cn/java/technologies/hotspotfaq.html)
++ G1垃圾收集器入门 [https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html](https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html)
++ [http://jdk.java.net/zgc/](http://jdk.java.net/zgc/)
++ [https://wiki.openjdk.java.net/display/zgc/Main](https://wiki.openjdk.java.net/display/zgc/Main)
++ [Java平台，标准版HotSpot虚拟机垃圾收集调优指南](https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/introduction.html)
++ [Java SE 6 HotSpot 虚拟机垃圾收集优化](https://www.oracle.com/cn/java/technologies/javase/gc-tuning-6.html)
 + [JVM的那些常用参数以及命令](https://segmentfault.com/a/1190000020656202)
 
-* [http://jdk.java.net/zgc/](http://jdk.java.net/zgc/)
-* [https://wiki.openjdk.java.net/display/zgc/Main](https://wiki.openjdk.java.net/display/zgc/Main)
-* [G1垃圾收集器入门](https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html)
-* [Java平台，标准版HotSpot虚拟机垃圾收集调优指南](https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/introduction.html)
-* [Java SE 6 HotSpot 虚拟机垃圾收集优化](https://www.oracle.com/cn/java/technologies/javase/gc-tuning-6.html)
 
 - JVM配置工具 [https://render.alipay.com/p/s/jvm-generate/JvmGenerate](https://render.alipay.com/p/s/jvm-generate/JvmGenerate)
 - [http://jvmmemory.com](http://jvmmemory.com)
@@ -104,47 +104,46 @@
 ![](/images/jvm参数统计.png)
 
 
-> 因为Tomcat运行在JAVA虚拟机之上,适当调整运行JVM参数可以提升整体性能。
-
-- Windows：修改`bin/catalina.bat`文件，文件中有注释说明
-- Linux：修改`bin/catalina.sh`文件，文件中有注释说明
-
 
 ### 常用参数
 
-* [Java HotSpot 虚拟机选项](https://www.oracle.com/cn/java/technologies/javase/vmoptions-jsp.html)
++ [https://www.oracle.com/cn/java/technologies/javase/vmoptions-jsp.html](https://www.oracle.com/cn/java/technologies/javase/vmoptions-jsp.html)
+
+
 * [JVM参数配置说明](https://help.aliyun.com/document_detail/148851.html)
 * [JVM内存配置最佳实践](https://help.aliyun.com/document_detail/383255.html)
 * [JVM核心参数图解](https://zhuanlan.zhihu.com/p/372417251)
 * [JVM优化之 -Xss -Xms -Xmx -Xmn 参数设置](https://blog.csdn.net/yrwan95/article/details/82826519)
+* [java编译器编码和JVM编码问题？](https://www.zhihu.com/question/30977092)
 
 
-| 参数                                  	| 说明                                                                                                                                                                                                                                                                    	|
-|---------------------------------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| file.encoding                         	| 默认文件编码                                                                                                                                                                                                                                                            	|
-| -Xmx1024m                             	| 初始堆大小为1024m                                                                                                                                                                                                                                                       	|
-| -Xms1024m                             	| 最大堆大小为1024m                                                                                                                                                                                                                                                       	|
-| -Xmn366m                              	| 设置年轻代大小为366m,Sun官方推荐配置为整个堆的3/8（35.7%）                                                                                                                                                                                                              	|
-| -XX:NewSize=n                         	| 设置年轻代大小                                                                                                                                                                                                                                                          	|
-| -XX:MaxNewSize=n                      	| 设置最大的年轻代大小                                                                                                                                                                                                                                                    	|
-| -XX:PermSize=n                        	| JDK1.7设置永久代大小                                                                                                                                                                                                                                                    	|
-| -XX:MaxPermSize=n                     	| JDK1.7设置最大永久代大小                                                                                                                                                                                                                                                	|
-| -XX:MetaspaceSize=n                   	| JDK1.8设置元空间大小                                                                                                                                                                                                                                                    	|
-| -XX:MaxMetaspaceSize=n                	| JDK1.8设置最大元空间大小,最好与-XX:MetaspaceSize一致                                                                                                                                                                                                                    	|
-| -XX:NewRatio=4                        	| 设置年轻代（包括Eden和两个Survivor区）与终身代的比值（除去永久代）。设置为4，则年轻代与终身代所占比值为1：4，年轻代占整个堆栈的1/5                                                                                                                                      	|
-| -XX:SurvivorRatio=n                   	| 年轻代中Eden区与两个Survivor区的比值。注意Survivor区有两个。如：3，表示Eden：Survivor=3：2，一个Survivor区占整个年轻代的1/5                                                                                                                                             	|
-| -XX:MaxTenuringThreshold              	| 设置垃圾最大年龄，默认为：15。如果设置为0的话，则年轻代对象不经过Survivor区，直接进入年老代。对于年老代比较多的应用，可以提高效率。如果将此值设置为一个较大值，则年轻代对象会在Survivor区进行多次复制，这样可以增加对象再年轻代的存活时间，增加在年轻代即被回收的概论。 	|
-| -XX:+CMSScavengeBeforeRemark          	| CMS并发标记阶段与用户线程并发进行，此阶段会产生已经被标记了的对象又发生变化的情况，若打开此开关，可在一定程度上降低CMS重新标记阶段对上述“又发生变化”对象的扫描时间，当然，“清除尝试”也会消耗一些时间。注：开启此开关并不会保证在标记阶段前一定会进行清除操作            	|
-| -XX:+UseSerialGC                      	| 设置串行收集器                                                                                                                                                                                                                                                          	|
-| -XX:+UseParallelGC                    	| 设置并行收集器                                                                                                                                                                                                                                                          	|
-| -XX:ParallelGCThreads=n               	| 设置并行收集线程数                                                                                                                                                                                                                                                      	|
-| -XX:+UseParalledlOldGC                	| 设置并行年老代收集器                                                                                                                                                                                                                                                    	|
-| -XX:MaxGCPauseMillis=n                	| 设置并行收集最大暂停时间                                                                                                                                                                                                                                                	|
-| -XX:GCTimeRatio=n                     	| 设置垃圾回收时间占程序运行时间的百分比。公式为1/(1+n)                                                                                                                                                                                                                   	|
-| -XX:+UseConcMarkSweepGC               	| 设置年老代为并发收集。测试中配置这个以后，-XX:NewRatio=4的配置失效了，原因不明。所以，此时年轻代大小最好用-Xmn设置。                                                                                                                                                    	|
-| -XX:CMSInitiatingOccupancyFraction=70 	| CMS垃圾收集器，当老年代达到70%时，触发CMS垃圾回收。                                                                                                                                                                                                                     	|
-| -XX:+UseCMSInitiatingOccupancyOnly    	| 指定使用CMSInitiatingOccupancyFraction的值,如果不指定,JVM仅在第一次使用设定值,后续则自动调整。                                                                                                                                                                          	|
-| -XX:+ParallelRefProcEnabled           	| 并行处理Reference，加快处理速度，缩短耗时                                                                                                                                                                                                                               	|
+| 参数 | 说明 |
+|---|---|
+| file.encoding | 默认文件编码 |
+| -Xmx1024m | 初始堆大小为1024m |
+| -Xms1024m | 最大堆大小为1024m |
+| -Xmn366m | 设置年轻代大小为366m,Sun官方推荐配置为整个堆的3/8（35.7%） |
+| -XX:NewSize=n | 设置年轻代大小 |
+| -XX:MaxNewSize=n | 设置最大的年轻代大小 |
+| -XX:PermSize=n | JDK1.7设置永久代大小 |
+| -XX:MaxPermSize=n | JDK1.7设置最大永久代大小 |
+| -XX:MetaspaceSize=n | JDK1.8设置元空间大小 |
+| -XX:MaxMetaspaceSize=n | JDK1.8设置最大元空间大小,最好与-XX:MetaspaceSize一致 |
+| -XX:NewRatio=4 | 设置年轻代（包括Eden和两个Survivor区）与终身代的比值（除去永久代）。设置为4，则年轻代与终身代所占比值为1：4，年轻代占整个堆栈的1/5 |
+| -XX:SurvivorRatio=n | 年轻代中Eden区与两个Survivor区的比值。注意Survivor区有两个。如：3，表示Eden：Survivor=3：2，一个Survivor区占整个年轻代的1/5 |
+| -XX:MaxTenuringThreshold | 设置垃圾最大年龄，默认为：15。如果设置为0的话，则年轻代对象不经过Survivor区，直接进入年老代。对于年老代比较多的应用，可以提高效率。如果将此值设置为一个较大值，则年轻代对象会在Survivor区进行多次复制，这样可以增加对象再年轻代的存活时间，增加在年轻代即被回收的概论。 |
+| -XX:+CMSScavengeBeforeRemark | CMS并发标记阶段与用户线程并发进行，此阶段会产生已经被标记了的对象又发生变化的情况，若打开此开关，可在一定程度上降低CMS重新标记阶段对上述“又发生变化”对象的扫描时间，当然，“清除尝试”也会消耗一些时间。注：开启此开关并不会保证在标记阶段前一定会进行清除操作 |
+| -XX:+UseSerialGC | 设置串行收集器 |
+| -XX:+UseParallelGC | 设置并行收集器 |
+| -XX:ParallelGCThreads=n | 设置并行收集线程数 |
+| -XX:+UseParalledlOldGC | 设置并行年老代收集器 |
+| -XX:MaxGCPauseMillis=n | 设置并行收集最大暂停时间 |
+| -XX:GCTimeRatio=n | 设置垃圾回收时间占程序运行时间的百分比。公式为1/(1+n) |
+| -XX:+UseConcMarkSweepGC | 设置年老代为并发收集。测试中配置这个以后，-XX:NewRatio=4的配置失效了，原因不明。所以，此时年轻代大小最好用-Xmn设置。 |
+| -XX:CMSInitiatingOccupancyFraction=70 | CMS垃圾收集器，当老年代达到70%时，触发CMS垃圾回收。 |
+| -XX:+UseCMSInitiatingOccupancyOnly | 指定使用CMSInitiatingOccupancyFraction的值,如果不指定,JVM仅在第一次使用设定值,后续则自动调整。 |
+| -XX:+ParallelRefProcEnabled | 并行处理Reference，加快处理速度，缩短耗时 |
+
 
 
 ### 参考参数
@@ -155,9 +154,10 @@
 
 ```bash
 JAVA_OPTS="
+-Dfile.encoding=UTF-8
 -server
--Xmx2688M
 -Xms2688M
+-Xmx2688M
 -Xmn960m
 -Xss8m
 -XX:MetaspaceSize=512M

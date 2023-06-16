@@ -40,6 +40,7 @@
 + [https://github.com/topics/migration](https://github.com/topics/migration)
 
 - 同步 [https://github.com/alibaba/DataX](https://github.com/alibaba/DataX)
+- [https://github.com/tapdata/tapdata](https://github.com/tapdata/tapdata)
 - 日志解析订阅和消费 [https://github.com/alibaba/canal](https://github.com/alibaba/canal)
 - [https://github.com/ucarGroup/DataLink](https://github.com/ucarGroup/DataLink)
 - 数据库迁移 [https://github.com/flyway/flyway](https://github.com/flyway/flyway)
@@ -212,8 +213,7 @@
 * 图形数据库 [https://github.com/vesoft-inc/nebula](https://github.com/vesoft-inc/nebula)
 * [https://github.com/orientechnologies/orientdb](https://github.com/orientechnologies/orientdb)
 * [https://github.com/arangodb/arangodb](https://github.com/arangodb/arangodb)
-* 多模型数据库 [https://github.com/arangodb/arangodb](https://github.com/arangodb/arangodb)
-* [https://github.com/apache/couchdb](https://github.com/apache/couchdb)
+* 多模型数据库 [https://github.com/apache/couchdb](https://github.com/apache/couchdb)
 * [https://github.com/apache/incubator-hugegraph](https://github.com/apache/incubator-hugegraph)
 * [https://github.com/TrinityCore/TrinityCore](https://github.com/TrinityCore/TrinityCore)
 * [https://github.com/cayleygraph/cayley](https://github.com/cayleygraph/cayley)

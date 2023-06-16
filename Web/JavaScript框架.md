@@ -94,10 +94,8 @@
 
 * [https://github.com/vuejs](https://github.com/vuejs)
     * [https://cn.vuejs.org](https://cn.vuejs.org)
+* [https://github.com/x-extends](https://github.com/x-extends)
 * [vue学习笔记](https://www.rumosky.wiki/docs/vue_learning_process)
-* [https://github.com/quasarframework](https://github.com/quasarframework)
-* [https://github.com/TuSimple/naive-ui](https://github.com/TuSimple/naive-ui)
-* [https://github.com/epicmaxco/vuestic-ui](https://github.com/epicmaxco/vuestic-ui)
 
 
 ![](/images/vue生命周期详解.png)
@@ -115,6 +113,9 @@
 * [https://github.com/bootstrap-vue/bootstrap-vue](https://github.com/bootstrap-vue/bootstrap-vue)
 * [https://github.com/vuematerial/vue-material](https://github.com/vuematerial/vue-material)
 * [https://github.com/uikit/uikit](https://github.com/uikit/uikit)
+* [https://github.com/quasarframework](https://github.com/quasarframework)
+* [https://github.com/TuSimple/naive-ui](https://github.com/TuSimple/naive-ui)
+* [https://github.com/epicmaxco/vuestic-ui](https://github.com/epicmaxco/vuestic-ui)
 * [https://github.com/sdc-alibaba/sui](https://github.com/sdc-alibaba/sui)
 * [https://github.com/FE-Driver/vue-beauty](https://github.com/FE-Driver/vue-beauty)
 * [https://github.com/chenz24/vue-blu](https://github.com/chenz24/vue-blu)

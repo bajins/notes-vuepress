@@ -426,7 +426,8 @@
 - [https://github.com/kieler](https://github.com/kieler)
 - [https://github.com/langium/langium](https://github.com/langium/langium)
 - [https://github.com/emacs-lsp](https://github.com/emacs-lsp)
-- Java [https://github.com/eclipse/eclipse.jdt.ls](https://github.com/eclipse/eclipse.jdt.ls)
+- Java [https://github.com/eclipse-lsp4j/lsp4j](https://github.com/eclipse-lsp4j/lsp4j)
+- [https://github.com/eclipse/eclipse.jdt.ls](https://github.com/eclipse/eclipse.jdt.ls)
 - [https://github.com/eclipse/lsp4e](https://github.com/eclipse/lsp4e)
 - [https://github.com/ycm-core/ycmd](https://github.com/ycm-core/ycmd)
 - [https://github.com/Genuitec](https://github.com/Genuitec)
@@ -501,8 +502,10 @@
 ## IDEA与Eclipse对应快捷键
 
 * [https://github.com/AJLoveChina/idea-shortcuts-guide](https://github.com/AJLoveChina/idea-shortcuts-guide)
-* [intellij 快捷键](https://www.cnblogs.com/ooo0/p/10802254.html)
-* [IDEA快捷键](https://segmentfault.com/a/1190000018309776#item-2)
+* [https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html](https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html)
+    * [intellij 快捷键](https://www.cnblogs.com/ooo0/p/10802254.html)
+    * [IDEA快捷键](https://segmentfault.com/a/1190000018309776#item-2)
+* [https://help.eclipse.org/latest/topic/org.eclipse.papyrus.infra.gmfdiag.common.doc/target/generated-eclipse-help/keyBindings.html](https://help.eclipse.org/latest/topic/org.eclipse.papyrus.infra.gmfdiag.common.doc/target/generated-eclipse-help/keyBindings.html)
 
 
 | 功能                                             	| IDEA                                      	| Eclipse                                     	|

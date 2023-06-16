@@ -36,7 +36,6 @@
 - [https://github.com/0dayCTF/reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator)
 - 命令执行演示 [https://github.com/maaslalani/slides](https://github.com/maaslalani/slides)
 - [https://github.com/d0c-s4vage/lookatme](https://github.com/d0c-s4vage/lookatme)
-- [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
 - [https://github.com/chubin](https://github.com/chubin)
 - AI加持 [https://github.com/emcf/engshell](https://github.com/emcf/engshell)
 
@@ -188,6 +187,8 @@
     * [https://github.com/openssh-rust/openssh](https://github.com/openssh-rust/openssh)
     * [https://slproweb.com/products/Win32OpenSSL.html](https://slproweb.com/products/Win32OpenSSL.html)
 * [https://github.com/warpdotdev](https://github.com/warpdotdev)
+* [https://github.com/trzsz/trzsz](https://github.com/trzsz/trzsz)
+* [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
 
 
 - [https://www.termius.com](https://www.termius.com)

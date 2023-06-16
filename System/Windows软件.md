@@ -60,6 +60,7 @@
     * [https://yun.naodai.org/Software](https://yun.naodai.org/Software)
     * [https://go.naodai.org/Software](https://go.naodai.org/Software)
 * Mac [https://www.macbl.com](https://www.macbl.com)
+* [https://github.com/QiuChenlyOpenSource/InjectLib](https://github.com/QiuChenlyOpenSource/InjectLib)
 * [https://xclient.info](https://xclient.info)
 * [https://github.com/xyjoey/fxxkmakeding](https://github.com/xyjoey/fxxkmakeding)
     * [https://www.fxxkmakeding.xyz](https://www.fxxkmakeding.xyz)
@@ -455,12 +456,14 @@
     - [https://zhutix.com/tag/rainmeter](https://zhutix.com/tag/rainmeter)
 - [https://al.chemy.org](https://al.chemy.org)
 - 模拟iPhone截图 [https://shots.so](https://shots.so)
+- [https://app.jellylade.com](https://app.jellylade.com)
 
 
 
 **Photoshop**
 
 * [https://github.com/search?q=Photoshop](https://github.com/search?q=Photoshop)
+* Adobe替代品 [https://github.com/KenneyNL/Adobe-Alternatives](https://github.com/KenneyNL/Adobe-Alternatives)
 * https://weibo.com/vposy
 * TEAmo (茶末余香)
 * [Adobe软件单独下载方法-官方](https://sleele.com/2019/05/05/adobe/)

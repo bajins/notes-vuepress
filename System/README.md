@@ -186,6 +186,7 @@
     * [https://github.com/lttng](https://github.com/lttng)
     * [https://github.com/eclipse-cdt-cloud](https://github.com/eclipse-cdt-cloud)
 * 实时崩溃报告 [https://github.com/getsentry](https://github.com/getsentry)
+* [https://github.com/highlight/highlight](https://github.com/highlight/highlight)
 * [https://github.com/uptimerobot](https://github.com/uptimerobot)
 
 

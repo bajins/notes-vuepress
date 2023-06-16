@@ -104,7 +104,9 @@
 * [https://github.com/senchalabs/connect](https://github.com/senchalabs/connect)
 * 压缩解压文件 [https://github.com/quentinrossetti/node-7z](https://github.com/quentinrossetti/node-7z)
 * WEB框架 [https://github.com/marblejs/marble](https://github.com/marblejs/marble)
-
+* 键值存储 [https://github.com/jaredwray/keyv](https://github.com/jaredwray/keyv)
+* [https://github.com/microlinkhq/keyvhq](https://github.com/microlinkhq/keyvhq)
+* [https://github.com/sindresorhus/quick-lru](https://github.com/sindresorhus/quick-lru)
 
 
 ## 管理NodeJS

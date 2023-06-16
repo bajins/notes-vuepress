@@ -107,7 +107,6 @@
 * Gulp [https://www.gulpjs.com.cn](https://www.gulpjs.com.cn)
 * jQuery [https://www.jquery123.com](https://www.jquery123.com)
 * SASS [https://www.sasscss.com](https://www.sasscss.com)
-* TailwindCSS [https://www.tailwindcss.cn](https://www.tailwindcss.cn)
 * PurgeCSS [https://www.purgecss.cn](https://www.purgecss.cn)
 * cssnano [https://www.cssnano.cn](https://www.cssnano.cn)
 * PostCSS [https://www.postcss.com.cn](https://www.postcss.com.cn)
@@ -466,6 +465,7 @@
 * [https://github.com/kalkih/mini-media-player](https://github.com/kalkih/mini-media-player)
 * [https://github.com/jwplayer/jwplayer](https://github.com/jwplayer/jwplayer)
 * [https://github.com/phoboslab/jsmpeg](https://github.com/phoboslab/jsmpeg)
+* [https://github.com/wangrongding/tiny-player](https://github.com/wangrongding/tiny-player)
 
 
 **反爬虫**

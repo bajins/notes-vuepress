@@ -7,16 +7,10 @@
 
 > 对网页行为进行编程，Vanilla JS 就是指JavaScript（ECMAscript）
 
-+ [https://www.w3.org](https://www.w3.org)
-+ [https://www.ecma-international.org](https://www.ecma-international.org)
-+ Ecma 国际，技术委员会 [https://github.com/tc39](https://github.com/tc39)
-+ [https://github.com/75team/tc39](https://github.com/75team/tc39)
-+ [https://github.com/JSCIG](https://github.com/JSCIG)
-+ WHATWG技术的标准 [https://github.com/whatwg](https://github.com/whatwg)
-    + [https://spec.whatwg.org](https://spec.whatwg.org)
 + ECMAScript支持度检测 [https://github.com/ruanyf/es-checker](https://github.com/ruanyf/es-checker)
 + 检查JS文件中的ES版本 [https://github.com/dollarshaveclub/es-check](https://github.com/dollarshaveclub/es-check)
-+ ES6支持情况 [https://kangax.github.io/compat-table/es6](https://kangax.github.io/compat-table/es6)
++ ES6支持情况 [https://github.com/kangax/compat-table](https://github.com/kangax/compat-table)
+    + [https://kangax.github.io/compat-table/es6](https://kangax.github.io/compat-table/es6)
 
 
 
@@ -41,6 +35,8 @@
 
 **js运行时/js引擎/JavaScript运行时/JavaScript引擎**
 
++ [https://en.wikipedia.org/wiki/List_of_ECMAScript_engines](https://en.wikipedia.org/wiki/List_of_ECMAScript_engines)
+
 - 恶意软件分析 [https://github.com/HynekPetrak/malware-jail](https://github.com/HynekPetrak/malware-jail)
 - 物联网的超轻量级JavaScript引擎 [https://github.com/jerryscript-project/jerryscript](https://github.com/jerryscript-project/jerryscript)
 - 嵌入式系统的微型JS引擎 [https://github.com/cesanta/elk](https://github.com/cesanta/elk)
@@ -50,6 +46,11 @@
 - [https://github.com/bellard/quickjs](https://github.com/bellard/quickjs)
 - [https://github.com/saghul/txiki.js](https://github.com/saghul/txiki.js)
 - [https://github.com/oven-sh/bun](https://github.com/oven-sh/bun)
+- [https://github.com/svaarala/duktape](https://github.com/svaarala/duktape)
+- [https://github.com/espruino/Espruino](https://github.com/espruino/Espruino)
+- [https://mujs.com](https://mujs.com)
+- [https://github.com/gfwilliams/tiny-js](https://github.com/gfwilliams/tiny-js)
+- [https://github.com/cesanta/v7](https://github.com/cesanta/v7)
 
 
 

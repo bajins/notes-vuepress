@@ -207,6 +207,7 @@
 * [https://github.com/basarat/typescript-book](https://github.com/basarat/typescript-book)
 
 
+- 静态分析 [https://github.com/kaleidawave/ezno](https://github.com/kaleidawave/ezno)
 - [https://github.com/total-typescript/ts-reset](https://github.com/total-typescript/ts-reset)
 - [https://github.com/JDFED](https://github.com/JDFED)
 - [https://github.com/adobe/spectrum-web-components](https://github.com/adobe/spectrum-web-components)

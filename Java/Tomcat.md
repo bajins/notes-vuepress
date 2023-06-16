@@ -22,10 +22,12 @@
 - [Gzip无法压缩48k以上的资源？](https://blog.csdn.net/qq_29534483/article/details/80744027)
 
 
+> 因为Tomcat运行在JAVA虚拟机之上,适当调整运行JVM参数可以提升整体性能。
 
-* [java编译器编码和JVM编码问题？](https://www.zhihu.com/question/30977092)
-* Linux中，JVM默认编码为UTF-8，在`catalina.sh`配置`JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=UTF-8"`
-* Windows中，JVM默认编码为GBK，在`catalina.bat`配置`set JAVA_OPTS=%JAVA_OPTS% -Dfile.encoding=UTF-8`
+- Windows：修改`bin/catalina.bat`文件，文件中有注释说明
+- Linux：修改`bin/catalina.sh`文件，文件中有注释说明
+- Linux中配置JVM参数：在`catalina.sh`配置`JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=UTF-8"`
+- Windows中中配置JVM参数：在`catalina.bat`配置`set JAVA_OPTS=%JAVA_OPTS% -Dfile.encoding=UTF-8`
 
 
 

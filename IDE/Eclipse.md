@@ -18,6 +18,7 @@
 * [单行注释自动靠左](https://blog.csdn.net/mp9105/article/details/93343403)
 * [Eclipse的Debug各种视图介绍](https://www.cnblogs.com/ZeGod/p/10114049.html)
 * [STS(eclipse)中文注释错位、缩进、被放大BUG解决](https://blog.csdn.net/u013600314/article/details/85262257)
+* [Eclipse的设置、调优、使用（解决启动卡顿等问题）](https://lexsaints.blog.csdn.net/article/details/80661377)
 
 
 - `Windows` -> `Preference` -> `General` -> `Workspace`

@@ -11,6 +11,7 @@
   + [https://git-scm.com](https://git-scm.com)
   + [https://gitforwindows.org](https://gitforwindows.org)
   + [https://github.com/GitCredentialManager](https://github.com/GitCredentialManager)
+  + [https://github.com/git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager)
   + [https://github.com/microsoft/Git-Credential-Manager-for-Windows](https://github.com/microsoft/Git-Credential-Manager-for-Windows)
   + [https://github.com/microsoft/Git-Credential-Manager-for-Mac-and-Linux](https://github.com/microsoft/Git-Credential-Manager-for-Mac-and-Linux)
   + [https://github.com/microsoft/scalar](https://github.com/microsoft/scalar)
