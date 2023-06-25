@@ -46,6 +46,7 @@
 * [https://pandolia.net/tinyc](https://pandolia.net/tinyc)
 * [https://bellard.org/tcc](https://bellard.org/tcc)
 * [https://github.com/jmeubank/tdm-gcc](https://github.com/jmeubank/tdm-gcc)
+* [https://github.com/rr-debugger/rr](https://github.com/rr-debugger/rr)
 * 通用构建工具 [https://github.com/autotools-mirror/automake](https://github.com/autotools-mirror/automake)
 * [https://github.com/SCons/scons](https://github.com/SCons/scons)
 * 自动构建 [https://github.com/buildbot/buildbot](https://github.com/buildbot/buildbot)

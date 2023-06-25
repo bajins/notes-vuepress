@@ -24,10 +24,8 @@
 
 > 因为Tomcat运行在JAVA虚拟机之上,适当调整运行JVM参数可以提升整体性能。
 
-- Windows：修改`bin/catalina.bat`文件，文件中有注释说明
-- Linux：修改`bin/catalina.sh`文件，文件中有注释说明
-- Linux中配置JVM参数：在`catalina.sh`配置`JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=UTF-8"`
-- Windows中中配置JVM参数：在`catalina.bat`配置`set JAVA_OPTS=%JAVA_OPTS% -Dfile.encoding=UTF-8`
+- Windows：修改`bin/catalina.bat`文件，文件中有注释说明，配置JVM参数：`set "JAVA_OPTS=%JAVA_OPTS% -Dfile.encoding=UTF-8"`
+- Linux：修改`bin/catalina.sh`文件，文件中有注释说明，配置JVM参数：`JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=UTF-8"`
 
 
 

@@ -207,6 +207,15 @@
 - [https://github.com/ffffffff0x/BerylEnigma](https://github.com/ffffffff0x/BerylEnigma)
 
 
+**ChaosTesting混沌测试/线性测试**
+
+* [https://github.com/chaosblade-io/chaosblade](https://github.com/chaosblade-io/chaosblade)
+* [https://github.com/chaos-mesh/chaos-mesh](https://github.com/chaos-mesh/chaos-mesh)
+* [https://github.com/pingcap/chaos](https://github.com/pingcap/chaos)
+* [https://github.com/jepsen-io](https://github.com/jepsen-io)
+* [https://github.com/anishathalye/porcupine](https://github.com/anishathalye/porcupine)
+
+
 
 ## 数据库
 
