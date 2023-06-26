@@ -131,6 +131,7 @@
     * HTTP [https://curl.se/libcurl](https://curl.se/libcurl)
     * [https://github.com/search?q=libcurl](https://github.com/search?q=libcurl)
 * [https://github.com/lwip-tcpip/lwip](https://github.com/lwip-tcpip/lwip)
+* [https://github.com/openucx/ucx](https://github.com/openucx/ucx)
 * 实时传输协议 [https://github.com/cisco/libsrtp](https://github.com/cisco/libsrtp)
 * [https://github.com/webrtc](https://github.com/webrtc)
     * [https://webrtc.org.cn](https://webrtc.org.cn)
@@ -181,6 +182,7 @@
 * eBPF [https://github.com/gojue/ecapture](https://github.com/gojue/ecapture)
 * 串行Flash通用驱动 [https://github.com/armink/SFUD](https://github.com/armink/SFUD)
 * SSH [https://github.com/libssh2/libssh2](https://github.com/libssh2/libssh2)
+* 布隆过滤器 [https://github.com/upbit/bloomfilter](https://github.com/upbit/bloomfilter)
 
 
 

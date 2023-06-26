@@ -56,6 +56,7 @@
 + [https://github.com/kdab](https://github.com/kdab)
 
 
+* 标准库 [https://github.com/boostorg](https://github.com/boostorg)
 * [https://github.com/abseil/abseil-cpp](https://github.com/abseil/abseil-cpp)
 * 微服务 [https://github.com/TarsCloud](https://github.com/TarsCloud)
 * 包管理 [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg)
@@ -74,6 +75,7 @@
     * [https://github.com/qdtroy/DuiLib_Ultimate](https://github.com/qdtroy/DuiLib_Ultimate)
     * [https://github.com/netease-im/NIM_Duilib_Framework](https://github.com/netease-im/NIM_Duilib_Framework)
     * [https://github.com/xfcanyue/DuiLib_DuiEditor](https://github.com/xfcanyue/DuiLib_DuiEditor)
+* [https://github.com/AcademySoftwareFoundation/openvdb](https://github.com/AcademySoftwareFoundation/openvdb)
 * 屏幕锁定 [https://github.com/swaywm/swaylock](https://github.com/swaywm/swaylock)
 * Vulkan [https://github.com/KhronosGroup](https://github.com/KhronosGroup)
     * [https://www.opengl.org](https://www.opengl.org)
@@ -86,6 +88,7 @@
 * 3D [https://github.com/FlaxEngine/FlaxEngine](https://github.com/FlaxEngine/FlaxEngine)
 * [https://github.com/o3de/o3de](https://github.com/o3de/o3de)
 * [https://github.com/assimp/assimp](https://github.com/assimp/assimp)
+* [https://github.com/OGRECave/ogre](https://github.com/OGRECave/ogre)
 * 2D/PDF [https://github.com/google/skia](https://github.com/google/skia)
     * [https://github.com/JetBrains/skiko](https://github.com/JetBrains/skiko)
 * [https://github.com/JoeyDeVries/LearnOpenGL](https://github.com/JoeyDeVries/LearnOpenGL)
@@ -103,6 +106,7 @@
 * [https://github.com/sogou](https://github.com/sogou)
 * [https://github.com/jpbarrette/curlpp](https://github.com/jpbarrette/curlpp)
 * [https://github.com/elnormous/HTTPRequest](https://github.com/elnormous/HTTPRequest)
+* [https://gitee.com/ldcsaa/HP-Socket](https://gitee.com/ldcsaa/HP-Socket)
 * URL解析 [https://github.com/ada-url/ada](https://github.com/ada-url/ada)
 * 分布式网络框架 [https://github.com/Bwar/Nebula](https://github.com/Bwar/Nebula)
 * 分析调试测试器 [https://github.com/dfeneyrou/palanteer](https://github.com/dfeneyrou/palanteer)
@@ -116,7 +120,6 @@
     * [https://github.com/kinow/gtest-tap-listener](https://github.com/kinow/gtest-tap-listener)
     * [https://github.com/google/gtest-parallel](https://github.com/google/gtest-parallel)
 * [https://github.com/doctest/doctest](https://github.com/doctest/doctest)
-* [https://github.com/boostorg](https://github.com/boostorg)
 * 压缩 [https://github.com/lemire/SIMDCompressionAndIntersection](https://github.com/lemire/SIMDCompressionAndIntersection)
 * [https://github.com/lemire/FastPFor](https://github.com/lemire/FastPFor)
 * 加密 [https://github.com/weidai11/cryptopp](https://github.com/weidai11/cryptopp)
@@ -141,6 +144,7 @@
 * 编码检测 [https://github.com/freedesktop/uchardet](https://github.com/freedesktop/uchardet)
 * [https://github.com/simdutf/simdutf](https://github.com/simdutf/simdutf)
 * 游戏引擎 [https://github.com/minetest/minetest](https://github.com/minetest/minetest)
+* Web缓存 [https://github.com/squid-cache/squid](https://github.com/squid-cache/squid)
 
 
 

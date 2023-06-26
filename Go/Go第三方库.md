@@ -230,6 +230,7 @@
 * 二维码 [https://github.com/yeqown/go-qrcode](https://github.com/yeqown/go-qrcode)
 * 日志 [https://github.com/go-clog](https://github.com/go-clog)
 * 国际化 [https://github.com/go-i18n](https://github.com/go-i18n)
+* GO编译为JS [https://github.com/gopherjs](https://github.com/gopherjs)
 
 
 

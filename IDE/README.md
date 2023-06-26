@@ -22,6 +22,7 @@
 * [https://github.com/capistrano/sshkit](https://github.com/capistrano/sshkit)
 * JSON可视化 [https://github.com/AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com)
 * [https://editor.herowand.com](https://editor.herowand.com)
+* 网络分析 [https://github.com/gephi](https://github.com/gephi)
 
 
 
@@ -89,6 +90,7 @@
 + [https://github.com/travis-ci](https://github.com/travis-ci)
 + [https://github.com/wercker](https://github.com/wercker)
 + [https://github.com/codemagic-ci-cd](https://github.com/codemagic-ci-cd)
++ [https://www.acme.com/software](https://www.acme.com/software)
 
 
 
@@ -145,6 +147,7 @@
 * [https://jakearchibald.github.io/svgomg](https://jakearchibald.github.io/svgomg)
 * [https://github.com/Mohamed99ayman/Online-Compiler](https://github.com/Mohamed99ayman/Online-Compiler)
 * [https://code.xueersi.com/ide/code/1](https://code.xueersi.com/ide/code/1)
+* [https://github.com/ajaxorg/ace](https://github.com/ajaxorg/ace)
 
 - 数学计算器 [https://www.desmos.com](https://www.desmos.com)
 
@@ -200,6 +203,9 @@
     + [性能测试入门——LoadRunner使用初探](https://zhuanlan.zhihu.com/p/24812449)
 + QTP [https://www.microfocus.com/zh-cn/products#all-U](https://www.microfocus.com/zh-cn/products#all-U)
 + IDEA 的`Tools`菜单下有`HTTP Client`可替代postman
++ 压测 [https://github.com/EZLippi/WebBench](https://github.com/EZLippi/WebBench)
++ [https://github.com/perusio/httpload](https://github.com/perusio/httpload)
++ [https://github.com/JoeDog/siege](https://github.com/JoeDog/siege)
 
 
 - mac paw [https://github.com/luckymarmot](https://github.com/luckymarmot)
@@ -264,6 +270,7 @@
 * Web的SQL编辑器 [https://github.com/sqlpad/sqlpad](https://github.com/sqlpad/sqlpad)
 * [https://github.com/OmniDB/OmniDB](https://github.com/OmniDB/OmniDB)
 * [https://github.com/webyog/sqlyog-community](https://github.com/webyog/sqlyog-community)
+* AIGC [https://github.com/chat2db/Chat2DB](https://github.com/chat2db/Chat2DB)
 
 - 数据库转excel [https://github.com/nocodb/nocodb](https://github.com/nocodb/nocodb)
 
@@ -318,7 +325,8 @@
 * [https://github.com/framer](https://github.com/framer)
 * [https://mastergo.com](https://mastergo.com)
 * [https://github.com/figma](https://github.com/figma)
-
+* [https://dribbble.com](https://dribbble.com)
+* [https://www.uimaker.com](https://www.uimaker.com)
 
 
 **本地客户端**
@@ -505,6 +513,7 @@
     * [https://github.com/merico-dev/stream](https://github.com/merico-dev/stream)
 * [https://github.com/TestLinkOpenSourceTRMS/testlink-code](https://github.com/TestLinkOpenSourceTRMS/testlink-code)
     * [https://sourceforge.net/projects/testlink](https://sourceforge.net/projects/testlink)
+* [https://github.com/edavis10/redmine](https://github.com/edavis10/redmine)
 
 
 

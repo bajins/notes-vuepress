@@ -7,6 +7,7 @@
 
 + [https://github.com/semantic-release](https://github.com/semantic-release)
 + [https://github.com/GerritCodeReview/git-repo](https://github.com/GerritCodeReview/git-repo)
++ [https://github.com/gitonomy/gitlib](https://github.com/gitonomy/gitlib)
 
 
 * 忽略提交 [https://github.com/github/gitignore](https://github.com/github/gitignore)
@@ -36,7 +37,6 @@
 * [https://github.com/gitblit/gitblit](https://github.com/gitblit/gitblit)
 * [https://github.com/scm-manager/scm-manager](https://github.com/scm-manager/scm-manager)
 *  [https://github.com/projectkudu/kudu](https://github.com/projectkudu/kudu)
-
 
 
 
@@ -73,7 +73,6 @@
 
 ## GitLab
 
-
 > root用户登录，右上角头像，Settings -> Preferences -> Localization -> Language，选择“简体中文”即可。
 > 高版本的GitLab自带了中文语言包，可以通过上述方式直接切换。如果找不到该选项，表示你的版本还不支持。只能通过安装中文插件进行汉化。
 
@@ -93,6 +92,7 @@
 * [https://crowdin.com/project/gitlab-ee](https://crowdin.com/project/gitlab-ee)
 * clone所有项目 [https://github.com/huchao1009/gitlab-projects-clone](https://github.com/huchao1009/gitlab-projects-clone)
 * [https://git.openldap.org](https://git.openldap.org)
+* [https://bitnami.com/stack/gitlab](https://bitnami.com/stack/gitlab)
 
 
 

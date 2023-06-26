@@ -14,6 +14,7 @@
 * [https://github.com/pygame/pygame](https://github.com/pygame/pygame)
 * [https://github.com/PySimpleGUI](https://github.com/PySimpleGUI)
 * [https://github.com/hoffstadt/DearPyGui](https://github.com/hoffstadt/DearPyGui)
+* [https://github.com/PyQwt](https://github.com/PyQwt)
 * 跨平台 [https://github.com/kivy](https://github.com/kivy)
 * [https://github.com/beeware](https://github.com/beeware)
     * [https://github.com/pybee](https://github.com/pybee)

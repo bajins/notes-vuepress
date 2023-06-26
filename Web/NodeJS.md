@@ -49,6 +49,7 @@
 - [https://github.com/vitejs/vite](https://github.com/vitejs/vite)
 - [https://github.com/evanw/esbuild](https://github.com/evanw/esbuild)
 - [https://github.com/web-infra-dev](https://github.com/web-infra-dev)
+- [https://github.com/bower/bower](https://github.com/bower/bower)
 - 2009年，npm
 - 2012年，grunt
 - 2012年，bower
@@ -83,6 +84,7 @@
 * [https://github.com/balderdashy/waterline](https://github.com/balderdashy/waterline)
 * SQL查询 [https://github.com/knex/knex](https://github.com/knex/knex)
 * 解析器、压缩器、压缩器和美化 [https://github.com/mishoo/UglifyJS](https://github.com/mishoo/UglifyJS)
+* [https://github.com/solzimer/nsyslog-parser](https://github.com/solzimer/nsyslog-parser)
 * 日志 [https://github.com/trentm/node-bunyan](https://github.com/trentm/node-bunyan)
 * [https://github.com/pillarjs/send](https://github.com/pillarjs/send)
 * 断言 [https://github.com/chaijs](https://github.com/chaijs)
@@ -396,12 +398,16 @@ request({
 * [https://github.com/aerokube](https://github.com/aerokube)
 * [https://github.com/getgauge/taiko](https://github.com/getgauge/taiko)
 * [https://github.com/milankinen/cuic](https://github.com/milankinen/cuic)
-* 基于webkit的JavaScript API [https://github.com/ariya/phantomjs](https://github.com/ariya/phantomjs)
+* [https://github.com/CheshireCaat/bas-remote-node](https://github.com/CheshireCaat/bas-remote-node)
+* 基于webkit [https://github.com/ariya/phantomjs](https://github.com/ariya/phantomjs)
     * [PhantomJS -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/tool/phantomjs.html)
+    * [https://github.com/tapir-dream/berserkJS](https://github.com/tapir-dream/berserkJS)
+    * [https://github.com/JeffreyZhao/wind](https://github.com/JeffreyZhao/wind)
+    * [https://github.com/casperjs/casperjs](https://github.com/casperjs/casperjs)
 * [https://github.com/krisselden/chrome-debugging-client](https://github.com/krisselden/chrome-debugging-client)
 * [https://github.com/cyrus-and/chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface)
 * [https://github.com/TracerBench/chrome-debugging-client](https://github.com/TracerBench/chrome-debugging-client)
-* [https://github.com/laurentj/slimerjs](https://github.com/laurentj/slimerjs)
+* 基于Gecko [https://github.com/laurentj/slimerjs](https://github.com/laurentj/slimerjs)
 * [https://github.com/vitest-dev/vitest](https://github.com/vitest-dev/vitest)
 
 

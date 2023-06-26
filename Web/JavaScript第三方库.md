@@ -179,6 +179,8 @@
 + [https://github.com/topics/workers](https://github.com/topics/workers)
 + [https://github.com/topics/web-worker](https://github.com/topics/web-worker)
 
+
+* [https://github.com/emmetio](https://github.com/emmetio)
 * [http://github.com/mootools](http://github.com/mootools)
 * [https://github.com/liriliri/licia](https://github.com/liriliri/licia)
 * [https://github.com/lodash/lodash](https://github.com/lodash/lodash)
@@ -349,6 +351,7 @@
 * 图像中提取颜色 [https://github.com/briangonzalez/rgbaster.js](https://github.com/briangonzalez/rgbaster.js)
 * SVG渲染图像占位符 [https://github.com/imsky/holder](https://github.com/imsky/holder)
 * 交互式医学图像 [https://github.com/cornerstonejs/cornerstone](https://github.com/cornerstonejs/cornerstone)
+* [https://github.com/impress/impress.js](https://github.com/impress/impress.js)
 
 
 
@@ -401,11 +404,12 @@
 * [https://github.com/juliangarnier/anime](https://github.com/juliangarnier/anime)
 * [https://github.com/greensock/GSAP](https://github.com/greensock/GSAP)
 * 3D库 [https://github.com/mrdoob/three.js](https://github.com/mrdoob/three.js)
+* [https://github.com/kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer)
 * 3D地球和2D地图 [https://github.com/CesiumGS/cesium](https://github.com/CesiumGS/cesium)
 * 2D渲染器 [https://github.com/pixijs/pixijs](https://github.com/pixijs/pixijs)
 * [https://github.com/erincatto/box2d](https://github.com/erincatto/box2d)
 * [https://github.com/KilledByAPixel/LittleJS](https://github.com/KilledByAPixel/LittleJS)
-* [https://github.com/kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer)
+* [https://github.com/le5le-com](https://github.com/le5le-com)
 * 用于缩放图像 [https://github.com/francoischalifour/medium-zoom](https://github.com/francoischalifour/medium-zoom)
 * [https://github.com/pa7/heatmap.js](https://github.com/pa7/heatmap.js)
 * [https://github.com/konvajs/konva](https://github.com/konvajs/konva)
@@ -419,6 +423,7 @@
 * [https://github.com/fabricjs](https://github.com/fabricjs)
 * [https://github.com/paperjs](https://github.com/paperjs)
 * [https://github.com/apexcharts](https://github.com/apexcharts)
+* [https://github.com/clientIO/joint](https://github.com/clientIO/joint)
 * 图标字体自定义 [https://github.com/uuware/icons-font-customization](https://github.com/uuware/icons-font-customization)
 * [https://github.com/07akioni/xicons](https://github.com/07akioni/xicons)
 * [https://github.com/IanLunn/Hover](https://github.com/IanLunn/Hover)

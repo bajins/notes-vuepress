@@ -26,6 +26,7 @@
 * [https://github.com/twisted](https://github.com/twisted)
 * [https://github.com/encode/httpx](https://github.com/encode/httpx)
 * [https://github.com/httpie/httpie](https://github.com/httpie/httpie)
+* [https://github.com/httplib2/httplib2](https://github.com/httplib2/httplib2)
 * 日志 [https://github.com/Delgan/loguru](https://github.com/Delgan/loguru)
 * [https://github.com/jpadilla/pyjwt](https://github.com/jpadilla/pyjwt)
 * [https://github.com/Arronlong/py_scripts](https://github.com/Arronlong/py_scripts)

@@ -25,6 +25,7 @@
 - [https://www.wandisco.com/source-code-management/subversion](https://www.wandisco.com/source-code-management/subversion)
 - [https://sliksvn.com/pub](https://sliksvn.com/pub)
 - [https://github.com/jenkinsci/subversion-plugin](https://github.com/jenkinsci/subversion-plugin)
+- [https://bitnami.com/stack/subversion](https://bitnami.com/stack/subversion)
 
 
 * SVN教程 [https://svnbucket.com/posts](https://svnbucket.com/posts)

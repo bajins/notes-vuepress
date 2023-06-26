@@ -131,6 +131,7 @@
 - Instagram [https://github.com/jigar-sable/instagram-mern](https://github.com/jigar-sable/instagram-mern)
 - 类twitter [https://github.com/bluesky-social/adx](https://github.com/bluesky-social/adx)
 - [https://github.com/lensterxyz/lenster](https://github.com/lensterxyz/lenster)
+- [https://github.com/Linen-dev](https://github.com/Linen-dev)
 
 
 **Telegram**
@@ -365,6 +366,7 @@
 * Kmplayer
 * VLC [https://www.videolan.org](https://www.videolan.org)
 * [https://www.getmusicbee.com](https://www.getmusicbee.com)
+* [https://github.com/Frank-Friemel/Shairport4w](https://github.com/Frank-Friemel/Shairport4w)
 
 
 - [https://github.com/Chocobozzz/PeerTube](https://github.com/Chocobozzz/PeerTube)
@@ -488,6 +490,7 @@
 * [https://github.com/NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif)
 * [https://www.bandisoft.com/honeycam](https://www.bandisoft.com/honeycam)
 * GifCam [http://blog.bahraniapps.com](http://blog.bahraniapps.com)
+* [https://github.com/justinfrankel/licecap](https://github.com/justinfrankel/licecap)
 
 - Gif压缩 [https://gifcompressor.com/zh/](https://gifcompressor.com/zh/)
 
@@ -822,6 +825,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.remoteutilities.com](https://www.remoteutilities.com)
 * [https://remotedesktop.google.com](https://remotedesktop.google.com)
 * [https://github.com/kimmknight/remoteapptool](https://github.com/kimmknight/remoteapptool)
+* [https://www.solarwinds.com/zh/dameware](https://www.solarwinds.com/zh/dameware)
+* [https://www.radmin.com](https://www.radmin.com)
 
 
 - ScreenWings 反截屏
@@ -983,6 +988,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/yuzu-emu](https://github.com/yuzu-emu)
 * [https://github.com/HolographicWings/TOTK-Mods-collection](https://github.com/HolographicWings/TOTK-Mods-collection)
 * [https://github.com/SwagSoftware/Kisak-Strike](https://github.com/SwagSoftware/Kisak-Strike)
+* [https://github.com/gbdev](https://github.com/gbdev)
 
 
 + [http://www.downloadsoftware.ir](http://www.downloadsoftware.ir)

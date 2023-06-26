@@ -149,6 +149,9 @@
 * 矢量图标 [https://github.com/FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
 * [https://www.iconfont.cn](https://www.iconfont.cn)
 * [https://www.iconbolt.com](https://www.iconbolt.com)
+* [https://icomoon.io](https://icomoon.io)
+* [https://www.flaticon.com/authors/freepik](https://www.flaticon.com/authors/freepik)
+* [https://glyphicons.com](https://glyphicons.com)
 
 
 - [最受程序员欢迎的 20 个 CSS 框架](https://www.fuocu.cn/archives/css-frame)

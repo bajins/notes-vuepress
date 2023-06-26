@@ -30,13 +30,6 @@
 * 调试器 [https://github.com/cs01/gdbgui](https://github.com/cs01/gdbgui)
 * [https://github.com/rizinorg/cutter](https://github.com/rizinorg/cutter)
 * 二维码生成 [https://github.com/nayuki/QR-Code-generator](https://github.com/nayuki/QR-Code-generator)
-
-
-- [https://github.com/dlang](https://github.com/dlang)
-- [https://github.com/ziglang](https://github.com/ziglang)
-
-
-
 * CPU仿真器框架 [https://github.com/unicorn-engine/unicorn](https://github.com/unicorn-engine/unicorn)
 * 开发证书 [https://github.com/topics/certificates](https://github.com/topics/certificates)
 * [https://github.com/FiloSottile/mkcert](https://github.com/FiloSottile/mkcert)
@@ -69,7 +62,8 @@
 * [https://github.com/topics/build-system](https://github.com/topics/build-system)
 * [https://github.com/topics/bazel](https://github.com/topics/bazel)
 * [https://github.com/bazelbuild](https://github.com/bazelbuild)
-
+* 部署工具 [https://github.com/mina-deploy/mina](https://github.com/mina-deploy/mina)
+* [https://github.com/capistrano/capistrano](https://github.com/capistrano/capistrano)
 
 
 
@@ -81,6 +75,8 @@
 - [https://github.com/nim-lang/Nim](https://github.com/nim-lang/Nim)
     - [https://nim-lang.org](https://nim-lang.org)
     - [https://github.com/xmonader/nimdays](https://github.com/xmonader/nimdays)
+- [https://github.com/dlang](https://github.com/dlang)
+- [https://github.com/ziglang](https://github.com/ziglang)
 - TXL [https://www.txl.ca](https://www.txl.ca)
     - 软件克隆检测 [https://www.txl.ca/txl-nicaddownload.html](https://www.txl.ca/txl-nicaddownload.html)
 - JVM 动态脚本语言 [https://github.com/apache/groovy](https://github.com/apache/groovy)
@@ -176,6 +172,7 @@
 + [https://github.com/kotlin-hands-on](https://github.com/kotlin-hands-on)
 
 
+- 序列化 [https://github.com/avro-kotlin/avro4k](https://github.com/avro-kotlin/avro4k)
 - 静态代码分析 [https://github.com/detekt/detekt](https://github.com/detekt/detekt)
 - [https://github.com/mockk/mockk](https://github.com/mockk/mockk)
 - [https://github.com/kotest/kotest](https://github.com/kotest/kotest)
@@ -221,6 +218,7 @@
 - DOM [https://github.com/snabbdom/snabbdom](https://github.com/snabbdom/snabbdom)
 - 模拟数据 [https://github.com/mockoon/mockoon](https://github.com/mockoon/mockoon)
 - 数据验证 [https://github.com/nvie/decoders](https://github.com/nvie/decoders)
+- 操作docx文件 [https://github.com/dolanmiu/docx](https://github.com/dolanmiu/docx)
 
 
 

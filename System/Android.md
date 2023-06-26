@@ -230,6 +230,9 @@
 + [https://github.com/Trinea/android-open-project](https://github.com/Trinea/android-open-project)
 
 
+* [https://github.com/dlew](https://github.com/dlew)
+* [https://github.com/litao0621](https://github.com/litao0621)
+* [https://github.com/DSAppTeam](https://github.com/DSAppTeam)
 * [https://github.com/cashapp](https://github.com/cashapp)
 * [https://github.com/xuexiangjys](https://github.com/xuexiangjys)
 * [https://github.com/Baseflow](https://github.com/Baseflow)
@@ -244,7 +247,7 @@
 * [https://github.com/guofudong/KotlinAndroid](https://github.com/guofudong/KotlinAndroid)
 * [https://github.com/Justson/Downloader](https://github.com/Justson/Downloader)
 * [https://github.com/Justson/AgentWeb](https://github.com/Justson/AgentWeb)
-* [Android运行时权限申请库](https://github.com/ysbing/YPermission)
+* 运行时权限申请 [https://github.com/ysbing/YPermission](https://github.com/ysbing/YPermission)
 * 秒级编译方案 [https://github.com/alibaba/freeline](https://github.com/alibaba/freeline)
 * [Android-FFmpeg开源库使用及图片压缩开源工具使用](https://www.jianshu.com/p/e960854d3705)
 * 查看包差异 [https://github.com/JakeWharton/diffuse](https://github.com/JakeWharton/diffuse)
@@ -285,10 +288,16 @@
 * [https://github.com/majidgolshadi/Android-Download-Manager-Pro](https://github.com/majidgolshadi/Android-Download-Manager-Pro)
 * 蓝牙 [https://github.com/BasicAirData/BluetoothHelper](https://github.com/BasicAirData/BluetoothHelper)
 * 图像裁剪 [https://github.com/mike14u/croperino](https://github.com/mike14u/croperino)
+* [https://github.com/T8RIN/ImageToolbox](https://github.com/T8RIN/ImageToolbox)
 * 图表库 [https://github.com/PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 * 进度 [https://github.com/lzyzsd/CircleProgress](https://github.com/lzyzsd/CircleProgress)
 * [https://github.com/sunjinxi1994/EasyPoi](https://github.com/sunjinxi1994/EasyPoi)
-
+* 滚动 [https://github.com/scwang90/SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout)
+* 动态组件化 [https://github.com/iqiyi/Qigsaw](https://github.com/iqiyi/Qigsaw)
+* UI [https://github.com/Tencent/QMUI_Android](https://github.com/Tencent/QMUI_Android)
+* [https://github.com/dmytrodanylyk/circular-progress-button](https://github.com/dmytrodanylyk/circular-progress-button)
+* [https://github.com/material-components](https://github.com/material-components)
+* [https://github.com/lapism/search](https://github.com/lapism/search)
 
 
 **框架**

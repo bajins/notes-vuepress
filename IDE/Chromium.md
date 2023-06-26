@@ -12,6 +12,12 @@
     * [https://browserslist.dev](https://browserslist.dev)
 * [https://github.com/WebKit](https://github.com/WebKit)
 * 嵌入式框架（CEF） [https://github.com/chromiumembedded](https://github.com/chromiumembedded)
+    * [https://bitbucket.org/chromiumembedded/cef](https://bitbucket.org/chromiumembedded/cef)
+    * [https://github.com/cefsharp](https://github.com/cefsharp)
+    * [https://github.com/CefView/QCefView](https://github.com/CefView/QCefView)
+    * [https://github.com/ShirasawaSama/CefDetectorX](https://github.com/ShirasawaSama/CefDetectorX)
+    * [https://github.com/weolar/miniblink49](https://github.com/weolar/miniblink49)
+    * [https://github.com/OutSystems/CefGlue](https://github.com/OutSystems/CefGlue)
 * [https://github.com/arnoldthebat/chromiumos](https://github.com/arnoldthebat/chromiumos)
 
 
@@ -74,6 +80,10 @@
     * [https://github.com/brave-experiments](https://github.com/brave-experiments)
 * [https://github.com/kiwibrowser](https://github.com/kiwibrowser)
 * [https://github.com/minbrowser](https://github.com/minbrowser)
+* [https://github.com/skyjake/lagrange](https://github.com/skyjake/lagrange)
+* [https://github.com/makew0rld/amfora](https://github.com/makew0rld/amfora)
+* [https://github.com/pinnaculum/galacteek](https://github.com/pinnaculum/galacteek)
+* [https://github.com/ranfdev/Geopard](https://github.com/ranfdev/Geopard)
 
 
 - TOR [https://github.com/alecmuffett/real-world-onion-sites](https://github.com/alecmuffett/real-world-onion-sites)
