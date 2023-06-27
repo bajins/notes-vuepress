@@ -64,10 +64,10 @@
 - [https://github.com/fathyb/carbonyl](https://github.com/fathyb/carbonyl)
 
 
-* [https://www.microsoftedgeinsider.com](https://www.microsoftedgeinsider.com)
+* [https://github.com/MicrosoftEdge](https://github.com/MicrosoftEdge)
+    * [https://www.microsoftedgeinsider.com](https://www.microsoftedgeinsider.com)
     * [https://www.microsoft.com/zh-cn/edge](https://www.microsoft.com/zh-cn/edge)
     *  [最新官方稳定版离线安装包 x64](https://go.microsoft.com/fwlink/?LinkID=2093437)
-    * [https://www.microsoftedgeinsider.com](https://www.microsoftedgeinsider.com)
     * [https://docs.microsoft.com/zh-cn/microsoft-edge](https://docs.microsoft.com/zh-cn/microsoft-edge)
     * 不显示新建标签页广告资讯和网址（微软对中国区特供）强制本地NTP，添加快捷方式运行参数：`--force-local-ntp`
 * [https://www.mozilla.org/zh-CN/firefox/all](https://www.mozilla.org/zh-CN/firefox/all)

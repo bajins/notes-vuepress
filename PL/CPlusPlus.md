@@ -57,7 +57,10 @@
 
 
 * 标准库 [https://github.com/boostorg](https://github.com/boostorg)
+* [https://github.com/VcDevel](https://github.com/VcDevel)
 * [https://github.com/abseil/abseil-cpp](https://github.com/abseil/abseil-cpp)
+* [https://github.com/alaingalvan](https://github.com/alaingalvan)
+* [https://github.com/vectorclass](https://github.com/vectorclass)
 * 微服务 [https://github.com/TarsCloud](https://github.com/TarsCloud)
 * 包管理 [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg)
     * [适用于Windows，Linux和MacOS的C ++库管理器](https://docs.microsoft.com/zh-cn/cpp/build/vcpkg)

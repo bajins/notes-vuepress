@@ -6,29 +6,16 @@
 ## Flag
 
 + [https://github.com/No-Github/Digital-Privacy](https://github.com/No-Github/Digital-Privacy)
-+ [Adobe Photoshop键盘快捷键](https://helpx.adobe.com/cn/photoshop/using/default-keyboard-shortcuts.html)
-+ [Photoshop快捷键大全](http://www.ip138.com/photoshop)
-+ [最详细的PS快捷键大全](http://www.360doc.com/content/19/0507/02/9060464_833889392.shtml)
-+ [python、java、c、go执行速度对比](https://www.jianshu.com/p/d60eff598aa0)
 + [如何选择开源许可证？](http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html)
 + [如何选择开源许可证？](https://blog.csdn.net/wadefelix/article/details/6384317)
-+ License [https://app.fossa.com](https://app.fossa.com)
++ License [https://github.com/fossas](https://github.com/fossas)
+    + [https://app.fossa.com](https://app.fossa.com)
+    + [https://fossa.com/learn/developers-guide-open-source-software-licenses](https://fossa.com/learn/developers-guide-open-source-software-licenses)
++ [https://opensource.org/licenses](https://opensource.org/licenses)
 + 开源指南 [https://github.com/github/opensource.guide](https://github.com/github/opensource.guide)
 + [https://creativecommons.org](https://creativecommons.org)
-+ [https://opensource.org/licenses](https://opensource.org/licenses)
 
 
-- 水印 [https://github.com/topics/watermark](https://github.com/topics/watermark)
-- [https://github.com/dxcweb/watermark](https://github.com/dxcweb/watermark)
-- [https://github.com/Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx)
-- [https://github.com/Atmosphere-NX/Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)
-- [https://github.com/switchbrew](https://github.com/switchbrew)
-- [https://github.com/skyline-emu/skyline](https://github.com/skyline-emu/skyline)
-
-
-
-* 编程语言排行 [https://www.tiobe.com/tiobe-index](https://www.tiobe.com/tiobe-index)
-* GitHub上的游戏项目 [https://github.com/leereilly/games](https://github.com/leereilly/games)
 * IP库 [https://db-ip.com](https://db-ip.com)
 * 谷歌全球IP地址库 [https://github.com/justjavac/Google-IPs](https://github.com/justjavac/Google-IPs)
 * 教育目的网络钓鱼工具 [https://github.com/htr-tech/zphisher](https://github.com/htr-tech/zphisher)

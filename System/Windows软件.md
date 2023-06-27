@@ -459,7 +459,8 @@
 - [https://al.chemy.org](https://al.chemy.org)
 - 模拟iPhone截图 [https://shots.so](https://shots.so)
 - [https://app.jellylade.com](https://app.jellylade.com)
-
+- 水印 [https://github.com/topics/watermark](https://github.com/topics/watermark)
+- [https://github.com/dxcweb/watermark](https://github.com/dxcweb/watermark)
 
 
 **Photoshop**
@@ -480,6 +481,9 @@
 * https://tntzii.com
 * [https://github.com/webmproject/WebPShop](https://github.com/webmproject/WebPShop)
 
++ [Adobe Photoshop键盘快捷键](https://helpx.adobe.com/cn/photoshop/using/default-keyboard-shortcuts.html)
++ [Photoshop快捷键大全](http://www.ip138.com/photoshop)
++ [最详细的PS快捷键大全](http://www.360doc.com/content/19/0507/02/9060464_833889392.shtml)
 
 
 ### Gif软件
@@ -980,6 +984,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/VoodooI2C/VoodooI2CELAN](https://github.com/VoodooI2C/VoodooI2CELAN)
     * [https://www.penghubingzhou.cn/tags/I2C](https://www.penghubingzhou.cn/tags/I2C)
 * 查找泄漏密码 [https://github.com/HaveIBeenPwned](https://github.com/HaveIBeenPwned)
+* 游戏项目 [https://github.com/leereilly/games](https://github.com/leereilly/games)
 * GTA游戏 [https://github.com/GTAmodding/re3](https://github.com/GTAmodding/re3)
 * [https://github.com/theVakhovskeIsTaken/holoiso](https://github.com/theVakhovskeIsTaken/holoiso)
 * [https://github.com/Plagman/gamescope](https://github.com/Plagman/gamescope)
@@ -989,6 +994,10 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/HolographicWings/TOTK-Mods-collection](https://github.com/HolographicWings/TOTK-Mods-collection)
 * [https://github.com/SwagSoftware/Kisak-Strike](https://github.com/SwagSoftware/Kisak-Strike)
 * [https://github.com/gbdev](https://github.com/gbdev)
+* [https://github.com/Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx)
+* [https://github.com/Atmosphere-NX/Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)
+* [https://github.com/switchbrew](https://github.com/switchbrew)
+* [https://github.com/skyline-emu/skyline](https://github.com/skyline-emu/skyline)
 
 
 + [http://www.downloadsoftware.ir](http://www.downloadsoftware.ir)

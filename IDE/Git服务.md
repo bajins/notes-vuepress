@@ -51,6 +51,7 @@
 * [https://framagit.org](https://framagit.org)
 * [https://git.hit.edu.cn](https://git.hit.edu.cn)
 * [https://www.gitlink.org.cn](https://www.gitlink.org.cn)
+* [https://sourceforge.net](https://sourceforge.net)
 * 软件相似度比较 [https://copycat.gitee.com](https://copycat.gitee.com)
 
 
@@ -296,6 +297,7 @@ sudo /etc/init.d/dns-clean start
 
 + [https://github.com/actions](https://github.com/actions)
     + 检出项目 [https://github.com/actions/checkout](https://github.com/actions/checkout)
+    + [https://github.com/aws-actions](https://github.com/aws-actions)
 + [https://github.com/topics/github-pages](https://github.com/topics/github-pages)
 + [https://github.com/topics/gh-pages](https://github.com/topics/gh-pages)
 + [https://github.com/topics/deploy](https://github.com/topics/deploy)

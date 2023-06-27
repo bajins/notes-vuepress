@@ -13,7 +13,6 @@
     + [https://kangax.github.io/compat-table/es6](https://kangax.github.io/compat-table/es6)
 
 
-
 * [JS刷新当前页面的几种方法总结](http://www.iqianduan.net/blog/refresh-browser-method)
 * [js keyup、keypress和keydown事件 详解](https://www.cnblogs.com/manongxiaobing/archive/2012/11/05/2755412.html)
 * [js中keyup-keypress-keydown以及oninput四个事件](https://blog.csdn.net/FGstudy/article/details/101854125)
@@ -47,7 +46,6 @@
 - [https://github.com/saghul/txiki.js](https://github.com/saghul/txiki.js)
 - [https://github.com/oven-sh/bun](https://github.com/oven-sh/bun)
 - [https://github.com/svaarala/duktape](https://github.com/svaarala/duktape)
-- [https://github.com/espruino/Espruino](https://github.com/espruino/Espruino)
 - [https://mujs.com](https://mujs.com)
 - [https://github.com/gfwilliams/tiny-js](https://github.com/gfwilliams/tiny-js)
 - [https://github.com/cesanta/v7](https://github.com/cesanta/v7)
@@ -65,6 +63,7 @@
     * [http://javascript.ruanyifeng.com](http://javascript.ruanyifeng.com)
 * [https://github.com/revolunet/JSbooks](https://github.com/revolunet/JSbooks)
 * 面向程序员的JavaScript书籍 [https://exploringjs.com](https://exploringjs.com)
+    * [https://2ality.com](https://2ality.com)
 * ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
     * [https://es6.ruanyifeng.com](https://es6.ruanyifeng.com)
 * [https://github.com/daumann/ECMAScript-new-features-list](https://github.com/daumann/ECMAScript-new-features-list)
@@ -79,6 +78,7 @@
 * 文档对象模型 (DOM) [https://developer.mozilla.org/zh-CN/docs/Glossary/DOM](https://developer.mozilla.org/zh-CN/docs/Glossary/DOM)
 * [https://github.com/Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript)
 * [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30)
+* [https://gaohaoyang.github.io](https://gaohaoyang.github.io)
 * 答题 [https://github.com/lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions)
 * [https://github.com/felipefialho/frontend-challenges](https://github.com/felipefialho/frontend-challenges)
 * [https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)
@@ -103,15 +103,31 @@
 
 **模块规范**
 
-- [https://github.com/umdjs/umd](https://github.com/umdjs/umd)
-- [https://github.com/amdjs](https://github.com/amdjs)
-    - [https://github.com/requirejs](https://github.com/requirejs)
-    - [RequireJS和AMD规范 -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/tool/requirejs.html)
-- [https://github.com/cmdjs](https://github.com/cmdjs)
+- UMD(Universal Module Definition) [https://github.com/umdjs/umd](https://github.com/umdjs/umd)
+- AMD(Asynchronous Module Definition) [https://github.com/amdjs](https://github.com/amdjs)
+  - [https://github.com/requirejs](https://github.com/requirejs)
+  - [RequireJS和AMD规范 -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/tool/requirejs.html)
+  - [https://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition](https://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition)
+- CMJ(CommonJS) [https://github.com/cmdjs](https://github.com/cmdjs)
+  - [https://wiki.commonjs.org/wiki/CommonJS](https://wiki.commonjs.org/wiki/CommonJS)
+  - [CommonJS规范 -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/nodejs/module.html)
+- ESM(ECMAScript modules) [https://nodejs.org/api/esm.html](https://nodejs.org/api/esm.html)
 - [https://github.com/seajs](https://github.com/seajs)
-- [http://www.commonjs.org](http://www.commonjs.org)
-- [CommonJS规范 -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/nodejs/module.html)
+- [https://github.com/TorinoJS](https://github.com/TorinoJS)
+- [https://github.com/embedthis/ejscript](https://github.com/embedthis/ejscript)
+- [https://github.com/SynchronetBBS](https://github.com/SynchronetBBS)
+  - [https://gitlab.com/SynchronetBBS](https://gitlab.com/SynchronetBBS)
+  - [https://sourceforge.net/projects/synchronet](https://sourceforge.net/projects/synchronet)
+  - [https://synchro.net/docs/jsobjs.html](https://synchro.net/docs/jsobjs.html)
+- [https://github.com/iskitz/ajile](https://github.com/iskitz/ajile)
+  - [https://sourceforge.net/projects/ajile](https://sourceforge.net/projects/ajile)
+- [https://github.com/creately/modules-js](https://github.com/creately/modules-js)
+- [https://github.com/ringo/ringojs](https://github.com/ringo/ringojs)
+
+
 - [Module 的语法 - ECMAScript 6入门](https://es6.ruanyifeng.com/#docs/module)
+
+
 
 ```js
 /**

@@ -353,6 +353,10 @@ try {
 | spring-boot-starter-webflux                 	| 集成 Spring Reactive Web 构建 WebFlux 应用                                                              	|
 | spring-boot-starter-websocket               	| 集成 Spring WebSocket 构建 WebSocket 应用                                                               	|
 
+* 数据源 [https://github.com/baomidou/dynamic-datasource-spring-boot-starter](https://github.com/baomidou/dynamic-datasource-spring-boot-starter)
+
+
+
 
 **production starters**
 

@@ -28,10 +28,6 @@
 
 - IDE [https://developer.android.google.cn/studio](https://developer.android.google.cn/studio)
     - [https://github.com/Vove7/retrofit-rest-client](https://github.com/Vove7/retrofit-rest-client)
-- [https://github.com/arduino/Arduino](https://github.com/arduino/Arduino)
-- [https://www.visualmicro.com](https://www.visualmicro.com)
-- [https://github.com/Sloeber/arduino-eclipse-plugin](https://github.com/Sloeber/arduino-eclipse-plugin)
-- [https://github.com/platformio](https://github.com/platformio)
 - [https://blynk.cloud](https://blynk.cloud)
 - 解决合并冲突Gradle插件 [https://github.com/2BAB/Seal](https://github.com/2BAB/Seal)
 - trace 工具 [https://github.com/bytedance/btrace](https://github.com/bytedance/btrace)
@@ -45,6 +41,7 @@
 + [https://github.com/jeanboydev/Android-ReadTheFuckingSourceCode](https://github.com/jeanboydev/Android-ReadTheFuckingSourceCode)
 + [https://github.com/pengMaster/BestNote](https://github.com/pengMaster/BestNote)
 + [https://github.com/Omooo/Android-Notes](https://github.com/Omooo/Android-Notes)
++ [https://github.com/simple-android-framework](https://github.com/simple-android-framework)
 + [归档 | Homurax's Blog](https://blog.homurax.com/archives)
 + [Android：JNI 与 NDK到底是什么？](https://blog.csdn.net/carson_ho/article/details/73250163)
 + 进程保活 [https://github.com/peakerlu/appkeepLive](https://github.com/peakerlu/appkeepLive)
@@ -230,6 +227,7 @@
 + [https://github.com/Trinea/android-open-project](https://github.com/Trinea/android-open-project)
 
 
+* [https://github.com/hehonghui](https://github.com/hehonghui)
 * [https://github.com/dlew](https://github.com/dlew)
 * [https://github.com/litao0621](https://github.com/litao0621)
 * [https://github.com/DSAppTeam](https://github.com/DSAppTeam)

@@ -457,6 +457,9 @@
 + [https://github.com/topics/html5-video](https://github.com/topics/html5-video)
 + [https://github.com/topics/video-player](https://github.com/topics/video-player)
 
+* [https://github.com/videojs](https://github.com/videojs)
+* [https://github.com/shaka-project](https://github.com/shaka-project)
+* [https://github.com/canalplus/rx-player](https://github.com/canalplus/rx-player)
 * [https://github.com/MoePlayer](https://github.com/MoePlayer)
 * [https://github.com/sampotts/plyr](https://github.com/sampotts/plyr)
 * [https://github.com/Chimeejs/chimee](https://github.com/Chimeejs/chimee)

@@ -15,8 +15,10 @@
 + [https://github.com/topics/barcode](https://github.com/topics/barcode)
 + [https://github.com/topics/qrcode](https://github.com/topics/qrcode)
 + [https://github.com/topics/qrcode-generator](https://github.com/topics/qrcode-generator)
++ 编程语言排行 [https://www.tiobe.com/tiobe-index](https://www.tiobe.com/tiobe-index)
 
 
+* [python、java、c、go执行速度对比](https://www.jianshu.com/p/d60eff598aa0)
 * [https://en.wikipedia.org/wiki/Type_system](https://en.wikipedia.org/wiki/Type_system)
 * [弱类型、强类型、动态类型、静态类型语言的区别是什么？](https://www.zhihu.com/question/19918532)
 * [通俗的方式理解动态类型，静态类型；强类型，弱类型](https://www.cnblogs.com/ssaylo/p/13056055.html)
@@ -219,6 +221,9 @@
 - 模拟数据 [https://github.com/mockoon/mockoon](https://github.com/mockoon/mockoon)
 - 数据验证 [https://github.com/nvie/decoders](https://github.com/nvie/decoders)
 - 操作docx文件 [https://github.com/dolanmiu/docx](https://github.com/dolanmiu/docx)
+- [https://github.com/Siemienik/XToolset](https://github.com/Siemienik/XToolset)
+- 渐进式 [https://github.com/dojo](https://github.com/dojo)
+    - [https://dojotoolkit.org](https://dojotoolkit.org)
 
 
 
@@ -248,6 +253,8 @@
 - Microsoft：可以用 TypeScript/AssemblyScript + WebAssembly 作为 JavaScript 替代
 - [webAssembly--浏览器第二语言](https://www.jianshu.com/p/cbd9883c2409)
 - [走进 WebAssembly 的世界](https://juejin.cn/column/7210666370487681082)
+    - [https://github.com/yaozhongxiao/webassembly_tech](https://github.com/yaozhongxiao/webassembly_tech)
+- [WebAssembly 模块化与动态链接](https://mp.weixin.qq.com/s/MPBwFuL2CYFVXIowoB542A)
 
 
 * [https://github.com/ShizukuIchi/winXP](https://github.com/ShizukuIchi/winXP)
@@ -259,6 +266,7 @@
 * [https://github.com/lumen/lumen](https://github.com/lumen/lumen)
 * [https://github.com/eirproject](https://github.com/eirproject)
 * [https://github.com/second-state/wasmedge-bindgen](https://github.com/second-state/wasmedge-bindgen)
+* [https://github.com/rustwasm](https://github.com/rustwasm)
 * C [https://github.com/emscripten-core/emscripten](https://github.com/emscripten-core/emscripten)
 * [https://github.com/wasdk/WasmFiddle](https://github.com/wasdk/WasmFiddle)
 * [https://github.com/mbebenita/WasmExplorer](https://github.com/mbebenita/WasmExplorer)
