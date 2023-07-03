@@ -7,18 +7,13 @@
 
 + [现在常用的java框架有哪些?](https://www.zhihu.com/question/362802033)
 + [Java开发主流框架是什么？](https://www.zhihu.com/question/307745171)
-
-
-**[HTTP](/Java/Java笔记.md#HTTP)**
-
-
 + [https://github.com/akullpp/awesome-java](https://github.com/akullpp/awesome-java)
 + [https://github.com/topics/java-library](https://github.com/topics/java-library)
 + [https://github.com/xuxueli](https://github.com/xuxueli)
 + [https://github.com/typetools](https://github.com/typetools)
 + [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
     + [下载地址镜像](/Other/README.md#通用镜像)
-+ [https://github.com/dromara](https://github.com/dromara)
++ hutool [https://github.com/dromara](https://github.com/dromara)
 + [https://github.com/shulieTech](https://github.com/shulieTech)
 + [https://github.com/codehaus](https://github.com/codehaus)
 + [https://github.com/rohankumardubey](https://github.com/rohankumardubey)
@@ -34,7 +29,6 @@
 * [https://github.com/justauth](https://github.com/justauth)
 * jwt [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)
 * [https://github.com/auth0/java-jwt](https://github.com/auth0/java-jwt)
-* [https://github.com/dromara/Sa-Token](https://github.com/dromara/Sa-Token)
 * [https://sourceforge.net/projects/jsch](https://sourceforge.net/projects/jsch)
     * [https://github.com/mwiede/jsch](https://github.com/mwiede/jsch)
     * [https://github.com/sbabcoc/Remote-Session](https://github.com/sbabcoc/Remote-Session)
@@ -55,7 +49,6 @@
     * [https://www.oracle.com/cn/java/technologies/javamail-releases.html](https://www.oracle.com/cn/java/technologies/javamail-releases.html)
 * [https://github.com/eclipse-ee4j/jaf](https://github.com/eclipse-ee4j/jaf)
     * [https://github.com/javaee/activation](https://github.com/javaee/activation)
-* 短信对接 [https://github.com/dromara/SMS4J](https://github.com/dromara/SMS4J)
 
 
 - Markdown解析器 [https://github.com/vsch/flexmark-java](https://github.com/vsch/flexmark-java)
@@ -139,7 +132,6 @@
 + [https://github.com/google/guava](https://github.com/google/guava)
 + [https://github.com/SpringForAll](https://github.com/SpringForAll)
 + [https://github.com/ifeilong](https://github.com/ifeilong)
-+ [https://github.com/dromara/hutool](https://github.com/dromara/hutool)
 + [https://github.com/oblac/jodd](https://github.com/oblac/jodd)
 + [https://github.com/0opslab/opslabJutil](https://github.com/0opslab/opslabJutil)
 + [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
@@ -174,6 +166,7 @@
     + [FF4J（特性框架）简介及入门](https://blog.csdn.net/MichaelJY1991/article/details/83510360)
     + [微服务版本分支管理与特性开关](https://www.jianshu.com/p/304697cdb440)
 + [https://github.com/togglz/togglz](https://github.com/togglz/togglz)
++ 集合增强 [https://github.com/vigna/fastutil](https://github.com/vigna/fastutil)
 + 规则引擎 [https://github.com/j-easy/easy-rules](https://github.com/j-easy/easy-rules)
 + [https://github.com/killme2008/aviatorscript](https://github.com/killme2008/aviatorscript)
     + [Aviator—Java表达式求值引擎的使用](https://blog.csdn.net/starcrm/article/details/108558135)
@@ -259,7 +252,6 @@
 + HTTP [https://github.com/apache/httpcomponents-client](https://github.com/apache/httpcomponents-client)
 + [https://github.com/square/okhttp](https://github.com/square/okhttp)
 + [https://github.com/Kong/unirest-java](https://github.com/Kong/unirest-java)
-+ [https://github.com/dromara/forest](https://github.com/dromara/forest)
 + [https://github.com/googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client)
 + [https://github.com/eclipse-ee4j/websocket-api](https://github.com/eclipse-ee4j/websocket-api)
 + [https://github.com/OpenFeign](https://github.com/OpenFeign)
@@ -317,17 +309,10 @@
 * [https://github.com/google/auto](https://github.com/google/auto)
 * [https://github.com/Randgalt/record-builder](https://github.com/Randgalt/record-builder)
 * NBeanCopyUtil采用的是Javassist
-* [https://github.com/javaparser](https://github.com/javaparser)
 * [https://github.com/square/javapoet](https://github.com/square/javapoet)
 * [https://github.com/raphw/byte-buddy](https://github.com/raphw/byte-buddy)
     * [ByteBuddy（史上最全）](https://www.cnblogs.com/crazymakercircle/p/16635330.html)
     * [bytebuddy基本使用](https://juejin.cn/post/7031748974285422629)
-* 语词法分析 [https://github.com/topics/javacc](https://github.com/topics/javacc)
-    * [https://github.com/javacc/javacc](https://github.com/javacc/javacc)
-    * [https://github.com/javacc21/javacc21](https://github.com/javacc21/javacc21)
-    * [JavaCC官方入门指南-概述](https://www.cnblogs.com/suhaha/p/11733487.html)
-* [https://github.com/ftomassetti/JavaCC2ANTLR](https://github.com/ftomassetti/JavaCC2ANTLR)
-* [https://github.com/Elzawawy/java-bytecode-generator](https://github.com/Elzawawy/java-bytecode-generator)
 * JAVA programming ASSISTant [https://github.com/jboss-javassist](https://github.com/jboss-javassist)
 * [https://github.com/jbosstools](https://github.com/jbosstools)
 * 反射工具包 [https://github.com/ronmamo/reflections](https://github.com/ronmamo/reflections)
@@ -603,6 +588,9 @@
 + [https://github.com/actframework](https://github.com/actframework)
 + [https://github.com/primefaces/primefaces](https://github.com/primefaces/primefaces)
 + [https://github.com/restlet](https://github.com/restlet)
++ JSF [https://github.com/omnifaces](https://github.com/omnifaces)
++ [https://github.com/ButterFaces](https://github.com/ButterFaces)
++ [https://github.com/primefaces](https://github.com/primefaces)
 + 工作流框架 [https://github.com/Activiti/Activiti](https://github.com/Activiti/Activiti)
     + [https://github.com/henryyan/activiti-in-action-codes](https://github.com/henryyan/activiti-in-action-codes)
     + [https://github.com/shenzhanwang/Spring-activiti](https://github.com/shenzhanwang/Spring-activiti)

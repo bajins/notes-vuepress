@@ -12,6 +12,7 @@
 + [https://github.com/w3c](https://github.com/w3c)
     + [https://www.w3.org](https://www.w3.org)
     + [https://github.com/speced](https://github.com/speced)
+    + [https://github.com/w3ctag](https://github.com/w3ctag)
 + WHATWG技术的标准 [https://github.com/whatwg](https://github.com/whatwg)
     + [https://spec.whatwg.org](https://spec.whatwg.org)
 + Web 孵化器 [https://github.com/WICG](https://github.com/WICG)
@@ -22,6 +23,8 @@
     + [https://www.ecma-international.org](https://www.ecma-international.org)
 + [https://github.com/JSCIG](https://github.com/JSCIG)
 + Promises/A+规范 [https://github.com/promises-aplus](https://github.com/promises-aplus)
+    + [https://github.com/domenic/promises-unwrapping](https://github.com/domenic/promises-unwrapping)
+    + [https://github.com/liubin/promises-book](https://github.com/liubin/promises-book)
     + [https://github.com/oldmanpushcart/jpromisor](https://github.com/oldmanpushcart/jpromisor)
 + Web 开发技术-MDN [https://developer.mozilla.org/zh-CN/docs/Web](https://developer.mozilla.org/zh-CN/docs/Web)
     + [https://github.com/roy-tian/learning-area](https://github.com/roy-tian/learning-area)
@@ -40,6 +43,7 @@
 + [https://github.com/NOtherDev/whatwebcando](https://github.com/NOtherDev/whatwebcando)
 + [https://github.com/webrtc](https://github.com/webrtc)
     + [https://webrtc.org.cn](https://webrtc.org.cn)
+    + [https://webrtc.googlesource.com](https://webrtc.googlesource.com)
     + [https://github.com/godotengine/webrtc-native](https://github.com/godotengine/webrtc-native)
     + [https://github.com/meetecho/janus-gateway](https://github.com/meetecho/janus-gateway)
 + [https://github.com/riju/WebCamera](https://github.com/riju/WebCamera)
@@ -48,6 +52,7 @@
 
 
 
+* [https://github.com/HTTPArchive](https://github.com/HTTPArchive)
 * 浏览器功能支持情况 [https://github.com/Fyrd/caniuse](https://github.com/Fyrd/caniuse)
 * 代码提示 [https://github.com/webhintio](https://github.com/webhintio)
 * Web组件 [https://github.com/webcomponents](https://github.com/webcomponents)

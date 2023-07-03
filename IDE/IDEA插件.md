@@ -347,6 +347,12 @@
 > [支持热更新 mybatis mapper.xml](https://wangji.blog.csdn.net/article/details/116615427)
 
 
+## HotSecondsIDEA
+
+> 热部署
+
+* [https://github.com/thanple/HotSecondsIDEA](https://github.com/thanple/HotSecondsIDEA)
+
 
 ## VisualVM Launcher
 

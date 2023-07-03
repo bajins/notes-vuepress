@@ -52,6 +52,9 @@
 * [https://github.com/hashicorp/vagrant](https://github.com/hashicorp/vagrant)
     * [https://app.vagrantup.com/boxes/search](https://app.vagrantup.com/boxes/search)
 * [https://github.com/brendangregg](https://github.com/brendangregg)
+* [https://github.com/elasticdog/salt-sandbox](https://github.com/elasticdog/salt-sandbox)
+* [https://github.com/hashicorp/vagrant](https://github.com/hashicorp/vagrant)
+* [https://github.com/saltstack](https://github.com/saltstack)
 * Linux开发Windows程序环境 [https://midipix.org](https://midipix.org)
     * [https://dev.midipix.org](https://dev.midipix.org)
     * [https://github.com/lalbornoz/midipix_build](https://github.com/lalbornoz/midipix_build)
@@ -66,6 +69,64 @@
 * [https://github.com/bazelbuild](https://github.com/bazelbuild)
 * 部署工具 [https://github.com/mina-deploy/mina](https://github.com/mina-deploy/mina)
 * [https://github.com/capistrano/capistrano](https://github.com/capistrano/capistrano)
+
+
+
+
+**语法和词法解析器**
+
+> AST(Abstract Syntax Tree)-抽象语法树：抽象地将源代码根据语法生成对应的树状结构。
+
++ [https://en.wikipedia.org/wiki/Lexical_analysis](https://en.wikipedia.org/wiki/Lexical_analysis)
+
+
+* JAVA [https://github.com/topics/javacc](https://github.com/topics/javacc)
+* [https://github.com/javacc/javacc](https://github.com/javacc/javacc)
+    * [https://github.com/javacc21/javacc21](https://github.com/javacc21/javacc21)
+    * [JavaCC官方入门指南-概述](https://www.cnblogs.com/suhaha/p/11733487.html)
+    * [https://github.com/ftomassetti/JavaCC2ANTLR](https://github.com/ftomassetti/JavaCC2ANTLR)
+* [https://github.com/Elzawawy/java-bytecode-generator](https://github.com/Elzawawy/java-bytecode-generator)
+* [https://github.com/javaparser](https://github.com/javaparser)
+* [https://github.com/antlr](https://github.com/antlr)
+    > [ANTLR(ANother Tool for Language Recognition ) 是一种语言工具](https://www.jianshu.com/p/dc1b68dfe2d7)
+* [https://github.com/jflex-de](https://github.com/jflex-de)
+* [https://sourceforge.net/projects/byaccj](https://sourceforge.net/projects/byaccj)
+* [https://www.cs.princeton.edu/~appel/modern/java](https://www.cs.princeton.edu/~appel/modern/java)
+* [https://github.com/SableCC/sablecc](https://github.com/SableCC/sablecc)
+    * [https://sourceforge.net/projects/sablecc](https://sourceforge.net/projects/sablecc)
+* [https://github.com/jhipster/prettier-java](https://github.com/jhipster/prettier-java)
+* C++ [https://github.com/westes/flex](https://github.com/westes/flex)
+* [https://github.com/mingodad/lalr-parser-test](https://github.com/mingodad/lalr-parser-test)
+* JS [https://github.com/estools/escodegen](https://github.com/estools/escodegen)
+* [https://github.com/acornjs](https://github.com/acornjs)
+* [https://github.com/foysavas/babelon](https://github.com/foysavas/babelon)
+* [https://github.com/millermedeiros/esformatter](https://github.com/millermedeiros/esformatter)
+* [https://github.com/Chevrotain/chevrotain](https://github.com/Chevrotain/chevrotain)
+* C# [https://github.com/CXuesong/MwParserFromScratch](https://github.com/CXuesong/MwParserFromScratch)
+* MLSQL [https://github.com/byzer-org](https://github.com/byzer-org)
+    * [https://www.mlsql.tech](https://www.mlsql.tech)
+    * [https://github.com/allwefantasy/mlsql-lang-vscode-plugin](https://github.com/allwefantasy/mlsql-lang-vscode-plugin)
+* AST浏览器 [https://github.com/fkling/astexplorer](https://github.com/fkling/astexplorer)
+    * [https://astexplorer.net](https://astexplorer.net)
+* [https://github.com/gen-codes/astql](https://github.com/gen-codes/astql)
+* [https://github.com/codemirror](https://github.com/codemirror)
+* [https://github.com/pbkit/pbkit](https://github.com/pbkit/pbkit)
+* 语法增量解析 [https://github.com/tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter)
+    * [https://tree-sitter.github.io/tree-sitter](https://tree-sitter.github.io/tree-sitter)
+
+
+- [Lex与YACC详解](https://zhuanlan.zhihu.com/p/143867739)
+- [https://github.com/search?q=yacc](https://github.com/search?q=yacc)
+- [https://github.com/topics/yacc](https://github.com/topics/yacc)
+- [Pisa-Proxy SQL 解析之 Lex & Yacc](https://zhuanlan.zhihu.com/p/538735834)
+
+
+> Lex（A Lexical Analyzer Generator）用于生成词法分析器，用于把输入分割成一个个有意义的词块（称为token）
+>
+> Yacc（Yet Another Compiler-Compiler）用于生成语法解析器，用于确定上述分隔好的token之间的关联
+>
+> Flex是由Vern Paxon实现的一个Lex，Bison则是GNU版本的YACC
+
 
 
 
@@ -224,6 +285,7 @@
 - [https://github.com/Siemienik/XToolset](https://github.com/Siemienik/XToolset)
 - 渐进式 [https://github.com/dojo](https://github.com/dojo)
     - [https://dojotoolkit.org](https://dojotoolkit.org)
+- [https://github.com/trpc/trpc](https://github.com/trpc/trpc)
 
 
 

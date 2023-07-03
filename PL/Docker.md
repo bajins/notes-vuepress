@@ -108,6 +108,7 @@
 
 
 - [systemd-nspawn以及container的学习](https://www.cnblogs.com/godcrying1202/archive/2004/01/13/14122532.html)
+- [https://github.com/eclipseo](https://github.com/eclipseo)
 - [https://github.com/coreos](https://github.com/coreos)
 - Linux Container [https://github.com/lxc/lxc](https://github.com/lxc/lxc)
     - [https://linuxcontainers.org](https://linuxcontainers.org)
@@ -119,7 +120,6 @@
     - [podman初试-和docker对比](https://blog.51cto.com/13447608/2448072)
 - [https://github.com/containerd/containerd](https://github.com/containerd/containerd)
 - [https://github.com/moby/moby](https://github.com/moby/moby)
-- [https://github.com/renderinc](https://github.com/renderinc)
 - [https://github.com/coreos](https://github.com/coreos)
 - [https://github.com/cri-o/cri-o](https://github.com/cri-o/cri-o)
 - [https://github.com/kata-containers](https://github.com/kata-containers)

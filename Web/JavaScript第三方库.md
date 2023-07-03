@@ -75,8 +75,13 @@
 * 控制导入行为 [https://github.com/WICG/import-maps](https://github.com/WICG/import-maps)
 * [https://github.com/humanwhocodes/module-importer](https://github.com/humanwhocodes/module-importer)
 * 进度 [https://github.com/search?q=progress](https://github.com/search?q=progress)
+* 代码格式化 [https://github.com/prettier/prettier](https://github.com/prettier/prettier)
+    * [https://www.prettier.cn](https://www.prettier.cn)
+* [https://github.com/beautify-web/js-beautify](https://github.com/beautify-web/js-beautify)
+* [https://github.com/brodybits/prettierx](https://github.com/brodybits/prettierx)
 * ESLint [ https://github.com/eslint]( https://github.com/eslint)
 * [https://github.com/humanwhocodes/config-array](https://github.com/humanwhocodes/config-array)
+* 测试 [https://github.com/jestjs](https://github.com/jestjs)
 
 
 
@@ -191,9 +196,7 @@
 * [https://github.com/proYang/outils](https://github.com/proYang/outils)
 * [https://github.com/jsuites/jsuites](https://github.com/jsuites/jsuites)
 * 工具库 [https://github.com/tnfe/bbo](https://github.com/tnfe/bbo)
-* 代码格式化 [https://github.com/prettier/prettier](https://github.com/prettier/prettier)
-* [https://github.com/beautify-web/js-beautify](https://github.com/beautify-web/js-beautify)
-* [https://github.com/brodybits/prettierx](https://github.com/brodybits/prettierx)
+* [https://github.com/blitz-js](https://github.com/blitz-js)
 * 转换HTML/XML [https://github.com/posthtml/posthtml](https://github.com/posthtml/posthtml)
 * 幻灯片 [https://github.com/webslides/webslides](https://github.com/webslides/webslides)
 * [https://github.com/gnab/remark](https://github.com/gnab/remark)

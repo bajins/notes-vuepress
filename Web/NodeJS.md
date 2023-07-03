@@ -18,7 +18,9 @@
 * [https://github.com/alsotang/node-lessons](https://github.com/alsotang/node-lessons)
 * [https://github.com/cnodejs](https://github.com/cnodejs)
 * [https://github.com/amplication](https://github.com/amplication)
+* [https://github.com/i5ting/asynchronous-flow-control](https://github.com/i5ting/asynchronous-flow-control)
 * 基准测试 [https://github.com/RafaelGSS/nodejs-bench-operations](https://github.com/RafaelGSS/nodejs-bench-operations)
+* 财务 [https://github.com/actualbudget/actual](https://github.com/actualbudget/actual)
 
 
 > `node`执行脚本时获取参数`process.argv`数组，下标`0`为执行程序的绝对路径，下标`1`为脚本的绝对路径，
@@ -69,6 +71,7 @@
 + [https://github.com/TanninOne](https://github.com/TanninOne)
 
 
+* [https://github.com/eggjs/egg](https://github.com/eggjs/egg)
 * glob [https://github.com/micromatch/extglob](https://github.com/micromatch/extglob)
 * [https://github.com/isaacs/minimatch](https://github.com/isaacs/minimatch)
 * [https://github.com/mrmlnc/fast-glob](https://github.com/mrmlnc/fast-glob)
@@ -87,12 +90,14 @@
 * [https://github.com/solzimer/nsyslog-parser](https://github.com/solzimer/nsyslog-parser)
 * 日志 [https://github.com/trentm/node-bunyan](https://github.com/trentm/node-bunyan)
 * [https://github.com/pillarjs/send](https://github.com/pillarjs/send)
+* [https://github.com/pinojs/pino](https://github.com/pinojs/pino)
 * 断言 [https://github.com/chaijs](https://github.com/chaijs)
 * Expect交互 [https://github.com/facebook/jest](https://github.com/facebook/jest)
 * [https://github.com/sinonjs](https://github.com/sinonjs)
 * 命令行 [https://github.com/tj/commander.js](https://github.com/tj/commander.js)
 * [https://github.com/SBoudrias/Inquirer.js](https://github.com/SBoudrias/Inquirer.js)
 * [https://github.com/oclif/oclif](https://github.com/oclif/oclif)
+* [https://github.com/yargs/yargs](https://github.com/yargs/yargs)
 * USB [https://github.com/schakko/node-usb](https://github.com/schakko/node-usb)
 * [https://github.com/node-usb](https://github.com/node-usb)
 * 字体管理 [https://github.com/foliojs/font-manager](https://github.com/foliojs/font-manager)
@@ -106,9 +111,16 @@
 * [https://github.com/senchalabs/connect](https://github.com/senchalabs/connect)
 * 压缩解压文件 [https://github.com/quentinrossetti/node-7z](https://github.com/quentinrossetti/node-7z)
 * WEB框架 [https://github.com/marblejs/marble](https://github.com/marblejs/marble)
+* [https://github.com/fastify/fastify](https://github.com/fastify/fastify)
 * 键值存储 [https://github.com/jaredwray/keyv](https://github.com/jaredwray/keyv)
 * [https://github.com/microlinkhq/keyvhq](https://github.com/microlinkhq/keyvhq)
 * [https://github.com/sindresorhus/quick-lru](https://github.com/sindresorhus/quick-lru)
+
+
+
+
+
+
 
 
 ## 管理NodeJS

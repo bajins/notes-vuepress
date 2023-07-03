@@ -473,6 +473,8 @@
     * [https://apkpure.com/cn/shareme-1-file-sharing-data-transfer-app/com.xiaomi.midrop](https://apkpure.com/cn/shareme-1-file-sharing-data-transfer-app/com.xiaomi.midrop)
 * ShareMi [https://apkpure.com/cn/sharemi-fast-transfer-file-fast-share-file/com.xlab.xdrop](https://apkpure.com/cn/sharemi-fast-transfer-file-fast-share-file/com.xlab.xdrop)
 * 文件闪传 [https://github.com/skyhacker2/skyhacker2.github.com/blob/master/blog/p/projects/index.md](https://github.com/skyhacker2/skyhacker2.github.com/blob/master/blog/p/projects/index.md)
+* [https://github.com/RobinLinus/snapdrop](https://github.com/RobinLinus/snapdrop)
+    * [https://snapdrop.net](https://snapdrop.net)
 * 沙盒塔防游戏 [https://github.com/Anuken/Mindustry](https://github.com/Anuken/Mindustry)
 * [https://github.com/PojavLauncherTeam](https://github.com/PojavLauncherTeam)
 * 1DM/IDM [https://www.apps2sd.info/idmp/faq](https://www.apps2sd.info/idmp/faq)
@@ -488,6 +490,10 @@
 * 阅读器 [https://github.com/koreader/koreader](https://github.com/koreader/koreader)
 * 启动器 [https://github.com/NeoApplications/Neo-Launcher](https://github.com/NeoApplications/Neo-Launcher)
 * 无限词典 [https://github.com/KnIfER/PlainDictionaryAPP](https://github.com/KnIfER/PlainDictionaryAPP)
+* 视频编辑 [https://m.ulikecam.com](https://m.ulikecam.com)
+* [https://videoshowapp.cn](https://videoshowapp.cn)
+* 图片编辑 [https://qingtu.kajicam.com](https://qingtu.kajicam.com)
+* [https://www.magicut.cn](https://www.magicut.cn)
 
 
 ### 证件照

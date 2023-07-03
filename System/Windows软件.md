@@ -377,6 +377,9 @@
 - [https://github.com/Xmader/musescore-downloader](https://github.com/Xmader/musescore-downloader)
 - [https://github.com/qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic)
 - 字幕 [https://github.com/foxofice/sub_share](https://github.com/foxofice/sub_share)
+- 视频剪辑 [https://www.capcut.cn](https://www.capcut.cn)
+- [https://www.kuaishou.com/kuaiying](https://www.kuaishou.com/kuaiying)
+- [https://www.topazlabs.com](https://www.topazlabs.com)
 
 
 * 电视盒子 [https://github.com/NAStool/nas-tools](https://github.com/NAStool/nas-tools)
@@ -450,6 +453,8 @@
 * 提高分辨率 [https://github.com/Djdefrag/QualityScaler](https://github.com/Djdefrag/QualityScaler)
 
 
+- [https://www.meitu.com](https://www.meitu.com)
+- [https://www.retouchpics.com](https://www.retouchpics.com)
 - [https://affinity.serif.com](https://affinity.serif.com)
 - [https://eagle.cool](https://eagle.cool)
 - [https://www.hellofont.cn](https://www.hellofont.cn)
@@ -495,6 +500,7 @@
 * [https://www.bandisoft.com/honeycam](https://www.bandisoft.com/honeycam)
 * GifCam [http://blog.bahraniapps.com](http://blog.bahraniapps.com)
 * [https://github.com/justinfrankel/licecap](https://github.com/justinfrankel/licecap)
+* [https://github.com/chenjing1294/GifCapture](https://github.com/chenjing1294/GifCapture)
 
 - Gif压缩 [https://gifcompressor.com/zh/](https://gifcompressor.com/zh/)
 

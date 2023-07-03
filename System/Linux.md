@@ -51,8 +51,9 @@
 * [https://github.com/AppImage](https://github.com/AppImage)
 * [https://github.com/flatpak/flatpak](https://github.com/flatpak/flatpak)
 * [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
-* snap应用商店 [https://snapcraft.io](https://snapcraft.io)
+    * snap应用商店 [https://snapcraft.io](https://snapcraft.io)
     * [https://docs.snapcraft.io/core/install](https://docs.snapcraft.io/core/install)
+    * [https://github.com/popey/unsnap](https://github.com/popey/unsnap)
 * 各个版本控件支持库 [https://pkgs.org](https://pkgs.org)
 * [https://github.com/makedeb](https://github.com/makedeb)
 * [https://mpr.hunterwittenborn.com](https://mpr.hunterwittenborn.com)
@@ -98,8 +99,10 @@
 - [https://busybox.net](https://busybox.net)
     - [https://github.com/meefik/busybox](https://github.com/meefik/busybox)
     - [https://busybox.jrummyapps.com](https://busybox.jrummyapps.com)
+    - [https://github.com/sabotage-linux](https://github.com/sabotage-linux)
 - [https://landley.net/toybox](https://landley.net/toybox)
     - [https://github.com/landley/toybox](https://github.com/landley/toybox)
+    - [https://github.com/glaucuslinux/glaucus](https://github.com/glaucuslinux/glaucus)
 
 
 * [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625)
@@ -120,6 +123,9 @@
 - [https://sourceforge.net/projects/pkgconfiglite](https://sourceforge.net/projects/pkgconfiglite)
 - [https://sourceforge.net/projects/lcms](https://sourceforge.net/projects/lcms)
 - [https://github.com/Xfennec/progress](https://github.com/Xfennec/progress)
+- [https://github.com/iputils/iputils](https://github.com/iputils/iputils)
+- [https://github.com/kjn/lbzip2](https://github.com/kjn/lbzip2)
+- [https://github.com/illiliti/libudev-zero](https://github.com/illiliti/libudev-zero)
 
 
 
