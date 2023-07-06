@@ -14,6 +14,11 @@
 - [https://github.com/topics/agent](https://github.com/topics/agent)
 
 
+* [JVM问题笔记](https://blog.csdn.net/jwentao01/article/details/114947477)
+
+
+
+
 **其他命令**
 
 - [抛开IDE，了解一下javac如何编译](https://imshuai.com/using-javac)
@@ -270,6 +275,10 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 | jmc.exe       | Java任务控制工具(Java Mission Control)，主要用于HotSpot JVM的生产时间监测、分析、诊断。从OracleJDK9开始，不再包含。 |
 
 
+* [Java线上CPU内存冲高问题排查步骤](https://blog.csdn.net/wx17343624830/article/details/129635988)
+* [java进程CPU占用高如何排查-案例二](https://blog.csdn.net/jwentao01/article/details/123982129)
+
+
 
 #### VisualVM
 
@@ -475,6 +484,8 @@ jps [ -help ]
 
 
 ```bash
+# https://www.jianshu.com/p/d5ed70f875d9
+# https://www.cnblogs.com/qmfsun/p/5601734.html
 # 每2秒输出一次内存情况，连续输出100次
 jstat -gcutil <pid> 2000 100
 jstat -gcutil $(pgrep java) 2000 100
@@ -653,9 +664,6 @@ jcmd <pid> GC.heap_dump /home/heap.hprof
 | jabswitch.exe      | Java Access Bridge Switch的简称，用于控制Java访问桥的开/关。Java访问桥是一种技术，让Java应用程序实现Accessibility API，以供Microsoft Windows系统的辅助技术访问。 |
 | javafxpackager.exe | JavaFX打包工具                                                                                                           |
 | jrunscript.exe | 运行脚本 |
-
-
-
 
 
 

@@ -45,6 +45,7 @@
 * [https://github.com/Buernia/Zhudou-Sans](https://github.com/Buernia/Zhudou-Sans)
 * [https://github.com/cmiscm/leonsans](https://github.com/cmiscm/leonsans)
 * [https://github.com/intel/intel-one-mono](https://github.com/intel/intel-one-mono)
+* [https://www.alibabafonts.com](https://www.alibabafonts.com)
 * 高辨识度字体 [https://brailleinstitute.org/freefont](https://brailleinstitute.org/freefont)
 * 字体编辑器 [https://github.com/fontforge/fontforge](https://github.com/fontforge/fontforge)
 * 软件开发套件管理器 [https://github.com/sdkman](https://github.com/sdkman)
@@ -308,6 +309,7 @@
 + [https://github.com/kettle11/tangle](https://github.com/kettle11/tangle)
 + [https://github.com/wasmerio](https://github.com/wasmerio)
 + [https://github.com/fermyon/spin](https://github.com/fermyon/spin)
++ [https://github.com/finos/perspective](https://github.com/finos/perspective)
 
 
 - Mozilla：可以用 Rust + WebAssembly 作为 JavaScript 替代

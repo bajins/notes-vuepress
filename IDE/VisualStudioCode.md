@@ -268,6 +268,7 @@
 ## VSCode插件
 
 + [https://github.com/eclipse/openvsx](https://github.com/eclipse/openvsx)
++ [https://github.com/EclipseFdn/open-vsx.org](https://github.com/EclipseFdn/open-vsx.org)
 
 
 * [https://github.com/redhat-developer](https://github.com/redhat-developer)

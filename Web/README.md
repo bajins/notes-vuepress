@@ -5,6 +5,8 @@
 
 ## Flag
 
++ [https://www.iso.org](https://www.iso.org)
++ [https://www.itu.int](https://www.itu.int)
 + RFC [https://www.rfc-editor.org](https://www.rfc-editor.org)
 + IETF [https://tools.ietf.org](https://tools.ietf.org)
 + IRTF [https://irtf.org](https://irtf.org)

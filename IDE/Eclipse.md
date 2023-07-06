@@ -6,7 +6,11 @@
 ## Flag
 
 + [https://github.com/eclipse/eclipse](https://github.com/eclipse/eclipse)
+   + [https://github.com/eclipse-platform](https://github.com/eclipse-platform)
    + [https://github.com/eclipse-jdt](https://github.com/eclipse-jdt)
+   + [https://github.com/eclipse-cdt](https://github.com/eclipse-cdt)
+   + [https://github.com/eclipse-pde](https://github.com/eclipse-pde)
+   + [https://projects.eclipse.org](https://projects.eclipse.org)
    + [https://www.eclipse.org/ide](https://www.eclipse.org/ide)
    + [https://www.eclipse.org/downloads/packages](https://www.eclipse.org/downloads/packages)
 + 设置 [https://github.com/vorburger/opendaylight-eclipse-setup](https://github.com/vorburger/opendaylight-eclipse-setup)

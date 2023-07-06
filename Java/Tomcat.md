@@ -220,6 +220,18 @@ vi webapps/host-manager/META-INF/context.xml
 * [tomcat启动时卡在100%（preparing launch delegate...）](https://bbs.csdn.net/topics/392322747)
 
 
+### 请考虑增加缓存的最大空间
+
+* [https://tomcat.apache.org/tomcat-9.0-doc/config/resources.html#Attributes](https://tomcat.apache.org/tomcat-9.0-doc/config/resources.html#Attributes)
+
+- 编辑`tomcat\conf\context.xml`或`webapp\META-INF\context.xml`文件
+
+```xml
+<!-- cachingAllowed是否缓存静态资源 -->
+<Resources cachingAllowed="true" cacheMaxSize="102400" cacheObjectMaxSize="1024"/>
+```
+
+
 
 ## CentOS安装Tomcat
 

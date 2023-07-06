@@ -125,6 +125,8 @@
 * [https://github.com/baomidou/mybatis-plus](https://github.com/baomidou/mybatis-plus)
     * [https://github.com/davidfantasy/mybatis-plus-generator-ui](https://github.com/davidfantasy/mybatis-plus-generator-ui)
     * [https://github.com/baomidou/awesome-mybatis-plus](https://github.com/baomidou/awesome-mybatis-plus)
+* [https://github.com/mybatis-mapper](https://github.com/mybatis-mapper)
+* [https://github.com/abel533/Mapper](https://github.com/abel533/Mapper)
 
 
 - [https://github.com/alexdyysp/MybatisHandBook](https://github.com/alexdyysp/MybatisHandBook)

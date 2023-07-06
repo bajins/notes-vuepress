@@ -1004,6 +1004,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/Atmosphere-NX/Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)
 * [https://github.com/switchbrew](https://github.com/switchbrew)
 * [https://github.com/skyline-emu/skyline](https://github.com/skyline-emu/skyline)
+* [https://github.com/StrongPC123/Far-Cry-1-Source-Full](https://github.com/StrongPC123/Far-Cry-1-Source-Full)
 
 
 + [http://www.downloadsoftware.ir](http://www.downloadsoftware.ir)
