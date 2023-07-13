@@ -294,7 +294,9 @@
 
 + [https://github.com/microsoft/FluidFramework](https://github.com/microsoft/FluidFramework)
 
-* 协作在线办公套件 [https://github.com/ONLYOFFICE](https://github.com/ONLYOFFICE)
+* 协作办公套件 [https://github.com/ONLYOFFICE](https://github.com/ONLYOFFICE)
+    * [https://personal.onlyoffice.com](https://personal.onlyoffice.com)
+    * [https://github.com/cryptpad](https://github.com/cryptpad)
 * [https://github.com/ether/etherpad-lite](https://github.com/ether/etherpad-lite)
 * [https://github.com/anytypeio](https://github.com/anytypeio)
 * 团队协作和文档 [https://www.notion.so](https://www.notion.so)

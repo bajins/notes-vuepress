@@ -157,6 +157,7 @@
 
 ## 第三方依赖
 
+* [https://github.com/Cysharp](https://github.com/Cysharp)
 * [https://github.com/iron-software](https://github.com/iron-software)
 * [https://github.com/aaronpowell](https://github.com/aaronpowell)
 * [https://github.com/MonkSoul](https://github.com/MonkSoul)
@@ -181,6 +182,7 @@
 * [https://github.com/restsharp/RestSharp](https://github.com/restsharp/RestSharp)
 * [https://github.com/hiram3512/HiSocket](https://github.com/hiram3512/HiSocket)
 * [https://github.com/kerryjiang/SuperSocket](https://github.com/kerryjiang/SuperSocket)
+* [https://github.com/SteamRE/SteamKit](https://github.com/SteamRE/SteamKit)
 * 工具 [https://github.com/bing-framework/Bing.NetCore](https://github.com/bing-framework/Bing.NetCore)
 * [https://github.com/Senparc/Senparc.CO2NET](https://github.com/Senparc/Senparc.CO2NET)
 * [https://github.com/icsharpcode](https://github.com/icsharpcode)

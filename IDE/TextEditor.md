@@ -41,6 +41,7 @@
 * [https://github.com/lite-xl/lite-xl](https://github.com/lite-xl/lite-xl)
 * [https://github.com/Alexey-T/CudaText](https://github.com/Alexey-T/CudaText)
 * [https://sourceforge.net/projects/bluefish](https://sourceforge.net/projects/bluefish)
+* [https://github.com/steven-tey/novel](https://github.com/steven-tey/novel)
 
 
 - [https://www.texmacs.org](https://www.texmacs.org)

@@ -8,6 +8,9 @@
 > 对象关系映射（Object Relational Mapping，简称ORM）是通过使用描述对象和数据库之间映射的元数据，
 > 将面向对象语言程序中的对象自动持久化到关系数据库中。
 
++ [https://github.com/topics/jdbc](https://github.com/topics/jdbc)
++ [https://github.com/topics/orm](https://github.com/topics/orm)
+
 
 * [https://sourceforge.net/projects/jpox](https://sourceforge.net/projects/jpox)
 * [Java，JDBC和MySQL对应数据类型](https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-reference-type-conversions.html)
@@ -35,12 +38,12 @@
     * [https://github.com/braisdom/ObjectiveSql](https://github.com/braisdom/ObjectiveSql)
 * [https://github.com/prestodb/presto](https://github.com/prestodb/presto)
 * [https://github.com/liweihua274/druid-sqlparser](https://github.com/liweihua274/druid-sqlparser)
-    * [https://github.com/alibaba/druid/wiki/Druid_SQL_AST#24-sqlselect--sqlselectquery](https://github.com/alibaba/druid/wiki/Druid_SQL_AST#24-sqlselect--sqlselectquery)
     * [https://github.com/alibaba/druid/wiki/SQL-Parser](https://github.com/alibaba/druid/wiki/SQL-Parser)
-    * [https://github.com/alibaba/druid/wiki/SQL_Parser_Demo_visitor](https://github.com/alibaba/druid/wiki/SQL_Parser_Demo_visitor)
+    * [Java工具篇之Druid SQL语法解析树](https://developer.aliyun.com/article/1000273)
 * [https://github.com/camertron/SQLParser](https://github.com/camertron/SQLParser)
 * [https://github.com/iByteCoding/M-SQLParser](https://github.com/iByteCoding/M-SQLParser)
 * [https://github.com/jparsec/jparsec](https://github.com/jparsec/jparsec)
+
 
 
 - CRUD生成器 [https://github.com/SanjinKurelic/MVCGenerator](https://github.com/SanjinKurelic/MVCGenerator)
@@ -55,14 +58,40 @@
 - 表结构文档生成 [https://github.com/pingfangushi/screw](https://github.com/pingfangushi/screw)
 - 数据库中间件 [https://github.com/apache/shardingsphere](https://github.com/apache/shardingsphere)
     - [https://github.com/apache/shardingsphere-elasticjob](https://github.com/apache/shardingsphere-elasticjob)
-- 连接池 [https://github.com/brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP)
+- 数据库动态监控 [https://github.com/p6spy/p6spy](https://github.com/p6spy/p6spy)
+- [https://github.com/jdbc-observations](https://github.com/jdbc-observations)
+
+
+
+**连接池**
+
++ [https://github.com/topics/connection-pool](https://github.com/topics/connection-pool)
+
+
+-  [https://github.com/brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP)
 - [https://github.com/alibaba/druid](https://github.com/alibaba/druid)
-    - [Java工具篇之Druid SQL语法解析树](https://developer.aliyun.com/article/1000273)
+    - [https://alphahinex.github.io/2022/05/15/use-druid-to-transform-sql](https://alphahinex.github.io/2022/05/15/use-druid-to-transform-sql)
+- [https://github.com/apache/tomcat/tree/main/modules/jdbc-pool](https://github.com/apache/tomcat/tree/main/modules/jdbc-pool)
+    - [https://tomcat.apache.org/tomcat-9.0-doc/jdbc-pool.html](https://tomcat.apache.org/tomcat-9.0-doc/jdbc-pool.html)
+- [https://github.com/apache/commons-dbcp](https://github.com/apache/commons-dbcp)
+- [https://github.com/apache/commons-pool](https://github.com/apache/commons-pool)
+- [https://github.com/agroal/agroal](https://github.com/agroal/agroal)
+- [https://github.com/vibur](https://github.com/vibur)
+- [https://github.com/Chris2018998/BeeCP](https://github.com/Chris2018998/BeeCP)
+- [https://sourceforge.net/projects/proxool](https://sourceforge.net/projects/proxool)
+- [https://github.com/swaldman/c3p0](https://github.com/swaldman/c3p0)
+    - [https://sourceforge.net/projects/c3p0](https://sourceforge.net/projects/c3p0)
+- [https://github.com/wwadge/bonecp](https://github.com/wwadge/bonecp)
+
+
+* [https://github.com/vladmihalcea/flexy-pool](https://github.com/vladmihalcea/flexy-pool)
 
 
 
 **Transaction**
 
+* [https://github.com/atomikos/transactions-essentials](https://github.com/atomikos/transactions-essentials)
+    * [Atomikos开源版本的事务管理器实现TransactionEssentials](https://blog.csdn.net/dengjili/article/details/88203047)
 * [https://github.com/codingapi/tx-lcn](https://github.com/codingapi/tx-lcn)
 * [https://github.com/seata/seata](https://github.com/seata/seata)
 * [https://github.com/changmingxie/tcc-transaction](https://github.com/changmingxie/tcc-transaction)
@@ -70,9 +99,12 @@
 * [https://github.com/liuyangming/ByteTCC](https://github.com/liuyangming/ByteTCC)
 * [https://github.com/wchswchs/Hulk](https://github.com/wchswchs/Hulk)
 * [https://github.com/atomikos/transactions-essentials](https://github.com/atomikos/transactions-essentials)
+* [https://github.com/bitronix/btm](https://github.com/bitronix/btm)
 
 
 
+- [分布式事务 XA 两段式事务 X/open CAP BASE 一次分清](https://zhuanlan.zhihu.com/p/516844092)
+- X/Open [https://publications.opengroup.org/s243](https://publications.opengroup.org/s243)
 
 
 ## JDBC驱动
@@ -236,6 +268,7 @@ for (List<String> partition : partitions) {
 * [https://github.com/hibernate](https://github.com/hibernate)
 * [https://github.com/vladmihalcea/hypersistence-optimizer](https://github.com/vladmihalcea/hypersistence-optimizer)
 * [https://github.com/jeecgboot/MiniDao](https://github.com/jeecgboot/MiniDao)
+* [https://github.com/AnghelLeonard/Hibernate-SpringBoot](https://github.com/AnghelLeonard/Hibernate-SpringBoot)
 
 
 ### 返回结果接收方式

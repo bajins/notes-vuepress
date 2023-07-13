@@ -114,7 +114,6 @@
 * 分布式网络框架 [https://github.com/Bwar/Nebula](https://github.com/Bwar/Nebula)
 * 分析调试测试器 [https://github.com/dfeneyrou/palanteer](https://github.com/dfeneyrou/palanteer)
 * 实时视频 [https://github.com/ossrs/srs](https://github.com/ossrs/srs)
-* [https://github.com/ossrs/srs](https://github.com/ossrs/srs)
 * 流媒体 [https://github.com/rgaufman/live555](https://github.com/rgaufman/live555)
 * [https://github.com/Kurento/kurento-media-server](https://github.com/Kurento/kurento-media-server)
 * 音频识别 [https://github.com/acoustid](https://github.com/acoustid)

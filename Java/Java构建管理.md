@@ -239,6 +239,7 @@
 * JFrog Bintray [https://github.com/bintray](https://github.com/bintray)
     * [https://bintray.com](https://bintray.com)
 * [https://packages.aliyun.com](https://packages.aliyun.com)
+* [https://www.codeyyy.com](https://www.codeyyy.com)
 
 
 

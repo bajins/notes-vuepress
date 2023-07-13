@@ -44,8 +44,14 @@ jstack -l PID | grep -A 10 $(printf "%x\n" TID)
 # nid：对应的linux操作系统下的TID，就是前面转化的16进制数字
 # tid：这个应该是jvm的jmm内存规范中的唯一地址定位
 
-jmap -dump:live,format=b,file=/tmp/heapdump.hprof PID
-/usr/lib/jvm/jdk-YOUR-VERSION/bin/jcmd PID GC.heap_dump /tmp/heapdump.hprof
+# 获取线程堆栈信息
+jstack [-l ] <pid> | tee -a jstack.log
+# 获取JVM的堆栈信息
+jmap -dump:live,format=b,file=/home/heapdump.hprof PID
+jcmd PID GC.heap_dump /home/heapdump.hprof
+
+# 加载解析dump文件，默认7000端口 http://127.0.0.1:7000
+jhat heapdump.hprof
 ```
 
 

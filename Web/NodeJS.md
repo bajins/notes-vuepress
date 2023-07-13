@@ -106,6 +106,7 @@
 * 特性开关 [https://github.com/Unleash/unleash](https://github.com/Unleash/unleash)
 * Excel [https://github.com/optilude/xlsx-template](https://github.com/optilude/xlsx-template)
 * [https://github.com/mgcrea/node-xlsx](https://github.com/mgcrea/node-xlsx)
+* [https://github.com/catamphetamine/read-excel-file](https://github.com/catamphetamine/read-excel-file)
 * 分布式ID [https://github.com/cloudyan/snowflake](https://github.com/cloudyan/snowflake)
 * REST [https://github.com/restify](https://github.com/restify)
 * [https://github.com/senchalabs/connect](https://github.com/senchalabs/connect)

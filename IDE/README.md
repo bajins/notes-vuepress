@@ -459,6 +459,7 @@
 + [https://github.com/topics/project](https://github.com/topics/project)
 + [https://github.com/topics/task](https://github.com/topics/task)
 + [https://github.com/topics/project-management](https://github.com/topics/project-management)
++ [https://github.com/topics/collaboration](https://github.com/topics/collaboration)
 
 
 * 禅道 [https://github.com/easysoft/zentaopms](https://github.com/easysoft/zentaopms)
@@ -477,6 +478,14 @@
     * [https://sourceforge.net/projects/testlink](https://sourceforge.net/projects/testlink)
 * [https://github.com/edavis10/redmine](https://github.com/edavis10/redmine)
 
+
+
+- 视频会议 [https://github.com/topics/conferencing](https://github.com/topics/conferencing)
+- [https://github.com/topics/video-conferencing](https://github.com/topics/video-conferencing)
+- [https://github.com/jitsi](https://github.com/jitsi)
+- [https://git.jami.net/savoirfairelinux/jami-project](https://git.jami.net/savoirfairelinux/jami-project)
+- [https://github.com/OpenVidu](https://github.com/OpenVidu)
+- [https://github.com/bigbluebutton/bigbluebutton](https://github.com/bigbluebutton/bigbluebutton)
 
 
 ## IDEA与Eclipse对应快捷键

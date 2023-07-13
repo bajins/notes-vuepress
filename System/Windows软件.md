@@ -98,6 +98,7 @@
     * [https://gitlab.matrix.org/matrix-org](https://gitlab.matrix.org/matrix-org)
 * [https://github.com/GetStream](https://github.com/GetStream)
 * [https://github.com/RocketChat](https://github.com/RocketChat)
+* [https://github.com/vector-im](https://github.com/vector-im)
 * [https://github.com/TrevorAttema/OTGMessenger](https://github.com/TrevorAttema/OTGMessenger)
 * [https://github.com/igniterealtime](https://github.com/igniterealtime)
 * [https://github.com/chatwoot](https://github.com/chatwoot)
@@ -120,6 +121,7 @@
 * [https://github.com/Minds](https://github.com/Minds)
 * [https://github.com/jeremyckahn/chitchatter](https://github.com/jeremyckahn/chitchatter)
 * [https://www.imdodo.com](https://www.imdodo.com)
+* [https://github.com/wireapp](https://github.com/wireapp)
 
 
 - [https://github.com/topics/curses](https://github.com/topics/curses)
@@ -127,7 +129,6 @@
 - [https://github.com/profanity-im/profanity](https://github.com/profanity-im/profanity)
 - [https://github.com/irssi/irssi](https://github.com/irssi/irssi)
 - [https://github.com/fonoster/fonoster](https://github.com/fonoster/fonoster)
-- 视频会议 [https://github.com/OpenVidu](https://github.com/OpenVidu)
 - Instagram [https://github.com/jigar-sable/instagram-mern](https://github.com/jigar-sable/instagram-mern)
 - 类twitter [https://github.com/bluesky-social/adx](https://github.com/bluesky-social/adx)
 - [https://github.com/lensterxyz/lenster](https://github.com/lensterxyz/lenster)
@@ -647,10 +648,10 @@
     * [https://otp.landian.vip](https://otp.landian.vip)
     * [https://www.coolhub.top](https://www.coolhub.top)
 
+
 + Office 卸载支持工具 [https://outlookdiagnostics.azureedge.net/sarasetup/SetupProd_OffScrub.exe](https://outlookdiagnostics.azureedge.net/sarasetup/SetupProd_OffScrub.exe)
 + [手动卸载 Office](https://support.microsoft.com/zh-cn/office/%E6%89%8B%E5%8A%A8%E5%8D%B8%E8%BD%BD-office-4e2904ea-25c8-4544-99ee-17696bb3027b)
 
-* 在线文档 [https://personal.onlyoffice.com](https://personal.onlyoffice.com)
 
 
 
