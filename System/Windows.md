@@ -178,6 +178,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [优启时代](http://www.uqi.me/catalog.asp?cate=1)
 * [https://github.com/ventoy/Ventoy](https://github.com/ventoy/Ventoy)
 * [http://wintool.cc](http://wintool.cc)
+* [https://github.com/ldpreload/BlackLotus](https://github.com/ldpreload/BlackLotus)
 
 
 

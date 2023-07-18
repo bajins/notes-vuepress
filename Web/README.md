@@ -69,6 +69,7 @@
 * [https://github.com/LiangJunrong/document-library](https://github.com/LiangJunrong/document-library)
 * 前端面试 [https://github.com/haizlin/fe-interview](https://github.com/haizlin/fe-interview)
 * [https://edu.aliyun.com/roadmap/frontend](https://edu.aliyun.com/roadmap/frontend)
+* 网络如何运作 [https://github.com/vasanthk/how-web-works](https://github.com/vasanthk/how-web-works)
 * [前端解决第三方图片防盗链的办法 - html referrer 访问图片资源403问题](https://github.com/biaochenxuying/blog/issues/31)
 * [Serverless——前端的3.0时代](https://zhuanlan.zhihu.com/p/84054729)
 
@@ -491,13 +492,36 @@ document.getElementsByTagName("a");// 返回文档中指定标签的元素
 **解决跨域问题的几种方式**
 
 - `JSONP` 凡是拥有`src`属性的标签都不受同源策略限制, 缺点是只支持GET请求
-- `CORS` 需要浏览器和后端同时支持, 后端设置以下请求头就可以开启
+- [`CORS` 需要浏览器和后端同时支持, 后端设置以下请求头就可以开启](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers#cors)
     - `Access-Control-Allow-Origin` 如果值为`*`表示允许任何域名的访问
     - `Access-Control-Allow-Methods` 表明服务器允许客户端使用的请求方法
     - `Access-Control-Allow-Headers` 表明服务器允许请求中携带的头部字段
     - `Access-Control-Max-Age` 表明响应的有效时间。在有效时间内，浏览器无须为同一请求再次发起预检请求
     - `Access-Control-Expose-Headers` 服务器允许浏览器访问的头信息白名单
     - `Access-Control-Allow-Credentials` 指定了当浏览器的credentials设置为true时是否允许浏览器读取response的内容
+    ```conf
+    # OPTIONS预检命令，预检命令通过时才发送请求
+    # 检查请求的类型是不是预检命令
+    if ($request_method = 'OPTIONS') {
+        #   表示允许这个域跨域调用（客户端发送请求的域名和端口）
+        #   $http_origin动态获取请求客户端请求的域   不用*的原因是带cookie的请求不支持*号
+        add_header 'Access-Control-Allow-Origin' $http_origin;
+        # Om nom nom cookies
+        add_header 'Access-Control-Allow-Credentials' 'true';
+        # 指定允许跨域的方法，*代表所有
+        add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS, PUT, DELETE';
+        # Custom headers and headers various browsers *should* be OK with but aren't
+        #add_header 'Access-Control-Allow-Headers' 'DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range';
+        add_header 'Access-Control-Allow-Headers' $http_access_control_request_headers;
+        add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range';
+        # Tell client that this pre-flight info is valid for 20 days
+        # 预检命令的缓存，如果不缓存每次会发送两次请求
+        add_header 'Access-Control-Max-Age' 1728000;
+        #add_header 'Content-Type' 'text/plain charset=UTF-8';
+        #add_header 'Content-Length' 0;
+        return 204;
+    }
+    ```
 - `postMessage` 可以实现跨文本档、多窗口（iframe间通信最完美的办法）、跨域消息传递
 - `websocket` HTML5的一个持久化的协议，它实现了浏览器与服务器的全双工通信，也是跨域的一种解决方案
 - `Nginx` 反向代理（其他服务器应用也可），一般用于生产环境

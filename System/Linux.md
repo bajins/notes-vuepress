@@ -107,6 +107,8 @@
 - [https://landley.net/toybox](https://landley.net/toybox)
     - [https://github.com/landley/toybox](https://github.com/landley/toybox)
     - [https://github.com/glaucuslinux/glaucus](https://github.com/glaucuslinux/glaucus)
+* [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
+* [https://github.com/anatol/booster](https://github.com/anatol/booster)
 
 
 * [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625)
@@ -130,6 +132,7 @@
 - [https://github.com/iputils/iputils](https://github.com/iputils/iputils)
 - [https://github.com/kjn/lbzip2](https://github.com/kjn/lbzip2)
 - [https://github.com/illiliti/libudev-zero](https://github.com/illiliti/libudev-zero)
+- 系统日志管理 [https://github.com/hat-open/hat-syslog](https://github.com/hat-open/hat-syslog)
 
 
 

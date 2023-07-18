@@ -19,6 +19,7 @@
     * [https://github.com/weolar/miniblink49](https://github.com/weolar/miniblink49)
     * [https://github.com/OutSystems/CefGlue](https://github.com/OutSystems/CefGlue)
 * [https://github.com/arnoldthebat/chromiumos](https://github.com/arnoldthebat/chromiumos)
+* 数据同步 [https://www.xbrowsersync.org](https://www.xbrowsersync.org)
 
 
 - [ERR_UNSAFE_PORT浏览器安全端口问题无法访问的解决方案](https://blog.csdn.net/kjcxmx/article/details/118122483)

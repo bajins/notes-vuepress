@@ -70,6 +70,8 @@
     * [https://docs.microsoft.com/zh-cn/dotnet/maui](https://docs.microsoft.com/zh-cn/dotnet/maui)
 * A/B [https://github.com/thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe)
 * USB [https://docs.microsoft.com/zh-cn/windows-hardware/drivers/usbcon](https://docs.microsoft.com/zh-cn/windows-hardware/drivers/usbcon)
+* 签名 [https://github.com/Jemmy1228/HookSigntool](https://github.com/Jemmy1228/HookSigntool)
+* [https://github.com/hzqst/FuckCertVerifyTimeValidity](https://github.com/hzqst/FuckCertVerifyTimeValidity)
 
 
 > https://www.v2ex.com/t/814028 https://v2ex.com/t/801891 [.net框架和Csharp 简介](http://web.suda.edu.cn/hejun/local_csharp/chapter1/csharp_1_1.html)
@@ -200,6 +202,8 @@
 * [https://github.com/HandyOrg/HandyControl](https://github.com/HandyOrg/HandyControl)
 * [https://github.com/AFei19911012/HandyControl](https://github.com/AFei19911012/HandyControl)
 * [https://github.com/1217950746/Arthas-WPFUI](https://github.com/1217950746/Arthas-WPFUI)
+* [https://github.com/canton7/Stylet](https://github.com/canton7/Stylet)
+* [https://github.com/ghost1372/HandyControls](https://github.com/ghost1372/HandyControls)
 * UI [https://github.com/Accelerider](https://github.com/Accelerider)
 * [https://github.com/MaterialDesignInXAML](https://github.com/MaterialDesignInXAML)
 * [https://github.com/ScottPlot/ScottPlot](https://github.com/ScottPlot/ScottPlot)
@@ -231,6 +235,7 @@
 * 软件更新 [https://github.com/NetSparkleUpdater/NetSparkle](https://github.com/NetSparkleUpdater/NetSparkle)
 * 图片处理 [https://github.com/imazen](https://github.com/imazen)
 * 数学计算 [https://github.com/codingseb/ExpressionEvaluator](https://github.com/codingseb/ExpressionEvaluator)
+* 日志 [https://github.com/serilog/serilog](https://github.com/serilog/serilog)
 
 
 - [https://github.com/yswenli](https://github.com/yswenli)

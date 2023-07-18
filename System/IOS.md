@@ -46,7 +46,8 @@
 - 解锁功能 [https://github.com/VirgilClyne/iRingo](https://github.com/VirgilClyne/iRingo)
 - MAC取证 [https://github.com/jipegit/OSXAuditor](https://github.com/jipegit/OSXAuditor)
 - IOS越狱 [https://github.com/palera1n](https://github.com/palera1n)
-
+- [https://github.com/lwouis/alt-tab-macos](https://github.com/lwouis/alt-tab-macos)
+- 用文字找照片 [https://github.com/mazzzystar/Queryable](https://github.com/mazzzystar/Queryable)
 
 
 ## IOS框架

@@ -13,6 +13,7 @@
 + [https://github.com/topics/qrcode](https://github.com/topics/qrcode)
 + [https://github.com/topics/qrcode-generator](https://github.com/topics/qrcode-generator)
 + 编程语言排行 [https://www.tiobe.com/tiobe-index](https://www.tiobe.com/tiobe-index)
++ 测试编程速度 [https://github.com/webdevcody/code-racer](https://github.com/webdevcody/code-racer)
 
 
 * [python、java、c、go执行速度对比](https://www.jianshu.com/p/d60eff598aa0)
@@ -33,18 +34,9 @@
 * 开发证书 [https://github.com/topics/certificates](https://github.com/topics/certificates)
 * [https://github.com/FiloSottile/mkcert](https://github.com/FiloSottile/mkcert)
 * 软件逆向工程框架 [https://github.com/NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
+* 编码转换器 [https://github.com/gchq/CyberChef](https://github.com/gchq/CyberChef)
+* [https://github.com/mattnotmax/cyberchef-recipes](https://github.com/mattnotmax/cyberchef-recipes)
 * 近似成员过滤器 [https://github.com/FastFilter](https://github.com/FastFilter)
-* 免费可商用字体 [https://github.com/wordshub/free-font](https://github.com/wordshub/free-font)
-* [https://github.com/lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai)
-* [https://github.com/jsntn/webfonts](https://github.com/jsntn/webfonts)
-* [https://github.com/JetBrains/JetBrainsMono](https://github.com/JetBrains/JetBrainsMono)
-* [https://github.com/ayaka14732/FanWunHak](https://github.com/ayaka14732/FanWunHak)
-* [https://github.com/Buernia/Zhudou-Sans](https://github.com/Buernia/Zhudou-Sans)
-* [https://github.com/cmiscm/leonsans](https://github.com/cmiscm/leonsans)
-* [https://github.com/intel/intel-one-mono](https://github.com/intel/intel-one-mono)
-* [https://www.alibabafonts.com](https://www.alibabafonts.com)
-* 高辨识度字体 [https://brailleinstitute.org/freefont](https://brailleinstitute.org/freefont)
-* 字体编辑器 [https://github.com/fontforge/fontforge](https://github.com/fontforge/fontforge)
 * 软件开发套件管理器 [https://github.com/sdkman](https://github.com/sdkman)
     * [https://sdkman.io](https://sdkman.io)
 * [https://github.com/hashicorp/vagrant](https://github.com/hashicorp/vagrant)
@@ -185,7 +177,12 @@
 * [https://github.com/ToolJet/ToolJet](https://github.com/ToolJet/ToolJet)
 * [https://github.com/eclipse/dirigible](https://github.com/eclipse/dirigible)
 * [https://github.com/1024-lab/smart-admin](https://github.com/1024-lab/smart-admin)
-
+* [https://sourceforge.net/projects/openxava](https://sourceforge.net/projects/openxava)
+* [https://github.com/skyvers/skyve](https://github.com/skyvers/skyve)
+* [https://github.com/saltcorn/saltcorn](https://github.com/saltcorn/saltcorn)
+* [https://gitlab.com/baserow/baserow](https://gitlab.com/baserow/baserow)
+* [https://github.com/Budibase/budibase](https://github.com/Budibase/budibase)
+* [https://github.com/appsmithorg/appsmith](https://github.com/appsmithorg/appsmith)
 
 
 

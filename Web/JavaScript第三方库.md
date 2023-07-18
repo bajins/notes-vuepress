@@ -82,6 +82,7 @@
 * ESLint [ https://github.com/eslint]( https://github.com/eslint)
 * [https://github.com/humanwhocodes/config-array](https://github.com/humanwhocodes/config-array)
 * 测试 [https://github.com/jestjs](https://github.com/jestjs)
+* 状态管理 [https://github.com/statelyai/xstate](https://github.com/statelyai/xstate)
 
 
 
@@ -413,6 +414,7 @@
 * [https://github.com/erincatto/box2d](https://github.com/erincatto/box2d)
 * [https://github.com/KilledByAPixel/LittleJS](https://github.com/KilledByAPixel/LittleJS)
 * [https://github.com/le5le-com](https://github.com/le5le-com)
+* [https://github.com/leaferjs](https://github.com/leaferjs)
 * 用于缩放图像 [https://github.com/francoischalifour/medium-zoom](https://github.com/francoischalifour/medium-zoom)
 * [https://github.com/pa7/heatmap.js](https://github.com/pa7/heatmap.js)
 * [https://github.com/konvajs/konva](https://github.com/konvajs/konva)

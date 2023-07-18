@@ -129,7 +129,6 @@
 
 
 - [https://github.com/hoochanlon](https://github.com/hoochanlon)
-- [https://github.com/easychen](https://github.com/easychen)
 
 
 

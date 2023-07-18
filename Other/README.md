@@ -45,6 +45,7 @@
 + [https://github.com/topics/push](https://github.com/topics/push)
 + [https://github.com/topics/mipush](https://github.com/topics/mipush)
 
+
 * [https://github.com/CaoMeiYouRen/push-all-in-one](https://github.com/CaoMeiYouRen/push-all-in-one)
 * [https://github.com/Finb/bark-server](https://github.com/Finb/bark-server)
 * [https://github.com/Finb/Bark](https://github.com/Finb/Bark)
@@ -59,6 +60,7 @@
 * [https://github.com/MiPushFramework/MiPushFramework](https://github.com/MiPushFramework/MiPushFramework)
 * [https://github.com/chinuno-usami/server_tan](https://github.com/chinuno-usami/server_tan)
 * [https://github.com/OneSignal](https://github.com/OneSignal)
+* [https://github.com/novuhq/novu](https://github.com/novuhq/novu)
 
 
 - [https://github.com/guanguans/notify](https://github.com/guanguans/notify)

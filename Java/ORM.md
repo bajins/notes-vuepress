@@ -27,6 +27,7 @@
 * [https://github.com/apache/openjpa](https://github.com/apache/openjpa)
 * [https://github.com/spring-projects/spring-data-jdbc](https://github.com/spring-projects/spring-data-jdbc)
 * [https://github.com/apache/commons-dbutils](https://github.com/apache/commons-dbutils)
+* [https://github.com/sagframe/sagacity-sqltoy](https://github.com/sagframe/sagacity-sqltoy)
 * 只读查询 [https://github.com/ejlchina/bean-searcher](https://github.com/ejlchina/bean-searcher)
 * [https://github.com/speedment](https://github.com/speedment)
 * [https://github.com/troyzhxu/bean-searcher](https://github.com/troyzhxu/bean-searcher)

@@ -91,6 +91,7 @@
 + [https://github.com/wercker](https://github.com/wercker)
 + [https://github.com/codemagic-ci-cd](https://github.com/codemagic-ci-cd)
 + [https://www.acme.com/software](https://www.acme.com/software)
++ [https://gitee.com/jianmu-dev](https://gitee.com/jianmu-dev)
 
 
 
@@ -270,6 +271,7 @@
 * Web的SQL编辑器 [https://github.com/sqlpad/sqlpad](https://github.com/sqlpad/sqlpad)
 * [https://github.com/OmniDB/OmniDB](https://github.com/OmniDB/OmniDB)
 * [https://github.com/webyog/sqlyog-community](https://github.com/webyog/sqlyog-community)
+* [https://github.com/directus/directus](https://github.com/directus/directus)
 * AIGC [https://github.com/chat2db/Chat2DB](https://github.com/chat2db/Chat2DB)
 
 - 数据库转excel [https://github.com/nocodb/nocodb](https://github.com/nocodb/nocodb)

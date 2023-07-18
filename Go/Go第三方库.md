@@ -132,8 +132,6 @@
 * 高性能游戏服务器框架 [https://github.com/lonng/nano](https://github.com/lonng/nano)
 * 对图像序列（例如延时拍摄）进行闪烁处理 [https://github.com/StruffelProductions/simple-deflicker](https://github.com/StruffelProductions/simple-deflicker)
 * 控制台进度条显示 [https://github.com/vardius/progress-go](https://github.com/vardius/progress-go)
-* 文件系统 [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
-* [https://github.com/anatol/booster](https://github.com/anatol/booster)
 * 文件监听 [http://github.com/fsnotify/fsnotify](http://github.com/fsnotify/fsnotify)
     * [https://github.com/romanoff/fsmonitor](https://github.com/romanoff/fsmonitor)
 * 计算文件的SHA256 [https://github.com/benbjohnson/hashfs](https://github.com/benbjohnson/hashfs)
