@@ -8,6 +8,7 @@
 > DBS（Data Base System，数据库系统）包括：DB（数据库）和DBMS（database management system，数据库管理系统）
 > ，Structured Query Language(SQL)
 
+
 * [https://github.com/pingcap/awesome-database-learning](https://github.com/pingcap/awesome-database-learning)
 * [https://github.com/dunwu/db-tutorial](https://github.com/dunwu/db-tutorial)
 * [https://docs.aws.amazon.com/zh_cn/redshift/latest/dg/cm_chap_SQLCommandRef.html](https://docs.aws.amazon.com/zh_cn/redshift/latest/dg/cm_chap_SQLCommandRef.html)
@@ -34,26 +35,45 @@
 
 **备份/迁移/同步/导入导出**
 
+> (EXTRACT，TRANSFORMATION，LOAD) ETL：Talend、Kettle、Informatica、Inaplex Inaport、Hevo、Xplenty、Skyvia、DBConvert Studio、Sprinkle
+
++ [https://github.com/topics/etl](https://github.com/topics/etl)
++ [https://github.com/topics/etl-pipeline](https://github.com/topics/etl-pipeline)
++ [https://github.com/topics/etl-framework](https://github.com/topics/etl-framework)
++ [https://github.com/topics/redshift](https://github.com/topics/redshift)
 + [https://github.com/topics/binlog](https://github.com/topics/binlog)
 + [https://github.com/topics/flashback](https://github.com/topics/flashback)
 + 迁移 [https://github.com/topics/migrations](https://github.com/topics/migrations)
 + [https://github.com/topics/migration](https://github.com/topics/migration)
++ [https://github.com/topics/db2](https://github.com/topics/db2)
++ [https://github.com/topics/database-migrations](https://github.com/topics/database-migrations)
++ [https://github.com/topics/data-migration](https://github.com/topics/data-migration)
 
-- 同步 [https://github.com/alibaba/DataX](https://github.com/alibaba/DataX)
+
+
+- [https://github.com/alibaba/DataX](https://github.com/alibaba/DataX)
+- [https://github.com/wgzhao/Addax](https://github.com/wgzhao/Addax)
 - [https://github.com/tapdata/tapdata](https://github.com/tapdata/tapdata)
-- 日志解析订阅和消费 [https://github.com/alibaba/canal](https://github.com/alibaba/canal)
-- [https://github.com/ucarGroup/DataLink](https://github.com/ucarGroup/DataLink)
-- 数据库迁移 [https://github.com/flyway/flyway](https://github.com/flyway/flyway)
+- [https://github.com/flyway/flyway](https://github.com/flyway/flyway)
 - [https://github.com/liquibase](https://github.com/liquibase)
-- [https://github.com/golang-migrate/migrate](https://github.com/golang-migrate/migrate)
+- [https://github.com/sqitchers/sqitch](https://github.com/sqitchers/sqitch)
+- [https://github.com/JumpMind/symmetric-ds](https://github.com/JumpMind/symmetric-ds)
+    - [https://sourceforge.net/projects/symmetricds](https://sourceforge.net/projects/symmetricds)
+    - [https://www.symmetricds.org](https://www.symmetricds.org)
 - [https://github.com/planetscale](https://github.com/planetscale)
-- [https://www.symmetricds.org](https://www.symmetricds.org)
+- [https://github.com/lecaillon/Evolve](https://github.com/lecaillon/Evolve)
+- [https://github.com/rdagumampan/yuniql](https://github.com/rdagumampan/yuniql)
+- [https://github.com/golang-migrate/migrate](https://github.com/golang-migrate/migrate)
+- [https://github.com/compose/transporter](https://github.com/compose/transporter)
+- DbVisualizer [https://www.dbvis.com](https://www.dbvis.com)
 - PostgreSQL迁移 [https://github.com/jackc/tern](https://github.com/jackc/tern)
 - [https://github.com/DTStack/flinkx](https://github.com/DTStack/flinkx)
 - [https://gitee.com/ghi/dbsyncer](https://gitee.com/ghi/dbsyncer)
 - [https://github.com/jeessy2/backup-x](https://github.com/jeessy2/backup-x)
 - [https://github.com/jeessy2/backup-db](https://github.com/jeessy2/backup-db)
 - [https://github.com/database-mesh](https://github.com/database-mesh)
+- 日志解析订阅和消费 [https://github.com/alibaba/canal](https://github.com/alibaba/canal)
+- [https://github.com/ucarGroup/DataLink](https://github.com/ucarGroup/DataLink)
 
 
 

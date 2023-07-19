@@ -11,6 +11,7 @@
 
 
 * Tomcat集群Redis会话管理器 [https://github.com/ran-jit/tomcat-cluster-redis-session-manager](https://github.com/ran-jit/tomcat-cluster-redis-session-manager)
+* [https://github.com/magro/memcached-session-manager](https://github.com/magro/memcached-session-manager)
 * Tomcat监控 [https://github.com/psi-probe](https://github.com/psi-probe)
 
 

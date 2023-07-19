@@ -226,6 +226,7 @@ volumes:
     * [https://gh.api.99988866.xyz](https://gh.api.99988866.xyz) 美国
     * [https://shrill-pond-3e81.hunsh.workers.dev](https://shrill-pond-3e81.hunsh.workers.dev)
     * [https://github.91chifun.workers.dev](https://github.91chifun.workers.dev)
+    * [https://hub.misakamoe.com](https://hub.misakamoe.com)
 * [https://d.serctl.com](https://d.serctl.com)
 * [https://github.xxyyzz.workers.dev](https://github.xxyyzz.workers.dev)
 * [https://gh.msx.workers.dev](https://gh.msx.workers.dev) 美国
@@ -233,7 +234,7 @@ volumes:
 * [https://gh.argv.cc](https://gh.argv.cc) 美国
 * [https://git.yumenaka.net](https://git.yumenaka.net) 美国
 * [https://download.fastgit.org](https://download.fastgit.org) 日本
-* [https://gitclone.com	中国浙江](https://gitclone.com) 中国浙江
+* [https://gitclone.com](https://gitclone.com) 中国浙江
 * [https://github.com.cnpmjs.org](https://github.com.cnpmjs.org) 新加坡
 
 

@@ -230,6 +230,7 @@
 * IOC [https://github.com/autofac/Autofac](https://github.com/autofac/Autofac)
 * 操作Word [https://github.com/xceedsoftware/DocX](https://github.com/xceedsoftware/DocX)
 * ORM [https://github.com/DapperLib/Dapper](https://github.com/DapperLib/Dapper)
+* [https://github.com/fluentmigrator/fluentmigrator](https://github.com/fluentmigrator/fluentmigrator)
 * 二维码 [https://github.com/micjahn/ZXing.Net](https://github.com/micjahn/ZXing.Net)
 * 捕获数据包 [https://github.com/dotpcap](https://github.com/dotpcap)
 * 软件更新 [https://github.com/NetSparkleUpdater/NetSparkle](https://github.com/NetSparkleUpdater/NetSparkle)

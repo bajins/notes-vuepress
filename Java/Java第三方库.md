@@ -283,7 +283,7 @@
 
 
 
-**对象/类/字节码/序列化/反序列化**
+**对象/类/字节码**
 
 + [https://gitlab.ow2.org/asm/asm](https://gitlab.ow2.org/asm/asm)
 + [https://asm.ow2.io](https://asm.ow2.io)
@@ -320,12 +320,114 @@
 * 反射工具包 [https://github.com/ronmamo/reflections](https://github.com/ronmamo/reflections)
 * [https://github.com/EsotericSoftware/reflectasm](https://github.com/EsotericSoftware/reflectasm)
 * [https://github.com/leangen/geantyref](https://github.com/leangen/geantyref)
+* [https://github.com/easymock/objenesis](https://github.com/easymock/objenesis)
 * 可缓存反射 [https://github.com/OxideWaveLength/Java-BetterReflection](https://github.com/OxideWaveLength/Java-BetterReflection)
 * 属性比对器 [https://github.com/dadiyang/equator](https://github.com/dadiyang/equator)
 * 对象比较属性和审核 [https://github.com/javers/javers](https://github.com/javers/javers)
-* ASM序列化 [https://github.com/EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo)
 * 堆内存处理 [https://github.com/airlift/slice](https://github.com/airlift/slice)
 
+
+
+**序列化/反序列化**
+
+- [几种Java常用序列化框架的选型与对比](https://www.cnblogs.com/cuiyf/p/14863091.html)
+- [https://stackoverflow.com/questions/447898/what-is-object-serialization](https://stackoverflow.com/questions/447898/what-is-object-serialization)
+
++ 反序列化备忘单 [https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet](https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet)
++ [https://github.com/NickstaDB/SerializationDumper](https://github.com/NickstaDB/SerializationDumper)
++ [https://github.com/frohoff/ysoserial](https://github.com/frohoff/ysoserial)
++ 序列化基准测试 [https://github.com/eishay/jvm-serializers](https://github.com/eishay/jvm-serializers)
+
+
+* 序列化为二进制 [https://github.com/EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo)
+* [https://github.com/RuedigerMoeller/fast-serialization](https://github.com/RuedigerMoeller/fast-serialization)
+* [https://github.com/linbin-eric/Fse](https://github.com/linbin-eric/Fse)
+* [https://github.com/protostuff](https://github.com/protostuff)
+    * [https://github.com/dhgate-group/protostuff](https://github.com/dhgate-group/protostuff)
+
+
+> XML文件的解析技术有DOM和SAX方式，JAXB（Java Architecture for XML Binding) 是一个业界的标准，是一项根据`XML Schema`产生Java类的技术
+
+* jaxp sun公司开发，直接存在于JDK中
+* [https://github.com/javolution](https://github.com/javolution)
+* [https://github.com/sparklemotion/nokogiri](https://github.com/sparklemotion/nokogiri)
+* [https://github.com/dom4j/dom4j](https://github.com/dom4j/dom4j)
+* [https://github.com/jhy/jsoup](https://github.com/jhy/jsoup)
+* [https://github.com/openjax](https://github.com/openjax)
+* [https://github.com/hunterhacker/jdom](https://github.com/hunterhacker/jdom)
+* [https://github.com/x-stream/xstream](https://github.com/x-stream/xstream)
+* 爬虫 [https://github.com/bonigarcia/webdrivermanager](https://github.com/bonigarcia/webdrivermanager)
+    * [推荐一些优秀的开源Java爬虫项目](https://zhuanlan.zhihu.com/p/24844250)
+* [https://github.com/Ardesco/Selenium-Maven-Template](https://github.com/Ardesco/Selenium-Maven-Template)
+* [https://github.com/fanyong920/jvppeteer](https://github.com/fanyong920/jvppeteer)
+* [https://github.com/kklisura/chrome-devtools-java-client](https://github.com/kklisura/chrome-devtools-java-client)
+* [https://github.com/assertthat/selenium-shutterbug](https://github.com/assertthat/selenium-shutterbug)
+* [https://github.com/code4craft/webmagic](https://github.com/code4craft/webmagic)
+* [https://github.com/internetarchive/heritrix3](https://github.com/internetarchive/heritrix3)
+* [https://github.com/yasserg/crawler4j](https://github.com/yasserg/crawler4j)
+* [https://github.com/apache/nutch](https://github.com/apache/nutch)
+* [https://github.com/xtuhcy/gecco](https://github.com/xtuhcy/gecco)
+* [https://gitee.com/ssssssss-team/spider-flow](https://gitee.com/ssssssss-team/spider-flow)
+* [https://github.com/CrawlScript/WebCollector](https://github.com/CrawlScript/WebCollector)
+* [https://gitee.com/l-weiwei/Spiderman2](https://gitee.com/l-weiwei/Spiderman2)
+* [https://gitee.com/flashsword20/webmagic](https://gitee.com/flashsword20/webmagic)
+* [https://github.com/zhegexiaohuozi/SeimiCrawler](https://github.com/zhegexiaohuozi/SeimiCrawler)
+
+
+
+> JSON-B，即Java API for JSON Binding。
+
++ [https://github.com/json-schema-org](https://github.com/json-schema-org)
++ JSON-P [https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
++ JSON库基准测试[https://github.com/fabienrenaud/java-json-benchmark](https://github.com/fabienrenaud/java-json-benchmark)
+
+
+* [https://github.com/cliftonlabs/json-simple](https://github.com/cliftonlabs/json-simple)
+    * [https://github.com/fangyidong/json-simple](https://github.com/fangyidong/json-simple)
+* [https://github.com/eclipse-ee4j/yasson](https://github.com/eclipse-ee4j/yasson)
+* [https://github.com/apache/johnzon](https://github.com/apache/johnzon)
+* [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
+* [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)
+* [https://github.com/kordamp/json-lib](https://github.com/kordamp/json-lib)
+    * [https://sourceforge.net/projects/json-lib](https://sourceforge.net/projects/json-lib)
+* [https://github.com/google/gson](https://github.com/google/gson)
+* [https://github.com/alibaba/fastjson](https://github.com/alibaba/fastjson)
+    * [https://github.com/alibaba/fastjson2](https://github.com/alibaba/fastjson2)
+* [https://github.com/everit-org/json-schema](https://github.com/everit-org/json-schema)
+* [https://github.com/java-json-tools/json-schema-validator](https://github.com/java-json-tools/json-schema-validator)
+* [https://github.com/square/moshi](https://github.com/square/moshi)
+* 使用XPath语法取值 [https://github.com/json-path/JsonPath](https://github.com/json-path/JsonPath)
+
+
+
+**word/excel**
+
+* Excel [https://github.com/apache/poi](https://github.com/apache/poi)
+    * [http://poi.apache.org/components/spreadsheet](http://poi.apache.org/components/spreadsheet)
+    * [导出百万级数据到Excel 文件](https://blog.csdn.net/gd6321374/article/details/90417202)
+    * [https://github.com/550690513/large-amount-data-export](https://github.com/550690513/large-amount-data-export)
+* [https://github.com/jxlsteam](https://github.com/jxlsteam)
+    * [https://sourceforge.net/projects/jxls](https://sourceforge.net/projects/jxls)
+* [https://github.com/alibaba/easyexcel](https://github.com/alibaba/easyexcel)
+* [https://github.com/plutext/docx4j](https://github.com/plutext/docx4j)
+* [https://gitee.com/lemur/easypoi](https://gitee.com/lemur/easypoi)
+* [https://github.com/dhatim/fastexcel](https://github.com/dhatim/fastexcel)
+* [https://sourceforge.net/projects/jexcelapi](https://sourceforge.net/projects/jexcelapi)
+* [https://github.com/aspose](https://github.com/aspose)
+* [https://github.com/liaochong/myexcel](https://github.com/liaochong/myexcel)
+* [https://github.com/monitorjbl/excel-streaming-reader](https://github.com/monitorjbl/excel-streaming-reader)
+* [https://github.com/jeecgboot/autopoi](https://github.com/jeecgboot/autopoi)
+* [https://github.com/subtlelib/poi](https://github.com/subtlelib/poi)
+* [https://github.com/Thomaswoood/simple-excel](https://github.com/Thomaswoood/simple-excel)
+* [https://github.com/ck-open/jumper](https://github.com/ck-open/jumper)
+* [https://github.com/crealytics/spark-excel](https://github.com/crealytics/spark-excel)
+* 输出word [https://github.com/Sayi/poi-tl](https://github.com/Sayi/poi-tl)
+* [https://github.com/MSPaintIDE/NewOCR](https://github.com/MSPaintIDE/NewOCR)
+* 转换 [https://github.com/documents4j/documents4j](https://github.com/documents4j/documents4j)
+* [https://sourceforge.net/projects/csvjdbc](https://sourceforge.net/projects/csvjdbc)
+* [https://github.com/opensagres](https://github.com/opensagres)
+* [https://github.com/jodconverter/jodconverter](https://github.com/jodconverter/jodconverter)
+* [https://github.com/Saxonica](https://github.com/Saxonica)
 
 
 
@@ -423,91 +525,6 @@
 * [https://github.com/spring-projects/spring-restdocs](https://github.com/spring-projects/spring-restdocs)
     * [https://github.com/ScaCap/spring-auto-restdocs](https://github.com/ScaCap/spring-auto-restdocs)
 * [https://github.com/YeDaxia/JApiDocs](https://github.com/YeDaxia/JApiDocs)
-
-
-
-**xml/json/word/excel**
-
-* Excel [https://github.com/apache/poi](https://github.com/apache/poi)
-    * [http://poi.apache.org/components/spreadsheet](http://poi.apache.org/components/spreadsheet)
-    * [导出百万级数据到Excel 文件](https://blog.csdn.net/gd6321374/article/details/90417202)
-    * [https://github.com/550690513/large-amount-data-export](https://github.com/550690513/large-amount-data-export)
-* [https://github.com/jxlsteam](https://github.com/jxlsteam)
-    * [https://sourceforge.net/projects/jxls](https://sourceforge.net/projects/jxls)
-* [https://github.com/alibaba/easyexcel](https://github.com/alibaba/easyexcel)
-* [https://github.com/plutext/docx4j](https://github.com/plutext/docx4j)
-* [https://gitee.com/lemur/easypoi](https://gitee.com/lemur/easypoi)
-* [https://github.com/dhatim/fastexcel](https://github.com/dhatim/fastexcel)
-* [https://sourceforge.net/projects/jexcelapi](https://sourceforge.net/projects/jexcelapi)
-* [https://github.com/aspose](https://github.com/aspose)
-* [https://github.com/liaochong/myexcel](https://github.com/liaochong/myexcel)
-* [https://github.com/monitorjbl/excel-streaming-reader](https://github.com/monitorjbl/excel-streaming-reader)
-* [https://github.com/jeecgboot/autopoi](https://github.com/jeecgboot/autopoi)
-* [https://github.com/subtlelib/poi](https://github.com/subtlelib/poi)
-* [https://github.com/Thomaswoood/simple-excel](https://github.com/Thomaswoood/simple-excel)
-* [https://github.com/ck-open/jumper](https://github.com/ck-open/jumper)
-* [https://github.com/crealytics/spark-excel](https://github.com/crealytics/spark-excel)
-* 输出word [https://github.com/Sayi/poi-tl](https://github.com/Sayi/poi-tl)
-* [https://github.com/MSPaintIDE/NewOCR](https://github.com/MSPaintIDE/NewOCR)
-* 转换 [https://github.com/documents4j/documents4j](https://github.com/documents4j/documents4j)
-* [https://sourceforge.net/projects/csvjdbc](https://sourceforge.net/projects/csvjdbc)
-* [https://github.com/opensagres](https://github.com/opensagres)
-* [https://github.com/jodconverter/jodconverter](https://github.com/jodconverter/jodconverter)
-* [https://github.com/Saxonica](https://github.com/Saxonica)
-
-
-> XML文件的解析技术有DOM和SAX方式，JAXB（Java Architecture for XML Binding) 是一个业界的标准，是一项根据`XML Schema`产生Java类的技术
-
-* jaxp sun公司开发，直接存在于JDK中
-* [https://github.com/sparklemotion/nokogiri](https://github.com/sparklemotion/nokogiri)
-* [https://github.com/dom4j/dom4j](https://github.com/dom4j/dom4j)
-* [https://github.com/jhy/jsoup](https://github.com/jhy/jsoup)
-* [https://github.com/openjax](https://github.com/openjax)
-* [https://github.com/hunterhacker/jdom](https://github.com/hunterhacker/jdom)
-* [https://github.com/x-stream/xstream](https://github.com/x-stream/xstream)
-* 爬虫 [https://github.com/bonigarcia/webdrivermanager](https://github.com/bonigarcia/webdrivermanager)
-    * [推荐一些优秀的开源Java爬虫项目](https://zhuanlan.zhihu.com/p/24844250)
-* [https://github.com/Ardesco/Selenium-Maven-Template](https://github.com/Ardesco/Selenium-Maven-Template)
-* [https://github.com/fanyong920/jvppeteer](https://github.com/fanyong920/jvppeteer)
-* [https://github.com/kklisura/chrome-devtools-java-client](https://github.com/kklisura/chrome-devtools-java-client)
-* [https://github.com/assertthat/selenium-shutterbug](https://github.com/assertthat/selenium-shutterbug)
-* [https://github.com/code4craft/webmagic](https://github.com/code4craft/webmagic)
-* [https://github.com/internetarchive/heritrix3](https://github.com/internetarchive/heritrix3)
-* [https://github.com/yasserg/crawler4j](https://github.com/yasserg/crawler4j)
-* [https://github.com/apache/nutch](https://github.com/apache/nutch)
-* [https://github.com/xtuhcy/gecco](https://github.com/xtuhcy/gecco)
-* [https://gitee.com/ssssssss-team/spider-flow](https://gitee.com/ssssssss-team/spider-flow)
-* [https://github.com/CrawlScript/WebCollector](https://github.com/CrawlScript/WebCollector)
-* [https://gitee.com/l-weiwei/Spiderman2](https://gitee.com/l-weiwei/Spiderman2)
-* [https://gitee.com/flashsword20/webmagic](https://gitee.com/flashsword20/webmagic)
-* [https://github.com/zhegexiaohuozi/SeimiCrawler](https://github.com/zhegexiaohuozi/SeimiCrawler)
-
-
-
-> JSON-B，即Java API for JSON Binding。
-
-+ [https://github.com/json-schema-org](https://github.com/json-schema-org)
-+ JSON-P [https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
-+ Java反序列化备忘单 [https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet](https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet)
-+ JSON库基准测试[https://github.com/fabienrenaud/java-json-benchmark](https://github.com/fabienrenaud/java-json-benchmark)
-+ [https://github.com/eishay/jvm-serializers](https://github.com/eishay/jvm-serializers)
-
-
-* [https://github.com/cliftonlabs/json-simple](https://github.com/cliftonlabs/json-simple)
-    * [https://github.com/fangyidong/json-simple](https://github.com/fangyidong/json-simple)
-* [https://github.com/eclipse-ee4j/yasson](https://github.com/eclipse-ee4j/yasson)
-* [https://github.com/apache/johnzon](https://github.com/apache/johnzon)
-* [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
-* [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)
-* [https://github.com/kordamp/json-lib](https://github.com/kordamp/json-lib)
-    * [https://sourceforge.net/projects/json-lib](https://sourceforge.net/projects/json-lib)
-* [https://github.com/google/gson](https://github.com/google/gson)
-* [https://github.com/alibaba/fastjson](https://github.com/alibaba/fastjson)
-* [https://github.com/alibaba/fastjson2](https://github.com/alibaba/fastjson2)
-* [https://github.com/everit-org/json-schema](https://github.com/everit-org/json-schema)
-* [https://github.com/java-json-tools/json-schema-validator](https://github.com/java-json-tools/json-schema-validator)
-* [https://github.com/square/moshi](https://github.com/square/moshi)
-* 使用XPath语法取值 [https://github.com/json-path/JsonPath](https://github.com/json-path/JsonPath)
 
 
 

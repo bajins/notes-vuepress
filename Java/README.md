@@ -33,7 +33,6 @@
 
 * [https://github.com/javaee-samples](https://github.com/javaee-samples)
 * 生成代码 [https://github.com/moshowgame/SpringBootCodeGenerator](https://github.com/moshowgame/SpringBootCodeGenerator)
-* 序列化基准测试 [https://github.com/eishay/jvm-serializers](https://github.com/eishay/jvm-serializers)
 * Java Web安全 [https://github.com/javaweb-sec/javaweb-sec](https://github.com/javaweb-sec/javaweb-sec)
 * [https://github.com/su18](https://github.com/su18)
 * [https://github.com/phith0n](https://github.com/phith0n)

@@ -164,6 +164,7 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 * 字节码查看器 [https://github.com/ingokegel/jclasslib](https://github.com/ingokegel/jclasslib)
 * [https://github.com/ClassViewer](https://github.com/ClassViewer)
 * [https://github.com/zxh0/classpy](https://github.com/zxh0/classpy)
+* [https://github.com/phith0n/zkar](https://github.com/phith0n/zkar)
 
 
 - 反混淆 [https://github.com/java-deobfuscator/deobfuscator](https://github.com/java-deobfuscator/deobfuscator)

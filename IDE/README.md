@@ -149,6 +149,7 @@
 * [https://github.com/Mohamed99ayman/Online-Compiler](https://github.com/Mohamed99ayman/Online-Compiler)
 * [https://code.xueersi.com/ide/code/1](https://code.xueersi.com/ide/code/1)
 * [https://github.com/ajaxorg/ace](https://github.com/ajaxorg/ace)
+* [https://github.com/asciinema](https://github.com/asciinema)
 
 - 数学计算器 [https://www.desmos.com](https://www.desmos.com)
 
@@ -253,7 +254,7 @@
 * [https://codeberg.org/sql-workbench/workbench](https://codeberg.org/sql-workbench/workbench)
     * [https://www.sql-workbench.eu](https://www.sql-workbench.eu)
 * [https://www.heidisql.com](https://www.heidisql.com)
-* DbVisualizer [https://www.dbvis.com](https://www.dbvis.com)
+* 关系数据浏览 [https://github.com/Wisser/Jailer](https://github.com/Wisser/Jailer)
 * [https://sourceforge.net/projects/squirrel-sql](https://sourceforge.net/projects/squirrel-sql)
     * [http://www.squirrelsql.org](http://www.squirrelsql.org)
 * [https://www.activedbsoft.com](https://www.activedbsoft.com)
@@ -309,7 +310,6 @@
 * [https://www.toadworld.com/products/toad-data-modeler](https://www.toadworld.com/products/toad-data-modeler)
 * [https://dbschema.com](https://dbschema.com)
 * [https://www.vertabelo.com](https://www.vertabelo.com)
-* [https://www.dbvis.com](https://www.dbvis.com)
 * [https://www.dbdesigner.net](https://www.dbdesigner.net)
 * [https://modelright.com](https://modelright.com)
 * [https://sourceforge.net/projects/mogwai](https://sourceforge.net/projects/mogwai)
