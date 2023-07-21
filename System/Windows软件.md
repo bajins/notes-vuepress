@@ -1033,6 +1033,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
     - [红队攻防之PC端微信个人信息与聊天记录取证](https://mp.weixin.qq.com/s/4DbXOS5jDjJzM2PN0Mp2JA)
     - [电子取证之PC版微信数据库解密](https://mp.weixin.qq.com/s/kliyiZvdgXo4U71YowFlUg)
     - `.\SharpWxDump.exe | Select-String -Pattern 'WeChatKey:' | %{$_ -Replace(".*: ", "")} | %{python .\de.py -k $_ -d .\MSG2.db}`
+    - [https://github.com/SpenserCai/GoWxDump](https://github.com/SpenserCai/GoWxDump)
+    - [https://github.com/f13T2ach/WxMsgDump](https://github.com/f13T2ach/WxMsgDump)
 - [https://github.com/Ormicron/Sharp-dumpkey](https://github.com/Ormicron/Sharp-dumpkey)
 - [https://github.com/L-HeliantHuS/GetWeChatDBPassword](https://github.com/L-HeliantHuS/GetWeChatDBPassword)
 - [https://github.com/test1213145/wechat-export](https://github.com/test1213145/wechat-export)

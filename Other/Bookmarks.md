@@ -222,6 +222,7 @@
 * [https://flaviocopes.com](https://flaviocopes.com)
 * [https://topbook.cc](https://topbook.cc)
     * [https://www.zhihu.com/org/topbook](https://www.zhihu.com/org/topbook)
+* 翻译视频 [https://crashcourse.club](https://crashcourse.club)
 
 
 **CSDN取消屏蔽**

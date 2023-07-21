@@ -77,6 +77,9 @@
 > https://www.v2ex.com/t/814028 https://v2ex.com/t/801891 [.net框架和Csharp 简介](http://web.suda.edu.cn/hejun/local_csharp/chapter1/csharp_1_1.html)
 
 
+- [System.Data.DbType与各类数据库的数据类型的映射关系](https://www.cnblogs.com/springsnow/p/10075463.html)
+
+
 
 ## IDE
 

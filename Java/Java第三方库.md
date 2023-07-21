@@ -340,6 +340,8 @@
 
 
 * 序列化为二进制 [https://github.com/EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo)
+    * [https://github.com/magro/kryo-serializers](https://github.com/magro/kryo-serializers)
+    * [https://github.com/altoo-ag/akka-kryo-serialization](https://github.com/altoo-ag/akka-kryo-serialization)
 * [https://github.com/RuedigerMoeller/fast-serialization](https://github.com/RuedigerMoeller/fast-serialization)
 * [https://github.com/linbin-eric/Fse](https://github.com/linbin-eric/Fse)
 * [https://github.com/protostuff](https://github.com/protostuff)
