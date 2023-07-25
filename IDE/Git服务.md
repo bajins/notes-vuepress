@@ -172,6 +172,7 @@ volumes:
 - [https://github.com/search?o=desc&q=stars%3A%3E100000&s=stars](https://github.com/search?o=desc&q=stars%3A%3E100000&s=stars)
 - GitHub存档 [https://www.gharchive.org](https://www.gharchive.org)
 - [https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
+- [https://github.com/cfour-hi/gitstars](https://github.com/cfour-hi/gitstars)
 - 开源项目刊栏: [https://github.com/521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub)
 - GitHub每周趋势 [https://github.com/SolaTyolo/gold_github_trending](https://github.com/SolaTyolo/gold_github_trending)
 - GitHub每天趋势 [https://github.com/yangwenmai/github-trending-backup](https://github.com/yangwenmai/github-trending-backup)

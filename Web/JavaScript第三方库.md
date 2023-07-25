@@ -7,8 +7,6 @@
 
 + [https://github.com/topics/front-end](https://github.com/topics/front-end)
 + [https://github.com/topics/component](https://github.com/topics/component)
-+ [NPM依赖：类库工具](https://www.jianshu.com/p/2a127cfba1cf)
-+ [前端开发中用到的npm工具](https://segmentfault.com/a/1190000021865006)
 + [https://github.com/component](https://github.com/component)
 + [https://github.com/mobxjs](https://github.com/mobxjs)
 + [https://github.com/CreateJS](https://github.com/CreateJS)
@@ -19,6 +17,12 @@
 + [https://github.com/DevExpress](https://github.com/DevExpress)
 + [https://github.com/XboxYan](https://github.com/XboxYan)
 + [https://github.com/yued-fe](https://github.com/yued-fe)
+
+
+* [NPM依赖：类库工具](https://www.jianshu.com/p/2a127cfba1cf)
+* [前端开发中用到的npm工具](https://segmentfault.com/a/1190000021865006)
+* [https://www.yuque.com/zaotalk/team/st](https://www.yuque.com/zaotalk/team/st)
+
 
 
 - 转换编译器 [https://github.com/babel](https://github.com/babel)

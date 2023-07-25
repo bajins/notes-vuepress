@@ -122,6 +122,7 @@
 * [https://github.com/jeremyckahn/chitchatter](https://github.com/jeremyckahn/chitchatter)
 * [https://www.imdodo.com](https://www.imdodo.com)
 * [https://github.com/wireapp](https://github.com/wireapp)
+* [https://github.com/vasanthv/talk](https://github.com/vasanthv/talk)
 
 
 - [https://github.com/topics/curses](https://github.com/topics/curses)

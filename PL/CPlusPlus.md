@@ -18,6 +18,7 @@
     * [https://learn.microsoft.com/zh-cn/cpp](https://learn.microsoft.com/zh-cn/cpp)
 * [https://www.stroustrup.com](https://www.stroustrup.com)
 * [https://www.boost.org](https://www.boost.org)
+* 哈希函数质量和速度测试 [https://github.com/rurban/smhasher](https://github.com/rurban/smhasher)
 * C++那些事 [https://github.com/Light-City/CPlusPlusThings](https://github.com/Light-City/CPlusPlusThings)
 * [https://isocpp.org](https://isocpp.org)
 * [https://www.reddit.com/r/cpp](https://www.reddit.com/r/cpp)

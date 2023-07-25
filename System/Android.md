@@ -44,6 +44,7 @@
 + [https://github.com/simple-android-framework](https://github.com/simple-android-framework)
 + [归档 | Homurax's Blog](https://blog.homurax.com/archives)
 + [Android：JNI 与 NDK到底是什么？](https://blog.csdn.net/carson_ho/article/details/73250163)
++ [https://github.com/LoseNine/AndroidSystem](https://github.com/LoseNine/AndroidSystem)
 + 进程保活 [https://github.com/peakerlu/appkeepLive](https://github.com/peakerlu/appkeepLive)
 + [「安卓果酱」存档](https://cn.apkjam.com/archives)
 + adb和fastboot [https://github.com/fast-geek/Android-Tool](https://github.com/fast-geek/Android-Tool)
@@ -55,6 +56,7 @@
 + [解决雷电/夜神/逍遥模拟器系统5.1以上无法抓包的问题](https://www.52pojie.cn/thread-1505329-1-1.html)
 + PC显示和控制 [https://github.com/Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)
     + [https://github.com/Tomotoes/scrcpy-gui](https://github.com/Tomotoes/scrcpy-gui)
+
 
 
 
@@ -101,6 +103,7 @@
     * [https://github.com/GravityBox/GravityBox](https://github.com/GravityBox/GravityBox)
     * [https://forum.xda-developers.com/f/xposed-general.3094](https://forum.xda-developers.com/f/xposed-general.3094)
 * [https://github.com/topjohnwu/Magisk](https://github.com/topjohnwu/Magisk)
+    * [https://github.com/Zackptg5/MMT-Extended](https://github.com/Zackptg5/MMT-Extended)
 * EdXposed [https://github.com/ElderDrivers](https://github.com/ElderDrivers)
 * Riru [https://github.com/RikkaApps](https://github.com/RikkaApps)
 * 梦境框架 [https://github.com/canyie/Dreamland](https://github.com/canyie/Dreamland)
@@ -414,6 +417,7 @@
 * [https://dlandroid.com](https://dlandroid.com)
 * [https://cn.apkshub.com](https://cn.apkshub.com)
 * [https://apk-dl.com](https://apk-dl.com)
+* [https://cn.uptodown.com/android](https://cn.uptodown.com/android)
 
 
 + [https://apkpure.com/cn/developer/Microsoft%20Corporation](https://apkpure.com/cn/developer/Microsoft%20Corporation)

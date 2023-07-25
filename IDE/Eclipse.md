@@ -426,6 +426,7 @@
 - [https://github.com/eclipse/wildwebdeveloper](https://github.com/eclipse/wildwebdeveloper)
    - Mars之后版本不再集成支持JavaScript需要安装插件，参考[Tern Eclipse IDE](https://marketplace.eclipse.org/content/tern-eclipse-ide)
    - [https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0](https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0)
+- [https://github.com/eclipse-mylyn](https://github.com/eclipse-mylyn)
 - SVN [https://www.eclipse.org/subversive](https://www.eclipse.org/subversive)
    - [https://polarion.plm.automation.siemens.com/products/svn](https://polarion.plm.automation.siemens.com/products/svn)
 - [https://github.com/subclipse](https://github.com/subclipse)

@@ -32,18 +32,6 @@
 * [https://github.com/speedment](https://github.com/speedment)
 * [https://github.com/troyzhxu/bean-searcher](https://github.com/troyzhxu/bean-searcher)
 * [https://github.com/MyCATApache/Mycat2](https://github.com/MyCATApache/Mycat2)
-* SQL解析和验证器 [https://github.com/apache/calcite](https://github.com/apache/calcite)
-    * [https://github.com/ieugen/calcite-clj](https://github.com/ieugen/calcite-clj)
-    * [如何实现一个SQL解析器](https://zhuanlan.zhihu.com/p/575800132)
-* [https://github.com/JSQLParser/JSqlParser](https://github.com/JSQLParser/JSqlParser)
-    * [https://github.com/braisdom/ObjectiveSql](https://github.com/braisdom/ObjectiveSql)
-* [https://github.com/prestodb/presto](https://github.com/prestodb/presto)
-* [https://github.com/liweihua274/druid-sqlparser](https://github.com/liweihua274/druid-sqlparser)
-    * [https://github.com/alibaba/druid/wiki/SQL-Parser](https://github.com/alibaba/druid/wiki/SQL-Parser)
-    * [Java工具篇之Druid SQL语法解析树](https://developer.aliyun.com/article/1000273)
-* [https://github.com/camertron/SQLParser](https://github.com/camertron/SQLParser)
-* [https://github.com/iByteCoding/M-SQLParser](https://github.com/iByteCoding/M-SQLParser)
-* [https://github.com/jparsec/jparsec](https://github.com/jparsec/jparsec)
 
 
 
@@ -61,6 +49,29 @@
     - [https://github.com/apache/shardingsphere-elasticjob](https://github.com/apache/shardingsphere-elasticjob)
 - 数据库动态监控 [https://github.com/p6spy/p6spy](https://github.com/p6spy/p6spy)
 - [https://github.com/jdbc-observations](https://github.com/jdbc-observations)
+
+
+
+**SQL解析和验证器**
+
++ [https://github.com/search?q=sql+parser](https://github.com/search?q=sql+parser)
+
+
+* [https://github.com/apache/calcite](https://github.com/apache/calcite)
+    * [https://github.com/ieugen/calcite-clj](https://github.com/ieugen/calcite-clj)
+    * [如何实现一个SQL解析器](https://zhuanlan.zhihu.com/p/575800132)
+* [https://github.com/JSQLParser/JSqlParser](https://github.com/JSQLParser/JSqlParser)
+    * [https://sourceforge.net/projects/jsqlparser](https://sourceforge.net/projects/jsqlparser)
+    * [https://github.com/braisdom/ObjectiveSql](https://github.com/braisdom/ObjectiveSql)
+* [https://github.com/prestodb/presto](https://github.com/prestodb/presto)
+* [https://github.com/liweihua274/druid-sqlparser](https://github.com/liweihua274/druid-sqlparser)
+    * [https://github.com/alibaba/druid/wiki/SQL-Parser](https://github.com/alibaba/druid/wiki/SQL-Parser)
+    * [Java工具篇之Druid SQL语法解析树](https://developer.aliyun.com/article/1000273)
+* [https://github.com/camertron/SQLParser](https://github.com/camertron/SQLParser)
+* [https://github.com/iByteCoding/M-SQLParser](https://github.com/iByteCoding/M-SQLParser)
+* [https://github.com/jparsec/jparsec](https://github.com/jparsec/jparsec)
+* [https://github.com/manasesjesus/fdbs-and-sql-parser](https://github.com/manasesjesus/fdbs-and-sql-parser)
+
 
 
 

@@ -147,6 +147,7 @@
 * [https://github.com/refraction-networking/utls](https://github.com/refraction-networking/utls)
 * 十进制数 [https://github.com/shopspring/decimal](https://github.com/shopspring/decimal)
 * 布隆过滤器 [https://github.com/bits-and-blooms](https://github.com/bits-and-blooms)
+* [https://github.com/tylertreat/BoomFilters](https://github.com/tylertreat/BoomFilters)
 * excel [https://github.com/360EntSecGroup-Skylar/excelize](https://github.com/360EntSecGroup-Skylar/excelize)
 * [https://github.com/qax-os/excelize](https://github.com/qax-os/excelize)
 * [https://github.com/shakinm/xlsReader](https://github.com/shakinm/xlsReader)

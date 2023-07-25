@@ -38,6 +38,8 @@
 - [https://github.com/d0c-s4vage/lookatme](https://github.com/d0c-s4vage/lookatme)
 - [https://github.com/chubin](https://github.com/chubin)
 - AI加持 [https://github.com/emcf/engshell](https://github.com/emcf/engshell)
+- 历史记录 [https://github.com/ddworken/hishtory](https://github.com/ddworken/hishtory)
+- kill [https://github.com/jkfran/killport](https://github.com/jkfran/killport)
 
 
 * [https://github.com/google/zx](https://github.com/google/zx)
