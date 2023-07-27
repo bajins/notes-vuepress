@@ -49,6 +49,7 @@
 * [https://github.com/cycleuser/ThinkPython-CN](https://github.com/cycleuser/ThinkPython-CN)
 
 
+* [FantixKing 的个人主页-掘金](https://juejin.cn/user/4372110956833581/posts)
 + [Python中的GIL机制详解](https://zhuanlan.zhihu.com/p/353555643)
 + [深挖python上下文管理——类的__init__、__enter__、__exit__、__del__在with下的表现](https://blog.csdn.net/qq_27884799/article/details/101535569)
 + [深入理解 Python 中的上下文管理器](https://www.cnblogs.com/wongbingming/p/10519553.html)

@@ -9,6 +9,7 @@
 + [https://github.com/jobbole/awesome-python-cn](https://github.com/jobbole/awesome-python-cn)
 + [https://github.com/vinta/awesome-python](https://github.com/vinta/awesome-python)
 + [Python 常用的标准库以及第三方库有哪些？](https://www.zhihu.com/question/20501628/answers/updated)
++ [https://github.com/MagicStack](https://github.com/MagicStack)
 
 
 * 应用监控 [https://github.com/SolarEdgeTech/pyctuator](https://github.com/SolarEdgeTech/pyctuator)
@@ -60,6 +61,7 @@
     * [https://apscheduler.readthedocs.io](https://apscheduler.readthedocs.io)
 * ORM [https://github.com/sqlalchemy/sqlalchemy](https://github.com/sqlalchemy/sqlalchemy)
 * [https://github.com/ponyorm/pony](https://github.com/ponyorm/pony)
+* [https://github.com/python-gino](https://github.com/python-gino)
 * 打印输出为表格 [https://github.com/jazzband/prettytable](https://github.com/jazzband/prettytable)
 * [https://github.com/astanin/python-tabulate](https://github.com/astanin/python-tabulate)
 * SQLModel模型 [https://github.com/tiangolo/sqlmodel](https://github.com/tiangolo/sqlmodel)

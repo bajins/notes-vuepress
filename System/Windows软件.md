@@ -349,6 +349,7 @@
 + [https://github.com/topics/iptv](https://github.com/topics/iptv)
 + [https://github.com/topics/m3u](https://github.com/topics/m3u)
 + [https://github.com/iptv-org](https://github.com/iptv-org)
++ [https://github.com/fanmingming/live](https://github.com/fanmingming/live)
 + [https://github.com/Free-TV](https://github.com/Free-TV)
 
 
@@ -449,7 +450,9 @@
 * [https://gitlab.gnome.org/GNOME/gimp](https://gitlab.gnome.org/GNOME/gimp)
     * [https://www.gimp.org](https://www.gimp.org)
 * 3D创作 [https://www.blender.org](https://www.blender.org)
-* Icon矢量图 [https://inkscape.org/zh-hans](https://inkscape.org/zh-hans)
+* Icon矢量图 [https://github.com/inkscape/inkscape](https://github.com/inkscape/inkscape)
+    * [https://gitlab.com/inkscape/inkscape](https://gitlab.com/inkscape/inkscape)
+    * [https://inkscape.org/zh-hans](https://inkscape.org/zh-hans)
 * [https://icofx.ro](https://icofx.ro)
 * Axialis-IconWorkshop 官网 [https://www.axialis.com/download/#software](https://www.axialis.com/download/#software)
 * [https://github.com/darktable-org/darktable](https://github.com/darktable-org/darktable)
@@ -1011,6 +1014,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/switchbrew](https://github.com/switchbrew)
 * [https://github.com/skyline-emu/skyline](https://github.com/skyline-emu/skyline)
 * [https://github.com/StrongPC123/Far-Cry-1-Source-Full](https://github.com/StrongPC123/Far-Cry-1-Source-Full)
+* [https://github.com/jamespetts/simutrans-extended](https://github.com/jamespetts/simutrans-extended)
 
 
 + [http://www.downloadsoftware.ir](http://www.downloadsoftware.ir)

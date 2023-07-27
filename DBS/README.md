@@ -233,6 +233,7 @@
 
 * 图数据库 [https://github.com/neo4j/neo4j](https://github.com/neo4j/neo4j)
 * [https://github.com/distributedio/titan](https://github.com/distributedio/titan)
+* [https://github.com/edgedb](https://github.com/edgedb)
 * 分布式图形数据库 [https://github.com/JanusGraph](https://github.com/JanusGraph)
 * [https://github.com/JanusGraph/janusgraph](https://github.com/JanusGraph/janusgraph)
 * [https://github.com/sones/sones](https://github.com/sones/sones)

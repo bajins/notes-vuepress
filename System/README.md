@@ -84,6 +84,7 @@
 - [https://gitlab.archlinux.org/archlinux](https://gitlab.archlinux.org/archlinux)
     - [https://github.com/NakanoMikuOrg/arch-guide](https://github.com/NakanoMikuOrg/arch-guide)
     - 安装 [https://github.com/ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus)
+    - [https://github.com/ArchLinux-x32](https://github.com/ArchLinux-x32)
 - [https://github.com/NetBSD](https://github.com/NetBSD)
 - [https://github.com/freebsd](https://github.com/freebsd)
 - [https://github.com/linuxdeepin](https://github.com/linuxdeepin)
@@ -163,6 +164,7 @@
 * [https://github.com/lucas-clemente/quic-go](https://github.com/lucas-clemente/quic-go)
 * [https://github.com/letsencrypt/challtestsrv](https://github.com/letsencrypt/challtestsrv)
 * [https://github.com/rthalley/dnspython](https://github.com/rthalley/dnspython)
+* [https://github.com/bluejekyll/trust-dns](https://github.com/bluejekyll/trust-dns)
 
 
 

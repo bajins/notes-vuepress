@@ -95,6 +95,7 @@
 + [https://github.com/tremor-rs](https://github.com/tremor-rs)
 + [https://github.com/RustRobotics](https://github.com/RustRobotics)
 + [https://github.com/RustVis](https://github.com/RustVis)
++ [https://github.com/async-rs](https://github.com/async-rs)
 
 
 - [https://github.com/Amanieu/parking_lot](https://github.com/Amanieu/parking_lot)

@@ -59,6 +59,7 @@
 * [https://github.com/bazelbuild](https://github.com/bazelbuild)
 * 部署工具 [https://github.com/mina-deploy/mina](https://github.com/mina-deploy/mina)
 * [https://github.com/capistrano/capistrano](https://github.com/capistrano/capistrano)
+* 在线手册API [https://www.matools.com/api](https://www.matools.com/api)
 
 
 
@@ -278,6 +279,7 @@
 - 数据验证 [https://github.com/nvie/decoders](https://github.com/nvie/decoders)
 - 操作docx文件 [https://github.com/dolanmiu/docx](https://github.com/dolanmiu/docx)
 - [https://github.com/Siemienik/XToolset](https://github.com/Siemienik/XToolset)
+- [https://github.com/handsontable/hyperformula](https://github.com/handsontable/hyperformula)
 - 渐进式 [https://github.com/dojo](https://github.com/dojo)
     - [https://dojotoolkit.org](https://dojotoolkit.org)
 - [https://github.com/trpc/trpc](https://github.com/trpc/trpc)
@@ -360,6 +362,7 @@
 * [https://github.com/mkilling/lambda.lua](https://github.com/mkilling/lambda.lua)
 * [https://github.com/lua-stdlib](https://github.com/lua-stdlib)
 * [https://github.com/torch/threads](https://github.com/torch/threads)
+* 装饰房子 [https://github.com/Project-Sloth/ps-housing](https://github.com/Project-Sloth/ps-housing)
 
 
 - 超集 [https://github.com/Roblox/luau](https://github.com/Roblox/luau)

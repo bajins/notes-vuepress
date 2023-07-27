@@ -348,7 +348,7 @@
     * [https://github.com/dhgate-group/protostuff](https://github.com/dhgate-group/protostuff)
 
 
-> XML文件的解析技术有DOM和SAX方式，JAXB（Java Architecture for XML Binding) 是一个业界的标准，是一项根据`XML Schema`产生Java类的技术
+> XML文件的解析技术有：DOM（文档对象模型）、SAX（简单API for XML）、JAXB（Java Architecture for XML Binding) 是一个业界的标准，是一项根据`XML Schema`产生Java类的技术
 
 * jaxp sun公司开发，直接存在于JDK中
 * [https://github.com/javolution](https://github.com/javolution)
