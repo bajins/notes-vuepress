@@ -9,7 +9,8 @@
 * IP库 [https://db-ip.com](https://db-ip.com)
 * 谷歌全球IP地址库 [https://github.com/justjavac/Google-IPs](https://github.com/justjavac/Google-IPs)
 * 教育目的网络钓鱼工具 [https://github.com/htr-tech/zphisher](https://github.com/htr-tech/zphisher)
-
+* 公共手册 [https://handbook.opencoreventures.com](https://handbook.opencoreventures.com)
+* [https://gitlab.com/gitlab-com/content-sites/handbook](https://gitlab.com/gitlab-com/content-sites/handbook)
 
 
 

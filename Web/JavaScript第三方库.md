@@ -87,6 +87,8 @@
 * [https://github.com/humanwhocodes/config-array](https://github.com/humanwhocodes/config-array)
 * 测试 [https://github.com/jestjs](https://github.com/jestjs)
 * 状态管理 [https://github.com/statelyai/xstate](https://github.com/statelyai/xstate)
+* iFrame宽高自适应 [https://github.com/davidjbradshaw/iframe-resizer](https://github.com/davidjbradshaw/iframe-resizer)
+* 运行C/C++代码 [https://github.com/luoxuhai/clang.js](https://github.com/luoxuhai/clang.js)
 
 
 
@@ -214,6 +216,7 @@
 * 数据库可视化 [https://github.com/lana-k/sqliteviz](https://github.com/lana-k/sqliteviz)
 * JSON校验 [https://github.com/ozkxr/match-json](https://github.com/ozkxr/match-json)
 * 二维码 [https://github.com/ciaochaos/qrbtf](https://github.com/ciaochaos/qrbtf)
+* 随机数 [https://github.com/ChrisCavs/aimless.js](https://github.com/ChrisCavs/aimless.js)
 
 
 - 数字精度 [https://github.com/topics/arbitrary-precision](https://github.com/topics/arbitrary-precision)
@@ -283,30 +286,7 @@
 
 
 
-**文档**
-
-* excel [https://github.com/exceljs/exceljs](https://github.com/exceljs/exceljs)
-* [https://github.com/dtjohnson/xlsx-populate](https://github.com/dtjohnson/xlsx-populate)
-    * [前端生成导出Excel](https://lushunjian.gitee.io/2020/08/08/qian-duan-sheng-cheng-dao-chu-excel)
-    * [https://www.npmjs.com/package/xlsx-populate#style-reference](https://www.npmjs.com/package/xlsx-populate#style-reference)
-* [https://github.com/SheetJS](https://github.com/SheetJS)
-    * [https://github.com/protobi/js-xlsx](https://github.com/protobi/js-xlsx)
-    * [https://github.com/Ctrl-Ling/XLSX-Style-Utils](https://github.com/Ctrl-Ling/XLSX-Style-Utils)
-    * [https://github.com/skyrocks/x-xlsx-style](https://github.com/skyrocks/x-xlsx-style)
-    * [https://github.com/duhaohao/xlsx-styleable](https://github.com/duhaohao/xlsx-styleable)
-    * [https://github.com/LuisEnMarroquin/json-as-xlsx](https://github.com/LuisEnMarroquin/json-as-xlsx)
-    * [使用js-xlsx简单实现一个导入excel](https://juejin.cn/post/6844903902718984205)
-    * [操作excel的js工具库 - XLSX的使用方法](https://segmentfault.com/a/1190000041778721)
-* [https://github.com/d-band/better-xlsx](https://github.com/d-band/better-xlsx)
-* [https://github.com/dream-num/Luckysheet](https://github.com/dream-num/Luckysheet)
-* [https://github.com/dream-num/Luckyexcel](https://github.com/dream-num/Luckyexcel)
-* [https://github.com/ag-grid/ag-grid](https://github.com/ag-grid/ag-grid)
-* TableExport [https://github.com/clarketm/TableExport](https://github.com/clarketm/TableExport)
-* tableExport.jquery.plugin [https://github.com/hhurz/tableExport.jquery.plugin](https://github.com/hhurz/tableExport.jquery.plugin)
-* excellentexport [https://github.com/jmaister/excellentexport](https://github.com/jmaister/excellentexport)
-* [https://github.com/jspreadsheet](https://github.com/jspreadsheet)
-* docx-preview [https://github.com/VolodymyrBaydalka/docxjs](https://github.com/VolodymyrBaydalka/docxjs)
-
+**文件**
 
 - 压缩或编码解码库 [https://github.com/photopea](https://github.com/photopea)
 - 压缩 [https://github.com/photopea](https://github.com/nodeca/pako)

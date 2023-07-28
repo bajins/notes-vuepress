@@ -402,37 +402,6 @@
 
 
 
-**word/excel**
-
-* Excel [https://github.com/apache/poi](https://github.com/apache/poi)
-    * [http://poi.apache.org/components/spreadsheet](http://poi.apache.org/components/spreadsheet)
-    * [导出百万级数据到Excel 文件](https://blog.csdn.net/gd6321374/article/details/90417202)
-    * [https://github.com/550690513/large-amount-data-export](https://github.com/550690513/large-amount-data-export)
-* [https://github.com/jxlsteam](https://github.com/jxlsteam)
-    * [https://sourceforge.net/projects/jxls](https://sourceforge.net/projects/jxls)
-* [https://github.com/alibaba/easyexcel](https://github.com/alibaba/easyexcel)
-* [https://github.com/plutext/docx4j](https://github.com/plutext/docx4j)
-* [https://gitee.com/lemur/easypoi](https://gitee.com/lemur/easypoi)
-* [https://github.com/dhatim/fastexcel](https://github.com/dhatim/fastexcel)
-* [https://sourceforge.net/projects/jexcelapi](https://sourceforge.net/projects/jexcelapi)
-* [https://github.com/aspose](https://github.com/aspose)
-* [https://github.com/liaochong/myexcel](https://github.com/liaochong/myexcel)
-* [https://github.com/monitorjbl/excel-streaming-reader](https://github.com/monitorjbl/excel-streaming-reader)
-* [https://github.com/jeecgboot/autopoi](https://github.com/jeecgboot/autopoi)
-* [https://github.com/subtlelib/poi](https://github.com/subtlelib/poi)
-* [https://github.com/Thomaswoood/simple-excel](https://github.com/Thomaswoood/simple-excel)
-* [https://github.com/ck-open/jumper](https://github.com/ck-open/jumper)
-* [https://github.com/crealytics/spark-excel](https://github.com/crealytics/spark-excel)
-* 输出word [https://github.com/Sayi/poi-tl](https://github.com/Sayi/poi-tl)
-* [https://github.com/MSPaintIDE/NewOCR](https://github.com/MSPaintIDE/NewOCR)
-* 转换 [https://github.com/documents4j/documents4j](https://github.com/documents4j/documents4j)
-* [https://sourceforge.net/projects/csvjdbc](https://sourceforge.net/projects/csvjdbc)
-* [https://github.com/opensagres](https://github.com/opensagres)
-* [https://github.com/jodconverter/jodconverter](https://github.com/jodconverter/jodconverter)
-* [https://github.com/Saxonica](https://github.com/Saxonica)
-
-
-
 **数据拷贝**
 
 + [https://github.com/topics/mapping](https://github.com/topics/mapping)

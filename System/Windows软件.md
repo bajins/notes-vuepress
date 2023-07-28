@@ -650,6 +650,7 @@
 
 * [https://github.com/apache/openoffice](https://github.com/apache/openoffice)
 * [https://zh-cn.libreoffice.org](https://zh-cn.libreoffice.org)
+* [https://calligra.org](https://calligra.org)
 * [https://github.com/YerongAI/Office-Tool](https://github.com/YerongAI/Office-Tool)
     * [https://otp.landian.vip](https://otp.landian.vip)
     * [https://www.coolhub.top](https://www.coolhub.top)
