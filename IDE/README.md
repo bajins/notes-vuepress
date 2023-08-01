@@ -67,6 +67,7 @@
 - [https://github.com/kiteco](https://github.com/kiteco)
 - [https://github.com/atlassian](https://github.com/atlassian)
 - [https://github.com/salesforce/CodeTF](https://github.com/salesforce/CodeTF)
+- [https://github.com/THUDM/CodeGeeX2](https://github.com/THUDM/CodeGeeX2)
 - DevOps指南 [https://github.com/Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide)
 - [https://github.com/annfelix/DEVOPS-WORLD](https://github.com/annfelix/DEVOPS-WORLD)
 

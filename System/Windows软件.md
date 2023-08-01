@@ -696,7 +696,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 ## 开始菜单
 
-* [https://github.com/coddec/Classic-Shell](https://github.com/coddec/Classic-Shell)
+* [https://github.com/Open-Shell/Open-Shell-Menu](https://github.com/Open-Shell/Open-Shell-Menu)
+    * [https://github.com/coddec/Classic-Shell](https://github.com/coddec/Classic-Shell)
 * [https://github.com/microsoft/PowerToys](https://github.com/microsoft/PowerToys)
 
 **StartIsBack++**

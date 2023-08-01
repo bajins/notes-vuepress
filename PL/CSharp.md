@@ -254,4 +254,5 @@
 - 微信SDK [https://github.com/fudiwei/DotNetCore.SKIT.FlurlHttpClient.Wechat](https://github.com/fudiwei/DotNetCore.SKIT.FlurlHttpClient.Wechat)
 - [https://github.com/ldqk/Masuit.MyBlogs](https://github.com/ldqk/Masuit.MyBlogs)
 - 节奏游戏 [https://github.com/ppy/osu](https://github.com/ppy/osu)
+- 显示语法树 [https://github.com/KirillOsenkov/RoslynQuoter](https://github.com/KirillOsenkov/RoslynQuoter)
 

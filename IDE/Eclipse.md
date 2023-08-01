@@ -27,11 +27,17 @@
 * [Eclipse的设置、调优、使用（解决启动卡顿等问题）](https://lexsaints.blog.csdn.net/article/details/80661377)
 
 
-- `Windows` -> `Preference` -> `General` -> `Workspace`
-   -> `Build`
-      - `Save automatically before manual build` 在手动构建之前自动保存
-      - `Build automatically`（同`Project`菜单下的按钮） 自动编译
-   -> `Refresh using native hooks or polling` 自动刷新文件
+- `Windows` -> `Preference` -> `General`
+   - `Workspace`
+      - `Build`
+         - `Save automatically before manual build` 在手动构建之前自动保存
+         - `Build automatically`（同`Project`菜单下的按钮） 自动编译
+      - `Refresh using native hooks or polling` 自动刷新文件
+      - `Refresh on access` 访问时刷新
+      - `Always close unrelated projects without prompt` 总是在不提示的情况下关闭不相关项目
+      - `Workspace save interval (in minutes)` 工作区保存时间间隔(分钟)
+   - `Startup and Shutdown`
+      - `Refresh workspace on startup` 启动时刷新工作空间
 
 
 > 创建`Dynamic Web Project`项目结构静态资源目录为：`WebContent`/`WebRoot`，idea创建的为`web`

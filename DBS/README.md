@@ -174,6 +174,8 @@
 * [https://github.com/apple/foundationdb](https://github.com/apple/foundationdb)
 * [https://github.com/yongman/tidis](https://github.com/yongman/tidis)
 * [https://github.com/zhihu/zetta](https://github.com/zhihu/zetta)
+* [https://github.com/ledisdb](https://github.com/ledisdb)
+* [https://github.com/reborndb](https://github.com/reborndb)
 * 面向列的数据库 [https://github.com/ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)
 * Go嵌入式(S)QL数据库 [https://gitlab.com/cznic/ql](https://gitlab.com/cznic/ql)
 * [https://github.com/oceanbase/oceanbase](https://github.com/oceanbase/oceanbase)

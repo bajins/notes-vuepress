@@ -119,6 +119,7 @@
 * 本地化菜单 [https://github.com/zam1024t/LocalizedMenu](https://github.com/zam1024t/LocalizedMenu)
 * 侧边栏右键增强 [https://github.com/52fisher/SideBarEnhancements](https://github.com/52fisher/SideBarEnhancements)
 * 插件管理器 [https://github.com/wbond/package_control](https://github.com/wbond/package_control)
+* [https://github.com/bathos/Ecmascript-Sublime](https://github.com/bathos/Ecmascript-Sublime)
 
 - ChineseLocalizations
 

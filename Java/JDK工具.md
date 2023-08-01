@@ -10,7 +10,6 @@
 + [https://github.com/openjdk/jmc](https://github.com/openjdk/jmc)
 
 - [https://github.com/topics/diagnosis](https://github.com/topics/diagnosis)
-- [https://github.com/topics/trace](https://github.com/topics/trace)
 - [https://github.com/topics/agent](https://github.com/topics/agent)
 
 

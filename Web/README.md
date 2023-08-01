@@ -20,10 +20,17 @@
 + Web 孵化器 [https://github.com/WICG](https://github.com/WICG)
 + [https://github.com/immersive-web](https://github.com/immersive-web)
 + 规范测试套件 [https://github.com/web-platform-tests](https://github.com/web-platform-tests)
-+ Ecma国际技术委员会 [https://github.com/tc39](https://github.com/tc39)
++ Ecma国际技术委员会 [https://github.com/search?q=ECMAScript](https://github.com/search?q=ECMAScript)
++ [https://www.ecma-international.org/technical-committees](https://www.ecma-international.org/technical-committees)
+    + [https://github.com/tc39](https://github.com/tc39)
     + [https://github.com/75team/tc39](https://github.com/75team/tc39)
-    + [https://www.ecma-international.org](https://www.ecma-international.org)
+    + [https://github.com/TimothyGu/es-howto](https://github.com/TimothyGu/es-howto)
+    + [https://github.com/sirisian/ecmascript-types](https://github.com/sirisian/ecmascript-types)
+    + [https://github.com/es-meta/esmeta](https://github.com/es-meta/esmeta)
+    + [https://github.com/ecmascript-daily](https://github.com/ecmascript-daily)
 + [https://github.com/JSCIG](https://github.com/JSCIG)
++ [https://github.com/es-shims](https://github.com/es-shims)
+    + [https://github.com/paulmillr/es6-shim](https://github.com/paulmillr/es6-shim)
 + Promises/A+规范 [https://github.com/promises-aplus](https://github.com/promises-aplus)
     + [https://github.com/domenic/promises-unwrapping](https://github.com/domenic/promises-unwrapping)
     + [https://github.com/liubin/promises-book](https://github.com/liubin/promises-book)
@@ -77,6 +84,7 @@
 
 
 + 前端精读周刊 [https://github.com/ascoders/weekly](https://github.com/ascoders/weekly)
++ [https://github.com/huangyangquang/Latest-technology-tracking](https://github.com/huangyangquang/Latest-technology-tracking)
 + [https://jsbin.com](https://jsbin.com)
 + [f2ex.cn 各种前端资源](http://f2ex.cn)
 

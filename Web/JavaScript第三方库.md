@@ -31,6 +31,11 @@
 - 使浏览器支持require [https://github.com/browserify](https://github.com/browserify)
 - [https://github.com/babel/babelify](https://github.com/babel/babelify)
 - 标准库 [https://github.com/zloirock/core-js](https://github.com/zloirock/core-js)
+- [https://github.com/engine262/engine262](https://github.com/engine262/engine262)
+- [https://github.com/metaes/metaes](https://github.com/metaes/metaes)
+- [https://github.com/Siubaak/sval](https://github.com/Siubaak/sval)
+- [https://github.com/NeilFraser/JS-Interpreter](https://github.com/NeilFraser/JS-Interpreter)
+- [https://github.com/standard-things/esm](https://github.com/standard-things/esm)
 
 
 * [https://github.com/jashkenas/coffeescript](https://github.com/jashkenas/coffeescript)

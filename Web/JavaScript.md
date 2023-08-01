@@ -11,6 +11,12 @@
 + 检查JS文件中的ES版本 [https://github.com/dollarshaveclub/es-check](https://github.com/dollarshaveclub/es-check)
 + ES6支持情况 [https://github.com/kangax/compat-table](https://github.com/kangax/compat-table)
     + [https://kangax.github.io/compat-table/es6](https://kangax.github.io/compat-table/es6)
++ [https://github.com/financial-times/polyfill-service](https://github.com/financial-times/polyfill-service)
++ [https://github.com/taylorhakes/promise-polyfill](https://github.com/taylorhakes/promise-polyfill)
+
+
+> [Polyfill](https://developer.mozilla.org/zh-CN/docs/Glossary/Polyfill) 是一块代码（通常是 Web 上的 JavaScript）
+> ，用来为旧浏览器提供它没有原生支持的较新的功能
 
 
 * [JS刷新当前页面的几种方法总结](http://www.iqianduan.net/blog/refresh-browser-method)
@@ -21,12 +27,6 @@
 * [ECMAscript和Javascript的区别](https://www.jianshu.com/p/10cfcb536d4a)
 * [KeyboardEvent.keyCode已弃用，MDN已经提供了一个解决方案](https://developer.mozilla.org/zh-CN/docs/Web/API/KeyboardEvent/keyCode)
 * [JS 获取内网 IP 地址（兼容谷歌浏览器）](https://jueee.github.io/2021/03/2021-03-01-JS%E8%8E%B7%E5%8F%96%E5%86%85%E7%BD%91IP%E5%9C%B0%E5%9D%80%EF%BC%88%E5%85%BC%E5%AE%B9%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%EF%BC%89)
-
-
-
-> [Polyfill](https://developer.mozilla.org/zh-CN/docs/Glossary/Polyfill) 是一块代码（通常是 Web 上的 JavaScript）
-> ，用来为旧浏览器提供它没有原生支持的较新的功能 [https://github.com/financial-times/polyfill-service](https://github.com/financial-times/polyfill-service)
-> [https://github.com/taylorhakes/promise-polyfill](https://github.com/taylorhakes/promise-polyfill)
 
 
 - [https://github.com/wingscloud](https://github.com/wingscloud)
@@ -62,14 +62,17 @@
 * [https://github.com/ruanyf/jstutorial](https://github.com/ruanyf/jstutorial)
     * [http://javascript.ruanyifeng.com](http://javascript.ruanyifeng.com)
 * [https://github.com/revolunet/JSbooks](https://github.com/revolunet/JSbooks)
-* 面向程序员的JavaScript书籍 [https://exploringjs.com](https://exploringjs.com)
+* [https://exploringjs.com](https://exploringjs.com)
     * [https://2ality.com](https://2ality.com)
+    * JavaScript 的历史和演变 [https://exploringjs.com/impatient-js/ch_history.html](https://exploringjs.com/impatient-js/ch_history.html)
 * ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
     * [https://es6.ruanyifeng.com](https://es6.ruanyifeng.com)
-* [https://github.com/daumann/ECMAScript-new-features-list](https://github.com/daumann/ECMAScript-new-features-list)
+* [https://github.com/ericdouglas/ES6-Learning](https://github.com/ericdouglas/ES6-Learning)
+* [https://github.com/lukehoban/es6features](https://github.com/lukehoban/es6features)
+* [https://github.com/rse/es6-features](https://github.com/rse/es6-features)
+* 特性列表 [https://github.com/daumann/ECMAScript-new-features-list](https://github.com/daumann/ECMAScript-new-features-list)
 * [https://github.com/sudheerj/ECMAScript-features](https://github.com/sudheerj/ECMAScript-features)
 * [https://github.com/30-seconds](https://github.com/30-seconds)
-* [https://github.com/rse/es6-features](https://github.com/rse/es6-features)
 * [https://www.javascript.com](https://www.javascript.com)
 * 现代JavaScript教程 [https://github.com/javascript-tutorial/zh.javascript.info](https://github.com/javascript-tutorial/zh.javascript.info)
 * 浏览器脚本教程 [https://www.w3school.com.cn/b.asp](https://www.w3school.com.cn/b.asp)

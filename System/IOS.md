@@ -48,6 +48,8 @@
 - IOS越狱 [https://github.com/palera1n](https://github.com/palera1n)
 - [https://github.com/lwouis/alt-tab-macos](https://github.com/lwouis/alt-tab-macos)
 - 用文字找照片 [https://github.com/mazzzystar/Queryable](https://github.com/mazzzystar/Queryable)
+- MAC备份 [https://github.com/lra/mackup](https://github.com/lra/mackup)
+- 模拟定位 [https://github.com/Schlaubischlump/LocationSimulator](https://github.com/Schlaubischlump/LocationSimulator)
 
 
 ## IOS框架

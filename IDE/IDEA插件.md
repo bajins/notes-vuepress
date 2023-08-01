@@ -18,14 +18,14 @@
     * `jetbrains-eval-reset`（[IDE Eval Reset](https://gitee.com/pengzhile/ide-eval-resetter)）v2.3.5为2021.2.4(2021.2.3起需要登录)及以下版本重置试用插件
         * [https://repo.idechajian.com](https://repo.idechajian.com)
         * [https://plugins.zhile.io](https://plugins.zhile.io)
-    * [https://github.com/ja-netfilter](https://github.com/ja-netfilter) 2021.3(2022.1起弃用`mymap`插件)
+    * [https://github.com/ja-netfilter](https://github.com/ja-netfilter) 2021.3(2022.1起弃用`mymap`插件)-2023.1.4可用
         * [https://gitee.com/ja-netfilter](https://gitee.com/ja-netfilter)
         * [https://github.com/libin9iOak/ja-netfilter-all](https://github.com/libin9iOak/ja-netfilter-all)
         * [https://jetbra.in/s](https://jetbra.in/s)
         * [https://github.com/sinlmao/plugin-fineagent](https://github.com/sinlmao/plugin-fineagent)
         * [https://github.com/Nasller/LicenseServer](https://github.com/Nasller/LicenseServer)
         * [https://github.com/starxg/MyBatisCodeHelperProCrack](https://github.com/starxg/MyBatisCodeHelperProCrack)
-        * [https://github.com/zrongdong/ja-netfilter](https://github.com/zrongdong/ja-netfilter)
+        * [https://github.com/zrongdong/ja-netfilter](https://github.com/zrongdong/ja-netfilter) 2021.3-最新版本可用
 * [利用授权服务器(License Server)激活Jetbrains全家桶](https://51.ruyo.net/17780.html)
     * [https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth](https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth)
 * [如何批量挖掘Jetbrains系列产品激活服务器](https://t.me/s/Ru05hui/123)
