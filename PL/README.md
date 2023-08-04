@@ -242,6 +242,7 @@
 + [https://github.com/kotlin-hands-on](https://github.com/kotlin-hands-on)
 
 
+- 编译器插件 [https://github.com/square/anvil](https://github.com/square/anvil)
 - 序列化 [https://github.com/avro-kotlin/avro4k](https://github.com/avro-kotlin/avro4k)
 - 静态代码分析 [https://github.com/detekt/detekt](https://github.com/detekt/detekt)
 - [https://github.com/mockk/mockk](https://github.com/mockk/mockk)

@@ -68,6 +68,7 @@
 - [https://github.com/atlassian](https://github.com/atlassian)
 - [https://github.com/salesforce/CodeTF](https://github.com/salesforce/CodeTF)
 - [https://github.com/THUDM/CodeGeeX2](https://github.com/THUDM/CodeGeeX2)
+- 代码转换 [https://github.com/JustAIGithub/AI-Code-Convert](https://github.com/JustAIGithub/AI-Code-Convert)
 - DevOps指南 [https://github.com/Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide)
 - [https://github.com/annfelix/DEVOPS-WORLD](https://github.com/annfelix/DEVOPS-WORLD)
 
@@ -234,6 +235,7 @@
 + [https://gitee.com/explore/dbmanager](https://gitee.com/explore/dbmanager)
 
 
+* [https://github.com/slashbaseide/slashbase](https://github.com/slashbaseide/slashbase)
 * [https://github.com/dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
     * [https://dbeaver.io](https://dbeaver.io)
     * [https://dbeaver.com/download/enterprise](https://dbeaver.com/download/enterprise)
@@ -423,6 +425,7 @@
 * [https://www.httpwatch.com](https://www.httpwatch.com)
 * [http://www.httpdebugger.com](http://www.httpdebugger.com)
 * [https://github.com/avwo/whistle](https://github.com/avwo/whistle)
+    * [https://github.com/avwo/whistle-client](https://github.com/avwo/whistle-client)
 * QPA [https://github.com/l7dpi/openQPA](https://github.com/l7dpi/openQPA)
 * [Microsoft Network Monitor](https://www.microsoft.com/en-us/download/details.aspx?id=4865)
 

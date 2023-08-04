@@ -26,36 +26,8 @@
 * [STS(eclipse)中文注释错位、缩进、被放大BUG解决](https://blog.csdn.net/u013600314/article/details/85262257)
 * [Eclipse的设置、调优、使用（解决启动卡顿等问题）](https://lexsaints.blog.csdn.net/article/details/80661377)
 
-
-- `Windows` -> `Preference` -> `General`
-   - `Workspace`
-      - `Build`
-         - `Save automatically before manual build` 在手动构建之前自动保存
-         - `Build automatically`（同`Project`菜单下的按钮） 自动编译
-      - `Refresh using native hooks or polling` 自动刷新文件
-      - `Refresh on access` 访问时刷新
-      - `Always close unrelated projects without prompt` 总是在不提示的情况下关闭不相关项目
-      - `Workspace save interval (in minutes)` 工作区保存时间间隔(分钟)
-   - `Startup and Shutdown`
-      - `Refresh workspace on startup` 启动时刷新工作空间
-
-
 > 创建`Dynamic Web Project`项目结构静态资源目录为：`WebContent`/`WebRoot`，idea创建的为`web`
 > 导入的项目没有正确自动识别：在项目上右键选择`Properties`然后检查`Project Facets`和`Project Natures`
-
-
-**查看类图及继承关系**
-
-+ 选中类，右键然后有以下选项
-   + `Open Declaration` <kdb>F3</kdb>
-   + `Open Type Hierarchy` <kdb>F4</kdb> 打开类层次结构查看窗口，显示包括它的父类和子类
-      + `Show the Subtype Hierarchy` 只查看子类
-      + `Show the Supertype Hierarchy` 只查看父类
-   + `Open Call Hierarchy` <kdb>Ctrl</kdb>+<kdb>Alt</kdb>+<kdb>H</kdb>
-   + `Show in Breadcrumb` <kdb>Alt</kdb>+<kdb>Shift</kdb>+<kdb>B</kdb> 面包屑导航
-   + `Quick Outline` <kdb>Ctrl</kdb>+<kdb>O</kdb>
-   + `Quick Type Hierarchy` <kdb>Ctrl</kdb>+<kdb>T</kdb>  打开类层次结构查看弹窗，显示包括它的父类和子类
-
 
 
 
@@ -74,26 +46,6 @@
 > 文件路径为`%USERPROFILE%\.lemminx\cache\http\mybatis.org\dtd\mybatis-3-config.dtd`
 
 
-**Clean Up、Format、Clean**
-
-- 顶部菜单 -> `Source` -> `Clean Up` 针对代码的内容进行整理，比如去除无用代码或者引用包。
-- 顶部菜单 -> `Source` -> `Organize Imports` 去除单个类中无用的引用包信息<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd>
-- 顶部菜单 -> `Source` -> `Format` 对代码的格式进行整理，比如设置了`Table`为4个空格，那么将会转换。
-- 顶部菜单 -> `Project` -> `Clean` 根据项目`.classpath`文件，清除编译信息，重新部署到`Java Build Path`下的`Default output folder`中。
-- `Servers` -> `Clean` 是指原先编译到tomcat服务器上的程序，先清除掉，然后再重新编译。
-- `Servers` -> `Clean Tomcat Work Directory...` 将已发布项目中存放jsp转译后的class文件的work目录删除
-
-
-**项目显示结构**
-
-- `Windows` -> `Show View` -> `Other` -> 搜索 `Package Exploer`
-- `Windows` -> `Show View` -> `Other` -> 搜索 `Tasks` 查看待办任务
-
-+ `Window` -> `Preferences` -> `Java` -> `Compiler` -> `Task tags` 定义任务标签
-   + `// TODO` 表示尚未完成的待办事项。
-   + `// XXX` 表示被注释的代码虽然实现了功能，但是实现方案有待商榷，希望将来能改进。
-   + `// FIXME` 表示被注释的代码需要被修正。
-
 
 **WebStorm保存后跳过Eclipse自动同步到Tomcat**
 
@@ -107,6 +59,14 @@
 - 点击顶部菜单 `Tools` -> `Deployment` -> 选择 `Automatic Upload(always)` 自动构建
 
 > 其实原理很简单：就是在保存源码文件的同时，实时编译构建同步的时候跳过Eclipse，直接同步到Tomcat部署的当前项目目录
+
+
+
+## 右键菜单
+
+- `Window` -> `Perspective` -> `Customize Perspective`
+   - `Shortcuts` 新建选项
+
 
 
 ## 安装Java EE开发插件
@@ -128,6 +88,11 @@
 ## 代码格式化
 
 * [General > Editors > Text Editors](https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Freference%2Fref-texteditorprefs.htm)
+
+
+- 顶部菜单 -> `Source` -> `Clean Up` 针对代码的内容进行整理，比如去除无用代码或者引用包。
+- 顶部菜单 -> `Source` -> `Format` 对代码的格式进行整理，比如设置了`Table`为4个空格，那么将会转换。
+- 顶部菜单 -> `Source` -> `Organize Imports` 去除单个类中无用的引用包信息<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd>
 
 
 **垂直标尺**
@@ -218,16 +183,68 @@
 * [Eclipse 开启代码提示与关闭变量命名补全](https://xienaoban.github.io/posts/32764)
 
 - `Window` -> `Preferences` -> `Java` -> `Editor` -> `Content Assist`
-    - `Auto Activation` 下的` Auto Activation triggers for java` 填入 `._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`
-    - 解决输入`=`或`;`变量自动补全问题：勾选 `Disable insertion triggers except 'Enter'` (按<kbd>Enter</kbd>键才自动补全)
-    - 展开后选中`Advanced` 勾选所有，其中最重要的是`Java Proposals`
-- XML自动补全 `Windows` -> `preferance` -> `XML` -> `XML Files` -> `Editor` -> `Content Assist` -> `Auto Activation`下面的
-`Prompt when these characters are inserted` 填入 `<=:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ `（注意后面有一个空格）
+   - `Auto Activation`
+      - `Auto activation delay(ms)` 提示的延迟时间
+      - ` Auto Activation triggers for java` 填入 `._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,'"@`
+   - `Advanced`
+      - 勾选`Java Proposals (Task-Focused)`
+      - 勾选`Template Proposals`
+   - 解决输入`=`或`;`变量自动补全问题：勾选 `Disable insertion triggers except 'Enter'` (按<kbd>Enter</kbd>键才自动补全)
+- XML自动补全 `Windows` -> `preferance` -> `XML` -> `XML Files` -> `Editor` -> `Content Assist`
+   - `Auto Activation`下面的`Prompt when these characters are inserted` 填入 `<=:.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ `（注意后面有一个空格）
+- 按`@`不提示注解：`Window` -> `Preferences` -> `Java` -> `Editor` -> `Content Assist`
+   - `Advanced` 下把`java Proposals`勾上
+   - `Enable non-blocking completion(does not affect open editors)` 启用非阻塞完成（不影响打开的编辑器）
+- `Window` -> `Preferences` -> `Java` -> `Editor` -> `Mark Occurences`
+   - `Mark occurrences of the selected element in the current file.` 高亮显示选中的相同变量
 
-* 解决按下`@`不提示注解：`Window` -> `Preferences` -> `Java` -> `Editor` -> `Content Assist` -> `Advanced` 下把`java Proposals`勾上
-* `Enable non-blocking completion(does not affect open editors)` 启用非阻塞完成（不影响打开的编辑器）
 
 
+## 清除缓存
+
+
+- 顶部菜单 -> `Project` -> `Clean` 根据项目`.classpath`文件，清除编译信息，重新部署到`Java Build Path`下的`Default output folder`中。
+- `Servers` -> `Clean` 是指原先编译到tomcat服务器上的程序，先清除掉，然后再重新编译。
+- `Servers` -> `Clean Tomcat Work Directory...` 将已发布项目中存放jsp转译后的class文件的work目录删除
+
+
+## 自动刷新
+
+- `Windows` -> `Preference` -> `General`
+   - `Workspace`
+      - `Build`
+         - `Save automatically before manual build` 在手动构建之前自动保存
+         - `Build automatically`（同`Project`菜单下的按钮） 自动编译
+      - `Refresh using native hooks or polling` 自动刷新文件
+      - `Refresh on access` 访问时刷新
+      - `Always close unrelated projects without prompt` 总是在不提示的情况下关闭不相关项目
+      - `Workspace save interval (in minutes)` 工作区保存时间间隔(分钟)
+   - `Startup and Shutdown`
+      - `Refresh workspace on startup` 启动时刷新工作空间
+
+
+## 查看类图及继承关系
+
++ 选中类，右键然后有以下选项
+   + `Open Declaration` <kdb>F3</kdb>
+   + `Open Type Hierarchy` <kdb>F4</kdb> 打开类层次结构查看窗口，显示包括它的父类和子类
+      + `Show the Subtype Hierarchy` 只查看子类
+      + `Show the Supertype Hierarchy` 只查看父类
+   + `Open Call Hierarchy` <kdb>Ctrl</kdb>+<kdb>Alt</kdb>+<kdb>H</kdb>
+   + `Show in Breadcrumb` <kdb>Alt</kdb>+<kdb>Shift</kdb>+<kdb>B</kdb> 面包屑导航
+   + `Quick Outline` <kdb>Ctrl</kdb>+<kdb>O</kdb>
+   + `Quick Type Hierarchy` <kdb>Ctrl</kdb>+<kdb>T</kdb>  打开类层次结构查看弹窗，显示包括它的父类和子类
+
+
+## 项目显示结构
+
+- `Windows` -> `Show View` -> `Other` -> 搜索 `Package Exploer`
+- `Windows` -> `Show View` -> `Other` -> 搜索 `Tasks` 查看待办任务
+
++ `Window` -> `Preferences` -> `Java` -> `Compiler` -> `Task tags` 定义任务标签
+   + `// TODO` 表示尚未完成的待办事项。
+   + `// XXX` 表示被注释的代码虽然实现了功能，但是实现方案有待商榷，希望将来能改进。
+   + `// FIXME` 表示被注释的代码需要被修正。
 
 
 ## 显示内存
@@ -483,6 +500,7 @@
 - [https://github.com/java-decompiler/jd-eclipse](https://github.com/java-decompiler/jd-eclipse)
 - [https://github.com/cnfree/Eclipse-Class-Decompiler](https://github.com/cnfree/Eclipse-Class-Decompiler)
 - [https://github.com/helospark/import-jar-as-project](https://github.com/helospark/import-jar-as-project)
+- [https://sourceforge.net/projects/drgarbagetools](https://sourceforge.net/projects/drgarbagetools)
 - 测试 [https://github.com/ot4i/perf-harness](https://github.com/ot4i/perf-harness)
 
 

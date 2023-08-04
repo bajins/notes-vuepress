@@ -25,6 +25,7 @@
     * [https://github.com/neovide/neovide](https://github.com/neovide/neovide)
     * [https://github.com/nshen/learn-neovim-lua](https://github.com/nshen/learn-neovim-lua)
     * [https://github.com/LazyVim/LazyVim](https://github.com/LazyVim/LazyVim)
+    * [https://github.com/ervandew/eclim](https://github.com/ervandew/eclim)
 * [https://github.com/helix-editor/helix](https://github.com/helix-editor/helix)
 * [https://github.com/file-acomplaint/kyun](https://github.com/file-acomplaint/kyun)
 * [https://github.com/rizonesoft/Notepad3](https://github.com/rizonesoft/Notepad3)

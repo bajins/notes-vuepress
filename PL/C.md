@@ -32,6 +32,7 @@
 + [GCC ,Clang 与 make,cmake 一览](https://www.jianshu.com/p/990ee4b9c5d3)
 
 
+* [https://github.com/theicfire/makefiletutorial](https://github.com/theicfire/makefiletutorial)
 * [https://www.gnu.org/software/make](https://www.gnu.org/software/make)
 * [https://github.com/Kitware/CMake](https://github.com/Kitware/CMake)
     * [https://cmake.org/download](https://cmake.org/download)

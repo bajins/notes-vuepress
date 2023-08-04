@@ -377,10 +377,10 @@
 
 
 
-> JSON-B，即Java API for JSON Binding。
+> 
 
-+ [https://github.com/json-schema-org](https://github.com/json-schema-org)
 + JSON-P [https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
++ JSON-B [https://github.com/jakartaee/jsonb-api](https://github.com/jakartaee/jsonb-api)
 + JSON库基准测试[https://github.com/fabienrenaud/java-json-benchmark](https://github.com/fabienrenaud/java-json-benchmark)
 
 

@@ -44,6 +44,7 @@
 - [Linux包管理器及包安装工具基础知识](https://blog.csdn.net/u013430110/article/details/107329350)
 
 * 软件包管理器 [https://github.com/NixOS/nix](https://github.com/NixOS/nix)
+    * [https://github.com/ryan4yin/nixos-and-flakes-book](https://github.com/ryan4yin/nixos-and-flakes-book)
 * [https://github.com/joyent/pkgsrc](https://github.com/joyent/pkgsrc)
 * [https://github.com/TritonDataCenter/pkgsrc](https://github.com/TritonDataCenter/pkgsrc)
     * [https://github.com/NetBSDfr](https://github.com/NetBSDfr)
@@ -132,6 +133,7 @@
 - [https://github.com/iputils/iputils](https://github.com/iputils/iputils)
 - [https://github.com/kjn/lbzip2](https://github.com/kjn/lbzip2)
 - [https://github.com/illiliti/libudev-zero](https://github.com/illiliti/libudev-zero)
+- [https://github.com/red-data-tools/YouPlot](https://github.com/red-data-tools/YouPlot)
 - 系统日志管理 [https://github.com/hat-open/hat-syslog](https://github.com/hat-open/hat-syslog)
 
 
