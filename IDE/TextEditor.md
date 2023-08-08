@@ -50,6 +50,23 @@
 
 
 
+
+**替换默认记事本**
+
+```batch
+REG ADD "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" ^
+ /v "Debugger" /t REG_SZ /d "\"记事本程序路径\" -z" /f
+```
+
+- 恢复系统默认记事本
+
+```batch
+REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
+REG DELETE "HKLM\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
+REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /f
+```
+
+
 ## Notepad++
 
 * [https://github.com/notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus)

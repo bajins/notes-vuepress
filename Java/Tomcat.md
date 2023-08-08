@@ -214,8 +214,11 @@ vi webapps/host-manager/META-INF/context.xml
 
 ### 启动时一直卡100%
 
-> 有可能是mybatis的mapperXML多了（比如删除了dao，而没有删除xml），还有可能是xml内的语法或元素错误（比如两个标签的id重复）
-> ，或者没有对用到的实体类进行扫描
+1. 有可能是mybatis的mapper XML多了（比如删除了dao，而没有删除xml）
+2. 还有可能是xml内的语法或元素错误（比如两个标签的id重复）
+3. 或者没有对用到的实体类进行扫描
+4. 检查xml中映射的实体类全限定路径（改了包名）
+
 
 * [eclipse+tomcat 启动已有工程时卡在starting100%状态的解决办法](https://www.dandelioncloud.cn/article/details/1510442490028216321)
 * [tomcat启动时卡在100%（preparing launch delegate...）](https://bbs.csdn.net/topics/392322747)
