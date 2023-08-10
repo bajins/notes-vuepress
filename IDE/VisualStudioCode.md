@@ -277,6 +277,9 @@
 * [https://github.com/Axosoft/vscode-gitlens](https://github.com/Axosoft/vscode-gitlens)
 * 协作 [https://github.com/MicrosoftDocs/live-share](https://github.com/MicrosoftDocs/live-share)
 * [https://github.com/njpanderson/push](https://github.com/njpanderson/push) 类似于jet brains的`Deployment Automatic Upload`
+* AI [https://github.com/timkmecl/chatgpt-vscode](https://github.com/timkmecl/chatgpt-vscode)
+* [https://github.com/mpociot/chatgpt-vscode](https://github.com/mpociot/chatgpt-vscode)
+* [https://github.com/tzmartin/stablecode-vscode](https://github.com/tzmartin/stablecode-vscode)
 
 
 

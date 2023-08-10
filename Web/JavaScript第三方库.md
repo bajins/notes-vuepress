@@ -146,7 +146,7 @@
     * [https://github.com/t4t5/sweetalert](https://github.com/t4t5/sweetalert)
 * 提示和弹出框 [https://github.com/popperjs/popper-core](https://github.com/popperjs/popper-core)
 * alert()和confirm()包装 [https://github.com/makeusabrew/bootbox](https://github.com/makeusabrew/bootbox)
-* 突出显示 [https://github.com/kamranahmedse/driver.js](https://github.com/kamranahmedse/driver.js)
+* 提示引导 [https://github.com/kamranahmedse/driver.js](https://github.com/kamranahmedse/driver.js)
 
 
 

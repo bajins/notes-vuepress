@@ -68,6 +68,7 @@
 - [https://github.com/atlassian](https://github.com/atlassian)
 - [https://github.com/salesforce/CodeTF](https://github.com/salesforce/CodeTF)
 - [https://github.com/THUDM/CodeGeeX2](https://github.com/THUDM/CodeGeeX2)
+- [https://github.com/bigcode-project](https://github.com/bigcode-project)
 - 代码转换 [https://github.com/JustAIGithub/AI-Code-Convert](https://github.com/JustAIGithub/AI-Code-Convert)
 - DevOps指南 [https://github.com/Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide)
 - [https://github.com/annfelix/DEVOPS-WORLD](https://github.com/annfelix/DEVOPS-WORLD)
