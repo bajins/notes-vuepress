@@ -12,6 +12,8 @@
 * 公共手册 [https://handbook.opencoreventures.com](https://handbook.opencoreventures.com)
 * [https://gitlab.com/gitlab-com/content-sites/handbook](https://gitlab.com/gitlab-com/content-sites/handbook)
 
++ 程序员考公务员 [https://github.com/coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy)
++ [https://github.com/The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run)
 
 
 **赞赏/赞助/打赏**
@@ -48,6 +50,7 @@
 
 
 * [https://github.com/CaoMeiYouRen/push-all-in-one](https://github.com/CaoMeiYouRen/push-all-in-one)
+* [https://github.com/songquanpeng](https://github.com/songquanpeng)
 * [https://github.com/Finb/bark-server](https://github.com/Finb/bark-server)
 * [https://github.com/Finb/Bark](https://github.com/Finb/Bark)
 * [https://github.com/wahao/Bark-MP-helper](https://github.com/wahao/Bark-MP-helper)

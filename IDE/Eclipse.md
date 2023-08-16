@@ -5,12 +5,15 @@
 
 ## Flag
 
++ [https://gitlab.eclipse.org](https://gitlab.eclipse.org)
 + [https://github.com/eclipse/eclipse](https://github.com/eclipse/eclipse)
    + [https://github.com/eclipse-platform](https://github.com/eclipse-platform)
    + [https://github.com/eclipse-jdt](https://github.com/eclipse-jdt)
    + [https://github.com/eclipse-cdt](https://github.com/eclipse-cdt)
    + [https://github.com/eclipse-pde](https://github.com/eclipse-pde)
    + [https://github.com/eclipse-m2e](https://github.com/eclipse-m2e)
+   + [https://github.com/eclipse-tycho](https://github.com/eclipse-tycho)
+   + [https://github.com/eclipse-wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper)
    + [https://github.com/eclipse-linuxtools](https://github.com/eclipse-linuxtools)
    + [https://projects.eclipse.org](https://projects.eclipse.org)
    + [https://www.eclipse.org/ide](https://www.eclipse.org/ide)
@@ -442,15 +445,13 @@
 > 一般插件都有`plugins`和`features`两个文件夹，复制到eclipse安装目录即可
 
 * [Eclipse插件开发](https://blog.csdn.net/chenhangx/article/details/119863089)
+* [https://github.com/open-archetypes](https://github.com/open-archetypes)
 
 + `-vmargs -DproxySet=true -DproxyHost=aProxyAddress -DproxyPort=aProxyPort` 启动代理参数
-
++ `Eclipse Web Developer Tools`
 
 - [https://marketplace.eclipse.org/metrics/successful_installs/last30days](https://marketplace.eclipse.org/metrics/successful_installs/last30days)
 - [https://github.com/de-jcup](https://github.com/de-jcup)
-- [https://github.com/eclipse/wildwebdeveloper](https://github.com/eclipse/wildwebdeveloper)
-   - Mars之后版本不再集成支持JavaScript需要安装插件，参考[Tern Eclipse IDE](https://marketplace.eclipse.org/content/tern-eclipse-ide)
-   - [https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0](https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0)
 - [https://github.com/eclipse-mylyn](https://github.com/eclipse-mylyn)
 - SVN [https://www.eclipse.org/subversive](https://www.eclipse.org/subversive)
    - [https://polarion.plm.automation.siemens.com/products/svn](https://polarion.plm.automation.siemens.com/products/svn)
@@ -479,7 +480,10 @@
 - 开发风格 [https://www.genuitec.com/products/devstyle](https://www.genuitec.com/products/devstyle)
 - [http://kurucz-grafika.de/fatjar](http://kurucz-grafika.de/fatjar)
    - [eclipse中将项目打包成jar的两种方法，及其问题与解决方法](https://www.cnblogs.com/tianyanzhi/p/8067239.html)
-
+- [https://sourceforge.net/projects/eclipsetidy](https://sourceforge.net/projects/eclipsetidy)
+- [https://sourceforge.net/projects/eclipse-tools](https://sourceforge.net/projects/eclipse-tools)
+- Prettier [https://github.com/TheGreatGooo/EclipsePrettierPlugin](https://github.com/TheGreatGooo/EclipsePrettierPlugin)
+- [https://github.com/AObuchow/Eclipse-Spectrum-Theme](https://github.com/AObuchow/Eclipse-Spectrum-Theme)
 
 
 

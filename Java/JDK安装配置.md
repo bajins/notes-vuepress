@@ -52,9 +52,8 @@
 * [https://github.com/Tencent/TencentKona-8](https://github.com/Tencent/TencentKona-8)
 * [https://github.com/Tencent/TencentKona-11](https://github.com/Tencent/TencentKona-11)
 * [https://github.com/Tencent/TencentKona-17](https://github.com/Tencent/TencentKona-17)
-
-
-- OpenJ9 [https://github.com/eclipse-openj9/openj9](https://github.com/eclipse-openj9/openj9)
+* OpenJ9 [https://github.com/eclipse-openj9](https://github.com/eclipse-openj9)
+    - [https://github.com/eclipse/omr](https://github.com/eclipse/omr)
 
 
 * [https://www.oracle.com/java/technologies/java-se-support-roadmap.html](https://www.oracle.com/java/technologies/java-se-support-roadmap.html)

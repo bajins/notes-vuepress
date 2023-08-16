@@ -87,6 +87,7 @@
 	* [https://gitee.com/ant-design/ant-design](https://gitee.com/ant-design/ant-design)
 	* [https://github.com/ant-design-blazor](https://github.com/ant-design-blazor)
 * [https://github.com/DouyinFE/semi-design](https://github.com/DouyinFE/semi-design)
+* [https://github.com/nextui-org/nextui](https://github.com/nextui-org/nextui)
 * [https://github.com/alibaba/ice](https://github.com/alibaba/ice)
 * [https://github.com/tannerlinsley/react-query](https://github.com/tannerlinsley/react-query)
 * [https://github.com/Shopify/hydrogen](https://github.com/Shopify/hydrogen)

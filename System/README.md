@@ -75,7 +75,6 @@
 - [https://github.com/BlackArch](https://github.com/BlackArch)
 - [https://gitlab.com/kalilinux](https://gitlab.com/kalilinux)
     - [https://www.kali.org](https://www.kali.org)
-    - 黑客工具 [https://github.com/Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool)
     - [https://github.com/LandGrey/SpringBootVulExploit](https://github.com/LandGrey/SpringBootVulExploit)
 - [https://github.com/SerenityOS](https://github.com/SerenityOS)
 - [https://www.haiku-os.org](https://www.haiku-os.org)
@@ -141,6 +140,9 @@
 * [https://www.enlightenment.org](https://www.enlightenment.org)
 * [https://github.com/muesli/duf](https://github.com/muesli/duf)
 * [https://github.com/ukui](https://github.com/ukui)
+* [https://github.com/Alexays/Waybar](https://github.com/Alexays/Waybar)
+* [https://sourceforge.net/projects/xanmod](https://sourceforge.net/projects/xanmod)
+* 屏幕锁定 [https://github.com/swaywm/swaylock](https://github.com/swaywm/swaylock)
 * 管理 [https://github.com/puppetlabs/puppet](https://github.com/puppetlabs/puppet)
 
 

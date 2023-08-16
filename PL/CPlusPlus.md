@@ -82,7 +82,6 @@
     * [https://github.com/netease-im/NIM_Duilib_Framework](https://github.com/netease-im/NIM_Duilib_Framework)
     * [https://github.com/xfcanyue/DuiLib_DuiEditor](https://github.com/xfcanyue/DuiLib_DuiEditor)
 * [https://github.com/AcademySoftwareFoundation/openvdb](https://github.com/AcademySoftwareFoundation/openvdb)
-* 屏幕锁定 [https://github.com/swaywm/swaylock](https://github.com/swaywm/swaylock)
 * Vulkan [https://github.com/KhronosGroup](https://github.com/KhronosGroup)
     * [https://www.opengl.org](https://www.opengl.org)
 * OpenCV [https://github.com/opencv](https://github.com/opencv)

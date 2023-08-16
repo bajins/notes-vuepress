@@ -123,6 +123,8 @@
 * [https://www.imdodo.com](https://www.imdodo.com)
 * [https://github.com/wireapp](https://github.com/wireapp)
 * [https://github.com/vasanthv/talk](https://github.com/vasanthv/talk)
+* [https://github.com/OpenIMSDK](https://github.com/OpenIMSDK)
+* [https://github.com/katzenpost/katzenpost](https://github.com/katzenpost/katzenpost)
 
 
 - [https://github.com/topics/curses](https://github.com/topics/curses)
@@ -453,6 +455,7 @@
 * Icon矢量图 [https://github.com/inkscape/inkscape](https://github.com/inkscape/inkscape)
     * [https://gitlab.com/inkscape/inkscape](https://gitlab.com/inkscape/inkscape)
     * [https://inkscape.org/zh-hans](https://inkscape.org/zh-hans)
+* [https://github.com/ImageMagick](https://github.com/ImageMagick)
 * [https://icofx.ro](https://icofx.ro)
 * Axialis-IconWorkshop 官网 [https://www.axialis.com/download/#software](https://www.axialis.com/download/#software)
 * [https://github.com/darktable-org/darktable](https://github.com/darktable-org/darktable)

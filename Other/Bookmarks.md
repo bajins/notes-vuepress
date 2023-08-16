@@ -151,6 +151,8 @@
 * [https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh](https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh)
 * [https://github.com/yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)
 * [https://github.com/practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning)
+* [https://github.com/binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)
+* 各种技术主题 [https://github.com/bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises)
 * 学习开发路线图 [https://github.com/kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
     * [https://roadmap.sh](https://roadmap.sh)
 * [https://github.com/SmartKeyerror/Psyduck](https://github.com/SmartKeyerror/Psyduck)

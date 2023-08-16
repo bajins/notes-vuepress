@@ -251,6 +251,7 @@ volumes:
 
 * [https://cdn.jsdelivr.net](https://cdn.jsdelivr.net) 中国国内
 * [https://raw.fastgit.org](https://raw.fastgit.org) 中国香港
+    * [https://raw.kgithub.com](https://raw.kgithub.com)
 * [https://cdn.staticaly.com](https://cdn.staticaly.com) 日本东京
 
 

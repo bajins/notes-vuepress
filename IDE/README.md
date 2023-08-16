@@ -69,9 +69,11 @@
 - [https://github.com/salesforce/CodeTF](https://github.com/salesforce/CodeTF)
 - [https://github.com/THUDM/CodeGeeX2](https://github.com/THUDM/CodeGeeX2)
 - [https://github.com/bigcode-project](https://github.com/bigcode-project)
+- [https://github.com/kuafuai/DevOpsGPT](https://github.com/kuafuai/DevOpsGPT)
 - 代码转换 [https://github.com/JustAIGithub/AI-Code-Convert](https://github.com/JustAIGithub/AI-Code-Convert)
 - DevOps指南 [https://github.com/Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide)
 - [https://github.com/annfelix/DEVOPS-WORLD](https://github.com/annfelix/DEVOPS-WORLD)
+- 需求生成文档 [https://github.com/geekan/MetaGPT](https://github.com/geekan/MetaGPT)
 
 
 
