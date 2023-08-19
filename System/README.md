@@ -161,12 +161,49 @@
 * [https://github.com/coredns/coredns](https://github.com/coredns/coredns)
 * [https://github.com/skynetservices/skydns](https://github.com/skynetservices/skydns)
 * [https://github.com/PowerDNS](https://github.com/PowerDNS)
+    * [https://github.com/Habbie](https://github.com/Habbie)
+    * [https://github.com/ahupowerdns](https://github.com/ahupowerdns)
 * [https://github.com/google/proto-quic](https://github.com/google/proto-quic)
 * [https://github.com/google/quiche](https://github.com/google/quiche)(https://github.com/google/quiche)
 * [https://github.com/lucas-clemente/quic-go](https://github.com/lucas-clemente/quic-go)
 * [https://github.com/letsencrypt/challtestsrv](https://github.com/letsencrypt/challtestsrv)
 * [https://github.com/rthalley/dnspython](https://github.com/rthalley/dnspython)
 * [https://github.com/bluejekyll/trust-dns](https://github.com/bluejekyll/trust-dns)
+
+
+
+### SSL证书
+
++ [https://github.com/openssl](https://github.com/openssl)
++ [https://github.com/topics/letsencrypt](https://github.com/topics/letsencrypt)
++ [https://github.com/topics/certificate](https://github.com/topics/certificate)
++ [https://github.com/topics/acme](https://github.com/topics/acme)
+
+
+* [https://github.com/drwetter/testssl.sh](https://github.com/drwetter/testssl.sh)
+* [https://github.com/zerossl](https://github.com/zerossl)
+* [https://letsencrypt.org](https://letsencrypt.org)
+* [https://github.com/zenhack/simp_le](https://github.com/zenhack/simp_le)
+* [https://github.com/acmesh-official](https://github.com/acmesh-official)
+    * [HTTPS之acme.sh申请证书](https://www.cnblogs.com/tu240302975/p/13370867.html)
+    * [使用GCP公共CA签发Google Trust Services证书](https://hostloc.com/thread-993780-1-1.html)
+* [https://github.com/win-acme](https://github.com/win-acme)
+* [https://github.com/letsencrypt](https://github.com/letsencrypt)
+* [https://github.com/webprofusion/certify](https://github.com/webprofusion/certify)
+* [https://github.com/rmbolger/Posh-ACME](https://github.com/rmbolger/Posh-ACME)
+* [https://github.com/certbot](https://github.com/certbot)
+    * [https://certbot.eff.org](https://certbot.eff.org)
+    * [获取证书（并选择插件）-官方文档](https://certbot.eff.org/docs/using.html#getting-certificates-and-choosing-plugins)
+* [https://github.com/Keyfactor](https://github.com/Keyfactor)
+* 管理 [https://github.com/SSLMate](https://github.com/SSLMate)
+* [https://github.com/mouday/domain-admin](https://github.com/mouday/domain-admin)
+* [https://github.com/aaomidi/certbot-dns-google-domains](https://github.com/aaomidi/certbot-dns-google-domains)
+* [https://search.censys.io](https://search.censys.io)
+
+
+- [临时处理OCSP域名无法访问的问题](https://holmesian.org/letsencrypt-ocsp-fix)
+- [「Certbot」- ocsp.int-x3.letsencrypt.org Read timed out](http://blog.k4nz.com/%E3%80%8Ccertbot%E3%80%8D-ocsp-int-x3-letsencrypt-org-read-timed-out)
+
 
 
 
@@ -227,6 +264,7 @@
     * [https://github.com/lttng](https://github.com/lttng)
     * [https://github.com/eclipse-cdt-cloud](https://github.com/eclipse-cdt-cloud)
 * [https://github.com/sysstat/sysstat](https://github.com/sysstat/sysstat)
+* [https://github.com/may-fly/mayfly-go](https://github.com/may-fly/mayfly-go)
 * 实时崩溃报告 [https://github.com/getsentry](https://github.com/getsentry)
 * [https://github.com/highlight/highlight](https://github.com/highlight/highlight)
 * [https://github.com/uptimerobot](https://github.com/uptimerobot)
