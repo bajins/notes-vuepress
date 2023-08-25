@@ -70,7 +70,9 @@
 - [https://github.com/THUDM/CodeGeeX2](https://github.com/THUDM/CodeGeeX2)
 - [https://github.com/bigcode-project](https://github.com/bigcode-project)
 - [https://github.com/kuafuai/DevOpsGPT](https://github.com/kuafuai/DevOpsGPT)
+- [https://github.com/sweepai/sweep](https://github.com/sweepai/sweep)
 - 代码转换 [https://github.com/JustAIGithub/AI-Code-Convert](https://github.com/JustAIGithub/AI-Code-Convert)
+- [https://github.com/ritz078/transform](https://github.com/ritz078/transform)
 - DevOps指南 [https://github.com/Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide)
 - [https://github.com/annfelix/DEVOPS-WORLD](https://github.com/annfelix/DEVOPS-WORLD)
 - 需求生成文档 [https://github.com/geekan/MetaGPT](https://github.com/geekan/MetaGPT)
@@ -107,7 +109,6 @@
 * [https://www.mercurial-scm.org](https://www.mercurial-scm.org)
 * [https://www.nongnu.org/cvs](https://www.nongnu.org/cvs)
 * [https://bazaar.canonical.com](https://bazaar.canonical.com)
-* [https://github.com/bytebase/bytebase](https://github.com/bytebase/bytebase)
 * [https://nest.pijul.com/pijul/pijul](https://nest.pijul.com/pijul/pijul)
   * [https://pijul.org](https://pijul.org)
 * [https://www.plasticscm.com](https://www.plasticscm.com)
@@ -251,6 +252,7 @@
     -javaagent:./dbeaver-agent.jar
     -Dlm.debug.mode=true
     ```
+* [https://github.com/bytebase/bytebase](https://github.com/bytebase/bytebase)
 * [https://www.jetbrains.com/zh-cn/datagrip](https://www.jetbrains.com/zh-cn/datagrip)
 * [https://www.navicat.com](https://www.navicat.com)
     * [https://github.com/search?q=navicat](https://github.com/search?q=navicat)

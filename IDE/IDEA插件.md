@@ -38,6 +38,12 @@
 > `计算机\HKEY_CURRENT_USER\SOFTWARE\JavaSoft\Prefs`
 
 
+- ChatGPT [https://gitlab.com/wangsen_job/idea-plugin-iframe](https://gitlab.com/wangsen_job/idea-plugin-iframe)
+- 翻译 [https://github.com/starcwang/easy_javadoc](https://github.com/starcwang/easy_javadoc)
+- [https://github.com/tuchg/ChinesePinyin-CodeCompletionHelper](https://github.com/tuchg/ChinesePinyin-CodeCompletionHelper)
+- [https://github.com/a18792721831/studyplugin](https://github.com/a18792721831/studyplugin)
+
+
 ## Free Mybatis plugin
 
 * [https://gitee.com/wuzhizhan/free-idea-mybatis](https://gitee.com/wuzhizhan/free-idea-mybatis)

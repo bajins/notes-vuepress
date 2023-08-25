@@ -147,6 +147,7 @@
 * [https://github.com/icopy-site/awesome-cn](https://github.com/icopy-site/awesome-cn)
 * [思维导图](https://github.com/search?o=desc&q=%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE&s=updated&type=Repositories)
 * [https://github.com/polaris1119/awesome-cheatsheets-cn](https://github.com/polaris1119/awesome-cheatsheets-cn)
+* [https://github.com/rstacruz/cheatsheets](https://github.com/rstacruz/cheatsheets)
 * 学习主题清单 [https://github.com/jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
 * [https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh](https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh)
 * [https://github.com/yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)
@@ -228,6 +229,10 @@
 * [https://topbook.cc](https://topbook.cc)
     * [https://www.zhihu.com/org/topbook](https://www.zhihu.com/org/topbook)
 * 翻译视频 [https://crashcourse.club](https://crashcourse.club)
+* [设计师口袋心理学](https://iason.notion.site/6719c7650fd1406c92287f556520fbc3)
+* [认知偏差知识手册](https://s75w5y7vut.feishu.cn/docs/doccn3BatnScBJe7wD7K3S5poFf)
+* [认知偏差](https://colossal-riddle-1431.glideapp.io)
+
 
 
 **CSDN取消屏蔽**

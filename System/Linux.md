@@ -34,6 +34,7 @@
 * [Vim 从小白到入门](https://wsgzao.github.io/post/vim)
 * [https://vimjc.com/archives](https://vimjc.com/archives)
 * [ubuntu版本系统升级](https://blog.csdn.net/qq_40907977/article/details/106407373)
+* [Linux 用户权限](https://blog.csdn.net/qq_40887651/article/details/121533765)
 
 
 

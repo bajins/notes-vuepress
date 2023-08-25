@@ -44,6 +44,7 @@
 * [https://github.com/microsoft/winget-cli](https://github.com/microsoft/winget-cli)
     * [https://github.com/microsoft/winget-pkgs](https://github.com/microsoft/winget-pkgs)
     * [https://docs.microsoft.com/zh-cn/windows/package-manager/winget](https://docs.microsoft.com/zh-cn/windows/package-manager/winget)
+    * [https://github.com/marticliment/WingetUI](https://github.com/marticliment/WingetUI)
 * [https://github.com/oneget/oneget](https://github.com/oneget/oneget)
     * [https://www.nuget.org](https://www.nuget.org)
     * [https://www.powershellgallery.com](https://www.powershellgallery.com)

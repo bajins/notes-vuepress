@@ -419,6 +419,7 @@
 * [https://cn.apkshub.com](https://cn.apkshub.com)
 * [https://apk-dl.com](https://apk-dl.com)
 * [https://cn.uptodown.com/android](https://cn.uptodown.com/android)
+* [https://www.uptodown.com](https://www.uptodown.com)
 
 
 + [https://apkpure.com/cn/developer/Microsoft%20Corporation](https://apkpure.com/cn/developer/Microsoft%20Corporation)
