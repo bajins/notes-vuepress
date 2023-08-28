@@ -174,6 +174,7 @@
 * [https://github.com/kornelski/dssim](https://github.com/kornelski/dssim)
 * [https://github.com/cloudinary/ssimulacra](https://github.com/cloudinary/ssimulacra)
 * [https://github.com/cloudinary/ssimulacra2](https://github.com/cloudinary/ssimulacra2)
+* 日志 [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog)
 
 
 

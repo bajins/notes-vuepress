@@ -393,11 +393,16 @@ taskkill /f /im chromedriver.exe
 
 ### 广告过滤
 
++ [https://github.com/topics/adblock](https://github.com/topics/adblock)
++ [https://github.com/topics/adguard](https://github.com/topics/adguard)
+
+
 * ABP [https://github.com/adblockplus](https://github.com/adblockplus)
 * ubo [https://github.com/gorhill/uBlock](https://github.com/gorhill/uBlock)
     * [https://github.com/uBlock-LLC](https://github.com/uBlock-LLC)
-* ADB [https://getadblock.com](https://getadblock.com)
-* [https://ublock.org](https://ublock.org)
+    * [https://github.com/uBlockOrigin](https://github.com/uBlockOrigin)
+* ADB [https://gitlab.com/adblockinc](https://gitlab.com/adblockinc)
+    * [https://gitlab.com/eyeo/adblockplus](https://gitlab.com/eyeo/adblockplus)
 * [https://github.com/AdguardTeam](https://github.com/AdguardTeam)
 * [https://github.com/iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome)
 * [https://github.com/SugarCoatJS](https://github.com/SugarCoatJS)
@@ -407,14 +412,31 @@ taskkill /f /im chromedriver.exe
 
 **过滤规则**
 
-- [https://github.com/damengzhu](https://github.com/damengzhu)
-- [https://gitee.com/halflife/list](https://gitee.com/halflife/list)
-- [https://gitee.com/xinggsf/Adblock-Rule](https://gitee.com/xinggsf/Adblock-Rule)
-- [https://github.com/cjx82630/cjxlist](https://github.com/cjx82630/cjxlist)
-- 视频跳过广告和VIP视频解析脚本 ot mofiter（秒杀视频网站播放广告） https://greasyfork.org/scripts/373063
-- [http://sub.adtchrome.com/adt-chinalist-easylist.txt](http://sub.adtchrome.com/adt-chinalist-easylist.txt)
-- [https://easylist-downloads.adblockplus.org/easylistchina.txt](https://easylist-downloads.adblockplus.org/easylistchina.txt)
++ [https://github.com/topics/filterlist](https://github.com/topics/filterlist)
++ [https://github.com/topics/easylist](https://github.com/topics/easylist)
++ [https://github.com/topics/blocklist](https://github.com/topics/blocklist)
+
+
+* [https://github.com/damengzhu](https://github.com/damengzhu)
+    * `https://raw.kgithub.com/damengzhu/abpmerge/blob/main/abpmerge.txt`
+* [https://github.com/xinggsf/Adblock-Plus-Rule](https://github.com/xinggsf/Adblock-Plus-Rule)
+* [https://github.com/cjx82630/cjxlist](https://github.com/cjx82630/cjxlist)
+* [https://github.com/easylist](https://github.com/easylist)
+    * `https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt`
+    * `http://sub.adtchrome.com/adt-chinalist-easylist.txt`
+* [https://gitlab.com/malware-filter](https://gitlab.com/malware-filter)
+    * [https://gitlab.com/curben/blog](https://gitlab.com/curben/blog)
+    * [https://github.com/curbengh](https://github.com/curbengh)
+* [https://github.com/badmojr/1Hosts](https://github.com/badmojr/1Hosts)
+* [https://github.com/T145/black-mirror](https://github.com/T145/black-mirror)
+* [https://github.com/DandelionSprout](https://github.com/DandelionSprout)
+    * [https://gitlab.com/DandelionSprout](https://gitlab.com/DandelionSprout)
+* [https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters)
+
+
 - [https://lemon399-markrender.vercel.app](https://lemon399-markrender.vercel.app)
+- 视频跳过广告和VIP视频解析脚本 ot mofiter（秒杀视频网站播放广告） https://greasyfork.org/scripts/373063
+
 
 
 
@@ -452,6 +474,7 @@ taskkill /f /im chromedriver.exe
 
 
 * 篡改猴 [https://github.com/Tampermonkey](https://github.com/Tampermonkey)
+    * [https://github.com/derjanb](https://github.com/derjanb)
     * [https://bbs.tampermonkey.net.cn](https://bbs.tampermonkey.net.cn)
     * [https://github.com/hmjz100/Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)
     * [https://github.com/syhyz1990](https://github.com/syhyz1990)

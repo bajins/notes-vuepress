@@ -57,7 +57,7 @@
 - 工具 [https://github.com/864381832/xJavaFxTool](https://github.com/864381832/xJavaFxTool)
 - [https://github.com/baiy/Ctool](https://github.com/baiy/Ctool)
 - WakaTime [https://github.com/muety/wakapi](https://github.com/muety/wakapi)
-- 代码补全AI [https://github.com/codota/tabnine](https://github.com/codota/tabnine)
+- 代码助手AI [https://github.com/codota/tabnine](https://github.com/codota/tabnine)
     - [https://www.tabnine.com](https://www.tabnine.com)
 - [https://github.com/ravenscroftj/turbopilot](https://github.com/ravenscroftj/turbopilot)
 - [https://github.com/new-ai-company/ide](https://github.com/new-ai-company/ide)
@@ -76,7 +76,8 @@
 - DevOps指南 [https://github.com/Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide)
 - [https://github.com/annfelix/DEVOPS-WORLD](https://github.com/annfelix/DEVOPS-WORLD)
 - 需求生成文档 [https://github.com/geekan/MetaGPT](https://github.com/geekan/MetaGPT)
-
+- SQL助手AI [https://github.com/chat2db/Chat2DB](https://github.com/chat2db/Chat2DB)
+- [https://github.com/defog-ai/sqlcoder](https://github.com/defog-ai/sqlcoder)
 
 
 + [技术|什么是 CI/CD？](https://linux.cn/article-9926-1.html)
@@ -281,7 +282,7 @@
 * [https://github.com/OmniDB/OmniDB](https://github.com/OmniDB/OmniDB)
 * [https://github.com/webyog/sqlyog-community](https://github.com/webyog/sqlyog-community)
 * [https://github.com/directus/directus](https://github.com/directus/directus)
-* AIGC [https://github.com/chat2db/Chat2DB](https://github.com/chat2db/Chat2DB)
+
 
 - 数据库转excel [https://github.com/nocodb/nocodb](https://github.com/nocodb/nocodb)
 

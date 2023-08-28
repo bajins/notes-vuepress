@@ -87,6 +87,7 @@
 + [https://github.com/huangyangquang/Latest-technology-tracking](https://github.com/huangyangquang/Latest-technology-tracking)
 + [https://jsbin.com](https://jsbin.com)
 + [f2ex.cn 各种前端资源](http://f2ex.cn)
++ [Web 3.0 通识课](https://j08v3n7cqq.feishu.cn/docs/doccnu8PLq5zJcaZJUzTaLyEOPc)
 
 
 - 网站测试 [https://github.com/ycd/dstp](https://github.com/ycd/dstp)

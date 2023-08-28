@@ -239,6 +239,7 @@ volumes:
 * [https://download.fastgit.org](https://download.fastgit.org) 日本
 * [https://gitclone.com](https://gitclone.com) 中国浙江
 * [https://github.com.cnpmjs.org](https://github.com.cnpmjs.org) 新加坡
+* [https://githubfast.com](https://githubfast.com)
 
 
 **Git Clone SSH 加速**
