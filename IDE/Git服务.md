@@ -152,6 +152,7 @@ volumes:
 * [https://codecov.io](https://codecov.io)
 * [目录 - P3TERX ZONE](https://p3terx.com/archives.html)
 * [https://github.com/tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet)
+* 发现造假stars [https://github.com/dagster-io/fake-star-detector](https://github.com/dagster-io/fake-star-detector)
 
 
 - [https://github.com/zenodo/zenodo](https://github.com/zenodo/zenodo)

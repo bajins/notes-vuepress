@@ -458,9 +458,9 @@
 - [https://github.com/kieler](https://github.com/kieler)
 - [https://github.com/langium/langium](https://github.com/langium/langium)
 - [https://github.com/emacs-lsp](https://github.com/emacs-lsp)
-- Java [https://github.com/eclipse-lsp4j/lsp4j](https://github.com/eclipse-lsp4j/lsp4j)
-- [https://github.com/eclipse/eclipse.jdt.ls](https://github.com/eclipse/eclipse.jdt.ls)
-- [https://github.com/eclipse/lsp4e](https://github.com/eclipse/lsp4e)
+- Java [https://github.com/eclipse-jdtls](https://github.com/eclipse-jdtls)
+    - [https://github.com/eclipse-lsp4j/lsp4j](https://github.com/eclipse-lsp4j/lsp4j)
+    - [https://github.com/eclipse/lsp4e](https://github.com/eclipse/lsp4e)
 - [https://github.com/ycm-core/ycmd](https://github.com/ycm-core/ycmd)
 - [https://github.com/Genuitec](https://github.com/Genuitec)
 

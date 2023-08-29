@@ -387,6 +387,7 @@
 - 视频剪辑 [https://www.capcut.cn](https://www.capcut.cn)
 - [https://www.kuaishou.com/kuaiying](https://www.kuaishou.com/kuaiying)
 - [https://www.topazlabs.com](https://www.topazlabs.com)
+- [https://shana.pe.kr/shanaencoder_download](https://shana.pe.kr/shanaencoder_download)
 
 
 * 电视盒子 [https://github.com/NAStool/nas-tools](https://github.com/NAStool/nas-tools)

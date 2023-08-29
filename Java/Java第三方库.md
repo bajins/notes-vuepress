@@ -572,7 +572,6 @@
 + [https://github.com/allwefantasy/ServiceFramework](https://github.com/allwefantasy/ServiceFramework)
 + [https://github.com/javalin](https://github.com/javalin)
 + [https://github.com/actframework](https://github.com/actframework)
-+ [https://github.com/primefaces/primefaces](https://github.com/primefaces/primefaces)
 + [https://github.com/restlet](https://github.com/restlet)
 + JSF [https://github.com/omnifaces](https://github.com/omnifaces)
 + [https://github.com/ButterFaces](https://github.com/ButterFaces)

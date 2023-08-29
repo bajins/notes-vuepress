@@ -82,6 +82,8 @@
     * [https://github.com/netease-im/NIM_Duilib_Framework](https://github.com/netease-im/NIM_Duilib_Framework)
     * [https://github.com/xfcanyue/DuiLib_DuiEditor](https://github.com/xfcanyue/DuiLib_DuiEditor)
 * [https://github.com/AcademySoftwareFoundation/openvdb](https://github.com/AcademySoftwareFoundation/openvdb)
+* 并行编程标准 [https://github.com/OpenCL](https://github.com/OpenCL)
+* [https://github.com/GPUOpen-LibrariesAndSDKs](https://github.com/GPUOpen-LibrariesAndSDKs)
 * Vulkan [https://github.com/KhronosGroup](https://github.com/KhronosGroup)
     * [https://www.opengl.org](https://www.opengl.org)
 * OpenCV [https://github.com/opencv](https://github.com/opencv)
@@ -175,6 +177,8 @@
 * [https://github.com/cloudinary/ssimulacra](https://github.com/cloudinary/ssimulacra)
 * [https://github.com/cloudinary/ssimulacra2](https://github.com/cloudinary/ssimulacra2)
 * 日志 [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog)
+* 文本形状 [https://github.com/harfbuzz/harfbuzz](https://github.com/harfbuzz/harfbuzz)
+* 数学运算 [https://gmplib.org](https://gmplib.org)
 
 
 
