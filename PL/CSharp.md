@@ -26,6 +26,7 @@
 - [https://developer.microsoft.com/zh-cn](https://developer.microsoft.com/zh-cn)
 - [https://www.microsoft.com/en-us/research](https://www.microsoft.com/en-us/research)
 - [https://docs.microsoft.com/zh-cn/dotnet](https://docs.microsoft.com/zh-cn/dotnet)
+    - [异步编程模式](https://learn.microsoft.com/zh-cn/dotnet/standard/asynchronous-programming-patterns)
 - [https://docs.microsoft.com/zh-cn/windows/apps/winui](https://docs.microsoft.com/zh-cn/windows/apps/winui)
     - [Windows 11之现代Windows桌面应用开发 - Windows UI Library (WinUI)](https://www.cnblogs.com/taylorshi/p/15307941.html)
 - [https://docs.microsoft.com/zh-cn/windows/apps/windows-app-sdk](https://docs.microsoft.com/zh-cn/windows/apps/windows-app-sdk)

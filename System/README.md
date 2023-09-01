@@ -144,6 +144,7 @@
 * [https://sourceforge.net/projects/xanmod](https://sourceforge.net/projects/xanmod)
 * 屏幕锁定 [https://github.com/swaywm/swaylock](https://github.com/swaywm/swaylock)
 * 管理 [https://github.com/puppetlabs/puppet](https://github.com/puppetlabs/puppet)
+* 设备连接 [https://github.com/netbirdio/netbird](https://github.com/netbirdio/netbird)
 
 
 

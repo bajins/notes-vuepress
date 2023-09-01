@@ -95,7 +95,6 @@
 + [https://github.com/tremor-rs](https://github.com/tremor-rs)
 + [https://github.com/RustRobotics](https://github.com/RustRobotics)
 + [https://github.com/RustVis](https://github.com/RustVis)
-+ [https://github.com/async-rs](https://github.com/async-rs)
 + [https://github.com/gimli-rs](https://github.com/gimli-rs)
 
 
@@ -161,6 +160,7 @@
 - 权限 [https://github.com/w4/chartered](https://github.com/w4/chartered)
 - 异步 [https://github.com/tokio-rs](https://github.com/tokio-rs)
     - [https://github.com/hmwill/tokio-linux-aio](https://github.com/hmwill/tokio-linux-aio)
+- [https://github.com/async-rs](https://github.com/async-rs)
 - 并发Map [https://github.com/xacrimon/dashmap](https://github.com/xacrimon/dashmap)
 - [https://github.com/rust-phf/rust-phf](https://github.com/rust-phf/rust-phf)
 - 正则搜索文件 [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)

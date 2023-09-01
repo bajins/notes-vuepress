@@ -49,9 +49,12 @@
 * [https://github.com/jmeubank/tdm-gcc](https://github.com/jmeubank/tdm-gcc)
 * [https://github.com/rr-debugger/rr](https://github.com/rr-debugger/rr)
 * [https://github.com/sifive](https://github.com/sifive)
+* [https://github.com/universal-ctags/ctags](https://github.com/universal-ctags/ctags)
 * 通用构建工具 [https://github.com/autotools-mirror/automake](https://github.com/autotools-mirror/automake)
 * [https://github.com/SCons/scons](https://github.com/SCons/scons)
 * 自动构建 [https://github.com/buildbot/buildbot](https://github.com/buildbot/buildbot)
+* 静态分析 [https://sourceforge.net/projects/cppcheck](https://sourceforge.net/projects/cppcheck)
+* x86汇编 [https://github.com/netwide-assembler/nasm](https://github.com/netwide-assembler/nasm)
 
 
 - Dev-C++
@@ -197,7 +200,6 @@
 * godot游戏引擎支持JS [https://github.com/Geequlim/ECMAScript](https://github.com/Geequlim/ECMAScript)
 * 呈现字体 [https://freetype.org](https://freetype.org)
 * [https://github.com/cacalabs/libcaca](https://github.com/cacalabs/libcaca)
-* x86汇编 [https://github.com/netwide-assembler/nasm](https://github.com/netwide-assembler/nasm)
 * 英特尔媒体调度 [https://github.com/lu-zero/mfx_dispatch](https://github.com/lu-zero/mfx_dispatch)
 * Windows通用更新程序 [https://github.com/gup4win/wingup](https://github.com/gup4win/wingup)
 

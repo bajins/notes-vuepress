@@ -280,6 +280,7 @@
 * AI [https://github.com/timkmecl/chatgpt-vscode](https://github.com/timkmecl/chatgpt-vscode)
 * [https://github.com/mpociot/chatgpt-vscode](https://github.com/mpociot/chatgpt-vscode)
 * [https://github.com/tzmartin/stablecode-vscode](https://github.com/tzmartin/stablecode-vscode)
+* [https://github.com/continuedev/continue](https://github.com/continuedev/continue)
 
 
 

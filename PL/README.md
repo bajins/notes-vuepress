@@ -5,6 +5,20 @@
 
 ## Flag
 
+**千万不要尝试用记忆力去替代自己的理解力！**
+- 代码不是靠死记硬背，而是不停的写、不停的思考，在反复的练习中熟练掌握的。
+- 编程需要学习记住的是：不同的场景中一些实现方式的原理机制、思维方式，如：设计模式、排序算法、数据结构等，而不是具体的代码。
+- [我在 20 年的软件工程师生涯中学到的事情](https://github.com/ruanyf/weekly/blob/master/docs/issue-267.md#%E6%96%87%E6%91%98)
+- [自学编程的八大误区！克服它！](https://mp.weixin.qq.com/s/r_vm7lA2Ul_ZFhkx60wplg)
+- [https://github.com/easychen/stack-roadmap](https://github.com/easychen/stack-roadmap)
+- [https://github.com/easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness)
+- [https://github.com/easychen/one-person-businesses-methodology](https://github.com/easychen/one-person-businesses-methodology)
+- [https://github.com/easychen/howto-make-more-money](https://github.com/easychen/howto-make-more-money)
+- 程序员考公务员 [https://github.com/coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy)
+- [https://github.com/The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run)
+
+
+
 + [https://en.wikipedia.org/wiki/History_of_programming_languages](https://en.wikipedia.org/wiki/History_of_programming_languages)
     + [七十年编程语言发展漫谈](https://mp.weixin.qq.com/s/4MD4b673b1kkBGhYINSoNQ)
 + [https://github.com/MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)
@@ -45,6 +59,7 @@
 * [https://github.com/saltstack](https://github.com/saltstack)
 * [https://github.com/devcontainers](https://github.com/devcontainers)
 * [https://github.com/devonfw/ide](https://github.com/devonfw/ide)
+* [https://github.com/skeeto/w64devkit](https://github.com/skeeto/w64devkit)
 * 性能跟踪分析 [https://github.com/topics/trace](https://github.com/topics/trace)
 * [https://github.com/brendangregg](https://github.com/brendangregg)
     * [https://github.com/opendtrace](https://github.com/opendtrace)
@@ -149,10 +164,6 @@
     - [https://groovy-lang.org/syntax.html](https://groovy-lang.org/syntax.html)
     - [https://github.com/grails](https://github.com/grails)
     - [https://github.com/jruby/jruby](https://github.com/jruby/jruby)
-- 动态函数式语言 [https://github.com/elixir-lang/elixir](https://github.com/elixir-lang/elixir)
-    - [https://github.com/elixirschool](https://github.com/elixirschool)
-    - [https://github.com/phoenixframework/phoenix](https://github.com/phoenixframework/phoenix)
-- [https://github.com/elm](https://github.com/elm)
 - Ruby [https://github.com/rails/rails](https://github.com/rails/rails)
     - [https://github.com/ruby-concurrency/concurrent-ruby](https://github.com/ruby-concurrency/concurrent-ruby)
     - [https://github.com/ruboto](https://github.com/ruboto)
@@ -160,6 +171,9 @@
     - [https://github.com/AndyObtiva/glimmer](https://github.com/AndyObtiva/glimmer)
     - [https://github.com/headius](https://github.com/headius)
     - [https://github.com/caxlsx/caxlsx](https://github.com/caxlsx/caxlsx)
+- 动态函数式语言 [https://github.com/elixir-lang/elixir](https://github.com/elixir-lang/elixir)
+    - [https://github.com/elixirschool](https://github.com/elixirschool)
+    - [https://github.com/phoenixframework/phoenix](https://github.com/phoenixframework/phoenix)
 - [https://github.com/erlang](https://github.com/erlang)
     - [https://github.com/terry-xiaoyu/learn-erlang-in-30-mins](https://github.com/terry-xiaoyu/learn-erlang-in-30-mins)
 - [https://github.com/joearms](https://github.com/joearms)
