@@ -445,6 +445,7 @@
 
 * 图片压缩工具 [https://github.com/GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh)
 * [https://github.com/netnr/squoosh](https://github.com/netnr/squoosh)
+* [https://github.com/Dreamer365/topspeed-image-compressor](https://github.com/Dreamer365/topspeed-image-compressor)
 * 上传图片并获取图片URL链接 [https://github.com/Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo)
 * [https://www.polaxiong.com](https://www.polaxiong.com)
 * [https://icons8.cn/lunacy](https://icons8.cn/lunacy)

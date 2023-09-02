@@ -37,6 +37,7 @@
     + [https://github.com/oldmanpushcart/jpromisor](https://github.com/oldmanpushcart/jpromisor)
 + Web 开发技术-MDN [https://developer.mozilla.org/zh-CN/docs/Web](https://developer.mozilla.org/zh-CN/docs/Web)
     + [https://github.com/roy-tian/learning-area](https://github.com/roy-tian/learning-area)
++ 跨域资源共享 [https://github.com/monsur/enable-cors.org](https://github.com/monsur/enable-cors.org)
 + 反应式规范 [https://github.com/reactive-streams](https://github.com/reactive-streams)
     + 反应式（具有非阻塞背压的异步数据流）编程规范，已集成到Java9 API中Flow类
     + [https://github.com/rsocket](https://github.com/rsocket)
@@ -306,6 +307,7 @@
 - [用Cloudflare CDN 如何自定义节点（CF自选IP）/撸CloudFlare Pro](https://www.moeelf.com/archives/10.html)
 
 
+* [https://github.com/emadda/worker-tabserve-reverse-proxy](https://github.com/emadda/worker-tabserve-reverse-proxy)
 * [https://github.com/netnr/workers](https://github.com/netnr/workers)
 * [https://github.com/aploium/zmirror](https://github.com/aploium/zmirror)
 * 动态博客系统 [https://github.com/kasuganosoras/cloudflare-worker-blog](https://github.com/kasuganosoras/cloudflare-worker-blog)

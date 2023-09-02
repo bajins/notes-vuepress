@@ -153,6 +153,7 @@
 * [https://icomoon.io](https://icomoon.io)
 * [https://www.flaticon.com/authors/freepik](https://www.flaticon.com/authors/freepik)
 * [https://glyphicons.com](https://glyphicons.com)
+* [https://iconbuddy.app](https://iconbuddy.app)
 
 
 - [最受程序员欢迎的 20 个 CSS 框架](https://www.fuocu.cn/archives/css-frame)

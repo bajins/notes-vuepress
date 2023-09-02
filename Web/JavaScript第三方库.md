@@ -218,6 +218,7 @@
 * HTML复选框 [https://github.com/bryanbraun/checkboxland](https://github.com/bryanbraun/checkboxland)
 * 加密 [https://github.com/travist/jsencrypt](https://github.com/travist/jsencrypt)
 * [https://github.com/dmarman/sha256algorithm](https://github.com/dmarman/sha256algorithm)
+* [https://github.com/digitalbazaar/forge](https://github.com/digitalbazaar/forge)
 * 数据库可视化 [https://github.com/lana-k/sqliteviz](https://github.com/lana-k/sqliteviz)
 * JSON校验 [https://github.com/ozkxr/match-json](https://github.com/ozkxr/match-json)
 * 二维码 [https://github.com/ciaochaos/qrbtf](https://github.com/ciaochaos/qrbtf)

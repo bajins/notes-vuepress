@@ -224,6 +224,7 @@
 + 一次性邮件列表 [https://github.com/Fcmam5/jelban-js](https://github.com/Fcmam5/jelban-js)
 + 发送邮件 [http://tool.chacuo.net/mailsend](http://tool.chacuo.net/mailsend)
 + 邮件测试 [https://github.com/axllent/mailpit](https://github.com/axllent/mailpit)
++ 电子邮件加密指南 [https://emailselfdefense.fsf.org/zh-hans](https://emailselfdefense.fsf.org/zh-hans)
 
 
 - [https://github.com/KevCui/1secmail](https://github.com/KevCui/1secmail)

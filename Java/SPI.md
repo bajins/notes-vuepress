@@ -5,20 +5,31 @@
 
 ## Flag
 
-* [从Java SPI机制实现到Dubbo SPI扩展](https://blog.csdn.net/shang_xs/article/details/86560469)
-* [从Java SPI机制实现到Spring Boot SPI扩展](https://blog.csdn.net/shang_xs/article/details/86560691)
-* [AVA SPI机制详解](https://www.jianshu.com/p/25b3559ecc47)
-* [深入理解SPI机制](https://www.jianshu.com/p/3a3edbcd8f24)
++ [https://github.com/McModLauncher/modlauncher](https://github.com/McModLauncher/modlauncher)
++ [https://github.com/SpongePowered/Mixin](https://github.com/SpongePowered/Mixin)
++ [https://github.com/FabricMC](https://github.com/FabricMC)
+    + [Fabric 与Mixin 教程](https://blog.csdn.net/smildwind/article/details/120227376)
++ [https://github.com/MinecraftForge/MinecraftForge](https://github.com/MinecraftForge/MinecraftForge)
++ [https://github.com/Chocohead/OptiFabric](https://github.com/Chocohead/OptiFabric)
+    + [https://github.com/sp614x/optifine](https://github.com/sp614x/optifine)
++ [https://github.com/Mojang/brigadier](https://github.com/Mojang/brigadier)
++ [https://github.com/osgi](https://github.com/osgi)
+    + OSGI（Open Service Gateway Initiative），是一个由OSGi Alliance发起的以Java为技术平台的动态模块化规范
++ [https://github.com/eclipse-equinox](https://github.com/eclipse-equinox)
++ Jigsaw Java9 modules
++ 观察者设计模式 [Java设计模式之观察者模式](https://blog.csdn.net/wanggang514260663/article/details/86138144)
++ Spring 实现`ApplicationContextAware`接口获取到指定接口的所有实现
 
-- [OSGI（Open Service Gateway Initiative）](https://github.com/osgi)，是一个由OSGi Alliance发起的以Java为技术平台的动态模块化规范
-- [https://github.com/eclipse-equinox](https://github.com/eclipse-equinox)
-- Jigsaw Java9 modules
-- 观察者设计模式 [Java设计模式之观察者模式](https://blog.csdn.net/wanggang514260663/article/details/86138144)
-- Spring 实现`ApplicationContextAware`接口获取到指定接口的所有实现
 
 * [https://github.com/Enaium/BullPlugin](https://github.com/Enaium/BullPlugin)
 * springboot插件式开发框架 [https://gitee.com/starblues/springboot-plugin-framework-parent](https://gitee.com/starblues/springboot-plugin-framework-parents)
 
+
+
+- [从Java SPI机制实现到Dubbo SPI扩展](https://blog.csdn.net/shang_xs/article/details/86560469)
+- [从Java SPI机制实现到Spring Boot SPI扩展](https://blog.csdn.net/shang_xs/article/details/86560691)
+- [AVA SPI机制详解](https://www.jianshu.com/p/25b3559ecc47)
+- [深入理解SPI机制](https://www.jianshu.com/p/3a3edbcd8f24)
 
 
 **热插拔/热加载/热部署/热更新/HotSwap**
