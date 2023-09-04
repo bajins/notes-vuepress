@@ -89,6 +89,7 @@
 * [https://github.com/beautify-web/js-beautify](https://github.com/beautify-web/js-beautify)
 * [https://github.com/brodybits/prettierx](https://github.com/brodybits/prettierx)
 * ESLint [ https://github.com/eslint]( https://github.com/eslint)
+* [https://github.com/biomejs/biome](https://github.com/biomejs/biome)
 * [https://github.com/humanwhocodes/config-array](https://github.com/humanwhocodes/config-array)
 * 测试 [https://github.com/jestjs](https://github.com/jestjs)
 * 状态管理 [https://github.com/statelyai/xstate](https://github.com/statelyai/xstate)

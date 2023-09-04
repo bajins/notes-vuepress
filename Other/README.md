@@ -64,6 +64,7 @@
 * [https://github.com/chinuno-usami/server_tan](https://github.com/chinuno-usami/server_tan)
 * [https://github.com/OneSignal](https://github.com/OneSignal)
 * [https://github.com/novuhq/novu](https://github.com/novuhq/novu)
+* [https://github.com/binwiederhier/ntfy](https://github.com/binwiederhier/ntfy)
 
 
 - [https://github.com/guanguans/notify](https://github.com/guanguans/notify)

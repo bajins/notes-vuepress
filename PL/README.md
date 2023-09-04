@@ -22,6 +22,7 @@
 + [https://en.wikipedia.org/wiki/History_of_programming_languages](https://en.wikipedia.org/wiki/History_of_programming_languages)
     + [七十年编程语言发展漫谈](https://mp.weixin.qq.com/s/4MD4b673b1kkBGhYINSoNQ)
 + [https://github.com/MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)
++ [https://github.com/codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
 + [https://github.com/topics/high-performance](https://github.com/topics/high-performance)
 + [https://github.com/topics/barcode](https://github.com/topics/barcode)
 + [https://github.com/topics/qrcode](https://github.com/topics/qrcode)

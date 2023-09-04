@@ -51,6 +51,7 @@
 - MAC备份 [https://github.com/lra/mackup](https://github.com/lra/mackup)
 - 模拟定位 [https://github.com/Schlaubischlump/LocationSimulator](https://github.com/Schlaubischlump/LocationSimulator)
 - 隐藏菜单栏 [https://github.com/Mortennn/Dozer](https://github.com/Mortennn/Dozer)
+- [https://github.com/acidanthera](https://github.com/acidanthera)
 
 
 ## IOS框架

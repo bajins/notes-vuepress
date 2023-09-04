@@ -73,6 +73,8 @@
 - [https://github.com/sweepai/sweep](https://github.com/sweepai/sweep)
 - [https://github.com/nlpxucan/WizardLM](https://github.com/nlpxucan/WizardLM)
 - [https://github.com/Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)
+- [https://github.com/OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev)
+- [https://github.com/KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
 - 代码转换 [https://github.com/JustAIGithub/AI-Code-Convert](https://github.com/JustAIGithub/AI-Code-Convert)
 - [https://github.com/ritz078/transform](https://github.com/ritz078/transform)
 - DevOps指南 [https://github.com/Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide)

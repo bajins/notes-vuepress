@@ -101,6 +101,7 @@
     - [https://github.com/protocol](https://github.com/protocol)
     - [https://github.com/multiformats](https://github.com/multiformats)
     - [https://github.com/libp2p/libp2p](https://github.com/libp2p/libp2p)
+- [https://github.com/web3j](https://github.com/web3j)
 - [https://github.com/ensdomains](https://github.com/ensdomains)
 - [https://github.com/ethereum](https://github.com/ethereum)
     - [https://github.com/hydroprotocol/ethereum-jsonrpc-gateway](https://github.com/hydroprotocol/ethereum-jsonrpc-gateway)

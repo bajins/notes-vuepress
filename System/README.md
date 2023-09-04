@@ -99,6 +99,7 @@
     - [https://fuchsia.fsf.org.cn](https://fuchsia.fsf.org.cn)
 - [https://github.com/hardenedlinux](https://github.com/hardenedlinux)
     - [https://gitlab.com/hardenedlinux](https://gitlab.com/hardenedlinux)
+- 云计算 [https://github.com/IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS)
 
 
 * [https://github.com/topics/openwrt](https://github.com/topics/openwrt)
@@ -118,6 +119,7 @@
 * [https://github.com/openLuat](https://github.com/openLuat)
 * 树莓派 [https://github.com/raspberrypi](https://github.com/raspberrypi)
     * [https://github.com/guysoft](https://github.com/guysoft)
+    * [https://github.com/coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
 * [https://github.com/pftf](https://github.com/pftf)
 
 
@@ -367,6 +369,7 @@
 * [https://github.com/Youngxj/YoungxjTools](https://github.com/Youngxj/YoungxjTools)
 * [https://github.com/netnr/scriptservices](https://github.com/netnr/scriptservices)
 * 媒体服务器 [https://github.com/MediaBrowser/Emby.Releases](https://github.com/MediaBrowser/Emby.Releases)
+* [https://github.com/jellyfin/jellyfin](https://github.com/jellyfin/jellyfin)
 
 
 
