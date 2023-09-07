@@ -86,6 +86,7 @@
 * [https://github.com/bookshelf/bookshelf](https://github.com/bookshelf/bookshelf)
 * [https://github.com/balderdashy/waterline](https://github.com/balderdashy/waterline)
 * SQL查询 [https://github.com/knex/knex](https://github.com/knex/knex)
+* [https://github.com/TryGhost/node-sqlite3](https://github.com/TryGhost/node-sqlite3)
 * 解析器、压缩器、压缩器和美化 [https://github.com/mishoo/UglifyJS](https://github.com/mishoo/UglifyJS)
 * [https://github.com/solzimer/nsyslog-parser](https://github.com/solzimer/nsyslog-parser)
 * 日志 [https://github.com/trentm/node-bunyan](https://github.com/trentm/node-bunyan)

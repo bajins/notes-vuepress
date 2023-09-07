@@ -264,21 +264,7 @@
 + [https://github.com/bootique/bootique](https://github.com/bootique/bootique)
 + [https://github.com/jooby-project/jooby](https://github.com/jooby-project/jooby)
 + [https://github.com/spotify/apollo](https://github.com/spotify/apollo)
-+ 响应式 [https://github.com/eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x)
-    + [https://github.com/vert-x3](https://github.com/vert-x3)
-    + [http://vertx.io](http://vertx.io)
-    + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
-    + 开发者指南 [https://github.com/vertxfun/vertx-guide-for-java-devs-cn](https://github.com/vertxfun/vertx-guide-for-java-devs-cn)
-    + [https://github.com/VertxChina/vertx-translation-chinese](https://github.com/VertxChina/vertx-translation-chinese)
-    + [https://github.com/vertx-china](https://github.com/vertx-china)
-+ [https://github.com/reactor](https://github.com/reactor)
-    + [翻译文档中文版](http://htmlpreview.github.io/?https://github.com/get-set/reactor-core/blob/master-zh/src/docs/index.html)
-+ [https://github.com/Atmosphere](https://github.com/Atmosphere)
-+ [https://github.com/netty/netty](https://github.com/netty/netty)
-    + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
-    + [https://github.com/Childe-Mu/bio-nio-aio-netty-notes](https://github.com/Childe-Mu/bio-nio-aio-netty-notes)
-+ [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
-+ [https://github.com/smallrye](https://github.com/smallrye)
+
 
 
 
@@ -596,6 +582,42 @@
 + [https://github.com/microprofile](https://github.com/microprofile)
     + [https://microprofile.io](https://microprofile.io)
 + [https://github.com/OpenLiberty](https://github.com/OpenLiberty)
+
+
+
+
+**响应式/反应式（reactive/Reactor）**
+
+> 反应式（具有非阻塞背压的异步数据流）编程规范，已集成到Java9 API中Flow类
+
+
++ 规范 [https://github.com/reactive-streams](https://github.com/reactive-streams)
+    + 宣言 [https://github.com/reactivemanifesto](https://github.com/reactivemanifesto)
+    + 原则 [https://github.com/reactivefoundation/reactiveprinciples](https://github.com/reactivefoundation/reactiveprinciples)
+    + [https://github.com/rsocket](https://github.com/rsocket)
+        + [https://github.com/making/rsc](https://github.com/making/rsc)
+    + 反应式关系数据库连接 [https://github.com/r2dbc](https://github.com/r2dbc)
+    + [https://github.com/aol/cyclops](https://github.com/aol/cyclops)
++ [https://github.com/ReactiveX](https://github.com/ReactiveX)
+    + [https://cn.rx.js.org](https://cn.rx.js.org)
++ [https://github.com/reactor](https://github.com/reactor)
+    + [https://github.com/get-set](https://github.com/get-set)
++ [https://github.com/eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x)
+    + [https://github.com/vert-x3](https://github.com/vert-x3)
+    + [https://github.com/vertx-web-site](https://github.com/vertx-web-site)
+    + [http://vertx.io](http://vertx.io)
+    + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
+    + 开发者指南 [https://github.com/vertxfun/vertx-guide-for-java-devs-cn](https://github.com/vertxfun/vertx-guide-for-java-devs-cn)
+    + [https://github.com/VertxChina/vertx-translation-chinese](https://github.com/VertxChina/vertx-translation-chinese)
+    + [https://github.com/vertx-china](https://github.com/vertx-china)
+    + [https://github.com/wjw465150/Vert.x-Core-Manual](https://github.com/wjw465150/Vert.x-Core-Manual)
+    + [https://github.com/wjw465150/Vert.x-in-Action-ChineseVersion](https://github.com/wjw465150/Vert.x-in-Action-ChineseVersion)
++ [https://github.com/netty/netty](https://github.com/netty/netty)
+    + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
+    + [https://github.com/Childe-Mu/bio-nio-aio-netty-notes](https://github.com/Childe-Mu/bio-nio-aio-netty-notes)
++ [https://github.com/Atmosphere](https://github.com/Atmosphere)
++ [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
++ [https://github.com/smallrye](https://github.com/smallrye)
 + 微服务 [https://github.com/helidon-io](https://github.com/helidon-io)
 + [https://github.com/jhipster/generator-jhipster](https://github.com/jhipster/generator-jhipster)
 + [https://github.com/eventuate-tram](https://github.com/eventuate-tram)
@@ -606,6 +628,20 @@
     + [https://github.com/eventuate-examples](https://github.com/eventuate-examples)
     + [https://eventuate.io](https://eventuate.io)
     + [https://microservices.io](https://microservices.io)
+
+
+* [https://github.com/kilim/kilim](https://github.com/kilim/kilim)
+    * [Kilim工作原理](http://chen-tao.github.io/2015/10/02/kilim-work-way/)
+* [https://github.com/puniverse/quasar](https://github.com/puniverse/quasar)
+    * [quasar从原理到代码应用](https://blog.csdn.net/guzhangyu12345/article/details/84666423)
+* [https://github.com/esoco/coroutines](https://github.com/esoco/coroutines)
+* [https://github.com/offbynull/coroutines](https://github.com/offbynull/coroutines)
+* [https://github.com/electronicarts/ea-async](https://github.com/electronicarts/ea-async)
+
+
+- [Reactive programming 一种技术 各自表述](https://mercyblitz.github.io/2018/07/25/Reactive-Programming-%E4%B8%80%E7%A7%8D%E6%8A%80%E6%9C%AF-%E5%90%84%E8%87%AA%E8%A1%A8%E8%BF%B0)
+- [Java 异步编程：从 Future 到 Loom](https://blog.csdn.net/hellozhxy/article/details/119239776)
+- [超越传统线程：探索Java Loom协程(纤程/虚拟线程)的无限潜力](https://blog.csdn.net/citywu123/article/details/132141035)
 
 
 

@@ -17,6 +17,7 @@
 + [https://github.com/DevExpress](https://github.com/DevExpress)
 + [https://github.com/XboxYan](https://github.com/XboxYan)
 + [https://github.com/yued-fe](https://github.com/yued-fe)
++ [https://github.com/ibm-js](https://github.com/ibm-js)
 
 
 * [NPM依赖：类库工具](https://www.jianshu.com/p/2a127cfba1cf)
@@ -54,7 +55,11 @@
 * [https://github.com/shikijs/shiki](https://github.com/shikijs/shiki)
 * [https://github.com/zTree/zTree_v3](https://github.com/zTree/zTree_v3)
 * 验证 [https://github.com/validatorjs/validator.js](https://github.com/validatorjs/validator.js)
-* 国际化 [https://github.com/i18next/i18next](https://github.com/i18next/i18next)
+* 国际化 [https://github.com/rxaviers/javascript-globalization](https://github.com/rxaviers/javascript-globalization)
+* [https://github.com/messageformat/messageformat](https://github.com/messageformat/messageformat)
+* [https://github.com/formatjs/formatjs](https://github.com/formatjs/formatjs)
+* [https://github.com/i18next/i18next](https://github.com/i18next/i18next)
+* [https://github.com/iLib-js](https://github.com/iLib-js)
 * 模拟数据生成 [https://github.com/nuysoft/Mock](https://github.com/nuysoft/Mock)
 * [https://github.com/dreamhead/moco](https://github.com/dreamhead/moco)
 * [https://github.com/typicode/json-server](https://github.com/typicode/json-server)

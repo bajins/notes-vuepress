@@ -161,6 +161,8 @@
 * [https://code.xueersi.com/ide/code/1](https://code.xueersi.com/ide/code/1)
 * [https://github.com/ajaxorg/ace](https://github.com/ajaxorg/ace)
 * [https://github.com/asciinema](https://github.com/asciinema)
+* [https://github.com/judge0/ide](https://github.com/judge0/ide)
+
 
 - 数学计算器 [https://www.desmos.com](https://www.desmos.com)
 

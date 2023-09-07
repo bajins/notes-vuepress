@@ -15,6 +15,7 @@
 + [https://github.com/Mojang/brigadier](https://github.com/Mojang/brigadier)
 + [https://github.com/osgi](https://github.com/osgi)
     + OSGI（Open Service Gateway Initiative），是一个由OSGi Alliance发起的以Java为技术平台的动态模块化规范
+    + [https://github.com/bndtools/bnd](https://github.com/bndtools/bnd)
 + [https://github.com/eclipse-equinox](https://github.com/eclipse-equinox)
 + Jigsaw Java9 modules
 + 观察者设计模式 [Java设计模式之观察者模式](https://blog.csdn.net/wanggang514260663/article/details/86138144)
