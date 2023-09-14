@@ -6,8 +6,10 @@
 ## Flag
 
 **千万不要尝试用记忆力去替代自己的理解力！**
-- 代码不是靠死记硬背，而是不停的写、不停的思考，在反复的练习中熟练掌握的。
-- 编程需要学习记住的是：不同的场景中一些实现方式的原理机制、思维方式，如：设计模式、排序算法、数据结构等，而不是具体的代码。
+> 代码不是靠死记硬背，而是不停的写、不停的思考，在反复的练习中熟练掌握的。
+>
+> 编程需要学习记住的是：不同的场景中一些实现方式的原理机制、思维方式，如：设计模式、排序算法、数据结构等，而不是具体的代码。
+
 - [我在 20 年的软件工程师生涯中学到的事情](https://github.com/ruanyf/weekly/blob/master/docs/issue-267.md#%E6%96%87%E6%91%98)
 - [自学编程的八大误区！克服它！](https://mp.weixin.qq.com/s/r_vm7lA2Ul_ZFhkx60wplg)
 - [https://github.com/easychen/stack-roadmap](https://github.com/easychen/stack-roadmap)
@@ -291,6 +293,7 @@
 * [https://github.com/basarat/typescript-book](https://github.com/basarat/typescript-book)
 
 
+- [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)
 - 静态分析 [https://github.com/kaleidawave/ezno](https://github.com/kaleidawave/ezno)
 - [https://github.com/total-typescript/ts-reset](https://github.com/total-typescript/ts-reset)
 - [https://github.com/JDFED](https://github.com/JDFED)

@@ -88,6 +88,7 @@
 	* [https://github.com/ant-design-blazor](https://github.com/ant-design-blazor)
 * [https://github.com/DouyinFE/semi-design](https://github.com/DouyinFE/semi-design)
 * [https://github.com/nextui-org/nextui](https://github.com/nextui-org/nextui)
+* [https://github.com/uiwjs/uiw](https://github.com/uiwjs/uiw)
 * [https://github.com/alibaba/ice](https://github.com/alibaba/ice)
 * [https://github.com/tannerlinsley/react-query](https://github.com/tannerlinsley/react-query)
 * [https://github.com/Shopify/hydrogen](https://github.com/Shopify/hydrogen)
@@ -146,6 +147,7 @@
 * [https://github.com/ElemeFE/element](https://github.com/ElemeFE/element)
 * [https://github.com/mint-ui](https://github.com/mint-ui)
 * [https://github.com/varletjs/varlet](https://github.com/varletjs/varlet)
+* [https://github.com/ElementUI](https://github.com/ElementUI)
 
 
 
@@ -161,6 +163,7 @@
 - 表格 [https://github.com/handsontable](https://github.com/handsontable)
 - [https://github.com/nathantsoi/vue-native-websocket](https://github.com/nathantsoi/vue-native-websocket)
 - JSON生成SQL [https://github.com/liyupi/sql-generator](https://github.com/liyupi/sql-generator)
+- 验证 [https://github.com/logaretm/vee-validate](https://github.com/logaretm/vee-validate)
 
 
 **Mobile**
@@ -346,6 +349,7 @@ $('div:contains("test"):not(:has(*)):last').css('background-color', 'red');
 * [https://github.com/rampatra/animatescroll.js](https://github.com/rampatra/animatescroll.js)
 * [https://github.com/wmh/jquery-scrollbox](https://github.com/wmh/jquery-scrollbox)
 * [https://github.com/omcg33/jquery.limarquee](https://github.com/omcg33/jquery.limarquee)
+* [https://github.com/kamranahmedse/jquery-toast-plugin](https://github.com/kamranahmedse/jquery-toast-plugin)
 * 分页 [https://github.com/superRaytin/paginationjs](https://github.com/superRaytin/paginationjs)
 * 视频播放 [https://github.com/jplayer/jPlayer](https://github.com/jplayer/jPlayer)
 * 弹幕 [https://github.com/chiruom/jquery.danmu.js](https://github.com/chiruom/jquery.danmu.js)
@@ -380,6 +384,7 @@ $('div:contains("test"):not(:has(*)):last').css('background-color', 'red');
 * [https://github.com/madrobby/zepto](https://github.com/madrobby/zepto)
 * [https://github.com/ded/script.js](https://github.com/ded/script.js)
 * [https://github.com/malsup/blockui](https://github.com/malsup/blockui)
+* [https://github.com/onokumus/metisMenu](https://github.com/onokumus/metisMenu)
 
 
 - [https://github.com/jakerella/jquery-mockjax](https://github.com/jakerella/jquery-mockjax)

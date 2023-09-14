@@ -159,6 +159,7 @@
 + [https://github.com/inferred/FreeBuilder](https://github.com/inferred/FreeBuilder)
 + [https://github.com/RichardWarburton/lambda-behave](https://github.com/RichardWarburton/lambda-behave)
 + [https://github.com/jasongoodwin/better-java-monads](https://github.com/jasongoodwin/better-java-monads)
++ [https://github.com/functionaljava/functionaljava](https://github.com/functionaljava/functionaljava)
 + 规则引擎 [https://github.com/j-easy](https://github.com/j-easy)
     + [Java规则引擎 Easy Rules](https://www.cnblogs.com/cjsblog/archive/2020/06/11/13088017.html)
 + 并发数据结构 [https://github.com/JCTools/JCTools](https://github.com/JCTools/JCTools)
@@ -482,7 +483,7 @@
 
 
 
-**测试**
+**测试/mock/faker**
 
 + [https://github.com/topics/mock](https://github.com/topics/mock)
 + [https://github.com/topics/mock-data](https://github.com/topics/mock-data)
@@ -493,7 +494,7 @@
 + [https://github.com/topics/data-generation](https://github.com/topics/data-generation)
 
 
-> 所谓的mock就是创建一个类的虚假的对象，在测试环境中，用来替换掉真实的对象，以达到两大目的：
+> 所谓的mock就是创建一个类的虚假的对象，以达到expect-run-verify （期望-运行-验证）：
 > 1. 验证这个对象的某些方法的调用情况，调用了多少次，参数是什么等等;
 > 2. 指定这个对象的某些方法的行为，返回特定的值，或者是执行特定的动作
 
@@ -501,23 +502,24 @@
     * [https://sourceforge.net/projects/dbunit](https://sourceforge.net/projects/dbunit)
     * [https://github.com/piotrturski/zohhak](https://github.com/piotrturski/zohhak)
 * [https://github.com/jqwik-team](https://github.com/jqwik-team)
+* [https://github.com/easymock](https://github.com/easymock)
 * [https://github.com/powermock/powermock](https://github.com/powermock/powermock)
+* [https://github.com/mockito](https://github.com/mockito)
+* [https://github.com/jmock-developers](https://github.com/jmock-developers)
+* [https://github.com/jmockit](https://github.com/jmockit)
 * [https://github.com/houbb/junitperf](https://github.com/houbb/junitperf)
-* 测试 [https://github.com/testcontainers](https://github.com/testcontainers)
+* [https://github.com/testcontainers](https://github.com/testcontainers)
 * [https://github.com/testsigmahq](https://github.com/testsigmahq)
 * [https://github.com/mock-server](https://github.com/mock-server)
 * [https://github.com/GraphWalker](https://github.com/GraphWalker)
 * [https://github.com/dreamhead/moco](https://github.com/dreamhead/moco)
-* 单元测试 [https://github.com/mockito](https://github.com/mockito)
 * [https://github.com/spockframework](https://github.com/spockframework)
-* [https://github.com/jmock-developers](https://github.com/jmock-developers)
 * [https://github.com/cbeust/testng](https://github.com/cbeust/testng)
 * [https://github.com/google/truth](https://github.com/google/truth)
 * [https://github.com/arquillian](https://github.com/arquillian)
 * [https://github.com/awaitility/awaitility](https://github.com/awaitility/awaitility)
 * [https://github.com/wiremock/wiremock](https://github.com/wiremock/wiremock)
 * [https://github.com/TNG/ArchUnit](https://github.com/TNG/ArchUnit)
-* [https://github.com/jmockit](https://github.com/jmockit)
 * [https://github.com/jumper2014/fast-test](https://github.com/jumper2014/fast-test)
 * 生成测试数据 [https://github.com/jsonzou/jmockdata](https://github.com/jsonzou/jmockdata)
 * [https://github.com/szpak/mockito-java8](https://github.com/szpak/mockito-java8)
@@ -529,7 +531,6 @@
 * [https://github.com/Double-O-Seven/stubr](https://github.com/Double-O-Seven/stubr)
 * [https://github.com/autonomx](https://github.com/autonomx)
 * [https://github.com/dbunit/dbunit-mirror](https://github.com/dbunit/dbunit-mirror)
-* [https://github.com/easymock](https://github.com/easymock)
 * [https://github.com/datafaker-net/datafaker](https://github.com/datafaker-net/datafaker)
 * [https://github.com/instancio/instancio](https://github.com/instancio/instancio)
 * [https://github.com/Terracotta-OSS/angela](https://github.com/Terracotta-OSS/angela)
@@ -538,7 +539,6 @@
 * [https://github.com/intuit/karate](https://github.com/intuit/karate)
 * [https://github.com/kevin-wang001/mockj](https://github.com/kevin-wang001/mockj)
 * [https://github.com/mtedone/podam](https://github.com/mtedone/podam)
-* 模糊测试
 * [https://gitlab.com/gitlab-org/security-products/analyzers/fuzzers](https://gitlab.com/gitlab-org/security-products/analyzers/fuzzers)
 
 - [https://github.com/mryingjie/common-insert](https://github.com/mryingjie/common-insert)
@@ -553,6 +553,7 @@
 + [https://github.com/topics/shiro](https://github.com/topics/shiro)
     + [https://github.com/johntostring/spring-boot-shiro](https://github.com/johntostring/spring-boot-shiro)
     + [https://github.com/YuxingXie/shiro](https://github.com/YuxingXie/shiro)
+    + [https://github.com/waylau/apache-shiro-1.2.x-reference](https://github.com/waylau/apache-shiro-1.2.x-reference)
 + [https://github.com/resteasy](https://github.com/resteasy)
 + [https://github.com/vaadin](https://github.com/vaadin)
 + [https://github.com/allwefantasy/ServiceFramework](https://github.com/allwefantasy/ServiceFramework)

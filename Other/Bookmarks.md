@@ -61,7 +61,7 @@
     * [https://www.adobe.io/open](https://www.adobe.io/open)
 * [https://github.com/redhatofficial](https://github.com/redhatofficial)
     * [https://redhatofficial.github.io](https://redhatofficial.github.io)
-
+* [https://github.com/airbnb](https://github.com/airbnb)
 
 
 - [https://github.com/TogetherOS](https://github.com/TogetherOS)
@@ -142,6 +142,8 @@
 + [https://github.com/topics/awesome-list](https://github.com/topics/awesome-list)
 
 
+* [https://github.com/trackawesomelist/trackawesomelist](https://github.com/trackawesomelist/trackawesomelist)
+    * [https://www.trackawesomelist.com](https://www.trackawesomelist.com)
 * [https://awesomeopensource.com](https://awesomeopensource.com)
 * [https://github.com/sindresorhus/awesome](https://github.com/sindresorhus/awesome)
 * [https://github.com/icopy-site/awesome-cn](https://github.com/icopy-site/awesome-cn)
@@ -149,6 +151,7 @@
 * [https://github.com/polaris1119/awesome-cheatsheets-cn](https://github.com/polaris1119/awesome-cheatsheets-cn)
 * [https://github.com/rstacruz/cheatsheets](https://github.com/rstacruz/cheatsheets)
 * 学习主题清单 [https://github.com/jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
+* [https://github.com/YuzheSHI/awesome-agi-cocosci](https://github.com/YuzheSHI/awesome-agi-cocosci)
 * [https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh](https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh)
 * [https://github.com/yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)
 * [https://github.com/practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning)
@@ -233,6 +236,11 @@
 * [设计师口袋心理学](https://iason.notion.site/6719c7650fd1406c92287f556520fbc3)
 * [认知偏差知识手册](https://s75w5y7vut.feishu.cn/docs/doccn3BatnScBJe7wD7K3S5poFf)
 * [认知偏差](https://colossal-riddle-1431.glideapp.io)
+* [https://github.com/debitCrossBlockchain/renzhengfei](https://github.com/debitCrossBlockchain/renzhengfei)
+* [https://github.com/fenwii/huaweimind](https://github.com/fenwii/huaweimind)
+* [https://github.com/xiaolai/everyone-can-use-english](https://github.com/xiaolai/everyone-can-use-english)
+* [https://github.com/PKUanonym/REKCARC-TSC-UHT](https://github.com/PKUanonym/REKCARC-TSC-UHT)
+* [https://github.com/QSCTech/zju-icicles](https://github.com/QSCTech/zju-icicles)
 
 
 

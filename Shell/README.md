@@ -16,9 +16,11 @@
 - [https://github.com/idank/explainshell](https://github.com/idank/explainshell)
 - [https://www.shellscript.sh](https://www.shellscript.sh)
 - [https://math.ecnu.edu.cn/~jypan/Teaching/Linux](https://math.ecnu.edu.cn/~jypan/Teaching/Linux)
+- [https://github.com/qinjx/30min_guides](https://github.com/qinjx/30min_guides)
 - GUI [什么是X11-Forwarding](https://blog.csdn.net/weixin_41668084/article/details/113361765)
 - 命令行基准测试工具 [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
     - [https://github.com/chinanf-boy/hyperfine-zh](https://github.com/chinanf-boy/hyperfine-zh)
+
 
 
 

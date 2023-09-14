@@ -143,6 +143,7 @@ volumes:
 
 + [https://github.com/github](https://github.com/github)
 + 预览项目HTML [https://github.com/htmlpreview/htmlpreview.github.com](https://github.com/htmlpreview/htmlpreview.github.com)
++ 生成更新日志 [https://github.com/shipkit/shipkit-changelog](https://github.com/shipkit/shipkit-changelog)
 
 
 * GitHub漫游指南 [https://github.com/phodal/github](https://github.com/phodal/github)

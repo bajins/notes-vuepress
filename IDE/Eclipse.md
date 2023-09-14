@@ -198,7 +198,7 @@
 - 按`@`不提示注解：`Window` -> `Preferences` -> `Java` -> `Editor` -> `Content Assist`
    - `Advanced` 下把`java Proposals`勾上
    - `Enable non-blocking completion(does not affect open editors)` 启用非阻塞完成（不影响打开的编辑器）
-- `Window` -> `Preferences` -> `Java` -> `Editor` -> `Mark Occurences`
+- 高亮显示 `Window` -> `Preferences` -> `Java` -> `Editor` -> `Mark Occurences`
    - `Mark occurrences of the selected element in the current file.` 高亮显示选中的相同变量
 
 

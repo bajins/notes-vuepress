@@ -18,6 +18,7 @@
 + [https://github.com/XboxYan](https://github.com/XboxYan)
 + [https://github.com/yued-fe](https://github.com/yued-fe)
 + [https://github.com/ibm-js](https://github.com/ibm-js)
++ [https://github.com/sorrycc/awesome-javascript](https://github.com/sorrycc/awesome-javascript)
 
 
 * [NPM依赖：类库工具](https://www.jianshu.com/p/2a127cfba1cf)
@@ -86,6 +87,7 @@
 * [https://github.com/openstreetmap](https://github.com/openstreetmap)
 * book阅读 [https://github.com/johnfactotum/foliate](https://github.com/johnfactotum/foliate)
 * 并发 [https://github.com/rxaviers/async-pool](https://github.com/rxaviers/async-pool)
+* [https://github.com/caolan/async](https://github.com/caolan/async)
 * 控制导入行为 [https://github.com/WICG/import-maps](https://github.com/WICG/import-maps)
 * [https://github.com/humanwhocodes/module-importer](https://github.com/humanwhocodes/module-importer)
 * 进度 [https://github.com/search?q=progress](https://github.com/search?q=progress)
@@ -100,6 +102,8 @@
 * 状态管理 [https://github.com/statelyai/xstate](https://github.com/statelyai/xstate)
 * iFrame宽高自适应 [https://github.com/davidjbradshaw/iframe-resizer](https://github.com/davidjbradshaw/iframe-resizer)
 * 运行C/C++代码 [https://github.com/luoxuhai/clang.js](https://github.com/luoxuhai/clang.js)
+* 汉字拼音 [https://github.com/hotoo/pinyin](https://github.com/hotoo/pinyin)
+* 甘特图 [https://github.com/frappe/gantt](https://github.com/frappe/gantt)
 
 
 
@@ -177,6 +181,8 @@
 * [https://github.com/jakearchibald/idb-keyval](https://github.com/jakearchibald/idb-keyval)
 * [https://github.com/ujjwalguptaofficial/JsStore](https://github.com/ujjwalguptaofficial/JsStore)
 * [https://github.com/google/lovefield](https://github.com/google/lovefield)
+* [https://github.com/dexie/Dexie.js](https://github.com/dexie/Dexie.js)
+* [https://github.com/pamelafox/lscache](https://github.com/pamelafox/lscache)
 
 
 
@@ -195,6 +201,7 @@
 - [https://github.com/facebook/lexical](https://github.com/facebook/lexical)
 - [https://github.com/AykutSarac/jsonvisio.com](https://github.com/AykutSarac/jsonvisio.com)
 - [https://github.com/Hufe921/canvas-editor](https://github.com/Hufe921/canvas-editor)
+- [https://github.com/Alex-D/Trumbowyg](https://github.com/Alex-D/Trumbowyg)
 
 
 
@@ -206,6 +213,8 @@
 
 * [https://github.com/emmetio](https://github.com/emmetio)
 * [http://github.com/mootools](http://github.com/mootools)
+* [https://github.com/sdkcarlos](https://github.com/sdkcarlos)
+* [https://github.com/jrainlau](https://github.com/jrainlau)
 * [https://github.com/liriliri/licia](https://github.com/liriliri/licia)
 * [https://github.com/lodash/lodash](https://github.com/lodash/lodash)
 * [https://github.com/jashkenas](https://github.com/jashkenas)
@@ -217,6 +226,7 @@
 * 工具库 [https://github.com/tnfe/bbo](https://github.com/tnfe/bbo)
 * [https://github.com/blitz-js](https://github.com/blitz-js)
 * 转换HTML/XML [https://github.com/posthtml/posthtml](https://github.com/posthtml/posthtml)
+* [https://github.com/cheeriojs/cheerio](https://github.com/cheeriojs/cheerio)
 * 幻灯片 [https://github.com/webslides/webslides](https://github.com/webslides/webslides)
 * [https://github.com/gnab/remark](https://github.com/gnab/remark)
 * 正则表达式 [https://github.com/slevithan/XRegExp](https://github.com/slevithan/XRegExp)
@@ -229,6 +239,7 @@
 * JSON校验 [https://github.com/ozkxr/match-json](https://github.com/ozkxr/match-json)
 * 二维码 [https://github.com/ciaochaos/qrbtf](https://github.com/ciaochaos/qrbtf)
 * 随机数 [https://github.com/ChrisCavs/aimless.js](https://github.com/ChrisCavs/aimless.js)
+* Promise [https://github.com/petkaantonov/bluebird](https://github.com/petkaantonov/bluebird)
 
 
 - 数字精度 [https://github.com/topics/arbitrary-precision](https://github.com/topics/arbitrary-precision)
@@ -262,6 +273,7 @@
 * [https://github.com/hustcc/timeago.js](https://github.com/hustcc/timeago.js)
 * [https://github.com/flatpickr](https://github.com/flatpickr)
 * [https://github.com/fullcalendar/fullcalendar](https://github.com/fullcalendar/fullcalendar)
+* [https://github.com/uxsolutions/bootstrap-datepicker](https://github.com/uxsolutions/bootstrap-datepicker)
 
 
 **HTTP**
@@ -273,6 +285,7 @@
 * [https://github.com/axios/axios](https://github.com/axios/axios)
 * [https://github.com/umijs/umi-request](https://github.com/umijs/umi-request)
 * [https://github.com/seanmonstar/reqwest](https://github.com/seanmonstar/reqwest)
+* [https://github.com/ladjs/superagent](https://github.com/ladjs/superagent)
 * 在html元素绑定请求 [https://github.com/bigskysoftware/intercooler-js](https://github.com/bigskysoftware/intercooler-js)
 * [https://github.com/bigskysoftware/htmx](https://github.com/bigskysoftware/htmx)
 * [https://github.com/js-cookie](https://github.com/js-cookie)
@@ -325,6 +338,7 @@
 * [https://github.com/ag-grid/ag-grid](https://github.com/ag-grid/ag-grid)
 * [https://github.com/future-architect/cheetah-grid](https://github.com/future-architect/cheetah-grid)
 * [https://github.com/alibaba/x-render](https://github.com/alibaba/x-render)
+* [https://github.com/TonyGermaneri/canvas-datagrid](https://github.com/TonyGermaneri/canvas-datagrid)
 
 
 **拖动/拖拽/拖放**

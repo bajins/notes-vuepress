@@ -110,6 +110,7 @@
 * [https://github.com/golang101/golang101](https://github.com/golang101/golang101)
 * [https://github.com/yongxinz/gopher](https://github.com/yongxinz/gopher)
 * [https://github.com/gocn](https://github.com/gocn)
+* [https://github.com/astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang)
 * 日报 [https://github.com/bigwhite/gopherdaily](https://github.com/bigwhite/gopherdaily)
 
 

@@ -136,6 +136,7 @@
 * [https://github.com/windicss/windicss](https://github.com/windicss/windicss)
 * [https://github.com/tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss)
     * [https://www.tailwindcss.cn](https://www.tailwindcss.cn)
+    * [https://github.com/mdbootstrap/Tailwind-Elements](https://github.com/mdbootstrap/Tailwind-Elements)
 * [https://github.com/sailboatui/sailboatui](https://github.com/sailboatui/sailboatui)
 * [https://github.com/dufu1991/stdf](https://github.com/dufu1991/stdf)
 * [https://github.com/FullHuman/purgecss](https://github.com/FullHuman/purgecss)
@@ -154,6 +155,7 @@
 * [https://www.flaticon.com/authors/freepik](https://www.flaticon.com/authors/freepik)
 * [https://glyphicons.com](https://glyphicons.com)
 * [https://iconbuddy.app](https://iconbuddy.app)
+* [https://useanimations.com](https://useanimations.com)
 
 
 - [最受程序员欢迎的 20 个 CSS 框架](https://www.fuocu.cn/archives/css-frame)

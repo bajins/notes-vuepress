@@ -34,6 +34,9 @@
 * [https://github.com/pycco-docs/pycco](https://github.com/pycco-docs/pycco)
 * [https://github.com/Python-Markdown/markdown](https://github.com/Python-Markdown/markdown)
 * [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
+* [https://github.com/missive/emoji-mart](https://github.com/missive/emoji-mart)
+* [https://github.com/rickstaa/github-emoji-picker](https://github.com/rickstaa/github-emoji-picker)
+* [https://github.com/Awes0meM4n/Awes0meM4n.github.io](https://github.com/Awes0meM4n/Awes0meM4n.github.io)
 
 
 
@@ -547,6 +550,7 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/aguang-xyz/aurora-editor](https://github.com/aguang-xyz/aurora-editor)
 * 笔记 [https://github.com/laurent22/joplin](https://github.com/laurent22/joplin)
 * [https://github.com/evernote](https://github.com/evernote)
+* [https://github.com/leanote](https://github.com/leanote)
 * [https://github.com/zadam/trilium](https://github.com/zadam/trilium)
 * [https://github.com/flxzt/rnote](https://github.com/flxzt/rnote)
 * [https://github.com/pbek/QOwnNotes](https://github.com/pbek/QOwnNotes)

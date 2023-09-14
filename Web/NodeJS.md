@@ -69,6 +69,7 @@
 
 + [https://github.com/parro-it/awesome-micro-npm-packages](https://github.com/parro-it/awesome-micro-npm-packages)
 + [https://github.com/TanninOne](https://github.com/TanninOne)
++ [https://github.com/dylang](https://github.com/dylang)
 
 
 * [https://github.com/eggjs/egg](https://github.com/eggjs/egg)

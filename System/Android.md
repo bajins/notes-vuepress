@@ -231,6 +231,8 @@
 + [https://github.com/Trinea/android-open-project](https://github.com/Trinea/android-open-project)
 
 
+* [https://github.com/chrisbanes](https://github.com/chrisbanes)
+* [https://github.com/JakeWharton](https://github.com/JakeWharton)
 * [https://github.com/hehonghui](https://github.com/hehonghui)
 * [https://github.com/dlew](https://github.com/dlew)
 * [https://github.com/litao0621](https://github.com/litao0621)
@@ -304,6 +306,7 @@
 * [https://github.com/dmytrodanylyk/circular-progress-button](https://github.com/dmytrodanylyk/circular-progress-button)
 * [https://github.com/material-components](https://github.com/material-components)
 * [https://github.com/lapism/search](https://github.com/lapism/search)
+* [https://github.com/airbnb/lottie-android](https://github.com/airbnb/lottie-android)
 * 多点触控 [https://github.com/DeviceFarmer/minitouch](https://github.com/DeviceFarmer/minitouch)
 * [https://github.com/MaaAssistantArknights/MaaTouch](https://github.com/MaaAssistantArknights/MaaTouch)
 * 密码存储 [https://github.com/android-password-store](https://github.com/android-password-store)
