@@ -27,7 +27,7 @@
 > 所以真正的参数从下标`2`开始`process.argv.splice(2)`
 
 
-* 纯JavaScript实现 [https://github.com/jsdom/jsdom](https://github.com/jsdom/jsdom)
+* Web标准实现 [https://github.com/jsdom/jsdom](https://github.com/jsdom/jsdom)
 * [https://github.com/stylus](https://github.com/stylus)
 * [2023年最受欢迎的node.js框架](https://stackdiary.com/node-js-frameworks)
 

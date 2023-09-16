@@ -35,6 +35,7 @@
     + [https://chromium.googlesource.com](https://chromium.googlesource.com)
     + [https://www.chromium.org](https://www.chromium.org)
     + [https://source.chromium.org](https://source.chromium.org)
+    + 权限访问示例 [https://github.com/chromium/permission.site](https://github.com/chromium/permission.site)
 + [https://github.com/googlechrome](https://github.com/googlechrome)
     + [https://github.com/GoogleChrome/web.dev](https://github.com/GoogleChrome/web.dev)
 

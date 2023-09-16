@@ -370,6 +370,7 @@
 * [https://github.com/netnr/scriptservices](https://github.com/netnr/scriptservices)
 * 媒体服务器 [https://github.com/MediaBrowser/Emby.Releases](https://github.com/MediaBrowser/Emby.Releases)
 * [https://github.com/jellyfin/jellyfin](https://github.com/jellyfin/jellyfin)
+* 证件照 [https://github.com/zhbhun/idify](https://github.com/zhbhun/idify)
 
 
 

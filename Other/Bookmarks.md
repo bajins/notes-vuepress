@@ -320,6 +320,7 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 - 超高无损音乐网 [https://www.sq688.com](https://www.sq688.com)
 - 无损音乐免费下载 [http://www.51ape.com](http://www.51ape.com)
 - [http://tool.liumingye.cn/music](http://tool.liumingye.cn/music)
+- 音频学习 [https://www.eartrainx.com](https://www.eartrainx.com)
 
 
 

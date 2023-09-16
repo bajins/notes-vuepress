@@ -174,6 +174,7 @@
     - [https://github.com/AndyObtiva/glimmer](https://github.com/AndyObtiva/glimmer)
     - [https://github.com/headius](https://github.com/headius)
     - [https://github.com/caxlsx/caxlsx](https://github.com/caxlsx/caxlsx)
+    - 手写签字 [https://github.com/docusealco/docuseal](https://github.com/docusealco/docuseal)
 - 动态函数式语言 [https://github.com/elixir-lang/elixir](https://github.com/elixir-lang/elixir)
     - [https://github.com/elixirschool](https://github.com/elixirschool)
     - [https://github.com/phoenixframework/phoenix](https://github.com/phoenixframework/phoenix)
@@ -293,6 +294,7 @@
 * [https://github.com/basarat/typescript-book](https://github.com/basarat/typescript-book)
 
 
+- [https://github.com/lgarron](https://github.com/lgarron)
 - [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)
 - 静态分析 [https://github.com/kaleidawave/ezno](https://github.com/kaleidawave/ezno)
 - [https://github.com/total-typescript/ts-reset](https://github.com/total-typescript/ts-reset)

@@ -13,6 +13,7 @@
 * [https://github.com/dunwu/db-tutorial](https://github.com/dunwu/db-tutorial)
 * [https://docs.aws.amazon.com/zh_cn/redshift/latest/dg/cm_chap_SQLCommandRef.html](https://docs.aws.amazon.com/zh_cn/redshift/latest/dg/cm_chap_SQLCommandRef.html)
 * [https://www.alibabacloud.com/help/zh/analyticdb-for-mysql/latest/sql-manual](https://www.alibabacloud.com/help/zh/analyticdb-for-mysql/latest/sql-manual)
+* [https://github.com/prisma/dataguide](https://github.com/prisma/dataguide)
 * 自学SQL网 [http://xuesql.cn](http://xuesql.cn)
 * 数据库压测 [https://github.com/akopytov/sysbench](https://github.com/akopytov/sysbench)
 * [https://github.com/stcarrez/sql-benchmark](https://github.com/stcarrez/sql-benchmark)
