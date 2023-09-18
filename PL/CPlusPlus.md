@@ -156,7 +156,6 @@
 * 编码检测 [https://github.com/freedesktop/uchardet](https://github.com/freedesktop/uchardet)
 * [https://github.com/simdutf/simdutf](https://github.com/simdutf/simdutf)
 * 游戏引擎 [https://github.com/minetest/minetest](https://github.com/minetest/minetest)
-* Web缓存 [https://github.com/squid-cache/squid](https://github.com/squid-cache/squid)
 * 地理位置 [https://github.com/qgis/QGIS](https://github.com/qgis/QGIS)
 * 图片编解码 [Codec comparison](https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html)
     * [https://jpeg.org](https://jpeg.org)

@@ -14,6 +14,7 @@
 * [https://docs.aws.amazon.com/zh_cn/redshift/latest/dg/cm_chap_SQLCommandRef.html](https://docs.aws.amazon.com/zh_cn/redshift/latest/dg/cm_chap_SQLCommandRef.html)
 * [https://www.alibabacloud.com/help/zh/analyticdb-for-mysql/latest/sql-manual](https://www.alibabacloud.com/help/zh/analyticdb-for-mysql/latest/sql-manual)
 * [https://github.com/prisma/dataguide](https://github.com/prisma/dataguide)
+* [https://github.com/digoal/blog](https://github.com/digoal/blog)
 * 自学SQL网 [http://xuesql.cn](http://xuesql.cn)
 * 数据库压测 [https://github.com/akopytov/sysbench](https://github.com/akopytov/sysbench)
 * [https://github.com/stcarrez/sql-benchmark](https://github.com/stcarrez/sql-benchmark)
@@ -252,7 +253,7 @@
     * [https://infinitegraph.com](https://infinitegraph.com)
     * [https://github.com/objectivity/JavaULBTraining](https://github.com/objectivity/JavaULBTraining)
 * [https://allegrograph.com](https://allegrograph.com)
-
+* [https://github.com/dgraph-io/badger](https://github.com/dgraph-io/badger)
 
 
 

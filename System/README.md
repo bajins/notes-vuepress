@@ -243,6 +243,9 @@
     * [LVS nat模式和DR模式简介](https://blog.51cto.com/u_11566825/2130705)
     * [VIP和RIP不同网段的LVS和keepalived高可用](https://blog.51cto.com/bbotte/1584925)
 * [https://github.com/tinyproxy/tinyproxy](https://github.com/tinyproxy/tinyproxy)
+* 缓存代理 [https://github.com/squid-cache/squid](https://github.com/squid-cache/squid)
+* [https://github.com/varnishcache/varnish-cache](https://github.com/varnishcache/varnish-cache)
+* [https://github.com/varnish](https://github.com/varnish)
 
 
 

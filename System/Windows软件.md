@@ -75,8 +75,14 @@
 
 > E2EE(端到端加密)：[Diffie-Hellman](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)密钥交换算法、AES(-CBC)对称加密算法
 
-+ Fediverse
++ [https://github.com/emilebosch/awesome-fediverse](https://github.com/emilebosch/awesome-fediverse)
 + [https://github.com/landrok/activitypub](https://github.com/landrok/activitypub)
++ [https://github.com/bluesky-social](https://github.com/bluesky-social)
++ [https://github.com/erskingardner/nostr-how](https://github.com/erskingardner/nostr-how)
++ [https://gitlab.com/minds/minds](https://gitlab.com/minds/minds)
+    + [https://github.com/Minds/minds](https://github.com/Minds/minds)
++ [https://github.com/aethereans](https://github.com/aethereans)
++ [https://github.com/diaspora](https://github.com/diaspora)
 
 
 * [https://github.com/keybase](https://github.com/keybase)
@@ -96,9 +102,9 @@
 * P2P [https://github.com/berty/berty](https://github.com/berty/berty)
 * [https://github.com/matrix-org](https://github.com/matrix-org)
     * [https://gitlab.matrix.org/matrix-org](https://gitlab.matrix.org/matrix-org)
+    * [https://github.com/vector-im](https://github.com/vector-im)
 * [https://github.com/GetStream](https://github.com/GetStream)
 * [https://github.com/RocketChat](https://github.com/RocketChat)
-* [https://github.com/vector-im](https://github.com/vector-im)
 * [https://github.com/TrevorAttema/OTGMessenger](https://github.com/TrevorAttema/OTGMessenger)
 * [https://github.com/igniterealtime](https://github.com/igniterealtime)
 * [https://github.com/chatwoot](https://github.com/chatwoot)
@@ -125,6 +131,7 @@
 * [https://github.com/vasanthv/talk](https://github.com/vasanthv/talk)
 * [https://github.com/OpenIMSDK](https://github.com/OpenIMSDK)
 * [https://github.com/katzenpost/katzenpost](https://github.com/katzenpost/katzenpost)
+* [https://github.com/dtube](https://github.com/dtube)
 
 
 - [https://github.com/topics/curses](https://github.com/topics/curses)
@@ -133,9 +140,8 @@
 - [https://github.com/irssi/irssi](https://github.com/irssi/irssi)
 - [https://github.com/fonoster/fonoster](https://github.com/fonoster/fonoster)
 - Instagram [https://github.com/jigar-sable/instagram-mern](https://github.com/jigar-sable/instagram-mern)
-- 类twitter [https://github.com/bluesky-social/adx](https://github.com/bluesky-social/adx)
-- [https://github.com/lensterxyz/lenster](https://github.com/lensterxyz/lenster)
 - [https://github.com/Linen-dev](https://github.com/Linen-dev)
+- [https://github.com/lensterxyz/lenster](https://github.com/lensterxyz/lenster)
 
 
 **Telegram**
@@ -813,6 +819,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://mail.163.com/dashi](https://mail.163.com/dashi)
 * [https://sparkmailapp.com](https://sparkmailapp.com)
 * [http://help.cy-email.com](http://help.cy-email.com)
+* [https://github.com/ProtonMail](https://github.com/ProtonMail)
 * The Bat [https://www.ritlabs.com](https://www.ritlabs.com)
 * Outlook 使用时有自动删除邮件的BUG
 

@@ -87,6 +87,7 @@
 * [https://github.com/makew0rld/amfora](https://github.com/makew0rld/amfora)
 * [https://github.com/pinnaculum/galacteek](https://github.com/pinnaculum/galacteek)
 * [https://github.com/ranfdev/Geopard](https://github.com/ranfdev/Geopard)
+* [https://github.com/Alex313031/Thorium](https://github.com/Alex313031/Thorium)
 
 
 

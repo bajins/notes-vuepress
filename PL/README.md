@@ -225,6 +225,7 @@
 + [https://github.com/lampepfl/dotty](https://github.com/lampepfl/dotty)
 
 
+* [https://github.com/plokhotnyuk/jsoniter-scala](https://github.com/plokhotnyuk/jsoniter-scala)
 * 静态代码分析 [https://github.com/scalastyle/scalastyle](https://github.com/scalastyle/scalastyle)
 * [https://github.com/scala-js/scala-js](https://github.com/scala-js/scala-js)
     * [https://github.com/akka-js/akka.js](https://github.com/akka-js/akka.js)

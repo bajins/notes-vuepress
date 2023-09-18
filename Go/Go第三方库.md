@@ -66,7 +66,6 @@
 * JSON解析器 [https://github.com/json-iterator](https://github.com/json-iterator)
 * [https://github.com/mailru/easyjson](https://github.com/mailru/easyjson)
 * [https://github.com/minio/simdjson-go](https://github.com/minio/simdjson-go)
-* [https://github.com/json-iterator/go](https://github.com/json-iterator/go)
 * [https://github.com/goccy/go-json](https://github.com/goccy/go-json)
 * [https://github.com/deckarep/golang-set](https://github.com/deckarep/golang-set)
 * [https://github.com/chenhg5/collection](https://github.com/chenhg5/collection)
@@ -228,6 +227,8 @@
 * 日志 [https://github.com/go-clog](https://github.com/go-clog)
 * 国际化 [https://github.com/go-i18n](https://github.com/go-i18n)
 * GO编译为JS [https://github.com/gopherjs](https://github.com/gopherjs)
+* UPnP [https://github.com/huin/goupnp](https://github.com/huin/goupnp)
+    * [https://gitlab.com/NebulousLabs/go-upnp](https://gitlab.com/NebulousLabs/go-upnp)
 
 
 
