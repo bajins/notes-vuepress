@@ -29,6 +29,7 @@
 - [https://github.com/piomin](https://github.com/piomin)
 
 
+* [spring boot项目，需要写一个接口吗？](https://www.cnblogs.com/pickupmemories/p/16570511.html)
 * [SpringCloud和Dubbo](https://www.jianshu.com/p/9fa24196d2ad)
 * [SpringCache自定义过期时间及自动刷新](https://www.cnblogs.com/top-housekeeper/p/11980973.html)
 * [Spring揭秘学习笔记](https://blog.csdn.net/qq_34626094/category_11731455.html)
