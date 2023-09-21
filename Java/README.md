@@ -5,16 +5,6 @@
 
 ## Flag
 
-- [Michael Redlich-Java近期新闻](https://www.infoq.cn/profile/416A67CDBAA4DC)
-- [Java版本比较](https://mp.weixin.qq.com/s/NEfqPXrcq6O1p7RLf9LWCw)
-- [Java 9-16 新增语法元素一览](https://segmentfault.com/a/1190000039714550)
-- [Java 速查手册](https://bbs.csdn.net/topics/609815996)
-
-
-> [JEP](http://openjdk.java.net/jeps/0)的全称就是`JDK Enhancement Proposals`，简单点讲就像是一个个对JAVA进行改进提案，
-> 这些提案会在合适的时间合适的地点被加入JDK的特定版本。
-
-
 + [https://github.com/topics/java](https://github.com/topics/java)
 + [https://github.com/jcp-org](https://github.com/jcp-org)
 + [https://docs.oracle.com](https://docs.oracle.com)
@@ -25,11 +15,24 @@
     + [https://docs.oracle.com/javase/7/docs](https://docs.oracle.com/javase/7/docs)
     + [JavaBeans 规范](https://www.oracle.com/cn/java/technologies/javase/javabeans-spec.html)
 + [https://github.com/eclipse-ee4j](https://github.com/eclipse-ee4j)
+    + [https://projects.eclipse.org/list-of-projects](https://projects.eclipse.org/list-of-projects)
+    + [https://github.com/eclipse-ditto](https://github.com/eclipse-ditto)
++ [https://github.com/jakartaee](https://github.com/jakartaee)
     + [https://github.com/javaee](https://github.com/javaee)
     + [https://projects.eclipse.org/jakartaee](https://projects.eclipse.org/jakartaee)
-    + [javaEE和javaweb的区别？](https://www.zhihu.com/question/52002845)
-+ [https://github.com/jakartaee](https://github.com/jakartaee)
+    + [https://jakarta.ee/zh/specifications](https://jakarta.ee/zh/specifications)
+    + [https://github.com/OmniFish-EE](https://github.com/OmniFish-EE)
 
+
+- [Michael Redlich-Java近期新闻](https://www.infoq.cn/profile/416A67CDBAA4DC)
+- [Java版本比较](https://mp.weixin.qq.com/s/NEfqPXrcq6O1p7RLf9LWCw)
+- [Java 9-16 新增语法元素一览](https://segmentfault.com/a/1190000039714550)
+- [Java 速查手册](https://bbs.csdn.net/topics/609815996)
+- [javaEE和javaweb的区别？](https://www.zhihu.com/question/52002845)
+
+
+> [JEP](http://openjdk.java.net/jeps/0)的全称就是`JDK Enhancement Proposals`，简单点讲就像是一个个对JAVA进行改进提案，
+> 这些提案会在合适的时间合适的地点被加入JDK的特定版本。
 
 * [https://github.com/javaee-samples](https://github.com/javaee-samples)
 * 生成代码 [https://github.com/moshowgame/SpringBootCodeGenerator](https://github.com/moshowgame/SpringBootCodeGenerator)

@@ -14,6 +14,10 @@
     * [https://www.oracle.com/cn/java/technologies/javase-downloads.html](https://www.oracle.com/cn/java/technologies/javase-downloads.html)
     * [https://www.oracle.com/cn/java/technologies/java-ee-glance.html](https://www.oracle.com/cn/java/technologies/java-ee-glance.html)
 * 版本管理 [https://github.com/jingxiang/java-switch](https://github.com/jingxiang/java-switch)
+* [https://github.com/marchof/java-almanac](https://github.com/marchof/java-almanac)
+    * [https://javaalmanac.io](https://javaalmanac.io)
+    * [https://github.com/foojayio](https://github.com/foojayio)
+        * [https://foojay.io/almanac/jdk-21](https://foojay.io/almanac/jdk-21)
 
 
 ## OpenJDK
@@ -42,9 +46,11 @@
     * [https://bell-sw.com/pages/downloads](https://bell-sw.com/pages/downloads)
 * [https://github.com/SAP/SapMachine](https://github.com/SAP/SapMachine)
     * [https://sap.github.io/SapMachine](https://sap.github.io/SapMachine)
-* [https://developer.ibm.com/languages/java](https://developer.ibm.com/languages/java)
+* [https://developer.ibm.com/languages/java/semeru-runtimes/downloads](https://developer.ibm.com/languages/java/semeru-runtimes/downloads)
+    * [https://developer.ibm.com/languages/java](https://developer.ibm.com/languages/java)
     * [https://developer.ibm.com/javasdk](https://developer.ibm.com/javasdk)
 * [https://developers.redhat.com/products/openjdk](https://developers.redhat.com/products/openjdk)
+* [https://www.openlogic.com/openjdk-downloads](https://www.openlogic.com/openjdk-downloads)
 * [https://github.com/microsoft/openjdk](https://github.com/microsoft/openjdk)
     * [https://www.microsoft.com/openjdk](https://www.microsoft.com/openjdk)
     * [https://docs.microsoft.com/zh-cn/java](https://docs.microsoft.com/zh-cn/java)

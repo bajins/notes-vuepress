@@ -83,6 +83,7 @@
     * [https://github.com/teamcode-inc/kubeorbit](https://github.com/teamcode-inc/kubeorbit)
     * [https://github.com/chronolaw/k8s_study](https://github.com/chronolaw/k8s_study)
     * [https://github.com/vmware-tanzu](https://github.com/vmware-tanzu)
+    * [https://github.com/lightrun-platform](https://github.com/lightrun-platform)
 * [https://github.com/openshift](https://github.com/openshift)
 * [https://github.com/rook/rook](https://github.com/rook/rook)
 * [https://github.com/lensapp/lens](https://github.com/lensapp/lens)

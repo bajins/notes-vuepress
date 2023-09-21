@@ -34,6 +34,7 @@
 * 单页网站 [https://github.com/alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js)
 * [http://www.jeasyui.com](http://www.jeasyui.com)
 * [https://github.com/visjs](https://github.com/visjs)
+* [https://github.com/nuejs/nuejs](https://github.com/nuejs/nuejs)
 * 响应式框架 [https://github.com/foundation](https://github.com/foundation)
 * [https://github.com/jorgebucaran/hyperapp](https://github.com/jorgebucaran/hyperapp)
 * [https://github.com/umijs](https://github.com/umijs)

@@ -443,6 +443,7 @@
 * [https://github.com/HubSpot/Singularity](https://github.com/HubSpot/Singularity)
 * [https://github.com/siaorg/sia-task](https://github.com/siaorg/sia-task)
 * [https://github.com/nmyphp/tbschedule](https://github.com/nmyphp/tbschedule)
+* [https://github.com/TimefoldAI](https://github.com/TimefoldAI)
 
 
 - 时间轮（RingBufferWheel）
@@ -509,11 +510,13 @@
 * [https://github.com/jmockit](https://github.com/jmockit)
 * [https://github.com/houbb/junitperf](https://github.com/houbb/junitperf)
 * [https://github.com/testcontainers](https://github.com/testcontainers)
+    * [https://github.com/steadybit/testcontainers](https://github.com/steadybit/testcontainers)
 * [https://github.com/testsigmahq](https://github.com/testsigmahq)
 * [https://github.com/mock-server](https://github.com/mock-server)
 * [https://github.com/GraphWalker](https://github.com/GraphWalker)
 * [https://github.com/dreamhead/moco](https://github.com/dreamhead/moco)
 * [https://github.com/spockframework](https://github.com/spockframework)
+* [https://github.com/jqno/equalsverifier](https://github.com/jqno/equalsverifier)
 * [https://github.com/cbeust/testng](https://github.com/cbeust/testng)
 * [https://github.com/google/truth](https://github.com/google/truth)
 * [https://github.com/arquillian](https://github.com/arquillian)

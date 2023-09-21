@@ -38,6 +38,7 @@
 > `计算机\HKEY_CURRENT_USER\SOFTWARE\JavaSoft\Prefs`
 
 
+- [https://github.com/findtheflow/Feedback](https://github.com/findtheflow/Feedback)
 - ChatGPT [https://gitlab.com/wangsen_job/idea-plugin-iframe](https://gitlab.com/wangsen_job/idea-plugin-iframe)
 - 翻译 [https://github.com/starcwang/easy_javadoc](https://github.com/starcwang/easy_javadoc)
 - [https://github.com/tuchg/ChinesePinyin-CodeCompletionHelper](https://github.com/tuchg/ChinesePinyin-CodeCompletionHelper)
