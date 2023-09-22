@@ -17,6 +17,8 @@
 * [如何在 JavaScript 中清空数组？](https://www.huntsbot.com/qa/rDZ6/how-do-i-empty-an-array-in-javascript)
 * [利用html5读取本地文本文件及图片文件](https://blog.csdn.net/cnds123/article/details/120469779)
 * [探秘神奇的IntersectionObserver：释放网页性能的黑科技！](https://juejin.cn/post/7247045258842996794)
+* [上传文件net::ERR_UPLOAD_FILE_CHANGED](https://stackoverflow.com/questions/61916331/re-uploading-a-file-with-ajax-after-it-was-changed-causes-neterr-upload-file-c)
+
 
 
 **回调地狱**

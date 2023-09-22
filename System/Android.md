@@ -57,6 +57,7 @@
 + [解决雷电/夜神/逍遥模拟器系统5.1以上无法抓包的问题](https://www.52pojie.cn/thread-1505329-1-1.html)
 + PC显示和控制 [https://github.com/Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)
     + [https://github.com/Tomotoes/scrcpy-gui](https://github.com/Tomotoes/scrcpy-gui)
++ HDR和SDR转换 [https://github.com/JonaNorman/HDRSample](https://github.com/JonaNorman/HDRSample)
 
 
 

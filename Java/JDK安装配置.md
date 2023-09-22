@@ -18,6 +18,11 @@
     * [https://javaalmanac.io](https://javaalmanac.io)
     * [https://github.com/foojayio](https://github.com/foojayio)
         * [https://foojay.io/almanac/jdk-21](https://foojay.io/almanac/jdk-21)
+    * [https://github.com/HanSolo/discocli](https://github.com/HanSolo/discocli)
+        * [https://harmoniccode.blogspot.com](https://harmoniccode.blogspot.com)
+* [https://github.com/HanSolo/javafinder](https://github.com/HanSolo/javafinder)
+
+
 
 
 ## OpenJDK
@@ -78,6 +83,7 @@
     - [下一代JVM：GraalVM的十大特性](http://it.deepinmind.com/jvm/2019/08/27/graalvm-ten-things.html)
 - 通用VM [https://github.com/graalvm](https://github.com/graalvm)
     - [https://www.graalvm.org/reference-manual/native-image](https://www.graalvm.org/reference-manual/native-image)
+    - 命令行 [https://github.com/remkop/picocli](https://github.com/remkop/picocli)
 - SubstrateVM [https://github.com/oracle/graal](https://github.com/oracle/graal)
     - [https://github.com/oracle/graaljs](https://github.com/oracle/graaljs)
     - [https://github.com/westinyang/java-graalvm-start](https://github.com/westinyang/java-graalvm-start)

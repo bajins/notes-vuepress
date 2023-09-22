@@ -54,6 +54,8 @@
 * [https://github.com/uber-go](https://github.com/uber-go)
 * [https://github.com/gookit](https://github.com/gookit)
 * [https://github.com/VividCortex](https://github.com/VividCortex)
+* [https://github.com/adrg](https://github.com/adrg)
+* [https://github.com/xdg-go](https://github.com/xdg-go)
 * [https://github.com/xxjwxc/public](https://github.com/xxjwxc/public)
 * [https://github.com/shenghui0779/yiigo](https://github.com/shenghui0779/yiigo)
 * [https://github.com/giampaolo/psutil](https://github.com/giampaolo/psutil)
