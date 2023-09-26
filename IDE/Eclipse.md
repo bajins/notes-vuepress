@@ -481,6 +481,7 @@
    - [eclipse中将项目打包成jar的两种方法，及其问题与解决方法](https://www.cnblogs.com/tianyanzhi/p/8067239.html)
 - [https://sourceforge.net/projects/eclipsetidy](https://sourceforge.net/projects/eclipsetidy)
 - [https://sourceforge.net/projects/eclipse-tools](https://sourceforge.net/projects/eclipse-tools)
+- [https://github.com/sebthom/findview-eclipse-plugin](https://github.com/sebthom/findview-eclipse-plugin)
 - Prettier [https://github.com/TheGreatGooo/EclipsePrettierPlugin](https://github.com/TheGreatGooo/EclipsePrettierPlugin)
 - [https://github.com/AObuchow/Eclipse-Spectrum-Theme](https://github.com/AObuchow/Eclipse-Spectrum-Theme)
 
@@ -504,6 +505,7 @@
 - [https://github.com/cnfree/Eclipse-Class-Decompiler](https://github.com/cnfree/Eclipse-Class-Decompiler)
 - [https://github.com/helospark/import-jar-as-project](https://github.com/helospark/import-jar-as-project)
 - [https://sourceforge.net/projects/drgarbagetools](https://sourceforge.net/projects/drgarbagetools)
+- [https://github.com/helospark/import-jar-as-project](https://github.com/helospark/import-jar-as-project)
 - 测试 [https://github.com/ot4i/perf-harness](https://github.com/ot4i/perf-harness)
 
 
