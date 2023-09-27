@@ -132,6 +132,7 @@
 
 
 - [https://github.com/hoochanlon](https://github.com/hoochanlon)
+- [https://github.com/ttys3](https://github.com/ttys3)
 
 
 
@@ -157,6 +158,7 @@
 * [https://github.com/yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)
 * [https://github.com/practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning)
 * [https://github.com/binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)
+* 学习项目 [https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo)
 * 各种技术主题 [https://github.com/bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises)
 * 学习开发路线图 [https://github.com/kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
     * [https://roadmap.sh](https://roadmap.sh)
@@ -182,18 +184,6 @@
 * 反问面试官 [https://github.com/viraptor/reverse-interview](https://github.com/viraptor/reverse-interview)
 * [https://github.com/vvmdx/Sec-Interview-4-2023](https://github.com/vvmdx/Sec-Interview-4-2023)
 * 开源替代方案 [https://opensource.com/tags/alternatives](https://opensource.com/tags/alternatives)
-
-
-
-- 免费服务工具列表 [https://github.com/ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
-- [https://github.com/trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
-- [https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo)
-- [https://github.com/sdmg15/Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
-- [https://github.com/ttys3](https://github.com/ttys3)
-- [https://github.com/lmmentel/awesome-time-series](https://github.com/lmmentel/awesome-time-series)
-
-
-
 * Mac文档查询工具 [https://github.com/Kapeli](https://github.com/Kapeli)
     * [https://kapeli.com/dash](https://kapeli.com/dash)
     * [https://github.com/wuudjac/godocdash](https://github.com/wuudjac/godocdash)
