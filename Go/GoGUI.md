@@ -18,6 +18,7 @@
 * [https://github.com/fyne-io/fyne](https://github.com/fyne-io/fyne)
 * [https://github.com/visualfc/atk](https://github.com/visualfc/atk)
 * [https://github.com/vugu/vugu](https://github.com/vugu/vugu)
+* [https://github.com/wailsapp/wails](https://github.com/wailsapp/wails)
 
 
 - [golang windows程序获取管理员权限（UAC ）](https://blog.csdn.net/hejingdong123/article/details/105070150)

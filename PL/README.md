@@ -86,6 +86,7 @@
 * [https://github.com/topics/bazel](https://github.com/topics/bazel)
     * [https://github.com/bazelbuild](https://github.com/bazelbuild)
     * [https://github.com/salesforce/bazel-eclipse](https://github.com/salesforce/bazel-eclipse)
+* [https://github.com/nrwl](https://github.com/nrwl)
 * 部署工具 [https://github.com/mina-deploy/mina](https://github.com/mina-deploy/mina)
 * [https://github.com/capistrano/capistrano](https://github.com/capistrano/capistrano)
 * 在线手册API [https://www.matools.com/api](https://www.matools.com/api)
@@ -133,6 +134,7 @@
 * [https://github.com/pbkit/pbkit](https://github.com/pbkit/pbkit)
 * 语法增量解析 [https://github.com/tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter)
     * [https://tree-sitter.github.io/tree-sitter](https://tree-sitter.github.io/tree-sitter)
+* HTML [https://github.com/jaytaph/gosub-browser](https://github.com/jaytaph/gosub-browser)
 
 
 - [Lex与YACC详解](https://zhuanlan.zhihu.com/p/143867739)

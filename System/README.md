@@ -325,6 +325,7 @@
 * [http://amh.sh](http://amh.sh)
 * [http://www.batchshell.cn](http://www.batchshell.cn)
 * [https://github.com/hestiacp/hestiacp](https://github.com/hestiacp/hestiacp)
+* [https://github.com/1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel)
 
 
 

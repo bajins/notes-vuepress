@@ -50,6 +50,7 @@
 - [https://github.com/gfwilliams/tiny-js](https://github.com/gfwilliams/tiny-js)
 - [https://github.com/cesanta/v7](https://github.com/cesanta/v7)
 - [https://github.com/zurb/tribute](https://github.com/zurb/tribute)
+- [https://github.com/dop251/goja](https://github.com/dop251/goja)
 
 
 

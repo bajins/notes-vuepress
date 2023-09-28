@@ -181,6 +181,8 @@
 * 视频讲座 [https://github.com/Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses)
 * 面试题 [https://github.com/0voice/campus_recruitmen_questions](https://github.com/0voice/campus_recruitmen_questions)
 * [https://github.com/yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)
+* [https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes)
+    * [https://github.com/linkedin-faq](https://github.com/linkedin-faq)
 * 反问面试官 [https://github.com/viraptor/reverse-interview](https://github.com/viraptor/reverse-interview)
 * [https://github.com/vvmdx/Sec-Interview-4-2023](https://github.com/vvmdx/Sec-Interview-4-2023)
 * 开源替代方案 [https://opensource.com/tags/alternatives](https://opensource.com/tags/alternatives)
