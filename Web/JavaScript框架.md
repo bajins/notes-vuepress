@@ -341,7 +341,7 @@ $('div:contains("test"):not(:has(*)):last').css('background-color', 'red');
     * [https://github.com/jquery-validation](https://github.com/jquery-validation)
         * [https://www.runoob.com/jquery/jquery-plugin-validate.html](https://www.runoob.com/jquery/jquery-plugin-validate.html)
     * [https://github.com/DiegoLopesLima/Validate](https://github.com/DiegoLopesLima/Validate)
-* [https://github.com/tonytomov/jqGrid](https://github.com/tonytomov/jqGrid)
+* 表格 [https://github.com/tonytomov/jqGrid](https://github.com/tonytomov/jqGrid)
 * [https://github.com/DataTables/DataTables](https://github.com/DataTables/DataTables)
 * [https://github.com/malihu/malihu-custom-scrollbar-plugin](https://github.com/malihu/malihu-custom-scrollbar-plugin)
 * [https://github.com/rochal/jQuery-slimScroll](https://github.com/rochal/jQuery-slimScroll)

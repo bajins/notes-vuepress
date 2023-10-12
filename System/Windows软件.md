@@ -359,6 +359,7 @@
 + [https://github.com/iptv-org](https://github.com/iptv-org)
 + [https://github.com/fanmingming/live](https://github.com/fanmingming/live)
 + [https://github.com/Free-TV](https://github.com/Free-TV)
++ [https://github.com/fanmingming/live](https://github.com/fanmingming/live)
 
 
 - [https://cue-splitter.medieval.it](https://cue-splitter.medieval.it)
@@ -991,6 +992,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.sordum.org](https://www.sordum.org)
 * [https://u.tools](https://u.tools)
 * [https://github.com/he55/DreamScene2](https://github.com/he55/DreamScene2)
+* 活动跟踪 [https://github.com/ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch)
 * 便签 [https://github.com/Blakeinstein/Bloop](https://github.com/Blakeinstein/Bloop)
 * 加强Capslock键 [https://github.com/wo52616111/capslock-plus](https://github.com/wo52616111/capslock-plus)
 * 快速查看 [https://github.com/QL-Win/QuickLook](https://github.com/QL-Win/QuickLook)

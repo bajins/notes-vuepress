@@ -39,6 +39,7 @@
 * [https://github.com/ZhangHanDong/tao-of-rust-codes](https://github.com/ZhangHanDong/tao-of-rust-codes)
 * [https://github.com/tomassedovic/roguelike-tutorial](https://github.com/tomassedovic/roguelike-tutorial)
 * Rust语言圣经 [https://github.com/sunface/rust-course](https://github.com/sunface/rust-course)
+* [https://github.com/google/comprehensive-rust](https://github.com/google/comprehensive-rust)
 * [https://github.com/LukeMathWalker/zero-to-production](https://github.com/LukeMathWalker/zero-to-production)
 * [https://github.com/phil-opp/blog_os](https://github.com/phil-opp/blog_os)
 * [https://learnku.com/rust/docs](https://learnku.com/rust/docs)

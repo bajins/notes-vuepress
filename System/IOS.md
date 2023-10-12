@@ -52,6 +52,7 @@
 - 模拟定位 [https://github.com/Schlaubischlump/LocationSimulator](https://github.com/Schlaubischlump/LocationSimulator)
 - 隐藏菜单栏 [https://github.com/Mortennn/Dozer](https://github.com/Mortennn/Dozer)
 - [https://github.com/acidanthera](https://github.com/acidanthera)
+- [https://github.com/ivoronin/TomatoBar](https://github.com/ivoronin/TomatoBar)
 
 
 ## IOS框架

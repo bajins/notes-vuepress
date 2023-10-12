@@ -343,6 +343,7 @@
 * [https://github.com/dom4j/dom4j](https://github.com/dom4j/dom4j)
 * [https://github.com/jhy/jsoup](https://github.com/jhy/jsoup)
 * [https://github.com/openjax](https://github.com/openjax)
+* [https://github.com/FasterXML/woodstox](https://github.com/FasterXML/woodstox)
 * [https://github.com/hunterhacker/jdom](https://github.com/hunterhacker/jdom)
 * [https://github.com/x-stream/xstream](https://github.com/x-stream/xstream)
 * 爬虫 [https://github.com/bonigarcia/webdrivermanager](https://github.com/bonigarcia/webdrivermanager)

@@ -99,7 +99,7 @@
     - [https://fuchsia.fsf.org.cn](https://fuchsia.fsf.org.cn)
 - [https://github.com/hardenedlinux](https://github.com/hardenedlinux)
     - [https://gitlab.com/hardenedlinux](https://gitlab.com/hardenedlinux)
-- 云计算 [https://github.com/IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS)
+- 个人云系统 [https://github.com/IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS)
 
 
 * [https://github.com/topics/openwrt](https://github.com/topics/openwrt)
