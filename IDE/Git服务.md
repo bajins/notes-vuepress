@@ -5,6 +5,7 @@
 
 ## Flag
 
++ [https://github.com/harness/gitness](https://github.com/harness/gitness)
 + [https://github.com/semantic-release](https://github.com/semantic-release)
 + [https://github.com/GerritCodeReview/git-repo](https://github.com/GerritCodeReview/git-repo)
 + [https://github.com/gitonomy/gitlib](https://github.com/gitonomy/gitlib)
@@ -52,6 +53,7 @@
 * [https://git.hit.edu.cn](https://git.hit.edu.cn)
 * [https://www.gitlink.org.cn](https://www.gitlink.org.cn)
 * [https://sourceforge.net](https://sourceforge.net)
+* [https://bitbucket.org](https://bitbucket.org)
 * 软件相似度比较 [https://copycat.gitee.com](https://copycat.gitee.com)
 
 
@@ -206,61 +208,38 @@ volumes:
 
 > 可以使用`git config --global url."github.com".insteadOf hub.fastgit.org`来替换url
 
-* php源码 [https://github.com/ilanyu/offline-download](https://github.com/ilanyu/offline-download)
-* go源码 [https://github.com/ilanyu/offLineDownloader](https://github.com/ilanyu/offLineDownloader)
-* [https://github.com/churuxu/xdownload](https://github.com/churuxu/xdownload)
-* [https://github.com/fhefh2015/Fast-GitHub](https://github.com/fhefh2015/Fast-GitHub)
-* [https://myssl.com/dns_check.html](https://myssl.com/dns_check.html)
-* [http://tool.chinaz.com/dns](http://tool.chinaz.com/dns)
-* [https://www.ipaddress.com](https://www.ipaddress.com)
-* [https://greasyfork.org/zh-CN/scripts/412245](https://greasyfork.org/zh-CN/scripts/412245)
-* [https://trli.coding.net/public](https://trli.coding.net/public)
-* [https://github.com/Potterli20/hosts](https://github.com/Potterli20/hosts)
-
-
-- [https://gitee.com/organizations/mirrors_trending/projects](https://gitee.com/organizations/mirrors_trending/projects)
-- [https://gitee.com/docmirror/dev-sidecar](https://gitee.com/docmirror/dev-sidecar)
-    - [https://github.com/docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar)
-
-
-* [https://codechina.csdn.net/mirrors](https://codechina.csdn.net/mirrors)
-* [https://gitee.com/mirrors](https://gitee.com/mirrors)
+* [https://github.com/ilanyu](https://github.com/ilanyu)
+* [https://gitee.com/docmirror/dev-sidecar](https://gitee.com/docmirror/dev-sidecar)
+    * [https://github.com/docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar)
 * [https://github.com/FastGitORG](https://github.com/FastGitORG)
-    * [https://hub.fastgit.org](https://hub.fastgit.org) 中国香港
     * [https://toolwa.com/github](https://toolwa.com/github)
+    * [https://github.ur1.fun](https://github.ur1.fun)
 * [https://github.com/dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub)
 * [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
     * [https://ghproxy.com](https://ghproxy.com) 韩国首尔
-    * [http://git.aakkc.com](http://git.aakkc.com)
     * [https://gh.api.99988866.xyz](https://gh.api.99988866.xyz) 美国
-    * [https://shrill-pond-3e81.hunsh.workers.dev](https://shrill-pond-3e81.hunsh.workers.dev)
-    * [https://github.91chifun.workers.dev](https://github.91chifun.workers.dev)
-    * [https://hub.misakamoe.com](https://hub.misakamoe.com)
-* [https://d.serctl.com](https://d.serctl.com)
-* [https://github.xxyyzz.workers.dev](https://github.xxyyzz.workers.dev)
-* [https://gh.msx.workers.dev](https://gh.msx.workers.dev) 美国
-* [https://gh.xiu2.xyz](https://gh.xiu2.xyz) 美国（自建
-* [https://gh.argv.cc](https://gh.argv.cc) 美国
-* [https://git.yumenaka.net](https://git.yumenaka.net) 美国
-* [https://download.fastgit.org](https://download.fastgit.org) 日本
-* [https://gitclone.com](https://gitclone.com) 中国浙江
-* [https://github.com.cnpmjs.org](https://github.com.cnpmjs.org) 新加坡
+    * [https://js.7fan.fun](https://js.7fan.fun)
+* [https://github.com/git-cloner](https://github.com/git-cloner)
+    * [https://gitclone.com](https://gitclone.com) 中国浙江
+* [https://github.com/BaseMax/GitHubMirror](https://github.com/BaseMax/GitHubMirror)
+* [https://github.com/RC1844/FastGithub](https://github.com/RC1844/FastGithub)
 * [https://githubfast.com](https://githubfast.com)
+* [https://gitmirror.com](https://gitmirror.com)
+    * [https://github.com/7ednet/yard](https://github.com/7ednet/yard)
 
 
-**Git Clone SSH 加速**
-
-* `git@git.zhlh6.cn` 中国北京
-* `git@hub.fastgit.org` 中国香港
+- [https://greasyfork.org/zh-CN/scripts/412245](https://greasyfork.org/zh-CN/scripts/412245)
+- [https://github.com/fhefh2015/Fast-GitHub](https://github.com/fhefh2015/Fast-GitHub)
+- [https://github.com/Potterli20/hosts](https://github.com/Potterli20/hosts)
+- [https://codechina.csdn.net/mirrors](https://codechina.csdn.net/mirrors)
+- [https://gitee.com/mirrors](https://gitee.com/mirrors)
 
 
 **Raw 文件加速**
 
 * [https://cdn.jsdelivr.net](https://cdn.jsdelivr.net) 中国国内
-* [https://raw.fastgit.org](https://raw.fastgit.org) 中国香港
+    * [https://cdn.jsdelivr.net/gh](https://cdn.jsdelivr.net/gh)
 * [https://cdn.staticaly.com](https://cdn.staticaly.com) 日本东京
-
-
 
 
 **刷新DNS缓存**
@@ -277,22 +256,6 @@ service nscd restart
 sudo /etc/init.d/dns-clean start
 ```
 
-
-**克隆代理地址**
-
-* [https://github.com/BaseMax/GitHubMirror](https://github.com/BaseMax/GitHubMirror)
-* [https://github.com/RC1844/FastGithub](https://github.com/RC1844/FastGithub)
-
-- 替换`github.com`为
-  - `github.com.cnpmjs.org`
-  - `jlytgs.com/github_`
-  - `github.dyf62976.workers.dev`
-  - `github.wuyanzheshui.workers.dev`
-  - `github.hsmw.workers.dev`
-  - `github.reycn.workers.dev`
-  - `github.itzmx.com`
-
-* [https://cdn.jsdelivr.net/gh](https://cdn.jsdelivr.net/gh)
 
 
 

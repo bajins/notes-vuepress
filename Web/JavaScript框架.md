@@ -413,6 +413,8 @@ $("#id").off("click").on("click",function(){
     + [https://www.bootcss.com](https://www.bootcss.com)
 	+ [https://getbootstrap.com](https://getbootstrap.com)
 
+
+* [https://github.com/fastbootstrap/atlassian-design-for-bootstrap](https://github.com/fastbootstrap/atlassian-design-for-bootstrap)
 * [https://github.com/jquery/jquery-ui](https://github.com/jquery/jquery-ui)
 * 颜色选择器 [https://github.com/itsjavi/bootstrap-colorpicker](https://github.com/itsjavi/bootstrap-colorpicker)
 * [https://github.com/wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table)

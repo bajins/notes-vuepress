@@ -158,6 +158,7 @@
 * [https://github.com/yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)
 * [https://github.com/practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning)
 * [https://github.com/binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)
+* [https://github.com/leandromoreira](https://github.com/leandromoreira)
 * 学习项目 [https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo)
 * 各种技术主题 [https://github.com/bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises)
 * 学习开发路线图 [https://github.com/kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)

@@ -86,6 +86,7 @@
 * [https://github.com/vincit/objection.js](https://github.com/vincit/objection.js)
 * [https://github.com/bookshelf/bookshelf](https://github.com/bookshelf/bookshelf)
 * [https://github.com/balderdashy/waterline](https://github.com/balderdashy/waterline)
+* [https://github.com/sutandojs/sutando](https://github.com/sutandojs/sutando)
 * SQL查询 [https://github.com/knex/knex](https://github.com/knex/knex)
 * [https://github.com/TryGhost/node-sqlite3](https://github.com/TryGhost/node-sqlite3)
 * 解析器、压缩器、压缩器和美化 [https://github.com/mishoo/UglifyJS](https://github.com/mishoo/UglifyJS)
