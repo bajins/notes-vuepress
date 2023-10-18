@@ -353,6 +353,8 @@
 
 ## 音视频
 
++ [https://github.com/topics/music-app](https://github.com/topics/music-app)
++ [https://github.com/topics/music-app](https://github.com/topics/music-app)
 
 
 - [https://cue-splitter.medieval.it](https://cue-splitter.medieval.it)
@@ -388,6 +390,8 @@
 - [https://www.kuaishou.com/kuaiying](https://www.kuaishou.com/kuaiying)
 - [https://www.topazlabs.com](https://www.topazlabs.com)
 - [https://shana.pe.kr/shanaencoder_download](https://shana.pe.kr/shanaencoder_download)
+- YouTube [https://github.com/FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube)
+- [https://github.com/iv-org/invidious](https://github.com/iv-org/invidious)
 
 
 **电视盒子/TVBOX**
@@ -528,7 +532,11 @@
 + [https://github.com/topics/webcam](https://github.com/topics/webcam)
 + [https://github.com/davisonio/awesome-gif](https://github.com/davisonio/awesome-gif)
 
+
 * [https://github.com/NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif)
+* [https://github.com/phw/peek](https://github.com/phw/peek)
+    * [https://github.com/firatkiral/pypeek](https://github.com/firatkiral/pypeek)
+    * [https://github.com/MaartenBaert/ssr](https://github.com/MaartenBaert/ssr)
 * [https://www.bandisoft.com/honeycam](https://www.bandisoft.com/honeycam)
 * GifCam [http://blog.bahraniapps.com](http://blog.bahraniapps.com)
 * [https://github.com/justinfrankel/licecap](https://github.com/justinfrankel/licecap)
@@ -1075,6 +1083,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
     - `.\SharpWxDump.exe | Select-String -Pattern 'WeChatKey:' | %{$_ -Replace(".*: ", "")} | %{python .\de.py -k $_ -d .\MSG2.db}`
     - [https://github.com/SpenserCai/GoWxDump](https://github.com/SpenserCai/GoWxDump)
     - [https://github.com/f13T2ach/WxMsgDump](https://github.com/f13T2ach/WxMsgDump)
+    - [https://github.com/xaoyaoo/PyWxDump](https://github.com/xaoyaoo/PyWxDump)
 - [https://github.com/Ormicron/Sharp-dumpkey](https://github.com/Ormicron/Sharp-dumpkey)
 - [https://github.com/L-HeliantHuS/GetWeChatDBPassword](https://github.com/L-HeliantHuS/GetWeChatDBPassword)
 - [https://github.com/test1213145/wechat-export](https://github.com/test1213145/wechat-export)

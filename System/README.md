@@ -254,15 +254,22 @@
 
 ### 监控探针
 
-+ [https://github.com/topics/apm](https://github.com/topics/apm)
++ [https://github.com/topics/monitor](https://github.com/topics/monitor)
++ [https://github.com/topics/monitoring](https://github.com/topics/monitoring)
++ [https://github.com/topics/system-monitor](https://github.com/topics/system-monitor)
 + [https://github.com/topics/system-information](https://github.com/topics/system-information)
++ [https://github.com/topics/process-manager](https://github.com/topics/process-manager)
++ [https://github.com/topics/process-monitor](https://github.com/topics/process-monitor)
 + [https://github.com/monitoring-plugins](https://github.com/monitoring-plugins)
     + 监控插件开发指南 [https://www.monitoring-plugins.org](https://www.monitoring-plugins.org)
++ [https://github.com/topics/performance-tuning](https://github.com/topics/performance-tuning)
++ [https://github.com/topics/performance-monitoring](https://github.com/topics/performance-monitoring)
 
 
 * [https://github.com/cppla/ServerStatus](https://github.com/cppla/ServerStatus)
 * [https://github.com/CokeMine/ServerStatus-Hotaru](https://github.com/CokeMine/ServerStatus-Hotaru)
 * [https://github.com/BotoX/ServerStatus](https://github.com/BotoX/ServerStatus)
+* [https://github.com/nokyan/resources](https://github.com/nokyan/resources)
 * [https://github.com/chaos-zhu/easynode](https://github.com/chaos-zhu/easynode)
 * [https://github.com/netdata/netdata](https://github.com/netdata/netdata)
 * [https://github.com/newrelic](https://github.com/newrelic)
@@ -287,6 +294,9 @@
 
 
 **APM**
+
++ [https://github.com/topics/apm](https://github.com/topics/apm)
+
 
 * [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
 * [https://github.com/pinpoint-apm/pinpoint](https://github.com/pinpoint-apm/pinpoint)

@@ -40,6 +40,7 @@
 * [https://github.com/cloga/scipy-lecture-notes_cn](https://github.com/cloga/scipy-lecture-notes_cn)
 * [https://www.junmajinlong.com/python/index](https://www.junmajinlong.com/python/index)
 * [https://zmister.com](https://zmister.com)
+* [https://github.com/iam-veeramalla/python-for-devops](https://github.com/iam-veeramalla/python-for-devops)
 * 基础教程 [https://morvanzhou.github.io/tutorials/python-basic/basic](https://morvanzhou.github.io/tutorials/python-basic/basic)
 * 设计模式和集合 [https://github.com/faif/python-patterns](https://github.com/faif/python-patterns)
 * [https://hellopython.readthedocs.io](https://hellopython.readthedocs.io)

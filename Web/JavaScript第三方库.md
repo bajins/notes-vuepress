@@ -112,7 +112,7 @@
 
 
 
-* Next.js [https://www.nextjs.cn](https://www.nextjs.cn)
+
 * Docusaurus [https://www.docusaurus.cn](https://www.docusaurus.cn)
 * Blitz [https://www.blitzjs.cn](https://www.blitzjs.cn)
 * Gatsby [https://www.gatsbyjs.cn](https://www.gatsbyjs.cn)
