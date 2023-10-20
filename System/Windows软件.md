@@ -753,6 +753,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * W10Privacy [https://www.winprivacy.de/deutsch-start/download](https://www.winprivacy.de/deutsch-start/download)
 * Windows 10 Manager [https://www.yamicsoft.com](https://www.yamicsoft.com)
     * `WMXD7-RG8FP-OYKS3-KHTN6`
+* [https://uninstalr.com](https://uninstalr.com)
 * Uninstall Tool [https://crystalidea.com/uninstall-tool](https://crystalidea.com/uninstall-tool)
 * [https://github.com/Klocman/Bulk-Crap-Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
 * Total Uninstall [https://www.martau.com](https://www.martau.com)

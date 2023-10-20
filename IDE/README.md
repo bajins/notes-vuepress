@@ -23,6 +23,7 @@
 * JSON可视化 [https://github.com/AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com)
 * [https://editor.herowand.com](https://editor.herowand.com)
 * 网络分析 [https://github.com/gephi](https://github.com/gephi)
+* Android代码编辑器 [https://github.com/massivemadness/Squircle-CE](https://github.com/massivemadness/Squircle-CE)
 
 
 
@@ -432,6 +433,7 @@
 * [https://www.tcpdump.org](https://www.tcpdump.org)
 * [https://gitlab.com/wireshark/wireshark](https://gitlab.com/wireshark/wireshark)
     * [https://www.wireshark.org](https://www.wireshark.org)
+* [https://github.com/gcla/termshark](https://github.com/gcla/termshark)
 * BurpSuite [https://portswigger.net/burp/releases](https://portswigger.net/burp/releases)
     * [BurpSuiteV2.1.06破解版](https://www.waitalone.cn/tools/burpsuite.html)
     * [BurpSuite_Pro v2020.4 Loader_Keygen](https://www.uedbox.com/post/65547)

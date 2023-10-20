@@ -66,6 +66,7 @@
     * [https://github.com/tchx84/Flatseal](https://github.com/tchx84/Flatseal)
 * [https://github.com/openSUSE](https://github.com/openSUSE)
 * [https://github.com/calamares](https://github.com/calamares)
+* 打包 [https://gitlab.com/engmark/nix-start](https://gitlab.com/engmark/nix-start)
 
 
 - mac [https://github.com/macports](https://github.com/macports)

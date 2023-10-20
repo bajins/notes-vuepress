@@ -292,7 +292,6 @@
 - [https://github.com/pyfisch/httpdate](https://github.com/pyfisch/httpdate)
 - [https://github.com/bancek/rust-http-range.git](https://github.com/bancek/rust-http-range.git)
 - [https://github.com/tower-rs/tower](https://github.com/tower-rs/tower)
-- [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 - [https://github.com/alexcrichton/filetime](https://github.com/alexcrichton/filetime)
 - [https://gitlab.com/crates.rs/cargo_toml](https://gitlab.com/crates.rs/cargo_toml)
 - [https://github.com/hyperium/hyper](https://github.com/hyperium/hyper)

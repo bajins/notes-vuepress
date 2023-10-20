@@ -10,6 +10,7 @@
 > `Shell`管理你与操作系统之间的交互：等待你输入，向操作系统解释你的输入，并且处理各种各样的操作系统的输出结果。
 
 + [https://github.com/awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash)
++ 命令行沙盒 [https://github.com/binpash/try](https://github.com/binpash/try)
 
 
 - [Linux常用命令汇总](https://blog.csdn.net/Mculover666/article/details/84558280)
@@ -26,7 +27,11 @@
 + [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
 + 历史记录 [https://github.com/ddworken/hishtory](https://github.com/ddworken/hishtory)
 + kill [https://github.com/jkfran/killport](https://github.com/jkfran/killport)
-
++ ack [https://github.com/ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher)
++ 终端图像查看 [https://github.com/stefanhaustein/TerminalImageViewer](https://github.com/stefanhaustein/TerminalImageViewer)
++ 地图 [https://github.com/rastapasta/mapscii](https://github.com/rastapasta/mapscii)
++ 电子表格 [https://github.com/saulpw/visidata](https://github.com/saulpw/visidata)
+* 逆向工程 [https://github.com/radareorg/radare2](https://github.com/radareorg/radare2)
 
 
 

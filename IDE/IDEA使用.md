@@ -334,6 +334,10 @@ public class ${NAME} {
 
 ### 预定义模板变量
 
++ [https://www.jetbrains.com/help/idea/file-template-variables.html](https://www.jetbrains.com/help/idea/file-template-variables.html)
++ [https://www.jetbrains.com/help/idea/template-variables.html](https://www.jetbrains.com/help/idea/template-variables.html)
+
+
 | 变量                	| 说明                                           	|
 |---------------------	|------------------------------------------------	|
 | ${DATE}             	| 当前系统日期                                   	|

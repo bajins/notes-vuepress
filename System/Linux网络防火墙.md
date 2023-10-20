@@ -5,19 +5,6 @@
 
 ## Flag
 
-- `nethogs`: 按进程查看流量占用
-- `ethtool`: 诊断工具
-- `tcpdump`: 抓包工具
-- 监控总体带宽使用：`nload`、`bmon`、`slurm`、`bwm-ng`、`cbm`、`speedometer`、`netload`
-- 监控总体带宽使用（批量式输出）：`vnstat`、`ifstat`、`dstat`、`collectl`
-- 每个套接字连接的带宽使用：`iftop`、`iptraf`、`tcptrack`、`pktstat`、`netwatch`、`trafshow`、`jnettop`
-- `ntopng`
-- perf、sar、ksar、mpstat、uptime、vmstat、pidstat、time、cpustat、munin、glances、atop、nmon、pcp-gui、nfsstat、netstat、iostat
-- [https://github.com/htop-dev/htop](https://github.com/htop-dev/htop)
-- 视图监视器 [https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet](https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet)
-- [https://github.com/aristocratos](https://github.com/aristocratos)
-
-
 
 * [局域网怎么实现内外网隔离？](https://www.zhihu.com/question/489849459)
 

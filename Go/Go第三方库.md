@@ -182,6 +182,8 @@
 * [https://github.com/go-cmd/cmd](https://github.com/go-cmd/cmd)
 * [https://github.com/charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea)
 * [https://github.com/ogier/pflag](https://github.com/ogier/pflag)
+* [https://github.com/gdamore/tcell](https://github.com/gdamore/tcell)
+* [https://github.com/gcla/gowid](https://github.com/gcla/gowid)
 * CLI [https://github.com/blend/go-sdk](https://github.com/blend/go-sdk)
 * shell [https://github.com/creack/pty](https://github.com/creack/pty)
 * 生成x86程序 [https://github.com/mmcloughlin/avo](https://github.com/mmcloughlin/avo)

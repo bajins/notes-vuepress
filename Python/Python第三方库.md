@@ -80,6 +80,7 @@
 - SSHv2协议 [https://github.com/paramiko/paramiko](https://github.com/paramiko/paramiko)
 - shell [https://github.com/xonsh/xonsh](https://github.com/xonsh/xonsh)
 - 终端样式 [https://github.com/willmcgugan/rich](https://github.com/willmcgugan/rich)
+- [https://github.com/urwid/urwid](https://github.com/urwid/urwid)
 - [https://github.com/topics/expect](https://github.com/topics/expect)
     - [https://www.nist.gov/services-resources/software/expect](https://www.nist.gov/services-resources/software/expect)
     - [https://github.com/clarkwang/sexpect](https://github.com/clarkwang/sexpect)

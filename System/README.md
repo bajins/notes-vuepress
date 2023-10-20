@@ -271,6 +271,12 @@
 * [https://github.com/BotoX/ServerStatus](https://github.com/BotoX/ServerStatus)
 * [https://github.com/nokyan/resources](https://github.com/nokyan/resources)
 * [https://github.com/chaos-zhu/easynode](https://github.com/chaos-zhu/easynode)
+* [https://github.com/ClementTsang/bottom](https://github.com/ClementTsang/bottom)
+* [https://github.com/aksakalli/gtop](https://github.com/aksakalli/gtop)
+* [https://github.com/xxxserxxx/gotop](https://github.com/xxxserxxx/gotop)
+* [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
+* [https://github.com/htop-dev/htop](https://github.com/htop-dev/htop)
+* [https://github.com/nicolargo/glances](https://github.com/nicolargo/glances)
 * [https://github.com/netdata/netdata](https://github.com/netdata/netdata)
 * [https://github.com/newrelic](https://github.com/newrelic)
     * [https://opensource.newrelic.com](https://opensource.newrelic.com)
@@ -290,6 +296,17 @@
 - [https://github.com/bigbully/Dapper-translation](https://github.com/bigbully/Dapper-translation)
     - [https://bigbully.github.io/Dapper-translation](https://bigbully.github.io/Dapper-translation)
 - [Linux工程师必备的88个监控工具](https://learn-linux.readthedocs.io/zh_CN/latest/maintenance/monitor/tools/80-linux-monitoring-tools.html)
+- `nethogs`: 按进程查看流量占用
+- `ethtool`: 诊断工具
+- `tcpdump`: 抓包工具
+- 监控总体带宽使用：`nload`、`bmon`、`slurm`、`bwm-ng`、`cbm`、`speedometer`、`netload`
+- 监控总体带宽使用（批量式输出）：`vnstat`、`ifstat`、`dstat`、`collectl`
+- 每个套接字连接的带宽使用：`iftop`、`iptraf`、`tcptrack`、`pktstat`、`netwatch`、`trafshow`、`jnettop`
+- `ntopng`
+- perf、sar、ksar、mpstat、uptime、vmstat、pidstat、time、cpustat、munin、glances、atop、nmon、pcp-gui、nfsstat、netstat、iostat
+- 视图监视器 [https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet](https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet)
+- [https://github.com/aristocratos](https://github.com/aristocratos)
+
 
 
 
@@ -433,6 +450,8 @@
 * [https://coda.io](https://coda.io)
 * [https://github.com/kuaifan/dootask](https://github.com/kuaifan/dootask)
 * [https://www.cornerstone365.cn](https://www.cornerstone365.cn)
+* 画板 [https://github.com/JessYan0913/pictode](https://github.com/JessYan0913/pictode)
+* 处理音频和视频 [https://github.com/xiguaxigua/ffmpeg-online](https://github.com/xiguaxigua/ffmpeg-online)
 
 
 

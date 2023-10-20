@@ -335,6 +335,7 @@
 
 ## 注释模板
 
++ `Help` -> `Help Contents` -> 搜索`Java Editor Template Variables`
 + `Window` -> `Preference` -> `Java` -> `Code Style` -> `Code Templates`
    + 展开`Comments` -> 点击选中子项（`files`、`Types`） -> `Pattern`填入注释模板
    + 勾选 `Automatically add comments for new methods and types` 自动为新方法和类型添加注释
@@ -345,34 +346,30 @@
 
 ```java
 /**
- * @Title: ${file_name}
+ * @Title ${file_name}
  * @Package ${package_name}
- * @Description: 
- * @author: bajins.com
- * @date: ${date} ${time}
+ * @Description 
+ * @author bajins.com
+ * @date ${date} ${time}
  * @version V1.0
- * @Copyright: ${year} bajins.com Inc. All rights reserved.
+ * @Copyright ${year} bajins.com Inc. All rights reserved.
  */
 ```
 
 - 字段(Fields)注释标签
 
 ```java
- /**
-  * @Fields ${field} : 
-  * @author: bajins.com
-  * @date: ${date} ${time}
-  */
+ /** ${field} */
 ```
 
 - 构造函数(Constructors)标签
 
 ```java
 /**
- * @Title: ${enclosing_type}
+ * @Title ${enclosing_type}
  * ${tags}
- * @author: bajins.com
- * @date: ${date} ${time}
+ * @author bajins.com
+ * @date ${date} ${time}
  */
 ```
 
@@ -382,8 +379,8 @@
 /**
  * 
  * ${tags} ${return_type}
- * @author: bajins.com
- * @date: ${date} ${time}
+ * @author bajins.com
+ * @date ${date} ${time}
  */
 ```
 
@@ -391,12 +388,12 @@
 
 ```java
 /**
- * <p>Title: ${enclosing_method}</p>
- * <p>Description: </p>
+ * @Title ${enclosing_method}
+ * @Description
  * ${tags}
  * ${see_to_overridden}
- * @author: bajins.com
- * @date: ${date} ${time}
+ * @author bajins.com
+ * @date ${date} ${time}
  */
 ```
 
@@ -406,8 +403,8 @@
 /**
  * ${tags}
  * ${see_to_target}
- * @author: bajins.com
- * @date: ${date} ${time}
+ * @author bajins.com
+ * @date ${date} ${time}
  */
 ```
 
@@ -415,11 +412,11 @@
 
 ```java
 /**
- * @Title: ${enclosing_method} <BR>
- * @Description: please write your description <BR>
- * @return: ${field_type} <BR>
- * @author: bajins.com
- * @date: ${date} ${time}
+ * @Title ${enclosing_method}
+ * @Description 获取字段“${bare_field_name}”的值
+ * @return ${field_type}
+ * @author bajins.com
+ * @date ${date} ${time}
  */
 ```
 
@@ -427,11 +424,11 @@
 
 ```java
 /**
- * @Title: ${enclosing_method} <BR>
- * @Description: please write your description <BR>
- * @return: ${field_type} <BR>
- * @author: bajins.com
- * @date: ${date} ${time}
+ * @Title ${enclosing_method}
+ * @Description 设置字段“${bare_field_name}”的值
+ * @param ${param}
+ * @author bajins.com
+ * @date ${date} ${time}
  */
 ```
 
