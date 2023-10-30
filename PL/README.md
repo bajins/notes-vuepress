@@ -307,7 +307,6 @@
 - [https://github.com/adobe/spectrum-web-components](https://github.com/adobe/spectrum-web-components)
 - IO解码/编码 [https://github.com/gcanti/io-ts](https://github.com/gcanti/io-ts)
 - 动画 [https://github.com/AriaMinaei/theatre](https://github.com/AriaMinaei/theatre)
-- 绘图 [https://github.com/tldraw/tldraw](https://github.com/tldraw/tldraw)
 - 表格 [https://github.com/gristlabs/grist-core](https://github.com/gristlabs/grist-core)
 - [https://github.com/rxliuli/liuli-tools](https://github.com/rxliuli/liuli-tools)
 - [https://github.com/dsherret/dts-minify](https://github.com/dsherret/dts-minify)

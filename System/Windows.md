@@ -21,6 +21,7 @@
 * [关闭Windows的下载目录的自动分组功能](https://www.meowpass.com/pages/81c01d)
 * [比较 Windows 10 的不同版本](https://www.microsoft.com/zh-cn/windowsforbusiness/compare)
 * [Windows 10 版本的版本信息](https://docs.microsoft.com/zh-cn/windows/release-information)
+* [https://learn.microsoft.com/zh-cn/windows/whats-new](https://learn.microsoft.com/zh-cn/windows/whats-new)
 * [Windows 10 更新历史记录](https://support.microsoft.com/zh-cn/help/4555932)
 * [Windows 生命周期说明书](https://support.microsoft.com/zh-cn/help/13853/windows-lifecycle-fact-sheet)
 * [将 MBR 分区转换为 GPT](https://docs.microsoft.com/zh-cn/windows/deployment/mbr-to-gpt)
@@ -207,17 +208,17 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 
 * [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)
-* [人人客-微软产品](https://rrkee.com/microsoft)
-* [03k.orgKMS服务](https://03k.org/kms.html)
-* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4)
-* [零散坑KMS服务](https://03k.org/kms.html)
-* [kms.mogeko.me](https://mogeko.me/2019/054)
+* [KMS激活Windows/Office口袋指南](https://blog.03k.org/post/kms.html)
+    * [https://github.com/kkkgo](https://github.com/kkkgo)
+* [kms.mogeko.me](https://mogeko.me/posts/zh-cn/054/)
+    * [https://github.com/Mogeko](https://github.com/Mogeko)
 * [https://kms.cangshui.net](https://kms.cangshui.net)
 * [https://kms.loli.beer](https://kms.loli.beer)
 * [https://www.moerats.com/kms](https://www.moerats.com/kms)
-* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4/)
+    * [https://github.com/Tsuk1ko](https://github.com/Tsuk1ko)
 * [https://www.ghpym.com/kms.html](https://www.ghpym.com/kms.html)
 * [https://github.com/EDragon007/EDragonKMS](https://github.com/EDragon007/EDragonKMS)
+* HEU KMS Activator
 
 
 ### KEY
@@ -236,6 +237,9 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * https://api.jike.info/ms_pid/密钥
 * [https://webact.sjjzm.com](https://webact.sjjzm.com)
 * [https://key.sjjzm.com](https://key.sjjzm.com)
+* SimplePidX
+* https://khoatoantin.com/cidms（账号：trogiup24h 密码：PHO）
+* [拨打免费电话激活Windows、Office](https://mp.weixin.qq.com/s/eiIutreWTe5AHPXjkOUwMQ)
 
 
 - [https://github.com/massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)

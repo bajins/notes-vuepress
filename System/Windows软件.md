@@ -634,6 +634,8 @@
     * [InnoSetup中文定制版](http://blog.sina.com.cn/s/blog_89a729a40102xuy4.html)
     * [https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation)
     * [https://sourceforge.net/projects/istool](https://sourceforge.net/projects/istool)
+* [https://learn.microsoft.com/zh-cn/windows/win32/msi/standard-installer-command-line-options](https://learn.microsoft.com/zh-cn/windows/win32/msi/standard-installer-command-line-options)
+
 
 - [https://github.com/wixtoolset/wix3](https://github.com/wixtoolset/wix3)
     - [https://wixtoolset.org](https://wixtoolset.org)
@@ -753,13 +755,20 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * W10Privacy [https://www.winprivacy.de/deutsch-start/download](https://www.winprivacy.de/deutsch-start/download)
 * Windows 10 Manager [https://www.yamicsoft.com](https://www.yamicsoft.com)
     * `WMXD7-RG8FP-OYKS3-KHTN6`
+* BCUninstaller [https://github.com/Klocman/Bulk-Crap-Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
+    * [https://sourceforge.net/projects/bulk-crap-uninstaller](https://sourceforge.net/projects/bulk-crap-uninstaller)
 * [https://uninstalr.com](https://uninstalr.com)
-* Uninstall Tool [https://crystalidea.com/uninstall-tool](https://crystalidea.com/uninstall-tool)
+* Uninstall Tool [https://github.com/crystalidea](https://github.com/crystalidea)
+    * [https://crystalidea.com/uninstall-tool](https://crystalidea.com/uninstall-tool)
 * [https://github.com/Klocman/Bulk-Crap-Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
 * Total Uninstall [https://www.martau.com](https://www.martau.com)
 * [UninstallTool／Geek／IObitUninstaller／RevoUninstalle](https://lanzoui.com/b0f19v03a)
 * [RegWorkshop／RegCool](https://www.lanzoui.com/b0f1jf9mh)
 * [https://kurtzimmermann.com](https://kurtzimmermann.com)
+* Revo Uninstaller [https://www.revouninstaller.com](https://www.revouninstaller.com)
+* HiBit Uninstaller [https://www.hibitsoft.ir](https://www.hibitsoft.ir)
+* Geek Uninstaller [https://geekuninstaller.com](https://geekuninstaller.com)
+* IObit Uninstaller [https://www.iobit.com](https://www.iobit.com)
 * Registry Finder
 * [http://www.hibitsoft.ir](http://www.hibitsoft.ir)
 * Windows Install Clean Up  安装后在安装目录找到`msicuu.exe`运行，然后选中程序点击`remove`

@@ -1,13 +1,12 @@
 # WindowsVBScript
 
-
 [[toc]]
-
-
 
 
 ## Flag
 
++ [https://github.com/DoctorLai](https://github.com/DoctorLai)
+    + [https://isvbscriptdead.com](https://isvbscriptdead.com)
 + 批处理之家 [http://www.bathome.net](http://www.bathome.net)
 + 中国DOS联盟 [DOS批处理 & 脚本技术（批处理室）](http://cndos.fam.cx/forum/forumdisplay.php?fid=23)
 
