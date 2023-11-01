@@ -104,6 +104,7 @@
 * 运行C/C++代码 [https://github.com/luoxuhai/clang.js](https://github.com/luoxuhai/clang.js)
 * 汉字拼音 [https://github.com/hotoo/pinyin](https://github.com/hotoo/pinyin)
 * 甘特图 [https://github.com/frappe/gantt](https://github.com/frappe/gantt)
+* 电子签名 [https://github.com/OpenSignLabs/OpenSign](https://github.com/OpenSignLabs/OpenSign)
 
 
 
@@ -410,6 +411,7 @@
 - 虚拟白板 [https://github.com/excalidraw/excalidraw](https://github.com/excalidraw/excalidraw)
 - [https://github.com/tldraw/tldraw](https://github.com/tldraw/tldraw)
 - 头像生成 [https://github.com/multiavatar/Multiavatar](https://github.com/multiavatar/Multiavatar)
+- 抠图 [https://github.com/imgly/background-removal-js](https://github.com/imgly/background-removal-js)
 
 
 

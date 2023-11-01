@@ -9,6 +9,9 @@
 
 * [https://drafts.csswg.org/css-cascade](https://drafts.csswg.org/css-cascade)
 * [https://developer.mozilla.org/zh-CN/docs/Web/CSS](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
+* [https://github.com/Afif13](https://github.com/Afif13)
+    * [https://css-loaders.com](https://css-loaders.com)
+    * [https://css-generators.com](https://css-generators.com)
 * CSS3/CSS2/CSS 教程 [http://www.w3chtml.com/css3](http://www.w3chtml.com/css3)
 * HTML系列教程 [https://www.w3school.com.cn/h.asp](https://www.w3school.com.cn/h.asp)
 * [http://css.doyoe.com/](http://css.doyoe.com)

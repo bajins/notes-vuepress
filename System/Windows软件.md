@@ -446,6 +446,8 @@
 + [https://github.com/topics/screen-recording](https://github.com/topics/screen-recording)
 + [https://github.com/topics/video-recording](https://github.com/topics/video-recording)
 
+
+* [https://github.com/027xiguapi/pear-rec](https://github.com/027xiguapi/pear-rec)
 * [https://github.com/obsproject/obs-studio](https://github.com/obsproject/obs-studio)
 * [https://github.com/ShareX](https://github.com/ShareX)
 * [https://github.com/aseprite/aseprite](https://github.com/aseprite/aseprite)

@@ -90,7 +90,7 @@
 * 部署工具 [https://github.com/mina-deploy/mina](https://github.com/mina-deploy/mina)
 * [https://github.com/capistrano/capistrano](https://github.com/capistrano/capistrano)
 * 在线手册API [https://www.matools.com/api](https://www.matools.com/api)
-
+* 游戏多语言实现 [https://github.com/coding-horror/basic-computer-games](https://github.com/coding-horror/basic-computer-games)
 
 
 
@@ -305,6 +305,7 @@
 - [https://github.com/total-typescript/ts-reset](https://github.com/total-typescript/ts-reset)
 - [https://github.com/JDFED](https://github.com/JDFED)
 - [https://github.com/adobe/spectrum-web-components](https://github.com/adobe/spectrum-web-components)
+- [https://github.com/analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis)
 - IO解码/编码 [https://github.com/gcanti/io-ts](https://github.com/gcanti/io-ts)
 - 动画 [https://github.com/AriaMinaei/theatre](https://github.com/AriaMinaei/theatre)
 - 表格 [https://github.com/gristlabs/grist-core](https://github.com/gristlabs/grist-core)

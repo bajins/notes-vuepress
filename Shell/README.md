@@ -40,6 +40,7 @@
 - [https://github.com/d0c-s4vage/lookatme](https://github.com/d0c-s4vage/lookatme)
 - [https://github.com/chubin](https://github.com/chubin)
 - AI加持 [https://github.com/emcf/engshell](https://github.com/emcf/engshell)
+- 历史导入SQLite [https://github.com/atuinsh/atuin](https://github.com/atuinsh/atuin)
 
 
 * [https://github.com/google/zx](https://github.com/google/zx)

@@ -145,6 +145,7 @@
 + [https://github.com/topics/awesome-list](https://github.com/topics/awesome-list)
 
 
+* [https://github.com/GrowingGit/GitHub-Chinese-Top-Charts](https://github.com/GrowingGit/GitHub-Chinese-Top-Charts)
 * [https://github.com/trackawesomelist/trackawesomelist](https://github.com/trackawesomelist/trackawesomelist)
     * [https://www.trackawesomelist.com](https://www.trackawesomelist.com)
 * [https://awesomeopensource.com](https://awesomeopensource.com)

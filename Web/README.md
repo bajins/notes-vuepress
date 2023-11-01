@@ -38,6 +38,8 @@
     + [https://github.com/oldmanpushcart/jpromisor](https://github.com/oldmanpushcart/jpromisor)
 + Web 开发技术-MDN [https://developer.mozilla.org/zh-CN/docs/Web](https://developer.mozilla.org/zh-CN/docs/Web)
     + [https://github.com/roy-tian/learning-area](https://github.com/roy-tian/learning-area)
+* [https://github.com/fedidcg/FedCM](https://github.com/fedidcg/FedCM)
++ HTTP标头分析 [https://github.com/rfc-st/humble](https://github.com/rfc-st/humble)
 + 跨域资源共享 [https://github.com/monsur/enable-cors.org](https://github.com/monsur/enable-cors.org)
 + [https://github.com/gpuweb](https://github.com/gpuweb)
 + [https://github.com/webgpu](https://github.com/webgpu)
