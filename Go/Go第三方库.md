@@ -193,6 +193,7 @@
 * 队列任务 [https://github.com/gocraft/work](https://github.com/gocraft/work)
 * [https://github.com/txn2/rxtx](https://github.com/txn2/rxtx)
 * [https://github.com/RichardKnop/machinery](https://github.com/RichardKnop/machinery)
+* [https://github.com/robfig/cron](https://github.com/robfig/cron)
 * 媒体类型 [http://github.com/gabriel-vasile/mimetype](http://github.com/gabriel-vasile/mimetype)
 * 图片转换 [https://github.com/gographics/imagick](https://github.com/gographics/imagick)
 * 地图 [https://github.com/tidwall/tile38](https://github.com/tidwall/tile38)
@@ -244,6 +245,7 @@
 - [https://github.com/go-admin-team/go-admin](https://github.com/go-admin-team/go-admin)
 - [https://github.com/LyricTian/gin-admin](https://github.com/LyricTian/gin-admin)
 - [https://github.com/hzwy23/hauth](https://github.com/hzwy23/hauth)
+- 天体数据 [https://github.com/celestiaorg/celestia-node](https://github.com/celestiaorg/celestia-node)
 
 
 ## 框架

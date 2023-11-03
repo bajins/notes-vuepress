@@ -162,6 +162,8 @@
 * [https://github.com/binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)
 * [https://github.com/leandromoreira](https://github.com/leandromoreira)
 * 学习项目 [https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo)
+* [https://github.com/1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer)
+* [https://github.com/php-youtubers/directory](https://github.com/php-youtubers/directory)
 * 各种技术主题 [https://github.com/bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises)
 * 学习开发路线图 [https://github.com/kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
     * [https://roadmap.sh](https://roadmap.sh)

@@ -335,10 +335,8 @@ timeout /T -1 /NOBREAK
 ### 任务计划
 
 * [Schtasks命令详解](https://www.cnblogs.com/daimaxuejia/p/12957644.html)
-* [任务计划程序参考](https://docs.microsoft.com/zh-cn/windows/win32/taskschd/task-scheduler-reference)
+* [https://learn.microsoft.com/zh-cn/windows/win32/TaskSchd](https://learn.microsoft.com/zh-cn/windows/win32/TaskSchd)
 
-+ [https://github.com/dahall/TaskScheduler](https://github.com/dahall/TaskScheduler)
-+ [https://github.com/fireeye/SharPersist](https://github.com/fireeye/SharPersist)
 
 **更高级用法见[创建任务计划](/Shell/WindowsJScript.md#创建任务计划)**
 

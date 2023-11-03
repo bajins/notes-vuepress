@@ -156,8 +156,10 @@
 - [https://github.com/swaywm](https://github.com/swaywm)
 - [https://www.deepin.org/zh/dde](https://www.deepin.org/zh/dde)
 
-- 图标 [https://github.com/PapirusDevelopmentTeam/papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+
+* 图标 [https://github.com/PapirusDevelopmentTeam/papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 * Linux桌面壁纸 [https://github.com/pgc062020/DailyDesktopWallpaperPlus](https://github.com/pgc062020/DailyDesktopWallpaperPlus)
+* 视频编辑器 [https://openhub.net/p/pitivi](https://openhub.net/p/pitivi)
 
 
 

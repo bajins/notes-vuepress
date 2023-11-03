@@ -154,6 +154,7 @@
     * 跨平台库 [https://github.com/tdlib](https://github.com/tdlib)
     * Android [https://github.com/DrKLO/Telegram](https://github.com/DrKLO/Telegram)
     * [https://github.com/Telegram-FOSS-Team/Telegram-FOSS](https://github.com/Telegram-FOSS-Team/Telegram-FOSS)
+    * [https://github.com/NekoX-Dev/NekoX](https://github.com/NekoX-Dev/NekoX)
     * iOS [https://github.com/TelegramMessenger/Telegram-iOS](https://github.com/TelegramMessenger/Telegram-iOS)
     * macOS [https://github.com/overtake/TelegramSwift](https://github.com/overtake/TelegramSwift)
     * Windows [https://github.com/telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop)
@@ -363,6 +364,7 @@
 - 视频编辑 [https://github.com/mltframework/shotcut](https://github.com/mltframework/shotcut)
 - [https://github.com/mifi/lossless-cut](https://github.com/mifi/lossless-cut)
 - [https://github.com/ozmartian/vidcutter](https://github.com/ozmartian/vidcutter)
+- [https://github.com/olive-editor/olive](https://github.com/olive-editor/olive)
 
 
 * [foobar2000](http://blog.sina.com.cn/go2spa)
@@ -1070,6 +1072,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/skyline-emu/skyline](https://github.com/skyline-emu/skyline)
 * [https://github.com/StrongPC123/Far-Cry-1-Source-Full](https://github.com/StrongPC123/Far-Cry-1-Source-Full)
 * [https://github.com/jamespetts/simutrans-extended](https://github.com/jamespetts/simutrans-extended)
+* 电子书阅读器 [https://github.com/btpf/Alexandria](https://github.com/btpf/Alexandria)
 
 
 + [http://www.downloadsoftware.ir](http://www.downloadsoftware.ir)

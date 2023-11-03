@@ -15,6 +15,7 @@
     + 创建支持包重定位 [https://github.com/johnrengelman/shadow](https://github.com/johnrengelman/shadow)
     + [https://github.com/Omico/Gradm](https://github.com/Omico/Gradm)
     + [https://github.com/gdubw/gng](https://github.com/gdubw/gng)
+    + [https://github.com/gmazzo/gradle-buildconfig-plugin](https://github.com/gmazzo/gradle-buildconfig-plugin)
 + [https://github.com/package-url](https://github.com/package-url)
 + [https://github.com/sbt/sbt](https://github.com/sbt/sbt)
 + [https://github.com/camunda](https://github.com/camunda)

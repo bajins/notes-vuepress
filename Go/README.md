@@ -171,6 +171,15 @@ go test -v -test.run 函数名
 | 压力测试的循环体   	| 使用test.B.N                                                                                  	|
 
 
+**关闭GC（垃圾回收器）**
+
+- 变量设置
+
+```bash
+go env -w GOGC=off
+```
+
+- 代码中调用 [`debug.SetGCPercent(-1)`](https://pkg.go.dev/runtime/debug#SetGCPercent)
 
 
 

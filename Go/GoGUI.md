@@ -11,6 +11,9 @@
 * [https://github.com/chzyer/readline](https://github.com/chzyer/readline)
 * [https://github.com/go-ole/go-ole](https://github.com/go-ole/go-ole)
 * [https://github.com/yusufpapurcu/wmi](https://github.com/yusufpapurcu/wmi)
+* [https://github.com/kardianos/service](https://github.com/kardianos/service)
+* [https://github.com/capnspacehook/taskmaster](https://github.com/capnspacehook/taskmaster)
+* [https://github.com/ying32/govcl](https://github.com/ying32/govcl)
 * [https://github.com/akavel/rsrc](https://github.com/akavel/rsrc)
 * [https://github.com/tc-hib/winres](https://github.com/tc-hib/winres)
     * [https://github.com/tc-hib/go-winres](https://github.com/tc-hib/go-winres)
@@ -21,6 +24,7 @@
 * [https://github.com/wailsapp/wails](https://github.com/wailsapp/wails)
 
 
+- [https://qiankunli.github.io/2020/11/21/goroutine_system_call.html](https://qiankunli.github.io/2020/11/21/goroutine_system_call.html)
 - [golang windows程序获取管理员权限（UAC ）](https://blog.csdn.net/hejingdong123/article/details/105070150)
 - [how-do-i-force-my-net-application-to-run-as-administrator](https://stackoverflow.com/questions/2818179/how-do-i-force-my-net-application-to-run-as-administrator)
 - [https://docs.microsoft.com/zh-cn/previous-versions/bb756929(v=msdn.10)](https://docs.microsoft.com/zh-cn/previous-versions/bb756929(v=msdn.10))

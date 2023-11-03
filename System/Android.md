@@ -514,6 +514,7 @@
 * [https://videoshowapp.cn](https://videoshowapp.cn)
 * 图片编辑 [https://qingtu.kajicam.com](https://qingtu.kajicam.com)
 * [https://www.magicut.cn](https://www.magicut.cn)
+* 手机变成计算机的麦克风 [https://wolicheng.com/womic](https://wolicheng.com/womic)
 
 
 ### 证件照

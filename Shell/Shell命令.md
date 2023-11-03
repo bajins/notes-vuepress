@@ -31,7 +31,8 @@
 + 终端图像查看 [https://github.com/stefanhaustein/TerminalImageViewer](https://github.com/stefanhaustein/TerminalImageViewer)
 + 地图 [https://github.com/rastapasta/mapscii](https://github.com/rastapasta/mapscii)
 + 电子表格 [https://github.com/saulpw/visidata](https://github.com/saulpw/visidata)
-* 逆向工程 [https://github.com/radareorg/radare2](https://github.com/radareorg/radare2)
++ 逆向工程 [https://github.com/radareorg/radare2](https://github.com/radareorg/radare2)
++ 查看日志文件 [https://github.com/bensadeh/tailspin](https://github.com/bensadeh/tailspin)
 
 
 
@@ -162,7 +163,6 @@ ls -l | awk "/postfix|dovecot/"
 * [https://github.com/search?q=cron](https://github.com/search?q=cron)
     * [https://github.com/topics/crontab](https://github.com/topics/crontab)
     * 定时任务 [https://github.com/ouqiang/gocron](https://github.com/ouqiang/gocron)
-    * [https://github.com/robfig/cron](https://github.com/robfig/cron)
     * [https://github.com/jasonlvhit/gocron](https://github.com/jasonlvhit/gocron)
     * [https://github.com/alseambusher/crontab-ui](https://github.com/alseambusher/crontab-ui)
     * [https://github.com/whyour/qinglong](https://github.com/whyour/qinglong)
