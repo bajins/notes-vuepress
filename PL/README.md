@@ -18,18 +18,19 @@
 - [https://github.com/easychen/howto-make-more-money](https://github.com/easychen/howto-make-more-money)
 - 程序员考公务员 [https://github.com/coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy)
 - [https://github.com/The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run)
+- [https://github.com/AnsonZnl/RehabilitationGuide](https://github.com/AnsonZnl/RehabilitationGuide)
 
 
 
 + [https://en.wikipedia.org/wiki/History_of_programming_languages](https://en.wikipedia.org/wiki/History_of_programming_languages)
     + [七十年编程语言发展漫谈](https://mp.weixin.qq.com/s/4MD4b673b1kkBGhYINSoNQ)
 + [https://github.com/MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)
-+ [https://github.com/codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
 + [https://github.com/topics/high-performance](https://github.com/topics/high-performance)
 + [https://github.com/topics/barcode](https://github.com/topics/barcode)
 + [https://github.com/topics/qrcode](https://github.com/topics/qrcode)
 + [https://github.com/topics/qrcode-generator](https://github.com/topics/qrcode-generator)
 + 编程语言排行 [https://www.tiobe.com/tiobe-index](https://www.tiobe.com/tiobe-index)
++ [https://octoverse.github.com/#top-languages](https://octoverse.github.com/#top-languages)
 + 测试编程速度 [https://github.com/webdevcody/code-racer](https://github.com/webdevcody/code-racer)
 
 
@@ -43,6 +44,129 @@
 3. 强类型语言：不允许隐式转换。
 4. 弱类型语言：允许隐式转换。
 
+
+
+
+
+**开源组织**
+
+* 免费学习编码 [https://github.com/freeCodeCamp](https://github.com/freeCodeCamp)
+* [https://github.com/apache](https://github.com/apache)
+    * [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
+* [https://github.com/google](https://github.com/google)
+    * [https://github.com/googleapis](https://github.com/googleapis)
+    * [https://github.com/GoogleChromeLabs](https://github.com/GoogleChromeLabs)
+    * [https://opensource.google](https://opensource.google)
+* [https://github.com/Netflix](https://github.com/Netflix)
+* [https://github.com/alibaba](https://github.com/alibaba)
+    * [https://tech.taobao.org/open-source](https://tech.taobao.org/open-source)
+* [https://github.com/alipay](https://github.com/alipay)
+* [https://github.com/tencent](https://github.com/tencent)
+* [https://github.com/bytedance](https://github.com/bytedance)
+* [https://github.com/huawei](https://github.com/huawei)
+* [https://github.com/ctripcorp](https://github.com/ctripcorp)
+* [https://github.com/vipshop](https://github.com/vipshop)
+* [https://github.com/mdn](https://github.com/mdn)
+    * [https://developer.mozilla.org](https://developer.mozilla.org)
+    * [https://github.com/openwebdocs](https://github.com/openwebdocs)
+* [https://github.com/Qihoo360](https://github.com/Qihoo360)
+* [https://github.com/IBM](https://github.com/IBM)
+    * [https://www.ibm.com/opensource/open-projects](https://www.ibm.com/opensource/open-projects)
+* [https://github.com/uber](https://github.com/uber)
+* [https://github.com/oracle](https://github.com/oracle)
+    * [https://oss.oracle.com](https://oss.oracle.com)
+    * [https://developer.oracle.com/open-source.html](https://developer.oracle.com/open-source.html)
+* [https://github.com/square](https://github.com/square)
+* [https://github.com/aws-samples](https://github.com/aws-samples)
+    * [https://github.com/awsdocs](https://github.com/awsdocs)
+* [https://github.com/hashicorp](https://github.com/hashicorp)
+* [https://tanzu.vmware.com/cn/open-source](https://tanzu.vmware.com/cn/open-source)
+* [https://opensource.samsung.com](https://opensource.samsung.com)
+* [https://github.com/amzn](https://github.com/amzn)
+* [https://github.com/openstack](https://github.com/openstack)
+* [https://opensource.adobe.com](https://opensource.adobe.com)
+    * [https://github.com/adobe](https://github.com/adobe)
+    * [https://www.adobe.io/open](https://www.adobe.io/open)
+* [https://github.com/redhatofficial](https://github.com/redhatofficial)
+    * [https://redhatofficial.github.io](https://redhatofficial.github.io)
+* [https://github.com/airbnb](https://github.com/airbnb)
+* [https://github.com/nytimes](https://github.com/nytimes)
+
+
+- [https://github.com/TogetherOS](https://github.com/TogetherOS)
+- [https://github.com/lets-blade](https://github.com/lets-blade)
+- 各种非常棒的学习项目 [https://github.com/jobbole](https://github.com/jobbole)
+- [https://github.com/doocs](https://github.com/doocs)
+- [https://github.com/apachecn](https://github.com/apachecn)
+- [https://github.com/need-to-know](https://github.com/need-to-know)
+- [https://github.com/DevotionZhu](https://github.com/DevotionZhu)
+- [https://github.com/huihoo](https://github.com/huihoo)
+
+
+
+**基金会**
+
+* [https://www.linuxfoundation.org/projects](https://www.linuxfoundation.org/projects)
+    * [https://github.com/cncf](https://github.com/cncf)
+    * [https://www.cncf.io/projects](https://www.cncf.io/projects)
+    * [https://www.cncf.io/sandbox-projects](https://www.cncf.io/sandbox-projects)
+    * [https://devstats.cncf.io](https://devstats.cncf.io)
+* [https://www.fsf.org/resources](https://www.fsf.org/resources)
+* [https://projects.ow2.org](https://projects.ow2.org)
+* [https://www.openstack.org/software](https://www.openstack.org/software)
+* OpenInfra Foundation [https://openinfra.dev/projects](https://openinfra.dev/projects)
+* [https://github.com/yahoo](https://github.com/yahoo)
+* [https://github.com/adobe](https://github.com/adobe)
+* [https://github.com/eclipse](https://github.com/eclipse)
+    * [https://projects.eclipse.org](https://projects.eclipse.org)
+* OpenJS基金会 [https://github.com/openjs-foundation](https://github.com/openjs-foundation)
+    * [https://openjsf.org/projects](https://openjsf.org/projects)
+* [https://sfconservancy.org/projects/current](https://sfconservancy.org/projects/current)
+* [https://github.com/openeuler-mirror](https://github.com/openeuler-mirror)
+* [https://lfaidata.foundation/projects](https://lfaidata.foundation/projects)
+* [https://github.com/girlscript/winter-of-contributing](https://github.com/girlscript/winter-of-contributing)
+* [https://github.com/hardenedlinux](https://github.com/hardenedlinux)
+    * [https://gitlab.com/hardenedlinux](https://gitlab.com/hardenedlinux)
+    * [https://github.com/NalaGinrut](https://github.com/NalaGinrut)
+    * [https://gitlab.com/NalaGinrut](https://gitlab.com/NalaGinrut)
+* [https://nlnet.nl/project](https://nlnet.nl/project)
+* [https://github.com/opentffoundation](https://github.com/opentffoundation)
+
+
+
+**开源个人**
+
+* [https://github.com/wangdoc](https://github.com/wangdoc)
+    * [https://wangdoc.com](https://wangdoc.com)
+* [https://github.com/tj](https://github.com/tj)
+* [https://github.com/qinxuewu](https://github.com/qinxuewu)
+* [https://github.com/judasn](https://github.com/judasn)
+* [https://github.com/TiantianUpup](https://github.com/TiantianUpup)
+* [https://github.com/cicadasmile](https://github.com/cicadasmile)
+* [https://github.com/brianway](https://github.com/brianway)
+* [https://github.com/Blankj](https://github.com/Blankj)
+* [https://github.com/ityouknow](https://github.com/ityouknow)
+* [https://github.com/eugenp](https://github.com/eugenp)
+    * [https://www.baeldung.com](https://www.baeldung.com)
+* [https://github.com/lltx](https://github.com/lltx)
+* [https://github.com/Ovilia](https://github.com/Ovilia)
+* [https://github.com/halfrost](https://github.com/halfrost)
+* [https://github.com/changkun](https://github.com/changkun)
+* [https://github.com/chinanf-boy](https://github.com/chinanf-boy)
+* [https://github.com/waylau](https://github.com/waylau)
+    * [Archive | waylau.com](https://waylau.com/archive)
+    * [Books | waylau.com](https://waylau.com/books)
+    * [https://legacy.gitbook.com/@waylau](https://legacy.gitbook.com/@waylau)
+
+
+- [https://github.com/hoochanlon](https://github.com/hoochanlon)
+- [https://github.com/ttys3](https://github.com/ttys3)
+
+
+
+
+
+## 工具套件
 
 * 调试器 [https://github.com/cs01/gdbgui](https://github.com/cs01/gdbgui)
 * [https://github.com/rizinorg/cutter](https://github.com/rizinorg/cutter)
@@ -63,6 +187,7 @@
 * [https://github.com/devcontainers](https://github.com/devcontainers)
 * [https://github.com/devonfw/ide](https://github.com/devonfw/ide)
 * [https://github.com/skeeto/w64devkit](https://github.com/skeeto/w64devkit)
+* [https://github.com/lando/lando](https://github.com/lando/lando)
 * 性能跟踪分析 [https://github.com/topics/trace](https://github.com/topics/trace)
 * [https://github.com/brendangregg](https://github.com/brendangregg)
     * [https://github.com/opendtrace](https://github.com/opendtrace)

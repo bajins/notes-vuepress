@@ -119,6 +119,8 @@
 * 2D [https://www.cairographics.org](https://www.cairographics.org)
 * 3D [https://github.com/blender](https://github.com/blender)
     * [https://github.com/sobotka/blender](https://github.com/sobotka/blender)
+    * [https://github.com/blender-for-science](https://github.com/blender-for-science)
+    * [https://gitlab.onelab.info/gmsh/gmsh](https://gitlab.onelab.info/gmsh/gmsh)
 * [https://github.com/ebassi/graphene](https://github.com/ebassi/graphene)
 * 图片处理 [https://github.com/kohler/gifsicle](https://github.com/kohler/gifsicle)
 * [https://github.com/libjpeg-turbo](https://github.com/libjpeg-turbo)

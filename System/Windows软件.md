@@ -404,7 +404,7 @@
 + [https://github.com/iptv-org](https://github.com/iptv-org)
 + [https://github.com/fanmingming/live](https://github.com/fanmingming/live)
 + [https://github.com/Free-TV](https://github.com/Free-TV)
-+ [https://github.com/fanmingming/live](https://github.com/fanmingming/live)
++ [https://github.com/Cyril0563/lanjing_live](https://github.com/Cyril0563/lanjing_live)
 
 
 * [https://github.com/llazyl/TVBox](https://github.com/llazyl/TVBox)
@@ -1006,6 +1006,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.aida64.com](https://www.aida64.com)
 * [https://entropy6.com/xmeters](https://entropy6.com/xmeters)
 * [https://bitsum.com](https://bitsum.com)
+* 性能测试 [https://github.com/xmrig/xmrig](https://github.com/xmrig/xmrig)
 * 流量监控 [https://www.glasswire.com](https://www.glasswire.com)
 * [https://github.com/TheCGDF/NetSpeed](https://github.com/TheCGDF/NetSpeed)
 * MSI Afterbuner [https://www.msi.com/Landing/afterburner/graphics-cards](https://www.msi.com/Landing/afterburner/graphics-cards)

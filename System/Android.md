@@ -106,6 +106,7 @@
     * [https://forum.xda-developers.com/f/xposed-general.3094](https://forum.xda-developers.com/f/xposed-general.3094)
 * [https://github.com/topjohnwu/Magisk](https://github.com/topjohnwu/Magisk)
     * [https://github.com/Zackptg5/MMT-Extended](https://github.com/Zackptg5/MMT-Extended)
+    * [https://github.com/nakixii/Magisk_AsoulOpt](https://github.com/nakixii/Magisk_AsoulOpt)
 * EdXposed [https://github.com/ElderDrivers](https://github.com/ElderDrivers)
 * Riru [https://github.com/RikkaApps](https://github.com/RikkaApps)
 * 梦境框架 [https://github.com/canyie/Dreamland](https://github.com/canyie/Dreamland)

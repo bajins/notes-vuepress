@@ -405,6 +405,7 @@
 * [https://www.jointjs.com](https://www.jointjs.com)
     * [https://resources.jointjs.com/tutorials/joint/tutorials/ports.html](https://resources.jointjs.com/tutorials/joint/tutorials/ports.html)
 * [https://github.com/jwilber/roughViz](https://github.com/jwilber/roughViz)
+* [https://github.com/didi/LogicFlow](https://github.com/didi/LogicFlow)
 
 
 - 思维导图 [https://github.com/hizzgdev/jsmind](https://github.com/hizzgdev/jsmind)

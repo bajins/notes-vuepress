@@ -178,6 +178,7 @@ volumes:
 
 
 - [https://github.com/search?o=desc&q=stars%3A%3E100000&s=stars](https://github.com/search?o=desc&q=stars%3A%3E100000&s=stars)
+- [https://github.com/trending](https://github.com/trending)
 - GitHub存档 [https://www.gharchive.org](https://www.gharchive.org)
 - [https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
 - [https://github.com/cfour-hi/gitstars](https://github.com/cfour-hi/gitstars)
@@ -226,6 +227,7 @@ volumes:
 * [https://githubfast.com](https://githubfast.com)
 * [https://gitmirror.com](https://gitmirror.com)
     * [https://github.com/7ednet/yard](https://github.com/7ednet/yard)
+* [https://github.com/521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520)
 
 
 - [https://greasyfork.org/zh-CN/scripts/412245](https://greasyfork.org/zh-CN/scripts/412245)

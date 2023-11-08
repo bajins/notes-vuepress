@@ -75,6 +75,7 @@
 * [https://github.com/LiangJunrong/document-library](https://github.com/LiangJunrong/document-library)
 * 前端面试 [https://github.com/haizlin/fe-interview](https://github.com/haizlin/fe-interview)
 * [https://edu.aliyun.com/roadmap/frontend](https://edu.aliyun.com/roadmap/frontend)
+* [https://github.com/CavsZhouyou/Front-End-Interview-Notebook](https://github.com/CavsZhouyou/Front-End-Interview-Notebook)
 * 网络如何运作 [https://github.com/vasanthk/how-web-works](https://github.com/vasanthk/how-web-works)
 * [前端解决第三方图片防盗链的办法 - html referrer 访问图片资源403问题](https://github.com/biaochenxuying/blog/issues/31)
 * [Serverless——前端的3.0时代](https://zhuanlan.zhihu.com/p/84054729)
@@ -287,8 +288,8 @@
 
 - [https://github.com/BlueSkyXN/CFIP](https://github.com/BlueSkyXN/CFIP)
 - [https://github.com/yuantuo666/cfip](https://github.com/yuantuo666/cfip)
-- [https://github.com/XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest)
 - [https://github.com/MortezaBashsiz/CFScanner](https://github.com/MortezaBashsiz/CFScanner)
+- 获取最快IP [https://github.com/XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest)
 
 
 ### Workers

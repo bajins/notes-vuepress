@@ -48,6 +48,7 @@
 - 计算代码行数 [https://github.com/AlDanial/cloc](https://github.com/AlDanial/cloc)
 - 代码覆盖率 [https://github.com/codedx/codepulse](https://github.com/codedx/codepulse)
 - [https://github.com/jacoco/jacoco](https://github.com/jacoco/jacoco)
+- 代码审查 [https://github.com/phacility/phabricator](https://github.com/phacility/phabricator)
 
 
 
@@ -76,6 +77,7 @@
 - [https://github.com/Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)
 - [https://github.com/OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev)
 - [https://github.com/KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
+- [https://github.com/deepseek-ai/DeepSeek-Coder](https://github.com/deepseek-ai/DeepSeek-Coder)
 - 代码转换 [https://github.com/JustAIGithub/AI-Code-Convert](https://github.com/JustAIGithub/AI-Code-Convert)
 - [https://github.com/ritz078/transform](https://github.com/ritz078/transform)
 - DevOps指南 [https://github.com/Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide)
