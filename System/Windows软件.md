@@ -398,6 +398,8 @@
 
 **电视盒子/TVBOX**
 
++ [https://github.com/topics/tv](https://github.com/topics/tv)
++ [https://github.com/topics/live](https://github.com/topics/live)
 + [https://github.com/topics/playlist](https://github.com/topics/playlist)
 + [https://github.com/topics/iptv](https://github.com/topics/iptv)
 + [https://github.com/topics/m3u](https://github.com/topics/m3u)
@@ -919,7 +921,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/Wox-launcher/Wox](https://github.com/Wox-launcher/Wox)
 * ReNamer 批量重命名 [http://www.den4b.com](http://www.den4b.com)
 * 文件去重 [http://www.alldup.info](http://www.alldup.info)
-* 文件资源管理器 [https://www.ghisler.com](https://www.ghisler.com)
+* 文件资源管理器 [https://github.com/files-community/Files](https://github.com/files-community/Files)
+* [https://www.ghisler.com](https://www.ghisler.com)
 * [https://github.com/tablacus/TablacusExplorer](https://github.com/tablacus/TablacusExplorer)
 * [https://www.softwareok.com/?seite=Freeware/Q-Dir](https://www.softwareok.com/?seite=Freeware/Q-Dir)
 * [https://www.xyplorer.com](https://www.xyplorer.com)

@@ -59,6 +59,8 @@
 * [https://github.com/wwg88888888/WeChatExt](https://github.com/wwg88888888/WeChatExt)
 * [https://github.com/KongKong20/WeChatPCHook](https://github.com/KongKong20/WeChatPCHook)
 * [https://github.com/LeLe86/vWeChatCrawl](https://github.com/LeLe86/vWeChatCrawl)
+* [https://github.com/Evil0ctal/Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API)
+* [https://github.com/czy0729/Bangumi](https://github.com/czy0729/Bangumi)
 * [WeChatDownload，批量微信公众号文章下载小工具](https://i.ijrou.com/p/story/WeChatDownload.html)
 * [调试PC端微信内置浏览器](https://mp.weixin.qq.com/s/WZR4HXwM1PEz4nEeMCejWQ)
 * [调试PC端微信内置浏览器](http://jioho.gitee.io/blog/%E5%B7%A5%E5%85%B7/%E8%B0%83%E8%AF%95PC%E7%AB%AF%E5%BE%AE%E4%BF%A1%E5%86%85%E7%BD%AE%E6%B5%8F%E8%A7%88%E5%99%A8.html)
