@@ -89,6 +89,7 @@
 * [https://github.com/sutandojs/sutando](https://github.com/sutandojs/sutando)
 * SQL查询 [https://github.com/knex/knex](https://github.com/knex/knex)
 * [https://github.com/TryGhost/node-sqlite3](https://github.com/TryGhost/node-sqlite3)
+* SQLite REST API [https://github.com/thevahidal/soul](https://github.com/thevahidal/soul)
 * 解析器、压缩器、压缩器和美化 [https://github.com/mishoo/UglifyJS](https://github.com/mishoo/UglifyJS)
 * [https://github.com/solzimer/nsyslog-parser](https://github.com/solzimer/nsyslog-parser)
 * 日志 [https://github.com/trentm/node-bunyan](https://github.com/trentm/node-bunyan)
@@ -121,7 +122,7 @@
 * 键值存储 [https://github.com/jaredwray/keyv](https://github.com/jaredwray/keyv)
 * [https://github.com/microlinkhq/keyvhq](https://github.com/microlinkhq/keyvhq)
 * [https://github.com/sindresorhus/quick-lru](https://github.com/sindresorhus/quick-lru)
-
+* 图片压缩 [https://gitlab.com/ramiel/caravaggio](https://gitlab.com/ramiel/caravaggio)
 
 
 

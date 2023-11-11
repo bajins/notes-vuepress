@@ -192,6 +192,8 @@
 * [https://github.com/warpdotdev](https://github.com/warpdotdev)
 * [https://github.com/trzsz/trzsz](https://github.com/trzsz/trzsz)
 * [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
+* [https://github.com/deadbeefsociety/sshfs](https://github.com/deadbeefsociety/sshfs)
+* [https://github.com/neunenak/sshfs](https://github.com/neunenak/sshfs)
 
 
 - [https://www.termius.com](https://www.termius.com)

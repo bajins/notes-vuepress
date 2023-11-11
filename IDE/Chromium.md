@@ -231,10 +231,12 @@ chrome://flags/#enable-parallel-downloading
 
 
 
-### chromedriver
+### ChromeDriver
 
 > `Selenium`操作`Chrome`浏览器需要有`ChromeDriver`驱动来协助，`ChromeDriver`与`Chrome`版本对应关系一定要正确
 
+* [https://chromedriver.chromium.org](https://chromedriver.chromium.org)
+    * [https://googlechromelabs.github.io/chrome-for-testing](https://googlechromelabs.github.io/chrome-for-testing)
 * [http://chromedriver.storage.googleapis.com/index.html](http://chromedriver.storage.googleapis.com/index.html)
 * [http://npm.taobao.org/mirrors/chromedriver](http://npm.taobao.org/mirrors/chromedriver)
 * [https://npm.taobao.org/mirrors/chromium-browser-snapshots](https://npm.taobao.org/mirrors/chromium-browser-snapshots)
