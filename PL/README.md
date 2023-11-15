@@ -215,6 +215,7 @@
 * 部署工具 [https://github.com/mina-deploy/mina](https://github.com/mina-deploy/mina)
 * [https://github.com/capistrano/capistrano](https://github.com/capistrano/capistrano)
 * 在线手册API [https://www.matools.com/api](https://www.matools.com/api)
+* 环境设置 [https://github.com/josean-dev/dev-environment-files](https://github.com/josean-dev/dev-environment-files)
 * 游戏多语言实现 [https://github.com/coding-horror/basic-computer-games](https://github.com/coding-horror/basic-computer-games)
 
 
@@ -390,6 +391,7 @@
 + [https://github.com/kotlin-hands-on](https://github.com/kotlin-hands-on)
 
 
+- [https://github.com/willowtreeapps/assertk](https://github.com/willowtreeapps/assertk)
 - [https://github.com/pinterest/ktlint](https://github.com/pinterest/ktlint)
 - 编译器插件 [https://github.com/square/anvil](https://github.com/square/anvil)
 - 序列化 [https://github.com/avro-kotlin/avro4k](https://github.com/avro-kotlin/avro4k)
@@ -479,6 +481,7 @@
 - [走进 WebAssembly 的世界](https://juejin.cn/column/7210666370487681082)
     - [https://github.com/yaozhongxiao/webassembly_tech](https://github.com/yaozhongxiao/webassembly_tech)
 - [WebAssembly 模块化与动态链接](https://mp.weixin.qq.com/s/MPBwFuL2CYFVXIowoB542A)
+* 微信小游戏 [https://github.com/wechat-miniprogram](https://github.com/wechat-miniprogram)
 
 
 * [https://github.com/ShizukuIchi/winXP](https://github.com/ShizukuIchi/winXP)

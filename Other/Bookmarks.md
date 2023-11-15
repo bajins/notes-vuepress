@@ -150,6 +150,9 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * 在线视频剪辑 [https://bilibili.clipchamp.com/editor](https://bilibili.clipchamp.com/editor)
 * 图标生成 [https://realfavicongenerator.net](https://realfavicongenerator.net)
 * [https://github.com/faviator/faviator](https://github.com/faviator/faviator)
+* [https://scrnshts.club](https://scrnshts.club)
+* [https://appmotion.design](https://appmotion.design)
+* [https://www.meiye.art](https://www.meiye.art)
 
 
 ## 文档

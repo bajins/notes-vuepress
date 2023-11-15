@@ -378,6 +378,7 @@
 * VLC [https://www.videolan.org](https://www.videolan.org)
 * [https://www.getmusicbee.com](https://www.getmusicbee.com)
 * [https://github.com/Frank-Friemel/Shairport4w](https://github.com/Frank-Friemel/Shairport4w)
+* [https://github.com/maotoumao/MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop)
 
 
 - [https://github.com/Chocobozzz/PeerTube](https://github.com/Chocobozzz/PeerTube)
@@ -407,6 +408,7 @@
 + [https://github.com/fanmingming/live](https://github.com/fanmingming/live)
 + [https://github.com/Free-TV](https://github.com/Free-TV)
 + [https://github.com/Cyril0563/lanjing_live](https://github.com/Cyril0563/lanjing_live)
++ [https://github.com/imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8)
 
 
 * [https://github.com/llazyl/TVBox](https://github.com/llazyl/TVBox)
@@ -414,12 +416,15 @@
 * [https://github.com/FongMi/TV](https://github.com/FongMi/TV)
 * [https://github.com/NAStool/nas-tools](https://github.com/NAStool/nas-tools)
 * [https://github.com/liu673cn/box](https://github.com/liu673cn/box)
+    * [https://github.com/CatVodTVOfficial/TVBoxOSC](https://github.com/CatVodTVOfficial/TVBoxOSC)
 * [https://github.com/tianya7981/jiekou](https://github.com/tianya7981/jiekou)
 * [https://bitbucket.org/xduo/duoapi](https://bitbucket.org/xduo/duoapi)
 * [https://notabug.org/qizhen15800/My9394](https://notabug.org/qizhen15800/My9394)
+* [https://github.com/nilaoda/N_m3u8DL-RE](https://github.com/nilaoda/N_m3u8DL-RE)
 
 - [https://xn--sss604efuw.top](https://xn--sss604efuw.top)
 - [https://www.lige.fit/tvbox](https://www.lige.fit/tvbox)
+- [非正版影视/直播(网站/应用)收集](https://www.nite07.com/moviewebsiteapp)
 
 
 **Potplayer**
@@ -1077,6 +1082,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/skyline-emu/skyline](https://github.com/skyline-emu/skyline)
 * [https://github.com/StrongPC123/Far-Cry-1-Source-Full](https://github.com/StrongPC123/Far-Cry-1-Source-Full)
 * [https://github.com/jamespetts/simutrans-extended](https://github.com/jamespetts/simutrans-extended)
+* [https://github.com/halpz/re3](https://github.com/halpz/re3)
 * 电子书阅读器 [https://github.com/btpf/Alexandria](https://github.com/btpf/Alexandria)
 
 
