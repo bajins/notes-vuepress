@@ -106,6 +106,7 @@
     * [https://github.com/openwrt/openwrt](https://github.com/openwrt/openwrt)
     * [https://github.com/coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
     * [https://github.com/haiibo/OpenWrt](https://github.com/haiibo/OpenWrt)
+    * [https://github.com/gdy666/lucky](https://github.com/gdy666/lucky)
 * [https://github.com/open-power](https://github.com/open-power)
 * [https://github.com/coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
 * [https://github.com/Entware](https://github.com/Entware)

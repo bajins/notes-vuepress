@@ -28,6 +28,7 @@
 + [https://github.com/jondot/rust-how-do-i-start](https://github.com/jondot/rust-how-do-i-start)
 + [https://github.com/fung-hwang/CS110L-2020spr](https://github.com/fung-hwang/CS110L-2020spr)
 + crates字节跳动镜像代理 [https://rsproxy.cn](https://rsproxy.cn)
++ [https://github.com/roc-lang/roc](https://github.com/roc-lang/roc)
 
 
 - [Rust 如何实现单例模式？](https://www.zhihu.com/question/391694703)

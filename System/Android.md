@@ -195,6 +195,7 @@
 
 + [Java反编译工具](/Java/JDK工具.md#反编译工具)
 
+* [https://github.com/rev1si0n/lamda](https://github.com/rev1si0n/lamda)
 * [https://github.com/iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool)
     * [https://github.com/TheCjw/scoop-retools](https://github.com/TheCjw/scoop-retools)
 * [https://github.com/venshine/decompile-apk](https://github.com/venshine/decompile-apk)

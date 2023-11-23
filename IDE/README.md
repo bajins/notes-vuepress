@@ -269,6 +269,7 @@
     * [https://github.com/search?q=navicat](https://github.com/search?q=navicat)
     * [https://github.com/HyperSine](https://github.com/HyperSine)
     * [https://github.com/Abeautifulsnow/navicat-premium-crack](https://github.com/Abeautifulsnow/navicat-premium-crack)
+* [https://github.com/team-ide/teamide](https://github.com/team-ide/teamide)
 * [https://fishcodelib.com/Database.htm](https://fishcodelib.com/Database.htm)
 * [https://codeberg.org/sql-workbench/workbench](https://codeberg.org/sql-workbench/workbench)
     * [https://www.sql-workbench.eu](https://www.sql-workbench.eu)

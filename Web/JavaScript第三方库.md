@@ -376,6 +376,7 @@
 + [https://github.com/topics/diagram](https://github.com/topics/diagram)
 + [https://github.com/topics/flowchart](https://github.com/topics/flowchart)
 
+
 * 图表库 [https://github.com/NorthwoodsSoftware/GoJS](https://github.com/NorthwoodsSoftware/GoJS)
 * [https://github.com/jsplumb](https://github.com/jsplumb)
 * [https://github.com/antvis](https://github.com/antvis)
@@ -383,8 +384,8 @@
 * [https://github.com/fex-team](https://github.com/fex-team)
 * [https://github.com/highcharts](https://github.com/highcharts)
 * [https://github.com/apache/incubator-echarts](https://github.com/apache/incubator-echarts)
+    * [https://github.com/apache/echarts-handbook](https://github.com/apache/echarts-handbook)
 * [https://github.com/timqian/chart.xkcd](https://github.com/timqian/chart.xkcd)
-
 * [https://github.com/imgcook/imove](https://github.com/imgcook/imove)
 * [https://github.com/bpmn-io](https://github.com/bpmn-io)
 * [https://github.com/dagrejs](https://github.com/dagrejs)

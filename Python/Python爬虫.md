@@ -67,6 +67,7 @@
 * ["调戏" 微信PC端浏览器内置浏览器](https://juejin.cn/post/6844904082314887182)
 * [https://github.com/small-step/mikasa-wechat](https://github.com/small-step/mikasa-wechat)
 * [https://github.com/cixingguangming55555/wechat-bot](https://github.com/cixingguangming55555/wechat-bot)
+* [https://github.com/smallfawn/QLScriptPublic](https://github.com/smallfawn/QLScriptPublic)
 * 预苗秒杀 [https://github.com/lyrric/seckill](https://github.com/lyrric/seckill)
 
 
