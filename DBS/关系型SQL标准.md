@@ -330,7 +330,7 @@ ELSE '其他' END
     - `rank()`：按升序顺序，如果有并列名次的行，会占用下一名次的位置。
     - `dese_rank()`：按降序顺序，如果并列名次的行，不占用下一名次的位置。
     - `row_number()`：不考虑并列名次的情况。
-2. 聚合函数：`sun()`,`avg()`,`count()`,`max()`,`min()`
+2. 聚合函数：`sum()`,`avg()`,`count()`,`max()`,`min()`
 3. 向前向后取值：`lag()`，`lead()`
 4. 百分位：`percent_rank()`
 5. 取值函数：`first_value()`，`last_value()`，`nth_value()`

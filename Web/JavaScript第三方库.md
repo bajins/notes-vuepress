@@ -241,6 +241,7 @@
 * 二维码 [https://github.com/ciaochaos/qrbtf](https://github.com/ciaochaos/qrbtf)
 * 随机数 [https://github.com/ChrisCavs/aimless.js](https://github.com/ChrisCavs/aimless.js)
 * Promise [https://github.com/petkaantonov/bluebird](https://github.com/petkaantonov/bluebird)
+* 矩阵计算 [https://github.com/mateogianolio/vectorious](https://github.com/mateogianolio/vectorious)
 
 
 - 数字精度 [https://github.com/topics/arbitrary-precision](https://github.com/topics/arbitrary-precision)

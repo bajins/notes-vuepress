@@ -54,6 +54,7 @@
 - 隐藏菜单栏 [https://github.com/Mortennn/Dozer](https://github.com/Mortennn/Dozer)
 - [https://github.com/acidanthera](https://github.com/acidanthera)
 - [https://github.com/ivoronin/TomatoBar](https://github.com/ivoronin/TomatoBar)
+- 翻译 [https://github.com/tisfeng/Easydict](https://github.com/tisfeng/Easydict)
 
 
 ## IOS框架

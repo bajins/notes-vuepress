@@ -398,6 +398,10 @@ string &operator+(const string& A,const string& B) //cpp
 
 ## 工具
 
+* 跨平台博客同步 [https://github.com/LetTTGACO/elog](https://github.com/LetTTGACO/elog)
+
+
+
 ### 输出目录结构
 
 

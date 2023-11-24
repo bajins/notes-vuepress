@@ -235,6 +235,7 @@
 * UPnP [https://github.com/huin/goupnp](https://github.com/huin/goupnp)
     * [https://gitlab.com/NebulousLabs/go-upnp](https://gitlab.com/NebulousLabs/go-upnp)
 * 容错 [https://github.com/failsafe-go/failsafe-go](https://github.com/failsafe-go/failsafe-go)
+* 操作WiFi [https://github.com/mdlayher/wifi](https://github.com/mdlayher/wifi)
 
 
 
