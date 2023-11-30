@@ -94,6 +94,7 @@ nginx -t
 * [https://github.com/zhouchangxun/ngx_healthcheck_module](https://github.com/zhouchangxun/ngx_healthcheck_module)
 * [https://github.com/vozlt/nginx-module-vts](https://github.com/vozlt/nginx-module-vts)
 * [https://gitee.com/tianhao26/openresty_forwarding_log](https://gitee.com/tianhao26/openresty_forwarding_log)
+* 心跳检测 [https://github.com/yaoweibin/nginx_upstream_check_module](https://github.com/yaoweibin/nginx_upstream_check_module)
 * [https://github.com/cuber/ngx_http_google_filter_module](https://github.com/cuber/ngx_http_google_filter_module)
     * [Nginx 配置谷歌镜像站](https://plusls.github.io/linux/nginx/configure-nginx-google-mirror)
 * 流媒体 [https://github.com/arut/nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module)

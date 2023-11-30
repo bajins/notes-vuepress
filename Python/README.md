@@ -33,6 +33,7 @@
 * [Python语言小册](https://python.fasionchan.com/zh_CN/latest/index.html)
 * [https://github.com/revolunet/PythonBooks](https://github.com/revolunet/PythonBooks)
 * [https://github.com/robertparley/wtfpython-cn](https://github.com/robertparley/wtfpython-cn)
+* [https://github.com/gto76/python-cheatsheet](https://github.com/gto76/python-cheatsheet)
 * 教程 [https://github.com/TwoWater/Python](https://github.com/TwoWater/Python)
 * [https://github.com/xxg1413/python](https://github.com/xxg1413/python)
 * [https://github.com/yidao620c/python3-cookbook](https://github.com/yidao620c/python3-cookbook)

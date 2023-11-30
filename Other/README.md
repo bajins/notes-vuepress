@@ -432,7 +432,7 @@
 * [https://github.com/joke2k/faker](https://github.com/joke2k/faker)
     * [faker - 测试数据生成 | Tonny's Blog](https://codertang.com/2020/09/05/python-faker)
     * [faker_examples.py](https://github.com/bajins/scripts-python/blob/master/faker_examples.py)
-
+* [https://github.com/brianvoe/gofakeit](https://github.com/brianvoe/gofakeit)
 
 
 

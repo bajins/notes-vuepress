@@ -152,6 +152,7 @@
 * 屏幕锁定 [https://github.com/swaywm/swaylock](https://github.com/swaywm/swaylock)
 * 管理 [https://github.com/puppetlabs/puppet](https://github.com/puppetlabs/puppet)
 * 设备连接 [https://github.com/netbirdio/netbird](https://github.com/netbirdio/netbird)
+* 服务器测评 [https://github.com/spiritLHLS/ecs](https://github.com/spiritLHLS/ecs)
 
 
 
@@ -269,9 +270,11 @@
 + [https://github.com/topics/performance-monitoring](https://github.com/topics/performance-monitoring)
 
 
-* [https://github.com/cppla/ServerStatus](https://github.com/cppla/ServerStatus)
+* [https://github.com/orilights/ServerStatus-Theme-Light](https://github.com/orilights/ServerStatus-Theme-Light)
+    * [https://github.com/cppla/ServerStatus](https://github.com/cppla/ServerStatus)
+    * [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
+    * [https://github.com/BotoX/ServerStatus](https://github.com/BotoX/ServerStatus)
 * [https://github.com/CokeMine/ServerStatus-Hotaru](https://github.com/CokeMine/ServerStatus-Hotaru)
-* [https://github.com/BotoX/ServerStatus](https://github.com/BotoX/ServerStatus)
 * [https://github.com/nokyan/resources](https://github.com/nokyan/resources)
 * [https://github.com/chaos-zhu/easynode](https://github.com/chaos-zhu/easynode)
 * [https://github.com/ClementTsang/bottom](https://github.com/ClementTsang/bottom)
@@ -344,6 +347,7 @@
 * [https://github.com/scouter-project/scouter](https://github.com/scouter-project/scouter)
 * 可视化套件 [https://github.com/grafana/grafana](https://github.com/grafana/grafana)
 * [https://github.com/GitSquared/edex-ui](https://github.com/GitSquared/edex-ui)
+* 仪表盘图标 [https://github.com/xushier/HD-Icons](https://github.com/xushier/HD-Icons)
 
 
 
