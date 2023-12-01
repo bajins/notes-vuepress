@@ -272,7 +272,6 @@
 * [https://github.com/jonfinerty/Once](https://github.com/jonfinerty/Once)
 * 打包 [https://github.com/Meituan-Dianping/walle](https://github.com/Meituan-Dianping/walle)
 * [https://github.com/CtripMobile/DynamicAPK](https://github.com/CtripMobile/DynamicAPK)
-* [https://github.com/fastlane/fastlane](https://github.com/fastlane/fastlane)
 * 签名 [https://github.com/patrickfav/uber-apk-signer](https://github.com/patrickfav/uber-apk-signer)
 * 媒体管理 [https://github.com/bumptech/glide](https://github.com/bumptech/glide)
 * [https://github.com/yanzhenjie/SwipeRecyclerView](https://github.com/yanzhenjie/SwipeRecyclerView)

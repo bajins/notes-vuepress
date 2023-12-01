@@ -354,6 +354,7 @@ $('div:contains("test"):not(:has(*)):last').css('background-color', 'red');
 * [https://github.com/kamranahmedse/jquery-toast-plugin](https://github.com/kamranahmedse/jquery-toast-plugin)
 * 分页 [https://github.com/superRaytin/paginationjs](https://github.com/superRaytin/paginationjs)
 * 视频播放 [https://github.com/jplayer/jPlayer](https://github.com/jplayer/jPlayer)
+* [https://github.com/davatron5000/FitVids.js](https://github.com/davatron5000/FitVids.js)
 * 弹幕 [https://github.com/chiruom/jquery.danmu.js](https://github.com/chiruom/jquery.danmu.js)
 * [https://github.com/jeromeetienne/jquery-qrcode](https://github.com/jeromeetienne/jquery-qrcode)
 * [https://github.com/jquery-i18n-properties/jquery-i18n-properties](https://github.com/jquery-i18n-properties/jquery-i18n-properties)

@@ -362,6 +362,7 @@
 * [http://www.batchshell.cn](http://www.batchshell.cn)
 * [https://github.com/hestiacp/hestiacp](https://github.com/hestiacp/hestiacp)
 * [https://github.com/1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel)
+* [https://github.com/midoks/mdserver-web](https://github.com/midoks/mdserver-web)
 
 
 
@@ -421,6 +422,8 @@
 * 媒体服务器 [https://github.com/MediaBrowser/Emby.Releases](https://github.com/MediaBrowser/Emby.Releases)
 * [https://github.com/jellyfin/jellyfin](https://github.com/jellyfin/jellyfin)
 * 证件照 [https://github.com/zhbhun/idify](https://github.com/zhbhun/idify)
+* 在线PS [https://github.com/viliusle/miniPaint](https://github.com/viliusle/miniPaint)
+    * [https://zaixianps.net](https://zaixianps.net)
 
 
 

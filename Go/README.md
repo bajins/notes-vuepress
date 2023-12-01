@@ -84,6 +84,7 @@
 * [Go 编程实例 Go by Example](https://learnku.com/docs/gobyexample/2020)
 * [https://github.com/lexkong/apiserver_demos](https://github.com/lexkong/apiserver_demos)
 * [https://github.com/jiujuan/go-collection](https://github.com/jiujuan/go-collection)
+* [https://github.com/hwholiday/learning_tools](https://github.com/hwholiday/learning_tools)
 * 中文学习资料 [https://github.com/gwuhaolin/golang-book](https://github.com/gwuhaolin/golang-book)
 * [https://github.com/jincheng9/go-tutorial](https://github.com/jincheng9/go-tutorial)
 * [https://github.com/unknwon/go-study-index](https://github.com/unknwon/go-study-index)

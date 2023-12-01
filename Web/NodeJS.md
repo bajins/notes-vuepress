@@ -123,7 +123,9 @@
 * [https://github.com/microlinkhq/keyvhq](https://github.com/microlinkhq/keyvhq)
 * [https://github.com/sindresorhus/quick-lru](https://github.com/sindresorhus/quick-lru)
 * 图片压缩 [https://gitlab.com/ramiel/caravaggio](https://gitlab.com/ramiel/caravaggio)
-
+* C交互接口 [https://github.com/Koromix/koffi](https://github.com/Koromix/koffi)
+* 游戏框架 [https://github.com/greenheartgames/greenworks](https://github.com/greenheartgames/greenworks)
+* [https://github.com/ceifa/steamworks.js](https://github.com/ceifa/steamworks.js)
 
 
 

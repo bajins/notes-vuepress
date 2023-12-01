@@ -32,6 +32,7 @@
 + 编程语言排行 [https://www.tiobe.com/tiobe-index](https://www.tiobe.com/tiobe-index)
 + [https://octoverse.github.com/#top-languages](https://octoverse.github.com/#top-languages)
 + 测试编程速度 [https://github.com/webdevcody/code-racer](https://github.com/webdevcody/code-racer)
++ 游戏开发技术图谱 [https://github.com/gonglei007/GameDevMind](https://github.com/gonglei007/GameDevMind)
 
 
 * [python、java、c、go执行速度对比](https://www.jianshu.com/p/d60eff598aa0)

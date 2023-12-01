@@ -194,6 +194,7 @@ firewall-cmd --query-panic
 
 - 查询IP地理信息 [https://github.com/zu1k/nali](https://github.com/zu1k/nali)
 - [https://github.com/jason5ng32/MyIP](https://github.com/jason5ng32/MyIP)
+- [https://ip.guide](https://ip.guide)
 - DNS扫描 [https://github.com/pwnesia/dnstake](https://github.com/pwnesia/dnstake)
 - [https://github.com/zartbot/ztrace](https://github.com/zartbot/ztrace)
 - [https://github.com/pymumu/smartdns](https://github.com/pymumu/smartdns)
