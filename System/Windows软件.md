@@ -250,6 +250,7 @@
     * [http://www.nodes-dat.com](http://www.nodes-dat.com)
     * [http://upd.emule-security.org/nodes.dat](http://upd.emule-security.org/nodes.dat)
     * [http://ed2k.im/nodes.dat](http://ed2k.im/nodes.dat)
+* [https://github.com/pt-plugins/PT-Plugin-Plus](https://github.com/pt-plugins/PT-Plugin-Plus)
 
 
 **磁力搜索**
@@ -1128,6 +1129,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 - [https://github.com/Ngwind/wechat-export](https://github.com/Ngwind/wechat-export)
     - [微信聊天记录数据解密与分析](https://juejin.cn/post/7159495394022391821)
     - [微信聊天记录解密并导出](https://dta0502.github.io/archives/e872e04.html)
+- [https://github.com/LC044/WeChatMsg](https://github.com/LC044/WeChatMsg)
 - [https://github.com/HackerDev-Felix/WechatDecrypt](https://github.com/HackerDev-Felix/WechatDecrypt)
 - [https://github.com/saturn-opposition/wechat_analysis](https://github.com/saturn-opposition/wechat_analysis)
 - [https://github.com/allen1881996/WeChat-Data-Analysis](https://github.com/allen1881996/WeChat-Data-Analysis)

@@ -303,13 +303,14 @@
 * 图像裁剪 [https://github.com/mike14u/croperino](https://github.com/mike14u/croperino)
 * [https://github.com/T8RIN/ImageToolbox](https://github.com/T8RIN/ImageToolbox)
 * 图表库 [https://github.com/PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
+* 图像加载 [https://github.com/coil-kt/coil](https://github.com/coil-kt/coil)
+* 翻页动效 [https://github.com/PureWriter/FullDraggableDrawer](https://github.com/PureWriter/FullDraggableDrawer)
 * 进度 [https://github.com/lzyzsd/CircleProgress](https://github.com/lzyzsd/CircleProgress)
 * [https://github.com/sunjinxi1994/EasyPoi](https://github.com/sunjinxi1994/EasyPoi)
 * 滚动 [https://github.com/scwang90/SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout)
 * 动态组件化 [https://github.com/iqiyi/Qigsaw](https://github.com/iqiyi/Qigsaw)
 * UI [https://github.com/Tencent/QMUI_Android](https://github.com/Tencent/QMUI_Android)
 * [https://github.com/dmytrodanylyk/circular-progress-button](https://github.com/dmytrodanylyk/circular-progress-button)
-* [https://github.com/material-components](https://github.com/material-components)
 * [https://github.com/lapism/search](https://github.com/lapism/search)
 * [https://github.com/airbnb/lottie-android](https://github.com/airbnb/lottie-android)
 * [https://github.com/li-xiaojun/XPopup](https://github.com/li-xiaojun/XPopup)
@@ -517,9 +518,11 @@
 * 无限词典 [https://github.com/KnIfER/PlainDictionaryAPP](https://github.com/KnIfER/PlainDictionaryAPP)
 * 视频编辑 [https://m.ulikecam.com](https://m.ulikecam.com)
 * [https://videoshowapp.cn](https://videoshowapp.cn)
+* 视频播放 [https://nplayer.com](https://nplayer.com)
 * 图片编辑 [https://qingtu.kajicam.com](https://qingtu.kajicam.com)
 * [https://www.magicut.cn](https://www.magicut.cn)
 * 手机变成计算机的麦克风 [https://wolicheng.com/womic](https://wolicheng.com/womic)
+* 备份数据 [https://github.com/XayahSuSuSu/Android-DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup)
 
 
 ### 证件照

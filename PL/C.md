@@ -128,6 +128,7 @@
 * [http://ijg.org](http://ijg.org)
 * [https://github.com/phoboslab/qoi](https://github.com/phoboslab/qoi)
 * [https://sourceforge.net/projects/giflib](https://sourceforge.net/projects/giflib)
+* [https://sourceforge.net/projects/apng](https://sourceforge.net/projects/apng)
 * [https://gitlab.com/libtiff](https://gitlab.com/libtiff)
     * [http://www.libtiff.org](http://www.libtiff.org)
 * [https://sourceforge.net/projects/gnuwin32](https://sourceforge.net/projects/gnuwin32)

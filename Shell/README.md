@@ -33,6 +33,7 @@
 - [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 - [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
 - [https://github.com/zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [https://github.com/spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt)
 - [https://github.com/Bash-it/bash-it](https://github.com/Bash-it/bash-it)
 - [https://github.com/orhun/halp](https://github.com/orhun/halp)
 - [https://github.com/0dayCTF/reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator)

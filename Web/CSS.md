@@ -30,7 +30,7 @@
 - [https://github.com/ubershmekel/cssbed](https://github.com/ubershmekel/cssbed)
 
 
-
+* [界面灵感类网站合集](https://uxchi.notion.site/881b4c0179a74935a3f607ad3521cdb5)
 * [现代 CSS 高阶技巧，完美的波浪进度条效果](https://segmentfault.com/a/1190000043081752)
 * 可折叠树 [https://iamkate.com/code/tree-views](https://iamkate.com/code/tree-views)
 * [CSS In 2023](https://juejin.cn/post/7232187022399586362)

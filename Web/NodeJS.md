@@ -11,6 +11,8 @@
     + [https://nodejs.org/zh-cn](https://nodejs.org/zh-cn)
 
 
+* [https://github.com/nodeschool](https://github.com/nodeschool)
+* [https://github.com/workshopper](https://github.com/workshopper)
 * [http://www.npmdoc.org](http://www.npmdoc.org)
 * [https://github.com/goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices)
 * [NodeJs小册](https://nodejs.fasionchan.com/zh_CN/latest/index.html)
