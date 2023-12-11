@@ -18,7 +18,6 @@
     + [https://github.com/gmazzo/gradle-buildconfig-plugin](https://github.com/gmazzo/gradle-buildconfig-plugin)
 + [https://github.com/package-url](https://github.com/package-url)
 + [https://github.com/sbt/sbt](https://github.com/sbt/sbt)
-+ [https://github.com/camunda](https://github.com/camunda)
 + [https://github.com/jbangdev](https://github.com/jbangdev)
 + [https://github.com/sormuras/bach](https://github.com/sormuras/bach)
 + [https://redmine.z2-environment.net](https://redmine.z2-environment.net)

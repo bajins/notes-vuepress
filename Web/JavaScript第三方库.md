@@ -106,6 +106,7 @@
 * 汉字拼音 [https://github.com/hotoo/pinyin](https://github.com/hotoo/pinyin)
 * 甘特图 [https://github.com/frappe/gantt](https://github.com/frappe/gantt)
 * 电子签名 [https://github.com/OpenSignLabs/OpenSign](https://github.com/OpenSignLabs/OpenSign)
+* 响应式电子邮件 [https://github.com/mjmlio/mjml](https://github.com/mjmlio/mjml)
 
 
 
@@ -390,10 +391,11 @@
 * [https://github.com/timqian/chart.xkcd](https://github.com/timqian/chart.xkcd)
 * [https://github.com/imgcook/imove](https://github.com/imgcook/imove)
 * [https://github.com/bpmn-io](https://github.com/bpmn-io)
-* [https://github.com/dagrejs](https://github.com/dagrejs)
-* [https://github.com/jgrap](https://github.com/jgraph)
+* ~~[https://github.com/jgraph/mxgraph](https://github.com/jgraph/mxgraph)~~
     * [https://github.com/jinzhanye/pokemon-diagram](https://github.com/jinzhanye/pokemon-diagram)
     * [mxGraph 入门实例教程](https://segmentfault.com/a/1190000018510996)
+    * [https://github.com/maxGraph/maxGraph](https://github.com/maxGraph/maxGraph)
+* [https://github.com/dagrejs](https://github.com/dagrejs)
 * [https://github.com/cytoscape](https://github.com/cytoscape)
 * [https://github.com/d3](https://github.com/d3)
 * [https://github.com/freegroup/draw2d](https://github.com/freegroup/draw2d)

@@ -196,6 +196,8 @@ volumes:
 - [https://github.com/techgaun/active-forks](https://github.com/techgaun/active-forks)
 - [https://giters.com](https://giters.com)
 - 技术周刊 [https://github.com/tw93/weekly](https://github.com/tw93/weekly)
+- [https://github.com/ruanyf/weekly](https://github.com/ruanyf/weekly)
+    - [https://www.ruanyifeng.com/blog/archives.html](https://www.ruanyifeng.com/blog/archives.html)
 - 获取统计信息 [https://github.com/shroudedcode/devstats](https://github.com/shroudedcode/devstats)
 - 获取动态生成的GitHub统计信息 [https://github.com/anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
 - 获取访问统计 http://profile-counter.glitch.me/用户名/count.svg

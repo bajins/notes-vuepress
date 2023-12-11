@@ -225,6 +225,7 @@
 - [https://github.com/lxdvs/apk2gold](https://github.com/lxdvs/apk2gold)
 - [https://github.com/dana-at-cp/backdoor-apk](https://github.com/dana-at-cp/backdoor-apk)
 - [https://github.com/stray-coding/android_decompile_tool](https://github.com/stray-coding/android_decompile_tool)
+- [https://github.com/jmpoep/vmprotect-3.5.1](https://github.com/jmpoep/vmprotect-3.5.1)
 
 
 

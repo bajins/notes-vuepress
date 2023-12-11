@@ -62,6 +62,7 @@
 
 * [https://github.com/HTTPArchive](https://github.com/HTTPArchive)
 * 浏览器功能支持情况 [https://github.com/Fyrd/caniuse](https://github.com/Fyrd/caniuse)
+* 电量情况 [https://github.com/deepesh-01/battery_indicator](https://github.com/deepesh-01/battery_indicator)
 * 代码提示 [https://github.com/webhintio](https://github.com/webhintio)
 * Web组件 [https://github.com/webcomponents](https://github.com/webcomponents)
 * Web开源项目 [https://github.com/bestofjs/bestofjs-webui](https://github.com/bestofjs/bestofjs-webui)

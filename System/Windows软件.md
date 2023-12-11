@@ -415,6 +415,8 @@
 + [https://github.com/qwerttvv/Beijing-IPTV](https://github.com/qwerttvv/Beijing-IPTV)
 + [https://github.com/cyao2q/files](https://github.com/cyao2q/files)
 + [https://github.com/Ftindy/IPTV-URL](https://github.com/Ftindy/IPTV-URL)
++ [https://jihulab.com/moyuer/momoyu](https://jihulab.com/moyuer/momoyu)
++ [https://github.com/shidahuilang/shuyuan](https://github.com/shidahuilang/shuyuan)
 
 
 * [https://github.com/llazyl/TVBox](https://github.com/llazyl/TVBox)
