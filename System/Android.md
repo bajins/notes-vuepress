@@ -114,6 +114,8 @@
     * [https://github.com/Xposed-Modules-Repo](https://github.com/Xposed-Modules-Repo)
     * [https://github.com/ThePieMonster/HideMockLocation](https://github.com/ThePieMonster/HideMockLocation)
     * [https://www.ghxi.com/lsposed.html](https://www.ghxi.com/lsposed.html)
+    * 起点阅读 [https://github.com/xihan123/QDReadHook](https://github.com/xihan123/QDReadHook)
+    * [https://github.com/BookShared/BookShared](https://github.com/BookShared/BookShared)
 * BugHook（应用转生）
 * Xpatch
 * SPatch（天鉴）
@@ -461,6 +463,7 @@
 + [https://patch.chelpus.com](https://patch.chelpus.com)
 + [https://github.com/butzist/ActivityLauncher](https://github.com/butzist/ActivityLauncher)
 + [https://github.com/yoyodadada/haoruanfenxiang](https://github.com/yoyodadada/haoruanfenxiang)
+    + [https://yoyodadada.lanzoui.com/u/yoyodadada](https://yoyodadada.lanzoui.com/u/yoyodadada)
 + [https://dongji.lanzoui.com/b05alr4pi](https://dongji.lanzoui.com/b05alr4pi)
 + [https://www.lanzoui.com/b05f9wyf](https://www.lanzoui.com/b05f9wyf)
 + [https://dongji.lanzoui.com/b05a873cb](https://dongji.lanzoui.com/b05a873cb)
@@ -469,6 +472,7 @@
 
 **音乐下载**
 
++ [https://github.com/lyswhut/lx-music-mobile](https://github.com/lyswhut/lx-music-mobile)
 + [酷我音乐精品破解版本集合地](https://www.lanzoui.com/b05aammje)
 + [酷我音乐_for_Android](https://www.lanzoui.com/b0f1956fc)
 + [https://yaweimao.lanzoui.com/b00z96sod](https://yaweimao.lanzoui.com/b00z96sod)

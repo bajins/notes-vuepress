@@ -39,7 +39,6 @@
 + IDE [https://www.jetbrains.com/zh-cn/objc](https://www.jetbrains.com/zh-cn/objc)
 + [https://github.com/Carthage/Carthage](https://github.com/Carthage/Carthage)
 + [https://cocoapods.org](https://cocoapods.org)
-+ 转译为Android [https://github.com/trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
 
 
 
