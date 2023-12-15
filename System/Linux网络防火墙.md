@@ -203,6 +203,7 @@ firewall-cmd --query-panic
 
 **`ping`、`tcptraceroute`、`traceroute`、`mtr`**
 
+* [https://github.com/fujiapple852/trippy](https://github.com/fujiapple852/trippy)
 * [https://www.cnblogs.com/xzkzzz/p/7413177.html](https://www.cnblogs.com/xzkzzz/p/7413177.html)
 * [https://www.jianshu.com/p/802010d54849](https://www.jianshu.com/p/802010d54849)
 * [https://cloud.tencent.com/developer/article/1332118](https://cloud.tencent.com/developer/article/1332118)

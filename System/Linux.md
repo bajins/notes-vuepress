@@ -137,6 +137,7 @@
 - [https://github.com/illiliti/libudev-zero](https://github.com/illiliti/libudev-zero)
 - [https://github.com/red-data-tools/YouPlot](https://github.com/red-data-tools/YouPlot)
 - 系统日志管理 [https://github.com/hat-open/hat-syslog](https://github.com/hat-open/hat-syslog)
+- 安全防护 [https://github.com/fail2ban/fail2ban](https://github.com/fail2ban/fail2ban)
 
 
 

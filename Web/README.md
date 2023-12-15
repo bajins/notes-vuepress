@@ -251,6 +251,7 @@
 * [https://github.com/aloud-comments](https://github.com/aloud-comments)
 * [https://github.com/MHuiG/ohhho](https://github.com/MHuiG/ohhho)
 * [https://github.com/imaegoo/twikoo](https://github.com/imaegoo/twikoo)
+* [https://github.com/DongHY1/comments](https://github.com/DongHY1/comments)
 
 
 - [第三方评论系统之我见](https://www.yunyoujun.cn/share/third-party-comment-system)
