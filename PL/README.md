@@ -19,6 +19,7 @@
 - 程序员考公务员 [https://github.com/coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy)
 - [https://github.com/The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run)
 - [https://github.com/AnsonZnl/RehabilitationGuide](https://github.com/AnsonZnl/RehabilitationGuide)
+- 副业 [https://github.com/bleedline/aimoneyhunter](https://github.com/bleedline/aimoneyhunter)
 
 
 

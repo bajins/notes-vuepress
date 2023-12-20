@@ -12,7 +12,6 @@
 + [Windows 10 有哪些值得推荐的必装软件？](https://www.zhihu.com/question/35088093)
 
 - [https://github.com/topics/desktop-app](https://github.com/topics/desktop-app)
-- [https://github.com/awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 - [https://www.solvusoft.com/zh-cn/file-extensions](https://www.solvusoft.com/zh-cn/file-extensions)
 - [https://www.fileviewpro.com/zh-cn](https://www.fileviewpro.com/zh-cn)
 
@@ -417,6 +416,7 @@
 + [https://github.com/Ftindy/IPTV-URL](https://github.com/Ftindy/IPTV-URL)
 + [https://jihulab.com/moyuer/momoyu](https://jihulab.com/moyuer/momoyu)
 + [https://github.com/shidahuilang/shuyuan](https://github.com/shidahuilang/shuyuan)
++ [https://github.com/HerbertHe/iptv-sources](https://github.com/HerbertHe/iptv-sources)
 
 
 * [https://github.com/llazyl/TVBox](https://github.com/llazyl/TVBox)

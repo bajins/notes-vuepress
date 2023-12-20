@@ -196,6 +196,7 @@
 * 工具 [https://github.com/bing-framework/Bing.NetCore](https://github.com/bing-framework/Bing.NetCore)
 * [https://github.com/Senparc/Senparc.CO2NET](https://github.com/Senparc/Senparc.CO2NET)
 * [https://github.com/icsharpcode](https://github.com/icsharpcode)
+* [https://github.com/ldqk/Masuit.Tools](https://github.com/ldqk/Masuit.Tools)
 * Web框架 [https://github.com/abpframework/abp](https://github.com/abpframework/abp)
     * [https://github.com/EasyAbp](https://github.com/EasyAbp)
 * [https://github.com/ModernFlyouts-Community/ModernFlyouts](https://github.com/ModernFlyouts-Community/ModernFlyouts)
@@ -243,6 +244,7 @@
 * [https://github.com/fluentmigrator/fluentmigrator](https://github.com/fluentmigrator/fluentmigrator)
 * [https://github.com/DotNetNext/SqlSugar](https://github.com/DotNetNext/SqlSugar)
 * 二维码 [https://github.com/micjahn/ZXing.Net](https://github.com/micjahn/ZXing.Net)
+* [https://github.com/codebude/QRCoder](https://github.com/codebude/QRCoder)
 * 捕获数据包 [https://github.com/dotpcap](https://github.com/dotpcap)
 * 软件更新 [https://github.com/NetSparkleUpdater/NetSparkle](https://github.com/NetSparkleUpdater/NetSparkle)
 * 图片处理 [https://github.com/imazen](https://github.com/imazen)
@@ -263,5 +265,6 @@
 - 微信SDK [https://github.com/fudiwei/DotNetCore.SKIT.FlurlHttpClient.Wechat](https://github.com/fudiwei/DotNetCore.SKIT.FlurlHttpClient.Wechat)
 - [https://github.com/ldqk/Masuit.MyBlogs](https://github.com/ldqk/Masuit.MyBlogs)
 - 节奏游戏 [https://github.com/ppy/osu](https://github.com/ppy/osu)
+- [https://github.com/jynew/jynew](https://github.com/jynew/jynew)
 - 显示语法树 [https://github.com/KirillOsenkov/RoslynQuoter](https://github.com/KirillOsenkov/RoslynQuoter)
 

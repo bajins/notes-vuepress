@@ -165,6 +165,7 @@
 * [https://yesicon.app](https://yesicon.app)
     * [https://github.com/rotick/yesicon-forum](https://github.com/rotick/yesicon-forum)
 * [https://github.com/simple-icons](https://github.com/simple-icons)
+* [https://github.com/pheralb/svgl](https://github.com/pheralb/svgl)
 
 
 - [最受程序员欢迎的 20 个 CSS 框架](https://www.fuocu.cn/archives/css-frame)

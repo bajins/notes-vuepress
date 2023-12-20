@@ -136,4 +136,4 @@
 * [https://github.com/WBB1997/BingWallpaper](https://github.com/WBB1997/BingWallpaper)
 * 翻译 [https://github.com/omegat-org/omegat](https://github.com/omegat-org/omegat)
     * [https://sourceforge.net/projects/omegat](https://sourceforge.net/projects/omegat)
-
+* 纸牌游戏 [https://github.com/Card-Forge/forge](https://github.com/Card-Forge/forge)

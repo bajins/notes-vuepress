@@ -524,10 +524,12 @@
 * 视频编辑 [https://m.ulikecam.com](https://m.ulikecam.com)
 * [https://videoshowapp.cn](https://videoshowapp.cn)
 * 视频播放 [https://nplayer.com](https://nplayer.com)
+* [https://github.com/Moriafly/SaltPlayerSource](https://github.com/Moriafly/SaltPlayerSource)
 * 图片编辑 [https://qingtu.kajicam.com](https://qingtu.kajicam.com)
 * [https://www.magicut.cn](https://www.magicut.cn)
 * 手机变成计算机的麦克风 [https://wolicheng.com/womic](https://wolicheng.com/womic)
 * 备份数据 [https://github.com/XayahSuSuSu/Android-DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup)
+* 自动点击 [https://github.com/gkd-kit/gkd](https://github.com/gkd-kit/gkd)
 
 
 ### 证件照

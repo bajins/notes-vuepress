@@ -65,12 +65,24 @@ taskkill /f /im explorer.exe & start explorer.exe
 - `计算机\HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache`
 
 
+**Windows睡死无法唤醒**
+
+> `控制面板` -> `所有控制面板项` -> `电源选项` -> `更改计划设置` -> `更改高级电源设置(C)` -> `硬盘` -> `在此时间后关闭硬盘` -> 全部设置为`0`
+
+> `计算机管理(本地)` -> `设备管理器` -> `驱动上右键属性` -> `电源管理` -> `允许计算机关闭此设备以节约电源(A)` -> 取消勾选
+
+> Windows徽标键 + P
+
+> Windows 徽标键 + Ctrl + Shift + B
+
+
+
 **Wifi频繁断线**
 
-> 打开`设备管理器` ——> 点开`网络适配器` ——> 选中网卡 ——> 鼠标右键打开菜单 ——> 点击`属性` ——> 点击`电源管理` ——> 
+> 打开`设备管理器` -> 点开`网络适配器` -> 选中网卡 -> 鼠标右键打开菜单 -> 点击`属性` -> 点击`电源管理` -> 
 > 取消勾选`允许计算机关闭此设备以节约电源`
 
-> 点击`网络和共享中心` ——> `更改适配器设置` ——> 双击`WLAN` ——> 点击`无线属性` ——> 勾选`即使网络未广播其名称也连接` 
+> 点击`网络和共享中心` -> `更改适配器设置` -> 双击`WLAN` -> 点击`无线属性` -> 勾选`即使网络未广播其名称也连接` 
 
 
 **MSTSC删除记录**
@@ -135,17 +147,17 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 ## MSDN
 
-* [https://www.microsoft.com/zh-cn/software-download](https://www.microsoft.com/zh-cn/software-download)
-* [https://github.com/pbatard/Fido](https://github.com/pbatard/Fido)
 * [http://msdn.itellyou.cn](http://msdn.itellyou.cn)
 * [https://www.iruanmi.com/msdn](https://www.iruanmi.com/msdn)
+    * [https://blogs.iapplee.com/msdn](https://blogs.iapplee.com/msdn)
 * [http://www.imsdn.cn](http://www.imsdn.cn)
+* [https://www.microsoft.com/zh-cn/software-download](https://www.microsoft.com/zh-cn/software-download)
+* [https://github.com/pbatard/Fido](https://github.com/pbatard/Fido)
 * [https://uup.rg-adguard.net](https://uup.rg-adguard.net)
-* [https://www.repaik.com/win.html](https://www.repaik.com/win.html)
 * [https://github.com/uup-dump](https://github.com/uup-dump)
     * [https://uupdump.net](https://uupdump.net)
 * [https://msdn.sjjzm.com](https://msdn.sjjzm.com)
-* XP密钥生成 [https://github.com/Neo-Desktop/WindowsXPKg](https://github.com/Neo-Desktop/WindowsXPKg)
+* [https://massgrave.dev/genuine-installation-media.html](https://massgrave.dev/genuine-installation-media.html)
 
 
 
@@ -155,8 +167,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 + NTLite [https://www.ntlite.com](https://www.ntlite.com)
 + [https://github.com/ntdevlabs/tiny11builder](https://github.com/ntdevlabs/tiny11builder)
 
-* iCura [iCura的帖子  - 远景论坛 - 微软极客社区](http://i.pcbeta.com/home.php?mod=space&uid=4631987&do=thread&view=me&from=space)
-    * [OneDrive](https://tpedutw-my.sharepoint.com/:f:/g/personal/icura_tp_edu_tw/Ek5lPsUrc_ZJqSDKi7oxsdoBNjbbncnvi8p-90jI0OqUVA)
+
 * WINOS [https://www.winos.me](https://www.winos.me)
 * 绿色系统 [http://lvsexitong.com](http://lvsexitong.com)
 * 网吧系统 [http://down.lansedongli.com](http://down.lansedongli.com)
@@ -181,11 +192,13 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://github.com/ventoy/Ventoy](https://github.com/ventoy/Ventoy)
 * [http://wintool.cc](http://wintool.cc)
 * [https://github.com/ldpreload/BlackLotus](https://github.com/ldpreload/BlackLotus)
+* [https://github.com/Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas)
 
 
 
 ## MS激活
 
+* XP密钥生成 [https://github.com/Neo-Desktop/WindowsXPKg](https://github.com/Neo-Desktop/WindowsXPKg)
 
 ### KMS
 
@@ -206,6 +219,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 + [https://github.com/netnr/kms](https://github.com/netnr/kms)
 + [https://github.com/ikxin/kms-tools](https://github.com/ikxin/kms-tools)
 + [https://official-kmspico.com](https://official-kmspico.com)
++ [https://www.coolhub.top/tech-articles/kms_list.html](https://www.coolhub.top/tech-articles/kms_list.html)
 
 
 * [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)
@@ -227,19 +241,17 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 > 所谓的win10数字权利激活，是一种win10授权方法。该激活方法会记录你的电脑硬件信息，并保存到微软的服务器，
 > 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
 
-* [https://cherishspring.cn/journals](https://cherishspring.cn/journals)
-    * [Win10/Office安装与激活](https://www.cherishspring.cn/archives/woactive.html)
-    * [Windows和Office通用批量许可证密钥 (GVLK)](https://www.cherishspring.cn/archives/gvlk.html)
+
 * [https://jihuo.ma/tool](https://jihuo.ma/tool)
 * [http://www.aihao.cc](http://www.aihao.cc)
 * [https://jike.info/category/16/账号密钥](https://jike.info/category/16/%E8%B4%A6%E5%8F%B7%E5%AF%86%E9%92%A5)
 * 小爱激活助手 [https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA](https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA) 提取码: gia8
 * 密钥检测的小工具 [https://github.com/FHWWC/KeyCheck](https://github.com/FHWWC/KeyCheck)
-* https://api.jike.info/ms_pid/密钥
 * [https://webact.sjjzm.com](https://webact.sjjzm.com)
-* [https://key.sjjzm.com](https://key.sjjzm.com)
-* SimplePidX
+* [SimplePidX](https://forums.mydigitallife.net/threads/multi-oem-retail-project-mrp-mk3.71555)
+* [https://github.com/Superfly-Inc/ShowKeyPlus](https://github.com/Superfly-Inc/ShowKeyPlus)
 * https://khoatoantin.com/cidms（账号：trogiup24h 密码：PHO）
+* [https://www.nirsoft.net/utils/product_cd_key_viewer.html](https://www.nirsoft.net/utils/product_cd_key_viewer.html)
 * [拨打免费电话激活Windows、Office](https://mp.weixin.qq.com/s/eiIutreWTe5AHPXjkOUwMQ)
 
 
