@@ -11,6 +11,7 @@
 
 * [https://github.com/PSPDFKit-labs/browserslist.dev](https://github.com/PSPDFKit-labs/browserslist.dev)
     * [https://browserslist.dev](https://browserslist.dev)
+    * [https://github.com/browserslist](https://github.com/browserslist)
 * [https://github.com/WebKit](https://github.com/WebKit)
 * 嵌入式框架（CEF） [https://github.com/chromiumembedded](https://github.com/chromiumembedded)
     * [https://bitbucket.org/chromiumembedded/cef](https://bitbucket.org/chromiumembedded/cef)
@@ -171,6 +172,7 @@ chrome://flags/#enable-parallel-downloading
 * [https://github.com/blittle/chrome-dev-tools](https://github.com/blittle/chrome-dev-tools)
 * Chrome开发者工具中文手册 [https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools](https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools)
 * [https://github.com/ahangchen/Chromium_doc_zh](https://github.com/ahangchen/Chromium_doc_zh)
+* [浏览器不想让你知道的 67 个奇怪的调试技巧](https://alan.norbauer.com/articles/browser-debugging-tricks)
 * [Chrome工具-查看dom元素绑定的事件](https://blog.csdn.net/weixin_38080573/article/details/105200212)
 * [F12找到页面某一元素所绑定的点击事件](https://www.cnblogs.com/111testing/p/11448316.html)
 * [如何使用chrome浏览器进行js调试找出元素绑定的点击事件](https://www.cnblogs.com/itjeff/p/11692342.html)

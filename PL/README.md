@@ -20,6 +20,7 @@
 - [https://github.com/The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run)
 - [https://github.com/AnsonZnl/RehabilitationGuide](https://github.com/AnsonZnl/RehabilitationGuide)
 - 副业 [https://github.com/bleedline/aimoneyhunter](https://github.com/bleedline/aimoneyhunter)
+- [Solo 独立开发者社区](https://solo.xin)
 
 
 

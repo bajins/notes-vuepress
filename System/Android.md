@@ -464,10 +464,8 @@
 + [https://github.com/butzist/ActivityLauncher](https://github.com/butzist/ActivityLauncher)
 + [https://github.com/yoyodadada/haoruanfenxiang](https://github.com/yoyodadada/haoruanfenxiang)
     + [https://yoyodadada.lanzoui.com/u/yoyodadada](https://yoyodadada.lanzoui.com/u/yoyodadada)
-+ [https://dongji.lanzoui.com/b05alr4pi](https://dongji.lanzoui.com/b05alr4pi)
 + [https://www.lanzoui.com/b05f9wyf](https://www.lanzoui.com/b05f9wyf)
-+ [https://dongji.lanzoui.com/b05a873cb](https://dongji.lanzoui.com/b05a873cb)
-+ [https://dongji.lanzoui.com/b05a93hje](https://dongji.lanzoui.com/b05a93hje)
+    + [https://xydh.fun/dieheart](https://xydh.fun/dieheart)
 
 
 **音乐下载**

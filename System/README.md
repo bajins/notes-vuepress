@@ -178,6 +178,10 @@
 * [https://github.com/letsencrypt/challtestsrv](https://github.com/letsencrypt/challtestsrv)
 * [https://github.com/rthalley/dnspython](https://github.com/rthalley/dnspython)
 * [https://github.com/bluejekyll/trust-dns](https://github.com/bluejekyll/trust-dns)
+* [https://github.com/IrineSistiana/mosdns](https://github.com/IrineSistiana/mosdns)
+* [https://github.com/pymumu/smartdns](https://github.com/pymumu/smartdns)
+* DNS扫描 [https://github.com/pwnesia/dnstake](https://github.com/pwnesia/dnstake)
+* [https://github.com/zartbot/ztrace](https://github.com/zartbot/ztrace)
 
 
 

@@ -195,9 +195,6 @@ firewall-cmd --query-panic
 - 查询IP地理信息 [https://github.com/zu1k/nali](https://github.com/zu1k/nali)
 - [https://github.com/jason5ng32/MyIP](https://github.com/jason5ng32/MyIP)
 - [https://ip.guide](https://ip.guide)
-- DNS扫描 [https://github.com/pwnesia/dnstake](https://github.com/pwnesia/dnstake)
-- [https://github.com/zartbot/ztrace](https://github.com/zartbot/ztrace)
-- [https://github.com/pymumu/smartdns](https://github.com/pymumu/smartdns)
 - 可用性检查 [https://github.com/funilrys/PyFunceble](https://github.com/funilrys/PyFunceble)
 
 
@@ -211,6 +208,7 @@ firewall-cmd --query-panic
 * [Netcat详解](https://www.cnblogs.com/dalianpai/p/12505678.html)
 * [http://www.dest-unreach.org/socat](http://www.dest-unreach.org/socat)
 * [https://github.com/vi/websocat](https://github.com/vi/websocat)
+* [https://github.com/pouriyajamshidi/tcping](https://github.com/pouriyajamshidi/tcping)
 
 > 在Linux中有一个更好的网络连通性判断工具，它可以结合ping | nslookup | tracert 来判断网络的相关特性，这个命令就是mtr。
 
