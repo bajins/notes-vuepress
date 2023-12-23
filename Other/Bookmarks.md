@@ -197,3 +197,4 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * [https://imagecompressor.com/zh](https://imagecompressor.com/zh)
 * [https://tinyPNG.com](https://tinyPNG.com)
 * [https://picwish.cn](https://picwish.cn)
+* [https://www.huismessager.com](https://www.huismessager.com)

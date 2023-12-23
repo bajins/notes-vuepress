@@ -505,6 +505,11 @@
 * Axialis-IconWorkshop 官网 [https://www.axialis.com/download/#software](https://www.axialis.com/download/#software)
 * [https://github.com/darktable-org/darktable](https://github.com/darktable-org/darktable)
 * [https://amadine.com](https://amadine.com)
+* [https://github.com/autergame/JpegView-Rust](https://github.com/autergame/JpegView-Rust)
+* HEIC [https://github.com/sylikc/jpegview](https://github.com/sylikc/jpegview)
+* [https://www.copytrans.net/copytransheic](https://www.copytrans.net/copytransheic)
+* [https://www.fonepaw.com/heic-converter](https://www.fonepaw.com/heic-converter)
+* [https://imazing.com/zh/converter](https://imazing.com/zh/converter)
 * 提高分辨率 [https://github.com/Djdefrag/QualityScaler](https://github.com/Djdefrag/QualityScaler)
 
 

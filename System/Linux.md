@@ -531,7 +531,14 @@ setsid python3 ./index.py >/dev/null 2>&1 &
 
 ## 传输文件
 
+
 * webrtc [https://github.com/tl-open-source/tl-rtc-file](https://github.com/tl-open-source/tl-rtc-file)
+* 文件监控 [https://github.com/topics/inotify](https://github.com/topics/inotify)
+* [https://github.com/inotify-tools/inotify-tools](https://github.com/inotify-tools/inotify-tools)
+* [https://github.com/seb-m/pyinotify](https://github.com/seb-m/pyinotify)
+* [https://github.com/gorakhargosh/watchdog](https://github.com/gorakhargosh/watchdog)
+* [https://github.com/lsyncd/lsyncd](https://github.com/lsyncd/lsyncd)
+* [https://github.com/emcrisostomo/fswatch](https://github.com/emcrisostomo/fswatch)
 
 
 > 首先进入需要搭建web服务器的目录，然后在输入下面的命令，端口号默认`8000`

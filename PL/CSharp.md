@@ -250,6 +250,7 @@
 * 图片处理 [https://github.com/imazen](https://github.com/imazen)
 * 数学计算 [https://github.com/codingseb/ExpressionEvaluator](https://github.com/codingseb/ExpressionEvaluator)
 * 日志 [https://github.com/serilog/serilog](https://github.com/serilog/serilog)
+* [https://github.com/IzyPro/WatchDog](https://github.com/IzyPro/WatchDog)
 * Windows任务计划 [https://github.com/dahall/TaskScheduler](https://github.com/dahall/TaskScheduler)
 * [https://github.com/fireeye/SharPersist](https://github.com/fireeye/SharPersist)
 * Unity3D [https://github.com/egametang/ET](https://github.com/egametang/ET)

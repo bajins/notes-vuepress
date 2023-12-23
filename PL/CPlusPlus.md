@@ -83,6 +83,7 @@
     * [https://github.com/netease-im/NIM_Duilib_Framework](https://github.com/netease-im/NIM_Duilib_Framework)
     * [https://github.com/xfcanyue/DuiLib_DuiEditor](https://github.com/xfcanyue/DuiLib_DuiEditor)
 * [https://github.com/AcademySoftwareFoundation/openvdb](https://github.com/AcademySoftwareFoundation/openvdb)
+* [https://sourceforge.net/projects/wtl](https://sourceforge.net/projects/wtl)
 * 并行编程标准 [https://github.com/OpenCL](https://github.com/OpenCL)
 * [https://github.com/GPUOpen-LibrariesAndSDKs](https://github.com/GPUOpen-LibrariesAndSDKs)
 * Vulkan [https://github.com/KhronosGroup](https://github.com/KhronosGroup)
