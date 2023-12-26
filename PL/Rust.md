@@ -48,6 +48,8 @@
 * [http://www.telihai.com](http://www.telihai.com)
 * [https://budshome.com](https://budshome.com)
 * [https://github.com/QMHTMY/RustBook](https://github.com/QMHTMY/RustBook)
+* [https://github.com/esp-rs](https://github.com/esp-rs)
+    * [https://github.com/Narukara/rust-on-esp-book-zh-cn](https://github.com/Narukara/rust-on-esp-book-zh-cn)
 * [https://github.com/xuesongbj/Rust-Notes](https://github.com/xuesongbj/Rust-Notes)
     * [http://xuesong.pydevops.com](http://xuesong.pydevops.com)
 * 练习 [https://github.com/sunface/rust-by-practice](https://github.com/sunface/rust-by-practice)

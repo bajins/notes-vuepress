@@ -75,6 +75,8 @@ taskkill /f /im explorer.exe & start explorer.exe
 
 > Windows 徽标键 + Ctrl + Shift + B
 
+* [解决 Windows 计算机无法从挂起或休眠模式唤醒或恢复而不得不重新开机的问题步骤](https://www.dell.com/support/kbdoc/zh-cn/000129781/%E8%A7%A3%E5%86%B3-windows-%E8%AE%A1%E7%AE%97%E6%9C%BA-%E6%97%A0%E6%B3%95-%E4%BB%8E-%E6%8C%82%E8%B5%B7-%E6%88%96-%E4%BC%91-%E7%9C%A0-%E6%A8%A1-%E5%BC%8F-%E5%94%A4%E9%86%92-%E6%88%96-%E6%81%A2%E5%A4%8D-%E8%80%8C-%E4%B8%8D%E5%BE%97%E4%B8%8D-%E9%87%8D%E6%96%B0-%E5%BC%80%E6%9C%BA-%E7%9A%84-%E9%97%AE%E9%A2%98-%E6%AD%A5%E9%AA%A4)
+* [win11睡眠后无法唤醒](https://answers.microsoft.com/zh-hans/windows/forum/all/win11%E7%9D%A1%E7%9C%A0%E5%90%8E%E6%97%A0%E6%B3%95/d0e0aa3d-ba91-4284-9eb4-16c7aab6f920)
 
 
 **Wifi频繁断线**

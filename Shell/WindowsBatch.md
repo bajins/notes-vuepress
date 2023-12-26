@@ -303,6 +303,9 @@ for /f %%i in ('tasklist ^| findstr /i "程序名"') do set reslut=%%i
 
 :: 只输出PID编号
 for /f "skip=3 tokens=2" %a in ('tasklist /fi "imagename eq 程序名*"') do @echo %a
+
+tasklist | findstr "java.exe"
+wmic process where "name like '%java%'" get ProcessId,CommandLine
 ```
 
 **查看被占用端口的`pid`**
@@ -314,8 +317,9 @@ netstat -ano | findstr 80
 ### 结束进程
 
 ```batch
-taskkill /pid 进程号 /f
+taskkill /f /pid 进程号
 taskkill /f /im 程序名
+wmic process where "ProcessId=[pid]" delete
 ```
 
 
