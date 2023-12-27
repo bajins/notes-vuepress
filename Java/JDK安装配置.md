@@ -33,7 +33,7 @@
 
 * [https://github.com/openjdk](https://github.com/openjdk)
     * [http://hg.openjdk.java.net](http://hg.openjdk.java.net)
-    * [https://github.com/ojdkbuild/ojdkbuild](https://github.com/ojdkbuild/ojdkbuild)
+    * ~~[https://github.com/ojdkbuild/ojdkbuild](https://github.com/ojdkbuild/ojdkbuild)~~
     * [https://github.com/oracle-actions/setup-java](https://github.com/oracle-actions/setup-java)
     * [https://dev.java](https://dev.java)
     * [https://www.oracle.com/cn/java/technologies/downloads](https://www.oracle.com/cn/java/technologies/downloads)
@@ -56,16 +56,17 @@
     * [https://developer.ibm.com/javasdk](https://developer.ibm.com/javasdk)
 * [https://developers.redhat.com/products/openjdk](https://developers.redhat.com/products/openjdk)
 * [https://www.openlogic.com/openjdk-downloads](https://www.openlogic.com/openjdk-downloads)
+    * [https://github.com/openlogic](https://github.com/openlogic)
 * [https://github.com/microsoft/openjdk](https://github.com/microsoft/openjdk)
     * [https://www.microsoft.com/openjdk](https://www.microsoft.com/openjdk)
     * [https://docs.microsoft.com/zh-cn/java](https://docs.microsoft.com/zh-cn/java)
 * [https://github.com/dragonwell-project](https://github.com/dragonwell-project)
-* [https://github.com/Tencent/TencentKona-8](https://github.com/Tencent/TencentKona-8)
-* [https://github.com/Tencent/TencentKona-11](https://github.com/Tencent/TencentKona-11)
-* [https://github.com/Tencent/TencentKona-17](https://github.com/Tencent/TencentKona-17)
 * [https://github.com/beehive-lab/TornadoVM](https://github.com/beehive-lab/TornadoVM)
 * OpenJ9 [https://github.com/eclipse-openj9](https://github.com/eclipse-openj9)
     * [https://github.com/eclipse/omr](https://github.com/eclipse/omr)
+* [https://github.com/TravaOpenJDK](https://github.com/TravaOpenJDK)
+* [https://github.com/Tencent/TencentKona-17](https://github.com/Tencent/TencentKona-17)
+* [https://gitee.com/openeuler/bishengjdk-17](https://gitee.com/openeuler/bishengjdk-17)
 
 
 

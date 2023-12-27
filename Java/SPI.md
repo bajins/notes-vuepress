@@ -40,7 +40,6 @@
     * [http://jrebel.cicoding.cn/guid](http://jrebel.cicoding.cn/guid)
 * [https://github.com/spring-projects/spring-loaded](https://github.com/spring-projects/spring-loaded)
 * [https://github.com/HotswapProjects](https://github.com/HotswapProjects)
-    * [https://github.com/TravaOpenJDK](https://github.com/TravaOpenJDK)
 * [https://github.com/dcevm](https://github.com/dcevm)
     * [https://ssw.jku.at/dcevm](https://ssw.jku.at/dcevm)
 * [https://github.com/fakereplace](https://github.com/fakereplace)

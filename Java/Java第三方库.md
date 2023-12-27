@@ -382,6 +382,7 @@
 * [https://github.com/alibaba/fastjson](https://github.com/alibaba/fastjson)
     * [https://github.com/alibaba/fastjson2](https://github.com/alibaba/fastjson2)
 * [https://github.com/everit-org/json-schema](https://github.com/everit-org/json-schema)
+* [https://github.com/netplex/json-smart-v2](https://github.com/netplex/json-smart-v2)
 * [https://github.com/java-json-tools/json-schema-validator](https://github.com/java-json-tools/json-schema-validator)
 * [https://github.com/square/moshi](https://github.com/square/moshi)
 * 使用XPath语法取值 [https://github.com/json-path/JsonPath](https://github.com/json-path/JsonPath)

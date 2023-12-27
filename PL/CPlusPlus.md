@@ -92,6 +92,7 @@
     * [https://github.com/skvark/opencv-python](https://github.com/skvark/opencv-python)
     * [https://github.com/makelove/OpenCV-Python-Tutorial](https://github.com/makelove/OpenCV-Python-Tutorial)
 * [https://github.com/xianyi/OpenBLAS](https://github.com/xianyi/OpenBLAS)
+* [https://github.com/UrielCh/opencv4nodejs](https://github.com/UrielCh/opencv4nodejs)
 * 2D和3D跨平台 [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
 * [https://github.com/cocos2d/cocos2d-x](https://github.com/cocos2d/cocos2d-x)
 * 3D [https://github.com/FlaxEngine/FlaxEngine](https://github.com/FlaxEngine/FlaxEngine)

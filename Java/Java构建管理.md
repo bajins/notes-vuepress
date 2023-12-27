@@ -268,6 +268,7 @@
 + [https://github.com/mojohaus/build-helper-maven-plugin](https://github.com/mojohaus/build-helper-maven-plugin)
 + 排序 [https://github.com/Ekryd/sortpom](https://github.com/Ekryd/sortpom)
 + 格式化 [https://github.com/revelc/formatter-maven-plugin](https://github.com/revelc/formatter-maven-plugin)
++ [https://github.com/maveniverse/mima](https://github.com/maveniverse/mima)
 
 
 
