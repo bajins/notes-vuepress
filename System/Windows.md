@@ -195,6 +195,10 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [http://wintool.cc](http://wintool.cc)
 * [https://github.com/ldpreload/BlackLotus](https://github.com/ldpreload/BlackLotus)
 * [https://github.com/Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas)
+* [https://github.com/VirtualHotBar/HotPEToolBox](https://github.com/VirtualHotBar/HotPEToolBox)
+* [https://github.com/EdgelessPE/Edgeless](https://github.com/EdgelessPE/Edgeless)
+* [https://www.firpe.cn](https://www.firpe.cn)
+* [https://www.cmdpe.com](https://www.cmdpe.com)
 
 
 

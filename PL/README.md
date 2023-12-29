@@ -21,6 +21,7 @@
 - [https://github.com/AnsonZnl/RehabilitationGuide](https://github.com/AnsonZnl/RehabilitationGuide)
 - 副业 [https://github.com/bleedline/aimoneyhunter](https://github.com/bleedline/aimoneyhunter)
 - [Solo 独立开发者社区](https://solo.xin)
+- [独立开发的100个想法](https://mp.weixin.qq.com/s/CarlaglmCszQiHI6qrjYNQ)
 
 
 
@@ -163,6 +164,8 @@
     * [Books | waylau.com](https://waylau.com/books)
     * [https://legacy.gitbook.com/@waylau](https://legacy.gitbook.com/@waylau)
 * [https://github.com/lionsoul2014](https://github.com/lionsoul2014)
+* [https://github.com/mitsuhiko](https://github.com/mitsuhiko)
+    * [https://lucumr.pocoo.org/projects](https://lucumr.pocoo.org/projects)
 
 
 - [https://github.com/hoochanlon](https://github.com/hoochanlon)
@@ -299,6 +302,7 @@
 - [https://github.com/ziglang](https://github.com/ziglang)
     - [https://github.com/learnzig/learnzig](https://github.com/learnzig/learnzig)
     - [https://github.com/SpexGuy/Zig-ImGui](https://github.com/SpexGuy/Zig-ImGui)
+    - [https://github.com/zigcc](https://github.com/zigcc)
 - TXL [https://www.txl.ca](https://www.txl.ca)
     - 软件克隆检测 [https://www.txl.ca/txl-nicaddownload.html](https://www.txl.ca/txl-nicaddownload.html)
 - JVM 动态脚本语言 [https://github.com/apache/groovy](https://github.com/apache/groovy)

@@ -185,6 +185,8 @@
 * 日志 [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog)
 * 文本形状 [https://github.com/harfbuzz/harfbuzz](https://github.com/harfbuzz/harfbuzz)
 * 数学运算 [https://gmplib.org](https://gmplib.org)
+* 提权 [https://github.com/M2Team/NanaRun](https://github.com/M2Team/NanaRun)
+* ~~[https://github.com/M2TeamArchived/NSudo](https://github.com/M2TeamArchived/NSudo)~~
 
 
 
@@ -201,4 +203,5 @@
 - [https://github.com/chipsalliance](https://github.com/chipsalliance)
 - 查找和替换文本 [https://github.com/lionello/fart-it](https://github.com/lionello/fart-it)
 - 模拟天文 [https://github.com/Stellarium/stellarium](https://github.com/Stellarium/stellarium)
+- 复制弹窗文本 [https://github.com/m417z/Textify](https://github.com/m417z/Textify)
 

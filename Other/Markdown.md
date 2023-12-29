@@ -18,6 +18,7 @@
 * [markdown语法大全](https://www.rumosky.wiki/docs/markdown)
 * [https://github.com/mattcone/markdown-guide](https://github.com/mattcone/markdown-guide)
 * [https://guides.github.com/features/mastering-markdown](https://guides.github.com/features/mastering-markdown)
+* [https://github.com/Olwiba/Kickass-markdown](https://github.com/Olwiba/Kickass-markdown)
 * Markdeep是Markdown的超集 [https://github.com/morgan3d/markdeep](https://github.com/morgan3d/markdeep)
 * CommonMark [https://github.com/commonmark](https://github.com/commonmark)
 * MultiMarkdown [https://github.com/fletcher/MultiMarkdown-6](https://github.com/fletcher/MultiMarkdown-6)
