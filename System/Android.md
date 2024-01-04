@@ -148,6 +148,7 @@
     * [https://www.lanzoui.com/i4qkz9e](https://www.lanzoui.com/i4qkz9e)
 * 反射大师
 * 灰色按钮 [https://github.com/githubwing/DroidSword](https://github.com/githubwing/DroidSword)
+* 获取ROOT [https://github.com/tiann/KernelSU](https://github.com/tiann/KernelSU)
 
 
 
@@ -321,6 +322,8 @@
 * [https://github.com/MaaAssistantArknights/MaaTouch](https://github.com/MaaAssistantArknights/MaaTouch)
 * 密码存储 [https://github.com/android-password-store](https://github.com/android-password-store)
 * 地图 [https://github.com/organicmaps/organicmaps](https://github.com/organicmaps/organicmaps)
+* Tars协议 [https://github.com/xiaoyaocz/dart_tars_protocol](https://github.com/xiaoyaocz/dart_tars_protocol)
+* 日历 [https://github.com/kizitonwose/Calendar](https://github.com/kizitonwose/Calendar)
 
 
 

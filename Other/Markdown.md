@@ -54,6 +54,7 @@
 - [https://github.com/afeld/emoji-css](https://github.com/afeld/emoji-css)
 - [Github 上 emoji 表情的含义及使用规范](https://mkblog.cn/872)
 - [https://github.com/mkdocs/mkdocs](https://github.com/mkdocs/mkdocs)
+- [https://www.github.com/VectorLogoZone/vectorlogozone](https://www.github.com/VectorLogoZone/vectorlogozone)
 - 转PDF [https://github.com/realdennis/md2pdf](https://github.com/realdennis/md2pdf)
 - [https://github.com/BlueHatbRit/mdpdf](https://github.com/BlueHatbRit/mdpdf)
 

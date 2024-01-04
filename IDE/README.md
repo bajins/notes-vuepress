@@ -14,6 +14,7 @@
 * [https://github.com/eclipse-theia/theia](https://github.com/eclipse-theia/theia)
     * [https://theia-ide.org](https://theia-ide.org)
 * [https://github.com/VSCodium/vscodium](https://github.com/VSCodium/vscodium)
+* IDE的仪表盘 [https://github.com/wakatime](https://github.com/wakatime)
 * 图形转代码 [https://www.paintcodeapp.com](https://www.paintcodeapp.com)
 * GoIDE [https://github.com/visualfc/liteide](https://github.com/visualfc/liteide)
 * [https://sourceforge.net/projects/liteide](https://sourceforge.net/projects/liteide)

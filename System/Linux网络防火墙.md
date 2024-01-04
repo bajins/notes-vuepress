@@ -195,6 +195,8 @@ firewall-cmd --query-panic
 - 查询IP地理信息 [https://github.com/zu1k/nali](https://github.com/zu1k/nali)
 - [https://github.com/jason5ng32/MyIP](https://github.com/jason5ng32/MyIP)
 - [https://ip.guide](https://ip.guide)
+- [https://github.com/lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region)
+    - [https://gitee.com/lionsoul/ip2region](https://gitee.com/lionsoul/ip2region)
 - 可用性检查 [https://github.com/funilrys/PyFunceble](https://github.com/funilrys/PyFunceble)
 
 

@@ -200,6 +200,7 @@ volumes:
     - [https://www.ruanyifeng.com/blog/archives.html](https://www.ruanyifeng.com/blog/archives.html)
 - 获取统计信息 [https://github.com/shroudedcode/devstats](https://github.com/shroudedcode/devstats)
 - 获取动态生成的GitHub统计信息 [https://github.com/anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+- [https://github.com/muety/wakapi](https://github.com/muety/wakapi)
 - 获取访问统计 http://profile-counter.glitch.me/用户名/count.svg
 - 历史Star数 https://starchart.cc/用户名/My-Actions.svg
 - [你在 GitHub 上看到过的最有意思的项目是什么？ - 知乎](https://www.zhihu.com/question/23498424)

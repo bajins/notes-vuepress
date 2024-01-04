@@ -70,6 +70,7 @@
 * [https://github.com/jobbole/awesome-design-cn](https://github.com/jobbole/awesome-design-cn)
 * [https://github.com/junruchen/junruchen.github.io/wiki](https://github.com/junruchen/junruchen.github.io/wiki)
 * [https://github.com/mathjax](https://github.com/mathjax)
+* [https://github.com/DustinBrett/daedalOS](https://github.com/DustinBrett/daedalOS)
 * 前端知识点总结 [https://github.com/zhaiyy/Web-front-end-knowledge-summary](https://github.com/zhaiyy/Web-front-end-knowledge-summary)
 * [https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog)
 * [https://github.com/axuebin/articles](https://github.com/axuebin/articles)
