@@ -183,6 +183,7 @@
 * CPU仿真器框架 [https://github.com/unicorn-engine/unicorn](https://github.com/unicorn-engine/unicorn)
 * 开发证书 [https://github.com/topics/certificates](https://github.com/topics/certificates)
 * [https://github.com/FiloSottile/mkcert](https://github.com/FiloSottile/mkcert)
+* [https://github.com/selfcertificationhub/selfcertificationhub](https://github.com/selfcertificationhub/selfcertificationhub)
 * 软件逆向工程框架 [https://github.com/NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
 * 编码转换器 [https://github.com/gchq/CyberChef](https://github.com/gchq/CyberChef)
 * [https://github.com/mattnotmax/cyberchef-recipes](https://github.com/mattnotmax/cyberchef-recipes)

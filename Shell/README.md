@@ -42,6 +42,7 @@
 - [https://github.com/chubin](https://github.com/chubin)
 - AI加持 [https://github.com/emcf/engshell](https://github.com/emcf/engshell)
 - 历史导入SQLite [https://github.com/atuinsh/atuin](https://github.com/atuinsh/atuin)
+- 历史查找 [https://github.com/YiNNx/cmd-wrapped](https://github.com/YiNNx/cmd-wrapped)
 
 
 * [https://github.com/google/zx](https://github.com/google/zx)

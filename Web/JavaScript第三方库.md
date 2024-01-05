@@ -245,6 +245,7 @@
 * 随机数 [https://github.com/ChrisCavs/aimless.js](https://github.com/ChrisCavs/aimless.js)
 * Promise [https://github.com/petkaantonov/bluebird](https://github.com/petkaantonov/bluebird)
 * 矩阵计算 [https://github.com/mateogianolio/vectorious](https://github.com/mateogianolio/vectorious)
+* 日历 [https://github.com/schedule-x/schedule-x](https://github.com/schedule-x/schedule-x)
 
 
 - 数字精度 [https://github.com/topics/arbitrary-precision](https://github.com/topics/arbitrary-precision)

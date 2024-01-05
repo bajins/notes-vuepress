@@ -430,6 +430,11 @@
 * 证件照 [https://github.com/zhbhun/idify](https://github.com/zhbhun/idify)
 * 在线PS [https://github.com/viliusle/miniPaint](https://github.com/viliusle/miniPaint)
     * [https://zaixianps.net](https://zaixianps.net)
+* 创意图片编辑 [https://github.com/sleepy-zone/fabritor-web](https://github.com/sleepy-zone/fabritor-web)
+* 复古游戏 [https://github.com/arianrhodsandlot/nostalgist](https://github.com/arianrhodsandlot/nostalgist)
+* [https://github.com/arianrhodsandlot/retro-assembly](https://github.com/arianrhodsandlot/retro-assembly)
+* [https://github.com/retrobrews](https://github.com/retrobrews)
+* 中国历史 [https://github.com/liujuntao123/chines-history-video](https://github.com/liujuntao123/chines-history-video)
 
 
 
@@ -446,6 +451,8 @@
 * 团队协作和文档 [https://www.notion.so](https://www.notion.so)
 * [https://github.com/mattermost/focalboard](https://github.com/mattermost/focalboard)
 * [https://github.com/AppFlowy-IO/appflowy](https://github.com/AppFlowy-IO/appflowy)
+* [https://github.com/burntcarrot/pairpad](https://github.com/burntcarrot/pairpad)
+    * [在 Go 中构建协作文本编辑器](https://www.aadhav.me/posts/collaborative-editor)
 * 腾讯文档 [http://docs.qq.com](http://docs.qq.com)
 * [https://github.com/seatable](https://github.com/seatable)
 * [https://slack.com](https://slack.com)
