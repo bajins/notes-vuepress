@@ -415,6 +415,13 @@ taskkill /f /im chromedriver.exe
 * [https://github.com/AdguardTeam](https://github.com/AdguardTeam)
 * [https://github.com/iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome)
 * [https://github.com/SugarCoatJS](https://github.com/SugarCoatJS)
+* QuantumultX [https://github.com/ddgksf2013](https://github.com/ddgksf2013)
+* [https://github.com/KOP-XIAO/QuantumultX](https://github.com/KOP-XIAO/QuantumultX)
+* [https://github.com/Orz-3/QuantumultX](https://github.com/Orz-3/QuantumultX)
+* [https://github.com/sve1r/Rules-For-Quantumult-X](https://github.com/sve1r/Rules-For-Quantumult-X)
+* [https://github.com/crossutility/Quantumult-X](https://github.com/crossutility/Quantumult-X)
+* [https://github.com/yawenchim/QuantumultX-mix](https://github.com/yawenchim/QuantumultX-mix)
+
 
 - AdGuard Android 解锁高级版 [https://www.lanzoui.com/b0f19420h](https://www.lanzoui.com/b0f19420h)
 

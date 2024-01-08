@@ -772,57 +772,6 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.lanzoui.com/b279570](https://www.lanzoui.com/b279570)
 
 
-## 清理工具
-
-* [https://pcmanager.microsoft.com](https://pcmanager.microsoft.com)
-* Win10Clean [https://github.com/ElPumpo/Win10Clean](https://github.com/ElPumpo/Win10Clean)
-* Dism++ [https://github.com/Chuyu-Team](https://github.com/Chuyu-Team)
-* [http://www.tbtool.cn](http://www.tbtool.cn)
-* W10Privacy [https://www.winprivacy.de/deutsch-start/download](https://www.winprivacy.de/deutsch-start/download)
-* Windows 10 Manager [https://www.yamicsoft.com](https://www.yamicsoft.com)
-    * `WMXD7-RG8FP-OYKS3-KHTN6`
-* BCUninstaller [https://github.com/Klocman/Bulk-Crap-Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
-    * [https://sourceforge.net/projects/bulk-crap-uninstaller](https://sourceforge.net/projects/bulk-crap-uninstaller)
-* [https://uninstalr.com](https://uninstalr.com)
-* Uninstall Tool [https://github.com/crystalidea](https://github.com/crystalidea)
-    * [https://crystalidea.com/uninstall-tool](https://crystalidea.com/uninstall-tool)
-* [https://github.com/Klocman/Bulk-Crap-Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
-* Total Uninstall [https://www.martau.com](https://www.martau.com)
-* [UninstallTool／Geek／IObitUninstaller／RevoUninstalle](https://lanzoui.com/b0f19v03a)
-* [RegWorkshop／RegCool](https://www.lanzoui.com/b0f1jf9mh)
-* [https://kurtzimmermann.com](https://kurtzimmermann.com)
-* Revo Uninstaller [https://www.revouninstaller.com](https://www.revouninstaller.com)
-* HiBit Uninstaller [https://www.hibitsoft.ir](https://www.hibitsoft.ir)
-* Geek Uninstaller [https://geekuninstaller.com](https://geekuninstaller.com)
-* IObit Uninstaller [https://www.iobit.com](https://www.iobit.com)
-* Registry Finder
-* [http://www.hibitsoft.ir](http://www.hibitsoft.ir)
-* Windows Install Clean Up  安装后在安装目录找到`msicuu.exe`运行，然后选中程序点击`remove`
-* 卸载残余清理 [https://github.com/geekuninstaller/translations](https://github.com/geekuninstaller/translations)
-    * [https://geekuninstaller.com](https://geekuninstaller.com)
-* [https://www.ccleaner.com](https://www.ccleaner.com)
-* [https://www.wisecleaner.com](https://www.wisecleaner.com)
-
-
-**卸载自带应用**
-
-+ [Search · install_wim_tweak](https://github.com/search?o=desc&q=install_wim_tweak&s=indexed&type=Code)
-
-* 卸载Windows10自带应用10AppsManager [https://www.thewindowsclub.com/10appsmanager-windows-10](https://www.thewindowsclub.com/10appsmanager-windows-10)
-* [https://github.com/DiChaoWu/Optimize-Windows-10](https://github.com/DiChaoWu/Optimize-Windows-10)
-* [https://github.com/L33Tech/Windows10Tools](https://github.com/L33Tech/Windows10Tools)
-* [https://github.com/myrtus0x0/Pastebin-Scraping-Results](https://github.com/myrtus0x0/Pastebin-Scraping-Results)
-* [https://github.com/simeononsecurity/SAPS](https://github.com/simeononsecurity/SAPS)
-* [https://github.com/kyau/win10tweak](https://github.com/kyau/win10tweak)
-* [https://github.com/wangzy12306/win10](https://github.com/wangzy12306/win10)
-* [https://github.com/Daksh777/windows10-debloat](https://github.com/Daksh777/windows10-debloat)
-* [https://github.com/DirtCaps/CapsTweakerSystem](https://github.com/DirtCaps/CapsTweakerSystem)
-* [https://github.com/kampusbiner/windefenderremoval](https://github.com/kampusbiner/windefenderremoval)
-* [https://github.com/pluswait/workPCT](https://github.com/pluswait/workPCT)
-* [https://github.com/builtbybel/debotnet](https://github.com/builtbybel/debotnet)
-
-
-
 
 ## 剪贴板
 
@@ -935,6 +884,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 
 * 文件搜索 [https://www.listary.com/pro](https://www.listary.com/pro)
+* [https://winfindr.com](https://winfindr.com)
 * Everything [https://www.voidtools.com](https://www.voidtools.com)
     * [https://github.com/stnkl/EverythingToolbar](https://github.com/stnkl/EverythingToolbar)
     * [https://github.com/Chaoses-Ib/IbEverythingExt](https://github.com/Chaoses-Ib/IbEverythingExt)
@@ -986,6 +936,57 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * Treesize [https://www.jam-software.com/treesize_free](https://www.jam-software.com/treesize_free)
 * [https://sourceforge.net/projects/windirstat](https://sourceforge.net/projects/windirstat)
 * SpaceSniffer [http://www.uderzo.it/main_products/space_sniffer/index.html](http://www.uderzo.it/main_products/space_sniffer/index.html)
+
+
+
+## 清理工具
+
+* [https://pcmanager.microsoft.com](https://pcmanager.microsoft.com)
+* Win10Clean [https://github.com/ElPumpo/Win10Clean](https://github.com/ElPumpo/Win10Clean)
+* Dism++ [https://github.com/Chuyu-Team](https://github.com/Chuyu-Team)
+* [http://www.tbtool.cn](http://www.tbtool.cn)
+* W10Privacy [https://www.winprivacy.de/deutsch-start/download](https://www.winprivacy.de/deutsch-start/download)
+* Windows 10 Manager [https://www.yamicsoft.com](https://www.yamicsoft.com)
+    * `WMXD7-RG8FP-OYKS3-KHTN6`
+* [https://uninstalr.com](https://uninstalr.com)
+* BCUninstaller [https://github.com/Klocman/Bulk-Crap-Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
+    * [https://sourceforge.net/projects/bulk-crap-uninstaller](https://sourceforge.net/projects/bulk-crap-uninstaller)
+* Uninstall Tool [https://github.com/crystalidea](https://github.com/crystalidea)
+    * [https://crystalidea.com/uninstall-tool](https://crystalidea.com/uninstall-tool)
+* Total Uninstall [https://www.martau.com](https://www.martau.com)
+* [UninstallTool／Geek／IObitUninstaller／RevoUninstalle](https://lanzoui.com/b0f19v03a)
+* [RegWorkshop／RegCool](https://www.lanzoui.com/b0f1jf9mh)
+* [https://kurtzimmermann.com](https://kurtzimmermann.com)
+* Revo Uninstaller [https://www.revouninstaller.com](https://www.revouninstaller.com)
+* HiBit Uninstaller [https://www.hibitsoft.ir/Uninstaller.html](https://www.hibitsoft.ir/Uninstaller.html)
+* Geek Uninstaller [https://github.com/geekuninstaller/translations](https://github.com/geekuninstaller/translations)
+    * [https://geekuninstaller.com](https://geekuninstaller.com)
+* IObit Uninstaller [https://www.iobit.com/en/advanceduninstaller.php](https://www.iobit.com/en/advanceduninstaller.php)
+* [https://www.totaluninstaller.com](https://www.totaluninstaller.com)
+* Registry Finder
+* [http://www.hibitsoft.ir](http://www.hibitsoft.ir)
+* Windows Install Clean Up  安装后在安装目录找到`msicuu.exe`运行，然后选中程序点击`remove`
+* [https://www.ccleaner.com](https://www.ccleaner.com)
+* [https://www.wisecleaner.com](https://www.wisecleaner.com)
+
+
+**卸载自带应用**
+
++ [Search · install_wim_tweak](https://github.com/search?o=desc&q=install_wim_tweak&s=indexed&type=Code)
+
+* 卸载Windows10自带应用10AppsManager [https://www.thewindowsclub.com/10appsmanager-windows-10](https://www.thewindowsclub.com/10appsmanager-windows-10)
+* [https://github.com/DiChaoWu/Optimize-Windows-10](https://github.com/DiChaoWu/Optimize-Windows-10)
+* [https://github.com/L33Tech/Windows10Tools](https://github.com/L33Tech/Windows10Tools)
+* [https://github.com/myrtus0x0/Pastebin-Scraping-Results](https://github.com/myrtus0x0/Pastebin-Scraping-Results)
+* [https://github.com/simeononsecurity/SAPS](https://github.com/simeononsecurity/SAPS)
+* [https://github.com/kyau/win10tweak](https://github.com/kyau/win10tweak)
+* [https://github.com/wangzy12306/win10](https://github.com/wangzy12306/win10)
+* [https://github.com/Daksh777/windows10-debloat](https://github.com/Daksh777/windows10-debloat)
+* [https://github.com/DirtCaps/CapsTweakerSystem](https://github.com/DirtCaps/CapsTweakerSystem)
+* [https://github.com/kampusbiner/windefenderremoval](https://github.com/kampusbiner/windefenderremoval)
+* [https://github.com/pluswait/workPCT](https://github.com/pluswait/workPCT)
+* [https://github.com/builtbybel/debotnet](https://github.com/builtbybel/debotnet)
+
 
 
 

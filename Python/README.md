@@ -44,6 +44,7 @@
 * [https://github.com/iam-veeramalla/python-for-devops](https://github.com/iam-veeramalla/python-for-devops)
 * 基础教程 [https://morvanzhou.github.io/tutorials/python-basic/basic](https://morvanzhou.github.io/tutorials/python-basic/basic)
 * [https://github.com/luckrnx09/python-guide-for-javascript-engineers](https://github.com/luckrnx09/python-guide-for-javascript-engineers)
+* [https://github.com/ProgrammingHero1](https://github.com/ProgrammingHero1)
 * 设计模式和集合 [https://github.com/faif/python-patterns](https://github.com/faif/python-patterns)
 * [https://hellopython.readthedocs.io](https://hellopython.readthedocs.io)
     * [https://github.com/meizhaohui/vueblog](https://github.com/meizhaohui/vueblog)

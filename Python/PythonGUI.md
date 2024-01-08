@@ -42,12 +42,16 @@
 * [https://github.com/PyQt5/PyQt](https://github.com/PyQt5/PyQt)
 * [https://github.com/PyQt5/QtDesigner](https://github.com/PyQt5/QtDesigner)
 
+
 + [https://github.com/ColinDuquesnoy/QDarkStyleSheet](https://github.com/ColinDuquesnoy/QDarkStyleSheet)
 + [https://github.com/mottosso/Qt.py](https://github.com/mottosso/Qt.py)
+
 
 - PyQt5快速开发与实战 [https://github.com/cxinping/PyQt5](https://github.com/cxinping/PyQt5)
 - PyQt5中文教程 [https://github.com/maicss/PyQt5-Chinese-tutorial](https://github.com/maicss/PyQt5-Chinese-tutorial)
 - [https://github.com/maicss/PyQt-Chinese-tutorial](https://github.com/maicss/PyQt-Chinese-tutorial)
+- Qt开发经验 [https://github.com/feiyangqingyun/qtkaifajingyan](https://github.com/feiyangqingyun/qtkaifajingyan)
+
 
 * [pyqt5 参考代码 github 参考项目](https://blog.csdn.net/wowocpp/article/details/105759105)
 

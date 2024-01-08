@@ -29,6 +29,7 @@
     * [bpf简介](https://blog.csdn.net/sinat_38816924/article/details/115471891)
 
 
+* [VIM键盘图形备忘单](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
 * [vi命令（vi编辑器）](http://c.biancheng.net/vi)
 * [vi 编辑器使用向导](https://wiki.jikexueyuan.com/project/unix/the-vi-editor.html)
 * [Vim 从小白到入门](https://wsgzao.github.io/post/vim)

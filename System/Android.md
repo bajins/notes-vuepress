@@ -324,6 +324,7 @@
 * 地图 [https://github.com/organicmaps/organicmaps](https://github.com/organicmaps/organicmaps)
 * Tars协议 [https://github.com/xiaoyaocz/dart_tars_protocol](https://github.com/xiaoyaocz/dart_tars_protocol)
 * 日历 [https://github.com/kizitonwose/Calendar](https://github.com/kizitonwose/Calendar)
+* TTS [https://github.com/jing332/tts-server-android](https://github.com/jing332/tts-server-android)
 
 
 
