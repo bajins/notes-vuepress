@@ -454,6 +454,15 @@ Get-Process -Name 名称 | foreach-object{$_.Kill()}
 Get-WmiObject Win32_Process -Filter "name = 'notepad.exe'" | ForEach-Object{$_.Terminate()  | Out-Null }
 Get-WmiObject Win32_Process -Filter "name = 'notepad.exe'" | Invoke-WmiMethod -Name Terminate | Out-Null
 
+
+# 根据模块（dll）查找进程并结束进程
+```powershell
+Get-Process | Where-Object {$_.Modules | Where-Object {$_.ModuleName -eq "NsCopyHook3.dll"}} | Stop-Process -Force; Start-Process explorer.exe
+Get-Process | Where-Object {$_.Modules.ModuleName -contains 'NsCopyHook3.dll'} | Stop-Process -Force; Start-Process explorer.exe
+```
+
+
+
 # 网络相关命令
 ## 1. dns 相关(dns-client)
 Clear-DnsClientCache  # 清除 dns 缓存（替换掉 `ipconfig /flushdns`）

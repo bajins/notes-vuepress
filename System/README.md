@@ -431,11 +431,16 @@
 * 证件照 [https://github.com/zhbhun/idify](https://github.com/zhbhun/idify)
 * 在线PS [https://github.com/viliusle/miniPaint](https://github.com/viliusle/miniPaint)
     * [https://zaixianps.net](https://zaixianps.net)
+* [https://github.com/CH563/shot-easy-website](https://github.com/CH563/shot-easy-website)
 * 创意图片编辑 [https://github.com/sleepy-zone/fabritor-web](https://github.com/sleepy-zone/fabritor-web)
 * 复古游戏 [https://github.com/arianrhodsandlot/nostalgist](https://github.com/arianrhodsandlot/nostalgist)
 * [https://github.com/arianrhodsandlot/retro-assembly](https://github.com/arianrhodsandlot/retro-assembly)
 * [https://github.com/retrobrews](https://github.com/retrobrews)
 * 中国历史 [https://github.com/liujuntao123/chines-history-video](https://github.com/liujuntao123/chines-history-video)
+* 日历 [https://github.com/xyxc0673/calendar-remark](https://github.com/xyxc0673/calendar-remark)
+* 知识问答 [https://github.com/apache/incubator-answer](https://github.com/apache/incubator-answer)
+* 白噪音 [https://github.com/geekyouth/moodist](https://github.com/geekyouth/moodist)
+* 动画生成代码 [https://animotion.dev](https://animotion.dev)
 
 
 
@@ -477,6 +482,7 @@
 * [https://github.com/kuaifan/dootask](https://github.com/kuaifan/dootask)
 * [https://www.cornerstone365.cn](https://www.cornerstone365.cn)
 * 画板 [https://github.com/JessYan0913/pictode](https://github.com/JessYan0913/pictode)
+* [https://github.com/LHRUN/paint-board](https://github.com/LHRUN/paint-board)
 * 处理音频和视频 [https://github.com/xiguaxigua/ffmpeg-online](https://github.com/xiguaxigua/ffmpeg-online)
 
 

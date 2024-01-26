@@ -15,6 +15,7 @@
 
 - [130 余个相见恨晚的超实用网站](https://blog.csdn.net/qq_43901693/article/details/100606828)
 - [https://dmucd.github.io/archives](https://dmucd.github.io/archives)
+- 2023年终总结 [https://github.com/saveweb/review-2023](https://github.com/saveweb/review-2023)
 
 
 ## 学习
@@ -46,6 +47,7 @@
 * [https://github.com/debitCrossBlockchain/renzhengfei](https://github.com/debitCrossBlockchain/renzhengfei)
 * [https://github.com/fenwii/huaweimind](https://github.com/fenwii/huaweimind)
 * 学英语 [https://github.com/xiaolai/everyone-can-use-english](https://github.com/xiaolai/everyone-can-use-english)
+* [https://github.com/byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips)
 
 
 
@@ -198,3 +200,5 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * [https://tinyPNG.com](https://tinyPNG.com)
 * [https://picwish.cn](https://picwish.cn)
 * [https://www.huismessager.com](https://www.huismessager.com)
+* 共享卡片 [https://share.aitimi.cn](https://share.aitimi.cn)
+* 名片设计 [https://yft.design](https://yft.design)

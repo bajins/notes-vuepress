@@ -93,6 +93,7 @@
     * [https://github.com/makelove/OpenCV-Python-Tutorial](https://github.com/makelove/OpenCV-Python-Tutorial)
 * [https://github.com/xianyi/OpenBLAS](https://github.com/xianyi/OpenBLAS)
 * [https://github.com/UrielCh/opencv4nodejs](https://github.com/UrielCh/opencv4nodejs)
+* 美颜滤镜 [https://github.com/pixpark/gpupixel](https://github.com/pixpark/gpupixe)
 * 2D和3D跨平台 [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
 * [https://github.com/cocos2d/cocos2d-x](https://github.com/cocos2d/cocos2d-x)
 * 3D [https://github.com/FlaxEngine/FlaxEngine](https://github.com/FlaxEngine/FlaxEngine)
@@ -187,6 +188,7 @@
 * 数学运算 [https://gmplib.org](https://gmplib.org)
 * 提权 [https://github.com/M2Team/NanaRun](https://github.com/M2Team/NanaRun)
 * ~~[https://github.com/M2TeamArchived/NSudo](https://github.com/M2TeamArchived/NSudo)~~
+* URL解析 [https://github.com/ada-url/ada](https://github.com/ada-url/ada)
 
 
 

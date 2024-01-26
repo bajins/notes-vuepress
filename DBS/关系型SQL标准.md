@@ -341,6 +341,7 @@ ELSE '其他' END
 
 ```sql
 <窗口函数> over (partition by <用于分组的列名> order by <用于排序的列名>)
+-- <窗口函数> WITHIN GROUP (ORDER BY <用于排序的列名>)
 ```
 
 **应用场景：**

@@ -494,6 +494,7 @@ request({
 * [手持弹幕微信小程序版](https://github.com/redblue9771/minibarrage)
 * [https://github.com/super456/weapp_expressTime](https://github.com/super456/weapp_expressTime)
 * [https://github.com/ecomfe/echarts-for-weixin](https://github.com/ecomfe/echarts-for-weixin)
+* 照片修复 [https://github.com/shifu-group/inpaint_wechat](https://github.com/shifu-group/inpaint_wechat)
 
 
 

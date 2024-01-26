@@ -516,6 +516,10 @@
 * 工具箱 [https://github.com/helloklf/vtools](https://github.com/helloklf/vtools)
 * 李跳跳 [https://wwe.lanzouw.com/b01v0g3wj](https://wwe.lanzouw.com/b01v0g3wj) 1233
     * [李跳跳进阶指南](https://juejin.cn/post/6938590373740544007)
+* 自动点击 [https://github.com/gkd-kit/gkd](https://github.com/gkd-kit/gkd)
+* [https://github.com/zfdang/Android-Touch-Helper](https://github.com/zfdang/Android-Touch-Helper)
+* [https://github.com/GuoXiCheng/SKIP](https://github.com/GuoXiCheng/SKIP)
+* [https://github.com/LGH1996/TapClick](https://github.com/LGH1996/TapClick)
 * 浏览器 [https://github.com/tuyafeng/Via](https://github.com/tuyafeng/Via)
 * [https://www.xbext.com](https://www.xbext.com)
 * [https://www.twinkstar.com](https://www.twinkstar.com)
@@ -531,7 +535,6 @@
 * [https://www.magicut.cn](https://www.magicut.cn)
 * 手机变成计算机的麦克风 [https://wolicheng.com/womic](https://wolicheng.com/womic)
 * 备份数据 [https://github.com/XayahSuSuSu/Android-DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup)
-* 自动点击 [https://github.com/gkd-kit/gkd](https://github.com/gkd-kit/gkd)
 
 
 ### 证件照

@@ -26,6 +26,7 @@
 + [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
 + [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
 + 历史记录 [https://github.com/ddworken/hishtory](https://github.com/ddworken/hishtory)
++ [https://github.com/YiNNx/cmd-wrapped](https://github.com/YiNNx/cmd-wrapped)
 + kill [https://github.com/jkfran/killport](https://github.com/jkfran/killport)
 + ack [https://github.com/ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher)
 + 终端图像查看 [https://github.com/stefanhaustein/TerminalImageViewer](https://github.com/stefanhaustein/TerminalImageViewer)
@@ -33,6 +34,8 @@
 + 电子表格 [https://github.com/saulpw/visidata](https://github.com/saulpw/visidata)
 + 逆向工程 [https://github.com/radareorg/radare2](https://github.com/radareorg/radare2)
 + 查看日志文件 [https://github.com/bensadeh/tailspin](https://github.com/bensadeh/tailspin)
++ cat [https://github.com/swsnr/mdcat](https://github.com/swsnr/mdcat)
++ 文件管理 [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
 
 
 

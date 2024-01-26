@@ -522,6 +522,8 @@ taskkill /f /im chromedriver.exe
 * [http://googlehelper.net](http://googlehelper.net)
 * 抠图 [https://github.com/kevmo314/magic-copy](https://github.com/kevmo314/magic-copy)
 * 资源嗅探 [https://github.com/xifangczy/cat-catch](https://github.com/xifangczy/cat-catch)
+* 解除网页限制 [https://enablecopy.com](https://enablecopy.com)
+* 截图美化 [https://www.photor.fun](https://www.photor.fun)
 
 
 

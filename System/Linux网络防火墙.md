@@ -197,6 +197,7 @@ firewall-cmd --query-panic
 - [https://ip.guide](https://ip.guide)
 - [https://github.com/lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region)
     - [https://gitee.com/lionsoul/ip2region](https://gitee.com/lionsoul/ip2region)
+- [https://ifconfig.me](https://ifconfig.me)
 - 可用性检查 [https://github.com/funilrys/PyFunceble](https://github.com/funilrys/PyFunceble)
 
 

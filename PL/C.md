@@ -258,6 +258,7 @@
 * 解码 [https://github.com/kn007/silk-v3-decoder](https://github.com/kn007/silk-v3-decoder)
 * [https://opus-codec.org](https://opus-codec.org)
 * [https://sourceforge.net/projects/xavs](https://sourceforge.net/projects/xavs)
+* 视频转码 [https://github.com/HandBrake/HandBrake](https://github.com/HandBrake/HandBrake)
 
 
 
