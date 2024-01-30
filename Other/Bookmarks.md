@@ -8,6 +8,7 @@
 + 书签管理器 [https://github.com/linkwarden/linkwarden](https://github.com/linkwarden/linkwarden)
 + [https://github.com/omnivore-app/omnivore](https://github.com/omnivore-app/omnivore)
 + Web归档 [https://github.com/webrecorder](https://github.com/webrecorder)
++ [https://github.com/dginev/ar5iv](https://github.com/dginev/ar5iv)
 + URL分类 [https://github.com/CH563/gtps-url](https://github.com/CH563/gtps-url)
 + 隐私 [https://github.com/pluja/awesome-privacy](https://github.com/pluja/awesome-privacy)
 + [https://github.com/bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)

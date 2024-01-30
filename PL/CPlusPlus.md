@@ -140,6 +140,7 @@
 * [https://github.com/mapbox/gzip-hpp](https://github.com/mapbox/gzip-hpp)
 * 加密 [https://github.com/weidai11/cryptopp](https://github.com/weidai11/cryptopp)
 * [https://github.com/ReneNyffenegger/cpp-base64](https://github.com/ReneNyffenegger/cpp-base64)
+* [https://github.com/kroma-network/tachyon](https://github.com/kroma-network/tachyon)
 * 正则 [https://github.com/google/re2](https://github.com/google/re2)
 * 格式化 [https://github.com/fmtlib](https://github.com/fmtlib)
 * Windows托盘图标 [https://github.com/mceSystems/node-windows-trayicon](https://github.com/mceSystems/node-windows-trayicon)

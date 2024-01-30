@@ -116,6 +116,7 @@
 - [https://github.com/imgui-rs](https://github.com/imgui-rs)
 - [https://github.com/gabdube/native-windows-gui](https://github.com/gabdube/native-windows-gui)
 - [https://github.com/EmbarkStudios/rust-gpu](https://github.com/EmbarkStudios/rust-gpu)
+- [https://github.com/vizia/vizia](https://github.com/vizia/vizia)
 - 文件系统 [https://github.com/zboxfs/zbox](https://github.com/zboxfs/zbox)
 - 游戏引擎 [https://github.com/PistonDevelopers/piston](https://github.com/PistonDevelopers/piston)
 - [https://github.com/amethyst](https://github.com/amethyst)

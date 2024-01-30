@@ -419,6 +419,7 @@
 + [https://github.com/shidahuilang/shuyuan](https://github.com/shidahuilang/shuyuan)
 + [https://github.com/HerbertHe/iptv-sources](https://github.com/HerbertHe/iptv-sources)
 + [https://github.com/lizongying/my-tv](https://github.com/lizongying/my-tv)
++ [https://github.com/joevess/IPTV](https://github.com/joevess/IPTV)
 
 
 * [https://github.com/llazyl/TVBox](https://github.com/llazyl/TVBox)
@@ -488,10 +489,16 @@
 
 ## 图片
 
-* 图片压缩工具 [https://github.com/GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh)
-* [https://github.com/netnr/squoosh](https://github.com/netnr/squoosh)
++ [https://github.com/topics/image-processing](https://github.com/topics/image-processing)
+
+
+* 图片压缩 [https://github.com/GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh)
+    * [https://github.com/jamsinclair/jSquash](https://github.com/jamsinclair/jSquash)
+    * [https://github.com/unplugin/unplugin-imagemin](https://github.com/unplugin/unplugin-imagemin)
+    * [https://github.com/SalOne22/rimage](https://github.com/SalOne22/rimage)
+* [https://github.com/renzhezhilu/webp2jpg-online-demo](https://github.com/renzhezhilu/webp2jpg-online-demo)
 * [https://github.com/Dreamer365/topspeed-image-compressor](https://github.com/Dreamer365/topspeed-image-compressor)
-* 上传图片并获取图片URL链接 [https://github.com/Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo)
+* 上传并获取图片URL [https://github.com/Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo)
 * [https://www.polaxiong.com](https://www.polaxiong.com)
 * [https://icons8.cn/lunacy](https://icons8.cn/lunacy)
 * [https://www.xnview.com](https://www.xnview.com)
@@ -502,7 +509,9 @@
 * Icon矢量图 [https://github.com/inkscape/inkscape](https://github.com/inkscape/inkscape)
     * [https://gitlab.com/inkscape/inkscape](https://gitlab.com/inkscape/inkscape)
     * [https://inkscape.org/zh-hans](https://inkscape.org/zh-hans)
+* [https://github.com/svg](https://github.com/svg)
 * [https://github.com/ImageMagick](https://github.com/ImageMagick)
+    * [https://github.com/dlemstra/magick-wasm](https://github.com/dlemstra/magick-wasm)
 * [https://icofx.ro](https://icofx.ro)
 * Axialis-IconWorkshop 官网 [https://www.axialis.com/download/#software](https://www.axialis.com/download/#software)
 * [https://github.com/darktable-org/darktable](https://github.com/darktable-org/darktable)
@@ -1008,6 +1017,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis)
 * [LastPass Authenticator](https://support.logmeininc.com/lastpass/help/lastpass-authenticator-lp030014)
 * [Microsoft Authenticator](https://www.microsoft.com/zh-cn/security/mobile-authenticator-app)
+* [https://github.com/google/google-authenticator-android](https://github.com/google/google-authenticator-android)
 * KeePass [https://keepass.info](https://keepass.info)
 * [https://www.keepersecurity.com](https://www.keepersecurity.com)
 * Eziriz IntelliLock
@@ -1025,6 +1035,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/buttercup](https://github.com/buttercup)
 * [https://github.com/passbolt/passbolt_api](https://github.com/passbolt/passbolt_api)
 * [https://github.com/keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc)
+* [https://www.yubico.com/products/yubico-authenticator](https://www.yubico.com/products/yubico-authenticator)
 
 
 
