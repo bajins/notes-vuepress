@@ -79,6 +79,7 @@
 - [https://github.com/OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev)
 - [https://github.com/KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
 - [https://github.com/deepseek-ai/DeepSeek-Coder](https://github.com/deepseek-ai/DeepSeek-Coder)
+- [https://github.com/Codium-ai](https://github.com/Codium-ai)
 - 突出显示重要代码 [https://github.com/novoselrok/glance](https://github.com/novoselrok/glance)
 - 代码转换 [https://github.com/JustAIGithub/AI-Code-Convert](https://github.com/JustAIGithub/AI-Code-Convert)
 - [https://github.com/ritz078/transform](https://github.com/ritz078/transform)

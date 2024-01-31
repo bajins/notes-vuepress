@@ -233,6 +233,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
     * [https://github.com/kkkgo](https://github.com/kkkgo)
 * [kms.mogeko.me](https://mogeko.me/posts/zh-cn/054/)
     * [https://github.com/Mogeko](https://github.com/Mogeko)
++ [https://v0v.bid](https://v0v.bid)
 * [https://kms.cangshui.net](https://kms.cangshui.net)
 * [https://kms.loli.beer](https://kms.loli.beer)
 * [https://www.moerats.com/kms](https://www.moerats.com/kms)

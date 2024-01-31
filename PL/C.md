@@ -85,10 +85,13 @@
 
 
 * [https://github.com/nothings/stb](https://github.com/nothings/stb)
+* [https://github.com/KaisenAmin/c_std](https://github.com/KaisenAmin/c_std)
 * [https://github.com/ImpulseAdventure/GUIslice-Builder](https://github.com/ImpulseAdventure/GUIslice-Builder)
     * [https://github.com/ImpulseAdventure/GUIslice](https://github.com/ImpulseAdventure/GUIslice)
 * [https://github.com/DaveGamble/cJSON](https://github.com/DaveGamble/cJSON)
-* 压缩 [https://github.com/libarchive](https://github.com/libarchive)
+* 压缩 [https://github.com/inikep/lzbench](https://github.com/inikep/lzbench)
+* [https://github.com/conor42](https://github.com/conor42)
+* [https://github.com/libarchive](https://github.com/libarchive)
 * [https://github.com/madler/zlib](https://github.com/madler/zlib)
 * [https://github.com/gdraheim/zziplib](https://github.com/gdraheim/zziplib)
 * [https://github.com/lemire/simdcomp](https://github.com/lemire/simdcomp)
@@ -101,6 +104,11 @@
 * [https://sourceforge.net/projects/infozip](https://sourceforge.net/projects/infozip)
 * [https://github.com/facebook/zstd](https://github.com/facebook/zstd)
 * [https://github.com/Cyan4973/FiniteStateEntropy](https://github.com/Cyan4973/FiniteStateEntropy)
+* [https://github.com/lz4/lz4](https://github.com/lz4/lz4)
+* [https://github.com/tukaani-project/xz](https://github.com/tukaani-project/xz)
+* [https://www.sourceware.org/bzip2](https://www.sourceware.org/bzip2)
+* [https://sourceforge.net/projects/bzip2](https://sourceforge.net/projects/bzip2)
+* [https://github.com/kspalaiologos/bzip3](https://github.com/kspalaiologos/bzip3)
 * 标准库 [https://musl.libc.org](https://musl.libc.org)
     * [https://github.com/seL4/musllibc](https://github.com/seL4/musllibc)
     * [https://github.com/richfelker](https://github.com/richfelker)
@@ -139,6 +147,7 @@
 * [https://github.com/tjko/jpegoptim](https://github.com/tjko/jpegoptim)
 * [https://jpegclub.org/jpegtran](https://jpegclub.org/jpegtran)
 * [https://sourceforge.net/projects/pmt](https://sourceforge.net/projects/pmt)
+* [https://www.ijg.org](https://www.ijg.org)
 * PCI [https://github.com/pciutils/pciutils](https://github.com/pciutils/pciutils)
 * HTTP [https://github.com/mirror/wget](https://github.com/mirror/wget)
     * [https://gitlab.com/gnuwget/wget2](https://gitlab.com/gnuwget/wget2)
@@ -214,6 +223,7 @@
 * [https://github.com/cacalabs/libcaca](https://github.com/cacalabs/libcaca)
 * 英特尔媒体调度 [https://github.com/lu-zero/mfx_dispatch](https://github.com/lu-zero/mfx_dispatch)
 * Windows通用更新程序 [https://github.com/gup4win/wingup](https://github.com/gup4win/wingup)
+* 文件类型猜测 [https://github.com/file/file](https://github.com/file/file)
 
 
 
@@ -274,6 +284,7 @@
     - [https://github.com/horsicq/x64dbg-Plugin-Manager](https://github.com/horsicq/x64dbg-Plugin-Manager)
 - [https://github.com/jas502n/IDA_Pro_7.2](https://github.com/jas502n/IDA_Pro_7.2)
 - [https://github.com/gaasedelen/lighthouse](https://github.com/gaasedelen/lighthouse)
+- 内存调试 [https://github.com/ArtifexSoftware/memento](https://github.com/ArtifexSoftware/memento)
 - 性能工具 [https://github.com/HPCToolkit/hpctoolkit](https://github.com/HPCToolkit/hpctoolkit)
 - [https://github.com/jonasmr/microprofile](https://github.com/jonasmr/microprofile)
 - 模糊测试 [https://github.com/AFLplusplus/AFLplusplus](https://github.com/AFLplusplus/AFLplusplus)
