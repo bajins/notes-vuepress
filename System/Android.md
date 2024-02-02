@@ -378,6 +378,7 @@
     * [https://github.com/feljor/playstore-scraper-with-api](https://github.com/feljor/playstore-scraper-with-api)
     * [https://github.com/egodigital/node-google-play-store](https://github.com/egodigital/node-google-play-store)
 * [https://github.com/SimpleMobileTools](https://github.com/SimpleMobileTools)
+* [https://github.com/xlucn/oh-my-foss-android](https://github.com/xlucn/oh-my-foss-android)
 
 
 - [https://github.com/microg](https://github.com/microg)
@@ -413,6 +414,7 @@
 * 图片处理 [https://website.facetuneapp.com](https://website.facetuneapp.com)
 * [https://www.lightricks.com](https://www.lightricks.com)
 * 磁力下载 [https://github.com/proninyaroslav/libretorrent](https://github.com/proninyaroslav/libretorrent)
+* 运行Windows应用 [https://github.com/brunodev85/winlator](https://github.com/brunodev85/winlator)
 
 
 **下载Google Play Store上的应用**

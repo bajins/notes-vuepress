@@ -140,8 +140,6 @@ Get-ChildItem . | ForEach-Object -Process {
 
 - 创建硬软连接
 
-* [https://docs.microsoft.com/zh-cn/sysinternals/downloads/junction](https://docs.microsoft.com/zh-cn/sysinternals/downloads/junction)
-
 ```powershell
 # 软连接SymbolicLink：支持跨分区，支持文件和目录，支持相对路径，支持跨文件系统
 # 硬链接HardLink：不可跨分区，盘符修改不影响，不能为文件夹创建硬链接

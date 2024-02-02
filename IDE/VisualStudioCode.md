@@ -22,6 +22,7 @@
 * [https://github.com/coder](https://github.com/coder)
 * [https://github.com/flathub/com.vscodium.codium](https://github.com/flathub/com.vscodium.codium)
     * [https://vscodium.com](https://vscodium.com)
+* 元素定位源代码 [https://github.com/zh-lx/code-inspector](https://github.com/zh-lx/code-inspector)
 
 
 

@@ -36,6 +36,8 @@
 + 查看日志文件 [https://github.com/bensadeh/tailspin](https://github.com/bensadeh/tailspin)
 + cat [https://github.com/swsnr/mdcat](https://github.com/swsnr/mdcat)
 + 文件管理 [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
++ SCP [https://github.com/lengyijun/smartscp](https://github.com/lengyijun/smartscp)
++ CP [https://github.com/tarka/xcp](https://github.com/tarka/xcp)
 
 
 

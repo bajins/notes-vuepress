@@ -11,8 +11,7 @@
 * [https://sourceware.org](https://sourceware.org)
 
 
-- 实用工具 [https://docs.microsoft.com/zh-cn/sysinternals](https://docs.microsoft.com/zh-cn/sysinternals)
-- [https://github.com/Sysinternals](https://github.com/Sysinternals)
+
 - [https://github.com/OpenPGP/openpgp.org](https://github.com/OpenPGP/openpgp.org)
 - GPG密钥 [https://www.gpg4win.org](https://www.gpg4win.org)
 - 多个shell软件包镜像 [https://github.com/mirror](https://github.com/mirror)

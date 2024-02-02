@@ -59,6 +59,7 @@
 - [https://github.com/dsznajder/vscode-es7-javascript-react-snippets](https://github.com/dsznajder/vscode-es7-javascript-react-snippets)
 - 工具 [https://github.com/864381832/xJavaFxTool](https://github.com/864381832/xJavaFxTool)
 - [https://github.com/baiy/Ctool](https://github.com/baiy/Ctool)
+- [https://github.com/homeinfra-org/infra](https://github.com/homeinfra-org/infra)
 - WakaTime [https://github.com/muety/wakapi](https://github.com/muety/wakapi)
 - 代码助手AI [https://github.com/codota/tabnine](https://github.com/codota/tabnine)
     - [https://www.tabnine.com](https://www.tabnine.com)

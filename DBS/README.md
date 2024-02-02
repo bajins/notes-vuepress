@@ -26,6 +26,7 @@
 * [https://www.twle.cn/l/yufei/sql/sql-basic-index.html](https://www.twle.cn/l/yufei/sql/sql-basic-index.html)
 * [https://www.begtut.com/sql/sql-ref-keywords.html](https://www.begtut.com/sql/sql-ref-keywords.html)
 * [https://wizardforcel.gitbooks.io/w3school-sql](https://wizardforcel.gitbooks.io/w3school-sql)
+* 键值存储引擎教程 [https://github.com/skyzh/mini-lsm](https://github.com/skyzh/mini-lsm)
 * HiveSQL教程 [https://www.gairuo.com/p/hive-sql-tutorial](https://www.gairuo.com/p/hive-sql-tutorial)
 * 加密 [https://github.com/hashicorp/vault](https://github.com/hashicorp/vault)
 * 通用SQL解析 [https://www.sqlparser.com](https://www.sqlparser.com)

@@ -463,9 +463,9 @@ book.name = test
     - `@RequestParam` 用于接收参数（如果变量名与参数名相同可不使用此注解），`GET`为`?`后面的查询参数，`POST`为body中的表单参数和URL参数；
     - `@RequestBody` 适用于请求体格式为`application/json`，只能用于接收JSON对象，body中的内容
     - `@RequestPart` 适用于请求体格式为`multipart/form-data`，可嵌套复杂的请求域（JSON，XML），既可以接收对象又可以接收二进制数据
+    - `@ModelAttribute`
+    - `@RequestPayload` 用于处理入站SOAP消息的请求部分
 - `@ResponseBody` 将返回内容序列化为json字符串（返回值旁或方法上）
-- `@SessionAttributes`
-- `@SessionAttribute`
 - `@CookieValue`
 - `@CrossOrigin`
 - `@Mapping`
@@ -478,6 +478,8 @@ book.name = test
 - `@MatrixVariable`
 - `@RequestHeader`
 - `@RequestAttribute`
+- `@SessionAttributes`
+- `@SessionAttribute`
 - `@ResponseStatus`
 - `@ControllerAdvice` 全局控制器，注解了`@Controller`的类的方法可使用，这对所有注解了`@RequestMapping`的控制器内的方法有效。
     - `@ExceptionHandler` 用于全局处理控制器里的异常处理方法（全局异常捕获）

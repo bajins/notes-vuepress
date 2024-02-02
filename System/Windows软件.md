@@ -380,6 +380,7 @@
 * [https://www.getmusicbee.com](https://www.getmusicbee.com)
 * [https://github.com/Frank-Friemel/Shairport4w](https://github.com/Frank-Friemel/Shairport4w)
 * [https://github.com/maotoumao/MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop)
+* [https://github.com/synctv-org](https://github.com/synctv-org)
 
 
 - [https://github.com/Chocobozzz/PeerTube](https://github.com/Chocobozzz/PeerTube)
