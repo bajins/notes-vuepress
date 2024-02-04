@@ -122,6 +122,7 @@
 * [https://github.com/elnormous/HTTPRequest](https://github.com/elnormous/HTTPRequest)
 * [https://gitee.com/ldcsaa/HP-Socket](https://gitee.com/ldcsaa/HP-Socket)
 * [https://github.com/cesanta/mongoose](https://github.com/cesanta/mongoose)
+* [https://github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib)
 * URL解析 [https://github.com/ada-url/ada](https://github.com/ada-url/ada)
 * 分布式网络框架 [https://github.com/Bwar/Nebula](https://github.com/Bwar/Nebula)
 * 分析调试测试器 [https://github.com/dfeneyrou/palanteer](https://github.com/dfeneyrou/palanteer)

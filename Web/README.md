@@ -396,6 +396,10 @@ archive.cloudera.com/cdh5/      cloudera.proxy.ustclug.org/cdh5/
 downloads.lede-project.org      lede.proxy.ustclug.org
 downloads.openwrt.org           openwrt.proxy.ustclug.org
 registry.npmjs.org              npmreg.proxy.ustclug.org
+registry.yarnpkg.com
+registry.nodejitsu.com
+skimdb.npmjs.com/registry
+registry.enpmjs.org
 www.npmjs.com                   npm.proxy.ustclug.org
 themes.googleusercontent.com    google-themes.proxy.ustclug.org
 themes.googleusercontent.com    themes.loli.net

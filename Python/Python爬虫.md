@@ -69,6 +69,7 @@
 * [https://github.com/small-step/mikasa-wechat](https://github.com/small-step/mikasa-wechat)
 * [https://github.com/cixingguangming55555/wechat-bot](https://github.com/cixingguangming55555/wechat-bot)
 * [https://github.com/smallfawn/QLScriptPublic](https://github.com/smallfawn/QLScriptPublic)
+* [https://github.com/tinygeeker/tinyspiders](https://github.com/tinygeeker/tinyspiders)
 * 预苗秒杀 [https://github.com/lyrric/seckill](https://github.com/lyrric/seckill)
 
 

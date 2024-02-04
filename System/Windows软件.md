@@ -419,10 +419,13 @@
 + [https://jihulab.com/moyuer/momoyu](https://jihulab.com/moyuer/momoyu)
 + [https://github.com/shidahuilang/shuyuan](https://github.com/shidahuilang/shuyuan)
 + [https://github.com/HerbertHe/iptv-sources](https://github.com/HerbertHe/iptv-sources)
-+ [https://github.com/lizongying/my-tv](https://github.com/lizongying/my-tv)
++ [https://github.com/EvilCult/iptv-m3u-maker](https://github.com/EvilCult/iptv-m3u-maker)
 + [https://github.com/joevess/IPTV](https://github.com/joevess/IPTV)
++ [https://github.com/Meroser/IPTV](https://github.com/Meroser/IPTV)
 
 
+
+* [https://github.com/lizongying/my-tv](https://github.com/lizongying/my-tv)
 * [https://github.com/llazyl/TVBox](https://github.com/llazyl/TVBox)
 * [https://github.com/q215613905/TVBoxOS](https://github.com/q215613905/TVBoxOS)
 * [https://github.com/FongMi/TV](https://github.com/FongMi/TV)

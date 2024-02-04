@@ -64,6 +64,7 @@
 ## 第三方依赖
 
 + [https://crates.io/crates](https://crates.io/crates)
++ [https://github.com/kennykerr](https://github.com/kennykerr)
 + [https://gitlab.com/crates.rs](https://gitlab.com/crates.rs)
 + [https://github.com/rust-analyzer](https://github.com/rust-analyzer)
 + [https://github.com/rustcc/awesome-rust](https://github.com/rustcc/awesome-rust)

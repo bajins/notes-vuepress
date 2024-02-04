@@ -47,6 +47,7 @@
 - [https://www.dotnetperls.com](https://www.dotnetperls.com)
 - [https://github.com/milanm/DotNet-Developer-Roadmap](https://github.com/milanm/DotNet-Developer-Roadmap)
 - [https://github.com/YSGStudyHards/DotNetGuide](https://github.com/YSGStudyHards/DotNetGuide)
+- [https://github.com/qinyuanpei/blog.yuanpei.me](https://github.com/qinyuanpei/blog.yuanpei.me)
 - 领域驱动设计 [https://github.com/kgrzybek/modular-monolith-with-ddd](https://github.com/kgrzybek/modular-monolith-with-ddd)
 - 后台管理系统 [https://github.com/izhaorui/Zr.Admin.NET](https://github.com/izhaorui/Zr.Admin.NET)
 

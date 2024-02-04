@@ -213,6 +213,7 @@
     * [https://github.com/lalbornoz/midipix_build](https://github.com/lalbornoz/midipix_build)
 * 包管理器 [http://win-builds.org](http://win-builds.org)
 * [https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror)
+* [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate)
 * 云原生构建包 [https://github.com/buildpacks](https://github.com/buildpacks)
 * 微服务开发工具 [https://github.com/eko/monday](https://github.com/eko/monday)
 * 构建应用程序 [https://github.com/paketo-buildpacks](https://github.com/paketo-buildpacks)
@@ -232,6 +233,7 @@
 
 - [https://github.com/florinpop17/app-ideas](https://github.com/florinpop17/app-ideas)
 - [https://github.com/jaywcjlove/reference](https://github.com/jaywcjlove/reference)
+- 查看二进制文件 [https://binvis.io](https://binvis.io)
 
 
 ## 语词法解析器

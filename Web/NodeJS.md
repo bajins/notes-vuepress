@@ -131,6 +131,7 @@
 * [https://github.com/ceifa/steamworks.js](https://github.com/ceifa/steamworks.js)
 * 检测文字语言 [https://github.com/komodojp/tinyld](https://github.com/komodojp/tinyld)
 * 表单验证 [https://github.com/vinejs/vine](https://github.com/vinejs/vine)
+* 代理HLS视频流 [https://github.com/warren-bank/HLS-Proxy](https://github.com/warren-bank/HLS-Proxy)
 
 
 
