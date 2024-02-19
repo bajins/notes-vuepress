@@ -17,6 +17,7 @@
 - [130 余个相见恨晚的超实用网站](https://blog.csdn.net/qq_43901693/article/details/100606828)
 - [https://dmucd.github.io/archives](https://dmucd.github.io/archives)
 - 2023年终总结 [https://github.com/saveweb/review-2023](https://github.com/saveweb/review-2023)
+- [Huberman Lab Podcast 全系列笔记](https://zhuanlan.zhihu.com/p/676445568)
 
 
 ## 学习

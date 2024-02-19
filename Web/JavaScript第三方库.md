@@ -205,7 +205,6 @@
 - [https://github.com/quilljs/quill](https://github.com/quilljs/quill)
 - [https://github.com/alibaba/GGEditor](https://github.com/alibaba/GGEditor)
 - [https://github.com/facebook/lexical](https://github.com/facebook/lexical)
-- [https://github.com/AykutSarac/jsonvisio.com](https://github.com/AykutSarac/jsonvisio.com)
 - [https://github.com/Hufe921/canvas-editor](https://github.com/Hufe921/canvas-editor)
 - [https://github.com/Alex-D/Trumbowyg](https://github.com/Alex-D/Trumbowyg)
 

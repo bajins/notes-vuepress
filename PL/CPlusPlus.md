@@ -107,6 +107,7 @@
 * [https://github.com/TheCherno/Hazel](https://github.com/TheCherno/Hazel)
 * 图像元数据 [https://github.com/Exiv2/exiv2](https://github.com/Exiv2/exiv2)
 * [https://github.com/bulletphysics/bullet3](https://github.com/bulletphysics/bullet3)
+* [https://github.com/ros-perception/image_pipeline](https://github.com/ros-perception/image_pipeline)
 * PNG [https://github.com/lvandeve/lodepng](https://github.com/lvandeve/lodepng)
 * [https://github.com/Ravbug/BatchCompress](https://github.com/Ravbug/BatchCompress)
 * JSON [https://github.com/miloyip/nativejson-benchmark](https://github.com/miloyip/nativejson-benchmark)

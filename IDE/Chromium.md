@@ -357,10 +357,10 @@ taskkill /f /im chromedriver.exe
 
 
 * [swagger-bootstrap-ui](https://chrome.google.com/webstore/detail/swagger-bootstrap-ui/dhkcgihkeepociepfdeeppmdgbdooahh)
-* [快速进行HTML/CSS/JS编辑展示：web-maker](https://github.com/chinchang/web-maker)
-* [WEB前端助手：WEB前端助手(FeHelper)](https://github.com/zxlie/FeHelper)
-* [JSON查看器：json-viewer](https://github.com/tulios/json-viewer)
-* [DFPM是用于检测浏览器指纹的浏览器扩展](https://github.com/freethenation/DFPM)
+* HTML/CSS/JS编辑展示 [https://github.com/chinchang/web-maker](https://github.com/chinchang/web-maker)
+* WEB前端助手 [https://github.com/zxlie/FeHelper](https://github.com/zxlie/FeHelper)
+* JSON查看 [https://github.com/tulios/json-viewer](https://github.com/tulios/json-viewer)
+* 检测浏览器指纹 [https://github.com/freethenation/DFPM](https://github.com/freethenation/DFPM)
 * [https://microsoftedge.microsoft.com/addons/search/谷歌](https://microsoftedge.microsoft.com/addons/search/%E8%B0%B7%E6%AD%8C)
 * [https://chrome.google.com/webstore/search/谷歌访问?_category=extensions](https://chrome.google.com/webstore/search/%E8%B0%B7%E6%AD%8C%E8%AE%BF%E9%97%AE?_category=extensions)
 * [http://www.iwikipage.com](http://www.iwikipage.com)

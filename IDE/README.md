@@ -21,8 +21,6 @@
 * [https://github.com/lapce](https://github.com/lapce)
 * [https://github.com/zed-industries](https://github.com/zed-industries)
 * [https://github.com/capistrano/sshkit](https://github.com/capistrano/sshkit)
-* JSON可视化 [https://github.com/AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com)
-* [https://editor.herowand.com](https://editor.herowand.com)
 * 网络分析 [https://github.com/gephi](https://github.com/gephi)
 * Android代码编辑器 [https://github.com/massivemadness/Squircle-CE](https://github.com/massivemadness/Squircle-CE)
 
