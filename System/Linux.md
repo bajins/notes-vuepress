@@ -542,6 +542,7 @@ setsid python3 ./index.py >/dev/null 2>&1 &
 * [https://github.com/gorakhargosh/watchdog](https://github.com/gorakhargosh/watchdog)
 * [https://github.com/lsyncd/lsyncd](https://github.com/lsyncd/lsyncd)
 * [https://github.com/emcrisostomo/fswatch](https://github.com/emcrisostomo/fswatch)
+* [https://github.com/eradman/entr](https://github.com/eradman/entr)
 
 
 > 首先进入需要搭建web服务器的目录，然后在输入下面的命令，端口号默认`8000`

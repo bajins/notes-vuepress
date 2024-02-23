@@ -22,6 +22,8 @@
 - 副业 [https://github.com/bleedline/aimoneyhunter](https://github.com/bleedline/aimoneyhunter)
 - [Solo 独立开发者社区](https://solo.xin)
 - [独立开发的100个想法](https://mp.weixin.qq.com/s/CarlaglmCszQiHI6qrjYNQ)
+- [https://github.com/weijunext/indie-hacker-tools](https://github.com/weijunext/indie-hacker-tools)
+
 
 
 
@@ -198,6 +200,7 @@
 * [https://github.com/devonfw/ide](https://github.com/devonfw/ide)
 * [https://github.com/skeeto/w64devkit](https://github.com/skeeto/w64devkit)
 * [https://github.com/lando/lando](https://github.com/lando/lando)
+* [https://github.com/cashapp/hermit](https://github.com/cashapp/hermit)
 * 性能跟踪分析 [https://github.com/topics/trace](https://github.com/topics/trace)
 * [https://github.com/brendangregg](https://github.com/brendangregg)
     * [https://github.com/opendtrace](https://github.com/opendtrace)
@@ -215,6 +218,7 @@
 * [https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror)
 * [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate)
 * 云原生构建包 [https://github.com/buildpacks](https://github.com/buildpacks)
+* [https://github.com/defenseunicorns/zarf](https://github.com/defenseunicorns/zarf)
 * 微服务开发工具 [https://github.com/eko/monday](https://github.com/eko/monday)
 * 构建应用程序 [https://github.com/paketo-buildpacks](https://github.com/paketo-buildpacks)
 * [https://github.com/topics/build](https://github.com/topics/build)
@@ -229,11 +233,13 @@
 * 在线手册API [https://www.matools.com/api](https://www.matools.com/api)
 * 环境设置 [https://github.com/josean-dev/dev-environment-files](https://github.com/josean-dev/dev-environment-files)
 * 游戏多语言实现 [https://github.com/coding-horror/basic-computer-games](https://github.com/coding-horror/basic-computer-games)
+* 查看二进制文件 [https://binvis.io](https://binvis.io)
+
 
 
 - [https://github.com/florinpop17/app-ideas](https://github.com/florinpop17/app-ideas)
 - [https://github.com/jaywcjlove/reference](https://github.com/jaywcjlove/reference)
-- 查看二进制文件 [https://binvis.io](https://binvis.io)
+
 
 
 ## 语词法解析器

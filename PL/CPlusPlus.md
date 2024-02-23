@@ -36,6 +36,7 @@
 * [https://github.com/AnthonyCalandra/modern-cpp-features](https://github.com/AnthonyCalandra/modern-cpp-features)
 * [https://github.com/google/cpu_features](https://github.com/google/cpu_features)
 * [https://github.com/federico-busato/Modern-CPP-Programming](https://github.com/federico-busato/Modern-CPP-Programming)
+* [https://elesos.github.io/archives](https://elesos.github.io/archives)
 * 代码优化方案 [https://github.com/ibogosavljevic/johnysswlab](https://github.com/ibogosavljevic/johnysswlab)
 * 互斥锁 [https://github.com/skarupke/two_bit_mutex](https://github.com/skarupke/two_bit_mutex)
 * [C/C++串口通信原理及读写与操作](https://wangbaiyuan.cn/c-serial-communication-write-reading.html)

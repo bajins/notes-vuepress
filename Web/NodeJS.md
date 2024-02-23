@@ -190,6 +190,8 @@ nvm install <最新的版本号>
 * [https://github.com/yarnpkg](https://github.com/yarnpkg)
 * [https://github.com/pnpm/pnpm](https://github.com/pnpm/pnpm)
 
+
+- [https://github.com/xthezealot/npmprune](https://github.com/xthezealot/npmprune)
 - [https://github.com/antfu/ni](https://github.com/antfu/ni)
 
 

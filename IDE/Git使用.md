@@ -39,7 +39,6 @@
 * Git的奇技淫巧: [https://github.com/521xueweihan/git-tips](https://github.com/521xueweihan/git-tips)
 * 猴子都能懂的GIT入门: [https://backlog.com/git-tutorial/cn/contents](https://backlog.com/git-tutorial/cn/contents)
 * [Git与Subversion的命令对比表](https://website-proxy.backlogtool.com/git-tutorial/cn/reference/git-svn.html)
-* [https://github.com/libgit2](https://github.com/libgit2)
 * 在线学 Git [https://codechina_dev.gitcode.host/learn-git-branching](https://codechina_dev.gitcode.host/learn-git-branching)
 * [https://github.com/pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching)
 

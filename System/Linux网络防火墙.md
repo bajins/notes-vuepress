@@ -206,6 +206,7 @@ firewall-cmd --query-panic
 - [https://github.com/ngoduykhanh/ifconfig.top](https://github.com/ngoduykhanh/ifconfig.top)
 - [https://github.com/ftao/python-ifcfg](https://github.com/ftao/python-ifcfg)
 - [https://github.com/sanketsudake/ifconfig-parser](https://github.com/sanketsudake/ifconfig-parser)
+- [https://www.browserscan.net](https://www.browserscan.net)
 - [https://www.ipip.net](https://www.ipip.net)
     - [https://www.myip.la](https://www.myip.la)
 - 可用性检查 [https://github.com/funilrys/PyFunceble](https://github.com/funilrys/PyFunceble)
