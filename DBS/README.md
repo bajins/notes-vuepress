@@ -288,7 +288,8 @@
 * [https://github.com/lettuce-io/lettuce-core](https://github.com/lettuce-io/lettuce-core)
     * [Lettuce相较于Jedis有哪些优缺点？](https://www.zhihu.com/question/53124685)
 * Go [https://github.com/gomodule/redigo](https://github.com/gomodule/redigo)
-* C# [https://github.com/imperugo/StackExchange.Redis.Extensions](https://github.com/imperugo/StackExchange.Redis.Extensions)
+* C# [https://github.com/StackExchange/StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis)
+* [https://github.com/imperugo/StackExchange.Redis.Extensions](https://github.com/imperugo/StackExchange.Redis.Extensions)
 
 
 **存储方式**

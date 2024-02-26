@@ -238,6 +238,8 @@
 
 
 - [https://github.com/florinpop17/app-ideas](https://github.com/florinpop17/app-ideas)
+- [https://github.com/hilmanski/freeStuffDev](https://github.com/hilmanski/freeStuffDev)
+    - [https://allinone.tools](https://allinone.tools)
 - [https://github.com/jaywcjlove/reference](https://github.com/jaywcjlove/reference)
 
 

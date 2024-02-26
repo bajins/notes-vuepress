@@ -517,7 +517,6 @@
     * [https://snapdrop.net](https://snapdrop.net)
 * 沙盒塔防游戏 [https://github.com/Anuken/Mindustry](https://github.com/Anuken/Mindustry)
 * [https://github.com/PojavLauncherTeam](https://github.com/PojavLauncherTeam)
-* 游戏线程调整 [https://github.com/zizifn/edgetunnel](https://github.com/zizifn/edgetunnel)
 * 1DM/IDM [https://www.apps2sd.info/idmp/faq](https://www.apps2sd.info/idmp/faq)
 * FDM [https://www.freedownloadmanager.org/zh/download-fdm-for-android.htm](https://www.freedownloadmanager.org/zh/download-fdm-for-android.htm)
 * 压缩解压 [http://www.unisapps.com](http://www.unisapps.com)

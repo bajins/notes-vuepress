@@ -50,6 +50,8 @@
 * [https://github.com/fenwii/huaweimind](https://github.com/fenwii/huaweimind)
 * 学英语 [https://github.com/xiaolai/everyone-can-use-english](https://github.com/xiaolai/everyone-can-use-english)
 * [https://github.com/byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips)
+* [https://www.languagereactor.com](https://www.languagereactor.com)
+* [https://youglish.com](https://youglish.com)
 
 
 
@@ -119,6 +121,7 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * 在线看剧 [http://dy.27234.cn](http://dy.27234.cn)
 * 大数据导航 [http://hao.199it.com](http://hao.199it.com)
 * 多功能图片网站 [https://www.logosc.cn/so](https://www.logosc.cn/so)
+* [https://shots.so](https://shots.so)
 * 牛牛TV [http://www.ziliao6.com/tv](http://www.ziliao6.com/tv)
 * VideoFk解析视频 [http://www.videofk.com](http://www.videofk.com)
 * 蓝调网站 [http://lcoc.top/vip2.3](http://lcoc.top/vip2.3)
@@ -127,11 +130,16 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 
 - [免费下载音乐的网站在哪里?](https://www.zhihu.com/question/356168043)
 - 无损音乐吧 [https://www.dtshot.com](https://www.dtshot.com)
+- [https://soundcloud.com](https://soundcloud.com)
 - 超高无损音乐网 [https://www.sq688.com](https://www.sq688.com)
 - 无损音乐免费下载 [http://www.51ape.com](http://www.51ape.com)
 - [http://tool.liumingye.cn/music](http://tool.liumingye.cn/music)
 - 音频学习 [https://www.eartrainx.com](https://www.eartrainx.com)
-
+- 全球实时视频 [https://www.earthcam.com](https://www.earthcam.com)
+- [https://www.skylinewebcams.com](https://www.skylinewebcams.com)
+- [https://www.citywalks.live](https://www.citywalks.live)
+- 三维太空可视化 [https://eyes.nasa.gov](https://eyes.nasa.gov)
+- 元素周期表 [https://github.com/baotlake/periodic-table-pro](https://github.com/baotlake/periodic-table-pro)
 
 
 

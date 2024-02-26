@@ -541,7 +541,6 @@ string &operator+(const string& A,const string& B) //cpp
     * ~~[https://www.typora.io](https://www.typora.io)~~
     * [https://github.com/DiamondHunters/NodeInject_Hook_example](https://github.com/DiamondHunters/NodeInject_Hook_example)
 * [https://github.com/Saul-Mirone/milkdown](https://github.com/Saul-Mirone/milkdown)
-* [https://github.com/laurent22/joplin](https://github.com/laurent22/joplin)
 * MarkPad [https://github.com/Code52/DownmarkerWPF](https://github.com/Code52/DownmarkerWPF)
 * [Haroopad](http://pad.haroopress.com/user.html)
 * [https://github.com/MacDownApp/macdown](https://github.com/MacDownApp/macdown)
