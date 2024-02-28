@@ -76,8 +76,11 @@ REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Executi
 * [https://github.com/cxasm/notepad--](https://github.com/cxasm/notepad--)
 * [替换默认记事本](https://npp-user-manual.org/docs/other-resources/#notepad-replacement)
 * 插件 [https://github.com/notepad-plus-plus/nppPluginList](https://github.com/notepad-plus-plus/nppPluginList)
+* [https://github.com/npp-plugins](https://github.com/npp-plugins)
 * [https://github.com/pnedev/comparePlus](https://github.com/pnedev/comparePlus)
+* [https://github.com/chcg/NPP_HexEdit](https://github.com/chcg/NPP_HexEdit)
 * 比较 [https://github.com/pnedev/compare-plugin](https://github.com/pnedev/compare-plugin)
+* JSON [https://github.com/kapilratnani/JSON-Viewer](https://github.com/kapilratnani/JSON-Viewer)
 
 - 查看快捷键：`设置` –> `管理快捷键` -> `Scintilla命令`
     - `SCI_SELECTIONDUPLICATE` 复制当前行

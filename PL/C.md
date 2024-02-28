@@ -130,6 +130,7 @@
 * OpenGL [https://github.com/anholt/libepoxy](https://github.com/anholt/libepoxy)
 * [https://github.com/libsdl-org/SDL](https://github.com/libsdl-org/SDL)
 * [https://github.com/raysan5/raylib](https://github.com/raysan5/raylib)
+* [https://github.com/glfw/glfw](https://github.com/glfw/glfw)
 * 2D [https://www.cairographics.org](https://www.cairographics.org)
 * 3D [https://github.com/blender](https://github.com/blender)
     * [https://github.com/sobotka/blender](https://github.com/sobotka/blender)
@@ -227,6 +228,7 @@
 * [https://github.com/cacalabs/libcaca](https://github.com/cacalabs/libcaca)
 * 英特尔媒体调度 [https://github.com/lu-zero/mfx_dispatch](https://github.com/lu-zero/mfx_dispatch)
 * Windows通用更新程序 [https://github.com/gup4win/wingup](https://github.com/gup4win/wingup)
+    * [https://github.com/gupwin32/gupwin32.github.io](https://github.com/gupwin32/gupwin32.github.io)
 * 文件类型猜测 [https://github.com/file/file](https://github.com/file/file)
 
 

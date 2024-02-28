@@ -151,6 +151,7 @@
 * [https://github.com/mint-ui](https://github.com/mint-ui)
 * [https://github.com/varletjs/varlet](https://github.com/varletjs/varlet)
 * [https://github.com/ElementUI](https://github.com/ElementUI)
+* [https://github.com/element-plus/element-plus](https://github.com/element-plus/element-plus)
 
 
 
@@ -167,6 +168,7 @@
 - [https://github.com/nathantsoi/vue-native-websocket](https://github.com/nathantsoi/vue-native-websocket)
 - JSON生成SQL [https://github.com/liyupi/sql-generator](https://github.com/liyupi/sql-generator)
 - 验证 [https://github.com/logaretm/vee-validate](https://github.com/logaretm/vee-validate)
+- 图片编辑器 [https://github.com/nihaojob/vue-fabric-editor](https://github.com/nihaojob/vue-fabric-editor)
 
 
 **Mobile**
@@ -181,6 +183,7 @@
 
 * [https://github.com/zhontai/Admin.UI](https://github.com/zhontai/Admin.UI)
 * [https://github.com/HalseySpicy/Geeker-Admin](https://github.com/HalseySpicy/Geeker-Admin)
+* [https://github.com/pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin)
 * 扫描PDF [https://github.com/rwv/lookscanned.io](https://github.com/rwv/lookscanned.io)
 
 

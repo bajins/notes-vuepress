@@ -80,6 +80,7 @@
 - [https://github.com/KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
 - [https://github.com/deepseek-ai/DeepSeek-Coder](https://github.com/deepseek-ai/DeepSeek-Coder)
 - [https://github.com/Codium-ai](https://github.com/Codium-ai)
+- [https://github.com/KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
 - 突出显示重要代码 [https://github.com/novoselrok/glance](https://github.com/novoselrok/glance)
 - 代码转换 [https://github.com/JustAIGithub/AI-Code-Convert](https://github.com/JustAIGithub/AI-Code-Convert)
 - [https://github.com/ritz078/transform](https://github.com/ritz078/transform)
@@ -254,6 +255,7 @@
 + [https://github.com/search?q=SQL+client](https://github.com/search?q=SQL+client)
 + [https://github.com/topics/database-gui](https://github.com/topics/database-gui)
 + [https://gitee.com/explore/dbmanager](https://gitee.com/explore/dbmanager)
++ [https://github.com/mgramin/awesome-db-tools](https://github.com/mgramin/awesome-db-tools)
 
 
 * [https://github.com/slashbaseide/slashbase](https://github.com/slashbaseide/slashbase)

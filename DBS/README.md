@@ -240,6 +240,7 @@
 - [https://github.com/weaviate/weaviate](https://github.com/weaviate/weaviate)
 - [https://github.com/qdrant/qdrant](https://github.com/qdrant/qdrant)
 - [https://github.com/chroma-core/chroma](https://github.com/chroma-core/chroma)
+- 金融数据库 [https://github.com/tigerbeetle/tigerbeetle](https://github.com/tigerbeetle/tigerbeetle)
 
 
 

@@ -61,6 +61,8 @@
     * [https://github.com/ieugen/calcite-clj](https://github.com/ieugen/calcite-clj)
     * [如何实现一个SQL解析器](https://zhuanlan.zhihu.com/p/575800132)
 * [https://github.com/JSQLParser/JSqlParser](https://github.com/JSQLParser/JSqlParser)
+    * [https://github.com/manticore-projects](https://github.com/manticore-projects)
+        * [https://manticore-projects.com/JSQLParser/index.html](https://manticore-projects.com/JSQLParser/index.html)
     * [https://sourceforge.net/projects/jsqlparser](https://sourceforge.net/projects/jsqlparser)
     * [https://github.com/braisdom/ObjectiveSql](https://github.com/braisdom/ObjectiveSql)
 * [https://github.com/prestodb/presto](https://github.com/prestodb/presto)
