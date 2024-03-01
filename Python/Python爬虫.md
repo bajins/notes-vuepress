@@ -63,6 +63,7 @@
 * [https://github.com/Evil0ctal/Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API)
 * [https://github.com/czy0729/Bangumi](https://github.com/czy0729/Bangumi)
 * [WeChatDownload，批量微信公众号文章下载小工具](https://i.ijrou.com/p/story/WeChatDownload.html)
+* [https://github.com/cooderl/wewe-rss](https://github.com/cooderl/wewe-rss)
 * [调试PC端微信内置浏览器](https://mp.weixin.qq.com/s/WZR4HXwM1PEz4nEeMCejWQ)
 * [调试PC端微信内置浏览器](http://jioho.gitee.io/blog/%E5%B7%A5%E5%85%B7/%E8%B0%83%E8%AF%95PC%E7%AB%AF%E5%BE%AE%E4%BF%A1%E5%86%85%E7%BD%AE%E6%B5%8F%E8%A7%88%E5%99%A8.html)
 * ["调戏" 微信PC端浏览器内置浏览器](https://juejin.cn/post/6844904082314887182)

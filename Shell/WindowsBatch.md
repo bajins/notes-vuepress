@@ -339,7 +339,7 @@ timeout /T -1 /NOBREAK
 ### 任务计划
 
 * [Schtasks命令详解](https://www.cnblogs.com/daimaxuejia/p/12957644.html)
-* [https://learn.microsoft.com/zh-cn/windows/win32/TaskSchd](https://learn.microsoft.com/zh-cn/windows/win32/TaskSchd)
+
 
 
 **更高级用法见[创建任务计划](/Shell/WindowsJScript.md#创建任务计划)**
@@ -380,10 +380,6 @@ SCHTASKS /run /TN 任务名称
 
 
 ### 事件
-
-* [https://docs.microsoft.com/zh-cn/windows/win32/events/windows-events](https://docs.microsoft.com/zh-cn/windows/win32/events/windows-events)
-* [https://docs.microsoft.com/zh-cn/previous-versions//aa385231(v=vs.85)]( https://docs.microsoft.com/zh-cn/previous-versions//aa385231(v=vs.85))
-* [https://docs.microsoft.com/zh-cn/windows/win32/wes/windows-event-log](https://docs.microsoft.com/zh-cn/windows/win32/wes/windows-event-log)
 
 - `eventvwr` 打开事件查看器
     - 打开eventvwr -> Windows 日志 -> 系统 右键打开菜单 -> 将所有事件另存为(E) -> 选择保存类型为xml

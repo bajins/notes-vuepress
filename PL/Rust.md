@@ -60,6 +60,22 @@
 - IDE [https://github.com/intellij-rust](https://github.com/intellij-rust)
 
 
+**不显示控制台窗口**
+
+- https://rust-lang.github.io/rfcs/1665-windows-subsystem.html
+- https://learn.microsoft.com/zh-cn/cpp/build/reference/subsystem-specify-subsystem
+- https://stackoverflow.com/questions/74847732/can-you-make-a-windows-desktop-app-in-rust-and-winapi
+- https://stackoverflow.com/questions/29763647/how-to-make-a-program-that-does-not-display-the-console-window
+
+
+```bash
+# MSVC
+cargo rustc --release -- -Clink-args="/SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup"
+# GCC 
+cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
+```
+
+
 
 ## 第三方依赖
 
@@ -103,6 +119,7 @@
 + [https://github.com/RustRobotics](https://github.com/RustRobotics)
 + [https://github.com/RustVis](https://github.com/RustVis)
 + [https://github.com/gimli-rs](https://github.com/gimli-rs)
++ [https://github.com/magiclen](https://github.com/magiclen)
 
 
 - [https://github.com/Amanieu/parking_lot](https://github.com/Amanieu/parking_lot)
@@ -336,6 +353,7 @@
 
 
 
+* [https://github.com/rusthub-org](https://github.com/rusthub-org)
 * LLVM [https://github.com/TheDan64/inkwell](https://github.com/TheDan64/inkwell)
 * [https://github.com/llvmenv](https://github.com/llvmenv)
 * 音乐播放器 [https://github.com/jpochyla/miniaudio-rs](https://github.com/jpochyla/miniaudio-rs)

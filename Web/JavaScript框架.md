@@ -90,6 +90,7 @@
 	* [https://github.com/ant-design-blazor](https://github.com/ant-design-blazor)
 * [https://github.com/DouyinFE/semi-design](https://github.com/DouyinFE/semi-design)
 * [https://github.com/nextui-org/nextui](https://github.com/nextui-org/nextui)
+* [https://github.com/scratchfoundation/scratch-gui](https://github.com/scratchfoundation/scratch-gui)
 * [https://github.com/uiwjs/uiw](https://github.com/uiwjs/uiw)
 * [https://github.com/alibaba/ice](https://github.com/alibaba/ice)
 * [https://github.com/tannerlinsley/react-query](https://github.com/tannerlinsley/react-query)

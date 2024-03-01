@@ -217,6 +217,7 @@
 * 包管理器 [http://win-builds.org](http://win-builds.org)
 * [https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror)
 * [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate)
+* [https://github.com/NoCLin/LightMirrors](https://github.com/NoCLin/LightMirrors)
 * 云原生构建包 [https://github.com/buildpacks](https://github.com/buildpacks)
 * [https://github.com/defenseunicorns/zarf](https://github.com/defenseunicorns/zarf)
 * 微服务开发工具 [https://github.com/eko/monday](https://github.com/eko/monday)
@@ -234,6 +235,7 @@
 * 环境设置 [https://github.com/josean-dev/dev-environment-files](https://github.com/josean-dev/dev-environment-files)
 * 游戏多语言实现 [https://github.com/coding-horror/basic-computer-games](https://github.com/coding-horror/basic-computer-games)
 * 查看二进制文件 [https://binvis.io](https://binvis.io)
+* 工具箱 [https://github.com/CorentinTh/it-tools](https://github.com/CorentinTh/it-tools)
 
 
 
@@ -477,6 +479,7 @@
 - 渐进式 [https://github.com/dojo](https://github.com/dojo)
     - [https://dojotoolkit.org](https://dojotoolkit.org)
 - [https://github.com/trpc/trpc](https://github.com/trpc/trpc)
+-  SQL查询生成 [https://github.com/kysely-org/kysely](https://github.com/kysely-org/kysely)
 
 
 
