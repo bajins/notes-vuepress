@@ -446,6 +446,9 @@
 * 白噪音 [https://github.com/geekyouth/moodist](https://github.com/geekyouth/moodist)
 * 动画生成代码 [https://animotion.dev](https://animotion.dev)
 * 代码图 [https://github.com/Idered/chalk.ist](https://github.com/Idered/chalk.ist)
+* [https://github.com/abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)
+* 财务 [https://github.com/maybe-finance/maybe](https://github.com/maybe-finance/maybe)
+* [https://github.com/actualbudget/actual](https://github.com/actualbudget/actual)
 
 
 

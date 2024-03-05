@@ -370,6 +370,7 @@
 
 
 * [foobar2000](http://blog.sina.com.cn/go2spa)
+    * [https://github.com/dream7180/foobox-cn](https://github.com/dream7180/foobox-cn)
 * [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
 * [https://github.com/mpv-player/mpv](https://github.com/mpv-player/mpv)
 * [https://github.com/xbmc](https://github.com/xbmc)
