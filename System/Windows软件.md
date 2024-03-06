@@ -183,24 +183,15 @@
 + 搜索 [https://github.com/tgscan-dev/tgscan](https://github.com/tgscan-dev/tgscan)
 + [https://congcong0806.github.io/tags/#Telegram](https://congcong0806.github.io/tags/#Telegram)
     + [Telegram 官方客户端支持中文语言](https://github.com/congcong0806/congcong0806.github.io/blob/master/_posts/2019-02-21-Telegram.md)
++ [https://github.com/itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup)
++ [https://www.tg-me.com](https://www.tg-me.com)
++ [https://www.hottg.com](https://www.hottg.com)
 + 群组导航bot [https://t.me/zh_groups_bot](https://t.me/zh_groups_bot)
-+ 群组导航bot [https://t.me/hao1234bot](https://t.me/hao1234bot)
-+ telegram 资源频道搜索 [http://www.sssoou.com](http://www.sssoou.com)
++ [https://t.me/hao1234bot](https://t.me/hao1234bot)
++ 资源频道搜索 [http://www.sssoou.com](http://www.sssoou.com)
 + [Telegram群组/频道/机器人推荐](https://www.newlearner.site/2018/10/19/telegram-group/channel/bot.html)
 + [Telegram一份更完整的群组推荐，包含社群/频道/机器人](https://blog.liyuans.com/archives/telegram-recommendation.html)
-+ [https://github.com/ffffffff0x/Digital-Privacy](https://github.com/ffffffff0x/Digital-Privacy)
 
-
-- [https://www.tg-me.com](https://www.tg-me.com)
-- [https://www.hottg.com](https://www.hottg.com)
-- [https://t.me/s/wuaipojie](https://t.me/s/wuaipojie)
-- [https://t.me/s/infosaodaye](https://t.me/s/infosaodaye)
-- [https://t.me/s/ssrshares](https://t.me/s/ssrshares)
-- [https://t.me/s/mtplinks](https://t.me/s/mtplinks)
-- [https://t.me/s/socks5list](https://t.me/s/socks5list)
-- [https://t.me/s/SSRSUB](https://t.me/s/SSRSUB)
-- [https://t.me/s/mtpclub](https://t.me/s/mtpclub)
-- [https://t.me/s/FQ_FREE](https://t.me/s/FQ_FREE)
 
 
 

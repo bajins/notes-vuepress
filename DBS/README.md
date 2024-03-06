@@ -19,6 +19,7 @@
 * [https://github.com/prisma/dataguide](https://github.com/prisma/dataguide)
 * [https://github.com/digoal/blog](https://github.com/digoal/blog)
 * 自学SQL网 [http://xuesql.cn](http://xuesql.cn)
+* 克隆Sqlite学习 [https://github.com/cstack/db_tutorial](https://github.com/cstack/db_tutorial)
 * 数据库压测 [https://github.com/akopytov/sysbench](https://github.com/akopytov/sysbench)
 * [https://github.com/stcarrez/sql-benchmark](https://github.com/stcarrez/sql-benchmark)
 * 优化和改写 [https://github.com/XiaoMi/soar](https://github.com/XiaoMi/soar)
@@ -57,7 +58,12 @@
 
 
 
+- [https://github.com/pentaho/pentaho-kettle](https://github.com/pentaho/pentaho-kettle)
+    - [https://github.com/zhaxiaodong9860/kettle-scheduler](https://github.com/zhaxiaodong9860/kettle-scheduler)
+    - [https://github.com/xiaoymin/KettleInAction100](https://github.com/xiaoymin/KettleInAction100)
 - [https://github.com/alibaba/DataX](https://github.com/alibaba/DataX)
+- [https://github.com/singer-io](https://github.com/singer-io)
+    - [https://github.com/transferwise/pipelinewise](https://github.com/transferwise/pipelinewise)
 - [https://github.com/wgzhao/Addax](https://github.com/wgzhao/Addax)
 - [https://github.com/tapdata/tapdata](https://github.com/tapdata/tapdata)
 - [https://github.com/flyway/flyway](https://github.com/flyway/flyway)
@@ -235,6 +241,7 @@
     - [https://github.com/lw-lin/CoolplaySpark](https://github.com/lw-lin/CoolplaySpark)
     - [https://github.com/databricks/koalas](https://github.com/databricks/koalas)
 - [https://github.com/snowflakedb](https://github.com/snowflakedb)
+- [https://github.com/datafuselabs/databend](https://github.com/datafuselabs/databend)
 - [https://www.microsoft.com/zh-cn/sql-server](https://www.microsoft.com/zh-cn/sql-server)
 - [https://github.com/typesense/typesense](https://github.com/typesense/typesense)
 - [https://github.com/weaviate/weaviate](https://github.com/weaviate/weaviate)

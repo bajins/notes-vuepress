@@ -310,6 +310,9 @@
 - Cloudflare CNAME接入 [https://github.com/ZE3kr/Cloudflare-CNAME-Setup](https://github.com/ZE3kr/Cloudflare-CNAME-Setup)
 - [https://subdomainfinder.c99.nl](https://subdomainfinder.c99.nl) 搜索框输入`workers.dev`点击`Start Scan`，再按<kbd>Ctrl</kbd> + <kbd>f</kbd> 输入`github`
 - [用Cloudflare CDN 如何自定义节点（CF自选IP）/撸CloudFlare Pro](https://www.moeelf.com/archives/10.html)
+- 绕过五秒盾 [https://github.com/FlareSolverr/FlareSolverr](https://github.com/FlareSolverr/FlareSolverr)
+- [https://github.com/VeNoMouS/cloudscraper](https://github.com/VeNoMouS/cloudscraper)
+- [https://github.com/RomainMichau/cloudscraper_go](https://github.com/RomainMichau/cloudscraper_go)
 
 
 * 在线分享工具 [https://github.com/xiadd/pastebin-worker](https://github.com/xiadd/pastebin-worker)

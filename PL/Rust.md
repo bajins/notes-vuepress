@@ -166,6 +166,7 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 - [https://github.com/alexcrichton/curl-rust](https://github.com/alexcrichton/curl-rust)
 - [https://github.com/oscartbeaumont/rspc](https://github.com/oscartbeaumont/rspc)
 - [https://github.com/smoltcp-rs/smoltcp](https://github.com/smoltcp-rs/smoltcp)
+- [https://github.com/Xuanwo/reqsign](https://github.com/Xuanwo/reqsign)
 - 静态文件服务器 [https://github.com/ttys3/static-server](https://github.com/ttys3/static-server)
 - 媒体文件管理 [https://github.com/Dusk-Labs/dim](https://github.com/Dusk-Labs/dim)
 - 直播服务器 [https://github.com/harlanc/xiu](https://github.com/harlanc/xiu)
@@ -188,6 +189,9 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 - OpenSSH证书工具 [https://github.com/obelisk/sshcerts](https://github.com/obelisk/sshcerts)
 - 并发 [https://github.com/ur0/lolcat](https://github.com/ur0/lolcat)
 - [https://github.com/Manishearth/triomphe](https://github.com/Manishearth/triomphe)
+- [https://github.com/compio-rs/compio](https://github.com/compio-rs/compio)
+- [https://github.com/DataDog/glommio](https://github.com/DataDog/glommio)
+- [https://github.com/vertexclique/nuclei](https://github.com/vertexclique/nuclei)
 - 权限 [https://github.com/w4/chartered](https://github.com/w4/chartered)
 - 异步 [https://github.com/tokio-rs](https://github.com/tokio-rs)
     - [https://github.com/hmwill/tokio-linux-aio](https://github.com/hmwill/tokio-linux-aio)
@@ -352,6 +356,7 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 - [https://github.com/fengzhongyun1992/download_rs](https://github.com/fengzhongyun1992/download_rs)
 - [https://github.com/Kimundi/rustc-version-rs](https://github.com/Kimundi/rustc-version-rs)
 - [https://github.com/japaric/xargo](https://github.com/japaric/xargo)
+- RPC [https://github.com/kwsc98/krpc-rust](https://github.com/kwsc98/krpc-rust)
 
 
 

@@ -55,6 +55,7 @@
 * 自动构建 [https://github.com/buildbot/buildbot](https://github.com/buildbot/buildbot)
 * 静态分析 [https://sourceforge.net/projects/cppcheck](https://sourceforge.net/projects/cppcheck)
 * x86汇编 [https://github.com/netwide-assembler/nasm](https://github.com/netwide-assembler/nasm)
+* 反汇编 [https://github.com/capstone-engine/capstone](https://github.com/capstone-engine/capstone)
 
 
 - Dev-C++
