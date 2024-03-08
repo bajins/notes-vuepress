@@ -480,6 +480,7 @@ Map<String, Object> params = new HashMap<>();
 params.put("key1", "value1");
 params.put("key2", "value2");
 
+// 方式一：使用setParameters
 List<NameValuePair> nvps = new ArrayList<NameValuePair>();
 // 通过map集成entrySet方法获取entity循环遍历，获取迭代器
 Iterator<Entry<String, Object>> iterator = params.entrySet().iterator();
@@ -489,21 +490,12 @@ while (iterator.hasNext()) {
 }
 // 由于GET请求的参数都是拼装在URL地址后方，所以我们要构建一个URL，带参数
 
-// 方式一：使用setParameters
 URIBuilder uriBuilder = new URIBuilder(url);
 // 封装请求参数
 uriBuilder.setParameters(nvps);
 uriBuilder.build();
 
-// 方式二：使用setParameter
-URIBuilder uriBuilder = new URIBuilder(url);
-// 封装请求参数
-for (String key : params.keySet()) {
-    uriBuilder.setParameter(key, params.get(key).toString());
-}
-uriBuilder.build();
-
-// 方式三：转换参数并拼接
+// 方式二：转换参数并拼接
 url += "?" + EntityUtils.toString(new UrlEncodedFormEntity(nvps, Consts.UTF_8));
 URIBuilder uriBuilder = new URIBuilder(url);
 uriBuilder.build();

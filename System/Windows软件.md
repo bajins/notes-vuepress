@@ -646,18 +646,6 @@
 
 
 
-
-## 文件压缩
-
-* [https://sourceforge.net/projects/sevenzip](https://sourceforge.net/projects/sevenzip)
-    * [https://www.7-zip.org/download.html](https://www.7-zip.org/download.html)
-    * 打开7zip -> 点击菜单栏上的`工具` -> `选项` -> 点击两个`+`号关联所有默认解压方式到当前账户和所有账户
-* [https://github.com/peazip/PeaZip](https://github.com/peazip/PeaZip)
-    * [https://sourceforge.net/projects/peazip](https://sourceforge.net/projects/peazip)
-* [https://github.com/nmoinvaz/minizip](https://github.com/nmoinvaz/minizip)
-
-
-
 ## 程序打包
 
 + [https://github.com/topics/installer](https://github.com/topics/installer)
@@ -1084,6 +1072,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.sordum.org](https://www.sordum.org)
 * [https://u.tools](https://u.tools)
 * [https://github.com/he55/DreamScene2](https://github.com/he55/DreamScene2)
+* 右键菜单 [https://github.com/moudey/shell](https://github.com/moudey/shell)
 * 活动跟踪 [https://github.com/ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch)
 * [https://github.com/Planshit/Tai](https://github.com/Planshit/Tai)
 * 便签 [https://github.com/Blakeinstein/Bloop](https://github.com/Blakeinstein/Bloop)
@@ -1116,8 +1105,10 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/VoodooI2C/VoodooI2CELAN](https://github.com/VoodooI2C/VoodooI2CELAN)
     * [https://www.penghubingzhou.cn/tags/I2C](https://www.penghubingzhou.cn/tags/I2C)
 * 查找泄漏密码 [https://github.com/HaveIBeenPwned](https://github.com/HaveIBeenPwned)
+* 文件病毒检测 [https://github.com/SamuelTulach/VirusTotalUploader](https://github.com/SamuelTulach/VirusTotalUploader)
 * 游戏项目 [https://github.com/leereilly/games](https://github.com/leereilly/games)
 * [https://github.com/SuperTux/supertux](https://github.com/SuperTux/supertux)
+* [https://github.com/OpenTTD/OpenTTD](https://github.com/OpenTTD/OpenTTD)
 * GTA游戏 [https://github.com/GTAmodding/re3](https://github.com/GTAmodding/re3)
 * [https://github.com/theVakhovskeIsTaken/holoiso](https://github.com/theVakhovskeIsTaken/holoiso)
 * [https://github.com/Plagman/gamescope](https://github.com/Plagman/gamescope)

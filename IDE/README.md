@@ -115,6 +115,7 @@
 + [https://github.com/codemagic-ci-cd](https://github.com/codemagic-ci-cd)
 + [https://www.acme.com/software](https://www.acme.com/software)
 + [https://gitee.com/jianmu-dev](https://gitee.com/jianmu-dev)
++ [https://github.com/earthly/earthly](https://github.com/earthly/earthly)
 
 
 
@@ -262,6 +263,10 @@
 * [https://github.com/dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
     * [https://dbeaver.io](https://dbeaver.io)
     * [https://dbeaver.com/download/enterprise](https://dbeaver.com/download/enterprise)
+    * [https://github.com/yuyan-sec/DBeaver-decrypter](https://github.com/yuyan-sec/DBeaver-decrypter)
+    * [https://bugdays.com/dbeaver-password-decrypter](https://bugdays.com/dbeaver-password-decrypter)
+    * [https://github.com/Tatsh/dbeaver-creds](https://github.com/Tatsh/dbeaver-creds)
+    * [https://github.com/geekyouth/crack-dbeaver-password](https://github.com/geekyouth/crack-dbeaver-password)
     * [DBeaver Enterprise 21.0 企业版激活方法](https://zhile.io/2019/05/08/dbeaver-license-crack.html)
     ```ini
     # 删除jre目录，安装jdk11或以上版本，把以下两行添加到`-vmargs`之前

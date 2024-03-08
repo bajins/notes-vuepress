@@ -18,6 +18,7 @@
 - [https://dmucd.github.io/archives](https://dmucd.github.io/archives)
 - 2023年终总结 [https://github.com/saveweb/review-2023](https://github.com/saveweb/review-2023)
 - [Huberman Lab Podcast 全系列笔记](https://zhuanlan.zhihu.com/p/676445568)
+- [https://github.com/zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization)
 
 
 ## 学习

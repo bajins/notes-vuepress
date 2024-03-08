@@ -22,6 +22,7 @@
         * [https://gitee.com/ja-netfilter](https://gitee.com/ja-netfilter)
         * [https://github.com/libin9iOak/ja-netfilter-all](https://github.com/libin9iOak/ja-netfilter-all)
         * [https://jetbra.in/s](https://jetbra.in/s)
+        * [https://jetbrains.zhang-wt.com](https://jetbrains.zhang-wt.com)
         * [https://github.com/sinlmao/plugin-fineagent](https://github.com/sinlmao/plugin-fineagent)
         * [https://github.com/Nasller/LicenseServer](https://github.com/Nasller/LicenseServer)
         * [https://github.com/H1d3r/Ja-LicenseServer](https://github.com/H1d3r/Ja-LicenseServer)

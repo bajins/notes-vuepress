@@ -259,9 +259,10 @@
 + HTTP [https://github.com/apache/httpcomponents-client](https://github.com/apache/httpcomponents-client)
 + [https://github.com/square/okhttp](https://github.com/square/okhttp)
 + [https://github.com/Kong/unirest-java](https://github.com/Kong/unirest-java)
-+ [https://github.com/googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client)
 + [https://github.com/eclipse-ee4j/websocket-api](https://github.com/eclipse-ee4j/websocket-api)
 + [https://github.com/OpenFeign](https://github.com/OpenFeign)
++ [https://github.com/eclipse-ee4j/jersey](https://github.com/eclipse-ee4j/jersey)
++ [https://github.com/AsyncHttpClient](https://github.com/AsyncHttpClient)
 + [https://github.com/square/retrofit](https://github.com/square/retrofit)
     + [https://github.com/LianjiaTech/retrofit-spring-boot-starter](https://github.com/LianjiaTech/retrofit-spring-boot-starter)
 + [https://github.com/ratpack/ratpack](https://github.com/ratpack/ratpack)
@@ -269,6 +270,8 @@
 + [https://github.com/bootique/bootique](https://github.com/bootique/bootique)
 + [https://github.com/jooby-project/jooby](https://github.com/jooby-project/jooby)
 + [https://github.com/spotify/apollo](https://github.com/spotify/apollo)
++ [https://github.com/googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client)
++ [https://github.com/oblac/jodd-http](https://github.com/oblac/jodd-http)
 
 
 

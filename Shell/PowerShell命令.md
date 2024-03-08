@@ -1,4 +1,4 @@
-# PowerShell
+# PowerShell命令
 
 [[toc]]
 
@@ -156,6 +156,8 @@ New-Item -ItemType SymbolicLink `
 New-Item -ItemType directory -Path 目录的路径
 # 只列出目录
 Dir | Where-Object { $_ -is [System.IO.DirectoryInfo] }
+Dir | Where-Object { $_.Attributes -is [System.IO.FileAttributes.Directory] }
+Dir | Where-Object { $_.Attributes -match 'Directory' }
 Dir | Where-Object { $_.PSIsContainer }
 Dir | Where-Object { $_.Mode.Substring(0,1) -eq "d" }
 # 只列出文件
@@ -187,6 +189,17 @@ Copy-Item -Force -Recurse 源路径 目标路径 -Filter 文件名
 # 复制多个文件到指定目录
 get-childitem -path "D:\demo" -include @('test.java','test.js') -recurse `
 | copy-item -destination (new-item -path "$env:HOMEPATH\Desktop\demo" -type "directory")
+
+# 递归复制目录结构(可指定多个文件或文件夹)
+$prjName="demo";`
+$srcFolder= join-path "C:\Users\d\Downloads" $prjName;`
+$descFolder= join-path "D:\Users\d\Desktop" $prjName;`
+Get-ChildItem -path $srcFolder -include @('test','test1','1.txt','1.xml') -recurse`
+ | ForEach-object{if($_PSIsContainer){`
+        robocopy /ndl /njh /njs /s $_fullname ($_fullname -replace [regex]::Escape($srcFolder),$descFolder)`
+    }else{`
+        robocopy /ndl /njh /njs /s $srcFolder $descFolder $_.name`
+    }}
 ```
 
 - 删除空目录
@@ -462,12 +475,18 @@ Get-Process | Where-Object {$_.Modules.ModuleName -contains 'NsCopyHook3.dll'} |
 
 
 # 网络相关命令
-## 1. dns 相关(dns-client)
+
+**1. dns 相关(dns-client)**
+
+```powershell
 Clear-DnsClientCache  # 清除 dns 缓存（替换掉 `ipconfig /flushdns`）
 Get-DnsClientCache  # 查看 dns 缓存
 Resolve-DnsName baidu.com  # 解析域名
+```
 
-## 2. TCP/IP 相关命令
+**2. TCP/IP 相关命令**
+
+```powershell
 Get-Command Get-Net*  # 查看所有 TCP/IP 相关的命令
 
 Get-NetIPAddress  # 查看 IP 地址

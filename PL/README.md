@@ -475,6 +475,7 @@
 - DOM [https://github.com/snabbdom/snabbdom](https://github.com/snabbdom/snabbdom)
 - 模拟数据 [https://github.com/mockoon/mockoon](https://github.com/mockoon/mockoon)
 - 数据验证 [https://github.com/nvie/decoders](https://github.com/nvie/decoders)
+- [https://github.com/colinhacks/zod](https://github.com/colinhacks/zod)
 - 操作docx文件 [https://github.com/dolanmiu/docx](https://github.com/dolanmiu/docx)
 - [https://github.com/Siemienik/XToolset](https://github.com/Siemienik/XToolset)
 - [https://github.com/handsontable/hyperformula](https://github.com/handsontable/hyperformula)
@@ -483,6 +484,7 @@
     - [https://dojotoolkit.org](https://dojotoolkit.org)
 - [https://github.com/trpc/trpc](https://github.com/trpc/trpc)
 -  SQL查询生成 [https://github.com/kysely-org/kysely](https://github.com/kysely-org/kysely)
+- 文件 [https://github.com/hughfenghen/opfs-tools](https://github.com/hughfenghen/opfs-tools)
 
 
 

@@ -399,6 +399,7 @@ taskkill /f /im chromedriver.exe
 * [https://github.com/OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX)
 * [https://github.com/fishjar/kiss-translator](https://github.com/fishjar/kiss-translator)
 * [https://github.com/marmot-z/baicizhan-helper](https://github.com/marmot-z/baicizhan-helper)
+* [https://github.com/openai-translator/openai-translator](https://github.com/openai-translator/openai-translator)
 
 
 

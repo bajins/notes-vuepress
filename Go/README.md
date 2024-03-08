@@ -88,6 +88,7 @@
 * 中文学习资料 [https://github.com/gwuhaolin/golang-book](https://github.com/gwuhaolin/golang-book)
 * [https://github.com/jincheng9/go-tutorial](https://github.com/jincheng9/go-tutorial)
 * [https://github.com/unknwon/go-study-index](https://github.com/unknwon/go-study-index)
+* [https://github.com/mao888/golang-guide](https://github.com/mao888/golang-guide)
 * 设计模式 [https://github.com/tmrts/go-patterns](https://github.com/tmrts/go-patterns)
 * [https://github.com/0voice/Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang)
 * [https://github.com/golang-design](https://github.com/golang-design)
