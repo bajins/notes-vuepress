@@ -213,6 +213,7 @@ firewall-cmd --query-panic
     - [https://www.myip.la](https://www.myip.la)
 - [https://cloud.magiclen.org/cn/myip](https://cloud.magiclen.org/cn/myip)
 - 可用性检查 [https://github.com/funilrys/PyFunceble](https://github.com/funilrys/PyFunceble)
+- [https://github.com/hatoo/oha](https://github.com/hatoo/oha)
 
 
 **`ping`、`tcptraceroute`、`traceroute`、`mtr`**

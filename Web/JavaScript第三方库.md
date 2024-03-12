@@ -132,8 +132,6 @@
 * Gridsome [https://www.gridsome.cn](https://www.gridsome.cn)
 * Preact [https://www.preactjs.com.cn](https://www.preactjs.com.cn)
 * Sapper [https://www.sapperjs.com](https://www.sapperjs.com)
-* Webpack [https://www.webpackjs.com](https://www.webpackjs.com)
-* Rollup.js [https://www.rollupjs.com](https://www.rollupjs.com)
 * Parcel [https://www.parceljs.cn](https://www.parceljs.cn)
 * NPM [https://www.npmjs.cn](https://www.npmjs.cn)
 * Yarn [https://www.yarnpkg.com.cn](https://www.yarnpkg.com.cn)

@@ -566,6 +566,7 @@
     + [https://github.com/johntostring/spring-boot-shiro](https://github.com/johntostring/spring-boot-shiro)
     + [https://github.com/YuxingXie/shiro](https://github.com/YuxingXie/shiro)
     + [https://github.com/waylau/apache-shiro-1.2.x-reference](https://github.com/waylau/apache-shiro-1.2.x-reference)
++ [https://github.com/supertokens/supertokens-core](https://github.com/supertokens/supertokens-core)
 + [https://github.com/resteasy](https://github.com/resteasy)
 + [https://github.com/vaadin](https://github.com/vaadin)
 + [https://github.com/allwefantasy/ServiceFramework](https://github.com/allwefantasy/ServiceFramework)

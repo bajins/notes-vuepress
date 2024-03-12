@@ -18,6 +18,7 @@
 - 加密覆盖文件系统 [https://github.com/rfjakob/gocryptfs](https://github.com/rfjakob/gocryptfs)
 - 天气卫星 [https://github.com/sam210723/xrit-rx](https://github.com/sam210723/xrit-rx)
 - 家庭自动化 [https://github.com/home-assistant/core](https://github.com/home-assistant/core)
+- [https://github.com/esphome/esphome](https://github.com/esphome/esphome)
 - CCProxy [http://www.ccproxy.com](http://www.ccproxy.com)
     * [局域内网的服务器利用跳板机访问互联网](https://51.ruyo.net/17717.html)
     ```
@@ -59,6 +60,7 @@
 
 - [https://github.com/torvalds/linux](https://github.com/torvalds/linux)
     - [https://github.com/Rust-for-Linux](https://github.com/Rust-for-Linux)
+    - [https://github.com/linux-rdma/rdma-core](https://github.com/linux-rdma/rdma-core)
 - [https://github.com/rocky-linux](https://github.com/rocky-linux)
 - [https://github.com/AlmaLinux](https://github.com/AlmaLinux)
 - [https://github.com/microsoft/CBL-Mariner](https://github.com/microsoft/CBL-Mariner)

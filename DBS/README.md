@@ -231,6 +231,7 @@
 - 数据流 [https://github.com/mit-pdos/noria](https://github.com/mit-pdos/noria)
 - [https://github.com/risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave)
 - OLAP [https://github.com/risinglightdb/risinglight](https://github.com/risinglightdb/risinglight)
+- [https://github.com/StarRocks/starrocks](https://github.com/StarRocks/starrocks)
 - 向量化数据库 [https://github.com/facebookincubator/velox](https://github.com/facebookincubator/velox)
 - 矢量数据库 [https://github.com/milvus-io/milvus](https://github.com/milvus-io/milvus)
 - [https://github.com/topics/spark](https://github.com/topics/spark)

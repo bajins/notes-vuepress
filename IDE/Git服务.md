@@ -15,6 +15,7 @@
 * [https://github.com/toptal/gitignore.io](https://github.com/toptal/gitignore.io)
 * 编辑版本控制存储库的历史 [http://www.catb.org/esr/reposurgeon](http://www.catb.org/esr/reposurgeon)
 * GUI [https://github.com/git-cola/git-cola](https://github.com/git-cola/git-cola)
+* [https://github.com/gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler)
 * [https://github.com/gitextensions/gitextensions](https://github.com/gitextensions/gitextensions)
 * [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
     * [https://gitlab.com/tortoisegit/tortoisegit](https://gitlab.com/tortoisegit/tortoisegit)
