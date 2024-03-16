@@ -330,6 +330,8 @@
 * Tars协议 [https://github.com/xiaoyaocz/dart_tars_protocol](https://github.com/xiaoyaocz/dart_tars_protocol)
 * 日历 [https://github.com/kizitonwose/Calendar](https://github.com/kizitonwose/Calendar)
 * TTS [https://github.com/jing332/tts-server-android](https://github.com/jing332/tts-server-android)
+* 隐私合规检测 [https://github.com/allenymt/PrivacySentry](https://github.com/allenymt/PrivacySentry)
+* [https://github.com/pengxurui/EasyPrivacy](https://github.com/pengxurui/EasyPrivacy)
 
 
 

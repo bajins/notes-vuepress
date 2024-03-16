@@ -285,6 +285,7 @@
     * [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
     * [https://github.com/BotoX/ServerStatus](https://github.com/BotoX/ServerStatus)
 * [https://github.com/CokeMine/ServerStatus-Hotaru](https://github.com/CokeMine/ServerStatus-Hotaru)
+* [https://github.com/louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)
 * [https://github.com/nokyan/resources](https://github.com/nokyan/resources)
 * [https://github.com/chaos-zhu/easynode](https://github.com/chaos-zhu/easynode)
 * [https://github.com/ClementTsang/bottom](https://github.com/ClementTsang/bottom)
@@ -369,7 +370,8 @@
     * [https://www.bt.cn](https://www.bt.cn)
 * [https://www.xp.cn](https://www.xp.cn)
 * [https://github.com/YunoHost](https://github.com/YunoHost)
-* [https://cockpit-project.org](https://cockpit-project.org)
+* [https://github.com/cockpit-project](https://github.com/cockpit-project)
+* [https://github.com/dushixiang/next-terminal](https://github.com/dushixiang/next-terminal)
 * [http://amh.sh](http://amh.sh)
 * [http://www.batchshell.cn](http://www.batchshell.cn)
 * [https://github.com/hestiacp/hestiacp](https://github.com/hestiacp/hestiacp)
@@ -452,7 +454,11 @@
 * 封面图 [https://github.com/zobor/photo-relay](https://github.com/zobor/photo-relay)
 * 财务 [https://github.com/maybe-finance/maybe](https://github.com/maybe-finance/maybe)
 * [https://github.com/actualbudget/actual](https://github.com/actualbudget/actual)
+* [https://github.com/getlago/lago](https://github.com/getlago/lago)
 * 云电脑 [https://github.com/HeyPuter/puter](https://github.com/HeyPuter/puter)
+* JSON可视化 [https://github.com/AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com)
+* [https://github.com/apvarun/graphize](https://github.com/apvarun/graphize)
+* [https://github.com/obsidianmd/jsoncanvas](https://github.com/obsidianmd/jsoncanvas)
 
 
 

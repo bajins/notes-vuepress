@@ -390,6 +390,7 @@
 - [https://shana.pe.kr/shanaencoder_download](https://shana.pe.kr/shanaencoder_download)
 - YouTube [https://github.com/FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube)
 - [https://github.com/iv-org/invidious](https://github.com/iv-org/invidious)
+- 直播录制 [https://github.com/WhiteMinds/LiveAutoRecord](https://github.com/WhiteMinds/LiveAutoRecord)
 
 
 **电视盒子/TVBOX**
@@ -909,6 +910,9 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [Windows File Recovery](https://www.microsoft.com/zh-cn/p/windows-file-recovery/9n26s50ln705)
 * [https://github.com/violet7pan/XYplorer_Help](https://github.com/violet7pan/XYplorer_Help)
 * [http://multicommander.com](http://multicommander.com)
+* [https://www.ghisler.com/download.htm](https://www.ghisler.com/download.htm)
+* [https://biu.evercraft.co](https://biu.evercraft.co)
+* [https://resource.dopus.com](https://resource.dopus.com)
 * [https://www.diskinternals.com/download](https://www.diskinternals.com/download)
     * 读取EXT 类型数据盘 [http://www.diskinternals.com/download/Linux_Reader.exe](http://www.diskinternals.com/download/Linux_Reader.exe)
 * [傲梅分区助手PartAssist](https://www.lanzoui.com/b0f1etedc)

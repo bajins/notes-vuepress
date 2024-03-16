@@ -19,6 +19,7 @@
 + [https://github.com/yued-fe](https://github.com/yued-fe)
 + [https://github.com/ibm-js](https://github.com/ibm-js)
 + [https://github.com/denysdovhan](https://github.com/denysdovhan)
++ [https://github.com/blueimp](https://github.com/blueimp)
 + [https://github.com/sorrycc/awesome-javascript](https://github.com/sorrycc/awesome-javascript)
 
 

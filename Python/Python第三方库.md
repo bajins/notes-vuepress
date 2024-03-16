@@ -26,7 +26,6 @@
     * [https://www.tornadoweb.org](https://www.tornadoweb.org)
 * [https://github.com/twisted](https://github.com/twisted)
 * [https://github.com/encode/httpx](https://github.com/encode/httpx)
-* [https://github.com/httpie/httpie](https://github.com/httpie/httpie)
 * [https://github.com/httplib2/httplib2](https://github.com/httplib2/httplib2)
 * [https://github.com/gabrielfalcao/HTTPretty](https://github.com/gabrielfalcao/HTTPretty)
 * 日志 [https://github.com/Delgan/loguru](https://github.com/Delgan/loguru)

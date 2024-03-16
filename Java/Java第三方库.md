@@ -182,6 +182,7 @@
 + [https://github.com/deonwu/ik-expression](https://github.com/deonwu/ik-expression)
 + Native本地调用 [https://github.com/java-native-access/jna](https://github.com/java-native-access/jna)
 + [https://github.com/jnr](https://github.com/jnr)
++ [https://github.com/bytedeco/javacpp](https://github.com/bytedeco/javacpp)
 + 线程池 [https://github.com/acmenlt/dynamic-threadpool](https://github.com/acmenlt/dynamic-threadpool)
 + [https://github.com/opengoofy/hippo4j](https://github.com/opengoofy/hippo4j)
 + 线程间消息传递 [https://github.com/lmax-exchange/disruptor](https://github.com/lmax-exchange/disruptor)

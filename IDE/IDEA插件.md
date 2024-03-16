@@ -24,30 +24,49 @@
         * [https://jetbra.in/s](https://jetbra.in/s)
         * [https://jetbrains.zhang-wt.com](https://jetbrains.zhang-wt.com)
         * [https://github.com/sinlmao/plugin-fineagent](https://github.com/sinlmao/plugin-fineagent)
+        * [https://github.com/googleweb/power-rule-plugin](https://github.com/googleweb/power-rule-plugin)
+        * [https://github.com/MoonWX/RainbowBracketsCrack](https://github.com/MoonWX/RainbowBracketsCrack)
         * [https://github.com/Nasller/LicenseServer](https://github.com/Nasller/LicenseServer)
+        * [https://notabug.org/Nasller/LicenseServer](https://notabug.org/Nasller/LicenseServer)
         * [https://github.com/H1d3r/Ja-LicenseServer](https://github.com/H1d3r/Ja-LicenseServer)
         * [https://github.com/starxg/MyBatisCodeHelperProCrack](https://github.com/starxg/MyBatisCodeHelperProCrack)
         * [https://github.com/zrongdong/ja-netfilter](https://github.com/zrongdong/ja-netfilter) 2021.3-最新版本可用
+        * [https://github.com/iot/jetbra](https://github.com/iot/jetbra)
+        * [https://github.com/noviceli/jetbra](https://github.com/noviceli/jetbra)
+            * [https://github.com/iofeqkurrc42/jetbra-server-go](https://github.com/iofeqkurrc42/jetbra-server-go)
+        * [https://github.com/novice88](https://github.com/novice88)
+            * [https://jetbra.noviceli.win](https://jetbra.noviceli.win)
+        * [https://github.com/LemonZuo/license](https://github.com/LemonZuo/license)
     * [https://intxzt.github.io/2022/07/25/ja-netfilter/ja-netfilter-plugins-power](https://intxzt.github.io/2022/07/25/ja-netfilter/ja-netfilter-plugins-power)
 * [https://github.com/tikkid/JetbrainKiller](https://github.com/tikkid/JetbrainKiller/tree/92cc01f9baab488cc3d510793da7731b1f8e17a4) 最新免登录试用插件
     * [https://github.com/eltociear/JetbrainKiller](https://github.com/eltociear/JetbrainKiller)
     * [https://github.com/KoolieAid/JetbrainKiller](https://github.com/KoolieAid/JetbrainKiller)
+* [https://github.com/ilanyu/ReverseProxy](https://github.com/ilanyu/ReverseProxy)
 * [利用授权服务器(License Server)激活Jetbrains全家桶](https://51.ruyo.net/17780.html)
     * [https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth](https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth)
 * [如何批量挖掘Jetbrains系列产品激活服务器](https://t.me/s/Ru05hui/123)
     * [https://fofa.info](https://fofa.info)
 * [如何找Jetbrains激活服务器](https://hostloc.com/thread-999341-1-1.html)
     * [https://search.censys.io](https://search.censys.io)
+* [https://blog.novitechie.com](https://blog.novitechie.com)
+* [https://intxzt.github.io](https://intxzt.github.io)
 
 
 > `计算机\HKEY_CURRENT_USER\SOFTWARE\JavaSoft\Prefs`
 
 
+- [https://github.com/zielu/GitToolBox](https://github.com/zielu/GitToolBox)
+- [https://github.com/big-mouth-cn/talkx-idea-plugin](https://github.com/big-mouth-cn/talkx-idea-plugin)
 - [https://github.com/findtheflow/Feedback](https://github.com/findtheflow/Feedback)
 - ChatGPT [https://gitlab.com/wangsen_job/idea-plugin-iframe](https://gitlab.com/wangsen_job/idea-plugin-iframe)
 - 翻译 [https://github.com/starcwang/easy_javadoc](https://github.com/starcwang/easy_javadoc)
 - [https://github.com/tuchg/ChinesePinyin-CodeCompletionHelper](https://github.com/tuchg/ChinesePinyin-CodeCompletionHelper)
 - [https://github.com/a18792721831/studyplugin](https://github.com/a18792721831/studyplugin)
+- [https://github.com/AntonShuvaev/intellij-datagraph](https://github.com/AntonShuvaev/intellij-datagraph)
+- 测试 [https://github.com/dromara/fast-request](https://github.com/dromara/fast-request)
+- 缩略图 [https://github.com/Nasller/CodeGlancePro](https://github.com/Nasller/CodeGlancePro)
+- 调试辅助 [https://github.com/igoriakovlev/JumpToLine](https://github.com/igoriakovlev/JumpToLine)
+- 序列图 [https://github.com/Vanco/SequencePlugin](https://github.com/Vanco/SequencePlugin)
 
 
 ## Free Mybatis plugin
@@ -65,10 +84,11 @@
 * [https://github.com/kana112233/mybatis-plus-plugin](https://github.com/kana112233/mybatis-plus-plugin)
 
 
-## MyBatisCodeHelper-Pro
+## MyBatisCodeHelper
 
 * [https://plugins.jetbrains.com/plugin/14522-mybatiscodehelperpro-marketplace-edition-](https://plugins.jetbrains.com/plugin/14522-mybatiscodehelperpro-marketplace-edition-)
 * [https://github.com/gejun123456/MyBatisCodeHelper-Pro](https://github.com/gejun123456/MyBatisCodeHelper-Pro)
+* [https://github.com/mbtsp/mybatisSmartCodeHelp](https://github.com/mbtsp/mybatisSmartCodeHelp)
 * [MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
 
 
@@ -383,7 +403,7 @@
 
 ## Rainbow Brackets
 
-* [https://plugins.jetbrains.com/plugin/10080-rainbow-brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets)
+* 彩虹括号 [https://github.com/izhangzhihao/intellij-rainbow-brackets](https://github.com/izhangzhihao/intellij-rainbow-brackets)
 
 > 彩虹颜色的括号，看着很舒服 敲代码效率变高
 

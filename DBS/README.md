@@ -18,6 +18,7 @@
 * [https://www.alibabacloud.com/help/zh/analyticdb-for-mysql/latest/sql-manual](https://www.alibabacloud.com/help/zh/analyticdb-for-mysql/latest/sql-manual)
 * [https://github.com/prisma/dataguide](https://github.com/prisma/dataguide)
 * [https://github.com/digoal/blog](https://github.com/digoal/blog)
+* [https://ivanzz1001.github.io/records/archives](https://ivanzz1001.github.io/records/archives)
 * 自学SQL网 [http://xuesql.cn](http://xuesql.cn)
 * 克隆Sqlite学习 [https://github.com/cstack/db_tutorial](https://github.com/cstack/db_tutorial)
 * 数据库压测 [https://github.com/akopytov/sysbench](https://github.com/akopytov/sysbench)

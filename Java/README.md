@@ -211,6 +211,7 @@
 * [SpringWind-SSM架构 mybatis-plus kisso 实战项目](https://gitee.com/baomidou/SpringWind)
 * [AdminLTE+Spring+Shiro开发的后台基础系统](https://gitee.com/zhougaojun/KangarooAdmin)
 * 后台管理模板 [https://github.com/honghuangdc/soybean-admin](https://github.com/honghuangdc/soybean-admin)
+* [https://github.com/lenve/vhr](https://github.com/lenve/vhr)
 * [iBase4J-JAVA分布式快速开发平台](https://gitee.com/iBase4J/iBase4J)
 * [framework-后台管理框架，采用springboot+springsecurity+mybatis-plus+bootstrap](https://gitee.com/sunhan521/framework)
 * [https://gitee.com/Morning_/Morning](https://gitee.com/Morning_/Morning)

@@ -315,13 +315,9 @@
     - [https://nim-lang.org](https://nim-lang.org)
     - [https://github.com/xmonader/nimdays](https://github.com/xmonader/nimdays)
 - [https://github.com/dlang](https://github.com/dlang)
-- [https://github.com/ziglang](https://github.com/ziglang)
-    - [https://github.com/learnzig/learnzig](https://github.com/learnzig/learnzig)
-    - [https://github.com/SpexGuy/Zig-ImGui](https://github.com/SpexGuy/Zig-ImGui)
-    - [https://github.com/zigcc](https://github.com/zigcc)
 - TXL [https://www.txl.ca](https://www.txl.ca)
     - 软件克隆检测 [https://www.txl.ca/txl-nicaddownload.html](https://www.txl.ca/txl-nicaddownload.html)
-- JVM 动态脚本语言 [https://github.com/apache/groovy](https://github.com/apache/groovy)
+- JVM动态脚本语言 [https://github.com/apache/groovy](https://github.com/apache/groovy)
     - [https://github.com/groovy](https://github.com/groovy)
         - 静态代码分析 [https://github.com/CodeNarc/CodeNarc](https://github.com/CodeNarc/CodeNarc)
     - [https://groovy-lang.org/syntax.html](https://groovy-lang.org/syntax.html)
@@ -336,12 +332,17 @@
     - [https://github.com/caxlsx/caxlsx](https://github.com/caxlsx/caxlsx)
     - [https://github.com/rack/rack](https://github.com/rack/rack)
     - 手写签字 [https://github.com/docusealco/docuseal](https://github.com/docusealco/docuseal)
-- 动态函数式语言 [https://github.com/elixir-lang/elixir](https://github.com/elixir-lang/elixir)
+- Erlang [https://github.com/erlang](https://github.com/erlang)
+    - [https://github.com/terry-xiaoyu/learn-erlang-in-30-mins](https://github.com/terry-xiaoyu/learn-erlang-in-30-mins)
+    - [https://github.com/joearms](https://github.com/joearms)
+- [https://github.com/ziglang](https://github.com/ziglang)
+    - [https://github.com/learnzig/learnzig](https://github.com/learnzig/learnzig)
+    - [https://github.com/SpexGuy/Zig-ImGui](https://github.com/SpexGuy/Zig-ImGui)
+    - [https://github.com/zigcc](https://github.com/zigcc)
+- [https://github.com/elixir-lang/elixir](https://github.com/elixir-lang/elixir)
     - [https://github.com/elixirschool](https://github.com/elixirschool)
     - [https://github.com/phoenixframework/phoenix](https://github.com/phoenixframework/phoenix)
-- [https://github.com/erlang](https://github.com/erlang)
-    - [https://github.com/terry-xiaoyu/learn-erlang-in-30-mins](https://github.com/terry-xiaoyu/learn-erlang-in-30-mins)
-- [https://github.com/joearms](https://github.com/joearms)
+- [https://github.com/gleam-lang](https://github.com/gleam-lang)
 
 
 > DSL(Domain Specification Language)领域语言，使用EBNF(Extended Backus–Naur Form)扩展巴斯科范式来描述语法
@@ -376,6 +377,7 @@
 * [https://gitlab.com/baserow/baserow](https://gitlab.com/baserow/baserow)
 * [https://github.com/Budibase/budibase](https://github.com/Budibase/budibase)
 * [https://github.com/appsmithorg/appsmith](https://github.com/appsmithorg/appsmith)
+* [https://github.com/teableio/teable](https://github.com/teableio/teable)
 
 
 
