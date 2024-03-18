@@ -76,6 +76,9 @@
 * 编码检测 [https://github.com/PyYoshi/uchardet](https://github.com/PyYoshi/uchardet)
 * 截图 [https://github.com/BoboTiG/python-mss](https://github.com/BoboTiG/python-mss)
 * 加密 [https://github.com/pyca/cryptography](https://github.com/pyca/cryptography)
+* FFI [https://github.com/wlav/cppyy](https://github.com/wlav/cppyy)
+* [https://github.com/python-cffi/cffi](https://github.com/python-cffi/cffi)
+* [https://github.com/scipy/weave](https://github.com/scipy/weave)
 
 
 

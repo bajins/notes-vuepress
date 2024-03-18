@@ -28,6 +28,7 @@
 * [https://github.com/Alinshans/MyTinySTL](https://github.com/Alinshans/MyTinySTL)
 * [https://github.com/Changhe160/cplusplus2020-2021-2](https://github.com/Changhe160/cplusplus2020-2021-2)
 * [https://github.com/lkimuk](https://github.com/lkimuk)
+* [https://github.com/cpp-tutor](https://github.com/cpp-tutor)
 * 学习路线图 [https://github.com/salmer/CppDeveloperRoadmap](https://github.com/salmer/CppDeveloperRoadmap)
 * [https://github.com/CDDSCLab/training-plan](https://github.com/CDDSCLab/training-plan)
 * [https://github.com/changgyhub/leetcode_101](https://github.com/changgyhub/leetcode_101)
@@ -195,6 +196,8 @@
 * 提权 [https://github.com/M2Team/NanaRun](https://github.com/M2Team/NanaRun)
 * ~~[https://github.com/M2TeamArchived/NSudo](https://github.com/M2TeamArchived/NSudo)~~
 * URL解析 [https://github.com/ada-url/ada](https://github.com/ada-url/ada)
+* 线性优化 [https://github.com/ERGO-Code/HiGHS](https://github.com/ERGO-Code/HiGHS)
+* 点云 [https://github.com/PDAL/PDAL](https://github.com/PDAL/PDAL)
 
 
 

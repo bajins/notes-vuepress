@@ -45,8 +45,10 @@
 - [流行的 Linux 发行版包管理器命令的对应关系](https://wiki.archlinux.org/index.php/Pacman_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Rosetta_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 - [Linux包管理器及包安装工具基础知识](https://blog.csdn.net/u013430110/article/details/107329350)
 
+
 * 软件包管理器 [https://github.com/NixOS/nix](https://github.com/NixOS/nix)
     * [https://github.com/ryan4yin/nixos-and-flakes-book](https://github.com/ryan4yin/nixos-and-flakes-book)
+* [https://github.com/rpm-software-management/rpm](https://github.com/rpm-software-management/rpm)
 * [https://github.com/joyent/pkgsrc](https://github.com/joyent/pkgsrc)
 * [https://github.com/TritonDataCenter/pkgsrc](https://github.com/TritonDataCenter/pkgsrc)
     * [https://github.com/NetBSDfr](https://github.com/NetBSDfr)

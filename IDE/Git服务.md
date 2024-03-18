@@ -23,6 +23,7 @@
 * [https://www.syntevo.com](https://www.syntevo.com)
 * [https://www.git-tower.com](https://www.git-tower.com)
 * [https://git-fork.com](https://git-fork.com)
+* diff [https://github.com/MrWangJustToDo/git-diff-view](https://github.com/MrWangJustToDo/git-diff-view)
 * 代码语法突出 [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 * Git实现 [https://github.com/libgit2/libgit2](https://github.com/libgit2/libgit2)
 * [https://github.com/go-git](https://github.com/go-git)

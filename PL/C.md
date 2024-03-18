@@ -181,6 +181,8 @@
 * [https://github.com/Mbed-TLS](https://github.com/Mbed-TLS)
 * [https://github.com/gnutls](https://github.com/gnutls)
     * [https://gitlab.com/gnutls/gnutls](https://gitlab.com/gnutls/gnutls)
+* [https://github.com/topics/nacl](https://github.com/topics/nacl)
+    * [https://github.com/jedisct1/libsodium](https://github.com/jedisct1/libsodium)
 * 抗量子 [https://github.com/open-quantum-safe](https://github.com/open-quantum-safe)
 * Base64 [https://github.com/jwerle/b64.c](https://github.com/jwerle/b64.c)
 * GUI [https://github.com/webui-dev/webui](https://github.com/webui-dev/webui)
@@ -231,6 +233,7 @@
 * Windows通用更新程序 [https://github.com/gup4win/wingup](https://github.com/gup4win/wingup)
     * [https://github.com/gupwin32/gupwin32.github.io](https://github.com/gupwin32/gupwin32.github.io)
 * 文件类型猜测 [https://github.com/file/file](https://github.com/file/file)
+* FFI [https://dyncall.org](https://dyncall.org)
 
 
 

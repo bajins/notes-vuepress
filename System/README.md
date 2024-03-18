@@ -228,6 +228,10 @@
 
 ### 集群负载均衡
 
+
+* [https://github.com/webserver-llc/angie](https://github.com/webserver-llc/angie)
+* [https://github.com/grumpylabs/freenginx](https://github.com/grumpylabs/freenginx)
+* [https://github.com/freenginx-mirror](https://github.com/freenginx-mirror)
 * [https://github.com/apache/httpd](https://github.com/apache/httpd)
 * [https://github.com/lighttpd](https://github.com/lighttpd)
 * [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
@@ -459,6 +463,8 @@
 * JSON可视化 [https://github.com/AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com)
 * [https://github.com/apvarun/graphize](https://github.com/apvarun/graphize)
 * [https://github.com/obsidianmd/jsoncanvas](https://github.com/obsidianmd/jsoncanvas)
+* 时间线 [https://github.com/zhugezifang/ai_timeline](https://github.com/zhugezifang/ai_timeline)
+* 天气 [https://github.com/vsergeev/briefsky](https://github.com/vsergeev/briefsky)
 
 
 

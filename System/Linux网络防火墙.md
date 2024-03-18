@@ -193,6 +193,7 @@ firewall-cmd --query-panic
 ## 路由跟踪
 
 - 查询IP地理信息 [https://github.com/zu1k/nali](https://github.com/zu1k/nali)
+- [https://github.com/ihmily/ip-info-api](https://github.com/ihmily/ip-info-api)
 - [https://github.com/jason5ng32/MyIP](https://github.com/jason5ng32/MyIP)
 - [https://ip.guide](https://ip.guide)
 - [https://github.com/hackclub/how-did-i-get-here](https://github.com/hackclub/how-did-i-get-here)

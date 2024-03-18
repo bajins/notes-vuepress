@@ -38,6 +38,7 @@
 + 文件管理 [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
 + SCP [https://github.com/lengyijun/smartscp](https://github.com/lengyijun/smartscp)
 + CP [https://github.com/tarka/xcp](https://github.com/tarka/xcp)
++ 加密 [https://github.com/candiddev/rot](https://github.com/candiddev/rot)
 
 
 
