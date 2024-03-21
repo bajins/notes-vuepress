@@ -350,6 +350,7 @@ autorestart=true
 * [https://github.com/search?q=tmux](https://github.com/search?q=tmux)
 * [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
     * [can't create socket: Permission denied](https://github.com/tmux/tmux/issues/1215)
+    * [https://github.com/catppuccin/tmux](https://github.com/catppuccin/tmux)
 * [https://github.com/gpakosz/.tmux](https://github.com/gpakosz/.tmux)
 * [https://github.com/tmux-plugins](https://github.com/tmux-plugins)
 * [http://www.ruanyifeng.com/blog/2019/10/tmux.html](http://www.ruanyifeng.com/blog/2019/10/tmux.html)

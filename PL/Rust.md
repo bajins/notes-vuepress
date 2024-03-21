@@ -57,6 +57,7 @@
 * 练习 [https://github.com/sunface/rust-by-practice](https://github.com/sunface/rust-by-practice)
 * [program - 分类 - kirito's blog](https://kirito41dd.github.io/categories/program)
 * [归档 | Jackeyzhe](https://jackeyzhe.github.io/archives)
+* [一名Java开发的Rust学习笔记](https://juejin.cn/post/7347190677505359906)
 
 
 - IDE [https://github.com/intellij-rust](https://github.com/intellij-rust)

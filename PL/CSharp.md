@@ -201,6 +201,7 @@
 * [https://github.com/hiram3512/HiSocket](https://github.com/hiram3512/HiSocket)
 * [https://github.com/kerryjiang/SuperSocket](https://github.com/kerryjiang/SuperSocket)
 * [https://github.com/SteamRE/SteamKit](https://github.com/SteamRE/SteamKit)
+* [https://github.com/bezzad/Downloader](https://github.com/bezzad/Downloader)
 * 工具 [https://github.com/bing-framework/Bing.NetCore](https://github.com/bing-framework/Bing.NetCore)
 * [https://github.com/Senparc/Senparc.CO2NET](https://github.com/Senparc/Senparc.CO2NET)
 * [https://github.com/icsharpcode](https://github.com/icsharpcode)

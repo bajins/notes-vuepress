@@ -53,6 +53,7 @@
 * [https://github.com/lukesampson/scoop](https://github.com/lukesampson/scoop)
     * [https://github.com/ScoopInstaller](https://github.com/ScoopInstaller)
     * [https://github.com/lukesampson/scoop-extras](https://github.com/lukesampson/scoop-extras)
+    * [https://github.com/bjansen/scoop-apps](https://github.com/bjansen/scoop-apps)
 * [https://github.com/cmderdev/cmder](https://github.com/cmderdev/cmder)
 * [https://github.com/appget](https://github.com/appget)
 

@@ -275,6 +275,11 @@
 * [https://tempmail.net](https://tempmail.net)
 * [https://mailpoof.com](https://mailpoof.com)
 * [https://www.emailondeck.com](https://www.emailondeck.com)
+* [https://adguard.com/zh_cn/adguard-temp-mail/overview.html](https://adguard.com/zh_cn/adguard-temp-mail/overview.html)
+* [https://smailpro.com/temp-gmail](https://smailpro.com/temp-gmail)
+* [https://22.do](https://22.do)
+* [https://www.emailnator.com](https://www.emailnator.com)
+* [https://m.kuku.lu](https://m.kuku.lu)
 
 
 

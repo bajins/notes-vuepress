@@ -28,6 +28,11 @@
 * [Eclipse的Debug各种视图介绍](https://www.cnblogs.com/ZeGod/p/10114049.html)
 * [STS(eclipse)中文注释错位、缩进、被放大BUG解决](https://blog.csdn.net/u013600314/article/details/85262257)
 * [Eclipse的设置、调优、使用（解决启动卡顿等问题）](https://lexsaints.blog.csdn.net/article/details/80661377)
+* [多模块打包后，扫描不到@controller和@service](https://www.cnblogs.com/antis/p/6138331.html)
+   * [https://stackoverflow.com/a/47378392](https://stackoverflow.com/a/47378392)
+   * [spring注解在自定义jar包中无法被扫描问题](https://www.jianshu.com/p/2f088388783d)
+   * [spring 扫描不到jar中class文件的原因和解决方法](https://blog.csdn.net/xlxxcc/article/details/51142585)
+
 
 > 创建`Dynamic Web Project`项目结构静态资源目录为：`WebContent`/`WebRoot`，idea创建的为`web`
 > 导入的项目没有正确自动识别：在项目上右键选择`Properties`然后检查`Project Facets`和`Project Natures`

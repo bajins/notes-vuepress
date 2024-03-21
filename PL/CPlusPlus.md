@@ -60,6 +60,7 @@
 ## 第三方依赖
 
 + [https://github.com/kdab](https://github.com/kdab)
++ [https://github.com/jamboree](https://github.com/jamboree)
 
 
 * 标准库 [https://github.com/boostorg](https://github.com/boostorg)
@@ -101,6 +102,7 @@
 * [https://github.com/cocos2d/cocos2d-x](https://github.com/cocos2d/cocos2d-x)
 * 3D [https://github.com/FlaxEngine/FlaxEngine](https://github.com/FlaxEngine/FlaxEngine)
 * [https://github.com/o3de/o3de](https://github.com/o3de/o3de)
+* [https://github.com/CRYTEK/CRYENGINE_ReadMe](https://github.com/CRYTEK/CRYENGINE_ReadMe)
 * [https://github.com/assimp/assimp](https://github.com/assimp/assimp)
 * [https://github.com/OGRECave/ogre](https://github.com/OGRECave/ogre)
 * [https://github.com/RavEngine/RavEngine](https://github.com/RavEngine/RavEngine)

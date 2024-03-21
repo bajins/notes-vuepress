@@ -198,20 +198,20 @@
 
 ## 下载器
 
-+ [https://github.com/search?q=downloader&type=Repositories](https://github.com/search?q=downloader&type=Repositories)
++ [https://github.com/search?q=downloader](https://github.com/search?q=downloader)
 + [https://github.com/topics/downloader](https://github.com/topics/downloader)
 + [https://github.com/topics/download](https://github.com/topics/download)
 + [https://github.com/topics/download-manager](https://github.com/topics/download-manager)
++ [https://github.com/topics/filedownloader](https://github.com/topics/filedownloader)
 
 
 * XDown [https://github.com/xdown-org](https://github.com/xdown-org)
     * [https://xdown.org](https://xdown.org)
     * [https://dl.xdown.org](https://dl.xdown.org)
 * Qdown [https://lightzhan.xyz/index.php/qdown](https://lightzhan.xyz/index.php/qdown)
-* NDM [http://www.neatdownloadmanager.com](http://www.neatdownloadmanager.com)
-* IDM [http://www.internetdownloadmanager.com](http://www.internetdownloadmanager.com)
+* NDM [https://www.neatdownloadmanager.com](https://www.neatdownloadmanager.com)
+* IDM [https://www.internetdownloadmanager.com](https://www.internetdownloadmanager.com)
     * [https://github.com/MotooriKashin/ef2](https://github.com/MotooriKashin/ef2)
-    * 睿派克 [https://www.lanzoui.com/b134572](https://www.lanzoui.com/b134572)
     * 闻雷 [https://www.lanzoui.com/b0i6zkze](https://www.lanzoui.com/b0i6zkze)
     * [https://pan.lanzoui.com/b0f1agvxc](https://pan.lanzoui.com/b0f1agvxc)
     * [https://pan.lanzoui.com/b0f1997eb](https://pan.lanzoui.com/b0f1997eb)
@@ -223,6 +223,8 @@
 * [https://sourceforge.net/projects/urlget](https://sourceforge.net/projects/urlget)
 * [https://github.com/axel-download-accelerator/axel](https://github.com/axel-download-accelerator/axel)
 * [https://github.com/GopeedLab/gopeed](https://github.com/GopeedLab/gopeed)
+* [https://github.com/SaptarshiSarkar12/Drifty](https://github.com/SaptarshiSarkar12/Drifty)
+* [https://github.com/blaze-shubhojeet14/FilumDLWPF](https://github.com/blaze-shubhojeet14/FilumDLWPF)
 * 迅雷、快车、旋风下载链接转换脚本 [https://github.com/chinsyo/delink](https://github.com/chinsyo/delink)
 
 
@@ -375,6 +377,7 @@
 * [https://github.com/Frank-Friemel/Shairport4w](https://github.com/Frank-Friemel/Shairport4w)
 * [https://github.com/maotoumao/MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop)
 * [https://github.com/synctv-org](https://github.com/synctv-org)
+* [https://github.com/Hunlongyu/ZY-Player](https://github.com/Hunlongyu/ZY-Player)
 
 
 - [https://github.com/Chocobozzz/PeerTube](https://github.com/Chocobozzz/PeerTube)

@@ -36,6 +36,7 @@
             * [https://github.com/iofeqkurrc42/jetbra-server-go](https://github.com/iofeqkurrc42/jetbra-server-go)
         * [https://github.com/novice88](https://github.com/novice88)
             * [https://jetbra.noviceli.win](https://jetbra.noviceli.win)
+            * [https://jetbra.novitechie.com](https://jetbra.novitechie.com)
             * [https://jbls.ide-soft.com](https://jbls.ide-soft.com)
         * [https://github.com/LemonZuo/license](https://github.com/LemonZuo/license)
     * [https://intxzt.github.io/2022/07/25/ja-netfilter/ja-netfilter-plugins-power](https://intxzt.github.io/2022/07/25/ja-netfilter/ja-netfilter-plugins-power)
@@ -51,6 +52,10 @@
     * [https://search.censys.io](https://search.censys.io)
 * [https://blog.novitechie.com](https://blog.novitechie.com)
 * [https://intxzt.github.io](https://intxzt.github.io)
+* [https://github.com/lianshufeng/Jrebel](https://github.com/lianshufeng/Jrebel)
+    * [https://jrebel.idoudou.me](https://jrebel.idoudou.me)
+    * [https://jrebel.com.cn](https://jrebel.com.cn)
+
 
 
 > `计算机\HKEY_CURRENT_USER\SOFTWARE\JavaSoft\Prefs`

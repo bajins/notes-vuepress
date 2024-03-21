@@ -22,7 +22,9 @@
 - 副业 [https://github.com/bleedline/aimoneyhunter](https://github.com/bleedline/aimoneyhunter)
 - [Solo 独立开发者社区](https://solo.xin)
 - [独立开发的100个想法](https://mp.weixin.qq.com/s/CarlaglmCszQiHI6qrjYNQ)
+- [https://github.com/said7388/developer-portfolio](https://github.com/said7388/developer-portfolio)
 - [https://github.com/weijunext/indie-hacker-tools](https://github.com/weijunext/indie-hacker-tools)
+- [https://github.com/shengxinjing/programmer-job-blacklist](https://github.com/shengxinjing/programmer-job-blacklist)
 
 
 

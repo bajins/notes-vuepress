@@ -234,6 +234,7 @@
     * [https://github.com/gupwin32/gupwin32.github.io](https://github.com/gupwin32/gupwin32.github.io)
 * 文件类型猜测 [https://github.com/file/file](https://github.com/file/file)
 * FFI [https://dyncall.org](https://dyncall.org)
+* Windows API Hook [https://github.com/TsudaKageyu/minhook](https://github.com/TsudaKageyu/minhook)
 
 
 
@@ -251,6 +252,7 @@
 * [https://github.com/FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg)
     * [https://ffmpeg.org](https://ffmpeg.org)
     * [https://ffmpeg.guide](https://ffmpeg.guide)
+    * [https://github.com/jeanslack/Videomass](https://github.com/jeanslack/Videomass)
 * [https://github.com/BtbN/FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds)
 * [https://github.com/ShiftMediaProject/FFmpeg](https://github.com/ShiftMediaProject/FFmpeg)
 * [https://github.com/ashellunts/ffmpeg-to-webrtc](https://github.com/ashellunts/ffmpeg-to-webrtc)

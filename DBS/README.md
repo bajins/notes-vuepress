@@ -40,6 +40,9 @@
 * [https://github.com/topics/sql-statement](https://github.com/topics/sql-statement)
 
 
+- [什么是实体化视图？](https://aws.amazon.com/cn/what-is/materialized-view)
+
+
 
 **备份/迁移/同步/导入导出**
 
@@ -93,6 +96,7 @@
 - [https://github.com/database-mesh](https://github.com/database-mesh)
 - 日志解析订阅和消费 [https://github.com/alibaba/canal](https://github.com/alibaba/canal)
 - [https://github.com/ucarGroup/DataLink](https://github.com/ucarGroup/DataLink)
+- 数据库监控 [https://github.com/debezium/debezium](https://github.com/debezium/debezium)
 
 
 
@@ -233,6 +237,8 @@
 - [https://github.com/risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave)
 - OLAP [https://github.com/risinglightdb/risinglight](https://github.com/risinglightdb/risinglight)
 - [https://github.com/StarRocks/starrocks](https://github.com/StarRocks/starrocks)
+- [https://github.com/apache/incubator-paimon](https://github.com/apache/incubator-paimon)
+- [https://github.com/pola-rs/polars](https://github.com/pola-rs/polars)
 - 向量化数据库 [https://github.com/facebookincubator/velox](https://github.com/facebookincubator/velox)
 - 矢量数据库 [https://github.com/milvus-io/milvus](https://github.com/milvus-io/milvus)
 - [https://github.com/topics/spark](https://github.com/topics/spark)

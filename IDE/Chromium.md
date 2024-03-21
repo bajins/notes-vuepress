@@ -451,6 +451,7 @@ taskkill /f /im chromedriver.exe
 * [https://github.com/DandelionSprout](https://github.com/DandelionSprout)
     * [https://gitlab.com/DandelionSprout](https://gitlab.com/DandelionSprout)
 * [https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters)
+* [https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist)
 
 
 - [https://lemon399-markrender.vercel.app](https://lemon399-markrender.vercel.app)
