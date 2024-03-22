@@ -4,14 +4,6 @@ module.exports = [{
             text: '外部链接',
             items: [
                 {
-                    text: '动态编译博客',
-                    link: 'https://www.gotoxo.com'
-                },
-                {
-                    text: '博客备份',
-                    link: 'https://notes-vuepress.pages.dev'
-                },
-                {
                     text: '获取XShell',
                     link: 'https://tool.bajins.com'
                 },

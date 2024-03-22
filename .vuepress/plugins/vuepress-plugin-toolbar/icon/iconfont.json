@@ -1,0 +1,16 @@
+{
+  "id": "1792919",
+  "name": "vuepress-plugin-toolbar",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "336541",
+      "name": "居乐乐导航",
+      "font_class": "daohang",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    }
+  ]
+}

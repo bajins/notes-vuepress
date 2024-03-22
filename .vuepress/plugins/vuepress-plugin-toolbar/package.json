@@ -1,0 +1,33 @@
+{
+  "name": "vuepress-plugin-toolbar",
+  "version": "1.0.1",
+  "description": "toolbar plugin for vuepress",
+  "keywords": [
+    "documentation",
+    "generator",
+    "vue",
+    "vuepress",
+    "toolbar"
+  ],
+  "homepage": "https://github.com/zq99299/vuepress-plugin/blob/master/vuepress-plugin-toolbar/README.md",
+  "bugs": {
+    "url": "https://github.com/zq99299/vuepress-plugin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zq99299/vuepress-plugin.git",
+    "directory": "vuepress-plugin-toolbar"
+  },
+  "license": "MIT",
+  "author": "mrcode <99299684@qq.com>",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2"
+  },
+  "devDependencies": {
+    "vuepress": "^1.4.1"
+  }
+}

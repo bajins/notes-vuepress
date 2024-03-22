@@ -1,0 +1,101 @@
+.me-toolbar-sidebar {
+  position: fixed;
+  width: 3.8rem;
+  top: 3.6rem;
+  right: 0;
+  z-index: 1;
+  font-size: 12px;
+  background-color: #fbfbfb;
+  //bottom: 0; // 会影响官网的 返回顶部 按钮组件的点击
+  box-sizing: border-box;
+  //border-left: 1px solid #eaecef;
+  //overflow-y: auto;
+  background: rgba(255, 255, 255, 0.1);
+
+  .option-box {
+    border-top: 1px solid #eee;
+    font-size: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    background-color: #fff;
+    height: 60px;
+    cursor: pointer;
+
+    &:hover {
+      .popover {
+        display block
+      }
+    }
+
+    .popover {
+      display none;
+      position: absolute;
+      color: #2c3e50;
+      //left: 100%;
+      //left: unset;
+      //right: 100%;
+      //margin-right: 2px;
+      //margin-left: 0;
+      right: 60px;
+      padding 5px;
+      top: -1px;
+      min-width: 240px;
+      background: #fff;
+      border: 1px solid #eee;
+
+      .title {
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+        padding 10px
+      }
+
+      .content {
+        margin: 15px 0;
+      }
+
+      .more-btn {
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+        font-size: 1rem;
+        color: #fff;
+        background-color: rgba(62, 175, 124, 0.86);
+        padding: 0.5rem 1.6rem;
+        border-radius: 4px;
+        transition: background-color 0.1s ease;
+        box-sizing: border-box;
+        border-bottom: 1px solid #389d70;
+
+        &:hover {
+          background-color: #3eaf7c;
+        }
+      }
+    }
+  }
+
+  .me-toolbar-sidebar-page-nav {
+    .page-nav-title {
+      font-weight 400px
+      font-size 14px
+      text-align center
+    }
+
+    .page-nav-scorll {
+      overflow auto
+      max-height 600px
+    }
+    .page-nav-link{
+      list-style-type: none !important;
+    }
+  }
+
+  //自定义功能
+}
