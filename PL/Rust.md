@@ -55,6 +55,7 @@
 * [https://github.com/xuesongbj/Rust-Notes](https://github.com/xuesongbj/Rust-Notes)
     * [http://xuesong.pydevops.com](http://xuesong.pydevops.com)
 * 练习 [https://github.com/sunface/rust-by-practice](https://github.com/sunface/rust-by-practice)
+* 异步线程比较 [https://github.com/jimblandy/context-switch](https://github.com/jimblandy/context-switch)
 * [program - 分类 - kirito's blog](https://kirito41dd.github.io/categories/program)
 * [归档 | Jackeyzhe](https://jackeyzhe.github.io/archives)
 * [一名Java开发的Rust学习笔记](https://juejin.cn/post/7347190677505359906)

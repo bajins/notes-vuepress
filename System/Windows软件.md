@@ -499,6 +499,7 @@
 + [https://github.com/topics/image-processing](https://github.com/topics/image-processing)
 
 
+* [https://github.com/027xiguapi/pear-rec](https://github.com/027xiguapi/pear-rec)
 * 图片压缩 [https://github.com/GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh)
     * [https://github.com/jamsinclair/jSquash](https://github.com/jamsinclair/jSquash)
     * [https://github.com/unplugin/unplugin-imagemin](https://github.com/unplugin/unplugin-imagemin)

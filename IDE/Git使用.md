@@ -487,7 +487,7 @@ export LESSCHARSET=utf-8
 ## 安装最新版
 
 * [https://git-scm.com/download](https://git-scm.com/download)
-* [https://npm.taobao.org/mirrors/git-for-windows](https://npm.taobao.org/mirrors/git-for-windows)
+* [https://registry.npmmirror.com/binary.html?path=git-for-windows/](https://registry.npmmirror.com/binary.html?path=git-for-windows/)
 * [https://packages.endpoint.com/rhel/7/os/x86_64/git-2.24.1-1.ep7.x86_64.rpm](https://packages.endpoint.com/rhel/7/os/x86_64/git-2.24.1-1.ep7.x86_64.rpm)
 * [https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm](https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm)
 

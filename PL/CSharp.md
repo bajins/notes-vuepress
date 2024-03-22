@@ -20,6 +20,7 @@
 + [https://referencesource.microsoft.com](https://referencesource.microsoft.com)
 + [http://www.symbolsource.org/Public](http://www.symbolsource.org/Public)
 + [https://gitee.com/dotnetchina](https://gitee.com/dotnetchina)
++ [https://github.com/dotnet-smartcomponents](https://github.com/dotnet-smartcomponents)
 
 
 - [https://docs.microsoft.com/zh-cn/documentation](https://docs.microsoft.com/zh-cn/documentation)

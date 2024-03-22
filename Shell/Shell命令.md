@@ -34,11 +34,17 @@
 + 电子表格 [https://github.com/saulpw/visidata](https://github.com/saulpw/visidata)
 + 逆向工程 [https://github.com/radareorg/radare2](https://github.com/radareorg/radare2)
 + 查看日志文件 [https://github.com/bensadeh/tailspin](https://github.com/bensadeh/tailspin)
++ [https://github.com/Textualize/toolong](https://github.com/Textualize/toolong)
 + cat [https://github.com/swsnr/mdcat](https://github.com/swsnr/mdcat)
 + 文件管理 [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
 + SCP [https://github.com/lengyijun/smartscp](https://github.com/lengyijun/smartscp)
 + CP [https://github.com/tarka/xcp](https://github.com/tarka/xcp)
 + 加密 [https://github.com/candiddev/rot](https://github.com/candiddev/rot)
++ JSON [https://github.com/stedolan/jq](https://github.com/stedolan/jq)
+    + [https://stedolan.github.io/jq](https://stedolan.github.io/jq)
++ [https://github.com/simeji/jid](https://github.com/simeji/jid)
+    + [https://github.com/fiatjaf/jiq](https://github.com/fiatjaf/jiq)
++ [https://github.com/ynqa/jnv](https://github.com/ynqa/jnv)
 
 
 

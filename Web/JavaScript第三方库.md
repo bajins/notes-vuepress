@@ -437,6 +437,7 @@
 * [https://github.com/greensock/GSAP](https://github.com/greensock/GSAP)
 * 3D库 [https://github.com/mrdoob/three.js](https://github.com/mrdoob/three.js)
 * [https://github.com/kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer)
+* [https://github.com/galacean](https://github.com/galacean)
 * 3D地球和2D地图 [https://github.com/CesiumGS/cesium](https://github.com/CesiumGS/cesium)
 * 2D渲染器 [https://github.com/pixijs/pixijs](https://github.com/pixijs/pixijs)
 * [https://github.com/erincatto/box2d](https://github.com/erincatto/box2d)

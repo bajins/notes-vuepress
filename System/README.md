@@ -456,6 +456,7 @@
 * 代码图 [https://github.com/Idered/chalk.ist](https://github.com/Idered/chalk.ist)
 * [https://github.com/abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)
 * 封面图 [https://github.com/zobor/photo-relay](https://github.com/zobor/photo-relay)
+* [https://github.com/struy-cn/Y-TOC](https://github.com/struy-cn/Y-TOC)
 * 财务 [https://github.com/maybe-finance/maybe](https://github.com/maybe-finance/maybe)
 * [https://github.com/actualbudget/actual](https://github.com/actualbudget/actual)
 * [https://github.com/getlago/lago](https://github.com/getlago/lago)

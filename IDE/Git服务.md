@@ -150,6 +150,7 @@ volumes:
 
 + [https://github.com/github](https://github.com/github)
 + 预览项目HTML [https://github.com/htmlpreview/htmlpreview.github.com](https://github.com/htmlpreview/htmlpreview.github.com)
++ 嵌入到HTML [https://github.com/yusanshi/emgithub](https://github.com/yusanshi/emgithub)
 + 生成更新日志 [https://github.com/shipkit/shipkit-changelog](https://github.com/shipkit/shipkit-changelog)
 + [https://github.com/lowlighter/metrics](https://github.com/lowlighter/metrics)
 + [https://github.com/ryo-ma/github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy)

@@ -204,8 +204,6 @@
 * 解析xml [https://github.com/libexpat/libexpat](https://github.com/libexpat/libexpat)
 * [https://gitlab.gnome.org/GNOME/libxml2](https://gitlab.gnome.org/GNOME/libxml2)
 * JSON [https://github.com/json-parser/json-parser](https://github.com/json-parser/json-parser)
-* [https://github.com/stedolan/jq](https://github.com/stedolan/jq)
-    * [https://stedolan.github.io/jq](https://stedolan.github.io/jq)
 * [https://github.com/Barenboim/json-parser](https://github.com/Barenboim/json-parser)
 * [https://github.com/akheron/jansson](https://github.com/akheron/jansson)
 * 沙盒技术 [https://github.com/plsyssec](https://github.com/plsyssec)

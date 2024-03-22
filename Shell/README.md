@@ -176,6 +176,7 @@
 * [https://github.com/topics/ssh-client](https://github.com/topics/ssh-client)
 * [https://github.com/topics/ssh2](https://github.com/topics/ssh2)
 * [https://github.com/topics/ssh](https://github.com/topics/ssh)
+* [https://github.com/francoismichel/ssh3](https://github.com/francoismichel/ssh3)
 * [https://github.com/mskyaxl/wsl-terminal](https://github.com/mskyaxl/wsl-terminal)
 
 

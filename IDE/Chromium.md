@@ -243,8 +243,8 @@ chrome://flags/#enable-parallel-downloading
 * [https://chromedriver.chromium.org](https://chromedriver.chromium.org)
     * [https://googlechromelabs.github.io/chrome-for-testing](https://googlechromelabs.github.io/chrome-for-testing)
 * [http://chromedriver.storage.googleapis.com/index.html](http://chromedriver.storage.googleapis.com/index.html)
-* [http://npm.taobao.org/mirrors/chromedriver](http://npm.taobao.org/mirrors/chromedriver)
-* [https://npm.taobao.org/mirrors/chromium-browser-snapshots](https://npm.taobao.org/mirrors/chromium-browser-snapshots)
+* [https://registry.npmmirror.com/binary.html?path=chromedriver/](https://registry.npmmirror.com/binary.html?path=chromedriver/)
+* [https://registry.npmmirror.com/binary.html?path=chromium-browser-snapshots/](https://registry.npmmirror.com/binary.html?path=chromium-browser-snapshots/)
 * [headless-chrome官方文档](https://developers.google.com/web/updates/2017/04/headless-chrome)
 * [功能和ChromeOptions官方网站参考](https://sites.google.com/a/chromium.org/chromedriver/capabilities)
 

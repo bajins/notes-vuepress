@@ -16,7 +16,6 @@
     + [https://www.python.org](https://www.python.org)
     + [https://docs.python.org/zh-cn](https://docs.python.org/zh-cn)
     + [https://www.python.org/ftp/python](https://www.python.org/ftp/python)
-    + [http://npm.taobao.org/mirrors/python](http://npm.taobao.org/mirrors/python)
 + [https://github.com/psf](https://github.com/psf)
 + [https://github.com/Python-World](https://github.com/Python-World)
 + [https://github.com/taichi-dev/taichi](https://github.com/taichi-dev/taichi)

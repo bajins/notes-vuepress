@@ -232,7 +232,7 @@ npm config get registry
 npm config set registry https://registry.npmjs.org
 
 # 设置淘宝镜像仓库地址
-npm config set registry https://registry.npm.taobao.org
+npm config set registry https://registry.npmmirror.com
 
 # 查看代理地址
 npm config get proxy

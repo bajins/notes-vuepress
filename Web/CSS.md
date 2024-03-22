@@ -170,6 +170,7 @@
 * [https://github.com/simple-icons](https://github.com/simple-icons)
 * [https://github.com/pheralb/svgl](https://github.com/pheralb/svgl)
 * [https://iconce.com](https://iconce.com)
+* [https://github.com/KanjiVG/kanjivg](https://github.com/KanjiVG/kanjivg)
 
 
 - [最受程序员欢迎的 20 个 CSS 框架](https://www.fuocu.cn/archives/css-frame)
