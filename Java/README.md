@@ -215,6 +215,7 @@
 * [https://github.com/YunaiV/ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro)
 * [https://github.com/yudaocode](https://github.com/yudaocode)
 * [https://github.com/soybeanjs/soybean-admin](https://github.com/soybeanjs/soybean-admin)
+* [https://github.com/yuxintao6/koi-ui](https://github.com/yuxintao6/koi-ui)
 * [iBase4J-JAVA分布式快速开发平台](https://gitee.com/iBase4J/iBase4J)
 * [framework-后台管理框架，采用springboot+springsecurity+mybatis-plus+bootstrap](https://gitee.com/sunhan521/framework)
 * [https://gitee.com/Morning_/Morning](https://gitee.com/Morning_/Morning)

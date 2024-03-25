@@ -46,6 +46,7 @@
 * [https://en.wikipedia.org/wiki/Type_system](https://en.wikipedia.org/wiki/Type_system)
 * [弱类型、强类型、动态类型、静态类型语言的区别是什么？](https://www.zhihu.com/question/19918532)
 * [通俗的方式理解动态类型，静态类型；强类型，弱类型](https://www.cnblogs.com/ssaylo/p/13056055.html)
+* [类型正在向右移动](https://juejin.cn/post/6844903801959235591)
 
 1. 动态类型语言：运行时确定数据类型。
 2. 静态类型语言：编译时确定数据类型。
@@ -72,6 +73,7 @@
 * [https://github.com/tencent](https://github.com/tencent)
 * [https://github.com/bytedance](https://github.com/bytedance)
 * [https://github.com/huawei](https://github.com/huawei)
+* [https://github.com/jd-opensource](https://github.com/jd-opensource)
 * [https://github.com/ctripcorp](https://github.com/ctripcorp)
 * [https://github.com/vipshop](https://github.com/vipshop)
 * [https://github.com/mdn](https://github.com/mdn)
@@ -360,6 +362,7 @@
 + [https://github.com/topics/lowcode](https://github.com/topics/lowcode)
 + [https://github.com/topics/nocode](https://github.com/topics/nocode)
 + [https://github.com/taowen/awesome-lowcode](https://github.com/taowen/awesome-lowcode)
++ [https://github.com/aliaszz/awesome-lowcode-component](https://github.com/aliaszz/awesome-lowcode-component)
 
 
 * [https://github.com/illacloud/illa-builder](https://github.com/illacloud/illa-builder)
@@ -467,9 +470,7 @@
 - [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)
 - 静态分析 [https://github.com/kaleidawave/ezno](https://github.com/kaleidawave/ezno)
 - [https://github.com/total-typescript/ts-reset](https://github.com/total-typescript/ts-reset)
-- [https://github.com/JDFED](https://github.com/JDFED)
 - [https://github.com/adobe/spectrum-web-components](https://github.com/adobe/spectrum-web-components)
-- [https://github.com/analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis)
 - IO解码/编码 [https://github.com/gcanti/io-ts](https://github.com/gcanti/io-ts)
 - 动画 [https://github.com/AriaMinaei/theatre](https://github.com/AriaMinaei/theatre)
 - 表格 [https://github.com/gristlabs/grist-core](https://github.com/gristlabs/grist-core)
@@ -489,6 +490,7 @@
 - [https://github.com/trpc/trpc](https://github.com/trpc/trpc)
 -  SQL查询生成 [https://github.com/kysely-org/kysely](https://github.com/kysely-org/kysely)
 - 文件 [https://github.com/hughfenghen/opfs-tools](https://github.com/hughfenghen/opfs-tools)
+- 3D渲染 [https://github.com/Orillusion/orillusion](https://github.com/Orillusion/orillusion)
 
 
 

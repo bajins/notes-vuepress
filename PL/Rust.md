@@ -104,7 +104,6 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 + [https://github.com/marshallpierce](https://github.com/marshallpierce)
 + [https://github.com/leptos-rs/leptos](https://github.com/leptos-rs/leptos)
 + 渲染 [https://github.com/gfx-rs](https://github.com/gfx-rs)
-    + [https://github.com/crowlKats/webgpu-examples](https://github.com/crowlKats/webgpu-examples)
     + [https://github.com/lucacasonato/deno_s3](https://github.com/lucacasonato/deno_s3)
 + [https://github.com/EmbarkStudios](https://github.com/EmbarkStudios)
 + [https://github.com/spacejam](https://github.com/spacejam)

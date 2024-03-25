@@ -30,6 +30,7 @@
 
 * Web标准实现 [https://github.com/jsdom/jsdom](https://github.com/jsdom/jsdom)
 * [https://github.com/stylus](https://github.com/stylus)
+* 自动重启Node [https://github.com/remy/nodemon](https://github.com/remy/nodemon)
 * [2023年最受欢迎的node.js框架](https://stackdiary.com/node-js-frameworks)
 
 
@@ -64,6 +65,7 @@
 
 * [https://github.com/wuhao000/aegis-tools](https://github.com/wuhao000/aegis-tools)
 * [https://github.com/fuchengwei/deploy-cli-service](https://github.com/fuchengwei/deploy-cli-service)
+* [https://github.com/Tencent/hel](https://github.com/Tencent/hel)
 
 
 
@@ -72,11 +74,14 @@
 + [https://github.com/parro-it/awesome-micro-npm-packages](https://github.com/parro-it/awesome-micro-npm-packages)
 + [https://github.com/TanninOne](https://github.com/TanninOne)
 + [https://github.com/dylang](https://github.com/dylang)
++ [https://github.com/isaacs](https://github.com/isaacs)
++ [https://github.com/nodeca](https://github.com/nodeca)
++ [https://github.com/dominictarr](https://github.com/dominictarr)
++ [https://github.com/kentcdodds](https://github.com/kentcdodds)
 
 
 * [https://github.com/eggjs/egg](https://github.com/eggjs/egg)
 * glob [https://github.com/micromatch/extglob](https://github.com/micromatch/extglob)
-* [https://github.com/isaacs/minimatch](https://github.com/isaacs/minimatch)
 * [https://github.com/mrmlnc/fast-glob](https://github.com/mrmlnc/fast-glob)
 * [https://github.com/reworkcss](https://github.com/reworkcss)
 * [https://github.com/visionmedia](https://github.com/visionmedia)
@@ -98,6 +103,7 @@
 * 日志 [https://github.com/trentm/node-bunyan](https://github.com/trentm/node-bunyan)
 * [https://github.com/pillarjs/send](https://github.com/pillarjs/send)
 * [https://github.com/pinojs/pino](https://github.com/pinojs/pino)
+* [https://github.com/debug-js/debug](https://github.com/debug-js/debug)
 * 断言 [https://github.com/chaijs](https://github.com/chaijs)
 * Expect交互 [https://github.com/facebook/jest](https://github.com/facebook/jest)
 * [https://github.com/sinonjs](https://github.com/sinonjs)
@@ -105,6 +111,7 @@
 * [https://github.com/SBoudrias/Inquirer.js](https://github.com/SBoudrias/Inquirer.js)
 * [https://github.com/oclif/oclif](https://github.com/oclif/oclif)
 * [https://github.com/yargs/yargs](https://github.com/yargs/yargs)
+* [https://github.com/shelljs/shelljs](https://github.com/shelljs/shelljs)
 * USB [https://github.com/schakko/node-usb](https://github.com/schakko/node-usb)
 * [https://github.com/node-usb](https://github.com/node-usb)
 * 字体管理 [https://github.com/foliojs/font-manager](https://github.com/foliojs/font-manager)
@@ -133,6 +140,8 @@
 * 检测文字语言 [https://github.com/komodojp/tinyld](https://github.com/komodojp/tinyld)
 * 表单验证 [https://github.com/vinejs/vine](https://github.com/vinejs/vine)
 * 代理HLS视频流 [https://github.com/warren-bank/HLS-Proxy](https://github.com/warren-bank/HLS-Proxy)
+* 文件操作 [https://github.com/jprichardson/node-fs-extra](https://github.com/jprichardson/node-fs-extra)
+* 环境变量加载 [https://github.com/motdotla/dotenv](https://github.com/motdotla/dotenv)
 
 
 

@@ -200,6 +200,7 @@
 * URL解析 [https://github.com/ada-url/ada](https://github.com/ada-url/ada)
 * 线性优化 [https://github.com/ERGO-Code/HiGHS](https://github.com/ERGO-Code/HiGHS)
 * 点云 [https://github.com/PDAL/PDAL](https://github.com/PDAL/PDAL)
+* 不可变 [https://github.com/arximboldi/immer](https://github.com/arximboldi/immer)
 
 
 

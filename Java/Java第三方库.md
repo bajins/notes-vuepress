@@ -10,7 +10,6 @@
 + [https://github.com/akullpp/awesome-java](https://github.com/akullpp/awesome-java)
 + [https://github.com/topics/java-library](https://github.com/topics/java-library)
 + [https://github.com/xuxueli](https://github.com/xuxueli)
-+ [https://github.com/typetools](https://github.com/typetools)
 + [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
     + [下载地址镜像](/Other/README.md#通用镜像)
 + hutool [https://github.com/dromara](https://github.com/dromara)

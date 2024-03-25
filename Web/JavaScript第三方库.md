@@ -21,6 +21,7 @@
 + [https://github.com/denysdovhan](https://github.com/denysdovhan)
 + [https://github.com/blueimp](https://github.com/blueimp)
 + [https://github.com/sorrycc/awesome-javascript](https://github.com/sorrycc/awesome-javascript)
++ [https://github.com/developit](https://github.com/developit)
 
 
 * [NPM依赖：类库工具](https://www.jianshu.com/p/2a127cfba1cf)
@@ -60,6 +61,7 @@
 * [https://github.com/highlightjs/highlight.js](https://github.com/highlightjs/highlight.js)
 * [https://github.com/shikijs/shiki](https://github.com/shikijs/shiki)
 * 验证 [https://github.com/validatorjs/validator.js](https://github.com/validatorjs/validator.js)
+* [https://github.com/jquense/yup](https://github.com/jquense/yup)
 * 国际化 [https://github.com/rxaviers/javascript-globalization](https://github.com/rxaviers/javascript-globalization)
 * [https://github.com/messageformat/messageformat](https://github.com/messageformat/messageformat)
 * [https://github.com/formatjs/formatjs](https://github.com/formatjs/formatjs)
@@ -111,6 +113,7 @@
 * 电子签名 [https://github.com/OpenSignLabs/OpenSign](https://github.com/OpenSignLabs/OpenSign)
 * 响应式电子邮件 [https://github.com/mjmlio/mjml](https://github.com/mjmlio/mjml)
 * 路由 [https://github.com/kwhitley/itty-router](https://github.com/kwhitley/itty-router)
+* 不可变对象 [https://github.com/tnfe/limu](https://github.com/tnfe/limu)
 
 
 
@@ -246,6 +249,8 @@
 * Promise [https://github.com/petkaantonov/bluebird](https://github.com/petkaantonov/bluebird)
 * 矩阵计算 [https://github.com/mateogianolio/vectorious](https://github.com/mateogianolio/vectorious)
 * 日历 [https://github.com/schedule-x/schedule-x](https://github.com/schedule-x/schedule-x)
+* 字符串解析和格式化 [https://github.com/ljharb/qs](https://github.com/ljharb/qs)
+* 日志 [https://github.com/winstonjs/winston](https://github.com/winstonjs/winston)
 
 
 - 数字精度 [https://github.com/topics/arbitrary-precision](https://github.com/topics/arbitrary-precision)

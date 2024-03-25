@@ -201,6 +201,7 @@
 * [https://github.com/ledisdb](https://github.com/ledisdb)
 * [https://github.com/reborndb](https://github.com/reborndb)
 * [https://github.com/OpenAtomFoundation/pika](https://github.com/OpenAtomFoundation/pika)
+* [https://github.com/Snapchat/KeyDB](https://github.com/Snapchat/KeyDB)
 * 面向列的数据库 [https://github.com/ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)
 * Go嵌入式(S)QL数据库 [https://gitlab.com/cznic/ql](https://gitlab.com/cznic/ql)
 * [https://github.com/oceanbase/oceanbase](https://github.com/oceanbase/oceanbase)

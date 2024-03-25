@@ -392,6 +392,7 @@
 - [https://www.kuaishou.com/kuaiying](https://www.kuaishou.com/kuaiying)
 - [https://www.topazlabs.com](https://www.topazlabs.com)
 - [https://shana.pe.kr/shanaencoder_download](https://shana.pe.kr/shanaencoder_download)
+- [https://github.com/tnfe/FFCreator](https://github.com/tnfe/FFCreator)
 - YouTube [https://github.com/FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube)
 - [https://github.com/iv-org/invidious](https://github.com/iv-org/invidious)
 - 直播录制 [https://github.com/WhiteMinds/LiveAutoRecord](https://github.com/WhiteMinds/LiveAutoRecord)

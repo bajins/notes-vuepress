@@ -43,6 +43,8 @@
 + 跨域资源共享 [https://github.com/monsur/enable-cors.org](https://github.com/monsur/enable-cors.org)
 + [https://github.com/gpuweb](https://github.com/gpuweb)
 + [https://github.com/webgpu](https://github.com/webgpu)
+    + [https://github.com/austinEng/webgpu-samples](https://github.com/austinEng/webgpu-samples)
+    + [https://github.com/crowlKats/webgpu-examples](https://github.com/crowlKats/webgpu-examples)
 + [https://github.com/screen-share](https://github.com/screen-share)
 + [https://github.com/WebAudio](https://github.com/WebAudio)
 + [https://github.com/NOtherDev/whatwebcando](https://github.com/NOtherDev/whatwebcando)

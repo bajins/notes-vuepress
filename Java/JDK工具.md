@@ -115,7 +115,7 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 * [https://github.com/microsoft/gctoolkit](https://github.com/microsoft/gctoolkit)
 * [https://github.com/chewiebug/GCViewer](https://github.com/chewiebug/GCViewer)
 * java程序跟踪工具 [https://github.com/btraceio/btrace](https://github.com/btraceio/btrace)
-* 故障排除，监视和性能分析 [https://github.com/aragozin/jvm-tools](https://github.com/aragozin/jvm-tools)
+* 监视和性能分析 [https://github.com/aragozin/jvm-tools](https://github.com/aragozin/jvm-tools)
 * [https://github.com/ajermakovics/jvm-mon](https://github.com/ajermakovics/jvm-mon)
 * [https://github.com/saleson/fm-dynamic-compiler](https://github.com/saleson/fm-dynamic-compiler)
 * [https://github.com/gperftools/gperftools](https://github.com/gperftools/gperftools)
@@ -130,6 +130,15 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 * 流分析 [https://github.com/wavefrontHQ/wavefront-proxy](https://github.com/wavefrontHQ/wavefront-proxy)
 * JProfiler [https://www.ej-technologies.com](https://www.ej-technologies.com)
 * [https://fastthread.io](https://fastthread.io)
+* 静态分析 [https://github.com/jspecify/jspecify](https://github.com/jspecify/jspecify)
+   * [https://jspecify.dev](https://jspecify.dev)
+* [http://github.com/google/error-prone](http://github.com/google/error-prone)
+* [https://github.com/typetools](https://github.com/typetools)
+* [https://github.com/eisop](https://github.com/eisop)
+   * [https://github.com/eisopux](https://github.com/eisopux)
+   * [https://github.com/opprop](https://github.com/opprop)
+* [https://github.com/facebook/infer](https://github.com/facebook/infer)
+* [https://github.com/uber/NullAway](https://github.com/uber/NullAway)
 
 
 

@@ -27,10 +27,18 @@
 
 
 
-**代码跟踪分析**
+**代码跟踪分析/静态分析**
 
-- [https://sonarcloud.io](https://sonarcloud.io)
-    - [https://github.com/SonarSource/sonarqube](https://github.com/SonarSource/sonarqube)
++ [https://github.com/topics/static-analysis](https://github.com/topics/static-analysis)
++ [https://github.com/analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis)
+
+
+- [https://github.com/checkstyle/checkstyle](https://github.com/checkstyle/checkstyle)
+- [https://github.com/walkmod](https://github.com/walkmod)
+- [https://github.com/SonarSource](https://github.com/SonarSource)
+    - [https://sonarcloud.io](https://sonarcloud.io)
+- [https://github.com/returntocorp/semgrep](https://github.com/returntocorp/semgrep)
+- [https://github.com/CoderDream/refactoring-improving-the-design-of-existing-code](https://github.com/CoderDream/refactoring-improving-the-design-of-existing-code)
 - [https://github.com/pmd/pmd](https://github.com/pmd/pmd)
 - [https://github.com/snyk/cli](https://github.com/snyk/cli)
 - [https://semmle.com](https://semmle.com)
@@ -82,6 +90,8 @@
 - [https://github.com/Codium-ai](https://github.com/Codium-ai)
 - [https://github.com/KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
 - [https://github.com/DoubleTechnologies](https://github.com/DoubleTechnologies)
+- [https://github.com/OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter)
+- [https://github.com/stitionai/devika](https://github.com/stitionai/devika)
 - 突出显示重要代码 [https://github.com/novoselrok/glance](https://github.com/novoselrok/glance)
 - 代码转换 [https://github.com/JustAIGithub/AI-Code-Convert](https://github.com/JustAIGithub/AI-Code-Convert)
 - [https://github.com/ritz078/transform](https://github.com/ritz078/transform)
@@ -93,6 +103,7 @@
 - [https://github.com/SuperDuperDB/superduperdb](https://github.com/SuperDuperDB/superduperdb)
 - 代码搜索 [https://github.com/ast-grep/ast-grep](https://github.com/ast-grep/ast-grep)
 - 可视化前端设计 [https://github.com/webstudio-is/webstudio](https://github.com/webstudio-is/webstudio)
+- [https://github.com/SawyerHood/draw-a-ui](https://github.com/SawyerHood/draw-a-ui)
 - 前端远程调试 [https://github.com/HuolalaTech/page-spy-web](https://github.com/HuolalaTech/page-spy-web)
 
 
@@ -158,6 +169,7 @@
 * [https://github.com/mattgodbolt/compiler-explorer](https://github.com/mattgodbolt/compiler-explorer)
 * [http://pythontutor.com](http://pythontutor.com)
 * [https://codepen.io](https://codepen.io)
+* [https://github.com/wanglin2/code-run](https://github.com/wanglin2/code-run)
 * [https://github.com/jsfiddle](https://github.com/jsfiddle)
 * [https://jsrun.net](https://jsrun.net)
 * [https://www.sololearn.com](https://www.sololearn.com)
