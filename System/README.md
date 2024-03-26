@@ -157,6 +157,10 @@
 * 管理 [https://github.com/puppetlabs/puppet](https://github.com/puppetlabs/puppet)
 * 设备连接 [https://github.com/netbirdio/netbird](https://github.com/netbirdio/netbird)
 * 服务器测评 [https://github.com/spiritLHLS/ecs](https://github.com/spiritLHLS/ecs)
+* 云平台 [https://github.com/ubicloud/ubicloud](https://github.com/ubicloud/ubicloud)
+* [https://github.com/basecamp/kamal](https://github.com/basecamp/kamal)
+* [https://github.com/capistrano/capistrano](https://github.com/capistrano/capistrano)
+* [https://github.com/opentofu/opentofu](https://github.com/opentofu/opentofu)
 
 
 

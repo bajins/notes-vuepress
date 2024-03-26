@@ -23,6 +23,7 @@
 * [https://www.syntevo.com](https://www.syntevo.com)
 * [https://www.git-tower.com](https://www.git-tower.com)
 * [https://git-fork.com](https://git-fork.com)
+* [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
 * diff [https://github.com/MrWangJustToDo/git-diff-view](https://github.com/MrWangJustToDo/git-diff-view)
 * 代码语法突出 [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 * Git实现 [https://github.com/libgit2/libgit2](https://github.com/libgit2/libgit2)
@@ -46,19 +47,20 @@
 
 
 
-**其他版本控制服务**
+**其他GIT服务**
 
 * [https://codeberg.org](https://codeberg.org)
 * [https://git.pleroma.social](https://git.pleroma.social)
 * [https://code.aliyun.com](https://code.aliyun.com)
 * [https://coding.net](https://coding.net)
 * [https://git.code.tencent.com](https://git.code.tencent.com)
-* [https://pagure.io](https://pagure.io)
 * [https://framagit.org](https://framagit.org)
 * [https://git.hit.edu.cn](https://git.hit.edu.cn)
 * [https://www.gitlink.org.cn](https://www.gitlink.org.cn)
 * [https://sourceforge.net](https://sourceforge.net)
 * [https://bitbucket.org](https://bitbucket.org)
+* [https://www.gitkraken.com](https://www.gitkraken.com)
+* [https://launchpad.net](https://launchpad.net)
 * 软件相似度比较 [https://copycat.gitee.com](https://copycat.gitee.com)
 
 

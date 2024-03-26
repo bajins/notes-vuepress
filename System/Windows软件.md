@@ -1029,7 +1029,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [LastPass Authenticator](https://support.logmeininc.com/lastpass/help/lastpass-authenticator-lp030014)
 * [Microsoft Authenticator](https://www.microsoft.com/zh-cn/security/mobile-authenticator-app)
 * [https://github.com/google/google-authenticator-android](https://github.com/google/google-authenticator-android)
-* KeePass [https://keepass.info](https://keepass.info)
+* KeePass [https://sourceforge.net/projects/keepass](https://sourceforge.net/projects/keepass)
+    * [https://keepass.info](https://keepass.info)
 * [https://www.keepersecurity.com](https://www.keepersecurity.com)
 * Eziriz IntelliLock
 * [https://github.com/lastpass](https://github.com/lastpass)
@@ -1050,7 +1051,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 
 
-## other
+## Other
 
 * 监控网速CPU及内存 [https://github.com/zhongyang219/TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
 * [https://github.com/processhacker/processhacker](https://github.com/processhacker/processhacker)
@@ -1082,6 +1083,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.sordum.org](https://www.sordum.org)
 * [https://u.tools](https://u.tools)
 * [https://github.com/he55/DreamScene2](https://github.com/he55/DreamScene2)
+* [https://github.com/hui-Zz/RunAny](https://github.com/hui-Zz/RunAny)
+* 便携式软件 [https://sourceforge.net/projects/portableapps](https://sourceforge.net/projects/portableapps)
 * 右键菜单 [https://github.com/moudey/shell](https://github.com/moudey/shell)
 * 活动跟踪 [https://github.com/ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch)
 * [https://github.com/Planshit/Tai](https://github.com/Planshit/Tai)
@@ -1119,6 +1122,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * 游戏项目 [https://github.com/leereilly/games](https://github.com/leereilly/games)
 * [https://github.com/SuperTux/supertux](https://github.com/SuperTux/supertux)
 * [https://github.com/OpenTTD/OpenTTD](https://github.com/OpenTTD/OpenTTD)
+* [https://github.com/CleverRaven/Cataclysm-DDA](https://github.com/CleverRaven/Cataclysm-DDA)
 * GTA游戏 [https://github.com/GTAmodding/re3](https://github.com/GTAmodding/re3)
 * [https://github.com/theVakhovskeIsTaken/holoiso](https://github.com/theVakhovskeIsTaken/holoiso)
 * [https://github.com/Plagman/gamescope](https://github.com/Plagman/gamescope)

@@ -55,11 +55,13 @@
 - [https://github.com/evanw/esbuild](https://github.com/evanw/esbuild)
 - [https://github.com/web-infra-dev](https://github.com/web-infra-dev)
 - [https://github.com/bower/bower](https://github.com/bower/bower)
+- [https://github.com/gulpjs/gulp](https://github.com/gulpjs/gulp)
+    - [https://www.gulpjs.com.cn](https://www.gulpjs.com.cn)
 - 2009年，npm
 - 2012年，grunt
 - 2012年，bower
 - 2013年，yeoman [https://github.com/yeoman](https://github.com/yeoman)
-- 2014年，gulp
+- 2014年，gulp 
 - 2015年，fis3
 - 2017年，webpack3
 
@@ -86,6 +88,7 @@
 * [https://github.com/reworkcss](https://github.com/reworkcss)
 * [https://github.com/visionmedia](https://github.com/visionmedia)
 * CMS [https://github.com/strapi/strapi](https://github.com/strapi/strapi)
+    * [https://www.strapi.cn](https://www.strapi.cn)
 * ORM [https://github.com/prisma/prisma](https://github.com/prisma/prisma)
 * [https://github.com/jugglingdb](https://github.com/jugglingdb)
 * [https://github.com/dresende/node-orm2](https://github.com/dresende/node-orm2)
@@ -197,7 +200,9 @@ nvm install <最新的版本号>
 
 * [https://github.com/Unitech/pm2](https://github.com/Unitech/pm2)
 * [https://github.com/npm](https://github.com/npm)
+    * [https://www.npmjs.cn](https://www.npmjs.cn)
 * [https://github.com/yarnpkg](https://github.com/yarnpkg)
+    * [https://www.yarnpkg.com.cn](https://www.yarnpkg.com.cn)
 * [https://github.com/pnpm/pnpm](https://github.com/pnpm/pnpm)
 
 

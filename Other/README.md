@@ -233,6 +233,7 @@
 + 电子邮件加密指南 [https://emailselfdefense.fsf.org/zh-hans](https://emailselfdefense.fsf.org/zh-hans)
 
 
+
 - [https://github.com/KevCui/1secmail](https://github.com/KevCui/1secmail)
     - [https://www.1secmail.com/api](https://www.1secmail.com/api)
 - [https://github.com/KevCui/getnada](https://github.com/KevCui/getnada)
@@ -242,6 +243,8 @@
 - [https://github.com/ccbikai](https://github.com/ccbikai)
 
 
+
+* [https://inboxes.com](https://inboxes.com)
 * [https://smailpro.com](https://smailpro.com)
 * [https://www.linshiyouxiang.net](https://www.linshiyouxiang.net)
 * [http://24mail.chacuo.net](http://24mail.chacuo.net)

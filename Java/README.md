@@ -43,11 +43,6 @@
 * 10亿行性能测试 [https://github.com/gunnarmorling/1brc](https://github.com/gunnarmorling/1brc)
 
 
-**Windows隐藏窗口后台运行jar包（推荐vbs可设置JVM参数）**
-
-* [hidden_run_jar.bat](/files/hidden_run_jar.bat)
-* [hidden_run_jar.vbs](/files/hidden_run_jar.vbs)
-
 
 
 ## 学习

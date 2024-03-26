@@ -15,6 +15,7 @@
 * [https://github.com/emberjs](https://github.com/emberjs)
 * [https://github.com/BuilderIO/qwik](https://github.com/BuilderIO/qwik)
 * [https://github.com/alpinejs/alpine](https://github.com/alpinejs/alpine)
+	* [https://www.alpinejs.cn](https://www.alpinejs.cn)
 * [https://github.com/litejs/litejs](https://github.com/litejs/litejs)
 * [https://github.com/riot](https://github.com/riot)
 * [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
@@ -32,6 +33,7 @@
 	* [https://github.com/Polymer](https://github.com/Polymer)
 * [https://github.com/solidjs/solid](https://github.com/solidjs/solid)
 * [https://github.com/preactjs/preact](https://github.com/preactjs/preact)
+	* [https://www.preactjs.com.cn](https://www.preactjs.com.cn)
 * 单页网站 [https://github.com/alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js)
 * [http://www.jeasyui.com](http://www.jeasyui.com)
 * [https://github.com/visjs](https://github.com/visjs)
@@ -74,7 +76,10 @@
 * [https://github.com/reduxjs](https://github.com/reduxjs)
 	* [https://github.com/react-guide](https://github.com/react-guide)
 	* [https://github.com/camsong/redux-in-chinese](https://github.com/camsong/redux-in-chinese)
+	* [https://www.reduxjs.cn](https://www.reduxjs.cn)
 * 状态管理 [https://github.com/pmndrs/valtio](https://github.com/pmndrs/valtio)
+* [https://github.com/facebookexperimental/Recoil](https://github.com/facebookexperimental/Recoil)
+	* [https://www.recoiljs.cn](https://www.recoiljs.cn)
 * [https://github.com/pulse-framework/pulse](https://github.com/pulse-framework/pulse)
 * [https://github.com/softchris/react-book](https://github.com/softchris/react-book)
 * [https://github.com/react-hook-form](https://github.com/react-hook-form)
@@ -82,6 +87,7 @@
 * [https://github.com/styled-components/styled-components](https://github.com/styled-components/styled-components)
 * [https://github.com/emotion-js/emotion](https://github.com/emotion-js/emotion)
 * [https://github.com/gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
+	* [https://www.gatsbyjs.cn](https://www.gatsbyjs.cn)
 * [https://github.com/streamich/react-use](https://github.com/streamich/react-use)
 * [https://github.com/reacttips-dev/codebases](https://github.com/reacttips-dev/codebases)
 * [https://github.com/refinedev](https://github.com/refinedev)
@@ -135,6 +141,7 @@
 ### VueJS框架
 
 * [https://github.com/nuxt](https://github.com/nuxt)
+	* [https://www.nuxtjs.cn](https://www.nuxtjs.cn)
 * [https://madewithvuejs.com](https://madewithvuejs.com)
 * [https://github.com/vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify)
 * [https://github.com/buefy/buefy](https://github.com/buefy/buefy)
@@ -156,6 +163,8 @@
 * [https://github.com/ElementUI](https://github.com/ElementUI)
 * [https://github.com/element-plus/element-plus](https://github.com/element-plus/element-plus)
 * [https://github.com/opentiny/tiny-vue](https://github.com/opentiny/tiny-vue)
+* [https://github.com/gridsome/gridsome](https://github.com/gridsome/gridsome)
+	* [https://www.gridsome.cn](https://www.gridsome.cn)
 
 
 
@@ -215,10 +224,11 @@ const resolveRequire = (path) => {
 ## jQuery
 
 * [https://github.com/jquery](https://github.com/jquery)
-    * [https://github.com/topics/jquery](https://github.com/topics/jquery)
-    * [https://github.com/topics/jquery-plugin](https://github.com/topics/jquery-plugin)
-    * jQuery API 中文文档 [https://jquery.cuishifeng.cn](https://jquery.cuishifeng.cn)
-	* [https://github.com/JsAaron/jQuery](https://github.com/JsAaron/jQuery)
+* [https://github.com/topics/jquery](https://github.com/topics/jquery)
+* [https://github.com/topics/jquery-plugin](https://github.com/topics/jquery-plugin)
+* [https://jquery.cuishifeng.cn](https://jquery.cuishifeng.cn)
+* [https://www.jquery123.com](https://www.jquery123.com)
+* [https://github.com/JsAaron/jQuery](https://github.com/JsAaron/jQuery)
 
 - [css选择器和jQuery选择器](https://segmentfault.com/a/1190000010746086)
 

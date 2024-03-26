@@ -62,6 +62,37 @@
 
 
 
+**Windows隐藏窗口后台运行jar包（推荐vbs可设置JVM参数）**
+
+* [hidden_run_jar.bat](/files/hidden_run_jar.bat)
+* [hidden_run_jar.vbs](/files/hidden_run_jar.vbs)
+
+
+
+## 代码块文档注释
+
+> 一定要用`<pre>{@code }</pre>`包裹代码块，或者进行HTML编码转义，否则将丢失格式
+
+- `{@code ... }` 用来包裹代码块，这样可以在JavaDoc中保留代码的格式，并且正确处理HTML标签和相关的特殊字符，如小于号`<`和大于号`>`。
+- `<pre>` 是预格式化文本的HTML标签，它告诉JavaDoc这里的文本应该按照预设格式显示，保留空白字符，如空格和换行符。
+
+```java
+/**
+ * <pre>
+ * List<Map<String, Object>> n = new ArrayList<>();
+ * Map<String, Object> map = new HashMap<>();
+ * {@code
+ * List<Map<String, Object>> n = new ArrayList<>();
+ * Map<String, Object> map = new HashMap<>();
+ * }
+ * List&lt;Map&lt;String, Object&gt;&gt; n = new ArrayList&lt;&gt;();
+ * Map&lt;String, Object&gt; map = new HashMap&lt;&gt;();
+ * </pre>
+ *
+ */
+```
+
+
 
 ## 多行字符串
 

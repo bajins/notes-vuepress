@@ -17,6 +17,7 @@
 * [https://github.com/pulsar-edit](https://github.com/pulsar-edit)
 * [https://github.com/lapce](https://github.com/lapce)
 * [https://github.com/zed-industries](https://github.com/zed-industries)
+* [https://github.com/face-hh/griddycode](https://github.com/face-hh/griddycode)
 * [https://github.com/capistrano/sshkit](https://github.com/capistrano/sshkit)
 * IDE的仪表盘 [https://github.com/wakatime](https://github.com/wakatime)
 * 图形转代码 [https://www.paintcodeapp.com](https://www.paintcodeapp.com)
@@ -91,6 +92,7 @@
 - [https://github.com/KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
 - [https://github.com/DoubleTechnologies](https://github.com/DoubleTechnologies)
 - [https://github.com/OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter)
+- [https://github.com/OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin)
 - [https://github.com/stitionai/devika](https://github.com/stitionai/devika)
 - 突出显示重要代码 [https://github.com/novoselrok/glance](https://github.com/novoselrok/glance)
 - 代码转换 [https://github.com/JustAIGithub/AI-Code-Convert](https://github.com/JustAIGithub/AI-Code-Convert)
@@ -141,6 +143,9 @@
 * [https://nest.pijul.com/pijul/pijul](https://nest.pijul.com/pijul/pijul)
   * [https://pijul.org](https://pijul.org)
 * [https://www.plasticscm.com](https://www.plasticscm.com)
+* [https://sourcehut.org](https://sourcehut.org)
+    * [https://sr.ht](https://sr.ht)
+* [https://pagure.io](https://pagure.io)
 
 
 
@@ -312,6 +317,7 @@
     * [https://github.com/search?q=navicat](https://github.com/search?q=navicat)
     * [https://github.com/HyperSine](https://github.com/HyperSine)
     * [https://github.com/Abeautifulsnow/navicat-premium-crack](https://github.com/Abeautifulsnow/navicat-premium-crack)
+    * [https://github.com/LiJunYi2/navicat-keygen-16V](https://github.com/LiJunYi2/navicat-keygen-16V)
 * [https://github.com/team-ide/teamide](https://github.com/team-ide/teamide)
 * [https://fishcodelib.com/Database.htm](https://fishcodelib.com/Database.htm)
 * [https://codeberg.org/sql-workbench/workbench](https://codeberg.org/sql-workbench/workbench)

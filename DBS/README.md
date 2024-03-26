@@ -168,6 +168,10 @@
 * [https://github.com/jnwatson/py-lmdb](https://github.com/jnwatson/py-lmdb)
 * [https://github.com/basho/riak](https://github.com/basho/riak)
 * K/V数据库 [https://github.com/google/leveldb](https://github.com/google/leveldb)
+* [https://github.com/placeholderkv/placeholderkv](https://github.com/placeholderkv/placeholderkv)
+* [https://github.com/microsoft/garnet](https://github.com/microsoft/garnet)
+* [https://github.com/dragonflydb](https://github.com/dragonflydb)
+* [https://codeberg.org/redict/redict](https://codeberg.org/redict/redict)
 * [https://github.com/couchbase/moss](https://github.com/couchbase/moss)
 * [https://github.com/memcached/memcached](https://github.com/memcached/memcached)
     * [https://github.com/bradfitz/gomemcache](https://github.com/bradfitz/gomemcache)
@@ -226,7 +230,6 @@
 * [https://github.com/cmu-db/noisepage](https://github.com/cmu-db/noisepage)
 * 不可变数据库 [https://github.com/codenotary/immudb](https://github.com/codenotary/immudb)
 * [https://github.com/stoneatom/stonedb](https://github.com/stoneatom/stonedb)
-* [https://github.com/dragonflydb](https://github.com/dragonflydb)
 * [https://github.com/surrealdb/surrealdb](https://github.com/surrealdb/surrealdb)
 
 
@@ -290,7 +293,6 @@
 
 + [https://github.com/redis](https://github.com/redis)
 + [https://redis.io/documentation](https://redis.io/documentation)
-+ [https://github.com/microsoft/garnet](https://github.com/microsoft/garnet)
 
 
 * [https://github.com/huangz1990](https://github.com/huangz1990)

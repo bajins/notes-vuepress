@@ -160,6 +160,7 @@
 - [https://github.com/swaywm](https://github.com/swaywm)
 - [https://www.deepin.org/zh/dde](https://www.deepin.org/zh/dde)
 - [https://sourceforge.net/projects/enlightenment](https://sourceforge.net/projects/enlightenment)
+- [https://github.com/end-4/dots-hyprland](https://github.com/end-4/dots-hyprland)
 
 
 * 图标 [https://github.com/PapirusDevelopmentTeam/papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
