@@ -1,0 +1,42 @@
+{
+  "name": "vuepress-plugin-flexsearch-plus",
+  "version": "0.2.1",
+  "description": "Next-Generation full text search library for Vuepress",
+  "main": "index.js",
+  "displayName": "flexsearch-plus",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "vuepress dev example/docs",
+    "build": "vuepress build example/docs",
+    "prepublishOnly": "npm run build && conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bajins/vuepress-plugin-flexsearch-plus"
+  },
+  "keywords": [
+    "vuepress-plugin-flexsearch-plus",
+    "vuepress-plugin-flexsearch",
+    "vuepress-search",
+    "search",
+    "vuepress-plugin",
+    "vuepress"
+  ],
+  "author": {
+    "name": "Bajins",
+    "email": "admin@bajins.com",
+    "url": "https://github.com/bajins"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/bajins/vuepress-plugin-flexsearch-plus#readme",
+  "devDependencies": {
+    "conventional-changelog-cli": "2.0.31",
+    "he": "^1.2.0",
+    "vuepress": "^1.4.1"
+  },
+  "dependencies": {
+    "flexsearch": "^0.6.32"
+  }
+}

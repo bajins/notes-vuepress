@@ -97,8 +97,9 @@ module.exports = {
             //filter:"",
             count: "20",
         }],
-        // 全文搜索 https://github.com/bajins/vuepress-plugin-flexsearch-plus
-        ['flexsearch-plus'],
+        // 全文搜索
+        [require('./plugins/vuepress-plugin-flexsearch/index.js')],
+        // ['fulltext-search'],
         // https://github.com/znicholasbrown/vuepress-plugin-code-copy
         ["vuepress-plugin-code-copy", true],
         // https://github.com/ekoeryanto/vuepress-plugin-sitemap

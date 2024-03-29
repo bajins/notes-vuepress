@@ -52,6 +52,7 @@
     icon: '',
     name: '自定义',
     link: null,
+    newWindow: null,
     popover: null
   }
   // 弹框定义
@@ -82,6 +83,7 @@
       this.icon = config.icon
       this.name = config.name
       this.link = config.link
+      this.newWindow = config.newWindow
       if (config.popover) {
         this.popover = Object.assign({}, DEFAULT_CONFIG_POPOVER, this.config.popover)
         if (config.popover.more) {

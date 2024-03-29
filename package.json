@@ -41,6 +41,7 @@
         "@vuepress/plugin-pwa": "^1.9.10",
         "@vuepress/theme-vue": "^1.9.10",
         "axios": "^1.6.8",
+        "flexsearch": "^0.7.43",
         "leancloud-storage": "^4.15.2",
         "lodash": "^4.17.21",
         "lodash.template": "^4.5.0",
@@ -65,7 +66,7 @@
         "vuepress-plugin-auto-sidebar": "^2.3.2",
         "vuepress-plugin-autometa": "^0.1.13",
         "vuepress-plugin-feed": "^0.1.9",
-        "vuepress-plugin-flexsearch-plus": "^0.2.1",
+        "vuepress-plugin-fulltext-search": "^2.2.1",
         "vuepress-plugin-plausible-analytics": "^0.2.1",
         "vuepress-plugin-right-anchor": "^0.5.5"
     }
