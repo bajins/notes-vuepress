@@ -144,6 +144,7 @@
 * 表单验证 [https://github.com/vinejs/vine](https://github.com/vinejs/vine)
 * 代理HLS视频流 [https://github.com/warren-bank/HLS-Proxy](https://github.com/warren-bank/HLS-Proxy)
 * 文件操作 [https://github.com/jprichardson/node-fs-extra](https://github.com/jprichardson/node-fs-extra)
+* 文件监视 [https://github.com/paulmillr/chokidar](https://github.com/paulmillr/chokidar)
 * 环境变量加载 [https://github.com/motdotla/dotenv](https://github.com/motdotla/dotenv)
 
 

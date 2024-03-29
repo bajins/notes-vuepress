@@ -39,6 +39,7 @@
 * SmartGit 是一款优秀的图形化Git仓库管理工具
 * SmartSVN 是一款优秀的图形化SVN仓库管理工具
 * 根据日志生成Changelog [https://github.com/orhun/git-cliff](https://github.com/orhun/git-cliff)
+* [https://github.com/conventional-changelog](https://github.com/conventional-changelog)
 * Java实现 [https://github.com/eclipse/jgit](https://github.com/eclipse/jgit)
     * [https://github.com/centic9/jgit-cookbook](https://github.com/centic9/jgit-cookbook)
 * [https://github.com/gitblit/gitblit](https://github.com/gitblit/gitblit)
@@ -61,6 +62,7 @@
 * [https://bitbucket.org](https://bitbucket.org)
 * [https://www.gitkraken.com](https://www.gitkraken.com)
 * [https://launchpad.net](https://launchpad.net)
+* [https://kolaente.dev](https://kolaente.dev)
 * 软件相似度比较 [https://copycat.gitee.com](https://copycat.gitee.com)
 
 
@@ -244,7 +246,7 @@ volumes:
 
 - [https://greasyfork.org/zh-CN/scripts/412245](https://greasyfork.org/zh-CN/scripts/412245)
 - [https://github.com/fhefh2015/Fast-GitHub](https://github.com/fhefh2015/Fast-GitHub)
-* [https://github.com/maxiaof/github-hosts](https://github.com/maxiaof/github-hosts)
+- [https://github.com/maxiaof/github-hosts](https://github.com/maxiaof/github-hosts)
 - [https://github.com/Potterli20/hosts](https://github.com/Potterli20/hosts)
 - [https://codechina.csdn.net/mirrors](https://codechina.csdn.net/mirrors)
 - [https://gitee.com/mirrors](https://gitee.com/mirrors)

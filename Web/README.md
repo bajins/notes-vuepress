@@ -141,11 +141,12 @@
 + [不蒜子文章统计](http://busuanzi.ibruce.info)
     + [https://www.npmjs.com/search?q=keywords:busuanzi](https://www.npmjs.com/search?q=keywords:busuanzi)
 + 搜索 [https://github.com/algolia/docsearch](https://github.com/algolia/docsearch)
-    + [https://www.algolia.com/docsearch](https://www.algolia.com/docsearch)
+    + [https://docsearch.algolia.com](https://docsearch.algolia.com)
 + [https://sourcegraph.com/search](https://sourcegraph.com/search)
 + [https://github.com/ekalinin/sitemap.js](https://github.com/ekalinin/sitemap.js)
 + 网页加载进度 [https://github.com/CodeByZach/pace](https://github.com/CodeByZach/pace)
 + 天气 [https://weatherwidget.io](https://weatherwidget.io)
++ 运行代码 [https://github.com/rameshvarun/blog-cells](https://github.com/rameshvarun/blog-cells)
 
 
 - 静态站点生成器列表 [https://github.com/jamstack/jamstack.org](https://github.com/jamstack/jamstack.org)
@@ -159,6 +160,7 @@
     * [https://github.com/z3by/vuepress-tools](https://github.com/z3by/vuepress-tools)
     * [https://github.com/vuejs/vitepress](https://github.com/vuejs/vitepress)
     * [https://www.vuepress.cn](https://www.vuepress.cn)
+    * [https://github.com/vuepress-theme-hope](https://github.com/vuepress-theme-hope)
 * 静态编译Jekyll [https://github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
     * [http://jekyllcn.com](http://jekyllcn.com)
     * [https://www.jekyll.com.cn](https://www.jekyll.com.cn)

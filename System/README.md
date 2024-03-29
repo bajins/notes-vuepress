@@ -370,6 +370,8 @@
 * 可视化套件 [https://github.com/grafana/grafana](https://github.com/grafana/grafana)
 * [https://github.com/GitSquared/edex-ui](https://github.com/GitSquared/edex-ui)
 * 仪表盘图标 [https://github.com/xushier/HD-Icons](https://github.com/xushier/HD-Icons)
+* 自动化测试 [https://github.com/tahitimoon/LunarLink](https://github.com/tahitimoon/LunarLink)
+* [https://github.com/lihuacai168/AnotherFasterRunner](https://github.com/lihuacai168/AnotherFasterRunner)
 
 
 

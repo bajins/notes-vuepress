@@ -30,6 +30,7 @@
 
 
 - [https://github.com/wingscloud](https://github.com/wingscloud)
+- 部署同步 [https://github.com/Browsersync/browser-sync](https://github.com/Browsersync/browser-sync)
 
 
 **js运行时/js引擎/JavaScript运行时/JavaScript引擎**

@@ -508,6 +508,8 @@
 
 
 * 文件传输 [https://github.com/localsend/localsend](https://github.com/localsend/localsend)
+* [https://github.com/nearby-sharing](https://github.com/nearby-sharing)
+* [https://github.com/schlagmichdoch/pairdrop](https://github.com/schlagmichdoch/pairdrop)
 * [http://www.xender.com](http://www.xender.com)
 * [https://gitlab.com/fdroid/fdroid-nearby](https://gitlab.com/fdroid/fdroid-nearby)
 * [https://github.com/interfect/fenix](https://github.com/interfect/fenix)
@@ -544,6 +546,7 @@
 * 无限词典 [https://github.com/KnIfER/PlainDictionaryAPP](https://github.com/KnIfER/PlainDictionaryAPP)
 * 视频编辑 [https://m.ulikecam.com](https://m.ulikecam.com)
 * [https://videoshowapp.cn](https://videoshowapp.cn)
+* [https://github.com/aserbao/AndroidCamera](https://github.com/aserbao/AndroidCamera)
 * 视频播放 [https://nplayer.com](https://nplayer.com)
 * [https://github.com/Moriafly/SaltPlayerSource](https://github.com/Moriafly/SaltPlayerSource)
 * 图片编辑 [https://qingtu.kajicam.com](https://qingtu.kajicam.com)

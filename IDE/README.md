@@ -448,6 +448,7 @@
 * [https://gitmind.cn](https://gitmind.cn)
 * [https://www.omnigroup.com/omnigraffle](https://www.omnigroup.com/omnigraffle)
 * [https://github.com/terrastruct/d2](https://github.com/terrastruct/d2)
+* [https://github.com/wanglin2/mind-map](https://github.com/wanglin2/mind-map)
 
 
 **本地客户端**

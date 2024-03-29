@@ -44,6 +44,7 @@
     + [https://stedolan.github.io/jq](https://stedolan.github.io/jq)
 + [https://github.com/simeji/jid](https://github.com/simeji/jid)
     + [https://github.com/fiatjaf/jiq](https://github.com/fiatjaf/jiq)
++ [https://github.com/wader/fq](https://github.com/wader/fq)
 + [https://github.com/ynqa/jnv](https://github.com/ynqa/jnv)
 
 

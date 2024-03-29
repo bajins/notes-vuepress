@@ -38,8 +38,12 @@
 + [https://github.com/topics/qrcode-generator](https://github.com/topics/qrcode-generator)
 + 编程语言排行 [https://www.tiobe.com/tiobe-index](https://www.tiobe.com/tiobe-index)
 + [https://octoverse.github.com/#top-languages](https://octoverse.github.com/#top-languages)
++ [https://github.com/libhunt](https://github.com/libhunt)
+    + [https://www.libhunt.com](https://www.libhunt.com)
 + 测试编程速度 [https://github.com/webdevcody/code-racer](https://github.com/webdevcody/code-racer)
 + 游戏开发技术图谱 [https://github.com/gonglei007/GameDevMind](https://github.com/gonglei007/GameDevMind)
++ WEB框架基准测试 [https://github.com/TechEmpower/FrameworkBenchmarks](https://github.com/TechEmpower/FrameworkBenchmarks)
++ [https://github.com/the-benchmarker/web-frameworks](https://github.com/the-benchmarker/web-frameworks)
 
 
 * [python、java、c、go执行速度对比](https://www.jianshu.com/p/d60eff598aa0)
@@ -468,7 +472,7 @@
 
 
 - [https://github.com/lgarron](https://github.com/lgarron)
-- [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)
+- 类型定义 [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)
 - 静态分析 [https://github.com/kaleidawave/ezno](https://github.com/kaleidawave/ezno)
 - [https://github.com/total-typescript/ts-reset](https://github.com/total-typescript/ts-reset)
 - [https://github.com/adobe/spectrum-web-components](https://github.com/adobe/spectrum-web-components)

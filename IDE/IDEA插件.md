@@ -62,6 +62,7 @@
 
 
 - [https://github.com/zielu/GitToolBox](https://github.com/zielu/GitToolBox)
+- [https://github.com/kookob/toolset](https://github.com/kookob/toolset)
 - [https://github.com/big-mouth-cn/talkx-idea-plugin](https://github.com/big-mouth-cn/talkx-idea-plugin)
 - [https://github.com/findtheflow/Feedback](https://github.com/findtheflow/Feedback)
 - ChatGPT [https://gitlab.com/wangsen_job/idea-plugin-iframe](https://gitlab.com/wangsen_job/idea-plugin-iframe)

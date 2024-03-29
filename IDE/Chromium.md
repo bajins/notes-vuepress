@@ -318,6 +318,7 @@ taskkill /f /im chromedriver.exe
 * 冻结暂时用不到的标签页 [https://github.com/deanoemcke/thegreatsuspender](https://github.com/deanoemcke/thegreatsuspender)
 * 防止通过 URL 跟踪用户 [https://github.com/ClearURLs](https://github.com/ClearURLs)
 * [Marmoset-创建漂亮的代码图片](https://chrome.google.com/webstore/detail/marmoset/npkfpddkpefnmkflhhligbkofhnafieb)
+* 搜索 [https://github.com/hoothin/SearchJumper](https://github.com/hoothin/SearchJumper)
 
 
 
