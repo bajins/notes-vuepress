@@ -362,6 +362,7 @@ taskkill /f /im chromedriver.exe
 * [swagger-bootstrap-ui](https://chrome.google.com/webstore/detail/swagger-bootstrap-ui/dhkcgihkeepociepfdeeppmdgbdooahh)
 * HTML/CSS/JS编辑展示 [https://github.com/chinchang/web-maker](https://github.com/chinchang/web-maker)
 * WEB前端助手 [https://github.com/zxlie/FeHelper](https://github.com/zxlie/FeHelper)
+* [https://github.com/ha0z1/PixOK](https://github.com/ha0z1/PixOK)
 * JSON查看 [https://github.com/tulios/json-viewer](https://github.com/tulios/json-viewer)
 * 检测浏览器指纹 [https://github.com/freethenation/DFPM](https://github.com/freethenation/DFPM)
 * [https://microsoftedge.microsoft.com/addons/search/谷歌](https://microsoftedge.microsoft.com/addons/search/%E8%B0%B7%E6%AD%8C)

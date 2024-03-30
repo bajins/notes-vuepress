@@ -95,7 +95,8 @@ jobs:
           cd ../
           ls -lh
           cp -r `ls -A | grep -Ev \
-            ".git|.github|.vuepress|.gitattributes|.gitignore|.gitmodules|package.json|README.md|notes-docsify"`\
+            ".git|.github|.vuepress|.gitattributes|.gitignore|.gitmodules\
+            |package.json|README.md|index.html|notes-docsify"`\
             notes-docsify
           cp -r .vuepress/public/images .vuepress/public/files notes-docsify
           # echo "-------------------------------------------------------------"

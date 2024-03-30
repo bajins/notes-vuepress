@@ -120,6 +120,14 @@
 
 ## SQL1992
 
+- `COALESCE`
+- `CASE`
+- `AVG`
+- `COUNT`
+- `MAX`
+- `MIN`
+- `SUM`
+- `TO_DATE`
  
 
 ## SQL1999
