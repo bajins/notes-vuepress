@@ -408,6 +408,8 @@ try {
 + [https://gitee.com/smallc](https://gitee.com/smallc)
 
 
+> 微服务就是单个应用程序拆分成许多个小型服务的一种开发方法
+
 * [SpringCloud组件和概念介绍](https://zhuanlan.zhihu.com/p/72721025)
 * [springcloud核心组件介绍](http://muggle.javaboy.org/2019/04/26/springcloud-1)
 * [一文读懂SpringCloud与Eureka，Feign，Ribbon，Hystrix，Zuul核心组件间的关系](https://www.jianshu.com/p/31dfb595170c)

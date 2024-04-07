@@ -367,7 +367,7 @@
     * [https://github.com/dream7180/foobox-cn](https://github.com/dream7180/foobox-cn)
 * [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
 * [https://github.com/mpv-player/mpv](https://github.com/mpv-player/mpv)
-* [https://github.com/xbmc](https://github.com/xbmc)
+* Kodi [https://github.com/xbmc](https://github.com/xbmc)
 * powerDVD
 * MPC-BE
 * [https://github.com/clsid2/mpc-hc](https://github.com/clsid2/mpc-hc)
@@ -886,6 +886,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/kimmknight/remoteapptool](https://github.com/kimmknight/remoteapptool)
 * [https://www.solarwinds.com/zh/dameware](https://www.solarwinds.com/zh/dameware)
 * [https://www.radmin.com](https://www.radmin.com)
+* [https://github.com/Cool-Coding/remote-desktop-control](https://github.com/Cool-Coding/remote-desktop-control)
 
 
 - ScreenWings 反截屏
@@ -1152,6 +1153,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 + [https://mac-torrents.io](https://mac-torrents.io)
 + [https://4howcrack.com](https://4howcrack.com)
 + [https://free4pc.org](https://free4pc.org)
++ [有哪些可以替代常用软件的开源软件？](https://www.zhihu.com/question/20161085)
 
 
 

@@ -13,6 +13,7 @@
 
 
 * [https://www.jetbrains.com/idea/download/other.html](https://www.jetbrains.com/idea/download/other.html)
+* [https://github.com/search?q=jetbra](https://github.com/search?q=jetbra)
 * [https://zhile.io/archives](https://zhile.io/archives)
     * `jetbrains-agent`(v3.2.0为2020.1.4及以下版本)/`FineAgent`/`plugin-fineagent`/`BetterIntelliJ`
     * `jetbrains-eval-reset`（[IDE Eval Reset](https://gitee.com/pengzhile/ide-eval-resetter)）v2.3.5为2021.2.4(2021.2.3起需要登录)及以下版本重置试用插件
@@ -32,6 +33,7 @@
         * [https://github.com/starxg/MyBatisCodeHelperProCrack](https://github.com/starxg/MyBatisCodeHelperProCrack)
         * [https://github.com/zrongdong/ja-netfilter](https://github.com/zrongdong/ja-netfilter) 2021.3-最新版本可用
         * [https://github.com/iot/jetbra](https://github.com/iot/jetbra)
+        * [https://github.com/novitechie/jetbra](https://github.com/novitechie/jetbra)
         * [https://github.com/noviceli/jetbra](https://github.com/noviceli/jetbra)
             * [https://github.com/iofeqkurrc42/jetbra-server-go](https://github.com/iofeqkurrc42/jetbra-server-go)
         * [https://github.com/novice88](https://github.com/novice88)
@@ -50,6 +52,7 @@
     * [https://fofa.info](https://fofa.info)
 * [如何找Jetbrains激活服务器](https://hostloc.com/thread-999341-1-1.html)
     * [https://search.censys.io](https://search.censys.io)
+* [记录 Rainbow Brackets 插件破解](https://reajason.com/writing/rainbowbracketscracked)
 * [https://blog.novitechie.com](https://blog.novitechie.com)
 * [https://intxzt.github.io](https://intxzt.github.io)
 * [https://github.com/lianshufeng/Jrebel](https://github.com/lianshufeng/Jrebel)

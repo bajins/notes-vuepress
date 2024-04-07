@@ -139,6 +139,7 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
    * [https://github.com/opprop](https://github.com/opprop)
 * [https://github.com/facebook/infer](https://github.com/facebook/infer)
 * [https://github.com/uber/NullAway](https://github.com/uber/NullAway)
+* [https://github.com/openrewrite](https://github.com/openrewrite)
 
 
 
@@ -206,8 +207,10 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 * [https://github.com/ClassViewer](https://github.com/ClassViewer)
 * [https://github.com/zxh0/classpy](https://github.com/zxh0/classpy)
 * [https://github.com/phith0n/zkar](https://github.com/phith0n/zkar)
+* [https://github.com/jar-analyzer/jar-analyzer](https://github.com/jar-analyzer/jar-analyzer)
+* [https://github.com/BeichenDream/JDR](https://github.com/BeichenDream/JDR)
 * 混淆 [https://sourceforge.net/projects/javaguard](https://sourceforge.net/projects/javaguard)
-+ [https://github.com/yWorks/yGuard](https://github.com/yWorks/yGuard)
+* [https://github.com/yWorks/yGuard](https://github.com/yWorks/yGuard)
 * [http://www.e-t.com/jshrink.html](http://www.e-t.com/jshrink.html)
 
 

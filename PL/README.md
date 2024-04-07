@@ -25,6 +25,7 @@
 - [https://github.com/said7388/developer-portfolio](https://github.com/said7388/developer-portfolio)
 - [https://github.com/weijunext/indie-hacker-tools](https://github.com/weijunext/indie-hacker-tools)
 - [https://github.com/shengxinjing/programmer-job-blacklist](https://github.com/shengxinjing/programmer-job-blacklist)
+- [Sam Altman的创业手册](https://jxp73q7qjsg.feishu.cn/docx/WCNZdKDa4o2eUrxK5ElcfBXEnah)
 
 
 

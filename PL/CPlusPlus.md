@@ -41,6 +41,7 @@
 * 代码优化方案 [https://github.com/ibogosavljevic/johnysswlab](https://github.com/ibogosavljevic/johnysswlab)
 * 互斥锁 [https://github.com/skarupke/two_bit_mutex](https://github.com/skarupke/two_bit_mutex)
 * 30天自制C++服务器 [https://github.com/yuesong-feng/30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer)
+* [https://learnmoderncpp.com](https://learnmoderncpp.com)
 * [C/C++串口通信原理及读写与操作](https://wangbaiyuan.cn/c-serial-communication-write-reading.html)
 * [浅谈The C++ Executors](https://zhuanlan.zhihu.com/p/395250667)
 * [【学习笔记】STL学习总结](https://www.cnblogs.com/saiodgm/p/15056366.html)

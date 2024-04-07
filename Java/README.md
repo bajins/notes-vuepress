@@ -41,6 +41,7 @@
 * [https://github.com/phith0n](https://github.com/phith0n)
 * [https://github.com/vulhub](https://github.com/vulhub)
 * 10亿行性能测试 [https://github.com/gunnarmorling/1brc](https://github.com/gunnarmorling/1brc)
+* [开源教程、开发者工具、编程网站和技术资源](https://www.zhihu.com/people/46-36-54-51-89/posts)
 
 
 
@@ -94,8 +95,7 @@
 * [https://github.com/RedSpider1/concurrent](https://github.com/RedSpider1/concurrent)
 * [https://github.com/javagrowing/JGrowing](https://github.com/javagrowing/JGrowing)
 * [https://github.com/dunwu/java-tutorial](https://github.com/dunwu/java-tutorial)
-* 面试题 [https://github.com/souyunku/DevBooks](https://github.com/souyunku/DevBooks)
-* [https://github.com/4ra1n/JavaSecInterview](https://github.com/4ra1n/JavaSecInterview)
+* 面试题 [https://gitee.com/souyunku/DevBooks](https://github.com/souyunku/DevBooks)
 * Java服务端知识技能图谱 [https://github.com/caison/java-knowledge-mind-map](https://github.com/caison/java-knowledge-mind-map)
 * [https://yun.itheima.com/subject/javamap/index.html](https://yun.itheima.com/subject/javamap/index.html)
 * JAVA书籍存放库 [https://github.com/singgel/JAVA](https://github.com/singgel/JAVA)

@@ -231,6 +231,7 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 - [https://github.com/hacspec/hacspec](https://github.com/hacspec/hacspec)
 - [https://github.com/RustCrypto](https://github.com/RustCrypto)
 - [https://github.com/tarcieri](https://github.com/tarcieri)
+- [https://github.com/rustpq/pqcrypto](https://github.com/rustpq/pqcrypto)
 - TLS [https://github.com/sfackler/rust-native-tls](https://github.com/sfackler/rust-native-tls)
 - [https://github.com/rustls/rustls](https://github.com/rustls/rustls)
 - [https://github.com/steffengy/schannel-rs](https://github.com/steffengy/schannel-rs)
