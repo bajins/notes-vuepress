@@ -168,6 +168,8 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 - [https://github.com/oscartbeaumont/rspc](https://github.com/oscartbeaumont/rspc)
 - [https://github.com/smoltcp-rs/smoltcp](https://github.com/smoltcp-rs/smoltcp)
 - [https://github.com/Xuanwo/reqsign](https://github.com/Xuanwo/reqsign)
+- HTML解析 [https://github.com/utkarshkukreti/select.rs](https://github.com/utkarshkukreti/select.rs)
+- [https://github.com/causal-agent/scraper](https://github.com/causal-agent/scraper)
 - 静态文件服务器 [https://github.com/ttys3/static-server](https://github.com/ttys3/static-server)
 - 媒体文件管理 [https://github.com/Dusk-Labs/dim](https://github.com/Dusk-Labs/dim)
 - 直播服务器 [https://github.com/harlanc/xiu](https://github.com/harlanc/xiu)

@@ -11,40 +11,15 @@
 + [https://github.com/gitonomy/gitlib](https://github.com/gitonomy/gitlib)
 
 
-* 忽略提交 [https://github.com/github/gitignore](https://github.com/github/gitignore)
-* [https://github.com/toptal/gitignore.io](https://github.com/toptal/gitignore.io)
-* 编辑版本控制存储库的历史 [http://www.catb.org/esr/reposurgeon](http://www.catb.org/esr/reposurgeon)
-* GUI [https://github.com/git-cola/git-cola](https://github.com/git-cola/git-cola)
-* [https://github.com/gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler)
-* [https://github.com/gitextensions/gitextensions](https://github.com/gitextensions/gitextensions)
-* [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
-    * [https://gitlab.com/tortoisegit/tortoisegit](https://gitlab.com/tortoisegit/tortoisegit)
-    * [https://tortoisegit.org/download](https://tortoisegit.org/download)
-* [https://www.syntevo.com](https://www.syntevo.com)
-* [https://www.git-tower.com](https://www.git-tower.com)
-* [https://git-fork.com](https://git-fork.com)
-* [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
-* diff [https://github.com/MrWangJustToDo/git-diff-view](https://github.com/MrWangJustToDo/git-diff-view)
-* 代码语法突出 [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
+
 * Git实现 [https://github.com/libgit2/libgit2](https://github.com/libgit2/libgit2)
 * [https://github.com/go-git](https://github.com/go-git)
-* 来自配置错误的网站的Git仓库泄漏 [https://github.com/liamg/gitjacker](https://github.com/liamg/gitjacker)
-* git加密 [https://github.com/AGWA/git-crypt](https://github.com/AGWA/git-crypt)
-* 自动补全 [https://github.com/dahlbyk/posh-git](https://github.com/dahlbyk/posh-git)
-* [https://github.com/JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
-* 依赖项更新 [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate)
-* Git工具 [https://github.com/GitTools](https://github.com/GitTools)
-* [https://github.com/sosedoff/gitkit](https://github.com/sosedoff/gitkit)
-* [https://github.com/ewanmellor/git-diff-image](https://github.com/ewanmellor/git-diff-image)
-* SmartGit 是一款优秀的图形化Git仓库管理工具
-* SmartSVN 是一款优秀的图形化SVN仓库管理工具
-* 根据日志生成Changelog [https://github.com/orhun/git-cliff](https://github.com/orhun/git-cliff)
-* [https://github.com/conventional-changelog](https://github.com/conventional-changelog)
 * Java实现 [https://github.com/eclipse/jgit](https://github.com/eclipse/jgit)
     * [https://github.com/centic9/jgit-cookbook](https://github.com/centic9/jgit-cookbook)
 * [https://github.com/gitblit/gitblit](https://github.com/gitblit/gitblit)
 * [https://github.com/scm-manager/scm-manager](https://github.com/scm-manager/scm-manager)
 *  [https://github.com/projectkudu/kudu](https://github.com/projectkudu/kudu)
+* 来自配置错误的网站的Git仓库泄漏 [https://github.com/liamg/gitjacker](https://github.com/liamg/gitjacker)
 
 
 

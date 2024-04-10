@@ -209,7 +209,7 @@
 * [https://github.com/billchurch/WebSSH2](https://github.com/billchurch/WebSSH2)
 * [https://github.com/mscdex/ssh2](https://github.com/mscdex/ssh2)
 * [https://github.com/tsl0922/ttyd](https://github.com/tsl0922/ttyd)
-* [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
+* 实时协作 [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
 
 
 **Android**

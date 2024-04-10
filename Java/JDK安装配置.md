@@ -14,6 +14,7 @@
     * [https://www.oracle.com/cn/java/technologies/javase-downloads.html](https://www.oracle.com/cn/java/technologies/javase-downloads.html)
     * [https://www.oracle.com/cn/java/technologies/java-ee-glance.html](https://www.oracle.com/cn/java/technologies/java-ee-glance.html)
 * 版本管理 [https://github.com/jingxiang/java-switch](https://github.com/jingxiang/java-switch)
+* [https://github.com/NotoChen/JavaVersionChoice](https://github.com/NotoChen/JavaVersionChoice)
 * [https://github.com/marchof/java-almanac](https://github.com/marchof/java-almanac)
     * [https://javaalmanac.io](https://javaalmanac.io)
     * [https://github.com/foojayio](https://github.com/foojayio)
@@ -29,6 +30,7 @@
 
 + [https://github.com/topics/openjdk](https://github.com/topics/openjdk)
 + [https://github.com/topics/jdk](https://github.com/topics/jdk)
++ [https://www.injdk.cn](https://www.injdk.cn)
 
 
 * [https://github.com/openjdk](https://github.com/openjdk)

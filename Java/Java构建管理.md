@@ -16,6 +16,7 @@
     + [https://github.com/Omico/Gradm](https://github.com/Omico/Gradm)
     + [https://github.com/gdubw/gng](https://github.com/gdubw/gng)
     + [https://github.com/gmazzo/gradle-buildconfig-plugin](https://github.com/gmazzo/gradle-buildconfig-plugin)
+    + [https://github.com/autonomousapps/dependency-analysis-gradle-plugin](https://github.com/autonomousapps/dependency-analysis-gradle-plugin)
 + [https://github.com/package-url](https://github.com/package-url)
 + [https://github.com/sbt/sbt](https://github.com/sbt/sbt)
 + [https://github.com/jbangdev](https://github.com/jbangdev)

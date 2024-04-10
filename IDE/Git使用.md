@@ -7,6 +7,7 @@
 
 + [https://github.com/topics/git](https://github.com/topics/git)
 + [https://github.com/git](https://github.com/git)
+  + [https://github.com/gitgitgadget](https://github.com/gitgitgadget)
   + [https://github.com/git-for-windows](https://github.com/git-for-windows)
   + [https://git-scm.com](https://git-scm.com)
   + [https://gitforwindows.org](https://gitforwindows.org)
@@ -36,16 +37,45 @@
     * [https://www.rumosky.wiki/docs/learngit](https://www.rumosky.wiki/docs/learngit)
 * 命令行提示 [https://github.com/o2sh/onefetch](https://github.com/o2sh/onefetch)
 * [https://github.com/nvie/git-toolbelt](https://github.com/nvie/git-toolbelt)
-* Git的奇技淫巧: [https://github.com/521xueweihan/git-tips](https://github.com/521xueweihan/git-tips)
-* 猴子都能懂的GIT入门: [https://backlog.com/git-tutorial/cn/contents](https://backlog.com/git-tutorial/cn/contents)
+* Git的奇技淫巧 [https://github.com/521xueweihan/git-tips](https://github.com/521xueweihan/git-tips)
+* 猴子都能懂的GIT入门 [https://backlog.com/git-tutorial/cn/contents](https://backlog.com/git-tutorial/cn/contents)
 * [Git与Subversion的命令对比表](https://website-proxy.backlogtool.com/git-tutorial/cn/reference/git-svn.html)
 * 在线学 Git [https://codechina_dev.gitcode.host/learn-git-branching](https://codechina_dev.gitcode.host/learn-git-branching)
 * [https://github.com/pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching)
-
-
 * Git大全 [https://gitee.com/all-about-git](https://gitee.com/all-about-git)
 * [Git 团队协作中常用术语 WIP PTAL CC LGTM 等解释](https://blog.csdn.net/kunyus/article/details/93472646)
 
+
+**GIT工具**
+
+* 忽略提交 [https://github.com/github/gitignore](https://github.com/github/gitignore)
+    * [https://wizardzines.com/comics/inside-git](https://wizardzines.com/comics/inside-git)
+* [https://github.com/toptal/gitignore.io](https://github.com/toptal/gitignore.io)
+* 编辑版本控制存储库的历史 [http://www.catb.org/esr/reposurgeon](http://www.catb.org/esr/reposurgeon)
+* GUI [https://github.com/git-cola/git-cola](https://github.com/git-cola/git-cola)
+* [https://github.com/prati0100/git-gui](https://github.com/prati0100/git-gui)
+* [https://github.com/gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler)
+* [https://github.com/gitextensions/gitextensions](https://github.com/gitextensions/gitextensions)
+* [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
+    * [https://gitlab.com/tortoisegit/tortoisegit](https://gitlab.com/tortoisegit/tortoisegit)
+    * [https://tortoisegit.org/download](https://tortoisegit.org/download)
+* [https://www.syntevo.com](https://www.syntevo.com)
+* [https://www.git-tower.com](https://www.git-tower.com)
+* [https://git-fork.com](https://git-fork.com)
+* [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
+* SmartGit 是一款优秀的图形化Git仓库管理工具
+* SmartSVN 是一款优秀的图形化SVN仓库管理工具
+* diff [https://github.com/MrWangJustToDo/git-diff-view](https://github.com/MrWangJustToDo/git-diff-view)
+* 代码语法突出 [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
+* git加密 [https://github.com/AGWA/git-crypt](https://github.com/AGWA/git-crypt)
+* 自动补全 [https://github.com/dahlbyk/posh-git](https://github.com/dahlbyk/posh-git)
+* [https://github.com/JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
+* 依赖项更新 [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate)
+* Git工具 [https://github.com/GitTools](https://github.com/GitTools)
+* [https://github.com/sosedoff/gitkit](https://github.com/sosedoff/gitkit)
+* [https://github.com/ewanmellor/git-diff-image](https://github.com/ewanmellor/git-diff-image)
+* 根据日志生成Changelog [https://github.com/orhun/git-cliff](https://github.com/orhun/git-cliff)
+* [https://github.com/conventional-changelog](https://github.com/conventional-changelog)
 
 
 - [git-pull.bat](/files/git-pull.bat)
