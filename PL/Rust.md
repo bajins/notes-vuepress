@@ -59,6 +59,7 @@
 * [program - 分类 - kirito's blog](https://kirito41dd.github.io/categories/program)
 * [归档 | Jackeyzhe](https://jackeyzhe.github.io/archives)
 * [一名Java开发的Rust学习笔记](https://juejin.cn/post/7347190677505359906)
+* [Rust Cargo使用指南 | 第十四篇 | 发布配置 Profile](https://zhuanlan.zhihu.com/p/476524365)
 
 
 - IDE [https://github.com/intellij-rust](https://github.com/intellij-rust)
@@ -149,7 +150,7 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 - [https://github.com/bevyengine/bevy](https://github.com/bevyengine/bevy)
 - 搜索算法 [https://github.com/hora-search/hora](https://github.com/hora-search/hora)
 - [https://github.com/meilisearch/MeiliSearch](https://github.com/meilisearch/MeiliSearch)
-- web [https://github.com/deislabs/wagi](https://github.com/deislabs/wagi)
+- WEB [https://github.com/deislabs/wagi](https://github.com/deislabs/wagi)
 - [https://github.com/iron/iron](https://github.com/iron/iron)
 - [https://github.com/longfangsong/rs-rtt](https://github.com/longfangsong/rs-rtt)
 - [https://github.com/actix](https://github.com/actix)
@@ -168,6 +169,7 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 - [https://github.com/oscartbeaumont/rspc](https://github.com/oscartbeaumont/rspc)
 - [https://github.com/smoltcp-rs/smoltcp](https://github.com/smoltcp-rs/smoltcp)
 - [https://github.com/Xuanwo/reqsign](https://github.com/Xuanwo/reqsign)
+- [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
 - HTML解析 [https://github.com/utkarshkukreti/select.rs](https://github.com/utkarshkukreti/select.rs)
 - [https://github.com/causal-agent/scraper](https://github.com/causal-agent/scraper)
 - 静态文件服务器 [https://github.com/ttys3/static-server](https://github.com/ttys3/static-server)
@@ -362,6 +364,8 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 - [https://github.com/Kimundi/rustc-version-rs](https://github.com/Kimundi/rustc-version-rs)
 - [https://github.com/japaric/xargo](https://github.com/japaric/xargo)
 - RPC [https://github.com/kwsc98/krpc-rust](https://github.com/kwsc98/krpc-rust)
+- 模板 [https://github.com/cobalt-org/liquid-rust](https://github.com/cobalt-org/liquid-rust)
+- [https://github.com/cargo-generate/cargo-generate](https://github.com/cargo-generate/cargo-generate)
 
 
 
@@ -387,3 +391,45 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 * Node.js模块绑定 [https://github.com/neon-bindings/neon](https://github.com/neon-bindings/neon)
 * 支付 [https://github.com/juspay/hyperswitch](https://github.com/juspay/hyperswitch)
 * 内存漏洞 [https://github.com/Speykious/cve-rs](https://github.com/Speykious/cve-rs)
+
+
+
+
+**Cargo子命令**
+
++ [https://github.com/rust-lang/cargo/wiki/Third-party-cargo-subcommands](https://github.com/rust-lang/cargo/wiki/Third-party-cargo-subcommands)
+
+
+- 编译 [https://github.com/cross-rs/cross](https://github.com/cross-rs/cross)
+- [https://github.com/johnthagen/min-sized-rust](https://github.com/johnthagen/min-sized-rust)
+- [https://github.com/Kobzol/cargo-wizard](https://github.com/Kobzol/cargo-wizard)
+- [https://github.com/RazrFalcon/cargo-bloat](https://github.com/RazrFalcon/cargo-bloat)
+- [https://github.com/rustsec/rustsec](https://github.com/rustsec/rustsec)
+- [https://github.com/gnzlbg/cargo-asm](https://github.com/gnzlbg/cargo-asm)
+- [https://github.com/matthiaskrgr/cargo-cache](https://github.com/matthiaskrgr/cargo-cache)
+- [https://github.com/iddm/cargo-cook](https://github.com/iddm/cargo-cook)
+- [https://github.com/Manishearth/rust-clippy](https://github.com/Manishearth/rust-clippy)
+- [https://github.com/janlikar/cargo-clone](https://github.com/janlikar/cargo-clone)
+- [https://github.com/XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei)
+- [https://github.com/xd009642/tarpaulin](https://github.com/xd009642/tarpaulin)
+- [https://github.com/tbrand/cargo-tomlfmt](https://github.com/tbrand/cargo-tomlfmt)
+- [https://github.com/watchexec/cargo-watch](https://github.com/watchexec/cargo-watch)
+- [https://github.com/crate-ci/cargo-release](https://github.com/crate-ci/cargo-release)
+- [https://github.com/nabijaczleweli/cargo-update](https://github.com/nabijaczleweli/cargo-update)
+- [https://github.com/deadlinks/cargo-deadlinks](https://github.com/deadlinks/cargo-deadlinks)
+- [https://github.com/kbknapp/cargo-outdated](https://github.com/kbknapp/cargo-outdated)
+- [https://github.com/killercup/cargo-edit](https://github.com/killercup/cargo-edit)
+- [https://github.com/svenstaro/cargo-profiler](https://github.com/svenstaro/cargo-profiler)
+- [https://github.com/pwoolcoc/cargo-do](https://github.com/pwoolcoc/cargo-do)
+- [https://github.com/kornelski/cargo-deb](https://github.com/kornelski/cargo-deb)
+- [https://github.com/dtolnay/cargo-expand](https://github.com/dtolnay/cargo-expand)
+- [https://gitlab.com/imp/cargo-info](https://gitlab.com/imp/cargo-info)
+- [https://github.com/onur/cargo-license](https://github.com/onur/cargo-license)
+- [https://github.com/TimNN/cargo-lipo](https://github.com/TimNN/cargo-lipo)
+- [https://github.com/sagiegurari/cargo-make](https://github.com/sagiegurari/cargo-make)
+- [https://github.com/regexident/cargo-modules](https://github.com/regexident/cargo-modules)
+- [https://github.com/kstep/cargo-pkgbuild](https://github.com/kstep/cargo-pkgbuild)
+- [https://pagure.io/fedora-rust/rust2rpm](https://pagure.io/fedora-rust/rust2rpm)
+- [https://github.com/cat-in-136/cargo-generate-rpm](https://github.com/cat-in-136/cargo-generate-rpm)
+- [https://github.com/meta-rust/cargo-bitbake](https://github.com/meta-rust/cargo-bitbake)
+- 基准测试 [https://github.com/BurntSushi/cargo-benchcmp](https://github.com/BurntSushi/cargo-benchcmp)

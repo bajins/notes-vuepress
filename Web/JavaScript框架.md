@@ -32,6 +32,8 @@
 * [https://github.com/modernweb-dev/web](https://github.com/modernweb-dev/web)
 * [https://github.com/lit](https://github.com/lit)
 	* [https://github.com/Polymer](https://github.com/Polymer)
+* [https://github.com/denoland/fresh](https://github.com/denoland/fresh)
+* [https://github.com/QwikDev/qwik](https://github.com/QwikDev/qwik)
 * [https://github.com/solidjs/solid](https://github.com/solidjs/solid)
 * [https://github.com/preactjs/preact](https://github.com/preactjs/preact)
 	* [https://www.preactjs.com.cn](https://www.preactjs.com.cn)
@@ -73,6 +75,7 @@
 	+ [https://www.nextjs.cn](https://www.nextjs.cn)
 	+ [https://github.com/t3-oss/create-t3-app](https://github.com/t3-oss/create-t3-app)
 	+ [https://github.com/shuding/nextra](https://github.com/shuding/nextra)
+	+ [https://github.com/qufei1993/nextjs-learn-cn](https://github.com/qufei1993/nextjs-learn-cn)
 
 
 * [https://github.com/reduxjs](https://github.com/reduxjs)

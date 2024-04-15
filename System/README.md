@@ -54,6 +54,7 @@
 ## 开源操作系统
 
 * [https://github.com/topics/operating-system](https://github.com/topics/operating-system)
+* [https://www.yoctoproject.org](https://www.yoctoproject.org)
 * [Linux发行版本排行](https://distrowatch.com/dwres.php?resource=popularity)
 * [Linux主流发行版本](https://distrowatch.com/dwres.php?resource=major)
 
@@ -294,6 +295,7 @@
     * [https://github.com/BotoX/ServerStatus](https://github.com/BotoX/ServerStatus)
 * [https://github.com/CokeMine/ServerStatus-Hotaru](https://github.com/CokeMine/ServerStatus-Hotaru)
 * [https://github.com/louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)
+* [https://github.com/OneUptime/oneuptime](https://github.com/OneUptime/oneuptime)
 * [https://github.com/nokyan/resources](https://github.com/nokyan/resources)
 * [https://github.com/sqshq/sampler](https://github.com/sqshq/sampler)
 * [https://github.com/chaos-zhu/easynode](https://github.com/chaos-zhu/easynode)
@@ -474,6 +476,10 @@
 * [https://github.com/obsidianmd/jsoncanvas](https://github.com/obsidianmd/jsoncanvas)
 * 时间线 [https://github.com/zhugezifang/ai_timeline](https://github.com/zhugezifang/ai_timeline)
 * 天气 [https://github.com/vsergeev/briefsky](https://github.com/vsergeev/briefsky)
+* 短链接 [https://github.com/dubinc/dub](https://github.com/dubinc/dub)
+* 项目落地页 [https://github.com/weijunext/landing-page-boilerplate](https://github.com/weijunext/landing-page-boilerplate)
+* 表单生成 [https://github.com/heyform/heyform](https://github.com/heyform/heyform)
+* 管理后台 [https://github.com/dashpresshq/dashpress](https://github.com/dashpresshq/dashpress)
 
 
 

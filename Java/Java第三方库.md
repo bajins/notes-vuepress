@@ -179,14 +179,18 @@
 + [https://github.com/youseries/urule](https://github.com/youseries/urule)
 + [https://github.com/aalansehaiyang/risk-talk](https://github.com/aalansehaiyang/risk-talk)
 + [https://github.com/deonwu/ik-expression](https://github.com/deonwu/ik-expression)
-+ Native本地调用 [https://github.com/java-native-access/jna](https://github.com/java-native-access/jna)
++ Native本地调用 [https://github.com/zakgof/java-native-benchmark](https://github.com/zakgof/java-native-benchmark)
+    + [https://yanbin.blog/java-jni-libraries](https://yanbin.blog/java-jni-libraries)
 + [https://github.com/jnr](https://github.com/jnr)
++ [https://github.com/java-native-access/jna](https://github.com/java-native-access/jna)
++ [https://sourceforge.net/projects/jnative](https://sourceforge.net/projects/jnative)
 + [https://github.com/fusesource/hawtjni](https://github.com/fusesource/hawtjni)
 + [https://jogamp.org](https://jogamp.org)
 + [https://sourceforge.net/projects/cxxwrap](https://sourceforge.net/projects/cxxwrap)
 + [https://github.com/bytedeco/javacpp](https://github.com/bytedeco/javacpp)
 + [https://github.com/nativelibs4java](https://github.com/nativelibs4java)
 + [https://github.com/luben/zstd-jni](https://github.com/luben/zstd-jni)
++ [https://teamdev.com/jniwrapper](https://teamdev.com/jniwrapper)
 + 线程池 [https://github.com/acmenlt/dynamic-threadpool](https://github.com/acmenlt/dynamic-threadpool)
 + [https://github.com/opengoofy/hippo4j](https://github.com/opengoofy/hippo4j)
 + 线程间消息传递 [https://github.com/lmax-exchange/disruptor](https://github.com/lmax-exchange/disruptor)
@@ -199,6 +203,7 @@
 + [https://sourceforge.net/projects/cpdetector](https://sourceforge.net/projects/cpdetector)
 + URL解析 [https://github.com/smola/galimatias](https://github.com/smola/galimatias)
 + 解析Java源文件 [https://github.com/forge/roaster](https://github.com/forge/roaster)
++ INI配置 [https://github.com/sshtools/jini](https://github.com/sshtools/jini)
 
 
 
