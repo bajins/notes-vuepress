@@ -323,6 +323,7 @@
 - 绕过五秒盾 [https://github.com/FlareSolverr/FlareSolverr](https://github.com/FlareSolverr/FlareSolverr)
 - [https://github.com/VeNoMouS/cloudscraper](https://github.com/VeNoMouS/cloudscraper)
 - [https://github.com/RomainMichau/cloudscraper_go](https://github.com/RomainMichau/cloudscraper_go)
+- [https://github.com/ultrafunkamsterdam/undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver)
 
 
 * 在线分享工具 [https://github.com/xiadd/pastebin-worker](https://github.com/xiadd/pastebin-worker)

@@ -62,6 +62,7 @@
 
 + [https://github.com/kdab](https://github.com/kdab)
 + [https://github.com/jamboree](https://github.com/jamboree)
++ [https://github.com/ThePhD](https://github.com/ThePhD)
 
 
 * 标准库 [https://github.com/boostorg](https://github.com/boostorg)
@@ -204,11 +205,14 @@
 * 线性优化 [https://github.com/ERGO-Code/HiGHS](https://github.com/ERGO-Code/HiGHS)
 * 点云 [https://github.com/PDAL/PDAL](https://github.com/PDAL/PDAL)
 * 不可变 [https://github.com/arximboldi/immer](https://github.com/arximboldi/immer)
+* 日期时间 [https://github.com/HowardHinnant/date](https://github.com/HowardHinnant/date)
+* 范围 [https://github.com/ericniebler/range-v3](https://github.com/ericniebler/range-v3)
 
 
 
 - 管理安装和更新Windows应用 [https://github.com/Squirrel/Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows)
 - 单元测试 [https://github.com/banditcpp/bandit](https://github.com/banditcpp/bandit)
+- [https://github.com/catchorg/Catch2](https://github.com/catchorg/Catch2)
 - 构建语言运行时 [https://github.com/eclipse/omr](https://github.com/eclipse/omr)
 - HTML转换为PDF [https://github.com/wkhtmltopdf](https://github.com/wkhtmltopdf)
 - 分析器 [https://github.com/bombomby/optick](https://github.com/bombomby/optick)

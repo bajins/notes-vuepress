@@ -207,6 +207,7 @@
 * 媒体类型 [http://github.com/gabriel-vasile/mimetype](http://github.com/gabriel-vasile/mimetype)
 * 图片转换 [https://github.com/gographics/imagick](https://github.com/gographics/imagick)
 * [https://github.com/davidbyttow/govips](https://github.com/davidbyttow/govips)
+* [https://github.com/zyxar/image2ascii](https://github.com/zyxar/image2ascii)
 * 地图 [https://github.com/tidwall/tile38](https://github.com/tidwall/tile38)
 * 限速 [https://github.com/Narasimha1997/ratelimiter](https://github.com/Narasimha1997/ratelimiter)
 * 配置文件 [https://github.com/go-ini/ini](https://github.com/go-ini/ini)

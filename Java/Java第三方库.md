@@ -256,6 +256,7 @@
 - 图片处理 [https://github.com/jai-imageio](https://github.com/jai-imageio)
 - [https://github.com/levigo/jbig2-imageio](https://github.com/levigo/jbig2-imageio)
 - [https://github.com/haraldk/TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys)
+- [https://github.com/imcdonagh/image4j](https://github.com/imcdonagh/image4j)
 - 图片压缩 [https://github.com/coobird/thumbnailator](https://github.com/coobird/thumbnailator)
     - [http://projects.coobird.net](http://projects.coobird.net)
 - [https://github.com/eclipsesource/J2V8](https://github.com/eclipsesource/J2V8)

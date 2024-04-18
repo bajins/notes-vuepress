@@ -14,7 +14,10 @@
     + [https://github.com/kaisery/trpl-zh-cn](https://github.com/kaisery/trpl-zh-cn)
     + [http://doc.rust-lang.org](http://doc.rust-lang.org)
     + [https://docs.rs](https://docs.rs)
-+ [https://github.com/rustlang-cn](https://github.com/rustlang-cn)
+    + [https://github.com/anowell/are-we-learning-yet](https://github.com/anowell/are-we-learning-yet)
+    + [https://github.com/areweguiyet/areweguiyet](https://github.com/areweguiyet/areweguiyet)
+    + [https://github.com/rust-gamedev/arewegameyet](https://github.com/rust-gamedev/arewegameyet)
++ [https://github.com/rust-lang-cn](https://github.com/rust-lang-cn)
 + [https://github.com/rust-lang-nursery](https://github.com/rust-lang-nursery)
     + [https://rust-lang-nursery.github.io/rust-cookbook](https://rust-lang-nursery.github.io/rust-cookbook)
 + [https://github.com/rust-embedded](https://github.com/rust-embedded)
@@ -41,6 +44,7 @@
 * [https://github.com/tomassedovic/roguelike-tutorial](https://github.com/tomassedovic/roguelike-tutorial)
 * Rust语言圣经 [https://github.com/sunface/rust-course](https://github.com/sunface/rust-course)
 * [https://github.com/chinanf-boy/rust-cookbook-zh](https://github.com/chinanf-boy/rust-cookbook-zh)
+* [https://github.com/huangjj27/async-book](https://github.com/huangjj27/async-book)
 * [https://github.com/studyrs/rusty-book](https://github.com/studyrs/rusty-book)
 * [https://github.com/google/comprehensive-rust](https://github.com/google/comprehensive-rust)
 * [https://github.com/LukeMathWalker/zero-to-production](https://github.com/LukeMathWalker/zero-to-production)
@@ -63,6 +67,7 @@
 
 
 - IDE [https://github.com/intellij-rust](https://github.com/intellij-rust)
+- [https://github.com/vadimcn/codelldb](https://github.com/vadimcn/codelldb)
 
 
 **不显示控制台窗口**
@@ -172,6 +177,9 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 - [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
 - HTML解析 [https://github.com/utkarshkukreti/select.rs](https://github.com/utkarshkukreti/select.rs)
 - [https://github.com/causal-agent/scraper](https://github.com/causal-agent/scraper)
+- [https://github.com/servo/html5ever](https://github.com/servo/html5ever)
+- [https://github.com/importcjj/nipper](https://github.com/importcjj/nipper)
+- [https://github.com/pulldown-cmark/pulldown-cmark](https://github.com/pulldown-cmark/pulldown-cmark)
 - 静态文件服务器 [https://github.com/ttys3/static-server](https://github.com/ttys3/static-server)
 - 媒体文件管理 [https://github.com/Dusk-Labs/dim](https://github.com/Dusk-Labs/dim)
 - 直播服务器 [https://github.com/harlanc/xiu](https://github.com/harlanc/xiu)
@@ -185,6 +193,8 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
     - TaskScheduler [https://github.com/mattrobineau/planif](https://github.com/mattrobineau/planif)
 - [https://github.com/retep998/winapi-rs](https://github.com/retep998/winapi-rs)
 - [https://github.com/rodrigocfd/winsafe](https://github.com/rodrigocfd/winsafe)
+- [https://github.com/rust-windowing](https://github.com/rust-windowing)
+- [https://github.com/mxre/winres](https://github.com/mxre/winres)
 - [https://github.com/Araxeus/tiny-native-scheduler](https://github.com/Araxeus/tiny-native-scheduler)
 - SSH [https://github.com/alexcrichton/ssh2-rs](https://github.com/alexcrichton/ssh2-rs)
 - [https://github.com/1148118271/ssh-rs](https://github.com/1148118271/ssh-rs)
@@ -230,6 +240,7 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 - [https://github.com/fitzgen/bumpalo](https://github.com/fitzgen/bumpalo)
 - [https://github.com/bitvecto-rs](https://github.com/bitvecto-rs)
 - 哈希 [https://github.com/tkaitchuck/ahash](https://github.com/tkaitchuck/ahash)
+- [https://github.com/wangyi-fudan/wyhash](https://github.com/wangyi-fudan/wyhash)
 - 加密 [https://github.com/cryptocorrosion/cryptocorrosion](https://github.com/cryptocorrosion/cryptocorrosion)
 - [https://github.com/jedisct1/rust-siphash](https://github.com/jedisct1/rust-siphash)
 - [https://github.com/hacspec/hacspec](https://github.com/hacspec/hacspec)
@@ -311,10 +322,10 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 - [https://github.com/rust-windowing/raw-window-handle](https://github.com/rust-windowing/raw-window-handle)
 - [https://github.com/wravery/webview2-rs](https://github.com/wravery/webview2-rs)
 - [https://github.com/seanmonstar/httparse](https://github.com/seanmonstar/httparse)
-- [https://github.com/image-rs/color_quant.git](https://github.com/image-rs/color_quant.git)
+- [https://github.com/image-rs](https://github.com/image-rs)
+- [https://github.com/mdsteele/rust-ico](https://github.com/mdsteele/rust-ico)
+- [https://github.com/cdown/icopng](https://github.com/cdown/icopng)
 - [https://github.com/Lokathor/bytemuck](https://github.com/Lokathor/bytemuck)
-- [https://github.com/image-rs/image](https://github.com/image-rs/image)
-- [https://github.com/image-rs/image-png.git](https://github.com/image-rs/image-png.git)
 - [https://github.com/Peternator7/strum](https://github.com/Peternator7/strum)
 - [https://github.com/nox/serde_urlencoded](https://github.com/nox/serde_urlencoded)
 - [https://github.com/toml-rs/toml](https://github.com/toml-rs/toml)
@@ -322,7 +333,6 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 - [https://github.com/seanmonstar/try-lock](https://github.com/seanmonstar/try-lock)
 - [https://github.com/seanmonstar/want](https://github.com/seanmonstar/want)
 - [https://github.com/hyperium/h2](https://github.com/hyperium/h2)
-- [https://github.com/mdsteele/rust-ico](https://github.com/mdsteele/rust-ico)
 - [https://github.com/abonander/mime_guess](https://github.com/abonander/mime_guess)
 - [https://github.com/hyperium/http-body](https://github.com/hyperium/http-body)
 - [https://github.com/tafia/quick-xml](https://github.com/tafia/quick-xml)
@@ -366,6 +376,11 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 - RPC [https://github.com/kwsc98/krpc-rust](https://github.com/kwsc98/krpc-rust)
 - 模板 [https://github.com/cobalt-org/liquid-rust](https://github.com/cobalt-org/liquid-rust)
 - [https://github.com/cargo-generate/cargo-generate](https://github.com/cargo-generate/cargo-generate)
+- 构建脚本 [https://github.com/nabijaczleweli/rust-embed-resource](https://github.com/nabijaczleweli/rust-embed-resource)
+- 模式匹配 [https://github.com/yorickpeterse/pattern-matching-in-rust](https://github.com/yorickpeterse/pattern-matching-in-rust)
+- 文件路径 [https://github.com/dirs-dev/dirs-rs](https://github.com/dirs-dev/dirs-rs)
+- 处理错误 [https://github.com/dtolnay/anyhow](https://github.com/dtolnay/anyhow)
+- 剪贴板 [https://github.com/1Password/arboard](https://github.com/1Password/arboard)
 
 
 

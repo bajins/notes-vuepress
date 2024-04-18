@@ -20,6 +20,8 @@
 + [https://github.com/Python-World](https://github.com/Python-World)
 + [https://github.com/taichi-dev/taichi](https://github.com/taichi-dev/taichi)
 + [https://github.com/kennethreitz/pep8.org](https://github.com/kennethreitz/pep8.org)
++ [https://github.com/hhatto/autopep8](https://github.com/hhatto/autopep8)
++ [https://github.com/psf/black](https://github.com/psf/black)
 
 
 * [GO-Node-Python的简单性能比较](https://www.izhongxia.com/posts/64310.html)

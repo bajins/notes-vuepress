@@ -334,6 +334,8 @@
     - [https://github.com/grails](https://github.com/grails)
     - [https://github.com/jruby/jruby](https://github.com/jruby/jruby)
 - Ruby [https://github.com/rails/rails](https://github.com/rails/rails)
+    - [https://github.com/ruby-formatter/rufo](https://github.com/ruby-formatter/rufo)
+    - [https://github.com/standardrb/standard](https://github.com/standardrb/standard)
     - [https://github.com/ruby-concurrency/concurrent-ruby](https://github.com/ruby-concurrency/concurrent-ruby)
     - [https://github.com/ruboto](https://github.com/ruboto)
     - [https://github.com/redcar](https://github.com/redcar)
@@ -344,6 +346,7 @@
     - [https://github.com/basecamp](https://github.com/basecamp)
     - 手写签字 [https://github.com/docusealco/docuseal](https://github.com/docusealco/docuseal)
 - Erlang [https://github.com/erlang](https://github.com/erlang)
+    - [https://github.com/WhatsApp/erlfmt](https://github.com/WhatsApp/erlfmt)
     - [https://github.com/terry-xiaoyu/learn-erlang-in-30-mins](https://github.com/terry-xiaoyu/learn-erlang-in-30-mins)
     - [https://github.com/joearms](https://github.com/joearms)
 - [https://github.com/ziglang](https://github.com/ziglang)
@@ -353,6 +356,7 @@
 - [https://github.com/elixir-lang/elixir](https://github.com/elixir-lang/elixir)
     - [https://github.com/elixirschool](https://github.com/elixirschool)
     - [https://github.com/phoenixframework/phoenix](https://github.com/phoenixframework/phoenix)
+    - [https://github.com/philss/floki](https://github.com/philss/floki)
 - [https://github.com/gleam-lang](https://github.com/gleam-lang)
 
 

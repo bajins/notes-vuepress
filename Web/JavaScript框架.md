@@ -27,6 +27,7 @@
 * [https://github.com/withastro/astro](https://github.com/withastro/astro)
 * [https://github.com/micro-zoe/micro-app](https://github.com/micro-zoe/micro-app)
 * [https://github.com/surveyjs](https://github.com/surveyjs)
+* [https://github.com/honojs/hono](https://github.com/honojs/hono)
 * WEB组件 [https://github.com/ing-bank/lion](https://github.com/ing-bank/lion)
 * [https://github.com/open-wc/open-wc](https://github.com/open-wc/open-wc)
 * [https://github.com/modernweb-dev/web](https://github.com/modernweb-dev/web)

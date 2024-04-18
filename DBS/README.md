@@ -174,6 +174,7 @@
 * [https://github.com/dragonflydb](https://github.com/dragonflydb)
 * [https://codeberg.org/redict/redict](https://codeberg.org/redict/redict)
 * [https://github.com/valkey-io/valkey](https://github.com/valkey-io/valkey)
+* [https://github.com/nalgeon/redka](https://github.com/nalgeon/redka)
 * [https://github.com/couchbase/moss](https://github.com/couchbase/moss)
 * [https://github.com/memcached/memcached](https://github.com/memcached/memcached)
     * [https://github.com/bradfitz/gomemcache](https://github.com/bradfitz/gomemcache)
