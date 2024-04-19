@@ -164,6 +164,7 @@
         * [https://localforage.docschina.org](https://localforage.docschina.org)
 * [https://github.com/typicode/lowdb](https://github.com/typicode/lowdb)
 * [https://github.com/marcuswestin/store.js](https://github.com/marcuswestin/store.js)
+* [https://github.com/KID-joker/stokado](https://github.com/KID-joker/stokado)
 * [https://github.com/adiwajshing/keyed-db](https://github.com/adiwajshing/keyed-db)
 * [https://github.com/gruns/ImmortalDB](https://github.com/gruns/ImmortalDB)
 * [https://github.com/dfahlander/Dexie.js](https://github.com/dfahlander/Dexie.js)
@@ -215,6 +216,8 @@
 * [https://github.com/ramda/ramda](https://github.com/ramda/ramda)
 * [https://github.com/proYang/outils](https://github.com/proYang/outils)
 * [https://github.com/jsuites/jsuites](https://github.com/jsuites/jsuites)
+* [https://github.com/o0101/-](https://github.com/o0101/-)
+* [https://github.com/kennyfrc/cami.js](https://github.com/kennyfrc/cami.js)
 * 工具库 [https://github.com/tnfe/bbo](https://github.com/tnfe/bbo)
 * [https://github.com/blitz-js](https://github.com/blitz-js)
     * [https://www.blitzjs.cn](https://www.blitzjs.cn)
@@ -480,6 +483,7 @@
 * [https://github.com/kitware/vtk-js](https://github.com/kitware/vtk-js)
 * [https://github.com/scottcgi/MojoJS-Animation](https://github.com/scottcgi/MojoJS-Animation)
 * [https://github.com/drawcall/Proton](https://github.com/drawcall/Proton)
+* [https://github.com/dromara/newcar](https://github.com/dromara/newcar)
 
 
 

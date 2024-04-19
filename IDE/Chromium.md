@@ -24,11 +24,14 @@
 * 数据同步 [https://www.xbrowsersync.org](https://www.xbrowsersync.org)
 * [https://www.grabox.net](https://www.grabox.net)
 * User-Agent正则 [https://github.com/ua-parser/uap-core](https://github.com/ua-parser/uap-core)
+* 匿名跟踪测试 [https://firstpartysimulator.org](https://firstpartysimulator.org)
 
 
 
 - [ERR_UNSAFE_PORT浏览器安全端口问题无法访问的解决方案](https://blog.csdn.net/kjcxmx/article/details/118122483)
 - [Chrome 浏览器运行原理你了解多少？](https://mp.weixin.qq.com/s/wjrcO2Ej7BEThWVsCnXEtA)
+- [https://github.com/linxiaowu66/doumi-blog](https://github.com/linxiaowu66/doumi-blog)
+    - [如何找到Chrome的Crash原因？](https://blog.5udou.cn/blog/detail/1711630845567)
 
 
 ## 浏览器下载

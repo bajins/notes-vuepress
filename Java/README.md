@@ -40,7 +40,6 @@
 * [https://github.com/su18](https://github.com/su18)
 * [https://github.com/phith0n](https://github.com/phith0n)
 * [https://github.com/vulhub](https://github.com/vulhub)
-* 10亿行性能测试 [https://github.com/gunnarmorling/1brc](https://github.com/gunnarmorling/1brc)
 * [开源教程、开发者工具、编程网站和技术资源](https://www.zhihu.com/people/46-36-54-51-89/posts)
 
 

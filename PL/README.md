@@ -46,6 +46,11 @@
 + 游戏开发技术图谱 [https://github.com/gonglei007/GameDevMind](https://github.com/gonglei007/GameDevMind)
 + WEB框架基准测试 [https://github.com/TechEmpower/FrameworkBenchmarks](https://github.com/TechEmpower/FrameworkBenchmarks)
 + [https://github.com/the-benchmarker/web-frameworks](https://github.com/the-benchmarker/web-frameworks)
++ 10亿行性能测试 [https://github.com/gunnarmorling/1brc](https://github.com/gunnarmorling/1brc)
++ [https://github.com/lehuyduc/1brc-simd](https://github.com/lehuyduc/1brc-simd)
++ [https://github.com/buybackoff/1brc](https://github.com/buybackoff/1brc)
++ [https://github.com/RagnarGrootKoerkamp/1brc](https://github.com/RagnarGrootKoerkamp/1brc)
+    + [https://curiouscoding.nl/posts/1brc](https://curiouscoding.nl/posts/1brc)
 
 
 * [python、java、c、go执行速度对比](https://www.jianshu.com/p/d60eff598aa0)

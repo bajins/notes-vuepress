@@ -29,6 +29,7 @@
 * [https://github.com/scrapy/scrapy](https://github.com/scrapy/scrapy)
 * [https://github.com/mouday/spider-admin-pro](https://github.com/mouday/spider-admin-pro)
 * [https://github.com/BuilderIO/gpt-crawler](https://github.com/BuilderIO/gpt-crawler)
+* AI辅助 [https://github.com/coder-hxl/x-crawl](https://github.com/coder-hxl/x-crawl)
 
 
 **[xpath和css选择器](/Web/README.md#xpath和css选择器)**

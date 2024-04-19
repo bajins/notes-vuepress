@@ -10,6 +10,8 @@
 
 + [https://github.com/SPLware/esProc](https://github.com/SPLware/esProc)
 + 数据库大全 [https://github.com/cmu-db/dbdb.io](https://github.com/cmu-db/dbdb.io)
++ 基准测试 [https://github.com/ClickHouse/ClickBench](https://github.com/ClickHouse/ClickBench)
++ [https://github.com/zilliztech/VectorDBBench](https://github.com/zilliztech/VectorDBBench)
 
 
 * [https://github.com/pingcap/awesome-database-learning](https://github.com/pingcap/awesome-database-learning)
@@ -127,8 +129,6 @@
 
 ## 其他数据库
 
-
-+ [https://github.com/cmu-db/dbdb.io](https://github.com/cmu-db/dbdb.io)
 + [https://github.com/polardb](https://github.com/polardb)
 + [https://db-engines.com/en/ranking](https://db-engines.com/en/ranking)
     + [https://q-success.com/web_services](https://q-success.com/web_services)
@@ -238,6 +238,7 @@
 
 
 - [https://github.com/bridgedb/BridgeDb](https://github.com/bridgedb/BridgeDb)
+- [https://www.microsoft.com/zh-cn/sql-server](https://www.microsoft.com/zh-cn/sql-server)
 - 去中心化 [https://github.com/dolthub/dolt](https://github.com/dolthub/dolt)
     - [https://github.com/attic-labs/noms](https://github.com/attic-labs/noms)
 - 移动数据库 [https://github.com/realm/realm-core](https://github.com/realm/realm-core)
@@ -247,8 +248,6 @@
 - [https://github.com/StarRocks/starrocks](https://github.com/StarRocks/starrocks)
 - [https://github.com/apache/incubator-paimon](https://github.com/apache/incubator-paimon)
 - [https://github.com/pola-rs/polars](https://github.com/pola-rs/polars)
-- 向量化数据库 [https://github.com/facebookincubator/velox](https://github.com/facebookincubator/velox)
-- 矢量数据库 [https://github.com/milvus-io/milvus](https://github.com/milvus-io/milvus)
 - [https://github.com/topics/spark](https://github.com/topics/spark)
     - [https://github.com/apache/spark](https://github.com/apache/spark)
         - [https://github.com/allwefantasy/spark-binlog](https://github.com/allwefantasy/spark-binlog)
@@ -257,11 +256,18 @@
     - [https://github.com/lw-lin/CoolplaySpark](https://github.com/lw-lin/CoolplaySpark)
     - [https://github.com/databricks/koalas](https://github.com/databricks/koalas)
 - [https://github.com/snowflakedb](https://github.com/snowflakedb)
-- [https://github.com/datafuselabs/databend](https://github.com/datafuselabs/databend)
-- [https://www.microsoft.com/zh-cn/sql-server](https://www.microsoft.com/zh-cn/sql-server)
+- 向量/矢量数据库 [https://github.com/facebookincubator/velox](https://github.com/facebookincubator/velox)
+- [https://github.com/facebookresearch/faiss](https://github.com/facebookresearch/faiss)
+- [https://github.com/chroma-core/chroma](https://github.com/chroma-core/chroma)
+-  [https://github.com/milvus-io/milvus](https://github.com/milvus-io/milvus)
 - [https://github.com/weaviate/weaviate](https://github.com/weaviate/weaviate)
 - [https://github.com/qdrant/qdrant](https://github.com/qdrant/qdrant)
-- [https://github.com/chroma-core/chroma](https://github.com/chroma-core/chroma)
+- [https://github.com/datafuselabs/databend](https://github.com/datafuselabs/databend)
+- [https://github.com/vespa-engine/vespa](https://github.com/vespa-engine/vespa)
+- [https://github.com/vdaas/vald](https://github.com/vdaas/vald)
+- [https://github.com/pgvector/pgvector](https://github.com/pgvector/pgvector)
+- [https://github.com/towhee-io](https://github.com/towhee-io)
+- [https://github.com/pinecone-io](https://github.com/pinecone-io)
 - 金融数据库 [https://github.com/tigerbeetle/tigerbeetle](https://github.com/tigerbeetle/tigerbeetle)
 
 

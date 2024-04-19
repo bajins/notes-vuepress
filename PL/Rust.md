@@ -50,6 +50,7 @@
 * [https://github.com/LukeMathWalker/zero-to-production](https://github.com/LukeMathWalker/zero-to-production)
 * [https://github.com/phil-opp/blog_os](https://github.com/phil-opp/blog_os)
 * [https://learnku.com/rust/docs](https://learnku.com/rust/docs)
+* [https://github.com/nnethercote/perf-book](https://github.com/nnethercote/perf-book)
 * [Rust - 花落花开](http://www.hualuohuakai.net/tags/Rust)
 * [http://www.telihai.com](http://www.telihai.com)
 * [https://budshome.com](https://budshome.com)
@@ -381,6 +382,7 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 - 文件路径 [https://github.com/dirs-dev/dirs-rs](https://github.com/dirs-dev/dirs-rs)
 - 处理错误 [https://github.com/dtolnay/anyhow](https://github.com/dtolnay/anyhow)
 - 剪贴板 [https://github.com/1Password/arboard](https://github.com/1Password/arboard)
+- 字符串搜索 [https://github.com/BurntSushi/memchr](https://github.com/BurntSushi/memchr)
 
 
 

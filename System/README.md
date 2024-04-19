@@ -192,6 +192,7 @@
 * [https://github.com/pymumu/smartdns](https://github.com/pymumu/smartdns)
 * DNS扫描 [https://github.com/pwnesia/dnstake](https://github.com/pwnesia/dnstake)
 * [https://github.com/zartbot/ztrace](https://github.com/zartbot/ztrace)
+* 客户端 [https://github.com/mr-karan/doggo](https://github.com/mr-karan/doggo)
 
 
 
@@ -314,10 +315,12 @@
     * [https://github.com/eclipse-cdt-cloud](https://github.com/eclipse-cdt-cloud)
 * [https://github.com/sysstat/sysstat](https://github.com/sysstat/sysstat)
 * [https://github.com/may-fly/mayfly-go](https://github.com/may-fly/mayfly-go)
+* [https://github.com/amuluze/amprobe](https://github.com/amuluze/amprobe)
 * 实时崩溃报告 [https://github.com/getsentry](https://github.com/getsentry)
 * [https://github.com/highlight/highlight](https://github.com/highlight/highlight)
 * [https://github.com/uptimerobot](https://github.com/uptimerobot)
 * [https://github.com/msgbyte/tianji](https://github.com/msgbyte/tianji)
+* [https://github.com/bboysoulcn/telemonitor](https://github.com/bboysoulcn/telemonitor)
 
 
 
