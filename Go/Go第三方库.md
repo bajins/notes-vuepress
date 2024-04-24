@@ -262,6 +262,7 @@
 - [https://github.com/LyricTian/gin-admin](https://github.com/LyricTian/gin-admin)
 - [https://github.com/hzwy23/hauth](https://github.com/hzwy23/hauth)
 - 天体数据 [https://github.com/celestiaorg/celestia-node](https://github.com/celestiaorg/celestia-node)
+- 后台管理模板 [https://github.com/bufanyun/hotgo](https://github.com/bufanyun/hotgo)
 
 
 ## 框架

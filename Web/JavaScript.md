@@ -97,6 +97,7 @@
 * 学习代码总结 [https://github.com/csxiaoyaojianxian/JavaScriptStudy](https://github.com/csxiaoyaojianxian/JavaScriptStudy)
 * [https://github.com/comehope/front-end-daily-challenges](https://github.com/comehope/front-end-daily-challenges)
 * [https://github.com/gothinkster/realworld](https://github.com/gothinkster/realworld)
+* [https://github.com/tanpero/JavaScript-Art-Tour](https://github.com/tanpero/JavaScript-Art-Tour)
 * 前端面试手册 [https://github.com/yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook)
 * [https://github.com/loverajoel/jstips](https://github.com/loverajoel/jstips)
 * [https://www.javascriptcn.com](https://www.javascriptcn.com) 1212/1024

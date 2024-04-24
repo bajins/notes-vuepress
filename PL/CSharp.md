@@ -148,14 +148,15 @@
 - 代码风格 [https://github.com/DotNetAnalyzers/StyleCopAnalyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers)
 - [https://github.com/luoyunchong/lin-cms-dotnetcore](https://github.com/luoyunchong/lin-cms-dotnetcore)
 - [https://github.com/WilliamXu96/ABP-MicroService](https://github.com/WilliamXu96/ABP-MicroService)
-- 反编译 [https://github.com/dnSpy/dnSpy](https://github.com/dnSpy/dnSpy)
+- 反编译 ~~[https://github.com/dnSpy/dnSpy](https://github.com/dnSpy/dnSpy)~~
     - [https://github.com/icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy)
     - [https://github.com/0xd4d/dnlib](https://github.com/0xd4d/dnlib)
-    - [https://github.com/de4dot/de4dot](https://github.com/de4dot/de4dot)
-- [https://github.com/icedland/iced](https://github.com/icedland/iced)
-- [https://github.com/sailro/Reflexil](https://github.com/sailro/Reflexil)
+    - ~~[https://github.com/de4dot/de4dot](https://github.com/de4dot/de4dot)~~
+    - [https://github.com/dnSpyEx](https://github.com/dnSpyEx)
+        - ~~[https://github.com/sailro/Reflexil](https://github.com/sailro/Reflexil)~~
+- dotPeekn [https://www.jetbrains.com/decompiler/download](https://www.jetbrains.com/decompiler/download)
 - [https://www.red-gate.com/products/dotnet-development/reflector](https://www.red-gate.com/products/dotnet-development/reflector)
-- dotPeekn [https://www.jetbrains.com.cn/decompiler](https://www.jetbrains.com.cn/decompiler)
+- [https://github.com/icedland/iced](https://github.com/icedland/iced)
 - 反混淆 [https://github.com/SychicBoy/NetReactorSlayer](https://github.com/SychicBoy/NetReactorSlayer)
 - 混淆工具 [https://www.red-gate.com/products/smartassembly](https://www.red-gate.com/products/smartassembly)
 - [http://www.vgrsoft.net/Products/ILProtector](http://www.vgrsoft.net/Products/ILProtector)
@@ -262,6 +263,7 @@
 * 捕获数据包 [https://github.com/dotpcap](https://github.com/dotpcap)
 * 软件更新 [https://github.com/NetSparkleUpdater/NetSparkle](https://github.com/NetSparkleUpdater/NetSparkle)
 * 图片处理 [https://github.com/imazen](https://github.com/imazen)
+* [https://github.com/dlemstra/Magick.NET](https://github.com/dlemstra/Magick.NET)
 * 数学计算 [https://github.com/codingseb/ExpressionEvaluator](https://github.com/codingseb/ExpressionEvaluator)
 * 日志 [https://github.com/serilog/serilog](https://github.com/serilog/serilog)
 * [https://github.com/IzyPro/WatchDog](https://github.com/IzyPro/WatchDog)

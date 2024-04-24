@@ -154,6 +154,7 @@
 * [https://jpegclub.org/jpegtran](https://jpegclub.org/jpegtran)
 * [https://sourceforge.net/projects/pmt](https://sourceforge.net/projects/pmt)
 * [https://www.ijg.org](https://www.ijg.org)
+* [https://github.com/DanBloomberg/leptonica](https://github.com/DanBloomberg/leptonica)
 * PCI [https://github.com/pciutils/pciutils](https://github.com/pciutils/pciutils)
 * HTTP [https://github.com/mirror/wget](https://github.com/mirror/wget)
     * [https://gitlab.com/gnuwget/wget2](https://gitlab.com/gnuwget/wget2)
