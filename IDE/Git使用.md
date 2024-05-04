@@ -66,6 +66,7 @@
 * SmartGit 是一款优秀的图形化Git仓库管理工具
 * SmartSVN 是一款优秀的图形化SVN仓库管理工具
 * diff [https://github.com/MrWangJustToDo/git-diff-view](https://github.com/MrWangJustToDo/git-diff-view)
+* [https://github.com/dandavison/delta](https://github.com/dandavison/delta)
 * 代码语法突出 [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
 * git加密 [https://github.com/AGWA/git-crypt](https://github.com/AGWA/git-crypt)
 * 自动补全 [https://github.com/dahlbyk/posh-git](https://github.com/dahlbyk/posh-git)

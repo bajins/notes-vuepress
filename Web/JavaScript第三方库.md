@@ -241,6 +241,7 @@
 * 日历 [https://github.com/schedule-x/schedule-x](https://github.com/schedule-x/schedule-x)
 * 字符串解析和格式化 [https://github.com/ljharb/qs](https://github.com/ljharb/qs)
 * 日志 [https://github.com/winstonjs/winston](https://github.com/winstonjs/winston)
+* 主线程上运行 [https://github.com/astoilkov/main-thread-scheduling](https://github.com/astoilkov/main-thread-scheduling)
 
 
 - 数字精度 [https://github.com/topics/arbitrary-precision](https://github.com/topics/arbitrary-precision)

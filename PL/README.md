@@ -27,6 +27,7 @@
 - [https://github.com/shengxinjing/programmer-job-blacklist](https://github.com/shengxinjing/programmer-job-blacklist)
 - 推广渠道 [https://github.com/naxiaoduo/1000UserGuide](https://github.com/naxiaoduo/1000UserGuide)
 - [Sam Altman的创业手册](https://jxp73q7qjsg.feishu.cn/docx/WCNZdKDa4o2eUrxK5ElcfBXEnah)
+- 硬地骇客 [https://github.com/hardhackerlabs/book](https://github.com/hardhackerlabs/book)
 
 
 

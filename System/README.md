@@ -190,6 +190,7 @@
 * [https://github.com/bluejekyll/trust-dns](https://github.com/bluejekyll/trust-dns)
 * [https://github.com/IrineSistiana/mosdns](https://github.com/IrineSistiana/mosdns)
 * [https://github.com/pymumu/smartdns](https://github.com/pymumu/smartdns)
+* [https://github.com/nextdns/nextdns](https://github.com/nextdns/nextdns)
 * DNS扫描 [https://github.com/pwnesia/dnstake](https://github.com/pwnesia/dnstake)
 * [https://github.com/zartbot/ztrace](https://github.com/zartbot/ztrace)
 * 客户端 [https://github.com/mr-karan/doggo](https://github.com/mr-karan/doggo)
@@ -483,6 +484,7 @@
 * 项目落地页 [https://github.com/weijunext/landing-page-boilerplate](https://github.com/weijunext/landing-page-boilerplate)
 * 表单生成 [https://github.com/heyform/heyform](https://github.com/heyform/heyform)
 * 管理后台 [https://github.com/dashpresshq/dashpress](https://github.com/dashpresshq/dashpress)
+* 文件共享 [https://github.com/stonith404/pingvin-share](https://github.com/stonith404/pingvin-share)
 
 
 

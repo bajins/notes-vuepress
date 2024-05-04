@@ -145,6 +145,7 @@ volumes:
 * [目录 - P3TERX ZONE](https://p3terx.com/archives.html)
 * [https://github.com/tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet)
 * 发现造假stars [https://github.com/dagster-io/fake-star-detector](https://github.com/dagster-io/fake-star-detector)
+* 2FA身份验证 [https://github.com/Dolov/chrome-github-2fa](https://github.com/Dolov/chrome-github-2fa)
 
 
 - [https://github.com/zenodo/zenodo](https://github.com/zenodo/zenodo)
@@ -167,9 +168,10 @@ volumes:
 - GitHub存档 [https://www.gharchive.org](https://www.gharchive.org)
 - [https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
 - [https://github.com/cfour-hi/gitstars](https://github.com/cfour-hi/gitstars)
-- 开源项目刊栏: [https://github.com/521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub)
-- GitHub每周趋势 [https://github.com/SolaTyolo/gold_github_trending](https://github.com/SolaTyolo/gold_github_trending)
-- GitHub每天趋势 [https://github.com/yangwenmai/github-trending-backup](https://github.com/yangwenmai/github-trending-backup)
+- 开源项目刊栏 [https://github.com/521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub)
+- [https://github.com/LeslieLeung/cat-fish-weekly](https://github.com/LeslieLeung/cat-fish-weekly)
+- GitHub趋势 [https://github.com/SolaTyolo/gold_github_trending](https://github.com/SolaTyolo/gold_github_trending)
+- [https://github.com/yangwenmai/github-trending-backup](https://github.com/yangwenmai/github-trending-backup)
 - [https://github.com/HelloGitHub-Team/Article](https://github.com/HelloGitHub-Team/Article)
 - [https://github.com/tophubs](https://github.com/tophubs)
 - [https://www.tkcnn.com](https://www.tkcnn.com)

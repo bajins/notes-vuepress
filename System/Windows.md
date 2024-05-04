@@ -38,6 +38,9 @@
 
 - [https://sdi-tool.org](https://sdi-tool.org)
 - [https://www.iobit.com/en/driver-booster.php](https://www.iobit.com/en/driver-booster.php)
+- 网络测试 [https://github.com/microsoft/ctsTraffic](https://github.com/microsoft/ctsTraffic)
+- [https://github.com/microsoft/ntttcp](https://github.com/microsoft/ntttcp)
+- [https://github.com/microsoft/latte](https://github.com/microsoft/latte)
 
 
 **Windows11右键菜单**

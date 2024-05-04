@@ -17,38 +17,6 @@
 - [Linux下Shell脚本字符串单引号、双引号、反引号、反斜杠的作用和区别](https://www.cnblogs.com/EasonJim/p/8018545.html)
 
 
-**命令替代品**
-
-+ [https://github.com/ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix)
-+ [https://github.com/vastutsav/command-line-quick-reference](https://github.com/vastutsav/command-line-quick-reference)
-+ [https://github.com/onetrueawk/awk](https://github.com/onetrueawk/awk)
-+ [https://github.com/Equationzhao/g](https://github.com/Equationzhao/g)
-+ [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
-+ [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
-+ 历史记录 [https://github.com/ddworken/hishtory](https://github.com/ddworken/hishtory)
-+ [https://github.com/YiNNx/cmd-wrapped](https://github.com/YiNNx/cmd-wrapped)
-+ kill [https://github.com/jkfran/killport](https://github.com/jkfran/killport)
-+ ack [https://github.com/ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher)
-+ 终端图像查看 [https://github.com/stefanhaustein/TerminalImageViewer](https://github.com/stefanhaustein/TerminalImageViewer)
-+ 地图 [https://github.com/rastapasta/mapscii](https://github.com/rastapasta/mapscii)
-+ 电子表格 [https://github.com/saulpw/visidata](https://github.com/saulpw/visidata)
-+ 逆向工程 [https://github.com/radareorg/radare2](https://github.com/radareorg/radare2)
-+ 查看日志文件 [https://github.com/bensadeh/tailspin](https://github.com/bensadeh/tailspin)
-+ [https://github.com/Textualize/toolong](https://github.com/Textualize/toolong)
-+ cat [https://github.com/swsnr/mdcat](https://github.com/swsnr/mdcat)
-+ 文件管理 [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
-+ SCP [https://github.com/lengyijun/smartscp](https://github.com/lengyijun/smartscp)
-+ CP [https://github.com/tarka/xcp](https://github.com/tarka/xcp)
-+ 加密 [https://github.com/candiddev/rot](https://github.com/candiddev/rot)
-+ JSON [https://github.com/stedolan/jq](https://github.com/stedolan/jq)
-    + [https://stedolan.github.io/jq](https://stedolan.github.io/jq)
-+ [https://github.com/simeji/jid](https://github.com/simeji/jid)
-    + [https://github.com/fiatjaf/jiq](https://github.com/fiatjaf/jiq)
-+ [https://github.com/wader/fq](https://github.com/wader/fq)
-+ [https://github.com/ynqa/jnv](https://github.com/ynqa/jnv)
-+ HTML [https://github.com/ericchiang/pup](https://github.com/ericchiang/pup)
-
-
 
 ## 运行程序
 

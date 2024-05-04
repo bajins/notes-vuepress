@@ -259,7 +259,6 @@
 - [https://github.com/imcdonagh/image4j](https://github.com/imcdonagh/image4j)
 - 图片压缩 [https://github.com/coobird/thumbnailator](https://github.com/coobird/thumbnailator)
     - [http://projects.coobird.net](http://projects.coobird.net)
-- [https://github.com/eclipsesource/J2V8](https://github.com/eclipsesource/J2V8)
 - 压缩文件 [https://github.com/junrar/junrar](https://github.com/junrar/junrar)
 - [https://github.com/apache/commons-compress](https://github.com/apache/commons-compress)
 - [https://github.com/airlift/aircompressor](https://github.com/airlift/aircompressor)

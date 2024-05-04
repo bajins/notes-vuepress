@@ -94,7 +94,7 @@
 * [https://github.com/RedSpider1/concurrent](https://github.com/RedSpider1/concurrent)
 * [https://github.com/javagrowing/JGrowing](https://github.com/javagrowing/JGrowing)
 * [https://github.com/dunwu/java-tutorial](https://github.com/dunwu/java-tutorial)
-* 面试题 [https://gitee.com/souyunku/DevBooks](https://github.com/souyunku/DevBooks)
+* 面试题 [https://gitee.com/souyunku/DevBooks](https://gitee.com/souyunku/DevBooks)
 * [https://github.com/Tyson0314/Java-learning](https://github.com/Tyson0314/Java-learning)
 * [https://github.com/xbox1994/Java-Interview](https://github.com/xbox1994/Java-Interview)
 * Java服务端知识技能图谱 [https://github.com/caison/java-knowledge-mind-map](https://github.com/caison/java-knowledge-mind-map)

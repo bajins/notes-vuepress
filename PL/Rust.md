@@ -65,6 +65,7 @@
 * [归档 | Jackeyzhe](https://jackeyzhe.github.io/archives)
 * [一名Java开发的Rust学习笔记](https://juejin.cn/post/7347190677505359906)
 * [Rust Cargo使用指南 | 第十四篇 | 发布配置 Profile](https://zhuanlan.zhihu.com/p/476524365)
+* [三年后，我们退出了 Rust 游戏开发](https://loglog.games/blog/leaving-rust-gamedev)
 
 
 - IDE [https://github.com/intellij-rust](https://github.com/intellij-rust)
@@ -215,6 +216,8 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 - 并发Map [https://github.com/xacrimon/dashmap](https://github.com/xacrimon/dashmap)
 - [https://github.com/rust-phf/rust-phf](https://github.com/rust-phf/rust-phf)
 - 正则搜索文件 [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
+- [https://github.com/robenkleene/rep-grep](https://github.com/robenkleene/rep-grep)
+- [https://github.com/robenkleene/ren-find](https://github.com/robenkleene/ren-find)
 - [https://github.com/acheronfail/repgrep](https://github.com/acheronfail/repgrep)
 - 参数解析器 [https://github.com/clap-rs/clap](https://github.com/clap-rs/clap)
 - [https://github.com/TeXitoi/structopt](https://github.com/TeXitoi/structopt)

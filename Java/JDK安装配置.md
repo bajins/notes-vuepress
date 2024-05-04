@@ -88,7 +88,6 @@
     - [https://www.graalvm.org/reference-manual/native-image](https://www.graalvm.org/reference-manual/native-image)
     - 命令行 [https://github.com/remkop/picocli](https://github.com/remkop/picocli)
 - SubstrateVM [https://github.com/oracle/graal](https://github.com/oracle/graal)
-    - [https://github.com/oracle/graaljs](https://github.com/oracle/graaljs)
     - [https://github.com/westinyang/java-graalvm-start](https://github.com/westinyang/java-graalvm-start)
 - [https://github.com/spring-projects-experimental/spring-native](https://github.com/spring-projects-experimental/spring-native)
 - [https://docs.spring.io/spring-native/docs/current/reference/htmlsingle](https://docs.spring.io/spring-native/docs/current/reference/htmlsingle)

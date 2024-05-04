@@ -125,8 +125,6 @@
 * 替换服务器的固件 [https://github.com/linuxboot/linuxboot](https://github.com/linuxboot/linuxboot)
 
 
-- [https://github.com/busyloop/lolcat](https://github.com/busyloop/lolcat)
-- 替代find [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
 - Linux开源软件 [https://github.com/freedesktop](https://github.com/freedesktop)
     - [https://gitlab.freedesktop.org](https://gitlab.freedesktop.org)
     - [https://www.freedesktop.org](https://www.freedesktop.org)

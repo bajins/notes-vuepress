@@ -25,6 +25,7 @@
 * [https://www.grabox.net](https://www.grabox.net)
 * User-Agent正则 [https://github.com/ua-parser/uap-core](https://github.com/ua-parser/uap-core)
 * 匿名跟踪测试 [https://firstpartysimulator.org](https://firstpartysimulator.org)
+* [https://github.com/libredirect](https://github.com/libredirect)
 
 
 
