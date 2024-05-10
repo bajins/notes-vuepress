@@ -226,6 +226,8 @@
 * [https://github.com/sekrit-twc/zimg](https://github.com/sekrit-twc/zimg)
 * 图形可视化 [https://gitlab.com/graphviz/graphviz](https://gitlab.com/graphviz/graphviz)
 * godot游戏引擎支持JS [https://github.com/Geequlim/ECMAScript](https://github.com/Geequlim/ECMAScript)
+* 游戏框架 [https://github.com/cloudwu/skynet](https://github.com/cloudwu/skynet)
+* [https://github.com/ejoy/ant](https://github.com/ejoy/ant)
 * 呈现字体 [https://freetype.org](https://freetype.org)
 * [https://github.com/cacalabs/libcaca](https://github.com/cacalabs/libcaca)
 * 英特尔媒体调度 [https://github.com/lu-zero/mfx_dispatch](https://github.com/lu-zero/mfx_dispatch)

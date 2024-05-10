@@ -167,7 +167,6 @@
 * [https://github.com/nodenv/nodenv](https://github.com/nodenv/nodenv)
 * [https://github.com/nodesource/distributions](https://github.com/nodesource/distributions)
 * [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm)
-* [https://github.com/asdf-vm/asdf](https://github.com/asdf-vm/asdf)
 * [https://github.com/jdxcode/rtx](https://github.com/jdxcode/rtx)
 
 

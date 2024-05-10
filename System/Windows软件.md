@@ -176,6 +176,7 @@
     * [https://github.com/Dineshkarthik/telegram_media_downloader](https://github.com/Dineshkarthik/telegram_media_downloader)
     * [https://github.com/alfem/telegram-download-daemon](https://github.com/alfem/telegram-download-daemon)
     * [https://github.com/Nekmo/telegram-upload](https://github.com/Nekmo/telegram-upload)
+    * [https://github.com/IvanGlinkin/CCTV](https://github.com/IvanGlinkin/CCTV)
 * [https://github.com/idealclover/Telegram-Channel-Mirror](https://github.com/idealclover/Telegram-Channel-Mirror)
 * [https://github.com/kiwiirc](https://github.com/kiwiirc)
     * [https://freenode.net](https://freenode.net)
@@ -1055,6 +1056,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 ## Other
 
+* 删除广告 [https://github.com/xM4ddy/OFGB](https://github.com/xM4ddy/OFGB)
 * 监控网速CPU及内存 [https://github.com/zhongyang219/TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
 * [https://github.com/processhacker/processhacker](https://github.com/processhacker/processhacker)
 * [http://wenlei.ys168.com](http://wenlei.ys168.com)

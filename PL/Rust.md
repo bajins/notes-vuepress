@@ -386,6 +386,8 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 - 处理错误 [https://github.com/dtolnay/anyhow](https://github.com/dtolnay/anyhow)
 - 剪贴板 [https://github.com/1Password/arboard](https://github.com/1Password/arboard)
 - 字符串搜索 [https://github.com/BurntSushi/memchr](https://github.com/BurntSushi/memchr)
+- 动态加载链库 [https://github.com/nagisa/rust_libloading](https://github.com/nagisa/rust_libloading)
+- [https://github.com/emoon/dynamic_reload](https://github.com/emoon/dynamic_reload)
 
 
 

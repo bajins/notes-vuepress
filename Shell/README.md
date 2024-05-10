@@ -59,6 +59,7 @@
 + [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
 + 历史记录 [https://github.com/ddworken/hishtory](https://github.com/ddworken/hishtory)
 + [https://github.com/YiNNx/cmd-wrapped](https://github.com/YiNNx/cmd-wrapped)
++ [https://github.com/cantino/mcfly](https://github.com/cantino/mcfly)
 + kill [https://github.com/jkfran/killport](https://github.com/jkfran/killport)
 + ack [https://github.com/ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher)
 + 终端图像查看 [https://github.com/stefanhaustein/TerminalImageViewer](https://github.com/stefanhaustein/TerminalImageViewer)
@@ -82,6 +83,7 @@
 + HTML [https://github.com/ericchiang/pup](https://github.com/ericchiang/pup)
 + ACK [https://github.com/beyondgrep/ack3](https://github.com/beyondgrep/ack3)
 + Find [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
++ 系统信息 [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 
 
 **`terminal`、`shell`、`tty`、`console` 之间的区别**

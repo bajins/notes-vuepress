@@ -67,6 +67,15 @@
 4. 弱类型语言：允许隐式转换。
 
 
+**插件化**
+
+* [插件化开发探索与实践](https://blog.csdn.net/weixin_47560078/article/details/129347372)
+* [Rust 实现动态库加载和基于此功能实现的插件管理](https://www.insp.top/content/how-to-implement-dynamical-loading-and-plugin-manager-for-rust)
+* [掌握Rust中间件开发：提升性能与安全性](https://blog.csdn.net/silenceallat/article/details/137965315)
+* [【Rust】插件机制实现](https://zhuanlan.zhihu.com/p/52324874)
+* [Dynamic Loading & Plugins](https://michael-f-bryan.github.io/rust-ffi-guide/dynamic_loading.html)
+* [反射机制，热更新，插件化 ](https://www.cnblogs.com/wnpp/p/16053088.html)
+* [SpringBoot 插件化开发模式，强烈推荐！](https://mp.weixin.qq.com/s/EIVSisTW8gIpyfTWSHpB3g)
 
 
 
@@ -220,6 +229,14 @@
 * [https://github.com/skeeto/w64devkit](https://github.com/skeeto/w64devkit)
 * [https://github.com/lando/lando](https://github.com/lando/lando)
 * [https://github.com/cashapp/hermit](https://github.com/cashapp/hermit)
+* [https://github.com/gvcgo/version-manager](https://github.com/gvcgo/version-manager)
+* [https://github.com/version-fox/vfox](https://github.com/version-fox/vfox)
+* [https://github.com/asdf-vm/asdf](https://github.com/asdf-vm/asdf)
+    * [https://github.com/halcyon/asdf-java](https://github.com/halcyon/asdf-java)
+* 包管理器 [http://win-builds.org](http://win-builds.org)
+* [https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror)
+* [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate)
+* [https://github.com/NoCLin/LightMirrors](https://github.com/NoCLin/LightMirrors)
 * 性能跟踪分析 [https://github.com/topics/trace](https://github.com/topics/trace)
 * [https://github.com/brendangregg](https://github.com/brendangregg)
     * [https://github.com/opendtrace](https://github.com/opendtrace)
@@ -233,10 +250,6 @@
 * Linux开发Windows程序环境 [https://midipix.org](https://midipix.org)
     * [https://dev.midipix.org](https://dev.midipix.org)
     * [https://github.com/lalbornoz/midipix_build](https://github.com/lalbornoz/midipix_build)
-* 包管理器 [http://win-builds.org](http://win-builds.org)
-* [https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror)
-* [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate)
-* [https://github.com/NoCLin/LightMirrors](https://github.com/NoCLin/LightMirrors)
 * 云原生构建包 [https://github.com/buildpacks](https://github.com/buildpacks)
 * [https://github.com/defenseunicorns/zarf](https://github.com/defenseunicorns/zarf)
 * 微服务开发工具 [https://github.com/eko/monday](https://github.com/eko/monday)

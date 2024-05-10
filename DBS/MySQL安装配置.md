@@ -7,9 +7,12 @@
 ## Flag
 
 * [https://github.com/mysql](https://github.com/mysql)
-* [https://dev.mysql.com/downloads/mysql](https://dev.mysql.com/downloads/mysql)
+* [https://dev.mysql.com/downloads](https://dev.mysql.com/downloads)
 
 
+- [如何选择适合的 MySQL Connector/J 版本](https://segmentfault.com/a/1190000044667101)
+- [MySQL JDBC驱动版本与数据库版本的对应关系及注意事项](https://www.cnblogs.com/zxeao/p/16921457.html)
+- [mysql-connector-java与mysql以及JDK的对应版本](https://blog.csdn.net/xunxue1523/article/details/105524758)
 - [如何在 Ubuntu 20.04 上安装 MySQL](https://linuxize.com/post/how-to-install-mysql-on-ubuntu-20-04)
 - [ubuntu20 使用命令安装 mysql](https://www.cnblogs.com/cnwcl/p/13785655.html)
 - [ubuntu20 安装和配置mysql8.0.23](https://segmentfault.com/a/1190000039203507)

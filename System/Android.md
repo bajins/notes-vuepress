@@ -48,6 +48,7 @@
 + [https://github.com/pengMaster/BestNote](https://github.com/pengMaster/BestNote)
 + [https://github.com/Omooo/Android-Notes](https://github.com/Omooo/Android-Notes)
 + [https://github.com/simple-android-framework](https://github.com/simple-android-framework)
++ [https://github.com/javayhu](https://github.com/javayhu)
 + [归档 | Homurax's Blog](https://blog.homurax.com/archives)
 + [Android：JNI 与 NDK到底是什么？](https://blog.csdn.net/carson_ho/article/details/73250163)
 + [https://github.com/LoseNine/AndroidSystem](https://github.com/LoseNine/AndroidSystem)
@@ -355,8 +356,9 @@
 
 **插件化框架**
 
-- Dynamic-load-apk
-- DroidPlugin
+- [https://github.com/singwhatiwanna/dynamic-load-apk](https://github.com/singwhatiwanna/dynamic-load-apk)
+- [https://github.com/DroidPluginTeam/DroidPlugin](https://github.com/DroidPluginTeam/DroidPlugin)
+- [https://github.com/wequick/Small](https://github.com/wequick/Small)
 - DyLA : Dynamic-load-apk @singwhatiwanna, 百度
 - DiLA : Direct-Load-apk @FinalLody
 - APF : Android-Plugin-Framework @limpoxe
@@ -549,12 +551,15 @@
 * [https://github.com/aserbao/AndroidCamera](https://github.com/aserbao/AndroidCamera)
 * 视频播放 [https://nplayer.com](https://nplayer.com)
 * [https://github.com/Moriafly/SaltPlayerSource](https://github.com/Moriafly/SaltPlayerSource)
+    * [https://sakawish.github.io](https://sakawish.github.io)
+* [https://github.com/ZTFtrue/MonsterMusic](https://github.com/ZTFtrue/MonsterMusic)
 * 图片编辑 [https://qingtu.kajicam.com](https://qingtu.kajicam.com)
 * [https://www.magicut.cn](https://www.magicut.cn)
 * 手机变成计算机的麦克风 [https://wolicheng.com/womic](https://wolicheng.com/womic)
 * 备份数据 [https://github.com/XayahSuSuSu/Android-DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup)
 * 投屏 [https://github.com/barry-ran/QtScrcpy](https://github.com/barry-ran/QtScrcpy)
 * 保活 [https://github.com/fgkeepalive/AndroidKeepAlive](https://github.com/fgkeepalive/AndroidKeepAlive)
+* 翻译 [https://github.com/FunnySaltyFish/FunnyTranslation](https://github.com/FunnySaltyFish/FunnyTranslation)
 
 
 ### 证件照

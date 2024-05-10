@@ -175,6 +175,7 @@
 * [https://github.com/google/lovefield](https://github.com/google/lovefield)
 * [https://github.com/dexie/Dexie.js](https://github.com/dexie/Dexie.js)
 * [https://github.com/pamelafox/lscache](https://github.com/pamelafox/lscache)
+* [https://github.com/pubkey/rxdb](https://github.com/pubkey/rxdb)
 
 
 

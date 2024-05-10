@@ -20,6 +20,7 @@
 - 2023年终总结 [https://github.com/saveweb/review-2023](https://github.com/saveweb/review-2023)
 - [Huberman Lab Podcast 全系列笔记](https://zhuanlan.zhihu.com/p/676445568)
 - [https://github.com/zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization)
+- HackerNews每日AI摘要 [https://www.supertechfans.com/cn](https://www.supertechfans.com/cn)
 
 
 ## 学习
