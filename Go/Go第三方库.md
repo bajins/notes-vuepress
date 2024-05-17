@@ -51,6 +51,7 @@
 
 
 * 工具包 [https://github.com/dablelv/go-huge-util](https://github.com/dablelv/go-huge-util)
+* [https://github.com/jxskiss/gopkg](https://github.com/jxskiss/gopkg)
 * [https://github.com/uber-go](https://github.com/uber-go)
 * [https://github.com/gookit](https://github.com/gookit)
 * [https://github.com/VividCortex](https://github.com/VividCortex)
@@ -238,6 +239,7 @@
 * 单元测试 [https://github.com/maxbrunsfeld/counterfeiter](https://github.com/maxbrunsfeld/counterfeiter)
 * [https://github.com/onsi/gomega](https://github.com/onsi/gomega)
 * [https://github.com/maxbrunsfeld/counterfeiter](https://github.com/maxbrunsfeld/counterfeiter)
+* [https://github.com/go-kiss/monkey](https://github.com/go-kiss/monkey)
 * 定时器 [https://github.com/antlabs/timer](https://github.com/antlabs/timer)
 * 替换DOCX中的文本 [https://github.com/nguyenthenguyen/docx](https://github.com/nguyenthenguyen/docx)
 * [https://github.com/sajari/docconv](https://github.com/sajari/docconv)

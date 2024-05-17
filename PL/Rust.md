@@ -30,15 +30,9 @@
 + [https://github.com/rust-hosted-langs](https://github.com/rust-hosted-langs)
 + [https://github.com/jondot/rust-how-do-i-start](https://github.com/jondot/rust-how-do-i-start)
 + [https://github.com/fung-hwang/CS110L-2020spr](https://github.com/fung-hwang/CS110L-2020spr)
-+ crates字节跳动镜像代理 [https://rsproxy.cn](https://rsproxy.cn)
 + [https://github.com/roc-lang/roc](https://github.com/roc-lang/roc)
 
 
-- [Rust 如何实现单例模式？](https://www.zhihu.com/question/391694703)
-- [异步 HTTP](https://blog.yoshuawuyts.com/async-http)
-
-
-> `rustup default stable-x86_64-pc-windows-gnu` 使gnu（依赖于GNU/MinGW-w64）成为默认工具链
 
 * [https://github.com/ZhangHanDong/tao-of-rust-codes](https://github.com/ZhangHanDong/tao-of-rust-codes)
 * [https://github.com/tomassedovic/roguelike-tutorial](https://github.com/tomassedovic/roguelike-tutorial)
@@ -70,6 +64,8 @@
 
 - IDE [https://github.com/intellij-rust](https://github.com/intellij-rust)
 - [https://github.com/vadimcn/codelldb](https://github.com/vadimcn/codelldb)
+- [Rust 如何实现单例模式？](https://www.zhihu.com/question/391694703)
+- [异步 HTTP](https://blog.yoshuawuyts.com/async-http)
 
 
 **不显示控制台窗口**
@@ -85,6 +81,78 @@
 cargo rustc --release -- -Clink-args="/SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup"
 # GCC 
 cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
+```
+
+
+> `rustup default stable-x86_64-pc-windows-gnu` 使gnu（依赖于GNU/MinGW-w64）成为默认工具链
+
++ crates字节跳动镜像代理 [https://rsproxy.cn](https://rsproxy.cn)
++ [https://github.com/chanchancl/How-to-build-a-develop-environment-for-rust](https://github.com/chanchancl/How-to-build-a-develop-environment-for-rust)
+
+- Linux
+
+```bash
+# 设置系统级环境变量
+export RUSTUP_DIST_SERVER=https://mirrors.aliyun.com/rustup
+export RUSTUP_UPDATE_ROOT=https://mirrors.aliyun.com/rustup/rustup
+```
+
+- Windows
+
+```powershell
+# 设置系统级环境变量
+[Environment]::SetEnvironmentvariable("RUSTUP_DIST_SERVER", "https://mirrors.aliyun.com/rustup", "Machine")
+[Environment]::SetEnvironmentvariable("RUSTUP_UPDATE_ROOT", "https://mirrors.aliyun.com/rustup/rustup", "Machine")
+Set-ItemProperty -Path "Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment"\
+ -Name "RUSTUP_DIST_SERVER" -Value "https://mirrors.aliyun.com/rustup"
+Set-ItemProperty -Path "Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment"\
+ -Name "RUSTUP_UPDATE_ROOT" -Value "https://mirrors.aliyun.com/rustup/rustup"
+# 设置用户级环境变量
+New-Item -Path "Env:\RUSTUP_DIST_SERVER" -Value "https://mirrors.aliyun.com/rustup" -Force
+New-Item -Path "Env:\RUSTUP_UPDATE_ROOT" -Value "https://mirrors.aliyun.com/rustup/rustup" -Force
+New-Item -Path "Env:\" -Name "RUSTUP_DIST_SERVER" -Value "https://mirrors.aliyun.com/rustup" -Force
+New-Item -Path "Env:\" -Name "RUSTUP_UPDATE_ROOT" -Value "https://mirrors.aliyun.com/rustup/rustup" -Force
+Set-ItemProperty -Path "Registry::HKEY_CURRENT_USER\Environment" -Name "RUSTUP_DIST_SERVER" -Value "https://mirrors.aliyun.com/rustup"
+Set-ItemProperty -Path "Registry::HKEY_CURRENT_USER\Environment" -Name "RUSTUP_UPDATE_ROOT" -Value "https://mirrors.aliyun.com/rustup/rustup"
+```
+
+- Cargo镜像加速
+
+```conf
+# ~/.cargo/config
+# %USERPROFILE%.cargo\config
+[source.crates-io]
+# 源码地址
+registry = "https://github.com/rust-lang/crates.io-index"
+# 指定镜像
+#replace-with = 'sjtu'
+#replace-with = 'ustc'
+replace-with = 'rsproxy-sparse'
+[source.rsproxy]
+registry = "https://rsproxy.cn/crates.io-index"
+[source.rsproxy-sparse]
+registry = "sparse+https://rsproxy.cn/index/"
+[registries.rsproxy]
+index = "https://rsproxy.cn/crates.io-index"
+# 清华大学
+[source.tuna]
+registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
+# 中国科学技术大学
+[source.ustc]
+registry = "https://mirrors.ustc.edu.cn/crates.io-index"
+#registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+# 上海交通大学
+[source.sjtu]
+registry = "https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index"
+# rustcc社区
+[source.rustcc]
+registry = "git://crates.rustcc.cn/crates.io-index"
+[source.aliyun]
+registry = "https://code.aliyun.com/rustcc/crates.io-index"
+[net]
+git-fetch-with-cli=true
+[http]
+check-revoke = false
 ```
 
 

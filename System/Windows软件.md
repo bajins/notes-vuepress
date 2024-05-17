@@ -378,6 +378,8 @@
 * [https://www.getmusicbee.com](https://www.getmusicbee.com)
 * [https://github.com/Frank-Friemel/Shairport4w](https://github.com/Frank-Friemel/Shairport4w)
 * [https://github.com/maotoumao/MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop)
+    * [https://gitlab.com/acoolbook/musicfree](https://gitlab.com/acoolbook/musicfree)
+    * [https://gitee.com/raycn120/musicfree](https://gitee.com/raycn120/musicfree)
 * [https://github.com/synctv-org](https://github.com/synctv-org)
 * [https://github.com/Hunlongyu/ZY-Player](https://github.com/Hunlongyu/ZY-Player)
 

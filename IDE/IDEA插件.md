@@ -41,6 +41,7 @@
             * [https://jetbra.novitechie.com](https://jetbra.novitechie.com)
             * [https://jbls.ide-soft.com](https://jbls.ide-soft.com)
         * [https://github.com/LemonZuo/license](https://github.com/LemonZuo/license)
+        * [https://notabug.org/wmymz/jls](https://notabug.org/wmymz/jls)
         * [https://github.com/mqj0712/plugin-sg-valid](https://github.com/mqj0712/plugin-sg-valid)
     * [https://intxzt.github.io/2022/07/25/ja-netfilter/ja-netfilter-plugins-power](https://intxzt.github.io/2022/07/25/ja-netfilter/ja-netfilter-plugins-power)
 * [https://github.com/tikkid/JetbrainKiller](https://github.com/tikkid/JetbrainKiller/tree/92cc01f9baab488cc3d510793da7731b1f8e17a4) 最新免登录试用插件

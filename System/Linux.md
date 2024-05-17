@@ -31,6 +31,8 @@
 + [https://github.com/elastic/otel-profiling-agent](https://github.com/elastic/otel-profiling-agent)
 + [https://github.com/eunomia-bpf/bpf-developer-tutorial](https://github.com/eunomia-bpf/bpf-developer-tutorial)
 + [https://github.com/libbpf/libbpf-bootstrap](https://github.com/libbpf/libbpf-bootstrap)
++ [https://github.com/aya-rs/aya](https://github.com/aya-rs/aya)
++ [https://github.com/Sherlock-Holo/lycoris](https://github.com/Sherlock-Holo/lycoris)
 
 
 * [VIM键盘图形备忘单](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)

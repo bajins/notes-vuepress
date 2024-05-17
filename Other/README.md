@@ -91,6 +91,7 @@
 ## 通用镜像
 
 * [https://developer.aliyun.com/mirror](https://developer.aliyun.com/mirror)
+    * [https://mirrors.aliyun.com](https://mirrors.aliyun.com)
 * [https://github.com/cnpm](https://github.com/cnpm)
     * [https://npmmirror.com](https://npmmirror.com)
 * [https://mirrors.cloud.tencent.com](https://mirrors.cloud.tencent.com)
@@ -107,6 +108,9 @@
 * [https://github.com/zzh1996/USTC-Network-Resources](https://github.com/zzh1996/USTC-Network-Resources)
 * [https://github.com/ideal/mirror](https://github.com/ideal/mirror)
 * [https://github.com/opencas](https://github.com/opencas)
+* [https://github.com/mirrorz-org](https://github.com/mirrorz-org)
+    * [https://mirrors.cernet.edu.cn](https://mirrors.cernet.edu.cn)
+* [https://github.com/isrc-cas](https://github.com/isrc-cas)
 * [https://gdgshanghai.com](https://gdgshanghai.com)
 
 
@@ -194,14 +198,59 @@
 * [https://github.com/cqumirror](https://github.com/cqumirror)
 * IPv4 [https://mirrors.cqu.edu.cn](https://mirrors.cqu.edu.cn)
 
+**重庆邮电大学**
+
+* [https://github.com/CQUPTMirror](https://github.com/CQUPTMirror)
+
 
 **南阳理工学院开源镜像站**
 
-* [https://github.com/NYIST-OSUG](https://github.com/NYIST-OSUG)
+* [https://github.com/NYIST-CIPS](https://github.com/NYIST-CIPS)
 * IPv4&IPv6 [https://mirror.nyist.edu.cn](https://mirror.nyist.edu.cn)
 * IPv4 [https://mirror4.nyist.edu.cn](https://mirror4.nyist.edu.cn)
 * IPv6 [https://mirror6.nyist.edu.cn](https://mirror6.nyist.edu.cn)
 
+**南方科技大学**
+
+* [https://github.com/sustech-cra](https://github.com/sustech-cra)
+
+**山东大学**
+
+* [https://github.com/SDU-Mirrors](https://github.com/SDU-Mirrors)
+
+**齐鲁工业大学**
+
+* [https://github.com/qlu-mirrors](https://github.com/qlu-mirrors)
+
+**浙江大学**
+
+* [https://github.com/zjusct](https://github.com/zjusct)
+
+**吉林大学**
+
+* [https://github.com/JLULUG](https://github.com/JLULUG)
+
+**北京邮电大学**
+
+* [https://github.com/BYRIO](https://github.com/BYRIO)
+
+**荆楚理工学院**
+
+* [https://github.com/JCIOTeam](https://github.com/JCIOTeam)
+
+**北京大学**
+
+* [https://github.com/PKUOSC](https://github.com/PKUOSC)
+
+**上海交通大学/上海科技大学**
+
+* [https://github.com/sjtug](https://github.com/sjtug)
+* [https://github.com/ShanghaitechGeekPie](https://github.com/ShanghaitechGeekPie)
+
+**电子科技大学**
+
+* [https://github.com/uestclug](https://github.com/uestclug)
+* [https://gitlab.com/uestclug](https://gitlab.com/uestclug)
 
 
 
