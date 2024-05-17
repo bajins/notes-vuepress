@@ -172,6 +172,7 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * [https://www.meiye.art](https://www.meiye.art)
 * [https://uxbaike.com](https://uxbaike.com)
 * [https://mjcn.club](https://mjcn.club)
+* [https://www.logocook.shop/editor](https://www.logocook.shop/editor)
 
 
 ## 文档

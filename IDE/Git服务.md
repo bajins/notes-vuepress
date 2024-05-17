@@ -156,6 +156,7 @@ volumes:
     - [https://github.com/apps/pull](https://github.com/apps/pull)
     - [https://github.com/BlueskyClouds/My-Actions/blob/master/backUp/gitSync.md](https://github.com/BlueskyClouds/My-Actions/blob/master/backUp/gitSync.md)
 - GitHub的Java API [https://github.com/hub4j/github-api](https://github.com/hub4j/github-api)
+- 自动拉取请求 [https://github.com/dependabot/dependabot-core](https://github.com/dependabot/dependabot-core)
 - 项目管理 [https://www.zenhub.com](https://www.zenhub.com)
 
 

@@ -96,6 +96,7 @@
 - [https://github.com/OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin)
 - [https://github.com/stitionai/devika](https://github.com/stitionai/devika)
 - [https://github.com/aixcoder-plugin/aiXcoder-7B](https://github.com/aixcoder-plugin/aiXcoder-7B)
+- [https://github.com/ibm-granite](https://github.com/ibm-granite)
 - 突出显示重要代码 [https://github.com/novoselrok/glance](https://github.com/novoselrok/glance)
 - 代码转换 [https://github.com/JustAIGithub/AI-Code-Convert](https://github.com/JustAIGithub/AI-Code-Convert)
 - [https://github.com/ritz078/transform](https://github.com/ritz078/transform)
@@ -369,6 +370,7 @@
 * [https://github.com/patrikx3/redis-ui](https://github.com/patrikx3/redis-ui)
 * [https://github.com/ekvedaras/redis-gui](https://github.com/ekvedaras/redis-gui)
 * [https://github.com/tiny-craft/tiny-rdm](https://github.com/tiny-craft/tiny-rdm)
+* [https://github.com/taskforcesh/bullmq](https://github.com/taskforcesh/bullmq)
 
 
 

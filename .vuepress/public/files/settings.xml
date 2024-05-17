@@ -166,20 +166,26 @@ under the License.
         <id>alimaven</id>
         <name>aliyun maven</name>
         <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        <!-- 如果想为所有的仓库做镜像那么这里加* -->
+        <!--<mirrorOf>*</mirrorOf>-->
         <mirrorOf>central</mirrorOf>
     </mirror>
     <!-- https://mirrors.cloud.tencent.com/help/maven.html -->
     <mirror>
         <id>nexus-tencentyun</id>
-        <mirrorOf>*</mirrorOf>
         <name>Nexus tencentyun</name>
         <url>http://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
+        <!-- 如果想为所有的仓库做镜像那么这里加* -->
+        <!--<mirrorOf>*</mirrorOf>-->
+        <mirrorOf>central</mirrorOf>
     </mirror>
     <!-- ibiblio -->
     <mirror>
         <id>ibiblio</id>
         <name>Mirror from Maven ibiblio</name>
         <url>http://mirrors.ibiblio.org/pub/mirrors/maven2/</url>
+        <!-- 如果想为所有的仓库做镜像那么这里加* -->
+        <!--<mirrorOf>*</mirrorOf>-->
         <mirrorOf>central</mirrorOf>
     </mirror>
     <!-- 华为 使用华为Maven中央仓库时，需要在servers节点增加一个server子节点 -->
@@ -187,6 +193,8 @@ under the License.
         <id>huaweicloud</id>
         <name>mirror from maven huaweicloud</name>
         <url>https://mirror.huaweicloud.com/repository/maven/</url>
+        <!-- 如果想为所有的仓库做镜像那么这里加* -->
+        <!--<mirrorOf>*</mirrorOf>-->
         <mirrorOf>central</mirrorOf>
     </mirror>
     <!-- repo1.maven.org -->
@@ -194,6 +202,8 @@ under the License.
         <id>central</id>
         <name>Maven Repository Switchboard</name>
         <url>http://repo1.maven.org/maven2/</url>
+        <!-- 如果想为所有的仓库做镜像那么这里加* -->
+        <!--<mirrorOf>*</mirrorOf>-->
         <mirrorOf>central</mirrorOf>
     </mirror>
     <!-- repo1.maven.apache.org -->
@@ -208,20 +218,26 @@ under the License.
         <id>repo2</id>
         <name>Mirror from Maven Repo2</name>
         <url>http://repo2.maven.org/maven2/</url>
+        <!-- 如果想为所有的仓库做镜像那么这里加* -->
+        <!--<mirrorOf>*</mirrorOf>-->
         <mirrorOf>central</mirrorOf>
     </mirror>
     <!-- spring.io -->
     <mirror>
         <id>sprintio</id>
-        <mirrorOf>central</mirrorOf>
         <name>Human Readable Name for this Mirror.</name>
         <url>https://repo.spring.io/libs-snapshot/</url>
+        <!-- 如果想为所有的仓库做镜像那么这里加* -->
+        <!--<mirrorOf>*</mirrorOf>-->
+        <mirrorOf>central</mirrorOf>
     </mirror>
     <!-- uk.maven.org -->
     <mirror>
         <id>ui</id>
         <name>Mirror from UK</name>
         <url>http://uk.maven.org/maven2/</url>
+        <!-- 如果想为所有的仓库做镜像那么这里加* -->
+        <!--<mirrorOf>*</mirrorOf>-->
         <mirrorOf>central</mirrorOf>
     </mirror>
     <!-- repository.jboss.org -->
@@ -229,6 +245,8 @@ under the License.
         <id>jboss-public-repository-group</id>
         <name>JBoss Public Repository Group</name>
         <url>http://repository.jboss.org/nexus/content/groups/public</url>
+        <!-- 如果想为所有的仓库做镜像那么这里加* -->
+        <!--<mirrorOf>*</mirrorOf>-->
         <mirrorOf>central</mirrorOf>
     </mirror>
     <!-- Google -->
@@ -236,6 +254,8 @@ under the License.
         <id>google</id>
         <name>google maven</name>
         <url>https://maven.google.com/</url>
+        <!-- 如果想为所有的仓库做镜像那么这里加* -->
+        <!--<mirrorOf>*</mirrorOf>-->
         <mirrorOf>central</mirrorOf>
     </mirror>
     <!-- Maven china -->
@@ -243,6 +263,8 @@ under the License.
         <id>maven.net.cn</id>
         <name>Mirror from Maven in china</name>
         <url>http://maven.net.cn/content/groups/public/</url>
+        <!-- 如果想为所有的仓库做镜像那么这里加* -->
+        <!--<mirrorOf>*</mirrorOf>-->
         <mirrorOf>central</mirrorOf>
     </mirror>
     <!-- Maven oschina -->
@@ -250,6 +272,8 @@ under the License.
         <id>CN</id>
         <name>OSChinaCentral</name>
         <url>http://maven.oschina.net/content/groups/public/</url>
+        <!-- 如果想为所有的仓库做镜像那么这里加* -->
+        <!--<mirrorOf>*</mirrorOf>-->
         <mirrorOf>central</mirrorOf>
     </mirror>
     <!-- Maven antelink -->
@@ -257,6 +281,8 @@ under the License.
         <id>antelink</id>
         <name>antelink</name>
         <url>http://maven.antelink.com/content/repositories/central/</url>
+        <!-- 如果想为所有的仓库做镜像那么这里加* -->
+        <!--<mirrorOf>*</mirrorOf>-->
         <mirrorOf>central</mirrorOf>
     </mirror>
     <!-- Maven openkoala -->
@@ -264,6 +290,8 @@ under the License.
         <id>openkoala</id>
         <name>openkoala</name>
         <url>http://nexus.openkoala.org/nexus/content/groups/Koala-release/</url>
+        <!-- 如果想为所有的仓库做镜像那么这里加* -->
+        <!--<mirrorOf>*</mirrorOf>-->
         <mirrorOf>central</mirrorOf>
     </mirror>
     <!-- Maven tmatesoft -->
@@ -271,6 +299,8 @@ under the License.
         <id>tmatesoft</id>
         <name>tmatesoft</name>
         <url>http://maven.tmatesoft.com/content/groups/public/</url>
+        <!-- 如果想为所有的仓库做镜像那么这里加* -->
+        <!--<mirrorOf>*</mirrorOf>-->
         <mirrorOf>central</mirrorOf>
     </mirror>
   </mirrors>

@@ -191,6 +191,7 @@
 * [https://github.com/IrineSistiana/mosdns](https://github.com/IrineSistiana/mosdns)
 * [https://github.com/pymumu/smartdns](https://github.com/pymumu/smartdns)
 * [https://github.com/nextdns/nextdns](https://github.com/nextdns/nextdns)
+* [https://github.com/TechnitiumSoftware/DnsServer](https://github.com/TechnitiumSoftware/DnsServer)
 * DNS扫描 [https://github.com/pwnesia/dnstake](https://github.com/pwnesia/dnstake)
 * [https://github.com/zartbot/ztrace](https://github.com/zartbot/ztrace)
 * 客户端 [https://github.com/mr-karan/doggo](https://github.com/mr-karan/doggo)
@@ -487,6 +488,9 @@
 * 表单生成 [https://github.com/heyform/heyform](https://github.com/heyform/heyform)
 * 管理后台 [https://github.com/dashpresshq/dashpress](https://github.com/dashpresshq/dashpress)
 * 文件共享 [https://github.com/stonith404/pingvin-share](https://github.com/stonith404/pingvin-share)
+* 主页仪表板 [https://github.com/glanceapp/glance](https://github.com/glanceapp/glance)
+* 在线知识库 [https://github.com/outline/outline](https://github.com/outline/outline)
+* 自定义二维码 [https://github.com/kochrt/qr-designer](https://github.com/kochrt/qr-designer)
 
 
 

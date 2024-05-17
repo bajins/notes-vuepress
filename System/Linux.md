@@ -29,6 +29,8 @@
 + [https://github.com/nevermosby/linux-bpf-learning](https://github.com/nevermosby/linux-bpf-learning)
     * [bpf简介](https://blog.csdn.net/sinat_38816924/article/details/115471891)
 + [https://github.com/elastic/otel-profiling-agent](https://github.com/elastic/otel-profiling-agent)
++ [https://github.com/eunomia-bpf/bpf-developer-tutorial](https://github.com/eunomia-bpf/bpf-developer-tutorial)
++ [https://github.com/libbpf/libbpf-bootstrap](https://github.com/libbpf/libbpf-bootstrap)
 
 
 * [VIM键盘图形备忘单](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
