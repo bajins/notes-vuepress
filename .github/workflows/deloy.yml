@@ -28,9 +28,8 @@ jobs:
           git config --global user.email "admin@bajins.com"
           git config --global user.name "bajins"
           # export LESSCHARSET=utf-8
-          # export NODE_OPTIONS=--openssl-legacy-provider
-        env:
-          NODE_OPTIONS: --openssl-legacy-provider
+          # https://github.com/vuejs/vuepress/issues/3136
+          export NODE_OPTIONS=--openssl-legacy-provider
 
       - name: Checkout
         uses: actions/checkout@v4
@@ -42,8 +41,9 @@ jobs:
           # `git@github.com:` are converted to HTTPS.
           #
           # Default: false
-          submodules: 'true'
+          submodules: true
 
+      # https://github.com/Borales/actions-yarn
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
