@@ -29,7 +29,8 @@ jobs:
           git config --global user.name "bajins"
           # export LESSCHARSET=utf-8
           # https://github.com/vuejs/vuepress/issues/3136
-          export NODE_OPTIONS=--openssl-legacy-provider
+          # https://stackoverflow.com/questions/74797727/error-error0308010cdigital-envelope-routinesunsupported
+          # export NODE_OPTIONS=--openssl-legacy-provider
 
       - name: Checkout
         uses: actions/checkout@v4

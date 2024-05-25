@@ -69,5 +69,10 @@
         "vuepress-plugin-fulltext-search": "^2.2.1",
         "vuepress-plugin-plausible-analytics": "^0.2.1",
         "vuepress-plugin-right-anchor": "^0.5.5"
+    },
+    "overrides": {
+        "webpack@4.47.0": {
+            "terser-webpack-plugin": "^4.2.3"
+        }
     }
 }
