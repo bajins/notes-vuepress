@@ -75,7 +75,7 @@ jobs:
         run: |
           git config --global user.email "admin@bajins.com"
           git config --global user.name "bajins"
-        env:
+        # env:
 
       - name: Checkout
         uses: actions/checkout@v4
