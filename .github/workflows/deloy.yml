@@ -42,9 +42,9 @@ jobs:
           submodules: 'true'
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '12.x'
+          node-version: 'latest'
 
       # - run: npm ci
       - run: npm install
