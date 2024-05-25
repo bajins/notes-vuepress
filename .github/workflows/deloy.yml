@@ -58,9 +58,9 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with: # 为预定义变量赋值
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # github_token: ${{ secrets.GITHUB_TOKEN }}
           # DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          # personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: bajins/bajins.github.io
           publish_branch: master
           publish_dir: ./docs
