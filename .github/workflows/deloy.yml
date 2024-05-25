@@ -30,7 +30,7 @@ jobs:
           # export LESSCHARSET=utf-8
 
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           # Whether to checkout submodules: `true` to checkout submodules or `recursive` to
           # recursively checkout submodules.
@@ -47,21 +47,23 @@ jobs:
           node-version: 'latest'
 
       # - run: npm ci
+      - run: export NODE_OPTIONS=--openssl-legacy-provider
       - run: npm install
       - run: npm run build
 
       # https://github.com/peaceiris/actions-gh-pages
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3.7.3
+        uses: peaceiris/actions-gh-pages@v4
         with: # 为预定义变量赋值
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           # DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-          EXTERNAL_REPOSITORY: bajins/bajins.github.io
-          PUBLISH_BRANCH: master
-          PUBLISH_DIR: ./docs
-          FORCE_ORPHAN: true
-          USER_NAME: bajins
-          USER_EMAIL: admin@bajins.com
+          # personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          external_repository: bajins/bajins.github.io
+          publish_branch: master
+          publish_dir: ./docs
+          force_orphan: true
+          user_name: bajins
+          user_email: admin@bajins.com
           # env: # 设置环境变量并赋值
 
   sync-repository: # 同步文件到其他库
@@ -73,18 +75,19 @@ jobs:
           git config --global user.name "bajins"
 
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           # /home/runner/work/notes-vuepress/notes-vuepress
           path: ''
 
       - name: Checkout notes-docsify repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: bajins/notes-docsify
           # /home/runner/work/notes-vuepress/notes-vuepress/notes-docsify
           path: notes-docsify
-          token: ${{ secrets.PERSONAL_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # token: ${{ secrets.PERSONAL_TOKEN }}
 
       - name: Sync
         run: |
