@@ -97,6 +97,7 @@
 - [https://github.com/stitionai/devika](https://github.com/stitionai/devika)
 - [https://github.com/aixcoder-plugin/aiXcoder-7B](https://github.com/aixcoder-plugin/aiXcoder-7B)
 - [https://github.com/ibm-granite](https://github.com/ibm-granite)
+- [https://github.com/triton-lang/triton](https://github.com/triton-lang/triton)
 - 突出显示重要代码 [https://github.com/novoselrok/glance](https://github.com/novoselrok/glance)
 - 代码转换 [https://github.com/JustAIGithub/AI-Code-Convert](https://github.com/JustAIGithub/AI-Code-Convert)
 - [https://github.com/ritz078/transform](https://github.com/ritz078/transform)

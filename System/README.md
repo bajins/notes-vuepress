@@ -467,6 +467,7 @@
 * 中国历史 [https://github.com/liujuntao123/chines-history-video](https://github.com/liujuntao123/chines-history-video)
 * 日历 [https://github.com/xyxc0673/calendar-remark](https://github.com/xyxc0673/calendar-remark)
 * 知识问答 [https://github.com/apache/incubator-answer](https://github.com/apache/incubator-answer)
+* 问卷调查 [https://github.com/didi/xiaoju-survey](https://github.com/didi/xiaoju-survey)
 * 白噪音 [https://github.com/geekyouth/moodist](https://github.com/geekyouth/moodist)
 * 动画生成代码 [https://animotion.dev](https://animotion.dev)
 * 代码图 [https://github.com/Idered/chalk.ist](https://github.com/Idered/chalk.ist)
@@ -491,6 +492,8 @@
 * 主页仪表板 [https://github.com/glanceapp/glance](https://github.com/glanceapp/glance)
 * 在线知识库 [https://github.com/outline/outline](https://github.com/outline/outline)
 * 自定义二维码 [https://github.com/kochrt/qr-designer](https://github.com/kochrt/qr-designer)
+* 图床 [https://github.com/TiannV/react-epic-project](https://github.com/TiannV/react-epic-project)
+* Web应用商店 [https://github.com/sandstorm-io/sandstorm](https://github.com/sandstorm-io/sandstorm)
 
 
 
@@ -509,6 +512,7 @@
 * [https://github.com/AppFlowy-IO/appflowy](https://github.com/AppFlowy-IO/appflowy)
 * [https://github.com/burntcarrot/pairpad](https://github.com/burntcarrot/pairpad)
     * [在 Go 中构建协作文本编辑器](https://www.aadhav.me/posts/collaborative-editor)
+* [https://github.com/hudy9x/namviek](https://github.com/hudy9x/namviek)
 * 腾讯文档 [http://docs.qq.com](http://docs.qq.com)
 * [https://github.com/seatable](https://github.com/seatable)
 * [https://slack.com](https://slack.com)
@@ -534,6 +538,7 @@
 * 画板 [https://github.com/JessYan0913/pictode](https://github.com/JessYan0913/pictode)
 * [https://github.com/LHRUN/paint-board](https://github.com/LHRUN/paint-board)
 * 处理音频和视频 [https://github.com/xiguaxigua/ffmpeg-online](https://github.com/xiguaxigua/ffmpeg-online)
+* CAD [https://github.com/CADmium-Co/CADmium](https://github.com/CADmium-Co/CADmium)
 
 
 

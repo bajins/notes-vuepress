@@ -407,6 +407,7 @@ taskkill /f /im chromedriver.exe
 * [https://github.com/fishjar/kiss-translator](https://github.com/fishjar/kiss-translator)
 * [https://github.com/marmot-z/baicizhan-helper](https://github.com/marmot-z/baicizhan-helper)
 * [https://github.com/openai-translator/openai-translator](https://github.com/openai-translator/openai-translator)
+* [https://github.com/FilipePS/Traduzir-paginas-web](https://github.com/FilipePS/Traduzir-paginas-web)
 
 
 

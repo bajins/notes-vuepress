@@ -333,6 +333,7 @@
 * [https://www.lanzoui.com/b906590](https://www.lanzoui.com/b906590)
 * [https://www.lanzoui.com/b505936](https://www.lanzoui.com/b505936)
 * [https://www.lanzoui.com/b393275](https://www.lanzoui.com/b393275)
+* [https://github.com/cnk3x/xunlei](https://github.com/cnk3x/xunlei)
 
 
 ### 云盘网盘
@@ -538,6 +539,9 @@
 * [https://www.fonepaw.com/heic-converter](https://www.fonepaw.com/heic-converter)
 * [https://imazing.com/zh/converter](https://imazing.com/zh/converter)
 * 提高分辨率 [https://github.com/Djdefrag/QualityScaler](https://github.com/Djdefrag/QualityScaler)
+* [https://github.com/KDE/krita](https://github.com/KDE/krita)
+    * [https://github.com/Acly/krita-ai-diffusion](https://github.com/Acly/krita-ai-diffusion)
+    * [https://github.com/Falano/kritaSpritesheetManager](https://github.com/Falano/kritaSpritesheetManager)
 
 
 - [https://www.meitu.com](https://www.meitu.com)
@@ -917,7 +921,9 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.jam-software.com/ultrasearch](https://www.jam-software.com/ultrasearch)
 * [https://www.mythicsoft.com/agentransack](https://www.mythicsoft.com/agentransack)
 * [https://www.nirsoft.net/utils/search_my_files.html](https://www.nirsoft.net/utils/search_my_files.html)
-* ReNamer 批量重命名 [http://www.den4b.com](http://www.den4b.com)
+* 批量重命名 ReNamer [http://www.den4b.com](http://www.den4b.com)
+* [https://github.com/Arman19941113/rename-photos](https://github.com/Arman19941113/rename-photos)
+* [https://github.com/cyhuajuan/FreeReNamer](https://github.com/cyhuajuan/FreeReNamer)
 * 文件去重 [http://www.alldup.info](http://www.alldup.info)
 * 文件资源管理器 [https://github.com/files-community/Files](https://github.com/files-community/Files)
 * [https://www.ghisler.com](https://www.ghisler.com)
@@ -1093,6 +1099,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * 鼠标手势 [https://github.com/yingDev](https://github.com/yingDev)
 * 鼠标增强 [https://github.com/majorworld/MousePlus](https://github.com/majorworld/MousePlus)
 * [https://github.com/mgth/LittleBigMouse](https://github.com/mgth/LittleBigMouse)
+* 鼠标键盘监控 [https://github.com/mulaRahul/keyviz](https://github.com/mulaRahul/keyviz)
 * 键盘控制鼠标 [https://github.com/lesderid/keynavish](https://github.com/lesderid/keynavish)
 * [https://github.com/jordansissel/keynav](https://github.com/jordansissel/keynav)
 * 远程鼠标控制 [https://github.com/feschber/lan-mouse](https://github.com/feschber/lan-mouse)

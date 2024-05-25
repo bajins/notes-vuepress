@@ -42,6 +42,7 @@
 
 
 - [https://github.com/sindresorhus](https://github.com/sindresorhus)
+- 创建DMG [https://github.com/sindresorhus/create-dmg](https://github.com/sindresorhus/create-dmg)
 - IOS第三方依赖管理工具 [https://cocoapods.org](https://cocoapods.org)
 - 解锁功能 [https://github.com/VirgilClyne/iRingo](https://github.com/VirgilClyne/iRingo)
 - MAC取证 [https://github.com/jipegit/OSXAuditor](https://github.com/jipegit/OSXAuditor)

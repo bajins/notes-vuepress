@@ -457,6 +457,7 @@ request({
 * [https://github.com/vitest-dev/vitest](https://github.com/vitest-dev/vitest)
 
 
+- [https://github.com/NaiboWang/EasySpider](https://github.com/NaiboWang/EasySpider)
 - [https://github.com/inu1255/soulsign-chrome](https://github.com/inu1255/soulsign-chrome)
 
 
