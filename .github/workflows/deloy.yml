@@ -28,6 +28,9 @@ jobs:
           git config --global user.email "admin@bajins.com"
           git config --global user.name "bajins"
           # export LESSCHARSET=utf-8
+          # export NODE_OPTIONS=--openssl-legacy-provider
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
 
       - name: Checkout
         uses: actions/checkout@v4
@@ -47,7 +50,6 @@ jobs:
           node-version: 'latest'
 
       # - run: npm ci
-      - run: export NODE_OPTIONS=--openssl-legacy-provider
       - run: npm install
       - run: npm run build
 
@@ -73,6 +75,7 @@ jobs:
         run: |
           git config --global user.email "admin@bajins.com"
           git config --global user.name "bajins"
+        env:
 
       - name: Checkout
         uses: actions/checkout@v4
@@ -86,8 +89,7 @@ jobs:
           repository: bajins/notes-docsify
           # /home/runner/work/notes-vuepress/notes-vuepress/notes-docsify
           path: notes-docsify
-          token: ${{ secrets.GITHUB_TOKEN }}
-          # token: ${{ secrets.PERSONAL_TOKEN }}
+          token: ${{ secrets.PERSONAL_TOKEN }}
 
       - name: Sync
         run: |
