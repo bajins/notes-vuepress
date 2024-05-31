@@ -388,7 +388,7 @@ string &operator+(const string& A,const string& B) //cpp
 
 - `<code></code>`
 - `<pre></pre>`
-- `<kdb></kdb>`
+- `<kdb></kdb>` 按钮效果
 - `<b></b>`
 - `<strong></strong>`
 - `<i></i>`

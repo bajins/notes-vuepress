@@ -76,6 +76,7 @@
 + 加密 [https://github.com/candiddev/rot](https://github.com/candiddev/rot)
 + JSON [https://github.com/stedolan/jq](https://github.com/stedolan/jq)
     + [https://stedolan.github.io/jq](https://stedolan.github.io/jq)
+    + [https://github.com/alingse/jq-manual-cn](https://github.com/alingse/jq-manual-cn)
 + [https://github.com/simeji/jid](https://github.com/simeji/jid)
     + [https://github.com/fiatjaf/jiq](https://github.com/fiatjaf/jiq)
 + [https://github.com/wader/fq](https://github.com/wader/fq)

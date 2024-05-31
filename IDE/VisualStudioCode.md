@@ -285,6 +285,7 @@
 * 配色 [https://github.com/nealmckee/penumbra](https://github.com/nealmckee/penumbra)
 * 禁用规则 [https://github.com/lvjiaxuan/vscode-eslint-disable](https://github.com/lvjiaxuan/vscode-eslint-disable)
 * 前端提示 [https://github.com/Simon-He95/vscode-common-intellisense](https://github.com/Simon-He95/vscode-common-intellisense)
+* 生成注释 [https://github.com/OBKoro1/koro1FileHeader](https://github.com/OBKoro1/koro1FileHeader)
 
 
 

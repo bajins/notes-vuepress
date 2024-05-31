@@ -237,6 +237,7 @@
 * JSON增强 [https://github.com/blitz-js/superjson](https://github.com/blitz-js/superjson)
 * JSON校验 [https://github.com/ozkxr/match-json](https://github.com/ozkxr/match-json)
 * 二维码 [https://github.com/ciaochaos/qrbtf](https://github.com/ciaochaos/qrbtf)
+* [https://github.com/mumuy/widget-qrcode](https://github.com/mumuy/widget-qrcode)
 * 随机数 [https://github.com/ChrisCavs/aimless.js](https://github.com/ChrisCavs/aimless.js)
 * Promise [https://github.com/petkaantonov/bluebird](https://github.com/petkaantonov/bluebird)
 * 矩阵计算 [https://github.com/mateogianolio/vectorious](https://github.com/mateogianolio/vectorious)
@@ -427,7 +428,6 @@
 
 - 思维导图 [https://github.com/hizzgdev/jsmind](https://github.com/hizzgdev/jsmind)
 - 虚拟白板 [https://github.com/excalidraw/excalidraw](https://github.com/excalidraw/excalidraw)
-- [https://github.com/tldraw/tldraw](https://github.com/tldraw/tldraw)
 - 头像生成 [https://github.com/multiavatar/Multiavatar](https://github.com/multiavatar/Multiavatar)
 - 抠图 [https://github.com/imgly/background-removal-js](https://github.com/imgly/background-removal-js)
 

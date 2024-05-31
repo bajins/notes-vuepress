@@ -275,6 +275,20 @@ demo                        # 顶级项目（根项目）
 4. 勾选`Transparent native-to-ascii conversion` 从本地转换ASCII
 
 
+## 设置代码补全
+
+- 快捷键：<kdb>Ctrl</kdb> + <kdb>Space</kdb>（可能被输入法占用）
+
+- 修改快捷键 `File` -> `Settings` -> `KeyMap` -> 搜索`Completion` -> `Code Completion`
+     - 移除`Cycle Expand Word`的`Alt+/`快捷键。
+     - 在`Basic`上点击右键，去除`Ctrl+空格`绑定，然后添加`Alt+/`快捷键。
+
+- 打开 `File` -> `Settings` -> `Editor` -> `General` -> `Code Completion`
+     - `Autopopup code completion`
+     - `Delay`
+
+
+
 ## 设置序列化ID
 
 - 打开 `File` -> `Settings` -> `Editor` -> `Inspections` -> `Java` -> `Serialization issues`

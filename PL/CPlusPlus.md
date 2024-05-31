@@ -208,6 +208,7 @@
 * 不可变 [https://github.com/arximboldi/immer](https://github.com/arximboldi/immer)
 * 日期时间 [https://github.com/HowardHinnant/date](https://github.com/HowardHinnant/date)
 * 范围 [https://github.com/ericniebler/range-v3](https://github.com/ericniebler/range-v3)
+* 队列 [https://github.com/cameron314/concurrentqueue](https://github.com/cameron314/concurrentqueue)
 
 
 

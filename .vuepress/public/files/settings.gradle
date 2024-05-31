@@ -1,0 +1,28 @@
+pluginManagement {
+    repositories {
+    
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'https://maven.aliyun.com/repository/google' } //替换google()
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+    
+        google()
+        mavenLocal()   //配置先从本地仓库寻找jar包，优先寻找上一个配置，找到不执行下面的配置
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+    
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "hiCompose"
+include ':app'

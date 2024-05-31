@@ -514,6 +514,7 @@
 * [https://github.com/renzhezhilu/webp2jpg-online-demo](https://github.com/renzhezhilu/webp2jpg-online-demo)
 * [https://github.com/Dreamer365/topspeed-image-compressor](https://github.com/Dreamer365/topspeed-image-compressor)
 * [https://github.com/autergame/JpegView-Rust](https://github.com/autergame/JpegView-Rust)
+* [https://github.com/Lymphatus/caesium-clt](https://github.com/Lymphatus/caesium-clt)
 * 上传并获取图片URL [https://github.com/Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo)
 * [https://www.polaxiong.com](https://www.polaxiong.com)
 * [https://icons8.cn/lunacy](https://icons8.cn/lunacy)

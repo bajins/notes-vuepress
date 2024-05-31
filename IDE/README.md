@@ -90,6 +90,7 @@
 - [https://github.com/KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
 - [https://github.com/deepseek-ai/DeepSeek-Coder](https://github.com/deepseek-ai/DeepSeek-Coder)
 - [https://github.com/Codium-ai](https://github.com/Codium-ai)
+- [https://cursor.sh](https://cursor.sh)
 - [https://github.com/KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
 - [https://github.com/DoubleTechnologies](https://github.com/DoubleTechnologies)
 - [https://github.com/OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter)
@@ -134,6 +135,7 @@
 + [https://www.acme.com/software](https://www.acme.com/software)
 + [https://gitee.com/jianmu-dev](https://gitee.com/jianmu-dev)
 + [https://github.com/earthly/earthly](https://github.com/earthly/earthly)
++ [https://github.com/nucleuscloud/neosync](https://github.com/nucleuscloud/neosync)
 
 
 
@@ -323,6 +325,7 @@
     * [https://github.com/HyperSine](https://github.com/HyperSine)
     * [https://github.com/Abeautifulsnow/navicat-premium-crack](https://github.com/Abeautifulsnow/navicat-premium-crack)
     * [https://github.com/LiJunYi2/navicat-keygen-16V](https://github.com/LiJunYi2/navicat-keygen-16V)
+    * [https://gitlab.com/ajiajishu/navicat-keygen-16V](https://gitlab.com/ajiajishu/navicat-keygen-16V)
 * [https://github.com/team-ide/teamide](https://github.com/team-ide/teamide)
 * [https://fishcodelib.com/Database.htm](https://fishcodelib.com/Database.htm)
 * [https://codeberg.org/sql-workbench/workbench](https://codeberg.org/sql-workbench/workbench)
@@ -610,7 +613,7 @@
 | 递进式向左选择代码（一样）                       	| Shift + Alt + ←                           	| Shift + Alt + ←                             	|
 | 跳到指定行                                       	| Ctrl + G                                  	| Ctrl + L                                    	|
 | 光标处往上添加空行                               	| Ctrl + Alt + Enter                        	| Ctrl + Shift + Enter                        	|
-| 代码提示(Basic)                                  | Ctrl + 空格                         	        | Alt + /                                     	|
+| 代码提示(Basic)                                  | Ctrl + 空格（可能被输入法占用）      	        | Alt + /                                     	|
 | 取消撤销                                         	| Ctrl + Shift + Z                          	| Ctrl + Y                                    	|
 | 选中区域取消注释                                 	| Ctrl + Shift + /                          	| Ctrl + Shift + \                            	|
 | 添加或取消注释                                   	| Ctrl + /                                  	| Ctrl + /     Ctrl + Shift + C               	|

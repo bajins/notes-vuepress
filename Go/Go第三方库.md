@@ -96,6 +96,7 @@
 * [https://github.com/huandu/go-sqlbuilder](https://github.com/huandu/go-sqlbuilder)
 * [https://github.com/libragen/felix](https://github.com/libragen/felix)
 * [https://github.com/eventials/go-tus](https://github.com/eventials/go-tus)
+* [https://github.com/uptrace/bun](https://github.com/uptrace/bun)
 * 缓存 [https://github.com/patrickmn/go-cache](https://github.com/patrickmn/go-cache)
 * [https://github.com/bluele/gcache](https://github.com/bluele/gcache)
 * [https://github.com/golang/groupcache](https://github.com/golang/groupcache)

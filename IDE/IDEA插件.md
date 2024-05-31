@@ -5,8 +5,7 @@
 
 ## Flag
 
-* [实用IDEA工具](https://blog.csdn.net/weixin_37645838/article/details/85953193)
-
+- [https://www.jetbrains.com/legal/docs/terms/jetbrains-ai/service-providers](https://www.jetbrains.com/legal/docs/terms/jetbrains-ai/service-providers)
 - [https://licheng1013.github.io/util/idea.html](https://licheng1013.github.io/util/idea.html)
 - Eclipse代码格式化风格 [https://github.com/krasa/EclipseCodeFormatter](https://github.com/krasa/EclipseCodeFormatter)
 - 主题 [http://soft-hub.cn](http://soft-hub.cn)
@@ -53,7 +52,7 @@
 * [利用授权服务器(License Server)激活Jetbrains全家桶](https://51.ruyo.net/17780.html)
     * [https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth](https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth)
 * [如何批量挖掘Jetbrains系列产品激活服务器](https://t.me/s/Ru05hui/123)
-    * [https://fofa.info](https://fofa.info)
+    * [https://fofa.info](https://fofa.info/result?qbase64=TG9jYXRpb246IGh0dHBzOi8vYWNjb3VudC5qZXRicmFpbnMuY29tL2Zscy1hdXRo&page=1&page_size=20)
 * [如何找Jetbrains激活服务器](https://hostloc.com/thread-999341-1-1.html)
     * [https://search.censys.io](https://search.censys.io)
 * [记录 Rainbow Brackets 插件破解](https://reajason.com/writing/rainbowbracketscracked)
@@ -352,9 +351,10 @@
 
 ## FindBugs-IDEA
 
-* [https://plugins.jetbrains.com/plugin/3847-findbugs-idea](https://plugins.jetbrains.com/plugin/3847-findbugs-idea)
-* [https://github.com/andrepdo/findbugs-idea](https://github.com/andrepdo/findbugs-idea)
+* [https://plugins.jetbrains.com/plugin/14014-spotbugs](https://plugins.jetbrains.com/plugin/14014-spotbugs)
+* ~~[https://github.com/andrepdo/findbugs-idea](https://github.com/andrepdo/findbugs-idea)~~
     * [https://andrepdo.github.io/findbugs-idea](https://andrepdo.github.io/findbugs-idea)
+* [https://github.com/XenoAmess/p3c](https://github.com/XenoAmess/p3c)
 
 > 检测代码中可能的bug及不规范的位置，检测的模式相比p3c更多，写完代码后检测下 避免低级bug，强烈建议用一下，一不小心就发现很多老代码的bug
 

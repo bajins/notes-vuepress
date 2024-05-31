@@ -312,6 +312,7 @@
 * [https://github.com/yu-linfeng/redis5.x_tutorial](https://github.com/yu-linfeng/redis5.x_tutorial)
 * redis常用特性 [https://github.com/LxyTe/redis](https://github.com/LxyTe/redis)
 * [https://github.com/Ctzzhang/Ctzzhang.github.io](https://github.com/Ctzzhang/Ctzzhang.github.io)
+* [Redlock安全吗？](http://antirez.com/news/101)
 * Java [https://github.com/redisson](https://github.com/redisson)
 * [https://github.com/RedisJSON](https://github.com/RedisJSON)
 * [https://github.com/lettuce-io/lettuce-core](https://github.com/lettuce-io/lettuce-core)

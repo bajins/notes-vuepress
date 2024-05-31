@@ -60,6 +60,7 @@
 - 翻译 [https://github.com/tisfeng/Easydict](https://github.com/tisfeng/Easydict)
 
 * [https://macked.app](https://macked.app)
+* 所有机型参数大全 [https://github.com/KyleBing/ipad](https://github.com/KyleBing/ipad)
 
 
 ## IOS框架
