@@ -96,6 +96,7 @@
 * [https://github.com/pinnaculum/galacteek](https://github.com/pinnaculum/galacteek)
 * [https://github.com/ranfdev/Geopard](https://github.com/ranfdev/Geopard)
 * [https://github.com/Alex313031/Thorium](https://github.com/Alex313031/Thorium)
+* [https://github.com/face-hh/webx](https://github.com/face-hh/webx)
 
 
 
@@ -323,6 +324,7 @@ taskkill /f /im chromedriver.exe
 * 防止通过 URL 跟踪用户 [https://github.com/ClearURLs](https://github.com/ClearURLs)
 * [Marmoset-创建漂亮的代码图片](https://chrome.google.com/webstore/detail/marmoset/npkfpddkpefnmkflhhligbkofhnafieb)
 * 搜索 [https://github.com/hoothin/SearchJumper](https://github.com/hoothin/SearchJumper)
+* 管理Cookie [https://github.com/Dolov/chrome-best-cookier](https://github.com/Dolov/chrome-best-cookier)
 
 
 
@@ -510,6 +512,9 @@ taskkill /f /im chromedriver.exe
     * CSDN去广告 [https://github.com/adlered/CSDNGreener](https://github.com/adlered/CSDNGreener)
 * 暴力猴 [https://github.com/violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey)
 * 油猴 [https://github.com/greasemonkey/greasemonkey](https://github.com/greasemonkey/greasemonkey)
+
+
+- [https://github.com/lisonge/vite-plugin-monkey](https://github.com/lisonge/vite-plugin-monkey)
 
 
 

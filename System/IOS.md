@@ -58,6 +58,8 @@
 - [https://github.com/acidanthera](https://github.com/acidanthera)
 - [https://github.com/ivoronin/TomatoBar](https://github.com/ivoronin/TomatoBar)
 - 翻译 [https://github.com/tisfeng/Easydict](https://github.com/tisfeng/Easydict)
+- 录屏 [https://github.com/lihaoyun6/QuickRecorder](https://github.com/lihaoyun6/QuickRecorder)
+
 
 * [https://macked.app](https://macked.app)
 * 所有机型参数大全 [https://github.com/KyleBing/ipad](https://github.com/KyleBing/ipad)

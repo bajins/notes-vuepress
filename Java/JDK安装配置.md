@@ -10,8 +10,8 @@
 
 * JEP [http://openjdk.java.net/jeps](http://openjdk.java.net/jeps)
 * [https://www.oracle.com/cn/downloads](https://www.oracle.com/cn/downloads)
+    * [https://www.oracle.com/cn/java/technologies/downloads](https://www.oracle.com/cn/java/technologies/downloads)
 * [https://www.oracle.com/java](https://www.oracle.com/java)
-    * [https://www.oracle.com/cn/java/technologies/javase-downloads.html](https://www.oracle.com/cn/java/technologies/javase-downloads.html)
     * [https://www.oracle.com/cn/java/technologies/java-ee-glance.html](https://www.oracle.com/cn/java/technologies/java-ee-glance.html)
 * 版本管理 [https://github.com/jingxiang/java-switch](https://github.com/jingxiang/java-switch)
 * [https://github.com/NotoChen/JavaVersionChoice](https://github.com/NotoChen/JavaVersionChoice)
@@ -38,7 +38,6 @@
     * ~~[https://github.com/ojdkbuild/ojdkbuild](https://github.com/ojdkbuild/ojdkbuild)~~
     * [https://github.com/oracle-actions/setup-java](https://github.com/oracle-actions/setup-java)
     * [https://dev.java](https://dev.java)
-    * [https://www.oracle.com/cn/java/technologies/downloads](https://www.oracle.com/cn/java/technologies/downloads)
 * ~~[https://github.com/AdoptOpenJDK](https://github.com/AdoptOpenJDK)~~
     * ~~[https://adoptopenjdk.net](https://adoptopenjdk.net)~~
     * [https://github.com/Adopt-a-JSR](https://github.com/Adopt-a-JSR)

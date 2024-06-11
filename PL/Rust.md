@@ -40,6 +40,7 @@
 * [https://github.com/chinanf-boy/rust-cookbook-zh](https://github.com/chinanf-boy/rust-cookbook-zh)
 * [https://github.com/huangjj27/async-book](https://github.com/huangjj27/async-book)
 * [https://github.com/studyrs/rusty-book](https://github.com/studyrs/rusty-book)
+* [https://github.com/mainmatter/100-exercises-to-learn-rust](https://github.com/mainmatter/100-exercises-to-learn-rust)
 * [https://github.com/google/comprehensive-rust](https://github.com/google/comprehensive-rust)
 * [https://github.com/LukeMathWalker/zero-to-production](https://github.com/LukeMathWalker/zero-to-production)
 * [https://github.com/phil-opp/blog_os](https://github.com/phil-opp/blog_os)

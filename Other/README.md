@@ -564,6 +564,7 @@
 ### Android
 
 
+* [https://github.com/hectorqin/reader](https://github.com/hectorqin/reader)
 * [https://github.com/huanxsd/flutter_shuqi](https://github.com/huanxsd/flutter_shuqi)
 * [https://github.com/gedoor/MyBookshelf](https://github.com/gedoor/MyBookshelf)
     * [https://www.coolapk.com/apk/io.legado.app.release](https://www.coolapk.com/apk/io.legado.app.release)

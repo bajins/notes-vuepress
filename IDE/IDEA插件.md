@@ -61,6 +61,7 @@
 * [https://github.com/lianshufeng/Jrebel](https://github.com/lianshufeng/Jrebel)
     * [https://jrebel.idoudou.me](https://jrebel.idoudou.me)
     * [https://jrebel.com.cn](https://jrebel.com.cn)
+* [https://github.com/JAgentSphere/bytebuddy-agent-demo](https://github.com/JAgentSphere/bytebuddy-agent-demo)
 
 
 

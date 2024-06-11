@@ -217,6 +217,7 @@
 * [https://github.com/ardalis/CleanArchitecture](https://github.com/ardalis/CleanArchitecture)
 * [https://github.com/ServiceStack/ServiceStack](https://github.com/ServiceStack/ServiceStack)
     * [https://github.com/ServiceStackV3](https://github.com/ServiceStackV3)
+* [https://github.com/fullstackhero/dotnet-starter-kit](https://github.com/fullstackhero/dotnet-starter-kit)
 * 微服务 [https://github.com/AlphaYu/Adnc](https://github.com/AlphaYu/Adnc)
 * [https://github.com/dotnet-architecture/eShopOnDapr](https://github.com/dotnet-architecture/eShopOnDapr)
 * WPF控件 [https://github.com/topics/wpf-ui](https://github.com/topics/wpf-ui)
