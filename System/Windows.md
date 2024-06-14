@@ -5,7 +5,6 @@
 
 ## Flag
 
-* 搜索更新补丁下载 [http://www.catalog.update.microsoft.com](http://www.catalog.update.microsoft.com)
 * [小米笔记本Pro黑苹果Win10双系统](https://www.ikxin.com/465.html)
 * 恢复Win10任务菜单 [https://github.com/valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher)
 * 手机运行Win10 [https://github.com/edk2-porting](https://github.com/edk2-porting)
@@ -152,17 +151,22 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 ## MSDN
 
+* 搜索更新补丁下载 [http://www.catalog.update.microsoft.com](http://www.catalog.update.microsoft.com)
+* [https://www.microsoft.com/zh-cn/software-download](https://www.microsoft.com/zh-cn/software-download)
 * [http://msdn.itellyou.cn](http://msdn.itellyou.cn)
 * [https://www.iruanmi.com/msdn](https://www.iruanmi.com/msdn)
     * [https://blogs.iapplee.com/msdn](https://blogs.iapplee.com/msdn)
 * [http://www.imsdn.cn](http://www.imsdn.cn)
-* [https://www.microsoft.com/zh-cn/software-download](https://www.microsoft.com/zh-cn/software-download)
 * [https://github.com/pbatard/Fido](https://github.com/pbatard/Fido)
 * [https://uup.rg-adguard.net](https://uup.rg-adguard.net)
 * [https://github.com/uup-dump](https://github.com/uup-dump)
     * [https://uupdump.net](https://uupdump.net)
+    * [https://www.uupdump.cn](https://www.uupdump.cn)
 * [https://msdn.sjjzm.com](https://msdn.sjjzm.com)
-* [https://massgrave.dev/genuine-installation-media.html](https://massgrave.dev/genuine-installation-media.html)
+* [https://github.com/massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
+    * [https://massgrave.dev/genuine-installation-media.html](https://massgrave.dev/genuine-installation-media.html)
+    * [https://github.com/gravesoft/msdl](https://github.com/gravesoft/msdl)
+        * [https://msdl.gravesoft.dev](https://msdl.gravesoft.dev)
 
 
 
@@ -208,6 +212,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 ## MS激活
 
 * XP密钥生成 [https://github.com/Neo-Desktop/WindowsXPKg](https://github.com/Neo-Desktop/WindowsXPKg)
+
 
 ### KMS
 

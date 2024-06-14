@@ -364,6 +364,7 @@
 - [https://github.com/mifi/lossless-cut](https://github.com/mifi/lossless-cut)
 - [https://github.com/ozmartian/vidcutter](https://github.com/ozmartian/vidcutter)
 - [https://github.com/olive-editor/olive](https://github.com/olive-editor/olive)
+- [https://file-converter.org](https://file-converter.org)
 
 
 * [foobar2000](http://blog.sina.com.cn/go2spa)
@@ -626,6 +627,9 @@
     * [https://www.snipaste.com](https://www.snipaste.com)
 * [https://picpick.app/zh/download](https://picpick.app/zh/download)
 * HyperSnap [https://www.hyperionics.com](https://www.hyperionics.com)
+* VeryCapture https://wwr.lanzoui.com/b026bvydi 9zzn
+* Snagit [https://www.techsmith.com/screen-capture.html](https://www.techsmith.com/screen-capture.html)
+* [https://www.ashampoo.com/zh-cn/snap](https://www.ashampoo.com/zh-cn/snap)
 
 
 **FastStone Capture**
@@ -635,8 +639,6 @@
     * `https://www.faststonesoft.net/DN/FSCaptureSetup版本号.exe`
     * `https://www.faststonesoft.net/DN/FSCapture版本号.zip`
     * `https://www.faststonesoft.net/DN/FSCaptureSetup版本号.zip`
-
-> 使用说明: 先安装`FSCaptureSetup`程序，安装完成后先不要运行，把下载的汉化文件覆盖到安装目录然后再运行
 
 ```
 用户名：1028 
@@ -745,6 +747,11 @@
     * [https://otp.landian.vip](https://otp.landian.vip)
     * [https://www.coolhub.top](https://www.coolhub.top)
 * [https://github.com/OdysseusYuan/LKY_OfficeTools](https://github.com/OdysseusYuan/LKY_OfficeTools)
+* [https://github.com/seeumail/OfficeRTool](https://github.com/seeumail/OfficeRTool)
+* [https://github.com/abbodi1406/BatUtil](https://github.com/abbodi1406/BatUtil)
+* [https://github.com/YesandYeah/Office-C2R-Install](https://github.com/YesandYeah/Office-C2R-Install)
+* [Office 2013-2024 C2R Install](https://msfree.su/index.php?threads/498)
+* [https://github.com/farag2/Office](https://github.com/farag2/Office)
 
 
 + Office 卸载支持工具 [https://outlookdiagnostics.azureedge.net/sarasetup/SetupProd_OffScrub.exe](https://outlookdiagnostics.azureedge.net/sarasetup/SetupProd_OffScrub.exe)
@@ -789,7 +796,6 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 * [https://github.com/Open-Shell/Open-Shell-Menu](https://github.com/Open-Shell/Open-Shell-Menu)
     * [https://github.com/coddec/Classic-Shell](https://github.com/coddec/Classic-Shell)
-* [https://github.com/microsoft/PowerToys](https://github.com/microsoft/PowerToys)
 
 **StartIsBack++**
 
@@ -984,21 +990,25 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://pcmanager.microsoft.com](https://pcmanager.microsoft.com)
 * Win10Clean [https://github.com/ElPumpo/Win10Clean](https://github.com/ElPumpo/Win10Clean)
 * Dism++ [https://github.com/Chuyu-Team](https://github.com/Chuyu-Team)
+* [https://github.com/SucklessWindows/SucklessWindows](https://github.com/SucklessWindows/SucklessWindows)
+* [https://ameliorated.io](https://ameliorated.io)
+    * [https://github.com/jointhearkanoid/playbook](https://github.com/jointhearkanoid/playbook)
+    * [https://github.com/redress-server/playbook](https://github.com/redress-server/playbook)
 * [http://www.tbtool.cn](http://www.tbtool.cn)
 * W10Privacy [https://www.winprivacy.de/deutsch-start/download](https://www.winprivacy.de/deutsch-start/download)
 * Windows 10 Manager [https://www.yamicsoft.com](https://www.yamicsoft.com)
     * `WMXD7-RG8FP-OYKS3-KHTN6`
 * [https://uninstalr.com](https://uninstalr.com)
+* Total Uninstall [https://www.martau.com](https://www.martau.com)
+* HiBit Uninstaller [https://www.hibitsoft.ir/Uninstaller.html](https://www.hibitsoft.ir/Uninstaller.html)
 * BCUninstaller [https://github.com/Klocman/Bulk-Crap-Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
     * [https://sourceforge.net/projects/bulk-crap-uninstaller](https://sourceforge.net/projects/bulk-crap-uninstaller)
 * Uninstall Tool [https://github.com/crystalidea](https://github.com/crystalidea)
     * [https://crystalidea.com/uninstall-tool](https://crystalidea.com/uninstall-tool)
-* Total Uninstall [https://www.martau.com](https://www.martau.com)
 * [UninstallTool／Geek／IObitUninstaller／RevoUninstalle](https://lanzoui.com/b0f19v03a)
 * [RegWorkshop／RegCool](https://www.lanzoui.com/b0f1jf9mh)
 * [https://kurtzimmermann.com](https://kurtzimmermann.com)
 * Revo Uninstaller [https://www.revouninstaller.com](https://www.revouninstaller.com)
-* HiBit Uninstaller [https://www.hibitsoft.ir/Uninstaller.html](https://www.hibitsoft.ir/Uninstaller.html)
 * Geek Uninstaller [https://github.com/geekuninstaller/translations](https://github.com/geekuninstaller/translations)
     * [https://geekuninstaller.com](https://geekuninstaller.com)
 * IObit Uninstaller [https://www.iobit.com/en/advanceduninstaller.php](https://www.iobit.com/en/advanceduninstaller.php)
@@ -1083,6 +1093,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://entropy6.com/xmeters](https://entropy6.com/xmeters)
 * [https://bitsum.com](https://bitsum.com)
 * 性能测试 [https://github.com/xmrig/xmrig](https://github.com/xmrig/xmrig)
+* [https://www.aida64.com/downloads](https://www.aida64.com/downloads)
 * 流量监控 [https://www.glasswire.com](https://www.glasswire.com)
 * [https://github.com/TheCGDF/NetSpeed](https://github.com/TheCGDF/NetSpeed)
 * MSI Afterbuner [https://www.msi.com/Landing/afterburner/graphics-cards](https://www.msi.com/Landing/afterburner/graphics-cards)
@@ -1126,10 +1137,11 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * 黑暗模式 [https://github.com/Armin2208/Windows-Auto-Night-Mode](https://github.com/Armin2208/Windows-Auto-Night-Mode)
 * [https://github.com/jonls/redshift](https://github.com/jonls/redshift)
 * 休息提醒 [https://github.com/rcaelers/workrave](https://github.com/rcaelers/workrave)
-* 桌面 [https://www.coodesker.com](https://www.coodesker.com)
 * [EarTrumpet 为每个软件单独设置音量](https://www.microsoft.com/zh-cn/p/eartrumpet/9nblggh516xp)
+* 桌面 [https://www.coodesker.com](https://www.coodesker.com)
 * 桌面排版 [https://sourceforge.net/projects/scribus](https://sourceforge.net/projects/scribus)
     * [https://github.com/scribusproject/scribus](https://github.com/scribusproject/scribus)
+* [https://www.softwareok.com/?seite=Freeware/DesktopOK](https://www.softwareok.com/?seite=Freeware/DesktopOK)
 * 窗口管理 [https://github.com/LGUG2Z/komorebi](https://github.com/LGUG2Z/komorebi)
 * 放大镜 [https://github.com/hugoattal/milky-warp](https://github.com/hugoattal/milky-warp)
 * 壁纸 [https://github.com/DaZiYuan/LiveWallpaper](https://github.com/DaZiYuan/LiveWallpaper)

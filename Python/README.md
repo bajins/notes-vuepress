@@ -200,6 +200,7 @@ vi /usr/libexec/urlgrabber-ext-down
 * [https://github.com/frostming/pdm](https://github.com/frostming/pdm)
 * [https://bitbucket.org/virtualenvwrapper/virtualenvwrapper](https://bitbucket.org/virtualenvwrapper/virtualenvwrapper)
 * [https://github.com/davidmarble/virtualenvwrapper-win](https://github.com/davidmarble/virtualenvwrapper-win)
+* [https://github.com/python-poetry/poetry](https://github.com/python-poetry/poetry)
 
 
 

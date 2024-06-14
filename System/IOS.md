@@ -37,10 +37,12 @@
 
 + IDE [https://www.jetbrains.com/zh-cn/objc](https://www.jetbrains.com/zh-cn/objc)
 + [https://github.com/Carthage/Carthage](https://github.com/Carthage/Carthage)
++ [https://github.com/CodeEditApp/CodeEdit](https://github.com/CodeEditApp/CodeEdit)
 + [https://cocoapods.org](https://cocoapods.org)
 
 
 
+- [https://github.com/raycast](https://github.com/raycast)
 - [https://github.com/sindresorhus](https://github.com/sindresorhus)
 - 创建DMG [https://github.com/sindresorhus/create-dmg](https://github.com/sindresorhus/create-dmg)
 - IOS第三方依赖管理工具 [https://cocoapods.org](https://cocoapods.org)
@@ -59,6 +61,7 @@
 - [https://github.com/ivoronin/TomatoBar](https://github.com/ivoronin/TomatoBar)
 - 翻译 [https://github.com/tisfeng/Easydict](https://github.com/tisfeng/Easydict)
 - 录屏 [https://github.com/lihaoyun6/QuickRecorder](https://github.com/lihaoyun6/QuickRecorder)
+- 视频转GIF [https://github.com/sindresorhus/Gifski](https://github.com/sindresorhus/Gifski)
 
 
 * [https://macked.app](https://macked.app)

@@ -1,4 +1,4 @@
-# TextTditor
+# TextEditor
 
 [[toc]]
 

@@ -15,7 +15,7 @@
     * [https://theia-ide.org](https://theia-ide.org)
 * [https://github.com/VSCodium/vscodium](https://github.com/VSCodium/vscodium)
 * [https://github.com/pulsar-edit](https://github.com/pulsar-edit)
-* [https://github.com/lapce](https://github.com/lapce)
+* [https://github.com/lapce](https://github.com/lapce)(https://kate-editor.org)
 * [https://github.com/zed-industries](https://github.com/zed-industries)
 * [https://github.com/face-hh/griddycode](https://github.com/face-hh/griddycode)
 * [https://github.com/capistrano/sshkit](https://github.com/capistrano/sshkit)
@@ -69,6 +69,7 @@
 - 工具 [https://github.com/864381832/xJavaFxTool](https://github.com/864381832/xJavaFxTool)
 - [https://github.com/baiy/Ctool](https://github.com/baiy/Ctool)
 - [https://github.com/homeinfra-org/infra](https://github.com/homeinfra-org/infra)
+- [Microsoft Store开发人员工具](https://www.microsoft.com/zh-cn/store/most-popular/apps/pc?category=developer%20tools)
 - WakaTime [https://github.com/muety/wakapi](https://github.com/muety/wakapi)
 - 代码助手AI [https://github.com/codota/tabnine](https://github.com/codota/tabnine)
     - [https://www.tabnine.com](https://www.tabnine.com)
@@ -76,6 +77,8 @@
 - [https://github.com/new-ai-company/ide](https://github.com/new-ai-company/ide)
 - [https://github.com/e2b-dev/e2b](https://github.com/e2b-dev/e2b)
 - [https://github.com/veler/DevToys](https://github.com/veler/DevToys)
+- [https://github.com/DevToys-app/DevToys](https://github.com/DevToys-app/DevToys)
+- [https://github.com/microsoft/PowerToys](https://github.com/microsoft/PowerToys)
 - [https://github.com/VUEngine](https://github.com/VUEngine)
 - [https://github.com/kiteco](https://github.com/kiteco)
 - [https://github.com/atlassian](https://github.com/atlassian)
@@ -226,6 +229,7 @@
     + XAMPP
 + [https://github.com/postmanlabs](https://github.com/postmanlabs)
     + [https://www.getpostman.com/apps](https://www.getpostman.com/apps)
+        + [https://dl.pstmn.io/download/latest/win64](https://dl.pstmn.io/download/latest/win64)
     + [https://github.com/topics/postman](https://github.com/topics/postman)
     + [https://github.com/hlmd/Postman-cn](https://github.com/hlmd/Postman-cn)
     + [https://github.com/apigee](https://github.com/apigee)
@@ -351,6 +355,7 @@
 * [https://github.com/webyog/sqlyog-community](https://github.com/webyog/sqlyog-community)
 * [https://github.com/directus/directus](https://github.com/directus/directus)
 * [https://github.com/drawdb-io/drawdb](https://github.com/drawdb-io/drawdb)
+* 命令行 [https://github.com/danvergara/dblab](https://github.com/danvergara/dblab)
 
 
 - 数据库转excel [https://github.com/nocodb/nocodb](https://github.com/nocodb/nocodb)

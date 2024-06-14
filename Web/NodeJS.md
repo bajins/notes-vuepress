@@ -22,6 +22,7 @@
 * [https://github.com/amplication](https://github.com/amplication)
 * [https://github.com/i5ting/asynchronous-flow-control](https://github.com/i5ting/asynchronous-flow-control)
 * 基准测试 [https://github.com/RafaelGSS/nodejs-bench-operations](https://github.com/RafaelGSS/nodejs-bench-operations)
+* 实时协作 [https://github.com/partykit/partykit](https://github.com/partykit/partykit)
 
 
 > `node`执行脚本时获取参数`process.argv`数组，下标`0`为执行程序的绝对路径，下标`1`为脚本的绝对路径，

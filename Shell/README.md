@@ -280,6 +280,7 @@
     * [https://sourceforge.net/projects/sshwindows](https://sourceforge.net/projects/sshwindows)
 * [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
     * [https://docs.microsoft.com/zh-cn/windows/terminal](https://docs.microsoft.com/zh-cn/windows/terminal)
+* [https://github.com/felixse/FluentTerminal](https://github.com/felixse/FluentTerminal)
 * [https://github.com/Maximus5/ConEmu](https://github.com/Maximus5/ConEmu)
 * [https://github.com/FarGroup/FarManager](https://github.com/FarGroup/FarManager)
 * [https://github.com/alacritty/alacritty](https://github.com/alacritty/alacritty)

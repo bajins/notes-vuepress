@@ -22,6 +22,7 @@
 + [https://github.com/blueimp](https://github.com/blueimp)
 + [https://github.com/sorrycc/awesome-javascript](https://github.com/sorrycc/awesome-javascript)
 + [https://github.com/developit](https://github.com/developit)
++ [https://github.com/request](https://github.com/request)
 
 
 * [NPM依赖：类库工具](https://www.jianshu.com/p/2a127cfba1cf)
