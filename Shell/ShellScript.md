@@ -15,6 +15,7 @@
     + [shellcheck 规范](https://my.oschina.net/2688/blog/736548)
 + [https://github.com/ComplianceAsCode/content](https://github.com/ComplianceAsCode/content)
 + 格式化 [https://github.com/mvdan/sh](https://github.com/mvdan/sh)
++ rm替代方案 [https://github.com/qqAys/trash.sh](https://github.com/qqAys/trash.sh)
 
 
 * [Shell 教程](https://www.runoob.com/linux/linux-shell.html)

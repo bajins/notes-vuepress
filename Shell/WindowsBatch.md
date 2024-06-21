@@ -276,7 +276,16 @@ nslookup 域名
 > `C:\Windows\System32\drivers\etc\hosts`
 
 ```batch
+netsh int ip reset
+netsh int ipv6 reset
+netsh winsock reset
+netsh winhttp reset proxy
+ipconfig /release
+ipconfig /renew
 ipconfig /flushdns
+ipconfig /registerdns
+inetcpl.cpl
+ncpa.cpl
 ```
 
 

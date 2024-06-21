@@ -300,6 +300,7 @@
 * [https://github.com/louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)
 * [https://github.com/lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare)
 * [https://github.com/OneUptime/oneuptime](https://github.com/OneUptime/oneuptime)
+* [https://github.com/BetterStackHQ](https://github.com/BetterStackHQ)
 * [https://github.com/nokyan/resources](https://github.com/nokyan/resources)
 * [https://github.com/sqshq/sampler](https://github.com/sqshq/sampler)
 * [https://github.com/chaos-zhu/easynode](https://github.com/chaos-zhu/easynode)

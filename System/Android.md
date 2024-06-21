@@ -36,6 +36,7 @@
 - 解决合并冲突Gradle插件 [https://github.com/2BAB/Seal](https://github.com/2BAB/Seal)
 - trace 工具 [https://github.com/bytedance/btrace](https://github.com/bytedance/btrace)
 - 备份提取 [https://github.com/nelenkov/android-backup-extractor](https://github.com/nelenkov/android-backup-extractor)
+- ROM制作 [https://github.com/AiKirito/UY-Sct](https://github.com/AiKirito/UY-Sct)
 
 
 + Java各版本支持情况 [https://github.com/JakeWharton/agp-java-support](https://github.com/JakeWharton/agp-java-support)

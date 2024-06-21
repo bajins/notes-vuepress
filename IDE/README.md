@@ -63,6 +63,10 @@
 
 **Dev Tools/DevOps/CI/CD/Developer Experience (DX)**
 
++ [https://github.com/topics/developer-tools](https://github.com/topics/developer-tools)
++ 转编译 [https://github.com/topics/transpiler](https://github.com/topics/transpiler)
+
+
 - [https://github.com/xlabs-club](https://github.com/xlabs-club)
 - 代码搜索和替换 [https://github.com/comby-tools/comby](https://github.com/comby-tools/comby)
 - [https://github.com/dsznajder/vscode-es7-javascript-react-snippets](https://github.com/dsznajder/vscode-es7-javascript-react-snippets)
@@ -111,6 +115,7 @@
 - SQL助手AI [https://github.com/chat2db/Chat2DB](https://github.com/chat2db/Chat2DB)
 - [https://github.com/defog-ai/sqlcoder](https://github.com/defog-ai/sqlcoder)
 - [https://github.com/SuperDuperDB/superduperdb](https://github.com/SuperDuperDB/superduperdb)
+- [https://github.com/vanna-ai/vanna](https://github.com/vanna-ai/vanna)
 - 代码搜索 [https://github.com/ast-grep/ast-grep](https://github.com/ast-grep/ast-grep)
 - 可视化前端设计 [https://github.com/webstudio-is/webstudio](https://github.com/webstudio-is/webstudio)
 - [https://github.com/SawyerHood/draw-a-ui](https://github.com/SawyerHood/draw-a-ui)

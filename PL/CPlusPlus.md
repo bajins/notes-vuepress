@@ -100,6 +100,7 @@
     * [https://github.com/makelove/OpenCV-Python-Tutorial](https://github.com/makelove/OpenCV-Python-Tutorial)
 * [https://github.com/xianyi/OpenBLAS](https://github.com/xianyi/OpenBLAS)
 * [https://github.com/UrielCh/opencv4nodejs](https://github.com/UrielCh/opencv4nodejs)
+* OpenAL [https://github.com/kcat/openal-soft](https://github.com/kcat/openal-soft)
 * 美颜滤镜 [https://github.com/pixpark/gpupixel](https://github.com/pixpark/gpupixe)
 * 2D和3D跨平台 [https://github.com/godotengine/godot](https://github.com/godotengine/godot)
 * [https://github.com/cocos2d/cocos2d-x](https://github.com/cocos2d/cocos2d-x)
