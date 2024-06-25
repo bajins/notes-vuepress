@@ -48,6 +48,7 @@
 * [https://github.com/umijs](https://github.com/umijs)
 * Serverless [https://github.com/midwayjs](https://github.com/midwayjs)
 * [https://github.com/modern-js-dev](https://github.com/modern-js-dev)
+* 游戏 [https://github.com/4ian/GDevelop](https://github.com/4ian/GDevelop)
 * 框架环境 [https://github.com/meteor](https://github.com/meteor)
 * 仪表盘 [https://github.com/keen/dashboards](https://github.com/keen/dashboards)
 * [https://github.com/Smashing/smashing](https://github.com/Smashing/smashing)

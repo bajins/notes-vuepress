@@ -62,6 +62,7 @@
 - 翻译 [https://github.com/tisfeng/Easydict](https://github.com/tisfeng/Easydict)
 - 录屏 [https://github.com/lihaoyun6/QuickRecorder](https://github.com/lihaoyun6/QuickRecorder)
 - 视频转GIF [https://github.com/sindresorhus/Gifski](https://github.com/sindresorhus/Gifski)
+- 窗口管理 [https://github.com/MrKai77/Loop](https://github.com/MrKai77/Loop)
 
 
 * [https://macked.app](https://macked.app)

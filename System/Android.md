@@ -563,6 +563,7 @@
 * 投屏 [https://github.com/barry-ran/QtScrcpy](https://github.com/barry-ran/QtScrcpy)
 * 保活 [https://github.com/fgkeepalive/AndroidKeepAlive](https://github.com/fgkeepalive/AndroidKeepAlive)
 * 翻译 [https://github.com/FunnySaltyFish/FunnyTranslation](https://github.com/FunnySaltyFish/FunnyTranslation)
+* [https://github.com/niedev/RTranslator](https://github.com/niedev/RTranslator)
 
 
 ### 证件照

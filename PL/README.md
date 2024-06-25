@@ -29,6 +29,7 @@
 - 推广渠道 [https://github.com/naxiaoduo/1000UserGuide](https://github.com/naxiaoduo/1000UserGuide)
 - [Sam Altman的创业手册](https://jxp73q7qjsg.feishu.cn/docx/WCNZdKDa4o2eUrxK5ElcfBXEnah)
 - 硬地骇客 [https://github.com/hardhackerlabs/book](https://github.com/hardhackerlabs/book)
+- [以前靠信息不对称赚钱，现在靠什么赚钱？](https://www.zhihu.com/question/268481226)
 
 
 
@@ -234,6 +235,7 @@
 * [https://github.com/version-fox/vfox](https://github.com/version-fox/vfox)
 * [https://github.com/asdf-vm/asdf](https://github.com/asdf-vm/asdf)
     * [https://github.com/halcyon/asdf-java](https://github.com/halcyon/asdf-java)
+* [https://github.com/daytonaio/daytona](https://github.com/daytonaio/daytona)
 * 包管理器 [http://win-builds.org](http://win-builds.org)
 * [https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror)
 * [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate)
@@ -481,6 +483,9 @@
 - [https://github.com/kotlin-orm/ktorm](https://github.com/kotlin-orm/ktorm)
 - 爬虫 [https://github.com/wendigo/chrome-reactive-kotlin](https://github.com/wendigo/chrome-reactive-kotlin)
 - [https://github.com/joffrey-bion/chrome-devtools-kotlin](https://github.com/joffrey-bion/chrome-devtools-kotlin)
+- 反射 [https://github.com/JetBrains-Research/reflekt](https://github.com/JetBrains-Research/reflekt)
+- 即插即用 [https://github.com/ohmae/mmupnp](https://github.com/ohmae/mmupnp)
+- 测试 [https://github.com/tschuchortdev/kotlin-compile-testing](https://github.com/tschuchortdev/kotlin-compile-testing)
 
 
 * [了解Kotlin协程实现原理这篇就够了](https://ethanhua.github.io/2018/12/24/kotlin_coroutines)

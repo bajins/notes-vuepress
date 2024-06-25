@@ -300,16 +300,9 @@
 * [https://github.com/louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)
 * [https://github.com/lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare)
 * [https://github.com/OneUptime/oneuptime](https://github.com/OneUptime/oneuptime)
+* [https://github.com/StamusNetworks/SELKS](https://github.com/StamusNetworks/SELKS)
 * [https://github.com/BetterStackHQ](https://github.com/BetterStackHQ)
-* [https://github.com/nokyan/resources](https://github.com/nokyan/resources)
-* [https://github.com/sqshq/sampler](https://github.com/sqshq/sampler)
 * [https://github.com/chaos-zhu/easynode](https://github.com/chaos-zhu/easynode)
-* [https://github.com/ClementTsang/bottom](https://github.com/ClementTsang/bottom)
-* [https://github.com/aksakalli/gtop](https://github.com/aksakalli/gtop)
-* [https://github.com/xxxserxxx/gotop](https://github.com/xxxserxxx/gotop)
-* [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
-* [https://github.com/htop-dev/htop](https://github.com/htop-dev/htop)
-* [https://github.com/nicolargo/glances](https://github.com/nicolargo/glances)
 * [https://github.com/netdata/netdata](https://github.com/netdata/netdata)
 * [https://github.com/newrelic](https://github.com/newrelic)
     * [https://opensource.newrelic.com](https://opensource.newrelic.com)
@@ -317,10 +310,8 @@
 * [https://github.com/tracecompass](https://github.com/tracecompass)
     * [https://github.com/lttng](https://github.com/lttng)
     * [https://github.com/eclipse-cdt-cloud](https://github.com/eclipse-cdt-cloud)
-* [https://github.com/sysstat/sysstat](https://github.com/sysstat/sysstat)
 * [https://github.com/may-fly/mayfly-go](https://github.com/may-fly/mayfly-go)
 * [https://github.com/amuluze/amprobe](https://github.com/amuluze/amprobe)
-* [https://github.com/context-labs/mactop](https://github.com/context-labs/mactop)
 * [https://github.com/mcoo/status](https://github.com/mcoo/status)
 * 实时崩溃报告 [https://github.com/getsentry](https://github.com/getsentry)
 * [https://github.com/highlight/highlight](https://github.com/highlight/highlight)
@@ -330,9 +321,6 @@
 
 
 
-- 堡垒机 [https://github.com/jimmy201602/webterminal](https://github.com/jimmy201602/webterminal)
-- [https://github.com/bigbully/Dapper-translation](https://github.com/bigbully/Dapper-translation)
-    - [https://bigbully.github.io/Dapper-translation](https://bigbully.github.io/Dapper-translation)
 - [Linux工程师必备的88个监控工具](https://learn-linux.readthedocs.io/zh_CN/latest/maintenance/monitor/tools/80-linux-monitoring-tools.html)
 - `nethogs`: 按进程查看流量占用
 - `ethtool`: 诊断工具
@@ -342,10 +330,24 @@
 - 每个套接字连接的带宽使用：`iftop`、`iptraf`、`tcptrack`、`pktstat`、`netwatch`、`trafshow`、`jnettop`
 - `ntopng`
 - perf、sar、ksar、mpstat、uptime、vmstat、pidstat、time、cpustat、munin、glances、atop、nmon、pcp-gui、nfsstat、netstat、iostat
+- 系统信息 [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
+- [https://github.com/sqshq/sampler](https://github.com/sqshq/sampler)
+- [https://github.com/nokyan/resources](https://github.com/nokyan/resources)
+- [https://github.com/ClementTsang/bottom](https://github.com/ClementTsang/bottom)
+- [https://github.com/aksakalli/gtop](https://github.com/aksakalli/gtop)
+- [https://github.com/xxxserxxx/gotop](https://github.com/xxxserxxx/gotop)
+- [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
+- [https://github.com/htop-dev/htop](https://github.com/htop-dev/htop)
+- [https://github.com/nicolargo/glances](https://github.com/nicolargo/glances)
+- [https://github.com/sysstat/sysstat](https://github.com/sysstat/sysstat)
+- [https://github.com/context-labs/mactop](https://github.com/context-labs/mactop)
 - 视图监视器 [https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet](https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet)
 - [https://github.com/aristocratos](https://github.com/aristocratos)
 - [https://github.com/magiclen/m-prober](https://github.com/magiclen/m-prober)
 - 网站防护 [https://github.com/chaitin/SafeLine](https://github.com/chaitin/SafeLine)
+- 堡垒机 [https://github.com/jimmy201602/webterminal](https://github.com/jimmy201602/webterminal)
+- [https://github.com/bigbully/Dapper-translation](https://github.com/bigbully/Dapper-translation)
+    - [https://bigbully.github.io/Dapper-translation](https://bigbully.github.io/Dapper-translation)
 
 
 
@@ -400,6 +402,7 @@
 * [https://github.com/hestiacp/hestiacp](https://github.com/hestiacp/hestiacp)
 * [https://github.com/1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel)
 * [https://github.com/midoks/mdserver-web](https://github.com/midoks/mdserver-web)
+* [https://github.com/TheTNB/panel](https://github.com/TheTNB/panel)
 
 
 
@@ -503,6 +506,7 @@
 * Web应用商店 [https://github.com/sandstorm-io/sandstorm](https://github.com/sandstorm-io/sandstorm)
 * [https://github.com/Websoft9/websoft9](https://github.com/Websoft9/websoft9)
 * 桌面录屏 [https://github.com/canwdev/web-mediadevices-player](https://github.com/canwdev/web-mediadevices-player)
+* 搜索 [https://github.com/searxng/searxng](https://github.com/searxng/searxng)
 
 
 
@@ -517,6 +521,7 @@
 * [https://github.com/anytypeio](https://github.com/anytypeio)
 * [https://github.com/Teamlinker](https://github.com/Teamlinker)
 * 团队协作和文档 [https://www.notion.so](https://www.notion.so)
+* [https://github.com/mayneyao/eidos](https://github.com/mayneyao/eidos)
 * [https://github.com/mattermost/focalboard](https://github.com/mattermost/focalboard)
 * [https://github.com/AppFlowy-IO/appflowy](https://github.com/AppFlowy-IO/appflowy)
 * [https://github.com/burntcarrot/pairpad](https://github.com/burntcarrot/pairpad)

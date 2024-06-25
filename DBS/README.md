@@ -100,6 +100,7 @@
 - 日志解析订阅和消费 [https://github.com/alibaba/canal](https://github.com/alibaba/canal)
 - [https://github.com/ucarGroup/DataLink](https://github.com/ucarGroup/DataLink)
 - 数据库监控 [https://github.com/debezium/debezium](https://github.com/debezium/debezium)
+- [https://github.com/percona/pmm](https://github.com/percona/pmm)
 
 
 

@@ -84,7 +84,6 @@
 + HTML [https://github.com/ericchiang/pup](https://github.com/ericchiang/pup)
 + ACK [https://github.com/beyondgrep/ack3](https://github.com/beyondgrep/ack3)
 + Find [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
-+ 系统信息 [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
 
 
 **`terminal`、`shell`、`tty`、`console` 之间的区别**
