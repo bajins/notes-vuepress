@@ -106,6 +106,7 @@
 - [https://github.com/aixcoder-plugin/aiXcoder-7B](https://github.com/aixcoder-plugin/aiXcoder-7B)
 - [https://github.com/ibm-granite](https://github.com/ibm-granite)
 - [https://github.com/triton-lang/triton](https://github.com/triton-lang/triton)
+- [https://github.com/bravekingzhang/gpt-frontend-code-gen](https://github.com/bravekingzhang/gpt-frontend-code-gen)
 - 突出显示重要代码 [https://github.com/novoselrok/glance](https://github.com/novoselrok/glance)
 - 代码转换 [https://github.com/JustAIGithub/AI-Code-Convert](https://github.com/JustAIGithub/AI-Code-Convert)
 - [https://github.com/ritz078/transform](https://github.com/ritz078/transform)
@@ -587,6 +588,7 @@
     * [https://sourceforge.net/projects/testlink](https://sourceforge.net/projects/testlink)
 * [https://github.com/edavis10/redmine](https://github.com/edavis10/redmine)
 * [https://github.com/makeplane/plane](https://github.com/makeplane/plane)
+* [https://github.com/plankanban/planka](https://github.com/plankanban/planka)
 
 
 

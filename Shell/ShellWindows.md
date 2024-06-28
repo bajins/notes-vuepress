@@ -16,6 +16,7 @@
 - GPG密钥 [https://www.gpg4win.org](https://www.gpg4win.org)
 - 多个shell软件包镜像 [https://github.com/mirror](https://github.com/mirror)
 - [https://github.com/svn2github](https://github.com/svn2github)
+- [https://winlibs.com](https://winlibs.com)
 - 沙箱 [https://github.com/sandboxie-plus](https://github.com/sandboxie-plus)
 
 

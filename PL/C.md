@@ -309,6 +309,7 @@
 - 塞尔达传说时之笛 [https://github.com/zeldaret](https://github.com/zeldaret)
 - [https://github.com/PCSX2/pcsx2](https://github.com/PCSX2/pcsx2)
 - 密码恢复工具 [https://github.com/hashcat/hashcat](https://github.com/hashcat/hashcat)
+- 跨平台运行 [https://github.com/jart/cosmopolitan](https://github.com/jart/cosmopolitan)
 
 
 > C语言的编译器有很多种，不同的平台下有不同的编译器

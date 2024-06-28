@@ -531,9 +531,6 @@
 * [https://github.com/ptcms/RuleApi](https://github.com/ptcms/RuleApi)
 * [https://github.com/lzh-kf/novel](https://github.com/lzh-kf/novel)
 * [https://github.com/zhangweijiang/thinkphp-novel](https://github.com/zhangweijiang/thinkphp-novel)
-
-
-
 * [https://github.com/hiliqi/xiaoshuo](https://github.com/hiliqi/xiaoshuo)
 * [https://github.com/zhongyu911/novel](https://github.com/zhongyu911/novel)
 * [AnyView阅读-未开源](http://www.anyview.net)
@@ -543,6 +540,9 @@
 * [https://github.com/kovidgoyal/calibre](https://github.com/kovidgoyal/calibre)
     * [https://calibre-ebook.com](https://calibre-ebook.com)
     * [https://github.com/janeczku/calibre-web](https://github.com/janeczku/calibre-web)
+* [https://github.com/Librum-Reader/Librum](https://github.com/Librum-Reader/Librum)
+* Epub [https://github.com/pacexy/flow](https://github.com/pacexy/flow)
+
 
 
 ### vue

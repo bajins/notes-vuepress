@@ -144,6 +144,7 @@
 
 ## 服务器软件
 
+* [https://github.com/bitnami](https://github.com/bitnami)
 * 服务器音频播放器 [https://github.com/badaix/snapcast](https://github.com/badaix/snapcast)
 * 桌面 [https://github.com/kernelslacker/trinity](https://github.com/kernelslacker/trinity)
 * [https://github.com/wine-mirror/wine](https://github.com/wine-mirror/wine)
@@ -379,6 +380,7 @@
 * [https://github.com/prometheus](https://github.com/prometheus)
     * [Prometheus监控tomcat+jvm](https://www.cnblogs.com/you-men/p/13216976.html)
     * [https://iqsing.github.io/categories/prometheus](https://iqsing.github.io/categories/prometheus)
+* [https://github.com/OpenObservability/OpenMetrics](https://github.com/OpenObservability/OpenMetrics)
 * [https://github.com/ccfos/nightingale](https://github.com/ccfos/nightingale)
 * [https://github.com/scouter-project/scouter](https://github.com/scouter-project/scouter)
 * 可视化套件 [https://github.com/grafana/grafana](https://github.com/grafana/grafana)
@@ -507,6 +509,7 @@
 * [https://github.com/Websoft9/websoft9](https://github.com/Websoft9/websoft9)
 * 桌面录屏 [https://github.com/canwdev/web-mediadevices-player](https://github.com/canwdev/web-mediadevices-player)
 * 搜索 [https://github.com/searxng/searxng](https://github.com/searxng/searxng)
+* IT资产管理 [https://github.com/snipe/snipe-it](https://github.com/snipe/snipe-it)
 
 
 

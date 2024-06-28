@@ -419,6 +419,7 @@
 * [https://github.com/appsmithorg/appsmith](https://github.com/appsmithorg/appsmith)
 * [https://github.com/teableio/teable](https://github.com/teableio/teable)
 * [https://github.com/nocobase/nocobase](https://github.com/nocobase/nocobase)
+* [https://github.com/plasmicapp/plasmic](https://github.com/plasmicapp/plasmic)
 
 
 

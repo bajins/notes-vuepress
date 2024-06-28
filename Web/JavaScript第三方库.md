@@ -418,6 +418,7 @@
 * [https://github.com/projectstorm/react-diagrams](https://github.com/projectstorm/react-diagrams)
 * [https://github.com/auto-workflow/AWorkflow](https://github.com/auto-workflow/AWorkflow)
 * [https://github.com/mermaidjs/mermaid-live-editor](https://github.com/mermaidjs/mermaid-live-editor)
+* [https://github.com/observablehq/plot](https://github.com/observablehq/plot)
 * 实体建模 [https://github.com/jscad](https://github.com/jscad)
     * [https://github.com/uetchy/cadmio](https://github.com/uetchy/cadmio)
     * [https://github.com/gilboonet](https://github.com/gilboonet)

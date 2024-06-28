@@ -338,6 +338,7 @@
 * TTS [https://github.com/jing332/tts-server-android](https://github.com/jing332/tts-server-android)
 * 隐私合规检测 [https://github.com/allenymt/PrivacySentry](https://github.com/allenymt/PrivacySentry)
 * [https://github.com/pengxurui/EasyPrivacy](https://github.com/pengxurui/EasyPrivacy)
+* 崩溃报告 [https://github.com/ACRA/acra](https://github.com/ACRA/acra)
 
 
 

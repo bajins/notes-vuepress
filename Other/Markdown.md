@@ -567,6 +567,7 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/oleeskild/obsidian-digital-garden](https://github.com/oleeskild/obsidian-digital-garden)
     * [https://github.com/obsidianmd](https://github.com/obsidianmd)
 * [https://github.com/yesmore/inke](https://github.com/yesmore/inke)
+* [https://github.com/streetwriters/notesnook](https://github.com/streetwriters/notesnook)
 * GitBook替代 [https://github.com/lindeer/dartbook](https://github.com/lindeer/dartbook)
 * 临时存储 [https://github.com/heyman/heynote](https://github.com/heyman/heynote)
 * 待办事项 [https://github.com/go-vikunja/vikunja](https://github.com/go-vikunja/vikunja)
