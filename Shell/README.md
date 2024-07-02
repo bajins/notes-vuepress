@@ -37,6 +37,8 @@
 - [https://github.com/Bash-it/bash-it](https://github.com/Bash-it/bash-it)
 - [https://github.com/orhun/halp](https://github.com/orhun/halp)
 - [https://github.com/0dayCTF/reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator)
+- [https://github.com/starship/starship](https://github.com/starship/starship)
+- [https://github.com/fish-shell/fish-shell](https://github.com/fish-shell/fish-shell)
 - 命令执行演示 [https://github.com/maaslalani/slides](https://github.com/maaslalani/slides)
 - [https://github.com/d0c-s4vage/lookatme](https://github.com/d0c-s4vage/lookatme)
 - [https://github.com/chubin](https://github.com/chubin)
@@ -62,6 +64,8 @@
 + [https://github.com/cantino/mcfly](https://github.com/cantino/mcfly)
 + kill [https://github.com/jkfran/killport](https://github.com/jkfran/killport)
 + ack [https://github.com/ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher)
++ ACK [https://github.com/beyondgrep/ack3](https://github.com/beyondgrep/ack3)
++ agrep [https://github.com/laurikari/tre](https://github.com/laurikari/tre)
 + 终端图像查看 [https://github.com/stefanhaustein/TerminalImageViewer](https://github.com/stefanhaustein/TerminalImageViewer)
 + 地图 [https://github.com/rastapasta/mapscii](https://github.com/rastapasta/mapscii)
 + 电子表格 [https://github.com/saulpw/visidata](https://github.com/saulpw/visidata)
@@ -82,7 +86,6 @@
 + [https://github.com/wader/fq](https://github.com/wader/fq)
 + [https://github.com/ynqa/jnv](https://github.com/ynqa/jnv)
 + HTML [https://github.com/ericchiang/pup](https://github.com/ericchiang/pup)
-+ ACK [https://github.com/beyondgrep/ack3](https://github.com/beyondgrep/ack3)
 + Find [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
 
 

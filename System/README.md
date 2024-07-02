@@ -342,6 +342,7 @@
 - [https://github.com/nicolargo/glances](https://github.com/nicolargo/glances)
 - [https://github.com/sysstat/sysstat](https://github.com/sysstat/sysstat)
 - [https://github.com/context-labs/mactop](https://github.com/context-labs/mactop)
+- [https://github.com/wolfpld/tracy](https://github.com/wolfpld/tracy)
 - 视图监视器 [https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet](https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet)
 - [https://github.com/aristocratos](https://github.com/aristocratos)
 - [https://github.com/magiclen/m-prober](https://github.com/magiclen/m-prober)
@@ -510,6 +511,7 @@
 * 桌面录屏 [https://github.com/canwdev/web-mediadevices-player](https://github.com/canwdev/web-mediadevices-player)
 * 搜索 [https://github.com/searxng/searxng](https://github.com/searxng/searxng)
 * IT资产管理 [https://github.com/snipe/snipe-it](https://github.com/snipe/snipe-it)
+* 色彩转换 [https://github.com/hsluv/hsluv](https://github.com/hsluv/hsluv)
 
 
 

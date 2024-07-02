@@ -482,6 +482,7 @@ check-revoke = false
 * Node.js模块绑定 [https://github.com/neon-bindings/neon](https://github.com/neon-bindings/neon)
 * 支付 [https://github.com/juspay/hyperswitch](https://github.com/juspay/hyperswitch)
 * 内存漏洞 [https://github.com/Speykious/cve-rs](https://github.com/Speykious/cve-rs)
+* FlashPlayer模拟器 [https://github.com/ruffle-rs/ruffle](https://github.com/ruffle-rs/ruffle)
 
 
 

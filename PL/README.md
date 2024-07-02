@@ -377,6 +377,8 @@
     - [https://github.com/learnzig/learnzig](https://github.com/learnzig/learnzig)
     - [https://github.com/SpexGuy/Zig-ImGui](https://github.com/SpexGuy/Zig-ImGui)
     - [https://github.com/zigcc](https://github.com/zigcc)
+    - [https://github.com/star-tek-mb/zig-tray](https://github.com/star-tek-mb/zig-tray)
+    - [https://github.com/n0s4/flags](https://github.com/n0s4/flags)
 - [https://github.com/elixir-lang/elixir](https://github.com/elixir-lang/elixir)
     - [https://github.com/elixirschool](https://github.com/elixirschool)
     - [https://github.com/phoenixframework/phoenix](https://github.com/phoenixframework/phoenix)

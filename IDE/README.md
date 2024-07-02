@@ -25,6 +25,7 @@
 * [https://sourceforge.net/projects/liteide](https://sourceforge.net/projects/liteide)
 * 网络分析 [https://github.com/gephi](https://github.com/gephi)
 * Android代码编辑器 [https://github.com/massivemadness/Squircle-CE](https://github.com/massivemadness/Squircle-CE)
+* 十六进制编辑器 [https://github.com/WerWolv/ImHex](https://github.com/WerWolv/ImHex)
 
 
 
@@ -67,6 +68,7 @@
 + 转编译 [https://github.com/topics/transpiler](https://github.com/topics/transpiler)
 
 
+- [https://whats.new/shortcuts](https://whats.new/shortcuts)
 - [https://github.com/xlabs-club](https://github.com/xlabs-club)
 - 代码搜索和替换 [https://github.com/comby-tools/comby](https://github.com/comby-tools/comby)
 - [https://github.com/dsznajder/vscode-es7-javascript-react-snippets](https://github.com/dsznajder/vscode-es7-javascript-react-snippets)

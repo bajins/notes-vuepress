@@ -9,6 +9,7 @@
 * 恢复Win10任务菜单 [https://github.com/valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher)
 * 手机运行Win10 [https://github.com/edk2-porting](https://github.com/edk2-porting)
 * [https://github.com/WOA-Project](https://github.com/WOA-Project)
+* Windows安装Android应用 [https://github.com/Paving-Base/APK-Installer](https://github.com/Paving-Base/APK-Installer)
 * 删除预安装 [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
 
 
@@ -131,6 +132,12 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 - 完成后再修复映像：`DISM.exe /Online /Cleanup-image /Checkhealth`
 - 然后再修复系统：`DISM.exe /Online /Cleanup-image /Restorehealth`
 - 最后检查系统是否修复：`sfc /scannow`
+- 关闭休眠：`powercfg -h off`
+- 启用休眠：`powercfg -h on`
+- 关闭虚拟内存：`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PagingFiles`
+- 查看预留存储启用状态：`Get-WindowsReservedStorageState`
+- 禁用预留存储：`Set-WindowsReservedStorageState -State disabled`
+- 启用预留存储：`Set-WindowsReservedStorageState -State enable`
 
 
 **密码修改/破解/清除**
