@@ -161,6 +161,7 @@
 * [https://github.com/apache/cassandra](https://github.com/apache/cassandra)
 * [https://github.com/apache/kudu](https://github.com/apache/kudu)
 * [https://github.com/KvrocksLabs/kvrocks](https://github.com/KvrocksLabs/kvrocks)
+* [https://github.com/ydb-platform/ydb](https://github.com/ydb-platform/ydb)
 * CrateDB [https://github.com/crate/crate](https://github.com/crate/crate)
 * [https://github.com/influxdata/influxdb](https://github.com/influxdata/influxdb)
     * [https://github.com/InfluxCommunity](https://github.com/InfluxCommunity)

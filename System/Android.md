@@ -461,6 +461,7 @@
 * [https://apk-dl.com](https://apk-dl.com)
 * [https://cn.uptodown.com/android](https://cn.uptodown.com/android)
 * [https://www.uptodown.com](https://www.uptodown.com)
+* [https://apk.support/apk-downloader](https://apk.support/apk-downloader)
 
 
 + [https://apkpure.com/cn/developer/Microsoft%20Corporation](https://apkpure.com/cn/developer/Microsoft%20Corporation)
@@ -566,6 +567,7 @@
 * 保活 [https://github.com/fgkeepalive/AndroidKeepAlive](https://github.com/fgkeepalive/AndroidKeepAlive)
 * 翻译 [https://github.com/FunnySaltyFish/FunnyTranslation](https://github.com/FunnySaltyFish/FunnyTranslation)
 * [https://github.com/niedev/RTranslator](https://github.com/niedev/RTranslator)
+* 天气 [https://github.com/breezy-weather/breezy-weather](https://github.com/breezy-weather/breezy-weather)
 
 
 ### 证件照

@@ -55,6 +55,7 @@
 + [https://github.com/buybackoff/1brc](https://github.com/buybackoff/1brc)
 + [https://github.com/RagnarGrootKoerkamp/1brc](https://github.com/RagnarGrootKoerkamp/1brc)
     + [https://curiouscoding.nl/posts/1brc](https://curiouscoding.nl/posts/1brc)
++ 一些规范软件历史 [https://blog.brachiosoft.com/posts](https://blog.brachiosoft.com/posts)
 
 
 * [python、java、c、go执行速度对比](https://www.jianshu.com/p/d60eff598aa0)

@@ -22,6 +22,7 @@
         * [https://gitee.com/ja-netfilter](https://gitee.com/ja-netfilter)
         * [https://github.com/libin9iOak/ja-netfilter-all](https://github.com/libin9iOak/ja-netfilter-all)
         * [https://jetbra.in/s](https://jetbra.in/s)
+            * [https://github.com/jonssonyan/3.jetbra.in](https://github.com/jonssonyan/3.jetbra.in)
         * [https://jetbrains.zhang-wt.com](https://jetbrains.zhang-wt.com)
         * [https://github.com/sinlmao/plugin-fineagent](https://github.com/sinlmao/plugin-fineagent)
         * [https://github.com/googleweb/power-rule-plugin](https://github.com/googleweb/power-rule-plugin)

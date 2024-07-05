@@ -471,9 +471,10 @@
 * [https://github.com/CH563/shot-easy-website](https://github.com/CH563/shot-easy-website)
 * 创意图片编辑 [https://github.com/sleepy-zone/fabritor-web](https://github.com/sleepy-zone/fabritor-web)
 * [https://github.com/palxiao/poster-design](https://github.com/palxiao/poster-design)
-* 复古游戏 [https://github.com/arianrhodsandlot/nostalgist](https://github.com/arianrhodsandlot/nostalgist)
+* 游戏 [https://github.com/arianrhodsandlot/nostalgist](https://github.com/arianrhodsandlot/nostalgist)
 * [https://github.com/arianrhodsandlot/retro-assembly](https://github.com/arianrhodsandlot/retro-assembly)
 * [https://github.com/retrobrews](https://github.com/retrobrews)
+* [https://github.com/LizardByte/Sunshine](https://github.com/LizardByte/Sunshine)
 * 中国历史 [https://github.com/liujuntao123/chines-history-video](https://github.com/liujuntao123/chines-history-video)
 * 日历 [https://github.com/xyxc0673/calendar-remark](https://github.com/xyxc0673/calendar-remark)
 * 知识问答 [https://github.com/apache/incubator-answer](https://github.com/apache/incubator-answer)
@@ -496,6 +497,7 @@
 * 天气 [https://github.com/vsergeev/briefsky](https://github.com/vsergeev/briefsky)
 * 短链接 [https://github.com/dubinc/dub](https://github.com/dubinc/dub)
 * 项目落地页 [https://github.com/weijunext/landing-page-boilerplate](https://github.com/weijunext/landing-page-boilerplate)
+* [https://github.com/huglemon/inwind-landing-page](https://github.com/huglemon/inwind-landing-page)
 * 表单生成 [https://github.com/heyform/heyform](https://github.com/heyform/heyform)
 * 管理后台 [https://github.com/dashpresshq/dashpress](https://github.com/dashpresshq/dashpress)
 * 文件共享 [https://github.com/stonith404/pingvin-share](https://github.com/stonith404/pingvin-share)
@@ -512,6 +514,7 @@
 * 搜索 [https://github.com/searxng/searxng](https://github.com/searxng/searxng)
 * IT资产管理 [https://github.com/snipe/snipe-it](https://github.com/snipe/snipe-it)
 * 色彩转换 [https://github.com/hsluv/hsluv](https://github.com/hsluv/hsluv)
+* 音乐人声分离 [https://github.com/jianchang512/vocal-separate](https://github.com/jianchang512/vocal-separate)
 
 
 

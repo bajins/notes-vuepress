@@ -233,6 +233,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
     + [https://tgsan.github.io/CMWTAT_Digital_Edition](https://tgsan.github.io/CMWTAT_Digital_Edition)
 + [https://github.com/ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey)
 + [https://github.com/zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator)
++ [https://github.com/abbodi1406/KMS_VL_ALL_AIO](https://github.com/abbodi1406/KMS_VL_ALL_AIO)
 + [https://github.com/TheMMC/In-Place_Upgrade_Helper](https://github.com/TheMMC/In-Place_Upgrade_Helper)
 + [https://github.com/abbodi1406/WHD](https://github.com/abbodi1406/WHD)
 + [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
@@ -242,6 +243,8 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 + [https://github.com/ikxin/kms-tools](https://github.com/ikxin/kms-tools)
 + [https://official-kmspico.com](https://official-kmspico.com)
 + [https://www.coolhub.top/tech-articles/kms_list.html](https://www.coolhub.top/tech-articles/kms_list.html)
++ [https://forums.mydigitallife.net/threads/microsoft-toolkit-continued.82782](https://forums.mydigitallife.net/threads/microsoft-toolkit-continued.82782)
++ [https://msfree.su/index.php?forums/32/](https://msfree.su/index.php?forums/32/)
 
 
 * [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)
@@ -277,8 +280,6 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://www.nirsoft.net/utils/product_cd_key_viewer.html](https://www.nirsoft.net/utils/product_cd_key_viewer.html)
 * [拨打免费电话激活Windows、Office](https://mp.weixin.qq.com/s/eiIutreWTe5AHPXjkOUwMQ)
 
-
-- [https://github.com/massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
 
 > 在PowerShell（也可在CMD）中输入命令运行`slmgr.vbs /dti`，按<kbd>Ctrl</kbd> + <kbd>C</kbd>复制，

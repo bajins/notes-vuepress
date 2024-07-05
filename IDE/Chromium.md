@@ -26,6 +26,7 @@
 * User-Agent正则 [https://github.com/ua-parser/uap-core](https://github.com/ua-parser/uap-core)
 * 匿名跟踪测试 [https://firstpartysimulator.org](https://firstpartysimulator.org)
 * [https://github.com/libredirect](https://github.com/libredirect)
+* AI [https://github.com/debugtheworldbot/chromegemini](https://github.com/debugtheworldbot/chromegemini)
 
 
 
@@ -97,6 +98,7 @@
 * [https://github.com/ranfdev/Geopard](https://github.com/ranfdev/Geopard)
 * [https://github.com/Alex313031/Thorium](https://github.com/Alex313031/Thorium)
 * [https://github.com/face-hh/webx](https://github.com/face-hh/webx)
+* [https://github.com/LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird)
 
 
 

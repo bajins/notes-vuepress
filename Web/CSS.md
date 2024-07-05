@@ -115,6 +115,8 @@
 * [https://github.com/filamentgroup](https://github.com/filamentgroup)
 * [https://github.com/pure-css/pure](https://github.com/pure-css/pure)
     * [https://www.purecss.cn](https://www.purecss.cn)
+* [https://github.com/wintermute-cell/magick.css](https://github.com/wintermute-cell/magick.css)
+* [https://github.com/louismerlin/concrete.css](https://github.com/louismerlin/concrete.css)
 * [https://github.com/necolas/normalize.css](https://github.com/necolas/normalize.css)
 * [https://github.com/picturepan2/spectre](https://github.com/picturepan2/spectre)
 * [https://github.com/semantic-org/semantic-ui](https://github.com/semantic-org/semantic-ui)
