@@ -50,6 +50,7 @@
 + [https://github.com/find-sec-bugs/find-sec-bugs](https://github.com/find-sec-bugs/find-sec-bugs)
 + [https://github.com/jimbethancourt/RefactorFirst](https://github.com/jimbethancourt/RefactorFirst)
 + JAR文件分析 [https://github.com/kordamp/jarviz](https://github.com/kordamp/jarviz)
++ 持续交付事件的通用规范 [https://github.com/cdevents](https://github.com/cdevents)
 
 
 - [https://github.com/topics/classloader](https://github.com/topics/classloader)
@@ -272,6 +273,7 @@
 + 排序 [https://github.com/Ekryd/sortpom](https://github.com/Ekryd/sortpom)
 + 格式化 [https://github.com/revelc/formatter-maven-plugin](https://github.com/revelc/formatter-maven-plugin)
 + [https://github.com/maveniverse/mima](https://github.com/maveniverse/mima)
++ 集成Rust [https://github.com/questdb/rust-maven-plugin](https://github.com/questdb/rust-maven-plugin)
 
 
 

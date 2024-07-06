@@ -31,6 +31,7 @@
 + [https://github.com/topics/openjdk](https://github.com/topics/openjdk)
 + [https://github.com/topics/jdk](https://github.com/topics/jdk)
 + [https://www.injdk.cn](https://www.injdk.cn)
++ [JDK版本生命周期](/files/JDK版本生命周期.html)
 
 
 * [https://github.com/openjdk](https://github.com/openjdk)
@@ -71,12 +72,6 @@
 * [https://eclipse.dev/justj](https://eclipse.dev/justj)
     * [https://download.eclipse.org/justj/www/?page=download](https://download.eclipse.org/justj/www/?page=download)
 
-
-
-- [https://www.oracle.com/java/technologies/java-se-support-roadmap.html](https://www.oracle.com/java/technologies/java-se-support-roadmap.html)
-- [Oracle Java SE Support Roadmap：支持JDK 8到2030年](https://blog.csdn.net/f641385712/article/details/124732654)
-
-![](/images/JDK版本生命周期.jpg)
 
 
 

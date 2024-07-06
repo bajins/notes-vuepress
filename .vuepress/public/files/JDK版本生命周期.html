@@ -1,0 +1,288 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Java-JDK生命周期</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(140 140 140);
+            font-family: sans-serif;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            margin-top: 10px;
+        }
+
+        thead {
+            background-color: rgb(228 240 245);
+        }
+
+        th,
+        td {
+            border: 1px solid rgb(160 160 160);
+            padding: 8px 10px;
+        }
+
+        /* td:last-of-type {
+            text-align: center;
+        } */
+
+        /* tbody>tr:nth-of-type(even) {
+            background-color: rgb(237 238 242);
+        } */
+
+        tfoot td {
+            text-align: left;
+            font-weight: bold;
+        }
+
+        .td-center {
+            text-align: center;
+            background-color: #DEDEDE;
+        }
+
+        .old-version {
+            background-color: #FAA19A;
+        }
+
+        .old-version-supported {
+            background-color: #FEF8BC;
+        }
+
+        .current-version {
+            background-color: #CAF3A5;
+        }
+
+        .upcoming-version {
+            background-color: #B4DFF0;
+        }
+
+        .foot-color-div {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://www.oracle.com/java/technologies/java-se-support-roadmap.html" target="_blank">
+        https://www.oracle.com/java/technologies/java-se-support-roadmap.html
+    </a>
+    <br />
+    <a href="https://blog.csdn.net/f641385712/article/details/124732654" target="_blank">
+        Oracle Java SE Support Roadmap：支持JDK 8到2030年
+    </a>
+
+    <table>
+        <thead>
+            <tr>
+                <th>版本</th>
+                <th>发布日期</th>
+                <th>最后更新时间</th>
+                <th>最后延伸支持日期</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="old-version">JDK Beta</td>
+                <td>1995</td>
+                <td class="td-center">?</td>
+                <td class="td-center">?</td>
+            </tr>
+            <tr>
+                <td class="old-version">JDK 1.0</td>
+                <td>1996 年 1 月</td>
+                <td class="td-center">?</td>
+                <td class="td-center">?</td>
+            </tr>
+            <tr>
+                <td class="old-version">JDK 1.1</td>
+                <td>1997 年 2 月</td>
+                <td class="td-center">?</td>
+                <td class="td-center">?</td>
+            </tr>
+            <tr>
+                <td class="old-version">J2SE 1.2</td>
+                <td>1998 年 12 月</td>
+                <td class="td-center">?</td>
+                <td class="td-center">?</td>
+            </tr>
+            <tr>
+                <td class="old-version">J2SE 1.3</td>
+                <td>2000 年 5 月</td>
+                <td class="td-center">?</td>
+                <td class="td-center">?</td>
+            </tr>
+            <tr>
+                <td class="old-version">J2SE 1.4</td>
+                <td>2002 年 2 月</td>
+                <td>2008 年 10 月</td>
+                <td>2013 年 2 月</td>
+            </tr>
+            <tr>
+                <td class="old-version">J2SE 5.0</td>
+                <td>2004 年 9 月</td>
+                <td>2009 年 11 月</td>
+                <td>2015 年 4 月</td>
+            </tr>
+            <tr>
+                <td class="old-version">Java SE 6</td>
+                <td>2006 年 12 月</td>
+                <td>2013 年 4 月</td>
+                <td>2018 年 12 月</td>
+            </tr>
+            <tr>
+                <td class="old-version">Java SE 7</td>
+                <td>2011 年 7 月</td>
+                <td>2015 年 4 月</td>
+                <td>2022 年 7 月</td>
+            </tr>
+            <tr>
+                <td class="old-version-supported">Java SE 8 (LTS)</td>
+                <td>2014 年 3 月</td>
+                <td>
+                    Oracle 于 2022 年 3 月停止更新<br>
+                    AdoptOpenJDK 于 2026 年 5 月或之后停止更新<br>
+                    Amazon Corretto 于 2026 年 5 月或之后停止更新
+                </td>
+                <td>2030 年 12 月</td>
+            </tr>
+            <tr>
+                <td>Java SE 9</td>
+                <td>2017 年 9 月</td>
+                <td>2018 年 3 月</td>
+                <td class="td-center">不适用</td>
+            </tr>
+            <tr>
+                <td>Java SE 10</td>
+                <td>2018 年 3 月</td>
+                <td>2018 年 9 月</td>
+                <td class="td-center">不适用</td>
+            </tr>
+            <tr>
+                <td class="old-version-supported">Java SE 11 (LTS)</td>
+                <td>2018 年 9 月</td>
+                <td>
+                    OpenJDK 于 2023 年 9 月停止更新<br>
+                    AdoptOpenJDK 于 2024 年 10 月或之后停止更新<br>
+                    Amazon Corretto 于 2027 年 9 月或之后停止更新
+                </td>
+                <td>2032 年 1 月</td>
+            </tr>
+            <tr>
+                <td>Java SE 12</td>
+                <td>2019 年 3 月</td>
+                <td>2019 年 9 月</td>
+                <td class="td-center">不适用</td>
+            </tr>
+            <tr>
+                <td>Java SE 13</td>
+                <td>2019 年 9 月</td>
+                <td>2020 年 3 月</td>
+                <td class="td-center">不适用</td>
+            </tr>
+            <tr>
+                <td>Java SE 14</td>
+                <td>2020 年 3 月</td>
+                <td>2020 年 9 月</td>
+                <td class="td-center">不适用</td>
+            </tr>
+            <tr>
+                <td>Java SE 15</td>
+                <td>2020 年 9 月</td>
+                <td>2021 年 3 月</td>
+                <td class="td-center">不适用</td>
+            </tr>
+            <tr>
+                <td>Java SE 16</td>
+                <td>2021 年 3 月</td>
+                <td>2021 年 9 月</td>
+                <td class="td-center">不适用</td>
+            </tr>
+            <tr>
+                <td class="old-version-supported">Java SE 17 (LTS)</td>
+                <td>2021 年 9 月</td>
+                <td>
+                    OpenJDK 于 2026 年 9 月停止更新<br>
+                    Azul 于 2029 年 9 月停止更新<br>
+                    Microsoft 于 2027 年 9 月停止更新
+                </td>
+                <td>2029 年 9 月</td>
+            </tr>
+            <tr>
+                <td>Java SE 18</td>
+                <td>2022 年 3 月</td>
+                <td>2022 年 9 月</td>
+                <td class="td-center">不适用</td>
+            </tr>
+            <tr>
+                <td>Java SE 19</td>
+                <td>2022 年 9 月</td>
+                <td>2023 年 3 月</td>
+                <td class="td-center">不适用</td>
+            </tr>
+            <tr>
+                <td>Java SE 20</td>
+                <td>2023 年 3 月</td>
+                <td>2023 年 9 月</td>
+                <td class="td-center">不适用</td>
+            </tr>
+            <tr>
+                <td class="current-version">Java SE 21 (LTS)</td>
+                <td>2023 年 9 月</td>
+                <td>OpenJDK 于 2028 年 9 月停止更新</td>
+                <td>2031 年 9 月</td>
+            </tr>
+            <tr>
+                <td class="active-version">Java SE 22</td>
+                <td>2024 年 3 月</td>
+                <td>2024 年 9 月</td>
+                <td class="td-center">不适用</td>
+            </tr>
+            <tr>
+                <td class="upcoming-version">Java SE 23</td>
+                <td>2024 年 9 月</td>
+                <td>2025 年 3 月</td>
+                <td class="td-center">不适用</td>
+            </tr>
+            <tr>
+                <td class="upcoming-version">Java SE 24</td>
+                <td>2025 年 3 月</td>
+                <td>2025 年 9 月</td>
+                <td class="td-center">不适用</td>
+            </tr>
+            <tr>
+                <td class="upcoming-version">Java SE 25 (LTS)</td>
+                <td>2025 年 9 月</td>
+                <td>OpenJDK 于 2030 年 9 月停止更新</td>
+                <td>2033 年 9 月</td>
+            </tr>
+        </tbody>
+        <tfoot style="background-color: #dfd4d4;">
+            <tr>
+                <td colspan="4" style="text-align: left;">格式:
+                    <span>
+                        <div class="foot-color-div old-version"></div>
+                        旧版本
+                    </span>
+                    <span>
+                        <div class="foot-color-div old-version-supported"></div>
+                        旧版本，仍被支持
+                    </span>
+                    <span>
+                        <div class="foot-color-div current-version"></div>
+                        当前版本
+                    </span>
+                    <span>
+                        <div class="foot-color-div upcoming-version"></div>
+                        未来版本
+                    </span>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

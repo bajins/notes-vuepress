@@ -215,8 +215,6 @@
 * IDM [https://www.internetdownloadmanager.com](https://www.internetdownloadmanager.com)
     * [https://github.com/MotooriKashin/ef2](https://github.com/MotooriKashin/ef2)
     * 闻雷 [https://www.lanzoui.com/b0i6zkze](https://www.lanzoui.com/b0i6zkze)
-    * [https://pan.lanzoui.com/b0f1agvxc](https://pan.lanzoui.com/b0f1agvxc)
-    * [https://pan.lanzoui.com/b0f1997eb](https://pan.lanzoui.com/b0f1997eb)
 * 猎鹰下载器 [http://www.eagleget.com](http://www.eagleget.com)
 * FDM [http://www.freedownloadmanager.org](http://www.freedownloadmanager.org/download.htm)
 * [https://github.com/subhra74/xdm](https://github.com/subhra74/xdm)
@@ -284,7 +282,6 @@
 * [https://transmissionbt.com](https://transmissionbt.com)
 * [https://deluge-torrent.org](https://deluge-torrent.org)
 * [https://www.utorrent.com](https://www.utorrent.com)
-    * [https://www.lanzoui.com/b073c7g4f](https://www.lanzoui.com/b073c7g4f)
 * [uTorrent／qBittorrent／BitComet](https://www.lanzoui.com/b0f1awgqb)
 * [https://github.com/webtorrent](https://github.com/webtorrent)
 * [https://github.com/arvidn/libtorrent](https://github.com/arvidn/libtorrent)
@@ -330,9 +327,6 @@
 > 由于总所周知的原因（大家都将迅雷叫吸血雷：只下载不上传），下载Magnet链接（磁力）、Torrent文件（比特流种子）、
 > ED2K（eMule电驴）等请使用`Bit Torrent`工具
 
-* [https://www.lanzoui.com/b906590](https://www.lanzoui.com/b906590)
-* [https://www.lanzoui.com/b505936](https://www.lanzoui.com/b505936)
-* [https://www.lanzoui.com/b393275](https://www.lanzoui.com/b393275)
 * [https://github.com/cnk3x/xunlei](https://github.com/cnk3x/xunlei)
 
 
@@ -371,6 +365,10 @@
     * [https://github.com/dream7180/foobox-cn](https://github.com/dream7180/foobox-cn)
 * [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
 * [https://github.com/mpv-player/mpv](https://github.com/mpv-player/mpv)
+    * [https://github.com/shinchiro/mpv-winbuild-cmake](https://github.com/shinchiro/mpv-winbuild-cmake)
+    * [https://sourceforge.net/projects/mpv-player-windows](https://sourceforge.net/projects/mpv-player-windows)
+    * [https://github.com/hooke007/MPV_lazy](https://github.com/hooke007/MPV_lazy)
+    * [https://github.com/diana7127/mpv.net-DW](https://github.com/diana7127/mpv.net-DW)
 * Kodi [https://github.com/xbmc](https://github.com/xbmc)
 * powerDVD
 * MPC-BE
@@ -458,8 +456,8 @@
 * [http://potplayer.daum.net](http://potplayer.daum.net)
 * [Public Version 32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe)
 * [Public Version 64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe)
-* [Developer Version 32-bit](http://t1.daumcdn.net/potplayer/beta/PotPlayerSetup.exe)
-* [Developer Version 64-bit](http://t1.daumcdn.net/potplayer/beta/PotPlayerSetup64.exe)
+* [Developer Version 32-bit](https://t1.daumcdn.net/potplayer/beta/PotPlayerSetup.exe)
+* [Developer Version 64-bit](https://t1.daumcdn.net/potplayer/beta/PotPlayerSetup64.exe)
 * [解码组件包（Open Codec）只要提取HEVC(H265)解码器(FFmpeg.dll) 32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup.exe)
 * [解码组件包（Open Codec）只要提取HEVC(H265)解码器(FFmpeg.dll) 64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup64.exe)
 * [DTS音频解码器（FFmpegMininum.dll） 32-bit](https://get.daum.net/PotPlayer/v4/Module/FFmpeg/FFmpegMininum.dll)
@@ -467,11 +465,7 @@
 
 > 以上是官网下载地址，将`DNS`改为`8.8.8.8`就可以顺利下载了，若为默认的自动模式（国内DNS）则无法下载。或者使用迅雷下载
 
-* [http://daumpotplayer.com/download](http://daumpotplayer.com/download)
-* [https://www.lanzoui.com/b112173](https://www.lanzoui.com/b112173)
-* [https://www.lanzoui.com/b0i38vsd](https://www.lanzoui.com/b0i38vsd)
 * [https://www.lanzoui.com/b0f1k59qh](https://www.lanzoui.com/b0f1k59qh)
-* [https://cloud.189.cn/t/AZnUVj3iMjUr](https://cloud.189.cn/t/AZnUVj3iMjUr)
 
 
 
@@ -585,10 +579,8 @@
 * TEAmo (茶末余香)
 * [Adobe软件单独下载方法-官方](https://sleele.com/2019/05/05/adobe/)
 * [https://sysin.cn/archive](https://sysin.cn/archive)
-* https://pan.baidu.com/s/1Z4_iJNcq7koRt3vN7KxB3w?pwd=6g8x
 * 全套插件一键安装无限制版,无需填写注册码，直接点击“继续” https://cloud.189.cn/t/iqm6jiJJZBVv
 * Extensions Plus For PS CC https://lanzoui.com/iapsbaj
-* DeliciousRetouch 5 https://ldqk.lanzoux.com/ibdcm0d
 * https://inmac.org
 * https://cmacapps.com
 * https://mac-torrent-download.net
@@ -666,12 +658,7 @@
 注册码：AXSQR-RNMXG-CVOPF-FKXHY
 ```
 
-
-**WinSnap**
-
-* [https://www.ntwind.com/software/winsnap.html](https://www.ntwind.com/software/winsnap.html)
-* [https://www.lanzoui.com/b189177/](https://www.lanzoui.com/b189177/)
-* [https://pan.baidu.com/s/1qWIF7lE](https://pan.baidu.com/s/1qWIF7lE)
+* WinSnap [https://www.ntwind.com/software/winsnap.html](https://www.ntwind.com/software/winsnap.html)
 
 
 
@@ -684,7 +671,6 @@
 
 * Enigma Virtual Box [https://enigmaprotector.com/cn/aboutvb.html](https://enigmaprotector.com/cn/aboutvb.html)
 * [单文件制作程序byJexChan](http://blog.sina.com.cn/s/blog_6fd804fe0102wwwf.html)
-    * JexChan工具 [https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g](https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g) 提取码s1dk
 * [单文件程序制作一键通by:杏雨梨云](https://www.xyboot.com/portableapp_onekey_ok_3in1)
 * [https://github.com/lxfly2000/7zsfx](https://github.com/lxfly2000/7zsfx)
 * UltraModernUI [https://github.com/SuperPat45/UltraModernUI](https://github.com/SuperPat45/UltraModernUI)
@@ -806,11 +792,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 * [https://github.com/Open-Shell/Open-Shell-Menu](https://github.com/Open-Shell/Open-Shell-Menu)
     * [https://github.com/coddec/Classic-Shell](https://github.com/coddec/Classic-Shell)
-
-**StartIsBack++**
-
 * [https://www.startisback.com](https://www.startisback.com)
-* [https://www.lanzoui.com/b279570](https://www.lanzoui.com/b279570)
 
 
 

@@ -221,7 +221,6 @@
 - CFF Explorer进程PE查看 [http://www.ntcore.com/exsuite.php](http://www.ntcore.com/exsuite.php)
     - [https://github.com/bfosterjr/CFFExtensions](https://github.com/bfosterjr/CFFExtensions)
     - [https://github.com/Steve1920/courseManage](https://github.com/Steve1920/courseManage)
-        - [https://pan.baidu.com/s/1_wma1SuhGBC6Aku6X4iRXQ](https://pan.baidu.com/s/1_wma1SuhGBC6Aku6X4iRXQ)
 - 二进制反编译 [https://github.com/uxmal/reko](https://github.com/uxmal/reko)
 - 提取/解压缩 [https://github.com/Perfare/AssetStudio](https://github.com/Perfare/AssetStudio)
 - [手机抓包神器HttpCanary](https://www.lanzoui.com/b0f1b9v6j)
@@ -489,20 +488,15 @@
     + [https://yoyodadada.lanzoui.com/u/yoyodadada](https://yoyodadada.lanzoui.com/u/yoyodadada)
 + [https://www.lanzoui.com/b05f9wyf](https://www.lanzoui.com/b05f9wyf)
     + [https://xydh.fun/dieheart](https://xydh.fun/dieheart)
++ [https://www.fenxm.com](https://www.fenxm.com)
 
 
 **音乐下载**
 
 + [https://github.com/lyswhut/lx-music-mobile](https://github.com/lyswhut/lx-music-mobile)
-+ [酷我音乐精品破解版本集合地](https://www.lanzoui.com/b05aammje)
-+ [酷我音乐_for_Android](https://www.lanzoui.com/b0f1956fc)
-+ [https://yaweimao.lanzoui.com/b00z96sod](https://yaweimao.lanzoui.com/b00z96sod)
 + [https://www.lanzoui.com/b720230](https://www.lanzoui.com/b720230)
 
-* [音乐下载工具⠀for⠀Windows](https://pan.lanzoui.com/b0f1c1t5e)
-* [音乐下载应用](https://pan.lanzoui.com/b0f1kkdlg)
 * [听下音乐](https://bgg.lanzoui.com/b02bjj8pa)
-* [静听音乐](http://pan.lanzoui.com/b04aslz3c)
 
 
 ### 其他
@@ -536,8 +530,6 @@
 * FDM [https://www.freedownloadmanager.org/zh/download-fdm-for-android.htm](https://www.freedownloadmanager.org/zh/download-fdm-for-android.htm)
 * 压缩解压 [http://www.unisapps.com](http://www.unisapps.com)
 * 工具箱 [https://github.com/helloklf/vtools](https://github.com/helloklf/vtools)
-* 李跳跳 [https://wwe.lanzouw.com/b01v0g3wj](https://wwe.lanzouw.com/b01v0g3wj) 1233
-    * [李跳跳进阶指南](https://juejin.cn/post/6938590373740544007)
 * 自动点击 [https://github.com/gkd-kit/gkd](https://github.com/gkd-kit/gkd)
 * [https://github.com/zfdang/Android-Touch-Helper](https://github.com/zfdang/Android-Touch-Helper)
 * [https://github.com/GuoXiCheng/SKIP](https://github.com/GuoXiCheng/SKIP)
@@ -572,7 +564,6 @@
 
 ### 证件照
 
-+ https://wwa.lanzoui.com/b04bz873e 提取码：9886
 + https://pan.baidu.com/s/1L21hwqtztFnuXLTcuyzH6Q 提取码：u4nw
 
 

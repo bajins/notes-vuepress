@@ -21,7 +21,6 @@
 + [https://github.com/Willena](https://github.com/Willena)
 + [https://github.com/OpenHFT](https://github.com/OpenHFT)
     + [https://github.com/peter-lawrey](https://github.com/peter-lawrey)
-+ [https://github.com/aalmiray](https://github.com/aalmiray)
 
 
 * [https://github.com/eclipse-ee4j/soteria](https://github.com/eclipse-ee4j/soteria)
@@ -149,7 +148,6 @@
 + [https://github.com/hamcrest/JavaHamcrest](https://github.com/hamcrest/JavaHamcrest)
 + [https://github.com/robstoll/atrium](https://github.com/robstoll/atrium)
 + [https://github.com/archine/tools](https://github.com/archine/tools)
-+ [https://github.com/moditect](https://github.com/moditect)
 + 容错 [https://github.com/failsafe-lib/failsafe](https://github.com/failsafe-lib/failsafe)
 + 函数增强 [https://github.com/resilience4j](https://github.com/resilience4j)
 + [https://github.com/vavr-io/vavr](https://github.com/vavr-io/vavr)
@@ -171,6 +169,7 @@
     + [微服务版本分支管理与特性开关](https://www.jianshu.com/p/304697cdb440)
 + [https://github.com/togglz/togglz](https://github.com/togglz/togglz)
 + 集合增强 [https://github.com/vigna/fastutil](https://github.com/vigna/fastutil)
++ [https://github.com/lemire/javaewah](https://github.com/lemire/javaewah)
 + 规则引擎 [https://github.com/j-easy/easy-rules](https://github.com/j-easy/easy-rules)
 + [https://github.com/killme2008/aviatorscript](https://github.com/killme2008/aviatorscript)
     + [Aviator—Java表达式求值引擎的使用](https://blog.csdn.net/starcrm/article/details/108558135)
@@ -393,6 +392,9 @@
 + JSON-P [https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
 + JSON-B [https://github.com/jakartaee/jsonb-api](https://github.com/jakartaee/jsonb-api)
 + JSON库基准测试[https://github.com/fabienrenaud/java-json-benchmark](https://github.com/fabienrenaud/java-json-benchmark)
++ [https://github.com/creek-service/json-schema-validation-comparison](https://github.com/creek-service/json-schema-validation-comparison)
++ [https://github.com/networknt/json-schema-validator](https://github.com/networknt/json-schema-validator)
++ [https://github.com/victools/jsonschema-generator](https://github.com/victools/jsonschema-generator)
 
 
 * [https://github.com/cliftonlabs/json-simple](https://github.com/cliftonlabs/json-simple)

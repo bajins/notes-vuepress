@@ -541,6 +541,7 @@
     * [https://calibre-ebook.com](https://calibre-ebook.com)
     * [https://github.com/janeczku/calibre-web](https://github.com/janeczku/calibre-web)
 * [https://github.com/Librum-Reader/Librum](https://github.com/Librum-Reader/Librum)
+* [https://github.com/201206030/novel](https://github.com/201206030/novel)
 * Epub [https://github.com/pacexy/flow](https://github.com/pacexy/flow)
 
 

@@ -8,6 +8,7 @@
 > ui库第一代是awt，第二代是swing，第三代是javafx
 
 + [https://github.com/griffon/griffon](https://github.com/griffon/griffon)
+    + [https://github.com/griffon-plugins](https://github.com/griffon-plugins)
 
 
 * [GUI 设计和 UI 设计有什么区别？](https://www.zhihu.com/question/20366692)
@@ -25,8 +26,7 @@
 * [https://github.com/openjdk/jfx](https://github.com/openjdk/jfx)
     * [https://docs.oracle.com/javase/8/javafx/user-interface-tutorial](https://docs.oracle.com/javase/8/javafx/user-interface-tutorial)
     * [https://docs.oracle.com/javase/8/javafx/api/javafx/fxml/doc-files/introduction_to_fxml.html](https://docs.oracle.com/javase/8/javafx/api/javafx/fxml/doc-files/introduction_to_fxml.html)
-* [https://github.com/javafxports/openjdk-jfx](https://github.com/javafxports/openjdk-jfx)
-* [https://github.com/openjdk/jfx11](https://github.com/openjdk/jfx11)
+* ~~[https://github.com/javafxports/openjdk-jfx](https://github.com/javafxports/openjdk-jfx)~~
 * [https://github.com/openjfx](https://github.com/openjfx)
     * [https://openjfx.io](https://openjfx.io)
     * [https://openjfx.cn](https://openjfx.cn)
@@ -37,16 +37,15 @@
     * [https://www.oracle.com/cn/java/technologies/javase/javafxscenebuilder-info.html](https://www.oracle.com/cn/java/technologies/javase/javafxscenebuilder-info.html)
     * [SceneBuilder例子](https://gluonhq.com/developers/samples)
 
-- [https://github.com/FXDocs/docs](https://github.com/FXDocs/docs)
+- 文档 [https://github.com/FXDocs/docs](https://github.com/FXDocs/docs)
 
 
 
-**第三方依赖**
+### 第三方依赖
 
 + [https://github.com/topics/javafx-library](https://github.com/topics/javafx-library)
 + [https://github.com/topics/javafx-8](https://github.com/topics/javafx-8)
 + [https://github.com/mhrimaz/AwesomeJavaFX](https://github.com/mhrimaz/AwesomeJavaFX)
-+ [https://github.com/Typhon0/AnimateFX](https://github.com/Typhon0/AnimateFX)
 + [https://github.com/topics/fontawesomefx](https://github.com/topics/fontawesomefx)
     + [https://bitbucket.org/Jerady/fontawesomefx](https://bitbucket.org/Jerady/fontawesomefx)
     + [https://bintray.com/jerady/maven/FontAwesomeFX](https://bintray.com/jerady/maven/FontAwesomeFX)
@@ -72,18 +71,23 @@
 - [https://github.com/dlsc-software-consulting-gmbh](https://github.com/dlsc-software-consulting-gmbh)
 - [https://github.com/metawidget](https://github.com/metawidget)
 - [https://github.com/palexdev/MaterialFX](https://github.com/palexdev/MaterialFX)
-- 主题 [https://github.com/weisJ/darklaf]https://github.com/weisJ/darklaf
+- [https://github.com/jfx-ensemble](https://github.com/jfx-ensemble)
+- [https://github.com/mkpaz/atlantafx](https://github.com/mkpaz/atlantafx)
+- 动画库 [https://github.com/Typhon0/AnimateFX](https://github.com/Typhon0/AnimateFX)
+- 主题 [https://github.com/weisJ/darklaf](https://github.com/weisJ/darklaf)
     - [https://github.com/bulenkov/Darcula](https://github.com/bulenkov/Darcula)
 - Google Material Design [https://github.com/jfoenixadmin/JFoenix](https://github.com/jfoenixadmin/JFoenix)
 - Bootstrap样式 [https://github.com/dicolar/jbootx](https://github.com/dicolar/jbootx)
 - [https://github.com/edvin/tornadofx-controls](https://github.com/edvin/tornadofx-controls)
-- 日历 [https://github.com/dlsc-software-consulting-gmbh/CalendarFX](https://github.com/dlsc-software-consulting-gmbh/CalendarFX)
-- 表单 [https://github.com/dlsc-software-consulting-gmbh/FormsFX](https://github.com/dlsc-software-consulting-gmbh/FormsFX)
-- 仪表板 [https://github.com/HanSolo/tilesfx](https://github.com/HanSolo/tilesfx)
+- [https://github.com/kordamp/bootstrapfx](https://github.com/kordamp/bootstrapfx)
+    - [https://github.com/aalmiray](https://github.com/aalmiray)
+- 仪表板 [https://github.com/HanSolo](https://github.com/HanSolo)
 - [https://github.com/fair-acc/chart-fx](https://github.com/fair-acc/chart-fx)
+- 等离子画布 [https://github.com/bertjan/javafx-canvas-plasma](https://github.com/bertjan/javafx-canvas-plasma)
 - 进度条 [https://github.com/ctongfei/progressbar](https://github.com/ctongfei/progressbar)
 - 3D [https://github.com/JogAmp](https://github.com/JogAmp)
 - [https://github.com/saalfeldlab/paintera](https://github.com/saalfeldlab/paintera)
+- [https://github.com/FXyz/FXyz](https://github.com/FXyz/FXyz)
 - 跨平台访问本机API [https://github.com/LWJGL](https://github.com/LWJGL)
     - [https://github.com/lwjglgamedev/lwjglbook-bookcontents](https://github.com/lwjglgamedev/lwjglbook-bookcontents)
 - 嵌入chrome内核浏览器 [https://jxbrowser-support.teamdev.com](https://jxbrowser-support.teamdev.com)
@@ -94,6 +98,7 @@
 - [https://github.com/goxr3plus/FX-BorderlessScene](https://github.com/goxr3plus/FX-BorderlessScene)
 - 布局算法 [https://github.com/AmaronUI/amaronui-layouts](https://github.com/AmaronUI/amaronui-layouts)
 - [https://github.com/kirill-grouchnikov/radiance](https://github.com/kirill-grouchnikov/radiance)
+- [https://github.com/mikaelgrev/miglayout](https://github.com/mikaelgrev/miglayout)
 - 无边框窗口 [https://github.com/micheljung/fxstage](https://github.com/micheljung/fxstage)
 - [https://github.com/micheljung/jfx-waitomo-theme](https://github.com/micheljung/jfx-waitomo-theme)
 - 数据框可视化 [https://github.com/PatMartin/Dex](https://github.com/PatMartin/Dex)
@@ -103,14 +108,19 @@
 - 键盘和鼠标 [https://github.com/kwhat/jnativehook](https://github.com/kwhat/jnativehook)
 - 数据绑定 [https://github.com/TomasMikula/EasyBind](https://github.com/TomasMikula/EasyBind)
 - 终端仿真器 [https://github.com/javaterminal/TerminalFX](https://github.com/javaterminal/TerminalFX)
+- WEB集成 [https://github.com/JPro-one](https://github.com/JPro-one)
+- MVVM模式 [https://github.com/sialcasa/mvvmFX](https://github.com/sialcasa/mvvmFX)
+
 
 
 * Maven打包 [https://github.com/javafx-maven-plugin](https://github.com/javafx-maven-plugin)
 * UAC提权 [https://github.com/dyorgio/run-as-root](https://github.com/dyorgio/run-as-root)
+* CS课程 [https://github.com/Nurtak/ObjectGraphVisualization](https://github.com/Nurtak/ObjectGraphVisualization)
+* [https://github.com/dlemmermann/LayoutFX](https://github.com/dlemmermann/LayoutFX)
 
 
 
-## Other
+### Other
 
 * [JavaFX最新消息](http://fxexperience.com)
 * [使用Java 9的模块化来构建零依赖的原生应用](https://www.tuicool.com/articles/eiu2EnR)
@@ -122,7 +132,7 @@
 
 
 
-## 示例项目
+### 示例项目
 
 * Java多线程下载GUI [https://github.com/fengxiaocan/Downloader](https://github.com/fengxiaocan/Downloader)
 * [https://github.com/proxyee-down-org/proxyee-down](https://github.com/proxyee-down-org/proxyee-down)
@@ -137,3 +147,6 @@
 * 翻译 [https://github.com/omegat-org/omegat](https://github.com/omegat-org/omegat)
     * [https://sourceforge.net/projects/omegat](https://sourceforge.net/projects/omegat)
 * 纸牌游戏 [https://github.com/Card-Forge/forge](https://github.com/Card-Forge/forge)
+* PDF [https://github.com/torakiki/pdfsam](https://github.com/torakiki/pdfsam)
+* 权限管理 [https://gitee.com/lwdillon/dillon-boot-fx](https://gitee.com/lwdillon/dillon-boot-fx)
+* 空间任务设计 [https://ai-solutions.com/restricted/freeflyer-downloads](https://ai-solutions.com/restricted/freeflyer-downloads)

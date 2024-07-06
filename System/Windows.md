@@ -270,8 +270,9 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 * [https://jihuo.ma/tool](https://jihuo.ma/tool)
 * [http://www.aihao.cc](http://www.aihao.cc)
+* [https://github.com/FHWWC/KeyCheck](https://github.com/FHWWC/KeyCheck)
+    * [https://pkeytool.com/ShareKeys](https://pkeytool.com/ShareKeys)
 * [https://jike.info/category/16/账号密钥](https://jike.info/category/16/%E8%B4%A6%E5%8F%B7%E5%AF%86%E9%92%A5)
-* 小爱激活助手 [https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA](https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA) 提取码: gia8
 * 密钥检测的小工具 [https://github.com/FHWWC/KeyCheck](https://github.com/FHWWC/KeyCheck)
 * [https://webact.sjjzm.com](https://webact.sjjzm.com)
 * [SimplePidX](https://forums.mydigitallife.net/threads/multi-oem-retail-project-mrp-mk3.71555)

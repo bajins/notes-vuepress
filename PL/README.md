@@ -268,6 +268,8 @@
 * 部署工具 [https://github.com/mina-deploy/mina](https://github.com/mina-deploy/mina)
 * [https://github.com/capistrano/capistrano](https://github.com/capistrano/capistrano)
 * [https://github.com/piku/piku](https://github.com/piku/piku)
+* [https://github.com/tektoncd](https://github.com/tektoncd)
+* [https://github.com/GoogleContainerTools/skaffold](https://github.com/GoogleContainerTools/skaffold)
 * 在线手册API [https://www.matools.com/api](https://www.matools.com/api)
 * 环境设置 [https://github.com/josean-dev/dev-environment-files](https://github.com/josean-dev/dev-environment-files)
 * 游戏多语言实现 [https://github.com/coding-horror/basic-computer-games](https://github.com/coding-horror/basic-computer-games)
