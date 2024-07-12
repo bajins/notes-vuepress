@@ -236,6 +236,7 @@
 * 文件类型猜测 [https://github.com/file/file](https://github.com/file/file)
 * FFI [https://dyncall.org](https://dyncall.org)
 * Windows API Hook [https://github.com/TsudaKageyu/minhook](https://github.com/TsudaKageyu/minhook)
+* 正则表达式 [https://github.com/PCRE2Project/pcre2](https://github.com/PCRE2Project/pcre2)
 
 
 

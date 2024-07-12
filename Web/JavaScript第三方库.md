@@ -109,6 +109,8 @@
 * [https://github.com/beautify-web/js-beautify](https://github.com/beautify-web/js-beautify)
 * [https://github.com/brodybits/prettierx](https://github.com/brodybits/prettierx)
 * ESLint [ https://github.com/eslint]( https://github.com/eslint)
+    * [https://github.com/eslint-stylistic](https://github.com/eslint-stylistic)
+    * [https://github.com/eslint-community](https://github.com/eslint-community)
 * [https://github.com/oxc-project/oxc](https://github.com/oxc-project/oxc)
 * [https://github.com/biomejs/biome](https://github.com/biomejs/biome)
 * [https://github.com/humanwhocodes/config-array](https://github.com/humanwhocodes/config-array)
@@ -124,6 +126,9 @@
 * 路由 [https://github.com/kwhitley/itty-router](https://github.com/kwhitley/itty-router)
 * 不可变对象 [https://github.com/tnfe/limu](https://github.com/tnfe/limu)
 * [https://github.com/unadlib/mutative](https://github.com/unadlib/mutative)
+* 火焰图 [https://github.com/jlfwong/speedscope](https://github.com/jlfwong/speedscope)
+* [https://github.com/lahmatiy/cpupro](https://github.com/lahmatiy/cpupro)
+* 动态背景图 [https://github.com/winterx/color4bg.js](https://github.com/winterx/color4bg.js)
 
 
 

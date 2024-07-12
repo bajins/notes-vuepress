@@ -18,6 +18,7 @@
 * 跨平台 [https://github.com/kivy](https://github.com/kivy)
 * [https://github.com/beeware](https://github.com/beeware)
     * [https://github.com/pybee](https://github.com/pybee)
+* [https://github.com/flet-dev/flet](https://github.com/flet-dev/flet)
 * 命令行转GUI [https://github.com/chriskiehl/Gooey](https://github.com/chriskiehl/Gooey)
 
 

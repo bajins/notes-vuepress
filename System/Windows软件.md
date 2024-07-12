@@ -336,6 +336,7 @@
 * [https://github.com/topics/baiduyun](https://github.com/topics/baiduyun)
 * [https://cloud189.1t.workers.dev/web](https://cloud189.1t.workers.dev/web)
 * [https://github.com/yuantuo666/baiduwp-php](https://github.com/yuantuo666/baiduwp-php)
+* [https://pan.baidu.com/youth/pan/main](https://pan.baidu.com/youth/pan/main)
 
 > 【诚通网盘下载提示】：点击下载后，立马取消（就是点击浏览器左上角的`X`按钮停止访问），然后再次点击下载，可以提速好几倍
 
@@ -796,13 +797,14 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 
 
-## 剪贴板
+## 剪贴板/剪切板
 
 + [https://github.com/topics/clipboard](https://github.com/topics/clipboard)
 + [https://github.com/topics/paste](https://github.com/topics/paste)
 + [https://github.com/topics/pastebin](https://github.com/topics/pastebin)
 
 * [https://github.com/hluk/CopyQ](https://github.com/hluk/CopyQ) 可设置<kbd>Win</kbd> + <kbd>v</kbd>快捷键
+* [https://github.com/ayangweb/EcoPaste](https://github.com/ayangweb/EcoPaste)
 * [https://www.clipboardfusion.com](https://www.clipboardfusion.com)
 * [https://clipber.com](https://clipber.com)
 * [https://github.com/sabrogden/Ditto](https://github.com/sabrogden/Ditto)
@@ -1080,6 +1082,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc)
 * [https://github.com/PhilippC/keepass2android](https://github.com/PhilippC/keepass2android)
 * [https://www.yubico.com/products/yubico-authenticator](https://www.yubico.com/products/yubico-authenticator)
+* [https://www.authenticid.com/products/identity-pass](https://www.authenticid.com/products/identity-pass)
 
 
 
@@ -1197,6 +1200,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 + [https://free4pc.org](https://free4pc.org)
 + [https://github.com/cuifengcn/TAICHI-flet](https://github.com/cuifengcn/TAICHI-flet)
 + [有哪些可以替代常用软件的开源软件？](https://www.zhihu.com/question/20161085)
++ 教学资源 [https://github.com/52beijixing/smartedu-download](https://github.com/52beijixing/smartedu-download)
 
 
 

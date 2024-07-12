@@ -140,21 +140,6 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 - 启用预留存储：`Set-WindowsReservedStorageState -State enable`
 
 
-**密码修改/破解/清除**
-
-* [https://github.com/search?q=chntpw](https://github.com/search?q=chntpw)
-* [http://pogostick.net/~pnh/ntpasswd](http://pogostick.net/~pnh/ntpasswd)
-
->  ch＝change ；nt＝window NT；pw＝password；
-
-* NTPWEdit [http://cdslow.org.ru](http://cdslow.org.ru)
-* PassFab 4WinKey
-* Passper WinSenior
-
-- [Windows10登陆密码破解](https://zhuanlan.zhihu.com/p/166349447)
-- [Win10 开机密码破解](https://blog.csdn.net/qq_46620129/article/details/113204312)
-
-
 
 ## MSDN
 
@@ -201,10 +186,11 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 + [Windows PE (WinPE)](https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/winpe-intro)
 + [Windows USB/DVD 下载工具](https://www.microsoft.com/zh-cn/download/windows-usb-dvd-download-tool)
 
+
 * 微PE [http://www.wepe.com.cn](http://www.wepe.com.cn)
-* [USBOS](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965&extra=page%3D1)
-* [光卡自己的 PE 项目](https://hikaricalyx.com)
-* [优启时代](http://www.uqi.me/catalog.asp?cate=1)
+* USBOS [https://www.puresys.net/pe](https://www.puresys.net/pe)
+* 优启时代 [https://www.uqiba.com](https://www.uqiba.com)
+* 优启通EasyU [https://www.itsk.com/forum/10?sort=2](https://www.itsk.com/forum/10?sort=2)
 * [https://github.com/ventoy/Ventoy](https://github.com/ventoy/Ventoy)
 * [http://wintool.cc](http://wintool.cc)
 * [https://github.com/ldpreload/BlackLotus](https://github.com/ldpreload/BlackLotus)
@@ -213,6 +199,36 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://github.com/EdgelessPE/Edgeless](https://github.com/EdgelessPE/Edgeless)
 * [https://www.firpe.cn](https://www.firpe.cn)
 * [https://www.cmdpe.com](https://www.cmdpe.com)
+* [https://www.sysceo.com/usm](https://www.sysceo.com/usm)
+* [http://www.bfgho.com](http://www.bfgho.com)
+* [https://yukaidi.top](https://yukaidi.top)
+* [https://www.hirensbootcd.org](https://www.hirensbootcd.org)
+
+
+
+**密码重置**
+
++ [https://github.com/search?q=chntpw](https://github.com/search?q=chntpw)
++ [http://pogostick.net/~pnh/ntpasswd](http://pogostick.net/~pnh/ntpasswd)
+
+>  ch＝change ；nt＝window NT；pw＝password；
+
+
+- NTPWEdit [http://cdslow.org.ru/en/ntpwedit](http://cdslow.org.ru/en/ntpwedit)
+    - [https://github.com/linuixtux/NTPWEdit-version-0.7-GPL](https://github.com/linuixtux/NTPWEdit-version-0.7-GPL)
+    - [https://github.com/jmclaren7/ntpwedit](https://github.com/jmclaren7/ntpwedit)
+    - [https://github.com/Zerglrisk/NTPWEdit-Mirror](https://github.com/Zerglrisk/NTPWEdit-Mirror)
+- Windows Login Unlocker
+- [https://sourceforge.net/projects/ophcrack](https://sourceforge.net/projects/ophcrack)
+- [https://www.lazesoft.com/forgot-windows-admin-password-recovery-freeware.html](https://www.lazesoft.com/forgot-windows-admin-password-recovery-freeware.html)
+- PCUnlocker [https://www.top-password.com](https://www.top-password.com)
+- PassFab 4WinKey
+- Passper WinSenior
+- [https://sourceforge.net/projects/ubcd](https://sourceforge.net/projects/ubcd)
+
+
+* [Windows10登陆密码破解](https://zhuanlan.zhihu.com/p/166349447)
+* [Win10 开机密码破解](https://blog.csdn.net/qq_46620129/article/details/113204312)
 
 
 

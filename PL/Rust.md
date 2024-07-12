@@ -291,6 +291,7 @@ check-revoke = false
 - 参数解析器 [https://github.com/clap-rs/clap](https://github.com/clap-rs/clap)
 - [https://github.com/TeXitoi/structopt](https://github.com/TeXitoi/structopt)
 - GPS [https://github.com/frafra/frakegps](https://github.com/frafra/frakegps)
+- 配置 [https://github.com/mehcode/config-rs](https://github.com/mehcode/config-rs)
 - 音量控制 [https://github.com/prixt/soundsense-rs](https://github.com/prixt/soundsense-rs)
 - 压缩 [https://github.com/Freaky/Compactor](https://github.com/Freaky/Compactor)
 - 随机数 [https://github.com/rust-random](https://github.com/rust-random)

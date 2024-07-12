@@ -574,6 +574,7 @@
 * [https://github.com/ShizukuIchi/winXP](https://github.com/ShizukuIchi/winXP)
 * Web容器 [https://github.com/stackblitz/webcontainer-core](https://github.com/stackblitz/webcontainer-core)
 * [https://github.com/ktock/container2wasm](https://github.com/ktock/container2wasm)
+* [https://github.com/sebastianwessel/quickjs](https://github.com/sebastianwessel/quickjs)
 * Web虚拟机 [https://github.com/leaningtech/webvm](https://github.com/leaningtech/webvm)
 * [https://github.com/WasmEdge/WasmEdge](https://github.com/WasmEdge/WasmEdge)
 * Rust [https://github.com/copy/v86](https://github.com/copy/v86)

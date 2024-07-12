@@ -45,6 +45,7 @@
 - AI加持 [https://github.com/emcf/engshell](https://github.com/emcf/engshell)
 - 历史导入SQLite [https://github.com/atuinsh/atuin](https://github.com/atuinsh/atuin)
 - 历史查找 [https://github.com/YiNNx/cmd-wrapped](https://github.com/YiNNx/cmd-wrapped)
+- 录屏 [https://github.com/gvcgo/asciinema](https://github.com/gvcgo/asciinema)
 
 
 * [https://github.com/google/zx](https://github.com/google/zx)
@@ -237,6 +238,12 @@
 * [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
 * [https://github.com/deadbeefsociety/sshfs](https://github.com/deadbeefsociety/sshfs)
 * [https://github.com/neunenak/sshfs](https://github.com/neunenak/sshfs)
+* [https://github.com/yaronn/blessed-contrib](https://github.com/yaronn/blessed-contrib)
+* [https://github.com/gizak/termui](https://github.com/gizak/termui)
+* [https://github.com/nsf/termbox-go](https://github.com/nsf/termbox-go)
+* [https://github.com/gdamore/tcell](https://github.com/gdamore/tcell)
+* [https://github.com/fdehau/tui-rs](https://github.com/fdehau/tui-rs)
+* [https://github.com/ratatui-org](https://github.com/ratatui-org)
 
 
 - [https://www.termius.com](https://www.termius.com)

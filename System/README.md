@@ -423,6 +423,7 @@
 * [https://github.com/ultravnc/UltraVNC](https://github.com/ultravnc/UltraVNC)
 * [https://github.com/LibVNC](https://github.com/LibVNC)
 * [https://github.com/bk138/droidVNC-NG](https://github.com/bk138/droidVNC-NG)
+* [https://github.com/apache/guacamole-server](https://github.com/apache/guacamole-server)
 * [https://archive.realvnc.com/en/connect/download/vnc](https://archive.realvnc.com/en/connect/download/vnc)
 
 
