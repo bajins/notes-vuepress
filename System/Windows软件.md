@@ -402,6 +402,7 @@
 - YouTube [https://github.com/FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube)
 - [https://github.com/iv-org/invidious](https://github.com/iv-org/invidious)
 - 直播录制 [https://github.com/WhiteMinds/LiveAutoRecord](https://github.com/WhiteMinds/LiveAutoRecord)
+- [https://github.com/chenfan0/fideo-live-record](https://github.com/chenfan0/fideo-live-record)
 
 
 **电视盒子/TVBOX**

@@ -19,6 +19,7 @@
     + [https://github.com/autonomousapps/dependency-analysis-gradle-plugin](https://github.com/autonomousapps/dependency-analysis-gradle-plugin)
     + [https://github.com/michel-kraemer/gradle-download-task](https://github.com/michel-kraemer/gradle-download-task)
     + [https://github.com/gradle-nexus](https://github.com/gradle-nexus)
+    + [https://github.com/gradlex-org](https://github.com/gradlex-org)
 + [https://github.com/package-url](https://github.com/package-url)
 + [https://github.com/sbt/sbt](https://github.com/sbt/sbt)
 + [https://github.com/jbangdev](https://github.com/jbangdev)

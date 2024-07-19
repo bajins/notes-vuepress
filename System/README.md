@@ -516,6 +516,7 @@
 * IT资产管理 [https://github.com/snipe/snipe-it](https://github.com/snipe/snipe-it)
 * 色彩转换 [https://github.com/hsluv/hsluv](https://github.com/hsluv/hsluv)
 * 音乐人声分离 [https://github.com/jianchang512/vocal-separate](https://github.com/jianchang512/vocal-separate)
+* 分享代码 [https://github.com/yuxiaoy1/simple-pastebin](https://github.com/yuxiaoy1/simple-pastebin)
 
 
 

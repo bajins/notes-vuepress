@@ -54,6 +54,7 @@
     * [https://github.com/Narukara/rust-on-esp-book-zh-cn](https://github.com/Narukara/rust-on-esp-book-zh-cn)
 * [https://github.com/xuesongbj/Rust-Notes](https://github.com/xuesongbj/Rust-Notes)
     * [http://xuesong.pydevops.com](http://xuesong.pydevops.com)
+* [https://github.com/Dhghomon/easy_rust](https://github.com/Dhghomon/easy_rust)
 * 练习 [https://github.com/sunface/rust-by-practice](https://github.com/sunface/rust-by-practice)
 * 异步线程比较 [https://github.com/jimblandy/context-switch](https://github.com/jimblandy/context-switch)
 * [program - 分类 - kirito's blog](https://kirito41dd.github.io/categories/program)

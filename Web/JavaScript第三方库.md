@@ -129,6 +129,7 @@
 * 火焰图 [https://github.com/jlfwong/speedscope](https://github.com/jlfwong/speedscope)
 * [https://github.com/lahmatiy/cpupro](https://github.com/lahmatiy/cpupro)
 * 动态背景图 [https://github.com/winterx/color4bg.js](https://github.com/winterx/color4bg.js)
+* 数学公式 [https://github.com/arnog/mathlive](https://github.com/arnog/mathlive)
 
 
 

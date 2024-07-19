@@ -244,6 +244,7 @@
 * [https://github.com/gdamore/tcell](https://github.com/gdamore/tcell)
 * [https://github.com/fdehau/tui-rs](https://github.com/fdehau/tui-rs)
 * [https://github.com/ratatui-org](https://github.com/ratatui-org)
+* [https://github.com/shell360](https://github.com/shell360)
 
 
 - [https://www.termius.com](https://www.termius.com)
