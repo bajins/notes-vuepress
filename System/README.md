@@ -350,6 +350,7 @@
 - 堡垒机 [https://github.com/jimmy201602/webterminal](https://github.com/jimmy201602/webterminal)
 - [https://github.com/bigbully/Dapper-translation](https://github.com/bigbully/Dapper-translation)
     - [https://bigbully.github.io/Dapper-translation](https://bigbully.github.io/Dapper-translation)
+- [https://github.com/jumpserver/jumpserver](https://github.com/jumpserver/jumpserver)
 
 
 
@@ -517,6 +518,8 @@
 * 色彩转换 [https://github.com/hsluv/hsluv](https://github.com/hsluv/hsluv)
 * 音乐人声分离 [https://github.com/jianchang512/vocal-separate](https://github.com/jianchang512/vocal-separate)
 * 分享代码 [https://github.com/yuxiaoy1/simple-pastebin](https://github.com/yuxiaoy1/simple-pastebin)
+* 缓存网页 [https://github.com/html5-ninja/page-replica](https://github.com/html5-ninja/page-replica)
+* 深蹲计数 [https://github.com/zhaoolee/Sport](https://github.com/zhaoolee/Sport)
 
 
 

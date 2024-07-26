@@ -269,6 +269,7 @@
 + [https://github.com/maven-download-plugin](https://github.com/maven-download-plugin)
 + 构建自动清理 [https://github.com/castor-software/depclean](https://github.com/castor-software/depclean)
 + 模块化 [https://github.com/moditect/layrry](https://github.com/moditect/layrry)
++ [https://github.com/sormuras/modules](https://github.com/sormuras/modules)
 + 检测旧版API [https://github.com/gaul/modernizer-maven-plugin](https://github.com/gaul/modernizer-maven-plugin)
 + [https://github.com/mojohaus/build-helper-maven-plugin](https://github.com/mojohaus/build-helper-maven-plugin)
 + 排序 [https://github.com/Ekryd/sortpom](https://github.com/Ekryd/sortpom)

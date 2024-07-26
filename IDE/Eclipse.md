@@ -17,6 +17,7 @@
    + [https://github.com/eclipse-wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper)
    + [https://github.com/eclipse-linuxtools](https://github.com/eclipse-linuxtools)
    + [https://github.com/eclipse-oomph](https://github.com/eclipse-oomph)
+   + [https://github.com/eclipse-cbi](https://github.com/eclipse-cbi)
    + [https://www.eclipse.org/ide](https://www.eclipse.org/ide)
    + [https://www.eclipse.org/downloads/packages](https://www.eclipse.org/downloads/packages)
 + 设置 [https://github.com/vorburger/opendaylight-eclipse-setup](https://github.com/vorburger/opendaylight-eclipse-setup)

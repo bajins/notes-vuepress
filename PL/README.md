@@ -208,6 +208,10 @@
 
 ## 工具套件
 
++ API文档 [https://github.com/freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs)
+
+
+
 * 调试器 [https://github.com/cs01/gdbgui](https://github.com/cs01/gdbgui)
 * [https://github.com/rizinorg/cutter](https://github.com/rizinorg/cutter)
 * 二维码生成 [https://github.com/nayuki/QR-Code-generator](https://github.com/nayuki/QR-Code-generator)
@@ -265,6 +269,8 @@
     * [https://github.com/bazelbuild](https://github.com/bazelbuild)
     * [https://github.com/salesforce/bazel-eclipse](https://github.com/salesforce/bazel-eclipse)
 * [https://github.com/nrwl](https://github.com/nrwl)
+* [https://github.com/TraceMachina/nativelink](https://github.com/TraceMachina/nativelink)
+* [https://github.com/facebook/buck2](https://github.com/facebook/buck2)
 * 部署工具 [https://github.com/mina-deploy/mina](https://github.com/mina-deploy/mina)
 * [https://github.com/capistrano/capistrano](https://github.com/capistrano/capistrano)
 * [https://github.com/piku/piku](https://github.com/piku/piku)
@@ -559,6 +565,7 @@
 + [https://github.com/wasmerio](https://github.com/wasmerio)
 + [https://github.com/fermyon/spin](https://github.com/fermyon/spin)
 + [https://github.com/finos/perspective](https://github.com/finos/perspective)
++ 哈希函数 [https://github.com/Daninet/hash-wasm](https://github.com/Daninet/hash-wasm)
 
 
 - Mozilla：可以用 Rust + WebAssembly 作为 JavaScript 替代

@@ -186,7 +186,6 @@
     * [https://github.com/jedisct1/libsodium](https://github.com/jedisct1/libsodium)
 * 抗量子 [https://github.com/open-quantum-safe](https://github.com/open-quantum-safe)
 * Base64 [https://github.com/jwerle/b64.c](https://github.com/jwerle/b64.c)
-* GUI [https://github.com/webui-dev/webui](https://github.com/webui-dev/webui)
 * 嵌入式GUI [https://github.com/lvgl](https://github.com/lvgl)
 * [https://github.com/SiliconLabs](https://github.com/SiliconLabs)
 * [https://gitlab.com/lambdachip](https://gitlab.com/lambdachip)

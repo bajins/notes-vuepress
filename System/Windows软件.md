@@ -285,6 +285,7 @@
 * [uTorrent／qBittorrent／BitComet](https://www.lanzoui.com/b0f1awgqb)
 * [https://github.com/webtorrent](https://github.com/webtorrent)
 * [https://github.com/arvidn/libtorrent](https://github.com/arvidn/libtorrent)
+* [https://github.com/popcorn-official/popcorn-desktop](https://github.com/popcorn-official/popcorn-desktop)
 
 
 **BT-Trackers**

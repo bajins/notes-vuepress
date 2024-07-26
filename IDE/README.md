@@ -580,7 +580,6 @@
 * [https://github.com/mantisbt/mantisbt](https://github.com/mantisbt/mantisbt)
 * [https://www.atlassian.com/zh/software/jira](https://www.atlassian.com/zh/software/jira)
     * [https://github.com/integrations/jira](https://github.com/integrations/jira)
-* [https://github.com/mantisbt/mantisbt](https://github.com/mantisbt/mantisbt)
 * [https://github.com/redmine/redmine](https://github.com/redmine/redmine)
 * [https://gitee.com/itestwork/itest](https://gitee.com/itestwork/itest)
 * [https://github.com/hyahm/ITflow](https://github.com/hyahm/ITflow)
