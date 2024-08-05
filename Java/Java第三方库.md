@@ -202,6 +202,7 @@
 + [https://github.com/albfernandez/juniversalchardet](https://github.com/albfernandez/juniversalchardet)
 + [https://github.com/thkoch2001/juniversalchardet](https://github.com/thkoch2001/juniversalchardet)
 + [https://sourceforge.net/projects/cpdetector](https://sourceforge.net/projects/cpdetector)
++ [https://github.com/apache/Tika](https://github.com/apache/Tika)
 + URL解析 [https://github.com/smola/galimatias](https://github.com/smola/galimatias)
 + 解析Java源文件 [https://github.com/forge/roaster](https://github.com/forge/roaster)
 + INI配置 [https://github.com/sshtools/jini](https://github.com/sshtools/jini)

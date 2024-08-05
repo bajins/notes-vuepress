@@ -485,6 +485,7 @@
 * 动画生成代码 [https://animotion.dev](https://animotion.dev)
 * 代码图 [https://github.com/Idered/chalk.ist](https://github.com/Idered/chalk.ist)
 * [https://github.com/abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)
+* [https://github.com/daveearley/screenshot.rocks](https://github.com/daveearley/screenshot.rocks)
 * 封面图 [https://github.com/zobor/photo-relay](https://github.com/zobor/photo-relay)
 * [https://github.com/struy-cn/Y-TOC](https://github.com/struy-cn/Y-TOC)
 * [https://github.com/slince-zero/IMaker](https://github.com/slince-zero/IMaker)
@@ -520,6 +521,7 @@
 * 分享代码 [https://github.com/yuxiaoy1/simple-pastebin](https://github.com/yuxiaoy1/simple-pastebin)
 * 缓存网页 [https://github.com/html5-ninja/page-replica](https://github.com/html5-ninja/page-replica)
 * 深蹲计数 [https://github.com/zhaoolee/Sport](https://github.com/zhaoolee/Sport)
+* 网页加密 [https://github.com/robinmoisson/staticrypt](https://github.com/robinmoisson/staticrypt)
 
 
 

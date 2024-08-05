@@ -210,16 +210,18 @@ volumes:
     * [https://github.ur1.fun](https://github.ur1.fun)
 * [https://github.com/dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub)
 * [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
-    * [https://ghproxy.com](https://ghproxy.com) 韩国首尔
-    * [https://gh.api.99988866.xyz](https://gh.api.99988866.xyz) 美国
-    * [https://js.7fan.fun](https://js.7fan.fun)
+    * [https://gh.api.99988866.xyz](https://gh.api.99988866.xyz)
+    * [https://gh.ddlc.top](https://gh.ddlc.top)
+    * [https://ghps.cc](https://ghps.cc)
 * [https://github.com/git-cloner](https://github.com/git-cloner)
     * [https://gitclone.com](https://gitclone.com) 中国浙江
 * [https://github.com/BaseMax/GitHubMirror](https://github.com/BaseMax/GitHubMirror)
 * [https://github.com/RC1844/FastGithub](https://github.com/RC1844/FastGithub)
 * [https://githubfast.com](https://githubfast.com)
-* [https://gitmirror.com](https://gitmirror.com)
-    * [https://github.com/7ednet/yard](https://github.com/7ednet/yard)
+* [https://github.com/7ednet/yard](https://github.com/7ednet/yard)
+    * [https://www.7ed.net/gitmirror/hub.html](https://www.7ed.net/gitmirror/hub.html)
+    * [https://gitmirror.com](https://gitmirror.com)
+    * [https://gh.con.sh](https://gh.con.sh)
 * [https://github.com/521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520)
 
 
@@ -228,7 +230,6 @@ volumes:
 - [https://github.com/maxiaof/github-hosts](https://github.com/maxiaof/github-hosts)
 - [https://github.com/Potterli20/hosts](https://github.com/Potterli20/hosts)
 - [https://codechina.csdn.net/mirrors](https://codechina.csdn.net/mirrors)
-- [https://gitee.com/mirrors](https://gitee.com/mirrors)
 
 
 **Raw 文件加速**

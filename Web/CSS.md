@@ -148,6 +148,7 @@
 * [https://github.com/radix-ui](https://github.com/radix-ui)
 * [https://github.com/shoelace-style/shoelace](https://github.com/shoelace-style/shoelace)
 * [https://github.com/shadcn-ui/ui](https://github.com/shadcn-ui/ui)
+    * [https://ui.shadcn.com/charts](https://ui.shadcn.com/charts)
 * 解析 [https://github.com/csstree/csstree](https://github.com/csstree/csstree)
 * 矢量图标 [https://github.com/FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
 * [https://www.iconfont.cn](https://www.iconfont.cn)

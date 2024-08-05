@@ -14,6 +14,7 @@
 - [https://github.com/topics/desktop-app](https://github.com/topics/desktop-app)
 - [https://www.solvusoft.com/zh-cn/file-extensions](https://www.solvusoft.com/zh-cn/file-extensions)
 - [https://www.fileviewpro.com/zh-cn](https://www.fileviewpro.com/zh-cn)
+- [https://alternativeto.net](https://alternativeto.net)
 
 
 **博客**

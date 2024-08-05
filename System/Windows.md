@@ -11,6 +11,9 @@
 * [https://github.com/WOA-Project](https://github.com/WOA-Project)
 * Windows安装Android应用 [https://github.com/Paving-Base/APK-Installer](https://github.com/Paving-Base/APK-Installer)
 * 删除预安装 [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
+* DPI [https://github.com/bol-van/zapret](https://github.com/bol-van/zapret)
+* [https://github.com/ValdikSS/GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)
+* 系统调整 [https://github.com/ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 
 
 
