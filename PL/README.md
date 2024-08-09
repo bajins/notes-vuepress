@@ -30,6 +30,8 @@
 - [Sam Altman的创业手册](https://jxp73q7qjsg.feishu.cn/docx/WCNZdKDa4o2eUrxK5ElcfBXEnah)
 - 硬地骇客 [https://github.com/hardhackerlabs/book](https://github.com/hardhackerlabs/book)
 - [以前靠信息不对称赚钱，现在靠什么赚钱？](https://www.zhihu.com/question/268481226)
+- 架构师软考高级 [https://github.com/xxlllq/system_architect](https://github.com/xxlllq/system_architect)
+    - [https://github.com/jerrylususu/jerrylususu.github.io](https://github.com/jerrylususu/jerrylususu.github.io)
 
 
 

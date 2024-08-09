@@ -533,6 +533,7 @@
 * [https://github.com/junit-team](https://github.com/junit-team)
     * [https://sourceforge.net/projects/dbunit](https://sourceforge.net/projects/dbunit)
     * [https://github.com/piotrturski/zohhak](https://github.com/piotrturski/zohhak)
+* [https://github.com/gatling/gatling](https://github.com/gatling/gatling)
 * [https://github.com/jqwik-team](https://github.com/jqwik-team)
 * [https://github.com/easymock](https://github.com/easymock)
 * [https://github.com/powermock/powermock](https://github.com/powermock/powermock)

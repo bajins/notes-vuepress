@@ -56,6 +56,7 @@
 - [https://github.com/qinyuanpei/blog.yuanpei.me](https://github.com/qinyuanpei/blog.yuanpei.me)
 - 领域驱动设计 [https://github.com/kgrzybek/modular-monolith-with-ddd](https://github.com/kgrzybek/modular-monolith-with-ddd)
 - 后台管理系统 [https://github.com/izhaorui/Zr.Admin.NET](https://github.com/izhaorui/Zr.Admin.NET)
+- [https://github.com/coder-edisonzhou](https://github.com/coder-edisonzhou)
 
 
 
@@ -294,4 +295,5 @@
 - 虚拟桌面 [https://github.com/newlooper/VirtualSpace](https://github.com/newlooper/VirtualSpace)
 - 远程桌面会话 [https://github.com/geissbuehler/TermsrvPatcher](https://github.com/geissbuehler/TermsrvPatcher)
 - 权限检查 [https://github.com/falahati/UACHelper](https://github.com/falahati/UACHelper)
+- 整洁架构开发模板 [https://github.com/ardalis/CleanArchitecture](https://github.com/ardalis/CleanArchitecture)
 

@@ -229,4 +229,5 @@
 - 查找和替换文本 [https://github.com/lionello/fart-it](https://github.com/lionello/fart-it)
 - 模拟天文 [https://github.com/Stellarium/stellarium](https://github.com/Stellarium/stellarium)
 - 复制弹窗文本 [https://github.com/m417z/Textify](https://github.com/m417z/Textify)
+- 代码审计 [https://github.com/trailofbits/multiplier](https://github.com/trailofbits/multiplier)
 

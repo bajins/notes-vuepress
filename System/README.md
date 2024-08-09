@@ -522,6 +522,10 @@
 * 缓存网页 [https://github.com/html5-ninja/page-replica](https://github.com/html5-ninja/page-replica)
 * 深蹲计数 [https://github.com/zhaoolee/Sport](https://github.com/zhaoolee/Sport)
 * 网页加密 [https://github.com/robinmoisson/staticrypt](https://github.com/robinmoisson/staticrypt)
+* 操作PDF [https://github.com/Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)
+* 管理GPS路径 [https://github.com/Flomp/wanderer](https://github.com/Flomp/wanderer)
+* 共享localStorage [https://github.com/FrigadeHQ/remote-storage](https://github.com/FrigadeHQ/remote-storage)
+* 汇编写的论坛 [https://asm32.info/fossil/asmbb](https://asm32.info/fossil/asmbb)
 
 
 
