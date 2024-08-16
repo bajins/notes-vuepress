@@ -99,6 +99,7 @@
 * [https://github.com/Alex313031/Thorium](https://github.com/Alex313031/Thorium)
 * [https://github.com/face-hh/webx](https://github.com/face-hh/webx)
 * [https://github.com/LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird)
+* [https://github.com/versotile-org/verso](https://github.com/versotile-org/verso)
 
 
 

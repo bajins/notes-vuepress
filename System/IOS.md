@@ -64,6 +64,8 @@
 - 视频转GIF [https://github.com/sindresorhus/Gifski](https://github.com/sindresorhus/Gifski)
 - 窗口管理 [https://github.com/MrKai77/Loop](https://github.com/MrKai77/Loop)
 - 生成字帖 [https://github.com/jaywcjlove/copybook-generator](https://github.com/jaywcjlove/copybook-generator)
+- 刘海变文件传输和暂存区 [https://github.com/Lakr233/NotchDrop](https://github.com/Lakr233/NotchDrop)
+- 加密DNS [https://github.com/kkebo/DNSecure](https://github.com/kkebo/DNSecure)
 
 
 * [https://macked.app](https://macked.app)
