@@ -221,6 +221,7 @@
 * [https://github.com/subhra74/xdm](https://github.com/subhra74/xdm)
 * [https://github.com/hugetiny/negibox](https://github.com/hugetiny/negibox)
 * [https://github.com/agalwood/Motrix](https://github.com/agalwood/Motrix)
+* [https://github.com/imfile-io/imfile-desktop](https://github.com/imfile-io/imfile-desktop)
 * [https://sourceforge.net/projects/urlget](https://sourceforge.net/projects/urlget)
 * [https://github.com/axel-download-accelerator/axel](https://github.com/axel-download-accelerator/axel)
 * [https://github.com/GopeedLab/gopeed](https://github.com/GopeedLab/gopeed)

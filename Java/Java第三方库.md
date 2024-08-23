@@ -512,6 +512,7 @@
 * [https://github.com/spring-projects/spring-restdocs](https://github.com/spring-projects/spring-restdocs)
     * [https://github.com/ScaCap/spring-auto-restdocs](https://github.com/ScaCap/spring-auto-restdocs)
 * [https://github.com/YeDaxia/JApiDocs](https://github.com/YeDaxia/JApiDocs)
+* 资源读取 [https://github.com/hosuaby/inject-resources](https://github.com/hosuaby/inject-resources)
 
 
 
