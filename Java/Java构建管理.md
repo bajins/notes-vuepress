@@ -353,7 +353,7 @@
 * 运行检查: `mvn verify`
 * 清理maven项目: `mvn clean`
 * 生成eclipse项目: `mvn eclipse:eclipse`
-* 清理eclipse配置: `mvn eclipse:clean`
+* 清理eclipse配置: `mvn eclipse:clean` 删除`.settings`、`.project`、`.classpath`、`.factorypath`
 * 生成idea项目: `mvn idea:idea`
 * 安装项目到本地仓库: `mvn install`
 * 发布项目到远程仓库: `mvn:deploy`
@@ -361,7 +361,6 @@
 * 显示maven依赖树: `mvn dependency:tree`
 * 显示maven依赖列表: `mvn dependency:list`
 * 下载依赖包的源码: `mvn dependency:sources`
-* 安装本地jar到本地仓库: `mvn install:install-file -DgroupId=packageName -DartifactId=projectName -Dversion=version -Dpackaging=jar -Dfile=path`
 
 
 **web项目相关命令**
@@ -375,6 +374,63 @@
 - 重新部署: `mvn tomcat:redeploy`
 - 部署展开的war文件: `mvn war:exploded tomcat:exploded`
 
+
+#### 使用本地jar包
+
+**将jar包安装到本地Maven仓库中**
+
+`mvn install:install-file -Dfile=C:\Users\xx\Desktop\test-1.0-SNAPSHOT.jar -DgroupId=com.bajins -DartifactId=test -Dversion=1.0 -Dpackaging=jar`
+
+- `-Dfile`：指定要安装的文件的路径。
+- `-DgroupId`：指定项目的groupId。
+- `-DartifactId`：指定项目的artifactId。
+- `-Dversion`：指定项目的版本号。
+- `-Dpackaging`：指定项目的打包类型。
+
+
++ Eclipse -> `File` -> `Import` -> `Maven` -> `Install or deply an artifact to a Maven reposeitory` -> `Next` -> `Install artifact`
++ Eclipse -> 项目右键 -> `Maven` -> `Update Project`
+
+
+
+**引用本地jar包，非引用本地Maven仓库**
+
+```xml
+<dependency>
+    <groupId>com.xxx</groupId>
+    <artifactId>xxx-sdk</artifactId>
+    <version>${xxxSDK.version}</version>
+    <scope>system</scope>
+    <systemPath>${project.basedir}/lib/xxxSDK.jar</systemPath>
+</dependency>
+
+<plugin>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-maven-plugin</artifactId>
+    <!-- 加以下配置 打包时包括引用的本地jar -->
+    <configuration>
+        <includeSystemScope>true</includeSystemScope>
+    </configuration>
+</plugin>
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+        <configuration>
+            <webResources>
+                <resource>
+                    <!-- 拷贝指定文件夹下的文件到指定目录 -->
+                    <directory>${project.basedir}/lib</directory>
+                    <targetPath>WEB-INF/lib</targetPath>
+                    <filtering>false</filtering>
+                    <includes>
+                        <include>**/*.jar</include>
+                    </includes>
+                </resource>
+            </webResources>
+        </configuration>
+    <version>2.1.1</version>
+</plugin>
+```
 
 
 
@@ -398,6 +454,4 @@
     * jboss [http://repository.jboss.com/maven2](http://repository.jboss.com/maven2)
     * jitpack [https://jitpack.io](https://jitpack.io)
     * jcenter [http://jcenter.bintray.com](http://jcenter.bintray.com)
-
-
 

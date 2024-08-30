@@ -19,15 +19,18 @@
 ```powershell
 # 列出所有的环境变量
 Get-ChildItem env:
-gci env:
+gci env: | Format-Table -Property Name, Value
 dir env:
 ls env:
 # 获取环境变量的值
+gi env:path
+$environment["Path"]
 $env:变量名
 # 删除环境变量
 del env:变量名
 # 更新环境变量
 $env:变量名="变量值"
+gci env: | Where-Object {$_.Name -like "USER*"}
 # .NET方法操作可以全局生效
 # 修改当前用户的环境变量（永久），只对新进程有效
 [environment]::SetEnvironmentvariable("变量名", "值", [EnvironmentVariableTarget]::User)

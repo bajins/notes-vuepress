@@ -88,6 +88,7 @@
 + [https://github.com/ynqa/jnv](https://github.com/ynqa/jnv)
 + HTML [https://github.com/ericchiang/pup](https://github.com/ericchiang/pup)
 + Find [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
++ 便捷运行 [https://github.com/casey/just](https://github.com/casey/just)
 
 
 **`terminal`、`shell`、`tty`、`console` 之间的区别**
