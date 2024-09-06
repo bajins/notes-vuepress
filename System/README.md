@@ -226,6 +226,7 @@
 * [https://github.com/mouday/domain-admin](https://github.com/mouday/domain-admin)
 * [https://github.com/aaomidi/certbot-dns-google-domains](https://github.com/aaomidi/certbot-dns-google-domains)
 * [https://search.censys.io](https://search.censys.io)
+* 自动获取证书信息 [https://github.com/eryajf/cloud_dns_exporter](https://github.com/eryajf/cloud_dns_exporter)
 
 
 - [临时处理OCSP域名无法访问的问题](https://holmesian.org/letsencrypt-ocsp-fix)

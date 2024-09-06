@@ -290,6 +290,7 @@
 + 压测 [https://github.com/EZLippi/WebBench](https://github.com/EZLippi/WebBench)
 + [https://github.com/perusio/httpload](https://github.com/perusio/httpload)
 + [https://github.com/JoeDog/siege](https://github.com/JoeDog/siege)
++ 生成模拟JSON [https://github.com/LangSync/cli](https://github.com/LangSync/cli)
 
 
 - mac paw [https://github.com/luckymarmot](https://github.com/luckymarmot)
