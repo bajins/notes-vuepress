@@ -125,6 +125,7 @@
 - 可视化前端设计 [https://github.com/webstudio-is/webstudio](https://github.com/webstudio-is/webstudio)
 - [https://github.com/SawyerHood/draw-a-ui](https://github.com/SawyerHood/draw-a-ui)
 - 前端远程调试 [https://github.com/HuolalaTech/page-spy-web](https://github.com/HuolalaTech/page-spy-web)
+- 项目答疑 [https://github.com/petercat-ai/petercat](https://github.com/petercat-ai/petercat)
 
 
 + [技术|什么是 CI/CD？](https://linux.cn/article-9926-1.html)
@@ -291,6 +292,7 @@
 + [https://github.com/perusio/httpload](https://github.com/perusio/httpload)
 + [https://github.com/JoeDog/siege](https://github.com/JoeDog/siege)
 + 生成模拟JSON [https://github.com/LangSync/cli](https://github.com/LangSync/cli)
++ [https://github.com/couriourc/mock_server](https://github.com/couriourc/mock_server)
 
 
 - mac paw [https://github.com/luckymarmot](https://github.com/luckymarmot)

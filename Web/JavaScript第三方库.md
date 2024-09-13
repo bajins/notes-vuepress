@@ -257,6 +257,7 @@
 * 主线程上运行 [https://github.com/astoilkov/main-thread-scheduling](https://github.com/astoilkov/main-thread-scheduling)
 * 埋点 [https://github.com/M-cheng-web/web-tracing](https://github.com/M-cheng-web/web-tracing)
 * 校验 [https://github.com/yiminghe/async-validator](https://github.com/yiminghe/async-validator)
+* 提取颜色 [https://github.com/ppzreboot/k-colors.js](https://github.com/ppzreboot/k-colors.js)
 
 
 - 数字精度 [https://github.com/topics/arbitrary-precision](https://github.com/topics/arbitrary-precision)

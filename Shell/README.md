@@ -300,6 +300,7 @@
 * [https://github.com/electerm/electerm](https://github.com/electerm/electerm)
 * [https://github.com/nvbn/thefuck](https://github.com/nvbn/thefuck)
 * [https://github.com/Eugeny/tabby](https://github.com/Eugeny/tabby)
+* [https://github.com/xpipe-io/xpipe](https://github.com/xpipe-io/xpipe)
 * PuTTY [https://www.chiark.greenend.org.uk/~sgtatham/putty](https://www.chiark.greenend.org.uk/~sgtatham/putty)
     * [https://github.com/rhuijben/putty](https://github.com/rhuijben/putty)
     * [https://github.com/larryli/PuTTY](https://github.com/larryli/PuTTY)

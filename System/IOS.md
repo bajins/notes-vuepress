@@ -63,13 +63,17 @@
 - 录屏 [https://github.com/lihaoyun6/QuickRecorder](https://github.com/lihaoyun6/QuickRecorder)
 - 视频转GIF [https://github.com/sindresorhus/Gifski](https://github.com/sindresorhus/Gifski)
 - 窗口管理 [https://github.com/MrKai77/Loop](https://github.com/MrKai77/Loop)
+- [https://github.com/nikitabobko/AeroSpace](https://github.com/nikitabobko/AeroSpace)
 - 生成字帖 [https://github.com/jaywcjlove/copybook-generator](https://github.com/jaywcjlove/copybook-generator)
 - 刘海变文件传输和暂存区 [https://github.com/Lakr233/NotchDrop](https://github.com/Lakr233/NotchDrop)
 - 加密DNS [https://github.com/kkebo/DNSecure](https://github.com/kkebo/DNSecure)
+- 应用管理器 [https://github.com/milanvarady/Applite](https://github.com/milanvarady/Applite)
+- [https://devutils.com](https://devutils.com)
 
 
 * [https://macked.app](https://macked.app)
 * 所有机型参数大全 [https://github.com/KyleBing/ipad](https://github.com/KyleBing/ipad)
+    * [http://kylebing.cn/tools/iphone](http://kylebing.cn/tools/iphone)
 
 
 ## IOS框架

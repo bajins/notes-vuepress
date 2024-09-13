@@ -45,6 +45,7 @@
 - [https://github.com/boa-dev/boa](https://github.com/boa-dev/boa)
 - [https://github.com/denoland/deno](https://github.com/denoland/deno)
     - [https://www.denojs.cn](https://www.denojs.cn)
+    - [https://github.com/denosaurs/deno_python](https://github.com/denosaurs/deno_python)
 - [https://github.com/servo/servo](https://github.com/servo/servo)
 - [https://github.com/bellard/quickjs](https://github.com/bellard/quickjs)
 - [https://github.com/saghul/txiki.js](https://github.com/saghul/txiki.js)

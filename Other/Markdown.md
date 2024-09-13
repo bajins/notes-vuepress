@@ -455,6 +455,8 @@ string &operator+(const string& A,const string& B) //cpp
     * [https://wdd.js.org/m2w-transform](https://wdd.js.org/m2w-transform)
 * [https://github.com/lyricat/wechat-format](https://github.com/lyricat/wechat-format)
     * [https://lab.lyric.im/wxformat](https://lab.lyric.im/wxformat)
+* MAC桌面软件 [https://github.com/caol64/wenyan](https://github.com/caol64/wenyan)
+
 
 - [mp-transform-public](https://github.com/ZhuPeng/mp-transform-public)
 
@@ -571,3 +573,5 @@ string &operator+(const string& A,const string& B) //cpp
 * GitBook替代 [https://github.com/lindeer/dartbook](https://github.com/lindeer/dartbook)
 * 临时存储 [https://github.com/heyman/heynote](https://github.com/heyman/heynote)
 * 待办事项 [https://github.com/go-vikunja/vikunja](https://github.com/go-vikunja/vikunja)
+* [https://github.com/johannesjo/super-productivity](https://github.com/johannesjo/super-productivity)
+
