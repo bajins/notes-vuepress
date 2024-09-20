@@ -19,6 +19,7 @@
 - 天气卫星 [https://github.com/sam210723/xrit-rx](https://github.com/sam210723/xrit-rx)
 - 家庭自动化 [https://github.com/home-assistant/core](https://github.com/home-assistant/core)
 - [https://github.com/esphome/esphome](https://github.com/esphome/esphome)
+- [https://github.com/gladysassistant/gladys](https://github.com/gladysassistant/gladys)
 - CCProxy [http://www.ccproxy.com](http://www.ccproxy.com)
     * [局域内网的服务器利用跳板机访问互联网](https://51.ruyo.net/17717.html)
     ```
@@ -226,6 +227,7 @@
 * [https://github.com/mouday/domain-admin](https://github.com/mouday/domain-admin)
 * [https://github.com/aaomidi/certbot-dns-google-domains](https://github.com/aaomidi/certbot-dns-google-domains)
 * [https://search.censys.io](https://search.censys.io)
+* [https://github.com/usual2970/certimate](https://github.com/usual2970/certimate)
 * 自动获取证书信息 [https://github.com/eryajf/cloud_dns_exporter](https://github.com/eryajf/cloud_dns_exporter)
 
 
@@ -529,6 +531,7 @@
 * 管理GPS路径 [https://github.com/Flomp/wanderer](https://github.com/Flomp/wanderer)
 * 共享localStorage [https://github.com/FrigadeHQ/remote-storage](https://github.com/FrigadeHQ/remote-storage)
 * 汇编写的论坛 [https://asm32.info/fossil/asmbb](https://asm32.info/fossil/asmbb)
+* 二维码分享文件 [https://github.com/sz3/libcimbar](https://github.com/sz3/libcimbar)
 
 
 

@@ -111,6 +111,7 @@
 - [https://github.com/ibm-granite](https://github.com/ibm-granite)
 - [https://github.com/triton-lang/triton](https://github.com/triton-lang/triton)
 - [https://github.com/bravekingzhang/gpt-frontend-code-gen](https://github.com/bravekingzhang/gpt-frontend-code-gen)
+- [https://github.com/nutlope/llamacoder](https://github.com/nutlope/llamacoder)
 - 突出显示重要代码 [https://github.com/novoselrok/glance](https://github.com/novoselrok/glance)
 - 代码转换 [https://github.com/JustAIGithub/AI-Code-Convert](https://github.com/JustAIGithub/AI-Code-Convert)
 - [https://github.com/ritz078/transform](https://github.com/ritz078/transform)
@@ -150,6 +151,7 @@
 + [https://gitee.com/jianmu-dev](https://gitee.com/jianmu-dev)
 + [https://github.com/earthly/earthly](https://github.com/earthly/earthly)
 + [https://github.com/nucleuscloud/neosync](https://github.com/nucleuscloud/neosync)
++ [https://github.com/HariSekhon/DevOps-Bash-tools](https://github.com/HariSekhon/DevOps-Bash-tools)
 
 
 
@@ -562,6 +564,7 @@
 - [https://github.com/kieler](https://github.com/kieler)
 - [https://github.com/langium/langium](https://github.com/langium/langium)
 - [https://github.com/emacs-lsp](https://github.com/emacs-lsp)
+- [https://github.com/kristoff-it/superhtml](https://github.com/kristoff-it/superhtml)
 - Java [https://github.com/eclipse-jdtls](https://github.com/eclipse-jdtls)
     - [https://github.com/eclipse-lsp4j/lsp4j](https://github.com/eclipse-lsp4j/lsp4j)
     - [https://github.com/eclipse/lsp4e](https://github.com/eclipse/lsp4e)
