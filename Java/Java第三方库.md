@@ -228,6 +228,8 @@
 * [https://github.com/downgoon/gbk2utf8](https://github.com/downgoon/gbk2utf8)
 * 中文转拼音 [https://github.com/houbb/pinyin](https://github.com/houbb/pinyin)
 * [https://github.com/toolgood/ToolGood.Words](https://github.com/toolgood/ToolGood.Words)
+* [https://github.com/belerweb/pinyin4j](https://github.com/belerweb/pinyin4j)
+* [https://github.com/Andision/chinese2digits-java](https://github.com/Andision/chinese2digits-java)
 * 中文繁简体转换 [https://github.com/houbb/opencc4j](https://github.com/houbb/opencc4j)
 * [https://github.com/xiaodaojava/sunshine](https://github.com/xiaodaojava/sunshine)
 * 字符串编码解码 [https://github.com/shekhargulati/strman-java](https://github.com/shekhargulati/strman-java)

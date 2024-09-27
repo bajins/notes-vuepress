@@ -67,6 +67,7 @@
 - 生成字帖 [https://github.com/jaywcjlove/copybook-generator](https://github.com/jaywcjlove/copybook-generator)
 - 刘海变文件传输和暂存区 [https://github.com/Lakr233/NotchDrop](https://github.com/Lakr233/NotchDrop)
 - 加密DNS [https://github.com/kkebo/DNSecure](https://github.com/kkebo/DNSecure)
+- [https://github.com/paulmillr/encrypted-dns](https://github.com/paulmillr/encrypted-dns)
 - 应用管理器 [https://github.com/milanvarady/Applite](https://github.com/milanvarady/Applite)
 - [https://devutils.com](https://devutils.com)
 

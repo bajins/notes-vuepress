@@ -101,6 +101,8 @@
     * [https://golang.iswbm.com](https://golang.iswbm.com)
     * [https://magic.iswbm.com](https://magic.iswbm.com)
 * [https://github.com/yangwenmai/learning-golang](https://github.com/yangwenmai/learning-golang)
+* [https://github.com/duanbiaowu/go-examples-for-beginners](https://github.com/duanbiaowu/go-examples-for-beginners)
+    * [https://dbwu.tech/posts/network/what-is-tcp-fast-open](https://dbwu.tech/posts/network/what-is-tcp-fast-open)
 * Go语法树入门 [https://github.com/chai2010/go-ast-book](https://github.com/chai2010/go-ast-book)
 * [https://github.com/halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go)
 * Go泛型入门 [https://github.com/akutz/go-generics-the-hard-way](https://github.com/akutz/go-generics-the-hard-way)

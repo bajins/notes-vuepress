@@ -73,6 +73,7 @@
 - [https://github.com/cloudlinux](https://github.com/cloudlinux)
 - [https://www.debian.org](https://www.debian.org)
     - [https://github.com/atzlinux/debian-cn](https://github.com/atzlinux/debian-cn)
+    - [https://sourceforge.net/projects/qref](https://sourceforge.net/projects/qref)
 - [https://antixlinux.com](https://antixlinux.com)
 - [https://mxlinux.org](https://mxlinux.org)
 - [https://github.com/canonical-web-and-design](https://github.com/canonical-web-and-design)
@@ -164,6 +165,9 @@
 * [https://github.com/basecamp/kamal](https://github.com/basecamp/kamal)
 * [https://github.com/capistrano/capistrano](https://github.com/capistrano/capistrano)
 * [https://github.com/opentofu/opentofu](https://github.com/opentofu/opentofu)
+* WIFI管理 [https://github.com/pythops/impala](https://github.com/pythops/impala)
+* [https://github.com/J-Lentz/iwgtk](https://github.com/J-Lentz/iwgtk)
+* [https://gitlab.freedesktop.org/NetworkManager/NetworkManager](https://gitlab.freedesktop.org/NetworkManager/NetworkManager)
 
 
 
@@ -174,6 +178,7 @@
 + [https://github.com/topics/cncf](https://github.com/topics/cncf)
 + [https://github.com/topics/http3](https://github.com/topics/http3)
 + [https://github.com/topics/quic](https://github.com/topics/quic)
++ [https://wiki.archlinux.org/title/Domain_name_resolution#DNS_servers](https://wiki.archlinux.org/title/Domain_name_resolution#DNS_servers)
 
 
 * [https://thekelleys.org.uk/dnsmasq](https://thekelleys.org.uk/dnsmasq)
@@ -184,6 +189,8 @@
     * [https://github.com/Habbie](https://github.com/Habbie)
     * [https://github.com/ahupowerdns](https://github.com/ahupowerdns)
 * [https://github.com/isc-projects/bind9](https://github.com/isc-projects/bind9)
+    * [https://gitlab.isc.org/isc-projects/bind9](https://gitlab.isc.org/isc-projects/bind9)
+    * [https://www.isc.org/bind](https://www.isc.org/bind)
 * [https://github.com/google/proto-quic](https://github.com/google/proto-quic)
 * [https://github.com/google/quiche](https://github.com/google/quiche)(https://github.com/google/quiche)
 * [https://github.com/lucas-clemente/quic-go](https://github.com/lucas-clemente/quic-go)
@@ -193,10 +200,32 @@
 * [https://github.com/IrineSistiana/mosdns](https://github.com/IrineSistiana/mosdns)
 * [https://github.com/pymumu/smartdns](https://github.com/pymumu/smartdns)
 * [https://github.com/nextdns/nextdns](https://github.com/nextdns/nextdns)
+* [https://github.com/samboy/MaraDNS](https://github.com/samboy/MaraDNS)
+* [https://github.com/m13253/dns-over-https](https://github.com/m13253/dns-over-https)
+* [https://github.com/DNSCrypt/dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)
+* []()
+* []()
+* []()
+* [https://github.com/getdnsapi/stubby](https://github.com/getdnsapi/stubby)
+* [https://github.com/NetworkConfiguration/openresolv](https://github.com/NetworkConfiguration/openresolv)
+* [https://github.com/gdnsd/gdnsd](https://github.com/gdnsd/gdnsd)
+* [https://www.knot-dns.cz](https://www.knot-dns.cz)
+* [https://github.com/kewlfft/opennic-up](https://github.com/kewlfft/opennic-up)
+* [https://github.com/cleanbrowsing/dnsperftest](https://github.com/cleanbrowsing/dnsperftest)
+* [https://github.com/folbricht/routedns](https://github.com/folbricht/routedns)
+* [https://github.com/shuLhan/rescached](https://github.com/shuLhan/rescached)
+* [https://www.knot-resolver.cz](https://www.knot-resolver.cz)
 * [https://github.com/TechnitiumSoftware/DnsServer](https://github.com/TechnitiumSoftware/DnsServer)
+* [https://github.com/gene-git/dns_tools](https://github.com/gene-git/dns_tools)
+* [https://github.com/NLnetLabs/unbound](https://github.com/NLnetLabs/unbound)
+* [https://github.com/NLnetLabs/ldns](https://github.com/NLnetLabs/ldns)
+* [https://github.com/dnsviz/dnsviz](https://github.com/dnsviz/dnsviz)
+* [https://github.com/DNSSEC-Tools/DNSSEC-Tools](https://github.com/DNSSEC-Tools/DNSSEC-Tools)
+* [https://github.com/AdguardTeam/dnsproxy](https://github.com/AdguardTeam/dnsproxy)
 * DNS扫描 [https://github.com/pwnesia/dnstake](https://github.com/pwnesia/dnstake)
 * [https://github.com/zartbot/ztrace](https://github.com/zartbot/ztrace)
 * 客户端 [https://github.com/mr-karan/doggo](https://github.com/mr-karan/doggo)
+* [https://github.com/ogham/dog](https://github.com/ogham/dog)
 
 
 
@@ -501,6 +530,7 @@
 * JSON可视化 [https://github.com/AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com)
 * [https://github.com/apvarun/graphize](https://github.com/apvarun/graphize)
 * [https://github.com/obsidianmd/jsoncanvas](https://github.com/obsidianmd/jsoncanvas)
+* [https://github.com/loggerhead/json4u](https://github.com/loggerhead/json4u)
 * 时间线 [https://github.com/zhugezifang/ai_timeline](https://github.com/zhugezifang/ai_timeline)
 * 天气 [https://github.com/vsergeev/briefsky](https://github.com/vsergeev/briefsky)
 * 短链接 [https://github.com/dubinc/dub](https://github.com/dubinc/dub)
@@ -532,6 +562,7 @@
 * 共享localStorage [https://github.com/FrigadeHQ/remote-storage](https://github.com/FrigadeHQ/remote-storage)
 * 汇编写的论坛 [https://asm32.info/fossil/asmbb](https://asm32.info/fossil/asmbb)
 * 二维码分享文件 [https://github.com/sz3/libcimbar](https://github.com/sz3/libcimbar)
+* 数字转中文 [https://github.com/Ailln/cn2an](https://github.com/Ailln/cn2an)
 
 
 

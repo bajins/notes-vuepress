@@ -568,8 +568,9 @@
 
 * [https://github.com/hectorqin/reader](https://github.com/hectorqin/reader)
 * [https://github.com/huanxsd/flutter_shuqi](https://github.com/huanxsd/flutter_shuqi)
-* [https://github.com/gedoor/MyBookshelf](https://github.com/gedoor/MyBookshelf)
+* 阅读 [https://github.com/gedoor](https://github.com/gedoor)
     * [https://www.coolapk.com/apk/io.legado.app.release](https://www.coolapk.com/apk/io.legado.app.release)
+    * [https://shuyuan.yiove.com](https://shuyuan.yiove.com)
 * [https://github.com/koreader/koreader](https://github.com/koreader/koreader)
 * [https://github.com/ZhangQinhao/MONKOVEL](https://github.com/ZhangQinhao/MONKOVEL)
 * [https://github.com/zas023/CocoBook](https://github.com/zas023/CocoBook)

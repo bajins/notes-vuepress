@@ -236,6 +236,8 @@
 * FFI [https://dyncall.org](https://dyncall.org)
 * Windows API Hook [https://github.com/TsudaKageyu/minhook](https://github.com/TsudaKageyu/minhook)
 * 正则表达式 [https://github.com/PCRE2Project/pcre2](https://github.com/PCRE2Project/pcre2)
+* 消息总线 [https://github.com/bus1/dbus-broker](https://github.com/bus1/dbus-broker)
+    * [https://uyha.github.io/technical/dbus-systemd.html](https://uyha.github.io/technical/dbus-systemd.html)
 
 
 

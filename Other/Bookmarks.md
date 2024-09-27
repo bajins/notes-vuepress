@@ -221,3 +221,4 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * [https://www.huismessager.com](https://www.huismessager.com)
 * 共享卡片 [https://share.aitimi.cn](https://share.aitimi.cn)
 * 名片设计 [https://yft.design](https://yft.design)
+* 图像压缩 [https://compressjpg.io](https://compressjpg.io)

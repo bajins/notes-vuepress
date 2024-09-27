@@ -451,6 +451,7 @@ taskkill /f /im chromedriver.exe
 + [https://github.com/topics/blocklist](https://github.com/topics/blocklist)
 
 
+* [https://oisd.nl](https://oisd.nl)
 * [https://github.com/damengzhu](https://github.com/damengzhu)
     * `https://raw.kgithub.com/damengzhu/abpmerge/blob/main/abpmerge.txt`
 * [https://github.com/xinggsf/Adblock-Plus-Rule](https://github.com/xinggsf/Adblock-Plus-Rule)
@@ -467,6 +468,7 @@ taskkill /f /im chromedriver.exe
     * [https://gitlab.com/DandelionSprout](https://gitlab.com/DandelionSprout)
 * [https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters)
 * [https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist)
+* [https://github.com/mullvad/dns-blocklists](https://github.com/mullvad/dns-blocklists)
 
 
 - [https://lemon399-markrender.vercel.app](https://lemon399-markrender.vercel.app)
