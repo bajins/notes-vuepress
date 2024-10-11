@@ -203,9 +203,6 @@
 * [https://github.com/samboy/MaraDNS](https://github.com/samboy/MaraDNS)
 * [https://github.com/m13253/dns-over-https](https://github.com/m13253/dns-over-https)
 * [https://github.com/DNSCrypt/dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)
-* []()
-* []()
-* []()
 * [https://github.com/getdnsapi/stubby](https://github.com/getdnsapi/stubby)
 * [https://github.com/NetworkConfiguration/openresolv](https://github.com/NetworkConfiguration/openresolv)
 * [https://github.com/gdnsd/gdnsd](https://github.com/gdnsd/gdnsd)
@@ -370,8 +367,9 @@
 - [https://github.com/ClementTsang/bottom](https://github.com/ClementTsang/bottom)
 - [https://github.com/aksakalli/gtop](https://github.com/aksakalli/gtop)
 - [https://github.com/xxxserxxx/gotop](https://github.com/xxxserxxx/gotop)
-- [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
 - [https://github.com/htop-dev/htop](https://github.com/htop-dev/htop)
+- [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop)
+    - [还在用 top htop? 赶紧换 btop 吧，真香！](https://mp.weixin.qq.com/s/Qr-z0-zL44UjnItmDlsMzg)
 - [https://github.com/nicolargo/glances](https://github.com/nicolargo/glances)
 - [https://github.com/sysstat/sysstat](https://github.com/sysstat/sysstat)
 - [https://github.com/context-labs/mactop](https://github.com/context-labs/mactop)
@@ -502,6 +500,7 @@
 * [https://github.com/jellyfin/jellyfin](https://github.com/jellyfin/jellyfin)
 * [https://github.com/movie-web/movie-web](https://github.com/movie-web/movie-web)
 * 证件照 [https://github.com/zhbhun/idify](https://github.com/zhbhun/idify)
+* [https://github.com/Zeyi-Lin/HivisionIDPhotos](https://github.com/Zeyi-Lin/HivisionIDPhotos)
 * 在线PS [https://github.com/viliusle/miniPaint](https://github.com/viliusle/miniPaint)
     * [https://zaixianps.net](https://zaixianps.net)
 * [https://github.com/CH563/shot-easy-website](https://github.com/CH563/shot-easy-website)
@@ -563,6 +562,9 @@
 * 汇编写的论坛 [https://asm32.info/fossil/asmbb](https://asm32.info/fossil/asmbb)
 * 二维码分享文件 [https://github.com/sz3/libcimbar](https://github.com/sz3/libcimbar)
 * 数字转中文 [https://github.com/Ailln/cn2an](https://github.com/Ailln/cn2an)
+* 文字转图片 [https://github.com/byodian/oneimg](https://github.com/byodian/oneimg)
+* 麻将游戏 [https://github.com/liumengniu/majiang](https://github.com/liumengniu/majiang)
+* AI姿势 [https://github.com/AmyangXYZ/MiKaPo](https://github.com/AmyangXYZ/MiKaPo)
 
 
 

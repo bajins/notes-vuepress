@@ -26,6 +26,7 @@
 - [https://github.com/weijunext/indie-hacker-tools](https://github.com/weijunext/indie-hacker-tools)
 - [https://github.com/shengxinjing/programmer-job-blacklist](https://github.com/shengxinjing/programmer-job-blacklist)
 - [https://indiehackertools.net](https://indiehackertools.net)
+- [https://github.com/lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job)
 - 推广渠道 [https://github.com/naxiaoduo/1000UserGuide](https://github.com/naxiaoduo/1000UserGuide)
 - [Sam Altman的创业手册](https://jxp73q7qjsg.feishu.cn/docx/WCNZdKDa4o2eUrxK5ElcfBXEnah)
 - 硬地骇客 [https://github.com/hardhackerlabs/book](https://github.com/hardhackerlabs/book)
@@ -515,6 +516,7 @@
     * [lib目录下包含了所有JavaScript官方DOM API](https://github.com/microsoft/TypeScript/tree/master/lib)
     * [https://www.typescriptlang.org](https://www.typescriptlang.org)
     * [https://www.tslang.cn](https://www.tslang.cn)
+    * [https://typeroom.cn/problems/all](https://typeroom.cn/problems/all)
 * 深入理解TypeScript [https://jkchao.github.io/typescript-book-chinese](https://jkchao.github.io/typescript-book-chinese)
 * [https://github.com/basarat/typescript-book](https://github.com/basarat/typescript-book)
 
@@ -577,7 +579,7 @@
 - [走进 WebAssembly 的世界](https://juejin.cn/column/7210666370487681082)
     - [https://github.com/yaozhongxiao/webassembly_tech](https://github.com/yaozhongxiao/webassembly_tech)
 - [WebAssembly 模块化与动态链接](https://mp.weixin.qq.com/s/MPBwFuL2CYFVXIowoB542A)
-* 微信小游戏 [https://github.com/wechat-miniprogram](https://github.com/wechat-miniprogram)
+- 微信小游戏 [https://github.com/wechat-miniprogram](https://github.com/wechat-miniprogram)
 
 
 * [https://github.com/ShizukuIchi/winXP](https://github.com/ShizukuIchi/winXP)

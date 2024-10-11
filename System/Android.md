@@ -425,6 +425,7 @@
 * [https://www.lightricks.com](https://www.lightricks.com)
 * 磁力下载 [https://github.com/proninyaroslav/libretorrent](https://github.com/proninyaroslav/libretorrent)
 * 运行Windows应用 [https://github.com/brunodev85/winlator](https://github.com/brunodev85/winlator)
+* 词典 [https://github.com/mumu-lhl/Ciyue](https://github.com/mumu-lhl/Ciyue)
 
 
 **下载Google Play Store上的应用**

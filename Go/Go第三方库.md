@@ -74,6 +74,7 @@
 * [https://github.com/chenhg5/collection](https://github.com/chenhg5/collection)
 * [https://github.com/Andrew-M-C/go.jsonvalue](https://github.com/Andrew-M-C/go.jsonvalue)
 * [https://github.com/tidwall/gjson](https://github.com/tidwall/gjson)
+* [https://github.com/timbray/quamina](https://github.com/timbray/quamina)
 * JSON转CSV [https://github.com/yukithm/json2csv](https://github.com/yukithm/json2csv)
 * 线程池 [https://github.com/xxjwxc/gowp](https://github.com/xxjwxc/gowp)
 * [https://github.com/panjf2000/ants](https://github.com/panjf2000/ants)

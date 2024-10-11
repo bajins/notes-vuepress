@@ -166,6 +166,8 @@
 ```bash
 JAVA_OPTS="
 -Dfile.encoding=UTF-8
+-Dstdout.encoding=UTF-8
+-Dstderr.encoding=UTF-8
 -server
 -Xms2688M
 -Xmx2688M

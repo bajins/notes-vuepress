@@ -211,6 +211,7 @@
 * 范围 [https://github.com/ericniebler/range-v3](https://github.com/ericniebler/range-v3)
 * 队列 [https://github.com/cameron314/concurrentqueue](https://github.com/cameron314/concurrentqueue)
 * 编码检测 [https://github.com/BYVoid/uchardet](https://github.com/BYVoid/uchardet)
+* 代码高亮 [https://github.com/TelegramMessenger/libprisma](https://github.com/TelegramMessenger/libprisma)
 
 
 

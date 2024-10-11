@@ -441,6 +441,70 @@
 ```
 
 
+## 命令执行
+
+
+**eclipsec应用程序**
+
+- `org.eclipse.jdt.core.JavaCodeFormatter` 格式化 Java 代码
+   - `-config`
+- `org.eclipse.jdt.core.JavaCompiler` 编译 Java 代码
+   - `-sourcepath`
+   - `-classpath`
+- `org.eclipse.equinox.p2.director` 安装、更新或卸载 Eclipse 插件
+   - `-repository`
+   - `-installIU`
+   - `-`
+   - `-`
+- `org.eclipse.ant.core.antRunner` 运行 Apache Ant 构建脚本
+   - `-buildfile`
+- `org.eclipse.ui.ide.workbench` 启动 Eclipse IDE 工作台
+- `org.eclipse.jdt.apt.core.aptBuild` 运行 Java 注解处理器（Annotation Processing Tool）
+   - `-sourcepath`
+   - `-classpath`
+- `org.eclipse.jdt.core.JavaIndexer` 索引 Java 项目
+   - `-sourcepath`
+- `org.eclipse.jdt.core.JavaModelManager` 管理 Java 模型
+   - `-sourcepath`
+- `org.eclipse.update.core.standaloneUpdate` 更新 Eclipse 安装
+   - `-command install`
+   - `-featureId org.eclipse.platform`
+- `org.eclipse.core.launcher.Main` 启动 Eclipse 主应用程序
+
+
+**启动**
+
+- `eclipse -consoleLog -nosplash -data <workspace>`
+
+
+**格式化代码**
+
+- ` eclipsec -data <workspace> -application org.eclipse.jdt.core.JavaCodeFormatter [ OPTIONS: -help、-quiet、-verbose ] -config <configFile> <files>`
+- `Window` -> `Preferences` -> `Java` -> `Code Style` -> `Formatter` -> `Export All` 导出格式化代码的配置XML文件
+
+
+**编译构建**
+
+- `eclipsec -nosplash -data <workspace> -application org.eclipse.ant.core.antRunner -buildfile <buildFile>`
+
+```xml
+<!-- build xml 格式化代码，使用ant format命令 -->
+<project name="FormatCode" default="format" basedir=".">
+    <property name="eclipse.home" value="eclipse文件夹" />
+    <property name="src.dir" value="src" />
+
+    <target name="format">
+        <java classname="org.eclipse.jdt.core.formatter.CodeFormatter" fork="true">
+            <classpath>
+                <pathelement location="${eclipse.home}/plugins/org.eclipse.jdt.core_*.jar"/>
+            </classpath>
+            <arg value="-process"/>
+            <arg value="${src.dir}"/>
+        </java>
+    </target>
+</project>
+```
+
 
 
 

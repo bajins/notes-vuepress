@@ -198,7 +198,7 @@ vi /usr/libexec/urlgrabber-ext-down
 * [https://github.com/python-poetry/poetry](https://github.com/python-poetry/poetry)
 * [https://github.com/pyenv/pyenv](https://github.com/pyenv/pyenv)
 * [https://github.com/danhper/asdf-python](https://github.com/danhper/asdf-python)
-* [https://github.com/frostming/pdm](https://github.com/frostming/pdm)
+* [https://github.com/pdm-project/pdm](https://github.com/pdm-project/pdm)
 * [https://bitbucket.org/virtualenvwrapper/virtualenvwrapper](https://bitbucket.org/virtualenvwrapper/virtualenvwrapper)
 * [https://github.com/davidmarble/virtualenvwrapper-win](https://github.com/davidmarble/virtualenvwrapper-win)
 * [https://github.com/python-poetry/poetry](https://github.com/python-poetry/poetry)

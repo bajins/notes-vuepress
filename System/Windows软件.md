@@ -1058,6 +1058,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 
 * [https://github.com/1Password](https://github.com/1Password)
+* [https://github.com/ftyszyx/lockpass](https://github.com/ftyszyx/lockpass)
 * [https://authy.com](https://authy.com)
     * [https://github.com/momaek/authy](https://github.com/momaek/authy)
     * [https://github.com/BrandonPotter/GoogleAuthenticator](https://github.com/BrandonPotter/GoogleAuthenticator)
