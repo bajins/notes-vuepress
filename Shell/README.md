@@ -47,6 +47,7 @@
 - 历史查找 [https://github.com/YiNNx/cmd-wrapped](https://github.com/YiNNx/cmd-wrapped)
 - 录屏 [https://github.com/gvcgo/asciinema](https://github.com/gvcgo/asciinema)
 - 词典 [https://github.com/lengyijun/mdict-cli-rs](https://github.com/lengyijun/mdict-cli-rs)
+- HTTP [https://github.com/jpillora/chisel](https://github.com/jpillora/chisel)
 
 
 * [https://github.com/google/zx](https://github.com/google/zx)

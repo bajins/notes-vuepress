@@ -114,6 +114,7 @@
 * [https://www.sourceware.org/bzip2](https://www.sourceware.org/bzip2)
 * [https://sourceforge.net/projects/bzip2](https://sourceforge.net/projects/bzip2)
 * [https://github.com/kspalaiologos/bzip3](https://github.com/kspalaiologos/bzip3)
+* [https://github.com/nih-at/libzip](https://github.com/nih-at/libzip)
 * 标准库 [https://musl.libc.org](https://musl.libc.org)
     * [https://github.com/seL4/musllibc](https://github.com/seL4/musllibc)
     * [https://github.com/richfelker](https://github.com/richfelker)

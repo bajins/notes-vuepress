@@ -246,6 +246,7 @@
 * [https://github.com/techa03/goodsKill](https://github.com/techa03/goodsKill)
 * [https://github.com/zycgit/hasor](https://github.com/zycgit/hasor)
 * [https://github.com/enilu/web-flash](https://github.com/enilu/web-flash)
+* 商城 [https://github.com/crmeb/crmeb_java](https://github.com/crmeb/crmeb_java)
 * 行为验证码 [https://github.com/anji-plus/captcha](https://github.com/anji-plus/captcha)
 * EL-ADMIN 后台管理系统 [https://github.com/elunez/eladmin](https://github.com/elunez/eladmin)
 * SaaS多租户微服务开发平台 [https://github.com/chillzhuang/SpringBlade](https://github.com/chillzhuang/SpringBlade)

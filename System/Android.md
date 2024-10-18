@@ -37,6 +37,7 @@
 - trace 工具 [https://github.com/bytedance/btrace](https://github.com/bytedance/btrace)
 - 备份提取 [https://github.com/nelenkov/android-backup-extractor](https://github.com/nelenkov/android-backup-extractor)
 - ROM制作 [https://github.com/AiKirito/UY-Sct](https://github.com/AiKirito/UY-Sct)
+- adb logcat日志 [https://github.com/nieheyong/logcat-in-devtools](https://github.com/nieheyong/logcat-in-devtools)
 
 
 + Java各版本支持情况 [https://github.com/JakeWharton/agp-java-support](https://github.com/JakeWharton/agp-java-support)

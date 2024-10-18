@@ -13,6 +13,7 @@
 * [https://gitlab.com/gitlab-com/content-sites/handbook](https://gitlab.com/gitlab-com/content-sites/handbook)
 * [https://github.com/formbricks/formbricks](https://github.com/formbricks/formbricks)
 * 日程安排 [https://github.com/calcom/cal.com](https://github.com/calcom/cal.com)
+* 股票 [https://github.com/Rockyzsu/stock](https://github.com/Rockyzsu/stock)
 
 
 

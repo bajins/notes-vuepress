@@ -66,13 +66,13 @@
     * [https://sourceforge.net/projects/jsqlparser](https://sourceforge.net/projects/jsqlparser)
     * [https://github.com/braisdom/ObjectiveSql](https://github.com/braisdom/ObjectiveSql)
 * [https://github.com/prestodb/presto](https://github.com/prestodb/presto)
-* [https://github.com/liweihua274/druid-sqlparser](https://github.com/liweihua274/druid-sqlparser)
-    * [https://github.com/alibaba/druid/wiki/SQL-Parser](https://github.com/alibaba/druid/wiki/SQL-Parser)
-    * [Java工具篇之Druid SQL语法解析树](https://developer.aliyun.com/article/1000273)
 * [https://github.com/camertron/SQLParser](https://github.com/camertron/SQLParser)
 * [https://github.com/iByteCoding/M-SQLParser](https://github.com/iByteCoding/M-SQLParser)
 * [https://github.com/jparsec/jparsec](https://github.com/jparsec/jparsec)
 * [https://github.com/manasesjesus/fdbs-and-sql-parser](https://github.com/manasesjesus/fdbs-and-sql-parser)
+* [https://github.com/liweihua274/druid-sqlparser](https://github.com/liweihua274/druid-sqlparser)
+    * [https://github.com/alibaba/druid/wiki/SQL-Parser](https://github.com/alibaba/druid/wiki/SQL-Parser)
+    * [Java工具篇之Druid SQL语法解析树](https://developer.aliyun.com/article/1000273)
 
 
 
@@ -85,6 +85,9 @@
 -  [https://github.com/brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP)
 - [https://github.com/alibaba/druid](https://github.com/alibaba/druid)
     - [https://alphahinex.github.io/2022/05/15/use-druid-to-transform-sql](https://alphahinex.github.io/2022/05/15/use-druid-to-transform-sql)
+    - [记一次 Druid 超时配置的问题 → 引发对 Druid 时间配置项的探究](https://www.cnblogs.com/youzhibing/p/16458860.html)
+    - [真的会用removeAbandoned吗](https://blog.csdn.net/qq_42590394/article/details/134982378)
+    - [druid双刃剑参数之removeAbandoned](https://www.cnblogs.com/tiancai/p/17651907.html)
 - [https://github.com/apache/tomcat/tree/main/modules/jdbc-pool](https://github.com/apache/tomcat/tree/main/modules/jdbc-pool)
     - [https://tomcat.apache.org/tomcat-9.0-doc/jdbc-pool.html](https://tomcat.apache.org/tomcat-9.0-doc/jdbc-pool.html)
 - [https://github.com/apache/commons-dbcp](https://github.com/apache/commons-dbcp)
@@ -123,12 +126,14 @@
 
 ## JDBC驱动
 
-**注意使用的JDBC驱动**
 
-- `com.mysql.jdbc.Driver`是`mysql-connector-java 5`中的，不再推荐使用
-- `com.mysql.cj.jdbc.Driver`是`mysql-connector-java 6`中的
+**注意使用的MySQL Connector/J驱动**
 
-> 如果`mysql-connector-java`用的`6.0`以上的，但是你的`driver`用的还是`com.mysql.jdbc.Driver`，就会报错
+- `org.gjt.mm.mysql.Driver` 用于`3.x`版本之前，在`5.1.47`以上版本不存在该类，由一个名为MM (Monty's MySQL) 的项目开发的，该项目后来被Sun Microsystems收购
+- `com.mysql.jdbc.Driver` 用于`5.1.6`版本之前，在MySQL AB（后被Oracle Corporation收购）接手并继续开发JDBC驱动之后使用的
+- `com.mysql.cj.jdbc.Driver` 用于`5.1.6`版本之后
+
+> 从Java 6 `JDBC 4.0`开始，显式加载驱动类的步骤`Class.forName(…)`通常是不必要的，因为JDBC服务提供者机制会自动加载驱动
 
 
 

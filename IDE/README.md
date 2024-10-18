@@ -112,6 +112,7 @@
 - [https://github.com/triton-lang/triton](https://github.com/triton-lang/triton)
 - [https://github.com/bravekingzhang/gpt-frontend-code-gen](https://github.com/bravekingzhang/gpt-frontend-code-gen)
 - [https://github.com/nutlope/llamacoder](https://github.com/nutlope/llamacoder)
+- [https://github.com/clinebot/cline](https://github.com/clinebot/cline)
 - 突出显示重要代码 [https://github.com/novoselrok/glance](https://github.com/novoselrok/glance)
 - 代码转换 [https://github.com/JustAIGithub/AI-Code-Convert](https://github.com/JustAIGithub/AI-Code-Convert)
 - [https://github.com/ritz078/transform](https://github.com/ritz078/transform)
@@ -295,6 +296,7 @@
 + [https://github.com/JoeDog/siege](https://github.com/JoeDog/siege)
 + 生成模拟JSON [https://github.com/LangSync/cli](https://github.com/LangSync/cli)
 + [https://github.com/couriourc/mock_server](https://github.com/couriourc/mock_server)
++ [https://github.com/ray-d-song/faker-server](https://github.com/ray-d-song/faker-server)
 
 
 - mac paw [https://github.com/luckymarmot](https://github.com/luckymarmot)
@@ -373,6 +375,7 @@
 * [https://github.com/directus/directus](https://github.com/directus/directus)
 * [https://github.com/drawdb-io/drawdb](https://github.com/drawdb-io/drawdb)
 * 命令行 [https://github.com/danvergara/dblab](https://github.com/danvergara/dblab)
+* [https://github.com/xo/usql](https://github.com/xo/usql)
 
 
 - 数据库转excel [https://github.com/nocodb/nocodb](https://github.com/nocodb/nocodb)
