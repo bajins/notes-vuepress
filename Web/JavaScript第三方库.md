@@ -270,10 +270,14 @@
 - [https://github.com/topics/bignumbers](https://github.com/topics/bignumbers)
 - [https://github.com/josdejong/mathjs](https://github.com/josdejong/mathjs)
 - [https://github.com/MikeMcl](https://github.com/MikeMcl)
+    - [https://github.com/MikeMcl/decimal.js](https://github.com/MikeMcl/decimal.js)
+    - [https://github.com/MikeMcl/bignumber.js](https://github.com/MikeMcl/bignumber.js)
+    - [https://github.com/MikeMcl/big.js](https://github.com/MikeMcl/big.js)
 - [https://github.com/BenjaminVanRyseghem/numbro](https://github.com/BenjaminVanRyseghem/numbro)
 - [https://github.com/gastonmesseri/numerable](https://github.com/gastonmesseri/numerable)
 - [https://github.com/adamwdraper/Numeral-js](https://github.com/adamwdraper/Numeral-js)
 - [https://github.com/entronad/number-display](https://github.com/entronad/number-display)
+
 
 * mock [https://github.com/chancejs/chancejs](https://github.com/chancejs/chancejs)
 * [https://github.com/TommyLemon/APIAuto](https://github.com/TommyLemon/APIAuto)

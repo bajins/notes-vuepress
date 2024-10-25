@@ -48,6 +48,7 @@
 - 录屏 [https://github.com/gvcgo/asciinema](https://github.com/gvcgo/asciinema)
 - 词典 [https://github.com/lengyijun/mdict-cli-rs](https://github.com/lengyijun/mdict-cli-rs)
 - HTTP [https://github.com/jpillora/chisel](https://github.com/jpillora/chisel)
+- [https://github.com/lavv17/lftp](https://github.com/lavv17/lftp)
 
 
 * [https://github.com/google/zx](https://github.com/google/zx)

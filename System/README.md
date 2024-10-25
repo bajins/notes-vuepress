@@ -286,6 +286,7 @@
     * [https://github.com/projectcontour/contour](https://github.com/projectcontour/contour)
     * [https://github.com/datawire/ambassador](https://github.com/datawire/ambassador)
     * [https://github.com/projectcontour/gimbal](https://github.com/projectcontour/gimbal)
+* [https://github.com/Kong/kong](https://github.com/Kong/kong)
 * [https://github.com/zalando/skipper](https://github.com/zalando/skipper)
 * [https://github.com/tobychui/zoraxy](https://github.com/tobychui/zoraxy)
 * IP漂移 [https://github.com/acassen/keepalived](https://github.com/acassen/keepalived)
@@ -565,6 +566,7 @@
 * 文字转图片 [https://github.com/byodian/oneimg](https://github.com/byodian/oneimg)
 * 麻将游戏 [https://github.com/liumengniu/majiang](https://github.com/liumengniu/majiang)
 * AI姿势 [https://github.com/AmyangXYZ/MiKaPo](https://github.com/AmyangXYZ/MiKaPo)
+* 图片加水印 [https://github.com/pdmaker/watermark-master](https://github.com/pdmaker/watermark-master)
 
 
 

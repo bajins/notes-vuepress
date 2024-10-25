@@ -277,6 +277,7 @@
 * [https://github.com/DapperLib/Dapper](https://github.com/DapperLib/Dapper)
 * [https://github.com/postsharp](https://github.com/postsharp)
 * [https://github.com/castleproject](https://github.com/castleproject)
+* 压缩 [https://github.com/adamhathcock/sharpcompress](https://github.com/adamhathcock/sharpcompress)
 
 
 

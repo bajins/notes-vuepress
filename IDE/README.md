@@ -374,6 +374,7 @@
 * [https://github.com/webyog/sqlyog-community](https://github.com/webyog/sqlyog-community)
 * [https://github.com/directus/directus](https://github.com/directus/directus)
 * [https://github.com/drawdb-io/drawdb](https://github.com/drawdb-io/drawdb)
+* [https://github.com/clidey/whodb](https://github.com/clidey/whodb)
 * 命令行 [https://github.com/danvergara/dblab](https://github.com/danvergara/dblab)
 * [https://github.com/xo/usql](https://github.com/xo/usql)
 

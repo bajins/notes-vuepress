@@ -544,7 +544,6 @@
 - [https://www.esito.no/en/promo-g9](https://www.esito.no/en/promo-g9)
 - 文本编辑器 [https://github.com/fabioz/LiClipseText](https://github.com/fabioz/LiClipseText)
 - GUI设计 [https://github.com/eclipse/windowbuilder](https://github.com/eclipse/windowbuilder)
-- [https://community.jaspersoft.com/project/jaspersoft-studio](https://community.jaspersoft.com/project/jaspersoft-studio)
 - 开发风格 [https://www.genuitec.com/products/devstyle](https://www.genuitec.com/products/devstyle)
 - [http://kurucz-grafika.de/fatjar](http://kurucz-grafika.de/fatjar)
    - [eclipse中将项目打包成jar的两种方法，及其问题与解决方法](https://www.cnblogs.com/tianyanzhi/p/8067239.html)
