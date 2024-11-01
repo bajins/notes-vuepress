@@ -27,6 +27,7 @@
 * 匿名跟踪测试 [https://firstpartysimulator.org](https://firstpartysimulator.org)
 * [https://github.com/libredirect](https://github.com/libredirect)
 * AI [https://github.com/debugtheworldbot/chromegemini](https://github.com/debugtheworldbot/chromegemini)
+* 自动化浏览器操作 [https://github.com/Skyvern-AI/Skyvern](https://github.com/Skyvern-AI/Skyvern)
 
 
 

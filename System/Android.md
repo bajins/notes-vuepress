@@ -562,6 +562,8 @@
 * 翻译 [https://github.com/FunnySaltyFish/FunnyTranslation](https://github.com/FunnySaltyFish/FunnyTranslation)
 * [https://github.com/niedev/RTranslator](https://github.com/niedev/RTranslator)
 * 天气 [https://github.com/breezy-weather/breezy-weather](https://github.com/breezy-weather/breezy-weather)
+* 语音识别键盘 [https://github.com/soupslurpr/Transcribro](https://github.com/soupslurpr/Transcribro)
+* 应用商店 [https://github.com/accrescent/accrescent](https://github.com/accrescent/accrescent)
 
 
 ### 证件照

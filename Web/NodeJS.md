@@ -102,6 +102,7 @@
 * [https://github.com/jaynath-d/node-jdbc-driver](https://github.com/jaynath-d/node-jdbc-driver)
 * SQL查询 [https://github.com/knex/knex](https://github.com/knex/knex)
 * [https://github.com/TryGhost/node-sqlite3](https://github.com/TryGhost/node-sqlite3)
+* [https://github.com/sql-js/sql.js](https://github.com/sql-js/sql.js)
 * SQLite REST API [https://github.com/thevahidal/soul](https://github.com/thevahidal/soul)
 * 解析器、压缩器、压缩器和美化 [https://github.com/mishoo/UglifyJS](https://github.com/mishoo/UglifyJS)
 * [https://github.com/solzimer/nsyslog-parser](https://github.com/solzimer/nsyslog-parser)

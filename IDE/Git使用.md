@@ -44,6 +44,7 @@
 * [https://github.com/pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching)
 * Git大全 [https://gitee.com/all-about-git](https://gitee.com/all-about-git)
 * [Git 团队协作中常用术语 WIP PTAL CC LGTM 等解释](https://blog.csdn.net/kunyus/article/details/93472646)
+* 自己动手写Git [https://github.com/hanyujie2002/wyag-zh](https://github.com/hanyujie2002/wyag-zh)
 
 
 **GIT工具**

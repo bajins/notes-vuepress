@@ -567,6 +567,7 @@
 * 麻将游戏 [https://github.com/liumengniu/majiang](https://github.com/liumengniu/majiang)
 * AI姿势 [https://github.com/AmyangXYZ/MiKaPo](https://github.com/AmyangXYZ/MiKaPo)
 * 图片加水印 [https://github.com/pdmaker/watermark-master](https://github.com/pdmaker/watermark-master)
+* 图片背景文字 [https://github.com/RexanWONG/text-behind-image](https://github.com/RexanWONG/text-behind-image)
 
 
 
