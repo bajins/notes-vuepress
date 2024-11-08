@@ -350,7 +350,7 @@
 * [https://github.com/uptimerobot](https://github.com/uptimerobot)
 * [https://github.com/msgbyte/tianji](https://github.com/msgbyte/tianji)
 * [https://github.com/bboysoulcn/telemonitor](https://github.com/bboysoulcn/telemonitor)
-
+* [https://github.com/TheCoolQATeam/online-inspection-tracker](https://github.com/TheCoolQATeam/online-inspection-tracker)
 
 
 - [Linux工程师必备的88个监控工具](https://learn-linux.readthedocs.io/zh_CN/latest/maintenance/monitor/tools/80-linux-monitoring-tools.html)
@@ -568,6 +568,8 @@
 * AI姿势 [https://github.com/AmyangXYZ/MiKaPo](https://github.com/AmyangXYZ/MiKaPo)
 * 图片加水印 [https://github.com/pdmaker/watermark-master](https://github.com/pdmaker/watermark-master)
 * 图片背景文字 [https://github.com/RexanWONG/text-behind-image](https://github.com/RexanWONG/text-behind-image)
+* 加密工具 [https://github.com/dazhengs/tools](https://github.com/dazhengs/tools)
+* 天空轨道分析 [https://github.com/thkruz/keeptrack.space](https://github.com/thkruz/keeptrack.space)
 
 
 
