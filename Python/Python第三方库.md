@@ -47,6 +47,7 @@
     * [https://github.com/greyli/helloflask](https://github.com/greyli/helloflask)
     * [https://github.com/vincentmi/vnzmi](https://github.com/vincentmi/vnzmi)
     * [https://github.com/yuxiaoy1/chatfairy](https://github.com/yuxiaoy1/chatfairy)
+* [https://github.com/AnswerDotAI/fasthtml](https://github.com/AnswerDotAI/fasthtml)
 * [https://github.com/reflex-dev/reflex](https://github.com/reflex-dev/reflex)
 * [https://github.com/Pylons](https://github.com/Pylons)
 * [https://github.com/bottlepy/bottle](https://github.com/bottlepy/bottle)

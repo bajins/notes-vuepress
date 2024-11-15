@@ -172,6 +172,7 @@
 * [https://shipfa.st/tools/logo-fast](https://shipfa.st/tools/logo-fast)
 * [https://www.svgviewer.dev](https://www.svgviewer.dev)
 * [https://github.com/hugeicons/hugeicons-react](https://github.com/hugeicons/hugeicons-react)
+* [https://github.com/pqoqubbw/icons](https://github.com/pqoqubbw/icons)
 
 
 - [最受程序员欢迎的 20 个 CSS 框架](https://www.fuocu.cn/archives/css-frame)

@@ -133,7 +133,6 @@ chrome://flags/#enable-parallel-downloading
 
 **Chromium内核浏览器实验室功能特性运行参数：**
 
-* [https://peter.sh/experiments/chromium-command-line-switches](https://peter.sh/experiments/chromium-command-line-switches)
 
 ```
 --user-data-dir="Data" //数据重定向存储当前目录

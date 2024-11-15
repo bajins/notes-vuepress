@@ -171,7 +171,7 @@ print('\n'.join(ans))
 | @ArgsAttributes                 	|            	|                                                                                            	|
 | @FunctionName                   	|            	|                                                                                            	|
 | @ConstructorProperties          	|            	|                                                                                            	|
-| @Transient                      	|            	|                                                                                            	|
+| @Transient                      	|            	| 标记的成员变量不参与序列化过程，配合@Table注解，ORM框架将忽略该属性                               |
 | @Deprecated                     	| jdk1.5     	| 内置注解：用于标志过时的类、方法和成员变量                                                 	|
 | @FunctionalInterface            	| jdk1.8     	| 函数式接口注解，用于定义函数式接口                                                         	|
 | @SafeVarargs                    	| jdk1.7     	| 参数安全类型注解，用于提示用户参数安全                                                     	|

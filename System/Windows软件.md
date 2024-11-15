@@ -1200,6 +1200,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * 电子书阅读器 [https://github.com/btpf/Alexandria](https://github.com/btpf/Alexandria)
 * 翻译 [https://github.com/pot-app/pot-desktop](https://github.com/pot-app/pot-desktop)
 * 背单词 [https://github.com/Uahh/ToastFish](https://github.com/Uahh/ToastFish)
+* 共享键鼠和剪贴板给安卓 [https://github.com/BHznJNs/InputShare](https://github.com/BHznJNs/InputShare)
 
 
 + [http://www.downloadsoftware.ir](http://www.downloadsoftware.ir)

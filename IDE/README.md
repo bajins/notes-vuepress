@@ -527,6 +527,7 @@
 * [https://gitlab.com/wireshark/wireshark](https://gitlab.com/wireshark/wireshark)
     * [https://www.wireshark.org](https://www.wireshark.org)
 * [https://github.com/gcla/termshark](https://github.com/gcla/termshark)
+* [https://github.com/evanrolfe/trayce_gui](https://github.com/evanrolfe/trayce_gui)
 * BurpSuite [https://portswigger.net/burp/releases](https://portswigger.net/burp/releases)
     * [BurpSuiteV2.1.06破解版](https://www.waitalone.cn/tools/burpsuite.html)
     * [BurpSuite_Pro v2020.4 Loader_Keygen](https://www.uedbox.com/post/65547)

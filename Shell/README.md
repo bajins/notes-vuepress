@@ -86,6 +86,7 @@
 - [https://github.com/Equationzhao/g](https://github.com/Equationzhao/g)
 - [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
 - [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
+- 查询nginx日志 [https://github.com/facundoolano/ngtop](https://github.com/facundoolano/ngtop)
 
 
 **`terminal`、`shell`、`tty`、`console` 之间的区别**
@@ -255,6 +256,7 @@
 * [https://github.com/billchurch/WebSSH2](https://github.com/billchurch/WebSSH2)
 * [https://github.com/mscdex/ssh2](https://github.com/mscdex/ssh2)
 * [https://github.com/tsl0922/ttyd](https://github.com/tsl0922/ttyd)
+* [https://github.com/zyyzyykk/kkTerminal](https://github.com/zyyzyykk/kkTerminal)
 * 实时协作 [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
 
 
