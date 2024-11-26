@@ -22,6 +22,7 @@
     * [https://github.com/HanSolo/discocli](https://github.com/HanSolo/discocli)
         * [https://harmoniccode.blogspot.com](https://harmoniccode.blogspot.com)
 * [https://github.com/HanSolo/javafinder](https://github.com/HanSolo/javafinder)
+* [https://github.com/HanSolo/JDK-Updater](https://github.com/HanSolo/JDK-Updater)
 
 
 

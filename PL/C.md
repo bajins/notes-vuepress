@@ -34,6 +34,7 @@
 
 * [https://github.com/theicfire/makefiletutorial](https://github.com/theicfire/makefiletutorial)
 * [https://www.gnu.org/software/make](https://www.gnu.org/software/make)
+    * 输出项目帮助信息 [https://github.com/mitjafelicijan/makext](https://github.com/mitjafelicijan/makext)
 * [https://github.com/Kitware/CMake](https://github.com/Kitware/CMake)
     * [https://cmake.org/download](https://cmake.org/download)
     * [https://gitlab.kitware.com/cmake/cmake](https://gitlab.kitware.com/cmake/cmake)

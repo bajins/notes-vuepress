@@ -420,6 +420,7 @@
 * [https://modelright.com](https://modelright.com)
 * [https://sourceforge.net/projects/mogwai](https://sourceforge.net/projects/mogwai)
 * [https://editor.ponyorm.com](https://editor.ponyorm.com)
+* [https://github.com/pgmodeler/pgmodeler](https://github.com/pgmodeler/pgmodeler)
 
 
 

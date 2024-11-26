@@ -168,6 +168,7 @@
 * WIFI管理 [https://github.com/pythops/impala](https://github.com/pythops/impala)
 * [https://github.com/J-Lentz/iwgtk](https://github.com/J-Lentz/iwgtk)
 * [https://gitlab.freedesktop.org/NetworkManager/NetworkManager](https://gitlab.freedesktop.org/NetworkManager/NetworkManager)
+* 速度测试 [https://github.com/gnmyt/myspeed](https://github.com/gnmyt/myspeed)
 
 
 
@@ -255,6 +256,7 @@
 * [https://search.censys.io](https://search.censys.io)
 * [https://github.com/usual2970/certimate](https://github.com/usual2970/certimate)
 * 自动获取证书信息 [https://github.com/eryajf/cloud_dns_exporter](https://github.com/eryajf/cloud_dns_exporter)
+* localhost证书 [https://github.com/anchordotdev/cli](https://github.com/anchordotdev/cli)
 
 
 - [临时处理OCSP域名无法访问的问题](https://holmesian.org/letsencrypt-ocsp-fix)
@@ -345,6 +347,7 @@
 * [https://github.com/may-fly/mayfly-go](https://github.com/may-fly/mayfly-go)
 * [https://github.com/amuluze/amprobe](https://github.com/amuluze/amprobe)
 * [https://github.com/mcoo/status](https://github.com/mcoo/status)
+* [https://github.com/henrygd/beszel](https://github.com/henrygd/beszel)
 * 实时崩溃报告 [https://github.com/getsentry](https://github.com/getsentry)
 * [https://github.com/highlight/highlight](https://github.com/highlight/highlight)
 * [https://github.com/uptimerobot](https://github.com/uptimerobot)

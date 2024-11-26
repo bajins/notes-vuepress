@@ -151,6 +151,7 @@
 * [https://github.com/lemire/FastPFor](https://github.com/lemire/FastPFor)
 * [https://github.com/mapbox/gzip-hpp](https://github.com/mapbox/gzip-hpp)
 * [https://github.com/stachenov/quazip](https://github.com/stachenov/quazip)
+* [https://github.com/rikyoz/bit7z](https://github.com/rikyoz/bit7z)
 * 加密 [https://github.com/weidai11/cryptopp](https://github.com/weidai11/cryptopp)
 * [https://github.com/ReneNyffenegger/cpp-base64](https://github.com/ReneNyffenegger/cpp-base64)
 * [https://github.com/kroma-network/tachyon](https://github.com/kroma-network/tachyon)

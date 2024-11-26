@@ -144,6 +144,7 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 - 三维太空可视化 [https://eyes.nasa.gov](https://eyes.nasa.gov)
 - 元素周期表 [https://github.com/baotlake/periodic-table-pro](https://github.com/baotlake/periodic-table-pro)
 - 白噪音 [https://ambiph.one](https://ambiph.one)
+- [https://soundbox.fun](https://soundbox.fun)
 - 视频编辑 [https://pikimov.com](https://pikimov.com)
 
 
@@ -178,6 +179,7 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * [https://github.com/gantFDT/icraft](https://github.com/gantFDT/icraft)
     * 3D架构图 [https://icraft.gantcloud.com](https://icraft.gantcloud.com)
 * DIY项目 [https://makeityourself.org](https://makeityourself.org)
+* [王慧文清华产品课](https://nanqiang.feishu.cn/wiki/wikcncDyFTq1agB5UaEZnUGZD4g)
 
 
 ## 文档

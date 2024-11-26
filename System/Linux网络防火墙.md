@@ -219,6 +219,7 @@ firewall-cmd --query-panic
     - [https://www.myip.la](https://www.myip.la)
 - [https://cloud.magiclen.org/cn/myip](https://cloud.magiclen.org/cn/myip)
 - [https://dns.fish](https://dns.fish)
+- [https://ipquery.io](https://ipquery.io)
 - 可用性检查 [https://github.com/funilrys/PyFunceble](https://github.com/funilrys/PyFunceble)
 - [https://github.com/hatoo/oha](https://github.com/hatoo/oha)
 

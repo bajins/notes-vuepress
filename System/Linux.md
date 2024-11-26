@@ -440,6 +440,7 @@ tmux new -s 会话名 -d "命令"
 > `GNU Screen`可以看作是窗口管理器的命令行界面版本。它提供了统一的管理多个会话的界面和相应的功能。 
 
 * [http://www.gnu.org/software/screen](http://www.gnu.org/software/screen)
+* [https://invisible-island.net/ncurses/announce.html](https://invisible-island.net/ncurses/announce.html)
 
 
 **命令**
