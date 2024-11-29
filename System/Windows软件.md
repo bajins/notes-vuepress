@@ -687,6 +687,7 @@
     * [InnoSetup中文定制版](http://blog.sina.com.cn/s/blog_89a729a40102xuy4.html)
     * [https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation)
     * [https://sourceforge.net/projects/istool](https://sourceforge.net/projects/istool)
+    * [https://github.com/dscharrer/innoextract](https://github.com/dscharrer/innoextract)
 * [https://learn.microsoft.com/zh-cn/windows/win32/msi/standard-installer-command-line-options](https://learn.microsoft.com/zh-cn/windows/win32/msi/standard-installer-command-line-options)
 
 

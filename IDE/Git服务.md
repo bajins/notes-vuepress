@@ -188,6 +188,7 @@ volumes:
 - [https://github.com/ruanyf/weekly](https://github.com/ruanyf/weekly)
     - [https://www.ruanyifeng.com/blog/archives.html](https://www.ruanyifeng.com/blog/archives.html)
 - 获取统计信息 [https://github.com/shroudedcode/devstats](https://github.com/shroudedcode/devstats)
+- [https://github.com/dahezhiquan/Github-personal-homepage](https://github.com/dahezhiquan/Github-personal-homepage)
 - 获取动态生成的GitHub统计信息 [https://github.com/anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
 - [https://github.com/muety/wakapi](https://github.com/muety/wakapi)
 - 获取访问统计 http://profile-counter.glitch.me/用户名/count.svg

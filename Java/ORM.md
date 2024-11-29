@@ -28,6 +28,8 @@
 * [https://github.com/spring-projects/spring-data-jdbc](https://github.com/spring-projects/spring-data-jdbc)
 * [https://github.com/apache/commons-dbutils](https://github.com/apache/commons-dbutils)
 * [https://github.com/sagframe/sagacity-sqltoy](https://github.com/sagframe/sagacity-sqltoy)
+* 元数据操作 [https://github.com/schemacrawler/SchemaCrawler](https://github.com/schemacrawler/SchemaCrawler)
+    * [https://sourceforge.net/projects/schemacrawler.mirror](https://sourceforge.net/projects/schemacrawler.mirror)
 * 只读查询 [https://github.com/ejlchina/bean-searcher](https://github.com/ejlchina/bean-searcher)
 * [https://github.com/speedment](https://github.com/speedment)
 * [https://github.com/troyzhxu/bean-searcher](https://github.com/troyzhxu/bean-searcher)
