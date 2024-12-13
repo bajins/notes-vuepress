@@ -486,6 +486,9 @@
 * [https://www.omnigroup.com/omnigraffle](https://www.omnigroup.com/omnigraffle)
 * [https://github.com/terrastruct/d2](https://github.com/terrastruct/d2)
 * [https://github.com/wanglin2/mind-map](https://github.com/wanglin2/mind-map)
+* [https://github.com/plantuml/plantuml](https://github.com/plantuml/plantuml)
+* [https://github.com/mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)
+* [https://github.com/terrastruct/d2](https://github.com/terrastruct/d2)
 
 
 **本地客户端**

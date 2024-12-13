@@ -588,6 +588,7 @@
 * [https://github.com/sebastianwessel/quickjs](https://github.com/sebastianwessel/quickjs)
 * Web虚拟机 [https://github.com/leaningtech/webvm](https://github.com/leaningtech/webvm)
 * [https://github.com/WasmEdge/WasmEdge](https://github.com/WasmEdge/WasmEdge)
+* JVM [https://github.com/leaningtech/browsercraft](https://github.com/leaningtech/browsercraft)
 * Rust [https://github.com/copy/v86](https://github.com/copy/v86)
 * [https://github.com/bytecodealliance/wasmtime](https://github.com/bytecodealliance/wasmtime)
 * [https://github.com/lumen/lumen](https://github.com/lumen/lumen)

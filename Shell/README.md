@@ -77,6 +77,7 @@
 - [https://github.com/wader/fq](https://github.com/wader/fq)
 - [https://github.com/ynqa/jnv](https://github.com/ynqa/jnv)
 - HTML [https://github.com/ericchiang/pup](https://github.com/ericchiang/pup)
+- [https://github.com/dvcoolarun/web2pdf](https://github.com/dvcoolarun/web2pdf)
 - Find [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
 - 便捷运行 [https://github.com/casey/just](https://github.com/casey/just)
 - [https://github.com/google/zx](https://github.com/google/zx)

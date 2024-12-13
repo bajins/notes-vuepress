@@ -518,7 +518,6 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/commonmark/commonmark.js](https://github.com/commonmark/commonmark.js)
 * [https://github.com/showdownjs/showdown](https://github.com/showdownjs/showdown)
 * [https://github.com/github/markup](https://github.com/github/markup)
-* [https://github.com/mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)
 
 
 
