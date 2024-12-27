@@ -284,6 +284,7 @@
 * [https://github.com/kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm)
     * [https://github.com/aoyiduo/woterm](https://github.com/aoyiduo/woterm)
 * [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
+* [https://github.com/wavetermdev/waveterm](https://github.com/wavetermdev/waveterm)
 * [https://github.com/nxshell](https://github.com/nxshell)
     * [https://sourceforge.net/projects/nxshell](https://sourceforge.net/projects/nxshell)
 * [https://github.com/PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable)

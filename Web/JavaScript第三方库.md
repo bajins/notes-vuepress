@@ -136,6 +136,7 @@
 
 - [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
 - [https://github.com/HTMLElements](https://github.com/HTMLElements)
+- 第三方认证 [https://github.com/openauthjs/openauth](https://github.com/openauthjs/openauth)
 
 
 
@@ -446,6 +447,7 @@
 
 
 - 思维导图 [https://github.com/hizzgdev/jsmind](https://github.com/hizzgdev/jsmind)
+- [https://github.com/ishubin/schemio](https://github.com/ishubin/schemio)
 - 虚拟白板 [https://github.com/excalidraw/excalidraw](https://github.com/excalidraw/excalidraw)
 - 头像生成 [https://github.com/multiavatar/Multiavatar](https://github.com/multiavatar/Multiavatar)
 - 抠图 [https://github.com/imgly/background-removal-js](https://github.com/imgly/background-removal-js)

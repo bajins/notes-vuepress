@@ -435,6 +435,7 @@
 + [https://github.com/wcb1969/iptv](https://github.com/wcb1969/iptv)
 + [https://github.com/22705/IPTV-2](https://github.com/22705/IPTV-2)
 + [https://github.com/biancangming/wtv](https://github.com/biancangming/wtv)
++ [https://github.com/Guovin/iptv-api](https://github.com/Guovin/iptv-api)
 
 
 
@@ -931,6 +932,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.jam-software.com/ultrasearch](https://www.jam-software.com/ultrasearch)
 * [https://www.mythicsoft.com/agentransack](https://www.mythicsoft.com/agentransack)
 * [https://www.nirsoft.net/utils/search_my_files.html](https://www.nirsoft.net/utils/search_my_files.html)
+* [https://github.com/gsidhu/buzee-tauri](https://github.com/gsidhu/buzee-tauri)
 * 批量重命名 ReNamer [http://www.den4b.com](http://www.den4b.com)
 * [https://github.com/Arman19941113/rename-photos](https://github.com/Arman19941113/rename-photos)
 * [https://github.com/cyhuajuan/FreeReNamer](https://github.com/cyhuajuan/FreeReNamer)
@@ -1247,6 +1249,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 - [https://github.com/HackerDev-Felix/WechatDecrypt](https://github.com/HackerDev-Felix/WechatDecrypt)
 - [https://github.com/saturn-opposition/wechat_analysis](https://github.com/saturn-opposition/wechat_analysis)
 - [https://github.com/allen1881996/WeChat-Data-Analysis](https://github.com/allen1881996/WeChat-Data-Analysis)
+- [https://github.com/git-jiadong/wechatDataBackup](https://github.com/git-jiadong/wechatDataBackup)
 - 清理微信僵尸粉 [https://github.com/L8426936/CleanUpWeChatZombieFans](https://github.com/L8426936/CleanUpWeChatZombieFans)
 - 自动抢红包 [https://github.com/east520/AutoGetRedEnv](https://github.com/east520/AutoGetRedEnv)
 - [https://github.com/geeeeeeeeek/WeChatLuckyMoney](https://github.com/geeeeeeeeek/WeChatLuckyMoney)

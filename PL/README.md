@@ -33,7 +33,7 @@
 - [以前靠信息不对称赚钱，现在靠什么赚钱？](https://www.zhihu.com/question/268481226)
 - 架构师软考高级 [https://github.com/xxlllq/system_architect](https://github.com/xxlllq/system_architect)
     - [https://github.com/jerrylususu/jerrylususu.github.io](https://github.com/jerrylususu/jerrylususu.github.io)
-
+- 编程十年的感悟 [https://ramsayleung.github.io/zh/archives](https://ramsayleung.github.io/zh/post/2024/%E7%BC%96%E7%A8%8B%E5%8D%81%E5%B9%B4%E7%9A%84%E6%84%9F%E6%82%9F/)
 
 
 
