@@ -506,6 +506,7 @@
 * 媒体服务器 [https://github.com/MediaBrowser/Emby.Releases](https://github.com/MediaBrowser/Emby.Releases)
 * [https://github.com/jellyfin/jellyfin](https://github.com/jellyfin/jellyfin)
 * [https://github.com/movie-web/movie-web](https://github.com/movie-web/movie-web)
+* [https://github.com/blackcandy-org/blackcandy](https://github.com/blackcandy-org/blackcandy)
 * 证件照 [https://github.com/zhbhun/idify](https://github.com/zhbhun/idify)
 * [https://github.com/Zeyi-Lin/HivisionIDPhotos](https://github.com/Zeyi-Lin/HivisionIDPhotos)
 * 在线PS [https://github.com/viliusle/miniPaint](https://github.com/viliusle/miniPaint)

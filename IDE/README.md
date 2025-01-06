@@ -129,6 +129,7 @@
 - [https://github.com/SawyerHood/draw-a-ui](https://github.com/SawyerHood/draw-a-ui)
 - 前端远程调试 [https://github.com/HuolalaTech/page-spy-web](https://github.com/HuolalaTech/page-spy-web)
 - 项目答疑 [https://github.com/petercat-ai/petercat](https://github.com/petercat-ai/petercat)
+- 提示生成APP [https://github.com/sing1ee/deepseekCoder](https://github.com/sing1ee/deepseekCoder)
 
 
 + [技术|什么是 CI/CD？](https://linux.cn/article-9926-1.html)

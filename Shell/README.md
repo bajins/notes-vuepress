@@ -78,6 +78,7 @@
 - [https://github.com/ynqa/jnv](https://github.com/ynqa/jnv)
 - HTML [https://github.com/ericchiang/pup](https://github.com/ericchiang/pup)
 - [https://github.com/dvcoolarun/web2pdf](https://github.com/dvcoolarun/web2pdf)
+- [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
 - Find [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
 - 便捷运行 [https://github.com/casey/just](https://github.com/casey/just)
 - [https://github.com/google/zx](https://github.com/google/zx)
@@ -88,6 +89,7 @@
 - [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
 - [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
 - 查询nginx日志 [https://github.com/facundoolano/ngtop](https://github.com/facundoolano/ngtop)
+- 连接数据库 [https://github.com/PeepDB-dev/peepdb](https://github.com/PeepDB-dev/peepdb)
 
 
 **`terminal`、`shell`、`tty`、`console` 之间的区别**
@@ -285,6 +287,7 @@
     * [https://github.com/aoyiduo/woterm](https://github.com/aoyiduo/woterm)
 * [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 * [https://github.com/wavetermdev/waveterm](https://github.com/wavetermdev/waveterm)
+* [https://github.com/ghostty-org/ghostty](https://github.com/ghostty-org/ghostty)
 * [https://github.com/nxshell](https://github.com/nxshell)
     * [https://sourceforge.net/projects/nxshell](https://sourceforge.net/projects/nxshell)
 * [https://github.com/PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable)

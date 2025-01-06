@@ -235,6 +235,7 @@ firewall-cmd --query-panic
 * [http://www.dest-unreach.org/socat](http://www.dest-unreach.org/socat)
 * [https://github.com/vi/websocat](https://github.com/vi/websocat)
 * [https://github.com/pouriyajamshidi/tcping](https://github.com/pouriyajamshidi/tcping)
+* [https://github.com/hanshuaikang/Nping](https://github.com/hanshuaikang/Nping)
 
 > 在Linux中有一个更好的网络连通性判断工具，它可以结合ping | nslookup | tracert 来判断网络的相关特性，这个命令就是mtr。
 
