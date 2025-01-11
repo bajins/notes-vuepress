@@ -696,7 +696,7 @@
     - [https://wixtoolset.org](https://wixtoolset.org)
 - [https://www.ej-technologies.com/download/install4j/files](https://www.ej-technologies.com/download/install4j/files)
 - [https://www.ej-technologies.com/download/exe4j/files](https://www.ej-technologies.com/download/exe4j/files)
-
+- 查看和提取msi [https://github.com/activescott/lessmsi](https://github.com/activescott/lessmsi)
 
 
 ### AutoIt

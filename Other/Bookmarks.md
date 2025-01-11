@@ -145,6 +145,7 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 - 元素周期表 [https://github.com/baotlake/periodic-table-pro](https://github.com/baotlake/periodic-table-pro)
 - 白噪音 [https://ambiph.one](https://ambiph.one)
 - [https://soundbox.fun](https://soundbox.fun)
+- [https://www.ppbzy.com](https://www.ppbzy.com)
 - 视频编辑 [https://pikimov.com](https://pikimov.com)
 
 
