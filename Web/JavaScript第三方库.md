@@ -132,6 +132,7 @@
 * 动态背景图 [https://github.com/winterx/color4bg.js](https://github.com/winterx/color4bg.js)
 * 数学公式 [https://github.com/arnog/mathlive](https://github.com/arnog/mathlive)
 * 页面切换效果 [https://github.com/barbajs/barba](https://github.com/barbajs/barba)
+* 获取两个数组差异 [https://github.com/DoneDeal0/superdiff](https://github.com/DoneDeal0/superdiff)
 
 
 

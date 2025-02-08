@@ -79,6 +79,7 @@
 
 
 ```bash
+cargo tree --edges=features --package= --invert
 # MSVC
 cargo rustc --release -- -Clink-args="/SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup"
 # GCC 

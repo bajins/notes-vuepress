@@ -28,6 +28,7 @@
 * [https://github.com/libredirect](https://github.com/libredirect)
 * AI [https://github.com/debugtheworldbot/chromegemini](https://github.com/debugtheworldbot/chromegemini)
 * 自动化浏览器操作 [https://github.com/Skyvern-AI/Skyvern](https://github.com/Skyvern-AI/Skyvern)
+* 无头浏览器 [https://github.com/lightpanda-io/browser](https://github.com/lightpanda-io/browser)
 
 
 

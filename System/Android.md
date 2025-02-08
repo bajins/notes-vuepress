@@ -566,6 +566,7 @@
 * 语音识别键盘 [https://github.com/soupslurpr/Transcribro](https://github.com/soupslurpr/Transcribro)
 * 应用商店 [https://github.com/accrescent/accrescent](https://github.com/accrescent/accrescent)
 * 云盘 [https://github.com/honmaple/maple-file](https://github.com/honmaple/maple-file)
+* 输入法 [https://github.com/crazydan-studio/kuaizi-ime](https://github.com/crazydan-studio/kuaizi-ime)
 
 
 ### 证件照

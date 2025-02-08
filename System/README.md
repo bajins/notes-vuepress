@@ -520,6 +520,7 @@
 * 文字转图片 [https://github.com/byodian/oneimg](https://github.com/byodian/oneimg)
 * AI姿势 [https://github.com/AmyangXYZ/MiKaPo](https://github.com/AmyangXYZ/MiKaPo)
 * 图片加水印 [https://github.com/pdmaker/watermark-master](https://github.com/pdmaker/watermark-master)
+* [https://github.com/corbindavenport/photostack](https://github.com/corbindavenport/photostack)
 * 图片背景文字 [https://github.com/RexanWONG/text-behind-image](https://github.com/RexanWONG/text-behind-image)
 * 代码图 [https://github.com/Idered/chalk.ist](https://github.com/Idered/chalk.ist)
 * [https://github.com/abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)
@@ -536,6 +537,7 @@
 * 知识问答 [https://github.com/apache/incubator-answer](https://github.com/apache/incubator-answer)
 * 问卷调查 [https://github.com/didi/xiaoju-survey](https://github.com/didi/xiaoju-survey)
 * 白噪音 [https://github.com/geekyouth/moodist](https://github.com/geekyouth/moodist)
+* [https://github.com/daijinhai/StayFocused](https://github.com/daijinhai/StayFocused)
 * 动画生成代码 [https://animotion.dev](https://animotion.dev)
 * 财务 [https://github.com/maybe-finance/maybe](https://github.com/maybe-finance/maybe)
 * [https://github.com/actualbudget/actual](https://github.com/actualbudget/actual)
@@ -585,6 +587,9 @@
 * 麻将游戏 [https://github.com/liumengniu/majiang](https://github.com/liumengniu/majiang)
 * 加密工具 [https://github.com/dazhengs/tools](https://github.com/dazhengs/tools)
 * 天空轨道分析 [https://github.com/thkruz/keeptrack.space](https://github.com/thkruz/keeptrack.space)
+* 音频编辑 [https://github.com/RylanBot/melody-workshop](https://github.com/RylanBot/melody-workshop)
+* 比价 [https://github.com/dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io)
+* 个人资产分析 [https://github.com/nicejade/wealth-tracker](https://github.com/nicejade/wealth-tracker)
 
 
 
@@ -606,6 +611,7 @@
     * [在 Go 中构建协作文本编辑器](https://www.aadhav.me/posts/collaborative-editor)
 * [https://github.com/hudy9x/namviek](https://github.com/hudy9x/namviek)
 * [https://github.com/nusr/excel](https://github.com/nusr/excel)
+* 特性管理 [https://github.com/FeatureProbe/FeatureProbe](https://github.com/FeatureProbe/FeatureProbe)
 * 腾讯文档 [http://docs.qq.com](http://docs.qq.com)
 * [https://github.com/seatable](https://github.com/seatable)
 * [https://slack.com](https://slack.com)

@@ -301,6 +301,7 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 - [https://github.com/systemd/systemd](https://github.com/systemd/systemd)
     - [Systemd简介systemctl](https://www.jianshu.com/p/d8f79010dc04)
+    - [https://github.com/isd-project/isd](https://github.com/isd-project/isd)
 - [https://github.com/OpenRC/openrc](https://github.com/OpenRC/openrc)
 - [https://savannah.nongnu.org/projects/sysvinit](https://savannah.nongnu.org/projects/sysvinit)
 - [https://github.com/Yelp/dumb-init](https://github.com/Yelp/dumb-init)

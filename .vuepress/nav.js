@@ -12,6 +12,10 @@ module.exports = [{
                     link: 'https://tr.bajins.com'
                 },
                 {
+                    text: '朋友圈不折叠',
+                    link: 'https://tool.bajins.com/wnf'
+                },
+                {
                     text: 'GitHub反代',
                     link: 'https://g.bajins.eu.org'
                 },
