@@ -629,6 +629,7 @@ scp -P 22 -p root@192.168.214.187:/tmp/demo/f3.log /tmp/files/
 > 它的操作方式和scp和相似，但是比scp强大很多。使用双冒号分割主机名和文件路径时，是使用rsync服务器
 
 + [https://github.com/topics/rsync](https://github.com/topics/rsync)
++ [https://github.com/RsyncProject/rsync](https://github.com/RsyncProject/rsync)
 
 
 * [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)

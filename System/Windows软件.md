@@ -439,6 +439,7 @@
 
 
 
+* [https://github.com/zhimin-dev/iptv-checker](https://github.com/zhimin-dev/iptv-checker)
 * [https://github.com/lizongying/my-tv](https://github.com/lizongying/my-tv)
 * [https://github.com/Eanya-Tonic/CCTV_Viewer](https://github.com/Eanya-Tonic/CCTV_Viewer)
 * [https://github.com/llazyl/TVBox](https://github.com/llazyl/TVBox)
@@ -923,6 +924,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 * 文件搜索 [https://www.listary.com/pro](https://www.listary.com/pro)
 * [https://winfindr.com](https://winfindr.com)
+* [https://github.com/dnGrep/dnGrep](https://github.com/dnGrep/dnGrep)
 * Everything [https://www.voidtools.com](https://www.voidtools.com)
     * [https://github.com/stnkl/EverythingToolbar](https://github.com/stnkl/EverythingToolbar)
     * [https://github.com/Chaoses-Ib/IbEverythingExt](https://github.com/Chaoses-Ib/IbEverythingExt)

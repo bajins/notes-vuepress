@@ -113,6 +113,7 @@
 - [https://github.com/bravekingzhang/gpt-frontend-code-gen](https://github.com/bravekingzhang/gpt-frontend-code-gen)
 - [https://github.com/nutlope/llamacoder](https://github.com/nutlope/llamacoder)
 - [https://github.com/clinebot/cline](https://github.com/clinebot/cline)
+- [https://github.com/we0-dev/we0](https://github.com/we0-dev/we0)
 - 代码搜索 [https://github.com/sourcebot-dev/sourcebot](https://github.com/sourcebot-dev/sourcebot)
 - Git提交助手 [https://github.com/Undertone0809/gcop](https://github.com/Undertone0809/gcop)
 - 突出显示重要代码 [https://github.com/novoselrok/glance](https://github.com/novoselrok/glance)
@@ -328,6 +329,7 @@
 
 * [https://github.com/slashbaseide/slashbase](https://github.com/slashbaseide/slashbase)
 * [https://github.com/dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
+* [https://github.com/dbgate/dbgate](https://github.com/dbgate/dbgate)
     * [https://dbeaver.io](https://dbeaver.io)
     * [https://dbeaver.com/download/enterprise](https://dbeaver.com/download/enterprise)
     * [https://github.com/yuyan-sec/DBeaver-decrypter](https://github.com/yuyan-sec/DBeaver-decrypter)
@@ -344,6 +346,8 @@
     -Dlm.debug.mode=true
     ```
 * [https://github.com/bytebase/bytebase](https://github.com/bytebase/bytebase)
+* [https://github.com/chartbrew/chartbrew](https://github.com/chartbrew/chartbrew)
+* [https://github.com/lightdash/lightdash](https://github.com/lightdash/lightdash)
 * [https://www.jetbrains.com/zh-cn/datagrip](https://www.jetbrains.com/zh-cn/datagrip)
 * [https://www.navicat.com](https://www.navicat.com)
     * [https://github.com/search?q=navicat](https://github.com/search?q=navicat)
@@ -382,6 +386,7 @@
 * [https://github.com/xo/usql](https://github.com/xo/usql)
 
 
+- 构建数据库文档 [https://github.com/schemaspy/schemaspy](https://github.com/schemaspy/schemaspy)
 - 数据库转excel [https://github.com/nocodb/nocodb](https://github.com/nocodb/nocodb)
 
 
