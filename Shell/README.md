@@ -66,6 +66,7 @@
 - cat [https://github.com/swsnr/mdcat](https://github.com/swsnr/mdcat)
 - [https://github.com/busyloop/lolcat](https://github.com/busyloop/lolcat)
 - 文件管理 [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
+- 回收站 [https://github.com/umlx5h/gtrash](https://github.com/umlx5h/gtrash)
 - 类ls [https://github.com/yellow-footed-honeyguide/facad](https://github.com/yellow-footed-honeyguide/facad)
 - SCP [https://github.com/lengyijun/smartscp](https://github.com/lengyijun/smartscp)
 - CP [https://github.com/tarka/xcp](https://github.com/tarka/xcp)

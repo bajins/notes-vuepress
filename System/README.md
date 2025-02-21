@@ -9,7 +9,6 @@
     + [https://www.openbsd.org](https://www.openbsd.org)
 
 
-* [https://github.com/adolfintel/speedtest](https://github.com/adolfintel/speedtest)
 * Linux中国翻译组 [https://github.com/LCTT](https://github.com/LCTT)
 * DPDK工程师手册 [https://github.com/0voice/dpdk_engineer_manual](https://github.com/0voice/dpdk_engineer_manual)
 
@@ -114,6 +113,7 @@
     * [https://github.com/haiibo/OpenWrt](https://github.com/haiibo/OpenWrt)
     * [https://github.com/gdy666/lucky](https://github.com/gdy666/lucky)
     * [https://github.com/liudf0716/apfree-wifidog](https://github.com/liudf0716/apfree-wifidog)
+    * [https://github.com/sirpdboy/NetSpeedTest](https://github.com/sirpdboy/NetSpeedTest)
 * [https://github.com/open-power](https://github.com/open-power)
 * [https://github.com/coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
 * [https://github.com/Entware](https://github.com/Entware)
@@ -161,6 +161,7 @@
 * 管理 [https://github.com/puppetlabs/puppet](https://github.com/puppetlabs/puppet)
 * 设备连接 [https://github.com/netbirdio/netbird](https://github.com/netbirdio/netbird)
 * 服务器测评 [https://github.com/spiritLHLS/ecs](https://github.com/spiritLHLS/ecs)
+* [https://github.com/axboe/fio](https://github.com/axboe/fio)
 * 云平台 [https://github.com/ubicloud/ubicloud](https://github.com/ubicloud/ubicloud)
 * [https://github.com/basecamp/kamal](https://github.com/basecamp/kamal)
 * [https://github.com/capistrano/capistrano](https://github.com/capistrano/capistrano)
@@ -333,6 +334,7 @@
     * [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
     * [https://github.com/BotoX/ServerStatus](https://github.com/BotoX/ServerStatus)
 * [https://github.com/CokeMine/ServerStatus-Hotaru](https://github.com/CokeMine/ServerStatus-Hotaru)
+* [https://github.com/rajnandan1/kener](https://github.com/rajnandan1/kener)
 * [https://github.com/louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)
 * [https://github.com/lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare)
 * [https://github.com/OneUptime/oneuptime](https://github.com/OneUptime/oneuptime)
@@ -557,6 +559,7 @@
 * [https://github.com/huglemon/inwind-landing-page](https://github.com/huglemon/inwind-landing-page)
 * 表单生成 [https://github.com/heyform/heyform](https://github.com/heyform/heyform)
 * 网页元素拖拽 [https://github.com/atlassian/pragmatic-drag-and-drop](https://github.com/atlassian/pragmatic-drag-and-drop)
+* 调色板 [https://github.com/NeverCease/uchu](https://github.com/NeverCease/uchu)
 * 管理后台 [https://github.com/dashpresshq/dashpress](https://github.com/dashpresshq/dashpress)
 * 文件共享 [https://github.com/stonith404/pingvin-share](https://github.com/stonith404/pingvin-share)
 * [https://github.com/bitiful/send](https://github.com/bitiful/send)
@@ -593,6 +596,11 @@
 * 音频编辑 [https://github.com/RylanBot/melody-workshop](https://github.com/RylanBot/melody-workshop)
 * 比价 [https://github.com/dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io)
 * 个人资产分析 [https://github.com/nicejade/wealth-tracker](https://github.com/nicejade/wealth-tracker)
+* 测速 [https://github.com/librespeed/speedtest](https://github.com/librespeed/speedtest)
+* [https://github.com/openspeedtest](https://github.com/openspeedtest)
+* [https://github.com/iitggithub/iperf-web](https://github.com/iitggithub/iperf-web)
+* AI翻译 [https://github.com/ItusiAI/AI-Translation-Assistant-Pro](https://github.com/ItusiAI/AI-Translation-Assistant-Pro)
+
 
 
 

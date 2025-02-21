@@ -34,6 +34,7 @@
 + 开发工具包 [https://github.com/vision5/ngx_devel_kit](https://github.com/vision5/ngx_devel_kit)
 + [https://github.com/topics/nginx-configuration](https://github.com/topics/nginx-configuration)
 + [https://github.com/NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager)
++ 配置验证 [https://github.com/dvershinin/gixy](https://github.com/dvershinin/gixy)
 + 配置生成 [https://github.com/0xB4LINT/nginxconfig.io](https://github.com/0xB4LINT/nginxconfig.io)
 + 配置格式化 [https://github.com/vasilevich/nginxbeautifier](https://github.com/vasilevich/nginxbeautifier)
 + [https://github.com/slomkowski/nginx-config-formatter](https://github.com/1connect/nginx-config-formatter)
