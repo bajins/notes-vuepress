@@ -146,6 +146,7 @@
 - 系统日志管理 [https://github.com/hat-open/hat-syslog](https://github.com/hat-open/hat-syslog)
 - 安全防护 [https://github.com/fail2ban/fail2ban](https://github.com/fail2ban/fail2ban)
 - 文件管理 [https://github.com/MHNightCat/superfile](https://github.com/MHNightCat/superfile)
+- [https://www.digikam.org](https://www.digikam.org)
 
 
 
@@ -170,6 +171,7 @@
 
 
 * 图标 [https://github.com/PapirusDevelopmentTeam/papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+* [https://github.com/vinceliuice/WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme)
 * Linux桌面壁纸 [https://github.com/pgc062020/DailyDesktopWallpaperPlus](https://github.com/pgc062020/DailyDesktopWallpaperPlus)
 * 视频编辑器 [https://openhub.net/p/pitivi](https://openhub.net/p/pitivi)
 * 文件管理 [https://github.com/MidnightCommander/mc](https://github.com/MidnightCommander/mc)

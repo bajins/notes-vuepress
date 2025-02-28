@@ -460,6 +460,7 @@ check-revoke = false
 - 字符串搜索 [https://github.com/BurntSushi/memchr](https://github.com/BurntSushi/memchr)
 - 动态加载链库 [https://github.com/nagisa/rust_libloading](https://github.com/nagisa/rust_libloading)
 - [https://github.com/emoon/dynamic_reload](https://github.com/emoon/dynamic_reload)
+- [https://github.com/OpenByteDev/dll-syringe](https://github.com/OpenByteDev/dll-syringe)
 
 
 

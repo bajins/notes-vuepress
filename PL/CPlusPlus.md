@@ -115,6 +115,8 @@
 * [https://github.com/JoeyDeVries/LearnOpenGL](https://github.com/JoeyDeVries/LearnOpenGL)
 * [https://github.com/TheCherno/Hazel](https://github.com/TheCherno/Hazel)
 * 图像元数据 [https://github.com/Exiv2/exiv2](https://github.com/Exiv2/exiv2)
+* [https://github.com/LibRaw](https://github.com/LibRaw)
+* [https://github.com/lensfun/lensfun](https://github.com/lensfun/lensfun)
 * [https://github.com/bulletphysics/bullet3](https://github.com/bulletphysics/bullet3)
 * [https://github.com/ros-perception/image_pipeline](https://github.com/ros-perception/image_pipeline)
 * PNG [https://github.com/lvandeve/lodepng](https://github.com/lvandeve/lodepng)

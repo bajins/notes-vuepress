@@ -507,6 +507,7 @@
 - 即插即用 [https://github.com/ohmae/mmupnp](https://github.com/ohmae/mmupnp)
 - 测试 [https://github.com/tschuchortdev/kotlin-compile-testing](https://github.com/tschuchortdev/kotlin-compile-testing)
 - 命令行 [https://github.com/ajalt/clikt](https://github.com/ajalt/clikt)
+- 跨平台媒体库 [https://github.com/vinceglb/FileKit](https://github.com/vinceglb/FileKit)
 
 
 * [了解Kotlin协程实现原理这篇就够了](https://ethanhua.github.io/2018/12/24/kotlin_coroutines)
@@ -537,6 +538,7 @@
 - 表格 [https://github.com/gristlabs/grist-core](https://github.com/gristlabs/grist-core)
 - [https://github.com/rxliuli/liuli-tools](https://github.com/rxliuli/liuli-tools)
 - [https://github.com/dsherret/dts-minify](https://github.com/dsherret/dts-minify)
+- 可视化图表 [https://github.com/VisActor](https://github.com/VisActor)
 - WebSockets [https://github.com/soketi](https://github.com/soketi)
 - DOM [https://github.com/snabbdom/snabbdom](https://github.com/snabbdom/snabbdom)
 - 模拟数据 [https://github.com/mockoon/mockoon](https://github.com/mockoon/mockoon)

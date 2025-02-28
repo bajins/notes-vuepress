@@ -83,10 +83,12 @@
 - [https://github.com/tuchg/ChinesePinyin-CodeCompletionHelper](https://github.com/tuchg/ChinesePinyin-CodeCompletionHelper)
 - [https://github.com/a18792721831/studyplugin](https://github.com/a18792721831/studyplugin)
 - [https://github.com/AntonShuvaev/intellij-datagraph](https://github.com/AntonShuvaev/intellij-datagraph)
+- [https://github.com/YiiGuxing/TranslationPlugin](https://github.com/YiiGuxing/TranslationPlugin)
 - 测试 [https://github.com/dromara/fast-request](https://github.com/dromara/fast-request)
 - 缩略图 [https://github.com/Nasller/CodeGlancePro](https://github.com/Nasller/CodeGlancePro)
 - 调试辅助 [https://github.com/igoriakovlev/JumpToLine](https://github.com/igoriakovlev/JumpToLine)
 - 序列图 [https://github.com/Vanco/SequencePlugin](https://github.com/Vanco/SequencePlugin)
+- 快捷键助手 [https://github.com/halirutan/IntelliJ-Key-Promoter-X](https://github.com/halirutan/IntelliJ-Key-Promoter-X)
 
 
 ## Free Mybatis plugin

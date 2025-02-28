@@ -15,6 +15,7 @@
 - [https://www.solvusoft.com/zh-cn/file-extensions](https://www.solvusoft.com/zh-cn/file-extensions)
 - [https://www.fileviewpro.com/zh-cn](https://www.fileviewpro.com/zh-cn)
 - [https://alternativeto.net](https://alternativeto.net)
+- [https://github.com/aaronparker/evergreen](https://github.com/aaronparker/evergreen)
 
 
 **博客**
@@ -691,6 +692,7 @@
     * [https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation)
     * [https://sourceforge.net/projects/istool](https://sourceforge.net/projects/istool)
     * [https://github.com/dscharrer/innoextract](https://github.com/dscharrer/innoextract)
+    * [https://github.com/jrsoftware/issrc](https://github.com/jrsoftware/issrc)
 * [https://learn.microsoft.com/zh-cn/windows/win32/msi/standard-installer-command-line-options](https://learn.microsoft.com/zh-cn/windows/win32/msi/standard-installer-command-line-options)
 
 
@@ -1211,6 +1213,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * 翻译 [https://github.com/pot-app/pot-desktop](https://github.com/pot-app/pot-desktop)
 * 背单词 [https://github.com/Uahh/ToastFish](https://github.com/Uahh/ToastFish)
 * 共享键鼠和剪贴板给安卓 [https://github.com/BHznJNs/InputShare](https://github.com/BHznJNs/InputShare)
+* CAD [https://github.com/leozide/leocad](https://github.com/leozide/leocad)
 
 
 + [http://www.downloadsoftware.ir](http://www.downloadsoftware.ir)

@@ -140,6 +140,7 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 * [https://github.com/facebook/infer](https://github.com/facebook/infer)
 * [https://github.com/uber/NullAway](https://github.com/uber/NullAway)
 * [https://github.com/openrewrite](https://github.com/openrewrite)
+* [https://github.com/codefuse-ai/CodeFuse-Query](https://github.com/codefuse-ai/CodeFuse-Query)
 
 
 

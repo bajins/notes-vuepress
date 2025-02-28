@@ -141,6 +141,8 @@
 - [https://github.com/mit-pdos](https://github.com/mit-pdos)
 - 华硕路由器固件 [https://github.com/RMerl/asuswrt-merlin.ng](https://github.com/RMerl/asuswrt-merlin.ng)
     - [https://sourceforge.net/projects/asuswrt-merlin](https://sourceforge.net/projects/asuswrt-merlin)
+- 摄像头监控 [https://github.com/ZoneMinder/zoneminder](https://github.com/ZoneMinder/zoneminder)
+- NAS [https://github.com/truenas](https://github.com/truenas)
 
 
 
@@ -170,7 +172,6 @@
 * [https://github.com/J-Lentz/iwgtk](https://github.com/J-Lentz/iwgtk)
 * [https://gitlab.freedesktop.org/NetworkManager/NetworkManager](https://gitlab.freedesktop.org/NetworkManager/NetworkManager)
 * 速度测试 [https://github.com/gnmyt/myspeed](https://github.com/gnmyt/myspeed)
-* 防火墙 [https://github.com/opnsense](https://github.com/opnsense)
 * 增量快照 [https://github.com/linuxmint/timeshift](https://github.com/linuxmint/timeshift)
 
 
@@ -300,9 +301,12 @@
     * [Keepalived Nginx双网络(内外网)故障非同步漂移双主模式](https://b.sundayle.com/keepalived-nginx-dual-network)
     * [通过keepalived来实现高可用服务](https://juejin.cn/post/6971589043352305678)
     * [虚拟IP技术 ip地址漂移技术](https://www.cnblogs.com/myseries/p/11409895.html)
+* [https://github.com/hardfalcon/ucarp](https://github.com/hardfalcon/ucarp)
 * 高可用集群 [https://github.com/ClusterLabs](https://github.com/ClusterLabs)
     * [https://github.com/corosync](https://github.com/corosync)
 * Heartbeat [http://www.linux-ha.org](http://www.linux-ha.org)
+* [https://gitlab.com/fredbcode/Vrrpd](https://gitlab.com/fredbcode/Vrrpd)
+    * ~~[https://github.com/fredbcode/Vrrpd](https://github.com/fredbcode/Vrrpd)~~
 * LVS [http://www.linuxvirtualserver.org](http://www.linuxvirtualserver.org)
     * [Linux Virtual Server](https://www.zhihu.com/topic/19607051/newest)
     * [LVS nat模式和DR模式简介](https://blog.51cto.com/u_11566825/2130705)
@@ -389,6 +393,7 @@
 - 视图监视器 [https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet](https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet)
 - [https://github.com/aristocratos](https://github.com/aristocratos)
 - [https://github.com/magiclen/m-prober](https://github.com/magiclen/m-prober)
+- [https://github.com/goksan/Statusnook](https://github.com/goksan/Statusnook)
 - 网站防护 [https://github.com/chaitin/SafeLine](https://github.com/chaitin/SafeLine)
 - 堡垒机 [https://github.com/jimmy201602/webterminal](https://github.com/jimmy201602/webterminal)
 - [https://github.com/bigbully/Dapper-translation](https://github.com/bigbully/Dapper-translation)
@@ -479,6 +484,9 @@
 - [https://github.com/libguestfs](https://github.com/libguestfs)
 - [https://github.com/proxmoxer](https://github.com/proxmoxer)
     - [https://www.proxmox.com](https://www.proxmox.com)
+    - [https://github.com/community-scripts/ProxmoxVE](https://github.com/community-scripts/ProxmoxVE)
+    - [https://github.com/luchina-gabriel/OSX-PROXMOX](https://github.com/luchina-gabriel/OSX-PROXMOX)
+    - [https://github.com/Telmate/terraform-provider-proxmox](https://github.com/Telmate/terraform-provider-proxmox)
 - [https://github.com/oVirt](https://github.com/oVirt)
     - [https://github.com/cnovirt](https://github.com/cnovirt)
 - 虚拟机 [https://docs.microsoft.com/zh-cn/virtualization](https://docs.microsoft.com/zh-cn/virtualization)
@@ -511,6 +519,9 @@
 * [https://github.com/jellyfin/jellyfin](https://github.com/jellyfin/jellyfin)
 * [https://github.com/movie-web/movie-web](https://github.com/movie-web/movie-web)
 * [https://github.com/blackcandy-org/blackcandy](https://github.com/blackcandy-org/blackcandy)
+* [https://github.com/paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
+* 有声读物和播客 [https://github.com/advplyr/audiobookshelf](https://github.com/advplyr/audiobookshelf)
+* [https://github.com/janeczku/calibre-web](https://github.com/janeczku/calibre-web)
 * 证件照 [https://github.com/zhbhun/idify](https://github.com/zhbhun/idify)
 * [https://github.com/Zeyi-Lin/HivisionIDPhotos](https://github.com/Zeyi-Lin/HivisionIDPhotos)
 * 在线PS [https://github.com/viliusle/miniPaint](https://github.com/viliusle/miniPaint)
@@ -520,6 +531,7 @@
 * [https://github.com/palxiao/poster-design](https://github.com/palxiao/poster-design)
 * [https://github.com/GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite)
 * [https://github.com/GimelStudio](https://github.com/GimelStudio)
+* SVG预览 [https://github.com/liujuntao123/new-svg-viewer](https://github.com/liujuntao123/new-svg-viewer)
 * PPT象限编辑器 [https://github.com/KwokKwok/slide-lab](https://github.com/KwokKwok/slide-lab)
 * 文字转图片 [https://github.com/byodian/oneimg](https://github.com/byodian/oneimg)
 * AI姿势 [https://github.com/AmyangXYZ/MiKaPo](https://github.com/AmyangXYZ/MiKaPo)
@@ -532,12 +544,14 @@
 * 封面图 [https://github.com/zobor/photo-relay](https://github.com/zobor/photo-relay)
 * [https://github.com/struy-cn/Y-TOC](https://github.com/struy-cn/Y-TOC)
 * [https://github.com/slince-zero/IMaker](https://github.com/slince-zero/IMaker)
+* 链接图 [https://github.com/wind-liang/link-to-image](https://github.com/wind-liang/link-to-image)
 * 游戏 [https://github.com/arianrhodsandlot/nostalgist](https://github.com/arianrhodsandlot/nostalgist)
 * [https://github.com/arianrhodsandlot/retro-assembly](https://github.com/arianrhodsandlot/retro-assembly)
 * [https://github.com/retrobrews](https://github.com/retrobrews)
 * [https://github.com/LizardByte/Sunshine](https://github.com/LizardByte/Sunshine)
 * 中国历史 [https://github.com/liujuntao123/chines-history-video](https://github.com/liujuntao123/chines-history-video)
 * 日历 [https://github.com/xyxc0673/calendar-remark](https://github.com/xyxc0673/calendar-remark)
+* [https://github.com/glanceapp/glance](https://github.com/glanceapp/glance)
 * 知识问答 [https://github.com/apache/incubator-answer](https://github.com/apache/incubator-answer)
 * 问卷调查 [https://github.com/didi/xiaoju-survey](https://github.com/didi/xiaoju-survey)
 * 白噪音 [https://github.com/geekyouth/moodist](https://github.com/geekyouth/moodist)
@@ -546,6 +560,7 @@
 * 财务 [https://github.com/maybe-finance/maybe](https://github.com/maybe-finance/maybe)
 * [https://github.com/actualbudget/actual](https://github.com/actualbudget/actual)
 * [https://github.com/getlago/lago](https://github.com/getlago/lago)
+* [https://github.com/tradingview/lightweight-charts](https://github.com/tradingview/lightweight-charts)
 * 云电脑 [https://github.com/HeyPuter/puter](https://github.com/HeyPuter/puter)
 * JSON可视化 [https://github.com/AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com)
 * [https://github.com/apvarun/graphize](https://github.com/apvarun/graphize)
@@ -600,6 +615,7 @@
 * [https://github.com/openspeedtest](https://github.com/openspeedtest)
 * [https://github.com/iitggithub/iperf-web](https://github.com/iitggithub/iperf-web)
 * AI翻译 [https://github.com/ItusiAI/AI-Translation-Assistant-Pro](https://github.com/ItusiAI/AI-Translation-Assistant-Pro)
+* 关键词搜索 [https://github.com/serping/serp-checker](https://github.com/serping/serp-checker)
 
 
 

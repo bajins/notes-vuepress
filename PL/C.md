@@ -149,7 +149,6 @@
 * [https://gitlab.com/libtiff](https://gitlab.com/libtiff)
     * [http://www.libtiff.org](http://www.libtiff.org)
 * [https://sourceforge.net/projects/gnuwin32](https://sourceforge.net/projects/gnuwin32)
-* [https://github.com/LibRaw](https://github.com/LibRaw)
 * [https://github.com/libvips/libvips](https://github.com/libvips/libvips)
 * [https://github.com/jcupitt/vipsdisp](https://github.com/jcupitt/vipsdisp)
 * [https://github.com/tjko/jpegoptim](https://github.com/tjko/jpegoptim)
@@ -243,6 +242,7 @@
 * 正则表达式 [https://github.com/PCRE2Project/pcre2](https://github.com/PCRE2Project/pcre2)
 * 消息总线 [https://github.com/bus1/dbus-broker](https://github.com/bus1/dbus-broker)
     * [https://uyha.github.io/technical/dbus-systemd.html](https://uyha.github.io/technical/dbus-systemd.html)
+* 动态加载链库 [https://github.com/fancycode/MemoryModule](https://github.com/fancycode/MemoryModule)
 
 
 
@@ -261,6 +261,7 @@
     * [https://ffmpeg.org](https://ffmpeg.org)
     * [https://ffmpeg.guide](https://ffmpeg.guide)
     * [https://github.com/jeanslack/Videomass](https://github.com/jeanslack/Videomass)
+    * [https://github.com/wang-bin](https://github.com/wang-bin)
 * [https://github.com/BtbN/FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds)
 * [https://github.com/ShiftMediaProject/FFmpeg](https://github.com/ShiftMediaProject/FFmpeg)
 * [https://github.com/ashellunts/ffmpeg-to-webrtc](https://github.com/ashellunts/ffmpeg-to-webrtc)

@@ -66,12 +66,14 @@
 * [https://ifttt.com/maker_webhooks](https://ifttt.com/maker_webhooks)
 * [https://www.pushplus.plus](https://www.pushplus.plus)
 * [https://pushplus.hxtrip.com](https://pushplus.hxtrip.com)
+* [https://healthchecks.io](https://healthchecks.io)
 * [https://github.com/wxpusher](https://github.com/wxpusher)
 * [https://github.com/MiPushFramework/MiPushFramework](https://github.com/MiPushFramework/MiPushFramework)
 * [https://github.com/chinuno-usami/server_tan](https://github.com/chinuno-usami/server_tan)
 * [https://github.com/OneSignal](https://github.com/OneSignal)
 * [https://github.com/novuhq/novu](https://github.com/novuhq/novu)
 * [https://github.com/binwiederhier/ntfy](https://github.com/binwiederhier/ntfy)
+* [https://github.com/beilunyang/moepush](https://github.com/beilunyang/moepush)
 
 
 - [https://github.com/guanguans/notify](https://github.com/guanguans/notify)
@@ -342,6 +344,7 @@
 * [https://www.emailnator.com](https://www.emailnator.com)
 * [https://m.kuku.lu](https://m.kuku.lu)
 * [https://tempmail100.com](https://tempmail100.com)
+* [https://minmail.app](https://minmail.app)
 
 
 
