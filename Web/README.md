@@ -32,6 +32,8 @@
 + [https://github.com/JSCIG](https://github.com/JSCIG)
 + [https://github.com/es-shims](https://github.com/es-shims)
     + [https://github.com/paulmillr/es6-shim](https://github.com/paulmillr/es6-shim)
++ [https://github.com/extensibleweb](https://github.com/extensibleweb)
+    + [https://extensiblewebmanifesto.org](https://extensiblewebmanifesto.org)
 + Promises/A+规范 [https://github.com/promises-aplus](https://github.com/promises-aplus)
     + [https://github.com/domenic/promises-unwrapping](https://github.com/domenic/promises-unwrapping)
     + [https://github.com/liubin/promises-book](https://github.com/liubin/promises-book)
@@ -109,6 +111,7 @@
     - [https://github.com/hydroprotocol/ethereum-jsonrpc-gateway](https://github.com/hydroprotocol/ethereum-jsonrpc-gateway)
 - Polygon [https://github.com/maticnetwork](https://github.com/maticnetwork)
 - 热加载 [https://github.com/livereload](https://github.com/livereload)
+- UI测试 [https://github.com/mobile-dev-inc/Maestro](https://github.com/mobile-dev-inc/Maestro)
 
 
 

@@ -229,6 +229,7 @@ var express = require('express');
 
 > Micro-frontends
 
+* [https://github.com/module-federation/core](https://github.com/module-federation/core)
 * [https://github.com/smapiot/piral](https://github.com/smapiot/piral)
 * [https://github.com/single-spa](https://github.com/single-spa)
 * [https://github.com/teambit/bit](https://github.com/teambit/bit)

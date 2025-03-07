@@ -279,6 +279,7 @@
 * [https://github.com/nrwl](https://github.com/nrwl)
 * [https://github.com/TraceMachina/nativelink](https://github.com/TraceMachina/nativelink)
 * [https://github.com/facebook/buck2](https://github.com/facebook/buck2)
+* [https://github.com/temporalio/temporal](https://github.com/temporalio/temporal)
 * 部署工具 [https://github.com/mina-deploy/mina](https://github.com/mina-deploy/mina)
 * [https://github.com/capistrano/capistrano](https://github.com/capistrano/capistrano)
 * [https://github.com/piku/piku](https://github.com/piku/piku)

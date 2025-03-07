@@ -171,6 +171,7 @@ chrome://flags/#enable-parallel-downloading
 * [https://github.com/ChromeDevTools](https://github.com/ChromeDevTools)
 * [https://github.com/ChromeDevTools/awesome-chrome-devtools](https://github.com/ChromeDevTools/awesome-chrome-devtools)
 * [https://github.com/RemoteDebug](https://github.com/RemoteDebug)
+* [https://github.com/HuolalaTech/page-spy-web](https://github.com/HuolalaTech/page-spy-web)
 * [https://github.com/html5rocks/www.html5rocks.com](https://github.com/html5rocks/www.html5rocks.com)
 * [https://github.com/GoogleChrome/devtools-docs](https://github.com/GoogleChrome/devtools-docs)
     * [https://developer.chrome.com/devtools/index](https://developer.chrome.com/devtools/index)

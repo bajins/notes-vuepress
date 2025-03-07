@@ -502,6 +502,7 @@
 **文档**
 
 * [https://github.com/springfox/springfox](https://github.com/springfox/springfox)
+* [https://github.com/springwolf/springwolf-core](https://github.com/springwolf/springwolf-core)
 * [https://github.com/topics/swagger-ui](https://github.com/topics/swagger-ui)
     * [https://github.com/swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui)
     * [https://github.com/SpringForAll/spring-boot-starter-swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)
@@ -611,10 +612,15 @@
 + [https://github.com/camunda](https://github.com/camunda)
 + [https://github.com/flowable](https://github.com/flowable)
     + [https://github.com/KonBAI-Q/RuoYi-Flowable-Plus](https://github.com/KonBAI-Q/RuoYi-Flowable-Plus)
++ [https://github.com/NitorCreations/nflow](https://github.com/NitorCreations/nflow)
++ [https://github.com/imixs/imixs-workflow](https://github.com/imixs/imixs-workflow)
++ [https://github.com/bonitasoft/bonita-engine](https://github.com/bonitasoft/bonita-engine)
 + [https://github.com/espertechinc/esper](https://github.com/espertechinc/esper)
 + [https://github.com/snakerflow](https://github.com/snakerflow)
     + [https://github.com/snakerflow-starter](https://github.com/snakerflow-starter)
 + [https://github.com/ailohq/osworkflow](https://github.com/ailohq/osworkflow)
++ [https://gitee.com/opencc/JFlow](https://gitee.com/opencc/JFlow)
++ [https://gitlab.com/erasmusmc-public-health/parallelstateless4j](https://gitlab.com/erasmusmc-public-health/parallelstateless4j)
 + 云原生框架 [https://github.com/quarkusio/quarkus](https://github.com/quarkusio/quarkus)
     + [https://github.com/quarkiverse](https://github.com/quarkiverse)
 + [https://github.com/piranhacloud](https://github.com/piranhacloud)
