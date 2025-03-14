@@ -95,8 +95,6 @@
 
 * [https://developer.aliyun.com/mirror](https://developer.aliyun.com/mirror)
     * [https://mirrors.aliyun.com](https://mirrors.aliyun.com)
-* [https://github.com/cnpm](https://github.com/cnpm)
-    * [https://npmmirror.com](https://npmmirror.com)
 * [https://mirrors.cloud.tencent.com](https://mirrors.cloud.tencent.com)
 * [https://mirrors.huaweicloud.com](https://mirrors.huaweicloud.com)
 * [https://github.com/kaiyuanshe](https://github.com/kaiyuanshe)

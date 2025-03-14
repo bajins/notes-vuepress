@@ -233,6 +233,7 @@ firewall-cmd --query-panic
 - [https://cloud.magiclen.org/cn/myip](https://cloud.magiclen.org/cn/myip)
 - [https://dns.fish](https://dns.fish)
 - [https://ipquery.io](https://ipquery.io)
+- [https://ip.aolifu.org](https://ip.aolifu.org)
 - 可用性检查 [https://github.com/funilrys/PyFunceble](https://github.com/funilrys/PyFunceble)
 - [https://github.com/hatoo/oha](https://github.com/hatoo/oha)
 

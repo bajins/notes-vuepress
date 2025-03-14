@@ -132,6 +132,7 @@
 - 前端远程调试 [https://github.com/HuolalaTech/page-spy-web](https://github.com/HuolalaTech/page-spy-web)
 - 项目答疑 [https://github.com/petercat-ai/petercat](https://github.com/petercat-ai/petercat)
 - 提示生成APP [https://github.com/sing1ee/deepseekCoder](https://github.com/sing1ee/deepseekCoder)
+- 代码审查 [https://github.com/mimo-x/Code-Review-GPT-Gitlab](https://github.com/mimo-x/Code-Review-GPT-Gitlab)
 
 
 + [技术|什么是 CI/CD？](https://linux.cn/article-9926-1.html)
@@ -290,6 +291,7 @@
 + [https://github.com/Inflectra](https://github.com/Inflectra)
 + [https://github.com/assertible](https://github.com/assertible)
 + [https://github.com/grafana/k6](https://github.com/grafana/k6)
++ 命令行 [https://github.com/darrenburns/posting](https://github.com/darrenburns/posting)
 + vREST [https://github.com/Optimizory](https://github.com/Optimizory)
 + LoadRunner [https://www.microfocus.com/zh-cn/products#all-L](https://www.microfocus.com/zh-cn/products#all-L)
     + [https://liushilive.github.io/github_exercise_performance_testing](https://liushilive.github.io/github_exercise_performance_testing)

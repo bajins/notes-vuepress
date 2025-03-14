@@ -235,7 +235,12 @@ npm uninstall -g yarn
 
 - `npm i -g nrm` 安装`nrm`，`nrm ls` 查看下载镜像源，`nrm use taobao` 切换镜像源
 
+
 **[更多镜像源](/Other/#通用镜像)**
+
+
+* [https://github.com/cnpm](https://github.com/cnpm)
+    * [https://npmmirror.com](https://npmmirror.com)
 
 
 **手动配置**
@@ -251,6 +256,20 @@ npm config set registry https://registry.npmjs.org
 
 # 设置淘宝镜像仓库地址
 npm config set registry https://registry.npmmirror.com
+# 阿里云镜像
+npm config set registry https://npm.aliyun.com/
+# 腾讯云镜像
+npm config set registry https://mirrors.cloud.tencent.com/npm/
+# 华为云镜像
+npm config set registry https://mirrors.huaweicloud.com/repository/npm/
+# 网易镜像
+npm config set registry https://mirrors.163.com/npm/
+# 中国科学技术大学开源镜像站
+npm config set registry https://mirrors.ustc.edu.cn/npm/
+# 清华大学开源镜像站
+npm config set registry https://mirrors.tuna.tsinghua.edu.cn/npm/
+
+
 
 # 查看代理地址
 npm config get proxy

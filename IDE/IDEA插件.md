@@ -89,6 +89,8 @@
 - 调试辅助 [https://github.com/igoriakovlev/JumpToLine](https://github.com/igoriakovlev/JumpToLine)
 - 序列图 [https://github.com/Vanco/SequencePlugin](https://github.com/Vanco/SequencePlugin)
 - 快捷键助手 [https://github.com/halirutan/IntelliJ-Key-Promoter-X](https://github.com/halirutan/IntelliJ-Key-Promoter-X)
+- Compose颜色预览 [https://github.com/zTrap/compose-color-preview-plugin](https://github.com/zTrap/compose-color-preview-plugin)
+- 接口文档生成 [https://github.com/liuzhihang/doc-view](https://github.com/liuzhihang/doc-view)
 
 
 ## Free Mybatis plugin
@@ -364,6 +366,7 @@
 * ~~[https://github.com/andrepdo/findbugs-idea](https://github.com/andrepdo/findbugs-idea)~~
     * [https://andrepdo.github.io/findbugs-idea](https://andrepdo.github.io/findbugs-idea)
 * [https://github.com/XenoAmess/p3c](https://github.com/XenoAmess/p3c)
+* [https://github.com/godfather1103/p3c](https://github.com/godfather1103/p3c)
 
 > 检测代码中可能的bug及不规范的位置，检测的模式相比p3c更多，写完代码后检测下 避免低级bug，强烈建议用一下，一不小心就发现很多老代码的bug
 

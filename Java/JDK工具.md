@@ -114,12 +114,14 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 * GC 日志分析器 [https://gceasy.io](https://gceasy.io)
 * [https://github.com/microsoft/gctoolkit](https://github.com/microsoft/gctoolkit)
 * [https://github.com/chewiebug/GCViewer](https://github.com/chewiebug/GCViewer)
+* [https://www.threadanalyzer.online](https://www.threadanalyzer.online)
 * java程序跟踪工具 [https://github.com/btraceio/btrace](https://github.com/btraceio/btrace)
 * 监视和性能分析 [https://github.com/aragozin/jvm-tools](https://github.com/aragozin/jvm-tools)
 * [https://github.com/ajermakovics/jvm-mon](https://github.com/ajermakovics/jvm-mon)
 * [https://github.com/saleson/fm-dynamic-compiler](https://github.com/saleson/fm-dynamic-compiler)
 * [https://github.com/gperftools/gperftools](https://github.com/gperftools/gperftools)
 * [https://www.yourkit.com/java/profiler](https://www.yourkit.com/java/profiler)
+* [https://github.com/async-profiler/async-profiler](https://github.com/async-profiler/async-profiler)
 * 内存分析 [https://projects.eclipse.org/projects/tools.mat](https://projects.eclipse.org/projects/tools.mat)
    * [https://github.com/vlsi/mat-calcite-plugin](https://github.com/vlsi/mat-calcite-plugin)
 * 监控统计 [https://github.com/worstcase/gumshoe](https://github.com/worstcase/gumshoe)
@@ -213,6 +215,7 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 * 混淆 [https://sourceforge.net/projects/javaguard](https://sourceforge.net/projects/javaguard)
 * [https://github.com/yWorks/yGuard](https://github.com/yWorks/yGuard)
 * [http://www.e-t.com/jshrink.html](http://www.e-t.com/jshrink.html)
+* 字节码插桩 [https://github.com/javactrl/javactrl](https://github.com/javactrl/javactrl)
 
 
 
