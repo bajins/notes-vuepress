@@ -49,6 +49,10 @@
 - 词典 [https://github.com/lengyijun/mdict-cli-rs](https://github.com/lengyijun/mdict-cli-rs)
 - HTTP [https://github.com/jpillora/chisel](https://github.com/jpillora/chisel)
 - [https://github.com/lavv17/lftp](https://github.com/lavv17/lftp)
+- [https://github.com/rkd77/elinks](https://github.com/rkd77/elinks)
+    - [https://github.com/ericsagnes/elinks](https://github.com/ericsagnes/elinks)
+- [https://lynx.browser.org](https://lynx.browser.org)
+    - [https://github.com/kurtchen/Lynx](https://github.com/kurtchen/Lynx)
 - 爬取网页 [https://github.com/philippta/flyscrape](https://github.com/philippta/flyscrape)
 - 历史记录 [https://github.com/ddworken/hishtory](https://github.com/ddworken/hishtory)
 - [https://github.com/YiNNx/cmd-wrapped](https://github.com/YiNNx/cmd-wrapped)
@@ -67,6 +71,8 @@
 - cat [https://github.com/swsnr/mdcat](https://github.com/swsnr/mdcat)
 - [https://github.com/busyloop/lolcat](https://github.com/busyloop/lolcat)
 - 文件管理 [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
+- [https://github.com/coreutils/coreutils](https://github.com/coreutils/coreutils)
+- [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - 回收站 [https://github.com/umlx5h/gtrash](https://github.com/umlx5h/gtrash)
 - 类ls [https://github.com/yellow-footed-honeyguide/facad](https://github.com/yellow-footed-honeyguide/facad)
 - SCP [https://github.com/lengyijun/smartscp](https://github.com/lengyijun/smartscp)
@@ -94,6 +100,7 @@
 - [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
 - 查询nginx日志 [https://github.com/facundoolano/ngtop](https://github.com/facundoolano/ngtop)
 - 连接数据库 [https://github.com/PeepDB-dev/peepdb](https://github.com/PeepDB-dev/peepdb)
+- 持续假输出 [https://github.com/giacomo-b/rust-stakeholder](https://github.com/giacomo-b/rust-stakeholder)
 
 
 **`terminal`、`shell`、`tty`、`console` 之间的区别**

@@ -231,6 +231,7 @@ volumes:
 - [https://github.com/maxiaof/github-hosts](https://github.com/maxiaof/github-hosts)
 - [https://github.com/Potterli20/hosts](https://github.com/Potterli20/hosts)
 - [https://codechina.csdn.net/mirrors](https://codechina.csdn.net/mirrors)
+- [https://fcp7.com/github-mirror-daily-updates.html](https://fcp7.com/github-mirror-daily-updates.html)
 
 
 **Raw 文件加速**

@@ -9,6 +9,7 @@
 + Linux手册 [https://learn-linux.readthedocs.io/zh_CN/latest](https://learn-linux.readthedocs.io/zh_CN/latest)
 + [https://github.com/tldr-pages/tldr](https://github.com/tldr-pages/tldr)
 + [http://www.linuxbaike.com](http://www.linuxbaike.com)
++ [https://github.com/huataihuang/cloud-atlas](https://github.com/huataihuang/cloud-atlas)
 + [Linux网络编程](https://network.fasionchan.com/zh_CN/latest/index.html)
 + [OSX操作指南](https://osx-guide.readthedocs.io/zh_CN/latest)
 + [https://github.com/guodongxiaren/LinuxTool](https://github.com/guodongxiaren/LinuxTool)
@@ -61,19 +62,18 @@
 * [https://github.com/Homebrew/brew](https://github.com/Homebrew/brew)
 * [https://github.com/AppImage](https://github.com/AppImage)
 * [https://github.com/flatpak/flatpak](https://github.com/flatpak/flatpak)
+    * [https://flatpak.org](https://flatpak.org)
+    * [https://flathub.org](https://flathub.org)
+    * [https://github.com/tchx84/Flatseal](https://github.com/tchx84/Flatseal)
 * [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
     * snap应用商店 [https://snapcraft.io](https://snapcraft.io)
     * [https://docs.snapcraft.io/core/install](https://docs.snapcraft.io/core/install)
     * [https://github.com/popey/unsnap](https://github.com/popey/unsnap)
+* [https://github.com/spack/spack](https://github.com/spack/spack)
 * 各个版本控件支持库 [https://pkgs.org](https://pkgs.org)
 * [https://github.com/makedeb](https://github.com/makedeb)
 * [https://mpr.hunterwittenborn.com](https://mpr.hunterwittenborn.com)
-* [https://www.flatpak.org](https://www.flatpak.org)
 * [https://store.steampowered.com](https://store.steampowered.com)
-* [https://flatpak.org](https://flatpak.org)
-    * [https://flathub.org](https://flathub.org)
-    * [https://github.com/tchx84/Flatseal](https://github.com/tchx84/Flatseal)
-* [https://github.com/openSUSE](https://github.com/openSUSE)
 * [https://github.com/calamares](https://github.com/calamares)
 * 打包 [https://gitlab.com/engmark/nix-start](https://gitlab.com/engmark/nix-start)
 
@@ -180,6 +180,12 @@
 
 ## 重装系统
 
+
+* 重装系统 [https://github.com/netbootxyz/netboot.xyz](https://github.com/netbootxyz/netboot.xyz)
+* [https://github.com/bin456789/reinstall](https://github.com/bin456789/reinstall)
+
+
+
 ### MeowLove
 
 * [https://github.com/MeowLove/Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify)
@@ -189,61 +195,13 @@ yum update
 yum install -y xz openssl gawk file
 # 下载脚本
 wget --no-check-certificate 'https://raw.githubusercontent.com/MeowLove/Network-Reinstall-System-Modify/master/Network-Reinstall-System-Modify.sh'
+wget --no-check-certificate -qO Network-Reinstall-System-Modify.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh' 
 # 给脚本授权
 chmod a+x Network-Reinstall-System-Modify.sh
-# 一键网络重装纯净CentOS 7
-bash Network-Reinstall-System-Modify.sh -CentOS_7
-# 一键网络重装纯净Windows Server 2019
-bash Network-Reinstall-System-Modify.sh -Windows_Server_2019
+# 一键网络重装纯净：CentOS、Debian、Ubuntu
+bash Network-Reinstall-System-Modify.sh -发行版_版本号
 ```
 
-- 下载SHELL脚本（通过root用户运行）
-
-```bash
-wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh' 
-
-chmod a+x ~/Network-Reinstall-System-Modify.sh
-```
-
-- 安装Linux系统
-
-```bash
-# ①. 一键网络重装纯净CentOS 7（推荐）
-bash ~/Network-Reinstall-System-Modify.sh -CentOS_7
-# ②. 一键网络重装纯净CentOS 6
-bash ~/Network-Reinstall-System-Modify.sh -CentOS_6
-# ③. 一键网络重装纯净Debian 10（推荐）
-bash ~/Network-Reinstall-System-Modify.sh -Debian_10
-# ④. 一键网络重装纯净Debian 9
-bash ~/Network-Reinstall-System-Modify.sh -Debian_9
-# ⑤. 一键网络重装纯净Debian 8
-bash ~/Network-Reinstall-System-Modify.sh -Debian_8
-# ⑥. 一键网络重装纯净Ubuntu 18.04（推荐）
-bash ~/Network-Reinstall-System-Modify.sh -Ubuntu_18.04
-# ⑦. 一键网络重装纯净Ubuntu 16.04
-bash ~/Network-Reinstall-System-Modify.sh -Ubuntu_16.04
-# ⑧. 一键网络重装纯净Ubuntu 14.04
-bash ~/Network-Reinstall-System-Modify.sh -Ubuntu_14.04
-```
-
-- 安装Windows系统
-
-> 警告：你需要购买来自Microsoft或其合作伙伴正版系统授权并激活系统使用。继续安装即代表您知悉并已经购买正版授权。
-
-```bash
-# ①. 一键网络重装纯净Windows Server 2019（推荐）
-bash ~/Network-Reinstall-System-Modify.sh -Windows_Server_2019
-# ②. 一键网络重装纯净Windows Server 2016
-bash ~/Network-Reinstall-System-Modify.sh -Windows_Server_2016
-# ③. 一键网络重装纯净Windows Server 2012 R2
-bash ~/Network-Reinstall-System-Modify.sh -Windows_Server_2012R2
-# ④. 一键网络重装纯净Windows Server 2008 R2
-bash ~/Network-Reinstall-System-Modify.sh -Windows_Server_2008R2
-# ⑤. 一键网络重装纯净Windows 7 Vienna
-bash ~/Network-Reinstall-System-Modify.sh -Windows_7_Vienna
-# ⑥. 一键网络重装纯净Windows Server 2003
-bash ~/Network-Reinstall-System-Modify.sh -Windows_Server_2003
-```
 
 - 安装裸机系统部署平台
 
@@ -266,9 +224,11 @@ bash ~/Network-Reinstall-System-Modify.sh -DD "%URL%"
 bash <(wget --no-check-certificate -qO- 'https://zhujiwiki.com/wp-content/uploads/2018/04/InstallNET.sh') -dd 'https://hao.zhujiwiki.com/dd/CentOS_7.X_NetInstallation.vhd.gz'
 ```
 
-### moeclub
 
-* [https://moeclub.org/2018/04/03/603/](https://moeclub.org/2018/04/03/603)
+
+### MoeClub
+
+* [https://github.com/MoeClub/Note](https://github.com/MoeClub/Note)
 
 > 适用于由GRUB引导的CentOS,Ubuntu,Debian系统
 

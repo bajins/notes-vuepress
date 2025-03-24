@@ -230,13 +230,13 @@ func StringBuilder(p []string) string {
 > 如果在`panic`函数之前存在`defer`函数，则执行`defer`函数，这里的`defer`有点类似`try…catch…finally`中的`finally`，
 >> 如果`defer`函数内不包含`recover`会直到`goroutine`整个退出，并报告错误
 >>
->> 相反则会捕获这个`panic`类似于`try…catch…finally`中的`catch`
+>> 相反则会捕获这个`panic`类似于其他语言中`try…catch…finally`的`try`角色
 
 
 **defer**
 
-> 可以将一个方法延迟到包裹该方法的方法返回时执行，`defer`语句可以充当其他语言中`try…catch…finally`的角色，
-> 也可以用来处理关闭文件句柄等收尾操作。
+> 可以将一个方法延迟到包裹该方法的方法返回时执行，`defer`类似于其他语言中`try…catch…finally`的`finally`角色，
+> 它常用于释放资源（如文件句柄、锁等）或确保某些清理逻辑一定会被执行。
 
 1. 包裹`defer`的函数返回时
 2. 包裹`defer`的函数执行到末尾时
@@ -253,6 +253,7 @@ func StringBuilder(p []string) string {
 1. 用来控制一个`goroutine`的`panicking`行为，捕获`panic`，从而影响应用的行为
 
 > 在`defer`函数中，通过`recever`来终止一个`goroutine`的`panicking`过程，从而恢复正常代码的执行，可以获取通过`panic`传递的`error`
+> `defer`类似于其他语言中`try…catch…finally`的`catch`角色
 
 
 

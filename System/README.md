@@ -7,6 +7,7 @@
 
 + [https://github.com/openbsd](https://github.com/openbsd)
     + [https://www.openbsd.org](https://www.openbsd.org)
++ [https://github.com/awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin)
 
 
 * Linux中国翻译组 [https://github.com/LCTT](https://github.com/LCTT)
@@ -63,10 +64,14 @@
     - [https://github.com/Rust-for-Linux](https://github.com/Rust-for-Linux)
     - [https://github.com/linux-rdma/rdma-core](https://github.com/linux-rdma/rdma-core)
 - [https://github.com/rocky-linux](https://github.com/rocky-linux)
+    - [CentOS“退役”后选择哪个Linux发行版？](https://zhuanlan.zhihu.com/p/733965744)
 - [https://github.com/AlmaLinux](https://github.com/AlmaLinux)
 - [https://github.com/microsoft/CBL-Mariner](https://github.com/microsoft/CBL-Mariner)
 - [https://www.oracle.com/linux](https://www.oracle.com/linux)
-- 将CentOS切换到Oracle脚本 [https://github.com/oracle/centos2ol](https://github.com/oracle/centos2ol)
+- [https://github.com/openSUSE](https://github.com/openSUSE)
+- [https://github.com/SUSE](https://github.com/SUSE)
+- [https://github.com/vzlinux](https://github.com/vzlinux)
+    - [https://www.virtuozzo.com/company/open-source](https://www.virtuozzo.com/company/open-source)
 - [https://github.com/clearos](https://github.com/clearos)
 - [http://springdale.math.ias.edu](http://springdale.math.ias.edu/)
 - [https://github.com/cloudlinux](https://github.com/cloudlinux)
@@ -146,6 +151,56 @@
 
 
 
+## 虚拟机
+
+
+- [https://github.com/stefanha/git-publish](https://github.com/stefanha/git-publish)
+- Xen [https://github.com/xen-project](https://github.com/xen-project)
+    - [https://xenbits.xensource.com](https://xenbits.xensource.com)
+    - [https://github.com/xapi-project](https://github.com/xapi-project)
+- QEMU [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
+    - [https://gitlab.com/qemu-project/qemu](https://gitlab.com/qemu-project/qemu)
+- KVM [https://www.linux-kvm.org](https://www.linux-kvm.org)
+    - [https://github.com/kvmtool/kvmtool](https://github.com/kvmtool/kvmtool)
+    - [https://github.com/dmacvicar/terraform-provider-libvirt](https://github.com/dmacvicar/terraform-provider-libvirt)
+    - [https://github.com/htrefil/rkvm](https://github.com/htrefil/rkvm)
+    - [https://github.com/deskflow/deskflow](https://github.com/deskflow/deskflow)
+    - [https://github.com/isard-vdi/isard](https://github.com/isard-vdi/isard)
+    - [https://github.com/kvm-riscv/linux](https://github.com/kvm-riscv/linux)
+- [https://github.com/Parallels](https://github.com/Parallels)
+    - [https://bitbucket.org/openvz](https://bitbucket.org/openvz)
+        - [https://openvz.org](https://openvz.org)
+    - [https://www.virtuozzo.com/company/open-source](https://www.virtuozzo.com/company/open-source)
+- [https://gitlab.com/libvirt](https://gitlab.com/libvirt)
+    - [https://github.com/virt-manager](https://github.com/virt-manager)
+- [https://github.com/libguestfs](https://github.com/libguestfs)
+- [https://github.com/vagrant-libvirt/vagrant-libvirt](https://github.com/vagrant-libvirt/vagrant-libvirt)
+- [https://github.com/proxmoxer](https://github.com/proxmoxer)
+    - [https://www.proxmox.com](https://www.proxmox.com)
+    - [https://github.com/community-scripts/ProxmoxVE](https://github.com/community-scripts/ProxmoxVE)
+    - [https://github.com/luchina-gabriel/OSX-PROXMOX](https://github.com/luchina-gabriel/OSX-PROXMOX)
+    - [https://github.com/Telmate/terraform-provider-proxmox](https://github.com/Telmate/terraform-provider-proxmox)
+- [https://github.com/checkpoint-restore/criu](https://github.com/checkpoint-restore/criu)
+- [https://github.com/oVirt](https://github.com/oVirt)
+    - [https://github.com/cnovirt](https://github.com/cnovirt)
+- 虚拟机 [https://docs.microsoft.com/zh-cn/virtualization](https://docs.microsoft.com/zh-cn/virtualization)
+- [https://github.com/vmware](https://github.com/vmware)
+    - [https://customerconnect.vmware.com/cn/downloads](https://customerconnect.vmware.com/cn/downloads)
+- [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+    - [https://github.com/hyperbox](https://github.com/hyperbox)
+- [https://github.com/xenserver](https://github.com/xenserver)
+- [https://github.com/canonical/multipass](https://github.com/canonical/multipass)
+    - [https://github.com/canonical/lxd](https://github.com/canonical/lxd)
+- 微型虚拟机 [https://github.com/firecracker-microvm](https://github.com/firecracker-microvm)
+- [https://github.com/kata-containers/kata-containers](https://github.com/kata-containers/kata-containers)
+- [https://github.com/kestra-io/kestra](https://github.com/kestra-io/kestra)
+- IOT虚拟机 [https://github.com/projectacrn](https://github.com/projectacrn)
+- mac上的虚拟机 [https://www.parallels.com](https://www.parallels.com)
+
+
+
+
+
 ## 服务器软件
 
 * [https://github.com/bitnami](https://github.com/bitnami)
@@ -174,6 +229,8 @@
 * 速度测试 [https://github.com/gnmyt/myspeed](https://github.com/gnmyt/myspeed)
 * 增量快照 [https://github.com/linuxmint/timeshift](https://github.com/linuxmint/timeshift)
 
+
+- 软件构建 [https://github.com/easybuilders](https://github.com/easybuilders)
 
 
 ### DNS
@@ -295,6 +352,7 @@
 * [https://github.com/Kong/kong](https://github.com/Kong/kong)
 * [https://github.com/zalando/skipper](https://github.com/zalando/skipper)
 * [https://github.com/tobychui/zoraxy](https://github.com/tobychui/zoraxy)
+* [https://github.com/litespeedtech/openlitespeed](https://github.com/litespeedtech/openlitespeed)
 * IP漂移 [https://github.com/acassen/keepalived](https://github.com/acassen/keepalived)
     * [https://github.com/garenchan/keepalived-doc](https://github.com/garenchan/keepalived-doc)
     * [高可用实践——Keepalived踩坑记录](https://zhuanlan.zhihu.com/p/148136167)
@@ -354,6 +412,7 @@
 * [https://github.com/tracecompass](https://github.com/tracecompass)
     * [https://github.com/lttng](https://github.com/lttng)
     * [https://github.com/eclipse-cdt-cloud](https://github.com/eclipse-cdt-cloud)
+    * [https://github.com/google/perfetto](https://github.com/google/perfetto)
 * [https://github.com/may-fly/mayfly-go](https://github.com/may-fly/mayfly-go)
 * [https://github.com/amuluze/amprobe](https://github.com/amuluze/amprobe)
 * [https://github.com/mcoo/status](https://github.com/mcoo/status)
@@ -439,6 +498,7 @@
 * 仪表盘图标 [https://github.com/xushier/HD-Icons](https://github.com/xushier/HD-Icons)
 * 自动化测试 [https://github.com/tahitimoon/LunarLink](https://github.com/tahitimoon/LunarLink)
 * [https://github.com/lihuacai168/AnotherFasterRunner](https://github.com/lihuacai168/AnotherFasterRunner)
+* [https://github.com/bats-core/bats-core](https://github.com/bats-core/bats-core)
 
 
 
@@ -456,6 +516,14 @@
 * [https://github.com/1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel)
 * [https://github.com/midoks/mdserver-web](https://github.com/midoks/mdserver-web)
 * [https://github.com/TheTNB/panel](https://github.com/TheTNB/panel)
+* [https://github.com/plesk](https://github.com/plesk)
+    * [https://autoinstall.plesk.com/plesk-installer](https://autoinstall.plesk.com/plesk-installer)
+* [https://securedownloads.cpanel.net](https://securedownloads.cpanel.net)
+* [https://www.directadmin.com/setup.sh](https://www.directadmin.com/setup.sh)
+* [https://github.com/usmannasir/cyberpanel](https://github.com/usmannasir/cyberpanel)
+* [https://github.com/webmin/webmin](https://github.com/webmin/webmin)
+* [https://github.com/outroll/vesta](https://github.com/outroll/vesta)
+* [https://www.ispconfig.org](https://www.ispconfig.org)
 
 
 
@@ -477,31 +545,7 @@
 * [https://archive.realvnc.com/en/connect/download/vnc](https://archive.realvnc.com/en/connect/download/vnc)
 
 
-- Xen [https://xenbits.xensource.com](https://xenbits.xensource.com)
-- QEMU [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
-- KVM [https://www.linux-kvm.org](https://www.linux-kvm.org)
-- [https://gitlab.com/libvirt](https://gitlab.com/libvirt)
-    - [https://github.com/virt-manager](https://github.com/virt-manager)
-- [https://github.com/libguestfs](https://github.com/libguestfs)
-- [https://github.com/proxmoxer](https://github.com/proxmoxer)
-    - [https://www.proxmox.com](https://www.proxmox.com)
-    - [https://github.com/community-scripts/ProxmoxVE](https://github.com/community-scripts/ProxmoxVE)
-    - [https://github.com/luchina-gabriel/OSX-PROXMOX](https://github.com/luchina-gabriel/OSX-PROXMOX)
-    - [https://github.com/Telmate/terraform-provider-proxmox](https://github.com/Telmate/terraform-provider-proxmox)
-- [https://github.com/oVirt](https://github.com/oVirt)
-    - [https://github.com/cnovirt](https://github.com/cnovirt)
-- 虚拟机 [https://docs.microsoft.com/zh-cn/virtualization](https://docs.microsoft.com/zh-cn/virtualization)
-- [https://github.com/vmware](https://github.com/vmware)
-    - [https://customerconnect.vmware.com/cn/downloads](https://customerconnect.vmware.com/cn/downloads)
-- [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
-    - [https://github.com/hyperbox](https://github.com/hyperbox)
-- [https://github.com/xenserver](https://github.com/xenserver)
-- [https://github.com/canonical/multipass](https://github.com/canonical/multipass)
-- 微型虚拟机 [https://github.com/firecracker-microvm](https://github.com/firecracker-microvm)
-- [https://github.com/kata-containers/kata-containers](https://github.com/kata-containers/kata-containers)
-- [https://github.com/kestra-io/kestra](https://github.com/kestra-io/kestra)
-- IOT虚拟机 [https://github.com/projectacrn](https://github.com/projectacrn)
-- mac上的虚拟机 [https://www.parallels.com](https://www.parallels.com)
+
 
 
 
@@ -552,7 +596,6 @@
 * [https://github.com/LizardByte/Sunshine](https://github.com/LizardByte/Sunshine)
 * 中国历史 [https://github.com/liujuntao123/chines-history-video](https://github.com/liujuntao123/chines-history-video)
 * 日历 [https://github.com/xyxc0673/calendar-remark](https://github.com/xyxc0673/calendar-remark)
-* [https://github.com/glanceapp/glance](https://github.com/glanceapp/glance)
 * 知识问答 [https://github.com/apache/incubator-answer](https://github.com/apache/incubator-answer)
 * 问卷调查 [https://github.com/didi/xiaoju-survey](https://github.com/didi/xiaoju-survey)
 * 白噪音 [https://github.com/geekyouth/moodist](https://github.com/geekyouth/moodist)
@@ -583,6 +626,7 @@
     * [https://send.cyberjake.xyz](https://send.cyberjake.xyz)
     * [https://send.vis.ee](https://send.vis.ee)
 * [https://github.com/WCY-dt/EasyTransfer](https://github.com/WCY-dt/EasyTransfer)
+* [https://github.com/kern/filepizza](https://github.com/kern/filepizza)
 * 主页仪表板 [https://github.com/glanceapp/glance](https://github.com/glanceapp/glance)
 * 在线知识库 [https://github.com/outline/outline](https://github.com/outline/outline)
 * 自定义二维码 [https://github.com/kochrt/qr-designer](https://github.com/kochrt/qr-designer)
@@ -618,6 +662,8 @@
 * AI翻译 [https://github.com/ItusiAI/AI-Translation-Assistant-Pro](https://github.com/ItusiAI/AI-Translation-Assistant-Pro)
 * 关键词搜索 [https://github.com/serping/serp-checker](https://github.com/serping/serp-checker)
 * 共享屏幕 [https://github.com/tonghohin/screen-sharing](https://github.com/tonghohin/screen-sharing)
+* [https://github.com/echoshare/echoshare](https://github.com/echoshare/echoshare)
+* 室内跑步巨幕 [https://github.com/Jamesun921/cam-run](https://github.com/Jamesun921/cam-run)
 
 
 

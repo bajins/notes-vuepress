@@ -7,6 +7,7 @@
 
 + 书签管理器 [https://github.com/linkwarden/linkwarden](https://github.com/linkwarden/linkwarden)
 + [https://github.com/omnivore-app/omnivore](https://github.com/omnivore-app/omnivore)
++ [https://github.com/hoarder-app/hoarder](https://github.com/hoarder-app/hoarder)
 + Web归档 [https://github.com/webrecorder](https://github.com/webrecorder)
 + [https://github.com/dginev/ar5iv](https://github.com/dginev/ar5iv)
 + [https://github.com/dosyago/DownloadNet](https://github.com/dosyago/DownloadNet)

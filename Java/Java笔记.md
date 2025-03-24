@@ -99,6 +99,7 @@
 - Multiline String 多行字符串
 - Template String 模板字符串
 - Text Blocks 文本块
+- Raw String Literals 原始字符串字面量
 
 > Java 13 Text Blocks 第一次预览版，Java 14 Text Blocks 第二次预览版，Java 15 Text Blocks 正式版
 

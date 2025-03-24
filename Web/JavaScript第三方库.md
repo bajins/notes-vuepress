@@ -92,6 +92,7 @@
 * [https://github.com/typesense/typesense](https://github.com/typesense/typesense)
 * [https://github.com/MihaiValentin/lunr-languages](https://github.com/MihaiValentin/lunr-languages)
 * [https://github.com/cjinhuo/text-search-engine](https://github.com/cjinhuo/text-search-engine)
+* [https://github.com/cloudcannon/pagefind](https://github.com/cloudcannon/pagefind)
 * 自动建议 [https://github.com/knadh/floatype.js](https://github.com/knadh/floatype.js)
 * [https://github.com/TarekRaafat/autoComplete.js](https://github.com/TarekRaafat/autoComplete.js)
 * 类型检查 [https://github.com/facebook/flow](https://github.com/facebook/flow)
@@ -134,6 +135,9 @@
 * 页面切换效果 [https://github.com/barbajs/barba](https://github.com/barbajs/barba)
 * 获取两个数组差异 [https://github.com/DoneDeal0/superdiff](https://github.com/DoneDeal0/superdiff)
 * 组件库 [https://github.com/shoelace-style](https://github.com/shoelace-style)
+* DX/DevEx [https://github.com/wxt-dev/wxt](https://github.com/wxt-dev/wxt)
+* [https://github.com/PlasmoHQ/plasmo](https://github.com/PlasmoHQ/plasmo)
+* [https://github.com/crxjs/chrome-extension-tools](https://github.com/crxjs/chrome-extension-tools)
 
 
 

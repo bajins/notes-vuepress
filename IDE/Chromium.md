@@ -238,6 +238,17 @@ chrome://flags/#enable-parallel-downloading
 * [https://github.com/browserless](https://github.com/browserless)
 
 
+
+- 绕过五秒盾 [https://github.com/FlareSolverr/FlareSolverr](https://github.com/FlareSolverr/FlareSolverr)
+- [https://github.com/VeNoMouS/cloudscraper](https://github.com/VeNoMouS/cloudscraper)
+- [https://github.com/RomainMichau/cloudscraper_go](https://github.com/RomainMichau/cloudscraper_go)
+- [https://github.com/ultrafunkamsterdam/undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver)
+- [https://github.com/ultrafunkamsterdam/nodriver](https://github.com/ultrafunkamsterdam/nodriver)
+- [https://github.com/g1879/DrissionPage](https://github.com/g1879/DrissionPage)
+- [https://github.com/Davincible/chromedp-undetected](https://github.com/Davincible/chromedp-undetected)
+
+
+
 **反爬虫**
 
 * [https://github.com/intoli/intoli-article-materials](https://github.com/intoli/intoli-article-materials)

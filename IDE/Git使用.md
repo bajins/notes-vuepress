@@ -79,6 +79,7 @@
 * [https://github.com/ewanmellor/git-diff-image](https://github.com/ewanmellor/git-diff-image)
 * 根据日志生成Changelog [https://github.com/orhun/git-cliff](https://github.com/orhun/git-cliff)
 * [https://github.com/conventional-changelog](https://github.com/conventional-changelog)
+* 提交统计 [https://github.com/sinclairtarget/git-who](https://github.com/sinclairtarget/git-who)
 
 
 - [git-pull.bat](/files/git-pull.bat)

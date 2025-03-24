@@ -15,6 +15,7 @@
 * DPI [https://github.com/bol-van/zapret](https://github.com/bol-van/zapret)
 * [https://github.com/ValdikSS/GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)
 * 系统调整 [https://github.com/ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+* 应用商城 [https://github.com/opengapps/opengapps](https://github.com/opengapps/opengapps)
 
 
 
@@ -166,13 +167,15 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [http://www.imsdn.cn](http://www.imsdn.cn)
 * [https://github.com/pbatard/Fido](https://github.com/pbatard/Fido)
 * [https://uup.rg-adguard.net](https://uup.rg-adguard.net)
-* [https://files.rg-adguard.net](https://files.rg-adguard.net)
+    * [https://files.rg-adguard.net](https://files.rg-adguard.net)
+    * [https://store.rg-adguard.net](https://store.rg-adguard.net)
 * [https://github.com/uup-dump](https://github.com/uup-dump)
     * [https://uupdump.net](https://uupdump.net)
     * [https://www.uupdump.cn](https://www.uupdump.cn)
 * [https://msdn.sjjzm.com](https://msdn.sjjzm.com)
 * [https://github.com/massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
     * [https://massgrave.dev/genuine-installation-media.html](https://massgrave.dev/genuine-installation-media.html)
+    * [https://activated.win](https://activated.win)
     * [https://github.com/gravesoft/msdl](https://github.com/gravesoft/msdl)
         * [https://msdl.gravesoft.dev](https://msdl.gravesoft.dev)
 

@@ -4,6 +4,64 @@
 [[toc]]
 
 
+## Flag
+
+* RHEL衍生版本升级 [https://github.com/oamg/leapp](https://github.com/oamg/leapp)
+    * [https://almalinux.org/elevate](https://almalinux.org/elevate)
+* [https://github.com/upgrades-migrations/redhat-upgrade-tool](https://github.com/upgrades-migrations/redhat-upgrade-tool)
+* [Upgrading CentOS 7 to Stream 9](https://blog.motofans.club/post/upgrade-centos-7-to-centos-stream-9.html)
+* [如何使用 Leapp 为 RHEL PAYG 虚拟机执行升级](https://learn.microsoft.com/zh-cn/troubleshoot/azure/virtual-machines/linux/leapp-upgrade-process-rhel-7-and-8)
+* [使用 Leapp 升级 Oracle Linux](https://docs.oracle.com/zh-cn/learn/ol-linux-leapp/index.html)
+    * CentOS切换Oracle脚本 [https://github.com/oracle/centos2ol](https://github.com/oracle/centos2ol)
+* [https://github.com/Ink-33/OhMyStream9](https://github.com/Ink-33/OhMyStream9)
+
+
+
+
+**下载almalinux所有RPM包**
+
+```bash
+# 下载 Packages 页面的 HTML 内容，提取所有 RPM 文件名（包含 dnf 或 python）
+curl -s https://repo.almalinux.org/almalinux/8/BaseOS/x86_64/os/Packages/ | grep -oP 'href="\K[^"]+\.rpm' | grep -E 'dnf|*python' | grep -v 'x86_64' > rpm-list.txt
+while read -r pkg; do
+  curl -O https://repo.almalinux.org/almalinux/8/BaseOS/x86_64/os/Packages/"$pkg"
+done < rpm_list.txt
+
+cat rpm-list.txt | xargs -I {} -P 8 curl -O https://repo.almalinux.org/almalinux/8/BaseOS/x86_64/os/Packages/{}
+```
+
+
+
+**升级GLBC后删除目录导致系统崩溃**
+
+* [/lib64/libc.so.6 错误导致的系统崩溃](https://www.cnblogs.com/hefeng2014/p/17916585.html)
+
+```bash
+sln /usr/lib64/ld-2.17.so /usr/lib64/ld-linux-x86-64.so.2
+sln /usr/lib64/libc-2.17.so /usr/lib64/libc.so.6
+sln /usr/lib64/libdl-2.17.so /usr/lib64/libdl.so.2
+sln /usr/lib64/libpthread-2.17.so /usr/lib64/libpthread.so.0
+```
+
+**yum、dnf、python都被卸载后如何装回dnf**
+
+> yum依赖dnf，dnf依赖python，当rpm还在时如何救回dnf
+
+* [https://repo.almalinux.org/almalinux/8/BaseOS/x86_64/os/Packages/](https://repo.almalinux.org/almalinux/8/BaseOS/x86_64/os/Packages/)
+* [https://rpmfind.net/linux/rpm2html/search.php](https://rpmfind.net/linux/rpm2html/search.php)
+
+
+- [Centos Stream9下重新安装yum和DNF以及python3](https://cloud.tencent.com/developer/article/2442683)
+- [rpm: /lib64/liblzma.so.5: version `XZ_5.1.2alpha' not found (required by /lib/librpmio.so.3)](https://stackoverflow.com/questions/47633870/rpm-lib64-liblzma-so-5-version-xz-5-1-2alpha-not-found-required-by-lib-li)
+
+
+```bash
+# 忽略依赖强制安装python及dnf相关依赖
+rpm -i --nodeps --force rpm的地址
+```
+
+
+
 
 ## YUM和RPM操作
 
@@ -299,6 +357,8 @@ while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1
 
 * [chrome其他安装方式](https://intoli.com/blog/installing-google-chrome-on-centos)
 
+- [http://dist.control.lth.se/public/CentOS-7/x86_64/google.x86_64/](http://dist.control.lth.se/public/CentOS-7/x86_64/google.x86_64/)
+
 
 **rpm包安装**
 
@@ -307,7 +367,8 @@ while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1
 # 下载rpm包
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 # 安装依赖
-yum install -y lsb libXScrnSaver libappindicator-gtk3 liberation-fonts
+yum install -y lsb libXScrnSaver libappindicator-gtk3 liberation-fonts libvulkan*\
+ atk cups-libs gtk3 libXcomposite libXdamage libXrandr libdrm mesa-libgbm alsa-lib libX11 nss
 
 # 安装chrome
 rpm -ivh google-chrome-stable_current_x86_64.rpm
@@ -322,6 +383,15 @@ yum install -y chromedriver
 # 查看安装的chromedriver版本
 chromedriver --version
 ```
+
+
+**Cent OS7安装Google Chrome**
+
+```bash
+wget http://dist.control.lth.se/public/CentOS-7/x86_64/google.x86_64/google-chrome-stable-125.0.6422.141-1.x86_64
+yum install -y google-chrome-stable-125.0.6422.141-1.x86_64.rpm
+```
+
 
 **在线安装**
 

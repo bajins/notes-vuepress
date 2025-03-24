@@ -101,6 +101,7 @@
 - `CGO_ENABLED` CGO开关
 - `-o` 参数为指定输出程序文件名
 - `go clean -cache` 编译完成清理缓存
+- `go env -w GOFLAGS=-buildvcs=false` 不将版本控制信息（如提交哈希、提交时间）嵌入到二进制文件中
 
 
 **`-ldflags`选项**
