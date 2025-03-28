@@ -119,6 +119,7 @@
     * [https://github.com/gdy666/lucky](https://github.com/gdy666/lucky)
     * [https://github.com/liudf0716/apfree-wifidog](https://github.com/liudf0716/apfree-wifidog)
     * [https://github.com/sirpdboy/NetSpeedTest](https://github.com/sirpdboy/NetSpeedTest)
+    * 网关切换 [https://github.com/ourines/GateShift](https://github.com/ourines/GateShift)
 * [https://github.com/open-power](https://github.com/open-power)
 * [https://github.com/coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
 * [https://github.com/Entware](https://github.com/Entware)
@@ -551,13 +552,13 @@
 
 ### 建站资源
 
+* [https://www.lengxi.net](https://www.lengxi.net)
 * [萌音影视 - 在线影视应用](https://github.com/178146582/moeins)
     * [安装教程](https://www.moerats.com/archives/744)
 * [使用FileManager+基于Python3的爬虫程序建立影音图片库](https://www.moerats.com/archives/501)
 * [使用PlayTube搭建私人的视频网站](https://www.moerats.com/archives/644)
 * [开源有态度的漫画CMS](https://github.com/hiliqi/xiaohuanxiong)
 * [https://github.com/tinacms/tinacms](https://github.com/tinacms/tinacms)
-* 冷曦博客 - 源码之家-草根站长的资源共享平台: [https://www.lengxi.net](https://www.lengxi.net)
 * [https://github.com/Youngxj/YoungxjTools](https://github.com/Youngxj/YoungxjTools)
 * [https://github.com/netnr/scriptservices](https://github.com/netnr/scriptservices)
 * 媒体服务器 [https://github.com/MediaBrowser/Emby.Releases](https://github.com/MediaBrowser/Emby.Releases)
@@ -709,8 +710,11 @@
 * [https://coda.io](https://coda.io)
 * [https://github.com/kuaifan/dootask](https://github.com/kuaifan/dootask)
 * [https://www.cornerstone365.cn](https://www.cornerstone365.cn)
-* 画板 [https://github.com/JessYan0913/pictode](https://github.com/JessYan0913/pictode)
+* 画板/白板 [https://github.com/JessYan0913/pictode](https://github.com/JessYan0913/pictode)
 * [https://github.com/LHRUN/paint-board](https://github.com/LHRUN/paint-board)
+* [https://github.com/plait-board/drawnix](https://github.com/plait-board/drawnix)
+* [https://github.com/worktile/plait](https://github.com/worktile/plait)
+* [https://github.com/chunrapeepat/inscribed](https://github.com/chunrapeepat/inscribed)
 * 处理音频和视频 [https://github.com/xiguaxigua/ffmpeg-online](https://github.com/xiguaxigua/ffmpeg-online)
 * CAD [https://github.com/CADmium-Co/CADmium](https://github.com/CADmium-Co/CADmium)
 

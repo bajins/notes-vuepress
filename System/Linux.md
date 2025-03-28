@@ -182,6 +182,11 @@
 
 
 * 重装系统 [https://github.com/netbootxyz/netboot.xyz](https://github.com/netbootxyz/netboot.xyz)
+    * [https://github.com/networkboot](https://github.com/networkboot)
+    * [https://github.com/ipxe/ipxe](https://github.com/ipxe/ipxe)
+    * [https://wiki.syslinux.org](https://wiki.syslinux.org)
+    * [https://github.com/openSUSE/gfxboot](https://github.com/openSUSE/gfxboot)
+    * [https://github.com/lantongxue/netboot.xyz.cn](https://github.com/lantongxue/netboot.xyz.cn)
 * [https://github.com/bin456789/reinstall](https://github.com/bin456789/reinstall)
 
 

@@ -8,6 +8,7 @@
 
 * RHEL衍生版本升级 [https://github.com/oamg/leapp](https://github.com/oamg/leapp)
     * [https://almalinux.org/elevate](https://almalinux.org/elevate)
+    * [https://docs.rockylinux.org/zh/guides/migrate2rocky](https://docs.rockylinux.org/zh/guides/migrate2rocky)
 * [https://github.com/upgrades-migrations/redhat-upgrade-tool](https://github.com/upgrades-migrations/redhat-upgrade-tool)
 * [Upgrading CentOS 7 to Stream 9](https://blog.motofans.club/post/upgrade-centos-7-to-centos-stream-9.html)
 * [如何使用 Leapp 为 RHEL PAYG 虚拟机执行升级](https://learn.microsoft.com/zh-cn/troubleshoot/azure/virtual-machines/linux/leapp-upgrade-process-rhel-7-and-8)
@@ -367,8 +368,8 @@ while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1
 # 下载rpm包
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 # 安装依赖
-yum install -y lsb libXScrnSaver libappindicator-gtk3 liberation-fonts libvulkan*\
- atk cups-libs gtk3 libXcomposite libXdamage libXrandr libdrm mesa-libgbm alsa-lib libX11 nss
+yum install -y lsb libXScrnSaver libappindicator-gtk3 liberation-fonts libvulkan atk cups-libs*\
+ gtk3 libXcomposite libXdamage libXrandr libdrm mesa-libgbm alsa-lib libX11 nss xvfb
 
 # 安装chrome
 rpm -ivh google-chrome-stable_current_x86_64.rpm

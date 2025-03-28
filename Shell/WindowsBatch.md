@@ -40,8 +40,15 @@ msiexec /a "MSI文件路径" /qn TARGETDIR="解压输出目录绝对路径"
 msg %username% /time:60 "WARNING:a backdoor account is created"
 ```
 
+- Windows11当前桌面壁纸：`%AppData%\Microsoft\Windows\Themes\TranscodedWallpaper` 为转码文件
 - Windows10当前桌面壁纸：`%AppData%\Microsoft\Windows\Themes\CachedFiles\CachedImage_1920_1080_POS4.jpg`
 - Windows7当前桌面壁纸：`%AppData%\Microsoft\Windows\Themes\TranscodedWallpaper.jpg`
+    - `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Wallpapers`
+    - `%AppData%\Microsoft\Windows\Themes\CachedFiles`
+    - `%SystemRoot%\Web`
+    - `%SystemRoot%\Resources\Themes`
+    - `%LocalAppData%\Microsoft\Windows\Themes`
+    - `HKEY_CURRENT_USER\Control Panel\Desktop\WallPaper`
 - 事件日志目录：`%SystemRoot%\System32\Winevt\Logs`
 
 

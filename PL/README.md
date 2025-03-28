@@ -52,6 +52,7 @@
 + [https://octoverse.github.com/#top-languages](https://octoverse.github.com/#top-languages)
 + [https://github.com/libhunt](https://github.com/libhunt)
     + [https://www.libhunt.com](https://www.libhunt.com)
++ 各大产品生命周期 [https://github.com/endoflife-date/endoflife.date](https://github.com/endoflife-date/endoflife.date)
 + 测试编程速度 [https://github.com/webdevcody/code-racer](https://github.com/webdevcody/code-racer)
 + 了解延迟时间 [https://github.com/colin-scott/interactive_latencies](https://github.com/colin-scott/interactive_latencies)
 + 游戏开发技术图谱 [https://github.com/gonglei007/GameDevMind](https://github.com/gonglei007/GameDevMind)

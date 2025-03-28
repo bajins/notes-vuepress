@@ -22,6 +22,8 @@
 * [https://test.ustc.edu.cn](https://test.ustc.edu.cn)
 * [https://fiber.google.com/speedtest](https://fiber.google.com/speedtest)
 * [https://speedtestgo.com](https://speedtestgo.com)
+* DNS速度测试 [https://github.com/BrainicHQ/DoHSpeedTest](https://github.com/BrainicHQ/DoHSpeedTest)
+* [https://github.com/xxnuo/dns-benchmark](https://github.com/xxnuo/dns-benchmark)
 * [局域网怎么实现内外网隔离？](https://www.zhihu.com/question/489849459)
 * 防火墙 [https://github.com/pfsense/pfsense](https://github.com/pfsense/pfsense)
 * [https://github.com/opnsense](https://github.com/opnsense)

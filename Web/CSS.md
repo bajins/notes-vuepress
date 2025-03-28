@@ -21,6 +21,7 @@
 * CSS/CSS3 中文参考文档手册 [http://css.cuishifeng.cn](http://css.cuishifeng.cn)
 * [https://github.com/adamschwartz/magic-of-css](https://github.com/adamschwartz/magic-of-css)
 * [界面灵感类网站合集](https://uxchi.notion.site/881b4c0179a74935a3f607ad3521cdb5)
+* [https://ui.aceternity.com/components](https://ui.aceternity.com/components)
 * [现代 CSS 高阶技巧，完美的波浪进度条效果](https://segmentfault.com/a/1190000043081752)
 * 可折叠树 [https://iamkate.com/code/tree-views](https://iamkate.com/code/tree-views)
 * [CSS In 2023](https://juejin.cn/post/7232187022399586362)

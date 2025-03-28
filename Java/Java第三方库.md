@@ -71,6 +71,7 @@
 - [https://github.com/apache/hive](https://github.com/apache/hive)
 - [https://github.com/apache/impala](https://github.com/apache/impala)
 - 物联网 [https://github.com/jetlinks](https://github.com/jetlinks)
+- 元数据和治理 [https://github.com/odpi/egeria](https://github.com/odpi/egeria)
 
 
 

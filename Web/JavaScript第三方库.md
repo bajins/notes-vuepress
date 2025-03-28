@@ -159,6 +159,7 @@
 * [https://github.com/sweetalert2/sweetalert2](https://github.com/sweetalert2/sweetalert2)
     * [https://www.sweetalert2.cn](https://www.sweetalert2.cn)
     * [https://github.com/t4t5/sweetalert](https://github.com/t4t5/sweetalert)
+* [https://github.com/floating-ui/floating-ui](https://github.com/floating-ui/floating-ui)
 * 提示和弹出框 [https://github.com/popperjs/popper-core](https://github.com/popperjs/popper-core)
 * alert()和confirm()包装 [https://github.com/makeusabrew/bootbox](https://github.com/makeusabrew/bootbox)
 * 提示引导 [https://github.com/kamranahmedse/driver.js](https://github.com/kamranahmedse/driver.js)
@@ -326,6 +327,7 @@
 * [https://github.com/bigskysoftware/htmx](https://github.com/bigskysoftware/htmx)
 * [https://github.com/js-cookie](https://github.com/js-cookie)
 * [https://github.com/zimv/websocket-heartbeat-js](https://github.com/zimv/websocket-heartbeat-js)
+* [https://github.com/JustinGastby/supa-simple-socket](https://github.com/JustinGastby/supa-simple-socket)
 
 
 
