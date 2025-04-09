@@ -91,6 +91,57 @@
 
 
 
+
+## 免费可商用字体
+
++ [https://fonts.zeoseven.com](https://fonts.zeoseven.com)
+
+
+* [https://github.com/jaywcjlove/free-font](https://github.com/jaywcjlove/free-font)
+* [https://github.com/wordshub/free-font](https://github.com/wordshub/free-font)
+* [https://github.com/KonghaYao/chinese-free-web-font-storage](https://github.com/KonghaYao/chinese-free-web-font-storage)
+* [https://github.com/lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai)
+* [https://github.com/jsntn/webfonts](https://github.com/jsntn/webfonts)
+* [https://github.com/JetBrains/JetBrainsMono](https://github.com/JetBrains/JetBrainsMono)
+    * [https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono)
+* [https://github.com/ayaka14732/FanWunHak](https://github.com/ayaka14732/FanWunHak)
+* [https://github.com/Buernia/Zhudou-Sans](https://github.com/Buernia/Zhudou-Sans)
+* [https://github.com/cmiscm/leonsans](https://github.com/cmiscm/leonsans)
+* [https://github.com/intel/intel-one-mono](https://github.com/intel/intel-one-mono)
+* [https://github.com/atelier-anchor/smiley-sans](https://github.com/atelier-anchor/smiley-sans)
+* [https://www.alibabafonts.com](https://www.alibabafonts.com)
+* [https://github.com/google/fonts](https://github.com/google/fonts)
+    * [https://github.com/googlefonts](https://github.com/googlefonts)
+    * [https://developers.google.cn/fonts](https://developers.google.cn/fonts)
+    * [https://pub.flutter-io.cn/packages/google_fonts](https://pub.flutter-io.cn/packages/google_fonts)
+    * [http://www.googlefonts.net](http://www.googlefonts.net)
+    * [https://github.com/notofonts/noto-cjk](https://github.com/notofonts/noto-cjk)
+    * [https://github.com/simonsmh/notocjk](https://github.com/simonsmh/notocjk)
+* [https://github.com/subframe7536/maple-font](https://github.com/subframe7536/maple-font)
+* [https://github.com/fontello](https://github.com/fontello)
+* [https://github.com/TrionesType/zhuque](https://github.com/TrionesType/zhuque)
+* [https://github.com/Chenyu-otf/chenyuluoyan_thin](https://github.com/Chenyu-otf/chenyuluoyan_thin)
+* [https://github.com/chawyehsu/lxgw-wenkai-webfont](https://github.com/chawyehsu/lxgw-wenkai-webfont)
+* [https://github.com/vercel/geist-font](https://github.com/vercel/geist-font)
+* [https://github.com/githubnext/monaspace](https://github.com/githubnext/monaspace)
+* [https://github.com/tonsky/FiraCode](https://github.com/tonsky/FiraCode)
+* [https://github.com/rsms/inter](https://github.com/rsms/inter)
+* [https://github.com/be5invis/Iosevka](https://github.com/be5invis/Iosevka)
+* [https://github.com/IBM/plex](https://github.com/IBM/plex)
+* [https://www.freefaces.gallery](https://www.freefaces.gallery)
+* 高辨识度字体 [https://brailleinstitute.org/freefont](https://brailleinstitute.org/freefont)
+* 位图编程字体 [https://github.com/slavfox/Cozette](https://github.com/slavfox/Cozette)
+* [京華老宋体](https://zhuanlan.zhihu.com/p/637491623)
+
+
+- [https://www.miao3.cn](https://www.miao3.cn)
+- 字体编辑器 [https://github.com/fontforge/fontforge](https://github.com/fontforge/fontforge)
+- [https://github.com/adobe-type-tools](https://github.com/adobe-type-tools)
+- [https://www.ai.zitijia.com](https://www.ai.zitijia.com)
+
+
+
+
 ## 通用镜像
 
 * [https://developer.aliyun.com/mirror](https://developer.aliyun.com/mirror)
@@ -291,20 +342,21 @@
 
 - [https://github.com/KevCui/1secmail](https://github.com/KevCui/1secmail)
     - [https://www.1secmail.com/api](https://www.1secmail.com/api)
-- [https://github.com/KevCui/getnada](https://github.com/KevCui/getnada)
     - [https://getnada.com](https://getnada.com)
-- [https://github.com/KevCui/tempmail](https://github.com/KevCui/tempmail)
+    - [https://inboxes.com](https://inboxes.com)
     - [https://temp-mail.org/zh](https://temp-mail.org/zh)
+    - [https://tempr.email](https://tempr.email)
 - [https://github.com/ccbikai](https://github.com/ccbikai)
     - [https://email.ml](https://email.ml)
+    - [https://tempmail.best](https://tempmail.best)
 - [https://github.com/beilunyang/moemail](https://github.com/beilunyang/moemail)
 
 
 
-* [https://inboxes.com](https://inboxes.com)
 * [https://smailpro.com](https://smailpro.com)
     * [https://smailpro.com/temp-gmail](https://smailpro.com/temp-gmail)
 * [https://mail.tm](https://mail.tm)
+    * [https://mail.gw](https://mail.gw)
 * [https://www.linshiyouxiang.net](https://www.linshiyouxiang.net)
 * [http://24mail.chacuo.net](http://24mail.chacuo.net)
     * [https://github.com/Xavier-Lam/24mail](https://github.com/Xavier-Lam/24mail)
