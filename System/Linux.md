@@ -46,6 +46,35 @@
 
 
 
+**Ubuntu/Debian 系统升级**
+
+* [如何升级您的 Ubuntu 版本](https://documentation.ubuntu.com/server/how-to/software/upgrade-your-release/index.html)
+* [https://ubuntu.com/about/release-cycle](https://ubuntu.com/about/release-cycle)
+* [https://www.debian.org/releases](https://www.debian.org/releases)
+* [https://github.com/bkw777/mainline](https://github.com/bkw777/mainline)
+* [https://github.com/berglh/ubuntu-sb-kernel-signing](https://github.com/berglh/ubuntu-sb-kernel-signing)
+
+```batch
+# 刷新可用软件包及其版本的列表，处理依赖冲突并升级软件包（包括内核）升级到最新版本
+sudo apt update && sudo apt dist-upgrade -y
+# Ubuntu升级系统
+sudo do-release-upgrade
+# 自动删除未使用的内核，包括过时的内核
+sudo apt autoremove -y
+# 查看当前内核版本
+dpkg --list | grep linux-image
+# 安装最新内核
+sudo apt install linux-image-$(uname -r)
+# 重新加载内核配置
+sudo update-grub
+# 卸载 GNOME 桌面环境
+sudo apt purge gnome gnome-shell -y
+sudo apt autoremove --purge -y
+sudo apt clean
+```
+
+
+
 
 ## 包管理
 

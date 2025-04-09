@@ -101,6 +101,8 @@
 - 查询nginx日志 [https://github.com/facundoolano/ngtop](https://github.com/facundoolano/ngtop)
 - 连接数据库 [https://github.com/PeepDB-dev/peepdb](https://github.com/PeepDB-dev/peepdb)
 - 持续假输出 [https://github.com/giacomo-b/rust-stakeholder](https://github.com/giacomo-b/rust-stakeholder)
+- 页面缓存 [https://github.com/tobert/pcstat](https://github.com/tobert/pcstat)
+- [https://github.com/silenceshell/hcache](https://github.com/silenceshell/hcache)
 
 
 **`terminal`、`shell`、`tty`、`console` 之间的区别**

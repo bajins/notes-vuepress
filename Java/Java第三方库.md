@@ -201,6 +201,7 @@
 + 线程间消息传递 [https://github.com/lmax-exchange/disruptor](https://github.com/lmax-exchange/disruptor)
 + [https://github.com/alibaba/transmittable-thread-local](https://github.com/alibaba/transmittable-thread-local)
 + [https://github.com/real-logic/agrona](https://github.com/real-logic/agrona)
++ 通道(Channels) [https://github.com/softwaremill/jox](https://github.com/softwaremill/jox)
 + 地理哈希 [https://github.com/kungfoo/geohash-java](https://github.com/kungfoo/geohash-java)
 + 编码检测 [https://sourceforge.net/projects/jchardet](https://sourceforge.net/projects/jchardet)
 + [https://github.com/albfernandez/juniversalchardet](https://github.com/albfernandez/juniversalchardet)
@@ -438,7 +439,7 @@
 - [Spring Beanutils](https://github.com/spring-projects/spring-framework/blob/master/spring-beans/src/main/java/org/springframework/beans/BeanUtils.java)
 - [https://github.com/mapstruct](https://github.com/mapstruct)
 - Apache BeanUtils [https://github.com/apache/commons-beanutils](https://github.com/apache/commons-beanutils)
-- [https://github.com/orika-mapper/orika](https://github.com/orika-mapper/orika)
+- 深拷贝 [https://github.com/orika-mapper/orika](https://github.com/orika-mapper/orika)
 - [https://github.com/DozerMapper/dozer](https://github.com/DozerMapper/dozer)
 - [https://github.com/lets-mica/mica](https://github.com/lets-mica/mica)
     - [https://github.com/yangtu222/BeanUtils](https://github.com/yangtu222/BeanUtils)
@@ -521,6 +522,7 @@
 * [https://github.com/spring-projects/spring-restdocs](https://github.com/spring-projects/spring-restdocs)
     * [https://github.com/ScaCap/spring-auto-restdocs](https://github.com/ScaCap/spring-auto-restdocs)
 * [https://github.com/YeDaxia/JApiDocs](https://github.com/YeDaxia/JApiDocs)
+* [https://github.com/talsma-ict/umldoclet](https://github.com/talsma-ict/umldoclet)
 * 资源读取 [https://github.com/hosuaby/inject-resources](https://github.com/hosuaby/inject-resources)
 
 

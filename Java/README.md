@@ -5,6 +5,10 @@
 
 ## Flag
 
+> Java 是一种简洁、面向对象、分布式、解释型、健壮、安全、架构中立、可移植、高性能、多线程的动态编程语言。
+> 阅读比编写更重要；简单性很重要；Java 应该是一种在任何地方都有相同含义的语言。
+
+
 + [https://github.com/topics/java](https://github.com/topics/java)
 + [https://github.com/jcp-org](https://github.com/jcp-org)
 + [https://docs.oracle.com](https://docs.oracle.com)
@@ -14,6 +18,8 @@
     + [https://docs.oracle.com/javase/8/docs](https://docs.oracle.com/javase/8/docs)
     + [https://docs.oracle.com/javase/7/docs](https://docs.oracle.com/javase/7/docs)
     + [JavaBeans 规范](https://www.oracle.com/cn/java/technologies/javase/javabeans-spec.html)
+    + [https://dev.java](https://dev.java)
+    + [https://learn.java](https://learn.java)
 + [https://github.com/eclipse-ee4j](https://github.com/eclipse-ee4j)
     + [https://projects.eclipse.org/list-of-projects](https://projects.eclipse.org/list-of-projects)
     + [https://github.com/eclipse-ditto](https://github.com/eclipse-ditto)

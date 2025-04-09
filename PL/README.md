@@ -29,6 +29,7 @@
 - [https://github.com/shengxinjing/programmer-job-blacklist](https://github.com/shengxinjing/programmer-job-blacklist)
 - [https://indiehackertools.net](https://indiehackertools.net)
 - [https://github.com/lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job)
+- [AppStore 首页推荐后，依然月入不足 3000，独立开发两年血泪复盘](https://www.v2ex.com/t/1121385)
 - 推广渠道 [https://github.com/naxiaoduo/1000UserGuide](https://github.com/naxiaoduo/1000UserGuide)
 - [Sam Altman的创业手册](https://jxp73q7qjsg.feishu.cn/docx/WCNZdKDa4o2eUrxK5ElcfBXEnah)
 - 硬地骇客 [https://github.com/hardhackerlabs/book](https://github.com/hardhackerlabs/book)

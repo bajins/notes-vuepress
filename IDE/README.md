@@ -114,6 +114,7 @@
 - [https://github.com/nutlope/llamacoder](https://github.com/nutlope/llamacoder)
 - [https://github.com/clinebot/cline](https://github.com/clinebot/cline)
 - [https://github.com/we0-dev/we0](https://github.com/we0-dev/we0)
+- [https://www.augmentcode.com](https://www.augmentcode.com)
 - 代码搜索 [https://github.com/sourcebot-dev/sourcebot](https://github.com/sourcebot-dev/sourcebot)
 - Git提交助手 [https://github.com/Undertone0809/gcop](https://github.com/Undertone0809/gcop)
 - 突出显示重要代码 [https://github.com/novoselrok/glance](https://github.com/novoselrok/glance)
@@ -593,6 +594,7 @@
     - [https://github.com/eclipse/lsp4e](https://github.com/eclipse/lsp4e)
 - [https://github.com/ycm-core/ycmd](https://github.com/ycm-core/ycmd)
 - [https://github.com/Genuitec](https://github.com/Genuitec)
+- PostgreSQL [https://github.com/supabase-community/postgres-language-server](https://github.com/supabase-community/postgres-language-server)
 
 
 

@@ -55,6 +55,7 @@
 ## 开源操作系统
 
 * [https://github.com/topics/operating-system](https://github.com/topics/operating-system)
+* 系统映像构建 [https://github.com/OSInside/kiwi](https://github.com/OSInside/kiwi)
 * [https://www.yoctoproject.org](https://www.yoctoproject.org)
 * [Linux发行版本排行](https://distrowatch.com/dwres.php?resource=popularity)
 * [Linux主流发行版本](https://distrowatch.com/dwres.php?resource=major)
@@ -64,6 +65,7 @@
     - [https://github.com/Rust-for-Linux](https://github.com/Rust-for-Linux)
     - [https://github.com/linux-rdma/rdma-core](https://github.com/linux-rdma/rdma-core)
 - [https://github.com/rocky-linux](https://github.com/rocky-linux)
+    - [https://git.resf.org/sig_cloud/wiki](https://git.resf.org/sig_cloud/wiki)
     - [CentOS“退役”后选择哪个Linux发行版？](https://zhuanlan.zhihu.com/p/733965744)
 - [https://github.com/AlmaLinux](https://github.com/AlmaLinux)
 - [https://github.com/microsoft/CBL-Mariner](https://github.com/microsoft/CBL-Mariner)
@@ -299,6 +301,7 @@
 
 * [https://github.com/drwetter/testssl.sh](https://github.com/drwetter/testssl.sh)
 * [https://github.com/zerossl](https://github.com/zerossl)
+* [https://github.com/zeoseven/certple](https://github.com/zeoseven/certple)
 * [https://letsencrypt.org](https://letsencrypt.org)
 * [https://github.com/zenhack/simp_le](https://github.com/zenhack/simp_le)
 * [https://github.com/acmesh-official](https://github.com/acmesh-official)
@@ -617,6 +620,7 @@
 * 短链接 [https://github.com/dubinc/dub](https://github.com/dubinc/dub)
 * 项目落地页 [https://github.com/weijunext/landing-page-boilerplate](https://github.com/weijunext/landing-page-boilerplate)
 * [https://github.com/huglemon/inwind-landing-page](https://github.com/huglemon/inwind-landing-page)
+* [https://github.com/onwidget/astrowind](https://github.com/onwidget/astrowind)
 * 表单生成 [https://github.com/heyform/heyform](https://github.com/heyform/heyform)
 * 网页元素拖拽 [https://github.com/atlassian/pragmatic-drag-and-drop](https://github.com/atlassian/pragmatic-drag-and-drop)
 * 调色板 [https://github.com/NeverCease/uchu](https://github.com/NeverCease/uchu)

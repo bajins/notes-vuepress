@@ -39,7 +39,6 @@
     * [http://hg.openjdk.java.net](http://hg.openjdk.java.net)
     * ~~[https://github.com/ojdkbuild/ojdkbuild](https://github.com/ojdkbuild/ojdkbuild)~~
     * [https://github.com/oracle-actions/setup-java](https://github.com/oracle-actions/setup-java)
-    * [https://dev.java](https://dev.java)
 * ~~[https://github.com/AdoptOpenJDK](https://github.com/AdoptOpenJDK)~~
     * ~~[https://adoptopenjdk.net](https://adoptopenjdk.net)~~
     * [https://github.com/Adopt-a-JSR](https://github.com/Adopt-a-JSR)

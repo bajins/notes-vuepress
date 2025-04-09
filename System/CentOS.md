@@ -6,9 +6,12 @@
 
 ## Flag
 
+
+* UEFI加载 [https://github.com/rhboot](https://github.com/rhboot)
 * RHEL衍生版本升级 [https://github.com/oamg/leapp](https://github.com/oamg/leapp)
     * [https://almalinux.org/elevate](https://almalinux.org/elevate)
     * [https://docs.rockylinux.org/zh/guides/migrate2rocky](https://docs.rockylinux.org/zh/guides/migrate2rocky)
+    * [https://github.com/rocky-linux/rocky-tools](https://github.com/rocky-linux/rocky-tools)
 * [https://github.com/upgrades-migrations/redhat-upgrade-tool](https://github.com/upgrades-migrations/redhat-upgrade-tool)
 * [Upgrading CentOS 7 to Stream 9](https://blog.motofans.club/post/upgrade-centos-7-to-centos-stream-9.html)
 * [如何使用 Leapp 为 RHEL PAYG 虚拟机执行升级](https://learn.microsoft.com/zh-cn/troubleshoot/azure/virtual-machines/linux/leapp-upgrade-process-rhel-7-and-8)

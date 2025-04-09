@@ -236,6 +236,8 @@ firewall-cmd --query-panic
 - [https://dns.fish](https://dns.fish)
 - [https://ipquery.io](https://ipquery.io)
 - [https://ip.aolifu.org](https://ip.aolifu.org)
+- [https://ip.im](https://ip.im)
+    - [https://w.is](https://w.is)
 - 可用性检查 [https://github.com/funilrys/PyFunceble](https://github.com/funilrys/PyFunceble)
 - [https://github.com/hatoo/oha](https://github.com/hatoo/oha)
 
