@@ -9,7 +9,7 @@
 
 + ECMAScript支持度检测 [https://github.com/ruanyf/es-checker](https://github.com/ruanyf/es-checker)
 + 检查JS文件中的ES版本 [https://github.com/dollarshaveclub/es-check](https://github.com/dollarshaveclub/es-check)
-+ ES6支持情况 [https://github.com/kangax/compat-table](https://github.com/kangax/compat-table)
++ ES6支持情况 [https://github.com/compat-table/compat-table](https://github.com/compat-table/compat-table)
   + [https://kangax.github.io/compat-table/es6](https://kangax.github.io/compat-table/es6)
 + [https://github.com/financial-times/polyfill-service](https://github.com/financial-times/polyfill-service)
 + [https://github.com/taylorhakes/promise-polyfill](https://github.com/taylorhakes/promise-polyfill)
@@ -84,6 +84,7 @@
 * [https://github.com/ericdouglas/ES6-Learning](https://github.com/ericdouglas/ES6-Learning)
 * [https://github.com/lukehoban/es6features](https://github.com/lukehoban/es6features)
 * [https://github.com/rse/es6-features](https://github.com/rse/es6-features)
+* [Learn ES2015](https://github.com/babel/website/blob/main/docs/learn.md)
 * 特性列表 [https://github.com/daumann/ECMAScript-new-features-list](https://github.com/daumann/ECMAScript-new-features-list)
 * [https://github.com/sudheerj/ECMAScript-features](https://github.com/sudheerj/ECMAScript-features)
 * [https://github.com/30-seconds](https://github.com/30-seconds)

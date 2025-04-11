@@ -7,6 +7,7 @@
 ## Flag
 
 
+* [https://uefi.org/specifications](https://uefi.org/specifications)
 * UEFI加载 [https://github.com/rhboot](https://github.com/rhboot)
 * RHEL衍生版本升级 [https://github.com/oamg/leapp](https://github.com/oamg/leapp)
     * [https://almalinux.org/elevate](https://almalinux.org/elevate)

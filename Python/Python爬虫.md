@@ -28,8 +28,6 @@
 * [xvfb可以将屏幕的图像输出给放到虚拟内存中](https://blog.csdn.net/wkb342814892/article/details/81591394)
 * [https://github.com/scrapy/scrapy](https://github.com/scrapy/scrapy)
 * [https://github.com/mouday/spider-admin-pro](https://github.com/mouday/spider-admin-pro)
-* [https://github.com/BuilderIO/gpt-crawler](https://github.com/BuilderIO/gpt-crawler)
-* AI辅助 [https://github.com/coder-hxl/x-crawl](https://github.com/coder-hxl/x-crawl)
 
 
 **[xpath和css选择器](/Web/README.md#xpath和css选择器)**

@@ -198,6 +198,7 @@
 + [https://teamdev.com/jniwrapper](https://teamdev.com/jniwrapper)
 + 线程池 [https://github.com/acmenlt/dynamic-threadpool](https://github.com/acmenlt/dynamic-threadpool)
 + [https://github.com/opengoofy/hippo4j](https://github.com/opengoofy/hippo4j)
++ [https://github.com/dromara/dynamic-tp](https://github.com/dromara/dynamic-tp)
 + 线程间消息传递 [https://github.com/lmax-exchange/disruptor](https://github.com/lmax-exchange/disruptor)
 + [https://github.com/alibaba/transmittable-thread-local](https://github.com/alibaba/transmittable-thread-local)
 + [https://github.com/real-logic/agrona](https://github.com/real-logic/agrona)
@@ -687,6 +688,7 @@
     + [https://github.com/eventuate-examples](https://github.com/eventuate-examples)
     + [https://eventuate.io](https://eventuate.io)
     + [https://microservices.io](https://microservices.io)
++ 编排引擎 [https://github.com/conductor-oss/conductor](https://github.com/conductor-oss/conductor)
 
 
 * [https://github.com/kilim/kilim](https://github.com/kilim/kilim)

@@ -127,6 +127,7 @@
 - [https://github.com/defog-ai/sqlcoder](https://github.com/defog-ai/sqlcoder)
 - [https://github.com/SuperDuperDB/superduperdb](https://github.com/SuperDuperDB/superduperdb)
 - [https://github.com/vanna-ai/vanna](https://github.com/vanna-ai/vanna)
+- [https://github.com/zhangchenchen/query_gpt](https://github.com/zhangchenchen/query_gpt)
 - 代码搜索 [https://github.com/ast-grep/ast-grep](https://github.com/ast-grep/ast-grep)
 - 可视化前端设计 [https://github.com/webstudio-is/webstudio](https://github.com/webstudio-is/webstudio)
 - [https://github.com/SawyerHood/draw-a-ui](https://github.com/SawyerHood/draw-a-ui)
@@ -176,6 +177,7 @@
 * [https://sourcehut.org](https://sourcehut.org)
     * [https://sr.ht](https://sr.ht)
 * [https://pagure.io](https://pagure.io)
+* [https://github.com/bitkeeper-scm/bitkeeper](https://github.com/bitkeeper-scm/bitkeeper)
 
 
 
