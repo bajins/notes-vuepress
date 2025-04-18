@@ -317,6 +317,8 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * https://khoatoantin.com/cidms（账号：trogiup24h 密码：PHO）
 * [https://www.nirsoft.net/utils/product_cd_key_viewer.html](https://www.nirsoft.net/utils/product_cd_key_viewer.html)
 * [拨打免费电话激活Windows、Office](https://mp.weixin.qq.com/s/eiIutreWTe5AHPXjkOUwMQ)
+* [https://getconfirmationid.com](https://getconfirmationid.com)
+    * [网页激活](https://mp.weixin.qq.com/s/kn86Wisr2DGfyAlKJUFOwQ)
 
 
 

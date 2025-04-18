@@ -488,7 +488,6 @@
 
 * [https://github.com/027xiguapi/pear-rec](https://github.com/027xiguapi/pear-rec)
 * [https://github.com/obsproject/obs-studio](https://github.com/obsproject/obs-studio)
-* [https://github.com/ShareX](https://github.com/ShareX)
 * [https://github.com/aseprite/aseprite](https://github.com/aseprite/aseprite)
 * [https://github.com/akon47/ScreenRecorder](https://github.com/akon47/ScreenRecorder)
 * [https://github.com/wulkano/Kap](https://github.com/wulkano/Kap)
@@ -633,6 +632,7 @@
 
 
 * [https://github.com/flameshot-org/flameshot](https://github.com/flameshot-org/flameshot)
+* [https://github.com/ShareX](https://github.com/ShareX)
 * [https://github.com/greenshot](https://github.com/greenshot)
 * [https://github.com/ckaiser/Lightscreen](https://github.com/ckaiser/Lightscreen)
 * Lightshot [https://app.prntscr.com](https://app.prntscr.com)
@@ -643,6 +643,7 @@
 * VeryCapture https://wwr.lanzoui.com/b026bvydi 9zzn
 * Snagit [https://www.techsmith.com/screen-capture.html](https://www.techsmith.com/screen-capture.html)
 * [https://www.ashampoo.com/zh-cn/snap](https://www.ashampoo.com/zh-cn/snap)
+* [https://pixpin.cn](https://pixpin.cn)
 
 
 **FastStone Capture**

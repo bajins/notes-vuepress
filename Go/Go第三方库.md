@@ -122,6 +122,7 @@
 * [https://github.com/emicklei/go-restful](https://github.com/emicklei/go-restful)
 * [https://github.com/davyxu/cellnet](https://github.com/davyxu/cellnet)
 * [https://github.com/Danny-Dasilva/CycleTLS](https://github.com/Danny-Dasilva/CycleTLS)
+* [https://github.com/elazarl/goproxy](https://github.com/elazarl/goproxy)
 * 图表库 [https://github.com/go-echarts](https://github.com/go-echarts)
 * 生成和管理调色板 [https://github.com/muesli/gamut](https://github.com/muesli/gamut)
 * 队列 [https://github.com/oleiade/lane](https://github.com/oleiade/lane)

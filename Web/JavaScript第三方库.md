@@ -68,6 +68,7 @@
 * [https://github.com/formatjs/formatjs](https://github.com/formatjs/formatjs)
 * [https://github.com/i18next/i18next](https://github.com/i18next/i18next)
 * [https://github.com/iLib-js](https://github.com/iLib-js)
+* [https://github.com/zhangfisher/voerka-i18n](https://github.com/zhangfisher/voerka-i18n)
 * 模拟数据生成 [https://github.com/nuysoft/Mock](https://github.com/nuysoft/Mock)
 * [https://github.com/dreamhead/moco](https://github.com/dreamhead/moco)
 * [https://github.com/typicode/json-server](https://github.com/typicode/json-server)

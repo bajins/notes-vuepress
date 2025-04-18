@@ -30,6 +30,7 @@
     - [https://github.com/DarkFlippers/unleashed-firmware](https://github.com/DarkFlippers/unleashed-firmware)
 
 
+* 键盘快捷键的梳理表 [https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts)
 * [有人说超威半导体（AMD）没有512位高级矢量扩展指令集（AVX512），属于残废，是真的吗？](https://www.zhihu.com/question/367281009)
 * [如何看待Linus Torvalds对AVX512的评价？](https://www.zhihu.com/question/406517759)
 
@@ -670,6 +671,7 @@
 * 共享屏幕 [https://github.com/tonghohin/screen-sharing](https://github.com/tonghohin/screen-sharing)
 * [https://github.com/echoshare/echoshare](https://github.com/echoshare/echoshare)
 * 室内跑步巨幕 [https://github.com/Jamesun921/cam-run](https://github.com/Jamesun921/cam-run)
+* 3D文件查看 [https://github.com/kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer)
 
 
 

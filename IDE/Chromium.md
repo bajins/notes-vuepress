@@ -38,6 +38,11 @@
     - [如何找到Chrome的Crash原因？](https://blog.5udou.cn/blog/detail/1711630845567)
 
 
+
+> Manifest V2 被限制使用，在Chrome浏览器中输入地址：`chrome://flags/#allow-legacy-mv2-extensions`，将 `default` 改成 `enable` 即可启用 Manifest V2 兼容性
+
+
+
 ## 浏览器下载
 
 + [https://github.com/topics/chromium](https://github.com/topics/chromium)
@@ -440,7 +445,7 @@ taskkill /f /im chromedriver.exe
 
 * ABP [https://github.com/adblockplus](https://github.com/adblockplus)
 * ubo [https://github.com/gorhill/uBlock](https://github.com/gorhill/uBlock)
-    * [https://github.com/uBlock-LLC](https://github.com/uBlock-LLC)
+    * ~~[https://github.com/uBlock-LLC](https://github.com/uBlock-LLC)~~
     * [https://github.com/uBlockOrigin](https://github.com/uBlockOrigin)
 * ADB [https://gitlab.com/adblockinc](https://gitlab.com/adblockinc)
     * [https://gitlab.com/eyeo/adblockplus](https://gitlab.com/eyeo/adblockplus)
@@ -476,6 +481,7 @@ taskkill /f /im chromedriver.exe
 * [https://gitlab.com/malware-filter](https://gitlab.com/malware-filter)
     * [https://gitlab.com/curben/blog](https://gitlab.com/curben/blog)
     * [https://github.com/curbengh](https://github.com/curbengh)
+* [https://pgl.yoyo.org/adservers](https://pgl.yoyo.org/adservers)
 * [https://github.com/badmojr/1Hosts](https://github.com/badmojr/1Hosts)
 * [https://github.com/T145/black-mirror](https://github.com/T145/black-mirror)
 * [https://github.com/DandelionSprout](https://github.com/DandelionSprout)
@@ -483,6 +489,7 @@ taskkill /f /im chromedriver.exe
 * [https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters)
 * [https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist)
 * [https://github.com/mullvad/dns-blocklists](https://github.com/mullvad/dns-blocklists)
+
 
 
 - [https://lemon399-markrender.vercel.app](https://lemon399-markrender.vercel.app)
@@ -532,6 +539,7 @@ taskkill /f /im chromedriver.exe
         * [https://www.youxiaohou.com](https://www.youxiaohou.com)
     * CSDN去广告 [https://github.com/adlered/CSDNGreener](https://github.com/adlered/CSDNGreener)
     * [https://github.com/027xiguapi/code-box](https://github.com/027xiguapi/code-box)
+    * 百度云 [https://github.com/hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift)
 * 暴力猴 [https://github.com/violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey)
 * 油猴 [https://github.com/greasemonkey/greasemonkey](https://github.com/greasemonkey/greasemonkey)
 

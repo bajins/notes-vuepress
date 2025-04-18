@@ -86,6 +86,7 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * 全历史 [https://www.allhistory.com](https://www.allhistory.com)
 * iData [https://www.cn-ki.net](https://www.cn-ki.net)
 * 术语在线 [http://www.termonline.cn](http://www.termonline.cn)
+* 航班线路 [https://flight.is26.com](https://flight.is26.com)
 
 
 
@@ -149,6 +150,7 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 - [https://www.ppbzy.com](https://www.ppbzy.com)
 - 视频编辑 [https://pikimov.com](https://pikimov.com)
 - 儿童睡前故事 [https://beddystories.com/zh](https://beddystories.com/zh)
+- [https://publiciptv.com](https://publiciptv.com)
 
 
 

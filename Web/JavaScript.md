@@ -109,8 +109,7 @@
 * [https://github.com/comehope/front-end-daily-challenges](https://github.com/comehope/front-end-daily-challenges)
 * [https://github.com/gothinkster/realworld](https://github.com/gothinkster/realworld)
 * [https://github.com/tanpero/JavaScript-Art-Tour](https://github.com/tanpero/JavaScript-Art-Tour)
-* 前端面试手册 [https://github.com/yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook)
-* [https://github.com/loverajoel/jstips](https://github.com/loverajoel/jstips)
+* JS技巧 [https://github.com/loverajoel/jstips](https://github.com/loverajoel/jstips)
 * [https://www.javascriptcn.com](https://www.javascriptcn.com) 1212/1024
 * [https://github.com/superherojs/superherojs](https://github.com/superherojs/superherojs)
 * 单行代码 [https://github.com/1milligram/1loc](https://github.com/1milligram/1loc)

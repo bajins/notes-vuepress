@@ -663,6 +663,8 @@ rsync -avP -r -v --exclude sourcedir/notinclude /home/work/sourcedir work@www.my
 
 ## 性能测试
 
+* [https://github.com/masonr/yet-another-bench-script](https://github.com/masonr/yet-another-bench-script)
+
 **bench.sh**
 
 > 这个是秋水逸冰老大的脚本，用于测试网络下载及主机IO性能测试。是网络上普遍使用的脚本，界面很漂亮。
