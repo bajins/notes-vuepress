@@ -417,6 +417,17 @@ gpgcheck=1
 gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 ```
 
+- 或者
+
+```bash
+sudo sh -c 'echo "[google-chrome]
+name=google-chrome
+baseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64
+enabled=1
+gpgcheck=1
+gpgkey=https://dl.google.com/linux/linux_signing_key.pub" > /etc/yum.repos.d/google-chrome.repo'
+```
+
 - 安装
 
 ```bash
@@ -425,5 +436,17 @@ yum install -y google-chrome-stable
 yum install google-chrome-stable --nogpgcheck
 ```
 
+
+### Debian或Ubuntu
+
+```bash
+# APT仓库安装
+sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
+wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo apt update
+sudo apt install google-chrome-stable -y
+# 下载.deb包安装
+sudo apt install google-chrome-stable_current_amd64.deb -y
+```
 
 

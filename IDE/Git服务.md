@@ -233,6 +233,7 @@ volumes:
 - [https://github.com/Potterli20/hosts](https://github.com/Potterli20/hosts)
 - [https://codechina.csdn.net/mirrors](https://codechina.csdn.net/mirrors)
 - [https://fcp7.com/github-mirror-daily-updates.html](https://fcp7.com/github-mirror-daily-updates.html)
+- [https://github.com/jvxiao/speed-github](https://github.com/jvxiao/speed-github)
 
 
 **Raw 文件加速**

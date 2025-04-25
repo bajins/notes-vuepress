@@ -263,8 +263,26 @@
     * [动态追踪技术漫谈](https://blog.openresty.com.cn/cn/dynamic-tracing)
 * [https://github.com/jemalloc](https://github.com/jemalloc)
 * [https://github.com/datafuselabs](https://github.com/datafuselabs)
+* [https://github.com/bpftrace/bpftrace](https://github.com/bpftrace/bpftrace)
 * [https://github.com/iovisor/bcc](https://github.com/iovisor/bcc)
 * [https://github.com/phodal/coca](https://github.com/phodal/coca)
+* [https://github.com/cilium/cilium](https://github.com/cilium/cilium)
+* [https://github.com/parca-dev/parca](https://github.com/parca-dev/parca)
+* [https://github.com/coroot/coroot](https://github.com/coroot/coroot)
+* [https://github.com/hengyoush/kyanos](https://github.com/hengyoush/kyanos)
+* [https://github.com/aquasecurity/tracee](https://github.com/aquasecurity/tracee)
+* [https://github.com/keyval-dev/odigos](https://github.com/keyval-dev/odigos)
+* [https://github.com/cilium/pwru](https://github.com/cilium/pwru)
+* [https://github.com/deepflowys/deepflow](https://github.com/deepflowys/deepflow)
+* [https://github.com/Netflix/bpftop](https://github.com/Netflix/bpftop)
+* [https://github.com/Sysinternals/SysmonForLinux](https://github.com/Sysinternals/SysmonForLinux)
+* [https://github.com/tarsal-oss/kflowd](https://github.com/tarsal-oss/kflowd)
+* [https://github.com/netobserv/netobserv-ebpf-agent](https://github.com/netobserv/netobserv-ebpf-agent)
+* [https://github.com/apache/skywalking-rover](https://github.com/apache/skywalking-rover)
+* [https://github.com/rubrikinc/wachy](https://github.com/rubrikinc/wachy)
+* [https://github.com/iovisor/ply](https://github.com/iovisor/ply)
+* [https://github.com/kindlingproject/kindling](https://github.com/kindlingproject/kindling)
+* [https://github.com/Exein-io/pulsar](https://github.com/Exein-io/pulsar)
 * Linux开发Windows程序环境 [https://midipix.org](https://midipix.org)
     * [https://dev.midipix.org](https://dev.midipix.org)
     * [https://github.com/lalbornoz/midipix_build](https://github.com/lalbornoz/midipix_build)
@@ -563,6 +581,7 @@
 -  SQL查询生成 [https://github.com/kysely-org/kysely](https://github.com/kysely-org/kysely)
 - 文件 [https://github.com/hughfenghen/opfs-tools](https://github.com/hughfenghen/opfs-tools)
 - 3D渲染 [https://github.com/Orillusion/orillusion](https://github.com/Orillusion/orillusion)
+- TS转JS [https://github.com/bloomberg/ts-blank-space](https://github.com/bloomberg/ts-blank-space)
 
 
 
@@ -571,7 +590,6 @@
 + [https://github.com/topics/wasm](https://github.com/topics/wasm)
 
 * [https://github.com/WebAssembly](https://github.com/WebAssembly)
-    * [https://github.com/wasm3](https://github.com/wasm3)
 * [https://developer.mozilla.org/zh-CN/docs/WebAssembly](https://developer.mozilla.org/zh-CN/docs/WebAssembly)
 * [https://webassembly.org](https://webassembly.org)
 * [https://www.wasm.com.cn](https://www.wasm.com.cn)
@@ -583,7 +601,9 @@
 + [https://github.com/emscripten-ports](https://github.com/emscripten-ports)
 + [https://github.com/AssemblyScript](https://github.com/AssemblyScript)
 + [https://github.com/kettle11/tangle](https://github.com/kettle11/tangle)
++ [https://github.com/wasm3](https://github.com/wasm3)
 + [https://github.com/wasmerio](https://github.com/wasmerio)
++ [https://github.com/wasmi-labs](https://github.com/wasmi-labs)
 + [https://github.com/fermyon/spin](https://github.com/fermyon/spin)
 + [https://github.com/finos/perspective](https://github.com/finos/perspective)
 + 哈希函数 [https://github.com/Daninet/hash-wasm](https://github.com/Daninet/hash-wasm)
@@ -619,6 +639,7 @@
 * go [https://github.com/JohnStarich/go-wasm](https://github.com/JohnStarich/go-wasm)
 * [https://github.com/tetratelabs](https://github.com/tetratelabs)
 * python [https://github.com/pyodide/pyodide](https://github.com/pyodide/pyodide)
+* TypeScript [https://github.com/AssemblyScript](https://github.com/AssemblyScript)
 
 
 

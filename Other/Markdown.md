@@ -570,6 +570,7 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/yesmore/inke](https://github.com/yesmore/inke)
 * [https://github.com/streetwriters/notesnook](https://github.com/streetwriters/notesnook)
 * [https://github.com/docmost/docmost](https://github.com/docmost/docmost)
+* [https://github.com/codexu/note-gen](https://github.com/codexu/note-gen)
 * GitBook替代 [https://github.com/lindeer/dartbook](https://github.com/lindeer/dartbook)
 * 临时存储 [https://github.com/heyman/heynote](https://github.com/heyman/heynote)
 * 待办事项 [https://github.com/go-vikunja/vikunja](https://github.com/go-vikunja/vikunja)

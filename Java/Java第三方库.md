@@ -8,6 +8,7 @@
 + [现在常用的java框架有哪些?](https://www.zhihu.com/question/362802033)
 + [Java开发主流框架是什么？](https://www.zhihu.com/question/307745171)
 + [https://github.com/akullpp/awesome-java](https://github.com/akullpp/awesome-java)
++ [https://github.com/uhub/awesome-java](https://github.com/uhub/awesome-java)
 + [https://github.com/topics/java-library](https://github.com/topics/java-library)
 + [https://github.com/xuxueli](https://github.com/xuxueli)
 + [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
@@ -85,14 +86,16 @@
 - [输出debug日志前需要isDebugEnabled吗](https://blog.csdn.net/u013332124/article/details/82469960)
 
 
+* [https://github.com/tinylog-org](https://github.com/tinylog-org)
 * [https://github.com/apache/logging-log4j2](https://github.com/apache/logging-log4j2)
 * [https://github.com/qos-ch](https://github.com/qos-ch)
     * [https://github.com/qos-ch/logback](https://github.com/qos-ch/logback)
-    * [https://github.com/logstash/logstash-logback-encoder](https://github.com/logstash/logstash-logback-encoder)
+    * [https://github.com/logfellow/logstash-logback-encoder](https://github.com/logfellow/logstash-logback-encoder)
     * [https://github.com/YLongo/logback-chinese-manual](https://github.com/YLongo/logback-chinese-manual)
     * [http://www.logback.cn](http://www.logback.cn)
     * [Spring框架下异步日志收集及验证是否生效](https://wangbaiyuan.cn/verify-effectiveness-of-asynchronous-log-collection-under-spring-framework.html)
 * [https://github.com/qqxx6661/logRecord](https://github.com/qqxx6661/logRecord)
+* [https://github.com/bluelinelabs/LoganSquare](https://github.com/bluelinelabs/LoganSquare)
 
 
 **Cache**

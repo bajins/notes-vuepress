@@ -23,6 +23,7 @@
 * [https://github.com/i5ting/asynchronous-flow-control](https://github.com/i5ting/asynchronous-flow-control)
 * 基准测试 [https://github.com/RafaelGSS/nodejs-bench-operations](https://github.com/RafaelGSS/nodejs-bench-operations)
 * 实时协作 [https://github.com/partykit/partykit](https://github.com/partykit/partykit)
+* 版本支持情况 [https://github.com/williamkapke/node-compat-table](https://github.com/williamkapke/node-compat-table)
 
 
 > `node`执行脚本时获取参数`process.argv`数组，下标`0`为执行程序的绝对路径，下标`1`为脚本的绝对路径，
@@ -151,12 +152,13 @@
 * 文件操作 [https://github.com/jprichardson/node-fs-extra](https://github.com/jprichardson/node-fs-extra)
 * 文件监视 [https://github.com/paulmillr/chokidar](https://github.com/paulmillr/chokidar)
 * 环境变量加载 [https://github.com/motdotla/dotenv](https://github.com/motdotla/dotenv)
+* 密码哈希处理 [https://github.com/kelektiv/node.bcrypt.js](https://github.com/kelektiv/node.bcrypt.js)
 
 
 
 
 
-## 管理NodeJS
+## 版本管理
 
 + [https://github.com/topics/versioning](https://github.com/topics/versioning)
 + [https://github.com/topics/version-manager](https://github.com/topics/version-manager)
@@ -173,6 +175,8 @@
 * [https://github.com/nodesource/distributions](https://github.com/nodesource/distributions)
 * [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm)
 * [https://github.com/jdxcode/rtx](https://github.com/jdxcode/rtx)
+* [https://github.com/volta-cli/volta](https://github.com/volta-cli/volta)
+* [https://github.com/jetify-com/devbox](https://github.com/jetify-com/devbox)
 
 
 ```bash
@@ -476,6 +480,7 @@ request({
     * [https://github.com/casperjs/casperjs](https://github.com/casperjs/casperjs)
 * [https://github.com/krisselden/chrome-debugging-client](https://github.com/krisselden/chrome-debugging-client)
 * [https://github.com/cyrus-and/chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface)
+* [https://github.com/node-inspector](https://github.com/node-inspector)
 * [https://github.com/TracerBench/chrome-debugging-client](https://github.com/TracerBench/chrome-debugging-client)
 * 基于Gecko [https://github.com/laurentj/slimerjs](https://github.com/laurentj/slimerjs)
 * [https://github.com/vitest-dev/vitest](https://github.com/vitest-dev/vitest)

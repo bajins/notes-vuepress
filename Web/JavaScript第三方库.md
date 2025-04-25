@@ -253,6 +253,7 @@
 * 加密 [https://github.com/travist/jsencrypt](https://github.com/travist/jsencrypt)
 * [https://github.com/dmarman/sha256algorithm](https://github.com/dmarman/sha256algorithm)
 * [https://github.com/digitalbazaar/forge](https://github.com/digitalbazaar/forge)
+* [https://github.com/SocketDev](https://github.com/SocketDev)
 * 数据库可视化 [https://github.com/lana-k/sqliteviz](https://github.com/lana-k/sqliteviz)
 * JSON增强 [https://github.com/blitz-js/superjson](https://github.com/blitz-js/superjson)
 * JSON校验 [https://github.com/ozkxr/match-json](https://github.com/ozkxr/match-json)
@@ -329,6 +330,10 @@
 * [https://github.com/js-cookie](https://github.com/js-cookie)
 * [https://github.com/zimv/websocket-heartbeat-js](https://github.com/zimv/websocket-heartbeat-js)
 * [https://github.com/JustinGastby/supa-simple-socket](https://github.com/JustinGastby/supa-simple-socket)
+* [https://github.com/socketio](https://github.com/socketio)
+    * [https://github.com/darrachequesne/socket.io-sticky](https://github.com/darrachequesne/socket.io-sticky)
+    * [https://github.com/indutny/sticky-session](https://github.com/indutny/sticky-session)
+    * [https://github.com/wzrdtales/socket-io-sticky-session](https://github.com/wzrdtales/socket-io-sticky-session)
 
 
 
@@ -448,7 +453,6 @@
     * [https://github.com/uetchy/cadmio](https://github.com/uetchy/cadmio)
     * [https://github.com/gilboonet](https://github.com/gilboonet)
 * [https://github.com/adrai](https://github.com/adrai)
-* [https://github.com/socketio](https://github.com/socketio)
 * [https://www.jointjs.com](https://www.jointjs.com)
     * [https://resources.jointjs.com/tutorials/joint/tutorials/ports.html](https://resources.jointjs.com/tutorials/joint/tutorials/ports.html)
 * [https://github.com/jwilber/roughViz](https://github.com/jwilber/roughViz)

@@ -63,12 +63,14 @@
 * [一名Java开发的Rust学习笔记](https://juejin.cn/post/7347190677505359906)
 * [Rust Cargo使用指南 | 第十四篇 | 发布配置 Profile](https://zhuanlan.zhihu.com/p/476524365)
 * [三年后，我们退出了 Rust 游戏开发](https://loglog.games/blog/leaving-rust-gamedev)
+* [所有文章 | 从不说安全词](https://jt26wzz.com/posts)
 
 
 - IDE [https://github.com/intellij-rust](https://github.com/intellij-rust)
 - [https://github.com/vadimcn/codelldb](https://github.com/vadimcn/codelldb)
 - [Rust 如何实现单例模式？](https://www.zhihu.com/question/391694703)
 - [异步 HTTP](https://blog.yoshuawuyts.com/async-http)
+- 桌面程序参考 [https://github.com/jwenjian/coverfun](https://github.com/jwenjian/coverfun)
 
 
 **不显示控制台窗口**

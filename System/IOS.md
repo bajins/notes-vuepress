@@ -33,6 +33,9 @@
 * [https://github.com/AFNetworking/AFNetworking](https://github.com/AFNetworking/AFNetworking)
 * JSON [https://github.com/johnezang/JSONKit](https://github.com/johnezang/JSONKit)
 * SQLite [https://github.com/ccgus/fmdb](https://github.com/ccgus/fmdb)
+* 压缩 [https://github.com/weichsel/ZIPFoundation](https://github.com/weichsel/ZIPFoundation)
+* 防止键盘向上滑动并覆盖 [https://github.com/hackiftekhar/IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager)
+* 应用内设置 [https://github.com/futuretap/InAppSettingsKit](https://github.com/futuretap/InAppSettingsKit)
 
 
 + IDE [https://www.jetbrains.com/zh-cn/objc](https://www.jetbrains.com/zh-cn/objc)
@@ -71,6 +74,10 @@
 - 应用管理器 [https://github.com/milanvarady/Applite](https://github.com/milanvarady/Applite)
 - [https://devutils.com](https://devutils.com)
 - 剪贴板 [https://github.com/s1ntoneli/Copi](https://github.com/s1ntoneli/Copi)
+- 虚拟机 [https://github.com/utmapp/UTM](https://github.com/utmapp/UTM)
+- [https://github.com/ish-app/ish](https://github.com/ish-app/ish)
+- [https://github.com/holzschu/a-shell](https://github.com/holzschu/a-shell)
+
 
 
 * [https://macked.app](https://macked.app)

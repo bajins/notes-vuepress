@@ -254,6 +254,7 @@
 * [https://github.com/techa03/goodsKill](https://github.com/techa03/goodsKill)
 * [https://github.com/zycgit/hasor](https://github.com/zycgit/hasor)
 * [https://github.com/enilu/web-flash](https://github.com/enilu/web-flash)
+* [https://github.com/WANG-Fan0912/SnowAdmin](https://github.com/WANG-Fan0912/SnowAdmin)
 * 商城 [https://github.com/crmeb/crmeb_java](https://github.com/crmeb/crmeb_java)
 * 行为验证码 [https://github.com/anji-plus/captcha](https://github.com/anji-plus/captcha)
 * EL-ADMIN 后台管理系统 [https://github.com/elunez/eladmin](https://github.com/elunez/eladmin)

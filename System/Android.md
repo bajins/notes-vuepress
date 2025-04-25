@@ -74,6 +74,9 @@
 ## 自动化
 
 * [https://github.com/appium](https://github.com/appium)
+* [https://github.com/ysbing/YADB](https://github.com/ysbing/YADB)
+* [https://github.com/yume-chan](https://github.com/yume-chan)
+* [https://github.com/tango-adb](https://github.com/tango-adb)
 * [https://tasker.joaoapps.com](https://tasker.joaoapps.com)
 * [https://github.com/openatx/uiautomator2](https://github.com/openatx/uiautomator2)
 

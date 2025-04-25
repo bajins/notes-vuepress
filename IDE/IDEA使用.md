@@ -443,6 +443,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 ## 热部署策略
 
 * [Updating Applications on Application Servers](https://www.jetbrains.com/help/idea/updating-applications-on-application-servers.html)
+* [如何在 IntelliJ IDEA 中为 Spring Boot 应用实现热部署](https://blog.csdn.net/binbinxyz/article/details/144264100)
 
 - 打开顶部菜单`Run` -> `Edit Configurations` -> 应用名称如`SpringBoot` -> `目标项目` -> `Configuration`
 - 选择`Spring Boot` -> `Update classes and resources`下的`On 'Update' action`和`On frame deactivation`两个选项
@@ -456,14 +457,16 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 **动态**
 
-- 同时按住<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>/</kbd>然后点击`Registry`，勾选自动编译并调整延时参数。
+- 同时按住<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>或者<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>/</kbd>，然后点击`Registry`，勾选自动编译并调整延时参数。
 
 1. `compiler.automake.allow.when.app.running`自动编译（动态）
 2. `compiler.automake.trigger.delay`触发自动生成以响应文件系统事件之前的延迟（单位毫秒），默认300
-3. `compiler.document.save.trigger.delay`触发保存以响应文档更改之前的延迟（单位毫秒），默认1500
-4. `compiler.build.report.statistics`显示构建器的执行时间
-5. `compiler.document.save.enabled`是否启用项目保存以响应文档更改
-6. `compiler.external.javac.keep.alive.timeout`如果在指定的时间段或更长时间内未使用，则IDE将关闭缓存的javac编译过程
+3. `compiler.automake.build.while.idle.timeout`应用不活跃期，在此期间，如需自动触发，将自动构建，默认60000
+4. `compiler.automake.postpone.when.idle.less.than`IDE处于空闲状态且少于指定毫秒数，则自动构建将被推迟，默认3000
+5. `compiler.document.save.trigger.delay`触发保存以响应文档更改之前的延迟（单位毫秒），默认1500
+6. `compiler.build.report.statistics`显示构建器的执行时间
+7. `compiler.document.save.enabled`是否启用项目保存以响应文档更改
+8. `compiler.external.javac.keep.alive.timeout`如果在指定的时间段或更长时间内未使用，则IDE将关闭缓存的javac编译过程
 
 > 修改完成后直接敲回车即保存
 
