@@ -249,11 +249,16 @@ firewall-cmd --query-panic
 * [https://www.jianshu.com/p/802010d54849](https://www.jianshu.com/p/802010d54849)
 * [https://cloud.tencent.com/developer/article/1332118](https://cloud.tencent.com/developer/article/1332118)
 * [http://winmtr.net/download-winmtr](http://winmtr.net/download-winmtr)
-* [Netcat详解](https://www.cnblogs.com/dalianpai/p/12505678.html)
+* [https://sourceforge.net/projects/netcat](https://sourceforge.net/projects/netcat)
+    * [Netcat详解](https://www.cnblogs.com/dalianpai/p/12505678.html)
 * [http://www.dest-unreach.org/socat](http://www.dest-unreach.org/socat)
 * [https://github.com/vi/websocat](https://github.com/vi/websocat)
 * [https://github.com/pouriyajamshidi/tcping](https://github.com/pouriyajamshidi/tcping)
 * [https://github.com/hanshuaikang/Nping](https://github.com/hanshuaikang/Nping)
+* [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
+* [https://github.com/SkyLined/LocalNetworkScanner](https://github.com/SkyLined/LocalNetworkScanner)
+* [https://github.com/aceberg/WatchYourLAN](https://github.com/aceberg/WatchYourLAN)
+
 
 > 在Linux中有一个更好的网络连通性判断工具，它可以结合ping | nslookup | tracert 来判断网络的相关特性，这个命令就是mtr。
 
@@ -320,6 +325,25 @@ tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout] [-R] [-S srcaddr] [-4
 ```bash
 tracert www.bajins.com
 ```
+
+
+### 检查端口连接
+
+```bash
+exec 3<>/dev/tcp/<IP地址>/<端口号>
+timeout 5 bash -c "echo >/dev/tcp/<IP地址>/<端口号>"
+(sleep 5 && kill $$) & echo > /dev/tcp/<IP地址>/<端口号>
+python -c "import socket; s=socket.socket(); s.settimeout(5); s.connect(('<IP地址>',<端口号>));"
+python -c 'import socket; s=socket.socket(socket.AF_INET,socket.SOCK_STREAM); s.settimeout(5); s.connect(("<IP地址>",<端口号>))'
+telnet <IP地址> <端口号>
+# netcat
+nc -vz <IP地址> <端口号>
+nmap -p <端口号> <IP地址>
+curl -v <协议>://<IP地址>:<端口号>
+curl -v telnet://<IP地址>:<端口号>
+socat - TCP:<IP地址>:<端口号>
+```
+
 
 
 

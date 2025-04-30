@@ -100,7 +100,8 @@
 - [https://github.com/OmniSharp](https://github.com/OmniSharp)
 - [https://github.com/Samsung/netcoredbg](https://github.com/Samsung/netcoredbg)
 - [https://learn.microsoft.com/zh-cn/sysinternals](https://learn.microsoft.com/zh-cn/sysinternals)
-    - [https://github.com/Sysinternals](https://github.com/Sysinternals)
+    - ~~[https://github.com/Sysinternals](https://github.com/Sysinternals)~~
+    - [https://github.com/MicrosoftDocs/sysinternals](https://github.com/MicrosoftDocs/sysinternals)
 - [https://visualstudio.microsoft.com/zh-hans/vs](https://visualstudio.microsoft.com/zh-hans/vs)
     ```
     2022 Enterprise（企业版）

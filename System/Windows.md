@@ -48,6 +48,30 @@
 - [https://github.com/microsoft/latte](https://github.com/microsoft/latte)
 
 
+
+**生成电池报告**
+
+* [https://www.nirsoft.net/utils/battery_information_view.html](https://www.nirsoft.net/utils/battery_information_view.html)
+* [https://batterycare.net/en/download.html](https://batterycare.net/en/download.html)
+* [https://www.cpuid.com/softwares/hwmonitor.html](https://www.cpuid.com/softwares/hwmonitor.html)
+* [https://www.aida64.com/downloads](https://www.aida64.com/downloads)
+    * https://www.52pojie.cn/thread-2024502-1-1.html
+* [https://www.passmark.com/products/batmon](https://www.passmark.com/products/batmon)
+* [https://www.ccleaner.com/zh-cn/speccy](https://www.ccleaner.com/zh-cn/speccy)
+* [https://batterybarpro.com](https://batterybarpro.com)
+* [Save Battery](https://apps.microsoft.com/detail/9nblggh5prjf)
+* [https://github.com/medhachaitanya/Pure-Battery-Analytics](https://github.com/medhachaitanya/Pure-Battery-Analytics)
+
+
+```batch
+:: DESIGN CAPACITY（设计容量）
+:: FULL CHARGE CAPACITY（当前满电容量）
+:: CYCLE COUNT（循环次数，部分机型可能不显示）
+:: 健康度计算公式：(当前满电容量 ÷ 设计容量) × 100%
+powercfg /batteryreport /output "Desktop\battery-report.html"
+```
+
+
 **绕过 Windows 11 24H2 的兼容性检查程序**
 
 ```batch

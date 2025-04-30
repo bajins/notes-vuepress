@@ -8,12 +8,12 @@
 * [https://github.com/No-Github/Digital-Privacy](https://github.com/No-Github/Digital-Privacy)
 * IP库 [https://db-ip.com](https://db-ip.com)
 * 谷歌全球IP地址库 [https://github.com/justjavac/Google-IPs](https://github.com/justjavac/Google-IPs)
-* 教育目的网络钓鱼工具 [https://github.com/htr-tech/zphisher](https://github.com/htr-tech/zphisher)
 * 公共手册 [https://handbook.opencoreventures.com](https://handbook.opencoreventures.com)
 * [https://gitlab.com/gitlab-com/content-sites/handbook](https://gitlab.com/gitlab-com/content-sites/handbook)
 * [https://github.com/formbricks/formbricks](https://github.com/formbricks/formbricks)
 * 日程安排 [https://github.com/calcom/cal.com](https://github.com/calcom/cal.com)
 * 股票 [https://github.com/Rockyzsu/stock](https://github.com/Rockyzsu/stock)
+* 人体系统调优 [https://github.com/zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization)
 
 
 
@@ -95,6 +95,13 @@
 ## 免费可商用字体
 
 + [https://fonts.zeoseven.com](https://fonts.zeoseven.com)
++ [https://www.monotype.com/fonts](https://www.monotype.com/fonts)
++ [https://www.myfonts.com](https://www.myfonts.com)
++ [https://learn.microsoft.com/zh-cn/typography/font-list](https://learn.microsoft.com/zh-cn/typography/font-list)
++ [https://fonts.adobe.com/fonts](https://fonts.adobe.com/fonts)
++ [https://www.gnu.org/software/freefont](https://www.gnu.org/software/freefont)
++ [https://wiki.archlinux.org/title/Fonts](https://wiki.archlinux.org/title/Fonts)
++ [https://savannah.gnu.org/projects/freefont](https://savannah.gnu.org/projects/freefont)
 
 
 * [https://github.com/jaywcjlove/free-font](https://github.com/jaywcjlove/free-font)
@@ -112,12 +119,14 @@
 * [https://www.alibabafonts.com](https://www.alibabafonts.com)
 * [https://github.com/google/fonts](https://github.com/google/fonts)
     * [https://github.com/googlefonts](https://github.com/googlefonts)
+    * [https://fonts.google.com/noto](https://fonts.google.com/noto)
     * [https://developers.google.cn/fonts](https://developers.google.cn/fonts)
     * [https://pub.flutter-io.cn/packages/google_fonts](https://pub.flutter-io.cn/packages/google_fonts)
     * [http://www.googlefonts.net](http://www.googlefonts.net)
     * [https://github.com/notofonts/noto-cjk](https://github.com/notofonts/noto-cjk)
     * [https://github.com/simonsmh/notocjk](https://github.com/simonsmh/notocjk)
 * [https://github.com/subframe7536/maple-font](https://github.com/subframe7536/maple-font)
+* [https://github.com/dejavu-fonts/dejavu-fonts](https://github.com/dejavu-fonts/dejavu-fonts)
 * [https://github.com/fontello](https://github.com/fontello)
 * [https://github.com/TrionesType/zhuque](https://github.com/TrionesType/zhuque)
 * [https://github.com/Chenyu-otf/chenyuluoyan_thin](https://github.com/Chenyu-otf/chenyuluoyan_thin)
@@ -132,12 +141,19 @@
 * 高辨识度字体 [https://brailleinstitute.org/freefont](https://brailleinstitute.org/freefont)
 * 位图编程字体 [https://github.com/slavfox/Cozette](https://github.com/slavfox/Cozette)
 * [京華老宋体](https://zhuanlan.zhihu.com/p/637491623)
+* [https://github.com/i-tu/Hasklig](https://github.com/i-tu/Hasklig)
+* [https://github.com/madmalik/mononoki](https://github.com/madmalik/mononoki)
+* [https://github.com/skosch/Crimson](https://github.com/skosch/Crimson)
+* [https://github.com/octaviopardo/EBGaramond12](https://github.com/octaviopardo/EBGaramond12)
+
 
 
 - [https://www.miao3.cn](https://www.miao3.cn)
 - 字体编辑器 [https://github.com/fontforge/fontforge](https://github.com/fontforge/fontforge)
 - [https://github.com/adobe-type-tools](https://github.com/adobe-type-tools)
 - [https://www.ai.zitijia.com](https://www.ai.zitijia.com)
+- [https://github.com/fontworks-fonts](https://github.com/fontworks-fonts)
+- 字体呈现 [https://gitlab.gnome.org/GNOME/pango](https://gitlab.gnome.org/GNOME/pango)
 
 
 

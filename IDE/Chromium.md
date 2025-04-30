@@ -188,6 +188,7 @@ chrome://flags/#enable-parallel-downloading
     * [https://github.com/dendoink/FrontendWingman](https://github.com/dendoink/FrontendWingman)
         * [https://www.frontendwingman.com/Chrome](https://www.frontendwingman.com/Chrome)
         * [https://juejin.im/book/5c526902e51d4543805ef35e](https://juejin.im/book/5c526902e51d4543805ef35e)
+    * [https://developer.chrome.com/docs/chromium/headless](https://developer.chrome.com/docs/chromium/headless)
 * [https://github.com/blittle/chrome-dev-tools](https://github.com/blittle/chrome-dev-tools)
 * Chrome开发者工具中文手册 [https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools](https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools)
 * [https://github.com/ahangchen/Chromium_doc_zh](https://github.com/ahangchen/Chromium_doc_zh)
@@ -236,6 +237,7 @@ chrome://flags/#enable-parallel-downloading
 > `Headless Browser`(无头的浏览器)是没有图形用户界面(GUI)的web浏览器，通常是通过编程或命令行界面来控制的
 
 + [https://github.com/topics/webdriver](https://github.com/topics/webdriver)
+
 
 * [https://w3c.github.io/webdriver](https://w3c.github.io/webdriver)
 * [Headless Browser](https://www.jianshu.com/p/11d519e2d0cb)

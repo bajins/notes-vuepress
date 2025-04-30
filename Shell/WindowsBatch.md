@@ -676,6 +676,9 @@ REM %SystemRoot%\System32\InfDefaultInstall.exe "%1"
 
 ## 开机启动
 
+> 有几种方法：注册表启动项、启动文件夹、服务(Services)、任务计划程序(Task Scheduler)
+
+
 ### 添加注册表
 
 > `Run`键值代表着开机启动项，也就是说在这个项下的键值会随着开机启动

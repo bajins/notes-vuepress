@@ -680,7 +680,9 @@
 + [https://github.com/topics/installer](https://github.com/topics/installer)
 + [https://github.com/topics/packager](https://github.com/topics/packager)
 + [https://github.com/topics/msi](https://github.com/topics/msi)
+    + [https://learn.microsoft.com/zh-cn/windows/msix](https://learn.microsoft.com/zh-cn/windows/msix)
 + [https://github.com/topics/exe](https://github.com/topics/exe)
+
 
 * Enigma Virtual Box [https://enigmaprotector.com/cn/aboutvb.html](https://enigmaprotector.com/cn/aboutvb.html)
 * [单文件制作程序byJexChan](http://blog.sina.com.cn/s/blog_6fd804fe0102wwwf.html)

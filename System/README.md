@@ -33,6 +33,7 @@
 * 键盘快捷键的梳理表 [https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts)
 * [有人说超威半导体（AMD）没有512位高级矢量扩展指令集（AVX512），属于残废，是真的吗？](https://www.zhihu.com/question/367281009)
 * [如何看待Linus Torvalds对AVX512的评价？](https://www.zhihu.com/question/406517759)
+* [如何为智能手机快速充电：快速充电技术详解](https://eb43.github.io/articles/fast-charging-technologies-in-detail.html)
 
 
 
