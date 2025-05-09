@@ -573,6 +573,7 @@
 * 应用商店 [https://github.com/accrescent/accrescent](https://github.com/accrescent/accrescent)
 * 云盘 [https://github.com/honmaple/maple-file](https://github.com/honmaple/maple-file)
 * 输入法 [https://github.com/crazydan-studio/kuaizi-ime](https://github.com/crazydan-studio/kuaizi-ime)
+* 播放100Hz声音防晕车 [https://github.com/BHznJNs/MotionEaseTune](https://github.com/BHznJNs/MotionEaseTune)
 
 
 ### 证件照

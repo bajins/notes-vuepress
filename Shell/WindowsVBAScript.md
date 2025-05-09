@@ -37,7 +37,9 @@ Function RegexString(rng As Range, str As String)
 End Function
 ```
 
-- 分割字符串并统计
+
+
+## 分割字符串并统计
 
 ```vb
 'https://blog.csdn.net/wordsin/article/details/80575615
@@ -140,3 +142,26 @@ Sub run()
     Next
 End Sub
 ```
+
+
+## 自动高亮行列十字突显
+
+1. 按 <kbd>Alt</kbd> + <kbd>F11</kbd> 打开 VBA 编辑器。
+2. 在左侧项目树中双击当前工作表（如 `Sheet1`）。
+3.粘贴以下代码：
+
+```vb
+Private Sub Worksheet_SelectionChange(ByVal Target As Range)
+    Cells.Interior.ColorIndex = xlNone ' 清除所有高亮
+    If Target.Cells.Count > 1 Then Exit Sub ' 防止多选
+    With Target.EntireRow
+        .Interior.Color = RGB(255, 255, 0) ' 设置行高亮颜色（黄色）
+    End With
+    With Target.EntireColumn
+        .Interior.Color = RGB(255, 255, 0) ' 设置列高亮颜色（黄色）
+    End With
+End Sub
+```
+
+4. 保存并关闭 VBA 编辑器。
+5. 返回 Excel，点击任意单元格即可看到行和列被高亮显示。

@@ -440,6 +440,7 @@
 + [https://github.com/aliaszz/awesome-lowcode-component](https://github.com/aliaszz/awesome-lowcode-component)
 
 
+* [https://github.com/Easy-Editor/EasyEditor](https://github.com/Easy-Editor/EasyEditor)
 * [https://github.com/illacloud/illa-builder](https://github.com/illacloud/illa-builder)
 * 企业级低代码平台 [https://github.com/zhangdaiscott/jeecg-boot](https://github.com/zhangdaiscott/jeecg-boot)
 * [https://github.com/Yiuman/citrus](https://github.com/Yiuman/citrus)

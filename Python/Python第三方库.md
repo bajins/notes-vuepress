@@ -83,6 +83,7 @@
 * [https://github.com/python-cffi/cffi](https://github.com/python-cffi/cffi)
 * [https://github.com/scipy/weave](https://github.com/scipy/weave)
 * 限流 [https://github.com/ZhuoZhuoCrayon/throttled-py](https://github.com/ZhuoZhuoCrayon/throttled-py)
+* JSON [https://github.com/simplejson/simplejson](https://github.com/simplejson/simplejson)
 
 
 

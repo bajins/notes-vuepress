@@ -64,9 +64,11 @@
 > 表情（两个冒号包围的字符）,比如`:blush:`，可以显示 :blush:
 
 + 中文文案排版指北：[https://github.com/sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)
++ [https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)
++ [https://github.com/yikeke/zh-style-guide](https://github.com/yikeke/zh-style-guide)
 + 中英混排文档在线排版工具：[https://github.com/CyC2018/Text-Typesetting](https://github.com/CyC2018/Text-Typesetting)
     + [https://cyc2018.github.io/Text-Typesetting](https://cyc2018.github.io/Text-Typesetting)
-
++ [如何有效地报告 Bug](https://www.chiark.greenend.org.uk/~sgtatham/bugs-cn.html)
 
 
 
