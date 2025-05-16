@@ -154,6 +154,7 @@
     - [https://sourceforge.net/projects/asuswrt-merlin](https://sourceforge.net/projects/asuswrt-merlin)
 - 摄像头监控 [https://github.com/ZoneMinder/zoneminder](https://github.com/ZoneMinder/zoneminder)
 - NAS [https://github.com/truenas](https://github.com/truenas)
+- [https://github.com/zvaultio](https://github.com/zvaultio)
 
 
 
@@ -323,6 +324,7 @@
 * [https://github.com/aaomidi/certbot-dns-google-domains](https://github.com/aaomidi/certbot-dns-google-domains)
 * [https://search.censys.io](https://search.censys.io)
 * [https://github.com/usual2970/certimate](https://github.com/usual2970/certimate)
+* [https://github.com/allinssl/allinssl](https://github.com/allinssl/allinssl)
 * 自动获取证书信息 [https://github.com/eryajf/cloud_dns_exporter](https://github.com/eryajf/cloud_dns_exporter)
 * localhost证书 [https://github.com/anchordotdev/cli](https://github.com/anchordotdev/cli)
 
@@ -577,6 +579,9 @@
 * [https://github.com/movie-web/movie-web](https://github.com/movie-web/movie-web)
 * [https://github.com/blackcandy-org/blackcandy](https://github.com/blackcandy-org/blackcandy)
 * [https://github.com/paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
+* [https://github.com/photoprism/photoprism](https://github.com/photoprism/photoprism)
+* [https://github.com/photoview/photoview](https://github.com/photoview/photoview)
+* [https://github.com/songquanpeng/go-file](https://github.com/songquanpeng/go-file)
 * 有声读物和播客 [https://github.com/advplyr/audiobookshelf](https://github.com/advplyr/audiobookshelf)
 * [https://github.com/janeczku/calibre-web](https://github.com/janeczku/calibre-web)
 * 证件照 [https://github.com/zhbhun/idify](https://github.com/zhbhun/idify)
@@ -642,6 +647,11 @@
 * [https://github.com/WCY-dt/EasyTransfer](https://github.com/WCY-dt/EasyTransfer)
 * [https://github.com/kern/filepizza](https://github.com/kern/filepizza)
 * [https://github.com/CoderLim/transfer-files](https://github.com/CoderLim/transfer-files)
+* [https://github.com/schlagmichdoch/PairDrop](https://github.com/schlagmichdoch/PairDrop)
+* [https://github.com/szimek/sharedrop](https://github.com/szimek/sharedrop)
+    * [https://www.w3.org/TR/webrtc](https://www.w3.org/TR/webrtc)
+    * [https://github.com/RTC-Developer/WebRTC-Documentation-in-Chinese](https://github.com/RTC-Developer/WebRTC-Documentation-in-Chinese)
+    * [https://developer.mozilla.org/zh-CN/docs/Web/API/WebRTC_API](https://developer.mozilla.org/zh-CN/docs/Web/API/WebRTC_API)
 * [https://github.com/quick-bin/qbin](https://github.com/quick-bin/qbin)
 * 二维码分享文件 [https://github.com/sz3/libcimbar](https://github.com/sz3/libcimbar)
 * 主页仪表板 [https://github.com/glanceapp/glance](https://github.com/glanceapp/glance)

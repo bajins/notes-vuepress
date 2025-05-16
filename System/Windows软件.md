@@ -390,6 +390,7 @@
     * [https://gitee.com/raycn120/musicfree](https://gitee.com/raycn120/musicfree)
 * [https://github.com/synctv-org](https://github.com/synctv-org)
 * [https://github.com/Hunlongyu/ZY-Player](https://github.com/Hunlongyu/ZY-Player)
+* [https://github.com/algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer)
 
 
 - [https://github.com/Chocobozzz/PeerTube](https://github.com/Chocobozzz/PeerTube)
@@ -1123,6 +1124,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 ## Other
 
 * 删除广告 [https://github.com/xM4ddy/OFGB](https://github.com/xM4ddy/OFGB)
+* [https://github.com/ZenPrivacy/zen-desktop](https://github.com/ZenPrivacy/zen-desktop)
 * 监控网速CPU及内存 [https://github.com/zhongyang219/TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
 * [https://github.com/processhacker/processhacker](https://github.com/processhacker/processhacker)
 * [http://wenlei.ys168.com](http://wenlei.ys168.com)

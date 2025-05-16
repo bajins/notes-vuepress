@@ -151,7 +151,7 @@
 * [https://github.com/ansible-semaphore/semaphore](https://github.com/ansible-semaphore/semaphore)
 * [https://www.telerik.com/kendo-ui](https://www.telerik.com/kendo-ui)
 * [https://github.com/shadcn/ui](https://github.com/shadcn/ui)
-* [https://github.com/shadcn-ui/ui](https://github.com/shadcn-ui/ui)
+    * [https://github.com/shadcn-ui/ui](https://github.com/shadcn-ui/ui)
     * [https://ui.shadcn.com/charts](https://ui.shadcn.com/charts)
 * [https://github.com/magicuidesign/magicui](https://github.com/magicuidesign/magicui)
 * [https://github.com/radix-ui](https://github.com/radix-ui)
@@ -179,6 +179,7 @@
 * [https://github.com/hugeicons/hugeicons-react](https://github.com/hugeicons/hugeicons-react)
 * [https://github.com/pqoqubbw/icons](https://github.com/pqoqubbw/icons)
 * 生成SVG [https://github.com/chaseFunny/svg-backend](https://github.com/chaseFunny/svg-backend)
+* [https://www.hyvector.com](https://www.hyvector.com)
 * SVG路径动画 [https://github.com/YYsuni/path-motion](https://github.com/YYsuni/path-motion)
 
 

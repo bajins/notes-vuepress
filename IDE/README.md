@@ -102,6 +102,7 @@
 - [https://github.com/deepseek-ai/DeepSeek-Coder](https://github.com/deepseek-ai/DeepSeek-Coder)
 - [https://github.com/Codium-ai](https://github.com/Codium-ai)
 - [https://cursor.sh](https://cursor.sh)
+    - [https://github.com/yeongpin/cursor-free-vip](https://github.com/yeongpin/cursor-free-vip)
 - [https://github.com/KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
 - [https://github.com/DoubleTechnologies](https://github.com/DoubleTechnologies)
 - [https://github.com/OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter)
@@ -115,6 +116,7 @@
 - [https://github.com/clinebot/cline](https://github.com/clinebot/cline)
 - [https://github.com/we0-dev/we0](https://github.com/we0-dev/we0)
 - [https://www.augmentcode.com](https://www.augmentcode.com)
+- [https://github.com/voideditor/void](https://github.com/voideditor/void)
 - 代码搜索 [https://github.com/sourcebot-dev/sourcebot](https://github.com/sourcebot-dev/sourcebot)
 - Git提交助手 [https://github.com/Undertone0809/gcop](https://github.com/Undertone0809/gcop)
 - 突出显示重要代码 [https://github.com/novoselrok/glance](https://github.com/novoselrok/glance)
@@ -491,6 +493,11 @@
 
 > 软件开发的时候，系统设计师/系统架构师给出 UML 设计图， 程序员将来要根据 UML 设计图进行编码/开发。
 
++ [https://github.com/systems-modeling](https://github.com/systems-modeling)
++ [https://github.com/simonbrowndotje/c4model](https://github.com/simonbrowndotje/c4model)
++ [https://www.omg.org/spec/RAAML](https://www.omg.org/spec/RAAML)
+
+
 
 * [https://github.com/jgraph/drawio](https://github.com/jgraph/drawio)
     * [https://app.diagrams.net](https://app.diagrams.net)
@@ -503,7 +510,8 @@
 * [https://github.com/wanglin2/mind-map](https://github.com/wanglin2/mind-map)
 * [https://github.com/plantuml/plantuml](https://github.com/plantuml/plantuml)
 * [https://github.com/mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)
-* [https://github.com/terrastruct/d2](https://github.com/terrastruct/d2)
+* [https://github.com/archimatetool/archi](https://github.com/archimatetool/archi)
+* [https://github.com/ModelioOpenSource/Modelio](https://github.com/ModelioOpenSource/Modelio)
 
 
 **本地客户端**
@@ -539,6 +547,7 @@
     * [Fiddler抓包工具总结](https://www.cnblogs.com/yyhh/p/5140852.html)
     * [Windows抓包指南①：Proxifier+Fiddler对第三方程序强制抓包](https://www.52pojie.cn/thread-976016-1-1.html)
 * [https://github.com/zobor/bproxy](https://github.com/zobor/bproxy)
+* [https://github.com/wanghongenpin/proxypin](https://github.com/wanghongenpin/proxypin)
 * [https://github.com/mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy)
 * [https://github.com/forensant/pakiki-core](https://github.com/forensant/pakiki-core)
 * [https://github.com/justcoding121/Titanium-Web-Proxy](https://github.com/justcoding121/Titanium-Web-Proxy)
@@ -600,6 +609,8 @@
 - PostgreSQL [https://github.com/supabase-community/postgres-language-server](https://github.com/supabase-community/postgres-language-server)
 
 
+
+* [https://imbant.github.io/blog/archives](https://imbant.github.io/blog/archives)
 
 
 

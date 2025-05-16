@@ -511,6 +511,7 @@
 
 - [https://github.com/willowtreeapps/assertk](https://github.com/willowtreeapps/assertk)
 - [https://github.com/pinterest/ktlint](https://github.com/pinterest/ktlint)
+- [https://github.com/eygraber/virtue](https://github.com/eygraber/virtue)
 - 编译器插件 [https://github.com/square/anvil](https://github.com/square/anvil)
 - 序列化 [https://github.com/avro-kotlin/avro4k](https://github.com/avro-kotlin/avro4k)
 - 静态代码分析 [https://github.com/detekt/detekt](https://github.com/detekt/detekt)

@@ -90,6 +90,8 @@
     * [https://docs.microsoft.com/zh-cn/microsoft-edge](https://docs.microsoft.com/zh-cn/microsoft-edge)
     * 不显示新建标签页广告资讯和网址（微软对中国区特供）强制本地NTP，添加快捷方式运行参数：`--force-local-ntp`
 * [https://www.mozilla.org/zh-CN/firefox/all](https://www.mozilla.org/zh-CN/firefox/all)
+    * [https://github.com/mozilla-firefox](https://github.com/mozilla-firefox)
+    * [https://github.com/mozilla-mobile](https://github.com/mozilla-mobile)
     * [https://ftp.mozilla.org/pub/firefox/releases/](https://ftp.mozilla.org/pub/firefox/releases/)
     * [https://sourceforge.net/projects/libportable](https://sourceforge.net/projects/libportable)
 * [https://github.com/vivaldi](https://github.com/vivaldi)

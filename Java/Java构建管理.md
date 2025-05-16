@@ -456,3 +456,27 @@
     * jitpack [https://jitpack.io](https://jitpack.io)
     * jcenter [http://jcenter.bintray.com](http://jcenter.bintray.com)
 
+
+
+
+### 常见问题
+
+
+**Maven3.8.1+禁止访问HTTP协议的仓库**
+
+> 正常情况下访问HTTP仓库会自动重定向访问`http://0.0.0.0/`导致报错：`from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories:`
+
+- 使用低版本Maven
+- 命令行参数：`-Dmaven.allow.insecure.protocol=true`
+- 添加以下配置到Maven的settings.xml文件中的`<settings>`下的`<mirrors>`标签中
+
+```xml
+<!-- Maven 3.8.1+ 默认禁止通过 HTTP 协议访问远程仓库（安全限制）maven-default-http-blocker -->
+<mirror>
+    <id>allow-http</id>
+    <mirrorOf>*</mirrorOf>
+    <!-- <mirrorOf>external:http:*</mirrorOf>   external:http:* 表示允许所有外部的 HTTP 请求 -->
+    <url>http://xxxx.com/repository/maven-public/</url> <!-- 配置为允许访问的仓库地址 -->
+    <blocked>false</blocked> <!-- 允许 HTTP -->
+</mirror>
+```

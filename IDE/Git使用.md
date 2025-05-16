@@ -73,7 +73,6 @@
 * git加密 [https://github.com/AGWA/git-crypt](https://github.com/AGWA/git-crypt)
 * 自动补全 [https://github.com/dahlbyk/posh-git](https://github.com/dahlbyk/posh-git)
 * [https://github.com/JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
-* 依赖项更新 [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate)
 * Git工具 [https://github.com/GitTools](https://github.com/GitTools)
 * [https://github.com/sosedoff/gitkit](https://github.com/sosedoff/gitkit)
 * [https://github.com/ewanmellor/git-diff-image](https://github.com/ewanmellor/git-diff-image)

@@ -26,7 +26,13 @@
 
 **其他GIT服务**
 
-* [https://codeberg.org](https://codeberg.org)
+* [https://forgejo.org](https://forgejo.org)
+    * [https://codeberg.org](https://codeberg.org)
+    * [https://disroot.org/en/services/git](https://disroot.org/en/services/git)
+    * [https://git.pub.solar](https://git.pub.solar)
+    * [https://git.kaki87.net](https://git.kaki87.net)
+    * [https://sij.ai](https://sij.ai)
+    * 静态站点 [https://git.gay/gitgay/pages-server](https://git.gay/gitgay/pages-server)
 * [https://git.pleroma.social](https://git.pleroma.social)
 * [https://code.aliyun.com](https://code.aliyun.com)
 * [https://coding.net](https://coding.net)
@@ -185,6 +191,7 @@ volumes:
 - [https://github.com/GitHubDaily](https://github.com/GitHubDaily)
 - [https://github.com/techgaun/active-forks](https://github.com/techgaun/active-forks)
 - [https://giters.com](https://giters.com)
+- [https://github.com/knownsec/404StarLink](https://github.com/knownsec/404StarLink)
 - 技术周刊 [https://github.com/tw93/weekly](https://github.com/tw93/weekly)
 - [https://github.com/ruanyf/weekly](https://github.com/ruanyf/weekly)
     - [https://www.ruanyifeng.com/blog/archives.html](https://www.ruanyifeng.com/blog/archives.html)

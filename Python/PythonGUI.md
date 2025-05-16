@@ -55,6 +55,7 @@
 
 
 * [pyqt5 参考代码 github 参考项目](https://blog.csdn.net/wowocpp/article/details/105759105)
+* [https://github.com/songquanpeng/gofile-launcher](https://github.com/songquanpeng/gofile-launcher)
 
 
 **PyGObject**
