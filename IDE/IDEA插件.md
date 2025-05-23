@@ -23,6 +23,7 @@
         * [https://github.com/libin9iOak/ja-netfilter-all](https://github.com/libin9iOak/ja-netfilter-all)
         * [https://jetbra.in/s](https://jetbra.in/s)
             * [https://github.com/jonssonyan/3.jetbra.in](https://github.com/jonssonyan/3.jetbra.in)
+            * [https://jetbra.github.do](https://jetbra.github.do)
         * [https://jetbrains.zhang-wt.com](https://jetbrains.zhang-wt.com)
         * [https://github.com/sinlmao/plugin-fineagent](https://github.com/sinlmao/plugin-fineagent)
         * [https://github.com/googleweb/power-rule-plugin](https://github.com/googleweb/power-rule-plugin)
@@ -50,6 +51,10 @@
         * [https://notabug.org/wmymz/jls](https://notabug.org/wmymz/jls)
         * [https://github.com/mqj0712/plugin-sg-valid](https://github.com/mqj0712/plugin-sg-valid)
         * [https://github.com/Luxcis/Jetbrains-Helper-Go](https://github.com/Luxcis/Jetbrains-Helper-Go)
+        * [https://github.com/saxpjexck/lsix](https://github.com/saxpjexck/lsix)
+        * [https://github.com/LovesAsuna/jetbrains_hacker](https://github.com/LovesAsuna/jetbrains_hacker)
+            * [https://jetbrains.ankio.net/license](https://jetbrains.ankio.net/license)
+        * [https://jetbrain.tech/?free](https://jetbrain.tech/?free)
     * [https://intxzt.github.io/2022/07/25/ja-netfilter/ja-netfilter-plugins-power](https://intxzt.github.io/2022/07/25/ja-netfilter/ja-netfilter-plugins-power)
 * [https://github.com/tikkid/JetbrainKiller](https://github.com/tikkid/JetbrainKiller/tree/92cc01f9baab488cc3d510793da7731b1f8e17a4) 最新免登录试用插件
     * [https://github.com/eltociear/JetbrainKiller](https://github.com/eltociear/JetbrainKiller)

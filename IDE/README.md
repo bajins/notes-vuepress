@@ -117,6 +117,7 @@
 - [https://github.com/we0-dev/we0](https://github.com/we0-dev/we0)
 - [https://www.augmentcode.com](https://www.augmentcode.com)
 - [https://github.com/voideditor/void](https://github.com/voideditor/void)
+- [https://github.com/All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands)
 - 代码搜索 [https://github.com/sourcebot-dev/sourcebot](https://github.com/sourcebot-dev/sourcebot)
 - Git提交助手 [https://github.com/Undertone0809/gcop](https://github.com/Undertone0809/gcop)
 - 突出显示重要代码 [https://github.com/novoselrok/glance](https://github.com/novoselrok/glance)

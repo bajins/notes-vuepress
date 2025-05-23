@@ -299,6 +299,7 @@ sudo /etc/init.d/dns-clean start
 * [https://github.com/release-drafter/release-drafter](https://github.com/release-drafter/release-drafter)
 * [https://github.com/xresloader/upload-to-github-release](https://github.com/xresloader/upload-to-github-release)
 * [https://github.com/svenstaro/upload-release-action](https://github.com/svenstaro/upload-release-action)
+* 签名 [https://github.com/signpath/github-action-submit-signing-request](https://github.com/signpath/github-action-submit-signing-request)
 
 
 

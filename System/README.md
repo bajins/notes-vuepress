@@ -518,6 +518,7 @@
 
 ### 管理面板
 
+* [https://github.com/tnb-labs/panel](https://github.com/tnb-labs/panel)
 * [https://github.com/aaPanel/BaoTa](https://github.com/aaPanel/BaoTa)
     * [https://www.bt.cn](https://www.bt.cn)
 * [https://www.xp.cn](https://www.xp.cn)

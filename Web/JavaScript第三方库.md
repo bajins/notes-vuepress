@@ -414,6 +414,7 @@
 * SVG渲染图像占位符 [https://github.com/imsky/holder](https://github.com/imsky/holder)
 * 交互式医学图像 [https://github.com/cornerstonejs/cornerstone](https://github.com/cornerstonejs/cornerstone)
 * [https://github.com/impress/impress.js](https://github.com/impress/impress.js)
+* 照片库 [https://github.com/SimonAKing/AnimatedGallery](https://github.com/SimonAKing/AnimatedGallery)
 
 
 

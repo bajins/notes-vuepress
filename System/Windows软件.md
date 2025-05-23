@@ -211,6 +211,7 @@
 + [https://github.com/topics/filedownloader](https://github.com/topics/filedownloader)
 
 
+* [https://github.com/XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3)
 * [https://github.com/amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager)
 * XDown [https://github.com/xdown-org](https://github.com/xdown-org)
     * [https://xdown.org](https://xdown.org)
@@ -1191,6 +1192,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.softwareok.com/?seite=Freeware/DesktopOK](https://www.softwareok.com/?seite=Freeware/DesktopOK)
 * 窗口管理 [https://github.com/LGUG2Z/komorebi](https://github.com/LGUG2Z/komorebi)
 * [https://github.com/glzr-io/glazewm](https://github.com/glzr-io/glazewm)
+* [https://github.com/agent-kilo/jwno](https://github.com/agent-kilo/jwno)
 * 放大镜 [https://github.com/hugoattal/milky-warp](https://github.com/hugoattal/milky-warp)
 * 壁纸 [https://github.com/DaZiYuan/LiveWallpaper](https://github.com/DaZiYuan/LiveWallpaper)
 * [https://www.microsoft.com/zh-cn/bing/bing-wallpaper-msn](https://www.microsoft.com/zh-cn/bing/bing-wallpaper-msn)

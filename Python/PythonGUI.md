@@ -20,6 +20,7 @@
     * [https://github.com/pybee](https://github.com/pybee)
 * [https://github.com/flet-dev/flet](https://github.com/flet-dev/flet)
 * 命令行转GUI [https://github.com/chriskiehl/Gooey](https://github.com/chriskiehl/Gooey)
+* 检测暗模式 [https://github.com/albertosottile/darkdetect](https://github.com/albertosottile/darkdetect)
 
 
 - [https://github.com/zwjjiaozhu/gitchat_download](https://github.com/zwjjiaozhu/gitchat_download)
@@ -46,6 +47,8 @@
 
 + [https://github.com/ColinDuquesnoy/QDarkStyleSheet](https://github.com/ColinDuquesnoy/QDarkStyleSheet)
 + [https://github.com/mottosso/Qt.py](https://github.com/mottosso/Qt.py)
++ [https://github.com/zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets)
++ 并发库 [https://github.com/AresConnor/pyqt5-concurrent](https://github.com/AresConnor/pyqt5-concurrent)
 
 
 - PyQt5快速开发与实战 [https://github.com/cxinping/PyQt5](https://github.com/cxinping/PyQt5)
