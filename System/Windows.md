@@ -406,7 +406,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 ### 家庭升专业
 
-> 注意：Windows10家庭版升级Windows10专业版的密钥不是激活密钥
+> 注意：Windows10/11家庭版升级Windows10/11专业版的密钥不是激活密钥
 
 1. 升级：设置 -> 更新和安全 -> 激活 -> 更改产品秘钥，断网后，填入 下方的升级密钥，重启
 
@@ -416,10 +416,24 @@ FMPND-XFTD4-67FJC-HDR8C-3YH26
 4N894-WMB2D-PRGHC-BVYW8-CPQGT
 VK7JG-NPHTM-C97JM-9MPGT-3V66T
 W269N-WFGWX-YVC9B-4J6C9-T83GX
+236TW-X778T-8MV9F-937GT-QVKBB
+WMN7B-Y7TKF-Y49QB-TMQ8T-GMT6T
+FJHWT-KDGHY-K2384-93CT7-323RC
 MH37W-N47XK-V7XM9-C7227-GCQG9
 NYW94-47Q7H-7X9TT-W7TXD-JTYPM
 NJ4MX-VQQ7Q-FP3DB-VDGHX-7XM87
+J71T3-3GCPG-9GVWT-CH2XR-GMRJM
+6P99N-YF42M-TPGBG-9VMJP-YKHCF
 ```
+
+- 命令转换版本
+
+```batch
+:: 查看可升级版本
+dism /online /get-targeteditions
+dism /online /set-edition:Professional /productkey:升级密钥 /accepteula
+```
+
 
 2. 联网激活：以管理员打开CMD执行以下命令
 
@@ -427,8 +441,12 @@ NJ4MX-VQQ7Q-FP3DB-VDGHX-7XM87
 slmgr.vbs /upk
 slmgr /ipk 激活密钥
 slmgr /skms zh.us.to
+::slmgr /skms kms.03k.org
 slmgr /ato
 ```
+
+
+
 
 ## 快捷键
 

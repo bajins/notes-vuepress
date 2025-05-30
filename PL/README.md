@@ -584,6 +584,7 @@
 - 文件 [https://github.com/hughfenghen/opfs-tools](https://github.com/hughfenghen/opfs-tools)
 - 3D渲染 [https://github.com/Orillusion/orillusion](https://github.com/Orillusion/orillusion)
 - TS转JS [https://github.com/bloomberg/ts-blank-space](https://github.com/bloomberg/ts-blank-space)
+- HTTP [https://github.com/lukeed/fetch-event-stream](https://github.com/lukeed/fetch-event-stream)
 
 
 

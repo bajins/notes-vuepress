@@ -180,6 +180,7 @@
 * [https://github.com/pqoqubbw/icons](https://github.com/pqoqubbw/icons)
 * 生成SVG [https://github.com/chaseFunny/svg-backend](https://github.com/chaseFunny/svg-backend)
 * [https://www.hyvector.com](https://www.hyvector.com)
+* [https://github.com/JiuRanYa/text-to-svg](https://github.com/JiuRanYa/text-to-svg)
 * SVG路径动画 [https://github.com/YYsuni/path-motion](https://github.com/YYsuni/path-motion)
 
 

@@ -119,6 +119,7 @@
 - [https://github.com/voideditor/void](https://github.com/voideditor/void)
 - [https://github.com/All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands)
 - 代码搜索 [https://github.com/sourcebot-dev/sourcebot](https://github.com/sourcebot-dev/sourcebot)
+- [https://github.com/oldjs/web-code-agent](https://github.com/oldjs/web-code-agent)
 - Git提交助手 [https://github.com/Undertone0809/gcop](https://github.com/Undertone0809/gcop)
 - 突出显示重要代码 [https://github.com/novoselrok/glance](https://github.com/novoselrok/glance)
 - 代码转换 [https://github.com/JustAIGithub/AI-Code-Convert](https://github.com/JustAIGithub/AI-Code-Convert)
@@ -579,6 +580,7 @@
 * [https://github.com/cle-b/httpdbg](https://github.com/cle-b/httpdbg)
 
 
+- [https://github.com/suxin2017/lynx-server](https://github.com/suxin2017/lynx-server)
 - [Windows抓包与网络分析工具总结](https://blog.csdn.net/a82514921/article/details/104609924)
 
 
