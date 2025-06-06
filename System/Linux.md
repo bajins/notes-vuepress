@@ -632,6 +632,7 @@ scp -P 22 -p root@192.168.214.187:/tmp/demo/f3.log /tmp/files/
 
 * [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
     * [https://rsync.samba.org](https://rsync.samba.org)
+    * [https://github.com/rsyncOSX](https://github.com/rsyncOSX)
 * [https://github.com/probonopd/zsync-curl](https://github.com/probonopd/zsync-curl)
 * [http://zsync.moria.org.uk](http://zsync.moria.org.uk)
 * [rsync 用法教程](https://www.ruanyifeng.com/blog/2020/08/rsync.html)

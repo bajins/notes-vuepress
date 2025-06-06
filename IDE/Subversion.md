@@ -15,6 +15,7 @@
         - [https://osdn.net/projects/tortoisesvn](https://osdn.net/projects/tortoisesvn)
 - [https://sourceforge.net/projects/svnbook](https://sourceforge.net/projects/svnbook)
     - [https://svnbook.red-bean.com](https://svnbook.red-bean.com)
+    - [https://svnbook.subversion.org.cn](https://svnbook.subversion.org.cn)
 - [https://github.com/mhagger/cvs2svn](https://github.com/mhagger/cvs2svn)
 
 > 按装`VisualSVN`后客户端使用报错：`执行上下文错误: 由于目标计算机积极拒绝，无法连接。`，需要在`服务`列表中找到相关服务 -> 

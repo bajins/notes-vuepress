@@ -647,6 +647,7 @@
 * Snagit [https://www.techsmith.com/screen-capture.html](https://www.techsmith.com/screen-capture.html)
 * [https://www.ashampoo.com/zh-cn/snap](https://www.ashampoo.com/zh-cn/snap)
 * [https://pixpin.cn](https://pixpin.cn)
+* [https://github.com/tylearymf/SETUNA2](https://github.com/tylearymf/SETUNA2)
 
 
 **FastStone Capture**

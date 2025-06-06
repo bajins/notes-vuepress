@@ -84,7 +84,6 @@
 
 
 * [https://github.com/MicrosoftEdge](https://github.com/MicrosoftEdge)
-    * [https://www.microsoftedgeinsider.com](https://www.microsoftedgeinsider.com)
     * [https://www.microsoft.com/zh-cn/edge](https://www.microsoft.com/zh-cn/edge)
     *  [最新官方稳定版离线安装包 x64](https://go.microsoft.com/fwlink/?LinkID=2093437)
     * [https://docs.microsoft.com/zh-cn/microsoft-edge](https://docs.microsoft.com/zh-cn/microsoft-edge)

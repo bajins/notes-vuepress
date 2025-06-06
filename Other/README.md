@@ -505,6 +505,7 @@
 
 > （有生成数量限制）支持美国、日本、德国、英国等多国身份
 
+- [https://www.usaddrgen.com](https://www.usaddrgen.com)
 - 中文站：[http://www.haoweichi.com](http://www.haoweichi.com)
 - 英文站：[https://www.fakenamegenerator.com](https://www.fakenamegenerator.com)
 - 英文站：[https://www.fakeaddressgenerator.com](https://www.fakeaddressgenerator.com)
