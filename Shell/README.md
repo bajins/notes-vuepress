@@ -54,6 +54,7 @@
 - [https://lynx.browser.org](https://lynx.browser.org)
     - [https://github.com/kurtchen/Lynx](https://github.com/kurtchen/Lynx)
 - [https://sourceforge.net/projects/w3m](https://sourceforge.net/projects/w3m)
+- [https://github.com/doxx/darkflare](https://github.com/doxx/darkflare)
 - 爬取网页 [https://github.com/philippta/flyscrape](https://github.com/philippta/flyscrape)
 - 历史记录 [https://github.com/ddworken/hishtory](https://github.com/ddworken/hishtory)
 - [https://github.com/YiNNx/cmd-wrapped](https://github.com/YiNNx/cmd-wrapped)

@@ -232,6 +232,7 @@
 * [https://github.com/GopeedLab/gopeed](https://github.com/GopeedLab/gopeed)
 * [https://github.com/SaptarshiSarkar12/Drifty](https://github.com/SaptarshiSarkar12/Drifty)
 * [https://github.com/blaze-shubhojeet14/FilumDLWPF](https://github.com/blaze-shubhojeet14/FilumDLWPF)
+* [https://jdownloader.org](https://jdownloader.org)
 * 迅雷、快车、旋风下载链接转换脚本 [https://github.com/chinsyo/delink](https://github.com/chinsyo/delink)
 
 
@@ -345,6 +346,7 @@
 * [https://cloud189.1t.workers.dev/web](https://cloud189.1t.workers.dev/web)
 * [https://github.com/yuantuo666/baiduwp-php](https://github.com/yuantuo666/baiduwp-php)
 * [https://pan.baidu.com/youth/pan/main](https://pan.baidu.com/youth/pan/main)
+* [https://github.com/qjfoidnh/BaiduPCS-Go](https://github.com/qjfoidnh/BaiduPCS-Go)
 
 > 【诚通网盘下载提示】：点击下载后，立马取消（就是点击浏览器左上角的`X`按钮停止访问），然后再次点击下载，可以提速好几倍
 

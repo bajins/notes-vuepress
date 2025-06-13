@@ -184,6 +184,7 @@
 * [https://github.com/facebook/docusaurus](https://github.com/facebook/docusaurus)
     * [https://www.docusaurus.cn](https://www.docusaurus.cn)
 * [https://github.com/squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)
+* [https://github.com/jackyzha0/quartz](https://github.com/jackyzha0/quartz)
 * 简历 [https://github.com/xaoxuu/resume-docs](https://github.com/xaoxuu/resume-docs)
 * [https://github.com/AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume)
 * [https://github.com/i5heu/Faultier-CV](https://github.com/i5heu/Faultier-CV)

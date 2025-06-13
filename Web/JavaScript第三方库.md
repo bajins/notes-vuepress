@@ -139,6 +139,7 @@
 * DX/DevEx [https://github.com/wxt-dev/wxt](https://github.com/wxt-dev/wxt)
 * [https://github.com/PlasmoHQ/plasmo](https://github.com/PlasmoHQ/plasmo)
 * [https://github.com/crxjs/chrome-extension-tools](https://github.com/crxjs/chrome-extension-tools)
+* CAPTCHA [https://github.com/tiagorangel1/cap](https://github.com/tiagorangel1/cap)
 
 
 

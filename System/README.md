@@ -67,6 +67,7 @@
 - [https://github.com/torvalds/linux](https://github.com/torvalds/linux)
     - [https://github.com/Rust-for-Linux](https://github.com/Rust-for-Linux)
     - [https://github.com/linux-rdma/rdma-core](https://github.com/linux-rdma/rdma-core)
+- [https://alpinelinux.org](https://alpinelinux.org)
 - [https://github.com/rocky-linux](https://github.com/rocky-linux)
     - [https://git.resf.org/sig_cloud/wiki](https://git.resf.org/sig_cloud/wiki)
     - [CentOS“退役”后选择哪个Linux发行版？](https://zhuanlan.zhihu.com/p/733965744)
@@ -96,6 +97,7 @@
 - [https://github.com/linuxmint](https://github.com/linuxmint)
 - [https://github.com/cutefishos-ubuntu](https://github.com/cutefishos-ubuntu)
 - [https://gitlab.archlinux.org/archlinux](https://gitlab.archlinux.org/archlinux)
+    - [https://archlinux.org](https://archlinux.org)
     - [https://github.com/NakanoMikuOrg/arch-guide](https://github.com/NakanoMikuOrg/arch-guide)
     - 安装 [https://github.com/ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus)
     - [https://github.com/ArchLinux-x32](https://github.com/ArchLinux-x32)
@@ -660,6 +662,7 @@
 * 二维码分享文件 [https://github.com/sz3/libcimbar](https://github.com/sz3/libcimbar)
 * 主页仪表板 [https://github.com/glanceapp/glance](https://github.com/glanceapp/glance)
 * 在线知识库 [https://github.com/outline/outline](https://github.com/outline/outline)
+* [https://github.com/chaitin/PandaWiki](https://github.com/chaitin/PandaWiki)
 * 自定义二维码 [https://github.com/kochrt/qr-designer](https://github.com/kochrt/qr-designer)
 * 图床 [https://github.com/TiannV/react-epic-project](https://github.com/TiannV/react-epic-project)
 * [https://github.com/besscroft/PicImpact](https://github.com/besscroft/PicImpact)
@@ -751,6 +754,7 @@
 * [https://github.com/chunrapeepat/inscribed](https://github.com/chunrapeepat/inscribed)
 * 处理音频和视频 [https://github.com/xiguaxigua/ffmpeg-online](https://github.com/xiguaxigua/ffmpeg-online)
 * CAD [https://github.com/CADmium-Co/CADmium](https://github.com/CADmium-Co/CADmium)
+* [https://github.com/xiangechen/chili3d](https://github.com/xiangechen/chili3d)
 
 
 

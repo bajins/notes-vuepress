@@ -45,6 +45,11 @@
     * [https://github.com/microsoft/winget-pkgs](https://github.com/microsoft/winget-pkgs)
     * [https://docs.microsoft.com/zh-cn/windows/package-manager/winget](https://docs.microsoft.com/zh-cn/windows/package-manager/winget)
     * [https://github.com/marticliment/WingetUI](https://github.com/marticliment/WingetUI)
+    ```powershell
+    winget upgrade --all
+    winget source update --clear-cache
+    winget cache purge
+    ```
 * [https://github.com/oneget/oneget](https://github.com/oneget/oneget)
     * [https://www.nuget.org](https://www.nuget.org)
     * [https://www.powershellgallery.com](https://www.powershellgallery.com)

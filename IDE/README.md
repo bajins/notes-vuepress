@@ -643,6 +643,7 @@
 * [https://github.com/edavis10/redmine](https://github.com/edavis10/redmine)
 * [https://github.com/makeplane/plane](https://github.com/makeplane/plane)
 * [https://github.com/plankanban/planka](https://github.com/plankanban/planka)
+* [https://github.com/bugzilla](https://github.com/bugzilla)
 
 
 

@@ -34,6 +34,7 @@
 * [https://github.com/speedment](https://github.com/speedment)
 * [https://github.com/troyzhxu/bean-searcher](https://github.com/troyzhxu/bean-searcher)
 * [https://github.com/MyCATApache/Mycat2](https://github.com/MyCATApache/Mycat2)
+* [https://github.com/teiid/teiid](https://github.com/teiid/teiid)
 
 
 

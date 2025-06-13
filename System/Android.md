@@ -302,6 +302,7 @@
 * 播放器 [https://github.com/Bilibili/ijkplayer](https://github.com/Bilibili/ijkplayer)
 * [https://github.com/CarGuo/GSYVideoPlayer](https://github.com/CarGuo/GSYVideoPlayer)
 * [https://github.com/androidx/media](https://github.com/androidx/media)
+* [https://github.com/google/ExoPlayer](https://github.com/google/ExoPlayer)
 * 内存泄漏检测 [https://github.com/square/leakcanary](https://github.com/square/leakcanary)
 * GPS [https://gitlab.com/gpsd/gpsd](https://gitlab.com/gpsd/gpsd)
 * [https://sourceforge.net/projects/viking](https://sourceforge.net/projects/viking)
