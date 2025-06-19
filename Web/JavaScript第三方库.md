@@ -545,6 +545,7 @@
 * [https://gitee.com/niandeng/ckplayer](https://gitee.com/niandeng/ckplayer)
 * [https://github.com/Aaaaaaaty/Blog/tree/master/html5player](https://github.com/Aaaaaaaty/Blog/tree/master/html5player)
 * [https://github.com/chiruom/DanmuPlayer](https://github.com/chiruom/DanmuPlayer)
+* [https://github.com/Dash-Industry-Forum/dash.js](https://github.com/Dash-Industry-Forum/dash.js)
 * 字体滚动 [https://github.com/chenjianfang/scroxt](https://github.com/chenjianfang/scroxt)
 * [https://github.com/kalkih/mini-media-player](https://github.com/kalkih/mini-media-player)
 * [https://github.com/jwplayer/jwplayer](https://github.com/jwplayer/jwplayer)
