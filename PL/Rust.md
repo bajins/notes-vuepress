@@ -14,6 +14,7 @@
     + [https://github.com/kaisery/trpl-zh-cn](https://github.com/kaisery/trpl-zh-cn)
     + [http://doc.rust-lang.org](http://doc.rust-lang.org)
     + [https://docs.rs](https://docs.rs)
+    + [https://rustup.rs](https://rustup.rs)
     + [https://github.com/anowell/are-we-learning-yet](https://github.com/anowell/are-we-learning-yet)
     + [https://github.com/areweguiyet/areweguiyet](https://github.com/areweguiyet/areweguiyet)
     + [https://github.com/rust-gamedev/arewegameyet](https://github.com/rust-gamedev/arewegameyet)
@@ -92,8 +93,18 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 
 > `rustup default stable-x86_64-pc-windows-gnu` 使gnu（依赖于GNU/MinGW-w64）成为默认工具链
 
-+ crates字节跳动镜像代理 [https://rsproxy.cn](https://rsproxy.cn)
+
+
+## 镜像代理
+
++ [https://rsproxy.cn](https://rsproxy.cn)
++ [https://developer.aliyun.com/mirror/rustup](https://developer.aliyun.com/mirror/rustup)
++ [https://mirrors.tuna.tsinghua.edu.cn/help/crates.io-index.git](https://mirrors.tuna.tsinghua.edu.cn/help/crates.io-index.git)
++ [https://mirrors.sjtug.sjtu.edu.cn/docs/crates.io](https://mirrors.sjtug.sjtu.edu.cn/docs/crates.io)
 + [https://github.com/chanchancl/How-to-build-a-develop-environment-for-rust](https://github.com/chanchancl/How-to-build-a-develop-environment-for-rust)
+
+
+### Rustup镜像
 
 - Linux
 
@@ -122,11 +133,15 @@ Set-ItemProperty -Path "Registry::HKEY_CURRENT_USER\Environment" -Name "RUSTUP_D
 Set-ItemProperty -Path "Registry::HKEY_CURRENT_USER\Environment" -Name "RUSTUP_UPDATE_ROOT" -Value "https://mirrors.aliyun.com/rustup/rustup"
 ```
 
-- Cargo镜像加速
+
+### crates.io镜像
+
+
+- Cargo配置
 
 ```conf
 # ~/.cargo/config
-# %USERPROFILE%.cargo\config
+# %USERPROFILE%\.cargo\config
 [source.crates-io]
 # 源码地址
 registry = "https://github.com/rust-lang/crates.io-index"
@@ -134,6 +149,7 @@ registry = "https://github.com/rust-lang/crates.io-index"
 #replace-with = 'sjtu'
 #replace-with = 'ustc'
 replace-with = 'rsproxy-sparse'
+# 字节跳动
 [source.rsproxy]
 registry = "https://rsproxy.cn/crates.io-index"
 [source.rsproxy-sparse]
@@ -142,19 +158,20 @@ registry = "sparse+https://rsproxy.cn/index/"
 index = "https://rsproxy.cn/crates.io-index"
 # 清华大学
 [source.tuna]
-registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
+#registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
+registry = "sparse+https://mirrors.tuna.tsinghua.edu.cn/crates.io-index/"
+[registries.tuna]
+index = "sparse+https://mirrors.tuna.tsinghua.edu.cn/crates.io-index/"
 # 中国科学技术大学
 [source.ustc]
 registry = "https://mirrors.ustc.edu.cn/crates.io-index"
 #registry = "git://mirrors.ustc.edu.cn/crates.io-index"
 # 上海交通大学
 [source.sjtu]
-registry = "https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index"
-# rustcc社区
-[source.rustcc]
-registry = "git://crates.rustcc.cn/crates.io-index"
+registry = "sparse+https://mirrors.sjtug.sjtu.edu.cn/crates.io-index"
+# 阿里云
 [source.aliyun]
-registry = "https://code.aliyun.com/rustcc/crates.io-index"
+registry = "sparse+https://mirrors.aliyun.com/crates.io-index/"
 [net]
 git-fetch-with-cli=true
 [http]

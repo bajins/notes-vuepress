@@ -582,6 +582,7 @@ taskkill /f /im chromedriver.exe
 * 资源嗅探 [https://github.com/xifangczy/cat-catch](https://github.com/xifangczy/cat-catch)
 * 解除网页限制 [https://enablecopy.com](https://enablecopy.com)
 * 截图美化 [https://www.photor.fun](https://www.photor.fun)
+* Cookie同步 [https://github.com/jackluson/sync-your-cookie](https://github.com/jackluson/sync-your-cookie)
 
 
 

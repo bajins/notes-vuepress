@@ -413,6 +413,8 @@
     * [https://github.com/zdz/ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust)
     * [https://github.com/BotoX/ServerStatus](https://github.com/BotoX/ServerStatus)
 * [https://github.com/CokeMine/ServerStatus-Hotaru](https://github.com/CokeMine/ServerStatus-Hotaru)
+* [https://github.com/ToyoDAdoubi/ServerStatus-Toyo](https://github.com/ToyoDAdoubi/ServerStatus-Toyo)
+    * [https://github.com/stilleshan/ServerStatus](https://github.com/stilleshan/ServerStatus)
 * [https://github.com/rajnandan1/kener](https://github.com/rajnandan1/kener)
 * [https://github.com/louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)
 * [https://github.com/lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare)
@@ -666,6 +668,7 @@
 * [https://github.com/chaitin/PandaWiki](https://github.com/chaitin/PandaWiki)
 * 自定义二维码 [https://github.com/kochrt/qr-designer](https://github.com/kochrt/qr-designer)
 * [https://github.com/uxiaohan/PayQrcode](https://github.com/uxiaohan/PayQrcode)
+* [https://github.com/liuliangsir/chromium-style-qrcode-generator-with-wasm](https://github.com/liuliangsir/chromium-style-qrcode-generator-with-wasm)
 * 图床 [https://github.com/TiannV/react-epic-project](https://github.com/TiannV/react-epic-project)
 * [https://github.com/besscroft/PicImpact](https://github.com/besscroft/PicImpact)
 * [https://github.com/linyuxuanlin/Gallery-Portfolio](https://github.com/linyuxuanlin/Gallery-Portfolio)
@@ -704,6 +707,10 @@
 * 演示遥控器 [https://github.com/Rico00121/decktap](https://github.com/Rico00121/decktap)
 * 室内跑步巨幕 [https://github.com/Jamesun921/cam-run](https://github.com/Jamesun921/cam-run)
 * 3D文件查看 [https://github.com/kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer)
+* 网站统计分析 [https://github.com/vinceanalytics/vince](https://github.com/vinceanalytics/vince)
+* [https://github.com/Plausible/analytics](https://github.com/Plausible/analytics)
+* 检测网站死链 [https://github.com/isixe/LinkChecker](https://github.com/isixe/LinkChecker)
+
 
 
 

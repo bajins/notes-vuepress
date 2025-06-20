@@ -177,7 +177,6 @@
 * 字体参考线 [https://github.com/google/woff2](https://github.com/google/woff2)
 * 拼写检查 [https://github.com/hunspell](https://github.com/hunspell)
 * 捕获音频 [https://github.com/bozbez/win-capture-audio](https://github.com/bozbez/win-capture-audio)
-* 跨平台串口 [https://github.com/itas109/CSerialPort](https://github.com/itas109/CSerialPort)
 * 跨平台QT USB [https://github.com/fpoussin/QtUsb](https://github.com/fpoussin/QtUsb)
 * 配置文件 [https://github.com/Nomango/configor](https://github.com/Nomango/configor)
 * 文件监视器 [https://github.com/facebook/watchman](https://github.com/facebook/watchman)
