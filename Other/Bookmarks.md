@@ -87,6 +87,7 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * iData [https://www.cn-ki.net](https://www.cn-ki.net)
 * 术语在线 [http://www.termonline.cn](http://www.termonline.cn)
 * 航班线路 [https://flight.is26.com](https://flight.is26.com)
+* 屏幕坏点检测 [https://deadpixeltest.org](https://deadpixeltest.org)
 
 
 

@@ -106,6 +106,9 @@
 - [https://github.com/DragonFlyBSD/DragonFlyBSD](https://github.com/DragonFlyBSD/DragonFlyBSD)
 - [https://github.com/linuxdeepin](https://github.com/linuxdeepin)
     - [https://github.com/martyr-deepin](https://github.com/martyr-deepin)
+- 手机 [https://postmarketos.org](https://postmarketos.org)
+    - [https://sxmo.org](https://sxmo.org)
+    - [https://phosh.mobi](https://phosh.mobi)
 - Solus [https://getsol.us](https://getsol.us)
 - Windows兼容操作系统 [https://github.com/reactos](https://github.com/reactos)
 - 支持Linux和安卓应用 [https://github.com/JingOS-team/JingOS](https://github.com/JingOS-team/JingOS)
@@ -239,6 +242,7 @@
 * [https://gitlab.freedesktop.org/NetworkManager/NetworkManager](https://gitlab.freedesktop.org/NetworkManager/NetworkManager)
 * 速度测试 [https://github.com/gnmyt/myspeed](https://github.com/gnmyt/myspeed)
 * 增量快照 [https://github.com/linuxmint/timeshift](https://github.com/linuxmint/timeshift)
+* 网络管理 [https://networkmanager.dev](https://networkmanager.dev)
 
 
 - 软件构建 [https://github.com/easybuilders](https://github.com/easybuilders)
@@ -709,6 +713,7 @@
 * 3D文件查看 [https://github.com/kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer)
 * 网站统计分析 [https://github.com/vinceanalytics/vince](https://github.com/vinceanalytics/vince)
 * [https://github.com/Plausible/analytics](https://github.com/Plausible/analytics)
+* [https://github.com/rybbit-io/rybbit](https://github.com/rybbit-io/rybbit)
 * 检测网站死链 [https://github.com/isixe/LinkChecker](https://github.com/isixe/LinkChecker)
 
 

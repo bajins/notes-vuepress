@@ -403,6 +403,9 @@ taskkill /f /im chromedriver.exe
 * [http://www.iwikipage.com](http://www.iwikipage.com)
 * [https://github.com/joue-quroi/cookie-editor](https://github.com/joue-quroi/cookie-editor)
     * [https://add0n.com/cookie-editor.html](https://add0n.com/cookie-editor.html)
+* HTTP拦截器 [https://github.com/kylepaulsen/ResourceOverride](https://github.com/kylepaulsen/ResourceOverride)
+* [https://github.com/cloudbuy/modheader](https://github.com/cloudbuy/modheader)
+* [https://github.com/modheader](https://github.com/modheader)
 
 
 - 网页保存 [https://github.com/gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile)

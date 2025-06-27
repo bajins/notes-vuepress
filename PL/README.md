@@ -570,7 +570,6 @@
 - 可视化图表 [https://github.com/VisActor](https://github.com/VisActor)
 - WebSockets [https://github.com/soketi](https://github.com/soketi)
 - DOM [https://github.com/snabbdom/snabbdom](https://github.com/snabbdom/snabbdom)
-- 模拟数据 [https://github.com/mockoon/mockoon](https://github.com/mockoon/mockoon)
 - 数据验证 [https://github.com/nvie/decoders](https://github.com/nvie/decoders)
 - [https://github.com/colinhacks/zod](https://github.com/colinhacks/zod)
 - 操作docx文件 [https://github.com/dolanmiu/docx](https://github.com/dolanmiu/docx)

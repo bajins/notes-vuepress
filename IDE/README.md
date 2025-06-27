@@ -310,9 +310,18 @@
 + 压测 [https://github.com/EZLippi/WebBench](https://github.com/EZLippi/WebBench)
 + [https://github.com/perusio/httpload](https://github.com/perusio/httpload)
 + [https://github.com/JoeDog/siege](https://github.com/JoeDog/siege)
-+ 生成模拟JSON [https://github.com/LangSync/cli](https://github.com/LangSync/cli)
-+ [https://github.com/couriourc/mock_server](https://github.com/couriourc/mock_server)
++ 模拟API服务 [https://github.com/mockoon/mockoon](https://github.com/mockoon/mockoon)
++ [https://github.com/wiremock](https://github.com/wiremock)
 + [https://github.com/ray-d-song/faker-server](https://github.com/ray-d-song/faker-server)
++ [https://github.com/spectolabs/hoverfly](https://github.com/spectolabs/hoverfly)
++ [https://github.com/requestly](https://github.com/requestly)
++ [https://github.com/couriourc/mock_server](https://github.com/couriourc/mock_server)
++ [https://github.com/stoplightio](https://github.com/stoplightio)
++ [https://github.com/bbyars/mountebank](https://github.com/bbyars/mountebank)
++ [https://github.com/mock-server](https://github.com/mock-server)
++ [https://apisimulator.io](https://apisimulator.io)
++ [https://beeceptor.com](https://beeceptor.com)
+
 
 
 - mac paw [https://github.com/luckymarmot](https://github.com/luckymarmot)

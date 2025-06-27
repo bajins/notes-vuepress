@@ -266,6 +266,7 @@
 * 日历 [https://github.com/schedule-x/schedule-x](https://github.com/schedule-x/schedule-x)
 * 字符串解析和格式化 [https://github.com/ljharb/qs](https://github.com/ljharb/qs)
 * 日志 [https://github.com/winstonjs/winston](https://github.com/winstonjs/winston)
+* [https://github.com/dahlia/logtape](https://github.com/dahlia/logtape)
 * 主线程上运行 [https://github.com/astoilkov/main-thread-scheduling](https://github.com/astoilkov/main-thread-scheduling)
 * 埋点 [https://github.com/M-cheng-web/web-tracing](https://github.com/M-cheng-web/web-tracing)
 * 校验 [https://github.com/yiminghe/async-validator](https://github.com/yiminghe/async-validator)

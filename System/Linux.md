@@ -311,6 +311,7 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 - [http://upstart.ubuntu.com](http://upstart.ubuntu.com)
     - [https://launchpad.net/upstart](https://launchpad.net/upstart)
 - [https://github.com/ateska/ramona](https://github.com/ateska/ramona)
+- [https://modemmanager.org](https://modemmanager.org)
 
 
 * 会话 [https://github.com/kovidgoyal/kitty](https://github.com/kovidgoyal/kitty)

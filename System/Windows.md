@@ -18,6 +18,9 @@
 * [https://github.com/ValdikSS/GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)
 * 系统调整 [https://github.com/ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 * 应用商城 [https://github.com/opengapps/opengapps](https://github.com/opengapps/opengapps)
+* 自动点击 [https://github.com/ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey)
+    * [https://github.com/AutoHotkey/AutoHotkey](https://github.com/AutoHotkey/AutoHotkey)
+    * [https://github.com/xypha/AHK-v2-scripts](https://github.com/xypha/AHK-v2-scripts)
 
 
 
@@ -279,7 +282,18 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 ## MS激活
 
-* XP密钥生成 [https://github.com/Neo-Desktop/WindowsXPKg](https://github.com/Neo-Desktop/WindowsXPKg)
+
++ [Windows 10 Digital Activation](http://forum.ru-board.com/topic.cgi?forum=2&topic=5820&start=0)
+    + [https://www.solidfiles.com/folder/bd7165a0d4/](https://www.solidfiles.com/folder/bd7165a0d4/)
++ 数字权利 [https://github.com/TGSAN/CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition)
+    + [https://tgsan.github.io/CMWTAT_Digital_Edition](https://tgsan.github.io/CMWTAT_Digital_Edition)
++ [https://github.com/zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator)
+    + [https://github.com/1457384613gh/HEU_KMS_Activator.iso](https://github.com/1457384613gh/HEU_KMS_Activator.iso)
++ ohook [https://github.com/asdcorp](https://github.com/asdcorp)
++ [https://github.com/dadorner-msft/activationws](https://github.com/dadorner-msft/activationws)
++ [https://archive.org/details/xp_activate32_202305](https://archive.org/details/xp_activate32_202305)
++ [https://github.com/abbodi1406/WHD](https://github.com/abbodi1406/WHD)
+
 
 
 ### KMS
@@ -288,17 +302,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://github.com/search?q=数字权利](https://github.com/search?q=%E6%95%B0%E5%AD%97%E6%9D%83%E5%88%A9)
 
 
-+ [Windows 10 Digital Activation](http://forum.ru-board.com/topic.cgi?forum=2&topic=5820&start=0)
-    + [https://www.solidfiles.com/folder/bd7165a0d4/](https://www.solidfiles.com/folder/bd7165a0d4/)
-+ 云萌 [https://github.com/TGSAN/CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition)
-    + [https://tgsan.github.io/CMWTAT_Digital_Edition](https://tgsan.github.io/CMWTAT_Digital_Edition)
-+ [https://github.com/ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey)
-    + [https://github.com/AutoHotkey/AutoHotkey](https://github.com/AutoHotkey/AutoHotkey)
-    + [https://github.com/xypha/AHK-v2-scripts](https://github.com/xypha/AHK-v2-scripts)
-+ [https://github.com/zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator)
 + [https://github.com/abbodi1406/KMS_VL_ALL_AIO](https://github.com/abbodi1406/KMS_VL_ALL_AIO)
-+ [https://github.com/TheMMC/In-Place_Upgrade_Helper](https://github.com/TheMMC/In-Place_Upgrade_Helper)
-+ [https://github.com/abbodi1406/WHD](https://github.com/abbodi1406/WHD)
 + [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
 + [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
 + [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
@@ -322,7 +326,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
     * [https://github.com/Tsuk1ko](https://github.com/Tsuk1ko)
 * [https://www.ghpym.com/kms.html](https://www.ghpym.com/kms.html)
 * [https://github.com/EDragon007/EDragonKMS](https://github.com/EDragon007/EDragonKMS)
-* HEU KMS Activator
+
 
 
 ### KEY
@@ -345,6 +349,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [拨打免费电话激活Windows、Office](https://mp.weixin.qq.com/s/eiIutreWTe5AHPXjkOUwMQ)
 * [https://getconfirmationid.com](https://getconfirmationid.com)
     * [网页激活](https://mp.weixin.qq.com/s/kn86Wisr2DGfyAlKJUFOwQ)
+* XP密钥生成 [https://github.com/Neo-Desktop/WindowsXPKg](https://github.com/Neo-Desktop/WindowsXPKg)
 
 
 
@@ -405,6 +410,9 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 
 ### 家庭升专业
+
++ [https://github.com/TheMMC/In-Place_Upgrade_Helper](https://github.com/TheMMC/In-Place_Upgrade_Helper)
+
 
 > 注意：Windows10/11家庭版升级Windows10/11专业版的密钥不是激活密钥
 
