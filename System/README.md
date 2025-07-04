@@ -12,6 +12,7 @@
 
 * Linux中国翻译组 [https://github.com/LCTT](https://github.com/LCTT)
 * DPDK工程师手册 [https://github.com/0voice/dpdk_engineer_manual](https://github.com/0voice/dpdk_engineer_manual)
+* 快捷键查找工具 [https://github.com/Acreom/keycheck](https://github.com/Acreom/keycheck)
 
 
 - [https://www.gnome.org](https://www.gnome.org)
@@ -600,10 +601,12 @@
 * 在线PS [https://github.com/viliusle/miniPaint](https://github.com/viliusle/miniPaint)
     * [https://zaixianps.net](https://zaixianps.net)
 * [https://github.com/CH563/shot-easy-website](https://github.com/CH563/shot-easy-website)
+* 抠图 [https://github.com/imgly/background-removal-js](https://github.com/imgly/background-removal-js)
 * 图片编辑 [https://github.com/sleepy-zone/fabritor-web](https://github.com/sleepy-zone/fabritor-web)
 * [https://github.com/palxiao/poster-design](https://github.com/palxiao/poster-design)
 * [https://github.com/GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite)
 * [https://github.com/GimelStudio](https://github.com/GimelStudio)
+* 头像生成 [https://github.com/multiavatar/Multiavatar](https://github.com/multiavatar/Multiavatar)
 * SVG预览 [https://github.com/liujuntao123/new-svg-viewer](https://github.com/liujuntao123/new-svg-viewer)
 * PPT象限编辑器 [https://github.com/KwokKwok/slide-lab](https://github.com/KwokKwok/slide-lab)
 * 文字转图片 [https://github.com/byodian/oneimg](https://github.com/byodian/oneimg)
@@ -649,6 +652,7 @@
 * [https://github.com/huglemon/inwind-landing-page](https://github.com/huglemon/inwind-landing-page)
 * [https://github.com/onwidget/astrowind](https://github.com/onwidget/astrowind)
 * 表单生成 [https://github.com/heyform/heyform](https://github.com/heyform/heyform)
+* [https://github.com/GeekAtTeam/PageTemplatify](https://github.com/GeekAtTeam/PageTemplatify)
 * 网页元素拖拽 [https://github.com/atlassian/pragmatic-drag-and-drop](https://github.com/atlassian/pragmatic-drag-and-drop)
 * 调色板 [https://github.com/NeverCease/uchu](https://github.com/NeverCease/uchu)
 * 管理后台 [https://github.com/dashpresshq/dashpress](https://github.com/dashpresshq/dashpress)
@@ -714,9 +718,17 @@
 * 网站统计分析 [https://github.com/vinceanalytics/vince](https://github.com/vinceanalytics/vince)
 * [https://github.com/Plausible/analytics](https://github.com/Plausible/analytics)
 * [https://github.com/rybbit-io/rybbit](https://github.com/rybbit-io/rybbit)
+* [https://github.com/umami-software/umami](https://github.com/umami-software/umami)
 * 检测网站死链 [https://github.com/isixe/LinkChecker](https://github.com/isixe/LinkChecker)
-
-
+* 超声波发数据 [https://gist.github.com/halcy/d20b0bc2de82ceae2f6ba8a83901b265](https://gist.github.com/halcy/d20b0bc2de82ceae2f6ba8a83901b265)
+    * [https://kal-tsit.halcy.de/ultrasound](https://kal-tsit.halcy.de/ultrasound)
+* [https://github.com/tanepiper/adOn-soundlib](https://github.com/tanepiper/adOn-soundlib)
+* 绘制等距图 [https://github.com/stan-smith/FossFLOW](https://github.com/stan-smith/FossFLOW)
+* 雨滴下降路径 [https://github.com/sdl60660/river-runner](https://github.com/sdl60660/river-runner)
+    * [https://github.com/ksonda/global-river-runner](https://github.com/ksonda/global-river-runner)
+* 思维导图 [https://github.com/hizzgdev/jsmind](https://github.com/hizzgdev/jsmind)
+* [https://github.com/ishubin/schemio](https://github.com/ishubin/schemio)
+* CI/CD管理 [https://github.com/opsre/LiteOps](https://github.com/opsre/LiteOps)
 
 
 
@@ -727,6 +739,7 @@
 * 协作办公套件 [https://github.com/ONLYOFFICE](https://github.com/ONLYOFFICE)
     * [https://personal.onlyoffice.com](https://personal.onlyoffice.com)
     * [https://github.com/cryptpad](https://github.com/cryptpad)
+    * [https://github.com/ranuts/document](https://github.com/ranuts/document)
 * [https://github.com/ether/etherpad-lite](https://github.com/ether/etherpad-lite)
 * [https://github.com/anytypeio](https://github.com/anytypeio)
 * [https://github.com/Teamlinker](https://github.com/Teamlinker)
@@ -764,6 +777,7 @@
 * 画板/白板 [https://github.com/JessYan0913/pictode](https://github.com/JessYan0913/pictode)
 * [https://github.com/LHRUN/paint-board](https://github.com/LHRUN/paint-board)
 * [https://github.com/plait-board/drawnix](https://github.com/plait-board/drawnix)
+* [https://github.com/excalidraw/excalidraw](https://github.com/excalidraw/excalidraw)
 * [https://github.com/worktile/plait](https://github.com/worktile/plait)
 * [https://github.com/chunrapeepat/inscribed](https://github.com/chunrapeepat/inscribed)
 * 处理音频和视频 [https://github.com/xiguaxigua/ffmpeg-online](https://github.com/xiguaxigua/ffmpeg-online)

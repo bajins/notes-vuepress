@@ -79,6 +79,7 @@
 > `计算机\HKEY_CURRENT_USER\SOFTWARE\JavaSoft\Prefs`
 
 
+- [https://github.com/LinWanCen](https://github.com/LinWanCen)
 - [https://github.com/zielu/GitToolBox](https://github.com/zielu/GitToolBox)
 - [https://github.com/kookob/toolset](https://github.com/kookob/toolset)
 - [https://github.com/big-mouth-cn/talkx-idea-plugin](https://github.com/big-mouth-cn/talkx-idea-plugin)
@@ -96,6 +97,7 @@
 - 快捷键助手 [https://github.com/halirutan/IntelliJ-Key-Promoter-X](https://github.com/halirutan/IntelliJ-Key-Promoter-X)
 - Compose颜色预览 [https://github.com/zTrap/compose-color-preview-plugin](https://github.com/zTrap/compose-color-preview-plugin)
 - 接口文档生成 [https://github.com/liuzhihang/doc-view](https://github.com/liuzhihang/doc-view)
+- 反编译 [https://github.com/selfancy/codespy](https://github.com/selfancy/codespy)
 
 
 ## Free Mybatis plugin

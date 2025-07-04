@@ -58,6 +58,7 @@
     * [http://xuesong.pydevops.com](http://xuesong.pydevops.com)
 * [https://github.com/Dhghomon/easy_rust](https://github.com/Dhghomon/easy_rust)
 * 练习 [https://github.com/sunface/rust-by-practice](https://github.com/sunface/rust-by-practice)
+* [https://github.com/InkSha/rust-tutorial](https://github.com/InkSha/rust-tutorial)
 * 异步线程比较 [https://github.com/jimblandy/context-switch](https://github.com/jimblandy/context-switch)
 * [program - 分类 - kirito's blog](https://kirito41dd.github.io/categories/program)
 * [归档 | Jackeyzhe](https://jackeyzhe.github.io/archives)

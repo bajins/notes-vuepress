@@ -272,6 +272,8 @@
 + [https://github.com/EclipseFdn/open-vsx.org](https://github.com/EclipseFdn/open-vsx.org)
 
 
+* LiveServer [https://github.com/ritwickdey/vscode-live-server-plus-plus](https://github.com/ritwickdey/vscode-live-server-plus-plus)
+    * [https://github.com/ritwickdey/vscode-live-server](https://github.com/ritwickdey/vscode-live-server)
 * [https://github.com/redhat-developer](https://github.com/redhat-developer)
 * [https://github.com/vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons)
 * 比较 [https://github.com/moshfeu/vscode-compare-folders](https://github.com/moshfeu/vscode-compare-folders)

@@ -79,6 +79,7 @@
 * 根据日志生成Changelog [https://github.com/orhun/git-cliff](https://github.com/orhun/git-cliff)
 * [https://github.com/conventional-changelog](https://github.com/conventional-changelog)
 * 提交统计 [https://github.com/sinclairtarget/git-who](https://github.com/sinclairtarget/git-who)
+* 删除大型blob [https://github.com/rtyley/bfg-repo-cleaner](https://github.com/rtyley/bfg-repo-cleaner)
 
 
 - [git-pull.bat](/files/git-pull.bat)

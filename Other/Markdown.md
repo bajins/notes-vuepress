@@ -57,8 +57,6 @@
 - [Github 上 emoji 表情的含义及使用规范](https://mkblog.cn/872)
 - [https://github.com/mkdocs/mkdocs](https://github.com/mkdocs/mkdocs)
 - [https://www.github.com/VectorLogoZone/vectorlogozone](https://www.github.com/VectorLogoZone/vectorlogozone)
-- 转PDF [https://github.com/realdennis/md2pdf](https://github.com/realdennis/md2pdf)
-- [https://github.com/BlueHatbRit/mdpdf](https://github.com/BlueHatbRit/mdpdf)
 
 
 > 表情（两个冒号包围的字符）,比如`:blush:`，可以显示 :blush:
@@ -520,24 +518,53 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/commonmark/commonmark.js](https://github.com/commonmark/commonmark.js)
 * [https://github.com/showdownjs/showdown](https://github.com/showdownjs/showdown)
 * [https://github.com/github/markup](https://github.com/github/markup)
+* [https://github.com/unifiedjs/unified](https://github.com/unifiedjs/unified)
+* [https://github.com/remarkjs/remark](https://github.com/remarkjs/remark)
+
+
+
+- 转PDF [https://github.com/realdennis/md2pdf](https://github.com/realdennis/md2pdf)
+    - [https://md2pdf.netlify.app](https://md2pdf.netlify.app)
+    - [https://realdennis.github.io/md2pdf](https://realdennis.github.io/md2pdf)
+- [https://github.com/BlueHatbRit/mdpdf](https://github.com/BlueHatbRit/mdpdf)
+- [https://github.com/simonhaenisch/md-to-pdf](https://github.com/simonhaenisch/md-to-pdf)
+- [https://github.com/jmaupetit/md2pdf](https://github.com/jmaupetit/md2pdf)
 
 
 
 ### 在线版客户端
 
-* [https://dillinger.io](https://dillinger.io)
+* [https://github.com/joemccann/dillinger](https://github.com/joemccann/dillinger)
+    * [https://dillinger.io](https://dillinger.io)
 * [https://tool.lu/markdown](https://tool.lu/markdown)
 * [https://github.com/jserme/mahua](https://github.com/jserme/mahua)
     * [http://mahua.jser.me](http://mahua.jser.me)
 * 马克飞象 [https://maxiang.io](https://maxiang.io)
-* Markdown Plus [http://mdp.tylingsoft.com](http://mdp.tylingsoft.com)
 * 小书匠 [http://markdown.xiaoshujiang.com](http://markdown.xiaoshujiang.com)
+    * [https://github.com/suziwen](https://github.com/suziwen)
 * Cmd Markdown [https://www.zybuluo.com/mdeditor](https://www.zybuluo.com/mdeditor)
+    * [https://github.com/ghosert/cmd-editor](https://github.com/ghosert/cmd-editor)
 * [https://github.com/JP1016/Markdown](https://github.com/JP1016/Markdown)
+    * [https://markdownapp.vercel.app](https://markdownapp.vercel.app)
 * [https://github.com/aromalanil/markItDown](https://github.com/aromalanil/markItDown)
     * [https://markitdown.netlify.app](https://markitdown.netlify.app)
 * [https://github.com/davidfowl/TodoApi](https://github.com/davidfowl/TodoApi)
 * [https://github.com/iamgio/quarkdown](https://github.com/iamgio/quarkdown)
+* [https://github.com/showdownjs/showdown](https://github.com/showdownjs/showdown)
+    * [http://demo.showdownjs.com](http://demo.showdownjs.com)
+    ```js
+    document.querySelector("body > div.lateral-menu.ng-isolate-scope.ng-pageslide").remove();
+    document.querySelector("body > nav").remove()
+    document.querySelector("#editor").remove()
+    const ew = document.querySelector("#editor-wrapper");
+    ew.style.width="unset";
+    ew.style.paddingTop="unset";
+    const pv = document.querySelector("#preview");
+    pv.style.width="unset";
+    pv.style.overflowY="unset";
+    const pvd = document.querySelector("#preview > div");
+    pvd.style.paddingBottom="50px";
+    ```
 
 
 

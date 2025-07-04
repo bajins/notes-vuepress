@@ -9,6 +9,7 @@
 
 + [https://github.com/griffon/griffon](https://github.com/griffon/griffon)
     + [https://github.com/griffon-plugins](https://github.com/griffon-plugins)
++ [https://github.com/bobbylight/RSyntaxTextArea](https://github.com/bobbylight/RSyntaxTextArea)
 
 
 * [GUI 设计和 UI 设计有什么区别？](https://www.zhihu.com/question/20366692)

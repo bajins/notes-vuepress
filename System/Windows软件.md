@@ -394,6 +394,7 @@
 * [https://github.com/synctv-org](https://github.com/synctv-org)
 * [https://github.com/Hunlongyu/ZY-Player](https://github.com/Hunlongyu/ZY-Player)
 * [https://github.com/algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer)
+* [https://www.un4seen.com](https://www.un4seen.com)
 
 
 - [https://github.com/Chocobozzz/PeerTube](https://github.com/Chocobozzz/PeerTube)
@@ -469,6 +470,7 @@
 **Potplayer**
 
 * [http://potplayer.daum.net](http://potplayer.daum.net)
+* [https://potplayer.tv](https://potplayer.tv)
 * [Public Version 32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe)
 * [Public Version 64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe)
 * [Developer Version 32-bit](https://t1.daumcdn.net/potplayer/beta/PotPlayerSetup.exe)
@@ -561,7 +563,6 @@
 * 上传并获取图片URL [https://github.com/Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo)
 * [https://www.polaxiong.com](https://www.polaxiong.com)
 * [https://icons8.cn/lunacy](https://icons8.cn/lunacy)
-* [https://www.xnview.com](https://www.xnview.com)
 * [https://www.getpaint.net](https://www.getpaint.net)
 * [https://gitlab.gnome.org/GNOME/gimp](https://gitlab.gnome.org/GNOME/gimp)
     * [https://www.gimp.org](https://www.gimp.org)
@@ -727,6 +728,7 @@
 ### NSIS
 
 + [https://github.com/topics/nsis](https://github.com/topics/nsis)
+
 
 * [https://sourceforge.net/projects/nsis](https://sourceforge.net/projects/nsis)
     * [https://nsis.sourceforge.io/Category:Plugins](https://nsis.sourceforge.io/Category:Plugins)

@@ -12,8 +12,12 @@
     - [https://subversion.apache.org](https://subversion.apache.org)
     - windows服务端 [https://www.visualsvn.com](https://www.visualsvn.com)
     - [https://sourceforge.net/projects/tortoisesvn](https://sourceforge.net/projects/tortoisesvn)
+        - [https://github.com/TortoiseGit/tortoisesvn](https://github.com/TortoiseGit/tortoisesvn)
+        - [https://svn.code.sf.net/p/tortoisesvn/code](https://svn.code.sf.net/p/tortoisesvn/code)
+        - [https://github.com/stefankueng/TortoiseSVN](https://github.com/stefankueng/TortoiseSVN)
         - [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
-        - [https://osdn.net/projects/tortoisesvn](https://osdn.net/projects/tortoisesvn)
+        - 安装时一定要选择`command line cient tools`下的`Entire feature will be installed on local hard drive`把svn.exe等文件安装
+        - 从SVN1.14.3开始自签的CA不再支持，只支持TLS1.1，如果需要支持只能安装TortoiseSVN1.14.5及以下版本
 - [https://www.collab.net/downloads/subversion](https://www.collab.net/downloads/subversion)
     - [http://sharpsvn.open.collab.net](http://sharpsvn.open.collab.net)
     - [https://community.cirata.com/s/article/Downloading-WANdisco-Software](https://community.cirata.com/s/article/Downloading-WANdisco-Software)

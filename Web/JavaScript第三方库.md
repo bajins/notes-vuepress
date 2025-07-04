@@ -70,9 +70,6 @@
 * [https://github.com/iLib-js](https://github.com/iLib-js)
 * [https://github.com/zhangfisher/voerka-i18n](https://github.com/zhangfisher/voerka-i18n)
 * 模拟数据生成 [https://github.com/nuysoft/Mock](https://github.com/nuysoft/Mock)
-* [https://github.com/dreamhead/moco](https://github.com/dreamhead/moco)
-* [https://github.com/typicode/json-server](https://github.com/typicode/json-server)
-* [https://github.com/easy-mock](https://github.com/easy-mock)
 * [https://github.com/dankogai/js-base64](https://github.com/dankogai/js-base64)
 * 选色器 [https://github.com/bgrins/spectrum](https://github.com/bgrins/spectrum)
 * 手势交互 [https://github.com/hammerjs/hammer.js](https://github.com/hammerjs/hammer.js)
@@ -85,7 +82,8 @@
 * 级联网格布局库 [https://github.com/desandro/masonry](https://github.com/desandro/masonry)
 * 数字和货币格式 [https://github.com/leongersen/wnumb](https://github.com/leongersen/wnumb)
 * CSS的编码样式格式化 [https://github.com/csscomb/csscomb.js](https://github.com/csscomb/csscomb.js)
-* 清理HTML并防止XSS攻击 [https://github.com/cure53/DOMPurify](https://github.com/cure53/DOMPurify)
+* XSS清理器 [https://github.com/cure53/DOMPurify](https://github.com/cure53/DOMPurify)
+* [https://github.com/capricorn86/happy-dom](https://github.com/capricorn86/happy-dom)
 * 识别手写 [https://github.com/jadeocr/jadeocr](https://github.com/jadeocr/jadeocr)
 * 全文搜索 [https://github.com/nextapps-de/flexsearch](https://github.com/nextapps-de/flexsearch)
 * [https://github.com/lucaong/minisearch](https://github.com/lucaong/minisearch)
@@ -161,6 +159,7 @@
 * [https://github.com/sweetalert2/sweetalert2](https://github.com/sweetalert2/sweetalert2)
     * [https://www.sweetalert2.cn](https://www.sweetalert2.cn)
     * [https://github.com/t4t5/sweetalert](https://github.com/t4t5/sweetalert)
+* [https://github.com/simple-notify/simple-notify](https://github.com/simple-notify/simple-notify)
 * [https://github.com/floating-ui/floating-ui](https://github.com/floating-ui/floating-ui)
 * 提示和弹出框 [https://github.com/popperjs/popper-core](https://github.com/popperjs/popper-core)
 * alert()和confirm()包装 [https://github.com/makeusabrew/bootbox](https://github.com/makeusabrew/bootbox)
@@ -417,6 +416,11 @@
 * 交互式医学图像 [https://github.com/cornerstonejs/cornerstone](https://github.com/cornerstonejs/cornerstone)
 * [https://github.com/impress/impress.js](https://github.com/impress/impress.js)
 * 照片库 [https://github.com/SimonAKing/AnimatedGallery](https://github.com/SimonAKing/AnimatedGallery)
+* DOM生成图片 [https://github.com/tsayen/dom-to-image](https://github.com/tsayen/dom-to-image)
+* [https://github.com/niklasvh/html2canvas](https://github.com/niklasvh/html2canvas)
+    * [https://github.com/yorickshan/html2canvas-pro](https://github.com/yorickshan/html2canvas-pro)
+* [https://github.com/zumerlab/snapdom](https://github.com/zumerlab/snapdom)
+* [https://github.com/1904labs/dom-to-image-more](https://github.com/1904labs/dom-to-image-more)
 
 
 
@@ -462,12 +466,6 @@
 * [https://github.com/didi/LogicFlow](https://github.com/didi/LogicFlow)
 * [https://github.com/jagenjo/litegraph.js](https://github.com/jagenjo/litegraph.js)
 
-
-- 思维导图 [https://github.com/hizzgdev/jsmind](https://github.com/hizzgdev/jsmind)
-- [https://github.com/ishubin/schemio](https://github.com/ishubin/schemio)
-- 虚拟白板 [https://github.com/excalidraw/excalidraw](https://github.com/excalidraw/excalidraw)
-- 头像生成 [https://github.com/multiavatar/Multiavatar](https://github.com/multiavatar/Multiavatar)
-- 抠图 [https://github.com/imgly/background-removal-js](https://github.com/imgly/background-removal-js)
 
 
 

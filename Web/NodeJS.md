@@ -153,6 +153,8 @@
 * 文件监视 [https://github.com/paulmillr/chokidar](https://github.com/paulmillr/chokidar)
 * 环境变量加载 [https://github.com/motdotla/dotenv](https://github.com/motdotla/dotenv)
 * 密码哈希处理 [https://github.com/kelektiv/node.bcrypt.js](https://github.com/kelektiv/node.bcrypt.js)
+* Canvas [https://github.com/Automattic/node-canvas](https://github.com/Automattic/node-canvas)
+* 静态HTTP服务器 [https://github.com/http-party/http-server](https://github.com/http-party/http-server)
 
 
 

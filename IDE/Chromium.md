@@ -13,6 +13,8 @@
     * [https://browserslist.dev](https://browserslist.dev)
     * [https://github.com/browserslist](https://github.com/browserslist)
 * [https://github.com/WebKit](https://github.com/WebKit)
+    * [https://github.com/movableink/webkit](https://github.com/movableink/webkit)
+    * [https://github.com/qtwebkit/qtwebkit](https://github.com/qtwebkit/qtwebkit)
 * 嵌入式框架（CEF） [https://github.com/chromiumembedded](https://github.com/chromiumembedded)
     * [https://bitbucket.org/chromiumembedded/cef](https://bitbucket.org/chromiumembedded/cef)
     * [https://github.com/cefsharp](https://github.com/cefsharp)
@@ -514,7 +516,8 @@ taskkill /f /im chromedriver.exe
 * [屏幕录制GIF和截图工具：chrome-capture](https://chrome.google.com/webstore/detail/chrome-capture/ggaabchcecdbomdcnbahdfddfikjmphe)
 * [屏幕录制GIF和截图工具：capture-to-a-gif](https://chrome.google.com/webstore/detail/capture-to-a-gif/eapecadlmfblmnfnojebefkbginhggeh)
 * [截取整个窗口添加一个macOS-ish标题栏：standardized-screenshot](https://chrome.google.com/webstore/detail/standardized-screenshot/pabdhaakclnechgfhmnhkcbmjobeoope)
-* [截取长图工具（整个网页）：full-page-screen-capture](https://gofullpage.com)
+* 截取长图 [https://gofullpage.com](https://gofullpage.com)
+* [https://github.com/Finix15/full-web-capture-extension](https://github.com/Finix15/full-web-capture-extension)
 * [一键视频下载器](https://chrome.google.com/webstore/detail/video-downloader-for-web/pgffceondpnmmmlbpmchkldadpclbcph)
 * [Video Downloader for Web](https://chrome.google.com/webstore/detail/video-downloader-for-web/pgffceondpnmmmlbpmchkldadpclbcph)
 * [终极视频下载器](https://chrome.google.com/webstore/detail/ultimate-video-downloader/ahbcaincngigokdjdlcjnfcdoonccngb)
@@ -566,9 +569,9 @@ taskkill /f /im chromedriver.exe
 * [二维码生成器：quick-qr-code-generator](https://chrome.google.com/webstore/detail/quick-qr-code-generator/afpbjjgbdimpioenaedcjgkaigggcdpp)
 * [二维码生成器：qr-code-generator-and-rea](https://c7sky.com/web-extension-qrcode.html)
 * 代理助手 [https://github.com/FelisCatus/SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega)
+    * [https://github.com/sn-o-w/ZeroOmega](https://github.com/sn-o-w/ZeroOmega)
+    * [https://github.com/zero-peak/ZeroOmega](https://github.com/zero-peak/ZeroOmega)
 * [https://github.com/salarcode/SmartProxy](https://github.com/salarcode/SmartProxy)
-* [https://github.com/sn-o-w/ZeroOmega](https://github.com/sn-o-w/ZeroOmega)
-* [https://github.com/suziwen/ZeroOmega](https://github.com/suziwen/ZeroOmega)
 * [https://github.com/proxy-rock/proxy-rock](https://github.com/proxy-rock/proxy-rock)
 * [https://github.com/bytevet/proxyverse](https://github.com/bytevet/proxyverse)
 * [https://github.com/txthinking/socks5-configurator](https://github.com/txthinking/socks5-configurator)
@@ -586,6 +589,9 @@ taskkill /f /im chromedriver.exe
 * 解除网页限制 [https://enablecopy.com](https://enablecopy.com)
 * 截图美化 [https://www.photor.fun](https://www.photor.fun)
 * Cookie同步 [https://github.com/jackluson/sync-your-cookie](https://github.com/jackluson/sync-your-cookie)
+* HTML转PDF [Just One Page PDF(简称 JOPP)](https://chromewebstore.google.com/detail/fgbhbfdgdlojklkbhdoilkdlomoilbpl)
+    * [https://colorink.top](https://colorink.top)
+    * https://soft.xiaoshujiang.com/blog/chrome/just_one_page_pdf_integration
 
 
 

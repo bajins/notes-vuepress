@@ -105,6 +105,9 @@
 * [https://zlib.net](https://zlib.net)
 * [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng)
 * [https://sourceforge.net/projects/libpng](https://sourceforge.net/projects/libpng)
+    * [https://www.libpng.org](https://www.libpng.org)
+* [https://github.com/pnggroup/libpng](https://github.com/pnggroup/libpng)
+* [https://sourceforge.net/projects/png-mng](https://sourceforge.net/projects/png-mng)
 * [http://www.winimage.com/zLibDll](http://www.winimage.com/zLibDll)
 * [https://www.gnu.org/software/gzip](https://www.gnu.org/software/gzip)
 * [https://sourceforge.net/projects/infozip](https://sourceforge.net/projects/infozip)
@@ -222,6 +225,7 @@
 * 串行Flash通用驱动 [https://github.com/armink/SFUD](https://github.com/armink/SFUD)
 * SSH [https://github.com/libssh2/libssh2](https://github.com/libssh2/libssh2)
 * 布隆过滤器 [https://github.com/upbit/bloomfilter](https://github.com/upbit/bloomfilter)
+    * [https://llimllib.github.io/bloomfilter-tutorial/zh_CN](https://llimllib.github.io/bloomfilter-tutorial/zh_CN)
 * 流媒体 [https://github.com/GStreamer/gstreamer](https://github.com/GStreamer/gstreamer)
 * SVG [https://github.com/TinyVG](https://github.com/TinyVG)
 * [https://github.com/uclouvain/openjpeg](https://github.com/uclouvain/openjpeg)
@@ -299,6 +303,7 @@
 * 解码 [https://github.com/kn007/silk-v3-decoder](https://github.com/kn007/silk-v3-decoder)
 * [https://opus-codec.org](https://opus-codec.org)
 * [https://sourceforge.net/projects/xavs](https://sourceforge.net/projects/xavs)
+* [https://xiph.org/vorbis](https://xiph.org/vorbis)
 * 视频转码 [https://github.com/HandBrake/HandBrake](https://github.com/HandBrake/HandBrake)
 
 

@@ -19,6 +19,7 @@
 - 程序员考公务员 [https://github.com/coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy)
 - [https://github.com/The-Run-Philosophy-Organization/run](https://github.com/The-Run-Philosophy-Organization/run)
 - [https://github.com/AnsonZnl/RehabilitationGuide](https://github.com/AnsonZnl/RehabilitationGuide)
+- [https://github.com/i0Ek3/work-and-life-in-system](https://github.com/i0Ek3/work-and-life-in-system)
 - 副业 [https://github.com/bleedline/aimoneyhunter](https://github.com/bleedline/aimoneyhunter)
 - [Solo 独立开发者社区](https://solo.xin)
 - [独立开发的100个想法](https://mp.weixin.qq.com/s/CarlaglmCszQiHI6qrjYNQ)
@@ -34,8 +35,16 @@
 - [Sam Altman的创业手册](https://jxp73q7qjsg.feishu.cn/docx/WCNZdKDa4o2eUrxK5ElcfBXEnah)
 - 硬地骇客 [https://github.com/hardhackerlabs/book](https://github.com/hardhackerlabs/book)
 - [以前靠信息不对称赚钱，现在靠什么赚钱？](https://www.zhihu.com/question/268481226)
-- 架构师软考高级 [https://github.com/xxlllq/system_architect](https://github.com/xxlllq/system_architect)
+- 软考 [https://github.com/search?q=ruankao](https://github.com/search?q=ruankao)
+- [https://github.com/topics/ruankao](https://github.com/topics/ruankao)
+- [https://github.com/i0Ek3/cs-ruankao](https://github.com/i0Ek3/cs-ruankao)
+- [https://github.com/ruankaodaren/ruankao](https://github.com/ruankaodaren/ruanka)
+- [https://github.com/Rasrea/RuanKao](https://github.com/Rasrea/RuanKao)
+- [https://github.com/xiaomabenten/ruankao_itpm](https://github.com/xiaomabenten/ruankao_itpm)
+- 架构师软考 [https://github.com/xxlllq/system_architect](https://github.com/xxlllq/system_architect)
     - [https://github.com/jerrylususu/jerrylususu.github.io](https://github.com/jerrylususu/jerrylususu.github.io)
+- [https://github.com/lisahust/FDExam_Note](https://github.com/lisahust/FDExam_Note)
+- [https://github.com/guanshilong/SystemArchitect](https://github.com/guanshilong/SystemArchitect)
 - 编程十年的感悟 [https://ramsayleung.github.io/zh/archives](https://ramsayleung.github.io/zh/post/2024/%E7%BC%96%E7%A8%8B%E5%8D%81%E5%B9%B4%E7%9A%84%E6%84%9F%E6%82%9F/)
 - 梳理情绪 [https://github.com/zhangchenchen/self-consistent-coder](https://github.com/zhangchenchen/self-consistent-coder)
     - [https://self-consistent-coder.readthedocs.io/zh-cn/latest/](https://self-consistent-coder.readthedocs.io/zh-cn/latest/)
@@ -422,6 +431,7 @@
     - [https://github.com/phoenixframework/phoenix](https://github.com/phoenixframework/phoenix)
     - [https://github.com/philss/floki](https://github.com/philss/floki)
 - [https://github.com/gleam-lang](https://github.com/gleam-lang)
+- [https://www.angelcode.com](https://www.angelcode.com)
 
 
 > DSL(Domain Specification Language)领域语言，使用EBNF(Extended Backus–Naur Form)扩展巴斯科范式来描述语法
