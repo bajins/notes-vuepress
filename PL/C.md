@@ -105,6 +105,9 @@
 * [https://zlib.net](https://zlib.net)
 * [https://github.com/zlib-ng/zlib-ng](https://github.com/zlib-ng/zlib-ng)
 * [https://sourceforge.net/projects/libpng](https://sourceforge.net/projects/libpng)
+    * [https://www.libpng.org](https://www.libpng.org)
+* [https://github.com/pnggroup/libpng](https://github.com/pnggroup/libpng)
+* [https://sourceforge.net/projects/png-mng](https://sourceforge.net/projects/png-mng)
 * [http://www.winimage.com/zLibDll](http://www.winimage.com/zLibDll)
 * [https://www.gnu.org/software/gzip](https://www.gnu.org/software/gzip)
 * [https://sourceforge.net/projects/infozip](https://sourceforge.net/projects/infozip)
@@ -299,6 +302,7 @@
 * 解码 [https://github.com/kn007/silk-v3-decoder](https://github.com/kn007/silk-v3-decoder)
 * [https://opus-codec.org](https://opus-codec.org)
 * [https://sourceforge.net/projects/xavs](https://sourceforge.net/projects/xavs)
+* [https://xiph.org/vorbis](https://xiph.org/vorbis)
 * 视频转码 [https://github.com/HandBrake/HandBrake](https://github.com/HandBrake/HandBrake)
 
 

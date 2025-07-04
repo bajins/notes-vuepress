@@ -48,6 +48,8 @@
     * [https://www.oracle.com/cn/java/technologies/javamail-releases.html](https://www.oracle.com/cn/java/technologies/javamail-releases.html)
 * [https://github.com/eclipse-ee4j/jaf](https://github.com/eclipse-ee4j/jaf)
     * [https://github.com/javaee/activation](https://github.com/javaee/activation)
+* SMB [https://github.com/AgNO3/jcifs-ng](https://github.com/AgNO3/jcifs-ng)
+
 
 
 - Markdown解析器 [https://github.com/vsch/flexmark-java](https://github.com/vsch/flexmark-java)

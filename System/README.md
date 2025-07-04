@@ -715,7 +715,12 @@
 * [https://github.com/Plausible/analytics](https://github.com/Plausible/analytics)
 * [https://github.com/rybbit-io/rybbit](https://github.com/rybbit-io/rybbit)
 * 检测网站死链 [https://github.com/isixe/LinkChecker](https://github.com/isixe/LinkChecker)
-
+* 超声波发数据 [https://gist.github.com/halcy/d20b0bc2de82ceae2f6ba8a83901b265](https://gist.github.com/halcy/d20b0bc2de82ceae2f6ba8a83901b265)
+    * [https://kal-tsit.halcy.de/ultrasound](https://kal-tsit.halcy.de/ultrasound)
+* [https://github.com/tanepiper/adOn-soundlib](https://github.com/tanepiper/adOn-soundlib)
+* 绘制等距图 [https://github.com/stan-smith/FossFLOW](https://github.com/stan-smith/FossFLOW)
+* 雨滴下降路径 [https://github.com/sdl60660/river-runner](https://github.com/sdl60660/river-runner)
+    * [https://github.com/ksonda/global-river-runner](https://github.com/ksonda/global-river-runner)
 
 
 
