@@ -594,6 +594,7 @@
 * [https://github.com/photoprism/photoprism](https://github.com/photoprism/photoprism)
 * [https://github.com/photoview/photoview](https://github.com/photoview/photoview)
 * [https://github.com/songquanpeng/go-file](https://github.com/songquanpeng/go-file)
+* 视频编辑 [https://github.com/OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)
 * 有声读物和播客 [https://github.com/advplyr/audiobookshelf](https://github.com/advplyr/audiobookshelf)
 * [https://github.com/janeczku/calibre-web](https://github.com/janeczku/calibre-web)
 * 证件照 [https://github.com/zhbhun/idify](https://github.com/zhbhun/idify)
@@ -639,6 +640,7 @@
 * [https://github.com/actualbudget/actual](https://github.com/actualbudget/actual)
 * [https://github.com/getlago/lago](https://github.com/getlago/lago)
 * [https://github.com/tradingview/lightweight-charts](https://github.com/tradingview/lightweight-charts)
+* [https://github.com/suyu610/journal-flutter](https://github.com/suyu610/journal-flutter)
 * 云电脑 [https://github.com/HeyPuter/puter](https://github.com/HeyPuter/puter)
 * JSON可视化 [https://github.com/AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com)
 * [https://github.com/apvarun/graphize](https://github.com/apvarun/graphize)
@@ -729,6 +731,8 @@
 * 思维导图 [https://github.com/hizzgdev/jsmind](https://github.com/hizzgdev/jsmind)
 * [https://github.com/ishubin/schemio](https://github.com/ishubin/schemio)
 * CI/CD管理 [https://github.com/opsre/LiteOps](https://github.com/opsre/LiteOps)
+* API调试 [https://github.com/o8oo8o/WebCurl](https://github.com/o8oo8o/WebCurl)
+* 最佳会面地图 [https://github.com/JasonRobertDestiny/MeetSpot](https://github.com/JasonRobertDestiny/MeetSpot)
 
 
 

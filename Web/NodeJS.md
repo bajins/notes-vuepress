@@ -155,6 +155,7 @@
 * 密码哈希处理 [https://github.com/kelektiv/node.bcrypt.js](https://github.com/kelektiv/node.bcrypt.js)
 * Canvas [https://github.com/Automattic/node-canvas](https://github.com/Automattic/node-canvas)
 * 静态HTTP服务器 [https://github.com/http-party/http-server](https://github.com/http-party/http-server)
+* 发送邮件 [https://github.com/dahlia/upyo](https://github.com/dahlia/upyo)
 
 
 

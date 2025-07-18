@@ -906,6 +906,9 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 + [https://github.com/topics/rdp](https://github.com/topics/rdp)
 
 
+* [https://github.com/pikvm/pikvm](https://github.com/pikvm/pikvm)
+* [https://github.com/jetkvm/kvm](https://github.com/jetkvm/kvm)
+* Comet [https://github.com/gl-inet](https://github.com/gl-inet)
 * [远程桌面客户端 | Microsoft Remote Desktop](https://docs.microsoft.com/zh-cn/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)
 * [https://www.teamviewer.com](https://www.teamviewer.com)
 * [https://anydesk.com](https://anydesk.com)

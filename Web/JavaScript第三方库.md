@@ -296,6 +296,27 @@
 
 
 
+- Eval压缩/混淆 [https://github.com/ben-sb/javascript-deobfuscator](https://github.com/ben-sb/javascript-deobfuscator)
+- [https://github.com/javascript-obfuscator/javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator)
+- [https://github.com/mishoo/UglifyJS](https://github.com/mishoo/UglifyJS)
+- [https://github.com/terser/terser](https://github.com/terser/terser)
+- [https://github.com/beautifier/js-beautify](https://github.com/beautifier/js-beautify)
+- [https://github.com/kuizuo/js-deobfuscator](https://github.com/kuizuo/js-deobfuscator)
+- [https://github.com/Tsaiboss/decodeObfuscator](https://github.com/Tsaiboss/decodeObfuscator)
+- [https://github.com/mindedsecurity/jstillery](https://github.com/mindedsecurity/jstillery)
+- [https://dev-coco.github.io/Online-Tools/JavaScript-Deobfuscator.html](https://dev-coco.github.io/Online-Tools/JavaScript-Deobfuscator.html)
+- [https://github.com/DingZaiHub/ob-decrypt](https://github.com/DingZaiHub/ob-decrypt)
+- [https://github.com/VasiaB/etacsufbo](https://github.com/VasiaB/etacsufbo)
+- [https://github.com/hax0r31337/JSDec](https://github.com/hax0r31337/JSDec)
+- [https://github.com/lelinhtinh/de4js](https://github.com/lelinhtinh/de4js)
+- [https://github.com/aemkei/jsfuck](https://github.com/aemkei/jsfuck)
+- [https://github.com/w2sft/JavaScript-diabolic-tricks-and-wicked-craft](https://github.com/w2sft/JavaScript-diabolic-tricks-and-wicked-craft)
+- [https://freejsobfuscator.com](https://freejsobfuscator.com)
+- [https://www.h5pack.com/js-obfuscator](https://www.h5pack.com/js-obfuscator)
+- [http://jsnice.org](http://jsnice.org)
+
+
+
 **日期时间**
 
 + [https://github.com/topics/picker](https://github.com/topics/picker)
