@@ -138,6 +138,8 @@
 * [https://github.com/PlasmoHQ/plasmo](https://github.com/PlasmoHQ/plasmo)
 * [https://github.com/crxjs/chrome-extension-tools](https://github.com/crxjs/chrome-extension-tools)
 * CAPTCHA [https://github.com/tiagorangel1/cap](https://github.com/tiagorangel1/cap)
+* CSS Paged Media [https://github.com/pagedjs/pagedjs](https://github.com/pagedjs/pagedjs)
+    * [https://docraptor.com/css-paged-media](https://docraptor.com/css-paged-media)
 
 
 

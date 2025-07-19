@@ -57,6 +57,8 @@
 * [https://github.com/frappe/frappe](https://github.com/frappe/frappe)
 * [https://yhbt.net/unicorn.git](https://yhbt.net/unicorn.git)
 * WSGI [https://github.com/benoitc/gunicorn](https://github.com/benoitc/gunicorn)
+* [https://github.com/unbit/uwsgi](https://github.com/unbit/uwsgi)
+    * [https://github.com/ictar/uwsgi-docs](https://github.com/ictar/uwsgi-docs)
 * ASGI [https://github.com/django/asgiref](https://github.com/django/asgiref)
 * [https://github.com/encode/uvicorn](https://github.com/encode/uvicorn)
 * [https://github.com/zauberzeug/nicegui](https://github.com/zauberzeug/nicegui)
