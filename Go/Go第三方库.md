@@ -290,6 +290,7 @@
     * [https://gitlab.com/NebulousLabs/go-upnp](https://gitlab.com/NebulousLabs/go-upnp)
 * 容错 [https://github.com/failsafe-go/failsafe-go](https://github.com/failsafe-go/failsafe-go)
 * 操作WiFi [https://github.com/mdlayher/wifi](https://github.com/mdlayher/wifi)
+* 工作流 [https://github.com/j3ssie/osmedeus](https://github.com/j3ssie/osmedeus)
 
 
 

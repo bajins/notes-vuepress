@@ -81,6 +81,7 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * 在线制作地图图例 [https://mapchart.net](https://mapchart.net)
 * 创意光线绘画 [http://weavesilk.com](http://weavesilk.com)
 * 星系观察 [https://stellarium-web.org](https://stellarium-web.org)
+* 地球温度 [https://zoom.earth/maps/temperature](https://zoom.earth/maps/temperature)
 * 煎蛋 [http://jandan.net](http://jandan.net)
 * 渣男-说话的艺术 [https://lovelive.tools](https://lovelive.tools)
 * 全历史 [https://www.allhistory.com](https://www.allhistory.com)
