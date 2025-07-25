@@ -498,6 +498,7 @@
     + [https://xydh.fun/dieheart](https://xydh.fun/dieheart)
 + [https://www.fenxm.com](https://www.fenxm.com)
 + [https://cxapk.com](https://cxapk.com)
++ [https://ruanjianku.cloud](https://ruanjianku.cloud)
 
 
 **音乐下载**
@@ -570,6 +571,7 @@
 * 云盘 [https://github.com/honmaple/maple-file](https://github.com/honmaple/maple-file)
 * 输入法 [https://github.com/crazydan-studio/kuaizi-ime](https://github.com/crazydan-studio/kuaizi-ime)
 * 播放100Hz声音防晕车 [https://github.com/BHznJNs/MotionEaseTune](https://github.com/BHznJNs/MotionEaseTune)
+* 日记 [https://github.com/geosmart/lumma](https://github.com/geosmart/lumma)
 
 
 ### 证件照

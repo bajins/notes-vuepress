@@ -55,6 +55,7 @@
         * [https://github.com/LovesAsuna/jetbrains_hacker](https://github.com/LovesAsuna/jetbrains_hacker)
             * [https://jetbrains.ankio.net/license](https://jetbrains.ankio.net/license)
         * [https://jetbrain.tech/?free](https://jetbrain.tech/?free)
+        * [https://ckey.run](https://ckey.run)
     * [https://intxzt.github.io/2022/07/25/ja-netfilter/ja-netfilter-plugins-power](https://intxzt.github.io/2022/07/25/ja-netfilter/ja-netfilter-plugins-power)
 * [https://github.com/tikkid/JetbrainKiller](https://github.com/tikkid/JetbrainKiller/tree/92cc01f9baab488cc3d510793da7731b1f8e17a4) 最新免登录试用插件
     * [https://github.com/eltociear/JetbrainKiller](https://github.com/eltociear/JetbrainKiller)
@@ -84,7 +85,10 @@
 - [https://github.com/kookob/toolset](https://github.com/kookob/toolset)
 - [https://github.com/big-mouth-cn/talkx-idea-plugin](https://github.com/big-mouth-cn/talkx-idea-plugin)
 - [https://github.com/findtheflow/Feedback](https://github.com/findtheflow/Feedback)
+- AI Coding Assistant `https://plugins.jetbrains.com/search?orderBy=downloads&pricingModels=FREE&search=AI%20Coding%20Assistant`
 - ChatGPT [https://gitlab.com/wangsen_job/idea-plugin-iframe](https://gitlab.com/wangsen_job/idea-plugin-iframe)
+- [https://plugins.jetbrains.com/plugin/17809-lingma--alibaba-cloud-ai-coding-assistant](https://plugins.jetbrains.com/plugin/17809-lingma--alibaba-cloud-ai-coding-assistant)
+- [https://plugins.jetbrains.com/plugin/23475-baidu-comate](https://plugins.jetbrains.com/plugin/23475-baidu-comate)
 - 翻译 [https://github.com/starcwang/easy_javadoc](https://github.com/starcwang/easy_javadoc)
 - [https://github.com/tuchg/ChinesePinyin-CodeCompletionHelper](https://github.com/tuchg/ChinesePinyin-CodeCompletionHelper)
 - [https://github.com/a18792721831/studyplugin](https://github.com/a18792721831/studyplugin)

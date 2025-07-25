@@ -284,3 +284,4 @@
 * 数据中台 [https://github.com/birdLark/LarkMidTable](https://github.com/birdLark/LarkMidTable)
 * 消息推送 [https://github.com/ZhongFuCheng3y/austin](https://github.com/ZhongFuCheng3y/austin)
 * IM [https://gitee.com/howcode/aq-chat-server](https://gitee.com/howcode/aq-chat-server)
+* ERP [https://github.com/wimoor-erp/wimoor](https://github.com/wimoor-erp/wimoor)

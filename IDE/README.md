@@ -522,6 +522,7 @@
 
 
 * [https://github.com/jgraph/drawio](https://github.com/jgraph/drawio)
+    * [https://github.com/jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop)
     * [https://app.diagrams.net](https://app.diagrams.net)
 * [https://github.com/umlet/umlet](https://github.com/umlet/umlet)
 * [https://github.com/staruml](https://github.com/staruml)

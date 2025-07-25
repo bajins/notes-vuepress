@@ -66,7 +66,6 @@
 + [https://github.com/yikeke/zh-style-guide](https://github.com/yikeke/zh-style-guide)
 + 中英混排文档在线排版工具：[https://github.com/CyC2018/Text-Typesetting](https://github.com/CyC2018/Text-Typesetting)
     + [https://cyc2018.github.io/Text-Typesetting](https://cyc2018.github.io/Text-Typesetting)
-+ [如何有效地报告 Bug](https://www.chiark.greenend.org.uk/~sgtatham/bugs-cn.html)
 
 
 

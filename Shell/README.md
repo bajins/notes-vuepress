@@ -109,6 +109,10 @@
 - [https://github.com/silenceshell/hcache](https://github.com/silenceshell/hcache)
 
 
+
+* 快捷脚本 [https://github.com/hvhghv/se-script](https://github.com/hvhghv/se-script)
+
+
 **`terminal`、`shell`、`tty`、`console` 之间的区别**
 
 + [`terminal`、`shell`、`tty`、`console` 之间的确切区别是什么？](https://unix.stackexchange.com/questions/4126/what-is-the-exact-difference-between-a-terminal-a-shell-a-tty-and-a-con)

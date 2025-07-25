@@ -20,6 +20,8 @@
 * [http://css.doyoe.com/](http://css.doyoe.com)
 * CSS/CSS3 中文参考文档手册 [http://css.cuishifeng.cn](http://css.cuishifeng.cn)
 * [https://github.com/adamschwartz/magic-of-css](https://github.com/adamschwartz/magic-of-css)
+* CSS灵感 [https://github.com/chokcoco/CSS-Inspiration](https://github.com/chokcoco/CSS-Inspiration)
+* CSS练习 [https://github.com/TheOdinProject/css-exercises](https://github.com/TheOdinProject/css-exercises)
 * [界面灵感类网站合集](https://uxchi.notion.site/881b4c0179a74935a3f607ad3521cdb5)
 * [https://ui.aceternity.com/components](https://ui.aceternity.com/components)
 * [现代 CSS 高阶技巧，完美的波浪进度条效果](https://segmentfault.com/a/1190000043081752)

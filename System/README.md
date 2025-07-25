@@ -658,6 +658,7 @@
 * 网页元素拖拽 [https://github.com/atlassian/pragmatic-drag-and-drop](https://github.com/atlassian/pragmatic-drag-and-drop)
 * 调色板 [https://github.com/NeverCease/uchu](https://github.com/NeverCease/uchu)
 * 管理后台 [https://github.com/dashpresshq/dashpress](https://github.com/dashpresshq/dashpress)
+* [https://github.com/huhusmang/Subscription-Management](https://github.com/huhusmang/Subscription-Management)
 * 文件共享 [https://github.com/stonith404/pingvin-share](https://github.com/stonith404/pingvin-share)
 * [https://github.com/bitiful/send](https://github.com/bitiful/send)
 * [https://github.com/timvisee/send](https://github.com/timvisee/send)
@@ -733,6 +734,7 @@
 * CI/CD管理 [https://github.com/opsre/LiteOps](https://github.com/opsre/LiteOps)
 * API调试 [https://github.com/o8oo8o/WebCurl](https://github.com/o8oo8o/WebCurl)
 * 最佳会面地图 [https://github.com/JasonRobertDestiny/MeetSpot](https://github.com/JasonRobertDestiny/MeetSpot)
+* 房价走势 [https://github.com/851235550/how-to-buy-house](https://github.com/851235550/how-to-buy-house)
 
 
 

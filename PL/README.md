@@ -32,6 +32,7 @@
 - [https://github.com/lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job)
 - [https://github.com/FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2)
 - [AppStore 首页推荐后，依然月入不足 3000，独立开发两年血泪复盘](https://www.v2ex.com/t/1121385)
+- [离职后，我的第一个出海产品上线了](https://zhuanlan.zhihu.com/p/1919858045250434904)
 - 推广渠道 [https://github.com/naxiaoduo/1000UserGuide](https://github.com/naxiaoduo/1000UserGuide)
 - [Sam Altman的创业手册](https://jxp73q7qjsg.feishu.cn/docx/WCNZdKDa4o2eUrxK5ElcfBXEnah)
 - 硬地骇客 [https://github.com/hardhackerlabs/book](https://github.com/hardhackerlabs/book)
@@ -596,6 +597,7 @@
 - TS转JS [https://github.com/bloomberg/ts-blank-space](https://github.com/bloomberg/ts-blank-space)
 - HTTP [https://github.com/lukeed/fetch-event-stream](https://github.com/lukeed/fetch-event-stream)
 - 收集事件数据 [https://github.com/jitsucom/jitsu](https://github.com/jitsucom/jitsu)
+- Node.js运行TypeScript [https://github.com/privatenumber/tsx](https://github.com/privatenumber/tsx)
 
 
 
