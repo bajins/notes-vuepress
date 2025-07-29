@@ -180,7 +180,7 @@
   * [https://pijul.org](https://pijul.org)
 * [https://www.plasticscm.com](https://www.plasticscm.com)
 * [https://sourcehut.org](https://sourcehut.org)
-    * [https://sr.ht](https://sr.ht)
+    * [https://sr.ht/~sircmpwn/sourcehut](https://sr.ht/~sircmpwn/sourcehut)
 * [https://pagure.io](https://pagure.io)
 * [https://github.com/bitkeeper-scm/bitkeeper](https://github.com/bitkeeper-scm/bitkeeper)
 * [https://github.com/jj-vcs/jj](https://github.com/jj-vcs/jj)

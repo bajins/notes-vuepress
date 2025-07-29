@@ -614,6 +614,14 @@
 * Epub [https://github.com/pacexy/flow](https://github.com/pacexy/flow)
 
 
+- 脚本 [https://github.com/lingo34/novel-crawler-cli](https://github.com/lingo34/novel-crawler-cli)
+- [https://github.com/gofreeing/qidian-hamibot](https://github.com/gofreeing/qidian-hamibot)
+- [https://github.com/pzx521521/qidian_AutoLookAD](https://github.com/pzx521521/qidian_AutoLookAD)
+- [https://github.com/BowenZ217/novel-downloader](https://github.com/BowenZ217/novel-downloader)
+- [https://github.com/dammu/QidianAutoJs](https://github.com/dammu/QidianAutoJs)
+- [https://github.com/BowenZ217/qidian-decryptor](https://github.com/BowenZ217/qidian-decryptor)
+- [https://github.com/YsielX/qidian-crawler](https://github.com/YsielX/qidian-crawler)
+
 
 ### vue
 

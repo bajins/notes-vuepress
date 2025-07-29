@@ -6,11 +6,13 @@
 ## Flag
 
 + [https://github.com/topics/jvm](https://github.com/topics/jvm)
++ [JDK版本生命周期](/files/JDK版本生命周期.html)
 
 
 * JEP [http://openjdk.java.net/jeps](http://openjdk.java.net/jeps)
 * [https://www.oracle.com/cn/downloads](https://www.oracle.com/cn/downloads)
     * [https://www.oracle.com/cn/java/technologies/downloads](https://www.oracle.com/cn/java/technologies/downloads)
+    * [https://www.oracle.com/java/technologies/downloads/archive](https://www.oracle.com/java/technologies/downloads/archive)
 * [https://www.oracle.com/java](https://www.oracle.com/java)
     * [https://www.oracle.com/cn/java/technologies/java-ee-glance.html](https://www.oracle.com/cn/java/technologies/java-ee-glance.html)
 * 版本管理 [https://github.com/jingxiang/java-switch](https://github.com/jingxiang/java-switch)
@@ -32,11 +34,14 @@
 + [https://github.com/topics/openjdk](https://github.com/topics/openjdk)
 + [https://github.com/topics/jdk](https://github.com/topics/jdk)
 + [https://www.injdk.cn](https://www.injdk.cn)
-+ [JDK版本生命周期](/files/JDK版本生命周期.html)
+    + [https://d10.injdk.cn](https://d10.injdk.cn)
+
 
 
 * [https://github.com/openjdk](https://github.com/openjdk)
+    * [https://openjdk.java.net](https://openjdk.java.net)
     * [http://hg.openjdk.java.net](http://hg.openjdk.java.net)
+    * [https://jdk.java.net/archive](https://jdk.java.net/archive)
     * ~~[https://github.com/ojdkbuild/ojdkbuild](https://github.com/ojdkbuild/ojdkbuild)~~
     * [https://github.com/oracle-actions/setup-java](https://github.com/oracle-actions/setup-java)
 * ~~[https://github.com/AdoptOpenJDK](https://github.com/AdoptOpenJDK)~~
@@ -44,13 +49,13 @@
     * [https://github.com/Adopt-a-JSR](https://github.com/Adopt-a-JSR)
 * [https://github.com/adoptium](https://github.com/adoptium)
     * [https://adoptium.net](https://adoptium.net)
-* [https://github.com/corretto](https://github.com/corretto)
-    * [https://aws.amazon.com/cn/corretto](https://aws.amazon.com/cn/corretto)
 * [https://github.com/zulu-openjdk](https://github.com/zulu-openjdk)
     * [https://www.azul.com/downloads/zulu](https://cn.azul.com/downloads/zulu)
     * [https://cdn.azul.com/zulu/bin](https://cdn.azul.com/zulu/bin)
-* LibericaJDK [https://github.com/bell-sw](https://github.com/bell-sw)
+* Liberica [https://github.com/bell-sw](https://github.com/bell-sw)
     * [https://bell-sw.com/pages/downloads](https://bell-sw.com/pages/downloads)
+* [https://github.com/corretto](https://github.com/corretto)
+    * [https://aws.amazon.com/cn/corretto](https://aws.amazon.com/cn/corretto)
 * [https://github.com/SAP/SapMachine](https://github.com/SAP/SapMachine)
     * [https://sap.github.io/SapMachine](https://sap.github.io/SapMachine)
 * [https://developer.ibm.com/languages/java/semeru-runtimes/downloads](https://developer.ibm.com/languages/java/semeru-runtimes/downloads)
@@ -63,13 +68,15 @@
     * [https://www.microsoft.com/openjdk](https://www.microsoft.com/openjdk)
     * [https://docs.microsoft.com/zh-cn/java](https://docs.microsoft.com/zh-cn/java)
 * [https://github.com/dragonwell-project](https://github.com/dragonwell-project)
+    * [https://dragonwell-jdk.io](https://dragonwell-jdk.io)
 * [https://github.com/beehive-lab/TornadoVM](https://github.com/beehive-lab/TornadoVM)
 * OpenJ9 [https://github.com/eclipse-openj9](https://github.com/eclipse-openj9)
     * [https://github.com/eclipse/omr](https://github.com/eclipse/omr)
 * [https://github.com/TravaOpenJDK](https://github.com/TravaOpenJDK)
 * [https://github.com/Tencent/TencentKona-17](https://github.com/Tencent/TencentKona-17)
 * [https://gitee.com/openeuler/bishengjdk-17](https://gitee.com/openeuler/bishengjdk-17)
-* [https://eclipse.dev/justj](https://eclipse.dev/justj)
+* [https://github.com/eclipse-justj](https://github.com/eclipse-justj)
+    * [https://eclipse.dev/justj](https://eclipse.dev/justj)
     * [https://download.eclipse.org/justj/www/?page=download](https://download.eclipse.org/justj/www/?page=download)
 
 

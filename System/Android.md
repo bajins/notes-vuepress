@@ -79,6 +79,7 @@
 * [https://github.com/tango-adb](https://github.com/tango-adb)
 * [https://tasker.joaoapps.com](https://tasker.joaoapps.com)
 * [https://github.com/openatx/uiautomator2](https://github.com/openatx/uiautomator2)
+* [https://github.com/RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku)
 
 
 **Auto.js**
@@ -96,6 +97,10 @@
 + [https://github.com/snailuncle/autojsDemo](https://github.com/snailuncle/autojsDemo)
 + [https://github.com/ivanwhaf/xxqg-helper](https://github.com/ivanwhaf/xxqg-helper)
 + [https://github.com/hamibot](https://github.com/hamibot)
++ [https://github.com/TonyJiangWJ/Auto.js](https://github.com/TonyJiangWJ/Auto.js)
++ [https://github.com/autox-community/AutoX](https://github.com/autox-community/AutoX)
++ [https://github.com/aiselp/AutoX](https://github.com/aiselp/AutoX)
++ [https://github.com/SuperMonster003/AutoJs6](https://github.com/SuperMonster003/AutoJs6)
 
 
 * [https://github.com/Orange-shirt/OrangeJs](https://github.com/Orange-shirt/OrangeJs)
@@ -539,6 +544,10 @@
 * [https://github.com/GuoXiCheng/SKIP](https://github.com/GuoXiCheng/SKIP)
 * [https://github.com/LGH1996/TapClick](https://github.com/LGH1996/TapClick)
 * 广告拦截 [https://github.com/ReVanced/revanced-patches](https://github.com/ReVanced/revanced-patches)
+* [https://github.com/julian-klode/dns66](https://github.com/julian-klode/dns66)
+    * [https://sourceforge.net/projects/dns-host-block-android.mirror](https://sourceforge.net/projects/dns-host-block-android.mirror)
+* [https://github.com/celzero/rethink-app](https://github.com/celzero/rethink-app)
+* [https://github.com/SadeghHayeri/GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel)
 * 浏览器 [https://github.com/tuyafeng/Via](https://github.com/tuyafeng/Via)
 * [https://www.xbext.com](https://www.xbext.com)
 * [https://www.twinkstar.com](https://www.twinkstar.com)
