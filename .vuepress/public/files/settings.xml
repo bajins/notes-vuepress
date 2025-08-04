@@ -163,9 +163,9 @@ under the License.
      -->
     <!-- https://maven.aliyun.com/ -->
     <mirror>
-        <id>alimaven</id>
-        <name>aliyun maven</name>
-        <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        <id>aliyunmaven</id>
+        <name>阿里云公共仓库</name>
+        <url>https://maven.aliyun.com/repository/public</url>
         <!-- 如果想为所有的仓库做镜像那么这里加* -->
         <!--<mirrorOf>*</mirrorOf>-->
         <mirrorOf>central</mirrorOf>

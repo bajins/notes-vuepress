@@ -554,6 +554,7 @@ setsid python3 ./index.py >/dev/null 2>&1 &
 ## 传输文件
 
 
+* [https://github.com/9001/copyparty](https://github.com/9001/copyparty)
 * webrtc [https://github.com/tl-open-source/tl-rtc-file](https://github.com/tl-open-source/tl-rtc-file)
 * 文件监控 [https://github.com/topics/inotify](https://github.com/topics/inotify)
 * [https://github.com/inotify-tools/inotify-tools](https://github.com/inotify-tools/inotify-tools)

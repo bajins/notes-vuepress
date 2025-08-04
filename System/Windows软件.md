@@ -712,10 +712,12 @@
 
 - [https://github.com/wixtoolset/wix3](https://github.com/wixtoolset/wix3)
     - [https://wixtoolset.org](https://wixtoolset.org)
+    - [https://github.com/firegiant](https://github.com/firegiant)
 - [https://www.ej-technologies.com/download/install4j/files](https://www.ej-technologies.com/download/install4j/files)
 - [https://www.ej-technologies.com/download/exe4j/files](https://www.ej-technologies.com/download/exe4j/files)
 - 查看和提取msi [https://github.com/activescott/lessmsi](https://github.com/activescott/lessmsi)
 - 打包URL [https://github.com/tw93/pake](https://github.com/tw93/pake)
+    - [https://github.com/Sjj1024/PakePlus](https://github.com/Sjj1024/PakePlus)
 
 
 ### AutoIt
@@ -917,6 +919,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
 * [https://www.todesk.com](https://www.todesk.com)
 * [https://parsec.app](https://parsec.app)
+* [https://uuyc.163.com/download](https://uuyc.163.com/download)
 * 向日葵 [https://sunlogin.oray.com/download](https://sunlogin.oray.com/download)
 * 投屏 [https://github.com/pavlobu/deskreen](https://github.com/pavlobu/deskreen)
 * [https://github.com/topics/second-screen](https://github.com/topics/second-screen)
@@ -938,6 +941,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.solarwinds.com/zh/dameware](https://www.solarwinds.com/zh/dameware)
 * [https://www.radmin.com](https://www.radmin.com)
 * [https://github.com/Cool-Coding/remote-desktop-control](https://github.com/Cool-Coding/remote-desktop-control)
+* [https://www.ultraviewer.net](https://www.ultraviewer.net)
 
 
 - ScreenWings 反截屏
@@ -956,6 +960,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * Everything [https://www.voidtools.com](https://www.voidtools.com)
     * [https://github.com/stnkl/EverythingToolbar](https://github.com/stnkl/EverythingToolbar)
     * [https://github.com/Chaoses-Ib/IbEverythingExt](https://github.com/Chaoses-Ib/IbEverythingExt)
+    * [https://github.com/MaskerPRC/everything-ai-chat](https://github.com/MaskerPRC/everything-ai-chat)
 * [https://github.com/Flow-Launcher/Flow.Launcher](https://github.com/Flow-Launcher/Flow.Launcher)
 * [https://github.com/Wox-launcher/Wox](https://github.com/Wox-launcher/Wox)
 * [https://www.wisecleaner.com/wise-jetsearch.html](https://www.wisecleaner.com/wise-jetsearch.html)

@@ -140,6 +140,7 @@
 * CAPTCHA [https://github.com/tiagorangel1/cap](https://github.com/tiagorangel1/cap)
 * CSS Paged Media [https://github.com/pagedjs/pagedjs](https://github.com/pagedjs/pagedjs)
     * [https://docraptor.com/css-paged-media](https://docraptor.com/css-paged-media)
+* 字体加载器 [https://github.com/bramstein/fontfaceobserver](https://github.com/bramstein/fontfaceobserver)
 
 
 
@@ -498,6 +499,7 @@
 
 * [https://github.com/animate-css/animate.css](https://github.com/animate-css/animate.css)
 * [https://github.com/juliangarnier/anime](https://github.com/juliangarnier/anime)
+    * [https://github.com/willin/anime.js.cool](https://github.com/willin/anime.js.cool)
 * [https://github.com/greensock/GSAP](https://github.com/greensock/GSAP)
 * 3D库 [https://github.com/mrdoob/three.js](https://github.com/mrdoob/three.js)
 * [https://github.com/kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer)

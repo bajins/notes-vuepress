@@ -82,6 +82,7 @@
 - 物联网 [https://github.com/jetlinks](https://github.com/jetlinks)
 - 元数据和治理 [https://github.com/odpi/egeria](https://github.com/odpi/egeria)
 - [https://github.com/JNOSQL](https://github.com/JNOSQL)
+- 解析命令行参数 [http://github.com/cbeust/jcommander](http://github.com/cbeust/jcommander)
 
 
 
@@ -227,7 +228,9 @@
 + URL解析 [https://github.com/smola/galimatias](https://github.com/smola/galimatias)
 + 解析Java源文件 [https://github.com/forge/roaster](https://github.com/forge/roaster)
 + INI配置 [https://github.com/sshtools/jini](https://github.com/sshtools/jini)
-
++ [https://github.com/matteobaccan/owner](https://github.com/matteobaccan/owner)
+    + [https://github.com/cyfonly/owner-doc](https://github.com/cyfonly/owner-doc)
++ 类型转换 [https://github.com/kordamp/ezmorph](https://github.com/kordamp/ezmorph)
 
 
 
@@ -357,6 +360,7 @@
 * [https://github.com/EsotericSoftware/reflectasm](https://github.com/EsotericSoftware/reflectasm)
 * [https://github.com/leangen/geantyref](https://github.com/leangen/geantyref)
 * [https://github.com/easymock/objenesis](https://github.com/easymock/objenesis)
+* 获取方法参数名 [https://github.com/paul-hammant/paranamer](https://github.com/paul-hammant/paranamer)
 * 可缓存反射 [https://github.com/OxideWaveLength/Java-BetterReflection](https://github.com/OxideWaveLength/Java-BetterReflection)
 * 属性比对器 [https://github.com/dadiyang/equator](https://github.com/dadiyang/equator)
 * 对象比较属性和审核 [https://github.com/javers/javers](https://github.com/javers/javers)
@@ -414,6 +418,7 @@
 * [https://gitee.com/l-weiwei/Spiderman2](https://gitee.com/l-weiwei/Spiderman2)
 * [https://gitee.com/flashsword20/webmagic](https://gitee.com/flashsword20/webmagic)
 * [https://github.com/zhegexiaohuozi/SeimiCrawler](https://github.com/zhegexiaohuozi/SeimiCrawler)
+* [https://github.com/3breadt/dd-plist](https://github.com/3breadt/dd-plist)
 * html [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
     * [https://sourceforge.net/projects/htmlunit](https://sourceforge.net/projects/htmlunit)
 
@@ -460,12 +465,14 @@
 - Apache BeanUtils [https://github.com/apache/commons-beanutils](https://github.com/apache/commons-beanutils)
 - 深拷贝 [https://github.com/orika-mapper/orika](https://github.com/orika-mapper/orika)
 - [https://github.com/DozerMapper/dozer](https://github.com/DozerMapper/dozer)
-- [https://github.com/lets-mica/mica](https://github.com/lets-mica/mica)
     - [https://github.com/yangtu222/BeanUtils](https://github.com/yangtu222/BeanUtils)
-- [cglib的BeanCopier](https://github.com/cglib/cglib/blob/master/cglib/src/main/java/net/sf/cglib/beans/BeanCopier.java)
-- [https://github.com/kordamp/ezmorph](https://github.com/kordamp/ezmorph)
-- [https://github.com/HotelsDotCom/bull](https://github.com/HotelsDotCom/bull)
+- [https://github.com/kostaskougios/cloning](https://github.com/kostaskougios/cloning)
+    - [https://github.com/chadlwilson/cloning](https://github.com/chadlwilson/cloning)
+    - [https://github.com/aem-design/cloning](https://github.com/aem-design/cloning)
+- [https://github.com/sugar-cubes/sugar-cubes-cloner](https://github.com/sugar-cubes/sugar-cubes-cloner)
 - [https://github.com/modelmapper/modelmapper](https://github.com/modelmapper/modelmapper)
+- [https://github.com/HotelsDotCom/bull](https://github.com/HotelsDotCom/bull)
+- [cglib的BeanCopier](https://github.com/cglib/cglib/blob/master/cglib/src/main/java/net/sf/cglib/beans/BeanCopier.java)
 - [https://github.com/remondis-it/remap](https://github.com/remondis-it/remap)
 - [https://github.com/roookeee/datus](https://github.com/roookeee/datus)
 - [https://github.com/xebia-france/selma](https://github.com/xebia-france/selma)
@@ -586,6 +593,7 @@
 * [https://github.com/awaitility/awaitility](https://github.com/awaitility/awaitility)
 * [https://github.com/TNG/ArchUnit](https://github.com/TNG/ArchUnit)
 * [https://github.com/jumper2014/fast-test](https://github.com/jumper2014/fast-test)
+* 比较两个SQL结果 [https://github.com/Accenture/DBTestCompare](https://github.com/Accenture/DBTestCompare)
 * 生成测试数据 [https://github.com/jsonzou/jmockdata](https://github.com/jsonzou/jmockdata)
 * [https://github.com/szpak/mockito-java8](https://github.com/szpak/mockito-java8)
 * [https://github.com/DiUS/java-faker](https://github.com/DiUS/java-faker)
@@ -605,6 +613,9 @@
 * [https://github.com/kevin-wang001/mockj](https://github.com/kevin-wang001/mockj)
 * [https://github.com/mtedone/podam](https://github.com/mtedone/podam)
 * [https://gitlab.com/gitlab-org/security-products/analyzers/fuzzers](https://gitlab.com/gitlab-org/security-products/analyzers/fuzzers)
+* [https://sourceforge.net/projects/unitils](https://sourceforge.net/projects/unitils)
+    * [https://sourceforge.net/projects/dbmaintain](https://sourceforge.net/projects/dbmaintain)
+
 
 - [https://github.com/mryingjie/common-insert](https://github.com/mryingjie/common-insert)
 

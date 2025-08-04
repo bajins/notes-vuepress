@@ -27,6 +27,7 @@
 * 网络分析 [https://github.com/gephi](https://github.com/gephi)
 * Android代码编辑器 [https://github.com/massivemadness/Squircle-CE](https://github.com/massivemadness/Squircle-CE)
 * 十六进制编辑器 [https://github.com/WerWolv/ImHex](https://github.com/WerWolv/ImHex)
+* 同步协作编辑 [https://github.com/ethersync/ethersync](https://github.com/ethersync/ethersync)
 
 
 

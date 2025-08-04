@@ -83,6 +83,8 @@
 * [https://github.com/Knn120/OnJava8-PDF](https://github.com/Knn120/OnJava8-PDF)
 * Java Tutorials [https://github.com/pingfangx/java-tutorials-in-chinese](https://github.com/pingfangx/java-tutorials-in-chinese)
 * [https://github.com/jast90/The-Java-Tutorials-CN](https://github.com/jast90/The-Java-Tutorials-CN)
+* [https://github.com/WebJournal/journaldev](https://github.com/WebJournal/journaldev)
+* [https://github.com/eugenp/tutorials](https://github.com/eugenp/tutorials)
 * [https://jenkov.com](https://jenkov.com)
 * Java Servlet 3.1 规范 [https://github.com/waylau/servlet-3.1-specification](https://github.com/waylau/servlet-3.1-specification)
 * [https://github.com/flance/java-servlet-specification-4.0](https://github.com/flance/java-servlet-specification-4.0)

@@ -9,6 +9,7 @@
 * 恢复Win10任务菜单 [https://github.com/valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher)
 * 手机运行Win10 [https://github.com/edk2-porting](https://github.com/edk2-porting)
 * [https://github.com/WOA-Project](https://github.com/WOA-Project)
+* 绕过Windows11硬件限制 [https://github.com/builtbybel/Flyby11](https://github.com/builtbybel/Flyby11)
 * Windows安装Android应用 [https://github.com/Paving-Base/APK-Installer](https://github.com/Paving-Base/APK-Installer)
 * DPI [https://github.com/bol-van/zapret](https://github.com/bol-van/zapret)
 * [https://github.com/ValdikSS/GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)

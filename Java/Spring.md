@@ -184,6 +184,7 @@ try {
 * [https://github.com/TianShengBingFeiNiuRen/springboot-util](https://github.com/TianShengBingFeiNiuRen/springboot-util)
 * [https://github.com/WinterChenS/springboot-learning-experience](https://github.com/WinterChenS/springboot-learning-experience)
 * [https://github.com/jesusfc/springboot3-java17](https://github.com/jesusfc/springboot3-java17)
+* 工具包 [https://github.com/lets-mica/mica](https://github.com/lets-mica/mica)
 * 测试 [https://github.com/codecentric/chaos-monkey-spring-boot](https://github.com/codecentric/chaos-monkey-spring-boot)
 
 

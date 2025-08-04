@@ -507,6 +507,7 @@
 - [https://github.com/bigbully/Dapper-translation](https://github.com/bigbully/Dapper-translation)
     - [https://bigbully.github.io/Dapper-translation](https://bigbully.github.io/Dapper-translation)
 - [https://github.com/jumpserver/jumpserver](https://github.com/jumpserver/jumpserver)
+- GitHubActions监控服务 [https://github.com/WCY-dt/ponghub](https://github.com/WCY-dt/ponghub)
 
 
 
@@ -758,6 +759,7 @@
 * API调试 [https://github.com/o8oo8o/WebCurl](https://github.com/o8oo8o/WebCurl)
 * 最佳会面地图 [https://github.com/JasonRobertDestiny/MeetSpot](https://github.com/JasonRobertDestiny/MeetSpot)
 * 房价走势 [https://github.com/851235550/how-to-buy-house](https://github.com/851235550/how-to-buy-house)
+* AI新闻摘要 [https://github.com/kagisearch/kite-public](https://github.com/kagisearch/kite-public)
 
 
 
@@ -812,6 +814,8 @@
 * 处理音频和视频 [https://github.com/xiguaxigua/ffmpeg-online](https://github.com/xiguaxigua/ffmpeg-online)
 * CAD [https://github.com/CADmium-Co/CADmium](https://github.com/CADmium-Co/CADmium)
 * [https://github.com/xiangechen/chili3d](https://github.com/xiangechen/chili3d)
+* 屏幕刷新率区别 [https://github.com/MaskerPRC/refresh-rate-expericence](https://github.com/MaskerPRC/refresh-rate-expericence)
+* 比较编程语言 [https://github.com/erweixin/langshift.dev](https://github.com/erweixin/langshift.dev)
 
 
 

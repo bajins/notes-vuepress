@@ -236,7 +236,18 @@ demo                        # 顶级项目（根项目）
           - `Do not wrap one line comments` 同一行注释不要换行
           - `Preserve line feeds` 保留换行
 
-+  `File` -> `Settings` -> `Editor` -> `General` -> 右边`Soft wrap` （只会在 IDEA 的显示效果上有换行的效果，实际上并没有换行符）
++ `File` -> `Settings` -> `Editor` -> `General` -> 右边`Soft wrap` （只会在 IDEA 的显示效果上有换行的效果，实际上并没有换行符）
+
+
+
+**设置注释不在首列（即不顶格）**
+
++ `File` -> `Settings` -> `Editor` -> `Code Style` -> `选择语言`
+     + `Code Generation` -> `Comment Code`|`Comment`|`Comments` -> `Line comment at first column` 取消勾选（行注释在第一列）
+     + `Code Generation` -> `Comment Code`|`Comment`|`Comments` -> `Block comment at first column` 取消勾选（块注释在第一列）
+     + `Wrapping and Braces` -> `Keep when reformatting` -> `Comment at first column` 取消勾选（注释在第一列）
+
+> 英文语言搜索`Comment`，中文语言搜索`注释`
 
 
 **缩进参考线**

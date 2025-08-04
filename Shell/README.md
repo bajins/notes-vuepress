@@ -76,6 +76,8 @@
 - 文件管理 [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
 - [https://github.com/coreutils/coreutils](https://github.com/coreutils/coreutils)
 - [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
+- 批量图片处理 [https://github.com/hzbd/imagekit](https://github.com/hzbd/imagekit)
+- MP3播放 [https://github.com/coolcode/musix](https://github.com/coolcode/musix)
 - 目录结构树 [https://github.com/shiquda/treex](https://github.com/shiquda/treex)
 - 回收站 [https://github.com/umlx5h/gtrash](https://github.com/umlx5h/gtrash)
 - 类ls [https://github.com/yellow-footed-honeyguide/facad](https://github.com/yellow-footed-honeyguide/facad)

@@ -20,6 +20,7 @@
 
 **赞赏/赞助/打赏**
 
+- [https://github.com/opensourcemaintenancefee](https://github.com/opensourcemaintenancefee)
 - [https://mianbaoduo.com/o/lab](https://mianbaoduo.com/o/lab)
     - [https://dun.mianbaoduo.com](https://dun.mianbaoduo.com)
     - [https://mianbaoduo.com/help/#/lightning](https://mianbaoduo.com/help/#/lightning)
@@ -102,6 +103,7 @@
 + [https://www.gnu.org/software/freefont](https://www.gnu.org/software/freefont)
 + [https://wiki.archlinux.org/title/Fonts](https://wiki.archlinux.org/title/Fonts)
 + [https://savannah.gnu.org/projects/freefont](https://savannah.gnu.org/projects/freefont)
++ [https://www.cssfontstack.com](https://www.cssfontstack.com)
 
 
 * [https://github.com/jaywcjlove/free-font](https://github.com/jaywcjlove/free-font)
@@ -156,6 +158,7 @@
 - [https://github.com/fontworks-fonts](https://github.com/fontworks-fonts)
 - [https://github.com/fonttools/fonttools](https://github.com/fonttools/fonttools)
 - 字体呈现 [https://gitlab.gnome.org/GNOME/pango](https://gitlab.gnome.org/GNOME/pango)
+- [https://www.fontsquirrel.com/tools/webfont-generator](https://www.fontsquirrel.com/tools/webfont-generator)
 
 
 
