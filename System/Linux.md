@@ -301,6 +301,7 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 - [https://github.com/systemd/systemd](https://github.com/systemd/systemd)
     - [Systemd简介systemctl](https://www.jianshu.com/p/d8f79010dc04)
     - [https://github.com/isd-project/isd](https://github.com/isd-project/isd)
+    - [https://github.com/poettering/systemd](https://github.com/poettering/systemd)
 - [https://github.com/OpenRC/openrc](https://github.com/OpenRC/openrc)
 - [https://savannah.nongnu.org/projects/sysvinit](https://savannah.nongnu.org/projects/sysvinit)
 - [https://github.com/Yelp/dumb-init](https://github.com/Yelp/dumb-init)
@@ -563,6 +564,11 @@ setsid python3 ./index.py >/dev/null 2>&1 &
 * [https://github.com/lsyncd/lsyncd](https://github.com/lsyncd/lsyncd)
 * [https://github.com/emcrisostomo/fswatch](https://github.com/emcrisostomo/fswatch)
 * [https://github.com/eradman/entr](https://github.com/eradman/entr)
+* [https://sourceforge.net/projects/net-snmp](https://sourceforge.net/projects/net-snmp)
+    * [https://github.com/easysnmp/easysnmp](https://github.com/easysnmp/easysnmp)
+* [https://github.com/PJO2/tftpd64](https://github.com/PJO2/tftpd64)
+    * [https://github.com/topics/tftp](https://github.com/topics/tftp)
+    * [https://github.com/pin/tftp](https://github.com/pin/tftp)
 
 
 > 首先进入需要搭建web服务器的目录，然后在输入下面的命令，端口号默认`8000`

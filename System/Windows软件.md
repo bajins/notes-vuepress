@@ -314,6 +314,13 @@
 * [https://github.com/sabersalv/awesome-pt](https://github.com/sabersalv/awesome-pt)
 
 
+**迅雷**
+
+> 由于总所周知的原因（大家都将迅雷叫吸血雷：只下载不上传），下载Magnet链接（磁力）、Torrent文件（比特流种子）、
+> ED2K（eMule电驴）等请使用`Bit Torrent`工具
+
+* [https://github.com/cnk3x/xunlei](https://github.com/cnk3x/xunlei)
+
 
 ### Aria2
 
@@ -328,15 +335,8 @@
 * [http://lightzhan.xyz/index.php/qdown](http://lightzhan.xyz/index.php/qdown)
 * GUI [https://github.com/Xmader/aria-ng-gui](https://github.com/Xmader/aria-ng-gui)
 * [https://github.com/Xmader/aria-ng-gui-android](https://github.com/Xmader/aria-ng-gui-android)
+* [https://github.com/devgianlu/Aria2App](https://github.com/devgianlu/Aria2App)
 
-
-
-### 迅雷
-
-> 由于总所周知的原因（大家都将迅雷叫吸血雷：只下载不上传），下载Magnet链接（磁力）、Torrent文件（比特流种子）、
-> ED2K（eMule电驴）等请使用`Bit Torrent`工具
-
-* [https://github.com/cnk3x/xunlei](https://github.com/cnk3x/xunlei)
 
 
 ### 云盘网盘
@@ -347,6 +347,10 @@
 * [https://github.com/yuantuo666/baiduwp-php](https://github.com/yuantuo666/baiduwp-php)
 * [https://pan.baidu.com/youth/pan/main](https://pan.baidu.com/youth/pan/main)
 * [https://github.com/qjfoidnh/BaiduPCS-Go](https://github.com/qjfoidnh/BaiduPCS-Go)
+* [https://github.com/ihmily/QuarkPanTool](https://github.com/ihmily/QuarkPanTool)
+* [https://github.com/HkList](https://github.com/HkList)
+* [https://github.com/OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList)
+    * [https://github.com/OpenListApp/OpenListApp](https://github.com/OpenListApp/OpenListApp)
 
 > 【诚通网盘下载提示】：点击下载后，立马取消（就是点击浏览器左上角的`X`按钮停止访问），然后再次点击下载，可以提速好几倍
 

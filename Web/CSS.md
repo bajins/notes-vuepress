@@ -54,6 +54,8 @@
 - HSLA 颜色 `background-color:hsla(120,65%,75%,0.3);`
 - 预定义/跨浏览器颜色名 `background-color:red;`
 
+
+* [https://kigen.design/color](https://kigen.design/color)
 * [CSS颜色代码大全](https://www.cnblogs.com/cnblogs-jcy/p/5689033.html)
 * [CSS 颜色名称](https://www.w3school.com.cn/cssref/css_colornames.asp)
 
