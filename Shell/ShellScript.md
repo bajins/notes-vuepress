@@ -10,7 +10,7 @@
 
 + [https://github.com/topics/bash](https://github.com/topics/bash)
 + [https://github.com/Ph0enixKM/Amber](https://github.com/Ph0enixKM/Amber)
-+ 静态分析shell语法规范 [https://github.com/koalaman/shellcheck](https://github.com/koalaman/shellcheck)
++ 静态分析 [https://github.com/koalaman/shellcheck](https://github.com/koalaman/shellcheck)
     + [https://www.shellcheck.net](https://www.shellcheck.net)
     + [shellcheck 规范](https://my.oschina.net/2688/blog/736548)
 + [https://github.com/ComplianceAsCode/content](https://github.com/ComplianceAsCode/content)

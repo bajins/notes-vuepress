@@ -1067,6 +1067,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.ccleaner.com](https://www.ccleaner.com)
 * [https://www.wisecleaner.com](https://www.wisecleaner.com)
 * [https://bogdan-patraucean.github.io/about/wintoys](https://bogdan-patraucean.github.io/about/wintoys)
+* 强制删除 [https://github.com/differentrain/Delapp](https://github.com/differentrain/Delapp)
 
 
 

@@ -14,6 +14,7 @@
 - [https://www.robvanderwoude.com](https://www.robvanderwoude.com)
 - [https://github.com/jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)
 - [https://github.com/idank/explainshell](https://github.com/idank/explainshell)
+    - [https://github.com/idank/bashlex](https://github.com/idank/bashlex)
 - [https://www.shellscript.sh](https://www.shellscript.sh)
 - [https://math.ecnu.edu.cn/~jypan/Teaching/Linux](https://math.ecnu.edu.cn/~jypan/Teaching/Linux)
 - [https://github.com/qinjx/30min_guides](https://github.com/qinjx/30min_guides)

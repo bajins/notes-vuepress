@@ -303,6 +303,7 @@
 
 + HTTP [https://github.com/apache/httpcomponents-client](https://github.com/apache/httpcomponents-client)
 + [https://github.com/square/okhttp](https://github.com/square/okhttp)
+    + [https://github.com/square/okio](https://github.com/square/okio)
 + [https://github.com/Kong/unirest-java](https://github.com/Kong/unirest-java)
 + [https://github.com/eclipse-ee4j/websocket-api](https://github.com/eclipse-ee4j/websocket-api)
 + [https://github.com/OpenFeign](https://github.com/OpenFeign)
@@ -674,7 +675,7 @@
 
 
 
-**响应式/反应式（reactive/Reactor）**
+**响应式/反应式（reactive/Reactor）/事件驱动**
 
 > 反应式（具有非阻塞背压的异步数据流）编程规范，已集成到Java9 API中Flow类
 

@@ -44,6 +44,7 @@
                 * [https://greasyfork.org/zh-CN/scripts/480799-jetbra](https://greasyfork.org/zh-CN/scripts/480799-jetbra)
             * [https://gitea.998043.xyz/novice/plugin-privacy](https://gitea.998043.xyz/novice/plugin-privacy)
             * [https://github.com/iofeqkurrc42/jetbra-server-go](https://github.com/iofeqkurrc42/jetbra-server-go)
+        * [https://github.com/NotoChen/Jetbrains-Help](https://github.com/NotoChen/Jetbrains-Help)
         * [https://github.com/LemonZuo/license](https://github.com/LemonZuo/license)
         * [https://github.com/nannanStrawberry314/license](https://github.com/nannanStrawberry314/license)
             * [https://github.com/AnkioTomas/license](https://github.com/AnkioTomas/license)
@@ -57,6 +58,8 @@
         * [https://jetbrain.tech/?free](https://jetbrain.tech/?free)
         * [https://ckey.run](https://ckey.run)
     * [https://intxzt.github.io/2022/07/25/ja-netfilter/ja-netfilter-plugins-power](https://intxzt.github.io/2022/07/25/ja-netfilter/ja-netfilter-plugins-power)
+    * [https://greasyfork.org/zh-CN/scripts/by-site/linux.do](https://greasyfork.org/zh-CN/scripts/by-site/linux.do)
+    * [https://github.com/anghunk/linuxdo-scripts](https://github.com/anghunk/linuxdo-scripts)
 * [https://github.com/tikkid/JetbrainKiller](https://github.com/tikkid/JetbrainKiller/tree/92cc01f9baab488cc3d510793da7731b1f8e17a4) 最新免登录试用插件
     * [https://github.com/eltociear/JetbrainKiller](https://github.com/eltociear/JetbrainKiller)
     * [https://github.com/KoolieAid/JetbrainKiller](https://github.com/KoolieAid/JetbrainKiller)

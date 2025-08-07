@@ -622,6 +622,7 @@
 * BurpSuite [https://portswigger.net/burp/releases](https://portswigger.net/burp/releases)
     * [BurpSuiteV2.1.06破解版](https://www.waitalone.cn/tools/burpsuite.html)
     * [BurpSuite_Pro v2020.4 Loader_Keygen](https://www.uedbox.com/post/65547)
+* [https://github.com/dstotijn/hetty](https://github.com/dstotijn/hetty)
 * Charles [https://www.charlesproxy.com](https://www.charlesproxy.com)
     * [https://github.com/malaohu/CharlesLicense](https://github.com/malaohu/CharlesLicense)
     * [https://gitee.com/thom/charles-keygen](https://gitee.com/thom/charles-keygen)

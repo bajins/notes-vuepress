@@ -93,7 +93,6 @@
 * [https://github.com/softchris/react-book](https://github.com/softchris/react-book)
 * [https://github.com/react-hook-form](https://github.com/react-hook-form)
 * [https://github.com/gajus/babel-plugin-react-css-modules](https://github.com/gajus/babel-plugin-react-css-modules)
-* [https://github.com/styled-components/styled-components](https://github.com/styled-components/styled-components)
 * [https://github.com/emotion-js/emotion](https://github.com/emotion-js/emotion)
 * [https://github.com/gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
 	* [https://www.gatsbyjs.cn](https://www.gatsbyjs.cn)
