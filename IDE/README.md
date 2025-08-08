@@ -617,6 +617,7 @@
 * [https://gitlab.com/wireshark/wireshark](https://gitlab.com/wireshark/wireshark)
     * [https://www.wireshark.org](https://www.wireshark.org)
     * [https://tcpviz.com](https://tcpviz.com)
+* [https://github.com/packetd/packetd](https://github.com/packetd/packetd)
 * [https://github.com/gcla/termshark](https://github.com/gcla/termshark)
 * [https://github.com/evanrolfe/trayce_gui](https://github.com/evanrolfe/trayce_gui)
 * BurpSuite [https://portswigger.net/burp/releases](https://portswigger.net/burp/releases)

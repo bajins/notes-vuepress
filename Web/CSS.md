@@ -192,6 +192,7 @@
 * SVG路径动画 [https://github.com/YYsuni/path-motion](https://github.com/YYsuni/path-motion)
 
 
+
 - [最受程序员欢迎的 20 个 CSS 框架](https://www.fuocu.cn/archives/css-frame)
 - [https://github.com/sass](https://github.com/sass)
     - [https://www.sass.hk/docs](https://www.sass.hk/docs)
@@ -202,7 +203,7 @@
     - [https://www.cssnano.cn](https://www.cssnano.cn)
 - CSS规约 [https://github.com/stylelint/stylelint](https://github.com/stylelint/stylelint)
 - [https://github.com/ubershmekel/cssbed](https://github.com/ubershmekel/cssbed)
-
+- [SVG 的友好介绍](https://www.joshwcomeau.com/svg/friendly-introduction-to-svg)
 
 
 ## CSS3新单位和计算

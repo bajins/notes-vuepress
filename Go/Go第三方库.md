@@ -223,7 +223,7 @@
 * [https://github.com/RichardKnop/machinery](https://github.com/RichardKnop/machinery)
 * [https://github.com/robfig/cron](https://github.com/robfig/cron)
 * [https://github.com/reugn/go-quartz](https://github.com/reugn/go-quartz)
-* 媒体类型 [http://github.com/gabriel-vasile/mimetype](http://github.com/gabriel-vasile/mimetype)
+* 媒体类型 [https://github.com/gabriel-vasile/mimetype](https://github.com/gabriel-vasile/mimetype)
 * 图片转换 [https://github.com/gographics/imagick](https://github.com/gographics/imagick)
 * [https://github.com/davidbyttow/govips](https://github.com/davidbyttow/govips)
 * [https://github.com/zyxar/image2ascii](https://github.com/zyxar/image2ascii)

@@ -375,6 +375,9 @@
 - 文件上传 [https://github.com/fex-team/webuploader](https://github.com/fex-team/webuploader)
 - [https://github.com/imcuttle/moUploader](https://github.com/imcuttle/moUploader)
 - [https://github.com/lovefc/fcup2](https://github.com/lovefc/fcup2)
+- [https://github.com/moxiecode/plupload](https://github.com/moxiecode/plupload)
+    - [https://chaping.github.io/plupload/doc](https://chaping.github.io/plupload/doc)
+- [https://github.com/23/resumable.js](https://github.com/23/resumable.js)
 - 保存文件 [https://github.com/eligrey/FileSaver.js](https://github.com/eligrey/FileSaver.js)
 - [https://github.com/rndme/download](https://github.com/rndme/download)
 - [https://github.com/jimmywarting/StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js)
@@ -447,6 +450,7 @@
     * [https://github.com/yorickshan/html2canvas-pro](https://github.com/yorickshan/html2canvas-pro)
 * [https://github.com/zumerlab/snapdom](https://github.com/zumerlab/snapdom)
 * [https://github.com/1904labs/dom-to-image-more](https://github.com/1904labs/dom-to-image-more)
+* [https://github.com/zumerlab/snapdom](https://github.com/zumerlab/snapdom)
 
 
 

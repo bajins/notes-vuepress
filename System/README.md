@@ -225,7 +225,6 @@
 * [https://github.com/ValveSoftware](https://github.com/ValveSoftware)
 * [https://kde.org/zh-cn/plasma-desktop](https://kde.org/zh-cn/plasma-desktop)
 * [https://www.enlightenment.org](https://www.enlightenment.org)
-* [https://github.com/muesli/duf](https://github.com/muesli/duf)
 * [https://github.com/ukui](https://github.com/ukui)
 * [https://github.com/Alexays/Waybar](https://github.com/Alexays/Waybar)
 * [https://sourceforge.net/projects/xanmod](https://sourceforge.net/projects/xanmod)
@@ -477,7 +476,6 @@
 - [Linux工程师必备的88个监控工具](https://learn-linux.readthedocs.io/zh_CN/latest/maintenance/monitor/tools/80-linux-monitoring-tools.html)
 - `nethogs`: 按进程查看流量占用
 - `ethtool`: 诊断工具
-- `tcpdump`: 抓包工具
 - 监控总体带宽使用：`nload`、`bmon`、`slurm`、`bwm-ng`、`cbm`、`speedometer`、`netload`
 - 监控总体带宽使用（批量式输出）：`vnstat`、`ifstat`、`dstat`、`collectl`
 - 每个套接字连接的带宽使用：`iftop`、`iptraf`、`tcptrack`、`pktstat`、`netwatch`、`trafshow`、`jnettop`
@@ -618,6 +616,7 @@
 * [https://github.com/photoprism/photoprism](https://github.com/photoprism/photoprism)
 * [https://github.com/photoview/photoview](https://github.com/photoview/photoview)
 * [https://github.com/songquanpeng/go-file](https://github.com/songquanpeng/go-file)
+* [https://github.com/miroslavpejic85/mirotalksfu](https://github.com/miroslavpejic85/mirotalksfu)
 * 视频编辑 [https://github.com/OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)
 * 有声读物和播客 [https://github.com/advplyr/audiobookshelf](https://github.com/advplyr/audiobookshelf)
 * [https://github.com/janeczku/calibre-web](https://github.com/janeczku/calibre-web)
@@ -760,6 +759,7 @@
 * 最佳会面地图 [https://github.com/JasonRobertDestiny/MeetSpot](https://github.com/JasonRobertDestiny/MeetSpot)
 * 房价走势 [https://github.com/851235550/how-to-buy-house](https://github.com/851235550/how-to-buy-house)
 * AI新闻摘要 [https://github.com/kagisearch/kite-public](https://github.com/kagisearch/kite-public)
+* 网盘搜索 [https://github.com/fish2018/pansou](https://github.com/fish2018/pansou)
 
 
 
