@@ -203,6 +203,7 @@
 + Native本地调用 [https://github.com/zakgof/java-native-benchmark](https://github.com/zakgof/java-native-benchmark)
     + [https://yanbin.blog/java-jni-libraries](https://yanbin.blog/java-jni-libraries)
 + [https://github.com/jnr](https://github.com/jnr)
+    + [https://github.com/SerCeMan/jnr-fuse](https://github.com/SerCeMan/jnr-fuse)
 + [https://github.com/java-native-access/jna](https://github.com/java-native-access/jna)
 + [https://sourceforge.net/projects/jnative](https://sourceforge.net/projects/jnative)
 + [https://github.com/fusesource/hawtjni](https://github.com/fusesource/hawtjni)

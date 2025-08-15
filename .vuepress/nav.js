@@ -23,6 +23,14 @@ module.exports = [{
                     text: 'GitHub反代',
                     link: 'https://g.woetu.eu.org'
                 },
+                {
+                    text: 'WeasyPrint',
+                    link: 'https://tool.bajins.com/wp/'
+                },
+                {
+                    text: 'Showdown',
+                    link: 'https://tool.bajins.com/sd/'
+                },
             ]
         },
         {

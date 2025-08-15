@@ -448,6 +448,7 @@
 * DOM生成图片 [https://github.com/tsayen/dom-to-image](https://github.com/tsayen/dom-to-image)
 * [https://github.com/niklasvh/html2canvas](https://github.com/niklasvh/html2canvas)
     * [https://github.com/yorickshan/html2canvas-pro](https://github.com/yorickshan/html2canvas-pro)
+    * [https://github.com/html2canvas/html2canvas](https://github.com/html2canvas/html2canvas)
 * [https://github.com/zumerlab/snapdom](https://github.com/zumerlab/snapdom)
 * [https://github.com/1904labs/dom-to-image-more](https://github.com/1904labs/dom-to-image-more)
 * [https://github.com/zumerlab/snapdom](https://github.com/zumerlab/snapdom)

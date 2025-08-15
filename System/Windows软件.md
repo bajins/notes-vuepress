@@ -136,6 +136,7 @@
 * [https://github.com/dtube](https://github.com/dtube)
 * [https://github.com/yggdrasil-network](https://github.com/yggdrasil-network)
 * [https://github.com/zulip/zulip](https://github.com/zulip/zulip)
+* 视频通话 [https://github.com/miroslavpejic85/call-me](https://github.com/miroslavpejic85/call-me)
 
 
 - [https://github.com/topics/curses](https://github.com/topics/curses)
@@ -1023,6 +1024,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.deltawalker.com](https://www.deltawalker.com)
 * Altova DiffDog [https://www.altova.com/diffdog](https://www.altova.com/diffdog)
 * Araxis Merge [https://www.araxis.com/merge](https://www.araxis.com/merge)
+* [https://github.com/zbuzhi/diff-excel](https://github.com/zbuzhi/diff-excel)
 
 
 **磁盘空间分析器**

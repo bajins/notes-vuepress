@@ -21,6 +21,21 @@
   + [https://github.com/jonas/tig](https://github.com/jonas/tig)
 + [https://github.com/PJK/libcbor](https://github.com/PJK/libcbor)
 + [https://github.com/Yubico/libfido2](https://github.com/Yubico/libfido2)
++ Git实现 [https://github.com/libgit2/libgit2](https://github.com/libgit2/libgit2)
++ [https://github.com/go-git](https://github.com/go-git)
++ Java实现 [https://github.com/eclipse-jgit/jgit](https://github.com/eclipse-jgit/jgit)
+    + [https://github.com/centic9/jgit-cookbook](https://github.com/centic9/jgit-cookbook)
+    + [https://github.com/clj-jgit/clj-jgit](https://github.com/clj-jgit/clj-jgit)
+    + [https://github.com/jgitver/jgitver](https://github.com/jgitver/jgitver)
+    + [https://github.com/ajoberstar/grgit](https://github.com/ajoberstar/grgit)
+    + [https://github.com/jcjones/jgit](https://github.com/jcjones/jgit)
+    + [https://github.com/seart-group](https://github.com/seart-group)
+    + [https://github.com/tackleza/ApidechJavaGit](https://github.com/tackleza/ApidechJavaGit)
+    + [https://github.com/quarkiverse/quarkus-jgit](https://github.com/quarkiverse/quarkus-jgit)
+    + [https://github.com/Unity-Billal-mesloub/git](https://github.com/Unity-Billal-mesloub/git)
+    + [https://github.com/chirontt/jgit.http.server.native](https://github.com/chirontt/jgit.http.server.native)
++ [https://github.com/gitblit/gitblit](https://github.com/gitblit/gitblit)
+
 
 
 * [https://github.com/progit](https://github.com/progit)
@@ -47,12 +62,44 @@
 * 自己动手写Git [https://github.com/hanyujie2002/wyag-zh](https://github.com/hanyujie2002/wyag-zh)
 
 
-**GIT工具**
+
+- [git-pull.bat](/files/git-pull.bat)
+- [git-pull.sh](/files/git-pull.sh)
+
+
+> 脚本没有写的权限：在`git-bash.exe`文件或快捷方式上鼠标`右键` -> `属性` -> `兼容性` -> 勾选`以管理员身份运行此程序` -> `确定`
+
+
+**[Commit提交规范](/Other/编程规范.md#commit提交规范)**
+
+
+> `--global`代表全局，保存的配置在用户目录中，Windows在cmd中输入命令查看：`type %USERPROFILE%\.gitconfig`
+
+- `git clone url --depth 1` 克隆最新一条提交记录
+- `git clone url --recursive` 递归克隆
+- `git fetch --unshallow` 完整克隆
+
+
+
+**Git与SVN区别**
+
+- git是分布式，svn是集中式；
+- svn只有一个中央版本库，而git有无限个；
+- svn有全局的版本号，git没有；
+- git不必联网就可以看到所有的log，svn必须联网；
+- git保存的是元数据，svn是复制整个文档；
+- git强调分支，svn只是不同的文件目录，就是copy
+
+
+
+
+
+## GIT工具
 
 * 忽略提交 [https://github.com/github/gitignore](https://github.com/github/gitignore)
     * [https://wizardzines.com/comics/inside-git](https://wizardzines.com/comics/inside-git)
 * [https://github.com/toptal/gitignore.io](https://github.com/toptal/gitignore.io)
-* 编辑版本控制存储库的历史 [http://www.catb.org/esr/reposurgeon](http://www.catb.org/esr/reposurgeon)
+* 编辑版本控制存储库历史 [http://www.catb.org/esr/reposurgeon](http://www.catb.org/esr/reposurgeon)
 * GUI [https://github.com/git-cola/git-cola](https://github.com/git-cola/git-cola)
 * [https://github.com/prati0100/git-gui](https://github.com/prati0100/git-gui)
 * [https://github.com/extrawurst/gitui](https://github.com/extrawurst/gitui)
@@ -83,33 +130,52 @@
 * 删除大型blob [https://github.com/rtyley/bfg-repo-cleaner](https://github.com/rtyley/bfg-repo-cleaner)
 
 
-- [git-pull.bat](/files/git-pull.bat)
-- [git-pull.sh](/files/git-pull.sh)
+
+### Git LFS
+
+* 大文件版本控制 [https://github.com/git-lfs](https://github.com/git-lfs)
+  * [https://git-lfs.github.com](https://git-lfs.github.com)
+
+> Git LFS（Large File Storage, 大文件存储）可以把指定的任意文件存在 Git 仓库之外，
+> 而在 Git 仓库中用一个占用空间 1KB 不到的文本指针，可以减小 Git 仓库本身的体积来代替的小工具。
+
+> git每次保存diff，一些大文件发生变化时，整个仓库就会增加很大的体积，导致clone和pull的数据量大增。
+> git push的时候，git lfs会截取要管理的大文件，并将其传至git lfs的服务器中，从而减小仓库的体积。
+
+- `git lfs track "*.gz"` 添加文件到`.gitattributes`追踪记录文件中
+- `git lfs ls-files` 显示当前提交后跟踪的文件列表
+- `git lfs clone` 克隆追踪的文件
 
 
-> 脚本没有写的权限：在`git-bash.exe`文件或快捷方式上鼠标`右键` -> `属性` -> `兼容性` -> 勾选`以管理员身份运行此程序` -> `确定`
 
+## 安装最新版
 
-**[Commit提交规范](/Other/编程规范.md#commit提交规范)**
+* [https://git-scm.com/download](https://git-scm.com/download)
+* [https://registry.npmmirror.com/binary.html?path=git-for-windows/](https://registry.npmmirror.com/binary.html?path=git-for-windows/)
+* [https://packages.endpoint.com/rhel/7/os/x86_64/git-2.24.1-1.ep7.x86_64.rpm](https://packages.endpoint.com/rhel/7/os/x86_64/git-2.24.1-1.ep7.x86_64.rpm)
+* [https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm](https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm)
 
+- 方式一
 
-> `--global`代表全局，保存的配置在用户目录中，Windows在cmd中输入命令查看：`type %USERPROFILE%\.gitconfig`
+```bash
+yum install -y http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
+# 或者
+wget http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
+rpm -ivh wandisco-git-release-7-2.noarch.rpm
+```
 
-- `git clone url --depth 1` 克隆最新一条提交记录
-- `git clone url --recursive` 递归克隆
-- `git fetch --unshallow` 完整克隆
+- [https://github.com/iusrepo](https://github.com/iusrepo)
 
-
-
-**Git与SVN区别**
-
-- git是分布式，svn是集中式；
-- svn只有一个中央版本库，而git有无限个；
-- svn有全局的版本号，git没有；
-- git不必联网就可以看到所有的log，svn必须联网；
-- git保存的是元数据，svn是复制整个文档；
-- git强调分支，svn只是不同的文件目录，就是copy
-
+```bash
+curl https://setup.ius.io | sh
+# 或者
+yum install -y epel-release  
+rpm -ivh https://centos7.iuscommunity.org/ius-release.rpm
+# 查看git包版本
+yum list git2u
+# 安装
+yum -y install git2u
+```
 
 
 
@@ -499,56 +565,6 @@ git config --global i18n.logoutputencoding utf-8
 # 设置LESS字符集为utf-8
 export LESSCHARSET=utf-8
 ```
-
-
-## Git LFS
-
-* 对大型文件进行版本控制 [https://github.com/git-lfs](https://github.com/git-lfs)
-  * [https://git-lfs.github.com](https://git-lfs.github.com)
-
-> Git LFS（Large File Storage, 大文件存储）可以把指定的任意文件存在 Git 仓库之外，
-> 而在 Git 仓库中用一个占用空间 1KB 不到的文本指针，可以减小 Git 仓库本身的体积来代替的小工具。
-
-> git每次保存diff，一些大文件发生变化时，整个仓库就会增加很大的体积，导致clone和pull的数据量大增。
-> git push的时候，git lfs会截取要管理的大文件，并将其传至git lfs的服务器中，从而减小仓库的体积。
-
-- `git lfs track "*.gz"` 添加文件到`.gitattributes`追踪记录文件中
-- `git lfs ls-files` 显示当前提交后跟踪的文件列表
-- `git lfs clone` 克隆追踪的文件
-
-
-
-
-## 安装最新版
-
-* [https://git-scm.com/download](https://git-scm.com/download)
-* [https://registry.npmmirror.com/binary.html?path=git-for-windows/](https://registry.npmmirror.com/binary.html?path=git-for-windows/)
-* [https://packages.endpoint.com/rhel/7/os/x86_64/git-2.24.1-1.ep7.x86_64.rpm](https://packages.endpoint.com/rhel/7/os/x86_64/git-2.24.1-1.ep7.x86_64.rpm)
-* [https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm](https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm)
-
-- 方式一
-
-```bash
-yum install -y http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
-# 或者
-wget http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
-rpm -ivh wandisco-git-release-7-2.noarch.rpm
-```
-
-- [https://github.com/iusrepo](https://github.com/iusrepo)
-
-```bash
-curl https://setup.ius.io | sh
-# 或者
-yum install -y epel-release  
-rpm -ivh https://centos7.iuscommunity.org/ius-release.rpm
-# 查看git包版本
-yum list git2u
-# 安装
-yum -y install git2u
-```
-
-
 
 
 

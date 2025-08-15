@@ -454,6 +454,9 @@ string &operator+(const string& A,const string& B) //cpp
     * [https://wdd.js.org/m2w-transform](https://wdd.js.org/m2w-transform)
 * [https://github.com/lyricat/wechat-format](https://github.com/lyricat/wechat-format)
     * [https://lab.lyric.im/wxformat](https://lab.lyric.im/wxformat)
+* [https://github.com/xiaobox/mdeditor](https://github.com/xiaobox/mdeditor)
+* [https://github.com/geekjourneyx/md2wechat-mcp-server](https://github.com/geekjourneyx/md2wechat-mcp-server)
+    * [https://www.md2wechat.cn](https://www.md2wechat.cn)
 * MAC桌面软件 [https://github.com/caol64/wenyan](https://github.com/caol64/wenyan)
 
 

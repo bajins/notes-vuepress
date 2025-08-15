@@ -270,6 +270,7 @@ check-revoke = false
 - [https://github.com/smoltcp-rs/smoltcp](https://github.com/smoltcp-rs/smoltcp)
 - [https://github.com/Xuanwo/reqsign](https://github.com/Xuanwo/reqsign)
 - [https://github.com/Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)
+- [https://github.com/quinn-rs/quinn](https://github.com/quinn-rs/quinn)
 - HTML解析 [https://github.com/utkarshkukreti/select.rs](https://github.com/utkarshkukreti/select.rs)
 - [https://github.com/causal-agent/scraper](https://github.com/causal-agent/scraper)
 - [https://github.com/servo/html5ever](https://github.com/servo/html5ever)

@@ -165,17 +165,22 @@
 
 ## 设置编码格式
 
-- 设置工作空间编码 `Window` -> `Preferences` -> `General` -> `Workspace` -> `Text file encoding` -> `Other`选择`UTF-8`
-- 设置文档编码 `Window` -> `Preferences` -> `General` -> `Content Type` -> `Text`（填入编码后一定要点击`Update`）
-   - -> `Default encoding`填入`UTF-8`
-   - -> 展开`Text` -> 选中`Java Properties File` -> `Default encoding`填入`UTF-8` 设置Properties编码
-   - -> 展开`Text` -> 选中`Spring Properties File` -> `Default encoding`填入`UTF-8`
-   - -> 展开`Text` -> 选中`JSP` -> `Default encoding`填入`UTF-8` 设置JSP编码
-   - -> 展开`Text` -> 展开`JSP` -> `JSP Fragment` -> `Default encoding`填入`UTF-8`
-   - -> 展开`Text` -> 展开`JSP` -> `JSP Tag Definition` -> `Default encoding`填入`UTF-8`
-   - -> 展开`Text` -> 展开`JSP` -> 展开`JSP Tag Definition` -> `XML JSP Tag Definition` -> `Default encoding`填入`UTF-8`
+- 设置工作空间编码 `Window` -> `Preferences` -> `General` -> `Workspace` -> `Text file encoding` -> `Other`选择`UTF-8` -> `Apply`
+- 设置编辑器编码 `Window` -> `Preferences` -> `General` -> `Editors` -> `Text Editors` -> `Spelling` -> `Encoding`位置的`Other`选择`UTF-8` -> `Apply`
+- 设置文档编码 `Window` -> `Preferences` -> `General` -> `Content Types`
+   - -> `Text` -> `Default encoding`填入`UTF-8`（填入编码后一定要点击`Update`）
+   - -> 展开`Text`
+      - -> 选中`Java Properties File` -> `Default encoding`填入`UTF-8` 设置Properties编码
+      - -> 选中`Spring Properties File` -> `Default encoding`填入`UTF-8`
+      - -> 选中`JSP` -> `Default encoding`填入`UTF-8` 设置JSP编码
+      - -> 展开`JSP`
+         - -> `JSP Fragment` -> `Default encoding`填入`UTF-8`
+         - -> `JSP Tag Definition` -> `Default encoding`填入`UTF-8`
+         - -> 展开`JSP Tag Definition` -> `XML JSP Tag Definition` -> `Default encoding`填入`UTF-8`
 - 设置Web编码 `Window` -> `Preferences` -> `Web` -> `CSS Files`、`HTML Files`、`JSP Files` -> `Encoding`选择`ISO 10646/Unicode(UTF-8)`
 - 设置项目的文档编码：选中项目右键 -> `Properties` -> `Resource` -> `Other`选择`UTF-8`
+- 配置全局生效，在Eclipse的启动配置文件`eclipse.ini`中添加`-Dfile.encoding=UTF-8`
+- 设置Tomcats的编码  `Run` > `Run Configurations...` -> 选择`Java Application`下的应用 -> `Arguments` -> `VM arguments` 添加`-Dfile.encoding=UTF-8`
 
 
 
