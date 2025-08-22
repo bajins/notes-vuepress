@@ -288,7 +288,6 @@
 * 配色 [https://github.com/nealmckee/penumbra](https://github.com/nealmckee/penumbra)
 * 禁用规则 [https://github.com/lvjiaxuan/vscode-eslint-disable](https://github.com/lvjiaxuan/vscode-eslint-disable)
 * 前端提示 [https://github.com/Simon-He95/vscode-common-intellisense](https://github.com/Simon-He95/vscode-common-intellisense)
-* 生成注释 [https://github.com/OBKoro1/koro1FileHeader](https://github.com/OBKoro1/koro1FileHeader)
 * [https://github.com/Simon-He95/common-intellisense](https://github.com/Simon-He95/common-intellisense)
 * CSS Flex与Grid布局 [https://github.com/xutao-o/css-flex-code](https://github.com/xutao-o/css-flex-code)
 
@@ -405,7 +404,7 @@ pip install flake8
 
 **File Header**
 
-* [https://github.com/OBKoro1/koro1FileHeader](https://github.com/OBKoro1/koro1FileHeader)
+* 生成注释 [https://github.com/OBKoro1/koro1FileHeader](https://github.com/OBKoro1/koro1FileHeader)
 * [https://github.com/caizhengxin/vscodefileheader](https://github.com/caizhengxin/vscodefileheader)
 * [https://github.com/bookwormdevelopment/file-header](https://github.com/bookwormdevelopment/file-header)
 * [https://github.com/Raymondhsm/fileHeader](https://github.com/Raymondhsm/fileHeader)

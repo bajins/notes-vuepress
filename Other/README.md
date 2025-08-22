@@ -54,8 +54,8 @@
 
 * [https://github.com/CaoMeiYouRen/push-all-in-one](https://github.com/CaoMeiYouRen/push-all-in-one)
 * [https://github.com/songquanpeng](https://github.com/songquanpeng)
-* [https://github.com/Finb/bark-server](https://github.com/Finb/bark-server)
 * [https://github.com/Finb/Bark](https://github.com/Finb/Bark)
+    * [https://github.com/Finb/bark-server](https://github.com/Finb/bark-server)
 * [https://github.com/wahao/Bark-MP-helper](https://github.com/wahao/Bark-MP-helper)
 * [https://github.com/caronc/apprise](https://github.com/caronc/apprise)
 * [https://github.com/chanify/chanify](https://github.com/chanify/chanify)

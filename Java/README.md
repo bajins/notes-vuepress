@@ -287,3 +287,4 @@
 * 消息推送 [https://github.com/ZhongFuCheng3y/austin](https://github.com/ZhongFuCheng3y/austin)
 * IM [https://gitee.com/howcode/aq-chat-server](https://gitee.com/howcode/aq-chat-server)
 * ERP [https://github.com/wimoor-erp/wimoor](https://github.com/wimoor-erp/wimoor)
+* 复刻掘金BBS [https://github.com/shandonghengyudianzi/forum-easy](https://github.com/shandonghengyudianzi/forum-easy)

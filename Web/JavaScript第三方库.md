@@ -23,6 +23,7 @@
 + [https://github.com/sorrycc/awesome-javascript](https://github.com/sorrycc/awesome-javascript)
 + [https://github.com/developit](https://github.com/developit)
 + [https://github.com/request](https://github.com/request)
++ [https://github.com/herodevs](https://github.com/herodevs)
 
 
 * [NPM依赖：类库工具](https://www.jianshu.com/p/2a127cfba1cf)
@@ -61,6 +62,7 @@
 * [https://github.com/zTree/zTree_v3](https://github.com/zTree/zTree_v3)
 * [https://github.com/highlightjs/highlight.js](https://github.com/highlightjs/highlight.js)
 * [https://github.com/shikijs/shiki](https://github.com/shikijs/shiki)
+* [https://github.com/ajaxorg/ace-builds](https://github.com/ajaxorg/ace-builds)
 * 验证 [https://github.com/validatorjs/validator.js](https://github.com/validatorjs/validator.js)
 * [https://github.com/jquense/yup](https://github.com/jquense/yup)
 * 国际化 [https://github.com/rxaviers/javascript-globalization](https://github.com/rxaviers/javascript-globalization)
@@ -143,6 +145,8 @@
 * CSS Paged Media [https://github.com/pagedjs/pagedjs](https://github.com/pagedjs/pagedjs)
     * [https://docraptor.com/css-paged-media](https://docraptor.com/css-paged-media)
 * 字体加载器 [https://github.com/bramstein/fontfaceobserver](https://github.com/bramstein/fontfaceobserver)
+* 表单引擎 [https://github.com/surveyjs](https://github.com/surveyjs)
+* [https://github.com/formio/formio.js](https://github.com/formio/formio.js)
 
 
 
@@ -205,6 +209,7 @@
 
 **编辑器**
 
+- [https://github.com/slab/quill](https://github.com/slab/quill)
 - [https://github.com/notadd/neditor](https://github.com/notadd/neditor)
 - [https://github.com/mycolorway/simditor](https://github.com/mycolorway/simditor)
 - [https://github.com/summernote/summernote](https://github.com/summernote/summernote)
@@ -474,7 +479,6 @@
 * [https://github.com/bernii/gauge.js](https://github.com/bernii/gauge.js)
 * [https://github.com/timqian/chart.xkcd](https://github.com/timqian/chart.xkcd)
 * [https://github.com/imgcook/imove](https://github.com/imgcook/imove)
-* [https://github.com/bpmn-io](https://github.com/bpmn-io)
 * ~~[https://github.com/jgraph/mxgraph](https://github.com/jgraph/mxgraph)~~
     * [https://github.com/jinzhanye/pokemon-diagram](https://github.com/jinzhanye/pokemon-diagram)
     * [mxGraph 入门实例教程](https://segmentfault.com/a/1190000018510996)

@@ -342,6 +342,7 @@
 * [https://github.com/li-xiaojun/XPopup](https://github.com/li-xiaojun/XPopup)
 * [https://github.com/material-components](https://github.com/material-components)
   * [https://md.maxoxo.design](https://md.maxoxo.design)
+* 选择器 [https://github.com/gzu-liyujiang/AndroidPicker](https://github.com/gzu-liyujiang/AndroidPicker)
 * 多点触控 [https://github.com/DeviceFarmer/minitouch](https://github.com/DeviceFarmer/minitouch)
 * [https://github.com/MaaAssistantArknights/MaaTouch](https://github.com/MaaAssistantArknights/MaaTouch)
 * 密码存储 [https://github.com/android-password-store](https://github.com/android-password-store)

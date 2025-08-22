@@ -41,6 +41,7 @@
 * [https://github.com/search?q=sqlparser](https://github.com/search?l=Java&q=sqlparser)
 * [https://github.com/search?q=sql+visitor](https://github.com/search?q=sql+visitor)
 * [https://github.com/topics/sql-statement](https://github.com/topics/sql-statement)
+* 信创SQL转换 [https://github.com/CongKeCK/sql-convert](https://github.com/CongKeCK/sql-convert)
 
 
 - [什么是实体化视图？](https://aws.amazon.com/cn/what-is/materialized-view)

@@ -60,6 +60,7 @@
 * [https://github.com/tinygeeker/tinyspiders](https://github.com/tinygeeker/tinyspiders)
 * [https://github.com/Moli-X/Resources](https://github.com/Moli-X/Resources)
 * 预苗秒杀 [https://github.com/lyrric/seckill](https://github.com/lyrric/seckill)
+* 咸鱼监控 [https://github.com/dingyufei615/ai-goofish-monitor](https://github.com/dingyufei615/ai-goofish-monitor)
 
 
 **签到**

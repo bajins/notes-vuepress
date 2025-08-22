@@ -71,6 +71,18 @@ document.querySelector("#mainBox > main > div.hide-article-box.hide-article-pos.
 javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 ```
 
+- [https://github.com/search?q=CSDN](https://github.com/search?q=CSDN)
+- [https://greasyfork.org/zh-CN/scripts?q=CSDN+vip&sort=updated](https://greasyfork.org/zh-CN/scripts?q=CSDN+vip&sort=updated)
+- [https://github.com/adlered/CSDNGreener](https://github.com/adlered/CSDNGreener)
+    - [https://greasyfork.org/zh-CN/scripts/378351](https://greasyfork.org/zh-CN/scripts/378351)
+- [https://github.com/Mrlimuyu/CSDN-VIP](https://github.com/Mrlimuyu/CSDN-VIP)
+- [https://greasyfork.org/zh-CN/scripts/545163](https://greasyfork.org/zh-CN/scripts/545163)
+- [https://greasyfork.org/zh-CN/scripts/508787](https://greasyfork.org/zh-CN/scripts/508787)
+- [https://github.com/Qalxry/csdn2md](https://github.com/Qalxry/csdn2md)
+- [https://github.com/maxzhang666/OneKeyVip](https://github.com/maxzhang666/OneKeyVip)
+- [https://github.com/bigintpro/csdn_downloader](https://github.com/bigintpro/csdn_downloader)
+- [https://github.com/zq2599/blog_demos](https://github.com/zq2599/blog_demos)
+
 
 
 ## 冷知识和黑科技
@@ -235,3 +247,34 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * 共享卡片 [https://share.aitimi.cn](https://share.aitimi.cn)
 * 名片设计 [https://yft.design](https://yft.design)
 * 图像压缩 [https://compressjpg.io](https://compressjpg.io)
+
+
+
+
+## 基金股票
+
+* [https://github.com/OpenQuant-Community/quant-fund](https://github.com/OpenQuant-Community/quant-fund)
+* [https://github.com/axiaoxin-com/investool](https://github.com/axiaoxin-com/investool)
+* [https://github.com/1zilc/fishing-funds](https://github.com/1zilc/fishing-funds)
+* [https://github.com/wanyuqin/live-trading](https://github.com/wanyuqin/live-trading)
+* [https://github.com/lanZzV/fund](https://github.com/lanZzV/fund)
+* [https://github.com/Micro-sheep/efinance](https://github.com/Micro-sheep/efinance)
+* [https://github.com/sauon1314/fund-visual-platform](https://github.com/sauon1314/fund-visual-platform)
+* 扩展 [https://github.com/x2rr/funds](https://github.com/x2rr/funds)
+    * [https://gitee.com/rabt/funds](https://gitee.com/rabt/funds)
+* API [https://github.com/kouchao/TiantianFundApi](https://github.com/kouchao/TiantianFundApi)
+* [https://github.com/zhangxiangliang/stock-api](https://github.com/zhangxiangliang/stock-api)
+* [https://github.com/Gy-hy/ttfunds](https://github.com/Gy-hy/ttfunds)
+* [https://github.com/huage2580/leeks](https://github.com/huage2580/leeks)
+* [https://github.com/Aerolite794/Aerolite_fund_ana](https://github.com/Aerolite794/Aerolite_fund_ana)
+* 策略回测 [https://github.com/refraction-ray/xalpha](https://github.com/refraction-ray/xalpha)
+* [https://github.com/hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN)
+* [https://github.com/key06/stock_predict](https://github.com/key06/stock_predict)
+* [https://github.com/LargeCupPanda/StockAnal_Sys](https://github.com/LargeCupPanda/StockAnal_Sys)
+* [https://github.com/ArvinLovegood/go-stock](https://github.com/ArvinLovegood/go-stock)
+* 指数估值备份 [https://github.com/caibingcheng/djeva](https://github.com/caibingcheng/djeva)
+* 财经资讯 [https://github.com/sgrsun3/FinNewsCollectionBot](https://github.com/sgrsun3/FinNewsCollectionBot)
+
+
+- [https://github.com/jianglang740/Basic-OF-Python-Learning](https://github.com/jianglang740/Basic-OF-Python-Learning)
+- [https://github.com/louloulin/mdb](https://github.com/louloulin/mdb)

@@ -530,6 +530,27 @@
 - Node.js运行TypeScript [https://github.com/privatenumber/tsx](https://github.com/privatenumber/tsx)
 
 
+* TS转JS [https://github.com/JohnDeved/awesome-typescript-compilers](https://github.com/JohnDeved/awesome-typescript-compilers)
+* [https://github.com/microsoft/TypeScript-Website](https://github.com/microsoft/TypeScript-Website)
+    * [https://www.typescriptlang.org/zh/play](https://www.typescriptlang.org/zh/play)
+* [https://github.com/ritz078/transform](https://github.com/ritz078/transform)
+    * [https://transform.tools/typescript-to-javascript](https://transform.tools/typescript-to-javascript)
+* [https://github.com/evanw/esbuild](https://github.com/evanw/esbuild)
+    * [https://esbuild.github.io/try](https://esbuild.github.io/try)
+* [https://github.com/babel/babel](https://github.com/babel/babel)
+    * [https://babeljs.io/repl](https://babeljs.io/repl)
+* [https://github.com/oxc-project/oxc](https://github.com/oxc-project/oxc)
+    * [https://playground.oxc.rs](https://playground.oxc.rs)
+* [https://github.com/swc-project/swc-playground](https://github.com/swc-project/swc-playground)
+    * [https://play.swc.rs](https://play.swc.rs)
+    * [https://swc.rs/playground](https://swc.rs/playground)
+* [https://github.com/alangpierce/sucrase](https://github.com/alangpierce/sucrase)
+    * [https://sucrase.io](https://sucrase.io)
+* [https://github.com/jerosoler/ts2js](https://github.com/jerosoler/ts2js)
+* [https://www.gitloop.com/tool/typescript-to-javascript](https://www.gitloop.com/tool/typescript-to-javascript)
+* [https://extendsclass.com/typescript-to-javascript.html](https://extendsclass.com/typescript-to-javascript.html)
+
+
 
 ## WebAssembly
 
