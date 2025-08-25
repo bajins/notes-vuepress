@@ -613,6 +613,7 @@
 * [https://github.com/justcoding121/Titanium-Web-Proxy](https://github.com/justcoding121/Titanium-Web-Proxy)
 * [https://github.com/BornToBeRoot/NETworkManager](https://github.com/BornToBeRoot/NETworkManager)
 * [https://github.com/microsoft/ethr](https://github.com/microsoft/ethr)
+* [https://www.proxycap.com](https://www.proxycap.com)
 * [https://www.tcpdump.org](https://www.tcpdump.org)
 * [https://gitlab.com/wireshark/wireshark](https://gitlab.com/wireshark/wireshark)
     * [https://www.wireshark.org](https://www.wireshark.org)

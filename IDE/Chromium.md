@@ -432,6 +432,7 @@ taskkill /f /im chromedriver.exe
 
 ### 翻译
 
+* [https://github.com/AnYi-0/Translator](https://github.com/AnYi-0/Translator)
 * [https://github.com/lmk123/crx-selection-translate](https://github.com/lmk123/crx-selection-translate)
 * [https://github.com/magic-FE/translate-man](https://github.com/magic-FE/translate-man)
 * [https://github.com/EdgeTranslate/EdgeTranslate](https://github.com/EdgeTranslate/EdgeTranslate)

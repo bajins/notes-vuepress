@@ -101,6 +101,7 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * 术语在线 [http://www.termonline.cn](http://www.termonline.cn)
 * 航班线路 [https://flight.is26.com](https://flight.is26.com)
 * 屏幕坏点检测 [https://deadpixeltest.org](https://deadpixeltest.org)
+* [https://volumeshader.org](https://volumeshader.org)
 
 
 
@@ -200,6 +201,8 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * DIY项目 [https://makeityourself.org](https://makeityourself.org)
 * [王慧文清华产品课](https://nanqiang.feishu.cn/wiki/wikcncDyFTq1agB5UaEZnUGZD4g)
 * 产品反馈 [https://www.featurebase.app](https://www.featurebase.app)
+* 图表制作 [https://chartfromtext.com](https://chartfromtext.com)
+* [https://makegraph.app](https://makegraph.app)
 
 
 ## 文档

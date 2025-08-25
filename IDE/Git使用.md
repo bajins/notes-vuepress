@@ -135,6 +135,8 @@
 
 * 大文件版本控制 [https://github.com/git-lfs](https://github.com/git-lfs)
   * [https://git-lfs.github.com](https://git-lfs.github.com)
+* [https://github.com/alebedev/git-media](https://github.com/alebedev/git-media)
+* [https://git-annex.branchable.com](https://git-annex.branchable.com)
 
 > Git LFS（Large File Storage, 大文件存储）可以把指定的任意文件存在 Git 仓库之外，
 > 而在 Git 仓库中用一个占用空间 1KB 不到的文本指针，可以减小 Git 仓库本身的体积来代替的小工具。
