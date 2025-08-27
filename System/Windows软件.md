@@ -255,6 +255,7 @@
     * [http://upd.emule-security.org/nodes.dat](http://upd.emule-security.org/nodes.dat)
     * [http://ed2k.im/nodes.dat](http://ed2k.im/nodes.dat)
 * [https://github.com/pt-plugins/PT-Plugin-Plus](https://github.com/pt-plugins/PT-Plugin-Plus)
+* [https://sourceforge.net/projects/frostwire](https://sourceforge.net/projects/frostwire)
 
 
 **磁力搜索**
@@ -369,12 +370,6 @@
 
 - [https://cue-splitter.medieval.it](https://cue-splitter.medieval.it)
 - [http://www.medieval.it/cuesplitter-pc/menu-id-71.html](http://www.medieval.it/cuesplitter-pc/menu-id-71.html)
-- 编码解码器 [https://www.free-codecs.com](https://www.free-codecs.com)
-- 视频编辑 [https://github.com/mltframework/shotcut](https://github.com/mltframework/shotcut)
-- [https://github.com/mifi/lossless-cut](https://github.com/mifi/lossless-cut)
-- [https://github.com/ozmartian/vidcutter](https://github.com/ozmartian/vidcutter)
-- [https://github.com/olive-editor/olive](https://github.com/olive-editor/olive)
-- [https://file-converter.org](https://file-converter.org)
 
 
 * [foobar2000](http://blog.sina.com.cn/go2spa)
@@ -386,11 +381,13 @@
     * [https://github.com/hooke007/MPV_lazy](https://github.com/hooke007/MPV_lazy)
     * [https://github.com/diana7127/mpv.net-DW](https://github.com/diana7127/mpv.net-DW)
 * Kodi [https://github.com/xbmc](https://github.com/xbmc)
+    * [https://kodi.tv/download](https://kodi.tv/download)
 * powerDVD
-* MPC-BE
+* MPC-BE [https://sourceforge.net/projects/mpcbe](https://sourceforge.net/projects/mpcbe)
 * [https://github.com/clsid2/mpc-hc](https://github.com/clsid2/mpc-hc)
-* Kmplayer
+    * [https://sourceforge.net/projects/mpc-hc](https://sourceforge.net/projects/mpc-hc)
 * VLC [https://www.videolan.org](https://www.videolan.org)
+* [https://sourceforge.net/projects/qtav](https://sourceforge.net/projects/qtav)
 * [https://www.getmusicbee.com](https://www.getmusicbee.com)
 * [https://github.com/Frank-Friemel/Shairport4w](https://github.com/Frank-Friemel/Shairport4w)
 * [https://github.com/maotoumao/MusicFreeDesktop](https://github.com/maotoumao/MusicFreeDesktop)
@@ -400,6 +397,9 @@
 * [https://github.com/Hunlongyu/ZY-Player](https://github.com/Hunlongyu/ZY-Player)
 * [https://github.com/algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer)
 * [https://www.un4seen.com](https://www.un4seen.com)
+* 3D电影 [https://github.com/marlam/bino](https://github.com/marlam/bino)
+    * [https://github.com/ThreeDeeJay/bino](https://github.com/ThreeDeeJay/bino)
+* [https://www.3dtv.at/Downloads](https://www.3dtv.at/Downloads)
 
 
 - [https://github.com/Chocobozzz/PeerTube](https://github.com/Chocobozzz/PeerTube)
@@ -411,15 +411,43 @@
 - [https://github.com/qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic)
 - 字幕 [https://github.com/foxofice/sub_share](https://github.com/foxofice/sub_share)
 - [https://github.com/solidSpoon/DashPlayer](https://github.com/solidSpoon/DashPlayer)
-- 视频剪辑 [https://www.capcut.cn](https://www.capcut.cn)
+- 编码解码器 [https://www.free-codecs.com](https://www.free-codecs.com)
+- 视频编辑 [https://github.com/mltframework/shotcut](https://github.com/mltframework/shotcut)
+- [https://github.com/mifi/lossless-cut](https://github.com/mifi/lossless-cut)
+- [https://github.com/ozmartian/vidcutter](https://github.com/ozmartian/vidcutter)
+- [https://github.com/olive-editor/olive](https://github.com/olive-editor/olive)
+- [https://www.capcut.cn](https://www.capcut.cn)
 - [https://www.kuaishou.com/kuaiying](https://www.kuaishou.com/kuaiying)
 - [https://www.topazlabs.com](https://www.topazlabs.com)
 - [https://shana.pe.kr/shanaencoder_download](https://shana.pe.kr/shanaencoder_download)
 - [https://github.com/tnfe/FFCreator](https://github.com/tnfe/FFCreator)
+- [https://sourceforge.net/projects/vidiot](https://sourceforge.net/projects/vidiot)
+- [https://sourceforge.net/projects/shotcut](https://sourceforge.net/projects/shotcut)
+- [https://github.com/k4yt3x/video2x](https://github.com/k4yt3x/video2x)
+- [https://github.com/Gpower2/gMKVExtractGUI](https://github.com/Gpower2/gMKVExtractGUI)
+    - [https://sourceforge.net/projects/gmkvextractgui](https://sourceforge.net/projects/gmkvextractgui)
 - YouTube [https://github.com/FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube)
 - [https://github.com/iv-org/invidious](https://github.com/iv-org/invidious)
 - 直播录制 [https://github.com/WhiteMinds/LiveAutoRecord](https://github.com/WhiteMinds/LiveAutoRecord)
 - [https://github.com/chenfan0/fideo-live-record](https://github.com/chenfan0/fideo-live-record)
+
+
+**Potplayer**
+
+* [http://potplayer.daum.net](http://potplayer.daum.net)
+* [https://potplayer.tv](https://potplayer.tv)
+* [Public Version 32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe)
+* [Public Version 64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe)
+* [Developer Version 32-bit](https://t1.daumcdn.net/potplayer/beta/PotPlayerSetup.exe)
+* [Developer Version 64-bit](https://t1.daumcdn.net/potplayer/beta/PotPlayerSetup64.exe)
+* [解码组件包（Open Codec）只要提取HEVC(H265)解码器(FFmpeg.dll) 32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup.exe)
+* [解码组件包（Open Codec）只要提取HEVC(H265)解码器(FFmpeg.dll) 64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup64.exe)
+* [DTS音频解码器（FFmpegMininum.dll） 32-bit](https://get.daum.net/PotPlayer/v4/Module/FFmpeg/FFmpegMininum.dll)
+* [DTS音频解码器（FFmpegMininum.dll） 64-bit](https://get.daum.net/PotPlayer64/v4/Module/FFmpeg/FFmpegMininum64.dll)
+
+> 以上是官网下载地址，将`DNS`改为`8.8.8.8`就可以顺利下载了，若为默认的自动模式（国内DNS）则无法下载。或者使用迅雷下载
+
+* [https://www.lanzoui.com/b0f1k59qh](https://www.lanzoui.com/b0f1k59qh)
 
 
 **电视盒子/TVBOX**
@@ -458,6 +486,8 @@
 * [https://github.com/Eanya-Tonic/CCTV_Viewer](https://github.com/Eanya-Tonic/CCTV_Viewer)
 * [https://github.com/llazyl/TVBox](https://github.com/llazyl/TVBox)
 * [https://github.com/q215613905/TVBoxOS](https://github.com/q215613905/TVBoxOS)
+* [https://github.com/EdenwareApps/Megacubo](https://github.com/EdenwareApps/Megacubo)
+    * [https://sourceforge.net/projects/megacubo-br](https://sourceforge.net/projects/megacubo-br)
 * [https://github.com/FongMi/TV](https://github.com/FongMi/TV)
 * [https://github.com/NAStool/nas-tools](https://github.com/NAStool/nas-tools)
 * [https://github.com/liu673cn/box](https://github.com/liu673cn/box)
@@ -470,24 +500,6 @@
 - [https://xn--sss604efuw.top](https://xn--sss604efuw.top)
 - [https://www.lige.fit/tvbox](https://www.lige.fit/tvbox)
 - [非正版影视/直播(网站/应用)收集](https://www.nite07.com/moviewebsiteapp)
-
-
-**Potplayer**
-
-* [http://potplayer.daum.net](http://potplayer.daum.net)
-* [https://potplayer.tv](https://potplayer.tv)
-* [Public Version 32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe)
-* [Public Version 64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe)
-* [Developer Version 32-bit](https://t1.daumcdn.net/potplayer/beta/PotPlayerSetup.exe)
-* [Developer Version 64-bit](https://t1.daumcdn.net/potplayer/beta/PotPlayerSetup64.exe)
-* [解码组件包（Open Codec）只要提取HEVC(H265)解码器(FFmpeg.dll) 32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup.exe)
-* [解码组件包（Open Codec）只要提取HEVC(H265)解码器(FFmpeg.dll) 64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup64.exe)
-* [DTS音频解码器（FFmpegMininum.dll） 32-bit](https://get.daum.net/PotPlayer/v4/Module/FFmpeg/FFmpegMininum.dll)
-* [DTS音频解码器（FFmpegMininum.dll） 64-bit](https://get.daum.net/PotPlayer64/v4/Module/FFmpeg/FFmpegMininum64.dll)
-
-> 以上是官网下载地址，将`DNS`改为`8.8.8.8`就可以顺利下载了，若为默认的自动模式（国内DNS）则无法下载。或者使用迅雷下载
-
-* [https://www.lanzoui.com/b0f1k59qh](https://www.lanzoui.com/b0f1k59qh)
 
 
 

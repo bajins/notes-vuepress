@@ -15,6 +15,7 @@
 - [https://github.com/derekparker/delve](https://github.com/derekparker/delve)
 - [https://github.com/mafredri/cdp](https://github.com/mafredri/cdp)
 - 类BeautifulSoup [https://github.com/anaskhan96/soup](https://github.com/anaskhan96/soup)
+- 示例 [https://github.com/bestnite/bilinovel-downloader](https://github.com/bestnite/bilinovel-downloader)
 
 
 ## HTML解析

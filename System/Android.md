@@ -234,6 +234,7 @@
     - [https://github.com/Steve1920/courseManage](https://github.com/Steve1920/courseManage)
 - 二进制反编译 [https://github.com/uxmal/reko](https://github.com/uxmal/reko)
 - 提取/解压缩 [https://github.com/Perfare/AssetStudio](https://github.com/Perfare/AssetStudio)
+- [https://srpatch.cc](https://srpatch.cc)
 - [手机抓包神器HttpCanary](https://www.lanzoui.com/b0f1b9v6j)
 - C-S架构渗透测试 [https://github.com/theLSA/CS-checklist](https://github.com/theLSA/CS-checklist)
 - [https://github.com/fireeye/flare-vm](https://github.com/fireeye/flare-vm)
@@ -523,6 +524,7 @@
 + [https://github.com/topics/game](https://github.com/topics/game)
 + [https://github.com/topics/mobile-game](https://github.com/topics/mobile-game)
 + [https://github.com/topics/multiplatform](https://github.com/topics/multiplatform)
++ [https://github.com/albertomosconi/foss-apps](https://github.com/albertomosconi/foss-apps)
 
 
 * 文件传输 [https://github.com/localsend/localsend](https://github.com/localsend/localsend)
@@ -570,8 +572,32 @@
     * [https://sakawish.github.io](https://sakawish.github.io)
 * [https://github.com/ZTFtrue/MonsterMusic](https://github.com/ZTFtrue/MonsterMusic)
 * [https://github.com/paditianxiu/love_search_padi](https://github.com/paditianxiu/love_search_padi)
+* VLC [https://www.videolan.org/vlc/download-android.html](https://www.videolan.org/vlc/download-android.html)
+* NOVA [https://github.com/nova-video-player/aos-AVP](https://github.com/nova-video-player/aos-AVP)
+* Kodi [https://kodi.tv/download/android](https://kodi.tv/download/android)
+* JustPlayer [https://github.com/moneytoo/Player](https://github.com/moneytoo/Player)
+* XPlayer
+* MXPlayer [https://mx.j2inter.com](https://mx.j2inter.com)
+    * [https://www.mxplayer.in](https://www.mxplayer.in)
+* KMPlayer [https://kmplayer.com](https://kmplayer.com)
+* BSPlayer
+* MPV [https://github.com/mpv-android/mpv-android](https://github.com/mpv-android/mpv-android)
+* SPlayer
+* MVideo
+* PlayerXtreme
+* 音乐播放 [https://github.com/timusus/Shuttle2](https://github.com/timusus/Shuttle2)
+* [https://github.com/OuterTune/OuterTune](https://github.com/OuterTune/OuterTune)
+* [https://github.com/OxygenCobalt/Auxio](https://github.com/OxygenCobalt/Auxio)
+* [https://github.com/enricocid/Music-Player-GO](https://github.com/enricocid/Music-Player-GO)
+* [https://github.com/RetroMusicPlayer/RetroMusicPlayer](https://github.com/RetroMusicPlayer/RetroMusicPlayer)
+* [https://github.com/VinylMusicPlayer/VinylMusicPlayer](https://github.com/VinylMusicPlayer/VinylMusicPlayer)
+* [https://github.com/naman14/Timber](https://github.com/naman14/Timber)
+    * [https://github.com/naman14/TimberX](https://github.com/naman14/TimberX)
+* [https://github.com/ologe/canaree-music-player](https://github.com/ologe/canaree-music-player)
+* [https://www.larkplayer.com](https://www.larkplayer.com)
 * 图片编辑 [https://qingtu.kajicam.com](https://qingtu.kajicam.com)
 * [https://www.magicut.cn](https://www.magicut.cn)
+* [https://github.com/SimpleMobileTools/Simple-Gallery](https://github.com/SimpleMobileTools/Simple-Gallery)
 * 手机变成计算机的麦克风 [https://wolicheng.com/womic](https://wolicheng.com/womic)
 * 备份数据 [https://github.com/XayahSuSuSu/Android-DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup)
 * 投屏 [https://github.com/barry-ran/QtScrcpy](https://github.com/barry-ran/QtScrcpy)
