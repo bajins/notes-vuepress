@@ -15,6 +15,7 @@
 * [https://github.com/SolerHo/CprimerPlus-6e-Notes](https://github.com/SolerHo/CprimerPlus-6e-Notes)
 * [https://www.tutorialspoint.com/cprogramming](https://www.tutorialspoint.com/cprogramming)
 * C语言手册 [https://github.com/VernonGrant/gnu-c-language-manual](https://github.com/VernonGrant/gnu-c-language-manual)
+* [https://github.com/getiot/linux-c-functions](https://github.com/getiot/linux-c-functions)
 
 
 - [C语言内存泄露很严重，如何应对？](https://blog.csdn.net/devcloud/article/details/108335912)
@@ -168,6 +169,8 @@
     * HTTP [https://curl.se/libcurl](https://curl.se/libcurl)
     * [https://github.com/search?q=libcurl](https://github.com/search?q=libcurl)
     * [https://github.com/lexiforest/curl-impersonate](https://github.com/lexiforest/curl-impersonate)
+* [https://github.com/ngtcp2](https://github.com/ngtcp2)
+    * [https://github.com/tatsuhiro-t](https://github.com/tatsuhiro-t)
 * [https://github.com/lwip-tcpip/lwip](https://github.com/lwip-tcpip/lwip)
 * [https://github.com/openucx/ucx](https://github.com/openucx/ucx)
 * [https://github.com/warmcat/libwebsockets](https://github.com/warmcat/libwebsockets)
@@ -269,7 +272,8 @@
     * [https://ffmpeg.guide](https://ffmpeg.guide)
     * [https://github.com/jeanslack/Videomass](https://github.com/jeanslack/Videomass)
     * [https://github.com/wang-bin](https://github.com/wang-bin)
-* [https://github.com/BtbN/FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds)
+    * [https://github.com/BtbN/FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds)
+    * [https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
 * [https://github.com/ShiftMediaProject/FFmpeg](https://github.com/ShiftMediaProject/FFmpeg)
 * [https://github.com/ashellunts/ffmpeg-to-webrtc](https://github.com/ashellunts/ffmpeg-to-webrtc)
 * [https://github.com/AO-Yumi/vorbis_aotuv](https://github.com/AO-Yumi/vorbis_aotuv)

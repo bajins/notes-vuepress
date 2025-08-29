@@ -158,6 +158,7 @@
 * [https://github.com/shadcn/ui](https://github.com/shadcn/ui)
     * [https://github.com/shadcn-ui/ui](https://github.com/shadcn-ui/ui)
     * [https://ui.shadcn.com/charts](https://ui.shadcn.com/charts)
+* [https://github.com/franken-ui/ui](https://github.com/franken-ui/ui)
 * [https://github.com/magicuidesign/magicui](https://github.com/magicuidesign/magicui)
 * [https://github.com/radix-ui](https://github.com/radix-ui)
 * [https://github.com/shoelace-style/shoelace](https://github.com/shoelace-style/shoelace)

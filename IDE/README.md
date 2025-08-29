@@ -706,6 +706,7 @@
 * [https://github.com/plankanban/planka](https://github.com/plankanban/planka)
 * [https://github.com/bugzilla](https://github.com/bugzilla)
 * [https://github.com/Worklenz/worklenz](https://github.com/Worklenz/worklenz)
+* [https://github.com/opf/openproject](https://github.com/opf/openproject)
 
 
 

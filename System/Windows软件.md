@@ -239,9 +239,10 @@
 
 
 
-### Bit Torrent
+### BitTorrent
 
-* [https://baike.baidu.com/item/BitTorrent](https://baike.baidu.com/item/BitTorrent)
+* [https://github.com/bittorrent](https://github.com/bittorrent)
+    * [https://www.bittorrent.com/zh-cn/](https://www.bittorrent.com/zh-cn/)
 * ED2K（eMule电驴） [https://sourceforge.net/projects/emule](https://sourceforge.net/projects/emule)
     * [https://github.com/irwir/eMule](https://github.com/irwir/eMule)
     * [https://github.com/amule-project](https://github.com/amule-project)
@@ -292,7 +293,6 @@
 * [https://transmissionbt.com](https://transmissionbt.com)
 * [https://deluge-torrent.org](https://deluge-torrent.org)
 * [https://www.utorrent.com](https://www.utorrent.com)
-* [uTorrent／qBittorrent／BitComet](https://www.lanzoui.com/b0f1awgqb)
 * [https://github.com/webtorrent](https://github.com/webtorrent)
 * [https://github.com/arvidn/libtorrent](https://github.com/arvidn/libtorrent)
 * [https://github.com/popcorn-official/popcorn-desktop](https://github.com/popcorn-official/popcorn-desktop)
@@ -337,7 +337,6 @@
 * [http://lightzhan.xyz/index.php/qdown](http://lightzhan.xyz/index.php/qdown)
 * GUI [https://github.com/Xmader/aria-ng-gui](https://github.com/Xmader/aria-ng-gui)
 * [https://github.com/Xmader/aria-ng-gui-android](https://github.com/Xmader/aria-ng-gui-android)
-* [https://github.com/devgianlu/Aria2App](https://github.com/devgianlu/Aria2App)
 
 
 
@@ -1024,6 +1023,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://www.codesector.com/teracopy](https://www.codesector.com/teracopy)
 * 文件清理 [https://github.com/bleachbit/bleachbit](https://github.com/bleachbit/bleachbit)
 * 哈希值计算 [https://github.com/hrpzcf/HashCalculator](https://github.com/hrpzcf/HashCalculator)
+* 文件查看器 [https://github.com/stardustai/dataset-viewer](https://github.com/stardustai/dataset-viewer)
 
 
 
@@ -1314,6 +1314,14 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 **微信**
 
++ [https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_faq_list&head=true](https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_faq_list&head=true)
+    + [https://weixin.qq.com/updates](https://weixin.qq.com/updates)
++ [https://github.com/iibob/WechatWindowsVersionHistory](https://github.com/iibob/WechatWindowsVersionHistory)
++ [https://github.com/cscnk52/wechat-windows-versions](https://github.com/cscnk52/wechat-windows-versions)
++ [https://github.com/zsbai/wechat-versions](https://github.com/zsbai/wechat-versions)
+    + [https://github.com/tom-snow/wechat-windows-versions](https://github.com/tom-snow/wechat-windows-versions)
+
+
 - [https://github.com/BlueMatthew/WechatExporter](https://github.com/BlueMatthew/WechatExporter)
     - [https://github.com/AngelLiang/WechatExporter-html2excel](https://github.com/AngelLiang/WechatExporter-html2excel)
 - [https://github.com/wuyanaozi/wechat-backup](https://github.com/wuyanaozi/wechat-backup)
@@ -1325,6 +1333,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
     - [https://github.com/SpenserCai/GoWxDump](https://github.com/SpenserCai/GoWxDump)
     - [https://github.com/f13T2ach/WxMsgDump](https://github.com/f13T2ach/WxMsgDump)
     - [https://github.com/xaoyaoo/PyWxDump](https://github.com/xaoyaoo/PyWxDump)
+    - [https://github.com/Aeron1-bit/PyWxDump](https://github.com/Aeron1-bit/PyWxDump)
 - [https://github.com/Ormicron/Sharp-dumpkey](https://github.com/Ormicron/Sharp-dumpkey)
 - [https://github.com/L-HeliantHuS/GetWeChatDBPassword](https://github.com/L-HeliantHuS/GetWeChatDBPassword)
 - [https://github.com/test1213145/wechat-export](https://github.com/test1213145/wechat-export)
@@ -1340,7 +1349,9 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 - [https://github.com/saturn-opposition/wechat_analysis](https://github.com/saturn-opposition/wechat_analysis)
 - [https://github.com/allen1881996/WeChat-Data-Analysis](https://github.com/allen1881996/WeChat-Data-Analysis)
 - [https://github.com/git-jiadong/wechatDataBackup](https://github.com/git-jiadong/wechatDataBackup)
+    - [https://github.com/cmluZw/WxDump](https://github.com/cmluZw/WxDump)
 - [https://github.com/sjzar/chatlog](https://github.com/sjzar/chatlog)
+    - [https://github.com/saucer-man/wxdump](https://github.com/saucer-man/wxdump)
 - 清理微信僵尸粉 [https://github.com/L8426936/CleanUpWeChatZombieFans](https://github.com/L8426936/CleanUpWeChatZombieFans)
 - 自动抢红包 [https://github.com/east520/AutoGetRedEnv](https://github.com/east520/AutoGetRedEnv)
 - [https://github.com/geeeeeeeeek/WeChatLuckyMoney](https://github.com/geeeeeeeeek/WeChatLuckyMoney)

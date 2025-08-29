@@ -232,6 +232,7 @@
 * [https://github.com/fzakaria/ascii85](https://github.com/fzakaria/ascii85)
 * [https://github.com/rbuck/java-codecs](https://github.com/rbuck/java-codecs)
 * [https://github.com/biagioT/java-uudecoder](https://github.com/biagioT/java-uudecoder)
+* [https://github.com/alexey-lapin/eme-java](https://github.com/alexey-lapin/eme-java)
 * Headless Chrome For Java [https://github.com/fanyong920/jvppeteer](https://github.com/fanyong920/jvppeteer)
 * [https://github.com/andotorg/utf8bom-to-utf8](https://github.com/andotorg/utf8bom-to-utf8)
 * [https://github.com/downgoon/gbk2utf8](https://github.com/downgoon/gbk2utf8)

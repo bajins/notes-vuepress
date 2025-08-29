@@ -73,6 +73,7 @@
 - 查看日志文件 [https://github.com/bensadeh/tailspin](https://github.com/bensadeh/tailspin)
 - [https://github.com/Textualize/toolong](https://github.com/Textualize/toolong)
 - [https://github.com/gwsw/less](https://github.com/gwsw/less)
+- [https://github.com/control-theory/gonzo](https://github.com/control-theory/gonzo)
 - cat [https://github.com/swsnr/mdcat](https://github.com/swsnr/mdcat)
 - [https://github.com/busyloop/lolcat](https://github.com/busyloop/lolcat)
 - 文件管理 [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)

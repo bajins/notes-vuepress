@@ -414,35 +414,6 @@
 - [https://gitlab.com/AuroraOSS/auroradroid](https://gitlab.com/AuroraOSS/auroradroid)
 
 
-* [https://github.com/pipiscrew/html2apk](https://github.com/pipiscrew/html2apk)
-* [https://github.com/darkshredder/web-to-app-action](https://github.com/darkshredder/web-to-app-action)
-* [https://github.com/ynloultratech/web2apk](https://github.com/ynloultratech/web2apk)
-* [https://github.com/mohssineAboutaj/web-to-apk](https://github.com/mohssineAboutaj/web-to-apk)
-* [https://github.com/RikudouSage/PwaToTwa](https://github.com/RikudouSage/PwaToTwa)
-* [https://github.com/AKPR2007/website-to-apk](https://github.com/AKPR2007/website-to-apk)
-* [https://github.com/successtar/web-to-app](https://github.com/successtar/web-to-app)
-* [https://github.com/fh-rabbi/Html-Css-Js-Web-View-Apk-Template](https://github.com/fh-rabbi/Html-Css-Js-Web-View-Apk-Template)
-* 冻结APP [https://github.com/aistra0528/Hail](https://github.com/aistra0528/Hail)
-* 一个木函 [http://www.woobx.cn](http://www.woobx.cn)
-* [https://www.coolapk.com/apk/com.One.WoodenLetter](https://www.coolapk.com/apk/com.One.WoodenLetter)
-* [https://www.coolapk.com/apk/cn.coldsong.fusionapp](https://www.coolapk.com/apk/cn.coldsong.fusionapp)
-* [https://hermit.chimbori.com/features/premium](https://hermit.chimbori.com/features/premium)
-* [https://www.apicloud.com/autogeneration](https://www.apicloud.com/autogeneration)
-* [https://websitetoapk.com](https://websitetoapk.com)
-* 网页转exe [https://github.com/nativefier/nativefier](https://github.com/nativefier/nativefier)
-* see [https://caij.coding.net/public](https://caij.coding.net/public)
-* 文本编辑器 [https://github.com/gsantner/markor](https://github.com/gsantner/markor)
-* YouTube [https://github.com/YTVanced/VancedManager](https://github.com/YTVanced/VancedManager)
-* [https://github.com/TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe)
-* 谷歌框架 [https://opengapps.org](https://opengapps.org)
-* [https://github.com/Aefyr/SAI](https://github.com/Aefyr/SAI)
-* [https://github.com/machiav3lli/oandbackupx](https://github.com/machiav3lli/oandbackupx)
-* 幸运补丁 [https://www.luckypatchers.com](https://www.luckypatchers.com)
-* 图片处理 [https://website.facetuneapp.com](https://website.facetuneapp.com)
-* [https://www.lightricks.com](https://www.lightricks.com)
-* 磁力下载 [https://github.com/proninyaroslav/libretorrent](https://github.com/proninyaroslav/libretorrent)
-* 运行Windows应用 [https://github.com/brunodev85/winlator](https://github.com/brunodev85/winlator)
-* 词典 [https://github.com/mumu-lhl/Ciyue](https://github.com/mumu-lhl/Ciyue)
 
 
 **下载Google Play Store上的应用**
@@ -541,6 +512,13 @@
 * 沙盒塔防游戏 [https://github.com/Anuken/Mindustry](https://github.com/Anuken/Mindustry)
 * [https://github.com/PojavLauncherTeam](https://github.com/PojavLauncherTeam)
 * [https://nobsgames.stavros.io](https://nobsgames.stavros.io)
+* 下载器 https://play.google.com/store/search?q=download+manager&c=apps
+* https://play.google.com/store/apps/details?id=com.ellyzzard.downloader
+* https://play.google.com/store/apps/details?id=com.downloadmanager.app
+* https://play.google.com/store/apps/details?id=com.akira.mdm
+* https://play.google.com/store/apps/details?id=com.magdalm.downloadmanager
+* https://play.google.com/store/apps/details?id=com.kt.downloadmanager
+* https://play.google.com/store/apps/details?id=com.completeapps.downloader
 * ADM [https://advancedapp.kz](https://advancedapp.kz)
 * 1DM/IDM [https://www.apps2sd.info/idmp/faq](https://www.apps2sd.info/idmp/faq)
 * FDM [https://www.freedownloadmanager.org/zh/download-fdm-for-android.htm](https://www.freedownloadmanager.org/zh/download-fdm-for-android.htm)
@@ -561,6 +539,7 @@
 * [https://x5.tencent.com](https://x5.tencent.com)
 * [https://www.quetta.net](https://www.quetta.net)
 * [https://github.com/interfect/fenix](https://github.com/interfect/fenix)
+* [https://github.com/anthonycr/Lightning-Browser](https://github.com/anthonycr/Lightning-Browser)
 * 阅读器 [https://github.com/koreader/koreader](https://github.com/koreader/koreader)
 * 启动器 [https://github.com/NeoApplications/Neo-Launcher](https://github.com/NeoApplications/Neo-Launcher)
 * 无限词典 [https://github.com/KnIfER/PlainDictionaryAPP](https://github.com/KnIfER/PlainDictionaryAPP)
@@ -580,11 +559,18 @@
 * MXPlayer [https://mx.j2inter.com](https://mx.j2inter.com)
     * [https://www.mxplayer.in](https://www.mxplayer.in)
 * KMPlayer [https://kmplayer.com](https://kmplayer.com)
+    * [https://cobak.co/en/space/392](https://cobak.co/en/space/392)
 * BSPlayer
 * MPV [https://github.com/mpv-android/mpv-android](https://github.com/mpv-android/mpv-android)
 * SPlayer
 * MVideo
 * PlayerXtreme
+* AcePlayer
+* [https://www.moviebase.app](https://www.moviebase.app)
+    * [https://crowdin.com/project/moviebase](https://crowdin.com/project/moviebase)
+    * [https://github.com/crowdin/translate-readme](https://github.com/crowdin/translate-readme)
+* 磁力下载 [https://github.com/proninyaroslav/libretorrent](https://github.com/proninyaroslav/libretorrent)
+* Aria2 [https://github.com/devgianlu/Aria2App](https://github.com/devgianlu/Aria2App)
 * 音乐播放 [https://github.com/timusus/Shuttle2](https://github.com/timusus/Shuttle2)
 * [https://github.com/OuterTune/OuterTune](https://github.com/OuterTune/OuterTune)
 * [https://github.com/OxygenCobalt/Auxio](https://github.com/OxygenCobalt/Auxio)
@@ -595,6 +581,7 @@
     * [https://github.com/naman14/TimberX](https://github.com/naman14/TimberX)
 * [https://github.com/ologe/canaree-music-player](https://github.com/ologe/canaree-music-player)
 * [https://www.larkplayer.com](https://www.larkplayer.com)
+* Poweramp [https://powerampapp.com](https://powerampapp.com)
 * 图片编辑 [https://qingtu.kajicam.com](https://qingtu.kajicam.com)
 * [https://www.magicut.cn](https://www.magicut.cn)
 * [https://github.com/SimpleMobileTools/Simple-Gallery](https://github.com/SimpleMobileTools/Simple-Gallery)
@@ -612,6 +599,34 @@
 * 输入法 [https://github.com/crazydan-studio/kuaizi-ime](https://github.com/crazydan-studio/kuaizi-ime)
 * 播放100Hz声音防晕车 [https://github.com/BHznJNs/MotionEaseTune](https://github.com/BHznJNs/MotionEaseTune)
 * 日记 [https://github.com/geosmart/lumma](https://github.com/geosmart/lumma)
+* HTML转APP [https://github.com/pipiscrew/html2apk](https://github.com/pipiscrew/html2apk)
+* [https://github.com/darkshredder/web-to-app-action](https://github.com/darkshredder/web-to-app-action)
+* [https://github.com/ynloultratech/web2apk](https://github.com/ynloultratech/web2apk)
+* [https://github.com/mohssineAboutaj/web-to-apk](https://github.com/mohssineAboutaj/web-to-apk)
+* [https://github.com/RikudouSage/PwaToTwa](https://github.com/RikudouSage/PwaToTwa)
+* [https://github.com/AKPR2007/website-to-apk](https://github.com/AKPR2007/website-to-apk)
+* [https://github.com/successtar/web-to-app](https://github.com/successtar/web-to-app)
+* [https://github.com/fh-rabbi/Html-Css-Js-Web-View-Apk-Template](https://github.com/fh-rabbi/Html-Css-Js-Web-View-Apk-Template)
+* 冻结APP [https://github.com/aistra0528/Hail](https://github.com/aistra0528/Hail)
+* 一个木函 [http://www.woobx.cn](http://www.woobx.cn)
+* [https://www.coolapk.com/apk/com.One.WoodenLetter](https://www.coolapk.com/apk/com.One.WoodenLetter)
+* [https://www.coolapk.com/apk/cn.coldsong.fusionapp](https://www.coolapk.com/apk/cn.coldsong.fusionapp)
+* [https://hermit.chimbori.com/features/premium](https://hermit.chimbori.com/features/premium)
+* [https://www.apicloud.com/autogeneration](https://www.apicloud.com/autogeneration)
+* [https://websitetoapk.com](https://websitetoapk.com)
+* 网页转exe [https://github.com/nativefier/nativefier](https://github.com/nativefier/nativefier)
+* see [https://caij.coding.net/public](https://caij.coding.net/public)
+* 文本编辑器 [https://github.com/gsantner/markor](https://github.com/gsantner/markor)
+* YouTube [https://github.com/YTVanced/VancedManager](https://github.com/YTVanced/VancedManager)
+* [https://github.com/TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe)
+* 谷歌框架 [https://opengapps.org](https://opengapps.org)
+* [https://github.com/Aefyr/SAI](https://github.com/Aefyr/SAI)
+* [https://github.com/machiav3lli/oandbackupx](https://github.com/machiav3lli/oandbackupx)
+* 幸运补丁 [https://www.luckypatchers.com](https://www.luckypatchers.com)
+* 图片处理 [https://website.facetuneapp.com](https://website.facetuneapp.com)
+* [https://www.lightricks.com](https://www.lightricks.com)
+* 运行Windows应用 [https://github.com/brunodev85/winlator](https://github.com/brunodev85/winlator)
+* 词典 [https://github.com/mumu-lhl/Ciyue](https://github.com/mumu-lhl/Ciyue)
 
 
 ### 证件照
