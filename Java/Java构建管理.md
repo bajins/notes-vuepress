@@ -93,10 +93,7 @@
 - [https://www.jetbrains.com/zh-cn/teamcity](https://www.jetbrains.com/zh-cn/teamcity)
 - [https://www.atlassian.com/zh/software/bamboo](https://www.atlassian.com/zh/software/bamboo)
 - [https://github.com/technomancy/leiningen](https://github.com/technomancy/leiningen)
-- [https://github.com/ansible/ansible](https://github.com/ansible/ansible)
-    - [https://github.com/ansible-community](https://github.com/ansible-community)
-    - [https://github.com/sky22333/ansible-ui](https://github.com/sky22333/ansible-ui)
-- 自动化部署 [https://github.com/dreamans/syncd](https://github.com/dreamans/syncd)
+    - [https://codeberg.org/leiningen/leiningen](https://codeberg.org/leiningen/leiningen)
 - [https://github.com/jitpack/jitpack.io](https://github.com/jitpack/jitpack.io)
 - [https://github.com/jreleaser](https://github.com/jreleaser)
 

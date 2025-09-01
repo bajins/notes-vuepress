@@ -10,6 +10,8 @@
 
 * 热备份 [https://github.com/percona/percona-xtrabackup](https://github.com/percona/percona-xtrabackup)
 * [https://github.com/blylei/frabit](https://github.com/blylei/frabit)
+* 读取binlog [https://github.com/zendesk/maxwell](https://github.com/zendesk/maxwell)
+* [https://github.com/alibaba/canal](https://github.com/alibaba/canal)
 
 
 
@@ -24,7 +26,6 @@
 
 * [https://github.com/danfengcao/binlog2sql](https://github.com/danfengcao/binlog2sql)
 * [https://github.com/Michaelsky0913/binlog2sql](https://github.com/Michaelsky0913/binlog2sql)
-
 
 
 ```bash

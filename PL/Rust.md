@@ -334,6 +334,7 @@ check-revoke = false
 - [https://github.com/brendonovich/prisma-client-rust](https://github.com/brendonovich/prisma-client-rust)
 - [https://github.com/diesel-rs/diesel](https://github.com/diesel-rs/diesel)
 - [https://github.com/launchbadge/sqlx](https://github.com/launchbadge/sqlx)
+- [https://github.com/kurtbuilds/ormlite](https://github.com/kurtbuilds/ormlite)
 - SQL缓存 [https://github.com/readysettech/readyset](https://github.com/readysettech/readyset)
 - SQL词法分析 [https://github.com/sqlparser-rs/sqlparser-rs](https://github.com/sqlparser-rs/sqlparser-rs)
 - 全文搜索 [https://github.com/zhihu/rucene](https://github.com/zhihu/rucene)

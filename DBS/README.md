@@ -48,7 +48,7 @@
 
 
 
-**备份/迁移/同步/导入导出**
+**备份/迁移/同步/复制/导入导出**
 
 > (EXTRACT，TRANSFORMATION，LOAD) ETL：[Talend](https://www.talend.com)、Kettle、Informatica、Inaplex Inaport、Hevo、Xplenty、Skyvia、DBConvert Studio、Sprinkle
 
@@ -66,6 +66,14 @@
 
 
 
+- [https://github.com/osalvador/ReplicaDB](https://github.com/osalvador/ReplicaDB)
+- [https://github.com/JumpMind/symmetric-ds](https://github.com/JumpMind/symmetric-ds)
+    - [https://sourceforge.net/projects/symmetricds](https://sourceforge.net/projects/symmetricds)
+    - [https://www.symmetricds.org](https://www.symmetricds.org)
+- [https://github.com/86dbs/dbsyncer](https://github.com/86dbs/dbsyncer)
+- [https://gitee.com/dromara/dbswitch](https://gitee.com/dromara/dbswitch)
+    - [https://github.com/Henryhuang0411/mydbswitch](https://github.com/Henryhuang0411/mydbswitch)
+- [https://github.com/viant/dbsync](https://github.com/viant/dbsync)
 - [https://github.com/pentaho/pentaho-kettle](https://github.com/pentaho/pentaho-kettle)
     - [https://github.com/zhaxiaodong9860/kettle-scheduler](https://github.com/zhaxiaodong9860/kettle-scheduler)
     - [https://github.com/xiaoymin/KettleInAction100](https://github.com/xiaoymin/KettleInAction100)
@@ -79,10 +87,15 @@
     - [https://bitbucket.org/liamstask/goose](https://bitbucket.org/liamstask/goose)
 - [https://github.com/Qovery/replibyte](https://github.com/Qovery/replibyte)
 - [https://github.com/alibaba/DataX](https://github.com/alibaba/DataX)
+    - [https://github.com/WeiYe-Jing/datax-web](https://github.com/WeiYe-Jing/datax-web)
+- [https://github.com/alibaba/otter](https://github.com/alibaba/otter)
+- [https://github.com/redpanda-data/connect](https://github.com/redpanda-data/connect)
+- [https://github.com/DTStack/chunjun](https://github.com/DTStack/chunjun)
 - [https://github.com/singer-io](https://github.com/singer-io)
     - [https://github.com/transferwise/pipelinewise](https://github.com/transferwise/pipelinewise)
 - [https://github.com/wgzhao/Addax](https://github.com/wgzhao/Addax)
 - [https://github.com/airbytehq/airbyte](https://github.com/airbytehq/airbyte)
+- [https://github.com/apache/flink-cdc](https://github.com/apache/flink-cdc)
 - [https://github.com/tapdata/tapdata](https://github.com/tapdata/tapdata)
 - [https://github.com/flyway/flyway](https://github.com/flyway/flyway)
     - [Migrations](https://documentation.red-gate.com/fd/migrations-184127470.html)
@@ -93,9 +106,7 @@
 - [https://github.com/liquibase](https://github.com/liquibase)
 - [https://github.com/sqitchers/sqitch](https://github.com/sqitchers/sqitch)
 - [https://github.com/ariga/atlas](https://github.com/ariga/atlas)
-- [https://github.com/JumpMind/symmetric-ds](https://github.com/JumpMind/symmetric-ds)
-    - [https://sourceforge.net/projects/symmetricds](https://sourceforge.net/projects/symmetricds)
-    - [https://www.symmetricds.org](https://www.symmetricds.org)
+- [https://github.com/CourseOrchestra/celesta](https://github.com/CourseOrchestra/celesta)
 - [https://github.com/planetscale](https://github.com/planetscale)
 - [https://github.com/lecaillon/Evolve](https://github.com/lecaillon/Evolve)
 - [https://github.com/rdagumampan/yuniql](https://github.com/rdagumampan/yuniql)
@@ -107,6 +118,7 @@
 - [https://github.com/ibmdb](https://github.com/ibmdb)
 - [https://github.com/cakephp/phinx](https://github.com/cakephp/phinx)
 - [https://www.sqlines.com](https://www.sqlines.com)
+- [https://gitee.com/sxfad/porter](https://gitee.com/sxfad/porter)
 - DbVisualizer [https://www.dbvis.com](https://www.dbvis.com)
 - PostgreSQL迁移 [https://github.com/jackc/tern](https://github.com/jackc/tern)
 - [https://github.com/dimitri/pgcopydb](https://github.com/dimitri/pgcopydb)
@@ -116,10 +128,28 @@
 - [https://github.com/jeessy2/backup-db](https://github.com/jeessy2/backup-db)
 - [https://github.com/database-mesh](https://github.com/database-mesh)
 - [https://github.com/eduardolat/pgbackweb](https://github.com/eduardolat/pgbackweb)
-- [https://github.com/darold/ora2pg](https://github.com/darold/ora2pg)
+- [https://github.com/Hornetlabs/synchdb](https://github.com/Hornetlabs/synchdb)
 - [https://github.com/dimitri/pgloader](https://github.com/dimitri/pgloader)
+- [https://github.com/darold/ora2pg](https://github.com/darold/ora2pg)
+    - [https://sourceforge.net/projects/ora2pg](https://sourceforge.net/projects/ora2pg)
+    - [https://github.com/vibhorkum/pg_background](https://github.com/vibhorkum/pg_background)
+    - 兼容性函数 [https://github.com/orafce/orafce](https://github.com/orafce/orafce)
+    - [https://github.com/zaops/or2pg-admin](https://github.com/zaops/or2pg-admin)
+    - [https://github.com/Guy-Incognito/ora2pg](https://github.com/Guy-Incognito/ora2pg)
+    - [https://github.com/RiprLutuk/copy-table-oracle-to-postgresql](https://github.com/RiprLutuk/copy-table-oracle-to-postgresql)
+    - [https://github.com/romkoval/py-ora2pg](https://github.com/romkoval/py-ora2pg)
+    - [https://gitlab.com/ongresinc](https://gitlab.com/ongresinc)
+    - [https://github.com/ongres](https://github.com/ongres)
+    - https://hub.docker.com/r/riprlutuk/ora2pg
+- [https://github.com/cybertec-postgresql/ora_migrator](https://github.com/cybertec-postgresql/ora_migrator)
+- [https://github.com/semay-cli/sql-migration](https://github.com/semay-cli/sql-migration)
+- [https://github.com/the4thdoctor/pg_chameleon](https://github.com/the4thdoctor/pg_chameleon)
 - [https://github.com/dalibo/sqlserver2pgsql](https://github.com/dalibo/sqlserver2pgsql)
+- [https://github.com/stripe/pg-schema-diff](https://github.com/stripe/pg-schema-diff)
+- [https://github.com/m1h1r-a/ddl-migration-conversion](https://github.com/m1h1r-a/ddl-migration-conversion)
+- [https://github.com/kurtbuilds/sql](https://github.com/kurtbuilds/sql)
 - [https://sqlbackupandftp.com/download](https://sqlbackupandftp.com/download)
+- [https://dbconvert.com/download](https://dbconvert.com/download)
 - 日志解析订阅和消费 [https://github.com/alibaba/canal](https://github.com/alibaba/canal)
 - [https://github.com/ucarGroup/DataLink](https://github.com/ucarGroup/DataLink)
 - 数据库监控 [https://github.com/debezium/debezium](https://github.com/debezium/debezium)

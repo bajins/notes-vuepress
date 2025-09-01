@@ -27,6 +27,7 @@
 * [https://github.com/commandprompt/pgmanage](https://github.com/commandprompt/pgmanage)
 * 管理器 [https://github.com/sorintlab/stolon](https://github.com/sorintlab/stolon)
 * [https://github.com/achristmascarl/rainfrog](https://github.com/achristmascarl/rainfrog)
+* [https://github.com/lesovsky/pgcenter](https://github.com/lesovsky/pgcenter)
 * 连接池工具 [https://github.com/pgbouncer/pgbouncer](https://github.com/pgbouncer/pgbouncer)
 * 扩展Rust开发框架 [https://github.com/tcdi/pgx](https://github.com/tcdi/pgx)
 * 迁移 [https://github.com/sbdchd/squawk](https://github.com/sbdchd/squawk)

@@ -36,6 +36,7 @@
 * [https://www.solarwinds.com/zh/database-performance-monitoring-software](https://www.solarwinds.com/zh/database-performance-monitoring-software)
 * 高可用复制管理工具 [https://github.com/openark/orchestrator](https://github.com/openark/orchestrator)
 * 水平切片集群扩展 [https://github.com/vitessio/vitess](https://github.com/vitessio/vitess)
+* 配置管理 [https://github.com/AhmedAredah/DBSwitcher](https://github.com/AhmedAredah/DBSwitcher)
 
 
 
