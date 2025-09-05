@@ -236,6 +236,7 @@
 - 提取/解压缩 [https://github.com/Perfare/AssetStudio](https://github.com/Perfare/AssetStudio)
 - [https://srpatch.cc](https://srpatch.cc)
 - [手机抓包神器HttpCanary](https://www.lanzoui.com/b0f1b9v6j)
+- NetCapture
 - C-S架构渗透测试 [https://github.com/theLSA/CS-checklist](https://github.com/theLSA/CS-checklist)
 - [https://github.com/fireeye/flare-vm](https://github.com/fireeye/flare-vm)
 - [https://github.com/DynamoRIO/dynamorio](https://github.com/DynamoRIO/dynamorio)
@@ -331,6 +332,7 @@
 * [https://github.com/T8RIN/ImageToolbox](https://github.com/T8RIN/ImageToolbox)
 * 图表库 [https://github.com/PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 * 图像加载 [https://github.com/coil-kt/coil](https://github.com/coil-kt/coil)
+* Lottie动画 [https://github.com/orispok/OpenAnimationApp](https://github.com/orispok/OpenAnimationApp)
 * 翻页动效 [https://github.com/PureWriter/FullDraggableDrawer](https://github.com/PureWriter/FullDraggableDrawer)
 * 进度 [https://github.com/lzyzsd/CircleProgress](https://github.com/lzyzsd/CircleProgress)
 * [https://github.com/sunjinxi1994/EasyPoi](https://github.com/sunjinxi1994/EasyPoi)
@@ -344,6 +346,7 @@
 * [https://github.com/material-components](https://github.com/material-components)
   * [https://md.maxoxo.design](https://md.maxoxo.design)
 * 选择器 [https://github.com/gzu-liyujiang/AndroidPicker](https://github.com/gzu-liyujiang/AndroidPicker)
+* 媒体播放 [https://github.com/Chaintech-Network/ComposeMultiplatformMediaPlayer](https://github.com/Chaintech-Network/ComposeMultiplatformMediaPlayer)
 * 多点触控 [https://github.com/DeviceFarmer/minitouch](https://github.com/DeviceFarmer/minitouch)
 * [https://github.com/MaaAssistantArknights/MaaTouch](https://github.com/MaaAssistantArknights/MaaTouch)
 * 密码存储 [https://github.com/android-password-store](https://github.com/android-password-store)

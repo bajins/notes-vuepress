@@ -222,6 +222,7 @@
 * [https://github.com/bitkeeper-scm/bitkeeper](https://github.com/bitkeeper-scm/bitkeeper)
 * [https://github.com/jj-vcs/jj](https://github.com/jj-vcs/jj)
     * [https://steveklabnik.github.io/jujutsu-tutorial](https://steveklabnik.github.io/jujutsu-tutorial)
+    * [https://github.com/jj-for-everyone/jj-for-everyone.github.io](https://github.com/jj-for-everyone/jj-for-everyone.github.io)
 
 
 

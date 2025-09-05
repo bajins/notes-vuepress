@@ -67,12 +67,12 @@
 
 
 - [https://github.com/osalvador/ReplicaDB](https://github.com/osalvador/ReplicaDB)
-- [https://github.com/JumpMind/symmetric-ds](https://github.com/JumpMind/symmetric-ds)
-    - [https://sourceforge.net/projects/symmetricds](https://sourceforge.net/projects/symmetricds)
-    - [https://www.symmetricds.org](https://www.symmetricds.org)
 - [https://github.com/86dbs/dbsyncer](https://github.com/86dbs/dbsyncer)
 - [https://gitee.com/dromara/dbswitch](https://gitee.com/dromara/dbswitch)
     - [https://github.com/Henryhuang0411/mydbswitch](https://github.com/Henryhuang0411/mydbswitch)
+- [https://github.com/JumpMind/symmetric-ds](https://github.com/JumpMind/symmetric-ds)
+    - [https://sourceforge.net/projects/symmetricds](https://sourceforge.net/projects/symmetricds)
+    - [https://www.symmetricds.org](https://www.symmetricds.org)
 - [https://github.com/viant/dbsync](https://github.com/viant/dbsync)
 - [https://github.com/pentaho/pentaho-kettle](https://github.com/pentaho/pentaho-kettle)
     - [https://github.com/zhaxiaodong9860/kettle-scheduler](https://github.com/zhaxiaodong9860/kettle-scheduler)

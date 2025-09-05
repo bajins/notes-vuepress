@@ -546,17 +546,46 @@ taskkill /f /im chromedriver.exe
     * [https://github.com/derjanb](https://github.com/derjanb)
     * [https://bbs.tampermonkey.net.cn](https://bbs.tampermonkey.net.cn)
     * [https://github.com/hmjz100/Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)
-    * [https://github.com/syhyz1990](https://github.com/syhyz1990)
-        * [https://www.youxiaohou.com](https://www.youxiaohou.com)
-    * CSDN去广告 [https://github.com/adlered/CSDNGreener](https://github.com/adlered/CSDNGreener)
-    * [https://github.com/027xiguapi/code-box](https://github.com/027xiguapi/code-box)
     * 百度云 [https://github.com/hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift)
+        * [https://github.com/syhyz1990](https://github.com/syhyz1990)
+        * [https://www.youxiaohou.com/download.html](https://www.youxiaohou.com/download.html)
+    * [https://greasyfork.org/zh-CN/scripts/546878](https://greasyfork.org/zh-CN/scripts/546878)
+    * [https://greasyfork.org/zh-CN/scripts/521185](https://greasyfork.org/zh-CN/scripts/521185)
+    * [https://greasyfork.org/zh-CN/scripts/544796](https://greasyfork.org/zh-CN/scripts/544796)
+    * [https://greasyfork.org/zh-CN/scripts/512984](https://greasyfork.org/zh-CN/scripts/512984) 有广告
+    * [https://github.com/dongyubin/Baidu-VIP](https://github.com/dongyubin/Baidu-VIP)
+    * 小说下载 [https://github.com/404-novel-project/novel-downloader](https://github.com/404-novel-project/novel-downloader)
 * 暴力猴 [https://github.com/violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey)
 * 油猴 [https://github.com/greasemonkey/greasemonkey](https://github.com/greasemonkey/greasemonkey)
 
 
 - [https://github.com/lisonge/vite-plugin-monkey](https://github.com/lisonge/vite-plugin-monkey)
 
+
+
+**CSDN取消屏蔽**
+
+```js
+const c = document.getElementById("article_content");
+c.style.height="auto";
+c.style.overflow="auto";
+document.querySelector("#mainBox > main > div.hide-article-box.hide-article-pos.text-center").remove();
+// 添加至浏览器标签，解决登陆后复制
+javascript:document.body.contentEditable='true';document.designMode='on'; void 0
+```
+
+- [https://github.com/search?q=CSDN](https://github.com/search?q=CSDN)
+- [https://greasyfork.org/zh-CN/scripts?q=CSDN+vip&sort=updated](https://greasyfork.org/zh-CN/scripts?q=CSDN+vip&sort=updated)
+- [https://github.com/027xiguapi/code-box](https://github.com/027xiguapi/code-box)
+- [https://github.com/maxzhang666/OneKeyVip](https://github.com/maxzhang666/OneKeyVip)
+- [https://github.com/adlered/CSDNGreener](https://github.com/adlered/CSDNGreener)
+    - [https://greasyfork.org/zh-CN/scripts/378351](https://greasyfork.org/zh-CN/scripts/378351)
+- [https://github.com/Mrlimuyu/CSDN-VIP](https://github.com/Mrlimuyu/CSDN-VIP)
+- [https://greasyfork.org/zh-CN/scripts/545163](https://greasyfork.org/zh-CN/scripts/545163)
+- [https://greasyfork.org/zh-CN/scripts/508787](https://greasyfork.org/zh-CN/scripts/508787)
+- [https://github.com/Qalxry/csdn2md](https://github.com/Qalxry/csdn2md)
+- [https://github.com/bigintpro/csdn_downloader](https://github.com/bigintpro/csdn_downloader)
+- [https://github.com/zq2599/blog_demos](https://github.com/zq2599/blog_demos)
 
 
 

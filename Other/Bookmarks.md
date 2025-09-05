@@ -60,30 +60,6 @@
 
 
 
-**CSDN取消屏蔽**
-
-```js
-const c = document.getElementById("article_content");
-c.style.height="auto";
-c.style.overflow="auto";
-document.querySelector("#mainBox > main > div.hide-article-box.hide-article-pos.text-center").remove();
-// 添加至浏览器标签，解决登陆后复制
-javascript:document.body.contentEditable='true';document.designMode='on'; void 0
-```
-
-- [https://github.com/search?q=CSDN](https://github.com/search?q=CSDN)
-- [https://greasyfork.org/zh-CN/scripts?q=CSDN+vip&sort=updated](https://greasyfork.org/zh-CN/scripts?q=CSDN+vip&sort=updated)
-- [https://github.com/adlered/CSDNGreener](https://github.com/adlered/CSDNGreener)
-    - [https://greasyfork.org/zh-CN/scripts/378351](https://greasyfork.org/zh-CN/scripts/378351)
-- [https://github.com/Mrlimuyu/CSDN-VIP](https://github.com/Mrlimuyu/CSDN-VIP)
-- [https://greasyfork.org/zh-CN/scripts/545163](https://greasyfork.org/zh-CN/scripts/545163)
-- [https://greasyfork.org/zh-CN/scripts/508787](https://greasyfork.org/zh-CN/scripts/508787)
-- [https://github.com/Qalxry/csdn2md](https://github.com/Qalxry/csdn2md)
-- [https://github.com/maxzhang666/OneKeyVip](https://github.com/maxzhang666/OneKeyVip)
-- [https://github.com/bigintpro/csdn_downloader](https://github.com/bigintpro/csdn_downloader)
-- [https://github.com/zq2599/blog_demos](https://github.com/zq2599/blog_demos)
-
-
 
 ## 冷知识和黑科技
 
@@ -250,6 +226,7 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * 共享卡片 [https://share.aitimi.cn](https://share.aitimi.cn)
 * 名片设计 [https://yft.design](https://yft.design)
 * 图像压缩 [https://compressjpg.io](https://compressjpg.io)
+* 模拟摄影 [https://www.filmtypes.com](https://www.filmtypes.com)
 
 
 
