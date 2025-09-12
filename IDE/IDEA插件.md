@@ -20,7 +20,6 @@
         * [https://plugins.zhile.io](https://plugins.zhile.io)
     * [https://github.com/ja-netfilter](https://github.com/ja-netfilter) 2021.3(2022.1起弃用`mymap`插件)-2023.1.4可用
         * [https://gitee.com/ja-netfilter](https://gitee.com/ja-netfilter)
-        * [https://github.com/libin9iOak/ja-netfilter-all](https://github.com/libin9iOak/ja-netfilter-all)
         * [https://jetbra.in/s](https://jetbra.in/s)
             * [https://github.com/jonssonyan/3.jetbra.in](https://github.com/jonssonyan/3.jetbra.in)
             * [https://jetbra.github.do](https://jetbra.github.do)

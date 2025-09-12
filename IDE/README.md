@@ -398,14 +398,18 @@
 
 * [https://github.com/slashbaseide/slashbase](https://github.com/slashbaseide/slashbase)
 * [https://github.com/dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
-* [https://github.com/dbgate/dbgate](https://github.com/dbgate/dbgate)
     * [https://dbeaver.io](https://dbeaver.io)
     * [https://dbeaver.com/download/enterprise](https://dbeaver.com/download/enterprise)
+    * [https://github.com/moshowgame/dbeaver-driver-all](https://github.com/moshowgame/dbeaver-driver-all)
     * [https://github.com/yuyan-sec/DBeaver-decrypter](https://github.com/yuyan-sec/DBeaver-decrypter)
     * [https://bugdays.com/dbeaver-password-decrypter](https://bugdays.com/dbeaver-password-decrypter)
     * [https://github.com/Tatsh/dbeaver-creds](https://github.com/Tatsh/dbeaver-creds)
     * [https://github.com/geekyouth/crack-dbeaver-password](https://github.com/geekyouth/crack-dbeaver-password)
     * [DBeaver Enterprise 21.0 企业版激活方法](https://zhile.io/2019/05/08/dbeaver-license-crack.html)
+    * [https://github.com/ww-xb/dbeaver-crack](https://github.com/ww-xb/dbeaver-crack)
+    * [https://github.com/zufari4/dbeaver-license](https://github.com/zufari4/dbeaver-license)
+    * [https://github.com/wgzhao/dbeaver-agent](https://github.com/wgzhao/dbeaver-agent)
+    * [https://github.com/oiltea/dbeaver-license](https://github.com/oiltea/dbeaver-license)
     ```ini
     # 删除jre目录，安装jdk11或以上版本，把以下两行添加到`-vmargs`之前
     -vm
@@ -414,6 +418,7 @@
     -javaagent:./dbeaver-agent.jar
     -Dlm.debug.mode=true
     ```
+* [https://github.com/dbgate/dbgate](https://github.com/dbgate/dbgate)
 * [https://github.com/bytebase/bytebase](https://github.com/bytebase/bytebase)
 * [https://github.com/chartbrew/chartbrew](https://github.com/chartbrew/chartbrew)
 * [https://github.com/lightdash/lightdash](https://github.com/lightdash/lightdash)

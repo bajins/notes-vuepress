@@ -75,6 +75,7 @@
 * [https://github.com/novuhq/novu](https://github.com/novuhq/novu)
 * [https://github.com/binwiederhier/ntfy](https://github.com/binwiederhier/ntfy)
 * [https://github.com/beilunyang/moepush](https://github.com/beilunyang/moepush)
+* [https://github.com/songquanpeng/message-pusher](https://github.com/songquanpeng/message-pusher)
 
 
 - [https://github.com/guanguans/notify](https://github.com/guanguans/notify)

@@ -20,7 +20,10 @@
 * [http://css.doyoe.com/](http://css.doyoe.com)
 * CSS/CSS3 中文参考文档手册 [http://css.cuishifeng.cn](http://css.cuishifeng.cn)
 * [https://github.com/adamschwartz/magic-of-css](https://github.com/adamschwartz/magic-of-css)
+* CSS规约 [https://github.com/stylelint/stylelint](https://github.com/stylelint/stylelint)
 * CSS灵感 [https://github.com/chokcoco/CSS-Inspiration](https://github.com/chokcoco/CSS-Inspiration)
+* [https://github.com/mezzoblue/csszengarden.com](https://github.com/mezzoblue/csszengarden.com)
+* [https://github.com/ubershmekel/cssbed](https://github.com/ubershmekel/cssbed)
 * CSS练习 [https://github.com/TheOdinProject/css-exercises](https://github.com/TheOdinProject/css-exercises)
 * [界面灵感类网站合集](https://uxchi.notion.site/881b4c0179a74935a3f607ad3521cdb5)
 * [https://ui.aceternity.com/components](https://ui.aceternity.com/components)
@@ -203,8 +206,6 @@
     - [https://less.bootcss.com](https://less.bootcss.com)
 - [https://github.com/cssnano/cssnano](https://github.com/cssnano/cssnano)
     - [https://www.cssnano.cn](https://www.cssnano.cn)
-- CSS规约 [https://github.com/stylelint/stylelint](https://github.com/stylelint/stylelint)
-- [https://github.com/ubershmekel/cssbed](https://github.com/ubershmekel/cssbed)
 - [SVG 的友好介绍](https://www.joshwcomeau.com/svg/friendly-introduction-to-svg)
 
 

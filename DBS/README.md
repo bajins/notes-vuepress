@@ -48,7 +48,7 @@
 
 
 
-**备份/迁移/同步/复制/导入导出**
+**备份/迁移/复制/同步/导入导出**
 
 > (EXTRACT，TRANSFORMATION，LOAD) ETL：[Talend](https://www.talend.com)、Kettle、Informatica、Inaplex Inaport、Hevo、Xplenty、Skyvia、DBConvert Studio、Sprinkle
 
@@ -66,10 +66,10 @@
 
 
 
-- [https://github.com/osalvador/ReplicaDB](https://github.com/osalvador/ReplicaDB)
-- [https://github.com/86dbs/dbsyncer](https://github.com/86dbs/dbsyncer)
-- [https://gitee.com/dromara/dbswitch](https://gitee.com/dromara/dbswitch)
+- 复制 [https://gitee.com/dromara/dbswitch](https://gitee.com/dromara/dbswitch)
     - [https://github.com/Henryhuang0411/mydbswitch](https://github.com/Henryhuang0411/mydbswitch)
+- [https://github.com/osalvador/ReplicaDB](https://github.com/osalvador/ReplicaDB)
+- 同步数据 [https://github.com/86dbs/dbsyncer](https://github.com/86dbs/dbsyncer)
 - [https://github.com/JumpMind/symmetric-ds](https://github.com/JumpMind/symmetric-ds)
     - [https://sourceforge.net/projects/symmetricds](https://sourceforge.net/projects/symmetricds)
     - [https://www.symmetricds.org](https://www.symmetricds.org)
@@ -97,7 +97,7 @@
 - [https://github.com/airbytehq/airbyte](https://github.com/airbytehq/airbyte)
 - [https://github.com/apache/flink-cdc](https://github.com/apache/flink-cdc)
 - [https://github.com/tapdata/tapdata](https://github.com/tapdata/tapdata)
-- [https://github.com/flyway/flyway](https://github.com/flyway/flyway)
+- 版本管理 [https://github.com/flyway/flyway](https://github.com/flyway/flyway)
     - [Migrations](https://documentation.red-gate.com/fd/migrations-184127470.html)
     - [ErrorOverrides](https://documentation.red-gate.com/fd/erroroverrides-184127502.html)
     - [Flyway 入门教程](https://blog.csdn.net/weixin_36723038/article/details/127117761)

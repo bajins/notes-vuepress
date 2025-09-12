@@ -113,6 +113,7 @@
 * [https://github.com/lyh0371/vv-react-table](https://github.com/lyh0371/vv-react-table)
 * [https://github.com/rsuite/rsuite-table](https://github.com/rsuite/rsuite-table)
 * [https://github.com/reach/reach-ui](https://github.com/reach/reach-ui)
+* [https://github.com/heroui-inc/heroui](https://github.com/heroui-inc/heroui)
 * [https://github.com/YYsuni/react18-json-view](https://github.com/YYsuni/react18-json-view)
 * [https://github.com/wasp-lang/wasp](https://github.com/wasp-lang/wasp)
 * [https://github.com/dafengzhen/bootstrap-react-logic](https://github.com/dafengzhen/bootstrap-react-logic)
