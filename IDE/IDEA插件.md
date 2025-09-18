@@ -56,6 +56,8 @@
             * [https://jetbrains.ankio.net/license](https://jetbrains.ankio.net/license)
         * [https://jetbrain.tech/?free](https://jetbrain.tech/?free)
         * [https://ckey.run](https://ckey.run)
+            * [https://github.com/neKamita/ToolBox-Activator](https://github.com/neKamita/ToolBox-Activator)
+            * [https://github.com/Unexpectedlyc/ckey.run--offline-activation-jetbrains](https://github.com/Unexpectedlyc/ckey.run--offline-activation-jetbrains)
     * [https://intxzt.github.io/2022/07/25/ja-netfilter/ja-netfilter-plugins-power](https://intxzt.github.io/2022/07/25/ja-netfilter/ja-netfilter-plugins-power)
     * [https://greasyfork.org/zh-CN/scripts/by-site/linux.do](https://greasyfork.org/zh-CN/scripts/by-site/linux.do)
     * [https://github.com/anghunk/linuxdo-scripts](https://github.com/anghunk/linuxdo-scripts)

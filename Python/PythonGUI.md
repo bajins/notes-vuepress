@@ -24,6 +24,7 @@
 
 
 - [https://github.com/zwjjiaozhu/gitchat_download](https://github.com/zwjjiaozhu/gitchat_download)
+- PDF工具箱 [https://github.com/LC044/EasyBox](https://github.com/LC044/EasyBox)
 
 
 **Tkinter**

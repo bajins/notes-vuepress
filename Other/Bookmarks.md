@@ -78,6 +78,7 @@
 * 航班线路 [https://flight.is26.com](https://flight.is26.com)
 * 屏幕坏点检测 [https://deadpixeltest.org](https://deadpixeltest.org)
 * [https://volumeshader.org](https://volumeshader.org)
+* [https://sysin.org/archive](https://sysin.org/archive)
 
 
 

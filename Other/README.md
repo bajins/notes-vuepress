@@ -382,6 +382,8 @@
     * [https://smailpro.com/temp-gmail](https://smailpro.com/temp-gmail)
 * [https://mail.tm](https://mail.tm)
     * [https://mail.gw](https://mail.gw)
+    * [https://github.com/msuny-c/mailtm](https://github.com/msuny-c/mailtm)
+    * [https://github.com/felixstrobel/mailtm](https://github.com/felixstrobel/mailtm)
 * [https://www.linshiyouxiang.net](https://www.linshiyouxiang.net)
 * [http://24mail.chacuo.net](http://24mail.chacuo.net)
     * [https://github.com/Xavier-Lam/24mail](https://github.com/Xavier-Lam/24mail)

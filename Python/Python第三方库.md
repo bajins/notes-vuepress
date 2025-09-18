@@ -50,6 +50,7 @@
     * [https://github.com/greyli/helloflask](https://github.com/greyli/helloflask)
     * [https://github.com/vincentmi/vnzmi](https://github.com/vincentmi/vnzmi)
     * [https://github.com/yuxiaoy1/chatfairy](https://github.com/yuxiaoy1/chatfairy)
+* [https://github.com/pywebio/PyWebIO](https://github.com/pywebio/PyWebIO)
 * [https://github.com/AnswerDotAI/fasthtml](https://github.com/AnswerDotAI/fasthtml)
 * [https://github.com/reflex-dev/reflex](https://github.com/reflex-dev/reflex)
 * [https://github.com/Pylons](https://github.com/Pylons)
@@ -94,6 +95,8 @@
 * [https://github.com/scipy/weave](https://github.com/scipy/weave)
 * 限流 [https://github.com/ZhuoZhuoCrayon/throttled-py](https://github.com/ZhuoZhuoCrayon/throttled-py)
 * JSON [https://github.com/simplejson/simplejson](https://github.com/simplejson/simplejson)
+* Windows进程内存操作 [https://github.com/srounet/Pymem](https://github.com/srounet/Pymem)
+* 桌面用户数据目录 [https://github.com/tox-dev/platformdirs](https://github.com/tox-dev/platformdirs)
 
 
 

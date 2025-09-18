@@ -239,6 +239,9 @@ create table schema.table_name_bak (like schema.table_name including all);
 | 4 | 重新应用只读权限 | 强制执行访问控制并确保最小权限角色 | 恢复后应用GRANT |
 
 * https://www.postgresql.org/docs/current/app-pgbasebackup.html
+* https://www.postgresql.org/docs/current/app-pgdump.html
+* https://www.postgresql.org/docs/current/app-pgrestore.html
+* https://www.postgresql.org/docs/current/app-psql.html
 * https://dev.to/w95/cloning-postgresql-databases-a-developers-guide-to-local-replication-14a6
 
 ```bash

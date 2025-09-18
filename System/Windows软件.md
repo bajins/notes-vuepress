@@ -5,7 +5,6 @@
 
 ## Flag
 
-**更多软件见：[https://gd.bajins.com](https://gd.bajins.com)**
 
 **[浏览器下载](/IDE/Chrome.md#浏览器下载)**
 
@@ -1316,72 +1315,3 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 + [有哪些可以替代常用软件的开源软件？](https://www.zhihu.com/question/20161085)
 + 教学资源 [https://github.com/52beijixing/smartedu-download](https://github.com/52beijixing/smartedu-download)
 
-
-
-**微信**
-
-+ [https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_faq_list&head=true](https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_faq_list&head=true)
-    + [https://weixin.qq.com/updates](https://weixin.qq.com/updates)
-+ [https://github.com/iibob/WechatWindowsVersionHistory](https://github.com/iibob/WechatWindowsVersionHistory)
-+ [https://github.com/cscnk52/wechat-windows-versions](https://github.com/cscnk52/wechat-windows-versions)
-+ [https://github.com/zsbai/wechat-versions](https://github.com/zsbai/wechat-versions)
-    + [https://github.com/tom-snow/wechat-windows-versions](https://github.com/tom-snow/wechat-windows-versions)
-
-
-- [https://github.com/BlueMatthew/WechatExporter](https://github.com/BlueMatthew/WechatExporter)
-    - [https://github.com/AngelLiang/WechatExporter-html2excel](https://github.com/AngelLiang/WechatExporter-html2excel)
-- [https://github.com/wuyanaozi/wechat-backup](https://github.com/wuyanaozi/wechat-backup)
-- [https://github.com/greycodee/wechat-backup](https://github.com/greycodee/wechat-backup)
-- [https://github.com/AdminTest0/SharpWxDump](https://github.com/AdminTest0/SharpWxDump)
-    - [红队攻防之PC端微信个人信息与聊天记录取证](https://mp.weixin.qq.com/s/4DbXOS5jDjJzM2PN0Mp2JA)
-    - [电子取证之PC版微信数据库解密](https://mp.weixin.qq.com/s/kliyiZvdgXo4U71YowFlUg)
-    - `.\SharpWxDump.exe | Select-String -Pattern 'WeChatKey:' | %{$_ -Replace(".*: ", "")} | %{python .\de.py -k $_ -d .\MSG2.db}`
-    - [https://github.com/SpenserCai/GoWxDump](https://github.com/SpenserCai/GoWxDump)
-    - [https://github.com/f13T2ach/WxMsgDump](https://github.com/f13T2ach/WxMsgDump)
-    - [https://github.com/xaoyaoo/PyWxDump](https://github.com/xaoyaoo/PyWxDump)
-    - [https://github.com/Aeron1-bit/PyWxDump](https://github.com/Aeron1-bit/PyWxDump)
-- [https://github.com/Ormicron/Sharp-dumpkey](https://github.com/Ormicron/Sharp-dumpkey)
-- [https://github.com/L-HeliantHuS/GetWeChatDBPassword](https://github.com/L-HeliantHuS/GetWeChatDBPassword)
-- [https://github.com/test1213145/wechat-export](https://github.com/test1213145/wechat-export)
-- [https://github.com/TonyChen56/WeChatRobot](https://github.com/TonyChen56/WeChatRobot)
-- [https://github.com/ljc545w/ComWeChatRobot](https://github.com/ljc545w/ComWeChatRobot)
-- [https://github.com/ttttupup/wxhelper](https://github.com/ttttupup/wxhelper)
-- [https://github.com/luin/wechat-export](https://github.com/luin/wechat-export)
-- [https://github.com/Ngwind/wechat-export](https://github.com/Ngwind/wechat-export)
-    - [微信聊天记录数据解密与分析](https://juejin.cn/post/7159495394022391821)
-    - [微信聊天记录解密并导出](https://dta0502.github.io/archives/e872e04.html)
-- [https://github.com/LC044/WeChatMsg](https://github.com/LC044/WeChatMsg)
-- [https://github.com/HackerDev-Felix/WechatDecrypt](https://github.com/HackerDev-Felix/WechatDecrypt)
-- [https://github.com/saturn-opposition/wechat_analysis](https://github.com/saturn-opposition/wechat_analysis)
-- [https://github.com/allen1881996/WeChat-Data-Analysis](https://github.com/allen1881996/WeChat-Data-Analysis)
-- [https://github.com/git-jiadong/wechatDataBackup](https://github.com/git-jiadong/wechatDataBackup)
-    - [https://github.com/cmluZw/WxDump](https://github.com/cmluZw/WxDump)
-- [https://github.com/sjzar/chatlog](https://github.com/sjzar/chatlog)
-    - [https://github.com/saucer-man/wxdump](https://github.com/saucer-man/wxdump)
-- 清理微信僵尸粉 [https://github.com/L8426936/CleanUpWeChatZombieFans](https://github.com/L8426936/CleanUpWeChatZombieFans)
-- 自动抢红包 [https://github.com/east520/AutoGetRedEnv](https://github.com/east520/AutoGetRedEnv)
-- [https://github.com/geeeeeeeeek/WeChatLuckyMoney](https://github.com/geeeeeeeeek/WeChatLuckyMoney)
-- [https://github.com/kerwin162/WeChatNotify](https://github.com/kerwin162/WeChatNotify)
-- [https://github.com/Eric-Guo/wechat](https://github.com/Eric-Guo/wechat)
-- [https://github.com/telescope-org](https://github.com/telescope-org)
-- [https://github.com/wechaty/wechaty](https://github.com/wechaty/wechaty)
-- 防撤回 [https://github.com/huiyadanli/RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)
-- QQ机器人 [https://github.com/Mrs4s](https://github.com/Mrs4s)
-- 微信机器人 [https://github.com/ngc660sec/NGCBot](https://github.com/ngc660sec/NGCBot)
-- [https://github.com/wnma3mz/wechat_articles_spider](https://github.com/wnma3mz/wechat_articles_spider)
-- [https://github.com/wwg88888888/WeChatExt](https://github.com/wwg88888888/WeChatExt)
-- [https://github.com/KongKong20/WeChatPCHook](https://github.com/KongKong20/WeChatPCHook)
-- [https://github.com/LeLe86/vWeChatCrawl](https://github.com/LeLe86/vWeChatCrawl)
-- [https://github.com/Evil0ctal/Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API)
-- [https://github.com/czy0729/Bangumi](https://github.com/czy0729/Bangumi)
-- [WeChatDownload，批量微信公众号文章下载小工具](https://www.52pojie.cn/thread-948652-1-1.html)
-- [https://github.com/qiye45/wechatDownload](https://github.com/qiye45/wechatDownload)
-- [https://github.com/xiaoguyu/wechatDownload](https://github.com/xiaoguyu/wechatDownload)
-- [https://github.com/Dragocytus/wechatdownload](https://github.com/Dragocytus/wechatdownload)
-- [https://github.com/cooderl/wewe-rss](https://github.com/cooderl/wewe-rss)
-- [https://github.com/jooooock/wechat-article-exporter](https://github.com/jooooock/wechat-article-exporter)
-- [调试PC端微信内置浏览器](https://mp.weixin.qq.com/s/WZR4HXwM1PEz4nEeMCejWQ)
-- [调试PC端微信内置浏览器](http://jioho.gitee.io/blog/工具/调试PC端微信内置浏览器.html)
-- ["调戏" 微信PC端浏览器内置浏览器](https://juejin.cn/post/6844904082314887182)
-- [https://github.com/small-step/mikasa-wechat](https://github.com/small-step/mikasa-wechat)
-- [https://github.com/cixingguangming55555/wechat-bot](https://github.com/cixingguangming55555/wechat-bot)

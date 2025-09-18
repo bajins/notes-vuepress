@@ -98,7 +98,8 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 
 ## 镜像代理
 
-+ [https://rsproxy.cn](https://rsproxy.cn)
++ [https://github.com/cloudwego](https://github.com/cloudwego)
+    + [https://rsproxy.cn](https://rsproxy.cn)
 + [https://developer.aliyun.com/mirror/rustup](https://developer.aliyun.com/mirror/rustup)
 + [https://mirrors.tuna.tsinghua.edu.cn/help/crates.io-index.git](https://mirrors.tuna.tsinghua.edu.cn/help/crates.io-index.git)
 + [https://mirrors.sjtug.sjtu.edu.cn/docs/crates.io](https://mirrors.sjtug.sjtu.edu.cn/docs/crates.io)

@@ -328,6 +328,7 @@
 * [https://sourceforge.net/projects/dhcp-dns-server](https://sourceforge.net/projects/dhcp-dns-server)
 * [https://github.com/ddclient/ddclient](https://github.com/ddclient/ddclient)
 * [https://github.com/spc476/SPCDNS](https://github.com/spc476/SPCDNS)
+* [https://github.com/pmkol/mosdns-x](https://github.com/pmkol/mosdns-x)
 * IP地址管理 [https://github.com/TeemIP](https://github.com/TeemIP)
     * [https://sourceforge.net/projects/teemip](https://sourceforge.net/projects/teemip)
 

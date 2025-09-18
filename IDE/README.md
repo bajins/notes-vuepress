@@ -407,6 +407,9 @@
     * [https://github.com/geekyouth/crack-dbeaver-password](https://github.com/geekyouth/crack-dbeaver-password)
     * [DBeaver Enterprise 21.0 企业版激活方法](https://zhile.io/2019/05/08/dbeaver-license-crack.html)
     * [https://github.com/ww-xb/dbeaver-crack](https://github.com/ww-xb/dbeaver-crack)
+        * https://www.52pojie.cn/thread-1668629-1-1.html
+    * [https://gitee.com/callisto_x/de-ag](https://gitee.com/callisto_x/de-ag)
+        * https://juejin.cn/post/7182192463157657656
     * [https://github.com/zufari4/dbeaver-license](https://github.com/zufari4/dbeaver-license)
     * [https://github.com/wgzhao/dbeaver-agent](https://github.com/wgzhao/dbeaver-agent)
     * [https://github.com/oiltea/dbeaver-license](https://github.com/oiltea/dbeaver-license)

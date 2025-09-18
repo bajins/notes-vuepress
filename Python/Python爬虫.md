@@ -50,65 +50,115 @@
 + 电话号码的高级信息收集 [https://github.com/sundowndev/PhoneInfoga](https://github.com/sundowndev/PhoneInfoga)
 
 
+
 ## 开源脚本
 
 + [https://github.com/search?q=微信公众号爬虫](https://github.com/search?q=微信公众号爬虫)
 + [https://github.com/search?q=WeChat+Hook](https://github.com/search?q=WeChat+Hook)
+
 
 * 搜索社交账户 [https://github.com/sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)
 * [https://github.com/DropsDevopsOrg/ECommerceCrawlers](https://github.com/DropsDevopsOrg/ECommerceCrawlers)
 * [https://github.com/smallfawn/QLScriptPublic](https://github.com/smallfawn/QLScriptPublic)
 * [https://github.com/tinygeeker/tinyspiders](https://github.com/tinygeeker/tinyspiders)
 * [https://github.com/Moli-X/Resources](https://github.com/Moli-X/Resources)
-* 预苗秒杀 [https://github.com/lyrric/seckill](https://github.com/lyrric/seckill)
 * 咸鱼监控 [https://github.com/dingyufei615/ai-goofish-monitor](https://github.com/dingyufei615/ai-goofish-monitor)
+* 短视频 [https://github.com/Evil0ctal/Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API)
 
 
 **签到**
 
 * [https://github.com/Sitoi/dailycheckin](https://github.com/Sitoi/dailycheckin)
-* [https://github.com/BlueSkyClouds/My-Actions](https://github.com/BlueSkyClouds/My-Actions)
-* [https://github.com/mengshouer/CheckinBox](https://github.com/mengshouer/CheckinBox)
 * [https://github.com/leecobaby/shortcuts](https://github.com/leecobaby/shortcuts)
 * [https://github.com/Wenmoux/checkbox](https://github.com/Wenmoux/checkbox)
 
 
 **京东**
 
-- 京东茅台抢购 [https://github.com/search?q=jd_maotai](https://github.com/search?q=jd_maotai)
 - [https://github.com/search?q=茅台](https://github.com/search?q=%E8%8C%85%E5%8F%B0)
-- 京东签到 [https://github.com/ruicky/jd_sign_bot](https://github.com/ruicky/jd_sign_bot)
-- [https://github.com/ZainCheung/helper-618](https://github.com/ZainCheung/helper-618)
-- [https://github.com/tychxn/jd-assistant](https://github.com/tychxn/jd-assistant)
-- [https://github.com/xuess/puppeteer-sign](https://github.com/xuess/puppeteer-sign)
-- [https://github.com/zqjzqj/mtSecKill](https://github.com/zqjzqj/mtSecKill)
-- [https://github.com/Yx1aoq1/jdms](https://github.com/Yx1aoq1/jdms)
-- [https://github.com/shylocks/Loon](https://github.com/shylocks/Loon)
-- [https://github.com/LXK9301/jd_scripts/tree/master](https://github.com/LXK9301/jd_scripts/tree/master)
-- [https://github.com/NobyDa/Script/tree/master](https://github.com/NobyDa/Script/tree/master)
+- 京东签到 [https://github.com/NobyDa/Script](https://github.com/NobyDa/Script)
 - [https://github.com/yangtingxiao/QuantumultX](https://github.com/yangtingxiao/QuantumultX)
 - [https://github.com/chavyleung/scripts](https://github.com/chavyleung/scripts)
-- [https://github.com/inoyna11/jd28](https://github.com/inoyna11/jd28)
-- [https://github.com/Tsukasa007/my_script](https://github.com/Tsukasa007/my_script)
 - [https://github.com/zero205/JD_tencent_scf](https://github.com/zero205/JD_tencent_scf)
 - [https://github.com/shufflewzc/faker2](https://github.com/shufflewzc/faker2)
 - [https://github.com/smiek2221/scripts](https://github.com/smiek2221/scripts)
-- [https://github.com/Aaron-lv/sync](https://github.com/Aaron-lv/sync)
-- [https://github.com/zero205/JD_tencent_scf](https://github.com/zero205/JD_tencent_scf)
 
 
-**联通**
 
-* [https://github.com/ailiksr/39shouting](https://github.com/ailiksr/39shouting)
-* [https://github.com/srcrs/UnicomTask](https://github.com/srcrs/UnicomTask)
-* [https://github.com/mixool/HiCnUnicom](https://github.com/mixool/HiCnUnicom)
-* [https://github.com/hzys/HiCnUnicom](https://github.com/hzys/HiCnUnicom)
-* [https://github.com/mexxcheng/iread_signin](https://github.com/mexxcheng/iread_signin)
-* [https://github.com/ChuJian2/AutoSignMachine](https://github.com/ChuJian2/AutoSignMachine)
-* [https://github.com/simo8102/chinaunicom-AutoSignMachine](https://github.com/simo8102/chinaunicom-AutoSignMachine)
-* [https://github.com/bigmax706/AutoSign](https://github.com/bigmax706/AutoSign)
-* [https://github.com/750421628/39shouting](https://github.com/750421628/39shouting)
-* [https://github.com/Gsangu/UnicomGetCoin](https://github.com/Gsangu/UnicomGetCoin)
+
+**微信**
+
++ [https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_faq_list&head=true](https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_faq_list&head=true)
+    + [https://weixin.qq.com/updates](https://weixin.qq.com/updates)
++ [https://github.com/iibob/WechatWindowsVersionHistory](https://github.com/iibob/WechatWindowsVersionHistory)
++ [https://github.com/cscnk52/wechat-windows-versions](https://github.com/cscnk52/wechat-windows-versions)
++ [https://github.com/zsbai/wechat-versions](https://github.com/zsbai/wechat-versions)
+    + [https://github.com/tom-snow/wechat-windows-versions](https://github.com/tom-snow/wechat-windows-versions)
+
+
+- HOOK [https://github.com/search?q=WxDump](https://github.com/search?q=WxDump)
+- [https://github.com/AdminTest0/SharpWxDump](https://github.com/AdminTest0/SharpWxDump)
+    - [红队攻防之PC端微信个人信息与聊天记录取证](https://mp.weixin.qq.com/s/4DbXOS5jDjJzM2PN0Mp2JA)
+    - [电子取证之PC版微信数据库解密](https://mp.weixin.qq.com/s/kliyiZvdgXo4U71YowFlUg)
+    - `.\SharpWxDump.exe | Select-String -Pattern 'WeChatKey:' | %{$_ -Replace(".*: ", "")} | %{python .\de.py -k $_ -d .\MSG2.db}`
+    - [https://github.com/SpenserCai/GoWxDump](https://github.com/SpenserCai/GoWxDump)
+    - [https://github.com/f13T2ach/WxMsgDump](https://github.com/f13T2ach/WxMsgDump)
+    - [https://github.com/xaoyaoo/PyWxDump](https://github.com/xaoyaoo/PyWxDump)
+    - [https://github.com/Aeron1-bit/PyWxDump](https://github.com/Aeron1-bit/PyWxDump)
+- [https://github.com/LC044/WeChatMsg/forks](https://github.com/LC044/WeChatMsg/forks)
+    - [https://github.com/tqjason/WeChatMsg](https://github.com/tqjason/WeChatMsg)
+    - [https://github.com/shixiaogaoya/MemoTrace](https://github.com/shixiaogaoya/MemoTrace)
+    - [https://github.com/Xyy-tj/WeChatMsg](https://github.com/Xyy-tj/WeChatMsg)
+    - [https://github.com/evergardener/WeChatMsg](https://github.com/evergardener/WeChatMsg)
+    - [https://github.com/STDquantum/WeChatMsg](https://github.com/STDquantum/WeChatMsg)
+    - [https://github.com/icekree/WeChatMsg](https://github.com/icekree/WeChatMsg)
+    - [https://github.com/dfldylan/WeChatMsg](https://github.com/dfldylan/WeChatMsg)
+- [https://github.com/sjzar/chatlog](https://github.com/sjzar/chatlog)
+    - [https://github.com/saucer-man/wxdump](https://github.com/saucer-man/wxdump)
+- [https://github.com/git-jiadong/wechatDataBackup](https://github.com/git-jiadong/wechatDataBackup)
+    - [https://github.com/cmluZw/WxDump](https://github.com/cmluZw/WxDump)
+- [https://github.com/ttttupup/wxhelper](https://github.com/ttttupup/wxhelper)
+- [https://github.com/BlueMatthew/WechatExporter](https://github.com/BlueMatthew/WechatExporter)
+    - [https://github.com/AngelLiang/WechatExporter-html2excel](https://github.com/AngelLiang/WechatExporter-html2excel)
+- [https://github.com/greycodee/wechat-backup](https://github.com/greycodee/wechat-backup)
+    - [https://github.com/wuyanaozi/wechat-backup](https://github.com/wuyanaozi/wechat-backup)
+- [https://github.com/Ormicron/Sharp-dumpkey](https://github.com/Ormicron/Sharp-dumpkey)
+- [https://github.com/L-HeliantHuS/GetWeChatDBPassword](https://github.com/L-HeliantHuS/GetWeChatDBPassword)
+- [https://github.com/test1213145/wechat-export](https://github.com/test1213145/wechat-export)
+- [https://github.com/Ngwind/wechat-export](https://github.com/Ngwind/wechat-export)
+    - [微信聊天记录数据解密与分析](https://juejin.cn/post/7159495394022391821)
+    - [微信聊天记录解密并导出](https://dta0502.github.io/archives/e872e04.html)
+- [https://github.com/luin/wechat-export](https://github.com/luin/wechat-export)
+- [https://github.com/HackerDev-Felix/WechatDecrypt](https://github.com/HackerDev-Felix/WechatDecrypt)
+- [https://github.com/saturn-opposition/wechat_analysis](https://github.com/saturn-opposition/wechat_analysis)
+- [https://github.com/allen1881996/WeChat-Data-Analysis](https://github.com/allen1881996/WeChat-Data-Analysis)
+- 公众号文章 [https://github.com/wnma3mz/wechat_articles_spider](https://github.com/wnma3mz/wechat_articles_spider)
+- [https://github.com/LeLe86/vWeChatCrawl](https://github.com/LeLe86/vWeChatCrawl)
+- [https://github.com/qiye45/wechatDownload](https://github.com/qiye45/wechatDownload)
+- [https://github.com/jooooock/wechat-article-exporter](https://github.com/jooooock/wechat-article-exporter)
+- [https://github.com/xiaoguyu/wechatDownload](https://github.com/xiaoguyu/wechatDownload)
+- [https://github.com/cooderl/wewe-rss](https://github.com/cooderl/wewe-rss)
+- [https://github.com/Dragocytus/wechatdownload](https://github.com/Dragocytus/wechatdownload)
+- [https://www.52pojie.cn/thread-948652-1-1.html](https://www.52pojie.cn/thread-948652-1-1.html)
+- 推送转发 [https://github.com/kerwin162/WeChatNotify](https://github.com/kerwin162/WeChatNotify)
+- [https://github.com/Eric-Guo/wechat](https://github.com/Eric-Guo/wechat)
+- [https://github.com/wechaty/wechaty](https://github.com/wechaty/wechaty)
+- 清理微信僵尸粉 [https://github.com/L8426936/CleanUpWeChatZombieFans](https://github.com/L8426936/CleanUpWeChatZombieFans)
+- 防撤回 [https://github.com/huiyadanli/RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)
+- QQ机器人 [https://github.com/Mrs4s](https://github.com/Mrs4s)
+- 微信机器人 [https://github.com/ngc660sec/NGCBot/forks](https://github.com/ngc660sec/NGCBot/forks)
+    - [https://github.com/Aabyss-Team/NGCBot](https://github.com/Aabyss-Team/NGCBot)
+    - [https://github.com/lwsinclair/NGCBot](https://github.com/lwsinclair/NGCBot)
+- [https://github.com/wwg88888888/WeChatExt](https://github.com/wwg88888888/WeChatExt)
+- [https://github.com/KongKong20/WeChatPCHook](https://github.com/KongKong20/WeChatPCHook)
+- [https://github.com/TonyChen56/WeChatRobot](https://github.com/TonyChen56/WeChatRobot)
+- [https://github.com/ljc545w/ComWeChatRobot](https://github.com/ljc545w/ComWeChatRobot)
+- [https://github.com/cixingguangming55555/wechat-bot](https://github.com/cixingguangming55555/wechat-bot)
+- [https://github.com/small-step/mikasa-wechat](https://github.com/small-step/mikasa-wechat)
+- [调试PC端微信内置浏览器](https://mp.weixin.qq.com/s/WZR4HXwM1PEz4nEeMCejWQ)
+- [调试PC端微信内置浏览器](http://jioho.gitee.io/blog/工具/调试PC端微信内置浏览器.html)
+- ["调戏" 微信PC端浏览器内置浏览器](https://juejin.cn/post/6844904082314887182)
+
 
 
 

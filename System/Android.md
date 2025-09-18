@@ -630,6 +630,8 @@
 * [https://www.lightricks.com](https://www.lightricks.com)
 * 运行Windows应用 [https://github.com/brunodev85/winlator](https://github.com/brunodev85/winlator)
 * 词典 [https://github.com/mumu-lhl/Ciyue](https://github.com/mumu-lhl/Ciyue)
+* 追番 [https://github.com/czy0729/Bangumi](https://github.com/czy0729/Bangumi)
+
 
 
 ### 证件照

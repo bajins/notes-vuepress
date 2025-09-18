@@ -214,6 +214,7 @@ volumes:
 
 
 - [https://greasyfork.org/zh-CN/scripts/412245](https://greasyfork.org/zh-CN/scripts/412245)
+- [https://github.com/chisaato/xt](https://github.com/chisaato/xt)
 - [https://github.com/fhefh2015/Fast-GitHub](https://github.com/fhefh2015/Fast-GitHub)
 - [https://github.com/maxiaof/github-hosts](https://github.com/maxiaof/github-hosts)
 - [https://github.com/Potterli20/hosts](https://github.com/Potterli20/hosts)

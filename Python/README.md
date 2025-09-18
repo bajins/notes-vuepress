@@ -188,20 +188,56 @@ vi /usr/libexec/urlgrabber-ext-down
     * [https://www.cnpython.com/pypi](https://www.cnpython.com/pypi)
 * [https://packaging.python.org/tutorials/installing-packages](https://packaging.python.org/tutorials/installing-packages)
 * [Python包管理工作流](https://frostming.com/2018/09-14/python-packaging-flow)
+* 包和项目管理器 [https://github.com/astral-sh/uv](https://github.com/astral-sh/uv)
+* 依赖保持最新 [https://github.com/jazzband/pip-tools](https://github.com/jazzband/pip-tools)
+
 
 - `sudo apt install python3-pip`
 
-* Anaconda [https://github.com/ContinuumIO](https://github.com/ContinuumIO) 科学包及其依赖项的发行版本
-    * [https://github.com/Anaconda-Platform](https://github.com/Anaconda-Platform)
-* [https://github.com/conda/conda](https://github.com/conda/conda) 包及其依赖项和环境的管理工具
-* [https://github.com/jazzband/pip-tools](https://github.com/jazzband/pip-tools)
-* [https://github.com/python-poetry/poetry](https://github.com/python-poetry/poetry)
+
+
+### 虚拟环境
+
+```bash
+# https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments
+# Python 3.3+ 内置 创建虚拟环境
+python -m venv .venv
+
+# 激活
+source .venv/bin/activate   # Linux/macOS
+# 或
+.venv\Scripts\activate       # Windows
+
+# 退出
+deactivate
+
+# 删除（如需）
+rm -rf .venv
+```
+
+
 * [https://github.com/pyenv/pyenv](https://github.com/pyenv/pyenv)
-* [https://github.com/danhper/asdf-python](https://github.com/danhper/asdf-python)
 * [https://github.com/pdm-project/pdm](https://github.com/pdm-project/pdm)
-* [https://bitbucket.org/virtualenvwrapper/virtualenvwrapper](https://bitbucket.org/virtualenvwrapper/virtualenvwrapper)
-* [https://github.com/davidmarble/virtualenvwrapper-win](https://github.com/davidmarble/virtualenvwrapper-win)
-* [https://github.com/astral-sh/uv](https://github.com/astral-sh/uv)
+* [https://github.com/python-poetry/poetry](https://github.com/python-poetry/poetry)
+* [https://github.com/pypa/pipenv](https://github.com/pypa/pipenv)
+* [https://github.com/pypa/virtualenv](https://github.com/pypa/virtualenv)
+    * [https://github.com/python-virtualenvwrapper/virtualenvwrapper](https://github.com/python-virtualenvwrapper/virtualenvwrapper)
+    * [https://github.com/davidmarble/virtualenvwrapper-win](https://github.com/davidmarble/virtualenvwrapper-win)
+* [https://github.com/pypa/pipx](https://github.com/pypa/pipx)
+* Anaconda [https://github.com/ContinuumIO](https://github.com/ContinuumIO)
+    * [https://github.com/Anaconda-Platform](https://github.com/Anaconda-Platform)
+* Miniconda [https://github.com/conda/conda](https://github.com/conda/conda)
+    * [https://github.com/conda-forge/miniforge](https://github.com/conda-forge/miniforge)
+
+
+| 工具         | 管理 Python 版本 | 依赖管理文件       | 适用场景                  |
+|--------------|------------------|--------------------|---------------------------|
+| `venv`       | ❌ 否             | `requirements.txt` | 通用项目、Python 3.3+ 内置 |
+| `pyenv+venv` | ✅ 是             | `requirements.txt` | 多版本 Python 开发        |
+| `virtualenv` | ❌ 否             | `requirements.txt` | 兼容旧版 Python           |
+| `pipenv`     | ❌ 否             | `Pipfile`          | 中小型项目               |
+| `poetry`     | ❌ 否（需配合pyenv）| `pyproject.toml`   | 现代项目、开源、打包发布  |
+| `conda`      | ✅ 是             | `environment.yml`  | 数据科学、机器学习        |
 
 
 

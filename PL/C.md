@@ -243,6 +243,7 @@
 * 英特尔媒体调度 [https://github.com/lu-zero/mfx_dispatch](https://github.com/lu-zero/mfx_dispatch)
 * Windows通用更新程序 [https://github.com/gup4win/wingup](https://github.com/gup4win/wingup)
     * [https://github.com/gupwin32/gupwin32.github.io](https://github.com/gupwin32/gupwin32.github.io)
+* [https://github.com/risacher/sunwait](https://github.com/risacher/sunwait)
 * 文件分页 [https://github.com/gwsw/less](https://github.com/gwsw/less)
 * 文件类型猜测 [https://github.com/file/file](https://github.com/file/file)
 * FFI [https://dyncall.org](https://dyncall.org)
