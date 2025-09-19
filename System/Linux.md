@@ -177,7 +177,6 @@ sudo apt clean
 - 系统日志管理 [https://github.com/hat-open/hat-syslog](https://github.com/hat-open/hat-syslog)
 - 安全防护 [https://github.com/fail2ban/fail2ban](https://github.com/fail2ban/fail2ban)
 - 文件管理 [https://github.com/MHNightCat/superfile](https://github.com/MHNightCat/superfile)
-- [https://www.digikam.org](https://www.digikam.org)
 - 端口占用情况 [https://github.com/theopfr/somo](https://github.com/theopfr/somo)
 
 

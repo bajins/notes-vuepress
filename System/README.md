@@ -712,6 +712,7 @@
 * [https://github.com/MatrixSeven/file-transfer-go](https://github.com/MatrixSeven/file-transfer-go)
 * [https://github.com/fastn-stack/kulfi](https://github.com/fastn-stack/kulfi)
     * [https://malai.sh/hello-tcp](https://malai.sh/hello-tcp)
+* [https://github.com/Forceu/Gokapi](https://github.com/Forceu/Gokapi)
 * 二维码分享文件 [https://github.com/sz3/libcimbar](https://github.com/sz3/libcimbar)
 * 主页仪表板 [https://github.com/glanceapp/glance](https://github.com/glanceapp/glance)
 * 在线知识库 [https://github.com/outline/outline](https://github.com/outline/outline)

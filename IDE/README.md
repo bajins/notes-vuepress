@@ -88,6 +88,7 @@
 - [https://www.augmentcode.com](https://www.augmentcode.com)
 - [https://github.com/voideditor/void](https://github.com/voideditor/void)
 - [https://github.com/All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands)
+- [https://github.com/mendableai/open-lovable](https://github.com/mendableai/open-lovable)
 - 代码搜索 [https://github.com/sourcebot-dev/sourcebot](https://github.com/sourcebot-dev/sourcebot)
 - [https://github.com/oldjs/web-code-agent](https://github.com/oldjs/web-code-agent)
 - Git提交助手 [https://github.com/Undertone0809/gcop](https://github.com/Undertone0809/gcop)

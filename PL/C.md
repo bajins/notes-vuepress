@@ -311,7 +311,9 @@
 * [https://sourceforge.net/projects/xavs](https://sourceforge.net/projects/xavs)
 * [https://xiph.org/vorbis](https://xiph.org/vorbis)
 * 视频转码 [https://github.com/HandBrake/HandBrake](https://github.com/HandBrake/HandBrake)
-
+* 数码相机访问 [https://github.com/gphoto](https://github.com/gphoto)
+    * [https://sourceforge.net/projects/gphoto](https://sourceforge.net/projects/gphoto)
+    * [https://dechifro.org/dcraw](https://dechifro.org/dcraw)
 
 
 **其他**
