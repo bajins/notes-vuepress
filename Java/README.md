@@ -30,15 +30,6 @@
     + [https://github.com/OmniFish-EE](https://github.com/OmniFish-EE)
 
 
-- [Michael Redlich-Java近期新闻](https://www.infoq.cn/profile/416A67CDBAA4DC)
-- [Java版本比较](https://mp.weixin.qq.com/s/NEfqPXrcq6O1p7RLf9LWCw)
-- [Java 9-16 新增语法元素一览](https://segmentfault.com/a/1190000039714550)
-- [Java 速查手册](https://bbs.csdn.net/topics/609815996)
-- [javaEE和javaweb的区别？](https://www.zhihu.com/question/52002845)
-
-
-> [JEP](http://openjdk.java.net/jeps/0)的全称就是`JDK Enhancement Proposals`，简单点讲就像是一个个对JAVA进行改进提案，
-> 这些提案会在合适的时间合适的地点被加入JDK的特定版本。
 
 * [https://github.com/javaee-samples](https://github.com/javaee-samples)
 * 生成代码 [https://github.com/moshowgame/SpringBootCodeGenerator](https://github.com/moshowgame/SpringBootCodeGenerator)
@@ -47,6 +38,14 @@
 * [https://github.com/phith0n](https://github.com/phith0n)
 * [https://github.com/vulhub](https://github.com/vulhub)
 * [开源教程、开发者工具、编程网站和技术资源](https://www.zhihu.com/people/46-36-54-51-89/posts)
+
+
+
+- [Michael Redlich-Java近期新闻](https://www.infoq.cn/profile/416A67CDBAA4DC)
+- [Java版本比较](https://mp.weixin.qq.com/s/NEfqPXrcq6O1p7RLf9LWCw)
+- [Java 9-16 新增语法元素一览](https://segmentfault.com/a/1190000039714550)
+- [Java 速查手册](https://bbs.csdn.net/topics/609815996)
+- [javaEE和javaweb的区别？](https://www.zhihu.com/question/52002845)
 
 
 

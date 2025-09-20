@@ -734,6 +734,7 @@
     * [https://github.com/dscharrer/innoextract](https://github.com/dscharrer/innoextract)
     * [https://github.com/jrsoftware/issrc](https://github.com/jrsoftware/issrc)
     * [https://github.com/jrathlev/InnoUnpacker-Windows-GUI](https://github.com/jrathlev/InnoUnpacker-Windows-GUI)
+* [https://www.revenera.com/install/products/installshield](https://www.revenera.com/install/products/installshield)
 * [https://learn.microsoft.com/zh-cn/windows/win32/msi/standard-installer-command-line-options](https://learn.microsoft.com/zh-cn/windows/win32/msi/standard-installer-command-line-options)
 
 

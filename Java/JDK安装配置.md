@@ -6,10 +6,9 @@
 ## Flag
 
 + [https://github.com/topics/jvm](https://github.com/topics/jvm)
-+ [JDK版本生命周期](/files/JDK版本生命周期.html)
 
 
-* JEP [http://openjdk.java.net/jeps](http://openjdk.java.net/jeps)
+
 * [https://www.oracle.com/cn/downloads](https://www.oracle.com/cn/downloads)
     * [https://www.oracle.com/cn/java/technologies/downloads](https://www.oracle.com/cn/java/technologies/downloads)
     * [https://www.oracle.com/java/technologies/downloads/archive](https://www.oracle.com/java/technologies/downloads/archive)
@@ -25,6 +24,23 @@
         * [https://harmoniccode.blogspot.com](https://harmoniccode.blogspot.com)
 * [https://github.com/HanSolo/javafinder](https://github.com/HanSolo/javafinder)
 * [https://github.com/HanSolo/JDK-Updater](https://github.com/HanSolo/JDK-Updater)
+
+
+
+
+- [JDK版本生命周期](/files/JDK版本生命周期.html)
+
+<details>
+<summary style="font-size:160%;">JDK 8 以来每个 Java 版本中的 JEP 数量</summary>
+
+> [JEP](http://openjdk.java.net/jeps/0)的全称就是`JDK Enhancement Proposals`，简单点讲就像是一个个对JAVA进行改进提案，
+> 这些提案会在合适的时间合适的地点被加入JDK的特定版本。 
+
+![](/images/JDK8-25的JEP数量.png)
+
+* [Java 25 的到来](https://blogs.oracle.com/java/post/the-arrival-of-java-25#_anchor_1)
+
+</details>
 
 
 

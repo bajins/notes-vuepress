@@ -267,6 +267,7 @@
     * [https://github.com/halcyon/asdf-java](https://github.com/halcyon/asdf-java)
     * [https://github.com/danhper/asdf-python](https://github.com/danhper/asdf-python)
 * [https://github.com/daytonaio/daytona](https://github.com/daytonaio/daytona)
+* [https://github.com/basecamp/omarchy](https://github.com/basecamp/omarchy)
 * 包管理器 [http://win-builds.org](http://win-builds.org)
 * [https://github.com/eryajf/Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror)
 * [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate)
