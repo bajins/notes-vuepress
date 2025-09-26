@@ -250,7 +250,10 @@
 * 速度测试 [https://github.com/gnmyt/myspeed](https://github.com/gnmyt/myspeed)
 * 增量快照 [https://github.com/linuxmint/timeshift](https://github.com/linuxmint/timeshift)
 * 网络管理 [https://networkmanager.dev](https://networkmanager.dev)
+* 监控网络流量 [https://github.com/domcyrus/rustnet](https://github.com/domcyrus/rustnet)
 * 端口监控 [https://github.com/Mostafa-Wahied/portracker](https://github.com/Mostafa-Wahied/portracker)
+* [https://github.com/crocofied/PortNote](https://github.com/crocofied/PortNote)
+* GPU运行信息 [https://github.com/kagehq/gpu-kill](https://github.com/kagehq/gpu-kill)
 
 
 - 软件构建 [https://github.com/easybuilders](https://github.com/easybuilders)
@@ -798,6 +801,7 @@
     * [在 Go 中构建协作文本编辑器](https://www.aadhav.me/posts/collaborative-editor)
 * [https://github.com/hudy9x/namviek](https://github.com/hudy9x/namviek)
 * [https://github.com/nusr/excel](https://github.com/nusr/excel)
+* 任务管理 [https://github.com/hamsterbase/tasks](https://github.com/hamsterbase/tasks)
 * 特性管理 [https://github.com/FeatureProbe/FeatureProbe](https://github.com/FeatureProbe/FeatureProbe)
 * 腾讯文档 [http://docs.qq.com](http://docs.qq.com)
 * [https://github.com/seatable](https://github.com/seatable)

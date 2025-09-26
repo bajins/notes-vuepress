@@ -1312,6 +1312,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * 共享键鼠和剪贴板给安卓 [https://github.com/BHznJNs/InputShare](https://github.com/BHznJNs/InputShare)
 * CAD [https://github.com/leozide/leocad](https://github.com/leozide/leocad)
 * 数据可视化 [https://labplot.org](https://labplot.org)
+* 输入法 [https://github.com/rime](https://github.com/rime)
+* [https://github.com/studyzy/imewlconverter](https://github.com/studyzy/imewlconverter)
 
 
 + [http://www.downloadsoftware.ir](http://www.downloadsoftware.ir)

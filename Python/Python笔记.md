@@ -311,7 +311,7 @@ pip install sqlalchemy
 
 * [https://docs.python.org/zh-cn/3.8/library/gc.html](https://docs.python.org/zh-cn/3.8/library/gc.html)
 * [https://docs.python.org/zh-cn/3/library/tracemalloc.html](https://docs.python.org/zh-cn/3/library/tracemalloc.html)
-* [https://github.com/giampaolo/psutil](https://github.com/giampaolo/psutil)
+* 进程和系统实用程序 [https://github.com/giampaolo/psutil](https://github.com/giampaolo/psutil)
 * [https://github.com/pythonprofilers/memory_profiler](https://github.com/pythonprofilers/memory_profiler)
 * [https://github.com/mgedmin/objgraph](https://github.com/mgedmin/objgraph)
 * [https://github.com/pympler/pympler](https://github.com/pympler/pympler)

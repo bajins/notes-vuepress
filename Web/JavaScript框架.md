@@ -125,6 +125,7 @@
 * 画板 [https://github.com/tldraw/tldraw](https://github.com/tldraw/tldraw)
 * SSR（服务端渲染）框架 [https://github.com/childrentime/pareto](https://github.com/childrentime/pareto)
 * 视频编辑 [https://github.com/redotvideo/revideo](https://github.com/redotvideo/revideo)
+* CI [https://github.com/vadimdemedes/ink](https://github.com/vadimdemedes/ink)
 
 
 - [https://github.com/Asabeneh/30-Days-Of-React](https://github.com/Asabeneh/30-Days-Of-React)

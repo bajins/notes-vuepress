@@ -81,6 +81,7 @@
 - 文件管理 [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
 - [https://github.com/coreutils/coreutils](https://github.com/coreutils/coreutils)
 - [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
+- [https://github.com/MidnightCommander/mc](https://github.com/MidnightCommander/mc)
 - 磁盘分析 [https://github.com/muesli/duf](https://github.com/muesli/duf)
 - [https://dev.yorhel.nl/ncdu](https://dev.yorhel.nl/ncdu)
     - [https://github.com/rofl0r/ncdu](https://github.com/rofl0r/ncdu)

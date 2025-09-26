@@ -79,6 +79,7 @@
 * 屏幕坏点检测 [https://deadpixeltest.org](https://deadpixeltest.org)
 * [https://volumeshader.org](https://volumeshader.org)
 * [https://sysin.org/archive](https://sysin.org/archive)
+* 测试GPU [https://www.volumeshader.dev](https://www.volumeshader.dev)
 
 
 

@@ -13,6 +13,8 @@
 * [https://github.com/formbricks/formbricks](https://github.com/formbricks/formbricks)
 * 日程安排 [https://github.com/calcom/cal.com](https://github.com/calcom/cal.com)
 * 股票 [https://github.com/Rockyzsu/stock](https://github.com/Rockyzsu/stock)
+* [https://github.com/mootdx/mootdx](https://github.com/mootdx/mootdx)
+* 投资干货合集 [https://news.futunn.com/news-topics/127](https://news.futunn.com/news-topics/127)
 * 人体系统调优 [https://github.com/zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization)
 
 

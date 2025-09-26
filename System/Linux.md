@@ -205,7 +205,6 @@ sudo apt clean
 * [https://github.com/vinceliuice/WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme)
 * Linux桌面壁纸 [https://github.com/pgc062020/DailyDesktopWallpaperPlus](https://github.com/pgc062020/DailyDesktopWallpaperPlus)
 * 视频编辑器 [https://openhub.net/p/pitivi](https://openhub.net/p/pitivi)
-* 文件管理 [https://github.com/MidnightCommander/mc](https://github.com/MidnightCommander/mc)
 
 
 

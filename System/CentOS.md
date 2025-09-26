@@ -443,7 +443,8 @@ yum install google-chrome-stable --nogpgcheck
 # APT仓库安装
 sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
 wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-sudo apt update
+# 刷新可用软件包及其版本的列表，处理依赖冲突并升级软件包（包括内核）升级到最新版本
+sudo apt update && sudo apt dist-upgrade -y
 sudo apt install google-chrome-stable -y
 # 下载.deb包安装
 sudo apt install google-chrome-stable_current_amd64.deb -y
