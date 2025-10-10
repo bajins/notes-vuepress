@@ -143,6 +143,7 @@
 - [https://www.ppbzy.com](https://www.ppbzy.com)
 - 视频编辑 [https://pikimov.com](https://pikimov.com)
 - 儿童睡前故事 [https://beddystories.com/zh](https://beddystories.com/zh)
+- 儿歌 [https://beddysongs.com/zh](https://beddysongs.com/zh)
 - [https://publiciptv.com](https://publiciptv.com)
 
 

@@ -73,6 +73,57 @@ powercfg /batteryreport /output "Desktop\battery-report.html"
 ```
 
 
+
+
+
+## Windows优化
+
++ [Search · install_wim_tweak](https://github.com/search?o=desc&q=install_wim_tweak&s=indexed&type=Code)
++ [https://github.com/search?q=Optimize-Windows](https://github.com/search?q=Optimize-Windows)
+
+
+* Dism++ [https://github.com/Chuyu-Team](https://github.com/Chuyu-Team)
+* [https://ameliorated.io](https://ameliorated.io)
+    * [https://github.com/jointhearkanoid/playbook](https://github.com/jointhearkanoid/playbook)
+    * [https://github.com/redress-server/playbook](https://github.com/redress-server/playbook)
+    * [https://github.com/Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas)
+* [https://github.com/gordonbay/Windows-On-Reins](https://github.com/gordonbay/Windows-On-Reins)
+* [https://github.com/r33int/Windows10-Postinstall](https://github.com/r33int/Windows10-Postinstall)
+* [https://github.com/memstechtips/UnattendedWinstall](https://github.com/memstechtips/UnattendedWinstall)
+* [https://github.com/semazurek/ET-Optimizer](https://github.com/semazurek/ET-Optimizer)
+* [https://github.com/ionuttbara/melody_windows](https://github.com/ionuttbara/melody_windows)
+* [https://github.com/simeononsecurity/Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat)
+* [https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Harden-Debloat)
+* [https://github.com/rahilpathan/Win10Boost](https://github.com/rahilpathan/Win10Boost)
+* [https://bogdan-patraucean.github.io/about/wintoys](https://bogdan-patraucean.github.io/about/wintoys)
+* [https://github.com/rayenghanmi/RyTuneX](https://github.com/rayenghanmi/RyTuneX)
+* [https://github.com/5cover/WinClean](https://github.com/5cover/WinClean)
+* [https://github.com/memstechtips/Winhance](https://github.com/memstechtips/Winhance)
+* [https://github.com/tranht17/WinTune](https://github.com/tranht17/WinTune)
+* 绕过WindowsDefender [https://github.com/es3n1n/defendnot](https://github.com/es3n1n/defendnot)
+    * [https://gitee.com/tajang/no-defender](https://gitee.com/tajang/no-defender)
+* 系统调整 [https://github.com/ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+* 卸载自带应用 [https://www.thewindowsclub.com/10appsmanager-windows-10](https://www.thewindowsclub.com/10appsmanager-windows-10)
+* [https://github.com/ElPumpo/Win10Clean](https://github.com/ElPumpo/Win10Clean)
+* [https://github.com/L33Tech/Windows10Tools](https://github.com/L33Tech/Windows10Tools)
+* [https://github.com/myrtus0x0/Pastebin-Scraping-Results](https://github.com/myrtus0x0/Pastebin-Scraping-Results)
+* [https://github.com/simeononsecurity/SAPS](https://github.com/simeononsecurity/SAPS)
+* [https://github.com/kyau/win10tweak](https://github.com/kyau/win10tweak)
+* [https://github.com/wangzy12306/win10](https://github.com/wangzy12306/win10)
+* [https://github.com/Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat)
+* [https://github.com/builtbybel/Winpilot](https://github.com/builtbybel/Winpilot)
+    * [https://github.com/TheBobPony/MSEdgeTweaker](https://github.com/TheBobPony/MSEdgeTweaker)
+    * [https://github.com/ConditionalException/Windows10Privacy](https://github.com/ConditionalException/Windows10Privacy)
+    * [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
+* [https://github.com/builtbybel/debotnet](https://github.com/builtbybel/debotnet)
+* [https://github.com/Daksh777/windows10-debloat](https://github.com/Daksh777/windows10-debloat)
+* [https://github.com/SucklessWindows/SucklessWindows](https://github.com/SucklessWindows/SucklessWindows)
+* [https://github.com/DirtCaps/CapsTweakerSystem](https://github.com/DirtCaps/CapsTweakerSystem)
+* [https://github.com/kampusbiner/windefenderremoval](https://github.com/kampusbiner/windefenderremoval)
+* [https://github.com/pluswait/workPCT](https://github.com/pluswait/workPCT)
+
+
+
 **绕过 Windows 11 24H2 的兼容性检查程序**
 
 ```batch
@@ -169,6 +220,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
     - `Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase;Dism.exe /online /Cleanup-Image /SPSuperseded` 清理
 * [Windows 10 DISM Command-Line 选项](https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/deployment-image-servicing-and-management--dism--command-line-options)
 
+
 - 检查映像是否完整：`DISM.exe /Online /Cleanup-image /Scanhealth`
 - 完成后再修复映像：`DISM.exe /Online /Cleanup-image /Checkhealth`
 - 然后再修复系统：`DISM.exe /Online /Cleanup-image /Restorehealth`
@@ -238,7 +290,6 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://github.com/ventoy/Ventoy](https://github.com/ventoy/Ventoy)
 * [http://wintool.cc](http://wintool.cc)
 * [https://github.com/ldpreload/BlackLotus](https://github.com/ldpreload/BlackLotus)
-* [https://github.com/Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas)
 * [https://github.com/VirtualHotBar/HotPEToolBox](https://github.com/VirtualHotBar/HotPEToolBox)
 * [https://github.com/EdgelessPE/Edgeless](https://github.com/EdgelessPE/Edgeless)
 * [https://www.firpe.cn](https://www.firpe.cn)

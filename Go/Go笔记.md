@@ -297,7 +297,6 @@ func test() {
 * [multipart/form-data POST上传文件](https://my.oschina.net/bianweiall/blog/544355)
 * [Golang模拟客户端POST表单功能文件上传](http://hacktech.cn/2017/07/07/Golang%E6%A8%A1%E6%8B%9F%E5%AE%A2%E6%88%B7%E7%AB%AFPOST%E8%A1%A8%E5%8D%95%E5%8A%9F%E8%83%BD%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.html)
 * [go语言模拟multipart/form-data提交数据](https://1024coder.com/14845548548981.html)
-* [https://github.com/xuanbo/requests](https://github.com/xuanbo/requests)
 * [从 HTTP 角度看 Go 如何实现文件上传](https://zhuanlan.zhihu.com/p/96491484)
 * [Golang net/http包 同时监听多个端口](https://blog.csdn.net/zkt286468541/article/details/81203046)
 

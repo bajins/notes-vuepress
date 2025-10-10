@@ -1069,15 +1069,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 
 
-## 清理工具
+## 清理卸载工具
 
-* [https://pcmanager.microsoft.com](https://pcmanager.microsoft.com)
-* Win10Clean [https://github.com/ElPumpo/Win10Clean](https://github.com/ElPumpo/Win10Clean)
-* Dism++ [https://github.com/Chuyu-Team](https://github.com/Chuyu-Team)
-* [https://ameliorated.io](https://ameliorated.io)
-    * [https://github.com/jointhearkanoid/playbook](https://github.com/jointhearkanoid/playbook)
-    * [https://github.com/redress-server/playbook](https://github.com/redress-server/playbook)
-* [http://www.tbtool.cn](http://www.tbtool.cn)
 * W10Privacy [https://www.winprivacy.de/deutsch-start/download](https://www.winprivacy.de/deutsch-start/download)
 * Windows 10 Manager [https://www.yamicsoft.com](https://www.yamicsoft.com)
     * `WMXD7-RG8FP-OYKS3-KHTN6`
@@ -1101,37 +1094,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * Windows Install Clean Up  安装后在安装目录找到`msicuu.exe`运行，然后选中程序点击`remove`
 * [https://www.ccleaner.com](https://www.ccleaner.com)
 * [https://www.wisecleaner.com](https://www.wisecleaner.com)
-* [https://bogdan-patraucean.github.io/about/wintoys](https://bogdan-patraucean.github.io/about/wintoys)
 * 强制删除 [https://github.com/differentrain/Delapp](https://github.com/differentrain/Delapp)
-
-
-
-**卸载自带预安装应用**
-
-+ [Search · install_wim_tweak](https://github.com/search?o=desc&q=install_wim_tweak&s=indexed&type=Code)
-
-
-* 绕过WindowsDefender [https://github.com/es3n1n/defendnot](https://github.com/es3n1n/defendnot)
-    * [https://gitee.com/tajang/no-defender](https://gitee.com/tajang/no-defender)
-* 系统调整 [https://github.com/ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-* 卸载Windows10自带应用10AppsManager [https://www.thewindowsclub.com/10appsmanager-windows-10](https://www.thewindowsclub.com/10appsmanager-windows-10)
-* [https://github.com/DiChaoWu/Optimize-Windows-10](https://github.com/DiChaoWu/Optimize-Windows-10)
-* [https://github.com/L33Tech/Windows10Tools](https://github.com/L33Tech/Windows10Tools)
-* [https://github.com/myrtus0x0/Pastebin-Scraping-Results](https://github.com/myrtus0x0/Pastebin-Scraping-Results)
-* [https://github.com/simeononsecurity/SAPS](https://github.com/simeononsecurity/SAPS)
-* [https://github.com/kyau/win10tweak](https://github.com/kyau/win10tweak)
-* [https://github.com/wangzy12306/win10](https://github.com/wangzy12306/win10)
-* [https://github.com/Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat)
-* [https://github.com/builtbybel/Winpilot](https://github.com/builtbybel/Winpilot)
-    * [https://github.com/TheBobPony/MSEdgeTweaker](https://github.com/TheBobPony/MSEdgeTweaker)
-    * [https://github.com/ConditionalException/Windows10Privacy](https://github.com/ConditionalException/Windows10Privacy)
-    * [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
-* [https://github.com/builtbybel/debotnet](https://github.com/builtbybel/debotnet)
-* [https://github.com/Daksh777/windows10-debloat](https://github.com/Daksh777/windows10-debloat)
-* [https://github.com/SucklessWindows/SucklessWindows](https://github.com/SucklessWindows/SucklessWindows)
-* [https://github.com/DirtCaps/CapsTweakerSystem](https://github.com/DirtCaps/CapsTweakerSystem)
-* [https://github.com/kampusbiner/windefenderremoval](https://github.com/kampusbiner/windefenderremoval)
-* [https://github.com/pluswait/workPCT](https://github.com/pluswait/workPCT)
 
 
 
@@ -1203,6 +1166,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
     * [https://sourceforge.net/projects/crystaldiskinfo](https://sourceforge.net/projects/crystaldiskinfo)
 * 性能测试 [https://github.com/xmrig/xmrig](https://github.com/xmrig/xmrig)
 * [https://www.aida64.com/downloads](https://www.aida64.com/downloads)
+* 硬件检测 [http://www.tbtool.cn](http://www.tbtool.cn)
 * 流量监控 [https://www.glasswire.com](https://www.glasswire.com)
 * [https://github.com/TheCGDF/NetSpeed](https://github.com/TheCGDF/NetSpeed)
 * MSI Afterbuner [https://www.msi.com/Landing/afterburner/graphics-cards](https://www.msi.com/Landing/afterburner/graphics-cards)

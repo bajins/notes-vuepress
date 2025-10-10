@@ -184,6 +184,8 @@ SELECT DATE_TRUNC('day', CURRENT_TIMESTAMP) + INTERVAL '1 day - 1 microsecond';
 SELECT DATE_TRUNC('day', CURRENT_TIMESTAMP) + INTERVAL '1 day' - INTERVAL '1 microsecond';
 -- 月末
 select date_trunc('month', now() + '1 months') + '-1 days';
+-- 获取上个月的开始和结束时间
+select date_trunc('month', current_date - interval '1 month'), date_trunc('month', current_date) - interval '1 microsecond';
 
 -- 获取周数
 select extract(week FROM timestamp '2022-01-01') week;
