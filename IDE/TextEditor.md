@@ -134,6 +134,7 @@ REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Executi
 - [https://github.com/SublimeText](https://github.com/SublimeTexts)
 - [https://www.sublimetext.com](https://www.sublimetext.com)
     - [http://www.sublimetext.cn](http://www.sublimetext.cn)
+- [https://github.com/tonsky/sublime-scheme-alabaster](https://github.com/tonsky/sublime-scheme-alabaster)
 - [sublimetext破解](https://www.abbeyok.com/archives/337)
 - [sublime-text-3-license-key](http://blog.jdk5.com/zh/sublime-text-3-license-key)
 - [Sublime Text3 注册码激活码](https://blog.csdn.net/qq_29819449/article/details/80130327)

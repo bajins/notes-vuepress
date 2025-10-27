@@ -111,6 +111,7 @@
 * [https://github.com/LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird)
 * [https://github.com/versotile-org/verso](https://github.com/versotile-org/verso)
 * [https://github.com/zen-browser](https://github.com/zen-browser)
+* [https://github.com/imputnet/helium](https://github.com/imputnet/helium)
 
 
 

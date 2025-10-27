@@ -340,6 +340,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 + [https://github.com/dadorner-msft/activationws](https://github.com/dadorner-msft/activationws)
 + [https://archive.org/details/xp_activate32_202305](https://archive.org/details/xp_activate32_202305)
 + [https://github.com/abbodi1406/WHD](https://github.com/abbodi1406/WHD)
++ [https://github.com/abdullah-erturk/pmas](https://github.com/abdullah-erturk/pmas)
 
 
 
@@ -388,6 +389,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
     * [https://pkeytool.com/ShareKeys](https://pkeytool.com/ShareKeys)
 * [https://jike.info/category/16/账号密钥](https://jike.info/category/16/%E8%B4%A6%E5%8F%B7%E5%AF%86%E9%92%A5)
 * 密钥检测的小工具 [https://github.com/FHWWC/KeyCheck](https://github.com/FHWWC/KeyCheck)
+* PIDKey Lite [https://msfree.su](https://msfree.su)
 * [https://webact.sjjzm.com](https://webact.sjjzm.com)
 * [SimplePidX](https://forums.mydigitallife.net/threads/multi-oem-retail-project-mrp-mk3.71555)
 * [https://github.com/Superfly-Inc/ShowKeyPlus](https://github.com/Superfly-Inc/ShowKeyPlus)

@@ -112,6 +112,7 @@
 - 代码审查 [https://github.com/mimo-x/Code-Review-GPT-Gitlab](https://github.com/mimo-x/Code-Review-GPT-Gitlab)
 - [https://github.com/apps/gemini-code-assist](https://github.com/apps/gemini-code-assist)
     - [https://codeassist.google](https://codeassist.google)
+- [https://github.com/lintsinghua/XCodeReviewer](https://github.com/lintsinghua/XCodeReviewer)
 
 
 

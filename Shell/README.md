@@ -314,6 +314,7 @@
     * [https://github.com/termux](https://github.com/termux)
     * [https://github.com/hanxinhao000/ZeroTermux](https://github.com/hanxinhao000/ZeroTermux)
 * [https://github.com/connectbot/connectbot](https://github.com/connectbot/connectbot)
+* [https://github.com/nashaofu/shell360](https://github.com/nashaofu/shell360)
 * [https://www.juicessh.com](https://www.juicessh.com)
 * [https://github.com/niklas-8/RemoteFiles](https://github.com/niklas-8/RemoteFiles)
 
