@@ -35,6 +35,7 @@
 **Dev Tools/DevOps/CI/CD/Developer Experience (DX)**
 
 + [https://github.com/topics/developer-tools](https://github.com/topics/developer-tools)
++ [https://github.com/seifrajhi/awesome-platform-engineering-tools](https://github.com/seifrajhi/awesome-platform-engineering-tools)
 + 转编译 [https://github.com/topics/transpiler](https://github.com/topics/transpiler)
 
 

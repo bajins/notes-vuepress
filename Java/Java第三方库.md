@@ -276,7 +276,7 @@
 - [https://github.com/levigo/jbig2-imageio](https://github.com/levigo/jbig2-imageio)
 - [https://github.com/haraldk/TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys)
 - [https://github.com/imcdonagh/image4j](https://github.com/imcdonagh/image4j)
-- 图片压缩 [https://github.com/coobird/thumbnailator](https://github.com/coobird/thumbnailator)
+- [https://github.com/coobird/thumbnailator](https://github.com/coobird/thumbnailator)
     - [http://projects.coobird.net](http://projects.coobird.net)
 - SVG [https://github.com/css4j/echosvg](https://github.com/css4j/echosvg)
 - 压缩文件 [https://github.com/junrar/junrar](https://github.com/junrar/junrar)

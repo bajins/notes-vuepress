@@ -278,7 +278,6 @@
 * [https://github.com/xhd2015/xgo](https://github.com/xhd2015/xgo)
 * [https://github.com/onsi/gomega](https://github.com/onsi/gomega)
 * [https://github.com/onsi/ginkgo](https://github.com/onsi/ginkgo)
-* [https://github.com/maxbrunsfeld/counterfeiter](https://github.com/maxbrunsfeld/counterfeiter)
 * [https://github.com/stretchr/testify](https://github.com/stretchr/testify)
 * [https://github.com/agiledragon/gomonkey](https://github.com/agiledragon/gomonkey)
 * [https://github.com/go-kiss/monkey](https://github.com/go-kiss/monkey)

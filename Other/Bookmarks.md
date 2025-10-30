@@ -54,6 +54,8 @@
 * [https://github.com/fenwii/huaweimind](https://github.com/fenwii/huaweimind)
 * 学英语 [https://github.com/xiaolai/everyone-can-use-english](https://github.com/xiaolai/everyone-can-use-english)
 * [https://github.com/byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips)
+* [https://github.com/luzhenhua/NCE-Flow](https://github.com/luzhenhua/NCE-Flow)
+* 英语单词列表 [https://github.com/dwyl/english-words](https://github.com/dwyl/english-words)
 * [https://www.languagereactor.com](https://www.languagereactor.com)
 * [https://youglish.com](https://youglish.com)
 * [https://medevel.com/tag/open-source](https://medevel.com/tag/open-source)

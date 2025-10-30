@@ -198,9 +198,11 @@ vi /usr/libexec/urlgrabber-ext-down
 
 ### 虚拟环境
 
+- Python 3.3+ 内置
+
 ```bash
 # https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments
-# Python 3.3+ 内置 创建虚拟环境
+# 创建虚拟环境
 python -m venv .venv
 
 # 激活
@@ -213,6 +215,19 @@ deactivate
 
 # 删除（如需）
 rm -rf .venv
+```
+
+- Miniconda3
+
+```bash
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+eval "$(/root/miniconda3/bin/conda shell.bash hook)"
+conda init
+conda create -n .conda python=3.7 -y
+conda activate .conda
+conda install --yes --file requirements.txt
+conda deactivate # 退出当前环境
 ```
 
 
