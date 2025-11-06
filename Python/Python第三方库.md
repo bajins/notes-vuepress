@@ -12,6 +12,7 @@
 + [https://github.com/MagicStack](https://github.com/MagicStack)
 
 
+* [https://github.com/mahmoud/boltons](https://github.com/mahmoud/boltons)
 * 应用监控 [https://github.com/SolarEdgeTech/pyctuator](https://github.com/SolarEdgeTech/pyctuator)
 * [Python图像处理库—-Pillow](https://www.lizenghai.com/archives/17611.html)
 * 基于异步库 [https://github.com/aio-libs](https://github.com/aio-libs)
@@ -31,6 +32,7 @@
 * [https://github.com/httplib2/httplib2](https://github.com/httplib2/httplib2)
 * [https://github.com/gabrielfalcao/HTTPretty](https://github.com/gabrielfalcao/HTTPretty)
 * [https://github.com/projectdiscovery/httpx](https://github.com/projectdiscovery/httpx)
+* [https://github.com/fortra/impacket](https://github.com/fortra/impacket)
 * 日志 [https://github.com/Delgan/loguru](https://github.com/Delgan/loguru)
 * [https://github.com/jpadilla/pyjwt](https://github.com/jpadilla/pyjwt)
 * [https://github.com/mhammond/pywin32](https://github.com/mhammond/pywin32)
@@ -118,7 +120,8 @@
 - [https://github.com/pyinvoke/invoke](https://github.com/pyinvoke/invoke)
 - [https://github.com/paramiko](https://github.com/paramiko)
 - [https://github.com/topics/ops](https://github.com/topics/ops)
-- 访问java类库 [https://github.com/jpype-project/jpype](https://github.com/jpype-project/jpype)
+- 集成其他语言 [https://wiki.python.org/moin/IntegratingPythonWithOtherLanguages](https://wiki.python.org/moin/IntegratingPythonWithOtherLanguages)
+- 内嵌Java [https://github.com/jpype-project/jpype](https://github.com/jpype-project/jpype)
 
 
 

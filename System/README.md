@@ -723,6 +723,7 @@
 * 主页仪表板 [https://github.com/glanceapp/glance](https://github.com/glanceapp/glance)
 * 在线知识库 [https://github.com/outline/outline](https://github.com/outline/outline)
 * [https://github.com/chaitin/PandaWiki](https://github.com/chaitin/PandaWiki)
+* [https://github.com/suitenumerique/docs](https://github.com/suitenumerique/docs)
 * 自定义二维码 [https://github.com/kochrt/qr-designer](https://github.com/kochrt/qr-designer)
 * [https://github.com/uxiaohan/PayQrcode](https://github.com/uxiaohan/PayQrcode)
 * [https://github.com/liuliangsir/chromium-style-qrcode-generator-with-wasm](https://github.com/liuliangsir/chromium-style-qrcode-generator-with-wasm)

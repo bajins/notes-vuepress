@@ -98,7 +98,6 @@ with Test() as t: # 触发__exit__
     * [https://github.com/mozillazg/pypy](https://github.com/mozillazg/pypy)
 * [https://github.com/pyston/pyston](https://github.com/pyston/pyston)
 * [https://github.com/stackless-dev/stackless](https://github.com/stackless-dev/stackless)
-* [https://github.com/jython/jython](https://github.com/jython/jython)
 * [https://github.com/IronLanguages](https://github.com/IronLanguages)
     * [https://ironpython.net](https://ironpython.net)
 * [https://github.com/numpy](https://github.com/numpy)

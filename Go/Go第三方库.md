@@ -234,6 +234,7 @@
 * 媒体类型 [https://github.com/gabriel-vasile/mimetype](https://github.com/gabriel-vasile/mimetype)
 * 图片转换 [https://github.com/gographics/imagick](https://github.com/gographics/imagick)
 * [https://github.com/davidbyttow/govips](https://github.com/davidbyttow/govips)
+* [https://github.com/cshum/vipsgen](https://github.com/cshum/vipsgen)
 * [https://github.com/zyxar/image2ascii](https://github.com/zyxar/image2ascii)
 * 视频处理 [https://github.com/AlexEidt/Vidio](https://github.com/AlexEidt/Vidio)
 * [https://github.com/Eyevinn/mp4ff](https://github.com/Eyevinn/mp4ff)

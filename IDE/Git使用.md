@@ -128,6 +128,7 @@
 * 提交统计 [https://github.com/sinclairtarget/git-who](https://github.com/sinclairtarget/git-who)
 * [https://github.com/yinzhenyu-su/weekly-git-summary](https://github.com/yinzhenyu-su/weekly-git-summary)
 * 删除大型blob [https://github.com/rtyley/bfg-repo-cleaner](https://github.com/rtyley/bfg-repo-cleaner)
+* 改写仓库历史 [https://github.com/Cactusinhand/filter-repo-rs](https://github.com/Cactusinhand/filter-repo-rs)
 
 
 

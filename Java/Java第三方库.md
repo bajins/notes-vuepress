@@ -83,6 +83,18 @@
 - 元数据和治理 [https://github.com/odpi/egeria](https://github.com/odpi/egeria)
 - [https://github.com/JNOSQL](https://github.com/JNOSQL)
 - 解析命令行参数 [http://github.com/cbeust/jcommander](http://github.com/cbeust/jcommander)
+- 内嵌Python [https://github.com/invesdwin/invesdwin-scripting](https://github.com/invesdwin/invesdwin-scripting)
+- [https://github.com/py4j/py4j](https://github.com/py4j/py4j)
+- [https://github.com/ninia/jep](https://github.com/ninia/jep)
+    - [https://sourceforge.net/projects/jepp](https://sourceforge.net/projects/jepp)
+- [https://github.com/LeeKamentsky/python-javabridge](https://github.com/LeeKamentsky/python-javabridge)
+    - [https://github.com/CellProfiler/python-javabridge](https://github.com/CellProfiler/python-javabridge)
+- [https://github.com/deeplearning4j/deeplearning4j/tree/master/python4j](https://github.com/deeplearning4j/deeplearning4j/tree/master/python4j)
+- [https://github.com/clj-python/libpython-clj](https://github.com/clj-python/libpython-clj)
+- [https://github.com/jpy-consortium/jpy](https://github.com/jpy-consortium/jpy)
+- [https://github.com/jython/jython](https://github.com/jython/jython)
+- [https://github.com/beeware/voc](https://github.com/beeware/voc)
+- 调用C/C++ [https://github.com/bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets)
 
 
 

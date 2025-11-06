@@ -76,6 +76,7 @@
 - [https://github.com/Textualize/toolong](https://github.com/Textualize/toolong)
 - [https://github.com/gwsw/less](https://github.com/gwsw/less)
 - [https://github.com/control-theory/gonzo](https://github.com/control-theory/gonzo)
+- [https://github.com/jazz-it/dline](https://github.com/jazz-it/dline)
 - cat [https://github.com/swsnr/mdcat](https://github.com/swsnr/mdcat)
 - [https://github.com/busyloop/lolcat](https://github.com/busyloop/lolcat)
 - 文件管理 [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
@@ -138,6 +139,7 @@
 - 持续假输出 [https://github.com/giacomo-b/rust-stakeholder](https://github.com/giacomo-b/rust-stakeholder)
 - 页面缓存 [https://github.com/tobert/pcstat](https://github.com/tobert/pcstat)
 - [https://github.com/silenceshell/hcache](https://github.com/silenceshell/hcache)
+- 自动重连会话 [https://github.com/MisterTea/EternalTerminal](https://github.com/MisterTea/EternalTerminal)
 
 
 

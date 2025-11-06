@@ -267,6 +267,9 @@
 * [https://github.com/seladb/pickledb-rs](https://github.com/seladb/pickledb-rs) (嵌入式 - Rust)
 * [https://github.com/dragonflydb](https://github.com/dragonflydb)
 * [https://github.com/microsoft/garnet](https://github.com/microsoft/garnet)
+* [https://github.com/cockroachdb/pebble](https://github.com/cockroachdb/pebble) (嵌入式 - Go)
+* [https://github.com/dgraph-io/badger](https://github.com/dgraph-io/badger) (嵌入式 - Go)
+* [https://github.com/hashicorp/go-memdb](https://github.com/hashicorp/go-memdb) (嵌入式 - Go)
 
 
 

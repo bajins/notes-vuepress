@@ -585,6 +585,7 @@
 * [https://github.com/wanglin2/mind-map](https://github.com/wanglin2/mind-map)
 * [https://github.com/plantuml/plantuml](https://github.com/plantuml/plantuml)
 * [https://github.com/mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)
+* [https://github.com/RohanAdwankar/oxdraw](https://github.com/RohanAdwankar/oxdraw)
 * [https://github.com/archimatetool/archi](https://github.com/archimatetool/archi)
 * [https://github.com/ModelioOpenSource/Modelio](https://github.com/ModelioOpenSource/Modelio)
 
