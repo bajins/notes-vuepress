@@ -73,6 +73,7 @@
 - [Rust 如何实现单例模式？](https://www.zhihu.com/question/391694703)
 - [异步 HTTP](https://blog.yoshuawuyts.com/async-http)
 - 桌面程序参考 [https://github.com/jwenjian/coverfun](https://github.com/jwenjian/coverfun)
+- 后台管理 [https://github.com/chelunfu/qiluo_admin](https://github.com/chelunfu/qiluo_admin)
 
 
 **不显示控制台窗口**

@@ -619,7 +619,7 @@
 
 * [https://github.com/search?q=Photoshop](https://github.com/search?q=Photoshop)
 * Adobe替代品 [https://github.com/KenneyNL/Adobe-Alternatives](https://github.com/KenneyNL/Adobe-Alternatives)
-* https://weibo.com/vposy
+* [https://www.affinity.studio](https://www.affinity.studio)
 * TEAmo (茶末余香)
 * [Adobe软件单独下载方法-官方](https://sleele.com/2019/05/05/adobe/)
 * [https://sysin.cn/archive](https://sysin.cn/archive)

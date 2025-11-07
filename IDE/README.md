@@ -104,6 +104,7 @@
 - [https://github.com/SuperDuperDB/superduperdb](https://github.com/SuperDuperDB/superduperdb)
 - [https://github.com/vanna-ai/vanna](https://github.com/vanna-ai/vanna)
 - [https://github.com/zhangchenchen/query_gpt](https://github.com/zhangchenchen/query_gpt)
+- [https://github.com/dataease/SQLBot](https://github.com/dataease/SQLBot)
 - 代码搜索 [https://github.com/ast-grep/ast-grep](https://github.com/ast-grep/ast-grep)
 - 可视化前端设计 [https://github.com/webstudio-is/webstudio](https://github.com/webstudio-is/webstudio)
 - [https://github.com/SawyerHood/draw-a-ui](https://github.com/SawyerHood/draw-a-ui)

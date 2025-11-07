@@ -83,6 +83,7 @@ powercfg /batteryreport /output "Desktop\battery-report.html"
 
 
 * Dism++ [https://github.com/Chuyu-Team](https://github.com/Chuyu-Team)
+* [https://github.com/ZyperWave/ZyperWinOptimize](https://github.com/ZyperWave/ZyperWinOptimize)
 * [https://ameliorated.io](https://ameliorated.io)
     * [https://github.com/jointhearkanoid/playbook](https://github.com/jointhearkanoid/playbook)
     * [https://github.com/redress-server/playbook](https://github.com/redress-server/playbook)
@@ -102,6 +103,10 @@ powercfg /batteryreport /output "Desktop\battery-report.html"
 * [https://github.com/tranht17/WinTune](https://github.com/tranht17/WinTune)
 * 绕过WindowsDefender [https://github.com/es3n1n/defendnot](https://github.com/es3n1n/defendnot)
     * [https://gitee.com/tajang/no-defender](https://gitee.com/tajang/no-defender)
+* [https://github.com/pgkt04/defender-control](https://github.com/pgkt04/defender-control)
+    * [https://github.com/conspiracyrip/DefenderControlV2](https://github.com/conspiracyrip/DefenderControlV2)
+* [https://github.com/zoicware/DefenderProTools](https://github.com/zoicware/DefenderProTools)
+* [https://github.com/liliuwei/defender-control](https://github.com/liliuwei/defender-control)
 * 系统调整 [https://github.com/ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 * 卸载自带应用 [https://www.thewindowsclub.com/10appsmanager-windows-10](https://www.thewindowsclub.com/10appsmanager-windows-10)
 * [https://github.com/ElPumpo/Win10Clean](https://github.com/ElPumpo/Win10Clean)
@@ -255,6 +260,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
     * [https://activated.win](https://activated.win)
     * [https://github.com/gravesoft/msdl](https://github.com/gravesoft/msdl)
         * [https://msdl.gravesoft.dev](https://msdl.gravesoft.dev)
+    * [https://github.com/cmontage/mas-cn](https://github.com/cmontage/mas-cn)
 
 
 

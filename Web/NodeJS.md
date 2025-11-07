@@ -520,6 +520,7 @@ request({
 + [https://github.com/topics/weixin](https://github.com/topics/weixin)
 
 - [https://github.com/Wechat-Group](https://github.com/Wechat-Group)
+- [https://github.com/novlan1/tdesign-uniapp](https://github.com/novlan1/tdesign-uniapp)
 
 * [https://github.com/justjavac/awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp)
 * [https://github.com/qiushi123/xiaochengxu_demos](https://github.com/qiushi123/xiaochengxu_demos)
