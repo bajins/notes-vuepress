@@ -254,6 +254,7 @@
 * 端口监控 [https://github.com/Mostafa-Wahied/portracker](https://github.com/Mostafa-Wahied/portracker)
 * [https://github.com/crocofied/PortNote](https://github.com/crocofied/PortNote)
 * GPU运行信息 [https://github.com/kagehq/gpu-kill](https://github.com/kagehq/gpu-kill)
+* 定时任务 [https://github.com/gocronx-team/gocron](https://github.com/gocronx-team/gocron)
 
 
 - 软件构建 [https://github.com/easybuilders](https://github.com/easybuilders)
@@ -391,6 +392,7 @@
 * [https://github.com/lighttpd](https://github.com/lighttpd)
 * [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
     * [Caddy2 简明教程 - bleem](https://mritd.com/2021/01/07/lets-start-using-caddy2)
+* [https://github.com/vicanso/pingap](https://github.com/vicanso/pingap)
 * [https://github.com/traefik/traefik](https://github.com/traefik/traefik)
 * [https://github.com/haproxy/haproxy](https://github.com/haproxy/haproxy)
     * HAProxy入门 [https://jaminzhang.github.io/lb/HAProxy-Get-Started](https://jaminzhang.github.io/lb/HAProxy-Get-Started)
@@ -507,7 +509,6 @@
 - [https://github.com/nicolargo/glances](https://github.com/nicolargo/glances)
 - [https://github.com/sysstat/sysstat](https://github.com/sysstat/sysstat)
 - [https://github.com/context-labs/mactop](https://github.com/context-labs/mactop)
-- [https://github.com/wolfpld/tracy](https://github.com/wolfpld/tracy)
 - [https://github.com/imsnif/bandwhich](https://github.com/imsnif/bandwhich)
 - 视图监视器 [https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet](https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet)
 - [https://github.com/aristocratos](https://github.com/aristocratos)

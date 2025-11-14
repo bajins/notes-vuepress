@@ -438,6 +438,7 @@ taskkill /f /im chromedriver.exe
 * [https://github.com/AnYi-0/Translator](https://github.com/AnYi-0/Translator)
 * [https://github.com/lmk123/crx-selection-translate](https://github.com/lmk123/crx-selection-translate)
 * [https://github.com/magic-FE/translate-man](https://github.com/magic-FE/translate-man)
+* [https://github.com/Cookee24/PairTranslate](https://github.com/Cookee24/PairTranslate)
 * [https://github.com/EdgeTranslate/EdgeTranslate](https://github.com/EdgeTranslate/EdgeTranslate)
 * [https://github.com/Bistutu/FluentRead](https://github.com/Bistutu/FluentRead)
 * [https://github.com/immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate)

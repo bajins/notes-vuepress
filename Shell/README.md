@@ -68,6 +68,7 @@
 - agrep [https://github.com/laurikari/tre](https://github.com/laurikari/tre)
 - 终端图像查看 [https://github.com/stefanhaustein/TerminalImageViewer](https://github.com/stefanhaustein/TerminalImageViewer)
 - [https://github.com/pTinosq/Electro](https://github.com/pTinosq/Electro)
+- 终端窗口管理 [https://github.com/Gaurav-Gosain/tuios](https://github.com/Gaurav-Gosain/tuios)
 - 地图 [https://github.com/rastapasta/mapscii](https://github.com/rastapasta/mapscii)
 - 电子表格 [https://github.com/saulpw/visidata](https://github.com/saulpw/visidata)
 - [https://github.com/bgreenwell/doxx](https://github.com/bgreenwell/doxx)

@@ -83,7 +83,6 @@ with Test() as t: # 触发__exit__
 - WiFi扫描破解 [https://github.com/TheSadError/NIVOS](https://github.com/TheSadError/NIVOS)
 - CLI工具 [https://github.com/kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)
 - [https://github.com/astral-sh/ruff](https://github.com/astral-sh/ruff)
-- 数据提取 [https://github.com/opendatalab/MinerU](https://github.com/opendatalab/MinerU)
 
 
 

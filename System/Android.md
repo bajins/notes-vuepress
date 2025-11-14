@@ -584,6 +584,7 @@
     * [https://github.com/naman14/TimberX](https://github.com/naman14/TimberX)
 * [https://github.com/ologe/canaree-music-player](https://github.com/ologe/canaree-music-player)
 * [https://www.larkplayer.com](https://www.larkplayer.com)
+* 白噪音 [https://github.com/Tosencen/XMSLEEP](https://github.com/Tosencen/XMSLEEP)
 * Poweramp [https://powerampapp.com](https://powerampapp.com)
 * 图片编辑 [https://qingtu.kajicam.com](https://qingtu.kajicam.com)
 * [https://www.magicut.cn](https://www.magicut.cn)
