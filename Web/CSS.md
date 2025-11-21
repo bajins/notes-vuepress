@@ -191,6 +191,7 @@
 * [https://github.com/hugeicons/hugeicons-react](https://github.com/hugeicons/hugeicons-react)
 * [https://github.com/pqoqubbw/icons](https://github.com/pqoqubbw/icons)
 * [https://github.com/YuheshPandian/ICONIC](https://github.com/YuheshPandian/ICONIC)
+* [https://github.com/hehehai/tiny-svg](https://github.com/hehehai/tiny-svg)
 * 生成SVG [https://github.com/chaseFunny/svg-backend](https://github.com/chaseFunny/svg-backend)
 * [https://www.hyvector.com](https://www.hyvector.com)
 * [https://github.com/JiuRanYa/text-to-svg](https://github.com/JiuRanYa/text-to-svg)

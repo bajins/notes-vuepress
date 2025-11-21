@@ -283,7 +283,7 @@
 * [https://github.com/apache/kylin](https://github.com/apache/kylin)
 * [https://github.com/apache/druid](https://github.com/apache/druid)
 * [https://github.com/griddb/griddb](https://github.com/griddb/griddb)
-* [https://github.com/infinispan/infinispan](https://github.com/infinispan/infinispan)
+* [https://github.com/infinispan/infinispan](https://github.com/infinispan/infinispan) (可嵌入Java)
 
 
 

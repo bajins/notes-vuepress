@@ -105,6 +105,7 @@
 * [https://github.com/extrawurst/gitui](https://github.com/extrawurst/gitui)
 * [https://github.com/gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler)
 * [https://github.com/gitextensions/gitextensions](https://github.com/gitextensions/gitextensions)
+* [https://github.com/huangcs427/enjoy-git-release](https://github.com/huangcs427/enjoy-git-release)
 * [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
     * [https://gitlab.com/tortoisegit/tortoisegit](https://gitlab.com/tortoisegit/tortoisegit)
     * [https://tortoisegit.org/download](https://tortoisegit.org/download)

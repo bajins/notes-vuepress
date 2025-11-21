@@ -278,6 +278,7 @@
 * [https://github.com/vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons)
 * 比较 [https://github.com/moshfeu/vscode-compare-folders](https://github.com/moshfeu/vscode-compare-folders)
 * [https://github.com/Axosoft/vscode-gitlens](https://github.com/Axosoft/vscode-gitlens)
+* [https://github.com/alfredbirk/go-to-next-change](https://github.com/alfredbirk/go-to-next-change)
 * 协作 [https://github.com/MicrosoftDocs/live-share](https://github.com/MicrosoftDocs/live-share)
 * [https://github.com/njpanderson/push](https://github.com/njpanderson/push) 类似于jet brains的`Deployment Automatic Upload`
 * AI [https://github.com/timkmecl/chatgpt-vscode](https://github.com/timkmecl/chatgpt-vscode)

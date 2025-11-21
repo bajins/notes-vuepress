@@ -50,6 +50,7 @@
 - 编程十年的感悟 [https://ramsayleung.github.io/zh/archives](https://ramsayleung.github.io/zh/post/2024/%E7%BC%96%E7%A8%8B%E5%8D%81%E5%B9%B4%E7%9A%84%E6%84%9F%E6%82%9F/)
 - 梳理情绪 [https://github.com/zhangchenchen/self-consistent-coder](https://github.com/zhangchenchen/self-consistent-coder)
     - [https://self-consistent-coder.readthedocs.io/zh-cn/latest/](https://self-consistent-coder.readthedocs.io/zh-cn/latest/)
+- 中级程序员的标志 [https://dawranliou.com/blog/intermediate-dev](https://dawranliou.com/blog/intermediate-dev)
 
 
 
