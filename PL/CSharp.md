@@ -240,6 +240,7 @@
 * 图表 [https://github.com/Live-Charts/Live-Charts](https://github.com/Live-Charts/Live-Charts)
 * [https://github.com/beto-rodriguez/LiveCharts2](https://github.com/beto-rodriguez/LiveCharts2)
 * 3D [https://github.com/mellinoe/veldrid](https://github.com/mellinoe/veldrid)
+* 流程图 [https://github.com/miroiu/nodify](https://github.com/miroiu/nodify)
 * 检测热键点击 [https://github.com/gmamaladze/globalmousekeyhook](https://github.com/gmamaladze/globalmousekeyhook)
 * npoi [https://github.com/joshcomley/Npoi.Core](https://github.com/joshcomley/Npoi.Core)
 * [https://github.com/nissl-lab/npoi](https://github.com/nissl-lab/npoi)

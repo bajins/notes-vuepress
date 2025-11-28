@@ -85,6 +85,8 @@
 * [弱类型、强类型、动态类型、静态类型语言的区别是什么？](https://www.zhihu.com/question/19918532)
 * [通俗的方式理解动态类型，静态类型；强类型，弱类型](https://www.cnblogs.com/ssaylo/p/13056055.html)
 * [类型正在向右移动](https://juejin.cn/post/6844903801959235591)
+* [学习OpCode](https://cvjark.github.io/My-Save-Pages/%E6%8A%80%E6%9C%AF%E8%B4%B4/learningopcode/index.htm)
+* [https://github.com/horsicq/XOpcodeCalc](https://github.com/horsicq/XOpcodeCalc)
 
 1. 动态类型语言：运行时确定数据类型。
 2. 静态类型语言：编译时确定数据类型。
@@ -457,6 +459,7 @@
 * [https://github.com/teableio/teable](https://github.com/teableio/teable)
 * [https://github.com/nocobase/nocobase](https://github.com/nocobase/nocobase)
 * [https://github.com/plasmicapp/plasmic](https://github.com/plasmicapp/plasmic)
+* [https://github.com/entropy-cloud/nop-entropy](https://github.com/entropy-cloud/nop-entropy)
 
 
 

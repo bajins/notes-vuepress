@@ -633,6 +633,12 @@
 * 词典 [https://github.com/mumu-lhl/Ciyue](https://github.com/mumu-lhl/Ciyue)
 * 追番 [https://github.com/czy0729/Bangumi](https://github.com/czy0729/Bangumi)
 * 翻译 [https://github.com/DavidVentura/firefox-translator](https://github.com/DavidVentura/firefox-translator)
+* 计算器 [https://github.com/shagr4th/droid48](https://github.com/shagr4th/droid48)
+* [https://github.com/clementwzk/OpenCalc](https://github.com/clementwzk/OpenCalc)
+* [https://github.com/mkulesh/microMathematics](https://github.com/mkulesh/microMathematics)
+* [https://github.com/YangDai2003/Multi-Calculator-Android](https://github.com/YangDai2003/Multi-Calculator-Android)
+* [https://github.com/anubhavshrimal/CalculatorApp](https://github.com/anubhavshrimal/CalculatorApp)
+* [https://github.com/SimpleMobileTools/Simple-Calculator](https://github.com/SimpleMobileTools/Simple-Calculator)
 
 
 

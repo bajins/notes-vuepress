@@ -493,6 +493,9 @@ check-revoke = false
 - [https://github.com/emoon/dynamic_reload](https://github.com/emoon/dynamic_reload)
 - [https://github.com/OpenByteDev/dll-syringe](https://github.com/OpenByteDev/dll-syringe)
 - GC [https://github.com/Manishearth/rust-gc](https://github.com/Manishearth/rust-gc)
+- 单位计算 [https://github.com/sharkdp/numbat](https://github.com/sharkdp/numbat)
+- [https://github.com/printfn/fend](https://github.com/printfn/fend)
+- [https://github.com/tiffany352/rink-rs](https://github.com/tiffany352/rink-rs)
 
 
 

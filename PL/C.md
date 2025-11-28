@@ -254,6 +254,10 @@
 * 消息总线 [https://github.com/bus1/dbus-broker](https://github.com/bus1/dbus-broker)
     * [https://uyha.github.io/technical/dbus-systemd.html](https://uyha.github.io/technical/dbus-systemd.html)
 * 动态加载链库 [https://github.com/fancycode/MemoryModule](https://github.com/fancycode/MemoryModule)
+* 计算器模拟器 [https://github.com/CE-Programming/CEmu](https://github.com/CE-Programming/CEmu)
+* [https://github.com/svenstaro/rofi-calc](https://github.com/svenstaro/rofi-calc)
+* 字节计算器 [https://github.com/jarun/bcal](https://github.com/jarun/bcal)
+* [https://github.com/alt-romes/programmer-calculator](https://github.com/alt-romes/programmer-calculator)
 
 
 

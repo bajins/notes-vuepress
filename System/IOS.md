@@ -78,6 +78,7 @@
 - 虚拟机 [https://github.com/utmapp/UTM](https://github.com/utmapp/UTM)
 - [https://github.com/ish-app/ish](https://github.com/ish-app/ish)
 - [https://github.com/holzschu/a-shell](https://github.com/holzschu/a-shell)
+- 电脑管理Iphone [https://github.com/iDescriptor/iDescriptor](https://github.com/iDescriptor/iDescriptor)
 
 
 

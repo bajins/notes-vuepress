@@ -65,6 +65,7 @@
 - SVG [https://github.com/blackears/svgSalamander](https://github.com/blackears/svgSalamander)
 - [https://github.com/piusalfred/ikonfx](https://github.com/piusalfred/ikonfx)
 - [https://github.com/openrndr/openrndr](https://github.com/openrndr/openrndr)
+- [https://github.com/weisJ/jsvg](https://github.com/weisJ/jsvg)
 - 扁平UI [https://github.com/JFormDesigner/FlatLaf](https://github.com/JFormDesigner/FlatLaf)
 - [https://github.com/mgarin/weblaf](https://github.com/mgarin/weblaf)
 - UI 控件 [https://github.com/controlsfx](https://github.com/controlsfx)
@@ -151,3 +152,5 @@
 * PDF [https://github.com/torakiki/pdfsam](https://github.com/torakiki/pdfsam)
 * 权限管理 [https://gitee.com/lwdillon/dillon-boot-fx](https://gitee.com/lwdillon/dillon-boot-fx)
 * 空间任务设计 [https://ai-solutions.com/restricted/freeflyer-downloads](https://ai-solutions.com/restricted/freeflyer-downloads)
+* 计算器 [https://github.com/HouariZegai/Calculator](https://github.com/HouariZegai/Calculator)
+* [https://github.com/pH-7/Simple-Java-Calculator](https://github.com/pH-7/Simple-Java-Calculator)

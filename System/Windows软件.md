@@ -810,6 +810,8 @@
 + Office 卸载支持工具 [https://outlookdiagnostics.azureedge.net/sarasetup/SetupProd_OffScrub.exe](https://outlookdiagnostics.azureedge.net/sarasetup/SetupProd_OffScrub.exe)
 + [手动卸载 Office](https://support.microsoft.com/zh-cn/office/%E6%89%8B%E5%8A%A8%E5%8D%B8%E8%BD%BD-office-4e2904ea-25c8-4544-99ee-17696bb3027b)
 + PPT演示 [https://github.com/Cimbali/pympress](https://github.com/Cimbali/pympress)
++ [https://github.com/pdfpc/pdfpc](https://github.com/pdfpc/pdfpc)
++ [https://github.com/Master-Hash/pdfpc-ts](https://github.com/Master-Hash/pdfpc-ts)
 
 
 
@@ -867,6 +869,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/Jeric-X/SyncClipboard](https://github.com/Jeric-X/SyncClipboard)
 * [https://github.com/projectsend/projectsend](https://github.com/projectsend/projectsend)
 * [https://github.com/CrossPaste/crosspaste-desktop](https://github.com/CrossPaste/crosspaste-desktop)
+* [https://github.com/snsogbl/clip-save](https://github.com/snsogbl/clip-save)
 * [https://github.com/lemon-codehub/lemonPush](https://github.com/lemon-codehub/lemonPush)
     * [https://github.com/HaujetZhao/web_remote_input](https://github.com/HaujetZhao/web_remote_input)
 * [https://www.clipboardfusion.com](https://www.clipboardfusion.com)
@@ -1281,6 +1284,10 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * 数据可视化 [https://labplot.org](https://labplot.org)
 * 输入法 [https://github.com/rime](https://github.com/rime)
 * [https://github.com/studyzy/imewlconverter](https://github.com/studyzy/imewlconverter)
+* 计算器 [https://github.com/Qalculate](https://github.com/Qalculate)
+* [https://github.com/microsoft/calculator](https://github.com/microsoft/calculator)
+* [https://github.com/nikolaeu/numi](https://github.com/nikolaeu/numi)
+* [https://github.com/nspire-emus/firebird](https://github.com/nspire-emus/firebird)
 
 
 + [http://www.downloadsoftware.ir](http://www.downloadsoftware.ir)

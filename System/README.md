@@ -31,6 +31,8 @@
 - [https://github.com/3proxy/3proxy](https://github.com/3proxy/3proxy)
 - 无线渗透硬件 [https://github.com/flipperdevices/flipperzero-firmware](https://github.com/flipperdevices/flipperzero-firmware)
     - [https://github.com/DarkFlippers/unleashed-firmware](https://github.com/DarkFlippers/unleashed-firmware)
+- 计算器 [https://github.com/PaddiM8/kalker](https://github.com/PaddiM8/kalker)
+- [https://github.com/oppiliappan/eva](https://github.com/oppiliappan/eva)
 
 
 * 键盘快捷键的梳理表 [https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts)
@@ -634,6 +636,7 @@
 * [https://github.com/miroslavpejic85/mirotalksfu](https://github.com/miroslavpejic85/mirotalksfu)
 * [https://github.com/Stremio/stremio-web](https://github.com/Stremio/stremio-web)
 * [https://github.com/timelinize/timelinize](https://github.com/timelinize/timelinize)
+* [https://github.com/franklioxygen/MyTube](https://github.com/franklioxygen/MyTube)
 * 音频编辑 [https://github.com/RylanBot/melody-workshop](https://github.com/RylanBot/melody-workshop)
 * 视频编辑 [https://github.com/OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)
 * [https://github.com/robinroy03/videoeditor](https://github.com/robinroy03/videoeditor)
@@ -785,6 +788,8 @@
 * 房价走势 [https://github.com/851235550/how-to-buy-house](https://github.com/851235550/how-to-buy-house)
 * AI新闻摘要 [https://github.com/kagisearch/kite-public](https://github.com/kagisearch/kite-public)
 * 网盘搜索 [https://github.com/fish2018/pansou](https://github.com/fish2018/pansou)
+* 计算器 [https://github.com/numworks/epsilon](https://github.com/numworks/epsilon)
+* [https://github.com/bbodi/notecalc3](https://github.com/bbodi/notecalc3)
 
 
 

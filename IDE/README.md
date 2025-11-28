@@ -100,7 +100,7 @@
 - [https://github.com/annfelix/DEVOPS-WORLD](https://github.com/annfelix/DEVOPS-WORLD)
 - 需求生成文档 [https://github.com/geekan/MetaGPT](https://github.com/geekan/MetaGPT)
 - 代码生成文档 [https://github.com/davialabs/davia](https://github.com/davialabs/davia)
-- SQL助手AI [https://github.com/chat2db/Chat2DB](https://github.com/chat2db/Chat2DB)
+- SQL助手AI [https://github.com/CodePhiliaX/Chat2DB](https://github.com/CodePhiliaX/Chat2DB)
 - [https://github.com/defog-ai/sqlcoder](https://github.com/defog-ai/sqlcoder)
 - [https://github.com/SuperDuperDB/superduperdb](https://github.com/SuperDuperDB/superduperdb)
 - [https://github.com/vanna-ai/vanna](https://github.com/vanna-ai/vanna)
