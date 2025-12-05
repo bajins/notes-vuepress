@@ -65,6 +65,7 @@
 * [https://github.com/Moli-X/Resources](https://github.com/Moli-X/Resources)
 * 咸鱼监控 [https://github.com/dingyufei615/ai-goofish-monitor](https://github.com/dingyufei615/ai-goofish-monitor)
 * 短视频 [https://github.com/Evil0ctal/Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API)
+* 爬虫代理IP [https://github.com/jhao104/proxy_pool](https://github.com/jhao104/proxy_pool)
 
 
 **签到**
@@ -141,6 +142,7 @@
 - [https://github.com/cooderl/wewe-rss](https://github.com/cooderl/wewe-rss)
 - [https://github.com/Dragocytus/wechatdownload](https://github.com/Dragocytus/wechatdownload)
 - [https://www.52pojie.cn/thread-948652-1-1.html](https://www.52pojie.cn/thread-948652-1-1.html)
+- [https://www.52pojie.cn/thread-2076260-1-1.html](https://www.52pojie.cn/thread-2076260-1-1.html)
 - 推送转发 [https://github.com/kerwin162/WeChatNotify](https://github.com/kerwin162/WeChatNotify)
 - [https://github.com/Eric-Guo/wechat](https://github.com/Eric-Guo/wechat)
 - [https://github.com/wechaty/wechaty](https://github.com/wechaty/wechaty)

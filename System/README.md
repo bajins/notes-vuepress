@@ -171,6 +171,8 @@
 
 ## 虚拟机
 
++ 管理 [https://github.com/churchers/vm-bhyve](https://github.com/churchers/vm-bhyve)
+
 
 - [https://github.com/stefanha/git-publish](https://github.com/stefanha/git-publish)
 - Xen [https://github.com/xen-project](https://github.com/xen-project)
@@ -500,6 +502,7 @@
 - `ntopng`
 - perf、sar、ksar、mpstat、uptime、vmstat、pidstat、time、cpustat、munin、glances、atop、nmon、pcp-gui、nfsstat、netstat、iostat
 - 系统信息 [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
+- [https://github.com/EasyCam/Pysinfo](https://github.com/EasyCam/Pysinfo)
 - [https://github.com/sqshq/sampler](https://github.com/sqshq/sampler)
 - [https://github.com/nokyan/resources](https://github.com/nokyan/resources)
 - [https://github.com/ClementTsang/bottom](https://github.com/ClementTsang/bottom)
@@ -589,6 +592,7 @@
 * [https://github.com/webmin/webmin](https://github.com/webmin/webmin)
 * [https://github.com/outroll/vesta](https://github.com/outroll/vesta)
 * [https://www.ispconfig.org](https://www.ispconfig.org)
+* [https://github.com/Termix-SSH/Termix](https://github.com/Termix-SSH/Termix)
 
 
 
@@ -637,6 +641,8 @@
 * [https://github.com/Stremio/stremio-web](https://github.com/Stremio/stremio-web)
 * [https://github.com/timelinize/timelinize](https://github.com/timelinize/timelinize)
 * [https://github.com/franklioxygen/MyTube](https://github.com/franklioxygen/MyTube)
+* [https://github.com/HoshinoSuzumi/chronoframe](https://github.com/HoshinoSuzumi/chronoframe)
+* [https://github.com/Afilmory/Afilmory](https://github.com/Afilmory/Afilmory)
 * 音频编辑 [https://github.com/RylanBot/melody-workshop](https://github.com/RylanBot/melody-workshop)
 * 视频编辑 [https://github.com/OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)
 * [https://github.com/robinroy03/videoeditor](https://github.com/robinroy03/videoeditor)
@@ -653,6 +659,8 @@
 * [https://github.com/palxiao/poster-design](https://github.com/palxiao/poster-design)
 * [https://github.com/GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite)
 * [https://github.com/GimelStudio](https://github.com/GimelStudio)
+* [https://github.com/ms300/ColorLake](https://github.com/ms300/ColorLake)
+* [https://github.com/civilblur/mazanoke](https://github.com/civilblur/mazanoke)
 * 头像生成 [https://github.com/multiavatar/Multiavatar](https://github.com/multiavatar/Multiavatar)
 * SVG预览 [https://github.com/liujuntao123/new-svg-viewer](https://github.com/liujuntao123/new-svg-viewer)
 * PPT象限编辑器 [https://github.com/KwokKwok/slide-lab](https://github.com/KwokKwok/slide-lab)
@@ -679,7 +687,7 @@
 * 知识问答 [https://github.com/apache/incubator-answer](https://github.com/apache/incubator-answer)
 * 问卷调查 [https://github.com/didi/xiaoju-survey](https://github.com/didi/xiaoju-survey)
 * [https://github.com/bojue/lemon-form](https://github.com/bojue/lemon-form)
-* 白噪音 [https://github.com/geekyouth/moodist](https://github.com/geekyouth/moodist)
+* 白噪音 [https://github.com/remvze/moodist](https://github.com/remvze/moodist)
 * [https://github.com/daijinhai/StayFocused](https://github.com/daijinhai/StayFocused)
 * 动画生成代码 [https://animotion.dev](https://animotion.dev)
 * 财务 [https://github.com/maybe-finance/maybe](https://github.com/maybe-finance/maybe)
@@ -790,6 +798,7 @@
 * 网盘搜索 [https://github.com/fish2018/pansou](https://github.com/fish2018/pansou)
 * 计算器 [https://github.com/numworks/epsilon](https://github.com/numworks/epsilon)
 * [https://github.com/bbodi/notecalc3](https://github.com/bbodi/notecalc3)
+* 焦虑辅助工具 [https://github.com/alvinunreal/anxiety-aid-tools](https://github.com/alvinunreal/anxiety-aid-tools)
 
 
 

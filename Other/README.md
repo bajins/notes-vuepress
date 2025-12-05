@@ -16,6 +16,8 @@
 * [https://github.com/mootdx/mootdx](https://github.com/mootdx/mootdx)
 * 投资干货合集 [https://news.futunn.com/news-topics/127](https://news.futunn.com/news-topics/127)
 * 人体系统调优 [https://github.com/zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization)
+* 相机数据库 [https://github.com/leavestylecode/CameraDatabase](https://github.com/leavestylecode/CameraDatabase)
+* 信号干扰器 [https://github.com/EmenstaNougat/ESP32-BlueJammer](https://github.com/EmenstaNougat/ESP32-BlueJammer)
 
 
 > 要乐观，要看好未来。因为乐观主义者会动手做事，而**世界是由动手去做的人决定的**。
@@ -591,7 +593,10 @@
 
 ## 小说项目
 
-* [GitHub搜索](https://github.com/search?o=desc&q=%E5%B0%8F%E8%AF%B4&s=updated&type=Repositories)
++ [https://github.com/search?q=%E5%B0%8F%E8%AF%B4](https://github.com/search?q=%E5%B0%8F%E8%AF%B4)
++ [https://github.com/topics/novel](https://github.com/topics/novel)
+
+
 * [https://github.com/tickmao/book_fairy](https://github.com/tickmao/book_fairy)
 * [https://github.com/AlannnnnnL/moyuba](https://github.com/AlannnnnnL/moyuba)
 * [https://github.com/boo-boom/zssq](https://github.com/boo-boom/zssq)
@@ -663,8 +668,13 @@
 * [https://github.com/hectorqin/reader](https://github.com/hectorqin/reader)
 * [https://github.com/huanxsd/flutter_shuqi](https://github.com/huanxsd/flutter_shuqi)
 * 阅读 [https://github.com/gedoor](https://github.com/gedoor)
-    * [https://www.coolapk.com/apk/io.legado.app.release](https://www.coolapk.com/apk/io.legado.app.release)
+    * [https://mgz0227.github.io/The-tutorial-of-Legado](https://mgz0227.github.io/The-tutorial-of-Legado)
+    * [https://dy.miaogongzi.cc](https://dy.miaogongzi.cc)
+    * [https://fb.miaogongzi.cc](https://fb.miaogongzi.cc)
     * [https://shuyuan.yiove.com](https://shuyuan.yiove.com)
+    * [https://github.com/Luoyacheng/legado](https://github.com/Luoyacheng/legado)
+    * [https://github.com/mgz0227/legado](https://github.com/mgz0227/legado)
+    * [https://github.com/huajideshutiao/legado](https://github.com/huajideshutiao/legado)
 * [https://github.com/koreader/koreader](https://github.com/koreader/koreader)
 * [https://github.com/ZhangQinhao/MONKOVEL](https://github.com/ZhangQinhao/MONKOVEL)
 * [https://github.com/zas023/CocoBook](https://github.com/zas023/CocoBook)

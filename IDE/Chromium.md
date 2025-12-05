@@ -31,6 +31,7 @@
 * AI [https://github.com/debugtheworldbot/chromegemini](https://github.com/debugtheworldbot/chromegemini)
 * 自动化浏览器操作 [https://github.com/Skyvern-AI/Skyvern](https://github.com/Skyvern-AI/Skyvern)
 * 无头浏览器 [https://github.com/lightpanda-io/browser](https://github.com/lightpanda-io/browser)
+* 虚拟浏览器 [https://github.com/m1k1o/neko](https://github.com/m1k1o/neko)
 
 
 
@@ -626,6 +627,9 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * HTML转PDF [Just One Page PDF(简称 JOPP)](https://chromewebstore.google.com/detail/fgbhbfdgdlojklkbhdoilkdlomoilbpl)
     * [https://colorink.top](https://colorink.top)
     * https://soft.xiaoshujiang.com/blog/chrome/just_one_page_pdf_integration
+* [Ghelper谷歌上网助手](https://chromewebstore.google.com/detail/ghelper/nonmafimegllfoonjgplbabhmgfanaka)
+    * [https://ghelper.net](https://ghelper.net)
+* [SetupVPN - Lifetime Free VPN](https://chromewebstore.google.com/detail/setupvpn-lifetime-free-vp/oofgbpoabipfcfjapgnbbjjaenockbdp)
 
 
 

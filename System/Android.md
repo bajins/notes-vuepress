@@ -584,6 +584,7 @@
     * [https://github.com/naman14/TimberX](https://github.com/naman14/TimberX)
 * [https://github.com/ologe/canaree-music-player](https://github.com/ologe/canaree-music-player)
 * [https://www.larkplayer.com](https://www.larkplayer.com)
+* 录音 [https://github.com/FossifyOrg/Voice-Recorder](https://github.com/FossifyOrg/Voice-Recorder)
 * 白噪音 [https://github.com/Tosencen/XMSLEEP](https://github.com/Tosencen/XMSLEEP)
 * Poweramp [https://powerampapp.com](https://powerampapp.com)
 * 图片编辑 [https://qingtu.kajicam.com](https://qingtu.kajicam.com)
@@ -639,6 +640,7 @@
 * [https://github.com/YangDai2003/Multi-Calculator-Android](https://github.com/YangDai2003/Multi-Calculator-Android)
 * [https://github.com/anubhavshrimal/CalculatorApp](https://github.com/anubhavshrimal/CalculatorApp)
 * [https://github.com/SimpleMobileTools/Simple-Calculator](https://github.com/SimpleMobileTools/Simple-Calculator)
+* 时钟 [https://github.com/vicolo-dev/chrono](https://github.com/vicolo-dev/chrono)
 
 
 

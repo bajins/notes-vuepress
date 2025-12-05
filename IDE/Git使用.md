@@ -112,6 +112,7 @@
 * [https://www.syntevo.com](https://www.syntevo.com)
 * [https://www.git-tower.com](https://www.git-tower.com)
 * [https://git-fork.com](https://git-fork.com)
+* [https://www.gitkraken.com](https://www.gitkraken.com)
 * [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
 * SmartGit 是一款优秀的图形化Git仓库管理工具
 * SmartSVN 是一款优秀的图形化SVN仓库管理工具
@@ -128,8 +129,12 @@
 * [https://github.com/conventional-changelog](https://github.com/conventional-changelog)
 * 提交统计 [https://github.com/sinclairtarget/git-who](https://github.com/sinclairtarget/git-who)
 * [https://github.com/yinzhenyu-su/weekly-git-summary](https://github.com/yinzhenyu-su/weekly-git-summary)
+* 根据提交时间统计加班 [https://github.com/hellodigua/code996](https://github.com/hellodigua/code996)
 * 删除大型blob [https://github.com/rtyley/bfg-repo-cleaner](https://github.com/rtyley/bfg-repo-cleaner)
 * 改写仓库历史 [https://github.com/Cactusinhand/filter-repo-rs](https://github.com/Cactusinhand/filter-repo-rs)
+* AI自动重写提交历史 [https://github.com/f/git-rewrite-commits](https://github.com/f/git-rewrite-commits)
+* 电影化的Git提交重放 [https://github.com/unhappychoice/gitlogue](https://github.com/unhappychoice/gitlogue)
+* 仓库信息生成静态页面 [https://github.com/antonmedv/gitmal](https://github.com/antonmedv/gitmal)
 
 
 

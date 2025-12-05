@@ -196,10 +196,14 @@ volumes:
     * [https://ghproxy.link](https://ghproxy.link)
     * [https://ghproxy.net](https://ghproxy.net)
     * [https://wget.la](https://wget.la)
+    * [https://proxy.v2gh.com](https://proxy.v2gh.com)
+    * [https://mirror.v2gh.com](https://mirror.v2gh.com)
 * [https://github.com/sky22333/hub-proxy](https://github.com/sky22333/hub-proxy)
     * [https://gh.catmak.name](https://gh.catmak.name)
 * [https://github.com/git-cloner](https://github.com/git-cloner)
     * [https://gitclone.com](https://gitclone.com) 中国浙江
+* [https://gh-proxy.com](https://gh-proxy.com)
+    * [http://gh-proxy.org](http://gh-proxy.org)
 * [https://github.com/BaseMax/GitHubMirror](https://github.com/BaseMax/GitHubMirror)
 * [https://github.com/RC1844/FastGithub](https://github.com/RC1844/FastGithub)
 * [https://githubfast.com](https://githubfast.com)
@@ -208,6 +212,7 @@ volumes:
     * [https://gitmirror.com](https://gitmirror.com)
     * [https://gh.con.sh](https://gh.con.sh)
 * [https://github.com/521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520)
+* [https://github.com/Geekertao/CF-Workers-GitHub-Proxy](https://github.com/Geekertao/CF-Workers-GitHub-Proxy)
 
 
 - [https://greasyfork.org/zh-CN/scripts/412245](https://greasyfork.org/zh-CN/scripts/412245)
@@ -219,6 +224,8 @@ volumes:
 - [https://codechina.csdn.net/mirrors](https://codechina.csdn.net/mirrors)
 - [https://fcp7.com/github-mirror-daily-updates.html](https://fcp7.com/github-mirror-daily-updates.html)
 - [https://github.com/jvxiao/speed-github](https://github.com/jvxiao/speed-github)
+- [https://bgithub.xyz](https://bgithub.xyz)
+- [https://2github.com](https://2github.com)
 
 
 **Raw 文件加速**
