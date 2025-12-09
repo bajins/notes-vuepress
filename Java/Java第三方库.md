@@ -82,6 +82,8 @@
 - 物联网 [https://github.com/jetlinks](https://github.com/jetlinks)
 - 元数据和治理 [https://github.com/odpi/egeria](https://github.com/odpi/egeria)
 - [https://github.com/JNOSQL](https://github.com/JNOSQL)
+- CL [https://github.com/fizzed/blaze](https://github.com/fizzed/blaze)
+- [https://github.com/fizzed/jsync](https://github.com/fizzed/jsync)
 - 解析命令行参数 [http://github.com/cbeust/jcommander](http://github.com/cbeust/jcommander)
 - 内嵌Python [https://github.com/invesdwin/invesdwin-scripting](https://github.com/invesdwin/invesdwin-scripting)
 - [https://github.com/py4j/py4j](https://github.com/py4j/py4j)

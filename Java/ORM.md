@@ -18,6 +18,8 @@
 * [http://java-source.net/open-source/sql-clients](http://java-source.net/open-source/sql-clients)
 * JPA标准API [https://github.com/Blazebit/blaze-persistence](https://github.com/Blazebit/blaze-persistence)
 * 链式SQL框架 [https://github.com/jOOQ](https://github.com/jOOQ)
+* [https://github.com/jenetics/facilejdbc](https://github.com/jenetics/facilejdbc)
+* [https://github.com/eclipse-vertx/vertx-sql-client](https://github.com/eclipse-vertx/vertx-sql-client)
 * [https://github.com/querydsl/querydsl](https://github.com/querydsl/querydsl)
 * [https://github.com/BatooOrg/BatooJPA](https://github.com/BatooOrg/BatooJPA)
 * [https://github.com/aaberg/sql2o](https://github.com/aaberg/sql2o)
@@ -79,55 +81,11 @@
 
 
 
-
-**连接池**
-
-+ [https://github.com/topics/connection-pool](https://github.com/topics/connection-pool)
-
-
--  [https://github.com/brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP)
-- [https://github.com/alibaba/druid](https://github.com/alibaba/druid)
-    - [https://alphahinex.github.io/2022/05/15/use-druid-to-transform-sql](https://alphahinex.github.io/2022/05/15/use-druid-to-transform-sql)
-    - [记一次 Druid 超时配置的问题 → 引发对 Druid 时间配置项的探究](https://www.cnblogs.com/youzhibing/p/16458860.html)
-    - [真的会用removeAbandoned吗](https://blog.csdn.net/qq_42590394/article/details/134982378)
-    - [druid双刃剑参数之removeAbandoned](https://www.cnblogs.com/tiancai/p/17651907.html)
-- [https://github.com/apache/tomcat/tree/main/modules/jdbc-pool](https://github.com/apache/tomcat/tree/main/modules/jdbc-pool)
-    - [https://tomcat.apache.org/tomcat-9.0-doc/jdbc-pool.html](https://tomcat.apache.org/tomcat-9.0-doc/jdbc-pool.html)
-- [https://github.com/apache/commons-dbcp](https://github.com/apache/commons-dbcp)
-- [https://github.com/apache/commons-pool](https://github.com/apache/commons-pool)
-- [https://github.com/agroal/agroal](https://github.com/agroal/agroal)
-- [https://github.com/vibur](https://github.com/vibur)
-- [https://github.com/Chris2018998/BeeCP](https://github.com/Chris2018998/BeeCP)
-- [https://sourceforge.net/projects/proxool](https://sourceforge.net/projects/proxool)
-- [https://github.com/swaldman/c3p0](https://github.com/swaldman/c3p0)
-    - [https://sourceforge.net/projects/c3p0](https://sourceforge.net/projects/c3p0)
-- [https://github.com/wwadge/bonecp](https://github.com/wwadge/bonecp)
-
-
-* [https://github.com/vladmihalcea/flexy-pool](https://github.com/vladmihalcea/flexy-pool)
-
-
-
-**Transaction**
-
-* [https://github.com/atomikos/transactions-essentials](https://github.com/atomikos/transactions-essentials)
-    * [Atomikos开源版本的事务管理器实现TransactionEssentials](https://blog.csdn.net/dengjili/article/details/88203047)
-* [https://github.com/codingapi/tx-lcn](https://github.com/codingapi/tx-lcn)
-* [https://github.com/seata/seata](https://github.com/seata/seata)
-* [https://github.com/changmingxie/tcc-transaction](https://github.com/changmingxie/tcc-transaction)
-* [https://github.com/QNJR-GROUP/EasyTransaction](https://github.com/QNJR-GROUP/EasyTransaction)
-* [https://github.com/liuyangming/ByteTCC](https://github.com/liuyangming/ByteTCC)
-* [https://github.com/wchswchs/Hulk](https://github.com/wchswchs/Hulk)
-* [https://github.com/atomikos/transactions-essentials](https://github.com/atomikos/transactions-essentials)
-* [https://github.com/bitronix/btm](https://github.com/bitronix/btm)
-
-
-
-- [分布式事务 XA 两段式事务 X/open CAP BASE 一次分清](https://zhuanlan.zhihu.com/p/516844092)
-- X/Open [https://publications.opengroup.org/s243](https://publications.opengroup.org/s243)
-
-
 ## JDBC驱动
+
+- [https://github.com/pgjdbc/pgjdbc](https://github.com/pgjdbc/pgjdbc)
+- [https://github.com/xerial/sqlite-jdbc](https://github.com/xerial/sqlite-jdbc)
+- [https://github.com/arthurblake/log4jdbc](https://github.com/arthurblake/log4jdbc)
 
 
 **注意使用的MySQL Connector/J驱动**
@@ -167,6 +125,79 @@
 
 - `useTimeZone` 为true时，会开启服务器和客户端之间的时区转换，只有`useLegacyDatetimeCode = true`时才回生效
 - `useLegacyDatetimeCode` 默认为true，为false时: `useTimezone`, `useJDBCCompliantTimezoneShift`, `useGmtMillisForDatetimes`, `useFastDateParsing` 这几个参数都会无效
+
+
+
+
+## 连接池
+
+> 其主要目的是减少执行数据库连接和读写作的开销。在最基本的层面，连接池是一种数据库连接缓存实现
+
+
+**为什么要连接池？**
+
+> 如果我们分析典型数据库连接生命周期中涉及的步骤顺序，就能明白原因：
+1. 使用数据库驱动打开数据库连接
+2. 打开 TCP 套接字以读写数据
+3. 通过套接字读取/写入数据
+4. 关闭连接
+5. 关闭套接字
+> 显而易见，**数据库连接（创建套接字连接）是相当昂贵的操作**，因此在所有可能的使用场景中都应尽量减少（在极端情况下，最好避免）。
+>
+> 连接池仅仅实现一个数据库连接容器，允许我们重用多个现有连接，就能有效节省大量昂贵数据库访问的成本。这提升了我们数据库驱动应用的整体性能。
+
+
++ [https://github.com/topics/connection-pool](https://github.com/topics/connection-pool)
+
+
+- [https://github.com/brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP)
+- [https://github.com/alibaba/druid](https://github.com/alibaba/druid)
+    - [https://alphahinex.github.io/2022/05/15/use-druid-to-transform-sql](https://alphahinex.github.io/2022/05/15/use-druid-to-transform-sql)
+    - [记一次 Druid 超时配置的问题 → 引发对 Druid 时间配置项的探究](https://www.cnblogs.com/youzhibing/p/16458860.html)
+    - [真的会用removeAbandoned吗](https://blog.csdn.net/qq_42590394/article/details/134982378)
+    - [druid双刃剑参数之removeAbandoned](https://www.cnblogs.com/tiancai/p/17651907.html)
+- [https://github.com/apache/tomcat/tree/main/modules/jdbc-pool](https://github.com/apache/tomcat/tree/main/modules/jdbc-pool)
+    - [https://tomcat.apache.org/tomcat-9.0-doc/jdbc-pool.html](https://tomcat.apache.org/tomcat-9.0-doc/jdbc-pool.html)
+- [https://github.com/apache/commons-dbcp](https://github.com/apache/commons-dbcp)
+- [https://github.com/apache/commons-pool](https://github.com/apache/commons-pool)
+- [https://github.com/agroal/agroal](https://github.com/agroal/agroal)
+- [https://github.com/Chris2018998/BeeCP](https://github.com/Chris2018998/BeeCP)
+- [https://github.com/vibur/vibur-dbcp](https://github.com/vibur/vibur-dbcp)
+- [https://github.com/proxool/proxool](https://github.com/proxool/proxool)
+    - [https://sourceforge.net/projects/proxool](https://sourceforge.net/projects/proxool)
+- [https://github.com/swaldman/c3p0](https://github.com/swaldman/c3p0)
+    - [https://sourceforge.net/projects/c3p0](https://sourceforge.net/projects/c3p0)
+    - [https://github.com/metabase/connection-pool](https://github.com/metabase/connection-pool)
+- [https://github.com/jakubBone/Connection-Pool-Library](https://github.com/jakubBone/Connection-Pool-Library)
+- [https://github.com/wwadge/bonecp](https://github.com/wwadge/bonecp)
+- [https://github.com/davidmoten/rxjava2-jdbc](https://github.com/davidmoten/rxjava2-jdbc)
+- [https://github.com/CarmJos/EasySQL](https://github.com/CarmJos/EasySQL)
+- [https://sourceforge.net/projects/smartpool](https://sourceforge.net/projects/smartpool)
+- [https://github.com/chdh/miniconnectionpoolmanager](https://github.com/chdh/miniconnectionpoolmanager)
+
+
+* [https://github.com/vladmihalcea/flexy-pool](https://github.com/vladmihalcea/flexy-pool)
+
+
+
+
+## 事务管理
+
+* [https://github.com/atomikos/transactions-essentials](https://github.com/atomikos/transactions-essentials)
+    * [Atomikos开源版本的事务管理器实现TransactionEssentials](https://blog.csdn.net/dengjili/article/details/88203047)
+* [https://github.com/codingapi/tx-lcn](https://github.com/codingapi/tx-lcn)
+* [https://github.com/seata/seata](https://github.com/seata/seata)
+* [https://github.com/changmingxie/tcc-transaction](https://github.com/changmingxie/tcc-transaction)
+* [https://github.com/QNJR-GROUP/EasyTransaction](https://github.com/QNJR-GROUP/EasyTransaction)
+* [https://github.com/liuyangming/ByteTCC](https://github.com/liuyangming/ByteTCC)
+* [https://github.com/wchswchs/Hulk](https://github.com/wchswchs/Hulk)
+* [https://github.com/atomikos/transactions-essentials](https://github.com/atomikos/transactions-essentials)
+* [https://github.com/bitronix/btm](https://github.com/bitronix/btm)
+
+
+
+- [分布式事务 XA 两段式事务 X/open CAP BASE 一次分清](https://zhuanlan.zhihu.com/p/516844092)
+- X/Open [https://publications.opengroup.org/s243](https://publications.opengroup.org/s243)
 
 
 

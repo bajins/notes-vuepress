@@ -46,7 +46,7 @@
 
 
 
-- [https://github.com/raycast](https://github.com/raycast)
+- [https://www.alfredapp.com](https://www.alfredapp.com)
 - [https://github.com/sindresorhus](https://github.com/sindresorhus)
 - 创建DMG [https://github.com/sindresorhus/create-dmg](https://github.com/sindresorhus/create-dmg)
 - IOS第三方依赖管理工具 [https://cocoapods.org](https://cocoapods.org)

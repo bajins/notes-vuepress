@@ -333,7 +333,6 @@
 - 模糊测试 [https://github.com/AFLplusplus/AFLplusplus](https://github.com/AFLplusplus/AFLplusplus)
 - [https://github.com/google/honggfuzz](https://github.com/google/honggfuzz)
 - [https://github.com/google/AFL](https://github.com/google/AFL)
-- HTTP测试 [https://github.com/wg/wrk](https://github.com/wg/wrk)
 - 超级马里奥64 [https://github.com/n64decomp](https://github.com/n64decomp)
 - 塞尔达传说时之笛 [https://github.com/zeldaret](https://github.com/zeldaret)
 - [https://github.com/PCSX2/pcsx2](https://github.com/PCSX2/pcsx2)

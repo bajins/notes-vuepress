@@ -496,6 +496,7 @@ check-revoke = false
 - 单位计算 [https://github.com/sharkdp/numbat](https://github.com/sharkdp/numbat)
 - [https://github.com/printfn/fend](https://github.com/printfn/fend)
 - [https://github.com/tiffany352/rink-rs](https://github.com/tiffany352/rink-rs)
+- 连接池 [https://github.com/djc/bb8](https://github.com/djc/bb8)
 
 
 

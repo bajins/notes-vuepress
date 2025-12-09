@@ -287,19 +287,24 @@
 
 ## 测试
 
+> 性能测试主要有两种类型：
+>> 负载测试：检查系统在处理其设计承受的流量或负载时的性能。它能发现任何薄弱环节，并确保能够管理预期的用户数量。
+>>
+>> 压力测试：在这里，系统被推到极限之外，看看哪里会出问题。这有助于判断当情况非常激烈时的稳定性。
+
 * [https://github.com/topics/testing](https://github.com/topics/testing)
 * [https://github.com/topics/test-automation](https://github.com/topics/test-automation)
 * [https://github.com/jumper2014/awesome-test-tool](https://github.com/jumper2014/awesome-test-tool)
 
 
 + [https://github.com/mountain-loop/yaak](https://github.com/mountain-loop/yaak)
-+ [https://github.com/usebruno/bruno](https://github.com/usebruno/bruno)
 + [https://github.com/hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)
     + [https://hoppscotch.io](https://hoppscotch.io)
     + [https://hoppscotch.com/download](https://hoppscotch.com/download)
     + [https://github.com/ling7334/hoppscotch-backend-go](https://github.com/ling7334/hoppscotch-backend-go)
     + ~~[https://github.com/postwoman-team/postwoman](https://github.com/postwoman-team/postwoman)~~
-+ [https://github.com/apache/jmeter](https://github.com/apache/jmeter)
++ [https://github.com/usebruno/bruno](https://github.com/usebruno/bruno)
++ 负载/压力测试 [https://github.com/apache/jmeter](https://github.com/apache/jmeter)
     + [https://github.com/Blazemeter](https://github.com/Blazemeter)
     + Apache Benchmark `apt-get install apache2-utils` / `yum install httpd-tools`
     + [https://www.apachehaus.com](https://www.apachehaus.com)
@@ -307,11 +312,25 @@
     + BitNami WAMP Stack
     + WampServer
     + XAMPP
++ [https://github.com/mcdcorp/opentest](https://github.com/mcdcorp/opentest)
++ [https://github.com/zebrunner/carina](https://github.com/zebrunner/carina)
++ [https://github.com/grafana/k6](https://github.com/grafana/k6)
++ [https://github.com/tsenart/vegeta](https://github.com/tsenart/vegeta)
++ [https://github.com/artilleryio/artillery](https://github.com/artilleryio/artillery)
 + [https://github.com/gatling/gatling](https://github.com/gatling/gatling)
 + [https://github.com/locustio/locust](https://github.com/locustio/locust)
 + [https://github.com/Blazemeter/taurus](https://github.com/Blazemeter/taurus)
 + [https://github.com/processone/tsung](https://github.com/processone/tsung)
-+ [https://github.com/postmanlabs](https://github.com/postmanlabs)
++ [https://sourceforge.net/projects/grinder](https://sourceforge.net/projects/grinder)
++ [https://github.com/robotframework/robotframework](https://github.com/robotframework/robotframework)
++ [https://github.com/EZLippi/WebBench](https://github.com/EZLippi/WebBench)
++ [https://github.com/pradeep-flood/element](https://github.com/pradeep-flood/element)
++ [https://github.com/perusio/httpload](https://github.com/perusio/httpload)
++ [https://github.com/JoeDog/siege](https://github.com/JoeDog/siege)
++ [https://github.com/yandex/yandex-tank](https://github.com/yandex/yandex-tank)
++ [https://github.com/wg/wrk](https://github.com/wg/wrk)
++ [https://github.com/giltene/wrk2](https://github.com/giltene/wrk2)
++ 综合测试 [https://github.com/postmanlabs](https://github.com/postmanlabs)
     + [https://www.getpostman.com/apps](https://www.getpostman.com/apps)
         + [https://dl.pstmn.io/download/latest/win64](https://dl.pstmn.io/download/latest/win64)
     + [https://github.com/topics/postman](https://github.com/topics/postman)
@@ -338,7 +357,7 @@
 + [https://github.com/Postcatlab/postcat](https://github.com/Postcatlab/postcat)
 + [https://github.com/Apipost-Team](https://github.com/Apipost-Team)
     + [https://www.apipost.cn](https://www.apipost.cn)
-+ [https://github.com/apifox](https://github.com/apifox)
++ [https://github.com/apifox](https://github.com/apifox) 内存占用>1G
     + [https://gitee.com/apifox](https://gitee.com/apifox)
     + [https://www.apifox.cn](https://www.apifox.cn)
 + [https://github.com/yapi-pro/yapi](https://github.com/yapi-pro/yapi)
@@ -357,7 +376,6 @@
 + [https://www.httpmaster.net](https://www.httpmaster.net)
 + [https://github.com/Inflectra](https://github.com/Inflectra)
 + [https://github.com/assertible](https://github.com/assertible)
-+ [https://github.com/grafana/k6](https://github.com/grafana/k6)
 + 命令行 [https://github.com/darrenburns/posting](https://github.com/darrenburns/posting)
 + vREST [https://github.com/Optimizory](https://github.com/Optimizory)
 + LoadRunner [https://www.microfocus.com/zh-cn/products#all-L](https://www.microfocus.com/zh-cn/products#all-L)
@@ -365,9 +383,6 @@
     + [性能测试入门——LoadRunner使用初探](https://zhuanlan.zhihu.com/p/24812449)
 + QTP [https://www.microfocus.com/zh-cn/products#all-U](https://www.microfocus.com/zh-cn/products#all-U)
 + IDEA 的`Tools`菜单下有`HTTP Client`可替代postman
-+ 压测 [https://github.com/EZLippi/WebBench](https://github.com/EZLippi/WebBench)
-+ [https://github.com/perusio/httpload](https://github.com/perusio/httpload)
-+ [https://github.com/JoeDog/siege](https://github.com/JoeDog/siege)
 + 模拟API服务 [https://github.com/mockoon/mockoon](https://github.com/mockoon/mockoon)
 + [https://github.com/wiremock](https://github.com/wiremock)
 + [https://github.com/ray-d-song/faker-server](https://github.com/ray-d-song/faker-server)

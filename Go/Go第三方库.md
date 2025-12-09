@@ -47,6 +47,7 @@
 + [https://github.com/frobware](https://github.com/frobware)
 + [https://github.com/juju](https://github.com/juju)
 + PostgreSQL [https://github.com/jackc/pgx](https://github.com/jackc/pgx)
++ 连接池 [https://github.com/silenceper/pool](https://github.com/silenceper/pool)
 
 
 

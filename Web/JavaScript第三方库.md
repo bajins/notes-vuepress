@@ -121,6 +121,7 @@
 * [https://github.com/humanwhocodes/config-array](https://github.com/humanwhocodes/config-array)
 * 测试 [https://github.com/jestjs](https://github.com/jestjs)
     * [https://www.jestjs.cn](https://www.jestjs.cn)
+* [https://github.com/pactumjs/pactum](https://github.com/pactumjs/pactum)
 * [https://github.com/tianchangNorth/pocket-mocker](https://github.com/tianchangNorth/pocket-mocker)
 * 状态管理 [https://github.com/statelyai/xstate](https://github.com/statelyai/xstate)
 * iFrame宽高自适应 [https://github.com/davidjbradshaw/iframe-resizer](https://github.com/davidjbradshaw/iframe-resizer)

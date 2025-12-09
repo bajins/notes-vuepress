@@ -312,15 +312,29 @@
 
 **Android**
 
-+ [SSH client for Android](https://github.com/search?q=SSH+client+for+Android)
++ [https://github.com/search?q=SSH+client+for+Android](https://github.com/search?q=SSH+client+for+Android)
 
-* [https://github.com/topics/termux](https://github.com/topics/termux)
-    * [https://github.com/termux](https://github.com/termux)
-    * [https://github.com/hanxinhao000/ZeroTermux](https://github.com/hanxinhao000/ZeroTermux)
+
 * [https://github.com/connectbot/connectbot](https://github.com/connectbot/connectbot)
 * [https://github.com/nashaofu/shell360](https://github.com/nashaofu/shell360)
+* [https://github.com/termius](https://github.com/termius)
 * [https://www.juicessh.com](https://www.juicessh.com)
+    * [https://github.com/Sonelli](https://github.com/Sonelli)
 * [https://github.com/niklas-8/RemoteFiles](https://github.com/niklas-8/RemoteFiles)
+* [https://github.com/vx/connectbot](https://github.com/vx/connectbot)
+* [https://www.georgiasoftworks.com/connectbot-client-android](https://www.georgiasoftworks.com/connectbot-client-android)
+* [https://www.royalapps.com/ts/android/features](https://www.royalapps.com/ts/android/features)
+* [http://gaofeng.us](http://gaofeng.us)
+* [https://github.com/Koitharu/ToadLink](https://github.com/Koitharu/ToadLink)
+* [https://github.com/deskangel/DaRemote](https://github.com/deskangel/DaRemote)
+* [https://github.com/jonghough/AndroidSSH](https://github.com/jonghough/AndroidSSH)
+* [https://github.com/g150446/flex-connectbot](https://github.com/g150446/flex-connectbot)
+
+
+- [https://github.com/topics/termux](https://github.com/topics/termux)
+    - [https://github.com/termux](https://github.com/termux)
+    - [https://github.com/hanxinhao000/ZeroTermux](https://github.com/hanxinhao000/ZeroTermux)
+- [https://github.com/green-green-avk/AnotherTerm](https://github.com/green-green-avk/AnotherTerm)
 
 
 **GUI交互**
