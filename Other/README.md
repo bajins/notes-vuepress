@@ -424,7 +424,11 @@
 * [https://minmail.app](https://minmail.app)
 * [https://cs.email/zh](https://cs.email/zh)
 * [https://thundermail.com](https://thundermail.com)
+* [https://temp-mail-365.com](https://temp-mail-365.com)
 
+## 在线图片工具
+
+* [https://collaigo.com](https://collaigo.com)
 
 
 
