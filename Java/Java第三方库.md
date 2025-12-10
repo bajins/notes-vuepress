@@ -647,6 +647,7 @@
 + [https://github.com/javalin](https://github.com/javalin)
 + [https://github.com/actframework](https://github.com/actframework)
 + [https://github.com/restlet](https://github.com/restlet)
++ [https://github.com/micronaut-projects](https://github.com/micronaut-projects)
 + JSF [https://github.com/omnifaces](https://github.com/omnifaces)
 + [https://github.com/ButterFaces](https://github.com/ButterFaces)
 + [https://github.com/primefaces](https://github.com/primefaces)

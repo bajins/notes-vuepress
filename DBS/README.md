@@ -521,6 +521,7 @@ redis-cli -p 6379 shutdown
 ## MongoDB
 
 + [https://github.com/mongodb](https://github.com/mongodb)
++ [https://github.com/FerretDB/FerretDB](https://github.com/FerretDB/FerretDB)
 
 
 * 客户端 [https://github.com/Studio3T/robomongo](https://github.com/Studio3T/robomongo)

@@ -346,7 +346,7 @@ taskkill /f /im chromedriver.exe
 
 
 
-## 插件
+## 扩展
 
 * [https://github.com/chrome-extensions](https://github.com/chrome-extensions)
 * [https://github.com/topics/crx](https://github.com/topics/crx)
@@ -359,8 +359,9 @@ taskkill /f /im chromedriver.exe
 
 
 
-### 插件下载
+**扩展下载**
 
+* [https://extpose.com](https://extpose.com)
 * [https://www.crxsoso.com](https://www.crxsoso.com)
 * [http://crxdown.com](http://crxdown.com)
 * [chrome-extension-downloader](https://chrome-extension-downloader.com)
@@ -538,13 +539,24 @@ taskkill /f /im chromedriver.exe
 
 ### 脚本助手
 
-- [https://github.com/JasonBarnabe/greasyfork](https://github.com/JasonBarnabe/greasyfork)
+- [https://github.com/awesome-scripts/awesome-userscripts](https://github.com/awesome-scripts/awesome-userscripts)
+- [https://github.com/greasyfork-org/greasyfork](https://github.com/greasyfork-org/greasyfork)
     - [https://github.com/F9y4ng/GreasyFork-Scripts](https://github.com/F9y4ng/GreasyFork-Scripts)
     - [https://github.com/Mottie/GitHub-userscripts](https://github.com/Mottie/GitHub-userscripts)
     - [https://github.com/XIU2/UserScript](https://github.com/XIU2/UserScript)
+    - [https://github.com/greasyfork-proxy/GreasyFork-Mirror](https://github.com/greasyfork-proxy/GreasyFork-Mirror)
+    - [自2025年2月6日起，GreasyFork及其镜像站无法在中国大陆访问](https://blog.csdn.net/m0_73208371/article/details/147620759)
+    - [https://greasyfork.org/en/discussions/greasyfork/278992](https://greasyfork.org/en/discussions/greasyfork/278992)
+    - [https://blog.byebug.cn/archives/79](https://blog.byebug.cn/archives/79)
+    - [https://gf.qytechs.cn/zh-CN](https://gf.qytechs.cn/zh-CN)
+    - [https://greasyfork.qytechs.cn/zh-CN](https://greasyfork.qytechs.cn/zh-CN)
+    - [https://soujiaoben.org](https://soujiaoben.org)
+        - [https://greasyfork-zh.org](https://greasyfork-zh.org)
+    - [https://home.greasyfork.org.cn/zh-hans](https://home.greasyfork.org.cn/zh-hans)
+        - [https://greasyfork.org.cn/zh-hans](https://greasyfork.org.cn/zh-hans)
 - [https://github.com/OpenUserJs/OpenUserJS.org](https://github.com/OpenUserJs/OpenUserJS.org)
-- [https://github.com/scriptscat](https://github.com/scriptscat)
 - [https://www.userscript.zone](https://www.userscript.zone)
+- [https://userscripts-mirror.org](https://userscripts-mirror.org)
 
 
 * 篡改猴 [https://github.com/Tampermonkey](https://github.com/Tampermonkey)
@@ -559,9 +571,13 @@ taskkill /f /im chromedriver.exe
     * [https://greasyfork.org/zh-CN/scripts/544796](https://greasyfork.org/zh-CN/scripts/544796)
     * [https://greasyfork.org/zh-CN/scripts/512984](https://greasyfork.org/zh-CN/scripts/512984) 有广告
     * [https://github.com/dongyubin/Baidu-VIP](https://github.com/dongyubin/Baidu-VIP)
+    * [https://github.com/smartacephale/sleazy-fork](https://github.com/smartacephale/sleazy-fork)
     * 小说下载 [https://github.com/404-novel-project/novel-downloader](https://github.com/404-novel-project/novel-downloader)
+    * 微博 [https://greasyfork.org/zh-CN/scripts/by-site/weibo.com](https://greasyfork.org/zh-CN/scripts/by-site/weibo.com)
 * 暴力猴 [https://github.com/violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey)
+* 脚本猫 [https://github.com/scriptscat](https://github.com/scriptscat)
 * 油猴 [https://github.com/greasemonkey/greasemonkey](https://github.com/greasemonkey/greasemonkey)
+* OrangeMonkey https://chromewebstore.google.com/detail/orangemonkey/ekmeppjgajofkpiofbebgcbohbmfldaf
 
 
 - [https://github.com/lisonge/vite-plugin-monkey](https://github.com/lisonge/vite-plugin-monkey)
