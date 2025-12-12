@@ -108,6 +108,7 @@ powercfg /batteryreport /output "Desktop\battery-report.html"
 * [https://github.com/zoicware/DefenderProTools](https://github.com/zoicware/DefenderProTools)
 * [https://github.com/liliuwei/defender-control](https://github.com/liliuwei/defender-control)
 * [https://github.com/gentilkiwi/mimikatz](https://github.com/gentilkiwi/mimikatz)
+* 安全加固 [https://github.com/HotCakeX/Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security)
 * 系统调整 [https://github.com/ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 * 卸载自带应用 [https://www.thewindowsclub.com/10appsmanager-windows-10](https://www.thewindowsclub.com/10appsmanager-windows-10)
 * [https://github.com/ElPumpo/Win10Clean](https://github.com/ElPumpo/Win10Clean)

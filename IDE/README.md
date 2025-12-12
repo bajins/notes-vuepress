@@ -445,9 +445,13 @@
     ```ini
     # 删除jre目录，安装jdk11或以上版本，把以下两行添加到`-vmargs`之前
     -vm
-    C:\Program Files\Java\jdk-17.0.2\bin
-    # 解压dbeaver-agent-latest.zip到dbeaver目录，添以下行到最后
-    -javaagent:./dbeaver-agent.jar
+    C:\Program Files\Java\jdk-21\bin
+    -data
+    F:\workspace\DBeaverData
+    # 解压dbeaver-agent-latest.zip到dbeaver同级目录，添以下行到文件末尾
+    -javaagent:../dbeaver-agent/dbeaver-agent.jar
+    -Xbootclasspath/a:../dbeaver-agent/dbeaver-agent.jar
+    -javaagent:../ja-netfilter-all/ja-netfilter.jar
     -Dlm.debug.mode=true
     ```
 * [https://github.com/shencangsheng/easydb_app](https://github.com/shencangsheng/easydb_app)
@@ -601,6 +605,7 @@
 * [https://github.com/jgraph/drawio](https://github.com/jgraph/drawio)
     * [https://github.com/jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop)
     * [https://app.diagrams.net](https://app.diagrams.net)
+    * [https://github.com/DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io)
 * [https://github.com/umlet/umlet](https://github.com/umlet/umlet)
 * [https://github.com/staruml](https://github.com/staruml)
 * [https://www.processon.com](https://www.processon.com)

@@ -36,6 +36,7 @@
 + [https://github.com/libbpf/libbpf-bootstrap](https://github.com/libbpf/libbpf-bootstrap)
 + [https://github.com/aya-rs/aya](https://github.com/aya-rs/aya)
 + [https://github.com/Sherlock-Holo/lycoris](https://github.com/Sherlock-Holo/lycoris)
++ 资源管理器 [https://gitlab.com/mission-center-devs/mission-center](https://gitlab.com/mission-center-devs/mission-center)
 
 
 * [VIM键盘图形备忘单](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)

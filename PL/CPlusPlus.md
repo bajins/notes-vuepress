@@ -198,8 +198,6 @@
     * [https://github.com/puerts](https://github.com/puerts)
 * 图片编解码 [Codec comparison](https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html)
     * [https://jpeg.org](https://jpeg.org)
-* [https://github.com/AOMediaCodec/libavif](https://github.com/AOMediaCodec/libavif)
-    * [https://aomedia.googlesource.com/aom](https://aomedia.googlesource.com/aom)
 * [https://github.com/mirrorer/libbpg](https://github.com/mirrorer/libbpg)
 * [https://github.com/strukturag/libheif](https://github.com/strukturag/libheif)
 * [https://github.com/libjxl/libjxl](https://github.com/libjxl/libjxl)

@@ -253,6 +253,7 @@ check-revoke = false
 - 搜索算法 [https://github.com/hora-search/hora](https://github.com/hora-search/hora)
 - [https://github.com/meilisearch/MeiliSearch](https://github.com/meilisearch/MeiliSearch)
 - WEB [https://github.com/deislabs/wagi](https://github.com/deislabs/wagi)
+- [https://github.com/hyperlane-dev/hyperlane-quick-start](https://github.com/hyperlane-dev/hyperlane-quick-start)
 - [https://github.com/iron/iron](https://github.com/iron/iron)
 - [https://github.com/longfangsong/rs-rtt](https://github.com/longfangsong/rs-rtt)
 - [https://github.com/actix](https://github.com/actix)

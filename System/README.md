@@ -643,6 +643,7 @@
 * [https://github.com/franklioxygen/MyTube](https://github.com/franklioxygen/MyTube)
 * [https://github.com/HoshinoSuzumi/chronoframe](https://github.com/HoshinoSuzumi/chronoframe)
 * [https://github.com/Afilmory/Afilmory](https://github.com/Afilmory/Afilmory)
+* 私人音乐服务 [https://github.com/chenqimiao/qm-music](https://github.com/chenqimiao/qm-music)
 * 音频编辑 [https://github.com/RylanBot/melody-workshop](https://github.com/RylanBot/melody-workshop)
 * 视频编辑 [https://github.com/OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)
 * [https://github.com/robinroy03/videoeditor](https://github.com/robinroy03/videoeditor)
@@ -799,6 +800,7 @@
 * 计算器 [https://github.com/numworks/epsilon](https://github.com/numworks/epsilon)
 * [https://github.com/bbodi/notecalc3](https://github.com/bbodi/notecalc3)
 * 焦虑辅助工具 [https://github.com/alvinunreal/anxiety-aid-tools](https://github.com/alvinunreal/anxiety-aid-tools)
+* 英语阅读学习 [https://github.com/xckevin/magic-english-buddy](https://github.com/xckevin/magic-english-buddy)
 
 
 

@@ -513,6 +513,25 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 
 
+## GUI Designer
+
+* Swing UI Designer [https://plugins.jetbrains.com/plugin/25304-swing-ui-designer](https://plugins.jetbrains.com/plugin/25304-swing-ui-designer)
+
+> 从2021+版本开始，IntelliJ IDEA 的 GUI Designer 默认将表单编译为二进制 `.form` 资源 + 反射加载方式，不再生成 `$$$setupUI$$$()` 方法和组件绑定代码到 `.java` 源文件中。
+
+- 打开`File` -> `Settings` -> `Editor` -> `GUI Designer` -> `Generate GUI into`
+     - `Binary class files` 默认，无 `$$$setupUI$$$()` 代码
+     - `Java source code` 旧模式，会生成 `$$$setupUI$$$()`
+
+> `Build > Rebuild Project` 重新编译项目以生成代码
+
+- `.idea/uiDesigner.xml`文件中包含以下配置
+
+```xml
+<component name="uidesigner-configuration">
+  <option name="INSTRUMENT_CLASSES" value="true" />
+</component>
+```
 
 
 ## PyCharm
