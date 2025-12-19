@@ -223,6 +223,37 @@
 
 ## Maven
 
+> Maven 的设计哲学是：环境必须先于构建就绪。依赖包属于“环境”的一部分。插件执行属于“构建”的一部分。
+
+**Maven 的运行顺序**：
+- 阶段 0 (项目模型构建与依赖解析The Hidden "Phase 0")：Maven 读取 `pom.xml`，看到 `<dependencies>` 里的 Jar 包，**立即**尝试去仓库下载。
+- 阶段 1 (执行生命周期Lifecycle Execution)：下载并确认所有依赖都存在后，**才开始**执行 三套相互独立的生命周期：Clean Lifecycle (清理)、Default Lifecycle (构建核心)、Site Lifecycle (生成站点文档)。
+
+**Default Lifecycle**的执行顺序是**严格线性**的：
+
+| 顺序 | 阶段 (Phase) | 描述 | 常用插件/操作 |
+| :--- | :--- | :--- | :--- |
+| 1 | **validate** | 验证项目结构是否正确，必要信息是否完整。 | `maven-enforcer-plugin` |
+| 2 | **initialize** | 初始化构建状态，设置属性。 |  |
+| 3 | **generate-sources** | 生成源码（如 Protobuf, Lombok 处理等）。 | |
+| 4 | **process-sources** | 处理源码（如过滤占位符）。 | `maven-resources-plugin` |
+| 5 | **compile** | **编译**项目的源代码。 | `maven-compiler-plugin` |
+| 6 | **process-classes** | 对编译生成的文件进行后处理。 | |
+| 7 | **generate-resources** | 生成资源文件。 | |
+| 8 | **process-resources** | 复制并处理资源文件到目标目录。 | `maven-resources-plugin` |
+| 9 | **test-compile** | 编译测试源代码。 | `maven-compiler-plugin` |
+| 10 | **test** | 运行单元测试。 | `maven-surefire-plugin` |
+| 11 | **package** | **打包**成可发布的格式（jar, war）。 | `maven-jar-plugin` |
+| 12 | **verify** | 运行检查以验证包的有效性。 | |
+| 13 | **install** | 将包**安装**到**本地 Maven 仓库**（供本地其他项目使用）。 | `maven-install-plugin` |
+| 14 | **deploy** | 将包**部署**到**远程仓库**（私服）。 | `maven-deploy-plugin` |
+
+- 如果运行 `mvn compile`，Maven 会执行 1~5。
+- 如果运行 `mvn package`，Maven 会执行 1~11。
+- 如果运行 `mvn install`，Maven 会执行 1~13。
+
+
+
 + [https://maven.apache.org](https://maven.apache.org)
     + [https://maven.apache.org/plugins/index.html](https://maven.apache.org/plugins/index.html)
 + [https://github.com/ibofine/mavenbook](https://github.com/ibofine/mavenbook)

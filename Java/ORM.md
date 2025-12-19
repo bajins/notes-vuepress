@@ -86,25 +86,38 @@
 - [https://github.com/pgjdbc/pgjdbc](https://github.com/pgjdbc/pgjdbc)
 - [https://github.com/xerial/sqlite-jdbc](https://github.com/xerial/sqlite-jdbc)
 - [https://github.com/arthurblake/log4jdbc](https://github.com/arthurblake/log4jdbc)
+- Microsoft Access [https://sourceforge.net/projects/ucanaccess](https://sourceforge.net/projects/ucanaccess)
+- [https://sourceforge.net/projects/jackcess](https://sourceforge.net/projects/jackcess)
+- SQL Server [https://github.com/Microsoft/mssql-jdbc](https://github.com/Microsoft/mssql-jdbc)
 
 
-**注意使用的MySQL Connector/J驱动**
-
-- `org.gjt.mm.mysql.Driver` 用于`3.x`版本之前，在`5.1.47`以上版本不存在该类，由一个名为MM (Monty's MySQL) 的项目开发的，该项目后来被Sun Microsystems收购
-- `com.mysql.jdbc.Driver` 用于`5.1.6`版本之前，在MySQL AB（后被Oracle Corporation收购）接手并继续开发JDBC驱动之后使用的
-- `com.mysql.cj.jdbc.Driver` 用于`5.1.6`版本之后
+**MySQL Connector/J驱动与MySQL版本差异**
 
 > 从Java 6 `JDBC 4.0`开始，显式加载驱动类的步骤`Class.forName(…)`通常是不必要的，因为JDBC服务提供者机制会自动加载驱动
 
+| 年代         | 驱动类名                 | JAR 版本   | MySQL 服务器版本 | JDK 要求 | 状态       | 说明 |
+| ---------- | -------------------------- | --------- | ------------- | ---------- | -------- | -------- |
+| 1998-2003  | `org.gjt.mm.mysql.Driver`  | 2.x       | 3.x ~ 4.0     | JDK 1.2+   | **废弃**   | 由MM代表作者 Mark Matthews开发，该项目后来被Sun Microsystems收购，在`5.1.47`以上版本不存在该类 |
+| 2003-2005  | `com.mysql.jdbc.Driver`    | 3.x       | 4.0 ~ 4.1     | JDK 1.4+   | **废弃**   | 在MySQL AB（后被Oracle Corporation收购）接手MM并继续开发JDBC驱动之后使用的 |
+| 2005-2016  | `com.mysql.jdbc.Driver`    | 5.0.x     | 5.0 ~ 5.1     | JDK 1.4+   | **废弃**   | |
+| 2005-2016  | `com.mysql.jdbc.Driver`    | **5.1.x** | **5.0 ~ 5.7** | JDK 1.5+   | **EOL**  | 用于`5.1.6`版本之前使用，在 Connector/J 8.0 中虽然存在，但2018 年 4 月已标记为 Deprecated（弃用）。`5.1.44+` 可连接 MySQL 8.0（需加 useSSL=false 等参数），但不支持新特性（如 8.0 的默认新加密认证方式caching_sha2_password） |
+| 2016-2018  | `com.mysql.cj.jdbc.Driver` | 6.x/7.x   | 5.5 ~ 8.0     | JDK 8+     | **不推荐**  | |
+| **2018至今** | `com.mysql.cj.jdbc.Driver` | **8.0.x** | **5.6 ~ 8.x** | **JDK 8+** | **推荐使用** | |
+
+
+
+* 驱动版本 [https://dev.mysql.com/downloads/connector/j](https://dev.mysql.com/downloads/connector/j)
+    * [https://downloads.mysql.com/archives/c-j](https://downloads.mysql.com/archives/c-j)
+* [https://mvnrepository.com/artifact/com.mysql/mysql-connector-j](https://mvnrepository.com/artifact/com.mysql/mysql-connector-j)
+* [https://mvnrepository.com/artifact/mysql/mysql-connector-java](https://mvnrepository.com/artifact/mysql/mysql-connector-java)
 
 
 **URL及参数**
 
-* [(https://mysql-net.github.io/MySqlConnector/connection-options]((https://mysql-net.github.io/MySqlConnector/connection-options)
+* [https://mysql-net.github.io/MySqlConnector/connection-options](https://mysql-net.github.io/MySqlConnector/connection-options)
     * [https://mysqlconnector.net/connection-options](https://mysqlconnector.net/connection-options)
 
-> `jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false`
-> `&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai`
+> `jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai`
 
 | 参数名称              	| 参数说明                                                                        	| 缺省值 	| 最低版本要求 	|
 |-----------------------	|---------------------------------------------------------------------------------	|--------	|--------------	|

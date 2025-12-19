@@ -48,7 +48,11 @@
     * [https://www.oracle.com/cn/java/technologies/javamail-releases.html](https://www.oracle.com/cn/java/technologies/javamail-releases.html)
 * [https://github.com/eclipse-ee4j/jaf](https://github.com/eclipse-ee4j/jaf)
     * [https://github.com/javaee/activation](https://github.com/javaee/activation)
-* SMB [https://github.com/AgNO3/jcifs-ng](https://github.com/AgNO3/jcifs-ng)
+* CIFS/SMB [https://www.jcifs.org](https://www.jcifs.org)
+* [https://github.com/AgNO3/jcifs-ng](https://github.com/AgNO3/jcifs-ng)
+    * [https://github.com/pontiussoftware/smb-nio](https://github.com/pontiussoftware/smb-nio)
+* [https://github.com/hierynomus/smbj](https://github.com/hierynomus/smbj)
+* [https://github.com/codelibs/jcifs](https://github.com/codelibs/jcifs)
 
 
 
@@ -139,7 +143,7 @@
 * [https://github.com/xiaolyuh/layering-cache](https://github.com/xiaolyuh/layering-cache)
 * GuavaCache使用示例 [https://github.com/songyaxu/guava-cache](https://github.com/songyaxu/guava-cache)
 * 存储和检索海量数据 [https://github.com/dCache/dcache](https://github.com/dCache/dcache)
-* 高效键值对存储 [https://github.com/OpenHFT/Chronicle-Map](https://github.com/OpenHFT/Chronicle-Map)
+* 键值对存储 [https://github.com/OpenHFT/Chronicle-Map](https://github.com/OpenHFT/Chronicle-Map)
 * Redis云管理平台 [https://github.com/sohutv/cachecloud](https://github.com/sohutv/cachecloud)
 * 压缩位图 [https://github.com/RoaringBitmap](https://github.com/RoaringBitmap)
 

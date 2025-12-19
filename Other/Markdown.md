@@ -459,6 +459,7 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/geekjourneyx/md2wechat-mcp-server](https://github.com/geekjourneyx/md2wechat-mcp-server)
     * [https://www.md2wechat.cn](https://www.md2wechat.cn)
 * [https://github.com/caol64/wenyan](https://github.com/caol64/wenyan)
+* [https://github.com/tenngoxars/WeMD](https://github.com/tenngoxars/WeMD)
 
 
 - [mp-transform-public](https://github.com/ZhuPeng/mp-transform-public)
