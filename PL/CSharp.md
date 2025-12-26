@@ -236,6 +236,8 @@
 * [https://github.com/kwwwvagaa/NetWinformControl](https://github.com/kwwwvagaa/NetWinformControl)
 * [https://github.com/mellinoe/ImGui.NET](https://github.com/mellinoe/ImGui.NET)
 * [https://github.com/IgnaceMaes/MaterialSkin](https://github.com/IgnaceMaes/MaterialSkin)
+* [https://github.com/gui-cs/Terminal.Gui](https://github.com/gui-cs/Terminal.Gui)
+    * [https://github.com/gui-cs/TerminalGuiDesigner](https://github.com/gui-cs/TerminalGuiDesigner)
 * 深色模式 [https://github.com/Aldaviva/DarkNet](https://github.com/Aldaviva/DarkNet)
 * 图表 [https://github.com/Live-Charts/Live-Charts](https://github.com/Live-Charts/Live-Charts)
 * [https://github.com/beto-rodriguez/LiveCharts2](https://github.com/beto-rodriguez/LiveCharts2)

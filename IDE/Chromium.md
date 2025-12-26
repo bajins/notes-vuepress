@@ -205,6 +205,7 @@ chrome://flags/#enable-parallel-downloading
 - Firefox 开发者工具 [https://developer.mozilla.org/zh-CN/docs/Tools](https://developer.mozilla.org/zh-CN/docs/Tools)
 - Firefox浏览器开发人员版 [https://www.mozilla.org/zh-CN/firefox/developer](https://www.mozilla.org/zh-CN/firefox/developer)
 - [https://github.com/mozilla-spidermonkey](https://github.com/mozilla-spidermonkey)
+- 终端调试 [https://github.com/taotao7/termdev](https://github.com/taotao7/termdev)
 
 
 **其他设置**

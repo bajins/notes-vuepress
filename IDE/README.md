@@ -443,17 +443,18 @@
     * [https://github.com/wgzhao/dbeaver-agent](https://github.com/wgzhao/dbeaver-agent)
     * [https://github.com/oiltea/dbeaver-license](https://github.com/oiltea/dbeaver-license)
     ```ini
-    # 删除jre目录，安装jdk11或以上版本，把以下两行添加到`-vmargs`之前
+    ; 删除jre目录，安装jdk11或以上版本，把以下两行添加到`-vmargs`之前
     -vm
     C:\Program Files\Java\jdk-21\bin
     -data
     F:\workspace\DBeaverData
-    # 解压dbeaver-agent-latest.zip到dbeaver同级目录，添以下行到文件末尾
+    ; 解压dbeaver-agent-latest.zip到dbeaver同级目录，添以下行到文件末尾
     -javaagent:../dbeaver-agent/dbeaver-agent.jar
     -Xbootclasspath/a:../dbeaver-agent/dbeaver-agent.jar
     -javaagent:../ja-netfilter-all/ja-netfilter.jar
     -Dlm.debug.mode=true
     ```
+* [https://github.com/timestored/qstudio](https://github.com/timestored/qstudio)
 * [https://github.com/shencangsheng/easydb_app](https://github.com/shencangsheng/easydb_app)
 * [https://github.com/dbgate/dbgate](https://github.com/dbgate/dbgate)
 * [https://github.com/bytebase/bytebase](https://github.com/bytebase/bytebase)
@@ -515,6 +516,7 @@
     * [https://github.com/nitzzzu/RedisDesktopManager](https://github.com/nitzzzu/RedisDesktopManager)
 * [https://github.com/qishibo/AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager)
 * [https://github.com/tanhuang2016/RedisFX](https://github.com/tanhuang2016/RedisFX)
+* [https://github.com/dromara/RedisFront](https://github.com/dromara/RedisFront)
 * [https://github.com/fastogt/fastonosql](https://github.com/fastogt/fastonosql)
 * [https://github.com/fuyoo/bs-redis-desktop-client](https://github.com/fuyoo/bs-redis-desktop-client)
 * [https://github.com/patrikx3/redis-ui](https://github.com/patrikx3/redis-ui)

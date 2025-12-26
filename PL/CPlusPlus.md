@@ -235,6 +235,7 @@
 - 构建语言运行时 [https://github.com/eclipse/omr](https://github.com/eclipse/omr)
 - HTML转换为PDF [https://github.com/wkhtmltopdf](https://github.com/wkhtmltopdf)
 - 分析器 [https://github.com/bombomby/optick](https://github.com/bombomby/optick)
+- [https://github.com/cpp-linter](https://github.com/cpp-linter)
 - NTLM中继工具 [https://github.com/CCob/lsarelayx](https://github.com/CCob/lsarelayx)
 - 无线电应用 [https://github.com/cjcliffe](https://github.com/cjcliffe)
 - [https://github.com/pothosware](https://github.com/pothosware)

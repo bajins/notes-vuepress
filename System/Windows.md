@@ -337,6 +337,9 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 ## MS激活
 
+- [https://visualsupport.microsoft.com](https://visualsupport.microsoft.com)
+
+
 
 + [Windows 10 Digital Activation](http://forum.ru-board.com/topic.cgi?forum=2&topic=5820&start=0)
     + [https://www.solidfiles.com/folder/bd7165a0d4/](https://www.solidfiles.com/folder/bd7165a0d4/)

@@ -571,6 +571,7 @@ string &operator+(const string& A,const string& B) //cpp
     pvd.style.paddingBottom="50px";
     ```
 * [https://github.com/siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)
+* [https://github.com/Rabithua/Rote](https://github.com/Rabithua/Rote)
 
 
 

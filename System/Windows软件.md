@@ -1051,6 +1051,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://biu.evercraft.co](https://biu.evercraft.co)
 * [https://resource.dopus.com](https://resource.dopus.com)
 * [https://filepilot.tech](https://filepilot.tech)
+* [https://github.com/mucommander/mucommander](https://github.com/mucommander/mucommander)
 * 资源管理器多窗口 [https://github.com/w4po/ExplorerTabUtility](https://github.com/w4po/ExplorerTabUtility)
 * [https://www.diskinternals.com/download](https://www.diskinternals.com/download)
     * 读取EXT 类型数据盘 [http://www.diskinternals.com/download/Linux_Reader.exe](http://www.diskinternals.com/download/Linux_Reader.exe)
@@ -1170,9 +1171,12 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/buttercup](https://github.com/buttercup)
 * [https://github.com/passbolt/passbolt_api](https://github.com/passbolt/passbolt_api)
 * [https://github.com/keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc)
+* [https://github.com/OneKeePass/desktop](https://github.com/OneKeePass/desktop)
+* ~~[https://github.com/gaborbata/jpass](https://github.com/gaborbata/jpass)~~
 * [https://github.com/PhilippC/keepass2android](https://github.com/PhilippC/keepass2android)
 * [https://www.yubico.com/products/yubico-authenticator](https://www.yubico.com/products/yubico-authenticator)
 * [https://www.authenticid.com/products/identity-pass](https://www.authenticid.com/products/identity-pass)
+* [https://github.com/hazcod/enpass-cli](https://github.com/hazcod/enpass-cli)
 
 
 

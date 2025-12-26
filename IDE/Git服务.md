@@ -227,6 +227,7 @@ volumes:
 - [https://github.com/jvxiao/speed-github](https://github.com/jvxiao/speed-github)
 - [https://bgithub.xyz](https://bgithub.xyz)
 - [https://2github.com](https://2github.com)
+- [https://github.com/xixu-me/xget](https://github.com/xixu-me/xget)
 
 
 **Raw 文件加速**

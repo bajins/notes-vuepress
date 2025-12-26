@@ -8,6 +8,8 @@
 + [https://docs.oracle.com/javase/8/docs/technotes/tools](https://docs.oracle.com/javase/8/docs/technotes/tools)
 + [http://openjdk.java.net/projects/code-tools](http://openjdk.java.net/projects/code-tools)
 + [https://github.com/openjdk/jmc](https://github.com/openjdk/jmc)
++ 证书工具 [https://github.com/kaikramer/keystore-explorer](https://github.com/kaikramer/keystore-explorer)
+
 
 - [https://github.com/topics/diagnosis](https://github.com/topics/diagnosis)
 - [https://github.com/topics/agent](https://github.com/topics/agent)

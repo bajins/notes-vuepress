@@ -9,6 +9,9 @@
      + [https://www.jetbrains.com/products.html#type=ide](https://www.jetbrains.com/products.html#type=ide)
      + [https://www.jetbrains.com/idea/download/other.html](https://www.jetbrains.com/idea/download/other.html)
 + 简体中文专题教程 [https://github.com/judasn/IntelliJ-IDEA-Tutorial](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
++ [https://github.com/consulo/consulo](https://github.com/consulo/consulo)
++ Git客户端 [https://github.com/obiscr/intellij-community](https://github.com/obiscr/intellij-community)
+
 
 - [教育邮箱免费申请JetBrains教育许可证](https://mp.weixin.qq.com/s/XFoOBeTaBwBAsRgadxMLfQ)
 - [JetBrains全系列软件激活教程激活码以及JetBrains系列软件汉化包](https://www.fuocu.cn/archives/jetbrains-crack)
@@ -270,10 +273,12 @@ demo                        # 顶级项目（根项目）
 - 取消勾选`Duplincated File Template Usage`选项
 
 
-## 去掉大小写敏感提示
+## 代码补全忽略大小写
 
 - 打开`File` -> `Settings` -> `Editor` -> `General` -> `Code Completion`
-- 取消勾选`Match case`，或者`Case sensitive completion`选择`None`
+     - 取消勾选`Match case`，或者`Case sensitive completion`选择`None`
+
+
 
 
 ## 设置编码
@@ -516,6 +521,24 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 ## GUI Designer
 
 * Swing UI Designer [https://plugins.jetbrains.com/plugin/25304-swing-ui-designer](https://plugins.jetbrains.com/plugin/25304-swing-ui-designer)
+* [https://www.jetbrains.com/help/idea/gui-designer.html](https://www.jetbrains.com/help/idea/gui-designer.html)
+* [https://www.jetbrains.com/help/idea/design-gui-using-swing.html](https://www.jetbrains.com/help/idea/design-gui-using-swing.html)
+
+- https://youtrack.jetbrains.com/articles/SUPPORT-A-486/How-to-configure-GUI-forms-compilation-when-using-Gradle-or-Maven
+- https://tobiasmanske.de/posts/2021-02-23-maven-ij-designer
+- https://mvnrepository.com/artifact/com.jetbrains.intellij.java
+     - `java-gui-forms-rt`
+     - `java-compiler-ant-tasks`
+- https://mvnrepository.com/artifact/com.intellij
+     - `forms_rt`
+     - `javac2`
+     - https://mvnrepository.com/artifact/com.jgoodies/forms
+- https://github.com/Kai-Xuan-Xu/ideauidesigner-maven-plugin
+- https://github.com/njdldkl666699/ideauidesigner-maven-plugin
+- https://github.com/BenjaminFaal/intellij-idea-gui-designer-maven-plugin
+- https://github.com/File5/intellij-idea-guidesigner-plugin
+- https://github.com/JetBrains/intellij-platform-gradle-plugin
+
 
 > 从2021+版本开始，IntelliJ IDEA 的 GUI Designer 默认将表单编译为二进制 `.form` 资源 + 反射加载方式，不再生成 `$$$setupUI$$$()` 方法和组件绑定代码到 `.java` 源文件中。
 
