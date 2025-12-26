@@ -9,7 +9,7 @@
      + [https://www.jetbrains.com/products.html#type=ide](https://www.jetbrains.com/products.html#type=ide)
      + [https://www.jetbrains.com/idea/download/other.html](https://www.jetbrains.com/idea/download/other.html)
 + 简体中文专题教程 [https://github.com/judasn/IntelliJ-IDEA-Tutorial](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
-+ [https://github.com/consulo/consulo](https://github.com/consulo/consulo)
++ 分支 [https://github.com/consulo/consulo](https://github.com/consulo/consulo)
 + Git客户端 [https://github.com/obiscr/intellij-community](https://github.com/obiscr/intellij-community)
 
 
@@ -524,21 +524,6 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 * [https://www.jetbrains.com/help/idea/gui-designer.html](https://www.jetbrains.com/help/idea/gui-designer.html)
 * [https://www.jetbrains.com/help/idea/design-gui-using-swing.html](https://www.jetbrains.com/help/idea/design-gui-using-swing.html)
 
-- https://youtrack.jetbrains.com/articles/SUPPORT-A-486/How-to-configure-GUI-forms-compilation-when-using-Gradle-or-Maven
-- https://tobiasmanske.de/posts/2021-02-23-maven-ij-designer
-- https://mvnrepository.com/artifact/com.jetbrains.intellij.java
-     - `java-gui-forms-rt`
-     - `java-compiler-ant-tasks`
-- https://mvnrepository.com/artifact/com.intellij
-     - `forms_rt`
-     - `javac2`
-     - https://mvnrepository.com/artifact/com.jgoodies/forms
-- https://github.com/Kai-Xuan-Xu/ideauidesigner-maven-plugin
-- https://github.com/njdldkl666699/ideauidesigner-maven-plugin
-- https://github.com/BenjaminFaal/intellij-idea-gui-designer-maven-plugin
-- https://github.com/File5/intellij-idea-guidesigner-plugin
-- https://github.com/JetBrains/intellij-platform-gradle-plugin
-
 
 > 从2021+版本开始，IntelliJ IDEA 的 GUI Designer 默认将表单编译为二进制 `.form` 资源 + 反射加载方式，不再生成 `$$$setupUI$$$()` 方法和组件绑定代码到 `.java` 源文件中。
 
@@ -555,6 +540,54 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
   <option name="INSTRUMENT_CLASSES" value="true" />
 </component>
 ```
+
+
+- https://youtrack.jetbrains.com/articles/SUPPORT-A-486/How-to-configure-GUI-forms-compilation-when-using-Gradle-or-Maven
+- https://mvnrepository.com/artifact/com.jetbrains.intellij.java
+     - https://github.com/JetBrains/intellij-platform-gradle-plugin
+     - `java-gui-forms-rt`
+     - `java-compiler-ant-tasks`
+     ```xml
+     <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-antrun-plugin</artifactId>
+          <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-antrun-plugin -->
+          <version>3.2.0</version>
+          <executions>
+               <execution>
+                    <!-- 针对GUI Designer -> Generate GUI into 选择 Binary class files -->
+                    <!-- 参考 https://tobiasmanske.de/posts/2021-02-23-maven-ij-designer -->
+                    <!-- java-gui-forms-rt和java-compiler-ant-tasks（或forms_rt和javac2）版本要保持一致 -->
+                    <!-- 且要跟随IDEA大版本，主要考量的是ASM操作的字节码与JDK版本要同步，否则会报错 -->
+                    <id>compile-main</id>
+                    <phase>compile</phase>
+                    <configuration>
+                         <target>
+                              <path id="j2sp">
+                                   <pathelement location="${project.basedir}/src/main/java"/>
+                              </path>
+                              <taskdef name="javac2" classpathref="maven.runtime.classpath" classname="com.intellij.ant.Javac2"/>
+                              <javac2 destdir="${project.basedir}/target/classes">
+                                   <src refid="j2sp"/>
+                              </javac2>
+                         </target>
+                    </configuration>
+                    <goals>
+                         <goal>run</goal>
+                    </goals>
+               </execution>
+          </executions>
+     </plugin>
+     ```
+- https://mvnrepository.com/artifact/com.intellij 最后版本7.0.3发布于2008年
+     - `forms_rt`
+     - `javac2`
+     - https://mvnrepository.com/artifact/com.jgoodies/forms
+- https://github.com/Kai-Xuan-Xu/ideauidesigner-maven-plugin
+- https://github.com/njdldkl666699/ideauidesigner-maven-plugin
+- https://github.com/BenjaminFaal/intellij-idea-gui-designer-maven-plugin
+- https://github.com/File5/intellij-idea-guidesigner-plugin
+
 
 
 ## PyCharm
