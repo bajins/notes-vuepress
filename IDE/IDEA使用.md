@@ -528,8 +528,8 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 > 从2021+版本开始，IntelliJ IDEA 的 GUI Designer 默认将表单编译为二进制 `.form` 资源 + 反射加载方式，不再生成 `$$$setupUI$$$()` 方法和组件绑定代码到 `.java` 源文件中。
 
 - 打开`File` -> `Settings` -> `Editor` -> `GUI Designer` -> `Generate GUI into`
-     - `Binary class files` 默认，无 `$$$setupUI$$$()` 代码
-     - `Java source code` 旧模式，会生成 `$$$setupUI$$$()`
+     - `Binary class files` 默认，无 `$$$setupUI$$$()` 代码，如果使用`mvn`执行编译会丢失相应的字节码，除非使用`Javac2`方式（有弊端）
+     - `Java source code` 旧模式，会生成 `$$$setupUI$$$()`，最推荐（不用区分IDEA大版本）
 
 > `Build > Rebuild Project` 重新编译项目以生成代码
 

@@ -416,6 +416,9 @@
 * [https://github.com/zalando/skipper](https://github.com/zalando/skipper)
 * [https://github.com/tobychui/zoraxy](https://github.com/tobychui/zoraxy)
 * [https://github.com/litespeedtech/openlitespeed](https://github.com/litespeedtech/openlitespeed)
+* [https://github.com/cherokee/webserver](https://github.com/cherokee/webserver)
+* [https://github.com/dotnet/yarp](https://github.com/dotnet/yarp)
+* [https://aprelium.com/abyssws](https://aprelium.com/abyssws)
 * L4LB [https://github.com/facebookincubator/katran](https://github.com/facebookincubator/katran)
 * [https://github.com/davidcoles/vc5](https://github.com/davidcoles/vc5)
 * IP漂移 [https://github.com/acassen/keepalived](https://github.com/acassen/keepalived)
@@ -437,6 +440,8 @@
 * [https://github.com/tinyproxy/tinyproxy](https://github.com/tinyproxy/tinyproxy)
 * 缓存代理 [https://github.com/squid-cache/squid](https://github.com/squid-cache/squid)
 * [https://github.com/varnishcache/varnish-cache](https://github.com/varnishcache/varnish-cache)
+    * [https://gitlab.com/uplex/varnish](https://gitlab.com/uplex/varnish)
+    * [Varnish缓存加速](https://durative.github.io/2025/04/10/Varnish-webcache)
 * [https://github.com/varnish](https://github.com/varnish)
 
 

@@ -238,6 +238,7 @@ firewall-cmd --query-panic
 - [https://github.com/georgyo/ifconfig.io](https://github.com/georgyo/ifconfig.io)
 - [https://github.com/missdeer/ifconfig](https://github.com/missdeer/ifconfig)
 - [https://github.com/ipinfo](https://github.com/ipinfo)
+    - [https://ipinfo.io](https://ipinfo.io)
 - [https://github.com/pronto/ifconfig.pro](https://github.com/pronto/ifconfig.pro)
 - [https://github.com/ngoduykhanh/ifconfig.top](https://github.com/ngoduykhanh/ifconfig.top)
 - [https://github.com/ftao/python-ifcfg](https://github.com/ftao/python-ifcfg)

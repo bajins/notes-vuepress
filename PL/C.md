@@ -174,6 +174,7 @@
 * [https://github.com/lwip-tcpip/lwip](https://github.com/lwip-tcpip/lwip)
 * [https://github.com/openucx/ucx](https://github.com/openucx/ucx)
 * [https://github.com/warmcat/libwebsockets](https://github.com/warmcat/libwebsockets)
+* [https://github.com/litespeedtech/lsquic](https://github.com/litespeedtech/lsquic)
 * 实时传输协议 [https://github.com/cisco/libsrtp](https://github.com/cisco/libsrtp)
 * [https://github.com/sctplab/usrsctp](https://github.com/sctplab/usrsctp)
 * [https://libwebsockets.org](https://libwebsockets.org)

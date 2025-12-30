@@ -59,6 +59,7 @@
 * [https://www.languagereactor.com](https://www.languagereactor.com)
 * [https://youglish.com](https://youglish.com)
 * [https://medevel.com/tag/open-source](https://medevel.com/tag/open-source)
+* 用「编号 + 索引」组织资料/事项 [https://johnnydecimal.com](https://johnnydecimal.com)
 
 
 
