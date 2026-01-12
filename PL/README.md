@@ -63,6 +63,7 @@
 + [https://github.com/topics/qrcode-generator](https://github.com/topics/qrcode-generator)
 + 编程语言排行 [https://www.tiobe.com/tiobe-index](https://www.tiobe.com/tiobe-index)
 + [https://octoverse.github.com/#top-languages](https://octoverse.github.com/#top-languages)
++ [https://github.com/niklas-heer/speed-comparison](https://github.com/niklas-heer/speed-comparison)
 + [https://github.com/libhunt](https://github.com/libhunt)
     + [https://www.libhunt.com](https://www.libhunt.com)
 + 各大产品生命周期 [https://github.com/endoflife-date/endoflife.date](https://github.com/endoflife-date/endoflife.date)

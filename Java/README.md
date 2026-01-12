@@ -77,6 +77,7 @@
 * [https://github.com/quanke](https://github.com/quanke)
 * [https://github.com/Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)
 * [https://github.com/crossoverJie/JCSprout](https://github.com/crossoverJie/JCSprout)
+* [https://github.com/exercism/java](https://github.com/exercism/java)
 * 《Java编程思想》 第5版  [https://github.com/LingCoder/OnJava8](https://github.com/LingCoder/OnJava8)
 * [https://github.com/Syasuker/OnJava8-zh](https://github.com/Syasuker/OnJava8-zh)
 * [https://github.com/Knn120/OnJava8-PDF](https://github.com/Knn120/OnJava8-PDF)

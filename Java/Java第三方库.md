@@ -100,7 +100,6 @@
 - [https://github.com/jpy-consortium/jpy](https://github.com/jpy-consortium/jpy)
 - [https://github.com/jython/jython](https://github.com/jython/jython)
 - [https://github.com/beeware/voc](https://github.com/beeware/voc)
-- 调用C/C++ [https://github.com/bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets)
 
 
 
@@ -158,7 +157,6 @@
 
 **工具**
 
-+ [https://github.com/bytedeco](https://github.com/bytedeco)
 + [https://commons.apache.org](https://commons.apache.org)
     + [https://github.com/apache?q=commons](https://github.com/apache?q=commons)
 + [https://github.com/google/guava](https://github.com/google/guava)
@@ -219,6 +217,7 @@
 + [https://github.com/fusesource/hawtjni](https://github.com/fusesource/hawtjni)
 + [https://jogamp.org](https://jogamp.org)
 + [https://sourceforge.net/projects/cxxwrap](https://sourceforge.net/projects/cxxwrap)
++ 调用C/C++ [https://github.com/bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets)
 + [https://github.com/bytedeco/javacpp](https://github.com/bytedeco/javacpp)
 + [https://github.com/nativelibs4java](https://github.com/nativelibs4java)
 + [https://github.com/luben/zstd-jni](https://github.com/luben/zstd-jni)

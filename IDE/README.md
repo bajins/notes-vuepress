@@ -515,6 +515,7 @@
     * [https://github.com/FuckDoctors/rdm-builder](https://github.com/FuckDoctors/rdm-builder)
     * [https://github.com/nitzzzu/RedisDesktopManager](https://github.com/nitzzzu/RedisDesktopManager)
 * [https://github.com/qishibo/AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager)
+* [https://github.com/vicanso/zedis](https://github.com/vicanso/zedis)
 * [https://github.com/tanhuang2016/RedisFX](https://github.com/tanhuang2016/RedisFX)
 * [https://github.com/dromara/RedisFront](https://github.com/dromara/RedisFront)
 * [https://github.com/fastogt/fastonosql](https://github.com/fastogt/fastonosql)

@@ -361,6 +361,8 @@ ls | sed "s:^:`pwd`/: "
 ls -1 | awk '{print i$0}' i=`pwd`'/'
 ls -d */
 ls -ad */
+# 输出树形结构
+find . -print | sed -e 's/[^\/]*\//│  /g; s/│  \([^│]\)/├── \1/; s/│  $/└── /'
 ```
 
 

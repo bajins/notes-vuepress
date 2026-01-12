@@ -214,6 +214,7 @@
 * [https://github.com/cloudinary/ssimulacra2](https://github.com/cloudinary/ssimulacra2)
 * 日志 [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog)
 * 文本形状 [https://github.com/harfbuzz/harfbuzz](https://github.com/harfbuzz/harfbuzz)
+* 字体 [https://github.com/silnrsi/graphite](https://github.com/silnrsi/graphite)
 * 数学运算 [https://gmplib.org](https://gmplib.org)
 * 提权 [https://github.com/M2Team/NanaRun](https://github.com/M2Team/NanaRun)
 * ~~[https://github.com/M2TeamArchived/NSudo](https://github.com/M2TeamArchived/NSudo)~~

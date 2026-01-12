@@ -412,6 +412,11 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * XP密钥生成 [https://github.com/Neo-Desktop/WindowsXPKg](https://github.com/Neo-Desktop/WindowsXPKg)
 
 
+- https://wwi.lanzoup.com/b00rwulef
+- https://pan.baidu.com/s/1Guihp6QEI3_7zS8_gwkHmw?pwd=heu8
+- https://pan.baidu.com/s/1G6y_JIf7D06QN_OPBHZIcA?pwd=heu8
+- https://pan.baidu.com/s/1p1FYwJnOpmbBvgjkOrj6UA?pwd=heu8
+
 
 > 在PowerShell（也可在CMD）中输入命令运行`slmgr.vbs /dti`，按<kbd>Ctrl</kbd> + <kbd>C</kbd>复制，
 > 并粘贴到在线获取确认ID网站：[http://webact.185.hk](http://webact.185.hk)

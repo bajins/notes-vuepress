@@ -31,6 +31,8 @@
 - [从Java SPI机制实现到Spring Boot SPI扩展](https://blog.csdn.net/shang_xs/article/details/86560691)
 - [AVA SPI机制详解](https://www.jianshu.com/p/25b3559ecc47)
 - [深入理解SPI机制](https://www.jianshu.com/p/3a3edbcd8f24)
+- [SpringBoot 插件化开发模式](https://blog.csdn.net/zhousenshan/article/details/131350080)
+- [插件化开发探索与实践](https://blog.csdn.net/weixin_47560078/article/details/129347372)
 
 
 **热插拔/热加载/热部署/热更新/HotSwap**

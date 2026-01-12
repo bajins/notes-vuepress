@@ -112,7 +112,7 @@ with Test() as t: # 触发__exit__
 * [https://github.com/wlav/cppyy](https://github.com/wlav/cppyy)
 * [https://github.com/ethan-funny](https://github.com/ethan-funny)
 * [https://github.com/astral-sh/ty](https://github.com/astral-sh/ty)
-
+* 编译成二进制 [https://github.com/xxnuo/py2dist](https://github.com/xxnuo/py2dist)
 
 
 

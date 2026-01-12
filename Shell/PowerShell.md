@@ -387,9 +387,20 @@ if ($result -eq [System.Windows.Forms.DialogResult]::OK)
 
 
 
-### 获取所有COM组件
+## 获取所有COM组件
 
 ```ps1
 gci HKLM:\Software\Classes -ea 0| ? {$_.PSChildName -match '^\w+\.\w+$' -and (gp "$($_.PSPath)\CLSID" -ea 0)} | ft PSChildName
 ```
 
+
+## 一行代码实现彩色树形（递归深度=2）
+Get-ChildItem . -Recurse -Depth 2 | 
+  ForEach-Object {
+    $prefix = "│  " * ($_.FullName.Split('\').Count - ($PWD.Path.Split('\').Count + 1))
+    if ($_.PSIsContainer) { 
+      Write-Host "${prefix}├── $($_.Name)\" -ForegroundColor Cyan
+    } else {
+      Write-Host "${prefix}├── $($_.Name)" -ForegroundColor Green
+    }
+  }

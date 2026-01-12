@@ -206,6 +206,7 @@ chrome://flags/#enable-parallel-downloading
 - Firefox浏览器开发人员版 [https://www.mozilla.org/zh-CN/firefox/developer](https://www.mozilla.org/zh-CN/firefox/developer)
 - [https://github.com/mozilla-spidermonkey](https://github.com/mozilla-spidermonkey)
 - 终端调试 [https://github.com/taotao7/termdev](https://github.com/taotao7/termdev)
+- 流式连接 [https://github.com/bywwcnll/StreamPanel](https://github.com/bywwcnll/StreamPanel)
 
 
 **其他设置**
@@ -413,6 +414,7 @@ taskkill /f /im chromedriver.exe
 * HTTP拦截器 [https://github.com/kylepaulsen/ResourceOverride](https://github.com/kylepaulsen/ResourceOverride)
 * [https://github.com/cloudbuy/modheader](https://github.com/cloudbuy/modheader)
 * [https://github.com/modheader](https://github.com/modheader)
+* [https://github.com/lustan/XApi](https://github.com/lustan/XApi)
 
 
 - 网页保存 [https://github.com/gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile)

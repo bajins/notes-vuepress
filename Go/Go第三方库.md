@@ -237,6 +237,7 @@
 * [https://github.com/davidbyttow/govips](https://github.com/davidbyttow/govips)
 * [https://github.com/cshum/vipsgen](https://github.com/cshum/vipsgen)
 * [https://github.com/zyxar/image2ascii](https://github.com/zyxar/image2ascii)
+* OpenCV [https://github.com/hybridgroup/gocv](https://github.com/hybridgroup/gocv)
 * 视频处理 [https://github.com/AlexEidt/Vidio](https://github.com/AlexEidt/Vidio)
 * [https://github.com/Eyevinn/mp4ff](https://github.com/Eyevinn/mp4ff)
 * [https://github.com/yapingcat/gomedia](https://github.com/yapingcat/gomedia)
