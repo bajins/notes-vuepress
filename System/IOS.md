@@ -79,6 +79,7 @@
 - [https://github.com/ish-app/ish](https://github.com/ish-app/ish)
 - [https://github.com/holzschu/a-shell](https://github.com/holzschu/a-shell)
 - 电脑管理Iphone [https://github.com/iDescriptor/iDescriptor](https://github.com/iDescriptor/iDescriptor)
+- NTFS磁盘读写 [https://github.com/hoochanlon/Free-NTFS-for-Mac](https://github.com/hoochanlon/Free-NTFS-for-Mac)
 
 
 

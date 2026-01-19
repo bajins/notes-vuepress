@@ -46,6 +46,7 @@
 + [https://github.com/aperezdc/ngx-fancyindex](https://github.com/aperezdc/ngx-fancyindex)
 + 监控请求 [https://github.com/lebinh/ngxtop](https://github.com/lebinh/ngxtop)
 + 日志分析 [https://github.com/BeyondXinXin/nixvis](https://github.com/BeyondXinXin/nixvis)
++ [https://github.com/likaia/nginxpulse](https://github.com/likaia/nginxpulse)
 
 
 

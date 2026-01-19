@@ -60,6 +60,7 @@
 * [https://github.com/xdg-go](https://github.com/xdg-go)
 * [https://github.com/xxjwxc/public](https://github.com/xxjwxc/public)
 * [https://github.com/shenghui0779/yiigo](https://github.com/shenghui0779/yiigo)
+* [https://github.com/ccpwcn/kgo](https://github.com/ccpwcn/kgo)
 * [https://github.com/elliotchance/orderedmap](https://github.com/elliotchance/orderedmap)
 * [https://github.com/iancoleman/orderedmap](https://github.com/iancoleman/orderedmap)
 * 进程和系统实用程序 [https://github.com/shirou/gopsutil](https://github.com/shirou/gopsutil)

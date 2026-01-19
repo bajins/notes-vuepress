@@ -656,6 +656,7 @@
 * 音频编辑 [https://github.com/RylanBot/melody-workshop](https://github.com/RylanBot/melody-workshop)
 * 视频编辑 [https://github.com/OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)
 * [https://github.com/robinroy03/videoeditor](https://github.com/robinroy03/videoeditor)
+* [https://github.com/unhaya/vam-seek](https://github.com/unhaya/vam-seek)
 * 有声读物和播客 [https://github.com/advplyr/audiobookshelf](https://github.com/advplyr/audiobookshelf)
 * [https://github.com/janeczku/calibre-web](https://github.com/janeczku/calibre-web)
 * 证件照 [https://github.com/zhbhun/idify](https://github.com/zhbhun/idify)

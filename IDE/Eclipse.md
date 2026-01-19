@@ -19,6 +19,7 @@
    + [https://github.com/eclipse-oomph](https://github.com/eclipse-oomph)
    + [https://github.com/eclipse-cbi](https://github.com/eclipse-cbi)
    + [https://github.com/eclipse-simrel](https://github.com/eclipse-simrel)
+   + [https://projects.eclipse.org](https://projects.eclipse.org)
    + [https://www.eclipse.org/ide](https://www.eclipse.org/ide)
    + [https://eclipseide.org](https://eclipseide.org)
    + [https://www.eclipse.org/downloads/packages](https://www.eclipse.org/downloads/packages)

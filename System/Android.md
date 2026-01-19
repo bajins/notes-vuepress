@@ -360,6 +360,7 @@
 * [https://github.com/pengxurui/EasyPrivacy](https://github.com/pengxurui/EasyPrivacy)
 * 崩溃报告 [https://github.com/ACRA/acra](https://github.com/ACRA/acra)
 * 执行脚本 [https://github.com/zhanghai/BeeShell](https://github.com/zhanghai/BeeShell)
+* 短信 [https://github.com/octoshrimpy/quik](https://github.com/octoshrimpy/quik)
 
 
 

@@ -23,6 +23,7 @@
 + [https://github.com/package-url](https://github.com/package-url)
 + [https://github.com/sbt/sbt](https://github.com/sbt/sbt)
 + [https://github.com/jbangdev](https://github.com/jbangdev)
++ [https://github.com/JetBrains/amper](https://github.com/JetBrains/amper)
 + [https://github.com/sormuras/bach](https://github.com/sormuras/bach)
 + [https://redmine.z2-environment.net](https://redmine.z2-environment.net)
 + 增量构建 [https://github.com/sakerbuild/saker.build](https://github.com/sakerbuild/saker.build)

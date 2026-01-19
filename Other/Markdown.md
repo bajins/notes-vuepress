@@ -22,6 +22,8 @@
 * [https://github.com/Olwiba/Kickass-markdown](https://github.com/Olwiba/Kickass-markdown)
 * Markdeep是Markdown的超集 [https://github.com/morgan3d/markdeep](https://github.com/morgan3d/markdeep)
 * CommonMark [https://github.com/commonmark](https://github.com/commonmark)
+    * [https://github.com/kivikakk/comrak](https://github.com/kivikakk/comrak)
+    * [https://github.com/dahlia/hongdown](https://github.com/dahlia/hongdown)
 * MultiMarkdown [https://github.com/fletcher/MultiMarkdown-6](https://github.com/fletcher/MultiMarkdown-6)
 * Kramdown [https://github.com/gettalong/kramdown](https://github.com/gettalong/kramdown)
 * [https://github.com/docbook](https://github.com/docbook)

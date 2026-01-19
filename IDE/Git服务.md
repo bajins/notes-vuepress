@@ -257,15 +257,10 @@ sudo /etc/init.d/dns-clean start
 
 ### Actions
 
-* [GitHub Actions 入门教程](http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)
-* [Github Actions 尝鲜](https://segmentfault.com/a/1190000020873860)
-* [持续集成](https://blog.lucien.ink/category/ci)
-
-
-> 生成公钥和私钥`ssh-keygen -t rsa -b 4096 -C "yourname@example.com" -f 文件名称 -N ""`（ACTION_DEPLOY_KEY），
-> 或者生成新的个人访问令牌（PERSONAL_TOKEN）[https://github.com/settings/tokens/new](https://github.com/settings/tokens/new)
-
++ https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#jobsjob_idstepsshell
 + [https://github.com/actions](https://github.com/actions)
+    + [https://github.com/actions/runner-images](https://github.com/actions/runner-images)
+        + [https://docs.github.com/en/actions/concepts/runners/github-hosted-runners](https://docs.github.com/en/actions/concepts/runners/github-hosted-runners)
     + 检出项目 [https://github.com/actions/checkout](https://github.com/actions/checkout)
     + [https://github.com/aws-actions](https://github.com/aws-actions)
 + [https://github.com/topics/github-pages](https://github.com/topics/github-pages)
@@ -276,6 +271,16 @@ sudo /etc/init.d/dns-clean start
 + [https://github.com/topics/github-action](https://github.com/topics/github-action)
 + [https://github.com/sdras/awesome-actions](https://github.com/sdras/awesome-actions)
 + [https://github.com/topics/workflow](https://github.com/topics/workflow)
+
+
+* [GitHub Actions 入门教程](http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)
+* [Github Actions 尝鲜](https://segmentfault.com/a/1190000020873860)
+* [持续集成](https://blog.lucien.ink/category/ci)
+
+
+> 生成公钥和私钥`ssh-keygen -t rsa -b 4096 -C "yourname@example.com" -f 文件名称 -N ""`（ACTION_DEPLOY_KEY），
+> 或者生成新的个人访问令牌（PERSONAL_TOKEN）[https://github.com/settings/tokens/new](https://github.com/settings/tokens/new)
+
 
 * `deploy-to-github-pages`、`pages`、`deploy`
 * [https://github.com/peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
