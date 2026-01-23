@@ -45,6 +45,7 @@
     + [https://www.iana.org](https://www.iana.org)
 + [https://github.com/fedidcg/FedCM](https://github.com/fedidcg/FedCM)
 + HTTP标头分析 [https://github.com/rfc-st/humble](https://github.com/rfc-st/humble)
++ [https://github.com/hyfather/httpcolon](https://github.com/hyfather/httpcolon)
 + 跨域资源共享 [https://github.com/monsur/enable-cors.org](https://github.com/monsur/enable-cors.org)
 + [https://github.com/gpuweb](https://github.com/gpuweb)
 + [https://github.com/webgpu](https://github.com/webgpu)

@@ -746,6 +746,7 @@
 * [https://github.com/Forceu/Gokapi](https://github.com/Forceu/Gokapi)
 * [https://github.com/keven1024/015](https://github.com/keven1024/015)
 * 二维码分享文件 [https://github.com/sz3/libcimbar](https://github.com/sz3/libcimbar)
+* [https://github.com/topcss/AirScan-QR](https://github.com/topcss/AirScan-QR)
 * 主页仪表板 [https://github.com/glanceapp/glance](https://github.com/glanceapp/glance)
 * 在线知识库 [https://github.com/outline/outline](https://github.com/outline/outline)
 * [https://github.com/chaitin/PandaWiki](https://github.com/chaitin/PandaWiki)
@@ -816,6 +817,8 @@
 * [https://github.com/bbodi/notecalc3](https://github.com/bbodi/notecalc3)
 * 焦虑辅助工具 [https://github.com/alvinunreal/anxiety-aid-tools](https://github.com/alvinunreal/anxiety-aid-tools)
 * 英语阅读学习 [https://github.com/xckevin/magic-english-buddy](https://github.com/xckevin/magic-english-buddy)
+* 模拟小区采光 [https://github.com/SeanWong17/building-sunlight-simulator](https://github.com/SeanWong17/building-sunlight-simulator)
+* 族谱管理 [https://github.com/yunfengsa/pure-genealogy](https://github.com/yunfengsa/pure-genealogy)
 
 
 
@@ -827,6 +830,7 @@
     * [https://personal.onlyoffice.com](https://personal.onlyoffice.com)
     * [https://github.com/cryptpad](https://github.com/cryptpad)
     * [https://github.com/ranuts/document](https://github.com/ranuts/document)
+* [https://github.com/baotlake/office-website](https://github.com/baotlake/office-website)
 * [https://github.com/ether/etherpad-lite](https://github.com/ether/etherpad-lite)
 * [https://github.com/anytypeio](https://github.com/anytypeio)
 * [https://github.com/Teamlinker](https://github.com/Teamlinker)

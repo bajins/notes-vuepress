@@ -223,6 +223,7 @@ volumes:
 - [https://github.com/Potterli20/hosts](https://github.com/Potterli20/hosts)
 - [https://gitee.com/if-the-wind/github-hosts](https://gitee.com/if-the-wind/github-hosts)
 - [https://codechina.csdn.net/mirrors](https://codechina.csdn.net/mirrors)
+- [https://releasealert.dev](https://releasealert.dev)
 - [https://fcp7.com/github-mirror-daily-updates.html](https://fcp7.com/github-mirror-daily-updates.html)
 - [https://github.com/jvxiao/speed-github](https://github.com/jvxiao/speed-github)
 - [https://bgithub.xyz](https://bgithub.xyz)

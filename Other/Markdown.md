@@ -536,6 +536,7 @@ string &operator+(const string& A,const string& B) //cpp
 - [https://github.com/BlueHatbRit/mdpdf](https://github.com/BlueHatbRit/mdpdf)
 - [https://github.com/simonhaenisch/md-to-pdf](https://github.com/simonhaenisch/md-to-pdf)
 - [https://github.com/jmaupetit/md2pdf](https://github.com/jmaupetit/md2pdf)
+- Markdown转HTML [https://github.com/hjinco/mdto](https://github.com/hjinco/mdto)
 
 
 

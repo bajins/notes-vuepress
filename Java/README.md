@@ -61,6 +61,7 @@
 + [https://github.com/search?q=Interview](https://github.com/search?q=Interview)
 
 
+* 现代Java [https://github.com/Together-Java/ModernJava](https://github.com/Together-Java/ModernJava)
 * Java新功能 [https://github.com/wesleyegberto/java-new-features](https://github.com/wesleyegberto/java-new-features)
     * [https://github.com/rokon12/project-loom-slides-and-demo-code](https://github.com/rokon12/project-loom-slides-and-demo-code)
     * [https://github.com/nipafx](https://github.com/nipafx)

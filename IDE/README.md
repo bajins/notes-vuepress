@@ -298,6 +298,7 @@
 * [https://github.com/jumper2014/awesome-test-tool](https://github.com/jumper2014/awesome-test-tool)
 
 
++ [https://github.com/lakernote/EasyPostman](https://github.com/lakernote/EasyPostman)
 + [https://github.com/mountain-loop/yaak](https://github.com/mountain-loop/yaak)
 + [https://github.com/hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)
     + [https://hoppscotch.io](https://hoppscotch.io)

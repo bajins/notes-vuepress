@@ -681,6 +681,7 @@
     * [https://github.com/Luoyacheng/legado](https://github.com/Luoyacheng/legado)
     * [https://github.com/mgz0227/legado](https://github.com/mgz0227/legado)
     * [https://github.com/huajideshutiao/legado](https://github.com/huajideshutiao/legado)
+* [https://github.com/zhashut/goread](https://github.com/zhashut/goread)
 * [https://github.com/koreader/koreader](https://github.com/koreader/koreader)
 * [https://github.com/ZhangQinhao/MONKOVEL](https://github.com/ZhangQinhao/MONKOVEL)
 * [https://github.com/zas023/CocoBook](https://github.com/zas023/CocoBook)

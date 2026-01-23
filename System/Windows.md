@@ -17,6 +17,7 @@
 * 自动点击 [https://github.com/ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey)
     * [https://github.com/AutoHotkey/AutoHotkey](https://github.com/AutoHotkey/AutoHotkey)
     * [https://github.com/xypha/AHK-v2-scripts](https://github.com/xypha/AHK-v2-scripts)
+* 检查系统启用的协议 [https://www.nartac.com/Products/IISCrypto](https://www.nartac.com/Products/IISCrypto)
 
 
 
