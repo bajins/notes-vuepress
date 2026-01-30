@@ -68,6 +68,7 @@
 * [https://github.com/target](https://github.com/target)
 * [https://github.com/rogpeppe/go-internal](https://github.com/rogpeppe/go-internal)
 * [https://github.com/samber/lo](https://github.com/samber/lo)
+* 轻量依赖注入DI框架 [https://github.com/samber/do](https://github.com/samber/do)
 * HTTP [https://github.com/go-resty/resty](https://github.com/go-resty/resty)
 * [https://github.com/wangluozhe/requests](https://github.com/wangluozhe/requests)
 * [https://github.com/parnurzeal/gorequest](https://github.com/parnurzeal/gorequest)

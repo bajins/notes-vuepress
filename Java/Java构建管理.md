@@ -26,6 +26,7 @@
 + [https://github.com/JetBrains/amper](https://github.com/JetBrains/amper)
 + [https://github.com/sormuras/bach](https://github.com/sormuras/bach)
 + [https://redmine.z2-environment.net](https://redmine.z2-environment.net)
++ [https://github.com/jeka-dev/jeka](https://github.com/jeka-dev/jeka)
 + 增量构建 [https://github.com/sakerbuild/saker.build](https://github.com/sakerbuild/saker.build)
 + [https://github.com/sakerbuild/saker.java.compiler](https://github.com/sakerbuild/saker.java.compiler)
 + 动态编译 [https://github.com/janino-compiler/janino](https://github.com/janino-compiler/janino)
@@ -95,8 +96,8 @@
 - [https://www.atlassian.com/zh/software/bamboo](https://www.atlassian.com/zh/software/bamboo)
 - [https://github.com/technomancy/leiningen](https://github.com/technomancy/leiningen)
     - [https://codeberg.org/leiningen/leiningen](https://codeberg.org/leiningen/leiningen)
-- [https://github.com/jitpack/jitpack.io](https://github.com/jitpack/jitpack.io)
 - [https://github.com/jreleaser](https://github.com/jreleaser)
+- Git仓库包 [https://github.com/jitpack/jitpack.io](https://github.com/jitpack/jitpack.io)
 
 
 
@@ -307,6 +308,7 @@
 + 格式化 [https://github.com/revelc/formatter-maven-plugin](https://github.com/revelc/formatter-maven-plugin)
 + [https://github.com/maveniverse/mima](https://github.com/maveniverse/mima)
 + 集成Rust [https://github.com/questdb/rust-maven-plugin](https://github.com/questdb/rust-maven-plugin)
++ 兼容模块化 [https://github.com/moditect/moditect](https://github.com/moditect/moditect)
 
 
 

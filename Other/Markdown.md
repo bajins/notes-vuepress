@@ -580,6 +580,12 @@ string &operator+(const string& A,const string& B) //cpp
 
 ### 本地版客户端
 
++ [https://github.com/topics/notes-app](https://github.com/topics/notes-app)
++ [https://github.com/mundimark/awesome-markdown-editors](https://github.com/mundimark/awesome-markdown-editors)
+
+
+* [https://github.com/purocean/yn](https://github.com/purocean/yn)
+* [https://github.com/c3er/mdview](https://github.com/c3er/mdview)
 * ~~[https://github.com/typora](https://github.com/typora)~~
     * ~~[https://www.typora.io](https://www.typora.io)~~
     * [https://github.com/DiamondHunters/NodeInject_Hook_example](https://github.com/DiamondHunters/NodeInject_Hook_example)
@@ -591,6 +597,8 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/rickstrahl/MarkdownMonster](https://github.com/rickstrahl/MarkdownMonster)
 * [https://github.com/marktext/marktext](https://github.com/marktext/marktext)
     * [https://marktext.app](https://marktext.app)
+* [https://github.com/Zettlr/Zettlr](https://github.com/Zettlr/Zettlr)
+* ~~[https://github.com/brrd/abricotine](https://github.com/brrd/abricotine)~~
 * [https://github.com/notable/notable](https://github.com/notable/notable)
 * [https://github.com/nhn/tui.editor](https://github.com/nhn/tui.editor)
 * [https://github.com/aguang-xyz/aurora-editor](https://github.com/aguang-xyz/aurora-editor)
@@ -598,6 +606,8 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/drl990114/MarkFlowy](https://github.com/drl990114/MarkFlowy)
 * CLI [https://github.com/Textualize/frogmouth](https://github.com/Textualize/frogmouth)
 * 笔记 [https://github.com/laurent22/joplin](https://github.com/laurent22/joplin)
+* [https://github.com/KDE/ghostwriter](https://github.com/KDE/ghostwriter)
+    * [https://invent.kde.org/office/ghostwriter](https://invent.kde.org/office/ghostwriter)
 * [https://github.com/evernote](https://github.com/evernote)
 * [https://github.com/leanote](https://github.com/leanote)
 * [https://github.com/zadam/trilium](https://github.com/zadam/trilium)
@@ -619,4 +629,8 @@ string &operator+(const string& A,const string& B) //cpp
 * 待办事项 [https://github.com/go-vikunja/vikunja](https://github.com/go-vikunja/vikunja)
 * [https://github.com/johannesjo/super-productivity](https://github.com/johannesjo/super-productivity)
 * 草图 [https://frame0.app](https://frame0.app)
+* [https://github.com/LinwoodDev/Butterfly](https://github.com/LinwoodDev/Butterfly)
+* [https://github.com/flxzt/rnote](https://github.com/flxzt/rnote)
+* [https://github.com/saber-notes/saber](https://github.com/saber-notes/saber)
+* Android [https://github.com/gsantner/markor](https://github.com/gsantner/markor)
 

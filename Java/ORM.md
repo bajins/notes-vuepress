@@ -16,6 +16,7 @@
 * [Java，JDBC和MySQL对应数据类型](https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-reference-type-conversions.html)
 * [http://www.squirrelsql.org](http://www.squirrelsql.org)
 * [http://java-source.net/open-source/sql-clients](http://java-source.net/open-source/sql-clients)
+* [https://github.com/apache/cayenne](https://github.com/apache/cayenne)
 * JPA标准API [https://github.com/Blazebit/blaze-persistence](https://github.com/Blazebit/blaze-persistence)
 * 链式SQL框架 [https://github.com/jOOQ](https://github.com/jOOQ)
 * [https://github.com/jenetics/facilejdbc](https://github.com/jenetics/facilejdbc)

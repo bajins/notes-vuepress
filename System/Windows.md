@@ -86,6 +86,7 @@ powercfg /batteryreport /output "Desktop\battery-report.html"
 * Dism++ [https://github.com/Chuyu-Team](https://github.com/Chuyu-Team)
 * [https://github.com/ZyperWave/ZyperWinOptimize](https://github.com/ZyperWave/ZyperWinOptimize)
 * [https://ameliorated.io](https://ameliorated.io)
+    * [https://github.com/meetrevision/playbook](https://github.com/meetrevision/playbook)
     * [https://github.com/jointhearkanoid/playbook](https://github.com/jointhearkanoid/playbook)
     * [https://github.com/redress-server/playbook](https://github.com/redress-server/playbook)
     * [https://github.com/Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas)

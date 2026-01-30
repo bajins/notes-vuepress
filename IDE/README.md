@@ -91,6 +91,13 @@
 - [https://github.com/All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands)
 - [https://github.com/mendableai/open-lovable](https://github.com/mendableai/open-lovable)
 - [https://github.com/Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)
+- [https://github.com/anomalyco/opencode](https://github.com/anomalyco/opencode)
+- [https://github.com/Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode)
+    - `You should always speak and think in the "Simplified Chinese" (zh-CN) language`
+- [https://github.com/RooCodeInc/Roo-Code](https://github.com/RooCodeInc/Roo-Code)
+- [https://github.com/iflow-ai/iflow-cli](https://github.com/iflow-ai/iflow-cli)
+- [https://github.com/stackblitz/bolt.new](https://github.com/stackblitz/bolt.new)
+- [https://github.com/QoderAI](https://github.com/QoderAI)
 - 代码搜索 [https://github.com/sourcebot-dev/sourcebot](https://github.com/sourcebot-dev/sourcebot)
 - [https://github.com/oldjs/web-code-agent](https://github.com/oldjs/web-code-agent)
 - Git提交助手 [https://github.com/Undertone0809/gcop](https://github.com/Undertone0809/gcop)

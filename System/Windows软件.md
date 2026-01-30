@@ -354,6 +354,8 @@
 * [https://github.com/HkList](https://github.com/HkList)
 * [https://github.com/OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList)
     * [https://github.com/OpenListApp/OpenListApp](https://github.com/OpenListApp/OpenListApp)
+* 加速 [https://github.com/game1024/OpenSpeedy](https://github.com/game1024/OpenSpeedy)
+
 
 > 【诚通网盘下载提示】：点击下载后，立马取消（就是点击浏览器左上角的`X`按钮停止访问），然后再次点击下载，可以提速好几倍
 
@@ -1045,7 +1047,6 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/derceg/explorerplusplus](https://github.com/derceg/explorerplusplus)
 * [https://www.softwareok.com/?seite=Freeware/Q-Dir](https://www.softwareok.com/?seite=Freeware/Q-Dir)
 * [https://www.xyplorer.com](https://www.xyplorer.com)
-* [http://www.uderzo.it/main_products/space_sniffer](http://www.uderzo.it/main_products/space_sniffer)
 * [Windows File Recovery](https://www.microsoft.com/zh-cn/p/windows-file-recovery/9n26s50ln705)
 * [https://github.com/FarGroup/FarManager](https://github.com/FarGroup/FarManager)
 * [https://github.com/violet7pan/XYplorer_Help](https://github.com/violet7pan/XYplorer_Help)
@@ -1093,6 +1094,8 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 **磁盘空间分析器**
 
+* SpaceSniffer [https://www.uderzo.it/main_products/space_sniffer](https://www.uderzo.it/main_products/space_sniffer)
+    * [https://sourceforge.net/projects/spacesniffer](https://sourceforge.net/projects/spacesniffer)
 * WizTree [https://diskanalyzer.com](https://diskanalyzer.com)
 * Treesize [https://www.jam-software.com/treesize_free](https://www.jam-software.com/treesize_free)
 * [https://sourceforge.net/projects/windirstat](https://sourceforge.net/projects/windirstat)

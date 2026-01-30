@@ -294,7 +294,7 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 + [https://github.com/topics/init](https://github.com/topics/init)
 + [https://github.com/topics/services](https://github.com/topics/services)
-* [https://github.com/topics/daemon](https://github.com/topics/daemon)
++ [https://github.com/topics/daemon](https://github.com/topics/daemon)
 
 
 - [https://github.com/systemd/systemd](https://github.com/systemd/systemd)
@@ -306,7 +306,8 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 - [https://github.com/Yelp/dumb-init](https://github.com/Yelp/dumb-init)
 - [https://github.com/canonical/pebble](https://github.com/canonical/pebble)
 - [https://mmonit.com/monit](https://mmonit.com/monit)
-- [http://smarden.org/runit](http://smarden.org/runit)
+- [https://github.com/g-pape/runit](https://github.com/g-pape/runit)
+    - [http://smarden.org/runit](http://smarden.org/runit)
 - [http://www.fefe.de/minit](http://www.fefe.de/minit)
 - [http://upstart.ubuntu.com](http://upstart.ubuntu.com)
     - [https://launchpad.net/upstart](https://launchpad.net/upstart)

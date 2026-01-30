@@ -122,6 +122,7 @@
     * [https://musl.cc](https://musl.cc)
 * [https://github.com/topics/libc](https://github.com/topics/libc)
 * [https://github.com/bminor/glibc](https://github.com/bminor/glibc)
+* [https://github.com/graphitemaster/detour](https://github.com/graphitemaster/detour)
 * [https://github.com/zpl-c/zpl](https://github.com/zpl-c/zpl)
 * 钩子 [https://github.com/jmpews/Dobby](https://github.com/jmpews/Dobby)
 * [https://github.com/canonical/raft](https://github.com/canonical/raft)

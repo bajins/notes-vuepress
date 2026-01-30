@@ -94,6 +94,7 @@
 ## AI辅助编码
 
 - AI Coding Assistant `https://plugins.jetbrains.com/search?orderBy=downloads&pricingModels=FREE&search=AI%20Coding%20Assistant`
+- [https://github.com/furudo-erika/awesome-cursor-alternatives](https://github.com/furudo-erika/awesome-cursor-alternatives)
 - ChatGPT [https://gitlab.com/wangsen_job/idea-plugin-iframe](https://gitlab.com/wangsen_job/idea-plugin-iframe)
 - [https://plugins.jetbrains.com/plugin/17809-lingma--alibaba-cloud-ai-coding-assistant](https://plugins.jetbrains.com/plugin/17809-lingma--alibaba-cloud-ai-coding-assistant)
 - [https://plugins.jetbrains.com/plugin/23475-baidu-comate](https://plugins.jetbrains.com/plugin/23475-baidu-comate)

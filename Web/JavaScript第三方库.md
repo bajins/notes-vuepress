@@ -104,6 +104,8 @@
     * [https://github.com/ghettovoice/ol-mapscale](https://github.com/ghettovoice/ol-mapscale)
 * [https://github.com/openstreetmap](https://github.com/openstreetmap)
 * book阅读 [https://github.com/johnfactotum/foliate](https://github.com/johnfactotum/foliate)
+* 轻量依赖注入DI框架 [https://github.com/zhang740/power-di](https://github.com/zhang740/power-di)
+* [https://github.com/microsoft/tsyringe](https://github.com/microsoft/tsyringe)
 * 并发 [https://github.com/rxaviers/async-pool](https://github.com/rxaviers/async-pool)
 * [https://github.com/caolan/async](https://github.com/caolan/async)
 * 控制导入行为 [https://github.com/WICG/import-maps](https://github.com/WICG/import-maps)

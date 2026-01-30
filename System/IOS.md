@@ -36,6 +36,8 @@
 * 压缩 [https://github.com/weichsel/ZIPFoundation](https://github.com/weichsel/ZIPFoundation)
 * 防止键盘向上滑动并覆盖 [https://github.com/hackiftekhar/IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager)
 * 应用内设置 [https://github.com/futuretap/InAppSettingsKit](https://github.com/futuretap/InAppSettingsKit)
+* 轻量依赖注入DI框架 [https://github.com/Swinject/Swinject](https://github.com/Swinject/Swinject)
+* [https://github.com/square/Cleanse](https://github.com/square/Cleanse)
 
 
 + IDE [https://www.jetbrains.com/zh-cn/objc](https://www.jetbrains.com/zh-cn/objc)

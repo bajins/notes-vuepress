@@ -314,6 +314,7 @@
 - [https://github.com/hilmanski/freeStuffDev](https://github.com/hilmanski/freeStuffDev)
     - [https://allinone.tools](https://allinone.tools)
 - [https://github.com/jaywcjlove/reference](https://github.com/jaywcjlove/reference)
+- 图像注入载荷 [https://github.com/sighook/pixload](https://github.com/sighook/pixload)
 
 
 
@@ -422,6 +423,7 @@
     - [https://github.com/philss/floki](https://github.com/philss/floki)
 - [https://github.com/gleam-lang](https://github.com/gleam-lang)
 - [https://www.angelcode.com](https://www.angelcode.com)
+- [https://github.com/jart/cosmopolitan](https://github.com/jart/cosmopolitan)
 
 
 > DSL(Domain Specification Language)领域语言，使用EBNF(Extended Backus–Naur Form)扩展巴斯科范式来描述语法

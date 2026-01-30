@@ -644,6 +644,23 @@
 
 + [https://github.com/topics/nio](https://github.com/topics/nio)
 + [https://github.com/topics/java-nio](https://github.com/topics/java-nio)
++ 轻量依赖注入DI框架 [https://github.com/topics/injection](https://github.com/topics/injection)
++ [https://github.com/topics/injector](https://github.com/topics/injector)
++ [https://github.com/topics/dependency-injection](https://github.com/topics/dependency-injection)
++ [https://github.com/topics/ioc-container](https://github.com/topics/ioc-container)
++ [https://github.com/topics/inversion-of-control](https://github.com/topics/inversion-of-control)
++ DI容器比较 [https://github.com/Heapy/di-comparison](https://github.com/Heapy/di-comparison)
++ [https://github.com/akardapolov/dimension-di](https://github.com/akardapolov/dimension-di)
++ [https://github.com/google/dagger](https://github.com/google/dagger)
+    + ~~[https://github.com/square/dagger](https://github.com/square/dagger)~~
++ [https://github.com/google/guice](https://github.com/google/guice)
+    + [https://github.com/eclipse-sisu/sisu-project](https://github.com/eclipse-sisu/sisu-project)
+        + ~~[https://github.com/codehaus-plexus/plexus-containers](https://github.com/codehaus-plexus/plexus-containers)~~
+        + [https://maven.apache.org/maven-di.html](https://maven.apache.org/maven-di.html)
+        + [https://mvnrepository.com/artifact/org.apache.maven/maven-di](https://mvnrepository.com/artifact/org.apache.maven/maven-di)
+    + [轻量级DI框架Guice使用详解](https://www.cnblogs.com/throwable/p/15925396.html)
++ [https://github.com/avaje/avaje-inject](https://github.com/avaje/avaje-inject)
++ [https://github.com/eclipse-ee4j/glassfish-hk2](https://github.com/eclipse-ee4j/glassfish-hk2)
 + Web框架 [https://github.com/perwendel/spark](https://github.com/perwendel/spark)
 + [https://github.com/topics/shiro](https://github.com/topics/shiro)
     + [https://github.com/johntostring/spring-boot-shiro](https://github.com/johntostring/spring-boot-shiro)

@@ -54,6 +54,10 @@
     - [https://www.rollupjs.com](https://www.rollupjs.com)
     - [https://github.com/rolldown-rs/rolldown](https://github.com/rolldown-rs/rolldown)
 - [https://github.com/TurboPack](https://github.com/TurboPack)
+- [https://github.com/vercel/turborepo](https://github.com/vercel/turborepo)
+- [https://github.com/lerna/lerna](https://github.com/lerna/lerna)
+- [https://github.com/microsoft/rushstack](https://github.com/microsoft/rushstack)
+- [https://github.com/nrwl/nx](https://github.com/nrwl/nx)
 - [https://github.com/vitejs/vite](https://github.com/vitejs/vite)
 - [https://github.com/evanw/esbuild](https://github.com/evanw/esbuild)
 - [https://github.com/web-infra-dev](https://github.com/web-infra-dev)
@@ -156,7 +160,7 @@
 * Canvas [https://github.com/Automattic/node-canvas](https://github.com/Automattic/node-canvas)
 * 静态HTTP服务器 [https://github.com/http-party/http-server](https://github.com/http-party/http-server)
 * 发送邮件 [https://github.com/dahlia/upyo](https://github.com/dahlia/upyo)
-
+* 进程守护 [https://github.com/Unitech/pm2](https://github.com/Unitech/pm2)
 
 
 
@@ -210,12 +214,12 @@ nvm install <最新的版本号>
 
 ## 依赖管理
 
-* [https://github.com/Unitech/pm2](https://github.com/Unitech/pm2)
+* [https://github.com/pnpm/pnpm](https://github.com/pnpm/pnpm)
 * [https://github.com/npm](https://github.com/npm)
     * [https://www.npmjs.cn](https://www.npmjs.cn)
 * [https://github.com/yarnpkg](https://github.com/yarnpkg)
     * [https://www.yarnpkg.com.cn](https://www.yarnpkg.com.cn)
-* [https://github.com/pnpm/pnpm](https://github.com/pnpm/pnpm)
+* 清理依赖 [https://github.com/voidcosmos/npkill](https://github.com/voidcosmos/npkill)
 * 私服 [https://github.com/verdaccio/verdaccio](https://github.com/verdaccio/verdaccio)
     * [Ubuntu服务器上搭建Npm私服](https://segmentfault.com/a/1190000047471564)
 

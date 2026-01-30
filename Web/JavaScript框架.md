@@ -78,6 +78,8 @@
 	+ [https://github.com/t3-oss/create-t3-app](https://github.com/t3-oss/create-t3-app)
 	+ [https://github.com/shuding/nextra](https://github.com/shuding/nextra)
 	+ [https://github.com/qufei1993/nextjs-learn-cn](https://github.com/qufei1993/nextjs-learn-cn)
++ [https://github.com/krasimir/react-in-patterns](https://github.com/krasimir/react-in-patterns)
+	+ [https://github.com/SangKa/react-in-patterns-cn](https://github.com/SangKa/react-in-patterns-cn)
 
 
 * [https://github.com/reduxjs](https://github.com/reduxjs)

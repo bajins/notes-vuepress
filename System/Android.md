@@ -138,7 +138,7 @@
 * BugHook（应用转生）
 * Xpatch
 * SPatch（天鉴）
-* Zygisk
+* Zygisk [https://github.com/PerformanC/ReZygisk](https://github.com/PerformanC/ReZygisk)
 * [https://github.com/mar-v-in/ArtHook](https://github.com/mar-v-in/ArtHook)
 * [https://github.com/canyie/pine](https://github.com/canyie/pine)
 * [https://github.com/avs333/Nougat_dlfunctions](https://github.com/avs333/Nougat_dlfunctions)
