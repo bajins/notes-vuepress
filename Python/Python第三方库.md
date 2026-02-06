@@ -76,6 +76,7 @@
 * ORM [https://github.com/sqlalchemy/sqlalchemy](https://github.com/sqlalchemy/sqlalchemy)
 * [https://github.com/ponyorm/pony](https://github.com/ponyorm/pony)
 * [https://github.com/python-gino](https://github.com/python-gino)
+* SQL解析 [https://github.com/tobymao/sqlglot](https://github.com/tobymao/sqlglot)
 * 打印输出为表格 [https://github.com/jazzband/prettytable](https://github.com/jazzband/prettytable)
 * [https://github.com/astanin/python-tabulate](https://github.com/astanin/python-tabulate)
 * SQLModel模型 [https://github.com/tiangolo/sqlmodel](https://github.com/tiangolo/sqlmodel)

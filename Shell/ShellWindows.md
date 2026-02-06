@@ -8,7 +8,6 @@
 * [https://github.com/topics/cygwin](https://github.com/topics/cygwin)
 * [http://www.cygwin.com](http://www.cygwin.com)
     * [Cygwin | silaoA的博客](https://silaoa.github.io/tags/Cygwin)
-* [https://sourceware.org](https://sourceware.org)
 
 
 

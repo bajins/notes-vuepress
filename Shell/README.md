@@ -116,6 +116,7 @@
 - 类ls [https://github.com/yellow-footed-honeyguide/facad](https://github.com/yellow-footed-honeyguide/facad)
 - SCP [https://github.com/lengyijun/smartscp](https://github.com/lengyijun/smartscp)
 - CP [https://github.com/tarka/xcp](https://github.com/tarka/xcp)
+- [https://github.com/11happy/cpx](https://github.com/11happy/cpx)
 - 加密 [https://github.com/candiddev/rot](https://github.com/candiddev/rot)
 - JSON [https://github.com/stedolan/jq](https://github.com/stedolan/jq)
     - [https://stedolan.github.io/jq](https://stedolan.github.io/jq)

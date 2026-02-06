@@ -472,6 +472,7 @@
     * [https://github.com/stilleshan/ServerStatus](https://github.com/stilleshan/ServerStatus)
 * [https://github.com/rajnandan1/kener](https://github.com/rajnandan1/kener)
 * [https://github.com/louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)
+* [https://github.com/TwiN/gatus](https://github.com/TwiN/gatus)
 * [https://github.com/lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare)
 * [https://github.com/OneUptime/oneuptime](https://github.com/OneUptime/oneuptime)
 * [https://github.com/abdenasser/neohtop](https://github.com/abdenasser/neohtop)

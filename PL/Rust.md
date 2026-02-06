@@ -340,6 +340,7 @@ check-revoke = false
 - [https://github.com/kurtbuilds/ormlite](https://github.com/kurtbuilds/ormlite)
 - SQL缓存 [https://github.com/readysettech/readyset](https://github.com/readysettech/readyset)
 - SQL词法分析 [https://github.com/sqlparser-rs/sqlparser-rs](https://github.com/sqlparser-rs/sqlparser-rs)
+- [https://github.com/apache/datafusion-sqlparser-rs](https://github.com/apache/datafusion-sqlparser-rs)
 - 全文搜索 [https://github.com/zhihu/rucene](https://github.com/zhihu/rucene)
 - 编辑器 [https://github.com/xi-editor](https://github.com/xi-editor)
 - 分配器 [https://github.com/gnzlbg/jemallocator](https://github.com/gnzlbg/jemallocator)
