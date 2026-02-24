@@ -114,6 +114,7 @@
 - [https://github.com/vanna-ai/vanna](https://github.com/vanna-ai/vanna)
 - [https://github.com/zhangchenchen/query_gpt](https://github.com/zhangchenchen/query_gpt)
 - [https://github.com/dataease/SQLBot](https://github.com/dataease/SQLBot)
+- [https://github.com/Anarkh-Lee/universal-db-mcp](https://github.com/Anarkh-Lee/universal-db-mcp)
 - 代码搜索 [https://github.com/ast-grep/ast-grep](https://github.com/ast-grep/ast-grep)
 - 可视化前端设计 [https://github.com/webstudio-is/webstudio](https://github.com/webstudio-is/webstudio)
 - [https://github.com/SawyerHood/draw-a-ui](https://github.com/SawyerHood/draw-a-ui)
@@ -124,7 +125,7 @@
 - [https://github.com/apps/gemini-code-assist](https://github.com/apps/gemini-code-assist)
     - [https://codeassist.google](https://codeassist.google)
 - [https://github.com/lintsinghua/DeepAudit](https://github.com/lintsinghua/DeepAudit)
-
+- AI分析进程 [https://github.com/mprajyothreddy/brainkernel](https://github.com/mprajyothreddy/brainkernel)
 
 
 + [技术|什么是 CI/CD？](https://linux.cn/article-9926-1.html)

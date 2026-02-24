@@ -68,6 +68,7 @@
 - [https://github.com/ivoronin/TomatoBar](https://github.com/ivoronin/TomatoBar)
 - 翻译 [https://github.com/tisfeng/Easydict](https://github.com/tisfeng/Easydict)
 - 录屏 [https://github.com/lihaoyun6/QuickRecorder](https://github.com/lihaoyun6/QuickRecorder)
+- [https://github.com/jsattler/BetterCapture](https://github.com/jsattler/BetterCapture)
 - 视频转GIF [https://github.com/sindresorhus/Gifski](https://github.com/sindresorhus/Gifski)
 - 窗口管理 [https://github.com/MrKai77/Loop](https://github.com/MrKai77/Loop)
 - [https://github.com/nikitabobko/AeroSpace](https://github.com/nikitabobko/AeroSpace)
@@ -83,6 +84,7 @@
 - [https://github.com/holzschu/a-shell](https://github.com/holzschu/a-shell)
 - 电脑管理Iphone [https://github.com/iDescriptor/iDescriptor](https://github.com/iDescriptor/iDescriptor)
 - NTFS磁盘读写 [https://github.com/hoochanlon/Free-NTFS-for-Mac](https://github.com/hoochanlon/Free-NTFS-for-Mac)
+- 独立音量控制 [https://github.com/ronitsingh10/FineTune](https://github.com/ronitsingh10/FineTune)
 
 
 

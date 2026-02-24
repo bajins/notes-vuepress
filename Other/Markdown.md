@@ -584,12 +584,14 @@ string &operator+(const string& A,const string& B) //cpp
 + [https://github.com/mundimark/awesome-markdown-editors](https://github.com/mundimark/awesome-markdown-editors)
 
 
+* ~~[https://github.com/typora](https://github.com/typora)~~
+    * [https://www.typora.io](https://www.typora.io)
+    * [https://github.com/DiamondHunters/NodeInject_Hook_example](https://github.com/DiamondHunters/NodeInject_Hook_example)
+    * [https://github.com/743859910/Typora](https://github.com/743859910/Typora)
+    * [https://github.com/ydsuper/Typora_Free_Download](https://github.com/ydsuper/Typora_Free_Download)
+    * [https://github.com/zogodo/typora-0.11.18](https://github.com/zogodo/typora-0.11.18)
 * [https://github.com/purocean/yn](https://github.com/purocean/yn)
 * [https://github.com/c3er/mdview](https://github.com/c3er/mdview)
-* ~~[https://github.com/typora](https://github.com/typora)~~
-    * ~~[https://www.typora.io](https://www.typora.io)~~
-    * [https://github.com/DiamondHunters/NodeInject_Hook_example](https://github.com/DiamondHunters/NodeInject_Hook_example)
-* [https://github.com/Saul-Mirone/milkdown](https://github.com/Saul-Mirone/milkdown)
 * MarkPad [https://github.com/Code52/DownmarkerWPF](https://github.com/Code52/DownmarkerWPF)
 * [Haroopad](http://pad.haroopress.com/user.html)
 * [https://github.com/MacDownApp/macdown](https://github.com/MacDownApp/macdown)

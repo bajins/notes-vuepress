@@ -11,7 +11,6 @@
     + [https://golang.com.cn](https://golang.com.cn)
 + [https://go.dev](https://go.dev)
     + [https://golang.google.cn/dl](https://golang.google.cn/dl)
-    + [https://gomirrors.org](https://gomirrors.org)
     + [https://www.godoc.org](https://www.godoc.org)
     + [https://studygolang.com/dl](https://studygolang.com/dl)
     + [https://pkg.go.dev](https://pkg.go.dev)

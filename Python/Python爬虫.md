@@ -49,6 +49,7 @@
 + Hashcat破解队列系统 [https://github.com/f0cker/crackq](https://github.com/f0cker/crackq)
 + 电话号码的高级信息收集 [https://github.com/sundowndev/PhoneInfoga](https://github.com/sundowndev/PhoneInfoga)
 + 网页抓取查看 [https://github.com/kubero-dev/ladder](https://github.com/kubero-dev/ladder)
++ [https://github.com/goodreasonai/ScrapeServ](https://github.com/goodreasonai/ScrapeServ)
 
 
 

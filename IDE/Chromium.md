@@ -358,6 +358,7 @@ taskkill /f /im chromedriver.exe
 * [Marmoset-创建漂亮的代码图片](https://chrome.google.com/webstore/detail/marmoset/npkfpddkpefnmkflhhligbkofhnafieb)
 * 搜索 [https://github.com/hoothin/SearchJumper](https://github.com/hoothin/SearchJumper)
 * 管理Cookie [https://github.com/Dolov/chrome-best-cookier](https://github.com/Dolov/chrome-best-cookier)
+* 插件开发工具 [https://github.com/cezaraugusto/extension.js](https://github.com/cezaraugusto/extension.js)
 
 
 

@@ -213,6 +213,8 @@
 
 **编辑器**
 
+- [https://github.com/Vanessa219/vditor](https://github.com/Vanessa219/vditor)
+- [https://github.com/Milkdown/milkdown](https://github.com/Milkdown/milkdown)
 - [https://github.com/slab/quill](https://github.com/slab/quill)
 - [https://github.com/notadd/neditor](https://github.com/notadd/neditor)
 - [https://github.com/mycolorway/simditor](https://github.com/mycolorway/simditor)

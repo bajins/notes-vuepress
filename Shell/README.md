@@ -144,6 +144,7 @@
 - 页面缓存 [https://github.com/tobert/pcstat](https://github.com/tobert/pcstat)
 - [https://github.com/silenceshell/hcache](https://github.com/silenceshell/hcache)
 - 自动重连会话 [https://github.com/MisterTea/EternalTerminal](https://github.com/MisterTea/EternalTerminal)
+- 检查网络连接 [https://github.com/karol-broda/snitch](https://github.com/karol-broda/snitch)
 
 
 
