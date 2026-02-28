@@ -333,6 +333,7 @@
 * [https://github.com/pgvector/pgvector](https://github.com/pgvector/pgvector) (PostgreSQL扩展)
 * [https://github.com/towhee-io](https://github.com/towhee-io)
 * [https://github.com/pinecone-io](https://github.com/pinecone-io)
+* [https://github.com/ruvnet/ruvector](https://github.com/ruvnet/ruvector)
 
 
 

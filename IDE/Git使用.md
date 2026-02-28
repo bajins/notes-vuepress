@@ -101,6 +101,7 @@
 * [https://github.com/toptal/gitignore.io](https://github.com/toptal/gitignore.io)
 * 编辑版本控制存储库历史 [http://www.catb.org/esr/reposurgeon](http://www.catb.org/esr/reposurgeon)
 * GUI [https://github.com/git-cola/git-cola](https://github.com/git-cola/git-cola)
+* [https://github.com/DetachHead/rebased](https://github.com/DetachHead/rebased)
 * [https://github.com/prati0100/git-gui](https://github.com/prati0100/git-gui)
 * [https://github.com/extrawurst/gitui](https://github.com/extrawurst/gitui)
 * [https://github.com/gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler)

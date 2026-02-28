@@ -272,6 +272,7 @@
 * [https://github.com/SocketDev](https://github.com/SocketDev)
 * 数据库可视化 [https://github.com/lana-k/sqliteviz](https://github.com/lana-k/sqliteviz)
 * JSON增强 [https://github.com/blitz-js/superjson](https://github.com/blitz-js/superjson)
+* [https://github.com/rictic/jsonriver](https://github.com/rictic/jsonriver)
 * JSON校验 [https://github.com/ozkxr/match-json](https://github.com/ozkxr/match-json)
 * 二维码 [https://github.com/ciaochaos/qrbtf](https://github.com/ciaochaos/qrbtf)
 * [https://github.com/mumuy/widget-qrcode](https://github.com/mumuy/widget-qrcode)

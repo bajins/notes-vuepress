@@ -300,7 +300,6 @@
 * 签名 [https://github.com/patrickfav/uber-apk-signer](https://github.com/patrickfav/uber-apk-signer)
 * 媒体管理 [https://github.com/bumptech/glide](https://github.com/bumptech/glide)
 * [https://github.com/yanzhenjie/SwipeRecyclerView](https://github.com/yanzhenjie/SwipeRecyclerView)
-* 文件管理 [https://github.com/FossifyOrg/File-Manager](https://github.com/FossifyOrg/File-Manager)
 * 启动时初始化 [https://github.com/idisfkj/android-startup](https://github.com/idisfkj/android-startup)
 * 停止应用程序 [https://github.com/XYScience/StopApp](https://github.com/XYScience/StopApp)
 * 版本检测升级 [https://github.com/AlexLiuSheng/CheckVersionLib](https://github.com/AlexLiuSheng/CheckVersionLib)
@@ -489,6 +488,9 @@
 + [https://github.com/topics/mobile-game](https://github.com/topics/mobile-game)
 + [https://github.com/topics/multiplatform](https://github.com/topics/multiplatform)
 + [https://github.com/albertomosconi/foss-apps](https://github.com/albertomosconi/foss-apps)
++ [https://github.com/FossifyOrg](https://github.com/FossifyOrg)
+    + ~~[https://github.com/SimpleMobileTools](https://github.com/SimpleMobileTools)~~
+    + 相册/文件/日历/联系人/短信/音乐/笔记/时钟/录音/计算器/启动器/电话/相机/手电筒/画布/输入法/笔记
 
 
 * 文件传输 [https://github.com/localsend/localsend](https://github.com/localsend/localsend)
@@ -575,7 +577,6 @@
     * [https://github.com/naman14/TimberX](https://github.com/naman14/TimberX)
 * [https://github.com/ologe/canaree-music-player](https://github.com/ologe/canaree-music-player)
 * [https://www.larkplayer.com](https://www.larkplayer.com)
-* 录音 [https://github.com/FossifyOrg/Voice-Recorder](https://github.com/FossifyOrg/Voice-Recorder)
 * 白噪音 [https://github.com/Tosencen/XMSLEEP](https://github.com/Tosencen/XMSLEEP)
 * Poweramp [https://powerampapp.com](https://powerampapp.com)
 * 图片编辑 [https://qingtu.kajicam.com](https://qingtu.kajicam.com)
@@ -632,6 +633,7 @@
 * [https://github.com/anubhavshrimal/CalculatorApp](https://github.com/anubhavshrimal/CalculatorApp)
 * [https://github.com/SimpleMobileTools/Simple-Calculator](https://github.com/SimpleMobileTools/Simple-Calculator)
 * 时钟 [https://github.com/vicolo-dev/chrono](https://github.com/vicolo-dev/chrono)
+* [https://github.com/CCExtractor/ultimate_alarm_clock](https://github.com/CCExtractor/ultimate_alarm_clock)
 * 设备管理 [https://codeberg.org/Freeyourgadget/Gadgetbridge](https://codeberg.org/Freeyourgadget/Gadgetbridge)
 
 

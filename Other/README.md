@@ -18,6 +18,8 @@
 * 人体系统调优 [https://github.com/zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization)
 * 相机数据库 [https://github.com/leavestylecode/CameraDatabase](https://github.com/leavestylecode/CameraDatabase)
 * 信号干扰器 [https://github.com/EmenstaNougat/ESP32-BlueJammer](https://github.com/EmenstaNougat/ESP32-BlueJammer)
+* 追踪位置 [https://github.com/HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack)
+* [https://github.com/thewhiteh4t/seeker](https://github.com/thewhiteh4t/seeker)
 
 
 > 要乐观，要看好未来。因为乐观主义者会动手做事，而**世界是由动手去做的人决定的**。

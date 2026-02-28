@@ -12,7 +12,8 @@
 
 
 * [https://www.jetbrains.com/idea/download/other.html](https://www.jetbrains.com/idea/download/other.html)
-* [https://github.com/search?q=jetbra](https://github.com/search?q=jetbra)
+    * [https://github.com/designinlife/jetbrains](https://github.com/designinlife/jetbrains)
+* [https://github.com/search?q=jetbrains+agent+OR+jetbra&s=updated](https://github.com/search?q=jetbrains+agent+OR+jetbra&s=updated)
 * [https://zhile.io/archives](https://zhile.io/archives)
     * `jetbrains-agent`(v3.2.0为2020.1.4及以下版本)/`FineAgent`/`plugin-fineagent`/`BetterIntelliJ`
     * `jetbrains-eval-reset`（[IDE Eval Reset](https://gitee.com/pengzhile/ide-eval-resetter)）v2.3.5为2021.2.4(2021.2.3起需要登录)及以下版本重置试用插件
@@ -31,6 +32,7 @@
         * [https://github.com/Nasller/LicenseServer](https://github.com/Nasller/LicenseServer)
         * [https://notabug.org/Nasller/LicenseServer](https://notabug.org/Nasller/LicenseServer)
         * [https://github.com/H1d3r/Ja-LicenseServer](https://github.com/H1d3r/Ja-LicenseServer)
+        * [https://github.com/cuijianzhuang/jetbrains_servers_updater](https://github.com/cuijianzhuang/jetbrains_servers_updater)
         * [https://github.com/starxg/MyBatisCodeHelperProCrack](https://github.com/starxg/MyBatisCodeHelperProCrack)
         * [https://github.com/zrongdong/ja-netfilter](https://github.com/zrongdong/ja-netfilter) 2021.3-最新版本可用
         * [https://github.com/noviceli/jetbra](https://github.com/noviceli/jetbra)
@@ -45,6 +47,8 @@
                 * [https://gitea.998043.xyz/yelochick/plugin-activation](https://gitea.998043.xyz/yelochick/plugin-activation)
                     * [https://github.com/cblueo/smart-input-pro](https://github.com/cblueo/smart-input-pro)
             * [https://github.com/iofeqkurrc42/jetbra-server-go](https://github.com/iofeqkurrc42/jetbra-server-go)
+                * [https://ls.521868.xyz](https://ls.521868.xyz)
+        * [https://github.com/jellymlg/jetbrains-agent](https://github.com/jellymlg/jetbrains-agent)
         * [https://github.com/NotoChen/Jetbrains-Help](https://github.com/NotoChen/Jetbrains-Help)
             * [https://gitee.com/guoyifanA/qiu-mo-jetbrains-help](https://gitee.com/guoyifanA/qiu-mo-jetbrains-help)
             * [https://ide.mihuyo.cc](https://ide.mihuyo.cc)
@@ -599,6 +603,7 @@
 - [https://github.com/LinWanCen](https://github.com/LinWanCen)
 - [https://github.com/kookob/toolset](https://github.com/kookob/toolset)
 - [https://github.com/findtheflow/Feedback](https://github.com/findtheflow/Feedback)
+- 编辑器间光标保持 [https://github.com/wanniwa/EditorJumper](https://github.com/wanniwa/EditorJumper)
 
 
 **Maven Helper**

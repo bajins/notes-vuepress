@@ -168,7 +168,6 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 * Fernflower [https://github.com/fesh0r/fernflower](https://github.com/fesh0r/fernflower)
    * [https://github.com/MinecraftForge/ForgeFlower](https://github.com/MinecraftForge/ForgeFlower)
    * [http://the.bytecode.club/fernflower.jar](http://the.bytecode.club/fernflower.jar)
-   * [https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler](https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler)
    * Quiltflower [https://github.com/Vineflower/vineflower](https://github.com/Vineflower/vineflower)
 * [https://github.com/Storyyeller/Krakatau](https://github.com/Storyyeller/Krakatau)
 * [https://sourceforge.net/projects/jode](https://sourceforge.net/projects/jode)

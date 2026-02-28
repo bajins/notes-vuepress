@@ -166,6 +166,12 @@ get-appxpackage *maps* | remove-appxpackage
 get-appxpackage *soundrecorder* | remove-appxpackage
 # XBox
 get-appxpackage *xbox* | remove-appxpackage
+
+# OneDrive、GamePanel、WpcMon
+# 文件授予当前用户方式删除
+$path = "C:\Windows\System32\OneDriveSetup.exe"; takeown /f $path; icacls $path /grant "$($env:USERNAME):F"; Remove-Item $path -Force
+# 权限提升方式删除
+$file = "C:\Windows\System32\OneDriveSetup.exe"; $acl = Get-Acl $file; $rule = New-Object System.Security.AccessControl.FileSystemAccessRule("BUILTIN\Administrators", "FullControl", "Allow"); $acl.SetAccessRule($rule); Set-Acl $file $acl; Remove-Item $file -Force
 ```
 
 - 恢复应用程序

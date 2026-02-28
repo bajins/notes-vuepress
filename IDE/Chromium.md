@@ -52,7 +52,7 @@
 + [https://github.com/topics/chrome](https://github.com/topics/chrome)
 + [https://github.com/chromium/chromium](https://github.com/chromium/chromium)
     + [https://chromium.googlesource.com](https://chromium.googlesource.com)
-    + [https://www.chromium.org](https://www.chromium.org)
+    + [https://www.chromium.org/getting-involved/download-chromium](https://www.chromium.org/getting-involved/download-chromium)
     + [https://source.chromium.org](https://source.chromium.org)
     + 权限访问示例 [https://github.com/chromium/permission.site](https://github.com/chromium/permission.site)
 + [https://github.com/googlechrome](https://github.com/googlechrome)
@@ -62,7 +62,8 @@
 
 **Chrome**
 
-* [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
+* [https://www.google.cn/intl/zh-CN/chrome?standalone=1&platform=win64Windows](https://www.google.cn/intl/zh-CN/chrome?standalone=1&platform=win64Windows)
+    * [https://google.cn/chrome/?standalone=1](https://google.cn/chrome/?standalone=1)
     * [https://chromeenterprise.google/intl/zh_CN/browser/download](https://chromeenterprise.google/intl/zh_CN/browser/download)
     * 有更新组件 https://redirector.gvt1.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise64.msi
     * 有更新组件 https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi
