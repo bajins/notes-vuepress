@@ -823,6 +823,7 @@
 * 英语阅读学习 [https://github.com/xckevin/magic-english-buddy](https://github.com/xckevin/magic-english-buddy)
 * 模拟小区采光 [https://github.com/SeanWong17/building-sunlight-simulator](https://github.com/SeanWong17/building-sunlight-simulator)
 * 族谱管理 [https://github.com/yunfengsa/pure-genealogy](https://github.com/yunfengsa/pure-genealogy)
+* 实时计算笔记 [https://github.com/2234839/TsFullStack](https://github.com/2234839/TsFullStack)
 
 
 

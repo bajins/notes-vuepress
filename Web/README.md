@@ -195,6 +195,7 @@
 * [https://github.com/i5heu/Faultier-CV](https://github.com/i5heu/Faultier-CV)
 * [https://github.com/RylanBot/resume-json-pdf](https://github.com/RylanBot/resume-json-pdf)
 * [https://github.com/BingyanStudio/LapisCV](https://github.com/BingyanStudio/LapisCV)
+* [https://github.com/JOYCEQL/magic-resume](https://github.com/JOYCEQL/magic-resume)
 * 百科 [https://github.com/Requarks/wiki](https://github.com/Requarks/wiki)
 * [https://github.com/phachon/mm-wiki](https://github.com/phachon/mm-wiki)
 * [https://github.com/tangly1024/NotionNext](https://github.com/tangly1024/NotionNext)

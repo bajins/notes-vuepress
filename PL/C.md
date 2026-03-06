@@ -170,6 +170,7 @@
     * HTTP [https://curl.se/libcurl](https://curl.se/libcurl)
     * [https://github.com/search?q=libcurl](https://github.com/search?q=libcurl)
     * [https://github.com/lexiforest/curl-impersonate](https://github.com/lexiforest/curl-impersonate)
+    * [https://github.com/akgitrepos/explain-my-curl](https://github.com/akgitrepos/explain-my-curl)
 * [https://github.com/ngtcp2](https://github.com/ngtcp2)
     * [https://github.com/tatsuhiro-t](https://github.com/tatsuhiro-t)
 * [https://github.com/lwip-tcpip/lwip](https://github.com/lwip-tcpip/lwip)

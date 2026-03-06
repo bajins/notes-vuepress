@@ -29,6 +29,9 @@
 * 匿名跟踪测试 [https://firstpartysimulator.org](https://firstpartysimulator.org)
 * [https://github.com/libredirect](https://github.com/libredirect)
 * AI [https://github.com/debugtheworldbot/chromegemini](https://github.com/debugtheworldbot/chromegemini)
+* [https://github.com/Tabbit-Browser](https://github.com/Tabbit-Browser)
+    * [https://www.tabbit-ai.com](https://www.tabbit-ai.com)
+    * [https://www.tabbitbrowser.com](https://www.tabbitbrowser.com)
 * 自动化浏览器操作 [https://github.com/Skyvern-AI/Skyvern](https://github.com/Skyvern-AI/Skyvern)
 * 无头浏览器 [https://github.com/lightpanda-io/browser](https://github.com/lightpanda-io/browser)
 * 虚拟浏览器 [https://github.com/m1k1o/neko](https://github.com/m1k1o/neko)
@@ -442,19 +445,19 @@ taskkill /f /im chromedriver.exe
 
 ### 翻译
 
-* [https://github.com/AnYi-0/Translator](https://github.com/AnYi-0/Translator)
-* [https://github.com/lmk123/crx-selection-translate](https://github.com/lmk123/crx-selection-translate)
-* [https://github.com/magic-FE/translate-man](https://github.com/magic-FE/translate-man)
 * [https://github.com/Cookee24/PairTranslate](https://github.com/Cookee24/PairTranslate)
-* [https://github.com/EdgeTranslate/EdgeTranslate](https://github.com/EdgeTranslate/EdgeTranslate)
 * [https://github.com/Bistutu/FluentRead](https://github.com/Bistutu/FluentRead)
+* [https://github.com/AnYi-0/Translator](https://github.com/AnYi-0/Translator)
 * [https://github.com/immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate)
 * [https://github.com/OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX)
 * [https://github.com/fishjar/kiss-translator](https://github.com/fishjar/kiss-translator)
 * [https://github.com/marmot-z/baicizhan-helper](https://github.com/marmot-z/baicizhan-helper)
-* [https://github.com/openai-translator/openai-translator](https://github.com/openai-translator/openai-translator)
 * [https://github.com/FilipePS/Traduzir-paginas-web](https://github.com/FilipePS/Traduzir-paginas-web)
 * [https://github.com/chengfengfengwang/lingo-link](https://github.com/chengfengfengwang/lingo-link)
+* [https://github.com/openai-translator/openai-translator](https://github.com/openai-translator/openai-translator)
+* [https://github.com/EdgeTranslate/EdgeTranslate](https://github.com/EdgeTranslate/EdgeTranslate)
+* [https://github.com/lmk123/crx-selection-translate](https://github.com/lmk123/crx-selection-translate)
+* [https://github.com/magic-FE/translate-man](https://github.com/magic-FE/translate-man)
 
 
 

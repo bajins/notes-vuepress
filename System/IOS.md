@@ -78,6 +78,7 @@
 - [https://github.com/paulmillr/encrypted-dns](https://github.com/paulmillr/encrypted-dns)
 - 应用管理器 [https://github.com/milanvarady/Applite](https://github.com/milanvarady/Applite)
 - [https://devutils.com](https://devutils.com)
+- 快捷启动 [https://github.com/SuperCmdLabs/SuperCmd](https://github.com/SuperCmdLabs/SuperCmd)
 - 剪贴板 [https://github.com/s1ntoneli/Copi](https://github.com/s1ntoneli/Copi)
 - 虚拟机 [https://github.com/utmapp/UTM](https://github.com/utmapp/UTM)
 - [https://github.com/ish-app/ish](https://github.com/ish-app/ish)

@@ -520,6 +520,7 @@
 * FDM [https://www.freedownloadmanager.org/zh/download-fdm-for-android.htm](https://www.freedownloadmanager.org/zh/download-fdm-for-android.htm)
 * 压缩解压 [http://www.unisapps.com](http://www.unisapps.com)
 * 工具箱 [https://github.com/helloklf/vtools](https://github.com/helloklf/vtools)
+* [https://github.com/QingGeTech/OneDroid](https://github.com/QingGeTech/OneDroid)
 * 自动点击 [https://github.com/gkd-kit/gkd](https://github.com/gkd-kit/gkd)
 * [https://github.com/zfdang/Android-Touch-Helper](https://github.com/zfdang/Android-Touch-Helper)
 * [https://github.com/GuoXiCheng/SKIP](https://github.com/GuoXiCheng/SKIP)
