@@ -53,6 +53,7 @@
     * [https://docs.microsoft.com/zh-cn/windows/wsl](https://docs.microsoft.com/zh-cn/windows/wsl)
         * [手动下载适用于 Linux 的 Windows 子系统发行版包](https://docs.microsoft.com/zh-cn/windows/wsl/install-manual#downloading-distributions)
 * 性能评测 [https://github.com/microsoft/Microsoft-Performance-Tools-Linux-Android](https://github.com/microsoft/Microsoft-Performance-Tools-Linux-Android)
+* 管理器 [https://github.com/bostrot/wsl2-distro-manager](https://github.com/bostrot/wsl2-distro-manager)
 * WSA Tool [https://github.com/weareblahs/WSAUtilities](https://github.com/weareblahs/WSAUtilities)
 * [https://github.com/alesimula/wsa_pacman](https://github.com/alesimula/wsa_pacman)
 * [https://github.com/voletro/wsa-toolbox](https://github.com/voletro/wsa-toolbox)

@@ -44,6 +44,7 @@
 * [苦瓜甘甜](http://www.kuguagantian.com)
 * [https://ylface.com](https://ylface.com)
 * [https://diakov.net](https://diakov.net)
+* [https://yuesekaer.com](https://yuesekaer.com)
 
 
 **论坛**
@@ -803,6 +804,8 @@
 + [https://github.com/topics/office](https://github.com/topics/office)
 + [https://github.com/topics/office-tools](https://github.com/topics/office-tools)
 + [Office 部署工具概述](https://docs.microsoft.com/zh-cn/deployoffice/overview-office-deployment-tool)
++ [https://learn.microsoft.com/zh-cn/office/volume-license-activation/gvlks](https://learn.microsoft.com/zh-cn/office/volume-license-activation/gvlks)
+
 
 * [https://github.com/apache/openoffice](https://github.com/apache/openoffice)
 * [https://github.com/LibreOffice](https://github.com/LibreOffice)
@@ -834,6 +837,14 @@
 
 ### wps
 
+
+* [https://github.com/RainCandyTech](https://github.com/RainCandyTech)
+    * [https://raincandy.tech/wpsoffice_umrse](https://raincandy.tech/wpsoffice_umrse)
+    * [https://github.com/ShinjoKurumi/WPSOfficeConf](https://github.com/ShinjoKurumi/WPSOfficeConf)
+* [https://slxy.wzu.edu.cn/info/1048/9920.htm](https://slxy.wzu.edu.cn/info/1048/9920.htm)
+* [https://ncre.neea.edu.cn/html1/report/1507/861-1.htm](https://ncre.neea.edu.cn/html1/report/1507/861-1.htm)
+
+
 - 打开WPS的安装目录（默认为`%UserProfile%\AppData\Local\Kingsoft\WPS Office`），找到`ksomisc.exe`，
 切换到最后一个选项卡，取消勾选广告和推送相关项目。
 - 在WPS的安装目录找到`product.dat`，用任意文本编辑器打开，将内容替换为：
@@ -845,9 +856,13 @@
 **wps key**
 
 ```
+# 2023密钥
+KJPTH-8MN69-DBV7K-PPDW9-8QUUB（集美大学，有效期至 2028 年）
+
 # 2019密钥
 694BF-YUDBG-EAR69-BPRGB-ATQXH
 FLHAP-TEUGA-9MA3A-3TY3Q-V9EPD
+TJ3GN-9NTGQ-GLF7C-YEN8X-TJWML（博湖县政府）
 
 # 2016密钥
 9DP6T-9AGWG-KWV33-9MPC8-JDCVF
@@ -858,8 +873,9 @@ A4XV7-QP9JN-E7FCB-VQFRD-4NLKC
 U272H-HH2F6-WDG36-ULUPX-PCHTJ
 7LR67-WTXPA-KLUHV-GEK2E-QW4CK
 EUYTH-3KWKL-PJMX7-XBCPW-9U2DD
-R7AKQ-KLBXV-RNX3F-BPACQ-NQDGE （该序列号来自石家庄人社局）
-THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
+R7AKQ-KLBXV-RNX3F-BPACQ-NQDGE （石家庄人社局）
+THUV2-32HH7-6NMHN-PTX7Y-QQCTH（昔阳县政府)
+GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 ```
 
 

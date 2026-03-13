@@ -91,8 +91,10 @@
 
 
 * [https://github.com/MicrosoftEdge](https://github.com/MicrosoftEdge)
-    * [https://www.microsoft.com/zh-cn/edge](https://www.microsoft.com/zh-cn/edge)
-    *  [最新官方稳定版离线安装包 x64](https://go.microsoft.com/fwlink/?LinkID=2093437)
+    * [https://www.microsoft.com/zh-cn/edge/download](https://www.microsoft.com/zh-cn/edge/download)
+    * [https://github.com/Bush2021/edge_installer](https://github.com/Bush2021/edge_installer)
+    * [https://github.com/xrgzs/MSUpdate.Edge](https://github.com/xrgzs/MSUpdate.Edge)
+    * [最新官方稳定版离线安装包 x64](https://go.microsoft.com/fwlink/?LinkID=2093437)
     * [https://docs.microsoft.com/zh-cn/microsoft-edge](https://docs.microsoft.com/zh-cn/microsoft-edge)
     * 不显示新建标签页广告资讯和网址（微软对中国区特供）强制本地NTP，添加快捷方式运行参数：`--force-local-ntp`
 * [https://www.mozilla.org/zh-CN/firefox/all](https://www.mozilla.org/zh-CN/firefox/all)

@@ -242,10 +242,28 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 - 启用预留存储：`Set-WindowsReservedStorageState -State enable`
 
 
+**MPO（Windows Multiplane Overlay）显卡硬件加速导致窗口或浏览器冻结/卡顿**
+
+* https://github.com/WaterLemons2k/Blog/blob/main/content/post/2024/disable-windows-11-mpo.md
+* https://learn.microsoft.com/zh-cn/windows-hardware/drivers/display/multiplane-overlay-support
+* https://learn.microsoft.com/zh-cn/windows/win32/dwm/registry-values
+
+- Chrome 设置关闭`在可用时使用图形加速`选项
+    - 打开 Chrome 浏览器，点击菜单图标（三个垂直点），选择`设置`。
+    - 在设置页面中，点击左侧`系统`，或在地址栏输入`chrome://settings/system`
+    - 取消勾选`在可用时使用图形加速`
+- 关闭核显（集成显卡）
+    - 右键点击任务栏的 `开始` 徽标（或按 <kbd>Win</kbd> + <kbd>X</kbd>）
+    - 在弹出的菜单中选择 `设备管理器`
+    - 在设备管理器列表中，找到并展开`显示适配器`
+    - 右键点击`Intel(R) UHD Graphics`/`Intel Iris Graphics`/`AMD Radeon Graphics`，选择`禁用设备`
+
+
 
 ## MSDN
 
 * 搜索更新补丁下载 [http://www.catalog.update.microsoft.com](http://www.catalog.update.microsoft.com)
+    * [https://github.com/xrgzs/MSUpdate](https://github.com/xrgzs/MSUpdate)
 * [https://www.microsoft.com/zh-cn/software-download](https://www.microsoft.com/zh-cn/software-download)
 * [http://msdn.itellyou.cn](http://msdn.itellyou.cn)
 * [https://www.iruanmi.com/msdn](https://www.iruanmi.com/msdn)
@@ -265,6 +283,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
     * [https://github.com/gravesoft/msdl](https://github.com/gravesoft/msdl)
         * [https://msdl.gravesoft.dev](https://msdl.gravesoft.dev)
     * [https://github.com/cmontage/mas-cn](https://github.com/cmontage/mas-cn)
+* WIM映像操作 [https://github.com/ebiggers/wimlib](https://github.com/ebiggers/wimlib)
 
 
 
@@ -308,6 +327,8 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [http://www.bfgho.com](http://www.bfgho.com)
 * [https://yukaidi.top](https://yukaidi.top)
 * [https://www.hirensbootcd.org](https://www.hirensbootcd.org)
+* [https://pe.xrgzs.top](https://pe.xrgzs.top)
+* [https://www.pandadatech.cn/original/panda-pe](https://www.pandadatech.cn/original/panda-pe)
 
 
 
@@ -412,6 +433,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://getconfirmationid.com](https://getconfirmationid.com)
     * [网页激活](https://mp.weixin.qq.com/s/kn86Wisr2DGfyAlKJUFOwQ)
 * XP密钥生成 [https://github.com/Neo-Desktop/WindowsXPKg](https://github.com/Neo-Desktop/WindowsXPKg)
+* 手动数字许可证激活 [https://mp.weixin.qq.com/s/3JdEcYl6vYzZSvbfS_ERbg](https://mp.weixin.qq.com/s/3JdEcYl6vYzZSvbfS_ERbg)
 
 
 - https://wwi.lanzoup.com/b00rwulef
@@ -481,7 +503,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 + [https://github.com/TheMMC/In-Place_Upgrade_Helper](https://github.com/TheMMC/In-Place_Upgrade_Helper)
 
 
-> 注意：Windows10/11家庭版升级Windows10/11专业版的密钥不是激活密钥
+> 注意：Windows10/11家庭版升级Windows10/11专业版的密钥是产品通行密钥，不是激活密钥
 
 1. 升级：设置 -> 更新和安全 -> 激活 -> 更改产品秘钥，断网后，填入 下方的升级密钥，重启
 
@@ -489,7 +511,6 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 4N7JM-CV98F-WY9XX-9D8CF-369TT
 FMPND-XFTD4-67FJC-HDR8C-3YH26
 4N894-WMB2D-PRGHC-BVYW8-CPQGT
-VK7JG-NPHTM-C97JM-9MPGT-3V66T
 W269N-WFGWX-YVC9B-4J6C9-T83GX
 236TW-X778T-8MV9F-937GT-QVKBB
 WMN7B-Y7TKF-Y49QB-TMQ8T-GMT6T
@@ -499,6 +520,24 @@ NYW94-47Q7H-7X9TT-W7TXD-JTYPM
 NJ4MX-VQQ7Q-FP3DB-VDGHX-7XM87
 J71T3-3GCPG-9GVWT-CH2XR-GMRJM
 6P99N-YF42M-TPGBG-9VMJP-YKHCF
+
+企业版(Enterprise)：XGVPP-NMH47-7TTHJ-W3FW7-8HV2C
+专业版(Professional)：VK7JG-NPHTM-C97JM-9MPGT-3V66T
+家庭版特别国家版(CoreCountrySpecific)：N2434-X9D7W-8PF6X-8DV9T-8TYMD
+家庭单语言版(CoreSingleLanguage)：BT79Q-G7N6G-PGBYW-4YWX6-6F4BT
+家庭版(Core)：YTMG3-N6DKC-DKB77-7M9GH-8HVX7
+教育版(Education)：YNMGQ-8RYV3-4PGQ3-C8XTP-7CFBY
+专业版特别国家版(ProfessionalCountrySpecific_Zn)：3XP6D-CRND4-DRYM2-GM84D-4GG8Y
+专业工作站版(ProfessionalWorkstation)：DXG7C-N36C4-C4HTG-X4T3X-2YV77
+专业教育版(ProfessionalEducation)：8PTT6-RNW4C-6V7J2-C2D3X-MHBPB
+LTSC 2024(EnterpriseS_Ge)：PJB47-8PN2T-MCGDY-JTY3D-CBCPV
+LTSC 2021(EnterpriseS_VB)：KCNVH-YKWX8-GJJB9-H9FDT-6F7W2
+LTSC 2019(EnterpriseS_RS5)：43TBQ-NH92J-XKTM7-KT3KK-P39PB
+LTSB 2016(EnterpriseS_RS1)：NK96Y-D9CD8-W44CQ-R8YTK-DYJWX
+LTSB 2015(EnterpriseS_TH)：FWN7H-PF93Q-4GGP8-M8RF3-MDWWW
+物联网版(IoTEnterprise)：XQQYW-NFFMW-XJPBH-K8732-CKFFD 
+物联网版2021(IoTEnterpriseS_VB)：QPM6N-7J2WJ-P88HH-P3YRH-YY74H
+物联网版2024(IoTEnterpriseS_Ge)：CGK42-GYN6Y-VD22B-BX98W-J8JXD
 ```
 
 - 命令转换版本

@@ -475,6 +475,7 @@
 * [https://github.com/TwiN/gatus](https://github.com/TwiN/gatus)
 * [https://github.com/lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare)
 * [https://github.com/OneUptime/oneuptime](https://github.com/OneUptime/oneuptime)
+* [https://github.com/c0m4r/kula](https://github.com/c0m4r/kula)
 * [https://github.com/abdenasser/neohtop](https://github.com/abdenasser/neohtop)
 * [https://github.com/StamusNetworks/SELKS](https://github.com/StamusNetworks/SELKS)
 * [https://github.com/BetterStackHQ](https://github.com/BetterStackHQ)
