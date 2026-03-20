@@ -99,6 +99,7 @@
 - [https://github.com/jpy-consortium/jpy](https://github.com/jpy-consortium/jpy)
 - [https://github.com/jython/jython](https://github.com/jython/jython)
 - [https://github.com/beeware/voc](https://github.com/beeware/voc)
+- 向量搜索 [https://github.com/datastax/jvector](https://github.com/datastax/jvector)
 
 
 

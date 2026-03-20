@@ -478,6 +478,8 @@ taskkill /f /im chromedriver.exe
 * [https://github.com/AdguardTeam](https://github.com/AdguardTeam)
 * [https://github.com/iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome)
 * [https://github.com/SugarCoatJS](https://github.com/SugarCoatJS)
+* [https://github.com/ghostery](https://github.com/ghostery)
+* [https://github.com/EFForg/privacybadger](https://github.com/EFForg/privacybadger)
 * QuantumultX [https://github.com/ddgksf2013](https://github.com/ddgksf2013)
 * [https://github.com/KOP-XIAO/QuantumultX](https://github.com/KOP-XIAO/QuantumultX)
 * [https://github.com/Orz-3/QuantumultX](https://github.com/Orz-3/QuantumultX)

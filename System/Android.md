@@ -490,7 +490,7 @@
 + [https://github.com/albertomosconi/foss-apps](https://github.com/albertomosconi/foss-apps)
 + [https://github.com/FossifyOrg](https://github.com/FossifyOrg)
     + ~~[https://github.com/SimpleMobileTools](https://github.com/SimpleMobileTools)~~
-    + 相册/文件/日历/联系人/短信/音乐/笔记/时钟/录音/计算器/启动器/电话/相机/手电筒/画布/输入法/笔记
+    + 相册/文件/日历/联系人/短信/音乐/笔记/时钟/录音/计算器/启动器/电话/相机/手电筒/画布/输入法
 
 
 * 文件传输 [https://github.com/localsend/localsend](https://github.com/localsend/localsend)
@@ -544,6 +544,8 @@
 * [https://videoshowapp.cn](https://videoshowapp.cn)
 * [https://github.com/aserbao/AndroidCamera](https://github.com/aserbao/AndroidCamera)
 * 视频播放 [https://nplayer.com](https://nplayer.com)
+* [https://github.com/anilbeesetti/nextplayer](https://github.com/anilbeesetti/nextplayer)
+* [https://github.com/Kindness-Kismet/One-Player](https://github.com/Kindness-Kismet/One-Player)
 * [https://github.com/Moriafly/SaltPlayerSource](https://github.com/Moriafly/SaltPlayerSource)
     * [https://sakawish.github.io](https://sakawish.github.io)
 * [https://github.com/ZTFtrue/MonsterMusic](https://github.com/ZTFtrue/MonsterMusic)
@@ -636,6 +638,7 @@
 * 时钟 [https://github.com/vicolo-dev/chrono](https://github.com/vicolo-dev/chrono)
 * [https://github.com/CCExtractor/ultimate_alarm_clock](https://github.com/CCExtractor/ultimate_alarm_clock)
 * 设备管理 [https://codeberg.org/Freeyourgadget/Gadgetbridge](https://codeberg.org/Freeyourgadget/Gadgetbridge)
+* 笔记 [https://github.com/theachoem/storypad](https://github.com/theachoem/storypad)
 
 
 

@@ -89,6 +89,7 @@ sudo apt clean
     * [https://github.com/ryan4yin/nixos-and-flakes-book](https://github.com/ryan4yin/nixos-and-flakes-book)
 * [https://github.com/rpm-software-management/rpm](https://github.com/rpm-software-management/rpm)
 * [https://github.com/joyent/pkgsrc](https://github.com/joyent/pkgsrc)
+* [https://github.com/mexirica/aptui](https://github.com/mexirica/aptui)
 * [https://github.com/TritonDataCenter/pkgsrc](https://github.com/TritonDataCenter/pkgsrc)
     * [https://github.com/NetBSDfr](https://github.com/NetBSDfr)
 * [https://github.com/Homebrew/brew](https://github.com/Homebrew/brew)
