@@ -30,7 +30,6 @@
 - [https://github.com/shengxinjing/programmer-job-blacklist](https://github.com/shengxinjing/programmer-job-blacklist)
 - [https://indiehackertools.net](https://indiehackertools.net)
 - [https://github.com/lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job)
-- [https://github.com/FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2)
 - [AppStore 首页推荐后，依然月入不足 3000，独立开发两年血泪复盘](https://www.v2ex.com/t/1121385)
 - [离职后，我的第一个出海产品上线了](https://zhuanlan.zhihu.com/p/1919858045250434904)
 - 推广渠道 [https://github.com/naxiaoduo/1000UserGuide](https://github.com/naxiaoduo/1000UserGuide)

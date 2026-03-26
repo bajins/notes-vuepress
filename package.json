@@ -50,7 +50,7 @@
         "node-sass": ">=9.0.0",
         "package": "^1.0.1",
         "querystringify": "2.2.0",
-        "serialize-javascript": "^6.0.2",
+        "serialize-javascript": ">=7.0.3",
         "set-value": "^4.1.0",
         "vue-class-component": "^7.2.6",
         "vue-click-outside": "^1.1.0",

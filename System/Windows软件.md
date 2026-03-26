@@ -45,6 +45,7 @@
 * [https://ylface.com](https://ylface.com)
 * [https://diakov.net](https://diakov.net)
 * [https://yuesekaer.com](https://yuesekaer.com)
+* [https://www.mefcl.com](https://www.mefcl.com)
 
 
 **论坛**
@@ -841,8 +842,12 @@
 * [https://github.com/RainCandyTech](https://github.com/RainCandyTech)
     * [https://raincandy.tech/wpsoffice_umrse](https://raincandy.tech/wpsoffice_umrse)
     * [https://github.com/ShinjoKurumi/WPSOfficeConf](https://github.com/ShinjoKurumi/WPSOfficeConf)
+    * [https://www.mefcl.com/wps-office-2023.html](https://www.mefcl.com/wps-office-2023.html)
 * [https://slxy.wzu.edu.cn/info/1048/9920.htm](https://slxy.wzu.edu.cn/info/1048/9920.htm)
 * [https://ncre.neea.edu.cn/html1/report/1507/861-1.htm](https://ncre.neea.edu.cn/html1/report/1507/861-1.htm)
+* [https://github.com/NixaVulpi/VCRedistSetup](https://github.com/NixaVulpi/VCRedistSetup)
+* [https://github.com/NixaVulpi/WPSProfileCipher](https://github.com/NixaVulpi/WPSProfileCipher)
+* [https://github.com/NixaVulpi/WPSProfileVerificationPatch](https://github.com/NixaVulpi/WPSProfileVerificationPatch)
 
 
 - 打开WPS的安装目录（默认为`%UserProfile%\AppData\Local\Kingsoft\WPS Office`），找到`ksomisc.exe`，
