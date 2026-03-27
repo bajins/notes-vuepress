@@ -222,6 +222,7 @@ nvm install <最新的版本号>
 * 清理依赖 [https://github.com/voidcosmos/npkill](https://github.com/voidcosmos/npkill)
 * 私服 [https://github.com/verdaccio/verdaccio](https://github.com/verdaccio/verdaccio)
     * [Ubuntu服务器上搭建Npm私服](https://segmentfault.com/a/1190000047471564)
+* [https://github.com/Thomascogez/npflared](https://github.com/Thomascogez/npflared)
 
 
 - [https://github.com/xthezealot/npmprune](https://github.com/xthezealot/npmprune)

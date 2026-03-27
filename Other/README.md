@@ -30,6 +30,13 @@
 >> 个人的出路只能是积极动手去做，为自己创造一些改变，争取更好一点的处境。
 
 
+> 别变成机器
+>
+> 机器确实很高效，但有一个问题：它是刚性的，以既定的模式和线性速度运转，无法自动适应环境变化，也无法学习游戏规则。
+>
+> 你不是机器，你是人。你的特点应该是灵活应变，快速适应。你不要追求极致的努力，而是要找到最有价值的解决方案。你要专注于真正重要的因素：速度、效率或质量，不要迷恋枯燥乏味的工作。
+
+
 **赞赏/赞助/打赏**
 
 - [https://github.com/opensourcemaintenancefee](https://github.com/opensourcemaintenancefee)
@@ -641,6 +648,7 @@
     * [https://github.com/janeczku/calibre-web](https://github.com/janeczku/calibre-web)
 * [https://github.com/Librum-Reader/Librum](https://github.com/Librum-Reader/Librum)
 * [https://github.com/201206030/novel](https://github.com/201206030/novel)
+* [https://github.com/codedogQBY/ReadAny](https://github.com/codedogQBY/ReadAny)
 * Epub [https://github.com/pacexy/flow](https://github.com/pacexy/flow)
 
 

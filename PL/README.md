@@ -507,6 +507,7 @@
     * [https://typeroom.cn/problems/all](https://typeroom.cn/problems/all)
 * 深入理解TypeScript [https://jkchao.github.io/typescript-book-chinese](https://jkchao.github.io/typescript-book-chinese)
 * [https://github.com/basarat/typescript-book](https://github.com/basarat/typescript-book)
+* [https://github.com/gibbok/typescript-book](https://github.com/gibbok/typescript-book)
 * [https://github.com/amoilanen/Algorithms-with-TypeScript](https://github.com/amoilanen/Algorithms-with-TypeScript)
 
 
