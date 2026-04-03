@@ -115,6 +115,7 @@
 * [https://git-fork.com](https://git-fork.com)
 * [https://www.gitkraken.com](https://www.gitkraken.com)
 * [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
+* worktree的UI [https://github.com/FatDoge/wtree](https://github.com/FatDoge/wtree)
 * SmartGit 是一款优秀的图形化Git仓库管理工具
 * SmartSVN 是一款优秀的图形化SVN仓库管理工具
 * diff [https://github.com/MrWangJustToDo/git-diff-view](https://github.com/MrWangJustToDo/git-diff-view)

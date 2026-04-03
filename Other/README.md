@@ -97,6 +97,7 @@
 * [https://github.com/songquanpeng/message-pusher](https://github.com/songquanpeng/message-pusher)
 * 微信消息 [https://github.com/frankiejun/wxpush](https://github.com/frankiejun/wxpush)
 * [https://github.com/hezhizheng/go-wxpush](https://github.com/hezhizheng/go-wxpush)
+* [https://github.com/aristorechina/wxWebHook](https://github.com/aristorechina/wxWebHook)
 
 
 - [https://github.com/guanguans/notify](https://github.com/guanguans/notify)

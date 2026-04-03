@@ -273,6 +273,7 @@
 + [https://github.com/EclipseFdn/open-vsx.org](https://github.com/EclipseFdn/open-vsx.org)
 
 
+* 获取插件文件 [https://github.com/LiaoGuoYin/lixian.online](https://github.com/LiaoGuoYin/lixian.online)
 * LiveServer [https://github.com/ritwickdey/vscode-live-server-plus-plus](https://github.com/ritwickdey/vscode-live-server-plus-plus)
     * [https://github.com/ritwickdey/vscode-live-server](https://github.com/ritwickdey/vscode-live-server)
 * [https://github.com/redhat-developer](https://github.com/redhat-developer)

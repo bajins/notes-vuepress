@@ -810,9 +810,17 @@
 * 绘制等距图 [https://github.com/stan-smith/FossFLOW](https://github.com/stan-smith/FossFLOW)
 * 雨滴下降路径 [https://github.com/sdl60660/river-runner](https://github.com/sdl60660/river-runner)
     * [https://github.com/ksonda/global-river-runner](https://github.com/ksonda/global-river-runner)
-* 思维导图 [https://github.com/hizzgdev/jsmind](https://github.com/hizzgdev/jsmind)
+* 思维导图 [https://github.com/wanglin2/mind-map](https://github.com/wanglin2/mind-map)
+* [https://github.com/hizzgdev/jsmind](https://github.com/hizzgdev/jsmind)
+* [https://github.com/plantuml/plantuml](https://github.com/plantuml/plantuml)
+* [https://github.com/mermaid-js/mermaid-live-editor](https://github.com/mermaid-js/mermaid-live-editor)
 * [https://github.com/ishubin/schemio](https://github.com/ishubin/schemio)
 * [https://github.com/twwch/DeepDiagram](https://github.com/twwch/DeepDiagram)
+* [https://github.com/markmap/markmap](https://github.com/markmap/markmap)
+* [https://github.com/fex-team/kityminder-editor](https://github.com/fex-team/kityminder-editor)
+* [https://github.com/ondras/my-mind](https://github.com/ondras/my-mind)
+* [https://github.com/SSShooter/mindmapcn](https://github.com/SSShooter/mindmapcn)
+    * [https://github.com/SSShooter/mind-elixir-core](https://github.com/SSShooter/mind-elixir-core)
 * CI/CD管理 [https://github.com/opsre/LiteOps](https://github.com/opsre/LiteOps)
 * API调试 [https://github.com/o8oo8o/WebCurl](https://github.com/o8oo8o/WebCurl)
 * 最佳会面地图 [https://github.com/JasonRobertDestiny/MeetSpot](https://github.com/JasonRobertDestiny/MeetSpot)
@@ -827,6 +835,8 @@
 * 模拟小区采光 [https://github.com/SeanWong17/building-sunlight-simulator](https://github.com/SeanWong17/building-sunlight-simulator)
 * 族谱管理 [https://github.com/yunfengsa/pure-genealogy](https://github.com/yunfengsa/pure-genealogy)
 * 实时计算笔记 [https://github.com/2234839/TsFullStack](https://github.com/2234839/TsFullStack)
+* 批量重命名文件 [https://github.com/chenz24/rename.tools](https://github.com/chenz24/rename.tools)
+* 字幕字体管理 [https://github.com/Yuri-NagaSaki/FontInAss](https://github.com/Yuri-NagaSaki/FontInAss)
 
 
 

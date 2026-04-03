@@ -351,6 +351,7 @@
     * [https://sourceforge.net/projects/nxshell](https://sourceforge.net/projects/nxshell)
 * [https://github.com/HaleyWang/SpringRemote](https://github.com/HaleyWang/SpringRemote)
 * [https://github.com/lollipopkit/flutter_server_box](https://github.com/lollipopkit/flutter_server_box)
+* [https://github.com/AnalyseDeCircuit/oxideterm](https://github.com/AnalyseDeCircuit/oxideterm)
 * FinalShell [https://www.hostbuf.com/t/988.html](https://www.hostbuf.com/t/988.html)
 * MobaXterm [https://www.mobatek.net](https://www.mobatek.net)
 * Xshell [https://www.netsarang.com](https://www.netsarang.com)
