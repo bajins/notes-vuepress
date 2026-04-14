@@ -28,7 +28,6 @@
 ## 命令行助手
 
 - 命令补全 [https://github.com/scop/bash-completion](https://github.com/scop/bash-completion)
-- [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
 - [https://github.com/beyondgrep/ack3](https://github.com/beyondgrep/ack3)
 - [https://sourceforge.net/projects/zsh](https://sourceforge.net/projects/zsh)
 - [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
@@ -145,6 +144,7 @@
 - [https://github.com/silenceshell/hcache](https://github.com/silenceshell/hcache)
 - 自动重连会话 [https://github.com/MisterTea/EternalTerminal](https://github.com/MisterTea/EternalTerminal)
 - 检查网络连接 [https://github.com/karol-broda/snitch](https://github.com/karol-broda/snitch)
+- GPU监控 [https://github.com/Syllo/nvtop](https://github.com/Syllo/nvtop)
 
 
 

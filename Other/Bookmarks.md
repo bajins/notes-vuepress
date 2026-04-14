@@ -80,9 +80,13 @@
 * 术语在线 [http://www.termonline.cn](http://www.termonline.cn)
 * 航班线路 [https://flight.is26.com](https://flight.is26.com)
 * 屏幕坏点检测 [https://deadpixeltest.org](https://deadpixeltest.org)
+* [https://github.com/geeeeeeeek/monitor](https://github.com/geeeeeeeek/monitor)
+* [https://github.com/mashkurulalamohi37/Dead-pixel-fixer](https://github.com/mashkurulalamohi37/Dead-pixel-fixer)
+* [https://github.com/BryantWelch/display-test.app](https://github.com/BryantWelch/display-test.app)
 * [https://volumeshader.org](https://volumeshader.org)
 * [https://sysin.org/archive](https://sysin.org/archive)
 * 测试GPU [https://www.volumeshader.dev](https://www.volumeshader.dev)
+* GPU发展历史 [https://sheets.works/data-viz/every-gpu](https://sheets.works/data-viz/every-gpu)
 
 
 

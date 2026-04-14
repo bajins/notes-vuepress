@@ -231,8 +231,15 @@
 
 * [https://www.perforce.com](https://www.perforce.com)
 * [https://www.mercurial-scm.org](https://www.mercurial-scm.org)
+    * [https://github.com/quark-zju/gitrevset](https://github.com/quark-zju/gitrevset)
+* [https://github.com/facebook/sapling](https://github.com/facebook/sapling)
+* [https://www.fossil-scm.org](https://www.fossil-scm.org)
+    * [https://github.com/drhsqlite/fossil-mirror](https://github.com/drhsqlite/fossil-mirror)
 * [https://www.nongnu.org/cvs](https://www.nongnu.org/cvs)
-* [https://bazaar.canonical.com](https://bazaar.canonical.com)
+* Bazaar [https://github.com/breezy-team/breezy](https://github.com/breezy-team/breezy)
+    * [https://bazaar.canonical.com](https://bazaar.canonical.com)
+    * [https://launchpad.net/bzr](https://launchpad.net/bzr)
+* [https://github.com/GitoxideLabs/gitoxide](https://github.com/GitoxideLabs/gitoxide)
 * [https://nest.pijul.com/pijul/pijul](https://nest.pijul.com/pijul/pijul)
   * [https://pijul.org](https://pijul.org)
 * [https://www.plasticscm.com](https://www.plasticscm.com)
@@ -241,10 +248,19 @@
     * [https://git.sr.ht](https://git.sr.ht)
 * [https://pagure.io](https://pagure.io)
 * [https://github.com/bitkeeper-scm/bitkeeper](https://github.com/bitkeeper-scm/bitkeeper)
-* [https://github.com/jj-vcs/jj](https://github.com/jj-vcs/jj)
+* Jujutsu [https://github.com/jj-vcs/jj](https://github.com/jj-vcs/jj)
+    * [https://github.com/tim-janik/jj-fzf](https://github.com/tim-janik/jj-fzf)
     * [https://steveklabnik.github.io/jujutsu-tutorial](https://steveklabnik.github.io/jujutsu-tutorial)
     * [https://github.com/jj-for-everyone/jj-for-everyone.github.io](https://github.com/jj-for-everyone/jj-for-everyone.github.io)
+    * [https://mumu-lhl.github.io/p/jujutsu-1](https://mumu-lhl.github.io/p/jujutsu-1)
 * [https://git.dillo-browser.org/cgit](https://git.dillo-browser.org/cgit)
+* [https://darcs.net](https://darcs.net)
+* [https://www.bitkeeper.org](https://www.bitkeeper.org)
+* [http://veracity-scm.com](http://veracity-scmcm.com)
+* [https://www.monotone.ca](https://www.monotone.ca)
+
+
+- [https://github.com/eaxum/clustta-client](https://github.com/eaxum/clustta-client)
 
 
 

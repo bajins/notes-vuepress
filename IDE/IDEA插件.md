@@ -34,8 +34,8 @@
         * [https://github.com/zrongdong/ja-netfilter](https://github.com/zrongdong/ja-netfilter) 2021.3-最新版本可用
         * [https://github.com/noviceli/jetbra](https://github.com/noviceli/jetbra)
             * [https://github.com/novitechie/jetbra](https://github.com/novitechie/jetbra)
-            * [https://github.com/iot/jetbra](https://github.com/iot/jetbra)
             * [https://github.com/novice88](https://github.com/novice88)
+                * [https://blog.novitechie.com/archives/idea-cracking](https://blog.novitechie.com/archives/idea-cracking)
                 * [https://linux.do/u/novice.li/activity/topics](https://linux.do/u/novice.li/activity/topics)
                 * [https://jetbra.novitechie.com](https://jetbra.novitechie.com)
                 * [https://jbls.ide-soft.com](https://jbls.ide-soft.com)
@@ -254,6 +254,19 @@
 > 支持lombok的各种注解，从此不用写getter setter这些 可以把注解还原为原本的java代码,除此之外还有其他更多注解以减少代码
 
 ![](https://upload-images.jianshu.io/upload_images/11962894-59615f71a052e3b4.gif)
+
+
+**Java Decompiler**
+
+* [https://github.com/bric3/jd-intellij](https://github.com/bric3/jd-intellij)
+* [https://github.com/JetBrains/fernflower](https://github.com/JetBrains/fernflower)
+    * [https://github.com/MinecraftForge/FernFlower](https://github.com/MinecraftForge/FernFlower)
+* [https://github.com/work-helper/class-decompile-intellij](https://github.com/work-helper/class-decompile-intellij)
+* [https://gitee.com/ideplugin/jadx-gui-idea](https://gitee.com/ideplugin/jadx-gui-idea)
+* [https://github.com/Liubsyy/JarEditor](https://github.com/Liubsyy/JarEditor)
+* [https://github.com/marcelkliemannel/intellij-byte-code-plugin](https://github.com/marcelkliemannel/intellij-byte-code-plugin)
+* [https://github.com/SpringKill-team/CodeAuditAssistant](https://github.com/SpringKill-team/CodeAuditAssistant)
+* [https://github.com/selfancy/codespy](https://github.com/selfancy/codespy)
 
 
 

@@ -180,6 +180,10 @@ sudo apt clean
 - 安全防护 [https://github.com/fail2ban/fail2ban](https://github.com/fail2ban/fail2ban)
 - 文件管理 [https://github.com/MHNightCat/superfile](https://github.com/MHNightCat/superfile)
 - 端口占用情况 [https://github.com/theopfr/somo](https://github.com/theopfr/somo)
+- 磁盘测试 [https://github.com/JonMagon/KDiskMark](https://github.com/JonMagon/KDiskMark)
+- [https://github.com/otakuto/crazydiskinfo](https://github.com/otakuto/crazydiskinfo)
+- [https://sourceforge.net/projects/hdparm](https://sourceforge.net/projects/hdparm)
+- [https://github.com/linux-nvme/nvme-cli](https://github.com/linux-nvme/nvme-cli)
 
 
 
@@ -196,6 +200,7 @@ sudo apt clean
 - [https://spins.fedoraproject.org/cinnamon](https://spins.fedoraproject.org/cinnamon)
     - [https://github.com/linuxmint/cinnamon](https://github.com/linuxmint/cinnamon)
 - [http://www.trinitydesktop.org](http://www.trinitydesktop.org)
+- [https://github.com/edumucelli/docking](https://github.com/edumucelli/docking)
 - [https://github.com/swaywm](https://github.com/swaywm)
 - [https://www.deepin.org/zh/dde](https://www.deepin.org/zh/dde)
 - [https://sourceforge.net/projects/enlightenment](https://sourceforge.net/projects/enlightenment)

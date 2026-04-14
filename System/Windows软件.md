@@ -437,6 +437,7 @@
 - [https://github.com/k4yt3x/video2x](https://github.com/k4yt3x/video2x)
 - [https://github.com/Gpower2/gMKVExtractGUI](https://github.com/Gpower2/gMKVExtractGUI)
     - [https://sourceforge.net/projects/gmkvextractgui](https://sourceforge.net/projects/gmkvextractgui)
+- [https://github.com/siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen)
 - YouTube [https://github.com/FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube)
 - [https://github.com/iv-org/invidious](https://github.com/iv-org/invidious)
 - 直播录制 [https://github.com/WhiteMinds/LiveAutoRecord](https://github.com/WhiteMinds/LiveAutoRecord)
@@ -459,6 +460,7 @@
 > 以上是官网下载地址，将`DNS`改为`8.8.8.8`就可以顺利下载了，若为默认的自动模式（国内DNS）则无法下载。或者使用迅雷下载
 
 * [https://www.lanzoui.com/b0f1k59qh](https://www.lanzoui.com/b0f1k59qh)
+* [https://jm.wmzhe.com](https://jm.wmzhe.com)
 
 
 **电视盒子/TVBOX**
@@ -995,6 +997,8 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * [https://anydesk.com](https://anydesk.com)
 * TrustViewer [http://trustviewer.com](http://trustviewer.com)
 * [https://github.com/rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
+* [https://gitlab.com/hoptodesk/hoptodesk](https://gitlab.com/hoptodesk/hoptodesk)
+    * [https://www.hoptodesk.com](https://www.hoptodesk.com)
 * [https://www.todesk.com](https://www.todesk.com)
 * [https://parsec.app](https://parsec.app)
 * [https://uuyc.163.com/download](https://uuyc.163.com/download)
@@ -1093,6 +1097,7 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * 文件清理 [https://github.com/bleachbit/bleachbit](https://github.com/bleachbit/bleachbit)
 * 哈希值计算 [https://github.com/hrpzcf/HashCalculator](https://github.com/hrpzcf/HashCalculator)
 * 文件查看器 [https://github.com/stardustai/dataset-viewer](https://github.com/stardustai/dataset-viewer)
+* 文件夹生成HTML [https://www.lanzoui.com/b0f1k59qh](https://www.lanzoui.com/b0f1k59qh)
 
 
 
@@ -1231,6 +1236,7 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * [https://pragmar.com/appstat](https://pragmar.com/appstat)
 * [https://github.com/winsiderss/systeminformer](https://github.com/winsiderss/systeminformer)
     * [https://sourceforge.net/projects/systeminformer](https://sourceforge.net/projects/systeminformer)
+* [https://github.com/Diorser/LiteMonitor](https://github.com/Diorser/LiteMonitor)
 * [https://www.mitec.cz/tmx.html](https://www.mitec.cz/tmx.html)
 * 路由追踪 [https://github.com/Archeb/opentrace](https://github.com/Archeb/opentrace)
 * 监控清理内存 [https://github.com/topics/ram-cleaner](https://github.com/topics/ram-cleaner)
@@ -1243,10 +1249,37 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * Process Lasso [https://bitsum.com](https://bitsum.com)
 * 磁盘信息 [https://github.com/hiyohiyo/CrystalDiskInfo](https://github.com/hiyohiyo/CrystalDiskInfo)
     * [https://sourceforge.net/projects/crystaldiskinfo](https://sourceforge.net/projects/crystaldiskinfo)
+    * [https://crystalmark.info](https://crystalmark.info)
+* [https://github.com/smartmontools/smartmontools](https://github.com/smartmontools/smartmontools)
+    * [https://sourceforge.net/projects/smartmontools](https://sourceforge.net/projects/smartmontools)
+    * [https://sourceforge.net/projects/smartsuite](https://sourceforge.net/projects/smartsuite)
+    * [https://github.com/ashaduri/gsmartcontrol](https://github.com/ashaduri/gsmartcontrol)
+    * [https://github.com/edisionnano/QDiskInfo](https://github.com/edisionnano/QDiskInfo)
+* [https://github.com/Seagate/openSeaChest](https://github.com/Seagate/openSeaChest)
+* [https://github.com/microsoft/diskspd](https://github.com/microsoft/diskspd)
+* [https://github.com/axboe/fio](https://github.com/axboe/fio)
+* [https://github.com/AnalogJ/scrutiny](https://github.com/AnalogJ/scrutiny)
+* [https://sourceforge.net/projects/iometer](https://sourceforge.net/projects/iometer)
 * 磁盘测试 [https://github.com/maxim-saplin/CrossPlatformDiskTest](https://github.com/maxim-saplin/CrossPlatformDiskTest)
+* 内存测试 [https://www.memtest86.com](https://www.memtest86.com)
+* [https://prime95.net](https://prime95.net)
+* [https://testmem5.com](https://testmem5.com)
+* [https://hcidesign.com/memtest](https://hcidesign.com/memtest)
+* OCCT [https://www.ocbase.com](https://www.ocbase.com)
+* [https://www.karhusoftware.com/ramtest](https://www.karhusoftware.com/ramtest)
+* [https://ram-nuke.com](https://ram-nuke.com)
 * 性能测试 [https://github.com/xmrig/xmrig](https://github.com/xmrig/xmrig)
 * [https://www.aida64.com/downloads](https://www.aida64.com/downloads)
+* [https://github.com/Mysticial/y-cruncher](https://github.com/Mysticial/y-cruncher)
+    * [https://www.numberworld.org/y-cruncher](https://www.numberworld.org/y-cruncher)
+* [https://www.softwareok.com/?page=Windows/Tip/Tools/6](https://www.softwareok.com/?page=Windows/Tip/Tools/6)
+* [https://www.passmark.com](https://www.passmark.com)
 * 硬件检测 [http://www.tbtool.cn](http://www.tbtool.cn)
+* WinosInfo桌面硬件信息显示 [https://bbs.wuyou.net/forum.php?mod=viewthread&tid=427978](https://bbs.wuyou.net/forum.php?mod=viewthread&tid=427978)
+* 屏幕检测Defpix [https://74.cz/en/defective-pixels](https://74.cz/en/defective-pixels) 同DisplaX
+* [https://rizonesoft.com/downloads/pixel-repair](https://rizonesoft.com/downloads/pixel-repair)
+    * [https://github.com/rizonesoft/Resolute](https://github.com/rizonesoft/Resolute)
+* [https://www.spacejock.com/LCDTester.html](https://www.spacejock.com/LCDTester.html)
 * 端口管理 [https://github.com/Sanjeever/port_sentinel](https://github.com/Sanjeever/port_sentinel)
 * [https://github.com/productdevbook/port-killer](https://github.com/productdevbook/port-killer)
 * 流量监控 [https://www.glasswire.com](https://www.glasswire.com)

@@ -55,6 +55,7 @@
 
 * [https://www.nirsoft.net/utils/battery_information_view.html](https://www.nirsoft.net/utils/battery_information_view.html)
 * [https://batterycare.net/en/download.html](https://batterycare.net/en/download.html)
+* [https://www.hwinfo.com/download](https://www.hwinfo.com/download)
 * [https://www.cpuid.com/softwares/hwmonitor.html](https://www.cpuid.com/softwares/hwmonitor.html)
 * [https://www.aida64.com/downloads](https://www.aida64.com/downloads)
     * https://www.52pojie.cn/thread-2024502-1-1.html
@@ -310,14 +311,32 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 + [Windows PE (WinPE)](https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/winpe-intro)
 + [Windows USB/DVD 下载工具](https://www.microsoft.com/zh-cn/download/windows-usb-dvd-download-tool)
++ [https://github.com/slorelee/wimbuilder2](https://github.com/slorelee/wimbuilder2)
++ [https://www.puresys.net/pe](https://www.puresys.net/pe)
++ [https://www.mefcl.com/category/pcsoft/os/windowspe](https://www.mefcl.com/category/pcsoft/os/windowspe)
 
 
-* 微PE [http://www.wepe.com.cn](http://www.wepe.com.cn)
-* USBOS [https://www.puresys.net/pe](https://www.puresys.net/pe)
+* [https://kuerpe.com](https://kuerpe.com) 11PE/10PE网络版
+    * [https://bbs.wuyou.net/?803382](https://bbs.wuyou.net/?803382)
+* 最全驱动DriverPE [https://bbs.wuyou.net/?902982](https://bbs.wuyou.net/?902982)
+* 玩酷之家CoolStartup [https://bbs.wuyou.net/?585065](https://bbs.wuyou.net/?585065)
+    * [https://www.wk78.com](https://www.wk78.com)
+* 微PE [http://www.wepe.com.cn](http://www.wepe.com.cn) 8PE/10PE
+    * [https://bbs.wuyou.net/?215721](https://bbs.wuyou.net/?215721)
+* 我心如水珍藏版修改版 [https://bbs.wuyou.net/?471634](https://bbs.wuyou.net/?471634)
+* PE驱动 [https://bbs.wuyou.net/?611945](https://bbs.wuyou.net/?611945)
+* 简约系统安装工具 [https://bbs.wuyou.net/?346009](https://bbs.wuyou.net/?346009)
 * 优启时代 [https://www.uqiba.com](https://www.uqiba.com)
 * 优启通EasyU [https://www.itsk.com/forum/10?sort=2](https://www.itsk.com/forum/10?sort=2)
+* [https://www.angel-pe.cn](https://www.angel-pe.cn)
+* [https://cowpe.cn](https://cowpe.cn)
+* [https://www.dawnpe.com](https://www.dawnpe.com)
+* [https://firpe.cn](https://firpe.cn)
+* [https://www.fengpe.top](https://www.fengpe.top)
 * [https://github.com/ventoy/Ventoy](https://github.com/ventoy/Ventoy)
 * [http://wintool.cc](http://wintool.cc)
+* [http://www.doshome.com/onepe.html](http://www.doshome.com/onepe.html)
+    * [https://bbs.wuyou.net/?1416](https://bbs.wuyou.net/?1416)
 * [https://github.com/ldpreload/BlackLotus](https://github.com/ldpreload/BlackLotus)
 * [https://github.com/VirtualHotBar/HotPEToolBox](https://github.com/VirtualHotBar/HotPEToolBox)
 * [https://github.com/EdgelessPE/Edgeless](https://github.com/EdgelessPE/Edgeless)
@@ -330,6 +349,17 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://pe.xrgzs.top](https://pe.xrgzs.top)
 * [https://www.pandadatech.cn/original/panda-pe](https://www.pandadatech.cn/original/panda-pe)
 
+
+<details>
+<summary style="font-size:160%;">点击查看PE发展历史</summary>
+1、关于03PE/7PE/8PE：2004年到2015年，电脑维护启动盘已经由软盘、光盘逐步向U盘过渡，维护系统也由原来的DOS逐渐向WinPE过渡，WinPE全称Windows Preinstallation Environment，译为Windows预安装环境，是带有有限服务的最小Windows子系统，第一个被广泛应用的版本就是与XP同一内核的Windows Server 2003 PE（简称03PE），03PE在XP时代有著名的深山红叶、老九、老毛桃、我心如水、UEPON等。
+
+2、关于10PE：2015年至2023年，随着64位系统的崛起，PE x64也大行其道，除了x64版的7PE、8PE以外，x64版10PE开始占居主流，代表PE有：KuerPE、WePE、优启通、杏雨梨云、H3、USBOS、雷电、蜂鸟、NewBeePlus、优捷易、FirPE、U盘魔术师等。
+
+3、关于11PE：2023年到2026年，Kuer制作的11PE表现优秀，经过情深梦缘添加最全驱动，支持最新电脑硬件。
+
+引用自：http://www.doshome.com/onepe.html
+</details>
 
 
 **密码重置**

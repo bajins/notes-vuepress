@@ -491,6 +491,7 @@
 + [https://github.com/FossifyOrg](https://github.com/FossifyOrg)
     + ~~[https://github.com/SimpleMobileTools](https://github.com/SimpleMobileTools)~~
     + 相册/文件/日历/联系人/短信/音乐/笔记/时钟/录音/计算器/启动器/电话/相机/手电筒/画布/输入法
++ 杀后台 [https://github.com/urbandroid-team/dont-kill-my-app](https://github.com/urbandroid-team/dont-kill-my-app)
 
 
 * 文件传输 [https://github.com/localsend/localsend](https://github.com/localsend/localsend)
@@ -639,6 +640,7 @@
 * [https://github.com/CCExtractor/ultimate_alarm_clock](https://github.com/CCExtractor/ultimate_alarm_clock)
 * 设备管理 [https://codeberg.org/Freeyourgadget/Gadgetbridge](https://codeberg.org/Freeyourgadget/Gadgetbridge)
 * 笔记 [https://github.com/theachoem/storypad](https://github.com/theachoem/storypad)
+* 短信网关 [https://github.com/capcom6/android-sms-gateway](https://github.com/capcom6/android-sms-gateway)
 
 
 
