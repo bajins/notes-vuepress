@@ -186,6 +186,7 @@
 * [https://github.com/lin-snow/Ech0](https://github.com/lin-snow/Ech0)
 * 从仓库生成文档 [https://github.com/readthedocs](https://github.com/readthedocs)
 * [https://github.com/getgridea/gridea](https://github.com/getgridea/gridea)
+    * [https://github.com/Gridea-Pro/gridea-pro](https://github.com/Gridea-Pro/gridea-pro)
 * [https://github.com/facebook/docusaurus](https://github.com/facebook/docusaurus)
     * [https://www.docusaurus.cn](https://www.docusaurus.cn)
 * [https://github.com/squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)

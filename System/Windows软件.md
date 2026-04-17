@@ -531,6 +531,7 @@
 * [https://github.com/akon47/ScreenRecorder](https://github.com/akon47/ScreenRecorder)
 * [https://github.com/CapSoftware/Cap](https://github.com/CapSoftware/Cap)
 * [https://github.com/wulkano/Kap](https://github.com/wulkano/Kap)
+* [https://github.com/webadderall/Recordly](https://github.com/webadderall/Recordly)
 * 班迪录屏Bandicam [https://www.bandicam.com](https://www.bandicam.com)
 * 傲软录屏ApowerREC [https://www.apowersoft.com](https://www.apowersoft.com)
 * [https://fraps.com](https://fraps.com)
@@ -927,6 +928,7 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * [http://1clipboard.io](http://1clipboard.io)
 * 粘贴到文件 [https://github.com/huiyadanli/PasteEx](https://github.com/huiyadanli/PasteEx)
 * [http://clipdiary.com](http://clipdiary.com)
+* 同步剪贴板 [https://github.com/Sathvik-Rao/ClipCascade](https://github.com/Sathvik-Rao/ClipCascade)
 
 
 - [https://copiedapp.com](https://copiedapp.com)
@@ -1222,23 +1224,20 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 
 
 
-## Other
+## 硬件管理
 
-* 删除广告 [https://github.com/xM4ddy/OFGB](https://github.com/xM4ddy/OFGB)
-* [https://github.com/ZenPrivacy/zen-desktop](https://github.com/ZenPrivacy/zen-desktop)
 * 监控网速CPU及内存 [https://github.com/zhongyang219/TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
 * [https://github.com/processhacker/processhacker](https://github.com/processhacker/processhacker)
 * [http://wenlei.ys168.com](http://wenlei.ys168.com)
 * [https://www.hwinfo.com](https://www.hwinfo.com)
 * [https://www.aida64.com](https://www.aida64.com)
 * [https://entropy6.com/xmeters](https://entropy6.com/xmeters)
-* [https://bitsum.com](https://bitsum.com)
 * [https://pragmar.com/appstat](https://pragmar.com/appstat)
 * [https://github.com/winsiderss/systeminformer](https://github.com/winsiderss/systeminformer)
     * [https://sourceforge.net/projects/systeminformer](https://sourceforge.net/projects/systeminformer)
 * [https://github.com/Diorser/LiteMonitor](https://github.com/Diorser/LiteMonitor)
 * [https://www.mitec.cz/tmx.html](https://www.mitec.cz/tmx.html)
-* 路由追踪 [https://github.com/Archeb/opentrace](https://github.com/Archeb/opentrace)
+* [https://www.donationcoder.com/software/mouser/popular-apps/process-tamer](https://www.donationcoder.com/software/mouser/popular-apps/process-tamer)
 * 监控清理内存 [https://github.com/topics/ram-cleaner](https://github.com/topics/ram-cleaner)
 * [https://github.com/topics/memory-cleaner](https://github.com/topics/memory-cleaner)
 * [https://github.com/topics/memory-optimization](https://github.com/topics/memory-optimization)
@@ -1260,6 +1259,9 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * [https://github.com/axboe/fio](https://github.com/axboe/fio)
 * [https://github.com/AnalogJ/scrutiny](https://github.com/AnalogJ/scrutiny)
 * [https://sourceforge.net/projects/iometer](https://sourceforge.net/projects/iometer)
+* SSD-Z [http://aezay.dk](http://aezay.dk)
+* [https://www.hdtune.com](https://www.hdtune.com)
+* [https://www.hdsentinel.com](https://www.hdsentinel.com)
 * 磁盘测试 [https://github.com/maxim-saplin/CrossPlatformDiskTest](https://github.com/maxim-saplin/CrossPlatformDiskTest)
 * 内存测试 [https://www.memtest86.com](https://www.memtest86.com)
 * [https://prime95.net](https://prime95.net)
@@ -1275,15 +1277,28 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * [https://www.softwareok.com/?page=Windows/Tip/Tools/6](https://www.softwareok.com/?page=Windows/Tip/Tools/6)
 * [https://www.passmark.com](https://www.passmark.com)
 * 硬件检测 [http://www.tbtool.cn](http://www.tbtool.cn)
+* [https://hdd.by/downloads](https://hdd.by/downloads)
 * WinosInfo桌面硬件信息显示 [https://bbs.wuyou.net/forum.php?mod=viewthread&tid=427978](https://bbs.wuyou.net/forum.php?mod=viewthread&tid=427978)
 * 屏幕检测Defpix [https://74.cz/en/defective-pixels](https://74.cz/en/defective-pixels) 同DisplaX
 * [https://rizonesoft.com/downloads/pixel-repair](https://rizonesoft.com/downloads/pixel-repair)
     * [https://github.com/rizonesoft/Resolute](https://github.com/rizonesoft/Resolute)
 * [https://www.spacejock.com/LCDTester.html](https://www.spacejock.com/LCDTester.html)
+* CoolEjectUSB [https://github.com/nckstwrt/USBEject](https://github.com/nckstwrt/USBEject)
+* [https://www.aignes.com/psmenu.htm](https://www.aignes.com/psmenu.htm)
+* 风扇控制 [https://github.com/Rem0o/FanControl.Releases](https://github.com/Rem0o/FanControl.Releases)
+
+
+
+## Other
+
+* 删除广告 [https://github.com/xM4ddy/OFGB](https://github.com/xM4ddy/OFGB)
+* [https://github.com/ZenPrivacy/zen-desktop](https://github.com/ZenPrivacy/zen-desktop)
+* 路由追踪 [https://github.com/Archeb/opentrace](https://github.com/Archeb/opentrace)
 * 端口管理 [https://github.com/Sanjeever/port_sentinel](https://github.com/Sanjeever/port_sentinel)
 * [https://github.com/productdevbook/port-killer](https://github.com/productdevbook/port-killer)
 * 流量监控 [https://www.glasswire.com](https://www.glasswire.com)
 * [https://github.com/TheCGDF/NetSpeed](https://github.com/TheCGDF/NetSpeed)
+* 网络流量监控 [https://github.com/GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet)
 * MSI Afterbuner [https://www.msi.com/Landing/afterburner/graphics-cards](https://www.msi.com/Landing/afterburner/graphics-cards)
 * RTSS [https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html)
 * 热键占用 [https://github.com/BlackINT3/OpenArk](https://github.com/BlackINT3/OpenArk)
@@ -1308,6 +1323,9 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * [https://github.com/jordansissel/keynav](https://github.com/jordansissel/keynav)
 * 远程鼠标控制 [https://github.com/feschber/lan-mouse](https://github.com/feschber/lan-mouse)
 * [https://github.com/deskflow/deskflow](https://github.com/deskflow/deskflow)
+* 禁用触摸板 [https://touchfreeze.net](https://touchfreeze.net)
+* [https://github.com/VoodooI2C/VoodooI2CELAN](https://github.com/VoodooI2C/VoodooI2CELAN)
+    * [https://www.penghubingzhou.cn/tags/I2C](https://www.penghubingzhou.cn/tags/I2C)
 * 蓝牙管理 [https://github.com/m2jean/ToothTray](https://github.com/m2jean/ToothTray)
 * 便携式软件 [https://sourceforge.net/projects/portableapps](https://sourceforge.net/projects/portableapps)
 * 右键菜单 [https://github.com/moudey/shell](https://github.com/moudey/shell)
@@ -1316,7 +1334,6 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * [https://github.com/Planshit/Tai](https://github.com/Planshit/Tai)
 * [https://github.com/undergroundwires/privacy.sexy](https://github.com/undergroundwires/privacy.sexy)
 * [https://github.com/shion-app/shion](https://github.com/shion-app/shion)
-* 风扇控制 [https://github.com/Rem0o/FanControl.Releases](https://github.com/Rem0o/FanControl.Releases)
 * 便签 [https://github.com/Blakeinstein/Bloop](https://github.com/Blakeinstein/Bloop)
 * 加强Capslock键 [https://github.com/wo52616111/capslock-plus](https://github.com/wo52616111/capslock-plus)
 * 快速查看 [https://github.com/QL-Win/QuickLook](https://github.com/QL-Win/QuickLook)
@@ -1353,11 +1370,7 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * 任务栏透明化 [https://github.com/TranslucentTB](https://github.com/TranslucentTB)
 * 任务监控 [https://github.com/gsass1/NTop](https://github.com/gsass1/NTop)
 * 计划任务 [https://github.com/ame-yu/wincron](https://github.com/ame-yu/wincron)
-* 网络流量监控 [https://github.com/GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet)
 * 获取本机WiFi密码二维码 [https://github.com/sdushantha/wifi-password](https://github.com/sdushantha/wifi-password)
-* 禁用触摸板 [https://touchfreeze.net](https://touchfreeze.net)
-* [https://github.com/VoodooI2C/VoodooI2CELAN](https://github.com/VoodooI2C/VoodooI2CELAN)
-    * [https://www.penghubingzhou.cn/tags/I2C](https://www.penghubingzhou.cn/tags/I2C)
 * 查找泄漏密码 [https://github.com/HaveIBeenPwned](https://github.com/HaveIBeenPwned)
 * 文件病毒检测 [https://github.com/SamuelTulach/VirusTotalUploader](https://github.com/SamuelTulach/VirusTotalUploader)
 * 服务管理 [https://git.nssm.cc/nssm/nssm](https://git.nssm.cc/nssm/nssm)

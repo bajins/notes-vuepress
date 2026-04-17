@@ -50,6 +50,7 @@
 - 梳理情绪 [https://github.com/zhangchenchen/self-consistent-coder](https://github.com/zhangchenchen/self-consistent-coder)
     - [https://self-consistent-coder.readthedocs.io/zh-cn/latest/](https://self-consistent-coder.readthedocs.io/zh-cn/latest/)
 - 中级程序员的标志 [https://dawranliou.com/blog/intermediate-dev](https://dawranliou.com/blog/intermediate-dev)
+- CS自救指南 [https://github.com/AndyBRoswell/cs-first-aid](https://github.com/AndyBRoswell/cs-first-aid)
 
 
 

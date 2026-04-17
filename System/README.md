@@ -45,6 +45,10 @@
 ## USB启动盘
 
 - [https://github.com/pbatard/rufus](https://github.com/pbatard/rufus)
+- [https://github.com/WoeUSB/WoeUSB-ng](https://github.com/WoeUSB/WoeUSB-ng)
+- [https://github.com/oscar0pavon/prufus](https://github.com/oscar0pavon/prufus)
+- [https://github.com/vicrodh/usb-bootable-creator](https://github.com/vicrodh/usb-bootable-creator)
+- [https://github.com/Mexit/MultiOS-USB](https://github.com/Mexit/MultiOS-USB)
 - [https://github.com/balena-io/etcher](https://github.com/balena-io/etcher)
 - [https://github.com/unetbootin/unetbootin](https://github.com/unetbootin/unetbootin)
 - [https://www.pendrivelinux.com](https://www.pendrivelinux.com)
@@ -721,6 +725,7 @@
 * [https://github.com/xzitlou/jsontr.ee](https://github.com/xzitlou/jsontr.ee)
 * [https://github.com/antvis/infographic](https://github.com/antvis/infographic)
 * 时间线 [https://github.com/zhugezifang/ai_timeline](https://github.com/zhugezifang/ai_timeline)
+* [https://github.com/CorrectRoadH/OpenToggl](https://github.com/CorrectRoadH/OpenToggl)
 * 天气 [https://github.com/vsergeev/briefsky](https://github.com/vsergeev/briefsky)
 * 短链接 [https://github.com/dubinc/dub](https://github.com/dubinc/dub)
 * 项目落地页 [https://github.com/weijunext/landing-page-boilerplate](https://github.com/weijunext/landing-page-boilerplate)

@@ -14,6 +14,7 @@
 * [https://github.com/eclipse-theia/theia](https://github.com/eclipse-theia/theia)
     * [https://theia-ide.org](https://theia-ide.org)
 * [https://github.com/VSCodium/vscodium](https://github.com/VSCodium/vscodium)
+    * [https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo](https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo)
 * [https://github.com/pulsar-edit](https://github.com/pulsar-edit)
 * [https://github.com/Moonshine-IDE/Moonshine-IDE](https://github.com/Moonshine-IDE/Moonshine-IDE)
 * [https://github.com/lapce](https://github.com/lapce)(https://kate-editor.org)

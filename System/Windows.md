@@ -326,6 +326,8 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * 我心如水珍藏版修改版 [https://bbs.wuyou.net/?471634](https://bbs.wuyou.net/?471634)
 * PE驱动 [https://bbs.wuyou.net/?611945](https://bbs.wuyou.net/?611945)
 * 简约系统安装工具 [https://bbs.wuyou.net/?346009](https://bbs.wuyou.net/?346009)
+* PECMD [https://bbs.wuyou.net/?436204](https://bbs.wuyou.net/?436204)
+    * [https://pecmd.net/doc/cn.txt](https://pecmd.net/doc/cn.txt)
 * 优启时代 [https://www.uqiba.com](https://www.uqiba.com)
 * 优启通EasyU [https://www.itsk.com/forum/10?sort=2](https://www.itsk.com/forum/10?sort=2)
 * [https://www.angel-pe.cn](https://www.angel-pe.cn)
@@ -335,6 +337,9 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://www.fengpe.top](https://www.fengpe.top)
 * [https://github.com/ventoy/Ventoy](https://github.com/ventoy/Ventoy)
 * [http://wintool.cc](http://wintool.cc)
+* [https://www.iventoy.com](https://www.iventoy.com)
+* [https://github.com/mbusb/multibootusb](https://github.com/mbusb/multibootusb)
+* [https://pendrivelinux.com](https://pendrivelinux.com)
 * [http://www.doshome.com/onepe.html](http://www.doshome.com/onepe.html)
     * [https://bbs.wuyou.net/?1416](https://bbs.wuyou.net/?1416)
 * [https://github.com/ldpreload/BlackLotus](https://github.com/ldpreload/BlackLotus)
@@ -348,6 +353,9 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://www.hirensbootcd.org](https://www.hirensbootcd.org)
 * [https://pe.xrgzs.top](https://pe.xrgzs.top)
 * [https://www.pandadatech.cn/original/panda-pe](https://www.pandadatech.cn/original/panda-pe)
+* [https://www.easyuefi.com/wintousb](https://www.easyuefi.com/wintousb)
+* [https://www.winsetupfromusb.com](https://www.winsetupfromusb.com)
+* [https://www.sarducd.it](https://www.sarducd.it)
 
 
 <details>
@@ -360,6 +368,9 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 引用自：http://www.doshome.com/onepe.html
 </details>
+
+
+- 备份恢复 [https://www.acronis.com/zh/products/true-image](https://www.acronis.com/zh/products/true-image)
 
 
 **密码重置**
@@ -377,6 +388,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 - Windows Login Unlocker
 - [https://sourceforge.net/projects/ophcrack](https://sourceforge.net/projects/ophcrack)
 - [https://www.lazesoft.com/forgot-windows-admin-password-recovery-freeware.html](https://www.lazesoft.com/forgot-windows-admin-password-recovery-freeware.html)
+- [https://www.elcomsoft.com/products.html](https://www.elcomsoft.com/products.html)
 - PCUnlocker [https://www.top-password.com](https://www.top-password.com)
 - PassFab 4WinKey
 - Passper WinSenior
