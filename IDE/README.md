@@ -672,7 +672,7 @@
 * xmind [https://github.com/xmindltd](https://github.com/xmindltd)
     * [https://xmind.com](https://xmind.com)
     * [https://github.com/qy527145/crack](https://github.com/qy527145/crack)
-* MindManager [https://www.mindmapper.com](https://www.mindmapper.com)
+* MindManager [https://www.mindmanager.com](https://www.mindmanager.com)
 * Ximd ZEN[https://www.xmind.net/zen](https://www.xmind.net/zen)
 * iMindMap [https://imindmap.com](https://imindmap.com)
 * MindGenius [https://www.mindgenius.com](https://www.mindgenius.com)

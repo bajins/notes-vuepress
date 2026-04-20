@@ -131,6 +131,7 @@ powercfg /batteryreport /output "Desktop\battery-report.html"
 * [https://github.com/DirtCaps/CapsTweakerSystem](https://github.com/DirtCaps/CapsTweakerSystem)
 * [https://github.com/kampusbiner/windefenderremoval](https://github.com/kampusbiner/windefenderremoval)
 * [https://github.com/pluswait/workPCT](https://github.com/pluswait/workPCT)
+* Windows11轻松设置 [https://www.bilibili.com/opus/904672369138729017](https://www.bilibili.com/opus/904672369138729017)
 
 
 
@@ -326,8 +327,12 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * 我心如水珍藏版修改版 [https://bbs.wuyou.net/?471634](https://bbs.wuyou.net/?471634)
 * PE驱动 [https://bbs.wuyou.net/?611945](https://bbs.wuyou.net/?611945)
 * 简约系统安装工具 [https://bbs.wuyou.net/?346009](https://bbs.wuyou.net/?346009)
+* Windows Install Tool [https://bbs.wuyou.net/?43704](https://bbs.wuyou.net/?43704) Anson4(秋刀鱼)
+* USB启动盘制作增强版 [https://bbs.wuyou.net/?326192](https://bbs.wuyou.net/?326192) azhong123456
 * PECMD [https://bbs.wuyou.net/?436204](https://bbs.wuyou.net/?436204)
     * [https://pecmd.net/doc/cn.txt](https://pecmd.net/doc/cn.txt)
+* 启动引导管理 [https://github.com/chenall/grub4dos](https://github.com/chenall/grub4dos)
+* [https://github.com/CSMWrap/CSMWrap](https://github.com/CSMWrap/CSMWrap)
 * 优启时代 [https://www.uqiba.com](https://www.uqiba.com)
 * 优启通EasyU [https://www.itsk.com/forum/10?sort=2](https://www.itsk.com/forum/10?sort=2)
 * [https://www.angel-pe.cn](https://www.angel-pe.cn)

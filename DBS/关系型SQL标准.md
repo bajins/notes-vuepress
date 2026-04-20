@@ -5,7 +5,40 @@
 
 ## Flag
 
-> Structured Query Language：SQL86、SQL89、SQL92、SQL99、SQL2003、SQL2008、SQL2011、SQL2016
+| 年份 | 标准 | 说明 | 主要新增特性 |
+| :--- | :--- | :--- | :--- |
+| **1970** | / | IBM 研究员 埃德加·科德（Edgar F. Codd）发表震惊计算机界的论文：《大型共享数据库数据的关系模型》。| 提出了“关系型数据库”的数学理论基础（表、行、列的概念）。  |
+| **1974** | SEQUEL | IBM 的 Donald Chamberlin 和 Raymond Boyce 提出，SEQUEL(Structured English Query Language)是 SQL 的前身。 | 结构化英语查询语言，支持投影、选择、连接 |
+| **1977** | SQL | IBM 因为商标纠纷，将 SEQUEL 改名为 SQL(Structured Query Language)。 | |
+| **1979** | Oracle V2 | **首个商业 SQL 实现**。拉里·埃里森（Larry Ellison）创立的 Oracle 公司“截胡”IBM推向市场。 | 首个商业 SQL 产品 |
+| **1981** | SQL/DS | IBM 推出的首个商业 SQL 产品。 | |
+| **1983** | 草案阶段 | ANSI 和 ISO 开始标准化工作。 | 各大厂商（IBM, Oracle, Sybase等）提交各自的 SQL“方言”，ANSI X3H2 委员会开始制定标准 |
+| **1986** | **SQL-86** | **首个官方 ANSI 标准**（ANSI X3.135-1986），确立了基本语法，次年成为 ISO 标准。 | `SELECT/INSERT/UPDATE/DELETE`；基础 DDL；简单 `WHERE`；隐式 JOIN；基础权限 |
+| **1989** | SQL-89 | SQL-86 的小幅修订，主要增加了**完整性约束**。 | **`PRIMARY KEY`**、**`FOREIGN KEY`** 约束；`UNIQUE`、`NOT NULL` 强化 |
+| **1992** | **SQL-92 (SQL2)** | **重大里程碑！现代 SQL 的基石。** | **显式 JOIN 语法**（`INNER/LEFT/RIGHT/FULL/CROSS/NATURAL JOIN`）；**子查询标准化**；**`CASE WHEN`**；**`COALESCE`/`NULLIF`**；**`CAST`**；事务隔离级别；`CHECK` 约束；`DEFAULT`；`ALTER TABLE`；丰富数据类型（`VARCHAR`、`DATE`、`TIME`、`TIMESTAMP`、`INTERVAL`） |
+| **1999** | **SQL:1999 (SQL3)** | **从关系型向现代分析迈进。** | **通用表表达式CTE（`WITH` 子句）**；**递归查询（Recursive CTE）**；**触发器（Triggers）**；**用户自定义类型（UDT）**；**存储过程/函数（SQL/PSM）**；**正则表达式（`SIMILAR TO`）**；`ROLLUP`、`CUBE`（初步 OLAP）；对象关系特性（继承、引用类型）；`LIKE` 增强 |
+| **2003** | SQL:2003 | **分析师的福音。** | **窗口函数（Window Functions）**：`ROW_NUMBER()`、`RANK()`、`DENSE_RANK()`、`LEAD()`/`LAG()`、`OVER()` 子句；**序列（`SEQUENCE`）** / `IDENTITY` 列；**SQL/XML**（`XML` 数据类型、`XQuery` 集成）；**自连接增强**；`MERGE` 语句（Upsert）；`CREATE TABLE AS SELECT` |
+| **2008** | SQL:2008 | 小幅强化了语法便利性和分页功能。 | **`TRUNCATE TABLE`**（标准化）；**`FETCH FIRST` / `OFFSET`**（标准分页语法，替代各厂商的 `LIMIT`/`TOP`）；**`ORDER BY` 在子查询中**；窗口函数增强（`RANGE`/`ROWS` 帧）；触发器增强（`INSTEAD OF`）；`DROP COLUMN` 增强；`BIGINT` 标准化 |
+| **2011** | SQL:2011 | 引入时态数据库 | **时态数据库（Temporal Database）**：**系统版本表（System-Versioned Tables）**；**应用时间周期（Application-Time Period Tables）**；**双时态表（Bitemporal Tables）**；`AS OF SYSTEM TIME` 语法；自动历史数据管理（Time-travel） |
+| **2016** | SQL:2016 | 顺应大数据时代，强化非结构化数据处理。 | **JSON 原生支持**：`JSON` 数据类型、`JSON_OBJECT`、`JSON_ARRAY`、`JSON_QUERY`、`JSON_TABLE`、`IS JSON` 谓词；**`MATCH_RECOGNIZE`**（行模式识别，用于复杂事件处理/时间序列模式匹配，如检测股票走势）；**多态表函数（Polymorphic Table Functions）**；`TRUNCATE` 增强；窗口函数增强 |
+| **2023** | SQL:2023 | 融合了图数据库的能力 | **属性图查询（Property Graph Queries,SQL/PGQ）**：`GRAPH` 类型、`MATCH` 子句（类似 Cypher）、图遍历；**JSON 数据类型增强**（`JSON` 作为原生类型而非文本）；行模式识别增强；更多分析函数 |
+
+
+| 对比维度            | SQL-86/89 | SQL-92    | SQL:1999       | SQL:2003        | **SQL:2008**       | SQL:2011 | SQL:2016 | SQL:2023 |
+| --------------- | --------- | --------- | -------------- | --------------- | ------------------ | -------- | -------- | -------- |
+| **JOIN 语法**     | 隐式        | **显式标准化** | 增强             | 增强              | 增强                 | 增强       | 增强       | 增强       |
+| **递归查询**        | ❌         | ❌         | **CTE/递归 CTE** | 增强              | 增强                 | 增强       | 增强       | 增强       |
+| **触发器**         | ❌         | ❌         | **新增**         | 增强              | **INSTEAD OF 触发器** | 增强       | 增强       | 增强       |
+| **窗口函数**        | ❌         | ❌         | ❌              | **核心新增**        | 增强                 | 增强       | 增强       | 增强       |
+| **XML 支持**      | ❌         | ❌         | ❌              | **SQL/XML**     | 增强                 | 增强       | 增强       | -        |
+| **分页语法**        | ❌         | ❌         | ❌              | ❌               | **核心新增**         | 增强       | 增强       | 增强       |
+| **TRUNCATE 语句** | ❌         | ❌         | ❌              | ❌               | **核心新增**           | 增强       | 增强       | 增强       |
+| **时态数据**        | ❌         | ❌         | ❌              | ❌               | ❌                  | **核心新增** | 增强       | 增强       |
+| **JSON 支持**     | ❌         | ❌         | ❌              | ❌               | ❌                  | ❌        | **核心新增** | 增强       |
+| **图查询**         | ❌         | ❌         | ❌              | ❌               | ❌                  | ❌        | ❌        | **核心新增** |
+
+
+
 
 **SQL标准主要由以下几个组织制定和维护**
 
@@ -120,13 +153,14 @@
 
 ## SQL1992
 
-- `COALESCE`
-- `CASE`
-- `AVG`
-- `COUNT`
-- `MAX`
-- `MIN`
-- `SUM`
+- `COALESCE` 返回参数列表中第一个非 NULL 值
+- `NULLIF` 如果两个参数相等，返回 NULL，否则返回第一个参数
+- `CASE` 条件判断
+- `AVG` 平均值
+- `COUNT` 计数
+- `MAX` 最大值
+- `MIN` 最小值
+- `SUM` 求和
 - `TO_DATE`
 - `<>` 注意：`!=`是方言
  
