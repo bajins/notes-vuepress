@@ -169,6 +169,7 @@
 * 反射大师
 * 灰色按钮 [https://github.com/githubwing/DroidSword](https://github.com/githubwing/DroidSword)
 * 获取ROOT [https://github.com/tiann/KernelSU](https://github.com/tiann/KernelSU)
+* [https://www.rainyweb.cn](https://www.rainyweb.cn)
 
 
 
@@ -532,8 +533,10 @@
 * [https://github.com/celzero/rethink-app](https://github.com/celzero/rethink-app)
 * [https://github.com/SadeghHayeri/GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel)
 * 浏览器 [https://github.com/tuyafeng/Via](https://github.com/tuyafeng/Via)
+    * [https://viayoo.com](https://viayoo.com)
 * [https://www.xbext.com](https://www.xbext.com)
 * [https://www.twinkstar.com](https://www.twinkstar.com)
+* [https://www.lemurbrowser.com](https://www.lemurbrowser.com)
 * [https://x5.tencent.com](https://x5.tencent.com)
 * [https://www.quetta.net](https://www.quetta.net)
 * [https://github.com/interfect/fenix](https://github.com/interfect/fenix)

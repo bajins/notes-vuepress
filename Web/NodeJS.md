@@ -172,7 +172,6 @@
 + [https://github.com/topics/dependency-manager](https://github.com/topics/dependency-manager)
 + [https://github.com/topics/environment](https://github.com/topics/environment)
 
-- [https://nodejs.org/zh-cn/download/package-manager](https://nodejs.org/zh-cn/download/package-manager)
 
 * [https://github.com/tj/n](https://github.com/tj/n)
     * [https://github.com/mklement0/n-install](https://github.com/mklement0/n-install)
@@ -217,6 +216,7 @@ nvm install <最新的版本号>
 * [https://github.com/pnpm/pnpm](https://github.com/pnpm/pnpm)
 * [https://github.com/npm](https://github.com/npm)
     * [https://www.npmjs.cn](https://www.npmjs.cn)
+    * [https://github.com/npmx-dev/npmx.dev](https://github.com/npmx-dev/npmx.dev)
 * [https://github.com/yarnpkg](https://github.com/yarnpkg)
     * [https://www.yarnpkg.com.cn](https://www.yarnpkg.com.cn)
 * 清理依赖 [https://github.com/voidcosmos/npkill](https://github.com/voidcosmos/npkill)

@@ -383,6 +383,8 @@
 * [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
 * [https://github.com/nukeop/nuclear](https://github.com/nukeop/nuclear)
     * [https://github.com/NuclearPlayer/nuclear-xrd](https://github.com/NuclearPlayer/nuclear-xrd)
+* 音乐电台 [https://github.com/labilio/lofi-radio](https://github.com/labilio/lofi-radio)
+* [https://github.com/Ryderwe/Sollin-Releases/releases](https://github.com/Ryderwe/Sollin-Releases/releases)
 * [https://github.com/mpv-player/mpv](https://github.com/mpv-player/mpv)
     * [https://github.com/shinchiro/mpv-winbuild-cmake](https://github.com/shinchiro/mpv-winbuild-cmake)
     * [https://sourceforge.net/projects/mpv-player-windows](https://sourceforge.net/projects/mpv-player-windows)
@@ -437,7 +439,6 @@
 - [https://github.com/k4yt3x/video2x](https://github.com/k4yt3x/video2x)
 - [https://github.com/Gpower2/gMKVExtractGUI](https://github.com/Gpower2/gMKVExtractGUI)
     - [https://sourceforge.net/projects/gmkvextractgui](https://sourceforge.net/projects/gmkvextractgui)
-- [https://github.com/siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen)
 - YouTube [https://github.com/FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube)
 - [https://github.com/iv-org/invidious](https://github.com/iv-org/invidious)
 - 直播录制 [https://github.com/WhiteMinds/LiveAutoRecord](https://github.com/WhiteMinds/LiveAutoRecord)
@@ -700,6 +701,7 @@
 * [https://www.ashampoo.com/zh-cn/snap](https://www.ashampoo.com/zh-cn/snap)
 * [https://pixpin.cn](https://pixpin.cn)
 * [https://github.com/tylearymf/SETUNA2](https://github.com/tylearymf/SETUNA2)
+* [https://github.com/mg-chao/snow-shot](https://github.com/mg-chao/snow-shot)
 
 
 **FastStone Capture**
@@ -848,7 +850,6 @@
     * [https://www.mefcl.com/wps-office-2023.html](https://www.mefcl.com/wps-office-2023.html)
 * [https://slxy.wzu.edu.cn/info/1048/9920.htm](https://slxy.wzu.edu.cn/info/1048/9920.htm)
 * [https://ncre.neea.edu.cn/html1/report/1507/861-1.htm](https://ncre.neea.edu.cn/html1/report/1507/861-1.htm)
-* [https://github.com/NixaVulpi/VCRedistSetup](https://github.com/NixaVulpi/VCRedistSetup)
 * [https://github.com/NixaVulpi/WPSProfileCipher](https://github.com/NixaVulpi/WPSProfileCipher)
 * [https://github.com/NixaVulpi/WPSProfileVerificationPatch](https://github.com/NixaVulpi/WPSProfileVerificationPatch)
 
@@ -1304,6 +1305,7 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * 热键占用 [https://github.com/BlackINT3/OpenArk](https://github.com/BlackINT3/OpenArk)
 * 全局快捷键 [https://github.com/C5H12O5/TextGO](https://github.com/C5H12O5/TextGO)
 * [https://github.com/Code52/carnac](https://github.com/Code52/carnac)
+* [https://github.com/ChenghaoQ/Vimo-Rebinder](https://github.com/ChenghaoQ/Vimo-Rebinder)
 * PCHunter [http://www.xuetr.com](http://www.xuetr.com)
 * [FindGlobalHotkey](https://www.zhihu.com/question/21020398/answer/989951735)
 * [https://sourceforge.net/projects/powertool](https://sourceforge.net/projects/powertool)
@@ -1334,6 +1336,7 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * [https://github.com/Planshit/Tai](https://github.com/Planshit/Tai)
 * [https://github.com/undergroundwires/privacy.sexy](https://github.com/undergroundwires/privacy.sexy)
 * [https://github.com/shion-app/shion](https://github.com/shion-app/shion)
+* [https://github.com/debugtheworldbot/keyStats](https://github.com/debugtheworldbot/keyStats)
 * 便签 [https://github.com/Blakeinstein/Bloop](https://github.com/Blakeinstein/Bloop)
 * 加强Capslock键 [https://github.com/wo52616111/capslock-plus](https://github.com/wo52616111/capslock-plus)
 * 快速查看 [https://github.com/QL-Win/QuickLook](https://github.com/QL-Win/QuickLook)
@@ -1345,6 +1348,7 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * [https://github.com/jonls/redshift](https://github.com/jonls/redshift)
 * 休息提醒 [https://github.com/rcaelers/workrave](https://github.com/rcaelers/workrave)
 * 喝水提醒 [https://github.com/rock-zhang/Shui](https://github.com/rock-zhang/Shui)
+* [https://github.com/kaima2022/Health-reminder](https://github.com/kaima2022/Health-reminder)
 * [EarTrumpet 为每个软件单独设置音量](https://www.microsoft.com/zh-cn/p/eartrumpet/9nblggh516xp)
 * 桌面 [https://www.coodesker.com](https://www.coodesker.com)
 * [https://github.com/eythaann/Seelen-UI](https://github.com/eythaann/Seelen-UI)
@@ -1410,6 +1414,8 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * [https://github.com/nikolaeu/numi](https://github.com/nikolaeu/numi)
 * [https://github.com/nspire-emus/firebird](https://github.com/nspire-emus/firebird)
 * 时钟 [https://github.com/vladelaina/Catime](https://github.com/vladelaina/Catime)
+* 课表信息 [https://github.com/ClassIsland/ClassIsland](https://github.com/ClassIsland/ClassIsland)
+* 防偷操作 [https://github.com/OldSuns/SnapLock](https://github.com/OldSuns/SnapLock)
 
 
 + [http://www.downloadsoftware.ir](http://www.downloadsoftware.ir)

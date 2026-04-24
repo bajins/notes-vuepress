@@ -151,6 +151,7 @@
 + [https://github.com/topics/static-blog](https://github.com/topics/static-blog)
 + [不蒜子文章统计](http://busuanzi.ibruce.info)
     + [https://www.npmjs.com/search?q=keywords:busuanzi](https://www.npmjs.com/search?q=keywords:busuanzi)
++ [https://github.com/thinkycx/blog-helper](https://github.com/thinkycx/blog-helper)
 + 搜索 [https://github.com/algolia/docsearch](https://github.com/algolia/docsearch)
     + [https://docsearch.algolia.com](https://docsearch.algolia.com)
 + [https://sourcegraph.com/search](https://sourcegraph.com/search)

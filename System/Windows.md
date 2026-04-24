@@ -17,6 +17,8 @@
 * 自动点击 [https://github.com/ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey)
     * [https://github.com/AutoHotkey/AutoHotkey](https://github.com/AutoHotkey/AutoHotkey)
     * [https://github.com/xypha/AHK-v2-scripts](https://github.com/xypha/AHK-v2-scripts)
+* [https://actusclicker.com](https://actusclicker.com)
+* [https://github.com/Qwejay/Qflow](https://github.com/Qwejay/Qflow)
 * 检查系统启用的协议 [https://www.nartac.com/Products/IISCrypto](https://www.nartac.com/Products/IISCrypto)
 
 
@@ -48,6 +50,35 @@
 - 网络测试 [https://github.com/microsoft/ctsTraffic](https://github.com/microsoft/ctsTraffic)
 - [https://github.com/microsoft/ntttcp](https://github.com/microsoft/ntttcp)
 - [https://github.com/microsoft/latte](https://github.com/microsoft/latte)
+
+
+
+**Windows11新系统跳过强制联网激活和注册微软账户**
+
+Shift + F10
+
+```batch
+OOBE\BYPASSNRO
+::底层执行的是注册表操作
+::reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE /v BypassNRO /t REG_DWORD /d 1 /f
+::重启电脑后，在联网界面，下面就会出现一个“我没有Internet连接”的选项
+::如果以上操作失败，尝试执行以下命令：
+start ms-cxh:localonly
+```
+
+* [应答文件 (unattend.xml)无人值守安装](https://learn.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs)
+* [https://gitee.com/naad/Autounattend.xml](https://gitee.com/naad/Autounattend.xml)
+* [https://github.com/dsx42/UnattendTool](https://github.com/dsx42/UnattendTool)
+
+
+- 把“用户名”替换成你想用的账户名称：
+
+```batch
+net user 用户名 密码 /add
+net localgroup administrators 用户名 /add
+cd OOBE
+msoobe.exe && shutdown.exe -r
+```
 
 
 
@@ -132,6 +163,7 @@ powercfg /batteryreport /output "Desktop\battery-report.html"
 * [https://github.com/kampusbiner/windefenderremoval](https://github.com/kampusbiner/windefenderremoval)
 * [https://github.com/pluswait/workPCT](https://github.com/pluswait/workPCT)
 * Windows11轻松设置 [https://www.bilibili.com/opus/904672369138729017](https://www.bilibili.com/opus/904672369138729017)
+* 网盘图标删除 [https://github.com/Return-Log/Drive-Icon-Manager](https://github.com/Return-Log/Drive-Icon-Manager)
 
 
 
@@ -328,6 +360,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * PE驱动 [https://bbs.wuyou.net/?611945](https://bbs.wuyou.net/?611945)
 * 简约系统安装工具 [https://bbs.wuyou.net/?346009](https://bbs.wuyou.net/?346009)
 * Windows Install Tool [https://bbs.wuyou.net/?43704](https://bbs.wuyou.net/?43704) Anson4(秋刀鱼)
+* 系统重装 [https://github.com/NORMAL-EX/LetRecovery](https://github.com/NORMAL-EX/LetRecovery)
 * USB启动盘制作增强版 [https://bbs.wuyou.net/?326192](https://bbs.wuyou.net/?326192) azhong123456
 * PECMD [https://bbs.wuyou.net/?436204](https://bbs.wuyou.net/?436204)
     * [https://pecmd.net/doc/cn.txt](https://pecmd.net/doc/cn.txt)
@@ -376,6 +409,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 
 - 备份恢复 [https://www.acronis.com/zh/products/true-image](https://www.acronis.com/zh/products/true-image)
+- 装机指南 [https://zhuangit.ababtools.com](https://zhuangit.ababtools.com)
 
 
 **密码重置**

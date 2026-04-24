@@ -55,11 +55,13 @@
 * 学英语 [https://github.com/xiaolai/everyone-can-use-english](https://github.com/xiaolai/everyone-can-use-english)
 * [https://github.com/byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips)
 * [https://github.com/luzhenhua/NCE-Flow](https://github.com/luzhenhua/NCE-Flow)
+* [https://github.com/xiaochong/hi-kid](https://github.com/xiaochong/hi-kid)
 * 英语单词列表 [https://github.com/dwyl/english-words](https://github.com/dwyl/english-words)
 * [https://www.languagereactor.com](https://www.languagereactor.com)
 * [https://youglish.com](https://youglish.com)
 * [https://medevel.com/tag/open-source](https://medevel.com/tag/open-source)
 * 用「编号 + 索引」组织资料/事项 [https://johnnydecimal.com](https://johnnydecimal.com)
+* 键盘学习 [https://jianpanzhushou.ababtools.com](https://jianpanzhushou.ababtools.com)
 
 
 
@@ -115,6 +117,7 @@
 
 ## 音视频
 
+* [https://tools.liumingye.cn](https://tools.liumingye.cn)
 * 阿木影视 [https://www.aosk.online](https://www.aosk.online)
 * 电影推荐（分类别致） [http://www.mvcat.com](http://www.mvcat.com)
 * APP影院 [https://app.movie](https://app.movie)
@@ -131,9 +134,20 @@
 * VideoFk解析视频 [http://www.videofk.com](http://www.videofk.com)
 * 蓝调网站 [http://lcoc.top/vip2.3](http://lcoc.top/vip2.3)
 * 永久资源采集网 [http://www.yongjiuzy1.com](http://www.yongjiuzy1.com)
+* [https://movie.fizzmusic.net](https://movie.fizzmusic.net)
 
 
 - [免费下载音乐的网站在哪里?](https://www.zhihu.com/question/356168043)
+- [https://github.com/guanguans/music-dl](https://github.com/guanguans/music-dl)
+    - [https://gitee.com/guanguans/music-dl](https://gitee.com/guanguans/music-dl)
+- [https://github.com/guohuiyuan/go-music-dl](https://github.com/guohuiyuan/go-music-dl)
+- [https://www.flmp3.pro](https://www.flmp3.pro)
+- [https://www.gequhai.com](https://www.gequhai.com)
+- [https://www.gequbao.com](https://www.gequbao.com)
+- [https://www.fangpi.net](https://www.fangpi.net)
+- [https://yyfang.top](https://yyfang.top)
+- [https://www.fizzmusic.net](https://www.fizzmusic.net)
+- [https://music.iqwq.cn](https://music.iqwq.cn)
 - 无损音乐吧 [https://www.dtshot.com](https://www.dtshot.com)
 - [https://soundcloud.com](https://soundcloud.com)
 - 超高无损音乐网 [https://www.sq688.com](https://www.sq688.com)

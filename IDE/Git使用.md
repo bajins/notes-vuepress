@@ -19,6 +19,7 @@
   + [https://github.com/microsoft/vfsforgit](https://github.com/microsoft/vfsforgit)
   + [https://github.com/microsoft/git](https://github.com/microsoft/git)
   + [https://github.com/jonas/tig](https://github.com/jonas/tig)
+  + git开发历史 [https://git-history.jpalmer.dev](https://git-history.jpalmer.dev)
 + [https://github.com/PJK/libcbor](https://github.com/PJK/libcbor)
 + [https://github.com/Yubico/libfido2](https://github.com/Yubico/libfido2)
 + Git实现 [https://github.com/libgit2/libgit2](https://github.com/libgit2/libgit2)
@@ -144,6 +145,7 @@
 * 改写仓库历史 [https://github.com/Cactusinhand/filter-repo-rs](https://github.com/Cactusinhand/filter-repo-rs)
 * AI自动重写提交历史 [https://github.com/f/git-rewrite-commits](https://github.com/f/git-rewrite-commits)
 * 提交记录动画化 [https://github.com/unhappychoice/gitlogue](https://github.com/unhappychoice/gitlogue)
+* [https://github.com/Lionad-Morotar/project-river](https://github.com/Lionad-Morotar/project-river)
 * 仓库信息生成静态页面 [https://github.com/antonmedv/gitmal](https://github.com/antonmedv/gitmal)
 
 
