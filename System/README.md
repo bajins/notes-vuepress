@@ -398,6 +398,8 @@
 
 
 * [https://github.com/webserver-llc/angie](https://github.com/webserver-llc/angie)
+    * [https://hg.angie.software/angie](https://hg.angie.software/angie)
+    * [https://git.angie.software/web-server/angie](https://git.angie.software/web-server/angie)
 * [https://github.com/grumpylabs/freenginx](https://github.com/grumpylabs/freenginx)
 * [https://github.com/freenginx-mirror](https://github.com/freenginx-mirror)
 * [https://github.com/apache/httpd](https://github.com/apache/httpd)

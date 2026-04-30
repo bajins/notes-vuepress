@@ -218,10 +218,13 @@
 
 * [https://github.com/XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3)
 * [https://github.com/amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager)
+* [https://github.com/persepolisdm/persepolis](https://github.com/persepolisdm/persepolis)
+* [https://github.com/BrisklyDev/brisk](https://github.com/BrisklyDev/brisk)
 * XDown [https://github.com/xdown-org](https://github.com/xdown-org)
     * [https://xdown.org](https://xdown.org)
     * [https://dl.xdown.org](https://dl.xdown.org)
 * Qdown [https://lightzhan.xyz/index.php/qdown](https://lightzhan.xyz/index.php/qdown)
+* [https://github.com/antikmozib/AM-Downloader](https://github.com/antikmozib/AM-Downloader)
 * NDM [https://www.neatdownloadmanager.com](https://www.neatdownloadmanager.com)
 * IDM [https://www.internetdownloadmanager.com](https://www.internetdownloadmanager.com)
     * [https://github.com/MotooriKashin/ef2](https://github.com/MotooriKashin/ef2)
@@ -230,7 +233,8 @@
 * FDM [http://www.freedownloadmanager.org](http://www.freedownloadmanager.org/download.htm)
 * [https://github.com/subhra74/xdm](https://github.com/subhra74/xdm)
 * [https://github.com/hugetiny/negibox](https://github.com/hugetiny/negibox)
-* [https://github.com/agalwood/Motrix](https://github.com/agalwood/Motrix)
+* Motrix [https://github.com/AnInsomniacy/motrix-next](https://github.com/AnInsomniacy/motrix-next)
+    * ~~[https://github.com/agalwood/Motrix](https://github.com/agalwood/Motrix)~~
 * [https://github.com/surge-downloader/Surge](https://github.com/surge-downloader/Surge)
 * [https://github.com/imfile-io/imfile-desktop](https://github.com/imfile-io/imfile-desktop)
 * [https://sourceforge.net/projects/urlget](https://sourceforge.net/projects/urlget)
@@ -239,7 +243,23 @@
 * [https://github.com/SaptarshiSarkar12/Drifty](https://github.com/SaptarshiSarkar12/Drifty)
 * [https://github.com/blaze-shubhojeet14/FilumDLWPF](https://github.com/blaze-shubhojeet14/FilumDLWPF)
 * [https://jdownloader.org](https://jdownloader.org)
-* 迅雷、快车、旋风下载链接转换脚本 [https://github.com/chinsyo/delink](https://github.com/chinsyo/delink)
+* Aria2 [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
+* [https://github.com/rogerfar/Aria2.NET](https://github.com/rogerfar/Aria2.NET)
+* [https://github.com/Ftbom/Aria2Manager](https://github.com/Ftbom/Aria2Manager)
+* [https://github.com/alexhua/Aria2-Manager](https://github.com/alexhua/Aria2-Manager)
+    * [https://github.com/alexhua/Aria2-Explorer](https://github.com/alexhua/Aria2-Explorer)
+* [https://github.com/Sin213/cove-download-manager](https://github.com/Sin213/cove-download-manager)
+* [https://github.com/binux/yaaw](https://github.com/binux/yaaw)
+* [https://github.com/ziahamza/webui-aria2](https://github.com/ziahamza/webui-aria2)
+* [https://github.com/mayswind/AriaNg](https://github.com/mayswind/AriaNg)
+    * [https://github.com/mayswind/AriaNg-Native](https://github.com/mayswind/AriaNg-Native)
+* [https://github.com/dsx42/Aria2Tool](https://github.com/dsx42/Aria2Tool)
+* [https://github.com/P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf)
+* [https://github.com/boypt/simple-torrent](https://github.com/boypt/simple-torrent)
+* [https://github.com/SuperNG6](https://github.com/SuperNG6)
+* [http://lightzhan.xyz/index.php/qdown](http://lightzhan.xyz/index.php/qdown)
+* GUI [https://github.com/Xmader/aria-ng-gui](https://github.com/Xmader/aria-ng-gui)
+* [https://github.com/Xmader/aria-ng-gui-android](https://github.com/Xmader/aria-ng-gui-android)
 
 
 
@@ -327,21 +347,7 @@
 > ED2K（eMule电驴）等请使用`Bit Torrent`工具
 
 * [https://github.com/cnk3x/xunlei](https://github.com/cnk3x/xunlei)
-
-
-### Aria2
-
-* [https://github.com/aria2/aria2](https://github.com/aria2/aria2)
-* [https://github.com/binux/yaaw](https://github.com/binux/yaaw)
-* [https://github.com/ziahamza/webui-aria2](https://github.com/ziahamza/webui-aria2)
-* [https://github.com/mayswind/AriaNg](https://github.com/mayswind/AriaNg)
-* [https://github.com/persepolisdm/persepolis](https://github.com/persepolisdm/persepolis)
-* [https://github.com/P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf)
-* [https://github.com/boypt/simple-torrent](https://github.com/boypt/simple-torrent)
-* [https://github.com/SuperNG6](https://github.com/SuperNG6)
-* [http://lightzhan.xyz/index.php/qdown](http://lightzhan.xyz/index.php/qdown)
-* GUI [https://github.com/Xmader/aria-ng-gui](https://github.com/Xmader/aria-ng-gui)
-* [https://github.com/Xmader/aria-ng-gui-android](https://github.com/Xmader/aria-ng-gui-android)
+* 迅雷、快车、旋风下载链接转换脚本 [https://github.com/chinsyo/delink](https://github.com/chinsyo/delink)
 
 
 
@@ -358,6 +364,7 @@
 * [https://github.com/OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList)
     * [https://github.com/OpenListApp/OpenListApp](https://github.com/OpenListApp/OpenListApp)
 * 加速 [https://github.com/game1024/OpenSpeedy](https://github.com/game1024/OpenSpeedy)
+* [https://github.com/qaiu/netdisk-fast-download](https://github.com/qaiu/netdisk-fast-download)
 
 
 > 【诚通网盘下载提示】：点击下载后，立马取消（就是点击浏览器左上角的`X`按钮停止访问），然后再次点击下载，可以提速好几倍
@@ -378,14 +385,26 @@
 - [http://www.medieval.it/cuesplitter-pc/menu-id-71.html](http://www.medieval.it/cuesplitter-pc/menu-id-71.html)
 
 
-* [foobar2000](http://blog.sina.com.cn/go2spa)
+* [https://sourceforge.net/projects/deadbeef](https://sourceforge.net/projects/deadbeef)
+    * [https://github.com/hyperblast/beefweb](https://github.com/hyperblast/beefweb)
+* [https://www.foobar2000.org](https://www.foobar2000.org)
+    * [https://github.com/ttsping/foo_openhacks](https://github.com/ttsping/foo_openhacks)
+    * [https://www.cnblogs.com/asionwu](https://www.cnblogs.com/asionwu)
+    * [https://www.esnpc.com/?s=foobar2000](https://www.esnpc.com/?s=foobar2000)
     * [https://github.com/dream7180/foobox-cn](https://github.com/dream7180/foobox-cn)
+        * [https://gitee.com/dream7180/foobox-cn](https://gitee.com/dream7180/foobox-cn)
+    * [https://www.nljs.site/foobar2000.html](https://www.nljs.site/foobar2000.html)
+    * [https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration](https://github.com/gebilaowang66662/ESLyric-full-screen-imitation-IOS-configuration)
+    * [https://github.com/jayfunc/BetterLyrics](https://github.com/jayfunc/BetterLyrics)
+    * [https://github.com/reupen/columns_ui](https://github.com/reupen/columns_ui)
+    * [https://github.com/stuerp/foo_midi](https://github.com/stuerp/foo_midi)
+    * [https://github.com/ESLyric/release](https://github.com/ESLyric/release)
 * [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
 * [https://github.com/nukeop/nuclear](https://github.com/nukeop/nuclear)
     * [https://github.com/NuclearPlayer/nuclear-xrd](https://github.com/NuclearPlayer/nuclear-xrd)
 * 音乐电台 [https://github.com/labilio/lofi-radio](https://github.com/labilio/lofi-radio)
 * [https://github.com/Ryderwe/Sollin-Releases/releases](https://github.com/Ryderwe/Sollin-Releases/releases)
-* [https://github.com/mpv-player/mpv](https://github.com/mpv-player/mpv)
+* MPV [https://github.com/mpv-player/mpv](https://github.com/mpv-player/mpv)
     * [https://github.com/shinchiro/mpv-winbuild-cmake](https://github.com/shinchiro/mpv-winbuild-cmake)
     * [https://sourceforge.net/projects/mpv-player-windows](https://sourceforge.net/projects/mpv-player-windows)
     * [https://github.com/hooke007/MPV_lazy](https://github.com/hooke007/MPV_lazy)
@@ -393,9 +412,15 @@
 * Kodi [https://github.com/xbmc](https://github.com/xbmc)
     * [https://kodi.tv/download](https://kodi.tv/download)
 * powerDVD
+* [https://github.com/vzhd1701/gridplayer](https://github.com/vzhd1701/gridplayer)
+* [https://github.com/smplayer-dev/smplayer](https://github.com/smplayer-dev/smplayer)
+    * [https://sourceforge.net/projects/smplayer](https://sourceforge.net/projects/smplayer)
+* GOM Player [https://www.gomlab.com/en/gomplayer-media-player](https://www.gomlab.com/en/gomplayer-media-player)
+* Splash Player [https://mirillis.com/free-hd-video-player](https://mirillis.com/free-hd-video-player)
 * MPC-BE [https://sourceforge.net/projects/mpcbe](https://sourceforge.net/projects/mpcbe)
-* [https://github.com/clsid2/mpc-hc](https://github.com/clsid2/mpc-hc)
+* MPC-HC [https://github.com/clsid2/mpc-hc](https://github.com/clsid2/mpc-hc)
     * [https://sourceforge.net/projects/mpc-hc](https://sourceforge.net/projects/mpc-hc)
+* AIMP [https://aimp.ru](https://aimp.ru)
 * VLC [https://www.videolan.org](https://www.videolan.org)
 * [https://sourceforge.net/projects/qtav](https://sourceforge.net/projects/qtav)
 * [https://www.getmusicbee.com](https://www.getmusicbee.com)
@@ -406,6 +431,8 @@
 * [https://github.com/synctv-org](https://github.com/synctv-org)
 * [https://github.com/Hunlongyu/ZY-Player](https://github.com/Hunlongyu/ZY-Player)
 * [https://github.com/algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer)
+* [https://www.5kplayer.com/5kplayer-download-windows.htm](https://www.5kplayer.com/5kplayer-download-windows.htm)
+* [https://www.kmplayer.com](https://www.kmplayer.com)
 * [https://www.un4seen.com](https://www.un4seen.com)
 * 3D电影 [https://github.com/marlam/bino](https://github.com/marlam/bino)
     * [https://github.com/ThreeDeeJay/bino](https://github.com/ThreeDeeJay/bino)
@@ -419,6 +446,7 @@
 - [https://github.com/musescore/MuseScore](https://github.com/musescore/MuseScore)
 - [https://github.com/Xmader/musescore-downloader](https://github.com/Xmader/musescore-downloader)
 - [https://github.com/qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic)
+- 音频处理 [https://www.surina.net/soundtouch](https://www.surina.net/soundtouch)
 - 字幕 [https://github.com/foxofice/sub_share](https://github.com/foxofice/sub_share)
 - [https://github.com/solidSpoon/DashPlayer](https://github.com/solidSpoon/DashPlayer)
 - 编码解码器 [https://www.free-codecs.com](https://www.free-codecs.com)
@@ -447,8 +475,10 @@
 
 **Potplayer**
 
-* [http://potplayer.daum.net](http://potplayer.daum.net)
 * [https://potplayer.tv](https://potplayer.tv)
+    * [https://potplayer.one](https://potplayer.one)
+    * [https://potplayer.info](https://potplayer.info)
+    * [http://www.potplayercn.com](http://www.potplayercn.com)
 * [Public Version 32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe)
 * [Public Version 64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe)
 * [Developer Version 32-bit](https://t1.daumcdn.net/potplayer/beta/PotPlayerSetup.exe)
@@ -473,6 +503,7 @@
 + [https://github.com/topics/m3u](https://github.com/topics/m3u)
 + [https://github.com/iptv-org](https://github.com/iptv-org)
 + [https://github.com/fanmingming/live](https://github.com/fanmingming/live)
++ [https://github.com/YueChan/Live](https://github.com/YueChan/Live)
 + [https://github.com/Free-TV](https://github.com/Free-TV)
 + [https://github.com/Cyril0563/lanjing_live](https://github.com/Cyril0563/lanjing_live)
 + [https://github.com/imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8)
@@ -1088,10 +1119,14 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * [https://resource.dopus.com](https://resource.dopus.com)
 * [https://filepilot.tech](https://filepilot.tech)
 * [https://github.com/mucommander/mucommander](https://github.com/mucommander/mucommander)
+* [https://www.onecommander.com](https://www.onecommander.com)
 * 资源管理器多窗口 [https://github.com/w4po/ExplorerTabUtility](https://github.com/w4po/ExplorerTabUtility)
 * [https://www.diskinternals.com/download](https://www.diskinternals.com/download)
     * 读取EXT 类型数据盘 [http://www.diskinternals.com/download/Linux_Reader.exe](http://www.diskinternals.com/download/Linux_Reader.exe)
-* [傲梅分区助手PartAssist](https://www.lanzoui.com/b0f1etedc)
+* 傲梅分区助手AOMEI [https://www.diskpart.com](https://www.diskpart.com)
+    * 免费版 [https://dl.aomeikeji.com/pa/PAGreen.7z](https://dl.aomeikeji.com/pa/PAGreen.7z)
+* DiskGenius [https://www.eassos.com/partitionguru-free.php](https://www.eassos.com/partitionguru-free.php)
+    * [https://www.eassos.cn/dg](https://www.eassos.cn/dg)
 * 文件快速复制 [https://fastcopy.jp](https://fastcopy.jp)
     * [https://github.com/shirouzu/FastCopy](https://github.com/shirouzu/FastCopy)
     * [https://github.com/Mapaler/FastCopy-M](https://github.com/Mapaler/FastCopy-M)

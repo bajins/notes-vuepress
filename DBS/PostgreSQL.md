@@ -15,6 +15,7 @@
     * [连接字符串](https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING)
     * [https://jdbc.postgresql.org](https://jdbc.postgresql.org)
 * [https://github.com/postgrespro](https://github.com/postgrespro)
+* [https://github.com/pgsty/pigsty](https://github.com/pgsty/pigsty)
 * [https://github.com/citusdata](https://github.com/citusdata)
 * [https://github.com/neondatabase/neon](https://github.com/neondatabase/neon)
 * [https://github.com/pgpartman](https://github.com/pgpartman)
@@ -31,7 +32,6 @@
 * 连接池工具 [https://github.com/pgbouncer/pgbouncer](https://github.com/pgbouncer/pgbouncer)
 * [https://github.com/agroal/pgagroal](https://github.com/agroal/pgagroal)
 * 扩展Rust开发框架 [https://github.com/tcdi/pgx](https://github.com/tcdi/pgx)
-* 迁移 [https://github.com/sbdchd/squawk](https://github.com/sbdchd/squawk)
 * 分片水平扩展 [https://github.com/pg-sharding/spqr](https://github.com/pg-sharding/spqr)
 * 解析器 [https://github.com/pganalyze/libpg_query](https://github.com/pganalyze/libpg_query)
 

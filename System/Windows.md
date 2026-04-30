@@ -14,12 +14,15 @@
 * DPI [https://github.com/bol-van/zapret](https://github.com/bol-van/zapret)
 * [https://github.com/ValdikSS/GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)
 * 应用商城 [https://github.com/opengapps/opengapps](https://github.com/opengapps/opengapps)
+* 离线下载MicrosoftStore中应用 [https://github.com/Gaoyifei1011/GetStoreApp](https://github.com/Gaoyifei1011/GetStoreApp)
+* [https://store.rg-adguard.net](https://store.rg-adguard.net)
 * 自动点击 [https://github.com/ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey)
     * [https://github.com/AutoHotkey/AutoHotkey](https://github.com/AutoHotkey/AutoHotkey)
     * [https://github.com/xypha/AHK-v2-scripts](https://github.com/xypha/AHK-v2-scripts)
 * [https://actusclicker.com](https://actusclicker.com)
 * [https://github.com/Qwejay/Qflow](https://github.com/Qwejay/Qflow)
 * 检查系统启用的协议 [https://www.nartac.com/Products/IISCrypto](https://www.nartac.com/Products/IISCrypto)
+* PC硬件管理Vantage [https://apps.microsoft.com/detail/9wzdncrfj4mv](https://apps.microsoft.com/detail/9wzdncrfj4mv)
 
 
 
@@ -135,8 +138,14 @@ powercfg /batteryreport /output "Desktop\battery-report.html"
 * [https://github.com/5cover/WinClean](https://github.com/5cover/WinClean)
 * [https://github.com/memstechtips/Winhance](https://github.com/memstechtips/Winhance)
 * [https://github.com/tranht17/WinTune](https://github.com/tranht17/WinTune)
-* 绕过WindowsDefender [https://github.com/es3n1n/defendnot](https://github.com/es3n1n/defendnot)
-    * [https://gitee.com/tajang/no-defender](https://gitee.com/tajang/no-defender)
+* 绕过WindowsDefender [https://github.com/topics/defender](https://github.com/topics/defender)
+* [https://github.com/ionuttbara/windows-defender-remover](https://github.com/ionuttbara/windows-defender-remover)
+* [https://github.com/kimmohito/windows-defender-killer](https://github.com/kimmohito/windows-defender-killer)
+* [https://github.com/es3n1n/defendnot](https://github.com/es3n1n/defendnot)
+    * ~~[https://gitee.com/tajang/no-defender](https://gitee.com/tajang/no-defender)~~
+    * ~~[https://github.com/cloudskytian/no-defender](https://github.com/cloudskytian/no-defender)~~
+    * [https://github.com/fontlos/defender-rs](https://github.com/fontlos/defender-rs)
+    * [https://github.com/Gr-1m/go-defendnot](https://github.com/Gr-1m/go-defendnot)
 * [https://github.com/pgkt04/defender-control](https://github.com/pgkt04/defender-control)
     * [https://github.com/conspiracyrip/DefenderControlV2](https://github.com/conspiracyrip/DefenderControlV2)
 * [https://github.com/zoicware/DefenderProTools](https://github.com/zoicware/DefenderProTools)
@@ -163,6 +172,7 @@ powercfg /batteryreport /output "Desktop\battery-report.html"
 * [https://github.com/kampusbiner/windefenderremoval](https://github.com/kampusbiner/windefenderremoval)
 * [https://github.com/pluswait/workPCT](https://github.com/pluswait/workPCT)
 * Windows11轻松设置 [https://www.bilibili.com/opus/904672369138729017](https://www.bilibili.com/opus/904672369138729017)
+* Windows实用设置工具 [https://www.52pojie.cn/thread-1649624-1-1.html](https://www.52pojie.cn/thread-1649624-1-1.html)
 * 网盘图标删除 [https://github.com/Return-Log/Drive-Icon-Manager](https://github.com/Return-Log/Drive-Icon-Manager)
 
 
@@ -299,6 +309,8 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * 搜索更新补丁下载 [http://www.catalog.update.microsoft.com](http://www.catalog.update.microsoft.com)
     * [https://github.com/xrgzs/MSUpdate](https://github.com/xrgzs/MSUpdate)
 * [https://www.microsoft.com/zh-cn/software-download](https://www.microsoft.com/zh-cn/software-download)
+    * [https://github.com/ElliotKillick/Mido](https://github.com/ElliotKillick/Mido)
+    * [https://github.com/ianis58/WindowsIsoDownloader](https://github.com/ianis58/WindowsIsoDownloader)
 * [http://msdn.itellyou.cn](http://msdn.itellyou.cn)
 * [https://www.iruanmi.com/msdn](https://www.iruanmi.com/msdn)
     * [https://blogs.iapplee.com/msdn](https://blogs.iapplee.com/msdn)
@@ -306,7 +318,6 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://github.com/pbatard/Fido](https://github.com/pbatard/Fido)
 * [https://uup.rg-adguard.net](https://uup.rg-adguard.net)
     * [https://files.rg-adguard.net](https://files.rg-adguard.net)
-    * [https://store.rg-adguard.net](https://store.rg-adguard.net)
 * [https://github.com/uup-dump](https://github.com/uup-dump)
     * [https://uupdump.net](https://uupdump.net)
     * [https://www.uupdump.cn](https://www.uupdump.cn)
@@ -360,6 +371,8 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * PE驱动 [https://bbs.wuyou.net/?611945](https://bbs.wuyou.net/?611945)
 * 简约系统安装工具 [https://bbs.wuyou.net/?346009](https://bbs.wuyou.net/?346009)
 * Windows Install Tool [https://bbs.wuyou.net/?43704](https://bbs.wuyou.net/?43704) Anson4(秋刀鱼)
+* BEIKING [https://wuyou.net/?521606](https://wuyou.net/?521606)
+* [https://bbs.wuyou.net/?740388](https://bbs.wuyou.net/?740388)
 * 系统重装 [https://github.com/NORMAL-EX/LetRecovery](https://github.com/NORMAL-EX/LetRecovery)
 * USB启动盘制作增强版 [https://bbs.wuyou.net/?326192](https://bbs.wuyou.net/?326192) azhong123456
 * PECMD [https://bbs.wuyou.net/?436204](https://bbs.wuyou.net/?436204)
@@ -410,6 +423,8 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 - 备份恢复 [https://www.acronis.com/zh/products/true-image](https://www.acronis.com/zh/products/true-image)
 - 装机指南 [https://zhuangit.ababtools.com](https://zhuangit.ababtools.com)
+- [https://link3.cc/morefree](https://link3.cc/morefree)
+    - [https://www.zhihu.com/people/jiangziyang](https://www.zhihu.com/people/jiangziyang)
 
 
 **密码重置**
@@ -456,6 +471,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 + [https://archive.org/details/xp_activate32_202305](https://archive.org/details/xp_activate32_202305)
 + [https://github.com/abbodi1406/WHD](https://github.com/abbodi1406/WHD)
 + [https://github.com/abdullah-erturk/pmas](https://github.com/abdullah-erturk/pmas)
++ Activation Program [https://bbs.kafan.cn/thread-2279452-1-1.html](https://bbs.kafan.cn/thread-2279452-1-1.html)
 
 
 
@@ -582,6 +598,8 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 ### 家庭升专业
 
 + [https://github.com/TheMMC/In-Place_Upgrade_Helper](https://github.com/TheMMC/In-Place_Upgrade_Helper)
++ Windows版本切换工具 [https://blog.ossq.cn/2517.html](https://blog.ossq.cn/2517.html)
+    + [https://ossq.com.cn/download](https://ossq.com.cn/download)
 
 
 > 注意：Windows10/11家庭版升级Windows10/11专业版的密钥是产品通行密钥，不是激活密钥

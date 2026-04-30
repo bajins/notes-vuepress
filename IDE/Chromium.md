@@ -74,6 +74,8 @@
     * 无更新组件 https://edgedl.me.gvt1.com/edgedl/release2/chrome/acv6l7uqv5vm3zjnrialpp3qy3qq_114.0.5735.110/114.0.5735.110_chrome_installer.exe
 * [https://www.chromedownloads.net](https://www.chromedownloads.net)
 * [https://www.iplaysoft.com/tools/chrome](https://www.iplaysoft.com/tools/chrome)
+* [https://liulanmi.com/chrome](https://liulanmi.com/chrome)
+* [https://dream.ren/tool/chrome](https://dream.ren/tool/chrome)
 * [https://www.chrome64bit.com](https://www.chrome64bit.com)
 * [https://chrome.playes.net/chrome](https://chrome.playes.net/chrome)
 * [https://api.pzhacm.org/iivb/cu.json](https://api.pzhacm.org/iivb/cu.json)
@@ -102,6 +104,7 @@
     * [https://github.com/mozilla-mobile](https://github.com/mozilla-mobile)
     * [https://ftp.mozilla.org/pub/firefox/releases/](https://ftp.mozilla.org/pub/firefox/releases/)
     * [https://sourceforge.net/projects/libportable](https://sourceforge.net/projects/libportable)
+* [https://github.com/BrowserWorks/waterfox](https://github.com/BrowserWorks/waterfox)
 * [https://github.com/vivaldi](https://github.com/vivaldi)
     * [https://vivaldi.com](https://vivaldi.com)
 * [https://github.com/brave](https://github.com/brave)
@@ -486,6 +489,7 @@ taskkill /f /im chromedriver.exe
 * [https://github.com/sve1r/Rules-For-Quantumult-X](https://github.com/sve1r/Rules-For-Quantumult-X)
 * [https://github.com/crossutility/Quantumult-X](https://github.com/crossutility/Quantumult-X)
 * [https://github.com/yawenchim/QuantumultX-mix](https://github.com/yawenchim/QuantumultX-mix)
+* [https://github.com/brave/adblock-rust](https://github.com/brave/adblock-rust)
 
 
 - AdGuard Android 解锁高级版 [https://www.lanzoui.com/b0f19420h](https://www.lanzoui.com/b0f19420h)

@@ -121,6 +121,8 @@
 - [https://gitee.com/sxfad/porter](https://gitee.com/sxfad/porter)
 - DbVisualizer [https://www.dbvis.com](https://www.dbvis.com)
 - PostgreSQL迁移 [https://github.com/jackc/tern](https://github.com/jackc/tern)
+- [https://github.com/sbdchd/squawk](https://github.com/sbdchd/squawk)
+- [https://github.com/pgbackrest/pgbackrest](https://github.com/pgbackrest/pgbackrest)
 - [https://github.com/dimitri/pgcopydb](https://github.com/dimitri/pgcopydb)
 - [https://github.com/DTStack/flinkx](https://github.com/DTStack/flinkx)
 - [https://gitee.com/ghi/dbsyncer](https://gitee.com/ghi/dbsyncer)

@@ -313,6 +313,7 @@ check-revoke = false
     - [https://github.com/hmwill/tokio-linux-aio](https://github.com/hmwill/tokio-linux-aio)
 - [https://github.com/async-rs](https://github.com/async-rs)
 - [https://github.com/smol-rs/smol](https://github.com/smol-rs/smol)
+- [https://github.com/stav121/tasklet](https://github.com/stav121/tasklet)
 - 并发Map [https://github.com/xacrimon/dashmap](https://github.com/xacrimon/dashmap)
 - [https://github.com/rust-phf/rust-phf](https://github.com/rust-phf/rust-phf)
 - 正则搜索文件 [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)

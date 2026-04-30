@@ -31,10 +31,19 @@
     * [https://github.com/AstroNvim/AstroNvim](https://github.com/AstroNvim/AstroNvim)
 * [https://github.com/helix-editor/helix](https://github.com/helix-editor/helix)
 * [https://github.com/file-acomplaint/kyun](https://github.com/file-acomplaint/kyun)
+* [https://github.com/zufuliu/notepad4](https://github.com/zufuliu/notepad4)
 * [https://github.com/rizonesoft/Notepad3](https://github.com/rizonesoft/Notepad3)
-* [https://github.com/zufuliu/notepad2](https://github.com/zufuliu/notepad2)
+* [https://www.flos-freeware.ch/notepad2.html](https://www.flos-freeware.ch/notepad2.html)
+    * [https://sourceforge.net/projects/notepad2](https://sourceforge.net/projects/notepad2)
+    * [https://github.com/XhmikosR/notepad2-mod](https://github.com/XhmikosR/notepad2-mod)
+    * [https://github.com/ProgerXP/Notepad2e](https://github.com/ProgerXP/Notepad2e)
 * [https://github.com/dail8859/NotepadNext](https://github.com/dail8859/NotepadNext)
 * [https://github.com/0x7c13/Notepads](https://github.com/0x7c13/Notepads)
+* [https://liquidninja.com/metapad](https://liquidninja.com/metapad)
+* [https://github.com/ssrlive/akelpad](https://github.com/ssrlive/akelpad)
+    * [https://sourceforge.net/projects/akelpad](https://sourceforge.net/projects/akelpad)
+* [https://github.com/KDE/kate](https://github.com/KDE/kate)
+    * [https://kate-editor.org](https://kate-editor.org)
 * 源代码编辑控件 [https://sourceforge.net/projects/scintilla](https://sourceforge.net/projects/scintilla)
     * [https://www.scintilla.org](https://www.scintilla.org)
     * [https://github.com/ScintillaOrg/lexilla](https://github.com/ScintillaOrg/lexilla)
@@ -50,11 +59,13 @@
 * [https://sourceforge.net/projects/bluefish](https://sourceforge.net/projects/bluefish)
 * [https://github.com/steven-tey/novel](https://github.com/steven-tey/novel)
 * 巨型日志查看 [https://github.com/sunny-chung/giant-log-viewer](https://github.com/sunny-chung/giant-log-viewer)
+* [https://www.emeditor.com](https://www.emeditor.com)
 
 
 - [https://www.texmacs.org](https://www.texmacs.org)
 - [https://github.com/XmacsLabs/Xmacs](https://github.com/XmacsLabs/Xmacs)
-
+- [https://www.everedit.cn](https://www.everedit.cn)
+- [https://www.editplus.com](https://www.editplus.com)
 
 
 
@@ -77,6 +88,7 @@ REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Executi
 ## Notepad++
 
 * [https://github.com/notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus)
+    * [https://github.com/notepad-plus-plus-mac/notepad-plus-plus-macos](https://github.com/notepad-plus-plus-mac/notepad-plus-plus-macos)
 * [https://github.com/cxasm/notepad--](https://github.com/cxasm/notepad--)
 * [替换默认记事本](https://npp-user-manual.org/docs/other-resources/#notepad-replacement)
 * 插件 [https://github.com/notepad-plus-plus/nppPluginList](https://github.com/notepad-plus-plus/nppPluginList)

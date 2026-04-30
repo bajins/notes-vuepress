@@ -495,11 +495,11 @@
 + 杀后台 [https://github.com/urbandroid-team/dont-kill-my-app](https://github.com/urbandroid-team/dont-kill-my-app)
 
 
-* 文件传输 [https://github.com/localsend/localsend](https://github.com/localsend/localsend)
-* [https://github.com/nearby-sharing](https://github.com/nearby-sharing)
+* 文件管理器 [https://www.lonelycatgames.com/apps/xplore](https://www.lonelycatgames.com/apps/xplore)
+* [https://mixplorer.com](https://mixplorer.com)
+* 文件传输 [https://github.com/nearby-sharing](https://github.com/nearby-sharing)
 * [http://www.xender.com](http://www.xender.com)
 * [https://gitlab.com/fdroid/fdroid-nearby](https://gitlab.com/fdroid/fdroid-nearby)
-* [https://feem.io](https://feem.io)
 * [https://github.com/fm-sys/pairdrop-android](https://github.com/fm-sys/pairdrop-android)
 * ShareMe [https://rawapk.com/mi-drop-apk-download](https://rawapk.com/mi-drop-apk-download)
     * [https://apkpure.com/cn/shareme-1-file-sharing-data-transfer-app/com.xiaomi.midrop](https://apkpure.com/cn/shareme-1-file-sharing-data-transfer-app/com.xiaomi.midrop)
