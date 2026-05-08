@@ -205,6 +205,7 @@
 * 生成SVG [https://github.com/chaseFunny/svg-backend](https://github.com/chaseFunny/svg-backend)
 * [https://www.hyvector.com](https://www.hyvector.com)
 * [https://github.com/JiuRanYa/text-to-svg](https://github.com/JiuRanYa/text-to-svg)
+* [https://github.com/YYsuni/curve-arrow](https://github.com/YYsuni/curve-arrow)
 * SVG路径动画 [https://github.com/YYsuni/path-motion](https://github.com/YYsuni/path-motion)
 
 

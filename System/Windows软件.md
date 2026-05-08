@@ -733,6 +733,7 @@
 * [https://pixpin.cn](https://pixpin.cn)
 * [https://github.com/tylearymf/SETUNA2](https://github.com/tylearymf/SETUNA2)
 * [https://github.com/mg-chao/snow-shot](https://github.com/mg-chao/snow-shot)
+* [https://github.com/jasperdevs/odd-snap](https://github.com/jasperdevs/odd-snap)
 
 
 **FastStone Capture**

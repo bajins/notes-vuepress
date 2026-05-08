@@ -257,6 +257,8 @@ check-revoke = false
 - [https://github.com/iron/iron](https://github.com/iron/iron)
 - [https://github.com/longfangsong/rs-rtt](https://github.com/longfangsong/rs-rtt)
 - [https://github.com/actix](https://github.com/actix)
+    - [https://github.com/tech-cn/actix-website](https://github.com/tech-cn/actix-website)
+    - [https://github.com/nonfan/actix-web-docs](https://github.com/nonfan/actix-web-docs)
 - [https://github.com/http-rs](https://github.com/http-rs)
 - [https://github.com/tower-rs](https://github.com/tower-rs)
 - [https://github.com/flibrary/sails](https://github.com/flibrary/sails)

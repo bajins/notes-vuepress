@@ -10,6 +10,7 @@
 + [https://github.com/topics/spring](https://github.com/topics/spring)
 + [https://github.com/topics/spring-boot](https://github.com/topics/spring-boot)
 + [https://github.com/topics/spring-cloud](https://github.com/topics/spring-cloud)
++ [https://github.com/jmix-framework/jmix](https://github.com/jmix-framework/jmix)
 
 
 * [https://github.com/spring-projects](https://github.com/spring-projects)

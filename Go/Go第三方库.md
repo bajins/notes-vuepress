@@ -303,6 +303,7 @@
 * [https://github.com/sbinet/go-python](https://github.com/sbinet/go-python)
 * [https://github.com/ihciah/rust2go](https://github.com/ihciah/rust2go)
 * [https://github.com/ebitengine/purego](https://github.com/ebitengine/purego)
+* [https://github.com/go-webgpu/goffi](https://github.com/go-webgpu/goffi)
 * [https://github.com/goplus/llcppg](https://github.com/goplus/llcppg)
 * GO编译为JS [https://github.com/gopherjs](https://github.com/gopherjs)
 * JavaScript [https://github.com/rogchap/v8go](https://github.com/rogchap/v8go)

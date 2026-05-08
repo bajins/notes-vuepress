@@ -12,6 +12,7 @@
 * [https://github.com/emacs-tw/awesome-emacs](https://github.com/emacs-tw/awesome-emacs)
     * [http://www.gnu.org/software/emacs](http://www.gnu.org/software/emacs)
     * [https://github.com/mhayashi1120/Emacs-wgrep](https://github.com/mhayashi1120/Emacs-wgrep)
+    * [https://orgmode.org](https://orgmode.org)
 * [https://github.com/geany/geany](https://github.com/geany/geany)
 * [https://www.nano-editor.org](https://www.nano-editor.org)
 * [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)

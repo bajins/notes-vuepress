@@ -218,6 +218,7 @@
 - [https://github.com/canonical/multipass](https://github.com/canonical/multipass)
     - [https://github.com/canonical/lxd](https://github.com/canonical/lxd)
 - 微型虚拟机 [https://github.com/firecracker-microvm](https://github.com/firecracker-microvm)
+- [https://github.com/superradcompany/microsandbox](https://github.com/superradcompany/microsandbox)
 - [https://github.com/kata-containers/kata-containers](https://github.com/kata-containers/kata-containers)
 - [https://github.com/kestra-io/kestra](https://github.com/kestra-io/kestra)
 - IOT虚拟机 [https://github.com/projectacrn](https://github.com/projectacrn)
@@ -904,6 +905,7 @@
 * [https://github.com/liujuntao123/smart-excalidraw-next](https://github.com/liujuntao123/smart-excalidraw-next)
 * [https://github.com/chunrapeepat/inscribed](https://github.com/chunrapeepat/inscribed)
     * [https://storymotion.video](https://storymotion.video)
+* [https://github.com/asong56/Cicada](https://github.com/asong56/Cicada)
 * 处理音频和视频 [https://github.com/xiguaxigua/ffmpeg-online](https://github.com/xiguaxigua/ffmpeg-online)
 * CAD [https://github.com/CADmium-Co/CADmium](https://github.com/CADmium-Co/CADmium)
 * [https://github.com/xiangechen/chili3d](https://github.com/xiangechen/chili3d)
@@ -951,6 +953,7 @@
 * [https://github.com/wejectchen/Ginblog](https://github.com/wejectchen/Ginblog)
 * [https://github.com/BuilderIO/builder](https://github.com/BuilderIO/builder)
 * [https://github.com/plone](https://github.com/plone)
+* [https://github.com/readur/readur](https://github.com/readur/readur)
 * Java [https://github.com/halo-dev](https://github.com/halo-dev)
 
 

@@ -204,6 +204,7 @@ chrome://flags/#enable-parallel-downloading
         * [https://juejin.im/book/5c526902e51d4543805ef35e](https://juejin.im/book/5c526902e51d4543805ef35e)
     * [https://developer.chrome.com/docs/chromium/headless](https://developer.chrome.com/docs/chromium/headless)
 * [https://github.com/blittle/chrome-dev-tools](https://github.com/blittle/chrome-dev-tools)
+* [https://github.com/aeroxy/chrome-devtools-cli](https://github.com/aeroxy/chrome-devtools-cli)
 * Chrome开发者工具中文手册 [https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools](https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools)
 * [https://github.com/ahangchen/Chromium_doc_zh](https://github.com/ahangchen/Chromium_doc_zh)
 * [浏览器不想让你知道的 67 个奇怪的调试技巧](https://alan.norbauer.com/articles/browser-debugging-tricks)

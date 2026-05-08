@@ -40,6 +40,7 @@
 + 静态类型检查 [https://github.com/google/error-prone](https://github.com/google/error-prone)
 + [https://github.com/TouK/sputnik](https://github.com/TouK/sputnik)
 + [https://github.com/soot-oss/soot](https://github.com/soot-oss/soot)
+    + [https://github.com/soot-oss/SootUp](https://github.com/soot-oss/SootUp)
 + [https://github.com/wala](https://github.com/wala)
 + [https://github.com/plast-lab/doop-mirror](https://github.com/plast-lab/doop-mirror)
     + [如何快速上手指针分析工具doop？](https://www.zhihu.com/question/499028330)

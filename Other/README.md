@@ -185,6 +185,8 @@
 - [https://github.com/fonttools/fonttools](https://github.com/fonttools/fonttools)
 - 字体呈现 [https://gitlab.gnome.org/GNOME/pango](https://gitlab.gnome.org/GNOME/pango)
 - [https://www.fontsquirrel.com/tools/webfont-generator](https://www.fontsquirrel.com/tools/webfont-generator)
+- [https://github.com/MontageSubs](https://github.com/MontageSubs)
+- [https://github.com/opentypejs/opentype.js](https://github.com/opentypejs/opentype.js)
 
 
 

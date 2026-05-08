@@ -11,6 +11,7 @@
 
 + [https://github.com/awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash)
 + 命令行沙盒 [https://github.com/binpash/try](https://github.com/binpash/try)
++ [https://github.com/EvgeBosc/snapflow](https://github.com/EvgeBosc/snapflow)
 
 
 - [Linux常用命令汇总](https://blog.csdn.net/Mculover666/article/details/84558280)

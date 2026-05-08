@@ -111,6 +111,10 @@
 
 ## 代码生成与辅助
 
+* [https://github.com/marcelkliemannel/intellij-developer-tools-plugin](https://github.com/marcelkliemannel/intellij-developer-tools-plugin)
+* [https://github.com/jenly1314/JvmFieldGenerator](https://github.com/jenly1314/JvmFieldGenerator)
+* [https://github.com/oowekyala/intellij-javacc](https://github.com/oowekyala/intellij-javacc)
+
 
 **GsonFormat**
 
