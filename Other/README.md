@@ -205,6 +205,7 @@
 * [https://mirrors.pubyun.com](https://mirrors.pubyun.com)
 * [https://mirrors.cn99.com](https://mirrors.cn99.com)
 * [https://mirror-hk.koddos.net](https://mirror-hk.koddos.net)
+* [https://mirrors.ibiblio.org](https://mirrors.ibiblio.org)
 
 
 ### 教育网镜像站

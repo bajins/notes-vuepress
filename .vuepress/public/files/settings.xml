@@ -262,17 +262,17 @@ under the License.
             <!-- https://mirrors.cloud.tencent.com/help/maven.html -->
             <repository>
                 <id>nexus-tencentyun</id>
-                <url>http://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
+                <url>https://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </repository>
             <!-- ibiblio -->
-            <repository>
+            <!--<repository>
                 <id>ibiblio</id>
                 <url>http://mirrors.ibiblio.org/pub/mirrors/maven2/</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
-            </repository>
+            </repository>-->
             <!-- 华为 使用华为Maven中央仓库时，需要在servers节点增加一个server子节点 -->
             <repository>
                 <id>huaweicloud</id>
@@ -280,24 +280,31 @@ under the License.
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </repository>
-            <!-- repo1.maven.org -->
+            <!-- mirrors.163.com -->
             <repository>
-                <id>central</id>
-                <url>http://repo1.maven.org/maven2/</url>
+                <id>163</id>
+                <url>https://mirrors.163.com/maven/repository/maven-public/</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </repository>
-            <!-- repo1.maven.apache.org -->
+            <!-- https://jcenter.bintray.com/ -->
             <repository>
                 <id>central</id>
-                <url>http://repo1.maven.apache.org/maven2/</url>
+                <url>https://repo1.maven.org/maven2/</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </repository>
-            <!-- repo2.maven.org -->
+            <!-- repo.maven.apache.org -->
             <repository>
-                <id>repo2</id>
-                <url>http://repo2.maven.org/maven2/</url>
+                <id>central</id>
+                <url>https://repo.maven.apache.org/maven2/</url>
+                <releases><enabled>true</enabled></releases>
+                <snapshots><enabled>false</enabled></snapshots>
+            </repository>
+            <!-- plugins.gradle.org -->
+            <repository>
+                <id>central</id>
+                <url>https://plugins.gradle.org/m2/</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </repository>
@@ -308,21 +315,18 @@ under the License.
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </repository>
-            <!-- uk.maven.org -->
-            <repository>
-                <id>ui</id>
-                <url>http://uk.maven.org/maven2/</url>
-                <releases><enabled>true</enabled></releases>
-                <snapshots><enabled>false</enabled></snapshots>
-            </repository>
             <!-- repository.jboss.org -->
             <repository>
                 <id>jboss-public-repository-group</id>
-                <url>http://repository.jboss.org/nexus/content/groups/public</url>
+                <url>https://repository.jboss.org/nexus/content/groups/public</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </repository>
-            <!-- Google -->
+            <!-- Google
+            Google 镜像（美洲） https://maven-central.storage-download.googleapis.com/maven2/ 
+            Google 镜像（欧洲） https://maven-central-eu.storage-download.googleapis.com/maven2/
+            Google 镜像（亚太） https://maven-central-asia.storage-download.googleapis.com/maven2/
+            -->
             <repository>
                 <id>google</id>
                 <url>https://maven.google.com/</url>
@@ -332,14 +336,7 @@ under the License.
             <!-- Maven china -->
             <repository>
                 <id>maven.net.cn</id>
-                <url>http://maven.net.cn/content/groups/public/</url>
-                <releases><enabled>true</enabled></releases>
-                <snapshots><enabled>false</enabled></snapshots>
-            </repository>
-            <!-- Maven oschina -->
-            <repository>
-                <id>CN</id>
-                <url>http://maven.oschina.net/content/groups/public/</url>
+                <url>https://maven.net.cn/content/groups/public/</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </repository>
@@ -356,14 +353,7 @@ under the License.
             <!-- https://mirrors.cloud.tencent.com/help/maven.html -->
             <pluginRepository>
                 <id>nexus-tencentyun</id>
-                <url>http://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
-                <releases><enabled>true</enabled></releases>
-                <snapshots><enabled>false</enabled></snapshots>
-            </pluginRepository>
-            <!-- ibiblio -->
-            <pluginRepository>
-                <id>ibiblio</id>
-                <url>http://mirrors.ibiblio.org/pub/mirrors/maven2/</url>
+                <url>https://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </pluginRepository>
@@ -374,24 +364,31 @@ under the License.
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </pluginRepository>
-            <!-- repo1.maven.org -->
+            <!-- mirrors.163.com -->
+            <pluginRepository>
+                <id>163</id>
+                <url>https://mirrors.163.com/maven/repository/maven-public/</url>
+                <releases><enabled>true</enabled></releases>
+                <snapshots><enabled>false</enabled></snapshots>
+            </pluginRepository>
+            <!-- https://jcenter.bintray.com/ -->
             <pluginRepository>
                 <id>central</id>
-                <url>http://repo1.maven.org/maven2/</url>
+                <url>https://repo1.maven.org/maven2/</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </pluginRepository>
             <!-- repo1.maven.apache.org -->
             <pluginRepository>
                 <id>central</id>
-                <url>http://repo1.maven.apache.org/maven2/</url>
+                <url>https://repo.maven.apache.org/maven2/</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </pluginRepository>
-            <!-- repo2.maven.org -->
+            <!-- plugins.gradle.org -->
             <pluginRepository>
-                <id>repo2</id>
-                <url>http://repo2.maven.org/maven2/</url>
+                <id>central</id>
+                <url>https://plugins.gradle.org/m2/</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </pluginRepository>
@@ -402,17 +399,10 @@ under the License.
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </pluginRepository>
-            <!-- uk.maven.org -->
-            <pluginRepository>
-                <id>ui</id>
-                <url>http://uk.maven.org/maven2/</url>
-                <releases><enabled>true</enabled></releases>
-                <snapshots><enabled>false</enabled></snapshots>
-            </pluginRepository>
             <!-- repository.jboss.org -->
             <pluginRepository>
                 <id>jboss-public-repository-group</id>
-                <url>http://repository.jboss.org/nexus/content/groups/public</url>
+                <url>https://repository.jboss.org/nexus/content/groups/public</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </pluginRepository>
@@ -426,14 +416,7 @@ under the License.
             <!-- Maven china -->
             <pluginRepository>
                 <id>maven.net.cn</id>
-                <url>http://maven.net.cn/content/groups/public/</url>
-                <releases><enabled>true</enabled></releases>
-                <snapshots><enabled>false</enabled></snapshots>
-            </pluginRepository>
-            <!-- Maven oschina -->
-            <pluginRepository>
-                <id>CN</id>
-                <url>http://maven.oschina.net/content/groups/public/</url>
+                <url>https://maven.net.cn/content/groups/public/</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </pluginRepository>
