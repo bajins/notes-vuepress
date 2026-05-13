@@ -288,6 +288,8 @@
 * [https://github.com/tzmartin/stablecode-vscode](https://github.com/tzmartin/stablecode-vscode)
 * [https://github.com/continuedev/continue](https://github.com/continuedev/continue)
 * [https://github.com/cline/cline](https://github.com/cline/cline)
+* [https://github.com/Sitoi/ai-commit](https://github.com/Sitoi/ai-commit)
+* [https://github.com/git-ai-project/git-ai](https://github.com/git-ai-project/git-ai)
 * 配色 [https://github.com/nealmckee/penumbra](https://github.com/nealmckee/penumbra)
 * 禁用规则 [https://github.com/lvjiaxuan/vscode-eslint-disable](https://github.com/lvjiaxuan/vscode-eslint-disable)
 * 前端提示 [https://github.com/Simon-He95/vscode-common-intellisense](https://github.com/Simon-He95/vscode-common-intellisense)

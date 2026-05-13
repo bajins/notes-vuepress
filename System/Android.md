@@ -645,6 +645,7 @@
 * 笔记 [https://github.com/theachoem/storypad](https://github.com/theachoem/storypad)
 * 短信网关 [https://github.com/capcom6/android-sms-gateway](https://github.com/capcom6/android-sms-gateway)
 * 硬件信息 [https://phyphox.org](https://phyphox.org)
+* 习惯跟踪 [https://github.com/FriesI23/mhabit](https://github.com/FriesI23/mhabit)
 
 
 

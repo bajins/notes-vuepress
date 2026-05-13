@@ -211,147 +211,61 @@
 * [https://github.com/opencas](https://github.com/opencas)
 * [https://github.com/mirrorz-org](https://github.com/mirrorz-org)
     * [https://mirrors.cernet.edu.cn](https://mirrors.cernet.edu.cn)
+    * [https://mirrorz.org](https://mirrorz.org)
 * [https://github.com/isrc-cas](https://github.com/isrc-cas)
 * [https://gdgshanghai.com](https://gdgshanghai.com)
-
-
-**东北大学**
-
-* IPv4&IPv6 [http://mirror.neu.edu.cn](http://mirror.neu.edu.cn)
-
-
-**大连理工大学**
-
-* IPv4&IPv6 [http://mirror.dlut.edu.cn](http://mirror.dlut.edu.cn)
-
-
-**大连东软信息学院**
-
-* [https://mirrors.neusoft.edu.cn](https://mirrors.neusoft.edu.cn)
-
-
-**哈尔滨工业大学**
-
-* [https://github.com/hitlug](https://github.com/hitlug)
-* IPv4&IPv6 [http://mirrors.hit.edu.cn](http://mirrors.hit.edu.cn)
-
-
-**清华大学**
-
-* [https://github.com/tuna](https://github.com/tuna)
-* IPv4&IPv6 [https://mirrors.tuna.tsinghua.edu.cn](https://mirrors.tuna.tsinghua.edu.cn)
-* IPv4 [https://mirrors4.tuna.tsinghua.edu.cn](https://mirrors4.tuna.tsinghua.edu.cn)
-* IPv6 [https://mirrors6.tuna.tsinghua.edu.cn](https://mirrors6.tuna.tsinghua.edu.cn)
-
-
-**北京外国语大学**
-
-* IPv4&IPv6 [https://mirrors.bfsu.edu.cn](https://mirrors.bfsu.edu.cn)
-* IPv4 [https://mirrors4.bfsu.edu.cn](https://mirrors4.bfsu.edu.cn)
-* IPv6 [https://mirrors6.bfsu.edu.cn](https://mirrors6.bfsu.edu.cn)
-
-
-**北京交通大学**
-
-* [https://github.com/bjtulug](https://github.com/bjtulug)
-* IPv4&IPv6 [https://mirror.bjtu.edu.cn](https://mirror.bjtu.edu.cn)
-
-
-**南京大学电子科学中心**
-
-* [https://github.com/nju-lug](https://github.com/nju-lug)
-* IPv4&IPv6 [https://mirrors.nju.edu.cn](https://mirrors.nju.edu.cn)
-
-
-**中国科学技术大学**
-
-* [https://github.com/ustclug](https://github.com/ustclug)
-* IPv4&IPv6 [https://mirrors.ustc.edu.cn](https://mirrors.ustc.edu.cn)
-* IPv4 [https://ipv4.mirrors.ustc.edu.cn](https://ipv4.mirrors.ustc.edu.cn)
-* IPv6 [https://ipv6.mirrors.ustc.edu.cn](https://ipv6.mirrors.ustc.edu.cn)
-
-
-**华中科技大学**
-
-* IPv4 [http://mirrors.hust.edu.cn](http://mirrors.hust.edu.cn)
-
-
-**上海交通大学**
-
-* [https://github.com/sjtug](https://github.com/sjtug)
-* IPv4 [https://mirror.sjtu.edu.cn](https://mirror.sjtu.edu.cn)
-* [https://mirrors.sjtug.sjtu.edu.cn](https://mirrors.sjtug.sjtu.edu.cn)
-
-
-**浙江大学**
-
-* IPv4 [http://mirrors.zju.edu.cn](http://mirrors.zju.edu.cn)
-
-
-**兰州大学**
-
-* [https://github.com/LZUOSS](https://github.com/LZUOSS)
-* IPv4&IPv6 [http://mirror.lzu.edu.cn](http://mirror.lzu.edu.cn)
-
-
-**重庆大学**
-
-* [https://github.com/cqumirror](https://github.com/cqumirror)
-* IPv4 [https://mirrors.cqu.edu.cn](https://mirrors.cqu.edu.cn)
-
-**重庆邮电大学**
-
-* [https://github.com/CQUPTMirror](https://github.com/CQUPTMirror)
-
-
-**南阳理工学院开源镜像站**
-
-* [https://github.com/NYIST-CIPS](https://github.com/NYIST-CIPS)
-* IPv4&IPv6 [https://mirror.nyist.edu.cn](https://mirror.nyist.edu.cn)
-* IPv4 [https://mirror4.nyist.edu.cn](https://mirror4.nyist.edu.cn)
-* IPv6 [https://mirror6.nyist.edu.cn](https://mirror6.nyist.edu.cn)
-
-**南方科技大学**
-
-* [https://github.com/sustech-cra](https://github.com/sustech-cra)
-
-**山东大学**
-
-* [https://github.com/SDU-Mirrors](https://github.com/SDU-Mirrors)
-
-**齐鲁工业大学**
-
-* [https://github.com/qlu-mirrors](https://github.com/qlu-mirrors)
-
-**浙江大学**
-
-* [https://github.com/zjusct](https://github.com/zjusct)
-
-**吉林大学**
-
-* [https://github.com/JLULUG](https://github.com/JLULUG)
-
-**北京邮电大学**
-
-* [https://github.com/BYRIO](https://github.com/BYRIO)
-
-**荆楚理工学院**
-
-* [https://github.com/JCIOTeam](https://github.com/JCIOTeam)
-
-**北京大学**
-
-* [https://github.com/PKUOSC](https://github.com/PKUOSC)
-
-**上海交通大学/上海科技大学**
-
-* [https://github.com/sjtug](https://github.com/sjtug)
-* [https://github.com/ShanghaitechGeekPie](https://github.com/ShanghaitechGeekPie)
-
-**电子科技大学**
-
-* [https://github.com/uestclug](https://github.com/uestclug)
-* [https://gitlab.com/uestclug](https://gitlab.com/uestclug)
+* 东北大学 IPv4&IPv6 [http://mirror.neu.edu.cn](http://mirror.neu.edu.cn)
+* 大连理工大学 IPv4&IPv6 [http://mirror.dlut.edu.cn](http://mirror.dlut.edu.cn)
+* 大连东软信息学院 [https://mirrors.neusoft.edu.cn](https://mirrors.neusoft.edu.cn)
+* 哈尔滨工业大学 [https://github.com/hitlug](https://github.com/hitlug)
+    * IPv4&IPv6 [http://mirrors.hit.edu.cn](http://mirrors.hit.edu.cn)
+* 清华大学 [https://github.com/tuna](https://github.com/tuna)
+    * IPv4&IPv6 [https://mirrors.tuna.tsinghua.edu.cn](https://mirrors.tuna.tsinghua.edu.cn)
+    * IPv4 [https://mirrors4.tuna.tsinghua.edu.cn](https://mirrors4.tuna.tsinghua.edu.cn)
+    * IPv6 [https://mirrors6.tuna.tsinghua.edu.cn](https://mirrors6.tuna.tsinghua.edu.cn)
+* 北京外国语大学 IPv4&IPv6 [https://mirrors.bfsu.edu.cn](https://mirrors.bfsu.edu.cn)
+    * IPv4 [https://mirrors4.bfsu.edu.cn](https://mirrors4.bfsu.edu.cn)
+    * IPv6 [https://mirrors6.bfsu.edu.cn](https://mirrors6.bfsu.edu.cn)
+* 北京交通大学 [https://github.com/bjtulug](https://github.com/bjtulug)
+    * IPv4&IPv6 [https://mirror.bjtu.edu.cn](https://mirror.bjtu.edu.cn)
+* 南京大学 [https://github.com/nju-lug](https://github.com/nju-lug)
+    * [https://sci.nju.edu.cn](https://sci.nju.edu.cn)
+    * [https://mirror.nju.edu.cn](https://mirror.nju.edu.cn)
+    * IPv4&IPv6 [https://mirrors.nju.edu.cn](https://mirrors.nju.edu.cn)
+* 中国科学技术大学 [https://github.com/ustclug](https://github.com/ustclug)
+    * IPv4&IPv6 [https://mirrors.ustc.edu.cn](https://mirrors.ustc.edu.cn)
+    * IPv4 [https://ipv4.mirrors.ustc.edu.cn](https://ipv4.mirrors.ustc.edu.cn)
+    * IPv6 [https://ipv6.mirrors.ustc.edu.cn](https://ipv6.mirrors.ustc.edu.cn)
+* 华中科技大学 [https://github.com/hust-open-atom-club](https://github.com/hust-open-atom-club)
+* 上海交通大学 [https://github.com/sjtug](https://github.com/sjtug)
+    * IPv4 [https://mirror.sjtu.edu.cn](https://mirror.sjtu.edu.cn)
+    * [https://mirrors.sjtug.sjtu.edu.cn](https://mirrors.sjtug.sjtu.edu.cn)
+* 兰州大学 [https://github.com/LZUOSS](https://github.com/LZUOSS)
+    * IPv4&IPv6 [http://mirror.lzu.edu.cn](http://mirror.lzu.edu.cn)
+* 重庆大学 [https://github.com/cqumirror](https://github.com/cqumirror)
+    * IPv4 [https://mirrors.cqu.edu.cn](https://mirrors.cqu.edu.cn)
+* 重庆邮电大学 [https://github.com/CQUPTMirror](https://github.com/CQUPTMirror)
+    * [https://mirrors.cqupt.edu.cn](https://mirrors.cqupt.edu.cn)
+* 南阳理工学院 [https://github.com/NYIST-CIPS](https://github.com/NYIST-CIPS)
+    * IPv4&IPv6 [https://mirror.nyist.edu.cn](https://mirror.nyist.edu.cn)
+    * IPv4 [https://mirror4.nyist.edu.cn](https://mirror4.nyist.edu.cn)
+    * IPv6 [https://mirror6.nyist.edu.cn](https://mirror6.nyist.edu.cn)
+* 南方科技大学 [https://github.com/sustech-cra](https://github.com/sustech-cra)
+    * [https://www.cra.moe](https://www.cra.moe)
+    * [https://mirrors.sustech.edu.cn](https://mirrors.sustech.edu.cn)
+* 山东大学 [https://github.com/SDU-Mirrors](https://github.com/SDU-Mirrors)
+* 齐鲁工业大学 [https://github.com/qlu-mirrors](https://github.com/qlu-mirrors)
+* 浙江大学 [https://github.com/zjusct](https://github.com/zjusct)
+    * IPv4 [http://mirrors.zju.edu.cn](http://mirrors.zju.edu.cn)
+* 吉林大学 [https://github.com/JLULUG](https://github.com/JLULUG)
+* 北京邮电大学 [https://github.com/BYRIO](https://github.com/BYRIO)
+* 荆楚理工学院 [https://github.com/JCIOTeam](https://github.com/JCIOTeam)
+    * [https://mirrors.jcut.edu.cn](https://mirrors.jcut.edu.cn)
+* 北京大学 [https://github.com/PKUOSC](https://github.com/PKUOSC)
+* 上海科技大学 [https://github.com/ShanghaitechGeekPie](https://github.com/ShanghaitechGeekPie)
+* 电子科技大学 [https://github.com/uestclug](https://github.com/uestclug)
+    * [https://gitlab.com/uestclug](https://gitlab.com/uestclug)
+* 武昌首义学院 [https://mirrors.wsyu.edu.cn](https://mirrors.wsyu.edu.cn)
 
 
 

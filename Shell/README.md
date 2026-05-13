@@ -364,6 +364,8 @@
 * [https://www.emtec.com/zoc](https://www.emtec.com/zoc)
 * [https://sysprogs.com/SmarTTY](https://sysprogs.com/SmarTTY)
 * [https://www.terminal.icu](https://www.terminal.icu)
+* [https://github.com/xterm-x11](https://github.com/xterm-x11)
+    * [https://github.com/ThomasDickey/xterm-snapshots](https://github.com/ThomasDickey/xterm-snapshots)
 * [https://www.xterminal.cn](https://www.xterminal.cn)
 * [https://ishell.cc/zh-CN](https://ishell.cc/zh-CN)
 * [https://www.hexhub.cn](https://www.hexhub.cn)

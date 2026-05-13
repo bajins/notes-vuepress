@@ -259,15 +259,11 @@ conda deactivate # 退出当前环境
 
 **[更多镜像源](/Other/#通用镜像)**
 
-- 阿里云 [https://mirrors.aliyun.com/pypi/simple](https://mirrors.aliyun.com/pypi/simple)
-- 百度 [https://mirror.baidu.com/pypi/simple](https://mirror.baidu.com/pypi/simple)
-- 中国科技大学 [https://pypi.mirrors.ustc.edu.cn/simple](https://pypi.mirrors.ustc.edu.cn/simple)
-- 清华大学 [https://pypi.tuna.tsinghua.edu.cn/simple](https://pypi.tuna.tsinghua.edu.cn/simple)
-
-* 豆瓣(douban) [http://pypi.douban.com/simple](http://pypi.douban.com/simple)
-* 中国科学技术大学 [http://pypi.mirrors.ustc.edu.cn/simple](http://pypi.mirrors.ustc.edu.cn/simple)
-* 华中理工大学 [http://pypi.hustunique.com](http://pypi.hustunique.com)
-* 山东理工大学 [http://pypi.sdutlinux.org](http://pypi.sdutlinux.org)
+* 阿里云 [https://mirrors.aliyun.com/pypi/simple](https://mirrors.aliyun.com/pypi/simple)
+* 百度 [https://mirror.baidu.com/pypi/simple](https://mirror.baidu.com/pypi/simple)
+* 中国科技大学 [https://pypi.mirrors.ustc.edu.cn/simple](https://pypi.mirrors.ustc.edu.cn/simple)
+* 清华大学 [https://pypi.tuna.tsinghua.edu.cn/simple](https://pypi.tuna.tsinghua.edu.cn/simple)
+* 中国科学技术大学 [https://mirrors.ustc.edu.cn/pypi/simple](https://mirrors.ustc.edu.cn/pypi/simple)
 * 上海交通大学 [https://mirrors.sjtug.sjtu.edu.cn/pypi](https://mirrors.sjtug.sjtu.edu.cn/pypi)
 
 
