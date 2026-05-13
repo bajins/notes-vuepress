@@ -49,7 +49,7 @@
 
 + [https://github.com/topics/openjdk](https://github.com/topics/openjdk)
 + [https://github.com/topics/jdk](https://github.com/topics/jdk)
-+ [https://www.injdk.cn](https://www.injdk.cn)
++ [https://injdk.cn](https://injdk.cn)
     + [https://d10.injdk.cn](https://d10.injdk.cn)
 
 

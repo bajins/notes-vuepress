@@ -228,6 +228,8 @@ go env -w GOGC=off
 
 ### Modules代理
 
+* [https://goproxy.baidu.com](https://goproxy.baidu.com)
+
 > 查看Go的环境信息`go env`
 
 **GOPROXY**
