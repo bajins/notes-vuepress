@@ -483,6 +483,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 + [https://github.com/abbodi1406/KMS_VL_ALL_AIO](https://github.com/abbodi1406/KMS_VL_ALL_AIO)
 + [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
+    + [https://github.com/Dwarven/vlmcsd](https://github.com/Dwarven/vlmcsd)
 + [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
 + [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
 + [https://github.com/netnr/kms](https://github.com/netnr/kms)

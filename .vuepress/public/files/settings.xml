@@ -266,17 +266,11 @@ under the License.
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </repository>
-            <!-- ibiblio -->
-            <!--<repository>
-                <id>ibiblio</id>
-                <url>http://mirrors.ibiblio.org/pub/mirrors/maven2/</url>
-                <releases><enabled>true</enabled></releases>
-                <snapshots><enabled>false</enabled></snapshots>
-            </repository>-->
-            <!-- 华为 使用华为Maven中央仓库时，需要在servers节点增加一个server子节点 -->
+            <!-- https://mirrors.huaweicloud.com 使用华为Maven中央仓库时，需要在servers节点增加一个server子节点 -->
+            <!-- https://repo.huaweicloud.com/repository/maven/ -->
             <repository>
                 <id>huaweicloud</id>
-                <url>https://mirror.huaweicloud.com/repository/maven/</url>
+                <url>https://mirrors.huaweicloud.com/apache/maven/maven-3/</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </repository>
@@ -287,10 +281,32 @@ under the License.
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </repository>
-            <!-- https://jcenter.bintray.com/ -->
+            <!-- repository.jboss.org -->
+            <!-- https://nexus.libsdev.k-int.com -->
             <repository>
-                <id>central</id>
+                <id>jboss-public-repository-group</id>
+                <url>https://repository.jboss.org/nexus/content/groups/public/</url>
+                <releases><enabled>true</enabled></releases>
+                <snapshots><enabled>false</enabled></snapshots>
+            </repository>
+            <!-- plugins.gradle.org -->
+            <repository>
+                <id>gradle</id>
+                <url>https://plugins.gradle.org/m2/</url>
+                <releases><enabled>true</enabled></releases>
+                <snapshots><enabled>false</enabled></snapshots>
+            </repository>
+            <!-- https://central.sonatype.com https://jcenter.bintray.com/ -->
+            <repository>
+                <id>sonatype</id>
                 <url>https://repo1.maven.org/maven2/</url>
+                <releases><enabled>true</enabled></releases>
+                <snapshots><enabled>false</enabled></snapshots>
+            </repository>
+            <!-- https://github.com/opennms-forge/maven-cache -->
+            <repository>
+                <id>mvn.cdn.useast1.opennms.com-cache</id>
+                <url>https://mvn.cdn.useast1.opennms.com/cache</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </repository>
@@ -301,24 +317,10 @@ under the License.
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </repository>
-            <!-- plugins.gradle.org -->
-            <repository>
-                <id>central</id>
-                <url>https://plugins.gradle.org/m2/</url>
-                <releases><enabled>true</enabled></releases>
-                <snapshots><enabled>false</enabled></snapshots>
-            </repository>
             <!-- spring.io -->
             <repository>
                 <id>sprintio</id>
                 <url>https://repo.spring.io/libs-snapshot/</url>
-                <releases><enabled>true</enabled></releases>
-                <snapshots><enabled>false</enabled></snapshots>
-            </repository>
-            <!-- repository.jboss.org -->
-            <repository>
-                <id>jboss-public-repository-group</id>
-                <url>https://repository.jboss.org/nexus/content/groups/public</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </repository>
@@ -333,12 +335,12 @@ under the License.
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </repository>
-            <!-- Maven china -->
+            <!-- https://gitverse.ru/docs/artifactory/registry-mirrors/mvn-mirror/ -->
             <repository>
-                <id>maven.net.cn</id>
-                <url>https://maven.net.cn/content/groups/public/</url>
+                <id>mvn-mirror</id>
+                <url>https://mvn-mirror.gitverse.ru</url>
                 <releases><enabled>true</enabled></releases>
-                <snapshots><enabled>false</enabled></snapshots>
+                <snapshots><enabled>true</enabled></snapshots>
             </repository>
         </repositories>
         <pluginRepositories>
@@ -357,10 +359,10 @@ under the License.
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </pluginRepository>
-            <!-- 华为 使用华为Maven中央仓库时，需要在servers节点增加一个server子节点 -->
+            <!-- https://mirrors.huaweicloud.com 使用华为Maven中央仓库时，需要在servers节点增加一个server子节点 -->
             <pluginRepository>
                 <id>huaweicloud</id>
-                <url>https://mirror.huaweicloud.com/repository/maven/</url>
+                <url>https://mirrors.huaweicloud.com/apache/maven/maven-3/</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </pluginRepository>
@@ -371,10 +373,31 @@ under the License.
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </pluginRepository>
-            <!-- https://jcenter.bintray.com/ -->
+            <!-- repository.jboss.org -->
             <pluginRepository>
-                <id>central</id>
+                <id>jboss-public-repository-group</id>
+                <url>https://repository.jboss.org/nexus/content/groups/public/</url>
+                <releases><enabled>true</enabled></releases>
+                <snapshots><enabled>false</enabled></snapshots>
+            </pluginRepository>
+            <!-- plugins.gradle.org -->
+            <pluginRepository>
+                <id>gradle</id>
+                <url>https://plugins.gradle.org/m2/</url>
+                <releases><enabled>true</enabled></releases>
+                <snapshots><enabled>false</enabled></snapshots>
+            </pluginRepository>
+            <!-- https://central.sonatype.com https://jcenter.bintray.com/ -->
+            <pluginRepository>
+                <id>sonatype</id>
                 <url>https://repo1.maven.org/maven2/</url>
+                <releases><enabled>true</enabled></releases>
+                <snapshots><enabled>false</enabled></snapshots>
+            </pluginRepository>
+            <!-- https://github.com/opennms-forge/maven-cache -->
+            <pluginRepository>
+                <id>mvn.cdn.useast1.opennms.com-cache</id>
+                <url>https://mvn.cdn.useast1.opennms.com/cache</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </pluginRepository>
@@ -385,24 +408,10 @@ under the License.
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </pluginRepository>
-            <!-- plugins.gradle.org -->
-            <pluginRepository>
-                <id>central</id>
-                <url>https://plugins.gradle.org/m2/</url>
-                <releases><enabled>true</enabled></releases>
-                <snapshots><enabled>false</enabled></snapshots>
-            </pluginRepository>
             <!-- spring.io -->
             <pluginRepository>
                 <id>sprintio</id>
                 <url>https://repo.spring.io/libs-snapshot/</url>
-                <releases><enabled>true</enabled></releases>
-                <snapshots><enabled>false</enabled></snapshots>
-            </pluginRepository>
-            <!-- repository.jboss.org -->
-            <pluginRepository>
-                <id>jboss-public-repository-group</id>
-                <url>https://repository.jboss.org/nexus/content/groups/public</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </pluginRepository>
@@ -413,12 +422,12 @@ under the License.
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
             </pluginRepository>
-            <!-- Maven china -->
+            <!-- https://gitverse.ru/docs/artifactory/registry-mirrors/mvn-mirror/ -->
             <pluginRepository>
-                <id>maven.net.cn</id>
-                <url>https://maven.net.cn/content/groups/public/</url>
+                <id>mvn-mirror</id>
+                <url>https://mvn-mirror.gitverse.ru</url>
                 <releases><enabled>true</enabled></releases>
-                <snapshots><enabled>false</enabled></snapshots>
+                <snapshots><enabled>true</enabled></snapshots>
             </pluginRepository>
         </pluginRepositories>
     </profile>

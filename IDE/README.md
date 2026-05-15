@@ -50,7 +50,6 @@
 - [Microsoft Store开发人员工具](https://www.microsoft.com/zh-cn/store/most-popular/apps/pc?category=developer%20tools)
 - WakaTime [https://github.com/muety/wakapi](https://github.com/muety/wakapi)
 - 代码助手AI [https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
-- [https://github.com/obra/superpowers](https://github.com/obra/superpowers)
 - [https://github.com/codota/tabnine](https://github.com/codota/tabnine)
     - [https://www.tabnine.com](https://www.tabnine.com)
 - [https://github.com/ravenscroftj/turbopilot](https://github.com/ravenscroftj/turbopilot)

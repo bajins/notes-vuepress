@@ -127,6 +127,7 @@
 - [https://github.com/wader/fq](https://github.com/wader/fq)
 - [https://github.com/ynqa/jnv](https://github.com/ynqa/jnv)
 - [https://github.com/bjesus/pipet](https://github.com/bjesus/pipet)
+- [https://github.com/plainas/qjp](https://github.com/plainas/qjp)
 - HTML [https://github.com/ericchiang/pup](https://github.com/ericchiang/pup)
 - [https://github.com/dvcoolarun/web2pdf](https://github.com/dvcoolarun/web2pdf)
 - [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)

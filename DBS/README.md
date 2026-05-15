@@ -244,6 +244,7 @@
 * [https://github.com/distributedio/titan](https://github.com/distributedio/titan)
 * [https://github.com/ledisdb](https://github.com/ledisdb)
 * [https://github.com/reborndb](https://github.com/reborndb)
+* [https://github.com/Softmotions/iowow](https://github.com/Softmotions/iowow)
 * [https://github.com/facebook/rocksdb](https://github.com/facebook/rocksdb) (嵌入式 - C++) 
   * [https://github.com/xiaomi/pegasus-rocksdb](https://github.com/xiaomi/pegasus-rocksdb) (嵌入式 - C++)
   * [https://github.com/apache/incubator-pegasus](https://github.com/apache/incubator-pegasus)
@@ -272,6 +273,7 @@
 * [https://github.com/cockroachdb/pebble](https://github.com/cockroachdb/pebble) (嵌入式 - Go)
 * [https://github.com/dgraph-io/badger](https://github.com/dgraph-io/badger) (嵌入式 - Go)
 * [https://github.com/hashicorp/go-memdb](https://github.com/hashicorp/go-memdb) (嵌入式 - Go)
+* [https://github.com/tidwall/buntdb](https://github.com/tidwall/buntdb) (嵌入式 - Go)
 
 
 
@@ -444,6 +446,7 @@
 * [https://github.com/etcd-io/bbolt](https://github.com/etcd-io/bbolt) (嵌入式 - Go)
 * [https://github.com/jnwatson/py-lmdb](https://github.com/jnwatson/py-lmdb) (嵌入式 - Python/C)
 * [https://github.com/sirixdb](https://github.com/sirixdb) (XML/JSON版本化存储)
+* [https://github.com/Softmotions/ejdb](https://github.com/Softmotions/ejdb)
 * [https://github.com/hivedb/hive](https://github.com/hivedb/hive) (Flutter嵌入式 - Dart)
 * [https://gitlab.com/cznic/ql](https://gitlab.com/cznic/ql) (嵌入式 - Go)
 * [https://github.com/TrinityCore/TrinityCore](https://github.com/TrinityCore/TrinityCore) (游戏服务器数据库)

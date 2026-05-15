@@ -58,7 +58,6 @@
 
 
 - [https://github.com/topics/classloader](https://github.com/topics/classloader)
-- [https://github.com/technomancy/leiningen](https://github.com/technomancy/leiningen)
 - [https://java-source.net](https://java-source.net)
 
 * [原来实现项目多环境打包部署是如此的简单](https://www.cnblogs.com/hafiz/p/7559976.html)
@@ -259,6 +258,8 @@
 
 + [https://maven.apache.org](https://maven.apache.org)
     + [https://maven.apache.org/plugins/index.html](https://maven.apache.org/plugins/index.html)
++ [https://github.com/dzikoysk/reposilite](https://github.com/dzikoysk/reposilite)
+    + [https://github.com/opennms-forge/maven-cache](https://github.com/opennms-forge/maven-cache)
 + [https://github.com/ibofine/mavenbook](https://github.com/ibofine/mavenbook)
     + [https://ibofine.github.io/mavenbook](https://ibofine.github.io/mavenbook)
 + [Maven详细教程](https://segmentfault.com/a/1190000015077021)

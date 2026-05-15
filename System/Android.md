@@ -361,7 +361,6 @@
 * [https://github.com/pengxurui/EasyPrivacy](https://github.com/pengxurui/EasyPrivacy)
 * 崩溃报告 [https://github.com/ACRA/acra](https://github.com/ACRA/acra)
 * 执行脚本 [https://github.com/zhanghai/BeeShell](https://github.com/zhanghai/BeeShell)
-* 短信 [https://github.com/octoshrimpy/quik](https://github.com/octoshrimpy/quik)
 
 
 
@@ -643,9 +642,11 @@
 * [https://github.com/CCExtractor/ultimate_alarm_clock](https://github.com/CCExtractor/ultimate_alarm_clock)
 * 设备管理 [https://codeberg.org/Freeyourgadget/Gadgetbridge](https://codeberg.org/Freeyourgadget/Gadgetbridge)
 * 笔记 [https://github.com/theachoem/storypad](https://github.com/theachoem/storypad)
+* 短信 [https://github.com/octoshrimpy/quik](https://github.com/octoshrimpy/quik)
 * 短信网关 [https://github.com/capcom6/android-sms-gateway](https://github.com/capcom6/android-sms-gateway)
 * 硬件信息 [https://phyphox.org](https://phyphox.org)
 * 习惯跟踪 [https://github.com/FriesI23/mhabit](https://github.com/FriesI23/mhabit)
+* 壁纸 [https://github.com/you-apps/WallYou](https://github.com/you-apps/WallYou)
 
 
 

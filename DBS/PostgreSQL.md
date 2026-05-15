@@ -21,6 +21,8 @@
 * [https://github.com/pgpartman](https://github.com/pgpartman)
 * [https://github.com/PostgREST/postgrest](https://github.com/PostgREST/postgrest)
 * [https://github.com/CrunchyData](https://github.com/CrunchyData)
+* [https://github.com/fergusstrange/embedded-postgres](https://github.com/fergusstrange/embedded-postgres)
+* [https://github.com/chaisql/chai](https://github.com/chaisql/chai)
 * 客户端 [https://github.com/sosedoff/pgweb](https://github.com/sosedoff/pgweb)
 * [https://github.com/prest/prest](https://github.com/prest/prest)
 * [https://github.com/alibaba/PolarDB-for-PostgreSQL](https://github.com/alibaba/PolarDB-for-PostgreSQL)

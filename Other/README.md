@@ -193,6 +193,10 @@
 
 ## 通用镜像
 
++ [https://github.com/dhjz/cdn](https://github.com/dhjz/cdn)
++ [https://github.com/The-Ladder-of-Rrogress/china-mirror-resolver](https://github.com/The-Ladder-of-Rrogress/china-mirror-resolver)
+
+
 * [https://developer.aliyun.com/mirror](https://developer.aliyun.com/mirror)
     * [https://mirrors.aliyun.com](https://mirrors.aliyun.com)
 * [https://mirrors.cloud.tencent.com](https://mirrors.cloud.tencent.com)
@@ -206,6 +210,8 @@
 * [https://mirrors.cn99.com](https://mirrors.cn99.com)
 * [https://mirror-hk.koddos.net](https://mirror-hk.koddos.net)
 * [https://mirrors.ibiblio.org](https://mirrors.ibiblio.org)
+* [https://mirror.yandex.ru](https://mirror.yandex.ru)
+* [https://dotsrc.org/mirrors](https://dotsrc.org/mirrors)
 
 
 ### 教育网镜像站

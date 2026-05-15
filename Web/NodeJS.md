@@ -76,6 +76,7 @@
 * [https://github.com/fuchengwei/deploy-cli-service](https://github.com/fuchengwei/deploy-cli-service)
 * [https://github.com/Tencent/hel](https://github.com/Tencent/hel)
 * 打包单个可执行文件 [https://github.com/Ray-D-Song/lexe](https://github.com/Ray-D-Song/lexe)
+* [https://github.com/t8nlab/titanpl](https://github.com/t8nlab/titanpl)
 
 
 

@@ -1035,6 +1035,7 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * [https://gitlab.com/hoptodesk/hoptodesk](https://gitlab.com/hoptodesk/hoptodesk)
     * [https://www.hoptodesk.com](https://www.hoptodesk.com)
 * [https://www.todesk.com](https://www.todesk.com)
+* [https://www.raylink.live](https://www.raylink.live)
 * [https://parsec.app](https://parsec.app)
 * [https://uuyc.163.com/download](https://uuyc.163.com/download)
 * 向日葵 [https://sunlogin.oray.com/download](https://sunlogin.oray.com/download)
@@ -1201,6 +1202,12 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * [https://www.ccleaner.com](https://www.ccleaner.com)
 * [https://www.wisecleaner.com](https://www.wisecleaner.com)
 * 强制删除 [https://github.com/differentrain/Delapp](https://github.com/differentrain/Delapp)
+* [https://github.com/PolarGoose/ShowWhatProcessLocksFile](https://github.com/PolarGoose/ShowWhatProcessLocksFile)
+* [https://github.com/wangfu91/locksmith](https://github.com/wangfu91/locksmith)
+* [https://lockhunter.com](https://lockhunter.com)
+* [https://www.iobit.com](https://www.iobit.com)
+* [http://www.emptyloop.com/unlocker](http://www.emptyloop.com/unlocker)
+    * [https://github.com/ez8-co/unlocker](https://github.com/ez8-co/unlocker)
 
 
 
