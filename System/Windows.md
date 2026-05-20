@@ -21,6 +21,9 @@
     * [https://github.com/xypha/AHK-v2-scripts](https://github.com/xypha/AHK-v2-scripts)
 * [https://actusclicker.com](https://actusclicker.com)
 * [https://github.com/Qwejay/Qflow](https://github.com/Qwejay/Qflow)
+* [https://www.murgee.com](https://www.murgee.com)
+    * [https://www.murgoo.com](https://www.murgoo.com)
+    * [https://www.daanav.com](https://www.daanav.com)
 * 检查系统启用的协议 [https://www.nartac.com/Products/IISCrypto](https://www.nartac.com/Products/IISCrypto)
 * PC硬件管理Vantage [https://apps.microsoft.com/detail/9wzdncrfj4mv](https://apps.microsoft.com/detail/9wzdncrfj4mv)
 

@@ -56,6 +56,7 @@
 - [https://github.com/qt-creator/qt-creator](https://github.com/qt-creator/qt-creator)
 - [https://projects.eclipse.org/projects/tools.cdt](https://projects.eclipse.org/projects/tools.cdt)
 - [https://www.codeblocks.org](https://www.codeblocks.org)
+- [https://gitlab.com/cppit/jucipp](https://gitlab.com/cppit/jucip)
 
 
 

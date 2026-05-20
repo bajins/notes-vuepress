@@ -10,6 +10,7 @@
 + [https://github.com/GerritCodeReview/git-repo](https://github.com/GerritCodeReview/git-repo)
 + [https://github.com/gitonomy/gitlib](https://github.com/gitonomy/gitlib)
 + [https://github.com/gitbucket/gitbucket](https://github.com/gitbucket/gitbucket)
++ [https://github.com/radicle-dev](https://github.com/radicle-dev)
 
 
 

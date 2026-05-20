@@ -169,6 +169,24 @@
 * [https://github.com/cferdinandi/kelp](https://github.com/cferdinandi/kelp)
 * CSS布局引擎 [https://github.com/chearon/dropflow](https://github.com/chearon/dropflow)
 * 解析 [https://github.com/csstree/csstree](https://github.com/csstree/csstree)
+
+
+
+- [最受程序员欢迎的 20 个 CSS 框架](https://www.fuocu.cn/archives/css-frame)
+- [https://github.com/sass](https://github.com/sass)
+    - [https://www.sass.hk/docs](https://www.sass.hk/docs)
+    - [SASS用法指南(阮一峰)](http://www.ruanyifeng.com/blog/2012/06/sass.html)
+- [https://github.com/less](https://github.com/less)
+    - [https://less.bootcss.com](https://less.bootcss.com)
+- [https://github.com/cssnano/cssnano](https://github.com/cssnano/cssnano)
+    - [https://www.cssnano.cn](https://www.cssnano.cn)
+- [SVG 的友好介绍](https://www.joshwcomeau.com/svg/friendly-introduction-to-svg)
+
+
+
+**SVG/Icon**
+
+* SVG [https://svgwg.org/svg2-draft](https://svgwg.org/svg2-draft)
 * 矢量图标 [https://github.com/FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
     * [https://github.com/l-lin/font-awesome-animation](https://github.com/l-lin/font-awesome-animation)
 * [https://github.com/Remix-Design/RemixIcon](https://github.com/Remix-Design/RemixIcon)
@@ -188,9 +206,12 @@
 * [https://iconbuddy.app](https://iconbuddy.app)
 * [https://useanimations.com](https://useanimations.com)
 * [https://github.com/primer/octicons](https://github.com/primer/octicons)
+* [https://github.com/lipis/flag-icons](https://github.com/lipis/flag-icons)
 * [https://yesicon.app](https://yesicon.app)
     * [https://github.com/rotick/yesicon-forum](https://github.com/rotick/yesicon-forum)
 * [https://github.com/simple-icons](https://github.com/simple-icons)
+* [https://github.com/homarr-labs/dashboard-icons](https://github.com/homarr-labs/dashboard-icons)
+* [https://github.com/NX211/homer-icons](https://github.com/NX211/homer-icons)
 * [https://github.com/pheralb/svgl](https://github.com/pheralb/svgl)
 * [https://iconce.com](https://iconce.com)
 * [https://github.com/KanjiVG/kanjivg](https://github.com/KanjiVG/kanjivg)
@@ -202,23 +223,28 @@
 * [https://github.com/YuheshPandian/ICONIC](https://github.com/YuheshPandian/ICONIC)
 * [https://github.com/hehehai/tiny-svg](https://github.com/hehehai/tiny-svg)
 * [https://github.com/svgdotjs/svg.js](https://github.com/svgdotjs/svg.js)
+* [https://github.com/aleofreddi/svgpan](https://github.com/aleofreddi/svgpan)
+* [https://github.com/bumbu/svg-pan-zoom](https://github.com/bumbu/svg-pan-zoom)
 * 生成SVG [https://github.com/chaseFunny/svg-backend](https://github.com/chaseFunny/svg-backend)
 * [https://www.hyvector.com](https://www.hyvector.com)
 * [https://github.com/JiuRanYa/text-to-svg](https://github.com/JiuRanYa/text-to-svg)
 * [https://github.com/YYsuni/curve-arrow](https://github.com/YYsuni/curve-arrow)
 * SVG路径动画 [https://github.com/YYsuni/path-motion](https://github.com/YYsuni/path-motion)
+* SVG绘图编辑器 [https://github.com/SVG-Edit](https://github.com/SVG-Edit)
+* [https://github.com/adobe-webplatform/Snap.svg](https://github.com/adobe-webplatform/Snap.svg)
+* 优化 [https://github.com/svg/svgo](https://github.com/svg/svgo)
+* [https://github.com/fabricjs](https://github.com/fabricjs)
+* [https://github.com/paperjs](https://github.com/paperjs)
+* [https://github.com/apexcharts](https://github.com/apexcharts)
+* [https://github.com/clientIO/joint](https://github.com/clientIO/joint)
+* 图标字体自定义 [https://github.com/uuware/icons-font-customization](https://github.com/uuware/icons-font-customization)
+* [https://github.com/07akioni/xicons](https://github.com/07akioni/xicons)
+* SVG转PNG [https://github.com/walynlee/svg2png](https://github.com/walynlee/svg2png)
+* [https://github.com/xianyu110/web-tools-suite](https://github.com/xianyu110/web-tools-suite)
+* [https://github.com/orcastor/cad2x-converter](https://github.com/orcastor/cad2x-converter)
+* [https://github.com/svg-net/SVG](https://github.com/svg-net/SVG)
 
 
-
-- [最受程序员欢迎的 20 个 CSS 框架](https://www.fuocu.cn/archives/css-frame)
-- [https://github.com/sass](https://github.com/sass)
-    - [https://www.sass.hk/docs](https://www.sass.hk/docs)
-    - [SASS用法指南(阮一峰)](http://www.ruanyifeng.com/blog/2012/06/sass.html)
-- [https://github.com/less](https://github.com/less)
-    - [https://less.bootcss.com](https://less.bootcss.com)
-- [https://github.com/cssnano/cssnano](https://github.com/cssnano/cssnano)
-    - [https://www.cssnano.cn](https://www.cssnano.cn)
-- [SVG 的友好介绍](https://www.joshwcomeau.com/svg/friendly-introduction-to-svg)
 
 
 ## CSS3新单位和计算
