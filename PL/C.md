@@ -253,6 +253,9 @@
 * FFI [https://dyncall.org](https://dyncall.org)
 * [https://sourceforge.net/projects/swig](https://sourceforge.net/projects/swig)
     * [https://github.com/swig](https://github.com/swig)
+* [https://github.com/libffi/libffi](https://github.com/libffi/libffi)
+* [https://github.com/mentebinaria/readpe](https://github.com/mentebinaria/readpe)
+* [https://github.com/VirusTotal/yara](https://github.com/VirusTotal/yara)
 * Windows API Hook [https://github.com/TsudaKageyu/minhook](https://github.com/TsudaKageyu/minhook)
 * 正则表达式 [https://github.com/PCRE2Project/pcre2](https://github.com/PCRE2Project/pcre2)
 * 消息总线 [https://github.com/bus1/dbus-broker](https://github.com/bus1/dbus-broker)
@@ -283,6 +286,7 @@
     * [https://github.com/wang-bin](https://github.com/wang-bin)
     * [https://github.com/BtbN/FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds)
     * [https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
+    * [https://github.com/antiboredom/ffmpeg-explorer](https://github.com/antiboredom/ffmpeg-explorer)
 * [https://github.com/ShiftMediaProject/FFmpeg](https://github.com/ShiftMediaProject/FFmpeg)
 * [https://github.com/ashellunts/ffmpeg-to-webrtc](https://github.com/ashellunts/ffmpeg-to-webrtc)
 * [https://github.com/AO-Yumi/vorbis_aotuv](https://github.com/AO-Yumi/vorbis_aotuv)
@@ -327,6 +331,10 @@
 **其他**
 
 - 反汇编： C32asm、MYCCL、OD、IDA、softICE、WinDbg
+- [https://github.com/zyantific/zydis](https://github.com/zyantific/zydis)
+- [https://github.com/capstone-engine/capstone](https://github.com/capstone-engine/capstone)
+- [https://github.com/asmjit](https://github.com/asmjit)
+- [https://bitbucket.org/mrexodia/lz4](https://bitbucket.org/mrexodia/lz4)
 - [https://github.com/x64dbg/x64dbg](https://github.com/x64dbg/x64dbg)
     - [https://github.com/horsicq/x64dbg-Plugin-Manager](https://github.com/horsicq/x64dbg-Plugin-Manager)
 - [https://github.com/jas502n/IDA_Pro_7.2](https://github.com/jas502n/IDA_Pro_7.2)

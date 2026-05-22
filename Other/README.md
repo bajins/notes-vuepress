@@ -6,15 +6,10 @@
 ## Flag
 
 * [https://github.com/No-Github/Digital-Privacy](https://github.com/No-Github/Digital-Privacy)
-* IP库 [https://db-ip.com](https://db-ip.com)
-* 谷歌全球IP地址库 [https://github.com/justjavac/Google-IPs](https://github.com/justjavac/Google-IPs)
 * 公共手册 [https://handbook.opencoreventures.com](https://handbook.opencoreventures.com)
 * [https://gitlab.com/gitlab-com/content-sites/handbook](https://gitlab.com/gitlab-com/content-sites/handbook)
 * [https://github.com/formbricks/formbricks](https://github.com/formbricks/formbricks)
 * 日程安排 [https://github.com/calcom/cal.com](https://github.com/calcom/cal.com)
-* 股票 [https://github.com/Rockyzsu/stock](https://github.com/Rockyzsu/stock)
-* [https://github.com/mootdx/mootdx](https://github.com/mootdx/mootdx)
-* 投资干货合集 [https://news.futunn.com/news-topics/127](https://news.futunn.com/news-topics/127)
 * 人体系统调优 [https://github.com/zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization)
 * 相机数据库 [https://github.com/leavestylecode/CameraDatabase](https://github.com/leavestylecode/CameraDatabase)
 * 信号干扰器 [https://github.com/EmenstaNougat/ESP32-BlueJammer](https://github.com/EmenstaNougat/ESP32-BlueJammer)

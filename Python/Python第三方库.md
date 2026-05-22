@@ -100,6 +100,7 @@
 * [https://github.com/eliben/pycparser](https://github.com/eliben/pycparser)
 * [https://github.com/gjcarneiro/pybindgen](https://github.com/gjcarneiro/pybindgen)
 * [https://github.com/scipy/weave](https://github.com/scipy/weave)
+* [https://github.com/erocarrera/pefile](https://github.com/erocarrera/pefile)
 * 限流 [https://github.com/ZhuoZhuoCrayon/throttled-py](https://github.com/ZhuoZhuoCrayon/throttled-py)
 * JSON [https://github.com/simplejson/simplejson](https://github.com/simplejson/simplejson)
 * Windows进程内存操作 [https://github.com/srounet/Pymem](https://github.com/srounet/Pymem)

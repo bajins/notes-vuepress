@@ -63,19 +63,43 @@
 
 * services [https://docs.microsoft.com/zh-cn/windows/win32/services](https://docs.microsoft.com/zh-cn/windows/win32/services)
     * 参考 `golang.org/x/sys/windows/svc/security.go`
+* [https://learn.microsoft.com/zh-cn/windows/apps/desktop/modernize/winrt-apis-desktop-apps](https://learn.microsoft.com/zh-cn/windows/apps/desktop/modernize/winrt-apis-desktop-apps)
 * [https://docs.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regsetkeysecurity](https://docs.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regsetkeysecurity)
 * [https://github.com/microsoft/Windows-universal-samples](https://github.com/microsoft/Windows-universal-samples)
+* WinRT 语言投影（language projection） [https://github.com/microsoft/xlang](https://github.com/microsoft/xlang)
+    * [https://github.com/microsoft/win32metadata](https://github.com/microsoft/win32metadata)
+    * [https://github.com/microsoft/cppwinrt](https://github.com/microsoft/cppwinrt)
+        * [https://github.com/kennykerr/win7](https://github.com/kennykerr/win7)
+    * [https://github.com/microsoft/windows-rs](https://github.com/microsoft/windows-rs)
+        * [https://github.com/kennykerr/blog](https://github.com/kennykerr/blog)
+        * [https://microsoft.github.io/windows-docs-rs/doc/windows](https://microsoft.github.io/windows-docs-rs/doc/windows)
+    * TaskScheduler [https://github.com/mattrobineau/planif](https://github.com/mattrobineau/planif)
+    * [https://github.com/retep998/winapi-rs](https://github.com/retep998/winapi-rs)
+    * [https://github.com/rodrigocfd/winsafe](https://github.com/rodrigocfd/winsafe)
+    * [https://github.com/mxre/winres](https://github.com/mxre/winres)
+    * [https://github.com/Araxeus/tiny-native-scheduler](https://github.com/Araxeus/tiny-native-scheduler)
+    * [https://github.com/microsoft/cswinrt](https://github.com/microsoft/cswinrt)
+    * [https://github.com/pywinrt/pywinrt](https://github.com/pywinrt/pywinrt)
+    * [https://github.com/NodeRT/NodeRT](https://github.com/NodeRT/NodeRT)
+    * [https://github.com/alvinhochun/mingw-w64-cppwinrt](https://github.com/alvinhochun/mingw-w64-cppwinrt)
+    * [https://github.com/hez2010/WinRTServer](https://github.com/hez2010/WinRTServer)
 * UI [https://github.com/microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml)
-* MFC
-* WinForms(2001)
+    * [https://hoshiizumiya.github.io/vitepresspages/WinUI3](https://hoshiizumiya.github.io/vitepresspages/WinUI3)
+    * https://www.36kr.com/p/3741068813172743
+    * https://www.36kr.com/p/3411202919747200
+* Win32（1985）
+* MFC（1992）
+* WinForms(2002)
 * WPF(Windows Presentation Doundation，2006，MVVM UI)
-* WinUI
-* MAUI
-* win32
-* UWP(Universal Windows Platform)
+* Silverlight（2007）
+* WinJS（2012）
+* WinRT（XAML，2012）
+* Xamarin（Forms，2014）
+* UWP(Universal Windows Platform，XAML，2015)
+* WinUI（2018）
+* MAUI（2020）
+* WinUI 3（2021）
 * PWA
-* xaml
-* maui
 * Blazor
 * ReactiveUI
 * Windows cummunity toolkit
@@ -228,6 +252,7 @@
 * [https://github.com/ServiceStack/ServiceStack](https://github.com/ServiceStack/ServiceStack)
     * [https://github.com/ServiceStackV3](https://github.com/ServiceStackV3)
 * [https://github.com/fullstackhero/dotnet-starter-kit](https://github.com/fullstackhero/dotnet-starter-kit)
+* [https://github.com/CoreWCF/CoreWCF](https://github.com/CoreWCF/CoreWCF)
 * 微服务 [https://github.com/AlphaYu/Adnc](https://github.com/AlphaYu/Adnc)
 * [https://github.com/dotnet-architecture/eShopOnDapr](https://github.com/dotnet-architecture/eShopOnDapr)
 * WPF控件 [https://github.com/topics/wpf-ui](https://github.com/topics/wpf-ui)

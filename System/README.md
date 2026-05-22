@@ -695,6 +695,7 @@
 * [https://github.com/GimelStudio](https://github.com/GimelStudio)
 * [https://github.com/ms300/ColorLake](https://github.com/ms300/ColorLake)
 * [https://github.com/civilblur/mazanoke](https://github.com/civilblur/mazanoke)
+* 时间轴 [https://github.com/hughfenghen/dimcut](https://github.com/hughfenghen/dimcut)
 * 头像生成 [https://github.com/multiavatar/Multiavatar](https://github.com/multiavatar/Multiavatar)
 * SVG预览 [https://github.com/liujuntao123/new-svg-viewer](https://github.com/liujuntao123/new-svg-viewer)
 * PPT象限编辑器 [https://github.com/KwokKwok/slide-lab](https://github.com/KwokKwok/slide-lab)

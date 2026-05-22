@@ -323,6 +323,7 @@
 
 - `JS-CSS-HTML Formatter`
 - `ESLint`
+- [https://github.com/urin/vscode-web-visual-editor](https://github.com/urin/vscode-web-visual-editor)
 
 
 

@@ -76,6 +76,22 @@
 - 后台管理 [https://github.com/chelunfu/qiluo_admin](https://github.com/chelunfu/qiluo_admin)
 
 
+| 特性         | `unwrap` | `?`      | `match` |
+| ---------- | -------- | -------- | ------- |
+| **失败时行为**  | 程序 panic | 向上返回错误   | 由代码决定    |
+| **函数签名要求** | 无        | 必须返回兼容类型 | 无       |
+
+
+| 变量类型          | 函数返回                | 能否直接 `?` | 需要             |
+| -------------- | ------------------- | -------- | -------------- |
+| `Result<T, E>` | `Result<T, E>`      | ✅        | 直接 `?`         |
+| `Option<T>`    | `Result<T, E>`      | ❌        | `.ok_or(...)?` |
+| `HRESULT`      | `Result<(), Error>` | ❌        | `.ok()?`       |
+| `Option<T>`    | `Option<T>`         | ✅        | 直接 `?`         |
+| `Result<T, E>` | `Option<T>`         | ❌        | `.ok()?`       |
+
+
+
 **不显示控制台窗口**
 
 - https://rust-lang.github.io/rfcs/1665-windows-subsystem.html
@@ -242,6 +258,7 @@ check-revoke = false
 - [https://github.com/gabdube/native-windows-gui](https://github.com/gabdube/native-windows-gui)
 - [https://github.com/EmbarkStudios/rust-gpu](https://github.com/EmbarkStudios/rust-gpu)
 - [https://github.com/vizia/vizia](https://github.com/vizia/vizia)
+- [https://github.com/rust-windowing](https://github.com/rust-windowing)
 - 文件系统 [https://github.com/zboxfs/zbox](https://github.com/zboxfs/zbox)
 - [https://github.com/camino-rs/camino](https://github.com/camino-rs/camino)
 - 游戏引擎 [https://github.com/PistonDevelopers/piston](https://github.com/PistonDevelopers/piston)
@@ -290,15 +307,7 @@ check-revoke = false
 - [https://github.com/rust-cli](https://github.com/rust-cli)
 - [https://github.com/ratatui-org](https://github.com/ratatui-org)
     - [https://github.com/ratatui/ratatui](https://github.com/ratatui/ratatui)
-- Windows [https://github.com/microsoft/windows-rs](https://github.com/microsoft/windows-rs)
-    - [https://microsoft.github.io/windows-docs-rs/doc/windows](https://microsoft.github.io/windows-docs-rs/doc/windows)
-    - Win32 API描述 [https://github.com/microsoft/win32metadata](https://github.com/microsoft/win32metadata)
-    - TaskScheduler [https://github.com/mattrobineau/planif](https://github.com/mattrobineau/planif)
-- [https://github.com/retep998/winapi-rs](https://github.com/retep998/winapi-rs)
-- [https://github.com/rodrigocfd/winsafe](https://github.com/rodrigocfd/winsafe)
-- [https://github.com/rust-windowing](https://github.com/rust-windowing)
-- [https://github.com/mxre/winres](https://github.com/mxre/winres)
-- [https://github.com/Araxeus/tiny-native-scheduler](https://github.com/Araxeus/tiny-native-scheduler)
+- FFI [https://github.com/m4b/goblin](https://github.com/m4b/goblin)
 - SSH [https://github.com/alexcrichton/ssh2-rs](https://github.com/alexcrichton/ssh2-rs)
 - [https://github.com/1148118271/ssh-rs](https://github.com/1148118271/ssh-rs)
 - [https://nest.pijul.com/pijul/thrussh](https://nest.pijul.com/pijul/thrussh)
@@ -492,6 +501,12 @@ check-revoke = false
 - 模式匹配 [https://github.com/yorickpeterse/pattern-matching-in-rust](https://github.com/yorickpeterse/pattern-matching-in-rust)
 - 文件路径 [https://github.com/dirs-dev/dirs-rs](https://github.com/dirs-dev/dirs-rs)
 - 处理错误 [https://github.com/dtolnay/anyhow](https://github.com/dtolnay/anyhow)
+- [https://github.com/dtolnay/thiserror](https://github.com/dtolnay/thiserror)
+- [https://github.com/eyre-rs/eyre](https://github.com/eyre-rs/eyre)
+- [https://github.com/zkat/miette](https://github.com/zkat/miette)
+- [https://github.com/shepmaster/snafu](https://github.com/shepmaster/snafu)
+- [https://github.com/tikv/fail-rs](https://github.com/tikv/fail-rs)
+- [https://github.com/withoutboats/fehler](https://github.com/withoutboats/fehler)
 - 剪贴板 [https://github.com/1Password/arboard](https://github.com/1Password/arboard)
 - 字符串搜索 [https://github.com/BurntSushi/memchr](https://github.com/BurntSushi/memchr)
 - 动态加载链库 [https://github.com/nagisa/rust_libloading](https://github.com/nagisa/rust_libloading)

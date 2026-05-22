@@ -268,6 +268,7 @@
     * [https://gitee.com/rabt/funds](https://gitee.com/rabt/funds)
 * API [https://github.com/kouchao/TiantianFundApi](https://github.com/kouchao/TiantianFundApi)
 * [https://github.com/zhangxiangliang/stock-api](https://github.com/zhangxiangliang/stock-api)
+* [https://github.com/chengzuopeng/stock-sdk](https://github.com/chengzuopeng/stock-sdk)
 * [https://github.com/Gy-hy/ttfunds](https://github.com/Gy-hy/ttfunds)
 * [https://github.com/huage2580/leeks](https://github.com/huage2580/leeks)
 * [https://github.com/Aerolite794/Aerolite_fund_ana](https://github.com/Aerolite794/Aerolite_fund_ana)
@@ -278,7 +279,9 @@
 * [https://github.com/ArvinLovegood/go-stock](https://github.com/ArvinLovegood/go-stock)
 * 指数估值备份 [https://github.com/caibingcheng/djeva](https://github.com/caibingcheng/djeva)
 * 财经资讯 [https://github.com/sgrsun3/FinNewsCollectionBot](https://github.com/sgrsun3/FinNewsCollectionBot)
-
+* 股票 [https://github.com/Rockyzsu/stock](https://github.com/Rockyzsu/stock)
+* [https://github.com/mootdx/mootdx](https://github.com/mootdx/mootdx)
+* 投资干货合集 [https://news.futunn.com/news-topics/127](https://news.futunn.com/news-topics/127)
 
 - [https://github.com/jianglang740/Basic-OF-Python-Learning](https://github.com/jianglang740/Basic-OF-Python-Learning)
 - [https://github.com/louloulin/mdb](https://github.com/louloulin/mdb)

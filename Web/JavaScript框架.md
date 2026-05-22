@@ -203,6 +203,7 @@
 - JSON生成SQL [https://github.com/liyupi/sql-generator](https://github.com/liyupi/sql-generator)
 - 验证 [https://github.com/logaretm/vee-validate](https://github.com/logaretm/vee-validate)
 - 图片编辑器 [https://github.com/nihaojob/vue-fabric-editor](https://github.com/nihaojob/vue-fabric-editor)
+- 流媒体Markdown [https://github.com/Simon-He95/markstream-vue](https://github.com/Simon-He95/markstream-vue)
 
 
 **Mobile**

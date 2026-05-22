@@ -320,6 +320,7 @@
 * [https://www.utorrent.com](https://www.utorrent.com)
 * [https://github.com/webtorrent](https://github.com/webtorrent)
 * [https://github.com/arvidn/libtorrent](https://github.com/arvidn/libtorrent)
+* [https://github.com/hoshiizumiya/OpenNet](https://github.com/hoshiizumiya/OpenNet)
 * [https://github.com/popcorn-official/popcorn-desktop](https://github.com/popcorn-official/popcorn-desktop)
 
 
@@ -1386,6 +1387,7 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * 蓝牙管理 [https://github.com/m2jean/ToothTray](https://github.com/m2jean/ToothTray)
 * 便携式软件 [https://sourceforge.net/projects/portableapps](https://sourceforge.net/projects/portableapps)
 * 右键菜单 [https://github.com/moudey/shell](https://github.com/moudey/shell)
+* [https://github.com/BluePointLilac/ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager)
 * 系统菜单增强 [https://github.com/AlexanderPro/SmartSystemMenu](https://github.com/AlexanderPro/SmartSystemMenu)
 * 活动跟踪 [https://github.com/ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch)
 * [https://github.com/Planshit/Tai](https://github.com/Planshit/Tai)

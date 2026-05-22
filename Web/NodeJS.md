@@ -149,6 +149,7 @@
 * 图片压缩 [https://gitlab.com/ramiel/caravaggio](https://gitlab.com/ramiel/caravaggio)
 * [https://github.com/lovell/sharp](https://github.com/lovell/sharp)
 * C交互接口 [https://github.com/Koromix/koffi](https://github.com/Koromix/koffi)
+* [https://github.com/node-ffi-napi/node-ffi-napi](https://github.com/node-ffi-napi/node-ffi-napi)
 * 游戏框架 [https://github.com/greenheartgames/greenworks](https://github.com/greenheartgames/greenworks)
 * [https://github.com/ceifa/steamworks.js](https://github.com/ceifa/steamworks.js)
 * 检测文字语言 [https://github.com/komodojp/tinyld](https://github.com/komodojp/tinyld)
