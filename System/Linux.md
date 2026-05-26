@@ -380,6 +380,7 @@ autorestart=true
 * [https://louiszhai.github.io/2017/09/30/tmux](https://louiszhai.github.io/2017/09/30/tmux)
 * [https://gist.github.com/MohamedAlaa/2961058](https://gist.github.com/MohamedAlaa/2961058)
 * [https://gist.github.com/ryerh/14b7c24dfd623ef8edc7](https://gist.github.com/ryerh/14b7c24dfd623ef8edc7)
+* [https://github.com/abhinav/tmux-fastcopy](https://github.com/abhinav/tmux-fastcopy)
 
 
 > `tmux`分为`3`层，`Session`包含`Window`包含`Panes`

@@ -221,6 +221,7 @@ nvm install <最新的版本号>
     * [https://github.com/npmx-dev/npmx.dev](https://github.com/npmx-dev/npmx.dev)
 * [https://github.com/yarnpkg](https://github.com/yarnpkg)
     * [https://www.yarnpkg.com.cn](https://www.yarnpkg.com.cn)
+* [https://github.com/endevco/aube](https://github.com/endevco/aube)
 * 清理依赖 [https://github.com/voidcosmos/npkill](https://github.com/voidcosmos/npkill)
 * 私服 [https://github.com/verdaccio/verdaccio](https://github.com/verdaccio/verdaccio)
     * [Ubuntu服务器上搭建Npm私服](https://segmentfault.com/a/1190000047471564)

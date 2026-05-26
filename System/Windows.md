@@ -158,7 +158,8 @@ powercfg /batteryreport /output "Desktop\battery-report.html"
 * 系统调整 [https://github.com/ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 * 卸载自带应用 [https://www.thewindowsclub.com/10appsmanager-windows-10](https://www.thewindowsclub.com/10appsmanager-windows-10)
 ```powershell
-Get-AppxProvisionedPackage -Online | Where-Object {$_.packagename -like "*WindowsWorkload*"}  | Remove-AppxProvisionedPackage -Online;Get-AppxPackage -AllUsers | Where-Object {$_.name -like "*WindowsWorkload*"} | Remove-AppxPackage
+# https://learn.microsoft.com/zh-cn/windows/client-management/mdm/policy-csp-windowsai
+$patterns=@("*WindowsWorkload*","*Microsoft.Windows.Ai.Copilot.Provider*");foreach($p in $patterns){Get-AppxProvisionedPackage -Online -EA 0|?{$_.PackageName -like $p}|%{Remove-AppxProvisionedPackage -Online -PackageName $_.PackageName -EA 0};Get-AppxPackage -AllUsers -EA 0|?{$_.Name -like $p}|%{Remove-AppxPackage -Package $_.PackageFullName -AllUsers -EA 0}}
 ```
 * [https://github.com/ElPumpo/Win10Clean](https://github.com/ElPumpo/Win10Clean)
 * [https://github.com/L33Tech/Windows10Tools](https://github.com/L33Tech/Windows10Tools)

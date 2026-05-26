@@ -102,6 +102,8 @@
 * OpenCV [https://github.com/opencv](https://github.com/opencv)
     * [https://github.com/skvark/opencv-python](https://github.com/skvark/opencv-python)
     * [https://github.com/makelove/OpenCV-Python-Tutorial](https://github.com/makelove/OpenCV-Python-Tutorial)
+    * [https://github.com/openpnp/opencv](https://github.com/openpnp/opencv)
+        * [https://github.com/julienmerconsulting/Apertix](https://github.com/julienmerconsulting/Apertix)
 * [https://github.com/xianyi/OpenBLAS](https://github.com/xianyi/OpenBLAS)
 * [https://github.com/UrielCh/opencv4nodejs](https://github.com/UrielCh/opencv4nodejs)
 * OpenAL [https://github.com/kcat/openal-soft](https://github.com/kcat/openal-soft)

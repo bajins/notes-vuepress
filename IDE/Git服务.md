@@ -273,6 +273,8 @@ sudo /etc/init.d/dns-clean start
 + [https://github.com/topics/github-action](https://github.com/topics/github-action)
 + [https://github.com/sdras/awesome-actions](https://github.com/sdras/awesome-actions)
 + [https://github.com/topics/workflow](https://github.com/topics/workflow)
++ 本地测试 [https://github.com/nektos/act](https://github.com/nektos/act)
++ [https://github.com/mpalmer/action-validator](https://github.com/mpalmer/action-validator)
 
 
 * [GitHub Actions 入门教程](http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)
