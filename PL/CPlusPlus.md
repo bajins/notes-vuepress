@@ -254,4 +254,7 @@
 - 模拟天文 [https://github.com/Stellarium/stellarium](https://github.com/Stellarium/stellarium)
 - 复制弹窗文本 [https://github.com/m417z/Textify](https://github.com/m417z/Textify)
 - 代码审计 [https://github.com/trailofbits/multiplier](https://github.com/trailofbits/multiplier)
-
+- 混淆 [https://github.com/erikpog757/EasyProtect](https://github.com/erikpog757/EasyProtect)
+- [https://github.com/metixud/anti-dbg](https://github.com/metixud/anti-dbg)
+- [https://github.com/NotRequiem/antidbg](https://github.com/NotRequiem/antidbg)
+- [https://github.com/x86byte/Obfusk8](https://github.com/x86byte/Obfusk8)

@@ -255,6 +255,8 @@
 * Google加密 [https://github.com/google/tink](https://github.com/google/tink)
 * [https://github.com/joshjdevl/libsodium-jni](https://github.com/joshjdevl/libsodium-jni)
 * bcprov-jdk15on [https://github.com/bcgit/bc-java](https://github.com/bcgit/bc-java) Bouncy Castle Crypto
+* [https://github.com/jeremyh/jBCrypt](https://github.com/jeremyh/jBCrypt)
+    * [https://www.mindrot.org/projects/jBCrypt](https://www.mindrot.org/projects/jBCrypt)
 * [https://github.com/fzakaria/ascii85](https://github.com/fzakaria/ascii85)
 * [https://github.com/rbuck/java-codecs](https://github.com/rbuck/java-codecs)
 * [https://github.com/biagioT/java-uudecoder](https://github.com/biagioT/java-uudecoder)
@@ -576,6 +578,7 @@
 * [https://github.com/spring-projects/spring-restdocs](https://github.com/spring-projects/spring-restdocs)
     * [https://github.com/ScaCap/spring-auto-restdocs](https://github.com/ScaCap/spring-auto-restdocs)
 * [https://github.com/YeDaxia/JApiDocs](https://github.com/YeDaxia/JApiDocs)
+* [https://github.com/apiguardian-team/apiguardian](https://github.com/apiguardian-team/apiguardian)
 * [https://github.com/talsma-ict/umldoclet](https://github.com/talsma-ict/umldoclet)
 * 资源读取 [https://github.com/hosuaby/inject-resources](https://github.com/hosuaby/inject-resources)
 
@@ -642,6 +645,8 @@
 * [https://gitlab.com/gitlab-org/security-products/analyzers/fuzzers](https://gitlab.com/gitlab-org/security-products/analyzers/fuzzers)
 * [https://sourceforge.net/projects/unitils](https://sourceforge.net/projects/unitils)
     * [https://sourceforge.net/projects/dbmaintain](https://sourceforge.net/projects/dbmaintain)
+* 正则生成字符串 [https://github.com/mifmif/Generex](https://github.com/mifmif/Generex)
+* [https://github.com/cs-au-dk/dk.brics.automaton](https://github.com/cs-au-dk/dk.brics.automaton)
 
 
 - [https://github.com/mryingjie/common-insert](https://github.com/mryingjie/common-insert)
@@ -682,6 +687,7 @@
 + [https://github.com/actframework](https://github.com/actframework)
 + [https://github.com/restlet](https://github.com/restlet)
 + [https://github.com/micronaut-projects](https://github.com/micronaut-projects)
++ [https://github.com/airlift/airlift](https://github.com/airlift/airlift)
 + JSF [https://github.com/omnifaces](https://github.com/omnifaces)
 + [https://github.com/ButterFaces](https://github.com/ButterFaces)
 + [https://github.com/primefaces](https://github.com/primefaces)

@@ -230,6 +230,7 @@
 * [https://github.com/apache/couchdb](https://github.com/apache/couchdb)
 * [https://github.com/arangodb/arangodb](https://github.com/arangodb/arangodb)
 * [https://github.com/realm/realm-core](https://github.com/realm/realm-core) (嵌入式/独立部署)
+* [https://github.com/nitrite/nitrite-java](https://github.com/nitrite/nitrite-java) (嵌入式 - Java)
 
 
 
@@ -298,6 +299,7 @@
 * [https://github.com/apache/incubator-hugegraph](https://github.com/apache/incubator-hugegraph)
 * [https://github.com/vesoft-inc/nebula](https://github.com/vesoft-inc/nebula)
 * [https://github.com/orientechnologies/orientdb](https://github.com/orientechnologies/orientdb)
+  * [https://github.com/ArcadeData/arcadedb](https://github.com/ArcadeData/arcadedb)
 * [https://github.com/arangodb/arangodb](https://github.com/arangodb/arangodb)
 * [https://github.com/cayleygraph/cayley](https://github.com/cayleygraph/cayley)
 * [https://github.com/CodyKochmann/graphdb](https://github.com/CodyKochmann/graphdb)
@@ -338,6 +340,8 @@
 * [https://github.com/towhee-io](https://github.com/towhee-io)
 * [https://github.com/pinecone-io](https://github.com/pinecone-io)
 * [https://github.com/ruvnet/ruvector](https://github.com/ruvnet/ruvector)
+* [https://github.com/lancedb/lancedb](https://github.com/lancedb/lancedb)
+* [https://github.com/objectbox/objectbox-java](https://github.com/objectbox/objectbox-java) (Java)
 
 
 

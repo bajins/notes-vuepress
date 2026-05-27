@@ -304,14 +304,19 @@
 + 构建自动清理 [https://github.com/castor-software/depclean](https://github.com/castor-software/depclean)
 + 模块化 [https://github.com/moditect/layrry](https://github.com/moditect/layrry)
 + [https://github.com/sormuras/modules](https://github.com/sormuras/modules)
++ 兼容模块化 [https://github.com/moditect/moditect](https://github.com/moditect/moditect)
++ 桌面应用打包 [https://github.com/wiverson/jtoolprovider-plugin](https://github.com/wiverson/jtoolprovider-plugin)
 + 检测旧版API [https://github.com/gaul/modernizer-maven-plugin](https://github.com/gaul/modernizer-maven-plugin)
 + [https://github.com/mojohaus/build-helper-maven-plugin](https://github.com/mojohaus/build-helper-maven-plugin)
 + 排序 [https://github.com/Ekryd/sortpom](https://github.com/Ekryd/sortpom)
 + 格式化 [https://github.com/revelc/formatter-maven-plugin](https://github.com/revelc/formatter-maven-plugin)
 + [https://github.com/maveniverse/mima](https://github.com/maveniverse/mima)
 + 集成Rust [https://github.com/questdb/rust-maven-plugin](https://github.com/questdb/rust-maven-plugin)
-+ 兼容模块化 [https://github.com/moditect/moditect](https://github.com/moditect/moditect)
-
++ 混淆代码 [https://github.com/wvengen/proguard-maven-plugin](https://github.com/wvengen/proguard-maven-plugin)
+    + [https://github.com/Guardsquare/proguard](https://github.com/Guardsquare/proguard)
+    + [https://sourceforge.net/projects/proguard](https://sourceforge.net/projects/proguard)
++ [https://gitee.com/roseboy/classfinal](https://gitee.com/roseboy/classfinal)
++ 判断兼容性 [https://github.com/mojohaus/clirr-maven-plugin](https://github.com/mojohaus/clirr-maven-plugin)
 
 
 - [开源的一小步----开源类库传至Maven中央仓库](https://www.cnblogs.com/shook/p/14415856.html)

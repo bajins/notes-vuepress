@@ -134,8 +134,9 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 * 流分析 [https://github.com/wavefrontHQ/wavefront-proxy](https://github.com/wavefrontHQ/wavefront-proxy)
 * JProfiler [https://www.ej-technologies.com](https://www.ej-technologies.com)
 * [https://fastthread.io](https://fastthread.io)
-* 静态分析 [https://github.com/jspecify/jspecify](https://github.com/jspecify/jspecify)
+* 静态分析空值 [https://github.com/jspecify/jspecify](https://github.com/jspecify/jspecify)
    * [https://jspecify.dev](https://jspecify.dev)
+   * [https://github.com/deigmata-paideias/jspecify-zh](https://github.com/deigmata-paideias/jspecify-zh)
 * [http://github.com/google/error-prone](http://github.com/google/error-prone)
 * [https://github.com/typetools](https://github.com/typetools)
 * [https://github.com/eisop](https://github.com/eisop)
@@ -157,7 +158,6 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 + [https://github.com/topics/disassembler](https://github.com/topics/disassembler)
 
 
-* [https://github.com/Guardsquare](https://github.com/Guardsquare)
 * [https://github.com/apache/commons-bcel](https://github.com/apache/commons-bcel)
 * JD-Core [https://github.com/java-decompiler](https://github.com/java-decompiler)
     * [https://github.com/java-decompiler/jd-gui](https://github.com/java-decompiler/jd-gui)
@@ -214,9 +214,6 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 * [https://github.com/phith0n/zkar](https://github.com/phith0n/zkar)
 * [https://github.com/jar-analyzer/jar-analyzer](https://github.com/jar-analyzer/jar-analyzer)
 * [https://github.com/BeichenDream/JDR](https://github.com/BeichenDream/JDR)
-* 混淆 [https://sourceforge.net/projects/javaguard](https://sourceforge.net/projects/javaguard)
-* [https://github.com/yWorks/yGuard](https://github.com/yWorks/yGuard)
-* [http://www.e-t.com/jshrink.html](http://www.e-t.com/jshrink.html)
 * 字节码插桩 [https://github.com/javactrl/javactrl](https://github.com/javactrl/javactrl)
 
 
@@ -226,6 +223,34 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 - [jlink - 将一组模块及其依赖项组装并优化为自定义运行时映像](https://docs.oracle.com/en/java/javase/13/docs/specs/man/jlink.html)
 - [JDK14之jpackage命令](https://zhuanlan.zhihu.com/p/110087548)
 - [大家都是怎么发布Java客户端程序的？难道让用户自己装JRE？](https://www.zhihu.com/question/48990017)
+
+
+**混淆**
+
++ [https://github.com/topics/obfuscator](https://github.com/topics/obfuscator)
++ [https://github.com/topics/obfuscation](https://github.com/topics/obfuscation)
+
+
+* [https://github.com/ItzSomebody/radon](https://github.com/ItzSomebody/radon)
+* [https://github.com/GenericException/SkidSuite](https://github.com/GenericException/SkidSuite)
+* [https://sourceforge.net/projects/javaguard](https://sourceforge.net/projects/javaguard)
+* [https://github.com/yWorks/yGuard](https://github.com/yWorks/yGuard)
+   * [https://github.com/TheCrimsonborn/yGuarder-GUI](https://github.com/TheCrimsonborn/yGuarder-GUI)
+* [http://www.e-t.com/jshrink.html](http://www.e-t.com/jshrink.html)
+* [https://github.com/Guardsquare](https://github.com/Guardsquare)
+* [https://allatori.com](https://allatori.com)
+   * [https://github.com/lqs1848/AllatoriCrack](https://github.com/lqs1848/AllatoriCrack)
+   * [https://github.com/dengweiping4j/obfuscation](https://github.com/dengweiping4j/obfuscation)
+* ZKM [https://zelix.com](https://zelix.com)
+   * [https://github.com/LvStrnggg/zkm-flow](https://github.com/LvStrnggg/zkm-flow)
+* [https://github.com/LvStrnggg/aidsfuscator](https://github.com/LvStrnggg/aidsfuscator)
+* [https://www.preemptive.com/products/dasho](https://www.preemptive.com/products/dasho)
+* [https://github.com/skidfuscatordev/skidfuscator-java-obfuscator](https://github.com/skidfuscatordev/skidfuscator-java-obfuscator)
+* [https://github.com/vimasig/Bozar](https://github.com/vimasig/Bozar)
+* [https://github.com/sim0n/Caesium](https://github.com/sim0n/Caesium)
+* [https://github.com/radioegor146/native-obfuscator](https://github.com/radioegor146/native-obfuscator)
+* [https://github.com/4ra1n/class-obf](https://github.com/4ra1n/class-obf)
+* [https://github.com/StaR4y/native-obfuscator-gui](https://github.com/StaR4y/native-obfuscator-gui)
 
 
 

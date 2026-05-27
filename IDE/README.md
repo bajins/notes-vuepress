@@ -10,6 +10,7 @@
 
 
 * [https://github.com/apache/netbeans](https://github.com/apache/netbeans)
+    * [https://github.com/stefanofornari/nb-javafx-toolkit](https://github.com/stefanofornari/nb-javafx-toolkit)
 * ~~[https://github.com/atom](https://github.com/atom)~~
 * [https://github.com/eclipse-theia/theia](https://github.com/eclipse-theia/theia)
     * [https://theia-ide.org](https://theia-ide.org)
