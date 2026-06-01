@@ -26,6 +26,7 @@
     * [https://www.daanav.com](https://www.daanav.com)
 * 检查系统启用的协议 [https://www.nartac.com/Products/IISCrypto](https://www.nartac.com/Products/IISCrypto)
 * PC硬件管理Vantage [https://apps.microsoft.com/detail/9wzdncrfj4mv](https://apps.microsoft.com/detail/9wzdncrfj4mv)
+* 证书检测 [https://github.com/claude-boucher/CheckCA2023](https://github.com/claude-boucher/CheckCA2023)
 
 
 

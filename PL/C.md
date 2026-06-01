@@ -16,6 +16,7 @@
 * [https://www.tutorialspoint.com/cprogramming](https://www.tutorialspoint.com/cprogramming)
 * C语言手册 [https://github.com/VernonGrant/gnu-c-language-manual](https://github.com/VernonGrant/gnu-c-language-manual)
 * [https://github.com/getiot/linux-c-functions](https://github.com/getiot/linux-c-functions)
+* [https://stefansf.de/c-quiz](https://stefansf.de/c-quiz)
 
 
 - [C语言内存泄露很严重，如何应对？](https://blog.csdn.net/devcloud/article/details/108335912)

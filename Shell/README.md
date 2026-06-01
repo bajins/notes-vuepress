@@ -148,6 +148,7 @@
 - 自动重连会话 [https://github.com/MisterTea/EternalTerminal](https://github.com/MisterTea/EternalTerminal)
 - 检查网络连接 [https://github.com/karol-broda/snitch](https://github.com/karol-broda/snitch)
 - GPU监控 [https://github.com/Syllo/nvtop](https://github.com/Syllo/nvtop)
+- 查进程的命令 [https://github.com/pranshuparmar/witr](https://github.com/pranshuparmar/witr)
 
 
 
@@ -397,6 +398,7 @@
     * [https://www.openssh.com](https://www.openssh.com)
     * [https://github.com/openssh-rust/openssh](https://github.com/openssh-rust/openssh)
     * [https://slproweb.com/products/Win32OpenSSL.html](https://slproweb.com/products/Win32OpenSSL.html)
+* [https://github.com/nyakang/nyaterm](https://github.com/nyakang/nyaterm)
 * [https://github.com/PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable)
     * [https://github.com/PowerShell/Win32-OpenSSH/wiki](https://github.com/PowerShell/Win32-OpenSSH/wiki)
     * [https://sourceforge.net/projects/sshwindows](https://sourceforge.net/projects/sshwindows)

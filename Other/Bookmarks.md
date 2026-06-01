@@ -56,6 +56,7 @@
 * [https://github.com/byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips)
 * [https://github.com/luzhenhua/NCE-Flow](https://github.com/luzhenhua/NCE-Flow)
 * [https://github.com/xiaochong/hi-kid](https://github.com/xiaochong/hi-kid)
+* [https://github.com/echo-loop/Echo-Loop](https://github.com/echo-loop/Echo-Loop)
 * 英语单词列表 [https://github.com/dwyl/english-words](https://github.com/dwyl/english-words)
 * [https://www.languagereactor.com](https://www.languagereactor.com)
 * [https://youglish.com](https://youglish.com)

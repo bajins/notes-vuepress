@@ -129,6 +129,8 @@
 * iFrame宽高自适应 [https://github.com/davidjbradshaw/iframe-resizer](https://github.com/davidjbradshaw/iframe-resizer)
 * 运行C/C++代码 [https://github.com/luoxuhai/clang.js](https://github.com/luoxuhai/clang.js)
 * 汉字拼音 [https://github.com/hotoo/pinyin](https://github.com/hotoo/pinyin)
+* [https://github.com/zh-lx/pinyin-pro](https://github.com/zh-lx/pinyin-pro)
+* [https://github.com/creeperyang/pinyin](https://github.com/creeperyang/pinyin)
 * 甘特图 [https://github.com/frappe/gantt](https://github.com/frappe/gantt)
 * 电子签名 [https://github.com/OpenSignLabs/OpenSign](https://github.com/OpenSignLabs/OpenSign)
 * 响应式电子邮件 [https://github.com/mjmlio/mjml](https://github.com/mjmlio/mjml)
