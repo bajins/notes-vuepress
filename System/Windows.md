@@ -122,8 +122,11 @@ powercfg /batteryreport /output "Desktop\battery-report.html"
 + [https://github.com/search?q=Optimize-Windows](https://github.com/search?q=Optimize-Windows)
 
 
+* cleanmgr 磁盘属性 → 磁盘清理
 * Dism++ [https://github.com/Chuyu-Team](https://github.com/Chuyu-Team)
 * [https://github.com/ZyperWave/ZyperWinOptimize](https://github.com/ZyperWave/ZyperWinOptimize)
+* [https://github.com/5cover/WinClean](https://github.com/5cover/WinClean)
+* [https://github.com/darkmatter2048/WindowsCleaner](https://github.com/darkmatter2048/WindowsCleaner)
 * [https://ameliorated.io](https://ameliorated.io)
     * [https://github.com/meetrevision/playbook](https://github.com/meetrevision/playbook)
     * [https://github.com/jointhearkanoid/playbook](https://github.com/jointhearkanoid/playbook)
@@ -139,7 +142,6 @@ powercfg /batteryreport /output "Desktop\battery-report.html"
 * [https://github.com/rahilpathan/Win10Boost](https://github.com/rahilpathan/Win10Boost)
 * [https://bogdan-patraucean.github.io/about/wintoys](https://bogdan-patraucean.github.io/about/wintoys)
 * [https://github.com/rayenghanmi/RyTuneX](https://github.com/rayenghanmi/RyTuneX)
-* [https://github.com/5cover/WinClean](https://github.com/5cover/WinClean)
 * [https://github.com/memstechtips/Winhance](https://github.com/memstechtips/Winhance)
 * [https://github.com/tranht17/WinTune](https://github.com/tranht17/WinTune)
 * 绕过WindowsDefender [https://github.com/topics/defender](https://github.com/topics/defender)

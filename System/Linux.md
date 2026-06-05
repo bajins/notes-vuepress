@@ -145,6 +145,7 @@ sudo apt clean
 - [https://github.com/cytopia/devilbox](https://github.com/cytopia/devilbox)
 - 基础软件包 [https://github.com/coreutils](https://github.com/coreutils)
 - [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
+    - [https://github.com/microsoft/coreutils](https://github.com/microsoft/coreutils)
 - [https://busybox.net](https://busybox.net)
     - [https://github.com/meefik/busybox](https://github.com/meefik/busybox)
     - [https://busybox.jrummyapps.com](https://busybox.jrummyapps.com)

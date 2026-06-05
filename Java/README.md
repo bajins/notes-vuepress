@@ -290,3 +290,36 @@
 * IM [https://gitee.com/howcode/aq-chat-server](https://gitee.com/howcode/aq-chat-server)
 * ERP [https://github.com/wimoor-erp/wimoor](https://github.com/wimoor-erp/wimoor)
 * 复刻掘金BBS [https://github.com/shandonghengyudianzi/forum-easy](https://github.com/shandonghengyudianzi/forum-easy)
+
+
+
+
+## Scala
+
++ [https://github.com/scala/scala](https://github.com/scala/scala)
++ [https://github.com/Centaur/repox](https://github.com/Centaur/repox)
++ [https://github.com/etorreborre/specs2](https://github.com/etorreborre/specs2)
++ [https://github.com/lampepfl/dotty](https://github.com/lampepfl/dotty)
+
+
+* [https://github.com/plokhotnyuk/jsoniter-scala](https://github.com/plokhotnyuk/jsoniter-scala)
+* 静态代码分析 [https://github.com/scalastyle/scalastyle](https://github.com/scalastyle/scalastyle)
+* [https://github.com/scala-js/scala-js](https://github.com/scala-js/scala-js)
+    * [https://github.com/akka-js/akka.js](https://github.com/akka-js/akka.js)
+* [https://github.com/akkadotnet/akka.net](https://github.com/akkadotnet/akka.net)
+* 完全实现了Reactive Streams规范 [https://github.com/akka/akka](https://github.com/akka/akka)
+* [https://github.com/akka](https://github.com/akka)
+    * [https://github.com/akka-fusion](https://github.com/akka-fusion)
+    * [https://github.com/playframework](https://github.com/playframework)
+* [https://github.com/akka/akka-http](https://github.com/akka/akka-http)
+* [https://github.com/sksamuel/elastic4s](https://github.com/sksamuel/elastic4s)
+* 异步运行时 [https://github.com/typelevel/cats-effect](https://github.com/typelevel/cats-effect)
+* [https://github.com/twitter/twitter-server](https://github.com/twitter/twitter-server)
+* [https://github.com/twitter/finagle](https://github.com/twitter/finagle)
+* APP爬虫 [https://github.com/seveniruby/AppCrawler](https://github.com/seveniruby/AppCrawler)
+
+
+- [【从入门到放弃】Scala](https://zhuanlan.zhihu.com/p/136331336)
+- [https://github.com/twitter/summingbird](https://github.com/twitter/summingbird)
+- [MapReduce](https://blog.csdn.net/qq_45080791/article/details/110929018)
+- [https://github.com/ornicar/lila](https://github.com/ornicar/lila)
