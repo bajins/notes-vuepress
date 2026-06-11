@@ -50,6 +50,8 @@
     * [https://sourceforge.net/projects/akelpad](https://sourceforge.net/projects/akelpad)
 * [https://github.com/KDE/kate](https://github.com/KDE/kate)
     * [https://kate-editor.org](https://kate-editor.org)
+* [https://github.com/sakura-editor/sakura](https://github.com/sakura-editor/sakura)
+    * [https://sourceforge.net/projects/sakura-editor](https://sourceforge.net/projects/sakura-editor)
 * 源代码编辑控件 [https://sourceforge.net/projects/scintilla](https://sourceforge.net/projects/scintilla)
     * [https://www.scintilla.org](https://www.scintilla.org)
     * [https://github.com/ScintillaOrg/lexilla](https://github.com/ScintillaOrg/lexilla)

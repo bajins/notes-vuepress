@@ -5,7 +5,6 @@
 
 ## Flag
 
-* [小米笔记本Pro黑苹果Win10双系统](https://www.ikxin.com/465.html)
 * 恢复Win10任务菜单 [https://github.com/valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher)
 * 手机运行Win10 [https://github.com/edk2-porting](https://github.com/edk2-porting)
 * [https://github.com/WOA-Project](https://github.com/WOA-Project)
@@ -25,7 +24,8 @@
     * [https://www.murgoo.com](https://www.murgoo.com)
     * [https://www.daanav.com](https://www.daanav.com)
 * 检查系统启用的协议 [https://www.nartac.com/Products/IISCrypto](https://www.nartac.com/Products/IISCrypto)
-* PC硬件管理Vantage [https://apps.microsoft.com/detail/9wzdncrfj4mv](https://apps.microsoft.com/detail/9wzdncrfj4mv)
+* 联想硬件管理Vantage [https://apps.microsoft.com/detail/9wzdncrfj4mv](https://apps.microsoft.com/detail/9wzdncrfj4mv)
+* Lenovo Hotkeys [https://apps.microsoft.com/detail/9pcmmnb260tx](https://apps.microsoft.com/detail/9pcmmnb260tx)
 * 证书检测 [https://github.com/claude-boucher/CheckCA2023](https://github.com/claude-boucher/CheckCA2023)
 
 
@@ -227,6 +227,8 @@ taskkill /f /im explorer.exe & start explorer.exe
 
 > `控制面板` -> `所有控制面板项` -> `电源选项` -> `更改计划设置` -> `更改高级电源设置(C)` -> `硬盘` -> `在此时间后关闭硬盘` -> 全部设置为`0`
 
+> 控制面板 → 电源选项 → 选择电源按钮的功能 → 更改当前不可用的设置 → 取消勾选「启用快速启动」 → 保存
+
 > `计算机管理(本地)` -> `设备管理器` -> `驱动上右键属性` -> `电源管理` -> `允许计算机关闭此设备以节约电源(A)` -> 取消勾选
 
 > Windows徽标键 + P
@@ -273,7 +275,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}" /f
 ```
 
-* [win10简单脚本一步卸载Cortana](https://www.wenjinyu.me/zh/an-easy-step-to-uninstall-cortana-in-win10)
+- [隐藏主文件夹（Home）和图库（Gallery）](https://www.cnblogs.com/MaelDNM/p/18029510)
 
 
 **系统相关**

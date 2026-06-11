@@ -94,6 +94,9 @@
 * SQL查询日志文件 [https://github.com/samuel/squawk](https://github.com/samuel/squawk)
 * 编码检测 [https://github.com/PyYoshi/uchardet](https://github.com/PyYoshi/uchardet)
 * 加密 [https://github.com/pyca/cryptography](https://github.com/pyca/cryptography)
+* [https://github.com/Legrandin/pycryptodome](https://github.com/Legrandin/pycryptodome)
+* ~~[https://github.com/pycrypto/pycrypto](https://github.com/pycrypto/pycrypto)~~
+* [https://github.com/chrissimpkins/crypto](https://github.com/chrissimpkins/crypto)
 * [https://github.com/cunzaizhuyi/hashplate-cn](https://github.com/cunzaizhuyi/hashplate-cn)
 * FFI [https://github.com/wlav/cppyy](https://github.com/wlav/cppyy)
 * [https://github.com/python-cffi/cffi](https://github.com/python-cffi/cffi)

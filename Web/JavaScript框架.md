@@ -467,6 +467,7 @@ $("#id").off("click").on("click",function(){
 
 * [https://github.com/fastbootstrap/atlassian-design-for-bootstrap](https://github.com/fastbootstrap/atlassian-design-for-bootstrap)
 * [https://github.com/jquery/jquery-ui](https://github.com/jquery/jquery-ui)
+* [https://github.com/thomaspark/bootswatch](https://github.com/thomaspark/bootswatch)
 * 颜色选择器 [https://github.com/itsjavi/bootstrap-colorpicker](https://github.com/itsjavi/bootstrap-colorpicker)
 * [https://github.com/wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table)
     * [JS组件系列——BootstrapTable 行内编辑解决方案：x-editable](https://www.cnblogs.com/landeanfen/p/5821192.html)

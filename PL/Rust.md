@@ -158,9 +158,9 @@ Set-ItemProperty -Path "Registry::HKEY_CURRENT_USER\Environment" -Name "RUSTUP_U
 
 - Cargo配置
 
-```conf
-# ~/.cargo/config
-# %USERPROFILE%\.cargo\config
+```toml
+# ~/.cargo/config.toml
+# %USERPROFILE%\.cargo\config.toml
 [source.crates-io]
 # 源码地址
 registry = "https://github.com/rust-lang/crates.io-index"
@@ -169,12 +169,8 @@ registry = "https://github.com/rust-lang/crates.io-index"
 #replace-with = 'ustc'
 replace-with = 'rsproxy-sparse'
 # 字节跳动
-[source.rsproxy]
-registry = "https://rsproxy.cn/crates.io-index"
 [source.rsproxy-sparse]
 registry = "sparse+https://rsproxy.cn/index/"
-[registries.rsproxy]
-index = "https://rsproxy.cn/crates.io-index"
 # 清华大学
 [source.tuna]
 #registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
@@ -183,8 +179,9 @@ registry = "sparse+https://mirrors.tuna.tsinghua.edu.cn/crates.io-index/"
 index = "sparse+https://mirrors.tuna.tsinghua.edu.cn/crates.io-index/"
 # 中国科学技术大学
 [source.ustc]
-registry = "https://mirrors.ustc.edu.cn/crates.io-index"
-#registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+registry = "sparse+https://mirrors.ustc.edu.cn/crates.io-index/"
+[registries.ustc]
+index = "sparse+https://mirrors.ustc.edu.cn/crates.io-index/"
 # 上海交通大学
 [source.sjtu]
 registry = "sparse+https://mirrors.sjtug.sjtu.edu.cn/crates.io-index"

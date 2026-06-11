@@ -174,6 +174,7 @@
 - [https://cofonts.org](https://cofonts.org)
 - [https://www.miao3.cn](https://www.miao3.cn)
 - 字体编辑器 [https://github.com/fontforge/fontforge](https://github.com/fontforge/fontforge)
+    - [https://sourceforge.net/projects/fontforge](https://sourceforge.net/projects/fontforge)
 - [https://github.com/adobe-type-tools](https://github.com/adobe-type-tools)
 - [https://www.ai.zitijia.com](https://www.ai.zitijia.com)
 - [https://github.com/fontworks-fonts](https://github.com/fontworks-fonts)

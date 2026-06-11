@@ -262,6 +262,7 @@
 * [https://github.com/canton7/Stylet](https://github.com/canton7/Stylet)
 * [https://github.com/ghost1372/HandyControls](https://github.com/ghost1372/HandyControls)
 * [https://github.com/MahApps/MahApps.Metro](https://github.com/MahApps/MahApps.Metro)
+* WinForms [https://github.com/dockpanelsuite](https://github.com/dockpanelsuite)
 * UI [https://github.com/Accelerider](https://github.com/Accelerider)
 * [https://github.com/MaterialDesignInXAML](https://github.com/MaterialDesignInXAML)
 * [https://github.com/ScottPlot/ScottPlot](https://github.com/ScottPlot/ScottPlot)
