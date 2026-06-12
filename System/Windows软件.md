@@ -1164,6 +1164,9 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * 哈希值计算 [https://github.com/hrpzcf/HashCalculator](https://github.com/hrpzcf/HashCalculator)
 * 文件查看器 [https://github.com/stardustai/dataset-viewer](https://github.com/stardustai/dataset-viewer)
 * 文件夹生成HTML [https://www.lanzoui.com/b0f1k59qh](https://www.lanzoui.com/b0f1k59qh)
+* 数据恢复 [https://github.com/wlzh/DiskRescue](https://github.com/wlzh/DiskRescue)
+* [https://www.cgsecurity.org/wiki/TestDisk_CN](https://www.cgsecurity.org/wiki/TestDisk_CN)
+* [https://www.ccleaner.com/zh-cn/recuva](https://www.ccleaner.com/zh-cn/recuva)
 
 
 
@@ -1292,6 +1295,7 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * [https://www.yubico.com/products/yubico-authenticator](https://www.yubico.com/products/yubico-authenticator)
 * [https://www.authenticid.com/products/identity-pass](https://www.authenticid.com/products/identity-pass)
 * [https://github.com/hazcod/enpass-cli](https://github.com/hazcod/enpass-cli)
+* [https://github.com/OpenKeyring/oak-keyring](https://github.com/OpenKeyring/oak-keyring)
 
 
 

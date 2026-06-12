@@ -650,6 +650,7 @@
 * 硬件信息 [https://phyphox.org](https://phyphox.org)
 * 习惯跟踪 [https://github.com/FriesI23/mhabit](https://github.com/FriesI23/mhabit)
 * 壁纸 [https://github.com/you-apps/WallYou](https://github.com/you-apps/WallYou)
+* 指南针 [https://github.com/CompassMB/MBCompass](https://github.com/CompassMB/MBCompass)
 
 
 

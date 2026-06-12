@@ -119,6 +119,7 @@
 - Polygon [https://github.com/maticnetwork](https://github.com/maticnetwork)
 - 热加载 [https://github.com/livereload](https://github.com/livereload)
 - UI测试 [https://github.com/mobile-dev-inc/Maestro](https://github.com/mobile-dev-inc/Maestro)
+- 机器人验证 [https://github.com/altcha-org/altcha](https://github.com/altcha-org/altcha)
 
 
 

@@ -33,6 +33,7 @@
 * [https://github.com/lesovsky/pgcenter](https://github.com/lesovsky/pgcenter)
 * 连接池工具 [https://github.com/pgbouncer/pgbouncer](https://github.com/pgbouncer/pgbouncer)
 * [https://github.com/agroal/pgagroal](https://github.com/agroal/pgagroal)
+* [https://github.com/pgpool/pgpool2](https://github.com/pgpool/pgpool2)
 * 扩展Rust开发框架 [https://github.com/tcdi/pgx](https://github.com/tcdi/pgx)
 * 分片水平扩展 [https://github.com/pg-sharding/spqr](https://github.com/pg-sharding/spqr)
 * 解析器 [https://github.com/pganalyze/libpg_query](https://github.com/pganalyze/libpg_query)
