@@ -104,6 +104,7 @@
     - [Flyway 数据库脚本版本控制工具](https://blog.csdn.net/yanxilou/article/details/86592882)
     - [用flyway对数据库管理和迁移](https://pdai.tech/md/spring/springboot/springboot-x-mysql-flyway.html)
 - [https://github.com/liquibase](https://github.com/liquibase)
+- [https://github.com/DBDiff/DBDiff](https://github.com/DBDiff/DBDiff)
 - [https://github.com/sqitchers/sqitch](https://github.com/sqitchers/sqitch)
 - [https://github.com/ariga/atlas](https://github.com/ariga/atlas)
 - [https://github.com/CourseOrchestra/celesta](https://github.com/CourseOrchestra/celesta)

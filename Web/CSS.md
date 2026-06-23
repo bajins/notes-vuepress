@@ -275,7 +275,6 @@
 * 优化 [https://github.com/svg/svgo](https://github.com/svg/svgo)
 * [https://github.com/fabricjs](https://github.com/fabricjs)
 * [https://github.com/paperjs](https://github.com/paperjs)
-* [https://github.com/apexcharts](https://github.com/apexcharts)
 * [https://github.com/clientIO/joint](https://github.com/clientIO/joint)
 * 图标字体自定义 [https://github.com/uuware/icons-font-customization](https://github.com/uuware/icons-font-customization)
 * [https://github.com/07akioni/xicons](https://github.com/07akioni/xicons)

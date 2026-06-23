@@ -144,6 +144,10 @@ powercfg /batteryreport /output "Desktop\battery-report.html"
 * [https://github.com/rayenghanmi/RyTuneX](https://github.com/rayenghanmi/RyTuneX)
 * [https://github.com/memstechtips/Winhance](https://github.com/memstechtips/Winhance)
 * [https://github.com/tranht17/WinTune](https://github.com/tranht17/WinTune)
+* [https://github.com/N0tHorizon/WindowsTelemetryBlocker](https://github.com/N0tHorizon/WindowsTelemetryBlocker)
+* [https://github.com/EXLOUD/Windows-Telemetry-Disabler](https://github.com/EXLOUD/Windows-Telemetry-Disabler)
+* [https://www.oo-software.com/en/shutup10](https://www.oo-software.com/en/shutup10)
+    * [https://github.com/O-O-ShutUp10](https://github.com/O-O-ShutUp10)
 * 绕过WindowsDefender [https://github.com/topics/defender](https://github.com/topics/defender)
 * [https://github.com/ionuttbara/windows-defender-remover](https://github.com/ionuttbara/windows-defender-remover)
 * [https://github.com/kimmohito/windows-defender-killer](https://github.com/kimmohito/windows-defender-killer)
@@ -237,6 +241,19 @@ taskkill /f /im explorer.exe & start explorer.exe
 
 * [解决 Windows 计算机无法从挂起或休眠模式唤醒或恢复而不得不重新开机的问题步骤](https://www.dell.com/support/kbdoc/zh-cn/000129781/%E8%A7%A3%E5%86%B3-windows-%E8%AE%A1%E7%AE%97%E6%9C%BA-%E6%97%A0%E6%B3%95-%E4%BB%8E-%E6%8C%82%E8%B5%B7-%E6%88%96-%E4%BC%91-%E7%9C%A0-%E6%A8%A1-%E5%BC%8F-%E5%94%A4%E9%86%92-%E6%88%96-%E6%81%A2%E5%A4%8D-%E8%80%8C-%E4%B8%8D%E5%BE%97%E4%B8%8D-%E9%87%8D%E6%96%B0-%E5%BC%80%E6%9C%BA-%E7%9A%84-%E9%97%AE%E9%A2%98-%E6%AD%A5%E9%AA%A4)
 * [win11睡眠后无法唤醒](https://answers.microsoft.com/zh-hans/windows/forum/all/win11%E7%9D%A1%E7%9C%A0%E5%90%8E%E6%97%A0%E6%B3%95/d0e0aa3d-ba91-4284-9eb4-16c7aab6f920)
+
+```powershell
+# Win11小组件「Windows Web 体验包」全称 Windows Web Experience Pack
+Get-AppxPackage MicrosoftWindows.Client.WebExperience | Select-Object Name, Version
+takeown /f "%SystemRoot%\SystemApps\Microsoft.Windows.Client.WebExperience_*" /r /d y & icacls "%SystemRoot%\SystemApps\Microsoft.Windows.Client.WebExperience_*" /deny Everyone:(F) /t & dism.exe /online /remove-provisionedappxpackage /packagename "Microsoft.Windows.Client.WebExperience"
+reg add "HKLM\Software\Policies\Microsoft\Dsh" /v "AllowNewsAndInterests" /t REG_DWORD /d "0" /f
+winget uninstall "windows web experience pack"
+# 列出所有包
+dism /online /get-packages
+# 如果有相关包，使用如下命令删除包，重新启动
+dism /online /remove-package /packagename:完整名称
+Dism /online /Add-ProvisionedAppxPackage /PackagePath:"C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy" /SkipLicense
+```
 
 
 **Wifi频繁断线**

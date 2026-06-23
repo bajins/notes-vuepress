@@ -190,31 +190,35 @@ volumes:
 * [https://gitee.com/docmirror/dev-sidecar](https://gitee.com/docmirror/dev-sidecar)
     * [https://github.com/docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar)
 * [https://github.com/FastGitORG](https://github.com/FastGitORG)
-    * [https://toolwa.com/github](https://toolwa.com/github)
-    * [https://github.ur1.fun](https://github.ur1.fun)
 * [https://github.com/dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub)
 * [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
     * [https://gh.ddlc.top](https://gh.ddlc.top)
     * [https://ghproxy.link](https://ghproxy.link)
     * [https://ghproxy.net](https://ghproxy.net)
     * [https://wget.la](https://wget.la)
-    * [https://proxy.v2gh.com](https://proxy.v2gh.com)
-    * [https://mirror.v2gh.com](https://mirror.v2gh.com)
+    * [https://github.boki.moe](https://github.boki.moe)
+    * [https://gh.chjina.com](https://gh.chjina.com)
 * [https://github.com/sky22333/hub-proxy](https://github.com/sky22333/hub-proxy)
     * [https://gh.catmak.name](https://gh.catmak.name)
+* [https://github.com/Codfish789/github-proxy](https://github.com/Codfish789/github-proxy)
+    * [https://help.6github.com](https://help.6github.com)
+    * [https://2github.com](https://2github.com)
+    * [https://4github.com](https://4github.com)
+    * [https://5github.com](https://5github.com)
+    * [https://7github.com](https://7github.com)
 * [https://github.com/git-cloner](https://github.com/git-cloner)
-    * [https://gitclone.com](https://gitclone.com) 中国浙江
-* [https://gh-proxy.com](https://gh-proxy.com)
-    * [http://gh-proxy.org](http://gh-proxy.org)
 * [https://github.com/BaseMax/GitHubMirror](https://github.com/BaseMax/GitHubMirror)
 * [https://github.com/RC1844/FastGithub](https://github.com/RC1844/FastGithub)
+* [https://gh-proxy.com](https://gh-proxy.com)
+    * [http://gh-proxy.org](http://gh-proxy.org)
 * [https://githubfast.com](https://githubfast.com)
+* [https://ghfast.top](https://ghfast.top)
 * [https://github.com/7ednet/yard](https://github.com/7ednet/yard)
-    * [https://www.7ed.net/gitmirror/hub.html](https://www.7ed.net/gitmirror/hub.html)
-    * [https://gitmirror.com](https://gitmirror.com)
-    * [https://gh.con.sh](https://gh.con.sh)
+    * [https://www.7ed.net](https://www.7ed.net)
 * [https://github.com/521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520)
 * [https://github.com/Geekertao/CF-Workers-GitHub-Proxy](https://github.com/Geekertao/CF-Workers-GitHub-Proxy)
+* [https://cdn.jsdelivr.net](https://cdn.jsdelivr.net) 中国国内
+    * [https://cdn.jsdelivr.net/gh](https://cdn.jsdelivr.net/gh)
 
 
 - [https://greasyfork.org/zh-CN/scripts/412245](https://greasyfork.org/zh-CN/scripts/412245)
@@ -223,35 +227,9 @@ volumes:
 - [https://github.com/maxiaof/github-hosts](https://github.com/maxiaof/github-hosts)
 - [https://github.com/Potterli20/hosts](https://github.com/Potterli20/hosts)
 - [https://gitee.com/if-the-wind/github-hosts](https://gitee.com/if-the-wind/github-hosts)
-- [https://codechina.csdn.net/mirrors](https://codechina.csdn.net/mirrors)
 - [https://releasealert.dev](https://releasealert.dev)
-- [https://fcp7.com/github-mirror-daily-updates.html](https://fcp7.com/github-mirror-daily-updates.html)
 - [https://github.com/jvxiao/speed-github](https://github.com/jvxiao/speed-github)
-- [https://bgithub.xyz](https://bgithub.xyz)
-- [https://2github.com](https://2github.com)
 - [https://github.com/xixu-me/xget](https://github.com/xixu-me/xget)
-
-
-**Raw 文件加速**
-
-* [https://cdn.jsdelivr.net](https://cdn.jsdelivr.net) 中国国内
-    * [https://cdn.jsdelivr.net/gh](https://cdn.jsdelivr.net/gh)
-* [https://cdn.staticaly.com](https://cdn.staticaly.com) 日本东京
-
-
-**刷新DNS缓存**
-
-```bash
-# macOS
-killall -HUP mDNSResponder
-dscacheutil -flushcache
-# Windows
-ipconfig /flushdns
-# Linux
-service nscd restart
-# Ubuntu
-sudo /etc/init.d/dns-clean start
-```
 
 
 

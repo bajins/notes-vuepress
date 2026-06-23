@@ -9,6 +9,7 @@
 
 + [https://github.com/griffon/griffon](https://github.com/griffon/griffon)
     + [https://github.com/griffon-plugins](https://github.com/griffon-plugins)
++ [https://github.com/basilisk-fw/basilisk](https://github.com/basilisk-fw/basilisk)
 + [https://github.com/bobbylight/RSyntaxTextArea](https://github.com/bobbylight/RSyntaxTextArea)
 
 
@@ -71,7 +72,7 @@
 - [https://github.com/hervegirod/fxsvgimage](https://github.com/hervegirod/fxsvgimage)
 - 图标包 [https://github.com/kordamp/ikonli](https://github.com/kordamp/ikonli) `[Java/JavaFX/Swing 图标]`
 - 扁平UI [https://github.com/JFormDesigner/FlatLaf](https://github.com/JFormDesigner/FlatLaf) `[Swing]`
-- UI 控件 [https://github.com/controlsfx](https://github.com/controlsfx) `[JavaFX]`
+- UI 控件 [https://github.com/controlsfx/controlsfx](https://github.com/controlsfx/controlsfx) `[JavaFX]`
 - [https://github.com/mgarin/weblaf](https://github.com/mgarin/weblaf) `[Swing]`
 - [https://github.com/eclipse/nebula](https://github.com/eclipse/nebula) `[SWT]`
 - [https://github.com/dlsc-software-consulting-gmbh](https://github.com/dlsc-software-consulting-gmbh) `[JavaFX]`
@@ -81,19 +82,21 @@
 - [https://github.com/mkpaz/atlantafx](https://github.com/mkpaz/atlantafx) `[JavaFX]`
     - [https://github.com/chengenzhao/fxcity](https://github.com/chengenzhao/fxcity)
 - [https://github.com/panemu/tiwulfx-dock](https://github.com/panemu/tiwulfx-dock) `[JavaFX]`
-- [https://github.com/sshahine/JFoenix](https://github.com/sshahine/JFoenix) `[JavaFX]`
-- Google Material Design [https://github.com/jfoenixadmin/JFoenix](https://github.com/jfoenixadmin/JFoenix) `[JavaFX]`
+- Google Material Design [https://github.com/sshahine/JFoenix](https://github.com/sshahine/JFoenix) `[JavaFX]`
+- [https://github.com/jfoenixadmin/JFoenix](https://github.com/jfoenixadmin/JFoenix) `[JavaFX]`
 - [https://github.com/weisJ/darklaf](https://github.com/weisJ/darklaf) `[Swing IDEA风]`
     - [https://github.com/bulenkov/Darcula](https://github.com/bulenkov/Darcula) `[Swing]`
 - [https://github.com/JFXtras/jfxtras-styles](https://github.com/JFXtras/jfxtras-styles) `[JavaFX 样式补充]`
 - [https://github.com/mcfoggy/cssfx](https://github.com/mcfoggy/cssfx)
 - [https://github.com/micheljung/jfx-waitomo-theme](https://github.com/micheljung/jfx-waitomo-theme) `[JavaFX]`
+- [https://github.com/Eroica/javafx-fluent-theme](https://github.com/Eroica/javafx-fluent-theme) `[JavaFX]`
 - Bootstrap样式 [https://github.com/dicolar/jbootx](https://github.com/dicolar/jbootx) `[JavaFX]`
 - [https://github.com/edvin/tornadofx-controls](https://github.com/edvin/tornadofx-controls) `[JavaFX]`
 - [https://github.com/kordamp/bootstrapfx](https://github.com/kordamp/bootstrapfx) `[JavaFX]`
     - [https://github.com/aalmiray](https://github.com/aalmiray)
 - 对话框 [https://github.com/AmirAli-AZ/FXDialogs](https://github.com/AmirAli-AZ/FXDialogs) `[JavaFX 对话框]`
 - [https://github.com/dustinkredmond/FXAlert](https://github.com/dustinkredmond/FXAlert) `[JavaFX 对话框/Alert]`
+- [https://github.com/Mr-Po/toasterfx](https://github.com/Mr-Po/toasterfx) `[JavaFX Toast]`
 - 表格 [https://github.com/techsenger/tabpanepro](https://github.com/techsenger/tabpanepro) `[JavaFX TabPane 扩展]`
 - 动画库 [https://github.com/Typhon0/AnimateFX](https://github.com/Typhon0/AnimateFX) `[JavaFX 动画]`
 - 仪表板 [https://github.com/HanSolo](https://github.com/HanSolo) `[JavaFX 仪表盘/图表/控件集合]`
@@ -101,8 +104,10 @@
 - 等离子画布 [https://github.com/bertjan/javafx-canvas-plasma](https://github.com/bertjan/javafx-canvas-plasma) `[JavaFX Canvas 演示]`
 - 进度条 [https://github.com/ctongfei/progressbar](https://github.com/ctongfei/progressbar) `[控制台进度条/非GUI]`
 - 3D [https://github.com/JogAmp](https://github.com/JogAmp) `[JOGL/OpenGL 3D 绑定]`
+- [https://github.com/kordamp/jsilhouette](https://github.com/kordamp/jsilhouette) `[JavaFX 3D]`
 - [https://github.com/saalfeldlab/paintera](https://github.com/saalfeldlab/paintera) `[JavaFX 3D 可视化/标注工具]`
 - [https://github.com/FXyz/FXyz](https://github.com/FXyz/FXyz) `[JavaFX 3D 形状/组件]`
+- [https://github.com/jfree/orson-charts](https://github.com/jfree/orson-charts) `[Java 2D 图表]`
 - 缩放 [https://github.com/miho/ScaledFX](https://github.com/miho/ScaledFX) `[JavaFX 缩放布局]`
 - [https://github.com/tom91136/GestureFX](https://github.com/tom91136/GestureFX) `[JavaFX 手势/缩放面板]`
 - 布局算法 [https://github.com/AmaronUI/amaronui-layouts](https://github.com/AmaronUI/amaronui-layouts) `[JavaFX Flexbox]`
@@ -141,6 +146,7 @@
 
 
 
+* [https://github.com/TestFX/TestFX](https://github.com/TestFX/TestFX) `[JavaFX 测试框架]`
 * 模块化打包 [https://github.com/openjfx/javafx-maven-plugin](https://github.com/openjfx/javafx-maven-plugin)
 * [https://github.com/bsels/javafx-maven-plugin](https://github.com/bsels/javafx-maven-plugin)
 * [https://github.com/gluonhq/gluonfx-maven-plugin](https://github.com/gluonhq/gluonfx-maven-plugin)

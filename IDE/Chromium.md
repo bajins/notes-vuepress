@@ -589,6 +589,7 @@ taskkill /f /im chromedriver.exe
     * [https://greasyfork.org/zh-CN/scripts/512984](https://greasyfork.org/zh-CN/scripts/512984) 有广告
     * [https://github.com/dongyubin/Baidu-VIP](https://github.com/dongyubin/Baidu-VIP)
     * [https://github.com/smartacephale/sleazy-fork](https://github.com/smartacephale/sleazy-fork)
+    * [https://git.nite07.com/nite/user-scripts](https://git.nite07.com/nite/user-scripts)
     * 小说下载 [https://github.com/404-novel-project/novel-downloader](https://github.com/404-novel-project/novel-downloader)
     * 微博 [https://greasyfork.org/zh-CN/scripts/by-site/weibo.com](https://greasyfork.org/zh-CN/scripts/by-site/weibo.com)
 * 暴力猴 [https://github.com/violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey)
