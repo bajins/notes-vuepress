@@ -465,7 +465,8 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/tenngoxars/WeMD](https://github.com/tenngoxars/WeMD)
 
 
-- [mp-transform-public](https://github.com/ZhuPeng/mp-transform-public)
+- [https://github.com/ZhuPeng/mp-transform-public](https://github.com/ZhuPeng/mp-transform-public)
+- 封面生成 [https://github.com/eternityspring/article-tools](https://github.com/eternityspring/article-tools)
 
 
 

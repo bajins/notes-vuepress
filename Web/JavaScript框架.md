@@ -53,7 +53,6 @@
 * [https://github.com/Smashing/smashing](https://github.com/Smashing/smashing)
     * [https://github.com/Shopify/dashing](https://github.com/Shopify/dashing)
     * [https://github.com/keen](https://github.com/keen)
-* [https://github.com/storybookjs](https://github.com/storybookjs)
 * [https://github.com/redwoodjs](https://github.com/redwoodjs)
 * 数据获取 [https://github.com/tanstack/query](https://github.com/tanstack/query)
 

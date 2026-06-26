@@ -18,7 +18,8 @@
 
 
 * [https://github.com/Boris-code/feapder](https://github.com/Boris-code/feapder)
-* [https://github.com/pyppeteer/pyppeteer](https://github.com/pyppeteer/pyppeteer)
+* [https://github.com/microsoft/playwright-python](https://github.com/microsoft/playwright-python)
+* ~~[https://github.com/pyppeteer/pyppeteer](https://github.com/pyppeteer/pyppeteer)~~
 * [https://github.com/autoscrape-labs/pydoll](https://github.com/autoscrape-labs/pydoll)
 * [https://github.com/hyperiongray/trio-chrome-devtools-protocol](https://github.com/hyperiongray/trio-chrome-devtools-protocol)
 * [https://github.com/chuckus/chromewhip](https://github.com/chuckus/chromewhip)

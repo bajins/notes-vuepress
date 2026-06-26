@@ -342,6 +342,7 @@
 * [https://github.com/AdguardTeam/dnsproxy](https://github.com/AdguardTeam/dnsproxy)
 * DNS扫描 [https://github.com/pwnesia/dnstake](https://github.com/pwnesia/dnstake)
 * [https://github.com/zartbot/ztrace](https://github.com/zartbot/ztrace)
+* [https://github.com/palemoky/dnspick](https://github.com/palemoky/dnspick)
 * 客户端 [https://github.com/mr-karan/doggo](https://github.com/mr-karan/doggo)
 * [https://github.com/ogham/dog](https://github.com/ogham/dog)
 * [https://sourceforge.net/projects/acrylic](https://sourceforge.net/projects/acrylic)
@@ -680,6 +681,7 @@
 * 在线PS [https://github.com/viliusle/miniPaint](https://github.com/viliusle/miniPaint)
     * [https://zaixianps.net](https://zaixianps.net)
 * [https://github.com/CH563/shot-easy-website](https://github.com/CH563/shot-easy-website)
+* 模拟摄影棚灯光 [https://github.com/oukeming64-tech/direct-light](https://github.com/oukeming64-tech/direct-light)
 * 抠图 [https://github.com/topics/background-removal](https://github.com/topics/background-removal)
 * [https://github.com/imgly/background-removal-js](https://github.com/imgly/background-removal-js)
 * [https://github.com/addyosmani/bg-remove](https://github.com/addyosmani/bg-remove)
@@ -861,6 +863,7 @@
 * 实时计算笔记 [https://github.com/2234839/TsFullStack](https://github.com/2234839/TsFullStack)
 * 批量重命名文件 [https://github.com/chenz24/rename.tools](https://github.com/chenz24/rename.tools)
 * 字幕字体管理 [https://github.com/Yuri-NagaSaki/FontInAss](https://github.com/Yuri-NagaSaki/FontInAss)
+* 解密流程 [https://github.com/marlkiller/flowforge-crypto](https://github.com/marlkiller/flowforge-crypto)
 
 
 

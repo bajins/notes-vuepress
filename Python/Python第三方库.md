@@ -109,6 +109,7 @@
 * Windows进程内存操作 [https://github.com/srounet/Pymem](https://github.com/srounet/Pymem)
 * 桌面用户数据目录 [https://github.com/tox-dev/platformdirs](https://github.com/tox-dev/platformdirs)
 * 虚拟摄像头 [https://github.com/letmaik/pyvirtualcam](https://github.com/letmaik/pyvirtualcam)
+* 模板引擎 [https://github.com/pallets/jinja2](https://github.com/pallets/jinja2)
 
 
 

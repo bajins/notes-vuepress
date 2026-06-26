@@ -31,6 +31,7 @@
 - [https://github.com/beyondgrep/ack3](https://github.com/beyondgrep/ack3)
 - [https://sourceforge.net/projects/zsh](https://sourceforge.net/projects/zsh)
 - [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+    - [https://github.com/luyangkk/powerlens](https://github.com/luyangkk/powerlens)
 - [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
 - [https://github.com/zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [https://github.com/spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt)
@@ -283,6 +284,7 @@
 * [https://github.com/topics/ssh](https://github.com/topics/ssh)
 * [https://github.com/francoismichel/ssh3](https://github.com/francoismichel/ssh3)
 * [https://github.com/mskyaxl/wsl-terminal](https://github.com/mskyaxl/wsl-terminal)
+* SSH密钥管理 [https://github.com/baerwang/ssh-atch](https://github.com/baerwang/ssh-atch)
 
 
 
